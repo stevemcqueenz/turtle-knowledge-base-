@@ -235,7 +235,7 @@ routinely apologize pre-emptively for a possible duplicate question rather than 
 24 posts. Turtle WoW's guild-housing feature has no official location index (see §3); questions here
 skew toward "how does the paid Guild Quarters Deed work" and reactions to its gold cost:
 
-> "My name is Doralo the leader of the Merc Guild Murky Waters. We have a guild house located at
+> "My name is Player-0050 the leader of the Merc Guild Murky Waters. We have a guild house located at
 > Hillsbrad Foothills at coordinates 14.2,47.7. [...] Unfortunately our tabard teleport does not work
 > to this location."
 — [Player-0050 (player), 2023-03-28, pre-1.18.1](https://forum.turtlecraft.gg/viewtopic.php?p=39360#p39360)

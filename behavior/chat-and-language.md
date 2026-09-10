@@ -104,7 +104,7 @@ lore-flavored banners. Three recurring shapes:
 
 **ESL/non-native register**, common from smaller international guilds:
 
-> "Hello everyone, it's Str! <hoge> is a guild for ENG/JPN speaker! We play Hardcore mode. (AKA 1 Life
+> "Hello everyone, it's Player-0009! <hoge> is a guild for ENG/JPN speaker! We play Hardcore mode. (AKA 1 Life
 > mode) We always help each other. (Friendly, Teamwork, Teamplay) We have 5members for now. But this
 > is not enuff. [...] Pls try /who hoge and PST for more detail if interested!"
 — [Player-0009 (player), 2023-08-26, pre-1.18.1](https://forum.turtlecraft.gg/viewtopic.php?p=59081#p59081)
