@@ -14,11 +14,11 @@ status_legend:
   released: listed in the official notes at release, or shipped pre-release on 1.18.0 (no per-item live verification in the sources)
   hotfixed: introduced or changed by a dated post-release hotfix
   announced: promised for after release; no source confirms it went live
-  unclear: player-sourced only, contradicted by player reports, or the linked source is missing from the repository
+  unclear: player-sourced only, contradicted by player reports, or otherwise not confirmed by a staff post
   reverted: reverted (none found)
-missing_sources:
-- Class Changes changelog viewtopic.php?p=166071#p166071
-- Itemization Changelog viewtopic.php?f=70&t=23973
+linked_changelogs:
+  class_changes: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  itemization: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
 entries:
 - id: zone-moonwhisper-coast
   system: zones
@@ -2054,22 +2054,6 @@ entries:
   source_date: '2026-03-17'
   status: released
   notes: Pre-release event on 1.18.0; ended on release day.
-- id: class-changelog-external
-  system: classes
-  subsystem: all
-  entity: Class Changes changelog (p=166071)
-  entity_ids: []
-  change: Preliminary class changelog published separately.
-  before: null
-  after: The notes say "this is a preliminary changelog. Further changes may still be made" and link to viewtopic.php?p=166071#p166071.
-  numbers: null
-  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
-  source_author: Torta
-  source_authority: staff
-  source_date: '2025-10-03'
-  status: unclear
-  notes: The per-class 1.18.1 class-changes changelog was posted as viewtopic.php?p=166071 (linked from the notes) and is NOT in this repository; only changes surfaced by the general notes, hotfixes and
-    player quotes are listed.
 - id: class-shaman-earthquake-fixes
   system: classes
   subsystem: Shaman
@@ -2086,7 +2070,7 @@ entries:
   status: released
   notes: 'Player reports: Elemental players say Earthquake was changed/nerfed in 1.18.1 and ask to revert to 1.18.0 behaviour; "even using new Totem of Distant Tremors, it still highly underperform". —
     [Mdzielak (player), 2026-03-27](https://forum.turtlecraft.gg/viewtopic.php?p=172687#p172687), [Mdzielak (player), 2026-04-01](https://forum.turtlecraft.gg/viewtopic.php?p=173551#p173551), [Kokuyoo (player),
-    2026-04-07](https://forum.turtlecraft.gg/viewtopic.php?p=174373#p174373)'
+    2026-04-07](https://forum.turtlecraft.gg/viewtopic.php?p=174373#p174373) Also: Earthquake +15% / 18 s cd in the class changelog — [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)'
 - id: class-shaman-earthquake-aftershock
   system: classes
   subsystem: Shaman
@@ -2116,7 +2100,7 @@ entries:
   source_authority: staff
   source_date: '2025-10-03'
   status: released
-  notes: null
+  notes: 'Also: class changelog — [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071) | itemization changelog — [Dragunovi (staff), 2026-02-15](https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272)'
 - id: class-shaman-enh-t25
   system: classes
   subsystem: Shaman
@@ -2131,7 +2115,7 @@ entries:
   source_authority: staff
   source_date: '2026-03-21'
   status: hotfixed
-  notes: Implies the external class/itemization changelog changed the Enhancement T2.5 set.
+  notes: 'Implies the external class/itemization changelog changed the Enhancement T2.5 set. Also: the T2.5 5-set rework being fixed — [Dragunovi (staff), 2026-02-15](https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272)'
 - id: class-shaman-flurry
   system: classes
   subsystem: Shaman
@@ -2149,7 +2133,8 @@ entries:
   notes: 'Player reports: Enhancement Flurry "should" trigger on all offensive melee and spell crits incl. Flametongue/Frostbrand imbues but only triggered from direct spell crits, Stormstrike and Lightning
     Strike, and was overwritten by the Windfury effect from Elemental Weapons. — [Splitsec (player), 2026-03-21](https://forum.turtlecraft.gg/viewtopic.php?p=171655#p171655), [Volth (player), 2026-03-22](https://forum.turtlecraft.gg/viewtopic.php?p=171740#p171740)
     | After the Mar 25 fix a player asks whether Windfury from Elemental Weapons still overrides Flurry. — [Travoltino (player), 2026-03-24](https://forum.turtlecraft.gg/viewtopic.php?p=172153#p172153)
-    Also: trigger conditions — [Torta (staff), 2026-03-24](https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139) | Rushing Winds stacking — [Torta (staff), 2026-03-31](https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490)'
+    Also: trigger conditions — [Torta (staff), 2026-03-24](https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139) | Rushing Winds stacking — [Torta (staff), 2026-03-31](https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490)
+    | the Flurry rework this hotfix adjusts — [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)'
 - id: class-shaman-earthen-bulwark
   system: classes
   subsystem: Shaman
@@ -2166,7 +2151,7 @@ entries:
   status: hotfixed
   notes: 'Player reports: Rockbiter/earthen shield only stacked from white auto attacks, not Stormstrike or Lightning Strike; reported before and after the Mar 25 hotfix ("This still doesnt work"; "STILL
     not stacking"). — [Travoltino (player), 2026-03-21](https://forum.turtlecraft.gg/viewtopic.php?p=171660#p171660), [Travoltino (player), 2026-03-25](https://forum.turtlecraft.gg/viewtopic.php?p=172349#p172349),
-    [Travoltino (player), 2026-04-07](https://forum.turtlecraft.gg/viewtopic.php?p=174380#p174380)'
+    [Travoltino (player), 2026-04-07](https://forum.turtlecraft.gg/viewtopic.php?p=174380#p174380) Also: the Rockbiter rework this hotfix adjusts — [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)'
 - id: class-shaman-lightning-strike
   system: classes
   subsystem: Shaman
@@ -2181,7 +2166,8 @@ entries:
   source_authority: staff
   source_date: '2026-03-24'
   status: hotfixed
-  notes: 'Player reports: Lightning Strike still disappears from the talent tree after relog. — [Gottabe (player), 2026-03-25](https://forum.turtlecraft.gg/viewtopic.php?p=172467#p172467)'
+  notes: 'Player reports: Lightning Strike still disappears from the talent tree after relog. — [Gottabe (player), 2026-03-25](https://forum.turtlecraft.gg/viewtopic.php?p=172467#p172467) Also: Water Shield
+    ratio change — [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)'
 - id: class-shaman-zealous-defence
   system: classes
   subsystem: Shaman
@@ -2227,21 +2213,6 @@ entries:
   source_date: '2026-04-07'
   status: hotfixed
   notes: null
-- id: class-shaman-windfury-25
-  system: classes
-  subsystem: Shaman
-  entity: Windfury Weapon
-  entity_ids: []
-  change: Proc chance raised (player-quoted).
-  before: 20%
-  after: Each hit now has a 25% chance.
-  numbers: 25% (was 20%)
-  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171418#p171418
-  source_author: Terrydavis
-  source_authority: player
-  source_date: '2026-03-20'
-  status: unclear
-  notes: 'Quoted by a player from the class changelog, not from a staff post in this repo: [Terrydavis (player), 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171418#p171418).'
 - id: class-shaman-totem-thundercall-faction
   system: classes
   subsystem: Shaman
@@ -2275,7 +2246,7 @@ entries:
     [Ellifta (player), 2026-03-23](https://forum.turtlecraft.gg/viewtopic.php?p=171906#p171906), [Aleyar (player), 2026-03-24](https://forum.turtlecraft.gg/viewtopic.php?p=172110#p172110) | Reported fixed
     after a restart on 2026-03-23 evening. — [Ellifta (player), 2026-03-24](https://forum.turtlecraft.gg/viewtopic.php?p=172112#p172112) | Holy Strike heals full-health targets next to dying players; later
     question whether it now only heals party instead of closest 4; bug report id 21117. — [Andant (player), 2026-03-28](https://forum.turtlecraft.gg/viewtopic.php?p=172826#p172826), [Ellifta (player), 2026-03-31](https://forum.turtlecraft.gg/viewtopic.php?p=173520#p173520),
-    [Eroh (player), 2026-04-08](https://forum.turtlecraft.gg/viewtopic.php?p=174397#p174397)'
+    [Eroh (player), 2026-04-08](https://forum.turtlecraft.gg/viewtopic.php?p=174397#p174397) Also: Holy Strike rework in the class changelog — [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)'
 - id: class-paladin-mending-light
   system: classes
   subsystem: Paladin
@@ -2366,37 +2337,7 @@ entries:
   source_authority: staff
   source_date: '2026-03-24'
   status: hotfixed
-  notes: null
-- id: class-priest-ascendence
-  system: classes
-  subsystem: Priest
-  entity: Ascendence (new Holy capstone talent, player-described)
-  entity_ids: []
-  change: New capstone talent (player description).
-  before: null
-  after: Described by a player as granting casting speed, a mana reduction and 15% healing received; player calls it overpowered. Also mentions "buffed prayer of healing and the lightwell changes".
-  numbers: null
-  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172878#p172878
-  source_author: Ayesha
-  source_authority: player
-  source_date: '2026-03-28'
-  status: unclear
-  notes: Not in any staff post in this repo. [Ayesha (player), 2026-03-28](https://forum.turtlecraft.gg/viewtopic.php?p=172878#p172878)
-- id: class-priest-blackout-move
-  system: classes
-  subsystem: Priest
-  entity: Blackout (talent position, proposed)
-  entity_ids: []
-  change: Proposed move deeper into Shadow tree (player-described).
-  before: null
-  after: Pre-release players discuss a proposal to move Blackout deeper into the Shadow tree and Lightwell changes.
-  numbers: null
-  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=169572#p169572
-  source_author: Gerganon
-  source_authority: player
-  source_date: '2026-02-28'
-  status: unclear
-  notes: 'From player discussion of the external class changelog: [Gerganon (player), 2026-02-28](https://forum.turtlecraft.gg/viewtopic.php?p=169572#p169572), [Gerganon (player), 2026-03-04](https://forum.turtlecraft.gg/viewtopic.php?p=170014#p170014)'
+  notes: 'Also: Lightwell rework in the class changelog — [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)'
 - id: class-druid-pollen-burst
   system: classes
   subsystem: Druid
@@ -2502,7 +2443,7 @@ entries:
   source_authority: staff
   source_date: '2026-03-31'
   status: hotfixed
-  notes: null
+  notes: 'Also: Warlock section of the class changelog — [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)'
 - id: class-warlock-abolish-on-demons
   system: classes
   subsystem: Warlock
@@ -2547,7 +2488,8 @@ entries:
   source_authority: player
   source_date: '2026-03-22'
   status: unclear
-  notes: '[daleking0518 (player), 2026-03-22](https://forum.turtlecraft.gg/viewtopic.php?p=171717#p171717)'
+  notes: '[daleking0518 (player), 2026-03-22](https://forum.turtlecraft.gg/viewtopic.php?p=171717#p171717) Also: Curse of Exhaustion 8% → 14% and Curse of Tongues R2 110 → 240 mana are the listed Affliction
+    cost increases — [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)'
 - id: class-warlock-improved-stones
   system: classes
   subsystem: Warlock
@@ -2607,7 +2549,7 @@ entries:
   source_authority: staff
   source_date: '2025-10-03'
   status: released
-  notes: null
+  notes: 'Also: itemization changelog: also Warlock pets — [Dragunovi (staff), 2026-02-15](https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272)'
 - id: class-hunter-scorpid-poison-calc
   system: classes
   subsystem: Hunter
@@ -2622,7 +2564,8 @@ entries:
   source_authority: staff
   source_date: '2026-03-24'
   status: hotfixed
-  notes: 'Player reports: BM hunter says the fix lowered his damage 300-400 DPS relative to rogues. — [Topmoo (player), 2026-03-24](https://forum.turtlecraft.gg/viewtopic.php?p=172191#p172191)'
+  notes: 'Player reports: BM hunter says the fix lowered his damage 300-400 DPS relative to rogues. — [Topmoo (player), 2026-03-24](https://forum.turtlecraft.gg/viewtopic.php?p=172191#p172191) Also: poison
+    scaling changes — [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)'
 - id: class-hunter-serpent-sting-poison-spit
   system: classes
   subsystem: Hunter
@@ -2713,7 +2656,7 @@ entries:
   source_authority: staff
   source_date: '2025-10-03'
   status: released
-  notes: null
+  notes: 'Also: revision 19 Mar in the class changelog — [Jamey (staff), 2026-03-19](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)'
 - id: class-rogue-deadly-poison-calc
   system: classes
   subsystem: Rogue
@@ -2728,23 +2671,7 @@ entries:
   source_authority: staff
   source_date: '2026-03-24'
   status: hotfixed
-  notes: null
-- id: class-rogue-taste-for-blood-poisons
-  system: classes
-  subsystem: Rogue
-  entity: Taste for Blood / Noxious Assault
-  entity_ids: []
-  change: Player-described nerf.
-  before: null
-  after: 'Player: "Noxious assault rogues got the biggest nerf in this patch, with taste for blood no longer affecting poisons"; pre-release discussion of an Assassination nerf outline.'
-  numbers: null
-  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172282#p172282
-  source_author: Crake
-  source_authority: player
-  source_date: '2026-03-25'
-  status: unclear
-  notes: '[Crake (player), 2026-03-25](https://forum.turtlecraft.gg/viewtopic.php?p=172282#p172282), [Heretic1987 (player), 2026-02-05](https://forum.turtlecraft.gg/viewtopic.php?p=167504#p167504), [Badcloud
-    (player), 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171469#p171469)'
+  notes: 'Also: poison scaling changes — [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)'
 - id: class-warrior-flurry-consumed
   system: classes
   subsystem: Warrior
@@ -2759,7 +2686,7 @@ entries:
   source_authority: staff
   source_date: '2026-03-21'
   status: hotfixed
-  notes: null
+  notes: 'Also: Flurry/Slam correction in the class changelog — [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)'
 - id: class-warrior-tier-variants
   system: classes
   subsystem: Warrior
@@ -2925,21 +2852,6 @@ entries:
   source_date: '2026-02-17'
   status: unclear
   notes: '[Fugus (player), 2026-02-17](https://forum.turtlecraft.gg/viewtopic.php?p=168509#p168509), [Fugus (player), 2026-04-15](https://forum.turtlecraft.gg/viewtopic.php?p=175357#p175357)'
-- id: item-itemization-changelog-external
-  system: items
-  subsystem: itemization changelog
-  entity: Itemization Changelog (f=70&t=23973)
-  entity_ids: []
-  change: Published separately.
-  before: null
-  after: The notes link the itemization changelog at viewtopic.php?f=70&t=23973 ("all changes are subject to change"); that thread is not in this repository.
-  numbers: null
-  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
-  source_author: Torta
-  source_authority: staff
-  source_date: '2025-10-03'
-  status: unclear
-  notes: null
 - id: item-nightmare-gear-mounts
   system: items
   subsystem: new items
@@ -2969,7 +2881,7 @@ entries:
   source_authority: staff
   source_date: '2025-10-03'
   status: released
-  notes: null
+  notes: 'Also: new effect text — [Dragunovi (staff), 2026-02-15](https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272)'
 - id: item-rakashishi-proc-name
   system: items
   subsystem: weapons
@@ -2984,7 +2896,7 @@ entries:
   source_authority: staff
   source_date: '2025-10-03'
   status: released
-  notes: null
+  notes: 'Also: itemization changelog (full name Raka''shishi, Spear of the Adrift Hunt) — [Dragunovi (staff), 2026-02-15](https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272)'
 - id: item-highlanders-intent
   system: items
   subsystem: sets
@@ -3104,7 +3016,7 @@ entries:
   source_authority: staff
   source_date: '2025-10-03'
   status: released
-  notes: null
+  notes: 'Also: itemization changelog: "Hunter or Warlock Pet" — [Dragunovi (staff), 2026-02-15](https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272)'
 - id: item-elixir-greater-agility-mongoose
   system: items
   subsystem: consumable stacking
@@ -4048,7 +3960,9 @@ entries:
   status: released
   notes: 'Player reports: No dampening numbers published as of release day. — [M0thra (player), 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171435#p171435) | "Dynamic damage reduction for classes
     works terribly". — [Baek (player), 2026-03-28](https://forum.turtlecraft.gg/viewtopic.php?p=172844#p172844) | Pets are not affected by the debuff. — [Bugranger (player), 2026-03-02](https://forum.turtlecraft.gg/viewtopic.php?p=169733#p169733)
-    Also: restated — [Jamey (staff), 2026-03-02](https://forum.turtlecraft.gg/viewtopic.php?p=169701#p169701) | "see the class-changes changelog" — [Torta (staff), 2026-02-17](https://forum.turtlecraft.gg/viewtopic.php?p=168532#p168532)'
+    Also: restated — [Jamey (staff), 2026-03-02](https://forum.turtlecraft.gg/viewtopic.php?p=169701#p169701) | "see the class-changes changelog" — [Torta (staff), 2026-02-17](https://forum.turtlecraft.gg/viewtopic.php?p=168532#p168532)
+    | class changelog: "More information regarding numbers will be given at a later date"; Developer Comment: class-dependent values free up design space without player-target exceptions — [Jamey (staff),
+    2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)'
 - id: pvp-thorn-gorge
   system: pvp
   subsystem: battlegrounds
@@ -5136,4 +5050,2663 @@ entries:
   source_authority: staff
   source_date: '2026-03-31'
   status: unclear
+  notes: null
+- id: cc-all-relic-swap-gcd
+  system: classes
+  subsystem: all
+  entity: Librams / Totems / Idols swap in combat
+  entity_ids: []
+  change: Swapping relics in combat now incurs a GCD.
+  before: null
+  after: Swapping Librams, Totems and Idols in combat now properly incurs a GCD.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Developer Comment: "an ongoing quirk that was being (ab)used"; moved from weekly changelog to the Class Changes cycle because of its gravity.'
+- id: cc-druid-maul-savage-bite-threat
+  system: classes
+  subsystem: Druid
+  entity: Maul / Savage Bite (threat)
+  entity_ids: []
+  change: Threat modifiers reduced.
+  before: null
+  after: Maul threat modifier reduced by 15%; Savage Bite threat modifier reduced by 12%.
+  numbers: -15% / -12%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Developer Comment: Feral Bears "overly prominent in their threat output, leaving little room for other tanks".'
+- id: cc-druid-balance-of-all-things
+  system: classes
+  subsystem: Druid
+  entity: Balance of All Things (talent)
+  entity_ids: []
+  change: Reduced to 3 points and reworked.
+  before: 5-point talent
+  after: 'Wrath on a target affected by Insect Swarm returns 10/20/30% of its mana cost; Starfire has 2/4/6% higher crit chance against targets affected by Moonfire. Revision 2026-01-26: Starfire crit bonus
+    increased to 3/6/9%.'
+  numbers: 3 points; 10/20/30% mana; Starfire crit +3/6/9% (initially 2/4/6%)
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Player reports: Balance player still finds Eclipse/Starfire gameplay "off" after the crit changes. — [Auralys (player), 2026-03-23](https://forum.turtlecraft.gg/viewtopic.php?p=172021#p172021)
+    Also: revision 26 Jan — [Jamey (staff), 2026-01-26](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)'
+- id: cc-druid-moonfury
+  system: classes
+  subsystem: Druid
+  entity: Moonfury (talent)
+  entity_ids: []
+  change: Bonus increased.
+  before: null
+  after: Increased bonus to 4/8/12%.
+  numbers: 4/8/12%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-26'
+  status: released
+  notes: null
+- id: cc-druid-eclipse-proc
+  system: classes
+  subsystem: Druid
+  entity: Eclipse
+  entity_ids: []
+  change: Proc chances set.
+  before: null
+  after: Damage from Wrath has a 40% chance and damage from Starfire a 60% chance to proc their beneficial effects.
+  numbers: 40% Wrath / 60% Starfire
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-03-19'
+  status: released
+  notes: null
+- id: cc-hunter-aspect-of-the-viper
+  system: classes
+  subsystem: Hunter
+  entity: Aspect of the Viper (new spell)
+  entity_ids: []
+  change: New spell at level 56.
+  before: null
+  after: Regenerates 5% of maximum mana every 5 seconds; only one Aspect active at a time; no mana cost.
+  numbers: level 56; 5% max mana / 5 s
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Developer Comment: passive mana regain with the drawback of occupying an Aspect slot.'
+- id: cc-hunter-trueshot-aura-baseline
+  system: classes
+  subsystem: Hunter
+  entity: Trueshot Aura
+  entity_ids: []
+  change: Now baseline at level 40 (toned down).
+  before: Talent capstone
+  after: Increases attack power of party members within 45 yards by 3%, plus an additional 30.
+  numbers: level 40; +3% AP +30; 45 yd
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Developer Comment: "a design-limiting ability and an uninteresting capstone".'
+- id: cc-hunter-steady-shot-baseline
+  system: classes
+  subsystem: Hunter
+  entity: Steady Shot
+  entity_ids: []
+  change: Now baseline at level 20.
+  before: Talent
+  after: Steady Shot is baseline, learned at level 20.
+  numbers: level 20
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-hunter-volley
+  system: classes
+  subsystem: Hunter
+  entity: Volley
+  entity_ids: []
+  change: Cast instead of channel; cheaper; AP scaling.
+  before: Continuous channeled ability; 350/420/490 mana; no AP scaling
+  after: 3 second cast; mana Rank 1 (40) 350→210, Rank 2 (50) 420→270, Rank 3 (60) 490→330; Attack Power scaling 4%/5%/6% per rank; spell power scaling unchanged.
+  numbers: 3 s cast; 210/270/330 mana; 4/5/6% AP
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-hunter-arcane-shot
+  system: classes
+  subsystem: Hunter
+  entity: Arcane Shot
+  entity_ids: []
+  change: Base damage down, ranged weapon damage scaling added.
+  before: R1-R8 base damage 13/21/33/59/83/115/145/183, no weapon damage scaling
+  after: 'R1 (6): 13→10 +10% RWD; R2 (12): 21→17 +15%; R3 (20): 33→27 +20%; R4 (28): 59→48 +25%; R5 (36): 83→71 +30%; R6 (44): 115→101 +35%; R7 (52): 145→129 +40%; R8 (60): 183→166 +45%. Spell power scaling
+    unchanged. Revision 2026-03-19: mana cost reduced by ~30%.'
+  numbers: +10..45% ranged weapon damage
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Also: mana cost -30% — [Jamey (staff), 2026-03-19](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)'
+- id: cc-hunter-rapid-fire
+  system: classes
+  subsystem: Hunter
+  entity: Rapid Fire
+  entity_ids: []
+  change: Also reduces Aimed/Steady Shot cast time.
+  before: null
+  after: Now also decreases the cast time of Aimed Shot and Steady Shot by 40%.
+  numbers: -40% cast time
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-hunter-aimed-arcane-separate-cd
+  system: classes
+  subsystem: Hunter
+  entity: Aimed Shot / Arcane Shot cooldowns
+  entity_ids: []
+  change: Separate cooldowns.
+  before: null
+  after: Aimed Shot and Arcane Shot are now on separate independent cooldowns.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-hunter-aimed-shot-talent
+  system: classes
+  subsystem: Hunter
+  entity: Aimed Shot (Marksmanship)
+  entity_ids: []
+  change: Returned as 3rd row keystone; faster, longer cooldown.
+  before: 3 s cast, 6 s cooldown
+  after: 'Cast time 3 s → 2 s; cooldown 6 s → 26 s. Revision 2026-03-19: mana cost reduced by ~30%.'
+  numbers: 2 s cast; 26 s cd
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Also: mana cost -30% — [Jamey (staff), 2026-03-19](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)'
+- id: cc-hunter-experimental-ammunition
+  system: classes
+  subsystem: Hunter
+  entity: Experimental Ammunition (new keystone, MM row 5)
+  entity_ids: []
+  change: New talent.
+  before: null
+  after: 'Aimed Shot deals +5% of its damage as Fire, Arcane or Nature and grants: Fire — next Multi-Shot hits explode for 20% ranged weapon damage in 5 yd; Arcane — next Arcane Shot +100% damage and +3%
+    magic damage taken for 6 s; Nature — next Serpent Sting +100% damage and applies armor reduction of 4 per level (240 at 60) for 15 s. Effects last 1 minute and cycle Fire → Arcane → Nature; one type
+    active at a time.'
+  numbers: 5%; 20% RWD/5 yd; +100%/+3%/6 s; 240 armor/15 s; 1 min
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-hunter-lock-and-load
+  system: classes
+  subsystem: Hunter
+  entity: Lock and Load (new capstone, MM row 7)
+  entity_ids: []
+  change: New talent.
+  before: null
+  after: 'Steady Shot, Aimed Shot and Arcane Shot crits have a chance to reset Aimed Shot cooldown and trigger Lock and Load (10 s or until Aimed Shot): Aimed Shot cast time -1 s and it damages all enemies
+    between you and the target.'
+  numbers: 10 s; -1 s cast
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-hunter-improved-stings
+  system: classes
+  subsystem: Hunter
+  entity: Improved Stings (talent)
+  entity_ids: []
+  change: Reworked; absorbs Improved Scorpid Sting.
+  before: null
+  after: Serpent Sting damage +6/12/18/24/30%; Viper Sting mana drained +1/2/3/4/5%; Scorpid Sting reduces attack speed by an additional 2/4/6/8/10%. Improved Scorpid Sting removed (merged).
+  numbers: 6-30% / 1-5% / 2-10%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-hunter-swiftshot
+  system: classes
+  subsystem: Hunter
+  entity: Swiftshot (talent)
+  entity_ids: []
+  change: Changed.
+  before: null
+  after: Reduces Arcane Shot cooldown by 0.5/1/1.5 s and Aimed Shot cooldown by 2/4/6 s.
+  numbers: 0.5/1/1.5 s; 2/4/6 s
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-hunter-ranged-weapon-spec
+  system: classes
+  subsystem: Hunter
+  entity: Ranged Weapon Specialization
+  entity_ids: []
+  change: Buffed.
+  before: 1/2/3/4/5%
+  after: Ranged damage increase 2/4/6/8/10%.
+  numbers: 2-10% (was 1-5%)
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-hunter-barrage
+  system: classes
+  subsystem: Hunter
+  entity: Barrage (talent)
+  entity_ids: []
+  change: Also reduces Volley cast time.
+  before: null
+  after: Now also reduces the cast time of Volley by 1/1.5/2 seconds.
+  numbers: -1/1.5/2 s
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-hunter-improved-marksmanship
+  system: classes
+  subsystem: Hunter
+  entity: Improved Steady Shot → Improved Marksmanship
+  entity_ids: []
+  change: Renamed and changed.
+  before: Improved Steady Shot
+  after: Increases the damage of Steady Shot and Aimed Shot by 5/10%.
+  numbers: +5/10%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-hunter-endurance-training
+  system: classes
+  subsystem: Hunter
+  entity: Endurance Training (BM)
+  entity_ids: []
+  change: Buffed.
+  before: 1/2/3/4/5%
+  after: Pet health increase 2/4/6/8/10%.
+  numbers: 2-10%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-hunter-thick-hide
+  system: classes
+  subsystem: Hunter
+  entity: Thick Hide (BM)
+  entity_ids: []
+  change: Buffed.
+  before: 4/7/10%
+  after: Pet armor increase 7/14/20%.
+  numbers: 7/14/20%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Developer Comment: pets too fragile in open-world content.'
+- id: cc-hunter-scent-of-blood
+  system: classes
+  subsystem: Hunter
+  entity: Scent of Blood (new talent, BM row 5, 3 ranks)
+  entity_ids: []
+  change: New talent.
+  before: null
+  after: 'Your attacks have a 5/10/15% chance to enrage your pet: +40% damage for 8 s.'
+  numbers: 5/10/15%; +40%; 8 s
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-hunter-bestial-wrath
+  system: classes
+  subsystem: Hunter
+  entity: Bestial Wrath (returning, BM row 5)
+  entity_ids: []
+  change: Talent returns.
+  before: null
+  after: Gives the pet the Scent of Blood effect for 18 s; pet cannot be stopped unless killed. 1.5 min cooldown, 12% base mana, no GCD.
+  numbers: 18 s; 1.5 min cd; 12% base mana
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Developer Comment: "one of the most requested abilities to return".'
+- id: cc-hunter-kill-command
+  system: classes
+  subsystem: Hunter
+  entity: Kill Command (BM capstone)
+  entity_ids: []
+  change: Moved to capstone and reworked.
+  before: Previous 1.18.0 Kill Command ("underpowered and required too much setup")
+  after: 'Pet instantly attacks for 50% of its attack power; usable only after the Hunter lands a critical strike; 8 s cooldown, 5% base mana, 45 yd, no GCD. Revision 2026-03-19: scaling brought up from
+    50% to 80%.'
+  numbers: 80% pet AP (initially 50%); 8 s cd
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Also: scaling 50% → 80% — [Jamey (staff), 2026-03-19](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)'
+- id: cc-hunter-baited-shot-removed
+  system: classes
+  subsystem: Hunter
+  entity: Baited Shot
+  entity_ids: []
+  change: Removed.
+  before: Existed in 1.18.0
+  after: Baited Shot removed; concept preserved in Scent of Blood ("The barbeque is over").
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-hunter-alone-against-the-world
+  system: classes
+  subsystem: Hunter
+  entity: Alone Against the World (new talent, SV row 2, 2 ranks)
+  entity_ids: []
+  change: New talent.
+  before: null
+  after: While you have no pet under your control, all damage dealt is increased by 3/6%.
+  numbers: +3/6%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-hunter-surefooted
+  system: classes
+  subsystem: Hunter
+  entity: Surefooted (SV)
+  entity_ids: []
+  change: Dual-wield hit bonus.
+  before: null
+  after: Now increases hit chance by an additional 1/2/3% while dual wielding.
+  numbers: +1/2/3% hit
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-hunter-lacerate
+  system: classes
+  subsystem: Hunter
+  entity: Lacerate (SV)
+  entity_ids: []
+  change: Damage up; side behaviour changed.
+  before: 35% AP; +10% from sides; faster ticks from sides
+  after: Damage 40% of melee AP (was 35%); extra damage from the sides 15% (was 10%); no longer ticks faster when struck from the sides.
+  numbers: 40% / 15%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-hunter-coordinated-assault
+  system: classes
+  subsystem: Hunter
+  entity: Coordinated Assault
+  entity_ids: []
+  change: Tooltip fixed; value lowered.
+  before: 30%
+  after: Tooltip fixed to match the actual effect; lowered from 30% to 20%.
+  numbers: 20%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-03-19'
+  status: released
+  notes: null
+- id: cc-hunter-vicious-strikes
+  system: classes
+  subsystem: Hunter
+  entity: Vicious Strikes
+  entity_ids: []
+  change: Also affects Raptor Strike and Mongoose Bite.
+  before: null
+  after: Now also increases damage of Raptor Strike and Mongoose Bite.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-03-19'
+  status: released
+  notes: null
+- id: cc-hunter-serpent-sting-mana
+  system: classes
+  subsystem: Hunter
+  entity: Serpent Sting (mana)
+  entity_ids: []
+  change: Mana cost reduced ~30%.
+  before: null
+  after: Reduced the mana cost by around 30% for Aimed Shot, Arcane Shot & Serpent Sting.
+  numbers: -30%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-03-19'
+  status: released
+  notes: null
+- id: cc-mage-ice-barrier
+  system: classes
+  subsystem: Mage
+  entity: Ice Barrier (Frost)
+  entity_ids: []
+  change: Damage bonus moved to cast.
+  before: +15% Frost damage while barrier active
+  after: Frost damage while the barrier is active reduced from 15% to 5%; casting it now increases Frost damage by 10% for 1 minute, independently of the barrier.
+  numbers: 5% while active; +10% for 1 min on cast
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Developer Comment: the old bonus felt punishing when the barrier broke to AoE damage in group content.'
+- id: cc-mage-improved-fire-blast
+  system: classes
+  subsystem: Mage
+  entity: Improved Fire Blast
+  entity_ids: []
+  change: GCD reduction increased.
+  before: null
+  after: Global cooldown reduction increased to 0.3/0.6/1.0 sec.
+  numbers: 0.3/0.6/1.0 s
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-26'
+  status: released
+  notes: null
+- id: cc-paladin-consecration
+  system: classes
+  subsystem: Paladin
+  entity: Consecration
+  entity_ids: []
+  change: Base damage +8%, front-loaded.
+  before: Even damage per tick
+  after: Base damage increased by 8%; per-tick progression 156% → 140% → 124% → 108% → 92% → 76% → 60% → 44% of the 1.18 base value.
+  numbers: +8%; 156→44% ticks
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Developer Comment: more power on initial ticks for Protection instant threat and Retribution AoE.'
+- id: cc-paladin-holy-shield-threat
+  system: classes
+  subsystem: Paladin
+  entity: Holy Shield (Protection)
+  entity_ids: []
+  change: Threat modifier increased.
+  before: 30%
+  after: Additional threat modifier increased from 30% to 50%.
+  numbers: 50%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-paladin-righteous-strikes
+  system: classes
+  subsystem: Paladin
+  entity: Righteous Strikes (Protection)
+  entity_ids: []
+  change: Reworked.
+  before: null
+  after: Increases damage and threat of Holy Strike by 5/10/15/20/25%; Crusader Strike grants Zealous Defence for 10 s, reducing the damage of your next blocked attack by 6/12/18/24/30%.
+  numbers: 5-25%; 6-30%; 10 s
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-paladin-holy-strike-rework
+  system: classes
+  subsystem: Paladin
+  entity: Holy Strike
+  entity_ids: []
+  change: Reworked with weapon damage + Holy damage and group heal/mana.
+  before: Spell power scaling 43%
+  after: Strike for X% weapon damage plus Y Holy damage, restoring Z health and Z mana to you and 4 allies within 10 yards (half healing on yourself). R1 (4) 25% + 11-13; R2 (12) 25% + 22-28; R3 (20) 30%
+    + 34-38; R4 (28) 30% + 52-58; R5 (36) 35% + 71-77; R6 (44) 35% + 91-98; R7 (52) 40% + 106-118; R8 (60) 40% + 129-146. Spell power scaling 43% → 71%.
+  numbers: 25-40% weapon dmg; SP 71%; 4 allies / 10 yd
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Developer Comment: Protection Paladins strong early but scaled poorly; slightly less early power, much better late scaling. See hotfix entries for miss/heal-target fixes.'
+- id: cc-paladin-repentance
+  system: classes
+  subsystem: Paladin
+  entity: Repentance (Retribution)
+  entity_ids: []
+  change: Repent on immune creatures scales with AP.
+  before: null
+  after: Repent effect applied on immune creatures now scales with 8% of your Attack Power per tick.
+  numbers: 8% AP/tick
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-paladin-seal-of-command
+  system: classes
+  subsystem: Paladin
+  entity: Seal of Command
+  entity_ids: []
+  change: PPM increased.
+  before: 7 PPM
+  after: Procs per minute increased from 7 to 9.
+  numbers: 9 PPM
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-paladin-crusader-strike-r5
+  system: classes
+  subsystem: Paladin
+  entity: Crusader Strike (Rank 5)
+  entity_ids: []
+  change: Weapon damage increased.
+  before: 90%
+  after: Rank 5 weapon damage percentage increased from 90% to 100%.
+  numbers: 100%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Developer Comment: attack-power Retribution underperforming for several patches.'
+- id: cc-paladin-daybreak
+  system: classes
+  subsystem: Paladin
+  entity: Daybreak (Holy capstone)
+  entity_ids: []
+  change: Nerfed.
+  before: 289 base; 43% scaling
+  after: Base healing 289 → 248; healing power scaling 43% → 32%.
+  numbers: 248; 32%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Developer Comment: raw power, especially with the Tier 3.5 set bonus, "was significantly too high".'
+- id: cc-paladin-t35-ret
+  system: classes
+  subsystem: Paladin
+  entity: Retribution Paladin Tier 3.5 (5 Set) — Crusade
+  entity_ids: []
+  change: Set bonus changed.
+  before: 2%, 15 s, stacking
+  after: Crusade attack speed bonus 2% → 4%, duration 15 s → 20 s, no longer stacks.
+  numbers: 4%; 20 s
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Also: also in itemization changelog — [Dragunovi (staff), 2026-02-15](https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272)'
+- id: cc-paladin-t35-holy
+  system: classes
+  subsystem: Paladin
+  entity: Holy Paladin Tier 3.5 (5 Set)
+  entity_ids: []
+  change: Set bonus changed.
+  before: null
+  after: No longer adds additional affected targets to Holy Strike.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Also: also in itemization changelog — [Dragunovi (staff), 2026-02-15](https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272)'
+- id: cc-paladin-t35-prot
+  system: classes
+  subsystem: Paladin
+  entity: Protection Paladin Tier 3.5
+  entity_ids: []
+  change: Set bonuses moved/added.
+  before: null
+  after: '5-set bonus moved to 3-set; new 5-set: "Holy Shield decreases your damage taken by 4%".'
+  numbers: -4% damage taken
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Also: also in itemization changelog — [Dragunovi (staff), 2026-02-15](https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272)'
+- id: cc-paladin-t25-ret-prot
+  system: classes
+  subsystem: Paladin
+  entity: Retribution/Protection Paladin Tier 2.5 (3 Set)
+  entity_ids: []
+  change: Set bonus changed.
+  before: null
+  after: Increases damage done by Judgement of Righteousness and Judgement of Command by 15%.
+  numbers: +15%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Also: also in itemization changelog — [Dragunovi (staff), 2026-02-15](https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272)'
+- id: cc-priest-heal-values
+  system: classes
+  subsystem: Priest
+  entity: Heal / Greater Heal / Flash Heal base values
+  entity_ids: []
+  change: Base healing increased on mid/high ranks.
+  before: Values listed as "from" in the entry
+  after: Heal R4 605-684 → 702-793; Greater Heal R1 764-862 → 840-948, R2 977-1097 → 1075-1207, R3 1222-1369 → 1344-1506, R4 1528-1706 → 1681-1877, R5 1671-1866 → 1881-2053; Flash Heal R3 278-335 → 297-358,
+    R4 340-407 → 364-435, R5 440-524 → 471-561, R6 548-651 → 586-697, R7 690-815 → 738-872.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Developer Comment: an earlier reduction applied only to level 30+ ranks, so post-30 ranks barely differed; this is "a middle ground between original and current healing numbers".'
+- id: cc-priest-pain-spike
+  system: classes
+  subsystem: Priest
+  entity: Pain Spike
+  entity_ids: []
+  change: Cooldown reduced.
+  before: 40 s
+  after: Cooldown 40 s → 30 s.
+  numbers: 30 s
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-priest-fade
+  system: classes
+  subsystem: Priest
+  entity: Fade
+  entity_ids: []
+  change: Adds percentage threat reduction.
+  before: null
+  after: All ranks now reduce total threat by 15% in addition to the flat amount.
+  numbers: -15% total threat
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-priest-prayer-of-healing
+  system: classes
+  subsystem: Priest
+  entity: Prayer of Healing
+  entity_ids: []
+  change: Targetable party heal.
+  before: Only healed your own party
+  after: Heals the target and their party members within 30 yards; can target parties other than your own; cast range stays 40 yards.
+  numbers: 30 yd radius; 40 yd range
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-priest-lightwell
+  system: classes
+  subsystem: Priest
+  entity: Lightwell
+  entity_ids: []
+  change: Reworked into a healing amplifier.
+  before: Manual-use Lightwell, 10 min cooldown, multiple ranks
+  after: One rank; cooldown 10 min → 5 min; when you heal with Lesser Heal, Flash Heal, Heal or Greater Heal, the Lightwell heals an injured friendly target within 30 yards for 20% of the initial heal (Splendor
+    of Light), using a charge; max once per 5 s per player; lasts 1 minute or 10 charges.
+  numbers: 5 min cd; 20%; 30 yd; 10 charges; 1 min
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Developer Comment: Lightwell "stayed largely unused" because it required manual use and forced players out of position.'
+- id: cc-priest-searing-light
+  system: classes
+  subsystem: Priest
+  entity: Searing Light (Discipline)
+  entity_ids: []
+  change: Mana reduction increased.
+  before: 50%
+  after: Mana cost reduction 50% → 60%.
+  numbers: 60%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-priest-reservoir-of-light
+  system: classes
+  subsystem: Priest
+  entity: Reservoir of Light (Holy)
+  entity_ids: []
+  change: Reworked for the new Lightwell.
+  before: null
+  after: Increases the effectiveness of Splendor of Light by 33/66/100% (i.e. 26.6/33.3/40% of the heal).
+  numbers: 33/66/100%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-priest-spirit-of-redemption
+  system: classes
+  subsystem: Priest
+  entity: Spirit of Redemption
+  entity_ids: []
+  change: Spirit bonus doubled.
+  before: 5%
+  after: Granted spirit 5% → 10%.
+  numbers: 10%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-priest-book-of-prayer
+  system: classes
+  subsystem: Priest
+  entity: Book of Prayer (new talent, Holy row 5, 2 points)
+  entity_ids: []
+  change: New talent.
+  before: null
+  after: Whenever you cast a healing spell, regain 15/30% of its mana cost if it is not a repeat of the previous healing spell.
+  numbers: 15/30%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-priest-empowered-recovery
+  system: classes
+  subsystem: Priest
+  entity: Swift Recovery → Empowered Recovery
+  entity_ids: []
+  change: Renamed; Renew duration bonus.
+  before: Swift Recovery
+  after: 'Also increases duration of Renew by 3/6 seconds. Revision 2026-03-19: increases Renew by 3/3 seconds instead of 3/6.'
+  numbers: +3/3 s (initially 3/6)
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Also: revision 19 Mar — [Jamey (staff), 2026-03-19](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)'
+- id: cc-priest-champion-removed
+  system: classes
+  subsystem: Priest
+  entity: Proclaim Champion / Empower Champion / Champion's Grace / Champion's Bond / Revive Champion
+  entity_ids: []
+  change: Removed.
+  before: Holy capstone package in 1.18.0
+  after: All five removed.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-priest-ascendance
+  system: classes
+  subsystem: Priest
+  entity: Ascendance (new Holy capstone)
+  entity_ids: []
+  change: New capstone.
+  before: null
+  after: For 30 s healing spells cost 33% less mana, cast 20% quicker and grant Apotheosis (+15% healing taken for 10 s). Castable under crowd control and clears it. 280 mana, 5 min cooldown.
+  numbers: 30 s; -33% mana; +20% cast speed; +15% healing taken 10 s; 280 mana; 5 min cd
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Developer Comment: pivot from a target buff (Proclaim Champion) to a self power-boosting capstone. Player reports: Player calls the capstone "extremely overpowered" and suggests removing the casting-speed
+    part. — [Ayesha (player), 2026-03-28](https://forum.turtlecraft.gg/viewtopic.php?p=172878#p172878)'
+- id: cc-priest-improved-fade
+  system: classes
+  subsystem: Priest
+  entity: Improved Fade (Shadow)
+  entity_ids: []
+  change: Reworked and moved.
+  before: Row 3; previous effect
+  after: 'Reduces the threat returned when Fade ends by 25/50%; moved from row 3 to row 4. Revision 2026-01-26: also reduces the cooldown of Fade by 3/6 sec.'
+  numbers: 25/50%; -3/6 s cd
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Also: revision 26 Jan — [Jamey (staff), 2026-01-26](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)'
+- id: cc-priest-improved-mana-burn
+  system: classes
+  subsystem: Priest
+  entity: Improved Mana Burn
+  entity_ids: []
+  change: Moved row 3 → 4.
+  before: Row 3
+  after: Moved from Row 3 to Row 4 (Mana Burn is learned at level 24).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-priest-shadow-reach
+  system: classes
+  subsystem: Priest
+  entity: Shadow Reach
+  entity_ids: []
+  change: Now 2 points.
+  before: 3-point talent
+  after: Increases the range of Shadow damage spells by 10/20%.
+  numbers: 2 points; 10/20%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-priest-shadow-weaving
+  system: classes
+  subsystem: Priest
+  entity: Shadow Weaving
+  entity_ids: []
+  change: Reworked to a self-stacking buff.
+  before: Debuff accumulated per target
+  after: Shadow damage spells have a 20/40/60/80/100% chance to grant Shadow Weaving for 10 s; your Shadow spells apply a vulnerability of +3% Shadow damage taken per stack for 15 s; stacks up to 5.
+  numbers: 20-100%; 3%/stack; 5 stacks; 10 s / 15 s
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Developer Comment: stacks now carry over between packs and apply easily to multiple targets.'
+- id: cc-priest-blackout-position
+  system: classes
+  subsystem: Priest
+  entity: Blackout (talent position)
+  entity_ids: []
+  change: Moved.
+  before: null
+  after: 'Revision 2026-01-26: swapped position with Improved Mind Blast. Revision 2026-03-19: moved to Row 2.'
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-03-19'
+  status: released
+  notes: 'Player reports: Pre-release player objection to moving Blackout deeper (hybrid 18/11/22 build). — [Gerganon (player), 2026-03-04](https://forum.turtlecraft.gg/viewtopic.php?p=170014#p170014) Also:
+    revision 26 Jan — [Jamey (staff), 2026-01-26](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)'
+- id: cc-priest-spirit-tap
+  system: classes
+  subsystem: Priest
+  entity: Spirit Tap
+  entity_ids: []
+  change: Triggers on Mind Blast crits.
+  before: null
+  after: Now also triggers on Mind Blast critical strikes.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-26'
+  status: released
+  notes: null
+- id: cc-priest-holy-nova
+  system: classes
+  subsystem: Priest
+  entity: Holy Nova
+  entity_ids: []
+  change: Mana cost reduced.
+  before: null
+  after: Reduced mana cost for all ranks by around 15%.
+  numbers: -15%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-26'
+  status: released
+  notes: null
+- id: cc-rogue-poison-scaling
+  system: classes
+  subsystem: Rogue
+  entity: Poisons (Deadly, Instant, Corrosive, Dissolvent) AP scaling
+  entity_ids: []
+  change: Lower-rank scaling reduced.
+  before: Deadly 8% total all ranks; Instant 5% all ranks; Corrosive 7.6%; Dissolvent 4.75%
+  after: 'Deadly Poison R1-R3: 2% AP/tick (8% total) → none; R4: → 1%/tick (4% total). Instant Poison R1: 5% → none; R2-R3: → 1%; R4-R5: → 2%. Corrosive Poison R1 (56): 1.9%/tick (7.6%) → 1%/tick (4%).
+    Dissolvent Poison R1 (52): 4.75% → 2%.'
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Developer Comment: smooths the leveling/early-gearing curve "while preserving endgame effectiveness".'
+- id: cc-rogue-blade-flurry
+  system: classes
+  subsystem: Rogue
+  entity: Blade Flurry
+  entity_ids: []
+  change: Energy penalty reduced.
+  before: 30%
+  after: Energy regeneration penalty 30% → 20%.
+  numbers: 20%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-rogue-taste-for-blood
+  system: classes
+  subsystem: Rogue
+  entity: Taste for Blood (Assassination)
+  entity_ids: []
+  change: Nerfed, then restructured.
+  before: 1/2/3%, affected Corrosive and Dissolvent Poison; 3-point
+  after: 'Physical damage bonus 1/2/3% → 1/1.5/2% and no longer increases Corrosive/Dissolvent Poison damage. Revision 2026-03-19: now a 2-point talent; increases duration by 4/6 s and damage by 1/2%.'
+  numbers: 2 points; +4/6 s; +1/2%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Player reports: "Noxious assault rogues got the biggest nerf in this patch, with taste for blood no longer affecting poisons". — [Crake (player), 2026-03-25](https://forum.turtlecraft.gg/viewtopic.php?p=172282#p172282)
+    Also: revision 19 Mar — [Jamey (staff), 2026-03-19](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)'
+- id: cc-rogue-noxious-assault
+  system: classes
+  subsystem: Rogue
+  entity: Noxious Assault
+  entity_ids: []
+  change: AP scaling reduced.
+  before: 35%
+  after: Attack Power scaling 35% → 30%.
+  numbers: 30%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-rogue-opportunity
+  system: classes
+  subsystem: Rogue
+  entity: Opportunity (Combat)
+  entity_ids: []
+  change: Reduced.
+  before: 4-20%
+  after: Damage bonus 4/8/12/16/20% → 3/6/9/12/15%.
+  numbers: 3-15%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Developer Comment: combat dagger rogues "performing tad better than with any other weapons".'
+- id: cc-shaman-lightning-shield-mana
+  system: classes
+  subsystem: Shaman
+  entity: Lightning Shield
+  entity_ids: []
+  change: Mana cost -25%.
+  before: 45/80/125/180/240/305/370
+  after: R1 45→40, R2 80→70, R3 125→105, R4 180→150, R5 240→200, R6 305→255, R7 370→310.
+  numbers: -~25%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-shaman-stormstrike-windfury
+  system: classes
+  subsystem: Shaman
+  entity: Stormstrike
+  entity_ids: []
+  change: No double Windfury roll.
+  before: null
+  after: Can no longer roll and trigger Windfury Weapon's effect twice.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-shaman-windfury-weapon-25
+  system: classes
+  subsystem: Shaman
+  entity: Windfury Weapon
+  entity_ids: []
+  change: Proc chance increased.
+  before: 20%
+  after: Each hit now has a 25% chance.
+  numbers: 25%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Player reports: Player fears the buff will "completely ruin pvp" given shaman prevalence. — [Terrydavis (player), 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171418#p171418)'
+- id: cc-shaman-elemental-weapons-windfury
+  system: classes
+  subsystem: Shaman
+  entity: Elemental Weapons — Windfury effect
+  entity_ids: []
+  change: Reworked.
+  before: null
+  after: Gaining extra attacks increases attack speed by 1% for 5 s, stacking up to 2/4/6 times.
+  numbers: 1%/stack; 2/4/6 stacks; 5 s
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-shaman-elemental-weapons-flametongue
+  system: classes
+  subsystem: Shaman
+  entity: Elemental Weapons — Flametongue effect
+  entity_ids: []
+  change: Reworked.
+  before: null
+  after: Hitting enemies with your attacks increases damage of your Fire Totems and spells by 10/20/30% for 5 s.
+  numbers: 10/20/30%; 5 s
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Developer Comment: keeps spell-oriented Enhancement in melee; pure-Fire Elemental must stay in melee range for full power.'
+- id: cc-shaman-elemental-weapons-rockbiter
+  system: classes
+  subsystem: Shaman
+  entity: Elemental Weapons — Rockbiter effect (Earthen Bulwark)
+  entity_ids: []
+  change: Reworked from passive reduction to a built-up absorb.
+  before: Passive damage reduction
+  after: Physical damage builds an earthen bulwark for 20% of damage dealt (tripled with a shield); it absorbs 5/10/15% of incoming damage for 8 s or until depleted; durability capped at 20% of max health.
+  numbers: 20% of dmg (x3 with shield); 5/10/15%; 8 s; cap 20% max HP
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Developer Comment: deters non-Enhancement specs from using it as a passive PvP durability benefit. See hotfix entry "Earthen Bulwark" and player reports there.'
+- id: cc-shaman-flametongue-frostbrand-scaling
+  system: classes
+  subsystem: Shaman
+  entity: Flametongue Weapon / Frostbrand Weapon
+  entity_ids: []
+  change: SP scaling varies with weapon speed.
+  before: null
+  after: Spell Power scaling adjusted to vary based on the weapon's base attack speed; base damage unchanged.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-03-19'
+  status: released
+  notes: null
+- id: cc-shaman-flurry-rework
+  system: classes
+  subsystem: Shaman
+  entity: Flurry (Shaman)
+  entity_ids: []
+  change: Reworked.
+  before: null
+  after: Increases attack speed by 8/11/14/17/20% for your next 3 swings after dealing a critical strike.
+  numbers: 8-20%; 3 swings
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Developer Comment: more uptime for spell-oriented Enhancement with less physical crit. See hotfix entries and player reports under "Flurry (Shaman)".'
+- id: cc-shaman-lightning-strike-water-shield
+  system: classes
+  subsystem: Shaman
+  entity: Lightning Strike / Water Shield
+  entity_ids: []
+  change: AP-to-mana ratio improved.
+  before: '20:1'
+  after: Water Shield's Attack Power-to-Mana ratio changed from 20:1 to 18:1.
+  numbers: '18:1'
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-shaman-call-of-earth
+  system: classes
+  subsystem: Shaman
+  entity: Eye of the Storm → Call of Earth (Elemental)
+  entity_ids: []
+  change: Renamed and reworked.
+  before: Eye of the Storm
+  after: 'Earth Shield gains 1/2 additional charges and grants +35/70% chance to avoid interruption while casting (buff "Earth''s Poise", additive with other pushback reduction). Revision 2026-03-19: also
+    replenishes Earth Shield stacks on offensive Nature spells.'
+  numbers: +1/2 charges; 35/70%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Developer Comment: Eye of the Storm "saw little use in either PvP or PvE". Also: revision 19 Mar — [Jamey (staff), 2026-03-19](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)'
+- id: cc-shaman-elemental-fury-frost
+  system: classes
+  subsystem: Shaman
+  entity: Elemental Fury
+  entity_ids: []
+  change: Also affects Frost spells.
+  before: null
+  after: Now also affects Frost spells.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-shaman-earthquake-buff
+  system: classes
+  subsystem: Shaman
+  entity: Earthquake (Elemental capstone)
+  entity_ids: []
+  change: Damage +15%, cooldown reduced.
+  before: 227-253 / 343-387 / 510-551; 20 s cd
+  after: 'Base damage +15%: R1 (40) 227-253 → 262-291; R2 (50) 343-387 → 395-446; R3 (60) 510-551 → 587-634. Cooldown 20 s → 18 s.'
+  numbers: +15%; 18 s
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: See the P0 "multiple issues fixed" entry and player reports of Earthquake underperforming post-release under the hotfix entries.
+- id: cc-shaman-resto-t1-8set
+  system: classes
+  subsystem: Shaman
+  entity: Restoration Shaman Tier 1 (8 Set)
+  entity_ids: []
+  change: Reworked.
+  before: null
+  after: Healing Wave and Lesser Healing Wave have a 25% chance to surround the target with an earth wall absorbing 250 damage for 6 s.
+  numbers: 25%; 250 absorb; 6 s
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Also: also in itemization changelog — [Dragunovi (staff), 2026-02-15](https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272) | "That interaction is intended" (reply about the Shaman T1 set
+    and a Chain Heal bug report) — [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166084#p166084)'
+- id: cc-warlock-curse-of-exhaustion
+  system: classes
+  subsystem: Warlock
+  entity: Curse of Exhaustion
+  entity_ids: []
+  change: Mana cost increased.
+  before: 8% (110)
+  after: Mana cost 8% → 14% base mana (110 → 190 at level 60).
+  numbers: 14% (190)
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-warlock-curse-of-tongues
+  system: classes
+  subsystem: Warlock
+  entity: Curse of Tongues
+  entity_ids: []
+  change: R1 weakened; R2 more expensive.
+  before: R1 50%; R2 110 mana
+  after: Rank 1 cast speed reduction 50% → 30%; Rank 2 mana cost 110 → 240.
+  numbers: 30%; 240 mana
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-warlock-enslave-demon
+  system: classes
+  subsystem: Warlock
+  entity: Enslave Demon
+  entity_ids: []
+  change: Healing reduction on enslaved demon.
+  before: null
+  after: Now reduces healing taken by the enslaved demon by 50% (shifted from Master Demonologist).
+  numbers: -50% healing taken
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-warlock-ritual-of-doom
+  system: classes
+  subsystem: Warlock
+  entity: Ritual of Doom
+  entity_ids: []
+  change: Cast/channel changed twice.
+  before: 5 s cast, 5 s channel, 2 summoners
+  after: 'Base post: initial cast 5 s → 7 s, channel 5 s → 3 s. Revision 2026-01-26: initial cast reduced to 3 s, summoner channel 2 s, required summoners 2 → 1.'
+  numbers: 3 s cast; 2 s channel; 1 summoner (final revision)
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Also: revision 26 Jan — [Jamey (staff), 2026-01-26](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)'
+- id: cc-warlock-felhunter-infernal-armor
+  system: classes
+  subsystem: Warlock
+  entity: Felhunter / Infernal
+  entity_ids: []
+  change: Armor -30%.
+  before: null
+  after: Armor reduced by 30% (about 5% lower physical damage reduction).
+  numbers: -30% armor
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-warlock-felguard-legion-strike
+  system: classes
+  subsystem: Warlock
+  entity: Felguard — Legion Strike
+  entity_ids: []
+  change: Healing reduction increased.
+  before: 10%
+  after: Healing reduction 10% → 25%.
+  numbers: 25%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-warlock-felguard-axe-toss
+  system: classes
+  subsystem: Warlock
+  entity: Felguard — Axe Toss
+  entity_ids: []
+  change: Stun shortened.
+  before: 4 s
+  after: Stun duration 4 s → 2 s.
+  numbers: 2 s
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-warlock-demon-gate
+  system: classes
+  subsystem: Warlock
+  entity: Demon Gate
+  entity_ids: []
+  change: Felguard spawn delay reduced.
+  before: 6 s
+  after: Felguard spawn delay 6 s → 4 s.
+  numbers: 4 s
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-26'
+  status: released
+  notes: null
+- id: cc-warlock-searing-pain
+  system: classes
+  subsystem: Warlock
+  entity: Searing Pain
+  entity_ids: []
+  change: GCD, cast time, scaling and damage changed.
+  before: 1.5 s GCD; 1.5 s cast
+  after: 'Base post: GCD 1.5 s → 1 s. Revision 2026-01-26: base cast time 1.5 s → 2.0 s, Spell Power scaling → 57%; Bane also reduces Searing Pain cast time by 0.1/0.2/0.3/0.4/0.5 s. Revision 2026-03-19:
+    base damage for all ranks +~20%.'
+  numbers: 1 s GCD; 2.0 s cast; 57% SP; +20% base
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Also: revision 26 Jan — [Jamey (staff), 2026-01-26](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071) | revision 19 Mar — [Jamey (staff), 2026-03-19](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)'
+- id: cc-warlock-hellfire
+  system: classes
+  subsystem: Warlock
+  entity: Hellfire
+  entity_ids: []
+  change: Scaling up; mana restructured.
+  before: 2.2%/tick; 645/975/1300 mana
+  after: 'Base post: SP scaling 2.2% → 4.125% per tick; mana R1 (30) 645 → 160 + 30/s, R2 (42) 975 → 240 + 50/s, R3 (54) 1300 → 325 + 65/s. Revision 2026-01-26: SP scaling increased to 6.66%.'
+  numbers: 6.66% (final); 160+30/s, 240+50/s, 325+65/s
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Also: revision 26 Jan — [Jamey (staff), 2026-01-26](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)'
+- id: cc-warlock-ritual-of-souls
+  system: classes
+  subsystem: Warlock
+  entity: Ritual of Souls
+  entity_ids: []
+  change: Shard cost increased.
+  before: 1 shard
+  after: Soul Shard requirement 1 → 3.
+  numbers: 3 shards
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-warlock-soulwell-model
+  system: classes
+  subsystem: Warlock
+  entity: Soulwell
+  entity_ids: []
+  change: New model.
+  before: null
+  after: Now has a new model (to differentiate from Ritual of Doom).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-warlock-curse-gcds
+  system: classes
+  subsystem: Warlock
+  entity: Curse of Recklessness / Curse of Shadow / Curse of the Elements (GCD)
+  entity_ids: []
+  change: GCD reduced to 1 s.
+  before: 1.5 s
+  after: Curse of Recklessness GCD 1.5 s → 1 s (base post); Curse of Shadow and Curse of the Elements GCD 1.5 s → 1 s (revision 2026-01-26).
+  numbers: 1 s
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Also: revision 26 Jan — [Jamey (staff), 2026-01-26](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)'
+- id: cc-warlock-sinister-pursuit
+  system: classes
+  subsystem: Warlock
+  entity: Sinister Pursuit / Master Conjuror
+  entity_ids: []
+  change: Sinister Pursuit moved to Demonology; Master Conjuror removed.
+  before: Affliction talent; Master Conjuror existed
+  after: 'Sinister Pursuit is a 2-point Demonology talent: pet movement speed +5/10% (incl. greater demons). Master Conjuror removed.'
+  numbers: +5/10%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-warlock-master-summoner
+  system: classes
+  subsystem: Warlock
+  entity: Master Summoner
+  entity_ids: []
+  change: Also reduces Ritual of Doom cooldown.
+  before: null
+  after: Now also reduces the cooldown of Ritual of Doom by 25/50%.
+  numbers: 25/50%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-warlock-master-demonologist
+  system: classes
+  subsystem: Warlock
+  entity: Master Demonologist
+  entity_ids: []
+  change: Healing reduction removed.
+  before: null
+  after: Greater Demons' healing reduction removed from its effect.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-warlock-unleashed-potential
+  system: classes
+  subsystem: Warlock
+  entity: Unleashed Potential
+  entity_ids: []
+  change: Tracking buff; procs on any direct damage.
+  before: null
+  after: 'Now provides a tracking buff (base post); revision 2026-01-26: procs on any direct damage, not only critical strikes.'
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Also: revision 26 Jan — [Jamey (staff), 2026-01-26](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)'
+- id: cc-warlock-soul-link
+  system: classes
+  subsystem: Warlock
+  entity: Soul Link
+  entity_ids: []
+  change: Transfer reduced.
+  before: 25%
+  after: Damage transfer 25% → 20%.
+  numbers: 20%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Developer Comment: balancing demonology durability after the healing-reduction removal and the PvP dampening.'
+- id: cc-warlock-pet-avoidance-cleave
+  system: classes
+  subsystem: Warlock
+  entity: Avoidance (pet)
+  entity_ids: []
+  change: Also reduces cleave damage.
+  before: null
+  after: Pet Avoidance AoE damage reduction now also affects cleave-type damage.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-26'
+  status: released
+  notes: null
+- id: cc-warlock-t3-4set
+  system: classes
+  subsystem: Warlock
+  entity: Affliction Warlock Tier 3 (4 Set)
+  entity_ids: []
+  change: Set bonus changed.
+  before: null
+  after: Curse of Agony does 100% increased damage for the first 4 ticks.
+  numbers: +100% first 4 ticks
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Also: also in itemization changelog — [Dragunovi (staff), 2026-02-15](https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272)'
+- id: cc-warlock-t35-3set
+  system: classes
+  subsystem: Warlock
+  entity: Affliction Warlock Tier 3.5 (3 Set)
+  entity_ids: []
+  change: Set bonus reduced.
+  before: 50%
+  after: Mana (and, per itemization changelog, health) gained from health drained by Siphon Life reduced from 50% to 25%.
+  numbers: 25%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Also: also in itemization changelog — [Dragunovi (staff), 2026-02-15](https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272)'
+- id: cc-warrior-hamstring
+  system: classes
+  subsystem: Warrior
+  entity: Hamstring
+  entity_ids: []
+  change: Cooldown removed.
+  before: Had a cooldown
+  after: Removed cooldown from Hamstring.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-warrior-ravager
+  system: classes
+  subsystem: Warrior
+  entity: Improved Whirlwind → Ravager (Fury)
+  entity_ids: []
+  change: Renamed with extra effect.
+  before: Improved Whirlwind
+  after: Reduces the cooldown of Whirlwind by 1/1.5/2 s and rage cost of Cleave by 1/2/3.
+  numbers: -1/1.5/2 s; -1/2/3 rage
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-warrior-flurry-slam
+  system: classes
+  subsystem: Warrior
+  entity: Flurry / Slam cast time
+  entity_ids: []
+  change: Formula corrected.
+  before: 1.75 s (incorrect formula)
+  after: With 5 points in Flurry, Slam cast time is 1.92 s instead of 1.75 s.
+  numbers: 1.92 s
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-warrior-arms-swap
+  system: classes
+  subsystem: Warrior
+  entity: Boundless Anger / Precision Cut (Arms)
+  entity_ids: []
+  change: Positions swapped; Precision Cut changed.
+  before: null
+  after: 'Precision Cut: increases the damage done per extra rage point spent on Execute by 25/50/75%.'
+  numbers: 25/50/75%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-warrior-defiance
+  system: classes
+  subsystem: Warrior
+  entity: Defiance (Protection)
+  entity_ids: []
+  change: Changed.
+  before: null
+  after: Increases threat generated in Defensive Stance by an additional 4/8/12/15/20%.
+  numbers: 4/8/12/15/20%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: null
+- id: cc-warrior-shield-slam
+  system: classes
+  subsystem: Warrior
+  entity: Shield Slam
+  entity_ids: []
+  change: Scaling and threat increased.
+  before: 15% AP; 50% threat
+  after: Attack Power scaling 15% → 20%; additional threat modifier 50% → 75%.
+  numbers: 20%; 75%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Developer Comment: Protection Warriors "falling behind other tanks"; a fuller review planned.'
+- id: cc-warrior-t1-3set
+  system: classes
+  subsystem: Warrior
+  entity: Arms/Fury Warrior Tier 1 (3 Set)
+  entity_ids: []
+  change: Set bonus changed.
+  before: null
+  after: Whenever you hit with an ability, 10% chance to gain 15 rage.
+  numbers: 10%; 15 rage
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Also: also in itemization changelog — [Dragunovi (staff), 2026-02-15](https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272)'
+- id: cc-warrior-t3-4set
+  system: classes
+  subsystem: Warrior
+  entity: Arms/Fury Warrior Tier 3 (4 Set)
+  entity_ids: []
+  change: Set bonus changed.
+  before: null
+  after: Increases the critical strike damage bonus of your abilities by 4%.
+  numbers: +4%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-01-23'
+  status: released
+  notes: 'Also: also in itemization changelog — [Dragunovi (staff), 2026-02-15](https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272)'
+- id: it-item-additions
+  system: items
+  subsystem: new items (sources)
+  entity: New items and item sets
+  entity_ids: []
+  change: New items added across many sources.
+  before: null
+  after: 'New items/sets from: Moonwhisper Coast quest rewards; rare creatures in Moonwhisper Coast; Windhorn Canyon and Frostmane Hollow; Timbermaw Hold; rare BoE items from non-boss creatures; Onyxia''s
+    Lair and Blackwing Lair extensions; PvP; Survival rework; Earthen Ring and Draenei Exiles reputations; "Secret Methods".'
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: Individual item names are not listed in the changelog.
+- id: it-stat-fortune
+  system: items
+  subsystem: new stats
+  entity: Fortune (new stat)
+  entity_ids: []
+  change: New stat.
+  before: null
+  after: '"Increases your chance to trigger chance based item effects by X%." Amplifies both PPM and flat-chance procs; only found on Necklaces, Cloaks and Trinkets.'
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: 'Player reports: Balance druid reports Moonfire/Insect Swarm ticks and Hurricane do not trigger proc items (Scythe, Clackora, Sigil). — [Auralys (player), 2026-03-23](https://forum.turtlecraft.gg/viewtopic.php?p=172025#p172025)'
+- id: it-stat-avoidance
+  system: items
+  subsystem: new stats
+  entity: Avoidance (new stat)
+  entity_ids: []
+  change: New stat.
+  before: null
+  after: '"Reduces the damage you take from area of effect attacks by X%"; previously a pet-only effect; only on Cloaks and Rings.'
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-disc-tier-sets
+  system: items
+  subsystem: sets
+  entity: Discipline Priest alternative tier sets / Shadow Priest Tier 2.5
+  entity_ids: []
+  change: New tier sets.
+  before: null
+  after: Discipline (Smite/Holy-damage) tier sets added; a Shadow Tier 2.5 set added to the Temple of Ahn'Qiraj focused on critical strike chance.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-crafted-upgrades
+  system: items
+  subsystem: crafted item upgrades
+  entity: Crafted Item Upgrades (Blackwing Lair)
+  entity_ids: []
+  change: Experimental upgrade items.
+  before: null
+  after: Specific bosses can drop an upgrade item (e.g. a sharpening stone) that upgrades specific crafted items to the raid's power level with new effects; requires proficiency in the crafting profession
+    (e.g. Swordsmithing). Initially Blackwing Lair only.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-rogue-warlock-class-weapons
+  system: items
+  subsystem: new items
+  entity: Rogue and Warlock class weapons (Timbermaw Hold)
+  entity_ids: []
+  change: New class weapon questlines.
+  before: null
+  after: Timbermaw Hold introduces quest starters leading to long-lasting Rogue and Warlock weapons, in the spirit of Benediction/Anathema and Rhok'delar/Lok'delar; the start is left to players to discover.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-stormcallers-set
+  system: items
+  subsystem: existing items
+  entity: Stormcaller's Crown / Pauldrons / Breastplate / Leggings
+  entity_ids: []
+  change: Spellpower replaced with Strength.
+  before: Spellpower on all four pieces
+  after: 'Crown: 18 Spellpower → 15 Strength. Pauldrons: 13 Spellpower → 11 Strength. Breastplate: 23 Spellpower → 20 Strength, Stamina 20 → 32, Intellect 16 → 18. Leggings: 23 Spellpower → 20 Strength.'
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: Pauldrons line is listed twice in the source.
+- id: it-faith-shadow-sp
+  system: items
+  subsystem: existing items
+  entity: Coronet of Faith / Shoulderpads of Faith / Pants of Faith
+  entity_ids: []
+  change: Spellpower changed to Shadow Spellpower.
+  before: Generic Spellpower
+  after: Coronet 44, Shoulderpads 29, Pants 51 Spellpower → same amount of Shadow Spellpower.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-libram-final-judgement
+  system: items
+  subsystem: existing items
+  entity: Libram of Final Judgement
+  entity_ids: []
+  change: Spellpower scaling.
+  before: null
+  after: Now scales with 8% of your spellpower.
+  numbers: 8% SP
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-iron-counterweight
+  system: items
+  subsystem: existing items
+  entity: Iron Counterweight
+  entity_ids: []
+  change: Applies to staves.
+  before: null
+  after: Can now be applied to Staves.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-ornate-bloodstone-dagger
+  system: items
+  subsystem: existing items
+  entity: Ornate Bloodstone Dagger
+  entity_ids: []
+  change: Trigger restricted.
+  before: null
+  after: Can no longer trigger from effects that deal non-Physical damage without a cast.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-blackwing-signet-of-command
+  system: items
+  subsystem: existing items
+  entity: Blackwing Signet of Command
+  entity_ids: []
+  change: Stats rebalanced.
+  before: 18 Str / 6 Sta
+  after: Strength 18 → 6; Stamina 6 → 15.
+  numbers: 6 Str / 15 Sta
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-wing-of-the-time-lord
+  system: items
+  subsystem: existing items
+  entity: Wing of the Time-Lord
+  entity_ids: []
+  change: Slightly reduced.
+  before: 11/11
+  after: Strength and Agility 11 → 10.
+  numbers: 10/10
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-blood-etched-fetish
+  system: items
+  subsystem: existing items
+  entity: Blood-etched Fetish
+  entity_ids: []
+  change: Nerfed.
+  before: 2% / 8 Agi
+  after: Vampirism 2% → 1%; Agility 8 → 4.
+  numbers: 1% / 4 Agi
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-sacrosanct-epaulets
+  system: items
+  subsystem: existing items
+  entity: Sacrosanct Epaulets
+  entity_ids: []
+  change: Buffed.
+  before: 3 Int / 11 Spi / 18 Heal / 2 MP5
+  after: Intellect 3 → 8; Spirit 11 → 14; Healing Power 18 → 29; 2 MP5 replaced with 3% Meditation.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-hybrid-tank-weapons
+  system: items
+  subsystem: existing items
+  entity: Fang of Venoxis / Azuresong Mageblade / Lok'amir il Romathis / Sharpened Silithid Femur / Wraith Blade
+  entity_ids: []
+  change: DPS increased for hybrid tanks.
+  before: 41.3 / 42.5 / 41.9 / 41.3 / 40.8 DPS
+  after: Fang of Venoxis 41.3 → 47.8 DPS; Azuresong Mageblade 42.5 → 52.8; Lok'amir il Romathis 41.9 → 62.5; Sharpened Silithid Femur 41.3 → 59.3; Wraith Blade 40.8 → 65.8.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: 'Developer Comment: weapon progression for hybrid tanks using weapon damage and spellpower for threat, alongside Desecration from Tower of Karazhan.'
+- id: it-earthquake-leggings
+  system: items
+  subsystem: existing items
+  entity: Earthquake Leggings
+  entity_ids: []
+  change: Axe skill increased.
+  before: '6'
+  after: Two-handed Axe skill 6 → 7.
+  numbers: '7'
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-shieldrender-talisman-effect
+  system: items
+  subsystem: existing items
+  entity: Shieldrender Talisman
+  entity_ids: []
+  change: Effect changed.
+  before: null
+  after: '"Your physical attacks have a chance to make your next 4 physical attacks ignore armor. Lasts 10 sec." (General notes add: can be triggered by ranged physical attacks.)'
+  numbers: 4 attacks; 10 s
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: 'Also: ranged trigger — [Torta (staff), 2025-10-03](https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168)'
+- id: it-set-holy-priest-t25
+  system: items
+  subsystem: set bonuses
+  entity: Holy Priest Tier 2.5 (3 Set / 5 Set)
+  entity_ids: []
+  change: Reworked for the Lightwell rework.
+  before: null
+  after: '3 Set: critical effects of Heal and Greater Heal increase Spirit by 80 for 10 s. 5 Set: Lightwell range +5 yards and charges +5.'
+  numbers: 80 Spirit / 10 s; +5 yd / +5 charges
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-set-disc-priest-t25
+  system: items
+  subsystem: set bonuses
+  entity: Discipline Priest Tier 2.5 (5 Set)
+  entity_ids: []
+  change: Reworked.
+  before: null
+  after: Chastise grants 40 spell power and reduces the mana cost of Smite and Holy Fire by 15% for 12 s; doubled on a critical strike.
+  numbers: 40 SP; -15% mana; 12 s
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-set-enh-shaman-t25
+  system: items
+  subsystem: set bonuses
+  entity: Enhancement Shaman Tier 2.5 (5 Set)
+  entity_ids: []
+  change: Reworked for the Rockbiter rework.
+  before: null
+  after: Increases earthen bulwark built up from physical damage by 25% and the damage absorbed by the bulwark by an additional 3%.
+  numbers: +25% build-up; +3% absorb
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: 'The 2026-03-21 hotfix "Fixed Enhancement Tier 2.5 changes not being applied" refers to this bonus. Also: hotfix — [Torta (staff), 2026-03-21](https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608)'
+- id: it-ony-deathbringer
+  system: items
+  subsystem: Onyxia's Lair gear updates
+  entity: Deathbringer
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Damage 114-213 → 117-216.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-ony-viskag
+  system: items
+  subsystem: Onyxia's Lair gear updates
+  entity: Vis'kag the Bloodletter
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Damage 100-187 → 106-193.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-ony-shard-of-the-scale
+  system: items
+  subsystem: Onyxia's Lair gear updates
+  entity: Shard of the Scale
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Added 16 Intellect.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-ony-ring-of-binding
+  system: items
+  subsystem: Onyxia's Lair gear updates
+  entity: Ring of Binding
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Armor 100 → 125; added 10% Avoidance.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-ony-sapphiron-drape
+  system: items
+  subsystem: Onyxia's Lair gear updates
+  entity: Sapphiron Drape
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Spellpower 12 → 20; added 5% Fortune.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-ony-eskhandars-collar
+  system: items
+  subsystem: Onyxia's Lair gear updates
+  entity: Eskhandar's Collar
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Added 30 Armor Penetration.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-ony-ancient-cornerstone-grimoire
+  system: items
+  subsystem: Onyxia's Lair gear updates
+  entity: Ancient Cornerstone Grimoire
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: 'New additional effect: increases your pet and enslaved demon''s damage and health by 5%.'
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-bwl-gloves-of-rapid-evolution
+  system: items
+  subsystem: Blackwing Lair gear updates
+  entity: Gloves of Rapid Evolution
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Intellect 12 → 20; Meditation 5% → 10%.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-bwl-mantle-of-the-blackwing-cabal
+  system: items
+  subsystem: Blackwing Lair gear updates
+  entity: Mantle of the Blackwing Cabal
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Intellect 16 → 17; Stamina 12 → 16.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-bwl-spineshatter
+  system: items
+  subsystem: Blackwing Lair gear updates
+  entity: Spineshatter
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Damage 99-184 → 104-188; added 4 Defense.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-bwl-the-untamed-blade
+  system: items
+  subsystem: Blackwing Lair gear updates
+  entity: The Untamed Blade
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Damage 192-289 → 205-302.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-bwl-pendant-of-the-fallen-dragon
+  system: items
+  subsystem: Blackwing Lair gear updates
+  entity: Pendant of the Fallen Dragon
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Intellect 12 → 18; Stamina 9 → 12.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-bwl-helm-of-endless-rage
+  system: items
+  subsystem: Blackwing Lair gear updates
+  entity: Helm of Endless Rage
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Strength 25 → 28; Agility 25 → 27; Stamina 26 → 28.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-bwl-dragonfang-blade
+  system: items
+  subsystem: Blackwing Lair gear updates
+  entity: Dragonfang Blade
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Damage 69-130 → 72-135.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-bwl-red-dragonscale-protector
+  system: items
+  subsystem: Blackwing Lair gear updates
+  entity: Red Dragonscale Protector
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Armor 2787 → 2853; Intellect 17 → 20.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-bwl-black-brood-pauldrons
+  system: items
+  subsystem: Blackwing Lair gear updates
+  entity: Black Brood Pauldrons
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Armor 357 → 362; Agility 17 → 19.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-bwl-bracers-of-arcane-accuracy
+  system: items
+  subsystem: Blackwing Lair gear updates
+  entity: Bracers of Arcane Accuracy
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Armor 50 → 51; Stamina 5 → 9.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-bwl-heartstriker
+  system: items
+  subsystem: Blackwing Lair gear updates
+  entity: Heartstriker
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Damage 80-149 → 82-151.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-bwl-maladath
+  system: items
+  subsystem: Blackwing Lair gear updates
+  entity: Maladath, Runed Blade of the Black Flight
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Damage 86-162 → 88-164.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-bwl-claw-of-the-black-drake
+  system: items
+  subsystem: Blackwing Lair gear updates
+  entity: Claw of the Black Drake
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Damage 102-191 → 105-193.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-bwl-black-ash-robe
+  system: items
+  subsystem: Blackwing Lair gear updates
+  entity: Black Ash Robe
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Spellpower 20 → 24; Armor 114 → 116.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-bwl-cloak-of-firemaw
+  system: items
+  subsystem: Blackwing Lair gear updates
+  entity: Cloak of Firemaw
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Stamina 12 → 14; Armor 57 → 58.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-bwl-firemaws-clutch
+  system: items
+  subsystem: Blackwing Lair gear updates
+  entity: Firemaw's Clutch
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Armor 64 → 65; MP5 5 → 7.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-bwl-primalists-linked-legguards
+  system: items
+  subsystem: Blackwing Lair gear updates
+  entity: Primalist's Linked Legguards
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Armor 417 → 422; Spellpower 14 → 18.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-bwl-legguards-of-the-fallen-crusader
+  system: items
+  subsystem: Blackwing Lair gear updates
+  entity: Legguards of the Fallen Crusader
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Armor 740 → 749; Agility 20 → 24.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-bwl-dragon-talon-cleaver
+  system: items
+  subsystem: Blackwing Lair gear updates
+  entity: Dragon Talon Cleaver
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Damage 199-300 → 204-304.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-bwl-drake-talon-pauldrons
+  system: items
+  subsystem: Blackwing Lair gear updates
+  entity: Drake Talon Pauldrons
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Armor 634 → 642; Agility 20 → 22; Strength 20 → 22.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-bwl-rejuvenating-gem
+  system: items
+  subsystem: Blackwing Lair gear updates
+  entity: Rejuvenating Gem
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: MP5 9 → 10.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-bwl-ring-of-blackrock
+  system: items
+  subsystem: Blackwing Lair gear updates
+  entity: Ring of Blackrock
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Removed 9 MP5; added 1% Haste.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-bwl-shadow-wing-focus-staff
+  system: items
+  subsystem: Blackwing Lair gear updates
+  entity: Shadow Wing Focus Staff
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Spellpower 72 → 80.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-bwl-taut-dragonhide-belt
+  system: items
+  subsystem: Blackwing Lair gear updates
+  entity: Taut Dragonhide Belt
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Armor 125 → 126; Stamina 12 → 15.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-bwl-dragonbreath-hand-cannon
+  system: items
+  subsystem: Blackwing Lair gear updates
+  entity: Dragonbreath Hand Cannon
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Damage 99-173 → 101-177.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-bwl-malfurions-blessed-bulwark
+  system: items
+  subsystem: Blackwing Lair gear updates
+  entity: Malfurion's Blessed Bulwark
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Armor 392 → 395; Stamina 22 → 25.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-bwl-ebony-flame-gloves
+  system: items
+  subsystem: Blackwing Lair gear updates
+  entity: Ebony Flame Gloves
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Intellect 12 → 16.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-bwl-herald-of-woe
+  system: items
+  subsystem: Blackwing Lair gear updates
+  entity: Herald of Woe
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Damage 199-300 → 204-304; Feral Attack Power 210 → 224; added 1% Haste.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-bwl-dragons-touch
+  system: items
+  subsystem: Blackwing Lair gear updates
+  entity: Dragon's Touch
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Damage 107-199 → 110-199; added 1% Haste (hotfix 2026-03-21 made the haste effect On Equip).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: 'Also: haste On Equip hotfix — [Torta (staff), 2026-03-21](https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608)'
+- id: it-bwl-emberweave-leggings
+  system: items
+  subsystem: Blackwing Lair gear updates
+  entity: Emberweave Leggings
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Agility 17 → 19; Intellect 12 → 15; Armor 417 → 422.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-bwl-circle-of-applied-force
+  system: items
+  subsystem: Blackwing Lair gear updates
+  entity: Circle of Applied Force
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Strength 12 → 15; Stamina 9 → 12.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-bwl-shroud-of-pure-thought
+  system: items
+  subsystem: Blackwing Lair gear updates
+  entity: Shroud of Pure Thought
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Armor 57 → 58; Intellect 11 → 13.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-bwl-taut-dragonhide-gloves
+  system: items
+  subsystem: Blackwing Lair gear updates
+  entity: Taut Dragonhide Gloves
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Spell Crit Chance 1% → 2%.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-bwl-shimmering-geta
+  system: items
+  subsystem: Blackwing Lair gear updates
+  entity: Shimmering Geta
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Added 44 Healing Power.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-bwl-cloak-of-the-brood-lord
+  system: items
+  subsystem: Blackwing Lair gear updates
+  entity: Cloak of the Brood Lord
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Spellpower 28 → 34.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
+  notes: null
+- id: it-bwl-crulshorukh
+  system: items
+  subsystem: Blackwing Lair gear updates
+  entity: Crul'shorukh, Edge of Chaos
+  entity_ids: []
+  change: Item updated.
+  before: null
+  after: Added 13 Agility.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2026-02-15'
+  status: released
   notes: null
