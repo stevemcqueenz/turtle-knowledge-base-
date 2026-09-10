@@ -1,0 +1,724 @@
+about: Drop rates for custom and notably changed items. See synthesis/content/drop-rates.md.
+record_count: 64
+caveats:
+- Staff records are configured server values on the stated date; several items were changed more than once.
+- Player records are anecdotes, not measurements. No player in this extraction publishes successes over trials for a custom item.
+- Rates attributed to database.turtlecraft.gg are marked; that database is not part of this extraction and players repeatedly questioned its accuracy without an answer.
+- The 2019-2021 "Online Quest & Item Creator" thread contains many percentages that are design proposals, not live values; they are excluded here.
+staff_stated:
+- item: Black Lotus (additional chance from high-level herbs)
+  source: Dreamfoil / Mountain Silversage / Plaguebloom / Icecap
+  rate: 0.5% baseline
+  date: '2023-10-18'
+  reporter: Jamey
+  authority: staff
+  era: pre-1.18.1
+  evidence: staff changelog statement
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=71753#p71753
+- item: Black Lotus
+  source: Dreamfoil / Mountain Silversage / Plaguebloom / Icecap
+  rate: 2% -> 4%
+  date: '2024-04-23'
+  reporter: Torta
+  authority: staff
+  era: pre-1.18.1
+  evidence: staff changelog statement
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=93361#p93361
+  - https://forum.turtlecraft.gg/viewtopic.php?p=93396#p93396
+- item: Black Lotus and Arcanite Bar
+  source: low-level herbs e.g. Peacebloom
+  rate: 4% Black Lotus, 2% Arcanite Bar
+  date: '2024-04-24'
+  reporter: Torta
+  authority: staff
+  era: pre-1.18.1
+  evidence: staff changelog statement
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=93400#p93400
+- item: Golden Sansam, Arthas' Tears, Swiftthistle, Dreamfoil, Firebloom, Gromsblood, Sungrass
+  source: Whip Lasher (Dire Maul)
+  rate: ~1.7% -> 4%
+  date: '2024-03-19'
+  reporter: Akalix
+  authority: staff
+  era: pre-1.18.1
+  evidence: staff changelog statement
+  note: disputed by players the next day; see contested records
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=90746#p90746
+- item: Mountain Silversage, Plaguebloom, Icecap
+  source: Whip Lasher (Dire Maul)
+  rate: 4% (new)
+  date: '2024-03-19'
+  reporter: Akalix
+  authority: staff
+  era: pre-1.18.1
+  evidence: staff changelog statement
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=90746#p90746
+- item: Elemental Air
+  source: Renegade Air Elemental
+  rate: reduced to 20%
+  date: '2025-08-26'
+  reporter: Torta
+  authority: staff
+  era: pre-1.18.1
+  evidence: staff changelog statement
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=148454#p148454
+- item: Snickerfang Jowl, Vulture Gizzard, Scorpok Pincer, Blasted Boar Lung, Basilisk Brain
+  source: Blasted Lands mobs
+  rate: raised to 80%
+  date: '2024-03-19'
+  reporter: Akalix
+  authority: staff
+  era: pre-1.18.1
+  evidence: staff changelog statement
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=90751#p90751
+- item: Abyssal Scepter
+  source: n/a
+  rate: 100%
+  date: '2022-09-11'
+  reporter: Torta
+  authority: staff
+  era: pre-1.18.1
+  evidence: staff changelog statement
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=24828#p24828
+- item: Essence of Eranikus
+  source: n/a
+  rate: 100%
+  date: '2023-04-03'
+  reporter: Torta
+  authority: staff
+  era: pre-1.18.1
+  evidence: staff changelog statement
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=40087#p40087
+- item: Tainted Mojo
+  source: Seer Jang'zo and Speaker Ujuwa
+  rate: 100%
+  date: '2025-02-21'
+  reporter: Torta
+  authority: staff
+  era: pre-1.18.1
+  evidence: staff changelog statement
+  note: build 7207, live 2025-04-03
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=120590#p120590
+- item: Paw of Chief Rnarl / Paw of Belgar
+  source: Chief Rnarl / Belgar
+  rate: 100%
+  date: '2025-09-30'
+  reporter: Torta
+  authority: staff
+  era: pre-1.18.1
+  evidence: staff changelog statement
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=153822#p153822
+- item: Creeper Root
+  source: Ruins Creeper
+  rate: 30% -> 40%
+  date: '2025-02-21'
+  reporter: Torta
+  authority: staff
+  era: pre-1.18.1
+  evidence: staff changelog statement
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=120590#p120590
+- item: Forked Mudrock Tongue
+  source: quest "Mudrock Soup and Bugs"
+  rate: 25% -> 50%, now party loot
+  date: '2025-05-06'
+  reporter: Torta
+  authority: staff
+  era: pre-1.18.1
+  evidence: staff changelog statement
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=129934#p129934
+- item: rods for "The Clutch of Atherelex"
+  source: n/a
+  rate: 11% -> 35%
+  date: '2025-08-13'
+  reporter: Torta
+  authority: staff
+  era: pre-1.18.1
+  evidence: staff changelog statement
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=145131#p145131
+- item: Ogre Warbeads
+  source: Dire Maul
+  rate: raised to 25%
+  date: '2024-01-16'
+  reporter: Torta
+  authority: staff
+  era: pre-1.18.1
+  evidence: staff changelog statement
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=84934#p84934
+- item: E'ko items
+  source: Winterspring
+  rate: party loot removed, raised to 60%
+  date: '2023-05-09'
+  reporter: Torta
+  authority: staff
+  era: pre-1.18.1
+  evidence: staff changelog statement
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=45215#p45215
+- item: Middle Piece of an Ancient Idol
+  source: Gahz'ranka
+  rate: +10%
+  date: '2026-02-03'
+  reporter: Shadowsong
+  authority: staff
+  era: 1.18.1-announced-pre-release
+  evidence: staff changelog statement
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=167358#p167358
+- item: Panther Hide Sack
+  source: Stranglethorn Vale
+  rate: 12% -> 18%
+  date: '2023-06-27'
+  reporter: Torta
+  authority: staff
+  era: pre-1.18.1
+  evidence: staff changelog statement
+  note: '"adjusted to match classic"'
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=51551#p51551
+- item: The Scythe of Elune
+  source: Lower Karazhan Halls
+  rate: 2%
+  date: '2025-05-21'
+  reporter: Akalix
+  authority: staff
+  era: pre-1.18.1
+  evidence: staff changelog statement
+  note: staff answered a direct question
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=132271#p132271
+- item: Eye of the Abyss
+  source: 'Antnormi (Caverns of Time: Black Morass)'
+  rate: around 1%
+  date: '2023-01-21'
+  reporter: Torta
+  authority: staff
+  era: pre-1.18.1
+  evidence: staff changelog statement
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+- item: all Idols
+  source: various
+  rate: 0.4% -> 1%
+  date: '2023-03-08'
+  reporter: Jamey
+  authority: staff
+  era: pre-1.18.1
+  evidence: staff changelog statement
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=37124#p37124
+- item: Idol of Death
+  source: various
+  rate: 0.4% -> 1%
+  date: '2024-03-19'
+  reporter: Akalix
+  authority: staff
+  era: pre-1.18.1
+  evidence: staff changelog statement
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=90751#p90751
+- item: Ferra's Collar
+  source: Illyanna Ravenoak's pet bear Ferra (Dire Maul)
+  rate: 14%
+  date: '2023-07-10'
+  reporter: Dragunovi
+  authority: staff
+  era: pre-1.18.1
+  evidence: staff changelog statement
+  note: mirrors Pimgib's Collar for hunters
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52800#p52800
+- item: Scholomance final-chamber boss loot
+  source: 5 of 6 final-chamber bosses
+  rate: 30% -> 100% chance to drop boss loot; shared 20-item table is 4% per item
+  date: '2023-04-26'
+  reporter: Jamey
+  authority: staff
+  era: pre-1.18.1
+  evidence: staff changelog statement
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=43089#p43089
+- item: Smoldering Dream Essence
+  source: Druid Emerald Blessing chain
+  rate: 20% -> 35%
+  date: '2023-12-01'
+  reporter: Dragunovi
+  authority: staff
+  era: pre-1.18.1
+  evidence: staff changelog statement
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=79558#p79558
+- item: Bag of the Vast Conscious
+  source: Solnius (Emerald Sanctum)
+  rate: 15% -> 25%; guaranteed from the Favor
+  date: '2023-12-01'
+  reporter: Dragunovi
+  authority: staff
+  era: pre-1.18.1
+  evidence: staff changelog statement
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=79558#p79558
+- item: Dreamscale
+  source: Solnius (Emerald Sanctum)
+  rate: 48% -> guaranteed
+  date: '2023-12-01'
+  reporter: Dragunovi
+  authority: staff
+  era: pre-1.18.1
+  evidence: staff changelog statement
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=79558#p79558
+- item: 'Formula: Eternal Dreamstone Shard'
+  source: Emerald Sanctum
+  rate: raised to 1% (2023-12-01), then 1.5% with a 3-day cooldown (2025-06-24)
+  date: '2025-06-24'
+  reporter: Torta
+  authority: staff
+  era: pre-1.18.1
+  evidence: staff changelog statement
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=79558#p79558
+  - https://forum.turtlecraft.gg/viewtopic.php?p=136891#p136891
+- item: Ephemeral Pendant
+  source: Outland bosses / all encounters
+  rate: 4% -> 10% (2025-04-16), then 20% (2025-06-24)
+  date: '2025-06-24'
+  reporter: Torta
+  authority: staff
+  era: pre-1.18.1
+  evidence: staff changelog statement
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=126946#p126946
+  - https://forum.turtlecraft.gg/viewtopic.php?p=136891#p136891
+- item: endgame custom dungeon BoE rare drops
+  source: custom dungeons
+  rate: raised from 0.0031%
+  date: '2024-07-03'
+  reporter: Jamey
+  authority: staff
+  era: pre-1.18.1
+  evidence: staff changelog statement
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=98410#p98410
+- item: Dragonmaw Bracers/Greaves/Hauberk/Leggings, Stormreaver Boots/Belt
+  source: Grim Reaches / Balor content
+  rate: 0.11% -> 1.35%
+  date: '2025-09-02'
+  reporter: Torta
+  authority: staff
+  era: pre-1.18.1
+  evidence: staff changelog statement
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=149960#p149960
+- item: Noble's Pendant
+  source: Gilneas City
+  rate: missing drop added
+  date: '2025-08-13'
+  reporter: Torta
+  authority: staff
+  era: pre-1.18.1
+  evidence: staff changelog statement
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=145131#p145131
+- item: unnamed auction-house rarity
+  source: Stormwind Vault trash
+  rate: 0.01% and 0.02%
+  date: '2024-03-16'
+  reporter: Pepesmite
+  authority: staff
+  era: pre-1.18.1
+  evidence: staff support answer
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=90378#p90378
+  - https://forum.turtlecraft.gg/viewtopic.php?p=90525#p90525
+- item: Foulheart Horn
+  source: quest "Horns of their Allies"
+  rate: '"increased" - no figure'
+  date: '2026-03-21'
+  reporter: Torta
+  authority: staff
+  era: post-1.18.1
+  evidence: staff changelog statement
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+- item: Blackroot Totem
+  source: Moonwhisper Coast
+  rate: '"increased" - no figure'
+  date: '2026-03-31'
+  reporter: Torta
+  authority: staff
+  era: post-1.18.1
+  evidence: staff changelog statement
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+- item: Pridewing Venom Sac
+  source: n/a
+  rate: '"increased" - no figure'
+  date: '2026-04-28'
+  reporter: Jamey
+  authority: staff
+  era: post-1.18.1
+  evidence: staff changelog statement
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=176311#p176311
+- item: Gressil, Dawn of Ruin
+  source: n/a
+  rate: 0.01% quoted
+  date: '2024-04-01'
+  reporter: Akalix
+  authority: staff
+  era: pre-1.18.1
+  evidence: staff changelog statement
+  note: posted on 1 April; treat with caution
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=91795#p91795
+player_reported:
+- item: Intact Pounder Mainframe
+  source: Crowd Pummeler 9-60 (Gnomeregan)
+  claim: took around 500 kills
+  date: '2025-04-16'
+  reporter: Speedz1337
+  authority: player
+  sample_size: ~500 kills, 1 drop
+  era: pre-1.18.1
+  evidence: player report
+  status: consistent with an earlier report
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=126955#p126955
+- item: Pummeler mount starting item
+  source: Crowd Pummeler 9-60
+  claim: 100 runs with no drop; was easy before a content update
+  date: '2023-10-18'
+  reporter: Shade81
+  authority: player
+  sample_size: 100 runs, 0
+  era: pre-1.18.1
+  evidence: player report
+  status: unanswered
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=71963#p71963
+- item: Deadwood Headdress Feather
+  source: Deadwood furbolgs (Felwood)
+  claim: ~1200 kills over two characters, zero drops
+  date: '2019-10-18'
+  reporter: Musse
+  authority: player
+  sample_size: ~1200 kills, 0
+  era: pre-1.18.1
+  evidence: player report
+  status: unanswered
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=4247#p4247
+- item: Mountain Silversage / Plaguebloom / Icecap
+  source: Whip Lasher (Dire Maul)
+  claim: 'no drop in 400 lasher kills; a second player: 10 DM lasher runs, none'
+  date: '2024-03-20'
+  reporter: Maxmin (quoted by Shoc), Drakae, Jc473
+  authority: player
+  sample_size: 400 kills / 10 runs, 0
+  era: pre-1.18.1
+  evidence: player report
+  status: contradicts the staff 4% change of 2024-03-19; unanswered
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=90885#p90885
+  - https://forum.turtlecraft.gg/viewtopic.php?p=90922#p90922
+  - https://forum.turtlecraft.gg/viewtopic.php?p=90965#p90965
+- item: Stormwind Vault trash items
+  source: Stormwind Vault
+  claim: 111 runs, never saw any trash item
+  date: '2024-03-16'
+  reporter: Badmojo74 (quoted by staff), Dakkashagga
+  authority: player
+  sample_size: 111 runs, 0
+  era: pre-1.18.1
+  evidence: player report
+  status: 'staff answered: 0.01%/0.02%'
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=90378#p90378
+  - https://forum.turtlecraft.gg/viewtopic.php?p=90396#p90396
+- item: Devout Skirt
+  source: Stratholme Undead
+  claim: 40+ runs, never seen; needed for a questline
+  date: '2024-12-31'
+  reporter: Tossia
+  authority: player
+  sample_size: 40+ runs, 0
+  era: pre-1.18.1
+  evidence: player report
+  status: unanswered
+  quoted_rate_origin: database.turtlecraft.gg says 20% (not extracted)
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=115009#p115009
+- item: Devout Mantle (20%) and Lightforge Spaulders (10%)
+  source: UBRS
+  claim: 20+ runs, neither dropped; same reported on the Tel'Abim realm
+  date: '2024-02-06'
+  reporter: Wilsonsds
+  authority: player
+  sample_size: 20+ runs, 0
+  era: pre-1.18.1
+  evidence: player report
+  status: unanswered
+  quoted_rate_origin: database.turtlecraft.gg (not extracted)
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=87109#p87109
+  - https://forum.turtlecraft.gg/viewtopic.php?p=87130#p87130
+- item: Dungeon Set 1 pieces
+  source: Baron Rivendare, Darkmaster Gandling
+  claim: 200+ UBRS runs for the Lightbringer chestplate, seen once
+  date: '2022-09-12'
+  reporter: Klouther
+  authority: player
+  sample_size: 200+ runs, 1
+  era: pre-1.18.1
+  evidence: player report
+  status: unanswered
+  quoted_rate_origin: database says all D1 pieces share 11% (not extracted)
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=24939#p24939
+- item: Warrior Tier 0 chest / legs
+  source: Rivendare, Drakkisath, Kirtonos
+  claim: 60-70 combined kills, only 1 boot drop
+  date: '2023-12-29'
+  reporter: Toaonyk
+  authority: player
+  sample_size: 60-70 kills
+  era: pre-1.18.1
+  evidence: player report
+  status: unanswered
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=83110#p83110
+- item: UBRS-key gems
+  source: LBRS bosses
+  claim: '35 runs for the last gem (dropped twice); another: 15 runs, each gem once; a third: 45+ runs'
+  date: '2023-11-06'
+  reporter: Drubarrymooer, Wafflecrusher
+  authority: player
+  sample_size: 15 / 35 / 45 runs
+  era: pre-1.18.1
+  evidence: player report
+  status: high variance; no rate established
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=76160#p76160
+  - https://forum.turtlecraft.gg/viewtopic.php?p=76184#p76184
+  - https://forum.turtlecraft.gg/viewtopic.php?p=47681#p47681
+- item: Hateforge Quarry epic trinket
+  source: Hateforge Quarry
+  claim: one player 23 runs, another 150+ runs with no drop; a hunter 125+ runs
+  date: '2023-05-27'
+  reporter: Drubarrymooer
+  authority: player
+  sample_size: 23 / 125 / 150 runs
+  era: pre-1.18.1
+  evidence: player report
+  status: high variance
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=47681#p47681
+- item: Thaddius Tier 3 head tokens
+  source: Thaddius (Naxxramas)
+  claim: 15 kills (30 drop rolls) without one specific token
+  date: '2024-05-07'
+  reporter: Kord2998
+  authority: player
+  sample_size: 15 kills / 30 rolls
+  era: pre-1.18.1
+  evidence: player report
+  status: contested statistics argument
+  quoted_rate_origin: database says 33% per token, twice per kill (not extracted)
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=94185#p94185
+  - https://forum.turtlecraft.gg/viewtopic.php?p=94203#p94203
+  - https://forum.turtlecraft.gg/viewtopic.php?p=94219#p94219
+- item: Tier 3 pieces
+  source: Naxxramas
+  claim: 10-11 lockouts, 2 tier-3 pieces total
+  date: '2026-03-31'
+  reporter: Zarahv
+  authority: player
+  sample_size: 10-11 lockouts
+  era: post-1.18.1
+  evidence: player report
+  status: argument for a badge system
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=173499#p173499
+- item: ranged weapons / Might of Menethil
+  source: Four Horsemen, Kel'Thuzad (Naxxramas)
+  claim: 13-14 clears, no ranged weapon, 1 Might of Menethil
+  date: '2025-03-03'
+  reporter: Therlx
+  authority: player
+  sample_size: 13-14 clears
+  era: pre-1.18.1
+  evidence: player report
+  status: unanswered
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=121461#p121461
+- item: 'Plans: Dragonscale Belt Buckle'
+  source: world drop from dragons
+  claim: database rate "like 1 in 4000 kills"; killed 200-300 dragons with none
+  date: '2026-04-03'
+  reporter: Scootiesana
+  authority: player
+  sample_size: 200-300 kills, 0
+  era: post-1.18.1
+  evidence: player report
+  status: unanswered
+  quoted_rate_origin: database.turtlecraft.gg (not extracted)
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=173839#p173839
+- item: Emerald Sanctum crafting recipes
+  source: Emerald Sanctum
+  claim: '"4% per week is brutal"'
+  date: '2024-04-04'
+  reporter: Borefficz
+  authority: player
+  era: pre-1.18.1
+  evidence: player report
+  status: rate is a database value
+  quoted_rate_origin: database.turtlecraft.gg (not extracted)
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=92063#p92063
+- item: Emerald Dream Frog pet
+  source: Emerald Sanctum
+  claim: soft-reserved weekly for half a year, never dropped
+  date: '2024-04-04'
+  reporter: Geojak
+  authority: player
+  sample_size: ~26 lockouts, 0
+  era: pre-1.18.1
+  evidence: player report
+  status: unanswered
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=92070#p92070
+- item: Circle of Flame
+  source: Blackrock Depths
+  claim: first seen in 1000 BRD runs
+  date: '2022-08-13'
+  reporter: Greatgrass
+  authority: player
+  sample_size: 1000 runs, 1
+  era: pre-1.18.1
+  evidence: player report
+  status: cited approvingly as a good ultra-rare
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=22171#p22171
+- item: Black Lotus
+  source: herb nodes on the Ambershire realm
+  claim: '"well over 30%" on Ambershire vs 4% on Nordanaar'
+  date: '2026-03-31'
+  reporter: Birtha
+  authority: player
+  era: post-1.18.1
+  evidence: player report
+  status: CONTESTED - disputed the same day
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=173493#p173493
+- item: Black Lotus
+  source: herb nodes on the Ambershire realm
+  claim: 'disputed: "I don''t get 1 per day. In 40-50 gathers"'
+  date: '2026-03-31'
+  reporter: Durin
+  authority: player
+  sample_size: 40-50 gathers
+  era: post-1.18.1
+  evidence: player report
+  status: CONTESTED - rebuts the previous record
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=173515#p173515
+- item: Prospector's Magnifying Lens (Survival trinket)
+  source: Rich Thorium Veins
+  claim: reported to work only for Jewelcrafting, not Mining; database implies 1.5x drop chance
+  date: '2026-04-03'
+  reporter: Devastouur (quoted by Elesion)
+  authority: player
+  era: post-1.18.1
+  evidence: player report
+  status: unresolved - no staff statement
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=173826#p173826
+- item: boss loot tables generally
+  source: Gilneas City worgen boss
+  claim: same loot 30 kills in a row; changed only after killing other bosses first
+  date: '2025-07-07'
+  reporter: Danwith
+  authority: player
+  sample_size: 30 kills
+  era: pre-1.18.1
+  evidence: player report
+  status: contested - countered as ordinary RNG
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=138351#p138351
+- item: War Master Voone loot
+  source: UBRS
+  claim: always dropped the T0 hunter glove plus throwing axe over 20+ kills
+  date: '2024-01-19'
+  reporter: Tacticalnelf
+  authority: player
+  sample_size: 20+ kills
+  era: pre-1.18.1
+  evidence: player report
+  status: contested
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=85387#p85387
+- item: Blacksmithing plans as mob drops
+  source: world mobs
+  claim: '"the droprate seems very low every time"; asks how accurate the Turtle database rates are'
+  date: '2025-05-27'
+  reporter: Achmodeus
+  authority: player
+  era: pre-1.18.1
+  evidence: player report
+  status: question never answered
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=133221#p133221
+- item: Top Half of Advance Goldsmithing 2
+  source: database points at Sunken Temple trolls
+  claim: farmed without success
+  date: '2026-02-06'
+  reporter: Nobody2u, Assteeriix
+  authority: player
+  era: 1.18.1-announced-pre-release
+  evidence: player report
+  status: unresolved
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=155228#p155228
+  - https://forum.turtlecraft.gg/viewtopic.php?p=167568#p167568
+- item: 'Schematic: Enchanted Thorium Shells'
+  source: Cannon Master Willey (per staff, 2026-04-07)
+  claim: still not dropping a week after the fix
+  date: '2026-04-14'
+  reporter: Roegnvald
+  authority: player
+  era: post-1.18.1
+  evidence: player report
+  status: unresolved at the end of the record
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=174367#p174367
+  - https://forum.turtlecraft.gg/viewtopic.php?p=175240#p175240
+- item: quest items generally
+  source: Turtle custom quests
+  claim: some quest items drop per-player and some for the whole party, with no way to tell which; Intercepting Wavecrest needed ~100 naga kills for a group of 4 at ~80%
+  date: '2023-10-25'
+  reporter: Styopa1
+  authority: player
+  era: pre-1.18.1
+  evidence: player report
+  status: staff replied; no documented rule
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=73526#p73526
+  - https://forum.turtlecraft.gg/viewtopic.php?p=73571#p73571
+  - https://forum.turtlecraft.gg/viewtopic.php?p=40601#p40601

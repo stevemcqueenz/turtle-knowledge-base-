@@ -2,11 +2,12 @@ about: Turtle WoW vendors, trainers and service NPCs. See synthesis/content/npcs
 generated_from:
 - structured/wiki/npcs.jsonl
 - forum posts cited per record
-record_count: 229
+record_count: 235
 caveats:
-- 'No vendor inventory is documented anywhere in this extraction: the community wiki Sells section is a literal "..." placeholder on all four pages that have one.'
-- No source gives in-game X/Y coordinates for any NPC; hub is a named sub-zone.
-- level/faction are wiki infobox values and are not always internally consistent.
+- 'Almost no vendor inventory is documented: the community wiki Sells section is a literal "..." placeholder on all four pages that have one. The vendors_with_stated_inventory list is everything the whole corpus states.'
+- One in-game coordinate pair exists in the entire extraction (Stickypaws, Gilneas ~50,39); every other location is a named sub-zone.
+- level/faction in the wiki roster are infobox values and are not always internally consistent.
+- Several recipe vendors carry limited stock and are reported as camped around the clock, so the item may not be on the shelf.
 vendors_from_wiki_roster:
 - npc: Blood Ring Gladiator
   level: '30'
@@ -3668,3 +3669,116 @@ vendors_with_stated_inventory:
   source_tier: community wiki (turtle-wow.fandom.com), not an official source
   sources:
   - https://turtle-wow.fandom.com/wiki/Silvermoon_Remnant
+- npc: Stickypaws
+  role: gnoll vendor
+  hub: walled human garden with a statue, south-east of Northgate Tower
+  zone: Gilneas
+  coords: ~50,39
+  coords_note: the only in-game coordinate pair anywhere in this extraction
+  inventory:
+  - item: 'Recipe: Gilneas Hot Stew'
+    item_id: 61676
+    price: null
+  source_tier: player forum posts
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=101848#p101848
+  - https://forum.turtlecraft.gg/viewtopic.php?p=101846#p101846
+- npc: Ranik
+  role: Trade Supplier
+  hub: Ratchet
+  zone: The Barrens
+  coords: null
+  coords_note: not found in sources
+  inventory:
+  - item: 'recipe: Precision Jewelers Kit'
+    price: null
+    requirement: Engineering 175 to craft
+  source_tier: player leveling guide
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=106310#p106310
+- npc: Gonzo Snaphands
+  role: Jewelcrafting Supplies
+  hub: Steamwheedle Port
+  zone: Tanaris
+  coords: null
+  coords_note: not found in sources
+  inventory:
+  - item: 'recipe: Jewelry Scope'
+    price: null
+    requirement: Engineering 225 to craft
+  - item: 'Recipe: Blue Starfire'
+    price: null
+  source_tier: player leveling guide
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=106310#p106310
+- npc: Jewelcrafting Supplier (generic)
+  role: Jewelcrafting Supplies
+  hub: null
+  zone: null
+  coords: null
+  coords_note: not found in sources
+  inventory:
+  - item: Jewelers Kit
+    price: 2s
+  - item: 'recipe: Jewelry Lens'
+    price: null
+    requirement: Engineering 125 to craft
+  - item: Polishing Oil
+    price: 1s
+  - item: Shimmering Oil
+    price: 5s
+  - item: Weak Flux
+    price: 1s
+  - item: Gemstone Oil
+    price: 25s
+  - item: Strong Flux
+    price: 20s
+  source_tier: player leveling guide
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=106310#p106310
+- npc: Survival Supplier (generic)
+  role: Survival Supplies
+  hub: null
+  zone: null
+  coords: null
+  coords_note: not found in sources
+  inventory:
+  - item: Whittle
+    price: 50c
+  - item: Woodcutting Axe
+    price: 50c
+  - item: Unlit Poor Torch
+    price: 10c
+  - item: Springy Rope
+    price: 85c
+  - item: Refreshing Spring Water
+    price: 25c
+  - item: Remedy Herbs
+    price: 12c
+  - item: Fine Thread
+    price: 1s
+  - item: Sturdy Rope
+    price: 1s
+  - item: Hot Spices
+    price: 40c
+  - item: Soothing Spices
+    price: 1s 60c
+  - item: Molasses Firewater
+    price: 10s
+  note: prices as listed in the post-1.18.1 Survival leveling guide; some of these are generic trade-goods vendor stock rather than Survival-specific
+  source_tier: player leveling guide
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=172915#p172915
+- npc: Mining Supplier (generic)
+  role: Mining Supplies
+  hub: null
+  zone: null
+  coords: null
+  coords_note: not found in sources
+  inventory:
+  - item: Blacksmith Hammer
+    price: 20c
+    note: needed with an anvil for some Survival recipes
+  source_tier: player leveling guide
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=172915#p172915

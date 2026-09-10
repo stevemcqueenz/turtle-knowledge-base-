@@ -1,0 +1,494 @@
+about: Custom and Turtle-modified reputation factions. See synthesis/content/factions.md.
+record_count: 15
+reputation_thresholds:
+  Friendly: 3000
+  Honored: 6000
+  Revered: 12000
+  Exalted: 21000
+  note: vanilla-standard points per rank; Honored gives a 10% vendor discount; Exalted unlocks other races mounts and most tabards
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Reputation
+caveats:
+- Reward tables come from the community wiki, not from staff; prices may be stale.
+- Six custom factions have no documented reward list anywhere in this extraction.
+- No quartermaster coordinates exist in any source.
+factions:
+- name: Silvermoon Remnant
+  side: Alliance
+  patch: 1.15.0 (re-added)
+  capital: Alah'Thalas
+  leader: Lord-Regent Astalor Sunsworn
+  quartermasters:
+  - Soalara Dawnstar
+  - Alinerenah Sunsparrow
+  mount_vendor: Vanira Quel'Belore (Alah'Thalas)
+  reputation_sources:
+  - method: quests
+    detail: Thalassian Highlands and Moonwhisper Coast, plus a few in Ironforge, Stormwind City and Hawk's Vigil
+    source_tier: community wiki
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Silvermoon_Remnant
+  - method: repeatable cloth turn-in
+    detail: Alinerenah Sunsparrow; only Runecloth counts toward Exalted
+    source_tier: player
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=155682#p155682
+  - method: removed dailies
+    detail: repeatable quests existed before the Thalassian Highlands zone and were removed around 1.17.1
+    source_tier: player
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=155689#p155689
+    - https://forum.turtlecraft.gg/viewtopic.php?p=105669#p105669
+    - https://forum.turtlecraft.gg/viewtopic.php?p=85623#p85623
+    - https://forum.turtlecraft.gg/viewtopic.php?p=85632#p85632
+  player_reported_cost:
+  - claim: honored to exalted cost 300-350g
+    source_tier: player
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=155715#p155715
+  - claim: honored to revered needs ~5000 Runecloth, ~380-390g
+    source_tier: player
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=85754#p85754
+  rewards:
+  - rank: Friendly
+    item: Curved Ceremonial Staff
+    cost: 6s
+    type: Staff (caster)
+  - rank: Friendly
+    item: Hardened Root Staff
+    cost: 6s
+    type: Staff (stamina)
+  - rank: Friendly
+    item: Sturdy Broadsword
+    cost: 4s
+    type: Sword
+  - rank: Friendly
+    item: Tempered Argus Mace
+    cost: 5s
+    type: Mace
+  - rank: Friendly
+    item: Well-balanced Short Bow
+    cost: 4s
+    type: Bow
+  - rank: Honored
+    item: Quel'dorei Hero's Cape
+    cost: 82s 73c
+    type: Cape
+  - rank: Honored
+    item: Quel'dorei Hero's Cloak
+    cost: 3g 50s 45c
+    type: Cape
+  - rank: Honored
+    item: Quel'dorei Hero's Drape
+    cost: 2g 25s 53c
+    type: Cape
+  - rank: Revered
+    item: Quel'dorei Assassin's set (Belt, Boots, Leggings, Tunic, Vices)
+    cost: null
+    type: Leather
+  - rank: Revered
+    item: Quel'dorei Guardian's set (Boots, Chestplate, Girdle, Handguards, Legplates)
+    cost: null
+    type: Plate
+  - rank: Revered
+    item: Quel'dorei Magister's set (Belt, Boots, Gloves, Leggings, Robe)
+    cost: null
+    type: Cloth
+  - rank: Revered
+    item: Quel'dorei Ranger's set (Belt, Boots, Gauntlets, Hauberk, Legguards)
+    cost: null
+    type: Mail
+  - rank: Exalted
+    item: Quel'Thalas Tabard
+    cost: null
+    type: Tabard
+  - rank: Exalted (non-High-Elf Alliance)
+    item: White Thalassian Unicorn
+    cost: 10g
+    type: Riding 75
+  - rank: Exalted (non-High-Elf Alliance)
+    item: Armored Thalassian Unicorn
+    cost: 100g
+    type: Riding 150
+  - rank: Exalted (non-High-Elf Alliance)
+    item: Ornate Thalassian Unicorn
+    cost: 100g
+    type: Riding 150
+  rewards_source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Silvermoon_Remnant
+  - https://forum.turtlecraft.gg/viewtopic.php?p=155668#p155668
+  - https://forum.turtlecraft.gg/viewtopic.php?p=155682#p155682
+  - https://forum.turtlecraft.gg/viewtopic.php?p=155715#p155715
+  - https://forum.turtlecraft.gg/viewtopic.php?p=85754#p85754
+- name: Durotar Labor Union
+  side: Horde
+  patch: 1.15.0
+  capital: Sparkwater Port
+  leader: Grand Taskmaster Nert Blastentom (also Taxxlo Rustgate)
+  quartermasters:
+  - Vanessa Clang
+  reputation_sources:
+  - method: quests
+    detail: Blackstone Island, Durotar, Stonetalon Mountains (Powder Town), Dustwallow Marsh (Mudsprocket)
+    source_tier: staff + player
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=83868#p83868
+    - https://forum.turtlecraft.gg/viewtopic.php?p=83907#p83907
+    - https://turtle-wow.fandom.com/wiki/Durotar_Labor_Union
+  - method: repeatable engineering-material turn-ins
+    detail: Vanessa Clang, Sparkwater Port
+    source_tier: community wiki
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Durotar_Labor_Union
+  - method: repeatable gathering quests
+    detail: two infinitely repeatable Mudsprocket quests, 300 rep for both at once
+    source_tier: player, single source
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=83907#p83907
+  rewards:
+  - rank: Exalted
+    item: Rocket car mounts (rare and epic)
+    cost: null
+    note: 'CONTESTED: a 2024 player at Exalted on a Troll could not buy them; the 2025 wiki revision says non-goblins can'
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=88547#p88547
+    - https://forum.turtlecraft.gg/viewtopic.php?p=88804#p88804
+    - https://turtle-wow.fandom.com/wiki/Durotar_Labor_Union
+  known_bugs:
+  - issue: Halloween quests granted 150 rep to all same-side factions but not to the Durotar Labor Union
+    source_tier: player, unanswered
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=27585#p27585
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Durotar_Labor_Union
+  - https://forum.turtlecraft.gg/viewtopic.php?p=83673#p83673
+  - https://forum.turtlecraft.gg/viewtopic.php?p=83868#p83868
+  - https://forum.turtlecraft.gg/viewtopic.php?p=83907#p83907
+- name: Wardens of Time
+  side: Neutral
+  patch: 1.16.0
+  base: Caverns of Time
+  leader: Vairozdormu
+  quartermasters:
+  - Dronormu
+  reputation_sources:
+  - method: repeatable turn-in
+    detail: Corrupted Sand (quest 40340) = 15 rep per sand; Sand in Bulk (quest 40341) = 175 rep per 10 sand
+    source_tier: community wiki + player guide
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Wardens_of_Time
+    - https://forum.turtlecraft.gg/viewtopic.php?p=78524#p78524
+  - method: Black Morass bosses
+    detail: Chronar +50, Time-Lord Epochronos +100, Antnormi +50; ~200 raw rep per run at Honored+
+    source_tier: player guide
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=78524#p78524
+  - method: Black Morass trash
+    detail: Infinite Rift-Lord +10, Riftweaver/Riftguard +5, Infinite Whelp +2, 19x Infinite Dragonspawn +5; ~400 raw rep per run at Friendly
+    source_tier: player guide
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=78524#p78524
+  - method: Sunnyglade Valley battleground
+    detail: +150 per victory
+    source_tier: player, two sources
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=78524#p78524
+    - https://forum.turtlecraft.gg/viewtopic.php?p=102403#p102403
+  reputation_gates:
+  - at Honored, Black Morass trash stops giving reputation
+  - at Revered, Black Morass bosses stop giving reputation
+  reputation_gates_source:
+  - https://turtle-wow.fandom.com/wiki/Wardens_of_Time
+  - https://forum.turtlecraft.gg/viewtopic.php?p=78524#p78524
+  player_reported_cost:
+  - claim: Honored to Revered needs 520 Corrupted Sand without run rep; Revered to Exalted needs 1200
+    source_tier: player guide, single source
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=78524#p78524
+  rewards: []
+  rewards_note: not found in sources - sold by Dronormu in the Caverns of Time
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Wardens_of_Time
+  - https://forum.turtlecraft.gg/viewtopic.php?p=78524#p78524
+  - https://forum.turtlecraft.gg/viewtopic.php?p=116560#p116560
+- name: Dalaran
+  side: Alliance
+  patch: 1.15.0
+  base: Dalaran (Alterac Mountains)
+  leader: Council of Six
+  quartermasters:
+  - Lonum Magicus
+  reputation_sources:
+  - method: repeatable enchanting turn-ins
+    detail: 3x Greater Mystic Essence = 75; 1x Small Radiant Shard = 100; 1x Large Brilliant Shard = 200; 1x Nexus Crystal = 500
+    source_tier: community wiki
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Dalaran_(faction)
+  - method: quests
+    detail: ~8125 rep total; mostly Nethergarde Keep, some in Azshara (Magus Bromley), the Karazhan Crypts Alliance chain, and Fel Energy Irregularities I-VII in the Blasted Lands
+    source_tier: community wiki + player
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Dalaran_(faction)
+    - https://forum.turtlecraft.gg/viewtopic.php?p=36344#p36344
+    - https://turtle-wow.fandom.com/wiki/Fel_Energy_Irregularities_VII
+  contested: 2023 players report no working repeatable and Revered unreachable; the wiki lists four repeatable turn-ins
+  contested_sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=36344#p36344
+  - https://forum.turtlecraft.gg/viewtopic.php?p=54708#p54708
+  - https://forum.turtlecraft.gg/viewtopic.php?p=56040#p56040
+  - https://turtle-wow.fandom.com/wiki/Dalaran_(faction)
+  rewards:
+  - rank: Revered
+    item: Boots of the Hermit Magi
+    cost: 7g 29s 9c
+    type: Feet
+  - rank: Revered
+    item: Skulker's Gloves
+    cost: 7g 69s 26c
+    type: Hands
+  - rank: Revered
+    item: Spellguard's Shield
+    cost: 10g 53s 12c
+    type: Shield
+  - rank: Revered
+    item: Pauldrons of Sealed Magics
+    cost: 11g 29s 9c
+    type: Shoulders
+  - rank: Revered
+    item: Girdle of the Warden
+    cost: 7g 82s 9c
+    type: Waist
+  - rank: Exalted
+    item: Dalaran Tabard
+    cost: 5g
+    type: Tabard
+  - rank: Exalted
+    item: Dalarani Conjurer's Hat
+    cost: 12g 89s 22c
+    type: Head
+  - rank: Exalted
+    item: Ring of Flowing Leylines
+    cost: 16g 59s 23c
+    type: Ring
+  rewards_source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Dalaran_(faction)
+  - https://forum.turtlecraft.gg/viewtopic.php?p=36344#p36344
+  - https://forum.turtlecraft.gg/viewtopic.php?p=54708#p54708
+- name: Revantusk Trolls
+  side: Horde
+  patch: 1.15.0 (re-added)
+  capital: Amani'Alor, Revantusk Village
+  leader: Primal Torntusk
+  quartermasters: []
+  reputation_sources:
+  - method: repeatable cloth turn-in
+    detail: 20 Runecloth = 50 rep; fastest and most expensive
+    source_tier: player, single source
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=82964#p82964
+  - method: repeatable quests across zones
+    detail: Ashenvale to Silithus and the Eastern Plaguelands
+    source_tier: player
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=82964#p82964
+  - method: repeatable hippogryph kill quest
+    detail: Hinterlands; ~1.4g + 150 rep per 5-minute run
+    source_tier: player, single source
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=82964#p82964
+  rewards: []
+  rewards_note: level-60 gear; a player reports the items have no Stamina and calls the grind not worth it
+  rewards_sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=83031#p83031
+  known_bugs:
+  - issue: 2022 report that the Amani'Alor reputation NPCs and their building disappeared after a patch
+    source_tier: player, unanswered
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=18896#p18896
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Revantusk_Trolls
+  - https://forum.turtlecraft.gg/viewtopic.php?p=82958#p82958
+  - https://forum.turtlecraft.gg/viewtopic.php?p=82964#p82964
+  - https://forum.turtlecraft.gg/viewtopic.php?p=83029#p83029
+  - https://forum.turtlecraft.gg/viewtopic.php?p=83031#p83031
+- name: Steamwheedle Blood Ring
+  side: Neutral
+  patch: 1.16.0
+  base: Blood Ring arena
+  reputation_sources:
+  - method: 3v3 arena participation
+    detail: reputation earned by participating in matches
+    source_tier: staff
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=71607#p71607
+    - https://forum.turtlecraft.gg/viewtopic.php?p=12455#p12455
+  rewards: []
+  rewards_note: Blood Ring PvP sets (1.16.1); Exalted title "Blood Ring Champion" plus rings; gated recipes Enchant Gloves - Major Strength, Bloody Belt Buckle, Gurubashi Gumbo
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Steamwheedle_Blood_Ring
+  - https://forum.turtlecraft.gg/viewtopic.php?p=71607#p71607
+  - https://forum.turtlecraft.gg/viewtopic.php?p=12455#p12455
+  - https://forum.turtlecraft.gg/viewtopic.php?p=80586#p80586
+- name: Kul Tiras (renamed from Kul Tiran Exploratory Fleet in 1.16.1)
+  side: Alliance
+  patch: 1.16.0
+  base: Caelan's Rest, Lapidis Isle
+  leader: 'Colonel Hardinus (fleet: Admiral Caelan)'
+  quartermasters: []
+  reputation_sources:
+  - method: quests
+    detail: nearly every Lapidis Isle quest (75-500 each); the Tower of Lapidis I-X chain; Barrens, Stormwind City and Balor quests
+    source_tier: community wiki
+    sources:
+    - https://turtle-wow.fandom.com/wiki/The_Tower_of_Lapidis_X
+    - https://turtle-wow.fandom.com/wiki/The_Deeds_of_Sir_Danuvis
+    - https://turtle-wow.fandom.com/wiki/Ceaseless_Storms
+  rewards: []
+  rewards_note: not found in sources
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Kul_Tiran_Exploratory_Fleet
+- name: Kontsuma
+  side: Neutral
+  patch: 1.17.0
+  capital: Kontsuma, Kamio
+  reputation_sources:
+  - method: quests
+    detail: Troubles From Distant Lands (Barrens, +100) and the Tel'Abim chain Translating The Unknown / An Exile's Regret / To Heal A Soul (+25/+25/+250)
+    source_tier: community wiki
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Troubles_From_Distant_Lands
+    - https://turtle-wow.fandom.com/wiki/To_Heal_A_Soul
+  rewards:
+  - rank: quest reward
+    item: 'Music: Winds of Kamio'
+  - rank: quest reward
+    item: Kabuto of the Senshi or Kabuto of the Protector
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Kontsuma_(faction)
+  - https://turtle-wow.fandom.com/wiki/Troubles_From_Distant_Lands
+- name: Draenei Exiles
+  side: Neutral
+  patch: 1.18.1
+  base: Moro'gai Village / the Harborage
+  reputation_sources:
+  - method: quests
+    detail: Sanv K'la -> Akh Z'ador riftwalker chain (Swamp of Sorrows, Azshara, Moonwhisper Coast); +175/+175/+75/+75 per step
+    source_tier: community wiki
+    sources:
+    - https://turtle-wow.fandom.com/wiki/The_Sanv_Charm
+    - https://turtle-wow.fandom.com/wiki/Learn_Of_My_Past
+  hotfixes:
+  - already-completed quests now award reputation retroactively (2026-03-21)
+  - players can enable 'At War' (2026-03-31)
+  - Glowing Draenethyst Cluster reputation reduced to 250 (2026-03-31)
+  rewards: []
+  rewards_note: not found in sources
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  - https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  - https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  - https://turtle-wow.fandom.com/wiki/Draenei_Exiles
+- name: Earthen Ring
+  side: Horde
+  patch: 1.18.1
+  base: Stonetalon Mountains
+  reputation_sources: []
+  reputation_note: not found in sources
+  hotfixes:
+  - Earthen Ring-aligned NPCs made interactable for Horde players (2026-03-31)
+  - rested bonus added to the Earthen Ring inn (2026-04-14)
+  rewards: []
+  rewards_note: not found in sources
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  - https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  - https://forum.turtlecraft.gg/viewtopic.php?p=175230#p175230
+  - https://turtle-wow.fandom.com/wiki/Earthen_Ring_(faction)
+- name: Keepers of Outerend
+  side: Neutral
+  patch: 1.15.0
+  capital: Shaper's Terrace, Un'Goro Crater
+  leader: Custodian A-01
+  quartermasters:
+  - Earthshaper Thoron (sells nothing)
+  status: deprecated - removed from the game at an unknown point; no content was ever implemented
+  contested: still listed on the live official site New Factions & Quests page
+  rewards: []
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Keepers_of_Outerend
+  - https://turtlecraft.gg/new-factions-and-quests
+- name: Stonemaul Tribe
+  side: Neutral
+  patch: 1.16.0
+  base: Dustwallow Marsh
+  status: announced in the 1.16.0 notes; no content was ever developed and no NPCs were attributed to it
+  rewards: []
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Stonemaul_Tribe
+  - https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+- name: Theramore
+  side: Alliance
+  patch: 1.15.0
+  base: Theramore, Dustwallow Marsh
+  status: listed by the official site and in the wiki faction list; no article, no reputation description and no forum thread in this extraction
+  rewards: []
+  sources:
+  - https://turtlecraft.gg/new-factions-and-quests
+- name: Argent Dawn (vanilla faction, Turtle changes)
+  side: Neutral
+  patch: vanilla; new rewards 1.18.0
+  base: Light's Hope Chapel
+  quartermasters:
+  - Torlath Ironhard (1.18.0 rewards)
+  reputation_sources:
+  - method: killing Scourge
+    detail: non-elites stop halfway through Friendly (Shadowmages continue past Honored); elites stop halfway through Honored
+    source_tier: community wiki
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Argent_Dawn
+  - method: Scourgestones
+    detail: Minion's x20, Invader's x10, Corruptor's x1, turned in at the Bulwark, Chillwind Camp or Light's Hope Chapel; yields an Argent Dawn Valor Token
+    source_tier: community wiki
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Argent_Dawn
+  - method: Plague Cauldron quests
+    detail: Felstone Field, Dalson's Tears, Writhing Haunt, Gahrron's Withering
+    source_tier: community wiki
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Argent_Dawn
+  - method: Healthy Dragon Scales
+    detail: Plagued Whelps in Scholomance; low yield
+    source_tier: community wiki
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Argent_Dawn
+  - method: dungeon reputation
+    detail: added in 1.18.0
+    source_tier: staff changelog (see timeline B5)
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  rewards: []
+  rewards_note: 1.18.0 rewards from Torlath Ironhard; item list not found in sources; Glacial/Polar/Icy Scale/Icebane bracer patterns via Argent Dawn (2024-10-09)
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Argent_Dawn
+  - https://forum.turtlecraft.gg/viewtopic.php?p=176311#p176311
+- name: Wildhammer Clan (vanilla faction, Turtle content)
+  side: Alliance-aligned neutral
+  base: Aerie Peak, the Hinterlands
+  reputation_sources:
+  - method: quests
+    detail: Grim Reaches Wildhammer NPCs are not tagged with the faction but their quests still grant reputation
+    source_tier: community wiki
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Wildhammer_clan
+  - method: kill reputation
+    detail: custom Witherbark trolls grant Wildhammer reputation on kill (2024-01-03)
+    source_tier: staff changelog (see timeline B5)
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  rewards: []
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Wildhammer_clan
+  - https://turtle-wow.fandom.com/wiki/Crystal_Clear_Impression

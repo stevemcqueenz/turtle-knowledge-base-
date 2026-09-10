@@ -1,0 +1,2815 @@
+about: Custom professions and recipes. See synthesis/content/professions-and-recipes.md.
+record_count: 262
+caveats:
+- Skill ranges and materials exist only for the two player leveling routes (Survival 1-300 post-1.18.1 and Jewelcrafting 1-300 pre-1.18.1); every other record has skill_level null because no source states it.
+- The staff itemization changelog (post 52796) lists recipe names only - no skill levels, no reagents, no vendors.
+- The complete list of the 80+ Survival recipes and the 200+ Jewelcrafting items is not published anywhere in this extraction.
+- Forgotten Knowledge I vendor locations are player-found, single-source and six years old.
+- Both leveling guides are player-authored; the Jewelcrafting one is explicitly a work in progress and has had two reagent corrections applied by readers.
+recipes:
+- profession: Survival
+  recipe: Dim Torch
+  item_ids:
+  - 6182
+  effect: brightens the night; +4 Spirit to the party while held
+  source_or_trainer: S. J. Erlgadin / Rufus Hardwick, Nesingwary's Expedition, Stranglethorn Vale
+  source_tier: official website
+  sources:
+  - https://turtlecraft.gg/survival-and-gardening
+  skill_level: null
+  materials: null
+- profession: Survival
+  recipe: Fishing Boat
+  item_ids:
+  - 50235
+  effect: +50 Fishing while fishing from it; lasts 60 minutes
+  source_or_trainer: S. J. Erlgadin / Rufus Hardwick, Nesingwary's Expedition, Stranglethorn Vale
+  source_tier: official website
+  sources:
+  - https://turtlecraft.gg/survival-and-gardening
+  skill_level: null
+  materials: null
+- profession: Survival
+  recipe: Traveler's Tent
+  item_ids:
+  - 50234
+  effect: lasts 20 minutes (player guide says 30); rested XP bonus inside; stacks up to 5 tents
+  source_or_trainer: S. J. Erlgadin / Rufus Hardwick, Nesingwary's Expedition, Stranglethorn Vale
+  source_tier: official website
+  sources:
+  - https://turtlecraft.gg/survival-and-gardening
+  skill_level: null
+  materials: null
+- profession: Survival
+  recipe: Bright Campfire
+  item_ids: null
+  effect: +8 Spirit to you and your party
+  source_or_trainer: S. J. Erlgadin / Rufus Hardwick, Nesingwary's Expedition, Stranglethorn Vale
+  source_tier: official website
+  sources:
+  - https://turtlecraft.gg/survival-and-gardening
+  skill_level: null
+  materials: null
+- profession: Survival
+  recipe: Iron Lantern
+  item_ids:
+  - 81187
+  effect: light source; lantern oil not included
+  source_or_trainer: S. J. Erlgadin / Rufus Hardwick, Nesingwary's Expedition, Stranglethorn Vale
+  source_tier: official website
+  sources:
+  - https://turtlecraft.gg/survival-and-gardening
+  skill_level: null
+  materials: null
+- profession: Survival
+  recipe: Murloc's Flippers
+  item_ids:
+  - 65029
+  effect: small amounts of all stats; increased swim speed while worn
+  source_or_trainer: S. J. Erlgadin / Rufus Hardwick, Nesingwary's Expedition, Stranglethorn Vale
+  source_tier: official website
+  sources:
+  - https://turtlecraft.gg/survival-and-gardening
+  skill_level: null
+  materials: null
+- profession: Survival
+  recipe: Repaired Electro-Lantern
+  item_ids:
+  - 65031
+  effect: +4 Spirit; adds a zap to melee attacks; never runs out of fuel
+  source_or_trainer: S. J. Erlgadin / Rufus Hardwick, Nesingwary's Expedition, Stranglethorn Vale
+  source_tier: official website
+  sources:
+  - https://turtlecraft.gg/survival-and-gardening
+  skill_level: null
+  materials: null
+- profession: Survival
+  recipe: Simple Wooden Planter
+  item_ids:
+  - 50238
+  effect: the Gardening planter
+  source_or_trainer: S. J. Erlgadin / Rufus Hardwick, Nesingwary's Expedition, Stranglethorn Vale
+  source_tier: official website
+  sources:
+  - https://turtlecraft.gg/survival-and-gardening
+  skill_level: null
+  materials: null
+- profession: Survival
+  recipe: Traveler's Tent (materials)
+  skill_level: 50 (player-reported, 2023)
+  materials:
+  - Coil of Sturdy Rope
+  - Linen Cloth
+  - Simple Wood
+  note: one at a time (unique), 2h craft cooldown
+  source_tier: player
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=46020#p46020
+  source_or_trainer: null
+  item_ids: null
+- profession: Survival
+  recipe: 'Outline: Cleaning Cloth'
+  patch: 1.17.0
+  source_tier: staff
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Survival
+  recipe: 80+ new recipes (1.18.1 overhaul)
+  patch: 1.18.1
+  note: staff give the count, not the list; player-named items include gathering trinkets, fishing traps, a slingshot, a skill-300 sickle that raises the Black Lotus chance, a Survivalist Skinning Knife, Nutritious Rations, Emergency Parachutes, one-handed white weapons, bows and arrows, bags for the three gathering professions, and fish/meat containers
+  source_tier: staff + player
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  - https://forum.turtlecraft.gg/viewtopic.php?p=173031#p173031
+  - https://forum.turtlecraft.gg/viewtopic.php?p=173825#p173825
+  - https://forum.turtlecraft.gg/viewtopic.php?p=171974#p171974
+  - https://forum.turtlecraft.gg/viewtopic.php?p=172785#p172785
+  - https://forum.turtlecraft.gg/viewtopic.php?p=172086#p172086
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Survival
+  recipe: Woodcutting (gathering activity)
+  patch: 1.18.1
+  note: tied to Survival skill; tree tiers Simple Wood, Bright Wood, Shade Wood, Star Wood, Dead Wood, Tropical Wood; names changed 2026-03-24 "for better immersion"
+  source_tier: staff
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  - https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Gardening
+  recipe: Mountain Berry Bush Seeds
+  item_ids:
+  - 51707
+  source_or_trainer: bushes (object 1000371) in The Hinterlands; auction house
+  yields: Sour Mountain Berry and Sweet Mountain Berry, 3-6 of each
+  skill_level: Survival 75 to start Gardening; quest "You Reap What You Sow" at level 20
+  materials:
+  - Un'Goro Soil (stage 2)
+  - Refreshing Spring Water (stages 3 and 4)
+  growth: four 9-minute stages, 36 minutes total; planters vanish on logout or zone change
+  source_tier: player guide thread + official website
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=136320#p136320
+  - https://turtlecraft.gg/survival-and-gardening
+- profession: Gardening
+  recipe: Country Pumpkin Seeds
+  item_ids:
+  - 51706
+  source_or_trainer: garden pumpkins (object 1000370) in Elwynn Forest, Tirisfal Glades, Hillsbrad Foothills; auction house
+  yields: two versions of Plump Country Pumpkin, 3-6 each; one flat +6 Sta/Spi, one 25% of your level in Sta/Spi
+  skill_level: Survival 75 to start Gardening; quest "You Reap What You Sow" at level 20
+  materials:
+  - Un'Goro Soil (stage 2)
+  - Refreshing Spring Water (stages 3 and 4)
+  growth: four 9-minute stages, 36 minutes total; planters vanish on logout or zone change
+  source_tier: player guide thread + official website
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=136320#p136320
+  - https://turtlecraft.gg/survival-and-gardening
+- profession: Gardening
+  recipe: Striped Melon Seeds
+  item_ids:
+  - 51708
+  source_or_trainer: ripe garden watermelons (object 1000372) in The Barrens, Durotar, Elwynn Forest, Redridge Mountains, Mulgore; auction house
+  yields: two versions of Juicy Striped Melon, 3-6 each
+  skill_level: Survival 75 to start Gardening; quest "You Reap What You Sow" at level 20
+  materials:
+  - Un'Goro Soil (stage 2)
+  - Refreshing Spring Water (stages 3 and 4)
+  growth: four 9-minute stages, 36 minutes total; planters vanish on logout or zone change
+  source_tier: player guide thread + official website
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=136320#p136320
+  - https://turtlecraft.gg/survival-and-gardening
+- profession: Gardening
+  recipe: Magic Mushroom Spores
+  item_ids:
+  - 51716
+  source_or_trainer: vendors in Mulgore, Teldrassil, Eastern Plaguelands at 2g 50s (2g at Honored); auction house
+  yields: Hardened Mushroom and Power Mushroom, 2-5 each
+  skill_level: Survival 75 to start Gardening; quest "You Reap What You Sow" at level 20
+  materials:
+  - Un'Goro Soil (stage 2)
+  - Refreshing Spring Water (stages 3 and 4)
+  growth: four 9-minute stages, 36 minutes total; planters vanish on logout or zone change
+  source_tier: player guide thread + official website
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=136320#p136320
+  - https://turtlecraft.gg/survival-and-gardening
+- profession: Gardening
+  recipe: 1.18.1 new crops
+  patch: 1.18.1
+  note: 'staff say three new crops in specific zones grant powerful buffs when fully grown; a player reading the restored item database names four new seeds: Wildhammer Yam Roots, Wild Grape Seeds, Ordinary Cabbage Seeds, Sandswept Carrot Seeds - CONTESTED count'
+  source_tier: staff + player
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  - https://forum.turtlecraft.gg/viewtopic.php?p=174505#p174505
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Jewelcrafting
+  recipe: profession overview
+  patch: 1.17.2
+  source_or_trainer: trainers in Stormwind, Ironforge and Alah'Thalas (Alliance); Orgrimmar, Undercity and Sparkwater Port (Horde)
+  note: over 200 craftable items; recipes from trainers, world drops and Jewelcrafter-only questlines; specialisations Goldsmith and Gemology chosen at skill 225 and character level 40 after a questline
+  source_tier: official website + staff
+  sources:
+  - https://turtlecraft.gg/jewelcrafting
+  - https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980
+  skill_level: null
+  materials: null
+  item_ids: null
+- profession: Jewelcrafting
+  recipe: Gemstone Deposits (mining node)
+  skill_level: Mining 310
+  note: replace thorium veins; yield gems from several tiers and guarantee an Imperial Topaz
+  source_tier: official website
+  sources:
+  - https://turtlecraft.gg/jewelcrafting
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Jewelcrafting
+  recipe: Gemstone Clusters
+  note: post-release; recycle materials into more jewels than mining alone yields; available to all Jewelcrafters
+  source_tier: official website
+  sources:
+  - https://turtlecraft.gg/jewelcrafting
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Jewelcrafting
+  recipe: Enchanted Gemstone Oils
+  materials:
+  - supplied by an Enchanter
+  source_tier: official website
+  sources:
+  - https://turtlecraft.gg/jewelcrafting
+  skill_level: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Jewelcrafting
+  recipe: Tarnished Citrine Choker (Goldsmith pre-quest item)
+  source_or_trainer: drops from the rogue boss in the alley in Gilneas City - not a ground spawn
+  source_tier: player, single source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=115800#p115800
+  skill_level: null
+  materials: null
+  item_ids: null
+- profession: Jewelcrafting
+  recipe: Alluring Citrine Choker (Goldsmith pre-quest craft)
+  item_ids:
+  - 70134
+  source_or_trainer: the recipe is itself a quest reward, not a purchasable pattern
+  source_tier: player, single source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=169487#p169487
+  - https://forum.turtlecraft.gg/viewtopic.php?p=169490#p169490
+  skill_level: null
+  materials: null
+- profession: Jewelcrafting
+  recipe: Top Half of Advance Goldsmithing 2
+  item_ids:
+  - 56102
+  source_or_trainer: rare BoP drop; database points at Sunken Temple trolls; unconfirmed by gameplay
+  source_tier: player
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=155228#p155228
+  - https://forum.turtlecraft.gg/viewtopic.php?p=167568#p167568
+  skill_level: null
+  materials: null
+- profession: Blacksmithing
+  recipe: 'Plans: Rune Edge'
+  source_or_trainer: Stormwind and Orgrimmar Blacksmithing Suppliers
+  release: Forgotten Knowledge I, live 2020-01-08
+  source_tier: player-found location; release announced by the patch-notes forum
+  note: vendor locations are player-found, single source each, and six years old at extraction time
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=4823#p4823
+  - https://forum.turtlecraft.gg/viewtopic.php?p=4777#p4777
+  skill_level: null
+  materials: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Thorium Greatsword'
+  source_or_trainer: Stormwind and Orgrimmar Blacksmithing Suppliers
+  release: Forgotten Knowledge I, live 2020-01-08
+  source_tier: player-found location; release announced by the patch-notes forum
+  note: vendor locations are player-found, single source each, and six years old at extraction time
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=4823#p4823
+  - https://forum.turtlecraft.gg/viewtopic.php?p=4777#p4777
+  skill_level: null
+  materials: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Mithril Scale Gloves'
+  source_or_trainer: Stormwind and Orgrimmar Blacksmithing Suppliers
+  release: Forgotten Knowledge I, live 2020-01-08
+  source_tier: player-found location; release announced by the patch-notes forum
+  note: vendor locations are player-found, single source each, and six years old at extraction time
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=4823#p4823
+  - https://forum.turtlecraft.gg/viewtopic.php?p=4777#p4777
+  skill_level: null
+  materials: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Rough Bronze Bracers'
+  source_or_trainer: Stormwind and Orgrimmar Blacksmithing Suppliers
+  release: Forgotten Knowledge I, live 2020-01-08
+  source_tier: player-found location; release announced by the patch-notes forum
+  note: vendor locations are player-found, single source each, and six years old at extraction time
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=4823#p4823
+  - https://forum.turtlecraft.gg/viewtopic.php?p=4777#p4777
+  skill_level: null
+  materials: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Ironforge Gauntlets'
+  source_or_trainer: Blacksmithing Supplies vendor, Ironforge
+  release: Forgotten Knowledge I, live 2020-01-08
+  source_tier: player-found location; release announced by the patch-notes forum
+  note: vendor locations are player-found, single source each, and six years old at extraction time
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=4822#p4822
+  - https://forum.turtlecraft.gg/viewtopic.php?p=4777#p4777
+  skill_level: null
+  materials: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Ironforge Chain'
+  source_or_trainer: Blacksmithing Supplies vendor, Ironforge
+  release: Forgotten Knowledge I, live 2020-01-08
+  source_tier: player-found location; release announced by the patch-notes forum
+  note: vendor locations are player-found, single source each, and six years old at extraction time
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=4822#p4822
+  - https://forum.turtlecraft.gg/viewtopic.php?p=4777#p4777
+  skill_level: null
+  materials: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Blood Talon'
+  source_or_trainer: Thunder Bluff blacksmithing supplies
+  release: Forgotten Knowledge I, live 2020-01-08
+  source_tier: player-found location; release announced by the patch-notes forum
+  note: vendor locations are player-found, single source each, and six years old at extraction time
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=4826#p4826
+  - https://forum.turtlecraft.gg/viewtopic.php?p=4777#p4777
+  skill_level: null
+  materials: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Darkspear'
+  source_or_trainer: Sen'jin Village Blacksmithing Supplier
+  release: Forgotten Knowledge I, live 2020-01-08
+  source_tier: player-found location; release announced by the patch-notes forum
+  note: vendor locations are player-found, single source each, and six years old at extraction time
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=4823#p4823
+  - https://forum.turtlecraft.gg/viewtopic.php?p=4777#p4777
+  skill_level: null
+  materials: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Bleakwood Hew'
+  source_or_trainer: Altsoba Ragetotem, Bloodvenom Post, Felwood - Horde-only purchase, BoE recipe
+  release: Forgotten Knowledge I, live 2020-01-08
+  source_tier: player-found location; release announced by the patch-notes forum
+  note: vendor locations are player-found, single source each, and six years old at extraction time
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=4831#p4831
+  - https://forum.turtlecraft.gg/viewtopic.php?p=4777#p4777
+  skill_level: null
+  materials: null
+  item_ids: null
+- profession: Leatherworking
+  recipe: 'Pattern: Nightscape Cloak'
+  source_or_trainer: Undercity Leatherworking Supplier
+  release: Forgotten Knowledge I, live 2020-01-08
+  source_tier: player-found location; release announced by the patch-notes forum
+  note: vendor locations are player-found, single source each, and six years old at extraction time
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=4823#p4823
+  - https://forum.turtlecraft.gg/viewtopic.php?p=4777#p4777
+  skill_level: null
+  materials: null
+  item_ids: null
+- profession: Leatherworking
+  recipe: 'Pattern: Onyxia Scale Breastplate'
+  source_or_trainer: 'outside Onyxia''s Lair (staff clue: find Aurelius, the Mysterious Traveler)'
+  release: Forgotten Knowledge I, live 2020-01-08
+  source_tier: player-found location; release announced by the patch-notes forum
+  note: vendor locations are player-found, single source each, and six years old at extraction time
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=4823#p4823
+  - https://forum.turtlecraft.gg/viewtopic.php?p=4777#p4777
+  skill_level: null
+  materials: null
+  item_ids: null
+- profession: Tailoring
+  recipe: 'Pattern: Stormcloth Vest'
+  source_or_trainer: drops from "creatures that harness natural healing or lightning around level 35-45" (staff clue)
+  release: Forgotten Knowledge II, announced 2021-05-19
+  source_tier: staff
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=10602#p10602
+  skill_level: null
+  materials: null
+  item_ids: null
+- profession: Tailoring
+  recipe: 'Pattern: Stormcloth Shoulders'
+  source_or_trainer: drops from "creatures that harness natural healing or lightning around level 35-45" (staff clue)
+  release: Forgotten Knowledge II, announced 2021-05-19
+  source_tier: staff
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=10602#p10602
+  skill_level: null
+  materials: null
+  item_ids: null
+- profession: Tailoring
+  recipe: 'Pattern: Stormcloth Gloves'
+  source_or_trainer: drops from "creatures that harness natural healing or lightning around level 35-45" (staff clue)
+  release: Forgotten Knowledge II, announced 2021-05-19
+  source_tier: staff
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=10602#p10602
+  skill_level: null
+  materials: null
+  item_ids: null
+- profession: Tailoring
+  recipe: 'Pattern: Stormcloth Headband'
+  source_or_trainer: drops from "creatures that harness natural healing or lightning around level 35-45" (staff clue)
+  release: Forgotten Knowledge II, announced 2021-05-19
+  source_tier: staff
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=10602#p10602
+  skill_level: null
+  materials: null
+  item_ids: null
+- profession: Tailoring
+  recipe: 'Pattern: Stormcloth Pants'
+  source_or_trainer: drops from "creatures that harness natural healing or lightning around level 35-45" (staff clue)
+  release: Forgotten Knowledge II, announced 2021-05-19
+  source_tier: staff
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=10602#p10602
+  skill_level: null
+  materials: null
+  item_ids: null
+- profession: Tailoring
+  recipe: 'Pattern: Green Woolen Robe'
+  source_or_trainer: sold by a hidden peddler in Westfall (staff clue)
+  release: Forgotten Knowledge II, announced 2021-05-19
+  source_tier: staff
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=10602#p10602
+  skill_level: null
+  materials: null
+  item_ids: null
+- profession: Tailoring
+  recipe: 'Pattern: Boots of Darkness'
+  source_or_trainer: sold by a travelling merchant and his guardian robot (staff clue)
+  release: Forgotten Knowledge II, announced 2021-05-19
+  source_tier: staff
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=10602#p10602
+  skill_level: null
+  materials: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Inlaid Thorium Hammer'
+  source_or_trainer: sold by a blacksmith in a sandy goblin town (staff clue)
+  release: Forgotten Knowledge II, announced 2021-05-19
+  source_tier: staff
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=10602#p10602
+  skill_level: null
+  materials: null
+  item_ids: null
+- profession: Engineering
+  recipe: 'Schematic: Goblin Radio'
+  source_or_trainer: sold in the newly established goblin town in the murky swamp, only to those on their good side - HORDE ONLY (staff clue)
+  release: Forgotten Knowledge II, announced 2021-05-19
+  source_tier: staff
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=10602#p10602
+  skill_level: null
+  materials: null
+  item_ids: null
+- profession: Tailoring
+  recipe: 'Pattern: Stormcloth Vest'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Tailoring
+  recipe: 'Pattern: Stormcloth Shoulders'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Tailoring
+  recipe: 'Pattern: Stormcloth Gloves'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Tailoring
+  recipe: 'Pattern: Stormcloth Headband'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Tailoring
+  recipe: 'Pattern: Stormcloth Pants'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Tailoring
+  recipe: 'Pattern: Green Woolen Robe'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Tailoring
+  recipe: 'Pattern: Boots of Darkness'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Tailoring
+  recipe: 'Pattern: Windbinder Gloves'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Tailoring
+  recipe: 'Pattern: Dustguider Sash'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Tailoring
+  recipe: 'Pattern: Robe of Sacrifice'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Tailoring
+  recipe: 'Pattern: Flarecore Boots'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Tailoring
+  recipe: 'Pattern: Gloves of Unwinding Mystery'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Tailoring
+  recipe: 'Pattern: Dreamthread Mantle'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Tailoring
+  recipe: 'Pattern: Dreamthread Kilt'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Tailoring
+  recipe: 'Pattern: Dreamthread Bracers'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Tailoring
+  recipe: 'Pattern: Dreamthread Gloves'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Tailoring
+  recipe: 'Pattern: Gloves of Manathirst'
+  patch: 1.17.1
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Tailoring
+  recipe: 'Pattern: Cosmic Headdress'
+  patch: 1.17.2
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Tailoring
+  recipe: 'Pattern: Cosmic Leggings'
+  patch: 1.17.2
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Tailoring
+  recipe: 'Pattern: Cosmic Mantle'
+  patch: 1.17.2
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Tailoring
+  recipe: 'Pattern: Cosmic Vest'
+  patch: 1.17.2
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Tailoring
+  recipe: 'Pattern: Ley-Kissed Drape'
+  patch: 1.17.2
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Leatherworking
+  recipe: 'Pattern: Nightscape Cloak'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Leatherworking
+  recipe: 'Pattern: Shadowskin Boots'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Leatherworking
+  recipe: 'Pattern: Centaur Battle Harness'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Leatherworking
+  recipe: 'Pattern: Enchanted Armor Kit'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Leatherworking
+  recipe: 'Pattern: Inscribed Runic Bracers'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Leatherworking
+  recipe: 'Pattern: Dreamhide Mantle'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Leatherworking
+  recipe: 'Pattern: Dreamhide Bracers'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Leatherworking
+  recipe: 'Pattern: Dreamhide Leggings'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Leatherworking
+  recipe: 'Pattern: Dreamhide Belt'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Leatherworking
+  recipe: 'Pattern: Lynxstep Boots'
+  patch: 1.17.1
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Leatherworking
+  recipe: 'Pattern: Ethereal Helmet'
+  patch: 1.17.2
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Leatherworking
+  recipe: 'Pattern: Ethereal Leggings'
+  patch: 1.17.2
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Leatherworking
+  recipe: 'Pattern: Ethereal Shoulder Pads'
+  patch: 1.17.2
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Leatherworking
+  recipe: 'Pattern: Ethereal Tunic'
+  patch: 1.17.2
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Leatherworking
+  recipe: 'Pattern: Onyxia Scale Breastplate'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Leatherworking
+  recipe: 'Pattern: Red Dragonscale Boots'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Leatherworking
+  recipe: 'Pattern: Red Dragonscale Shoulders'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Leatherworking
+  recipe: 'Pattern: Red Dragonscale Leggings'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Leatherworking
+  recipe: 'Pattern: Dragonscale Leggings'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Leatherworking
+  recipe: 'Pattern: Stormscale Leggings'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Leatherworking
+  recipe: 'Pattern: Blue Dragonscale Boots'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Leatherworking
+  recipe: 'Pattern: Chromatic Leggings'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Leatherworking
+  recipe: 'Pattern: Boots of the Wind'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Leatherworking
+  recipe: 'Pattern: Breastplate of the Earth'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Leatherworking
+  recipe: 'Pattern: Depthstalker Helm'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Leatherworking
+  recipe: 'Pattern: Earthguard Tunic'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Leatherworking
+  recipe: 'Pattern: Flamewrath Leggings'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Leatherworking
+  recipe: 'Pattern: Windwalker Boots'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Leatherworking
+  recipe: 'Pattern: Molten Leggings'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Leatherworking
+  recipe: 'Pattern: Verdant Dreamer''s Breastplate'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Leatherworking
+  recipe: 'Pattern: Corehound Gloves'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Mantle of Centaur Authority'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Lordaeron Breastplate'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Rune Edge'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Ironforge Gauntlets'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Ironforge Chain'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Thorium Greatsword'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Mithril Scale Gloves'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Rough Bronze Bracers'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Inlaid Thorium Hammer'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Rune-Etched Breastplate'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Rune-Etched Crown'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Rune-Etched Greaves'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Rune-Etched Grips'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Rune-Etched Legplates'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Rune-Etched Mantle'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Hateforge Cuirass'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Hateforge Helmet'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Hateforge Leggings'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Hateforge Belt'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Hateforge Grips'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Hateforge Boots'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Bloodstone Warblade'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Imperial Plate Gauntlets'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Fiery Chain Breastplate'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Dreamsteel Mantle'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Dreamsteel Leggings'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Dreamsteel Bracers'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Dreamsteel Boots'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Thorium Spurs'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Blast Shield'
+  patch: 1.17.1
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: Otherworldly Breastplate
+  patch: 1.17.2
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: Otherworldly Coif
+  patch: 1.17.2
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: Otherworldly Leggings
+  patch: 1.17.2
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: Otherworldly Spaulders
+  patch: 1.17.2
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: Reflective Breastplate
+  patch: 1.17.2
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: Reflective Helmet
+  patch: 1.17.2
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: Reflective Leggings
+  patch: 1.17.2
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: Reflective Pauldrons
+  patch: 1.17.2
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Bleakwood Hew'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Blood Talon'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Darkspear'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Bloodletter Razor'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Frostbound Slasher'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Ornate Bloodstone Blade'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Pauldron of Deflection'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Pauldrons of the Timbermaw'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Fury of the Timbermaw'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Towerforge Breastplate'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Towerforge Pauldrons'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Towerforge Crown'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Untempered Runeblade'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Dream''s Herald'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Dawnstone Hammer'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: 'Plans: Towerforge Demolisher'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Engineering
+  recipe: 'Schematic: Goblin Radio'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Engineering
+  recipe: 'Schematic: Portable Wormhole Generator: Stormwind'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Engineering
+  recipe: 'Schematic: Portable Wormhole Generator: Orgrimmar'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Engineering
+  recipe: 'Schematic: Battery-Powered Manual Crowd Pummeler'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Engineering
+  recipe: 'Schematic: Hypertech Battery Pack'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Engineering
+  recipe: 'Schematic: Intricate Gyroscope Goggles'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Engineering
+  recipe: 'Schematic: Unstable Mining Dynamite'
+  patch: 1.17.1
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Enchanting
+  recipe: 'Formula: Enchant Bracer - Spell Power (+12 Spellpower)'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Enchanting
+  recipe: 'Formula: Enchant Bracer - Greater Agility (+7 Agility)'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Enchanting
+  recipe: 'Formula: Enchant Gloves - Arcane Power (+20 Arcane Spellpower)'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Enchanting
+  recipe: 'Formula: Enchant Gloves - Nature Power (+20 Nature Spellpower)'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Enchanting
+  recipe: 'Formula: Enchant Cloak - Greater Arcane Resistance'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Enchanting
+  recipe: 'Formula: Enchant Chest - Mighty Mana (+150 Mana)'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Enchanting
+  recipe: 'Formula: Enchant Boots - Superior Stamina (+14 Stamina)'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Enchanting
+  recipe: 'Formula: Enchant Boots - Greater Spirit (+12 Spirit)'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Enchanting
+  recipe: 'Formula: Enchant Bracer - Greater Deflection (+5 Defense)'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Enchanting
+  recipe: 'Formula: Enchant Gloves - Major Strength (+9 Strength)'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Enchanting
+  recipe: 'Formula: Enchant Bracer - Vampirism (+1% Vampirism)'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Enchanting
+  recipe: 'Formula: Enchant Boots - Vampirism (+2% Vampirism)'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Enchanting
+  recipe: 'Formula: Enchant 2H Weapon - Minor Intellect (+2 Intellect)'
+  patch: 1.17.1
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Enchanting
+  recipe: 'Formula: Eternal Dreamstone Shard'
+  patch: 1.17.2
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Alchemy
+  recipe: 'Recipe: Potion of Quickness'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Alchemy
+  recipe: 'Recipe: Lucidity Potion'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Alchemy
+  recipe: 'Recipe: Elixir of Greater Nature Power'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Alchemy
+  recipe: 'Recipe: Dreamshard Elixir'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Alchemy
+  recipe: 'Recipe: Unstable Concoction'
+  patch: 1.17.1
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Cooking
+  recipe: 'Recipe: Gilnean Hot Stew (+12 Spellpower)'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Cooking
+  recipe: 'Recipe: Gurubashi Gumbo (+10 Stamina, +1% reduced chance to be crit)'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Cooking
+  recipe: 'Recipe: Le Fishe Au Chocolat (+3 Defense, +1% Dodge)'
+  patch: 1.17.0
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Cooking
+  recipe: 'Recipe: Maritime Gumbo (+2 Stamina, +2 Spirit)'
+  patch: 1.17.1
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: First Aid
+  recipe: 'Formula: Powerful Smelling Salts'
+  patch: null
+  source_tier: staff itemization changelog
+  note: no skill level or materials given in the source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=52796#p52796
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: Rune-Etched armor set and Untempered Runeblade (recipe source)
+  source_or_trainer: recipes drop in Stratholme Live; all need Blacksmithing 300, the runeblade also needs Master Swordsmith; items BoP, recipes tradeable
+  source_tier: player, single source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=19978#p19978
+  skill_level: null
+  materials: null
+  item_ids: null
+- profession: Engineering
+  recipe: 'Schematic: Enchanted Thorium Shells'
+  patch: 1.18.1
+  source_or_trainer: drops from Cannon Master Willey (staff, 2026-04-07); a player reported it still not dropping a week later
+  source_tier: staff + player
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  - https://forum.turtlecraft.gg/viewtopic.php?p=174367#p174367
+  - https://forum.turtlecraft.gg/viewtopic.php?p=175240#p175240
+  skill_level: null
+  materials: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: Enchanted Thorium (reagent change)
+  patch: 1.18.1
+  materials:
+  - 3 Illusion Dust (was Dream Dust)
+  source_tier: staff
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  skill_level: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Enchanting
+  recipe: Lesser Mystic Wand / Greater Mystic Wand (reagent change)
+  patch: 1.18.1
+  materials:
+  - Bright Wood (was Star Wood)
+  source_tier: staff
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  skill_level: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Cooking
+  recipe: Empowering Herbal Salad (reagent change)
+  patch: 1.18.1
+  materials:
+  - Lush Cabbage Head
+  - Moonwhisper Berry
+  note: was Sungrass and Sweet Mountain Berry
+  source_tier: staff
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  skill_level: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Cooking
+  recipe: Hot Smoked Bass
+  patch: 1.18.1
+  effect: 30 Spirit (was 10)
+  source_tier: staff
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Cooking
+  recipe: Cooked Glossy Mightfish
+  patch: 1.18.1
+  effect: 15 Spell Penetration (was 10 Stamina)
+  source_tier: staff
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Cooking
+  recipe: Mightfish Steak
+  patch: 1.18.1
+  effect: 20 Strength (was 10 Stamina)
+  source_tier: staff
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Cooking
+  recipe: Dirge's Kickin' Chimaerok Chops
+  patch: 1.18.1
+  effect: 30 Stamina + 2% Dodge (was 25 Stamina)
+  source_tier: staff
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Cooking
+  recipe: Squid Eel Skewer
+  patch: 1.18.1
+  effect: 20 Agility
+  source_tier: staff
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Cooking
+  recipe: Deep Sea Stew
+  patch: 1.18.1
+  effect: 20 health per 5s and 150 Armor
+  source_tier: staff
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Blacksmithing
+  recipe: Crafted item upgrades (Blackwing Lair sharpening stones)
+  patch: 1.18.1
+  note: specific bosses drop an upgrade item usable on a matching crafted item; requires the crafting profession AND the item's specialisation (e.g. Master Axesmith for Arcanite Reaper, Master Swordsmith for Arcanite Champion); initially Blackwing Lair only
+  source_tier: staff + player
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  - https://forum.turtlecraft.gg/viewtopic.php?p=173581#p173581
+  - https://forum.turtlecraft.gg/viewtopic.php?p=173602#p173602
+  skill_level: null
+  materials: null
+  source_or_trainer: null
+  item_ids: null
+- profession: Survival
+  recipe: 9x Dim Torch
+  skill_level: 1-10
+  materials:
+  - 9 Unlit Poor Torch
+  source_or_trainer: Survival trainers; Artisan tier only from Rufus Hardwick via the quest To Survive in the Jungle
+  patch: 1.18.1
+  source_tier: player leveling guide (post-1.18.1), peer-corrected
+  sources: &id001
+  - https://forum.turtlecraft.gg/viewtopic.php?p=172915#p172915
+- profession: Survival
+  recipe: Bundle of Simple Sticks
+  skill_level: 10-15
+  materials:
+  - 60 Simple Wood (30 crafts)
+  source_or_trainer: Survival trainers; Artisan tier only from Rufus Hardwick via the quest To Survive in the Jungle
+  patch: 1.18.1
+  source_tier: player leveling guide (post-1.18.1), peer-corrected
+  sources: *id001
+- profession: Survival
+  recipe: Crude Walking Stick
+  skill_level: 15-35
+  materials:
+  - 80 Simple Wood (20 crafts)
+  source_or_trainer: Survival trainers; Artisan tier only from Rufus Hardwick via the quest To Survive in the Jungle
+  patch: 1.18.1
+  source_tier: player leveling guide (post-1.18.1), peer-corrected
+  sources: *id001
+- profession: Survival
+  recipe: Simple Slingshot
+  skill_level: 35-50
+  materials:
+  - 60 Striped Melon Seeds
+  - 30 Bundle of Simple Sticks
+  - 15 Springy Rope (15 crafts)
+  source_or_trainer: Survival trainers; Artisan tier only from Rufus Hardwick via the quest To Survive in the Jungle
+  patch: 1.18.1
+  source_tier: player leveling guide (post-1.18.1), peer-corrected
+  sources: *id001
+- profession: Survival
+  recipe: Weak Healing Salve
+  skill_level: 50-75
+  materials:
+  - 25 Refreshing Spring Water
+  - 50 Remedy Herbs
+  - 25 Simple Leaves (25 crafts)
+  source_or_trainer: Survival trainers; Artisan tier only from Rufus Hardwick via the quest To Survive in the Jungle
+  patch: 1.18.1
+  source_tier: player leveling guide (post-1.18.1), peer-corrected
+  sources: *id001
+- profession: Survival
+  recipe: Crude Fishing Rod
+  skill_level: 75-100
+  materials:
+  - 200 Simple Wood
+  - 25 Fine Thread (25 crafts)
+  source_or_trainer: Survival trainers; Artisan tier only from Rufus Hardwick via the quest To Survive in the Jungle
+  patch: 1.18.1
+  source_tier: player leveling guide (post-1.18.1), peer-corrected
+  sources: *id001
+- profession: Survival
+  recipe: Simple Fishing Lure
+  skill_level: 100-125
+  materials:
+  - 30 Clam Meat
+  - 30 Remedy Herbs (30 crafts)
+  source_or_trainer: Survival trainers; Artisan tier only from Rufus Hardwick via the quest To Survive in the Jungle
+  patch: 1.18.1
+  source_tier: player leveling guide (post-1.18.1), peer-corrected
+  sources: *id001
+- profession: Survival
+  recipe: Bundle of Bright Wood Sticks
+  skill_level: 125-140
+  materials:
+  - 180 Bright Wood (60 crafts)
+  source_or_trainer: Survival trainers; Artisan tier only from Rufus Hardwick via the quest To Survive in the Jungle
+  patch: 1.18.1
+  source_tier: player leveling guide (post-1.18.1), peer-corrected
+  sources: *id001
+- profession: Survival
+  recipe: Sturdy Net
+  skill_level: 125-140
+  materials:
+  - 340 Sturdy Rope (85 crafts)
+  source_or_trainer: Survival trainers; Artisan tier only from Rufus Hardwick via the quest To Survive in the Jungle
+  patch: 1.18.1
+  source_tier: player leveling guide (post-1.18.1), peer-corrected
+  sources: *id001
+- profession: Survival
+  recipe: Blackmouth Fishing Trap
+  skill_level: 140-155
+  materials:
+  - 60 Bundle of Bright Wood Sticks
+  - 30 Simple Fishing Lure
+  - 30 Sturdy Net (30 crafts)
+  source_or_trainer: Survival trainers; Artisan tier only from Rufus Hardwick via the quest To Survive in the Jungle
+  patch: 1.18.1
+  source_tier: player leveling guide (post-1.18.1), peer-corrected
+  sources: *id001
+- profession: Survival
+  recipe: Throwable Net
+  skill_level: 155-160
+  materials:
+  - 5 Sturdy Net
+  - 20 Coarse Stone (5 crafts)
+  source_or_trainer: Survival trainers; Artisan tier only from Rufus Hardwick via the quest To Survive in the Jungle
+  patch: 1.18.1
+  source_tier: player leveling guide (post-1.18.1), peer-corrected
+  sources: *id001
+- profession: Survival
+  recipe: Slowing Bolas
+  skill_level: 160-175
+  materials:
+  - 45 Heavy Stone
+  - 30 Sturdy Rope (15 crafts)
+  source_or_trainer: Survival trainers; Artisan tier only from Rufus Hardwick via the quest To Survive in the Jungle
+  patch: 1.18.1
+  source_tier: player leveling guide (post-1.18.1), peer-corrected
+  sources: *id001
+- profession: Survival
+  recipe: Bundle of Shade Wood Sticks
+  skill_level: 175-185
+  materials:
+  - 88 Shade Wood (22 crafts)
+  source_or_trainer: Survival trainers; Artisan tier only from Rufus Hardwick via the quest To Survive in the Jungle
+  patch: 1.18.1
+  source_tier: player leveling guide (post-1.18.1), peer-corrected
+  sources: *id001
+- profession: Survival
+  recipe: Spicy Fishing Lure
+  skill_level: 185-200
+  materials:
+  - 10 Tangy Clam Meat
+  - 10 Hot Spices (10 crafts)
+  source_or_trainer: Survival trainers; Artisan tier only from Rufus Hardwick via the quest To Survive in the Jungle
+  patch: 1.18.1
+  source_tier: player leveling guide (post-1.18.1), peer-corrected
+  sources: *id001
+- profession: Survival
+  recipe: Firefin Fishing Trap
+  skill_level: 185-200
+  materials:
+  - 20 Bundle of Shade Wood
+  - 10 Spicy Fishing Lure
+  - 10 Sturdy Net (10 crafts)
+  source_or_trainer: Survival trainers; Artisan tier only from Rufus Hardwick via the quest To Survive in the Jungle
+  patch: 1.18.1
+  source_tier: player leveling guide (post-1.18.1), peer-corrected
+  sources: *id001
+- profession: Survival
+  recipe: Savory Fishing Lure
+  skill_level: 200-210
+  materials:
+  - 10 Zesty Clam Meat
+  - 20 Soothing Spices (10 crafts)
+  source_or_trainer: Survival trainers; Artisan tier only from Rufus Hardwick via the quest To Survive in the Jungle
+  patch: 1.18.1
+  source_tier: player leveling guide (post-1.18.1), peer-corrected
+  sources: *id001
+- profession: Survival
+  recipe: Nutritious Rations
+  skill_level: 210-225
+  materials:
+  - Juicy Watermelon, Sour Mountain Berry, Plump Country Pumpkin in equal amounts; yields 3 per craft
+  source_or_trainer: Survival trainers; Artisan tier only from Rufus Hardwick via the quest To Survive in the Jungle
+  patch: 1.18.1
+  source_tier: player leveling guide (post-1.18.1), peer-corrected
+  sources: *id001
+- profession: Survival
+  recipe: Vine Cutter
+  skill_level: 215-217
+  materials:
+  - 20 Mithril Bar
+  - 4 Solid Grinding Stone
+  - 8 Thick Leather
+  - 2 Bundle of Shade Wood Sticks (2 crafts)
+  source_or_trainer: Survival trainers; Artisan tier only from Rufus Hardwick via the quest To Survive in the Jungle
+  patch: 1.18.1
+  source_tier: player leveling guide (post-1.18.1), peer-corrected
+  sources: *id001
+- profession: Survival
+  recipe: Bundle of Tropical Sticks
+  skill_level: 225-240
+  materials:
+  - 125 Tropical Wood (25 crafts)
+  source_or_trainer: Survival trainers; Artisan tier only from Rufus Hardwick via the quest To Survive in the Jungle
+  patch: 1.18.1
+  source_tier: player leveling guide (post-1.18.1), peer-corrected
+  sources: *id001
+  note: taught only by the Swamp of Sorrows or Desolace trainer; 10 needed at skill 225 for the quest To Survive in the Jungle
+- profession: Survival
+  recipe: Aromatic Berries
+  skill_level: 240-260
+  materials:
+  - 20 Sweet Mountain Berry
+  - 20 Remedy Herbs
+  - 40 Soothing Spices (20 crafts)
+  source_or_trainer: Survival trainers; Artisan tier only from Rufus Hardwick via the quest To Survive in the Jungle
+  patch: 1.18.1
+  source_tier: player leveling guide (post-1.18.1), peer-corrected
+  sources: *id001
+- profession: Survival
+  recipe: Smooth Ironfeather Arrows
+  skill_level: 260-275
+  materials:
+  - 15 Bundle of Tropical Sticks
+  - 15 Ironfeather
+  - 15 Thorium Bar (15 crafts)
+  source_or_trainer: Survival trainers; Artisan tier only from Rufus Hardwick via the quest To Survive in the Jungle
+  patch: 1.18.1
+  source_tier: player leveling guide (post-1.18.1), peer-corrected
+  sources: *id001
+- profession: Survival
+  recipe: Bundle of Star Wood Sticks
+  skill_level: 275-290
+  materials:
+  - 100 Star Wood (20 crafts)
+  source_or_trainer: Survival trainers; Artisan tier only from Rufus Hardwick via the quest To Survive in the Jungle
+  patch: 1.18.1
+  source_tier: player leveling guide (post-1.18.1), peer-corrected
+  sources: *id001
+- profession: Survival
+  recipe: Premium Fishing Lure
+  skill_level: 275-290
+  materials:
+  - 20 Zesty Clam Meat
+  - 10 Molasses Firewater (10 crafts)
+  source_or_trainer: Survival trainers; Artisan tier only from Rufus Hardwick via the quest To Survive in the Jungle
+  patch: 1.18.1
+  source_tier: player leveling guide (post-1.18.1), peer-corrected
+  sources: *id001
+- profession: Survival
+  recipe: Stonescale Fishing Trap
+  skill_level: 290-300
+  materials:
+  - 20 Bundle of Star Wood Sticks
+  - 10 Premium Fishing Lure
+  - 20 Sturdy Net (10 crafts)
+  source_or_trainer: Survival trainers; Artisan tier only from Rufus Hardwick via the quest To Survive in the Jungle
+  patch: 1.18.1
+  source_tier: player leveling guide (post-1.18.1), peer-corrected
+  sources: *id001
+- profession: Jewelcrafting
+  recipe: Rough Gritted Paper
+  skill_level: 1-30
+  materials:
+  - 55 Rough Stone
+  - 55 Linen Cloth
+  patch: 1.17.2
+  source_tier: player leveling guide (pre-1.18.1), peer-corrected
+  sources: &id002
+  - https://forum.turtlecraft.gg/viewtopic.php?p=106310#p106310
+- profession: Jewelcrafting
+  recipe: Rough Copper Ring
+  skill_level: 1-30
+  materials:
+  - 50 Copper Bar (25 crafts)
+  patch: 1.17.2
+  source_tier: player leveling guide (pre-1.18.1), peer-corrected
+  sources: *id002
+- profession: Jewelcrafting
+  recipe: Rough Gemstone Cluster
+  skill_level: 30-50
+  materials:
+  - 30 Rough Gritted Paper
+  - 30 Copper Ore
+  patch: 1.17.2
+  source_tier: player leveling guide (pre-1.18.1), peer-corrected
+  sources: *id002
+  note: opening these yields Tigerseye, Amber Topaz, Malachite and Shadowgem
+- profession: Jewelcrafting
+  recipe: Tigercrest Ring
+  skill_level: 50-70
+  materials:
+  - 20 Rough Copper Ring
+  - 20 Rough Gritted Paper
+  - 20 Tigerseye
+  - 20 Polishing Oil
+  patch: 1.17.2
+  source_tier: player leveling guide (pre-1.18.1), peer-corrected
+  sources: *id002
+- profession: Jewelcrafting
+  recipe: Amber Ring
+  skill_level: 70-75
+  materials:
+  - 5 Rough Copper Ring
+  - 5 Rough Gritted Paper
+  - 5 Amber Topaz
+  patch: 1.17.2
+  source_tier: player leveling guide (pre-1.18.1), peer-corrected
+  sources: *id002
+- profession: Jewelcrafting
+  recipe: Coarse Gritted Paper
+  skill_level: 75-95
+  materials:
+  - 40 Wool Cloth
+  - 40 Coarse Stone (20 crafts)
+  patch: 1.17.2
+  source_tier: player leveling guide (pre-1.18.1), peer-corrected
+  sources: *id002
+- profession: Jewelcrafting
+  recipe: Rough Bronze Ring
+  skill_level: 95-105
+  materials:
+  - 70 Bronze Bar (35 crafts)
+  patch: 1.17.2
+  source_tier: player leveling guide (pre-1.18.1), peer-corrected
+  sources: *id002
+- profession: Jewelcrafting
+  recipe: Shimmering Bronze Ring
+  skill_level: 105-110
+  materials:
+  - 10 Rough Bronze Ring
+  - 10 Shimmering Oil
+  - 20 Weak Flux
+  - 20 Coarse Gritted Paper
+  patch: 1.17.2
+  source_tier: player leveling guide (pre-1.18.1), peer-corrected
+  sources: *id002
+- profession: Jewelcrafting
+  recipe: Shadowgem Band
+  skill_level: 110-125
+  materials:
+  - 15 Rough Bronze Ring
+  - 30 Shadowgem
+  - 15 Shimmering Oil
+  patch: 1.17.2
+  source_tier: player leveling guide (pre-1.18.1), peer-corrected
+  sources: *id002
+- profession: Jewelcrafting
+  recipe: Rough Silver Ring
+  skill_level: 125-140
+  materials:
+  - 60 Silver Bar (30 crafts)
+  patch: 1.17.2
+  source_tier: player leveling guide (pre-1.18.1), peer-corrected
+  sources: *id002
+- profession: Jewelcrafting
+  recipe: Binding Signet
+  skill_level: 140-150
+  materials:
+  - 10 Rough Bronze Ring
+  - 20 Lesser Moonstone
+  - 10 Lesser Mana Potion
+  patch: 1.17.2
+  source_tier: player leveling guide (pre-1.18.1), peer-corrected
+  sources: *id002
+- profession: Jewelcrafting
+  recipe: Heavy Gritted Paper
+  skill_level: 150-160
+  materials:
+  - 120 Mageweave Cloth
+  - 120 Heavy Stone (40 crafts)
+  patch: 1.17.2
+  source_tier: player leveling guide (pre-1.18.1), peer-corrected
+  sources: *id002
+  note: the guide originally said Wool Cloth; corrected by a reader and accepted by the author
+- profession: Jewelcrafting
+  recipe: Rough Gold Ring
+  skill_level: 160-175
+  materials:
+  - 20 Gold Bar (10 crafts)
+  patch: 1.17.2
+  source_tier: player leveling guide (pre-1.18.1), peer-corrected
+  sources: *id002
+- profession: Jewelcrafting
+  recipe: Rough Iron Ring
+  skill_level: 160-175
+  materials:
+  - 20 Iron Bar (10 crafts)
+  patch: 1.17.2
+  source_tier: player leveling guide (pre-1.18.1), peer-corrected
+  sources: *id002
+- profession: Jewelcrafting
+  recipe: Rough Mithril Ring
+  skill_level: 175-180
+  materials:
+  - 30 Mithril Bar (15 crafts)
+  patch: 1.17.2
+  source_tier: player leveling guide (pre-1.18.1), peer-corrected
+  sources: *id002
+  note: step contributed by a reader
+- profession: Jewelcrafting
+  recipe: Jade Harmony Circlet
+  skill_level: 180-190
+  materials:
+  - 10 Rough Gold Ring
+  - 10 Jade
+  - 20 Shimmering Oil
+  - 20 Heavy Gritted Paper
+  patch: 1.17.2
+  source_tier: player leveling guide (pre-1.18.1), peer-corrected
+  sources: *id002
+- profession: Jewelcrafting
+  recipe: Ironsun Citrine Ring
+  skill_level: 190-200
+  materials:
+  - 10 Rough Iron Ring
+  - 20 Gold Bar
+  - 40 Citrine
+  - 10 Shimmering Oil
+  patch: 1.17.2
+  source_tier: player leveling guide (pre-1.18.1), peer-corrected
+  sources: *id002
+- profession: Jewelcrafting
+  recipe: Solid Gritted Paper
+  skill_level: 200-210
+  materials:
+  - 90 Mageweave Cloth
+  - 90 Solid Stone (30 crafts)
+  patch: 1.17.2
+  source_tier: player leveling guide (pre-1.18.1), peer-corrected
+  sources: *id002
+- profession: Jewelcrafting
+  recipe: Ornate Mithril Scepter
+  skill_level: 210-220
+  materials:
+  - 80 Mithril Bar
+  - 20 Heavy Leather
+  - 20 Heavy Gritted Paper (10 crafts)
+  patch: 1.17.2
+  source_tier: player leveling guide (pre-1.18.1), peer-corrected
+  sources: *id002
+- profession: Jewelcrafting
+  recipe: Emberstone Idol
+  skill_level: 220-225
+  materials:
+  - 25 Emberstone
+  - 15 Fire Oil
+  - 5 Heart of Fire
+  - 5 Elemental Fire
+  patch: 1.17.2
+  source_tier: player leveling guide (pre-1.18.1), peer-corrected
+  sources: *id002
+- profession: Jewelcrafting
+  recipe: Emberstone Studded Ring
+  skill_level: 225-235
+  materials:
+  - 10 Rough Mithril Ring
+  - 10 Heart of Fire
+  - 40 Emberstone
+  - 20 Gemstone Oil
+  patch: 1.17.2
+  source_tier: player leveling guide (pre-1.18.1), peer-corrected
+  sources: *id002
+- profession: Jewelcrafting
+  recipe: Rough Thorium Ring
+  skill_level: 235-255
+  materials:
+  - 90 Thorium Bar (45 crafts)
+  patch: 1.17.2
+  source_tier: player leveling guide (pre-1.18.1), peer-corrected
+  sources: *id002
+- profession: Jewelcrafting
+  recipe: Dense Gritted Paper
+  skill_level: 255-260
+  materials:
+  - 90 Runecloth
+  - 90 Dense Stone (30 crafts)
+  patch: 1.17.2
+  source_tier: player leveling guide (pre-1.18.1), peer-corrected
+  sources: *id002
+- profession: Jewelcrafting
+  recipe: Radiant Thorium Twilight
+  skill_level: 260-270
+  materials:
+  - 10 Rough Thorium Ring
+  - 20 Strong Flux
+  - 30 Pure Moonstone
+  - 30 Solid Gritted Paper
+  patch: 1.17.2
+  source_tier: player leveling guide (pre-1.18.1), peer-corrected
+  sources: *id002
+- profession: Jewelcrafting
+  recipe: Blue Starfire
+  skill_level: 260-285
+  materials:
+  - 35 Rough Thorium Ring
+  - 35 Blue Sapphire
+  - 35 Pure Moonstone
+  - 35 Gemstone Oil
+  patch: 1.17.2
+  source_tier: player leveling guide (pre-1.18.1), peer-corrected
+  sources: *id002
+  note: recipe bought from Gonzo Snaphands, Jewelcrafting Supplies, Steamwheedle Port
+- profession: Jewelcrafting
+  recipe: Quicksilver Whirl
+  skill_level: 285-292
+  materials:
+  - 28 Truesilver Bar
+  - 14 Blue Sapphire
+  - 14 Gemstone Oil
+  - 28 Elemental Air
+  patch: 1.17.2
+  source_tier: player leveling guide (pre-1.18.1), peer-corrected
+  sources: *id002
+- profession: Jewelcrafting
+  recipe: Ethereal Frostspark Crown
+  skill_level: 292-297
+  materials:
+  - 60 Thorium Bar
+  - 30 Dense Gritted Paper
+  - 5 Blue Sapphire
+  - 5 Frost Oil
+  patch: 1.17.2
+  source_tier: player leveling guide (pre-1.18.1), peer-corrected
+  sources: *id002
+- profession: Jewelcrafting
+  recipe: Jewelers Kit
+  skill_level: null
+  materials: null
+  source_or_trainer: any Jewelcrafting Supplier, 2s
+  requires: null
+  source_tier: player leveling guide
+  sources: *id002
+- profession: Jewelcrafting
+  recipe: Jewelry Lens
+  skill_level: null
+  materials:
+  - 2 Bronze Bar
+  - 2 Bronze Tube
+  - 1 Medium Leather
+  - 1 Silver Contact
+  - 1 Lesser Moonstone
+  source_or_trainer: recipe from any Jewelcrafting Supplier
+  requires: Engineering 125
+  source_tier: player leveling guide
+  sources: *id002
+- profession: Jewelcrafting
+  recipe: Precision Jewelers Kit
+  skill_level: null
+  materials:
+  - 1 Gyrochronatom
+  - 1 Iron Strut
+  - 3 Bronze Framework
+  - 3 Whirring Bronze Gizmo
+  - 1 Jewelers Kit
+  source_or_trainer: recipe from Ranik, trade supplier, Ratchet
+  requires: Engineering 175
+  source_tier: player leveling guide
+  sources: *id002
+- profession: Jewelcrafting
+  recipe: Jewelry Scope
+  skill_level: null
+  materials:
+  - 2 Mithril Tube
+  - 1 Gyrochronatom
+  - 4 Mithril Casing
+  - 1 Citrine
+  - 1 Fusing Wiring
+  source_or_trainer: recipe from Gonzo Snaphands, Jewelcrafting Supplier, Steamwheedle Port
+  requires: Engineering 225
+  source_tier: player leveling guide
+  sources: *id002
+- profession: Survival
+  recipe: Whittle
+  skill_level: null
+  source_or_trainer: Survival Supplier, 50c
+  patch: 1.18.1
+  source_tier: player leveling guide
+  sources: *id001
+- profession: Survival
+  recipe: Woodcutting Axe
+  skill_level: null
+  source_or_trainer: Survival Supplier, 50c
+  patch: 1.18.1
+  source_tier: player leveling guide
+  sources: *id001
+- profession: Survival
+  recipe: Blacksmith Hammer
+  skill_level: null
+  source_or_trainer: Mining Supplier, 20c (plus an anvil for some recipes)
+  patch: 1.18.1
+  source_tier: player leveling guide
+  sources: *id001
+- profession: 'Jewelcrafting: Goldsmith'
+  recipe: Staff of Gallitrea
+  skill_level: 225 (specialisation gate; character level 40)
+  source_or_trainer: 'Goldsmith specialisation questline: Mayva Togview (Ironforge) / Gulmire Fartower (Undercity) -> Jarkal Mossmeld (Kargath inn, Badlands) -> a book in Gilneas City -> Ancient Elven Jeweler''s Kit from a Wet Bag on the Desolace beach -> The Artificer'
+  note: unlocked by the Jarkal Mossmeld quest requiring 2 Ornate Mithril Scepter + 2 Alluring Citrine Choker
+  source_tier: player leveling guide
+  sources: *id002
+- profession: 'Jewelcrafting: Goldsmith'
+  recipe: Elaborate Golden Bracelets
+  skill_level: 225 (specialisation gate; character level 40)
+  source_or_trainer: 'Goldsmith specialisation questline: Mayva Togview (Ironforge) / Gulmire Fartower (Undercity) -> Jarkal Mossmeld (Kargath inn, Badlands) -> a book in Gilneas City -> Ancient Elven Jeweler''s Kit from a Wet Bag on the Desolace beach -> The Artificer'
+  note: unlocked by the quest requiring 1 Crystal Earring + 2 Shimmering Gold Necklace
+  source_tier: player leveling guide
+  sources: *id002
+- profession: 'Jewelcrafting: Goldsmith'
+  recipe: Heart of the Sea
+  skill_level: 225 (specialisation gate; character level 40)
+  source_or_trainer: 'Goldsmith specialisation questline: Mayva Togview (Ironforge) / Gulmire Fartower (Undercity) -> Jarkal Mossmeld (Kargath inn, Badlands) -> a book in Gilneas City -> Ancient Elven Jeweler''s Kit from a Wet Bag on the Desolace beach -> The Artificer'
+  note: unlocked by the quest requiring 1 Dazzling Aquamarine Loop + 2 Jade Harmony Circlet
+  source_tier: player leveling guide
+  sources: *id002
+- profession: 'Jewelcrafting: Goldsmith'
+  recipe: recipe book halves (player-mapped, incomplete)
+  skill_level: null
+  source_or_trainer: a box in Stratholme on the way to the Unforgiven; the ground in the Scholomance room with three intersections; Blackrock Depths trash or Fineous ("Hard as Diamond"); Quartermaster Zigris in LBRS
+  note: the finder did not know which recipe each half unlocks
+  source_tier: player, single source
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=108446#p108446
+  - https://forum.turtlecraft.gg/viewtopic.php?p=108694#p108694
+  - https://forum.turtlecraft.gg/viewtopic.php?p=108705#p108705
+- profession: 'Survival: Woodcutting'
+  recipe: Simple Wood Tree (gathering node)
+  skill_level: 5
+  source_or_trainer: Durotar, Barrens, Mulgore, Teldrassil, Darkshore, Elwynn, Westfall, Duskwood, Redridge, Dun Morogh, Loch Modan, Tirisfal, Silverpine, Wetlands, Blackstone Island, Thalassian Highlands
+  patch: 1.18.1
+  source_tier: player leveling guide
+  sources: *id001
+- profession: 'Survival: Woodcutting'
+  recipe: Bright Wood Tree (gathering node)
+  skill_level: 125
+  source_or_trainer: Hillsbrad, Thousand Needles, Northwind, Balor, Ashenvale, Stonetalon
+  patch: 1.18.1
+  source_tier: player leveling guide
+  sources: *id001
+- profession: 'Survival: Woodcutting'
+  recipe: Shade Wood Tree (gathering node)
+  skill_level: 175
+  source_or_trainer: northern Stranglethorn Vale, Grim Reaches, Arathi Highlands, Alterac Mountains, Badlands, Dustwallow Marsh, Desolace, Swamp of Sorrows, Hinterlands, Gilneas, Feralas
+  patch: 1.18.1
+  source_tier: player leveling guide
+  sources: *id001
+- profession: 'Survival: Woodcutting'
+  recipe: Tropical Wood Tree (gathering node)
+  skill_level: 225
+  source_or_trainer: Lapidis Isle, Gillijim's Isle, Tel'Abim, Tanaris, Un'Goro Crater, southern Stranglethorn Vale
+  patch: 1.18.1
+  source_tier: player leveling guide
+  sources: *id001
+- profession: 'Survival: Woodcutting'
+  recipe: Dead Wood Tree (gathering node)
+  skill_level: 250
+  source_or_trainer: Felwood, Eastern Plaguelands, Silithus, Western Plaguelands, Burning Steppes, Hyjal, Blasted Lands, Deadwind Pass, Searing Gorge, Azshara
+  patch: 1.18.1
+  source_tier: player leveling guide
+  sources: *id001
+- profession: 'Survival: Woodcutting'
+  recipe: Star Wood Tree (gathering node)
+  skill_level: 270
+  source_or_trainer: Hyjal, Winterspring, Azshara, Moonwhisper Coast, Felwood, Feralas (Isle of Dread)
+  patch: 1.18.1
+  source_tier: player leveling guide
+  sources: *id001

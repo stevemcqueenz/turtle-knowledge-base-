@@ -10,6 +10,8 @@ Every outdoor zone, sub-zone and quest hub that Turtle WoW added or rebuilt, fro
 
 Every row and sentence says which tier it came from. Where the official site and the wiki disagree on a level range, both are given.
 
+**Sibling documents.** Questlines per zone are in `quests-and-questlines.md`; reputation factions in `factions.md`; vendors, trainers and rares in `npcs-and-vendors.md`; drop rates in `drop-rates.md`; Survival, Gardening and Jewelcrafting in `professions-and-recipes.md`. Structured data for all of these is under `structured/content/`.
+
 **Coordinates.** Almost no source in this extraction gives in-game X/Y coordinates for zone features. Where a location is stated it is a named sub-zone, not a coordinate pair. See the gaps section.
 
 ---
@@ -228,7 +230,27 @@ The official site lists 22 vanilla zones that received a named addition ([offici
 ## 4. World-wide changes that affect every zone
 
 - **Server time offset.** Kalimdor and the Eastern Kingdoms run on different in-game clocks — an 8-hour offset, later 12 hours — [Torta (staff), 2022-10-19](https://forum.turtlecraft.gg/viewtopic.php?p=27514#p27514).
-- **Rare bosses.** 1.16.0 added "many new Rare Bosses lurking in level 40+ zones"; 1.17.0 added a further named list — [Torta (staff), 2021-11-22](https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049), [Torta (staff), 2023-01-21](https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868). The names are not reproduced in the extracted staff posts.
+- **Rare bosses.** 1.16.0 added "many new Rare Bosses lurking in level 40+ zones"; 1.17.0 added a further named list — [Torta (staff), 2021-11-22](https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049), [Torta (staff), 2023-01-21](https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868). **The names are not reproduced in the extracted staff posts**, but the community wiki carries 15 outdoor rare/rare-elite pages tagged as Turtle content:
+
+  | Rare | Type | Lv | Zone / sub-zone |
+  |---|---|---|---|
+  | [Firstborn of Arugal](https://turtle-wow.fandom.com/wiki/Firstborn_of_Arugal) | Rare Elite | 55 | Gilneas |
+  | [Bonecruncher](https://turtle-wow.fandom.com/wiki/Bonecruncher) | Rare | 44 | Brol'ok Mound, Gilneas |
+  | [Baron Perenolde](https://turtle-wow.fandom.com/wiki/Baron_Perenolde) | Rare | 45 | tied to the Legacy of Perenolde chain |
+  | [Friar Montero](https://turtle-wow.fandom.com/wiki/Friar_Montero) | Rare Elite | 35 | Saint Mara Abbey, Northwind |
+  | [Goldtusk](https://turtle-wow.fandom.com/wiki/Goldtusk) | Rare | 34 | Northwind |
+  | [Quistis the Malign](https://turtle-wow.fandom.com/wiki/Quistis_the_Malign) | Rare | 33 | Northwind |
+  | [Snugg](https://turtle-wow.fandom.com/wiki/Snugg) | Rare | 31 | Ruins of Breezehaven, Balor |
+  | [Margon the Mighty](https://turtle-wow.fandom.com/wiki/Margon_the_Mighty) | Rare Elite | 54–55 | Lapidis Isle |
+  | [Embereye](https://turtle-wow.fandom.com/wiki/Embereye) | Rare | 51 | Deepneck Cove, Gillijim's Isle |
+  | [Foreman Darkskull](https://turtle-wow.fandom.com/wiki/Foreman_Darkskull) | Rare | 52–53 | The Jade Mine, Gillijim's Isle |
+  | [Thundertusk](https://turtle-wow.fandom.com/wiki/Thundertusk) | Rare | 58 | Moonwhisper Coast |
+  | [Admiral Barean Westwind](https://turtle-wow.fandom.com/wiki/Admiral_Barean_Westwind) | Rare Elite | 60 | Light's Point, Scarlet Enclave |
+  | [Mavel Brightwood](https://turtle-wow.fandom.com/wiki/Mavel_Brightwood) | Rare Elite | 60 | Tyr's Hand, Eastern Plaguelands |
+  | [Bethelon Wildwhisper](https://turtle-wow.fandom.com/wiki/Bethelon_Wildwhisper) | Rare Elite | 60 | Thalanaar, Feralas |
+  | [Lord Hel'nurath](https://turtle-wow.fandom.com/wiki/Lord_Hel%27nurath) | Rare Elite | 62 | Dire Maul West |
+
+  Only Firstborn of Arugal, Baron Perenolde and Admiral Barean Westwind have a loot list on the wiki. Post-1.18.1, **Rotvine**, **Grammon the Ageless** and **Tidelord Rrurgaz** on Moonwhisper Coast had their respawn reduced to 10 minutes — [Torta (staff), 2026-03-31](https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490). Full list with loot notes in `npcs-and-vendors.md` §4.
 - **Outdoor world bosses.** Nerubian Overseer (Eastern Plaguelands, added 2020-05), Ostarius of Uldum (40-player; 20-person minimum to summon from 2023-12-27), Concavius (20+, Shadowbreak Ravine) — [Pompa (player-indexed, writes as team), 2020-05-20](https://forum.turtlecraft.gg/viewtopic.php?p=6010#p6010), [Torta (staff), 2021-11-22](https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049).
 - **Gathering.** Dynamic respawn for high-level herbs and ores (2024-03-19; custom zones 2023-10-18); Black Lotus additional drop chance from Dreamfoil / Mountain Silversage / Plaguebloom / Icecap raised in steps 0.5% → 1% → 2% → 4% → 6%; Rich Thorium shares Thorium spawns; Elemental Earth added to Thorium veins in 1.18.0; gold veins removed from WPL, Un'Goro and Burning Steppes; copper/tin/silver removed from Desolace; **Gemstone Deposits** added (Mining 310). Details and citations in `professions-and-recipes.md` and `drop-rates.md`.
 - **Woodcutting trees.** 1.18.1 added Woodcutting nodes across the world tied to Survival; the wiki records the tree tiers per zone (Simple Wood, Bright Wood, Shade Wood, Star Wood, Dead Wood, Tropical Wood) in each zone's Resources section — [Torta (staff), 2025-10-03](https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168); tree names were renamed "for better immersion" — [Torta (staff), 2026-03-24](https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139).
@@ -244,7 +266,49 @@ The extracted forum corpus is thin on zone-by-zone leveling advice. What exists:
 
 - **Rested XP and tents (affects every zone, 1.18.1).** Rested XP from kills was cut from a 100% bonus to a 50% bonus; tents cap at 25% rested and all non-city taverns can reach 100% — [Torta (staff), 2025-10-03](https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168). Staff reasoning: the bonus was nerfed "so XP rate isn't permanently doubled in the game" while making rested accessible worldwide, and tent camps at the Stormwind/Orgrimmar gates were "a mess" — [Torta (staff), 2026-02-17](https://forum.turtlecraft.gg/viewtopic.php?p=168639#p168639), [Torta (staff), 2026-02-17](https://forum.turtlecraft.gg/viewtopic.php?p=168649#p168649). Players objected — [Saronsen (player), 2026-03-31](https://forum.turtlecraft.gg/viewtopic.php?p=173332#p173332), [Hctwowfan (player), 2026-02-17](https://forum.turtlecraft.gg/viewtopic.php?p=168644#p168644). **contested** (staff intent vs. player reception).
 - **Travel danger, Stranglethorn Vale.** Reaching Nesingwary's Expedition (the Survival trainer) at low level is repeatedly reported as dangerous: "Going to booty on lvl9 alone is torture, all mobs along the road gets agroed and its impossible to defend" — [Sharq (player), 2024-01-30](https://forum.turtlecraft.gg/viewtopic.php?p=86439#p86439). A workaround: "you can swim from Westfall to booty bay. It's a straight line, no fatigue, no mobs… 10 to 15min" — [Conelle (player), 2024-12-23](https://forum.turtlecraft.gg/viewtopic.php?p=114013#p114013). The Arena Ambassador teleport that older guides used has been removed — [Desuku (player), 2022-09-19](https://forum.turtlecraft.gg/viewtopic.php?p=25464#p25464). **consensus** across several posters over three years. This matters for Hardcore characters.
-- **Hardcore-specific zone warnings** are **not found in sources** in this extraction. The Hardcore rules themselves (gravestones, login protection, LFT disabled, Inferno Mode at 55) are in the timeline document, not tied to particular zones.
+### Hardcore-specific zone dangers
+
+The one systematic zone-danger guide in the corpus is **"Miyamoto's big list of stuff that will kill you"** — [Boogie / Miyamoto (guide writer — the reference Hardcore danger list, edited nine times over 15 months and added to by other players), 2022-02-17](https://forum.turtlecraft.gg/viewtopic.php?p=17070#p17070). It is **pre-1.18.1** and its author states a "heavy bias towards under 30 content". Its general rules first:
+
+- **Murlocs are always deadly.** Densely packed, netting, and their pets chase indefinitely — Westfall's beaches are singled out.
+- **Groups of casters in tight spaces** (Defias Pillagers named) are always dangerous.
+- **Houses and caves with several vertical levels** let you aggro mobs you cannot see, who arrive with a train.
+- **Anything with Execute** — look for "slayer" in the name, and some carrion birds.
+- **Spawned mechanicals** ("as with many private servers, spawned mechanicals on Turtle are horrible") chase forever: Engineer Whirlygig in the Sludge Fen, Gerenzo Wrenchwhistle in Stonetalon, the Venture Company Mining quest in Stranglethorn.
+
+Zone-by-zone, abbreviated (all from the same post unless noted):
+
+| Zone | Named danger |
+|---|---|
+| Durotar | Captain Flat Tusk (elite among normals); **Dark Storms / Fizzle** — needs a ranged interrupt or a partner because of Soul Siphon; Gazz'Uz in the Burning Blade cave |
+| Tirisfal Glades | The Family Crypt — take it at 12+, not the 7 the quest allows |
+| Teldrassil | Denalan (hand-ins spawn Boglings — do not AFK); Blackmoss the Fetid; the Relics of Wakening cave (healing, fleeing furbolgs) |
+| Elwynn Forest | **Defias Dockmaster** — engaging him spawns three bodyguards and he drops nothing |
+| Dun Morogh | Frostmane Hold; the *Protecting the Herd* elite ("harder than Hogger"); the trogg caves |
+| Loch Modan | Silver Stream Mine ("has claimed many a HC"); *In Defense of the King's Lands*; **Ol' Sooty** (looks like the other bears); the **Horde patrol** on the southern and eastern shores |
+| The Barrens | *The Principal Source* (Horde druid, Dreadmist Peak); the Alliance patrol in the Southern Barrens; Dishu (spawns four cubs); **"Counterattack! — just don't do this quest"**; *The Tear of the Moons*; Hagg Taurenbane (stealthed pigmen nearby); Sludge Fen's three rares; Boulderlode Mine |
+| Silverpine Forest | the three **Sons of Arugal**; *The Weaver*; Ravenclaw Regent (mind control can turn your partner on you); **Fenris Isle — "this place is death"**; Krethis Shadowspinner. Added by another player: *Beren's List* can spawn an elite that looks like the ordinary armoured skeletons — [Afaslizo (player), 2022-02-17](https://forum.turtlecraft.gg/viewtopic.php?p=17076#p17076) |
+| Darkshore | Carnivous the Breaker (hits far above his level 16); Shadowclaw (stealthed); Den Mother (cubs now linked); the Tower of Althalaxx interior; *Wanted: Murkdeep* |
+| Westfall | *The Forgotten Heirloom*; **Foe Reaper**; the beaches; the Deadmines outdoor quests; **Carver Molsen — "a new custom addition to the server", a level 21 elite who hits hard and chases forever** |
+| Redridge Mountains | **Lake Threshers** — level 25 elites underwater, invisible from the shore |
+| Stonetalon Mountains | Boulderslide Ravine; Taskmaster Whipfang (long fear); Foreman Rigger (net); Gerenzo Wrenchwhistle; Deepmoss Eggs (spiders escalate to matriarchs) |
+| Wetlands | *A Grim Task*; *The Missing Diplomat* (the inn chase spawns adds) |
+| Ashenvale | *Supplies to Auberdine* (three ambushes); Befouled Water Elementals at Mystral Lake (stacking frost debuff); **Wandering Protector** — level 35 elite who roots, so riding past does not save you |
+| Hillsbrad Foothills | *The Rescue* (Syndicate Curse of Thorns; the two jailors net and enslave); the farms (humans flee at higher HP than usual and chain groups) |
+| Duskwood | Mor'Ladim; Stitches; **The Unseen — invisible high-level mobs aggroed by any AoE; take AoE off your bars in Duskwood** |
+| Thousand Needles | *Test of Endurance*; fearing coyotes and scorpids; Steelsnap and his two dogs (chain fear) |
+| Stranglethorn Vale | Venture Company Mining (mechanicals). Added: stealthed shadowtooth panthers east of the Zul'Gurub entrance and north of the arena — [Afaslizo (player), 2022-02-17](https://forum.turtlecraft.gg/viewtopic.php?p=17076#p17076) |
+| Arathi Highlands | **Singer** at Northfold Manor, in a barn with three adds |
+| Feralas | caged fey dragons can bug out into the Tauren camp and swarm Horde players |
+| Dustwallow Marsh | **Coral Sharks** — mid-40s elites in the water where the ship lands; *The Missing Diplomat* again (Private Hendel) |
+| Tanaris | **the Videre Elixir quest kills you outright to progress — do not drink it** |
+| Un'Goro Crater | ***Pawn Captures Queen* — "don't do this quest"**; silithid caves generally. Added: the easternmost Devilsaur patrol bugs and telefrags along the river — [Afaslizo (player), 2022-02-17](https://forum.turtlecraft.gg/viewtopic.php?p=17076#p17076) |
+| Western Plaguelands | *The Annals of Darrowshire* — the wrong book spawns lethal mobs |
+| Eastern Plaguelands | a bugged abomination in the Noxious Vale; *Of Forgotten Memories* spawns deadly dwarves |
+| Plaguelands (both) | **Blood of Heroes** objects spawn an elite when looted — do not click them |
+| Hinterlands | *Lard's Picnic* spawns three level 47–48 trolls on a tiny island — [Afaslizo (player), 2022-02-17](https://forum.turtlecraft.gg/viewtopic.php?p=17076#p17076) |
+
+**Custom-zone hardcore warnings are still thin.** The only ones in the corpus: **Swamp of Sorrows** "now has some new world boss in it. So the zone is even more dangerous than it already was. Might be time to mostly avoid that zone until the mechanic is well understood" — [Gladeshadow (player), 2024-12-28](https://forum.turtlecraft.gg/viewtopic.php?p=114694#p114694); and a Hardcore death in **Moonglade** to a yellow ghost NPC fighting the guards, which the player argues should never happen — [Supernovaforum (player), 2025-03-08](https://forum.turtlecraft.gg/viewtopic.php?p=122067#p122067). **single source each, unanswered.** The Hardcore rules themselves (gravestones, login protection, LFT disabled, Inferno Mode at 55) are in the timeline document, not tied to particular zones.
 
 ---
 
@@ -252,10 +316,10 @@ The extracted forum corpus is thin on zone-by-zone leveling advice. What exists:
 
 1. **No coordinates anywhere.** Neither the staff changelogs nor the wiki infoboxes in this extraction give X/Y coordinates for hubs, flight masters, vendors or rares. Every "location" here is a named sub-zone. The wiki's own NPC pages sometimes state a sub-zone but never a coordinate pair.
 2. **Level ranges conflict between official and wiki** for Blackstone Island (1–16 vs 1–10), Thalassian Highlands (15–20 vs 1–10) and Hyjal (56–60 vs 58–60). Both are given; no source reconciles them.
-3. **Rare spawns and world bosses are largely unnamed.** The 1.16.0 and 1.17.0 staff threads say rare bosses were added to level-40+ zones and give a "named list" for 1.17.0, but the extracted text does not reproduce the names. Only two outdoor named elites surfaced in the wiki data (Firstborn of Arugal in Gilneas, Father Lycan in Hyjal) plus the three known world bosses.
+3. **Rare spawns are named by the wiki but not by staff, and their loot is mostly unknown.** The 1.16.0 and 1.17.0 staff threads say rare bosses were added to level-40+ zones and give a "named list" for 1.17.0, but the extracted staff text does not reproduce the names. The wiki supplies 15 outdoor rares (table in §4) and only three of them have a loot list. No source ties any of them to the staff "named list".
 4. **Ronae'Thalas status unknown.** Announced for 1.17.0 and then "in one of the upcoming patches" in December 2023; no wiki page, no later changelog entry in this extraction.
 5. **Tirisfal Uplands and Sparkwater Port have no standalone wiki article** in this extraction, so their sub-zone and facility details come only from the staff threads and the parent zone pages.
-6. **Zone-level player guidance is missing.** There are no extracted "best zone to level 30–40" style guides; forum mentions of Tel'Abim, Nordanaar and Ambershire are overwhelmingly about the realms of those names, not the zones. Any zone-by-zone leveling ranking would be invention.
+6. **Zone-level leveling guidance is missing.** There is no extracted "best zone to level 30–40" guide — searching all English forums for that phrasing returns only realm-population debate. Forum mentions of Tel'Abim, Nordanaar and Ambershire are overwhelmingly about the realms of those names, not the zones. Any zone-by-zone leveling ranking would be invention. Danger guidance, by contrast, is well covered for **vanilla** zones (§5) but almost absent for the **custom** zones.
 7. **Winter Veil Vale, Sunnyglade Valley and Thorn Gorge** are instanced; their internals belong to the dungeons/raids and PvP documents respectively and are only stubbed here.
 8. **The 1.18.1 "New zone" section of the master changelog names only Moonwhisper Coast.** If 1.18.1 added other outdoor areas (for example Ursolan, Maw of Ursoc, Grove of the Sun as standalone map entries) they appear only as wiki sub-zone pages, with no staff citation for their level range.
 9. **Faction control of hubs** is taken from wiki infoboxes (`faction: Alliance/Horde/Neutral`); no staff source in this extraction enumerates which hubs are faction-locked.

@@ -1,0 +1,557 @@
+about: Custom and reworked outdoor zones. See synthesis/content/zones.md for the prose version and per-claim source tiers.
+record_count: 18
+caveats:
+- No source in this extraction gives in-game X/Y coordinates for any zone feature.
+- Where official site and community wiki level ranges disagree, both are recorded (level_official / level_wiki).
+- hubs, flight_paths, access, resources and rares are community-wiki data unless a staff post is cited alongside.
+new_zones:
+- name: Blackstone Island
+  wiki: https://turtle-wow.fandom.com/wiki/Blackstone_Island
+  level_official: 1-16
+  level_wiki: 1-10
+  patch: 1.17.1
+  continent: off the shores north-east of central Kalimdor
+  role: Horde/Goblin starting zone
+  hubs:
+  - Rustgate Ridge
+  - Gazzik's Workshop
+  - Black Ash Coalpits
+  - Black Ash Mine
+  - Rustgate Lumber Yard
+  - Venture Co. Slums
+  - The Water Hole
+  flight_paths:
+  - Gazzik's Workshop <-> Sparkwater Port (Horde)
+  access:
+  - swim west to Durotar
+  - Horde flight path
+  factions:
+  - Durotar Labor Union
+  - Venture Company
+  - Mudpaw tribe
+  ruler: Taxxlo Rustgate
+  notable_npcs:
+  - Feebeld (Survival Trainer, level 50, Rustgate Ridge, 1.18.1)
+  contested: official level range 1-16 vs wiki 1-10
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=71005#p71005
+  - https://turtlecraft.gg/new-locations-and-maps
+  - https://turtle-wow.fandom.com/wiki/Blackstone_Island
+  - https://turtle-wow.fandom.com/wiki/Feebeld
+- name: Thalassian Highlands
+  wiki: https://turtle-wow.fandom.com/wiki/Thalassian_Highlands
+  level_official: 15-20 (1-10 High Elf experience)
+  level_wiki: 1-10
+  patch: 1.17.1
+  continent: northern Lordaeron
+  role: High Elf starting zone (replaced Farstrider Lodge, Loch Modan)
+  hubs:
+  - Alah'Thalas
+  - Brinthilien
+  - Thaumarium
+  - Felstrider Retreat
+  - Silver Covenant Camp
+  - Isle of Eternal Autumn
+  - The Last Runestone
+  - Ruins of Nashal'aran
+  - The Scourged Pass
+  - Silver Sun Mine
+  - Anasterian Park
+  - Ballador's Chapel
+  - The Farstride (Deepmurk Cave)
+  flight_paths:
+  - Alah'Thalas <-> Light's Hope Chapel (Alliance)
+  access:
+  - boat Alah'Thalas <-> Auberdine (Darkshore)
+  - on foot south through the Scourged Pass to the Eastern Plaguelands
+  factions:
+  - Silvermoon Remnant
+  ruler: Lord-Regent Astalor Sunsworn; Regency Council; Viceroy Eldin Sunstrider
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=71005#p71005
+  - https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  - https://turtlecraft.gg/new-locations-and-maps
+  - https://turtle-wow.fandom.com/wiki/Thalassian_Highlands
+  - https://turtle-wow.fandom.com/wiki/Alah%27Thalas
+- name: Northwind
+  wiki: https://turtle-wow.fandom.com/wiki/Northwind
+  level_official: 28-34
+  level_wiki: 28-34
+  patch: 1.18.0
+  continent: north-western Azeroth, north of Stormwind
+  hubs:
+  - Ambershire
+  - Amberwood Keep
+  - Birkhaven
+  - Sherwood Quarry
+  - Stillheart Port
+  - Mildenhall Horse Farm
+  - Lion's Watch
+  - Crawford Winery
+  - Northwind Logging Camp
+  - Bristlewhisker Cavern
+  - Blackrock Breach
+  - Northridge Point
+  - Witch Coven
+  - The Plump Pumpkin
+  - Saint Mara Abbey
+  - Crypt
+  - Jousting Grounds
+  flight_paths:
+  - Ambershire <-> Stormwind City
+  - Ambershire <-> Thorium Point (Searing Gorge), added 1.18.1
+  access:
+  - swim south to Elwynn Forest through Crystal Falls
+  - Stormwind Harbor
+  - swim west to Balor
+  - on foot north-east to Searing Gorge via Sherwood Quarry
+  factions:
+  - Kingdom of Stormwind
+  - Defias Brotherhood
+  - Blackrock clan
+  - Amberpaw pack
+  - Bristlewhisker
+  - Witch Coven
+  notable_npcs:
+  - Enchantress Magilou (Expert Enchanter, 50)
+  - The Witch of Northwind (Alchemy trainer, 50)
+  - Count Femur (skeleton Blacksmithing vendor, 50, the Crypt)
+  - Horsekeeper Geringt (Riding Trainer, 45)
+  - Nadia Geringt (Horse Breeder, 38)
+  rares:
+  - Friar Montero (Rare Elite 35, Saint Mara Abbey)
+  - Goldtusk (Rare 34)
+  - Quistis the Malign (Rare 33)
+  player_note: Ambershire and Nordanaar are also realm names; most forum hits for those words are realm chatter
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  - https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  - https://turtlecraft.gg/new-locations-and-maps
+  - https://turtle-wow.fandom.com/wiki/Northwind
+  - https://turtle-wow.fandom.com/wiki/Ambershire
+- name: Balor
+  wiki: https://turtle-wow.fandom.com/wiki/Balor
+  level_official: 29-34
+  level_wiki: 29-34
+  patch: 1.18.0
+  continent: island chain west of Elwynn Forest and Westfall
+  hubs:
+  - SI:7 Outpost (Alliance)
+  - Stormbreaker Point (Horde)
+  - Breezehaven
+  - Bilgerat Compound
+  - Grahan Estate
+  - Croaking Plateau
+  - Gullwing Wreckage
+  - Langston Orchard
+  - Ruins of Breezehaven
+  - Scurrying Thicket
+  - Sorrowmore Lake
+  - Stormreaver Spire
+  - Stormwrought Castle
+  - Treacherous Crags
+  - Vander Farmstead
+  - Windrock Cliffs
+  flight_paths:
+  - SI:7 Outpost <-> Sentinel Hill (Westfall)
+  - Stormbreaker Point <-> Grom'gol Base Camp (Stranglethorn Vale)
+  access:
+  - swim from the eastern coast to Westfall or Northwind
+  factions:
+  - Stormreaver clan
+  - Shadow Council
+  - Bleeding Hollow clan
+  - SI:7
+  - Bilgerats
+  - Fogwhiskers
+  leaders:
+  - Verona Gillian (SI:7 Outpost)
+  - Kilrogg Deadeye (Stormbreaker Point)
+  instance: Stormwrought Ruins (Castle + Caverns)
+  resources:
+  - Khadgar's Whisker
+  - Fadeleaf
+  - Grave Moss
+  - Liferoot
+  - Silver/Iron/Gold veins
+  - Firefin Snapper
+  - Oily Blackmouth
+  - Bright Wood Tree
+  rares:
+  - Snugg (Rare 31, Ruins of Breezehaven)
+  player_note: '''Balor'' is also a forum username; most forum hits are that user'
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  - https://turtlecraft.gg/new-locations-and-maps
+  - https://turtle-wow.fandom.com/wiki/Balor
+- name: Grim Reaches
+  wiki: https://turtle-wow.fandom.com/wiki/Grim_Reaches
+  level_official: 33-38
+  level_wiki: 33-38
+  patch: 1.18.0
+  continent: eastern Khaz Modan
+  hubs:
+  - Dun Kithas (Alliance)
+  - Shatterblade Post (Horde)
+  - Baggoth's Rampart
+  - Baggoth's Wall
+  - Barleycrest Farmstead
+  - Brangar's Folly
+  - East Ridge Outpost
+  - Geth'kar
+  - Grim Batol Memorial
+  - The Grim Hollow (Tomb of Ancestors)
+  - Groldan's Excavation
+  - The High Pass
+  - Lake Kithas
+  - Ruins of Grim Batol
+  - Ruins of Stolgaz Keep
+  - Sal'Galaz Mines
+  - Slatebeard's Forge
+  - Zarm'geth Point
+  - Zarm'geth Stronghold
+  flight_paths:
+  - Dun Kithas <-> Thelsamar (Loch Modan)
+  access:
+  - on foot south-west to Loch Modan through the High Pass
+  - on foot west to the Wetlands through the Dragonmaw Gates
+  factions:
+  - Wildhammer Clan (Council of Dun Kithas / Sky King Redoran)
+  - Dragonmaw clan
+  instance: Dragonmaw Retreat
+  loot_note: Dragonmaw Bracers/Greaves/Hauberk/Leggings and Stormreaver Boots/Belt drop chance raised 0.11% -> 1.35% (2025-09-02)
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  - https://turtlecraft.gg/new-locations-and-maps
+  - https://turtle-wow.fandom.com/wiki/Grim_Reaches
+  - https://turtle-wow.fandom.com/wiki/Dun_Kithas
+  - https://turtle-wow.fandom.com/wiki/Shatterblade_Post
+- name: Gilneas
+  wiki: https://turtle-wow.fandom.com/wiki/Gilneas
+  level_official: 39-46
+  level_wiki: 39-46
+  patch: 1.17.0
+  continent: south-western Lordaeron
+  hubs:
+  - Ravenshire (Alliance)
+  - Stillward Church (Horde)
+  - Blackthorn's Camp (Horde)
+  - Shademore Tavern
+  - Vagrant Encampment
+  - Greyshire
+  - Gelnor
+  - Ravenwood Keep
+  - Brol'ok Mound
+  - Mossgrove Farm
+  flight_paths:
+  - Ravenshire <-> Southshore
+  - Stillward Church <-> Tarren Mill
+  access:
+  - on foot north through the Greymane Wall or Oldrock Pass to Silverpine Forest
+  instance: Gilneas City (43-49)
+  questlines:
+  - Dead Until Dark
+  - Legend of Dawnstone
+  - Behind the Wall
+  - Legacy of Perenolde
+  - Orvan Darkeye
+  rares:
+  - Firstborn of Arugal (Rare Elite 55)
+  - Bonecruncher (Rare 44, Brol'ok Mound)
+  - Baron Perenolde (Rare 45)
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  - https://turtlecraft.gg/new-locations-and-maps
+  - https://turtle-wow.fandom.com/wiki/Gilneas
+  - https://turtle-wow.fandom.com/wiki/Firstborn_of_Arugal
+- name: Gillijim's Isle
+  wiki: https://turtle-wow.fandom.com/wiki/Gillijim%27s_Isle
+  level_official: 48-53
+  level_wiki: 48-53
+  patch: 1.16.0 (rework 1.17.2)
+  continent: South Seas
+  hubs:
+  - Maul'ogg Refuge (Horde)
+  - Kalkor Point (Neutral)
+  - Zul'Razar (capital)
+  - The Broken Reef
+  - Deeptide Sanctum
+  - Gillijim Canyon
+  - Gillijim Strand (Deepneck Cove)
+  - The Jade Mine
+  - Kazon Island
+  - Maul'ogg Post
+  - Ruins of Zul'Razar
+  - The Silver Coast
+  - The Southsea Sandbar (Distillery Island)
+  - The Tangled Wood
+  flight_paths:
+  - Maul'ogg Refuge <-> Booty Bay (Horde)
+  factions:
+  - Mosh'ogg ogre clan
+  - Zul'Razar trolls
+  - Southsea Freebooters
+  resources:
+  - Dreamfoil
+  - Sungrass
+  - Purple Lotus
+  - Golden Sansam
+  - Stranglekelp
+  - Ghost Mushroom
+  - Truesilver
+  - Small Thorium
+  - Tropical Wood Tree
+  rares:
+  - Embereye (Rare 51, Deepneck Cove)
+  - Foreman Darkskull (Rare 52-53, The Jade Mine)
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  - https://forum.turtlecraft.gg/viewtopic.php?p=120590#p120590
+  - https://turtlecraft.gg/new-locations-and-maps
+  - https://turtle-wow.fandom.com/wiki/Gillijim%27s_Isle
+- name: Island of Lapidis
+  wiki: https://turtle-wow.fandom.com/wiki/Lapidis_Isle
+  level_official: 48-53
+  level_wiki: 48-53
+  patch: 1.16.0 (rework 1.17.2)
+  continent: South Seas
+  hubs:
+  - Caelan's Rest (Alliance)
+  - The Tower of Lapidis
+  - Gor'dosh Heights
+  - The Rock
+  - Hazzuri Glade
+  - Zul'Hazu (capital)
+  flight_paths:
+  - Caelan's Rest <-> Booty Bay (Alliance)
+  access:
+  - swim between Lapidis and Gillijim's Isle
+  factions:
+  - Kul Tiran Exploratory Fleet
+  - Southsea Freebooters
+  - Gor'dosh ogres
+  questlines:
+  - Tower of Lapidis I-X
+  rares:
+  - Margon the Mighty (Rare Elite 54-55)
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  - https://forum.turtlecraft.gg/viewtopic.php?p=120590#p120590
+  - https://turtlecraft.gg/new-locations-and-maps
+  - https://turtle-wow.fandom.com/wiki/Lapidis_Isle
+- name: Tel'Abim
+  wiki: https://turtle-wow.fandom.com/wiki/Tel%27Abim
+  level_official: 54-60
+  level_wiki: 54-60
+  patch: 1.16.4
+  continent: South Seas, east of Tanaris
+  hubs:
+  - Tel Co. Basecamp
+  - Bixxle's Storehouse
+  - The Derelict Camp
+  - Highvale Rise
+  - The Jagged Isles
+  - The Shallow Strand
+  - Tazzo's Shack
+  - The Washing Shore
+  flight_paths:
+  - Tel Co. Basecamp <-> Gadgetzan (Tanaris)
+  access:
+  - swim east from Tanaris
+  ruler: Baron Telraz
+  notes:
+  - weather added 2023-07-25
+  - year-round Summer Bass
+  - Danonzo's stove fixed post-1.18.1
+  player_note: Tel'Abim is also the name of the EU PvP realm; most forum mentions are realm chatter
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=26516#p26516
+  - https://forum.turtlecraft.gg/viewtopic.php?p=120590#p120590
+  - https://turtlecraft.gg/new-locations-and-maps
+  - https://turtle-wow.fandom.com/wiki/Tel%27Abim
+  - https://turtle-wow.fandom.com/wiki/Tel_Co._Basecamp
+- name: Hyjal
+  wiki: https://turtle-wow.fandom.com/wiki/Hyjal
+  level_official: 56-60
+  level_wiki: 58-60
+  patch: 1.17.0 (map overhaul 1.17.2)
+  continent: central northern Kalimdor
+  hubs:
+  - Nordanaar
+  - Barkskin Plateau
+  - Barkskin Village
+  - Bleakhollow Crater
+  - Circle of Power
+  - Darkhollow Pass
+  - The Emerald Gateway
+  - Nordrassil Glade
+  - The Ruins of Telennas
+  - Zul'Hathar
+  - Prophet's Hill
+  flight_paths:
+  - Nordanaar <-> Everlook (Winterspring)
+  access:
+  - on foot east to Winterspring through Darkwhisper Gorge
+  - 'Teleport Rune: Nordanaar (1.18.0)'
+  raid: Emerald Sanctum (40-player)
+  rares:
+  - Father Lycan, Herald of Vorgendor (Circle of Power)
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  - https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  - https://turtlecraft.gg/new-locations-and-maps
+  - https://turtle-wow.fandom.com/wiki/Hyjal
+  - https://turtle-wow.fandom.com/wiki/Nordanaar
+- name: Moonwhisper Coast
+  wiki: https://turtle-wow.fandom.com/wiki/Moonwhisper_Coast
+  level_official: 50-56
+  level_wiki: 50-56
+  patch: 1.18.1
+  continent: north-eastern northern Kalimdor
+  hubs:
+  - Moonhoof Village (Horde)
+  - Moro'gai Village (Neutral)
+  - Narvalis Point (Alliance)
+  - Sunsworn Camp (Alliance)
+  - Grove of the Sun (Cenarion Circle)
+  - Moonhoof Retreat
+  - An'she's Respite
+  - Blackroot Village
+  - Riverhorn Village
+  - Maras'ethil
+  - Shimmerstar Lake
+  - Blackroot Hold (Maw of Ursol)
+  - Tyrandas
+  - Timbermaw Hold
+  flight_paths:
+  - Narvalis Point <-> Talrendis Point
+  - Shimmerstar Lake <-> Talrendis Point / Valormok
+  access:
+  - Timbermaw Hold Gate in Azshara
+  - on foot through Timbermaw Hold
+  - swim north
+  factions:
+  - Moonhoof tribe
+  - Moro'gai tribe
+  - Tideblade
+  - Fallen Ones
+  - Draenei Exiles
+  - Earthen Ring
+  - Timbermaw Hold
+  resources:
+  - Black Lotus
+  - Dreamfoil
+  - Mountain Silversage
+  - Purple Lotus
+  - Golden Sansam
+  - Truesilver
+  - Small Thorium
+  - Firefin Snapper
+  - Oily Blackmouth
+  - Stonescale Eel
+  - Star Wood Tree
+  rares:
+  - Thundertusk (Rare 58)
+  - Rotvine
+  - Grammon the Ageless
+  - Tidelord Rrurgaz
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  - https://turtle-wow.fandom.com/wiki/Moonwhisper_Coast
+  - https://turtle-wow.fandom.com/wiki/Azshara
+- name: Tirisfal Uplands
+  wiki: https://turtle-wow.fandom.com/wiki/Tirisfal_Glades
+  level_official: 14-20
+  level_wiki: null
+  patch: 1.16.0
+  continent: northern Tirisfal Glades
+  hubs:
+  - Glenshire
+  - Steepcliff Port
+  - The Blacktower Inn
+  - The Corinth Farmstead
+  - Crumblepoint Tower
+  - Remnants Camp
+  - The Garrick Stead
+  caveat: the wiki folds the Uplands into the Tirisfal Glades page and gives it no level range; 14-20 is from the staff timeline only
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  - https://turtle-wow.fandom.com/wiki/Tirisfal_Glades
+special_and_instanced_zones:
+- name: Icepoint Rock
+  wiki: https://turtle-wow.fandom.com/wiki/Icepoint_Rock
+  level_official: 40-50
+  patch: 1.16.0 (discoverable 1.17.1, boat route 1.17.2)
+  type: secret glacier
+  hubs:
+  - Kaneq'nuun
+  ruler: Panukuki
+  factions:
+  - Tuskarr
+  access:
+  - through the Northeast Passage with Inunquaq, from Darkshore
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=14667#p14667
+  - https://turtle-wow.fandom.com/wiki/Icepoint_Rock
+- name: The Scarlet Enclave
+  wiki: https://turtle-wow.fandom.com/wiki/Scarlet_Enclave
+  level_official: 55-60
+  patch: 1.16.0
+  type: Scarlet Crusade zone
+  hubs:
+  - New Avalon
+  - Havenshire
+  - King's Harbor
+  - Light's Point
+  access:
+  - on foot through Tyr's Hand (Eastern Plaguelands)
+  - swim along the coast from the Hinterlands
+  notes:
+  - Scarlet Citadel attunement exists; the raid is on hold
+  rares:
+  - Admiral Barean Westwind (Rare Elite 60, Light's Point)
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=36204#p36204
+  - https://turtle-wow.fandom.com/wiki/Scarlet_Enclave
+- name: Winter Veil Vale
+  wiki: https://turtle-wow.fandom.com/wiki/Winter_Veil_Vale
+  patch: 1.16.4
+  type: instanced seasonal zone
+  hubs:
+  - Icepaw Village
+  notes:
+  - Snowball mount from the Snowball boss
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=26516#p26516
+- name: Sunnyglade Valley
+  wiki: https://turtle-wow.fandom.com/wiki/Sunnyglade_Valley
+  level_official: '60'
+  patch: 1.16.0 era
+  type: instanced battleground
+  hubs:
+  - Greywall's Advance
+  - Gol'dregar
+  - Fort Vallance
+  access:
+  - Battlemaster Alurzion in the Caverns of Time
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Sunnyglade_Valley
+- name: Thorn Gorge
+  wiki: https://turtle-wow.fandom.com/wiki/Thorn_Gorge
+  level_official: '60'
+  patch: 1.18.1
+  type: instanced battleground
+  hubs:
+  - Dun Bardal
+  - Amberhorn Bluffs
+  access:
+  - Thorn Gorge Battlemasters in all six capitals
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Thorn_Gorge
+- name: Ronae'Thalas
+  level_official: '54'
+  status: announced, never confirmed released
+  notes:
+  - east of Feralas; Shen'dralar dailies; announced for 1.17.0 and then 'in one of the upcoming patches' on 2023-12-09; no wiki page exists in this extraction
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=80455#p80455

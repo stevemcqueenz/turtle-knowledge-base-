@@ -92,7 +92,59 @@ Post-release hotfixes: Apprentice Survival available at level 1 again; Survival 
 - Survival recipes showing as "unknown" at the trainer even after clearing the WDB cache — [Deadcrow (player), 2026-04-07](https://forum.turtlecraft.gg/viewtopic.php?p=174264#p174264).
 - A Survival **slingshot** usable for ranged pulling — [Atreidon (player), 2026-03-24](https://forum.turtlecraft.gg/viewtopic.php?p=172086#p172086).
 
-**Not found in sources:** a per-recipe list of the 80+ new Survival recipes with skill levels and materials. Staff gave the count, not the list, and no player thread in this extraction enumerates them.
+### 1.5a Survival 1–300 after the overhaul (player guide)
+
+The one full progression in the corpus is the **Survival Leveling Guide** — [Speedz1337 (guide writer — author of the pinned custom-quest, Gardening and Jewelcrafting guides), 2026-03-28](https://forum.turtlecraft.gg/viewtopic.php?p=172915#p172915), written eight days after the 1.18.1 release. It is **player-authored and post-1.18.1**; staff never published a recipe list.
+
+**Tools:** a **Whittle** (50 c) and a **Woodcutting Axe** (50 c) from a Survival Supplier; a **Blacksmith Hammer** (20 c from a Mining Supplier) plus an **anvil** for some recipes; a **Cooking Fire** for others.
+
+**Tiers and gates:** Journeyman Survival at character level 10 / skill 50 (every trainer); **Expert Survival** at level 20 / skill 150 (only **Nerean Stagtree** in Desolace for Alliance, **Swampwalker Krug** in the Swamp of Sorrows for Horde); **Artisan Survival** at level 35 / skill 225, taught **only by Rufus Hardwick** in Stranglethorn Vale via the quest *To Survive in the Jungle* — the quest whose level requirement staff reduced to 35 — [Torta (staff), 2026-03-31](https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490).
+
+| Skill | Craft | Materials |
+|---|---|---|
+| 1–10 | 9× **Dim Torch** | 9 Unlit Poor Torch |
+| 10–15 | 30× **Bundle of Simple Sticks** | 60 Simple Wood |
+| 15–35 | 20× **Crude Walking Stick** | 80 Simple Wood |
+| 35–50 | 15× **Simple Slingshot** | 60 Striped Melon Seeds, 30 Bundle of Simple Sticks, 15 Springy Rope |
+| 50–75 | 25× **Weak Healing Salve** | 25 Refreshing Spring Water, 50 Remedy Herbs, 25 Simple Leaves |
+| 75–100 | 25× **Crude Fishing Rod** | 200 Simple Wood, 25 Fine Thread |
+| 100–125 | 30× **Simple Fishing Lure** | 30 Clam Meat, 30 Remedy Herbs |
+| 125–140 | 60× **Bundle of Bright Wood Sticks**; 85× **Sturdy Net** | 180 Bright Wood; 340 Sturdy Rope |
+| 140–155 | 30× **Blackmouth Fishing Trap** | 60 Bundle of Bright Wood Sticks, 30 Simple Fishing Lure, 30 Sturdy Net |
+| 155–160 | 5× **Throwable Net** | 5 Sturdy Net, 20 Coarse Stone |
+| 160–175 | 15× **Slowing Bolas** | 45 Heavy Stone, 30 Sturdy Rope |
+| 175–185 | 22× **Bundle of Shade Wood Sticks** | 88 Shade Wood |
+| 185–200 | 10× **Spicy Fishing Lure**; 10× **Firefin Fishing Trap** | 10 Tangy Clam Meat, 10 Hot Spices; 20 Bundle of Shade Wood, 10 Spicy Fishing Lure, 10 Sturdy Net |
+| 200–210 | 10× **Savory Fishing Lure** | 10 Zesty Clam Meat, 20 Soothing Spices |
+| 210–215 | 5× **Nutritious Rations** (3 per craft) | 10 Juicy Watermelon, 10 Sour Mountain Berry, 10 Plump Country Pumpkin |
+| 215–217 | 2× **Vine Cutter** | 20 Mithril Bar, 4 Solid Grinding Stone, 8 Thick Leather, 2 Bundle of Shade Wood Sticks |
+| 217–225 | 8× **Nutritious Rations** | 16 each of the three gardening crops |
+| 225–240 | 25× **Bundle of Tropical Sticks** | 125 Tropical Wood |
+| 240–260 | 20× **Aromatic Berries** | 20 Sweet Mountain Berry, 20 Remedy Herbs, 40 Soothing Spices |
+| 260–275 | 15× **Smooth Ironfeather Arrows** | 15 Bundle of Tropical Sticks, 15 Ironfeather, 15 Thorium Bar |
+| 275–290 | 20× **Bundle of Star Wood Sticks**; 10× **Premium Fishing Lure** | 100 Star Wood; 20 Zesty Clam Meat, 10 Molasses Firewater |
+| 290–300 | 10× **Stonescale Fishing Trap** | 20 Bundle of Star Wood Sticks, 10 Premium Fishing Lure, 20 Sturdy Net |
+
+Two dependencies worth planning around, per the guide: **Bundle of Tropical Sticks is taught only by the Swamp of Sorrows or Desolace trainer**, and you need 10 of them in hand at skill 225 to take *To Survive in the Jungle*; and the 85 Sturdy Nets made at 125 cover both the 140-155 traps and the 290-300 traps.
+
+**Woodcutting tree tiers and where they grow** (same guide; the required Survival skill is in brackets):
+
+| Wood | Skill | Zones |
+|---|---|---|
+| **Simple Wood** | 5 | Durotar, Barrens, Mulgore, Teldrassil, Darkshore, Elwynn, Westfall, Duskwood, Redridge, Dun Morogh, Loch Modan, Tirisfal, Silverpine, Wetlands, **Blackstone Island**, **Thalassian Highlands** |
+| **Bright Wood** | 125 | Hillsbrad, Thousand Needles, **Northwind**, **Balor**, Ashenvale, Stonetalon |
+| **Shade Wood** | 175 | northern Stranglethorn Vale, **Grim Reaches**, Arathi Highlands, Alterac Mountains, Badlands, Dustwallow Marsh, Desolace, Swamp of Sorrows, Hinterlands, **Gilneas**, Feralas |
+| **Tropical Wood** | 225 | **Lapidis Isle**, **Gillijim's Isle**, **Tel'Abim**, Tanaris, Un'Goro Crater, southern Stranglethorn Vale |
+| **Dead Wood** | 250 | Felwood, Eastern Plaguelands, Silithus, Western Plaguelands, Burning Steppes, **Hyjal**, Blasted Lands, Deadwind Pass, Searing Gorge, Azshara — "a worse version of Star Wood Trees, only do them if you are desperate before 270" |
+| **Star Wood** | 270 | **Hyjal**, Winterspring, Azshara, **Moonwhisper Coast**, Felwood, Feralas (Isle of Dread) |
+
+The guide's total stated vendor cost for 1–300 is **6 g 62 s**, with everything else bought on the auction house or gathered by Woodcutting. **single source**, but it is internally consistent with the staff notes and with the other player reports above.
+
+**Still not found in sources:** the complete list of the "80+ new recipes". The guide above covers the ~24 crafts that are efficient to level on, not the whole book.
+
+### 1.5b Gardening after the 1.18.1 reset
+
+The overhaul **wiped existing Survival progression and reset the Gardening quest**: "The gardening Quest where you have to get the seeds has been reset as well, so you have to redo that one to learn it" — [Sylveria (player), 2026-03-23](https://forum.turtlecraft.gg/viewtopic.php?p=171863#p171863), answering [Quinsong (player), 2026-03-22](https://forum.turtlecraft.gg/viewtopic.php?p=171845#p171845), who could no longer find the planter recipe at the trainer. Post-reset quest locations reported: **in front of Stormwind** for Alliance (a player guesses level 15–18) — [Sylveria (player), 2026-03-27](https://forum.turtlecraft.gg/viewtopic.php?p=172714#p172714) — and "the small Tauren village south of Thunder Bluff" for Horde — [CaseyRomain (player), 2026-03-28](https://forum.turtlecraft.gg/viewtopic.php?p=172918#p172918). **single source each**; note the level guess conflicts with the official page's level 20.
 
 ### 1.6 Tents, taverns and rested XP (1.18.1)
 
@@ -183,7 +235,82 @@ Chosen at **skill 225 and character level 40**, after a related questline, like 
 - The 1.17.2 final itemization changelog notes "a few item sets for Jewelcrafting" among the new sets — [Dragunovi (staff), 2024-10-30](https://forum.turtlecraft.gg/viewtopic.php?p=105276#p105276).
 - Recipes named in the timeline document from the changelog stream: Aquamarine Pendant, Rough Truesilver Ring (2 Truesilver Bars), Plans: Gorgeous Mountain Gemstone, Malachite Ring, Emerald Monarch's Glow, Blue Starfire, Amber Ring, Gem of Nerubis, Voltage-Neutralizing Nature Reflector, Giga-Charged Arcane Reflector, and the Heavy/Solid/Dense gritted papers (reagent fixes 2024-11-20). See `synthesis/turtle-vs-vanilla-timeline.md` B7 for the per-item changelog dates.
 
-**Not found in sources:** the Jewelcrafting skill ranges per recipe, trainer prices, and the full 200-item list. No extracted thread reproduces them.
+### 3.5 Jewelcrafting 1–300 (player guide)
+
+The **Jewelcrafting Guide** — [Speedz1337 (guide writer), 2024-11-04](https://forum.turtlecraft.gg/viewtopic.php?p=106310#p106310) — is the only progression in the corpus. **Player-authored, pre-1.18.1, and openly a work in progress** — [Speedz1337, 2024-11-05](https://forum.turtlecraft.gg/viewtopic.php?p=106536#p106536).
+
+**Named trainers** (the official page names only cities):
+
+| Tier | Gate | Alliance | Horde |
+|---|---|---|---|
+| Apprentice | character level 5 | Brandon Fencer (Stormwind), Farbus Barleymantle (Ironforge) | Asoran (Orgrimmar), Edgar Tullson (Undercity), Gelpan Rizspark (Sparkwater Port) |
+| Journeyman | level 10, skill 50 | Kalvan Fencer (Stormwind), Mayva Togview (Ironforge) | Kalnag (Orgrimmar), Mayvelle Tonberg (Undercity), Tacknazz Copperfire (Sparkwater Port) |
+| Expert | level 20, skill 125 | Mayva Togview (Ironforge) | Gulmire Fartower (Undercity) |
+| Artisan | level 35, skill 200 | **Fanzy Sparkspring**, Steamwheedle Port, Tanaris — outside the General Goods store | same (neutral) |
+
+**Tools** — each is an **Engineering** craft, which is the "profession demands collaboration" design in practice:
+
+| Tool | Where the recipe comes from | Engineering | Materials |
+|---|---|---|---|
+| Jewelers Kit | any Jewelcrafting Supplier, **2 s** | — | — |
+| Jewelry Lens | any Jewelcrafting Supplier | **125** | 2 Bronze Bar, 2 Bronze Tube, 1 Medium Leather, 1 Silver Contact, 1 Lesser Moonstone |
+| Precision Jewelers Kit | **Ranik**, trade supplier, Ratchet | **175** | 1 Gyrochronatom, 1 Iron Strut, 3 Bronze Framework, 3 Whirring Bronze Gizmo, 1 Jewelers Kit ("do not use up your only Jewelers Kit on this craft") |
+| Jewelry Scope | **Gonzo Snaphands**, Jewelcrafting Supplier, Steamwheedle Port | **225** | 2 Mithril Tube, 1 Gyrochronatom, 4 Mithril Casing, 1 Citrine, 1 Fusing Wiring |
+
+**Progression** (guide's route; the *Rough Gemstone Cluster* step at 30–50 is also how you stock Tigerseye, Amber Topaz, Malachite and Shadowgem for later):
+
+| Skill | Craft | Materials |
+|---|---|---|
+| 1–30 | 55× Rough Gritted Paper; 25× Rough Copper Ring | 55 Rough Stone + 55 Linen Cloth; 50 Copper Bar |
+| 30–50 | 30× **Rough Gemstone Cluster** | 30 Rough Gritted Paper, 30 Copper Ore |
+| 50–70 | 20× Tigercrest Ring | 20 Rough Copper Ring, 20 Rough Gritted Paper, 20 Tigerseye, 20 Polishing Oil |
+| 70–75 | 5× **Amber Ring** | 5 Rough Copper Ring, 5 Rough Gritted Paper, 5 Amber Topaz |
+| 75–95 | 20× Coarse Gritted Paper | 40 Wool Cloth, 40 Coarse Stone |
+| 95–105 | 35× Rough Bronze Ring | 70 Bronze Bar |
+| 105–110 | 10× Shimmering Bronze Ring | 10 Rough Bronze Ring, 10 Shimmering Oil, 20 Weak Flux, 20 Coarse Gritted Paper |
+| 110–125 | 15× Shadowgem Band | 15 Rough Bronze Ring, 30 Shadowgem, 15 Shimmering Oil |
+| 125–140 | 30× Rough Silver Ring | 60 Silver Bar |
+| 140–150 | 10× Binding Signet | 10 Rough Bronze Ring, 20 Lesser Moonstone, 10 Lesser Mana Potion |
+| 150–160 | 40× Heavy Gritted Paper | 120 **Mageweave** Cloth, 120 Heavy Stone |
+| 160–175 | 10× Rough Gold Ring; 10× Rough Iron Ring | 20 Gold Bar; 20 Iron Bar |
+| 175–180 | 15× Rough Mithril Ring | 30 Mithril Bar |
+| 180–190 | 10× Jade Harmony Circlet | 10 Rough Gold Ring, 10 Jade, 20 Shimmering Oil, 20 Heavy Gritted Paper |
+| 190–200 | 10× Ironsun Citrine Ring | 10 Rough Iron Ring, 20 Gold Bar, 40 Citrine, 10 Shimmering Oil |
+| 200–210 | 30× Solid Gritted Paper | 90 Mageweave Cloth, 90 Solid Stone |
+| 210–220 | 10× Ornate Mithril Scepter | 80 Mithril Bar, 20 Heavy Leather, 20 Heavy Gritted Paper |
+| 220–225 | 5× Emberstone Idol | 25 Emberstone, 15 Fire Oil, 5 Heart of Fire, 5 Elemental Fire |
+| 225–235 | 10× Emberstone Studded Ring | 10 Rough Mithril Ring, 10 Heart of Fire, 40 Emberstone, 20 Gemstone Oil |
+| 235–255 | 45× Rough Thorium Ring | 90 Thorium Bar |
+| 255–260 | 30× Dense Gritted Paper | 90 Runecloth, 90 Dense Stone |
+| 260–270 | 10× Radiant Thorium Twilight | 10 Rough Thorium Ring, 20 Strong Flux, 30 Pure Moonstone, 30 Solid Gritted Paper |
+| 260–285 | 35× **Blue Starfire** (recipe from **Gonzo Snaphands**) | 35 Rough Thorium Ring, 35 Blue Sapphire, 35 Pure Moonstone, 35 Gemstone Oil |
+| 285–292 | Quicksilver Whirl | 28 Truesilver Bar, 14 Blue Sapphire, 14 Gemstone Oil, 28 Elemental Air |
+| 292–297 | Ethereal Frostspark Crown | 60 Thorium Bar, 30 Dense Gritted Paper, 5 Blue Sapphire, 5 Frost Oil |
+| 297–300 | the guide advises crafting whatever recipes you have; it explicitly warns **"Do not go for the Pendant of Arcane Radiance. It's a waste of money and resources"** | |
+
+**Corrections the thread applied to the guide:** Heavy Gritted Paper uses **Mageweave**, not Wool — [kalimore (player), 2024-11-27](https://forum.turtlecraft.gg/viewtopic.php?p=110218#p110218), accepted by the author who noted it was "either a mess up on my part or turtle devs have been tweaking things" — [Speedz1337, 2024-11-28](https://forum.turtlecraft.gg/viewtopic.php?p=110288#p110288). Heavy Stone was also corrected in — [Planoid (player), 2024-11-05](https://forum.turtlecraft.gg/viewtopic.php?p=106518#p106518). The 175–180 Rough Mithril Ring step was contributed by — [Demmentia (player), 2024-11-20](https://forum.turtlecraft.gg/viewtopic.php?p=108958#p108958). This is a **maintained, peer-corrected** guide, which is why it is treated as the best available source here.
+
+### 3.6 The Goldsmith specialisation questline (player guide)
+
+Chosen at skill 225 and character level 40 from **Mayva Togview** (Ironforge, Alliance) or **Gulmire Fartower** (Undercity, Horde), then:
+
+1. Go to **Jarkal Mossmeld** at the Kargath inn (Badlands). He gives three quests:
+   - 20× Solid Gritted Paper and 10× Rough Gold Ring (80 Silk Cloth, 80 Solid Stone, 20 Gold Bar);
+   - 5× Emberstone, 5× Aquamarine, 5× Citrine;
+   - retrieve **a book from Gilneas City**, the custom dungeon.
+2. The chain then sends you to **Desolace**, where an **Ancient Elven Jeweler's Kit** is looted from a **Wet Bag** object on the beach below the tower.
+3. Three crafting quests follow, each unlocking a craft you must then make to learn Goldsmithing:
+   - 2× Ornate Mithril Scepter + 2× **Alluring Citrine Choker** → unlocks **Staff of Gallitrea**;
+   - 1× Crystal Earring + 2× Shimmering Gold Necklace → unlocks **Elaborate Golden Bracelets**;
+   - 1× Dazzling Aquamarine Loop + 2× Jade Harmony Circlet → unlocks **Heart of the Sea**.
+4. Total raw materials for all four quests, per the guide: 64 Mithril Bar, 4 Heavy Leather, 54 Wool Cloth, 58 Heavy Stone, 4 Citrine, 2 Strong Flux, 8 Crystal Quartz, 4 Iron Bar, 13 Shimmering Oil, 30 Gold Bar, 5 Aquamarine, 6 Elemental Water, 2 Pure Moonstone, 24 Silk Cloth, 24 Solid Stone.
+5. **The Artificer** then teaches the Goldsmith-only recipes.
+
+Source: [Speedz1337 (guide writer), 2024-11-04](https://forum.turtlecraft.gg/viewtopic.php?p=106310#p106310). This explains the earlier player confusion in §3.3: the **Alluring Citrine Choker** recipe arrives as a quest reward inside this chain, and the **Tarnished Citrine Choker** comes from the Gilneas City step.
+
+**Goldsmithing recipe-half drops (player-mapped, incomplete):** halves of the Goldsmithing books were found on a box in **Stratholme** on the way to the Unforgiven, on the ground in the **Scholomance** room with three intersections, and from **Blackrock Depths** trash or Fineous ("Hard as Diamond"); one more from **Quartermaster Zigris** in LBRS, which took six kills — [Stackemhigh (player), 2024-11-18](https://forum.turtlecraft.gg/viewtopic.php?p=108446#p108446), [Stackemhigh (player), 2024-11-19](https://forum.turtlecraft.gg/viewtopic.php?p=108694#p108694), [Stackemhigh (player), 2024-11-19](https://forum.turtlecraft.gg/viewtopic.php?p=108705#p108705). The finder did not know which recipe each half unlocks. Two players posted screenshots of the Goldsmithing and Gemology recipe books — [Ulukay (player), 2024-11-20](https://forum.turtlecraft.gg/viewtopic.php?p=108913#p108913), [Ulukay (player), 2024-11-20](https://forum.turtlecraft.gg/viewtopic.php?p=108952#p108952), [Ulukay (player), 2024-11-23](https://forum.turtlecraft.gg/viewtopic.php?p=109476#p109476) — **but the content is in images, which this extraction does not read**, so the recipe names are lost. A player also asked "Is goldsmithing really that useless? … there isn't even any information about it" — [Ulukay (player), 2024-11-20](https://forum.turtlecraft.gg/viewtopic.php?p=108763#p108763).
+
+**Still not found in sources:** the **Gemology** specialisation questline (no text write-up exists — only the screenshots above), trainer prices, and the full 200-item craft list.
 
 ---
 
@@ -312,12 +439,13 @@ All from the staff changelog stream; the per-date citations are in `synthesis/tu
 
 ## 8. Gaps and unclear points
 
-1. **No skill-level table for Survival or Jewelcrafting recipes.** Staff gave counts ("80+ new recipes", "over 200 new items") and players gave anecdotes; no source in this extraction lists recipe → required skill → materials for either profession. `structured/content/recipes.yaml` therefore carries `skill_level: null` for most rows.
-2. **No material lists.** Except the Traveler's Tent (rope + linen + Simple Wood), the Rough Truesilver Ring (2 Truesilver Bars, via the timeline), Enchanted Thorium (3 Illusion Dust) and Empowering Herbal Salad, no recipe's reagent list appears in the sources.
-3. **The 1.18.1 Survival recipe list is missing entirely.** Player posts name individual items (Nutritious Rations, Emergency Parachute, gathering trinkets, fishing traps, a slingshot, a sickle at skill 300, a Survivalist Skinning Knife, one-handed white weapons, a cloth head piece that summons a cooking fire) but never as a list with skill levels.
+1. **Staff never published a recipe list for either custom profession.** They gave counts ("80+ new recipes", "over 200 new items"). The gap is filled only by two player leveling guides (§1.5a and §3.5), which between them cover about 24 Survival crafts and 24 Jewelcrafting crafts — the efficient leveling route, not the whole book. `structured/content/recipes.yaml` carries `skill_level: null` for every recipe outside those two routes.
+2. **No material lists outside the two guides.** For the ~150 recipes in the staff itemization inventory (§5), not one reagent list appears anywhere in the sources.
+3. **Items players praise that do not appear in the leveling route** still have no skill level or reagents: Emergency Parachute, the gathering trinkets (including the Prospector's Magnifying Lens and the skill-300 sickle that raises the Black Lotus chance), the Survivalist Skinning Knife, the one-handed white weapons, bows, and the cloth head piece that summons a cooking fire.
 4. **Gardening crop count is contested** — staff say three new 1.18.1 crops, a player names four new seeds.
 5. **Forgotten Knowledge I vendor locations are player-found and six years old.** They have not been re-confirmed in any later post in this extraction.
-6. **Jewelcrafting trainer names are not given** — only the six cities. No wiki NPC page in this extraction is tagged as a Jewelcrafting trainer with a name and location.
+6. **Jewelcrafting trainers are named only by a player guide** (§3.5), not by staff or the wiki — no wiki NPC page in this extraction is tagged as a Jewelcrafting trainer, and the guide's five Apprentice trainers do not match the official page's six cities (it omits an Alliance Alah'Thalas trainer). **contested.**
 7. **Schematic: Enchanted Thorium Shells** is contested: staff named Cannon Master Willey as the source, a player reports it still not dropping a week later. Unresolved at the end of the extracted record.
 8. **The Turtle item database** (`database.turtlecraft.gg`) is the source players lean on for recipe sources and item IDs; it was offline for a stretch in early 2026 — [Scootiesana (player), 2026-04-03](https://forum.turtlecraft.gg/viewtopic.php?p=173839#p173839) — and is not part of this extraction. Anything sourced only to it is marked as such above.
-9. **Alchemy, First Aid, Fishing and Lockpicking custom content** is thin here: the staff profession thread lists five Alchemy recipes and one First Aid formula, and the rest comes from the timeline's condensed changelog lines rather than from a dedicated thread.
+9. **The Gemology specialisation is undocumented in text.** The only sources are forum screenshots, which this extraction does not read.
+10. **Alchemy, First Aid, Fishing and Lockpicking custom content** is thin here: the staff profession thread lists five Alchemy recipes and one First Aid formula, and the rest comes from the timeline's condensed changelog lines rather than from a dedicated thread.

@@ -12,7 +12,7 @@ What **is** documented, and is collected below:
 2. **Reputation quartermaster stock with prices** — the wiki faction reward tables. Those are reproduced in `factions.md`, not repeated here.
 3. **A handful of individual items and prices players typed into forum posts** — §2 below.
 
-**Coordinates:** not a single source in this extraction gives an in-game X/Y pair for any NPC. Locations are named sub-zones. This is the single largest gap in this document.
+**Coordinates:** almost no source in this extraction gives an in-game X/Y pair. A systematic search of every English forum found **one** — Stickypaws in Gilneas, "about 50,39" (§2). Everywhere else a location is a named sub-zone. This is the single largest gap in this document.
 
 **Source tiers.** Every table row below is *community wiki* (`turtle-wow.fandom.com`), not official. Staff and player statements are marked inline.
 
@@ -422,6 +422,16 @@ What **is** documented, and is collected below:
 | **Dronormu** (Wardens of Time quartermaster) | Caverns of Time | reputation rewards | not stated | [Elisleris (player), 2025-01-13](https://forum.turtlecraft.gg/viewtopic.php?p=116560#p116560), [Geojak (player), 2023-07-26](https://forum.turtlecraft.gg/viewtopic.php?p=54708#p54708) |
 | **Gizbert Eggwell** | Stormwind and Orgrimmar | buys back Noblegarden reward items ("they're not going to give you full value") | — | [Akalix (staff), 2024-03-30](https://forum.turtlecraft.gg/viewtopic.php?p=91650#p91650) |
 | Blacksmithing Suppliers | Stormwind, Orgrimmar, Ironforge, Thunder Bluff, Sen'jin Village, Bloodvenom Post | the **Forgotten Knowledge I** plans | not stated | see `professions-and-recipes.md` §4.1 |
+| **Stickypaws** (a gnoll) | **Gilneas, about 50,39** — inside a walled human garden with a statue, south-east of Northgate Tower, on the left of the road before Stillward Church and Mossgrove Farm | **Recipe: Gilneas Hot Stew** (item 61676) | not stated | [Wrathweaver (player), 2024-09-24](https://forum.turtlecraft.gg/viewtopic.php?p=101848#p101848), asked by [Zarja (player), 2024-09-24](https://forum.turtlecraft.gg/viewtopic.php?p=101846#p101846) |
+| **Ranik** (trade supplier) | Ratchet | recipe: **Precision Jewelers Kit** (Engineering 175) | not stated | [Speedz1337 (guide writer), 2024-11-04](https://forum.turtlecraft.gg/viewtopic.php?p=106310#p106310) |
+| **Gonzo Snaphands** (Jewelcrafting Supplies) | Steamwheedle Port, Tanaris | recipes: **Jewelry Scope** (Engineering 225), **Blue Starfire** | not stated | same |
+| Jewelcrafting Suppliers | any | **Jewelers Kit** (2 s), recipe: Jewelry Lens | Jewelers Kit **2 s** | same |
+| Survival Suppliers | see the Survival trainer hubs in §3 | **Whittle**, **Woodcutting Axe** | **50 c** each | [Speedz1337 (guide writer), 2026-03-28](https://forum.turtlecraft.gg/viewtopic.php?p=172915#p172915) |
+| Mining Suppliers | in town | **Blacksmith Hammer** | **20 c** | same |
+| generic Survival/vendor stock priced in the 1.18.1 Survival guide | — | Unlit Poor Torch 10 c; Springy Rope 85 c; Refreshing Spring Water 25 c; Remedy Herbs 12 c; Fine Thread 1 s; Sturdy Rope 1 s; Hot Spices 40 c; Soothing Spices 1 s 60 c; Molasses Firewater 10 s | as listed | same |
+| generic Jewelcrafting vendor stock priced in the guide | — | Polishing Oil 1 s; Shimmering Oil 5 s; Weak Flux 1 s; Gemstone Oil 25 s; Strong Flux 20 s | as listed | [Speedz1337 (guide writer), 2024-11-04](https://forum.turtlecraft.gg/viewtopic.php?p=106310#p106310) |
+
+**Limited-stock recipe vendors are a standing complaint.** Players report engineering schematic vendors (Bimock Sparkbrake, Gearcutter Cogspinner, the Everlook and Booty Bay schematic NPCs) being camped around the clock so the limited recipe is never on the shelf, and the same for the Schematic: Truesilver Transformer vendor — [Sheed90 (player), 2024-01-01](https://forum.turtlecraft.gg/viewtopic.php?p=83300#p83300), [Nib42 (player), 2024-01-01](https://forum.turtlecraft.gg/viewtopic.php?p=83314#p83314), [Sheed90 (player), 2024-01-01](https://forum.turtlecraft.gg/viewtopic.php?p=83329#p83329), [Noob (player), 2023-11-23](https://forum.turtlecraft.gg/viewtopic.php?p=78403#p78403). A player counter-argument: "it's not just a Chinese thing… This was a problem way before" and the fix would be to make the recipes BoP or restock faster — [Drubarrymooer (player), 2024-01-01](https://forum.turtlecraft.gg/viewtopic.php?p=83333#p83333). **consensus that the problem exists; contested on cause and remedy; no staff reply in this extraction.**
 
 **Vendor changes recorded by staff:**
 
@@ -546,9 +556,9 @@ Outdoor **world bosses** (Nerubian Overseer, Ostarius of Uldum, Concavius) are c
 ## 5. Gaps and unclear points
 
 1. **No vendor inventories anywhere.** This is the defining gap. Everything a vendor sells is known only through the item database, which is not extracted. The only stocked items with a price in this whole corpus are the eight rows in §2.
-2. **No coordinates.** Zero X/Y pairs in the entire extraction, for any NPC. The wiki `location` field is a sub-zone name.
+2. **Essentially no coordinates.** One X/Y pair exists in the whole corpus (Stickypaws, Gilneas ~50,39). The wiki `location` field is a sub-zone name and never a coordinate.
 3. **Faction quartermasters for six custom reputations are unnamed** — see `factions.md` §4.
-4. **The Jewelcrafting trainers are unnamed.** The official page names six cities; no wiki NPC page in this extraction is tagged as a Jewelcrafting trainer.
+4. **The Jewelcrafting trainers are named only in a player guide**, not by staff or the wiki: Brandon Fencer and Kalvan Fencer (Stormwind), Farbus Barleymantle and Mayva Togview (Ironforge), Asoran and Kalnag (Orgrimmar), Edgar Tullson and Mayvelle Tonberg (Undercity), Gelpan Rizspark and Tacknazz Copperfire (Sparkwater Port), Gulmire Fartower (Undercity, Expert), Fanzy Sparkspring (Steamwheedle Port, Artisan) — [Speedz1337 (guide writer), 2024-11-04](https://forum.turtlecraft.gg/viewtopic.php?p=106310#p106310). No wiki NPC page in this extraction is tagged as a Jewelcrafting trainer, and the guide's list omits the Alah'Thalas trainer the official page implies.
 5. **Vendor levels look inconsistent** — e.g. a level-3 General Goods vendor next to a level-11 armour merchant in the same hub (Brinthilien), and a level-25 Fruit Vendor beside a level-55 "Exotic Creatures" NPC in Moro'gai Village. These are wiki infobox values, reproduced as given.
 6. **The wiki has two spellings of one Orgrimmar sub-zone** ("Cleft of Shadow" and "Cleft of Shadows"), which splits three trainers across two hub names in the tables above.
 7. **Rare-boss loot is undocumented** for 12 of the 15 outdoor rares, and the staff "named list" from 1.17.0 never appears in the extracted text.
