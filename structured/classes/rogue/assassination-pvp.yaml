@@ -1,0 +1,57 @@
+class: Rogue
+spec: Assassination
+role: pvp
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=153979#p153979", author: Crake, authority: player, date: "2025-10-02"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=154534#p154534", author: Crake, authority: player, date: "2025-10-05"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=154550#p154550", author: Crake, authority: player, date: "2025-10-06"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=154255#p154255", author: Tankmeister, authority: "player (plays the build)", date: "2025-10-03"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=153725#p153725", author: Manletow, authority: player, date: "2025-09-30"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=153923#p153923", author: Grizb37, authority: "player (feral druid)", date: "2025-10-01"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=154789#p154789", author: Snkx, authority: player, date: "2025-10-08"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=174771#p174771", author: Gottabe, authority: player, date: "2026-04-11"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171992#p171992", author: Wosator, authority: "player (feral druid)", date: "2026-03-23"}
+agreement: contested
+patch_validity:
+  written_for: "1.18.0 (live 2025-08-15)"
+  valid_for_1181: false
+  notes: "All damage numbers predate the 1.18.1 nerfs (poison scaling, Taste for Blood, Noxious Assault 30% AP) and the Physical-poison creature-type restriction; Dissolvent-vs-plate advice is superseded since players are not Elementals/Mechanicals/Giants/Undead. No PvP-dampening numbers for Rogue are given by staff in this corpus."
+talents:
+  build_name: "Noxious Assault PvP burst (\"zug\") build"
+  build_link: "same tree shape as assassination-melee-dps.yaml's Noxious Assault build; no PvP-specific link is given"
+  points:
+    - {tree: Assassination, talent: "Noxious Assault", rank: 1, spell_id: null}
+    - {tree: Assassination, talent: Envenom, rank: 1, spell_id: null}
+    - {tree: Assassination, talent: "Seal Fate", rank: 5, spell_id: null}
+    - {tree: Assassination, talent: "no Dirty Deeds, no Preparation (structural weakness of this build)", rank: 0, spell_id: null}
+  leveling_order: []
+stat_weights:
+  weapon_speed: "1.3-speed daggers preferred, same reasoning as the PvE build"
+  hit_crit_agility: "same qualitative priority as PvE; no PvP-specific numeric weights given (gap)"
+caps: {}
+rotation_single:
+  - {priority: 1, action: "Cheap Shot from stealth", condition: "60 energy without Dirty Deeds (this build cannot afford Dirty Deeds/Preparation)"}
+  - {priority: 2, action: "Envenom at 1-2 combo points immediately", condition: "trades combo points away from a full Kidney Shot -- damage vs control choice"}
+  - {priority: 3, action: "Noxious Assault x2, then Kidney Shot at 4 points (4s duration, not 6s)", condition: "during the Cheap Shot stun"}
+  - {priority: 4, action: "Noxious Assault x2 more, then Blind if trinketed", condition: "no Preparation to redo Blind"}
+  - {priority: 5, action: "Thistle Tea", condition: "for one more Noxious Assault inside the stun"}
+  - {priority: 6, action: "Sprint/Vanish out if the target survives at 0 energy", condition: "the build has no follow-up control once energy is spent"}
+rotation_aoe: []
+aoe_threshold: 999
+cooldowns:
+  - {name: "Cheap Shot", use_when: "opener only; this build has no Preparation to reset it"}
+  - {name: Vanish, use_when: "disengage once energy is spent, not a re-opener (no Preparation)"}
+resource_rules:
+  - "Sin'dorei/Assassination energy pool is 110 (talented); a full stunlock combo (Cheap Shot 4s + Kidney 4s = 8s = 4 energy ticks) yields at most 3 Noxious Assaults plus the Kidney, per one player's detailed accounting"
+  - "No Dirty Deeds means Cheap Shot costs the full 60 energy instead of 40"
+  - "Fast auto-attacks that get fully blocked/parried do not proc poisons, and this build has no way around thorns/high-avoidance targets"
+consumables:
+  - "Instant Poison x2 (the only damage poison against player targets post-1.18.1, since Dissolvent/Corrosive no longer apply to players)"
+  - "Thistle Tea"
+mistakes_to_avoid:
+  - "Spending combo points on Envenom then expecting a full-length Kidney Shot"
+  - "Using Dissolvent or Corrosive Poison on players post-1.18.1 (it no longer applies to them)"
+  - "Fighting a target stacking Thorns, Retribution Aura, or Blessing of Sanctuary with fast 1.3-speed weapons"
+  - "Staying in melee range at 0 energy instead of resetting with Sprint/Vanish"
+  - "Expecting this build to provide control comparable to the Subtlety Hemo/Prep build (see subtlety-pvp.yaml)"

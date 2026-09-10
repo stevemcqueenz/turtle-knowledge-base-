@@ -1,0 +1,75 @@
+class: Rogue
+spec: Subtlety
+role: melee-dps
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102971#p102971", author: Dragunovi, authority: staff, date: "2024-10-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460", author: Jamey, authority: staff, date: "2024-12-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504", author: Torta, authority: staff, date: "2025-03-30"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: "2025-07-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=148542#p148542", author: Jinkarasu, authority: "player (plays the spec)", date: "2025-08-27"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=146058#p146058", author: Jinkarasu, authority: "player (plays the spec)", date: "2025-08-16"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=150991#p150991", author: Shananagans, authority: "player (guide writer, self-declared no Subtlety experience)", date: "2025-09-09"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=152935#p152935", author: Asystol, authority: player, date: "2025-09-24"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=152399#p152399", author: Rachdingue, authority: player, date: "2025-09-19"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=148397#p148397", author: Crake, authority: player, date: "2025-08-26"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=126500#p126500", author: Gantulga, authority: player, date: "2025-04-12"}
+agreement: contested
+patch_validity:
+  written_for: "1.18.0 (live 2025-08-15)"
+  valid_for_1181: true
+  notes: "1.18.1 made no Subtlety talent changes at all (confirmed by the absence of a Subtlety section in Jamey's 2026-01-23 post and both revision blocks)."
+talents:
+  build_name: "Dungeon support build"
+  build_link: "https://talents.turtlecraft.gg/rogue?points=Ao-FAAo-FTCYZJQAJKQoB"
+  points:
+    - {tree: Subtlety, talent: Hemorrhage, rank: 1, spell_id: null}
+    - {tree: Subtlety, talent: "Bloody Mess", rank: 2, spell_id: null}
+    - {tree: Subtlety, talent: "Improved Expose Armor", rank: 2, spell_id: null}
+    - {tree: Subtlety, talent: "Tricks of the Trade", rank: 5, spell_id: null}
+    - {tree: Subtlety, talent: "Honor Among Thieves", rank: 2, spell_id: null}
+    - {tree: Subtlety, talent: "Mark for Death", rank: 1, spell_id: null}
+    - {tree: Subtlety, talent: "Shadow of Death", rank: 1, spell_id: null}
+    - {tree: Subtlety, talent: "Cloaked in Shadows", rank: 2, spell_id: null}
+    - {tree: Subtlety, talent: Blackjack, rank: 2, spell_id: null}
+    - {tree: Subtlety, talent: "Serrated Blades", rank: 3, spell_id: null}
+    - {tree: Assassination, talent: Malice, rank: 5, spell_id: null}
+    - {tree: Assassination, talent: Ruthlessness, rank: 3, spell_id: null}
+    - {tree: Assassination, talent: "Relentless Strikes", rank: 1, spell_id: null}
+    - {tree: Combat, talent: Precision, rank: 5, spell_id: null}
+    - {tree: Combat, talent: Opportunity, rank: 5, spell_id: null}
+  leveling_order: []
+stat_weights:
+  hit: "top priority (a missed Hemorrhage or finisher drops the Tricks of the Trade stack chain)"
+  crit: "feeds Honor Among Thieves energy procs"
+  agility_ap: "\"the best stat for Subtlety rogues\" per one rework-proposal poster; not independently measured"
+caps: {}
+rotation_single:
+  - {priority: 1, action: "Garrote opener (Serrated Blades) or none in raids", condition: "if stealth is available"}
+  - {priority: 2, action: Hemorrhage, condition: "the only combo-point builder; keep the debuff on the boss (50 charges / 15s)"}
+  - {priority: 3, action: "Improved Expose Armor, then Slice and Dice, then Tricks-of-the-Trade-refresh finisher", condition: "use a 4-5 point finisher at least every 12 seconds to maintain 2 Tricks stacks"}
+  - {priority: 4, action: "Mark for Death", condition: "on cooldown (8s), aligned with the party's burst cooldowns"}
+  - {priority: 5, action: "Shadow of Death", condition: "5 combo points, during party burst windows; costs 30 energy and drops the Tricks stack"}
+  - {priority: 6, action: "Cloaked in Shadows (Vanish)", condition: "party takes a predictable raid-wide hit; do not expect to restealth"}
+rotation_aoe:
+  - {targets_min: 2, priority: 1, action: "Hemorrhage on each add for the melee group's benefit", condition: "no other AoE tool; Blade Flurry costs energy the spec cannot spare"}
+aoe_threshold: 999
+cooldowns:
+  - {name: Preparation, use_when: "7-min cooldown; resets Vanish (Cloaked in Shadows), Mark for Death, Blind, Sprint for a second support window"}
+  - {name: Vanish, use_when: "support cooldown (Cloaked in Shadows shield), not primarily an aggro drop in this build"}
+resource_rules:
+  - "Baseline energy income ~140 per 12s vs. ~160-170 spent keeping Tricks of the Trade active -- a structural energy deficit per one detailed poster's accounting"
+  - "Honor Among Thieves energy only closes the gap in a full 5-man melee party with high uptime, per the same accounting"
+  - "Relentless Strikes returns 20 energy per 5-point finisher"
+  - "Shadowcraft set's energy-proc bonus is called 'nearly required' for this spec by its main practitioner-source"
+consumables:
+  - "Thistle Tea"
+  - "Instant Poison x2 (generic)"
+  - "Blinding Powder (Blind), Flash Powder (Vanish)"
+mistakes_to_avoid:
+  - "Playing it solo/leveling (support talents require a party)"
+  - "Letting Hemorrhage fall off, or using Sinister Strike/Backstab instead of it"
+  - "Trying to Vanish-stealth mid-fight expecting to stay hidden (Cloaked in Shadows' absorb still breaks stealth)"
+  - "Wasting Tricks of the Trade stacks on Distract/Smoke Bomb/Gouge without a reason"
+  - "Using Smoke Bomb near the raid's own melee (it reduces hit chance for everyone inside, allies included)"
+  - "Expecting a second rogue's Mark for Death to stack (it only refreshes)"

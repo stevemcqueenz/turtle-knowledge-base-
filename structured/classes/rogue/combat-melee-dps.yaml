@@ -1,0 +1,100 @@
+class: Rogue
+spec: Combat
+role: melee-dps
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102971#p102971", author: Dragunovi, authority: staff, date: "2024-10-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460", author: Jamey, authority: staff, date: "2024-12-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: "2025-07-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=153716#p153716", author: Bayanni, authority: player, date: "2025-09-29"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=153721#p153721", author: Bayanni, authority: player, date: "2025-09-30"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149395#p149395", author: Shananagans, authority: "player (guide writer)", date: "2025-08-30"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149434#p149434", author: Shananagans, authority: "player (guide writer)", date: "2025-08-30"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=151497#p151497", author: Shananagans, authority: "player (guide writer)", date: "2025-09-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=151559#p151559", author: Shananagans, authority: "player (guide writer)", date: "2025-09-13"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=55498#p55498", author: Hctwowfan, authority: player, date: "2023-08-01"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108703#p108703", author: Yasara, authority: player, date: "2024-11-19"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=43985#p43985", author: Nightmonster, authority: player, date: "2023-05-01"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=96625#p96625", author: Poxfox, authority: player, date: "2024-06-09"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=151549#p151549", author: Rachdingue, authority: player, date: "2025-09-13"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=128331#p128331", author: Atreidon, authority: player, date: "2025-04-24"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=128330#p128330", author: Stealiebones, authority: player, date: "2025-04-24"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=95023#p95023", author: Gantulga, authority: player, date: "2024-05-17"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=172282#p172282", author: Crake, authority: player, date: "2026-03-25"}
+agreement: contested
+patch_validity:
+  written_for: "1.18.0 (live 2025-08-15), 1.18.1-lowered Opportunity"
+  valid_for_1181: true
+  notes: "1.18.1 only reduced Opportunity (4/8/12/16/20% -> 3/6/9/12/15%) and cut Blade Flurry's energy penalty (30% -> 20%, a buff). No source posts a full build after 2026-01-23; the 2025-09-29 'Bayanni' link predates the announcement. Rotation and gearing logic are otherwise unchanged."
+talents:
+  build_name: "Combat Daggers / Backstab raid build, \"20/31/0\""
+  build_link: "https://talents.turtlecraft.gg/rogue?points=AoYDIoY-FADoCAAoRCCYB-"
+  points:
+    - {tree: Assassination, talent: Malice, rank: 5, spell_id: null}
+    - {tree: Assassination, talent: Ruthlessness, rank: 3, spell_id: null}
+    - {tree: Assassination, talent: "Improved Blade Tactics", rank: 3, spell_id: null}
+    - {tree: Assassination, talent: "Relentless Strikes", rank: 1, spell_id: null}
+    - {tree: Assassination, talent: Lethality, rank: 5, spell_id: null}
+    - {tree: Assassination, talent: "Remorseless Attacks", rank: 2, spell_id: null}
+    - {tree: Assassination, talent: "unspecified (last 2-3 points; gap)", rank: 1, spell_id: null}
+    - {tree: Combat, talent: Opportunity, rank: 5, spell_id: null}
+    - {tree: Combat, talent: "Improved Backstab", rank: 3, spell_id: null}
+    - {tree: Combat, talent: Precision, rank: 5, spell_id: null}
+    - {tree: Combat, talent: "Dual Wield Specialization", rank: 5, spell_id: null}
+    - {tree: Combat, talent: "Close Quarters Combat", rank: 2, spell_id: null}
+    - {tree: Combat, talent: "Blade Rush", rank: 2, spell_id: null}
+    - {tree: Combat, talent: "Weapon Expertise", rank: 2, spell_id: null}
+    - {tree: Combat, talent: Aggression, rank: 3, spell_id: null}
+    - {tree: Combat, talent: "Adrenaline Rush", rank: 1, spell_id: null}
+    - {tree: Combat, talent: "Surprise Attack", rank: 1, spell_id: null}
+    - {tree: Combat, talent: "Improved Sprint (or filler: Deflection/Riposte/Lightning Reflexes/Combat Expertise)", rank: 2, spell_id: null}
+  leveling_order: []
+stat_weights:
+  hit: "top priority to the 9% special-attack cap (vanilla baseline convention used by posters, not a staff number)"
+  weapon_skill: "305-315; pushes misses/glancing blows off the hit table"
+  agility: "high; also reduces time between energy ticks via Blade Rush (measured ~100 agi = 0.1s reduction, single measurement)"
+  crit: "high once hit-capped; watch the crit cap (~28% unbuffed reported at level 57 in dungeon gear, single player figure)"
+  haste: "low; 'equal crit outperforms equal haste' per one poster since haste only affects auto-hits and neither energy regen nor special-attack damage is haste-scaled pre-Blade-Rush"
+  armor_penetration: "very low; \"ARP is a wild card stat that doesn't even do anything in many cases\""
+caps:
+  hit_special_attacks: "9% (vanilla baseline, not a Turtle-confirmed number)"
+  weapon_skill_optimum: "308 (one player's claim, unverified) or 315 (Shananagans' claim, unverified)"
+rotation_single:
+  - {priority: 1, action: "Garrote or Ambush/Cheap Shot opener from stealth", condition: "if the pull allows stealth; raids usually do not"}
+  - {priority: 2, action: Backstab, condition: "the only filler for the dagger build; stay behind the target"}
+  - {priority: 3, action: "Slice and Dice", condition: "keep up at all times, 2-5 combo points"}
+  - {priority: 4, action: "Improved Expose Armor", condition: "only if no warrior is maintaining Sunder Armor"}
+  - {priority: 5, action: Rupture, condition: "5 combo points, long fights"}
+  - {priority: 6, action: Eviscerate, condition: "5 combo points, target will die before Rupture pays off or target is bleed-immune"}
+  - {priority: 7, action: "Surprise Attack", condition: "whenever available (after a dodge); macro it ahead of the builder"}
+  - {priority: 8, action: "Sinister Strike (Swords/Axes/Maces variant)", condition: "replaces Backstab 1:1 for the non-dagger build"}
+rotation_aoe:
+  - {targets_min: 2, priority: 1, action: "toggle Blade Flurry on", condition: "2+ targets; it is the class's only cleave"}
+  - {targets_min: 2, priority: 2, action: "toggle Blade Flurry off", condition: "as soon as only one target remains (-20% damage, -20% energy regen while active)"}
+  - {targets_min: 4, priority: 1, action: "same as 2-3 targets; no additional tools", condition: "rogue has no true AoE; accept low parses"}
+aoe_threshold: 2
+cooldowns:
+  - {name: "Adrenaline Rush", use_when: "on pull once Slice and Dice/Expose Armor are up, and on every cleave pack with Blade Flurry (3-min cooldown)"}
+  - {name: "Blade Flurry", use_when: "a toggle, not a cooldown; on for 2+ targets, off for single target"}
+  - {name: Vanish, use_when: "second trinket-proc window in raids, or aggro reset"}
+  - {name: "Evasion / Sprint", use_when: "4-min baseline cooldown each since Class Changes 2; defensive/repositioning"}
+resource_rules:
+  - "Baseline energy: 20 per 2 seconds"
+  - "Relentless Strikes returns 20 energy on 5-point finishers"
+  - "Blade Rush (Combat row 6) reduces time between energy ticks by an amount tied to Agility (unverified formula, ~100 agi = 0.1s per one measurement)"
+  - "Darkmantle 4-piece set bonus procs bonus energy on melee hits"
+  - "Do not apply a combo-point builder to an add; it wipes the boss's combo points (combo points persist per target since CC2, but only within a single target's pool)"
+consumables:
+  - "Instant Poison x2 (or weapon stones for Naxx undead content -- unresolved, see gaps)"
+  - "Thistle Tea"
+  - "Mongoose / jujus / food buffs"
+  - "Oil of Immolation or Dragonbreath Chili for pack padding"
+  - "Free Action Potion / Restorative Potion for mechanics"
+mistakes_to_avoid:
+  - "Using Sinister Strike or Ghostly Strike with daggers instead of Backstab"
+  - "Forgetting to keep Slice and Dice up"
+  - "Leaving Blade Flurry on during single target, or toggling it with a single spam macro instead of separate on/off macros"
+  - "Applying a combo-point builder to an add, wiping the boss's combo points"
+  - "Stacking crit before reaching the hit cap"
+  - "Using Blade Flurry while leveling/under-geared (energy starvation until roughly 800 agility)"
+  - "Expecting to out-parse well-played Warriors pre-1.18.0 (an ~18% gap was reported in March 2025) or bragging about parses that exclude Warriors"

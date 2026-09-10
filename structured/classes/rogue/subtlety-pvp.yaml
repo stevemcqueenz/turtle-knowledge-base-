@@ -1,0 +1,71 @@
+class: Rogue
+spec: Subtlety
+role: pvp
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=153977#p153977", author: Crake, authority: player, date: "2025-10-02"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=154550#p154550", author: Crake, authority: player, date: "2025-10-06"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=162679#p162679", author: Shananagans, authority: "player (guide writer, theory)", date: "2025-12-13"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=139302#p139302", author: Caesa, authority: player, date: "2025-07-14"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=119499#p119499", author: amanagor, authority: player, date: "2025-02-10"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=119497#p119497", author: FrankFankledank, authority: player, date: "2025-02-10"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831", author: Brisspvp, authority: player, date: "2024-12-16"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=46112#p46112", author: Muffanzo, authority: player, date: "2023-05-16"}
+agreement: contested
+patch_validity:
+  written_for: "1.18.0 (live 2025-08-15)"
+  valid_for_1181: true
+  notes: "1.18.1 changed no Subtlety talent and only lowered Opportunity (used by the Ambush/Backstab dagger PvP variant) at its max rank; a post-1.18.1 report (2026-04-11) still describes the same hemo/envenom and dagger builds, so the split documented here is unchanged."
+talents:
+  build_name: "Hemo/Prep control build"
+  build_link: "https://talents.turtlecraft.gg/rogue?points=YoaAKADYYI--FLCYYBCARC"
+  points:
+    - {tree: Subtlety, talent: Hemorrhage, rank: 1, spell_id: null}
+    - {tree: Subtlety, talent: "Bloody Mess", rank: 2, spell_id: null}
+    - {tree: Subtlety, talent: "Dirty Deeds", rank: 1, spell_id: null}
+    - {tree: Subtlety, talent: Initiative, rank: 3, spell_id: null}
+    - {tree: Subtlety, talent: "Blackjack / Improved Sap", rank: 2, spell_id: null}
+    - {tree: Subtlety, talent: Preparation, rank: 1, spell_id: null}
+    - {tree: Combat, talent: "Improved Sprint", rank: 2, spell_id: null}
+    - {tree: Subtlety, talent: Elusiveness, rank: 2, spell_id: null}
+  leveling_order: []
+talents_alt:
+  build_name: "Ambush/Backstab dagger PvP build"
+  build_link: "https://talents.turtlecraft.gg/rogue?points=-FQDYCDQAQB-FDaYDISABIQ"
+stat_weights:
+  stamina: "high (PvP BiS list is Tier-3/3.5 heavy)"
+  hit: "to not miss openers"
+  crit: "for Ambush"
+  agility: "generic"
+  stealth_level_detection: "situational gear swaps for the opener war (see gear list); no numeric weights given anywhere (gap)"
+caps: {}
+rotation_single:
+  - {priority: 1, action: "Approach from behind in stealth; Distract a turning mob/target; Sap a secondary target first if using Blackjack", condition: "opener setup"}
+  - {priority: 2, action: "Cheap Shot (40 energy with Dirty Deeds, 3 combo points with Initiative)", condition: "Hemo/Prep build opener"}
+  - {priority: 3, action: "Hemorrhage x1-2, then Kidney Shot at 5 points", condition: "Hemo/Prep build; full 5-point Kidney reliably achievable per one detailed source"}
+  - {priority: 3, action: "Ambush, then Gouge, then Backstab, then Kidney/Eviscerate", condition: "Ambush/Backstab dagger build alternative"}
+  - {priority: 4, action: "Thistle Tea", condition: "extra builder inside the stun"}
+  - {priority: 5, action: "Blind (or bandage/restealth via Improved Gouge) if the target trinkets", condition: "re-open; Preparation can redo Blind/Vanish/Sprint on the Hemo/Prep build"}
+  - {priority: 6, action: "Instant or Instant/Crippling poisons only; never a DoT poison or Rupture on a target you plan to CC", condition: "always"}
+rotation_aoe: []
+aoe_threshold: 999
+cooldowns:
+  - {name: Preparation, use_when: "7-min cooldown; resets Vanish/Blind/Sprint/Cold Blood for a second full engagement (Hemo/Prep build only)"}
+  - {name: "Vanish", use_when: "disengage or re-opener; useless if used while already in melee range (breaks you out immediately)"}
+  - {name: "Cold Blood", use_when: "guarantee a crit on the opener, per the older pre-CC2 build notes"}
+resource_rules:
+  - "Combo points persist per target since Class Changes 2; a second target no longer wipes the first target's points"
+  - "Off-hand poison procs are intentionally rarer than main-hand procs"
+  - "Cleanse DoTs/poisons before Vanishing (Restorative Potion, Anti-Venom, Elixir of Poison Resistance, Jungle Remedy; Dwarves get Stoneform)"
+consumables:
+  - "Instant Poison main hand + Crippling Poison off hand (default PvP loadout)"
+  - "Mind-numbing Poison vs casters"
+  - "Wound Poison vs healers"
+  - "Free Action Potion, Insignia, Restorative Potion, Catseye Elixir, Thistle Tea"
+  - "Sweet 'N Crunchy Fruit Bread (5-min shared cooldown with Poisonous Mushroom since 2026-01-20)"
+mistakes_to_avoid:
+  - "Fighting in the mid-field zerg instead of playing objectives (flag rooms, ninja caps, EFC hunting)"
+  - "Opening on ferals, paladins, or geared warriors with their cooldowns already up"
+  - "Applying a DoT poison or Rupture to a target you need to Blind/Gouge/Sap"
+  - "Vanishing while still in melee range or with DoTs ticking on you"
+  - "Assuming stealth hides you at short range against players (detection-tick jank; see leveling.md)"
+  - "Expecting the Noxious Assault PvP build (assassination-pvp.yaml) to provide equivalent control"

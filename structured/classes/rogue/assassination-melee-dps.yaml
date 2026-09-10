@@ -1,0 +1,100 @@
+class: Rogue
+spec: Assassination
+role: melee-dps
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102971#p102971", author: Dragunovi, authority: staff, date: "2024-10-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460", author: Jamey, authority: staff, date: "2024-12-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504", author: Torta, authority: staff, date: "2025-03-30"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: "2025-07-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168", author: Torta, authority: staff, date: "2025-10-03"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149679#p149679", author: Shananagans, authority: "player (guide writer)", date: "2025-09-01"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=162667#p162667", author: Shananagans, authority: "player (guide writer)", date: "2025-12-13"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=158547#p158547", author: Sslushee, authority: player, date: "2025-11-06"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=159106#p159106", author: Sslushee, authority: player, date: "2025-11-10"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=159151#p159151", author: Crake, authority: player, date: "2025-11-11"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=157229#p157229", author: Crake, authority: player, date: "2025-10-27"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=148372#p148372", author: Jinkarasu, authority: player, date: "2025-08-26"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=127477#p127477", author: Finpin, authority: player, date: "2025-04-19"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171651#p171651", author: Microtwist, authority: player, date: "2026-03-21"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=172282#p172282", author: Crake, authority: player, date: "2026-03-25"}
+agreement: contested
+patch_validity:
+  written_for: "1.18.0 (live 2025-08-15)"
+  valid_for_1181: false
+  notes: "1.18.1 (2026-01-23, revised 2026-03-19) cut poison AP scaling at low ranks, weakened and reworked Taste for Blood (no longer buffs Corrosive/Dissolvent, now a 2-point talent), cut Noxious Assault AP scaling 35%->30%, and restricted Corrosive/Dissolvent Poison to Elementals/Mechanicals/Giants/Undead only. No post-1.18.1 build or rotation revision exists in the corpus; the thread 'Assa build is dead 4 raiding in patch 1.18.1?' is unresolved argument, not a fix."
+talents:
+  build_name: "Noxious Assault raid/dungeon build (main variant, Eviscerate filler)"
+  build_link: "https://talents.turtlecraft.gg/rogue?points=YoYDIoDYZIQoB-AoAoC-"
+  points:
+    - {tree: Assassination, talent: Malice, rank: 5, spell_id: null}
+    - {tree: Assassination, talent: Ruthlessness, rank: 3, spell_id: null}
+    - {tree: Assassination, talent: "Improved Blade Tactics", rank: 3, spell_id: null}
+    - {tree: Assassination, talent: "Relentless Strikes", rank: 1, spell_id: null}
+    - {tree: Assassination, talent: Lethality, rank: 5, spell_id: null}
+    - {tree: Assassination, talent: "Vile Poisons", rank: 3, spell_id: null}
+    - {tree: Assassination, talent: "Improved Poisons", rank: 3, spell_id: null}
+    - {tree: Assassination, talent: "Efficient Poisons", rank: 3, spell_id: null}
+    - {tree: Assassination, talent: Envenom, rank: 1, spell_id: null}
+    - {tree: Assassination, talent: Vigor, rank: 2, spell_id: null}
+    - {tree: Assassination, talent: "Noxious Assault", rank: 1, spell_id: null}
+    - {tree: Assassination, talent: "Taste for Blood (contested; 0 in the main build, taken in the Rupture variant; post-1.18.1 is a 2-point talent)", rank: 0, spell_id: null}
+    - {tree: Assassination, talent: "Seal Fate (contested by gear: 5/5 low-crit, 0/5 and Dual Wield Specialization instead once ~40% crit)", rank: 5, spell_id: null}
+    - {tree: Combat, talent: Precision, rank: 5, spell_id: null}
+    - {tree: Combat, talent: "Dual Wield Specialization (alternative to Seal Fate at high crit)", rank: 5, spell_id: null}
+    - {tree: Combat, talent: "Improved Sprint", rank: 0, spell_id: null}
+    - {tree: Subtlety, talent: "Improved Expose Armor (only if no warrior is sundering)", rank: 0, spell_id: null}
+  leveling_order:
+    - {level: 40, tree: Assassination, talent: "Noxious Assault (respec point; earliest viable full send into this spec)"}
+    - {level: 43, tree: Combat, talent: "Precision available; some posters wait to the 50s instead"}
+    - {level: 48, tree: Assassination, talent: Envenom}
+    - {level: 52, tree: Assassination, talent: Vigor}
+    - {level: 58, tree: Assassination, talent: "Seal Fate (respec target for many posters)"}
+stat_weights:
+  weapon_speed: "top priority: 1.3-1.4 speed daggers on both hands; Noxious Assault deals flat % of Attack Power regardless of weapon speed/damage, so faster weapons only add more auto-attack poison procs, not less damage"
+  hit: "to the content's cap; ~4-5% for dungeons, ~9% (vanilla-baseline convention) implied for raids"
+  crit_agility: "high, feeds Seal Fate when specced; poisons themselves do not crit per player reports (unconfirmed by staff)"
+  haste: "diminishing returns once under ~1.0s effective dagger speed with Slice and Dice; one player reports negligible gain from an extra 3% haste ring at that point"
+  attack_power: "lowest priority per the spec's own guide-writer (\"Attack power is at the bottom of my list\")"
+caps:
+  hit_dungeon: "4-5% (single source, non-raid content)"
+  crit_seal_fate_threshold: "~40% crit before Seal Fate outperforms Dual Wield Specialization (single player estimate)"
+rotation_single:
+  - {priority: 1, action: "Opener (any combo-point generator; Cheap Shot in dungeons/solo, Garrote/Ambush on bosses)", condition: "skip stun openers on stun-immune bosses; skip Garrote on non-bleeding targets"}
+  - {priority: 2, action: "Envenom at 1 combo point", condition: "pop immediately once you have 1+ combo points; do not wait for 5"}
+  - {priority: 3, action: "Slice and Dice at 1 point", condition: "off the Ruthlessness-granted point after Envenom"}
+  - {priority: 4, action: "Noxious Assault", condition: "the only combo-point builder used; ~10-12s to reach 5 points from empty"}
+  - {priority: 5, action: "Refresh whichever of Envenom/Slice and Dice has 1-2s left", condition: "keep the two buffs desynchronised by roughly 10-12s so they never expire together"}
+  - {priority: 6, action: "Rupture or Eviscerate at 3-5 points", condition: "only when both Envenom and Slice and Dice have more than 10s remaining"}
+  - {priority: 7, action: "Pool energy; do not dump at low energy", condition: "always"}
+rotation_aoe:
+  - {targets_min: 2, priority: 1, action: "do not toggle Blade Flurry in this spec by default", condition: "costs 20% energy regen (30% pre-1.18.1) and 20% damage, starving Vigor/Noxious Assault"}
+  - {targets_min: 2, priority: 2, action: "tab Noxious Assault between two targets", condition: "only if both targets will live long enough to keep poisons ticking"}
+  - {targets_min: 4, priority: 1, action: "no rogue AoE exists; pad with consumables (Oil of Immolation, Dragonbreath Chili)", condition: "staff has said true AoE will not be added"}
+aoe_threshold: 999
+cooldowns:
+  - {name: Vanish, use_when: "offensive re-opener / trinket swap; never use offensively while solo (resets the mob to full health)"}
+  - {name: "Thistle Tea", use_when: "burst energy when both buffs need refreshing at once"}
+resource_rules:
+  - "Baseline energy: 20 per 2 seconds"
+  - "Vigor: 100% chance to gain 2 energy per poison application (no internal cooldown since 1.18.0)"
+  - "Relentless Strikes returns 20 energy on 5-point finishers"
+  - "Darkmantle 4-piece and Stormshroud 4-piece set procs both restore energy; stacking both is the guide-writer's stated gearing goal"
+  - "Fast daggers burn poison charges quickly; carry spare poisoned weapons and a weapon-swap macro, or reapply between pulls"
+consumables:
+  - "Instant Poison x2 (default vs any target that is not Elemental/Mechanical/Giant/Undead)"
+  - "Dissolvent Poison x2 (or Dissolvent+Corrosive) vs Elementals/Mechanicals/Giants/Undead only, post-1.18.1"
+  - "Deadly Poison on bosses / Instant on trash (pre-1.18.0 advice, superseded by the double-Instant consensus for the Noxious Assault build)"
+  - "Thistle Tea"
+  - "Oil of Immolation, Dragonbreath Chili for AoE padding"
+mistakes_to_avoid:
+  - "Using slow, high-damage-range daggers out of Combat-spec habit instead of the fastest available"
+  - "Letting Envenom or Slice and Dice drop, or refreshing both at the same time so they expire together"
+  - "Waiting for 5 combo points before the first Envenom"
+  - "Running Deadly/Corrosive with fast daggers (the 5-stack cap on Deadly wastes procs)"
+  - "Running Dissolvent/Corrosive on anything but Elemental/Mechanical/Giant/Undead post-1.18.1 (they do not apply)"
+  - "Toggling Blade Flurry on and forgetting about the energy drain"
+  - "Running out of poison charges mid-fight without spares"
+  - "Using DoT poisons or Rupture on a target you intend to Gouge/Blind/Sap"
+  - "Ignoring hit chance (missing negates poison-application chances)"
+  - "Spamming abilities at low energy instead of pooling"

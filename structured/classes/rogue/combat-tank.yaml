@@ -1,0 +1,67 @@
+class: Rogue
+spec: Combat
+role: tank
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=13766#p13766", author: Dragunovi, authority: staff, date: "2021-11-11"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251", author: Torta, authority: staff, date: "2022-07-24"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868", author: Torta, authority: staff, date: "2023-01-21"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=52323#p52323", author: Jamey, authority: staff, date: "2023-07-05"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=97844#p97844", author: Torta, authority: staff, date: "2024-06-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=134147#p134147", author: Torta, authority: staff, date: "2025-06-03"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=169965#p169965", author: Shadowsong, authority: staff, date: "2026-03-03"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=45534#p45534", author: Trismegistos, authority: "player (active rogue tank, SM through BWL)", date: "2023-05-11"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=55820#p55820", author: Trismegistos, authority: "player (active rogue tank)", date: "2023-08-04"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=167928#p167928", author: Lomikare1, authority: "player (several years as rogue tank)", date: "2026-02-11"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=55641#p55641", author: Hodenmaik, authority: player, date: "2023-08-03"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=25185#p25185", author: Xudo, authority: "player (warrior tank)", date: "2022-09-16"}
+agreement: contested
+patch_validity:
+  written_for: "pre-Class Changes 2 (before 2024-10-12)"
+  valid_for_1181: unknown
+  notes: "Every build/gear list predates Class Changes 2 (2024-10-12), which removed Setup from Subtlety, removed Sleight of Hand and Endurance, and reshuffled Combat -- no post-CC2 tank build exists in the corpus. Nothing in 1.18.0/1.18.1 directly changed Flourish or Agitating Poison except charge-count fixes (2026-03-03). Status as of the 1.18.1 era is a small, contested niche kept alive by a handful of players; staff has repeatedly signalled this is not an intended tank role."
+talents:
+  build_name: "Rogue tank (pre-CC2 talent codes; opaque, not decoded)"
+  build_link: "https://forum.turtlecraft.gg/viewtopic.php?t=8636 (see also codes cited in combat-tank.md: Trismegistos 0X36I-2UZD251UC6 / 0X36IO-2UZ1051UC6; Bloodphobos 0X26-2UZ105V-UE66 / 0X36IU-2UZ1051OC6 / 0X36U-2UZD051UC6 / 0X38UV5-2UZ1021; Jadowsofel 2RF60U-2UZD021UC6)"
+  points: []
+  leveling_order: []
+stat_weights:
+  avoidance: "top priority: dodge, parry, defense (before Flourish's finisher-granted +20% parry can push avoidance high enough to matter)"
+  stamina: "second priority, for the swings that do land"
+  threat_stats: "hit, agility, weapon skill (drives poison procs for Agitating Poison threat)"
+  resistance: "situational, for caster-capable targets"
+caps:
+  avoidance_target: "~102% avoidance with Evasion up to avoid crushing blows (vanilla-baseline tanking convention, not a staff number); one theorycraft post estimated 70% avoidance at mediocre gear with Flourish talented, 85-90% at good gear"
+  agitating_poison_level: "60 (baseline poison, no lower ranks -- a frequently repeated player complaint)"
+rotation_single:
+  - {priority: 1, action: "Agitating Poison on main hand (and off-hand, or via Deadly Throw + Throwing Weapon Specialization for a ranged pull)", condition: "pre-pull"}
+  - {priority: 2, action: "Slice and Dice and Flourish up from stealth", condition: "pre-pull, if possible"}
+  - {priority: 3, action: "1-2 combo points then spend on Flourish/Slice and Dice refresh, or a 2-second Kidney Shot to stop a runner", condition: "single boss target; do not hoard combo points"}
+  - {priority: 4, action: "Riposte on every parry", condition: "threat + disarm proc"}
+  - {priority: 5, action: "Sinister Strike as filler builder; Ghostly Strike for +dodge windows", condition: "always"}
+  - {priority: 6, action: "Evasion", condition: "unhittable-by-melee cooldown for the most dangerous swing window (15s, 4-min cooldown)"}
+  - {priority: 7, action: "hand off poison-immune targets", condition: "Agitating Poison (Nature) generates no threat on poison-immune mobs"}
+rotation_aoe:
+  - {targets_min: 2, priority: 1, action: "change targets every 1-2 combo points to spread Agitating Poison procs across the pack", condition: "combo points persist per target since CC2, softening but not solving the crowd-tanking problem"}
+  - {targets_min: 2, priority: 2, action: "toggle baseline Blade Flurry (since 1.18.0) for a second target", condition: "-20% energy regeneration while active"}
+aoe_threshold: 2
+cooldowns:
+  - {name: Flourish, use_when: "the core mitigation finisher; capped at a 40-second cooldown since 1.17.0 specifically to prevent permanent avoidance uptime -- plan pulls around it"}
+  - {name: Evasion, use_when: "4-min baseline cooldown (3.5 min with the old, now-removed Endurance talent); save for the most dangerous swing"}
+  - {name: Riposte, use_when: "not a cooldown, only usable after a parry; bonus threat/disarm"}
+  - {name: Vanish, use_when: "genuine emergency aggro reset only"}
+resource_rules:
+  - "Threat comes from Agitating Poison procs (Nature damage + threat) and auto-attack/Sinister Strike weapon damage, not from a dedicated threat multiplier"
+  - "Engineering grenades and target dummies fill area-threat gaps but drop the rogue's dodge/parry chance to 0% during the cast"
+  - "No taunt and no on-demand threat cooldown exists for this build"
+consumables:
+  - "Agitating Poison (both weapons where possible)"
+  - "Scorpok / agility elixirs"
+  - "Armor and stamina flasks/elixirs"
+  - "Engineering grenades and target dummies"
+mistakes_to_avoid:
+  - "Attempting raid bosses that stun, fear, taunt-swap, or are poison-immune"
+  - "Standing in front of casters expecting avoidance to help against spell damage"
+  - "Casting a grenade while being hit (avoidance drops to 0% for the cast duration)"
+  - "Relying on Flourish being up constantly (40-second cooldown)"
+  - "Assuming the April Fools 'baseline +50% threat' patch note was real"
+  - "Volunteering for tank-swap fights or crowd-tanking packs (single-target combo points make this unviable)"

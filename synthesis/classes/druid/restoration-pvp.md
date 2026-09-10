@@ -1,0 +1,50 @@
+# Druid — Restoration PvP (battleground/arena healer)
+
+PvP-specific playbook for Restoration Druid, split out because the forum treats "can a Resto druid survive a Rogue" as its own extensively-discussed topic distinct from PvE healing. Sources are **medium**: one long (31-post), detailed thread anchors most of the tactical advice, corroborated by several shorter threads and the general PvP-standing complaints.
+
+## Overview
+
+- **Role**: point/flag defense healer and off-healer in battlegrounds and 2v2/3v3 arena; expected to survive burst from stealth classes long enough for peels or to disengage, not to solo-win fights.
+- **Standing — consensus negative, especially vs. Rogues**: "There is no chance for solo surviving same geared rogue as resto druid. Druids hasn't any form of control against rogue and cant heal because just stuck in bear form. Even tree cant help... Rogues are totally broken atm" — [Aristany (player), 2025-10-21](https://forum.turtlecraft.gg/viewtopic.php?p=156423#p156423). "TL;DR No, you won't survive, even in res gear" against an Envenom-specced Rogue, even playing the full defensive sequence perfectly — [Turboman (player), 2025-10-27](https://forum.turtlecraft.gg/viewtopic.php?p=157409#p157409). Post-1.18.1: "Just accept your fate that you are just a pinata for other classes to feast on you... resto and feral are just garbage" — [Wosator (player), 2026-03-23](https://forum.turtlecraft.gg/viewtopic.php?p=171999#p171999). One rogue-perspective counter-argument frames this as working as intended: "Rogues have essentially no aoe and no range, and are the worst class in the game by a 1000 miles when caught out of stealth... How exactly would you balance the scenario given the full scope of the game?" — [Scelus12 (player), 2025-10-20](https://forum.turtlecraft.gg/viewtopic.php?p=156346#p156346).
+- **Content**: Battleground point/graveyard/flag defense (viable with team support), 2v2/3v3 arena (reported as very difficult solo — see Rotation/tactics), open-world ganking survival (weak vs. Rogues specifically).
+
+## Talent build
+
+**No dedicated Resto-PvP point list found in sources** (gap) — the general Restoration talent guidance in `restoration-healer.md` applies, adjusted for survivability:
+
+- A **4-piece PvP set bonus is treated as mandatory regardless of overall gear level**, specifically for its movement-speed component: "4 piece is kinda crucial to survive. I would always use 4 piece pvp set even if you have better gear. The speed bonus will save your life MANY times" — [Frantsel (player), 2025-10-21](https://forum.turtlecraft.gg/viewtopic.php?p=156428#p156428); "the R13 pvp set 3p bonus is a must for any druid spec" — [Turboman (player), 2025-10-27](https://forum.turtlecraft.gg/viewtopic.php?p=157409#p157409) (two different set-bonus thresholds cited by two players — **not reconciled in sources**).
+
+## Stat priority
+
+- **Stamina over Resilience, per one detailed report**: "Focus on stamina gear over anything else" — [Frantsel (player), 2025-10-21](https://forum.turtlecraft.gg/viewtopic.php?p=156428#p156428); a fully Kara-geared, all-stam-enchanted, titan-flasked player still couldn't survive an Envenom rogue's opener even with a perfect defensive sequence, concluding "resilience won't save you btw" — [Turboman (player), 2025-10-27](https://forum.turtlecraft.gg/viewtopic.php?p=157409#p157409). **Contested/unresolved** whether Resilience is simply undervalued in these reports or genuinely weak against the specific burst discussed (Dissolvent Poison damage, separately flagged as likely to be hotfixed — [marvian (player), 2025-10-27](https://forum.turtlecraft.gg/viewtopic.php?p=157341#p157341)).
+- **Stealth detection stacking** (situational, not a raw combat stat but relevant to avoiding openers): Catseye Goggles (+18), Catseye Elixir (+10), the Druid PvP-rank gloves (+10, `https://database.turtlecraft.gg/?item=16448`), and the "Dyad of Twitching Elf Ears" (+10) sum to roughly +58 stealth detection, "just over perception which is +50"; teaming with a Human Warlock running Paranoia can push this over +100 — [Blackduck4 (player), 2025-10-27](https://forum.turtlecraft.gg/viewtopic.php?p=157346#p157346).
+
+## Rotation / tactics
+
+A full defensive opener sequence against a Rogue (single detailed source, **contested — even executed perfectly it reportedly still loses to a geared Envenom rogue**):
+
+> "LAP, fairy fire, NG, Barkskin, rejuv, motw-regrowth (optional), moonfire/swarm and then create distance. I also keep crunchy bread for blind removal... Problem is — even if i perform this line of counter actions perfectly — the rogue (envenom one) can simply outdamage everything i do." — [Turboman (player), 2025-10-27](https://forum.turtlecraft.gg/viewtopic.php?p=157464#p157464)
+
+1. Pre-shield/pre-HoT before an expected engagement if possible (Rejuvenation, Barkskin).
+2. **Save the PvP trinket specifically for the Kidney Shot**, not the opening Cheap Shot/Ambush stun — "save trinket for kidney-shot" is the repeated, agreed-on answer — [Scelus12 (player), 2025-10-20](https://forum.turtlecraft.gg/viewtopic.php?p=156369#p156369); confirmed by [Thaladar (player), 2025-10-20](https://forum.turtlecraft.gg/viewtopic.php?p=156353#p156353). Caveat: post-1.18.1, trinketing the Kidney Shot lets the Rogue immediately Blind and reset instead, since Blind became a physical (non-magic) debuff and can no longer be cleared by Abolish Poison after trinketing — [Isvya (player), 2025-10-27](https://forum.turtlecraft.gg/viewtopic.php?p=157381#p157381).
+3. **Shift to Bear Form** as soon as a Rogue engagement is expected or in progress — repeatedly cited as close to mandatory: "you need to be in bearform no matter what or you're dead" — [Thaladar (player), 2025-10-20](https://forum.turtlecraft.gg/viewtopic.php?p=156345#p156345); "Be in bearform or stealth if you expect to be attacked" — [Frantsel (player), 2025-10-21](https://forum.turtlecraft.gg/viewtopic.php?p=156428#p156428). Trade-off: Bear Form locks out healing, so this is a survive-then-disengage tool, not a way to win the fight.
+4. Use Feral Charge to stun and create separation, or Nature's Grasp/roots if the Rogue is chasing after Sprint — [Frantsel (player), 2025-10-21](https://forum.turtlecraft.gg/viewtopic.php?p=156428#p156428).
+5. Demoralizing Roar can pull a stealthed Rogue out of stealth pre-emptively — [Xudo (player), 2025-10-20](https://forum.turtlecraft.gg/viewtopic.php?p=156325#p156325).
+6. **Do not expect to solo-survive** — "not be alone" (grouping with allies who will peel) is explicitly called good advice specifically because a healer's team has a strong incentive to protect it — [Xudo (player), 2025-10-21](https://forum.turtlecraft.gg/viewtopic.php?p=156405#p156405).
+7. In arena specifically, expect layered CC (Blind chains, engineering Scare Beast/FAP bombs) once an opponent adapts past a first attempt — "he even resorted to using FAP + scare beast engi bombs to force me into being CCd, whereby he had 2x blinds on the ready should I use trinket to help heal my allies" — [Thaladar (player), 2025-10-27](https://forum.turtlecraft.gg/viewtopic.php?p=157335#p157335), who concluded 2v2 arena as Resto felt "completely unwinnable" against a competent Rogue.
+
+## Common mistakes
+
+- Fighting in caster form against a Rogue instead of shifting to Bear at the first sign of an engagement.
+- Trinketing the opening stun instead of saving it for Kidney Shot.
+- Assuming Resilience alone solves Rogue burst — multiple detailed reports say it doesn't, at least against Envenom-spec Rogues in the sources' gear range.
+- Queuing solo into arena as Restoration without a coordinated partner who can peel.
+- Skipping the 3-4 piece PvP set bonus in favor of higher-item-level PvE pieces — the set's speed/survivability bonus is reported as more valuable than the raw stat upgrade.
+
+## Sources
+
+| Post | Author (authority) | Date | Era | Agreement |
+|---|---|---|---|---|
+| [p156270](https://forum.turtlecraft.gg/viewtopic.php?p=156270#p156270)–[p157464](https://forum.turtlecraft.gg/viewtopic.php?p=157464#p157464) (t=22495, 31 posts) | Thaladar, Manletow, Xudo, Scelus12, Aristany, Frantsel, marvian, Blackduck4, Isvya, Turboman (players) | 2025-10-20/28 | 1.18.1-announced-pre-release | consensus — Rogue-vs-Resto survival, detailed and extensively discussed |
+| [p171999](https://forum.turtlecraft.gg/viewtopic.php?p=171999#p171999) | Wosator (player) | 2026-03-23 | post-1.18.1 | single source — post-1.18.1 standing |
+| `synthesis/1.18.1-master-changelog.md` §Druid | — (compiled from staff posts) | — | — | official changelog compilation (no Restoration-PvP-specific 1.18.1 change found; the Blind-becomes-physical-debuff change referenced above is a general PvP-system change, not Druid-specific, and is not itself confirmed in the master changelog's Druid section) |
