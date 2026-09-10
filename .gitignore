@@ -1,0 +1,4 @@
+scrape/STOP
+scrape/crawl.log
+scrape/status.json.tmp
+__pycache__/
