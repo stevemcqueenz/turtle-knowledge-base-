@@ -1,0 +1,6376 @@
+{
+ "A Dark Tide Will Rise": {
+  "category": "Balor",
+  "end_npc": [],
+  "experience": "2800",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "31",
+  "name": "A Dark Tide Will Rise",
+  "next": [
+   "To My Father, Vol'jin"
+  ],
+  "objectives": "Slay 5 Muckgill Hunter, 7 Muckgill Murloc and the Sea Herald and return to O'jin in Stormbreaker Point.\n- [Muckgill Hunter](Muckgill Hunter) slain (5)\n- [Muckgill Murloc](Muckgill Murloc) slain (7)\n- [Sea Herald](Sea Herald) slain\n- [Soaked Scroll](Soaked Scroll)",
+  "patch": "1.18.0",
+  "previous": [],
+  "quest_id": 41819,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/A_Dark_Tide_Will_Rise",
+  "start_npc": [
+   "O'jin"
+  ],
+  "type": null
+ },
+ "A Dryad's Counsel": {
+  "category": "Moonwhisper Coast",
+  "end_npc": [
+   "Sister Mirallun"
+  ],
+  "experience": "1120",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "54",
+  "name": "A Dryad's Counsel",
+  "next": [
+   "The Rot of Elun'aran"
+  ],
+  "objectives": "Speak with Sister Mirallun in the Grove of the Sun on the Isle of Tyrandas.",
+  "patch": "1.18.1",
+  "previous": [
+   "The Moth's Heresy"
+  ],
+  "quest_id": 42095,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/A_Dryad%27s_Counsel",
+  "start_npc": [
+   "Arch Druid Renethra Moonwater"
+  ],
+  "type": null
+ },
+ "A Familiar Disturbance": {
+  "category": "Azshara",
+  "end_npc": [
+   "Elder Krasheen"
+  ],
+  "experience": "1200",
+  "faction": "Neutral",
+  "is_turtle_content": true,
+  "level": "52",
+  "name": "A Familiar Disturbance",
+  "next": [
+   "Homecoming"
+  ],
+  "objectives": "Travel to Moonwhisper Coast north of Azshara and locate the shimmering lake.",
+  "patch": "1.18.1",
+  "previous": [
+   "Rift Fatigue: Mind",
+   "Rift Fatigue: Body"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/A_Familiar_Disturbance",
+  "start_npc": [
+   "Akh Z'ador"
+  ],
+  "type": null
+ },
+ "A Favor for Mally": {
+  "category": "Durotar",
+  "end_npc": [],
+  "experience": "920",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "14",
+  "name": "A Favor for Mally",
+  "next": [
+   "Information for Thrall"
+  ],
+  "objectives": "Gather 3 Vials of Sunscale Blood for Mally O'Flor at Ratchet in the Barrens for the information Thrall seeks. \n- [Vial of Sunscale Blood](Vial of Sunscale Blood) (3)",
+  "patch": "1.16.4",
+  "previous": [
+   "The Balance of Power"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/A_Favor_for_Mally",
+  "start_npc": [
+   "Mally O'Flor"
+  ],
+  "type": null
+ },
+ "A Grave Misunderstanding!": {
+  "category": "Frostmane Hollow",
+  "end_npc": [],
+  "experience": "910",
+  "faction": "Neutral",
+  "is_turtle_content": true,
+  "level": "13",
+  "name": "A Grave Misunderstanding!",
+  "next": [],
+  "objectives": "Recover the Tablet of Kaz'gan for Ranix Crackbolt within Frostmane Hollow.\n- [Tablet of Kaz'gan](Tablet of Kaz'gan)",
+  "patch": "1.18.1",
+  "previous": [],
+  "quest_id": 42040,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/A_Grave_Misunderstanding!",
+  "start_npc": [
+   "Ranix Crackbolt"
+  ],
+  "type": "Dungeon"
+ },
+ "A Hero's Reward": {
+  "category": "Durotar",
+  "end_npc": [
+   "Thrall"
+  ],
+  "experience": "450",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "20",
+  "name": "A Hero's Reward",
+  "next": [],
+  "objectives": "Speak with Thrall in Orgrimmar and claim your reward.",
+  "patch": "1.16.4",
+  "previous": [
+   "Lieutenant Alverold (quest)"
+  ],
+  "quest_id": null,
+  "rewards": "Band of Durotar, Signet of Durotar, Ring of Durotar",
+  "source": "https://turtle-wow.fandom.com/wiki/A_Hero%27s_Reward",
+  "start_npc": [
+   "Warbringer Dar'nakk"
+  ],
+  "type": null
+ },
+ "A Historian Finds You": {
+  "category": "Stranglethorn Vale",
+  "end_npc": [
+   "Arcanist Sovatir"
+  ],
+  "experience": "1250",
+  "faction": "Neutral",
+  "is_turtle_content": false,
+  "level": "48",
+  "name": "A Historian Finds You",
+  "next": [],
+  "objectives": "Speak with Arcanist Sovatir.\n- Speak with Sovatir.",
+  "patch": null,
+  "previous": [
+   "Taking the Booty Home"
+  ],
+  "quest_id": 41323,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/A_Historian_Finds_You",
+  "start_npc": [
+   "Arcanist Sovatir's Torn Notes"
+  ],
+  "type": null
+ },
+ "A Hydromancer's Curiosity": {
+  "category": "Balor",
+  "end_npc": [
+   "Hydromancer Finnigan"
+  ],
+  "experience": "360",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "28",
+  "name": "A Hydromancer's Curiosity",
+  "next": [],
+  "objectives": "Speak with Hydromancer Finnigan in the SI:7 Outpost on Balor.",
+  "patch": "1.18.0",
+  "previous": [],
+  "quest_id": 41799,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/A_Hydromancer%27s_Curiosity",
+  "start_npc": [
+   "Marine Hornby"
+  ],
+  "type": null
+ },
+ "A Journey for Vengeance": {
+  "category": "Stonetalon Mountains",
+  "end_npc": [],
+  "experience": "450",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "20",
+  "name": "A Journey for Vengeance",
+  "next": [
+   "The Battlebeard Legacy"
+  ],
+  "objectives": "Listen to the story of Grumnir Battlebeard's brother.\n- Listen to the story of Grumnir Battlebeard's brother.",
+  "patch": "1.16.4",
+  "previous": [],
+  "quest_id": 40691,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/A_Journey_for_Vengeance",
+  "start_npc": [
+   "Grumnir Battlebeard"
+  ],
+  "type": null
+ },
+ "A Letter from the Royalty": {
+  "category": "Thalassian Highlands",
+  "end_npc": [
+   "Commander Anarileth"
+  ],
+  "experience": "560",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "5",
+  "name": "A Letter from the Royalty",
+  "next": [
+   "Message for the Windrunner"
+  ],
+  "objectives": "Bring the Feltouched Letter to [Commander Anarileth](Commander Anarileth).",
+  "patch": null,
+  "previous": [],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/A_Letter_from_the_Royalty",
+  "start_npc": [
+   "Feltouched Letter"
+  ],
+  "type": null
+ },
+ "A Plea for Help": {
+  "category": "Moonglade",
+  "end_npc": [
+   "Grovetender Sellais"
+  ],
+  "experience": "1200",
+  "faction": "Neutral",
+  "is_turtle_content": true,
+  "level": "58",
+  "name": "A Plea for Help",
+  "next": [],
+  "objectives": "Speak to Grovetender Sellais in the Grove of the Sun on Tyrandas in Moonwhisper Coast.",
+  "patch": "1.18.1",
+  "previous": [],
+  "quest_id": 42044,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/A_Plea_for_Help",
+  "start_npc": [
+   "Loganaar"
+  ],
+  "type": null
+ },
+ "A Report From Bixxle": {
+  "category": "Tel'Abim",
+  "end_npc": [
+   "Baron Telraz"
+  ],
+  "experience": "1400",
+  "faction": "Neutral",
+  "is_turtle_content": true,
+  "level": "56",
+  "name": "A Report From Bixxle",
+  "next": [],
+  "objectives": "Bring Bixxle's Report to Baron Telraz at the Tel Co. Basecamp in Tel'Abim.\n- [Bixxle's Report](Bixxle's Report) (provided)",
+  "patch": "1.16.4",
+  "previous": [
+   "Finding Bixxle!"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/A_Report_From_Bixxle",
+  "start_npc": [
+   "Bixxle Screwfuse"
+  ],
+  "type": null
+ },
+ "A Royal Heist": {
+  "category": "Gilneas City",
+  "end_npc": [],
+  "experience": "4250",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "45",
+  "name": "A Royal Heist",
+  "next": [],
+  "objectives": "Steal the painting from the library in Gilneas City and return to Luke Agamand at Blackthorn's Camp in Gilneas.\n- [Portrait of Mia Greymane](Portrait of Mia Greymane)",
+  "patch": "1.17.0",
+  "previous": [],
+  "quest_id": 41113,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/A_Royal_Heist",
+  "start_npc": [
+   "Luke Agamand"
+  ],
+  "type": "Dungeon"
+ },
+ "A Sailor's Love": {
+  "category": "Stormwind City",
+  "end_npc": [
+   "Charys Yserian"
+  ],
+  "experience": "310",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "10",
+  "name": "A Sailor's Love",
+  "next": [
+   "Charys' Response"
+  ],
+  "objectives": "Buy a rose on behalf of Sailor Borus and deliver it to Charys Yserian in Stormwind City.\n- [Red Rose](Red Rose)",
+  "patch": "1.16.4",
+  "previous": [],
+  "quest_id": 40661,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/A_Sailor%27s_Love",
+  "start_npc": [
+   "Sailor Borus"
+  ],
+  "type": null
+ },
+ "A Score To Settle": {
+  "category": "Thalassian Highlands",
+  "end_npc": [],
+  "experience": "680",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "7",
+  "name": "A Score To Settle",
+  "next": [],
+  "objectives": "Bring 1 Fang of Shar'Lan to [Maelor Steelguard](Maelor Steelguard) as a proof of your deed.\n- [Fang of Shar'lan](Fang of Shar'lan)",
+  "patch": "1.17.1",
+  "previous": [
+   "The Highland Menace"
+  ],
+  "quest_id": 41217,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/A_Score_To_Settle",
+  "start_npc": [
+   "Maelor Steelguard"
+  ],
+  "type": null
+ },
+ "A Star That Calls Back": {
+  "category": "Moonwhisper Coast",
+  "end_npc": [],
+  "experience": "7100",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "58",
+  "name": "A Star That Calls Back",
+  "next": [],
+  "objectives": "Slay Starcaller at the Starshard Cradle, then return to Zarazar on Moonwhisper Coast.\n- [Starcaller](Starcaller) slain",
+  "patch": "1.18.1",
+  "previous": [],
+  "quest_id": 42092,
+  "rewards": "Dragonbane",
+  "source": "https://turtle-wow.fandom.com/wiki/A_Star_That_Calls_Back",
+  "start_npc": [
+   "Zarazar Sagewind"
+  ],
+  "type": "Group"
+ },
+ "A Unknown Letter": {
+  "category": "Balor",
+  "end_npc": [
+   "Kilrogg Deadeye"
+  ],
+  "experience": "360",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "28",
+  "name": "A Unknown Letter",
+  "next": [],
+  "objectives": "Speak with Kilrogg Deadeye on Balor.",
+  "patch": "1.18.0",
+  "previous": [],
+  "quest_id": 41795,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/A_Unknown_Letter",
+  "start_npc": [
+   "Thrall"
+  ],
+  "type": null
+ },
+ "A Veiled Threat": {
+  "category": "Northwind",
+  "end_npc": [
+   "Master Mathias Shaw"
+  ],
+  "experience": "300",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "34",
+  "name": "A Veiled Threat",
+  "next": [
+   "Into The Tortured Past"
+  ],
+  "objectives": "Deliver Hawthorne's Journal to Master Mathias Shaw in Stormwind's Old Town.\n- [Hawthorne's Journal](Hawthorne's Journal)",
+  "patch": "1.18.0",
+  "previous": [
+   "Shadow's Vision"
+  ],
+  "quest_id": 41685,
+  "rewards": "Choice of:, SI:7 Honorary Medal,, Loop of the Assassin, or, Operative Cape",
+  "source": "https://turtle-wow.fandom.com/wiki/A_Veiled_Threat",
+  "start_npc": [
+   "Operative Baltimore Hawthorne"
+  ],
+  "type": ""
+ },
+ "A War Worth Fighting": {
+  "category": "Durotar",
+  "end_npc": [
+   "Warbringer Dar'nakk"
+  ],
+  "experience": "210",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "15",
+  "name": "A War Worth Fighting",
+  "next": [
+   "Anchor's End",
+   "Cutting Ranks"
+  ],
+  "objectives": "Report back to Warbringer Dar'nakk in Razor Hill.",
+  "patch": "1.16.4",
+  "previous": [
+   "Information for Thrall"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/A_War_Worth_Fighting",
+  "start_npc": [
+   "Thrall"
+  ],
+  "type": null
+ },
+ "All That Is Left": {
+  "category": "Northwind",
+  "end_npc": [
+   "Judith Flenning"
+  ],
+  "experience": "1200",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "38",
+  "name": "All That Is Left",
+  "next": [],
+  "objectives": "Bring the wooden toy sword to someone that knew its owner. You may have luck in Northwind, where all of this started.\n- [Etched Toy Sword](Etched Toy Sword)",
+  "patch": "1.18.0",
+  "previous": [],
+  "quest_id": 41840,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/All_That_Is_Left",
+  "start_npc": [
+   "Etched Toy Sword"
+  ],
+  "type": ""
+ },
+ "All We Need is Blood": {
+  "category": "Gilneas",
+  "end_npc": [],
+  "experience": "3750",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "42",
+  "name": "All We Need is Blood",
+  "next": [
+   "Last of the Living Dead"
+  ],
+  "objectives": "Bring 10 Vilewing Blood Vials for Orvan Darkeye at the Ruins of Greyshire in Gilneas.\n- [Vilewing Blood Vial](Vilewing Blood Vial) (10)",
+  "patch": "1.17.0",
+  "previous": [
+   "Dead Until Dark"
+  ],
+  "quest_id": 40878,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/All_We_Need_is_Blood",
+  "start_npc": [
+   "Orvan Darkeye"
+  ],
+  "type": null
+ },
+ "An Audience With the Prince": {
+  "category": "Thalassian Highlands",
+  "end_npc": [],
+  "experience": "90",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "9",
+  "name": "An Audience With the Prince",
+  "next": [
+   "Rommath, the Saviour"
+  ],
+  "objectives": "Listen to the conversation between Grand Magister Rommath and Kael'thas.",
+  "patch": null,
+  "previous": [
+   "Rommath, the Traitor"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/An_Audience_With_the_Prince",
+  "start_npc": [
+   "Grand Magister Rommath"
+  ],
+  "type": null
+ },
+ "An Echo From Beyond": {
+  "category": "Swamp of Sorrows",
+  "end_npc": [
+   "Kas'tal"
+  ],
+  "experience": "8300",
+  "faction": "Neutral",
+  "is_turtle_content": true,
+  "level": "56+",
+  "name": "An Echo From Beyond",
+  "next": [
+   "Fate Of The Harborage"
+  ],
+  "objectives": "Face whatever is meddling at the Dark Portal and return to Kas'tal overlooking the Blasted Lands.\n- [Fading Apparition](Fading Apparition) slain",
+  "patch": "1.18.1",
+  "previous": [
+   "Novice In A Barren Land"
+  ],
+  "quest_id": 41325,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/An_Echo_From_Beyond",
+  "start_npc": [
+   "Kas'tal"
+  ],
+  "type": null
+ },
+ "An Exile's Regret": {
+  "category": "Tel'Abim",
+  "end_npc": [
+   "Inconspicuous Totem"
+  ],
+  "experience": "1375",
+  "faction": "Neutral",
+  "is_turtle_content": false,
+  "level": "52",
+  "name": "An Exile's Regret",
+  "next": [
+   "To Heal A Soul"
+  ],
+  "objectives": "Find a totem near the abandoned house in Tel'Abim.",
+  "patch": null,
+  "previous": [
+   "Translating The Unknown"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/An_Exile%27s_Regret",
+  "start_npc": [
+   "Aneka Konko"
+  ],
+  "type": null
+ },
+ "An Extravagant Book": {
+  "category": "Lapidis Isle",
+  "end_npc": [
+   "Father Benofar"
+  ],
+  "experience": "4650",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "52",
+  "name": "An Extravagant Book",
+  "next": [],
+  "objectives": "Find the owner of the book.\n- [Great Virtue](Great Virtue)",
+  "patch": null,
+  "previous": [],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/An_Extravagant_Book",
+  "start_npc": [
+   "Half Buried Barrel"
+  ],
+  "type": null
+ },
+ "An Opportunity to Dig Deep": {
+  "category": "Tel'Abim",
+  "end_npc": [],
+  "experience": "4875",
+  "faction": "Neutral",
+  "is_turtle_content": false,
+  "level": "57",
+  "name": "An Opportunity to Dig Deep",
+  "next": [
+   "Azotha Gold"
+  ],
+  "objectives": "Slay 8 Spiritual Wanderers, and collect 4 Ancient Troll Tablets for Archaeologist Trixia Goldspark at Tel Co. Bacecamp in Tel'Abim.\n- [Spiritual Wanderer](Spiritual Wanderer) (8)\n- [Ancient Troll Tablet](Ancient Troll Tablet) (4)",
+  "patch": null,
+  "previous": [],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/An_Opportunity_to_Dig_Deep",
+  "start_npc": [
+   "Archaeologist Trixia Goldspark"
+  ],
+  "type": null
+ },
+ "An'she's Respite (quest)": {
+  "category": "Moonwhisper Coast",
+  "end_npc": [],
+  "experience": "5100",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "54",
+  "name": "An'she's Respite (quest)",
+  "next": [],
+  "objectives": "Slay 12 Shadewalker Bonerattlers, 8 Shadewalker Brutes and 8 Shadewalker Sharpshooters at An'she's Respite, then return to Sentinel Commander Silverstreak at Narvalis Point.\n- [Shadewalker Bonerattler](Shadewalker Bonerattler) slain (12)\n- [Shadewalker Brute](Shadewalker Brute) slain (8)\n- [Shadewalker Sharpshooter](Shadewalker Sharpshooter) slain (8)",
+  "patch": "1.18.1",
+  "previous": [],
+  "quest_id": 42088,
+  "rewards": "Boots of Krethis",
+  "source": "https://turtle-wow.fandom.com/wiki/An%27she%27s_Respite_(quest)",
+  "start_npc": [
+   "Sentinel Commander Silverstreak"
+  ],
+  "type": null
+ },
+ "Anchor's End": {
+  "category": "Durotar",
+  "end_npc": [],
+  "experience": "1500",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "17",
+  "name": "Anchor's End",
+  "next": [
+   "Lieutenant Alverold (quest)"
+  ],
+  "objectives": "Slay 8 Expedition Sailors, 6 Expedition Clerics, and 10 Expedition Soldiers for Warbringer Dar'nakk in Razor Hill. \n- [Expedition Sailor](Expedition Sailor) (8)\n- [Expedition Cleric](Expedition Cleric) (6)\n- [Expedition Soldier](Expedition Soldier) (10)",
+  "patch": "1.16.4",
+  "previous": [
+   "A War Worth Fighting"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Anchor%27s_End",
+  "start_npc": [
+   "Warbringer Dar'nakk"
+  ],
+  "type": null
+ },
+ "Answers from Father": {
+  "category": "Moonwhisper Coast",
+  "end_npc": [
+   "Moro'gai K'la"
+  ],
+  "experience": "850",
+  "faction": "Neutral",
+  "is_turtle_content": true,
+  "level": "56",
+  "name": "Answers from Father",
+  "next": [
+   "The Elder's End"
+  ],
+  "objectives": "Confront Moro'gai K'la in Moro'gai Village about your newfound insights. \n- Confronted [Moro'gai K'la](Moro'gai K'la)",
+  "patch": "1.18.1",
+  "previous": [
+   "Hooves and Horns, Clad in Red"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Answers_from_Father",
+  "start_npc": [
+   "Ar'lia"
+  ],
+  "type": null
+ },
+ "Antiquities": {
+  "category": "Stormwrought Ruins",
+  "end_npc": [],
+  "experience": "3200",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "35",
+  "name": "Antiquities",
+  "next": [],
+  "objectives": "Recover ‘Compendium of Successful Trade’ within Stormwrought Castle for Noppsy Spickerspan at the SI:7 Outpost on Balor.\n- [Compendium of Successful Trade](Compendium of Successful Trade)",
+  "patch": "1.18.0",
+  "previous": [],
+  "quest_id": 41842,
+  "rewards": "Choice of:, Antiquated Slasher, or, Chainmail of Many Pockets",
+  "source": "https://turtle-wow.fandom.com/wiki/Antiquities",
+  "start_npc": [
+   "Noppsy Spickerspan"
+  ],
+  "type": "Dungeon"
+ },
+ "Artifact of the Dark Lady": {
+  "category": "Balor",
+  "end_npc": [
+   "Lady Sylvanas Windrunner"
+  ],
+  "experience": "1200",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "38",
+  "name": "Artifact of the Dark Lady",
+  "next": [],
+  "objectives": "Deliver the Bloodstone Pendant to Lady Sylvanas Windrunner in Undercity.\n- [Broken Bloodstone Pendant](Broken Bloodstone Pendant)",
+  "patch": "1.18.0",
+  "previous": [],
+  "quest_id": 41841,
+  "rewards": "Choice of:, Lady Winter's Touch, or, Ring of Judgement",
+  "source": "https://turtle-wow.fandom.com/wiki/Artifact_of_the_Dark_Lady",
+  "start_npc": [
+   "Broken Bloodstone Pendant"
+  ],
+  "type": null
+ },
+ "Assassin In Training": {
+  "category": "Stormwrought Ruins",
+  "end_npc": [],
+  "experience": "3100",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "35",
+  "name": "Assassin In Training",
+  "next": [],
+  "objectives": "Thin out the chain of command within Stormwrought Ruins and return to Nippsy Spickerspan in the SI:7 Outpost on Balor.\n- [Oronok Torn-Heart](Oronok Torn-Heart) slain\n- [Chieftain Stormsong](Chieftain Stormsong) slain\n- [Stormreaver Battlemaster](Stormreaver Battlemaster) slain (12)",
+  "patch": "1.18.0",
+  "previous": [
+   "Into The Hornet's Nest"
+  ],
+  "quest_id": 41843,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Assassin_In_Training",
+  "start_npc": [
+   "Nippsy Spickerspan"
+  ],
+  "type": "Dungeon"
+ },
+ "Assessing The Situation": {
+  "category": "Balor",
+  "end_npc": [
+   "Muddy Journal"
+  ],
+  "experience": "1400",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "27",
+  "name": "Assessing The Situation",
+  "next": [
+   "The Last Lines"
+  ],
+  "objectives": "Convene with the SI:7 corps on the plateau near the Ruins of Breezehaven on Balor.",
+  "patch": "1.18.0",
+  "previous": [],
+  "quest_id": 41692,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Assessing_The_Situation",
+  "start_npc": [
+   "Verona Gillian"
+  ],
+  "type": ""
+ },
+ "Azotha Gold": {
+  "category": "Tel'Abim",
+  "end_npc": [],
+  "experience": "4500",
+  "faction": "Neutral",
+  "is_turtle_content": false,
+  "level": "57",
+  "name": "Azotha Gold",
+  "next": [],
+  "objectives": "Dig around the ritual site and find the Azotha Ritual Cache for Archaeologist Trixia Goldspark at Tel Co. Basecamp in Tel'Abim.\n- [Azotha Ritual Cache](Azotha Ritual Cache)",
+  "patch": null,
+  "previous": [
+   "An Opportunity to Dig Deep"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Azotha_Gold",
+  "start_npc": [
+   "Archaeologist Trixia Goldspark"
+  ],
+  "type": null
+ },
+ "Back to Lady Windrunner": {
+  "category": "Thalassian Highlands",
+  "end_npc": [
+   "Vereesa Windrunner"
+  ],
+  "experience": "350",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "9",
+  "name": "Back to Lady Windrunner",
+  "next": [
+   "Rommath, the Traitor"
+  ],
+  "objectives": "Report your findings to Vereesa Windrunner.",
+  "patch": "1.17.1",
+  "previous": [
+   "Felstrider Retreat (quest)"
+  ],
+  "quest_id": 41238,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Back_to_Lady_Windrunner",
+  "start_npc": [
+   "Commander Braedin"
+  ],
+  "type": null
+ },
+ "Belated Preservation": {
+  "category": "Moonwhisper Coast",
+  "end_npc": [],
+  "experience": "7600",
+  "faction": "Neutral",
+  "is_turtle_content": true,
+  "level": "58",
+  "name": "Belated Preservation",
+  "next": [],
+  "objectives": "Collect Elunaris Relics for Grovetender Sellais in the Grove of the Sun on Tyrandas.\n- [Elunaris Relic](Elunaris Relic) (10)",
+  "patch": "1.18.1",
+  "previous": [],
+  "quest_id": 42043,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Belated_Preservation",
+  "start_npc": [
+   "Grovetender Sellais"
+  ],
+  "type": "Group"
+ },
+ "Blackroot Hold (quest)": {
+  "category": "Moonwhisper Coast",
+  "end_npc": [],
+  "experience": "4900",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "54",
+  "name": "Blackroot Hold (quest)",
+  "next": [],
+  "objectives": "Recover the stolen expedition supplies from the Blackroot furbolgs for Rhys Dawnbreeze in Sunsworn Camp on Moonwhisper Coast.\n- [Sunsworn Supplies](Sunsworn Supplies) (12)",
+  "patch": "1.18.1",
+  "previous": [],
+  "quest_id": 42064,
+  "rewards": "Choice of:, Blackroot Wraps, or, Shield of Alah'thalas",
+  "source": "https://turtle-wow.fandom.com/wiki/Blackroot_Hold_(quest)",
+  "start_npc": [
+   "Rhys Dawnbreeze"
+  ],
+  "type": null
+ },
+ "Blood for Blood": {
+  "category": "Gilneas",
+  "end_npc": [
+   "Master Apothecary Faranell"
+  ],
+  "experience": "950",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "46",
+  "name": "Blood for Blood",
+  "next": [],
+  "objectives": "Report to Master Apothecary Faranell in Undercity.",
+  "patch": "1.17.0",
+  "previous": [
+   "The Evil Made Me Do It"
+  ],
+  "quest_id": 40882,
+  "rewards": "Pure Bloodvial Pendant",
+  "source": "https://turtle-wow.fandom.com/wiki/Blood_for_Blood",
+  "start_npc": [
+   "Orvan Darkeye"
+  ],
+  "type": null
+ },
+ "Bloodhoof Stands with Moonhoof": {
+  "category": "Moonwhisper Coast",
+  "end_npc": [
+   "Moonhoof the Younger"
+  ],
+  "experience": "500",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "56",
+  "name": "Bloodhoof Stands with Moonhoof",
+  "next": [
+   "Facing the Elder"
+  ],
+  "objectives": "Face the Elder Moonhoof and then speak to him in Moonhoof Village, Moonwhisper Coast.\n- Elder Moonhoof listened",
+  "patch": "1.18.1",
+  "previous": [
+   "Father Will Listen"
+  ],
+  "quest_id": 42072,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Bloodhoof_Stands_with_Moonhoof",
+  "start_npc": [
+   "Cairne Bloodhoof"
+  ],
+  "type": ""
+ },
+ "Bugs on My Island": {
+  "category": "Balor",
+  "end_npc": [],
+  "experience": "2400",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "30",
+  "name": "Bugs on My Island",
+  "next": [],
+  "objectives": "Slay 7 SI:7 Scouts and return to Kilrogg Deadeye in Stormbreaker Point.\n- [SI:7 Scout](SI:7 Scout) slain (7)",
+  "patch": "1.18.0",
+  "previous": [],
+  "quest_id": 41828,
+  "rewards": "Repurposed Si:7 Dagger",
+  "source": "https://turtle-wow.fandom.com/wiki/Bugs_on_My_Island",
+  "start_npc": [
+   "Kilrogg Deadeye"
+  ],
+  "type": null
+ },
+ "Calming The Tempest": {
+  "category": "Balor",
+  "end_npc": [],
+  "experience": "3100",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "29",
+  "name": "Calming The Tempest",
+  "next": [],
+  "objectives": "Calm the pearl and return to Hydromancer Finnigan in the SI:7 Outpost on Balor afterwards.\n- [Subsided the Pearl's wrath](Abysstide Siren)",
+  "patch": "1.18.0",
+  "previous": [
+   "Piece Of A Bigger Picture"
+  ],
+  "quest_id": 41711,
+  "rewards": "Pearlescent Shard, Choice of:, Hydromancer Cowl, or, Choker of Insight",
+  "source": "https://turtle-wow.fandom.com/wiki/Calming_The_Tempest",
+  "start_npc": [
+   "Hydromancer Finnigan"
+  ],
+  "type": null
+ },
+ "Caravan Meets Caravan": {
+  "category": "Redridge Mountains",
+  "end_npc": [
+   "Kixxle"
+  ],
+  "experience": "",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "60",
+  "name": "Caravan Meets Caravan",
+  "next": [
+   "Thandol Span (quest)"
+  ],
+  "objectives": "Follow the Caravan's route and look for clues.\n- Find the [first clue](Dwarf Mountaineer)\n- Find the [second clue](Oil Canister)\n- Find the [third clue](Small Wooden Crate)\n- Ask [Kixxle](Kixxle) if he saw anything",
+  "patch": null,
+  "previous": [
+   "Young and Foolish"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Caravan_Meets_Caravan",
+  "start_npc": [
+   "Master Mathias Shaw"
+  ],
+  "type": ""
+ },
+ "Ceaseless Storms": {
+  "category": "Balor",
+  "end_npc": [],
+  "experience": "2500",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "29",
+  "name": "Ceaseless Storms",
+  "next": [
+   "Piece Of A Bigger Picture"
+  ],
+  "objectives": "Follow the magically inclined murlocs on Balor and search them for anything suspicious. Return to Hydromancer Finnigan on Balor afterwards.\n- [Pearlescent Shard](Pearlescent Shard (quest item))",
+  "patch": "1.18.0",
+  "previous": [],
+  "quest_id": 41709,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Ceaseless_Storms",
+  "start_npc": [
+   "Hydromancer Finnigan"
+  ],
+  "type": null
+ },
+ "Charys' Response": {
+  "category": "Stormwind City",
+  "end_npc": [
+   "Sailor Borus"
+  ],
+  "experience": "1100",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "10",
+  "name": "Charys' Response",
+  "next": [],
+  "objectives": "Bring Charys' Response to Sailor Borus at the Kul Tiran Embassy in Stormwind Harbor.\n- [Charys' Response](Charys' Response (item))",
+  "patch": "1.16.4",
+  "previous": [
+   "A Sailor's Love"
+  ],
+  "quest_id": 40662,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Charys%27_Response",
+  "start_npc": [
+   "Charys Yserian"
+  ],
+  "type": null
+ },
+ "Chieftain Ubukaz": {
+  "category": "Frostmane Hollow",
+  "end_npc": [],
+  "experience": "1200",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "16",
+  "name": "Chieftain Ubukaz",
+  "next": [],
+  "objectives": "Slay Battlemaster Ubukaz deep within Frostmane Hollow for Mountaineer Granitebeard at the Ironforge Airfield in Dun Morogh.\n- [Battlemaster Ubukaz](Battlemaster Ubukaz) slain",
+  "patch": "1.18.1",
+  "previous": [
+   "The Frostmane War"
+  ],
+  "quest_id": 42039,
+  "rewards": "Choose one:, Heavy Chain Bracers,, Sash of Illumination, or, Deep-Thread Shawl",
+  "source": "https://turtle-wow.fandom.com/wiki/Chieftain_Ubukaz",
+  "start_npc": [
+   "Mountaineer Granitebeard"
+  ],
+  "type": "Dungeon"
+ },
+ "Colony of Ants": {
+  "category": "Balor",
+  "end_npc": [],
+  "experience": "3400",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "35",
+  "name": "Colony of Ants",
+  "next": [
+   "It Can't Rain All the Time"
+  ],
+  "objectives": "Slay 6 Stormreaver Brute, 6 Stormreaver Torturer, 4 Stormreaver Shadowcaller, 2 Stormreaver Stormblade and return to Kilrogg Deadeye in Stormbreaker Point.\n- [Stormreaver Brute](Stormreaver Brute) slain (6)\n- [Stormreaver Torturer](Stormreaver Torturer) slain (6)\n- [Stormreaver Shadowcaller](Stormreaver Shadowcaller) slain (4)\n- [Stormreaver Stormblade](Stormreaver Stormblade) slain (2)",
+  "patch": "1.18.0",
+  "previous": [
+   "Mere Thoughts"
+  ],
+  "quest_id": 41832,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Colony_of_Ants",
+  "start_npc": [
+   "Kilrogg Deadeye"
+  ],
+  "type": "Group"
+ },
+ "Controlling Sailors": {
+  "category": "Stormwind City",
+  "end_npc": [],
+  "experience": "1138",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "14",
+  "name": "Controlling Sailors",
+  "next": [],
+  "objectives": "Find, and speak with the Kul Tiran Sailors sight-seeing Stormwind City to make sure they are not up to any shenanigans. Once spoken with, return to Petty Officer Milldough at the Kul Tiran Embassy in Stormwind Harbor.\n- Check on [Sailor Hylreth](Sailor Hylreth)\n- Check on [Sailor Brewen](Sailor Brewen)\n- Check on [Sailor Pardol](Sailor Pardol)",
+  "patch": "1.16.4",
+  "previous": [],
+  "quest_id": 40660,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Controlling_Sailors",
+  "start_npc": [
+   "Petty Officer Milldough"
+  ],
+  "type": null
+ },
+ "Covering All Possibilities": {
+  "category": "Northwind",
+  "end_npc": [],
+  "experience": "2750",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "34",
+  "name": "Covering All Possibilities",
+  "next": [
+   "Unconventional Means"
+  ],
+  "objectives": "Uncover the intent of the Blackrock Orc expansion to the northern watchtower. Report back to Operative Hawthorne in Ambershire.\n- [Throkk's Command](Throkk's Command)",
+  "patch": "1.18.0",
+  "previous": [
+   "The Slavemakers"
+  ],
+  "quest_id": 41646,
+  "rewards": "Choice of:, Blackrock Cleaver, or, Ashwood Bow",
+  "source": "https://turtle-wow.fandom.com/wiki/Covering_All_Possibilities",
+  "start_npc": [
+   "Operative Baltimore Hawthorne"
+  ],
+  "type": ""
+ },
+ "Crystal Clear Impression": {
+  "category": "Stormwrought Ruins",
+  "end_npc": [],
+  "experience": "3500",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "38",
+  "name": "Crystal Clear Impression",
+  "next": [],
+  "objectives": "Find a Stormwrought Crystal for Grukson Slatebeard at Slatebeard's Forge.\n- [Stormwrought Crystal](Stormwrought Crystal)",
+  "patch": "1.18.0",
+  "previous": [],
+  "quest_id": 41879,
+  "rewards": "Slatebeard Amulet",
+  "source": "https://turtle-wow.fandom.com/wiki/Crystal_Clear_Impression",
+  "start_npc": [
+   "Grukson Slatebeard"
+  ],
+  "type": "Dungeon"
+ },
+ "Cutting Ranks": {
+  "category": "Durotar",
+  "end_npc": [],
+  "experience": "1650",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "19",
+  "name": "Cutting Ranks",
+  "next": [
+   "Lieutenant Alverold (quest)"
+  ],
+  "objectives": "Slay 10 Expedition Officers, Hydromancer Shaleborn, and Deckmaster Darkhollow for Warbringer Dar'nakk in Razor Hill. \n- [Expedition Officer](Expedition Officer) (10)\n- [Hydromancer Shaleborn](Hydromancer Shaleborn)\n- [Deckmaster Darkhollow](Deckmaster Darkhollow)",
+  "patch": "1.16.4",
+  "previous": [
+   "A War Worth Fighting"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Cutting_Ranks",
+  "start_npc": [
+   "Warbringer Dar'nakk"
+  ],
+  "type": null
+ },
+ "Cutting Teeth": {
+  "category": "Durotar",
+  "end_npc": [
+   "Gornek"
+  ],
+  "experience": "170",
+  "faction": "Horde",
+  "is_turtle_content": false,
+  "level": "2",
+  "name": "Cutting Teeth",
+  "next": [
+   "Sting of the Scorpid"
+  ],
+  "objectives": "Slaughter 6 Mottled Boars.\n- [Mottled Boar](Mottled Boar) slaughtered (6)",
+  "patch": null,
+  "previous": [
+   "Your Place In The World"
+  ],
+  "quest_id": null,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Cutting_Teeth",
+  "start_npc": [
+   "Gornek"
+  ],
+  "type": null
+ },
+ "Dalaran's Intentions": {
+  "category": "Silverpine Forest",
+  "end_npc": [
+   "Shadow Priest Allister"
+  ],
+  "experience": "100 EXP (or at level 70)",
+  "faction": "Horde",
+  "is_turtle_content": false,
+  "level": "14",
+  "name": "Dalaran's Intentions",
+  "next": [
+   "Ambermill Investigations"
+  ],
+  "objectives": "Speak with [Shadow Priest Allister](Shadow Priest Allister) at the [Sepulcher](Sepulcher).",
+  "patch": null,
+  "previous": [
+   "Dalar's Analysis"
+  ],
+  "quest_id": 482,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Dalaran%27s_Intentions",
+  "start_npc": [
+   "Dalar Dawnweaver"
+  ],
+  "type": null
+ },
+ "Dark Essence (quest)": {
+  "category": "Grim Reaches",
+  "end_npc": [],
+  "experience": "2400",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "38",
+  "name": "Dark Essence (quest)",
+  "next": [
+   "The Power of Uth'okk"
+  ],
+  "objectives": "Recover a Dark Essence from the ghosts of The Grim Hollow for Far Seer Mothang at Shatterblade Post in Grim Reaches.\n- [Dark Essence](Dark Essence)",
+  "patch": "1.18.0",
+  "previous": [
+   "Natural Remedies"
+  ],
+  "quest_id": 41729,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Dark_Essence_(quest)",
+  "start_npc": [
+   "Far Seer Mothang"
+  ],
+  "type": null
+ },
+ "Dead Until Dark": {
+  "category": "Gilneas",
+  "end_npc": [
+   "Orvan Darkeye"
+  ],
+  "experience": "650",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "42",
+  "name": "Dead Until Dark",
+  "next": [
+   "All We Need is Blood"
+  ],
+  "objectives": "Find Orvan Darkeye for Deathstalker Alynna. He is rumored to be somewhere close to the ruins of Greyshire.",
+  "patch": "1.17.0",
+  "previous": [],
+  "quest_id": 40877,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Dead_Until_Dark",
+  "start_npc": [
+   "Deathstalker Alynna"
+  ],
+  "type": null
+ },
+ "Deathcap And Widow's Frill": {
+  "category": "Northwind",
+  "end_npc": [],
+  "experience": "3050",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "34",
+  "name": "Deathcap And Widow's Frill",
+  "next": [
+   "Shadow's Vision"
+  ],
+  "objectives": "Acquire the needed material for the Witch of Northwind in her coven in northwestern Northwind.\n- [Deathcap](Deathcap) (10)\n- [Widow's Frill](Widow's Frill) (20)\n- [Sara's Comb](Sara's Comb)",
+  "patch": "1.18.0",
+  "previous": [
+   "Unconventional Means"
+  ],
+  "quest_id": 41648,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Deathcap_And_Widow%27s_Frill",
+  "start_npc": [
+   "The Witch of Northwind"
+  ],
+  "type": ""
+ },
+ "Deep in the Mines": {
+  "category": "Balor",
+  "end_npc": [],
+  "experience": "2400",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "31",
+  "name": "Deep in the Mines",
+  "next": [
+   "Mere Thoughts"
+  ],
+  "objectives": "Slay 5 Stormreaver Necromancer, 8 Foul Overseer and 8 Spikebone Miner and return to Kilrogg Deadeye in Stormbreaker Point.\n- [Stormreaver Necromancer](Stormreaver Necromancer) slain (5)\n- [Foul Overseer](Foul Overseer) slain (8)\n- [Spikebone Miner](Spikebone Miner) slain (8)",
+  "patch": "1.18.0",
+  "previous": [],
+  "quest_id": 41830,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Deep_in_the_Mines",
+  "start_npc": [
+   "Kilrogg Deadeye"
+  ],
+  "type": null
+ },
+ "Defying Odds": {
+  "category": "Northwind",
+  "end_npc": [],
+  "experience": "2850",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "32",
+  "name": "Defying Odds",
+  "next": [
+   "The Slavemakers"
+  ],
+  "objectives": "Locate the Defias headquarters in Northwind and search for clues about the abductions.\n- [Inconspicuous Documents](Inconspicuous Documents)\n- [VanCleef's Orders](VanCleef's Orders)",
+  "patch": "1.18.0",
+  "previous": [
+   "Empty Houses"
+  ],
+  "quest_id": 41644,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Defying_Odds",
+  "start_npc": [
+   "Operative Baltimore Hawthorne"
+  ],
+  "type": ""
+ },
+ "Delivery to Alah'Thalas": {
+  "category": "Thalassian Highlands",
+  "end_npc": [
+   "Tiriel Brightwater"
+  ],
+  "experience": "130",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "5",
+  "name": "Delivery to Alah'Thalas",
+  "next": [],
+  "objectives": "Deliver the Wildhammer Supply Package to [Tiriel Brightwater](Tiriel Brightwater) in [Alah'Thalas](Alah'Thalas).\n- [Wildhammer Supply Package](Wildhammer Supply Package) (provided)",
+  "patch": "1.17.1",
+  "previous": [],
+  "quest_id": 41197,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Delivery_to_Alah%27Thalas",
+  "start_npc": [
+   "Solenia Solarcrest"
+  ],
+  "type": null
+ },
+ "Demons Galore": {
+  "category": "Balor",
+  "end_npc": [],
+  "experience": "2700",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "31",
+  "name": "Demons Galore",
+  "next": [
+   "Harrowing News"
+  ],
+  "objectives": "Clear out the demons in the cave on the western side of Balor for Nippsy Spickerspan at the SI:7 Outpost.\n- [Untamed Imp](Untamed Imp) slain (8)\n- [Thirsting Felhunter](Thirsting Felhunter) slain (8)\n- [Mistress of Pain](Mistress of Pain) slain (4)\n- [Rune-carved Tablet](Rune-carved Tablet)",
+  "patch": "1.18.0",
+  "previous": [
+   "Noppsy Spickerspan (quest)"
+  ],
+  "quest_id": 41697,
+  "rewards": "Harelyss' Whip",
+  "source": "https://turtle-wow.fandom.com/wiki/Demons_Galore",
+  "start_npc": [
+   "Nippsy Spickerspan"
+  ],
+  "type": ""
+ },
+ "Destroy the Deathtotem": {
+  "category": "Windhorn Canyon",
+  "end_npc": [],
+  "experience": "3400",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "28",
+  "name": "Destroy the Deathtotem",
+  "next": [],
+  "objectives": "Slay Prophet Stormhoof, the leader of the Deathtotem within Windhorn Canyon, and return to Cairne Bloodhoof in Thunderbluff.\n- [Prophet Stormhoof](Prophet Stormhoof) slain",
+  "patch": "1.18.1",
+  "previous": [
+   "Information for Cairne"
+  ],
+  "quest_id": 41982,
+  "rewards": "Choice of:, Bloodhoof Sash,, Stormhoof Shackles, or, Stonemane Boots",
+  "source": "https://turtle-wow.fandom.com/wiki/Destroy_the_Deathtotem",
+  "start_npc": [
+   "Cairne Bloodhoof"
+  ],
+  "type": "Dungeon"
+ },
+ "Draenic Communication": {
+  "category": "Swamp of Sorrows",
+  "end_npc": [
+   "Sanv K'la"
+  ],
+  "experience": "2350",
+  "faction": "Neutral",
+  "is_turtle_content": true,
+  "level": "39",
+  "name": "Draenic Communication",
+  "next": [
+   "Finding Akh Z'ador"
+  ],
+  "objectives": "Gather 6 Tangled Essence and a Marsh Murloc Eye for Sanv K'la.\n- [Tangled Essence](Tangled Essence) (6)\n- [Marsh Murloc Eye](Marsh Murloc Eye)",
+  "patch": "1.18.1",
+  "previous": [
+   "The Sanv Charm"
+  ],
+  "quest_id": 40032,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Draenic_Communication",
+  "start_npc": [
+   "Sanv K'la"
+  ],
+  "type": null
+ },
+ "Drowning Deeptide": {
+  "category": "Lapidis Isle",
+  "end_npc": [],
+  "experience": "5000",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "53",
+  "name": "Drowning Deeptide",
+  "next": [],
+  "objectives": "Collect 10 Deeptide Bracelets from Deeptide Naga for Eliza Caldwell in Caelan's Rest.\n- [Deeptide Bracelet](Deeptide Bracelet) (20)",
+  "patch": null,
+  "previous": [],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Drowning_Deeptide",
+  "start_npc": [
+   "Eliza Caldwell"
+  ],
+  "type": null
+ },
+ "Echoes of Nendis": {
+  "category": "Moonwhisper Coast",
+  "end_npc": [],
+  "experience": "5100",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "54",
+  "name": "Echoes of Nendis",
+  "next": [
+   "The Light of Elunaris"
+  ],
+  "objectives": "Recover 30 Nendis Mementos from the ruins of Nendis and return them to Talanis Amberscribe in Narvalis Point on Moonwhisper Coast.\n- [Nendis Memento](Nendis Memento) (30)",
+  "patch": "1.18.1",
+  "previous": [],
+  "quest_id": 42086,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Echoes_of_Nendis",
+  "start_npc": [
+   "Talanis Amberscribe"
+  ],
+  "type": null
+ },
+ "Embassy Blues": {
+  "category": "Stormwind City",
+  "end_npc": [],
+  "experience": "2100",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "10",
+  "name": "Embassy Blues",
+  "next": [],
+  "objectives": "Find 3 Flasks of Port for Sailor Valia at the Kul Tiran Embassy in Stormwind Harbor.\n- [Flask of Port](Flask of Port) (3)",
+  "patch": "1.16.4",
+  "previous": [],
+  "quest_id": 40663,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Embassy_Blues",
+  "start_npc": [
+   "Sailor Valia"
+  ],
+  "type": null
+ },
+ "Empty Houses": {
+  "category": "Northwind",
+  "end_npc": [],
+  "experience": "850",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "28",
+  "name": "Empty Houses",
+  "next": [
+   "Defying Odds"
+  ],
+  "objectives": "Interrogate the townsfolk of Ambershire.\n- Interrogated [Ignatz](Ignatz)\n- Interrogated [Bailiff Lancaster](Bailiff Lancaster)\n- Interrogated [Judith Flenning](Judith Flenning)",
+  "patch": "1.18.0",
+  "previous": [],
+  "quest_id": 41643,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Empty_Houses",
+  "start_npc": [
+   "Operative Baltimore Hawthorne"
+  ],
+  "type": ""
+ },
+ "End Ukorz Sandscalp": {
+  "category": "Zul'Farrak",
+  "end_npc": [],
+  "experience": "6250",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "48",
+  "name": "End Ukorz Sandscalp",
+  "next": [],
+  "objectives": "Slay Ukorz Sandscalp and Ruuzlu within Zul'Farrak for Champion Taza'go at Sandmoon Village in Tanaris.\n- [Chief Ukorz Sandscalp](Chief Ukorz Sandscalp) slain\n- [Ruuzlu](Ruuzlu) slain",
+  "patch": "1.16.1",
+  "previous": [
+   "Plight of the Sandfury"
+  ],
+  "quest_id": 40526,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/End_Ukorz_Sandscalp",
+  "start_npc": [
+   "Champion Taza'go"
+  ],
+  "type": "Dungeon"
+ },
+ "Endless Vigil": {
+  "category": "Moonwhisper Coast",
+  "end_npc": [
+   "Sentinel Commander Silverstreak"
+  ],
+  "experience": "760",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "54",
+  "name": "Endless Vigil",
+  "next": [],
+  "objectives": "Travel to Narvalis Point on Moonwhisper Coast and offer your services to Sentinel Commander Silverstreak.",
+  "patch": "1.18.1",
+  "previous": [],
+  "quest_id": 42062,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Endless_Vigil",
+  "start_npc": [
+   "Shandris Feathermoon"
+  ],
+  "type": null
+ },
+ "Entranced Magic": {
+  "category": "Grim Reaches",
+  "end_npc": [],
+  "experience": "1850",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "33",
+  "name": "Entranced Magic",
+  "next": [
+   "Natural Remedies"
+  ],
+  "objectives": "Gather 5 Vials of Entranced Blood for Far Seer Mothang at Shatterblade Post in Grim Reaches.\n- [Vial of Entranced Blood](Vial of Entranced Blood) (5)",
+  "patch": "1.18.0",
+  "previous": [],
+  "quest_id": 41727,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Entranced_Magic",
+  "start_npc": [
+   "Far Seer Mothang"
+  ],
+  "type": null
+ },
+ "Errand for Quel'Danil": {
+  "category": "Hinterlands",
+  "end_npc": [
+   "Voldana"
+  ],
+  "experience": "4833",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "41",
+  "name": "Errand for Quel'Danil",
+  "next": [],
+  "objectives": "Kill 10 Witherbark Sadist and 8 Witherbark Broodguards in Shadra'alor\n- [Witherbark Sadist](Witherbark Sadist) (10)\n- [Witherbark Broodguard](Witherbark Broodguard) (8)",
+  "patch": null,
+  "previous": [
+   "Package to Quel'Danil"
+  ],
+  "quest_id": null,
+  "rewards": "Choice of:, Greatblade of Quel'Danil,, Dagger of Quel'Danil, or, Bow of Quel'Danil",
+  "source": "https://turtle-wow.fandom.com/wiki/Errand_for_Quel%27Danil",
+  "start_npc": [
+   "Loania"
+  ],
+  "type": null
+ },
+ "Expedition Gone Wrong": {
+  "category": "Moonwhisper Coast",
+  "end_npc": [],
+  "experience": "450",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "56",
+  "name": "Expedition Gone Wrong",
+  "next": [
+   "The Withered Den"
+  ],
+  "objectives": "Listen to what Andanil Sunsworn has to say about the expedition.\n- [Andanil Sunsworn listened](Andanil Sunsworn#Quotes)",
+  "patch": "1.18.1",
+  "previous": [],
+  "quest_id": 42068,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Expedition_Gone_Wrong",
+  "start_npc": [
+   "Andanil Sunsworn"
+  ],
+  "type": null
+ },
+ "Explosives Make My Heart Go BOOM!": {
+  "category": "Balor",
+  "end_npc": [],
+  "experience": "3000",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "31",
+  "name": "Explosives Make My Heart Go BOOM!",
+  "next": [
+   "Harrowing News"
+  ],
+  "objectives": "Return to Rufus Hammerstrike at the SI:7 Outpost after placing the explosives on Balor.\n- Explosive placed at the forge\n- Explosive placed at the watchtower\n- Explosive placed at the outer wall",
+  "patch": "1.18.0",
+  "previous": [
+   "Noppsy Spickerspan (quest)"
+  ],
+  "quest_id": 41698,
+  "rewards": "Ez-Thro Dynamite",
+  "source": "https://turtle-wow.fandom.com/wiki/Explosives_Make_My_Heart_Go_BOOM!",
+  "start_npc": [
+   "Rufus Hammerstrike"
+  ],
+  "type": ""
+ },
+ "Eyes of Stormreaver": {
+  "category": "Balor",
+  "end_npc": [],
+  "experience": "2800",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "32",
+  "name": "Eyes of Stormreaver",
+  "next": [],
+  "objectives": "Collect 30 Stormreaver Warlock Eye and return to Kilrogg Deadeye in Stormbreaker Point.\n- [Stormreaver Warlock Eye](Stormreaver Warlock Eye) (30)",
+  "patch": "1.18.0",
+  "previous": [],
+  "quest_id": 41829,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Eyes_of_Stormreaver",
+  "start_npc": [
+   "Kilrogg Deadeye"
+  ],
+  "type": null
+ },
+ "Facing the Elder": {
+  "category": "Moonwhisper Coast",
+  "end_npc": [
+   "Elder Moonhoof"
+  ],
+  "experience": "500",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "56",
+  "name": "Facing the Elder",
+  "next": [
+   "Seeking the Truth"
+  ],
+  "objectives": "Face the Elder Moonhoof and then speak to him in Moonhoof Village, Moonwhisper Coast.\n- Elder Moonhoof listened",
+  "patch": "1.18.1",
+  "previous": [
+   "Bloodhoof Stands with Moonhoof"
+  ],
+  "quest_id": 42073,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Facing_the_Elder",
+  "start_npc": [
+   "Moonhoof the Younger"
+  ],
+  "type": ""
+ },
+ "Faelon's Folly (quest)": {
+  "category": "Lapidis Isle",
+  "end_npc": [],
+  "experience": "4900",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "51",
+  "name": "Faelon's Folly (quest)",
+  "next": [],
+  "objectives": "Travel to [Faelon's Folly](Faelon's Folly) on [Gillijim's Island](Gillijim's Island) and slay 7 Forgotten Swordsman, 7 Drowned Souls, and 7 Forgotten Crew\n- [Forgotten Swordsman](Forgotten Swordsman) (7)\n- [Drowned Soul](Drowned Soul) (7)\n- [Forgotten Crew](Forgotten Crew) (7)",
+  "patch": null,
+  "previous": [],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Faelon%27s_Folly_(quest)",
+  "start_npc": [
+   "Devon Harkwave"
+  ],
+  "type": null
+ },
+ "Falling the Fallen": {
+  "category": "Moonwhisper Coast",
+  "end_npc": [],
+  "experience": "5800",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "54",
+  "name": "Falling the Fallen",
+  "next": [],
+  "objectives": "Bring 40 Fallen One Heads to Rhys Dawnbreeze in Sunsworn Camp on Moonwhisper Coast.\n- [Fallen One Head](Fallen One Head) (40)",
+  "patch": "1.18.1",
+  "previous": [],
+  "quest_id": 42065,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Falling_the_Fallen",
+  "start_npc": [
+   "Rhys Dawnbreeze"
+  ],
+  "type": null
+ },
+ "Fate Of The Harborage": {
+  "category": "Swamp of Sorrows",
+  "end_npc": [
+   "Sanv K'la"
+  ],
+  "experience": "8300",
+  "faction": "Neutral",
+  "is_turtle_content": true,
+  "level": "60",
+  "name": "Fate Of The Harborage",
+  "next": [
+   "Manifested Oddities"
+  ],
+  "objectives": "Alert Sanv K'la of the imminent danger.\n- [Sanv Tas'dal](Sanv Tas'dal) slain",
+  "patch": "1.18.1",
+  "previous": [
+   "An Echo From Beyond"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Fate_Of_The_Harborage",
+  "start_npc": [
+   "Kas'tal"
+  ],
+  "type": "Raid"
+ },
+ "Father Will Listen": {
+  "category": "Mulgore",
+  "end_npc": [
+   "Cairne Bloodhoof"
+  ],
+  "experience": "500",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "56",
+  "name": "Father Will Listen",
+  "next": [
+   "Bloodhoof Stands with Moonhoof"
+  ],
+  "objectives": "Report to Cairne Bloodhoof in Elders’ Rise, Thunder Bluff, Mulgore.",
+  "patch": "1.18.1",
+  "previous": [
+   "One Heir to Another"
+  ],
+  "quest_id": 42071,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Father_Will_Listen",
+  "start_npc": [
+   "Baine Bloodhoof"
+  ],
+  "type": ""
+ },
+ "Feathers on Point": {
+  "category": "Moonwhisper Coast",
+  "end_npc": [],
+  "experience": "5100",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "53",
+  "name": "Feathers on Point",
+  "next": [],
+  "objectives": "Bring 12 Azureshimmer Hippogryph Feathers to Elendon Truebough at Narvalis Point on Moonwhisper Coast. You can find them scattered throughout Moonwhisper Coast.\n- [Azureshimmer Hippogryph Feather](Azureshimmer Hippogryph Feather) (12)",
+  "patch": "1.18.1",
+  "previous": [],
+  "quest_id": 42093,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Feathers_on_Point",
+  "start_npc": [
+   "Elendon Truebough"
+  ],
+  "type": null
+ },
+ "Fel Energy Irregularities I": {
+  "category": "Blasted Lands",
+  "end_npc": [
+   "Watcher Mahar Ba"
+  ],
+  "experience": "650",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "54",
+  "name": "Fel Energy Irregularities I",
+  "next": [
+   "Fel Energy Irregularities II"
+  ],
+  "objectives": "Speak with Engineer Wigglestip and gather his report, bring it to Watcher Mahar Ba.\n- [Engineer Wigglestip's Report](Engineer Wigglestip's Report)",
+  "patch": "1.16.1",
+  "previous": [],
+  "quest_id": 40438,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Fel_Energy_Irregularities_I",
+  "start_npc": [
+   "Adjutant Scheer"
+  ],
+  "type": null
+ },
+ "Fel Energy Irregularities II": {
+  "category": "Blasted Lands",
+  "end_npc": [
+   "Archmage Ansirem Runeweaver"
+  ],
+  "experience": "2650",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "54",
+  "name": "Fel Energy Irregularities II",
+  "next": [
+   "Fel Energy Irregularities III"
+  ],
+  "objectives": "Travel to Dalaran, and deliver the Sealed Nethergarde Report to Archmage Ansirem Runeweaver.\n- [Sealed Nethergarde Report](Sealed Nethergarde Report)",
+  "patch": "1.16.1",
+  "previous": [
+   "Fel Energy Irregularities I"
+  ],
+  "quest_id": 40439,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Fel_Energy_Irregularities_II",
+  "start_npc": [
+   "Watcher Mahar Ba"
+  ],
+  "type": null
+ },
+ "Fel Energy Irregularities III": {
+  "category": "Blasted Lands",
+  "end_npc": [
+   "Watcher Mahar Ba"
+  ],
+  "experience": "2650",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "54",
+  "name": "Fel Energy Irregularities III",
+  "next": [
+   "Fel Energy Irregularities IV"
+  ],
+  "objectives": "Return to Nethergarde, and deliver the Magically Sealed Dalaran Report to Watcher Mahar Ba.\n- [Magically Sealed Dalaran Report](Magically Sealed Dalaran Report) (provided)",
+  "patch": "1.16.1",
+  "previous": [
+   "Fel Energy Irregularities II"
+  ],
+  "quest_id": 40440,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Fel_Energy_Irregularities_III",
+  "start_npc": [
+   "Archmage Ansirem Runeweaver"
+  ],
+  "type": null
+ },
+ "Fel Energy Irregularities IV": {
+  "category": "Blasted Lands",
+  "end_npc": [],
+  "experience": "4650",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "54",
+  "name": "Fel Energy Irregularities IV",
+  "next": [
+   "Fel Energy Irregularities V"
+  ],
+  "objectives": "Gather 3 Felguard Cuffs, and 3 Felhound Claws for Watcher Mahar Ba in Nethergarde Keep at the Blasted Lands.\n- [Felguard Cuff](Felguard Cuff) (3)\n- [Felhound Claw](Felhound Claw) (3)",
+  "patch": "1.16.1",
+  "previous": [
+   "Fel Energy Irregularities III"
+  ],
+  "quest_id": 40441,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Fel_Energy_Irregularities_IV",
+  "start_npc": [
+   "Watcher Mahar Ba"
+  ],
+  "type": null
+ },
+ "Fel Energy Irregularities V": {
+  "category": "Blasted Lands",
+  "end_npc": [
+   "Daio the Decrepit"
+  ],
+  "experience": "2650",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "60",
+  "name": "Fel Energy Irregularities V",
+  "next": [
+   "Fel Energy Irregularities VI"
+  ],
+  "objectives": "Travel to the Tainted Scar, and speak with Daio the Decrepit.",
+  "patch": "1.16.1",
+  "previous": [
+   "Fel Energy Irregularities IV"
+  ],
+  "quest_id": 40442,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Fel_Energy_Irregularities_V",
+  "start_npc": [
+   "Watcher Mahar Ba"
+  ],
+  "type": null
+ },
+ "Fel Energy Irregularities VI": {
+  "category": "Blasted Lands",
+  "end_npc": [],
+  "experience": "6450",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "60",
+  "name": "Fel Energy Irregularities VI",
+  "next": [
+   "Fel Energy Irregularities VII"
+  ],
+  "objectives": "Slay a Dreadlord within The Tainted Scar, and bring his Heart to Daio the Decrepit.\n- [Dreadlord Heart](Dreadlord Heart)",
+  "patch": "1.16.1",
+  "previous": [
+   "Fel Energy Irregularities V"
+  ],
+  "quest_id": 40443,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Fel_Energy_Irregularities_VI",
+  "start_npc": [
+   "Daio the Decrepit"
+  ],
+  "type": "Group"
+ },
+ "Fel Energy Irregularities VII": {
+  "category": "Blasted Lands",
+  "end_npc": [
+   "Watcher Mahar Ba"
+  ],
+  "experience": "7850",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "60",
+  "name": "Fel Energy Irregularities VII",
+  "next": [],
+  "objectives": "Return the news to Watcher Mahar Ba at Nethergarde Keep.",
+  "patch": "1.16.1",
+  "previous": [
+   "Fel Energy Irregularities VI"
+  ],
+  "quest_id": 40444,
+  "rewards": "Choice of:, Kirin Tor Shawl of Potency,, Kirin Tor Shawl of Authority,, Kirin Tor Shawl of Persecution, or, Kirin Tor Shawl of Oppresion",
+  "source": "https://turtle-wow.fandom.com/wiki/Fel_Energy_Irregularities_VII",
+  "start_npc": [
+   "Daio the Decrepit"
+  ],
+  "type": null
+ },
+ "Felstrider Retreat (quest)": {
+  "category": "Thalassian Highlands",
+  "end_npc": [
+   "Commander Braedin"
+  ],
+  "experience": "850",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "9",
+  "name": "Felstrider Retreat (quest)",
+  "next": [
+   "Back to Lady Windrunner"
+  ],
+  "objectives": "Find proof of the Blood Elf plot in [Felstrider Retreat](Felstrider Retreat).\n- [Rommath's Orders](Rommath's Orders)",
+  "patch": "1.17.1",
+  "previous": [
+   "The Silver Covenant"
+  ],
+  "quest_id": 41237,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Felstrider_Retreat_(quest)",
+  "start_npc": [
+   "Commander Braedin"
+  ],
+  "type": null
+ },
+ "Finding Akh Z'ador": {
+  "category": "Swamp of Sorrows",
+  "end_npc": [
+   "Akh Z'ador"
+  ],
+  "experience": "5000",
+  "faction": "Neutral",
+  "is_turtle_content": true,
+  "level": "52",
+  "name": "Finding Akh Z'ador",
+  "next": [
+   "Learn Of My Past"
+  ],
+  "objectives": "Find Akh Z'ador.",
+  "patch": "1.18.1",
+  "previous": [
+   "Draenic Communication"
+  ],
+  "quest_id": 40033,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Finding_Akh_Z%27ador",
+  "start_npc": [
+   "Sanv K'la"
+  ],
+  "type": null
+ },
+ "Finding Bixxle!": {
+  "category": "Tel'Abim",
+  "end_npc": [
+   "Bixxle Screwfuse"
+  ],
+  "experience": "650",
+  "faction": "Neutral",
+  "is_turtle_content": true,
+  "level": "56",
+  "name": "Finding Bixxle!",
+  "next": [
+   "A Report From Bixxle"
+  ],
+  "objectives": "Head to Bixxle's Storehouse in Northern Tel'Abim and report to Bixxle if he is still alive.",
+  "patch": "1.16.4",
+  "previous": [],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Finding_Bixxle!",
+  "start_npc": [
+   "Baron Telraz"
+  ],
+  "type": null
+ },
+ "Fit for a Prince!": {
+  "category": "Northwind",
+  "end_npc": [
+   "Anduin Wrynn"
+  ],
+  "experience": "440",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "28",
+  "name": "Fit for a Prince!",
+  "next": [],
+  "objectives": "Deliver the packed good to Anduin Wrynn, in Stormwind Keep.\n- [Goody Bag](Goody Bag)",
+  "patch": "1.18.0",
+  "previous": [
+   "Goody Bag (quest)"
+  ],
+  "quest_id": 41669,
+  "rewards": "Almanac of Prayer",
+  "source": "https://turtle-wow.fandom.com/wiki/Fit_for_a_Prince!",
+  "start_npc": [
+   "Ingvild Ellerian"
+  ],
+  "type": null
+ },
+ "Garments of the Three Siblings": {
+  "category": "Priest",
+  "end_npc": [],
+  "experience": "270",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "5",
+  "name": "Garments of the Three Siblings",
+  "next": [],
+  "objectives": "Find Brave Greenhorn and heal his wounds using Lesser Heal (Rank 2). Afterwards, grant him Power Word: Fortitude and then return to Pargan Starstrider in Bloodhoof Village, Mulgore.\n- Heal and fortify Brave Greenhorn",
+  "patch": "1.18.1",
+  "previous": [
+   "In Favor of the Three Siblings"
+  ],
+  "quest_id": 42055,
+  "rewards": "Celestial Garments",
+  "source": "https://turtle-wow.fandom.com/wiki/Garments_of_the_Three_Siblings",
+  "start_npc": [
+   "Pargan Starstrider"
+  ],
+  "type": null
+ },
+ "Genetic Alteration Anomaly!": {
+  "category": "Blasted Lands",
+  "end_npc": [],
+  "experience": "4650",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "53",
+  "name": "Genetic Alteration Anomaly!",
+  "next": [],
+  "objectives": "Collect a Pristine Helboar Brain for Engineer Wigglestip at Nethergarde Keep.\n- [Pristine Helboar Brain](Pristine Helboar Brain)",
+  "patch": "1.16.1",
+  "previous": [],
+  "quest_id": 40435,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Genetic_Alteration_Anomaly!",
+  "start_npc": [
+   "Engineer Wigglestip"
+  ],
+  "type": null
+ },
+ "Genn Greymane Must Die!": {
+  "category": "Gilneas City",
+  "end_npc": [],
+  "experience": "6200",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "49",
+  "name": "Genn Greymane Must Die!",
+  "next": [],
+  "objectives": "Enter [Gilneas City](Gilneas City) and slay [Genn Greymane](Genn Greymane), then bring his head to [Blackthorn](Blackthorn) at [Blackthorn's Camp](Blackthorn's Camp) in [Gilneas](Gilneas).\n- [Genn Greymane's Head](Genn Greymane's Head)",
+  "patch": "1.17.0",
+  "previous": [
+   "Quality Time with Blackthorn"
+  ],
+  "quest_id": null,
+  "rewards": "Choice of:, Blackthorn Gauntlets,, Banshee's Tear, or, Dark Footpad Belt",
+  "source": "https://turtle-wow.fandom.com/wiki/Genn_Greymane_Must_Die!",
+  "start_npc": [
+   "Blackthorn"
+  ],
+  "type": "Dungeon"
+ },
+ "Ghosts of Maras'ethil": {
+  "category": "Moonwhisper Coast",
+  "end_npc": [],
+  "experience": "4500",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "54",
+  "name": "Ghosts of Maras'ethil",
+  "next": [],
+  "objectives": "Find four valuable magical artifacts in Maras’ethil, then return to Tesania Shadewind in Sunsworn Camp on Moonwhisper Coast.\n- [Eye of Dreams](Eye of Dreams)\n- [Blade of Xoroth](Blade of Xoroth)\n- [Emerald Scepter](Emerald Scepter)\n- [Moonveil](Moonveil)",
+  "patch": "1.18.1",
+  "previous": [],
+  "quest_id": 42066,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Ghosts_of_Maras%27ethil",
+  "start_npc": [
+   "Tesania Shadewind"
+  ],
+  "type": null
+ },
+ "Glyphic Rune (quest)": {
+  "category": "Mage",
+  "end_npc": [
+   "Marrek Stromnur"
+  ],
+  "experience": "40",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "1",
+  "name": "Glyphic Rune (quest)",
+  "next": [],
+  "objectives": "Speak to Marrek Stromnur inside Anvilmar.\n- [Glyphic Rune](Glyphic Rune)",
+  "patch": "1.16.0",
+  "previous": [],
+  "quest_id": 3111,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Glyphic_Rune_(quest)",
+  "start_npc": [
+   "Sten Stoutarm"
+  ],
+  "type": null
+ },
+ "Goody Bag (quest)": {
+  "category": "Northwind",
+  "end_npc": [],
+  "experience": "1950",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "28",
+  "name": "Goody Bag (quest)",
+  "next": [
+   "Fit for a Prince!"
+  ],
+  "objectives": "Gather a pack of Amberglaze Donuts, Bundle of Apples and Ingvild's Pie and return to her by the statue.\n- [Pack of Amberglaze Donuts](Pack of Amberglaze Donuts)\n- [Bundle of Apples](Bundle of Apples)\n- [Ingvild's Pie](Ingvild's Pie)",
+  "patch": "1.18.0",
+  "previous": [],
+  "quest_id": 41668,
+  "rewards": "Shiny Red Apple",
+  "source": "https://turtle-wow.fandom.com/wiki/Goody_Bag_(quest)",
+  "start_npc": [
+   "Ingvild Ellerian"
+  ],
+  "type": null
+ },
+ "Grapes in the Hills": {
+  "category": "Thalassian Highlands",
+  "end_npc": [],
+  "experience": "630",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "7",
+  "name": "Grapes in the Hills",
+  "next": [],
+  "objectives": "Bring 10 Buckets of Grapes to [Fainriel Silverharp](Fainriel Silverharp) in the [Thaumarium](Thaumarium).\n- [Bucket of Grapes](Bucket of Grapes) (10)",
+  "patch": "1.17.1",
+  "previous": [],
+  "quest_id": 41218,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Grapes_in_the_Hills",
+  "start_npc": [
+   "Fainriel Silverharp"
+  ],
+  "type": null
+ },
+ "Greymane Hatred": {
+  "category": "Gilneas",
+  "end_npc": [],
+  "experience": "4950",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "45",
+  "name": "Greymane Hatred",
+  "next": [
+   "The Blackheart Killer"
+  ],
+  "objectives": "Slay those loyal to the Greymane cause, and gather from them 40 Greymane Signets for Harrison Blackheart in Gilneas.\n- [Greymane Signet](Greymane Signet) (40)",
+  "patch": "1.17.0",
+  "previous": [],
+  "quest_id": 40980,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Greymane_Hatred",
+  "start_npc": [
+   "Harrison Blackheart"
+  ],
+  "type": null
+ },
+ "Grim Sunlight": {
+  "category": "Balor",
+  "end_npc": [],
+  "experience": "2800",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "33",
+  "name": "Grim Sunlight",
+  "next": [],
+  "objectives": "Kill 12 Stormreaver Mystic, return to Stormbreaker Point once your task is complete.\n- [Stormreaver Mystic](Stormreaver Mystic) slain (12)",
+  "patch": "1.18.0",
+  "previous": [],
+  "quest_id": 41822,
+  "rewards": "Sunkissed Shoulderpads",
+  "source": "https://turtle-wow.fandom.com/wiki/Grim_Sunlight",
+  "start_npc": [
+   "Uda'pe Sungrass"
+  ],
+  "type": ""
+ },
+ "Hallowed Note (quest)": {
+  "category": "Priest",
+  "end_npc": [
+   "Nuhlok Starstrider"
+  ],
+  "experience": "40",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "1",
+  "name": "Hallowed Note (quest)",
+  "next": [],
+  "objectives": "Read the Hallowed Note and speak to Nuhlok Starstrider in Camp Narache.\n- [Hallowed Note](Hallowed Note)",
+  "patch": "1.18.1",
+  "previous": [],
+  "quest_id": 42054,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Hallowed_Note_(quest)",
+  "start_npc": [
+   "Grull Hawkwind"
+  ],
+  "type": null
+ },
+ "Harrowing News": {
+  "category": "Balor",
+  "end_npc": [
+   "Verona Gillian"
+  ],
+  "experience": "300",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "32",
+  "name": "Harrowing News",
+  "next": [
+   "Into The Hornet's Nest"
+  ],
+  "objectives": "Give Verona Gillian on Balor the report by Noppsy Spickerspan.",
+  "patch": "1.18.0",
+  "previous": [
+   "You May Call This Cheating...",
+   "Demons Galore",
+   "Explosives Make My Heart Go BOOM!"
+  ],
+  "quest_id": 41699,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Harrowing_News",
+  "start_npc": [
+   "Noppsy Spickerspan"
+  ],
+  "type": ""
+ },
+ "Heart of Darkness": {
+  "category": "Stormwrought Ruins",
+  "end_npc": [],
+  "experience": "3600",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "38",
+  "name": "Heart of Darkness",
+  "next": [],
+  "objectives": "Stop the Shadow Council in the Stormwrought Ruins.\n- [Ighal'for](Ighal'for) slain\n- [Mergothid](Mergothid) slain",
+  "patch": "1.18.0",
+  "previous": [
+   "Into The Hornet's Nest"
+  ],
+  "quest_id": 41787,
+  "rewards": "Choice of:, Rufus' Trusty Tankard,, Kinrial's Scalpel,, Noppsy's Compendium, or, Nippsy's Precision Rifle",
+  "source": "https://turtle-wow.fandom.com/wiki/Heart_of_Darkness",
+  "start_npc": [
+   "Verona Gillian"
+  ],
+  "type": "Dungeon"
+ },
+ "Heaven Falling Down": {
+  "category": "Moonwhisper Coast",
+  "end_npc": [],
+  "experience": "5200",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "55",
+  "name": "Heaven Falling Down",
+  "next": [],
+  "objectives": "Retrieve the Meteor Shard for Arcanist Cerulon in Sunsworn Camp on Moonwhisper Coast.\n- [Meteor Shard](Meteor Shard)",
+  "patch": "1.18.1",
+  "previous": [],
+  "quest_id": 42067,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Heaven_Falling_Down",
+  "start_npc": [
+   "Arcanist Cerulon"
+  ],
+  "type": "Group"
+ },
+ "Heist in Dryrock Mine": {
+  "category": "Gilneas",
+  "end_npc": [],
+  "experience": "3375",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "45",
+  "name": "Heist in Dryrock Mine",
+  "next": [
+   "Quality Time with Blackthorn"
+  ],
+  "objectives": "Gather 16 Sacks of Mithril Ore from [Dryrock Mine](Dryrock Mine) for [Luke Agamand](Luke Agamand) in [Blackthorn's Camp](Blackthorn's Camp).\n- Sack of Mithril Ore (16)",
+  "patch": "1.17.0",
+  "previous": [
+   "Report to Luke Agamand"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Heist_in_Dryrock_Mine",
+  "start_npc": [
+   "Luke Agamand"
+  ],
+  "type": null
+ },
+ "Help The League?": {
+  "category": "Wetlands",
+  "end_npc": [
+   "Grovug Mithrilmane"
+  ],
+  "experience": "2150",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "27",
+  "name": "Help The League?",
+  "next": [],
+  "objectives": "Collect 10 Raptor Eggs and bring them to [Grovug Mithrilmane](Grovug Mithrilmane) stationed in Dun Agrath.\n- [Raptor Egg](Raptor Egg): 0/10",
+  "patch": null,
+  "previous": [
+   "Join The League!"
+  ],
+  "quest_id": null,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Help_The_League%3F",
+  "start_npc": [
+   "Merrin Rockweaver"
+  ],
+  "type": null
+ },
+ "Hidden Enemies": {
+  "category": "Orgrimmar",
+  "end_npc": [],
+  "experience": "900",
+  "faction": "Horde",
+  "is_turtle_content": false,
+  "level": "12",
+  "name": "Hidden Enemies",
+  "next": [
+   "Hidden Enemies (2)"
+  ],
+  "objectives": "Bring a Lieutenant's Insignia to [Thrall](Thrall) in [Orgrimmar](Orgrimmar).\n- [Lieutenant's Insignia](Lieutenant's Insignia)",
+  "patch": null,
+  "previous": [],
+  "quest_id": 5726,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Hidden_Enemies",
+  "start_npc": [
+   "Thrall"
+  ],
+  "type": null
+ },
+ "Highly Unexpected Event": {
+  "category": "Stranglethorn Vale",
+  "end_npc": [
+   "Lyvdia Dawnbird"
+  ],
+  "experience": "1250",
+  "faction": "Neutral",
+  "is_turtle_content": false,
+  "level": "48",
+  "name": "Highly Unexpected Event",
+  "next": [
+   "Taking the Booty Home"
+  ],
+  "objectives": "Kill Fazgel Mechaflame.\n- [Fazgel's Shrink Ray](Fazgel's Shrink Ray)",
+  "patch": null,
+  "previous": [
+   "Mechaflame's Bargain"
+  ],
+  "quest_id": 41323,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Highly_Unexpected_Event",
+  "start_npc": [
+   "Fazgel Mechaflame"
+  ],
+  "type": null
+ },
+ "Homecoming": {
+  "category": "Moonwhisper Coast",
+  "end_npc": [
+   "Sanv K'la"
+  ],
+  "experience": "1200",
+  "faction": "Neutral",
+  "is_turtle_content": true,
+  "level": "52",
+  "name": "Homecoming",
+  "next": [],
+  "objectives": "Bring Elder Krasheen's projection crystal to Sanv K'la in the Harborage in the Swamp of Sorrows.\n- [Elder Krasheen's Projection Crystal](Elder Krasheen's Projection Crystal)",
+  "patch": "1.18.1",
+  "previous": [
+   "A Familiar Disturbance"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Homecoming",
+  "start_npc": [
+   "Elder Krasheen"
+  ],
+  "type": null
+ },
+ "In Dreams": {
+  "category": "Western Plaguelands",
+  "end_npc": [
+   "Tirion Fordring"
+  ],
+  "experience": "9950 EXP (or at level 70)",
+  "faction": null,
+  "is_turtle_content": false,
+  "level": "60",
+  "name": "In Dreams",
+  "next": [],
+  "objectives": "Escort [Taelan Fordring](Taelan Fordring) out of [Hearthglen](Hearthglen). \n- Redemption?",
+  "patch": null,
+  "previous": [
+   "Scarlet Subterfuge"
+  ],
+  "quest_id": 5944,
+  "rewards": "Mark of Fordring, Ornate Adamantium Breastplate, Shimmering Platinum Warhammer, Shroud of the Exile or Fordring's Seal",
+  "source": "https://turtle-wow.fandom.com/wiki/In_Dreams",
+  "start_npc": [
+   "Highlord Taelan Fordring"
+  ],
+  "type": "Group"
+ },
+ "In Favor of the Three Siblings": {
+  "category": "Priest",
+  "end_npc": [
+   "Pargan Starstrider"
+  ],
+  "experience": "90",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "5",
+  "name": "In Favor of the Three Siblings",
+  "next": [
+   "Garments of the Three Siblings"
+  ],
+  "objectives": "Seek Pargan Starstrider in Bloodhoof Village, Mulgore.",
+  "patch": "1.18.1",
+  "previous": [],
+  "quest_id": 42055,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/In_Favor_of_the_Three_Siblings",
+  "start_npc": [
+   "Nuhlok Starstrider"
+  ],
+  "type": null
+ },
+ "In Memory of Franklin": {
+  "category": "Gilneas",
+  "end_npc": [],
+  "experience": "450",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "45",
+  "name": "In Memory of Franklin",
+  "next": [],
+  "objectives": "Place the Blackheart Necklace on the grave of Franklin.\n- Place the Blackheart Necklace on the grave of Franklin",
+  "patch": "1.17.0",
+  "previous": [
+   "The Blackheart Killer"
+  ],
+  "quest_id": 40982,
+  "rewards": "Choice of:, Bleaktalon, or, Blackheart Boots",
+  "source": "https://turtle-wow.fandom.com/wiki/In_Memory_of_Franklin",
+  "start_npc": [
+   "Harrison Blackheart"
+  ],
+  "type": null
+ },
+ "In Search of Tauren Relics": {
+  "category": "Windhorn Canyon",
+  "end_npc": [],
+  "experience": "2350",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "27",
+  "name": "In Search of Tauren Relics",
+  "next": [],
+  "objectives": "Gather 8 Windhorn Relics for Tarwegg Dustbrow within Windhorn Canyon and return to him in Ironforge.\n- [Windhorn Relic](Windhorn Relic) (8)",
+  "patch": "1.18.1",
+  "previous": [],
+  "quest_id": 41976,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/In_Search_of_Tauren_Relics",
+  "start_npc": [
+   "Tarwegg Dustbrow"
+  ],
+  "type": "Dungeon"
+ },
+ "Information for Thrall": {
+  "category": "Durotar",
+  "end_npc": [
+   "Thrall"
+  ],
+  "experience": "370",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "14",
+  "name": "Information for Thrall",
+  "next": [
+   "A War Worth Fighting"
+  ],
+  "objectives": "Listen to Mally O'Flor tell his information, when complete, bring the news to Thrall in Orgrimmar. \n- Bring the news to Thrall in Orgrimmar",
+  "patch": "1.16.4",
+  "previous": [
+   "A Favor for Mally"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Information_for_Thrall",
+  "start_npc": [
+   "Mally O'Flor"
+  ],
+  "type": null
+ },
+ "Innocence Lost": {
+  "category": "Stormwrought Ruins",
+  "end_npc": [],
+  "experience": "3600",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "34",
+  "name": "Innocence Lost",
+  "next": [],
+  "objectives": "Slay Remains of the Innocent and return to O'jin in Stormbreaker Point.\n- [Remains of the Innocent](Remains of the Innocent) slain",
+  "patch": "1.18.0",
+  "previous": [],
+  "quest_id": 41821,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Innocence_Lost",
+  "start_npc": [
+   "O'jin"
+  ],
+  "type": "Dungeon"
+ },
+ "Into The Hornet's Nest": {
+  "category": "Balor",
+  "end_npc": [],
+  "experience": "2900",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "33",
+  "name": "Into The Hornet's Nest",
+  "next": [
+   "Heart of Darkness",
+   "Assassin In Training"
+  ],
+  "objectives": "Infiltrate Stormwrought Castle on Balor and find out who is conspiring with the Stormreaver orcs. Report to Verona Gillian in the SI:7 Outpost on Balor when done.\n- [Nethercaller Mahlgus](Nethercaller Mahlgus) slain\n- [Warlord Jawbreaker](Warlord Jawbreaker) slain\n- [Stormreaver Insignia](Stormreaver Insignia) (20)",
+  "patch": "1.18.0",
+  "previous": [
+   "Harrowing News"
+  ],
+  "quest_id": 41761,
+  "rewards": "Choice of:, Clasps of Subterfuge, or, Seabreeze Mantle",
+  "source": "https://turtle-wow.fandom.com/wiki/Into_The_Hornet%27s_Nest",
+  "start_npc": [
+   "Verona Gillian"
+  ],
+  "type": "Group"
+ },
+ "Into The Tortured Past": {
+  "category": "Balor",
+  "end_npc": [
+   "Verona Gillian"
+  ],
+  "experience": "300",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "34",
+  "name": "Into The Tortured Past",
+  "next": [],
+  "objectives": "Travel to Balor to continue your investigation.",
+  "patch": "1.18.0",
+  "previous": [
+   "A Veiled Threat"
+  ],
+  "quest_id": 41686,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Into_The_Tortured_Past",
+  "start_npc": [
+   "Master Mathias Shaw"
+  ],
+  "type": ""
+ },
+ "Into the Dream I": {
+  "category": "Hyjal",
+  "end_npc": [],
+  "experience": "650",
+  "faction": "Neutral",
+  "is_turtle_content": false,
+  "level": "60",
+  "name": "Into the Dream I",
+  "next": [
+   "Into the Dream II"
+  ],
+  "objectives": "Listen to the story of Ralathius.",
+  "patch": null,
+  "previous": [],
+  "quest_id": 40957,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Into_the_Dream_I",
+  "start_npc": [
+   "Ralathius"
+  ],
+  "type": null
+ },
+ "It Can't Rain All the Time": {
+  "category": "Balor",
+  "end_npc": [],
+  "experience": "4200",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "38",
+  "name": "It Can't Rain All the Time",
+  "next": [
+   "Storm's End"
+  ],
+  "objectives": "Slay Dagar the Glutton, Oronok Torn-Heart, Ighal'for and return to Kilrogg Deadeye in Stormbreaker Point.\n- [Dagar the Glutton](Dagar the Glutton) slain\n- [Oronok Torn-Heart](Oronok Torn-Heart) slain\n- [Ighal'for](Ighal'for) slain",
+  "patch": "1.18.0",
+  "previous": [
+   "Colony of Ants"
+  ],
+  "quest_id": 41833,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/It_Can%27t_Rain_All_the_Time",
+  "start_npc": [
+   "Kilrogg Deadeye"
+  ],
+  "type": "Dungeon"
+ },
+ "Join The League!": {
+  "category": "Wetlands",
+  "end_npc": [
+   "Merrin Rockweaver"
+  ],
+  "experience": "375",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "27",
+  "name": "Join The League!",
+  "next": [
+   "Help The League?"
+  ],
+  "objectives": "Report to Merrin Rockweaver to become a great explorer!",
+  "patch": null,
+  "previous": [],
+  "quest_id": null,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Join_The_League!",
+  "start_npc": [
+   "Junder Brokk"
+  ],
+  "type": null
+ },
+ "Keeper of the Broken Grove": {
+  "category": "Moonwhisper Coast",
+  "end_npc": [],
+  "experience": "8100",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "56",
+  "name": "Keeper of the Broken Grove",
+  "next": [],
+  "objectives": "Slay Keeper Krothis in Elun’aran and return to Sister Mirallun.\n- [Keeper Krothis](Keeper Krothis) slain",
+  "patch": "1.18.1",
+  "previous": [
+   "The Rot of Elun'aran"
+  ],
+  "quest_id": 42097,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Keeper_of_the_Broken_Grove",
+  "start_npc": [
+   "Sister Mirallun"
+  ],
+  "type": "Group"
+ },
+ "Kul Tiran Provisions: Food": {
+  "category": "The Barrens",
+  "end_npc": [],
+  "experience": "",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "16",
+  "name": "Kul Tiran Provisions: Food",
+  "next": [
+   "Kul Tiran Provisions: Special Goods"
+  ],
+  "objectives": "Collect 5 Kodo Meat from wild Kodo’s in the Barrens for Deckmaster Darkhollow at Anchor’s Edge in the Barrens.\n- [Kodo Meat](Kodo Meat) (5)",
+  "patch": null,
+  "previous": [],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Kul_Tiran_Provisions:_Food",
+  "start_npc": [
+   "Deckmaster Darkhollow"
+  ],
+  "type": ""
+ },
+ "Kul Tiran Provisions: Special Goods": {
+  "category": "The Barrens",
+  "end_npc": [],
+  "experience": "",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "16",
+  "name": "Kul Tiran Provisions: Special Goods",
+  "next": [],
+  "objectives": "Collect the Smuggled Gunpowder from Ratchet and the Smuggled Procurements from Theramore for Deckmaster Darkhollow at Anchor's Edge in the Barrens.\n- [Smuggled Gunpowder](Smuggled Gunpowder)\n- [Smuggled Procurements](Smuggled Procurements)",
+  "patch": null,
+  "previous": [],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Kul_Tiran_Provisions:_Special_Goods",
+  "start_npc": [
+   "Deckmaster Darkhollow"
+  ],
+  "type": ""
+ },
+ "Lady Who?": {
+  "category": "Balor",
+  "end_npc": [],
+  "experience": "2800",
+  "faction": "Neutral",
+  "is_turtle_content": true,
+  "level": "33",
+  "name": "Lady Who?",
+  "next": [
+   "Storm, Twilight and Hammer"
+  ],
+  "objectives": "Slay Lady Harelyss, return her soul and the item she carries to Drak'thul in his hut.\n- [Lady Harelyss](Lady Harelyss) slain\n- [Harelyss' Soul](Harelyss' Soul)\n- [Rusty Sealed Lockbox](Rusty Sealed Lockbox)",
+  "patch": "1.18.0",
+  "previous": [],
+  "quest_id": 41836,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Lady_Who%3F",
+  "start_npc": [
+   "Drak'thul"
+  ],
+  "type": ""
+ },
+ "Last of the Living Dead": {
+  "category": "Gilneas",
+  "end_npc": [],
+  "experience": "3650",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "42",
+  "name": "Last of the Living Dead",
+  "next": [
+   "We Take It From The Living"
+  ],
+  "objectives": "Slay 8 Shambling Dead and 8 Lingering Skeletons for Orvan Darkeye at the Ruins of Greyshire in Gilneas.\n- [Lingering Skeleton](Lingering Skeleton) slain (8)\n- [Shambling Dead](Shambling Dead) slain (8)",
+  "patch": "1.17.0",
+  "previous": [
+   "All We Need is Blood"
+  ],
+  "quest_id": 40879,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Last_of_the_Living_Dead",
+  "start_npc": [
+   "Orvan Darkeye"
+  ],
+  "type": null
+ },
+ "Learn Of My Past": {
+  "category": "Azshara",
+  "end_npc": [
+   "Akh Z'ador"
+  ],
+  "experience": "2300",
+  "faction": "Neutral",
+  "is_turtle_content": true,
+  "level": "52",
+  "name": "Learn Of My Past",
+  "next": [
+   "Rift Fatigue: Mind",
+   "Rift Fatigue: Body"
+  ],
+  "objectives": "Listen to Akh Z'ador's story.",
+  "patch": "1.18.1",
+  "previous": [
+   "Finding Akh Z'ador"
+  ],
+  "quest_id": 41320,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Learn_Of_My_Past",
+  "start_npc": [
+   "Akh Z'ador"
+  ],
+  "type": null
+ },
+ "Led Astray": {
+  "category": "Moonwhisper Coast",
+  "end_npc": [],
+  "experience": "8100",
+  "faction": "Neutral",
+  "is_turtle_content": true,
+  "level": "58",
+  "name": "Led Astray",
+  "next": [],
+  "objectives": "Stop the misguided druids on Tyrandas and return to Keeper Bandalar in the Grove of the Sun on Tyrandas afterwards.\n- [Misguided Naturalist](Misguided Naturalist) slain (10)\n- [Adherent of Mothshroud](Adherent of Mothshroud) slain (10)\n- [Withered Druid](Withered Druid) slain (20)\n- [Deranged Druid](Deranged Druid) slain (20)",
+  "patch": "1.18.1",
+  "previous": [],
+  "quest_id": 42042,
+  "rewards": "Choice of:, Bloom of the Sun,, Keeper's Boots,, Crown of Bandalar, or, Dryadroot Necklace",
+  "source": "https://turtle-wow.fandom.com/wiki/Led_Astray",
+  "start_npc": [
+   "Keeper Bandalar"
+  ],
+  "type": "Group"
+ },
+ "Legacy of Perenolde": {
+  "category": "Gilneas",
+  "end_npc": [],
+  "experience": "3850",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "44",
+  "name": "Legacy of Perenolde",
+  "next": [],
+  "objectives": "Find any information about Isiden Perenolde. He is rumored to be kept captive at the Dryrock Pit in Gilneas.\n- [Dossier: Isiden Perenolde](Dossier: Isiden Perenolde)",
+  "patch": "1.17.0",
+  "previous": [],
+  "quest_id": 41121,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Legacy_of_Perenolde",
+  "start_npc": [
+   "Lord Ivar Pyrewood"
+  ],
+  "type": null
+ },
+ "Legend of Dawnstone": {
+  "category": "Gilneas",
+  "end_npc": [],
+  "experience": "3850",
+  "faction": "Neutral",
+  "is_turtle_content": true,
+  "level": "39",
+  "name": "Legend of Dawnstone",
+  "next": [],
+  "objectives": "Bring 12 chunks of Dawnstone Ore to Kurnen Oathbrace in Booty Bay. The ore can be found only in Dawnstone Mine in Gilneas.\n- [Dawnstone Ore](Dawnstone Ore) (12)",
+  "patch": "1.17.0",
+  "previous": [],
+  "quest_id": null,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Legend_of_Dawnstone",
+  "start_npc": [
+   "Kurnen Oathbrace"
+  ],
+  "type": null
+ },
+ "Letter from Maltimor": {
+  "category": "Westfall",
+  "end_npc": [
+   "Maltimor Gartside"
+  ],
+  "experience": "1000",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "25",
+  "name": "Letter from Maltimor",
+  "next": [],
+  "objectives": "Confront Maltimor about the letter.\n- Listen to Maltimor",
+  "patch": null,
+  "previous": [],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Letter_from_Maltimor",
+  "start_npc": [
+   "Letter from Maltimor (item)"
+  ],
+  "type": null
+ },
+ "Lieutenant Alverold (quest)": {
+  "category": "Durotar",
+  "end_npc": [],
+  "experience": "2450",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "20",
+  "name": "Lieutenant Alverold (quest)",
+  "next": [
+   "A Hero's Reward"
+  ],
+  "objectives": "Slay Sir Danuvis and bring the Head of Alverold to Warbringer Dar'nakk in Razor Hill. \n- [Sir Danuvis](Sir Danuvis)\n- [Head of Alverold](Head of Alverold)",
+  "patch": "1.16.4",
+  "previous": [
+   "Anchor's End",
+   "Cutting Ranks"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Lieutenant_Alverold_(quest)",
+  "start_npc": [
+   "Warbringer Dar'nakk"
+  ],
+  "type": "Group"
+ },
+ "Light of An'she (2)": {
+  "category": "Priest",
+  "end_npc": [],
+  "experience": "+50 Thunder Bluff",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "10",
+  "name": "Light of An'she (2)",
+  "next": [],
+  "objectives": null,
+  "patch": "1.18.1",
+  "previous": [
+   "Light of An'she (quest)"
+  ],
+  "quest_id": 42057,
+  "rewards": "Light of An'she",
+  "source": "https://turtle-wow.fandom.com/wiki/Light_of_An%27she_(2)",
+  "start_npc": [
+   "Artahla Starstrider"
+  ],
+  "type": null
+ },
+ "Light of An'she (quest)": {
+  "category": "Priest",
+  "end_npc": [
+   "Artahla Starstrider"
+  ],
+  "experience": "+50 Thunder Bluff",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "10",
+  "name": "Light of An'she (quest)",
+  "next": [
+   "Light of An'she (2)"
+  ],
+  "objectives": "Speak to Artahla Starstrider in Thunder Bluff.",
+  "patch": "1.18.1",
+  "previous": [],
+  "quest_id": 42058,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Light_of_An%27she_(quest)",
+  "start_npc": [
+   "Pargan Starstrider",
+   "Aelthalyste",
+   "Tai'jin"
+  ],
+  "type": null
+ },
+ "Living Fungus": {
+  "category": "Balor",
+  "end_npc": [],
+  "experience": "3200",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "33",
+  "name": "Living Fungus",
+  "next": [
+   "Mycellakos (quest)"
+  ],
+  "objectives": "Collect 7 Vegetative Sample from the Poisonous and Living Mushroom Beasts and return to Uda'pe Sungrass in Stormbreaker Point in Balor.\n- [Vegetative Sample](Vegetative Sample) (7)",
+  "patch": "1.18.0",
+  "previous": [],
+  "quest_id": 41823,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Living_Fungus",
+  "start_npc": [
+   "Uda'pe Sungrass"
+  ],
+  "type": ""
+ },
+ "Magister's Letter (quest)": {
+  "category": "Mage",
+  "end_npc": [
+   "Magister Ala'shor Sunblood"
+  ],
+  "experience": "400",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "1",
+  "name": "Magister's Letter (quest)",
+  "next": [],
+  "objectives": "Read the Magister's Letter and speak to Magister Ala'shor.\n- [Magister's Letter](Magister's Letter)",
+  "patch": "1.17.1",
+  "previous": [
+   "Stocking Up on Wood"
+  ],
+  "quest_id": null,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Magister%27s_Letter_(quest)",
+  "start_npc": [
+   "Vyrin Swiftwind"
+  ],
+  "type": null
+ },
+ "Manifested Oddities": {
+  "category": "Swamp of Sorrows",
+  "end_npc": [
+   "Akh Z'ador"
+  ],
+  "experience": "8300",
+  "faction": "Neutral",
+  "is_turtle_content": true,
+  "level": "60",
+  "name": "Manifested Oddities",
+  "next": [
+   "A Favor Asked"
+  ],
+  "objectives": "Speak with Akh Z'ador in the Harborage.",
+  "patch": "1.18.1",
+  "previous": [
+   "Fate Of The Harborage"
+  ],
+  "quest_id": null,
+  "rewards": "Pure Draenethyst Gemstone",
+  "source": "https://turtle-wow.fandom.com/wiki/Manifested_Oddities",
+  "start_npc": [
+   "Sanv K'la"
+  ],
+  "type": null
+ },
+ "Mathias and the Defias": {
+  "category": "Rogue",
+  "end_npc": [
+   "Amber Kearnen"
+  ],
+  "experience": "40-390 XP",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "20",
+  "name": "Mathias and the Defias",
+  "next": [
+   "Klaven's Tower (quest)"
+  ],
+  "objectives": null,
+  "patch": null,
+  "previous": [],
+  "quest_id": 2360,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Mathias_and_the_Defias",
+  "start_npc": [
+   "Master Mathias Shaw"
+  ],
+  "type": "Class"
+ },
+ "Meat for Viceclaw!": {
+  "category": "Tanaris",
+  "end_npc": [],
+  "experience": "3000",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "43",
+  "name": "Meat for Viceclaw!",
+  "next": [],
+  "objectives": "Bring 10 chunks of Turtle Meat to Ekka at Sandmoon Village in Tanaris.\n- [Turtle Meat](Turtle Meat) (10)",
+  "patch": "1.16.1",
+  "previous": [],
+  "quest_id": 40528,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Meat_for_Viceclaw!",
+  "start_npc": [
+   "Ekka"
+  ],
+  "type": null
+ },
+ "Mere Thoughts": {
+  "category": "Balor",
+  "end_npc": [],
+  "experience": "2800",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "33",
+  "name": "Mere Thoughts",
+  "next": [
+   "Colony of Ants"
+  ],
+  "objectives": "Slay 5 Stormreaver Outrunner, 10 Stormreaver Ravager, 5 Stormreaver Drone, 5 Stormreaver Raider and return to Kilrogg Deadeye in Stormbreaker Point.\n- [Stormreaver Outrunner](Stormreaver Outrunner) slain (5)\n- [Stormreaver Ravager](Stormreaver Ravager) slain (10)\n- [Stormreaver Drone](Stormreaver Drone) slain (5)\n- [Stormreaver Raider](Stormreaver Raider) slain (5)",
+  "patch": "1.18.0",
+  "previous": [
+   "Deep in the Mines"
+  ],
+  "quest_id": 41831,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Mere_Thoughts",
+  "start_npc": [
+   "Kilrogg Deadeye"
+  ],
+  "type": null
+ },
+ "Message for the Windrunner": {
+  "category": "Thalassian Highlands",
+  "end_npc": [
+   "Vereesa Windrunner"
+  ],
+  "experience": "70",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "5",
+  "name": "Message for the Windrunner",
+  "next": [
+   "The Silver Covenant"
+  ],
+  "objectives": "Bring the Feltouched Letter to Lady [Vereesa Windrunner](Vereesa Windrunner) in [Alah'Thalas](Alah'Thalas).\n- [Feltouched Letter](Feltouched Letter) (provided)",
+  "patch": "1.17.1",
+  "previous": [
+   "A Letter from the Royalty"
+  ],
+  "quest_id": 41195,
+  "rewards": "Thalassian Handguards",
+  "source": "https://turtle-wow.fandom.com/wiki/Message_for_the_Windrunner",
+  "start_npc": [
+   "Commander Anarileth"
+  ],
+  "type": null
+ },
+ "Mindless Monster": {
+  "category": "Moonwhisper Coast",
+  "end_npc": [],
+  "experience": "6300",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "55",
+  "name": "Mindless Monster",
+  "next": [
+   "One Heir to Another"
+  ],
+  "objectives": "Kill Baxdi’zha in Riverhorn Village. Return to Moonhoof the Younger in Moonhoof Village once you are done.\n- Baxdi’zha slain",
+  "patch": "1.18.1",
+  "previous": [
+   "Shade Mother"
+  ],
+  "quest_id": 41995,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Mindless_Monster",
+  "start_npc": [
+   "Moonhoof the Younger"
+  ],
+  "type": ""
+ },
+ "Moondancer Lives?": {
+  "category": "Moonwhisper Coast",
+  "end_npc": [
+   "Ireth Moondancer"
+  ],
+  "experience": "4200",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "57",
+  "name": "Moondancer Lives?",
+  "next": [
+   "Price of Betrayal"
+  ],
+  "objectives": "Find Ireth Moondancer in the Ruins of Nendins, Moonwhisper Coast.",
+  "patch": "1.18.1",
+  "previous": [
+   "Seeking the Truth"
+  ],
+  "quest_id": 42080,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Moondancer_Lives%3F",
+  "start_npc": [
+   "Moonhoof the Younger"
+  ],
+  "type": ""
+ },
+ "Moonhoof Rests": {
+  "category": "Moonwhisper Coast",
+  "end_npc": [
+   "Elder Moonhoof"
+  ],
+  "experience": "4200",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "59",
+  "name": "Moonhoof Rests",
+  "next": [],
+  "objectives": "Report to Elder Moonhoof in Moonhoof Village, Moonwhisper Coast.",
+  "patch": "1.18.1",
+  "previous": [
+   "Mothshroud Falls"
+  ],
+  "quest_id": 42078,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Moonhoof_Rests",
+  "start_npc": [
+   "Moonhoof the Younger"
+  ],
+  "type": null
+ },
+ "Mothshroud Falls": {
+  "category": "Moonwhisper Coast",
+  "end_npc": [
+   "Moonhoof the Younger"
+  ],
+  "experience": "9200",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "59",
+  "name": "Mothshroud Falls",
+  "next": [
+   "Moonhoof Rests"
+  ],
+  "objectives": "Kill Arch Druid Mothshroud atop the Temple of Elunaris, Tyrandas and return to the Younger Moonhoof in Moonhoof Village, Moonwhisper Coast.\n- [Arch Druid Mothshroud](Arch Druid Mothshroud) slain",
+  "patch": "1.18.1",
+  "previous": [
+   "Return to the Dream"
+  ],
+  "quest_id": 42077,
+  "rewards": "Choice of:, Lens of Maras'ethil,, Turquoise Signet of Lo'sho, or, Crown of An'she",
+  "source": "https://turtle-wow.fandom.com/wiki/Mothshroud_Falls",
+  "start_npc": [
+   "Ireth Moondancer"
+  ],
+  "type": "Group"
+ },
+ "Mount Hyjal In Turmoil": {
+  "category": "Moonglade",
+  "end_npc": [
+   "Arch Druid Dreamwind"
+  ],
+  "experience": "1,200",
+  "faction": null,
+  "is_turtle_content": true,
+  "level": "60",
+  "name": "Mount Hyjal In Turmoil",
+  "next": [],
+  "objectives": "Seek the [druid](druid)s at the foot of the [World Tree](World Tree) [Nordrassil](Nordrassil) in [Hyjal](Hyjal).",
+  "patch": "1.17.0",
+  "previous": [],
+  "quest_id": 41338,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Mount_Hyjal_In_Turmoil",
+  "start_npc": [
+   "Loganaar"
+  ],
+  "type": null
+ },
+ "My Darling Wife": {
+  "category": "Balor",
+  "end_npc": [
+   "Verona Gillian"
+  ],
+  "experience": "360",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "28",
+  "name": "My Darling Wife",
+  "next": [],
+  "objectives": "Ronald Gillian asked you to join his wife on Balor to assist in her work.",
+  "patch": "1.18.0",
+  "previous": [],
+  "quest_id": 41798,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/My_Darling_Wife",
+  "start_npc": [
+   "Ronald Gillian"
+  ],
+  "type": ""
+ },
+ "Mycellakos (quest)": {
+  "category": "Stormwrought Ruins",
+  "end_npc": [],
+  "experience": "3600",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "33",
+  "name": "Mycellakos (quest)",
+  "next": [
+   "The Matron Will Know"
+  ],
+  "objectives": "Slay Mycellakos and bring back Core of Mycellakos back to Uda'pe Sungrass in Stormbreaker Point.\n- [Mycellakos](Mycellakos) slain\n- [Heart of Mycellakos](Heart of Mycellakos)",
+  "patch": "1.18.0",
+  "previous": [
+   "Living Fungus"
+  ],
+  "quest_id": 41824,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Mycellakos_(quest)",
+  "start_npc": [
+   "Uda'pe Sungrass"
+  ],
+  "type": "Dungeon"
+ },
+ "Natural Remedies": {
+  "category": "Grim Reaches",
+  "end_npc": [],
+  "experience": "2250",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "38",
+  "name": "Natural Remedies",
+  "next": [
+   "Dark Essence (quest)"
+  ],
+  "objectives": "Gather Lingering Fel Energy from the demons in Desolace, and a Crystal Spine Scale from the basilisks in Stranglethorn Vale for Far Seer Mothang at Shatterblade Post in Grim Reaches.\n- [Lingering Fel Energy](Lingering Fel Energy)\n- [Crystal Spine Scale](Crystal Spine Scale)",
+  "patch": "1.18.0",
+  "previous": [
+   "Entranced Magic"
+  ],
+  "quest_id": 41728,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Natural_Remedies",
+  "start_npc": [
+   "Far Seer Mothang"
+  ],
+  "type": null
+ },
+ "Noppsy Spickerspan (quest)": {
+  "category": "Balor",
+  "end_npc": [
+   "Noppsy Spickerspan"
+  ],
+  "experience": "400",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "30",
+  "name": "Noppsy Spickerspan (quest)",
+  "next": [
+   "You May Call This Cheating...",
+   "Demons Galore",
+   "Explosives Make My Heart Go BOOM!"
+  ],
+  "objectives": "Bring Noppsy Spickerspan on Balor the Stormreaver Scroll.\n- [Stormreaver Scroll](Stormreaver Scroll)",
+  "patch": "1.18.0",
+  "previous": [
+   "Assessing The Situation"
+  ],
+  "quest_id": 41695,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Noppsy_Spickerspan_(quest)",
+  "start_npc": [
+   "Verona Gillian"
+  ],
+  "type": ""
+ },
+ "Novice In A Barren Land": {
+  "category": "Swamp of Sorrows",
+  "end_npc": [
+   "Kas'tal"
+  ],
+  "experience": "2300",
+  "faction": "Neutral",
+  "is_turtle_content": true,
+  "level": "54",
+  "name": "Novice In A Barren Land",
+  "next": [
+   "An Echo From Beyond"
+  ],
+  "objectives": "Search for Akh Z'ador's apprentice in the [Blasted Lands](Blasted Lands).",
+  "patch": "1.18.1",
+  "previous": [
+   "The Riftwalker's Cane"
+  ],
+  "quest_id": 41324,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Novice_In_A_Barren_Land",
+  "start_npc": [
+   "Akh Z'ador"
+  ],
+  "type": null
+ },
+ "Of New and Old": {
+  "category": "Burning Steppes",
+  "end_npc": [
+   "Thrall"
+  ],
+  "experience": "500",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "52",
+  "name": "Of New and Old",
+  "next": [
+   "Of New and Old II"
+  ],
+  "objectives": "Deliver the Karfang Missive to Thrall in Orgrimmar.\n- [Karfang Missive](Karfang Missive)",
+  "patch": "1.16.1",
+  "previous": [],
+  "quest_id": 40501,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Of_New_and_Old",
+  "start_npc": [
+   "Councilor Vargek"
+  ],
+  "type": null
+ },
+ "Of New and Old II": {
+  "category": "Burning Steppes",
+  "end_npc": [
+   "Eitrigg"
+  ],
+  "experience": "500",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "52",
+  "name": "Of New and Old II",
+  "next": [
+   "Of New and Old III"
+  ],
+  "objectives": "Speak with Eitrigg to find out info about Karfang for Thrall in Orgrimmar.",
+  "patch": "1.16.1",
+  "previous": [
+   "Of New and Old"
+  ],
+  "quest_id": 40502,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Of_New_and_Old_II",
+  "start_npc": [
+   "Thrall"
+  ],
+  "type": null
+ },
+ "Of New and Old III": {
+  "category": "Burning Steppes",
+  "end_npc": [
+   "Karfang"
+  ],
+  "experience": "1000",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "52",
+  "name": "Of New and Old III",
+  "next": [
+   "Of New and Old IV"
+  ],
+  "objectives": "Bring the Warchief's Response to Karfang at Karfang Hold in Burning Steppes.\n- [Warchief's Response](Warchief's Response)",
+  "patch": "1.16.1",
+  "previous": [
+   "Of New and Old II"
+  ],
+  "quest_id": 40503,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Of_New_and_Old_III",
+  "start_npc": [
+   "Eitrigg"
+  ],
+  "type": null
+ },
+ "Of New and Old IV": {
+  "category": "Hateforge Quarry",
+  "end_npc": [],
+  "experience": "4650",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "57",
+  "name": "Of New and Old IV",
+  "next": [],
+  "objectives": "Venture into the Hateforge Quarry, and remove the Twilight Hammer presence within for Karfang in Karfang Hold.\n- [Har'gesh Doomcaller](Har'gesh Doomcaller) slain",
+  "patch": "1.16.1",
+  "previous": [
+   "Of New and Old III"
+  ],
+  "quest_id": 40504,
+  "rewards": "Choice of:, Blade of the Warleader,, Obsidian Gem Choker, or, Battlemaster Helm",
+  "source": "https://turtle-wow.fandom.com/wiki/Of_New_and_Old_IV",
+  "start_npc": [
+   "Karfang"
+  ],
+  "type": "Dungeon"
+ },
+ "Of the Sandfury and the Darkspear": {
+  "category": "Tanaris",
+  "end_npc": [
+   "Champion Taza'go"
+  ],
+  "experience": "500",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "45",
+  "name": "Of the Sandfury and the Darkspear",
+  "next": [
+   "Plight of the Sandfury"
+  ],
+  "objectives": "Talk with Champion Taza'go at Sandmoon Village in Tanaris.",
+  "patch": "1.16.1",
+  "previous": [
+   "Sandfury Redemption III"
+  ],
+  "quest_id": 40525,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Of_the_Sandfury_and_the_Darkspear",
+  "start_npc": [
+   "Vol'jin"
+  ],
+  "type": null
+ },
+ "One Heir to Another": {
+  "category": "Mulgore",
+  "end_npc": [
+   "Baine Bloodhoof"
+  ],
+  "experience": "500",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "56",
+  "name": "One Heir to Another",
+  "next": [
+   "Father Will Listen"
+  ],
+  "objectives": "Seek the aid of Baine Bloodhoof in Bloodhoof Village, Mulgore.",
+  "patch": "1.18.1",
+  "previous": [
+   "Mindless Monster"
+  ],
+  "quest_id": 42070,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/One_Heir_to_Another",
+  "start_npc": [
+   "Moonhoof the Younger"
+  ],
+  "type": ""
+ },
+ "Piece Of A Bigger Picture": {
+  "category": "Balor",
+  "end_npc": [],
+  "experience": "3000",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "30",
+  "name": "Piece Of A Bigger Picture",
+  "next": [
+   "Calming The Tempest"
+  ],
+  "objectives": "Return with the needed reagents to Hydromancer Finnigan in the SI:7 Outpost on Balor.\n- [Finnigan's Notebook](Finnigan's Notebook)\n- [Reflecting Crystal](Reflecting Crystal)\n- [Greater Astral Essence](Greater Astral Essence) (3)",
+  "patch": "1.18.0",
+  "previous": [
+   "Ceaseless Storms"
+  ],
+  "quest_id": 41710,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Piece_Of_A_Bigger_Picture",
+  "start_npc": [
+   "Hydromancer Finnigan"
+  ],
+  "type": null
+ },
+ "Plight of the Sandfury": {
+  "category": "Tanaris",
+  "end_npc": [],
+  "experience": "4150",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "48",
+  "name": "Plight of the Sandfury",
+  "next": [
+   "End Ukorz Sandscalp"
+  ],
+  "objectives": "Slay 5 Sandfury Axe Throwers, 5 Sandfury Firecallers and 5 Sandfury Hideskinners for Champion Taza'go at Sandmoon Village in Tanaris.\n- [Sandfury Axe Thrower](Sandfury Axe Thrower) slain (5)\n- [Sandfury Firecaller](Sandfury Firecaller) slain (5)\n- [Sandfury Hideskinner](Sandfury Hideskinner) slain (5)",
+  "patch": "1.16.1",
+  "previous": [
+   "Of the Sandfury and the Darkspear"
+  ],
+  "quest_id": 40526,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Plight_of_the_Sandfury",
+  "start_npc": [
+   "Champion Taza'go"
+  ],
+  "type": "Group"
+ },
+ "Price of Betrayal": {
+  "category": "Moonwhisper Coast",
+  "end_npc": [],
+  "experience": "8100",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "57",
+  "name": "Price of Betrayal",
+  "next": [
+   "Return to the Dream"
+  ],
+  "objectives": "Slay Rampaging Grells and Withered Gardeners in the Withered Enclave on the isle of Tyrandas, and return to Ireth Moondancer in the Ruins of Nendis, Moonwhisper Coast.\n- [Withered Gardener](Withered Gardener) slain (10)\n- [Rampaging Grell](Rampaging Grell) slain (10)",
+  "patch": "1.18.1",
+  "previous": [
+   "Moondancer Lives?"
+  ],
+  "quest_id": 42075,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Price_of_Betrayal",
+  "start_npc": [
+   "Ireth Moondancer"
+  ],
+  "type": "Group"
+ },
+ "Provisions for Refugees": {
+  "category": "Thalassian Highlands",
+  "end_npc": [
+   "Commander Anarileth"
+  ],
+  "experience": "190",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "1",
+  "name": "Provisions for Refugees",
+  "next": [
+   "Safety for Refugees"
+  ],
+  "objectives": "Bring 10 Young Thalassian Boar Flanks to Commander Anarileth in Brinthillien.\n- [Young Thalassian Boar Flank](Young Thalassian Boar Flank)s (10)",
+  "patch": null,
+  "previous": [
+   "Refugees no More"
+  ],
+  "quest_id": 41188,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Provisions_for_Refugees",
+  "start_npc": [
+   "Commander Anarileth"
+  ],
+  "type": ""
+ },
+ "Quality Time with Blackthorn": {
+  "category": "Gilneas",
+  "end_npc": [],
+  "experience": "3175",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "46",
+  "name": "Quality Time with Blackthorn",
+  "next": [
+   "Genn Greymane Must Die!"
+  ],
+  "objectives": "Slay 8 Spitecrest Netters for Blackthorn at Blackthorn's Camp in Gilneas.\n- [Spitecrest Netter](Spitecrest Netter) slain (8)",
+  "patch": "1.17.0",
+  "previous": [
+   "Heist in Dryrock Mine",
+   "Rendezvous with the Infiltrator"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Quality_Time_with_Blackthorn",
+  "start_npc": [
+   "Blackthorn"
+  ],
+  "type": null
+ },
+ "Recovering Vault Shackles (Alliance)": {
+  "category": "Stormwind Vault",
+  "end_npc": [],
+  "experience": "6500",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "63",
+  "name": "Recovering Vault Shackles (Alliance)",
+  "next": [],
+  "objectives": "Within the Stormwind Vault, slay Runic Constructs for 2 Runic Shackles, return them to Koli Steamheart.\n- [Runic Shackle](Runic Shackle) (2)",
+  "patch": null,
+  "previous": [],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Recovering_Vault_Shackles_(Alliance)",
+  "start_npc": [
+   "Koli Steamheart"
+  ],
+  "type": "Dungeon"
+ },
+ "Relics of the Windhorn Tribe": {
+  "category": "Windhorn Canyon",
+  "end_npc": [],
+  "experience": "2350",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "27",
+  "name": "Relics of the Windhorn Tribe",
+  "next": [],
+  "objectives": "Travel into the Windhorn Canyon and recover 8 Windhorn Relics for Sagh at Sagh's Refuge in Thousand Needles.\n- [Windhorn Relic](Windhorn Relic) (8)",
+  "patch": "1.18.1",
+  "previous": [],
+  "quest_id": 41977,
+  "rewards": "Sagh's Pendant",
+  "source": "https://turtle-wow.fandom.com/wiki/Relics_of_the_Windhorn_Tribe",
+  "start_npc": [
+   "Sagh"
+  ],
+  "type": "Dungeon"
+ },
+ "Rendezvous with the Infiltrator": {
+  "category": "Gilneas",
+  "end_npc": [],
+  "experience": "1275",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "45",
+  "name": "Rendezvous with the Infiltrator",
+  "next": [
+   "Quality Time with Blackthorn"
+  ],
+  "objectives": "Travel to the [Ruins of Greyshire](Ruins of Greyshire), locate [Greta Longpike](Greta Longpike), and acquire the [Sealed Report](Sealed Report to Livia) for [Livia Strongarm](Livia Strongarm) at [Blackthorn's Camp](Blackthorn's Camp) in [Gilneas](Gilneas).\n- [Sealed Report to Livia](Sealed Report to Livia)",
+  "patch": "1.17.0",
+  "previous": [
+   "Report to Livia Strongarm"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Rendezvous_with_the_Infiltrator",
+  "start_npc": [
+   "Livia Strongarm"
+  ],
+  "type": null
+ },
+ "Report to Livia Strongarm": {
+  "category": "Gilneas",
+  "end_npc": [
+   "Livia Strongarm"
+  ],
+  "experience": "75",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "45",
+  "name": "Report to Livia Strongarm",
+  "next": [
+   "Rendezvous with the Infiltrator"
+  ],
+  "objectives": "Seek out [Livia Strongarm](Livia Strongarm) at [Blackthorn's Camp](Blackthorn's Camp) in [Gilneas](Gilneas).",
+  "patch": "1.17.0",
+  "previous": [
+   "To Gilneas"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Report_to_Livia_Strongarm",
+  "start_npc": [
+   "Blackthorn"
+  ],
+  "type": null
+ },
+ "Report to Luke Agamand": {
+  "category": "Gilneas",
+  "end_npc": [
+   "Luke Agamand"
+  ],
+  "experience": "75",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "45",
+  "name": "Report to Luke Agamand",
+  "next": [
+   "Heist in Dryrock Mine"
+  ],
+  "objectives": "Speak with [Luke Agamand](Luke Agamand) at [Blackthorn's Camp](Blackthorn's Camp) in [Gilneas](Gilneas).",
+  "patch": "1.17.0",
+  "previous": [
+   "To Gilneas"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Report_to_Luke_Agamand",
+  "start_npc": [
+   "Blackthorn"
+  ],
+  "type": null
+ },
+ "Return to the Dream": {
+  "category": "Moonwhisper Coast",
+  "end_npc": [],
+  "experience": "8100",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "57",
+  "name": "Return to the Dream",
+  "next": [
+   "Mothshroud Falls"
+  ],
+  "objectives": "Retrieve Moonlit Charms from the fallen druids of Elun’aran and bring them back to Ireth Moondancer in the Ruins of Nendis, Moonwhisper Coast.\n- [Moonlit Charm](Moonlit Charm) (20)",
+  "patch": "1.18.1",
+  "previous": [
+   "Price of Betrayal"
+  ],
+  "quest_id": 42076,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Return_to_the_Dream",
+  "start_npc": [
+   "Ireth Moondancer"
+  ],
+  "type": "Group"
+ },
+ "Rift Fatigue: Body": {
+  "category": "Azshara",
+  "end_npc": [
+   "Akh Z'ador"
+  ],
+  "experience": "5300",
+  "faction": "Neutral",
+  "is_turtle_content": true,
+  "level": "52",
+  "name": "Rift Fatigue: Body",
+  "next": [
+   "The Riftwalker's Cane"
+  ],
+  "objectives": "Akh Z'ador in Azshara requires herbs from the furbolgs to the west and flesh of the makrura to the east.\n\n- [Zesty Makrura Claw](Zesty Makrura Claw) (6)\n- [Timbermaw Herb Bundle](Timbermaw Herb Bundle) (10)",
+  "patch": "1.18.1",
+  "previous": [
+   "Learn Of My Past"
+  ],
+  "quest_id": 41322,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Rift_Fatigue:_Body",
+  "start_npc": [
+   "Akh Z'ador"
+  ],
+  "type": null
+ },
+ "Rift Fatigue: Mind": {
+  "category": "Azshara",
+  "end_npc": [
+   "Akh Z'ador"
+  ],
+  "experience": "5300",
+  "faction": "Neutral",
+  "is_turtle_content": true,
+  "level": "52",
+  "name": "Rift Fatigue: Mind",
+  "next": [
+   "The Riftwalker's Cane"
+  ],
+  "objectives": "Bring Akh Z'ador in Azshara three Siren Brains for his ‘mental recovery'.\n- [Siren Brain](Siren Brain) (3)",
+  "patch": "1.18.1",
+  "previous": [
+   "Learn Of My Past"
+  ],
+  "quest_id": 41321,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Rift_Fatigue:_Mind",
+  "start_npc": [
+   "Akh Z'ador"
+  ],
+  "type": null
+ },
+ "Ritual of Divination": {
+  "category": "Dustwallow Marsh",
+  "end_npc": [],
+  "experience": "2850",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "35",
+  "name": "Ritual of Divination",
+  "next": [
+   "To Meet Again"
+  ],
+  "objectives": "Assist Magus Halister during the ritual and report the findings to Garran Vimes at Theramore Isle in Dustwallow Marsh.\n- Information from Paval Reethe",
+  "patch": null,
+  "previous": [
+   "Preparation for Divination"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Ritual_of_Divination",
+  "start_npc": [
+   "Magus Halister"
+  ],
+  "type": null
+ },
+ "Rommath, the Traitor": {
+  "category": "Thalassian Highlands",
+  "end_npc": [
+   "Grand Magister Rommath"
+  ],
+  "experience": "90",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "9",
+  "name": "Rommath, the Traitor",
+  "next": [
+   "An Audience With the Prince"
+  ],
+  "objectives": "Report to Grand Magister Rommath. He can be found on the top of the Regency Tower.",
+  "patch": "1.17.1",
+  "previous": [
+   "Back to Lady Windrunner"
+  ],
+  "quest_id": 41239,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Rommath,_the_Traitor",
+  "start_npc": [
+   "Vereesa Windrunner"
+  ],
+  "type": null
+ },
+ "Sailors Innovation": {
+  "category": "Lapidis Isle",
+  "end_npc": [],
+  "experience": "4850",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "51",
+  "name": "Sailors Innovation",
+  "next": [],
+  "objectives": "Collect 6 Juicy Crawler Legs and a Pinch of Salt for 'Slim' in Caelan's Rest. \n- [Juicy Crawler Leg](Juicy Crawled Leg) (6)\n- [Pinch of Salt](Pinch of Salt)",
+  "patch": null,
+  "previous": [],
+  "quest_id": null,
+  "rewards": "80s",
+  "source": "https://turtle-wow.fandom.com/wiki/Sailors_Innovation",
+  "start_npc": [
+   "'Slim'"
+  ],
+  "type": null
+ },
+ "Sandfury Redemption I": {
+  "category": "Tanaris",
+  "end_npc": [
+   "Senior Surveyor Fizzledowser"
+  ],
+  "experience": "500",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "45",
+  "name": "Sandfury Redemption I",
+  "next": [
+   "Sandfury Redemption II"
+  ],
+  "objectives": "Find a person in Gadgetzan willing to help Sandmoon Village.",
+  "patch": "1.16.1",
+  "previous": [],
+  "quest_id": 40522,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Sandfury_Redemption_I",
+  "start_npc": [
+   "Seer Maz'ek"
+  ],
+  "type": null
+ },
+ "Sandfury Redemption II": {
+  "category": "Tanaris",
+  "end_npc": [
+   "Seer Maz'ek"
+  ],
+  "experience": "500",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "45",
+  "name": "Sandfury Redemption II",
+  "next": [
+   "Sandfury Redemption III"
+  ],
+  "objectives": "Deliver the message to Seer Maz'ek at Sandmoon Village in Tanaris.",
+  "patch": "1.16.1",
+  "previous": [
+   "Sandfury Redemption I"
+  ],
+  "quest_id": 40523,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Sandfury_Redemption_II",
+  "start_npc": [
+   "Senior Surveyor Fizzledowser"
+  ],
+  "type": null
+ },
+ "Sandfury Redemption III": {
+  "category": "Tanaris",
+  "end_npc": [
+   "Vol'jin"
+  ],
+  "experience": "850",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "45",
+  "name": "Sandfury Redemption III",
+  "next": [
+   "Of the Sandfury and the Darkspear"
+  ],
+  "objectives": "Speak with Vol'jin in Orgrimmar about Sandmoon Village.\n- Speak with Vol'jin",
+  "patch": "1.16.1",
+  "previous": [
+   "Sandfury Redemption II"
+  ],
+  "quest_id": 40524,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Sandfury_Redemption_III",
+  "start_npc": [
+   "Seer Maz'ek"
+  ],
+  "type": null
+ },
+ "Scales of the Tideblade": {
+  "category": "Moonwhisper Coast",
+  "end_npc": [],
+  "experience": "5500",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "54",
+  "name": "Scales of the Tideblade",
+  "next": [
+   "Serpents Without Heads"
+  ],
+  "objectives": "Bring 30 Tideblade Scales to Sentinel Commander Silverstreak at Narvalis Point.\n- [Tideblade Scale](Tideblade Scale) (30)",
+  "patch": "1.18.1",
+  "previous": [],
+  "quest_id": 42089,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Scales_of_the_Tideblade",
+  "start_npc": [
+   "Sentinel Commander Silverstreak"
+  ],
+  "type": null
+ },
+ "Scarlet Aid": {
+  "category": "Stormwind City",
+  "end_npc": [
+   "Brother Crowley"
+  ],
+  "experience": "",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "60",
+  "name": "Scarlet Aid",
+  "next": [
+   "Donning the Red Flag"
+  ],
+  "objectives": "Travel to the Cathedral’s District of Stormwind and speak with Brother Crowley.",
+  "patch": null,
+  "previous": [
+   "The Price Of Information"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Scarlet_Aid",
+  "start_npc": [
+   "Captain Stoutfist"
+  ],
+  "type": ""
+ },
+ "Scouring Greyshire": {
+  "category": "Gilneas",
+  "end_npc": [],
+  "experience": "3300",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "42",
+  "name": "Scouring Greyshire",
+  "next": [],
+  "objectives": "Recover the Greyshire Manuscripts from the Ruins of Greyshire for Father Oblen at Shademore Tavern in Gilneas.\n- [Greyshire Manuscripts](Greyshire Manuscripts)",
+  "patch": "1.17.0",
+  "previous": [],
+  "quest_id": null,
+  "rewards": "Cuffs of Sanctitude",
+  "source": "https://turtle-wow.fandom.com/wiki/Scouring_Greyshire",
+  "start_npc": [
+   "Father Oblen"
+  ],
+  "type": null
+ },
+ "Searching for Archaeologist Evenpike": {
+  "category": "Frostmane Hollow",
+  "end_npc": [
+   "Archaeologist Evenpike"
+  ],
+  "experience": "1150",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "14",
+  "name": "Searching for Archaeologist Evenpike",
+  "next": [
+   "The Shattered Disc"
+  ],
+  "objectives": "Search for Archeologist Evenpike inside Frostmane Hollow in Dun Morogh.",
+  "patch": "1.18.1",
+  "previous": [],
+  "quest_id": 42006,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Searching_for_Archaeologist_Evenpike",
+  "start_npc": [
+   "Brohann Caskbelly"
+  ],
+  "type": "Dungeon"
+ },
+ "Secrets of Moonwhisper": {
+  "category": "Priest",
+  "end_npc": [
+   "Mhulf Nighthorn"
+  ],
+  "experience": "1800",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "57",
+  "name": "Secrets of Moonwhisper",
+  "next": [],
+  "objectives": "Take the Half-Burnt Journal to Mhulf Nightorn in Moonhoof Village, Moonwhisper Coast.\n- [Half-Burnt Scroll](Half-Burnt Scroll (drop))",
+  "patch": "1.18.1",
+  "previous": [],
+  "quest_id": 42079,
+  "rewards": "Half-Burnt Scroll",
+  "source": "https://turtle-wow.fandom.com/wiki/Secrets_of_Moonwhisper",
+  "start_npc": [
+   "Half-Burnt Scroll (drop)"
+  ],
+  "type": null
+ },
+ "Seeking Justice or Vengeance?": {
+  "category": "Menethil Harbor",
+  "end_npc": [
+   "Incompleted Interrogation Report"
+  ],
+  "experience": "",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "60",
+  "name": "Seeking Justice or Vengeance?",
+  "next": [
+   "The Price Of Information"
+  ],
+  "objectives": "Find out everything by any means necessary.\n- Obtain information from Vladeus",
+  "patch": null,
+  "previous": [
+   "Are You True to Your Nature?"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Seeking_Justice_or_Vengeance%3F",
+  "start_npc": [
+   "Iron Maiden"
+  ],
+  "type": ""
+ },
+ "Seeking the Truth": {
+  "category": "Moonwhisper Coast",
+  "end_npc": [
+   "Moonhoof the Younger"
+  ],
+  "experience": "4200",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "57",
+  "name": "Seeking the Truth",
+  "next": [
+   "Moondancer Lives?"
+  ],
+  "objectives": "Find clues of the Mothshroud’s ambition in Maras’ethil and return to the Younger Moonhoof in Moonhoof Village, Moonwhisper Coast.\n- [Worn Letter](Worn Letter)",
+  "patch": "1.18.1",
+  "previous": [
+   "Facing the Elder"
+  ],
+  "quest_id": 42074,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Seeking_the_Truth",
+  "start_npc": [
+   "Elder Moonhoof"
+  ],
+  "type": ""
+ },
+ "Serpents Without Heads": {
+  "category": "Moonwhisper Coast",
+  "end_npc": [],
+  "experience": "5700",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "56",
+  "name": "Serpents Without Heads",
+  "next": [
+   "Word to the High Priestess"
+  ],
+  "objectives": "Slay Lady Serpentia and Lord Ta'jax in the ruins of Nendis, then return to Sentinel Commander Silverstreak at Narvalis Point.\n- [Lady Serpentia](Lady Serpentia) slain\n- [Lord Ta'jax](Lord Ta'jax) slain",
+  "patch": "1.18.1",
+  "previous": [
+   "Scales of the Tideblade"
+  ],
+  "quest_id": 42090,
+  "rewards": "Choice of:, Moonlit Hauberk, or, Moonstride Leggings",
+  "source": "https://turtle-wow.fandom.com/wiki/Serpents_Without_Heads",
+  "start_npc": [
+   "Sentinel Commander Silverstreak"
+  ],
+  "type": null
+ },
+ "Shade Mother": {
+  "category": "Moonwhisper Coast",
+  "end_npc": [],
+  "experience": "6500",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "58",
+  "name": "Shade Mother",
+  "next": [
+   "Mindless Monster"
+  ],
+  "objectives": "Kill Matriarch Ohanzee and return to Elder Moonhoof in Moonhoof Village.\n- [Matriarch Ohanzee](Matriarch Ohanzee) slain",
+  "patch": "1.18.1",
+  "previous": [],
+  "quest_id": 41994,
+  "rewards": "Wilted Moonflower",
+  "source": "https://turtle-wow.fandom.com/wiki/Shade_Mother",
+  "start_npc": [
+   "Elder Moonhoof"
+  ],
+  "type": ""
+ },
+ "Shadow's Vision": {
+  "category": "Northwind",
+  "end_npc": [
+   "Operative Baltimore Hawthorne"
+  ],
+  "experience": "2100",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "34",
+  "name": "Shadow's Vision",
+  "next": [
+   "A Veiled Threat"
+  ],
+  "objectives": "Find the location described by the Witch of Northwind and report to Operative Hawthorne in Ambershire afterwards.\n- Perpetrators found\n- [Tattered Missive](Tattered Missive)",
+  "patch": "1.18.0",
+  "previous": [
+   "Deathcap And Widow's Frill"
+  ],
+  "quest_id": 41684,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Shadow%27s_Vision",
+  "start_npc": [
+   "The Witch of Northwind"
+  ],
+  "type": ""
+ },
+ "Skull And Bones": {
+  "category": "Stormwrought Ruins",
+  "end_npc": [],
+  "experience": "3600",
+  "faction": "Neutral",
+  "is_turtle_content": true,
+  "level": "34",
+  "name": "Skull And Bones",
+  "next": [],
+  "objectives": "Enter Stormwrought Castle and retrieve the Balor Sigil Ring for Lord Olivert Grahan in his estate on western Balor.\n- [Balor Sigil Ring](Balor Sigil Ring)",
+  "patch": "1.18.0",
+  "previous": [],
+  "quest_id": 41760,
+  "rewards": "Grahan Family Seal",
+  "source": "https://turtle-wow.fandom.com/wiki/Skull_And_Bones",
+  "start_npc": [
+   "Lord Olivert Grahan"
+  ],
+  "type": "Dungeon"
+ },
+ "Smashing the Southsea!": {
+  "category": "Lapidis Isle",
+  "end_npc": [],
+  "experience": "4850",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "53",
+  "name": "Smashing the Southsea!",
+  "next": [
+   "Southsea Interference"
+  ],
+  "objectives": "Gather 20 Southsea Sashes from Southsea Pirates for Colonel Hardinus in Caelan's Rest.\n- [Southsea Sash](Southsea Sash) (20)",
+  "patch": null,
+  "previous": [],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Smashing_the_Southsea!",
+  "start_npc": [
+   "Colonel Hardinus"
+  ],
+  "type": null
+ },
+ "Southsea Interference": {
+  "category": "Lapidis Isle",
+  "end_npc": [],
+  "experience": "6350",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "54",
+  "name": "Southsea Interference",
+  "next": [],
+  "objectives": "Slay the Southsea Captains located on the Southsea Sandbar for Colonel Hardinus in Caelan's Rest. \n- [Captain Ironhoof](Captain Ironhoof) slain\n- [Captain Blackeye](Captain Blackeye) slain\n- [Captain Saltbeard](Captain Saltbeard) slain",
+  "patch": null,
+  "previous": [
+   "Smashing the Southsea!"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Southsea_Interference",
+  "start_npc": [
+   "Colonel Hardinus"
+  ],
+  "type": null
+ },
+ "Southsea Reserve": {
+  "category": "Lapidis Isle",
+  "end_npc": [],
+  "experience": "4800",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "51",
+  "name": "Southsea Reserve",
+  "next": [],
+  "objectives": "Claim the Southsea Reserve Recipe from ['Moonshine' Marty]('Moonshine' Marty) for Sailor Larson in Caelan's Rest\n- [Southsea Reserve Recipe](Southsea Reserve Recipe)",
+  "patch": null,
+  "previous": [],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Southsea_Reserve",
+  "start_npc": [
+   "Sailor Larson"
+  ],
+  "type": null
+ },
+ "Sovereign of Desolation": {
+  "category": "Karazhan",
+  "end_npc": [
+   "Dolvan Bracewind"
+  ],
+  "experience": null,
+  "faction": "Neutral",
+  "is_turtle_content": true,
+  "level": "60",
+  "name": "Sovereign of Desolation",
+  "next": [],
+  "objectives": "Deliver the Heart of Mephistroth to a sorcerer powerful enough to destroy it.\n- [Heart of Mephistroth](Heart of Mephistroth)",
+  "patch": "1.17.2",
+  "previous": [],
+  "quest_id": 41577,
+  "rewards": "Choice of:, Felforged Nathrezan Veil,, Felforged Nathrezan Circlet, or, Felforged Nathrezan Aureole",
+  "source": "https://turtle-wow.fandom.com/wiki/Sovereign_of_Desolation",
+  "start_npc": [
+   "Heart of Mephistroth"
+  ],
+  "type": "Raid"
+ },
+ "Spiritwalk (2)": {
+  "category": "Priest",
+  "end_npc": [],
+  "experience": "+50 Thunder Bluff",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "20",
+  "name": "Spiritwalk (2)",
+  "next": [],
+  "objectives": null,
+  "patch": "1.18.1",
+  "previous": [
+   "Spiritwalk (quest)"
+  ],
+  "quest_id": 42059,
+  "rewards": "Spiritwalk",
+  "source": "https://turtle-wow.fandom.com/wiki/Spiritwalk_(2)",
+  "start_npc": [
+   "Artahla Starstrider"
+  ],
+  "type": null
+ },
+ "Spiritwalk (quest)": {
+  "category": "Priest",
+  "end_npc": [
+   "Artahla Starstrider"
+  ],
+  "experience": "+50 Thunder Bluff",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "20",
+  "name": "Spiritwalk (quest)",
+  "next": [
+   "Spiritwalk (2)"
+  ],
+  "objectives": "Speak to Artahla Starstrider in Thunder Bluff.",
+  "patch": "1.18.1",
+  "previous": [],
+  "quest_id": 42060,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Spiritwalk_(quest)",
+  "start_npc": [
+   "Aelthalyste",
+   "Ur'kyo"
+  ],
+  "type": null
+ },
+ "Storm's End": {
+  "category": "Orgrimmar",
+  "end_npc": [
+   "Thrall"
+  ],
+  "experience": "2500",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "38",
+  "name": "Storm's End",
+  "next": [],
+  "objectives": "Report to Thrall in Grommash Hold, the Valley of Wisdom, Orgrimmar.",
+  "patch": "1.18.0",
+  "previous": [
+   "It Can't Rain All the Time"
+  ],
+  "quest_id": 41834,
+  "rewards": "Choice of:, Kor'kron Crown,, Voodoo Jerkin, or, Totemic Headdress",
+  "source": "https://turtle-wow.fandom.com/wiki/Storm%27s_End",
+  "start_npc": [
+   "Kilrogg Deadeye"
+  ],
+  "type": null
+ },
+ "Storm, Twilight and Hammer": {
+  "category": "Balor",
+  "end_npc": [],
+  "experience": "2000",
+  "faction": "Neutral",
+  "is_turtle_content": true,
+  "level": "33",
+  "name": "Storm, Twilight and Hammer",
+  "next": [],
+  "objectives": "Return the second fragment of the key back to Drak'thul in his hut.\n- [Gro'tul Deathrattle](Gro'tul Deathrattle) slain\n- [Second Key Fragment](Second Key Fragment)",
+  "patch": "1.18.0",
+  "previous": [
+   "Lady Who?"
+  ],
+  "quest_id": 41837,
+  "rewards": "Key to Stormwrought Castle",
+  "source": "https://turtle-wow.fandom.com/wiki/Storm,_Twilight_and_Hammer",
+  "start_npc": [
+   "Drak'thul"
+  ],
+  "type": ""
+ },
+ "Sunsworn Expedition": {
+  "category": "Moonwhisper Coast",
+  "end_npc": [
+   "Andanil Sunsworn"
+  ],
+  "experience": "760",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "53",
+  "name": "Sunsworn Expedition",
+  "next": [],
+  "objectives": "Find what remains of Andanil’s expedition on Moonwhisper Coast.",
+  "patch": "1.18.1",
+  "previous": [],
+  "quest_id": 42061,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Sunsworn_Expedition",
+  "start_npc": [
+   "Astalor Sunsworn"
+  ],
+  "type": null
+ },
+ "Tainted Rune (quest)": {
+  "category": "Warlock",
+  "end_npc": [
+   "Thorinn Darkgrovel"
+  ],
+  "experience": "40",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "1",
+  "name": "Tainted Rune (quest)",
+  "next": [],
+  "objectives": "Read the Tainted Rune and speak to Thorinn Darkgrovel inside Anvilmar above Coldridge Valley.\n- [Tainted Rune](Tainted Rune)",
+  "patch": "1.18.1",
+  "previous": [],
+  "quest_id": 42045,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Tainted_Rune_(quest)",
+  "start_npc": [
+   "Sten Stoutarm"
+  ],
+  "type": null
+ },
+ "Tainted Tablet (quest)": {
+  "category": "Warlock",
+  "end_npc": [
+   "Zin'jashi"
+  ],
+  "experience": "40",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "1",
+  "name": "Tainted Tablet (quest)",
+  "next": [],
+  "objectives": "Read the Tainted Tablet and speak to Zin'jashi inside the Den in the Valley of Trials.\n- [Tainted Tablet](Tainted Tablet)",
+  "patch": "1.17.0",
+  "previous": [],
+  "quest_id": 41135,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Tainted_Tablet_(quest)",
+  "start_npc": [
+   "Gornek"
+  ],
+  "type": null
+ },
+ "Thandol Span (quest)": {
+  "category": "Redridge Mountains",
+  "end_npc": [
+   "Captain Stoutfist"
+  ],
+  "experience": "",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "60",
+  "name": "Thandol Span (quest)",
+  "next": [
+   "Are You True to Your Nature?"
+  ],
+  "objectives": "Bring Vladeus Springriver back to Menethil Harbor and report back to Captain Stoutfist.\n- Defeat Scarlet Recruits\n- Bring Vladeus Springriver back to Menethil Harbor\n- [Scarlet Recruit's Insignia Ring](Scarlet Recruit's Insignia Ring)",
+  "patch": null,
+  "previous": [
+   "Young and Foolish"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Thandol_Span_(quest)",
+  "start_npc": [
+   "Kixxle"
+  ],
+  "type": ""
+ },
+ "The Aqua Stone": {
+  "category": "Lapidis Isle",
+  "end_npc": [],
+  "experience": "5200",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "51",
+  "name": "The Aqua Stone",
+  "next": [],
+  "objectives": "Recover the Aqua Stone from Hargul the Hardy. \n- [Aqua Stone](Aqua Stone)",
+  "patch": null,
+  "previous": [],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Aqua_Stone",
+  "start_npc": [
+   "Hydromancer Vanessa"
+  ],
+  "type": "Group"
+ },
+ "The Balance of Power": {
+  "category": "Durotar",
+  "end_npc": [
+   "Mally O'Flor"
+  ],
+  "experience": "220",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "14",
+  "name": "The Balance of Power",
+  "next": [
+   "A Favor for Mally"
+  ],
+  "objectives": "Find and speak with Mally O'Flor to decipher the relationship between Kul Tiras and the Alliance on behalf of Thrall.",
+  "patch": "1.16.4",
+  "previous": [
+   "The Warchief's Orders"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Balance_of_Power",
+  "start_npc": [
+   "Thrall"
+  ],
+  "type": null
+ },
+ "The Blackheart Killer": {
+  "category": "Gilneas",
+  "end_npc": [],
+  "experience": "5000",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "45",
+  "name": "The Blackheart Killer",
+  "next": [
+   "In Memory of Franklin"
+  ],
+  "objectives": "Assault Freyshear Keep and Slay Captain Veller to recover the Blackheart Necklace for Harrison Blackheart in Gilneas.\n- [Blackheart Necklace](Blackheart Necklace)",
+  "patch": "1.17.0",
+  "previous": [
+   "Greymane Hatred"
+  ],
+  "quest_id": 40981,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/The_Blackheart_Killer",
+  "start_npc": [
+   "Harrison Blackheart"
+  ],
+  "type": null
+ },
+ "The Boran Family": {
+  "category": "Lapidis Isle",
+  "end_npc": [],
+  "experience": "4650",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "51",
+  "name": "The Boran Family",
+  "next": [],
+  "objectives": "Deliver the letters from Arnold Boran to his two brothers.\n- Deliver [Letter to Karl](Letter to Karl): 0/1\n- Deliver [Letter to Samual](Letter to Samual): 0/1\n- [Letter from Karl](Letter from Karl): 0/1\n- [Letter from Samual](Letter from Samual): 0/1",
+  "patch": null,
+  "previous": [],
+  "quest_id": null,
+  "rewards": "80s",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Boran_Family",
+  "start_npc": [
+   "Arnold Boran"
+  ],
+  "type": null
+ },
+ "The Dawnstone Coupler": {
+  "category": "Gilneas",
+  "end_npc": [],
+  "experience": "4400",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "43",
+  "name": "The Dawnstone Coupler",
+  "next": [],
+  "objectives": "Travel to Gilneas in the north and collect 4 Dawnstone Chunks for Technician Voltgear at the Gnomeregan Reclamation Facility in Dun Morogh.\n- [Dawnstone Chunk](Dawnstone Chunk) (4)",
+  "patch": "1.17.0",
+  "previous": [],
+  "quest_id": null,
+  "rewards": "Servocharged Wrench",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Dawnstone_Coupler",
+  "start_npc": [
+   "Technician Voltgear"
+  ],
+  "type": null
+ },
+ "The Dead Can’t Complain": {
+  "category": "Stormwrought Ruins",
+  "end_npc": [],
+  "experience": "3600",
+  "faction": "Neutral",
+  "is_turtle_content": true,
+  "level": "34",
+  "name": "The Dead Can’t Complain",
+  "next": [],
+  "objectives": "Rikki Fizmask wants you to pillage the Stormwrought Ruins on Balor and return to her at the Gullwing Wreckage.\n- [Balorian Treasure](Balorian Treasure) (10)",
+  "patch": "1.18.0",
+  "previous": [],
+  "quest_id": 41844,
+  "rewards": "Trusty Goblin Shiv",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Dead_Can%E2%80%99t_Complain",
+  "start_npc": [
+   "Rikki Fizmask"
+  ],
+  "type": "Dungeon"
+ },
+ "The Deeds of Sir Danuvis": {
+  "category": "Barrens",
+  "end_npc": [
+   "Bishop Farthing"
+  ],
+  "experience": "850",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "15",
+  "name": "The Deeds of Sir Danuvis",
+  "next": [],
+  "objectives": "Bring The Deeds of Sir Danuvis to the Cathedral of Light in Stormwind.\n- [The Deeds of Sir Danuvis (item)](The Deeds of Sir Danuvis (item)) (Provided)",
+  "patch": null,
+  "previous": [],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Deeds_of_Sir_Danuvis",
+  "start_npc": [
+   "Sir Danuvis"
+  ],
+  "type": null
+ },
+ "The Depths of Karazhan V": {
+  "category": "Swamp of Sorrows",
+  "end_npc": [],
+  "experience": "6150",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "60",
+  "name": "The Depths of Karazhan V",
+  "next": [
+   "The Depths of Karazhan VI"
+  ],
+  "objectives": "Gather the Old Crypt Key, and the Mark of Karazhan from around the ruins of Karazhan for Kor'gan in Stonard.\n- [Mark of Karazhan](Mark of Karazhan)\n- [Old Crypt Key](Old Crypt Key)",
+  "patch": "1.16.0",
+  "previous": [
+   "The Depths of Karazhan IV"
+  ],
+  "quest_id": 40308,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/The_Depths_of_Karazhan_V",
+  "start_npc": [
+   "Kor'gan"
+  ],
+  "type": "Group"
+ },
+ "The Dragonmaw Conflict": {
+  "category": "Barrens",
+  "end_npc": [],
+  "experience": "2000",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "28",
+  "name": "The Dragonmaw Conflict",
+  "next": [],
+  "objectives": "Bring 20 Dragonmaw Heads from Dragonmaw Orcs in the Wetlands to Lieutenant Alverold at Anchor's Edge in the Barrens.\n- [Dragonmaw Head](Dragonmaw Head) (20)",
+  "patch": "1.16.4",
+  "previous": [],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Dragonmaw_Conflict",
+  "start_npc": [
+   "Lieutenant Alverold"
+  ],
+  "type": null
+ },
+ "The Dragonmaw War (3)": {
+  "category": "Grim Reaches",
+  "end_npc": [],
+  "experience": "2600",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "33",
+  "name": "The Dragonmaw War (3)",
+  "next": [
+   "The Dragonmaw War (4)"
+  ],
+  "objectives": "Recover the Banner of Baggoth from the top of [Baggoth Rampart](Baggoth Rampart) and return it to [Mountaineer Steelwind](Mountaineer Steelwind).\n- [Banner of Baggoth](Banner of Baggoth)",
+  "patch": "1.18.0",
+  "previous": [
+   "The Dragonmaw War (2)"
+  ],
+  "quest_id": 41864,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/The_Dragonmaw_War_(3)",
+  "start_npc": [
+   "Mountaineer Steelwind"
+  ],
+  "type": null
+ },
+ "The Evil Made Me Do It": {
+  "category": "Gilneas City",
+  "end_npc": [],
+  "experience": "5150",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "46",
+  "name": "The Evil Made Me Do It",
+  "next": [
+   "Blood for Blood"
+  ],
+  "objectives": "Find 'On the Powers of Blood' in Gilneas City, then return to Orvan Darkeye at the Ruins of Greyshire in Gilneas.\n- ['On the Powers of Blood']('On the Powers of Blood')",
+  "patch": "1.17.0",
+  "previous": [
+   "We Take It From The Living"
+  ],
+  "quest_id": 40881,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/The_Evil_Made_Me_Do_It",
+  "start_npc": [
+   "Orvan Darkeye"
+  ],
+  "type": "Dungeon"
+ },
+ "The Fall and Rise of Greymane": {
+  "category": "Gilneas",
+  "end_npc": [],
+  "experience": "7400",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "46",
+  "name": "The Fall and Rise of Greymane",
+  "next": [],
+  "objectives": "'Save' Genn, and recover the Greymane Crown for Lord Darius Ravenwood at Ravenshire in Gilneas.\n- [The Greymane Crown](The Greymane Crown)",
+  "patch": null,
+  "previous": [
+   "Assaulting Freyshear Keep"
+  ],
+  "quest_id": null,
+  "rewards": "Ravenshire Tabard, Choice of:, Ravenwood Belt,, Signet of Gilneas, or, Ravenshire Gloves",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Fall_and_Rise_of_Greymane",
+  "start_npc": [
+   "Lord Darius Ravenwood"
+  ],
+  "type": null
+ },
+ "The Fantastical Farewell Faire": {
+  "category": "Moonwhisper Coast",
+  "end_npc": [
+   "Wiz Silverpocket"
+  ],
+  "experience": "",
+  "faction": "Neutral",
+  "is_turtle_content": false,
+  "level": "1",
+  "name": "The Fantastical Farewell Faire",
+  "next": [],
+  "objectives": "Speak to Wiz Silverpocket at the Farewell Faire north of Moonhoof Village in Moonwhisper Coast. A Farewell Faire Barker in any capital city can bring you there with ease.",
+  "patch": null,
+  "previous": [],
+  "quest_id": null,
+  "rewards": "Turtle Coin (5)",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Fantastical_Farewell_Faire",
+  "start_npc": [
+   "Turtle Faire Barker"
+  ],
+  "type": null
+ },
+ "The Finest Pelt": {
+  "category": "Frostmane Hollow",
+  "end_npc": [],
+  "experience": "1250",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "16",
+  "name": "The Finest Pelt",
+  "next": [],
+  "objectives": "Enter Frostmane Hollow in Dun Morogh and acquire a flawless leopard pelt for Shandlar Thethis in Alah’thalas in the Thalassian Highlands. You can find the entrance to Frostmane Hollow near the Ironforge Airfields.\n- [Flawless Leopard Pelt](Flawless Leopard Pelt)",
+  "patch": "1.18.1",
+  "previous": [],
+  "quest_id": 42008,
+  "rewards": "Thalassian Silk Cape",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Finest_Pelt",
+  "start_npc": [
+   "Shandlar Thethis"
+  ],
+  "type": "Dungeon"
+ },
+ "The Frostmane War": {
+  "category": "Frostmane Hollow",
+  "end_npc": [],
+  "experience": "840",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "13",
+  "name": "The Frostmane War",
+  "next": [
+   "Chieftain Ubukaz"
+  ],
+  "objectives": "Slay 8 Frostmane Scouts, 6 Frostmane Drudges, and 6 Frostmane Mystics for Mountaineer Granitebeard at the Ironforge Airfield in Dun Morogh.\n- [Frostmane Scout](Frostmane Scout) slain (8)\n- [Frostmane Drudge](Frostmane Drudge) slain (6)\n- [Frostmane Mystic](Frostmane Mystic) slain (6)",
+  "patch": "1.18.1",
+  "previous": [],
+  "quest_id": 42038,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Frostmane_War",
+  "start_npc": [
+   "Mountaineer Granitebeard"
+  ],
+  "type": ""
+ },
+ "The Gor'dosh Ogres": {
+  "category": "Lapidis Isle",
+  "end_npc": [],
+  "experience": "4900",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "51",
+  "name": "The Gor'dosh Ogres",
+  "next": [
+   "The Tyrant King"
+  ],
+  "objectives": "Slay 12 Gor'dosh Brutes, 8 Gor'dosh Ogres, and 5 Gor'dosh Shamans for Sergeant Blackwell in Caelan's Rest.\n- [Gor'dosh Brute](Gor'dosh Brute) (12)\n- [Gor'dosh Ogre](Gor'dosh Ogre) (8)\n- [Gor'dosh Shaman](Gor'dosh Shaman) (5)",
+  "patch": null,
+  "previous": [],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Gor%27dosh_Ogres",
+  "start_npc": [
+   "Sergeant Blackwell"
+  ],
+  "type": null
+ },
+ "The Greymane Stone": {
+  "category": "Gilneas City",
+  "end_npc": [],
+  "experience": "5100",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "47",
+  "name": "The Greymane Stone",
+  "next": [],
+  "objectives": "Recover the Shard of Midnight for Dark Bishop Mordren in Stillward Church.\n- [Shard of Midnight](Shard of Midnight)",
+  "patch": "1.17.0",
+  "previous": [
+   "The Powers Beyond"
+  ],
+  "quest_id": 40996,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/The_Greymane_Stone",
+  "start_npc": [
+   "Dark Bishop Mordren"
+  ],
+  "type": "Dungeon"
+ },
+ "The Harvest Golem Mystery (13)": {
+  "category": "Westfall",
+  "end_npc": [],
+  "experience": "1300",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "22",
+  "name": "The Harvest Golem Mystery (13)",
+  "next": [],
+  "objectives": "Find the Lordaeron Needles among the gnoll hovels and bring them to Franklin Hamar in Lakeshire.\n- [Lordaeron Needles](Lordaeron Needles)",
+  "patch": null,
+  "previous": [],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Harvest_Golem_Mystery_(13)",
+  "start_npc": [
+   "Franklin Hamar"
+  ],
+  "type": null
+ },
+ "The Harvest Golem Mystery (16)": {
+  "category": "Westfall",
+  "end_npc": [
+   "Maltimor Gartside"
+  ],
+  "experience": "2750",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "25",
+  "name": "The Harvest Golem Mystery (16)",
+  "next": [],
+  "objectives": "Talk with F.W. in the shack south of Darkshire, then report back to Maltimor.\n- [Farad Wrightsow](Farad Wrightsow) slain\n- [Gazzirik](Gazzirik) slain",
+  "patch": null,
+  "previous": [],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Harvest_Golem_Mystery_(16)",
+  "start_npc": [
+   "Commander Althea Ebonlocke"
+  ],
+  "type": null
+ },
+ "The Highland Menace": {
+  "category": "Thalassian Highlands",
+  "end_npc": [],
+  "experience": "910",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "7",
+  "name": "The Highland Menace",
+  "next": [
+   "A Score To Settle"
+  ],
+  "objectives": "Bring 10 Bright Lynx Furs to [Maelor Steelguard](Maelor Steelguard) in the [Thaumarium](Thaumarium).\n- [Bright Lynx Fur](Bright Lynx Fur) (10)",
+  "patch": "1.17.1",
+  "previous": [],
+  "quest_id": 41216,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/The_Highland_Menace",
+  "start_npc": [
+   "Maelor Steelguard"
+  ],
+  "type": null
+ },
+ "The Last Lines": {
+  "category": "Balor",
+  "end_npc": [
+   "Agent Deryl"
+  ],
+  "experience": "1850",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "27",
+  "name": "The Last Lines",
+  "next": [
+   "To The Darkest Places"
+  ],
+  "objectives": "Search for more clues at Sorrowmore Lake on Balor.\n- [Stormreaver Cell Key](Stormreaver Cell Key)",
+  "patch": "1.18.0",
+  "previous": [
+   "Assessing The Situation"
+  ],
+  "quest_id": 41693,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Last_Lines",
+  "start_npc": [
+   "Muddy Journal"
+  ],
+  "type": ""
+ },
+ "The Late Duke Balor": {
+  "category": "Stormwrought Ruins",
+  "end_npc": [],
+  "experience": "3500",
+  "faction": "Neutral",
+  "is_turtle_content": true,
+  "level": "34",
+  "name": "The Late Duke Balor",
+  "next": [],
+  "objectives": "Return the Crown of Balor to Olmir Halfhorn.\n- [Crown of Balor](Crown of Balor)",
+  "patch": "1.18.0",
+  "previous": [],
+  "quest_id": 41814,
+  "rewards": "Choice of:, Drinking Halfhorn, or, Enchanted Glass Kopis",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Late_Duke_Balor",
+  "start_npc": [
+   "Olmir Halfhorn"
+  ],
+  "type": "Dungeon"
+ },
+ "The Light of Elunaris": {
+  "category": "Moonwhisper Coast",
+  "end_npc": [],
+  "experience": "5600",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "54",
+  "name": "The Light of Elunaris",
+  "next": [],
+  "objectives": "Find the source of power within the Temple of Elunaris on the Isle of Tyrandas and return it to Talanis Amberscribe in Narvalis Point on Moonwhisper Coast.\n- [Relic of Elunaris](Relic of Elunaris)",
+  "patch": "1.18.1",
+  "previous": [
+   "Echoes of Nendis"
+  ],
+  "quest_id": 42087,
+  "rewards": "Elunarian Necklace",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Light_of_Elunaris",
+  "start_npc": [
+   "Talanis Amberscribe"
+  ],
+  "type": "Group"
+ },
+ "The Matron Will Know": {
+  "category": "Balor",
+  "end_npc": [
+   "Magatha Grimtotem"
+  ],
+  "experience": "2000",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "35",
+  "name": "The Matron Will Know",
+  "next": [],
+  "objectives": "Bring the Core of Mycellakos to Magatha Grimtotem in The Elder Rise, Thunder Bluff.\n- [Heart of Mycellakos](Heart of Mycellakos)",
+  "patch": "1.18.0",
+  "previous": [
+   "Mycellakos (quest)"
+  ],
+  "quest_id": 41825,
+  "rewards": "Choice of:, Left,, Right, or, Totem of An'she",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Matron_Will_Know",
+  "start_npc": [
+   "Uda'pe Sungrass"
+  ],
+  "type": ""
+ },
+ "The Maul'ogg Crisis I": {
+  "category": "Gillijim's Isle",
+  "end_npc": [],
+  "experience": "450",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "53",
+  "name": "The Maul'ogg Crisis I",
+  "next": [
+   "The Maul'ogg Crisis II"
+  ],
+  "objectives": "Convince Lord Cruk'Zogg to end his foolhardy aggresion on behalf of Haz'gorg the Great Seer.\n- Convince Lord Cruk'Zogg to end his foolhardly aggresion",
+  "patch": "1.16.0",
+  "previous": [],
+  "quest_id": 40264,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/The_Maul%27ogg_Crisis_I",
+  "start_npc": [
+   "Haz'gorg the Great Seer"
+  ],
+  "type": null
+ },
+ "The Means of Persuading": {
+  "category": "Menethil Harbor",
+  "end_npc": [
+   "Incompleted Interrogation Report"
+  ],
+  "experience": "",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "60",
+  "name": "The Means of Persuading",
+  "next": [
+   "The Price Of Information"
+  ],
+  "objectives": "Use your persuasion skills to interrogate Vladeus.\n- Obtain information from Vladeus",
+  "patch": null,
+  "previous": [
+   "Are You True to Your Nature?"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Means_of_Persuading",
+  "start_npc": [
+   "Prison Guards's Coffee Mug"
+  ],
+  "type": ""
+ },
+ "The Meeting with the Enemy": {
+  "category": "Dustwallow Marsh",
+  "end_npc": [
+   "Captain Garran Vimes"
+  ],
+  "experience": "1050",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "35",
+  "name": "The Meeting with the Enemy",
+  "next": [
+   "The Betrayal from Within (1)"
+  ],
+  "objectives": "Speak with Falgran to begin the meeting, once complete, report to Captain Garran Vimes at Theramore Isle in Dustwallow Marsh.\n- Assist Falgran with the meeting",
+  "patch": null,
+  "previous": [
+   "The Troubles Ahead"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Meeting_with_the_Enemy",
+  "start_npc": [
+   "Falgran Hastil"
+  ],
+  "type": null
+ },
+ "The Moth's Heresy": {
+  "category": "Moonwhisper Coast",
+  "end_npc": [],
+  "experience": "5100",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "54",
+  "name": "The Moth's Heresy",
+  "next": [
+   "A Dryad's Counsel"
+  ],
+  "objectives": "Slay 8 Druid of the Moth, 8 Disciple of Lo’sho, 8 Lucid Dream Protector, and 8 Lucid Dream Stalker in the Grove of the Moon, then return to Arch Druid Renethra at Narvalis Point.\n- [Druid of the Moth](Druid of the Moth) slain (8)\n- [Disciple of Lo'sho](Disciple of Lo'sho) slain (8)\n- [Lucid Dream Protector](Lucid Dream Protector) slain (8)\n- [Lucid Dream Stalker](Lucid Dream Stalker) slain (8)",
+  "patch": "1.18.1",
+  "previous": [],
+  "quest_id": 42094,
+  "rewards": "Starglass Monocle",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Moth%27s_Heresy",
+  "start_npc": [
+   "Arch Druid Renethra Moonwater"
+  ],
+  "type": null
+ },
+ "The Mystery of Karazhan V": {
+  "category": "Deadwind Pass",
+  "end_npc": [],
+  "experience": "6250",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "60",
+  "name": "The Mystery of Karazhan V",
+  "next": [
+   "The Mystery of Karazhan VI"
+  ],
+  "objectives": "Slay [Captain Rothynn](Captain Rothynn) to collect the Mark of Karazhan, and retrieve the Old Crypt Key from [Groundskeeper Jacoby](Groundskeeper Jacoby) for Magus Ariden Dusktower in Deadwind Pass.\n- [Mark of Karazhan](Mark of Karazhan)\n- [Old Crypt Key](Old Crypt Key)",
+  "patch": "1.16.0",
+  "previous": [
+   "The Mystery of Karazhan IV"
+  ],
+  "quest_id": 40315,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/The_Mystery_of_Karazhan_V",
+  "start_npc": [
+   "Magus Ariden Dusktower"
+  ],
+  "type": "Group"
+ },
+ "The Power of Aqua": {
+  "category": "The Barrens",
+  "end_npc": [],
+  "experience": "1850",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "25",
+  "name": "The Power of Aqua",
+  "next": [],
+  "objectives": "Collect a Refined Aqua Core from the water elementals of Ashenvale for Hydromancer Shaleborn at Anchor's Edge in the Barrens.\n- [Refined Aqua Core](Refined Aqua Core)",
+  "patch": null,
+  "previous": [],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Power_of_Aqua",
+  "start_npc": [
+   "Hydromancer Shaleborn"
+  ],
+  "type": ""
+ },
+ "The Power of Uth'okk": {
+  "category": "Grim Reaches",
+  "end_npc": [],
+  "experience": "3450",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "38",
+  "name": "The Power of Uth'okk",
+  "next": [
+   "The Ritual of Uth'okk"
+  ],
+  "objectives": "Slay Oronok Torn-Heart and recover the Pendant of Uth'okk from Stormwrought Ruins for Far Seer Mothang at Shatterblade Post in Grim Reaches.\n- [The Pendant of Uth'okk](The Pendant of Uth'okk)",
+  "patch": "1.18.0",
+  "previous": [
+   "Dark Essence (quest)"
+  ],
+  "quest_id": 41730,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/The_Power_of_Uth%27okk",
+  "start_npc": [
+   "Far Seer Mothang"
+  ],
+  "type": "Dungeon"
+ },
+ "The Price Of Information": {
+  "category": "",
+  "end_npc": [
+   "Captain Stoutfist"
+  ],
+  "experience": "",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "60",
+  "name": "The Price Of Information",
+  "next": [
+   "Scarlet Aid"
+  ],
+  "objectives": "Report to Captain Stoutfist.",
+  "patch": null,
+  "previous": [
+   "The Means of Persuading",
+   "Seeking Justice or Vengeance?"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Price_Of_Information",
+  "start_npc": [
+   "Incompleted Interrogation Report"
+  ],
+  "type": ""
+ },
+ "The Rebellion": {
+  "category": "Gilneas",
+  "end_npc": [],
+  "experience": "450",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "40",
+  "name": "The Rebellion",
+  "next": [],
+  "objectives": "Listen to the tale of Darius Ravenwood.\n- Listen to the tale of Darius Ravenwood",
+  "patch": "1.17.0",
+  "previous": [],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Rebellion",
+  "start_npc": [
+   "Lord Darius Ravenwood"
+  ],
+  "type": null
+ },
+ "The Riftwalker's Cane": {
+  "category": "Azshara",
+  "end_npc": [
+   "Akh Z'ador"
+  ],
+  "experience": "6300",
+  "faction": "Neutral",
+  "is_turtle_content": true,
+  "level": "54",
+  "name": "The Riftwalker's Cane",
+  "next": [
+   "Novice In A Barren Land"
+  ],
+  "objectives": "Return with Akh Z'ador's Riftwalker Cane and the Mojo of Jammal'an to Akh Z'ador in Azshara.\n- [Akh Z'ador's Riftwalker Cane](Akh Z'ador's Riftwalker Cane)\n- [Mojo of Jammal'an](Mojo of Jammal'an)",
+  "patch": "1.18.1",
+  "previous": [
+   "Rift Fatigue: Mind",
+   "Rift Fatigue: Body"
+  ],
+  "quest_id": 41323,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Riftwalker%27s_Cane",
+  "start_npc": [
+   "Akh Z'ador"
+  ],
+  "type": "Dungeon"
+ },
+ "The Ritual of Uth'okk": {
+  "category": "Grim Reaches",
+  "end_npc": [],
+  "experience": "300",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "38",
+  "name": "The Ritual of Uth'okk",
+  "next": [],
+  "objectives": "Wait for Far Seer Mothang to finish his ritual.\n- Wait for Far Seer Mothang to finish his ritual",
+  "patch": "1.18.0",
+  "previous": [
+   "The Power of Uth'okk"
+  ],
+  "quest_id": 41731,
+  "rewards": "The Pendant of Uth'okk",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Ritual_of_Uth%27okk",
+  "start_npc": [
+   "Far Seer Mothang"
+  ],
+  "type": null
+ },
+ "The Rot of Elun'aran": {
+  "category": "Moonwhisper Coast",
+  "end_npc": [],
+  "experience": "7800",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "55",
+  "name": "The Rot of Elun'aran",
+  "next": [
+   "Keeper of the Broken Grove"
+  ],
+  "objectives": "Slay 10 Sisters of Rot, 10 Whispering Satyrs, and 5 Rotting Ancients in Elun’aran, then return to Sister Mirallun in the Grove of the Sun.\n- [Sister of Rot](Sister of Rot) slain (10)\n- [Whispering Satyr](Whispering Satyr) slain (10)\n- [Rotting Ancient](Rotting Ancient) slain (5)",
+  "patch": "1.18.1",
+  "previous": [
+   "A Dryad's Counsel"
+  ],
+  "quest_id": 42096,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Rot_of_Elun%27aran",
+  "start_npc": [
+   "Sister Mirallun"
+  ],
+  "type": "Group"
+ },
+ "The Rotten Renown": {
+  "category": "Lapidis Isle",
+  "end_npc": [
+   "Colonel Hardinus"
+  ],
+  "experience": "4800",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "51",
+  "name": "The Rotten Renown",
+  "next": [],
+  "objectives": "Find someone who can find a use for the Logbook of the Rotten Renown.\n- [Logbook of the Rotten Renown](Logbook of the Rotten Renown)",
+  "patch": null,
+  "previous": [],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Rotten_Renown",
+  "start_npc": [
+   "Waterlogged Trunk"
+  ],
+  "type": null
+ },
+ "The Sanv Charm": {
+  "category": "Swamp of Sorrows",
+  "end_npc": [
+   "Sanv K'la"
+  ],
+  "experience": "2250",
+  "faction": "Neutral",
+  "is_turtle_content": true,
+  "level": "39",
+  "name": "The Sanv Charm",
+  "next": [
+   "Draenic Communication"
+  ],
+  "objectives": "Head to the Misty Valley and find the Sanv Charm.\n- [Sanv Charm](Sanv Charm)",
+  "patch": "1.18.1",
+  "previous": [],
+  "quest_id": 40027,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Sanv_Charm",
+  "start_npc": [
+   "Sanv K'la"
+  ],
+  "type": null
+ },
+ "The Scales of War": {
+  "category": "Barrens",
+  "end_npc": [
+   "Vice Admiral Renhoff"
+  ],
+  "experience": "1200",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "30",
+  "name": "The Scales of War",
+  "next": [],
+  "objectives": "Bring the Sealed Kul Tiran Letter to Vice Admiral Renhoff at the Kul Tiran Embassy in the Stormwind Harbor.\n- [Sealed Kul Tiran Letter](Sealed Kul Tiran Letter) (provided)",
+  "patch": "1.16.4",
+  "previous": [],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Scales_of_War",
+  "start_npc": [
+   "Lieutenant Alverold"
+  ],
+  "type": null
+ },
+ "The Second Meeting": {
+  "category": "Dustwallow Marsh",
+  "end_npc": [
+   "Captain Garran Vimes"
+  ],
+  "experience": "750",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "35",
+  "name": "The Second Meeting",
+  "next": [
+   "And Justice for All"
+  ],
+  "objectives": "Assist Falgran with the meeting, once complete, return to Captain Garran Vimes at Theramore Isle in Dustwallow Marsh.\n- Assist Falgran with the meeting",
+  "patch": null,
+  "previous": [
+   "To Meet Again"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Second_Meeting",
+  "start_npc": [
+   "Falgran Hastil"
+  ],
+  "type": null
+ },
+ "The Second Wave": {
+  "category": "Durotar",
+  "end_npc": [],
+  "experience": "900",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "10",
+  "name": "The Second Wave",
+  "next": [
+   "The Warchief's Orders"
+  ],
+  "objectives": "Slay 7 Expedition Scouts and 7 Expedition Commandos for Warbringer Dar'nakk in Razor Hill in Durotar. \n- [Expedition Scout](Expedition Scout) (7)\n- [Expedition Commando](Expedition Commando) (7)",
+  "patch": "1.16.4",
+  "previous": [],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Second_Wave",
+  "start_npc": [
+   "Warbringer Dar'nakk"
+  ],
+  "type": null
+ },
+ "The Shattered Disc": {
+  "category": "Frostmane Hollow",
+  "end_npc": [
+   "Brohann Caskbelly"
+  ],
+  "experience": "850",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "14",
+  "name": "The Shattered Disc",
+  "next": [],
+  "objectives": "Return to Brohann Caskbelly in the Dwarven District of Stormwind.\n- [Shattered Platinum Disc](Shattered Platinum Disc)",
+  "patch": "1.18.1",
+  "previous": [
+   "Searching for Archaeologist Evenpike"
+  ],
+  "quest_id": 42007,
+  "rewards": "Archaeologist's Lantern",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Shattered_Disc",
+  "start_npc": [
+   "Archaeologist Evenpike"
+  ],
+  "type": "Dungeon"
+ },
+ "The Silver Covenant": {
+  "category": "Thalassian Highlands",
+  "end_npc": [
+   "Commander Braedin"
+  ],
+  "experience": "120",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "5",
+  "name": "The Silver Covenant",
+  "next": [
+   "Felstrider Retreat (quest)"
+  ],
+  "objectives": "Find [Commander Braedin](Commander Braedin) in the [Silver Covenant Camp](Silver Covenant Camp).",
+  "patch": "1.17.1",
+  "previous": [
+   "Message for the Windrunner"
+  ],
+  "quest_id": 41236,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/The_Silver_Covenant",
+  "start_npc": [
+   "Vereesa Windrunner"
+  ],
+  "type": null
+ },
+ "The Skardyn": {
+  "category": "Grim Reaches",
+  "end_npc": [],
+  "experience": "750",
+  "faction": "Neutral",
+  "is_turtle_content": false,
+  "level": "39",
+  "name": "The Skardyn",
+  "next": [
+   "Memories of Dark Iron"
+  ],
+  "objectives": "Listen to the tale of Sarthyss Scaleheart.\n- Listen to Sarthyss",
+  "patch": null,
+  "previous": [
+   "Tomb of Ancestors (quest)"
+  ],
+  "quest_id": 41803,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Skardyn",
+  "start_npc": [
+   "Sarthyss Scaleheart"
+  ],
+  "type": null
+ },
+ "The Slavemakers": {
+  "category": "Northwind",
+  "end_npc": [],
+  "experience": "2950",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "33",
+  "name": "The Slavemakers",
+  "next": [
+   "Covering All Possibilities"
+  ],
+  "objectives": "Search Sherwood Quarry. Return to Operative Hawthorne in Ambershire with anything useful you find.\n- [Maltorius' Missive](Maltorius' Missive)",
+  "patch": "1.18.0",
+  "previous": [
+   "Defying Odds"
+  ],
+  "quest_id": 41645,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Slavemakers",
+  "start_npc": [
+   "Operative Baltimore Hawthorne"
+  ],
+  "type": ""
+ },
+ "The Tidemaster": {
+  "category": "Lapidis Isle",
+  "end_npc": [],
+  "experience": "4850",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "51",
+  "name": "The Tidemaster",
+  "next": [],
+  "objectives": "Venture within the Tidemaster in Shank's Reef and recover the Tidemaster's Logbook for Deckmaster Breachcrest in Caelan's Rest.\n- [Tidemaster Logbook](Tidemaster Logbook)",
+  "patch": null,
+  "previous": [],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Tidemaster",
+  "start_npc": [
+   "Deckmaster Breachcrest"
+  ],
+  "type": null
+ },
+ "The Tower of Lapidis (quest)": {
+  "category": "Lapidis Isle",
+  "end_npc": [
+   "Hydromancer Flakereef"
+  ],
+  "experience": "300",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "55",
+  "name": "The Tower of Lapidis (quest)",
+  "next": [
+   "The Tower of Lapidis II"
+  ],
+  "objectives": "Speak with Hydromancer Flakereef in Caelan's Rest.",
+  "patch": null,
+  "previous": [],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Tower_of_Lapidis_(quest)",
+  "start_npc": [
+   "Colonel Hardinus"
+  ],
+  "type": null
+ },
+ "The Tower of Lapidis II": {
+  "category": "Lapidis Isle",
+  "end_npc": [
+   "Archmage Ansirem Runeweaver"
+  ],
+  "experience": "300",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "55",
+  "name": "The Tower of Lapidis II",
+  "next": [
+   "The Tower of Lapidis III"
+  ],
+  "objectives": "Bring the Shimmering Brass Key to Archmage Ansirem Runeweaver in Dalaran.",
+  "patch": null,
+  "previous": [
+   "The Tower of Lapidis (quest)"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Tower_of_Lapidis_II",
+  "start_npc": [
+   "Hydromancer Flakereef"
+  ],
+  "type": null
+ },
+ "The Tower of Lapidis III": {
+  "category": "Lapidis Isle",
+  "end_npc": [],
+  "experience": "4750",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "55",
+  "name": "The Tower of Lapidis III",
+  "next": [
+   "The Tower of Lapidis IV"
+  ],
+  "objectives": "Gather a Pure Aqua Orb from Water Elementals in [Feralas](Feralas), and bring it to Archmage Ansirem Runeweaver.\n- [Pure Aqua Orb](Pure Aqua Orb): 0/1",
+  "patch": null,
+  "previous": [
+   "The Tower of Lapidis II"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Tower_of_Lapidis_III",
+  "start_npc": [
+   "Archmage Ansirem Runeweaver"
+  ],
+  "type": null
+ },
+ "The Tower of Lapidis IV": {
+  "category": "Lapidis Isle",
+  "end_npc": [],
+  "experience": "400",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "55",
+  "name": "The Tower of Lapidis IV",
+  "next": [
+   "The Tower of Lapidis V"
+  ],
+  "objectives": "Wait for Archmage Ansirem Runeweaver to finish his magic.",
+  "patch": null,
+  "previous": [
+   "The Tower of Lapidis III"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Tower_of_Lapidis_IV",
+  "start_npc": [
+   "Archmage Ansirem Runeweaver"
+  ],
+  "type": null
+ },
+ "The Tower of Lapidis IX": {
+  "category": "Lapidis Isle",
+  "end_npc": [
+   "Hydromancer Flakereef"
+  ],
+  "experience": "450",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "55",
+  "name": "The Tower of Lapidis IX",
+  "next": [
+   "The Tower of Lapidis X"
+  ],
+  "objectives": "Wait for Insom'ni to attune the Enchanted Brass Key, once the key is attuned, return it to Hydromancer Flakereef in Caelan's Rest.\n- [Attuned Brass Key](Attuned Brass Key) (provided)",
+  "patch": null,
+  "previous": [
+   "The Tower of Lapidis VIII"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Tower_of_Lapidis_IX",
+  "start_npc": [
+   "Insom'ni"
+  ],
+  "type": null
+ },
+ "The Tower of Lapidis V": {
+  "category": "Lapidis Isle",
+  "end_npc": [
+   "Hydromancer Flakereef"
+  ],
+  "experience": "400",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "55",
+  "name": "The Tower of Lapidis V",
+  "next": [
+   "The Tower of Lapidis VI"
+  ],
+  "objectives": "Return the Enchanted Brass Key to Hydromancer Flakereef.",
+  "patch": null,
+  "previous": [
+   "The Tower of Lapidis IV"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Tower_of_Lapidis_V",
+  "start_npc": [
+   "Archmage Ansirem Runeweaver"
+  ],
+  "type": null
+ },
+ "The Tower of Lapidis VI": {
+  "category": "Lapidis Isle",
+  "end_npc": [
+   "Magus Valgon"
+  ],
+  "experience": "400",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "55",
+  "name": "The Tower of Lapidis VI",
+  "next": [
+   "The Tower of Lapidis VII"
+  ],
+  "objectives": "Find Magus Valgon on Lapidis isle, and inquire about the Enchanted Brass Key.",
+  "patch": null,
+  "previous": [
+   "The Tower of Lapidis V"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Tower_of_Lapidis_VI",
+  "start_npc": [
+   "Hydromancer Flakereef"
+  ],
+  "type": null
+ },
+ "The Tower of Lapidis VII": {
+  "category": "Lapidis Isle",
+  "end_npc": [
+   "Insom'ni"
+  ],
+  "experience": "450",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "55",
+  "name": "The Tower of Lapidis VII",
+  "next": [
+   "The Tower of Lapidis VIII"
+  ],
+  "objectives": "Travel to Kazon Island and speak with the troll hermit Insom'ni.",
+  "patch": null,
+  "previous": [
+   "The Tower of Lapidis VI"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Tower_of_Lapidis_VII",
+  "start_npc": [
+   "Magus Valgon"
+  ],
+  "type": null
+ },
+ "The Tower of Lapidis VIII": {
+  "category": "Lapidis Isle",
+  "end_npc": [],
+  "experience": "4750",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "55",
+  "name": "The Tower of Lapidis VIII",
+  "next": [
+   "The Tower of Lapidis IX"
+  ],
+  "objectives": "Obtain Pethax's Horn for Insom'ni on Kazon Island.\n- [Pethax's Horn](Pethax's Horn): 0/1",
+  "patch": null,
+  "previous": [
+   "The Tower of Lapidis VII"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Tower_of_Lapidis_VIII",
+  "start_npc": [
+   "Insom'ni"
+  ],
+  "type": null
+ },
+ "The Tower of Lapidis X": {
+  "category": "Lapidis Isle",
+  "end_npc": [
+   "Colonel Hardinus"
+  ],
+  "experience": "5750",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "55",
+  "name": "The Tower of Lapidis X",
+  "next": [],
+  "objectives": "Venture into The Tower of Lapidis, slay Arch Hydromancer Lapidis, and return his head to Colonel Hardinus in Caelan's Rest. \n- [Head of Lapidis](Head of Lapidis)",
+  "patch": null,
+  "previous": [
+   "The Tower of Lapidis IX"
+  ],
+  "quest_id": null,
+  "rewards": "Choice of:, Kul Tiras Marine Helmet,, Hydromancer's Peak, or, Sailor's Headband",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Tower_of_Lapidis_X",
+  "start_npc": [
+   "Hydromancer Flakereef"
+  ],
+  "type": null
+ },
+ "The Tyrant King": {
+  "category": "Lapidis Isle",
+  "end_npc": [],
+  "experience": "5300",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "53",
+  "name": "The Tyrant King",
+  "next": [],
+  "objectives": "Slay the Tyrant King, and bring his crown to Sergeant Blackwell in Caelan's Rest.\n- [Tyrant's Crown](Tyrant's Crown)",
+  "patch": null,
+  "previous": [
+   "The Gor'dosh Ogres"
+  ],
+  "quest_id": null,
+  "rewards": "Choice of:, Mantle of the Ogre Slayer, or, Tyrant Cuffs",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Tyrant_King",
+  "start_npc": [
+   "Sergeant Blackwell"
+  ],
+  "type": null
+ },
+ "The Wall Comes Crashing Down": {
+  "category": "Gilneas",
+  "end_npc": [
+   "Lord Darius Ravenwood"
+  ],
+  "experience": "900",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "38",
+  "name": "The Wall Comes Crashing Down",
+  "next": [],
+  "objectives": "Venture to Gilneas and pledge your support to Lord Darius Ravenwood.",
+  "patch": "1.17.0",
+  "previous": [],
+  "quest_id": null,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/The_Wall_Comes_Crashing_Down",
+  "start_npc": [
+   "Marshal Redpath"
+  ],
+  "type": null
+ },
+ "The Warchief's Orders": {
+  "category": "Durotar",
+  "end_npc": [
+   "Thrall"
+  ],
+  "experience": "150",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "10",
+  "name": "The Warchief's Orders",
+  "next": [
+   "The Balance of Power"
+  ],
+  "objectives": "Speak with Thrall in Orgrimmar about the Kul Tiran threat.",
+  "patch": "1.16.4",
+  "previous": [
+   "The Second Wave"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Warchief%27s_Orders",
+  "start_npc": [
+   "Warbringer Dar'nakk"
+  ],
+  "type": null
+ },
+ "The Water Rat": {
+  "category": "Lapidis Isle",
+  "end_npc": [],
+  "experience": "4850",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "54",
+  "name": "The Water Rat",
+  "next": [],
+  "objectives": "Find 'Water Rat' Jorgy on Lapidis Isle and return his head to Sergeant Blackwell in Caelan's Rest.\n- [Head of Jorgy](Head of Jorgy)",
+  "patch": null,
+  "previous": [],
+  "quest_id": null,
+  "rewards": "Jorgy's Golden Ear-Ring",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Water_Rat",
+  "start_npc": [
+   "Sergeant Blackwell"
+  ],
+  "type": null
+ },
+ "The Way of Fel": {
+  "category": "Thalassian Highlands",
+  "end_npc": [],
+  "experience": "9300",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "9",
+  "name": "The Way of Fel",
+  "next": [],
+  "objectives": "Retrieve 10 Fel Crystals from Felstrider Retreat for Leshandra Fintri in Alah'Thalas.\n- [Fel Crystal](Fel Crystal) (10)",
+  "patch": "1.17.1",
+  "previous": [],
+  "quest_id": 41253,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/The_Way_of_Fel",
+  "start_npc": [
+   "Leshandra Fintri"
+  ],
+  "type": null
+ },
+ "The Withered Den": {
+  "category": "Moonwhisper Coast",
+  "end_npc": [],
+  "experience": "5100",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "56",
+  "name": "The Withered Den",
+  "next": [],
+  "objectives": "Find what caused the expedition to wither in the Barrow Den north of Sunsworn Camp, then return with your findings to Andanil Sunsworn in Sunsworn Camp on Moonwhisper Coast.\n- [The Nox Star](The Nox Star)",
+  "patch": "1.18.1",
+  "previous": [
+   "Expedition Gone Wrong"
+  ],
+  "quest_id": 42069,
+  "rewards": "Choice of:, Sunsworn Glaive, or, Robes of Nox",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Withered_Den",
+  "start_npc": [
+   "Andanil Sunsworn"
+  ],
+  "type": null
+ },
+ "The Wrath of Malgan": {
+  "category": "Windhorn Canyon",
+  "end_npc": [],
+  "experience": "2200",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "27",
+  "name": "The Wrath of Malgan",
+  "next": [],
+  "objectives": "Slay 20 Blackwind Villagers on behalf of Malgan Windhorn at Sagh's Refuge in Thousand Needles.\n- [Blackwind Villager](Blackwind Villager) slain (20)",
+  "patch": "1.18.1",
+  "previous": [],
+  "quest_id": 41978,
+  "rewards": "Choice of:, Hauberk of Bloodshed, or, Cloudtotem Cloak",
+  "source": "https://turtle-wow.fandom.com/wiki/The_Wrath_of_Malgan",
+  "start_npc": [
+   "Malgan Windhorn"
+  ],
+  "type": "Dungeon"
+ },
+ "Through Greater Magic": {
+  "category": "Gilneas",
+  "end_npc": [],
+  "experience": "3750",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "42",
+  "name": "Through Greater Magic",
+  "next": [
+   "The Ravenwood Scepter"
+  ],
+  "objectives": "Find the Eye of Xythos in Desolace, then return to Dark Bishop Mordren at Stillward Church in Gilneas.\n- [Eye of Xythos](Eye of Xythos)",
+  "patch": "1.17.0",
+  "previous": [],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Through_Greater_Magic",
+  "start_npc": [
+   "Dark Bishop Mordren"
+  ],
+  "type": null
+ },
+ "To Gilneas": {
+  "category": "Gilneas",
+  "end_npc": [
+   "Blackthorn"
+  ],
+  "experience": "375",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "41",
+  "name": "To Gilneas",
+  "next": [
+   "Report to Livia Strongarm",
+   "Report to Luke Agamand"
+  ],
+  "objectives": "Seek out [Blackthorn](Blackthorn) at [Blackthorn's Camp](Blackthorn's Camp) in [Gilneas](Gilneas).",
+  "patch": "1.17.0",
+  "previous": [],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/To_Gilneas",
+  "start_npc": [
+   "Dark Ranger Anya"
+  ],
+  "type": null
+ },
+ "To Heal A Soul": {
+  "category": "Tel'Abim",
+  "end_npc": [
+   "Aneka Konko"
+  ],
+  "experience": "5875",
+  "faction": "Neutral",
+  "is_turtle_content": false,
+  "level": "52",
+  "name": "To Heal A Soul",
+  "next": [],
+  "objectives": "Gather the Senshi Bones from the Wave Crest Explorers, once collected, bring the bones to Aneka Konko at Ratchet.\n- [Senshi Bones](Senshi Bones)",
+  "patch": null,
+  "previous": [
+   "An Exile's Regret"
+  ],
+  "quest_id": null,
+  "rewards": "Kabuto of the Senshi or Kabuto of the Protector",
+  "source": "https://turtle-wow.fandom.com/wiki/To_Heal_A_Soul",
+  "start_npc": [
+   "Inconspicuous Totem"
+  ],
+  "type": null
+ },
+ "To My Father, Vol'jin": {
+  "category": "Orgrimmar",
+  "end_npc": [
+   "Vol'jin"
+  ],
+  "experience": "2500",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "31",
+  "name": "To My Father, Vol'jin",
+  "next": [],
+  "objectives": "Deliver the missive to Vol'jin in Grommash Hold, Orgrimmar.\n- [Soaked Scroll](Soaked Scroll)",
+  "patch": "1.18.0",
+  "previous": [
+   "A Dark Tide Will Rise"
+  ],
+  "quest_id": 41820,
+  "rewards": "Vial of Darkspear Mojo",
+  "source": "https://turtle-wow.fandom.com/wiki/To_My_Father,_Vol%27jin",
+  "start_npc": [
+   "O'jin"
+  ],
+  "type": null
+ },
+ "To The Darkest Places": {
+  "category": "Balor",
+  "end_npc": [
+   "Verona Gillian"
+  ],
+  "experience": "3400",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "30",
+  "name": "To The Darkest Places",
+  "next": [
+   "Noppsy Spickerspan (quest)"
+  ],
+  "objectives": "Find Agent Deryl's comrades and potential information about your enemies using the clues he gave you. Return to [Verona Gillian](Verona Gillian) at the [SI:7 Outpost](SI:7 Outpost) on [Balor](Balor) afterwards.\n- [Agent Flynn](Agent Flynn) found\n- [Agent Cherys](Agent Cherys) found \n- [Agent Elroy](Green Puddle) found\n- [Stormreaver Scroll](Stormreaver Scroll)",
+  "patch": "1.18.0",
+  "previous": [
+   "The Last Lines"
+  ],
+  "quest_id": 41694,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/To_The_Darkest_Places",
+  "start_npc": [
+   "Agent Deryl"
+  ],
+  "type": "Group"
+ },
+ "Translating The Unknown": {
+  "category": "Tel'Abim",
+  "end_npc": [
+   "Aneka Konko"
+  ],
+  "experience": "1875",
+  "faction": "Neutral",
+  "is_turtle_content": false,
+  "level": "52",
+  "name": "Translating The Unknown",
+  "next": [
+   "An Exile's Regret"
+  ],
+  "objectives": "Find someone capable of deciphering the script on the parchment.\n- [A Strange Parchment](A Strange Parchment)",
+  "patch": null,
+  "previous": [],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Translating_The_Unknown",
+  "start_npc": [
+   "A Strange Parchment"
+  ],
+  "type": null
+ },
+ "Troubles From Distant Lands": {
+  "category": "Barrens",
+  "end_npc": [],
+  "experience": "900",
+  "faction": "Neutral",
+  "is_turtle_content": false,
+  "level": "13",
+  "name": "Troubles From Distant Lands",
+  "next": [],
+  "objectives": "Gather 3 types of healing herbs for [Aneka Konko](Aneka Konko) in [Ratchet](Ratchet).\n- [Summer Dew](Summer Dew) (3)\n- [Life's Dawn](Life's Dawn) (3)\n- [Vulpa Bloom](Vulpa Bloom) (3)",
+  "patch": null,
+  "previous": [],
+  "quest_id": null,
+  "rewards": "Music: Winds of Kamio",
+  "source": "https://turtle-wow.fandom.com/wiki/Troubles_From_Distant_Lands",
+  "start_npc": [
+   "Aneka Konko"
+  ],
+  "type": null
+ },
+ "Unconventional Means": {
+  "category": "Northwind",
+  "end_npc": [
+   "The Witch of Northwind"
+  ],
+  "experience": "850",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "34",
+  "name": "Unconventional Means",
+  "next": [
+   "Deathcap And Widow's Frill"
+  ],
+  "objectives": "Meet with the enigmatic woman of the woods.",
+  "patch": "1.18.0",
+  "previous": [
+   "Covering All Possibilities"
+  ],
+  "quest_id": 41647,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Unconventional_Means",
+  "start_npc": [
+   "Mayor Birkton"
+  ],
+  "type": ""
+ },
+ "We Take It From The Living": {
+  "category": "Gilneas",
+  "end_npc": [],
+  "experience": "3980",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "43",
+  "name": "We Take It From The Living",
+  "next": [
+   "The Evil Made Me Do It"
+  ],
+  "objectives": "Bring 15 Gilnean Blood Vials and 15 Worgen Blood Vials to Orvan Darkeye in the Ruins of Grayshire.\n- [Gilnean Blood Vial](Gilnean Blood Vial) (15)\n- [Worgen Blood Vial](Worgen Blood Vial) (15)",
+  "patch": "1.17.0",
+  "previous": [
+   "Last of the Living Dead"
+  ],
+  "quest_id": 40880,
+  "rewards": "Sash of Innocent Blood and, Wreath of Worgen Blood",
+  "source": "https://turtle-wow.fandom.com/wiki/We_Take_It_From_The_Living",
+  "start_npc": [
+   "Orvan Darkeye"
+  ],
+  "type": null
+ },
+ "Word to the High Priestess": {
+  "category": "Moonwhisper Coast",
+  "end_npc": [
+   "Tyrande Whisperwind"
+  ],
+  "experience": "3800",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "56",
+  "name": "Word to the High Priestess",
+  "next": [],
+  "objectives": "Bring news of the victory at Nendis to Tyrande Whisperwind.",
+  "patch": "1.18.1",
+  "previous": [
+   "Serpents Without Heads"
+  ],
+  "quest_id": 42091,
+  "rewards": "Hope of Nendis",
+  "source": "https://turtle-wow.fandom.com/wiki/Word_to_the_High_Priestess",
+  "start_npc": [
+   "Sentinel Commander Silverstreak"
+  ],
+  "type": null
+ },
+ "Wyrms of the Highlands": {
+  "category": "Thalassian Highlands",
+  "end_npc": [],
+  "experience": "8200",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "7",
+  "name": "Wyrms of the Highlands",
+  "next": [],
+  "objectives": "Bring 10 Mana Wyrm Eyes to [Commander Braedin](Commander Braedin) in [Silver Covenant Camp](Silver Covenant Camp).\n- [Mana Wyrm Eye](Mana Wyrm Eye) (10)",
+  "patch": "1.17.1",
+  "previous": [],
+  "quest_id": null,
+  "rewards": "Mana Wyrm Cape",
+  "source": "https://turtle-wow.fandom.com/wiki/Wyrms_of_the_Highlands",
+  "start_npc": [
+   "Commander Braedin"
+  ],
+  "type": null
+ },
+ "Yor'thegg's Ritual": {
+  "category": "Grim Reaches",
+  "end_npc": [],
+  "experience": "2600",
+  "faction": "Horde",
+  "is_turtle_content": true,
+  "level": "37",
+  "name": "Yor'thegg's Ritual",
+  "next": [
+   "The Flame of Dagnoth"
+  ],
+  "objectives": "Gather 5 Ornate Feathers, 3 Binding Flame, and a Pristine Stonehide Heart for Yor'thegg the Wise in Grim Reaches. \n- [Ornate Feather](Ornate Feather) (5)\n- [Binding Flame](Binding Flame) (3)\n- [Pristine Stonehide Heart](Pristine Stonehide Heart)",
+  "patch": "1.18.0",
+  "previous": [
+   "Signs of Corruption"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Yor%27thegg%27s_Ritual",
+  "start_npc": [
+   "Yor'thegg the Wise"
+  ],
+  "type": null
+ },
+ "You May Call This Cheating...": {
+  "category": "Balor",
+  "end_npc": [],
+  "experience": "2600",
+  "faction": "Alliance",
+  "is_turtle_content": true,
+  "level": "31",
+  "name": "You May Call This Cheating...",
+  "next": [
+   "Harrowing News"
+  ],
+  "objectives": "Acquire Stormreaver Writings for Noppsy Spickerspan at the SI:7 Outpost on Balor.\n- [Stormreaver Writing](Stormreaver Writing) (20)",
+  "patch": "1.18.0",
+  "previous": [
+   "Noppsy Spickerspan (quest)"
+  ],
+  "quest_id": 41696,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/You_May_Call_This_Cheating...",
+  "start_npc": [
+   "Noppsy Spickerspan"
+  ],
+  "type": ""
+ },
+ "Young and Foolish": {
+  "category": "Lakeshire",
+  "end_npc": [],
+  "experience": "",
+  "faction": "Alliance",
+  "is_turtle_content": false,
+  "level": "60",
+  "name": "Young and Foolish",
+  "next": [
+   "Caravan Meets Caravan"
+  ],
+  "objectives": "Interrogate the people of [Lakeshire](Lakeshire) and find out the truth. Report back to Mathias Shaw.\n- Speak to [Foreman Oslow](Foreman Oslow)\n- Speak to [Dorin Songblade](Dorin Songblade)\n- Speak to [Magistrate Solomon](Magistrate Solomon)",
+  "patch": null,
+  "previous": [
+   "The Elusive SI:7"
+  ],
+  "quest_id": null,
+  "rewards": "",
+  "source": "https://turtle-wow.fandom.com/wiki/Young_and_Foolish",
+  "start_npc": [
+   "Master Mathias Shaw"
+  ],
+  "type": ""
+ },
+ "Your Place In The World": {
+  "category": "Durotar",
+  "end_npc": [
+   "Gornek"
+  ],
+  "experience": "40",
+  "faction": "Horde",
+  "is_turtle_content": false,
+  "level": "1",
+  "name": "Your Place In The World",
+  "next": [
+   "Cutting Teeth"
+  ],
+  "objectives": "Speak with [Gornek](Gornek). You recall Kaltunk marking your map with his location and mentioning that gornek resides in the Den, a building to the west.",
+  "patch": null,
+  "previous": [],
+  "quest_id": null,
+  "rewards": null,
+  "source": "https://turtle-wow.fandom.com/wiki/Your_Place_In_The_World",
+  "start_npc": [
+   "Kaltunk"
+  ],
+  "type": null
+ }
+}
