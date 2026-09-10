@@ -7,327 +7,207 @@
 <body>
 <x-dc>
 <helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap">
   <style>
-    body { margin: 0; background: #0f1115; color: #e6e6e6; font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
-    a { color: #4dd0e1; text-decoration: none; } a:hover { color: #8be6f1; text-decoration: underline; }
+    body { margin: 0; background: #0b0c10; color: #eef0f3; font-family: Manrope, "Segoe UI", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+    a { color: #eef0f3; text-decoration: none; } a:hover { color: #C69B6D; }
     * { box-sizing: border-box; }
+    .h { font-family: "Space Grotesk", "Segoe UI", Helvetica, Arial, sans-serif; letter-spacing: -0.02em; }
   </style>
 </helmet>
-<div style="width: 1440px; min-height: 2960px; background: #0f1115; display: flex; flex-direction: column;">
+<div style="width: 1440px; min-height: 2720px; background: #0b0c10; display: flex; flex-direction: column;">
 
-  <!-- top bar -->
-  <div style="height: 56px; border-bottom: 1px solid rgba(255,255,255,0.10); display: flex; align-items: center; justify-content: space-between; padding: 0 40px; background: #0f1115;">
-    <div style="display: flex; align-items: center; gap: 28px;">
-      <div style="display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 15px;">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#4dd0e1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14c0-4 3.5-7 8-7s8 3 8 7c0 2-1 3-3 3H7c-2 0-3-1-3-3z"></path><path d="M9 17v2M15 17v2M12 7V5"></path></svg>
-        <span>Turtle WoW class guides</span>
-      </div>
-      <div style="display: flex; gap: 20px; font-size: 14px; color: #9ea5b0;">
-        <span style="color: #e6e6e6;">Classes</span><span>Matrix</span><span>Glossary</span><span>About</span>
-      </div>
+  <div style="height: 64px; display: flex; align-items: center; justify-content: space-between; padding: 0 56px;">
+    <div style="display: flex; align-items: center; gap: 40px;">
+      <div class="h" style="font-size: 16px; font-weight: 700;">turtle<span style="color: #8b93a1;">.guides</span></div>
+      <div style="display: flex; gap: 28px; font-size: 14px; color: #8b93a1;"><span style="color: #eef0f3;">Classes</span><span>Matrix</span><span>Glossary</span><span>About</span></div>
     </div>
-    <div style="display: flex; align-items: center; gap: 10px; height: 36px; padding: 0 14px; border: 1px solid rgba(255,255,255,0.12); border-radius: 10px; color: #9ea5b0; font-size: 13px; width: 300px;">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
-      <span>Search class, spec or term</span>
-      <span style="margin-left: auto; font-size: 11px; border: 1px solid rgba(255,255,255,0.15); border-radius: 4px; padding: 1px 5px;">/</span>
-    </div>
+    <div style="display: flex; align-items: center; gap: 10px; font-size: 13px; color: #8b93a1;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg><span>Search</span><span style="border: 1px solid rgba(255,255,255,0.14); border-radius: 5px; padding: 1px 6px; font-size: 11px;">/</span></div>
   </div>
 
-  <!-- hero -->
-  <div style="border-bottom: 1px solid rgba(255,255,255,0.10); background: linear-gradient(180deg, rgba(198,155,109,0.12) 0%, rgba(198,155,109,0) 100%);">
-    <div style="width: 1200px; margin: 0 auto; padding: 28px 0 24px; display: flex; flex-direction: column; gap: 18px;">
-      <div style="display: flex; align-items: center; gap: 8px; font-size: 13px; color: #9ea5b0;">
-        <span>Classes</span><span>/</span><span style="color: #C69B6D; font-weight: 600;">Warrior</span><span>/</span><span style="color: #e6e6e6;">Protection · Tank</span>
-      </div>
-      <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 40px;">
-        <div style="display: flex; align-items: center; gap: 20px;">
-          <div style="width: 72px; height: 72px; border-radius: 16px; background: rgba(198,155,109,0.16); border: 1px solid rgba(198,155,109,0.5); display: flex; align-items: center; justify-content: center;">
-            <svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="#C69B6D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 5-3 8.5-7 10-4-1.5-7-5-7-10V6l7-3z"></path><path d="M12 8v6M9 11h6"></path></svg>
-          </div>
-          <div style="display: flex; flex-direction: column; gap: 8px;">
-            <div style="font-size: 34px; font-weight: 800; letter-spacing: -0.02em; line-height: 1.1;">Protection Warrior <span style="color: #9ea5b0; font-weight: 500;">· Tank</span></div>
-            <div style="display: flex; gap: 8px; flex-wrap: wrap;">
-              <span style="display: inline-flex; align-items: center; gap: 6px; height: 26px; padding: 0 10px; border-radius: 999px; background: rgba(61,220,132,0.14); color: #3ddc84; font-size: 12px; font-weight: 600;"><span style="width: 6px; height: 6px; border-radius: 50%; background: #3ddc84;"></span>Favored tank spec</span>
-              <span style="display: inline-flex; align-items: center; gap: 6px; height: 26px; padding: 0 10px; border-radius: 999px; background: rgba(245,185,66,0.14); color: #f5b942; font-size: 12px; font-weight: 600;">Standing contested</span>
-              <span style="display: inline-flex; align-items: center; gap: 6px; height: 26px; padding: 0 10px; border-radius: 999px; background: rgba(77,208,225,0.14); color: #4dd0e1; font-size: 12px; font-weight: 600;">Valid for 1.18.1</span>
-            </div>
-          </div>
-        </div>
-        <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; width: 560px;">
-          <div style="background: #171a21; border: 1px solid rgba(255,255,255,0.10); border-radius: 12px; padding: 12px 14px; display: flex; flex-direction: column; gap: 4px;">
-            <div style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: #9ea5b0;">Best at</div>
-            <div style="font-size: 14px; font-weight: 600;">Raid main tank, dungeons</div>
-          </div>
-          <div style="background: #171a21; border: 1px solid rgba(255,255,255,0.10); border-radius: 12px; padding: 12px 14px; display: flex; flex-direction: column; gap: 4px;">
-            <div style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: #9ea5b0;">Threat comes from</div>
-            <div style="font-size: 14px; font-weight: 600;">White hits + Shield Slam</div>
-          </div>
-          <div style="background: #171a21; border: 1px solid rgba(255,255,255,0.10); border-radius: 12px; padding: 12px 14px; display: flex; flex-direction: column; gap: 4px;">
-            <div style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: #9ea5b0;">Watch out</div>
-            <div style="font-size: 14px; font-weight: 600;">Single-target threat vs bear/paladin</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <div style="width: 1328px; margin: 0 auto; display: grid; grid-template-columns: 200px 1fr; gap: 64px; padding: 40px 0 80px;">
 
-  <!-- section tabs -->
-  <div style="position: sticky; top: 0; background: rgba(15,17,21,0.96); border-bottom: 1px solid rgba(255,255,255,0.10);">
-    <div style="width: 1200px; margin: 0 auto; display: flex; gap: 4px; height: 46px; align-items: center;">
-      <span style="padding: 6px 12px; border-radius: 8px; background: #1e222b; font-size: 13px; font-weight: 600;">Talents</span>
-      <span style="padding: 6px 12px; border-radius: 8px; font-size: 13px; color: #9ea5b0;">Leveling path</span>
-      <span style="padding: 6px 12px; border-radius: 8px; font-size: 13px; color: #9ea5b0;">Stats &amp; caps</span>
-      <span style="padding: 6px 12px; border-radius: 8px; font-size: 13px; color: #9ea5b0;">Rotation</span>
-      <span style="padding: 6px 12px; border-radius: 8px; font-size: 13px; color: #9ea5b0;">Cooldowns</span>
-            <span style="padding: 6px 12px; border-radius: 8px; font-size: 13px; color: #9ea5b0;">Mistakes</span>
-      <span style="margin-left: auto; font-size: 12px; color: #9ea5b0;">Sources: 27 posts · staff and players · 2023-04 to 2026-03</span>
-    </div>
-  </div>
-
-  <div style="width: 1200px; margin: 0 auto; padding: 32px 0 48px; display: flex; flex-direction: column; gap: 36px;">
-
-    <!-- TALENTS -->
-    <div style="display: flex; flex-direction: column; gap: 16px;">
-      <div style="display: flex; align-items: baseline; justify-content: space-between;">
-        <div style="font-size: 22px; font-weight: 800; letter-spacing: -0.01em;">Endgame talents · Deep Protection</div>
-        <div style="font-size: 13px; color: #9ea5b0;">Sourced core is 46 of 51 points; the last 5 are player choice</div>
+    <!-- left rail -->
+    <div style="position: sticky; top: 24px; align-self: start; display: flex; flex-direction: column; gap: 28px;">
+      <div style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: #8b93a1;">
+        <span>Warrior</span>
+        <span style="color: #eef0f3; font-weight: 600;">Protection · Tank</span>
       </div>
-      <div style="display: grid; grid-template-columns: 1.15fr 2fr; gap: 16px;">
-        <div style="background: #171a21; border: 1px solid rgba(255,255,255,0.10); border-radius: 12px; padding: 20px; display: flex; flex-direction: column; gap: 16px;">
-          <div style="font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: #9ea5b0;">Point split</div>
-          <div style="display: flex; flex-direction: column; gap: 12px;">
-            <div style="display: flex; flex-direction: column; gap: 6px;">
-              <div style="display: flex; justify-content: space-between; font-size: 14px;"><span style="font-weight: 600;">Arms</span><span style="color: #9ea5b0;">13</span></div>
-              <div style="height: 10px; border-radius: 5px; background: #1e222b; overflow: hidden;"><div style="width: 25%; height: 100%; background: #8a8f98; border-radius: 5px;"></div></div>
-            </div>
-            <div style="display: flex; flex-direction: column; gap: 6px;">
-              <div style="display: flex; justify-content: space-between; font-size: 14px;"><span style="font-weight: 600;">Fury</span><span style="color: #9ea5b0;">0</span></div>
-              <div style="height: 10px; border-radius: 5px; background: #1e222b; overflow: hidden;"><div style="width: 0%; height: 100%; background: #8a8f98; border-radius: 5px;"></div></div>
-            </div>
-            <div style="display: flex; flex-direction: column; gap: 6px;">
-              <div style="display: flex; justify-content: space-between; font-size: 14px;"><span style="font-weight: 600; color: #C69B6D;">Protection</span><span style="color: #9ea5b0;">33 + 5 filler</span></div>
-              <div style="height: 10px; border-radius: 5px; background: #1e222b; overflow: hidden;"><div style="width: 75%; height: 100%; background: #C69B6D; border-radius: 5px;"></div></div>
-            </div>
-          </div>
-          <div style="height: 1px; background: rgba(255,255,255,0.10);"></div>
-          <div style="display: flex; flex-direction: column; gap: 10px;">
-            <div style="font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: #9ea5b0;">Skip</div>
-            <div style="display: flex; flex-wrap: wrap; gap: 6px;">
-              <span style="padding: 4px 10px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.14); font-size: 12px; color: #9ea5b0; text-decoration: line-through;">Iron Will</span>
-              <span style="padding: 4px 10px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.14); font-size: 12px; color: #9ea5b0; text-decoration: line-through;">Improved Disarm</span>
-              <span style="padding: 4px 10px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.14); font-size: 12px; color: #9ea5b0; text-decoration: line-through;">Improved Intervene</span>
-              <span style="padding: 4px 10px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.14); font-size: 12px; color: #9ea5b0; text-decoration: line-through;">Gag Order</span>
-              <span style="padding: 4px 10px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.14); font-size: 12px; color: #9ea5b0; text-decoration: line-through;">Improved Taunt</span>
-            </div>
-          </div>
-          <div style="margin-top: auto; padding: 12px 14px; border-radius: 10px; background: rgba(245,185,66,0.10); border: 1px solid rgba(245,185,66,0.35); font-size: 13px; color: #f5b942; line-height: 1.45;">1.18.1 changed the numbers, not the picks: Defiance is now 4–20% threat and Shield Slam scales with 20% attack power. Older lists with Improved Shield Block or Improved Sunder Armor are pre-CC2 and obsolete.</div>
-        </div>
-        <div style="background: #171a21; border: 1px solid rgba(255,255,255,0.10); border-radius: 12px; padding: 20px; display: flex; flex-direction: column; gap: 14px;">
-          <div style="font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: #9ea5b0;">Protection tree · what each point buys</div>
-          <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 20px;">
-            <div style="display: flex; align-items: center; gap: 12px; height: 44px; border-bottom: 1px solid rgba(255,255,255,0.06);">
-              <div style="display: flex; gap: 3px;"><span style="width: 8px; height: 8px; border-radius: 2px; background: #C69B6D;"></span></div>
-              <div style="font-size: 14px; font-weight: 600; flex: 1;">Shield Slam</div><div style="font-size: 12px; color: #9ea5b0;">the spec</div>
-            </div>
-            <div style="display: flex; align-items: center; gap: 12px; height: 44px; border-bottom: 1px solid rgba(255,255,255,0.06);">
-              <div style="display: flex; gap: 3px;"><span style="width: 8px; height: 8px; border-radius: 2px; background: #C69B6D;"></span><span style="width: 8px; height: 8px; border-radius: 2px; background: #C69B6D;"></span></div>
-              <div style="font-size: 14px; font-weight: 600; flex: 1;">Improved Shield Slam</div><div style="font-size: 12px; color: #9ea5b0;">block chance after slam</div>
-            </div>
-            <div style="display: flex; align-items: center; gap: 12px; height: 44px; border-bottom: 1px solid rgba(255,255,255,0.06);">
-              <div style="display: flex; gap: 3px;"><span style="width: 8px; height: 8px; border-radius: 2px; background: #C69B6D;"></span><span style="width: 8px; height: 8px; border-radius: 2px; background: #C69B6D;"></span><span style="width: 8px; height: 8px; border-radius: 2px; background: #C69B6D;"></span><span style="width: 8px; height: 8px; border-radius: 2px; background: #C69B6D;"></span><span style="width: 8px; height: 8px; border-radius: 2px; background: #C69B6D;"></span></div>
-              <div style="font-size: 14px; font-weight: 600; flex: 1;">Defiance</div><div style="font-size: 12px; color: #9ea5b0;">+20% threat (1.18.1)</div>
-            </div>
-            <div style="display: flex; align-items: center; gap: 12px; height: 44px; border-bottom: 1px solid rgba(255,255,255,0.06);">
-              <div style="display: flex; gap: 3px;"><span style="width: 8px; height: 8px; border-radius: 2px; background: #C69B6D;"></span><span style="width: 8px; height: 8px; border-radius: 2px; background: #C69B6D;"></span><span style="width: 8px; height: 8px; border-radius: 2px; background: #C69B6D;"></span></div>
-              <div style="font-size: 14px; font-weight: 600; flex: 1;">Defensive Tactics</div><div style="font-size: 12px; color: #f5b942;">contested</div>
-            </div>
-            <div style="display: flex; align-items: center; gap: 12px; height: 44px; border-bottom: 1px solid rgba(255,255,255,0.06);">
-              <div style="display: flex; gap: 3px;"><span style="width: 8px; height: 8px; border-radius: 2px; background: #C69B6D;"></span><span style="width: 8px; height: 8px; border-radius: 2px; background: #C69B6D;"></span></div>
-              <div style="font-size: 14px; font-weight: 600; flex: 1;">Reprisal</div><div style="font-size: 12px; color: #9ea5b0;">free Revenge, +50%</div>
-            </div>
-            <div style="display: flex; align-items: center; gap: 12px; height: 44px; border-bottom: 1px solid rgba(255,255,255,0.06);">
-              <div style="display: flex; gap: 3px;"><span style="width: 8px; height: 8px; border-radius: 2px; background: #C69B6D;"></span><span style="width: 8px; height: 8px; border-radius: 2px; background: #C69B6D;"></span><span style="width: 8px; height: 8px; border-radius: 2px; background: #C69B6D;"></span></div>
-              <div style="font-size: 14px; font-weight: 600; flex: 1;">Improved Revenge</div><div style="font-size: 12px; color: #9ea5b0;">only worthwhile filler here</div>
-            </div>
-            <div style="display: flex; align-items: center; gap: 12px; height: 44px; border-bottom: 1px solid rgba(255,255,255,0.06);">
-              <div style="display: flex; gap: 3px;"><span style="width: 8px; height: 8px; border-radius: 2px; background: #C69B6D;"></span></div>
-              <div style="font-size: 14px; font-weight: 600; flex: 1;">Concussion Blow</div><div style="font-size: 12px; color: #9ea5b0;">0 rage, 20 s, opener</div>
-            </div>
-            <div style="display: flex; align-items: center; gap: 12px; height: 44px; border-bottom: 1px solid rgba(255,255,255,0.06);">
-              <div style="display: flex; gap: 3px;"><span style="width: 8px; height: 8px; border-radius: 2px; background: #C69B6D;"></span><span style="width: 8px; height: 8px; border-radius: 2px; background: #C69B6D;"></span><span style="width: 8px; height: 8px; border-radius: 2px; background: #C69B6D;"></span><span style="width: 8px; height: 8px; border-radius: 2px; background: #C69B6D;"></span><span style="width: 8px; height: 8px; border-radius: 2px; background: #C69B6D;"></span></div>
-              <div style="font-size: 14px; font-weight: 600; flex: 1;">One-Handed Weapon Spec.</div><div style="font-size: 12px; color: #9ea5b0;">white damage only</div>
-            </div>
-            <div style="display: flex; align-items: center; gap: 12px; height: 44px; border-bottom: 1px solid rgba(255,255,255,0.06);">
-              <div style="display: flex; gap: 3px;"><span style="width: 8px; height: 8px; border-radius: 2px; background: #C69B6D;"></span><span style="width: 8px; height: 8px; border-radius: 2px; background: #C69B6D;"></span><span style="width: 8px; height: 8px; border-radius: 2px; background: #C69B6D;"></span><span style="width: 8px; height: 8px; border-radius: 2px; background: #C69B6D;"></span><span style="width: 8px; height: 8px; border-radius: 2px; background: #C69B6D;"></span></div>
-              <div style="font-size: 14px; font-weight: 600; flex: 1;">Shield Specialization</div><div style="font-size: 12px; color: #9ea5b0;">rage per block</div>
-            </div>
-            <div style="display: flex; align-items: center; gap: 12px; height: 44px; border-bottom: 1px solid rgba(255,255,255,0.06);">
-              <div style="display: flex; gap: 3px;"><span style="width: 8px; height: 8px; border-radius: 2px; background: #C69B6D;"></span><span style="width: 8px; height: 8px; border-radius: 2px; background: #C69B6D;"></span></div>
-              <div style="font-size: 14px; font-weight: 600; flex: 1;">Improved Bloodrage</div><div style="font-size: 12px; color: #9ea5b0;">instant rage</div>
-            </div>
-            <div style="display: flex; align-items: center; gap: 12px; height: 44px; border-bottom: 1px solid rgba(255,255,255,0.06);">
-              <div style="display: flex; gap: 3px;"><span style="width: 8px; height: 8px; border-radius: 2px; background: #C69B6D;"></span><span style="width: 8px; height: 8px; border-radius: 2px; background: #C69B6D;"></span><span style="width: 8px; height: 8px; border-radius: 2px; background: #C69B6D;"></span></div>
-              <div style="font-size: 14px; font-weight: 600; flex: 1;">Anticipation</div><div style="font-size: 12px; color: #9ea5b0;">+20 Defense</div>
-            </div>
-            <div style="display: flex; align-items: center; gap: 12px; height: 44px; border-bottom: 1px solid rgba(255,255,255,0.06);">
-              <div style="display: flex; gap: 3px;"><span style="width: 8px; height: 8px; border-radius: 2px; background: #C69B6D;"></span></div>
-              <div style="font-size: 14px; font-weight: 600; flex: 1;">Last Stand</div><div style="font-size: 12px; color: #9ea5b0;">emergency</div>
-            </div>
-          </div>
-          <div style="display: flex; gap: 20px; font-size: 13px; color: #9ea5b0; padding-top: 4px;">
-            <span><span style="color: #e6e6e6; font-weight: 600;">Arms side</span> Tactical Mastery 2, Improved Heroic Strike 3, Improved Thunder Clap 3, Deflection 5</span>
-            <span><span style="color: #e6e6e6; font-weight: 600;">Variant</span> Cruelty 5 with Defensive Tactics + Enrage</span>
-          </div>
-        </div>
+      <div style="display: flex; flex-direction: column; gap: 2px; font-size: 14px;">
+        <div style="display: flex; align-items: center; gap: 12px; height: 34px; color: #eef0f3; font-weight: 600;"><span style="width: 18px; height: 2px; background: #C69B6D;"></span><span>Verdict</span></div>
+        <div style="display: flex; align-items: center; gap: 12px; height: 34px; color: #8b93a1;"><span style="width: 18px; height: 2px; background: transparent;"></span><span>Talents</span></div>
+        <div style="display: flex; align-items: center; gap: 12px; height: 34px; color: #8b93a1;"><span style="width: 18px; height: 2px; background: transparent;"></span><span>Leveling path</span></div>
+        <div style="display: flex; align-items: center; gap: 12px; height: 34px; color: #8b93a1;"><span style="width: 18px; height: 2px; background: transparent;"></span><span>Stats and caps</span></div>
+        <div style="display: flex; align-items: center; gap: 12px; height: 34px; color: #8b93a1;"><span style="width: 18px; height: 2px; background: transparent;"></span><span>Rotation</span></div>
+        <div style="display: flex; align-items: center; gap: 12px; height: 34px; color: #8b93a1;"><span style="width: 18px; height: 2px; background: transparent;"></span><span>Cooldowns</span></div>
+        <div style="display: flex; align-items: center; gap: 12px; height: 34px; color: #8b93a1;"><span style="width: 18px; height: 2px; background: transparent;"></span><span>Don't</span></div>
+        <div style="display: flex; align-items: center; gap: 12px; height: 34px; color: #8b93a1;"><span style="width: 18px; height: 2px; background: transparent;"></span><span>Sources</span></div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 10px; font-size: 12px; color: #8b93a1; border-top: 1px solid rgba(255,255,255,0.08); padding-top: 20px;">
+        <span>Other Warrior guides</span>
+        <span style="color: #eef0f3;">Fury, dual wield · DPS</span>
+        <span style="color: #eef0f3;">Arms · DPS</span>
+        <span style="color: #eef0f3;">Arms · PvP</span>
+        <span style="color: #eef0f3;">Leveling</span>
       </div>
     </div>
 
-    <!-- LEVELING PATH -->
-    <div style="display: flex; flex-direction: column; gap: 16px;">
-      <div style="display: flex; align-items: baseline; justify-content: space-between;">
-        <div style="font-size: 22px; font-weight: 800; letter-spacing: -0.01em;">Leveling path to this build</div>
-        <div style="font-size: 13px; color: #9ea5b0;">Level as Arms with a two-hander, switch to sword and board at 30 (dungeon tank) or 60</div>
-      </div>
-      <div style="background: #171a21; border: 1px solid rgba(255,255,255,0.10); border-radius: 12px; padding: 24px 24px 20px; display: flex; flex-direction: column; gap: 18px;">
-        <div style="position: relative; height: 96px;">
-          <div style="position: absolute; left: 0; right: 0; top: 30px; height: 4px; border-radius: 2px; background: linear-gradient(90deg, #8a8f98 0%, #8a8f98 83%, #C69B6D 83%, #C69B6D 100%);"></div>
-          <div style="position: absolute; left: 0; top: 0; display: grid; grid-template-columns: repeat(9, 127px); width: 1143px;"><div style="display: flex; flex-direction: column; align-items: center; gap: 8px;"><div style="width: 12px; height: 12px; border-radius: 50%; background: #8a8f98; margin-top: 26px;"></div><div style="font-size: 12px; font-weight: 700;">10</div><div style="font-size: 11px; color: #9ea5b0; text-align: center;">Arms, two-hander</div></div><div style="display: flex; flex-direction: column; align-items: center; gap: 8px;"><div style="width: 12px; height: 12px; border-radius: 50%; background: #8a8f98; margin-top: 26px;"></div><div style="font-size: 12px; font-weight: 700;">14</div><div style="font-size: 11px; color: #9ea5b0; text-align: center;">Cruelty 5/5</div></div><div style="display: flex; flex-direction: column; align-items: center; gap: 8px;"><div style="width: 12px; height: 12px; border-radius: 50%; background: #8a8f98; margin-top: 26px;"></div><div style="font-size: 12px; font-weight: 700;">17</div><div style="font-size: 11px; color: #9ea5b0; text-align: center;">Tactical Mastery 3</div></div><div style="display: flex; flex-direction: column; align-items: center; gap: 8px;"><div style="width: 12px; height: 12px; border-radius: 50%; background: #8a8f98; margin-top: 26px;"></div><div style="font-size: 12px; font-weight: 700;">19</div><div style="font-size: 11px; color: #9ea5b0; text-align: center;">Imp. Rend 2/2</div></div><div style="display: flex; flex-direction: column; align-items: center; gap: 8px;"><div style="width: 12px; height: 12px; border-radius: 50%; background: #8a8f98; margin-top: 26px;"></div><div style="font-size: 12px; font-weight: 700;">22</div><div style="font-size: 11px; color: #9ea5b0; text-align: center;">Imp. Thunder Clap 3/3</div></div><div style="display: flex; flex-direction: column; align-items: center; gap: 8px;"><div style="width: 12px; height: 12px; border-radius: 50%; background: #8a8f98; margin-top: 26px;"></div><div style="font-size: 12px; font-weight: 700;">24</div><div style="font-size: 11px; color: #9ea5b0; text-align: center;">Deflection 2</div></div><div style="display: flex; flex-direction: column; align-items: center; gap: 8px;"><div style="width: 12px; height: 12px; border-radius: 50%; background: #8a8f98; margin-top: 26px;"></div><div style="font-size: 12px; font-weight: 700;">26</div><div style="font-size: 11px; color: #9ea5b0; text-align: center;">Imp. Overpower 2/2</div></div><div style="display: flex; flex-direction: column; align-items: center; gap: 8px;"><div style="width: 16px; height: 16px; border-radius: 50%; background: #C69B6D; margin-top: 24px; box-shadow: 0 0 0 4px rgba(198,155,109,0.25);"></div><div style="font-size: 12px; font-weight: 700; color: #C69B6D;">30</div><div style="font-size: 11px; color: #C69B6D; text-align: center; font-weight: 600;">Respec: Protection, shield</div></div><div style="display: flex; flex-direction: column; align-items: center; gap: 8px;"><div style="width: 16px; height: 16px; border-radius: 50%; background: #C69B6D; margin-top: 24px; box-shadow: 0 0 0 4px rgba(198,155,109,0.25);"></div><div style="font-size: 12px; font-weight: 700; color: #C69B6D;">60</div><div style="font-size: 11px; color: #C69B6D; text-align: center; font-weight: 600;">Endgame build</div></div>
-          </div>
-        </div>
-        <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px;">
-          <div style="background: #1e222b; border-radius: 10px; padding: 14px 16px; display: flex; flex-direction: column; gap: 6px;">
-            <div style="font-size: 12px; font-weight: 700; color: #9ea5b0;">10 – 29 · Arms two-hander</div>
-            <div style="font-size: 13px; line-height: 1.45;">Cruelty, Tactical Mastery and Improved Thunder Clap carry early dungeon tanking; the order above is the sourced route to 30. Whirlwind Axe at 30.</div>
-          </div>
-          <div style="background: #1e222b; border-radius: 10px; padding: 14px 16px; display: flex; flex-direction: column; gap: 6px;">
-            <div style="font-size: 12px; font-weight: 700; color: #C69B6D;">30 – 59 · Sword and board</div>
-            <div style="font-size: 13px; line-height: 1.45;">Respec into Protection with a one-hander and shield; respecs are cheap on Turtle. No source publishes the point-by-point order from 30 to 60, so the guide gives the endgame list and the players' rule of thumb: take the new buttons first.</div>
-          </div>
-          <div style="background: #1e222b; border-radius: 10px; padding: 14px 16px; display: flex; flex-direction: column; gap: 6px;">
-            <div style="font-size: 12px; font-weight: 700; color: #9ea5b0;">Alternative</div>
-            <div style="font-size: 13px; line-height: 1.45;">Stay Arms (or dual-wield Fury) to 60 for faster questing, then respec once into the endgame build.</div>
-          </div>
-        </div>
-        <div style="font-size: 12px; color: #9ea5b0;">Levels 14 – 26 are derived from the sourced talent order (5 points per row); the source gives the order, not the levels. The 30 – 60 stretch has no published order.</div>
-      </div>
-    </div>
+    <!-- content -->
+    <div style="display: flex; flex-direction: column; gap: 64px; max-width: 1064px;">
 
-    <!-- STATS & CAPS -->
-    <div style="display: flex; flex-direction: column; gap: 16px;">
-      <div style="font-size: 22px; font-weight: 800; letter-spacing: -0.01em;">Stat priority and caps</div>
-      <div style="display: grid; grid-template-columns: 2fr 1.15fr; gap: 16px;">
-        <div style="background: #171a21; border: 1px solid rgba(255,255,255,0.10); border-radius: 12px; padding: 20px; display: flex; flex-direction: column; gap: 12px;">
-          <div style="display: flex; align-items: center; gap: 14px; padding: 12px 14px; border-radius: 10px; background: #1e222b;">
-            <div style="width: 30px; height: 30px; border-radius: 8px; background: #C69B6D; color: #0f1115; font-weight: 800; display: flex; align-items: center; justify-content: center;">1</div>
-            <div style="display: flex; flex-direction: column; gap: 2px; flex: 1;"><div style="font-size: 16px; font-weight: 700;">Defense</div><div style="font-size: 13px; color: #9ea5b0;">until bosses stop critting you; then it keeps trimming crushing blows</div></div>
-          </div>
-          <div style="display: flex; align-items: center; gap: 14px; padding: 12px 14px; border-radius: 10px; background: #1e222b;">
-            <div style="width: 30px; height: 30px; border-radius: 8px; background: #C69B6D; color: #0f1115; font-weight: 800; display: flex; align-items: center; justify-content: center;">2</div>
-            <div style="display: flex; flex-direction: column; gap: 2px; flex: 1;"><div style="font-size: 16px; font-weight: 700;">Hit and weapon skill</div><div style="font-size: 13px; color: #9ea5b0;">threat is white hits and Shield Slam; a missed Sunder is a lost second</div></div>
-          </div>
-          <div style="display: flex; align-items: center; gap: 14px; padding: 12px 14px; border-radius: 10px; background: #1e222b;">
-            <div style="width: 30px; height: 30px; border-radius: 8px; background: #C69B6D; color: #0f1115; font-weight: 800; display: flex; align-items: center; justify-content: center;">3</div>
-            <div style="display: flex; flex-direction: column; gap: 2px; flex: 1;"><div style="font-size: 16px; font-weight: 700;">Stamina, armor, block value</div><div style="font-size: 13px; color: #9ea5b0;">block value scales Shield Slam; Shield Block makes blocked hits crit-immune</div></div>
-          </div>
-          <div style="font-size: 12px; color: #9ea5b0; padding-top: 4px;">No source publishes numeric stat weights for this spec; the order above is the players' consensus.</div>
+      <!-- verdict -->
+      <div style="display: flex; flex-direction: column; gap: 24px;">
+        <div style="display: flex; flex-direction: column; gap: 14px;">
+          <div style="font-size: 13px; color: #C69B6D; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;">Warrior · Tank</div>
+          <div class="h" style="font-size: 56px; font-weight: 700; line-height: 1;">Protection</div>
+          <div style="font-size: 18px; color: #8b93a1; line-height: 1.5; max-width: 720px;">Deep Protection with a one-hander and shield. The best mitigation kit on the server; single-target threat sits behind bear and paladin, and whether it is the best raid tank is an open argument.</div>
         </div>
-        <div style="display: flex; flex-direction: column; gap: 12px;">
-          <div style="background: #171a21; border: 1px solid rgba(255,255,255,0.10); border-radius: 12px; padding: 16px 18px; display: flex; align-items: center; justify-content: space-between;">
-            <div style="display: flex; flex-direction: column; gap: 2px;"><div style="font-size: 13px; color: #9ea5b0;">Hit cap vs bosses</div><div style="font-size: 12px; color: #9ea5b0;">player claim, 2H tanks quote 8%</div></div>
-            <div style="font-size: 28px; font-weight: 800; color: #C69B6D;">9%</div>
-          </div>
-          <div style="background: #171a21; border: 1px solid rgba(255,255,255,0.10); border-radius: 12px; padding: 16px 18px; display: flex; align-items: center; justify-content: space-between;">
-            <div style="display: flex; flex-direction: column; gap: 2px;"><div style="font-size: 13px; color: #9ea5b0;">Boss parry / dodge you fight</div><div style="font-size: 12px; color: #9ea5b0;">player claim</div></div>
-            <div style="font-size: 28px; font-weight: 800; color: #C69B6D;">14% / 5%</div>
-          </div>
-          <div style="background: #171a21; border: 1px solid rgba(255,255,255,0.10); border-radius: 12px; padding: 16px 18px; display: flex; align-items: center; justify-content: space-between;">
-            <div style="display: flex; flex-direction: column; gap: 2px;"><div style="font-size: 13px; color: #9ea5b0;">Defense for crit immunity</div><div style="font-size: 12px; color: #9ea5b0;">Turtle changed the formula; exact value not in sources</div></div>
-            <div style="font-size: 20px; font-weight: 800; color: #8a8f98;">unknown</div>
-          </div>
+        <div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 32px; border-top: 1px solid rgba(255,255,255,0.08); padding-top: 24px;">
+          <div style="display: flex; flex-direction: column; gap: 6px;"><div style="font-size: 12px; color: #8b93a1;">Community standing</div><div style="display: flex; align-items: center; gap: 8px; font-size: 16px; font-weight: 600;"><span style="width: 8px; height: 8px; border-radius: 50%; background: #3ddc84;"></span>Favored, contested</div></div>
+          <div style="display: flex; flex-direction: column; gap: 6px;"><div style="font-size: 12px; color: #8b93a1;">Patch 1.18.1</div><div style="font-size: 16px; font-weight: 600;">Numbers updated, picks unchanged</div></div>
+          <div style="display: flex; flex-direction: column; gap: 6px;"><div style="font-size: 12px; color: #8b93a1;">Threat comes from</div><div style="font-size: 16px; font-weight: 600;">White hits and Shield Slam</div></div>
+          <div style="display: flex; flex-direction: column; gap: 6px;"><div style="font-size: 12px; color: #8b93a1;">Best at</div><div style="font-size: 16px; font-weight: 600;">Raid main tank, dungeons</div></div>
         </div>
       </div>
-    </div>
 
-    <!-- ROTATION -->
-    <div style="display: flex; flex-direction: column; gap: 16px;">
-      <div style="font-size: 22px; font-weight: 800; letter-spacing: -0.01em;">Rotation</div>
-      <div style="background: #171a21; border: 1px solid rgba(255,255,255,0.10); border-radius: 12px; padding: 18px 20px; display: flex; flex-direction: column; gap: 12px;">
-        <div style="font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: #9ea5b0;">Opener</div>
-        <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
-          <span style="padding: 8px 14px; border-radius: 10px; background: #1e222b; font-size: 14px; font-weight: 600;">Bloodrage</span><span style="color: #9ea5b0;">→</span>
-          <span style="padding: 8px 14px; border-radius: 10px; background: #1e222b; font-size: 14px; font-weight: 600;">Pull</span><span style="color: #9ea5b0;">→</span>
-          <span style="padding: 8px 14px; border-radius: 10px; background: rgba(198,155,109,0.18); border: 1px solid rgba(198,155,109,0.5); font-size: 14px; font-weight: 600;">Concussion Blow</span><span style="color: #9ea5b0;">→</span>
-          <span style="padding: 8px 14px; border-radius: 10px; background: rgba(198,155,109,0.18); border: 1px solid rgba(198,155,109,0.5); font-size: 14px; font-weight: 600;">Shield Slam</span><span style="color: #9ea5b0;">→</span>
-          <span style="padding: 8px 14px; border-radius: 10px; background: #1e222b; font-size: 14px; font-weight: 600;">Sunder Armor</span><span style="color: #9ea5b0;">→</span>
-          <span style="padding: 8px 14px; border-radius: 10px; background: #1e222b; font-size: 14px; font-weight: 600;">Demoralizing Shout</span>
+      <!-- talents -->
+      <div style="display: flex; flex-direction: column; gap: 28px;">
+        <div style="display: flex; align-items: baseline; gap: 16px;"><span class="h" style="font-size: 13px; color: #8b93a1; font-weight: 600;">01</span><div class="h" style="font-size: 28px; font-weight: 700;">Talents</div><div style="font-size: 14px; color: #8b93a1; margin-left: auto;">46 of 51 points sourced · the last 5 are yours</div></div>
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <div style="display: flex; height: 14px; border-radius: 7px; overflow: hidden; gap: 3px;">
+            <div style="width: 25.5%; background: #3a3f4a;"></div>
+            <div style="width: 74.5%; background: #C69B6D;"></div>
+          </div>
+          <div style="display: flex; justify-content: space-between; font-size: 13px; color: #8b93a1;"><span><span style="color: #eef0f3; font-weight: 600;">Arms 13</span> · Tactical Mastery, Improved Heroic Strike, Improved Thunder Clap, Deflection</span><span><span style="color: #eef0f3; font-weight: 600;">Protection 33</span> + 5 filler</span></div>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 56px;">
+          <div style="display: flex; align-items: center; gap: 14px; height: 48px; border-bottom: 1px solid rgba(255,255,255,0.08);"><div style="display: flex; gap: 3px; width: 46px;"><span style="width: 7px; height: 7px; border-radius: 50%; background: #C69B6D;"></span></div><div style="font-size: 15px; font-weight: 600; flex: 1;">Shield Slam</div><div style="font-size: 13px; color: #8b93a1;">the spec</div></div>
+          <div style="display: flex; align-items: center; gap: 14px; height: 48px; border-bottom: 1px solid rgba(255,255,255,0.08);"><div style="display: flex; gap: 3px; width: 46px;"><span style="width: 7px; height: 7px; border-radius: 50%; background: #C69B6D;"></span><span style="width: 7px; height: 7px; border-radius: 50%; background: #C69B6D;"></span></div><div style="font-size: 15px; font-weight: 600; flex: 1;">Improved Shield Slam</div><div style="font-size: 13px; color: #8b93a1;">block chance after Slam</div></div>
+          <div style="display: flex; align-items: center; gap: 14px; height: 48px; border-bottom: 1px solid rgba(255,255,255,0.08);"><div style="display: flex; gap: 3px; width: 46px;"><span style="width: 7px; height: 7px; border-radius: 50%; background: #C69B6D;"></span><span style="width: 7px; height: 7px; border-radius: 50%; background: #C69B6D;"></span><span style="width: 7px; height: 7px; border-radius: 50%; background: #C69B6D;"></span><span style="width: 7px; height: 7px; border-radius: 50%; background: #C69B6D;"></span><span style="width: 7px; height: 7px; border-radius: 50%; background: #C69B6D;"></span></div><div style="font-size: 15px; font-weight: 600; flex: 1;">Defiance</div><div style="font-size: 13px; color: #8b93a1;">+20% threat in 1.18.1</div></div>
+          <div style="display: flex; align-items: center; gap: 14px; height: 48px; border-bottom: 1px solid rgba(255,255,255,0.08);"><div style="display: flex; gap: 3px; width: 46px;"><span style="width: 7px; height: 7px; border-radius: 50%; background: #C69B6D;"></span><span style="width: 7px; height: 7px; border-radius: 50%; background: #C69B6D;"></span><span style="width: 7px; height: 7px; border-radius: 50%; background: #C69B6D;"></span></div><div style="font-size: 15px; font-weight: 600; flex: 1;">Defensive Tactics</div><div style="font-size: 13px; color: #f5b942;">contested</div></div>
+          <div style="display: flex; align-items: center; gap: 14px; height: 48px; border-bottom: 1px solid rgba(255,255,255,0.08);"><div style="display: flex; gap: 3px; width: 46px;"><span style="width: 7px; height: 7px; border-radius: 50%; background: #C69B6D;"></span><span style="width: 7px; height: 7px; border-radius: 50%; background: #C69B6D;"></span></div><div style="font-size: 15px; font-weight: 600; flex: 1;">Reprisal</div><div style="font-size: 13px; color: #8b93a1;">free Revenge, +50% damage</div></div>
+          <div style="display: flex; align-items: center; gap: 14px; height: 48px; border-bottom: 1px solid rgba(255,255,255,0.08);"><div style="display: flex; gap: 3px; width: 46px;"><span style="width: 7px; height: 7px; border-radius: 50%; background: #C69B6D;"></span><span style="width: 7px; height: 7px; border-radius: 50%; background: #C69B6D;"></span><span style="width: 7px; height: 7px; border-radius: 50%; background: #C69B6D;"></span></div><div style="font-size: 15px; font-weight: 600; flex: 1;">Improved Revenge</div><div style="font-size: 13px; color: #8b93a1;">the one worthwhile filler</div></div>
+          <div style="display: flex; align-items: center; gap: 14px; height: 48px; border-bottom: 1px solid rgba(255,255,255,0.08);"><div style="display: flex; gap: 3px; width: 46px;"><span style="width: 7px; height: 7px; border-radius: 50%; background: #C69B6D;"></span></div><div style="font-size: 15px; font-weight: 600; flex: 1;">Concussion Blow</div><div style="font-size: 13px; color: #8b93a1;">no rage, 20 s, opener</div></div>
+          <div style="display: flex; align-items: center; gap: 14px; height: 48px; border-bottom: 1px solid rgba(255,255,255,0.08);"><div style="display: flex; gap: 3px; width: 46px;"><span style="width: 7px; height: 7px; border-radius: 50%; background: #C69B6D;"></span><span style="width: 7px; height: 7px; border-radius: 50%; background: #C69B6D;"></span><span style="width: 7px; height: 7px; border-radius: 50%; background: #C69B6D;"></span><span style="width: 7px; height: 7px; border-radius: 50%; background: #C69B6D;"></span><span style="width: 7px; height: 7px; border-radius: 50%; background: #C69B6D;"></span></div><div style="font-size: 15px; font-weight: 600; flex: 1;">One-Handed Weapon Specialization</div><div style="font-size: 13px; color: #8b93a1;">white damage only</div></div>
+          <div style="display: flex; align-items: center; gap: 14px; height: 48px; border-bottom: 1px solid rgba(255,255,255,0.08);"><div style="display: flex; gap: 3px; width: 46px;"><span style="width: 7px; height: 7px; border-radius: 50%; background: #C69B6D;"></span><span style="width: 7px; height: 7px; border-radius: 50%; background: #C69B6D;"></span><span style="width: 7px; height: 7px; border-radius: 50%; background: #C69B6D;"></span><span style="width: 7px; height: 7px; border-radius: 50%; background: #C69B6D;"></span><span style="width: 7px; height: 7px; border-radius: 50%; background: #C69B6D;"></span></div><div style="font-size: 15px; font-weight: 600; flex: 1;">Shield Specialization</div><div style="font-size: 13px; color: #8b93a1;">rage per block</div></div>
+          <div style="display: flex; align-items: center; gap: 14px; height: 48px; border-bottom: 1px solid rgba(255,255,255,0.08);"><div style="display: flex; gap: 3px; width: 46px;"><span style="width: 7px; height: 7px; border-radius: 50%; background: #C69B6D;"></span><span style="width: 7px; height: 7px; border-radius: 50%; background: #C69B6D;"></span></div><div style="font-size: 15px; font-weight: 600; flex: 1;">Improved Bloodrage</div><div style="font-size: 13px; color: #8b93a1;">instant rage</div></div>
+          <div style="display: flex; align-items: center; gap: 14px; height: 48px; border-bottom: 1px solid rgba(255,255,255,0.08);"><div style="display: flex; gap: 3px; width: 46px;"><span style="width: 7px; height: 7px; border-radius: 50%; background: #C69B6D;"></span><span style="width: 7px; height: 7px; border-radius: 50%; background: #C69B6D;"></span><span style="width: 7px; height: 7px; border-radius: 50%; background: #C69B6D;"></span></div><div style="font-size: 15px; font-weight: 600; flex: 1;">Anticipation</div><div style="font-size: 13px; color: #8b93a1;">+20 Defense</div></div>
+          <div style="display: flex; align-items: center; gap: 14px; height: 48px; border-bottom: 1px solid rgba(255,255,255,0.08);"><div style="display: flex; gap: 3px; width: 46px;"><span style="width: 7px; height: 7px; border-radius: 50%; background: #C69B6D;"></span></div><div style="font-size: 15px; font-weight: 600; flex: 1;">Last Stand</div><div style="font-size: 13px; color: #8b93a1;">emergency</div></div>
+          <div style="display: flex; align-items: center; gap: 14px; height: 48px; border-bottom: 1px solid rgba(255,255,255,0.08);"><div style="display: flex; gap: 3px; width: 46px;"><span style="width: 7px; height: 7px; border-radius: 50%; background: #3a3f4a;"></span><span style="width: 7px; height: 7px; border-radius: 50%; background: #3a3f4a;"></span></div><div style="font-size: 15px; font-weight: 600; flex: 1;">Improved Shield Wall</div><div style="font-size: 13px; color: #f5b942;">0 – 2, contested</div></div>
+        </div>
+        <div style="display: flex; gap: 40px; font-size: 14px; line-height: 1.5;">
+          <div style="flex: 1; display: flex; flex-direction: column; gap: 6px;"><div style="font-size: 12px; color: #8b93a1;">Skip</div><div style="color: #8b93a1;"><span style="text-decoration: line-through;">Iron Will</span> · <span style="text-decoration: line-through;">Improved Disarm</span> · <span style="text-decoration: line-through;">Improved Intervene</span> · <span style="text-decoration: line-through;">Gag Order</span> · <span style="text-decoration: line-through;">Improved Taunt</span></div></div>
+          <div style="flex: 1.4; display: flex; flex-direction: column; gap: 6px;"><div style="font-size: 12px; color: #f5b942;">1.18.1</div><div>Changed the numbers, not the picks: Defiance 4 – 20% threat, Shield Slam scales with 20% attack power. Lists with Improved Shield Block or Improved Sunder Armor predate the class rework and are obsolete.</div></div>
         </div>
       </div>
-      <div style="display: grid; grid-template-columns: 1.6fr 1fr; gap: 16px;">
-        <div style="background: #171a21; border: 1px solid rgba(255,255,255,0.10); border-radius: 12px; padding: 18px 20px; display: flex; flex-direction: column; gap: 10px;">
-          <div style="font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: #9ea5b0;">Single target · use the first that applies</div>
-          <div style="display: flex; align-items: center; gap: 14px; padding: 10px 12px; border-radius: 10px; background: #1e222b;"><div style="width: 26px; height: 26px; border-radius: 50%; background: #C69B6D; color: #0f1115; font-weight: 800; font-size: 13px; display: flex; align-items: center; justify-content: center;">1</div><div style="font-size: 15px; font-weight: 700; width: 150px;">Shield Slam</div><div style="font-size: 13px; color: #9ea5b0;">whenever it is off cooldown</div></div>
-          <div style="display: flex; align-items: center; gap: 14px; padding: 10px 12px; border-radius: 10px; background: #1e222b;"><div style="width: 26px; height: 26px; border-radius: 50%; background: #C69B6D; color: #0f1115; font-weight: 800; font-size: 13px; display: flex; align-items: center; justify-content: center;">2</div><div style="font-size: 15px; font-weight: 700; width: 150px;">Revenge</div><div style="font-size: 13px; color: #9ea5b0;">after a block, dodge or parry · Defensive Stance only</div></div>
-          <div style="display: flex; align-items: center; gap: 14px; padding: 10px 12px; border-radius: 10px; background: #1e222b;"><div style="width: 26px; height: 26px; border-radius: 50%; background: #C69B6D; color: #0f1115; font-weight: 800; font-size: 13px; display: flex; align-items: center; justify-content: center;">3</div><div style="font-size: 15px; font-weight: 700; width: 150px;">Shield Block</div><div style="font-size: 13px; color: #9ea5b0;">on cooldown on bosses · does not stack with the Improved Shield Slam charge</div></div>
-          <div style="display: flex; align-items: center; gap: 14px; padding: 10px 12px; border-radius: 10px; background: #1e222b;"><div style="width: 26px; height: 26px; border-radius: 50%; background: #C69B6D; color: #0f1115; font-weight: 800; font-size: 13px; display: flex; align-items: center; justify-content: center;">4</div><div style="font-size: 15px; font-weight: 700; width: 150px;">Sunder Armor</div><div style="font-size: 13px; color: #9ea5b0;">to 5 stacks, then as filler</div></div>
-          <div style="display: flex; align-items: center; gap: 14px; padding: 10px 12px; border-radius: 10px; background: #1e222b;"><div style="width: 26px; height: 26px; border-radius: 50%; background: #C69B6D; color: #0f1115; font-weight: 800; font-size: 13px; display: flex; align-items: center; justify-content: center;">5</div><div style="font-size: 15px; font-weight: 700; width: 150px;">Heroic Strike</div><div style="font-size: 13px; color: #9ea5b0;">rage dump when rage is high</div></div>
-          <div style="display: flex; align-items: center; gap: 14px; padding: 10px 12px; border-radius: 10px; background: #1e222b;"><div style="width: 26px; height: 26px; border-radius: 50%; background: #C69B6D; color: #0f1115; font-weight: 800; font-size: 13px; display: flex; align-items: center; justify-content: center;">6</div><div style="font-size: 15px; font-weight: 700; width: 150px;">Concussion Blow</div><div style="font-size: 13px; color: #9ea5b0;">every 20 s, costs no rage</div></div>
-          <div style="display: flex; align-items: center; gap: 14px; padding: 10px 12px; border-radius: 10px; background: #1e222b;"><div style="width: 26px; height: 26px; border-radius: 50%; background: #C69B6D; color: #0f1115; font-weight: 800; font-size: 13px; display: flex; align-items: center; justify-content: center;">7</div><div style="font-size: 15px; font-weight: 700; width: 150px;">Thunder Clap</div><div style="font-size: 13px; color: #9ea5b0;">once per pull for the attack-speed debuff</div></div>
-          <div style="display: flex; align-items: center; gap: 14px; padding: 10px 12px; border-radius: 10px; background: #1e222b; border: 1px dashed rgba(255,255,255,0.18);"><div style="width: 26px; height: 26px; border-radius: 50%; background: #1e222b; border: 1px solid #9ea5b0; color: #9ea5b0; font-weight: 800; font-size: 13px; display: flex; align-items: center; justify-content: center;">E</div><div style="font-size: 15px; font-weight: 700; width: 150px;">Execute</div><div style="font-size: 13px; color: #9ea5b0;">target under 20% and Defensive Tactics taken: swap stance and spam</div></div>
+
+      <!-- leveling -->
+      <div style="display: flex; flex-direction: column; gap: 28px;">
+        <div style="display: flex; align-items: baseline; gap: 16px;"><span class="h" style="font-size: 13px; color: #8b93a1; font-weight: 600;">02</span><div class="h" style="font-size: 28px; font-weight: 700;">Leveling path</div><div style="font-size: 14px; color: #8b93a1; margin-left: auto;">Arms with a two-hander to 30, then the shield</div></div>
+        <div style="position: relative; height: 84px;">
+          <div style="position: absolute; left: 6px; right: 6px; top: 8px; height: 2px; background: linear-gradient(90deg, #3a3f4a 0%, #3a3f4a 87%, #C69B6D 87%, #C69B6D 100%);"></div>
+          <div style="position: absolute; left: 0; top: 0; display: grid; grid-template-columns: repeat(9, minmax(0, 1fr)); width: 1064px;">
+            <div style="display: flex; flex-direction: column; gap: 10px;"><span style="width: 14px; height: 14px; border-radius: 50%; background: #0b0c10; border: 2px solid #3a3f4a; margin-top: 1px;"></span><div style="font-size: 13px; font-weight: 700;">10</div><div style="font-size: 12px; color: #8b93a1;">Arms, two-hander</div></div>
+            <div style="display: flex; flex-direction: column; gap: 10px;"><span style="width: 14px; height: 14px; border-radius: 50%; background: #0b0c10; border: 2px solid #3a3f4a; margin-top: 1px;"></span><div style="font-size: 13px; font-weight: 700;">14</div><div style="font-size: 12px; color: #8b93a1;">Cruelty 5/5</div></div>
+            <div style="display: flex; flex-direction: column; gap: 10px;"><span style="width: 14px; height: 14px; border-radius: 50%; background: #0b0c10; border: 2px solid #3a3f4a; margin-top: 1px;"></span><div style="font-size: 13px; font-weight: 700;">17</div><div style="font-size: 12px; color: #8b93a1;">Tactical Mastery 3</div></div>
+            <div style="display: flex; flex-direction: column; gap: 10px;"><span style="width: 14px; height: 14px; border-radius: 50%; background: #0b0c10; border: 2px solid #3a3f4a; margin-top: 1px;"></span><div style="font-size: 13px; font-weight: 700;">19</div><div style="font-size: 12px; color: #8b93a1;">Improved Rend 2/2</div></div>
+            <div style="display: flex; flex-direction: column; gap: 10px;"><span style="width: 14px; height: 14px; border-radius: 50%; background: #0b0c10; border: 2px solid #3a3f4a; margin-top: 1px;"></span><div style="font-size: 13px; font-weight: 700;">22</div><div style="font-size: 12px; color: #8b93a1;">Improved Thunder Clap 3/3</div></div>
+            <div style="display: flex; flex-direction: column; gap: 10px;"><span style="width: 14px; height: 14px; border-radius: 50%; background: #0b0c10; border: 2px solid #3a3f4a; margin-top: 1px;"></span><div style="font-size: 13px; font-weight: 700;">24</div><div style="font-size: 12px; color: #8b93a1;">Deflection 2</div></div>
+            <div style="display: flex; flex-direction: column; gap: 10px;"><span style="width: 14px; height: 14px; border-radius: 50%; background: #0b0c10; border: 2px solid #3a3f4a; margin-top: 1px;"></span><div style="font-size: 13px; font-weight: 700;">26</div><div style="font-size: 12px; color: #8b93a1;">Improved Overpower 2/2</div></div>
+            <div style="display: flex; flex-direction: column; gap: 10px;"><span style="width: 14px; height: 14px; border-radius: 50%; background: #C69B6D; border: 2px solid #C69B6D; margin-top: 1px;"></span><div style="font-size: 13px; font-weight: 700; color: #C69B6D;">30</div><div style="font-size: 12px; color: #C69B6D;">Respec: Protection, shield</div></div>
+            <div style="display: flex; flex-direction: column; gap: 10px;"><span style="width: 14px; height: 14px; border-radius: 50%; background: #C69B6D; border: 2px solid #C69B6D; margin-top: 1px;"></span><div style="font-size: 13px; font-weight: 700; color: #C69B6D;">60</div><div style="font-size: 12px; color: #C69B6D;">Endgame build above</div></div>
+          </div>
         </div>
-        <div style="display: flex; flex-direction: column; gap: 16px;">
-          <div style="background: #171a21; border: 1px solid rgba(255,255,255,0.10); border-radius: 12px; padding: 18px 20px; display: flex; flex-direction: column; gap: 10px;">
-            <div style="font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: #9ea5b0;">2 – 3 targets</div>
-            <div style="display: flex; flex-direction: column; gap: 8px; font-size: 14px;">
-              <div style="display: flex; gap: 10px;"><span style="color: #C69B6D; font-weight: 700;">1</span><span><strong>Thunder Clap</strong> <span style="color: #9ea5b0;">main AoE threat</span></span></div>
-              <div style="display: flex; gap: 10px;"><span style="color: #C69B6D; font-weight: 700;">2</span><span><strong>Demoralizing Shout</strong> <span style="color: #9ea5b0;">every pull</span></span></div>
-              <div style="display: flex; gap: 10px;"><span style="color: #C69B6D; font-weight: 700;">3</span><span><strong>Tab Revenge / Sunder</strong> <span style="color: #9ea5b0;">spread threat, mark skull</span></span></div>
+        <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px; font-size: 14px; line-height: 1.55; color: #c9ced6;">
+          <div style="display: flex; flex-direction: column; gap: 6px;"><div style="font-size: 12px; color: #8b93a1;">10 – 29</div>Cruelty, Tactical Mastery and Improved Thunder Clap carry early dungeon tanking. Whirlwind Axe at 30.</div>
+          <div style="display: flex; flex-direction: column; gap: 6px;"><div style="font-size: 12px; color: #C69B6D;">30 – 59</div>Respec into Protection with a one-hander and shield; respecs are cheap on Turtle. No source publishes the point order from 30 to 60, so follow the endgame list and take the new buttons first.</div>
+          <div style="display: flex; flex-direction: column; gap: 6px;"><div style="font-size: 12px; color: #8b93a1;">Alternative</div>Stay Arms or dual-wield Fury to 60 for faster questing, then respec once. Levels 14 – 26 are derived from the talent order; the source gives the order, not levels.</div>
+        </div>
+      </div>
+
+      <!-- stats -->
+      <div style="display: flex; flex-direction: column; gap: 28px;">
+        <div style="display: flex; align-items: baseline; gap: 16px;"><span class="h" style="font-size: 13px; color: #8b93a1; font-weight: 600;">03</span><div class="h" style="font-size: 28px; font-weight: 700;">Stats and caps</div></div>
+        <div style="display: grid; grid-template-columns: 1.4fr 1fr; gap: 64px;">
+          <div style="display: flex; flex-direction: column;">
+            <div style="display: flex; gap: 20px; padding: 16px 0; border-bottom: 1px solid rgba(255,255,255,0.08);"><span class="h" style="font-size: 22px; font-weight: 700; color: #C69B6D; width: 32px;">1</span><div style="display: flex; flex-direction: column; gap: 4px;"><div style="font-size: 17px; font-weight: 600;">Defense</div><div style="font-size: 14px; color: #8b93a1;">until bosses stop critting you; then it keeps trimming crushing blows</div></div></div>
+            <div style="display: flex; gap: 20px; padding: 16px 0; border-bottom: 1px solid rgba(255,255,255,0.08);"><span class="h" style="font-size: 22px; font-weight: 700; color: #C69B6D; width: 32px;">2</span><div style="display: flex; flex-direction: column; gap: 4px;"><div style="font-size: 17px; font-weight: 600;">Hit and weapon skill</div><div style="font-size: 14px; color: #8b93a1;">threat is white hits and Shield Slam; a missed Sunder is a lost second</div></div></div>
+            <div style="display: flex; gap: 20px; padding: 16px 0; border-bottom: 1px solid rgba(255,255,255,0.08);"><span class="h" style="font-size: 22px; font-weight: 700; color: #C69B6D; width: 32px;">3</span><div style="display: flex; flex-direction: column; gap: 4px;"><div style="font-size: 17px; font-weight: 600;">Stamina, armor, block value</div><div style="font-size: 14px; color: #8b93a1;">block value scales Shield Slam; Shield Block makes blocked hits crit-immune</div></div></div>
+            <div style="font-size: 12px; color: #8b93a1; padding-top: 12px;">No source publishes numeric stat weights for this spec; the order is the players' consensus.</div>
+          </div>
+          <div style="display: flex; flex-direction: column;">
+            <div style="display: flex; align-items: baseline; justify-content: space-between; padding: 14px 0; border-bottom: 1px solid rgba(255,255,255,0.08);"><div style="display: flex; flex-direction: column; gap: 2px;"><span style="font-size: 14px;">Hit cap vs bosses</span><span style="font-size: 12px; color: #8b93a1;">player claim; two-handers quote 8%</span></div><span class="h" style="font-size: 30px; font-weight: 700;">9%</span></div>
+            <div style="display: flex; align-items: baseline; justify-content: space-between; padding: 14px 0; border-bottom: 1px solid rgba(255,255,255,0.08);"><div style="display: flex; flex-direction: column; gap: 2px;"><span style="font-size: 14px;">Boss parry and dodge you fight</span><span style="font-size: 12px; color: #8b93a1;">player claim</span></div><span class="h" style="font-size: 30px; font-weight: 700;">14 / 5%</span></div>
+            <div style="display: flex; align-items: baseline; justify-content: space-between; padding: 14px 0; border-bottom: 1px solid rgba(255,255,255,0.08);"><div style="display: flex; flex-direction: column; gap: 2px;"><span style="font-size: 14px;">Defense for crit immunity</span><span style="font-size: 12px; color: #8b93a1;">Turtle changed the formula</span></div><span class="h" style="font-size: 18px; font-weight: 700; color: #8b93a1;">not in sources</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- rotation -->
+      <div style="display: flex; flex-direction: column; gap: 28px;">
+        <div style="display: flex; align-items: baseline; gap: 16px;"><span class="h" style="font-size: 13px; color: #8b93a1; font-weight: 600;">04</span><div class="h" style="font-size: 28px; font-weight: 700;">Rotation</div></div>
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <div style="font-size: 12px; color: #8b93a1;">Opener</div>
+          <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap; font-size: 15px; font-weight: 600;">
+            <span>Bloodrage</span><span style="color: #3a3f4a;">→</span><span>Pull</span><span style="color: #3a3f4a;">→</span><span style="color: #C69B6D;">Concussion Blow</span><span style="color: #3a3f4a;">→</span><span style="color: #C69B6D;">Shield Slam</span><span style="color: #3a3f4a;">→</span><span>Sunder Armor</span><span style="color: #3a3f4a;">→</span><span>Demoralizing Shout</span>
+          </div>
+        </div>
+        <div style="display: grid; grid-template-columns: 1.5fr 1fr; gap: 64px;">
+          <div style="display: flex; flex-direction: column;">
+            <div style="font-size: 12px; color: #8b93a1; padding-bottom: 8px;">Single target · use the first that applies</div>
+            <div style="display: flex; align-items: center; gap: 18px; height: 50px; border-bottom: 1px solid rgba(255,255,255,0.08);"><span class="h" style="font-size: 15px; font-weight: 700; color: #C69B6D; width: 20px;">1</span><span style="font-size: 16px; font-weight: 600; width: 170px;">Shield Slam</span><span style="font-size: 14px; color: #8b93a1;">whenever it is off cooldown</span></div>
+            <div style="display: flex; align-items: center; gap: 18px; height: 50px; border-bottom: 1px solid rgba(255,255,255,0.08);"><span class="h" style="font-size: 15px; font-weight: 700; color: #C69B6D; width: 20px;">2</span><span style="font-size: 16px; font-weight: 600; width: 170px;">Revenge</span><span style="font-size: 14px; color: #8b93a1;">after a block, dodge or parry · Defensive Stance</span></div>
+            <div style="display: flex; align-items: center; gap: 18px; height: 50px; border-bottom: 1px solid rgba(255,255,255,0.08);"><span class="h" style="font-size: 15px; font-weight: 700; color: #C69B6D; width: 20px;">3</span><span style="font-size: 16px; font-weight: 600; width: 170px;">Shield Block</span><span style="font-size: 14px; color: #8b93a1;">on cooldown on bosses · not with the Improved Shield Slam charge</span></div>
+            <div style="display: flex; align-items: center; gap: 18px; height: 50px; border-bottom: 1px solid rgba(255,255,255,0.08);"><span class="h" style="font-size: 15px; font-weight: 700; color: #C69B6D; width: 20px;">4</span><span style="font-size: 16px; font-weight: 600; width: 170px;">Sunder Armor</span><span style="font-size: 14px; color: #8b93a1;">to five stacks, then as filler</span></div>
+            <div style="display: flex; align-items: center; gap: 18px; height: 50px; border-bottom: 1px solid rgba(255,255,255,0.08);"><span class="h" style="font-size: 15px; font-weight: 700; color: #C69B6D; width: 20px;">5</span><span style="font-size: 16px; font-weight: 600; width: 170px;">Heroic Strike</span><span style="font-size: 14px; color: #8b93a1;">rage dump when rage is high</span></div>
+            <div style="display: flex; align-items: center; gap: 18px; height: 50px; border-bottom: 1px solid rgba(255,255,255,0.08);"><span class="h" style="font-size: 15px; font-weight: 700; color: #C69B6D; width: 20px;">6</span><span style="font-size: 16px; font-weight: 600; width: 170px;">Concussion Blow</span><span style="font-size: 14px; color: #8b93a1;">every 20 s, costs no rage</span></div>
+            <div style="display: flex; align-items: center; gap: 18px; height: 50px; border-bottom: 1px solid rgba(255,255,255,0.08);"><span class="h" style="font-size: 15px; font-weight: 700; color: #C69B6D; width: 20px;">7</span><span style="font-size: 16px; font-weight: 600; width: 170px;">Thunder Clap</span><span style="font-size: 14px; color: #8b93a1;">once per pull for the attack-speed debuff</span></div>
+            <div style="display: flex; align-items: center; gap: 18px; height: 50px;"><span class="h" style="font-size: 15px; font-weight: 700; color: #8b93a1; width: 20px;">E</span><span style="font-size: 16px; font-weight: 600; width: 170px;">Execute</span><span style="font-size: 14px; color: #8b93a1;">under 20% with Defensive Tactics: swap stance and spam</span></div>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 28px;">
+            <div style="display: flex; flex-direction: column; gap: 10px;">
+              <div style="font-size: 12px; color: #8b93a1;">2 – 3 targets</div>
+              <div style="display: flex; flex-direction: column; gap: 8px; font-size: 15px;"><div><span style="font-weight: 600;">Thunder Clap</span> <span style="color: #8b93a1;">· main AoE threat</span></div><div><span style="font-weight: 600;">Demoralizing Shout</span> <span style="color: #8b93a1;">· every pull</span></div><div><span style="font-weight: 600;">Tab Revenge and Sunder</span> <span style="color: #8b93a1;">· spread threat, mark skull</span></div></div>
             </div>
-          </div>
-          <div style="background: #171a21; border: 1px solid rgba(255,255,255,0.10); border-radius: 12px; padding: 18px 20px; display: flex; flex-direction: column; gap: 10px;">
-            <div style="font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: #9ea5b0;">4+ targets</div>
-            <div style="display: flex; flex-direction: column; gap: 8px; font-size: 14px;">
-              <div style="display: flex; gap: 10px;"><span style="color: #C69B6D; font-weight: 700;">1</span><span><strong>Thunder Clap</strong> <span style="color: #9ea5b0;">hits 4 targets (player claim)</span></span></div>
-              <div style="display: flex; gap: 10px;"><span style="color: #C69B6D; font-weight: 700;">2</span><span><strong>Challenging Shout</strong> <span style="color: #9ea5b0;">emergency AoE taunt</span></span></div>
+            <div style="display: flex; flex-direction: column; gap: 10px;">
+              <div style="font-size: 12px; color: #8b93a1;">4 or more</div>
+              <div style="display: flex; flex-direction: column; gap: 8px; font-size: 15px;"><div><span style="font-weight: 600;">Thunder Clap</span> <span style="color: #8b93a1;">· hits four (player claim)</span></div><div><span style="font-weight: 600;">Challenging Shout</span> <span style="color: #8b93a1;">· emergency AoE taunt</span></div></div>
             </div>
+            <div style="font-size: 13px; color: #f5b942; line-height: 1.5;">Contested: some tanks tab Sunder instead of Thunder Clap for AoE threat.</div>
           </div>
-          <div style="padding: 12px 14px; border-radius: 10px; background: rgba(245,185,66,0.10); border: 1px solid rgba(245,185,66,0.35); font-size: 13px; color: #f5b942; line-height: 1.45;">Contested: some tanks prefer tabbing Sunder over Thunder Clap for AoE threat.</div>
         </div>
       </div>
-    </div>
 
-    <!-- COOLDOWNS + MISTAKES -->
-    <div style="display: grid; grid-template-columns: 1.6fr 1fr; gap: 16px;">
-      <div style="display: flex; flex-direction: column; gap: 16px;">
-        <div style="font-size: 22px; font-weight: 800; letter-spacing: -0.01em;">Cooldowns</div>
-        <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px;">
-          <div style="background: #171a21; border: 1px solid rgba(255,255,255,0.10); border-radius: 12px; padding: 14px 16px; display: flex; flex-direction: column; gap: 4px;"><div style="font-size: 15px; font-weight: 700;">Taunt</div><div style="font-size: 13px; color: #9ea5b0;">threat lost; Intercept → Defensive Stance → Taunt fits one GCD</div></div>
-          <div style="background: #171a21; border: 1px solid rgba(255,255,255,0.10); border-radius: 12px; padding: 14px 16px; display: flex; flex-direction: column; gap: 4px;"><div style="font-size: 15px; font-weight: 700;">Mocking Blow</div><div style="font-size: 13px; color: #9ea5b0;">Taunt on cooldown (Battle Stance)</div></div>
-          <div style="background: #171a21; border: 1px solid rgba(255,255,255,0.10); border-radius: 12px; padding: 14px 16px; display: flex; flex-direction: column; gap: 4px;"><div style="font-size: 15px; font-weight: 700;">Shield Wall</div><div style="font-size: 13px; color: #9ea5b0;">emergency; ends if the shield comes off; shares a 30-min cooldown with Recklessness and Retaliation</div></div>
-          <div style="background: #171a21; border: 1px solid rgba(255,255,255,0.10); border-radius: 12px; padding: 14px 16px; display: flex; flex-direction: column; gap: 4px;"><div style="font-size: 15px; font-weight: 700;">Last Stand</div><div style="font-size: 13px; color: #9ea5b0;">emergency</div></div>
-          <div style="background: #171a21; border: 1px solid rgba(255,255,255,0.10); border-radius: 12px; padding: 14px 16px; display: flex; flex-direction: column; gap: 4px;"><div style="font-size: 15px; font-weight: 700;">Berserker Rage</div><div style="font-size: 13px; color: #9ea5b0;">fears; stance dance</div></div>
-          <div style="background: #171a21; border: 1px solid rgba(255,255,255,0.10); border-radius: 12px; padding: 14px 16px; display: flex; flex-direction: column; gap: 4px;"><div style="font-size: 15px; font-weight: 700;">Bloodrage</div><div style="font-size: 13px; color: #9ea5b0;">before every pull and on cooldown</div></div>
+      <!-- cooldowns + dont -->
+      <div style="display: grid; grid-template-columns: 1.5fr 1fr; gap: 64px;">
+        <div style="display: flex; flex-direction: column; gap: 24px;">
+          <div style="display: flex; align-items: baseline; gap: 16px;"><span class="h" style="font-size: 13px; color: #8b93a1; font-weight: 600;">05</span><div class="h" style="font-size: 28px; font-weight: 700;">Cooldowns</div></div>
+          <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 40px;">
+            <div style="display: flex; flex-direction: column; gap: 4px; padding: 14px 0; border-bottom: 1px solid rgba(255,255,255,0.08);"><span style="font-size: 15px; font-weight: 600;">Taunt</span><span style="font-size: 13px; color: #8b93a1;">threat lost; Intercept → Defensive Stance → Taunt fits one GCD</span></div>
+            <div style="display: flex; flex-direction: column; gap: 4px; padding: 14px 0; border-bottom: 1px solid rgba(255,255,255,0.08);"><span style="font-size: 15px; font-weight: 600;">Mocking Blow</span><span style="font-size: 13px; color: #8b93a1;">Taunt on cooldown, Battle Stance</span></div>
+            <div style="display: flex; flex-direction: column; gap: 4px; padding: 14px 0; border-bottom: 1px solid rgba(255,255,255,0.08);"><span style="font-size: 15px; font-weight: 600;">Shield Wall</span><span style="font-size: 13px; color: #8b93a1;">emergency; ends if the shield comes off; shares a 30-min cooldown with Recklessness and Retaliation</span></div>
+            <div style="display: flex; flex-direction: column; gap: 4px; padding: 14px 0; border-bottom: 1px solid rgba(255,255,255,0.08);"><span style="font-size: 15px; font-weight: 600;">Last Stand</span><span style="font-size: 13px; color: #8b93a1;">emergency</span></div>
+            <div style="display: flex; flex-direction: column; gap: 4px; padding: 14px 0; border-bottom: 1px solid rgba(255,255,255,0.08);"><span style="font-size: 15px; font-weight: 600;">Berserker Rage</span><span style="font-size: 13px; color: #8b93a1;">fears; stance dance</span></div>
+            <div style="display: flex; flex-direction: column; gap: 4px; padding: 14px 0; border-bottom: 1px solid rgba(255,255,255,0.08);"><span style="font-size: 15px; font-weight: 600;">Bloodrage</span><span style="font-size: 13px; color: #8b93a1;">before every pull and on cooldown</span></div>
+          </div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 24px;">
+          <div style="display: flex; align-items: baseline; gap: 16px;"><span class="h" style="font-size: 13px; color: #8b93a1; font-weight: 600;">06</span><div class="h" style="font-size: 28px; font-weight: 700;">Don't</div></div>
+          <div style="display: flex; flex-direction: column; font-size: 14px; line-height: 1.5;">
+            <div style="display: flex; gap: 14px; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.08);"><span style="color: #f5b942; font-weight: 700;">—</span><span>Wear full tier tank sets for threat; T2 shoulders, legs and boots with off-pieces.</span></div>
+            <div style="display: flex; gap: 14px; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.08);"><span style="color: #f5b942; font-weight: 700;">—</span><span>Let Shield Block overwrite the Improved Shield Slam charge unnoticed.</span></div>
+            <div style="display: flex; gap: 14px; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.08);"><span style="color: #f5b942; font-weight: 700;">—</span><span>Leave Defensive Stance without Defensive Tactics.</span></div>
+            <div style="display: flex; gap: 14px; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.08);"><span style="color: #f5b942; font-weight: 700;">—</span><span>Spend all rage before the next pull.</span></div>
+            <div style="display: flex; gap: 14px; padding: 12px 0;"><span style="color: #f5b942; font-weight: 700;">—</span><span>Copy pre-rework talent lists (Improved Shield Block, Improved Sunder Armor no longer exist).</span></div>
+          </div>
         </div>
       </div>
-      <div style="display: flex; flex-direction: column; gap: 16px;">
-        <div style="font-size: 22px; font-weight: 800; letter-spacing: -0.01em;">Don't</div>
-        <div style="background: #171a21; border: 1px solid rgba(255,255,255,0.10); border-radius: 12px; padding: 8px 16px; display: flex; flex-direction: column;">
-          <div style="display: flex; gap: 12px; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.06); font-size: 14px; line-height: 1.4;"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#f5b942" stroke-width="2" stroke-linecap="round" style="flex: none; margin-top: 1px;"><path d="M12 9v4M12 17h.01M10.3 3.9L2.5 17.5A2 2 0 0 0 4.2 20.5h15.6a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"></path></svg><span>Wear full tier tank sets for threat; use T2 shoulders, legs and boots with off-pieces.</span></div>
-          <div style="display: flex; gap: 12px; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.06); font-size: 14px; line-height: 1.4;"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#f5b942" stroke-width="2" stroke-linecap="round" style="flex: none; margin-top: 1px;"><path d="M12 9v4M12 17h.01M10.3 3.9L2.5 17.5A2 2 0 0 0 4.2 20.5h15.6a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"></path></svg><span>Let Shield Block overwrite the Improved Shield Slam charge without noticing.</span></div>
-          <div style="display: flex; gap: 12px; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.06); font-size: 14px; line-height: 1.4;"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#f5b942" stroke-width="2" stroke-linecap="round" style="flex: none; margin-top: 1px;"><path d="M12 9v4M12 17h.01M10.3 3.9L2.5 17.5A2 2 0 0 0 4.2 20.5h15.6a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"></path></svg><span>Leave Defensive Stance without Defensive Tactics.</span></div>
-          <div style="display: flex; gap: 12px; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.06); font-size: 14px; line-height: 1.4;"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#f5b942" stroke-width="2" stroke-linecap="round" style="flex: none; margin-top: 1px;"><path d="M12 9v4M12 17h.01M10.3 3.9L2.5 17.5A2 2 0 0 0 4.2 20.5h15.6a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"></path></svg><span>Spend all rage before the next pull.</span></div>
-          <div style="display: flex; gap: 12px; padding: 12px 0; font-size: 14px; line-height: 1.4;"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#f5b942" stroke-width="2" stroke-linecap="round" style="flex: none; margin-top: 1px;"><path d="M12 9v4M12 17h.01M10.3 3.9L2.5 17.5A2 2 0 0 0 4.2 20.5h15.6a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"></path></svg><span>Copy pre-CC2 talent lists (Improved Shield Block, Improved Sunder Armor no longer exist).</span></div>
-        </div>
-      </div>
-    </div>
 
-    <!-- SOURCES (collapsed) -->
-    <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 18px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.10); background: #171a21;">
-      <div style="display: flex; align-items: center; gap: 12px; font-size: 14px;">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9ea5b0" stroke-width="2" stroke-linecap="round"><path d="M9 18l6-6-6-6"></path></svg>
-        <span style="font-weight: 600;">Sources and evidence</span>
-        <span style="color: #9ea5b0;">27 cited posts · staff posts from Dragunovi, Jamey, Torta · player guides by Xudo, Ellifta, Arkaris · full playbook text</span>
+      <!-- sources -->
+      <div style="display: flex; align-items: center; justify-content: space-between; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.08); font-size: 14px;">
+        <div style="display: flex; align-items: center; gap: 16px;"><span class="h" style="font-size: 13px; color: #8b93a1; font-weight: 600;">07</span><span style="font-weight: 600;">Sources and evidence</span><span style="color: #8b93a1;">27 cited posts, 2023-04 to 2026-03 · staff: Dragunovi, Jamey, Torta · players: Xudo, Ellifta, Arkaris</span></div>
+        <span style="color: #8b93a1;">Show ↓</span>
       </div>
-      <span style="font-size: 12px; color: #9ea5b0;">Contested points are marked inline above</span>
     </div>
   </div>
 </div>
