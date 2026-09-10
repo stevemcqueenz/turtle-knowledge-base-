@@ -15,7 +15,7 @@ categories: ["Humans", "Races"]
   *"Esarus thar no'Darador' - By Blood and Honor We Serve."*
    — Archaic human saying, later adopted as the motto of the [Knights of the Silver Hand](Knights of the Silver Hand).
 
-  -Humans** (collectively referred to as **mankind** or **humanity**) are a resilient species native to the world of [Azeroth](Azeroth).
+**Humans** (collectively referred to as **mankind** or **humanity**) are a resilient species native to the world of [Azeroth](Azeroth).
 
 Early humans were primarily a scattered and tribal people for several millennia, until the rising strength of the [troll](troll) empire forced their strategic unification. Thus the nation of [Arathor](Arathor) was formed, along with its capital, the city-state of [Strom](Strom). After several centuries of peace, however, the increasingly prosperous and independent city-states of Arathor split into separate [kingdoms](Seven Kingdoms): [Gilneas](Gilneas (kingdom)) to the west, [Alterac](Alterac (kingdom)), [Dalaran](Dalaran (kingdom)), and [Lordaeron](Lordaeron (kingdom)) to the northwest, [Kul Tiras](Kul Tiras (kingdom)) to the southwest, and [Stormwind](Stormwind (kingdom)) to the far south. Strom itself was renamed [Stromgarde](Stromgarde (kingdom)) and remained significantly powerful.
 

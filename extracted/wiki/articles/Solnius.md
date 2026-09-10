@@ -28,15 +28,15 @@ categories: ["Bosses", "Emerald Sanctum mobs", "Green dragons", "Stubs", "Turtle
 | status | Killable |
 | instance | Emerald Sanctum |
 
--Solnius the Awakener** is a green dragon and the final boss of the [Emerald Sanctum](Emerald Sanctum). Solnius carried the responsibility of safeguarding a ritual of the green dragonflight known as the Awakening, but has fallen prey to the corruption of the [Nightmare](Nightmare) and now seeks to awaken the physical forms of his kin from the Dream as their souls remain tethered to it, an act that would leave them susceptible to Nightmare corruption. (ref:  [60] [Into the Dream I](Into the Dream I))
+**Solnius the Awakener** is a green dragon and the final boss of the [Emerald Sanctum](Emerald Sanctum). Solnius carried the responsibility of safeguarding a ritual of the green dragonflight known as the Awakening, but has fallen prey to the corruption of the [Nightmare](Nightmare) and now seeks to awaken the physical forms of his kin from the Dream as their souls remain tethered to it, an act that would leave them susceptible to Nightmare corruption. (ref:  [60] [Into the Dream I](Into the Dream I))
 
 ## Quotes
-  -Gossip**
-  -Aggro**
+**Gossip**
+**Aggro**
   You think you can interfere with my eternal duty? The awakening has been fortold long before your kind has existed mortals. You shall regret setting foot on our hallowed ground!
-  -Add phase**
+**Add phase**
   The Dream beckons us all. You shall remain here forever...
-  -Death**
+**Death**
   I have waited so... long, the Awakening cannot be stopped, not by you... I must awaken the dragonflight... I am the only one who can put an end to this... I cannot... be... stopped...
 
 ## Patch changes

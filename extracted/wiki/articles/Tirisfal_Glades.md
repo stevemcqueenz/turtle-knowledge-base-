@@ -25,7 +25,7 @@ categories: ["Eastern Kingdoms", "Forsaken territories", "Starting areas", "Tiri
 | affiliation | Forsaken, Horde, Alliance, Scarlet Crusade, Scourge, Vile Fin tribe, Rot Hides |
 | faffiliation | Kingdom of Lordaeron, Alliance of Lordaeron |
 
--Tirisfal Glades** (also known as the **Tirisfal Glade**) (ref: *[Cycle of Hatred](Cycle of Hatred)*) is an eerie region found on the northern coast of [Lordaeron](Lordaeron). The lands of the [Forsaken](Forsaken), the wooded hills are seeped through with the curse of the [Lich King](Lich King)'s [plague](Plague of undeath). The sky over Tirisfal is eternally gloomy and tinted a blighted green, and the trees and other flora desperately cling to their last shreds of life.
+**Tirisfal Glades** (also known as the **Tirisfal Glade**) (ref: *[Cycle of Hatred](Cycle of Hatred)*) is an eerie region found on the northern coast of [Lordaeron](Lordaeron). The lands of the [Forsaken](Forsaken), the wooded hills are seeped through with the curse of the [Lich King](Lich King)'s [plague](Plague of undeath). The sky over Tirisfal is eternally gloomy and tinted a blighted green, and the trees and other flora desperately cling to their last shreds of life.
 
 Although tainted and melancholy, Tirisfal still very much has its own unique, haunting beauty, particularly in such areas as the stony [North Coast](North Coast), the town of [Brill](Brill), and the deep atmosphere of the ruined [Agamand Mills](Agamand Mills).
 
@@ -46,12 +46,12 @@ WorldMap-Tirisfal-old.jpg|Tirisfal prior to [patch 1.16.0](patch 1.16.0).
 || [Agamand Mills](Agamand Mills) ([Agamand Family Crypt](Agamand Family Crypt)) • [Balnir Farmstead](Balnir Farmstead) • [Brightwater Lake](Brightwater Lake) ([Gunther's Retreat](Gunther's Retreat)) • [Brill](Brill) ([Brill Town Hall](Brill Town Hall) • [Gallows' End Tavern](Gallows' End Tavern)) • [The Bulwark](Bulwark) • [Cold Hearth Manor](Cold Hearth Manor) • [Crusader Outpost](Crusader Outpost) • [Crusader's Outpost](Crusader's Outpost) • [Deathknell](Deathknell) ([Night Web's Hollow](Night Web's Hollow) • [Shadow Grave](Shadow Grave)) • [Faol's Rest](Faol's Rest) • [Garren's Haunt](Garren's Haunt) • [The Great Sea](Great Sea) • [Nightmare Vale](Nightmare Vale) • [The North Coast](North Coast) • [Ruins of Lordaeron](Ruins of Lordaeron) ( [Undercity](Undercity)) • [Scarlet Monastery](Scarlet Monastery) ([The Grand Vestibule](Grand Vestibule) • [Terrace of Repose](Terrace of Repose) • [Whispering Gardens](Whispering Gardens)) • [Scarlet Watch Post](Scarlet Watch Post) • [Solliden Farmstead](Solliden Farmstead) • [Stillwater Pond](Stillwater Pond) • [Venomweb Vale](Venomweb Vale) • [Whispering Shore](Whispering Shore)
 |-
 ||
-  -Tirisfal Uplands**
+**Tirisfal Uplands**
 
 [The Blacktower Inn](Blacktower Inn) • [The Corinth Farmstead](Corinth Farmstead) • [Crumblepoint Tower](Crumblepoint Tower) • [The Garrick Stead](Garrick Stead) • [Glenshire](Glenshire) • [Gracestone Mine](Gracestone Mine) • [Ishnu'Danil](Ishnu'Danil) • [The Jagged Hills](Jagged Hills) • [The Lafford House](Lafford House) • [The Remnants Camp](Remnants Camp) • [The Rogue Heights](Rogue Heights) • [Shalla'Aran](Shalla'Aran) • [Steepcliff Port](Steepcliff Port) • [Shatteridge Tower](Shatteridge Tower) • [The Whispering Forest](Whispering Forest)
 |-
 ||
-  -Undisplayed locations**
+**Undisplayed locations**
 
 [Scarlet Citadel](Scarlet Citadel)
 |-
@@ -125,20 +125,20 @@ WorldMap-Tirisfal-old.jpg|Tirisfal prior to [patch 1.16.0](patch 1.16.0).
   - [Simple Wood Tree](Simple Wood Tree)
 
 ## Wild creatures
--[Bat](Bat)s
--[Bear](Bear)s (in the Tirisfal Uplands)
--[Boar](Boar)s (in the Tirisfal Uplands)
--[Darkhound](Darkhound)s
--[Ghost](Ghost)s
--[Ghoul](Ghoul)s
--[Gnoll](Gnoll)s
--[Murloc](Murloc)s
--[Shark](Shark)s
--[Skeleton](Skeleton)s
--[Spider](Spider)s
--[Wolves](Wolf)
--[Worgen](Worgen) (in the Tirisfal Uplands)
--[Zombie](Zombie)s
+- [Bat](Bat)s
+- [Bear](Bear)s (in the Tirisfal Uplands)
+- [Boar](Boar)s (in the Tirisfal Uplands)
+- [Darkhound](Darkhound)s
+- [Ghost](Ghost)s
+- [Ghoul](Ghoul)s
+- [Gnoll](Gnoll)s
+- [Murloc](Murloc)s
+- [Shark](Shark)s
+- [Skeleton](Skeleton)s
+- [Spider](Spider)s
+- [Wolves](Wolf)
+- [Worgen](Worgen) (in the Tirisfal Uplands)
+- [Zombie](Zombie)s
 
 ## Notes
 - Tirisfal has one of the game's highest level-gap jumps at the zone border with the [Western Plaguelands](Western Plaguelands), which is a 40 level jump from 10 to 50. Beware!

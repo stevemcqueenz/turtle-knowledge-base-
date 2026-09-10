@@ -33,8 +33,8 @@ Your journey has been adventurous so far. A wonderful thing to behold. But now y
 Good to see you. Let us not waste any more time.
 
 ## Progression
-1.[quest: Light of An'she|race=tauren|class=priest]
-1.[quest: Light of An'she|race=tauren|class=priest]
+1. [quest: Light of An'she|race=tauren|class=priest]
+1. [quest: Light of An'she|race=tauren|class=priest]
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

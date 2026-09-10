@@ -41,8 +41,8 @@ Relay this information to Allister, he will decide a course of action.
 
 ## Rewards
 You will receive:
--100 [XP](XP) (or   60 (g/s/c) at level 70)
--+10 [reputation](reputation) with [Undercity](Undercity (faction))
+- 100 [XP](XP) (or   60 (g/s/c) at level 70)
+- +10 [reputation](reputation) with [Undercity](Undercity (faction))
 
 ## Completion
 Ill news you bring, <name>. If [Dalar](Dalar Dawnweaver) is correct—and I've no reason to believe he isn't--we must move quickly.

@@ -24,13 +24,13 @@ categories: ["Feralas NPCs", "Night elf characters", "Quest givers", "Sentinels"
 | location | Thalanaar, Feralas |
 | status | Alive |
 
--Sentinel Glensha** is a [night elf](night elf) quest giver located in [Thalanaar](Thalanaar) in [Feralas](Feralas).
+**Sentinel Glensha** is a [night elf](night elf) quest giver located in [Thalanaar](Thalanaar) in [Feralas](Feralas).
 
 ## Quests
 - [quest: Provisions for Thalanaar] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Greetings, <race>. I regret that our meeting takes place in such unfavorable conditions. These lands are far from hospitable, and despite what the druids may suggest, I find the melodious bird songs of Ashenvale preferable to the relentless downpours of this untamed jungle or the parched gusts of Thousand Needles.
 
 Might I ask what brings you to this place? If you seek to discuss our current circumstances, I implore you to abstain. This matter concerns the Sentinels exclusively, and it will be addressed by Sentinels alone.

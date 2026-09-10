@@ -101,7 +101,7 @@ Inner Fire now grants spell damage instead of Attack Power.
 ----Power Word: Shield’s Spell Power scaling coefficient has been increased from 10% to 35%.
 Note that this does not affect pre-level 20 ranks.
 ----Mana Burn has been moved from the Discipline specialization to Shadow. 
--Developer Comment: This change allows Mana Burn to benefit from talents in the Shadow talent tree.*
+*Developer Comment: This change allows Mana Burn to benefit from talents in the Shadow talent tree.*
 ----Fear Ward is now baseline, learned at level 20.
 Dwarf Priests are getting a new racial ability due to Fear Ward becoming baseline. 
 The quest to acquire your level 20 Priest racial will be reset if you’re a Dwarf to get your new racial for this reason. The new racial is shown below:
@@ -120,7 +120,7 @@ Fire a searing arrow, dealing weapon damage plus X- Y Fire damage.
 
 - Rank 5 (Level 60/Book): 68-74 Additional Fire Damage(5% Base mana, 10 Second Cooldown, 33% Spellpower scaling coefficient)
 Rank 5 will be learned by using a book, we'll leave it up to you to discover the source of this rank.
--Developer Comment: To reflect the origin of Night Elf priests in the Priestess of the Moon, we are giving them the ability to wield bows, just like Tyrande Whisperwind did in Warcraft 3. This is rooted in the lore of every priestess of Elune being a skilled huntress as well.*
+*Developer Comment: To reflect the origin of Night Elf priests in the Priestess of the Moon, we are giving them the ability to wield bows, just like Tyrande Whisperwind did in Warcraft 3. This is rooted in the lore of every priestess of Elune being a skilled huntress as well.*
 ----Lightwell has gotten a number of changes:
 
 - No longer removed on damage taken.
@@ -133,7 +133,7 @@ Rank 5 will be learned by using a book, we'll leave it up to you to discover the
 
 ----The base healing values for ranks above level 30 and Spell Power scaling for all ranks have been reduced by 15% for the following spells: Lesser Heal, Renew, Heal, Flash Heal, Prayer of Healing, Greater Heal, Desperate Prayer and Lightwell.
 
--Developer Comment: This change has been done alongside a buff to Spiritual Healing, the introduction of Swift Recovery and updates to Lightwell making it an useful part of a healer’s toolkit. Most players have felt that the majority of the healing talents haven’t felt important enough for most healers which caused them to go deeper into Discipline instead of Holy. The healing output should be about the same as before if not higher when Holy is talented deeper.*
+*Developer Comment: This change has been done alongside a buff to Spiritual Healing, the introduction of Swift Recovery and updates to Lightwell making it an useful part of a healer’s toolkit. Most players have felt that the majority of the healing talents haven’t felt important enough for most healers which caused them to go deeper into Discipline instead of Holy. The healing output should be about the same as before if not higher when Holy is talented deeper.*
 
 ## **Discipline**
 Discipline really lacks any sort of identity outside of a few spells such as Power Word: Shield and Power Infusion. Instead of treading the same path done by other expansions we’ve decided to steer this specialization into another way, reworking Discipline into a holy damage dealing support specialization. 
@@ -157,17 +157,17 @@ Smite has seen a few buffs:
 - Increased initial cast Spell Power scaling coefficient from 85% to 100%. Note that this was increased from 60% in the first iteration of class changes.
 
 - Increased base damage values by 10%.
--Developer Comment: These changes are meant to compensate the removal of the original Searing Light, scale the mana cost and Spell Power coefficients proportionally to its base cast time. We’ll be keeping a close eye on these abilities due to the numerous buffs and will make adjustments as needed.*
+*Developer Comment: These changes are meant to compensate the removal of the original Searing Light, scale the mana cost and Spell Power coefficients proportionally to its base cast time. We’ll be keeping a close eye on these abilities due to the numerous buffs and will make adjustments as needed.*
 ----Wand Specialization: Now requires 2 points instead of 5 points, also increases your chance to hit with Wands by 5/10% and now gives your wands a chance on hit to grant you an amount of mana equal to your level. This chance is increased with every point.
 ----New Talent: Piercing Light (1st Row / 3 Points): Reduces the chance for enemies to resist your Holy and Discipline spells by 2/4/6%.
 ----Mental Agility: Moved from the 4th row to the 1st row and now also reduces the mana cost of your offensive Holy and Discipline spells by 2/4/6/8/10%.
 ----Spell Warding: Moved from Holy 2nd row to Discipline 2nd row and requires 3 points instead of 5 points.
 ----Unbreakable Will: Moved from the 1st row to the 2nd row.
 ----Improved Inner Fire: Moved from the 4th row to the 3rd row and now requires 2 points instead of 3 points.
--Developer Comment: This talent also affects the newly added spell damage increase component of Inner Fire too.*
+*Developer Comment: This talent also affects the newly added spell damage increase component of Inner Fire too.*
 ----Improved Power Word: Shield: Moved from the 2nd row to the 3rd row.
 ----New Talent: Searing Light (4th Row / 3 Points): Your damaging Holy and Discipline spell criticals have a 33/66/100% chance to cause your next Smite spell to be instant cast and cost no mana. Lasts 10 sec.
--Developer Comment: As a note, instant cast Smites still trigger your global cooldown, in a pure damage output sense this equals to a 0.5 second cast time reduction but the talent giving an instant cast gives Discipline movement flexibility in movement intensive boss fights and player combat.*
+*Developer Comment: As a note, instant cast Smites still trigger your global cooldown, in a pure damage output sense this equals to a 0.5 second cast time reduction but the talent giving an instant cast gives Discipline movement flexibility in movement intensive boss fights and player combat.*
 ----New Talent: Purifying Flames (4th Row / 2 Points): Your Holy Fire has a 50/100% chance to increase your Holy damage by 12% for 8 sec.
 ----Mental Strength: Now requires 3 points instead of 5 points, increases total intellect instead of mana, and now also increases your casting speed by 1/2/3%
 ----New Talent: Enlighten (5th Row Keystone): Bring a party member under your tutelage. Whenever you cast a damaging Discipline or Holy spell, you have a 15% chance to burn them for 4% of their total health as Holy damage and increase your and their spell damage and healing by 10% for 8 sec. If this spell is used on yourself, the spell damage and healing bonus is increased to 15%. You can only have one party member under your tutelage at a time. Lasts 30 min.
@@ -206,7 +206,7 @@ Healing Focus: Renamed to Holy Focus and affects all Holy spells instead of just
 ----New Talent: Reservoir of Light (5th Row / 3 Points): Increases the amount of charges on your Lightwell by 1/3/5.
 ----Spiritual Healing: Healing increase has been increased from 2/4/6/8/10% to 6/12/18/24/30%
 
--Developer Comment: This change has been done to compensate for the baseline healing nerfs, which you can read more on the Baseline Changes section.*
+*Developer Comment: This change has been done to compensate for the baseline healing nerfs, which you can read more on the Baseline Changes section.*
 
 ## **Shadow**
 We’re quite happy with the current design of Shadow and its support capabilities as a Shadow damage dealer enhancer and mana battery via Vampiric Embrace, so there won’t be any major changes to the specialization aside from some number tuning, nerfs mainly aimed at player combat power and a talent move from Discipline.
@@ -216,14 +216,14 @@ Pain Spike’s Spell Power scaling coefficient has been reduced from 42.85% to 2
 ----Mind Blast’s Spell Power scaling coefficient has been increased from 42.85% to 60%.
 Note that this does not affect pre-level 20 ranks.
 ----Vampiric Embrace: Now has a 2 second cast time.
--Developer Comment: While this change hardly matters for combat against creatures, it adds precious few seconds needed to setup for a player kill.*
+*Developer Comment: While this change hardly matters for combat against creatures, it adds precious few seconds needed to setup for a player kill.*
 ----Vampiric Touch: Reduced the percentage healing increase from 5/10% to 2/5% and reduced the mana granted from 2/4% to 1/2% of any Shadow spell damage the priest deals.
--Developer Comment: While we love how the supportive aspect of Shadow Priest functions, these changes are done to account for the power increase coming with the increase in Spell Power coefficients and the fact the original talent (Improved Vampiric Embrace) wasn’t adjusted in power for the new mana generation factor. While this nerf looks big, the damage increase is an direct improvement to the healing factor to Vampiric while the mana regeneration is less impacted than initially assumed.*
+*Developer Comment: While we love how the supportive aspect of Shadow Priest functions, these changes are done to account for the power increase coming with the increase in Spell Power coefficients and the fact the original talent (Improved Vampiric Embrace) wasn’t adjusted in power for the new mana generation factor. While this nerf looks big, the damage increase is an direct improvement to the healing factor to Vampiric while the mana regeneration is less impacted than initially assumed.*
 ----Improved Mana Burn: Moved from the Discipline 4th row to Shadow 3rd row.
 ----Holy Nova is now usable in Shadowform. Doing so will cause self-damage instead of self-healing.
 
-  -UPDATES | Dated: October 21 2024**Power Word: Shield can be cast in Shadowform.
--Developer Comment: This was already the case but the talent builder did not reflect this. This clears that up for good.*
+**UPDATES | Dated: October 21 2024**Power Word: Shield can be cast in Shadowform.
+*Developer Comment: This was already the case but the talent builder did not reflect this. This clears that up for good.*
 ----Enlighten: Can now trigger off of healing spells.
 ----Proclaim Champion: Now also restores a small portion of damage taken by your Champion as Mana.
 ----Champion's Resolve: Removed.
@@ -231,7 +231,7 @@ Note that this does not affect pre-level 20 ranks.
 ----Searing Shot: Mana cost increased from 5% to 10% of base mana, this is equal to 137 mana at max level.
 ----Avatar: Cooldown increased from 1 minute to 5 minutes.
 
-  -UPDATES | Dated: November 1 2024**The Human Priest racial, Feedback has seen its mana burn and damage effects doubled:
+**UPDATES | Dated: November 1 2024**The Human Priest racial, Feedback has seen its mana burn and damage effects doubled:
 
 - Rank 1 (Level 20): 18 -> 36
 

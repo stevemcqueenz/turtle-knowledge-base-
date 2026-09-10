@@ -21,11 +21,7 @@ categories: ["Dwarf territories", "Elite areas", "Hillsbrad Foothills subzones",
 | race | Dwarf |
 | status | Active |
 
--Dun Garok** is a [dwarven](dwarf) keep nestled into the southeastern hills of the [Hillsbrad Foothills](Hillsbrad Foothills). Led by [Captain Ironhill](Captain Ironhill), the dwarves help protect the humans of [Hillsbrad](Hillsbrad) as well as the [Azurelode Mine](Azurelode Mine). The [Forsaken](Forsaken) of [Tarren Mill](Tarren Mill) loathe the presence of these dwarves and offer several quests for [Horde](Horde) adventurers to infiltrate Dun Garok and kill the dwarves within.
+**Dun Garok** is a [dwarven](dwarf) keep nestled into the southeastern hills of the [Hillsbrad Foothills](Hillsbrad Foothills). Led by [Captain Ironhill](Captain Ironhill), the dwarves help protect the humans of [Hillsbrad](Hillsbrad) as well as the [Azurelode Mine](Azurelode Mine). The [Forsaken](Forsaken) of [Tarren Mill](Tarren Mill) loathe the presence of these dwarves and offer several quests for [Horde](Horde) adventurers to infiltrate Dun Garok and kill the dwarves within.
 
 ## NPCs
--
--
--
--
--
+- - - - -

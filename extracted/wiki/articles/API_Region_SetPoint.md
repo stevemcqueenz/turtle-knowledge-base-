@@ -19,7 +19,7 @@ Sets the current attachment point of an UI component.  Any of the following form
 
 ## Parameters
 ### Arguments
-  - point**
+** point**
    The point on your object to use for attaching the obj (see [API Positions](API Positions))  (i.e.  bind the left side of your frame)
 
   ; frame

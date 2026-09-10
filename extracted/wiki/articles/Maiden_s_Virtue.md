@@ -12,9 +12,7 @@ categories: ["Boats", "Pages with broken file links", "Undisplayed locations", "
 
 .]]
 
-  -*Maiden's Virtue*** was a [ship](Boat) docked in [Menethil Harbor](Menethil Harbor) in the [Wetlands](Wetlands). The crewmen of the ship could be seen standing around the dock waiting for supplies to be loaded so they could sail off, but according to [Red Jack Flint](Red Jack Flint), the Maiden's Virtue hasn't set sail in years. [Bart Tidewater](Bart Tidewater) was the ship's captain.
+***Maiden's Virtue*** was a [ship](Boat) docked in [Menethil Harbor](Menethil Harbor) in the [Wetlands](Wetlands). The crewmen of the ship could be seen standing around the dock waiting for supplies to be loaded so they could sail off, but according to [Red Jack Flint](Red Jack Flint), the Maiden's Virtue hasn't set sail in years. [Bart Tidewater](Bart Tidewater) was the ship's captain.
 
 ## Crew
-- 
-- 
--
+- - -

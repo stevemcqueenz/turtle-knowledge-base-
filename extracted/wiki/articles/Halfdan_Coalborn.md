@@ -26,10 +26,10 @@ categories: ["Dwarf characters", "Ironforge NPCs", "Turtle WoW content"]
 | location | Mystic Ward, Ironforge |
 | status | Alive |
 
--Halfdan Coalborn** is a [dwarf](dwarf) located in the [Mystic Ward](Mystic Ward) in [Ironforge](Ironforge).
+**Halfdan Coalborn** is a [dwarf](dwarf) located in the [Mystic Ward](Mystic Ward) in [Ironforge](Ironforge).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I have been chosen as a champion of the Redbrands, to defend their kin and fight on their behalf.
 
 I suggest you do not cross them, <Class>.

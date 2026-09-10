@@ -26,10 +26,10 @@ categories: ["Flight masters", "Moonwhisper Coast NPCs", "Night elf characters",
 | location | Narvalis Point, Moonwhisper Coast |
 | status | Alive |
 
--Merellanea** is a [night elf](night elf) hippogryff flight master located in [Narvalis Point](Narvalis Point) in [Moonwhisper Coast](Moonwhisper Coast).
+**Merellanea** is a [night elf](night elf) hippogryff flight master located in [Narvalis Point](Narvalis Point) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Speak clearly. Where can my mighty hippogryffs take you to?
 
 ## Flight paths

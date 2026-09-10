@@ -24,14 +24,14 @@ categories: ["Dwarf characters", "Explorers' League", "Grim Reaches NPCs", "Ques
 | location | Dun Kithas, Grim Reaches |
 | status | Alive |
 
--Prospector Dustshoulder** is a [dwarf](dwarf) quest giver located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
+**Prospector Dustshoulder** is a [dwarf](dwarf) quest giver located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
 
 ## Quests
 - [quest: The Gemstone of Naraz] 
 - [quest: The Gemstone of Naraz] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The Grim Reaches are one of the most resource rich locations on Azeroth. I have spent most of my life looking for a rare gemstone and I think it may lie just beneath the hills here.
 
 ## Patch changes

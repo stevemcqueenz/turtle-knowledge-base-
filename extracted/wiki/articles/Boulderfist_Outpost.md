@@ -21,10 +21,8 @@ categories: ["Arathi Highlands subzones", "Caves", "Forest troll territories", "
 | loc | Western Arathi Highlands |
 | status | Active |
 
--Boulderfist Outpost** is an [ogre mound](ogre mound) found inside of [Boulder'gor](Boulder'gor) in western [Arathi Highlands](Arathi Highlands). The majority of the [ogre](ogre)s in this area are found inside the outpost, while only a few [forest troll](forest troll)s are found within.
+**Boulderfist Outpost** is an [ogre mound](ogre mound) found inside of [Boulder'gor](Boulder'gor) in western [Arathi Highlands](Arathi Highlands). The majority of the [ogre](ogre)s in this area are found inside the outpost, while only a few [forest troll](forest troll)s are found within.
 
 ## NPCs
-  -Mobs**
-- 
-- 
--
+**Mobs**
+- - -

@@ -34,12 +34,12 @@ Some Dark Irons have broken ties with the clan in order to seek out business rel
 Dark Iron dwarves easily stand out from the other two clans due to their dark, almost black skin and their glowing red eyes.
 
 # Noteworthy Dark Irons
--[Thaurissan](Thaurissan)
--[Modgud](Modgud)
--[Emperor Dagran Thaurissan](Emperor Dagran Thaurissan)
--[Franclorn Forgewright](Franclorn Forgewright)
--[Lokhtos Darkbargainer](Lokhtos Darkbargainer)
--[General Angerforge](General Angerforge)
--[Fineous Darkvire](Fineous Darkvire)
--[Golem Lord Argelmach](Golem Lord Argelmach)
--[Galgann Firehammer](Galgann Firehammer)
+- [Thaurissan](Thaurissan)
+- [Modgud](Modgud)
+- [Emperor Dagran Thaurissan](Emperor Dagran Thaurissan)
+- [Franclorn Forgewright](Franclorn Forgewright)
+- [Lokhtos Darkbargainer](Lokhtos Darkbargainer)
+- [General Angerforge](General Angerforge)
+- [Fineous Darkvire](Fineous Darkvire)
+- [Golem Lord Argelmach](Golem Lord Argelmach)
+- [Galgann Firehammer](Galgann Firehammer)

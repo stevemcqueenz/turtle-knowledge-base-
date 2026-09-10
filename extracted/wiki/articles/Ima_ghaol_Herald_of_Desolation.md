@@ -24,7 +24,7 @@ categories: ["Observers", "Tower of Karazhan mobs", "Turtle WoW content"]
 | status | Killable |
 | instance | Tower of Karazhan |
 
--Ima'ghaol, Herald of Desolation** is a mini-boss in [Tower of Karazhan](Tower of Karazhan), guarding [Medivh's Translocation Orb](Medivh's Translocation Orb) in the [Netherspace](Netherspace).
+**Ima'ghaol, Herald of Desolation** is a mini-boss in [Tower of Karazhan](Tower of Karazhan), guarding [Medivh's Translocation Orb](Medivh's Translocation Orb) in the [Netherspace](Netherspace).
 
 ## Patch changes
 - (Patch 1.17.2|note=Added.)

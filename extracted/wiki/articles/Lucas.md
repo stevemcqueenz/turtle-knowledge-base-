@@ -25,10 +25,10 @@ categories: ["Armor vendors", "Human characters", "Swamp of Sorrows NPCs", "Turt
 | location | Sorrowguard Keep, Swamp of Sorrows |
 | status | Alive |
 
--Lucas** is a [human](human) boot vendor located in [Sorrowguard Keep](Sorrowguard Keep) in the [Swamp of Sorrows](Swamp of Sorrows).
+**Lucas** is a [human](human) boot vendor located in [Sorrowguard Keep](Sorrowguard Keep) in the [Swamp of Sorrows](Swamp of Sorrows).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I keep all the boots here in good order, you looking for a pair?
 
 ## Patch changes

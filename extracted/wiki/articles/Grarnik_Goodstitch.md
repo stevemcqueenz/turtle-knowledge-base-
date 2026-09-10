@@ -26,10 +26,10 @@ categories: ["Booty Bay characters", "Goblin characters", "Stranglethorn Vale NP
 | status | Alive |
 | relatives | Xizk (brother) |
 
--Grarnik Goodstitch** is a [goblin](goblin) [tailoring trainer](tailoring trainer) located in the shop [A Tailor to Cities](A Tailor to Cities) in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). He is on the top floor, in the middle of the town.
+**Grarnik Goodstitch** is a [goblin](goblin) [tailoring trainer](tailoring trainer) located in the shop [A Tailor to Cities](A Tailor to Cities) in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). He is on the top floor, in the middle of the town.
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I made a lot of the things you see in the store. What do you think? Answer carefully, your life may depend on it.
 
 ## External links

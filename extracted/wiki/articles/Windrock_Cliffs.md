@@ -13,12 +13,5 @@ categories: ["Balor subzones", "Cliffs", "Turtle WoW content"]
 The **Windrock Cliffs** are a set of steep cliffs to the west of the island of [Balor](Balor).
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - - - ## Patch changes
 - (Patch 1.18.0|note=Added.)

@@ -25,13 +25,13 @@ categories: ["Gilneas (kingdom)", "Human characters", "Quest givers", "Stormwind
 | location | Petitioner's Chamber, Stormwind Keep, Stormwind City |
 | status | Alive |
 
--Lord Ivar Pyrewood** is a [human](human) [quest giver](quest giver) located in the [Petitioner's Chamber](Petitioner's Chamber) in [Stormwind City](Stormwind City).
+**Lord Ivar Pyrewood** is a [human](human) [quest giver](quest giver) located in the [Petitioner's Chamber](Petitioner's Chamber) in [Stormwind City](Stormwind City).
 
 ## Quests
 - [quest: Legacy of Perenolde] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I have come here to seek support of the Nobles of Stormwind. It is a harder task than I had anticipated.
 
 ## Speculation

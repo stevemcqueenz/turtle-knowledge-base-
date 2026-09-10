@@ -43,7 +43,7 @@ I speak for the Darkspear.
 I require your assistance in helping Sandmoon Village, brave <class>.
 
 ## Notes
-  -Speaking with Vol'jin**
+**Speaking with Vol'jin**
 
   I be Vol'jin, son of Sen'jin. It be a long time since we fled our lands of the Darkspear Isles, but here in Durotar we found a new home and future alongside the Horde.
 

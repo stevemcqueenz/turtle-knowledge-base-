@@ -10,7 +10,7 @@ categories: ["Barrens subzones", "Burning Blade clan", "Cycle of Hatred", "Mount
 ---
 # Dreadmist Peak
 
--Dreadmist Peak** is a mountain northwest of the [Crossroads](Crossroads) in the [Northern Barrens](Northern Barrens). As you climb to the top of the Peak, the atmosphere becomes red and foggy. At the top is the home of a group of [Burning Blade](Burning Blade clan) cultists. They protect the [:Demon Seed](:Demon Seed) which is in the [Dreadmist Den](Dreadmist Den).
+**Dreadmist Peak** is a mountain northwest of the [Crossroads](Crossroads) in the [Northern Barrens](Northern Barrens). As you climb to the top of the Peak, the atmosphere becomes red and foggy. At the top is the home of a group of [Burning Blade](Burning Blade clan) cultists. They protect the [:Demon Seed](:Demon Seed) which is in the [Dreadmist Den](Dreadmist Den).
 
 The orange miasma is residuum from an ancient [demon](demon)ic curse. (ref: *[Cycle of Hatred](Cycle of Hatred)*, chapter 20, pg. 207)
 
@@ -21,15 +21,15 @@ Three years after the [Third War](Third War), [Jaina Proudmoore](Jaina Proudmoor
 To get there from the Crossroads, head north along the road until you get to a fork. Face northwest and you will see Dreadmist Peak looming before you.
 
 ## Inhabitants
--[Burning Blade Bruiser](Burning Blade Bruiser)
--[Burning Blade Acolyte](Burning Blade Acolyte)
--[Burning Blade Crusher](Burning Blade Crusher)
--[Burning Blade Toxicologist](Burning Blade Toxicologist)
--[Sarilus Foulborne](Sarilus Foulborne)
+- [Burning Blade Bruiser](Burning Blade Bruiser)
+- [Burning Blade Acolyte](Burning Blade Acolyte)
+- [Burning Blade Crusher](Burning Blade Crusher)
+- [Burning Blade Toxicologist](Burning Blade Toxicologist)
+- [Sarilus Foulborne](Sarilus Foulborne)
 
 ## Notes
--An undead mage named [Sarilus Foulborne](Sarilus Foulborne) sits atop the Peak. He used his powers to control [Befouled Water Elemental](Befouled Water Elemental)s in [Ashenvale](Ashenvale). Alliance characters confronted him in the quest [Mage Summoner](Mage Summoner).
--[Rathorian](Rathorian), the leader of this group of Burning Blade cultists, is sometimes inside the Dreadmist Den.
--[Tauren](Tauren) [druid](druid)s needed to get a sample of water from the peak that was believed to poison the gazelles of the Barrens. (ref: [The Principal Source](The Principal Source))
+- An undead mage named [Sarilus Foulborne](Sarilus Foulborne) sits atop the Peak. He used his powers to control [Befouled Water Elemental](Befouled Water Elemental)s in [Ashenvale](Ashenvale). Alliance characters confronted him in the quest [Mage Summoner](Mage Summoner).
+- [Rathorian](Rathorian), the leader of this group of Burning Blade cultists, is sometimes inside the Dreadmist Den.
+- [Tauren](Tauren) [druid](druid)s needed to get a sample of water from the peak that was believed to poison the gazelles of the Barrens. (ref: [The Principal Source](The Principal Source))
 
 ## References

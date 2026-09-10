@@ -46,14 +46,14 @@ My family has always been close knit, and I know that such a long length without
 ## Notes
 [Karl Boran](Karl Boran) is located on the docks in [Menethil Harbor](Menethil Harbor) in the [Wetlands](Wetlands), and [Samual Boran](Samual Boran) is located in the inn in [Southshore](Southshore), in the [Hillsbrad Foothills](Hillsbrad Foothills).
 
-  -Speaking with Karl**
+**Speaking with Karl**
 
   > Gossip: *I have a letter from your brother.*
 
   **Karl Boran says:** A letter from Arnold... I thought he died at sea. I haven't heard from him in such a long time.
   **Karl Boran says:** This is splendid news. Here, please take this to him.
 
-  -Speaking with Samual**
+**Speaking with Samual**
 
   > Gossip: *I have a letter from your brother.*
 

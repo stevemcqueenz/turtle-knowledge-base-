@@ -25,7 +25,7 @@ categories: ["Human characters", "Kul Tiran Exploratory Fleet", "Lapidis Isle NP
 | location | Caelan's Rest, Lapidis Isle |
 | status | Alive |
 
--Dudley** is a [human](human) trade goods vendor located in [Caelan's Rest](Caelan's Rest) in [Lapidis Isle](Lapidis Isle).
+**Dudley** is a [human](human) trade goods vendor located in [Caelan's Rest](Caelan's Rest) in [Lapidis Isle](Lapidis Isle).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

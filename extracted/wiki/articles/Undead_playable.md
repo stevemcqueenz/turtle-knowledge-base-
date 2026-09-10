@@ -18,12 +18,12 @@ The undead start in [Deathknell](Deathknell), located in western [Tirisfal Glade
 
 ## Background
 ### Creation screen description
--Free of the Lich King's grasp, the Forsaken seek to overthrow his rule. Led by the banshee queen Sylvanas, they hunger for vengeance against the Scourge. Humans, too, have become the enemy, relentless in their drive to purge all undead from the land. The Forsaken care little for their allies: to them the Horde is merely a tool that may further their dark schemes.*
+*Free of the Lich King's grasp, the Forsaken seek to overthrow his rule. Led by the banshee queen Sylvanas, they hunger for vengeance against the Scourge. Humans, too, have become the enemy, relentless in their drive to purge all undead from the land. The Forsaken care little for their allies: to them the Horde is merely a tool that may further their dark schemes.*
 
 ### Opening cutscene
--Bound to the iron will of the tyrant Lich King, the vast undead armies of the Scourge seek to eradicate all life on Azeroth. Led by the banshee Sylvanas Windrunner, a group of renegades broke away from the Scourge, and freed themselves of the Lich King's domination. Known by some as the Forsaken, this group fights a constant battle not only to retain their freedom from the Scourge, but also to slaughter those who would hunt them as monsters. With Sylvanas as their banshee queen, the Forsaken have built a dark stronghold beneath the ruins of Lordaeron’s former capital city. This hidden 'Undercity' forms a sprawling labyrinth that stretches beneath the haunted woods of the Tirisfal Glades. Though the very land is cursed, the zealous humans of the Scarlet Crusade still cling to their scattered holdings, obsessed with eradicating the undead and retaking their homeland.*
+*Bound to the iron will of the tyrant Lich King, the vast undead armies of the Scourge seek to eradicate all life on Azeroth. Led by the banshee Sylvanas Windrunner, a group of renegades broke away from the Scourge, and freed themselves of the Lich King's domination. Known by some as the Forsaken, this group fights a constant battle not only to retain their freedom from the Scourge, but also to slaughter those who would hunt them as monsters. With Sylvanas as their banshee queen, the Forsaken have built a dark stronghold beneath the ruins of Lordaeron’s former capital city. This hidden 'Undercity' forms a sprawling labyrinth that stretches beneath the haunted woods of the Tirisfal Glades. Though the very land is cursed, the zealous humans of the Scarlet Crusade still cling to their scattered holdings, obsessed with eradicating the undead and retaking their homeland.*
 
--Convinced that the primitive races of the Horde can help them achieve victory over their enemies, the Forsaken have entered an alliance of convenience. Harboring no true loyalty for their new allies, they will go to any lengths to ensure their dark plans come to fruition. As one of the Forsaken, you must massacre any who pose a threat to the new order – human, undead, or otherwise.*
+*Convinced that the primitive races of the Horde can help them achieve victory over their enemies, the Forsaken have entered an alliance of convenience. Harboring no true loyalty for their new allies, they will go to any lengths to ensure their dark plans come to fruition. As one of the Forsaken, you must massacre any who pose a threat to the new order – human, undead, or otherwise.*
 
 ## Character
 ### Classes
@@ -35,7 +35,7 @@ The undead start in [Deathknell](Deathknell), located in western [Tirisfal Glade
 - Warrior
 
 ### Racial traits
-  -Current**
+**Current**
 {| class="fandom-table" style="width: 430px; text-align:left;"
 ! style="text-align:left" |Will of the Forsaken - instant - 2.5 min cooldown
 |-
@@ -55,7 +55,7 @@ The undead start in [Deathknell](Deathknell), located in western [Tirisfal Glade
 |- class="alt"
 |}
 
-  -Removed**
+**Removed**
 {| class="fandom-table" style="width: 430px; text-align:left;"
 ! style="text-align:left" |Shadow Resistance - passive
 |-
@@ -65,8 +65,8 @@ The undead start in [Deathknell](Deathknell), located in western [Tirisfal Glade
 
 ## Videos
 ## Patch changes
--  **[Patch 1.17.2](Patch 1.17.2) (2024-11-01):**
+- **[Patch 1.17.2](Patch 1.17.2) (2024-11-01):**
   - Will of the Forsaken’s duration has been reduced from 5 seconds to 3 seconds and cooldown increased from 2 minutes to 2.5 minutes.
   - Shadow Resistance removed.
   - New racial: Vengeance: Damage against non-player Humanoids and Undead is increased by 2%.
--  **[Patch 1.16.0](Patch 1.16.0) (2021-12-27):** Undead now have access to the hunter class.
+- **[Patch 1.16.0](Patch 1.16.0) (2021-12-27):** Undead now have access to the hunter class.

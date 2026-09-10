@@ -10,7 +10,7 @@ categories: ["Quest items", "Readable items", "Turtle WoW content"]
 ---
 # Elder’s Missive
 
--Elder's Missive** drops from [Ambassador Eka'ghar](Ambassador Eka'ghar) in [Foulheart Sanctum](Foulheart Sanctum).
+**Elder's Missive** drops from [Ambassador Eka'ghar](Ambassador Eka'ghar) in [Foulheart Sanctum](Foulheart Sanctum).
 
 ## As a quest objective
 - [quest: Hooves and Horns, Clad in Red]

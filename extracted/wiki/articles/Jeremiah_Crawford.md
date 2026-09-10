@@ -25,13 +25,13 @@ categories: ["Human characters", "Northwind NPCs", "Quest givers", "Stormwind (k
 | status | Alive |
 | relatives | Old Man Crawford and Margaret (parents),, Gregory and Christine (siblings) |
 
--Jeremiah "Jerry" Crawford** is a [human](human) quest giver located at the [Plump Pumpkin](Plump Pumpkin) in [Northwind](Northwind).
+**Jeremiah "Jerry" Crawford** is a [human](human) quest giver located at the [Plump Pumpkin](Plump Pumpkin) in [Northwind](Northwind).
 
 ## Quests
 - [quest: Northwind Amber] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Father has been broken from the stress of fulfilling the production quota for the nobility. Having our home overrun by these filthy orcs is just too much for him, I believe he lost it now altogether.
 
 ## Patch changes

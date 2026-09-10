@@ -14,27 +14,27 @@ Instruct your pet to attack your target.
  PetAttack();
 ----
 
-  - *Arguments***
+** *Arguments***
 
    *none*
 
 ----
 
-  - *Returns***
+** *Returns***
 
   ; nil
 
 ----
 
-  - *Example***
+** *Example***
 
  PetAttack();
 
-  - *Result***
+** *Result***
 
 ----
 
-  - *Description***
+** *Description***
 
    Instruct your pet to attack your target. Requires a buttonpress.
 

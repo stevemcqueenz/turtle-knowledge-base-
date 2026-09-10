@@ -26,7 +26,7 @@ categories: ["Dwarf characters", "Explorers' League", "Quest givers", "Wetlands 
 | status | Alive |
 | relatives | Tarrel (husband) |
 
--Merrin Rockweaver** is a [dwarf](dwarf) [quest giver](quest giver) located in [Whelgar's Excavation Site](Whelgar's Excavation Site) in the [Wetlands](Wetlands). She is located in a cave in the southwest section of the excavation site, standing next to [Prospector Whelgar](Prospector Whelgar).
+**Merrin Rockweaver** is a [dwarf](dwarf) [quest giver](quest giver) located in [Whelgar's Excavation Site](Whelgar's Excavation Site) in the [Wetlands](Wetlands). She is located in a cave in the southwest section of the excavation site, standing next to [Prospector Whelgar](Prospector Whelgar).
 
 ## Quests
 - [quest: In Search of the Excavation Team] 

@@ -24,7 +24,7 @@ categories: ["Dustwallow Marsh NPCs", "Gilneas (kingdom)", "Human characters", "
 | location | Theramore Isle, Dustwallow Marsh |
 | status | Alive |
 
--Corporal Danmere** is a [human](human) [quest giver](quest giver) located in [Theramore Isle](Theramore Isle) in [Dustwallow Marsh](Dustwallow Marsh).
+**Corporal Danmere** is a [human](human) [quest giver](quest giver) located in [Theramore Isle](Theramore Isle) in [Dustwallow Marsh](Dustwallow Marsh).
 
 ## Quests
 - [quest: The Brigade is Coming Home] 

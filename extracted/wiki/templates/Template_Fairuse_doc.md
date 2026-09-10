@@ -10,9 +10,9 @@ categories: ["Template documentation"]
 ---
 # Template:Fairuse/doc
 
--Description**
+**Description**
   This template is used to mark images as fair use.
-  -Syntax**
+**Syntax**
   Type <code></code> on the image information page.
 
 <includeonly></includeonly><noinclude></noinclude>

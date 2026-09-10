@@ -25,10 +25,10 @@ categories: ["Human characters", "Northwind NPCs", "Stormwind (kingdom)", "Turtl
 | status | Alive |
 | relatives | Rutherford Justino |
 
--Sheena Justino** is a [human](human) located at [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind).
+**Sheena Justino** is a [human](human) located at [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 This is just grand. First we trek all the way through these barely protected streets and now we have to wait for an audience with the lord? In all the years we've been traveling to Northwind, this has never happened before. Simply appalling!
 
 ## Patch changes

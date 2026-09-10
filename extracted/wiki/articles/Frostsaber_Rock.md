@@ -10,11 +10,11 @@ categories: ["Crags", "Pages with broken file links", "Saber cats", "Wintersprin
 ---
 # Frostsaber Rock
 
--Frostsaber Rock** is a large jutting tor in the northern part of [Winterspring](Winterspring).
+**Frostsaber Rock** is a large jutting tor in the northern part of [Winterspring](Winterspring).
 
 At the very apex of Frostsaber Rock stands [Rivern Frostwind](Rivern Frostwind) of the [Wintersaber Trainers](Wintersaber Trainers). He offers friends of the [Alliance](Alliance) to work for him, and in exchange he will teach them how to tame and ride one of the beautiful beasts.
 
 ## Notes
--At some point, [Rexxar](Rexxar) was here. (ref: *[Cycle of Hatred](Cycle of Hatred)*, chapter 9)
+- At some point, [Rexxar](Rexxar) was here. (ref: *[Cycle of Hatred](Cycle of Hatred)*, chapter 9)
 
 ## References

@@ -24,7 +24,7 @@ categories: ["Aristocrats", "Human characters", "Quest givers", "Swamp of Sorrow
 | status | Alive |
 | gender | Male |
 
--Sir Areyntall** is a [human](human) [quest giver](quest giver) located in [Sorrowguard Keep](Sorrowguard Keep) in the [Swamp of Sorrows](Swamp of Sorrows).
+**Sir Areyntall** is a [human](human) [quest giver](quest giver) located in [Sorrowguard Keep](Sorrowguard Keep) in the [Swamp of Sorrows](Swamp of Sorrows).
 
 ## Quests
 - [quest: Areyntall Family Value] 

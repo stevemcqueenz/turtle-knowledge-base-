@@ -26,7 +26,7 @@ categories: ["Earthen Ring", "Quest enders", "Shaman characters", "Stonetalon Mo
 | location | Earthen Ring, Stonetalon Mountains |
 | status | Alive |
 
--Muln Earthfury** is a tauren shaman and the elder far seer of the [Earthen Ring](Earthen Ring) located at the [Earthen Ring](Earthen Ring (Stonetalon Mountains)) in [Stonetalon Mountains](Stonetalon Mountains).
+**Muln Earthfury** is a tauren shaman and the elder far seer of the [Earthen Ring](Earthen Ring) located at the [Earthen Ring](Earthen Ring (Stonetalon Mountains)) in [Stonetalon Mountains](Stonetalon Mountains).
 
 ## Quests
 - [quest: Core of the Elements] 

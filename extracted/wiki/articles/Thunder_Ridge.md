@@ -10,7 +10,7 @@ categories: ["Durotar subzones", "Orc territories", "Pages with broken file link
 ---
 # Thunder Ridge
 
--Thunder Ridge** is an area located in the land of [Durotar](Durotar), just southwest of [Orgrimmar](Orgrimmar). 
+**Thunder Ridge** is an area located in the land of [Durotar](Durotar), just southwest of [Orgrimmar](Orgrimmar). 
 
 This breathtaking gorge is untamed by humanoids as yet. [Thunder lizards](Thunder lizards) give the place its name, dominating the landscape for some distance. Tallstriders are also seen hanging out on the fringes with an eye out for an easy lunch. The ridge is home to behemoth lightning lizards, which help to obscure the presence of the Burning Blade here, led by the goblin warlock [Fizzle Darkstorm](Fizzle Darkstorm).
 

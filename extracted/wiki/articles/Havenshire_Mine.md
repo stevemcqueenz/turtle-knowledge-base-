@@ -10,13 +10,13 @@ categories: ["Scarlet Enclave subzones", "Turtle WoW content"]
 ---
 # Havenshire Mine
 
--Havenshire Mine** is located in northern [Scarlet Enclave](Scarlet Enclave), just to the east of [Gloom Hill](Gloom Hill) and to the west of [Light's Point](Light's Point), and north of [Havenshire](Havenshire).
+**Havenshire Mine** is located in northern [Scarlet Enclave](Scarlet Enclave), just to the east of [Gloom Hill](Gloom Hill) and to the west of [Light's Point](Light's Point), and north of [Havenshire](Havenshire).
 
 ## NPCs
--  [Scarlet Cavalier](Scarlet Cavalier)
--  [Scarlet Invoker](Scarlet Invoker)
--  [Scarlet Worker](Scarlet Worker)
--  [Scarlet Smith](Scarlet Smith) (rare)
+- [Scarlet Cavalier](Scarlet Cavalier)
+- [Scarlet Invoker](Scarlet Invoker)
+- [Scarlet Worker](Scarlet Worker)
+- [Scarlet Smith](Scarlet Smith) (rare)
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

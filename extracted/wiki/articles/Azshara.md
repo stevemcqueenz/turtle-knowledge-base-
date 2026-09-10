@@ -22,7 +22,7 @@ categories: ["Azshara", "Kalimdor", "Turtle WoW content"]
 | affiliation | Horde, Darnassus, Alliance, Timbermaw tribe, Spitelash, Rethress, Legashi |
 | loc | Southeastern Northern Kalimdor |
 
--Azshara** is located in northeastern [Kalimdor](Kalimdor), east of [Ashenvale](Ashenvale), south of [Winterspring](Winterspring), and north of [Durotar](Durotar). It is a beautiful coastal area cloaked in eternal autumn. The trees and other flora are tinged in brilliant oranges and reds, and nearer the coast, great cliffs and sandy beaches line the ocean. The region's inhabitants can make life hard for the nature lover, however. Enraged ghosts, vicious satyr, stalking naga and ferocious wildlife can quickly put an end to those who venture too far from the road.
+**Azshara** is located in northeastern [Kalimdor](Kalimdor), east of [Ashenvale](Ashenvale), south of [Winterspring](Winterspring), and north of [Durotar](Durotar). It is a beautiful coastal area cloaked in eternal autumn. The trees and other flora are tinged in brilliant oranges and reds, and nearer the coast, great cliffs and sandy beaches line the ocean. The region's inhabitants can make life hard for the nature lover, however. Enraged ghosts, vicious satyr, stalking naga and ferocious wildlife can quickly put an end to those who venture too far from the road.
 
 ## Geography
 A river separates the primordial wood from what land there is. The terrain beyond the river is little more than a strip of green above fragmented cliffs that rise high over a stretch of ivory beach. The waves of the sea sweep against this beach, and islands — little more than spires of jagged rock — jut from the water. A twisted expanse of reef creates a labyrinth of coral beneath the ocean surface, making sea travel here virtually impossible.
@@ -54,7 +54,7 @@ WorldMap-Azshara-old.jpg|Azshara prior to [patch 1.16.0](patch 1.16.0).
 |}
 
 ### Elite areas
--[Lake Mennar](Lake Mennar)
+- [Lake Mennar](Lake Mennar)
 
 ### Travel hubs
 #### [Flight path](Flight path)s from [Talrendis Point](Talrendis Point)
@@ -123,22 +123,22 @@ WorldMap-Azshara-old.jpg|Azshara prior to [patch 1.16.0](patch 1.16.0).
   - [Star Wood Tree](Star Wood Tree)
 
 ## Wild creatures
--[Dragonspawn](Dragonspawn)
--[Furbolg](Furbolg)s
--[Hippogryph](Hippogryph)s
--[Ghost](Ghost)s
--[Hydra](Hydra)s
--[Infernal](Infernal)s
--[Makrura](Makrura)
--[Mountain giant](Mountain giant)s
--[Naga](Naga)
--[Ooze](Ooze)s
--[Satyr](Satyr)
--[Sea giant](Sea giant)s
--[Shark](Shark)s
--[Stag](Stag)s
--[Turtle](Turtle)s
--[Water Elemental](Water Elemental)s
+- [Dragonspawn](Dragonspawn)
+- [Furbolg](Furbolg)s
+- [Hippogryph](Hippogryph)s
+- [Ghost](Ghost)s
+- [Hydra](Hydra)s
+- [Infernal](Infernal)s
+- [Makrura](Makrura)
+- [Mountain giant](Mountain giant)s
+- [Naga](Naga)
+- [Ooze](Ooze)s
+- [Satyr](Satyr)
+- [Sea giant](Sea giant)s
+- [Shark](Shark)s
+- [Stag](Stag)s
+- [Turtle](Turtle)s
+- [Water Elemental](Water Elemental)s
 
 ## Notes
 - Azshara is one of the most common spots for [gold farmer](gold farmer)s, who feast upon the large collection of [thorium](thorium) veins in the zone.
@@ -149,4 +149,4 @@ WorldMap-Azshara-old.jpg|Azshara prior to [patch 1.16.0](patch 1.16.0).
 
 ## Patch changes
 - (Patch 1.16.0|note=[Flaxwhisker Front](Flaxwhisker Front) and [Bloodfist Point](Bloodfist Point) added.)
--  **Patch 0.8 (2004-07-07):** Opened and itemized.
+- **Patch 0.8 (2004-07-07):** Opened and itemized.

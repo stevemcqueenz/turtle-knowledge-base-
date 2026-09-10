@@ -24,7 +24,7 @@ categories: ["Bosses", "Stubs", "Tower of Karazhan mobs", "Turtle WoW content", 
 | status | Killable |
 | instance | Tower of Karazhan |
 
--Keeper Gnarlmoon** is the first boss of [Tower of Karazhan](Tower of Karazhan).
+**Keeper Gnarlmoon** is the first boss of [Tower of Karazhan](Tower of Karazhan).
 
 ## Patch changes
 - (Patch 1.17.2|note=Added.)

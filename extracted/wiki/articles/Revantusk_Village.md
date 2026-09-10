@@ -32,7 +32,7 @@ categories: ["Forest troll territories", "Harbors", "Hinterlands subzones", "Hor
 | boat | Yes |
 | status | Active |
 
--Revantusk Village** is the only visitable settlement of the [Revantusk tribe](Revantusk tribe) of [forest troll](forest troll)s. You can find the [port](Harbor) village on the coast of the [Hinterlands](Hinterlands).
+**Revantusk Village** is the only visitable settlement of the [Revantusk tribe](Revantusk tribe) of [forest troll](forest troll)s. You can find the [port](Harbor) village on the coast of the [Hinterlands](Hinterlands).
 
 ## History
 Following the defeat of the [Old Horde](Old Horde) during the [Second War](Second War), the Horde was shattered, and many forest trolls deserted their former orc allies without a moment's hesitation. The Revantusks had little choice other than to flee as well, for their numbers were far too few to liberate the captive orcs, particularly when the orcs themselves seemed uninterested in freedom. Because they continued to feel some loyalty toward the Horde, the Revantusks were the target of many attacks from other forest trolls. Eventually, the Revantusk tribe relocated to the coast of the Hinterlands, where they hoped to avoid further notice, and established Revantusk Village.
@@ -48,39 +48,23 @@ The [Saltwater Snapjaw](Saltwater Snapjaw)s menaced the village making fishing a
 
 ## Travel connections
 ### Flight
-  - [The Undercity](Undercity), [Tirisfal Glades](Tirisfal Glades)**
-  - [Tarren Mill](Tarren Mill), [Hillsbrad Foothills](Hillsbrad Foothills)**
-  - [Hammerfall](Hammerfall), [Arathi Highlands](Arathi Highlands)**
-  - [Light's Hope Chapel](Light's Hope Chapel), [Eastern Plaguelands](Eastern Plaguelands)**
+** [The Undercity](Undercity), [Tirisfal Glades](Tirisfal Glades)**
+** [Tarren Mill](Tarren Mill), [Hillsbrad Foothills](Hillsbrad Foothills)**
+** [Hammerfall](Hammerfall), [Arathi Highlands](Arathi Highlands)**
+** [Light's Hope Chapel](Light's Hope Chapel), [Eastern Plaguelands](Eastern Plaguelands)**
 
 ### Boat
-  - [Sparkwater Port](Sparkwater Port), [Durotar](Durotar)**
+** [Sparkwater Port](Sparkwater Port), [Durotar](Durotar)**
 
 ## Inhabitants
 ### Quest givers
-- 
-
-### Goods and services
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-### Additional characters
-- 
-- 
-- 
-
-## Patch changes
+- ### Goods and services
+- - - - - - - - - ### Additional characters
+- - - ## Patch changes
 - (Patch 1.16.0|note=Boat lane to [Sparkwater Port](Sparkwater Port) added.)
--  **Patch 1.6.0 (2005-07-12):**
-  -An icon has been added at the Eastern Kingdoms continent map level for Revantusk Village.
-  -Revantusk Village will now have an arrow pointing in its direction on the mini-map when you get close enough to it.
--  **Patch 1.5.0 (2005-06-07):** Added.
+- **Patch 1.6.0 (2005-07-12):**
+  - An icon has been added at the Eastern Kingdoms continent map level for Revantusk Village.
+  - Revantusk Village will now have an arrow pointing in its direction on the mini-map when you get close enough to it.
+- **Patch 1.5.0 (2005-06-07):** Added.
 
 ## References

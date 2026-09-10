@@ -25,7 +25,7 @@ categories: ["Human characters", "Librarians", "Northwind NPCs", "Quest givers",
 | location | Ambershire, Northwind |
 | status | Alive |
 
--Trevor Melain** is a [human](human) quest giver located in [Ambershire](Ambershire) in [Northwind](Northwind).
+**Trevor Melain** is a [human](human) quest giver located in [Ambershire](Ambershire) in [Northwind](Northwind).
 
 ## Quests
 - [quest: Who Will Think Of The Children?] 
@@ -39,7 +39,7 @@ categories: ["Human characters", "Librarians", "Northwind NPCs", "Quest givers",
 - [Sir Edrin Vellas, the Gallant Knight - Legacy](Sir Edrin Vellas, the Gallant Knight - Legacy)
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Interested in the newest publications from across the Eastern Kingdoms? From gnomish engineering dissertations to elaborate research on the human noble houses, you will surely find something to your liking.
 
 ## Patch changes

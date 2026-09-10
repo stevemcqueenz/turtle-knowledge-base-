@@ -10,7 +10,7 @@ categories: ["Demigods", "Lore", "Pages with broken file links"]
 ---
 # Elune
 
--Elune** is the major deity worshipped by the [night elves](night elves).  She is associated with the larger of Azeroth's two [moons](moons), the White Lady, and is the mother of [Cenarius](Cenarius).  In [tauren mythology](tauren mythology), She is known as Mu'sha, and is the left eye of the Earthmother.
+**Elune** is the major deity worshipped by the [night elves](night elves).  She is associated with the larger of Azeroth's two [moons](moons), the White Lady, and is the mother of [Cenarius](Cenarius).  In [tauren mythology](tauren mythology), She is known as Mu'sha, and is the left eye of the Earthmother.
 Formal worship of Elune dates back about 14,000 years, before the rise of Azshara and the Highbourne, though She was certainly worshipped long before that. Her original cult center was near Zin-Azshari, but the [Sisters of Elune](Sisters of Elune) moved the temple to [Suramar](Suramar) when it was clear Azshara cared more for the luxury of herself and the Highbourne than anyone else. After Suramar fell, Elune was the main source of hope for the millions of refugees fleeing the Burning Legion. Elune's worship was essentially universal (no cult centers) for the Night Elves in the ten thousand years between the [War of the Ancients](War of the Ancients) and the [Third War](Third War) (the Long Vigil). The center of Her worship is now the [Temple of the Moon](Temple of the Moon) in [Darnassus](Darnassus). [Tyrande Whisperwind](Tyrande Whisperwind) is Her High Priestess, but many Priestesses, and for the first time, male priests, are found throughout the world, ready to heal war-weary Azeroth with Her light.
 
 ## Night Elf Beliefs

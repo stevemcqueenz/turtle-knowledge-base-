@@ -24,10 +24,10 @@ categories: ["Human characters", "Northwind NPCs", "Stormwind (kingdom)", "Turtl
 | location | Ambershire, Northwind |
 | status | Alive |
 
--Logan Fuller** is a [human](human) located in [Ambershire](Ambershire) in [Northwind](Northwind).
+**Logan Fuller** is a [human](human) located in [Ambershire](Ambershire) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I'm afraid all alcohol sales outside of inns, taverns, or the jousting grounds have been halted during the tournament, as Lord Amberwood wishes to avoid wandering drunks that may cause altercations during such events. If you wish to buy any of my crafts, you'll have to do so another day.
 
 ## Patch changes

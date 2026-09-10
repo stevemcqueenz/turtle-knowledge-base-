@@ -10,4 +10,4 @@ categories: ["Barracks", "SI:7", "Stormwind City subzones"]
 ---
 # SI:7 (Stormwind City)
 
--SI:7** is the main headquarters building of the [same-named organization](SI:7). Leaders of the organization are located here, in the [Old Town](Old Town) of [Stormwind City](Stormwind City).
+**SI:7** is the main headquarters building of the [same-named organization](SI:7). Leaders of the organization are located here, in the [Old Town](Old Town) of [Stormwind City](Stormwind City).

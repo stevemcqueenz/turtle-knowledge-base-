@@ -13,19 +13,19 @@ categories: ["API Functions"]
 Returns the maximum amount of mana that the specified unit can have.
 ----
 
-  - *Usage***
+** *Usage***
 
  local maxmana = UnitManaMax("unit");
 ----
 
-  - *Arguments***
+** *Arguments***
 
   ; unit
    String - The [UnitId](API Type UnitId) of the unit whose MP should be returned
 
 ----
 
-  - *Returns***
+** *Returns***
 
   ; maxmana
    Number - the unit's maximal mana points

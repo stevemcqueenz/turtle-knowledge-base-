@@ -78,9 +78,9 @@ The Wildhammers of the Grim Reaches, who have forgotten much of their clan's her
 Despite having their own in-game reputation, only the members of the clan in the [Hinterlands](Hinterlands) are part of that faction. The Wildhammers in the [Grim Reaches](Grim Reaches) not tagged as such, though quests with them still give reputation with the faction.
 
 ### Faction description
--Though not a part of the [Alliance](Alliance), the [dwarves](Wildhammer dwarf) of [Aerie Peak](Aerie Peak) have opened their doors to it and hold the [Horde](Horde) as enemies.*
+*Though not a part of the [Alliance](Alliance), the [dwarves](Wildhammer dwarf) of [Aerie Peak](Aerie Peak) have opened their doors to it and hold the [Horde](Horde) as enemies.*
 
 ## Patch changes
--  **Patch 1.5.0 (2005-06-07):** The Wildhammer Clan in the Hinterlands is now a peaceful faction to the Alliance, meaning Alliance players cannot intentionally declare war on them.
+- **Patch 1.5.0 (2005-06-07):** The Wildhammer Clan in the Hinterlands is now a peaceful faction to the Alliance, meaning Alliance players cannot intentionally declare war on them.
 
 ## References

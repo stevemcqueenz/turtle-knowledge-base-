@@ -26,16 +26,16 @@ categories: ["Blackfathom Deeps mobs", "Bosses", "Satyr characters", "Stubs", "T
 | status | Killable |
 | instance | Blackfathom Deeps |
 
--Velthelaxx the Defiler** is a satyr boss at the [Temple of Elune](Temple of Elune) in the [Blackfathom Deeps](Blackfathom Deeps).
+**Velthelaxx the Defiler** is a satyr boss at the [Temple of Elune](Temple of Elune) in the [Blackfathom Deeps](Blackfathom Deeps).
 
 ## Quotes
-  -Aggro**
+**Aggro**
   The power of Elune shall be mine!
 
-  -During combat**
+**During combat**
   Behold the power of Velthelaxx!
 
-  -Death**
+**Death**
   I serve in death...
 
 ## Patch changes

@@ -24,7 +24,7 @@ categories: ["Gnome characters", "Ironforge NPCs", "Quest givers", "Turtle WoW c
 | location | Tinker Town, Ironforge |
 | status | Alive |
 
--Masey Wirefuse** is a [gnome](gnome) quest giver located in [Tinker Town](Tinker Town) in [Ironforge](Ironforge).
+**Masey Wirefuse** is a [gnome](gnome) quest giver located in [Tinker Town](Tinker Town) in [Ironforge](Ironforge).
 
 ## Quests
 - [quest: It Broke...] 
@@ -33,7 +33,7 @@ categories: ["Gnome characters", "Ironforge NPCs", "Quest givers", "Turtle WoW c
 - [quest: Broodling Imposters?!] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Ironforge is nice and all, but I kind of miss Gnomeregan. It was just... cozy, and it offered all kinds of progress in many fields, you know?
 
 Well, maybe not, but either way it isn't all bad. There are still things to figure out and mysteries to solve.

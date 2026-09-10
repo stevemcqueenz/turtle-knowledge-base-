@@ -12,5 +12,5 @@ categories: ["Dwarves"]
 
 The Kingdom of Ironforge is the homeland of the dwarves in the continent of Khaz Modan. The kingdom includes the frosty lands of Dun Morogh and the green foothills of Dun Morogh on the edge of [Ironforge Mountain](Ironforge Mountain).
 ## Realms within the Kingdom of Ironforge
--[Dun Morogh](Dun Morogh)
--[Loch Modan](Loch Modan)
+- [Dun Morogh](Dun Morogh)
+- [Loch Modan](Loch Modan)

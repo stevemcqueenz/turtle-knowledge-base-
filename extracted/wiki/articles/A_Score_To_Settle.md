@@ -25,7 +25,7 @@ categories: ["Alliance quests", "Quests at 7", "Thalassian Highlands quests", "T
 
 ## Objectives
 Bring 1 Fang of Shar'Lan to [Maelor Steelguard](Maelor Steelguard) as a proof of your deed.
--[Fang of Shar'lan](Fang of Shar'lan)
+- [Fang of Shar'lan](Fang of Shar'lan)
 
 ## Description
 I must burden you with one more request, <name>. A few weeks past, as I scoured the hills in search of ideal spots for grape cultivation, I fell victim to a [lynx](lynx) of unparalleled ferocity. In the ensuing struggle, the creature overpowered me, leaving me grievously wounded, my eye forever lost.
@@ -34,9 +34,9 @@ A personal vendetta now brews within me against this formidable adversary. Vanqu
 
 ## Rewards
 You will receive:
--680 XP
--+150 [reputation](reputation) with [Silvermoon Remnant](Silvermoon Remnant)
--[Lynx Sword](Lynx Sword)
+- 680 XP
+- +150 [reputation](reputation) with [Silvermoon Remnant](Silvermoon Remnant)
+- [Lynx Sword](Lynx Sword)
 
 ## Progress
 Be wary of its bite.

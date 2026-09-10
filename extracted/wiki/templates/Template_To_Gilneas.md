@@ -10,11 +10,11 @@ categories: []
 ---
 # Template:To Gilneas
 
-1.[quest: To Gilneas]
-1.Complete all of:
-1.*[quest: Report to Livia Strongarm]
-1.**[quest: Rendezvous with the Infiltrator]
-1.*[quest: Report to Luke Agamand]
-1.**[quest: Heist in Dryrock Mine]
-1.[quest: Quality Time with Blackthorn]
-1.[quest: Genn Greymane Must Die!]
+1. [quest: To Gilneas]
+1. Complete all of:
+1. *[quest: Report to Livia Strongarm]
+1. **[quest: Rendezvous with the Infiltrator]
+1. *[quest: Report to Luke Agamand]
+1. **[quest: Heist in Dryrock Mine]
+1. [quest: Quality Time with Blackthorn]
+1. [quest: Genn Greymane Must Die!]

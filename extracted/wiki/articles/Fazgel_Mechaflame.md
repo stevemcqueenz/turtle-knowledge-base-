@@ -24,7 +24,7 @@ categories: ["Engineers", "Feralas NPCs", "Goblin characters", "Quest givers", "
 | status | Killable |
 | location | Ruins of Isildien, Feralas |
 
--Fazgel Mechaflame** is a [goblin](goblin) quest giver located at the [Ruins of Isildien](Ruins of Isildien) in [Feralas](Feralas).
+**Fazgel Mechaflame** is a [goblin](goblin) quest giver located at the [Ruins of Isildien](Ruins of Isildien) in [Feralas](Feralas).
 
 ## Quests
 - [quest: Mechaflame's Bargain] 
@@ -35,7 +35,7 @@ categories: ["Engineers", "Feralas NPCs", "Goblin characters", "Quest givers", "
 
 ## Quotes
   *Main article: [quest: Highly Unexpected Event]*
-  -Gossip**
+**Gossip**
 Hands off my haul bub!
 
 ## Patch changes

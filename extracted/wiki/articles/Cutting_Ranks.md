@@ -48,7 +48,7 @@ It is done, then. With their chain of command gone, it might take months for the
 We shall not give them such a luxury. 
 
 ## Notes
-  -Upon accepting this quest and [quest: Anchor's End]**
+**Upon accepting this quest and [quest: Anchor's End]**
 
   **Warbringer Dar'nakk says:** Baha! A true soldier of the Horde! One of grit and steel — those Kul Tirans are no match for you!
 

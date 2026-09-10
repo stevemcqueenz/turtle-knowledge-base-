@@ -25,13 +25,13 @@ categories: ["Cooking trainers", "Cooking vendors", "Cooks", "Draenei characters
 | location | Moro'gai Village, Moonwhisper Coast |
 | status | Alive |
 
--Cook Rem'sai** is a [draenei](draenei) cooking trainer located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Cook Rem'sai** is a [draenei](draenei) cooking trainer located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: The Long Hunt] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Draenei cuisine is an acquired taste, the Tauren people could not handle the spiciness typical for our kitchen.
 
 ## Patch changes

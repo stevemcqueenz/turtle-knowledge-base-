@@ -22,25 +22,13 @@ categories: ["Azshara subzones", "Orc territories", "Pages with broken file link
 | loc | Northern Azshara |
 | status | Active |
 
--Bloodfist Point** is a [Horde](Horde)-aligned outpost located in northern [Azshara](Azshara). It's the forefront of the Horde's efforts to tame the haunted lands of Azshara. (ref: [New Zones & World Edits](https://web.archive.org/web/20260514170802/https://turtlecraft.gg/new-locations-and-maps). Archived from [the original](https://turtlecraft.gg/new-locations-and-maps) on 2026-05-14. Retrieved on 2026-29-08.)
+**Bloodfist Point** is a [Horde](Horde)-aligned outpost located in northern [Azshara](Azshara). It's the forefront of the Horde's efforts to tame the haunted lands of Azshara. (ref: [New Zones & World Edits](https://web.archive.org/web/20260514170802/https://turtlecraft.gg/new-locations-and-maps). Archived from [the original](https://turtlecraft.gg/new-locations-and-maps) on 2026-05-14. Retrieved on 2026-29-08.)
 
 ## Inhabitants
 ### Quest givers
-- 
-- 
-- 
-- 
-
-### Goods and services
-- 
-- 
-
-### Additional characters
-- 
-- 
-- 
-
-## Patch changes
+- - - - ### Goods and services
+- - ### Additional characters
+- - - ## Patch changes
 - (Patch 1.16.0|note=Added.)
 
 ## References

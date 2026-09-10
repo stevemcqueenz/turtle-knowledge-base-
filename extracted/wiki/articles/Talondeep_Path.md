@@ -10,7 +10,7 @@ categories: ["Ashenvale subzones", "Caves", "Pages with broken file links", "Pas
 ---
 # Talondeep Path
 
--The Talondeep Path** was a winding tunnel that connected [Ashenvale](Ashenvale) with the [Stonetalon Mountains](Stonetalon Mountains). Although it was riddled with small dead ends and interesting holes in the walls, there were no friendly [NPC](NPC)s nor hostile mobs inside. The entrance on the Ashenvale side was found just west of [Mystral Lake](Mystral Lake), while the entrance on the Stonetalon side was found in the northwestern part of [Windshear Crag](Windshear Crag).
+**The Talondeep Path** was a winding tunnel that connected [Ashenvale](Ashenvale) with the [Stonetalon Mountains](Stonetalon Mountains). Although it was riddled with small dead ends and interesting holes in the walls, there were no friendly [NPC](NPC)s nor hostile mobs inside. The entrance on the Ashenvale side was found just west of [Mystral Lake](Mystral Lake), while the entrance on the Stonetalon side was found in the northwestern part of [Windshear Crag](Windshear Crag).
 
 ## Gallery
 <gallery>

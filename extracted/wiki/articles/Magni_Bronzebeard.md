@@ -27,7 +27,7 @@ categories: ["City bosses", "Dwarf characters", "Ironforge NPCs", "Quest givers"
 | status | Alive |
 | relatives | Muradin, Brann (brothers),, Moira (daughter),, Madoran (ancestor) |
 
--Magni Bronzebeard** is the current king of the [dwarven](Dwarf) [kingdom of Khaz Modan](Ironforge (kingdom)), Thane of [Ironforge](Ironforge) and head of the [Bronzebeard clan](Bronzebeard clan). During the [Second War](Second War) he defended Ironforge from the orcs and joined the [Alliance of Lordaeron](Alliance of Lordaeron). Now, after the Third War, he joined the [Grand Alliance](Alliance).
+**Magni Bronzebeard** is the current king of the [dwarven](Dwarf) [kingdom of Khaz Modan](Ironforge (kingdom)), Thane of [Ironforge](Ironforge) and head of the [Bronzebeard clan](Bronzebeard clan). During the [Second War](Second War) he defended Ironforge from the orcs and joined the [Alliance of Lordaeron](Alliance of Lordaeron). Now, after the Third War, he joined the [Grand Alliance](Alliance).
 
 ## Biography
 ### Early history
@@ -73,23 +73,23 @@ When Moira went missing, he sent the adventurers of the Alliance to find her esc
 Within me is the earth itself. We are one. I am it and it of me. I listen for the mountain's reply.
 
 ### On-click
--Strength, honor. I see them in you. Why have you come?
--What brings you to Ironforge?
--How can the dwarves help you?
--What do you seek within the mountain?
+- Strength, honor. I see them in you. Why have you come?
+- What brings you to Ironforge?
+- How can the dwarves help you?
+- What do you seek within the mountain?
 
 ### Aggro
--For Khaz'Modan!
--Feel the fury of the mountain!
+- For Khaz'Modan!
+- Feel the fury of the mountain!
 
 ## Notes and trivia
--"By Magni's beard!" is a common dwarven expression. (ref: [quest: Stout to Kadrell]) (ref: [quest: A New Threat]) (ref: [quest: Stocking Jetsteam])
--[Hulfdan Blackbeard](Hulfdan Blackbeard) calls him "Stinkbeard". (ref: [quest: class=rogue])
--Magni is voiced by [Carlos Larkin](Carlos Larkin), who also voiced Muradin Bronzebeard in Warcraft III.
--Magni was known as the "king under the mountain". In Tolkien's Middle-earth, the dwarven rulers of the lonely mountain of Erebor used the same title.
--In Norse mythology, Magni is one of Thor's two sons, and one of the few gods who will survive Ragnarök. Along with his brother, Módi, he will wield his father's legendary hammer Mjölnir after Ragnarök.
+- "By Magni's beard!" is a common dwarven expression. (ref: [quest: Stout to Kadrell]) (ref: [quest: A New Threat]) (ref: [quest: Stocking Jetsteam])
+- [Hulfdan Blackbeard](Hulfdan Blackbeard) calls him "Stinkbeard". (ref: [quest: class=rogue])
+- Magni is voiced by [Carlos Larkin](Carlos Larkin), who also voiced Muradin Bronzebeard in Warcraft III.
+- Magni was known as the "king under the mountain". In Tolkien's Middle-earth, the dwarven rulers of the lonely mountain of Erebor used the same title.
+- In Norse mythology, Magni is one of Thor's two sons, and one of the few gods who will survive Ragnarök. Along with his brother, Módi, he will wield his father's legendary hammer Mjölnir after Ragnarök.
 
 ## Patch changes
--  **[Patch 1.7.0](Patch 1.7.0) (2005-09-13):** Racial "Leaders" have been strengthened, and are now worth slightly less honor.
+- **[Patch 1.7.0](Patch 1.7.0) (2005-09-13):** Racial "Leaders" have been strengthened, and are now worth slightly less honor.
 
 ## References

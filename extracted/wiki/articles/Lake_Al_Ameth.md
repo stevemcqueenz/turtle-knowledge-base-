@@ -10,4 +10,4 @@ categories: ["Lakes", "Night elf territories", "Pages with broken file links", "
 ---
 # Lake Al'Ameth
 
--Lake Al'Ameth** is the largest body of water in [Teldrassil](Teldrassil) aside from the great pools of [Darnassus](Darnassus). The lake lies south of [Dolanaar](Dolanaar). Lately, enraged [timberling](timberling)s have been sighted on the shores of the lake, and it is no longer safe.
+**Lake Al'Ameth** is the largest body of water in [Teldrassil](Teldrassil) aside from the great pools of [Darnassus](Darnassus). The lake lies south of [Dolanaar](Dolanaar). Lately, enraged [timberling](timberling)s have been sighted on the shores of the lake, and it is no longer safe.

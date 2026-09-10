@@ -25,10 +25,10 @@ categories: ["Drink vendors", "Human characters", "Northwind NPCs", "Stormwind (
 | location | The Plump Pumpkin, Northwind |
 | status | Alive |
 
--Beverly Gale** is a [human](human) drink vendor who is located at the [Plump Pumpkin](Plump Pumpkin) in [Northwind](Northwind).
+**Beverly Gale** is a [human](human) drink vendor who is located at the [Plump Pumpkin](Plump Pumpkin) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Mister Thorpe has had a very busy day, so don't hesitate to ask me to pass you any of our delicious drinks.
 
 ## Patch changes

@@ -27,10 +27,10 @@ categories: ["Human characters", "Librarians", "Mage characters", "Pages with br
 | status | Alive |
 | companions | Acolyte Dellis (assistant) |
 
--Mazen Mac'Nadir** is a [human](human) [mage](mage) located in the [Canals](Canals (Stormwind City)) ([Mage Quarter](Mage Quarter) section) of the [human](human) city of [Stormwind](Stormwind). Mazen is a member of the [Academy of Arcane Arts and Sciences](Academy of Arcane Arts and Sciences), and is responsible for the caretaking of the academy library's magical tomes. (ref: Mazen's Behest) He can be found inside the library of the academy, which is located just south of the [Stormwind Stockade](Stormwind Stockade) building in the [Canal District](Canals (Stormwind City)), and is assisted in his tasks by his assistant, [Dellis](Acolyte Dellis).
+**Mazen Mac'Nadir** is a [human](human) [mage](mage) located in the [Canals](Canals (Stormwind City)) ([Mage Quarter](Mage Quarter) section) of the [human](human) city of [Stormwind](Stormwind). Mazen is a member of the [Academy of Arcane Arts and Sciences](Academy of Arcane Arts and Sciences), and is responsible for the caretaking of the academy library's magical tomes. (ref: Mazen's Behest) He can be found inside the library of the academy, which is located just south of the [Stormwind Stockade](Stormwind Stockade) building in the [Canal District](Canals (Stormwind City)), and is assisted in his tasks by his assistant, [Dellis](Acolyte Dellis).
 
 ## Quests
--Mazen's Behest 
+- Mazen's Behest 
 
 ## References
 ## External links

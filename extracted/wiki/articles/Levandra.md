@@ -25,7 +25,7 @@ categories: ["Gilneas NPCs", "Herbalism vendors", "Human characters", "Quest giv
 | status | Alive |
 | relatives | Matthew Beckett |
 
--Levandra**, born **Catherine Beckett**, is a [human](human) [quest giver](quest giver) and [herbalism vendor](herbalism vendor) located in a cave above [Mossgrove Farm](Mossgrove Farm) in [Gilneas](Gilneas). Believed to be sick with the plague by her family, she was driven away from them and joined the [Pellars of Wolfswood](Pellars of Wolfswood). (ref: [quest: The Hound and the Hunter])
+**Levandra**, born **Catherine Beckett**, is a [human](human) [quest giver](quest giver) and [herbalism vendor](herbalism vendor) located in a cave above [Mossgrove Farm](Mossgrove Farm) in [Gilneas](Gilneas). Believed to be sick with the plague by her family, she was driven away from them and joined the [Pellars of Wolfswood](Pellars of Wolfswood). (ref: [quest: The Hound and the Hunter])
 
 ## Quests
 - [quest: The Hound and the Hunter] 

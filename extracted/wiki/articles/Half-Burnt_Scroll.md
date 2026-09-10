@@ -10,7 +10,7 @@ categories: ["Readable items", "Turtle WoW content"]
 ---
 # Half-Burnt Scroll
 
--Half-Burnt Scroll** is a reward from [quest: race=tauren|class=priest].
+**Half-Burnt Scroll** is a reward from [quest: race=tauren|class=priest].
 
 ## Contains
 ## Patch changes

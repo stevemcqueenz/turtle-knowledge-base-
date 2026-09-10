@@ -10,4 +10,4 @@ categories: ["Mining nodes", "Pages with broken file links", "Stubs"]
 ---
 # Gold Vein
 
--Gold Veins** rarely spawn in place of [Iron Deposit](Iron Deposit)s or [Mithril Deposit](Mithril Deposit)s; as a result, they can be found in any zone where iron or mithril is found.
+**Gold Veins** rarely spawn in place of [Iron Deposit](Iron Deposit)s or [Mithril Deposit](Mithril Deposit)s; as a result, they can be found in any zone where iron or mithril is found.

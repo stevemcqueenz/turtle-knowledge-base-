@@ -23,14 +23,14 @@ categories: ["Badlands NPCs", "Orc quest givers"]
 | sex | Male |
 | location | Badlands |
 
--Warlord Lunk Goretooth** is a level 60 [quest giver](quest giver) located in [Kargath](Kargath) in the [contested](contested) territory of [Badlands](Badlands).
+**Warlord Lunk Goretooth** is a level 60 [quest giver](quest giver) located in [Kargath](Kargath) in the [contested](contested) territory of [Badlands](Badlands).
 
 He will sometimes dispatch the [Kargath Expeditionary Force](Kargath Expeditionary Force) lead by [Thal'trak Proudtusk](Thal'trak Proudtusk), then turn to [Hierophant Theodora Mulvadania](Hierophant Theodora Mulvadania) and [Shadowmage Vivian Lagrave](Shadowmage Vivian Lagrave) at the bonfire, flirting with them. He will then return to his post on the watchtower.
 
 "*Succeed and be honored. Fail and be forgotten.*"
 
 ## See also
--[Kargath Expeditionary Force](Kargath Expeditionary Force)
--[List of Badlands NPCs](List of Badlands NPCs)
+- [Kargath Expeditionary Force](Kargath Expeditionary Force)
+- [List of Badlands NPCs](List of Badlands NPCs)
 
 ## External links

@@ -10,6 +10,6 @@ categories: ["Flats", "Orc territories", "Redridge Mountains subzones"]
 ---
 # Render's Valley
 
--Render's Valley** is an [orcish](orcish) outpost in the southeastern [Redridge Mountains](Redridge Mountains). The valley, much like [Render's Camp](Render's Camp) and [Render's Rock](Render's Rock), is named after [Rend Blackhand](Rend Blackhand) and contains a number of [Blackrock](Blackrock Clan) orcs. The orcs here are not as powerful as the ones in the northwest. A [Captured Servant of Azora](Captured Servant of Azora) in one of the valley's camps offers special tailoring supplies to adventurers who can reach him.
+**Render's Valley** is an [orcish](orcish) outpost in the southeastern [Redridge Mountains](Redridge Mountains). The valley, much like [Render's Camp](Render's Camp) and [Render's Rock](Render's Rock), is named after [Rend Blackhand](Rend Blackhand) and contains a number of [Blackrock](Blackrock Clan) orcs. The orcs here are not as powerful as the ones in the northwest. A [Captured Servant of Azora](Captured Servant of Azora) in one of the valley's camps offers special tailoring supplies to adventurers who can reach him.
 
 The mountains just south of Render's Valley contain an "undocumented" and hard to find mountain pass to the [Swamp of Sorrows](Swamp of Sorrows).

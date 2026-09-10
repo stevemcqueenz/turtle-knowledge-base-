@@ -21,7 +21,7 @@ categories: ["Burning Legion", "Cycle of Hatred characters", "Demons", "Lore cha
 | location | Twisting Nether |
 | status | Alive |
 
--Zmodlor** is a minor [demon](demon) who specializes in infiltration. During the events in *[Cycle of Hatred](Cycle of Hatred)*, he recruits citizens of [Orgrimmar](Orgrimmar) and [Theramore](Theramore) into the [Burning Blade](Burning Blade) and uses them to raise tensions between the [orc](orc)s and [human](human)s. He was banished thanks to the combined efforts of [Aegwynn](Aegwynn) and [Jaina Proudmoore](Jaina Proudmoore).
+**Zmodlor** is a minor [demon](demon) who specializes in infiltration. During the events in *[Cycle of Hatred](Cycle of Hatred)*, he recruits citizens of [Orgrimmar](Orgrimmar) and [Theramore](Theramore) into the [Burning Blade](Burning Blade) and uses them to raise tensions between the [orc](orc)s and [human](human)s. He was banished thanks to the combined efforts of [Aegwynn](Aegwynn) and [Jaina Proudmoore](Jaina Proudmoore).
 
 ## History
 ### Confrontation with Aegwynn

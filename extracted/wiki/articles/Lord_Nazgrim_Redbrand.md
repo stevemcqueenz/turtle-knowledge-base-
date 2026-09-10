@@ -26,14 +26,14 @@ categories: ["Dwarf characters", "Ironforge NPCs", "Quest givers", "Turtle WoW c
 | status | Alive |
 | relatives | Garlin (son), Redbrand family |
 
--Lord Nazgrim Redbrand** is a [dwarf](dwarf) [quest giver](quest giver) located in the [Mystic Ward](Mystic Ward) in [Ironforge](Ironforge). He is the patriarch of the influential [Redbrand family](Redbrand family).
+**Lord Nazgrim Redbrand** is a [dwarf](dwarf) [quest giver](quest giver) located in the [Mystic Ward](Mystic Ward) in [Ironforge](Ironforge). He is the patriarch of the influential [Redbrand family](Redbrand family).
 
 ## Quests
 - [quest: Ore Must Flow] 
 - [quest: Ore Must Flow] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 My name is Nazgrim Redbrand, Lord of the noble Redbrand family. The Redbrands have suffered many tragedies of late, with our namesake crumbling around us. I will not stand idly by and watch my family's legacy tarnished by misfortune.
 
 The reputation of a dwarf means a great deal here in Khaz Modan, and so long as I stand as the head of the Redbrand family, I shall see its honor restored.

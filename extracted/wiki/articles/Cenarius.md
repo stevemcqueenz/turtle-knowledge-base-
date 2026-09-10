@@ -10,12 +10,12 @@ categories: ["Demigods", "Night Elf", "Pages with broken file links", "Stubs"]
 ---
 # Cenarius
 
--Cenarius** is one of the most powerful and influential [demigods](demigods) of [Azeroth](Azeroth), Lord of the Forest, and the patron god of all druids.
+**Cenarius** is one of the most powerful and influential [demigods](demigods) of [Azeroth](Azeroth), Lord of the Forest, and the patron god of all druids.
 
 ## Birth and Children
 The [tauren myth](tauren mythology) **The White Stag and the Moon** tells of the birth of Cenarius from the union of the moon, [Mu'sha](Mu'sha), and the white stag [Malorne](Malorne).  He was given to Ysera to rear.  
 
--[Elune](Elune) birthed Cenarius, but gave him up to [Malorne](Malorne) because Cenarius was more a creature of the mortal world and could not be with her. Malorne, who had relations with both Elune and [Ysera](Ysera), knew that he could not properly care for his son, but Ysera's love was so great for Malorne that she took Cenarius as her own. Hence being his mother (or adoptive mother).*
+*[Elune](Elune) birthed Cenarius, but gave him up to [Malorne](Malorne) because Cenarius was more a creature of the mortal world and could not be with her. Malorne, who had relations with both Elune and [Ysera](Ysera), knew that he could not properly care for his son, but Ysera's love was so great for Malorne that she took Cenarius as her own. Hence being his mother (or adoptive mother).*
   ---As written by [Richard A. Knaak](Richard A. Knaak) in this [thread](http://www.pvprp.com/forums/viewtopic.php?t=1821) hosted by the owner of [BlizzPlanet](http://www.blizzplanet.com)
 
 This clarification was likely a [retcon](retcon).
@@ -47,6 +47,6 @@ The death of Cenarius at the hands of the orcs, demon-tainted or not, enraged th
 Cenarius' spirit currently lives on in the [Emerald Dream](Emerald Dream) as a spirit of nature. He cannot return to a physical form, but he can aid and guide the natural order from his second home. The only clue to Cenarius's current activities comes from a conversation his son [Remulos](Remulos) has with the spirit of [Malfurion](Malfurion) when players complete a particular quest. It appears Cenarius is now helping Furion combat [The Nightmare](The Nightmare) that is disrupting the Emerald Dream, causing the corruption of [The Four Dragons](The Four Dragons) among other things.
 
 ## Memorable Quotes
--"The Night Elves grow more arrogant. They take what does not belong to them and trepass where they are not wanted. It is their assumption that everything falls under their domination. Although they did not quite intrude upon my realm, I chose to make them do so in order to teach them a lesson in humility and manners."
+- "The Night Elves grow more arrogant. They take what does not belong to them and trepass where they are not wanted. It is their assumption that everything falls under their domination. Although they did not quite intrude upon my realm, I chose to make them do so in order to teach them a lesson in humility and manners."
 
--"Who dares defile this ancient land? Who dares the wrath of Cenarius and the night elves? You cannot defeat me, I am the heart of the land!"
+- "Who dares defile this ancient land? Who dares the wrath of Cenarius and the night elves? You cannot defeat me, I am the heart of the land!"

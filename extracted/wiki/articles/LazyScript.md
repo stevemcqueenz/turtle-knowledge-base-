@@ -13,7 +13,7 @@ categories: ["Addon"]
 LazyScript is an in-game attack scripting language. It is aimed at users who would like to write more complex in-game macros, but who do not want to have to deal with the full blown API or do not want to have to write a separate add-on for every macro over 250 characters.
 
 ## Installation
-  -GitAddonsManager (Recommended)**
+**GitAddonsManager (Recommended)**
 
 The easiest way to keep LazyScript up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep LazyScript up to date is by using [GitAddonsManager](Git
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -62,7 +62,7 @@ Here are the main slash commands:
 - <code>/lazyscript edit <formName></code>: Opens an in-game editor for the specified form. This is the primary way to create and modify your forms.
 - <code>/lazyscript set <formName> <action1> -<condition1> <action2> -<condition2> ...</code>: Creates or updates a form with the given name and defines its actions and conditions. This is a more advanced way to define forms directly via the chat.
 
-  -Example**: <code>/ls set myform attack -ifTargetExists -ifTargetInCombat autoAttack</code>
+**Example**: <code>/ls set myform attack -ifTargetExists -ifTargetInCombat autoAttack</code>
 
 - <code>/lazyscript copy <formName1> <formName2></code>: Copies the definition of <code>formName1</code> to <code>formName2</code>.
 - <code>/lazyscript clear <formName></code>: Deletes the specified form.
@@ -120,15 +120,15 @@ You can also specify the rank of a spell or a target for a spell using the synta
 
 The <code><UnitId></code> can be any valid UnitId sequence as described in http://www.wowwiki.com/UnitId. For example, <code>@player</code>, <code>@pet</code>, <code>@target</code>, <code>@targettarget</code>. Note that the rank of the spell must always appear before the '@' symbol.
 
-  -Example:**
+**Example:**
 
 mindFlay(rank4)@target
 
 Actions listed in **green** in the in-game help do not trigger the global cooldown. LazyScript is able to perform multiple of these actions together in one line along with at most one action that triggers the global cooldown.
 
-  -Here's a list of known actions:**
+**Here's a list of known actions:**
 
-  - **Full Name = Short Name****
+** **Full Name = Short Name****
 
 - Aggressive = <code>petAggressive</code>
 - Battle Shout = <code>battleShout</code>
@@ -190,7 +190,7 @@ Actions listed in **green** in the in-game help do not trigger the global cooldo
 
 ;
 ;
-  - **Other Actions****
+** **Other Actions****
 
 - Battle Stance = <code>battle</code>
 - Berserker Stance = <code>berserk</code>
@@ -198,7 +198,7 @@ Actions listed in **green** in the in-game help do not trigger the global cooldo
 
 ;
 ;
-  - **Special Actions****
+** **Special Actions****
 
 - Assist Pet = <code>assistPet</code>
 - Assist = <code>assist</code>
@@ -223,7 +223,7 @@ Actions listed in **green** in the in-game help do not trigger the global cooldo
 
 ;
 ;
-  - **Actions that take parameters****
+** **Actions that take parameters****
 
 - Use an action: <code>action=<action/macro name></code>
 - Use an action that does not trigger the global cooldown: <code>freeAction=<action/macro name></code>
@@ -249,7 +249,7 @@ Actions listed in **green** in the in-game help do not trigger the global cooldo
 
 ;
 ;
-  - **Meta-Actions****
+** **Meta-Actions****
 
 - Include the contents of the specified form: <code>includeForm=<form name></code>
   - Note: This does not accept criteria. It must appear on a line by itself. You cannot include a form in itself, nor should you include a form which includes another form which includes the first (e.g. form A includes form B includes A == BAD).
@@ -263,18 +263,18 @@ Conditions can be negated by adding a hyphen before the condition name (e.g., <c
 
 Multiple values within curly braces (<code>{}</code>) means choose one or more. If more than one is chosen, separate them with commas (e.g. <code>-ifRace=Human,Gnome</code>) and the criteria will match if any of the choices match. If a multiple-choice criteria is negated with a "Not" (e.g. <code>-ifNotRace=Human,Gnome</code>) then the criteria will match only if none of the choices match. Square brackets (<code>[]</code>) mean the value is optional. Do NOT leave the curly braces or square brackets in your form.
 
-  -Here's a list of recognised criteria:**
+**Here's a list of recognised criteria:**
 
 ;
 ;
-  - **Warrior Criteria:****
+** **Warrior Criteria:****
 
 - <code>-if[Fury]BloodthirstKillShot[XX%hp]</code>
 - <code>-if[Not]Stance={battle,berserk,defensive}</code>
 
 ;
 ;
-  - **Action Criteria:****
+** **Action Criteria:****
 
 - <code>-everyXXs</code>
 - <code>-if[Not]{Ctrl,Alt,Shift}Down</code>
@@ -292,7 +292,7 @@ Multiple values within curly braces (<code>{}</code>) means choose one or more. 
 
 ;
 ;
-  - **Attack Criteria:****
+** **Attack Criteria:****
 
 - <code>-if[Not]BehindAttackJustFailed[X[.Y]s]</code> 
 - <code>-if[Not]InFrontAttackJustFailed[X[.Y]s]</code> 
@@ -304,7 +304,7 @@ Multiple values within curly braces (<code>{}</code>) means choose one or more. 
 
 ;
 ;
-  - **Buff/Debuff Criteria:****
+** **Buff/Debuff Criteria:****
 
 - <code>-if[Not]{Buff,Debuff}Duration{<,>}XXs={buff1,buff2,...}</code> (player only)
 - <code>-if[Not]{Buff,Debuff}TitleDuration{<,>}XXs={buffTitle1,buffTitle2,...}</code> 
@@ -315,14 +315,14 @@ Multiple values within curly braces (<code>{}</code>) means choose one or more. 
 
 ;
 ;
-  - **Item Criteria:****
+** **Item Criteria:****
 
 - <code>-if[Not]ItemCooldown{<,>}XXs={item1,item2,...}</code>
 - <code>-if[Not]ItemInCooldown={item1,item2,...}</code>
 
 ;
 ;
-  - **Player Criteria:****
+** **Player Criteria:****
 
 - <code>-if[Not]Dueling</code>
 - <code>-if[Not]Equipped=item</code>
@@ -339,7 +339,7 @@ Multiple values within curly braces (<code>{}</code>) means choose one or more. 
 
 ;
 ;
-  - **Pet:****
+** **Pet:****
 
 - <code>-if[Not]HasPet</code>
 - <code>-if[Not]PetAlive</code>
@@ -349,7 +349,7 @@ Multiple values within curly braces (<code>{}</code>) means choose one or more. 
 
 ;
 ;
-  - **Player, Pet or Target Criteria:****
+** **Player, Pet or Target Criteria:****
 
 - <code>-if[Not]{[Player],Target}{Blocked, Dodged, Parried, Resisted}[{<,>}XX.XXs]</code> (defaults to <5s)
 - <code>-if[Not]{[Player],Target}FlaggedPVP</code>
@@ -360,7 +360,7 @@ Multiple values within curly braces (<code>{}</code>) means choose one or more. 
 
 ;
 ;
-  - **Target Criteria:****
+** **Target Criteria:****
 
 - <code>-if[Not]CanDebuff</code>
 - <code>-if[Not]HaveTarget</code>
@@ -391,7 +391,7 @@ Multiple values within curly braces (<code>{}</code>) means choose one or more. 
 - <code>-ifTimeToDeath{<,=,>}XXs</code>
 - <code>-if[Not]UnitExists=[<UnitId>]</code>
 
-  -Criteria Notes**
+**Criteria Notes**
 
 Here are some important notes regarding specific criteria:
 
@@ -403,31 +403,31 @@ Here are some important notes regarding specific criteria:
 # As of patch 1.12 this only works on unfriendly targets for Rogue (Sinister Strike), Druid (Growl), Hunter (Wing Clip) and Warrior (Rend).
 # The <code>ifUsable</code> criteria checks if the action is valid for use at present as per the Blizzard API call <code>IsUsableAction</code>. This does not include cooldown or range checking.
 # The <code>ifGlobalCooldown</code> criteria requires a specific action to be placed on your action bar so that it may be checked for the global cooldown. It does not have to be on a visible action bar. For each class, the actions are as follows:
-1.: Rogue: Sinister Strike
-1.: Druid: Mark of the Wild
-1.: Hunter: Track Beasts
-1.: Priest: Power Word: Fortitude
-1.: Warrior: Battle Shout
-1.: Mage: Frost Armor
-1.: Warlock: Demon Skin
-1.: Shaman: Rockbiter Weapon
-1.: Paladin: Seal of Righteousness
+1. : Rogue: Sinister Strike
+1. : Druid: Mark of the Wild
+1. : Hunter: Track Beasts
+1. : Priest: Power Word: Fortitude
+1. : Warrior: Battle Shout
+1. : Mage: Frost Armor
+1. : Warlock: Demon Skin
+1. : Shaman: Rockbiter Weapon
+1. : Paladin: Seal of Righteousness
 
 # The <code><UnitId></code> can be any valid UnitId sequence as described in the WoW API documentation. For example, <code>player</code>, <code>pet</code>, <code>target</code>, <code>targettarget</code>. Capitalization is not important.
 # The <code>ifLastUsed</code> timer will perform the action immediately at the start of combat or if you changed targets if the action is available. The <code>ifTimer</code> criteria will first countdown XX seconds after initiating combat or changing targets before performing the action for the first time.
 # This criteria only detects full blocks and resists. A partial block or resist ("Joe hits you for 10 damage (5 blocked).") either on the player or the target will NOT be detected by this criteria.
 
-  -Including Other Forms**
+**Including Other Forms**
 
 You can include the lines from another form into your current form using the <code>includeForm=</code> action. This allows you to create modular forms and reuse common sequences.
 
 - <code>includeForm=<formName></code>: Includes all the lines from the specified form at this point in the current form.
 
-  -Comments**
+**Comments**
 
 You can add comments to your forms to explain your logic. Lines starting with <code>#</code>, <code>//</code>, or <code>--</code> will be ignored by LazyScript.
 
-  -Example Form**<syntaxhighlight lang="lua">
+**Example Form**<syntaxhighlight lang="lua">
 # This is a simple example form for a Rogue
 Sinister Strike -ifTargetExists -ifTargetInMeleeRange -ifTargetHostile
 Eviscerate -ifTargetExists -ifTargetInMeleeRange -ifTargetHostile -ifPlayerComboPoints>=5
@@ -440,7 +440,7 @@ attack -ifTargetExists -ifTargetInMeleeRange -ifTargetHostile
 # If Eviscerate can't be used, try to use Slice and Dice if you have a hostile target in melee range, at least 1 combo point, and you don't currently have the Slice and Dice buff.
 # If none of the above can be used, start auto-attacking if you have a hostile target in melee range.
 
-  -Buff/Debuff Checks**
+**Buff/Debuff Checks**
 - **<code>ifHasBuffOrDebuff</code>:** This is a core command that allows you to check for specific buffs or debuffs by their internal <code>code</code>. You can specify the unit to check (e.g., <code>player</code>, <code>target</code>), whether to look for a <code>Buff</code> or <code>Debuff</code>, and even check the number of <code>applications</code> using comparison operators (<code>></code>, <code><</code>, <code>=</code>).
   - **Syntax:** <code>if[Not][Unit]Has[Buff|Debuff][<=>][Number]=[Buff1,Buff2,...]</code>
   - **Examples:** <code>ifHasBuff=wellFed</code>, <code>ifTargetHasDebuff>2=Corruption</code>, <code>ifNotPlayerHasBuff=Stealth</code>
@@ -459,7 +459,7 @@ attack -ifTargetExists -ifTargetInMeleeRange -ifTargetHostile
   - **Syntax:** <code>if[Not][Unit]Is=[Category1,Category2,...]</code>
   - **Examples:** <code>ifTargetIs=CC</code>d, <code>ifPlayerIs=Eating,Drinking</code>
 
-  -Buff/Debuff Categories and Their Checks** 
+**Buff/Debuff Categories and Their Checks** 
 
 - **Predefined Categories:** The code defines functions to check for buffs/debuffs based on their categories:
   - <code>IsStung</code> (checks for "sting" category)
@@ -505,7 +505,7 @@ Menu options:
 - <code>&#x3C; Help &#x3E;</code>: Opens the in-game help window.
 - <code>&#x3C; About &#x3E;</code>: Opens the about window.
 
-  -Options Sub-menu**
+**Options Sub-menu**
 
 - <code>Auto-Target</code>: Toggle auto-targeting.
 - <code>... and initiate Auto-Attack</code>: Toggle initiating auto-attack when auto-targeting is enabled.
@@ -515,19 +515,19 @@ Menu options:
 - <code>Show Deathstimator Minion</code>: Toggle visibility of the Deathstimator Minion window.
 - <code>Deathstimator sample window:</code>: Shows a sample Deathstimator window.
 
-  -Immunity Options Sub-menu**
+**Immunity Options Sub-menu**
 
 - <code>Stop Immunity Tracking</code>: Disable tracking new immunities.
 - <code>Track New Immunities</code>: Enable tracking new immunities.
 - <code>Edit Immunity Exception Criteria</code>: Opens the Immunity Exception Criteria editor.
 
-  -Cast Interrupt Options Sub-menu**
+**Cast Interrupt Options Sub-menu**
 
 - <code>Edit Interrupt Exception Criteria</code>: Opens the Interrupt Exception Criteria editor.
 - <code>Last interrupted: &#x3C;spell name&#x3E;</code>: Shows the last spell you interrupted.
 - <code>... Don't interrupt it again</code>: Adds the last interrupted spell to the exception list.
 
-  -Debugging Options Sub-menu**
+**Debugging Options Sub-menu**
 
 - <code>Log when target casts</code>: Toggle logging when your target starts casting.
 - <code>Show why when -ifTargetCCd is true</code>: Toggle showing chat messages explaining why a target is considered crowd-controlled.
@@ -536,14 +536,14 @@ Menu options:
 - <code>... Clear History after combat</code>: Toggle clearing the action history after combat.
 - <code>Internal debugging (noisy)</code>: Toggle verbose debugging output.
 
-  -Form Options (when hovering over a form name in the minimap menu)**
+**Form Options (when hovering over a form name in the minimap menu)**
 
 - <code>Edit</code>: Opens the form editor for this form.
 - <code>Copy</code>: Copies this form.
 - <code>Delete</code>: Deletes this form.
 - <code>&#x3C; Set Keybinding &#x3E;</code>: Opens a sub-menu to bind a key to this form.
 
-  -Set Keybinding Sub-menu**
+**Set Keybinding Sub-menu**
 
 - <code>Keybinding &#x3C;#&#x3E;</code> : Lists the current keybinding for this slot.
 - <code>Set keybinding &#x3C;#&#x3E; to form: &#x3C;form name&#x3E;</code>: Binds the selected keybinding slot to this form.
@@ -569,19 +569,19 @@ The Deathstimator Minion is a small movable window that attempts to estimate the
 - Shift + Left Click to move it.
 - Requires [MobInfo2](MobInfo2) (or an equivalent addon) to function.
 
-  -Commands:**
+**Commands:**
 
 - <code>/ls summonDeath</code>: Shows the Deathstimator frame.
 - <code>/ls dismissDeath</code>: Hides the Deathstimator frame.
 - <code>/ls hideDeathMinionOutOfCombat</code>: Toggles whether the Deathstimator frame should be hidden when you are out of combat.
 
-  -Deathstimator-Specific Mask:**
+**Deathstimator-Specific Mask:**
 - **<code>ifTimeToDeath([<=>])(%d+)s</code>**: This is the key mask in this file related to the Deathstimator. It allows users to create conditions based on the estimated time until the target's death.
   - **Syntax:** <code>ifTimeToDeath[operator][value]s</code>
   - **Operator:** Can be <code><</code>, <code>></code>, or <code>=</code>.
   - **Value:** A number representing seconds.
 
-  -Example Usage:**
+**Example Usage:**
 
 - <code>ifTimeToDeath<10s</code>: Checks if the estimated time to death is less than 10 seconds.
 - <code>ifTimeToDeath>30s</code>: Checks if the estimated time to death is greater than 30 seconds.
@@ -590,17 +590,17 @@ The Deathstimator Minion is a small movable window that attempts to estimate the
 ## **Immunity Tracking**
 LazyScript can attempt to track when a target becomes immune to certain spells based on combat log messages. This information can be used in your forms with the <code>-ifTargetImmune</code> criteria.
 
-  -Commands:**
+**Commands:**
 
 - <code>/ls useImmunitiesList</code>: Toggles whether LazyScript checks for target immunities based on the internally tracked list or detected immunities.
 - <code>/ls clearImmunitiesList</code>: Clears the list of detected immunities.
 - <code>/ls immunityExceptionCriteria</code>: Opens an editor where you can manually define exceptions to immunity checks. The format for this editor is <code>SpellName#ImmuneOn#CreatureName</code> per line. For example: <code>Cheap Shot#ImmuneOn#Example Creature</code>.
 
-  -Immunity Tracking Related Masks:**
+**Immunity Tracking Related Masks:**
 - **<code>ifTargetImmune=?(.*)$</code>**: This mask checks if the current target is immune to a specific action or any action if no action is specified.
   - **Syntax:** <code>ifTargetImmune</code> or <code>ifTargetImmune=[Action]</code>
   - **Action:** The short name of a LazyScript action (e.g., <code>gouge</code>, <code>polymorph</code>). Multiple actions can be separated by commas.
-  -Example Usage:**
+**Example Usage:**
 - <code>ifTargetImmune</code>: Checks if the target is immune to the action immediately preceding this mask in the script line.
 - <code>ifTargetImmune=gouge</code>: Checks if the target is immune to the "gouge" action.
 - <code>ifTargetImmune=polymorph,fear</code>: Checks if the target is immune to either "polymorph" or "fear".
@@ -614,9 +614,9 @@ LazyScript can attempt to track when a target becomes immune to certain spells b
 ## LazyDruid
 LazyDruid is an extension for the LazyScript addon, specifically designed to provide helpful automation and information for Druid players. 
 
-  -Note:** LazyDruid requires the LazyScript addon to be installed and enabled.
+**Note:** LazyDruid requires the LazyScript addon to be installed and enabled.
 
-  -Key Features**
+**Key Features**
 
 LazyDruid adds the following functionalities for Druids:
 
@@ -624,17 +624,17 @@ LazyDruid adds the following functionalities for Druids:
 - **Druid-Specific Actions and Forms:** Provides a comprehensive list of Druid abilities and shapeshift forms that can be used within LazyScript profiles.
 - **Druid-Specific Conditions (Masks):** Introduces conditions that are relevant to Druid gameplay, such as checking for Prowl, tracking humanoids, and predicting kill shots with Ferocious Bite.
 
-  -Ferocious Bite Tracking**
+**Ferocious Bite Tracking**
 
 LazyDruid can track the actual damage dealt by your Ferocious Bite ability at different combo point levels. This information is compared to the theoretical optimal damage to give you an idea of your performance.
 
-  -How it Works:**
+**How it Works:**
 
 - When you use Ferocious Bite, LazyDruid records the number of combo points you had.
 - When the damage from Ferocious Bite appears in your combat log, LazyDruid attempts to match it to the recorded usage based on the combo points.
 - It then calculates the average damage observed for each combo point level and compares it to the expected damage based on the spell's tooltip and your character's stats.
 
-  -Commands:**
+**Commands:**
 
 You can control the Ferocious Bite tracking feature using the following slash commands with LazyScript (assuming your LazyScript command is <code>/lazy</code>):
 
@@ -642,7 +642,7 @@ You can control the Ferocious Bite tracking feature using the following slash co
 - <code>/lazy useBiteTracking</code>: Toggles whether Ferocious Bite tracking is active.
 - <code>/lazy trackBiteCrits</code>: Toggles whether critical strikes from Ferocious Bite are included in the tracking data (including crits can skew the average damage).
 
-  -Minimap Menu Options:**
+**Minimap Menu Options:**
 
 LazyDruid adds a specific menu to the LazyScript minimap icon for Ferocious Bite options:
 
@@ -652,11 +652,11 @@ LazyDruid adds a specific menu to the LazyScript minimap icon for Ferocious Bite
   - **Ferocious Bite sample window:** Choose how many recent bites are used to calculate the average damage for each combo point level (options: Last 10, 25, 50, 100 Bites).
   - **Ferocious Bite Stats:** Displays your observed Ferocious Bite damage compared to the optimal damage for each combo point level, along with the number of bites seen for each level.
   - **Reset:** Resets the Ferocious Bite statistics (same as <code>/lazy resetBiteStats</code>).
-  -Druid Actions and Forms**
+**Druid Actions and Forms**
 
 LazyDruid defines a comprehensive list of Druid abilities and shapeshift forms that can be used in your LazyScript profiles. These are referred to by their short names within the profile syntax.
 
-  -Cat Form Abilities:**
+**Cat Form Abilities:**
 
 - <code>bite</code> (Ferocious Bite)
 - <code>claw</code> (Claw)
@@ -671,7 +671,7 @@ LazyDruid defines a comprehensive list of Druid abilities and shapeshift forms t
 - <code>tigersFury</code> (Tiger's Fury)
 - <code>trackHumanoids</code> (Track Humanoids)
 
-  -Bear Form Abilities:**
+**Bear Form Abilities:**
 
 - <code>bash</code> (Bash)
 - <code>challenge</code> (Challenging Roar)
@@ -683,7 +683,7 @@ LazyDruid defines a comprehensive list of Druid abilities and shapeshift forms t
 - <code>maul</code> (Maul)
 - <code>swipe</code> (Swipe)
 
-  -General Abilities:**
+**General Abilities:**
 
 - <code>abolishPoison</code> (Abolish Poison)
 - <code>barkskin</code> (Barkskin)
@@ -714,7 +714,7 @@ LazyDruid defines a comprehensive list of Druid abilities and shapeshift forms t
 - <code>tranquility</code> (Tranquility)
 - <code>wrath</code> (Wrath)
 
-  -Shapeshift Forms:**
+**Shapeshift Forms:**
 
 - <code>aquatic</code> (Aquatic Form)
 - <code>bear</code> (Bear Form)
@@ -723,7 +723,7 @@ LazyDruid defines a comprehensive list of Druid abilities and shapeshift forms t
 - <code>travel</code> (Travel Form)
 - <code>caster</code> (Caster Form - Pseudo-action to shift out)
 
-  -Druid Conditions (Masks)**
+**Druid Conditions (Masks)**
 
 LazyDruid introduces several conditions you can use in your LazyScript profiles to make decisions based on Druid-specific states.
 
@@ -738,11 +738,11 @@ LazyDruid introduces several conditions you can use in your LazyScript profiles 
   - Examples: <code>-if5cp</code>, <code>-if>3cp</code>, <code>-if<=4cp</code>.
 - <code>-if[Not]Tracking=Humanoids</code>: Checks if you are currently tracking humanoids.
 
-  -Custom AutoAttack**
+**Custom AutoAttack**
 
 LazyDruid modifies the default auto-attack behavior. When you are in Prowl, auto-attack will be automatically stopped to maintain stealth. When you leave Prowl, auto-attack will resume.
 
-  -Default Forms**
+**Default Forms**
 
 LazyDruid provides some example LazyScript profiles tailored for Druids:
 
@@ -752,7 +752,7 @@ LazyDruid provides some example LazyScript profiles tailored for Druids:
 
 You can use these as a starting point for creating your own custom profiles.
 
-  -Custom Help Text**
+**Custom Help Text**
 
 In addition to the standard LazyScript help, LazyDruid adds descriptions for its unique Druid-specific masks:
 
@@ -762,9 +762,9 @@ In addition to the standard LazyScript help, LazyDruid adds descriptions for its
 ## LazyHunter
 LazyHunter is an extension for the LazyScript addon, specifically designed to provide helpful automation and information for Hunter players.
 
-  -Note:** LazyHunter requires the LazyScript addon to be installed and enabled.
+**Note:** LazyHunter requires the LazyScript addon to be installed and enabled.
 
-  -Key Features**
+**Key Features**
 
 LazyHunter adds the following functionalities for Hunters:
 
@@ -772,11 +772,11 @@ LazyHunter adds the following functionalities for Hunters:
 - **Hunter-Specific Conditions (Masks):** Introduces conditions that are relevant to Hunter gameplay, such as checking pet status and aspects.
 - **Custom Auto-Attack Logic:** Modifies the default auto-attack behavior to intelligently switch between auto-shot and melee auto-attack based on range.
 
-  -Hunter and Pet Actions**
+**Hunter and Pet Actions**
 
 LazyHunter defines a comprehensive list of Hunter abilities and their corresponding pet abilities that can be used in your LazyScript profiles. These are referred to by their short names within the profile syntax.
 
-  -Hunter Abilities:**
+**Hunter Abilities:**
 
 - <code>aimed</code> (Aimed Shot)
 - <code>arcane</code> (Arcane Shot)
@@ -831,7 +831,7 @@ LazyHunter defines a comprehensive list of Hunter abilities and their correspond
 - <code>wingClip</code> (Wing Clip)
 - <code>wyvern</code> (Wyvern Sting)
 
-  -Pet Abilities:**
+**Pet Abilities:**
 
 - <code>petBite</code> (Bite)
 - <code>petBreath</code> (Lightning Breath)
@@ -849,11 +849,11 @@ LazyHunter defines a comprehensive list of Hunter abilities and their correspond
 - <code>petShell</code> (Shell Shield)
 - <code>petUnprowl</code> (Stop Prowling)
 
-  -Pseudo-Actions:**
+**Pseudo-Actions:**
 
 - <code>petDashDive</code>: A convenience action that will attempt to use Pet Dash if available and usable, otherwise attempts to use Pet Dive.
 
-  -Hunter Conditions (Masks)**
+**Hunter Conditions (Masks)**
 
 LazyHunter introduces several conditions you can use in your LazyScript profiles to make decisions based on Hunter and pet states.
 
@@ -877,14 +877,14 @@ LazyHunter introduces several conditions you can use in your LazyScript profiles
 - <code>-ifTargetIsImmune=viper</code>: Checks if the target is immune to Viper Sting.
 - <code>-ifTargetIsImmune=wyvern</code>: Checks if the target is immune to Wyvern Sting.
 
-  -Custom Auto-Attack Logic**
+**Custom Auto-Attack Logic**
 
 LazyHunter provides a more intelligent auto-attack behavior than the default LazyScript. It will automatically switch between using your ranged auto-shot and your melee auto-attack based on your distance to the target.
 
 - When the target is within ranged attack range, it will initiate auto-shot.
 - When the target is outside of ranged attack range but still within 30 yards (the Hunter's "dead zone" or melee range), it will initiate melee auto-attack.
 
-  -Default Forms**
+**Default Forms**
 
 LazyHunter provides some example LazyScript profiles tailored for Hunters:
 
@@ -894,7 +894,7 @@ LazyHunter provides some example LazyScript profiles tailored for Hunters:
 
 You can use these as a starting point for creating your own custom profiles.
 
-  -Custom Help Text**
+**Custom Help Text**
 
 In addition to the standard LazyScript help, LazyHunter adds descriptions for its unique Hunter-specific masks:
 
@@ -904,16 +904,16 @@ In addition to the standard LazyScript help, LazyHunter adds descriptions for it
 ## LazyMage
 LazyMage is an extension for the LazyScript addon, specifically designed to provide helpful automation and information for Mage players.
 
-  -Note:** LazyMage requires the LazyScript addon to be installed and enabled.
+**Note:** LazyMage requires the LazyScript addon to be installed and enabled.
 
-  -Key Features**
+**Key Features**
 
 LazyMage adds the following functionalities for Mages:
 
 - **Mage Actions:** Provides a comprehensive list of Mage abilities that can be used within LazyScript profiles.
 - **Mage-Specific Conditions (Masks):** Introduces conditions relevant to Mage gameplay, such as checking for the presence of mana stones in your inventory.
 
-  -Mage Actions**
+**Mage Actions**
 
 LazyMage defines a comprehensive list of Mage abilities that can be used in your LazyScript profiles. These are referred to by their short names within the profile syntax.
 
@@ -975,7 +975,7 @@ LazyMage defines a comprehensive list of Mage abilities that can be used in your
 - <code>teleUndercity</code> (Teleport: Undercity)
 - <code>turtle</code> (Polymorph: Turtle)
 
-  -Mage Conditions (Masks)**
+**Mage Conditions (Masks)**
 
 LazyMage introduces several conditions you can use in your LazyScript profiles to make decisions based on Mage-specific states.
 
@@ -986,7 +986,7 @@ LazyMage introduces several conditions you can use in your LazyScript profiles t
 
 These conditions are updated whenever your inventory changes (e.g., when you conjure a new stone or use one).
 
-  -Default Forms**
+**Default Forms**
 
 LazyMage provides some example LazyScript profiles tailored for Mages:
 
@@ -996,7 +996,7 @@ LazyMage provides some example LazyScript profiles tailored for Mages:
 
 You can use these as a starting point for creating your own custom profiles.
 
-  -Custom Help Text**
+**Custom Help Text**
 
 In addition to the standard LazyScript help, LazyMage adds descriptions for its unique Mage-specific masks:
 
@@ -1008,16 +1008,16 @@ In addition to the standard LazyScript help, LazyMage adds descriptions for its 
 ## LazyPaladin
 LazyPaladin is an extension for the LazyScript addon, specifically designed to provide helpful automation and information for Paladin players.
 
-  -Note:** LazyPaladin requires the LazyScript addon to be installed and enabled.
+**Note:** LazyPaladin requires the LazyScript addon to be installed and enabled.
 
-  -Key Features**
+**Key Features**
 
 LazyPaladin adds the following functionalities for Paladins:
 
 - **Paladin Actions:** Provides a comprehensive list of Paladin abilities that can be used within LazyScript profiles, including spells, blessings, seals, and auras.
 - **Paladin Aura Forms:** Introduces the concept of "Aura Forms" which can be used in profiles to switch between different Paladin Auras.
 
-  -Paladin Actions**
+**Paladin Actions**
 
 LazyPaladin defines a comprehensive list of Paladin abilities that can be used in your LazyScript profiles. These are referred to by their short names within the profile syntax.
 
@@ -1071,7 +1071,7 @@ LazyPaladin defines a comprehensive list of Paladin abilities that can be used i
 - <code>smnWarhorse</code> (Summon Warhorse)
 - <code>turnUndead</code> (Turn Undead)
 
-  -Paladin Aura Forms**
+**Paladin Aura Forms**
 
 LazyPaladin introduces specific "forms" for Paladin Auras. This allows you to include aura switching directly in your LazyScript profiles. Using an aura as a form will attempt to activate that aura.
 
@@ -1087,11 +1087,11 @@ You can use these in your profile lines like any other action or form. For examp
  <code>devAura-ifNotHasBuff=devAura</code>
 This line would attempt to cast Devotion Aura if you do not currently have the Devotion Aura buff.
 
-  -Paladin Conditions (Masks)**
+**Paladin Conditions (Masks)**
 
 As of the provided code, LazyPaladin does not introduce any unique conditions (masks) beyond the standard ones provided by LazyScript. The help text explicitly states "Currently None!". However, you can use the standard LazyScript masks in conjunction with Paladin actions and aura forms.
 
-  -Default Forms**
+**Default Forms**
 
 LazyPaladin provides some example LazyScript profiles tailored for Paladins:
 
@@ -1099,23 +1099,23 @@ LazyPaladin provides some example LazyScript profiles tailored for Paladins:
 
 You can use this as a starting point for creating your own custom profiles.
 
-  -Custom Help Text**
+**Custom Help Text**
 
 As noted in the code, the custom help text for LazyPaladin currently indicates that there are no Paladin-specific masks to describe.
 
 ## LazyPriest
 LazyPriest is an extension for the LazyScript addon, specifically designed to provide helpful automation and information for Priest players.
 
-  -Note:** LazyPriest requires the LazyScript addon to be installed and enabled.
+**Note:** LazyPriest requires the LazyScript addon to be installed and enabled.
 
-  -Key Features**
+**Key Features**
 
 LazyPriest adds the following functionalities for Priests:
 
 - **Priest Actions:** Provides a comprehensive list of Priest abilities that can be used within LazyScript profiles, including healing spells, damage spells, buffs, and utility.
 - **Shadowform Handling:** Includes a special parser for the <code>shadowform</code> action to automatically check if you are already in Shadowform.
 
-  -Priest Actions**
+**Priest Actions**
 
 LazyPriest defines a comprehensive list of Priest abilities that can be used in your LazyScript profiles. These are referred to by their short names within the profile syntax.
 
@@ -1168,7 +1168,7 @@ LazyPriest defines a comprehensive list of Priest abilities that can be used in 
 - <code>touchWeakness</code> (Touch of Weakness)
 - <code>vampiricEmbrace</code> (Vampiric Embrace)
 
-  -Special Priest Action: Shadowform**
+**Special Priest Action: Shadowform**
 
 The <code>shadowform</code> action has a special parser that automatically checks if you are already in Shadowform. When you include <code>shadowform</code> in a profile line, LazyPriest will automatically add a condition to only cast it if you are *not* currently in Shadowform.
 
@@ -1178,11 +1178,11 @@ is internally treated by LazyPriest as something similar to:
  <code>shadowform-ifNotHasBuff=shadowform@player</code>
 This makes it easier to include Shadowform activation in your profiles without needing to manually add the check.
 
-  -Priest Conditions (Masks)**
+**Priest Conditions (Masks)**
 
 As of the provided code, LazyPriest does not introduce any unique conditions (masks) beyond the standard ones provided by LazyScript. The help text explicitly states "Currently None!". However, you can use the standard LazyScript masks in conjunction with Priest actions.
 
-  -Default Forms**
+**Default Forms**
 
 LazyPriest provides some example LazyScript profiles tailored for Priests:
 
@@ -1190,16 +1190,16 @@ LazyPriest provides some example LazyScript profiles tailored for Priests:
 
 You can use this as a starting point for creating your own custom profiles.
 
-  -Custom Help Text**
+**Custom Help Text**
 
 As noted in the code, the custom help text for LazyPriest currently indicates that there are no Priest-specific masks to describe.
 
 ## LazyRogue
 LazyRogue is an extension for the LazyScript addon, specifically designed to provide helpful automation and information for Rogue players.
 
-  -Note:** LazyRogue requires the LazyScript addon to be installed and enabled.
+**Note:** LazyRogue requires the LazyScript addon to be installed and enabled.
 
-  -Key Features**
+**Key Features**
 
 LazyRogue adds the following functionalities for Rogues:
 
@@ -1211,7 +1211,7 @@ LazyRogue adds the following functionalities for Rogues:
 - **Poison Application:** Provides a method to apply poisons to your weapons directly from your profile.
 - **Importing Old Settings:** Includes functionality to import settings and forms from older versions of LazyRogue.
 
-  -Rogue Actions**
+**Rogue Actions**
 
 LazyRogue defines a comprehensive list of Rogue abilities that can be used in your LazyScript profiles. These are referred to by their short names within the profile syntax.
 
@@ -1246,7 +1246,7 @@ LazyRogue defines a comprehensive list of Rogue abilities that can be used in yo
 - <code>sa</code> (Surprise Attack)
 - <code>vanish</code> (Vanish)
 
-  -Combo Actions**
+**Combo Actions**
 
 LazyRogue allows you to combine certain abilities that are often used together into a single "combo action" in your profile.
 
@@ -1257,7 +1257,7 @@ You can use these in your profile lines like any other action. For example:
  <code>cbEvisc-5cp-ifCbKillShot</code>
 This line would attempt to use Cold Blood and then Eviscerate if you have 5 combo points and the target is estimated to die from the Cold Blood Eviscerate (using the <code>ifCbKillShot</code> mask).
 
-  -Item Actions**
+**Item Actions**
 
 LazyRogue currently supports using Thistle Tea directly from your profile.
 
@@ -1267,14 +1267,14 @@ Example usage in a profile:
  <code>tea-ifPlayer<20energy</code>
 This line would attempt to use Thistle Tea if your energy is below 20.
 
-  -Special Rogue Actions and Parsers**
+**Special Rogue Actions and Parsers**
 
 Several Rogue abilities have special handling in LazyRogue profiles:
 
 - **Ambush, Backstab, Feint, Garrote, Gouge, Kick:** These actions have parsers that automatically include a check for the target being alive (<code>ifTargetAlive</code>) or the player being in a group (<code>ifPlayerInGroup</code> for Feint).
 - **Stealth:** The <code>stealth</code> action parser automatically includes a condition to only cast it if you are *not* currently stealthed.
 
-  -Eviscerate Tracking**
+**Eviscerate Tracking**
 
 LazyRogue includes an Eviscerate tracking system. It hooks into your combat log to record the damage dealt by your Eviscerate based on the number of combo points used. This observed damage is then compared to the theoretically optimal damage for that rank of Eviscerate and your talents.
 
@@ -1284,7 +1284,7 @@ LazyRogue includes an Eviscerate tracking system. It hooks into your combat log 
 - **Crit Inclusion:** You can choose whether or not to include critical Eviscerate hits in the average damage calculation. Including crits may skew the average, especially for the <code>ifKillShot</code> mask.
 - **Sample Window:** You can configure the number of recent Eviscerates to include in the average calculation.
 
-  -Custom Rogue Conditions (Masks)**
+**Custom Rogue Conditions (Masks)**
 
 LazyRogue introduces several conditions (masks) that are specific to Rogues. These can be used in your LazyScript profile lines to add more complex logic.
 
@@ -1292,7 +1292,7 @@ LazyRogue introduces several conditions (masks) that are specific to Rogues. The
 - <code>-if[Not]Stealthed</code>: Checks if you are currently in Stealth.
 - <code>-if[{<,=,>}]Xcp</code>: Checks your current combo points. Replace <code>{<,=,>}</code> with <code><</code>, <code>=</code>, or <code>></code> to check if your combo points are less than, equal to, or greater than <code>X</code>, where <code>X</code> is a number (1-5). If no operator is provided, it defaults to <code>>=</code>.
 
-  -Examples**:
+**Examples**:
 
 - <code>-if5cp</code>: True if you have 5 or more combo points.
 - <code>-if=3cp</code>: True if you have exactly 3 combo points.
@@ -1305,13 +1305,13 @@ LazyRogue introduces several conditions (masks) that are specific to Rogues. The
   - <code>ifLastChance</code>: Uses a default fudge factor of 0.25 seconds.
   - <code>ifLastChancePlusX.Xs</code>: Adds an additional <code>X</code> seconds to the tick timing for the check. Replace <code>X</code> with a number.
 
-  -Applying Poisons**
+**Applying Poisons**
 
 LazyRogue provides a specific action syntax for applying poisons:
 
 - <code>applyPoison{MainHand,OffHand}=<poison></code>: Attempts to apply the specified <code><poison></code> to your <code>MainHand</code> or <code>OffHand</code> weapon. Replace <code>{MainHand,OffHand}</code> with either <code>MainHand</code> or <code>OffHand</code>, and <code><poison></code> with the exact name of the poison item in your inventory (e.g., <code>applyPoisonMainHand=Instant Poison</code>).
 
-  -Default Forms**
+**Default Forms**
 
 LazyRogue provides several example LazyScript profiles tailored for Rogues:
 
@@ -1322,7 +1322,7 @@ LazyRogue provides several example LazyScript profiles tailored for Rogues:
 
 You can use these as starting points for creating your own custom profiles.
 
-  -Custom Command Line Arguments**
+**Custom Command Line Arguments**
 
 LazyRogue adds the following commands to the LazyScript command-line interface (<code>/ls</code> or <code>/lazyscript</code>):
 
@@ -1332,7 +1332,7 @@ LazyRogue adds the following commands to the LazyScript command-line interface (
 - <code>/ls importOldForms</code>: Attempts to import forms from older versions of LazyRogue.
 - <code>/ls convertOldForm <formName></code>: Attempts to convert a specific form from the older LazyRogue syntax to the current one. Replace <code><formName></code> with the name of the form you want to convert.
 
-  -Custom Minimap Menu Entries**
+**Custom Minimap Menu Entries**
 
 LazyRogue adds an "Eviscerate Options" submenu to the LazyScript minimap button menu. This menu allows you to:
 
@@ -1345,19 +1345,19 @@ LazyRogue adds an "Eviscerate Options" submenu to the LazyScript minimap button 
 ## LazyShaman
 LazyShaman is an extension for the LazyScript addon, specifically designed to provide helpful automation and information for Shaman players.
 
-  -Note:** LazyShaman requires the LazyScript addon to be installed and enabled.
+**Note:** LazyShaman requires the LazyScript addon to be installed and enabled.
 
-  -Key Features**
+**Key Features**
 
 LazyShaman adds the following functionalities for Shamans:
 
 - **Shaman Actions:** Provides a comprehensive list of Shaman abilities that can be used within LazyScript profiles, including elemental spells, healing spells, weapon enhancements, and totems.
 
-  -Shaman Actions**
+**Shaman Actions**
 
 LazyShaman defines a comprehensive list of Shaman abilities that can be used in your LazyScript profiles. These are referred to by their short names within the profile syntax.
 
-  -Elemental Spells:**
+**Elemental Spells:**
 
 - <code>earthShock</code> (Earth Shock)
 - <code>flameShock</code> (Flame Shock)
@@ -1367,7 +1367,7 @@ LazyShaman defines a comprehensive list of Shaman abilities that can be used in 
 - <code>lightShield</code> (Lightning Shield)
 - <code>purge</code> (Purge)
 
-  -Healing Spells:**
+**Healing Spells:**
 
 - <code>chainHeal</code> (Chain Heal)
 - <code>heal</code> (Healing Wave)
@@ -1375,21 +1375,21 @@ LazyShaman defines a comprehensive list of Shaman abilities that can be used in 
 - <code>cureDisease</code> (Cure Disease)
 - <code>curePoison</code> (Cure Poison)
 
-  -Weapon Enhancements:**
+**Weapon Enhancements:**
 
 - <code>rockbiter</code> (Rockbiter Weapon)
 - <code>flametongue</code> (Flametongue Weapon)
 - <code>frostbrand</code> (Frostbrand Weapon)
 - <code>windfury</code> (Windfury Weapon)
 
-  -Utility Spells:**
+**Utility Spells:**
 
 - <code>elemMastery</code> (Elemental Mastery)
 - <code>ghostWolf</code> (Ghost Wolf)
 - <code>natureSwift</code> (Nature's Swiftness)
 - <code>stormstrike</code> (Stormstrike)
 
-  -Totems:**
+**Totems:**
 
 - <code>diseaseTotem</code> (Disease Cleansing Totem)
 - <code>bindTotem</code> (Earthbind Totem)
@@ -1419,15 +1419,15 @@ You can use these action names in your profile lines like any other LazyScript a
  <code>lightBolt-ifInCombat</code>
 This line would attempt to cast Lightning Bolt if you are in combat.
 
-  -Special Shaman Actions and Parsers**
+**Special Shaman Actions and Parsers**
 
 As of the provided code, LazyShaman does not include any special parsers for specific Shaman actions that add implicit conditions (like the Rogue's Stealth parser).
 
-  -Shaman Conditions (Masks)**
+**Shaman Conditions (Masks)**
 
 As of the provided code, LazyShaman does not introduce any unique conditions (masks) beyond the standard ones provided by LazyScript. The help text explicitly states "Currently None!". However, you can use the standard LazyScript masks in conjunction with Shaman actions.
 
-  -Default Forms**
+**Default Forms**
 
 LazyShaman provides some example LazyScript profiles tailored for Shamans:
 
@@ -1436,16 +1436,16 @@ LazyShaman provides some example LazyScript profiles tailored for Shamans:
 
 You can use these as starting points for creating your own custom profiles.
 
-  -Custom Help Text**
+**Custom Help Text**
 
 As noted in the code, the custom help text for LazyShaman currently indicates that there are no Shaman-specific actions or masks to describe beyond what's listed.
 
 ## LazyWarlock
 LazyWarlock is an extension for the LazyScript addon, specifically designed to provide helpful automation and information for Warlock players.
 
-  -Note:** LazyWarlock requires the LazyScript addon to be installed and enabled.
+**Note:** LazyWarlock requires the LazyScript addon to be installed and enabled.
 
-  -Key Features**
+**Key Features**
 
 LazyWarlock adds the following functionalities for Warlocks:
 
@@ -1456,11 +1456,11 @@ LazyWarlock adds the following functionalities for Warlocks:
 - **Custom Warlock Conditions (Masks):** Introduces several Warlock-specific conditions for use in profiles, such as checking for stones, soul shards, and "kill shot" opportunities with Conflagrate.
 - **Banishable/Shardable Target Checks:** Provides conditions to check if your current target is a valid target for Banish or Drain Soul (for Soul Shards).
 
-  -Warlock Actions**
+**Warlock Actions**
 
 LazyWarlock defines a comprehensive list of Warlock abilities that can be used in your LazyScript profiles. These are referred to by their short names within the profile syntax.
 
-  -Spells:**
+**Spells:**
 
 - <code>amplifyCurse</code> (Amplify Curse)
 - <code>banish</code> (Banish)
@@ -1504,7 +1504,7 @@ LazyWarlock defines a comprehensive list of Warlock abilities that can be used i
 - <code>soulFire</code> (Soul Fire)
 - <code>soulLink</code> (Soul Link)
 
-  -Summoning Spells:**
+**Summoning Spells:**
 
 - <code>summonDread</code> (Summon Dreadsteed)
 - <code>summonFel</code> (Summon Felhunter)
@@ -1513,7 +1513,7 @@ LazyWarlock defines a comprehensive list of Warlock abilities that can be used i
 - <code>summonSuc</code> (Summon Succubus)
 - <code>summonVW</code> (Summon Voidwalker)
 
-  -Stone Creation Spells:**
+**Stone Creation Spells:**
 
 - <code>createFire</code> (Create Firestone)
 - <code>createGreaterFire</code> (Create Firestone (Greater))
@@ -1537,32 +1537,32 @@ You can use these action names in your profile lines like any other LazyScript a
  <code>shadowBolt-ifInCombat</code>
 This line would attempt to cast Shadow Bolt if you are in combat.
 
-  -Pet Actions**
+**Pet Actions**
 
 LazyWarlock provides actions for controlling your Warlock pet and using its abilities. These actions automatically include checks to ensure you have a pet, the pet is alive, and the pet is of the correct family for the ability.
 
-  -Imp Actions:**
+**Imp Actions:**
 
 - <code>bloodPact</code> (Blood Pact)
 - <code>firebolt</code> (Firebolt)
 - <code>phaseShift</code> (Phase Shift)
 - <code>fireShield</code> (Fire Shield)
 
-  -Voidwalker Actions:**
+**Voidwalker Actions:**
 
 - <code>consumeShadows</code> (Consume Shadows)
 - <code>sacrifice</code> (Sacrifice)
 - <code>suffering</code> (Suffering)
 - <code>torment</code> (Torment)
 
-  -Succubus Actions:**
+**Succubus Actions:**
 
 - <code>seduction</code> (Seduction)
 - <code>lesserInvisibility</code> (Lesser Invisibility)
 - <code>lashPain</code> (Lash of Pain)
 - <code>soothingKiss</code> (Soothing Kiss)
 
-  -Felhunter Actions:**
+**Felhunter Actions:**
 
 - <code>taintedBlood</code> (Tainted Blood)
 - <code>spellLock</code> (Spell Lock)
@@ -1573,7 +1573,7 @@ Example usage in a profile:
  <code>firebolt-ifTargetHostile-ifPetAlive</code>
 This line would attempt to have your Imp cast Firebolt if you have a living pet, the pet is an Imp, and your target is hostile.
 
-  -Special Warlock Actions and Parsers**
+**Special Warlock Actions and Parsers**
 
 Several Warlock abilities have special handling in LazyWarlock profiles:
 
@@ -1583,13 +1583,13 @@ Several Warlock abilities have special handling in LazyWarlock profiles:
 - **Enslave Demon:** The <code>enslave</code> parser automatically includes a check to ensure the target is a Demon.
 - **Conflagrate:** The <code>conflagrate</code> parser automatically includes a check to ensure the target has the Immolate debuff active.
 
-  -Stone and Soul Shard Tracking**
+**Stone and Soul Shard Tracking**
 
 LazyWarlock automatically tracks whether you have at least one Healthstone, Soulstone, or Firestone in your bags or equipped (for Firestone). It also counts the total number of Soul Shards you have. This information is used by the Warlock-specific masks.
 
 The tracking is updated whenever your bags are updated (<code>BAG_UPDATE</code> event).
 
-  -Custom Warlock Conditions (Masks)**
+**Custom Warlock Conditions (Masks)**
 
 LazyWarlock introduces several conditions (masks) that are specific to Warlocks. These can be used in your LazyScript profile lines to add more complex logic.
 
@@ -1606,7 +1606,7 @@ Examples:
 - <code>-if<3Shards</code>: True if you have less than 3 Soul Shards.
 - <code>-if[Not]TargetShardable</code>: Checks if your current target is a valid target from which you can obtain a Soul Shard using Drain Soul. This includes checks for the target being trivial, tapped by you, attackable, and not dead.
 
-  -Default Forms**
+**Default Forms**
 
 LazyWarlock provides some example LazyScript profiles tailored for Warlocks:
 
@@ -1617,16 +1617,16 @@ LazyWarlock provides some example LazyScript profiles tailored for Warlocks:
 
 You can use these as starting points for creating your own custom profiles.
 
-  -Custom Help Text**
+**Custom Help Text**
 
 The custom help text for LazyWarlock focuses on the unique Warlock-specific masks available for use in profiles.
 
 ## LazyWarrior
 LazyWarrior is an extension for the LazyScript addon, specifically designed to provide helpful automation and information for Warrior players.
 
-  -Note:** LazyWarrior requires the LazyScript addon to be installed and enabled.
+**Note:** LazyWarrior requires the LazyScript addon to be installed and enabled.
 
-  -Key Features**
+**Key Features**
 
 LazyWarrior adds the following functionalities for Warriors:
 
@@ -1636,11 +1636,11 @@ LazyWarrior adds the following functionalities for Warriors:
 - **Bloodthirst Kill Shot:** Offers a mask to determine if your Bloodthirst is likely to be a killing blow.
 - **Shield Equipped Check:** Provides a mask to check if you have a shield equipped.
 
-  -Warrior Actions**
+**Warrior Actions**
 
 LazyWarrior defines a comprehensive list of Warrior abilities that can be used in your LazyScript profiles. These are referred to by their short names within the profile syntax.
 
-  -Combat Abilities:**
+**Combat Abilities:**
 
 - <code>bloodrage</code> (Bloodrage)
 - <code>charge</code> (Charge)
@@ -1666,7 +1666,7 @@ LazyWarrior defines a comprehensive list of Warrior abilities that can be used i
 - <code>thunderClap</code> (Thunder Clap)
 - <code>whirlwind</code> (Whirlwind)
 
-  -Shouts:**
+**Shouts:**
 
 - <code>battleShout</code> (Battle Shout)
 - <code>challengingShout</code> (Challenging Shout)
@@ -1675,13 +1675,13 @@ LazyWarrior defines a comprehensive list of Warrior abilities that can be used i
 - <code>piercingHowl</code> (Piercing Howl)
 - <code>taunt</code> (Taunt)
 
-  -Stances:**
+**Stances:**
 
 - <code>battle</code> (Battle Stance) - Note: This is a shapeshift action.
 - <code>defensive</code> (Defensive Stance) - Note: This is a shapeshift action.
 - <code>berserk</code> (Berserker Stance) - Note: This is a shapeshift action.
 
-  -Cooldowns:**
+**Cooldowns:**
 
 - <code>berserkerRage</code> (Berserker Rage)
 - <code>deathWish</code> (Death Wish)
@@ -1694,18 +1694,18 @@ You can use these action names in your profile lines like any other LazyScript a
  <code>heroicStrike-ifInCombat</code>
 This line would attempt to use Heroic Strike if you are in combat.
 
-  -Special Warrior Actions and Parsers**
+**Special Warrior Actions and Parsers**
 
 - **Slam:** The <code>slam</code> parser automatically includes the <code>IsSlamTime</code> mask, which helps ensure you use Slam when it's most effective (usually when your weapon swing timer is close to finishing).
 - **Stances:** The stance actions (<code>battle</code>, <code>defensive</code>, <code>berserk</code>) are handled as shapeshift forms. Using one of these actions in a profile will attempt to switch to that stance.
 
-  -Custom Warrior Conditions (Masks)**
+**Custom Warrior Conditions (Masks)**
 
 LazyWarrior introduces several conditions (masks) that are specific to Warriors. These can be used in your LazyScript profile lines to add more complex logic.
 
 <code>-if[Fury]BloodthirstKillShot[XX%hp]</code>: Checks if casting Bloodthirst is likely to reduce the target's health below <code>XX%hp</code>. The <code>Fury</code> prefix is not used in the current implementation but might be intended for future use to consider talents or effects. Replace <code>XX%hp</code> with a percentage value (e.g., <code>20%hp</code>) to check if Bloodthirst will bring the target below that health threshold. This is useful for timing Bloodthirst as a finishing move. If no percentage is specified, it defaults to checking if Bloodthirst will kill the target (bring them below 0% hp).
 
-  -Example**:
+**Example**:
  <code>bloodthirst-ifBloodthirstKillShot20%hp</code>
 This line would attempt to use Bloodthirst if the target's health is likely to drop below 20% after the Bloodthirst damage.
 
@@ -1716,11 +1716,11 @@ This line would attempt to use Bloodthirst if the target's health is likely to d
 
 - <code>-if[Not]ShieldEquipped</code>: Checks if you have a shield equipped in your offhand. This is particularly useful for abilities like Shield Bash and Shield Slam.
 
-  -Example**:
+**Example**:
  <code>shieldBash-ifShieldEquipped-ifTargetIsCasting</code>
 This line would attempt to use Shield Bash if you have a shield equipped and your target is casting a spell.
 
-  -Default Forms**
+**Default Forms**
 
 LazyWarrior provides some example LazyScript profiles tailored for Warriors:
 
@@ -1728,7 +1728,7 @@ LazyWarrior provides some example LazyScript profiles tailored for Warriors:
 
 You can use this as a starting point for creating your own custom profiles.
 
-  -Custom Help Text**
+**Custom Help Text**
 
 The custom help text for LazyWarrior focuses on the unique Warrior-specific masks available for use in profiles.
 

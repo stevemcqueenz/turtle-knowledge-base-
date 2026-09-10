@@ -10,4 +10,4 @@ categories: ["Furbolg territories", "Gnarlpine", "Pages with broken file links",
 ---
 # Gnarlpine Hold
 
--Gnarlpine Hold**[43, 65.2] lies in the far southwest corner of [Teldrassil](Teldrassil).
+**Gnarlpine Hold**[43, 65.2] lies in the far southwest corner of [Teldrassil](Teldrassil).

@@ -25,7 +25,7 @@ categories: ["Faction quartermasters", "Human characters", "Removed Scarlet Mona
 | location | Scarlet Monastery |
 | status | Unknown |
 
--Avum Brightplace** was the quartermaster for the [Scarlet Crusade](Scarlet Crusade) and was located inside the [Cathedral](Scarlet Monastery Cathedral) wing of the [Scarlet Monastery](Scarlet Monastery). He was the only source for the [Gilded Scarlet Crusade Tabard](Gilded Scarlet Crusade Tabard), which could be bought by a player in ownership of the [Corrupted Ashbringer](Corrupted Ashbringer).
+**Avum Brightplace** was the quartermaster for the [Scarlet Crusade](Scarlet Crusade) and was located inside the [Cathedral](Scarlet Monastery Cathedral) wing of the [Scarlet Monastery](Scarlet Monastery). He was the only source for the [Gilded Scarlet Crusade Tabard](Gilded Scarlet Crusade Tabard), which could be bought by a player in ownership of the [Corrupted Ashbringer](Corrupted Ashbringer).
 
 ## Patch changes
--  **[Hotfix](https://forum.turtlecraft.gg/viewtopic.php?f=63&t=10969) (2023-10-18):** Removed.
+- **[Hotfix](https://forum.turtlecraft.gg/viewtopic.php?f=63&t=10969) (2023-10-18):** Removed.

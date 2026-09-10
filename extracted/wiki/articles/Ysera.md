@@ -27,7 +27,7 @@ categories: ["Green dragons", "Hyjal NPCs", "Turtle WoW content"]
 | status | Alive |
 | relatives | Alexstrasza (sister),, Merithra (daughter) |
 
--Ysera the Dreamer** is one of the five [Dragon Aspects](Dragon Aspects) and the leader of the [green dragonflight](green dragonflight).
+**Ysera the Dreamer** is one of the five [Dragon Aspects](Dragon Aspects) and the leader of the [green dragonflight](green dragonflight).
 
 ## Biography
 ### The Charge of the Dragonflights

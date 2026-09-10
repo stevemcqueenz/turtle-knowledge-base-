@@ -25,13 +25,13 @@ categories: ["Human characters", "Northwind NPCs", "Quest givers", "Stormwind (k
 | location | Lion's Watch, Northwind |
 | status | Alive |
 
--Leon Cassidy** is a [human](human) quest giver located at [Lion's Watch](Lion's Watch) in [Northwind](Northwind).
+**Leon Cassidy** is a [human](human) quest giver located at [Lion's Watch](Lion's Watch) in [Northwind](Northwind).
 
 ## Quests
 - [quest: Leaf's Bounty] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 In all my years as a merchant have I seen such a disaster. A shameful display for Stormwind.
 
 ## Patch changes

@@ -25,16 +25,16 @@ categories: ["Dun Morogh NPCs", "Dwarf characters", "Mage trainers", "Quest ende
 | location | Anvilmar, Dun Morogh |
 | status | Alive |
 
--Marrek Stromnur** is a [dwarf](dwarf) warlock trainer located in [Anvilmar](Anvilmar) in [Dun Morogh](Dun Morogh).
+**Marrek Stromnur** is a [dwarf](dwarf) warlock trainer located in [Anvilmar](Anvilmar) in [Dun Morogh](Dun Morogh).
 
 ## Quests
 - [quest: Glyphic Rune|race=dwarf|class=mage] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Greetings. I'm a mage trainer, and you're a mage.
 
-  -Non-mage gossip**
+**Non-mage gossip**
 Well met, <class>. You want some advice? Befriend a mage! We have a trick or two up our sleeves, we do...
 
 ## Patch changes

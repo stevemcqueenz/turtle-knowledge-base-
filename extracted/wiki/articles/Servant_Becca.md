@@ -24,10 +24,10 @@ categories: ["Human characters", "Northwind NPCs", "Turtle WoW content"]
 | location | Amberwood Keep, Northwind |
 | status | Alive |
 
--Servant Becca** is a [human](human) located at [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind).
+**Servant Becca** is a [human](human) located at [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 So much to do, so little time. Please, don't make a mess while you are here!
 
 ## Patch changes

@@ -15,26 +15,26 @@ Toggles auto-attacking of the player's current target.
  AttackTarget();
 </syntaxhighlight>
 ----
-  -*Arguments***
+***Arguments***
 
   *none*
 
 ----
-  -*Returns***
+***Returns***
 
   ;nil
 
 ----
-  -*Example***
+***Example***
 <syntaxhighlight lang="lua">
  AttackTarget();
 </syntaxhighlight>
 
-  -*Result***
+***Result***
 If you were swinging your melee weapon at your target, you'll stop. If you weren't, you'll start.
 
 ----
-  -*Description***
+***Description***
 
    This is actually a toggle.  If not currently attacking, it will initiate attack.  If currently attacking, it will stop attacking.
    You can test your current attack "Action slot" using [IsCurrentAction(actionSlot)](API_IsCurrentAction) for status (you'll have to find the auto-attack slot, though).

@@ -14,7 +14,7 @@ GetWeaponEnchantInfo();
 
 This appears to be used for handling TEMPORARY enchants to weapons - like POISONS.  Also appears to be self-only.
 
-  - Returns**
+** Returns**
 
 hasMainHandEnchant, mainHandExpiration, mainHandCharges, hasOffHandEnchant, offHandExpiration, offHandCharges<syntaxhighlight lang="lua">
 hasMainHandEnchant = 1(true) or nil

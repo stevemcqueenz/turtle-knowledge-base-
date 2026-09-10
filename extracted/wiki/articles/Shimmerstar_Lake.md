@@ -11,7 +11,7 @@ categories: ["Draenei territories", "Lakes", "Moonwhisper Coast subzones", "Turt
 # Shimmerstar Lake
 
 on the central islands.]]
-  -Shimmerstar Lake** is situated in southern [Moonwhisper Coast](Moonwhisper Coast). On the islands is located [Moro'gai Village](Moro'gai Village), home to the [draenei](draenei) of the [Moro'gai tribe](Moro'gai tribe).
+**Shimmerstar Lake** is situated in southern [Moonwhisper Coast](Moonwhisper Coast). On the islands is located [Moro'gai Village](Moro'gai Village), home to the [draenei](draenei) of the [Moro'gai tribe](Moro'gai tribe).
 
 ## Trivia
 - The flight map refers to [Moro'gai Village](Moro'gai Village)'s flight point as being Shimmerstar Lake.

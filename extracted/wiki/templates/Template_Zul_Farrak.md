@@ -42,33 +42,33 @@ categories: ["Instance navigation templates"]
 
 [Chief Ukorz Sandscalp](Ukorz Sandscalp)
 |
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 |-
 | class="title" colspan="2" | **NPCs**
 |-

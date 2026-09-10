@@ -24,37 +24,10 @@ The Goblin rocket is a reference to a pod racer in Star Wars 1.
 
 ## NPCs
 ### Merchants
-- 
-- 
-- 
-- 
-- 
-
-### Other Characters
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
--  ([Nazz Steamboil](Nazz Steamboil))
-- 
-- 
-- 
--  (not ingame)
-- 
-- 
-- 
- 
-## Gallery
+- - - - - ### Other Characters
+- - - - - - - - - - - - - - - ([Nazz Steamboil](Nazz Steamboil))
+- - - - (not ingame)
+- - - ## Gallery
 <gallery>
 Image: Gnome carcrash.jpg|Gnome Drag Car crashed as far away as [Tanaris](Tanaris).
 Image: Goblin carcrash.jpg|Goblin Drag Car crashed into the cliff of [Shimmering Flats](Shimmering Flats).

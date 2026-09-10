@@ -25,7 +25,7 @@ categories: ["Druid characters", "Feralas NPCs", "Night elf characters", "Quest 
 | location | Thalanaar, Feralas |
 | status | Alive |
 
--Falfindel Waywarder** is a [night elf](night elf) [quest giver](quest giver) found at [Thalanaar](Thalanaar) in [Feralas](Feralas).
+**Falfindel Waywarder** is a [night elf](night elf) [quest giver](quest giver) found at [Thalanaar](Thalanaar) in [Feralas](Feralas).
 
 ## Quests
 - [quest: Lonebrow's Journal] 
@@ -34,7 +34,7 @@ categories: ["Druid characters", "Feralas NPCs", "Night elf characters", "Quest 
 - [quest: Thalanaar Delivery] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 You look as though you have traveled from afar, <race>.
 
 ## References

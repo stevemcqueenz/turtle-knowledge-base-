@@ -10,7 +10,7 @@ categories: ["Alliance Towns", "Human territories", "Pages with broken file link
 ---
 # Ambermill
 
--Ambermill** is a human village located slightly southwest of Lordamere Lake. It is occupied by forces of the [Kirin Tor](Kirin Tor), who are still considered to be part of the [Alliance](Alliance). 
+**Ambermill** is a human village located slightly southwest of Lordamere Lake. It is occupied by forces of the [Kirin Tor](Kirin Tor), who are still considered to be part of the [Alliance](Alliance). 
 
 Prior to the advent of the [Third War](Third War), Ambermill was a relatively unimportant site in western [Dalaran](Dalaran), but following the rampage of the [Scourge](Scourge) and [Burning Legion](Burning Legion) through the northlands, the rebuilding wizards of Dalaran began to form plans for the strategic use of the hamlet. Ambermill was located atop a dormant ley energy node, and in order to combat the [Forsaken](Forsaken) and other menaces, the Kirin Tor has attempted to reactivate the node. 
 

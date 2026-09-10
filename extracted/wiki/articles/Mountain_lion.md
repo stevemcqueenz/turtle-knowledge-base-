@@ -10,6 +10,6 @@ categories: ["Cats", "Creatures", "Pages with broken file links"]
 ---
 # Mountain lion
 
--Mountain Lions** are found usually in the mountains, mostly in [Alterac Mountains](Alterac Mountains) and [Hillsbrad Foothills](Hillsbrad Foothills).
+**Mountain Lions** are found usually in the mountains, mostly in [Alterac Mountains](Alterac Mountains) and [Hillsbrad Foothills](Hillsbrad Foothills).
 
 These cats are about 4 feet long and weigh about 120 pounds. They usually hunt at night.

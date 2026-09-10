@@ -56,9 +56,9 @@ Uda'pe was right to send you to me. Though we are not very fond of working with 
 I will even add a bonus for being so silent and respectful—Uda'pe taught you well.
 
 ## Progression
-1.[quest: Living Fungus]
-1.[quest: Mycellakos]
-1.[quest: The Matron Will Know]
+1. [quest: Living Fungus]
+1. [quest: Mycellakos]
+1. [quest: The Matron Will Know]
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

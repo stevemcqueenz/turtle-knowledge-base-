@@ -26,7 +26,7 @@ categories: ["Lapidis Isle mobs", "Sea giants", "Turtle WoW content"]
 | location | Lapidis Isle |
 | relatives | Margon the Mighty (father) |
 
--Hargul the Hardy** is a [sea giant](sea giant) located on an island off the western coast of [Lapidis Isle](Lapidis Isle).
+**Hargul the Hardy** is a [sea giant](sea giant) located on an island off the western coast of [Lapidis Isle](Lapidis Isle).
 
 ## Objective of
 - Drops [Aqua Stone](Aqua Stone) for [quest: The Aqua Stone].

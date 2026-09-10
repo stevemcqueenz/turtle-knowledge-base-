@@ -26,10 +26,10 @@ categories: ["Dwarf characters", "Ironforge NPCs", "Turtle WoW content"]
 | location | Mystic Ward, Ironforge |
 | status | Alive |
 
--Magna Runecleave** is a [dwarf](dwarf) located in the [Mystic Ward](Mystic Ward) in [Ironforge](Ironforge).
+**Magna Runecleave** is a [dwarf](dwarf) located in the [Mystic Ward](Mystic Ward) in [Ironforge](Ironforge).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I am solemnly sworn to defend the interests of my lord.
 
 ## Patch changes

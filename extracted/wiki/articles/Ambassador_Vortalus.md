@@ -24,20 +24,20 @@ categories: ["Air elementals", "Bosses", "Turtle WoW content", "Windhorn Canyon 
 | status | Killable |
 | instance | Windhorn Canyon |
 
--Ambassador Vortalus** is a boss in [Windhorn Canyon](Windhorn Canyon).
+**Ambassador Vortalus** is a boss in [Windhorn Canyon](Windhorn Canyon).
 
 ## Abilities
 - Gust of Wind
 - Chain Lightning
 
 ## Quotes
-  -Aggro**
+**Aggro**
   Behold the howling wind!
 
-  -At 50%**
+**At 50%**
   We seek unity...
 
-  -Death**
+**Death**
   Disperse...
 
 ## Objective of

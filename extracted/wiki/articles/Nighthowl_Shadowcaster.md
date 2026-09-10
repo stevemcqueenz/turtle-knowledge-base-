@@ -23,7 +23,7 @@ categories: ["Gilneas mobs", "Turtle WoW content", "Worgen characters"]
 | location | Gilneas |
 | status | Killable |
 
--Nighthowl Shadowcasters** are worgen found in [Gilneas](Gilneas).
+**Nighthowl Shadowcasters** are worgen found in [Gilneas](Gilneas).
 
 ## Abilities
 - Shadow Bolt

@@ -14,7 +14,7 @@ Retrieve info about a certain player buff of a certain type.
  buffTexture = GetPlayerBuffTexture(buffIndex)
 ----
 
-  - ***Arguments*****
+** ***Arguments*****
 
    (Number buffIndex)
 
@@ -23,7 +23,7 @@ Retrieve info about a certain player buff of a certain type.
 
 ----
 
-  - ***Returns*****
+** ***Returns*****
 
    (String buffTexture)
 
@@ -32,16 +32,16 @@ Retrieve info about a certain player buff of a certain type.
 
 ----
 
-  - ***Example*****
+** ***Example*****
 
  icon:SetTexture(GetPlayerBuffTexture(buffIndex))
 
-  - ***Result*****
+** ***Result*****
 
 Retrieves buff texture and sets the icons texture to that.
 ----
 
-  - ***Description*****
+** ***Description*****
 
    Retrieves the texture name of a certain buff.
 

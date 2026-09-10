@@ -21,8 +21,8 @@ categories: ["Human characters", "Lore characters", "Readable objects", "Scarlet
 | occupation | The first captain general of the Scarlet Crusade |
 | status | Unknown |
 
--Orman of Stromgarde** has a large statue erected in his honor in the [Hall of Champions](Hall of Champions) of the [Scarlet Monastery](Scarlet Monastery) in the [Tirisfal Glades](Tirisfal Glades). His current status is unknown, but he was lost at the mouth of [Icecrown Glacier](Icecrown Glacier).
+**Orman of Stromgarde** has a large statue erected in his honor in the [Hall of Champions](Hall of Champions) of the [Scarlet Monastery](Scarlet Monastery) in the [Tirisfal Glades](Tirisfal Glades). His current status is unknown, but he was lost at the mouth of [Icecrown Glacier](Icecrown Glacier).
 
 ## Plaque
 ## Trivia
--The rank of "Captain General" denotes a full general. It also existed in various European armies, with the word "captain" simply being dropped over time.
+- The rank of "Captain General" denotes a full general. It also existed in various European armies, with the word "captain" simply being dropped over time.

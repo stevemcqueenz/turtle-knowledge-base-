@@ -25,10 +25,10 @@ categories: ["Innkeepers", "Moonwhisper Coast NPCs", "Night elf characters", "Tu
 | location | Narvalis Point, Moonwhisper Coast |
 | status | Alive |
 
--Irea Dawncaller** is a [night elf](night elf) innkeeper located at [Narvalis Point](Narvalis Point) in [Moonwhisper Coast](Moonwhisper Coast).
+**Irea Dawncaller** is a [night elf](night elf) innkeeper located at [Narvalis Point](Narvalis Point) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 It may be unconventional for you to sleep without a roof, but it gives you an excellent opportunity to gaze at the starclad sky at night.
 
 ## Patch changes

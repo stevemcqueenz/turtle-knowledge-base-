@@ -10,4 +10,4 @@ categories: ["Hinterlands subzones", "Lakes", "Pages with broken file links"]
 ---
 # Valorwind Lake
 
--Valorwind Lake** is a small lake located to the northeast of [Shadra'Alor](Shadra'Alor) in the [Hinterlands](Hinterlands). It is the only known place to find the [:Violet Tragan](:Violet Tragan), a mysterious mushroom.
+**Valorwind Lake** is a small lake located to the northeast of [Shadra'Alor](Shadra'Alor) in the [Hinterlands](Hinterlands). It is the only known place to find the [:Violet Tragan](:Violet Tragan), a mysterious mushroom.

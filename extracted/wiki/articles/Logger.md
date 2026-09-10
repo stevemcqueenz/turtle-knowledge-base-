@@ -24,7 +24,7 @@ categories: ["Human characters", "Lumberjacks", "Peasants", "Stormwind City NPCs
 | location | Davenburg, Stormwind Harbor, Stormwind City |
 | status | Alive |
 
--Loggers** are [human](human) peasants located in [Davenburg](Davenburg) in [Stormwind Harbor](Stormwind Harbor) in [Stormwind City](Stormwind City).
+**Loggers** are [human](human) peasants located in [Davenburg](Davenburg) in [Stormwind Harbor](Stormwind Harbor) in [Stormwind City](Stormwind City).
 
 ## Patch changes
 - (Patch 1.16.4|note=Added.)

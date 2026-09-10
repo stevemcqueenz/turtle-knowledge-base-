@@ -26,18 +26,18 @@ categories: ["Black dragonspawn", "Bosses", "Onyxia's Lair mobs", "Turtle WoW co
 | status | Killable |
 | instance | Onyxia's Lair |
 
--Broodcommander Axelus** is a boss in [Onyxia's Lair](Onyxia's Lair). He is the commander of the brood of Onyxia.
+**Broodcommander Axelus** is a boss in [Onyxia's Lair](Onyxia's Lair). He is the commander of the brood of Onyxia.
 
 ## Quotes
-  -Aggro**
+**Aggro**
   She must not be disturbed!
 
-  -Combat**
+**Combat**
   There will be nothing but ash.
   Yours will be a slow death.
   Break under my heel!
 
-  -Death**
+**Death**
   Broodmother, they're... coming...
 
 ## Loot

@@ -21,7 +21,7 @@ categories: ["Lapidis Isle mobs", "Makrura", "Turtle WoW content"]
 | creature | Humanoid |
 | location | Bright Coast, Lapidis Isle |
 
--Deepsnap Viceclaws** are makrura that can be found on the [Bright Coast](Bright Coast) in [Lapidis Isle](Lapidis Isle).
+**Deepsnap Viceclaws** are makrura that can be found on the [Bright Coast](Bright Coast) in [Lapidis Isle](Lapidis Isle).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

@@ -13,10 +13,5 @@ categories: ["Balor subzones", "Farms", "Turtle WoW content"]
 The **Langston Orchard** is an abandoned farm just outside of the [Ruins of Breezehaven](Ruins of Breezehaven).
 
 ## NPCs
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - ## Patch changes
 - (Patch 1.18.0|note=Added.)

@@ -23,7 +23,7 @@ categories: ["Blackrock Mountain", "Burning Steppes subzones", "Dark Iron dwarf 
 | faffiliation | Old Horde |
 | loc | In between the Burning Steppes and Searing Gorge |
 
--Blackrock Mountain** is a zone between the [Burning Steppes](Burning Steppes) and the [Searing Gorge](Searing Gorge), linking the two regions. This zone is deceptively small and appears empty when first entered - however, it is without doubt among the most dangerous places in [Azeroth](Azeroth). It is hotly contested between the forces of [Ragnaros](Ragnaros) and his [Dark Iron](Dark Iron clan) servants on one side and the [black dragon](black dragon) [Nefarian](Nefarian) and his [orc](Blackrock clan) minions on the other. Within these black stones, there are numerous inhabited areas. Inside this unnaturally created volcano is some of the greatest work ever wrought by the dwarves.
+**Blackrock Mountain** is a zone between the [Burning Steppes](Burning Steppes) and the [Searing Gorge](Searing Gorge), linking the two regions. This zone is deceptively small and appears empty when first entered - however, it is without doubt among the most dangerous places in [Azeroth](Azeroth). It is hotly contested between the forces of [Ragnaros](Ragnaros) and his [Dark Iron](Dark Iron clan) servants on one side and the [black dragon](black dragon) [Nefarian](Nefarian) and his [orc](Blackrock clan) minions on the other. Within these black stones, there are numerous inhabited areas. Inside this unnaturally created volcano is some of the greatest work ever wrought by the dwarves.
 
 ## Geography
 There are five dungeons in Blackrock Mountain, suitable for players starting level 50 and increasing in difficulty. [Blackrock Depths](Blackrock Depths) is a 5-man instance recommended for players level 52-60. [Blackrock Spire](Blackrock Spire) is usually divided into two parts: [Lower Blackrock Spire](Lower Blackrock Spire) which is a 5-man instance recommended for players level 55-60; [Upper Blackrock Spire](Upper Blackrock Spire) is a 10-man raid instance recommended for players level 56-60. [Molten Core](Molten Core) is the first 40-man raid instance recommended for level 60 players. [Blackwing Lair](Blackwing Lair) is a 40-man raid instance recommended for level 60 players (after [Molten Core](Molten Core) in difficulty).
@@ -83,8 +83,8 @@ There are five dungeons in Blackrock Mountain, suitable for players starting lev
 |}
 
 ## Wild creatures
--[Dark Iron dwarves](Dark Iron dwarf)
--[Dragon whelp](Dragon whelp)s
--[Drake](Drake)s
--[Fire elemental](Fire elemental)s
--[Orc](Orc)s
+- [Dark Iron dwarves](Dark Iron dwarf)
+- [Dragon whelp](Dragon whelp)s
+- [Drake](Drake)s
+- [Fire elemental](Fire elemental)s
+- [Orc](Orc)s

@@ -25,7 +25,7 @@ categories: ["Gilneas NPCs", "Guards", "Human characters", "Turtle WoW content"]
 | location | Ravenshire, Gilneas |
 | status | Alive |
 
--Ravenshire Guards** are human guards defending the town of [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
+**Ravenshire Guards** are human guards defending the town of [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
 
 ## Patch changes
 - (Patch 1.17.0|note=Added.)

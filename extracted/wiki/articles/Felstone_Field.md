@@ -10,7 +10,7 @@ categories: ["Farms", "Pages with broken file links", "Western Plaguelands subzo
 ---
 # Felstone Field
 
--Felstone Field** is located in northwestern [Western Plaguelands](Western Plaguelands). Originally the area was a life-sustaining farm, but it has since been overrun by the vile [Scourge](Scourge). In their quest to destroy the living, they have placed a large cauldron in the middle of the field which constantly spews disease-filled vapors into the air. The cauldron itself is protected by [Cauldron Lord Bilemaw](Cauldron Lord Bilemaw), [Skeletal Sorcerer](Skeletal Sorcerer)s, [Skeletal Flayers](Skeletal Flayer) and [Slavering Ghoul](Slavering Ghoul)s.
+**Felstone Field** is located in northwestern [Western Plaguelands](Western Plaguelands). Originally the area was a life-sustaining farm, but it has since been overrun by the vile [Scourge](Scourge). In their quest to destroy the living, they have placed a large cauldron in the middle of the field which constantly spews disease-filled vapors into the air. The cauldron itself is protected by [Cauldron Lord Bilemaw](Cauldron Lord Bilemaw), [Skeletal Sorcerer](Skeletal Sorcerer)s, [Skeletal Flayers](Skeletal Flayer) and [Slavering Ghoul](Slavering Ghoul)s.
 
 A [Scarlet Crusader](Scarlet Crusade) party has also been detected in Felstone and will destroy both players and Scourge with equal vengeance.
 

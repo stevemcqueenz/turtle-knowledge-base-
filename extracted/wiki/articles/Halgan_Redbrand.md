@@ -25,7 +25,7 @@ categories: ["Bosses", "Dragonmaw Retreat mobs", "Dwarf characters", "Dwarf ghos
 | status | Killable |
 | instance | Dragonmaw Retreat |
 
--Halgan Redbrand** is a [dwarf](dwarf) ghost and is the fifth boss of [Dragonmaw Retreat](Dragonmaw Retreat).
+**Halgan Redbrand** is a [dwarf](dwarf) ghost and is the fifth boss of [Dragonmaw Retreat](Dragonmaw Retreat).
 
 ## Abilities
 - Drain Life
@@ -33,13 +33,13 @@ categories: ["Bosses", "Dragonmaw Retreat mobs", "Dwarf characters", "Dwarf ghos
 - Mind Flay
 
 ## Quotes
-  -Aggro**
+**Aggro**
   These halls are a sacred place, you can go no further.
 
-  -At 50%**
+**At 50%**
   I shall not falter.
 
-  -Death**
+**Death**
   To the great... Beyond.
 
 ## Loot

@@ -28,7 +28,7 @@ categories: ["City bosses", "Jungle troll characters", "Orgrimmar NPCs", "Quest 
 | status | Alive |
 | relatives | Sen'jin (father),, O'jin (son),, Yenniku (youngest son) |
 
--Vol'jin**, son of [Sen'jin](Sen'jin), is the chieftain of the [Darkspear tribe](Darkspear tribe).
+**Vol'jin**, son of [Sen'jin](Sen'jin), is the chieftain of the [Darkspear tribe](Darkspear tribe).
 
 ## Quests
 - [quest: Zalazane's Fall] 
@@ -45,11 +45,11 @@ Our tribe be resilient, and no matter how the river flow, the stones remain. Sta
 For the Darkspear and for the Horde!
 
 ### On-click
--Spirits be with you, stranger. How may I help?
--You come to consult the spirits?
--How can old Vol'jin help you?
+- Spirits be with you, stranger. How may I help?
+- You come to consult the spirits?
+- How can old Vol'jin help you?
 
 ### Aggro
--You make big mistake, mon.
--Here come the voodoo!
--For the Darkspear tribe!
+- You make big mistake, mon.
+- Here come the voodoo!
+- For the Darkspear tribe!

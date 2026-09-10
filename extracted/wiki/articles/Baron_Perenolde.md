@@ -26,7 +26,7 @@ categories: ["Alterac (kingdom)", "Aristocrats", "Gilneas mobs", "Human characte
 | status | Killable |
 | relatives | Aiden (distant cousin) |
 
--Baron L. Perenolde** (ref: [Lieutenant's Sword](https://database.turtle-wow.org/?item=61577)) is a rare mob located in [Gilneas](Gilneas). He is a distant cousin to Lord [Aiden Perenolde](Aiden Perenolde), former sovereign ruler of Alterac.
+**Baron L. Perenolde** (ref: [Lieutenant's Sword](https://database.turtle-wow.org/?item=61577)) is a rare mob located in [Gilneas](Gilneas). He is a distant cousin to Lord [Aiden Perenolde](Aiden Perenolde), former sovereign ruler of Alterac.
 
 ## Loot
 - [Lieutenant's Sword](Lieutenant's Sword)

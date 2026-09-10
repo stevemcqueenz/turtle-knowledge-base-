@@ -24,7 +24,7 @@ categories: ["Eastern Kingdoms", "Grasslands", "Human territories", "Turtle WoW 
 | minor | Saldean's Farm, Furlbrow's Pumpkin Patch, Jansen Stead, Westfall Lighthouse, Alexston Farmstead, Molsen Farm, Dead Acre, Klaven's Tower |
 | affiliation | People's Militia, Defias Brotherhood, Kingdom of Stormwind, Riverpaw pack |
 
--Westfall** is a fiefdom of the [Kingdom of Stormwind](Stormwind (kingdom)) and is mostly populated by humans. Once a rich agricultural center, the region now lies fallow and forgotten, having been stolen right under the Alliance's nose by its own bitter people. This rich land has lain fallow since the [Second War](Second War), but it is now held by the [Defias Brotherhood](Defias Brotherhood), focused in the southern area of [Moonbrook](Moonbrook). Stormwind claims the land as its own, but it has found little time to be concerned with it, with insufficient funds and might to retake the region. A handful of farmers still try to keep their land, but bandits and gnolls raid those farms that remain.
+**Westfall** is a fiefdom of the [Kingdom of Stormwind](Stormwind (kingdom)) and is mostly populated by humans. Once a rich agricultural center, the region now lies fallow and forgotten, having been stolen right under the Alliance's nose by its own bitter people. This rich land has lain fallow since the [Second War](Second War), but it is now held by the [Defias Brotherhood](Defias Brotherhood), focused in the southern area of [Moonbrook](Moonbrook). Stormwind claims the land as its own, but it has found little time to be concerned with it, with insufficient funds and might to retake the region. A handful of farmers still try to keep their land, but bandits and gnolls raid those farms that remain.
 
 Westfall is a region of rolling pastures and farms that were once beautiful and green, but now have become barren with drought and maltreatment at the hands of bandits. The grass is yellowed and the fields are infested with ravenous [carrion bird](carrion bird)s and [mechanical](mechanical) [harvest watcher](harvest watcher)s gone rogue. The outlawed Defias Brotherhood has gained a strong foothold in Westfall and controls several camps and farmsteads in the area. It is rumored that these bandits possess a large [mine](Deadmines) with an entrance somewhere in the small town of Moonbrook, and that they have connections with the [kobold](kobold)s that occupy the [Jangolode Mine](Jangolode Mine) in Westfall and the various mines in [Elwynn Forest](Elwynn Forest).
 
@@ -47,7 +47,7 @@ WorldMap-Westfall-old.jpg|Westfall prior to [patch 1.16.1](patch 1.16.1).
 || [Alexston Farmstead](Alexston Farmstead) • [The Dagger Hills](Dagger Hills) • [The Dead Acre](Dead Acre) • [Demont's Place](Demont's Place) • [The Dust Plains](Dust Plains) • [Furlbrow's Pumpkin Patch](Furlbrow's Pumpkin Patch) • [Gartside Plot](Gartside Plot) • [Gold Coast Quarry](Gold Coast Quarry) • [Jangolode Mine](Jangolode Mine) • [The Jansen Stead](Jansen Stead) • [Klaven's Tower](Klaven's Tower) • [Longshore](Longshore) ([Westfall Lighthouse](Westfall Lighthouse)) • [The Molsen Farm](Molsen Farm) • [Moonbrook](Moonbrook) ([Defias Hideout](Defias Hideout) ([The Deadmines](Deadmines)) • [Moonbrook Schoolhouse](Moonbrook Schoolhouse)) • [Saldean's Farm](Saldean's Farm) • [Sentinel Hill](Sentinel Hill) ([Sentinel Tower](Sentinel Tower)) • [Stendel's Pond](Stendel's Pond)
 |-
 ||
-  -Undisplayed locations**
+**Undisplayed locations**
 
 [Nazferiti river](Nazferiti river)
 |}
@@ -134,6 +134,6 @@ Other Resources:
 
 ## Patch changes
 - (Patch 1.16.1|note=[Gartside Plot](Gartside Plot) and old church of Westfall added.)
--  **[Patch 0.6](Patch 0.6) (2004-04-13):** Westfall Lumber Mill now has lumberjacks working around it.
+- **[Patch 0.6](Patch 0.6) (2004-04-13):** Westfall Lumber Mill now has lumberjacks working around it.
 
 ## References

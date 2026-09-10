@@ -25,7 +25,7 @@ categories: ["Amani'Alor NPCs", "Ammo vendors", "Forest troll characters", "Gene
 | location | Amani'Alor, Stonetalon Mountains |
 | status | Alive |
 
--Ranor Riptusk** is a [forest troll](forest troll) general goods vendor located in [Amani'Alor](Amani'Alor) in [Stonetalon Mountains](Stonetalon Mountains).
+**Ranor Riptusk** is a [forest troll](forest troll) general goods vendor located in [Amani'Alor](Amani'Alor) in [Stonetalon Mountains](Stonetalon Mountains).
 
 ## Speculation
 He may be related to [Reolis Riptusk](Reolis Riptusk) and [Talkharu Riptusk](Talkharu Riptusk).

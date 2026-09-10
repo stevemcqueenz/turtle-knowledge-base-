@@ -25,7 +25,7 @@ categories: ["Amani'Alor NPCs", "Forest troll characters", "Revantusk tribe", "S
 | location | Amani'Alor, Stonetalon Mountains |
 | status | Alive |
 
--Rinja Scenttusk** is a [forest troll](forest troll) [stable master](stable master) located in [Amani'Alor](Amani'Alor) in [Stonetalon Mountains](Stonetalon Mountains).
+**Rinja Scenttusk** is a [forest troll](forest troll) [stable master](stable master) located in [Amani'Alor](Amani'Alor) in [Stonetalon Mountains](Stonetalon Mountains).
 
 ## Patch changes
 - (Patch 1.15.0|note=Added.)

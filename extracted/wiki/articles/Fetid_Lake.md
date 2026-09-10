@@ -13,9 +13,4 @@ categories: ["Lakes", "Stormwrought Ruins subzones"]
 The **Fetid Lake** is an underwater basin located within the [Stormwrought Descent](Stormwrought Descent) in [Stormwrought Ruins](Stormwrought Ruins). It is there that [Mycellakos](Mycellakos) can be fought.
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
--
+- - - - - -

@@ -24,7 +24,7 @@ categories: ["Eastern Kingdoms", "Grim Reaches", "Turtle WoW content"]
 | affiliation | Dragonmaw clan, Wildhammer clan, Dark Iron clan, Explorers' League |
 | loc | Eastern Khaz Modan |
 
--Grim Reaches** is a region located to the east of the [Wetlands](Wetlands). Hanging on the eastern cliffs of the [Eastern Kingdoms](Eastern Kingdoms), Grim Reaches has witnessed many conflicts between the Wildhammer Dwarves of [Dun Kithas](Dun Kithas) and the Dragonmaw Orcs. Though this strife stretches over decades, many things have changed as the years went by. The dwarves of the reaches have forgotten of their Wildhammer lineage, dwarven ruins of ages past litter the cliffs serving as camps for the Dragonmaw that yet remain in these lands and hints of corruption has started to show itself, coalescing in the southern end of these lands in a dark swamp named The Grim Hollows.
+**Grim Reaches** is a region located to the east of the [Wetlands](Wetlands). Hanging on the eastern cliffs of the [Eastern Kingdoms](Eastern Kingdoms), Grim Reaches has witnessed many conflicts between the Wildhammer Dwarves of [Dun Kithas](Dun Kithas) and the Dragonmaw Orcs. Though this strife stretches over decades, many things have changed as the years went by. The dwarves of the reaches have forgotten of their Wildhammer lineage, dwarven ruins of ages past litter the cliffs serving as camps for the Dragonmaw that yet remain in these lands and hints of corruption has started to show itself, coalescing in the southern end of these lands in a dark swamp named The Grim Hollows.
 
 ## Geography
 ### Maps and subregions
@@ -33,7 +33,7 @@ categories: ["Eastern Kingdoms", "Grim Reaches", "Turtle WoW content"]
 ||[Baggoth's Rampart](Baggoth's Rampart) • [Baggoth's Wall](Baggoth's Wall) • [Barleycrest Farmstead](Barleycrest Farmstead) • [Brangar's Folly](Brangar's Folly) • [Dun Kithas](Dun Kithas) ([Dun Kithas Magistrate](Dun Kithas Magistrate)) • [East Ridge Outpost](East Ridge Outpost) • [Geth'kar](Geth'kar) • [Grim Batol Memorial](Grim Batol Memorial) • [The Grim Hollow](Grim Hollow) ([Tomb of Ancestors](Tomb of Ancestors)) • [Groldan's Excavation](Groldan's Excavation) • [The High Pass](High Pass) • [Lake Kithas](Lake Kithas) • [Ruins of Grim Batol](Ruins of Grim Batol) • [Ruins of Stolgaz Keep](Ruins of Stolgaz Keep) • [Sal'Galaz Mines](Sal'Galaz Mines) • [Slatebeard's Forge](Slatebeard's Forge) • [Shatterblade Post](Shatterblade Post) • [Zarm'geth Point](Zarm'geth Point) • [Zarm'geth Stronghold](Zarm'geth Stronghold)
 |-
 ||
-  -Undisplayed locations**
+**Undisplayed locations**
 
 [Grimwater River](Grimwater River)
 |}

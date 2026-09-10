@@ -31,32 +31,15 @@ categories: ["Alliance quest hubs", "Alliance settlements", "Dwarf territories",
 | flightpath | Yes |
 | status | Active |
 
--Bael Hardul** is a dwarven town in the eastern peaks of the [Stonetalon Mountains](Stonetalon Mountains). Once established during the [Third War](Third War) during the battles of [Stonetalon Peak](Stonetalon Peak), this dwarvish settlement has been reoccupied by the [Explorers' League](Explorers' League), looking to use it as a base of operations to see if dwarven ancestry can be linked to Kalimdor, and to discover more secrets of Azeroth, and the mysteries of the Stonetalon Mountains themselves. The town has a gryphon roost, an [inn](Hardul Distillery), and several vendors.
+**Bael Hardul** is a dwarven town in the eastern peaks of the [Stonetalon Mountains](Stonetalon Mountains). Once established during the [Third War](Third War) during the battles of [Stonetalon Peak](Stonetalon Peak), this dwarvish settlement has been reoccupied by the [Explorers' League](Explorers' League), looking to use it as a base of operations to see if dwarven ancestry can be linked to Kalimdor, and to discover more secrets of Azeroth, and the mysteries of the Stonetalon Mountains themselves. The town has a gryphon roost, an [inn](Hardul Distillery), and several vendors.
 
 ## Travel connections
 ### Flight
-  - [Astranaar](Astranaar), [Ashenvale](Ashenvale)**
+** [Astranaar](Astranaar), [Ashenvale](Ashenvale)**
 
 ## Inhabitants
 ### Quest givers
-- 
-- 
-- 
-- 
-- 
-- 
-
-### Goods and services
-- 
-- 
-- 
-- 
-
-### Additional characters
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - - - ### Goods and services
+- - - - ### Additional characters
+- - - - ## Patch changes
 - (Patch 1.16.4|note=Added.)

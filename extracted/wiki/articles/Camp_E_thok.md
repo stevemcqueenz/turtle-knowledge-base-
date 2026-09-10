@@ -12,4 +12,4 @@ categories: ["Camps", "Centaur territories", "Pages with broken file links", "St
 
 [thumb|The flooded camp](FileCamp E'thok.jpg)
 
-  -Camp E'thok** was a [Galak](Galak tribe) [centaur](centaur) camp in northwestern [Thousand Needles](Thousand Needles).[19, 22] The centaurs here raided a caravan that the goblin [Wizlo Bearingshiner](Wizlo Bearingshiner) was in, but could not steal his most prized gadget, as it's tied around the neck of a ferocious panther he owned.
+**Camp E'thok** was a [Galak](Galak tribe) [centaur](centaur) camp in northwestern [Thousand Needles](Thousand Needles).[19, 22] The centaurs here raided a caravan that the goblin [Wizlo Bearingshiner](Wizlo Bearingshiner) was in, but could not steal his most prized gadget, as it's tied around the neck of a ferocious panther he owned.

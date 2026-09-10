@@ -23,10 +23,10 @@ categories: ["Draenei characters", "Moonwhisper Coast NPCs", "Turtle WoW content
 | location | Moro'gai Village, Moonwhisper Coast |
 | status | Alive |
 
--Tobuuri** is a [draenei](draenei) located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Tobuuri** is a [draenei](draenei) located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I am tending to the birds of these lands, whom we have been told are called plainstriders. They are an ornery kind, and often stubborn, but patience with them is rewarded. Both their strength and resilience reminds us of the ones from our homeworld. We called them Narak'la, which means Starglider in your tongue. They were elusive birds, slick feathers and meaty legs, soaring through the starlit skies of Draenor.
 
 Caring for these plainstriders reminds me of home; usually a painful memory, it is a rare form of solace for me.

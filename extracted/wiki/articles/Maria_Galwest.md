@@ -26,7 +26,7 @@ categories: ["Flight masters", "Gilneas NPCs", "Human characters", "Turtle WoW c
 | location | Ravenshire, Gilneas |
 | status | Alive |
 
--Maria Galwest** is a human gryphon flight master located in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
+**Maria Galwest** is a human gryphon flight master located in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
 
 ## Flight paths
 See [Ravenshire#Travel connections](Ravenshire#Travel connections).

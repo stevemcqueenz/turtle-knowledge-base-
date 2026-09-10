@@ -46,4 +46,4 @@ Hoo mama! This is what I'm talkin' about! This haul will earn us lots of prestig
 # [57] [Azotha Gold](Azotha Gold)
 
 ## Patch changes
--  **[Patch 1.16.4](Patch 1.16.4) (2022-12-20):** Added.
+- **[Patch 1.16.4](Patch 1.16.4) (2022-12-20):** Added.

@@ -23,10 +23,10 @@ categories: ["Black dragonspawn", "Blackrock Spire mobs", "Bosses"]
 | faction | Combat |
 | status | Killable |
 
--Solakar Flamewreath** is spawned at the end of the "Father Flame" event in the [Upper Blackrock Spire](Upper Blackrock Spire) [Rookery](Rookery).  The "Father Flame" event can be trouble for the unprepared and many groups choose to skip it. The event that spawns him begins by looting the pillar in the left side of the Rookery, surrounded by eggs and elite dragonkin.
+**Solakar Flamewreath** is spawned at the end of the "Father Flame" event in the [Upper Blackrock Spire](Upper Blackrock Spire) [Rookery](Rookery).  The "Father Flame" event can be trouble for the unprepared and many groups choose to skip it. The event that spawns him begins by looting the pillar in the left side of the Rookery, surrounded by eggs and elite dragonkin.
 
 ## Dungeon Journal
--Gaining favor within the black dragonflight is a mixed blessing. Solakar Flamewreath is entrusted with the care of Nefarian's dragonspawn, but he has been warned he will pay a terrible price for any whelp that dies under his supervision--or simply fails to live up to expectations.*
+*Gaining favor within the black dragonflight is a mixed blessing. Solakar Flamewreath is entrusted with the care of Nefarian's dragonspawn, but he has been warned he will pay a terrible price for any whelp that dies under his supervision--or simply fails to live up to expectations.*
 
 ## Ability
 ## Strategy

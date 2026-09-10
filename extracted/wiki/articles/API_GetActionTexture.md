@@ -15,12 +15,12 @@ texture = GetActionTexture(actionSlot)
 </syntaxhighlight>
 
 ## Parameters
--Arguments*
+*Arguments*
 
   ; actionSlot - ActionSlot
    The queried slot.
 
--Returns*
+*Returns*
 
   ; texture - String
   * The texture filepath for the action's icon image

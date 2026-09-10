@@ -27,16 +27,16 @@ categories: ["Blacksmithing trainers", "Blacksmiths", "Dwarf characters", "Quest
 | status | Alive |
 | mentors | Grumnus Steelshaper |
 
--Therum Deepforge** is a [dwarf](dwarf) expert [blacksmithing trainer](blacksmithing trainer) located in the [Dwarven District](Dwarven District) in [Stormwind City](Stormwind City). 
+**Therum Deepforge** is a [dwarf](dwarf) expert [blacksmithing trainer](blacksmithing trainer) located in the [Dwarven District](Dwarven District) in [Stormwind City](Stormwind City). 
 
 ## Quests
 - [quest: Behind The Wall] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 ...
 
 ## See also
--[List of Stormwind NPCs](List of Stormwind NPCs)
+- [List of Stormwind NPCs](List of Stormwind NPCs)
 
 ## External links

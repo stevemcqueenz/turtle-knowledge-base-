@@ -25,7 +25,7 @@ categories: ["Orc characters", "Shadow Council", "Stormwrought Ruins mobs", "Tur
 | location | Stormwrought Ruins |
 | status | Killable |
 
--Shadow Council Torturers** are [orc](orc)s located in [Stormwrought Ruins](Stormwrought Ruins).
+**Shadow Council Torturers** are [orc](orc)s located in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Abilities
 - **Piercing Pain** — Fire damage taken is increased by 15.

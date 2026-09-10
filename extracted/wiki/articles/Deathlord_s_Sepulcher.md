@@ -13,9 +13,4 @@ categories: ["Stormwrought Ruins subzones"]
 The **Deathlord's Sepulcher** is an area located at [Stormwrought Descent](Stormwrought Descent) outside of [Stormwrought Ruins](Stormwrought Ruins). It is here that [Deathlord Tidebane](Deathlord Tidebane) can be fought.
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
--
+- - - - - -

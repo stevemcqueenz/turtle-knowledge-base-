@@ -25,7 +25,7 @@ categories: ["Moonwhisper Coast NPCs", "Quest givers", "Tauren characters", "Tur
 | location | Moonhoof Retreat, Moonwhisper Coast |
 | status | Alive |
 
--Gordnak** is a [tauren](tauren) quest giver located in [Moonhoof Retreat](Moonhoof Retreat) in [Moonwhisper Coast](Moonwhisper Coast).
+**Gordnak** is a [tauren](tauren) quest giver located in [Moonhoof Retreat](Moonhoof Retreat) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: Contracts in Moonwhisper Coast] 
@@ -33,7 +33,7 @@ categories: ["Moonwhisper Coast NPCs", "Quest givers", "Tauren characters", "Tur
 - [quest: Zalwan's Cut] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Earthmother be kind to you, and watch your path.
 
 ## Patch changes

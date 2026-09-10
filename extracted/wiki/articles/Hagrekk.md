@@ -25,7 +25,7 @@ categories: ["Ammo vendors", "General goods vendors", "Grim Reaches NPCs", "Orc 
 | location | Shatterblade Post, Grim Reaches |
 | status | Alive |
 
--Hagrekk** is an [orc](orc) general goods vendor located in the outpost of [Shatterblade Post](Shatterblade Post) in the [Grim Reaches](Grim Reaches).
+**Hagrekk** is an [orc](orc) general goods vendor located in the outpost of [Shatterblade Post](Shatterblade Post) in the [Grim Reaches](Grim Reaches).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

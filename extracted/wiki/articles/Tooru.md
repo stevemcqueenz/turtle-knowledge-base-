@@ -26,13 +26,13 @@ categories: ["Draenei characters", "Moonwhisper Coast mobs", "Turtle WoW content
 | location | Fallen Ones outpost, Moonwhisper Coast |
 | status | Killable |
 
--Tooru** is a [draenei](draenei) located at a [Fallen Ones outpost](Fallen Ones outpost) in [Moonwhisper Coast](Moonwhisper Coast). Formerly a hunter of the [Moro'gai tribe](Moro'gai tribe), he became one of the [Fallen Ones](Fallen Ones) and later tortured [Nar'lan](Nar'lan) to death when his infiltration of the outpost was discovered.
+**Tooru** is a [draenei](draenei) located at a [Fallen Ones outpost](Fallen Ones outpost) in [Moonwhisper Coast](Moonwhisper Coast). Formerly a hunter of the [Moro'gai tribe](Moro'gai tribe), he became one of the [Fallen Ones](Fallen Ones) and later tortured [Nar'lan](Nar'lan) to death when his infiltration of the outpost was discovered.
 
 ## Quotes
-  -Aggro**
+**Aggro**
   He would not speak! It is his fault alone!
 
-  -Death**
+**Death**
   Nar'lan... Why did you not... try to stop me...
 
 ## Objective of

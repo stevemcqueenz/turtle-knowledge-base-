@@ -25,16 +25,16 @@ categories: ["Draenei characters", "Moonwhisper Coast NPCs", "Quest givers", "Tu
 | status | Alive |
 | companions | Teph Braka (pet) |
 
--Huntress Fan Dhe'ra** is a [draenei](draenei) quest giver located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Huntress Fan Dhe'ra** is a [draenei](draenei) quest giver located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: The Long Hunt] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Hunting along the coast has become increasingly more difficult. Now with the Fallen Ones roaming about, there is rarely any real opportunity to hunt. Still that fool Tooru was adamant on going out... So much recklessness and potential in that kid, it is honestly a headache trying to mentor him. I wonder how Nar'lan does it. He seems to be a natural when it comes to the youthful Tooru.
 
-  -After [quest: Wolf in Sheep's Clothing]**
+**After [quest: Wolf in Sheep's Clothing]**
   > Gossip: *Tooru has become one of the Fallen Ones. He tortured Nar'lan and paid with his life for it.*
 
   <Fan Dhe'ra has a solemn expression on her face. Her gaze wanders off into the distance, floating above the azure horizon.>

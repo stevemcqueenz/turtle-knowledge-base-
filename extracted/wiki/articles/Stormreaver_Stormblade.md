@@ -25,7 +25,7 @@ categories: ["Balor mobs", "Orc characters", "Stormreaver clan", "Turtle WoW con
 | location | Stormwrought Castle, Balor;, Stormreaver Spire, Balor |
 | status | Killable |
 
--Stormreaver Stormblades** are [orc](orc)s located in [Stormwrought Castle](Stormwrought Castle) and [Stormreaver Spire](Stormreaver Spire) in [Balor](Balor).
+**Stormreaver Stormblades** are [orc](orc)s located in [Stormwrought Castle](Stormwrought Castle) and [Stormreaver Spire](Stormreaver Spire) in [Balor](Balor).
 
 ## Abilities
 - Lightning Strike

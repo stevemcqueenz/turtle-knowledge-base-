@@ -10,4 +10,4 @@ categories: ["Ashenvale subzones", "Bears", "Pages with broken file links"]
 ---
 # Shady Nook
 
--The Shady Nook** is located in [Ashenvale](Ashenvale), south of [Raynewood Retreat](Raynewood Retreat) and east of [Greenpaw Village](Greenpaw Village). It is a small valley populated by a small family of [bear](bear)s, who presumably also inhabit the small cave located there.
+**The Shady Nook** is located in [Ashenvale](Ashenvale), south of [Raynewood Retreat](Raynewood Retreat) and east of [Greenpaw Village](Greenpaw Village). It is a small valley populated by a small family of [bear](bear)s, who presumably also inhabit the small cave located there.

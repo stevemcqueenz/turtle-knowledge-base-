@@ -25,17 +25,17 @@ categories: ["Bosses", "Gilneas City mobs", "Human characters", "Turtle WoW cont
 | status | Killable |
 | instance | Gilneas City |
 
--Dustivan Blackcowl** is a boss in [Gilneas City](Gilneas City). He was tasked with stealing the deed to the [Ebonmere Farm](Ebonmere Farm), which [Joshua Ebonmere](Joshua Ebonmere) wants recovered.
+**Dustivan Blackcowl** is a boss in [Gilneas City](Gilneas City). He was tasked with stealing the deed to the [Ebonmere Farm](Ebonmere Farm), which [Joshua Ebonmere](Joshua Ebonmere) wants recovered.
 
 ## Abilities
 - Rupture
 - Gouge
 
 ## Quotes
-  -Aggro**
+**Aggro**
   I hunt from the shadows, these streets have been cleared by my hand!
 
-  -Death**
+**Death**
   This was not meant to be...
 
 ## Objective of

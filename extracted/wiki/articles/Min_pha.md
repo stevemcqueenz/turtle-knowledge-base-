@@ -23,10 +23,10 @@ categories: ["Draenei characters", "Moonwhisper Coast NPCs", "Turtle WoW content
 | location | Moro'gai Village, Moonwhisper Coast |
 | status | Alive |
 
--Min'pha** is a [draenei](draenei) located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Min'pha** is a [draenei](draenei) located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Terem Kalan made the nets for Taaham Tuura, but I think he is cheating and made his net way more sturdier than mine! Isn't that just mean?
 
 ## Patch changes

@@ -10,7 +10,7 @@ categories: ["Beasts", "Creatures", "Pages with broken file links", "Transportat
 ---
 # Wyvern
 
--Wyverns** are a winged combination of a lion with bat wings and a scorpion tail that live in the harsh cliff-terraces of [Kalimdor](Kalimdor)'s Barrens. They hold great enmity for [harpies](harpies), as the vile creatures like to capture young wyverns for food and to subvert and train as guardians.
+**Wyverns** are a winged combination of a lion with bat wings and a scorpion tail that live in the harsh cliff-terraces of [Kalimdor](Kalimdor)'s Barrens. They hold great enmity for [harpies](harpies), as the vile creatures like to capture young wyverns for food and to subvert and train as guardians.
 
 The green-skinned [orc](orc)s proved themselves to wyverns in battle against harpies. Since then, the two species have a growing respect for one another.
 

@@ -25,7 +25,7 @@ categories: ["Bartenders", "Food and drink vendor", "Human characters", "Kul Tir
 | location | Caelan's Rest, Lapidis Isle |
 | status | Alive |
 
--Fellis Bander** is a human food and drink vendor in [Caelan's Rest](Caelan's Rest) on [Lapidis Isle](Lapidis Isle).
+**Fellis Bander** is a human food and drink vendor in [Caelan's Rest](Caelan's Rest) on [Lapidis Isle](Lapidis Isle).
 
 ## Trivia
 - Despite being aligned with the Kul Tiran Exploratory Fleet, he was not originally associated with the faction and was neutral to both factions.

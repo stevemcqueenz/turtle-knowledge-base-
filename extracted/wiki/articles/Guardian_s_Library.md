@@ -13,16 +13,16 @@ categories: ["Libraries", "Tower of Karazhan subzones", "Turtle WoW content"]
 The **Guardian's Library** is in the [Tower of Karazhan](Tower of Karazhan) raid. It is where [Ley-Watcher Incantigos](Ley-Watcher Incantigos) and [Anomalus](Anomalus) can be fought.
 
 ## NPCs
--   [Ley-Watcher Incantigos](Ley-Watcher Incantigos)
--   [Anomalus](Anomalus)
--   [Arcane Anomaly](Arcane Anomaly)
--   [Manascale Overseer](Manascale Overseer)
--   [Manascale Drake](Manascale Drake)
--   [Manascale Dragon Guard](Manascale Dragon Guard)
--   [Manascale Mageweaver](Manascale Mageweaver)
--   [Manascale Suppressor](Manascale Suppressor)
--   [Manascale Ley-Seeker](Manascale Ley-Seeker)
--   [Manascale Whelp](Manascale Whelp)
+- [Ley-Watcher Incantigos](Ley-Watcher Incantigos)
+- [Anomalus](Anomalus)
+- [Arcane Anomaly](Arcane Anomaly)
+- [Manascale Overseer](Manascale Overseer)
+- [Manascale Drake](Manascale Drake)
+- [Manascale Dragon Guard](Manascale Dragon Guard)
+- [Manascale Mageweaver](Manascale Mageweaver)
+- [Manascale Suppressor](Manascale Suppressor)
+- [Manascale Ley-Seeker](Manascale Ley-Seeker)
+- [Manascale Whelp](Manascale Whelp)
 
 ## Patch changes
 - (Patch 1.17.2|note=Added.)

@@ -10,17 +10,10 @@ categories: ["Camps", "Orc territories", "Thousand Needles subzones", "Turtle Wo
 ---
 # Ironstone Camp
 
--Ironstone Camp** is a small [Horde](Horde) camp at the border of the [Shimmering Flats](Shimmering Flats).  This small group of Horde was sent to drive out the dwarven excavators from the [Rustmaul Digsite](Rustmaul Digsite), but got much more than they bargained for when the [Silithid](Silithid) erupted from a nearby cave and attacked them. One of the members present, [Moktar Krin](Moktar Krin), sends out other members of the Horde to kill the Silithid infesting the digsite. 
+**Ironstone Camp** is a small [Horde](Horde) camp at the border of the [Shimmering Flats](Shimmering Flats).  This small group of Horde was sent to drive out the dwarven excavators from the [Rustmaul Digsite](Rustmaul Digsite), but got much more than they bargained for when the [Silithid](Silithid) erupted from a nearby cave and attacked them. One of the members present, [Moktar Krin](Moktar Krin), sends out other members of the Horde to kill the Silithid infesting the digsite. 
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
-- 
-
-## Gallery
+- - - - - - ## Gallery
 <gallery>
 Ironstone Camp old.png|Ironstone Camp prior to [patch 1.18.1](patch 1.18.1).
 </gallery>

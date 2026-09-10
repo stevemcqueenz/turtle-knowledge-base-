@@ -24,10 +24,10 @@ categories: ["Human characters", "Northwind NPCs", "Stromgarde (kingdom)", "Turt
 | location | Jousting Grounds, Northwind |
 | status | Alive |
 
--Breman Hartford** is a [human](human) located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind).
+**Breman Hartford** is a [human](human) located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 One can only muse at the thought of holding a tournament during these times. What on earth are these Stormwindians thinking? Do they not see what transpires right in front of their doorstep?
 
 ## Patch changes

@@ -10,4 +10,4 @@ categories: ["Guard", "Lore", "Organizations", "Stubs"]
 ---
 # People's Militia
 
--The People's Militia** is a primarily [Human](Human)-based, volunteer military organization based in [Westfall](Westfall) and focused on defeating the [Defias Brotherhood](Defias Brotherhood). They are based in [Sentinel Hill](Sentinel Hill), but protectors also wander various nearby roads. Their leader is [Gryan Stoutmantle](Gryan Stoutmantle) who directs them from lower section of the Tower in Sentinel Hill. The People Milita are a small group of workers (peasants)
+**The People's Militia** is a primarily [Human](Human)-based, volunteer military organization based in [Westfall](Westfall) and focused on defeating the [Defias Brotherhood](Defias Brotherhood). They are based in [Sentinel Hill](Sentinel Hill), but protectors also wander various nearby roads. Their leader is [Gryan Stoutmantle](Gryan Stoutmantle) who directs them from lower section of the Tower in Sentinel Hill. The People Milita are a small group of workers (peasants)

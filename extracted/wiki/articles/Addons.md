@@ -24,22 +24,22 @@ The [#Full Addons List](#Full Addons List) section intends to always list the co
 ##### **WeakAuras**
 Back in the day, there was an addon called PowerAuras that allowed for easy visual tracking of buffs and debuffs. However, those of you who play on newer versions of WoW may know of PA's succssor: WeakAuras. WA has gone from just buff tracking to serving as a convenient platform for "mini-addons" that many players end up using extensively.
 
-  -WeakAuras DO NOT EXIST for Turtle WoW!** Instead, completely separate addons are needed to accomplish the same things that WA does. So if you are looking for a replacement for a specific WA, look for these separate addons instead.
+**WeakAuras DO NOT EXIST for Turtle WoW!** Instead, completely separate addons are needed to accomplish the same things that WA does. So if you are looking for a replacement for a specific WA, look for these separate addons instead.
 
 ### How to Install Addons
 ##### **GitAddonsManager**
 If you're going to be playing on Turtle for a while and want a sustainable solution to addon management (like Curseforge for Retail/Classic), this is for you. There's a bit more effort to set up at first, but it's worth it in the long run.  
 
-1.Download [GitAddonsManager](https://woblight.gitlab.io/overview/gitaddonsmanager/), and unzip the folder to wherever is most useful for you.
-1.In this unzipped folder, find GitAddonsManager.exe and right click to make a shortcut.
-1.Move this shortcut wherever you need, and you can easily launch the manager with it.
-1.Complete the first time setup. When asked where your addons folder is, input the location of your TurtleWoW/Interface/AddOns/ folder.
+1. Download [GitAddonsManager](https://woblight.gitlab.io/overview/gitaddonsmanager/), and unzip the folder to wherever is most useful for you.
+1. In this unzipped folder, find GitAddonsManager.exe and right click to make a shortcut.
+1. Move this shortcut wherever you need, and you can easily launch the manager with it.
+1. Complete the first time setup. When asked where your addons folder is, input the location of your TurtleWoW/Interface/AddOns/ folder.
 
 You are now ready to install addons with the manager. If you had any manually installed copies of git addons, delete them. Manually-installed addons cannot be updated with GitAddonsManager.
 
 ##### **To install a GitHub or Gitlab addon:**
-1.Copy the clone link for the git addon, e.g. https://github.com/shagu/ShaguTweaks.git
-1.In GitAddonsManager, press the + on the top left, and paste. Press OK. The addon will download and install.
+1. Copy the clone link for the git addon, e.g. https://github.com/shagu/ShaguTweaks.git
+1. In GitAddonsManager, press the + on the top left, and paste. Press OK. The addon will download and install.
 Remember to check GitAddonsManager every so often to update your addons; you can do this individually for each addon or all at once using the upgrade button in the top left of the window.
 
 Restart your game after installing addons. If the installation is correctly done, you should see an Addons button on the bottom left of the character select screen. In that list, you should see your installed addon listed.
@@ -47,15 +47,15 @@ Restart your game after installing addons. If the installation is correctly done
 ##### **Manual Install**
 This method is simple and works with any addon you find, even ones that don't use git, but more tedious in that you'll need to repeat this process to update addons. 
 
-1.On the GitHub repository, click **<> Code** (top right), and select Download ZIP.
-1.Extract the zip into your <code>TurtleWoW/Interface/AddOns/</code> folder.
-1.Now for the tricky part, so **read carefully:** Rename the addon's folder...
+1. On the GitHub repository, click **<> Code** (top right), and select Download ZIP.
+1. Extract the zip into your <code>TurtleWoW/Interface/AddOns/</code> folder.
+1. Now for the tricky part, so **read carefully:** Rename the addon's folder...
 In order for WoW to load your addon, addon's folder name and name of the the .toc file inside **MUST match exactly**. For example, if the addon has the file Some-Addon.toc, you must name the folder Some-Addon. When done correctly, your folder and file structure should look like <code>TurtleWoW/Interface/AddOns/ADDONNAME/ADDONNAME.toc</code>. 
-1.*In most cases for addons on GitHub, this just means deleting "-master" or "-main" from the folder name.
-1.*Beware! 
-1.**Sometimes addons have a mismatched folder name (e.g. Aux). If an addon isn't loading, check that .toc file.
-1.**Sometimes an addon will be buried a folder too deep (e.g. DPSMate). If your file structure looks like <code>Interface/AddOns/ADDONNAME-MASTER/ADDONNAME/ADDONNAME.toc</code>, it won't work. In this case, move the last folder up directly into the AddOns folder.
-1.*Still having trouble? Give the [automated AddonsFixer](https://github.com/alchem1ster/AddOnsFixer/releases/tag/0.2.1) a try.
+1. *In most cases for addons on GitHub, this just means deleting "-master" or "-main" from the folder name.
+1. *Beware! 
+1. **Sometimes addons have a mismatched folder name (e.g. Aux). If an addon isn't loading, check that .toc file.
+1. **Sometimes an addon will be buried a folder too deep (e.g. DPSMate). If your file structure looks like <code>Interface/AddOns/ADDONNAME-MASTER/ADDONNAME/ADDONNAME.toc</code>, it won't work. In this case, move the last folder up directly into the AddOns folder.
+1. *Still having trouble? Give the [automated AddonsFixer](https://github.com/alchem1ster/AddOnsFixer/releases/tag/0.2.1) a try.
 
 Restart your game after installing addons. If the installation is correctly done, you should see an Addons button on the bottom left of the character select screen. In that list, you should see your installed addon listed.
 
@@ -65,7 +65,7 @@ If you prefer a command-line interface, you may use [snapjaw](https://github.com
 ### How to Update Addons
 [Updated 2025 Jan]: Best Recommended Method is to use the TurtleWoW Launcher to verify and update accordingly.
 
-  -NOTE**: Don't worry about your addon settings! These are stored separately in the TurtleWoW/WTF folder, and as long as you don't mess with that folder, your settings will persist across addon updates, uninstalls, and reinstalls.
+**NOTE**: Don't worry about your addon settings! These are stored separately in the TurtleWoW/WTF folder, and as long as you don't mess with that folder, your settings will persist across addon updates, uninstalls, and reinstalls.
 
 ### How to Troubleshoot Addons
 If an addon isn't showing up, try restarting your game and checking if it shows up in the addons list.
@@ -78,1074 +78,1073 @@ If an addon isn't showing up, try restarting your game and checking if it shows 
 ### Featured Addons
 (Multiple addons beside each other with a + means they should **both** be installed and used together.)
 <u>We recommend that all players choose *one* of these:</u>
-  -*Essential Improvements for the Default UI:**  [ShaguTweaks](https://github.com/shagu/ShaguTweaks) + [ShaguTweaks-extras](https://github.com/shagu/ShaguTweaks-extras)
-  -*Complete Minimalist UI Replacement:**  [pfUI](https://github.com/me0wg4ming/pfUI) + [pfUI-turtle](https://github.com/doorknob6/pfUI-turtle). To browse and try premade layouts and configs: [**<u>/r/pfUI</u>**](https://www.reddit.com/r/pfUI/)
-  -*Warcraft 3 Inspired UI:**  [WIIIUI](https://github.com/Fiurs-Hearth/WIIIUI) + [ExtraResourceBars](https://github.com/Fiurs-Hearth/ExtraResourceBars)
+- **Essential Improvements for the Default UI:**  [ShaguTweaks](https://github.com/shagu/ShaguTweaks) + [ShaguTweaks-extras](https://github.com/shagu/ShaguTweaks-extras)
+- **Complete Minimalist UI Replacement:**  [pfUI](https://github.com/me0wg4ming/pfUI) + [pfUI-turtle](https://github.com/doorknob6/pfUI-turtle). To browse and try premade layouts and configs: [**<u>/r/pfUI</u>**](https://www.reddit.com/r/pfUI/)
+- **Warcraft 3 Inspired UI:**  [WIIIUI](https://github.com/Fiurs-Hearth/WIIIUI) + [ExtraResourceBars](https://github.com/Fiurs-Hearth/ExtraResourceBars)
 
 <u>Recommended Leveling Addons:</u>
-  -*Quest Helper:** [pfQuest](https://github.com/The-Kludge-Bureau/pfQuest) + [pfQuest-Turtle](https://github.com/The-Kludge-Bureau/pfQuest-turtle) (+ Optional: [Magnify](https://github.com/lookino/Magnify))
-  -*Roleplaying AddOn:** [TurtleRP](TurtleRP)
--
-  -*AI-Voiced Quests and Dialogue:** [WoW-Voiceover](Addon WoW-Voiceover)
-  -*Quest Immersion**: [Immersive Dialog UI](https://github.com/moiian/ImmersiveDialogUI). A enhanced conversation addon with a focus on immersion and customization.
--Keep a **note for Friends** in Game: [AuldLangSyne](https://github.com/Road-block/AuldLangSyne)
-  -*Map Markers:** [Modern Map Markers](https://github.com/tilare/ModernMapMarkers) (Shows the locations of dungeons, raids, world bosses, boats, zeppelins, and trams on the world map.)
+- **Quest Helper:** [pfQuest](https://github.com/The-Kludge-Bureau/pfQuest) + [pfQuest-Turtle](https://github.com/The-Kludge-Bureau/pfQuest-turtle) (+ Optional: [Magnify](https://github.com/lookino/Magnify))
+- **Roleplaying AddOn:** [TurtleRP](TurtleRP)
+- - **AI-Voiced Quests and Dialogue:** [WoW-Voiceover](Addon WoW-Voiceover)
+- **Quest Immersion**: [Immersive Dialog UI](https://github.com/moiian/ImmersiveDialogUI). A enhanced conversation addon with a focus on immersion and customization.
+- Keep a **note for Friends** in Game: [AuldLangSyne](https://github.com/Road-block/AuldLangSyne)
+- **Map Markers:** [Modern Map Markers](https://github.com/tilare/ModernMapMarkers) (Shows the locations of dungeons, raids, world bosses, boats, zeppelins, and trams on the world map.)
 <u>Recommended Endgame Addons:</u> 
-  -*Damage Meter:** [ShaguDPS](https://github.com/shagu/ShaguDPS), or if you need advanced tools: [DPSMate](DPSMate)
-  -*Threat Meter:** [TWThreat](https://github.com/MarcelineVQ/TWThreat) or [KLHThreatMeter](KLHThreatMeter)
-  -*Encounter Helper:** [BigWigs](Addon BigWigs)
-  -*Loot tables for Dungeons and Raids:** [AtlasLoot-Turtle](AtlasLoot) or [Atlas-TW](https://github.com/byCFM2/Atlas-TW)
-  -*Advanced Auction UI:** [Aux](https://github.com/OldManAlpha/aux-addon)
-  -*Group maker:** [AutoLFM](https://github.com/FSuhas/AutoLFM) - Ideal for setting up a group for a quest, dungeon or raid. Can be used in SoftCore or Hardcore.
-  -*Raid Lead Help:** [Tactica](https://github.com/Player-Doite/tactica) - Auto-build/sort raids (invite/gearcheck), post tactics, preset masterloot, loot rules & assign roles - synced!
+- **Damage Meter:** [ShaguDPS](https://github.com/shagu/ShaguDPS), or if you need advanced tools: [DPSMate](DPSMate)
+- **Threat Meter:** [TWThreat](https://github.com/MarcelineVQ/TWThreat) or [KLHThreatMeter](KLHThreatMeter)
+- **Encounter Helper:** [BigWigs](Addon BigWigs)
+- **Loot tables for Dungeons and Raids:** [AtlasLoot-Turtle](AtlasLoot) or [Atlas-TW](https://github.com/byCFM2/Atlas-TW)
+- **Advanced Auction UI:** [Aux](https://github.com/OldManAlpha/aux-addon)
+- **Group maker:** [AutoLFM](https://github.com/FSuhas/AutoLFM) - Ideal for setting up a group for a quest, dungeon or raid. Can be used in SoftCore or Hardcore.
+- **Raid Lead Help:** [Tactica](https://github.com/Player-Doite/tactica) - Auto-build/sort raids (invite/gearcheck), post tactics, preset masterloot, loot rules & assign roles - synced!
 
 ### Full Addons List
 These addons are all hosted on Github and other git services, and so they will work with the installation methods provided above. If you do not find the addon you want in the list, and you think what you want might be an ancient addon that was around in 2006, see the bottom of the page for further addon collections.
 
-  -[A](#A) . [B](#B) . [C](#C) . [D](#D) . [E](#E) . [F](#F) . [G](#G) . [H](#H) . [I](#I) . [J](#J) . [K](#K) . [L](#L) . [M](#M) . [N](#N) . [O](#O) . [P](#P) . [Q](#Q) . [R](#R) . [S](#S) . [T](#T) . [U](#U) . [V](#V) . [W](#W) . [X](#X) . [Y](#Y) . [Z](#Z)**
+**[A](#A) . [B](#B) . [C](#C) . [D](#D) . [E](#E) . [F](#F) . [G](#G) . [H](#H) . [I](#I) . [J](#J) . [K](#K) . [L](#L) . [M](#M) . [N](#N) . [O](#O) . [P](#P) . [Q](#Q) . [R](#R) . [S](#S) . [T](#T) . [U](#U) . [V](#V) . [W](#W) . [X](#X) . [Y](#Y) . [Z](#Z)**
 
 ### A
--[_AntInvite](https://github.com/Kiiruaa/_AntInvite) - block invitation of people under level 15 [[Img1](https://user-images.githubusercontent.com/26133646/47479185-836e3a80-d82c-11e8-9a9a-e3faeac423ec.png)]
--[_AutoBG](https://github.com/EinBaum/_AutoBG) - auto-queue, join, leave battlegrounds & instant spirit release
--[aBindings](https://gitlab.com/aead/aBindings) - Direct macrotext-to-key bindings
--[Abraxas](https://github.com/xorann/Abraxas) - Warlock Helper [[Img1](https://camo.githubusercontent.com/3dcd600c95ea33d282bda9e2d3f03a86e2a2ae75/68747470733a2f2f692e696d6775722e636f6d2f7635765574664e2e706e67)]
--[ABreathBeneath](https://github.com/Lanrutcon/ABreathBeneath/tree/Vanilla-Port) - a "reskin" of the Blizzard's nameplates [[Img1](https://user-images.githubusercontent.com/26133646/39292495-a566d050-4936-11e8-8c12-05603fcdc63f.png)]
--[Accountant](https://github.com/The-Kludge-Bureau/Accountant) - tracks your incoming / outgoing cash [[Img1](https://user-images.githubusercontent.com/26133646/39262975-40c516a4-48c1-11e8-86c0-80016f1d8807.png)] [Alt](https://github.com/terdong/Accountant)(https://github.com/terdong/Accountant Alt)
--[ActionButtonUtils](https://github.com/Numielle/ActionButtonUtils) - Retail-like glowing for WoW 1.12 ActionButtons
--[ActionBarProfiles](https://github.com/Siventt/ActionBarProfiles) - Create and load action bar layouts for different builds.
--[ActionMirroringFrame](https://gitlab.com/woblight/actionmirroringframe/-/tree/vanilla) - Display a frame showing used actions [[Img1](https://user-images.githubusercontent.com/26133646/39139763-fc3055b6-4722-11e8-854f-3c66341e372e.png)]
--[AddOnOrganizer](AddOnOrganizer) - This mod allows you to turn on and off all of your current addons
--[aDF](Adf) - adds a small HUD that standardizes critical info about your target's defences, including Armor, Resists, and specific debuffs [[Img1](https://github.com/Zebouski/aDF/assets/11151284/d4f9b479-4498-4ec7-88c8-501f9cf759b5)] [Alt](https://github.com/Autignem/aDF)(https://github.com/Autignem/aDF Alt)
--[AdvancedTradeSkillWindow](https://github.com/laytya/AdvancedTradeSkillWindow-vanilla/releases) - replacement for Blizzards trade skill window [<nowiki>[Img1](https://user-images.githubusercontent.com/20452393/281359573-21d345b2-001f-4c83-99ff-725101477e2b.JPG)</nowiki>] use it w/ [LSW](https://github.com/laytya/LilSparkysWorkshop-vanilla)
--[AdvancedTradeSkillWindow2](https://github.com/Shellyoung/AdvancedTradeSkillWindow2) - Improved window for your professions for World of Warcraft vanilla (Evolution of the previous addon) [<nowiki>[Image](https://private-user-images.githubusercontent.com/40469927/465701779-cffb06ff-b310-4fb7-ba07-a04caf6e34a3.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzExMzc5NTUsIm5iZiI6MTc3MTEzNzY1NSwicGF0aCI6Ii80MDQ2OTkyNy80NjU3MDE3NzktY2ZmYjA2ZmYtYjMxMC00ZmI3LWJhMDctYTA0Y2FmNmUzNGEzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAyMTUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMjE1VDA2NDA1NVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWEyMWM1MGRkNDg0NGM5ZGVlYmFmZTJlZDVlMmFkMDRhMjcwMzgxNzlkMWU5YWIwNWVhMjVjN2ViMDA5ZDQ0ZjImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.EUn444fh0E-5PiJwJLROObvVMhkKOB2DpzKw7PyLv1Q)</nowiki>].
--[Aero](https://github.com/gashole/Aero) - Adds animations to frames [[Img1](https://camo.githubusercontent.com/31a9cfffe7757716f2b94cd60b95e49c8fd67e82/687474703a2f2f692e696d6775722e636f6d2f4763616c5472482e676966)]
--[agUnitFramesImproved](https://github.com/satan666/ag_UnitFrames_Improved) - Customizable unit frame addon
--[Altoholic](https://github.com/nehswu/Altoholic_Vanilla) - Provides information about your alts. Turtle WoW version, supports cross-faction alts. [[Img1](https://github.com/Dyaxler/Altoholic_Vanilla/raw/master/Screenshots/Containers.JPG)]
-  -A version that fixes several bugs and adds modules for raid lockouts and attunements is available [here](https://github.com/gbl/Altoholic_Vanilla).
--[AnnounceKick](https://github.com/EinBaum/AnnounceKick) - Very simple rogue addon that announces "Kick" in say chat
--[AntiAFK](https://github.com/acid9000/AntiAfk) - Prevents AFK status and being kicked for AFK. Useful for AFKing in cities while querying Auction House with Aux-Revamped.
--[__Anticrash](https://github.com/me0wg4ming/__Anticrash) - Unregisters all frame events before logout/reload to prevent crashes.
--[Antispam](https://github.com/shagu/antispam) - Shagu addon to filter out goldsellers and Moo spammers on Turtle WoW
--[AntiSpamStopCast](https://github.com/thepparker/AntiSpamStopCast) - addon to prevent cancellation of fresh spell casts when mashing the button
--[APD](https://github.com/melbaa/apd) - Attack Power Display is an UI realtime monitor for your attack power.
--[ArcaneSurgeWarning](https://github.com/AllinGaming/ArcaneSurgeWarning) - provides a **visual tracker** for the Arcane Surge proc
--[Arcanum](https://github.com/TheRealFayz/Arcanum) - Manages Mage spells and items, including Turtle WoW Mage spells and items
--[ArchiTotem](https://github.com/codeshard/ArchiTotem) - Totem bar and Timers [[Img1](https://user-images.githubusercontent.com/26133646/34494479-feb56e2c-eff0-11e7-8cd2-7672ddc26bd9.png)]
--[ArcHud2](https://github.com/McPewPew/ArcHUD2) - Combat HUD that displays smooth arcs around your character in the middle of the screen to inform you about the health and power (mana, rage, ...) of you, your pet, and your target. [[Img1](https://felbite.com/wp-content/uploads/2022/03/felbite.com-archud-2-logo-archud-2.webp)]
--[Artisan](https://github.com/Otari98/Artisan) - Compact professions window
--[Atlas-TW](https://github.com/byCFM2/Atlas-TW) - Atlas, AtlasLoot, AtlasQuest updated into one new addon with more features and options.
--[Atlas Turtle](Atlas) - View maps of dungeons and raids
--[AtlasLoot Turtle](AtlasLoot) - Browse loot tables for Dungeons and Raids
--[AtlasLoot-GearFilter](https://github.com/Kirchlive/AtlasLoot-GearFilter) - Simple Class Gear Filter Dependency for AtlasLoot TW Edition.
--[AtlasQuest Turtle](AtlasQuest) - see a list of vanilla and TurtleWOW quests related to each dungeon.
--[Attack](https://github.com/shirsig/attack) - Enable attack with /attack
--[Akkio_Consume_Helper](https://github.com/prodigystudios/Akkio_Consume_Helper) - Manage your buffs & Consumables in real time during your adventures
--[AttackBar](https://github.com/Road-block/AttackBar) - Player and Enemy Swing Timer addon [[Img1](https://user-images.githubusercontent.com/26133646/39252348-c08323f2-48a5-11e8-874d-e72c7e7e19d6.png)]
--[AttackBar Turtle](https://github.com/Siventt/AttackBar-TWoW) - Player and Enemy Swing Timer addon [[Img1](https://user-images.githubusercontent.com/26133646/39252348-c08323f2-48a5-11e8-874d-e72c7e7e19d6.png)] + Turtle WoW's Holy Strike support.
--[AuctionAltBuy](https://github.com/EinBaum/AuctionAltBuy) - Alt-Click auctions to buy and cancel instantly
--[Aux-Revamped-Opaque](https://github.com/ftkun/Aux-Revamped-opaque)  I absolutely love Aux, but I’ve always thought the UI could use some polish — and I know many of you agree. So, I took some time to give it a facelift![https://github.com/ftkun/Aux-Revamped-opaque]
--[Auctionator](https://github.com/nimeral/AuctionatorVanilla) - A lightweight addon designed to help manage auctions [[Img1](https://user-images.githubusercontent.com/26133646/39140814-05a2c09a-4726-11e8-8b59-e1096eba3045.png)]
--[AuctionHelper](https://github.com/EinBaum/AuctionHelper) - helps you transfer items through the neutral auction house [[Img1](https://github.com/EinBaum/AuctionHelper/raw/master/preview.jpg?raw=true)]
--[AuctionLink](https://github.com/Zerf/AuctionLink) - allows you to search for items in the AH by shift-clicking them
--[AuctionSearchTimer](https://github.com/EinBaum/AuctionSearchTimer) - Timer that shows when you can refresh the AH [[Img1](http://i.imgur.com/mZmrrYi.png)]
--[AuldLangSyne](https://github.com/Road-block/AuldLangSyne) - combines the functions of CT_PlayerNotes and FriendsFacts
--[AutoBar](https://github.com/laytya/AutoBar-for-Turtle-WoW) - automatically adds potions, water, food, quest and other items you specify into buttons for easy use [[Img1](https://user-images.githubusercontent.com/26133646/39140329-83e78064-4724-11e8-9be5-b538dcabdc1e.png)]
--[AutoBuff](https://github.com/Nikoichu/AutoBuff-Turtle/tree/main) - automatically reapply buffs to yourself. Patched for TWoW's new shaman shield spells.
--[AutoConfirm](https://github.com/LukeElrod/AutoConfirm) - QOL addon to automatically confirm common popups (quests, BOP loot, replacing enchantments, etc.)
--[AutoDB](https://github.com/ERitzman/AutoDB) - Automatically does /db chests and /db rares for pfQuest users.
--[AutoDB2](https://github.com/refaim/AutoDB2) - Automatically does /db chests and /db rares for pfQuest users. Allows to setup any pfQuest commands to execute after logging in.
--[AutoDecline](https://github.com/McPewPew/AutoDecline) - Automatically decline (block) all guild, party, duel invites, as well as guild charters.
--[AutoDot](https://github.com/Atreyyo/AutoDot) - addon for warlocks who wants one button for all dots
--[AutoExpEnable](https://github.com/leenux/AutoExpEnable) - Warning when player's XP is OFF.
--[Autohump](https://github.com/EinBaum/Autohump) - Hump your friends all day long!
--[AutoLFM](https://github.com/FSuhas/AutoLFM) - Automated LFM Message [<nowiki>[img1](https://github.com/FSuhas/AutoLFM/blob/master/AutoLFM.png)</nowiki>] 
--[AutoMana](https://github.com/MarcelineVQ/AutoMana) - Automatic Mana Consume Usage
--[AutoMasterLooter](https://github.com/balakethelock/AutoMasterLooter) - Automatically loot items as masterlooter
--[Automaton](https://gitlab.com/Artur91425/Automaton) - Reduces interface tedium by doing the little things for you [[Img1](https://cloud.githubusercontent.com/assets/15636669/21586276/39de2470-d0e0-11e6-89a7-e5a1574b6a17.jpg)]
+- [_AntInvite](https://github.com/Kiiruaa/_AntInvite) - block invitation of people under level 15 [[Img1](https://user-images.githubusercontent.com/26133646/47479185-836e3a80-d82c-11e8-9a9a-e3faeac423ec.png)]
+- [_AutoBG](https://github.com/EinBaum/_AutoBG) - auto-queue, join, leave battlegrounds & instant spirit release
+- [aBindings](https://gitlab.com/aead/aBindings) - Direct macrotext-to-key bindings
+- [Abraxas](https://github.com/xorann/Abraxas) - Warlock Helper [[Img1](https://camo.githubusercontent.com/3dcd600c95ea33d282bda9e2d3f03a86e2a2ae75/68747470733a2f2f692e696d6775722e636f6d2f7635765574664e2e706e67)]
+- [ABreathBeneath](https://github.com/Lanrutcon/ABreathBeneath/tree/Vanilla-Port) - a "reskin" of the Blizzard's nameplates [[Img1](https://user-images.githubusercontent.com/26133646/39292495-a566d050-4936-11e8-8c12-05603fcdc63f.png)]
+- [Accountant](https://github.com/The-Kludge-Bureau/Accountant) - tracks your incoming / outgoing cash [[Img1](https://user-images.githubusercontent.com/26133646/39262975-40c516a4-48c1-11e8-86c0-80016f1d8807.png)] [Alt](https://github.com/terdong/Accountant)(https://github.com/terdong/Accountant Alt)
+- [ActionButtonUtils](https://github.com/Numielle/ActionButtonUtils) - Retail-like glowing for WoW 1.12 ActionButtons
+- [ActionBarProfiles](https://github.com/Siventt/ActionBarProfiles) - Create and load action bar layouts for different builds.
+- [ActionMirroringFrame](https://gitlab.com/woblight/actionmirroringframe/-/tree/vanilla) - Display a frame showing used actions [[Img1](https://user-images.githubusercontent.com/26133646/39139763-fc3055b6-4722-11e8-854f-3c66341e372e.png)]
+- [AddOnOrganizer](AddOnOrganizer) - This mod allows you to turn on and off all of your current addons
+- [aDF](Adf) - adds a small HUD that standardizes critical info about your target's defences, including Armor, Resists, and specific debuffs [[Img1](https://github.com/Zebouski/aDF/assets/11151284/d4f9b479-4498-4ec7-88c8-501f9cf759b5)] [Alt](https://github.com/Autignem/aDF)(https://github.com/Autignem/aDF Alt)
+- [AdvancedTradeSkillWindow](https://github.com/laytya/AdvancedTradeSkillWindow-vanilla/releases) - replacement for Blizzards trade skill window [<nowiki>[Img1](https://user-images.githubusercontent.com/20452393/281359573-21d345b2-001f-4c83-99ff-725101477e2b.JPG)</nowiki>] use it w/ [LSW](https://github.com/laytya/LilSparkysWorkshop-vanilla)
+- [AdvancedTradeSkillWindow2](https://github.com/Shellyoung/AdvancedTradeSkillWindow2) - Improved window for your professions for World of Warcraft vanilla (Evolution of the previous addon) [<nowiki>[Image](https://private-user-images.githubusercontent.com/40469927/465701779-cffb06ff-b310-4fb7-ba07-a04caf6e34a3.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzExMzc5NTUsIm5iZiI6MTc3MTEzNzY1NSwicGF0aCI6Ii80MDQ2OTkyNy80NjU3MDE3NzktY2ZmYjA2ZmYtYjMxMC00ZmI3LWJhMDctYTA0Y2FmNmUzNGEzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAyMTUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMjE1VDA2NDA1NVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWEyMWM1MGRkNDg0NGM5ZGVlYmFmZTJlZDVlMmFkMDRhMjcwMzgxNzlkMWU5YWIwNWVhMjVjN2ViMDA5ZDQ0ZjImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.EUn444fh0E-5PiJwJLROObvVMhkKOB2DpzKw7PyLv1Q)</nowiki>].
+- [Aero](https://github.com/gashole/Aero) - Adds animations to frames [[Img1](https://camo.githubusercontent.com/31a9cfffe7757716f2b94cd60b95e49c8fd67e82/687474703a2f2f692e696d6775722e636f6d2f4763616c5472482e676966)]
+- [agUnitFramesImproved](https://github.com/satan666/ag_UnitFrames_Improved) - Customizable unit frame addon
+- [Altoholic](https://github.com/nehswu/Altoholic_Vanilla) - Provides information about your alts. Turtle WoW version, supports cross-faction alts. [[Img1](https://github.com/Dyaxler/Altoholic_Vanilla/raw/master/Screenshots/Containers.JPG)]
+  - A version that fixes several bugs and adds modules for raid lockouts and attunements is available [here](https://github.com/gbl/Altoholic_Vanilla).
+- [AnnounceKick](https://github.com/EinBaum/AnnounceKick) - Very simple rogue addon that announces "Kick" in say chat
+- [AntiAFK](https://github.com/acid9000/AntiAfk) - Prevents AFK status and being kicked for AFK. Useful for AFKing in cities while querying Auction House with Aux-Revamped.
+- [__Anticrash](https://github.com/me0wg4ming/__Anticrash) - Unregisters all frame events before logout/reload to prevent crashes.
+- [Antispam](https://github.com/shagu/antispam) - Shagu addon to filter out goldsellers and Moo spammers on Turtle WoW
+- [AntiSpamStopCast](https://github.com/thepparker/AntiSpamStopCast) - addon to prevent cancellation of fresh spell casts when mashing the button
+- [APD](https://github.com/melbaa/apd) - Attack Power Display is an UI realtime monitor for your attack power.
+- [ArcaneSurgeWarning](https://github.com/AllinGaming/ArcaneSurgeWarning) - provides a **visual tracker** for the Arcane Surge proc
+- [Arcanum](https://github.com/TheRealFayz/Arcanum) - Manages Mage spells and items, including Turtle WoW Mage spells and items
+- [ArchiTotem](https://github.com/codeshard/ArchiTotem) - Totem bar and Timers [[Img1](https://user-images.githubusercontent.com/26133646/34494479-feb56e2c-eff0-11e7-8cd2-7672ddc26bd9.png)]
+- [ArcHud2](https://github.com/McPewPew/ArcHUD2) - Combat HUD that displays smooth arcs around your character in the middle of the screen to inform you about the health and power (mana, rage, ...) of you, your pet, and your target. [[Img1](https://felbite.com/wp-content/uploads/2022/03/felbite.com-archud-2-logo-archud-2.webp)]
+- [Artisan](https://github.com/Otari98/Artisan) - Compact professions window
+- [Atlas-TW](https://github.com/byCFM2/Atlas-TW) - Atlas, AtlasLoot, AtlasQuest updated into one new addon with more features and options.
+- [Atlas Turtle](Atlas) - View maps of dungeons and raids
+- [AtlasLoot Turtle](AtlasLoot) - Browse loot tables for Dungeons and Raids
+- [AtlasLoot-GearFilter](https://github.com/Kirchlive/AtlasLoot-GearFilter) - Simple Class Gear Filter Dependency for AtlasLoot TW Edition.
+- [AtlasQuest Turtle](AtlasQuest) - see a list of vanilla and TurtleWOW quests related to each dungeon.
+- [Attack](https://github.com/shirsig/attack) - Enable attack with /attack
+- [Akkio_Consume_Helper](https://github.com/prodigystudios/Akkio_Consume_Helper) - Manage your buffs & Consumables in real time during your adventures
+- [AttackBar](https://github.com/Road-block/AttackBar) - Player and Enemy Swing Timer addon [[Img1](https://user-images.githubusercontent.com/26133646/39252348-c08323f2-48a5-11e8-874d-e72c7e7e19d6.png)]
+- [AttackBar Turtle](https://github.com/Siventt/AttackBar-TWoW) - Player and Enemy Swing Timer addon [[Img1](https://user-images.githubusercontent.com/26133646/39252348-c08323f2-48a5-11e8-874d-e72c7e7e19d6.png)] + Turtle WoW's Holy Strike support.
+- [AuctionAltBuy](https://github.com/EinBaum/AuctionAltBuy) - Alt-Click auctions to buy and cancel instantly
+- [Aux-Revamped-Opaque](https://github.com/ftkun/Aux-Revamped-opaque)  I absolutely love Aux, but I’ve always thought the UI could use some polish — and I know many of you agree. So, I took some time to give it a facelift![https://github.com/ftkun/Aux-Revamped-opaque]
+- [Auctionator](https://github.com/nimeral/AuctionatorVanilla) - A lightweight addon designed to help manage auctions [[Img1](https://user-images.githubusercontent.com/26133646/39140814-05a2c09a-4726-11e8-8b59-e1096eba3045.png)]
+- [AuctionHelper](https://github.com/EinBaum/AuctionHelper) - helps you transfer items through the neutral auction house [[Img1](https://github.com/EinBaum/AuctionHelper/raw/master/preview.jpg?raw=true)]
+- [AuctionLink](https://github.com/Zerf/AuctionLink) - allows you to search for items in the AH by shift-clicking them
+- [AuctionSearchTimer](https://github.com/EinBaum/AuctionSearchTimer) - Timer that shows when you can refresh the AH [[Img1](http://i.imgur.com/mZmrrYi.png)]
+- [AuldLangSyne](https://github.com/Road-block/AuldLangSyne) - combines the functions of CT_PlayerNotes and FriendsFacts
+- [AutoBar](https://github.com/laytya/AutoBar-for-Turtle-WoW) - automatically adds potions, water, food, quest and other items you specify into buttons for easy use [[Img1](https://user-images.githubusercontent.com/26133646/39140329-83e78064-4724-11e8-9be5-b538dcabdc1e.png)]
+- [AutoBuff](https://github.com/Nikoichu/AutoBuff-Turtle/tree/main) - automatically reapply buffs to yourself. Patched for TWoW's new shaman shield spells.
+- [AutoConfirm](https://github.com/LukeElrod/AutoConfirm) - QOL addon to automatically confirm common popups (quests, BOP loot, replacing enchantments, etc.)
+- [AutoDB](https://github.com/ERitzman/AutoDB) - Automatically does /db chests and /db rares for pfQuest users.
+- [AutoDB2](https://github.com/refaim/AutoDB2) - Automatically does /db chests and /db rares for pfQuest users. Allows to setup any pfQuest commands to execute after logging in.
+- [AutoDecline](https://github.com/McPewPew/AutoDecline) - Automatically decline (block) all guild, party, duel invites, as well as guild charters.
+- [AutoDot](https://github.com/Atreyyo/AutoDot) - addon for warlocks who wants one button for all dots
+- [AutoExpEnable](https://github.com/leenux/AutoExpEnable) - Warning when player's XP is OFF.
+- [Autohump](https://github.com/EinBaum/Autohump) - Hump your friends all day long!
+- [AutoLFM](https://github.com/FSuhas/AutoLFM) - Automated LFM Message [<nowiki>[img1](https://github.com/FSuhas/AutoLFM/blob/master/AutoLFM.png)</nowiki>] 
+- [AutoMana](https://github.com/MarcelineVQ/AutoMana) - Automatic Mana Consume Usage
+- [AutoMasterLooter](https://github.com/balakethelock/AutoMasterLooter) - Automatically loot items as masterlooter
+- [Automaton](https://gitlab.com/Artur91425/Automaton) - Reduces interface tedium by doing the little things for you [[Img1](https://cloud.githubusercontent.com/assets/15636669/21586276/39de2470-d0e0-11e6-89a7-e5a1574b6a17.jpg)]
 **Note:** Do not use the "Attack" module if you want to be able to target friendly units while in combat (if you're unable to click party/raid frames in combat, this could be the cause).
--[AutoMessage](https://github.com/0ldi/AutoMessage) - Allows automatic sending of a message to a channel at an interval specified by a user
--[AutoProfit](https://github.com/Road-block/AutoProfit) - Easy sell trash to vendor WoW addon
--[AutoQuest](https://github.com/MickeyPickey/AutoQuest) - Instant auto-accept and auto-turn-in, picks highest value reward
--[AutoReputationBar](https://github.com/gbl/AutoReputationBar) automatically switches your reputation bar to whichever faction you last gained reputation with.
--[AutoShot](https://github.com/WouterBink/AutoShot) - Automatically take screenshots
--[AutoSpellRanker](https://github.com/Dayfiree/AutoSpellRanker) - Notifies you if there's a higher rank of spell available in your spellbook than on your bars
--[AutoTurnIn](https://github.com/Valiusha90/AutoTurnIn) - Configurable auto turn in for repeatable quests [Alt](https://github.com/fa1l1l/TW-Auto-Turn-In-fixed-/tree/main)(https://github.com/fa1l1l/TW-Auto-Turn-In-fixed-/tree/main Alt)
--[Aux](https://github.com/OldManAlpha/aux-addon) - Overhaul auction house interface [[Vid1](https://www.youtube.com/watch?v=EGt6HN3oLfY&feature=youtu.be)].
--[Aux-Revamped](https://github.com/acid9000/Aux-addon) - *Updated for 1.18* A refreshed and transparent UI update for the classic Aux auction addon [<nowiki>[Img1](https://github.com/acid9000/Aux-addon/raw/master/Tooltip-Example.png)</nowiki>]. (Defunct project link [here](https://github.com/Nelethor/Aux-Revamped))
--[AuxMerchantPrices](https://github.com/shirsig/aux_merchant_prices) - Adds merchant prices to tooltips
--[Avbars](https://github.com/topfreestyle/avbars) - Graphical Timers for Events in AV and AB
+- [AutoMessage](https://github.com/0ldi/AutoMessage) - Allows automatic sending of a message to a channel at an interval specified by a user
+- [AutoProfit](https://github.com/Road-block/AutoProfit) - Easy sell trash to vendor WoW addon
+- [AutoQuest](https://github.com/MickeyPickey/AutoQuest) - Instant auto-accept and auto-turn-in, picks highest value reward
+- [AutoReputationBar](https://github.com/gbl/AutoReputationBar) automatically switches your reputation bar to whichever faction you last gained reputation with.
+- [AutoShot](https://github.com/WouterBink/AutoShot) - Automatically take screenshots
+- [AutoSpellRanker](https://github.com/Dayfiree/AutoSpellRanker) - Notifies you if there's a higher rank of spell available in your spellbook than on your bars
+- [AutoTurnIn](https://github.com/Valiusha90/AutoTurnIn) - Configurable auto turn in for repeatable quests [Alt](https://github.com/fa1l1l/TW-Auto-Turn-In-fixed-/tree/main)(https://github.com/fa1l1l/TW-Auto-Turn-In-fixed-/tree/main Alt)
+- [Aux](https://github.com/OldManAlpha/aux-addon) - Overhaul auction house interface [[Vid1](https://www.youtube.com/watch?v=EGt6HN3oLfY&feature=youtu.be)].
+- [Aux-Revamped](https://github.com/acid9000/Aux-addon) - *Updated for 1.18* A refreshed and transparent UI update for the classic Aux auction addon [<nowiki>[Img1](https://github.com/acid9000/Aux-addon/raw/master/Tooltip-Example.png)</nowiki>]. (Defunct project link [here](https://github.com/Nelethor/Aux-Revamped))
+- [AuxMerchantPrices](https://github.com/shirsig/aux_merchant_prices) - Adds merchant prices to tooltips
+- [Avbars](https://github.com/topfreestyle/avbars) - Graphical Timers for Events in AV and AB
 
 [↑ Go to top of page ↑](Addons#Full Addons List)
 
 ### B
--[Bagnon](https://github.com/McPewPew/Bagnon) - A group of addons that improve the way the player manages his or her inventory. 
--[Bagshui](https://github.com/The-Kludge-Bureau/Bagshui) - All-in-one auto-categorizing and sorting inventory replacement for Bags and Bank with customizable layout and rules. [Alt](https://github.com/NiclasEriksen/Bagshui)(https://github.com/NiclasEriksen/Bagshui Alt)
--[BananaBar](https://github.com/balakethelock/bananabar) - buttons to set raid symbols/hunter's mark, target by symbol and many other features [[Img1](https://user-images.githubusercontent.com/26133646/39141924-76da410e-4729-11e8-94c4-ad3059821782.png)]
--[BananaRepublicProfs](https://github.com/Fox2k7/BananaRepublicProfs) - Guild profession recipe database with sharing and search functionality
--[Bartender2](https://github.com/McPewPew/Bartender2-Read-Instructions) - An AddOn to move Blizzards default actionbars and buttons.
--[BattleMusic](https://github.com/zmarotrix/BattleMusic/releases) - Plays battle music on combat start and ends when combat ends. [<nowiki>[vid1](https://www.youtube.com/watch?v=YXQPcDtmPDo)</nowiki>] [Alt1](https://github.com/Fiurs-Hearth/BattleMusic)(https://github.com/Fiurs-Hearth/BattleMusic Alt1)
--[BattleMusic Lore Friendly Music Pack](https://www.nexusmods.com/worldofwarcraft/mods/869) - Adds over 30 different Warcraft combat tunes.
--[BattleScribe](https://github.com/gabcinder2004/BattleScribe) - tracks your highest damage and healing records for each ability
--[BearCastBar](https://github.com/Fiskehatt/BearCastBar) - A cool cast bar and swing timer that takes into account latency [[Img1](https://user-images.githubusercontent.com/17283626/46246049-8712cb00-c400-11e8-9313-24981db88d6f.gif)] [[Img2](https://user-images.githubusercontent.com/17283626/46246048-84b07100-c400-11e8-999d-15da78273535.gif)]
--[Beardley's Diablo Orbs](https://github.com/Caestielle/BeardleysDiabloOrbsVanilla) - is a backported Diablo like UI [[Img1](https://i.imgur.com/ZLLwDik.jpg)]
--[Beastiary](https://github.com/CamA-dev/TurtleBeastiary) - A Tooltip extension for Mob abilities
--[Benecast](https://github.com/TcavemanT/BeneCast) - A healing and buff helper
--[BetterAlign](https://github.com/DennisWG/BetterAlign/tree/8840ee2dad218d73e5ae8b23979f552f3c2c56cd) - creates a grid on your screen to aid you in aligning and centering your UI
--[BetterBabelFish](https://github.com/yutsuku/BetterBabelFish) - Better bable talk between factions or not... whatever you like
--[Better Character Panel](https://github.com/Arthur-Helias/BetterCharacterPanel/tree/main?tab=readme-ov-file) - Improves the default character and inspect panel by adding enchants effects and more! Made for TWoW [<nowiki>[Img1](https://github.com/user-attachments/assets/140e2cf7-355f-4176-8133-1881bbc562d7)</nowiki>] [<nowiki>[Img2](https://github.com/user-attachments/assets/6fc24c99-434e-45a9-98a8-ffc088034299)</nowiki>]
--[BetterCharacterStats (BCS)](https://github.com/Otari98/BetterCharacterStats) - Backports the TBC character stats panel, collecting and centralizing info on primary but also secondary stats like spellpower, hit, crit [[Img1](https://raw.githubusercontent.com/yutsuku/BetterCharacterStats/gh-pages/images/BetterCharacterStats.png)]
--[BetterEverlookBroadcastingCo](https://github.com/JeromeM/BetterEverlookBroadcastingCo) - An improved replacement for TurtleWow's built-in Everlook Broadcasting Co radio addon.
--[BetterHelp](https://github.com/neolectron/BetterHelp) - Enhances the <code>/help</code> command to display all available slash commands from your installed addons.
--[BetterQuest](https://github.com/tlplayer/BetterQuest) - Local AI Voiceover for quests, items, gossip, and NPC in-game speech.
--[BetterScoreFrame](https://github.com/yutsuku/BetterScoreFrame) - Better Battlefield Score Frame
--[BGAssistRU](https://github.com/xVitali2/Addons-for-Vanilla-1.12.1/tree/master/BGAssistRU) - Battleground helper
--[BGFlag](https://github.com/Einherjarn/BGFlag) - Small text display of the status of the Alliance and Horde flags
--[BGReport](https://github.com/yutsuku/BGReport) - shows HUGE pie-like menu with predefined macros when you're in battleground zone [[Vid1](https://youtu.be/-YiZs4bvzU0)]
--[BigBrother](https://github.com/jejkas/BigBrother) - addon to spy on your guild mates with! [[Img1](https://user-images.githubusercontent.com/26133646/39141194-550b2dd8-4727-11e8-8eb9-80980235ec4d.png)]
--[BigTimer](Addon BigWigs) - No more macros for BigWigs pull timers, and readychecks.  
--[BigWigs](Addon BigWigs) - raid encounter helper
--[BISList](https://github.com/gabcinder2004/BISList) - Track your Best-in-Slot gear efficiently across multiple equipment lists
--[BitesCookBook](https://github.com/DBFBlackbull/BitesCookBook) - (Better Ingredients Tracking for Efficient Seasoning) shows you which cooking ingredients can be used to cook meals with.
--[BlackList](https://github.com/Zerf/BlackList) - is like Ignore, except unlimited
--[BlizzMo](https://github.com/Dyaxler/BlizzMo_Vanilla) - will move any Blizzard Frame and all your Bags
--[BlizzPlates](https://github.com/brotalnia/BlizzPlates) - adds cast bars, class and rank icons, debuffs and health numbers on the default Blizzard nameplates [[Img1](http://imgur.com/a/FfL6O)]
--[Blockvalue](https://github.com/sondli/blockvalue) - A lightweight TurtleWoW addon that shows you your total block value
--[Bloodrage](https://github.com/muellerj/Bloodrage) - Provide a single button to put you in the "default" stance and activate Bloodrage
--[BMLoot](https://github.com/McPewPew/BMLoot) - auto roll 'need' on Corrupted Sand and Arcane Essence in Black Morass
--[Bongos](https://github.com/jacamo555/Bongos) - Creates customized action bars [[2](https://github.com/UndercityAddons-Vanilla/Bongos)]
--[BonusScanner](https://github.com/jrc13245/BonusScanner) - Scans your equipment for cumulative bonuses like additional spell damage and sums them up
--[BossAlert](https://github.com/turinpt/BossAlert) - alert the guild and play a sound once something spawns under your mouse
--[BossMechanicsHelper](https://github.com/YamaYAML/BossMechanicsHelper) - An addon to share boss mechanics in a raid or group
--[BossTactics](https://github.com/jrc13245/BossTactics) - Posts pre-defined boss tactics to raid warning via slash command.
--[BossDeathTimer](https://github.com/ZenSociety/BossDeathTimer) - A simple countdown timer that displays how long the boss will die.
--[BrainSaver](https://github.com/MarcelineVQ/BrainSaver) - Save and name brainwasher specs
--[Brainwasher Pro](https://github.com/Cinecom/BrainwasherPro) - Modern Brainwasher interface with custom icons and naming for Turtle WoW [Img1](https://i.postimg.cc/QMs70jMs/Brainwasher-Pro.jpg)(https://i.postimg.cc/QMs70jMs/Brainwasher-Pro.jpg Img1)
--[BSAlert TW](https://github.com/FSuhas/BSAlert-TW) - Notifies you when BattleShout is not up
--[Bubbles](https://github.com/computerequipmentgroup/Bubbles) - Addon that displays available rested XP bubbles, how many tents are actively providing them and the remaining time until 150% rested XP
--[BuffAlert](https://github.com/brunt/BuffAlert) - The addon is able to play a sound when you gain a specific buff
--[BuffBlock](https://github.com/towneh/BuffBlock) - Automatically removes selected buffs
--[BuffBlock-TW](https://github.com/uc9089/BuffBlock-TW) - Smart Tanking Buff removal tool for each tanking class (Warrior / Druid / Paladin / Shaman). A fork from Buffblock.
--[BuffCounter](https://github.com/Geigerkind/BuffCounter) - a frame that shows you either how many buffs you can still get or how many you have currently [[Img1](https://i.imgur.com/34THkkS.png)]
--[BuffHook](https://github.com/Schaka/BuffHook) - Shows enemy buffs by hooking WoW API's UnitBuff(unitID, index) and adding buffs to it.
--[BuffReminder](https://github.com/opcow/BuffReminder) - Reminds the player when buffs have or will soon expire [[Img1](http://i.imgur.com/jpnwbj9.png)] [[Img2](http://i.imgur.com/cLyGNv9.png)]
--[BuffWatch](https://github.com/shkarlsson/BuffWatch) - Keeps track of buffs on party members in a small window and highlights them if they have run out
--[BugSack](https://github.com/McPewPew/BugSack) - Eases the process of viewing bugs
--[TWBuyPoisons](https://github.com/Phobos-Programmer/TWBuyPoisons.git) - Buy Stacks of Poison Components
+- [Bagnon](https://github.com/McPewPew/Bagnon) - A group of addons that improve the way the player manages his or her inventory. 
+- [Bagshui](https://github.com/The-Kludge-Bureau/Bagshui) - All-in-one auto-categorizing and sorting inventory replacement for Bags and Bank with customizable layout and rules. [Alt](https://github.com/NiclasEriksen/Bagshui)(https://github.com/NiclasEriksen/Bagshui Alt)
+- [BananaBar](https://github.com/balakethelock/bananabar) - buttons to set raid symbols/hunter's mark, target by symbol and many other features [[Img1](https://user-images.githubusercontent.com/26133646/39141924-76da410e-4729-11e8-94c4-ad3059821782.png)]
+- [BananaRepublicProfs](https://github.com/Fox2k7/BananaRepublicProfs) - Guild profession recipe database with sharing and search functionality
+- [Bartender2](https://github.com/McPewPew/Bartender2-Read-Instructions) - An AddOn to move Blizzards default actionbars and buttons.
+- [BattleMusic](https://github.com/zmarotrix/BattleMusic/releases) - Plays battle music on combat start and ends when combat ends. [<nowiki>[vid1](https://www.youtube.com/watch?v=YXQPcDtmPDo)</nowiki>] [Alt1](https://github.com/Fiurs-Hearth/BattleMusic)(https://github.com/Fiurs-Hearth/BattleMusic Alt1)
+- [BattleMusic Lore Friendly Music Pack](https://www.nexusmods.com/worldofwarcraft/mods/869) - Adds over 30 different Warcraft combat tunes.
+- [BattleScribe](https://github.com/gabcinder2004/BattleScribe) - tracks your highest damage and healing records for each ability
+- [BearCastBar](https://github.com/Fiskehatt/BearCastBar) - A cool cast bar and swing timer that takes into account latency [[Img1](https://user-images.githubusercontent.com/17283626/46246049-8712cb00-c400-11e8-9313-24981db88d6f.gif)] [[Img2](https://user-images.githubusercontent.com/17283626/46246048-84b07100-c400-11e8-999d-15da78273535.gif)]
+- [Beardley's Diablo Orbs](https://github.com/Caestielle/BeardleysDiabloOrbsVanilla) - is a backported Diablo like UI [[Img1](https://i.imgur.com/ZLLwDik.jpg)]
+- [Beastiary](https://github.com/CamA-dev/TurtleBeastiary) - A Tooltip extension for Mob abilities
+- [Benecast](https://github.com/TcavemanT/BeneCast) - A healing and buff helper
+- [BetterAlign](https://github.com/DennisWG/BetterAlign/tree/8840ee2dad218d73e5ae8b23979f552f3c2c56cd) - creates a grid on your screen to aid you in aligning and centering your UI
+- [BetterBabelFish](https://github.com/yutsuku/BetterBabelFish) - Better bable talk between factions or not... whatever you like
+- [Better Character Panel](https://github.com/Arthur-Helias/BetterCharacterPanel/tree/main?tab=readme-ov-file) - Improves the default character and inspect panel by adding enchants effects and more! Made for TWoW [<nowiki>[Img1](https://github.com/user-attachments/assets/140e2cf7-355f-4176-8133-1881bbc562d7)</nowiki>] [<nowiki>[Img2](https://github.com/user-attachments/assets/6fc24c99-434e-45a9-98a8-ffc088034299)</nowiki>]
+- [BetterCharacterStats (BCS)](https://github.com/Otari98/BetterCharacterStats) - Backports the TBC character stats panel, collecting and centralizing info on primary but also secondary stats like spellpower, hit, crit [[Img1](https://raw.githubusercontent.com/yutsuku/BetterCharacterStats/gh-pages/images/BetterCharacterStats.png)]
+- [BetterEverlookBroadcastingCo](https://github.com/JeromeM/BetterEverlookBroadcastingCo) - An improved replacement for TurtleWow's built-in Everlook Broadcasting Co radio addon.
+- [BetterHelp](https://github.com/neolectron/BetterHelp) - Enhances the <code>/help</code> command to display all available slash commands from your installed addons.
+- [BetterQuest](https://github.com/tlplayer/BetterQuest) - Local AI Voiceover for quests, items, gossip, and NPC in-game speech.
+- [BetterScoreFrame](https://github.com/yutsuku/BetterScoreFrame) - Better Battlefield Score Frame
+- [BGAssistRU](https://github.com/xVitali2/Addons-for-Vanilla-1.12.1/tree/master/BGAssistRU) - Battleground helper
+- [BGFlag](https://github.com/Einherjarn/BGFlag) - Small text display of the status of the Alliance and Horde flags
+- [BGReport](https://github.com/yutsuku/BGReport) - shows HUGE pie-like menu with predefined macros when you're in battleground zone [[Vid1](https://youtu.be/-YiZs4bvzU0)]
+- [BigBrother](https://github.com/jejkas/BigBrother) - addon to spy on your guild mates with! [[Img1](https://user-images.githubusercontent.com/26133646/39141194-550b2dd8-4727-11e8-8eb9-80980235ec4d.png)]
+- [BigTimer](Addon BigWigs) - No more macros for BigWigs pull timers, and readychecks.  
+- [BigWigs](Addon BigWigs) - raid encounter helper
+- [BISList](https://github.com/gabcinder2004/BISList) - Track your Best-in-Slot gear efficiently across multiple equipment lists
+- [BitesCookBook](https://github.com/DBFBlackbull/BitesCookBook) - (Better Ingredients Tracking for Efficient Seasoning) shows you which cooking ingredients can be used to cook meals with.
+- [BlackList](https://github.com/Zerf/BlackList) - is like Ignore, except unlimited
+- [BlizzMo](https://github.com/Dyaxler/BlizzMo_Vanilla) - will move any Blizzard Frame and all your Bags
+- [BlizzPlates](https://github.com/brotalnia/BlizzPlates) - adds cast bars, class and rank icons, debuffs and health numbers on the default Blizzard nameplates [[Img1](http://imgur.com/a/FfL6O)]
+- [Blockvalue](https://github.com/sondli/blockvalue) - A lightweight TurtleWoW addon that shows you your total block value
+- [Bloodrage](https://github.com/muellerj/Bloodrage) - Provide a single button to put you in the "default" stance and activate Bloodrage
+- [BMLoot](https://github.com/McPewPew/BMLoot) - auto roll 'need' on Corrupted Sand and Arcane Essence in Black Morass
+- [Bongos](https://github.com/jacamo555/Bongos) - Creates customized action bars [[2](https://github.com/UndercityAddons-Vanilla/Bongos)]
+- [BonusScanner](https://github.com/jrc13245/BonusScanner) - Scans your equipment for cumulative bonuses like additional spell damage and sums them up
+- [BossAlert](https://github.com/turinpt/BossAlert) - alert the guild and play a sound once something spawns under your mouse
+- [BossMechanicsHelper](https://github.com/YamaYAML/BossMechanicsHelper) - An addon to share boss mechanics in a raid or group
+- [BossTactics](https://github.com/jrc13245/BossTactics) - Posts pre-defined boss tactics to raid warning via slash command.
+- [BossDeathTimer](https://github.com/ZenSociety/BossDeathTimer) - A simple countdown timer that displays how long the boss will die.
+- [BrainSaver](https://github.com/MarcelineVQ/BrainSaver) - Save and name brainwasher specs
+- [Brainwasher Pro](https://github.com/Cinecom/BrainwasherPro) - Modern Brainwasher interface with custom icons and naming for Turtle WoW [Img1](https://i.postimg.cc/QMs70jMs/Brainwasher-Pro.jpg)(https://i.postimg.cc/QMs70jMs/Brainwasher-Pro.jpg Img1)
+- [BSAlert TW](https://github.com/FSuhas/BSAlert-TW) - Notifies you when BattleShout is not up
+- [Bubbles](https://github.com/computerequipmentgroup/Bubbles) - Addon that displays available rested XP bubbles, how many tents are actively providing them and the remaining time until 150% rested XP
+- [BuffAlert](https://github.com/brunt/BuffAlert) - The addon is able to play a sound when you gain a specific buff
+- [BuffBlock](https://github.com/towneh/BuffBlock) - Automatically removes selected buffs
+- [BuffBlock-TW](https://github.com/uc9089/BuffBlock-TW) - Smart Tanking Buff removal tool for each tanking class (Warrior / Druid / Paladin / Shaman). A fork from Buffblock.
+- [BuffCounter](https://github.com/Geigerkind/BuffCounter) - a frame that shows you either how many buffs you can still get or how many you have currently [[Img1](https://i.imgur.com/34THkkS.png)]
+- [BuffHook](https://github.com/Schaka/BuffHook) - Shows enemy buffs by hooking WoW API's UnitBuff(unitID, index) and adding buffs to it.
+- [BuffReminder](https://github.com/opcow/BuffReminder) - Reminds the player when buffs have or will soon expire [[Img1](http://i.imgur.com/jpnwbj9.png)] [[Img2](http://i.imgur.com/cLyGNv9.png)]
+- [BuffWatch](https://github.com/shkarlsson/BuffWatch) - Keeps track of buffs on party members in a small window and highlights them if they have run out
+- [BugSack](https://github.com/McPewPew/BugSack) - Eases the process of viewing bugs
+- [TWBuyPoisons](https://github.com/Phobos-Programmer/TWBuyPoisons.git) - Buy Stacks of Poison Components
 
 [↑ Go to top of page ↑](Addons#Full Addons List)
 
 ### C
--[CallOfElements](CallOfElements) - Shaman addon to simplify totem usage, increase your efficiency in party and PVP [[Img1](https://user-images.githubusercontent.com/26133646/47299339-46325e80-d61a-11e8-897a-93d0ec41dba7.png)], updated to work with Turtle Warcraft
--[CallToArms](https://github.com/Road-block/CallToArms) - Group Hosting, Finding Addon [[Fu](https://github.com/Road-block/FuBar_CTAFu)]
--[Capslock](https://github.com/Sentilix/capslock) - Warlock summon addon
--[CaramelNotes](https://github.com/MrToffee/CaramelNotes) - Write notes about other players. [[Img1](https://raw.githubusercontent.com/MrToffee/CaramelNotes/refs/heads/main/Images/Notes.png)]
--[carinachut](https://gitlab.com/Alizia/carinachut) - gold seller bots blocker
--[Carbonite](https://gitlab.com/knights-of-sunwell/carbonite-vanilla) - Google Maps style world map with built in quest helper, resource nodes and a warehouse
--[Cartographer for TurtleWoW](https://github.com/shagu/Cartographer) - A modular, lightweight, and efficient framework for manipulation of the world map
--[CasterStats](https://github.com/Linae-Kronos/CasterStats) - CasterStats, adds the attribute Spell Dmg in the Character Panel (with hit & crit) [[Img1](https://user-images.githubusercontent.com/24671466/27561934-7b887bfe-5aca-11e7-97b3-41ac64b604fe.png)] (must also install **BonusScanner**)
--[CastHistoryTracker](https://github.com/Abstr4ctz/CastHistoryTracker) - Animated and highly customisable on-screen spell cast history for up to 11 units simultaneously. [img](https://github.com/user-attachments/assets/cf1c676f-060c-4fe9-b257-5ad55da048e0)(https://github.com/user-attachments/assets/cf1c676f-060c-4fe9-b257-5ad55da048e0 img)
--[CastTimer](https://github.com/pepopo978/CastTimer) - Tool for measuring cast times in twow
--[CatDruidDPS](https://github.com/Cernie/CatDruidDPS) - One button feral druid dps
--[Caterer](https://gitlab.com/Artur91425/Caterer) - Auto-trades preset stack counts of water & food to players opening trade [[Img1](https://user-images.githubusercontent.com/24303693/34414693-bfe0eae4-ebfb-11e7-8f45-c1f20cafccd2.jpg)]
--[CCWatch](https://github.com/shirsig/ccwatch) - Enemy CC & DR progress bars with icons [[Img1](https://camo.githubusercontent.com/370198892590c3545d182d805acee491b9458b23/687474703a2f2f692e696d6775722e636f6d2f446243325636642e706e67)]
--[CDFrames](https://github.com/shirsig/cdframes) - Cooldown timers for player, target and targettarget [[Img1](https://camo.githubusercontent.com/40bb1aed1e052c83efc9bf1d63367d9a10787d80/687474703a2f2f692e696d6775722e636f6d2f597264387650662e706e67)]
--[CensusPlusTurtle](https://github.com/cyaohiri/CensusPlusTurtle) - Collects and displays census information for Turtle WoW. [[Img1](https://raw.githubusercontent.com/cyaohiri/CensusPlusTurtle/main/Preview.png)]
--[CerniesWonderfulFunctions](https://github.com/Cernie/CerniesWonderfulFunctions) - Script methods for using specific items and helping players create simple(er) macros
--[Channel monitor](https://github.com/shirsig/channel_monitor) - addOn for monitoring the chat for specific keywords [[Img1](https://i.imgur.com/B1N57HM.png)]
--[ChaosReserves](https://github.com/rnorden/ChaosReserves) - Self-service reserve managing chatbot
--[CharacterMap](https://github.com/Bergador/CharacterMap) - Provides a virtual keyboard of higher-ASCII and Unicode characters which can be inserted into chat boxes
--[CharacterProfiler](https://github.com/celguar/CharacterProfiler) - Export Character Profiles for use out-of-game
--[ChatBar](https://github.com/0ldi/ChatBar) - Button Bar for opening chat messages of each type
--[ChatEmote](https://github.com/Road-block/ChatEmote) - Chat emoticon to Emote Addon
--[ChatFix](https://github.com/0ldi/ChatFix) - Fix for channels World, Trade, etc.
--[ChatLog](https://github.com/0ldi/ChatLog) - Gives you the ability to view or copy/paste any chat logs
--[ChatLootBidder](https://github.com/trumpetx/ChatLootBidder) - A Master-Loot addon to assist in loot distribution.  Works with MS/OS, SR, and Bid systems.  Does not require raiders to install the addon.
--[ChatMonitor](https://github.com/cryptokn1ght-dev/ChatMonitor) - Monitors the chat and alerts you when user-defined keywords are found. Features a nice GUI and a right-clickable minimap button to start/stop the monitoring. [[Img1](https://github.com/cryptokn1ght-dev/ChatMonitor/raw/main/cm_preview_.png)]
--[Chatsuey](https://github.com/ScottHamper/chatsuey) - A collection of chat enhancement addons
--[ChatTimestamps](https://github.com/wbb1977/ChatTimestamps) - Adds customizable timestamps to chat windows
--[Chicken Jockey](https://github.com/SwizzPop/ChickenJockey) - Creates joke titles and shareable links for in-game items
--[ChronicleCompanion](https://github.com/Emyrk/ChronicleCompanion/) - Combat logging for the raid logging website [ChronicleClassic](Raid Logging (ChronicleClassic)). Upload raid logs for analysis and details.
--[ChroniclesBuffAssignments](https://github.com/EinBaum/ChroniclesBuffAssignments) - Automatically generates raid buff assignments that can be copy pasted in the chat
--[ChroniclesPI](https://github.com/EinBaum/ChroniclesPI) - Cast Power Infusion on people who request it via whisper
--[ChroniclesPTR](https://github.com/EinBaum/ChroniclesPTR) - Gamemaster raid organization on PTRs
--[Chronometer](Chronometer) - tracks spell effects (HoTs, DoTs, buffs, debuffs, etc.) that you cast
--[Classicdb](https://github.com/Muehe/classicdb) - helps you to find ingame stuff and getting your quests done
--[ClassicMouseover](https://github.com/satan666/LazySpell) - Mouseover casting support for Vanilla
--[ClassIcons](https://github.com/refaim/ClassIcons) - Displays class icons near your target’s and party members’ portraits
--[ClassicSnowFall](https://github.com/Road-block/ClassicSnowFall) - Cast Abilities on KeyDown
--[ClassPortraits](https://github.com/Ko0z/ClassPortraits_Vanilla) - replaces 2D portraits with a class icon [[Img1](https://user-images.githubusercontent.com/26133646/39146572-6dd31956-4737-11e8-9ee2-c2a22a70552b.png)]
--[CleanChat](https://github.com/refaim/CleanChat) - Colorize names, shows level, shortens channel names and more. Turtle WoW version, can show players factions in chat.
--[CleanPlayerFrame](https://github.com/wbb1977/CleanPlayerFrame) - Small enhancement for the standard player, target and party frames
--[Cleanup](https://github.com/shirsig/Cleanup-vanilla) - This addOn automatically stacks and sorts your items [[Vid1](https://www.youtube.com/watch?v=DGjBcyg4cys)]
-  -["Deprecated" version of Cleanup](https://github.com/shirsig/Clean_Up) that seems to require SUCC-bag. May work as an alternative for some users if the original doesn't function for them.[https://github.com/shirsig/Clean_Up]
--[CleverMacro](https://github.com/DanielAdolfsson/CleverMacro) - Adds extra slash commands for use in macros
--[CleveRoidMacros](https://github.com/cutiepoka/CleveRoidMacros?tab=readme-ov-file#slash-commands) - More advanced and modern style macros.  Lovechild of CleverMacro + Roid-Macros
--[CliffTells](https://github.com/ItsLusse/CliffTells) - announces when a guild member dies, levels up, becomes Immortal, or enters the Inferno challenge, and keeps logs of these events  
--[Clique](https://github.com/shagu/Clique) - Simply powerful click-casting interface (Shagu - May 2023).
--[CLog](https://github.com/Cabro/CLog) - API events logging [[Img1](https://user-images.githubusercontent.com/26133646/39194122-4575d196-47dd-11e8-8487-633f34fd0aa6.png)]
--[CloseUp](https://github.com/Road-block/CloseUp) - Allows you to zoom, reposition, and rotate the UI's built-in models so that you may get a better view
--[CMap](https://github.com/turinpt/CMap) - Backport of SexyMap [[Img1](https://user-images.githubusercontent.com/26133646/39146010-cc41df7e-4735-11e8-9d29-031a5dae3968.png)]
--[Codex](https://github.com/Chad90b/codex) - Displays mobs' spells on mouseover.
--[ColorPickerPlus](https://github.com/mr-rosh/ColorPickerPlus) - Hooks into the standard Color Picker to provide text entry for colors
--[ColorSocialFrame](https://github.com/Road-block/ColorSocialFrame) - Class Color Friends, Guild and Who List addon [[Img1](https://raw.githubusercontent.com/Road-block/ColorSocialFrame/docs/guild.png)]
--[Combat](https://github.com/zirtox1992/Combat) - Shows a combat indicator next to the Target Frame whenever the target is in combat
--[CombatLoggingReminder](https://github.com/trumpetx/CombatLoggingReminder) - Do you forget to enable combat logs in raids? This helps you not forget!
--[CombatPlates](https://github.com/phrxqt/CombatPlates) - Nameplate visibility auto-switching and control. Lets you pick which nameplates (friendly/enemy) should be visible in and out of combat. 
--[Comix](https://github.com/Cysthen/Comix) (Susangrundle/Cysthen) or [Comix](https://github.com/Goose404/Comix) (Goose404) - Adds sounds and special effects to your interface
--[CompanionManager](https://github.com/sica42/CompanionManager) - Radial menu to easily summon companions. [Video](https://i.imgur.com/WlKdqNj.gif)(https://i.imgur.com/WlKdqNj.gif Video)
--[ConsoleExperienceClassic](https://github.com/pepordev/ConsoleExperienceClassic) - Console support for WoW Vanilla 1.12 [Videos](https://youtube.com/playlist?list=PLTY0NFyVGLrUhCEH55gXD9Bt9P13FYQY0&si=d6P7L2_CQ8GB1pRj)(https://youtube.com/playlist?list=PLTY0NFyVGLrUhCEH55gXD9Bt9P13FYQY0&si=d6P7L2_CQ8GB1pRj Videos)
--[Consumes Manager](https://github.com/Cinecom/ConsumesManager) - Easily track and manage your consumables, food buffs, and more across your inventory, bank, and mail, while supporting multiple characters and accounts. Created with ♥ by Horyoshi for World of Warcraft 1.12 Turtle WoW [Video Overview](https://www.youtube.com/watch?v=GMo-7vIHxl0)(https://www.youtube.com/watch?v=GMo-7vIHxl0 Video Overview)
--[CooldownTimers](https://github.com/Road-block/CooldownTimers) - scans your spellbook/inventory for skills/items that are in cooldown and add them to bars [[Img1](https://user-images.githubusercontent.com/26133646/39303487-a452efd0-4956-11e8-8a16-4b8c70a3b29c.png)]
--[CooldownTracker](https://github.com/Abstr4ctz/CooldownTracker) - Auras for tracking your spell and item cooldowns. [<nowiki>[Img1](https://i.imgur.com/NfMFjNM.png)</nowiki>]
--[CoolHealthBar](https://github.com/Redbu11dev/CoolHealthBar) - Extra health and power bar. [<nowiki>[Img1](https://i.imgur.com/9FUPN3k.png)</nowiki>]
--[Cooline](https://github.com/shirsig/cooline) - cooldown mod that displays icons on a single bar/line to give you an idea of when it will be ready [[Img1](https://cloud.githubusercontent.com/assets/26133646/25944440/9fbdfe1e-3643-11e7-8dbf-75a5514550c1.jpg)]
--[CorpseInfo](https://github.com/wbb1977/CorpseInfo) - Adds class, level, online status to the tooltip for a corpse
--[Crafty](https://github.com/shirsig/crafty) - Lightweight craft/tradeskill window [[Img1](https://camo.githubusercontent.com/10376e1238285cbef8e116cf36d0e6279607f32c/687474703a2f2f692e696d6775722e636f6d2f796c437474646b2e706e67)]
--[Crapfilter](https://github.com/Metalgrid/crapfilter) - Blocks messages
--[Critei](https://github.com/Caracioly/Critei) - An simple way to share your highest damage with your friends [<nowiki>[Img1](https://camo.githubusercontent.com/0c8057469cad5dfc5a410be959a7a90b327d2c98b002871cb112f9723c3e6734/68747470733a2f2f692e696d6775722e636f6d2f6535453631504a2e706e67)</nowiki>]
--[Crusader](https://github.com/Azgaardian/Crusader) - Sphere addon for Paladins, mainly for solo play
--[Cryolysis](https://github.com/laytya/Vanilla-Addons/blob/master/Cryolysis.zip) - Management of Mage spells, abilities, and reagents. Not updated for Turtle WoW like the Arcanum addon is.
--[CT BuffMod Sorted](https://github.com/AeroScripts/CT_BuffMod_Sorted) - A quick edit of CT BuffMod to sort buffs properly
--[CT MailMod](https://github.com/Einherjarn/CT_MailMod) - Allows you to send multiple mails to the same person
--[CT PlayerNotes](https://github.com/WoWruRU-ClassicAddons/CT_PlayerNotes) - Allows you to save notes for your friends, guildies & ignored persons.
--[CT UnitFrames](https://github.com/yutsuku/CT_UnitFrames) - Changes display of hp/mana values and adds a percentage
--[CThunWarner](https://github.com/McPewPew/CThunWarner) - Provides information for C'Thun raids
--[CThunPositions](https://github.com/Cinecom/CThunPositions/) - Allows you to drag the raid members on a map of C'Thun to help with positioning in phase 1 [Img1](https://i.ibb.co/s9vL2CD/image.webp)(https://i.ibb.co/s9vL2CD/image.webp Img1)
--[CustomIcons](https://github.com/Tarkusx/CustomIcons) - Create and manage custom floating icons.
--[CustomNameplates](https://github.com/laytya/CustomNameplates) - Nameplate addon [[Img1](https://camo.githubusercontent.com/07ba99a5ed0f6e28a9717e67ead1fad2e8a9ef84/687474703a2f2f692e696d6775722e636f6d2f653041617a734d2e706e67)] [[Img2](https://camo.githubusercontent.com/280a59732b093670d5b90b9d50ca9598cd41fc59/687474703a2f2f692e696d6775722e636f6d2f346f35467271772e6a7067)]
--[cyCircled](https://github.com/retrospectx/cyCircled) - changes the look of various buttons (mostly action bar buttons) [[Img1](http://imgur.com/fmatXIX)]
+- [CallOfElements](CallOfElements) - Shaman addon to simplify totem usage, increase your efficiency in party and PVP [[Img1](https://user-images.githubusercontent.com/26133646/47299339-46325e80-d61a-11e8-897a-93d0ec41dba7.png)], updated to work with Turtle Warcraft
+- [CallToArms](https://github.com/Road-block/CallToArms) - Group Hosting, Finding Addon [[Fu](https://github.com/Road-block/FuBar_CTAFu)]
+- [Capslock](https://github.com/Sentilix/capslock) - Warlock summon addon
+- [CaramelNotes](https://github.com/MrToffee/CaramelNotes) - Write notes about other players. [[Img1](https://raw.githubusercontent.com/MrToffee/CaramelNotes/refs/heads/main/Images/Notes.png)]
+- [carinachut](https://gitlab.com/Alizia/carinachut) - gold seller bots blocker
+- [Carbonite](https://gitlab.com/knights-of-sunwell/carbonite-vanilla) - Google Maps style world map with built in quest helper, resource nodes and a warehouse
+- [Cartographer for TurtleWoW](https://github.com/shagu/Cartographer) - A modular, lightweight, and efficient framework for manipulation of the world map
+- [CasterStats](https://github.com/Linae-Kronos/CasterStats) - CasterStats, adds the attribute Spell Dmg in the Character Panel (with hit & crit) [[Img1](https://user-images.githubusercontent.com/24671466/27561934-7b887bfe-5aca-11e7-97b3-41ac64b604fe.png)] (must also install **BonusScanner**)
+- [CastHistoryTracker](https://github.com/Abstr4ctz/CastHistoryTracker) - Animated and highly customisable on-screen spell cast history for up to 11 units simultaneously. [img](https://github.com/user-attachments/assets/cf1c676f-060c-4fe9-b257-5ad55da048e0)(https://github.com/user-attachments/assets/cf1c676f-060c-4fe9-b257-5ad55da048e0 img)
+- [CastTimer](https://github.com/pepopo978/CastTimer) - Tool for measuring cast times in twow
+- [CatDruidDPS](https://github.com/Cernie/CatDruidDPS) - One button feral druid dps
+- [Caterer](https://gitlab.com/Artur91425/Caterer) - Auto-trades preset stack counts of water & food to players opening trade [[Img1](https://user-images.githubusercontent.com/24303693/34414693-bfe0eae4-ebfb-11e7-8f45-c1f20cafccd2.jpg)]
+- [CCWatch](https://github.com/shirsig/ccwatch) - Enemy CC & DR progress bars with icons [[Img1](https://camo.githubusercontent.com/370198892590c3545d182d805acee491b9458b23/687474703a2f2f692e696d6775722e636f6d2f446243325636642e706e67)]
+- [CDFrames](https://github.com/shirsig/cdframes) - Cooldown timers for player, target and targettarget [[Img1](https://camo.githubusercontent.com/40bb1aed1e052c83efc9bf1d63367d9a10787d80/687474703a2f2f692e696d6775722e636f6d2f597264387650662e706e67)]
+- [CensusPlusTurtle](https://github.com/cyaohiri/CensusPlusTurtle) - Collects and displays census information for Turtle WoW. [[Img1](https://raw.githubusercontent.com/cyaohiri/CensusPlusTurtle/main/Preview.png)]
+- [CerniesWonderfulFunctions](https://github.com/Cernie/CerniesWonderfulFunctions) - Script methods for using specific items and helping players create simple(er) macros
+- [Channel monitor](https://github.com/shirsig/channel_monitor) - addOn for monitoring the chat for specific keywords [[Img1](https://i.imgur.com/B1N57HM.png)]
+- [ChaosReserves](https://github.com/rnorden/ChaosReserves) - Self-service reserve managing chatbot
+- [CharacterMap](https://github.com/Bergador/CharacterMap) - Provides a virtual keyboard of higher-ASCII and Unicode characters which can be inserted into chat boxes
+- [CharacterProfiler](https://github.com/celguar/CharacterProfiler) - Export Character Profiles for use out-of-game
+- [ChatBar](https://github.com/0ldi/ChatBar) - Button Bar for opening chat messages of each type
+- [ChatEmote](https://github.com/Road-block/ChatEmote) - Chat emoticon to Emote Addon
+- [ChatFix](https://github.com/0ldi/ChatFix) - Fix for channels World, Trade, etc.
+- [ChatLog](https://github.com/0ldi/ChatLog) - Gives you the ability to view or copy/paste any chat logs
+- [ChatLootBidder](https://github.com/trumpetx/ChatLootBidder) - A Master-Loot addon to assist in loot distribution.  Works with MS/OS, SR, and Bid systems.  Does not require raiders to install the addon.
+- [ChatMonitor](https://github.com/cryptokn1ght-dev/ChatMonitor) - Monitors the chat and alerts you when user-defined keywords are found. Features a nice GUI and a right-clickable minimap button to start/stop the monitoring. [[Img1](https://github.com/cryptokn1ght-dev/ChatMonitor/raw/main/cm_preview_.png)]
+- [Chatsuey](https://github.com/ScottHamper/chatsuey) - A collection of chat enhancement addons
+- [ChatTimestamps](https://github.com/wbb1977/ChatTimestamps) - Adds customizable timestamps to chat windows
+- [Chicken Jockey](https://github.com/SwizzPop/ChickenJockey) - Creates joke titles and shareable links for in-game items
+- [ChronicleCompanion](https://github.com/Emyrk/ChronicleCompanion/) - Combat logging for the raid logging website [ChronicleClassic](Raid Logging (ChronicleClassic)). Upload raid logs for analysis and details.
+- [ChroniclesBuffAssignments](https://github.com/EinBaum/ChroniclesBuffAssignments) - Automatically generates raid buff assignments that can be copy pasted in the chat
+- [ChroniclesPI](https://github.com/EinBaum/ChroniclesPI) - Cast Power Infusion on people who request it via whisper
+- [ChroniclesPTR](https://github.com/EinBaum/ChroniclesPTR) - Gamemaster raid organization on PTRs
+- [Chronometer](Chronometer) - tracks spell effects (HoTs, DoTs, buffs, debuffs, etc.) that you cast
+- [Classicdb](https://github.com/Muehe/classicdb) - helps you to find ingame stuff and getting your quests done
+- [ClassicMouseover](https://github.com/satan666/LazySpell) - Mouseover casting support for Vanilla
+- [ClassIcons](https://github.com/refaim/ClassIcons) - Displays class icons near your target’s and party members’ portraits
+- [ClassicSnowFall](https://github.com/Road-block/ClassicSnowFall) - Cast Abilities on KeyDown
+- [ClassPortraits](https://github.com/Ko0z/ClassPortraits_Vanilla) - replaces 2D portraits with a class icon [[Img1](https://user-images.githubusercontent.com/26133646/39146572-6dd31956-4737-11e8-9ee2-c2a22a70552b.png)]
+- [CleanChat](https://github.com/refaim/CleanChat) - Colorize names, shows level, shortens channel names and more. Turtle WoW version, can show players factions in chat.
+- [CleanPlayerFrame](https://github.com/wbb1977/CleanPlayerFrame) - Small enhancement for the standard player, target and party frames
+- [Cleanup](https://github.com/shirsig/Cleanup-vanilla) - This addOn automatically stacks and sorts your items [[Vid1](https://www.youtube.com/watch?v=DGjBcyg4cys)]
+  - ["Deprecated" version of Cleanup](https://github.com/shirsig/Clean_Up) that seems to require SUCC-bag. May work as an alternative for some users if the original doesn't function for them.[https://github.com/shirsig/Clean_Up]
+- [CleverMacro](https://github.com/DanielAdolfsson/CleverMacro) - Adds extra slash commands for use in macros
+- [CleveRoidMacros](https://github.com/cutiepoka/CleveRoidMacros?tab=readme-ov-file#slash-commands) - More advanced and modern style macros.  Lovechild of CleverMacro + Roid-Macros
+- [CliffTells](https://github.com/ItsLusse/CliffTells) - announces when a guild member dies, levels up, becomes Immortal, or enters the Inferno challenge, and keeps logs of these events  
+- [Clique](https://github.com/shagu/Clique) - Simply powerful click-casting interface (Shagu - May 2023).
+- [CLog](https://github.com/Cabro/CLog) - API events logging [[Img1](https://user-images.githubusercontent.com/26133646/39194122-4575d196-47dd-11e8-8487-633f34fd0aa6.png)]
+- [CloseUp](https://github.com/Road-block/CloseUp) - Allows you to zoom, reposition, and rotate the UI's built-in models so that you may get a better view
+- [CMap](https://github.com/turinpt/CMap) - Backport of SexyMap [[Img1](https://user-images.githubusercontent.com/26133646/39146010-cc41df7e-4735-11e8-9d29-031a5dae3968.png)]
+- [Codex](https://github.com/Chad90b/codex) - Displays mobs' spells on mouseover.
+- [ColorPickerPlus](https://github.com/mr-rosh/ColorPickerPlus) - Hooks into the standard Color Picker to provide text entry for colors
+- [ColorSocialFrame](https://github.com/Road-block/ColorSocialFrame) - Class Color Friends, Guild and Who List addon [[Img1](https://raw.githubusercontent.com/Road-block/ColorSocialFrame/docs/guild.png)]
+- [Combat](https://github.com/zirtox1992/Combat) - Shows a combat indicator next to the Target Frame whenever the target is in combat
+- [CombatLoggingReminder](https://github.com/trumpetx/CombatLoggingReminder) - Do you forget to enable combat logs in raids? This helps you not forget!
+- [CombatPlates](https://github.com/phrxqt/CombatPlates) - Nameplate visibility auto-switching and control. Lets you pick which nameplates (friendly/enemy) should be visible in and out of combat. 
+- [Comix](https://github.com/Cysthen/Comix) (Susangrundle/Cysthen) or [Comix](https://github.com/Goose404/Comix) (Goose404) - Adds sounds and special effects to your interface
+- [CompanionManager](https://github.com/sica42/CompanionManager) - Radial menu to easily summon companions. [Video](https://i.imgur.com/WlKdqNj.gif)(https://i.imgur.com/WlKdqNj.gif Video)
+- [ConsoleExperienceClassic](https://github.com/pepordev/ConsoleExperienceClassic) - Console support for WoW Vanilla 1.12 [Videos](https://youtube.com/playlist?list=PLTY0NFyVGLrUhCEH55gXD9Bt9P13FYQY0&si=d6P7L2_CQ8GB1pRj)(https://youtube.com/playlist?list=PLTY0NFyVGLrUhCEH55gXD9Bt9P13FYQY0&si=d6P7L2_CQ8GB1pRj Videos)
+- [Consumes Manager](https://github.com/Cinecom/ConsumesManager) - Easily track and manage your consumables, food buffs, and more across your inventory, bank, and mail, while supporting multiple characters and accounts. Created with ♥ by Horyoshi for World of Warcraft 1.12 Turtle WoW [Video Overview](https://www.youtube.com/watch?v=GMo-7vIHxl0)(https://www.youtube.com/watch?v=GMo-7vIHxl0 Video Overview)
+- [CooldownTimers](https://github.com/Road-block/CooldownTimers) - scans your spellbook/inventory for skills/items that are in cooldown and add them to bars [[Img1](https://user-images.githubusercontent.com/26133646/39303487-a452efd0-4956-11e8-8a16-4b8c70a3b29c.png)]
+- [CooldownTracker](https://github.com/Abstr4ctz/CooldownTracker) - Auras for tracking your spell and item cooldowns. [<nowiki>[Img1](https://i.imgur.com/NfMFjNM.png)</nowiki>]
+- [CoolHealthBar](https://github.com/Redbu11dev/CoolHealthBar) - Extra health and power bar. [<nowiki>[Img1](https://i.imgur.com/9FUPN3k.png)</nowiki>]
+- [Cooline](https://github.com/shirsig/cooline) - cooldown mod that displays icons on a single bar/line to give you an idea of when it will be ready [[Img1](https://cloud.githubusercontent.com/assets/26133646/25944440/9fbdfe1e-3643-11e7-8dbf-75a5514550c1.jpg)]
+- [CorpseInfo](https://github.com/wbb1977/CorpseInfo) - Adds class, level, online status to the tooltip for a corpse
+- [Crafty](https://github.com/shirsig/crafty) - Lightweight craft/tradeskill window [[Img1](https://camo.githubusercontent.com/10376e1238285cbef8e116cf36d0e6279607f32c/687474703a2f2f692e696d6775722e636f6d2f796c437474646b2e706e67)]
+- [Crapfilter](https://github.com/Metalgrid/crapfilter) - Blocks messages
+- [Critei](https://github.com/Caracioly/Critei) - An simple way to share your highest damage with your friends [<nowiki>[Img1](https://camo.githubusercontent.com/0c8057469cad5dfc5a410be959a7a90b327d2c98b002871cb112f9723c3e6734/68747470733a2f2f692e696d6775722e636f6d2f6535453631504a2e706e67)</nowiki>]
+- [Crusader](https://github.com/Azgaardian/Crusader) - Sphere addon for Paladins, mainly for solo play
+- [Cryolysis](https://github.com/laytya/Vanilla-Addons/blob/master/Cryolysis.zip) - Management of Mage spells, abilities, and reagents. Not updated for Turtle WoW like the Arcanum addon is.
+- [CT BuffMod Sorted](https://github.com/AeroScripts/CT_BuffMod_Sorted) - A quick edit of CT BuffMod to sort buffs properly
+- [CT MailMod](https://github.com/Einherjarn/CT_MailMod) - Allows you to send multiple mails to the same person
+- [CT PlayerNotes](https://github.com/WoWruRU-ClassicAddons/CT_PlayerNotes) - Allows you to save notes for your friends, guildies & ignored persons.
+- [CT UnitFrames](https://github.com/yutsuku/CT_UnitFrames) - Changes display of hp/mana values and adds a percentage
+- [CThunWarner](https://github.com/McPewPew/CThunWarner) - Provides information for C'Thun raids
+- [CThunPositions](https://github.com/Cinecom/CThunPositions/) - Allows you to drag the raid members on a map of C'Thun to help with positioning in phase 1 [Img1](https://i.ibb.co/s9vL2CD/image.webp)(https://i.ibb.co/s9vL2CD/image.webp Img1)
+- [CustomIcons](https://github.com/Tarkusx/CustomIcons) - Create and manage custom floating icons.
+- [CustomNameplates](https://github.com/laytya/CustomNameplates) - Nameplate addon [[Img1](https://camo.githubusercontent.com/07ba99a5ed0f6e28a9717e67ead1fad2e8a9ef84/687474703a2f2f692e696d6775722e636f6d2f653041617a734d2e706e67)] [[Img2](https://camo.githubusercontent.com/280a59732b093670d5b90b9d50ca9598cd41fc59/687474703a2f2f692e696d6775722e636f6d2f346f35467271772e6a7067)]
+- [cyCircled](https://github.com/retrospectx/cyCircled) - changes the look of various buttons (mostly action bar buttons) [[Img1](http://imgur.com/fmatXIX)]
 
 [↑ Go to top of page ↑](Addons#Full Addons List)
 
 ### D
--[DankScore](https://github.com/Cephel/DankScore) - a tool to choose the best items for your spec/gear
--[DamageMeters](https://github.com/dogmax/DamageMeters) - Track damage. You can output the stats in "say", "party", "raid" etc.
--[DBM](https://github.com/yutsuku/LVBM) - Deadly Boss Mods was known as La Vendetta Boss Mods (LVBM) back in Vanilla WoW, it's a stand-alone boss mod for raid groups playing in the end-game content.
--[Deathlog](https://github.com/Kirchlive/Deathlog_Vanilla) - Death heatmap overlay for the world map with danger indicator
--[DebuffFilter](https://github.com/vashin1/DebuffFilter) - Filter out specific target debuffs and player buffs into a separate frame [[Img1](https://camo.githubusercontent.com/ebc054dec9c12ae4dc96e633ae489c6750027201/68747470733a2f2f692e696d6775722e636f6d2f314c70444434542e706e67)] [[Img2](https://camo.githubusercontent.com/fefdd0bc6bd01075219531e02aa5a9a6ac8c2e74/68747470733a2f2f692e696d6775722e636f6d2f555962643353512e706e67)]
--[DebuffListCheck](https://github.com/Geigerkind/DebuffListCheck) - reporting to everyone using the addon which important debuffs are or are not applied
--[DebuffTimers](https://github.com/Voidmenull/DebuffTimers) - Timer Overlays for enemy buffs and debuffs [[Img1](http://i.imgur.com/F31cxHL.png)] [[Img2](http://i.imgur.com/wViWyqS.png)]
--[Decursive](Decursive) - Its job is to help a class that can remove debuffs [[Vid1](https://www.youtube.com/watch?v=qAOVoWETW_k&feature=youtu.be)]
--[Destroy Cursor Item](https://github.com/adrianocastro189/destroy-cursor-item) - Allows you to associate a key with the action of destroying the item currently on the cursor. Useful for quickly removing an item from the bag when it's full, without having to click confirmation.
--[DevilsHunters](https://github.com/jejkas/DevilsHunters) - creates a BigWigs timer when a Devilsaur dies and tries to pick the correct location
--[DialogUI](https://github.com/Jslquintero/DialogUI) - immersive re-skin of the default Quest and Gossip Frame
--[DifficultBulletinBoard](https://github.com/DeterminedPanda/DifficultBulletinBoard) - Inspired by the LFG Bulletin Board, this addon organizes world chat into a structured list, making it easier to find groups.
--[DiivSkins](https://github.com/McPewPew/DiivSkins) - will "paint" auxiliary images onto the two dimensional pane of your user interface [Img1](https://camo.githubusercontent.com/60755ac7bfafaed6595c5aba294a53bc8c58e217/68747470733a2f2f692e696d6775722e636f6d2f363936577745332e6a7067)(https://camo.githubusercontent.com/60755ac7bfafaed6595c5aba294a53bc8c58e217/68747470733a2f2f692e696d6775722e636f6d2f363936577745332e6a7067 Img1)
--[DisableEscape](https://github.com/EinBaum/DisableEscape) - Prevents the escape button from cancelling invites and summons
--[DiscordActionBars](DiscordActionBars) - Spreads your base 120 action buttons across 10 configurable bars
--[DispelBorder](https://github.com/wardz/DispelBorder) - Shows highlight border around enemy magic buffs [[Img1](https://camo.githubusercontent.com/19befcb06313d265a0e8c18d9eebfc6a3e504c2e/687474703a2f2f692e696d6775722e636f6d2f31444b4f784d302e6a7067)]
--[Distance](https://github.com/Linae-Kronos/Distance) - shows how far your target is away, based on the spell ranges your class has [[Img1](https://user-images.githubusercontent.com/26133646/33560281-9ec115cc-d90f-11e7-89eb-8ab56dbe5fef.png)]
--[DistanceDisplay](https://github.com/uc9089/DistanceDisplay) - Precise Distance and Line of Sight Indicator. Need UNITXP_SP3 to work.
--[DKPAuctionBidder](https://github.com/quakerzz/DKPAuctionBidder) - Small UI to bid in DKP Auctions created by [SotA](https://github.com/Sentilix/sota) [[Img1](https://user-images.githubusercontent.com/26133646/57327290-dcd5f100-710e-11e9-95ac-9033d7937aa6.png)]
--[DKPList](https://github.com/quakerzz/DKPList) - display dkp values stored in the public guild note by [SotA](https://github.com/Sentilix/sota)
--[DoiteAuras](https://github.com/Player-Doite/DoiteAuras) - Looking for WeakAuras? DoiteAuras is a lightweight, condition-based tracker for abilities, buffs, debuffs, items and bars [Vid1](https://www.youtube.com/watch?v=oXDpkqRlLDc)(https://www.youtube.com/watch?v=oXDpkqRlLDc Vid1)
--[Doomed](https://github.com/EinBaum/doomed) - (DOOM UI) is for fans of the classic shooter Doom [[Img1](https://user-images.githubusercontent.com/26133646/39195734-b528f6be-47e0-11e8-8f4f-33fbdc6be6a1.png)]
--[DoTimer](https://github.com/kc8pnd/DoTimer) - is a vastly sophisticated DoT tracking addon [[Img1](http://i.imgur.com/FC1X0t0.jpg)]
--[DouseReminder](https://github.com/Numielle/DouseReminder) - Prints a reminder to douse runes in Molten Core to officer chat
--[DPEPGP](https://github.com/yutsuku/DPEPGP) - De Profundis EP/GP Loot System
--[DragonflightUI-Reforged](https://github.com/Stormhand-dev/DragonflightUI-Reforged) - A modern UI replacement inspired by the Dragonflight UI. [Alt](https://github.com/AmonRA/-DragonflightReloaded)(https://github.com/AmonRA/-DragonflightReloaded Alt) [Alt](https://github.com/alchem1ster/DragonflightReloaded)(https://github.com/alchem1ster/DragonflightReloaded Alt)
--[Druid Eclipse Monitor](https://github.com/mdmnky/druid-eclipse-monitor) - Heads up display for Balance Druid eclipse procs.
--[DrunkTracker](https://github.com/akzkak/DrunkTracker) - Track your drunk state.
--[DpsGirl](https://github.com/ahungry/TwowDpsGirl/) - Show current dps with a friend.
--[DPSMate](DPSMate) - combat analyzation tool [[Fu](https://github.com/turinpt/FuBar_DPSMate)]
--[DruidConsumable](https://github.com/Cernie/DruidConsumable) - Script method for Druid consumable usage with powershifting
--[DruidManaBar](https://github.com/gashole/DruidManaBar) - Displays a mana bar when shapeshifted [[Img1](https://camo.githubusercontent.com/9cfe0c9cc1cbd3223408cc11cfd69036d23e5f86/687474703a2f2f692e696d6775722e636f6d2f454631714235342e706e67)]
--[Dwarvenizer](https://github.com/XalZul/Dwarvenizer-1.12) - Roleplaying addon that automatically converts your chat text to the Dwarf or Troll manner of speaking
+- [DankScore](https://github.com/Cephel/DankScore) - a tool to choose the best items for your spec/gear
+- [DamageMeters](https://github.com/dogmax/DamageMeters) - Track damage. You can output the stats in "say", "party", "raid" etc.
+- [DBM](https://github.com/yutsuku/LVBM) - Deadly Boss Mods was known as La Vendetta Boss Mods (LVBM) back in Vanilla WoW, it's a stand-alone boss mod for raid groups playing in the end-game content.
+- [Deathlog](https://github.com/Kirchlive/Deathlog_Vanilla) - Death heatmap overlay for the world map with danger indicator
+- [DebuffFilter](https://github.com/vashin1/DebuffFilter) - Filter out specific target debuffs and player buffs into a separate frame [[Img1](https://camo.githubusercontent.com/ebc054dec9c12ae4dc96e633ae489c6750027201/68747470733a2f2f692e696d6775722e636f6d2f314c70444434542e706e67)] [[Img2](https://camo.githubusercontent.com/fefdd0bc6bd01075219531e02aa5a9a6ac8c2e74/68747470733a2f2f692e696d6775722e636f6d2f555962643353512e706e67)]
+- [DebuffListCheck](https://github.com/Geigerkind/DebuffListCheck) - reporting to everyone using the addon which important debuffs are or are not applied
+- [DebuffTimers](https://github.com/Voidmenull/DebuffTimers) - Timer Overlays for enemy buffs and debuffs [[Img1](http://i.imgur.com/F31cxHL.png)] [[Img2](http://i.imgur.com/wViWyqS.png)]
+- [Decursive](Decursive) - Its job is to help a class that can remove debuffs [[Vid1](https://www.youtube.com/watch?v=qAOVoWETW_k&feature=youtu.be)]
+- [Destroy Cursor Item](https://github.com/adrianocastro189/destroy-cursor-item) - Allows you to associate a key with the action of destroying the item currently on the cursor. Useful for quickly removing an item from the bag when it's full, without having to click confirmation.
+- [DevilsHunters](https://github.com/jejkas/DevilsHunters) - creates a BigWigs timer when a Devilsaur dies and tries to pick the correct location
+- [DialogUI](https://github.com/Jslquintero/DialogUI) - immersive re-skin of the default Quest and Gossip Frame
+- [DifficultBulletinBoard](https://github.com/DeterminedPanda/DifficultBulletinBoard) - Inspired by the LFG Bulletin Board, this addon organizes world chat into a structured list, making it easier to find groups.
+- [DiivSkins](https://github.com/McPewPew/DiivSkins) - will "paint" auxiliary images onto the two dimensional pane of your user interface [Img1](https://camo.githubusercontent.com/60755ac7bfafaed6595c5aba294a53bc8c58e217/68747470733a2f2f692e696d6775722e636f6d2f363936577745332e6a7067)(https://camo.githubusercontent.com/60755ac7bfafaed6595c5aba294a53bc8c58e217/68747470733a2f2f692e696d6775722e636f6d2f363936577745332e6a7067 Img1)
+- [DisableEscape](https://github.com/EinBaum/DisableEscape) - Prevents the escape button from cancelling invites and summons
+- [DiscordActionBars](DiscordActionBars) - Spreads your base 120 action buttons across 10 configurable bars
+- [DispelBorder](https://github.com/wardz/DispelBorder) - Shows highlight border around enemy magic buffs [[Img1](https://camo.githubusercontent.com/19befcb06313d265a0e8c18d9eebfc6a3e504c2e/687474703a2f2f692e696d6775722e636f6d2f31444b4f784d302e6a7067)]
+- [Distance](https://github.com/Linae-Kronos/Distance) - shows how far your target is away, based on the spell ranges your class has [[Img1](https://user-images.githubusercontent.com/26133646/33560281-9ec115cc-d90f-11e7-89eb-8ab56dbe5fef.png)]
+- [DistanceDisplay](https://github.com/uc9089/DistanceDisplay) - Precise Distance and Line of Sight Indicator. Need UNITXP_SP3 to work.
+- [DKPAuctionBidder](https://github.com/quakerzz/DKPAuctionBidder) - Small UI to bid in DKP Auctions created by [SotA](https://github.com/Sentilix/sota) [[Img1](https://user-images.githubusercontent.com/26133646/57327290-dcd5f100-710e-11e9-95ac-9033d7937aa6.png)]
+- [DKPList](https://github.com/quakerzz/DKPList) - display dkp values stored in the public guild note by [SotA](https://github.com/Sentilix/sota)
+- [DoiteAuras](https://github.com/Player-Doite/DoiteAuras) - Looking for WeakAuras? DoiteAuras is a lightweight, condition-based tracker for abilities, buffs, debuffs, items and bars [Vid1](https://www.youtube.com/watch?v=oXDpkqRlLDc)(https://www.youtube.com/watch?v=oXDpkqRlLDc Vid1)
+- [Doomed](https://github.com/EinBaum/doomed) - (DOOM UI) is for fans of the classic shooter Doom [[Img1](https://user-images.githubusercontent.com/26133646/39195734-b528f6be-47e0-11e8-8f4f-33fbdc6be6a1.png)]
+- [DoTimer](https://github.com/kc8pnd/DoTimer) - is a vastly sophisticated DoT tracking addon [[Img1](http://i.imgur.com/FC1X0t0.jpg)]
+- [DouseReminder](https://github.com/Numielle/DouseReminder) - Prints a reminder to douse runes in Molten Core to officer chat
+- [DPEPGP](https://github.com/yutsuku/DPEPGP) - De Profundis EP/GP Loot System
+- [DragonflightUI-Reforged](https://github.com/Stormhand-dev/DragonflightUI-Reforged) - A modern UI replacement inspired by the Dragonflight UI. [Alt](https://github.com/AmonRA/-DragonflightReloaded)(https://github.com/AmonRA/-DragonflightReloaded Alt) [Alt](https://github.com/alchem1ster/DragonflightReloaded)(https://github.com/alchem1ster/DragonflightReloaded Alt)
+- [Druid Eclipse Monitor](https://github.com/mdmnky/druid-eclipse-monitor) - Heads up display for Balance Druid eclipse procs.
+- [DrunkTracker](https://github.com/akzkak/DrunkTracker) - Track your drunk state.
+- [DpsGirl](https://github.com/ahungry/TwowDpsGirl/) - Show current dps with a friend.
+- [DPSMate](DPSMate) - combat analyzation tool [[Fu](https://github.com/turinpt/FuBar_DPSMate)]
+- [DruidConsumable](https://github.com/Cernie/DruidConsumable) - Script method for Druid consumable usage with powershifting
+- [DruidManaBar](https://github.com/gashole/DruidManaBar) - Displays a mana bar when shapeshifted [[Img1](https://camo.githubusercontent.com/9cfe0c9cc1cbd3223408cc11cfd69036d23e5f86/687474703a2f2f692e696d6775722e636f6d2f454631714235342e706e67)]
+- [Dwarvenizer](https://github.com/XalZul/Dwarvenizer-1.12) - Roleplaying addon that automatically converts your chat text to the Dwarf or Troll manner of speaking
 
 [↑ Go to top of page ↑](Addons#Full Addons List)
 
 ### E
--[EasyCloak](https://github.com/Numielle/EasyCloak) - Automagically equip Onyxia Scale Cloak when entering Nefarian's Lair [[Vid1](https://www.youtube.com/watch?v=cPNl_njfuyk)]
--[EasyLoot](https://github.com/Numielle/EasyLoot) - addon to simplify raid loot distribution
--[EasyPoisons](https://github.com/Cinecom/EasyPoisons/tree/main) - Easily purchase poison materials from vendors with one click.  [[Img1](https://i.postimg.cc/rpQfyL5b/easypoisons.png)]
--[EasyRess](https://github.com/Numielle/EasyRess) - Simplifies chain ressing and drinking
--[EavesDrop](https://github.com/laytya/EavesDrop) - A simple combat log that displays events [[Img1](https://camo.githubusercontent.com/8105054071ab04d1ecd52b865162989be486f22672bca231e81cc8d2da693205/687474703a2f2f692e696d6775722e636f6d2f52594b4f77386e2e6a7067)]
--[eePanels](https://github.com/fulzamoth/eePanels-V) - Create and modify background panels in your WoW UI
--[EFCReport](https://github.com/cubenicke/EFCReport) - Enemy Flag Carrier report tool [[Img1](https://user-images.githubusercontent.com/613122/48218786-fc23d980-e38a-11e8-8e8d-20051e61fc4b.PNG)]
--[Egnar](https://github.com/Medeah/Egnar) - Show a range indicator for hunters [[Img1](https://github.com/Medeah/Egnar/raw/master/screenshot.png)]
--[EliteWarriorTTD](https://github.com/jlabranche/EliteWarriorTTD) - Estimates how much longer it will take to kill a boss
--[ElkBuffBar](https://github.com/Kirchlive/ElkBuffBarHor) - Tries to sort buffs into categories with pretty colors (Fails sometimes) [Alt](https://github.com/gimerstedt/ElkBuffBarHor)(https://github.com/gimerstedt/ElkBuffBarHor Alt) [[Img1](https://cloud.githubusercontent.com/assets/26133646/25943929/c8e28cc6-3641-11e7-985b-1e451f9d717a.jpg)]
--[EmeraldFramework](https://gitlab.com/woblight/EmeraldFramework/-/tree/vanilla) - Framework for addons
--[EM MonkeyBuddy](https://github.com/Rumchiller/EM_MonkeyBuddy) - Helps you configure your MonkeyMods
--[EM MonkeyLibrary](https://github.com/dogmax/MonkeyLibrary) - Mandatory dependency for MonkeyMods.
--[EM MonkeyQuest](https://github.com/Rumchiller/EM_MonkeyQuest) - Displays your quests for quick viewing
--[EM WoWQuote](https://github.com/Rumchiller/EM_WoWQuote) - Receives and transmits sound-quotes
--[EM Yatlas](https://github.com/Rumchiller/EM_Yatlas) - Yet another atlas; does NOT show or support Custom Turtle WoW Maps/Content!
--[EM_CritBam](https://github.com/Rumchiller/EM_CritBam) - EasyMachines CritBam Mod
--[EnemyFrames](https://github.com/zetone/enemyFrames) or [enemyFrames](https://github.com/byCFM2/enemyFrames)- display enemy players on BGs [[Img1](https://user-images.githubusercontent.com/26133646/34179958-3b24b5aa-e50d-11e7-891b-2a5a3740b127.jpg)] [[Img2](https://user-images.githubusercontent.com/26133646/34179950-331dc87e-e50d-11e7-8ee9-24f06097dc6b.jpg)] [[Read](https://iliana-sc.github.io/enemyframes/)]
--[EngBags](https://github.com/laytya/EngBags) - single bag / bank, the bank's remote viewing (auto-sorting, etc.) [[Img1](https://cloud.githubusercontent.com/assets/15636669/21586323/a40d5500-d0e0-11e6-83fb-6e59fc3ced91.jpg)] [[Img2](https://cloud.githubusercontent.com/assets/15636669/21586324/a40d9006-d0e0-11e6-81df-311d9bec4463.jpg)]
--[EngInventory](https://github.com/Brqje/EngInventory) - AutoSorting Inventory Replacement [[Img1](https://camo.githubusercontent.com/e41f237ed4fc939b41b67e5a277315906745dc11/68747470733a2f2f696d6775722e636f6d2f57624241714b4c2e706e67)]
--[Enhancer](https://github.com/Abstr4ctz/Enhancer) - Enhancement Shaman Essentials
--[EPGPexport](https://github.com/isitLoVe/EPGPexport) - Effort Points/Gear Points Loot System export tool
--[EQCompare](https://github.com/laytya/EQCompare-Vanilla) - Compare equipped inventory items against items in chatframe hyperlink and bags/bank [[Img1](https://camo.githubusercontent.com/a8c93e9b7564bb3ed63ed84e4bca127e6874765f/687474703a2f2f692e696d6775722e636f6d2f655877587849612e6a7067)]
--[EQL3](https://github.com/laytya/EQL3) - A reskinned Extended Quest Log addon inspired by TukUI [[Img1](https://camo.githubusercontent.com/8522e483baeba329824998475ce09c177dfefe00/687474703a2f2f692e696d6775722e636f6d2f51376766636e6c2e6a7067)]
--[EquipColor](https://github.com/TrangOul/EquipColor) - colors unequippable items red in the inventory [[Img1](https://cloud.githubusercontent.com/assets/26133646/25950931/72304ea2-365c-11e7-855c-bead97d9b200.jpg)]
--[EquipCompare](https://legacy-wow.com/vanilla-addons/equipcompare/) - Compare items easily with ones you have equipped
--[Erea-RP](https://github.com/erea-turtle-addons/erea-rp-addons) - Lets Game Masters create and distribute interactive RP items to players.
--[ES](https://github.com/Smirgeli/ES) - Plays the loud glang sound when using execute familiar from WotLK expansion
--[ETL](https://github.com/shirsig/ETL) - Exp Per hour/time til level addon [[Img1](http://i.imgur.com/bKZJHjI.png)]
--[eUI](https://github.com/Ennea/eUI) - is a small collection of interface addons [[Img1](https://i.imgur.com/t5WTqEB.jpg)]
--[EVTCalendar](https://github.com/TheOneReed/EVTCalendar) - Event Calendar AddOn [[Img1](http://i.imgur.com/GPPh3Sr.png)]
--[ExoRaidSetup](https://github.com/0ldi/ExoRaidSetup) - allows a raid to share graphical representations of boss pulls
--[ExpandAssist](https://github.com/Geigerkind/ExpandAssist) - enabling the raid assist to do the same as an raid leader
--[Explorer's Map](https://github.com/trashcanhands/ExplorerMap) - Embrace exploration while still keeping track of Quest NPCs
--[EZ-EPGP](https://github.com/yutsuku/EZ-EPGP) - Displays EP/GP ratio in neat frame that can be sorted by clicking on headers [[Img1](https://github.com/yutsuku/EZ-EPGP/raw/master/docs/preview.png?raw=true)]
--[EzDismount](https://github.com/laytya/EzDismount) - Dismounts you whenever "Cannot use while mounted" appear
--[EzPoison-turtle](https://github.com/wierdthing/EzPoison/tree/main) - Rogue Poison Helper, updated for Turtle [[Img1](https://i.imgur.com/LrDLpWF.png)] [[Img2](https://i.imgur.com/iium2ID.png)]
+- [EasyCloak](https://github.com/Numielle/EasyCloak) - Automagically equip Onyxia Scale Cloak when entering Nefarian's Lair [[Vid1](https://www.youtube.com/watch?v=cPNl_njfuyk)]
+- [EasyLoot](https://github.com/Numielle/EasyLoot) - addon to simplify raid loot distribution
+- [EasyPoisons](https://github.com/Cinecom/EasyPoisons/tree/main) - Easily purchase poison materials from vendors with one click.  [[Img1](https://i.postimg.cc/rpQfyL5b/easypoisons.png)]
+- [EasyRess](https://github.com/Numielle/EasyRess) - Simplifies chain ressing and drinking
+- [EavesDrop](https://github.com/laytya/EavesDrop) - A simple combat log that displays events [[Img1](https://camo.githubusercontent.com/8105054071ab04d1ecd52b865162989be486f22672bca231e81cc8d2da693205/687474703a2f2f692e696d6775722e636f6d2f52594b4f77386e2e6a7067)]
+- [eePanels](https://github.com/fulzamoth/eePanels-V) - Create and modify background panels in your WoW UI
+- [EFCReport](https://github.com/cubenicke/EFCReport) - Enemy Flag Carrier report tool [[Img1](https://user-images.githubusercontent.com/613122/48218786-fc23d980-e38a-11e8-8e8d-20051e61fc4b.PNG)]
+- [Egnar](https://github.com/Medeah/Egnar) - Show a range indicator for hunters [[Img1](https://github.com/Medeah/Egnar/raw/master/screenshot.png)]
+- [EliteWarriorTTD](https://github.com/jlabranche/EliteWarriorTTD) - Estimates how much longer it will take to kill a boss
+- [ElkBuffBar](https://github.com/Kirchlive/ElkBuffBarHor) - Tries to sort buffs into categories with pretty colors (Fails sometimes) [Alt](https://github.com/gimerstedt/ElkBuffBarHor)(https://github.com/gimerstedt/ElkBuffBarHor Alt) [[Img1](https://cloud.githubusercontent.com/assets/26133646/25943929/c8e28cc6-3641-11e7-985b-1e451f9d717a.jpg)]
+- [EmeraldFramework](https://gitlab.com/woblight/EmeraldFramework/-/tree/vanilla) - Framework for addons
+- [EM MonkeyBuddy](https://github.com/Rumchiller/EM_MonkeyBuddy) - Helps you configure your MonkeyMods
+- [EM MonkeyLibrary](https://github.com/dogmax/MonkeyLibrary) - Mandatory dependency for MonkeyMods.
+- [EM MonkeyQuest](https://github.com/Rumchiller/EM_MonkeyQuest) - Displays your quests for quick viewing
+- [EM WoWQuote](https://github.com/Rumchiller/EM_WoWQuote) - Receives and transmits sound-quotes
+- [EM Yatlas](https://github.com/Rumchiller/EM_Yatlas) - Yet another atlas; does NOT show or support Custom Turtle WoW Maps/Content!
+- [EM_CritBam](https://github.com/Rumchiller/EM_CritBam) - EasyMachines CritBam Mod
+- [EnemyFrames](https://github.com/zetone/enemyFrames) or [enemyFrames](https://github.com/byCFM2/enemyFrames)- display enemy players on BGs [[Img1](https://user-images.githubusercontent.com/26133646/34179958-3b24b5aa-e50d-11e7-891b-2a5a3740b127.jpg)] [[Img2](https://user-images.githubusercontent.com/26133646/34179950-331dc87e-e50d-11e7-8ee9-24f06097dc6b.jpg)] [[Read](https://iliana-sc.github.io/enemyframes/)]
+- [EngBags](https://github.com/laytya/EngBags) - single bag / bank, the bank's remote viewing (auto-sorting, etc.) [[Img1](https://cloud.githubusercontent.com/assets/15636669/21586323/a40d5500-d0e0-11e6-83fb-6e59fc3ced91.jpg)] [[Img2](https://cloud.githubusercontent.com/assets/15636669/21586324/a40d9006-d0e0-11e6-81df-311d9bec4463.jpg)]
+- [EngInventory](https://github.com/Brqje/EngInventory) - AutoSorting Inventory Replacement [[Img1](https://camo.githubusercontent.com/e41f237ed4fc939b41b67e5a277315906745dc11/68747470733a2f2f696d6775722e636f6d2f57624241714b4c2e706e67)]
+- [Enhancer](https://github.com/Abstr4ctz/Enhancer) - Enhancement Shaman Essentials
+- [EPGPexport](https://github.com/isitLoVe/EPGPexport) - Effort Points/Gear Points Loot System export tool
+- [EQCompare](https://github.com/laytya/EQCompare-Vanilla) - Compare equipped inventory items against items in chatframe hyperlink and bags/bank [[Img1](https://camo.githubusercontent.com/a8c93e9b7564bb3ed63ed84e4bca127e6874765f/687474703a2f2f692e696d6775722e636f6d2f655877587849612e6a7067)]
+- [EQL3](https://github.com/laytya/EQL3) - A reskinned Extended Quest Log addon inspired by TukUI [[Img1](https://camo.githubusercontent.com/8522e483baeba329824998475ce09c177dfefe00/687474703a2f2f692e696d6775722e636f6d2f51376766636e6c2e6a7067)]
+- [EquipColor](https://github.com/TrangOul/EquipColor) - colors unequippable items red in the inventory [[Img1](https://cloud.githubusercontent.com/assets/26133646/25950931/72304ea2-365c-11e7-855c-bead97d9b200.jpg)]
+- [EquipCompare](https://legacy-wow.com/vanilla-addons/equipcompare/) - Compare items easily with ones you have equipped
+- [Erea-RP](https://github.com/erea-turtle-addons/erea-rp-addons) - Lets Game Masters create and distribute interactive RP items to players.
+- [ES](https://github.com/Smirgeli/ES) - Plays the loud glang sound when using execute familiar from WotLK expansion
+- [ETL](https://github.com/shirsig/ETL) - Exp Per hour/time til level addon [[Img1](http://i.imgur.com/bKZJHjI.png)]
+- [eUI](https://github.com/Ennea/eUI) - is a small collection of interface addons [[Img1](https://i.imgur.com/t5WTqEB.jpg)]
+- [EVTCalendar](https://github.com/TheOneReed/EVTCalendar) - Event Calendar AddOn [[Img1](http://i.imgur.com/GPPh3Sr.png)]
+- [ExoRaidSetup](https://github.com/0ldi/ExoRaidSetup) - allows a raid to share graphical representations of boss pulls
+- [ExpandAssist](https://github.com/Geigerkind/ExpandAssist) - enabling the raid assist to do the same as an raid leader
+- [Explorer's Map](https://github.com/trashcanhands/ExplorerMap) - Embrace exploration while still keeping track of Quest NPCs
+- [EZ-EPGP](https://github.com/yutsuku/EZ-EPGP) - Displays EP/GP ratio in neat frame that can be sorted by clicking on headers [[Img1](https://github.com/yutsuku/EZ-EPGP/raw/master/docs/preview.png?raw=true)]
+- [EzDismount](https://github.com/laytya/EzDismount) - Dismounts you whenever "Cannot use while mounted" appear
+- [EzPoison-turtle](https://github.com/wierdthing/EzPoison/tree/main) - Rogue Poison Helper, updated for Turtle [[Img1](https://i.imgur.com/LrDLpWF.png)] [[Img2](https://i.imgur.com/iium2ID.png)]
 
 [↑ Go to top of page ↑](Addons#Full Addons List)
 
 ### F
--[FadeFrameUI](https://github.com/Bagan95/FadeFrameUI) - Lightweight addon that changes the transparency of the Player Frame, Pet Frame, Minimap, Action Bars and Buff Frame [[Img1](https://i.imgur.com/ic155H3.jpeg)]
--[FastBinding](https://github.com/CDNievas/FastBinding) - Bind spells quickly directly from your action bars
--[Feid](https://github.com/NiclasEriksen/Feid) - Smoothly fade any UI element when entering/exiting combat [Img1](https://github.com/NiclasEriksen/Feid/blob/main/img/preview.png?raw=true)(https://github.com/NiclasEriksen/Feid/blob/main/img/preview.png?raw=true Img1)
--[FelwoodGather](https://github.com/0ldi/FelwoodGather) - helps you and your team mate with felwood fruit gathering, location and timer management
--[FeralFire](https://github.com/MarkTiedemann/FeralFire) - Customizable WoW attack add-on for Cat Form Feral Druids
--[FFXIVCrossHotbar](https://github.com/moiian/FFXIVCrossHotbar) - A complete action bar designed to replicate the controller-friendly Cross Hotbar (XHB) system from Final Fantasy XIV
--[Fika](https://github.com/ItsLusse/Fika) - Fast Invite Komp Assigner invites players from the Raid-Helper roster and organizes raid groups to match the Raid-Helper Discord setup.
--[FineZoom](https://github.com/Stormhand81/FineZoom) - Precise mouse wheel zoom
--[FishInfo2](https://github.com/wbb1977/FishInfo2) - keeps track of which fish you catch in each zone
--[FishingBuddy](Fishing Buddy) - Help with fishing related tasks
--[FishingVolume](https://github.com/Deffar/FishingVolume) - Automatically handle your volume levels and adds a few quality-of-life shortcuts to make long fishing sessions less of a chore.
--[FishSwap](https://github.com/Draiscor/FishSwap) - one-click swapping between a weapon + offhand and a fishing pole.
--[Fizzle](https://github.com/McPewPew/Fizzle) - Show item durability and quality in the character frame
--[Fizzwidget Hunters Helper](https://github.com/McPewPew/GFW_HuntersHelper) - Tooltips and info for learning pet spells from taming.
--[Flamestriker](https://github.com/pepopo978/Flamestriker) - Rotate Flamestrike ranks for overlapping ground effect damage.
--[FlightMap](https://github.com/TrangOul/FlightMap) - Shows flight master locations, flight durations and flight lines.
--[FlightTracker](https://github.com/tilare/FlightTracker) - Shows flight durations and provides flight statistics.
--[FlyerTimer](https://github.com/trumpetx/FlyerTimer) - Shows a BigWgs flight timer when you get on a Turtle custom flying mount such as a guild base mount (requires: BigWigs)
--[Flyout](https://github.com/lookino/Flyout) - Mimicks the flyout feature implemented in later expansions. Using a macro you can create a flyout action button that groups together various spells. [[Img1](https://github.com/luskanek/Flyout/raw/master/screenshots/bar.png)]
--[FocusFrame](https://github.com/wardz/FocusFrame) - Provides [focus targeting](http://wowwiki.wikia.com/wiki/Focus_target) & frame support [[Img1](https://camo.githubusercontent.com/c9ddc4c81975895b69a7f2ba7b988064afffc419/687474703a2f2f692e696d6775722e636f6d2f4f4563577767552e6a7067)]
--[FocusFrame TargetCastbar](https://github.com/wardz/FocusFrame_TargetCastbar) - Adds an extra castbar for your current target
--[FollowMeEnhanced](https://github.com/NOo0B1/FollowMeEnhanced) - Allows other players to put you on auto-follow.
--[FonzAppraiser](https://github.com/byCFM2/FonzAppraiser) - farm/loot tracker with sessions
--[Forged Map Notes](https://github.com/nemanuel/Forged_MapNotes) - Automatically records gathering locations and lets players create custom map notes
--[Forged Pet Happiness](https://github.com/nemanuel/Forged_PetHappiness) - Frame that shows hunters pet status
--[Forged Sell All Grays](https://github.com/nemanuel/Forged_SellAllGrays) - Merchant button that sells all poor-quality items with one click
--[FrameFade](https://github.com/neimad-mp/FrameFade) - Hides the player and pet frames based on conditions. Supports the default and pfUI unitframes
--[FreeBagSlots](https://github.com/anzz1/FreeBagSlots) - Free bag slots counter [[Img1](https://user-images.githubusercontent.com/13628128/58876631-5e517c80-86d7-11e9-97c4-ff6ca33ad2f4.png)]
--[Friend-O-Tron](https://github.com/refaim/Friend-O-Tron) - Synchronizes your friends list across all your characters and accounts (with SuperWoW) on the same realm.
--[FriendFinder](https://github.com/Fiskehatt/FriendFinder) - An addon that helps you find your old friends from other servers!
--[FuBar](FuBar) - A panel that modules can plug into
--[FuBar BuffLeecherFu](https://github.com/birdayz/FuBar_BuffLeecherFu) - FuBar-2.0 Plugin that logs you out once you get Onyxia or ZG buff
--[FuBar Population](https://github.com/Shellyoung/FuBar_Population) - Displays server population
--[Fubar pfQuestFu](https://github.com/goldenpipes/pfQuest_Fu) - Add pfQuest icon and menu to your FuBar!
--[Fubar PortalsFu](https://github.com/laytya/FuBar_PortalFu) - All portals and teleports in one place [img1](https://user-images.githubusercontent.com/20452393/279325992-c3150846-0b34-4595-baf7-27d70d409cfa.jpg)(https://user-images.githubusercontent.com/20452393/279325992-c3150846-0b34-4595-baf7-27d70d409cfa.jpg img1) [img2](https://user-images.githubusercontent.com/20452393/279326105-8a4d5f32-fd7f-4417-afd0-f6b22ad036d1.jpg)(https://user-images.githubusercontent.com/20452393/279326105-8a4d5f32-fd7f-4417-afd0-f6b22ad036d1.jpg img2)
--[Fubar PossessionsFu](https://github.com/Road-block/Fubar_PossessionsFu) - FuBar plugin for Possessions addon
--[FuBar PursueFu](https://github.com/laytya/FuBar_PursueFu) - Easily change tracking abilities in Fubar or standalone.
--[FuBar ToFu](https://github.com/Road-block/FuBar_ToFu) - Flight time recorder
--[FuBar ZepMaster](https://github.com/EbedaNostalrius/FuBar_ZepMaster) - ZepShipMaster FuBar Plugin
--[FullSack](https://github.com/Otari98/FullSack) - Item and money count on tooltips
--[FullUIToggle](https://github.com/spuxx1701/FullUIToggle) - Helps with taking better screenshots! It works similar to the default UI Toggle (that is bound to Alt+Z by default), but also hides overhead player or NPC names.
--[Fury](https://github.com/cubenicke/Fury) - end game raiding addon to make Warrior combat easier
+- [FadeFrameUI](https://github.com/Bagan95/FadeFrameUI) - Lightweight addon that changes the transparency of the Player Frame, Pet Frame, Minimap, Action Bars and Buff Frame [[Img1](https://i.imgur.com/ic155H3.jpeg)]
+- [FastBinding](https://github.com/CDNievas/FastBinding) - Bind spells quickly directly from your action bars
+- [Feid](https://github.com/NiclasEriksen/Feid) - Smoothly fade any UI element when entering/exiting combat [Img1](https://github.com/NiclasEriksen/Feid/blob/main/img/preview.png?raw=true)(https://github.com/NiclasEriksen/Feid/blob/main/img/preview.png?raw=true Img1)
+- [FelwoodGather](https://github.com/0ldi/FelwoodGather) - helps you and your team mate with felwood fruit gathering, location and timer management
+- [FeralFire](https://github.com/MarkTiedemann/FeralFire) - Customizable WoW attack add-on for Cat Form Feral Druids
+- [FFXIVCrossHotbar](https://github.com/moiian/FFXIVCrossHotbar) - A complete action bar designed to replicate the controller-friendly Cross Hotbar (XHB) system from Final Fantasy XIV
+- [Fika](https://github.com/ItsLusse/Fika) - Fast Invite Komp Assigner invites players from the Raid-Helper roster and organizes raid groups to match the Raid-Helper Discord setup.
+- [FineZoom](https://github.com/Stormhand81/FineZoom) - Precise mouse wheel zoom
+- [FishInfo2](https://github.com/wbb1977/FishInfo2) - keeps track of which fish you catch in each zone
+- [FishingBuddy](Fishing Buddy) - Help with fishing related tasks
+- [FishingVolume](https://github.com/Deffar/FishingVolume) - Automatically handle your volume levels and adds a few quality-of-life shortcuts to make long fishing sessions less of a chore.
+- [FishSwap](https://github.com/Draiscor/FishSwap) - one-click swapping between a weapon + offhand and a fishing pole.
+- [Fizzle](https://github.com/McPewPew/Fizzle) - Show item durability and quality in the character frame
+- [Fizzwidget Hunters Helper](https://github.com/McPewPew/GFW_HuntersHelper) - Tooltips and info for learning pet spells from taming.
+- [Flamestriker](https://github.com/pepopo978/Flamestriker) - Rotate Flamestrike ranks for overlapping ground effect damage.
+- [FlightMap](https://github.com/TrangOul/FlightMap) - Shows flight master locations, flight durations and flight lines.
+- [FlightTracker](https://github.com/tilare/FlightTracker) - Shows flight durations and provides flight statistics.
+- [FlyerTimer](https://github.com/trumpetx/FlyerTimer) - Shows a BigWgs flight timer when you get on a Turtle custom flying mount such as a guild base mount (requires: BigWigs)
+- [Flyout](https://github.com/lookino/Flyout) - Mimicks the flyout feature implemented in later expansions. Using a macro you can create a flyout action button that groups together various spells. [[Img1](https://github.com/luskanek/Flyout/raw/master/screenshots/bar.png)]
+- [FocusFrame](https://github.com/wardz/FocusFrame) - Provides [focus targeting](http://wowwiki.wikia.com/wiki/Focus_target) & frame support [[Img1](https://camo.githubusercontent.com/c9ddc4c81975895b69a7f2ba7b988064afffc419/687474703a2f2f692e696d6775722e636f6d2f4f4563577767552e6a7067)]
+- [FocusFrame TargetCastbar](https://github.com/wardz/FocusFrame_TargetCastbar) - Adds an extra castbar for your current target
+- [FollowMeEnhanced](https://github.com/NOo0B1/FollowMeEnhanced) - Allows other players to put you on auto-follow.
+- [FonzAppraiser](https://github.com/byCFM2/FonzAppraiser) - farm/loot tracker with sessions
+- [Forged Map Notes](https://github.com/nemanuel/Forged_MapNotes) - Automatically records gathering locations and lets players create custom map notes
+- [Forged Pet Happiness](https://github.com/nemanuel/Forged_PetHappiness) - Frame that shows hunters pet status
+- [Forged Sell All Grays](https://github.com/nemanuel/Forged_SellAllGrays) - Merchant button that sells all poor-quality items with one click
+- [FrameFade](https://github.com/neimad-mp/FrameFade) - Hides the player and pet frames based on conditions. Supports the default and pfUI unitframes
+- [FreeBagSlots](https://github.com/anzz1/FreeBagSlots) - Free bag slots counter [[Img1](https://user-images.githubusercontent.com/13628128/58876631-5e517c80-86d7-11e9-97c4-ff6ca33ad2f4.png)]
+- [Friend-O-Tron](https://github.com/refaim/Friend-O-Tron) - Synchronizes your friends list across all your characters and accounts (with SuperWoW) on the same realm.
+- [FriendFinder](https://github.com/Fiskehatt/FriendFinder) - An addon that helps you find your old friends from other servers!
+- [FuBar](FuBar) - A panel that modules can plug into
+- [FuBar BuffLeecherFu](https://github.com/birdayz/FuBar_BuffLeecherFu) - FuBar-2.0 Plugin that logs you out once you get Onyxia or ZG buff
+- [FuBar Population](https://github.com/Shellyoung/FuBar_Population) - Displays server population
+- [Fubar pfQuestFu](https://github.com/goldenpipes/pfQuest_Fu) - Add pfQuest icon and menu to your FuBar!
+- [Fubar PortalsFu](https://github.com/laytya/FuBar_PortalFu) - All portals and teleports in one place [img1](https://user-images.githubusercontent.com/20452393/279325992-c3150846-0b34-4595-baf7-27d70d409cfa.jpg)(https://user-images.githubusercontent.com/20452393/279325992-c3150846-0b34-4595-baf7-27d70d409cfa.jpg img1) [img2](https://user-images.githubusercontent.com/20452393/279326105-8a4d5f32-fd7f-4417-afd0-f6b22ad036d1.jpg)(https://user-images.githubusercontent.com/20452393/279326105-8a4d5f32-fd7f-4417-afd0-f6b22ad036d1.jpg img2)
+- [Fubar PossessionsFu](https://github.com/Road-block/Fubar_PossessionsFu) - FuBar plugin for Possessions addon
+- [FuBar PursueFu](https://github.com/laytya/FuBar_PursueFu) - Easily change tracking abilities in Fubar or standalone.
+- [FuBar ToFu](https://github.com/Road-block/FuBar_ToFu) - Flight time recorder
+- [FuBar ZepMaster](https://github.com/EbedaNostalrius/FuBar_ZepMaster) - ZepShipMaster FuBar Plugin
+- [FullSack](https://github.com/Otari98/FullSack) - Item and money count on tooltips
+- [FullUIToggle](https://github.com/spuxx1701/FullUIToggle) - Helps with taking better screenshots! It works similar to the default UI Toggle (that is bound to Alt+Z by default), but also hides overhead player or NPC names.
+- [Fury](https://github.com/cubenicke/Fury) - end game raiding addon to make Warrior combat easier
 
 [↑ Go to top of page ↑](Addons#Full Addons List)
 
 ### G
--[Gamepad](https://github.com/yutsuku/Gamepad) - Simplifies using abilities when using gamepad
--[GamonKillTimer](https://github.com/Voidmenull/GamonKillTimer) - never miss a gamon kill again!
--[Gatherer](https://github.com/Haaxor1689/Gatherer) - Track the closest plants, deposits and treasure locations on you minimap [[Img1](https://cloud.githubusercontent.com/assets/15636669/21586400/dc061a68-d0e1-11e6-9f16-0fd8da155904.jpg)] [[Img2](https://user-images.githubusercontent.com/26133646/39196751-2dd250ea-47e3-11e8-96c2-6d275a7a90b9.png)].
--[GCDTimerBar](https://github.com/Ageous27/GCDTimerBar) - Simple global cooldown bar  with "press early" latency overlay.
--[GearMenu](https://github.com/RagedUnicorn/wow-vanilla-gearmenu/releases) - Allows for easier switching between items and keybinding them [[Img1](https://github.com/RagedUnicorn/wow-gearmenu/raw/master/Docs/gm_switch_items.gif)]. **Note:** Only download the release build from the releases page on GitHub. Do not download the raw files on the main GitHub page or through GitAddonsManager, as that will result in getting the debug text spam version of the addon.
--[GentleGC](https://github.com/MarcelineVQ/GentleGC) - Run garbage collection without pause-the-world allocation
--[GetHead](https://github.com/trumpetx/GetHead) - Log your character out after receiving Rallying Cry of the Dragonslayer or Spirit of Zandalar (good for AFK world buffing)
--[GFW DisenchantPredictor](https://github.com/McPewPew/GFW_DisenchantPredictor) - A quick reference to sources of Enchanting materials
--[GFW FeedOMatic](https://github.com/Monteo/GFW_FeedOMatic) - Helps a Hunter keep his pets well fed (and the food in his inventory under control)
--[GFW HuntersHelper](https://github.com/McPewPew/GFW_HuntersHelper) - Helps you find tameable beasts to learn pet skills from
--[Ghost](https://github.com/diff3/Ghost) - Creates 25 buttons bar under mouse pointer (hidden) [[Img1](https://user-images.githubusercontent.com/26133646/39396620-89981264-4af1-11e8-96e9-55a621a98127.png)]
--[GlobalFriendsList](https://github.com/TrangOul/GlobalFriendsList) - An addon that can carry your friends list between toons.
--[GMBlacklist](https://github.com/shagu/GMBlacklist) - helps GMs to cut and blacklist raw chat messages
--[GMR](https://github.com/GrenderG/GMR) - provides a GUI for GM tasks
--[GoblinBrainwashingHelper](https://github.com/McPewPew/GoblinBrainwashingHelper) - Customize your Goblin Brainwashing Device with specialization names and colors [[Img1](https://github.com/user-attachments/assets/1079cdc1-714c-4be6-acf4-7541447a990b)]
--[Goblin Brain Saver](https://github.com/FSuhas/Goblin-Brain-Saver) - Goblin Brain Saver is a Turtle addon that allows you to save, restore, and organize your talent specializations. It integrates seamlessly with the game UI using a custom Spellbook-inspired window. [<nowiki>[img](https://github.com/FSuhas/Goblin-Brain-Saver/blob/main/image.png)</nowiki>]
--[GodMode](https://github.com/qiaeru/GodMode) - A comprehensive toolbox for Game Masters
--[Gourmet](https://github.com/jsb/Gourmet) - selects suitable food / drinks for picky eaters
--[GrayAutoSell](https://github.com/ttcremers/GrayAutoSell) - Automatically sells all your gray bag items when you interact with a merchant
--[GreedMeter](https://github.com/iGreed1993/GreedMeter) - Modern DPS and Threat meter. 
--[GrimoireKeeper](https://github.com/Scoboose/GrimoireKeeper) - Tracks which grimoires your warlock pets have learned [2](https://github.com/Lichery/GrimoireKeeper)(https://github.com/Lichery/GrimoireKeeper 2) [3](https://gitlab.com/Artur91425/GrimoireKeeper)(https://gitlab.com/Artur91425/GrimoireKeeper 3) [[Img1](https://user-images.githubusercontent.com/24303693/34895078-207a4008-f7f5-11e7-8fbf-c8dc4a2a3121.jpg)]
--[GrimReaper](https://github.com/xorann/GrimReaper) - Shows the last three hits whenever a player dies
--[GrindSpots](https://github.com/onnateldome/GrindSpots) - helps players quickly find suitable grind spots for their current level
--[GroupCalendar](https://github.com/Monteo/GroupCalendar) - provides an in-game calendar for planning, signing up, and managing events
--[Groupfinder](https://github.com/redshadowz/Groupfinder) - Calltoarms fork, interface simplified, but with expanded chat parsing features.
--[GroupManager](https://github.com/MtxGrower33/GroupManager) - Manages group formations and party utilities
--[GryllsBongos](https://github.com/carolluparu/GryllsBongos) - Bongos Extension for World of Warcraft: Vanilla
--[GryllsSwingTimer](https://github.com/flyinbed/GryllsSwingTimer) - Use the zUI swing timer as a standalone addon with additional color themes. [[Img1](https://raw.githubusercontent.com/GryllsAddons/AddonPreviews/main/GryllsSwingTimer/GST_Class.png)]
--[Guda](https://github.com/vatichild/guda) - Comprehensive bag and bank management.
--[GudaPlates](https://github.com/vatichild/guda-plates) - A customizable nameplate addon
--[GuideCreator](https://github.com/Zarant/GuideCreator/tree/classic) - Auto generates in-game leveling guides
--[Guidelime Vanilla](https://github.com/JeromeM/GuidelimeVanilla) - [BETA] - AddOn providing an enhanced guide system with automatic quest tracking and autonomous navigation. Testers needed !
--[GuildAlts](https://github.com/sica42/GuildAlts) - lets you manage and share alt names for guild members.
--[Guildbank](https://github.com/Road-block/guildbank) - AddOn for posting bags and bank items to forum (BBCODE)
--[GuildMainTagger](https://github.com/graved/GuildMainTagger) - Displays the names of the main characters in guild messages if they are in the officer notes
--[GuildMap](https://github.com/Haaxor1689/GuildMap) - Displays guild members on the world and mini map
--[GuildRecipes](https://github.com/sica42/GuildRecipes) - View and share tradeskill recipes with your guild
--[GuildRoll](https://github.com/RollingSmile/GuildRoll) - Basic Effort Points (EP) manager
--[GuildSearch](https://github.com/yutsuku/GuildSearch) - Search guild roster by provided name or part of it [[Img1](https://github.com/yutsuku/GuildSearch/raw/master/docs/promo.png?raw=true)].
+- [Gamepad](https://github.com/yutsuku/Gamepad) - Simplifies using abilities when using gamepad
+- [GamonKillTimer](https://github.com/Voidmenull/GamonKillTimer) - never miss a gamon kill again!
+- [Gatherer](https://github.com/Haaxor1689/Gatherer) - Track the closest plants, deposits and treasure locations on you minimap [[Img1](https://cloud.githubusercontent.com/assets/15636669/21586400/dc061a68-d0e1-11e6-9f16-0fd8da155904.jpg)] [[Img2](https://user-images.githubusercontent.com/26133646/39196751-2dd250ea-47e3-11e8-96c2-6d275a7a90b9.png)].
+- [GCDTimerBar](https://github.com/Ageous27/GCDTimerBar) - Simple global cooldown bar  with "press early" latency overlay.
+- [GearMenu](https://github.com/RagedUnicorn/wow-vanilla-gearmenu/releases) - Allows for easier switching between items and keybinding them [[Img1](https://github.com/RagedUnicorn/wow-gearmenu/raw/master/Docs/gm_switch_items.gif)]. **Note:** Only download the release build from the releases page on GitHub. Do not download the raw files on the main GitHub page or through GitAddonsManager, as that will result in getting the debug text spam version of the addon.
+- [GentleGC](https://github.com/MarcelineVQ/GentleGC) - Run garbage collection without pause-the-world allocation
+- [GetHead](https://github.com/trumpetx/GetHead) - Log your character out after receiving Rallying Cry of the Dragonslayer or Spirit of Zandalar (good for AFK world buffing)
+- [GFW DisenchantPredictor](https://github.com/McPewPew/GFW_DisenchantPredictor) - A quick reference to sources of Enchanting materials
+- [GFW FeedOMatic](https://github.com/Monteo/GFW_FeedOMatic) - Helps a Hunter keep his pets well fed (and the food in his inventory under control)
+- [GFW HuntersHelper](https://github.com/McPewPew/GFW_HuntersHelper) - Helps you find tameable beasts to learn pet skills from
+- [Ghost](https://github.com/diff3/Ghost) - Creates 25 buttons bar under mouse pointer (hidden) [[Img1](https://user-images.githubusercontent.com/26133646/39396620-89981264-4af1-11e8-96e9-55a621a98127.png)]
+- [GlobalFriendsList](https://github.com/TrangOul/GlobalFriendsList) - An addon that can carry your friends list between toons.
+- [GMBlacklist](https://github.com/shagu/GMBlacklist) - helps GMs to cut and blacklist raw chat messages
+- [GMR](https://github.com/GrenderG/GMR) - provides a GUI for GM tasks
+- [GoblinBrainwashingHelper](https://github.com/McPewPew/GoblinBrainwashingHelper) - Customize your Goblin Brainwashing Device with specialization names and colors [[Img1](https://github.com/user-attachments/assets/1079cdc1-714c-4be6-acf4-7541447a990b)]
+- [Goblin Brain Saver](https://github.com/FSuhas/Goblin-Brain-Saver) - Goblin Brain Saver is a Turtle addon that allows you to save, restore, and organize your talent specializations. It integrates seamlessly with the game UI using a custom Spellbook-inspired window. [<nowiki>[img](https://github.com/FSuhas/Goblin-Brain-Saver/blob/main/image.png)</nowiki>]
+- [GodMode](https://github.com/qiaeru/GodMode) - A comprehensive toolbox for Game Masters
+- [Gourmet](https://github.com/jsb/Gourmet) - selects suitable food / drinks for picky eaters
+- [GrayAutoSell](https://github.com/ttcremers/GrayAutoSell) - Automatically sells all your gray bag items when you interact with a merchant
+- [GreedMeter](https://github.com/iGreed1993/GreedMeter) - Modern DPS and Threat meter. 
+- [GrimoireKeeper](https://github.com/Scoboose/GrimoireKeeper) - Tracks which grimoires your warlock pets have learned [2](https://github.com/Lichery/GrimoireKeeper)(https://github.com/Lichery/GrimoireKeeper 2) [3](https://gitlab.com/Artur91425/GrimoireKeeper)(https://gitlab.com/Artur91425/GrimoireKeeper 3) [[Img1](https://user-images.githubusercontent.com/24303693/34895078-207a4008-f7f5-11e7-8fbf-c8dc4a2a3121.jpg)]
+- [GrimReaper](https://github.com/xorann/GrimReaper) - Shows the last three hits whenever a player dies
+- [GrindSpots](https://github.com/onnateldome/GrindSpots) - helps players quickly find suitable grind spots for their current level
+- [GroupCalendar](https://github.com/Monteo/GroupCalendar) - provides an in-game calendar for planning, signing up, and managing events
+- [Groupfinder](https://github.com/redshadowz/Groupfinder) - Calltoarms fork, interface simplified, but with expanded chat parsing features.
+- [GroupManager](https://github.com/MtxGrower33/GroupManager) - Manages group formations and party utilities
+- [GryllsBongos](https://github.com/carolluparu/GryllsBongos) - Bongos Extension for World of Warcraft: Vanilla
+- [GryllsSwingTimer](https://github.com/flyinbed/GryllsSwingTimer) - Use the zUI swing timer as a standalone addon with additional color themes. [[Img1](https://raw.githubusercontent.com/GryllsAddons/AddonPreviews/main/GryllsSwingTimer/GST_Class.png)]
+- [Guda](https://github.com/vatichild/guda) - Comprehensive bag and bank management.
+- [GudaPlates](https://github.com/vatichild/guda-plates) - A customizable nameplate addon
+- [GuideCreator](https://github.com/Zarant/GuideCreator/tree/classic) - Auto generates in-game leveling guides
+- [Guidelime Vanilla](https://github.com/JeromeM/GuidelimeVanilla) - [BETA] - AddOn providing an enhanced guide system with automatic quest tracking and autonomous navigation. Testers needed !
+- [GuildAlts](https://github.com/sica42/GuildAlts) - lets you manage and share alt names for guild members.
+- [Guildbank](https://github.com/Road-block/guildbank) - AddOn for posting bags and bank items to forum (BBCODE)
+- [GuildMainTagger](https://github.com/graved/GuildMainTagger) - Displays the names of the main characters in guild messages if they are in the officer notes
+- [GuildMap](https://github.com/Haaxor1689/GuildMap) - Displays guild members on the world and mini map
+- [GuildRecipes](https://github.com/sica42/GuildRecipes) - View and share tradeskill recipes with your guild
+- [GuildRoll](https://github.com/RollingSmile/GuildRoll) - Basic Effort Points (EP) manager
+- [GuildSearch](https://github.com/yutsuku/GuildSearch) - Search guild roster by provided name or part of it [[Img1](https://github.com/yutsuku/GuildSearch/raw/master/docs/promo.png?raw=true)].
 
 [↑ Go to top of page ↑](Addons#Full Addons List)
 
 ### H
--[HardcoreAlarms](https://codeberg.org/hyperhumble/HardcoreAlarms) - Configurable Alarms for Low HP, out of breath, dangerous quests and enemies. Primarily for hardcore characters.
--[HardcoreDeath](https://github.com/Hodareh/HardcoreDeath) - An addon for Turtle WoW that announces in guild how you died if you're doing the hardcore challenge.
--[HasteDisplay](https://github.com/Timanaku/HasteDisplay) - Displays your current haste percentage with color-coded consumable indicators
--[HatTrick](https://github.com/vakos1/HatTrick) - Simple cloak/helm checkboxes in the character frame
--[HawkenPlates](https://github.com/yutsuku/HawkenPlates) - Nameplate based on Hawken (Mech FPS Game) [[Img1](https://user-images.githubusercontent.com/26133646/39197849-ddff86e8-47e5-11e8-8d83-1884d2c7d51b.png)]
--[HBActionBars](https://github.com/hitbutton/HBActionBars) - Action Bars Replacement
--[HBPowerInfusion](https://github.com/hitbutton/HBPowerInfusion) - Helper for Power Infusion Priests
--[HCDeaths](https://github.com/neimad-mp/HCDeaths) - Displays and logs hardcore deaths on Turtle WoW [Img1](https://user-images.githubusercontent.com/107083057/239706238-f12e7732-d9e2-433c-b987-bc880ef186ed.png)(https://user-images.githubusercontent.com/107083057/239706238-f12e7732-d9e2-433c-b987-bc880ef186ed.png Img1) [Img2](https://user-images.githubusercontent.com/107083057/239706235-58b967c1-df33-4620-a2b4-2ae163768802.png)(https://user-images.githubusercontent.com/107083057/239706235-58b967c1-df33-4620-a2b4-2ae163768802.png Img2)
--[HCFilter](https://github.com/trumpetx/TurtleHCFilter) - Filter the HC chan messages and redirect them to a chatframe of choice
--[HCQuest](https://github.com/ilithyia-addons/HCQuest) - Adds a quest warning and information for PvP and dangerous quests.
--[HCRank](https://github.com/neimad-mp/HCRank) - Adds Turtle WoW hardcore death information to the tooltip for dangerous mobs and players.
--[HCSpy](https://github.com/Sulpitz/HCSpy) - Find out who is using Luna unit Frames or HealComm!
--[HCWarn](https://github.com/neimad-mp/HCWarn) - Helps prevent accidental PvP flagging and warns when flagged.
--[Healbot Classic](https://github.com/yogo1212/healbot-classic) - Adds panel with skinable bars for healing and decursive
--[HealComm](https://github.com/Otari98/HealComm) - Visual representation of incoming heals [Alt](https://github.com/maztheman/HealComm)(https://github.com/maztheman/HealComm Alt) [[Img1](https://cloud.githubusercontent.com/assets/15636669/21587110/8b6f4a40-d0e9-11e6-9bcb-ca8f00dd51ca.jpg)]
--[HealersMate](https://github.com/i2ichardt/HealersMate) - Unit frames addon for healers, outdated and succeeded by [Puppeteer](https://github.com/OldManAlpha/Puppeteer)
--[HealingAssignments](https://github.com/Voidmenull/VanillaHealingAssignments) - Make easy and fast Healing Assignments, post them in class-colors! [[Fu](https://github.com/Voidmenull/FuBar_VhaFu)] [[Img1](http://i.imgur.com/RNhe8k2.png)]
--[HendriShift](https://github.com/CosminPOP/HendriShift) - powershift consumables helper
--[HideErrorFrame](https://github.com/zirtox1992/HideErrorFrame) - Removes the error messages that spam your screen
--[HideNamePlates](https://github.com/Hosq/HideNamePlates) - Hides name plates based on unitnames [[Img1](https://camo.githubusercontent.com/507863a840c1be6e56aaa14d3f72d0c4305008b8/68747470733a2f2f7075752e73682f77566f64352f363364303634623738302e6a7067)] [[Img2](https://camo.githubusercontent.com/e8b09a1453de729dedcb5998c1832591fa69f173/68747470733a2f2f7075752e73682f77566f38562f653364363964313432612e6a7067)]
--[HideUI](https://github.com/JakiraElysium/HideUI) - Hides the icons at the end of the action bars [[Img1](https://user-images.githubusercontent.com/26133646/39135808-1aba72e0-471a-11e8-911c-e65114df9347.png)]
--[4HMHelper](https://github.com/NiclasEriksen/4HMHelper) - Shows if you are in the safe zone, stacks you have and Zeliek chain range (/4hm).
--[HolyShift](https://github.com/qrospars/HolyShiftMiio) - Cat druid one-button dps and other useful feral druid functions.
--[honorcounter](https://gitlab.com/woblight/honorcounter/-/tree/vanilla) - Estimates the honor gained
--[HonorSpyTurtle](https://github.com/jrc13245/HonorSpyTurtle) - collects all the honor/rank info on all players you met and shows it [[Img1](https://camo.githubusercontent.com/0591609f4553450e118e82a66a44c2d71b8ae380/68747470733a2f2f686162726173746f726167652e6f72672f66696c65732f3331622f6539322f6639652f33316265393266396562303434613533623465623634326430636134336262632e706e67)]
--[HordeIronfoe](https://github.com/Pre-Elysium/HordeIronfoe) - Ironfoe speech impediment repairer for Horde
--[HotBotPanel](https://github.com/DuduSandsten/HotBotPanel) - Helpful panel for keeping hots up on Sapphiron [[Img1](https://github.com/DuduSandsten/HotBotPanel/raw/master/HotBotPanel-screenshot.png?raw=true)]
--[HunterSwissKnife](https://github.com/enn-wow-addons/HunterSwissKnife) - provides hunters with a set of useful things
+- [HardcoreAlarms](https://codeberg.org/hyperhumble/HardcoreAlarms) - Configurable Alarms for Low HP, out of breath, dangerous quests and enemies. Primarily for hardcore characters.
+- [HardcoreDeath](https://github.com/Hodareh/HardcoreDeath) - An addon for Turtle WoW that announces in guild how you died if you're doing the hardcore challenge.
+- [HasteDisplay](https://github.com/Timanaku/HasteDisplay) - Displays your current haste percentage with color-coded consumable indicators
+- [HatTrick](https://github.com/vakos1/HatTrick) - Simple cloak/helm checkboxes in the character frame
+- [HawkenPlates](https://github.com/yutsuku/HawkenPlates) - Nameplate based on Hawken (Mech FPS Game) [[Img1](https://user-images.githubusercontent.com/26133646/39197849-ddff86e8-47e5-11e8-8d83-1884d2c7d51b.png)]
+- [HBActionBars](https://github.com/hitbutton/HBActionBars) - Action Bars Replacement
+- [HBPowerInfusion](https://github.com/hitbutton/HBPowerInfusion) - Helper for Power Infusion Priests
+- [HCDeaths](https://github.com/neimad-mp/HCDeaths) - Displays and logs hardcore deaths on Turtle WoW [Img1](https://user-images.githubusercontent.com/107083057/239706238-f12e7732-d9e2-433c-b987-bc880ef186ed.png)(https://user-images.githubusercontent.com/107083057/239706238-f12e7732-d9e2-433c-b987-bc880ef186ed.png Img1) [Img2](https://user-images.githubusercontent.com/107083057/239706235-58b967c1-df33-4620-a2b4-2ae163768802.png)(https://user-images.githubusercontent.com/107083057/239706235-58b967c1-df33-4620-a2b4-2ae163768802.png Img2)
+- [HCFilter](https://github.com/trumpetx/TurtleHCFilter) - Filter the HC chan messages and redirect them to a chatframe of choice
+- [HCQuest](https://github.com/ilithyia-addons/HCQuest) - Adds a quest warning and information for PvP and dangerous quests.
+- [HCRank](https://github.com/neimad-mp/HCRank) - Adds Turtle WoW hardcore death information to the tooltip for dangerous mobs and players.
+- [HCSpy](https://github.com/Sulpitz/HCSpy) - Find out who is using Luna unit Frames or HealComm!
+- [HCWarn](https://github.com/neimad-mp/HCWarn) - Helps prevent accidental PvP flagging and warns when flagged.
+- [Healbot Classic](https://github.com/yogo1212/healbot-classic) - Adds panel with skinable bars for healing and decursive
+- [HealComm](https://github.com/Otari98/HealComm) - Visual representation of incoming heals [Alt](https://github.com/maztheman/HealComm)(https://github.com/maztheman/HealComm Alt) [[Img1](https://cloud.githubusercontent.com/assets/15636669/21587110/8b6f4a40-d0e9-11e6-9bcb-ca8f00dd51ca.jpg)]
+- [HealersMate](https://github.com/i2ichardt/HealersMate) - Unit frames addon for healers, outdated and succeeded by [Puppeteer](https://github.com/OldManAlpha/Puppeteer)
+- [HealingAssignments](https://github.com/Voidmenull/VanillaHealingAssignments) - Make easy and fast Healing Assignments, post them in class-colors! [[Fu](https://github.com/Voidmenull/FuBar_VhaFu)] [[Img1](http://i.imgur.com/RNhe8k2.png)]
+- [HendriShift](https://github.com/CosminPOP/HendriShift) - powershift consumables helper
+- [HideErrorFrame](https://github.com/zirtox1992/HideErrorFrame) - Removes the error messages that spam your screen
+- [HideNamePlates](https://github.com/Hosq/HideNamePlates) - Hides name plates based on unitnames [[Img1](https://camo.githubusercontent.com/507863a840c1be6e56aaa14d3f72d0c4305008b8/68747470733a2f2f7075752e73682f77566f64352f363364303634623738302e6a7067)] [[Img2](https://camo.githubusercontent.com/e8b09a1453de729dedcb5998c1832591fa69f173/68747470733a2f2f7075752e73682f77566f38562f653364363964313432612e6a7067)]
+- [HideUI](https://github.com/JakiraElysium/HideUI) - Hides the icons at the end of the action bars [[Img1](https://user-images.githubusercontent.com/26133646/39135808-1aba72e0-471a-11e8-911c-e65114df9347.png)]
+- [4HMHelper](https://github.com/NiclasEriksen/4HMHelper) - Shows if you are in the safe zone, stacks you have and Zeliek chain range (/4hm).
+- [HolyShift](https://github.com/qrospars/HolyShiftMiio) - Cat druid one-button dps and other useful feral druid functions.
+- [honorcounter](https://gitlab.com/woblight/honorcounter/-/tree/vanilla) - Estimates the honor gained
+- [HonorSpyTurtle](https://github.com/jrc13245/HonorSpyTurtle) - collects all the honor/rank info on all players you met and shows it [[Img1](https://camo.githubusercontent.com/0591609f4553450e118e82a66a44c2d71b8ae380/68747470733a2f2f686162726173746f726167652e6f72672f66696c65732f3331622f6539322f6639652f33316265393266396562303434613533623465623634326430636134336262632e706e67)]
+- [HordeIronfoe](https://github.com/Pre-Elysium/HordeIronfoe) - Ironfoe speech impediment repairer for Horde
+- [HotBotPanel](https://github.com/DuduSandsten/HotBotPanel) - Helpful panel for keeping hots up on Sapphiron [[Img1](https://github.com/DuduSandsten/HotBotPanel/raw/master/HotBotPanel-screenshot.png?raw=true)]
+- [HunterSwissKnife](https://github.com/enn-wow-addons/HunterSwissKnife) - provides hunters with a set of useful things
 
 [↑ Go to top of page ↑](Addons#Full Addons List)
 
 ### I
--[IBDF](https://github.com/Geigerkind/IBDF) - addon to control what mages cast
--[Iconic](https://github.com/alchem1ster/Vanilla-Iconic) - Improves the default macro icon selection system by adding a search bar [<nowiki>[Gif](https://s12.gifyu.com/images/S51tM.gif)</nowiki>]
--[IFAlert](https://github.com/Abstr4ctz/IFAlert) - Notifies you when Inner Fire is not up
--[Ignite Status](https://github.com/vakos1/Ignite-Status) - Indicators for ignite and scorch for fire mages
--[IMBA](https://github.com/0ldi/IMBA) - several unique functions for coordination raid, develop tactics and its display in visual form for all raid
--[IMDead](https://github.com/0ldi/IMDead) - Plays an audio file when you die and lvlup
--[ImprovedErrorFrame](ImprovedErrorFrame) - Display errors in scroll-able/selecting frame
--[ImprovedIgnore](https://github.com/twothe/ImprovedIgnore) - Improved functionality for ignore
--[Impulse-booster](https://github.com/Warlockbugs/impulse-booster) - mainly improves UI loading speed for pre-WotLK clients and sometimes improves performance
--[InsigniaTaken](https://github.com/Bergador/InsigniaTaken) - Hides the "Insignia taken" error message when somebody loots your corpse inside a battleground
--[Inspect](https://github.com/shirsig/inspect) - debug pretty print
--[Inspector](https://github.com/doorknob6/Inspector) - Adds a few features to the standard character inspect: keybinds, caching, stat calculation
--[InstanceJournal](https://github.com/Arthur-Helias/InstanceJournal) - A reimagining of World of Warcraft's original Encounter Journal, built for TurtleWoW! [<nowiki>[Img1](https://github.com/user-attachments/assets/38777084-313a-436c-ba8a-54cf33d53964)</nowiki>] [<nowiki>[Img2](https://github.com/user-attachments/assets/903b18a6-52bc-418a-86d7-ebfcfc8c688e)</nowiki>] [<nowiki>[Img3](https://github.com/user-attachments/assets/a6c8535b-5b45-431a-a81c-d6c0a382480b)</nowiki>] [<nowiki>[Img4](https://github.com/user-attachments/assets/bde67b61-e7f6-4d20-ab93-ab696dc1ec41)</nowiki>]
--[InstanceTimers](https://github.com/MarcelineVQ/InstanceTimers) - Tracks your 5 instance lockouts.
--[IntelliSense](https://github.com/jrc13245/IntelliSense) - provides auto-completion for chat messages. It learns from your typing patterns and suggests word completions as you type
--[Interruptor](https://github.com/Road-block/Interruptor) - Interrupt announcer
--[InventorySale](https://github.com/jejkas/InventorySale) - Converts inventory in to BBcode for easy forum posts
--[ItemHints](https://github.com/Road-block/ItemHints) - Tooltip notes for interesting items
--[ItemIDTooltip](https://github.com/cyaohiri/ItemIDTooltip) - Adds item ID to item tooltips
--[ItemRack](ItemRack) - Context menus for inventory items [[Fu](https://github.com/Linae-Kronos/ItemRackFu)] [[Vid1](https://www.youtube.com/watch?v=Fdfb0gH913U)]
--[ItemsOfPower](https://github.com/Road-block/ItemsOfPower#itemsofpower) - Item Stat Valuation Addon [[Img1](https://github.com/Road-block/ItemsOfPower/raw/docs/IOP_set_stat_weight.png)]
--[ItemSplit](https://github.com/balakethelock/ItemSplit) - merge and split large amounts of items in your inventory with slash commands [<nowiki>[Vid1](https://user-images.githubusercontent.com/111737968/264392113-b13b1279-c690-46a3-bc67-e5e65fe4e7a2.mp4)</nowiki>]
--[ItemTooltipIcons](https://github.com/refaim/ItemTooltipIcons) - enhances item tooltips by displaying profession icons for crafting ingredients [<nowiki>[Img1](https://github.com/refaim/ItemTooltipIcons/raw/master/screenshots/copper.jpg)</nowiki>] [<nowiki>[Img2](https://github.com/refaim/ItemTooltipIcons/raw/master/screenshots/iron.jpg)</nowiki>] [<nowiki>[Img3](https://github.com/refaim/ItemTooltipIcons/raw/master/screenshots/leather.jpg)</nowiki>]
--[IWIN](https://github.com/Atreyyo/IWIN) - A one button macro addon for Warriors
--[Immersion](https://github.com/Stormhand81/Immersion) - Hides UI Elements when outside resting zones for more immersion.
--[Immersive Dialog UI](https://github.com/moiian/ImmersiveDialogUI) - A enhanced conversation addon with a focus on immersion and customization.
+- [IBDF](https://github.com/Geigerkind/IBDF) - addon to control what mages cast
+- [Iconic](https://github.com/alchem1ster/Vanilla-Iconic) - Improves the default macro icon selection system by adding a search bar [<nowiki>[Gif](https://s12.gifyu.com/images/S51tM.gif)</nowiki>]
+- [IFAlert](https://github.com/Abstr4ctz/IFAlert) - Notifies you when Inner Fire is not up
+- [Ignite Status](https://github.com/vakos1/Ignite-Status) - Indicators for ignite and scorch for fire mages
+- [IMBA](https://github.com/0ldi/IMBA) - several unique functions for coordination raid, develop tactics and its display in visual form for all raid
+- [IMDead](https://github.com/0ldi/IMDead) - Plays an audio file when you die and lvlup
+- [ImprovedErrorFrame](ImprovedErrorFrame) - Display errors in scroll-able/selecting frame
+- [ImprovedIgnore](https://github.com/twothe/ImprovedIgnore) - Improved functionality for ignore
+- [Impulse-booster](https://github.com/Warlockbugs/impulse-booster) - mainly improves UI loading speed for pre-WotLK clients and sometimes improves performance
+- [InsigniaTaken](https://github.com/Bergador/InsigniaTaken) - Hides the "Insignia taken" error message when somebody loots your corpse inside a battleground
+- [Inspect](https://github.com/shirsig/inspect) - debug pretty print
+- [Inspector](https://github.com/doorknob6/Inspector) - Adds a few features to the standard character inspect: keybinds, caching, stat calculation
+- [InstanceJournal](https://github.com/Arthur-Helias/InstanceJournal) - A reimagining of World of Warcraft's original Encounter Journal, built for TurtleWoW! [<nowiki>[Img1](https://github.com/user-attachments/assets/38777084-313a-436c-ba8a-54cf33d53964)</nowiki>] [<nowiki>[Img2](https://github.com/user-attachments/assets/903b18a6-52bc-418a-86d7-ebfcfc8c688e)</nowiki>] [<nowiki>[Img3](https://github.com/user-attachments/assets/a6c8535b-5b45-431a-a81c-d6c0a382480b)</nowiki>] [<nowiki>[Img4](https://github.com/user-attachments/assets/bde67b61-e7f6-4d20-ab93-ab696dc1ec41)</nowiki>]
+- [InstanceTimers](https://github.com/MarcelineVQ/InstanceTimers) - Tracks your 5 instance lockouts.
+- [IntelliSense](https://github.com/jrc13245/IntelliSense) - provides auto-completion for chat messages. It learns from your typing patterns and suggests word completions as you type
+- [Interruptor](https://github.com/Road-block/Interruptor) - Interrupt announcer
+- [InventorySale](https://github.com/jejkas/InventorySale) - Converts inventory in to BBcode for easy forum posts
+- [ItemHints](https://github.com/Road-block/ItemHints) - Tooltip notes for interesting items
+- [ItemIDTooltip](https://github.com/cyaohiri/ItemIDTooltip) - Adds item ID to item tooltips
+- [ItemRack](ItemRack) - Context menus for inventory items [[Fu](https://github.com/Linae-Kronos/ItemRackFu)] [[Vid1](https://www.youtube.com/watch?v=Fdfb0gH913U)]
+- [ItemsOfPower](https://github.com/Road-block/ItemsOfPower#itemsofpower) - Item Stat Valuation Addon [[Img1](https://github.com/Road-block/ItemsOfPower/raw/docs/IOP_set_stat_weight.png)]
+- [ItemSplit](https://github.com/balakethelock/ItemSplit) - merge and split large amounts of items in your inventory with slash commands [<nowiki>[Vid1](https://user-images.githubusercontent.com/111737968/264392113-b13b1279-c690-46a3-bc67-e5e65fe4e7a2.mp4)</nowiki>]
+- [ItemTooltipIcons](https://github.com/refaim/ItemTooltipIcons) - enhances item tooltips by displaying profession icons for crafting ingredients [<nowiki>[Img1](https://github.com/refaim/ItemTooltipIcons/raw/master/screenshots/copper.jpg)</nowiki>] [<nowiki>[Img2](https://github.com/refaim/ItemTooltipIcons/raw/master/screenshots/iron.jpg)</nowiki>] [<nowiki>[Img3](https://github.com/refaim/ItemTooltipIcons/raw/master/screenshots/leather.jpg)</nowiki>]
+- [IWIN](https://github.com/Atreyyo/IWIN) - A one button macro addon for Warriors
+- [Immersion](https://github.com/Stormhand81/Immersion) - Hides UI Elements when outside resting zones for more immersion.
+- [Immersive Dialog UI](https://github.com/moiian/ImmersiveDialogUI) - A enhanced conversation addon with a focus on immersion and customization.
 
 [↑ Go to top of page ↑](Addons#Full Addons List)
 
 ### J
--[JIM CooldownPulse](https://github.com/pushxd/JIM_CooldownPulse) - As spells, actions, and items become available, their icons will flash in a conspicuous place
--[JIM toolbox](https://github.com/pushxd/JIM_toolbox) - provides configuration UI for other AddOns!
--[Journal](https://github.com/GitStrom/Turtle-Journal) - simple notebook addon for RP players.
+- [JIM CooldownPulse](https://github.com/pushxd/JIM_CooldownPulse) - As spells, actions, and items become available, their icons will flash in a conspicuous place
+- [JIM toolbox](https://github.com/pushxd/JIM_toolbox) - provides configuration UI for other AddOns!
+- [Journal](https://github.com/GitStrom/Turtle-Journal) - simple notebook addon for RP players.
 
 [↑ Go to top of page ↑](Addons#Full Addons List)
 
 ### K
--[KallyoAutoShot](https://github.com/xniko/KallyoAutoShot) - Auto-shot timer for hunters based on Rais' Auto-shot
--[KANGZ](https://github.com/Grymskvll/KANGZ) - addon for managing Dire Maul Tribute buff run invites [[Img1](https://github.com/Grymskvll/KANGZ/raw/master/KANGZ.png)]
--[KethoDoc](https://github.com/refaim/KethoDoc) - dumps the WoW Lua API for [Vanilla WoW Lua Definitions](https://github.com/refaim/Vanilla-WoW-Lua-Definitions).
--[KeijinAchievementMonitor](https://github.com/KeijinDE/KeijinAchievementMonitor) - a standalone achievement system for Turtle WoW
--[KeijinAutoVendor](https://github.com/KeijinDE/KeijinAutoVendor) - Automatically sells gray (poor quality) items and repairs your gear when visiting a vendor.
--[KeyringOpener](https://github.com/EinBaum/KeyringOpener) - Opens the keyring whenever all bags are opened (Shift-B)
--[KillCounter](https://github.com/FrostShock/KillCounter) - Shows how many things you killed (mobs, players, critters) [<nowiki>[Alt](https://github.com/bucketss/KillCounter)</nowiki>]
--[KillLog](https://github.com/Road-block/KillLog) - a GUI for browsing your Kill Log history [[Img1](http://imgur.com/C7x4hR8.png)] [[Img2](https://i.imgur.com/aZ5IIGl.png)]
--[Killpro](https://github.com/sumowares/killpro) - used for tracking all kills [[Img1](http://i.imgur.com/7b4S0Wol.jpg)]
--[KillTrack](https://github.com/sica42/KillTrack) - Tracks any and all mob kills for you. [Img1](https://imgur.com/HVCrCBA)(https://imgur.com/HVCrCBA Img1) [Img2](https://imgur.com/DawFJzs)(https://imgur.com/DawFJzs Img2)
--[KLHThreatMeter (KTM)](KLHThreatMeter) - Threat meter. This version of KTM uses the TWThreat API when available, and the 1.12 threat guessing code otherwise.
--[KTMemeAddon](https://github.com/Bergador/KTMemeAddon) - Replaces mob names of the KT encounter with meme-ier names
--[KTP3ShackleCounter](https://github.com/Bergador/KTP3ShackleCounter) - Keeps track of the number of shackles on the Kel'Thuzad encounter phase 3
--[Kui Nameplates](Kui Nameplates) - Prettier nameplates. Backport from later WoW versions.
+- [KallyoAutoShot](https://github.com/xniko/KallyoAutoShot) - Auto-shot timer for hunters based on Rais' Auto-shot
+- [KANGZ](https://github.com/Grymskvll/KANGZ) - addon for managing Dire Maul Tribute buff run invites [[Img1](https://github.com/Grymskvll/KANGZ/raw/master/KANGZ.png)]
+- [KethoDoc](https://github.com/refaim/KethoDoc) - dumps the WoW Lua API for [Vanilla WoW Lua Definitions](https://github.com/refaim/Vanilla-WoW-Lua-Definitions).
+- [KeijinAchievementMonitor](https://github.com/KeijinDE/KeijinAchievementMonitor) - a standalone achievement system for Turtle WoW
+- [KeijinAutoVendor](https://github.com/KeijinDE/KeijinAutoVendor) - Automatically sells gray (poor quality) items and repairs your gear when visiting a vendor.
+- [KeyringOpener](https://github.com/EinBaum/KeyringOpener) - Opens the keyring whenever all bags are opened (Shift-B)
+- [KillCounter](https://github.com/FrostShock/KillCounter) - Shows how many things you killed (mobs, players, critters) [<nowiki>[Alt](https://github.com/bucketss/KillCounter)</nowiki>]
+- [KillLog](https://github.com/Road-block/KillLog) - a GUI for browsing your Kill Log history [[Img1](http://imgur.com/C7x4hR8.png)] [[Img2](https://i.imgur.com/aZ5IIGl.png)]
+- [Killpro](https://github.com/sumowares/killpro) - used for tracking all kills [[Img1](http://i.imgur.com/7b4S0Wol.jpg)]
+- [KillTrack](https://github.com/sica42/KillTrack) - Tracks any and all mob kills for you. [Img1](https://imgur.com/HVCrCBA)(https://imgur.com/HVCrCBA Img1) [Img2](https://imgur.com/DawFJzs)(https://imgur.com/DawFJzs Img2)
+- [KLHThreatMeter (KTM)](KLHThreatMeter) - Threat meter. This version of KTM uses the TWThreat API when available, and the 1.12 threat guessing code otherwise.
+- [KTMemeAddon](https://github.com/Bergador/KTMemeAddon) - Replaces mob names of the KT encounter with meme-ier names
+- [KTP3ShackleCounter](https://github.com/Bergador/KTP3ShackleCounter) - Keeps track of the number of shackles on the Kel'Thuzad encounter phase 3
+- [Kui Nameplates](Kui Nameplates) - Prettier nameplates. Backport from later WoW versions.
 
 [↑ Go to top of page ↑](Addons#Full Addons List)
 
 ### L
--[LagCast](https://github.com/Johnmichael/LagCast) - compensate for latency and the casting design flaw in the Vanilla client
--[Lager](https://github.com/ZenSociety/Lager) - Reduces lag by pausing superfluous combat logs.
--[LanguageFilter](https://github.com/Road-block/LanguageFilter) - Filter chat messages by character range
--[LazyPig](LazyPig) - An addon for lazy people. Helps automate dismounting, repetitive quests, NPC interactions, and interface actions. [[Vid1](https://www.youtube.com/watch?v=NzNAG85UMyU&feature=youtu.be)]
--[LazyRes](https://github.com/BlackHaste/LazyRes) - makes resurrecting the raid after a wipe easy
--[LazyScript](https://github.com/laytya/LazyScript) - very powerful scripting tool [[wiki](https://github.com/laytya/LazyScript/wiki)]
--[LazySpell](https://github.com/laytya/Lazyspell) - auto healing spell rank scale for Clique and Classic Mouseover
--[LazyWeirdo](https://github.com/MarcelineVQ/LazyWeirdo) - Replacment for lazypig and personal loot automation
--[Lern2Spell](https://github.com/mr-rosh/Lern2Spell) - Automatically upgrades spells on your actionbars
--[LevelRange-Turtle](https://github.com/Spartelfant/LevelRange-Turtle) - Shows the zone level range on the World Map. Now with 100% more turtles!
--[LFGHelper](https://github.com/ralliartse/LFGHelper) - Detects LFG/LFM messages in chat and displays them
--[LHCP](https://github.com/turinpt/LHCP) - LeeroyHillCatsPower extended audio emotes
--[LibramSwap](https://github.com/jvaneg/Libramswap) - Adds automatic smart libram swapping for paladins - no macros required.
--[LilSparkysWorkshop](https://github.com/laytya/LilSparkysWorkshop-vanilla) - adds auction-derived pricing information for trade skills right into the trade skill recipe frame [[Img1](https://camo.githubusercontent.com/8344d50dca78948dcbeaafc0eb227d1263fe6c76/687474703a2f2f692e696d6775722e636f6d2f555872524f786c2e6a7067)]
--[Linkmend](https://github.com/shirsig/linkmend) - Converts CLINK links into regular ones and localizes and fixes regular ones if possible
--[LoadIT](https://github.com/laytya/Vanilla-Addons/blob/master/LoadIT.zip) - In-game addon management
--[LoathebOrder](https://github.com/MarcelineVQ/LoathebOrder) - Provides a macro to announce your loatheb heal
--[LockAssignment](https://github.com/Zedorff/LockAssignment) - addon that allow users to assign curses, banish responsibilities, and soul stone recipients for 40 man raids.
--[LockPort](https://github.com/seacrabsam/LockPort) - For warlock players. Coordinates the summoning of those who type 123
--[LockPort_Plus](https://github.com/randall05/LockPort_Plus) - forked from LockPort, add support for multiple localizations (English and Chinese now)
--[Lookup](https://github.com/TrangOul/Lookup) - Adds searchboxes to the backpack and tradeskill window that the player can use to look up what they need[<nowiki>[Img](https://github.com/TrangOul/Lookup/raw/master/screenshot.png)</nowiki>]
--[LootAtMouse](https://github.com/mitjafelicijan/LootAtMouse) - Opens loot window at current mouse cursor position.
--[LootBlare](https://github.com/MarcelineVQ/LootBlare) - A frame that pops up and shows item and rolls when a single uncommon+ item is linked in Raid Warning [<nowiki>[Img](https://github.com/MarcelineVQ/LootBlare/blob/master/lootblareframe.png)</nowiki>]
--[LootBlare 2.0](https://github.com/FSuhas/LootBlare-For-RoolFor) - LootBlare customizable RollCap with /lbr [<nowiki>[Img1](https://raw.githubusercontent.com/FSuhas/LootBlare-2.0/refs/heads/main/image.png)</nowiki>] [<nowiki>[img2](https://raw.githubusercontent.com/FSuhas/LootBlare-2.0/refs/heads/main/lootblareframe.PNG)</nowiki>]
--[LootCrestReminder](https://github.com/KameleonUK/LootCrestReminder) - Visual and Audio warning to loot the new Weekly quest items when the relevant boss dies
--[LootMonitor](https://github.com/Wiggen94/lootmonitor) - Customizable floating loot notification that displays fading notifications with real item icons when you loot items or coins [<nowiki>[img](https://raw.githubusercontent.com/Wiggen94/lootmonitor/refs/heads/main/images/image.png)</nowiki>]
--[LootTracker](https://github.com/Road-block/LootTracker) - The primary purpose of this addon is track the loot that you and your party receive [[Img1](https://camo.githubusercontent.com/fc6bf4d56b90dbd1ecf6f21cbc92deb6a70810ed/687474703a2f2f692e696d6775722e636f6d2f32716d624b73732e6a7067)]
--[LootRes](https://github.com/CosminPOP/LootRes) - Raiding loot helper for use with Soft Reserve loot systems. [[Vid1](https://www.youtube.com/watch?v=OeV2hqkYA_s)]
--[LoseControl](https://github.com/Road-block/LoseControl) - makes it easy to see the duration of crowd control spells by displaying them in a dedicated icon on screen [[Img1](https://i.imgur.com/TTA1bXR.jpg)]
--[LunaUnitFrames](Addon LunaUnitFrames) - Lightweight Unit Frames in a modern look
--[LVBM](https://github.com/yutsuku/LVBM) - (La Vendetta Boss Mods) is a stand-alone boss mod for raid groups playing in the end-game content, you might be familiar with later versions of this known as DBM (Deadly Boss Mods)
--[Loot Hog](https://www.wowinterface.com/downloads/info12031-LootHog.html) - Detects and tracks rolls which are made with '/random' or '/roll' and sorts them, allowing raid leaders to announce roll winners quickly and easily.
+- [LagCast](https://github.com/Johnmichael/LagCast) - compensate for latency and the casting design flaw in the Vanilla client
+- [Lager](https://github.com/ZenSociety/Lager) - Reduces lag by pausing superfluous combat logs.
+- [LanguageFilter](https://github.com/Road-block/LanguageFilter) - Filter chat messages by character range
+- [LazyPig](LazyPig) - An addon for lazy people. Helps automate dismounting, repetitive quests, NPC interactions, and interface actions. [[Vid1](https://www.youtube.com/watch?v=NzNAG85UMyU&feature=youtu.be)]
+- [LazyRes](https://github.com/BlackHaste/LazyRes) - makes resurrecting the raid after a wipe easy
+- [LazyScript](https://github.com/laytya/LazyScript) - very powerful scripting tool [[wiki](https://github.com/laytya/LazyScript/wiki)]
+- [LazySpell](https://github.com/laytya/Lazyspell) - auto healing spell rank scale for Clique and Classic Mouseover
+- [LazyWeirdo](https://github.com/MarcelineVQ/LazyWeirdo) - Replacment for lazypig and personal loot automation
+- [Lern2Spell](https://github.com/mr-rosh/Lern2Spell) - Automatically upgrades spells on your actionbars
+- [LevelRange-Turtle](https://github.com/Spartelfant/LevelRange-Turtle) - Shows the zone level range on the World Map. Now with 100% more turtles!
+- [LFGHelper](https://github.com/ralliartse/LFGHelper) - Detects LFG/LFM messages in chat and displays them
+- [LHCP](https://github.com/turinpt/LHCP) - LeeroyHillCatsPower extended audio emotes
+- [LibramSwap](https://github.com/jvaneg/Libramswap) - Adds automatic smart libram swapping for paladins - no macros required.
+- [LilSparkysWorkshop](https://github.com/laytya/LilSparkysWorkshop-vanilla) - adds auction-derived pricing information for trade skills right into the trade skill recipe frame [[Img1](https://camo.githubusercontent.com/8344d50dca78948dcbeaafc0eb227d1263fe6c76/687474703a2f2f692e696d6775722e636f6d2f555872524f786c2e6a7067)]
+- [Linkmend](https://github.com/shirsig/linkmend) - Converts CLINK links into regular ones and localizes and fixes regular ones if possible
+- [LoadIT](https://github.com/laytya/Vanilla-Addons/blob/master/LoadIT.zip) - In-game addon management
+- [LoathebOrder](https://github.com/MarcelineVQ/LoathebOrder) - Provides a macro to announce your loatheb heal
+- [LockAssignment](https://github.com/Zedorff/LockAssignment) - addon that allow users to assign curses, banish responsibilities, and soul stone recipients for 40 man raids.
+- [LockPort](https://github.com/seacrabsam/LockPort) - For warlock players. Coordinates the summoning of those who type 123
+- [LockPort_Plus](https://github.com/randall05/LockPort_Plus) - forked from LockPort, add support for multiple localizations (English and Chinese now)
+- [Lookup](https://github.com/TrangOul/Lookup) - Adds searchboxes to the backpack and tradeskill window that the player can use to look up what they need[<nowiki>[Img](https://github.com/TrangOul/Lookup/raw/master/screenshot.png)</nowiki>]
+- [LootAtMouse](https://github.com/mitjafelicijan/LootAtMouse) - Opens loot window at current mouse cursor position.
+- [LootBlare](https://github.com/MarcelineVQ/LootBlare) - A frame that pops up and shows item and rolls when a single uncommon+ item is linked in Raid Warning [<nowiki>[Img](https://github.com/MarcelineVQ/LootBlare/blob/master/lootblareframe.png)</nowiki>]
+- [LootBlare 2.0](https://github.com/FSuhas/LootBlare-For-RoolFor) - LootBlare customizable RollCap with /lbr [<nowiki>[Img1](https://raw.githubusercontent.com/FSuhas/LootBlare-2.0/refs/heads/main/image.png)</nowiki>] [<nowiki>[img2](https://raw.githubusercontent.com/FSuhas/LootBlare-2.0/refs/heads/main/lootblareframe.PNG)</nowiki>]
+- [LootCrestReminder](https://github.com/KameleonUK/LootCrestReminder) - Visual and Audio warning to loot the new Weekly quest items when the relevant boss dies
+- [LootMonitor](https://github.com/Wiggen94/lootmonitor) - Customizable floating loot notification that displays fading notifications with real item icons when you loot items or coins [<nowiki>[img](https://raw.githubusercontent.com/Wiggen94/lootmonitor/refs/heads/main/images/image.png)</nowiki>]
+- [LootTracker](https://github.com/Road-block/LootTracker) - The primary purpose of this addon is track the loot that you and your party receive [[Img1](https://camo.githubusercontent.com/fc6bf4d56b90dbd1ecf6f21cbc92deb6a70810ed/687474703a2f2f692e696d6775722e636f6d2f32716d624b73732e6a7067)]
+- [LootRes](https://github.com/CosminPOP/LootRes) - Raiding loot helper for use with Soft Reserve loot systems. [[Vid1](https://www.youtube.com/watch?v=OeV2hqkYA_s)]
+- [LoseControl](https://github.com/Road-block/LoseControl) - makes it easy to see the duration of crowd control spells by displaying them in a dedicated icon on screen [[Img1](https://i.imgur.com/TTA1bXR.jpg)]
+- [LunaUnitFrames](Addon LunaUnitFrames) - Lightweight Unit Frames in a modern look
+- [LVBM](https://github.com/yutsuku/LVBM) - (La Vendetta Boss Mods) is a stand-alone boss mod for raid groups playing in the end-game content, you might be familiar with later versions of this known as DBM (Deadly Boss Mods)
+- [Loot Hog](https://www.wowinterface.com/downloads/info12031-LootHog.html) - Detects and tracks rolls which are made with '/random' or '/roll' and sorts them, allowing raid leaders to announce roll winners quickly and easily.
 
 [↑ Go to top of page ↑](Addons#Full Addons List)
 
 ### M
--[MacroTextStop](https://github.com/WobLight/MacroTextStop) - Hides macro texts in action buttons
--[MacroTT-V](https://github.com/UndercityAddons-Vanilla/MacroTT-V) - Create tooltips for your macros [[Img1](http://i.imgur.com/No29ZuX.jpg)] [[Img2](http://i.imgur.com/6Sq55nX.jpg)]
--[MageHud](https://github.com/pepopo978/MageHud) -  Display remaining mage shields for ice barrier/mana shield/protection pots and more.
--[Magnify](https://github.com/lookino/Magnify) - Enables world map zoom
--[Mail](https://github.com/EinBaum/Mail) - Easier mailbox management in WoW. Mail is a newer rewrite of Postal, both are by the same dev Shirsig.
--[ManaMinder](https://github.com/melbaa/ManaMinder) - addon for managing mana consumables [[Img1](https://github.com/GritsUI/ManaMinder/raw/master/docs/images/Screenshot1.png)]
--[MainTagger](https://github.com/Knomkrad/Turtle-wow_MainTagger) -  Addon that will print your Main character name in Guild chat or Whisper message if you are on an Alt.
--[ManyQTItemTooltips](https://github.com/AtheneGenesis/Vanilla_ManyQTItemTooltips) - Up to 20 tooltips
--[MapOfScars](https://github.com/yutsuku/MapOfScars) - adds the Skyrim's compass [[Vid](https://youtu.be/Qtuv0gdHo7k)]
--[MapTarget](https://github.com/EinBaum/MapTarget) - makes all "red dots" on the minimap clickable [[Vid1](https://www.youtube.com/watch?v=9RwBYzuGHRo)]
--[MasterLootByClass](https://github.com/Otari98/MasterLootByClass) - Sorts raid members by class rather than group
--[MasterLootRemind](https://github.com/Road-block/MasterLootRemind) - Prompt Raid Leader to Set Master Loot when a Boss is detected
--[MasterTradeSkills](https://github.com/refaim/MasterTradeSkills) - Adds trade skill information to tooltips of ingredients [[Img1](https://raw.githubusercontent.com/refaim/MasterTradeSkills/3c7882ea5f416b029138dc1d6468bfdd87b8378c/screenshot1.png)] [[Img2](https://raw.githubusercontent.com/refaim/MasterTradeSkills/3c7882ea5f416b029138dc1d6468bfdd87b8378c/screenshot2.png)] [[Img3](https://raw.githubusercontent.com/refaim/MasterTradeSkills/3c7882ea5f416b029138dc1d6468bfdd87b8378c/screenshot3.png)] [<s><nowiki>[2](https://github.com/ImmortalSom/MasterTradeSkills)</nowiki></s>]
--[MasterLute](https://github.com/yutsuku/MasterLute) - Sends raid chat message with some predefined variables by user
--[MB-CA-icons](https://github.com/asdaaf/MB-CA-icons) - Addon to track when Mongoose Bite & Counterattack is usable
--[McgUI](https://github.com/McgGithub/McgUI) - Melee user interface (1920x1080) [[Img1](https://user-images.githubusercontent.com/26133646/34464425-9ae5dfe4-ee7e-11e7-960d-c26f32d846d7.jpg)]
--[MCP-TW](https://github.com/FSuhas/MCP-TW) - Allows you to enable/disable addons while logged in the game.
--[MeleeStats](https://github.com/jejkas/MeleeStats) - addon to see your melee stats (must also install **BonusScanner**)
--[Mendeleev](https://github.com/laytya/Mendeleev) - adds information to item tooltips, by which profession it is used etc
--[MessageBox](https://github.com/tilare/MessageBox) - Modern messenger-style addon to handle all your whispers in one place. Similar to WIM.
--[MetaHunt](https://github.com/DuvelCorp/MetaHunt) - Unified addon suite for huntards with an arsenal of Hunter's utilities.
--[Metamap](https://github.com/laytya/Metamap-vanilla) - adds features to the world map [[Img1](https://cloud.githubusercontent.com/assets/15636669/21586585/bf145ba2-d0e3-11e6-8e33-c42026563f16.jpg)]
--[Meeting](https://github.com/phyx1u5/Meeting) - scans the /World chat channel for group adds and lists them in a convenient manner
--[MijksRaidAssist](https://github.com/mijkrofl/MijksRaidAssist) - Checks for Flask, GGSP/GGNP/GGFP/GGAP/GGFRP, Mageblood and Mongoose potions [<nowiki>[Img1](https://i.imgur.com/z8jE7uX.png)</nowiki>] [<nowiki>[Img2](https://i.imgur.com/NdDoioU.png)</nowiki>]
--[MikScrollingBattleText (MSBT)](MikScrollingBattleText) - an alternative for Blizzard's Floating Combat Text and Damage output
--[MinimapButtonBag](MinimapButtonBag) - cleans up your Minimap and relocates the buttons in a menu bar
--[MinimapButtonFrame](https://github.com/laytya/MinimapButtonFrame-vanilla) - gathers up all of your minimap addon buttons and puts them into a movable frame. 
+- [MacroTextStop](https://github.com/WobLight/MacroTextStop) - Hides macro texts in action buttons
+- [MacroTT-V](https://github.com/UndercityAddons-Vanilla/MacroTT-V) - Create tooltips for your macros [[Img1](http://i.imgur.com/No29ZuX.jpg)] [[Img2](http://i.imgur.com/6Sq55nX.jpg)]
+- [MageHud](https://github.com/pepopo978/MageHud) -  Display remaining mage shields for ice barrier/mana shield/protection pots and more.
+- [Magnify](https://github.com/lookino/Magnify) - Enables world map zoom
+- [Mail](https://github.com/EinBaum/Mail) - Easier mailbox management in WoW. Mail is a newer rewrite of Postal, both are by the same dev Shirsig.
+- [ManaMinder](https://github.com/melbaa/ManaMinder) - addon for managing mana consumables [[Img1](https://github.com/GritsUI/ManaMinder/raw/master/docs/images/Screenshot1.png)]
+- [MainTagger](https://github.com/Knomkrad/Turtle-wow_MainTagger) -  Addon that will print your Main character name in Guild chat or Whisper message if you are on an Alt.
+- [ManyQTItemTooltips](https://github.com/AtheneGenesis/Vanilla_ManyQTItemTooltips) - Up to 20 tooltips
+- [MapOfScars](https://github.com/yutsuku/MapOfScars) - adds the Skyrim's compass [[Vid](https://youtu.be/Qtuv0gdHo7k)]
+- [MapTarget](https://github.com/EinBaum/MapTarget) - makes all "red dots" on the minimap clickable [[Vid1](https://www.youtube.com/watch?v=9RwBYzuGHRo)]
+- [MasterLootByClass](https://github.com/Otari98/MasterLootByClass) - Sorts raid members by class rather than group
+- [MasterLootRemind](https://github.com/Road-block/MasterLootRemind) - Prompt Raid Leader to Set Master Loot when a Boss is detected
+- [MasterTradeSkills](https://github.com/refaim/MasterTradeSkills) - Adds trade skill information to tooltips of ingredients [[Img1](https://raw.githubusercontent.com/refaim/MasterTradeSkills/3c7882ea5f416b029138dc1d6468bfdd87b8378c/screenshot1.png)] [[Img2](https://raw.githubusercontent.com/refaim/MasterTradeSkills/3c7882ea5f416b029138dc1d6468bfdd87b8378c/screenshot2.png)] [[Img3](https://raw.githubusercontent.com/refaim/MasterTradeSkills/3c7882ea5f416b029138dc1d6468bfdd87b8378c/screenshot3.png)] [<s><nowiki>[2](https://github.com/ImmortalSom/MasterTradeSkills)</nowiki></s>]
+- [MasterLute](https://github.com/yutsuku/MasterLute) - Sends raid chat message with some predefined variables by user
+- [MB-CA-icons](https://github.com/asdaaf/MB-CA-icons) - Addon to track when Mongoose Bite & Counterattack is usable
+- [McgUI](https://github.com/McgGithub/McgUI) - Melee user interface (1920x1080) [[Img1](https://user-images.githubusercontent.com/26133646/34464425-9ae5dfe4-ee7e-11e7-960d-c26f32d846d7.jpg)]
+- [MCP-TW](https://github.com/FSuhas/MCP-TW) - Allows you to enable/disable addons while logged in the game.
+- [MeleeStats](https://github.com/jejkas/MeleeStats) - addon to see your melee stats (must also install **BonusScanner**)
+- [Mendeleev](https://github.com/laytya/Mendeleev) - adds information to item tooltips, by which profession it is used etc
+- [MessageBox](https://github.com/tilare/MessageBox) - Modern messenger-style addon to handle all your whispers in one place. Similar to WIM.
+- [MetaHunt](https://github.com/DuvelCorp/MetaHunt) - Unified addon suite for huntards with an arsenal of Hunter's utilities.
+- [Metamap](https://github.com/laytya/Metamap-vanilla) - adds features to the world map [[Img1](https://cloud.githubusercontent.com/assets/15636669/21586585/bf145ba2-d0e3-11e6-8e33-c42026563f16.jpg)]
+- [Meeting](https://github.com/phyx1u5/Meeting) - scans the /World chat channel for group adds and lists them in a convenient manner
+- [MijksRaidAssist](https://github.com/mijkrofl/MijksRaidAssist) - Checks for Flask, GGSP/GGNP/GGFP/GGAP/GGFRP, Mageblood and Mongoose potions [<nowiki>[Img1](https://i.imgur.com/z8jE7uX.png)</nowiki>] [<nowiki>[Img2](https://i.imgur.com/NdDoioU.png)</nowiki>]
+- [MikScrollingBattleText (MSBT)](MikScrollingBattleText) - an alternative for Blizzard's Floating Combat Text and Damage output
+- [MinimapButtonBag](MinimapButtonBag) - cleans up your Minimap and relocates the buttons in a menu bar
+- [MinimapButtonFrame](https://github.com/laytya/MinimapButtonFrame-vanilla) - gathers up all of your minimap addon buttons and puts them into a movable frame. 
 If installing via the launcher use - [MinimapButtonFrame](https://github.com/McPewPew/MinimapButtonFrame), [MinimapButtonFrameFu](https://github.com/McPewPew/MinimapButtonFrameFu)
--[MiniMage_TWOW](https://github.com/totalllyswede/MiniMage_TWOW.git) - Mage portal/teleport buttons on mini-map. Updated for TurtleWoW [<nowiki>[Img1](https://i.postimg.cc/L8BL8zSS/ss1.png)</nowiki>]
--[MissingCrafts](https://github.com/refaim/MissingCrafts) - Shows the missing crafts for your crafting professions and how to obtain them. Contains all Turtle WoW recipes including Jewelcrafting. [<nowiki>[Img1](https://i.imgur.com/kOnUMJg.png)</nowiki>] [<nowiki>[Img2](https://i.imgur.com/WwW5k4S.png)</nowiki>] [<nowiki>[Img3](https://i.imgur.com/ES18yju.png)</nowiki>]
--[MissingTradeSkillsList](https://github.com/refaim/MissingTradeSkillsList/) - Shows the missing recipes/skills for a tradeskill and where to get them. Classic 1.13 version, backported for 1.12.1 and updated for Turtle WoW, contains many Turtle WoW recipes. Does not contain Jewelcrafting. Requires [TradeSkillsData](https://github.com/refaim/TradeSkillsData) and [TradeSkillsData-turtle](https://github.com/refaim/TradeSkillsData-turtle) [Img](https://github.com/refaim/MissingTradeSkillsList/blob/master/README.md)(https://github.com/refaim/MissingTradeSkillsList/blob/master/README.md Img).
--[MobHealth](https://github.com/kc8pnd/MobHealth) - displays the current and maximum health of your target on top of the target frame [[2](https://github.com/FrostShock/MobHealth)]
--[MobHealth3](https://github.com/Paparogue/MobHealth3-Kronos3-Edition) - Shows the exact NPC Health [[Img1](https://camo.githubusercontent.com/e84d0bb4f6780d803577176735ed3aae78ea5f18/68747470733a2f2f692e696d6775722e636f6d2f327856717369552e706e67)]
--[MobInfo2Turtle](https://github.com/robs898/MobInfo2Turtle) - provides you with useful additional information about opponents/monsters. Tracks drop rates off mobs.
--[MobResist](https://github.com/0ldi/MobResist) - Show the current armor and resistance of the mob that you are targeting
--[MobResistAndDmg](https://github.com/leenux/MobResistAndDmg) - Mobs resist, damage and speed for Turtle-WoW, update from MobResist.
--[MobStats](https://github.com/refaim/MobStats) - Displays mob stats (damage, attack speed, dps, armor, DR, resists etc) in a human-friendly form in the game tooltip. [Img1](https://github.com/refaim/MobStats/blob/b09cb8ff9d7ff78bfa0d0f7e4550feb1b36995ce/wendigo.png?raw=true)(https://github.com/refaim/MobStats/blob/b09cb8ff9d7ff78bfa0d0f7e4550feb1b36995ce/wendigo.png?raw=true Img1) [Img2](https://github.com/refaim/MobStats/blob/b09cb8ff9d7ff78bfa0d0f7e4550feb1b36995ce/boar.png?raw=true)(https://github.com/refaim/MobStats/blob/b09cb8ff9d7ff78bfa0d0f7e4550feb1b36995ce/boar.png?raw=true Img2)
--[MobsToLevel](https://github.com/idontbyte/MobsToLevel) - adds a small window that tells you how many more mobs you need to level up! [[Img1](https://user-images.githubusercontent.com/26133646/39395707-1bae3ef4-4ae2-11e8-98f6-00c11b572511.png)]
--[Modguide](https://github.com/obble/modguide) - puts VanillaGuide into a chat window
--[ModernFocusFrame](https://github.com/Abstr4ctz/ModernFocusFrame) - Focus frame addon with working castbar and ToT.
--[ModernSpellAlert](https://github.com/Abstr4ctz/ModernSpellAlert) - A powerful, lightweight, and highly customizable addon for tracking spell casts and procs in real time. [<nowiki>[Img1](https://i.imgur.com/QE2UU8N.png)</nowiki>]
--[ModernSpellBook](https://github.com/vegeta1k95/ModernSpellBook) - Changes the spellbook to a more modern look
--[ModifiedPowerAuras (MPowA)](https://github.com/MarcelineVQ/ModifiedPowerAuras) - Lets you customize graphics to remind you do do certain things, based on buff and debuff tracking. The grandfather of the vastly more complex WeakAuras from later WoW versions. [[Img1](https://camo.githubusercontent.com/79a18879d409a230f9006411181294452ccbfcaa/687474703a2f2f692e696d6775722e636f6d2f53473242306a572e6a7067)]
--[Modui](https://github.com/zirtox1992/modui) - Complete vanilla UI (Clean but modern!)
--[ModUICombatTextStandalone](https://github.com/dogmax/ModUICombatTextStandalone)  - The scrolling combat text from ModUI without the whole interface.
--[Modui-FocusFrame](https://github.com/gashole/modui-FocusFrame) - Adds modui style changes to [FocusFrame](https://github.com/wardz/FocusFrame) [[Img1](https://camo.githubusercontent.com/0b4cec0e92fbd6c09601828906499ccead0f64b6/687474703a2f2f692e696d6775722e636f6d2f5553736d3965462e706e67)]
--[Modui-TallHealthBar](https://github.com/gashole/modui-TallHealthBar) - Adds taller player and target health bars to modui [[Img1](https://camo.githubusercontent.com/56a01fa32af47836d67eb00a5d43caf34e500e97/687474703a2f2f692e696d6775722e636f6d2f356267714a6c652e706e67)]
--[MonkeySpeed](https://github.com/TrangOul/MonkeySpeed) - Adds a simple movable speedometer displaying speed as a percentage of run speed.
--[MoPGearTooltips](https://github.com/Zebouski/MoPGearTooltips/tree/masterturtle) - Backports the clean gear tooltip text of MoP, for a consistent and far more readable experience.
--[MorunoRankEnhanced](https://github.com/jrc13245/MorunoRankEnhanced) - addon for estimating PVP-Standings [[Img1](http://i.imgur.com/XfktEXC.jpg)]
--[MouseHighlightCircle](https://github.com/goamania/MouseHighlightCircle) - Adds a white circle around the mouse cursor for better visibility.
--[MouseLookLock](https://github.com/rfelleto/Mlooklock) - MouseLookLock sets up a simple perma-mouselook. 
--[Mouseover](https://github.com/shirsig/mouseover) - Enables mouseover actions on unit frames
--[MouseOverSounds](https://github.com/ftkun/MouseOverSounds) - Plays a warning sound when you mouseover a rare, elite or dangerous mob.
--[MouseOverSounds_PvP](https://github.com//mikefirefly/MouseOverSounds_PvP) - Plays a warning sound when you mouseover a unit that is PvP enabled.
--[MoveAnything](https://github.com/JembaWoW/MoveAnything) - Lets you move, scale, and hide...well...anything at all!<
--[MovementTracker](https://github.com/tilare/MovementTracker) - Tracks time and distance spent running on foot and while mounted.
--[MRE](https://github.com/shirsig/MRE) - is a simple mod that shows the number of rage / energy / mana [[Img1](https://user-images.githubusercontent.com/26133646/39261846-007d20a8-48be-11e8-8a88-9c1f23ca2d32.png)]
--[MrPlow](https://github.com/McPewPew/MrPlow) - Bag sorting addon with various options
--[Mule](https://github.com/cubenicke/Mule) - help moving consumables back and forth between characters [[Img1](https://raw.githubusercontent.com/cubenicke/Mule/master/icons/donkey-icon.png)]
--[MuteCities](https://github.com/KameleonUK/MuteCities) - Mutes the music while in Orgrimmar and Stormwind City
+- [MiniMage_TWOW](https://github.com/totalllyswede/MiniMage_TWOW.git) - Mage portal/teleport buttons on mini-map. Updated for TurtleWoW [<nowiki>[Img1](https://i.postimg.cc/L8BL8zSS/ss1.png)</nowiki>]
+- [MissingCrafts](https://github.com/refaim/MissingCrafts) - Shows the missing crafts for your crafting professions and how to obtain them. Contains all Turtle WoW recipes including Jewelcrafting. [<nowiki>[Img1](https://i.imgur.com/kOnUMJg.png)</nowiki>] [<nowiki>[Img2](https://i.imgur.com/WwW5k4S.png)</nowiki>] [<nowiki>[Img3](https://i.imgur.com/ES18yju.png)</nowiki>]
+- [MissingTradeSkillsList](https://github.com/refaim/MissingTradeSkillsList/) - Shows the missing recipes/skills for a tradeskill and where to get them. Classic 1.13 version, backported for 1.12.1 and updated for Turtle WoW, contains many Turtle WoW recipes. Does not contain Jewelcrafting. Requires [TradeSkillsData](https://github.com/refaim/TradeSkillsData) and [TradeSkillsData-turtle](https://github.com/refaim/TradeSkillsData-turtle) [Img](https://github.com/refaim/MissingTradeSkillsList/blob/master/README.md)(https://github.com/refaim/MissingTradeSkillsList/blob/master/README.md Img).
+- [MobHealth](https://github.com/kc8pnd/MobHealth) - displays the current and maximum health of your target on top of the target frame [[2](https://github.com/FrostShock/MobHealth)]
+- [MobHealth3](https://github.com/Paparogue/MobHealth3-Kronos3-Edition) - Shows the exact NPC Health [[Img1](https://camo.githubusercontent.com/e84d0bb4f6780d803577176735ed3aae78ea5f18/68747470733a2f2f692e696d6775722e636f6d2f327856717369552e706e67)]
+- [MobInfo2Turtle](https://github.com/robs898/MobInfo2Turtle) - provides you with useful additional information about opponents/monsters. Tracks drop rates off mobs.
+- [MobResist](https://github.com/0ldi/MobResist) - Show the current armor and resistance of the mob that you are targeting
+- [MobResistAndDmg](https://github.com/leenux/MobResistAndDmg) - Mobs resist, damage and speed for Turtle-WoW, update from MobResist.
+- [MobStats](https://github.com/refaim/MobStats) - Displays mob stats (damage, attack speed, dps, armor, DR, resists etc) in a human-friendly form in the game tooltip. [Img1](https://github.com/refaim/MobStats/blob/b09cb8ff9d7ff78bfa0d0f7e4550feb1b36995ce/wendigo.png?raw=true)(https://github.com/refaim/MobStats/blob/b09cb8ff9d7ff78bfa0d0f7e4550feb1b36995ce/wendigo.png?raw=true Img1) [Img2](https://github.com/refaim/MobStats/blob/b09cb8ff9d7ff78bfa0d0f7e4550feb1b36995ce/boar.png?raw=true)(https://github.com/refaim/MobStats/blob/b09cb8ff9d7ff78bfa0d0f7e4550feb1b36995ce/boar.png?raw=true Img2)
+- [MobsToLevel](https://github.com/idontbyte/MobsToLevel) - adds a small window that tells you how many more mobs you need to level up! [[Img1](https://user-images.githubusercontent.com/26133646/39395707-1bae3ef4-4ae2-11e8-98f6-00c11b572511.png)]
+- [Modguide](https://github.com/obble/modguide) - puts VanillaGuide into a chat window
+- [ModernFocusFrame](https://github.com/Abstr4ctz/ModernFocusFrame) - Focus frame addon with working castbar and ToT.
+- [ModernSpellAlert](https://github.com/Abstr4ctz/ModernSpellAlert) - A powerful, lightweight, and highly customizable addon for tracking spell casts and procs in real time. [<nowiki>[Img1](https://i.imgur.com/QE2UU8N.png)</nowiki>]
+- [ModernSpellBook](https://github.com/vegeta1k95/ModernSpellBook) - Changes the spellbook to a more modern look
+- [ModifiedPowerAuras (MPowA)](https://github.com/MarcelineVQ/ModifiedPowerAuras) - Lets you customize graphics to remind you do do certain things, based on buff and debuff tracking. The grandfather of the vastly more complex WeakAuras from later WoW versions. [[Img1](https://camo.githubusercontent.com/79a18879d409a230f9006411181294452ccbfcaa/687474703a2f2f692e696d6775722e636f6d2f53473242306a572e6a7067)]
+- [Modui](https://github.com/zirtox1992/modui) - Complete vanilla UI (Clean but modern!)
+- [ModUICombatTextStandalone](https://github.com/dogmax/ModUICombatTextStandalone)  - The scrolling combat text from ModUI without the whole interface.
+- [Modui-FocusFrame](https://github.com/gashole/modui-FocusFrame) - Adds modui style changes to [FocusFrame](https://github.com/wardz/FocusFrame) [[Img1](https://camo.githubusercontent.com/0b4cec0e92fbd6c09601828906499ccead0f64b6/687474703a2f2f692e696d6775722e636f6d2f5553736d3965462e706e67)]
+- [Modui-TallHealthBar](https://github.com/gashole/modui-TallHealthBar) - Adds taller player and target health bars to modui [[Img1](https://camo.githubusercontent.com/56a01fa32af47836d67eb00a5d43caf34e500e97/687474703a2f2f692e696d6775722e636f6d2f356267714a6c652e706e67)]
+- [MonkeySpeed](https://github.com/TrangOul/MonkeySpeed) - Adds a simple movable speedometer displaying speed as a percentage of run speed.
+- [MoPGearTooltips](https://github.com/Zebouski/MoPGearTooltips/tree/masterturtle) - Backports the clean gear tooltip text of MoP, for a consistent and far more readable experience.
+- [MorunoRankEnhanced](https://github.com/jrc13245/MorunoRankEnhanced) - addon for estimating PVP-Standings [[Img1](http://i.imgur.com/XfktEXC.jpg)]
+- [MouseHighlightCircle](https://github.com/goamania/MouseHighlightCircle) - Adds a white circle around the mouse cursor for better visibility.
+- [MouseLookLock](https://github.com/rfelleto/Mlooklock) - MouseLookLock sets up a simple perma-mouselook. 
+- [Mouseover](https://github.com/shirsig/mouseover) - Enables mouseover actions on unit frames
+- [MouseOverSounds](https://github.com/ftkun/MouseOverSounds) - Plays a warning sound when you mouseover a rare, elite or dangerous mob.
+- [MouseOverSounds_PvP](https://github.com//mikefirefly/MouseOverSounds_PvP) - Plays a warning sound when you mouseover a unit that is PvP enabled.
+- [MoveAnything](https://github.com/JembaWoW/MoveAnything) - Lets you move, scale, and hide...well...anything at all!<
+- [MovementTracker](https://github.com/tilare/MovementTracker) - Tracks time and distance spent running on foot and while mounted.
+- [MRE](https://github.com/shirsig/MRE) - is a simple mod that shows the number of rage / energy / mana [[Img1](https://user-images.githubusercontent.com/26133646/39261846-007d20a8-48be-11e8-8a88-9c1f23ca2d32.png)]
+- [MrPlow](https://github.com/McPewPew/MrPlow) - Bag sorting addon with various options
+- [Mule](https://github.com/cubenicke/Mule) - help moving consumables back and forth between characters [[Img1](https://raw.githubusercontent.com/cubenicke/Mule/master/icons/donkey-icon.png)]
+- [MuteCities](https://github.com/KameleonUK/MuteCities) - Mutes the music while in Orgrimmar and Stormwind City
 
 [↑ Go to top of page ↑](Addons#Full Addons List)
 
 ### N
--[_Nameplates](_Nameplates) - sorts nameplates into friendly and hostile columns [[Img1](http://i.imgur.com/BYSWogN.jpg)]
--[NameChangeScript](https://github.com/zirtox1992/NameChangeScript) - Change your name in whatever you want, will only be visible to you not to other players.
--[Nauticus](https://github.com/Road-block/Nauticus) - transportation tracker [[Fu](https://github.com/Road-block/FuBar_NauticusFu)]
--[NewLevelFrame](https://github.com/alchem1ster/Vanilla-NewLevelFrame) - shows a congratulations frame when a new level is reached [<nowiki>[gif](https://s12.gifyu.com/images/S5Azk.gif)</nowiki>]
--[NBR](https://github.com/DuduSandsten/NBR) - (NirkBuffRemover) automatically remove the least useful buff when you get close to the buff cap [[Img1](https://github.com/DuduSandsten/NBR/raw/master/screenshot.png)]
--[Necrosis](https://github.com/Nedlinin/necrosis-twow.git) - is a tool designed to help warlock players manage various aspects of their gameplay. [<nowiki>[2](https://github.com/pylebecq/necrosis-twow)</nowiki>]
--[NerfedButtons4Wow](https://github.com/GarethFromWales/NerfedButtons4Wow) - Priority based conditional sequencer for Vanilla WoW
--[Niagara](https://github.com/laytya/Niagara) - makes a list of all your Ace2 Addons that use AceConsole using Waterfall Lib so you have a GUI for config [[Img1](http://i.imgur.com/E50w3iw.jpg)]
--[Nitro](https://gitlab.com/woblight/nitro/-/tree/vanilla) - Displays movement speed meter
--[NoMoreMoo](https://github.com/ahungry/NoMoreMoo) - Get rid of annoying moo and goldspam
--[NosCursor](https://github.com/Beardedrasta/NosCursor) - Advanced but also lightweight cursor tracker
--[NotesUNeed](https://github.com/Scoboose/NotesUNeed-Turtle) - Notes Manager that allows you to track Friends, Ignores, Guild members, Quests, Items and generic notes [https://github.com/rnorden/NotesUNeed[2]] [[Img1](https://user-images.githubusercontent.com/26133646/39304137-f8a20fba-4958-11e8-9494-4e5d390e4f6b.png)]
--[NotChatLootBidder](https://github.com/trumpetx/NotChatLootBidder) - A raider companion addon to [ChatLootBidder](https://github.com/trumpetx/ChatLootBidder) and [RollFor](RollFor) to assist in the bidding and rolling process by popping up loot interface for raiders.
--[NotGrid](NotGrid) - It's pretty much grid and it works
--[NoToggle](https://github.com/shirsig/notoggle) - Disables toggling behavior of Attack, Auto Shot and Shoot
--[NugComboBar](https://github.com/rgd87/NugComboBar/tree/vanilla) - Combo Points tracker
--[NugEnergy](https://github.com/rgd87/NugEnergy/tree/vanilla) - Energy/Rage tracker
+- [_Nameplates](_Nameplates) - sorts nameplates into friendly and hostile columns [[Img1](http://i.imgur.com/BYSWogN.jpg)]
+- [NameChangeScript](https://github.com/zirtox1992/NameChangeScript) - Change your name in whatever you want, will only be visible to you not to other players.
+- [Nauticus](https://github.com/Road-block/Nauticus) - transportation tracker [[Fu](https://github.com/Road-block/FuBar_NauticusFu)]
+- [NewLevelFrame](https://github.com/alchem1ster/Vanilla-NewLevelFrame) - shows a congratulations frame when a new level is reached [<nowiki>[gif](https://s12.gifyu.com/images/S5Azk.gif)</nowiki>]
+- [NBR](https://github.com/DuduSandsten/NBR) - (NirkBuffRemover) automatically remove the least useful buff when you get close to the buff cap [[Img1](https://github.com/DuduSandsten/NBR/raw/master/screenshot.png)]
+- [Necrosis](https://github.com/Nedlinin/necrosis-twow.git) - is a tool designed to help warlock players manage various aspects of their gameplay. [<nowiki>[2](https://github.com/pylebecq/necrosis-twow)</nowiki>]
+- [NerfedButtons4Wow](https://github.com/GarethFromWales/NerfedButtons4Wow) - Priority based conditional sequencer for Vanilla WoW
+- [Niagara](https://github.com/laytya/Niagara) - makes a list of all your Ace2 Addons that use AceConsole using Waterfall Lib so you have a GUI for config [[Img1](http://i.imgur.com/E50w3iw.jpg)]
+- [Nitro](https://gitlab.com/woblight/nitro/-/tree/vanilla) - Displays movement speed meter
+- [NoMoreMoo](https://github.com/ahungry/NoMoreMoo) - Get rid of annoying moo and goldspam
+- [NosCursor](https://github.com/Beardedrasta/NosCursor) - Advanced but also lightweight cursor tracker
+- [NotesUNeed](https://github.com/Scoboose/NotesUNeed-Turtle) - Notes Manager that allows you to track Friends, Ignores, Guild members, Quests, Items and generic notes [https://github.com/rnorden/NotesUNeed[2]] [[Img1](https://user-images.githubusercontent.com/26133646/39304137-f8a20fba-4958-11e8-9494-4e5d390e4f6b.png)]
+- [NotChatLootBidder](https://github.com/trumpetx/NotChatLootBidder) - A raider companion addon to [ChatLootBidder](https://github.com/trumpetx/ChatLootBidder) and [RollFor](RollFor) to assist in the bidding and rolling process by popping up loot interface for raiders.
+- [NotGrid](NotGrid) - It's pretty much grid and it works
+- [NoToggle](https://github.com/shirsig/notoggle) - Disables toggling behavior of Attack, Auto Shot and Shoot
+- [NugComboBar](https://github.com/rgd87/NugComboBar/tree/vanilla) - Combo Points tracker
+- [NugEnergy](https://github.com/rgd87/NugEnergy/tree/vanilla) - Energy/Rage tracker
 
 [↑ Go to top of page ↑](Addons#Full Addons List)
 
 ### O
--[oCB](https://github.com/laytya/Vanilla_oCB) - (Otravi Casting Bar) Quartz Like castbar [<nowiki>[2](https://github.com/martinjlowm/Vanilla_oCB)</nowiki>] [<nowiki>[3](https://github.com/Road-block/Vanilla_oCB)</nowiki>] 
--[<nowiki>oCB  [SuperWoW](https://github.com/Shellyoung/oCB-SuperWoW)</nowiki>] - (Otravi Casting Bar) Quartz Like castbar with SuperWoW support [<nowiki>[Image](https://private-user-images.githubusercontent.com/40469927/438325003-34d65f41-b102-4690-aa7a-68ca45f1b8cd.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTA5MjI5MDIsIm5iZiI6MTc1MDkyMjYwMiwicGF0aCI6Ii80MDQ2OTkyNy80MzgzMjUwMDMtMzRkNjVmNDEtYjEwMi00NjkwLWFhN2EtNjhjYTQ1ZjFiOGNkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA2MjYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNjI2VDA3MjMyMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTFiNDI1NjIwZmQwN2QxNmM2MjhhMjgyMmY2NGU2MDkxNTkxZWQ2N2JlY2Q5NmFlZmQzMjQ1ODJjZGFlYTc1ZDMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Rhg5T2dc1r_ygbwYijLFKAhx7zaCixTYBO54qsc3AJU)</nowiki>]. 
--[OctoPawn](https://github.com/iGreed1993/OctoPawn) - A lightweight item scoring and comparison addon 
--[OG-RaidHelper](https://github.com/zanthor/OG-RaidHelper) - Raid addon for organizing, roles, trade, and validation 
--[OmniCC](https://github.com/Otari98/OmniCC) - A universal cooldown count, based on Gello's spec [[Img1](https://user-images.githubusercontent.com/13628128/58881262-7d094080-86e2-11e9-8ef2-be1f22caf5f5.jpg)]
--[OneButtonHunter](https://github.com/Geigerkind/OneButtonHunter) - A very simple addon, executing the rotation of the hunter
--[OnlyASCII](https://github.com/ericschn/OnlyASCII) - removes all chat messages containing non-standard ascii characters
--[OoI](https://github.com/jejkas/OoI) - addon to help with Oil of Immolation
--[OpenClam](https://github.com/goldenpipes/OpenClam) - Search clam shells in inventory and open them after looting
--[oRA2](oRA2) - a lightweight alternative for CTRaidAssist [[Img1](https://cloud.githubusercontent.com/assets/15636669/21586607/f9f4cee6-d0e3-11e6-8ac9-8bc9c8313034.jpg)]
--[Outfitter](https://github.com/pepopo978/Outfitter) - is an equipment management addon which gives you fast access to multiple outfits. [Alt1](https://github.com/MarcelineVQ/Outfitter)(https://github.com/MarcelineVQ/Outfitter Alt1) [[Fu](https://github.com/Voidmenull/FuBar_OutfitterFu)] [[Img1](https://i.imgur.com/iAixuvGl.png)]
+- [oCB](https://github.com/laytya/Vanilla_oCB) - (Otravi Casting Bar) Quartz Like castbar [<nowiki>[2](https://github.com/martinjlowm/Vanilla_oCB)</nowiki>] [<nowiki>[3](https://github.com/Road-block/Vanilla_oCB)</nowiki>] 
+- [<nowiki>oCB  [SuperWoW](https://github.com/Shellyoung/oCB-SuperWoW)</nowiki>] - (Otravi Casting Bar) Quartz Like castbar with SuperWoW support [<nowiki>[Image](https://private-user-images.githubusercontent.com/40469927/438325003-34d65f41-b102-4690-aa7a-68ca45f1b8cd.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTA5MjI5MDIsIm5iZiI6MTc1MDkyMjYwMiwicGF0aCI6Ii80MDQ2OTkyNy80MzgzMjUwMDMtMzRkNjVmNDEtYjEwMi00NjkwLWFhN2EtNjhjYTQ1ZjFiOGNkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA2MjYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNjI2VDA3MjMyMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTFiNDI1NjIwZmQwN2QxNmM2MjhhMjgyMmY2NGU2MDkxNTkxZWQ2N2JlY2Q5NmFlZmQzMjQ1ODJjZGFlYTc1ZDMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Rhg5T2dc1r_ygbwYijLFKAhx7zaCixTYBO54qsc3AJU)</nowiki>]. 
+- [OctoPawn](https://github.com/iGreed1993/OctoPawn) - A lightweight item scoring and comparison addon 
+- [OG-RaidHelper](https://github.com/zanthor/OG-RaidHelper) - Raid addon for organizing, roles, trade, and validation 
+- [OmniCC](https://github.com/Otari98/OmniCC) - A universal cooldown count, based on Gello's spec [[Img1](https://user-images.githubusercontent.com/13628128/58881262-7d094080-86e2-11e9-8ef2-be1f22caf5f5.jpg)]
+- [OneButtonHunter](https://github.com/Geigerkind/OneButtonHunter) - A very simple addon, executing the rotation of the hunter
+- [OnlyASCII](https://github.com/ericschn/OnlyASCII) - removes all chat messages containing non-standard ascii characters
+- [OoI](https://github.com/jejkas/OoI) - addon to help with Oil of Immolation
+- [OpenClam](https://github.com/goldenpipes/OpenClam) - Search clam shells in inventory and open them after looting
+- [oRA2](oRA2) - a lightweight alternative for CTRaidAssist [[Img1](https://cloud.githubusercontent.com/assets/15636669/21586607/f9f4cee6-d0e3-11e6-8ac9-8bc9c8313034.jpg)]
+- [Outfitter](https://github.com/pepopo978/Outfitter) - is an equipment management addon which gives you fast access to multiple outfits. [Alt1](https://github.com/MarcelineVQ/Outfitter)(https://github.com/MarcelineVQ/Outfitter Alt1) [[Fu](https://github.com/Voidmenull/FuBar_OutfitterFu)] [[Img1](https://i.imgur.com/iAixuvGl.png)]
 
 [↑ Go to top of page ↑](Addons#Full Addons List)
 
 ### P
--[PageTurner](https://github.com/ZythDr/PageTurner) - Scroll through pages at vendors, mailbox, and spellbook
--[PallyPower-Turtle](PallyPower) - easy to use interface that allows you set your own blessings and automatically check for missing buffs
--[Paladin Salva Remover](https://github.com/maxcodk/PaladinSalvaRemover) - removes salva if you have RF threat buff, useful for tanks
--[Paladin Libram Swap](https://github.com/maxcodk/PaladinLibramSwap) - helps to swap librams without breaking gcd
--[Panda](https://github.com/tubtubs/panda) - Makes quick work of disenchanting (/Panda).
--[Parchment](https://github.com/ericraio/vanilla-wow-addons/tree/238c6d633d5a5b8a0cc4ee7a8cbb548ea80da081/p/Parchment) - A way to write down simple notes of things you want to remember
--[PartyPlus](https://github.com/cregham/PartyPlus) - Easy tool for party invites
--[PerfectShot](https://github.com/wbb1977/PerfectShot) - Hides UI / name plates and then takes a series of screenshots
--[PetXPBar](https://github.com/refaim/PetXPBar) - Pet experience bar for the default Blizzard UI [<nowiki>[Img1](https://github.com/refaim/PetXPBar/raw/master/img.jpg)</nowiki>]
--[pfDebug](https://github.com/shagu/pfDebug) - A little tool to monitor the memory usage, peaks and garbage collection [Alt](https://github.com/me0wg4ming/pfDebug)(https://github.com/me0wg4ming/pfDebug Alt) [[Img1](https://github.com/shagu/pfDebug/raw/master/analyzer.jpg)]
--[pfDesktop](https://github.com/shagu/pfdesktop) - An In Game-Desktop Environment [[Img1](https://user-images.githubusercontent.com/26133646/47615473-87f65580-daaf-11e8-91b0-797bf091b789.png)]
--[pfExtend](https://github.com/Cliencer/pfExtend) - Display all monster drops, query the task chain. This module is based on pfQuest (/pfex).
--[pfQuest](https://github.com/The-Kludge-Bureau/pfQuest) - A lightweight quest helper and ingame database [Alt](https://github.com/The-Kludge-Bureau/pfQuest)(https://github.com/The-Kludge-Bureau/pfQuest Alt) [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/pfQuest/map-spawnpoints.png)]
--[pfQuest-icons](https://github.com/shagu/pfQuest-icons) - An extension for pfQuest to use Gatherer icons on resource nodes [Img1](https://github.com/shagu/pfQuest-icons/raw/master/screenshot.png)(https://github.com/shagu/pfQuest-icons/raw/master/screenshot.png Img1)
--[pfQuest-turtle](https://github.com/The-Kludge-Bureau/pfQuest-turtle) - A TurtleWoW DB extension for pfQuest. You need base pfQuest for this to work!
--[pfStudio](https://github.com/shagu/pfStudio) - an in game-IDE [[Vid1](https://www.youtube.com/watch?v=Dmj9dZzeHHM)]
--[pfUI](https://github.com/me0wg4ming/pfUI) - full replacement for the original Wow interface in a single Addon [[Vid1](https://www.youtube.com/watch?v=asbHq5rzK1E)]
-  -[pfUI-turtle](https://github.com/doorknob6/pfUI-turtle) - A small extension that fixes some issues that arise from Turtle's custom UI, class and item changes [<nowiki>[img1](https://github.com/doorknob6/pfUI-turtle/raw/images/inspect_character_LFT.png?raw=true)</nowiki>]
--[pfUI-addonskinner](https://github.com/jrc13245/pfUI-addonskinner) - External module for pfUI that provides you with pfUI-themed skins for other addons [[Img1](https://github.com/mr-rosh/pfUI-addonskinner/raw/master/settings.png)]
--[pfUI-autoinvite](https://github.com/BahamutxD/pfUI-autoinvite) - External module for pfUI that allows you to set auto invites through whispers [[Img1](https://raw.githubusercontent.com/BahamutxD/pfUI-autoinvite/main/settings.png)]
--[pfUI-bettertotems](https://github.com/Bombg/pfUI-bettertotems) - External module for pfUI providing some extra features to totems [[Img1](https://camo.githubusercontent.com/bdb43e37c58148fa3182e7b8a440af93edaca1b50d131fab77e0d61620728f37/68747470733a2f2f696d6775722e636f6d2f533251364135732e676966)]
--[pfUI-chatscrollbutton](https://github.com/vakos1/pfUI-chatscrollbutton) - A lightweight pfUI-styled scroll-to-bottom button for chat windows.
--[pfUI-combatdock](https://github.com/bhhandley/pfUI-combatdock) - Automatically swap the loot chat window to the docked meters when in combat and out of combat.
--[pfUI-CustomMedia](https://github.com/mr-rosh/pfUI-CustomMedia) - External module for pfUI providing additional textures for the unit frames and casting bars, background texture for button slots, new fonts, new gryphons. [[Img1](https://i.imgur.com/CuRkjdU.jpeg)]
--[pfUI-eliteoverlay](https://github.com/shagu/pfUI-eliteoverlay) - An extension for pfUI which adds dragon textures to elite, rare and worldbosses. [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/pfUI-eliteoverlay/screenshot.png)]
--[pfUI-font-dyslexic](https://gitlab.com/Road-block/pfUI-font-dyslexic) - A font package for pfUI, providing additional font options from [OpenDyslexic](https://opendyslexic.org/) [[Img1](https://www.dafont.com/img/charmap/o/p/open_dyslexic8.png)]
--[pfUI-fonts](https://github.com/shagu/pfUI-fonts) - A font package for pfUI, providing additional fonts from the google font project. [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/pfUI-fonts/thumbnails.png)]
--[pfUI-lazyres](https://github.com/liiora/pfUI-lazyres) - A lazyres fork, based on pfUIs healcom implementation, without any external libraries.
--[pfUI-LocationPlus](https://github.com/Arthur-Helias/pfUI-LocationPlus) - An external module for pfUI that adds a location panel and more! [<nowiki>[Img1](https://github.com/user-attachments/assets/28fe81d8-d2d1-4f59-af79-3fb4d6be4feb)</nowiki>]
--[pfUI-MoreDatatexts](https://github.com/Arthur-Helias/pfUI-MoreDatatexts) - An external module for pfUI that adds more datatexts for your panels! [<nowiki>[Img1](https://github.com/user-attachments/assets/cece4667-9438-4d36-af92-82e82d59cbaa)</nowiki>]
--[pfUI-RainbowHealthBar](https://github.com/WanLiQiaoXi/pfUI-RainbowHealthBar) - External module for pfUI that adds a dynamic rainbow health bar and enhances 3D portraits [Img1](https://raw.githubusercontent.com/WanLiQiaoXi/Assets/main/WowAddons/pfUI-RainbowHealthBar/124.gif)(https://raw.githubusercontent.com/WanLiQiaoXi/Assets/main/WowAddons/pfUI-RainbowHealthBar/124.gif Img1)
--[pfUI-WeakIcons](https://github.com/jrc13245/pfUI-WeakIcons) - Allows the creation of aura tracking icons, much like MPOWA. [<nowiki>[Img1](https://i.imgur.com/2uo6Rs7.jpeg)</nowiki>]
--[PicoPoisons](https://github.com/jsb/PicoPoisons) - displays remaining poison charges on the respective buff symbols [[Img1](https://camo.githubusercontent.com/4d2a05c89922a1acaf9282b5fa5419465cee4178/687474703a2f2f692e696d6775722e636f6d2f58436a357245302e706e67)]
--[PingoMatic](https://github.com/Road-block/PingoMatic) - Minimap Ping Improvements [[Img1](https://user-images.githubusercontent.com/109839/38913706-dd0b48c2-42e4-11e8-9ffd-9efa17db6b92.png)]
--[Pitty](https://github.com/Sentilix/pitty) - will attempt to identify people healing using automated healing addons, such as QuickHeal
--[PizzaSlices](https://github.com/neimad-mp/PizzaSlices) - Radial action menus for TurtleWoW. A simplified OPie clone. [<nowiki>[Gif1](https://raw.githubusercontent.com/Pizzahawaiii/media/refs/heads/main/PizzaSlices/demo.gif)</nowiki>]
--[PizzaWorldBuffs](https://github.com/acid9000/PizzaWorldBuffs) - Shows tent locations on the map, world buff (head despawn) timers and Darkmoon Faire location [<nowiki>[Img1](https://raw.githubusercontent.com/Pizzahawaiii/PizzaWorldBuffs/main/img/frame.png)</nowiki>] [<nowiki>[Img2](https://raw.githubusercontent.com/Pizzahawaiii/PizzaWorldBuffs/main/img/tent.png)</nowiki>]
--[PlayerStates](https://github.com/Road-block/PlayerStates) - Macro Helper addon
--[PoisonCharges](https://github.com/StafordDev/PoisonCharges) - show you remaining charges and remaining time of your poisons [[Img1](https://user-images.githubusercontent.com/26133646/39842163-b84dcc0a-53e5-11e8-9f7a-45361572e682.png)]
--[PorkNotes](https://github.com/porkfriedlumpia/PorkNotes/) - Write notes about other players, and display them in tooltips and chat. Built from MrToffee/CaramelNotes. [<nowiki>[Img1](https://raw.githubusercontent.com/porkfriedlumpia/PorkNotes/refs/heads/main/Images/NotesWindow.png?token=GHSAT0AAAAAADX2LJ423ZHLRHX2KCRFD7T42NWKW5Q)</nowiki>]
--[Possessions](https://github.com/refaim/Possessions) - Inventory List Addon with Alt support
--[Postal Returned](Postal-Returned) - Improved version of Postal that Includes better mail return functionality, logging of attachments and money
--[PowerAuras](PowerAuras) - This Mod was created to have a better visibility when you gain buffs, debuffs and many more
--[PPBuddy](https://github.com/elboaf/PPBuddy) - Monitor, request, and ban, pallypower assigned pally buffs.
--[Prat](https://github.com/Qxcl/Prat-turtle) - Chat customization addon [[Fu](https://github.com/fulzamoth/Prat_FuBar2_Vanilla)] [[Img1](https://camo.githubusercontent.com/3d51b31cc88ecb6be32007d0ecac675bf12bbeef/68747470733a2f2f692e696d6775722e636f6d2f4235354d4343682e6a7067)] [[Img2](https://camo.githubusercontent.com/774d9425ae2696c050224332881c21f801c1f884/68747470733a2f2f692e696d6775722e636f6d2f783779613258422e6a7067)] [[2](https://github.com/laytya/Prat-vanilla)] [[3](https://github.com/UndercityAddons-Vanilla/Prat-V)]
--[PriestBinds](https://github.com/Numielle/PriestBinds) - Provides keybinds for priest abilities
--[ProcDoc](https://github.com/thezephyrsong/ProcDoc) - Displays flashy, pulsing alerts whenever you gain specific "instant cast" or "free cast" procs (e.g. Shadow Trance, Clearcasting).
--[Profesjonell](https://github.com/NiclasEriksen/Profesjonell) - Automatically gathers known recipes from guild members and synchronizes them, allowing anyone in the guild to easily find who can craft specific items.
--[Profession Levels](https://github.com/gregdeichler/ProfessionLevels.git) - A profession tracking addon frame for Turtle WoW.
--[Profession query](https://github.com/shirsig/profession_query) - useful addon for crafters selling their services!
--[Pummeler](https://github.com/Cernie/Pummeler) - One button for equipping and using Manual Crowd Pummeler(s)
--[Punschrulle](https://github.com/Attero/Punschrulle) - Highly customizable castbar [[Img1](https://user-images.githubusercontent.com/26133646/38198474-47ec1a0e-368d-11e8-971b-500298acde6f.png)]
--[Puppeteer](https://github.com/OldManAlpha/Puppeteer) - Unit frames addon for healers or any class/spec, an alternative to modern WoW's VuhDo, Cell, or Healbot
--[PVPToggleTurtle](https://github.com/Fragglechen/PVPToggleTurtleWOW.git) - Small Frame with Button to show current PVP state and toggle it on/off with a click. Also show a timer for deactivation
--[Pvpwarn](https://github.com/RagedUnicorn/wow-pvpwarn) - Addon that warns players visually and acoustically about pvp events [[Img1](https://github.com/RagedUnicorn/wow-pvpwarn/raw/master/Docs/pvpw_doc_enemy_avoid.png)]
--[pwscounter](https://gitlab.com/woblight/pwscounter) - allows to track how many Power Word: Shields are being cast in a raid fight.
+- [PageTurner](https://github.com/ZythDr/PageTurner) - Scroll through pages at vendors, mailbox, and spellbook
+- [PallyPower-Turtle](PallyPower) - easy to use interface that allows you set your own blessings and automatically check for missing buffs
+- [Paladin Salva Remover](https://github.com/maxcodk/PaladinSalvaRemover) - removes salva if you have RF threat buff, useful for tanks
+- [Paladin Libram Swap](https://github.com/maxcodk/PaladinLibramSwap) - helps to swap librams without breaking gcd
+- [Panda](https://github.com/tubtubs/panda) - Makes quick work of disenchanting (/Panda).
+- [Parchment](https://github.com/ericraio/vanilla-wow-addons/tree/238c6d633d5a5b8a0cc4ee7a8cbb548ea80da081/p/Parchment) - A way to write down simple notes of things you want to remember
+- [PartyPlus](https://github.com/cregham/PartyPlus) - Easy tool for party invites
+- [PerfectShot](https://github.com/wbb1977/PerfectShot) - Hides UI / name plates and then takes a series of screenshots
+- [PetXPBar](https://github.com/refaim/PetXPBar) - Pet experience bar for the default Blizzard UI [<nowiki>[Img1](https://github.com/refaim/PetXPBar/raw/master/img.jpg)</nowiki>]
+- [pfDebug](https://github.com/shagu/pfDebug) - A little tool to monitor the memory usage, peaks and garbage collection [Alt](https://github.com/me0wg4ming/pfDebug)(https://github.com/me0wg4ming/pfDebug Alt) [[Img1](https://github.com/shagu/pfDebug/raw/master/analyzer.jpg)]
+- [pfDesktop](https://github.com/shagu/pfdesktop) - An In Game-Desktop Environment [[Img1](https://user-images.githubusercontent.com/26133646/47615473-87f65580-daaf-11e8-91b0-797bf091b789.png)]
+- [pfExtend](https://github.com/Cliencer/pfExtend) - Display all monster drops, query the task chain. This module is based on pfQuest (/pfex).
+- [pfQuest](https://github.com/The-Kludge-Bureau/pfQuest) - A lightweight quest helper and ingame database [Alt](https://github.com/The-Kludge-Bureau/pfQuest)(https://github.com/The-Kludge-Bureau/pfQuest Alt) [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/pfQuest/map-spawnpoints.png)]
+- [pfQuest-icons](https://github.com/shagu/pfQuest-icons) - An extension for pfQuest to use Gatherer icons on resource nodes [Img1](https://github.com/shagu/pfQuest-icons/raw/master/screenshot.png)(https://github.com/shagu/pfQuest-icons/raw/master/screenshot.png Img1)
+- [pfQuest-turtle](https://github.com/The-Kludge-Bureau/pfQuest-turtle) - A TurtleWoW DB extension for pfQuest. You need base pfQuest for this to work!
+- [pfStudio](https://github.com/shagu/pfStudio) - an in game-IDE [[Vid1](https://www.youtube.com/watch?v=Dmj9dZzeHHM)]
+- [pfUI](https://github.com/me0wg4ming/pfUI) - full replacement for the original Wow interface in a single Addon [[Vid1](https://www.youtube.com/watch?v=asbHq5rzK1E)]
+  - [pfUI-turtle](https://github.com/doorknob6/pfUI-turtle) - A small extension that fixes some issues that arise from Turtle's custom UI, class and item changes [<nowiki>[img1](https://github.com/doorknob6/pfUI-turtle/raw/images/inspect_character_LFT.png?raw=true)</nowiki>]
+- [pfUI-addonskinner](https://github.com/jrc13245/pfUI-addonskinner) - External module for pfUI that provides you with pfUI-themed skins for other addons [[Img1](https://github.com/mr-rosh/pfUI-addonskinner/raw/master/settings.png)]
+- [pfUI-autoinvite](https://github.com/BahamutxD/pfUI-autoinvite) - External module for pfUI that allows you to set auto invites through whispers [[Img1](https://raw.githubusercontent.com/BahamutxD/pfUI-autoinvite/main/settings.png)]
+- [pfUI-bettertotems](https://github.com/Bombg/pfUI-bettertotems) - External module for pfUI providing some extra features to totems [[Img1](https://camo.githubusercontent.com/bdb43e37c58148fa3182e7b8a440af93edaca1b50d131fab77e0d61620728f37/68747470733a2f2f696d6775722e636f6d2f533251364135732e676966)]
+- [pfUI-chatscrollbutton](https://github.com/vakos1/pfUI-chatscrollbutton) - A lightweight pfUI-styled scroll-to-bottom button for chat windows.
+- [pfUI-combatdock](https://github.com/bhhandley/pfUI-combatdock) - Automatically swap the loot chat window to the docked meters when in combat and out of combat.
+- [pfUI-CustomMedia](https://github.com/mr-rosh/pfUI-CustomMedia) - External module for pfUI providing additional textures for the unit frames and casting bars, background texture for button slots, new fonts, new gryphons. [[Img1](https://i.imgur.com/CuRkjdU.jpeg)]
+- [pfUI-eliteoverlay](https://github.com/shagu/pfUI-eliteoverlay) - An extension for pfUI which adds dragon textures to elite, rare and worldbosses. [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/pfUI-eliteoverlay/screenshot.png)]
+- [pfUI-font-dyslexic](https://gitlab.com/Road-block/pfUI-font-dyslexic) - A font package for pfUI, providing additional font options from [OpenDyslexic](https://opendyslexic.org/) [[Img1](https://www.dafont.com/img/charmap/o/p/open_dyslexic8.png)]
+- [pfUI-fonts](https://github.com/shagu/pfUI-fonts) - A font package for pfUI, providing additional fonts from the google font project. [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/pfUI-fonts/thumbnails.png)]
+- [pfUI-lazyres](https://github.com/liiora/pfUI-lazyres) - A lazyres fork, based on pfUIs healcom implementation, without any external libraries.
+- [pfUI-LocationPlus](https://github.com/Arthur-Helias/pfUI-LocationPlus) - An external module for pfUI that adds a location panel and more! [<nowiki>[Img1](https://github.com/user-attachments/assets/28fe81d8-d2d1-4f59-af79-3fb4d6be4feb)</nowiki>]
+- [pfUI-MoreDatatexts](https://github.com/Arthur-Helias/pfUI-MoreDatatexts) - An external module for pfUI that adds more datatexts for your panels! [<nowiki>[Img1](https://github.com/user-attachments/assets/cece4667-9438-4d36-af92-82e82d59cbaa)</nowiki>]
+- [pfUI-RainbowHealthBar](https://github.com/WanLiQiaoXi/pfUI-RainbowHealthBar) - External module for pfUI that adds a dynamic rainbow health bar and enhances 3D portraits [Img1](https://raw.githubusercontent.com/WanLiQiaoXi/Assets/main/WowAddons/pfUI-RainbowHealthBar/124.gif)(https://raw.githubusercontent.com/WanLiQiaoXi/Assets/main/WowAddons/pfUI-RainbowHealthBar/124.gif Img1)
+- [pfUI-WeakIcons](https://github.com/jrc13245/pfUI-WeakIcons) - Allows the creation of aura tracking icons, much like MPOWA. [<nowiki>[Img1](https://i.imgur.com/2uo6Rs7.jpeg)</nowiki>]
+- [PicoPoisons](https://github.com/jsb/PicoPoisons) - displays remaining poison charges on the respective buff symbols [[Img1](https://camo.githubusercontent.com/4d2a05c89922a1acaf9282b5fa5419465cee4178/687474703a2f2f692e696d6775722e636f6d2f58436a357245302e706e67)]
+- [PingoMatic](https://github.com/Road-block/PingoMatic) - Minimap Ping Improvements [[Img1](https://user-images.githubusercontent.com/109839/38913706-dd0b48c2-42e4-11e8-9ffd-9efa17db6b92.png)]
+- [Pitty](https://github.com/Sentilix/pitty) - will attempt to identify people healing using automated healing addons, such as QuickHeal
+- [PizzaSlices](https://github.com/neimad-mp/PizzaSlices) - Radial action menus for TurtleWoW. A simplified OPie clone. [<nowiki>[Gif1](https://raw.githubusercontent.com/Pizzahawaiii/media/refs/heads/main/PizzaSlices/demo.gif)</nowiki>]
+- [PizzaWorldBuffs](https://github.com/acid9000/PizzaWorldBuffs) - Shows tent locations on the map, world buff (head despawn) timers and Darkmoon Faire location [<nowiki>[Img1](https://raw.githubusercontent.com/Pizzahawaiii/PizzaWorldBuffs/main/img/frame.png)</nowiki>] [<nowiki>[Img2](https://raw.githubusercontent.com/Pizzahawaiii/PizzaWorldBuffs/main/img/tent.png)</nowiki>]
+- [PlayerStates](https://github.com/Road-block/PlayerStates) - Macro Helper addon
+- [PoisonCharges](https://github.com/StafordDev/PoisonCharges) - show you remaining charges and remaining time of your poisons [[Img1](https://user-images.githubusercontent.com/26133646/39842163-b84dcc0a-53e5-11e8-9f7a-45361572e682.png)]
+- [PorkNotes](https://github.com/porkfriedlumpia/PorkNotes/) - Write notes about other players, and display them in tooltips and chat. Built from MrToffee/CaramelNotes. [<nowiki>[Img1](https://raw.githubusercontent.com/porkfriedlumpia/PorkNotes/refs/heads/main/Images/NotesWindow.png?token=GHSAT0AAAAAADX2LJ423ZHLRHX2KCRFD7T42NWKW5Q)</nowiki>]
+- [Possessions](https://github.com/refaim/Possessions) - Inventory List Addon with Alt support
+- [Postal Returned](Postal-Returned) - Improved version of Postal that Includes better mail return functionality, logging of attachments and money
+- [PowerAuras](PowerAuras) - This Mod was created to have a better visibility when you gain buffs, debuffs and many more
+- [PPBuddy](https://github.com/elboaf/PPBuddy) - Monitor, request, and ban, pallypower assigned pally buffs.
+- [Prat](https://github.com/Qxcl/Prat-turtle) - Chat customization addon [[Fu](https://github.com/fulzamoth/Prat_FuBar2_Vanilla)] [[Img1](https://camo.githubusercontent.com/3d51b31cc88ecb6be32007d0ecac675bf12bbeef/68747470733a2f2f692e696d6775722e636f6d2f4235354d4343682e6a7067)] [[Img2](https://camo.githubusercontent.com/774d9425ae2696c050224332881c21f801c1f884/68747470733a2f2f692e696d6775722e636f6d2f783779613258422e6a7067)] [[2](https://github.com/laytya/Prat-vanilla)] [[3](https://github.com/UndercityAddons-Vanilla/Prat-V)]
+- [PriestBinds](https://github.com/Numielle/PriestBinds) - Provides keybinds for priest abilities
+- [ProcDoc](https://github.com/thezephyrsong/ProcDoc) - Displays flashy, pulsing alerts whenever you gain specific "instant cast" or "free cast" procs (e.g. Shadow Trance, Clearcasting).
+- [Profesjonell](https://github.com/NiclasEriksen/Profesjonell) - Automatically gathers known recipes from guild members and synchronizes them, allowing anyone in the guild to easily find who can craft specific items.
+- [Profession Levels](https://github.com/gregdeichler/ProfessionLevels.git) - A profession tracking addon frame for Turtle WoW.
+- [Profession query](https://github.com/shirsig/profession_query) - useful addon for crafters selling their services!
+- [Pummeler](https://github.com/Cernie/Pummeler) - One button for equipping and using Manual Crowd Pummeler(s)
+- [Punschrulle](https://github.com/Attero/Punschrulle) - Highly customizable castbar [[Img1](https://user-images.githubusercontent.com/26133646/38198474-47ec1a0e-368d-11e8-971b-500298acde6f.png)]
+- [Puppeteer](https://github.com/OldManAlpha/Puppeteer) - Unit frames addon for healers or any class/spec, an alternative to modern WoW's VuhDo, Cell, or Healbot
+- [PVPToggleTurtle](https://github.com/Fragglechen/PVPToggleTurtleWOW.git) - Small Frame with Button to show current PVP state and toggle it on/off with a click. Also show a timer for deactivation
+- [Pvpwarn](https://github.com/RagedUnicorn/wow-pvpwarn) - Addon that warns players visually and acoustically about pvp events [[Img1](https://github.com/RagedUnicorn/wow-pvpwarn/raw/master/Docs/pvpw_doc_enemy_avoid.png)]
+- [pwscounter](https://gitlab.com/woblight/pwscounter) - allows to track how many Power Word: Shields are being cast in a raid fight.
 
 [↑ Go to top of page ↑](Addons#Full Addons List)
 
 ### Q
--[QuestAnnouncer](https://github.com/ahhh-reptar/QuestAnnouncer) - Sends a party message as you advance in a quest.
--[QuestFrameFixer](https://github.com/fusionpit/QuestFrameFixer/tree/1.12.1) - Some NPCs that offer multiple quests will show dots instead of ! and ? symbols in their dialogue. This addon fixes this.
--[QuestHaste](https://gitlab.com/woblight/QuestHaste/-/tree/vanilla) - Faster accepting and turning in of quests.
--[QuestHistory](https://github.com/GrenderG/QuestHistory) - An in-game history of quests accepted, completed, and abandoned.
--[QuestItem](https://github.com/wow-vanilla-addons/QuestItem) - stores an in-game database over quest items and tell you which quest they belong to
--[QuestProgressShare](https://github.com/graved/QuestProgressShare) - Shares live quest updates with your party, shows group progress in tooltips, and supports pfQuest links. Bug fixes and improved formatting.
--[QuestRepeat](https://github.com/MarcelineVQ/QuestRepeat) - Repeatedly hand in quests and autopick the reward
--[QuestShell](https://github.com/Valiusha90/QuestShell) - Leveling/quest helper with auto-accept/turn-in and progress tracker
--[QuestSoundBits](https://github.com/Road-block/QuestSoundBits) - is a quest progress sound alert addon
--[QuestTracker](https://github.com/gabcinder2004/QuestTracker) - tracks quest completion progress per zone
--[QuestTranslator](https://github.com/Daribon/QuestTranslator) - Italian Quests Translator [[Img1](https://camo.githubusercontent.com/0da3f06aee5946b1853610c208a4f8d853005901/68747470733a2f2f692e696d6775722e636f6d2f6a6964776f39542e706e67)]
--[QuickBind](https://github.com/DennisWG/QuickBind) - Mouseover keybinds for action bars. 
--[Quickcall](Quickcall) - Battleground PvP Addon for Arathi Basin. 
--[QuickChat](https://github.com/0ldi/QuickChat) - allows you to assign Hotkeys to all your channels
--[QuickHeal Turtle](QuickHeal) - One-button heal automation and assistance [[Orig](https://github.com/Sulpitz/QuickHeal)]
--[Quiver](https://github.com/SabineWren/Quiver) - Hunter auto shot timer, castbar, and more. Read the installation instructions.
--[Quartz3](https://github.com/laytya/Quartz) - Quartz is a modular approach to a casting bar addon. Ported to vanilla.
+- [QuestAnnouncer](https://github.com/ahhh-reptar/QuestAnnouncer) - Sends a party message as you advance in a quest.
+- [QuestFrameFixer](https://github.com/fusionpit/QuestFrameFixer/tree/1.12.1) - Some NPCs that offer multiple quests will show dots instead of ! and ? symbols in their dialogue. This addon fixes this.
+- [QuestHaste](https://gitlab.com/woblight/QuestHaste/-/tree/vanilla) - Faster accepting and turning in of quests.
+- [QuestHistory](https://github.com/GrenderG/QuestHistory) - An in-game history of quests accepted, completed, and abandoned.
+- [QuestItem](https://github.com/wow-vanilla-addons/QuestItem) - stores an in-game database over quest items and tell you which quest they belong to
+- [QuestProgressShare](https://github.com/graved/QuestProgressShare) - Shares live quest updates with your party, shows group progress in tooltips, and supports pfQuest links. Bug fixes and improved formatting.
+- [QuestRepeat](https://github.com/MarcelineVQ/QuestRepeat) - Repeatedly hand in quests and autopick the reward
+- [QuestShell](https://github.com/Valiusha90/QuestShell) - Leveling/quest helper with auto-accept/turn-in and progress tracker
+- [QuestSoundBits](https://github.com/Road-block/QuestSoundBits) - is a quest progress sound alert addon
+- [QuestTracker](https://github.com/gabcinder2004/QuestTracker) - tracks quest completion progress per zone
+- [QuestTranslator](https://github.com/Daribon/QuestTranslator) - Italian Quests Translator [[Img1](https://camo.githubusercontent.com/0da3f06aee5946b1853610c208a4f8d853005901/68747470733a2f2f692e696d6775722e636f6d2f6a6964776f39542e706e67)]
+- [QuickBind](https://github.com/DennisWG/QuickBind) - Mouseover keybinds for action bars. 
+- [Quickcall](Quickcall) - Battleground PvP Addon for Arathi Basin. 
+- [QuickChat](https://github.com/0ldi/QuickChat) - allows you to assign Hotkeys to all your channels
+- [QuickHeal Turtle](QuickHeal) - One-button heal automation and assistance [[Orig](https://github.com/Sulpitz/QuickHeal)]
+- [Quiver](https://github.com/SabineWren/Quiver) - Hunter auto shot timer, castbar, and more. Read the installation instructions.
+- [Quartz3](https://github.com/laytya/Quartz) - Quartz is a modular approach to a casting bar addon. Ported to vanilla.
 
 [↑ Go to top of page ↑](Addons#Full Addons List)
 
 ### R
--[RABuffs](https://github.com/pepopo978/Rabuffs) - Monitors a raid / party group, displaying various statistics [[Img1](https://user-images.githubusercontent.com/26133646/39288519-9be1fcde-4928-11e8-99a2-1fcba60d7c28.png)]
--[RaidCalendar](https://github.com/sica42/RaidCalendar) - RaidCalendar lets you view and sign up to raids in game on https://raid-helper.dev/ and register soft reserves on https://raidres.fly.dev.
--[RaidMemberExport](https://github.com/jlabranche/RaidMemberExport) - Stores a variable of your raid members for copy pasting in your SavedVariables folder
--[RaidRollBuddy](https://github.com/Goose404/RaidRollBuddy) - Shows a window with the announced loot with buttons to roll for and a list of all rolls
--[RageTracker](https://github.com/Road-block/RageTracker) - Shows an resizable and movable rage bar.
--[RaidOrganizer](https://github.com/TylkaW/RaidOrganizer) - User-friendly interface for raid role assignment
--[RaidRollHelper](https://github.com/EinBaum/RaidRollHelper) - Fair item distribution with /roll in raids
--[RaidSummon](https://github.com/Linae-Kronos/RaidSummon) - small RaidSummon frame [[Img1](https://user-images.githubusercontent.com/26133646/39392928-15ee8de8-4abf-11e8-982a-fa6ff7f621e6.png)] 
--[RaidSummonPlus](https://github.com/akzkak/RaidSummonPlus) - improved RaidSummon with Soulstone tracking [[Img1](https://github.com/user-attachments/assets/2fb51929-e05b-44ac-9e40-ab2d49704c68)]
--[rais_AutoShot](https://github.com/Eryzil-GitHub/rais_AutoShot) - Lightweight Auto-Shot Timer for Hunters
--[RallyHelper](https://github.com/Weirdpuppy94/RallyHelper) - Turtle WoW World Buff Tracker (Ony/Nef/ZG/Rend/DMF) with verified Timestamps, clean UI, and no Server‑time manipulation.
--[RangeColor](https://github.com/0ldi/RangeColor) - Change the icon color when out of range, no mana or not usable
--[Rank14losSA](https://github.com/Fiskehatt/Rank14losSA) - verbally tells you when somebody is using a Cooldown, or an important ability [[Img1](https://cloud.githubusercontent.com/assets/26133646/25946797/ed5f371a-364c-11e7-8f65-fa68722be0cd.jpg)]
--[RAT](https://github.com/Atreyyo/RAT) - (Raid Ability Tracker) tracks certain class ability cooldowns (in raid) and puts them in an easy to view list
--[RDX](https://github.com/coryo/RDX) (Raid Data Exchange) a tool for acquiring, filtering, and visualizing information about your raid team [[Img1](https://cloud.githubusercontent.com/assets/678207/23583298/8bb52754-010e-11e7-9325-aabfe090c034.png)]
--[ReagentCounter](https://github.com/zetone/reagentCounter) - Displays reagent count on the spell's action button
--[ReagentData](https://github.com/refaim/ReagentData) - A comprehensive set of all reagents and components used by tradeskills. No Preview as this is a library addon.
-  -Superseded by LibCrafts, which is included in future addons that require it as a library.
+- [RABuffs](https://github.com/pepopo978/Rabuffs) - Monitors a raid / party group, displaying various statistics [[Img1](https://user-images.githubusercontent.com/26133646/39288519-9be1fcde-4928-11e8-99a2-1fcba60d7c28.png)]
+- [RaidCalendar](https://github.com/sica42/RaidCalendar) - RaidCalendar lets you view and sign up to raids in game on https://raid-helper.dev/ and register soft reserves on https://raidres.fly.dev.
+- [RaidMemberExport](https://github.com/jlabranche/RaidMemberExport) - Stores a variable of your raid members for copy pasting in your SavedVariables folder
+- [RaidRollBuddy](https://github.com/Goose404/RaidRollBuddy) - Shows a window with the announced loot with buttons to roll for and a list of all rolls
+- [RageTracker](https://github.com/Road-block/RageTracker) - Shows an resizable and movable rage bar.
+- [RaidOrganizer](https://github.com/TylkaW/RaidOrganizer) - User-friendly interface for raid role assignment
+- [RaidRollHelper](https://github.com/EinBaum/RaidRollHelper) - Fair item distribution with /roll in raids
+- [RaidSummon](https://github.com/Linae-Kronos/RaidSummon) - small RaidSummon frame [[Img1](https://user-images.githubusercontent.com/26133646/39392928-15ee8de8-4abf-11e8-982a-fa6ff7f621e6.png)] 
+- [RaidSummonPlus](https://github.com/akzkak/RaidSummonPlus) - improved RaidSummon with Soulstone tracking [[Img1](https://github.com/user-attachments/assets/2fb51929-e05b-44ac-9e40-ab2d49704c68)]
+- [rais_AutoShot](https://github.com/Eryzil-GitHub/rais_AutoShot) - Lightweight Auto-Shot Timer for Hunters
+- [RallyHelper](https://github.com/Weirdpuppy94/RallyHelper) - Turtle WoW World Buff Tracker (Ony/Nef/ZG/Rend/DMF) with verified Timestamps, clean UI, and no Server‑time manipulation.
+- [RangeColor](https://github.com/0ldi/RangeColor) - Change the icon color when out of range, no mana or not usable
+- [Rank14losSA](https://github.com/Fiskehatt/Rank14losSA) - verbally tells you when somebody is using a Cooldown, or an important ability [[Img1](https://cloud.githubusercontent.com/assets/26133646/25946797/ed5f371a-364c-11e7-8f65-fa68722be0cd.jpg)]
+- [RAT](https://github.com/Atreyyo/RAT) - (Raid Ability Tracker) tracks certain class ability cooldowns (in raid) and puts them in an easy to view list
+- [RDX](https://github.com/coryo/RDX) (Raid Data Exchange) a tool for acquiring, filtering, and visualizing information about your raid team [[Img1](https://cloud.githubusercontent.com/assets/678207/23583298/8bb52754-010e-11e7-9325-aabfe090c034.png)]
+- [ReagentCounter](https://github.com/zetone/reagentCounter) - Displays reagent count on the spell's action button
+- [ReagentData](https://github.com/refaim/ReagentData) - A comprehensive set of all reagents and components used by tradeskills. No Preview as this is a library addon.
+  - Superseded by LibCrafts, which is included in future addons that require it as a library.
 
--[Recap](https://github.com/dreaming-possum/Recap) - Track and summarize the damage dealt and received by every participant in a fight around the user.
--[Recents](https://github.com/luskanek/Recents) - highlights recently looted items in the inventory
--[RecipeRadar](https://github.com/laytya/RecipeRadar-vanilla) - assists players in finding recipes
--[ReckCounter](https://github.com/satan666/ReckCounter-Fix) - a small frame showing stored strikes from the Paladin Reckoning talent
--[RenewSpam](https://github.com/Zerf/RenewSpam) - autocasts renew(rank 1) on any raid member that doesn't have renew
--[ResourceCountActionButtons](https://github.com/jsb/ResourceCountActionButtons) - Displays how often you can cast a spell before you run out of resources on the action buttons
--[RestBar](https://github.com/Steelbash/RestBar) - Displays a rest bar [Img1](https://raw.githubusercontent.com/Steelbash/RestBar/main/preview1.png)(https://raw.githubusercontent.com/Steelbash/RestBar/main/preview1.png Img1) [Img2](https://raw.githubusercontent.com/Steelbash/RestBar/main/preview2.png)(https://raw.githubusercontent.com/Steelbash/RestBar/main/preview2.png Img2)
--[Rested](https://github.com/hazlema/Rested) - Rested XP Tracker for Turtle Wow
--[ResurrectionAnnounce](https://github.com/stokbaek/ResurrectionAnnounce) - Plugin That Adds Resurrection Announce to Chat
--[Retarget](https://github.com/shirsig/retarget) - Retargets Hunters after Feign Death and Rogues after Stealth
--[RetherzTargetTracker](https://github.com/Retherz/RetherzTargetTracker) - Raid symbol targeting with debuff tracking.
--[RezzTimer](https://github.com/EinBaum/RezzTimer) - Shows resurrection timers of other party members who have this addon [[Img1](https://github.com/EinBaum/RezzTimer/raw/master/preview.jpg?raw=true)]
--[RightClickModifier](https://github.com/MarcelineVQ/RightClickModifier) - Allows you to modify the behavior of right clicking in game
--[RingMenu](https://github.com/jsb/RingMenu/tree/vanilla) - a circular ActionBar that can be summoned with a click
--[Rinse](https://github.com/Otari98/Rinse) - This addon is very similar to Decursive, it helps with removing debuffs from friendly units
--[RipMap](https://github.com/DaniilSokolyuk/RipMap) - Displays hardcore deaths heatmap on maps with danger indicator
--[ROAR-Guild](https://github.com/Morkahja/RoarGuild) - Battle emotes on action slots with optional global trigger
--[RogueFocus](https://github.com/Road-block/RogueFocus) - Compact Combo/Energy/Tick display [[Img1](https://user-images.githubusercontent.com/26133646/39841013-af09f24e-53e1-11e8-8c66-902876866a26.png)]
--[RoguePack](https://github.com/Monteo/RoguePack) - First necessary add-ons to the Rogue
--[RogueRota](https://github.com/Geigerkind/RogueRota) - A very simple addon, executing the rotation of the rogue
--[RoguePoker](https://github.com/Pokerbhind/RoguePoker) - An addon for rogues that allow you to customize your buff rotation and then trigger it all using a single button. Also creates a single button for all different types of stuns and is also configurable.
--[RogueTick](https://github.com/pseja/RogueTick) - Rogue energy tick for the player frame. [<nowiki>[Vid1](https://i.imgur.com/2i5UKWP.gif)</nowiki>]
--[RogueTicker](https://github.com/akzkak/RogueTicker) - Energy, tick and combo point tracker for rogues with support for latest 1.18.0 Turtle changes. [<nowiki>[Img1](https://private-user-images.githubusercontent.com/29808955/488798669-5f650861-3ed4-4595-b08e-7bbc5abf8fad.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTc4NjU4MDAsIm5iZiI6MTc1Nzg2NTUwMCwicGF0aCI6Ii8yOTgwODk1NS80ODg3OTg2NjktNWY2NTA4NjEtM2VkNC00NTk1LWIwOGUtN2JiYzVhYmY4ZmFkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA5MTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwOTE0VDE1NTgyMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRhY2I3YmVjYjJhYjM1NjEyM2MwMTI3MDk0NDFiNDc4YWM3OTg3MTcxNTAyMWJhMWE0ZTc1YTYxMWM5MjlkNDEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.fylC35O42T1D7DRfZNrQmZPFEha4kMA8kHYI9anlX_0)</nowiki>]
--[Roid-Macros](https://github.com/MarcelineVQ/Roid-Macros) - Allows you to use a small subset of the macro conditions from TBC (and later Retail and Classic).
--[RoleplayingHelper](https://github.com/XalZul/RoleplayingHelper-1.12) - Roleplaying addon that allows your character to speak and react via emotes to various events
--[TurtleRoleplayingHelper](https://github.com/vaaslite/TurtleRoleplayingHelper) - Enhanced version of the original RPHelper addon with new flavor text and TWoW's custom races (High Elf and Goblin).
--[RollFor](https://github.com/obszczymucha/roll-for-vanilla) - An automated item roller with soft ressing support via raidres.fly.dev.
--[RosterFilter](https://github.com/coryo/RosterFilter/tree/ff6fbef57dbf5da428a87f5e7f1b57314a859c1d) - a guild frame based on aux [[Img1](https://user-images.githubusercontent.com/678207/35249442-033ff192-ffa0-11e7-81e1-8cbca0b08d71.png)]
--[RoundRobinhood](https://github.com/ZenSociety/RoundRobinhood) - An addon for managing loot distribution.
--[RWSync](https://github.com/shirsig/rwsync) - Multi Raid Warning
+- [Recap](https://github.com/dreaming-possum/Recap) - Track and summarize the damage dealt and received by every participant in a fight around the user.
+- [Recents](https://github.com/luskanek/Recents) - highlights recently looted items in the inventory
+- [RecipeRadar](https://github.com/laytya/RecipeRadar-vanilla) - assists players in finding recipes
+- [ReckCounter](https://github.com/satan666/ReckCounter-Fix) - a small frame showing stored strikes from the Paladin Reckoning talent
+- [RenewSpam](https://github.com/Zerf/RenewSpam) - autocasts renew(rank 1) on any raid member that doesn't have renew
+- [ResourceCountActionButtons](https://github.com/jsb/ResourceCountActionButtons) - Displays how often you can cast a spell before you run out of resources on the action buttons
+- [RestBar](https://github.com/Steelbash/RestBar) - Displays a rest bar [Img1](https://raw.githubusercontent.com/Steelbash/RestBar/main/preview1.png)(https://raw.githubusercontent.com/Steelbash/RestBar/main/preview1.png Img1) [Img2](https://raw.githubusercontent.com/Steelbash/RestBar/main/preview2.png)(https://raw.githubusercontent.com/Steelbash/RestBar/main/preview2.png Img2)
+- [Rested](https://github.com/hazlema/Rested) - Rested XP Tracker for Turtle Wow
+- [ResurrectionAnnounce](https://github.com/stokbaek/ResurrectionAnnounce) - Plugin That Adds Resurrection Announce to Chat
+- [Retarget](https://github.com/shirsig/retarget) - Retargets Hunters after Feign Death and Rogues after Stealth
+- [RetherzTargetTracker](https://github.com/Retherz/RetherzTargetTracker) - Raid symbol targeting with debuff tracking.
+- [RezzTimer](https://github.com/EinBaum/RezzTimer) - Shows resurrection timers of other party members who have this addon [[Img1](https://github.com/EinBaum/RezzTimer/raw/master/preview.jpg?raw=true)]
+- [RightClickModifier](https://github.com/MarcelineVQ/RightClickModifier) - Allows you to modify the behavior of right clicking in game
+- [RingMenu](https://github.com/jsb/RingMenu/tree/vanilla) - a circular ActionBar that can be summoned with a click
+- [Rinse](https://github.com/Otari98/Rinse) - This addon is very similar to Decursive, it helps with removing debuffs from friendly units
+- [RipMap](https://github.com/DaniilSokolyuk/RipMap) - Displays hardcore deaths heatmap on maps with danger indicator
+- [ROAR-Guild](https://github.com/Morkahja/RoarGuild) - Battle emotes on action slots with optional global trigger
+- [RogueFocus](https://github.com/Road-block/RogueFocus) - Compact Combo/Energy/Tick display [[Img1](https://user-images.githubusercontent.com/26133646/39841013-af09f24e-53e1-11e8-8c66-902876866a26.png)]
+- [RoguePack](https://github.com/Monteo/RoguePack) - First necessary add-ons to the Rogue
+- [RogueRota](https://github.com/Geigerkind/RogueRota) - A very simple addon, executing the rotation of the rogue
+- [RoguePoker](https://github.com/Pokerbhind/RoguePoker) - An addon for rogues that allow you to customize your buff rotation and then trigger it all using a single button. Also creates a single button for all different types of stuns and is also configurable.
+- [RogueTick](https://github.com/pseja/RogueTick) - Rogue energy tick for the player frame. [<nowiki>[Vid1](https://i.imgur.com/2i5UKWP.gif)</nowiki>]
+- [RogueTicker](https://github.com/akzkak/RogueTicker) - Energy, tick and combo point tracker for rogues with support for latest 1.18.0 Turtle changes. [<nowiki>[Img1](https://private-user-images.githubusercontent.com/29808955/488798669-5f650861-3ed4-4595-b08e-7bbc5abf8fad.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTc4NjU4MDAsIm5iZiI6MTc1Nzg2NTUwMCwicGF0aCI6Ii8yOTgwODk1NS80ODg3OTg2NjktNWY2NTA4NjEtM2VkNC00NTk1LWIwOGUtN2JiYzVhYmY4ZmFkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA5MTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwOTE0VDE1NTgyMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRhY2I3YmVjYjJhYjM1NjEyM2MwMTI3MDk0NDFiNDc4YWM3OTg3MTcxNTAyMWJhMWE0ZTc1YTYxMWM5MjlkNDEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.fylC35O42T1D7DRfZNrQmZPFEha4kMA8kHYI9anlX_0)</nowiki>]
+- [Roid-Macros](https://github.com/MarcelineVQ/Roid-Macros) - Allows you to use a small subset of the macro conditions from TBC (and later Retail and Classic).
+- [RoleplayingHelper](https://github.com/XalZul/RoleplayingHelper-1.12) - Roleplaying addon that allows your character to speak and react via emotes to various events
+- [TurtleRoleplayingHelper](https://github.com/vaaslite/TurtleRoleplayingHelper) - Enhanced version of the original RPHelper addon with new flavor text and TWoW's custom races (High Elf and Goblin).
+- [RollFor](https://github.com/obszczymucha/roll-for-vanilla) - An automated item roller with soft ressing support via raidres.fly.dev.
+- [RosterFilter](https://github.com/coryo/RosterFilter/tree/ff6fbef57dbf5da428a87f5e7f1b57314a859c1d) - a guild frame based on aux [[Img1](https://user-images.githubusercontent.com/678207/35249442-033ff192-ffa0-11e7-81e1-8cbca0b08d71.png)]
+- [RoundRobinhood](https://github.com/ZenSociety/RoundRobinhood) - An addon for managing loot distribution.
+- [RWSync](https://github.com/shirsig/rwsync) - Multi Raid Warning
 
 [↑ Go to top of page ↑](Addons#Full Addons List)
 
 ### S
--[SafeShift](https://github.com/Grymskvll/SafeShift) - Safety measure against accidentally unshifting immediately after shapeshifting
--[SafeShift-TWoW](https://github.com/DeterminedPanda/SafeShift-TWoW) - fixes the original 'SafeShift' addon by allowing direct form switching (e.g., cat form to bear form) without needing to shift out first.
--[Salad Cthun](https://github.com/goffauxs/Salad_Cthun) - Shows optimal positioning based on group on C'thun [[Img1](https://camo.githubusercontent.com/c3df2b854ce886fda411634396640946b53d06b2/687474703a2f2f692e696d6775722e636f6d2f38384c695473352e706e67)]
--[Samuel](https://github.com/Terrub/Samuel) - Static swing timer with 1 - 1.5 second Slam marker for warriors [[Img1](https://user-images.githubusercontent.com/26133646/39255142-1b26006c-48ac-11e8-8910-c2629d0745b1.png)]
--[SaySapped](https://github.com/Fiskehatt/SaySapped) - Says "Sapped!" to alert those around you whenever a rogue saps you
--[SaySapped Extended](https://github.com/Fiskehatt/SaySapped_Extended) - Also works for many other CCs
--[Screen Resolution Dropdown Fix](https://github.com/jhinzuo/another.ScreenResolutionDropdownFix) - Prevent errors from the Video Options dialog when there are too many resolutions, which is common when running in a VM like Parallels (fixes the UIDROPDOWNMENU_OPEN_MENU Lua error)
--[SealTracker](https://github.com/cryptokn1ght-dev/SealTracker) - Lightweight Paladin seal tracker with a countdown timer. Features a resizable, draggable frame and a right-click options menu. [[Img1](https://github.com/cryptokn1ght-dev/SealTracker/raw/main/st_preview_.png)]
--[SeeThunGroups](https://github.com/yutsuku/SeeThunGroups) - C`thun group setup helper for raid leaders [[Img1](https://github.com/yutsuku/SeeThunGroups/raw/master/docs/promo.png?raw=true)]
--[Select AddOns](https://github.com/Road-block/Select_AddOns) - addons authored by Road-block (some not) [[Img1](https://user-images.githubusercontent.com/26133646/33953667-0d22d41a-e036-11e7-9c3c-ce0a16b8b169.png)]
--[SelfFound](https://github.com/vortigern11/SelfFound) - Prevents you from trading, using the Auction House and mailing. Basically a Solo Self-Found mode without the Solo part. Can be paired with Turtle's Hardcore mode.
--[SellValue](https://github.com/anzz1/SellValue) - Adds vendor prices to tooltips [[Img1](https://user-images.githubusercontent.com/13628128/58877571-b9846e80-86d9-11e9-905d-5da424049b07.png)]
--[Sentry](https://github.com/shirsig/sentry) - Open pvp enemy frames/alerts [[Img1](http://i.imgur.com/dHrYfdo.png)]
--[SimpleLvl](https://github.com/Beardedrasta/SimpleLvl) - A simple yet complex experience tracker - XToLevel.
--[SimpleBars](https://github.com/Beardedrasta/SimpleBars) - A Simple way to display player HUD statusbars.
--[SimplePowershifts](https://github.com/Beardedrasta/SimplePowershifts) - A Simple way to display druid powershifts.
--[ShaguActions](https://github.com/shagu/ShaguActions) - Automatically saves and restores one actionbar profile for each of the 3 skill trees [<nowiki>[Img1](https://raw.githubusercontent.com/shagu/ShaguActions/master/screenshot.png)</nowiki>]
--[ShaguBam](https://github.com/shagu/ShaguBam) - a BamMod alike Addon [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/ShaguBam/screenshot.jpg)]
--[ShaguBoat](https://github.com/shagu/ShaguBoat) - A despawn timer for Turtle-WoW Fishing Boats.
--[ShaguBoP](https://github.com/shagu/ShaguBoP) - auto accepts BoP loot when alone [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/ShaguBoP/popup.jpg)]
--[ShaguChat](https://github.com/shagu/ShaguChat) - highlight and hide custom chat messages [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/ShaguChat/fullscreen.jpg)]
--[ShaguClock](https://github.com/shagu/ShaguClock) - draws a simple movable clock on the screen [[2](https://github.com/FrostShock/ShaguClock)] [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/ShaguClock/orgrimmar.png)]
--[ShaguColor](https://github.com/shagu/ShaguColor) - allows to write colorful chat messages [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/ShaguColor/merged.png)]
--[ShaguCombat](https://github.com/shagu/ShaguCombat) - displays your combat state via glowing screen edges [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/ShaguCombat/animated.gif)]
--[ShaguCopy](https://github.com/shagu/ShaguCopy) - allows to copy chat messages [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/ShaguCopy/button.png)]
--[ShaguDelgado](https://github.com/shagu/ShaguDelgado) - modifies some elements to be purple [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/ShaguDelgado/screenshot.jpg)]
--[ShaguDPS](https://github.com/shagu/ShaguDPS) - A very small and lightweight damage meter [[Img1](https://github.com/shagu/ShaguDPS/blob/master/screenshot.jpg)] [[Img2](https://github.com/shagu/ShaguDPS/blob/master/screenshot2.jpg)]
--[ShaguError](https://github.com/shagu/ShaguError) - hides error and notification message popups [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/ShaguError/chat.png)]
--[ShaguInventory](https://github.com/shagu/ShaguInventory) - shows account wide item count inside the tooltips [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/ShaguInventory/tooltip.jpg)]. 
--[ShaguJunk](https://github.com/shagu/ShaguJunk) - Automatically delete and vendor specified items
--[ShaguKill](https://github.com/shagu/ShaguKill) - displays the remaining kills till level up [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/ShaguKill/screenshot.jpg)]
--[ShaguMount](https://github.com/shagu/ShaguMount) - automatically unmounts the player when using an action [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/ShaguMount/unmount.jpg)]
--[ShaguNotify](https://github.com/shagu/ShaguNotify) - shows achievement alike notifications for several events [[Vid1](https://www.youtube.com/watch?v=_PXG04rTotw)]
--[ShaguPlates](https://github.com/shagu/ShaguPlates) - modifies and extends the default nameplates [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/ShaguPlates/worldboss.jpg)] [TidyPlates-Edit](https://github.com/AtheneGenesis/ShaguPlates---TidyPlates-Edit)
--[ShaguPlates-extra](https://github.com/Redbu11dev/ShaguPlates-extra) - ShaguPlates, but restyled and with extra stuff [<nowiki>[Img1](https://i.imgur.com/Qjbi7kb.png)</nowiki>]
--[ShaguScore](https://github.com/shagu/ShaguScore) - displays a gearscore alike item rating [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/ShaguScore/character.jpg)]
--[ShaguStance](https://github.com/shagu/ShaguStance) - automatically switches to the required stance [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/ShaguStance/battlestance.jpg)]
--[ShaguTooltips](https://github.com/shagu/ShaguTooltips) - modifies the game tooltips [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/ShaguTooltips/preview.jpg)]
--[ShaguTweaks](https://github.com/shagu/ShaguTweaks) - A small AddOn for those who don't want to use any AddOns at all. [[Img1](https://github.com/shagu/ShaguTweaks/raw/master/screenshots/settings.jpg)]
--[ShaguTweaks-extras](https://github.com/shagu/ShaguTweaks-extras) - extends the capabilities of ShaguTweaks by offering optional modules that can be easily toggled on or off.
--[ShaguTweaks DruidManaBar](https://github.com/gashole/ShaguTweaks-DruidManaBar) - Adds ShaguTweaks style changes to DruidManaBar [<nowiki>[Img1](https://camo.githubusercontent.com/73e4aa56977802431fa0ce18cc1fc29e2e4e4ff376ad65be79e8250ff4010ca7/68747470733a2f2f692e696d6775722e636f6d2f515530796d39722e706e67)</nowiki>]
--[ShaguTweaks Mods](https://github.com/TokensWorth/ShaguTweaks-mods) - Mods for the ShaguTweaks addon
--[ShaguTweaks more mods](https://github.com/CrimsonHollow/ShaguTweaks-more-mods) - Adds additional mods to ShaguTweaks [<nowiki>[Img1](https://user-images.githubusercontent.com/22963563/249768892-e7e907c8-c06d-4fe3-a7f2-b2efeff73518.png)</nowiki>]
--[ShaguValue](https://github.com/shagu/ShaguValue) - display item sell and buy values on tooltips [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/ShaguValue/bag.png)]
--[ShaguWidget](https://github.com/shagu/ShaguWidget) - Movable Information Widget
--[ShamanFix](https://github.com/WouterBink/ShamanFix) - changes the shaman class colour to blue
--[ShardCap](https://github.com/dogmax/ShardCap) - Automatically deletes soul shards above a certain amount (default 5)
--[ShardCapPlus](https://github.com/akzkak/ShardCapPlus) - Automatically deletes soul shards above a certain amount. Support Turtles stack of shards.
--[ShieldBuddy](https://github.com/tr00dudu/ShieldBuddy) - Tracks absorption shields and their remaining values
--[ShieldLeft](https://github.com/mrrosh/ShieldLeft) - Estimates and shows the charges left on shield
--[ShikaSwap](https://github.com/ShikawaLePaladin/ShikaSwap) - Automatically swaps to the correct libram before casting Paladin spells
--[Shootyepgp](https://github.com/Road-block/shootyepgp) - Guild Helper addon for EPGP loot system
--[ShowChests](https://github.com/zirtox1992/ShowChests) - Show chests locations on login with pfQuest
--[SilverDragon](https://github.com/cdmichaelb/SilverDragon) - tracks rares [[Img1](https://cloud.githubusercontent.com/assets/26133646/25950363/067bd6b4-365b-11e7-8b4e-3372a1ebeab2.jpg)]
--[SimpleActionSets (SAS)](SimpleActionSets) - Save action bars as sets that can be swapped out; forked by Pepopo with updates for Turtle WoW Goblin Brainwashing Device compatibility
--[SimpleAuras](https://github.com/yani9o/simpleAuras) - Simple Aura Display. /sa help
--[SimpleCombatLog](https://github.com/Road-block/SimpleCombatLog) - Pretty Print Combat Log AddOn
--[simpleMiniMap](https://github.com/McPewPew/SimpleMinimap) - Minimap replacement
--[SimpleRaidTargetIcons](https://github.com/Road-block/SimpleRaidTargetIcons) - Target Marking and Mark Targeting Improvements [[Img1](https://github.com/Road-block/SimpleRaidTargetIcons/raw/docs/srti_options.png)] [[Img2](https://github.com/Road-block/SimpleRaidTargetIcons/raw/docs/srti_unit_radial_mark.png)]
--[SkelaCustomNameplates](https://github.com/KrekoG/SkelaCustomNameplates) - Skela's Custom Nameplates [<nowiki>[Img1](https://user-images.githubusercontent.com/1638449/131257221-bc4fcfe7-5082-4c7a-bfef-32fd194ff52c.png)</nowiki>]
--[SKMap](https://github.com/EinBaum/SKMap) - tracks player deaths, player pvp kills, their location by zone, and displays them on the world map
--[SleepyPeon](https://github.com/NegusZek/SleepyPeon) - Moveable Rest XP bar, keeps track of rest XP overflow into next level(s)
--[SmallerRollFrames](https://github.com/DennisWG/SmallerRollFrames) - replaces the default Roll-Frames with smaller ones [[Img1](https://cloud.githubusercontent.com/assets/26133646/25947378/835d0808-364f-11e7-974f-39c2c8107aa5.jpg)]
--[SmartBuff](https://github.com/Azzc0/SmartBuff) - Automatically buff self/party/raid. Highly customisable [Alt](https://github.com/livinlicious/Smartbuff-TWOW)(https://github.com/livinlicious/Smartbuff-TWOW Alt)
--[SmartDebuffCheck](https://github.com/Simon3/SmartDebuffCheck) - Simple addon to check if your target has the proper debuffs applied
--[SmartHealer](https://github.com/melbaa/SmartHealer) - Autoscales heals in macros, and click heals for pfUI, Clique and ClassicMouseover (Melbaa). [Alternate Version](https://github.com/dsidirop/SmartHealer) with bugfix/update changes (Dsidrop)
--[SmartLoot](https://github.com/Necroskillz/SmartLoot) - is a unobtrusive group loot frames AddOn [[Img1](http://i.imgur.com/1ABOsUG.png)]
--[SmartRestore](https://github.com/Dauls/SmartRestore) - help people to easily restore their mana and health in and out of combat.
--[SmartRoll](https://github.com/jejkas/SmartRoll) - addon to help with rolling on items for multi-raid groups [[Img1](https://camo.githubusercontent.com/73f6e4356b204bbf63dac4c5e05f54d5e4fd4753/687474703a2f2f692e696d6775722e636f6d2f6a33494f7755702e706e67)]
--[SnagaLoatheb-TurtleEdition](https://github.com/madScripting/SnaguLoatheb-TurtleEdition) - Makes rotating Heals on Loatheb a lot easier. Now with Paladins *and* Shaman!
--[Snipe](https://github.com/shirsig/snipe) - automatically buys any auction that matches a target in a specified target list
--[Sniper](https://github.com/hitbutton/Sniper) - Mob Sniping Helper
--[Snowkoban](https://github.com/vakos1/Snowkoban) - A puzzle minigame adapted from "Sokoban" by Perun Labs
--[Sorgis Raid Marks](https://github.com/sorgis-sorgis/sorgis_raid_marks) - Raid mark targeting and assigning.
--[SortBags](https://github.com/shirsig/SortBags-vanilla) - Bag sorting. Fixed version for Turtle WoW to not cause grayed out items. [Alt](https://github.com/Magues17/SortBags)(https://github.com/Magues17/SortBags Alt)
--[SortByBuyout](https://github.com/Redbu11dev/SortByBuyout) - Adds "sort by buyout" button to the auction house frame [<nowiki>[Img1](https://i.imgur.com/fbUp180.png)</nowiki>]
--[Sota](https://github.com/Sentilix/sota) - State of the Art DKP and Loot addon
--[SoulShardManager](https://github.com/refaim/SoulShardManager) - Keeps your inventory from filling up with soul shards.
--[SoundBoard](https://github.com/FSuhas/SoundBoard) - Shares and plays sounds in the group/raid
--[Speed-o-meter](https://github.com/tomek7667/speed-o-meter.git) - Adds the best speed measuring frame
--[Speedometer](https://github.com/tomek7667/speed-o-meter.git) - Adds a small frame that shows your current running speed.
--[SP_Overpower](https://github.com/EinBaum/SP_Overpower) - Shows an alert tooltip and timer bar on your screen when Overpower procs
--[SP_Revenge](https://github.com/Aggromemnon/SP_Revenge) - Shows an alert tooltip and timer bar on your screen when Revenge procs
--[SP_SwingTimer](https://github.com/balakethelock/SP_SwingTimer) - Warrior Swing Timer [[Img1](https://cloud.githubusercontent.com/assets/15636669/21586658/5e5ada60-d0e4-11e6-8b0d-2d5606c1efac.jpg)]
--[SpamSentry](https://github.com/yutsuku/SpamSentry) - Documents Gold Spammers by making an automatic screenshot of the message
--[SpamThrottle](https://github.com/laytya/SpamThrottle) - Aims to remove unwanted chat messages. [[Img1](https://cloud.githubusercontent.com/assets/15636669/21587182/643c98c8-d0ea-11e6-9816-4fd333cc1cc6.jpg)] [[Upstream](https://github.com/Orukxu/SpamThrottle)]
--[SpartanUI](https://github.com/Dyaxler/SpartanUI_Vanilla) - designed to free your screen by moving a majority of the interface elements to the bottom
--[SpartanUI_SpinCam](https://github.com/Daribon/SpartanUI_SpinCam) - Causes the camera to spin around your character when you go AFK
--[SpecialTalent](https://github.com/KrekoG/SpecialTalent) + [SpecialTalentUI](https://github.com/KrekoG/SpecialTalentUI) - Talent planning/saving/changing, plus the option to view all three talent trees simultaneously (must install both!)
--[SpellAlert](https://github.com/Brqje/SpellAlert) - Warns the player of the spell being casting from the hostile units [[Vid1](https://www.youtube.com/watch?v=Ak0zLLeqmKY)]
--[SpellPowerMulti](https://github.com/kevmodrome/SpellPowerMulti) - displays the current relevant damage multipliers on a target as well as the current total multiplier [[Img1](https://camo.githubusercontent.com/891faca2be478cfec907d8ffb8b38aa8d0a9909f/687474703a2f2f692e696d6775722e636f6d2f525578566b4d342e6a7067)]
--[Spy](https://turtle-wow.fandom.com/wiki/Spy) - Detects and alerts you to the presence of nearby enemy players.
--[sQMinimapFix](https://github.com/Montspy/sQMinimapFix) - Force a constant minimap zoom level across all zones, cities and instances.
--[sRaidFramesImproved](https://github.com/satan666/sRaidFrames_Improved) - was originally designed to replace the raid frames provided by CT_RaidAssist [[Img1](https://cloud.githubusercontent.com/assets/26133646/25947363/78e99b52-364f-11e7-8faa-0c85b956c8f5.jpg)] [[Img2](https://cloud.githubusercontent.com/assets/26133646/25947371/7f6a92a6-364f-11e7-83e7-dc3ab51eee88.jpg)]
--[StatCompare](https://github.com/grimfiendish/StatCompare) 2.0 - adds a Character and Inspection Pane for raid gear checks or to compare gear to your target's. Updates including TurtleWoW specific spells and enchants). [character panel](https://raw.githubusercontent.com/grimfiendish/StatCompare/129ac15b6b7b0308f0a14a214fcf9b0d3e9a2092/media/Character%20-%20Show%20Armor%20-%20Show%20Spells%20-%20Show%20Stats.jpg)(https://raw.githubusercontent.com/grimfiendish/StatCompare/129ac15b6b7b0308f0a14a214fcf9b0d3e9a2092/media/Character%20-%20Show%20Armor%20-%20Show%20Spells%20-%20Show%20Stats.jpg character panel)[inspection panel](https://raw.githubusercontent.com/grimfiendish/StatCompare/129ac15b6b7b0308f0a14a214fcf9b0d3e9a2092/media/Inspect%20-%20Show%20Armor%20-%20Show%20Spells%20-%20Show%20Stats.jpg)(https://raw.githubusercontent.com/grimfiendish/StatCompare/129ac15b6b7b0308f0a14a214fcf9b0d3e9a2092/media/Inspect%20-%20Show%20Armor%20-%20Show%20Spells%20-%20Show%20Stats.jpg inspection panel)
--[StealthOverlay](https://github.com/yutsuku/StealtOverlay) - slowly dims your screen when you enter Stealth [[Img1](https://imgur.com/2eJewL5)]
--[StopDuelBuffer](https://github.com/Paparogue/StopDuelBuffer) - Auto-Decline World Buff / Flask Chugger Duels
--[StopWatch](https://github.com/Geigerkind/StopWatch) - a simple stopwatch that uses blizzards style [[Img1](https://camo.githubusercontent.com/3fb4061e0be6db7bed323f0141c806e96fb3ae68/68747470733a2f2f6269746275636b65742e6f72672f7265706f2f456472624d6a2f696d616765732f3331373531363234362d4234354d7366792e706e67)]
--[Strategos Battleground](https://gitlab.com/WobLight/Strategos_Battleground) - custom minimap for battlegrounds
--[Strategos Minimap](https://gitlab.com/WobLight/Strategos_Minimap) - custom minimap for battlegrounds
--[StrategosCore](https://gitlab.com/WobLight/StrategosCore) - Enhances your BG experience [[Img1](https://user-images.githubusercontent.com/26133646/34726431-4737c72c-f554-11e7-880d-30cea3e7b7cf.png)] [[Discord](https://discord.gg/nVeqHjC)]
--[SUCC-bag](https://github.com/Otari98/SUCC-bag) - addon to unify user inventory and bags. Can sort items automatically if [SortBags](https://github.com/shirsig/SortBags) or [Clean_Up](https://github.com/shirsig/Clean_Up) installed [2](https://github.com/FrostShock/SUCC-bag)(https://github.com/FrostShock/SUCC-bag 2) [Img1](https://cloud.githubusercontent.com/assets/17740865/23642754/f5d4baa6-02b1-11e7-89ad-db77a9b3a6c3.jpg)(https://cloud.githubusercontent.com/assets/17740865/23642754/f5d4baa6-02b1-11e7-89ad-db77a9b3a6c3.jpg Img1)
--[SUCC-ecb](https://github.com/checkem/SUCC-ecb) - enemy castbar
--[SUCC-ui](https://github.com/checkem/SUCC-ui) - UI replacement
--[SummonsMonitor](https://github.com/0ldi/SummonsMonitor) - makes it easy for one or more Warlocks to summon multiple people
--[Sunderarmor](https://github.com/melbaa/sunderarmor) - prints how many sunders people did
--[SunOfTheNight](https://github.com/Lanrutcon/SunOfTheNight) - addOn that tries to "backport" the Character Menu of Skyrim [[Img1](https://imgur.com/vn3TPE8)]
--[SuperIgnore](https://github.com/refaim/SuperIgnore) - Unlimited ignore list with many extra features [[Img1](https://github.com/EinBaum/SuperIgnore/raw/master/preview.jpg?raw=true)].
--[SuperInspect](https://github.com/vakos1/SuperInspect) - Continue inspecting even if you've lost your target and many more new features
--[SuperMacro](SuperMacro) - provides a very much improved interface for macros [[Vid1](https://www.youtube.com/watch?v=bJOzpyX78hI&feature=youtu.be)]
--[SurvivalUI](https://github.com/Oronak/SurvivalUI) - Creates a GUI for the Survival Profession in TurtleWoW [[Img1](https://user-images.githubusercontent.com/107281337/186992117-7d90e46d-2926-4a26-81fa-8c95f3666627.png)]
--[SVT](https://github.com/xorann/SVT) - Keeps track of Shadow Vulnerability
--[SW Stats](https://github.com/Zerf/SW_Stats-Vanilla) - (named after guild Shadow Warrior) is a damage/heal (and more) meter addon
--[swapondeath](https://github.com/melbaa/swapondeath) - re-equip mark of the champion or seal of the dawn after death
--[Swapper](https://github.com/gabrielecimolino/Swapper) - is a container swapping utility addon
--[SwapRaidSubgroupByName](https://github.com/Grymskvll/SwapRaidSubgroupByName) - Adds a function to swap raid members by name rather than by raid-index
--[SyncedUI](https://github.com/vashin1/SyncedUI) - A complete UI solution featuring a customized profile & release of pfUI for for 1920x1080 [[Img1](https://camo.githubusercontent.com/fa0ea52e5a89525b2911e16166a92a299887eff7/687474703a2f2f692e696d6775722e636f6d2f5969655a4a736b2e6a7067)]
+- [SafeShift](https://github.com/Grymskvll/SafeShift) - Safety measure against accidentally unshifting immediately after shapeshifting
+- [SafeShift-TWoW](https://github.com/DeterminedPanda/SafeShift-TWoW) - fixes the original 'SafeShift' addon by allowing direct form switching (e.g., cat form to bear form) without needing to shift out first.
+- [Salad Cthun](https://github.com/goffauxs/Salad_Cthun) - Shows optimal positioning based on group on C'thun [[Img1](https://camo.githubusercontent.com/c3df2b854ce886fda411634396640946b53d06b2/687474703a2f2f692e696d6775722e636f6d2f38384c695473352e706e67)]
+- [Samuel](https://github.com/Terrub/Samuel) - Static swing timer with 1 - 1.5 second Slam marker for warriors [[Img1](https://user-images.githubusercontent.com/26133646/39255142-1b26006c-48ac-11e8-8910-c2629d0745b1.png)]
+- [SaySapped](https://github.com/Fiskehatt/SaySapped) - Says "Sapped!" to alert those around you whenever a rogue saps you
+- [SaySapped Extended](https://github.com/Fiskehatt/SaySapped_Extended) - Also works for many other CCs
+- [Screen Resolution Dropdown Fix](https://github.com/jhinzuo/another.ScreenResolutionDropdownFix) - Prevent errors from the Video Options dialog when there are too many resolutions, which is common when running in a VM like Parallels (fixes the UIDROPDOWNMENU_OPEN_MENU Lua error)
+- [SealTracker](https://github.com/cryptokn1ght-dev/SealTracker) - Lightweight Paladin seal tracker with a countdown timer. Features a resizable, draggable frame and a right-click options menu. [[Img1](https://github.com/cryptokn1ght-dev/SealTracker/raw/main/st_preview_.png)]
+- [SeeThunGroups](https://github.com/yutsuku/SeeThunGroups) - C`thun group setup helper for raid leaders [[Img1](https://github.com/yutsuku/SeeThunGroups/raw/master/docs/promo.png?raw=true)]
+- [Select AddOns](https://github.com/Road-block/Select_AddOns) - addons authored by Road-block (some not) [[Img1](https://user-images.githubusercontent.com/26133646/33953667-0d22d41a-e036-11e7-9c3c-ce0a16b8b169.png)]
+- [SelfFound](https://github.com/vortigern11/SelfFound) - Prevents you from trading, using the Auction House and mailing. Basically a Solo Self-Found mode without the Solo part. Can be paired with Turtle's Hardcore mode.
+- [SellValue](https://github.com/anzz1/SellValue) - Adds vendor prices to tooltips [[Img1](https://user-images.githubusercontent.com/13628128/58877571-b9846e80-86d9-11e9-905d-5da424049b07.png)]
+- [Sentry](https://github.com/shirsig/sentry) - Open pvp enemy frames/alerts [[Img1](http://i.imgur.com/dHrYfdo.png)]
+- [SimpleLvl](https://github.com/Beardedrasta/SimpleLvl) - A simple yet complex experience tracker - XToLevel.
+- [SimpleBars](https://github.com/Beardedrasta/SimpleBars) - A Simple way to display player HUD statusbars.
+- [SimplePowershifts](https://github.com/Beardedrasta/SimplePowershifts) - A Simple way to display druid powershifts.
+- [ShaguActions](https://github.com/shagu/ShaguActions) - Automatically saves and restores one actionbar profile for each of the 3 skill trees [<nowiki>[Img1](https://raw.githubusercontent.com/shagu/ShaguActions/master/screenshot.png)</nowiki>]
+- [ShaguBam](https://github.com/shagu/ShaguBam) - a BamMod alike Addon [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/ShaguBam/screenshot.jpg)]
+- [ShaguBoat](https://github.com/shagu/ShaguBoat) - A despawn timer for Turtle-WoW Fishing Boats.
+- [ShaguBoP](https://github.com/shagu/ShaguBoP) - auto accepts BoP loot when alone [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/ShaguBoP/popup.jpg)]
+- [ShaguChat](https://github.com/shagu/ShaguChat) - highlight and hide custom chat messages [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/ShaguChat/fullscreen.jpg)]
+- [ShaguClock](https://github.com/shagu/ShaguClock) - draws a simple movable clock on the screen [[2](https://github.com/FrostShock/ShaguClock)] [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/ShaguClock/orgrimmar.png)]
+- [ShaguColor](https://github.com/shagu/ShaguColor) - allows to write colorful chat messages [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/ShaguColor/merged.png)]
+- [ShaguCombat](https://github.com/shagu/ShaguCombat) - displays your combat state via glowing screen edges [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/ShaguCombat/animated.gif)]
+- [ShaguCopy](https://github.com/shagu/ShaguCopy) - allows to copy chat messages [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/ShaguCopy/button.png)]
+- [ShaguDelgado](https://github.com/shagu/ShaguDelgado) - modifies some elements to be purple [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/ShaguDelgado/screenshot.jpg)]
+- [ShaguDPS](https://github.com/shagu/ShaguDPS) - A very small and lightweight damage meter [[Img1](https://github.com/shagu/ShaguDPS/blob/master/screenshot.jpg)] [[Img2](https://github.com/shagu/ShaguDPS/blob/master/screenshot2.jpg)]
+- [ShaguError](https://github.com/shagu/ShaguError) - hides error and notification message popups [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/ShaguError/chat.png)]
+- [ShaguInventory](https://github.com/shagu/ShaguInventory) - shows account wide item count inside the tooltips [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/ShaguInventory/tooltip.jpg)]. 
+- [ShaguJunk](https://github.com/shagu/ShaguJunk) - Automatically delete and vendor specified items
+- [ShaguKill](https://github.com/shagu/ShaguKill) - displays the remaining kills till level up [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/ShaguKill/screenshot.jpg)]
+- [ShaguMount](https://github.com/shagu/ShaguMount) - automatically unmounts the player when using an action [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/ShaguMount/unmount.jpg)]
+- [ShaguNotify](https://github.com/shagu/ShaguNotify) - shows achievement alike notifications for several events [[Vid1](https://www.youtube.com/watch?v=_PXG04rTotw)]
+- [ShaguPlates](https://github.com/shagu/ShaguPlates) - modifies and extends the default nameplates [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/ShaguPlates/worldboss.jpg)] [TidyPlates-Edit](https://github.com/AtheneGenesis/ShaguPlates---TidyPlates-Edit)
+- [ShaguPlates-extra](https://github.com/Redbu11dev/ShaguPlates-extra) - ShaguPlates, but restyled and with extra stuff [<nowiki>[Img1](https://i.imgur.com/Qjbi7kb.png)</nowiki>]
+- [ShaguScore](https://github.com/shagu/ShaguScore) - displays a gearscore alike item rating [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/ShaguScore/character.jpg)]
+- [ShaguStance](https://github.com/shagu/ShaguStance) - automatically switches to the required stance [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/ShaguStance/battlestance.jpg)]
+- [ShaguTooltips](https://github.com/shagu/ShaguTooltips) - modifies the game tooltips [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/ShaguTooltips/preview.jpg)]
+- [ShaguTweaks](https://github.com/shagu/ShaguTweaks) - A small AddOn for those who don't want to use any AddOns at all. [[Img1](https://github.com/shagu/ShaguTweaks/raw/master/screenshots/settings.jpg)]
+- [ShaguTweaks-extras](https://github.com/shagu/ShaguTweaks-extras) - extends the capabilities of ShaguTweaks by offering optional modules that can be easily toggled on or off.
+- [ShaguTweaks DruidManaBar](https://github.com/gashole/ShaguTweaks-DruidManaBar) - Adds ShaguTweaks style changes to DruidManaBar [<nowiki>[Img1](https://camo.githubusercontent.com/73e4aa56977802431fa0ce18cc1fc29e2e4e4ff376ad65be79e8250ff4010ca7/68747470733a2f2f692e696d6775722e636f6d2f515530796d39722e706e67)</nowiki>]
+- [ShaguTweaks Mods](https://github.com/TokensWorth/ShaguTweaks-mods) - Mods for the ShaguTweaks addon
+- [ShaguTweaks more mods](https://github.com/CrimsonHollow/ShaguTweaks-more-mods) - Adds additional mods to ShaguTweaks [<nowiki>[Img1](https://user-images.githubusercontent.com/22963563/249768892-e7e907c8-c06d-4fe3-a7f2-b2efeff73518.png)</nowiki>]
+- [ShaguValue](https://github.com/shagu/ShaguValue) - display item sell and buy values on tooltips [[Img1](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/ShaguValue/bag.png)]
+- [ShaguWidget](https://github.com/shagu/ShaguWidget) - Movable Information Widget
+- [ShamanFix](https://github.com/WouterBink/ShamanFix) - changes the shaman class colour to blue
+- [ShardCap](https://github.com/dogmax/ShardCap) - Automatically deletes soul shards above a certain amount (default 5)
+- [ShardCapPlus](https://github.com/akzkak/ShardCapPlus) - Automatically deletes soul shards above a certain amount. Support Turtles stack of shards.
+- [ShieldBuddy](https://github.com/tr00dudu/ShieldBuddy) - Tracks absorption shields and their remaining values
+- [ShieldLeft](https://github.com/mrrosh/ShieldLeft) - Estimates and shows the charges left on shield
+- [ShikaSwap](https://github.com/ShikawaLePaladin/ShikaSwap) - Automatically swaps to the correct libram before casting Paladin spells
+- [Shootyepgp](https://github.com/Road-block/shootyepgp) - Guild Helper addon for EPGP loot system
+- [ShowChests](https://github.com/zirtox1992/ShowChests) - Show chests locations on login with pfQuest
+- [SilverDragon](https://github.com/cdmichaelb/SilverDragon) - tracks rares [[Img1](https://cloud.githubusercontent.com/assets/26133646/25950363/067bd6b4-365b-11e7-8b4e-3372a1ebeab2.jpg)]
+- [SimpleActionSets (SAS)](SimpleActionSets) - Save action bars as sets that can be swapped out; forked by Pepopo with updates for Turtle WoW Goblin Brainwashing Device compatibility
+- [SimpleAuras](https://github.com/yani9o/simpleAuras) - Simple Aura Display. /sa help
+- [SimpleCombatLog](https://github.com/Road-block/SimpleCombatLog) - Pretty Print Combat Log AddOn
+- [simpleMiniMap](https://github.com/McPewPew/SimpleMinimap) - Minimap replacement
+- [SimpleRaidTargetIcons](https://github.com/Road-block/SimpleRaidTargetIcons) - Target Marking and Mark Targeting Improvements [[Img1](https://github.com/Road-block/SimpleRaidTargetIcons/raw/docs/srti_options.png)] [[Img2](https://github.com/Road-block/SimpleRaidTargetIcons/raw/docs/srti_unit_radial_mark.png)]
+- [SkelaCustomNameplates](https://github.com/KrekoG/SkelaCustomNameplates) - Skela's Custom Nameplates [<nowiki>[Img1](https://user-images.githubusercontent.com/1638449/131257221-bc4fcfe7-5082-4c7a-bfef-32fd194ff52c.png)</nowiki>]
+- [SKMap](https://github.com/EinBaum/SKMap) - tracks player deaths, player pvp kills, their location by zone, and displays them on the world map
+- [SleepyPeon](https://github.com/NegusZek/SleepyPeon) - Moveable Rest XP bar, keeps track of rest XP overflow into next level(s)
+- [SmallerRollFrames](https://github.com/DennisWG/SmallerRollFrames) - replaces the default Roll-Frames with smaller ones [[Img1](https://cloud.githubusercontent.com/assets/26133646/25947378/835d0808-364f-11e7-974f-39c2c8107aa5.jpg)]
+- [SmartBuff](https://github.com/Azzc0/SmartBuff) - Automatically buff self/party/raid. Highly customisable [Alt](https://github.com/livinlicious/Smartbuff-TWOW)(https://github.com/livinlicious/Smartbuff-TWOW Alt)
+- [SmartDebuffCheck](https://github.com/Simon3/SmartDebuffCheck) - Simple addon to check if your target has the proper debuffs applied
+- [SmartHealer](https://github.com/melbaa/SmartHealer) - Autoscales heals in macros, and click heals for pfUI, Clique and ClassicMouseover (Melbaa). [Alternate Version](https://github.com/dsidirop/SmartHealer) with bugfix/update changes (Dsidrop)
+- [SmartLoot](https://github.com/Necroskillz/SmartLoot) - is a unobtrusive group loot frames AddOn [[Img1](http://i.imgur.com/1ABOsUG.png)]
+- [SmartRestore](https://github.com/Dauls/SmartRestore) - help people to easily restore their mana and health in and out of combat.
+- [SmartRoll](https://github.com/jejkas/SmartRoll) - addon to help with rolling on items for multi-raid groups [[Img1](https://camo.githubusercontent.com/73f6e4356b204bbf63dac4c5e05f54d5e4fd4753/687474703a2f2f692e696d6775722e636f6d2f6a33494f7755702e706e67)]
+- [SnagaLoatheb-TurtleEdition](https://github.com/madScripting/SnaguLoatheb-TurtleEdition) - Makes rotating Heals on Loatheb a lot easier. Now with Paladins *and* Shaman!
+- [Snipe](https://github.com/shirsig/snipe) - automatically buys any auction that matches a target in a specified target list
+- [Sniper](https://github.com/hitbutton/Sniper) - Mob Sniping Helper
+- [Snowkoban](https://github.com/vakos1/Snowkoban) - A puzzle minigame adapted from "Sokoban" by Perun Labs
+- [Sorgis Raid Marks](https://github.com/sorgis-sorgis/sorgis_raid_marks) - Raid mark targeting and assigning.
+- [SortBags](https://github.com/shirsig/SortBags-vanilla) - Bag sorting. Fixed version for Turtle WoW to not cause grayed out items. [Alt](https://github.com/Magues17/SortBags)(https://github.com/Magues17/SortBags Alt)
+- [SortByBuyout](https://github.com/Redbu11dev/SortByBuyout) - Adds "sort by buyout" button to the auction house frame [<nowiki>[Img1](https://i.imgur.com/fbUp180.png)</nowiki>]
+- [Sota](https://github.com/Sentilix/sota) - State of the Art DKP and Loot addon
+- [SoulShardManager](https://github.com/refaim/SoulShardManager) - Keeps your inventory from filling up with soul shards.
+- [SoundBoard](https://github.com/FSuhas/SoundBoard) - Shares and plays sounds in the group/raid
+- [Speed-o-meter](https://github.com/tomek7667/speed-o-meter.git) - Adds the best speed measuring frame
+- [Speedometer](https://github.com/tomek7667/speed-o-meter.git) - Adds a small frame that shows your current running speed.
+- [SP_Overpower](https://github.com/EinBaum/SP_Overpower) - Shows an alert tooltip and timer bar on your screen when Overpower procs
+- [SP_Revenge](https://github.com/Aggromemnon/SP_Revenge) - Shows an alert tooltip and timer bar on your screen when Revenge procs
+- [SP_SwingTimer](https://github.com/balakethelock/SP_SwingTimer) - Warrior Swing Timer [[Img1](https://cloud.githubusercontent.com/assets/15636669/21586658/5e5ada60-d0e4-11e6-8b0d-2d5606c1efac.jpg)]
+- [SpamSentry](https://github.com/yutsuku/SpamSentry) - Documents Gold Spammers by making an automatic screenshot of the message
+- [SpamThrottle](https://github.com/laytya/SpamThrottle) - Aims to remove unwanted chat messages. [[Img1](https://cloud.githubusercontent.com/assets/15636669/21587182/643c98c8-d0ea-11e6-9816-4fd333cc1cc6.jpg)] [[Upstream](https://github.com/Orukxu/SpamThrottle)]
+- [SpartanUI](https://github.com/Dyaxler/SpartanUI_Vanilla) - designed to free your screen by moving a majority of the interface elements to the bottom
+- [SpartanUI_SpinCam](https://github.com/Daribon/SpartanUI_SpinCam) - Causes the camera to spin around your character when you go AFK
+- [SpecialTalent](https://github.com/KrekoG/SpecialTalent) + [SpecialTalentUI](https://github.com/KrekoG/SpecialTalentUI) - Talent planning/saving/changing, plus the option to view all three talent trees simultaneously (must install both!)
+- [SpellAlert](https://github.com/Brqje/SpellAlert) - Warns the player of the spell being casting from the hostile units [[Vid1](https://www.youtube.com/watch?v=Ak0zLLeqmKY)]
+- [SpellPowerMulti](https://github.com/kevmodrome/SpellPowerMulti) - displays the current relevant damage multipliers on a target as well as the current total multiplier [[Img1](https://camo.githubusercontent.com/891faca2be478cfec907d8ffb8b38aa8d0a9909f/687474703a2f2f692e696d6775722e636f6d2f525578566b4d342e6a7067)]
+- [Spy](https://turtle-wow.fandom.com/wiki/Spy) - Detects and alerts you to the presence of nearby enemy players.
+- [sQMinimapFix](https://github.com/Montspy/sQMinimapFix) - Force a constant minimap zoom level across all zones, cities and instances.
+- [sRaidFramesImproved](https://github.com/satan666/sRaidFrames_Improved) - was originally designed to replace the raid frames provided by CT_RaidAssist [[Img1](https://cloud.githubusercontent.com/assets/26133646/25947363/78e99b52-364f-11e7-8faa-0c85b956c8f5.jpg)] [[Img2](https://cloud.githubusercontent.com/assets/26133646/25947371/7f6a92a6-364f-11e7-83e7-dc3ab51eee88.jpg)]
+- [StatCompare](https://github.com/grimfiendish/StatCompare) 2.0 - adds a Character and Inspection Pane for raid gear checks or to compare gear to your target's. Updates including TurtleWoW specific spells and enchants). [character panel](https://raw.githubusercontent.com/grimfiendish/StatCompare/129ac15b6b7b0308f0a14a214fcf9b0d3e9a2092/media/Character%20-%20Show%20Armor%20-%20Show%20Spells%20-%20Show%20Stats.jpg)(https://raw.githubusercontent.com/grimfiendish/StatCompare/129ac15b6b7b0308f0a14a214fcf9b0d3e9a2092/media/Character%20-%20Show%20Armor%20-%20Show%20Spells%20-%20Show%20Stats.jpg character panel)[inspection panel](https://raw.githubusercontent.com/grimfiendish/StatCompare/129ac15b6b7b0308f0a14a214fcf9b0d3e9a2092/media/Inspect%20-%20Show%20Armor%20-%20Show%20Spells%20-%20Show%20Stats.jpg)(https://raw.githubusercontent.com/grimfiendish/StatCompare/129ac15b6b7b0308f0a14a214fcf9b0d3e9a2092/media/Inspect%20-%20Show%20Armor%20-%20Show%20Spells%20-%20Show%20Stats.jpg inspection panel)
+- [StealthOverlay](https://github.com/yutsuku/StealtOverlay) - slowly dims your screen when you enter Stealth [[Img1](https://imgur.com/2eJewL5)]
+- [StopDuelBuffer](https://github.com/Paparogue/StopDuelBuffer) - Auto-Decline World Buff / Flask Chugger Duels
+- [StopWatch](https://github.com/Geigerkind/StopWatch) - a simple stopwatch that uses blizzards style [[Img1](https://camo.githubusercontent.com/3fb4061e0be6db7bed323f0141c806e96fb3ae68/68747470733a2f2f6269746275636b65742e6f72672f7265706f2f456472624d6a2f696d616765732f3331373531363234362d4234354d7366792e706e67)]
+- [Strategos Battleground](https://gitlab.com/WobLight/Strategos_Battleground) - custom minimap for battlegrounds
+- [Strategos Minimap](https://gitlab.com/WobLight/Strategos_Minimap) - custom minimap for battlegrounds
+- [StrategosCore](https://gitlab.com/WobLight/StrategosCore) - Enhances your BG experience [[Img1](https://user-images.githubusercontent.com/26133646/34726431-4737c72c-f554-11e7-880d-30cea3e7b7cf.png)] [[Discord](https://discord.gg/nVeqHjC)]
+- [SUCC-bag](https://github.com/Otari98/SUCC-bag) - addon to unify user inventory and bags. Can sort items automatically if [SortBags](https://github.com/shirsig/SortBags) or [Clean_Up](https://github.com/shirsig/Clean_Up) installed [2](https://github.com/FrostShock/SUCC-bag)(https://github.com/FrostShock/SUCC-bag 2) [Img1](https://cloud.githubusercontent.com/assets/17740865/23642754/f5d4baa6-02b1-11e7-89ad-db77a9b3a6c3.jpg)(https://cloud.githubusercontent.com/assets/17740865/23642754/f5d4baa6-02b1-11e7-89ad-db77a9b3a6c3.jpg Img1)
+- [SUCC-ecb](https://github.com/checkem/SUCC-ecb) - enemy castbar
+- [SUCC-ui](https://github.com/checkem/SUCC-ui) - UI replacement
+- [SummonsMonitor](https://github.com/0ldi/SummonsMonitor) - makes it easy for one or more Warlocks to summon multiple people
+- [Sunderarmor](https://github.com/melbaa/sunderarmor) - prints how many sunders people did
+- [SunOfTheNight](https://github.com/Lanrutcon/SunOfTheNight) - addOn that tries to "backport" the Character Menu of Skyrim [[Img1](https://imgur.com/vn3TPE8)]
+- [SuperIgnore](https://github.com/refaim/SuperIgnore) - Unlimited ignore list with many extra features [[Img1](https://github.com/EinBaum/SuperIgnore/raw/master/preview.jpg?raw=true)].
+- [SuperInspect](https://github.com/vakos1/SuperInspect) - Continue inspecting even if you've lost your target and many more new features
+- [SuperMacro](SuperMacro) - provides a very much improved interface for macros [[Vid1](https://www.youtube.com/watch?v=bJOzpyX78hI&feature=youtu.be)]
+- [SurvivalUI](https://github.com/Oronak/SurvivalUI) - Creates a GUI for the Survival Profession in TurtleWoW [[Img1](https://user-images.githubusercontent.com/107281337/186992117-7d90e46d-2926-4a26-81fa-8c95f3666627.png)]
+- [SVT](https://github.com/xorann/SVT) - Keeps track of Shadow Vulnerability
+- [SW Stats](https://github.com/Zerf/SW_Stats-Vanilla) - (named after guild Shadow Warrior) is a damage/heal (and more) meter addon
+- [swapondeath](https://github.com/melbaa/swapondeath) - re-equip mark of the champion or seal of the dawn after death
+- [Swapper](https://github.com/gabrielecimolino/Swapper) - is a container swapping utility addon
+- [SwapRaidSubgroupByName](https://github.com/Grymskvll/SwapRaidSubgroupByName) - Adds a function to swap raid members by name rather than by raid-index
+- [SyncedUI](https://github.com/vashin1/SyncedUI) - A complete UI solution featuring a customized profile & release of pfUI for for 1920x1080 [[Img1](https://camo.githubusercontent.com/fa0ea52e5a89525b2911e16166a92a299887eff7/687474703a2f2f692e696d6775722e636f6d2f5969655a4a736b2e6a7067)]
 
 [↑ Go to top of page ↑](Addons#Full Addons List)
 
 ### T
--[T-OoM](https://github.com/whtmst/T-OoM) - is a simple Out of Mana announcer addon for Turtle WoW
--[T-RestedXP](https://github.com/whtmst/T-RestedXP) - is a simple addon for tracking 0% and 100% rested XP in Turtle WoW
--[!Toggle](https://github.com/shirsig/notoggle) - Disables toggling behavior of Attack, Auto Shot and Shoot
--[Tactica](https://github.com/Player-Doite/tactica) - Tactical addon for raid leading with ease — post clear boss strategies (default or yours), auto-build and post/sort raids (auto-invite/gearcheck), assign & sync roles in raid roster, preset masterloot and set loot modes after kills, all in one place. [<nowiki>[Img1](https://github.com/user-attachments/assets/9879895e-5b73-4098-88f9-d298b794a349)</nowiki>] [<nowiki>[Img2](https://github.com/user-attachments/assets/991708d0-b30d-402f-9eff-57cb767b9859)</nowiki>] [<nowiki>[Img3](https://github.com/user-attachments/assets/9e626051-85bd-496e-b7be-75f91d2c70df)</nowiki>] [<nowiki>[Img4](https://github.com/user-attachments/assets/f8fcd04a-8060-4fa1-bb13-7d76810d9800)</nowiki>]
--[Talentsaver](https://github.com/pepopo978/Talentsaver) - save & load your common Talent Specs with just one click! [Alt](https://github.com/MOUZU/Talentsaver)(https://github.com/MOUZU/Talentsaver Alt) [[Vid1](https://www.youtube.com/watch?v=8au61bMst10)]
--[TankAssignments](https://github.com/Atreyyo/TankAssignments) - helps you assign tanks to raid targets
--[TankBuddy](https://github.com/srazdokunebil/TankBuddy) - Tanking assistance for wars/druids. Notices Party/Raid members when you use last stand, shield wall, lifegiving gem or when your taunt/growl/mocking blow fails.
--[TankBuddyEnh](https://github.com/laytya/TankBuddyEnh) - Alert raid on successful/missed taunt/kick/cc
--[TankHeal](https://github.com/xorann/TankHeal) - Tank Heal Assistant
--[TankHelper](https://github.com/balakethelock/TankHelper) - Shows information about target [<nowiki>[Img1](https://user-images.githubusercontent.com/111737968/244799868-0456e194-d5a4-42d5-a68f-d26b88db0462.png)</nowiki>]
--[TargetAssist](https://github.com/0ldi/TargetAssist) - Simple raid target icons
--[TargetFrameBuff](https://github.com/ZiiMs/TargetFrameBuff) - View all 16 buffs/debuffs on default UI
--[TargetSoundRestore](https://github.com/phrxqt/TargetSoundRestore) -  Restores the default target change sound effects often lost when replacing the Blizzard unit frames (e.g., with custom UI addons)
--[Tframes](https://github.com/oozgul/tframes/) - A sleek loot frames addon
--[Thaliz](https://github.com/Sentilix/thaliz) - Smart addon to handle ressing party / raid members [[Img1](https://user-images.githubusercontent.com/26133646/34412192-24ac7274-ebdc-11e7-8cb9-637353bd59fb.jpg)]
--[Theorycraft Turtle](TheoryCraft) - display average numbers on buttons w/ macros. Incomplete turtle class changes support.
--[Threat](https://github.com/muellerj/Threat) - Providing warrior tank a single button to generate the maximum available threat on a given single target [<nowiki>[Alt](https://github.com/Xleone1/Threat)</nowiki>]
--[ThreatLogger](https://github.com/ZenSociety/ThreatLogger) - Addon for logging ability threat.
--[TimeManager](https://github.com/gashole/TimeManager) - Time Management features [[Img1](https://camo.githubusercontent.com/cfa9e821fdf7f689bad274ae629d1ae713259c6e/687474703a2f2f692e696d6775722e636f6d2f6d7a37515834412e706e67)]
--[TimeToKill](https://github.com/jrc13245/TimeToKill) - Advanced time-to-kill estimation using RLS (Recursive Least Squares) algorithm
--[Timers](https://github.com/0ldi/Timers) - Flexibly customizable timers for tracking by triggers
--[TimeToDrink](https://github.com/TheRealFayz/TimeToDrink) - Editable alerts when healers get low on mana in a 5-man party.  No more wipes due to tanks not seeing the healer is OOM.
--[TimeTracker](https://github.com/jejkas/TimeTracker) - addon to create custom bars
--[TinyTip](https://github.com/EinBaum/TinyTip) - changes the look of your GameTooltip
--[TitanCritLine](https://github.com/isitLoVe/TitanCritLine) - Saves your high normal and critical damage records and flashes a message if your break the record
--[TitanGuild](https://github.com/isitLoVe/TitanGuild) - TitanGuild with EPGP display
--[TitanWowRadio](https://github.com/Daribon/TitanWowRadio) - Titan Plug-in for WowRadio
--[TitleRotator](https://github.com/sica42/TitleRotator) - Automatically change your title every few seconds [Img1](https://imgur.com/a/titlerotator-kcj80x0)(https://imgur.com/a/titlerotator-kcj80x0 Img1)
--[Tmog](https://github.com/Otari98/Tmog) - Adds info about your transmog collection to game tooltips
--[TNE FiveSec](https://github.com/refaim/TNE-FiveSec) - 5 Second Rule and mana regen tick monitor [Img1](https://user-images.githubusercontent.com/55476/201145942-c1957ca2-9b25-4bc7-8f88-214ad400e8ca.png)(https://user-images.githubusercontent.com/55476/201145942-c1957ca2-9b25-4bc7-8f88-214ad400e8ca.png Img1)
--[TNE Nightfall](https://github.com/Monteo/TNE_Nightfall) - Enables a flashing purple effect when you gain Shadow Trance
--[ToggleGather](https://github.com/maxcodk/ToggleGather-by-Svarrog) - Allows you to toggle between Find Herbs and Find Minerals with a single key press, updated for Turtle WoW (Svarrog). [Original upstream version](https://github.com/FrostShock/ToggleGather) (FrostShock)
--[TomTomVanilla](TomTom) - a mix of the Legion TomTom and QuestieArrow
--[TopMeOff](https://github.com/melbaa/TopMeOff) - will automatically top you off on reagents when you talk to a reagent vendor
--[TotemNesia](https://github.com/TheRealFayz/TotemNesia) - A comprehensive totem management addon for Shaman in Turtle WoW
--[TotemTimersEnhanced](https://github.com/MOUZU/TotemTimers-Enhanced) - keep track of shaman totems, how long they'll last and when their next Tick comes [<nowiki>[2](https://github.com/mdmcclel/TotemTimers-Enhanced)</nowiki>]
--[TotemTimers (TurtleWoW)](https://github.com/gregdeichler/TotemTimers) - a polished Turtle WoW addon that gives shamans a fast, readable totem bar with timers, flyout selection, scale controls, and a built-in twist warning helper.
--[Totemus](https://github.com/Azgaardian/Totemus) - Management of shaman spells, abilities, and reagents
--[ToxicTagger](https://github.com/dogmax/ToxicTagger) - Get the tag every time.
--[TourGuide Professions](https://github.com/cralor/TourGuide_Professions) - Professions guides for 1-300
--[TourGuide Turtle](TourGuide Turtle) - Power Leveling guide framework
--[Tracking Menu](https://github.com/blomma/bc_TrackingMenu) - Replaces the tracking icon on the minimap with an icon that has a pop-up menu for tracking abilities.
--[TradeChat](https://github.com/gbl/TradeChat) tells you in chat when people give you money. Use when you can't remember if people gave you money with crafting materials.
--[TradeDispenser](https://github.com/Linae-Kronos/tradeDispenser) - allows to automatically trade any water or food you have in your bags [[Img1](https://user-images.githubusercontent.com/24671466/26872536-2704e430-4b77-11e7-82f3-3dd6279518f5.png)]
--[TradeSkillsData](https://github.com/refaim/TradeSkillsData) - provides database of trade skill recipes, vendors and sources. Required for MissingTradeSkillsList. Library addon. Superseded by LibCrafts.
--[TradeSkillsData-turtle](https://github.com/refaim/TradeSkillsData-turtle) - Turtle-specific database extension for TradeSkillsData. Library addon.
-  -Superseded by LibCrafts, which is included in future addons that require it as a library.
--[Trailblazer](https://github.com/Liijin/Trailblazer) -  Lightweight Turtle-addon that helps you manage and summon your favorite mounts more easily.
--[TrainerSkills](https://github.com/refaim/TrainerSkills-vanilla) - Shows class/profession/pet/demon trainer frame from anywhere.
--[TrinketMenu](https://github.com/jrc13245/TrinketMenu) - a mod to make swapping trinkets easier [[Img1](https://user-images.githubusercontent.com/26133646/37241581-b5f3fa7e-245b-11e8-96ac-9e7cc365f999.png)]
--[TriviaBot Turtle](https://github.com/cyaohiri/TriviaBot-TurtleWow) - A fun in-game trivia bot with TurtleWoW questions.
--[TurtleCalendar](https://github.com/sica42/TurtleCalendar) - In-game calendar showing you raid & instances lockout, battleground and Darkmoon faire timers. [Img1](https://private-user-images.githubusercontent.com/155233364/486508147-e6369d2e-5b78-4df3-b1f4-e0968873019c.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTc3MTAzNDksIm5iZiI6MTc1NzcxMDA0OSwicGF0aCI6Ii8xNTUyMzMzNjQvNDg2NTA4MTQ3LWU2MzY5ZDJlLTViNzgtNGRmMy1iMWY0LWUwOTY4ODczMDE5Yy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwOTEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDkxMlQyMDQ3MjlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hODVlYjQ5NzcyZTRkN2Q5ZDg3OTk2Mjc2OTdhZWRiMDEyZDJhNjNiNTFjNWMxMWFmMDFiODA3YzQyZDNlODMxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.bVbwsUxRvP8umm2MzGrGF9UrQNt9g8ICXdRDxf31Ih4)(https://private-user-images.githubusercontent.com/155233364/486508147-e6369d2e-5b78-4df3-b1f4-e0968873019c.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTc3MTAzNDksIm5iZiI6MTc1NzcxMDA0OSwicGF0aCI6Ii8xNTUyMzMzNjQvNDg2NTA4MTQ3LWU2MzY5ZDJlLTViNzgtNGRmMy1iMWY0LWUwOTY4ODczMDE5Yy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwOTEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDkxMlQyMDQ3MjlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hODVlYjQ5NzcyZTRkN2Q5ZDg3OTk2Mjc2OTdhZWRiMDEyZDJhNjNiNTFjNWMxMWFmMDFiODA3YzQyZDNlODMxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.bVbwsUxRvP8umm2MzGrGF9UrQNt9g8ICXdRDxf31Ih4 Img1)
--[TurtleChatColors](https://github.com/DaMaGepyHUN/TurtleChatColors) - For Turtle Hardcore players, cleans up the <Still Alive> guild chat feed and adds features.
--[TurtleCount](https://github.com/neimad-mp/TurtleCount) - Adds a display of the number of turtles online [Img1](https://github.com/GryllsAddons/AddonPreviews/raw/main/TurtleCount/TurtleCount1.png)(https://github.com/GryllsAddons/AddonPreviews/raw/main/TurtleCount/TurtleCount1.png Img1) [Img2](https://github.com/GryllsAddons/AddonPreviews/raw/main/TurtleCount/TurtleCount2.png)(https://github.com/GryllsAddons/AddonPreviews/raw/main/TurtleCount/TurtleCount2.png Img2)
--[TurtleDebug](https://github.com/FrancisEgan/TurtleDebug) - A pretty-print debug tool for Turtle that allows easy copying and saves your variable list
--[TurtleEnchant](https://github.com/madamsmall/TurtleEnchant) - Makes the Enchanting interface searchable, sortable, and able to show items with materials available only. 
--[TurtleHardcoreChatTamer](https://github.com/refaim/TurtleHardcoreChatTamer) - Forces global Hardcore chat to respect the checkbox in chat channels settings
--[TurtleHCFilter](https://github.com/trumpetx/TurtleHCFilter) - Place HC Chat in a preferred window; modify the chat prefix; filter out WTS/T/LFM/G messages that are too far from your level.
--[TurtleHonorSpyEnhanced](https://github.com/dnkrse/TurtleHonorSpyEnhanced) - Enhanced PvP standings tracker.
--[TurtleMail](https://github.com/sica42/TurtleMail) - Automatically opens mail, mail multiple items, autocomplete recipient names, and more. A continuation of the 'Mail' addon with multiple improvements, such as showing the amount of gold collected from mail and allowing you to send multiple COD mail.
--[TurtleMenagerie](https://github.com/TrangOul/TurtleMenagerie) - A simple addon for Turtle WoW to summon a random mount or pet.
--[TurtlePetSearch](https://github.com/Avery1337/TurtlePetSearch) - An addon designed for Turtle WoW to search through your spellbook for companion pets.
--[TurtlePvp](https://github.com/clungo/TurtlePvp) - Broadcasts your world location to other TurtlePvP users to facilitate hunting eachother down and clashing for WPVP.
--[Turtle Reagent Display](https://github.com/FrancisEgan/TurtleReagentDisplay) - Displays reagent counts for spells directly on your action bar buttons.
--[TurtleRestedXP](https://github.com/FrancisEgan/TurtleRestedXP) - A small draggable rested XP progress bar.
--[TurtleRP](https://github.com/OldManAlpha/TurtleRP) - An RP addon custom-made for turtle. [Alt](https://github.com/bratmage/TurtleRP)(https://github.com/bratmage/TurtleRP Alt) [Info](https://victortemprano.com/turtlerp/)
--[TurtlesEpoch](https://codeberg.org/Mejiro/TurtlesEpoch) - AI-generated voice lines for NPC quest text, books, and world objects in Turtle WoW
--[TurtleSnacks](https://github.com/McPewPew/TurtleSnacks) - Collects Turtle Wow's wayward minimap buttons. [[Img1](https://user-images.githubusercontent.com/98543024/154826280-75658db9-18bd-4afb-a786-b832fbae5834.png)]
--[TurtleTaxi](https://github.com/Fragglechen/TurtleTaxi) - Create Transport requests for teleports or summons, or accept requests to teleport or summon other players who need it
--[TurtleTranslator](https://github.com/picardebooks/TurtleTranslator) - Translates chat messages across several languages
--[TurtleTweaks](https://github.com/mitjafelicijan/TurtleTweaks) - Tweaks and Enhancements [<nowiki>[Img1](https://user-images.githubusercontent.com/296714/238207093-910bfad2-9c78-4b35-bc48-e58f7cafa840.png)</nowiki>]
--[TWAssignments](https://github.com/CosminPOP/TWAssignments) - Tank/Healer assignments and more
--[TWBlueDragon](https://github.com/CosminPOP/TWBlueDragon) - Darkmoon Card: Blue Dragon proc tracker
--[TWLC2c](https://github.com/CosminPOP/TWLC2c) - Complete toolkit for guilds wishing to run Loot Council raids.
--[TwMapReveal](https://github.com/Ageous27/TwMapReveal) - Reveal / remove "fog of war" for the World Map.
--[TWoWBulkMail](https://github.com/Khundiann/TWoWBulkMail) - Bulk mail sending addon with autosend rules.
--[TWOwenWilson](https://github.com/CosminPOP/TWOwenWilson) - Owen Wilson WOW sounds when you crit with melee hits and spells
--[TWoW LFG Bulletin Board](https://github.com/Khundiann/TWoWLFGBulletinBoard) - Provides an overview of the group requests from chat channels.
--[TWoW PerHour](https://github.com/Khundiann/TWoWPerHour) - Reputation, experience, honor and gold metric tracker.
--[TWPulse](https://github.com/CosminPOP/TWPulse) - Notifies with a short pulse when cooldowns come off cooldown. [Alt](https://github.com/FSuhas/TWPulse)(https://github.com/FSuhas/TWPulse Alt)
--[TWSunders](https://github.com/CosminPOP/TWSunders) - Counts the time to 5sunders and outputs it in the chat.
--[TWThreat](https://github.com/MarcelineVQ/TWThreat) - Threat Meter for Turtle WoW
--[TWTrans](https://github.com/YamaYAML/twtrans) - Translates chat messages from Russian to English and vice versa.
+- [T-OoM](https://github.com/whtmst/T-OoM) - is a simple Out of Mana announcer addon for Turtle WoW
+- [T-RestedXP](https://github.com/whtmst/T-RestedXP) - is a simple addon for tracking 0% and 100% rested XP in Turtle WoW
+- [!Toggle](https://github.com/shirsig/notoggle) - Disables toggling behavior of Attack, Auto Shot and Shoot
+- [Tactica](https://github.com/Player-Doite/tactica) - Tactical addon for raid leading with ease — post clear boss strategies (default or yours), auto-build and post/sort raids (auto-invite/gearcheck), assign & sync roles in raid roster, preset masterloot and set loot modes after kills, all in one place. [<nowiki>[Img1](https://github.com/user-attachments/assets/9879895e-5b73-4098-88f9-d298b794a349)</nowiki>] [<nowiki>[Img2](https://github.com/user-attachments/assets/991708d0-b30d-402f-9eff-57cb767b9859)</nowiki>] [<nowiki>[Img3](https://github.com/user-attachments/assets/9e626051-85bd-496e-b7be-75f91d2c70df)</nowiki>] [<nowiki>[Img4](https://github.com/user-attachments/assets/f8fcd04a-8060-4fa1-bb13-7d76810d9800)</nowiki>]
+- [Talentsaver](https://github.com/pepopo978/Talentsaver) - save & load your common Talent Specs with just one click! [Alt](https://github.com/MOUZU/Talentsaver)(https://github.com/MOUZU/Talentsaver Alt) [[Vid1](https://www.youtube.com/watch?v=8au61bMst10)]
+- [TankAssignments](https://github.com/Atreyyo/TankAssignments) - helps you assign tanks to raid targets
+- [TankBuddy](https://github.com/srazdokunebil/TankBuddy) - Tanking assistance for wars/druids. Notices Party/Raid members when you use last stand, shield wall, lifegiving gem or when your taunt/growl/mocking blow fails.
+- [TankBuddyEnh](https://github.com/laytya/TankBuddyEnh) - Alert raid on successful/missed taunt/kick/cc
+- [TankHeal](https://github.com/xorann/TankHeal) - Tank Heal Assistant
+- [TankHelper](https://github.com/balakethelock/TankHelper) - Shows information about target [<nowiki>[Img1](https://user-images.githubusercontent.com/111737968/244799868-0456e194-d5a4-42d5-a68f-d26b88db0462.png)</nowiki>]
+- [TargetAssist](https://github.com/0ldi/TargetAssist) - Simple raid target icons
+- [TargetFrameBuff](https://github.com/ZiiMs/TargetFrameBuff) - View all 16 buffs/debuffs on default UI
+- [TargetSoundRestore](https://github.com/phrxqt/TargetSoundRestore) -  Restores the default target change sound effects often lost when replacing the Blizzard unit frames (e.g., with custom UI addons)
+- [Tframes](https://github.com/oozgul/tframes/) - A sleek loot frames addon
+- [Thaliz](https://github.com/Sentilix/thaliz) - Smart addon to handle ressing party / raid members [[Img1](https://user-images.githubusercontent.com/26133646/34412192-24ac7274-ebdc-11e7-8cb9-637353bd59fb.jpg)]
+- [Theorycraft Turtle](TheoryCraft) - display average numbers on buttons w/ macros. Incomplete turtle class changes support.
+- [Threat](https://github.com/muellerj/Threat) - Providing warrior tank a single button to generate the maximum available threat on a given single target [<nowiki>[Alt](https://github.com/Xleone1/Threat)</nowiki>]
+- [ThreatLogger](https://github.com/ZenSociety/ThreatLogger) - Addon for logging ability threat.
+- [TimeManager](https://github.com/gashole/TimeManager) - Time Management features [[Img1](https://camo.githubusercontent.com/cfa9e821fdf7f689bad274ae629d1ae713259c6e/687474703a2f2f692e696d6775722e636f6d2f6d7a37515834412e706e67)]
+- [TimeToKill](https://github.com/jrc13245/TimeToKill) - Advanced time-to-kill estimation using RLS (Recursive Least Squares) algorithm
+- [Timers](https://github.com/0ldi/Timers) - Flexibly customizable timers for tracking by triggers
+- [TimeToDrink](https://github.com/TheRealFayz/TimeToDrink) - Editable alerts when healers get low on mana in a 5-man party.  No more wipes due to tanks not seeing the healer is OOM.
+- [TimeTracker](https://github.com/jejkas/TimeTracker) - addon to create custom bars
+- [TinyTip](https://github.com/EinBaum/TinyTip) - changes the look of your GameTooltip
+- [TitanCritLine](https://github.com/isitLoVe/TitanCritLine) - Saves your high normal and critical damage records and flashes a message if your break the record
+- [TitanGuild](https://github.com/isitLoVe/TitanGuild) - TitanGuild with EPGP display
+- [TitanWowRadio](https://github.com/Daribon/TitanWowRadio) - Titan Plug-in for WowRadio
+- [TitleRotator](https://github.com/sica42/TitleRotator) - Automatically change your title every few seconds [Img1](https://imgur.com/a/titlerotator-kcj80x0)(https://imgur.com/a/titlerotator-kcj80x0 Img1)
+- [Tmog](https://github.com/Otari98/Tmog) - Adds info about your transmog collection to game tooltips
+- [TNE FiveSec](https://github.com/refaim/TNE-FiveSec) - 5 Second Rule and mana regen tick monitor [Img1](https://user-images.githubusercontent.com/55476/201145942-c1957ca2-9b25-4bc7-8f88-214ad400e8ca.png)(https://user-images.githubusercontent.com/55476/201145942-c1957ca2-9b25-4bc7-8f88-214ad400e8ca.png Img1)
+- [TNE Nightfall](https://github.com/Monteo/TNE_Nightfall) - Enables a flashing purple effect when you gain Shadow Trance
+- [ToggleGather](https://github.com/maxcodk/ToggleGather-by-Svarrog) - Allows you to toggle between Find Herbs and Find Minerals with a single key press, updated for Turtle WoW (Svarrog). [Original upstream version](https://github.com/FrostShock/ToggleGather) (FrostShock)
+- [TomTomVanilla](TomTom) - a mix of the Legion TomTom and QuestieArrow
+- [TopMeOff](https://github.com/melbaa/TopMeOff) - will automatically top you off on reagents when you talk to a reagent vendor
+- [TotemNesia](https://github.com/TheRealFayz/TotemNesia) - A comprehensive totem management addon for Shaman in Turtle WoW
+- [TotemTimersEnhanced](https://github.com/MOUZU/TotemTimers-Enhanced) - keep track of shaman totems, how long they'll last and when their next Tick comes [<nowiki>[2](https://github.com/mdmcclel/TotemTimers-Enhanced)</nowiki>]
+- [TotemTimers (TurtleWoW)](https://github.com/gregdeichler/TotemTimers) - a polished Turtle WoW addon that gives shamans a fast, readable totem bar with timers, flyout selection, scale controls, and a built-in twist warning helper.
+- [Totemus](https://github.com/Azgaardian/Totemus) - Management of shaman spells, abilities, and reagents
+- [ToxicTagger](https://github.com/dogmax/ToxicTagger) - Get the tag every time.
+- [TourGuide Professions](https://github.com/cralor/TourGuide_Professions) - Professions guides for 1-300
+- [TourGuide Turtle](TourGuide Turtle) - Power Leveling guide framework
+- [Tracking Menu](https://github.com/blomma/bc_TrackingMenu) - Replaces the tracking icon on the minimap with an icon that has a pop-up menu for tracking abilities.
+- [TradeChat](https://github.com/gbl/TradeChat) tells you in chat when people give you money. Use when you can't remember if people gave you money with crafting materials.
+- [TradeDispenser](https://github.com/Linae-Kronos/tradeDispenser) - allows to automatically trade any water or food you have in your bags [[Img1](https://user-images.githubusercontent.com/24671466/26872536-2704e430-4b77-11e7-82f3-3dd6279518f5.png)]
+- [TradeSkillsData](https://github.com/refaim/TradeSkillsData) - provides database of trade skill recipes, vendors and sources. Required for MissingTradeSkillsList. Library addon. Superseded by LibCrafts.
+- [TradeSkillsData-turtle](https://github.com/refaim/TradeSkillsData-turtle) - Turtle-specific database extension for TradeSkillsData. Library addon.
+  - Superseded by LibCrafts, which is included in future addons that require it as a library.
+- [Trailblazer](https://github.com/Liijin/Trailblazer) -  Lightweight Turtle-addon that helps you manage and summon your favorite mounts more easily.
+- [TrainerSkills](https://github.com/refaim/TrainerSkills-vanilla) - Shows class/profession/pet/demon trainer frame from anywhere.
+- [TrinketMenu](https://github.com/jrc13245/TrinketMenu) - a mod to make swapping trinkets easier [[Img1](https://user-images.githubusercontent.com/26133646/37241581-b5f3fa7e-245b-11e8-96ac-9e7cc365f999.png)]
+- [TriviaBot Turtle](https://github.com/cyaohiri/TriviaBot-TurtleWow) - A fun in-game trivia bot with TurtleWoW questions.
+- [TurtleCalendar](https://github.com/sica42/TurtleCalendar) - In-game calendar showing you raid & instances lockout, battleground and Darkmoon faire timers. [Img1](https://private-user-images.githubusercontent.com/155233364/486508147-e6369d2e-5b78-4df3-b1f4-e0968873019c.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTc3MTAzNDksIm5iZiI6MTc1NzcxMDA0OSwicGF0aCI6Ii8xNTUyMzMzNjQvNDg2NTA4MTQ3LWU2MzY5ZDJlLTViNzgtNGRmMy1iMWY0LWUwOTY4ODczMDE5Yy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwOTEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDkxMlQyMDQ3MjlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hODVlYjQ5NzcyZTRkN2Q5ZDg3OTk2Mjc2OTdhZWRiMDEyZDJhNjNiNTFjNWMxMWFmMDFiODA3YzQyZDNlODMxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.bVbwsUxRvP8umm2MzGrGF9UrQNt9g8ICXdRDxf31Ih4)(https://private-user-images.githubusercontent.com/155233364/486508147-e6369d2e-5b78-4df3-b1f4-e0968873019c.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTc3MTAzNDksIm5iZiI6MTc1NzcxMDA0OSwicGF0aCI6Ii8xNTUyMzMzNjQvNDg2NTA4MTQ3LWU2MzY5ZDJlLTViNzgtNGRmMy1iMWY0LWUwOTY4ODczMDE5Yy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwOTEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDkxMlQyMDQ3MjlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hODVlYjQ5NzcyZTRkN2Q5ZDg3OTk2Mjc2OTdhZWRiMDEyZDJhNjNiNTFjNWMxMWFmMDFiODA3YzQyZDNlODMxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.bVbwsUxRvP8umm2MzGrGF9UrQNt9g8ICXdRDxf31Ih4 Img1)
+- [TurtleChatColors](https://github.com/DaMaGepyHUN/TurtleChatColors) - For Turtle Hardcore players, cleans up the <Still Alive> guild chat feed and adds features.
+- [TurtleCount](https://github.com/neimad-mp/TurtleCount) - Adds a display of the number of turtles online [Img1](https://github.com/GryllsAddons/AddonPreviews/raw/main/TurtleCount/TurtleCount1.png)(https://github.com/GryllsAddons/AddonPreviews/raw/main/TurtleCount/TurtleCount1.png Img1) [Img2](https://github.com/GryllsAddons/AddonPreviews/raw/main/TurtleCount/TurtleCount2.png)(https://github.com/GryllsAddons/AddonPreviews/raw/main/TurtleCount/TurtleCount2.png Img2)
+- [TurtleDebug](https://github.com/FrancisEgan/TurtleDebug) - A pretty-print debug tool for Turtle that allows easy copying and saves your variable list
+- [TurtleEnchant](https://github.com/madamsmall/TurtleEnchant) - Makes the Enchanting interface searchable, sortable, and able to show items with materials available only. 
+- [TurtleHardcoreChatTamer](https://github.com/refaim/TurtleHardcoreChatTamer) - Forces global Hardcore chat to respect the checkbox in chat channels settings
+- [TurtleHCFilter](https://github.com/trumpetx/TurtleHCFilter) - Place HC Chat in a preferred window; modify the chat prefix; filter out WTS/T/LFM/G messages that are too far from your level.
+- [TurtleHonorSpyEnhanced](https://github.com/dnkrse/TurtleHonorSpyEnhanced) - Enhanced PvP standings tracker.
+- [TurtleMail](https://github.com/sica42/TurtleMail) - Automatically opens mail, mail multiple items, autocomplete recipient names, and more. A continuation of the 'Mail' addon with multiple improvements, such as showing the amount of gold collected from mail and allowing you to send multiple COD mail.
+- [TurtleMenagerie](https://github.com/TrangOul/TurtleMenagerie) - A simple addon for Turtle WoW to summon a random mount or pet.
+- [TurtlePetSearch](https://github.com/Avery1337/TurtlePetSearch) - An addon designed for Turtle WoW to search through your spellbook for companion pets.
+- [TurtlePvp](https://github.com/clungo/TurtlePvp) - Broadcasts your world location to other TurtlePvP users to facilitate hunting eachother down and clashing for WPVP.
+- [Turtle Reagent Display](https://github.com/FrancisEgan/TurtleReagentDisplay) - Displays reagent counts for spells directly on your action bar buttons.
+- [TurtleRestedXP](https://github.com/FrancisEgan/TurtleRestedXP) - A small draggable rested XP progress bar.
+- [TurtleRP](https://github.com/OldManAlpha/TurtleRP) - An RP addon custom-made for turtle. [Alt](https://github.com/bratmage/TurtleRP)(https://github.com/bratmage/TurtleRP Alt) [Info](https://victortemprano.com/turtlerp/)
+- [TurtlesEpoch](https://codeberg.org/Mejiro/TurtlesEpoch) - AI-generated voice lines for NPC quest text, books, and world objects in Turtle WoW
+- [TurtleSnacks](https://github.com/McPewPew/TurtleSnacks) - Collects Turtle Wow's wayward minimap buttons. [[Img1](https://user-images.githubusercontent.com/98543024/154826280-75658db9-18bd-4afb-a786-b832fbae5834.png)]
+- [TurtleTaxi](https://github.com/Fragglechen/TurtleTaxi) - Create Transport requests for teleports or summons, or accept requests to teleport or summon other players who need it
+- [TurtleTranslator](https://github.com/picardebooks/TurtleTranslator) - Translates chat messages across several languages
+- [TurtleTweaks](https://github.com/mitjafelicijan/TurtleTweaks) - Tweaks and Enhancements [<nowiki>[Img1](https://user-images.githubusercontent.com/296714/238207093-910bfad2-9c78-4b35-bc48-e58f7cafa840.png)</nowiki>]
+- [TWAssignments](https://github.com/CosminPOP/TWAssignments) - Tank/Healer assignments and more
+- [TWBlueDragon](https://github.com/CosminPOP/TWBlueDragon) - Darkmoon Card: Blue Dragon proc tracker
+- [TWLC2c](https://github.com/CosminPOP/TWLC2c) - Complete toolkit for guilds wishing to run Loot Council raids.
+- [TwMapReveal](https://github.com/Ageous27/TwMapReveal) - Reveal / remove "fog of war" for the World Map.
+- [TWoWBulkMail](https://github.com/Khundiann/TWoWBulkMail) - Bulk mail sending addon with autosend rules.
+- [TWOwenWilson](https://github.com/CosminPOP/TWOwenWilson) - Owen Wilson WOW sounds when you crit with melee hits and spells
+- [TWoW LFG Bulletin Board](https://github.com/Khundiann/TWoWLFGBulletinBoard) - Provides an overview of the group requests from chat channels.
+- [TWoW PerHour](https://github.com/Khundiann/TWoWPerHour) - Reputation, experience, honor and gold metric tracker.
+- [TWPulse](https://github.com/CosminPOP/TWPulse) - Notifies with a short pulse when cooldowns come off cooldown. [Alt](https://github.com/FSuhas/TWPulse)(https://github.com/FSuhas/TWPulse Alt)
+- [TWSunders](https://github.com/CosminPOP/TWSunders) - Counts the time to 5sunders and outputs it in the chat.
+- [TWThreat](https://github.com/MarcelineVQ/TWThreat) - Threat Meter for Turtle WoW
+- [TWTrans](https://github.com/YamaYAML/twtrans) - Translates chat messages from Russian to English and vice versa.
 
 [↑ Go to top of page ↑](Addons#Full Addons List)
 
 ### U
--[UberBanish](https://gitlab.com/Artur91425/UberBanish) - For Warlocks: automatically counts down your banish timer into raid or party chat, notifies other warlocks of early breaks or banisher deaths.
--[UITweaks](https://github.com/yutsuku/UITweaks) - Tweaks the User Interface to be as minimalistic as possible
--[UltimaMacros](https://github.com/jrc13245/UltimaMacros) - lightweight, self-contained macro system
--[UnicodeFont](https://github.com/Daribon/UnicodeFont) - Enables you to see Chinese, Japanese and other languages in game
--[UnifiedTalentGuides](https://github.com/rmarc29/UnifiedTalentGuides) - Show players what talent to choose depending on what class they're playing (based on popular HC guides websites)
--[UnitFramesImproved](https://github.com/Ko0z/UnitFramesImproved_Vanilla) - improve upon the standard blizzard unit frames without going beyond the boundaries set by them [[Img1](https://camo.githubusercontent.com/0082757337a05d228dc6c351f406ddaf59104d91/687474703a2f2f692e696d6775722e636f6d2f78754f664d72792e706e67)]
--[Unitscan](https://turtle-wow.fandom.com/wiki/Unitscan) - automatically scans for characters by name and alerts you upon finding one [[Img1](https://i.imgur.com/d7TLkZm.png)]
--[UnleashedTracker](https://github.com/Szalor/UnleashedTracker) - tracks the Unleashed Potential buff on your demon and displays its icon, alongside a duration and a number of stacks.
+- [UberBanish](https://gitlab.com/Artur91425/UberBanish) - For Warlocks: automatically counts down your banish timer into raid or party chat, notifies other warlocks of early breaks or banisher deaths.
+- [UITweaks](https://github.com/yutsuku/UITweaks) - Tweaks the User Interface to be as minimalistic as possible
+- [UltimaMacros](https://github.com/jrc13245/UltimaMacros) - lightweight, self-contained macro system
+- [UnicodeFont](https://github.com/Daribon/UnicodeFont) - Enables you to see Chinese, Japanese and other languages in game
+- [UnifiedTalentGuides](https://github.com/rmarc29/UnifiedTalentGuides) - Show players what talent to choose depending on what class they're playing (based on popular HC guides websites)
+- [UnitFramesImproved](https://github.com/Ko0z/UnitFramesImproved_Vanilla) - improve upon the standard blizzard unit frames without going beyond the boundaries set by them [[Img1](https://camo.githubusercontent.com/0082757337a05d228dc6c351f406ddaf59104d91/687474703a2f2f692e696d6775722e636f6d2f78754f664d72792e706e67)]
+- [Unitscan](https://turtle-wow.fandom.com/wiki/Unitscan) - automatically scans for characters by name and alerts you upon finding one [[Img1](https://i.imgur.com/d7TLkZm.png)]
+- [UnleashedTracker](https://github.com/Szalor/UnleashedTracker) - tracks the Unleashed Potential buff on your demon and displays its icon, alongside a duration and a number of stacks.
 
 [↑ Go to top of page ↑](Addons#Full Addons List)
 
 ### V
--[Vamper](https://github.com/MarcelineVQ/Vamper) - Track Vampirism gains
--[VanillaGraphicBoost](https://github.com/hixio-mh/VanillaGraphicBoost) - Push the game's visuals to the max [[Img1](https://user-images.githubusercontent.com/26133646/39453092-ec65f660-4cd4-11e8-9f2b-dc4972bb54cc.png)]
--[VanillaGuide-Plus](https://github.com/DonutsDelivery/VanillaGuide-Plus) - Hybrid leveling guide with race-based routing and TomTom navigation [[Alt](https://github.com/tmerle/VanillaGuide/tree/pfquest-localization)]
--[VanillaGuide_TUGs](https://github.com/TheUnprofessionalGamer/VanillaGuide) - An in-game leveling guide written by TUGs on the basis of VanillaGuide and [GuideLime_TUGs](https://legacy.curseforge.com/wow/addons/guidelime_tugs/files/all).
--[VanillaGuideReloaded](https://github.com/JeromeM/VanillaGuideReloaded) - Remake of VanillaGuide (ongoing project)
--[VanillaMaps](https://github.com/0ldi/VanillaMaps) - collection of detailed and clear maps, gathered from various sources
--[VanillaRatingBuster](https://github.com/kxseven/VanillaRatingBuster) - Displays ratings for items in tooltips based on stat weights [[Img1](https://github.com/kxseven/VanillaRatingBuster/raw/master/VanillaRatingBuster/assets/vb_druid_feral.png)] [[Img2](https://github.com/kxseven/VanillaRatingBuster/raw/master/VanillaRatingBuster/assets/vb_druid_healing.png)]
--[VanillaStoryline](https://github.com/tubtubs/VanillaStoryline) - enhance the readability and immersion when questing [[alt](https://github.com/Voidmenull/VanillaStoryline)] [[Img1](https://i.imgur.com/eJdhBwt.png)] [[Img2](https://i.imgur.com/PA305nO.png)]
--[VanillaStoryline Transparent Patch](https://www.nexusmods.com/worldofwarcraft/mods/870) - Removes paper backgrounds [<nowiki>[Img1](https://staticdelivery.nexusmods.com/mods/1416/images/870/870-1733104190-1852572157.png)</nowiki>]
--[VanillaStoryline Visual Novel](https://github.com/LordGlarthir/VanillaStoryline-Visual-Novel) - New UI Design for even more immersion [Img](https://staticdelivery.nexusmods.com/mods/1416/images/871/871-1733260835-2093659857.png)(https://staticdelivery.nexusmods.com/mods/1416/images/871/871-1733260835-2093659857.png Img)
--[VCB](VCB) - a highly customizable buff frame
--[VendorAutoBuy](https://github.com/EinBaum/VendorAutoBuy) - Auto buy limited items from merchants [[Img1](https://github.com/EinBaum/VendorAutoBuy/raw/master/preview.jpg?raw=true)]
--[VendorList](https://github.com/MarcelineVQ/VendorList) - automatic vending of listed items
--[VF WarriorAddon](https://github.com/Otari98/VF_WarriorAddon) - Announces Last Stand / Shield Wall / Missed Taunts
--[VGAntiCooldown](https://github.com/firenahzku/VanguardAntiCooldown) - Tracks and purge enemy buffs
--[VGAttackBar](https://github.com/firenahzku/VGAttackBar) - Displays a progress bar for your attack speed [[Img1](https://user-images.githubusercontent.com/26133646/39252703-8ece2bb2-48a6-11e8-8661-55f087a97946.png)]
--[VGInterrupt](https://github.com/firenahzku/VGInterrupt) - interrupt your target
--[VGShamanTools](https://github.com/firenahzku/VanguardShamanTools) - tracks weapon enchantment and totem timers [[Img1](https://camo.githubusercontent.com/fea3c6dded6c3fa1de8f734b824cae41e33f8f14/68747470733a2f2f692e696d6775722e636f6d2f7a5847515144542e706e67)]
--[VGSmartUnbuff](https://github.com/firenahzku/VGSmartUnbuff) - removes the lowest-priority buff
--[Vizput](https://github.com/gregdeichler/Vizput) - a Turtle WoW auction house addon built for one job: posting batches of auctions quickly without dragging the same item over and over.
--[VoidBattle](https://github.com/yutsuku/VoidBattle) - AddOn that removes battleground spam messages from chat
--[vPeddler](https://github.com/ZythDr/vPeddler) - A relatively sophisticated junk seller addon that focuses on Qaulity-of-Life features and ease of use.
--[VQueue](https://github.com/dimiglas/vqueuetwow) - Group finder utility [[2](https://github.com/dimiglas/vqueuetwow)]
--[VitalWatch](https://vanillawowaddons.com/download/vitalwatch/) - Alerts you to your own low or critical health or mana, or to a party member or pet's health, using any combination of a centered large font frame, emotes, sounds, and party message.
+- [Vamper](https://github.com/MarcelineVQ/Vamper) - Track Vampirism gains
+- [VanillaGraphicBoost](https://github.com/hixio-mh/VanillaGraphicBoost) - Push the game's visuals to the max [[Img1](https://user-images.githubusercontent.com/26133646/39453092-ec65f660-4cd4-11e8-9f2b-dc4972bb54cc.png)]
+- [VanillaGuide-Plus](https://github.com/DonutsDelivery/VanillaGuide-Plus) - Hybrid leveling guide with race-based routing and TomTom navigation [[Alt](https://github.com/tmerle/VanillaGuide/tree/pfquest-localization)]
+- [VanillaGuide_TUGs](https://github.com/TheUnprofessionalGamer/VanillaGuide) - An in-game leveling guide written by TUGs on the basis of VanillaGuide and [GuideLime_TUGs](https://legacy.curseforge.com/wow/addons/guidelime_tugs/files/all).
+- [VanillaGuideReloaded](https://github.com/JeromeM/VanillaGuideReloaded) - Remake of VanillaGuide (ongoing project)
+- [VanillaMaps](https://github.com/0ldi/VanillaMaps) - collection of detailed and clear maps, gathered from various sources
+- [VanillaRatingBuster](https://github.com/kxseven/VanillaRatingBuster) - Displays ratings for items in tooltips based on stat weights [[Img1](https://github.com/kxseven/VanillaRatingBuster/raw/master/VanillaRatingBuster/assets/vb_druid_feral.png)] [[Img2](https://github.com/kxseven/VanillaRatingBuster/raw/master/VanillaRatingBuster/assets/vb_druid_healing.png)]
+- [VanillaStoryline](https://github.com/tubtubs/VanillaStoryline) - enhance the readability and immersion when questing [[alt](https://github.com/Voidmenull/VanillaStoryline)] [[Img1](https://i.imgur.com/eJdhBwt.png)] [[Img2](https://i.imgur.com/PA305nO.png)]
+- [VanillaStoryline Transparent Patch](https://www.nexusmods.com/worldofwarcraft/mods/870) - Removes paper backgrounds [<nowiki>[Img1](https://staticdelivery.nexusmods.com/mods/1416/images/870/870-1733104190-1852572157.png)</nowiki>]
+- [VanillaStoryline Visual Novel](https://github.com/LordGlarthir/VanillaStoryline-Visual-Novel) - New UI Design for even more immersion [Img](https://staticdelivery.nexusmods.com/mods/1416/images/871/871-1733260835-2093659857.png)(https://staticdelivery.nexusmods.com/mods/1416/images/871/871-1733260835-2093659857.png Img)
+- [VCB](VCB) - a highly customizable buff frame
+- [VendorAutoBuy](https://github.com/EinBaum/VendorAutoBuy) - Auto buy limited items from merchants [[Img1](https://github.com/EinBaum/VendorAutoBuy/raw/master/preview.jpg?raw=true)]
+- [VendorList](https://github.com/MarcelineVQ/VendorList) - automatic vending of listed items
+- [VF WarriorAddon](https://github.com/Otari98/VF_WarriorAddon) - Announces Last Stand / Shield Wall / Missed Taunts
+- [VGAntiCooldown](https://github.com/firenahzku/VanguardAntiCooldown) - Tracks and purge enemy buffs
+- [VGAttackBar](https://github.com/firenahzku/VGAttackBar) - Displays a progress bar for your attack speed [[Img1](https://user-images.githubusercontent.com/26133646/39252703-8ece2bb2-48a6-11e8-8661-55f087a97946.png)]
+- [VGInterrupt](https://github.com/firenahzku/VGInterrupt) - interrupt your target
+- [VGShamanTools](https://github.com/firenahzku/VanguardShamanTools) - tracks weapon enchantment and totem timers [[Img1](https://camo.githubusercontent.com/fea3c6dded6c3fa1de8f734b824cae41e33f8f14/68747470733a2f2f692e696d6775722e636f6d2f7a5847515144542e706e67)]
+- [VGSmartUnbuff](https://github.com/firenahzku/VGSmartUnbuff) - removes the lowest-priority buff
+- [Vizput](https://github.com/gregdeichler/Vizput) - a Turtle WoW auction house addon built for one job: posting batches of auctions quickly without dragging the same item over and over.
+- [VoidBattle](https://github.com/yutsuku/VoidBattle) - AddOn that removes battleground spam messages from chat
+- [vPeddler](https://github.com/ZythDr/vPeddler) - A relatively sophisticated junk seller addon that focuses on Qaulity-of-Life features and ease of use.
+- [VQueue](https://github.com/dimiglas/vqueuetwow) - Group finder utility [[2](https://github.com/dimiglas/vqueuetwow)]
+- [VitalWatch](https://vanillawowaddons.com/download/vitalwatch/) - Alerts you to your own low or critical health or mana, or to a party member or pet's health, using any combination of a centered large font frame, emotes, sounds, and party message.
 
 [↑ Go to top of page ↑](Addons#Full Addons List)
 
 ### W
--[WarriorCombatManager](https://github.com/Faraso/WarriorCombatManager) - WCM is a lightweight timeline helper for TurtleWoW (SuperWoW supported setups) that helps you plan and execute cooldown stacking on boss fights.  [<nowiki>[Img1](https://static.wikia.nocookie.net/turtle-wow/images/f/f3/1.jpg)</nowiki>] [<nowiki>[Img2](https://static.wikia.nocookie.net/turtle-wow/images/9/9f/WCM_Options.jpg)</nowiki>]
--[WarriorHUD](https://github.com/mr-rosh/WarriorHUD) - a HUD(Head-up-Display) created exclusively for Warriors [[Img1](https://user-images.githubusercontent.com/26133646/39253411-1553a9fe-48a8-11e8-8b6d-9248a6fa18f7.png)]
--[WarriorTank](https://github.com/Cernie/WarriorTank) - One button warrior tanking
--[WarriorTweaks](https://github.com/Goose404/WarriorTweaks) - Checks for BS, Sunder, AttackPower and estimated kill time
--[WebDKP Elysium](https://github.com/webdkpthroaway/WebDKP_Elysium) - addon to help guild leaders manage their dkp
--[WFW](https://github.com/jejkas/WFW) - addon for switching weapons when you have Windfury totem
--[WhatsTraining_Turtle](https://github.com/FrancisEgan/WhatsTraining_Turtle) - Shows you what spells are available at your class trainer [Alt](https://github.com/Gescht/WhatsTraining_Turtle)(https://github.com/Gescht/WhatsTraining_Turtle Alt) [<nowiki>[Img1](https://raw.githubusercontent.com/spawnedc/WhatsTraining_Turtle/refs/heads/main/images/main-window.png)</nowiki>]
--[WhisperBind](https://github.com/Forbium/WhisperBind) - Interface for quick message sending
--[Whisper Filter](https://github.com/LadaBr/whisperfilter) - If you are annoyed by whispers of gold sellers and beggars this is right choice for you [[Img1](https://user-images.githubusercontent.com/26133646/32120043-6aa3b7fc-bb57-11e7-8473-4da4086d8108.png)]
--[WhisperProfile](https://github.com/ZenSociety/WhisperProfile) - A simple wow vanilla addon to display the profile of the whisper (/wp).
--[WhoFavorites](https://github.com/Road-block/WhoFavorites) - Store and Replay /who queries
--[WhoHas](https://github.com/Road-block/WhoHas) - Tooltip Addon showing item counts and other info
--[WhoKicksNow](https://github.com/yutsuku/WhoKicksNow) - Displays cooldowns for Kick, Gouge, Cheap Shot and Kidney Shot to everyone in group who use the AddOn
--[WhoList_Fix](https://github.com/Voidmenull/WhoList_Fix) - Fix the Who-List Display [[Img1](http://i.imgur.com/Xl7JPPJ.png)]
--[WIIIUI](https://github.com/Fiurs-Hearth/WIIIUI) - A Warcraft III UI addon for vanilla WoW [[Img1](https://user-images.githubusercontent.com/97316608/149590970-9f816046-1437-49f3-a054-57f0091d1da6.png)]
--[WIM](https://github.com/refaim/WIM) - (WoW Instant Messenger) brings an instant messenger feel to communication in game
--[WorkAroundSelfCast](https://github.com/MOUZU/WorkAroundSelfCast) - AddOn to enable the use of autoSelfCast with other AddOns like PallyPower
--[WorldBossAlert](https://github.com/Numielle/WorldBossAlert) - simplifies scouting for world bosses by checking the scout's combat log for crucial events
--[WorldBuffSoundAlert](https://github.com/Bergador/WorldBuffSoundAlert) - Plays a fanfare sound when a world buff is about to go out
--[WorldFilter](https://github.com/twothe/WorldFilter) - filters the world and trade channel by keywords
--[WoWAuctions](https://www.wowauctions.net/) Search the Turtle WoW Auction House from web (not actually an addon, just a useful resource)
--[WowLuaVanilla](https://github.com/laytya/WowLuaVanilla) - A WowLua backport for Vanilla WoW [[Img1](https://user-images.githubusercontent.com/20452393/191373851-17655d76-9bd9-4662-a8ed-761ee07488d7.png)]
--[WowRadio](https://github.com/paokkerkir/WowRadio-Vanilla) - Listen to Internet Radio inside WoW [Alt](https://github.com/Daribon/WowRadio)(https://github.com/Daribon/WowRadio Alt) [[Img1](https://user-images.githubusercontent.com/26133646/39201801-6731232c-47f0-11e8-922c-96747b449861.png)]
--[WoW-Voiceover](Addon WoW-Voiceover) - Adds AI generated voice acting to NPC dialogue and quests
--[WRUGS](https://github.com/Daribon/WRUGS) - Effective addon to block gold seller whispers.
+- [WarriorCombatManager](https://github.com/Faraso/WarriorCombatManager) - WCM is a lightweight timeline helper for TurtleWoW (SuperWoW supported setups) that helps you plan and execute cooldown stacking on boss fights.  [<nowiki>[Img1](https://static.wikia.nocookie.net/turtle-wow/images/f/f3/1.jpg)</nowiki>] [<nowiki>[Img2](https://static.wikia.nocookie.net/turtle-wow/images/9/9f/WCM_Options.jpg)</nowiki>]
+- [WarriorHUD](https://github.com/mr-rosh/WarriorHUD) - a HUD(Head-up-Display) created exclusively for Warriors [[Img1](https://user-images.githubusercontent.com/26133646/39253411-1553a9fe-48a8-11e8-8b6d-9248a6fa18f7.png)]
+- [WarriorTank](https://github.com/Cernie/WarriorTank) - One button warrior tanking
+- [WarriorTweaks](https://github.com/Goose404/WarriorTweaks) - Checks for BS, Sunder, AttackPower and estimated kill time
+- [WebDKP Elysium](https://github.com/webdkpthroaway/WebDKP_Elysium) - addon to help guild leaders manage their dkp
+- [WFW](https://github.com/jejkas/WFW) - addon for switching weapons when you have Windfury totem
+- [WhatsTraining_Turtle](https://github.com/FrancisEgan/WhatsTraining_Turtle) - Shows you what spells are available at your class trainer [Alt](https://github.com/Gescht/WhatsTraining_Turtle)(https://github.com/Gescht/WhatsTraining_Turtle Alt) [<nowiki>[Img1](https://raw.githubusercontent.com/spawnedc/WhatsTraining_Turtle/refs/heads/main/images/main-window.png)</nowiki>]
+- [WhisperBind](https://github.com/Forbium/WhisperBind) - Interface for quick message sending
+- [Whisper Filter](https://github.com/LadaBr/whisperfilter) - If you are annoyed by whispers of gold sellers and beggars this is right choice for you [[Img1](https://user-images.githubusercontent.com/26133646/32120043-6aa3b7fc-bb57-11e7-8473-4da4086d8108.png)]
+- [WhisperProfile](https://github.com/ZenSociety/WhisperProfile) - A simple wow vanilla addon to display the profile of the whisper (/wp).
+- [WhoFavorites](https://github.com/Road-block/WhoFavorites) - Store and Replay /who queries
+- [WhoHas](https://github.com/Road-block/WhoHas) - Tooltip Addon showing item counts and other info
+- [WhoKicksNow](https://github.com/yutsuku/WhoKicksNow) - Displays cooldowns for Kick, Gouge, Cheap Shot and Kidney Shot to everyone in group who use the AddOn
+- [WhoList_Fix](https://github.com/Voidmenull/WhoList_Fix) - Fix the Who-List Display [[Img1](http://i.imgur.com/Xl7JPPJ.png)]
+- [WIIIUI](https://github.com/Fiurs-Hearth/WIIIUI) - A Warcraft III UI addon for vanilla WoW [[Img1](https://user-images.githubusercontent.com/97316608/149590970-9f816046-1437-49f3-a054-57f0091d1da6.png)]
+- [WIM](https://github.com/refaim/WIM) - (WoW Instant Messenger) brings an instant messenger feel to communication in game
+- [WorkAroundSelfCast](https://github.com/MOUZU/WorkAroundSelfCast) - AddOn to enable the use of autoSelfCast with other AddOns like PallyPower
+- [WorldBossAlert](https://github.com/Numielle/WorldBossAlert) - simplifies scouting for world bosses by checking the scout's combat log for crucial events
+- [WorldBuffSoundAlert](https://github.com/Bergador/WorldBuffSoundAlert) - Plays a fanfare sound when a world buff is about to go out
+- [WorldFilter](https://github.com/twothe/WorldFilter) - filters the world and trade channel by keywords
+- [WoWAuctions](https://www.wowauctions.net/) Search the Turtle WoW Auction House from web (not actually an addon, just a useful resource)
+- [WowLuaVanilla](https://github.com/laytya/WowLuaVanilla) - A WowLua backport for Vanilla WoW [[Img1](https://user-images.githubusercontent.com/20452393/191373851-17655d76-9bd9-4662-a8ed-761ee07488d7.png)]
+- [WowRadio](https://github.com/paokkerkir/WowRadio-Vanilla) - Listen to Internet Radio inside WoW [Alt](https://github.com/Daribon/WowRadio)(https://github.com/Daribon/WowRadio Alt) [[Img1](https://user-images.githubusercontent.com/26133646/39201801-6731232c-47f0-11e8-922c-96747b449861.png)]
+- [WoW-Voiceover](Addon WoW-Voiceover) - Adds AI generated voice acting to NPC dialogue and quests
+- [WRUGS](https://github.com/Daribon/WRUGS) - Effective addon to block gold seller whispers.
 
 [↑ Go to top of page ↑](Addons#Full Addons List)
 
 ### X
--[XckMasterLootAdvanced](https://github.com/unknauwn/XckMasterLootAdvanced/tree/master) - Easy way to assign loot as ML [[Img1](https://camo.githubusercontent.com/266a585b242f8c2ede245f7e68794ed8d0b480ac/68747470733a2f2f707265766965772e6962622e636f2f6543456a45372f53637265656e73686f745f312e706e67)]
--[XFactionChat](https://github.com/EinBaum/XFactionChat) - Cross Faction Chat
--[XLoot](https://github.com/Ko0z/XLoot) - Xloot for 1.12 Shagu Style
--[XLoot AddOns](https://github.com/Road-block/XLoot_AddOns) - A remake of the built-in loot frame [[Img1](https://user-images.githubusercontent.com/26133646/37241321-98633d20-2457-11e8-80b5-6b5ab9422135.png)]
--[XPerl](https://github.com/Redbu11dev/X-Perl-UnitFrames) - Replaces the normal unit, party, target, pet frames and adds target-of-target
--[XToLevel-Classic](https://github.com/jayparry/XToLevel-Classic) - Kills/Quests to level, XP/hour, ETA.
--[XTranqManager](https://github.com/unknauwn/XTranqManager/tree/master) - Easy Auto Announce TranqShot
--[XiaoMount](https://github.com/Kmschr/XiaoMount) - Riding Equipment Autoequipper for TWoW
--[XtraUnitFrame](https://github.com/unknauwn/XtraUnitFrame) - Advanced Compact Unit Raid Frame [[Img1](https://camo.githubusercontent.com/ef38b8a75254f2a5de0d30f72953644ac468ea91/687474703a2f2f696d6167652e70726e747363722e636f6d2f696d6167652f30313231643338356433363634633434386161356666393663373362636263632e706e67)] [[Img2](https://camo.githubusercontent.com/b93d9926ea9297447bd99e5a4de8014db0b9b6f5/68747470733a2f2f696d6167652e6962622e636f2f6362425171642f745f6c5f6368617267656d656e742e706e67)]
+- [XckMasterLootAdvanced](https://github.com/unknauwn/XckMasterLootAdvanced/tree/master) - Easy way to assign loot as ML [[Img1](https://camo.githubusercontent.com/266a585b242f8c2ede245f7e68794ed8d0b480ac/68747470733a2f2f707265766965772e6962622e636f2f6543456a45372f53637265656e73686f745f312e706e67)]
+- [XFactionChat](https://github.com/EinBaum/XFactionChat) - Cross Faction Chat
+- [XLoot](https://github.com/Ko0z/XLoot) - Xloot for 1.12 Shagu Style
+- [XLoot AddOns](https://github.com/Road-block/XLoot_AddOns) - A remake of the built-in loot frame [[Img1](https://user-images.githubusercontent.com/26133646/37241321-98633d20-2457-11e8-80b5-6b5ab9422135.png)]
+- [XPerl](https://github.com/Redbu11dev/X-Perl-UnitFrames) - Replaces the normal unit, party, target, pet frames and adds target-of-target
+- [XToLevel-Classic](https://github.com/jayparry/XToLevel-Classic) - Kills/Quests to level, XP/hour, ETA.
+- [XTranqManager](https://github.com/unknauwn/XTranqManager/tree/master) - Easy Auto Announce TranqShot
+- [XiaoMount](https://github.com/Kmschr/XiaoMount) - Riding Equipment Autoequipper for TWoW
+- [XtraUnitFrame](https://github.com/unknauwn/XtraUnitFrame) - Advanced Compact Unit Raid Frame [[Img1](https://camo.githubusercontent.com/ef38b8a75254f2a5de0d30f72953644ac468ea91/687474703a2f2f696d6167652e70726e747363722e636f6d2f696d6167652f30313231643338356433363634633434386161356666393663373362636263632e706e67)] [[Img2](https://camo.githubusercontent.com/b93d9926ea9297447bd99e5a4de8014db0b9b6f5/68747470733a2f2f696d6167652e6962622e636f2f6362425171642f745f6c5f6368617267656d656e742e706e67)]
 
 [↑ Go to top of page ↑](Addons#Full Addons List)
 
 ### Y
--[YAHT Turtle.](https://github.com/aspanj/YaHT-TurtleWoWSteady) - Yet another Hunter Timer. TWoW Trueshot support [[Img1](https://i.imgur.com/aT152lD.png)] [[Img2](https://i.imgur.com/PZlUAkU.png)]
--[YouveGotRedOnYou](https://github.com/whtmst/YouveGotRedOnYou) - Warns if your target is PVP flagged. [[Img1](https://user-images.githubusercontent.com/98543024/151660110-12603778-fac5-4fbc-b90a-f2653ea5b474.jpg)]
+- [YAHT Turtle.](https://github.com/aspanj/YaHT-TurtleWoWSteady) - Yet another Hunter Timer. TWoW Trueshot support [[Img1](https://i.imgur.com/aT152lD.png)] [[Img2](https://i.imgur.com/PZlUAkU.png)]
+- [YouveGotRedOnYou](https://github.com/whtmst/YouveGotRedOnYou) - Warns if your target is PVP flagged. [[Img1](https://user-images.githubusercontent.com/98543024/151660110-12603778-fac5-4fbc-b90a-f2653ea5b474.jpg)]
 
 [↑ Go to top of page ↑](Addons#Full Addons List)
 
 ### Z
--[ZealCycle](https://github.com/TerraBaddie/ZealCycle-turtle) - Zeal Stacker (Crusader Strike) then Holy Strike Spammer (Prot Paladin)
--[ZeroDB](https://github.com/minexew/zeroDB) - database addon [[Img1](https://camo.githubusercontent.com/6cb46960e3e3f9cc7080934e928d1f94b1887dd4/687474703a2f2f692e696d6775722e636f6d2f524857686b41662e706e67)]
--[ZGLoot](https://github.com/Lichery/ZGLoot) - automate looting in ZG, AQ 20 and AQ 40 [[Img1](https://user-images.githubusercontent.com/26133646/36640833-a03d316c-1a26-11e8-9971-7935e2b55bb5.png)]
--[ZGTracker](https://github.com/rsheep/ZGTracker) - Tracks Zul'Gurub coins and bijous lootage
--[Zones Level](https://github.com/Arthur-Helias/ZonesLevel) - A lightweight Turtle WoW addon that displays the mouse hovered zone's level under its title on the world map. [<nowiki>[Img1](https://github.com/user-attachments/assets/ad28d3dd-fa26-42bd-8971-1939c00cbc7b)</nowiki>]
--[Zorlen](https://github.com/Xian55/Zorlen) - a function library addon for all classes and other general functions. it provides a host of functions that have to be activated in macros. [[Original](https://www.briankoponen.com/zorlen-addon-vanilla-world-warcraft/)]
--[zUI](https://github.com/Ko0z/zUI) - A pfUI fork, Complete UI Replacement, that instead aims to preserve the blizzard look/design but with a modern touch and with some nice features added [[Img1](https://camo.githubusercontent.com/f0d07ba5b01bd70a05f64a57366f14543411d9a1/68747470733a2f2f692e696d6775722e636f6d2f37776e48784f772e706e67)] [[Img2](https://camo.githubusercontent.com/02c4e67f8c7c65f9a96e05703980013ccfbf78de/68747470733a2f2f692e696d6775722e636f6d2f4151383658724d2e706e67)]
+- [ZealCycle](https://github.com/TerraBaddie/ZealCycle-turtle) - Zeal Stacker (Crusader Strike) then Holy Strike Spammer (Prot Paladin)
+- [ZeroDB](https://github.com/minexew/zeroDB) - database addon [[Img1](https://camo.githubusercontent.com/6cb46960e3e3f9cc7080934e928d1f94b1887dd4/687474703a2f2f692e696d6775722e636f6d2f524857686b41662e706e67)]
+- [ZGLoot](https://github.com/Lichery/ZGLoot) - automate looting in ZG, AQ 20 and AQ 40 [[Img1](https://user-images.githubusercontent.com/26133646/36640833-a03d316c-1a26-11e8-9971-7935e2b55bb5.png)]
+- [ZGTracker](https://github.com/rsheep/ZGTracker) - Tracks Zul'Gurub coins and bijous lootage
+- [Zones Level](https://github.com/Arthur-Helias/ZonesLevel) - A lightweight Turtle WoW addon that displays the mouse hovered zone's level under its title on the world map. [<nowiki>[Img1](https://github.com/user-attachments/assets/ad28d3dd-fa26-42bd-8971-1939c00cbc7b)</nowiki>]
+- [Zorlen](https://github.com/Xian55/Zorlen) - a function library addon for all classes and other general functions. it provides a host of functions that have to be activated in macros. [[Original](https://www.briankoponen.com/zorlen-addon-vanilla-world-warcraft/)]
+- [zUI](https://github.com/Ko0z/zUI) - A pfUI fork, Complete UI Replacement, that instead aims to preserve the blizzard look/design but with a modern touch and with some nice features added [[Img1](https://camo.githubusercontent.com/f0d07ba5b01bd70a05f64a57366f14543411d9a1/68747470733a2f2f692e696d6775722e636f6d2f37776e48784f772e706e67)] [[Img2](https://camo.githubusercontent.com/02c4e67f8c7c65f9a96e05703980013ccfbf78de/68747470733a2f2f692e696d6775722e636f6d2f4151383658724d2e706e67)]
 
 [↑ Go to top of page ↑](Addons#Full Addons List)
 
@@ -1155,10 +1154,10 @@ A big thank you to Mr Rosh for maintaining this list in the past, and all wiki c
 These addons either require the [SuperWoW](https://github.com/balakethelock/SuperWoW) client mod to work, or provide more features with SuperWoW.
 
 ##### **What is SuperWoW?**
--You can find SuperWoW [**here**](https://github.com/balakethelock/SuperWoW). It's [**feature list**](https://github.com/balakethelock/SuperWoW/wiki/Features) and [**compatibility notes**](https://github.com/balakethelock/SuperWoW/wiki/Compability-with-other-mods) can be found on it's github wiki.
+- You can find SuperWoW [**here**](https://github.com/balakethelock/SuperWoW). It's [**feature list**](https://github.com/balakethelock/SuperWoW/wiki/Features) and [**compatibility notes**](https://github.com/balakethelock/SuperWoW/wiki/Compability-with-other-mods) can be found on it's github wiki.
 
 ##### **How do I install SuperWoW?**
--Pepopo wrote an [**install guide**](https://github.com/pepopo978/SuperwowInstallation).
+- Pepopo wrote an [**install guide**](https://github.com/pepopo978/SuperwowInstallation).
 
 ##### **Addons that require SuperWoW**
 {| class="fandom-table"
@@ -1337,20 +1336,20 @@ To install these addons, you must use the manual method, and you will never rece
 
 If one of these old addons bugs out and breaks due to Turtle WoW's changes, someone can fix it for Turtle and add the fixed Turtle version to the above addons list. Be sure to check to see if someone's done this already.
 
--[Vigilance](https://web.archive.org/web/*/http://www.vigilance-committee.org/wow/downloads/*), [Ace](https://web.archive.org/web/20061114054055/http://www.wowace.com/files/) ([Alt](https://web.archive.org/web/*/http://www.wowace.com/files/*)), [Curse](https://web.archive.org/web/*/http://static.curse-gaming.com/ftp/datarepos/addons/*), [Worldofwar](https://web.archive.org/web/*/http://downloadmod.worldofwar.net/upload/ui/*) ([Alt](https://web.archive.org/web/*/http://uifiles.worldofwar.net/upload/ui/*)) and [Guru](http://web.archive.org/web/*/http://www.wowguru.com/ui/archives/*) (wayback machine download pages)
--[Road Block's Select AddOns](https://github.com/Road-block/Select_AddOns)
--[RootedCF's Massive Collection for 1.12](https://github.com/rootedCF/classicaddons)
--[CrazyPoultry's Addons Collection](https://github.com/crazypoultry/Wow1.12.1_Addons_Collection)  ([Mirror](https://github.com/freadblangks/Wow1.12.1_Addons_Collection)) ([Alt](https://github.com/aim2kill/Wow1.12.1_Addons_Collection))
--[xVitali2's Addons for Vanilla](https://github.com/xVitali2/Addons-for-Vanilla-1.12.1)
--[Laytya's Vanilla Addons](https://github.com/laytya/Vanilla-Addons)
--[Fastbond's WoW 1.12.1 Addons](https://github.com/fastbond/wow-1.12.1-addons)
--[Oppahansi's WoW UIs](https://github.com/oppahansi/WoW-UIs/tree/master/Vanilla)
--[Suetema's Tweaks to Boldi's Addons](https://github.com/suetema/AddOns)
--[Legacy-wow.com's Vanilla Addons](https://legacy-wow.com/vanilla-addons/)
--[Felbite.com's Vanilla Addons](https://felbite.com/addons/?expansion=vanilla)
--[ruRU ClassicAddons](https://github.com/WoWruRU-ClassicAddons)
--[fondlez's Vanilla Addons](https://github.com/fondlez/wow-addons-vanilla)
--[Ryac's Steam Deck UI](https://github.com/Ryac1/Ryac_TW_Steamdeck_UI)  - Consoleport like UI for 1.12 with 40+ actionbuttons [Img1](https://i.imgur.com/18EUC5F.jpg)(https://i.imgur.com/18EUC5F.jpg Img1)
+- [Vigilance](https://web.archive.org/web/*/http://www.vigilance-committee.org/wow/downloads/*), [Ace](https://web.archive.org/web/20061114054055/http://www.wowace.com/files/) ([Alt](https://web.archive.org/web/*/http://www.wowace.com/files/*)), [Curse](https://web.archive.org/web/*/http://static.curse-gaming.com/ftp/datarepos/addons/*), [Worldofwar](https://web.archive.org/web/*/http://downloadmod.worldofwar.net/upload/ui/*) ([Alt](https://web.archive.org/web/*/http://uifiles.worldofwar.net/upload/ui/*)) and [Guru](http://web.archive.org/web/*/http://www.wowguru.com/ui/archives/*) (wayback machine download pages)
+- [Road Block's Select AddOns](https://github.com/Road-block/Select_AddOns)
+- [RootedCF's Massive Collection for 1.12](https://github.com/rootedCF/classicaddons)
+- [CrazyPoultry's Addons Collection](https://github.com/crazypoultry/Wow1.12.1_Addons_Collection)  ([Mirror](https://github.com/freadblangks/Wow1.12.1_Addons_Collection)) ([Alt](https://github.com/aim2kill/Wow1.12.1_Addons_Collection))
+- [xVitali2's Addons for Vanilla](https://github.com/xVitali2/Addons-for-Vanilla-1.12.1)
+- [Laytya's Vanilla Addons](https://github.com/laytya/Vanilla-Addons)
+- [Fastbond's WoW 1.12.1 Addons](https://github.com/fastbond/wow-1.12.1-addons)
+- [Oppahansi's WoW UIs](https://github.com/oppahansi/WoW-UIs/tree/master/Vanilla)
+- [Suetema's Tweaks to Boldi's Addons](https://github.com/suetema/AddOns)
+- [Legacy-wow.com's Vanilla Addons](https://legacy-wow.com/vanilla-addons/)
+- [Felbite.com's Vanilla Addons](https://felbite.com/addons/?expansion=vanilla)
+- [ruRU ClassicAddons](https://github.com/WoWruRU-ClassicAddons)
+- [fondlez's Vanilla Addons](https://github.com/fondlez/wow-addons-vanilla)
+- [Ryac's Steam Deck UI](https://github.com/Ryac1/Ryac_TW_Steamdeck_UI)  - Consoleport like UI for 1.12 with 40+ actionbuttons [Img1](https://i.imgur.com/18EUC5F.jpg)(https://i.imgur.com/18EUC5F.jpg Img1)
 {| class="fandom-table"
 !Addon Name
 !Description
@@ -6584,12 +6583,12 @@ If one of these old addons bugs out and breaks due to Turtle WoW's changes, some
 
 ## Non-Addon Game Modifications
 Looking to boost performance? Autoloot without needing to hold shift? Improve graphics a bit? Change the models and textures and sounds of the game? See also, for these non-addon ways you can further tweak your Turtle WoW setup: 
--[Client Fixes and Tweaks](Client Fixes and Tweaks)
--[Client Mods](Client Mods)
--[Sound Mods](Sound Mods)
--[Making Custom Sounds](Making Custom Sounds)
--[3D Model Guide](https://docs.google.com/document/d/15pY_HqGEDbjvs3FztZYETfVxGr9EC_0UGL7c3bzmFaI/edit?tab=t.0#heading=h.4p4p8wueyrc9)
--[Mod Primer Guide](https://docs.google.com/document/d/1kUrZus7HAaxpJeVFX2bJ2iyyZfUR6ZJAmBygIPo-NHA/edit?usp=sharing)
+- [Client Fixes and Tweaks](Client Fixes and Tweaks)
+- [Client Mods](Client Mods)
+- [Sound Mods](Sound Mods)
+- [Making Custom Sounds](Making Custom Sounds)
+- [3D Model Guide](https://docs.google.com/document/d/15pY_HqGEDbjvs3FztZYETfVxGr9EC_0UGL7c3bzmFaI/edit?tab=t.0#heading=h.4p4p8wueyrc9)
+- [Mod Primer Guide](https://docs.google.com/document/d/1kUrZus7HAaxpJeVFX2bJ2iyyZfUR6ZJAmBygIPo-NHA/edit?usp=sharing)
 
 ## For Addon Developers
 ### First Steps To Creating Addons
@@ -6602,120 +6601,120 @@ Do you have a secret dream of becoming a famous addon developer superstar and ge
 # If you need advanced debug feature like Step by Step Execution or Call Stack Inspector, you could try the [UnitXP_SP3 full package](https://github.com/OldManAlpha/UnitXP_SP3_Addon), it includes an advanced Lua debugger for the game.
 
 ### 1.12 Addon Development Resources
--[Vanilla-Coding in 2025 with AI](https://forum.turtlecraft.gg/viewtopic.php?t=21861) - An updated short guide
--[Interface Customization](https://web.archive.org/web/20061117102607/http://www.wowwiki.com/Interface_Customization) - WoWWiki Interface Customization Main Menu (Wayback machine)
--[API Functions](https://wowpedia.fandom.com/wiki/World_of_Warcraft_API?oldid=352751). This is a link to the wiki dated right before December 5th, 2006, when the 2.0 update was released. Make sure you always look at wiki edits from before this date.
--[API Events](https://github.com/shagu/wow-vanilla-api/blob/master/events.md) - Shagu's git for 1.12.1 Event-Listing.
--[1.12.1-Development](https://github.com/Kabinner/1.12.1-Development) - Kabinner documenting the experience of learning to write addons.
--[Interface Textures](https://github.com/doorknob6/vanilla-wow-interface-textures) - Export of vanilla WoW interface textures converted to .png.
--[UI Macros](https://github.com/Meridaw/Vanilla-Macros/tree/master/User%20Interface) - a large collection of useful macros that can be copied and used on turtle wow.
--[Lua Definitions](https://github.com/refaim/Vanilla-WoW-Lua-Definitions) - Lua definitions for statically typed addon development using Luanalysis IDE.
--[API Type Definitions](https://github.com/SabineWren/wow-api-type-definitions/) - Dokka's🏹 git for type definitions to much of the 1.12.1 API.
--[Turtle WoW UI Source](https://github.com/refaim/Turtle-WoW-UI-Source) - the user interface source code for Turtle WoW.
--[Hex to RGBA](https://rgbacolorpicker.com/hex-to-rgba) - Hex to RGBA Converter.
--[WoWUIDesigner](https://www.wowinterface.com/downloads/info4222-WoWUIDesigner.html) - Helps with the creation of add-ons interface elements.
--[TextureCoordsCalculator](https://github.com/helnesis/TextureCoordsCalculator) - Calculates texture coordinates automatically, by selecting off the desired area directly through your .BLP file.
+- [Vanilla-Coding in 2025 with AI](https://forum.turtlecraft.gg/viewtopic.php?t=21861) - An updated short guide
+- [Interface Customization](https://web.archive.org/web/20061117102607/http://www.wowwiki.com/Interface_Customization) - WoWWiki Interface Customization Main Menu (Wayback machine)
+- [API Functions](https://wowpedia.fandom.com/wiki/World_of_Warcraft_API?oldid=352751). This is a link to the wiki dated right before December 5th, 2006, when the 2.0 update was released. Make sure you always look at wiki edits from before this date.
+- [API Events](https://github.com/shagu/wow-vanilla-api/blob/master/events.md) - Shagu's git for 1.12.1 Event-Listing.
+- [1.12.1-Development](https://github.com/Kabinner/1.12.1-Development) - Kabinner documenting the experience of learning to write addons.
+- [Interface Textures](https://github.com/doorknob6/vanilla-wow-interface-textures) - Export of vanilla WoW interface textures converted to .png.
+- [UI Macros](https://github.com/Meridaw/Vanilla-Macros/tree/master/User%20Interface) - a large collection of useful macros that can be copied and used on turtle wow.
+- [Lua Definitions](https://github.com/refaim/Vanilla-WoW-Lua-Definitions) - Lua definitions for statically typed addon development using Luanalysis IDE.
+- [API Type Definitions](https://github.com/SabineWren/wow-api-type-definitions/) - Dokka's🏹 git for type definitions to much of the 1.12.1 API.
+- [Turtle WoW UI Source](https://github.com/refaim/Turtle-WoW-UI-Source) - the user interface source code for Turtle WoW.
+- [Hex to RGBA](https://rgbacolorpicker.com/hex-to-rgba) - Hex to RGBA Converter.
+- [WoWUIDesigner](https://www.wowinterface.com/downloads/info4222-WoWUIDesigner.html) - Helps with the creation of add-ons interface elements.
+- [TextureCoordsCalculator](https://github.com/helnesis/TextureCoordsCalculator) - Calculates texture coordinates automatically, by selecting off the desired area directly through your .BLP file.
 
 ### Library Addons for Addon Developers
--[Abacus-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide tools for formatting money and time.
--[Ace2](https://github.com/laytya/Ace2) - embeddable framework for rapid WoW addon development.
--[Ace3v](https://github.com/laytya/Ace3v) - port of [Ace3 framework](https://www.curseforge.com/wow/addons/ace3) for Vanilla WoW.
--[AnchorsAway-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Row stacking and anchoring template.
--[AnimationGroup](https://github.com/martinjlowm/AnimationGroup) - A library to provide Retail-like frame animations.
--[Babble-Boss-2.0, 2.1, 2.2 and 2.3](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide localizations for bosses.
--[Babble-Class-2.0, 2.1 and 2.2](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide localizations for classes.
--[Babble-Faction-2.2](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide localizations for factions.
--[Babble-Item-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide localizations for items.
--[Babble-ItemSet-2.2](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide localizations for factions.
--[Babble-Race-2.0, 2.1 and 2.2](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide localizations for races.
--[Babble-Spell-2.0, 2.1, 2.2 and 2.3](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide localizations for spells.
--[Babble-SpellTree-2.0, 2.1 and 2.2](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide localizations for spell and talent trees.
--[Babble-Zone-2.0, 2.1 and 2.2](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide localizations for zones.
--[Banzai-1.0 and 1.1](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Aggro notification library.
--[CallbackHandler-1.0](https://github.com/zerosnake0/CallbackHandler-1.0) - back-end utility library that makes it easy for a library to fire its events to interested parties. It removes the need for addons to be aware of e.g. AceEvent.
--[CandyBar-2.0](https://github.com/laytya/LibCandyBar) - A timer bars library.
--[CandyBar-2.1](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A timer bars library.
--[CastLib-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide information about casts.
--[ChatThrottleLib](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library that keeps outbound chat and addon communication from exceeding the output rate limit in WoW that otherwise causes players to disconnect from the server.
--[Chronos](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library that managers time. You can schedule a function to be called in X seconds, with or without an id. You can request a timer, which tracks the elapsed duration since the timer was started.
--[Classy-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A wrapper for defining classes that inherit from widgets.
--[CommChannel-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library that manages three communication channels ("guild", "raid" and "sync") and allows addons to use a RPC mechanism.
--[Compost-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Recycle tables to reduce garbage generation.
--[Crayon-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide coloring tools.
--[Deformat-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to deformat format strings.
--[Dewdrop-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide a clean dropdown menu interface.
--[DruidManaLib-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide mana values while in shape shift.
--[FAIAP](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library for syntax highlighting and indentation.
--[FiveSecLib-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide feedback about the five second rule for casters.
--[FuBarPlugin-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Plugin for FuBar.
--[GetSpellInfoVanilla](https://github.com/Schaka/GetSpellInfoVanilla) - addon to help developers access information about spells.
--[Glory-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library for PvP and Battlegrounds.
--[GraphLib-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Allows for easy creation of graphs.
--[Gratuity-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Tooltip parsing library.
--[HealComm-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide communication of heals and resurrections.
--[IFrameFactory-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library that helps to create and re-use dynamically created frames.
--[ItemBonusLib-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library that scans your equipment for cumulative item bonuses and sums them up.
--[ItemClasses-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A set of classes used to describe and execute usable items/actions (spells, macros, etc...).
--[Jostle-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to handle rearrangement of blizzard's frames when bars are added to the sides of the screen.
--[LegoBlock](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to create blocks for displaying information.
--[LibCompress](https://github.com/Geigerkind/LibCompressVanilla) - A compression and decompression library implemented entirely in WoW-friendly Lua. It supports the LZW and Huffman algorithms.
--[LibCraftingProfessions-1.0](https://github.com/refaim/LibCraftingProfessions-1.0) - A small library designed to provide a universal interface for crafting professions.
--[LibCrafts-1.0](https://github.com/refaim/LibCrafts-1.0) - A library designed to provide an embeddable database of crafting spells, recipes, reagents, results, sources etc. Supersedes ReagentData, TradeSkillsData and TradeSkillsData-turtle (not as a drop-in replacement; i.e., it is not meant to be installed as an addon! It will be included within addons that require it).
--[LibDataBroker-1.1](https://github.com/tekkub/libdatabroker-1-1) - A library designed to provide a MVC interface for use in various addons.
--[LibDBIcon-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library for creating minimap icons.
--[LibSharedMedia-3.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Shared handling of media data (fonts, sounds, textures, ...) between addons.
--[LibStub](https://github.com/zerosnake0/LibStub) - minimalistic versioning library that allows other libraries to easily register themselves and upgrade. It is meant to be a cross-community library sharing system.
--[LibVendorValue-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library for vendor item values in World of Warcraft 1.12.1.
--[LzwLib-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A simple lua LZW compression library.
--[MD5-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - MD5 (Message-Digest algorithm 5) implementation.
--[Metrognome-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - OnUpdate timer managing library.
--[NPCDB-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide localizations for relevant npcs.
--[OneStorage-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A universal persistent pooled database for bank, inventory, and equipment data.
--[PaintChips-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Color managing library.
--[ParserLib-1.1](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - An embedded combat log parser, which works on all localizations.
--[PeriodicTable and PeriodicTable-2.0 (also Core-2.0 and Misc-2.0)](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Optimized itemid database. Ace alternative to [ReagentData](https://github.com/refaim/ReagentData) library.
--[ProximityLib](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to track raid/party unit's general range.
--[Quixote-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Abstracts out questlog handling.
--[ReagentData](https://github.com/refaim/ReagentData) - comprehensive set of all reagents and components used by trade skills.
-  -Superseded by LibCrafts, which is included in future addons that require it as a library.
--[RosterLib-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - party/raid roster management.
--[Satellite](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A tool for slash command enchancement.
--[SeaString](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A mini-library for string functions.
--[SharedMedia-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Shared handling of media data (fonts, sounds, textures, ...) between addons.
--[Sink-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Library that handles chat output.
--[Sol-1.0](https://github.com/martinjlowm/Sol) - Sol reimplements common Lua functions that are only available in Lua versions post 5.0.
--[SpecialEvents-Aura-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Special events for Aura's, (de)buffs gained, lost etc.
--[SpecialEvents-Bags-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Special events for bag/slot changes.
--[SpecialEvents-Breath-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Special events for player holding breath (swimming).
--[SpecialEvents-Equipped-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Special events for equipment changes.
--[SpecialEvents-Keys-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Special events for modifier (ctrl, alt, shift) keypresses.
--[SpecialEvents-LearnSpell-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Special events for mail (received, auction notices, etc).
--[SpecialEvents-Mail-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Special events for mail (received, auction notices, etc).
--[SpecialEvents-Mount-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Special events for mounting.
--[SpecialEvents-Movement-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Special events for movement.
--[SpellCache-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Library that caches spells to speed up look ups.
--[SpellStatus-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Status library that simplifies retrieving spell status information from the player.
--[SpellStatus-AimedShot-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Addon library for SpellStatus-1.0 to allow support for Hunter's Aimed Shot.
--[SpellTimes-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide buff times and cooldowns for spells.
--[Surface-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Shared handling of StatusBar textures between add ons.
--[Tablet-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide an efficient, featureful tooltip-style display.
--[TEALib-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Tiny Encryption Algorythm implementation.
--[TipLib-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library of common functions to tooltips. Can be used to create a psuedo tooltip.
--[TradeSkillsData](https://github.com/refaim/TradeSkillsData) - provides database of vanilla trade skill recipes, vendors and sources.
-  -Superseded by LibCrafts, which is included in future addons that require it as a library.
--[TradeSkillsData-turtle](https://github.com/refaim/TradeSkillsData-turtle) - turtle-specific database extension for TradeSkillsData.
-  -Superseded by LibCrafts, which is included in future addons that require it as a library.
--[Toolbox-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Collection of various utility functions.
--[Tourist-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide information about zones and instances.
--[Vector-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A simple set of vector libraries.
--[Waterfall-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - GUI configuration library.
+- [Abacus-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide tools for formatting money and time.
+- [Ace2](https://github.com/laytya/Ace2) - embeddable framework for rapid WoW addon development.
+- [Ace3v](https://github.com/laytya/Ace3v) - port of [Ace3 framework](https://www.curseforge.com/wow/addons/ace3) for Vanilla WoW.
+- [AnchorsAway-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Row stacking and anchoring template.
+- [AnimationGroup](https://github.com/martinjlowm/AnimationGroup) - A library to provide Retail-like frame animations.
+- [Babble-Boss-2.0, 2.1, 2.2 and 2.3](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide localizations for bosses.
+- [Babble-Class-2.0, 2.1 and 2.2](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide localizations for classes.
+- [Babble-Faction-2.2](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide localizations for factions.
+- [Babble-Item-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide localizations for items.
+- [Babble-ItemSet-2.2](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide localizations for factions.
+- [Babble-Race-2.0, 2.1 and 2.2](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide localizations for races.
+- [Babble-Spell-2.0, 2.1, 2.2 and 2.3](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide localizations for spells.
+- [Babble-SpellTree-2.0, 2.1 and 2.2](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide localizations for spell and talent trees.
+- [Babble-Zone-2.0, 2.1 and 2.2](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide localizations for zones.
+- [Banzai-1.0 and 1.1](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Aggro notification library.
+- [CallbackHandler-1.0](https://github.com/zerosnake0/CallbackHandler-1.0) - back-end utility library that makes it easy for a library to fire its events to interested parties. It removes the need for addons to be aware of e.g. AceEvent.
+- [CandyBar-2.0](https://github.com/laytya/LibCandyBar) - A timer bars library.
+- [CandyBar-2.1](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A timer bars library.
+- [CastLib-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide information about casts.
+- [ChatThrottleLib](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library that keeps outbound chat and addon communication from exceeding the output rate limit in WoW that otherwise causes players to disconnect from the server.
+- [Chronos](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library that managers time. You can schedule a function to be called in X seconds, with or without an id. You can request a timer, which tracks the elapsed duration since the timer was started.
+- [Classy-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A wrapper for defining classes that inherit from widgets.
+- [CommChannel-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library that manages three communication channels ("guild", "raid" and "sync") and allows addons to use a RPC mechanism.
+- [Compost-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Recycle tables to reduce garbage generation.
+- [Crayon-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide coloring tools.
+- [Deformat-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to deformat format strings.
+- [Dewdrop-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide a clean dropdown menu interface.
+- [DruidManaLib-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide mana values while in shape shift.
+- [FAIAP](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library for syntax highlighting and indentation.
+- [FiveSecLib-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide feedback about the five second rule for casters.
+- [FuBarPlugin-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Plugin for FuBar.
+- [GetSpellInfoVanilla](https://github.com/Schaka/GetSpellInfoVanilla) - addon to help developers access information about spells.
+- [Glory-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library for PvP and Battlegrounds.
+- [GraphLib-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Allows for easy creation of graphs.
+- [Gratuity-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Tooltip parsing library.
+- [HealComm-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide communication of heals and resurrections.
+- [IFrameFactory-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library that helps to create and re-use dynamically created frames.
+- [ItemBonusLib-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library that scans your equipment for cumulative item bonuses and sums them up.
+- [ItemClasses-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A set of classes used to describe and execute usable items/actions (spells, macros, etc...).
+- [Jostle-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to handle rearrangement of blizzard's frames when bars are added to the sides of the screen.
+- [LegoBlock](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to create blocks for displaying information.
+- [LibCompress](https://github.com/Geigerkind/LibCompressVanilla) - A compression and decompression library implemented entirely in WoW-friendly Lua. It supports the LZW and Huffman algorithms.
+- [LibCraftingProfessions-1.0](https://github.com/refaim/LibCraftingProfessions-1.0) - A small library designed to provide a universal interface for crafting professions.
+- [LibCrafts-1.0](https://github.com/refaim/LibCrafts-1.0) - A library designed to provide an embeddable database of crafting spells, recipes, reagents, results, sources etc. Supersedes ReagentData, TradeSkillsData and TradeSkillsData-turtle (not as a drop-in replacement; i.e., it is not meant to be installed as an addon! It will be included within addons that require it).
+- [LibDataBroker-1.1](https://github.com/tekkub/libdatabroker-1-1) - A library designed to provide a MVC interface for use in various addons.
+- [LibDBIcon-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library for creating minimap icons.
+- [LibSharedMedia-3.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Shared handling of media data (fonts, sounds, textures, ...) between addons.
+- [LibStub](https://github.com/zerosnake0/LibStub) - minimalistic versioning library that allows other libraries to easily register themselves and upgrade. It is meant to be a cross-community library sharing system.
+- [LibVendorValue-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library for vendor item values in World of Warcraft 1.12.1.
+- [LzwLib-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A simple lua LZW compression library.
+- [MD5-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - MD5 (Message-Digest algorithm 5) implementation.
+- [Metrognome-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - OnUpdate timer managing library.
+- [NPCDB-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide localizations for relevant npcs.
+- [OneStorage-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A universal persistent pooled database for bank, inventory, and equipment data.
+- [PaintChips-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Color managing library.
+- [ParserLib-1.1](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - An embedded combat log parser, which works on all localizations.
+- [PeriodicTable and PeriodicTable-2.0 (also Core-2.0 and Misc-2.0)](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Optimized itemid database. Ace alternative to [ReagentData](https://github.com/refaim/ReagentData) library.
+- [ProximityLib](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to track raid/party unit's general range.
+- [Quixote-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Abstracts out questlog handling.
+- [ReagentData](https://github.com/refaim/ReagentData) - comprehensive set of all reagents and components used by trade skills.
+  - Superseded by LibCrafts, which is included in future addons that require it as a library.
+- [RosterLib-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - party/raid roster management.
+- [Satellite](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A tool for slash command enchancement.
+- [SeaString](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A mini-library for string functions.
+- [SharedMedia-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Shared handling of media data (fonts, sounds, textures, ...) between addons.
+- [Sink-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Library that handles chat output.
+- [Sol-1.0](https://github.com/martinjlowm/Sol) - Sol reimplements common Lua functions that are only available in Lua versions post 5.0.
+- [SpecialEvents-Aura-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Special events for Aura's, (de)buffs gained, lost etc.
+- [SpecialEvents-Bags-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Special events for bag/slot changes.
+- [SpecialEvents-Breath-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Special events for player holding breath (swimming).
+- [SpecialEvents-Equipped-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Special events for equipment changes.
+- [SpecialEvents-Keys-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Special events for modifier (ctrl, alt, shift) keypresses.
+- [SpecialEvents-LearnSpell-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Special events for mail (received, auction notices, etc).
+- [SpecialEvents-Mail-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Special events for mail (received, auction notices, etc).
+- [SpecialEvents-Mount-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Special events for mounting.
+- [SpecialEvents-Movement-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Special events for movement.
+- [SpellCache-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Library that caches spells to speed up look ups.
+- [SpellStatus-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Status library that simplifies retrieving spell status information from the player.
+- [SpellStatus-AimedShot-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Addon library for SpellStatus-1.0 to allow support for Hunter's Aimed Shot.
+- [SpellTimes-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide buff times and cooldowns for spells.
+- [Surface-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Shared handling of StatusBar textures between add ons.
+- [Tablet-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide an efficient, featureful tooltip-style display.
+- [TEALib-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Tiny Encryption Algorythm implementation.
+- [TipLib-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library of common functions to tooltips. Can be used to create a psuedo tooltip.
+- [TradeSkillsData](https://github.com/refaim/TradeSkillsData) - provides database of vanilla trade skill recipes, vendors and sources.
+  - Superseded by LibCrafts, which is included in future addons that require it as a library.
+- [TradeSkillsData-turtle](https://github.com/refaim/TradeSkillsData-turtle) - turtle-specific database extension for TradeSkillsData.
+  - Superseded by LibCrafts, which is included in future addons that require it as a library.
+- [Toolbox-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - Collection of various utility functions.
+- [Tourist-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A library to provide information about zones and instances.
+- [Vector-2.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - A simple set of vector libraries.
+- [Waterfall-1.0](https://github.com/refaim/Vanilla-WoW-1.12-Addon-Development-Libraries-Archive) - GUI configuration library.
 
 ### Addons In Need of Fixes
 These addons work on normal 1.12 servers, but because of Turtle WoW's changes, these addons are known to suffer lua errors or other serious issues. If you are an addon developer and choose to fix up these addons, please share your fixed fork on the working addons list above.
 
--[Questie](https://github.com/SaxxonPike/Questie-Twow) - A standalone Vanilla QuestHelper. Has far less features than the 2024 Classic version most people know. Completely lacks support for new Turtle quests and changes. [[Vid1](https://www.youtube.com/watch?v=HeH_DHm1Ecg&t)].
-  -Consider instead: pfQuest + pfQuest-turtle
--[ElvUI](https://github.com/ElvUI-Vanilla/ElvUI) - Complete User Interface replacement and overhaul. This is an incomplete backport from later WoW versions. [[Img1](https://user-images.githubusercontent.com/19589902/30231616-62e40f32-94f4-11e7-9712-a32f19719cd8.jpg)]
-  -Consider instead: pfUI + pfUI-turtle
--[MacroExtender](https://github.com/PROXiCiDE/MacroExtender) - allows you to create conditional statement macros that are found in TBC+ and more [[Read](http://proxicide.github.io/MacroExtender/)]
-  -Consider instead: Roid-Macros
+- [Questie](https://github.com/SaxxonPike/Questie-Twow) - A standalone Vanilla QuestHelper. Has far less features than the 2024 Classic version most people know. Completely lacks support for new Turtle quests and changes. [[Vid1](https://www.youtube.com/watch?v=HeH_DHm1Ecg&t)].
+  - Consider instead: pfQuest + pfQuest-turtle
+- [ElvUI](https://github.com/ElvUI-Vanilla/ElvUI) - Complete User Interface replacement and overhaul. This is an incomplete backport from later WoW versions. [[Img1](https://user-images.githubusercontent.com/19589902/30231616-62e40f32-94f4-11e7-9712-a32f19719cd8.jpg)]
+  - Consider instead: pfUI + pfUI-turtle
+- [MacroExtender](https://github.com/PROXiCiDE/MacroExtender) - allows you to create conditional statement macros that are found in TBC+ and more [[Read](http://proxicide.github.io/MacroExtender/)]
+  - Consider instead: Roid-Macros

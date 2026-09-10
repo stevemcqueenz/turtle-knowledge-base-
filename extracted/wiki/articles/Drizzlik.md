@@ -23,7 +23,7 @@ categories: ["Booty Bay characters", "Goblin characters", "Leatherworkers", "Que
 | gender | Male |
 | location | Booty Bay, Stranglethorn Vale |
 
--Drizzlik** is a [goblin](goblin) [quest giver](quest giver) located in [Booty Bay](Booty Bay) in [Stranglethorn Vale](Stranglethorn Vale). He claims to be the 'finest leathercrafter of the [South Seas](South Seas) and the worlds old and new'. He has adventurers help him complete an order for Excelsior-line boots from [Director Riddlevox](Director Riddlevox), though [Gazlowe](Gazlowe) also ordered boots from him. (ref: [quest: The Missing Shipment])
+**Drizzlik** is a [goblin](goblin) [quest giver](quest giver) located in [Booty Bay](Booty Bay) in [Stranglethorn Vale](Stranglethorn Vale). He claims to be the 'finest leathercrafter of the [South Seas](South Seas) and the worlds old and new'. He has adventurers help him complete an order for Excelsior-line boots from [Director Riddlevox](Director Riddlevox), though [Gazlowe](Gazlowe) also ordered boots from him. (ref: [quest: The Missing Shipment])
 
 ## Quests
 - [quest: Supply and Demand] 

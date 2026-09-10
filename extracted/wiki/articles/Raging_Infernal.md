@@ -22,7 +22,7 @@ categories: ["Crescent Grove mobs", "Infernals", "Turtle WoW content"]
 | creature | Demon |
 | location | The Crescent Grove |
 
--Raging Infernals** are infernals located in the [Crescent Grove](Crescent Grove).
+**Raging Infernals** are infernals located in the [Crescent Grove](Crescent Grove).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

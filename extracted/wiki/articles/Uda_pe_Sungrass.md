@@ -24,7 +24,7 @@ categories: ["Balor NPCs", "Grimtotem clan", "Quest givers", "Tauren characters"
 | location | Stormbreaker Point, Balor |
 | status | Alive |
 
--Uda'pe Sungrass** is a [tauren](tauren) [quest giver](quest giver) located at [Stormbreaker Point](Stormbreaker Point) in [Balor](Balor).
+**Uda'pe Sungrass** is a [tauren](tauren) [quest giver](quest giver) located at [Stormbreaker Point](Stormbreaker Point) in [Balor](Balor).
 
 ## Quests
 - [quest: Grim Sunlight] 
@@ -33,7 +33,7 @@ categories: ["Balor NPCs", "Grimtotem clan", "Quest givers", "Tauren characters"
 - [quest: The Matron Will Know] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I do not feel the gaze of the Earthmother upon this island. The weather here is ever grim, with no sight of An'she, Mu'sha or even Lo'sho. Foul magic is at play, and it must be met with fury. The winds guided me here at first for something as simple as mere proof of good faith from our matron.
 
 Yet, the longer I am lost to the warm touch of An'she, the more rage fills my very being. I hold neither love nor hatred for you or our current allies, child of the Horde. But I will not stand for this. These fel-ridden fleas must no longer deny this haunted place its sun.

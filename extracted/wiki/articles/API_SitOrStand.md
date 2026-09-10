@@ -14,23 +14,23 @@ The player sits or stands.
  SitOrStand();
 ----
 
-  - *Arguments***
+** *Arguments***
 
    *none*
 
 ----
 
-  - *Returns***
+** *Returns***
 
   ; nil
 
 ----
 
-  - *Example***
+** *Example***
 
  SitOrStand();
 
-  - *Result***
+** *Result***
    The player sits or stands.
 
 ## Addon

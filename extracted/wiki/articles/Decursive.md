@@ -13,7 +13,7 @@ categories: ["Addon"]
 Decursive is a lightweight addon designed to help players efficiently remove debuffs (poisons, diseases, curses, magic effects) from themselves and allies. It automates the cleansing process, making it faster and more reliable during raids, parties, or solo play.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **Decursive** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **Decursive** up to date is by using [GitAddonsManager](
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -82,12 +82,12 @@ Decursive:
 ## Actions
 Actions you can take
 
-  -In the live list**
+**In the live list**
 - Left-Clicking on a name will cure that name without changing your target.
 - Right-Clicking on a name will target that name and cure the target.
-  -In main DCR bar**
+**In main DCR bar**
 - Right-Clicking on the label "Decursive" will hide the buttons and lock the frame and the live-list.
-  -In WOW key binding interface**
+**In WOW key binding interface**
 - You can bind a lot of things to keys under "Decursive" section.
 
 ## Options

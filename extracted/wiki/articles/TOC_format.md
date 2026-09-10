@@ -52,7 +52,7 @@ This metatag is to force the WoW client to only load this AddOn if a functional 
 Alternativly you could also use:
  ## RequiredDeps: someAddOn, someOtherAddOn
 
-  -Note**: *Dependencies*, *RequiredDeps*, and  *Dependancies* [sic] all give the same result.
+**Note**: *Dependencies*, *RequiredDeps*, and  *Dependancies* [sic] all give the same result.
 
 ## OptionalDeps
 Optional dependencies are external libraries or AddOns which can be used by the AddOn to use and implement their functionality if they exist. If the optional dependencies are not found on the system, the AddOn will continue to function, however, the AddOn using Optional dependencies must be written to work without these dependencies in order for the AddOn to function without them. 

@@ -27,14 +27,14 @@ categories: ["Bosses", "Deadmines mobs", "Harvest golems", "Turtle WoW content"]
 The **Masterpiece Harvester** is a boss in the [Deadmines](Deadmines).
 
 ## Quotes
-  -Aggro**
+**Aggro**
   Conducting routine sub-measure 3b, KILL!
 
-  -Death**
+**Death**
   Core power unresponsive... R-r-restoring backup... Failure...
 
 ## Objective of
--  [19D] [The Harvest Golem Mystery](The Harvest Golem Mystery (9))
+- [19D] [The Harvest Golem Mystery](The Harvest Golem Mystery (9))
 
 ## Loot
 - [Craftsman's Pants](Craftsman's Pants)

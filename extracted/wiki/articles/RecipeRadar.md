@@ -29,45 +29,45 @@ When you get in game, you may want to map a key to toggle Recipe Radar. You shou
 - [laytya](https://github.com/laytya) (vanilla port)
 
 ## ChangeLog
-  -v1.15.1; 22.10.2022**
+**v1.15.1; 22.10.2022**
 
 - Fixed minimap button placing.
 
-  -v1.15; 3.02.2017**
+**v1.15; 3.02.2017**
 
 - Added square minimaps support for icons on minimap & for minimapbutton
 - Fixed first startup errors
 - More support for MBB
 
-  -v1.14; 2.02.2017**
+**v1.14; 2.02.2017**
 
 - Added MBB compatibility (better mini-map button management),
 - Added RUru localization by Maus.
 - Backported some fixes from original 1.14 release.
 
-  -v1.11; September 18, 2006**
+**v1.11; September 18, 2006**
 
 - Fixed item linking bug (thank you, TDurden!).
 - Fixed a bug that could occur for unlucky Dragonscale/Elemental LW'ers and Armorsmiths (thank you, Arilaw!).
 
-  -v1.10; September 16, 2006**
+**v1.10; September 16, 2006**
 
 - I'd forgotten to enable specialization checking!  It should now work.
 - Auctioneer and Recipe Book are now supported in the recipe icon mouseover.  Thanks very much to borohir for this functionality!
 
-  -v1.9; September 5, 2006**
+**v1.9; September 5, 2006**
 
 - Recipes names are now cached when learned.  This should make new Blizzard patches less of a hassle.
 - Availability checking now takes faction reputation and trade skill specialties into account.
 - Adjusted some vendor information.
 - Reduced memory usage significantly.
 
-  -v1.8; July 11, 2006**
+**v1.8; July 11, 2006**
 
 - Several new German region names were missing in v1.7.  Hopefully they are all correct now.
 - Adjusted some vendor information.
 
-  -v1.7; June 24, 2006**
+**v1.7; June 24, 2006**
 
 - Fixed the nasty profession selection bug for non-English versions.
 - Profession icons should now show up for non-English versions.
@@ -76,7 +76,7 @@ When you get in game, you may want to map a key to toggle Recipe Radar. You shou
 - Added the new 1.11 Cenarion Circle recipes.
 - Several vendors were incorrectly marked as Alliance-only (thank you, Howlin!).
 
-  -v1.6; June 21, 2006**
+**v1.6; June 21, 2006**
 
 - Added a right-click context menu to the scroll frame.  From this
 - Menu users can map vendors and expand/collapse all items.
@@ -85,7 +85,7 @@ When you get in game, you may want to map a key to toggle Recipe Radar. You shou
 - Adjusted the German translation.
 - Adjusted some vendor locations.
 
-  -v1.5; May 11, 2006**
+**v1.5; May 11, 2006**
 
 - All recipes that are named differently after learning (eg. transmutes)
 - Should now show up correctly as known or not.  This applies, in theory, to all locales.
@@ -96,7 +96,7 @@ When you get in game, you may want to map a key to toggle Recipe Radar. You shou
 - Fixed the incompatibility with Metamap, more or less.
 - Tweaked the German translation and some vendor locations.
 
-  -v1.4; May 7, 2006**
+**v1.4; May 7, 2006**
 
 - Revised German translation (thanks to DJMars and Elkano!).
 - Drop-down filters are now effected every time Recipe Radar is opened.
@@ -108,13 +108,13 @@ When you get in game, you may want to map a key to toggle Recipe Radar. You shou
 - Several others.
 - Enchant Bracer - Healing should now show up correctly as known or not.
 
-  -v1.3; April 29, 2006**
+**v1.3; April 29, 2006**
 
 - Fixed a bug that was preventing about half of the maps from displaying
--  On non-English clients.
+- On non-English clients.
 - Adjusted some vendor locations.
 
-  -v1.2; April 28, 2006**
+**v1.2; April 28, 2006**
 
 - Fixed chat message parsing bugs in non-English versions.
 - Added an option to auto-map (but not auto-unmap!) contributive vendors.
@@ -122,7 +122,7 @@ When you get in game, you may want to map a key to toggle Recipe Radar. You shou
 - Changed the '/rr' slash command to '/rrdr'.
 - Map tool-tips will hopefully no longer run off the screen.
 
-  -v1.1; April 27, 2006**
+**v1.1; April 27, 2006**
 
 - Added support for the frFR locale. (I hope it works..)
 - Added the ability to view regions other than the current region.  The
@@ -132,4 +132,4 @@ When you get in game, you may want to map a key to toggle Recipe Radar. You shou
 - Now accounting for WoW's "Mithril Head Trout" bug - it should now show
 - Up correctly as known or not.
 
-  -v1.0; April 24, 2006**
+**v1.0; April 24, 2006**

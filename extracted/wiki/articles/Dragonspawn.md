@@ -21,6 +21,6 @@ Also known as:
 - Scalebane
 
 ### Noteworthy Dragonspawn
--[General Drakkisath](General Drakkisath)
--[Overlord Wyrmthalak](Overlord Wyrmthalak)
--[[Razorgore the Untamed]'
+- [General Drakkisath](General Drakkisath)
+- [Overlord Wyrmthalak](Overlord Wyrmthalak)
+- [[Razorgore the Untamed]'

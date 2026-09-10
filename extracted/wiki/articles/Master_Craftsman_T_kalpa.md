@@ -25,14 +25,14 @@ categories: ["Draenei characters", "Leatherworking trainers", "Moonwhisper Coast
 | location | Moro'gai Village, Moonwhisper Coast |
 | status | Alive |
 
--Master Craftsman T'kalpa** is a [draenei](draenei) leatherworking trainer located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Master Craftsman T'kalpa** is a [draenei](draenei) leatherworking trainer located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: profession=Leatherworking] 
 - [quest: profession=Leatherworking] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The draenei possess eons of ancient leatherworking techniques, passed down from generation to generation. Our profound ways of working with skin and hide remain unmatched, even in this new and foreign world. If you have the needed confidence in your trade skill, then allow me to test your mettle with our very own trials.
 
 ## Patch changes

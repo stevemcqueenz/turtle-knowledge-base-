@@ -13,7 +13,7 @@ categories: ["Addon"]
 A powerful click-casting interface that allows you to assign spells, macros, or Lua scripts to mouse buttons and modifiers for quick and easy casting during gameplay.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **Clique** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **Clique** up to date is by using [GitAddonsManager](Git
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -35,26 +35,26 @@ If you prefer manual installation, follow these steps:
 - [**(shagu)**](https://github.com/shagu/Clique) - normal version
 
 ## Instructions
-  -Opening the Clique Interface**
+**Opening the Clique Interface**
 - **Toggle the Clique window:** Click the small pullout tab near your spellbook
-  -Adding a Spell or Script**
+**Adding a Spell or Script**
 # **Open Clique window** by clicking the pullout tab.
 # **Click on a spell** in your spellbook to add it to your list. (click it with the modifiers you want to use)
 # **Configure modifiers and buttons:**
-1.* Use Alt, Control, Shift keys along with mouse buttons (Left, Right, Middle, Button4, Button5).
+1. * Use Alt, Control, Shift keys along with mouse buttons (Left, Right, Middle, Button4, Button5).
 # **Save your binding:**
-1.* The spell or script will now trigger when you click the bound button with modifiers during gameplay.
-  -Editing Bindings**
+1. * The spell or script will now trigger when you click the bound button with modifiers during gameplay.
+**Editing Bindings**
 - Select an entry in the list to edit (double click on it).
 - Click **Edit** to modify the spell, script, or binding.
 - Use the **Max Rank** button to always cast the highest rank of a spell.
-  -Deleting Bindings**
+**Deleting Bindings**
 - Select an entry and click **Delete** to remove it from your list.
-  -Creating Custom Scripts**
+**Creating Custom Scripts**
 - Use the **New** button to add a custom Lua script.
 - Right-click in the script editor for a list of helper functions.
 - Save your script to bind it to a click.
-  -Spell Binding & Rank Handling**
+**Spell Binding & Rank Handling**
 - Bind spells directly from your spellbook.
 - Clique automatically selects the highest rank appropriate for the target based on your spellbook.
 - You can override this with the **Max Rank** button for specific bindings.
@@ -63,7 +63,7 @@ If you prefer manual installation, follow these steps:
 - Write Lua code to perform complex actions.
 - Scripts can refer to <code>Clique.unit</code> (the current target or unit you clicked).
 
-  -Example**:<syntaxhighlight lang="lua">
+**Example**:<syntaxhighlight lang="lua">
 if Clique:IsBuffActive("Power Word: Shield") then
     -- do something
 else
@@ -71,7 +71,7 @@ else
 end
 </syntaxhighlight>
 
-  -Custom Script functions**
+**Custom Script functions**
 {| class="fandom-table"
 !Function Name
 !Description

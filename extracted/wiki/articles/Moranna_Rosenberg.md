@@ -25,7 +25,7 @@ categories: ["Gilneas (kingdom)", "Gilneas NPCs", "Human characters", "Quest giv
 | location | Hollow Web Cemetery, Gilneas |
 | status | Alive |
 
--Moranna Rosenberg** is a [human](human) [quest giver](quest giver) located in the crypt at the [Hollow Web Cemetery](Hollow Web Cemetery) in [Gilneas](Gilneas). She is the leader of the [Lupine Coven](Lupine Coven), an order that seeks power and healthiness beyond what the human body is capable of, and to that end have accepted the worgen curse. (ref: [quest: Vilest of Men])
+**Moranna Rosenberg** is a [human](human) [quest giver](quest giver) located in the crypt at the [Hollow Web Cemetery](Hollow Web Cemetery) in [Gilneas](Gilneas). She is the leader of the [Lupine Coven](Lupine Coven), an order that seeks power and healthiness beyond what the human body is capable of, and to that end have accepted the worgen curse. (ref: [quest: Vilest of Men])
 
 ## Quests
 - [quest: Dim Light in the Darkness] 

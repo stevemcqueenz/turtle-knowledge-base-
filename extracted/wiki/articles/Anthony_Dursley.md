@@ -25,10 +25,10 @@ categories: ["Human characters", "Turtle WoW content", "Wetlands NPCs"]
 | status | Alive |
 | relatives | Robb Dursley |
 
--Anthony Dursley** is a [human](human) located in the town of [Hawk's Vigil](Hawk's Vigil) in the [Wetlands](Wetlands).
+**Anthony Dursley** is a [human](human) located in the town of [Hawk's Vigil](Hawk's Vigil) in the [Wetlands](Wetlands).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I lived in [Dire Maul](Dire Maul) for a little bit. That was fun. Really.
 
 ## Speculation

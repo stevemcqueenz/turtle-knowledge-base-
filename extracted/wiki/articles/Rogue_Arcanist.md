@@ -23,7 +23,7 @@ categories: ["Human characters", "Tirisfal Glades mobs", "Turtle WoW content"]
 | gender | Both |
 | location | The Rogue Heights, Tirisfal Glades |
 
--Rogue Arcanists** are humans found at the [Rogue Heights](Rogue Heights) in [Tirisfal Glades](Tirisfal Glades). Ostensibly part of a group of Rogue Wizards, the Arcanists are part of a covert [Kirin Tor](Kirin Tor) group led by [Magister Salorn](Magister Salorn) checking the Forsaken in their expansion within the [Tirisfal Uplands](Tirisfal Uplands).
+**Rogue Arcanists** are humans found at the [Rogue Heights](Rogue Heights) in [Tirisfal Glades](Tirisfal Glades). Ostensibly part of a group of Rogue Wizards, the Arcanists are part of a covert [Kirin Tor](Kirin Tor) group led by [Magister Salorn](Magister Salorn) checking the Forsaken in their expansion within the [Tirisfal Uplands](Tirisfal Uplands).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

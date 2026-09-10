@@ -22,7 +22,7 @@ categories: ["Gorillas", "Lapidis Isle mobs", "Tenacity beasts", "Turtle WoW con
 | location | Lapidis Isle |
 | pet | Gorilla |
 
--Jungleback Thrashers** are gorillas found in [Lapidis Isle](Lapidis Isle).
+**Jungleback Thrashers** are gorillas found in [Lapidis Isle](Lapidis Isle).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

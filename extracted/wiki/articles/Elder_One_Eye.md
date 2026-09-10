@@ -23,7 +23,7 @@ categories: ["Crescent Grove mobs", "Furbolg characters", "Turtle WoW content"]
 | creature | Humanoid |
 | location | The Crescent Grove |
 
--Elder 'One Eye**' is a furbolg of the Groveweald tribe located in the [Crescent Grove](Crescent Grove) that accompanies [Grovetender Engryss](Grovetender Engryss) alongside [Elder Blackmaw](Elder Blackmaw).
+**Elder 'One Eye**' is a furbolg of the Groveweald tribe located in the [Crescent Grove](Crescent Grove) that accompanies [Grovetender Engryss](Grovetender Engryss) alongside [Elder Blackmaw](Elder Blackmaw).
 
 ## Abilities
 - Chain Heal

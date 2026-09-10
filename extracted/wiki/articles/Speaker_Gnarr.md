@@ -23,7 +23,7 @@ categories: ["Crescent Grove mobs", "Furbolg characters", "Turtle WoW content"]
 | creature | Humanoid |
 | location | The Crescent Grove |
 
--Speaker Gnarr** is a furbolg of the Groveweald tribe located in the [Crescent Grove](Crescent Grove).
+**Speaker Gnarr** is a furbolg of the Groveweald tribe located in the [Crescent Grove](Crescent Grove).
 
 ## Trivia
 - Attacking Speaker Gnarr will result in the character being flagged for PvP.

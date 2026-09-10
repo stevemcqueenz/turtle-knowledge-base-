@@ -10,6 +10,6 @@ categories: ["Kobold territories", "Pages with broken file links", "Stonetalon M
 ---
 # Boulderslide Ravine
 
--Boulderslide Ravine** is a small ravine that is most notable for leading into [Boulderslide Cavern](Boulderslide Cavern). [65, 91] It is accessible from [Webwinder Path](Webwinder Path). It is mostly untouched by the nearby warring forces, and is populated by rams and the occasional [Cliff Stormer](Cliff Stormer). It often contains [mining](mining) nodes.
+**Boulderslide Ravine** is a small ravine that is most notable for leading into [Boulderslide Cavern](Boulderslide Cavern). [65, 91] It is accessible from [Webwinder Path](Webwinder Path). It is mostly untouched by the nearby warring forces, and is populated by rams and the occasional [Cliff Stormer](Cliff Stormer). It often contains [mining](mining) nodes.
 
 There is a small abandoned cave opposite the ravine from Boulderslide Cavern. It contains several barrels and is lit by crude torches. The walls are decorated with tribal art that may be that of the [tauren](tauren).

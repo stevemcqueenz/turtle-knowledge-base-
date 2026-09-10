@@ -13,7 +13,7 @@ categories: ["Addon"]
 Atlas provides detailed maps of dungeons, raids, world bosses, transport routes, and more
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **Atlas** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **Atlas** up to date is by using [GitAddonsManager](GitA
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -30,7 +30,7 @@ If you prefer manual installation, follow these steps:
 # Unpack the <code>.zip</code> and rename the folder to Atlas, removing the <code>-master</code> suffix.
 # Move the folder into your <code>Interface/AddOns</code> directory and restart the game.
 
-  -Recommended:**
+**Recommended:**
 - **[AtlasLoot](AtlasLoot)**
 - **[AtlasQuest](AtlasQuest)**
 

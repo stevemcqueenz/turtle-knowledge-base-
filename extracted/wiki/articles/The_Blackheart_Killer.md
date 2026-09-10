@@ -47,9 +47,9 @@ Have you found the necklace?
 I must thank you for recovering this. It certainly does mean a lot to me.
 
 ## Progression
-1.[quest: Greymane Hatred]
-1.[quest: The Blackheart Killer]
-1.[quest: In Memory of Franklin]
+1. [quest: Greymane Hatred]
+1. [quest: The Blackheart Killer]
+1. [quest: In Memory of Franklin]
 
 ## Patch changes
 - (Patch 1.17.0|note=Added.)

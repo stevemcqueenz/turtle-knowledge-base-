@@ -25,7 +25,7 @@ categories: ["Dalaran (kingdom)", "Gilneas NPCs", "Human characters", "Kirin Tor
 | location | Ravenshire, Gilneas |
 | status | Alive |
 
--Magus Orelius** is a [human](human) [quest giver](quest giver) located in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
+**Magus Orelius** is a [human](human) [quest giver](quest giver) located in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
 
 ## Quests
 - [quest: Font of Arcana] 
@@ -34,7 +34,7 @@ categories: ["Dalaran (kingdom)", "Gilneas NPCs", "Human characters", "Kirin Tor
 - [quest: Undoing Draconic Presence] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 With the Greymane displeasure for the Kirin Tor I never expected to be here within Gilneas helping the people.
 
 These are strange times, full of strange events. I am here to offer my assistance, and act as an envoy from the City State of Dalaran.

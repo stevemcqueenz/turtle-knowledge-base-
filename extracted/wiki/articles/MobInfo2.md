@@ -10,10 +10,10 @@ categories: ["Addon"]
 ---
 # MobInfo2
 
--MobInfo-2** provides detailed information about [mobs](Mob) (monsters and opponents) you encounter. It enhances the standard game tooltip and the target frame with valuable data collected as you play.
+**MobInfo-2** provides detailed information about [mobs](Mob) (monsters and opponents) you encounter. It enhances the standard game tooltip and the target frame with valuable data collected as you play.
 
 ## Installation
-  -GitAddonsManager (Recommended)**
+**GitAddonsManager (Recommended)**
 
 The easiest way to keep MobHealth2 up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep MobHealth2 up to date is by using [GitAddonsManager](Git
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -32,12 +32,12 @@ If you prefer manual installation, follow these steps:
 
 - Start fighting mobs. You will begin to see health on the target frame and information in the tooltip after killing and looting.
 
-  -Important Note:** 
+**Important Note:** 
 
 - If you have [Shagutweaks](ShaguTweaks) you can turn off everything in the health/mana tab in the MobHealth2 options menu as these features come with it.
 - If you were previously using a separate MobHealth addon (like the original MobHealth or MobHealth2), it is recommended to disable or remove it as MobInfo-2 includes this functionality.
 
-  -Optional**: [MobInfo2 Browser](https://github.com/xVitali2/Addons-for-Vanilla-1.12.1/tree/master/MobInfo2_Browser)
+**Optional**: [MobInfo2 Browser](https://github.com/xVitali2/Addons-for-Vanilla-1.12.1/tree/master/MobInfo2_Browser)
 
 ## Git Links
 - [**(robs898)**](https://github.com/robs898/MobInfo2)
@@ -295,7 +295,7 @@ MobInfo-2 offers several features to enhance your gameplay experience:
 ## Data Collected and Displayed
 MobInfo-2 collects various data points for each mob you encounter. This data is displayed in the tooltip or used for calculations. Some stats are stored per character, while others are global.
 
-  -General Mob Information:**
+**General Mob Information:**
 
 - Class
 - Health (Current and Total)
@@ -307,13 +307,13 @@ MobInfo-2 collects various data points for each mob you encounter. This data is 
 - Attempts to Run (If the mob attempts to flee when low on health)
 - Mob Type (Normal, Rare/Elite, Boss)
 
-  -Player-Specific Information (Stored per character):**
+**Player-Specific Information (Stored per character):**
 
 - Damage (Min/Max damage range the mob deals to you)
 - DPS (Your damage per second against the mob)
 - Kills (Number of times you've killed this mob)
 
-  -Loot Information:**
+**Loot Information:**
 
 - Total Looted (Number of times you have looted the mob)
 - Empty Loots (Number of times the mob had no loot)
@@ -334,7 +334,7 @@ MobInfo-2 can show the exact numeric and percentage health and mana values on th
 ## Importing an External Database
 MobInfo-2 allows you to import databases from other users or older MobHealth versions.
 
-  -Important Warning:** The database you import **MUST** be from someone using the exact same World of Warcraft client language (localization) as you. Importing a database from a different language client will not work and may corrupt your existing database. The Lua code specifically checks for locale compatibility during import.
+**Important Warning:** The database you import **MUST** be from someone using the exact same World of Warcraft client language (localization) as you. Importing a database from a different language client will not work and may corrupt your existing database. The Lua code specifically checks for locale compatibility during import.
 
 Before importing, always back up your own MobInfo-2 database (see above).
 
@@ -355,7 +355,7 @@ To import:
 ## Converting a DropRate Database
 MobInfo-2 can convert data from an older DropRate addon database. This requires an additional item database addon to be installed and active during the conversion.
 
-  -Mandatory Requirement:** You must have one of the following item database addons installed and active for the conversion to work: [ItemSync](ItemSync), [LootLink](LootLink), [LootLink Enhanced](LootLink Enhanced), or [KS_Items](KS_Items). These addons are needed to convert item names (used by DropRate) into item ID codes (used by MobInfo-2). LootLink is recommended due to the availability of large pre-built databases.
+**Mandatory Requirement:** You must have one of the following item database addons installed and active for the conversion to work: [ItemSync](ItemSync), [LootLink](LootLink), [LootLink Enhanced](LootLink Enhanced), or [KS_Items](KS_Items). These addons are needed to convert item names (used by DropRate) into item ID codes (used by MobInfo-2). LootLink is recommended due to the availability of large pre-built databases.
 
 To perform the conversion:
 
@@ -367,7 +367,7 @@ To perform the conversion:
 # If the conversion was successful and you are satisfied, you can leave things as they are. If many items were not converted, consider obtaining a larger item database and repeating the process (the converter will only process data still remaining in the DropRate database).
 # If the conversion encountered errors or you are unhappy with the result, restore your backups of MobInfo2.lua and DropRate.lua (after exiting WoW).
 
-  -Important Note:** You should **NEVER** have both DropRate and MobInfo-2 active during normal gameplay, except for the specific purpose of performing the conversion. Having both active will lead to incorrect data collection and potentially double-counting data during conversion.
+**Important Note:** You should **NEVER** have both DropRate and MobInfo-2 active during normal gameplay, except for the specific purpose of performing the conversion. Having both active will lead to incorrect data collection and potentially double-counting data during conversion.
 
 ## Frequently Asked Questions
 - **Where do the health values come from? Why do max health values change at first?**

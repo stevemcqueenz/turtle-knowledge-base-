@@ -20,7 +20,7 @@ categories: ["Dalaran (kingdom)", "Human characters", "Lore characters", "Mage c
 | faction | Alliance |
 | status | Unknown |
 
--Drenden** was a [human](human) archmage and a member of the [Council of Six](Council of Six), the rulers of the [Kirin Tor](Kirin Tor) of [Dalaran](Dalaran). He played a small role in investigating [Deathwing](Deathwing)'s activities in the lead-up to the [Battle of Grim Batol](Battle of Grim Batol). Drenden's fate following the siege of Dalaran and its subsequent destruction in the Third War is unknown.
+**Drenden** was a [human](human) archmage and a member of the [Council of Six](Council of Six), the rulers of the [Kirin Tor](Kirin Tor) of [Dalaran](Dalaran). He played a small role in investigating [Deathwing](Deathwing)'s activities in the lead-up to the [Battle of Grim Batol](Battle of Grim Batol). Drenden's fate following the siege of Dalaran and its subsequent destruction in the Third War is unknown.
 
 ## Biography
 ### Day of the Dragon

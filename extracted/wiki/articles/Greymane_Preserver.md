@@ -24,7 +24,7 @@ categories: ["Gilneas mobs", "Human characters", "Turtle WoW content"]
 | location | Freyshear Keep, Gilneas |
 | status | Killable |
 
--Greymane Preservers** are humans found at [Freyshear Keep](Freyshear Keep) in [Gilneas](Gilneas).
+**Greymane Preservers** are humans found at [Freyshear Keep](Freyshear Keep) in [Gilneas](Gilneas).
 
 ## Quotes
 - You won't leave here alive, outsider!

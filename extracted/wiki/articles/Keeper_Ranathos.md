@@ -25,19 +25,19 @@ categories: ["Bosses", "Crescent Grove mobs", "Keepers of the grove", "Turtle Wo
 | status | Killable |
 | instance | Crescent Grove |
 
--Keeper Ranathos** is a [keeper of the grove](keeper of the grove) boss in [the Crescent Grove](Crescent Grove). He was originally tasked with containing the taint within the Crescent Grove leaking out of [Vilethorn Scar](Vilethorn Scar), but has fallen to the corruption, still believing that he is fighting to protect the grove.
+**Keeper Ranathos** is a [keeper of the grove](keeper of the grove) boss in [the Crescent Grove](Crescent Grove). He was originally tasked with containing the taint within the Crescent Grove leaking out of [Vilethorn Scar](Vilethorn Scar), but has fallen to the corruption, still believing that he is fighting to protect the grove.
 
 ## Abilities
 - Wrath
 
 ## Quotes
-  -Aggro**
+**Aggro**
   What? Who...Who are you? They wouldn't send you! Ancients, to my side!
 
-  -At 50%**
+**At 50%**
   The Grove must be protected! You won't stop me!
 
-  -Death**
+**Death**
   We must.. Stop.. The shadow...
 
 ## Loot

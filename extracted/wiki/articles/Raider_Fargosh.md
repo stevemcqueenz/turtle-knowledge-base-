@@ -27,7 +27,7 @@ categories: ["Blackrock clan", "Burning Steppes NPCs", "Orc characters", "Quest 
 | status | Alive |
 | companions | Skullshatter |
 
--Raider Fargosh** is an [orc](orc) [quest giver](quest giver) located in [Karfang Hold](Karfang Hold) in the [Burning Steppes](Burning Steppes).
+**Raider Fargosh** is an [orc](orc) [quest giver](quest giver) located in [Karfang Hold](Karfang Hold) in the [Burning Steppes](Burning Steppes).
 
 ## Quests
 - [quest: Raider's Revenge] 
@@ -35,7 +35,7 @@ categories: ["Blackrock clan", "Burning Steppes NPCs", "Orc characters", "Quest 
 - [quest: Raider's Raid] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I rode across many battlefields and slain countless foes, but only now do I feel caution for what lies ahead. I trust Karfang with every ounce of my blood, but I do not know if we share the same values as this 'New Horde' across the world.
 
 Perhaps it is truly for the best, and perhaps it may be our downfall. We shall see in time.

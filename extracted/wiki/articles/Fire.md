@@ -10,10 +10,10 @@ categories: ["Addon"]
 ---
 # Fire
 
--Fire** is an in-game Lua debugger and runtime inspector.
+**Fire** is an in-game Lua debugger and runtime inspector.
 
 ## Installation
-  -Manual Installation Only**
+**Manual Installation Only**
 
 # Download this zip: **[Cosmos_Devtools.zip](https://web.archive.org/web/20061205102638if_/http://www.cosmosui.org:80/files/distros/Cosmos_Devtools.zip)**
 # Unpack the <code>.zip</code> and move these files into your <code>Interface/AddOns</code> directory and restart the game.
@@ -22,7 +22,7 @@ categories: ["Addon"]
 - **Sea**
 - **Earth**
 
-  -Optional**:
+**Optional**:
 
 - **Chronos** (delayed focus & scheduling)
 - **Sky** (slash command registration)

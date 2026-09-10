@@ -10,4 +10,4 @@ categories: ["Felwood subzones", "Kalimdor", "Pages with broken file links", "Wa
 ---
 # Bloodvenom Falls
 
--Bloodvenom Falls** is a corrupted waterfall high in [Felwood](Felwood). It is the source of the [Bloodvenom River](Bloodvenom River). The corruption of the Falls is carried beyond Felwood, as the Bloodvenom River cascades down the mountains to become the tainted [Wildbend River](Wildbend River) in [Darkshore](Darkshore).
+**Bloodvenom Falls** is a corrupted waterfall high in [Felwood](Felwood). It is the source of the [Bloodvenom River](Bloodvenom River). The corruption of the Falls is carried beyond Felwood, as the Bloodvenom River cascades down the mountains to become the tainted [Wildbend River](Wildbend River) in [Darkshore](Darkshore).

@@ -24,10 +24,10 @@ categories: ["Human characters", "Moonwhisper Coast NPCs", "Turtle WoW content"]
 | gender | Male |
 | location | Moonwhisper Coast |
 
--Pysan the Righteous** is a [human](human) located in [Moonwhisper Coast](Moonwhisper Coast).
+**Pysan the Righteous** is a [human](human) located in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I am the great Pysan!
 
 Known far and wide as the Righteous to my allies, and the Vengeant to my enemies! I have battled dragons atop mountains, rescued maidens from towers both high and precarious, and struck down evildoers too numerous to count!

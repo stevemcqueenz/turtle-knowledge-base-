@@ -25,10 +25,10 @@ categories: ["Human characters", "Northwind NPCs", "Stormwind (kingdom)", "Turtl
 | status | Alive |
 | relatives | Sheena Justino |
 
--Rutherford Justino** is a [human](human) located at [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind). He was present at a council meeting with [Lord Amberwood](Lord Amberwood), [Sir Hans Dale](Sir Hans Dale) and [Custodian Lambert](Custodian Lambert), where at Lambert's behest Lord Amberwood sent word out to any adventurers who could aid Northwind in the dark hours of the [Blackrock](Blackrock clan) and [Dark Iron](Dark Iron dwarf) incursions. (ref: [THE HIDDEN AREA BETWEEN STORMWIND AND IRONFORGE: Northwind Zone Trailer — Turtle WoW Patch 1.18](https://www.youtube.com/watch?v=vIuS0DXGY6Y))
+**Rutherford Justino** is a [human](human) located at [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind). He was present at a council meeting with [Lord Amberwood](Lord Amberwood), [Sir Hans Dale](Sir Hans Dale) and [Custodian Lambert](Custodian Lambert), where at Lambert's behest Lord Amberwood sent word out to any adventurers who could aid Northwind in the dark hours of the [Blackrock](Blackrock clan) and [Dark Iron](Dark Iron dwarf) incursions. (ref: [THE HIDDEN AREA BETWEEN STORMWIND AND IRONFORGE: Northwind Zone Trailer — Turtle WoW Patch 1.18](https://www.youtube.com/watch?v=vIuS0DXGY6Y))
 
 ## Quotes
-  -Gossip**
+**Gossip**
 By the Light, my patience runs dry. Is this kingdom suddenly plagued by complete incompetence?!
 
 ## Patch changes

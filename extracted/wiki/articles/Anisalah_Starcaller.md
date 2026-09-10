@@ -25,4 +25,4 @@ categories: ["Darnassus NPCs", "Faction quartermasters", "Night elf characters"]
 | location | Warrior's Terrace, Darnassus |
 | status | Alive |
 
--Anisalah Starcaller** is the quartermaster for [Darnassus](Darnassus (faction)) and is located in the [Warrior's Terrace](Warrior's Terrace) in [Darnassus](Darnassus).
+**Anisalah Starcaller** is the quartermaster for [Darnassus](Darnassus (faction)) and is located in the [Warrior's Terrace](Warrior's Terrace) in [Darnassus](Darnassus).

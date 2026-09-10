@@ -23,7 +23,7 @@ categories: ["Lashers", "Stormwrought Ruins mobs", "Turtle WoW content"]
 | location | Stormwrought Ruins |
 | status | Killable |
 
--Rotgrip Stranglers** are [lasher](lasher)s located in [Stormwrought Ruins](Stormwrought Ruins).
+**Rotgrip Stranglers** are [lasher](lasher)s located in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Abilities
 - Cleave

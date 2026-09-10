@@ -29,48 +29,14 @@ Former residents of [Tinker Town](Tinker Town) in [Ironforge](Ironforge) have re
 
 ## Travel connections
 ### Flight
-  - [Ironforge](Ironforge), [Dun Morogh](Dun Morogh)**
+** [Ironforge](Ironforge), [Dun Morogh](Dun Morogh)**
 
 ## Inhabitants
 ### Quest givers
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-### Goods and services
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-### Trainers
-- 
-- 
-
-### Additional characters
-- 
-- 
-- 
-- 
-- 
-- 
-
-## Notes and trivia
+- - - - - - - - - - - - - ### Goods and services
+- - - - - - - - - ### Trainers
+- - ### Additional characters
+- - - - - - ## Notes and trivia
 - Mounting is not allowed inside the Gnomeregan Reclamation Facility.
 
 ## Patch changes

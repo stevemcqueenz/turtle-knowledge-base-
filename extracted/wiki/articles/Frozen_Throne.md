@@ -10,7 +10,7 @@ categories: ["Lore", "Pages with broken file links", "Stubs"]
 ---
 # Frozen Throne
 
--From the WarCraft III manual*:
+*From the WarCraft III manual*:
 
 "When [Kil'jaeden](Kil'jaeden) cast [Ner'zhul](Ner'zhul)'s icy cask back into the world of [Azeroth](Azeroth), the hardened crystal streaked across the night sky and smashed into the desolate arctic continent of [Northrend](Northrend), burying itself deep within the [Icecrown glacier](Icecrown glacier). The frozen crystal, warped and scarred by its violent descent, came to resemble a throne, and Ner'zhul's vengeful spirit soon stirred within it.
 

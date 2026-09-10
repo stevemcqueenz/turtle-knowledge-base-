@@ -51,9 +51,9 @@ You can earn Darkmoon Faire Tickets by doing [repeatable quests](Quest#Repeatabl
 
 You can earn tickets by turning in animal parts and some tradeskill goods. These are repeatable quests, but as your faction with Darkmoon Faire increases, you are no longer able to turn in the lesser ones. 
 
--Tickets ARE soulbound -- you cannot trade them. 
--There are no turn in quests for enchanting, alchemy, herbalism, or tailoring. 
--Unless you are of the stated professions that can hand in crafted items, you CANNOT hand them in.
+- Tickets ARE soulbound -- you cannot trade them. 
+- There are no turn in quests for enchanting, alchemy, herbalism, or tailoring. 
+- Unless you are of the stated professions that can hand in crafted items, you CANNOT hand them in.
 
 {|border="0" cellpadding="5" cellspacing="0"
 |-
@@ -124,14 +124,14 @@ There are two [epic](epic) [necklace](Equipment_Slots#Neck)s, and a handful of l
 For example:
 
 ### 5 Tickets
--[Darkmoon Flower](Darkmoon Flower)
--[Minor Darkmoon Prize](Minor Darkmoon Prize)
--Sample Prize:
+- [Darkmoon Flower](Darkmoon Flower)
+- [Minor Darkmoon Prize](Minor Darkmoon Prize)
+- Sample Prize:
   - [Shimmering Trousers of the Owl](Shimmering Trousers of the Owl) ([http://www.thottbot.com/?i=5873]) 
 
 ### 10 Tickets
--[Last Months Mutton](Last Months Mutton) (?)
--One-Hand Mace (?)
+- [Last Months Mutton](Last Months Mutton) (?)
+- One-Hand Mace (?)
 
 ### 12 Tickets
 - [Lesser Darkmoon Prize](Lesser Darkmoon Prize)
@@ -145,7 +145,7 @@ For example:
 - [Greater Darkmoon Prize](Greater Darkmoon Prize)
 - Requires Level 45
   *"Guaranteed to contain an item of value!"*
--Sample Prize:
+- Sample Prize:
   - Level 50 Cape
   - [Traveler's Backpack](Traveler's Backpack)
 
@@ -154,9 +154,9 @@ For example:
 - 14-slot [container](container) ([bag](bag))
 
 ### 1200 Tickets
--[Orb of the Darkmoon](Orb of the Darkmoon) ??
+- [Orb of the Darkmoon](Orb of the Darkmoon) ??
  
--[Amulet of the Darkmoon](Amulet of the Darkmoon) 
+- [Amulet of the Darkmoon](Amulet of the Darkmoon) 
 
 ----
 For the full list of Rewards (Prizes), see [Thottbot](http://www.thottbot.com/?i=Darkmoon%20Faire%20Prize%20Ticket) or [Goblin Workshop](http://www.goblinworkshop.com/darkmoon-faire.html).
@@ -231,7 +231,7 @@ Darkmoon Faire Buff List for the fortune seeking guy Sayge
 2nd: Let the knight take credit
 
 # Tips and Links
--Are you an Night Elf that would like to see the Faire, but you have no idea where Elwynn Forest is, let alone how to get there? See "[Travel from Darnassus to Ironforge or Stormwind](Travel Guide#Travel from Darnassus to Ironforge or Stormwind)" on the [Travel Guide](Travel Guide) page! (or [here](http://lyberty.com/wow/locations/travel1.html))
+- Are you an Night Elf that would like to see the Faire, but you have no idea where Elwynn Forest is, let alone how to get there? See "[Travel from Darnassus to Ironforge or Stormwind](Travel Guide#Travel from Darnassus to Ironforge or Stormwind)" on the [Travel Guide](Travel Guide) page! (or [here](http://lyberty.com/wow/locations/travel1.html))
 
 - <nowiki>*</nowiki>Note: Due to a typo on [Goblin Workshop](Goblin Workshop), most pages on the internet refer to the first blacksmithing turn-in as "Coarse Weight Stone"....
 - <nowiki>**</nowiki>Note also that there are no Wolves in the [Badlands](Badlands) unless one comes along with a [Hunter](Hunter) but the Coyotes of various types drop the tails.

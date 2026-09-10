@@ -14,8 +14,8 @@ The **Scarab Dais** is where the [Scarab Gong](Scarab Gong) is located, just nor
 
 The quests to start the [10 Hour War](10 Hour War) during the [War Effort](War Effort) to open the [Gates of Ahn'Qiraj](Gates of Ahn'Qiraj) took place here.
 
--[Bang a Gong!](Bang a Gong!)
--[Treasure of the Timeless One](Treasure of the Timeless One)
+- [Bang a Gong!](Bang a Gong!)
+- [Treasure of the Timeless One](Treasure of the Timeless One)
 
 ## Patch changes
 -

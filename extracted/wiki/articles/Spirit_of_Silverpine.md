@@ -13,4 +13,4 @@ categories: ["Arathi Highlands", "Blackwater Raiders", "Frigates", "Pages with b
 The ***Spirit of Silverpine*** is one of two sunken [Blackwater Raiders](Blackwater Raiders) [frigate](frigate)s located in the [Drowned Reef](Drowned Reef) in the coast of the [Arathi Highlands](Arathi Highlands). The other ship is named *[Maiden's Folly](Maiden's Folly)* and lies east of the *Spirit of Silverpine*. Both ships were part of an expedition, along with a third ship, the *[Harbinger](Harbinger)*, in search of a lost elven treasure. When the ships were signaled by [Shakes O'Breen](Shakes O'Breen) to come dock at their location, the sea rumbled, the tides lowered, and the two ships crashed into the reef. The [Spirit of Silverpine Charts](Spirit of Silverpine Charts) and the [Spirit of Silverpine Log](Spirit of Silverpine Log) can be found aboard the wreck.
 
 ## See also
--[Blackwater Shipwrecks](Blackwater Shipwrecks)
+- [Blackwater Shipwrecks](Blackwater Shipwrecks)

@@ -25,10 +25,10 @@ categories: ["Burning Steppes mobs", "Dark Iron dwarf characters", "Slavers", "T
 | status | Killable |
 | location | Hateforge Excavation, Burning Steppes |
 
--Slaver Vilegrip** is a [Dark Iron dwarf](Dark Iron dwarf) located at [Hateforge Excavation](Hateforge Excavation) in [Burning Steppes](Burning Steppes). [Morgrim Firepike](Morgrim Firepike) wants him dead.
+**Slaver Vilegrip** is a [Dark Iron dwarf](Dark Iron dwarf) located at [Hateforge Excavation](Hateforge Excavation) in [Burning Steppes](Burning Steppes). [Morgrim Firepike](Morgrim Firepike) wants him dead.
 
 ## Quotes
-  -Aggro**
+**Aggro**
   I thought I would only be putting slacking miners in cages, now for a real fight!
 
 ## Objective of

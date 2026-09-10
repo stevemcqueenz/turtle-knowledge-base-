@@ -10,7 +10,7 @@ categories: ["Alchemy crafting reagent items", "Herbalism gathered items", "Herb
 ---
 # Briarthorn (Herb)
 
--Briarthorn** is an [herb](herb) that can be gathered by [Herbalist](Herbalist)s.
+**Briarthorn** is an [herb](herb) that can be gathered by [Herbalist](Herbalist)s.
 
 ## Source
 Briarthorn can often be found at the base of trees. Rarely, [Swiftthistle](Swiftthistle) can be harvested along with Briarthorn by picking Briarthorn [node](node)s. It is also known to be dropping from various plant type monsters.

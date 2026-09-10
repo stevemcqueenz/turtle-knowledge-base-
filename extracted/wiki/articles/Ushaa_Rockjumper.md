@@ -24,10 +24,10 @@ categories: ["Moonwhisper Coast NPCs", "Tauren characters", "Turtle WoW content"
 | location | Moonhoof Village, Moonwhisper Coast |
 | status | Alive |
 
--Ushaa Rockjumper** is a [tauren](tauren) located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Ushaa Rockjumper** is a [tauren](tauren) located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The Moonhoof used to partake in a sacred hunt along this coast. The kodos' hides were used to craft ceremonial drums and their meat offered sustenance for many days to come. But now that these alien parasites run rampant, we cannot uphold our own traditions anymore.
 
 ## Patch changes

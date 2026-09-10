@@ -25,13 +25,13 @@ categories: ["Blasted Lands NPCs", "Dalaran (kingdom)", "Human characters", "Que
 | location | Nethergarde Keep, Blasted Lands |
 | status | Alive |
 
--Adjutant Scheer** is a [human](human) quest giver located in [Nethergarde Keep](Nethergarde Keep) in [Blasted Lands](Blasted Lands).
+**Adjutant Scheer** is a [human](human) quest giver located in [Nethergarde Keep](Nethergarde Keep) in [Blasted Lands](Blasted Lands).
 
 ## Quests
 - [quest: Fel Energy Irregularities I] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Welcome, I hope you can find some rest within this hellish place.
 
 This is Nethergarde Keep, established once the Dark Portal opened and the First War had begun years ago. We have been assigned to watch over it, and report magical irregularities should they arise.

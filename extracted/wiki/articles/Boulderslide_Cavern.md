@@ -23,4 +23,4 @@ categories: ["Caves", "Kobold territories", "Mines", "Pages with broken file lin
 | loc | Stonetalon Mountains |
 | status | Active |
 
--Boulderslide Cavern** is a cave found at the end of [Boulderslide Ravine](Boulderslide Ravine) where the [Boulderslide kobolds](Boulderslide) nest.
+**Boulderslide Cavern** is a cave found at the end of [Boulderslide Ravine](Boulderslide Ravine) where the [Boulderslide kobolds](Boulderslide) nest.

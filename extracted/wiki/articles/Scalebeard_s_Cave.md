@@ -10,4 +10,4 @@ categories: ["Azshara subzones", "Caves", "Pages with broken file links", "Turtl
 ---
 # Scalebeard's Cave
 
--Scalebeard's Cave** was located on a tiny island54 49 Azshara (g/s/c) in the western part of the [Bay of Storms](Bay of Storms) in [Azshara](Azshara). It was the home of the rare elite [turtle](turtle) [Scalebeard](Scalebeard), but he tended to not be present, usually preferring to spend his time hunting in the [Great Sea](Great Sea).
+**Scalebeard's Cave** was located on a tiny island54 49 Azshara (g/s/c) in the western part of the [Bay of Storms](Bay of Storms) in [Azshara](Azshara). It was the home of the rare elite [turtle](turtle) [Scalebeard](Scalebeard), but he tended to not be present, usually preferring to spend his time hunting in the [Great Sea](Great Sea).

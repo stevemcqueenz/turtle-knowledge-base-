@@ -49,19 +49,19 @@ You've done a lot for me, and I am certainly grateful. I am sure Franklin is as 
 Take one of these, as tribute from us.
 
 ## Progression
-1.[quest: Greymane Hatred]
-1.[quest: The Blackheart Killer]
-1.[quest: In Memory of Franklin]
+1. [quest: Greymane Hatred]
+1. [quest: The Blackheart Killer]
+1. [quest: In Memory of Franklin]
 
 ## Notes
-  -Interacting with Franklin's grave**
+**Interacting with Franklin's grave**
   A hastily constructed grave. The following words are etched into the wood in crude handwriting.
 
   <Franklin Blackheart. Rest easy brother.>
 
   > Gossip: *Place the necklace on the grave.*
 
-  -Upon placing the necklace on the grave:**
+**Upon placing the necklace on the grave:**
   **Harrison Blackheart says:** Rest easy Franklin, you will be missed.
 
 ## Patch changes

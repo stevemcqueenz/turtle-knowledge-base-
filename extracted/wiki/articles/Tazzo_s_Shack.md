@@ -10,10 +10,10 @@ categories: ["Farms", "Tel'Abim subzones", "Turtle WoW content"]
 ---
 # Tazzo's Shack
 
--Tazzo's Shack** is a small hut with a banana plantation located in southwestern [Tel'Abim](Tel'Abim). [Tazzo Gearfire](Tazzo Gearfire) is present in the building, working on creating a gargantuan banana.
+**Tazzo's Shack** is a small hut with a banana plantation located in southwestern [Tel'Abim](Tel'Abim). [Tazzo Gearfire](Tazzo Gearfire) is present in the building, working on creating a gargantuan banana.
 
 ## NPCs
--   [Tazzo Gearfire](Tazzo Gearfire)
+- [Tazzo Gearfire](Tazzo Gearfire)
 
 ## Patch changes
 - (Patch 1.16.4|note=Added.)

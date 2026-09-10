@@ -25,7 +25,7 @@ categories: ["Human characters", "Northwind NPCs", "Quest enders", "Stormwind (k
 | status | Alive |
 | relatives | Sara (daughter),, Timothy (son) |
 
--Judith Flenning** is a [human](human) quest ender located in the [Ambershire](Ambershire) town hall in [Northwind](Northwind). She lived in Ambershire with her children [Sara](Sara Flenning) and [Timothy](Timothy Flenning). While Judith was away from the house, Sara and Timothy were kidnapped (ref: [quest: Empty Houses]) by orcs of the [Stormreaver clan](Stormreaver clan) that sought to take them to their hideout on the island of [Balor](Balor).
+**Judith Flenning** is a [human](human) quest ender located in the [Ambershire](Ambershire) town hall in [Northwind](Northwind). She lived in Ambershire with her children [Sara](Sara Flenning) and [Timothy](Timothy Flenning). While Judith was away from the house, Sara and Timothy were kidnapped (ref: [quest: Empty Houses]) by orcs of the [Stormreaver clan](Stormreaver clan) that sought to take them to their hideout on the island of [Balor](Balor).
 
 Tragically, Sara was killed by the Stormreavers before she could be rescued, and her body was later retrieved by [Operative Baltimore Hawthorne](Operative Baltimore Hawthorne) of [SI:7](SI:7). (ref: [quest: Shadow's Vision]) Timothy, along with many other captives, was experimented upon by the Stormreavers, resulting in his body liquifying and dissolving into ooze. Timothy's remains were later absorbed into the [Remains of the Innocent](Remains of the Innocent), deep beneath [Stormwrought Castle](Stormwrought Castle). Upon the destruction of the amalgamation, all that was left of Timothy was his [Etched Toy Sword](Etched Toy Sword). (ref: [quest: All That Is Left])
 
@@ -35,7 +35,7 @@ Tragically, Sara was killed by the Stormreavers before she could be rescued, and
 ## Quotes
   *Main article: [Empty Houses#Notes](Empty Houses#Notes)*
   *Main article: [Deathcap And Widow's Frill#Notes](Deathcap And Widow's Frill#Notes)*
-  -Gossip**
+**Gossip**
 <The woman is shaking and distressed.>
 
 ## Patch changes

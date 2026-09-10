@@ -22,7 +22,7 @@ categories: ["Dun Morogh", "Instances", "Turtle WoW content"]
 | affiliation | Independent |
 | loc | Western Dun Morogh |
 
--Winter Veil Vale** is a magical realm that manifests among the snowy peaks of [Dun Morogh](Dun Morogh) around the time of Winter Veil. (ref: [Winter's Veil 2019](https://web.archive.org/web/20260408150640/https://forum.turtlecraft.gg/viewtopic.php?t=854)) It is the home of furbolgs, snowmen, winter grells and yetis, and welcomes denizens and revelers of all races of Azeroth to celebrate the holiday of Winter Veil.
+**Winter Veil Vale** is a magical realm that manifests among the snowy peaks of [Dun Morogh](Dun Morogh) around the time of Winter Veil. (ref: [Winter's Veil 2019](https://web.archive.org/web/20260408150640/https://forum.turtlecraft.gg/viewtopic.php?t=854)) It is the home of furbolgs, snowmen, winter grells and yetis, and welcomes denizens and revelers of all races of Azeroth to celebrate the holiday of Winter Veil.
 
 ## Geography
 ### Maps and subregions
@@ -34,6 +34,6 @@ categories: ["Dun Morogh", "Instances", "Turtle WoW content"]
 ## Inhabitants
 ## Patch changes
 - (Patch 1.16.4|note=Moved to its own instanced zone.)
--  **[Hotfix](https://forum.turtlecraft.gg/viewtopic.php?t=854) (2019-12-04):** Added.
+- **[Hotfix](https://forum.turtlecraft.gg/viewtopic.php?t=854) (2019-12-04):** Added.
 
 ## References

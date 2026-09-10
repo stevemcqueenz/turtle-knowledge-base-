@@ -24,13 +24,13 @@ categories: ["High elf characters", "Moonwhisper Coast NPCs", "Quest givers", "T
 | location | Sunsworn Camp, Moonwhisper Coast |
 | status | Alive |
 
--Arcanist Cerulon** is a [high elf](high elf) quest giver located in [Sunsworn Camp](Sunsworn Camp) in [Moonwhisper Coast](Moonwhisper Coast).
+**Arcanist Cerulon** is a [high elf](high elf) quest giver located in [Sunsworn Camp](Sunsworn Camp) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: Heaven Falling Down] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Never have I felt magic like this, so unfamiliar, yet so potent. The air itself hums with it. And these crystals... they are no mere curiosities.
 
 I cannot help but wonder - might they hold the key to our people's salvation?

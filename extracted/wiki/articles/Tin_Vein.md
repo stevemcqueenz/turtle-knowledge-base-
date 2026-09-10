@@ -10,13 +10,13 @@ categories: ["Mining nodes", "Pages with broken file links"]
 ---
 # Tin Vein
 
--Tin Veins** can be found primarily in zones that have a minimum level of 10, 15, or 20.
+**Tin Veins** can be found primarily in zones that have a minimum level of 10, 15, or 20.
 
 ## Locations
-  -Kalimdor**
--[Ashenvale](Ashenvale)
--[Darkshore](Darkshore)
--[Desolace](Desolace)
--The [Barrens](Barrens)
--[Stonetalon Mountains](Stonetalon Mountains)
--[Thousand Needles](Thousand Needles)
+**Kalimdor**
+- [Ashenvale](Ashenvale)
+- [Darkshore](Darkshore)
+- [Desolace](Desolace)
+- The [Barrens](Barrens)
+- [Stonetalon Mountains](Stonetalon Mountains)
+- [Thousand Needles](Thousand Needles)

@@ -21,7 +21,7 @@ categories: ["Alah'Thalas NPCs", "Thalassian Highlands NPCs", "Treants", "Turtle
 | location | Thalassian Highlands; Golden Dawn Institute, Alah'Thalas |
 | status | Alive |
 
--Thalassian Tenders** are [treant](treant)s located near [Silver Covenant Camp](Silver Covenant Camp) in the [Thalassian Highlands](Thalassian Highlands) and at [Golden Dawn Institute](Golden Dawn Institute) in [Alah'Thalas](Alah'Thalas).
+**Thalassian Tenders** are [treant](treant)s located near [Silver Covenant Camp](Silver Covenant Camp) in the [Thalassian Highlands](Thalassian Highlands) and at [Golden Dawn Institute](Golden Dawn Institute) in [Alah'Thalas](Alah'Thalas).
 
 ## Patch changes
 (Patch 1.17.1|note=Added.)

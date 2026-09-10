@@ -10,4 +10,4 @@ categories: ["Durotar subzones", "Farms", "Orc territories", "Pages with broken 
 ---
 # Jaggedswine Farm
 
--Jaggedswine Farm** is one of several [pig farm](pig farm)s located in the [orcish](orcish) homeland of [Durotar](Durotar). There is a house, a large pig pen, and a pond. The swine is a source of food for the [Horde](Horde). The farm is close to the [Zepplin](Zepplin) tower and the capital city [Orgrimmar](Orgrimmar). Currently there is no one at the farm, it is either vacant/abandoned or the owner is in the city doing business.
+**Jaggedswine Farm** is one of several [pig farm](pig farm)s located in the [orcish](orcish) homeland of [Durotar](Durotar). There is a house, a large pig pen, and a pond. The swine is a source of food for the [Horde](Horde). The farm is close to the [Zepplin](Zepplin) tower and the capital city [Orgrimmar](Orgrimmar). Currently there is no one at the farm, it is either vacant/abandoned or the owner is in the city doing business.

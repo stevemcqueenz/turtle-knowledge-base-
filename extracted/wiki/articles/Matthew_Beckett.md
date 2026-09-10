@@ -25,10 +25,10 @@ categories: ["Gilneas mobs", "Human characters", "Turtle WoW content"]
 | relatives | Levandra |
 | companions | Thunder |
 
--Matthew Beckett** is a human located at the [Ebonmere Farm](Ebonmere Farm) in [Gilneas](Gilneas).
+**Matthew Beckett** is a human located at the [Ebonmere Farm](Ebonmere Farm) in [Gilneas](Gilneas).
 
 ## Quotes
-  -Aggro**
+**Aggro**
   What have you done to Catherine? Stay back!
 
 ## Objective of

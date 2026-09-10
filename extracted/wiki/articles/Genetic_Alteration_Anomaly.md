@@ -24,7 +24,7 @@ categories: ["Alliance quests", "Blasted Lands quests", "Quests at 53", "Turtle 
 
 ## Objectives
 Collect a Pristine Helboar Brain for Engineer Wigglestip at Nethergarde Keep.
--[Pristine Helboar Brain](Pristine Helboar Brain)
+- [Pristine Helboar Brain](Pristine Helboar Brain)
 
 ## Description
 The energy radiating off of the Dark Portal is sheerly astounding, and it's given me so many research opportunities that I do not know where to start! I was employed here as an analyst to watch the ever shifting arcane magic within the region, and its incredibly unstable, so unstable infact that it has warped the boars close to the portal itself, turning them into 'Helboar'!
@@ -35,8 +35,8 @@ I need you to get me a Pristine Helboar Brain, to see just how much the creature
 
 ## Rewards
 You will receive:
--4650 XP
--+200 [reputation](reputation) with [Dalaran](Dalaran (faction))
+- 4650 XP
+- +200 [reputation](reputation) with [Dalaran](Dalaran (faction))
 
 ## Progress
 Twenty eight, carry the seven, account for arcane disturbances... Oh- it's you, have you had any luck?

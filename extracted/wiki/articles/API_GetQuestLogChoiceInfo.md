@@ -14,7 +14,7 @@ Returns a bunch of data about a quest reward choice from the quest log.
  GetQuestLogChoiceInfo(itemNum);
 ----
 
-  - *Arguments***
+** *Arguments***
 
    (Number itemNum)
 
@@ -23,7 +23,7 @@ Returns a bunch of data about a quest reward choice from the quest log.
 
 ----
 
-  - *Returns***
+** *Returns***
 
    String name, String texture, Number numItems, Number quality, Boolean isUsable
 
@@ -40,15 +40,15 @@ Returns a bunch of data about a quest reward choice from the quest log.
 
 ----
 
-  - *Example***
+** *Example***
 
  local name, texture, numItems, quality, isUsable = GetQuestLogChoiceInfo(requiredItem.type, i);
 
-  - *Result***
+** *Result***
 
  "Silver Belt", ..., 1, 100, false
 ----
 
-  - *Description***
+** *Description***
 
    Returns a bunch of data about a quest reward choice from the quest log.

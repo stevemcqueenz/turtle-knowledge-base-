@@ -24,10 +24,10 @@ categories: ["Armor vendors", "Draenei characters", "Moonwhisper Coast NPCs", "T
 | location | Moro'gai Village, Moonwhisper Coast |
 | status | Alive |
 
--Ma'shaka** is a [draenei](draenei) leather armor vendor located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Ma'shaka** is a [draenei](draenei) leather armor vendor located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 My wares are flawlessly crafted, Parash'ka. Even a stranger like you can see their sublime quality.
 
 ## Patch changes

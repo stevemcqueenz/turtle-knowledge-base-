@@ -37,7 +37,7 @@ The situation in Gilneas is dire.
 So now you know. I left many details out, but there's no time for chatting. We must act now, with the newfound strength of our allies.
 
 ## Notes
-  -Speaking with Darius**
+**Speaking with Darius**
 
   Gilneas has seen darker days. But with newfound allies, such as you, hope remains. I feared the Alliance would've abandoned us, but here we stand. I will bend no knee to these Alteraci scum.
 

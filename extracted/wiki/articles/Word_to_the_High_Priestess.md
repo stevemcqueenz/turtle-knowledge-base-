@@ -56,9 +56,9 @@ Moonwhisper Coast was once a place where the kaldorei lived in peace beneath Elu
 You have helped make that future possible, <class>. Know that the sentinels of Narvalis Point have my gratitude… and so do you.
 
 ## Progression
-1.[quest: Scales of the Tideblade]
-1.[quest: Serpents Without Heads]
-1.[quest: Word to the High Priestess]
+1. [quest: Scales of the Tideblade]
+1. [quest: Serpents Without Heads]
+1. [quest: Word to the High Priestess]
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

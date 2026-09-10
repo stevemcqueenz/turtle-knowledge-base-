@@ -10,9 +10,9 @@ categories: ["Template documentation"]
 ---
 # Template:PD/doc
 
--Description**
+**Description**
   This template is used to mark images as being in the public domain.
-  -Syntax**
+**Syntax**
   Type <code></code> on the image information page.
 
 <includeonly></includeonly><noinclude></noinclude>

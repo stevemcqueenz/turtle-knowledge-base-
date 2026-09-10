@@ -10,7 +10,7 @@ categories: ["Hyjal subzones", "Plateaus", "Stubs", "Turtle WoW content"]
 ---
 # Barkskin Plateau
 
--Barkskin Plateau** is an area located at [Hyjal](Hyjal).
+**Barkskin Plateau** is an area located at [Hyjal](Hyjal).
 
 ## Patch changes
 - (Patch 1.17.0|note=Added.)

@@ -26,21 +26,21 @@ categories: ["Bosses", "Human characters", "Stormwind Vault mobs", "Turtle WoW c
 | status | Killable |
 | instance | Stormwind Vault |
 
--Damian** is a boss in the [Stormwind Vault](Stormwind Vault).
+**Damian** is a boss in the [Stormwind Vault](Stormwind Vault).
 
 ## Quotes
-  -Aggro**
+**Aggro**
   What's this, victims fighting their way to me? How thrilling!
 
-  -Vanish**
+**Vanish**
   Now you see me, now you don't!
   The shadow's veil embraces me!
 
-  -During combat**
+**During combat**
   You should stay quiet for a while!
   The Shadow demands justice!
 
-  -Death**
+**Death**
   Rip, RIP, I will rip you apart!
 
 ## Loot

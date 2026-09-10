@@ -24,4 +24,4 @@ Night elf [sentinel](sentinel)s watch over the hippogryph egs, and the night elv
 ## Hippogryphs in Mythology
 The Hippogryph is traditionally a magical mix of a [horse](horse) and a [griffon](Gryphon) (which in turn is part eagle). See [Hippogryph](wikipedia:Hippogryph) on [Wikipedia](Wikipedia:Main Page), [The Gryphon in Legend](http://www.gryphonpages.com/legend/legend.htm).
 
--Note: Within Warcraft, the spelling is "hippogryph", but outside the World of Warcraft, the spelling "hippogriff" is also valid, as "gryphon" is also spelled "griffin" or [griffon](griffon).*
+*Note: Within Warcraft, the spelling is "hippogryph", but outside the World of Warcraft, the spelling "hippogriff" is also valid, as "gryphon" is also spelled "griffin" or [griffon](griffon).*

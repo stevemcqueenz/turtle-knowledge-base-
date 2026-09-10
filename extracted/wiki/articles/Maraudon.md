@@ -24,7 +24,7 @@ categories: ["Desolace", "Dungeons", "Maraudon", "Temples"]
 | players | 5 |
 | bosses |  |
 
--Maraudon** is a 5-player dungeon consisting of a system of caves located in the [Valley of Spears](Valley of Spears) in [Desolace](Desolace), north east of [Shadowprey Village](Shadowprey Village). It is a combination of ancient [centaur](centaur) burial grounds, as well as a primal temple dedicated to the elemental earth.
+**Maraudon** is a 5-player dungeon consisting of a system of caves located in the [Valley of Spears](Valley of Spears) in [Desolace](Desolace), north east of [Shadowprey Village](Shadowprey Village). It is a combination of ancient [centaur](centaur) burial grounds, as well as a primal temple dedicated to the elemental earth.
 
 ## History
 From the [World Dungeons](https://wowpedia.fandom.com/wiki/Game_Guide/World_Dungeons) page on the official World of Warcraft Community Site:
@@ -43,27 +43,27 @@ File:WorldMap-Maraudon.jpg|Interior
 |}
 
 ## Dungeon denizens
--  [Basilisk](Basilisk)s
--  [Bog beast](Bog beast)s
--  [Centaur](Centaur)s
--  [Crocolisk](Crocolisk)s (one, [Rotgrip](Rotgrip))
--  [Diemetradon](Diemetradon)s
--  [Dryad](Dryad)s
--  [Earth elemental](Earth elemental)s
--  [Ghost](Ghost)s
--  [Goblin](Goblin)s (one, [Tinkerer Gizlock](Tinkerer Gizlock))
--  [Grell](Grell)s
--  [Hydra](Hydra)s
--  [Lasher](Lasher)s
--  [Larva](Larva)e
--  [Keeper](Keeper of the grove)s
--  [Mountain giant](Mountain giant)s
--  [Ooze](Ooze)s
--  [Satyr](Satyr)
--  [Treant](Treant)s
--  [Turtle](Turtle)s
--  [Water elemental](Water elemental)s (one, [Noxxion](Noxxion))
--  [Worm](Worm)s
+- [Basilisk](Basilisk)s
+- [Bog beast](Bog beast)s
+- [Centaur](Centaur)s
+- [Crocolisk](Crocolisk)s (one, [Rotgrip](Rotgrip))
+- [Diemetradon](Diemetradon)s
+- [Dryad](Dryad)s
+- [Earth elemental](Earth elemental)s
+- [Ghost](Ghost)s
+- [Goblin](Goblin)s (one, [Tinkerer Gizlock](Tinkerer Gizlock))
+- [Grell](Grell)s
+- [Hydra](Hydra)s
+- [Lasher](Lasher)s
+- [Larva](Larva)e
+- [Keeper](Keeper of the grove)s
+- [Mountain giant](Mountain giant)s
+- [Ooze](Ooze)s
+- [Satyr](Satyr)
+- [Treant](Treant)s
+- [Turtle](Turtle)s
+- [Water elemental](Water elemental)s (one, [Noxxion](Noxxion))
+- [Worm](Worm)s
 
 ## Quest guide
 {| class="fandom-table"
@@ -132,7 +132,7 @@ File:WorldMap-Maraudon.jpg|Interior
 |}
 
 ## Patch changes
--  **Patch 1.3.0 (2005-03-07):**
-  -Capped at ten players.
-  -Characters dying in the instanced portions of Maraudon will now correctly receive a corpse marker in the minimap and see the message letting them know that they need to enter the instance before they will be able to resurrect.
--  **Patch 1.2.0 (2004-12-18):** Added.
+- **Patch 1.3.0 (2005-03-07):**
+  - Capped at ten players.
+  - Characters dying in the instanced portions of Maraudon will now correctly receive a corpse marker in the minimap and see the message letting them know that they need to enter the instance before they will be able to resurrect.
+- **Patch 1.2.0 (2004-12-18):** Added.

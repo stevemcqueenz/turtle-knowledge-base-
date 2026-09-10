@@ -10,20 +10,20 @@ categories: ["Template documentation"]
 ---
 # Template:Reputation/doc
 
--Description**
+**Description**
   Displays the given text as a link with the desired reputation color.
 
-  -Syntax**
+**Syntax**
   
   
 
-  -Example**
+**Example**
   <nowiki></nowiki> : 
   <nowiki></nowiki> : 
   <nowiki></nowiki> : 
   <nowiki></nowiki> : 
 
-  -Possible Values for reputation (first parameter):**
+**Possible Values for reputation (first parameter):**
 {| style="margin-left: 1.75em"
 | 
 

@@ -10,4 +10,4 @@ categories: ["Mining nodes"]
 ---
 # Iron Deposit
 
--Iron Deposits** can be found primarily in zones that have a minimum level of 25, 30, 35, or 40.
+**Iron Deposits** can be found primarily in zones that have a minimum level of 25, 30, 35, or 40.

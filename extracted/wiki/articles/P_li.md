@@ -24,13 +24,13 @@ categories: ["Draenei characters", "Innkeepers", "Moonwhisper Coast NPCs", "Ques
 | location | Moro'gai Village, Moonwhisper Coast |
 | status | Alive |
 
--P'li** is a [draenei](draenei) innkeeper located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**P'li** is a [draenei](draenei) innkeeper located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: Fallen One Cargo] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Our fish is tender and zesty, with just the right amount of spice. Come in and try, Parash'ka!
 
 ## Patch changes

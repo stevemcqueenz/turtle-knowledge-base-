@@ -48,8 +48,8 @@ Ah, my poor Anduin.
 Hand them over; everything is ready. You may take an apple yourself for helping me out.
 
 ## Progression
-1.[quest: Goody Bag]
-1.[quest: Fit for a Prince!]
+1. [quest: Goody Bag]
+1. [quest: Fit for a Prince!]
 
 ## Patch changes
 (Patch 1.18.0|note=Added.)

@@ -24,14 +24,14 @@ categories: ["Moonwhisper Coast NPCs", "Night elf characters", "Quest givers", "
 | location | Grove of the Sun, Moonwhisper Coast |
 | status | Alive |
 
--Grovetender Sellais** is a [night elf](night elf) quest giver located in the [Grove of the Sun](Grove of the Sun) in [Moonwhisper Coast](Moonwhisper Coast).
+**Grovetender Sellais** is a [night elf](night elf) quest giver located in the [Grove of the Sun](Grove of the Sun) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: A Plea for Help] 
 - [quest: Belated Preservation] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Dreadful times are upon us. It will demand everything from us just keeping this sacred clearing safe from evildoers. Are you willing to help us?
 
 ## Patch changes

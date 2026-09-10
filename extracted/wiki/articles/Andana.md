@@ -26,7 +26,7 @@ categories: ["Flight masters", "Forsaken characters", "Gilneas NPCs", "Turtle Wo
 | location | Stillward Church, Gilneas |
 | status | Active |
 
--Andana** is a [Forsaken](Forsaken) bat flight master located at [Stillward Church](Stillward Church) in [Gilneas](Gilneas).
+**Andana** is a [Forsaken](Forsaken) bat flight master located at [Stillward Church](Stillward Church) in [Gilneas](Gilneas).
 
 ## Flight paths
 See [Stillward Church#Travel connections](Stillward Church#Travel connections).

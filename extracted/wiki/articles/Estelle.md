@@ -25,10 +25,10 @@ categories: ["Human characters", "Northwind NPCs", "Turtle WoW content"]
 | status | Alive |
 | relatives | General Bright (father),, Lena (mother),, Joshua (brother) |
 
--Estelle Bright** is a human located at the [Ambershire Church](Ambershire Church) in [Northwind](Northwind), accompanying her brother and father to the grave of [Lena Bright](Lena Bright), her mother.
+**Estelle Bright** is a human located at the [Ambershire Church](Ambershire Church) in [Northwind](Northwind), accompanying her brother and father to the grave of [Lena Bright](Lena Bright), her mother.
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Mommy lies here. Daddy says that she is in a better place now, but I don't understand that. Isn't the best place here with us? I hope she comes back soon, so she can play with me and Joshua again!
 
 ## Notes

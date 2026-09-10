@@ -26,10 +26,10 @@ categories: ["Elwynn Forest NPCs", "Human characters", "Survival vendors", "Turt
 | status | Alive |
 | relatives | Krennan Wildberry |
 
--Tabetha Wildberry** is a [human](human) [survival](survival) vendor located in [Elwynn Forest](Elwynn Forest) on the outskirts to [Stormwind City](Stormwind City).
+**Tabetha Wildberry** is a [human](human) [survival](survival) vendor located in [Elwynn Forest](Elwynn Forest) on the outskirts to [Stormwind City](Stormwind City).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 If you are in need of vital necessities for your journeys, feel free to browse my wares.
 
 ## Patch changes

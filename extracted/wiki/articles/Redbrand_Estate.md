@@ -13,11 +13,4 @@ categories: ["Ironforge", "Undisplayed locations"]
 The **Redbrand Estate** is the home of the [Redbrand family](Redbrand family) in [Ironforge](Ironforge), in the [Mystic Ward](Mystic Ward).
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
-- 
-- 
--
+- - - - - - - -

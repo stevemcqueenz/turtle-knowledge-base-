@@ -10,4 +10,4 @@ categories: ["Pages with broken file links", "Searing Gorge subzones", "Valleys"
 ---
 # Dustfire Valley
 
--Dustfire Valley** is a windswept valley in the [Searing Gorge](Searing Gorge) that leads north to the locked gates of [Stonewrought Pass](Stonewrought Pass) to the [Valley of Kings](Valley of Kings) in [Loch Modan](Loch Modan). Though the gates are locked, it is possible through a quest chain to obtain a key.  For most travelers, however, it is easier to fly into the gorge.
+**Dustfire Valley** is a windswept valley in the [Searing Gorge](Searing Gorge) that leads north to the locked gates of [Stonewrought Pass](Stonewrought Pass) to the [Valley of Kings](Valley of Kings) in [Loch Modan](Loch Modan). Though the gates are locked, it is possible through a quest chain to obtain a key.  For most travelers, however, it is easier to fly into the gorge.

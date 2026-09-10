@@ -24,7 +24,7 @@ categories: ["Draenei characters", "Faction quartermasters", "Moonwhisper Coast 
 | location | Moro'gai Village, Moonwhisper Coast |
 | status | Alive |
 
--Mogh'ador** is the quartermaster for the [Draenei Exiles](Draenei Exiles) of the [Moro'gai tribe](Moro'gai tribe) and is located in [Moro'gai Village](Moro'gai Village) in the [Moonwhisper Coast](Moonwhisper Coast).
+**Mogh'ador** is the quartermaster for the [Draenei Exiles](Draenei Exiles) of the [Moro'gai tribe](Moro'gai tribe) and is located in [Moro'gai Village](Moro'gai Village) in the [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

@@ -24,7 +24,7 @@ categories: ["Alah'Thalas NPCs", "Guards", "High elf characters", "Turtle WoW co
 | gender | Male |
 | location | Alah'Thalas |
 
--Alah'Thalas Sentinels** are high elven guards defending the high elf capital of [Alah'Thalas](Alah'Thalas).
+**Alah'Thalas Sentinels** are high elven guards defending the high elf capital of [Alah'Thalas](Alah'Thalas).
 
 ## Patch changes
 - (Patch 1.17.1|note=Added.)

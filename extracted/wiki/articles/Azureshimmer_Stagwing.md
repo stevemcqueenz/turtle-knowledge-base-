@@ -21,7 +21,7 @@ categories: ["Hippogryffs", "Moonwhisper Coast mobs", "Turtle WoW content"]
 | creature | Beast |
 | location | Moonwhisper Coast |
 
--Azureshimmer Stagwings** are [hippogryff](hippogryff)s located in [Moonwhisper Coast](Moonwhisper Coast).
+**Azureshimmer Stagwings** are [hippogryff](hippogryff)s located in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Objective of
 - Drops [Stagwing Feather](Stagwing Feather) for [quest: Ritual Ready].

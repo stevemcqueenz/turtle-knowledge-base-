@@ -44,12 +44,12 @@ In terms of ideology, the Blood Elves are willing to use any means to survive, i
 Although most are disowned by the Quel'dorei, they accept a few Blood Elves into their society, keeping them under proper surveillance.
 
 ### Relevant Blood Elves
--  [Braelyn Firehand](Braelyn Firehand) / [Sunrock Retreat](Sunrock Retreat)
--    [Sanath Lim-yo](Sanath Lim-yo) / [Azshara](Azshara)
--    [Mathredis Firestar](Mathredis Firestar) / [Burning Steppes](Burning Steppes)
--    [Bloodmage Drazial](Bloodmage Drazial) / [Blasted Lands](Blasted Lands)
--    [Bloodmage Lynnore](Bloodmage Lynnore) / [Blasted Lands](Blasted Lands)
--    [Ambassador Ardalan](Ambassador Ardalan) / [Blasted Lands](Blasted Lands)
--    [Lothos Riftwalker](Lothos Riftwalker) / [Blackrock Mountain](Blackrock Mountain)
--    [Viceroy Eldin Sunstrider](Eldin Sunstrider) / [Thalassian Highlands](Thalassian Highlands)
--    [Prince Kael'thas Sunstrider](Kael'thas Sunstrider) / [Outland](Outland)
+- [Braelyn Firehand](Braelyn Firehand) / [Sunrock Retreat](Sunrock Retreat)
+- [Sanath Lim-yo](Sanath Lim-yo) / [Azshara](Azshara)
+- [Mathredis Firestar](Mathredis Firestar) / [Burning Steppes](Burning Steppes)
+- [Bloodmage Drazial](Bloodmage Drazial) / [Blasted Lands](Blasted Lands)
+- [Bloodmage Lynnore](Bloodmage Lynnore) / [Blasted Lands](Blasted Lands)
+- [Ambassador Ardalan](Ambassador Ardalan) / [Blasted Lands](Blasted Lands)
+- [Lothos Riftwalker](Lothos Riftwalker) / [Blackrock Mountain](Blackrock Mountain)
+- [Viceroy Eldin Sunstrider](Eldin Sunstrider) / [Thalassian Highlands](Thalassian Highlands)
+- [Prince Kael'thas Sunstrider](Kael'thas Sunstrider) / [Outland](Outland)

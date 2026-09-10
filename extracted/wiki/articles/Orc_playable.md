@@ -18,12 +18,12 @@ Orcs start their journeys in the [Valley of Trials](Valley of Trials) within thi
 
 ## Background
 ### Creation screen description
--The orc race originated on the planet Draenor. A peaceful people with shamanic beliefs, they were enslaved by the Burning Legion and forced into war with the humans of Azeroth. Although it took many years, the orcs finally escaped the demons' corruption and won their freedom. To this day they fight for honor in an alien world that hates and reviles them.*
+*The orc race originated on the planet Draenor. A peaceful people with shamanic beliefs, they were enslaved by the Burning Legion and forced into war with the humans of Azeroth. Although it took many years, the orcs finally escaped the demons' corruption and won their freedom. To this day they fight for honor in an alien world that hates and reviles them.*
 
 ### Opening cutscene
--Long ago, the orcish horde was corrupted by the Burning Legion and lured to the world of Azeroth. For generations, the orcs made war upon the human kingdoms of Stormwind and Lordaeron. Though the Horde was ultimately defeated, a visionary young warchief named Thrall rose to lead his people in their darkest hour. Under Thrall's rule, the orcs freed themselves from the chains of demonic corruption and embraced their shamanistic heritage. After years of wandering, the orcs founded their own kingdom in the harsh wastelands of Durotar.* 
+*Long ago, the orcish horde was corrupted by the Burning Legion and lured to the world of Azeroth. For generations, the orcs made war upon the human kingdoms of Stormwind and Lordaeron. Though the Horde was ultimately defeated, a visionary young warchief named Thrall rose to lead his people in their darkest hour. Under Thrall's rule, the orcs freed themselves from the chains of demonic corruption and embraced their shamanistic heritage. After years of wandering, the orcs founded their own kingdom in the harsh wastelands of Durotar.* 
 
--Based in the warrior city of Orgrimmar, they stand ready to destroy all who would challenge their supremacy. As a proud defender of Durotar, it is your duty to crush the enemies, both seen and unseen, for the nefarious agents of the Burning Legion still wander the land.*
+*Based in the warrior city of Orgrimmar, they stand ready to destroy all who would challenge their supremacy. As a proud defender of Durotar, it is your duty to crush the enemies, both seen and unseen, for the nefarious agents of the Burning Legion still wander the land.*
 
 ## Character
 ### Classes
@@ -56,8 +56,8 @@ Orcs start their journeys in the [Valley of Trials](Valley of Trials) within thi
 
 ## Videos
 ## Patch changes
--  **[Patch 1.17.2](Patch 1.17.2) (2024-11-01):**
+- **[Patch 1.17.2](Patch 1.17.2) (2024-11-01):**
   - Weapon skill racials have been reduced from +5 to +3.
   - Blood Fury now increases your Attack Power and damage dealt by magical spells and effects by an amount equal to 200% of your level for 15 sec. and reduces healing effects on you by 25% for 25 sec.
   - Hardiness now reduces the duration of Stun effects by 15% instead of increasing your chance to resist Stun effects by 25%.
--  **[Patch 1.15.0](Patch 1.15.0) (2021-01-05):** Orcs now have access to the mage class.
+- **[Patch 1.15.0](Patch 1.15.0) (2021-01-05):** Orcs now have access to the mage class.

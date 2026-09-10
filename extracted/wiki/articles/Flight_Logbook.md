@@ -10,7 +10,7 @@ categories: ["Readable items", "Turtle WoW content"]
 ---
 # Flight Logbook
 
--Flight Logbook** can be found in the [Gnomish Trunk](Gnomish Trunk) at the landing pad on an island in the [Ruined Reaches](Ruined Reaches) out to the east of [Azshara](Azshara).
+**Flight Logbook** can be found in the [Gnomish Trunk](Gnomish Trunk) at the landing pad on an island in the [Ruined Reaches](Ruined Reaches) out to the east of [Azshara](Azshara).
 
 ## Objective of
 - [quest: The Flight Logbook]

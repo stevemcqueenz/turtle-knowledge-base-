@@ -25,7 +25,7 @@ categories: ["Defias Brotherhood", "Human characters", "Northwind mobs", "Rare m
 | location | Northwind |
 | status | Killable |
 
--Quistis the Malign** is a rare human found north of the [Northwind Logging Camp](Northwind Logging Camp) in [Northwind](Northwind).
+**Quistis the Malign** is a rare human found north of the [Northwind Logging Camp](Northwind Logging Camp) in [Northwind](Northwind).
 
 ## Notable loot
 - [Defias Amice](Defias Amice)

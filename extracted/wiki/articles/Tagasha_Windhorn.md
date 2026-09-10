@@ -25,10 +25,10 @@ categories: ["Moonwhisper Coast NPCs", "Tauren characters", "Turtle WoW content"
 | status | Alive |
 | relatives | Nuhlgahn Windhorn |
 
--Tagasha Windhorn** is a [tauren](tauren) located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Tagasha Windhorn** is a [tauren](tauren) located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I have heard many stories about our Moonhoof cousins from home at Windhorn Canyon. Exaggerated tales of how they could dance in the stars and bask in the great offerings of the blue child.
 
 <Tagasha lets out a small laugh.>

@@ -74,7 +74,7 @@ As of recently, Kul Tiras has been dealing with ongoing [naga](naga) incursions.
 
 ### Notable people
 ### Notable leaders
--  Lord Admiral [Daelin Proudmoore](Daelin Proudmoore)<sup>†</sup>
+- Lord Admiral [Daelin Proudmoore](Daelin Proudmoore)<sup>†</sup>
 - [Unidentified Lord Admiral](Lord Admiral of Kul Tiras)
 
 ## References

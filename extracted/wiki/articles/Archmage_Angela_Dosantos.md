@@ -29,7 +29,7 @@ categories: ["Argent Dawn", "Brotherhood of the Light", "Dalaran (kingdom)", "De
 | location | Light's Hope Chapel, Eastern Plaguelands |
 | status | Alive (WoW), Deceased (lore) |
 
--Archmage Angela Dosantos** is a [human](human) [quest giver](quest giver) located at [Light's Hope Chapel](Light's Hope Chapel) in the [Eastern Plaguelands](Eastern Plaguelands). A member of the [Brotherhood of the Light](Brotherhood of the Light), a subsection of the [Argent Dawn](Argent Dawn)'s ranks, she offers quests to adventurers to collect [Core of Elements](Core of Elements) to then exchange them with her for an [Insignia of the Dawn](Insignia of the Dawn).
+**Archmage Angela Dosantos** is a [human](human) [quest giver](quest giver) located at [Light's Hope Chapel](Light's Hope Chapel) in the [Eastern Plaguelands](Eastern Plaguelands). A member of the [Brotherhood of the Light](Brotherhood of the Light), a subsection of the [Argent Dawn](Argent Dawn)'s ranks, she offers quests to adventurers to collect [Core of Elements](Core of Elements) to then exchange them with her for an [Insignia of the Dawn](Insignia of the Dawn).
 
 Angela was originally a member of the Kirin Tor of Dalaran, where her duties were to watch over the magical barriers protecting [Atiesh](Atiest, Greatstaff of the Guardian), the legendary greatstaff of the last Guardian of Tirisfal, [Medivh](Medivh). When the demon lord [Archimonde](Archimonde) destroyed [Dalaran](Dalaran), the barriers were broken and Atiesh was shattered into pieces. Dosantos left the Kirin Tor and began a search for the greatstaff which continues today.
 
@@ -38,7 +38,7 @@ She first joined the Argent Dawn in order to help prevent [Kel'Thuzad](Kel'Thuza
 ## Quests
 - [quest: The Elemental Equation] 
   - [quest: Core of Elements] 
--  [60] [The Dread Citadel - Naxxramas](The Dread Citadel - Naxxramas) 
+- [60] [The Dread Citadel - Naxxramas](The Dread Citadel - Naxxramas) 
 - [quest: Frostfire Leggings|class=mage] 
 - [quest: Frostfire Robe|class=mage] 
 - [quest: Frostfire Circlet|class=mage] 
@@ -129,6 +129,6 @@ If you are the type that laughs in the face of danger, then perhaps you should v
   *Archmage Angela Dosantos collapses.*
 
 ## Patch changes
--  **[Patch 1.11.0](Patch 1.11.0) (2006-06-19):** Added.
+- **[Patch 1.11.0](Patch 1.11.0) (2006-06-19):** Added.
 
 ## References

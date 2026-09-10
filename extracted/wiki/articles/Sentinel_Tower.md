@@ -10,4 +10,4 @@ categories: ["Human territories", "Towers", "Westfall subzones"]
 ---
 # Sentinel Tower
 
--Sentinel Tower** is a prominent landmark in [Westfall](Westfall). It stands upon the apex of [Sentinel Hill](Sentinel Hill) as a scout tower to watch over the surrounding landscape. This is where one can find the [People's Militia](People's Militia)'s leaders, including [Gryan Stoutmantle](Gryan Stoutmantle), the group's commander.
+**Sentinel Tower** is a prominent landmark in [Westfall](Westfall). It stands upon the apex of [Sentinel Hill](Sentinel Hill) as a scout tower to watch over the surrounding landscape. This is where one can find the [People's Militia](People's Militia)'s leaders, including [Gryan Stoutmantle](Gryan Stoutmantle), the group's commander.

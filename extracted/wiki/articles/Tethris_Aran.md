@@ -10,4 +10,4 @@ categories: ["Desolace subzones", "Elven ruins", "Pages with broken file links"]
 ---
 # Tethris Aran
 
--Tethris Aran** is a series of [night elven](night elf) ruins found in northern [Desolace](Desolace) just north of [Thunder Axe Fortress](Thunder Axe Fortress).[54, 14] The ruins are inhabited only by the wild creatures of Desolace. The night elven settlement that was here was presumably destroyed by the [Great Sundering](Great Sundering).
+**Tethris Aran** is a series of [night elven](night elf) ruins found in northern [Desolace](Desolace) just north of [Thunder Axe Fortress](Thunder Axe Fortress).[54, 14] The ruins are inhabited only by the wild creatures of Desolace. The night elven settlement that was here was presumably destroyed by the [Great Sundering](Great Sundering).

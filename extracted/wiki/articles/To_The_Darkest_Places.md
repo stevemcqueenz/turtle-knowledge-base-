@@ -44,21 +44,21 @@ My corps consisted of ten operatives, surveying the perimeter around the Croakin
 A pity, those were valuable agents we've lost today. I'll send missives to their families, their service to the Kingdom won't be forgotten. Now, regarding this scroll...
 
 ## Notes
-  -Inspecting Agent Flynn**
+**Inspecting Agent Flynn**
 This seems to be one of Agent Deryl's compatriots.
 
   > Gossip: *<Inspect the body.>*
 
   <His skin is dried and flaky, almost brittling away under your touch. A torn and agonized expression is carved into his face, and his eyeless sockets send a shiver down your spine.>
 
-  -Inspecting Agent Cheryl**
+**Inspecting Agent Cheryl**
 This seems to be one of Agent Deryl's compatriots.
 
   > Gossip: *<Inspect the body.>*
 
   <The skin of this corpse feels slimy, almost fluid, as if it is about to dissolve on its own. She has been beyond saving for a long time.>
 
-  -Inspecting the Green Puddle**
+**Inspecting the Green Puddle**
 Before you lies a puddle of green sludge.
 
   > Gossip: *<Inspect the body.>*

@@ -13,13 +13,13 @@ categories: ["Addon"]
 FlightPath automatically learns flight paths as you interact with flight masters, including any new paths added in the future. It also provides a list of flight paths, zeppelin routes, and boat connections that you can load manually.
 
 ## Installation
-  -Manual Installation Only**
+**Manual Installation Only**
 
 # Download this zip: **[master.zip](https://github.com/crazypoultry/Wow1.12.1_Addons_Collection/archive/refs/heads/master.zip)**
 # Unpack the <code>.zip</code> and copy the FlightPath folder inside the FlightPath_v1.16 folder and paste it into your <code>Interface/AddOns</code> directory 
 # Restart the game.
 
-  -Note:**  The predefined plane, boat and zeppelin routes (/fp load) seem to be outdated. Best to let FlightPath learn the routes by using them.
+**Note:**  The predefined plane, boat and zeppelin routes (/fp load) seem to be outdated. Best to let FlightPath learn the routes by using them.
 
 ## Learning Flight Paths
 - Flight durations are only known after completing a trip.
@@ -78,7 +78,7 @@ Timer:
 Tracker:
 
 ## Data Files
-  -KnownPaths.lua** contains predefined flight, boat, and zeppelin routes.
+**KnownPaths.lua** contains predefined flight, boat, and zeppelin routes.
 
 Use <code>/fp load [name]</code> to import these routes.
 
@@ -88,7 +88,7 @@ Supported load options:
 - <code>horde</code> — Horde flight paths
 - <code>alliance</code> — Alliance flight paths
 
-  -Important Notes:**
+**Important Notes:**
 
 - The data includes coordinates, costs, durations, and faction info.
 - You can add your own routes or update existing ones.

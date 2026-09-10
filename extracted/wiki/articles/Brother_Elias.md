@@ -25,7 +25,7 @@ categories: ["Gilneas NPCs", "Human characters", "Quest givers", "Scarlet Crusad
 | location | Shademore Tavern, Gilneas |
 | status | Alive |
 
--Brother Elias** is a [human](human) [quest giver](quest giver) located at the [Shademore Tavern](Shademore Tavern) in [Gilneas](Gilneas).
+**Brother Elias** is a [human](human) [quest giver](quest giver) located at the [Shademore Tavern](Shademore Tavern) in [Gilneas](Gilneas).
 
 ## Quests
 - [quest: Allies Against Undeath] 

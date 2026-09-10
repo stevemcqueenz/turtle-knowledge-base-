@@ -10,7 +10,7 @@ categories: ["Template documentation"]
 ---
 # Template:Tocright/doc
 
--Description**
+**Description**
  forces the auto-generated Table of Contents for an article to appear floated to the right side of the page, in order to improve article layout.
 
 <includeonly></includeonly><noinclude></noinclude>

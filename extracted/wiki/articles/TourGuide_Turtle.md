@@ -10,10 +10,10 @@ categories: ["Addon"]
 ---
 # TourGuide Turtle
 
--TourGuide** is a powerleveling and questing guide framework. It provides step-by-step instructions, quest tracking, and guide management to streamline leveling and quest progression.
+**TourGuide** is a powerleveling and questing guide framework. It provides step-by-step instructions, quest tracking, and guide management to streamline leveling and quest progression.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **TourGuide** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **TourGuide** up to date is by using [GitAddonsManager](
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 # Download manually via GitHub by clicking on **[<> Code]** -> Download ZIP
@@ -29,7 +29,7 @@ If you prefer manual installation, follow these steps:
 # Move the folder into TWoW/Interface/AddOns
 # Restart Turtle wow
 
-  -Optional**:
+**Optional**:
 
 - **[TourGuide Professions](TourGuide Professions)**
 - **[TomTom](TomTom)**
@@ -60,23 +60,23 @@ If you prefer manual installation, follow these steps:
 Screenshot of the Guide List, with the Status Frame on the top right.
 
 ## FAQs
-  -Q:** How do I switch between guides?
+**Q:** How do I switch between guides?
 
 - **A:** Use the Guide List panel to select a different guide.
 
-  -Q:** How can I reset a guide?
+**Q:** How can I reset a guide?
 
 - **A:** Shift-click the guide in the Guide List to reset its progress.
 
-  -Q:** How does auto quest tracking work?
+**Q:** How does auto quest tracking work?
 
 - **A:** Enable "Auto Track" in options; the addon will automatically track quests you are working on.
 
-  -Q:** Can I skip follow-up quests automatically?
+**Q:** Can I skip follow-up quests automatically?
 
 - **A:** Yes, enable "Skip Follow-Ups" to automatically skip suggested follow-up quests.
 
-  -Q:** How do I report guide errors?
+**Q:** How do I report guide errors?
 
 - **A:** Enable debugging with <code>/tg debug</code> and review error messages in chat.
 

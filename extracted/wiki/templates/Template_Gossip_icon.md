@@ -12,35 +12,9 @@ categories: ["Inline templates", "Pages with broken file links", "WoW icon templ
 
 <includeonly><onlyinclude>{{#if:{}|&nbsp;{}}}</onlyinclude></includeonly>
 Available options:
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
-
-  -Default:**
--
-
-  -Testing:**
--
--
-
-  -Shortcuts:**
+- - - - - - - - - - - - - - - - - - - - ;Default:
+- ;Testing:
+- - ;Shortcuts:
 - &mdash; > Gossip: Gossip icon
 - &mdash; 
 - &mdash; 
@@ -52,5 +26,5 @@ Available options:
 - &mdash; 
 - &mdash; 
 
-  -See also**
+**See also**
 - &mdash;

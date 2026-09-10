@@ -23,7 +23,7 @@ categories: ["Cities", "Dungeons", "Eastern Kingdoms", "Gilneas City", "Gilneas 
 | players | 5 |
 | bosses |  |
 
--Gilneas City** is an instance dungeon located in [Gilneas](Gilneas). Located at the heart of this once-isolated land, Gilneas City was once a bastion of hope for its people. Established after breaking free from the rule of the Arathorian lords, it stood as a symbol of resilience and prosperity. However, it is now a mere shell of its former beauty, with a dark presence casting a gripping shadow over Gilneas and serving as a reminder of its once glorious past. Distant howls echo through the city, haunting reminders of its new occupants. Yet, there is a possibility that not everyone is gone and that their accursed king may still live.
+**Gilneas City** is an instance dungeon located in [Gilneas](Gilneas). Located at the heart of this once-isolated land, Gilneas City was once a bastion of hope for its people. Established after breaking free from the rule of the Arathorian lords, it stood as a symbol of resilience and prosperity. However, it is now a mere shell of its former beauty, with a dark presence casting a gripping shadow over Gilneas and serving as a reminder of its once glorious past. Distant howls echo through the city, haunting reminders of its new occupants. Yet, there is a possibility that not everyone is gone and that their accursed king may still live.
 
 ## Background
 The city of Gilneas is the capital of [the human kingdom of the same name](Gilneas (kingdom)), ruled for centuries by House Greymane. It is located to the west on the top of a mountain.
@@ -53,10 +53,10 @@ GilneasCityWithShops.png|Atlas map showing various shops that were in Gilneas Ci
 |}
 
 ## Dungeon denizens
--  [Worgen](Worgen)
--  [Human](Human)s
--  [Bat](Bat)s
--  [Worg](Worg)s
+- [Worgen](Worgen)
+- [Human](Human)s
+- [Bat](Bat)s
+- [Worg](Worg)s
 
 ## Quest guide
 {| class="fandom-table"

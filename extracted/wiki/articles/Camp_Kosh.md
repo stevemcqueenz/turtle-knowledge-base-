@@ -10,6 +10,6 @@ categories: ["Badlands subzones", "Camps", "Ogre territories"]
 ---
 # Camp Kosh
 
--Camp Kosh** is, together with [Camp Boff](Camp Boff), [Cagg](Camp Cagg) and [Wurg](Camp Wurg), the home of some of the [Dustbelcher](Dustbelcher) [ogre](ogre)s. It is the northernmost camp. There the ogres prey on supply caravans that must traverse the barren [Badlands](Badlands) headed to [Kargath](Kargath) or into the [Searing Gorge](Searing Gorge).
+**Camp Kosh** is, together with [Camp Boff](Camp Boff), [Cagg](Camp Cagg) and [Wurg](Camp Wurg), the home of some of the [Dustbelcher](Dustbelcher) [ogre](ogre)s. It is the northernmost camp. There the ogres prey on supply caravans that must traverse the barren [Badlands](Badlands) headed to [Kargath](Kargath) or into the [Searing Gorge](Searing Gorge).
 
 When [Sigrun Ironhew](Sigrun Ironhew) and his men left the [Uldaman](Uldaman) excavation site, they were forced to abandon many wagons and crates of supplies along the way. The ogres from Camp Kosh plundered their abandoned equipment, which consisted of all their weapons and food. He later tasked Alliance adventurers to recover theirs supplies.

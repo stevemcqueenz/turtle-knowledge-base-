@@ -10,4 +10,4 @@ categories: ["Crags", "Eastern Plaguelands subzones", "Oozes", "Pages with broke
 ---
 # Infectis Scar
 
--The Infectis Scar**, as well as its twin, the [Pestilent Scar](Pestilent Scar), are deep pitfalls that were once lakes before the coming of the blight.  Now, they are like deep scars on the land, drained of their water by the corruption of the ground around them.  If a traveler or creature is careless enough to fall into one, the fall can cause serious injury or even death.  The monstrous [ooze](ooze)s that fill the chasms wait for hapless prey to fall in, making for an easy meal.
+**The Infectis Scar**, as well as its twin, the [Pestilent Scar](Pestilent Scar), are deep pitfalls that were once lakes before the coming of the blight.  Now, they are like deep scars on the land, drained of their water by the corruption of the ground around them.  If a traveler or creature is careless enough to fall into one, the fall can cause serious injury or even death.  The monstrous [ooze](ooze)s that fill the chasms wait for hapless prey to fall in, making for an easy meal.

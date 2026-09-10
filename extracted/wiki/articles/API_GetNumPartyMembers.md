@@ -15,13 +15,13 @@ Returns number of party members.
 numberOfPartyMembers = GetNumPartyMembers();
 ----
 
-  - *Arguments***
+** *Arguments***
 
   ; None
 
 ----
 
-  - *Returns***
+** *Returns***
 
    (Number numberOfPartyMembers)
 
@@ -30,16 +30,16 @@ numberOfPartyMembers = GetNumPartyMembers();
 
 ----
 
-  - *Example***
+** *Example***
 
  if ( GetNumPartyMembers() > 0 ) then CastSpellByName("Aura of Retribution"); end
 
-  - *Result***
+** *Result***
 
 Casts Aura of Retribution if player is in a group.
 ----
 
-  - *Description***
+** *Description***
 
    Returns number of party members.
 

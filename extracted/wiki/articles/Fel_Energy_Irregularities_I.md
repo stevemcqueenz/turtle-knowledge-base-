@@ -37,8 +37,8 @@ Do you think you could speak with Wigglestip and gather the report from him? Onc
 
 ## Rewards
 You will receive:
--650 XP
--+25 [reputation](reputation) with [Dalaran](Dalaran (faction))
+- 650 XP
+- +25 [reputation](reputation) with [Dalaran](Dalaran (faction))
 
 ## Progress
 Yes, can I help you?

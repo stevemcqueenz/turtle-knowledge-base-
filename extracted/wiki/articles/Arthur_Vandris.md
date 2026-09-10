@@ -23,13 +23,13 @@ categories: ["Human ghosts", "Quest givers", "Stormwrought Ruins NPCs", "Turtle 
 | location | Stormwrought Court, Stormwrought Ruins |
 | status | Active |
 
--Arthur Vandris** is a [human](human) ghost quest giver located in [Stormwrought Court](Stormwrought Court) in [Stormwrought Ruins](Stormwrought Ruins).
+**Arthur Vandris** is a [human](human) ghost quest giver located in [Stormwrought Court](Stormwrought Court) in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Quests
 - [quest: The Will of Balor] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The halls are cold and barren, devoid of life. Only the oppressive darkness remains.
 
 ## Patch changes

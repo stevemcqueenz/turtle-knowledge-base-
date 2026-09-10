@@ -24,7 +24,7 @@ categories: ["Balor NPCs", "Deceased characters", "Human characters", "SI:7", "T
 | location | Balor |
 | status | Deceased |
 
--Agent Cherys** was an [SI:7](SI:7) agent assigned to investigate the island of [Balor](Balor). During the course of this mission, she and nine fellow agents were discovered while surveying the perimeter around the [Croaking Plateau](Croaking Plateau) and were taken captive. She, along with [Agents Flynn](Agent Flynn) and [Elroy](Elroy), were dragged to a cave beneath [Stormreaver Spire](Stormreaver Spire) to be experimented on, resulting in her body beginning to liquify and dissolve.
+**Agent Cherys** was an [SI:7](SI:7) agent assigned to investigate the island of [Balor](Balor). During the course of this mission, she and nine fellow agents were discovered while surveying the perimeter around the [Croaking Plateau](Croaking Plateau) and were taken captive. She, along with [Agents Flynn](Agent Flynn) and [Elroy](Elroy), were dragged to a cave beneath [Stormreaver Spire](Stormreaver Spire) to be experimented on, resulting in her body beginning to liquify and dissolve.
 
 ## Objective of
 - Must be interacted with for [quest: To The Darkest Places].

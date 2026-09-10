@@ -26,7 +26,7 @@ categories: ["Blasted Lands NPCs", "Dalaran (kingdom)", "Human characters", "Que
 | location | Nethergarde Keep, Blasted Lands |
 | status | Alive |
 
--Commander Baelos** is a [human](human) quest giver located in [Nethergarde Keep](Nethergarde Keep) in [Blasted Lands](Blasted Lands).
+**Commander Baelos** is a [human](human) quest giver located in [Nethergarde Keep](Nethergarde Keep) in [Blasted Lands](Blasted Lands).
 
 ## Quests
 - [quest: Report from Burnside] 
@@ -34,7 +34,7 @@ categories: ["Blasted Lands NPCs", "Dalaran (kingdom)", "Human characters", "Que
 - [quest: Suppressing the Dreadweavers] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Make sure you don't cause any trouble here, we have more then enough problems with all of the fel-warped beasts lurking in the wasteland.
 
 Or maybe you've come to this frontier in order to offer assistance.

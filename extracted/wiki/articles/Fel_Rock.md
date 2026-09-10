@@ -14,11 +14,10 @@ categories: ["Caves", "Pages with broken file links", "Satyr territories", "Teld
 |---|---|
 | 1 | Lord Melenas |
 
--Fel Rock** is a now corrupted cave in [Teldrassil](Teldrassil). This once beautiful cave is located just north of [Dolanaar](Dolanaar) and is infested with many [grell](grell)s. It is also home to the vicious [satyr](satyr) [Lord Melenas](Lord Melenas). The [night elf](night elf) [druid](druid) [Tallonkai Swiftroot](Tallonkai Swiftroot) sends alliance players into this foreboding cave to destroy Lord Melenas during the quest **Twisted Hatred**.
+**Fel Rock** is a now corrupted cave in [Teldrassil](Teldrassil). This once beautiful cave is located just north of [Dolanaar](Dolanaar) and is infested with many [grell](grell)s. It is also home to the vicious [satyr](satyr) [Lord Melenas](Lord Melenas). The [night elf](night elf) [druid](druid) [Tallonkai Swiftroot](Tallonkai Swiftroot) sends alliance players into this foreboding cave to destroy Lord Melenas during the quest **Twisted Hatred**.
 
 ## Denizens
-- 
--  (rare mob)
+- - (rare mob)
 - s
 - s
 - s

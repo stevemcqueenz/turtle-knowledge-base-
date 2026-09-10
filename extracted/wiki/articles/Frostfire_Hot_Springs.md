@@ -10,6 +10,6 @@ categories: ["Furbolg territories", "Pages with broken file links", "Pools", "Wi
 ---
 # Frostfire Hot Springs
 
--Frostfire Hot Springs** are a series of steaming pools at the far western end of [Winterspring](Winterspring). [Donova Snowden](Donova Snowden), who has set up a camp nearby, is very curious about the reasons they appeared in the icy land and what power they hold. She theorizes that perhaps they came to be from demonic interference stemming from [Darkwhisper Gorge](Darkwhisper Gorge) far south in [Winterspring](Winterspring).
+**Frostfire Hot Springs** are a series of steaming pools at the far western end of [Winterspring](Winterspring). [Donova Snowden](Donova Snowden), who has set up a camp nearby, is very curious about the reasons they appeared in the icy land and what power they hold. She theorizes that perhaps they came to be from demonic interference stemming from [Darkwhisper Gorge](Darkwhisper Gorge) far south in [Winterspring](Winterspring).
 
 This is also a good place to fish for [Raw Nightfin Snapper](Raw Nightfin Snapper)s and [Plated Armorfish](Plated Armorfish).

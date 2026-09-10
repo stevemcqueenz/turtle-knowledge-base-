@@ -25,13 +25,13 @@ categories: ["Fungus vendors", "Human characters", "Quest givers", "Swamp of Sor
 | location | Sorrowguard Keep, Swamp of Sorrows |
 | status | Alive |
 
--'Sly' Duncan** is a [human](human) fungus vendor and quest giver located in [Sorrowguard Keep](Sorrowguard Keep) in the [Swamp of Sorrows](Swamp of Sorrows).
+**'Sly' Duncan** is a [human](human) fungus vendor and quest giver located in [Sorrowguard Keep](Sorrowguard Keep) in the [Swamp of Sorrows](Swamp of Sorrows).
 
 ## Quests
 - [quest: Sorrowmoss Mushrooms!] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I'm not allowed inside anymore, but they let me keep my shack!
 
 Looking to buy some mushrooms?

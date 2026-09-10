@@ -26,14 +26,14 @@ categories: ["Dwarf characters", "Ironforge NPCs", "Quest enders", "Scholars", "
 | status | Alive |
 | relatives | Redbrand family |
 
--Torwyn Redbrand** is a [dwarf](dwarf) [quest ender](quest ender) located in the [Mystic Ward](Mystic Ward) in [Ironforge](Ironforge). A historian for the [Redbrand family](Redbrand family), he has made it his life's goal to complete his family's lineage. (ref: [quest: The Redbrand Lie])
+**Torwyn Redbrand** is a [dwarf](dwarf) [quest ender](quest ender) located in the [Mystic Ward](Mystic Ward) in [Ironforge](Ironforge). A historian for the [Redbrand family](Redbrand family), he has made it his life's goal to complete his family's lineage. (ref: [quest: The Redbrand Lie])
 
 ## Quests
 - [quest: The Redbrand Archive] 
 - [quest: The Redbrand Lie] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Ours is a rich history, full of distinction and honor. We once served as the right hand to the Bronzebeards, but there have been many unfortunate incidents within the past few generations.
 
 I have been looking for assistance in collecting a number of our lost chronicles. Perhaps you could be of help?

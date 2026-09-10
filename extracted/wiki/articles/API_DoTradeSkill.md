@@ -13,7 +13,7 @@ categories: ["API Functions"]
 Performs the tradeskill a specified # of times
 ----
 
-  - *Arguments***
+** *Arguments***
 
    (Number index, Number repeat)
 
@@ -24,13 +24,13 @@ Performs the tradeskill a specified # of times
 
 ----
 
-  - *Returns***
+** *Returns***
 
   ; nil
 
 ----
 
-  - *Example***
+** *Example***
 
  DoTradeSkill(index, repeat);
 or

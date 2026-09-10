@@ -25,21 +25,21 @@ categories: ["Bosses", "Tauren characters", "Turtle WoW content", "Windhorn Cany
 | status | Killable |
 | instance | Windhorn Canyon |
 
--Chieftain Shalk Blackwind** is the final boss of [Windhorn Canyon](Windhorn Canyon).
+**Chieftain Shalk Blackwind** is the final boss of [Windhorn Canyon](Windhorn Canyon).
 
 ## Abilities
 - Berserker Charge
 - Flame of Shalk
 
 ## Quotes
-  -Aggro**
+**Aggro**
   Be destroyed by my hands!
 
-  -At 50%**
+**At 50%**
   The Grimtotem will endure!
   **Blackwind Bloodguard yells:** Chieftain I come to your aid!
 
-  -Death**
+**Death**
   My death means little... the Grimtotem shall not be defeated...
 
 ## Loot

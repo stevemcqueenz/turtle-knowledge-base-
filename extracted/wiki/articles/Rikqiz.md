@@ -25,6 +25,6 @@ categories: ["Booty Bay characters", "Goblin characters", "Leatherworking vendor
 | location | Booty Bay, Stranglethorn Vale |
 | status | Alive |
 
--Rikqiz** is a [goblin](goblin) [leatherworking](leatherworking) [vendor](vendor) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale).
+**Rikqiz** is a [goblin](goblin) [leatherworking](leatherworking) [vendor](vendor) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale).
 
 ## External links

@@ -23,4 +23,4 @@ categories: ["Barrens subzones", "Dwarf territories", "Explorers' League", "Keep
 | loc | Bael Modan, Southern Barrens |
 | status | Active |
 
--Bael'dun Keep** is the fortress (ref: [Bael'dun Fortress Schematics](Bael'dun Fortress Schematics)) that overlooks the [Bael Modan](Bael Modan) digsite in the [southern Barrens](southern Barrens). It is inhabited by a force of [dwarves](Dwarf) that are hostile to [Horde](Horde) players. [Gann Stonespire](Gann Stonespire) and [Feegly the Exiled](Feegly the Exiled) give out quests to raid the stronghold, which is ruled by the cunning [General Twinbraid](General Twinbraid).
+**Bael'dun Keep** is the fortress (ref: [Bael'dun Fortress Schematics](Bael'dun Fortress Schematics)) that overlooks the [Bael Modan](Bael Modan) digsite in the [southern Barrens](southern Barrens). It is inhabited by a force of [dwarves](Dwarf) that are hostile to [Horde](Horde) players. [Gann Stonespire](Gann Stonespire) and [Feegly the Exiled](Feegly the Exiled) give out quests to raid the stronghold, which is ruled by the cunning [General Twinbraid](General Twinbraid).

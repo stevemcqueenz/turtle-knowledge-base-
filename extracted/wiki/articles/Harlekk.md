@@ -26,14 +26,14 @@ categories: ["Engineers", "Grim Reaches NPCs", "Orc characters", "Quest givers",
 | location | Shatterblade Post, Grim Reaches |
 | status | Alive |
 
--Harlekk** is an [orc](orc) quest giver located in the outpost of [Shatterblade Post](Shatterblade Post) in the [Grim Reaches](Grim Reaches).
+**Harlekk** is an [orc](orc) quest giver located in the outpost of [Shatterblade Post](Shatterblade Post) in the [Grim Reaches](Grim Reaches).
 
 ## Quests
 - [quest: Dark Iron Components] 
 - [quest: Scavenging the Wrecks] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Blasted, shoddy work. Our siege machines are crude and out dated, this design of catapult could be severely improved. If we are to ever make our place in Grim Reaches we will need vastly superior equipment and machinery to facilitate capable assaults.
 
 I'm going to have to work overtime if they expect me to do anything substantial. I don't suspect we can go back to the old horde mantra of - "Throw more orcs at the problem". We're lacking manpower as it is.

@@ -13,7 +13,7 @@ categories: ["Addon"]
 AtlasQuest provides detailed quest information for dungeons, raids, and instances. It integrates with Atlas and AlphaMap to display quests directly on the map, making it easier to find and complete quests in your dungeons.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **AtlasQuest** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **AtlasQuest** up to date is by using [GitAddonsManager]
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -30,9 +30,9 @@ If you prefer manual installation, follow these steps:
 # Unpack the <code>.zip</code> and rename the folder to AtlasQuest, removing the <code>-master</code> suffix.
 # Move the folder into your <code>Interface/AddOns</code> directory and restart the game.
 
-  -Required**: In order for AtlasQuest to function, it requires **[Atlas](Atlas).**
+**Required**: In order for AtlasQuest to function, it requires **[Atlas](Atlas).**
 
-  -Optional**: **[AtlasLoot](AtlasLoot)**
+**Optional**: **[AtlasLoot](AtlasLoot)**
 
 ## Git Links
 - [**(Otari98)**](https://github.com/Otari98/AtlasQuest)
@@ -65,15 +65,15 @@ If you prefer manual installation, follow these steps:
 |}
 
 ## Features & Usage Tips
-  -Viewing Quests**
+**Viewing Quests**
 - Select an instance or dungeon from the list.
 - The panel will display available quests, color-coded by difficulty and whether they are in your quest log.
 - Use the **Next/Previous** buttons to navigate through multiple pages of quests.
 - Check "Finished" to mark quests as completed.
-  -Map Integration**
+**Map Integration**
 - The addon automatically shows/hides based on whether you're using Atlas or AlphaMap.
 - You can switch the display side (left/right) in options for your preference.
-  -Item Tooltips**
+**Item Tooltips**
 - Hover over quest items for detailed info.
 - Right-click items to view them in your inventory.
 - Shift + Click on quest items to insert a clickable link into chat.
@@ -81,7 +81,7 @@ If you prefer manual installation, follow these steps:
 
 ## Preview
 ## Configuration & Options
-  -Accessing Options**
+**Accessing Options**
 
 - Open the options panel via <code>/aq</code> and select **Options**.
 - Customize:
@@ -91,7 +91,7 @@ If you prefer manual installation, follow these steps:
   - Auto-query server for item info
   - Show quest notes and descriptions
 
-  -Key Options**
+**Key Options**
 
 - **Auto Show**: Automatically opens the quest panel when entering a dungeon.
 - **Side Selection**: Choose whether the panel appears on the left or right side of your map.

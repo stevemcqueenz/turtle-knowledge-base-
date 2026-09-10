@@ -25,7 +25,7 @@ categories: ["Alchemy trainers", "Human characters", "Northwind NPCs", "Quest gi
 | location | Witch Coven, Northwind |
 | status | Alive |
 
--The Witch of Northwind** is a [human](human) alchemy trainer and quest giver located at the [Witch Coven](Witch Coven) in [Northwind](Northwind). She is the head of a coven of which [Lydia Birkton](Mayor Birkton) was once a part of, before she left to become mayor of [Ambershire](Ambershire). (ref: [quest: Deathcap And Widow's Frill])
+**The Witch of Northwind** is a [human](human) alchemy trainer and quest giver located at the [Witch Coven](Witch Coven) in [Northwind](Northwind). She is the head of a coven of which [Lydia Birkton](Mayor Birkton) was once a part of, before she left to become mayor of [Ambershire](Ambershire). (ref: [quest: Deathcap And Widow's Frill])
 
 ## Quests
 - [quest: Still Not Enough] 
@@ -36,7 +36,7 @@ categories: ["Alchemy trainers", "Human characters", "Northwind NPCs", "Quest gi
 - [quest: Shadow's Vision] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Lost your way, darling?
 
 ## Patch changes

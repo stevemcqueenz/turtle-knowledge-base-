@@ -13,9 +13,7 @@ categories: ["Farms", "Gilneas subzones", "Turtle WoW content", "Worgen territor
 The **Overgrown Acre** is an abandoned farm in [Gilneas](Gilneas) that is overrun by [worgen](worgen) of the [Bloodclaw](Bloodclaw) pack.
 
 ## NPCs
-- 
-- 
--  (rare elite)
+- - - (rare elite)
 
 ## Speculation
 Given the presence of [Maltimor's Prototype](Maltimor's Prototype), which drops the [Gartside Family Wrench](Gartside Family Wrench), this may have once been the home of [Maltimor Gartside](Maltimor Gartside).

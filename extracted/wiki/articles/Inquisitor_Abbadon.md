@@ -25,13 +25,13 @@ categories: ["Human characters", "Northwind NPCs", "Quest givers", "Scarlet Crus
 | status | Alive |
 | location | The Plump Pumpkin, Northwind |
 
--Inquisitor Abbadon** is a [human](human) quest giver in the [Plump Pumpkin](Plump Pumpkin) in [Northwind](Northwind).
+**Inquisitor Abbadon** is a [human](human) quest giver in the [Plump Pumpkin](Plump Pumpkin) in [Northwind](Northwind).
 
 ## Quests
 - [quest: An Amber Light] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I feel sullied by the stench of alcohol and misery of this place. Is this how the people of Stormwind pay reverence to the Light?
 
 ## Patch changes

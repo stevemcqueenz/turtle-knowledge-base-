@@ -26,7 +26,7 @@ categories: ["Durotar NPCs", "Foremen", "Goblin characters", "Quest givers", "Re
 | location | Sparkwater Port, Durotar |
 | status | Alive |
 
--Nert Blastentom** is the Grand Taskmaster of the [Durotar Labor Union](Durotar Labor Union).
+**Nert Blastentom** is the Grand Taskmaster of the [Durotar Labor Union](Durotar Labor Union).
 
 ## Biography
 Nert once worked as part of the Venture Company's brute squads, later becoming a foreman as he grew older.

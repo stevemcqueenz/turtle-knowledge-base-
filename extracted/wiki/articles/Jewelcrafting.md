@@ -83,62 +83,62 @@ The ring/neck enchantments work like normal enchantments through the trade windo
 |Small Red Gem on the ground, Hateforge Quarry
 |}
 
-  -Plans: Gorgeous Mountain Gemstone  - BoE** 
+**Plans: Gorgeous Mountain Gemstone  - BoE** 
 
 - Requires Jewelcrafting (300)
 - Requires Gemology
 - Use: Teaches you how to craft a Gorgeous Mountain Gemstone.
 
-  -Gorgeous Mountain Gemstone - BoP**
+**Gorgeous Mountain Gemstone - BoP**
 
 - Binds when picked up
 - Use: Permanently enchant a ring or amulet to increase Block chance by 1%. 
 - Only usable on items level 25 and above.
 - Requires Blood of the Mountain, Heart of Fire (6), Enchanted Gemstone Oil, Dense Gritted Paper (2)
-  -Plans: Arcane Emerald Gemstone** 
+**Plans: Arcane Emerald Gemstone** 
 
 - Requires Jewelcrafting (295) 
 - Requires Gemology
 - Use: Teaches you how to craft a Arcane Emerald Gemstone.
 
-  -Arcane Emerald Gemstone**
+**Arcane Emerald Gemstone**
 
 - Binds when picked up
 - Use: Permanently enchant a ring or amulet to increase Spell damage by 5. 
 - Only usable on items level 25 and above.
 - Requires Arcane Crystal, Huge Emerald, Large Brilliant Shard, Dense Gritted Paper (2), Enchanted Gemstone Oil
 
-  -Plans: Tempered Azerothian Gemstone - BoE**
+**Plans: Tempered Azerothian Gemstone - BoE**
 
 - Requires Jewelcrafting (275) 
 - Requires Gemology
 - Use: Teaches you how to craft Tempered Azerothian Gemstone.
 
-  -Tempered Azerothian Gemstone - BoP** 
+**Tempered Azerothian Gemstone - BoP** 
 
 - Binds when picked up
 - Use: Permanently enchant a ring or amulet to increase Stamina by 6. 
 - Only usable on e on items level 25 and above.
 - Requires Azerothian Diamond (2),e Dense Gritted Paper, Gemstone Oil
-  -Plans: Beautiful Diamond Gemstone -BoE**
+**Plans: Beautiful Diamond Gemstone -BoE**
 
 - Requires Jewelcrafting (270) 
 - Requires Gemology
 - Use: Teaches you how to craft a Beautiful Diamond Gemstone.
 
-  -Beautiful Diamond Gemstone -BoP** 
+**Beautiful Diamond Gemstone -BoP** 
 
 - Binds when picked up
 - Use: Permanently enchant a ring or amulet to increase Healing by 12. 
 - Only usable on items level 25 and above.
 - Requires Azerothian Diamond (2), Heavy Gritted Paper (2), Gemstone Oil
-  -Plans: Enchanted Emerald Gemstone - BoE**
+**Plans: Enchanted Emerald Gemstone - BoE**
 
 - Requires Jewelcrafting (250) 
 - Requires Gemology
 - Use: Teaches you how to craft a Enchanted Emerald Gemstone.
 
-  -Enchanted Emerald Gemstone - BoP**
+**Enchanted Emerald Gemstone - BoP**
 
 - Binds when picked up
 - Use: Permanently enchant a ring or amulet to increase Nature damage by 9. 

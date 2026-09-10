@@ -10,4 +10,4 @@ categories: ["Alterac Mountains subzones", "Cats", "Crags", "Pages with broken f
 ---
 # Sofera's Naze
 
--Sofera's Naze** is a small [Syndicate](Syndicate) camp pitched on a hill overlooking [Hillsbrad](Hillsbrad).
+**Sofera's Naze** is a small [Syndicate](Syndicate) camp pitched on a hill overlooking [Hillsbrad](Hillsbrad).

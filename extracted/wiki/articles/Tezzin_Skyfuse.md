@@ -26,7 +26,7 @@ categories: ["Flight masters", "Goblin characters", "Tel'Abim NPCs", "Turtle WoW
 | location | Tel Co. Basecamp, Tel'Abim |
 | status | Alive |
 
--Tezzin Skyfuse** is a [goblin](goblin) flight master located in [Tel Co. Basecamp](Tel Co. Basecamp) in [Tel'Abim](Tel'Abim).
+**Tezzin Skyfuse** is a [goblin](goblin) flight master located in [Tel Co. Basecamp](Tel Co. Basecamp) in [Tel'Abim](Tel'Abim).
 
 ## Flight paths
 See [Tel Co. Basecamp#Travel connections](Tel Co. Basecamp#Travel connections).

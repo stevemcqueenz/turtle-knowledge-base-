@@ -10,4 +10,4 @@ categories: ["Geography"]
 ---
 # Category:Forests
 
--Forests** are found all over both worlds. Many are very large, while others are very small. Some are found in the tropics, while others are found far to the north. [Northern Kalimdor](Northern Kalimdor) is almost completely covered by forest, as is much of northern [Lordaeron](Lordaeron).
+**Forests** are found all over both worlds. Many are very large, while others are very small. Some are found in the tropics, while others are found far to the north. [Northern Kalimdor](Northern Kalimdor) is almost completely covered by forest, as is much of northern [Lordaeron](Lordaeron).

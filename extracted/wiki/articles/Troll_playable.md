@@ -18,12 +18,12 @@ Young trolls start out in the [Valley of Trials](Valley of Trials) along with th
 
 ## Background
 ### Creation screen description
--Once at home in the jungles of Stranglethorn Vale, the fierce trolls of the Darkspear tribe were pushed out by warring factions. Eventually the trolls befriended the orcish Horde, and Thrall, the orcs' young warchief, convinced the trolls to travel with him to Kalimdor. Though they cling to their shadowy heritage, the Darkspear trolls hold a place of honor in the Horde.*
+*Once at home in the jungles of Stranglethorn Vale, the fierce trolls of the Darkspear tribe were pushed out by warring factions. Eventually the trolls befriended the orcish Horde, and Thrall, the orcs' young warchief, convinced the trolls to travel with him to Kalimdor. Though they cling to their shadowy heritage, the Darkspear trolls hold a place of honor in the Horde.*
 
 ### Opening cutscene
--The vicious trolls that populate the numerous jungle isles of the South Seas, are renowned for their cruelty and dark mysticism. Barbarous and superstitious, they carry a seething hatred for all other races. Long since exiled from their ancestral homeland in Stranglethorn Vale, the Darkspear tribe was nearly destroyed by rampaging murlocs. Rescued by the young Warchief Thrall and his orcish warriors, the Darkspear tribe swore an allegiance to the Horde.*
+*The vicious trolls that populate the numerous jungle isles of the South Seas, are renowned for their cruelty and dark mysticism. Barbarous and superstitious, they carry a seething hatred for all other races. Long since exiled from their ancestral homeland in Stranglethorn Vale, the Darkspear tribe was nearly destroyed by rampaging murlocs. Rescued by the young Warchief Thrall and his orcish warriors, the Darkspear tribe swore an allegiance to the Horde.*
 
--Led by the cunning Shadow Hunter, Vol'jin, the Darkspears now make their home in Durotar along with their orcish allies. As one of the only surviving Darkspears, it falls to you to reclaim the glory of your tribe.*
+*Led by the cunning Shadow Hunter, Vol'jin, the Darkspears now make their home in Durotar along with their orcish allies. As one of the only surviving Darkspears, it falls to you to reclaim the glory of your tribe.*
 
 ## Character
 ### Classes
@@ -61,7 +61,7 @@ Young trolls start out in the [Valley of Trials](Valley of Trials) along with th
 
 ## Videos
 ## Patch changes
--  **[Patch 1.17.2](Patch 1.17.2) (2024-11-01):**
+- **[Patch 1.17.2](Patch 1.17.2) (2024-11-01):**
   - Weapon skill racials have been reduced from +5 to +3.
   - Berserking now grants between 10% - 15% attack and casting speed depending on how badly you are hurt instead of between 10% - 30%.
   - Regeneration now increases health regeneration by 20% instead of 10% and allows 25% of total health regeneration to continue in combat instead of 10%.

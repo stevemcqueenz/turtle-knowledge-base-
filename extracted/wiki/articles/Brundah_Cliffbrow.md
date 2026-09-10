@@ -26,10 +26,10 @@ categories: ["Dwarf characters", "Innkeepers", "Stonetalon Mountains NPCs", "Tur
 | status | Alive |
 | relatives | Throki Cliffbrow |
 
--Brundah Cliffbrow** is a [dwarf](dwarf) innkeeper located in [Hardul Distillery](Hardul Distillery) in [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains).
+**Brundah Cliffbrow** is a [dwarf](dwarf) innkeeper located in [Hardul Distillery](Hardul Distillery) in [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Welcome! Make yourself comfortable. We have plenty of ale and lodging should you need a rest.
 
 ## Patch changes

@@ -25,10 +25,10 @@ categories: ["Human characters", "Kul Tiras (kingdom)", "Stormwind City NPCs", "
 | location | Petitioner's Chamber, Stormwind Keep, Stormwind City |
 | status | Alive |
 
--Emissary Godwin Valorcall** is a [human](human) located in the [Petitioner's Chamber](Petitioner's Chamber) in [Stormwind City](Stormwind City).
+**Emissary Godwin Valorcall** is a [human](human) located in the [Petitioner's Chamber](Petitioner's Chamber) in [Stormwind City](Stormwind City).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The ambitions and desires of Kul Tiras are a complicated matter. Our goal here is to determine the true value of these southerners and to see if mainlanders can be trusted.
 
 Should the nobility of Stormwind prove themselves loyal to the old ways and old causes, then perhaps there may be a future of cooperation.

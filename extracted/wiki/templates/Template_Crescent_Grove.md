@@ -29,19 +29,19 @@ categories: ["Instance navigation templates"]
 [Master Raxxieth](Master Raxxieth)
 
 |
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 |-
 | class="title" colspan="2"| [Loot](Crescent Grove loot)
 |}

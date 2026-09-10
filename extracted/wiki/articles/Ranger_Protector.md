@@ -23,7 +23,7 @@ categories: ["Alah'Thalas NPCs", "Farstriders", "Guards", "High elf characters",
 | gender | Both |
 | location | Various |
 
--Ranger Protectors** are high elven guards located at various locations occupied by the [Silvermoon Remnant](Silvermoon Remnant). They guard the [Farstrider Lodge](Farstrider Lodge) in [Loch Modan](Loch Modan), [Little Silvermoon](Little Silvermoon) in [Stormwind City](Stormwind City), and a handful are present in the high elf capital of [Alah'Thalas](Alah'Thalas) below the [Golden Dawn Institute](Golden Dawn Institute) with [Damilara Sunsorrow](Damilara Sunsorrow). Two Ranger Protectors are also present in [Tirisfal Glades](Tirisfal Glades), guarding [Scryer Lordal Thas'alah](Scryer Lordal Thas'alah).
+**Ranger Protectors** are high elven guards located at various locations occupied by the [Silvermoon Remnant](Silvermoon Remnant). They guard the [Farstrider Lodge](Farstrider Lodge) in [Loch Modan](Loch Modan), [Little Silvermoon](Little Silvermoon) in [Stormwind City](Stormwind City), and a handful are present in the high elf capital of [Alah'Thalas](Alah'Thalas) below the [Golden Dawn Institute](Golden Dawn Institute) with [Damilara Sunsorrow](Damilara Sunsorrow). Two Ranger Protectors are also present in [Tirisfal Glades](Tirisfal Glades), guarding [Scryer Lordal Thas'alah](Scryer Lordal Thas'alah).
 
 ## Patch changes
 - (Patch 1.17.1|note=Most Ranger Protectors in Alah'Thalas were replaced with [Alah'Thalas Sentinel](Alah'Thalas Sentinel)s.)

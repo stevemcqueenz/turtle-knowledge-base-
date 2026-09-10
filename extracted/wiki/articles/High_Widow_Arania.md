@@ -25,7 +25,7 @@ categories: ["Cult of the Damned", "Eastern Plaguelands mobs", "Human characters
 | location | The Widow's Nest, Eastern Plaguelands |
 | status | Killable |
 
--High Widow Arania** is a [human](human) member of the [Cult of the Damned](Cult of the Damned) located in the [Widow's Nest](Widow's Nest), a mine found in [Forlorn Summit](Forlorn Summit) in the [Eastern Plaguelands](Eastern Plaguelands). [Lord Maxwell Tyrosus](Lord Maxwell Tyrosus) wants her killed to eliminate the Cult's leadership in the Summit.
+**High Widow Arania** is a [human](human) member of the [Cult of the Damned](Cult of the Damned) located in the [Widow's Nest](Widow's Nest), a mine found in [Forlorn Summit](Forlorn Summit) in the [Eastern Plaguelands](Eastern Plaguelands). [Lord Maxwell Tyrosus](Lord Maxwell Tyrosus) wants her killed to eliminate the Cult's leadership in the Summit.
 
 ## Objective of
 - [quest: The Wrath Of The Light Fall Upon Thee]

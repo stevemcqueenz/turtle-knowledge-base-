@@ -25,7 +25,7 @@ categories: ["Moonwhisper Coast NPCs", "Night elf characters", "Quest givers", "
 | location | Narvalis Point, Moonwhisper Coast |
 | status | Alive |
 
--Sentinel Commander Silverstreak** is a [night elf](night elf) quest giver located in [Narvalis Point](Narvalis Point) in [Moonwhisper Coast](Moonwhisper Coast).
+**Sentinel Commander Silverstreak** is a [night elf](night elf) quest giver located in [Narvalis Point](Narvalis Point) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: Endless Vigil] 
@@ -35,7 +35,7 @@ categories: ["Moonwhisper Coast NPCs", "Night elf characters", "Quest givers", "
 - [quest: Word to the High Priestess] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 This expedition is here on behalf of Commander Shandris Feathermoon. Our scouts have reported strange happenings along the coast, from formerly peaceful furbolgs rampaging through the woods to the local druidic circles abandoning communication. We may have lessened our watch over this coast after the Betrayer razed Nendis, that is correct. Yet this is still Kaldorei land, and as such it is the duty of the vigilant Sentinels to restore order, with an iron fist if necessary.
 
 ## Patch changes

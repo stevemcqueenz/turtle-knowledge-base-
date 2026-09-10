@@ -25,10 +25,10 @@ categories: ["Grim Reaches NPCs", "Politicians", "Turtle WoW content", "Wildhamm
 | location | Dun Kithas Magistrate, Grim Reaches |
 | status | Alive |
 
--Alfog Bravebrew** is a [Wildhammer dwarf](Wildhammer dwarf) located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
+**Alfog Bravebrew** is a [Wildhammer dwarf](Wildhammer dwarf) located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 If we are to ever have peace for our people than our actions must be decisive! The orcs have spent far too long within the Grim Reaches and it is about time they are expelled.
 
 ## Patch changes

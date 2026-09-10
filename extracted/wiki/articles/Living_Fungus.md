@@ -48,9 +48,9 @@ This task can wait, but I would rather you fulfill it as quickly as possible.
 You have my thanks—and with them, a reward.
 
 ## Progression
-1.[quest: Living Fungus]
-1.[quest: Mycellakos]
-1.[quest: The Matron Will Know]
+1. [quest: Living Fungus]
+1. [quest: Mycellakos]
+1. [quest: The Matron Will Know]
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

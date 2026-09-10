@@ -26,17 +26,17 @@ categories: ["Bosses", "Gilneas (kingdom)", "Gilneas City mobs", "Human characte
 | status | Killable |
 | instance | Gilneas City |
 
--Marshal Magnus Greystone** is a boss in [Gilneas City](Gilneas City). A veteran of the [Second War](Second War) who served [Gilneas](Gilneas (kingdom)) against the Orcish Horde, Greystone was the commander of the defenses of Gilneas City at the height of the [Gilnean civil war](Gilnean civil war).
+**Marshal Magnus Greystone** is a boss in [Gilneas City](Gilneas City). A veteran of the [Second War](Second War) who served [Gilneas](Gilneas (kingdom)) against the Orcish Horde, Greystone was the commander of the defenses of Gilneas City at the height of the [Gilnean civil war](Gilnean civil war).
 
 ## Abilities
 - Holy Fire
 - Slam
 
 ## Quotes
-  -Aggro**
+**Aggro**
   I have served as Marshal throughout all of the orcish incursions. You will not put an end to Gilneas.
 
-  -Death**
+**Death**
   The brave defenders of this city... will not let you put it to ruin, outsider!
 
 ## Loot

@@ -25,7 +25,7 @@ categories: ["High elf characters", "Tirisfal Glades mobs", "Turtle WoW content"
 | gender | Male |
 | location | Remnants Camp, Tirisfal Glades |
 
--Remnants Priests** are high elves found in the [Remnants Camp](Remnants Camp) in [Tirisfal Glades](Tirisfal Glades).
+**Remnants Priests** are high elves found in the [Remnants Camp](Remnants Camp) in [Tirisfal Glades](Tirisfal Glades).
 
 ## Objective of
 - [quest: Fall Of The Usurper]

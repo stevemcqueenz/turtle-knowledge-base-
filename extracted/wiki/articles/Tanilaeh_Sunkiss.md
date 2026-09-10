@@ -25,7 +25,7 @@ categories: ["High elf characters", "Quest givers", "Removed Alah'Thalas NPCs", 
 | location | Unknown |
 | status | Unknown |
 
--Tanilaeh Sunkiss** is a [high elf](high elf) who was located in the [Golden Dawn Institute](Golden Dawn Institute) in [Alah'Thalas](Alah'Thalas) and teleported adventurers to [Stormwind City](Stormwind City).
+**Tanilaeh Sunkiss** is a [high elf](high elf) who was located in the [Golden Dawn Institute](Golden Dawn Institute) in [Alah'Thalas](Alah'Thalas) and teleported adventurers to [Stormwind City](Stormwind City).
 
 ## Quests
 - [quest: To Alah'Thalas!] 

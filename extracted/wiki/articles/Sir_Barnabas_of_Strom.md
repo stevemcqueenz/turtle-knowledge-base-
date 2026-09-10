@@ -24,7 +24,7 @@ categories: ["Human characters", "Northwind NPCs", "Stromgarde (kingdom)", "Turt
 | location | Jousting Grounds, Northwind |
 | status | Alive |
 
--Sir Barnabas of Strom** is a human located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind). One of the participants in the Northwind jousting tournament representing the [kingdom of Stromgarde](Stromgarde (kingdom)), he faces off against [Lumiere of Dalaran](Lumiere of Dalaran).
+**Sir Barnabas of Strom** is a human located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind). One of the participants in the Northwind jousting tournament representing the [kingdom of Stromgarde](Stromgarde (kingdom)), he faces off against [Lumiere of Dalaran](Lumiere of Dalaran).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

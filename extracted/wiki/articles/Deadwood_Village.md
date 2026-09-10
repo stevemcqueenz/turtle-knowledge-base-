@@ -10,7 +10,7 @@ categories: ["Deadwood tribe", "Felwood subzones", "Furbolg territories", "Pages
 ---
 # Deadwood Village
 
--Deadwood Village** is a [village](village) of the [Deadwood tribe](Deadwood tribe) of [corrupted furbolg](corrupted furbolg)s in southern [Felwood](Felwood). The Deadwood furbolgs, like most of their kin, are corrupted and . Killing the Deadwoods is a good way to gain [reputation](reputation) with the furbolgs of [Timbermaw Hold](Timbermaw Hold).
+**Deadwood Village** is a [village](village) of the [Deadwood tribe](Deadwood tribe) of [corrupted furbolg](corrupted furbolg)s in southern [Felwood](Felwood). The Deadwood furbolgs, like most of their kin, are corrupted and . Killing the Deadwoods is a good way to gain [reputation](reputation) with the furbolgs of [Timbermaw Hold](Timbermaw Hold).
 
 ## Quests to get before arriving
 - [quest: Timbermaw Ally] - From [Grazle](Grazle) in [Emerald Sanctuary](Emerald Sanctuary).

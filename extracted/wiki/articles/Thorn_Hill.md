@@ -10,4 +10,4 @@ categories: ["Barrens subzones", "Pages with broken file links", "Quilboar"]
 ---
 # Thorn Hill
 
--Thorn Hill** is a sizable hill nestled on the north face of a mountain top between the [Crossroads](Crossroads) and [Durotar](Durotar). It is populated by a large number of [Quilboar](Quilboar) who have recently been raiding [Horde](Horde) caravans in the region, and thus have attracted the ire of the local security forces. Thorn Hill is led by the cunning quilboar raider named [Kreenig Snarlsnout](Kreenig Snarlsnout).
+**Thorn Hill** is a sizable hill nestled on the north face of a mountain top between the [Crossroads](Crossroads) and [Durotar](Durotar). It is populated by a large number of [Quilboar](Quilboar) who have recently been raiding [Horde](Horde) caravans in the region, and thus have attracted the ire of the local security forces. Thorn Hill is led by the cunning quilboar raider named [Kreenig Snarlsnout](Kreenig Snarlsnout).

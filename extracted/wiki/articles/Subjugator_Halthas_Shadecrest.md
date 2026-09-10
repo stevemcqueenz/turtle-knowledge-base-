@@ -26,20 +26,20 @@ categories: ["Bosses", "Night elf characters", "Shadow Council", "Stormwrought R
 | status | Killable |
 | instance | Stormwrought Ruins |
 
--Subjugator Halthas Shadecrest** is a boss in [Stormwrought Ruins](Stormwrought Ruins).
+**Subjugator Halthas Shadecrest** is a boss in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Abilities
 - Fear
 - Flamestrike
 
 ## Quotes
-  -Aggro**
+**Aggro**
   You shall be brought under heel intruder...
 
-  -During combat**
+**During combat**
   My will is unbreakably, you shall bend your knee.
 
-  -Death**
+**Death**
   This cannot be! I was going to change the world!
 
 ## Loot

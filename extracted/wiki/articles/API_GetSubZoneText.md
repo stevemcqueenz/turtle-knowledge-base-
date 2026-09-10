@@ -15,28 +15,28 @@ Returns the subzone name.
  GetSubZoneText();
 </syntaxhighlight>
 ----
-  -*Arguments***
+***Arguments***
 
   *none*
 
 ----
-  -*Returns***
+***Returns***
 
   String subzone
   ;subzone : string, subzone name or an empty string (if not in a subzone).
 
 ----
-  -*Example***
+***Example***
 <syntaxhighlight lang="lua">
  local subzone = GetSubZoneText();
  message(subzone);
 </syntaxhighlight>
-  -*Result***
+***Result***
 <syntaxhighlight lang="lua">
  Message box appears with current subzone text.
 </syntaxhighlight>
 ----
-  -*Description***
+***Description***
 
    Returns the subzone text, if the player is a subzone. The event '"ZONE_CHANGED"' is triggered when the text changes. See also the related functions [GetMinimapZoneText](API_GetMinimapZoneText) and [GetZoneText](API_GetZoneText).
    Additional note: Blizzard also registers the event **ZONE_CHANGED_INDOORS**. If you know what this event is used for, please edit the page.

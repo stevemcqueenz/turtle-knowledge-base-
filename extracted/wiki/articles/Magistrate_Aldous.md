@@ -25,7 +25,7 @@ categories: ["Human characters", "Politicians", "Scarlet Crusade", "Scarlet Encl
 | location | New Avalon Town Hall, Scarlet Enclave |
 | status | Killable |
 
--Magistrate Aldous** is an elite [human](human) located in the [New Avalon Town Hall](New Avalon Town Hall) in the [Scarlet Enclave](Scarlet Enclave).
+**Magistrate Aldous** is an elite [human](human) located in the [New Avalon Town Hall](New Avalon Town Hall) in the [Scarlet Enclave](Scarlet Enclave).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

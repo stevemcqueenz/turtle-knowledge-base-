@@ -25,10 +25,10 @@ categories: ["Booty Bay characters", "Goblin characters", "Stranglethorn Vale NP
 | location | Booty Bay, Stranglethorn Vale |
 | status | Alive |
 
--Spanessa Fogwater** is a [goblin](goblin) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale).
+**Spanessa Fogwater** is a [goblin](goblin) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Waiting for the Captain to send word back, he's taking his time.
 
 ## Patch changes

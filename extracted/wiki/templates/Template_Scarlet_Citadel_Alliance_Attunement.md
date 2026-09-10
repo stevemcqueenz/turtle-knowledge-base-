@@ -17,8 +17,8 @@ categories: []
 #  [60] [Thandol Span (quest)](Thandol Span (quest))
 #  [60] [Are You True to Your Nature?](Are You True to Your Nature?)
 # Complete one of:
-1.*  [60] [The Means of Persuading](The Means of Persuading)
-1.*  [60] [Seeking Justice or Vengeance?](Seeking Justice or Vengeance?)
+1. *  [60] [The Means of Persuading](The Means of Persuading)
+1. *  [60] [Seeking Justice or Vengeance?](Seeking Justice or Vengeance?)
 #  [60] [The Price Of Information](The Price Of Information)
 #  [60] [Scarlet Aid](Scarlet Aid)
 #  [60] [Donning the Red Flag](Donning the Red Flag)

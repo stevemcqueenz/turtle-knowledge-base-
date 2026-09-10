@@ -26,7 +26,7 @@ categories: ["Bloodsail Buccaneers", "Gnome characters", "Quest givers", "Strang
 | location | Booty Bay, Stranglethorn Vale, Bloodsail Retreat, Stranglethorn Vale |
 | status | Alive |
 
--Garfield Sparkblast** is a [gnome](gnome) [quest giver](quest giver) located in [Booty Bay](Booty Bay) and aboard the ship at [Bloodsail Retreat](Bloodsail Retreat) in the [Stranglethorn Vale](Stranglethorn Vale).
+**Garfield Sparkblast** is a [gnome](gnome) [quest giver](quest giver) located in [Booty Bay](Booty Bay) and aboard the ship at [Bloodsail Retreat](Bloodsail Retreat) in the [Stranglethorn Vale](Stranglethorn Vale).
 
 ## Quests
 - [quest: Red Flag over the Sea] 
@@ -44,7 +44,7 @@ categories: ["Bloodsail Buccaneers", "Gnome characters", "Quest givers", "Strang
 - [quest: Captain of the Bloodsail Buccaneers] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Ahoy matey, I am very curious to see what new chapter for the Bloodsail Buccaneers you will be painting. I will be watching the Cap'n's lodge for a while but when ye come here to rest or spend some alone time I will be gone.
 
 ## External links

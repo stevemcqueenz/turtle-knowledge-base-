@@ -13,14 +13,7 @@ categories: ["Caves", "Furbolg territories", "Moonwhisper Coast subzones", "Turt
 The **Maw of Ursol** is a furbolg den located in [Moonwhisper Coast](Moonwhisper Coast), at the heart of [Blackroot Hold](Blackroot Hold).
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
-- 
-
-## See also
+- - - - - - ## See also
 - [Maw of Ursoc](Maw of Ursoc)
 
 ## Patch changes

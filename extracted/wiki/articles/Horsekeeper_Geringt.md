@@ -26,13 +26,13 @@ categories: ["Human characters", "Northwind NPCs", "Quest enders", "Riding train
 | status | Alive |
 | relatives | Nadia Geringt (wife) |
 
--Horsekeeper Geringt** is a [human](human) horse riding trainer located at the [Mildenhall Horse Farm](Mildenhall Horse Farm) in [Northwind](Northwind).
+**Horsekeeper Geringt** is a [human](human) horse riding trainer located at the [Mildenhall Horse Farm](Mildenhall Horse Farm) in [Northwind](Northwind).
 
 ## Quests
 - [quest: To Look A Gift Horse In The Mouth] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 My family has been serving the Mildenhalls for many generations. Our professionally cared for horses possess a prime physique and extraordinary speed as well as the stamina matching such skills. If you have the coin, I could teach you how horses are ridden here in Northwind.
 
 ## Patch changes

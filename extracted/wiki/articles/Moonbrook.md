@@ -23,7 +23,7 @@ categories: ["Defias Brotherhood", "Human territories", "Westfall subzones"]
 | loc | Southwestern Westfall |
 | status | Active |
 
--Moonbrook** is a small ghost town located southwest of [Sentinel Hill](Sentinel Hill), which once served as a mining town (ref: [Journey of Brann#Westfall](https://wowpedia.fandom.com/wiki/Journey_of_Brann#Westfall)) and the focal point of the farmlands in [Westfall](Westfall). After being razed by the orcs during the [First War](First War), then rebuilt following the [Second War](Second War), the rampant corruption in the kingdom brought the town under the control of the [Defias Brotherhood](Defias Brotherhood). Without the [Stormwind Army](Stormwind Army) to protect them, the Defias drove out the citizens and established the Deadmines as their headquarters.
+**Moonbrook** is a small ghost town located southwest of [Sentinel Hill](Sentinel Hill), which once served as a mining town (ref: [Journey of Brann#Westfall](https://wowpedia.fandom.com/wiki/Journey_of_Brann#Westfall)) and the focal point of the farmlands in [Westfall](Westfall). After being razed by the orcs during the [First War](First War), then rebuilt following the [Second War](Second War), the rampant corruption in the kingdom brought the town under the control of the [Defias Brotherhood](Defias Brotherhood). Without the [Stormwind Army](Stormwind Army) to protect them, the Defias drove out the citizens and established the Deadmines as their headquarters.
 
 ## History
 During the First War, Moonbrook and its sister town Goldshire were the final two towns to fall to the Old Horde prior to the razing of Stormwind Keep, these attacks were intended to sever the lifeline between King Llane Wrynn I and his people, making him a figurehead waiting to be lopped off. (ref: [Goldshire and Moonbrook (WC1 Orc)](https://wowpedia.fandom.com/wiki/Goldshire_and_Moonbrook_(WC1_Orc)))
@@ -48,9 +48,4 @@ For a time, the [Miners' League](Miners' League) was partly in charge of the Dea
 Faced with the oppression of the [Defias Brotherhood](Defias Brotherhood), only the [People's Militia](People's Militia) has risen up to stand in their way. In their efforts to defend the people of Westfall, their leader [Gryan Stoutmantle](Gryan Stoutmantle) recruits young heroes of the [Alliance](Alliance) and sends them to eliminate large numbers of Defias spotted by his scouts across the region, notably in Moonbrook. (ref: [quest: The People's Militia]) (ref: [quest: The People's Militia])
 
 ## NPCs
-- 
-- 
-- 
-- 
-
-## References
+- - - - ## References

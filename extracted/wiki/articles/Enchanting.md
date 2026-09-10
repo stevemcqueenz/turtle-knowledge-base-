@@ -40,7 +40,7 @@ Magical elements (shards, essences and dusts) are needed as Enchanting ingredien
 ### Materials
 The type and quantity of materials produced from disenchanting varies by item type, level and quality.
 
-  -Dusts**
+**Dusts**
 
 Dusts usually are extracted from armors, but also occasionally found from weapons.
 
@@ -55,7 +55,7 @@ Dusts usually are extracted from armors, but also occasionally found from weapon
 - Illusion Dust - Disenchanted from level 51 to 60 items
 - Level 56-60: Much illusion dust
 
-  -Essences**
+**Essences**
 
 Essences usually are extracted from weapons, but also occasionally found from armors. Uniquely among the enchanting ingredients, these can be changed from lesser to greater and vice versa, at a ratio of 3 lesser to 1 greater of the same kind. This may be done either because a formula calls for the other size, or simply to save bag space (as the conversion is reversible without loss).
 
@@ -70,7 +70,7 @@ Essences usually are extracted from weapons, but also occasionally found from ar
 - [Lesser Eternal Essence] - Disenchanted from level 46 to 50 items
 - [Greater Eternal Essence] - Disenchanted from level 51 to 60 items
 
-  -Shards**
+**Shards**
 
 Shards are normally disenchanted from blue or better items, but have a small chance of coming from green items.
 
@@ -83,7 +83,7 @@ Shards are normally disenchanted from blue or better items, but have a small cha
 - [Small Brilliant Shard] - Disenchanted from level 46 to 50 items
 - [Large Brilliant Shard] - Disenchanted from level 51 to 60 items
 
-  -Nexus Crystals**
+**Nexus Crystals**
 
 Nexus Crystals are obtained by disenchanting Epic (purple) items, and sometimes come from Rare (blue) items also.
 
@@ -109,7 +109,7 @@ Enchanters may enchant weapons for an additional bonus. Many of these enchants g
 |Enchant Bracer - Minor Health
 Permanently enchant bracers to increase the health of the wearer by 5.
 |1x Strange Dust
-  -Requires**: Runed Copper Rod 
+**Requires**: Runed Copper Rod 
 |Trainer
 |-
 |1 
@@ -125,14 +125,14 @@ Permanently enchant bracers to increase the health of the wearer by 5.
 (Wand) Dmg: 12-22, Spd: 1.50, DPS: 11.3, MinLvl: 5
 |1x Simple Wood,
 1x Lesser Magic Essence
-  -Requires**: Runed Copper Rod 
+**Requires**: Runed Copper Rod 
 |Trainer
 |-
 |15 
 |Enchant Chest - Minor Health
 Permanently enchant a piece of chest armor so that it increases the health of the wearer by 5.
 |1x Strange Dust
-  -Requires**: Runed Copper Rod 
+**Requires**: Runed Copper Rod 
 |Trainer
 |-
 |20 
@@ -140,14 +140,14 @@ Permanently enchant a piece of chest armor so that it increases the health of th
 Permanently enchant bracers so that the defense skill of the wearer is increased by 1.
 |1x Lesser Magic Essence,
 1x Strange Dust
-  -Requires**: Runed Copper Rod 
+**Requires**: Runed Copper Rod 
 |Trainer
 |-
 |20 
 |Enchant Chest - Minor Mana
 Permanently enchant a piece of chest armor so that it increases the mana of the wearer by 5.
 |1x Lesser Magic Essence
-  -Requires**: Runed Copper Rod 
+**Requires**: Runed Copper Rod 
 |Vendor, Drop
 |-
 |40 
@@ -155,7 +155,7 @@ Permanently enchant a piece of chest armor so that it increases the mana of the 
 Enchant a piece of chest armor so it has a 2% chance per hit of giving you 10 points of damage absorption.
 |2x Strange Dust,
 1x Lesser Magic Essence
-  -Requires**: Runed Copper Rod 
+**Requires**: Runed Copper Rod 
 |Trainer
 |-
 |45 
@@ -163,21 +163,21 @@ Enchant a piece of chest armor so it has a 2% chance per hit of giving you 10 po
 Permanently enchant a cloak so that it increases the resistance to all schools of magic by 1.
 |1x Strange Dust,
 2x Lesser Magic Essence
-  -Requires**: Runed Copper Rod 
+**Requires**: Runed Copper Rod 
 |Trainer
 |-
 |50 
 |Enchant Bracer - Minor Stamina
 Permanently enchant bracers so they increase the wearer's Stamina by 1.
 |3x Strange Dust
-  -Requires**: Runed Copper Rod 
+**Requires**: Runed Copper Rod 
 |Trainer
 |-
 |60 
 |Enchant Bracer - Minor Spirit
 Permanently enchant bracers so they increase the wearer's Spirit by 1.
 |2x Lesser Magic Essence
-  -Requires**: Runed Copper Rod 
+**Requires**: Runed Copper Rod 
 |Drop
 |-
 |60 
@@ -185,7 +185,7 @@ Permanently enchant bracers so they increase the wearer's Spirit by 1.
 Permanently enchant a piece of chest armor so that it increases the health of the wearer by 15.
 |2x Strange Dust,
 2x Lesser Magic Essence
-  -Requires**: Runed Copper Rod 
+**Requires**: Runed Copper Rod 
 |Trainer
 |-
 |80 
@@ -193,14 +193,14 @@ Permanently enchant a piece of chest armor so that it increases the health of th
 Permanently enchant bracers so they increase the wearer's Agility by 1.
 |2x Strange Dust,
 1x Greater Magic Essence
-  -Requires**: Runed Copper Rod 
+**Requires**: Runed Copper Rod 
 |Trainer
 |-
 |80 
 |Enchant Bracer - Minor Strength
 Permanently enchant bracers so they increase the wearer's Strength by 1.
 |5x Strange Dust
-  -Requires**: Runed Copper Rod 
+**Requires**: Runed Copper Rod 
 |Drop
 |-
 |80 
@@ -208,7 +208,7 @@ Permanently enchant bracers so they increase the wearer's Strength by 1.
 Permanently enchant a piece of chest armor so that it increases the mana of the wearer by 20.
 |1x Greater Magic Essence,
 1x Lesser Magic Essence
-  -Requires**: Runed Copper Rod 
+**Requires**: Runed Copper Rod 
 |Vendor
 |-
 |90 
@@ -216,7 +216,7 @@ Permanently enchant a piece of chest armor so that it increases the mana of the 
 Permanently enchant a Melee Weapon to do 2 additional points of damage to Beasts.
 |4x Strange Dust,
 2x Greater Magic Essence
-  -Requires**: Runed Copper Rod 
+**Requires**: Runed Copper Rod 
 |Drop
 |-
 |90 
@@ -225,7 +225,7 @@ Permanently enchant a Melee Weapon to do 1 additional point of damage.
 |2x Strange Dust,
 1x Greater Magic Essence,
 1x Small Glimmering Shard
-  -Requires**: Runed Copper Rod 
+**Requires**: Runed Copper Rod 
 |Trainer
 |-
 |91 
@@ -233,7 +233,7 @@ Permanently enchant a Melee Weapon to do 1 additional point of damage.
 Enchant a cloak to provide 10 additional points of armor.
 |3x Strange Dust,
 1x Greater Magic Essence
-  -Requires**: Runed Copper Rod 
+**Requires**: Runed Copper Rod 
 |Trainer
 |-
 |91 
@@ -241,14 +241,14 @@ Enchant a cloak to provide 10 additional points of armor.
 (Wand) Dmg: 22-41, Spd: 1.80, DPS: 17.5, MinLvl: 13
 |1x Simple Wood,
 1x Greater Magic Essence
-  -Requires**: Runed Copper Rod 
+**Requires**: Runed Copper Rod 
 |Trainer
 |-
 |100 
 |Enchant 2H Weapon - Lesser Intellect
 Permanently enchant a Two-Handed Melee Weapon to add 3 to intellect.
 |3x Greater Magic Essence
-  -Requires**: Runed Copper Rod 
+**Requires**: Runed Copper Rod 
 |Vendor
 |-
 |100 
@@ -256,7 +256,7 @@ Permanently enchant a Two-Handed Melee Weapon to add 3 to intellect.
 Permanently enchant a Two-Handed Melee Weapon to do 2 additional points of damage.
 |4x Strange Dust,
 1x Small Glimmering Shard
-  -Requires**: Runed Copper Rod 
+**Requires**: Runed Copper Rod 
 |Trainer
 |-
 |100 
@@ -273,7 +273,7 @@ Permanently enchant a Two-Handed Melee Weapon to do 2 additional points of damag
 Permanently enchant a shield so that it increases the Stamina of the bearer by 1.
 |1x Lesser Astral Essence,
 2x Strange Dust
-  -Requires**: Runed Copper Rod 
+**Requires**: Runed Copper Rod 
 |Trainer
 |-
 |110 
@@ -281,14 +281,14 @@ Permanently enchant a shield so that it increases the Stamina of the bearer by 1
 Permanently enchant a Two-Handed Melee Weapon to add 3 to Spirit.
 |1x Lesser Astral Essence,
 6x Strange Dust
-  -Requires**: Runed Copper Rod 
+**Requires**: Runed Copper Rod 
 |Drop
 |-
 |110 
 |Enchant Cloak - Minor Agility
 Permanently enchant a cloak to grant +1 Agility.
 |1x Lesser Astral Essence
-  -Requires**: Runed Silver Rod 
+**Requires**: Runed Silver Rod 
 |Vendor, Drop
 |-
 |115 
@@ -296,7 +296,7 @@ Permanently enchant a cloak to grant +1 Agility.
 Permanently enchant a cloak to increase armor by 20.
 |6x Strange Dust,
 1x Small Glimmering Shard
-  -Requires**: Runed Copper Rod 
+**Requires**: Runed Copper Rod 
 |Trainer
 |-
 |115 
@@ -305,14 +305,14 @@ Permanently enchant a shield to increase its armor by 30.
 |1x Lesser Astral Essence,
 1x Strange Dust,
 1x Small Glimmering Shard
-  -Requires**: Runed Silver Rod 
+**Requires**: Runed Silver Rod 
 |Drop
 |-
 |120 
 |Enchant Bracer - Lesser Spirit
 Permanently enchant a bracer so it increases the wearer's Spirit by 3.
 |2x Lesser Astral Essence
-  -Requires**: Runed Silver Rod 
+**Requires**: Runed Silver Rod 
 |Drop
 |-
 |120 
@@ -320,7 +320,7 @@ Permanently enchant a bracer so it increases the wearer's Spirit by 3.
 Permanently enchant a piece of chest armor to increase the health of the wearer by 25.
 |4x Strange Dust,
 1x Lesser Astral Essence
-  -Requires**: Runed Silver Rod 
+**Requires**: Runed Silver Rod 
 |Trainer
 |-
 |125 
@@ -328,14 +328,14 @@ Permanently enchant a piece of chest armor to increase the health of the wearer 
 Permanently enchant a pair of boots so they increase the wearer's Agility by 1.
 |6x Strange Dust,
 2x Lesser Astral Essence
-  -Requires**: Runed Silver Rod 
+**Requires**: Runed Silver Rod 
 |Vendor
 |-
 |125 
 |Enchant Boots - Minor Stamina
 Permanently enchant a pair of boots so they increase the wearer's Stamina by 1.
 |8x Strange Dust
-  -Requires**: Runed Silver Rod 
+**Requires**: Runed Silver Rod 
 |Trainer
 |-
 |125 
@@ -343,14 +343,14 @@ Permanently enchant a pair of boots so they increase the wearer's Stamina by 1.
 Permanently enchant a cloak so that it increases resistance to fire by 5.
 |1x Fire Oil,
 1x Lesser Astral Essence
-  -Requires**: Runed Silver Rod 
+**Requires**: Runed Silver Rod 
 |Trainer
 |-
 |130 
 |Enchant Bracer - Lesser Stamina
 Permanently enchant a bracer so it increases the wearer's Stamina by 3.
 |2x Soul Dust
-  -Requires**: Runed Silver Rod 
+**Requires**: Runed Silver Rod 
 |Trainer
 |-
 |130 
@@ -358,7 +358,7 @@ Permanently enchant a bracer so it increases the wearer's Stamina by 3.
 Permanently enchant a shield to give 3 spirit.
 |2x Lesser Astral Essence,
 4x Strange Dust
-  -Requires**: Runed Silver Rod 
+**Requires**: Runed Silver Rod 
 |Trainer
 |-
 |135 
@@ -366,14 +366,14 @@ Permanently enchant a shield to give 3 spirit.
 Permanently enchant a cloak so that it increases resistance to shadow by 10.
 |1x Greater Astral Essence,
 1x Shadow Protection Potion
-  -Requires**: Runed Silver Rod 
+**Requires**: Runed Silver Rod 
 |Drop
 |-
 |140 
 |Enchant Bracer - Lesser Strength
 Permanently enchant a bracer so it increases the wearer's Strength by 3.
 |2x Soul Dust
-  -Requires**: Runed Silver Rod 
+**Requires**: Runed Silver Rod 
 |Vendor
 |-
 |140 
@@ -382,7 +382,7 @@ Enchant a piece of chest armor so it has a 5% chance per hit of giving you 25 po
 |2x Strange Dust,
 1x Greater Astral Essence,
 1x Large Glimmering Shard
-  -Requires**: Runed Silver Rod 
+**Requires**: Runed Silver Rod 
 |Trainer
 |-
 |140 
@@ -390,7 +390,7 @@ Enchant a piece of chest armor so it has a 5% chance per hit of giving you 25 po
 Permanently enchant a Melee Weapon to do 2 additional points of damage.
 |2x Soul Dust,
 1x Large Glimmering Shard
-  -Requires**: Runed Silver Rod 
+**Requires**: Runed Silver Rod 
 |Trainer
 |-
 |145 
@@ -398,7 +398,7 @@ Permanently enchant a Melee Weapon to do 2 additional points of damage.
 Permanently enchant a Two-handed Melee Weapon to do 3 additional points of damage.
 |3x Soul Dust,
 1x Large Glimmering Shard
-  -Requires**: Runed Silver Rod 
+**Requires**: Runed Silver Rod 
 |Trainer
 |-
 |145 
@@ -406,7 +406,7 @@ Permanently enchant a Two-handed Melee Weapon to do 3 additional points of damag
 Permanently enchant a piece of chest armor to increase the mana of the wearer by 30.
 |1x Greater Astral Essence,
 2x Lesser Astral Essence
-  -Requires**: Runed Silver Rod 
+**Requires**: Runed Silver Rod 
 |Trainer
 |-
 |145 
@@ -414,7 +414,7 @@ Permanently enchant a piece of chest armor to increase the mana of the wearer by
 Permanently enchant gloves to grant +2 fishing skill.
 |1x Soul Dust,
 3x Blackmouth Oil
-  -Requires**: Runed Silver Rod 
+**Requires**: Runed Silver Rod 
 |Drop
 |-
 |145 
@@ -422,7 +422,7 @@ Permanently enchant gloves to grant +2 fishing skill.
 Permanently enchant gloves to grant +2 herbalism skill.
 |1x Soul Dust,
 3x Kingsblood
-  -Requires**: Runed Silver Rod 
+**Requires**: Runed Silver Rod 
 |Drop
 |-
 |145 
@@ -430,14 +430,14 @@ Permanently enchant gloves to grant +2 herbalism skill.
 Permanently enchant gloves to grant +2 mining skill.
 |1x Soul Dust,
 3x Iron Ore
-  -Requires**: Runed Silver Rod 
+**Requires**: Runed Silver Rod 
 |Drop
 |-
 |150 
 |Enchant Bracer - Lesser Intellect
 Permanently enchant a bracer so it increases the wearer's Intellect by 3.
 |2x Greater Astral Essence
-  -Requires**: Runed Silver Rod 
+**Requires**: Runed Silver Rod 
 |Trainer
 |-
 |150 
@@ -446,7 +446,7 @@ Permanently enchant a piece of chest armor to grant +1 to all stats.
 |1x Greater Astral Essence,
 1x Soul Dust,
 1x Large Glimmering Shard
-  -Requires**: Runed Silver Rod 
+**Requires**: Runed Silver Rod 
 |Trainer
 |-
 |155 
@@ -471,7 +471,7 @@ Permanently enchant a piece of chest armor to grant +1 to all stats.
 Permanently enchant a cloak to give 30 additional armor.
 |1x Small Glowing Shard,
 3x Soul Dust
-  -Requires**: Runed Golden Rod 
+**Requires**: Runed Golden Rod 
 |Trainer
 |-
 |155 
@@ -479,7 +479,7 @@ Permanently enchant a cloak to give 30 additional armor.
 Permanently enchant a shield to give 3 Stamina.
 |1x Lesser Mystic Essence,
 1x Soul Dust
-  -Requires**: Runed Golden Rod 
+**Requires**: Runed Golden Rod 
 |Trainer
 |-
 |160 
@@ -487,28 +487,28 @@ Permanently enchant a shield to give 3 Stamina.
 Permanently enchant boots to give +3 Agility.
 |1x Soul Dust,
 1x Lesser Mystic Essence
-  -Requires**: Runed Golden Rod 
+**Requires**: Runed Golden Rod 
 |Trainer
 |-
 |160 
 |Enchant Chest - Greater Health
 Permanently enchant a piece of chest armor to give +35 health.
 |3x Soul Dust
-  -Requires**: Runed Golden Rod 
+**Requires**: Runed Golden Rod 
 |Trainer
 |-
 |165 
 |Enchant Bracer - Spirit
 Permanently enchants bracers to give +5 Spirit.
 |1x Lesser Mystic Essence
-  -Requires**: Runed Golden Rod 
+**Requires**: Runed Golden Rod 
 |Trainer
 |-
 |170 
 |Enchant Boots - Lesser Stamina
 Permanently enchant boots to give +3 Stamina.
 |4x Soul Dust
-  -Requires**: Runed Golden Rod 
+**Requires**: Runed Golden Rod 
 |Trainer
 |-
 |170 
@@ -516,14 +516,14 @@ Permanently enchant boots to give +3 Stamina.
 Permanently enchants bracers to give +2 Defense.
 |1x Lesser Mystic Essence,
 2x Soul Dust
-  -Requires**: Runed Golden Rod 
+**Requires**: Runed Golden Rod 
 |Vendor
 |-
 |170 
 |Enchant Bracer - Stamina
 Permanently enchants bracers to give +5 Stamina.
 |6x Soul Dust
-  -Requires**: Runed Golden Rod 
+**Requires**: Runed Golden Rod 
 |Trainer
 |-
 |175 
@@ -531,7 +531,7 @@ Permanently enchants bracers to give +5 Stamina.
 Permanently enchant a cloak to give 7 Fire Resistance.
 |1x Lesser Mystic Essence,
 1x Elemental Fire
-  -Requires**: Runed Golden Rod 
+**Requires**: Runed Golden Rod 
 |Trainer
 |-
 |175 
@@ -540,7 +540,7 @@ Permanently enchant a Melee Weapon to do 6 additional points of damage to Beasts
 |1x Lesser Mystic Essence,
 2x Large Fang,
 1x Small Glowing Shard
-  -Requires**: Runed Golden Rod 
+**Requires**: Runed Golden Rod 
 |Drop
 |-
 |175 
@@ -549,7 +549,7 @@ Permanently enchant a Melee Weapon to do 6 additional damage against Elementals.
 |1x Lesser Mystic Essence,
 1x Elemental Earth,
 1x Small Glowing Shard
-  -Requires**: Runed Golden Rod 
+**Requires**: Runed Golden Rod 
 |Drop
 |-
 |175 
@@ -558,14 +558,14 @@ Permanently enchant a Melee Weapon to do 6 additional damage against Elementals.
 |1x Star Wood,
 1x Greater Mystic Essence,
 1x Vision Dust
-  -Requires**: Runed Golden Rod 
+**Requires**: Runed Golden Rod 
 |Trainer
 |-
 |180 
 |Enchant Bracer - Strength
 Permanently enchants bracers to give +5 Strength.
 |1x Vision Dust
-  -Requires**: Runed Golden Rod 
+**Requires**: Runed Golden Rod 
 |Trainer
 |-
 |180 
@@ -573,14 +573,14 @@ Permanently enchants bracers to give +5 Strength.
 Permanently enchant a shield to give 5 Spirit.
 |1x Greater Mystic Essence,
 1x Vision Dust
-  -Requires**: Runed Golden Rod 
+**Requires**: Runed Golden Rod 
 |Trainer
 |-
 |185 
 |Enchant Chest - Greater Mana
 Permanently enchant a piece of chest armor to give +50 mana.
 |1x Greater Mystic Essence
-  -Requires**: Runed Golden Rod 
+**Requires**: Runed Golden Rod 
 |Trainer
 |-
 |190 
@@ -588,7 +588,7 @@ Permanently enchant a piece of chest armor to give +50 mana.
 Permanently enchant boots to give +3 Spirit.
 |1x Greater Mystic Essence,
 2x Lesser Mystic Essence
-  -Requires**: Runed Golden Rod 
+**Requires**: Runed Golden Rod 
 |Drop
 |-
 |190 
@@ -598,7 +598,7 @@ Permanently enchant a weapon to grant up to 7 additional frost damage when casti
 3x Vision Dust,
 1x Large Glowing Shard,
 2x Wintersbite
-  -Requires**: Runed Golden Rod 
+**Requires**: Runed Golden Rod 
 |Quest
 |-
 |195 
@@ -607,7 +607,7 @@ Permanently enchant a shield to give +2% chance to block.
 |2x Greater Mystic Essence,
 2x Vision Dust,
 1x Large Glowing Shard
-  -Requires**: Runed Golden Rod 
+**Requires**: Runed Golden Rod 
 |Drop
 |-
 |195 
@@ -615,7 +615,7 @@ Permanently enchant a shield to give +2% chance to block.
 Permanently enchant a Melee Weapon to do 3 additional points of damage.
 |2x Greater Mystic Essence,
 1x Large Glowing Shard
-  -Requires**: Runed Golden Rod 
+**Requires**: Runed Golden Rod 
 |Trainer
 |-
 |200 
@@ -623,7 +623,7 @@ Permanently enchant a Melee Weapon to do 3 additional points of damage.
 Permanently enchant a Two-handed Melee Weapon to do 5 additional points of damage.
 |4x Vision Dust,
 1x Large Glowing Shard
-  -Requires**: Runed Golden Rod 
+**Requires**: Runed Golden Rod 
 |Trainer
 |-
 |200 
@@ -632,7 +632,7 @@ Permanently enchant a piece of chest armor to grant +2 to all stats.
 |2x Greater Mystic Essence,
 2x Vision Dust,
 1x Large Glowing Shard
-  -Requires**: Runed Golden Rod 
+**Requires**: Runed Golden Rod 
 |Trainer
 |-
 |200 
@@ -640,7 +640,7 @@ Permanently enchant a piece of chest armor to grant +2 to all stats.
 Permanently enchant gloves to grant +5 skinning skill.
 |1x Vision Dust,
 3x Green Whelp Scale
-  -Requires**: Runed Golden Rod 
+**Requires**: Runed Golden Rod 
 |Drop
 |-
 |200 
@@ -656,21 +656,21 @@ Permanently enchant gloves to grant +5 skinning skill.
 |Enchant Cloak - Greater Defense
 Permanently enchant a cloak to give 50 additional armor.
 |3x Vision Dust
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Trainer
 |-
 |205 
 |Enchant Cloak - Resistance
 Permanently enchant a cloak to give 3 to all resistances.
 |1x Lesser Nether Essence
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Trainer
 |-
 |210 
 |Enchant Bracer - Intellect
 Permanently enchants bracers to give +5 Intellect.
 |2x Lesser Nether Essence
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Trainer
 |-
 |210 
@@ -678,21 +678,21 @@ Permanently enchants bracers to give +5 Intellect.
 Permanently enchant gloves to grant +5 Agility.
 |1x Lesser Nether Essence,
 1x Vision Dust
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Trainer
 |-
 |210 
 |Enchant Shield - Stamina
 Permanently enchant a shield to give +5 Stamina.
 |5x Vision Dust
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Drop
 |-
 |215 
 |Enchant Boots - Stamina
 Permanently enchant boots to give +5 Stamina.
 |5x Vision Dust
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Trainer
 |-
 |215 
@@ -700,7 +700,7 @@ Permanently enchant boots to give +5 Stamina.
 Permanently enchant gloves to grant +5 mining skill.
 |3x Vision Dust,
 3x Truesilver Bar
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Drop
 |-
 |220 
@@ -708,14 +708,14 @@ Permanently enchant gloves to grant +5 mining skill.
 Permanently enchants bracers to give +7 Spirit.
 |3x Lesser Nether Essence,
 1x Vision Dust
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Drop
 |-
 |220 
 |Enchant Chest - Superior Health
 Permanently enchant a piece of chest armor to grant +50 health.
 |6x Vision Dust
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Trainer
 |-
 |225 
@@ -724,14 +724,14 @@ Permanently enchant boots to give a slight movement speed increase.
 |1x Small Radiant Shard,
 1x Aquamarine,
 1x Lesser Nether Essence
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Trainer
 |-
 |225 
 |Enchant Cloak - Lesser Agility
 Permanently enchant a cloak to give 3 Agility.
 |2x Lesser Nether Essence
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Drop
 |-
 |225 
@@ -739,7 +739,7 @@ Permanently enchant a cloak to give 3 Agility.
 Permanently enchant gloves to grant +5 herbalism skill.
 |3x Vision Dust,
 3x Sungrass
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Drop
 |-
 |225 
@@ -747,7 +747,7 @@ Permanently enchant gloves to grant +5 herbalism skill.
 Permanently enchant gloves to grant +5 Strength.
 |2x Lesser Nether Essence,
 3x Vision Dust
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Trainer
 |-
 |230 
@@ -755,7 +755,7 @@ Permanently enchant gloves to grant +5 Strength.
 Permanently enchant a piece of chest armor to give +65 mana.
 |1x Greater Nether Essence,
 2x Lesser Nether Essence
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Trainer
 |-
 |230 
@@ -763,7 +763,7 @@ Permanently enchant a piece of chest armor to give +65 mana.
 Permanently enchant a shield to give +7 Spirit.
 |1x Greater Nether Essence,
 2x Dream Dust
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Trainer
 |-
 |230 
@@ -772,14 +772,14 @@ Permanently enchant a melee weapon to have a chance of stunning and doing heavy 
 |1x Small Radiant Shard,
 2x Dream Dust,
 1x Elixir of Demonslaying
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Drop
 |-
 |235 
 |Enchant Boots - Agility
 Permanently enchant boots to give +5 Agility.
 |2x Greater Nether Essence
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Trainer
 |-
 |235 
@@ -787,7 +787,7 @@ Permanently enchant boots to give +5 Agility.
 Permanently enchants bracers to give +3 Defense.
 |1x Greater Nether Essence,
 2x Dream Dust
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Vendor
 |-
 |235 
@@ -795,7 +795,7 @@ Permanently enchants bracers to give +3 Defense.
 Permanently enchant a shield to give +8 Frost Resistance.
 |1x Large Radiant Shard,
 1x Frost Oil
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Drop
 |-
 |240 
@@ -803,7 +803,7 @@ Permanently enchant a shield to give +8 Frost Resistance.
 Permanently enchant a two-handed melee weapon to do +7 damage.
 |2x Large Radiant Shard,
 2x Dream Dust
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Trainer
 |-
 |240 
@@ -811,14 +811,14 @@ Permanently enchant a two-handed melee weapon to do +7 damage.
 Permanently enchants bracers to give +7 Strength.
 |2x Dream Dust,
 1x Greater Nether Essence
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Trainer
 |-
 |245 
 |Enchant Bracer - Greater Stamina
 Permanently enchants bracers to give +7 Stamina.
 |5x Dream Dust
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Drop
 |-
 |245 
@@ -827,7 +827,7 @@ Permanently enchant a piece of chest armor to grant +3 to all stats.
 |1x Large Radiant Shard,
 3x Dream Dust,
 2x Greater Nether Essence
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Trainer
 |-
 |245 
@@ -835,7 +835,7 @@ Permanently enchant a piece of chest armor to grant +3 to all stats.
 Permanently enchant a Melee Weapon to do 4 additional points of damage.
 |2x Large Radiant Shard,
 2x Greater Nether Essence
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Trainer
 |-
 |250 
@@ -843,7 +843,7 @@ Permanently enchant a Melee Weapon to do 4 additional points of damage.
 Permanently enchant gloves to grant a +1% attack speed bonus.
 |2x Large Radiant Shard,
 2x Wildvine
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Trainer
 |-
 |250 
@@ -851,7 +851,7 @@ Permanently enchant gloves to grant a +1% attack speed bonus.
 Permanently enchant gloves to grant a minor movement bonus while mounted.
 |2x Large Radiant Shard,
 3x Dream Dust
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Drop
 |-
 |250 
@@ -859,7 +859,7 @@ Permanently enchant gloves to grant a minor movement bonus while mounted.
 Enchanted Leather
 |1x Rugged Leather,
 1x Lesser Eternal Essence
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Trainer
 |-
 |250 
@@ -867,21 +867,21 @@ Enchanted Leather
 Enchanted Thorium Bar
 |1x Thorium Bar,
 3x Dream Dust
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Trainer
 |-
 |255 
 |Enchant Bracer - Greater Intellect
 Permanently enchants bracers to give +7 Intellect.
 |3x Lesser Eternal Essence
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Drop
 |-
 |260 
 |Enchant Boots - Greater Stamina
 Permanently enchant boots to give +7 Stamina.
 |10x Dream Dust
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Drop
 |-
 |265 
@@ -893,14 +893,14 @@ Permanently enchant a cloak to give 5 to all resistances.
 1x Globe of Water,
 1x Breath of Wind,
 1x Ichor of Undeath
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Drop
 |-
 |265 
 |Enchant Shield - Greater Stamina
 Permanently enchant a shield to give +7 Stamina.
 |10x Dream Dust
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Vendor
 |-
 |265 
@@ -908,7 +908,7 @@ Permanently enchant a shield to give +7 Stamina.
 Permanently enchant a melee weapon to often strike for 40 additional fire damage.
 |4x Small Radiant Shard,
 1x Essence of Fire
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Drop
 |-
 |265 
@@ -917,7 +917,7 @@ Permanently enchant a melee weapon to often strike for 40 additional fire damage
 |1x Blood of the Mountain,
 1x Essence of Fire,
 3x Small Brilliant Shard
-  -Requires**: Black Forge 
+**Requires**: Black Forge 
 |Drop
 |-
 |270 
@@ -925,7 +925,7 @@ Permanently enchant a melee weapon to often strike for 40 additional fire damage
 Permanently enchants bracers to give +9 Spirit.
 |3x Lesser Eternal Essence,
 10x Dream Dust
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Drop
 |-
 |270 
@@ -933,7 +933,7 @@ Permanently enchants bracers to give +9 Spirit.
 Permanently enchant gloves to grant +7 Agility.
 |3x Lesser Eternal Essence,
 3x Illusion Dust
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Drop
 |-
 |275 
@@ -941,7 +941,7 @@ Permanently enchant gloves to grant +7 Agility.
 Permanently enchant boots to give +5 Spirit.
 |2x Greater Eternal Essence,
 1x Lesser Eternal Essence
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Drop
 |-
 |275 
@@ -949,7 +949,7 @@ Permanently enchant boots to give +5 Spirit.
 Permanently enchant a piece of chest armor to grant +100 health.
 |6x Illusion Dust,
 1x Small Brilliant Shard
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Vendor
 |-
 |280 
@@ -957,14 +957,14 @@ Permanently enchant a piece of chest armor to grant +100 health.
 Permanently enchant a shield to give +9 Spirit.
 |2x Greater Eternal Essence,
 4x Illusion Dust
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Drop
 |-
 |285 
 |Enchant Cloak - Superior Defense
 Permanently enchant a cloak to give 70 additional armor.
 |8x Illusion Dust
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Vendor
 |-
 |285 
@@ -974,7 +974,7 @@ Permanently enchant a melee weapon to often chill the target reducing their move
 1x Essence of Water,
 1x Essence of Air,
 1x Icecap
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Drop
 |-
 |290 
@@ -983,7 +983,7 @@ Permanently enchants bracers to restore 4 mana every 5 seconds.
 |16x Illusion Dust,
 4x Greater Eternal Essence,
 2x Essence of Water
-  -Requires**: Runed Arcanite Rod 
+**Requires**: Runed Arcanite Rod 
 |Vendor
 |-
 |290 
@@ -991,7 +991,7 @@ Permanently enchants bracers to restore 4 mana every 5 seconds.
 Permanently enchant a piece of chest armor to give +100 mana.
 |3x Greater Eternal Essence,
 1x Small Brilliant Shard
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Drop
 |-
 |290 
@@ -1001,7 +1001,7 @@ Permanently enchant a melee weapon to grant +15 Agility.
 6x Greater Eternal Essence,
 4x Illusion Dust,
 2x Essence of Air
-  -Requires**: Runed Arcanite Rod 
+**Requires**: Runed Arcanite Rod 
 |Vendor
 |-
 |290 
@@ -1011,7 +1011,7 @@ Permanently enchant a melee weapon to grant +15 strength.
 6x Greater Eternal Essence,
 4x Illusion Dust,
 2x Essence of Earth
-  -Requires**: Runed Arcanite Rod 
+**Requires**: Runed Arcanite Rod 
 |Vendor
 |-
 |290 
@@ -1030,14 +1030,14 @@ Permanently enchant a melee weapon to grant +15 strength.
 Permanently enchant a two-handed melee weapon to do +9 damage.
 |4x Large Brilliant Shard,
 10x Illusion Dust
-  -Requires**: Runed Arcanite Rod 
+**Requires**: Runed Arcanite Rod 
 |Drop
 |-
 |295 
 |Enchant Boots - Greater Agility
 Permanently enchant boots to give +7 Agility.
 |8x Greater Eternal Essence
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Drop
 |-
 |295 
@@ -1045,7 +1045,7 @@ Permanently enchant boots to give +7 Agility.
 Permanently enchants bracers to give +9 Strength.
 |6x Illusion Dust,
 6x Greater Eternal Essence
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Drop
 |-
 |295 
@@ -1053,7 +1053,7 @@ Permanently enchants bracers to give +9 Strength.
 Permanently enchant gloves to grant +7 Strength.
 |4x Greater Eternal Essence,
 4x Illusion Dust
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Drop
 |-
 |295 
@@ -1061,7 +1061,7 @@ Permanently enchant gloves to grant +7 Strength.
 Permanently enchant a melee weapon to often inflict a curse on the target reducing their melee damage.
 |4x Large Brilliant Shard,
 4x Essence of Undeath
-  -Requires**: Runed Arcanite Rod 
+**Requires**: Runed Arcanite Rod 
 |Drop
 |-
 |300 
@@ -1069,7 +1069,7 @@ Permanently enchant a melee weapon to often inflict a curse on the target reduci
 Permanently enchant a Two-Handed Melee Weapon to add 9 to intellect.
 |12x Greater Eternal Essence,
 2x Large Brilliant Shard
-  -Requires**: Runed Arcanite Rod 
+**Requires**: Runed Arcanite Rod 
 |Drop
 |-
 |300 
@@ -1077,7 +1077,7 @@ Permanently enchant a Two-Handed Melee Weapon to add 9 to intellect.
 Permanently enchant a Two-Handed Melee Weapon to add 9 to Spirit.
 |12x Greater Eternal Essence,
 2x Large Brilliant Shard
-  -Requires**: Runed Arcanite Rod 
+**Requires**: Runed Arcanite Rod 
 |Drop
 |-
 |300 
@@ -1087,14 +1087,14 @@ Permanently enchants bracers to increase the effects of your healing spells by 2
 20x Illusion Dust,
 4x Greater Eternal Essence,
 6x Living Essence
-  -Requires**: Runed Arcanite Rod 
+**Requires**: Runed Arcanite Rod 
 |Vendor
 |-
 |300 
 |Enchant Bracer - Superior Stamina
 Permanently enchants bracers to give +9 Stamina.
 |15x Illusion Dust
-  -Requires**: Runed Truesilver Rod 
+**Requires**: Runed Truesilver Rod 
 |Drop
 |-
 |300 
@@ -1103,7 +1103,7 @@ Permanently enchant a piece of chest armor to grant +4 to all stats.
 |4x Large Brilliant Shard,
 15x Illusion Dust,
 10x Greater Eternal Essence
-  -Requires**: Runed Arcanite Rod 
+**Requires**: Runed Arcanite Rod 
 |Drop
 |-
 |300 
@@ -1111,7 +1111,7 @@ Permanently enchant a piece of chest armor to grant +4 to all stats.
 Permanently enchant a melee weapon so that often when attacking in melee it heals for 75 to 125 and increases Strength by 100 for 15 sec.
 |4x Large Brilliant Shard,
 2x Righteous Orb
-  -Requires**: Runed Arcanite Rod 
+**Requires**: Runed Arcanite Rod 
 |Drop
 |-
 |300 
@@ -1122,7 +1122,7 @@ Permanently enchant a Melee Weapon to add up to 55 points of healing to healing 
 6x Living Essence,
 6x Essence of Water,
 1x Righteous Orb
-  -Requires**: Runed Arcanite Rod 
+**Requires**: Runed Arcanite Rod 
 |Drop
 |-
 |300 
@@ -1131,7 +1131,7 @@ Permanently enchant a melee weapon to often steal life from the enemy and give i
 |6x Large Brilliant Shard,
 6x Essence of Undeath,
 6x Living Essence
-  -Requires**: Runed Arcanite Rod 
+**Requires**: Runed Arcanite Rod 
 |Drop
 |-
 |300 
@@ -1140,7 +1140,7 @@ Permanently enchant a melee weapon to grant +22 Intellect.
 |15x Large Brilliant Shard,
 12x Greater Eternal Essence,
 20x Illusion Dust
-  -Requires**: Runed Arcanite Rod 
+**Requires**: Runed Arcanite Rod 
 |Vendor
 |-
 |300 
@@ -1149,7 +1149,7 @@ Permanently enchant a melee weapon to grant +20 Spirit.
 |10x Large Brilliant Shard,
 8x Greater Eternal Essence,
 15x Illusion Dust
-  -Requires**: Runed Arcanite Rod 
+**Requires**: Runed Arcanite Rod 
 |Vendor
 |-
 |300 
@@ -1161,7 +1161,7 @@ Permanently enchant a Melee Weapon to add up to 30 damage to spells.
 4x Essence of Water,
 4x Essence of Air,
 2x Golden Pearl
-  -Requires**: Runed Arcanite Rod 
+**Requires**: Runed Arcanite Rod 
 |Drop
 |-
 |300 
@@ -1169,6 +1169,6 @@ Permanently enchant a Melee Weapon to add up to 30 damage to spells.
 Permanently enchant a Melee Weapon to do 5 additional points of damage.
 |2x Large Brilliant Shard,
 10x Greater Eternal Essence
-  -Requires**: Runed Arcanite Rod 
+**Requires**: Runed Arcanite Rod 
 |Drop
 |}

@@ -26,17 +26,17 @@ categories: ["Bosses", "Death knights", "Human characters", "Scarlet Monastery m
 | status | Killable |
 | instance | Scarlet Monastery |
 
--Duke Dreadmoore** is a boss in the [Scarlet Prison](Scarlet Prison) within the [Scarlet Monastery Graveyard](Scarlet Monastery Graveyard). A harbinger of the [Dread Citadel](Naxxramas) enslaved in the prison complex below the torture chambers and experimented on, he awaits the right moment to break free.
+**Duke Dreadmoore** is a boss in the [Scarlet Prison](Scarlet Prison) within the [Scarlet Monastery Graveyard](Scarlet Monastery Graveyard). A harbinger of the [Dread Citadel](Naxxramas) enslaved in the prison complex below the torture chambers and experimented on, he awaits the right moment to break free.
 
 ## Abilities
 - Dark Strike
 - Shadow Bolt Volley
 
 ## Quotes
-  -Aggro**
+**Aggro**
   I am the will of Naxxramas!
 
-  -Death**
+**Death**
   You will learn nothing from me, fools!
 
 ## Loot

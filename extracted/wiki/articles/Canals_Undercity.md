@@ -10,8 +10,8 @@ categories: ["Forsaken territories", "Pages with broken file links", "Undercity 
 ---
 # Canals (Undercity)
 
--The Canals** are the areas between the four quarters of the [Undercity](Undercity). A river of green "liquid" flows in a large channel around the quarters in a circular path.
+**The Canals** are the areas between the four quarters of the [Undercity](Undercity). A river of green "liquid" flows in a large channel around the quarters in a circular path.
 
 ## Notes
--You can fish in it; you get normal low-level fish, plus things like [Old Skull](Old Skull) or [Sickly Looking Fish](Sickly Looking Fish), as well as [Old Teamster's Skull](Old Teamster's Skull).
--The [Shaman](Shaman) ability [Water Walking](Water Walking) doesn't work on the canals.
+- You can fish in it; you get normal low-level fish, plus things like [Old Skull](Old Skull) or [Sickly Looking Fish](Sickly Looking Fish), as well as [Old Teamster's Skull](Old Teamster's Skull).
+- The [Shaman](Shaman) ability [Water Walking](Water Walking) doesn't work on the canals.

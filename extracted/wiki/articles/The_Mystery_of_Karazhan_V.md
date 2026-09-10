@@ -41,8 +41,8 @@ When everything is collected, I can begin to infuse the key with the power it on
 
 ## Rewards
 You will receive:
--6250 XP
--+250 [reputation](reputation) with [Dalaran](Dalaran (faction))
+- 6250 XP
+- +250 [reputation](reputation) with [Dalaran](Dalaran (faction))
 
 ## Progress
 If we are to enter the Karazhan Crypt, then we must take action, I suggest you find some friends to help, for our foes may be quite strong.

@@ -23,7 +23,7 @@ categories: ["Deceased characters", "Demigods", "Lore", "Lore characters", "Nigh
 | status | Slain during the War of the Ancients |
 | relatives | Harpies (mortal offspring) |
 
--Aviana** was a winged demigoddess, mistress of the Mother Tree [G'Hanir](G'Hanir).  She was killed in the [War of the Ancients](War of the Ancients).
+**Aviana** was a winged demigoddess, mistress of the Mother Tree [G'Hanir](G'Hanir).  She was killed in the [War of the Ancients](War of the Ancients).
 
 ## Gift of Goddesshood
 Aviana was formerly a mere raven of the wild. One day [Elune](Elune) summoned the raven to her for a special delivery. The raven sent the message of Elune to [Cenarius](Cenarius). Doing her job well for years, Elune asked the raven to serve as messenger to other deities and [eternals](eternals). Each deity would greet and reward Aviana with special gifts required to complete her tasks. These gifts evolved the raven, and she became an equal to the deities.

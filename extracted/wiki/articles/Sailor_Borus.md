@@ -24,14 +24,14 @@ categories: ["Human characters", "Kul Tiras (kingdom)", "Quest givers", "Stormwi
 | location | Davenburg, Stormwind Harbor, Stormwind City |
 | status | Alive |
 
--Sailor Borus** is a [human](human) [quest giver](quest giver) located in [Davenburg](Davenburg) in [Stormwind Harbor](Stormwind Harbor) in [Stormwind City](Stormwind City).
+**Sailor Borus** is a [human](human) [quest giver](quest giver) located in [Davenburg](Davenburg) in [Stormwind Harbor](Stormwind Harbor) in [Stormwind City](Stormwind City).
 
 ## Quests
 - [quest: A Sailor's Love] 
 - [quest: Charys' Response] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Stormwind isn't as bad as those in Boralus make it out to be.
 
 ## Patch changes

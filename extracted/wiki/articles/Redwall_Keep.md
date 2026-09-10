@@ -10,7 +10,7 @@ categories: ["Keeps", "Redridge Mountains subzones", "Turtle WoW content"]
 ---
 # Redwall Keep
 
--Redwall Keep** is an abandoned keep located in the canyons east of [Stonewatch Falls](Stonewatch Falls) in the [Redridge Mountains](Redridge Mountains), on the mountainside overlooking the [Swamp of Sorrows](Swamp of Sorrows).
+**Redwall Keep** is an abandoned keep located in the canyons east of [Stonewatch Falls](Stonewatch Falls) in the [Redridge Mountains](Redridge Mountains), on the mountainside overlooking the [Swamp of Sorrows](Swamp of Sorrows).
 
 ## Trivia
 - Redwall Keep was intended to serve as a world PvP objective.

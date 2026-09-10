@@ -13,8 +13,5 @@ categories: ["Felwood subzones", "Turtle WoW content"]
 The **Shrine of the Betrayer** is a statue of [Illidan Stormrage](Illidan Stormrage) that is located east of the [Shatter Scar Vale](Shatter Scar Vale) in [Felwood](Felwood). In recent times, [blood elves](Blood elf) of the [Illidari](Illidari) have gathered here, led by the night elf demon hunter, [Faladar Starsplinter](Faladar Starsplinter).
 
 ## NPCs
-- 
-- 
-
-## Patch changes
+- - ## Patch changes
 - (Patch 1.16.4|note=Added.)

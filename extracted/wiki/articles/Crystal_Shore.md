@@ -10,4 +10,4 @@ categories: ["Shores", "Stranglethorn Vale subzones"]
 ---
 # Crystal Shore
 
--The Crystal Shore** is a coastline in [Stranglethorn Vale](Stranglethorn Vale).
+**The Crystal Shore** is a coastline in [Stranglethorn Vale](Stranglethorn Vale).

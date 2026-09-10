@@ -25,10 +25,10 @@ categories: ["Dalaran (kingdom)", "Human characters", "Northwind NPCs", "Turtle 
 | status | Alive |
 | students | Agnese Newbery |
 
--Huey Stafford** is a [human](human) located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind).
+**Huey Stafford** is a [human](human) located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 These youngins underestimate a man of my age far too easily. Just you wait, I will show them just what Dalarani wits look like!
 
 ## Patch changes

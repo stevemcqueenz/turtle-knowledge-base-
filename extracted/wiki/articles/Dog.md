@@ -24,6 +24,6 @@ categories: ["Animals", "Critters", "Pages with broken file links"]
 | location | Thousand Needles |
 | faction | Horde |
 
--Dog**  is a level 10 [dog](dog) found at [Freewind Post](Freewind Post) in [Thousand Needles](Thousand Needles).
+**Dog**  is a level 10 [dog](dog) found at [Freewind Post](Freewind Post) in [Thousand Needles](Thousand Needles).
 
 ## External links

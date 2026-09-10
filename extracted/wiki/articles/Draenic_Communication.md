@@ -26,8 +26,8 @@ categories: ["Neutral quests", "Quests at 39", "Stubs", "Swamp of Sorrows quests
 
 ## Objectives
 Gather 6 Tangled Essence and a Marsh Murloc Eye for Sanv K'la.
--[Tangled Essence](Tangled Essence) (6)
--[Marsh Murloc Eye](Marsh Murloc Eye)
+- [Tangled Essence](Tangled Essence) (6)
+- [Marsh Murloc Eye](Marsh Murloc Eye)
 
 ## Description
 [Akh Z'ador](Akh Z'ador) is a Riftseeker who led us to this world. He was one of the few of our kind that knew the magic of our ancient ancestors. He was skilled enough to bring our entire tribe here, and that of the Fallow Sanctuary, with the help of the other lesser Riftseekers.

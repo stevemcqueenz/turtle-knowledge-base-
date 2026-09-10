@@ -13,7 +13,7 @@ categories: ["Addon"]
 Tmog add detailed information about your transmog collection. It displays appearance info on item tooltips, provides an Item Browser to search and try on all game items, and allows outfit management.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **Tmog** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **Tmog** up to date is by using [GitAddonsManager](GitAd
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -38,13 +38,13 @@ If you prefer manual installation, follow these steps:
   - Visit the **Fashionista NPC** in Stormwind or Orgrimmar.
   - For each item slot, click once.
   - For weapons:
-  -* Equip any item of each type you own (dagger, polearm, staff, sword, axe, mace, etc.).
-  -* Talk to the NPC, click on the respective slot, and equip the item.
-  -* Repeat for all weapon types you have.
+  - * Equip any item of each type you own (dagger, polearm, staff, sword, axe, mace, etc.).
+  - * Talk to the NPC, click on the respective slot, and equip the item.
+  - * Repeat for all weapon types you have.
   - For armor:
-  -* Equip an item, and click once to cache.
+  - * Equip an item, and click once to cache.
 - Your collection is now cached. 
-  -*Note**:* If you have multiple items with the same appearance, equip each to ensure proper recognition.
+***Note**:* If you have multiple items with the same appearance, equip each to ensure proper recognition.
 
 ## Slash Commands
 - <code>/tmog show</code> — Toggle the Tmog window.
@@ -56,25 +56,25 @@ If you prefer manual installation, follow these steps:
 
 ## Preview
 ## Features
-  -Main Window**
+**Main Window**
 - **Toggle Window:** <code>/tmog show</code>
 - **Search & Browse Items:** Use the item browser to search all items, try on gear, or create outfits.
 - **Outfit Management:** Save, load, delete, and share outfits.
-  -Outfit Management**
+**Outfit Management**
 - **Create New Outfit:** Use the outfit popup to name and save your current gear.
 - **Apply Outfit:** Select from saved outfits to dress your character.
 - **Share & Import:** Generate code for sharing outfits, or import codes to load others' outfits.
-  -Item Browser**
+**Item Browser**
 - Search by item name or browse by category/type.
 - Preview items on a dressing room model.
 - Equip items directly from the browser.
 - View collection status via tooltips (collected or not).
-  -Tooltips**
+**Tooltips**
 - Hover over items to see:
   - Name, quality, ItemID.
   - Collection status (collected/not).
   - Shares appearance info with similar items.
-  -Additional Options**
+**Additional Options**
 - Filter by collected/not collected.
 - Show only usable items.
 - Ignore level restrictions.

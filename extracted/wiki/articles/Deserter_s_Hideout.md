@@ -13,6 +13,6 @@ categories: ["Deserters", "Dustwallow Marsh subzones", "Human territories"]
 The **Deserter's Hideout** is camp located north of Tabetha's Farm in the [Quagmire](Quagmire) of [Dustwallow Marsh](Dustwallow Marsh). It is inhabited by [Daelin's Brigade](Daelin's Brigade), a group of [Theramore deserters](Theramore deserters) that is actively hostile to prospects of peace between the [Alliance](Alliance) and [Horde](Horde).
 
 ## NPCs
--   [Sellick Voss](Sellick Voss) <Daelin's Brigade>
--   [Deserter Exile](Deserter Exile) <Daelin's Brigade>
--   [Deserter Turncoat](Deserter Turncoat) <Daelin's Brigade>
+- [Sellick Voss](Sellick Voss) <Daelin's Brigade>
+- [Deserter Exile](Deserter Exile) <Daelin's Brigade>
+- [Deserter Turncoat](Deserter Turncoat) <Daelin's Brigade>

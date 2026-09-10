@@ -24,10 +24,10 @@ categories: ["Human characters", "Kul Tiras (kingdom)", "Stormwind City NPCs", "
 | location | Davenburg, Stormwind Harbor, Stormwind City |
 | status | Alive |
 
--Marine Dalus** is a [human](human) located in [Davenburg](Davenburg) in [Stormwind Harbor](Stormwind Harbor) in [Stormwind City](Stormwind City).
+**Marine Dalus** is a [human](human) located in [Davenburg](Davenburg) in [Stormwind Harbor](Stormwind Harbor) in [Stormwind City](Stormwind City).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 It is not often that I get to speak with a mainlander.
 
 ## Patch changes

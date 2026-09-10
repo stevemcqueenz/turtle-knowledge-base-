@@ -25,7 +25,7 @@ categories: ["Gilneas (kingdom)", "Gilneas NPCs", "Human characters", "Quest giv
 | status | Alive |
 | relatives | Baron Silverlaine |
 
--Baron Caliban Silverlaine** is a [human](human) [quest giver](quest giver) located in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
+**Baron Caliban Silverlaine** is a [human](human) [quest giver](quest giver) located in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
 
 ## Quests
 - [quest: Wolf Amongst Sheep] 
@@ -33,7 +33,7 @@ categories: ["Gilneas (kingdom)", "Gilneas NPCs", "Human characters", "Quest giv
 - [quest: The Deed to Ravenshire] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 It shall always be a Greymane who sits atop the Gilnean throne. It is by the will of my Lord that this will come to pass once again.
 
 I admit, I have little trust in outsiders, but I realize such attitudes have doomed us to these times we live in.

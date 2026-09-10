@@ -23,7 +23,7 @@ categories: ["Human characters", "Scarlet Enclave NPCs", "Turtle WoW content"]
 | location | New Avalon, Scarlet Enclave |
 | status | Alive |
 
--Scarlet Prisoners** are [human](human)s located in [New Avalon](New Avalon) in the [Scarlet Enclave](Scarlet Enclave). They are being held within a longhouse next to the New Avalon chapel.
+**Scarlet Prisoners** are [human](human)s located in [New Avalon](New Avalon) in the [Scarlet Enclave](Scarlet Enclave). They are being held within a longhouse next to the New Avalon chapel.
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

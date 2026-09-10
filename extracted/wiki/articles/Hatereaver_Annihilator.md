@@ -24,23 +24,23 @@ categories: ["Bosses", "Golems", "Hateforge Quarry mobs", "Pages with broken fil
 | status | Killable |
 | instance | Hateforge Quarry |
 
--Hatereaver Annihilator** is an elite golem boss in [Hateforge Quarry](Hateforge Quarry). The Annihilator can be found at the end of the leftmost fork of the upper section of the quarry interior.
+**Hatereaver Annihilator** is an elite golem boss in [Hateforge Quarry](Hateforge Quarry). The Annihilator can be found at the end of the leftmost fork of the upper section of the quarry interior.
 
 ## Quotes
-  -Aggro**
+**Aggro**
   Unidentified intruders, defensive measures, engaged.
 
-  -Death**
+**Death**
   Activate emergency power... Emergency power activation failed... Commence... Shut... Do..wn...
 
 ## Loot
--[Hatereaver Cog](Hatereaver Cog)
--[Flameforged Lugnut](Flameforged Lugnut)
--[Ragereaver's Helm](Ragereaver's Helm)
--[Blackstone Stompers](Blackstone Stompers)
--[Empowered Power Core](Empowered Power Core)
--[Steamrigged Servohammer](Steamrigged Servohammer)
--[Fashion Coin](Fashion Coin)
+- [Hatereaver Cog](Hatereaver Cog)
+- [Flameforged Lugnut](Flameforged Lugnut)
+- [Ragereaver's Helm](Ragereaver's Helm)
+- [Blackstone Stompers](Blackstone Stompers)
+- [Empowered Power Core](Empowered Power Core)
+- [Steamrigged Servohammer](Steamrigged Servohammer)
+- [Fashion Coin](Fashion Coin)
 
 ## Patch changes
 - (Patch 1.16.1|note=Added.)

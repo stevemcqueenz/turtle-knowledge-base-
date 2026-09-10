@@ -43,7 +43,7 @@ You will receive:
 Have you not said enough?
 
 ## Notes
-  -Speaking with Elder Moonhoof**
+**Speaking with Elder Moonhoof**
 
   > Gossip: *<Elder, we must speak.>*
 

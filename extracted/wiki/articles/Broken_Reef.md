@@ -10,13 +10,13 @@ categories: ["Gillijim's Isle subzones", "Reefs", "Turtle WoW content"]
 ---
 # Broken Reef
 
--The Broken Reef** is a reef located in [Gillijim's Isle](Gillijim's Isle), between the [Silver Coast](Silver Coast) and the [Deeptide Sanctum](Deeptide Sanctum).
+**The Broken Reef** is a reef located in [Gillijim's Isle](Gillijim's Isle), between the [Silver Coast](Silver Coast) and the [Deeptide Sanctum](Deeptide Sanctum).
 
 ## NPCs
--   [Deeptide Tidehunter](Deeptide Tidehunter)
--   [Deeptide Murloc](Deeptide Murloc)
--   [Silver Coast Crawler](Silver Coast Crawler)
--   [Deepshell Snapper](Deepshell Snapper)
+- [Deeptide Tidehunter](Deeptide Tidehunter)
+- [Deeptide Murloc](Deeptide Murloc)
+- [Silver Coast Crawler](Silver Coast Crawler)
+- [Deepshell Snapper](Deepshell Snapper)
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

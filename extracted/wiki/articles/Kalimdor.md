@@ -22,7 +22,7 @@ categories: []
 | languages | Orcish, Taur-ahe, Troll, Darnassian, Goblin |
 | loc | Western Azeroth |
 
--Kalimdor** [[ˈkælɪmdɔɹ](International Phonetic Alphabet)] ([Darnassian](Darnassian) for **land of eternal starlight**) is one of the two main continents of [Azeroth](Azeroth). It is located to the west of the [Eastern Kingdoms](Eastern Kingdoms). The [Great Sea](Great Sea) lies in between the continents. Kalimdor is home to the [night elves](Night elf), [orcs](Orc), [tauren](tauren) and [trolls](Troll). Other races present include the [ogres](Ogre), [centaur](centaur), [naga](naga), [demons](demons), and other, more minor races.
+**Kalimdor** [[ˈkælɪmdɔɹ](International Phonetic Alphabet)] ([Darnassian](Darnassian) for **land of eternal starlight**) is one of the two main continents of [Azeroth](Azeroth). It is located to the west of the [Eastern Kingdoms](Eastern Kingdoms). The [Great Sea](Great Sea) lies in between the continents. Kalimdor is home to the [night elves](Night elf), [orcs](Orc), [tauren](tauren) and [trolls](Troll). Other races present include the [ogres](Ogre), [centaur](centaur), [naga](naga), [demons](demons), and other, more minor races.
 
 Kalimdor was primarily the domain of the night elves in the ten thousand years between the [War of the Ancients](War of the Ancients) and the [Battle of Mount Hyjal](Battle of Mount Hyjal). In the years since the battle, night elf dominion has given way as the tauren adopted a more centralized system and accepted their allies, the orcs and the trolls into their midst. 
 
@@ -59,28 +59,28 @@ Kalimdor has been shown to be divided into three great regions or continents:
 - [Southern Kalimdor](Southern Kalimdor)
 
 Kalimdor is further divided into the following regions:
--  [Blackstone Island](Blackstone Island) (1 - 10)
+- [Blackstone Island](Blackstone Island) (1 - 10)
 - [Durotar](Durotar) (1 - 10)
 - [Mulgore](Mulgore) (1 - 10)
 - [Teldrassil](Teldrassil) (1 - 10)
 - [The Barrens](Barrens) (7 - 30)
 - [Darkshore](Darkshore) (9 - 25)
--[Moonglade](Moonglade) (10 - 60)
--[Stonetalon Mountains](Stonetalon Mountains) (14 - 30)
--[Ashenvale](Ashenvale) (18 - 30)
--[Thousand Needles](Thousand Needles) (25 - 35)
--[Desolace](Desolace) (30 - 40)
--[Dustwallow Marsh](Dustwallow Marsh) (35 - 45)
--[Feralas](Feralas) (40 - 50)
+- [Moonglade](Moonglade) (10 - 60)
+- [Stonetalon Mountains](Stonetalon Mountains) (14 - 30)
+- [Ashenvale](Ashenvale) (18 - 30)
+- [Thousand Needles](Thousand Needles) (25 - 35)
+- [Desolace](Desolace) (30 - 40)
+- [Dustwallow Marsh](Dustwallow Marsh) (35 - 45)
+- [Feralas](Feralas) (40 - 50)
 - [Icepoint Rock](Icepoint Rock) (40 - 50)
--[Tanaris](Tanaris) (40 - 50)
--[Felwood](Felwood) (48 - 55)
--[Un'Goro Crater](Un'Goro Crater) (50 - 55)
--[Azshara](Azshara) (45 - 55)
+- [Tanaris](Tanaris) (40 - 50)
+- [Felwood](Felwood) (48 - 55)
+- [Un'Goro Crater](Un'Goro Crater) (50 - 55)
+- [Azshara](Azshara) (45 - 55)
 - [Moonwhisper Coast](Moonwhisper Coast) (50 - 56)
 - [Tel'Abim](Tel'Abim) (54 - 60)
--[Silithus](Silithus) (55 - 60)
--[Winterspring](Winterspring) (55 - 60)
+- [Silithus](Silithus) (55 - 60)
+- [Winterspring](Winterspring) (55 - 60)
 - [Hyjal](Hyjal) (58 - 60)
 
 ## Capital cities
@@ -90,8 +90,8 @@ Kalimdor is further divided into the following regions:
 ### Horde
 - [Orgrimmar](Orgrimmar) in [Durotar](Durotar), Central Kalimdor
 - [Thunder Bluff](Thunder Bluff) in [Mulgore](Mulgore), Central Kalimdor
--  [Amani'Alor](Amani'Alor) in [Stonetalon Mountains](Stonetalon Mountains), Central Kalimdor
--  [Sparkwater Port](Sparkwater Port) in [Durotar](Durotar), Central Kalimdor
+- [Amani'Alor](Amani'Alor) in [Stonetalon Mountains](Stonetalon Mountains), Central Kalimdor
+- [Sparkwater Port](Sparkwater Port) in [Durotar](Durotar), Central Kalimdor
 
 ### Neutral
 - [Timbermaw Hold](Timbermaw Hold) in [Felwood](Felwood), Northern Kalimdor
@@ -101,33 +101,13 @@ Kalimdor is further divided into the following regions:
 
 ## Dungeons
 ### Northern Kalimdor
-- 
--  
--  
--  
-
-### Central Kalimdor
-- 
-- 
-- 
-- 
-- 
-- 
-
-### Southern Kalimdor
--  
-- 
-- 
-- [Ahn'Qiraj](Ahn'Qiraj)
-  - 
-  - 
-
-### Caverns of Time
-- 
-
-## Battlegrounds
+- - - - ### Central Kalimdor
+- - - - - - ### Southern Kalimdor
+- - - - [Ahn'Qiraj](Ahn'Qiraj)
+  -   - ### Caverns of Time
+- ## Battlegrounds
 - [Warsong Gulch](Warsong Gulch) - [Ashenvale](Ashenvale) ([Alliance](Alliance)),  [The Barrens](The Barrens) ([Horde](Horde))
--  [Thorn Gorge](Thorn Gorge) - [Barrens](Barrens) ([Alliance](Alliance)),  [Mulgore](Mulgore) ([Horde](Horde))
+- [Thorn Gorge](Thorn Gorge) - [Barrens](Barrens) ([Alliance](Alliance)),  [Mulgore](Mulgore) ([Horde](Horde))
 - <strike> [Sunnyglade Valley](Sunnyglade Valley) - [Caverns of Time](Caverns of Time)</strike>
 
 ## Playable races
@@ -138,4 +118,4 @@ Kalimdor is further divided into the following regions:
 - [Orc](Orc)s
 - [Troll](Troll)s
 - [Tauren](Tauren)
--  [Goblin](Goblin)s
+- [Goblin](Goblin)s

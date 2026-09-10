@@ -28,7 +28,7 @@ categories: ["Alchemists", "Bosses", "Deadmines mobs", "Defias Brotherhood", "Hu
 | instance | Deadmines |
 | relatives | William (father) |
 
--Jared Voss** is a boss in the [Deadmines](Deadmines). The son of renowned alchemist [William Voss](William Voss), William turned against the kingdom when the Voss' alchemy shop in [Stormwind City](Stormwind City)'s [Old Town](Old Town) was not slated for rebuilding by the [House of Nobles](House of Nobles), leaving him and his family homeless. Prior to William's death, he sent Jared, who inherited both his hate for the Stormwind nobility and his alchemical abilities, to join the [Stonemasons](Stonemasons Guild) who had rioted against the House of Nobles, who would later form the [Defias Brotherhood](Defias Brotherhood). (ref: [quest: Turning Off The Tap])
+**Jared Voss** is a boss in the [Deadmines](Deadmines). The son of renowned alchemist [William Voss](William Voss), William turned against the kingdom when the Voss' alchemy shop in [Stormwind City](Stormwind City)'s [Old Town](Old Town) was not slated for rebuilding by the [House of Nobles](House of Nobles), leaving him and his family homeless. Prior to William's death, he sent Jared, who inherited both his hate for the Stormwind nobility and his alchemical abilities, to join the [Stonemasons](Stonemasons Guild) who had rioted against the House of Nobles, who would later form the [Defias Brotherhood](Defias Brotherhood). (ref: [quest: Turning Off The Tap])
 
 ## Abilities
 - Poison
@@ -37,10 +37,10 @@ categories: ["Alchemists", "Bosses", "Deadmines mobs", "Defias Brotherhood", "Hu
 - Withering Poison
 
 ## Quotes
-  -Aggro**
+**Aggro**
   What?! You're not the ones from Stranglethorn!
 
-  -Death**
+**Death**
   I was going to make a fortune on this work!
 
 ## Objective of

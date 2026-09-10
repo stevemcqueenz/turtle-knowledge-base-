@@ -25,17 +25,17 @@ categories: ["Booty Bay characters", "Goblin characters", "Quest givers", "Stran
 | location | Booty Bay, Stranglethorn Vale |
 | status | Alive |
 
--Wharfmaster Lozgil** is a [goblin](goblin) [quest giver](quest giver) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). According to him, he sees a lot of interesting characters coming and going into [Booty Bay](Booty Bay).
+**Wharfmaster Lozgil** is a [goblin](goblin) [quest giver](quest giver) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). According to him, he sees a lot of interesting characters coming and going into [Booty Bay](Booty Bay).
 
 ## Quests
 - [quest: Goblin Sponsorship] 
 - [quest: Goblin Sponsorship] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I see some interesting characters come and go at the port. Watch yourself, <name>. It's never clear who to trust, what with all of the shady activity that goes on here...
 
-  -Gossip during [quest: Warsong Supplies]**
+**Gossip during [quest: Warsong Supplies]**
 So you're here for the Warsong axes. Well, it's about time, <name>. That crate has been sitting out there for days, now.
 
 Feel free to haul it away whenever you are ready.

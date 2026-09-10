@@ -29,36 +29,15 @@ categories: ["Gillijim's Isle subzones", "Horde quest hubs", "Horde settlements"
 | flightpath | Yes |
 | status | Active |
 
--Maul'ogg Refuge** is a [Horde](Horde) outpost located in a vale within southeastern [Gillijim's Isle](Gillijim's Isle).
+**Maul'ogg Refuge** is a [Horde](Horde) outpost located in a vale within southeastern [Gillijim's Isle](Gillijim's Isle).
 
 ## Travel connections
 ### Flight
-  - [Booty Bay](Booty Bay), [Stranglethorn Vale](Stranglethorn Vale)**
+** [Booty Bay](Booty Bay), [Stranglethorn Vale](Stranglethorn Vale)**
 
 ## Inhabitants
 ### Quest givers
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-### Goods and services
-- 
-- 
-- 
-- 
-- 
-
-### Additional characters
-- 
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - - - - - ### Goods and services
+- - - - - ### Additional characters
+- - - - - ## Patch changes
 - (Patch 1.16.0|note=Added.)

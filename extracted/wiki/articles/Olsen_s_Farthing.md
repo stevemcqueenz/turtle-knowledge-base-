@@ -10,6 +10,6 @@ categories: ["Farms", "Ghouls", "Pages with broken file links", "Silverpine Fore
 ---
 # Olsen's Farthing
 
--Olsen's Farthing** was once a bustling farmstead with direct contact into the main throughway of trade in the [Silverpine Forest](Silverpine Forest). Olsen and his family lived here and made a good living, but all that changed with the coming of the [Scourge](Scourge).
+**Olsen's Farthing** was once a bustling farmstead with direct contact into the main throughway of trade in the [Silverpine Forest](Silverpine Forest). Olsen and his family lived here and made a good living, but all that changed with the coming of the [Scourge](Scourge).
 
 One night, crazed ghouls and fearsome skeletal warriors charged the farm, murdering any they came across. Olsen was helpless as the undead butchered his family. The [Scourge](Scourge) still haunts the farm, ravenously attacking anyone who enter the area.

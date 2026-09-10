@@ -10,7 +10,7 @@ categories: ["Doors", "Stormwrought Ruins objects", "Turtle WoW content"]
 ---
 # Stormwrought Castle Gate
 
--Stormwrought Castle Gates** can be found at the various entrances to [Stormwrought Descent](Stormwrought Descent) in the [Stormwrought Ruins](Stormwrought Ruins). They require either the [Key to Stormwrought Castle](Key to Stormwrought Castle) or 185 [lockpicking](lockpicking) to open.
+**Stormwrought Castle Gates** can be found at the various entrances to [Stormwrought Descent](Stormwrought Descent) in the [Stormwrought Ruins](Stormwrought Ruins). They require either the [Key to Stormwrought Castle](Key to Stormwrought Castle) or 185 [lockpicking](lockpicking) to open.
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

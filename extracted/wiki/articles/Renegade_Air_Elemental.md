@@ -22,13 +22,13 @@ categories: ["Air elementals", "Stonetalon Mountains mobs", "Turtle WoW content"
 | location | Earthen Ring, Stonetalon Mountains |
 | status | Killable |
 
--Renegade Air Elementals** are air elementals located at the [Earthen Ring](Earthen Ring (Stonetalon Mountains)) in [Stonetalon Mountains](Stonetalon Mountains).
+**Renegade Air Elementals** are air elementals located at the [Earthen Ring](Earthen Ring (Stonetalon Mountains)) in [Stonetalon Mountains](Stonetalon Mountains).
 
 ## Abilities
 - Enveloping Winds
 
 ## Objective of
--  [24] [Gone With The Wind](Gone With The Wind)
+- [24] [Gone With The Wind](Gone With The Wind)
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

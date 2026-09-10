@@ -24,13 +24,13 @@ categories: ["Artists", "Human characters", "Northwind NPCs", "Quest givers", "S
 | location | Lion's Watch, Northwind |
 | status | Alive |
 
--Guard Gaspar** is a [human](human) quest giver located at [Lion's Watch](Lion's Watch) in [Northwind](Northwind).
+**Guard Gaspar** is a [human](human) quest giver located at [Lion's Watch](Lion's Watch) in [Northwind](Northwind).
 
 ## Quests
 - [quest: Amberpaw Bounty] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I'm not really cut out for this military stuff, but if there's a way for me to protect my home, then I will do whatever it takes.
 
 ## Patch changes

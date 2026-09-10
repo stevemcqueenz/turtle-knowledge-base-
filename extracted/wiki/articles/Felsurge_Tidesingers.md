@@ -10,7 +10,7 @@ categories: []
 ---
 # Felsurge Tidesingers
 
--Felsurge Tidesingers** are naga mobs who use the fel.
+**Felsurge Tidesingers** are naga mobs who use the fel.
 
 ## Quotes
 - My soul for the power of the fel!

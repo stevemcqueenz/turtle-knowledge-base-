@@ -10,7 +10,7 @@ categories: ["Alliance Towns", "Night Elves", "Pages with broken file links", "S
 ---
 # Aldrassil
 
--Aldrassil** is the giant tree at the center of [Shadowglen](Shadowglen), which is located in the northeastern corner of [Teldrassil](Teldrassil).
+**Aldrassil** is the giant tree at the center of [Shadowglen](Shadowglen), which is located in the northeastern corner of [Teldrassil](Teldrassil).
 
 The leader of Shadowglen, [Tenaron Stormgrip](Tenaron Stormgrip), makes his home at the very top of Aldrassil.
 
@@ -43,4 +43,4 @@ See also <b>[Quests in Shadowglen](http://www.goblinworkshop.com/areas/Shadowque
 - [Lyrai](Lyrai) &lt;General Supplies&gt;
 
 ## Links and Resources
--GoblinWorkshop &gt; [Aldrassil](http://www.goblinworkshop.com/areas/aldrassil.html)
+- GoblinWorkshop &gt; [Aldrassil](http://www.goblinworkshop.com/areas/aldrassil.html)

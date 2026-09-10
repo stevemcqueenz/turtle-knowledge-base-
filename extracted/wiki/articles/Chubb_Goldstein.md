@@ -24,10 +24,10 @@ categories: ["Dwarf characters", "Turtle WoW content", "Wetlands NPCs"]
 | location | Dun Agrath, Wetlands |
 | status | Alive |
 
--Chubb Goldstein** is a [dwarf](dwarf) located in [Dun Agrath](Dun Agrath) in the [Wetlands](Wetlands). He is inside of a building not far from the stables, standing near a fireplace in front of some barrels of ale.
+**Chubb Goldstein** is a [dwarf](dwarf) located in [Dun Agrath](Dun Agrath) in the [Wetlands](Wetlands). He is inside of a building not far from the stables, standing near a fireplace in front of some barrels of ale.
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Hic! Hic!
 
 ## Patch changes

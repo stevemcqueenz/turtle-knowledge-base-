@@ -57,8 +57,8 @@ A child’s carving knife. See the worn handle? Used for years. Passed from hand
 Thirty small pieces of a forgotten life. That is what you have brought me. History is not only written in great battles and kings, you know. Sometimes it survives in the things ordinary people carried with them each day. Thank you for retrieving these, <class>. The naga may have taken the town, but they will not erase its memory.
 
 ## Progression
-1.[quest: Echoes of Nendis]
-1.[quest: The Light of Elunaris]
+1. [quest: Echoes of Nendis]
+1. [quest: The Light of Elunaris]
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

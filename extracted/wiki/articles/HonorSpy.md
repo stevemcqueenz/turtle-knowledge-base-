@@ -21,7 +21,7 @@ Records PvP standings of all players for turtle wow.
 Purge your data from the mini-map button if you used a different version before.
 
 ## Git Links
-  -[(jrc13245)](https://github.com/jrc13245/HonorSpyTurtle)**
+**[(jrc13245)](https://github.com/jrc13245/HonorSpyTurtle)**
 
 ## Preview
 ## Commands

@@ -46,9 +46,9 @@ Ahh, is this what revenge feels like?
 I must admit, I only feel an emptiness. The true killer is still out there, and must be found.
 
 ## Progression
-1.[quest: Greymane Hatred]
-1.[quest: The Blackheart Killer]
-1.[quest: In Memory of Franklin]
+1. [quest: Greymane Hatred]
+1. [quest: The Blackheart Killer]
+1. [quest: In Memory of Franklin]
 
 ## Patch changes
 - (Patch 1.17.0|note=Added.)

@@ -25,6 +25,6 @@ categories: ["Armor vendors", "Booty Bay characters", "Goblin characters", "Stra
 | location | Booty Bay, Stranglethorn Vale |
 | status | Alive |
 
--Qixdi Goodstitch** is a [goblin](goblin) [cloth](cloth) [armor](armor) [vendor](vendor) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). Here he runs the [Tan-Your-Hide Leatherworks](Tan-Your-Hide Leatherworks) with [Blixrez Goodstitch](Blixrez Goodstitch).
+**Qixdi Goodstitch** is a [goblin](goblin) [cloth](cloth) [armor](armor) [vendor](vendor) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). Here he runs the [Tan-Your-Hide Leatherworks](Tan-Your-Hide Leatherworks) with [Blixrez Goodstitch](Blixrez Goodstitch).
 
 ## External links

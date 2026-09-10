@@ -24,7 +24,7 @@ categories: ["Human characters", "Kul Tiran Exploratory Fleet", "Lapidis Isle NP
 | location | Caelan's Rest, Lapidis Isle |
 | status | Alive |
 
--Sergeant Blackwell** is a [human](human) [quest giver](quest giver) located in [Caelan's Rest](Caelan's Rest) in [Lapidis Isle](Lapidis Isle).
+**Sergeant Blackwell** is a [human](human) [quest giver](quest giver) located in [Caelan's Rest](Caelan's Rest) in [Lapidis Isle](Lapidis Isle).
 
 ## Quests
 - [quest: The Gor'dosh Ogres] 
@@ -32,7 +32,7 @@ categories: ["Human characters", "Kul Tiran Exploratory Fleet", "Lapidis Isle NP
 - [quest: The Water Rat] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 This island is dangerous. Keep yourself to Caelan's Rest if you're not experienced in the wilderness.
 
 All sorts of evil lurks outside the boundaries of our town that test us for weakness.

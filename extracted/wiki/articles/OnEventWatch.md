@@ -10,10 +10,10 @@ categories: ["Addon"]
 ---
 # OnEventWatch
 
--OnEventWatch** tracks the performance of <code>OnEvent</code> handlers, showing how much time they take per frame. It helps identify slow or frequent events, aiding in diagnosing UI and addon performance issues.
+**OnEventWatch** tracks the performance of <code>OnEvent</code> handlers, showing how much time they take per frame. It helps identify slow or frequent events, aiding in diagnosing UI and addon performance issues.
 
 ## **Installation**
-  -Manual Installation Only**
+**Manual Installation Only**
 
 # Download this zip: **[OnEventWatch_1_2.zip](https://web.archive.org/web/20081230205625if_/http://fs.wowinterface.com:80/download.php?id=4840)**
 # Unpack the <code>.zip</code> into your <code>Interface/AddOns</code> directory and restart the game.
@@ -31,7 +31,7 @@ categories: ["Addon"]
 
 ## Preview
 ## Profiling Window
-  -Profiling Window Features**
+**Profiling Window Features**
 
 - Displays list of frames with recent <code>OnEvent</code> activity.
 - Shows:
@@ -44,22 +44,22 @@ categories: ["Addon"]
 - **Sort** columns by clicking headers.
 - **Link**: Shift+Click on an entry to copy details into chat (for comparison).
 
-  -Reset Data**:
+**Reset Data**:
 
 - Click **Reset** in the profiling window to clear collected data and reload UI.
 
-  -Stop Watching**:
+**Stop Watching**:
 
 - Click **Stop** in the profiling window to remove hooks and reload UI.
 
 ## Changes
-  -New in 1.2**
+**New in 1.2**
 
 - Removed redundant 'Refresh' button
 - Separated 'Stop' and 'Reset' buttons
 - MyMinimapButton change for 1.10.2
 - Events shift+clickable to chat (see below)
-  -Patch Notes**
+**Patch Notes**
 
 - **1.2 (05/04/2006):** Changed 'Refresh' to 'Stop', updated Minimap button, added chat linkability
 - **1.1 (04/16/2006):** Removed garbage collection on sorts, added minimap button, continuous list updates

@@ -24,13 +24,13 @@ categories: ["Human characters", "Northwind NPCs", "Quest givers", "Stromgarde (
 | location | Jousting Grounds, Northwind |
 | status | Alive |
 
--Commander Leder** is a [human](human) [quest giver](quest giver) located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind).
+**Commander Leder** is a [human](human) [quest giver](quest giver) located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind).
 
 ## Quest
 - [quest: In Need of Shoes] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Just standing here gives me the shivers. I'd rather return to Stromgarde and assist my brethren, but diplomacy calls me to participate in... this.
 
 ## Patch changes

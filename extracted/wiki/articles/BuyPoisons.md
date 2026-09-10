@@ -10,10 +10,10 @@ categories: ["Addon"]
 ---
 # BuyPoisons
 
--BuyPoisons** simplifies the process of buying poison components and restocking Flash Powder, saving rogues time and effort.
+**BuyPoisons** simplifies the process of buying poison components and restocking Flash Powder, saving rogues time and effort.
 
 ## How to Install
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **BuyPoisons** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **BuyPoisons** up to date is by using [GitAddonsManager]
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 # Visit the GitHub link you find, then click the green **<> Code** button, and select Download ZIP.
 # Use [7zip](https://www.7-zip.org/) to extract the zip into your <code>TWow/Interface/AddOns</code>

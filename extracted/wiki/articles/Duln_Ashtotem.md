@@ -25,14 +25,14 @@ categories: ["Grimtotem clan", "Moonwhisper Coast NPCs", "Quest givers", "Tauren
 | location | Moonhoof Village, Moonwhisper Coast |
 | status | Alive |
 
--Duln Ashtotem** is a [tauren](tauren) quest giver located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Duln Ashtotem** is a [tauren](tauren) quest giver located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: Heart Full of Shadows] 
 - [quest: Gifting the Matron] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 To think the Moonhoof chief would turn me away, and yet allow those foolish Windhorns an audience. The Matron will be heavily displeased. At least not all ears have shut themselves from our whispers.
 
 ## Patch changes

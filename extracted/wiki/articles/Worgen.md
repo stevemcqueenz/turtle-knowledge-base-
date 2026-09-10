@@ -10,7 +10,7 @@ categories: ["Races", "Worgen"]
 ---
 # Worgen
 
--Worgen** are large, wolf-like creatures that inhabit and hunt in darkened forests throughout the Eastern Kingdoms, such as Duskwood and Silverpine Forest. Nightmarish beings of legend, worgen originate from a world nestled far within the Dark Beyond, [Vorgendor](Vorgendor), and much of their nature is shrouded in mystery.
+**Worgen** are large, wolf-like creatures that inhabit and hunt in darkened forests throughout the Eastern Kingdoms, such as Duskwood and Silverpine Forest. Nightmarish beings of legend, worgen originate from a world nestled far within the Dark Beyond, [Vorgendor](Vorgendor), and much of their nature is shrouded in mystery.
 
 ## History
 ### Early history

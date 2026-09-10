@@ -24,7 +24,7 @@ categories: ["Dwarf characters", "Gilneas NPCs", "Quest givers", "Turtle WoW con
 | location | Cave above Mossgrove Farm, Gilneas |
 | status | Alive |
 
--Bearbane** is a [dwarf](dwarf) [quest giver](quest giver) located in a cave above [Mossgrove Farm](Mossgrove Farm) in [Gilneas](Gilneas).
+**Bearbane** is a [dwarf](dwarf) [quest giver](quest giver) located in a cave above [Mossgrove Farm](Mossgrove Farm) in [Gilneas](Gilneas).
 
 ## Quests
 - [quest: A Vile Mantle] 

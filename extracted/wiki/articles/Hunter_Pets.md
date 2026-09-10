@@ -842,19 +842,19 @@ Pets eat from up to six different types of food:  meat, bread, fish, fruit, fung
 
 Feeding pets is very important. The happier a pet is, the more damage it deals. Also, the happier it stays, the more loyalty ranks it gains, and so it gains the ability to learn more skills. If you neglect to feed a pet for too long, the pet may run away
 
-  -Feed Pet** allows hunters to maintain the happiness and  loyalty levels of their pets. If either of these two pet stats dip below certain default percentages, the pet will become unruly and may eventually abandon the Hunter. One can keep track of a pet's happiness level easily using the *happy face* icon beside the pet's display on the UI. Also, in the pet's attributes dialog, the happiness icon also shows the food types a given pet will consume.
+**Feed Pet** allows hunters to maintain the happiness and  loyalty levels of their pets. If either of these two pet stats dip below certain default percentages, the pet will become unruly and may eventually abandon the Hunter. One can keep track of a pet's happiness level easily using the *happy face* icon beside the pet's display on the UI. Also, in the pet's attributes dialog, the happiness icon also shows the food types a given pet will consume.
 
 You can gain this ability at level 10 by completing the Hunter training quests.  You will gain the  [Tame Beast] ability before you gain the **Feed Pet** ability so make sure to complete the quest line before trying to tame a pet.
 
-  -Functionality**
+**Functionality**
 - Left click on the Feed Pet icon (in your spell book or if you put it in your action bar), then left click on a food item.  This will feed your pet and increase your pet's happiness and loyalty.
 
-  -Limitations**
+**Limitations**
 - While not a limitation of the *Feed Pet* ability itself, not keeping track of your pet's happiness and loyalty will hamper their ability to fight and impact your experience levels.
 - Pets do not gain much happiness being fed food below their level.  This means feeding your pet can get very expensive quickly.
 - Having to keep food for your pet requires you to use up slots in your bags for food, limiting what you can carry.
 
-  -Feeding Tips**
+**Feeding Tips**
 - Take up Fishing and have a pet that will eat Fish if you want to save money.  Fishing takes a lot of time though so there's a trade off there. Also, pets that eat bread are very easy to feed as long as you have a mage willing to conjure bread for you.
 - Keep your pet happy and loyal.
 - Monitor the Combat Log of your chat box to see how much happiness your pet gets from the food.  Gains are either 8, 17, or 35 per wave.
@@ -872,7 +872,7 @@ In addition,  [Growl], as well as several enhancing abilities that were added in
 
 Pets below your level gain XP by fighting alongside you (as long as the Hunter receives XP from the kill). When the pet reaches the hunter's level, it stops gaining experience until said hunter levels up. Every level the pet gains 5 training points, up to a maximum of 300 points at level 60. By visiting a Pet Trainer, a hunter can remove his pet current training by paying an ever increasing fee - a process similar to unlearning your talents in your class trainer.
 
-  -Training Procedure**
+**Training Procedure**
 
 You get the Pet Training skill from the Pet Trainer NPC along with the Feed Pet ability (the 2nd piece of Taming the Beast quest). It goes on your main character skill screen not on the beast mastery screen. The icon looks like a slingshot. Using that ability brings up a skill pane with a list of things you know how to teach a pet to do.
 
@@ -909,42 +909,42 @@ All except Growl must be learned by taming a pet that has the ability innately.
 A Hunter's pet has a happiness rating, also sometimes known as mood. This is shown beside the pet's portrait and in his pet paper doll as a small smiley face icon. 
 This icon shows the states of happiness your pet goes through:
 
-  -Green big smiley face**
--Your pet is perfectly happy with you and the world. In this state, your pet will do 125% of their normal damage to the mob during a fight. In this state your pet gains loyalty to you over time.
-  -Yellow smiley face**
--Your pet is contented but not really happy. It's worth feeding your pet at this stage to get it back to the Happy state above. You will only receive 100% damage at this stage.  In this state your pet gains loyalty to you over time.
-  -Red frowning face** 
--Your pet is unhappy and will only do 75% damage during fights. You should immediately feed your pet to prevent possible abandonment! In this state your pet loses loyalty to you over time!
+**Green big smiley face**
+- Your pet is perfectly happy with you and the world. In this state, your pet will do 125% of their normal damage to the mob during a fight. In this state your pet gains loyalty to you over time.
+**Yellow smiley face**
+- Your pet is contented but not really happy. It's worth feeding your pet at this stage to get it back to the Happy state above. You will only receive 100% damage at this stage.  In this state your pet gains loyalty to you over time.
+**Red frowning face** 
+- Your pet is unhappy and will only do 75% damage during fights. You should immediately feed your pet to prevent possible abandonment! In this state your pet loses loyalty to you over time!
 
 ## Loyalty
 When you first tame a pet, their Loyalty index is at the lowest level. If you immediately feed them, this will raise happiness, which in time, will help to raise the pet's loyalty index. So, keep in mind that loyalty is directly tied to happiness. You cannot neglect one without the other trait suffering. There are several stages of Loyalty:
 
-  -Rebellious**
--During this stage, your pet's happiness fluctuates a great deal. If the pet or yourself are constantly dying, or if you dismiss the pet too often, he can begin to become very hard to handle and may leave you.
-  -Unruly**
--You have begun to show the pet who the Alpha Male is but you still haven't totally convinced him. Keep feeding and treating the pet well.
-  -Submissive**
--You have won the pet over to some degree and he is ready to work harder at becoming your faithful companion. Feeding becomes a little less strenuous at this point, requiring less food to keep the pet happy.
-  -Dependable**
--The pet has fully accepted you as its master and things are good. Pet requires less food to remain happy.
-  -Faithful**
+**Rebellious**
+- During this stage, your pet's happiness fluctuates a great deal. If the pet or yourself are constantly dying, or if you dismiss the pet too often, he can begin to become very hard to handle and may leave you.
+**Unruly**
+- You have begun to show the pet who the Alpha Male is but you still haven't totally convinced him. Keep feeding and treating the pet well.
+**Submissive**
+- You have won the pet over to some degree and he is ready to work harder at becoming your faithful companion. Feeding becomes a little less strenuous at this point, requiring less food to keep the pet happy.
+**Dependable**
+- The pet has fully accepted you as its master and things are good. Pet requires less food to remain happy.
+**Faithful**
 - It would be extremely hard at this point to run the pet off except by a concerted plan of neglect and abuse.
-  -Man's Best Friend**
--In this loyalty level your pet require less food to remain happy. At this stage of the pet keeping game, you would really have to work hard to get rid of your pet. Only by letting his happiness rating fall to unacceptable levels and remain there for an extended amount of time could you undo all the trust and faith your pet now has in you.
+**Man's Best Friend**
+- In this loyalty level your pet require less food to remain happy. At this stage of the pet keeping game, you would really have to work hard to get rid of your pet. Only by letting his happiness rating fall to unacceptable levels and remain there for an extended amount of time could you undo all the trust and faith your pet now has in you.
 
 The Pet screen can be navigated to by opening your character display and clicking on the Pet tab along the bottom.
 
 ## **Pet Changes**
 ### Patch 1.18.0
--Hunters now learn Pet Command: Take Position when they learn Tame Pet. This command allows you to select a location to send your pet to, cancelled by clicking Follow again. Take Position obeys line of sight rules, meaning pets cannot be sent to locations you can’t see. This spell allows Hunters to more accurately position their pets, putting them out of danger’s way and adjusting their location behind bosses to avoid pets getting parried.
--Added new pet family abilities for Tallstriders, Spiders, Hyenas, Bears, Crocolisks, Crabs, and Raptors! These new abilities can be found by taming specific creatures in the wild. With these additions we can happily say all pet families now have a special ability. We'd recommend going out there and discovering them yourself, but you can find a list below if you want to learn about them now:
-  -Tallstriders: Strider Presence — Allows party members to generate a portion of their health while in combat and mana while casting. This effect lasts indefinitely.
-  -Spiders: Web — Roots a target for a few seconds, then heavily slows them afterwards.
-  -Hyenas: Packleader — Calls a Pack Ally to aid you for a few seconds. The Pack Ally takes reduced damage from area of effect attacks, obeys the commands given to your primary pet, and does not generate any threat.
-  -Bears: Roar of Fortitude — Lets out a fortifying roar, reducing damage taken by your party members and increasing their damage dealt for a few seconds.
-  -Crocolisks: Death Roll — Initiates a death roll, heavily slowing the target and rapidly dealing damage. Damage is increased against enemies with low health.
-  -Crabs: Bubble Barrier — Envelops your pet in a bubble that absorbs damage. When the bubble breaks or expires, it deals Frost damage to all nearby enemies.
-  -Raptors: Savage Rend — Slashes your enemy, dealing damage and causing a bleed every second for a short duration. The bleed duration is increased if the slash is a critical strike.
+- Hunters now learn Pet Command: Take Position when they learn Tame Pet. This command allows you to select a location to send your pet to, cancelled by clicking Follow again. Take Position obeys line of sight rules, meaning pets cannot be sent to locations you can’t see. This spell allows Hunters to more accurately position their pets, putting them out of danger’s way and adjusting their location behind bosses to avoid pets getting parried.
+- Added new pet family abilities for Tallstriders, Spiders, Hyenas, Bears, Crocolisks, Crabs, and Raptors! These new abilities can be found by taming specific creatures in the wild. With these additions we can happily say all pet families now have a special ability. We'd recommend going out there and discovering them yourself, but you can find a list below if you want to learn about them now:
+  - Tallstriders: Strider Presence — Allows party members to generate a portion of their health while in combat and mana while casting. This effect lasts indefinitely.
+  - Spiders: Web — Roots a target for a few seconds, then heavily slows them afterwards.
+  - Hyenas: Packleader — Calls a Pack Ally to aid you for a few seconds. The Pack Ally takes reduced damage from area of effect attacks, obeys the commands given to your primary pet, and does not generate any threat.
+  - Bears: Roar of Fortitude — Lets out a fortifying roar, reducing damage taken by your party members and increasing their damage dealt for a few seconds.
+  - Crocolisks: Death Roll — Initiates a death roll, heavily slowing the target and rapidly dealing damage. Damage is increased against enemies with low health.
+  - Crabs: Bubble Barrier — Envelops your pet in a bubble that absorbs damage. When the bubble breaks or expires, it deals Frost damage to all nearby enemies.
+  - Raptors: Savage Rend — Slashes your enemy, dealing damage and causing a bleed every second for a short duration. The bleed duration is increased if the slash is a critical strike.
 
 ### Patch 1.17.2
 - Hunters now have access to unlock two extra stable slots, doubling the amount of pets you store in a stable master.
@@ -968,5 +968,5 @@ Adjusted Spell Power and added Attack Power scaling for most damaging pet abilit
 - Claw: 1 extra damage for every 42 Attack Power.
 
 ## External links
--[Turtle WoW Book of Pets](https://docs.google.com/spreadsheets/d/1u33knqlYXvY-jR6pvTd58gyDg8OYEuwYsSoEnIjeA8k)
--[TWoW Custom Beasts](https://docs.google.com/spreadsheets/d/1NbwgI9kuGvAXlfD-tpoXZ2VMwtsUBwPMhI1yrQKgeaU)
+- [Turtle WoW Book of Pets](https://docs.google.com/spreadsheets/d/1u33knqlYXvY-jR6pvTd58gyDg8OYEuwYsSoEnIjeA8k)
+- [TWoW Custom Beasts](https://docs.google.com/spreadsheets/d/1NbwgI9kuGvAXlfD-tpoXZ2VMwtsUBwPMhI1yrQKgeaU)

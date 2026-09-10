@@ -26,10 +26,10 @@ categories: ["Dwarf characters", "Ironforge NPCs", "Turtle WoW content"]
 | status | Alive |
 | relatives | Redbrand family |
 
--Torlig Redbrand** is a [dwarf](dwarf) located in the [Mystic Ward](Mystic Ward) in [Ironforge](Ironforge).
+**Torlig Redbrand** is a [dwarf](dwarf) located in the [Mystic Ward](Mystic Ward) in [Ironforge](Ironforge).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 We Redbrand fought alongside the king in the War of Three Hammers ages ago. We hold a proud legacy and should not be judged lightly.
 
 ## Patch changes

@@ -10,4 +10,4 @@ categories: ["Dustwallow Marsh subzones", "Murloc territories", "Pages with brok
 ---
 # Dreadmurk Shore
 
--Dreadmurk Shore** is the name of the coastline and islands of [Dustwallow Marsh](Dustwallow Marsh) between [Theramore Isle](Theramore Isle) and [Northwatch Hold](Northwatch Hold) of the [Barrens](Barrens). It is heavily infested by the [Mirefin murloc](Murloc#Mirefin_Tribe) tribe. The waters are home to sea [turtles](turtle) and other sea creatures. The [Defias](Defias) have also recently suffered a shipwreck somewhere between Dreadmurk and [Alcaz](Alcaz Island) and have set up camp on a few islands and the beach near them.
+**Dreadmurk Shore** is the name of the coastline and islands of [Dustwallow Marsh](Dustwallow Marsh) between [Theramore Isle](Theramore Isle) and [Northwatch Hold](Northwatch Hold) of the [Barrens](Barrens). It is heavily infested by the [Mirefin murloc](Murloc#Mirefin_Tribe) tribe. The waters are home to sea [turtles](turtle) and other sea creatures. The [Defias](Defias) have also recently suffered a shipwreck somewhere between Dreadmurk and [Alcaz](Alcaz Island) and have set up camp on a few islands and the beach near them.

@@ -15,7 +15,7 @@ Retrieves info about one item in the current retrieved list of items from the Au
  name, texture, ... = GetAuctionItemInfo("type", index);
 </syntaxhighlight>
 ----
-  -*Arguments***
+***Arguments***
   (String type, Number index)
 
   ;type : One of the following:
@@ -26,7 +26,7 @@ Retrieves info about one item in the current retrieved list of items from the Au
   ;index : The index of the item in the list to retrieve info from (normally 1-50, inclusive)
 
 ----
-  -*Returns***
+***Returns***
 
   ;name : a string containing the name of the item
   ;texture : a string containing the name of the texture of the item
@@ -42,18 +42,18 @@ Retrieves info about one item in the current retrieved list of items from the Au
   ;owner : the player that is selling the item
 
 ----
-  -*Example***
+***Example***
 <syntaxhighlight lang="lua">
  name, texture, count, quality, canUse, level, 
  minBid, minIncrement, buyoutPrice, bidAmount, 
  highBidder, owner = GetAuctionItemInfo("owner", offset + i);
 </syntaxhighlight>
-  -*Result***
+***Result***
 
 Retrieves info about an item in the current list of auction items. Affects nothing other than the return values.
 
 ----
-  -*Description***
+***Description***
 
    Retrieves info about an item in the current list of auction items.
 

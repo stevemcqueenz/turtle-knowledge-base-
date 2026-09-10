@@ -25,7 +25,7 @@ categories: ["Alah'Thalas NPCs", "High elf characters", "Survival trainers", "Tu
 | location | Bazaar, Alah'Thalas |
 | status | Alive |
 
--Hellador Swiftluck** is a [high elf](high elf) Journeyman [survival](survival) trainer located in the [Bazaar](Bazaar) in [Alah'Thalas](Alah'Thalas).
+**Hellador Swiftluck** is a [high elf](high elf) Journeyman [survival](survival) trainer located in the [Bazaar](Bazaar) in [Alah'Thalas](Alah'Thalas).
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

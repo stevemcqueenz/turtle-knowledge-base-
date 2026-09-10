@@ -25,10 +25,10 @@ categories: ["Human characters", "Northwind NPCs", "Turtle WoW content"]
 | location | Ambershire Church, Northwind |
 | status | Alive |
 
--Charlie** is a [human](human) boy located at the [Ambershire Church](Ambershire Church) in [Northwind](Northwind).
+**Charlie** is a [human](human) boy located at the [Ambershire Church](Ambershire Church) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I am the altar boy! Brother Graham said that is a huge responsibility.
 
 ## Patch changes

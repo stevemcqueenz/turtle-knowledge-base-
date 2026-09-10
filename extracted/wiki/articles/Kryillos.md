@@ -25,7 +25,7 @@ categories: ["Ammo vendors", "Centaur characters", "General goods vendors", "Gil
 | location | Kalkor Point, Gillijim's Isle |
 | status | Alive |
 
--Kryillos** is a [centaur](centaur) general goods vendor located in [Kalkor Point](Kalkor Point) in [Gillijim's Isle](Gillijim's Isle).
+**Kryillos** is a [centaur](centaur) general goods vendor located in [Kalkor Point](Kalkor Point) in [Gillijim's Isle](Gillijim's Isle).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

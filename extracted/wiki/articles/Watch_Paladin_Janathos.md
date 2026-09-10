@@ -27,7 +27,7 @@ categories: ["Human characters", "Quest givers", "Swamp of Sorrows NPCs", "Turtl
 | status | Alive |
 | gender | Male |
 
--Watch Paladin Janathos** is a [human](human) [quest giver](quest giver) located in [Sorrowguard Keep](Sorrowguard Keep) in the [Swamp of Sorrows](Swamp of Sorrows).
+**Watch Paladin Janathos** is a [human](human) [quest giver](quest giver) located in [Sorrowguard Keep](Sorrowguard Keep) in the [Swamp of Sorrows](Swamp of Sorrows).
 
 ## Quests
 - [quest: To Sorrowguard Keep] 
@@ -48,14 +48,14 @@ It has fallen into disrepair since its fall in the First War.
 After its destruction, I was sent here to reclaim it. While we have done repairs and occupied the place, there is always more that can be done. Especially with the darkness of the swamps beside us, and the orcs lurking in Stonard.
 
 ### On-click
-  -Greeting**
--Sorrowguard is a bastion in this foul land.
--We will keep our watch.
--Keep your faith in the Light.
--Have you come to say a prayer?
+**Greeting**
+- Sorrowguard is a bastion in this foul land.
+- We will keep our watch.
+- Keep your faith in the Light.
+- Have you come to say a prayer?
 
-  -Farewell**
--Walk softly, danger lurks.
+**Farewell**
+- Walk softly, danger lurks.
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

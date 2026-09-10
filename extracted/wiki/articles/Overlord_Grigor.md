@@ -24,7 +24,7 @@ categories: ["Gilneas mobs", "Human characters", "Turtle WoW content"]
 | location | The Dryrock Pit, Gilneas |
 | status | Killable |
 
--Overlord Grigor** is a [human](human) located in the [Dryrock Pit](Dryrock Pit) in [Gilneas](Gilneas).
+**Overlord Grigor** is a [human](human) located in the [Dryrock Pit](Dryrock Pit) in [Gilneas](Gilneas).
 
 ## Objective of
 - Drops [Dossier: Isiden Perenolde](Dossier: Isiden Perenolde) for [quest: Legacy of Perenolde].

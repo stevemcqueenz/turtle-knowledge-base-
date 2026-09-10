@@ -48,8 +48,8 @@ You have done well. To commemorate your first trial, I will reward you with one 
 In truth, it has helped us bond with the night elves and find fraternity with them. But to speak plainly, Mu’sha has always pointed the way, and if you choose to follow it, do so. You do not need any explanation; she won’t try to convince you. Of the three, she is the most free, if you will. Her path is her own, and you can either come along or stay behind.
 
 ## Progression
-1.[quest: race=tauren|class=priest]
-1.[quest: race=tauren|class=priest]
+1. [quest: race=tauren|class=priest]
+1. [quest: race=tauren|class=priest]
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

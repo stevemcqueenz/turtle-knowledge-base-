@@ -26,7 +26,7 @@ categories: ["Ammo vendors", "General goods vendors", "Human characters", "North
 | status | Alive |
 | relatives | Sebastian (father),, Mark (brother),, Lucia (sister) |
 
--Wisteria Gallagher** is a [human](human) general goods vendor located in [Ambershire](Ambershire) in [Northwind](Northwind).
+**Wisteria Gallagher** is a [human](human) general goods vendor located in [Ambershire](Ambershire) in [Northwind](Northwind).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

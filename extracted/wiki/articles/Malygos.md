@@ -23,7 +23,7 @@ categories: ["Blue dragons", "Lore characters"]
 | relatives | Arygos (son),, Andorgos (daughter) |
 | status | Alive |
 
--Malygos the Spellweaver**, also known as **Malygos the Blue**, is one of the five [Dragon Aspects](Dragon Aspects) and the leader of the [blue dragonflight](blue dragonflight).
+**Malygos the Spellweaver**, also known as **Malygos the Blue**, is one of the five [Dragon Aspects](Dragon Aspects) and the leader of the [blue dragonflight](blue dragonflight).
 
 ## Biography
 ### The Charge of the Dragonflights

@@ -25,7 +25,7 @@ categories: ["Hinterlands NPCs", "Human characters", "Quest givers", "Turtle WoW
 | location | Wildhammer Keep, Hinterlands |
 | relatives | Adena & Dougan (parents),, Loania (twin sister),, Kardan (adoptive father) |
 
--Lieren** is a [human](human) quest giver located in [Wildhammer Keep](Wildhammer Keep) in the [Hinterlands](Hinterlands). She and her twin sister [Loania](Loania) were the daughters of the human paladin [Dougan](Dougan) and his wife [Adena](Adena). However, during a foray into the cursed tower of [Karazhan](Karazhan) along with his companions [Kardan](Kardan) and [Voldana](Voldana), Dougan died, and Adena lost the will to live upon hearing the news. Kardan and Voldana each adopted one of their infant twin daughters and raised them as their own. (ref: [quest: Errand for Quel'Danil])
+**Lieren** is a [human](human) quest giver located in [Wildhammer Keep](Wildhammer Keep) in the [Hinterlands](Hinterlands). She and her twin sister [Loania](Loania) were the daughters of the human paladin [Dougan](Dougan) and his wife [Adena](Adena). However, during a foray into the cursed tower of [Karazhan](Karazhan) along with his companions [Kardan](Kardan) and [Voldana](Voldana), Dougan died, and Adena lost the will to live upon hearing the news. Kardan and Voldana each adopted one of their infant twin daughters and raised them as their own. (ref: [quest: Errand for Quel'Danil])
 
 ## Quests
 - [quest: Package to Quel'Danil] 

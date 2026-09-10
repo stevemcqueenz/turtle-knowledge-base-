@@ -10,7 +10,7 @@ categories: ["Goblin territories", "Stonetalon Mountains subzones", "Stubs", "To
 ---
 # Powder Town
 
--Powder Town** is an area located at Stonetalon Mountains.
+**Powder Town** is an area located at Stonetalon Mountains.
 
 ## Patch changes
 - (Patch 1.16.4|note=Added.)

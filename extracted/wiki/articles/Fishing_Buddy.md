@@ -23,7 +23,7 @@ Either clone the repository to your WoW/Interface/Add-ons folder, or download ma
 - Use /fishingbuddy or /fb toggle the display of the Fishing Buddy window
 - Use /fb help print the list of Fishing Buddy commands 
 - Use /fb switch wear your chosen fishing outfit, or change back
-  -Usage**
+**Usage**
 
 - Alt-clicking on an item in your outfit display will clear it.
 - Right-click for cast.

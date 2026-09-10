@@ -24,14 +24,14 @@ categories: ["Archdruids", "Druid characters", "Moonwhisper Coast NPCs", "Night 
 | location | Narvalis Point, Moonwhisper Coast |
 | status | Alive |
 
--Arch Druid Renethra Moonwater** is a [night elf](night elf) quest giver located in [Narvalis Point](Narvalis Point) in [Moonwhisper Coast](Moonwhisper Coast).
+**Arch Druid Renethra Moonwater** is a [night elf](night elf) quest giver located in [Narvalis Point](Narvalis Point) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: The Moth's Heresy] 
 - [quest: A Dryad's Counsel] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The land cries out in agony. The ragged chaos it is steeped in is fueled by the countless forces eager to claim its power for their own, with little to no regard for consequences. Us Kaldorei have abandoned these shores for far too long.
 
 ## Patch changes

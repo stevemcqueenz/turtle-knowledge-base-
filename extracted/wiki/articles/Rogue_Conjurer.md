@@ -23,7 +23,7 @@ categories: ["Human characters", "Tirisfal Glades mobs", "Turtle WoW content"]
 | gender | Male |
 | location | The Rogue Heights, Tirisfal Glades |
 
--Rogue Conjurers** are humans found at the [Rogue Heights](Rogue Heights) in [Tirisfal Glades](Tirisfal Glades). Ostensibly part of a group of Rogue Wizards, the Conjurers are part of a covert [Kirin Tor](Kirin Tor) group led by [Magister Salorn](Magister Salorn) checking the Forsaken in their expansion within the [Tirisfal Uplands](Tirisfal Uplands).
+**Rogue Conjurers** are humans found at the [Rogue Heights](Rogue Heights) in [Tirisfal Glades](Tirisfal Glades). Ostensibly part of a group of Rogue Wizards, the Conjurers are part of a covert [Kirin Tor](Kirin Tor) group led by [Magister Salorn](Magister Salorn) checking the Forsaken in their expansion within the [Tirisfal Uplands](Tirisfal Uplands).
 
 ## Objective of
 - [quest: The Rogue Heights]

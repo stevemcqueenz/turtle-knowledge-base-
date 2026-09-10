@@ -25,7 +25,7 @@ categories: ["Kul Tiran Exploratory Fleet", "Lapidis Isle NPCs", "Turtle WoW con
 | status | Alive |
 | companions | Magus Valgon |
 
--Hydrox** is the water elemental guardian of Kul Tiran hydromancer [Valgon](Magus Valgon), and can be found at his camp in [Lapidis Isle](Lapidis Isle).
+**Hydrox** is the water elemental guardian of Kul Tiran hydromancer [Valgon](Magus Valgon), and can be found at his camp in [Lapidis Isle](Lapidis Isle).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

@@ -10,19 +10,19 @@ categories: ["Scarlet Enclave subzones", "Turtle WoW content"]
 ---
 # Havenshire
 
--Havenshire** is a town in the [Scarlet Enclave](Scarlet Enclave) that is located just north of [New Avalon](New Avalon) and southeast of [Gloom Hill](Gloom Hill). Havenshire comprises the [Havenshire Mine](Havenshire Mine), a stable, farmlands, a crypt, and a lumber mill.
+**Havenshire** is a town in the [Scarlet Enclave](Scarlet Enclave) that is located just north of [New Avalon](New Avalon) and southeast of [Gloom Hill](Gloom Hill). Havenshire comprises the [Havenshire Mine](Havenshire Mine), a stable, farmlands, a crypt, and a lumber mill.
 
 ## NPCs
--  [Scarlet Paladin](Scarlet Paladin)
--  [Scarlet Cavalier](Scarlet Cavalier)
--  [Scarlet Priest](Scarlet Priest)
--  [Scarlet Cleric](Scarlet Cleric)
--  [Scarlet Magus](Scarlet Magus)
--  [Scarlet Worker](Scarlet Worker)
--  [Scarlet Lumberjack](Scarlet Lumberjack)
--  [Scarlet Invoker](Scarlet Invoker)
--  [Scarlet Medic](Scarlet Medic)
--  [Scarlet Hunter](Scarlet Hunter)
+- [Scarlet Paladin](Scarlet Paladin)
+- [Scarlet Cavalier](Scarlet Cavalier)
+- [Scarlet Priest](Scarlet Priest)
+- [Scarlet Cleric](Scarlet Cleric)
+- [Scarlet Magus](Scarlet Magus)
+- [Scarlet Worker](Scarlet Worker)
+- [Scarlet Lumberjack](Scarlet Lumberjack)
+- [Scarlet Invoker](Scarlet Invoker)
+- [Scarlet Medic](Scarlet Medic)
+- [Scarlet Hunter](Scarlet Hunter)
   - [Scarlet Hound](Scarlet Hound)
 - [Scarlet Warhorse](Scarlet Warhorse)
 

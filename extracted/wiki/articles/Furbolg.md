@@ -22,39 +22,39 @@ deeper into the rage that is overtaking their race.
 ## Tribes
 ### Timbermaw
   *main article: [Timbermaw](Timbermaw)*
--Found in Northern [Felwood](Felwood), Western [Winterspring](Winterspring), and Northwest [Azshara](Azshara).
--The Timbermaw are the only Furbolg tribe that has not yet been corrupted in some way.
--Faction points can be gained with them by killing Deadwood Furbolgs.
--A good reputation with them allows you to buy rare items from them.
+- Found in Northern [Felwood](Felwood), Western [Winterspring](Winterspring), and Northwest [Azshara](Azshara).
+- The Timbermaw are the only Furbolg tribe that has not yet been corrupted in some way.
+- Faction points can be gained with them by killing Deadwood Furbolgs.
+- A good reputation with them allows you to buy rare items from them.
 
 ### Deadwood
   *main article: [Deadwood](Deadwood)*
--Found in Southern ([Deadwood](Deadwood) village) and Northern ([Felpaw](Felpaw) village) [Felwood](Felwood).
+- Found in Southern ([Deadwood](Deadwood) village) and Northern ([Felpaw](Felpaw) village) [Felwood](Felwood).
 
 ### Foulweald
   *main article: [Foulweald](Foulweald)*
--Found in [Ashenvale Forest](Ashenvale Forest) ([Greenpaw](Greenpaw) village).
+- Found in [Ashenvale Forest](Ashenvale Forest) ([Greenpaw](Greenpaw) village).
 
 ### Gnarlpine
   *main article: [Gnarlpine](Gnarlpine)*
--Found in southwest (Gnarlpine Hold) and southeast [Teldrassil](Teldrassil).
+- Found in southwest (Gnarlpine Hold) and southeast [Teldrassil](Teldrassil).
 
 ### The Blackwood Furbolg Tribe
--Found in [Darkshore](Darkshore); Related Quest: *The Blackwood Corrupted* [http://www.thottbot.com/?qu=4763]
-  -Related Items: Blackwood Grain Sample [http://www.thottbot.com/?i=2681]; Blackwood Grain Stores (Darkshore); Blackwood Totemic (Darkshore); Blackwood Fruit Sample [http://www.thottbot.com/?sp=16072]
-  -Also related: Blackwood Furbolg North Bonfire
+- Found in [Darkshore](Darkshore); Related Quest: *The Blackwood Corrupted* [http://www.thottbot.com/?qu=4763]
+  - Related Items: Blackwood Grain Sample [http://www.thottbot.com/?i=2681]; Blackwood Grain Stores (Darkshore); Blackwood Totemic (Darkshore); Blackwood Fruit Sample [http://www.thottbot.com/?sp=16072]
+  - Also related: Blackwood Furbolg North Bonfire
 
 ### Thistlefur
   *main article: [Thistlefur](Thistlefur)*
--Found in [Ashenvale Forest](Ashenvale Forest)
+- Found in [Ashenvale Forest](Ashenvale Forest)
 
 ### Winterfall
   *main article: [Winterfall](Winterfall)*
--Found in [Winterspring](Winterspring)
+- Found in [Winterspring](Winterspring)
 
 ### Barkskin
   *main article: [Barkskin tribe](Barkskin tribe)*
--Found in [Mount Hyjal](Mount Hyjal)
+- Found in [Mount Hyjal](Mount Hyjal)
 
 ## History
 The Furbolgs are a race of bear-men who traditionally shared the forests of eternal night with the elves.

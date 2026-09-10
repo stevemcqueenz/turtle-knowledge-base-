@@ -15,4 +15,4 @@ __NOTOC__
 The **Stonefire Tavern** is an [inn](inn) located in the [Commons](Commons) district of the city of [Ironforge](Ironforge), just north of the main gates. The tavern is owned by [Innkeeper Firebrew](Innkeeper Firebrew) and his daughter [Gwenna Firebrew](Gwenna Firebrew), and acts as one of the main taverns of the city.
 
 ## Patch changes
--  **Patch 1.4.0 (2005-04-19):** The Dry times in Ironforge have ended and the Stonefire Tavern in Ironforge now has alcohol again.
+- **Patch 1.4.0 (2005-04-19):** The Dry times in Ironforge have ended and the Stonefire Tavern in Ironforge now has alcohol again.

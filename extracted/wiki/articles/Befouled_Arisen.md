@@ -23,7 +23,7 @@ categories: ["Skeletons", "Stormwrought Ruins mobs", "Turtle WoW content"]
 | location | Stormwrought Ruins |
 | status | Killable |
 
--Befouled Arisen** are [skeleton](skeleton)s located in [Stormwrought Ruins](Stormwrought Ruins).
+**Befouled Arisen** are [skeleton](skeleton)s located in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

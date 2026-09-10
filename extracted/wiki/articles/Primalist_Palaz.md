@@ -27,10 +27,10 @@ categories: ["Jungle troll characters", "Lapidis Isle NPCs", "Turtle WoW content
 | location | Hazzuri Glade, Lapidis Isle |
 | status | Alive |
 
--Primalist Palaz** is a [jungle troll](jungle troll) quest giver located in [Hazzuri Glade](Hazzuri Glade) in [Lapidis Isle](Lapidis Isle).
+**Primalist Palaz** is a [jungle troll](jungle troll) quest giver located in [Hazzuri Glade](Hazzuri Glade) in [Lapidis Isle](Lapidis Isle).
 
 ## Quests
--  [52] [Bengal Fangs](Bengal Fangs) 
+- [52] [Bengal Fangs](Bengal Fangs) 
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

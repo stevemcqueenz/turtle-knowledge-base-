@@ -10,7 +10,7 @@ categories: ["Patches"]
 ---
 # Patch 1.16.3
 
--Patch 1.16.3** was released on August 10, 2022.
+**Patch 1.16.3** was released on August 10, 2022.
 
 ## Patch Notes
 - Fixed random client crashes around the world.

@@ -35,6 +35,6 @@ During the [War of the Shifting Sands](War of the Shifting Sands), the dragon [A
 Along with [Caelestrasz](Caelestrasz) and [Arygos](Arygos), she helped push the qiraji back into [Ahn'Qiraj](Ahn'Qiraj) which allowed Anachronos, [Fandral Staghelm](Fandral Staghelm), and the night elves to create a magical barrier to seal the fortress. The three dragons and their companions flew headlong into the insect city as the [Scarab Wall](Scarab Wall) was erected behind them, leaving them imprisoned within the walls of [C'Thun](C'Thun)'s prison. (ref: [The War of the Shifting Sands (short story)](The War of the Shifting Sands (short story)))
 
 ## Patch changes
--  **Patch 1.9.0  (2006-01-03):** Added.
+- **Patch 1.9.0  (2006-01-03):** Added.
 
 ## References

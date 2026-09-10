@@ -13,12 +13,5 @@ categories: ["Dwarf territories", "Inns", "Stonetalon Mountains subzones", "Tave
 The **Hardul Distillery** is a [dwarven](dwarf) tavern in [Bael Hardul](Bael Hardul).
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - - - ## Patch changes
 - (Patch 1.16.4|note=Added.)

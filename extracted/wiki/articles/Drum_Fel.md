@@ -23,7 +23,7 @@ categories: ["Arathi Highlands NPCs", "Orc quest givers", "Pages with broken fil
 | sex | Male |
 | location | Arathi Highlands |
 
--Drum Fel** is a level 30 [Orc](Orc) [quest giver](quest giver) located in [Hammerfall](Hammerfall) in the [contested](contested) territory of [Arathi Highlands](Arathi Highlands). He was once one of Thrall's guards but retired and headed to Arathi Highlands.
+**Drum Fel** is a level 30 [Orc](Orc) [quest giver](quest giver) located in [Hammerfall](Hammerfall) in the [contested](contested) territory of [Arathi Highlands](Arathi Highlands). He was once one of Thrall's guards but retired and headed to Arathi Highlands.
 
 He starts the following quests:
 - [quest: Call to Arms]

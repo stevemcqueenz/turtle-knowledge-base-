@@ -25,7 +25,7 @@ categories: ["Human characters", "Kul Tiran Exploratory Fleet", "Kul Tiras (king
 | location | Caelan's Rest, Lapidis Isle |
 | status | Alive |
 
--Colonel Hardinus** is a [human](human) [quest giver](quest giver) located in [Caelan's Rest](Caelan's Rest) in [Lapidis Isle](Lapidis Isle).
+**Colonel Hardinus** is a [human](human) [quest giver](quest giver) located in [Caelan's Rest](Caelan's Rest) in [Lapidis Isle](Lapidis Isle).
 
 ## Quests
 - [quest: The Rotten Renown] 
@@ -41,14 +41,14 @@ It is a surprise to see a new face around here. We were shipwrecked quite a whil
 This is Caelan's Rest, named after the Admiral who led our fleet and died when we were attacked. If you're here to help, we certainly need it.
 
 ### On-click
-  -Greeting**
--Can I help you?
--We honor the old Alliance.
--In the name of the anchor, in the name of Kul Tiras.
--Hail. What brings you to Caelan's Rest?
+**Greeting**
+- Can I help you?
+- We honor the old Alliance.
+- In the name of the anchor, in the name of Kul Tiras.
+- Hail. What brings you to Caelan's Rest?
 
-  -Farewell**
--For the Admiral.
+**Farewell**
+- For the Admiral.
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

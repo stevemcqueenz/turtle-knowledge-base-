@@ -31,21 +31,10 @@ An interview with the servants of Azora in the [Gadgetzan Times](Gadgetzan Times
 Upon the table on the top floor is a magical artifact named the Eye of Azora which allows anyone who touches it to see the surroundings of the Tower of Ilgalar. It is placed there during the quest  [21] [A Watchful Eye](A Watchful Eye).
 
 ## Inhabitants
-- 
-- 
-- 
-
-  -Trainers**
-- 
-
-  -Merchants**
-- 
-- 
-
-  -Guards**
-- 
-
-## Notes
+- - - ;Trainers
+- ;Merchants
+- - ;Guards
+- ## Notes
 - The music theme from [Tinker Town](Tinker Town) is heard in the tower.
 
 ## References

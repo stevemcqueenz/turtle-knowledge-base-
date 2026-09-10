@@ -23,7 +23,7 @@ categories: ["Alliance Expedition", "Human characters", "Readable objects", "Sto
 | relatives | Ignaeus (ancestor),, Liam (grandfather),, Thoras (uncle),, Galen (cousin) |
 | status | Unknown |
 
--Danath Trollbane** was the nephew of [Thoras Trollbane](Thoras Trollbane), Lord of Stromgarde, captain of the Stromgarde militia, and Force Commander of the Alliance Expedition to Draenor.
+**Danath Trollbane** was the nephew of [Thoras Trollbane](Thoras Trollbane), Lord of Stromgarde, captain of the Stromgarde militia, and Force Commander of the Alliance Expedition to Draenor.
 
 A mercenary captain from the Stromgarde militia, Danath was made famous for leading the armies of Stromgarde in the final fight for Khaz Modan. His status as a great general and fighter elevated him to the position of Overseer at one of the orcish internment camps in Azeroth, at [New Stormwind](Stormwind City).
 

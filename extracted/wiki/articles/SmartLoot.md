@@ -13,7 +13,7 @@ categories: ["Addon"]
 SmartLoot is designed to replace or enhance the default group loot frames that appear when items are up for roll in a group setting.
 
 ## Installation
-  -GitAddonsManager (Recommended)**
+**GitAddonsManager (Recommended)**
 
 The easiest way to keep SmartLoot up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep SmartLoot up to date is by using [GitAddonsManager](GitA
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -37,7 +37,7 @@ If you prefer manual installation, follow these steps:
 ## **Commands**
 - <code>/sloot</code>: This is the primary slash command to open the SmartLoot options window.
 
-  -Click Functions:**
+**Click Functions:**
 
 - **Minimap Button (Left Click):** Opens the SmartLoot options window.
 - **Minimap Button (Right Click and Drag):** Allows the user to reposition the minimap button.

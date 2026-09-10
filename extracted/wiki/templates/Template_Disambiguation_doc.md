@@ -10,9 +10,9 @@ categories: ["Template documentation"]
 ---
 # Template:Disambiguation/doc
 
--Description**
+**Description**
   Marks an article as a disambiguation page, adding a banner to the article and categorizing it under [:Category:Disambiguations](:Category:Disambiguations).
-  -Syntax**
+**Syntax**
   Add <code></code> at the top of a disambiguation page.
 
 <includeonly></includeonly><noinclude></noinclude>

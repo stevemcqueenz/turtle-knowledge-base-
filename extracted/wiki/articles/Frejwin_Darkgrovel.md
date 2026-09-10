@@ -25,13 +25,13 @@ categories: ["Dwarf characters", "Stormwind City NPCs", "Turtle WoW content", "W
 | location | Slaughtered Lamb, Stormwind City |
 | status | Alive |
 
--Frejwin Darkgrovel** is a [dwarf](dwarf) warlock trainer located in the cellar of the [Slaughtered Lamb](Slaughtered Lamb) in [Stormwind City](Stormwind City).
+**Frejwin Darkgrovel** is a [dwarf](dwarf) warlock trainer located in the cellar of the [Slaughtered Lamb](Slaughtered Lamb) in [Stormwind City](Stormwind City).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 My clan was the first to follow the gnomes' dark teachings. The naive simpletons of Ironforge may scoff at and shun those who walk this path, but they will tremble once we have attained the unimaginable power to crush those who oppose Ironforge. All in due time.
 
-  -Non-warlock gossip**
+**Non-warlock gossip**
 I have no time for fruitless riffraff. You shall not pester me any longer. If you are no warlock, seek your own ilk, <class>.
 
 ## Patch changes

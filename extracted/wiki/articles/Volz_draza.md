@@ -25,7 +25,7 @@ categories: ["Forest troll characters", "Orgrimmar NPCs", "Quest givers", "Revan
 | location | Grommash Hold, Orgrimmar |
 | status | Alive |
 
--Volz'draza** is a [forest troll](forest troll) [quest giver](quest giver) located in [Grommash Hold](Grommash Hold) in [Orgrimmar](Orgrimmar).
+**Volz'draza** is a [forest troll](forest troll) [quest giver](quest giver) located in [Grommash Hold](Grommash Hold) in [Orgrimmar](Orgrimmar).
 
 ## Quests
 - [quest: A Tusken Affair] 

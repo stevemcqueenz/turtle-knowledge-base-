@@ -25,14 +25,14 @@ categories: ["Booty Bay characters", "Goblin characters", "Quest givers", "Stran
 | location | Booty Bay, Stranglethorn Vale |
 | status | Alive |
 
--Brizclang Spuckettool** is a [goblin](goblin) [quest giver](quest giver) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale).
+**Brizclang Spuckettool** is a [goblin](goblin) [quest giver](quest giver) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale).
 
 ## Quests
 - [quest: The "Hidden" Crew] 
 - [quest: In Need of Information] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 You ever been shipwrecked before? I'll tell you, it isn't great.
 
 ## Patch changes

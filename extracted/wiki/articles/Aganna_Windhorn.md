@@ -25,10 +25,10 @@ categories: ["Leatherworking vendors", "Tauren characters", "Thousand Needles NP
 | location | Sagh's Refuge, Thousand Needles |
 | status | Alive |
 
--Aganna Windhorn** is a [tauren](tauren) leatherworking vendor located at [Sagh's Refuge](Sagh's Refuge) in the [Thousand Needles](Thousand Needles).
+**Aganna Windhorn** is a [tauren](tauren) leatherworking vendor located at [Sagh's Refuge](Sagh's Refuge) in the [Thousand Needles](Thousand Needles).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Malgan has grown to have spite in his heart. No matter what I do it would appear his mind has been set. I do not blame him, for we have had nearly everything stolen from us. I am only here to make sure he does not end up killed.
 
 ## Patch changes

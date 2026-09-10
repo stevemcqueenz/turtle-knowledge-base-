@@ -14,7 +14,7 @@ The **Slickwick Oil Rig** is an oil field located in southern [Tanaris](Tanaris)
 
 ## Travel connections
 ### Flight
-  - [Gadgetzan](Gadgetzan), [Tanaris](Tanaris)**
+** [Gadgetzan](Gadgetzan), [Tanaris](Tanaris)**
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

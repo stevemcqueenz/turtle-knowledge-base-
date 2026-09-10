@@ -25,11 +25,11 @@ categories: ["Human characters", "Northwind NPCs", "Stormwind (kingdom)", "Turtl
 | location | Ambershire, Northwind |
 | status | Alive |
 
--Baliff Lancaster** is a [human](human) located in the [Ambershire](Ambershire) town hall in [Northwind](Northwind).
+**Baliff Lancaster** is a [human](human) located in the [Ambershire](Ambershire) town hall in [Northwind](Northwind).
 
 ## Quotes
   *Main article: [Empty Houses#Notes](Empty Houses#Notes)*
-  -Gossip**
+**Gossip**
 What do you want from me? I really have neither the time nor the luster to bother myself with the insignificant squabbles of an adventurer.
 
 ## Patch changes

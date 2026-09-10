@@ -23,10 +23,10 @@ categories: ["Hippogryffs", "Moonwhisper Coast NPCs", "Turtle WoW content"]
 | location | Moro'gai Village, Moonwhisper Coast |
 | status | Alive |
 
--Bherak'zaka** is a [hippogryff](hippogryff) located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Bherak'zaka** is a [hippogryff](hippogryff) located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The mighty hippogryff isn't paying attention to you. You are not worthy of even a slight glance.
 
 ## Patch changes

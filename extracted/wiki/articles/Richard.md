@@ -24,10 +24,10 @@ categories: ["Human characters", "Moonwhisper Coast NPCs", "Rogue characters", "
 | location | Moro'gai Village, Moonwhisper Coast |
 | status | Alive |
 
--Richard** is a [human](human) adventurer located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast). With his companions [Olgra](Olgra), [Janero](Janero) and [Venuris](Venuris), he previously adventured into the [Swamp of Sorrows](Swamp of Sorrows) when they were ambushed by the Mirebeast and Richard was injured, leading his allies to seek the Shard of Aka'Sha to cure his otherworldly sickness. (ref: [THE MIREBEAST — Everlook Broadcasting Co. Radio Play Series](https://www.youtube.com/watch?v=2fhEAUpBBLU))
+**Richard** is a [human](human) adventurer located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast). With his companions [Olgra](Olgra), [Janero](Janero) and [Venuris](Venuris), he previously adventured into the [Swamp of Sorrows](Swamp of Sorrows) when they were ambushed by the Mirebeast and Richard was injured, leading his allies to seek the Shard of Aka'Sha to cure his otherworldly sickness. (ref: [THE MIREBEAST — Everlook Broadcasting Co. Radio Play Series](https://www.youtube.com/watch?v=2fhEAUpBBLU))
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I have to say, these Draenei sure know how to cook some spicy food. Not as spicy as the stew we had in the Harborage, must've been because of those swamp herbs. My companions would surely agree. Except Olgra, that woman is always trying to one-up me. But that's what makes her so endearing, even if I'd never tell her that directly. And I hope you won't either.
 
 ## Trivia

@@ -23,7 +23,7 @@ categories: ["Regions"]
 
 *This article is about the continent. For the dwarven kingdom sometimes referred to as Khaz Modan, see [Ironforge (kingdom)](Ironforge (kingdom)).*
 
-  -Khaz Modan** is one of the three continents making up the center third of the [Eastern Kingdoms](Eastern Kingdoms), between [Azeroth](Azeroth (continent)) to the south and [Lordaeron](Lordaeron) to the north. It is the ancestral homeland of the [dwarves](dwarf) and [gnome](gnome)s. The name *Khaz Modan* means "Mountain of Khaz" in Dwarven, in honor of the [titan](titan) [Khaz'goroth](Khaz'goroth). (ref: [Ironforge - the Awakening of the Dwarves](https://wowpedia.fandom.com/wiki/Ironforge_-_the_Awakening_of_the_Dwarves))
+**Khaz Modan** is one of the three continents making up the center third of the [Eastern Kingdoms](Eastern Kingdoms), between [Azeroth](Azeroth (continent)) to the south and [Lordaeron](Lordaeron) to the north. It is the ancestral homeland of the [dwarves](dwarf) and [gnome](gnome)s. The name *Khaz Modan* means "Mountain of Khaz" in Dwarven, in honor of the [titan](titan) [Khaz'goroth](Khaz'goroth). (ref: [Ironforge - the Awakening of the Dwarves](https://wowpedia.fandom.com/wiki/Ironforge_-_the_Awakening_of_the_Dwarves))
 
 ## Geography
 ### Zones
@@ -33,11 +33,11 @@ categories: ["Regions"]
 - [Loch Modan](Loch Modan)
 - [Searing Gorge](Searing Gorge)
 - [The Wetlands](Wetlands)
--  [Grim Reaches](Grim Reaches)
+- [Grim Reaches](Grim Reaches)
 
 ## Notes and trivia
--The *World of Warcraft: Game Manual* at one point mistakenly refers to the continent as "[Loch Modan](Loch Modan)". (ref: *World of Warcraft: Game Manual*, pg. 104: *"The other two continents of the Eastern Kingdoms are Loch Modan in the center and Lordaeron in the north."*)
--The name "Khaz Modan" is likely inspired by *Khazâd*, the native name for the  in 's , and/or their city of  (Moria).
+- The *World of Warcraft: Game Manual* at one point mistakenly refers to the continent as "[Loch Modan](Loch Modan)". (ref: *World of Warcraft: Game Manual*, pg. 104: *"The other two continents of the Eastern Kingdoms are Loch Modan in the center and Lordaeron in the north."*)
+- The name "Khaz Modan" is likely inspired by *Khazâd*, the native name for the  in 's , and/or their city of  (Moria).
 
 ## Gallery
 <gallery>

@@ -25,7 +25,7 @@ categories: ["Human characters", "Kul Tiran Exploratory Fleet", "Lapidis Isle NP
 | status | Alive |
 | mentors | Arch Hydromancer Lapidis |
 
--Hydromancer Flakereef** is a [human](human) [quest giver](quest giver) located in [Caelan's Rest](Caelan's Rest) in [Lapidis Isle](Lapidis Isle).
+**Hydromancer Flakereef** is a [human](human) [quest giver](quest giver) located in [Caelan's Rest](Caelan's Rest) in [Lapidis Isle](Lapidis Isle).
 
 ## Quests
 - [quest: The Tower of Lapidis] 
@@ -36,7 +36,7 @@ categories: ["Human characters", "Kul Tiran Exploratory Fleet", "Lapidis Isle NP
 - [quest: The Tower of Lapidis X] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 In order to have a powerful fleet, one must master the waves. It is what we hydromancers do, both in guiding the fleet, and controlling the flowing waters of the ocean to be either favorable... or in the case of our foes, not so favorable.
 
 ## Patch changes

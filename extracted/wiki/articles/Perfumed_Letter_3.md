@@ -10,7 +10,7 @@ categories: ["Readable items", "Turtle WoW content"]
 ---
 # Perfumed Letter (3)
 
--Perfumed Letter #3** is acquired by interacting with the [Half-Buried Container](Half-Buried Container) in [Northwind](Northwind) while in possession of [Perfumed Letter #2](Perfumed Letter (2)).
+**Perfumed Letter #3** is acquired by interacting with the [Half-Buried Container](Half-Buried Container) in [Northwind](Northwind) while in possession of [Perfumed Letter #2](Perfumed Letter (2)).
 
 ## Contains
 ## Patch changes

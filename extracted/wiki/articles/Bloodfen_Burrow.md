@@ -12,4 +12,4 @@ categories: ["Caves", "Dustwallow Marsh subzones", "Pages with broken file links
 
 _
 
-  -Bloodfen Burrow** is a cave in south-western [Dustwallow Marsh](Dustwallow Marsh) where a highly concentrated number of Bloodfen [raptor](raptor)s have come to nest. Upon close inspection, the remnants of some sort of settlement can be seen just outside the cave, torn apart by the ravenous dinosaurs. One part of [:Cortello's Riddle](:Cortello's Riddle) can be found here.
+**Bloodfen Burrow** is a cave in south-western [Dustwallow Marsh](Dustwallow Marsh) where a highly concentrated number of Bloodfen [raptor](raptor)s have come to nest. Upon close inspection, the remnants of some sort of settlement can be seen just outside the cave, torn apart by the ravenous dinosaurs. One part of [:Cortello's Riddle](:Cortello's Riddle) can be found here.

@@ -26,10 +26,10 @@ categories: ["Drink vendors", "Human characters", "Northwind NPCs", "Turtle WoW 
 | status | Alive |
 | relatives | Mitchell Huckabee |
 
--Mariah Huckabee** is a [human](human) drink vendor who is located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind).
+**Mariah Huckabee** is a [human](human) drink vendor who is located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Don't get distracted by [this loudmouth](Mitchell Huckabee) next to me; what you need is an ice cold beverage to keep you hydrated while admiring the contestant's sportsmanship!
 
 ## Patch changes

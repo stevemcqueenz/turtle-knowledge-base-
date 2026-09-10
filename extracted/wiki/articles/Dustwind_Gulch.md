@@ -10,4 +10,4 @@ categories: ["Badlands subzones", "Valleys"]
 ---
 # Dustwind Gulch
 
--Dustwind Gulch** is located in the [Badlands](Badlands) to the west of [Lethlor Ravine](Lethlor Ravine).
+**Dustwind Gulch** is located in the [Badlands](Badlands) to the west of [Lethlor Ravine](Lethlor Ravine).

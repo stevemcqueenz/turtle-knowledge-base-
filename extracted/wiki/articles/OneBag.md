@@ -10,10 +10,10 @@ categories: ["Addon"]
 ---
 # OneBag
 
--OneBag** replaces the default game bags with a unified, customizable bag frame.
+**OneBag** replaces the default game bags with a unified, customizable bag frame.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **OneBag** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **OneBag** up to date is by using [GitAddonsManager](Git
 # **Select the Branch:** Ensure that the main branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 

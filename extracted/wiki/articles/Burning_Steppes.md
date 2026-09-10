@@ -126,4 +126,4 @@ WorldMap-BurningSteppes-old.jpg|Burning Steppes prior to [patch 1.16.1](patch 1.
 - [Worg](Worg)s
 
 ## Patch changes
--  **[Patch 1.16.1](Patch 1.16.1) (2021-07-24):** Zone expanded; [Karfang Hold](Karfang Hold) and [Hateforge Excavation](Hateforge Excavation) added. [Hateforge Quarry](Hateforge Quarry) dungeon added.
+- **[Patch 1.16.1](Patch 1.16.1) (2021-07-24):** Zone expanded; [Karfang Hold](Karfang Hold) and [Hateforge Excavation](Hateforge Excavation) added. [Hateforge Quarry](Hateforge Quarry) dungeon added.

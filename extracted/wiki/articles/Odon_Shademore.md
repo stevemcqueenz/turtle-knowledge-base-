@@ -23,7 +23,7 @@ categories: ["Children", "Gilneas NPCs", "Human characters", "Turtle WoW content
 | location | Shademore Tavern, Gilneas |
 | relatives | Darrow (father),, Mariette (mother) |
 
--Odon Shademore** can be found at the [Shademore Tavern](Shademore Tavern) in [Gilneas](Gilneas).
+**Odon Shademore** can be found at the [Shademore Tavern](Shademore Tavern) in [Gilneas](Gilneas).
 
 ## Patch changes
 - (Patch 1.17.0|note=Added.)

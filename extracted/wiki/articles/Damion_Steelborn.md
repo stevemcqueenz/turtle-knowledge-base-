@@ -25,7 +25,7 @@ categories: ["Human characters", "Lordaeron (kingdom)", "Tirisfal Glades NPCs", 
 | location | Remnants Camp, Tirisfal Glades |
 | status | Alive |
 
--Damion Steelborn** is a [human](human) footman located in the [Remnants Camp](Remnants Camp) in [Tirisfal Glades](Tirisfal Glades).
+**Damion Steelborn** is a [human](human) footman located in the [Remnants Camp](Remnants Camp) in [Tirisfal Glades](Tirisfal Glades).
 
 ## Speculation
 He may be related to [Arthur Steelborn](Arthur Steelborn) and [Rufus Steelborn](Rufus Steelborn).

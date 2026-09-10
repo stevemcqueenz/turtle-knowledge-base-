@@ -10,7 +10,7 @@ categories: ["Ashenvale subzones", "Forsaken territories", "Pages with broken fi
 ---
 # Bathran's Haunt
 
--Bathran's Haunt** is located in northwestern [Ashenvale](Ashenvale), north of [the Ruins of Ordil'Aran](the Ruins of Ordil'Aran) and a ways east of [the Zoram Strand](the Zoram Strand). It is the site of an ancient [Kaldorei](Kaldorei) ruin, long since abandoned by the night elves. However, it has recently become populated once again, by agents of the [forsaken](forsaken). These [undead](undead) creatures skulk among the fallen pillars and broken bits of marble, and the land itself has been tainted by their presence, the grass turning a foul brown and the flowers withering away. 
+**Bathran's Haunt** is located in northwestern [Ashenvale](Ashenvale), north of [the Ruins of Ordil'Aran](the Ruins of Ordil'Aran) and a ways east of [the Zoram Strand](the Zoram Strand). It is the site of an ancient [Kaldorei](Kaldorei) ruin, long since abandoned by the night elves. However, it has recently become populated once again, by agents of the [forsaken](forsaken). These [undead](undead) creatures skulk among the fallen pillars and broken bits of marble, and the land itself has been tainted by their presence, the grass turning a foul brown and the flowers withering away. 
 
 The [Forsaken](Forsaken) agents, mostly made up of herbalists and their thugs, appear to be using the various local [herbs](herbs), and their makeshift laboratory for malicious purposes. They are friendly to [Horde](Horde) players.
 

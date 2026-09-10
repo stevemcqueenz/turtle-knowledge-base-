@@ -10,4 +10,4 @@ categories: ["Felwood subzones", "Night elf territories", "Pages with broken fil
 ---
 # Morlos'Aran
 
--Morlos'Aran**[56, 87] was once a great [night elf](night elf) settlement, long before the [Great Sundering](Great Sundering). It is located at the southern edge of [Felwood](Felwood). There are similar ruins located nearby, at [Ameth'Aran](Ameth'Aran) and [Bashal'Aran](Bashal'Aran) in [Darkshore](Darkshore), [Ordil'Aran](Ordil'Aran) in [Ashenvale](Ashenvale), and [Tethris'Aran](Tethris'Aran) in [Desolace](Desolace).  Once thriving cities, now these ruins only serve as a reminder of the golden age that was lost long ago.
+**Morlos'Aran**[56, 87] was once a great [night elf](night elf) settlement, long before the [Great Sundering](Great Sundering). It is located at the southern edge of [Felwood](Felwood). There are similar ruins located nearby, at [Ameth'Aran](Ameth'Aran) and [Bashal'Aran](Bashal'Aran) in [Darkshore](Darkshore), [Ordil'Aran](Ordil'Aran) in [Ashenvale](Ashenvale), and [Tethris'Aran](Tethris'Aran) in [Desolace](Desolace).  Once thriving cities, now these ruins only serve as a reminder of the golden age that was lost long ago.

@@ -25,6 +25,4 @@ categories: ["Councils", "Politicians", "Wildhammer dwarf organizations"]
 The **Council of Dun Kithas**, presided by [Magistrate Hurdam Toughhand](Magistrate Hurdam Toughhand), is the ruling organization of [Dun Kithas](Dun Kithas).
 
 ## Members
-- 
-- 
--
+- - -

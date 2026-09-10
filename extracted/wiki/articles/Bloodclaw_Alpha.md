@@ -23,7 +23,7 @@ categories: ["Gilneas mobs", "Turtle WoW content", "Worgen characters"]
 | location | Gilneas |
 | status | Killable |
 
--Bloodclaw Alphas** are worgen found in [Gilneas](Gilneas).
+**Bloodclaw Alphas** are worgen found in [Gilneas](Gilneas).
 
 ## Abilities
 - **Rend** — Bleeding for 10 damage every 3 sec. Lasts 30 seconds.

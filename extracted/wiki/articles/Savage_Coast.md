@@ -10,4 +10,4 @@ categories: ["Shores", "Stranglethorn Vale subzones"]
 ---
 # Savage Coast
 
--The Savage Coast** is a coastline on the northern part of [Stranglethorn Vale](Stranglethorn Vale). It takes up the shore from the [Westfall](Westfall) border, all the way down to the shore east of the [Vile Reef](Vile Reef), to the [Grom'gol Base Camp](Grom'gol Base Camp). Many [crocolisk](crocolisk)s and even some [basilisk](basilisk)s inhabit the shore. Several [troll](troll) settlements are along this area.
+**The Savage Coast** is a coastline on the northern part of [Stranglethorn Vale](Stranglethorn Vale). It takes up the shore from the [Westfall](Westfall) border, all the way down to the shore east of the [Vile Reef](Vile Reef), to the [Grom'gol Base Camp](Grom'gol Base Camp). Many [crocolisk](crocolisk)s and even some [basilisk](basilisk)s inhabit the shore. Several [troll](troll) settlements are along this area.

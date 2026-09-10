@@ -25,7 +25,7 @@ categories: ["Azotha", "Badlands mobs", "Human characters"]
 | status | Killable |
 | relatives | Zeth (father),, Corthan (former lover) |
 
--Zetharia** was the daughter of the [Keeper of Zeth](Forgotten Keeper), (ref: [quest: The Last Corthan]) the high priest of the eponymous Zethi religion, which existed during the time of the [Kingdom of Corthan](Corthan). A love feud between her and the last [Marauder King of Corthan](Marauder King Corthan) resulted in the doom of the nation after she made a pact with the [Lord of Everlasting Death](Lord of Everlasting Death). (ref: [quest: The Curse of Zetharia])
+**Zetharia** was the daughter of the [Keeper of Zeth](Forgotten Keeper), (ref: [quest: The Last Corthan]) the high priest of the eponymous Zethi religion, which existed during the time of the [Kingdom of Corthan](Corthan). A love feud between her and the last [Marauder King of Corthan](Marauder King Corthan) resulted in the doom of the nation after she made a pact with the [Lord of Everlasting Death](Lord of Everlasting Death). (ref: [quest: The Curse of Zetharia])
 
 ## History
 At some point in time during the end of Corthan's existence, Zetharia entered into a marriage arrangement with Marauder King Corthan. (ref:  On the day of their marriage Corthan appeared with his commoner mistress. This display of unfaithfulness angered Zetharia greatly, who spent days in her room poring over tomes of knowledge, seeking revenge on Corthan.

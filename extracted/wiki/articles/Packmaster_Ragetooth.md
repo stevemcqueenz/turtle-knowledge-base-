@@ -25,7 +25,7 @@ categories: ["Bosses", "Gilneas City mobs", "Turtle WoW content", "Worgen charac
 | status | Killable |
 | instance | Gilneas City |
 
--Packmaster Ragetooth** is a boss in [Gilneas City](Gilneas City). He and his worgen of the Darkpelt pack have overrun the streets of Gilneas City from the city entrance up to the park during the chaos of the [Gilnean civil war](Gilnean civil war) and the [Ravenwood Rebellion](Ravenwood Rebellion)'s attack on the city. A detachment of Gilnean troops led by [Matthias Holtz](Matthias Holtz) were sent to put the district under lockdown and hunt the worgen.
+**Packmaster Ragetooth** is a boss in [Gilneas City](Gilneas City). He and his worgen of the Darkpelt pack have overrun the streets of Gilneas City from the city entrance up to the park during the chaos of the [Gilnean civil war](Gilnean civil war) and the [Ravenwood Rebellion](Ravenwood Rebellion)'s attack on the city. A detachment of Gilnean troops led by [Matthias Holtz](Matthias Holtz) were sent to put the district under lockdown and hunt the worgen.
 
 ## Abilities
 - Howl of Terror

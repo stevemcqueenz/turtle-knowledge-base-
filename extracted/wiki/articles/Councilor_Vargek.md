@@ -25,13 +25,13 @@ categories: ["Blackrock clan", "Burning Steppes NPCs", "Orc characters", "Quest 
 | location | Karfang Hold, Burning Steppes |
 | status | Alive |
 
--Councilor Vargek** is an [orc](orc) [quest giver](quest giver) located in [Karfang Hold](Karfang Hold) in the [Burning Steppes](Burning Steppes).
+**Councilor Vargek** is an [orc](orc) [quest giver](quest giver) located in [Karfang Hold](Karfang Hold) in the [Burning Steppes](Burning Steppes).
 
 ## Quests
 - [quest: Of New and Old] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I am Vargek, advisor to the warleader. I counsel him on matters both internal and foreign.
 
 Perhaps you bring news from beyond this charred valley?

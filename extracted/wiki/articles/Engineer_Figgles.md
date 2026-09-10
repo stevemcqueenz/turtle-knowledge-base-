@@ -27,30 +27,30 @@ categories: ["Bosses", "Engineers", "Hateforge Quarry mobs", "Leper gnome charac
 | companions | 'Broody' |
 | instance | Hateforge Quarry |
 
--Engineer Figgles** is an elite leper gnome boss in [Hateforge Quarry](Hateforge Quarry). He is found by his workshop in the north east of the quarry.
+**Engineer Figgles** is an elite leper gnome boss in [Hateforge Quarry](Hateforge Quarry). He is found by his workshop in the north east of the quarry.
 
 ## Abilities
 - **Corrosive Poison** — 657 to 843 Nature damage inflicted every 5 sec. Armor reduced by 5000. Lasts 30 seconds.
 
 ## Quotes
-  -Aggro**
+**Aggro**
   You foolish outsiders! You're not supposed to be here interrupting my great work. Broody, get them, destroy them!
 
-  -Death**
+**Death**
   I... Was going to build an army... I would've never been stopped!
 
 ## Objective of
--  [55G] [Hunting Engineer Figgles](Hunting Engineer Figgles)
+- [55G] [Hunting Engineer Figgles](Hunting Engineer Figgles)
 
 ## Loot
--[The Creator's Goggles](The Creator's Goggles)
--[Electroconductive Mitts](Electroconductive Mitts)
--[Figgle's Coveralls](Figgle's Coveralls)
--[Wrench of Creation](Wrench of Creation)
--[Techrifle X-TREME 5200](Techrifle X-TREME 5200)
--[Decoy Dragonling Remote](Decoy Dragonling Remote)
--[Fluorescent Green Mechanostrider](Fluorescent Green Mechanostrider)
--[Fashion Coin](Fashion Coin)
+- [The Creator's Goggles](The Creator's Goggles)
+- [Electroconductive Mitts](Electroconductive Mitts)
+- [Figgle's Coveralls](Figgle's Coveralls)
+- [Wrench of Creation](Wrench of Creation)
+- [Techrifle X-TREME 5200](Techrifle X-TREME 5200)
+- [Decoy Dragonling Remote](Decoy Dragonling Remote)
+- [Fluorescent Green Mechanostrider](Fluorescent Green Mechanostrider)
+- [Fashion Coin](Fashion Coin)
 
 ## Patch changes
 - (Patch 1.16.1|note=Added.)

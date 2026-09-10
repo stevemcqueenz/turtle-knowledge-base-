@@ -24,7 +24,7 @@ categories: ["Human characters", "Northwind NPCs", "Theramore", "Turtle WoW cont
 | location | Jousting Grounds, Northwind |
 | status | Alive |
 
--Sir Lorenz of Theramore** is a human located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind). One of the participants in the Northwind jousting tournament representing the [nation of Theramore](Theramore), he faces off against [Fritz of Kul Tiras](Fritz of Kul Tiras).
+**Sir Lorenz of Theramore** is a human located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind). One of the participants in the Northwind jousting tournament representing the [nation of Theramore](Theramore), he faces off against [Fritz of Kul Tiras](Fritz of Kul Tiras).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

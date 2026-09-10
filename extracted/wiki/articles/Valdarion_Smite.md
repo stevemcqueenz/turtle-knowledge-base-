@@ -26,10 +26,10 @@ categories: ["Human characters", "Kul Tiran Exploratory Fleet", "Kul Tiras (king
 | location | Caelan's Rest, Lapidis Isle |
 | status | Alive |
 
--Valdarion Smite** is a human in [Caelan's Rest](Caelan's Rest) on [Lapidis Isle](Lapidis Isle).
+**Valdarion Smite** is a human in [Caelan's Rest](Caelan's Rest) on [Lapidis Isle](Lapidis Isle).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 You know who you're speaking to? I am THE Valdarion Smite! Yeah, that's the one!
 
 I am a world-renowned boxer, the champion of Kul Tiras in fact! I haven't been home in about four years now, but I held the title when I was last there!

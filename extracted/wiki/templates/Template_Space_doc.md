@@ -10,7 +10,7 @@ categories: ["Template documentation"]
 ---
 # Template:Space/doc
 
--Description**
+**Description**
 This template allows you to force a space in areas that strip whitespace.
 
 <includeonly></includeonly><noinclude></noinclude>

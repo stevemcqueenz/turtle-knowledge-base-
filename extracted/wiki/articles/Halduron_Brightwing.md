@@ -26,7 +26,7 @@ categories: ["Farstriders", "High elf characters", "Thalassian Highlands NPCs", 
 | location | The Last Runestone, Thalassian Highlands |
 | status | Alive |
 
--Halduron Brightwing** is the current Ranger-General of the [Silvermoon Remnant](Silvermoon Remnant), having succeeded [Damilara Sunsorrow](Damilara Sunsorrow). The foremost hunter among the remaining Quel'dorei, Halduron leads the forces stationed at [the Last Runestone](Last Runestone) holding back the undead trying to penetrate the [Thalassian Highlands](Thalassian Highlands) through [the Scourged Pass](Scourged Pass).
+**Halduron Brightwing** is the current Ranger-General of the [Silvermoon Remnant](Silvermoon Remnant), having succeeded [Damilara Sunsorrow](Damilara Sunsorrow). The foremost hunter among the remaining Quel'dorei, Halduron leads the forces stationed at [the Last Runestone](Last Runestone) holding back the undead trying to penetrate the [Thalassian Highlands](Thalassian Highlands) through [the Scourged Pass](Scourged Pass).
 
 ## Quests
 - [quest: Taming the Beast|class=hunter|race=HighElf] 

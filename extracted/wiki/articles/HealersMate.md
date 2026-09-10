@@ -13,7 +13,7 @@ categories: ["Addon"]
 HealersMate is a comprehensive healing addon designed for Vanilla World of Warcraft version 1.12. It aims to provide an easy-to-use and functional out-of-box healing experience while also providing many customization options akin to modern WoW's VuhDo or Healbot, but without being too overbearing. It supports healing parties, raids, pets, and targets.
 
 ## Install
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **HealersMate** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **HealersMate** up to date is by using [GitAddonsManager
 # **Select the Branch:** Ensure that the main branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 # Download the latest [**release zip**](https://github.com/i2ichardt/HealersMate/releases/).
 # Extract the files into your WoW addons folder.
 # Launch World of Warcraft and enjoy a smoother healing experience with HealersMate.

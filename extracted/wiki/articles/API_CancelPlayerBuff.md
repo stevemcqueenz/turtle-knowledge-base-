@@ -14,22 +14,22 @@ Removes a specific buff from the player.
  CancelPlayerBuff(buffIndex);
 ----
 
-  - ***Arguments*****
+** ***Arguments*****
 
   ; buffIndex
    The index of the buff to remove. Can be obtained with [GetPlayerBuff](API GetPlayerBuff)
 
 ----
 
-  - ***Example*****
+** ***Example*****
 
  CancelPlayerBuff(GetPlayerBuff(0,"HELPFUL"))
 
-  - ***Result*****
+** ***Result*****
 
 Removes the first (right-most in the default UI) buff from the player.
 
-  - ***Notes*****
+** ***Notes*****
 
 this function uses a zero-based index, while UnitBuff() does not.
 

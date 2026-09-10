@@ -24,7 +24,7 @@ categories: ["Feralas NPCs", "Night elf characters", "Turtle WoW content"]
 | location | Thalanaar, Feralas |
 | status | Alive |
 
--Raela Moonarrow** is a [night elf](night elf) located in [Thalanaar](Thalanaar) in [Feralas](Feralas).
+**Raela Moonarrow** is a [night elf](night elf) located in [Thalanaar](Thalanaar) in [Feralas](Feralas).
 
 ## Patch changes
 - (Patch 1.16.4|note=Added.)

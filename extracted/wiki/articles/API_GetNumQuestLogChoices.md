@@ -14,13 +14,13 @@ Returns the number of options someone has when getting a quest item.
  GetNumQuestLogChoices();
 ----
 
-  - *Arguments***
+** *Arguments***
 
    *none*
 
 ----
 
-  - *Returns***
+** *Returns***
 
    Number numQuestChoices
 
@@ -29,15 +29,15 @@ Returns the number of options someone has when getting a quest item.
 
 ----
 
-  - *Example***
+** *Example***
 
  local numQuestChoices = GetNumQuestLogChoices();
 
-  - *Result***
+** *Result***
 
  2
 ----
 
-  - *Description***
+** *Description***
 
    Returns the number of options someone has when getting a quest item.

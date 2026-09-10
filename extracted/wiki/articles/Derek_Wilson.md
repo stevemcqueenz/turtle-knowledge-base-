@@ -24,10 +24,10 @@ categories: ["Human characters", "Northwind NPCs", "Turtle WoW content"]
 | location | Jousting Grounds, Northwind |
 | status | Alive |
 
--Derek Wilson** is a human located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind), watching over the tournament.
+**Derek Wilson** is a human located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind), watching over the tournament.
 
 ## Quotes
-  -Gossip**
+**Gossip**
 My hard work for Lord Amberwood has finally paid off. Now I can rest and enjoy the tournament with a sack full of coin!
 
 ## Patch changes

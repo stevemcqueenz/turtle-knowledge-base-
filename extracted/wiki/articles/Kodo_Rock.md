@@ -10,6 +10,6 @@ categories: ["Mulgore subzones", "Pages with broken file links", "Shaman", "Taur
 ---
 # Kodo Rock
 
--Kodo Rock**54 80 Mulgore (g/s/c) was a natural monument near [Camp Narache](Camp Narache) that [tauren](tauren) [shaman](shaman) needed to go to for one of their early quests. The rock could only be seen from a short distance so one needed to pay attention.
+**Kodo Rock**54 80 Mulgore (g/s/c) was a natural monument near [Camp Narache](Camp Narache) that [tauren](tauren) [shaman](shaman) needed to go to for one of their early quests. The rock could only be seen from a short distance so one needed to pay attention.
 
 To get there, one could travel from Camp Narache directly towards the [Brambleblade Ravine](Brambleblade Ravine) and it would be located about halfway along the direct line. A small dirt area would be seen on the minimap to pinpoint it.

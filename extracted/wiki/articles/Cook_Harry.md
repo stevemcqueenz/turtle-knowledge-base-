@@ -24,7 +24,7 @@ categories: ["Cooks", "Gilneas NPCs", "Human characters", "Turtle WoW content"]
 | location | Shademore Tavern, Gilneas |
 | status | Alive |
 
--Cook Harry** is a [human](human) located at the [Shademore Tavern](Shademore Tavern) in [Gilneas](Gilneas).
+**Cook Harry** is a [human](human) located at the [Shademore Tavern](Shademore Tavern) in [Gilneas](Gilneas).
 
 ## Quotes
 Gilnean cooking is some of the finest in the world, though not all will find our ingredients enjoyable.

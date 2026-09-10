@@ -25,7 +25,7 @@ categories: ["Cult of the Damned", "Eastern Plaguelands mobs", "Gnome characters
 | location | Forlorn Summit, Eastern Plaguelands |
 | status | Killable |
 
--Dean LeGuin** is a [gnomish](gnome) member of the [Cult of the Damned](Cult of the Damned) located in [Forlorn Summit](Forlorn Summit) in the [Eastern Plaguelands](Eastern Plaguelands). [Lord Maxwell Tyrosus](Lord Maxwell Tyrosus) wants him killed to eliminate the Cult's leadership in the Summit.
+**Dean LeGuin** is a [gnomish](gnome) member of the [Cult of the Damned](Cult of the Damned) located in [Forlorn Summit](Forlorn Summit) in the [Eastern Plaguelands](Eastern Plaguelands). [Lord Maxwell Tyrosus](Lord Maxwell Tyrosus) wants him killed to eliminate the Cult's leadership in the Summit.
 
 ## Objective of
 - [quest: The Wrath Of The Light Fall Upon Thee]

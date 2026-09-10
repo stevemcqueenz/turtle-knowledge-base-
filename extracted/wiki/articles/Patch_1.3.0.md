@@ -10,7 +10,7 @@ categories: ["Named patches", "Pages with broken file links", "World of Warcraft
 ---
 # Patch 1.3.0
 
--Patch 1.3.0: Ruins of the Dire Maul** is a [content patch](content patch) for *[World of Warcraft](World of Warcraft)* that released on 7 March 2005.
+**Patch 1.3.0: Ruins of the Dire Maul** is a [content patch](content patch) for *[World of Warcraft](World of Warcraft)* that released on 7 March 2005.
 
 ## Updated Changes
 - Players who have completed the Molten Core discovery quest can now port directly to the zone, bypassing Blackrock Depths.

@@ -25,7 +25,7 @@ categories: ["Gilneas mobs", "Ogre characters", "Rare mobs", "Turtle WoW content
 | location | Brol'ok Mound, Gilneas |
 | status | Killable |
 
--Bonecruncher** is a rare ogre found in [Brol'ok Mound](Brol'ok Mound) in [Gilneas](Gilneas).
+**Bonecruncher** is a rare ogre found in [Brol'ok Mound](Brol'ok Mound) in [Gilneas](Gilneas).
 
 ## Drops
 - [Light Ogre Belt](Light Ogre Belt)

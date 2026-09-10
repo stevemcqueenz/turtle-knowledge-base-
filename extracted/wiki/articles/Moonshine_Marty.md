@@ -25,10 +25,10 @@ categories: ["Alcohol vendors", "Gillijim's Isle NPCs", "Human characters", "Sou
 | location | Distillery Island, Gillijim's Isle |
 | status | Alive |
 
--'Moonshine' Marty** is a [human](human) alcohol vendor located on [Distillery Island](Distillery Island) in [Gillijim's Isle](Gillijim's Isle). He is the creator of the recipe for Southsea Reserve.
+**'Moonshine' Marty** is a [human](human) alcohol vendor located on [Distillery Island](Distillery Island) in [Gillijim's Isle](Gillijim's Isle). He is the creator of the recipe for Southsea Reserve.
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Please, don't kill me!
 
 I'm the bootlegger who created the recipe for the famous Southsea Reserve!

@@ -25,11 +25,11 @@ categories: ["Horde quests", "Orgrimmar quests", "Pages with broken file links",
 | id | 5726 |
 | image | Hidden Enemies TCG.jpg |
 
--Hidden Enemies** is the first in a small Horde quest line that involves infiltrating the [Burning Blade clan](Burning Blade clan) at the request of Thrall. In this quest, players must acquire a token identifying the bearer as a ranking member of the demon cult.
+**Hidden Enemies** is the first in a small Horde quest line that involves infiltrating the [Burning Blade clan](Burning Blade clan) at the request of Thrall. In this quest, players must acquire a token identifying the bearer as a ranking member of the demon cult.
 
 ## Objectives
 Bring a Lieutenant's Insignia to [Thrall](Thrall) in [Orgrimmar](Orgrimmar).
--[Lieutenant's Insignia](Lieutenant's Insignia)
+- [Lieutenant's Insignia](Lieutenant's Insignia)
 
 ## Description
 One thing I will not tolerate are traitors in our midst, <name>. But I would be a fool to play my hand so early—it would not sufficiently cut the corruption out of our lands and only cause the infection to grow worse.
@@ -41,8 +41,8 @@ If you are brave enough, then enter [Skull Rock](Skull Rock) to the east of Orgr
 ## Rewards
 You will receive:
 - 2 50 (g/s/c)
--900 [XP](XP)
--+250 [reputation](reputation) with [Orgrimmar](Orgrimmar (faction))
+- 900 [XP](XP)
+- +250 [reputation](reputation) with [Orgrimmar](Orgrimmar (faction))
 
 ## Progress
 Do you have the insignia yet, <name>?

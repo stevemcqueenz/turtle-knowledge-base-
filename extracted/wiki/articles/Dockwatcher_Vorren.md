@@ -24,7 +24,7 @@ categories: ["Gilneas NPCs", "Human characters", "Quest givers", "Turtle WoW con
 | location | Ravenshire, Gilneas |
 | status | Alive |
 
--Dockwatcher Vorren** is a [human](human) [quest giver](quest giver) located in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
+**Dockwatcher Vorren** is a [human](human) [quest giver](quest giver) located in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
 
 ## Quests
 - [quest: Spirecrest Incursions] 

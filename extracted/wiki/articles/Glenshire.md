@@ -10,4 +10,4 @@ categories: ["Stubs", "Tirisfal Glades subzones"]
 ---
 # Glenshire
 
--Glenshire*' is an area located at the Tirisfal Uplands.
+*Glenshire*' is an area located at the Tirisfal Uplands.

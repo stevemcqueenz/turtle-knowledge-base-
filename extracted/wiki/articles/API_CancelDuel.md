@@ -14,23 +14,23 @@ Forfeits the current duel.
  CancelDuel();
 ----
 
-  - *Arguments***
+** *Arguments***
 
    *none*
 
 ----
 
-  - *Returns***
+** *Returns***
 
   ; nil
 
 ----
 
-  - *Example***
+** *Example***
 
  CancelDuel();
 
-  - *Result***
+** *Result***
 
 If you were in an active duel, you'll surrender to the opponent and the duel will be over.
 

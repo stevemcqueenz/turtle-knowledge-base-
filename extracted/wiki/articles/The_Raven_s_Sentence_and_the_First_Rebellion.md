@@ -10,7 +10,7 @@ categories: ["Readable items", "Turtle WoW content"]
 ---
 # The Raven's Sentence and the First Rebellion
 
--The Raven's Sentence and the First Rebellion** is a book that can be bought from [Historian Samuel Ravencrest](Historian Samuel Ravencrest) in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
+**The Raven's Sentence and the First Rebellion** is a book that can be bought from [Historian Samuel Ravencrest](Historian Samuel Ravencrest) in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
 
 ## Patch changes
 (Patch 1.17.0|note=Added.)

@@ -10,14 +10,14 @@ categories: ["NPCs", "Pages with broken file links", "Quest Givers"]
 ---
 # Gryan Stoutmantle
 
--Gyran Stoutmantle** is stationed at [Sentinel Hill](Sentinel Hill) in [Westfall](Westfall). He stands near the tower.
+**Gyran Stoutmantle** is stationed at [Sentinel Hill](Sentinel Hill) in [Westfall](Westfall). He stands near the tower.
 
 ## Gives Quests
--[The People's Militia](Quest:The People's Militia)
--[The People's Militia (2)](Quest:The People's Militia (2))
--[The People's Militia (3)](Quest:The People's Militia (3))
--[Messenger to Westfall (2)](Quest:Messenger to Westfall (2))
--[The Defias Brotherhood](Quest:The Defias Brotherhood)
--[The Defias Brotherhood(3)](Quest:The Defias Brotherhood(3))
--[The Defias Brotherhood(5)](Quest:The Defias Brotherhood(5))
--[The Defias Brotherhood(7)](Quest:The Defias Brotherhood(7))
+- [The People's Militia](Quest:The People's Militia)
+- [The People's Militia (2)](Quest:The People's Militia (2))
+- [The People's Militia (3)](Quest:The People's Militia (3))
+- [Messenger to Westfall (2)](Quest:Messenger to Westfall (2))
+- [The Defias Brotherhood](Quest:The Defias Brotherhood)
+- [The Defias Brotherhood(3)](Quest:The Defias Brotherhood(3))
+- [The Defias Brotherhood(5)](Quest:The Defias Brotherhood(5))
+- [The Defias Brotherhood(7)](Quest:The Defias Brotherhood(7))

@@ -20,7 +20,7 @@ There are 3 different races of Elf in Warcraft. Elves were once believed to be t
 - See also [Naga](Naga)
 - See also [Satyr](Satyr)
 - See also [Troll/Elf Lineage](Troll/Elf Lineage)
--see also [Dark Ranger](Dark Ranger)
+- see also [Dark Ranger](Dark Ranger)
 
 ## Trivial Information
 The Elves of Warcraft are inspired by the elves of Tolkien's writings, who were known as the Eldar or the Quendi.  In Warcraft, like in JRRT's works, the elves are one of the oldest races, and became divided into subraces over time.  In Tolkien's works, the first race to split were the Avari (the unwilling), who feared the messenger Orome and his invitation and fled into shadow, being twisted by Morgoth into the race of Orcs, a transformation that is reflected in Warcraft with the Trolls.

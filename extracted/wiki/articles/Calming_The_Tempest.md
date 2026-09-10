@@ -35,13 +35,13 @@ It is done. Quickly, take the crystal and hold it near the shattered pearl, on t
 
 ## Rewards
 You will be able to choose one of these rewards:
--[Hydromancer Cowl](Hydromancer Cowl)
--[Choker of Insight](Choker of Insight)
+- [Hydromancer Cowl](Hydromancer Cowl)
+- [Choker of Insight](Choker of Insight)
 
 You will also receive:
 - [Pearlescent Shard](Pearlescent Shard)
 - 3100 XP
--+100 [reputation](reputation) with [Kul Tiras](Kul Tiras (faction))
+- +100 [reputation](reputation) with [Kul Tiras](Kul Tiras (faction))
 
 ## Progress
 All of this is more than puzzling, yet the situation calls for action, not speculation.

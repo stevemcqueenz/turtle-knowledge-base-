@@ -24,11 +24,11 @@ categories: ["Defias Brotherhood", "Duskwood mobs", "Goblin characters", "Turtle
 | location | Darkshire, Duskwood |
 | status | Killable |
 
--Gazzirik** is a [goblin](goblin) found in a shack outside of [Darkshire](Darkshire) in [Duskwood](Duskwood). Along with the blind [human](human) engineer [Farad Wrightsow](Farad Wrightsow), he assists in the production of animation runes for the harvest golems built by the [Defias Brotherhood](Defias Brotherhood) to terrorize the farmers of [Westfall](Westfall).
+**Gazzirik** is a [goblin](goblin) found in a shack outside of [Darkshire](Darkshire) in [Duskwood](Duskwood). Along with the blind [human](human) engineer [Farad Wrightsow](Farad Wrightsow), he assists in the production of animation runes for the harvest golems built by the [Defias Brotherhood](Defias Brotherhood) to terrorize the farmers of [Westfall](Westfall).
 
 ## Quotes
   *Main article: [quest: The Harvest Golem Mystery]*
-  -Gossip**
+**Gossip**
 I'm busy, pal.
 
 ## Objective of

@@ -26,7 +26,7 @@ categories: ["Flight masters", "Human characters", "Lapidis Isle NPCs", "Turtle 
 | location | Caelan's Rest, Lapidis Isle |
 | status | Alive |
 
--Vanessa Porter** is a human gryphon flight master located at [Caelan's Rest](Caelan's Rest) on [Lapidis Isle](Lapidis Isle).
+**Vanessa Porter** is a human gryphon flight master located at [Caelan's Rest](Caelan's Rest) on [Lapidis Isle](Lapidis Isle).
 
 ## Flight paths
 See [Caelan's Rest#Travel connections](Caelan's Rest#Travel connections).

@@ -10,7 +10,7 @@ categories: ["Blackstone Island subzones", "Cliffs", "Stubs", "Turtle WoW conten
 ---
 # Rustgate Ridge
 
--Rustgate Ridge** is an area located at [Blackstone Island](Blackstone Island).
+**Rustgate Ridge** is an area located at [Blackstone Island](Blackstone Island).
 
 ## Patch changes
 - (Patch 1.17.1|note=Added.)

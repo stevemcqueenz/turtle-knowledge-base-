@@ -10,4 +10,4 @@ categories: ["Pages with broken file links", "Thousand Needles subzones", "Valle
 ---
 # Windbreak Canyon
 
--Windbreak Canyon** was a canyon filled with [wind serpent](wind serpent)s and their nests. This place covered most of the area between [Freewind Post](Freewind Post) and the [Shimmering Flats](Shimmering Flats) on the north side of the road in [Thousand Needles](Thousand Needles). The path to the [Weathered Nook](Weathered Nook) can be found here.
+**Windbreak Canyon** was a canyon filled with [wind serpent](wind serpent)s and their nests. This place covered most of the area between [Freewind Post](Freewind Post) and the [Shimmering Flats](Shimmering Flats) on the north side of the road in [Thousand Needles](Thousand Needles). The path to the [Weathered Nook](Weathered Nook) can be found here.

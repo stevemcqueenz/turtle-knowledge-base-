@@ -13,9 +13,4 @@ categories: ["High elf territories", "Pages with broken file links", "Thalassian
 The **Thaumarium** is an area located in the [Thalassian Highlands](Thalassian Highlands).
 
 ## Inhabitants
-- 
-- 
-- 
-- 
-- 
--
+- - - - - -

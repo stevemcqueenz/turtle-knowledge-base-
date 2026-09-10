@@ -25,10 +25,10 @@ categories: ["Forest troll characters", "Hinterlands NPCs", "Turtle WoW content"
 | location | Revantusk Village, Hinterlands |
 | status | Alive |
 
--Tin'go** is a [forest troll](forest troll) dockmaster located in [Revantusk Village](Revantusk Village) in the [Hinterlands](Hinterlands), where the boat to [Sparkwater Port](Sparkwater Port) docks.
+**Tin'go** is a [forest troll](forest troll) dockmaster located in [Revantusk Village](Revantusk Village) in the [Hinterlands](Hinterlands), where the boat to [Sparkwater Port](Sparkwater Port) docks.
 
 ## Quotes
-  -Gossip**
+**Gossip**
 This here boat will lead ye all the way to Sparkwater Port in Durotar, the goblins be needin' all sorts a things from us, and we're more than happy to supply them for weapons.
 
 ## Patch changes

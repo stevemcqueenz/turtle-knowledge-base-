@@ -25,10 +25,10 @@ categories: ["Guards", "Human characters", "Swamp of Sorrows NPCs", "Turtle WoW 
 | status | Alive |
 | gender | Male |
 
--Watchman Hanson** is a [human](human) guard located in [Sorrowguard Keep](Sorrowguard Keep) in the [Swamp of Sorrows](Swamp of Sorrows).
+**Watchman Hanson** is a [human](human) guard located in [Sorrowguard Keep](Sorrowguard Keep) in the [Swamp of Sorrows](Swamp of Sorrows).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Don't make trouble, we are undermanned as it is.
 
 ## Patch changes

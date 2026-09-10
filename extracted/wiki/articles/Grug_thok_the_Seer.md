@@ -25,7 +25,7 @@ categories: ["Feralas mobs", "Ogre mages", "Rare elite mobs", "Turtle WoW conten
 | location | Ruins of Isildien, Feralas |
 | status | Killable |
 
--Grug'thok the Seer** is a rare elite ogre found in [Ruins of Isildien](Ruins of Isildien) in [Feralas](Feralas).
+**Grug'thok the Seer** is a rare elite ogre found in [Ruins of Isildien](Ruins of Isildien) in [Feralas](Feralas).
 
 ## Drops
 - [Gordunni War Harness](Gordunni War Harness)

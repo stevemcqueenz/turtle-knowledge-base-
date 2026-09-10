@@ -64,12 +64,12 @@ Isiden Perenolde was freed from captivity by individuals strongly suspected by t
 - There is an old Alterac saying that goes: "A cat has nine lives, but needs only one." (ref: [Maine Coone](https://database.turtlecraft.gg/?spell=10675))
 
 ### Notable people
--  [Isiden Perenolde](Isiden Perenolde)
--  [Baron Vardus](Baron Vardus)
--  [Lord Falconcrest](Lord Falconcrest)
--  [Valea Twinblades](Valea Twinblades)
+- [Isiden Perenolde](Isiden Perenolde)
+- [Baron Vardus](Baron Vardus)
+- [Lord Falconcrest](Lord Falconcrest)
+- [Valea Twinblades](Valea Twinblades)
 ### Notable leaders
--  King [Aiden Perenolde](Aiden Perenolde)
--  Prince [Aliden Perenolde](Aliden Perenolde)
+- King [Aiden Perenolde](Aiden Perenolde)
+- Prince [Aliden Perenolde](Aliden Perenolde)
 
 ## References

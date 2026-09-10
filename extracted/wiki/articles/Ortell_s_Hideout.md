@@ -10,4 +10,4 @@ categories: ["Caves", "Easter eggs", "Human territories", "Pages with broken fil
 ---
 # Ortell's Hideout
 
--Ortell's Hideout** is a small cave located in southeastern [Silithus](Silithus) where [Hermit Ortell](Hermit Ortell) resides.
+**Ortell's Hideout** is a small cave located in southeastern [Silithus](Silithus) where [Hermit Ortell](Hermit Ortell) resides.

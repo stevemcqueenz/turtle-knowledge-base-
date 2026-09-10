@@ -25,10 +25,10 @@ categories: ["Human characters", "Northwind NPCs", "Stormwind (kingdom)", "Turtl
 | status | Alive |
 | relatives | Thomas Arello |
 
--Marisa Arello** is a [human](human) located outside of the [Honey Drop Inn](Honey Drop Inn)in [Ambershire](Ambershire) in [Northwind](Northwind).
+**Marisa Arello** is a [human](human) located outside of the [Honey Drop Inn](Honey Drop Inn)in [Ambershire](Ambershire) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Greetings! Anything you need for your stay? We still have some empty beds left, so we would love to have you stay overnight!
 
 ## Patch changes

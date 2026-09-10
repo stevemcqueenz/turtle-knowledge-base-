@@ -27,14 +27,14 @@ categories: ["Dustwallow Marsh mobs", "Human characters"]
 | location | Deserter's Hideout, Dustwallow Marsh |
 | status | Killable |
 
--Sellick Voss** is a [human](human) located at the [Deserter's Hideout](Deserter's Hideout) in [Dustwallow Marsh](Dustwallow Marsh). He is the leader of [Daelin's Brigade](Daelin's Brigade), a group of Theramore deserters that is actively hostile to prospects of peace between the [Alliance](Alliance) and [Horde](Horde).
+**Sellick Voss** is a [human](human) located at the [Deserter's Hideout](Deserter's Hideout) in [Dustwallow Marsh](Dustwallow Marsh). He is the leader of [Daelin's Brigade](Daelin's Brigade), a group of Theramore deserters that is actively hostile to prospects of peace between the [Alliance](Alliance) and [Horde](Horde).
 
 ## Quotes
-  -Aggro**
+**Aggro**
   Theramore was weak, to side with the Horde is betrayal after all who died! We will not be stopped so easily, the Vengeful Mariner will not forget!
 
 ## Objective of
 - Must be killed and drops [Medallion of Voss](Medallion of Voss) for [quest: And Justice for All] and [quest: Justice for Dustwallow].
 
 ## Patch changes
--  **[Patch 1.16.4](Patch 1.16.4) (2022-12-20):** Added.
+- **[Patch 1.16.4](Patch 1.16.4) (2022-12-20):** Added.

@@ -15,7 +15,7 @@ The **Southmoon Ruins** is an area of ancient troll ruins, in [Tanaris](Tanaris)
 Southmoon Ruins are just northeast of [Uldum](Uldum).
 
 List of mobs:
--[Dunemaul Ogre](Dunemaul Ogre)
--[Dunemaul Ogre Mage](Dunemaul Ogre Mage)
--[Dunemaul Warlock](Dunemaul Warlock)
--[Omgorn the Lost](Omgorn the Lost) (wanders)
+- [Dunemaul Ogre](Dunemaul Ogre)
+- [Dunemaul Ogre Mage](Dunemaul Ogre Mage)
+- [Dunemaul Warlock](Dunemaul Warlock)
+- [Omgorn the Lost](Omgorn the Lost) (wanders)

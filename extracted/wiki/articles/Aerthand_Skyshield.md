@@ -24,13 +24,13 @@ categories: ["High elf characters", "Quest givers", "Thalassian Highlands NPCs",
 | location | Brinthilien, Thalassian Highlands |
 | status | Alive |
 
--Aerthand Skyshield** is a [high elf](high elf) [quest giver](quest giver) located in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands). He welcomes arriving refugees to Brinthilien and directs capable travelers to aid [Commander Anarileth](Commander Anarileth).
+**Aerthand Skyshield** is a [high elf](high elf) [quest giver](quest giver) located in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands). He welcomes arriving refugees to Brinthilien and directs capable travelers to aid [Commander Anarileth](Commander Anarileth).
 
 ## Quests
 - [quest: Refugees no More] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Welcome to Brinthilien. I hope the journey wasn't too hard on you.
 
 ## Patch changes

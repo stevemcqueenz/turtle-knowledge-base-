@@ -58,18 +58,18 @@ This area is full of golems and weapon technicians. At the back stands [Golem Lo
 
 ### The Grim Guzzler
 This bar is a marginally safe haven in the depths. It is filled with non-hostile non-elite drunken dwarves, with a scattering of named special NPCs, a variety of plot events, and a quest. There are many special circumstances surrounding this area:
--If you attack a hammered patron, all of his friends within aggro range will also aggro. Attacking a patron typically results in a swarm of 10-20 dark iron dwarves. They're not elite, but there are a lot of them. Like any neutral creature, losing aggro makes them neutral again; if your party wipes, the patrons won't be hostile when you come back.
--Upon entry, the player will first notice [Ribbly Screwspigot](Ribbly Screwspigot) and his cronies, who are friendly to begin with. Ribbly's head is needed for a quest; if you go up to him and ask him for his head, he will aggro, and will not draw the attention of the patrons. To ensure that you do not accidentally attack one of them, it is safest to pull Ribbly into the empty room near the entrance.
--Within this empty room, the player will notice three selectable beer casks. If you right click one, your character will destroy that cask. Once all three are destroyed, [Hurley Blackbreath](Hurley Blackbreath) will spawn with three friends, and they will run into the room to fight you.
--[Mistress Nagmara](Mistress Nagmara) is a friendly succubus NPC who wanders from one end of the bar to the other. She gives you a quest: "[The Love Potion](http://www.thottbot.com/?q=749)".
--[Plugger Spazzring](Plugger Spazzring), on the second level, is the bar's owner. He is neutral, and is a vendor. If you attack him, all the patrons become hostile. Furthermore, if Mistress Nagmara sees you fighting with Plugger, she vanishes.
--Near Plugger, you will notice a pair of tables with beer and stuffed pigs on them. If you right click on the beer or pigs, you can pick them up, but Plugger notices this and aggros. You can also purchase both types of items from Plugger himself.
--The bar's rear exit is on the second level, and blocked with an unpickable door. There are four ways to open it:
-  -At the top of the stairs between the bar's two floors, close to the door, is the golem Phalanx. He is initially friendly. If you buy 6 Dark Iron Ales from Plugger and feed them all into Private Rocknot (at a table near Plugger), a script starts during which Phalanx destroys the back door and aggros.
-  -When you complete Nagmara's quest, she and [Private Roknot](Private Roknot) will exit through that rear door and leave it open. Once her quest is completed you can ask her to open that door anytime.
-  -When you kill Plugger, a patrol will bash the back door open and stand in front of it. This patrol is always hostile.
-  -If a rogue picks Plugger's pockets, he can get the key to this door, but Plugger notices the theft within about 10 seconds; he doesn't aggro, but all the patrons become hostile.
--If you acquire some Dark Iron Ale, you will find that using the ale does not get you drunk; instead, using the ale drops a beer onto the floor wherever you indicate. The nearest patron will then wander over to the beer, drink it, and be stunned for about 6 seconds. The patrons will travel quite a distance to reach the ale, so you can use ale to pull patrons away from their crowds one at a time to kill them. This is most useful to draw away the 4 patrons standing near Plugger, so that you can fight him by himself.
+- If you attack a hammered patron, all of his friends within aggro range will also aggro. Attacking a patron typically results in a swarm of 10-20 dark iron dwarves. They're not elite, but there are a lot of them. Like any neutral creature, losing aggro makes them neutral again; if your party wipes, the patrons won't be hostile when you come back.
+- Upon entry, the player will first notice [Ribbly Screwspigot](Ribbly Screwspigot) and his cronies, who are friendly to begin with. Ribbly's head is needed for a quest; if you go up to him and ask him for his head, he will aggro, and will not draw the attention of the patrons. To ensure that you do not accidentally attack one of them, it is safest to pull Ribbly into the empty room near the entrance.
+- Within this empty room, the player will notice three selectable beer casks. If you right click one, your character will destroy that cask. Once all three are destroyed, [Hurley Blackbreath](Hurley Blackbreath) will spawn with three friends, and they will run into the room to fight you.
+- [Mistress Nagmara](Mistress Nagmara) is a friendly succubus NPC who wanders from one end of the bar to the other. She gives you a quest: "[The Love Potion](http://www.thottbot.com/?q=749)".
+- [Plugger Spazzring](Plugger Spazzring), on the second level, is the bar's owner. He is neutral, and is a vendor. If you attack him, all the patrons become hostile. Furthermore, if Mistress Nagmara sees you fighting with Plugger, she vanishes.
+- Near Plugger, you will notice a pair of tables with beer and stuffed pigs on them. If you right click on the beer or pigs, you can pick them up, but Plugger notices this and aggros. You can also purchase both types of items from Plugger himself.
+- The bar's rear exit is on the second level, and blocked with an unpickable door. There are four ways to open it:
+  - At the top of the stairs between the bar's two floors, close to the door, is the golem Phalanx. He is initially friendly. If you buy 6 Dark Iron Ales from Plugger and feed them all into Private Rocknot (at a table near Plugger), a script starts during which Phalanx destroys the back door and aggros.
+  - When you complete Nagmara's quest, she and [Private Roknot](Private Roknot) will exit through that rear door and leave it open. Once her quest is completed you can ask her to open that door anytime.
+  - When you kill Plugger, a patrol will bash the back door open and stand in front of it. This patrol is always hostile.
+  - If a rogue picks Plugger's pockets, he can get the key to this door, but Plugger notices the theft within about 10 seconds; he doesn't aggro, but all the patrons become hostile.
+- If you acquire some Dark Iron Ale, you will find that using the ale does not get you drunk; instead, using the ale drops a beer onto the floor wherever you indicate. The nearest patron will then wander over to the beer, drink it, and be stunned for about 6 seconds. The patrons will travel quite a distance to reach the ale, so you can use ale to pull patrons away from their crowds one at a time to kill them. This is most useful to draw away the 4 patrons standing near Plugger, so that you can fight him by himself.
 
 When the players leave the bar through the back door, they will find themselves in the second half of the Shadowforged City.
 
@@ -116,91 +116,91 @@ The golems and fire elementals in the Depths generally fit the stereotypes of th
 Blackrock Depths contains a vast assortment of bosses and special NPCs to hunt for.
 
 ## Common Bosses
--[High Interrogator Gerstahn](http://www.thottbot.com/?n=7906) is in the center of the Detention Block.
--[Bael'Gar](http://www.thottbot.com/?n=304443) is found at the western end of the Dark Iron Highway.
--[Lord Incendius](Lord Incendius) guards the Black Anvil, at the eastern end of the Dark Iron Highway.
--[Fineous Darkvire](http://www.thottbot.com/?n=7896) wanders the Halls of Crafting.
--[General Angerforge](http://www.thottbot.com/?n=258298) can be found down some stairs to the south of the Manufactory.
--[Golem Lord Argelmach](http://www.thottbot.com/?n=389685) is found in the Manufactory.
--[Hurley Blackbreath](http://www.thottbot.com/?n=18909), [Ribbly Screwspigot](http://www.thottbot.com/?n=18921), [Phalanx](http://www.thottbot.com/?n=303930), and [Plugger Spazzring](http://www.thottbot.com/?n=18915) are found in the Grim Guzzler.
--[Ambassador Flamelash](http://www.thottbot.com/?n=197360) resides alone in the Chamber of Enchantment.
--The Seven Ghosts are found in the Summoners' Tomb. The individual ghosts are: [Anger'rel](http://www.thottbot.com/?n=258498), [Hate'rel](http://www.thottbot.com/?n=614421), [Dope'rel](http://www.thottbot.com/?n=258517), [Seeth'rel](http://www.thottbot.com/?n=197361), [Vile'rel](http://www.thottbot.com/?n=7929), [Gloom'rel](http://www.thottbot.com/?n=258508), [Doom'rel](http://www.thottbot.com/?n=197359)
--[Magmus](http://www.thottbot.com/?n=7879) can be found in the Iron Hall.
--[Emperor Dagran Thaurissian](http://www.thottbot.com/?n=373747) and [Princess Moira Bronzebeard](http://www.thottbot.com/?n=7947) can be found in the Emperor's Seat
+- [High Interrogator Gerstahn](http://www.thottbot.com/?n=7906) is in the center of the Detention Block.
+- [Bael'Gar](http://www.thottbot.com/?n=304443) is found at the western end of the Dark Iron Highway.
+- [Lord Incendius](Lord Incendius) guards the Black Anvil, at the eastern end of the Dark Iron Highway.
+- [Fineous Darkvire](http://www.thottbot.com/?n=7896) wanders the Halls of Crafting.
+- [General Angerforge](http://www.thottbot.com/?n=258298) can be found down some stairs to the south of the Manufactory.
+- [Golem Lord Argelmach](http://www.thottbot.com/?n=389685) is found in the Manufactory.
+- [Hurley Blackbreath](http://www.thottbot.com/?n=18909), [Ribbly Screwspigot](http://www.thottbot.com/?n=18921), [Phalanx](http://www.thottbot.com/?n=303930), and [Plugger Spazzring](http://www.thottbot.com/?n=18915) are found in the Grim Guzzler.
+- [Ambassador Flamelash](http://www.thottbot.com/?n=197360) resides alone in the Chamber of Enchantment.
+- The Seven Ghosts are found in the Summoners' Tomb. The individual ghosts are: [Anger'rel](http://www.thottbot.com/?n=258498), [Hate'rel](http://www.thottbot.com/?n=614421), [Dope'rel](http://www.thottbot.com/?n=258517), [Seeth'rel](http://www.thottbot.com/?n=197361), [Vile'rel](http://www.thottbot.com/?n=7929), [Gloom'rel](http://www.thottbot.com/?n=258508), [Doom'rel](http://www.thottbot.com/?n=197359)
+- [Magmus](http://www.thottbot.com/?n=7879) can be found in the Iron Hall.
+- [Emperor Dagran Thaurissian](http://www.thottbot.com/?n=373747) and [Princess Moira Bronzebeard](http://www.thottbot.com/?n=7947) can be found in the Emperor's Seat
 
 ## Rare Bosses
 These characters are just as tough as the common bosses, but do not appear in every trip to this instance.
--Once the event in the Ring of Law is activated, it will spawn three waves of monsters and then one of these mini-bosses:
-  -[Anub'shiah](http://www.thottbot.com/?n=51348)
-  -[Eviscerator](http://www.thottbot.com/?n=14266)
-  -[Gorosh the Dervish](http://www.thottbot.com/?n=82516)
-  -[Grizzle](http://www.thottbot.com/?n=7910)
-  -[Hedrum the Creeper](http://www.thottbot.com/?n=18911)
-  -[Ok'thor the Breaker](http://www.thottbot.com/?n=12584)
--[Panzor the Invincible](http://www.thottbot.com/?n=7918) sometimes appears in the Mold Foundry.
--[Pyromancer Loregrain](http://www.thottbot.com/?n=22773) sometimes appears near F.F.F.'s statue.
--[Lord Roccor](http://www.thottbot.com/?n=60587) sometimes appears in open area adjacent to the Detention Block.
+- Once the event in the Ring of Law is activated, it will spawn three waves of monsters and then one of these mini-bosses:
+  - [Anub'shiah](http://www.thottbot.com/?n=51348)
+  - [Eviscerator](http://www.thottbot.com/?n=14266)
+  - [Gorosh the Dervish](http://www.thottbot.com/?n=82516)
+  - [Grizzle](http://www.thottbot.com/?n=7910)
+  - [Hedrum the Creeper](http://www.thottbot.com/?n=18911)
+  - [Ok'thor the Breaker](http://www.thottbot.com/?n=12584)
+- [Panzor the Invincible](http://www.thottbot.com/?n=7918) sometimes appears in the Mold Foundry.
+- [Pyromancer Loregrain](http://www.thottbot.com/?n=22773) sometimes appears near F.F.F.'s statue.
+- [Lord Roccor](http://www.thottbot.com/?n=60587) sometimes appears in open area adjacent to the Detention Block.
 
 ## Friendly NPCs
--[Mistress Nagmara](http://www.thottbot.com/?n=7907), found in the Grim Guzzler, has a single quest available to both Alliance and Horde.
+- [Mistress Nagmara](http://www.thottbot.com/?n=7907), found in the Grim Guzzler, has a single quest available to both Alliance and Horde.
 
--[Lokhtos Darkbargainer](http://www.thottbot.com/?n=19452), also in the Grim Guzzler, has a number of repeatable quests available at level 60 which can increase your faction rating with the Thorium Brotherhood. As your faction increases, he will also serve as a shopkeep to sell a small selection of high-level tailoring, leatherworking, and blacksmithing recipies.
+- [Lokhtos Darkbargainer](http://www.thottbot.com/?n=19452), also in the Grim Guzzler, has a number of repeatable quests available at level 60 which can increase your faction rating with the Thorium Brotherhood. As your faction increases, he will also serve as a shopkeep to sell a small selection of high-level tailoring, leatherworking, and blacksmithing recipies.
 
--[Kharan Mighthammer](http://www.thottbot.com/?n=7892) is imprisoned in the Detention Block. He is an intermediate quest target / quest giver in the Alliance quest chain which rewards you for killing Emperor Thaurissian.
+- [Kharan Mighthammer](http://www.thottbot.com/?n=7892) is imprisoned in the Detention Block. He is an intermediate quest target / quest giver in the Alliance quest chain which rewards you for killing Emperor Thaurissian.
 
 # Relevant Quests
 ## Badlands
--[The Last Element](http://www.thottbot.com/index.cgi?q=1060):
--[Lost Thunderbrew Recipe](http://www.thottbot.com/index.cgi?q=1058):
--[Overmaster Pyron](http://www.thottbot.com/index.cgi?qu=-561):
--[Disharmony of Flame](http://www.thottbot.com/index.cgi?q=1105):
-  -[Disharmony of Fire](http://www.thottbot.com/index.cgi?q=1059) :
--[Kill on sight: Dark Iron Dwarves](http://www.thottbot.com/index.cgi?q=1726):
-  -[Kill on sight: Dark Iron Officials](http://www.thottbot.com/index.cgi?q=2758):
-  -*[Operation: Death to Angerforge](http://www.thottbot.com/index.cgi?q=2984):
-  -*[Grark Lokrub](http://www.thottbot.com/index.cgi?q=1489):
--[Commander Gor'shack](http://www.thottbot.com/index.cgi?q=754):
-  -[The Royal Rescue](http://www.thottbot.com/?q=1342):
+- [The Last Element](http://www.thottbot.com/index.cgi?q=1060):
+- [Lost Thunderbrew Recipe](http://www.thottbot.com/index.cgi?q=1058):
+- [Overmaster Pyron](http://www.thottbot.com/index.cgi?qu=-561):
+- [Disharmony of Flame](http://www.thottbot.com/index.cgi?q=1105):
+  - [Disharmony of Fire](http://www.thottbot.com/index.cgi?q=1059) :
+- [Kill on sight: Dark Iron Dwarves](http://www.thottbot.com/index.cgi?q=1726):
+  - [Kill on sight: Dark Iron Officials](http://www.thottbot.com/index.cgi?q=2758):
+  - *[Operation: Death to Angerforge](http://www.thottbot.com/index.cgi?q=2984):
+  - *[Grark Lokrub](http://www.thottbot.com/index.cgi?q=1489):
+- [Commander Gor'shack](http://www.thottbot.com/index.cgi?q=754):
+  - [The Royal Rescue](http://www.thottbot.com/?q=1342):
 
 ## Blackrock Mountain
--[Dark Iron Legacy](http://www.thottbot.com/index.cgi?q=1230)
+- [Dark Iron Legacy](http://www.thottbot.com/index.cgi?q=1230)
 This quest grants the player the Shadowforged Key. The quest is acquired from a ghostly dwarf in a tomb outside of the depths; the player must be be a ghost in order to see or interact with the questgiver.
 
--[Attunement to the Core](http://www.thottbot.com/?qu=7848)
+- [Attunement to the Core](http://www.thottbot.com/?qu=7848)
 This quest "attunes" the player to Molten Core, so that they can then enter it by jumping through the window/portal to the left of the questgiver.
 
 ## Blackrock Depths
--[The Love Potion](http://www.thottbot.com/?q=749) 
+- [The Love Potion](http://www.thottbot.com/?q=749) 
 
 ## Burning Steppes
--[Ribbly Spewspiggot](http://www.thottbot.com/index.cgi?q=1051) 
--[The Heart of the Mountain](http://www.thottbot.com/index.cgi?q=755) 
--[Taste of Flame](http://www.thottbot.com/index.cgi?q=1234)
--[Rise of the Machines](http://www.thottbot.com/index.cgi?q=1107):
-  -[The Rise of the Machines](http://www.thottbot.com/index.cgi?q=4062):
-  -*[The Rise of the Machines](http://www.thottbot.com/index.cgi?q=4063):
--[The Good Stuff](http://www.thottbot.com/?qu=4286):
+- [Ribbly Spewspiggot](http://www.thottbot.com/index.cgi?q=1051) 
+- [The Heart of the Mountain](http://www.thottbot.com/index.cgi?q=755) 
+- [Taste of Flame](http://www.thottbot.com/index.cgi?q=1234)
+- [Rise of the Machines](http://www.thottbot.com/index.cgi?q=1107):
+  - [The Rise of the Machines](http://www.thottbot.com/index.cgi?q=4062):
+  - *[The Rise of the Machines](http://www.thottbot.com/index.cgi?q=4063):
+- [The Good Stuff](http://www.thottbot.com/?qu=4286):
 
 The following line of quests begins in the Burning Steppes, and ends with getting the Onyxia key:
--[Dragonkin Menace](http://thottbot.com/?qu=4182):
-  -[The True Masters](http://thottbot.com/?qu=4183):
-  -[The True Masters](http://thottbot.com/?qu=4184):
-  -[The True Masters](http://thottbot.com/?qu=4185):
-  -[The True Masters](http://thottbot.com/?qu=4186):
-  -[The True Masters](http://thottbot.com/?qu=4223):
-  -[The True Masters](http://thottbot.com/?qu=4224):
-  -*[Marshal Windsor](http://thottbot.com/?qu=4241):
-  -**[Abandoned Hope](http://thottbot.com/?qu=4242):
-  -***[A Crumpled Up Note](http://thottbot.com/?qu=2208):
-  -****[A Shred of Hope](http://thottbot.com/?qu=1909):
-  -*****[Jail Break!](http://thottbot.com/?qu=4322):
-  -******[Stormwind Rendezvous](http://thottbot.com/?qu=6402):
-  -*******[The Great Masquerade](http://thottbot.com/?qu=6403):
-  -********[The Dragon's Eye](http://thottbot.com/?qu=6501):
-  -*********[Drakefire Amulet](http://thottbot.com/?qu=6502):
+- [Dragonkin Menace](http://thottbot.com/?qu=4182):
+  - [The True Masters](http://thottbot.com/?qu=4183):
+  - [The True Masters](http://thottbot.com/?qu=4184):
+  - [The True Masters](http://thottbot.com/?qu=4185):
+  - [The True Masters](http://thottbot.com/?qu=4186):
+  - [The True Masters](http://thottbot.com/?qu=4223):
+  - [The True Masters](http://thottbot.com/?qu=4224):
+  - *[Marshal Windsor](http://thottbot.com/?qu=4241):
+  - **[Abandoned Hope](http://thottbot.com/?qu=4242):
+  - ***[A Crumpled Up Note](http://thottbot.com/?qu=2208):
+  - ****[A Shred of Hope](http://thottbot.com/?qu=1909):
+  - *****[Jail Break!](http://thottbot.com/?qu=4322):
+  - ******[Stormwind Rendezvous](http://thottbot.com/?qu=6402):
+  - *******[The Great Masquerade](http://thottbot.com/?qu=6403):
+  - ********[The Dragon's Eye](http://thottbot.com/?qu=6501):
+  - *********[Drakefire Amulet](http://thottbot.com/?qu=6502):
 
 ## Dun Morogh
--[Hurley Blackbreath](http://www.thottbot.com/?qu=4126):
+- [Hurley Blackbreath](http://www.thottbot.com/?qu=4126):
 
 # Other Details
 ## [Dark Iron](Dark Iron)

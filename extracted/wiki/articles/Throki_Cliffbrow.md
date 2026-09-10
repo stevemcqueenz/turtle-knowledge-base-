@@ -26,7 +26,7 @@ categories: ["Alcohol vendors", "Bartenders", "Dwarf characters", "Stonetalon Mo
 | status | Alive |
 | relatives | Brundah Cliffbrow |
 
--Throki Cliffbrow** is a [dwarf](dwarf) alcohol vendor located in [Hardul Distillery](Hardul Distillery) in [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains).
+**Throki Cliffbrow** is a [dwarf](dwarf) alcohol vendor located in [Hardul Distillery](Hardul Distillery) in [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains).
 
 ## Patch changes
 - (Patch 1.16.4|note=Added.)

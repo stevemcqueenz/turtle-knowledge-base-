@@ -62,59 +62,59 @@ Becoming an Artisan Armorsmith gives you access to a number of new armor recipes
 
 The path to become an Armorsmith is similar for both Alliance blacksmiths and Horde Blacksmiths.
 
-1.Smiths will need to first talk to their respective representative.
-1.*Bengus Deepforge in Ironforge
-1.*Krathok Moltenfist in Orgrimmar
-1.The representative will then direct them to another person who will direct you to speak to either the Master Armorsmith or the Master Weaponsmith. The Master Armorsmiths are:
-1.*Grumnus Steelshaper in Ironforge
-1.*Okothos Ironrager in Orgrimmar
-1.The Master Armorsmith will now give you the quest "The Art of the Armorsmith" (Alliance Version, Horde Version) which will require you to craft 4 Ornate Mithril Helms, 2  [Ornate Mithril Boots], and 1  [Ornate Mithril Breastplate]. The plans to create these items will be future quest rewards. To get these quests, you'll need to activate the Mithril Order series of quests.
-1.Next, you will need to prove that you are worthy of the Mithril Order plans.
-1.*Alliance smiths will need to speak to Hank the Hammer in Stormwind. He will give you the quest The Origins of Smithing, you need to be skill 210 BS for this to attain. You'll need to create 6  [Golden Scale Bracers]. Once you hand in your items, Hank will give you the plans for  [Golden Scale Gauntlets]. He will then give you the quest In Search of Galvan and send you off to see McGavan in Booty Bay.
-1.*Horde smiths will need to talk to Aturk the Anvil in Orgrimmar. He will give you the quest The Old Ways. You'll need to create 4 Steel Breastplates and 4 Steel Plate Helms. Once you hand in you items, you will be able to speak to Ox. He will give you the quest Booty Bay or Bust! and send you off to see McGavan in Booty Bay.
-1.Fist go inside and Brikk Keencraft, to get Artisan Blacksmithing. You will then need to get your Blacksmithing up to 235 so that you can get the patterns for  [Mithril Coif],  [Heavy Mithril Breastplate], and  [Heavy Mithril Boots]. You will need this later in Gadgetzan.
-1.After getting Artisan Smithing step outside and talk to McGavan, he will give you the quest The Mithril Order and direct you to see Galvan the Ancient out in Stranglethorn Vale. Galvan the Ancient has a small camp north of the Mosh'Ogg Ogre mound (around coordinates 50,20).
-1.Galvan will give three quests to the prospective armorsmiths
-1.*Smelt on, Smelt off: Give him 40 Mithril Bars and 40 Iron Bars for the plans to  [Ornate Mithril Pants]
-1.*The Art of the Imbue: Give him 40 Mithril Bars and 4  [Citrine] for the plans to  [Ornate Mithril Shoulder]
-1.*The Great Silver Deceiver: Give him 40 Mithril Bars and 5 Truesilver Bars for the plans to  [Ornate Mithril Gloves]
-1.After you have completed his three quests, Galvan will give you the quest Quest:Expert Blacksmith!. Watch Galvan pound away at metal and see a true master at work. When he is done, you will complete the quest and he will give you a  [Signet of Expertise]. The Signet can be used to summon a  [Hammer of Expertise].
-1.Galvan will then give you the quest Galvan's Finest Pupil where you journey to Gadgetzan to see Trent Lighthammer.
-1.Trent will give you three quests as well. The rewards for these quests are needed to become a Master Armorsmith.
-1.*The World at Your Feet: Give him 2  [Heavy Mithril Boots] and 1  [Ornate Mithril Pants] for plans to  [Ornate Mithril Boots]
-1.*A Good Head on Your Shoulders: Give him 2 Mithril Coifs and 1  [Ornate Mithril Shoulder] for plans to  [Ornate Mithril Helm]
-1.*The Mithril Kid: Give him 2 Heavy Mithril Breastplates and 1  [Ornate Mithril Gloves] for the plans for  [Ornate Mithril Breastplate]
-1.When you complete Trenton's three quests, he will give you one final quest called Did You Lose This?. Watch Trenton work at the anvil and then complete the quest when he gives you a  [Glimmering Mithril Insignia].
-1.You should now have the plans they need to become an Armorsmith. Craft 4 Ornate Mithril Helms, 2  [Ornate Mithril Boots], and 1  [Ornate Mithril Breastplate]. Give these items to either Grumnus Steelshaper or Okothos Ironrager and you will become an Armorsmith!
+1. Smiths will need to first talk to their respective representative.
+1. *Bengus Deepforge in Ironforge
+1. *Krathok Moltenfist in Orgrimmar
+1. The representative will then direct them to another person who will direct you to speak to either the Master Armorsmith or the Master Weaponsmith. The Master Armorsmiths are:
+1. *Grumnus Steelshaper in Ironforge
+1. *Okothos Ironrager in Orgrimmar
+1. The Master Armorsmith will now give you the quest "The Art of the Armorsmith" (Alliance Version, Horde Version) which will require you to craft 4 Ornate Mithril Helms, 2  [Ornate Mithril Boots], and 1  [Ornate Mithril Breastplate]. The plans to create these items will be future quest rewards. To get these quests, you'll need to activate the Mithril Order series of quests.
+1. Next, you will need to prove that you are worthy of the Mithril Order plans.
+1. *Alliance smiths will need to speak to Hank the Hammer in Stormwind. He will give you the quest The Origins of Smithing, you need to be skill 210 BS for this to attain. You'll need to create 6  [Golden Scale Bracers]. Once you hand in your items, Hank will give you the plans for  [Golden Scale Gauntlets]. He will then give you the quest In Search of Galvan and send you off to see McGavan in Booty Bay.
+1. *Horde smiths will need to talk to Aturk the Anvil in Orgrimmar. He will give you the quest The Old Ways. You'll need to create 4 Steel Breastplates and 4 Steel Plate Helms. Once you hand in you items, you will be able to speak to Ox. He will give you the quest Booty Bay or Bust! and send you off to see McGavan in Booty Bay.
+1. Fist go inside and Brikk Keencraft, to get Artisan Blacksmithing. You will then need to get your Blacksmithing up to 235 so that you can get the patterns for  [Mithril Coif],  [Heavy Mithril Breastplate], and  [Heavy Mithril Boots]. You will need this later in Gadgetzan.
+1. After getting Artisan Smithing step outside and talk to McGavan, he will give you the quest The Mithril Order and direct you to see Galvan the Ancient out in Stranglethorn Vale. Galvan the Ancient has a small camp north of the Mosh'Ogg Ogre mound (around coordinates 50,20).
+1. Galvan will give three quests to the prospective armorsmiths
+1. *Smelt on, Smelt off: Give him 40 Mithril Bars and 40 Iron Bars for the plans to  [Ornate Mithril Pants]
+1. *The Art of the Imbue: Give him 40 Mithril Bars and 4  [Citrine] for the plans to  [Ornate Mithril Shoulder]
+1. *The Great Silver Deceiver: Give him 40 Mithril Bars and 5 Truesilver Bars for the plans to  [Ornate Mithril Gloves]
+1. After you have completed his three quests, Galvan will give you the quest Quest:Expert Blacksmith!. Watch Galvan pound away at metal and see a true master at work. When he is done, you will complete the quest and he will give you a  [Signet of Expertise]. The Signet can be used to summon a  [Hammer of Expertise].
+1. Galvan will then give you the quest Galvan's Finest Pupil where you journey to Gadgetzan to see Trent Lighthammer.
+1. Trent will give you three quests as well. The rewards for these quests are needed to become a Master Armorsmith.
+1. *The World at Your Feet: Give him 2  [Heavy Mithril Boots] and 1  [Ornate Mithril Pants] for plans to  [Ornate Mithril Boots]
+1. *A Good Head on Your Shoulders: Give him 2 Mithril Coifs and 1  [Ornate Mithril Shoulder] for plans to  [Ornate Mithril Helm]
+1. *The Mithril Kid: Give him 2 Heavy Mithril Breastplates and 1  [Ornate Mithril Gloves] for the plans for  [Ornate Mithril Breastplate]
+1. When you complete Trenton's three quests, he will give you one final quest called Did You Lose This?. Watch Trenton work at the anvil and then complete the quest when he gives you a  [Glimmering Mithril Insignia].
+1. You should now have the plans they need to become an Armorsmith. Craft 4 Ornate Mithril Helms, 2  [Ornate Mithril Boots], and 1  [Ornate Mithril Breastplate]. Give these items to either Grumnus Steelshaper or Okothos Ironrager and you will become an Armorsmith!
 
 ## Becoming a Weaponsmith
 Becoming an Artisan Weaponsmith gives you access to a number of plans for new weapons. You need to be level 40 with a blacksmithing skill level of 200. The path to become an Weaponsmith is similar for both Alliance blacksmiths and Horde Blacksmiths.
 
-1.Smiths will need to first talk to their respective representative.
-1.*Bengus Deepforge in Ironforge
-1.*Krathok Moltenfist in Orgrimmar
-1.The representative will then direct them to another person who will direct you to speak to either the Master Armorsmith or the Master Weaponsmith. The Master Weaponsmiths are:
-1.*Ironus Coldsteel in Ironforge
-1.*Borgosh Corebender in Orgrimmar
-1.The Master Weaponsmith will now give you the quest "The Way of the Weaponsmith" (Alliance Version, Horde Version) which will require you to craft 4 Moonsteel Broadswords, 4 Massive Iron Axes, 2 Heavy Mithril Axes, and 2 Big Black Maces. The plans for the Moonsteel Broadsword and the Massive Iron Axe are Limited Sale Recipes and may be difficult to get. The other two plans are available from the trainer.
-1.Turn in all the crafted weapons to the Master Weaponsmith to become a Weaponsmith!
+1. Smiths will need to first talk to their respective representative.
+1. *Bengus Deepforge in Ironforge
+1. *Krathok Moltenfist in Orgrimmar
+1. The representative will then direct them to another person who will direct you to speak to either the Master Armorsmith or the Master Weaponsmith. The Master Weaponsmiths are:
+1. *Ironus Coldsteel in Ironforge
+1. *Borgosh Corebender in Orgrimmar
+1. The Master Weaponsmith will now give you the quest "The Way of the Weaponsmith" (Alliance Version, Horde Version) which will require you to craft 4 Moonsteel Broadswords, 4 Massive Iron Axes, 2 Heavy Mithril Axes, and 2 Big Black Maces. The plans for the Moonsteel Broadsword and the Massive Iron Axe are Limited Sale Recipes and may be difficult to get. The other two plans are available from the trainer.
+1. Turn in all the crafted weapons to the Master Weaponsmith to become a Weaponsmith!
 
 If you wish to specialize even further in Weaponsmithing, you can become an Axesmith, Hammersmith, or a Swordsmith. You must be level 50 with a blacksmithing skill level of 250 with the Weaponsmithing specialty.
 
 ### Becoming an Axesmith
-1.Go speak to Kilram in Everlook in Winterspring. Get the quest Snakestone of the Shadow Huntress.
-1.Enter Blackrock Spire and defeat Shadow Hunter Vosh'gajin to get  [Vosh'gajin's Snakestone]. In order for the item to drop, you must defeat Vosh'gajin with only 5 people (no raid group).
-1.Return to Kilram and turn in the Snakestone to become an Axesmith and earns the plans to  [Dawn's Edge].
+1. Go speak to Kilram in Everlook in Winterspring. Get the quest Snakestone of the Shadow Huntress.
+1. Enter Blackrock Spire and defeat Shadow Hunter Vosh'gajin to get  [Vosh'gajin's Snakestone]. In order for the item to drop, you must defeat Vosh'gajin with only 5 people (no raid group).
+1. Return to Kilram and turn in the Snakestone to become an Axesmith and earns the plans to  [Dawn's Edge].
 
 ### Becoming a Hammersmith
-1.Go speak to Lilith the Lithe in Everlook in Winterspring. Get the quest Sweet Serenity.
-1.Enter Stratholme and defeat the Crimson Hammersmith to get the  [Crimson Hammersmith's Apron].
-1.Return to Lilith the Lithe and turn in the Apron to become a Hammersmith and earns the plans to the  [Enchanted Battlehammer].
+1. Go speak to Lilith the Lithe in Everlook in Winterspring. Get the quest Sweet Serenity.
+1. Enter Stratholme and defeat the Crimson Hammersmith to get the  [Crimson Hammersmith's Apron].
+1. Return to Lilith the Lithe and turn in the Apron to become a Hammersmith and earns the plans to the  [Enchanted Battlehammer].
 
 ### Becoming a Swordsmith
-1.Go speak to Seril Scourgebane in Everlook in Winterspring. Get the quest Corruption.
-1.Enter Stratholme and defeat the Black Guard Swordsmith to get the  [Insignia of the Black Guard].
-1.Return to Seril Scourgebane and turn in the Insignia to become a Swordsmith and earns the plans to the  [Blazing Rapier].
+1. Go speak to Seril Scourgebane in Everlook in Winterspring. Get the quest Corruption.
+1. Enter Stratholme and defeat the Black Guard Swordsmith to get the  [Insignia of the Black Guard].
+1. Return to Seril Scourgebane and turn in the Insignia to become a Swordsmith and earns the plans to the  [Blazing Rapier].
 
 ## Blacksmithing Items
 {| class="fandom-table"
@@ -135,7 +135,7 @@ If you wish to specialize even further in Weaponsmithing, you can become an Axes
 |Copper Chain Pants
 (Mail Legs) AC: 83, MinLvl: 4
 |4x Copper Bar
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -159,7 +159,7 @@ Use: Increase sharp weapon damage by 2 for 30 minutes.
 |6x Copper Bar,
 1x Weak Flux,
 2x Linen Cloth
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -169,7 +169,7 @@ Use: Increase sharp weapon damage by 2 for 30 minutes.
 |6x Copper Bar,
 1x Weak Flux,
 2x Linen Cloth
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -177,7 +177,7 @@ Use: Increase sharp weapon damage by 2 for 30 minutes.
 |Copper Chain Boots
 (Mail Feet) AC: 65, MinLvl: 4
 |8x Copper Bar
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -187,7 +187,7 @@ Use: Increase sharp weapon damage by 2 for 30 minutes.
 |6x Copper Bar,
 1x Weak Flux,
 2x Linen Cloth
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -213,7 +213,7 @@ Use: Increase the damage of a blunt weapon by 2 for 30 minutes.
 2x Weak Flux,
 1x Rough Grinding Stone,
 1x Light Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -224,7 +224,7 @@ Use: Increase the damage of a blunt weapon by 2 for 30 minutes.
 1x Weak Flux,
 1x Rough Grinding Stone,
 1x Light Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -236,7 +236,7 @@ Use: Increase the damage of a blunt weapon by 2 for 30 minutes.
 2x Malachite,
 2x Rough Grinding Stone,
 2x Light Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -244,7 +244,7 @@ Use: Increase the damage of a blunt weapon by 2 for 30 minutes.
 |Copper Chain Belt
 (Mail Waist) AC: 61, MinLvl: 6
 |6x Copper Bar
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -254,7 +254,7 @@ Use: Increase the damage of a blunt weapon by 2 for 30 minutes.
 |8x Copper Bar,
 1x Malachite,
 2x Rough Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -263,7 +263,7 @@ Use: Increase the damage of a blunt weapon by 2 for 30 minutes.
 (Mail Hands) AC: 73, MinLvl: 7
 |8x Copper Bar,
 2x Rough Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -273,7 +273,7 @@ Use: Increase the damage of a blunt weapon by 2 for 30 minutes.
 |8x Copper Bar,
 2x Fine Thread,
 3x Rough Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -283,7 +283,7 @@ Use: Increase the damage of a blunt weapon by 2 for 30 minutes.
 |8x Copper Bar,
 1x Tigerseye,
 1x Malachite
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -308,7 +308,7 @@ MinLvl: 5, Use: Increase the damage of a blunt weapon by 3 for 30 minutes. Coold
 |12x Copper Bar,
 2x Weak Flux,
 2x Light Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -325,7 +325,7 @@ Coarse Grinding Stone
 |12x Copper Bar,
 1x Shadowgem,
 2x Rough Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -334,7 +334,7 @@ Coarse Grinding Stone
 (Mail Wrist) AC: 68, MinLvl: 14
 |10x Copper Bar,
 3x Rough Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -342,7 +342,7 @@ Coarse Grinding Stone
 |Runed Copper Belt
 (Mail Waist) AC: 86, MinLvl: 13
 |10x Copper Bar
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -354,7 +354,7 @@ Coarse Grinding Stone
 2x Silver Bar,
 2x Rough Grinding Stone,
 2x Light Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -365,7 +365,7 @@ Coarse Grinding Stone
 2x Weak Flux,
 2x Tigerseye,
 2x Medium Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -374,7 +374,7 @@ Coarse Grinding Stone
 (Mail Feet) AC: 106, MinLvl: 13
 |6x Bronze Bar,
 6x Rough Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -386,7 +386,7 @@ Coarse Grinding Stone
 2x Rough Grinding Stone,
 1x Tigerseye,
 1x Medium Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -396,7 +396,7 @@ Coarse Grinding Stone
 |16x Copper Bar,
 2x Tigerseye,
 3x Rough Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Quest
 |-
@@ -405,7 +405,7 @@ Coarse Grinding Stone
 Needed by Enchanters.
 |1x Silver Bar,
 2x Rough Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -414,7 +414,7 @@ Needed by Enchanters.
 Requires Blacksmithing (100), Use: Allows opening of simple locks. The skeleton key is consumed in the process. Charges: 1 (Expendable), 5 sec cast
 |1x Silver Bar,
 1x Rough Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -422,7 +422,7 @@ Requires Blacksmithing (100), Use: Allows opening of simple locks. The skeleton 
 |Rough Bronze Cuirass
 (Mail Chest) AC: 168, MinLvl: 18
 |7x Bronze Bar
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -430,7 +430,7 @@ Requires Blacksmithing (100), Use: Allows opening of simple locks. The skeleton 
 |Rough Bronze Leggings
 [BoE] (Mail Legs) AC: 149, Sta: 5, Spi: 4, MinLvl: 16
 |6x Bronze Bar
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -440,7 +440,7 @@ Requires Blacksmithing (100), Use: Allows opening of simple locks. The skeleton 
 |6x Bronze Bar,
 4x Weak Flux,
 1x Medium Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -450,7 +450,7 @@ Requires Blacksmithing (100), Use: Allows opening of simple locks. The skeleton 
 |5x Bronze Bar,
 1x Shadowgem,
 1x Coarse Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -460,7 +460,7 @@ Requires Blacksmithing (100), Use: Allows opening of simple locks. The skeleton 
 |7x Bronze Bar,
 4x Weak Flux,
 1x Medium Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -471,7 +471,7 @@ Requires Blacksmithing (100), Use: Allows opening of simple locks. The skeleton 
 1x Strong Flux,
 2x Small Lustrous Pearl,
 2x Coarse Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -481,7 +481,7 @@ Requires Blacksmithing (100), Use: Allows opening of simple locks. The skeleton 
 |5x Bronze Bar,
 4x Weak Flux,
 2x Medium Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -490,7 +490,7 @@ Requires Blacksmithing (100), Use: Allows opening of simple locks. The skeleton 
 [BoE] (Mail Wrist) AC: 80, Str: 5, MinLvl: 20
 |5x Bronze Bar,
 2x Coarse Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -500,7 +500,7 @@ Requires Blacksmithing (100), Use: Allows opening of simple locks. The skeleton 
 |8x Bronze Bar,
 1x Strong Flux,
 1x Medium Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -513,7 +513,7 @@ Requires Blacksmithing (100), Use: Allows opening of simple locks. The skeleton 
 2x Shadowgem,
 2x Coarse Grinding Stone,
 2x Medium Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -545,7 +545,7 @@ MinLvl: 15, Use: Increase the damage of a blunt weapon by 4 for 30 minutes. Cool
 |8x Bronze Bar,
 2x Silver Bar,
 2x Coarse Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -555,7 +555,7 @@ MinLvl: 15, Use: Increase the damage of a blunt weapon by 4 for 30 minutes. Cool
 |12x Bronze Bar,
 2x Strong Flux,
 2x Medium Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -568,7 +568,7 @@ MinLvl: 15, Use: Increase the damage of a blunt weapon by 4 for 30 minutes. Cool
 1x Shadowgem,
 2x Coarse Grinding Stone,
 2x Medium Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -578,7 +578,7 @@ MinLvl: 15, Use: Increase the damage of a blunt weapon by 4 for 30 minutes. Cool
 |6x Bronze Bar,
 1x Silver Bar,
 2x Coarse Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -589,7 +589,7 @@ MinLvl: 15, Use: Increase the damage of a blunt weapon by 4 for 30 minutes. Cool
 2x Silver Bar,
 2x Coarse Grinding Stone,
 1x Lesser Moonstone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -599,7 +599,7 @@ MinLvl: 15, Use: Increase the damage of a blunt weapon by 4 for 30 minutes. Cool
 |14x Bronze Bar,
 1x Strong Flux,
 2x Medium Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -609,7 +609,7 @@ MinLvl: 15, Use: Increase the damage of a blunt weapon by 4 for 30 minutes. Cool
 |8x Bronze Bar,
 1x Silver Bar,
 2x Coarse Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -621,7 +621,7 @@ MinLvl: 15, Use: Increase the damage of a blunt weapon by 4 for 30 minutes. Cool
 1x Iridescent Pearl,
 2x Coarse Grinding Stone,
 2x Medium Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -632,7 +632,7 @@ MinLvl: 15, Use: Increase the damage of a blunt weapon by 4 for 30 minutes. Cool
 2x Lesser Moonstone,
 2x Coarse Grinding Stone,
 1x Green Dye
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -645,7 +645,7 @@ MinLvl: 15, Use: Increase the damage of a blunt weapon by 4 for 30 minutes. Cool
 2x Lesser Moonstone,
 2x Coarse Grinding Stone,
 2x Medium Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -657,7 +657,7 @@ MinLvl: 15, Use: Increase the damage of a blunt weapon by 4 for 30 minutes. Cool
 2x Lesser Moonstone,
 2x Iridescent Pearl,
 4x Silver Bar
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -666,7 +666,7 @@ MinLvl: 15, Use: Increase the damage of a blunt weapon by 4 for 30 minutes. Cool
 Needed by Enchanters.
 |1x Gold Bar,
 2x Coarse Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -675,7 +675,7 @@ Needed by Enchanters.
 Requires Blacksmithing (150), Use: Allows opening of standard locks. The skeleton key is consumed in the process. Charges: 1 (Expendable), 5 sec cast
 |1x Gold Bar,
 1x Heavy Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -686,7 +686,7 @@ Requires Blacksmithing (150), Use: Allows opening of standard locks. The skeleto
 2x Small Lustrous Pearl,
 2x Coarse Grinding Stone,
 1x Green Dye
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -694,7 +694,7 @@ Requires Blacksmithing (150), Use: Allows opening of standard locks. The skeleto
 |Iron Buckle
 Iron Buckle
 |1x Iron Bar
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -703,7 +703,7 @@ Iron Buckle
 Requires Blacksmithing (150), Use: Attaches an Iron Spike to your shield that deals damage every time you block with it. Charges: 1 (Expendable), 3 sec cast
 |6x Iron Bar,
 4x Coarse Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -713,7 +713,7 @@ Requires Blacksmithing (150), Use: Attaches an Iron Spike to your shield that de
 |8x Iron Bar,
 1x Heavy Grinding Stone,
 1x Green Dye
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -723,7 +723,7 @@ Requires Blacksmithing (150), Use: Attaches an Iron Spike to your shield that de
 |12x Bronze Bar,
 4x Silver Bar,
 2x Coarse Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -735,7 +735,7 @@ Requires Blacksmithing (150), Use: Attaches an Iron Spike to your shield that de
 1x Heavy Grinding Stone,
 4x Silver Bar,
 2x Heavy Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Vendor
 |-
@@ -744,7 +744,7 @@ Requires Blacksmithing (150), Use: Attaches an Iron Spike to your shield that de
 (Mail Chest) AC: 204, Str: 12, MinLvl: 27
 |20x Iron Bar,
 4x Heavy Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Quest
 |-
@@ -755,7 +755,7 @@ Requires Blacksmithing (150), Use: Attaches an Iron Spike to your shield that de
 4x Sharp Claw,
 2x Shadowgem,
 2x Heavy Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Quest
 |-
@@ -765,7 +765,7 @@ Requires Blacksmithing (150), Use: Attaches an Iron Spike to your shield that de
 |7x Iron Bar,
 1x Heavy Grinding Stone,
 1x Green Dye
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -777,7 +777,7 @@ Requires Blacksmithing (150), Use: Attaches an Iron Spike to your shield that de
 1x Heavy Grinding Stone,
 2x Lesser Moonstone,
 3x Heavy Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Vendor
 |-
@@ -786,7 +786,7 @@ Requires Blacksmithing (150), Use: Attaches an Iron Spike to your shield that de
 (Mail Wrist) AC: 86, MinLvl: 28
 |6x Iron Bar,
 1x Green Dye
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -796,7 +796,7 @@ Requires Blacksmithing (165), Use: Attaches a counterweight to a two-handed swor
 |4x Iron Bar,
 2x Coarse Grinding Stone,
 1x Lesser Moonstone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -809,7 +809,7 @@ Requires Blacksmithing (165), Use: Attaches a counterweight to a two-handed swor
 2x Strong Flux,
 2x Heavy Leather,
 2x Heavy Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -819,7 +819,7 @@ Requires Blacksmithing (165), Use: Attaches a counterweight to a two-handed swor
 |10x Iron Bar,
 2x Gold Bar,
 1x Heavy Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -829,7 +829,7 @@ Requires Blacksmithing (165), Use: Attaches a counterweight to a two-handed swor
 |12x Iron Bar,
 1x Citrine,
 1x Green Dye
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -839,7 +839,7 @@ Requires Blacksmithing (165), Use: Attaches a counterweight to a two-handed swor
 |10x Iron Bar,
 2x Large Fang,
 2x Sharp Claw
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Quest
 |-
@@ -849,7 +849,7 @@ Requires Blacksmithing (165), Use: Attaches a counterweight to a two-handed swor
 |6x Steel Bar,
 2x Gold Bar,
 1x Heavy Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -861,7 +861,7 @@ Requires Blacksmithing (165), Use: Attaches a counterweight to a two-handed swor
 2x Heavy Grinding Stone,
 2x Jade,
 3x Heavy Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -872,7 +872,7 @@ Requires Blacksmithing (165), Use: Attaches a counterweight to a two-handed swor
 4x Large Fang,
 4x Tigerseye,
 2x Heavy Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Quest
 |-
@@ -884,7 +884,7 @@ Requires Blacksmithing (165), Use: Attaches a counterweight to a two-handed swor
 1x Moss Agate,
 1x Elemental Earth,
 1x Heavy Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -896,7 +896,7 @@ Requires Blacksmithing (165), Use: Attaches a counterweight to a two-handed swor
 2x Jade,
 2x Moss Agate,
 1x Green Leather Armor
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -908,7 +908,7 @@ Requires Blacksmithing (165), Use: Attaches a counterweight to a two-handed swor
 2x Heavy Grinding Stone,
 3x Lesser Moonstone,
 3x Heavy Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Vendor
 |-
@@ -918,7 +918,7 @@ Requires Blacksmithing (165), Use: Attaches a counterweight to a two-handed swor
 |14x Iron Bar,
 3x Heavy Grinding Stone,
 2x Large Fang
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Quest
 |-
@@ -927,7 +927,7 @@ Requires Blacksmithing (165), Use: Attaches a counterweight to a two-handed swor
 (Mail Wrist) AC: 91, MinLvl: 32
 |5x Steel Bar,
 2x Heavy Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -939,7 +939,7 @@ Requires Blacksmithing (165), Use: Attaches a counterweight to a two-handed swor
 2x Heavy Grinding Stone,
 4x Gold Bar,
 2x Heavy Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Vendor
 |-
@@ -950,7 +950,7 @@ Requires Blacksmithing (165), Use: Attaches a counterweight to a two-handed swor
 1x Citrine,
 1x Lesser Moonstone,
 2x Heavy Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -962,7 +962,7 @@ Requires Blacksmithing (165), Use: Attaches a counterweight to a two-handed swor
 2x Elemental Water,
 2x Elemental Air,
 2x Heavy Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Quest
 |-
@@ -972,7 +972,7 @@ Requires Blacksmithing (165), Use: Attaches a counterweight to a two-handed swor
 |8x Steel Bar,
 2x Gold Bar,
 2x Heavy Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Vendor
 |-
@@ -983,7 +983,7 @@ Requires Blacksmithing (165), Use: Attaches a counterweight to a two-handed swor
 4x Gold Bar,
 2x Elemental Fire,
 2x Heavy Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -993,7 +993,7 @@ Requires Blacksmithing (190), Use: Attaches a chain to your weapon, making it im
 |8x Steel Bar,
 2x Heavy Grinding Stone,
 4x Heavy Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -1004,7 +1004,7 @@ Requires Blacksmithing (190), Use: Attaches a chain to your weapon, making it im
 2x Gold Bar,
 4x Heavy Grinding Stone,
 2x Jade
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -1017,7 +1017,7 @@ Requires Blacksmithing (190), Use: Attaches a chain to your weapon, making it im
 2x Jade,
 1x Frost Oil,
 4x Heavy Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -1028,7 +1028,7 @@ Requires Blacksmithing (190), Use: Attaches a chain to your weapon, making it im
 4x Gold Bar,
 4x Heavy Grinding Stone,
 1x Citrine
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -1038,7 +1038,7 @@ Used by Gnomish Engineers to reinforce their creations
 |5x Mithril Bar,
 1x Gold Bar,
 1x Truesilver Bar
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Engineering
 |-
@@ -1051,7 +1051,7 @@ Used by Gnomish Engineers to reinforce their creations
 2x Citrine,
 1x Shadow Oil,
 3x Heavy Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -1082,7 +1082,7 @@ MinLvl: 25, Use: Increase the damage of a blunt weapon by 6 for 30 minutes. Cool
 [BoE] (Mail Chest) AC: 381, MinLvl: 35
 |16x Steel Bar,
 3x Heavy Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -1091,7 +1091,7 @@ MinLvl: 25, Use: Increase the damage of a blunt weapon by 6 for 30 minutes. Cool
 Needed by Enchanters.
 |1x Truesilver Bar,
 1x Heavy Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -1100,7 +1100,7 @@ Needed by Enchanters.
 Requires Blacksmithing (200), Use: Allows opening of difficult locks. The skeleton key is consumed in the process. Charges: 1 (Expendable), 5 sec cast
 |1x Truesilver Bar,
 1x Solid Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -1111,7 +1111,7 @@ Requires Blacksmithing (200), Use: Allows opening of difficult locks. The skelet
 4x Gold Bar,
 4x Heavy Grinding Stone,
 1x Citrine
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Quest
 |-
@@ -1120,7 +1120,7 @@ Requires Blacksmithing (200), Use: Allows opening of difficult locks. The skelet
 [BoE] (Plate Hands) AC: 268, Sta: 8, MinLvl: 40
 |6x Mithril Bar,
 4x Mageweave Cloth
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -1129,7 +1129,7 @@ Requires Blacksmithing (200), Use: Allows opening of difficult locks. The skelet
 [BoE] (Plate Shoulder) AC: 225, Sta: 12, MinLvl: 40
 |8x Mithril Bar,
 6x Heavy Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -1140,7 +1140,7 @@ Requires Blacksmithing (200), Use: Allows opening of difficult locks. The skelet
 2x Citrine,
 1x Solid Grinding Stone,
 4x Heavy Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -1149,7 +1149,7 @@ Requires Blacksmithing (200), Use: Allows opening of difficult locks. The skelet
 [BoE] (Plate Legs) AC: 417, Sta: 11, MinLvl: 40
 |10x Mithril Bar,
 2x Lesser Moonstone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -1157,7 +1157,7 @@ Requires Blacksmithing (200), Use: Allows opening of difficult locks. The skelet
 |Mithril Scale Pants
 [BoE] (Mail Legs) AC: 208, Spi: 11, MinLvl: 37, Equip: Increases your chance to dodge an attack by 1%.
 |12x Mithril Bar
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -1166,7 +1166,7 @@ Requires Blacksmithing (200), Use: Allows opening of difficult locks. The skelet
 [BoE] (Mail Wrist) AC: 106, Sta: 6, Spi: 7, MinLvl: 38
 |8x Mithril Bar,
 2x Citrine
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Vendor
 |-
@@ -1176,7 +1176,7 @@ Requires Blacksmithing (215), Use: Attaches a Mithril Spike to your shield that 
 |4x Mithril Bar,
 2x Truesilver Bar,
 4x Solid Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -1185,7 +1185,7 @@ Requires Blacksmithing (215), Use: Attaches a Mithril Spike to your shield that 
 (Plate Head) AC: 355, MinLvl: 40
 |14x Steel Bar,
 1x Solid Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -1196,7 +1196,7 @@ Requires Blacksmithing (215), Use: Attaches a Mithril Spike to your shield that 
 2x Aquamarine,
 1x Solid Grinding Stone,
 4x Thick Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -1207,7 +1207,7 @@ Requires Blacksmithing (215), Use: Attaches a Mithril Spike to your shield that 
 6x Mageweave Cloth,
 1x Truesilver Bar,
 1x Solid Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Quest
 |-
@@ -1218,7 +1218,7 @@ Requires Blacksmithing (215), Use: Attaches a Mithril Spike to your shield that 
 1x Truesilver Bar,
 1x Solid Grinding Stone,
 1x Aquamarine
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Quest
 |-
@@ -1228,7 +1228,7 @@ Requires Blacksmithing (215), Use: Attaches a Mithril Spike to your shield that 
 |12x Mithril Bar,
 1x Truesilver Bar,
 6x Thick Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Quest
 |-
@@ -1241,7 +1241,7 @@ Requires Blacksmithing (215), Use: Attaches a Mithril Spike to your shield that 
 3x Citrine,
 1x Guardian Gloves,
 2x Solid Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |Armorsmith
 |Trainer
 |-
@@ -1252,7 +1252,7 @@ Requires Blacksmithing (215), Use: Attaches a Mithril Spike to your shield that 
 4x Truesilver Bar,
 1x Solid Grinding Stone,
 2x Thick Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -1264,7 +1264,7 @@ Requires Blacksmithing (215), Use: Attaches a Mithril Spike to your shield that 
 4x Shadowgem,
 1x Solid Grinding Stone,
 2x Thick Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -1272,7 +1272,7 @@ Requires Blacksmithing (215), Use: Attaches a Mithril Spike to your shield that 
 |Heavy Mithril Breastplate
 [BoE] (Plate Chest) AC: 536, Sta: 15, MinLvl: 41
 |16x Mithril Bar
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -1281,7 +1281,7 @@ Requires Blacksmithing (215), Use: Attaches a Mithril Spike to your shield that 
 [BoE] (Mail Head) AC: 206, Sta: 12, Spi: 13, MinLvl: 41
 |10x Mithril Bar,
 6x Mageweave Cloth
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -1290,7 +1290,7 @@ Requires Blacksmithing (215), Use: Attaches a Mithril Spike to your shield that 
 [BoE] (Plate Feet) AC: 382, Sta: 12, MinLvl: 42
 |14x Mithril Bar,
 4x Thick Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -1300,7 +1300,7 @@ Requires Blacksmithing (215), Use: Attaches a Mithril Spike to your shield that 
 |14x Mithril Bar,
 4x Thick Leather,
 4x Citrine
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -1309,7 +1309,7 @@ Requires Blacksmithing (215), Use: Attaches a Mithril Spike to your shield that 
 Requires Blacksmithing (215), Use: Attaches spurs to your boots that increase your mounted movement speed slightly. Charges: 1 (Expendable), 3 sec cast
 |4x Mithril Bar,
 3x Solid Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -1320,7 +1320,7 @@ Requires Blacksmithing (215), Use: Attaches spurs to your boots that increase yo
 6x Truesilver Bar,
 1x Heart of Fire,
 1x Solid Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -1334,7 +1334,7 @@ Requires Blacksmithing (215), Use: Attaches spurs to your boots that increase yo
 5x Jade,
 4x Solid Grinding Stone,
 4x Thick Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |Weaponsmith
 |Trainer
 |-
@@ -1347,7 +1347,7 @@ Requires Blacksmithing (215), Use: Attaches spurs to your boots that increase yo
 2x Moss Agate,
 1x Solid Grinding Stone,
 2x Mageweave Cloth
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -1359,7 +1359,7 @@ Requires Blacksmithing (215), Use: Attaches spurs to your boots that increase yo
 4x Thick Leather,
 1x Solid Grinding Stone,
 1x Aquamarine
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -1368,7 +1368,7 @@ Requires Blacksmithing (215), Use: Attaches spurs to your boots that increase yo
 [BoE] (Plate Head) AC: 469, Sta: 15, MinLvl: 42
 |14x Mithril Bar,
 1x Aquamarine
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -1379,7 +1379,7 @@ Requires Blacksmithing (215), Use: Attaches spurs to your boots that increase yo
 2x Truesilver Bar,
 1x Black Pearl,
 1x Solid Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Quest
 |-
@@ -1393,7 +1393,7 @@ Requires Blacksmithing (215), Use: Attaches spurs to your boots that increase yo
 6x Aquamarine,
 4x Solid Grinding Stone,
 2x Thick Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |Weaponsmith
 |Trainer
 |-
@@ -1404,7 +1404,7 @@ Requires Blacksmithing (215), Use: Attaches spurs to your boots that increase yo
 2x Core of Earth,
 1x Solid Grinding Stone,
 4x Thick Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -1416,7 +1416,7 @@ Requires Blacksmithing (215), Use: Attaches spurs to your boots that increase yo
 4x Star Ruby,
 4x Black Pearl,
 2x Solid Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |Armorsmith
 |Trainer
 |-
@@ -1428,7 +1428,7 @@ Requires Blacksmithing (215), Use: Attaches spurs to your boots that increase yo
 10x Truesilver Bar,
 6x Solid Grinding Stone,
 6x Thick Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |Weaponsmith
 |Trainer
 |-
@@ -1460,7 +1460,7 @@ MinLvl: 35, Use: Increase the damage of a blunt weapon by 8 for 30 minutes. Cool
 |16x Thorium Bar,
 1x Blue Sapphire,
 4x Yellow Power Crystal
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -1469,7 +1469,7 @@ MinLvl: 35, Use: Increase the damage of a blunt weapon by 8 for 30 minutes. Cool
 [BoE] (Plate Waist) AC: 270, AR: 6, FR: 6, NR: 6, CR: 6, SR: 6, MinLvl: 45
 |12x Thorium Bar,
 4x Red Power Crystal
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -1481,7 +1481,7 @@ MinLvl: 35, Use: Increase the damage of a blunt weapon by 8 for 30 minutes. Cool
 2x Star Ruby,
 1x Solid Grinding Stone,
 2x Thick Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Vendor
 |-
@@ -1490,7 +1490,7 @@ MinLvl: 35, Use: Increase the damage of a blunt weapon by 8 for 30 minutes. Cool
 [BoE] (Plate Wrist) AC: 214, AR: 5, FR: 5, NR: 5, CR: 5, SR: 5, MinLvl: 46
 |12x Thorium Bar,
 4x Blue Power Crystal
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -1499,7 +1499,7 @@ MinLvl: 35, Use: Increase the damage of a blunt weapon by 8 for 30 minutes. Cool
 [BoE] (Mail Waist) AC: 159, CR: 12, SR: 12, MinLvl: 47
 |10x Thorium Bar,
 2x Heart of Fire
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -1512,7 +1512,7 @@ MinLvl: 35, Use: Increase the damage of a blunt weapon by 8 for 30 minutes. Cool
 4x Breath of Wind,
 8x Solid Grinding Stone,
 6x Thick Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |Weaponsmith
 |Trainer
 |-
@@ -1521,7 +1521,7 @@ MinLvl: 35, Use: Increase the damage of a blunt weapon by 8 for 30 minutes. Cool
 [BoE] (2H Mace) Dmg: 140-211, Spd: 3.70, DPS: 47.4, MinLvl: 50, Chance on hit: Stuns target for 8 sec.
 |18x Dark Iron Bar,
 4x Heart of Fire
-  -Requires**: Blacksmith Hammer, Black Anvil 
+**Requires**: Blacksmith Hammer, Black Anvil 
 |Weaponsmith
 |Drop
 |-
@@ -1531,7 +1531,7 @@ MinLvl: 35, Use: Increase the damage of a blunt weapon by 8 for 30 minutes. Cool
 |22x Thorium Bar,
 6x Rugged Leather,
 1x Aquamarine
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Quest
 |-
@@ -1541,7 +1541,7 @@ MinLvl: 35, Use: Increase the damage of a blunt weapon by 8 for 30 minutes. Cool
 |24x Thorium Bar,
 6x Rugged Leather,
 2x Citrine
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Quest
 |-
@@ -1550,7 +1550,7 @@ MinLvl: 35, Use: Increase the damage of a blunt weapon by 8 for 30 minutes. Cool
 [BoE] (Mail Chest) AC: 433, Sta: 13, FR: 12, MinLvl: 51
 |10x Dark Iron Bar,
 2x Heart of Fire
-  -Requires**: Blacksmith Hammer, Black Anvil 
+**Requires**: Blacksmith Hammer, Black Anvil 
 |
 |Drop
 |-
@@ -1559,7 +1559,7 @@ MinLvl: 35, Use: Increase the damage of a blunt weapon by 8 for 30 minutes. Cool
 [BoE] (Plate Wrist) AC: 225, Str: 9, Sta: 8, MinLvl: 49, Set: Imperial Plate (7)
 |20x Thorium Bar,
 1x Star Ruby
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Quest
 |-
@@ -1569,7 +1569,7 @@ MinLvl: 35, Use: Increase the damage of a blunt weapon by 8 for 30 minutes. Cool
 |18x Thorium Bar,
 2x Heart of Fire,
 1x Star Ruby
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -1581,7 +1581,7 @@ MinLvl: 35, Use: Increase the damage of a blunt weapon by 8 for 30 minutes. Cool
 4x Living Essence,
 4x Wildvine,
 1x Huge Emerald
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |Armorsmith
 |Drop
 |-
@@ -1590,7 +1590,7 @@ MinLvl: 35, Use: Increase the damage of a blunt weapon by 8 for 30 minutes. Cool
 Needed by Enchanters.
 |3x Arcanite Bar,
 1x Dense Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -1599,7 +1599,7 @@ Needed by Enchanters.
 Requires Blacksmithing (275), Use: Allows opening of hard locks. The skeleton key is consumed in the process. Charges: 1 (Expendable), 5 sec cast
 |1x Arcanite Bar,
 1x Dense Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Trainer
 |-
@@ -1608,7 +1608,7 @@ Requires Blacksmithing (275), Use: Allows opening of hard locks. The skeleton ke
 [BoE] (2H Axe) Dmg: 101-153, Spd: 2.60, DPS: 48.8, MinLvl: 52, Chance on hit: Reduces targets armor by 300 for 20 sec.
 |26x Dark Iron Bar,
 4x Heart of Fire
-  -Requires**: Blacksmith Hammer, Black Anvil 
+**Requires**: Blacksmith Hammer, Black Anvil 
 |Weaponsmith
 |Drop
 |-
@@ -1621,7 +1621,7 @@ Requires Blacksmithing (275), Use: Allows opening of hard locks. The skeleton ke
 4x Blue Sapphire,
 2x Dense Grinding Stone,
 4x Rugged Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |Axesmith
 |Quest
 |-
@@ -1632,7 +1632,7 @@ Requires Blacksmithing (275), Use: Allows opening of hard locks. The skeleton ke
 2x Large Opal,
 2x Dense Grinding Stone,
 4x Rugged Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Vendor
 |-
@@ -1642,7 +1642,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 |4x Thorium Bar,
 4x Dense Grinding Stone,
 2x Essence of Earth
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -1654,7 +1654,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 4x Heart of Fire,
 2x Azerothian Diamond,
 2x Dense Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |Swordsmith
 |Quest
 |-
@@ -1663,7 +1663,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 [BoE] (Plate Shoulder) AC: 514, Sta: 10, FR: 10, MinLvl: 53
 |6x Dark Iron Bar,
 1x Heart of Fire
-  -Requires**: Blacksmith Hammer, Black Anvil 
+**Requires**: Blacksmith Hammer, Black Anvil 
 |
 |Drop
 |-
@@ -1675,7 +1675,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 2x Huge Emerald,
 4x Powerful Mojo,
 4x Rugged Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |Hammersmith
 |Quest
 |-
@@ -1685,7 +1685,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 |40x Thorium Bar,
 6x Dense Grinding Stone,
 6x Rugged Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Vendor
 |-
@@ -1695,7 +1695,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 |20x Thorium Bar,
 8x Rugged Leather,
 4x Green Power Crystal
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -1705,7 +1705,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 |24x Thorium Bar,
 1x Star Ruby,
 4x Yellow Power Crystal
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -1714,7 +1714,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 [BoP] (Plate Chest) AC: 817, Sta: 12, FR: 19, MinLvl: 54
 |20x Dark Iron Bar,
 8x Heart of Fire
-  -Requires**: Blacksmith Hammer, Black Anvil 
+**Requires**: Blacksmith Hammer, Black Anvil 
 |Armorsmith
 |Drop
 |-
@@ -1725,7 +1725,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 10x Demonic Rune,
 4x Blue Sapphire,
 4x Star Ruby
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |Armorsmith
 |Quest
 |-
@@ -1734,7 +1734,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 [BoE] (Mail Hands) AC: 192, CR: 12, SR: 12, MinLvl: 52
 |18x Thorium Bar,
 4x Heart of Fire
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -1747,7 +1747,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 2x Large Opal,
 2x Blue Sapphire,
 1x Huge Emerald
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |Hammersmith
 |Drop
 |-
@@ -1761,7 +1761,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 2x Blue Sapphire,
 2x Dense Grinding Stone,
 4x Rugged Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |Swordsmith
 |Drop
 |-
@@ -1772,7 +1772,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 6x Enchanted Thorium Bar,
 2x Essence of Fire,
 4x Star Ruby
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |Armorsmith
 |Quest
 |-
@@ -1782,7 +1782,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 |8x Thorium Bar,
 6x Truesilver Bar,
 1x Righteous Orb
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Vendor
 |-
@@ -1792,7 +1792,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 |12x Thorium Bar,
 3x Essence of Earth,
 3x Living Essence
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Vendor
 |-
@@ -1801,7 +1801,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 [BoE] (Mail Feet) AC: 215, CR: 15, SR: 15, MinLvl: 53
 |14x Thorium Bar,
 4x Heart of Fire
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -1812,7 +1812,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 4x Heart of Fire,
 4x Star Ruby,
 4x Rugged Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -1822,7 +1822,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 |16x Dark Iron Bar,
 3x Fiery Core,
 3x Lava Core
-  -Requires**: Blacksmith Hammer, Black Anvil 
+**Requires**: Blacksmith Hammer, Black Anvil 
 |Armorsmith
 |Vendor
 |-
@@ -1832,7 +1832,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 |16x Dark Iron Bar,
 3x Fiery Core,
 3x Lava Core
-  -Requires**: Blacksmith Hammer, Black Anvil 
+**Requires**: Blacksmith Hammer, Black Anvil 
 |Armorsmith
 |Vendor
 |-
@@ -1842,7 +1842,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 |34x Thorium Bar,
 1x Star Ruby,
 1x Aquamarine
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Quest
 |-
@@ -1851,7 +1851,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 [BoE] (Plate Head) AC: 456, Str: 18, Sta: 17, MinLvl: 54, Set: Imperial Plate (7)
 |34x Thorium Bar,
 2x Star Ruby
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Quest
 |-
@@ -1860,7 +1860,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 [BoE] (Mail Head) AC: 258, CR: 18, SR: 18, MinLvl: 54
 |18x Thorium Bar,
 4x Heart of Fire
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -1871,7 +1871,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 4x Enchanted Thorium Bar,
 4x Essence of Water,
 4x Blue Sapphire
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |Armorsmith
 |Vendor, Drop
 |-
@@ -1884,7 +1884,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 8x Huge Emerald,
 2x Dense Grinding Stone,
 4x Enchanted Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |Axesmith
 |Drop
 |-
@@ -1897,7 +1897,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 4x Large Opal,
 8x Enchanted Leather,
 2x Dense Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |Swordsmith
 |Drop
 |-
@@ -1907,7 +1907,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 |20x Arcanite Bar,
 6x Enchanted Leather,
 2x Dense Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |Axesmith
 |Drop
 |-
@@ -1919,7 +1919,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 12x Arcanite Bar,
 1x Blood of the Mountain,
 4x Dark Iron Bar
-  -Requires**: Blacksmith Hammer, Black Anvil 
+**Requires**: Blacksmith Hammer, Black Anvil 
 |Weaponsmith
 |Vendor
 |-
@@ -1930,7 +1930,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 4x Fiery Core,
 16x Arcanite Bar,
 6x Dark Iron Bar
-  -Requires**: Blacksmith Hammer, Black Anvil 
+**Requires**: Blacksmith Hammer, Black Anvil 
 |Weaponsmith
 |Vendor
 |-
@@ -1942,7 +1942,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 10x Arcanite Bar,
 6x Dark Iron Bar,
 12x Guardian Stone
-  -Requires**: Blacksmith Hammer, Black Anvil 
+**Requires**: Blacksmith Hammer, Black Anvil 
 |Swordsmith
 |Vendor
 |-
@@ -1953,7 +1953,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 10x Souldarite,
 2x Bloodvine,
 2x Star Ruby
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Vendor
 |-
@@ -1964,7 +1964,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 6x Souldarite,
 2x Bloodvine,
 4x Enchanted Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Vendor
 |-
@@ -1975,7 +1975,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 8x Souldarite,
 2x Bloodvine,
 1x Star Ruby
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Vendor
 |-
@@ -1986,7 +1986,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 3x Fiery Core,
 4x Core Leather,
 6x Dark Iron Bar
-  -Requires**: Blacksmith Hammer, Black Anvil 
+**Requires**: Blacksmith Hammer, Black Anvil 
 |Armorsmith
 |Vendor
 |-
@@ -1997,7 +1997,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 12x Lava Core,
 2x Blood of the Mountain,
 2x Enchanted Leather
-  -Requires**: Blacksmith Hammer, Black Anvil 
+**Requires**: Blacksmith Hammer, Black Anvil 
 |Axesmith
 |Vendor
 |-
@@ -2009,7 +2009,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 4x Core Leather,
 4x Dark Iron Bar,
 2x Blood of the Mountain
-  -Requires**: Blacksmith Hammer, Black Anvil 
+**Requires**: Blacksmith Hammer, Black Anvil 
 |Armorsmith
 |Vendor
 |-
@@ -2019,7 +2019,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 |4x Lava Core,
 2x Fiery Core,
 4x Dark Iron Bar
-  -Requires**: Blacksmith Hammer, Black Anvil 
+**Requires**: Blacksmith Hammer, Black Anvil 
 |Armorsmith
 |Vendor
 |-
@@ -2029,7 +2029,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 |16x Dark Iron Bar,
 4x Fiery Core,
 6x Lava Core
-  -Requires**: Blacksmith Hammer, Black Anvil 
+**Requires**: Blacksmith Hammer, Black Anvil 
 |Armorsmith
 |Vendor
 |-
@@ -2040,7 +2040,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 12x Fiery Core,
 2x Blood of the Mountain,
 2x Enchanted Leather
-  -Requires**: Blacksmith Hammer, Black Anvil 
+**Requires**: Blacksmith Hammer, Black Anvil 
 |Swordsmith
 |Vendor
 |-
@@ -2050,7 +2050,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 |20x Thorium Bar,
 10x Dark Rune,
 10x Truesilver Bar
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -2061,7 +2061,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 6x Dark Rune,
 6x Truesilver Bar,
 2x Enchanted Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -2072,7 +2072,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 8x Dark Rune,
 8x Truesilver Bar,
 1x Black Diamond
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -2082,7 +2082,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 |20x Thorium Bar,
 14x Souldarite,
 2x Large Opal
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Vendor
 |-
@@ -2092,7 +2092,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 |18x Thorium Bar,
 12x Souldarite,
 2x Large Opal
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Vendor
 |-
@@ -2102,7 +2102,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 |16x Thorium Bar,
 10x Souldarite,
 1x Large Opal
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Vendor
 |-
@@ -2114,7 +2114,7 @@ Requires Blacksmithing (250), Use: Attaches a Thorium Spike to your shield that 
 12x Arcanite Bar,
 8x Dark Iron Bar,
 4x Azerothian Diamond
-  -Requires**: Blacksmith Hammer, Black Anvil 
+**Requires**: Blacksmith Hammer, Black Anvil 
 |Hammersmith
 |Vendor
 |-
@@ -2135,7 +2135,7 @@ MinLvl: 50, Use: Increase critical chance on a melee weapon by 2% for 30 minutes
 4x Essence of Water,
 2x Huge Emerald,
 2x Azerothian Diamond
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |Armorsmith
 |Quest
 |-
@@ -2147,7 +2147,7 @@ MinLvl: 50, Use: Increase critical chance on a melee weapon by 2% for 30 minutes
 6x Essence of Earth,
 2x Large Opal,
 1x Azerothian Diamond
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |Armorsmith
 |Quest
 |-
@@ -2159,7 +2159,7 @@ MinLvl: 50, Use: Increase critical chance on a melee weapon by 2% for 30 minutes
 6x Essence of Water,
 2x Blue Sapphire,
 1x Huge Emerald
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |Armorsmith
 |Quest
 |-
@@ -2169,7 +2169,7 @@ MinLvl: 50, Use: Increase critical chance on a melee weapon by 2% for 30 minutes
 |16x Dark Iron Bar,
 4x Fiery Core,
 5x Lava Core
-  -Requires**: Blacksmith Hammer, Black Anvil 
+**Requires**: Blacksmith Hammer, Black Anvil 
 |Armorsmith
 |Vendor
 |-
@@ -2182,7 +2182,7 @@ MinLvl: 50, Use: Increase critical chance on a melee weapon by 2% for 30 minutes
 4x Essence of Water,
 2x Dense Grinding Stone,
 4x Enchanted Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |Swordsmith
 |Drop
 |-
@@ -2192,7 +2192,7 @@ MinLvl: 50, Use: Increase critical chance on a melee weapon by 2% for 30 minutes
 |4x Arcanite Bar,
 10x Truesilver Bar,
 2x Righteous Orb
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Vendor
 |-
@@ -2204,7 +2204,7 @@ MinLvl: 50, Use: Increase critical chance on a melee weapon by 2% for 30 minutes
 4x Guardian Stone,
 6x Enchanted Leather,
 10x Essence of Earth
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |Hammersmith
 |Drop
 |-
@@ -2218,7 +2218,7 @@ MinLvl: 50, Use: Increase critical chance on a melee weapon by 2% for 30 minutes
 6x Azerothian Diamond,
 6x Large Opal,
 4x Dense Grinding Stone
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |Weaponsmith
 |Drop
 |-
@@ -2228,7 +2228,7 @@ MinLvl: 50, Use: Increase critical chance on a melee weapon by 2% for 30 minutes
 |4x Arcanite Bar,
 6x Essence of Earth,
 6x Living Essence
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Vendor
 |-
@@ -2240,7 +2240,7 @@ MinLvl: 50, Use: Increase critical chance on a melee weapon by 2% for 30 minutes
 60x Jet Black Feather,
 6x Large Opal,
 2x Huge Emerald
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |Armorsmith
 |Drop
 |-
@@ -2249,7 +2249,7 @@ MinLvl: 50, Use: Increase critical chance on a melee weapon by 2% for 30 minutes
 [BoE] (Plate Chest) AC: 570, Str: 18, Sta: 17, MinLvl: 55, Set: Imperial Plate (7)
 |40x Thorium Bar,
 2x Star Ruby
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Quest
 |-
@@ -2258,7 +2258,7 @@ MinLvl: 50, Use: Increase critical chance on a melee weapon by 2% for 30 minutes
 [BoE] (Plate Legs) AC: 507, Str: 18, Sta: 18, MinLvl: 56, Set: Imperial Plate (7)
 |44x Thorium Bar,
 2x Star Ruby
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Quest
 |-
@@ -2269,7 +2269,7 @@ MinLvl: 50, Use: Increase critical chance on a melee weapon by 2% for 30 minutes
 30x Enchanted Thorium Bar,
 6x Huge Emerald,
 6x Azerothian Diamond
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |Armorsmith
 |Drop
 |-
@@ -2281,7 +2281,7 @@ MinLvl: 50, Use: Increase critical chance on a melee weapon by 2% for 30 minutes
 40x Wicked Claw,
 10x Blue Sapphire,
 4x Azerothian Diamond
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |Armorsmith
 |Drop
 |-
@@ -2293,7 +2293,7 @@ MinLvl: 50, Use: Increase critical chance on a melee weapon by 2% for 30 minutes
 8x Large Opal,
 6x Essence of Earth,
 4x Enchanted Leather
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |Hammersmith
 |Drop
 |-
@@ -2305,7 +2305,7 @@ MinLvl: 50, Use: Increase critical chance on a melee weapon by 2% for 30 minutes
 10x Arcanite Bar,
 12x Dark Iron Bar,
 4x Huge Emerald
-  -Requires**: Blacksmith Hammer, Black Anvil 
+**Requires**: Blacksmith Hammer, Black Anvil 
 |Axesmith
 |Vendor
 |-
@@ -2314,7 +2314,7 @@ MinLvl: 50, Use: Increase critical chance on a melee weapon by 2% for 30 minutes
 [BoE] (Mail Legs) AC: 286, CR: 18, SR: 18, MinLvl: 56
 |20x Thorium Bar,
 4x Heart of Fire
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -2324,7 +2324,7 @@ MinLvl: 50, Use: Increase critical chance on a melee weapon by 2% for 30 minutes
 |40x Thorium Bar,
 2x Arcanite Bar,
 1x Star Ruby
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -2334,7 +2334,7 @@ MinLvl: 50, Use: Increase critical chance on a melee weapon by 2% for 30 minutes
 |20x Thorium Bar,
 2x Arcanite Bar,
 10x Silver Bar
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -2345,7 +2345,7 @@ MinLvl: 50, Use: Increase critical chance on a melee weapon by 2% for 30 minutes
 2x Arcanite Bar,
 2x Truesilver Bar,
 1x Huge Emerald
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -2355,7 +2355,7 @@ MinLvl: 50, Use: Increase critical chance on a melee weapon by 2% for 30 minutes
 |40x Thorium Bar,
 2x Arcanite Bar,
 1x Star Ruby
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -2365,7 +2365,7 @@ MinLvl: 50, Use: Increase critical chance on a melee weapon by 2% for 30 minutes
 |20x Thorium Bar,
 2x Arcanite Bar,
 6x Gold Bar
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -2377,7 +2377,7 @@ MinLvl: 50, Use: Increase critical chance on a melee weapon by 2% for 30 minutes
 10x Essence of Earth,
 4x Blue Sapphire,
 4x Large Opal
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |Armorsmith
 |Drop
 |-
@@ -2391,7 +2391,7 @@ MinLvl: 50, Use: Increase critical chance on a melee weapon by 2% for 30 minutes
 10x Blood of the Mountain,
 10x Lava Core,
 10x Fiery Core
-  -Requires**: Blacksmith Hammer, Black Anvil 
+**Requires**: Blacksmith Hammer, Black Anvil 
 |
 |Quest
 |-
@@ -2400,7 +2400,7 @@ MinLvl: 50, Use: Increase critical chance on a melee weapon by 2% for 30 minutes
 [BoE] (Plate Legs) AC: 499, AR: 10, FR: 10, NR: 10, CR: 10, SR: 10, MinLvl: 55
 |26x Thorium Bar,
 4x Red Power Crystal
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |Drop
 |-
@@ -2412,7 +2412,7 @@ MinLvl: 50, Use: Increase critical chance on a melee weapon by 2% for 30 minutes
 6x Truesilver Bar,
 6x Gold Bar,
 2x Azerothian Diamond
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |Armorsmith
 |Drop
 |}

@@ -25,10 +25,10 @@ categories: ["Innkeepers", "Moonwhisper Coast NPCs", "Tauren characters", "Turtl
 | location | Moonhoof Village, Moonwhisper Coast |
 | status | Alive |
 
--Innkeeper Warmbreeze** is a [tauren](tauren) innkeeper located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Innkeeper Warmbreeze** is a [tauren](tauren) innkeeper located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Rest, weary soul, you who are burdened by adventure and whose shoulders carry the weight of mountains when required. Let the incense I burn fill your nostrils and ease your stiff, tense body. Allow each of your muscles to loosen, each of your bones to crack in relief. Rest. Tomorrow brings another day.
 
 ## Patch changes

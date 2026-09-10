@@ -10,7 +10,7 @@ categories: ["Gardens", "Thalassian Highlands subzones", "Turtle WoW content"]
 ---
 # Anasterian Park
 
--Anasterian Park** is a park named for the last king of Quel'Thalas, [Anasterian Sunstrider](Anasterian Sunstrider), located on the outskirts of [Alah'Thalas](Alah'Thalas) within the [Thalassian Highlands](Thalassian Highlands).
+**Anasterian Park** is a park named for the last king of Quel'Thalas, [Anasterian Sunstrider](Anasterian Sunstrider), located on the outskirts of [Alah'Thalas](Alah'Thalas) within the [Thalassian Highlands](Thalassian Highlands).
 
 ## Patch changes
 - (Patch 1.17.1|note=Added.)

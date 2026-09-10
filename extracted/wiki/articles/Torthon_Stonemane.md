@@ -24,10 +24,10 @@ categories: ["Tauren characters", "Thousand Needles NPCs", "Turtle WoW content"]
 | location | Ironstone Camp, Thousand Needles |
 | status | Alive |
 
--Torthon Stonemane** is a [tauren](tauren) located at [Ironstone Camp](Ironstone Camp) in the [Thousand Needles](Thousand Needles).
+**Torthon Stonemane** is a [tauren](tauren) located at [Ironstone Camp](Ironstone Camp) in the [Thousand Needles](Thousand Needles).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I have spent much of my life wandering these trails, and hunting the wilds of Thousand Needles. It is only recently that danger has encroached upon my land.
 
 ## Patch changes

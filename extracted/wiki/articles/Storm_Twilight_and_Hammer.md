@@ -44,8 +44,8 @@ The lockbox merely contained the first fragment.
 Both fragments together will now serve as the key to enter the ruins of the castle. Beware, for you will face both servants of the Legion and cultists of those long forgotten.
 
 ## Progression
-1.[quest: Lady Who?]
-1.[quest: Storm, Twilight and Hammer]
+1. [quest: Lady Who?]
+1. [quest: Storm, Twilight and Hammer]
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

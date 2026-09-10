@@ -64,17 +64,17 @@ WorldMap-EasternPlaguelands-old1.jpg|The Eastern Plaguelands prior to [patch 1.1
 
 ### Travel hubs
 ##### [Flight path](Flight path)s from [Light's Hope Chapel](Light's Hope Chapel)
--  [Ironforge](Ironforge), [Dun Morogh](Dun Morogh)
--  [Alah'Thalas](Alah'Thalas), [Thalassian Highlands](Thalassian Highlands)
--  [Aerie Peak](Aerie Peak), [The Hinterlands](Hinterlands)
--  [Chillwind Camp](Chillwind Camp), [Western Plaguelands](Western Plaguelands)
--  [Undercity](Undercity), [Tirisfal Glades](Tirisfal Glades)
--  [Revantusk Village](Revantusk Village), [The Hinterlands](Hinterlands)
+- [Ironforge](Ironforge), [Dun Morogh](Dun Morogh)
+- [Alah'Thalas](Alah'Thalas), [Thalassian Highlands](Thalassian Highlands)
+- [Aerie Peak](Aerie Peak), [The Hinterlands](Hinterlands)
+- [Chillwind Camp](Chillwind Camp), [Western Plaguelands](Western Plaguelands)
+- [Undercity](Undercity), [Tirisfal Glades](Tirisfal Glades)
+- [Revantusk Village](Revantusk Village), [The Hinterlands](Hinterlands)
 
 ##### [Flight path](Flight path)s from [Plaguewood Tower](Plaguewood Tower)
--  [Northpass Tower](Northpass Tower), Eastern Plaguelands
--  [Eastwall Tower](Eastwall Tower), Eastern Plaguelands
--  [Crown Guard Tower](Crown Guard Tower), Eastern Plaguelands
+- [Northpass Tower](Northpass Tower), Eastern Plaguelands
+- [Eastwall Tower](Eastwall Tower), Eastern Plaguelands
+- [Crown Guard Tower](Crown Guard Tower), Eastern Plaguelands
 
 ### Adjacent regions
 {| class="fandom-table"
@@ -128,8 +128,8 @@ WorldMap-EasternPlaguelands-old1.jpg|The Eastern Plaguelands prior to [patch 1.1
 ## Patch changes
 - (Patch 1.17.1|note=Zone expanded; [Forlorn Summit](Forlorn Summit) added. Pathway into the [Thalassian Highlands](Thalassian Highlands) added.)
 - (Patch 1.16.0|note=Path to the [Scarlet Enclave](Scarlet Enclave) added.)
--  **Patch 1.6.0 (2005-07-12):**
-  -The Eastern Plaguelands have been converted over to the new graveyard system. The system will place your character's spirit at the closest allowed graveyard in the zone.
-  -A neutral graveyard has been added in the Eastern Plaguelands near the northwestern shore of Blackwood Lake. Characters that die in The Fungal Vale will continue to use the Darrowshire  graveyard due to the mountains between it and the new graveyard. Additionally, characters dying in Stratholme will now use the new Blackwood Lake graveyard.
--  **Patch 1.4.0 (2005-04-19):** Players can no longer kill creatures with ranged attacks while the mobs are unable to damage the player when standing atop the cauldrons in Eastern Plaguelands.
--  **Patch 1.1.0 (2004-11-07):** Eastern and Western Plaguelands have dozens of new quests.
+- **Patch 1.6.0 (2005-07-12):**
+  - The Eastern Plaguelands have been converted over to the new graveyard system. The system will place your character's spirit at the closest allowed graveyard in the zone.
+  - A neutral graveyard has been added in the Eastern Plaguelands near the northwestern shore of Blackwood Lake. Characters that die in The Fungal Vale will continue to use the Darrowshire  graveyard due to the mountains between it and the new graveyard. Additionally, characters dying in Stratholme will now use the new Blackwood Lake graveyard.
+- **Patch 1.4.0 (2005-04-19):** Players can no longer kill creatures with ranged attacks while the mobs are unable to damage the player when standing atop the cauldrons in Eastern Plaguelands.
+- **Patch 1.1.0 (2004-11-07):** Eastern and Western Plaguelands have dozens of new quests.

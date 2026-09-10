@@ -19,6 +19,6 @@ categories: ["Eastern Kingdoms", "Raids"]
 
 *This article is about the planned raid instance. For the lore of the city, see [Silvermoon City](Silvermoon City).*
 
-  -Ruins of Silvermoon** was a planned raid for Turtle WoW: Mysteries of Azeroth.
+**Ruins of Silvermoon** was a planned raid for Turtle WoW: Mysteries of Azeroth.
 
 They are the remains of the ancient and glorious capital of the High Elves, [Silvermoon City](Silvermoon City). After being overrun by the Scourge during the Third War, only the Ruins remain in the wastelands of what was once Eversong Woods, now known as [Eversong Wastes](Eversong Wastes).

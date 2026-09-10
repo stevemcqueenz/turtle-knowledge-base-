@@ -10,6 +10,6 @@ categories: ["Arathi Highlands subzones", "Forest Trolls", "Pages with broken fi
 ---
 # Witherbark Village
 
--Witherbark Village** is a town around a small lake in southwest [Arathi Highlands](Arathi Highlands) of [Troll](Troll)s belonging to the [Witherbark](Witherbark) Tribe. Within the village you can also find a large cave.
+**Witherbark Village** is a town around a small lake in southwest [Arathi Highlands](Arathi Highlands) of [Troll](Troll)s belonging to the [Witherbark](Witherbark) Tribe. Within the village you can also find a large cave.
 
 The Witherbark Trolls have made a loose alliance with the nearby [Boulderfist](Boulderfist) [Ogre](Ogre)s against the forces of [Stromgarde](Stromgarde). The Ogre and Troll forces have even secured and are currently in control of a sect of Stromgarde City itself.

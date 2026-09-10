@@ -23,15 +23,15 @@ categories: ["Barrens subzones", "Camps", "Orc territories", "Pages with broken 
 | loc | Northernn Barrens |
 | status | Active |
 
--Mor'shan Base Camp**, one of the more sizable [Horde](Horde) settlements in the [Northern Barrens](Northern Barrens), is located just south of the [Ashenvale](Ashenvale)-Barrens border, near the [Mor'shan Rampart](Mor'shan Rampart). It is the base of the [Warsong Outriders](Warsong Outriders) and also the location of the Horde entrance to the [Warsong Gulch](Warsong Gulch) battleground.
+**Mor'shan Base Camp**, one of the more sizable [Horde](Horde) settlements in the [Northern Barrens](Northern Barrens), is located just south of the [Ashenvale](Ashenvale)-Barrens border, near the [Mor'shan Rampart](Mor'shan Rampart). It is the base of the [Warsong Outriders](Warsong Outriders) and also the location of the Horde entrance to the [Warsong Gulch](Warsong Gulch) battleground.
 
 ## NPCs
 ### Quest givers
--[Captain Shatterskull](Captain Shatterskull)
+- [Captain Shatterskull](Captain Shatterskull)
 
 ### Merchants
--[Kelm Hargunth](Kelm Hargunth)
--[Hecht Copperpinch](Hecht Copperpinch)
+- [Kelm Hargunth](Kelm Hargunth)
+- [Hecht Copperpinch](Hecht Copperpinch)
 
 ## See also
--[Silverwing Grove](Silverwing Grove)
+- [Silverwing Grove](Silverwing Grove)

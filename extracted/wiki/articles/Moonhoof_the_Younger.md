@@ -25,7 +25,7 @@ categories: ["Moonwhisper Coast NPCs", "Quest givers", "Tauren characters", "Tur
 | status | Alive |
 | relatives | Elder Moonhoof (father) |
 
--Moonhoof the Younger** is a [tauren](tauren) quest giver located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Moonhoof the Younger** is a [tauren](tauren) quest giver located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: Mindless Monster] 
@@ -38,7 +38,7 @@ categories: ["Moonwhisper Coast NPCs", "Quest givers", "Tauren characters", "Tur
 - [quest: Moonhoof Rests] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The tribe is in great peril, and yet my father turns a blind eye to it. He has grown stubborn, obsessed even. He sees nothing but An'she. He looks nowhere but to the sky, whether by day when its light burns or by night when it shines through Mu'sha. He is so fixed in his belief that he will not listen to reason. The people, our people, those who left the village, did so out of fear and neglect.
 
 It pains me to speak ill of my own parent. Earthmother hold me, I can no longer stand by and simply watch. I will not shed the blood of my kin over a dispute of absent idols.

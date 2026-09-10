@@ -29,7 +29,7 @@ categories: ["Aristocrats", "Death knight characters", "Human characters", "Lord
 *"Nothing shall prevent me from having my revenge, [old friend](Muradin Bronzebeard). Not even you. Now, I call out to the spirits of this place. I will give anything, or pay any price, if only you will help me save my people."*
    — Arthas, just prior to claiming [Frostmourne](Frostmourne)
 
-  -Arthas Menethil**, Crown Prince of [Lordaeron](Lordaeron (kingdom)) and [Knight of the Silver Hand](Knights of the Silver Hand), was the son of King [Terenas Menethil II](Terenas Menethil II) and heir to the throne. He was trained as a paladin by [Uther the Lightbringer](Uther the Lightbringer) and was inducted into the Order of the Silver Hand. Arthas also had a romantic relationship with the kind sorceress [Jaina Proudmoore](Jaina Proudmoore). Committed to the protection of his people, Arthas was determined to stop the plague spreading throughout Lordaeron.
+**Arthas Menethil**, Crown Prince of [Lordaeron](Lordaeron (kingdom)) and [Knight of the Silver Hand](Knights of the Silver Hand), was the son of King [Terenas Menethil II](Terenas Menethil II) and heir to the throne. He was trained as a paladin by [Uther the Lightbringer](Uther the Lightbringer) and was inducted into the Order of the Silver Hand. Arthas also had a romantic relationship with the kind sorceress [Jaina Proudmoore](Jaina Proudmoore). Committed to the protection of his people, Arthas was determined to stop the plague spreading throughout Lordaeron.
 
 Despite his promising beginnings, Arthas became one of the most powerful and evil beings Azeroth would ever know. Although he killed the necromancer [Kel'Thuzad](Kel'Thuzad), Arthas was unable to stop the spread of the plague and resorted to increasingly desperate methods, such as purging the city of [Stratholme](Stratholme). Taking up the cursed runeblade [Frostmourne](Frostmourne), Arthas was able to defeat the demon [Mal'Ganis](Mal'Ganis), but he lost his soul in the process. Becoming a death knight of the Scourge, he led the undead in destroying [Lordaeron](Lordaeron (kingdom)), [Quel'Thalas](Quel'Thalas (kingdom)), and [Dalaran](Dalaran (kingdom)). Arthas later made his way to the Frozen Throne of Icecrown and merged with the Lich King.
 
@@ -125,7 +125,7 @@ In order to enter [Icecrown Citadel](Icecrown Citadel) and take the [Frozen Thro
 #### The Lich King triumphant
 Arthas entered the hollow glacier and beheld a winding pinnacle chained to the ice. As he strode up the stairs towards his destiny, voices from the memories of the past flood his mind as he ascended. Finally, he reached the pinnacle and before him he saw an icy cask. Inside was a suit of armor, arranged as if seated on a massive throne. Now only one voice spoke to him - the rasping whisper of [Ner'zhul](Ner'zhul): 
 
--"Return the blade... complete the circle... release me from this prison!"*
+*"Return the blade... complete the circle... release me from this prison!"*
 
 With a great cry of strength, Arthas brought [Frostmourne](Frostmourne) to bear against the [Lich King](Lich King)'s icy prison and with a haunting scream, the ice that encased the Frozen Throne and the armor exploded, and shards of the ice scattered on the ground. With Ner'zhul's helm at his feet, Arthas leaned forward, picked it up, and placed the unimaginably powerful artifact on his head. 
 

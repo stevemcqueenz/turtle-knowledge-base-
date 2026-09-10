@@ -26,7 +26,7 @@ categories: ["Farstriders", "High elf characters", "Quest givers", "Stormwind Ci
 | status | Alive |
 | location | Petitioner's Chamber, Stormwind Keep, Stormwind City |
 
--Caledra Dawnbreeze** is a former Ranger-Captain of the [Farstriders](Farstriders) who fought throughout the [Second War](Second War). After the fall of [Quel'Thalas](Quel'Thalas) she became a citizen of [Stormwind City](Stormwind City) and resides in the [Petitioner's Chamber](Petitioner's Chamber) in [Stormwind Keep](Stormwind Keep). In an attempt to find a way to restore her people, she managed to gather high elven representatives from outlying settlements for a meeting that leads to the re-discovery of Alah'Thalas and rallying Silvermoon Remnants around its banner.
+**Caledra Dawnbreeze** is a former Ranger-Captain of the [Farstriders](Farstriders) who fought throughout the [Second War](Second War). After the fall of [Quel'Thalas](Quel'Thalas) she became a citizen of [Stormwind City](Stormwind City) and resides in the [Petitioner's Chamber](Petitioner's Chamber) in [Stormwind Keep](Stormwind Keep). In an attempt to find a way to restore her people, she managed to gather high elven representatives from outlying settlements for a meeting that leads to the re-discovery of Alah'Thalas and rallying Silvermoon Remnants around its banner.
 
 ## Quests
   **The subject of this section was removed from the game in [patch 1.17.1](patch 1.17.1).**

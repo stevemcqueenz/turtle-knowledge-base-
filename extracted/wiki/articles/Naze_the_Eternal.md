@@ -19,7 +19,7 @@ categories: ["Liches", "Scourge"]
 | affiliation | Scourge |
 | status | Unknown |
 
--Naze the Eternal** was a lich that served the [Scourge](Scourge) during the [Third War](Third War). Leading a Scourge warband, Naze breached the [Greymane Wall](Greymane Wall), entering [Gilneas](Gilneas (kingdom)) through what is now known as [Oldrock Pass](Oldrock Pass) in an attempt to destroy the walled nation. However, despite having destroyed the village of [Greyshire](Ruins of Greyshire) in the attack, the Royal Army soundly defeated the Scourge warhost, decisively pushing them out of Gilneas. All that remains of the Scourge are lingering undead remnants in the ruins of Greyshire and the [Westgate Tower](Westgate Tower).
+**Naze the Eternal** was a lich that served the [Scourge](Scourge) during the [Third War](Third War). Leading a Scourge warband, Naze breached the [Greymane Wall](Greymane Wall), entering [Gilneas](Gilneas (kingdom)) through what is now known as [Oldrock Pass](Oldrock Pass) in an attempt to destroy the walled nation. However, despite having destroyed the village of [Greyshire](Ruins of Greyshire) in the attack, the Royal Army soundly defeated the Scourge warhost, decisively pushing them out of Gilneas. All that remains of the Scourge are lingering undead remnants in the ruins of Greyshire and the [Westgate Tower](Westgate Tower).
 
 Naze the Eternal's status following the Scourge's defeat in Gilneas is unknown.
 

@@ -15,7 +15,7 @@ DoEmote("token", "message");
 Executes an emote.
 ----
 
-  - *Arguments***
+** *Arguments***
 
    ("token", "message")
   ; token
@@ -25,13 +25,13 @@ Executes an emote.
 
 ----
 
-  - *Returns***
+** *Returns***
 
    Nothing.
 
 ----
 
-  - *Details***
+** *Details***
 
    Executes one of the emotes based on the given token, including vocal emotes.  The list of currently valid emotes is given in ChatFrame.lua, defined as one of the EMOTE*x*_TOKEN constants.  *x* starts at 1 and currently goes up to 170 (as of 1.3.0).  Certain emotes may also trigger character animations and sound effects.
 

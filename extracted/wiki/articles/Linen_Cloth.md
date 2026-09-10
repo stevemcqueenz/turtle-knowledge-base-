@@ -10,6 +10,6 @@ categories: ["Cloth items"]
 ---
 # Linen Cloth
 
--Linen Cloth** is a cheap, rough [cloth](cloth) used in the creation of homespun clothes and other sundry items.
+**Linen Cloth** is a cheap, rough [cloth](cloth) used in the creation of homespun clothes and other sundry items.
 
 ## External links

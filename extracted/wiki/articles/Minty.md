@@ -24,10 +24,10 @@ categories: ["Gnome characters", "Northwind NPCs", "Turtle WoW content"]
 | location | Ambershire, Northwind |
 | status | Alive |
 
--Minty** is a [gnome](gnome) located in [Ambershire](Ambershire) in [Northwind](Northwind), hiding from [Brick](Brick) in a pile of leaves.
+**Minty** is a [gnome](gnome) located in [Ambershire](Ambershire) in [Northwind](Northwind), hiding from [Brick](Brick) in a pile of leaves.
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Psst! Be quiet! I am hiding from Brick and you talking to a pile of leaves isn't exactly helping me stay undetected. Now shoo, before his walnut brain is connecting the dots!
 
 ## Patch changes

@@ -33,23 +33,23 @@ categories: ["Instance navigation templates"]
 [Cookie](Cookie)
 
 |
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
 ([lore](Edwin VanCleef))
 
--(lore)*
+*(lore)*
 |-
 | class="title" colspan="2"| [Loot](Deadmines loot)
 |}

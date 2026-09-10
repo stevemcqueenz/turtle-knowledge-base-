@@ -14,19 +14,19 @@ Dwarven, is the primary [language](Language) of the [Dwarves](Dwarves). Dwarves 
 ## Selected Dwarvish words
 Note: The language algorithm used by the in-game "translator" merely makes the words LOOK like Dwarvish. It does not actually use a specific dictionary. Therefore, translated in-game speech isn't true Dwarvish. 
 
--"Bael" = "Red"
--"Gar" = "Giant"
--"Khadgar" = "Trust"
--"Loch" = "Lake"
--"Lorn" = "Land"
--"Magnus" = "Protector", m.
--"Magna" = "Protector", f.
--"Modan" = "Mountain"
+- "Bael" = "Red"
+- "Gar" = "Giant"
+- "Khadgar" = "Trust"
+- "Loch" = "Lake"
+- "Lorn" = "Land"
+- "Magnus" = "Protector", m.
+- "Magna" = "Protector", f.
+- "Modan" = "Mountain"
 
 ## Phrases, Names
--[Bael'Gar](Bael'Gar) = "Red Giant"
--[Bael Modan](Bael Modan) = "the Red Mountain"
--[Loch Modan](Loch Modan) = "Mountain Lake"
--[Khaz Modan](Khaz Modan) = "Mountain of Khaz", named after the [titan](titan), [Khaz'goroth](Khaz'goroth).
+- [Bael'Gar](Bael'Gar) = "Red Giant"
+- [Bael Modan](Bael Modan) = "the Red Mountain"
+- [Loch Modan](Loch Modan) = "Mountain Lake"
+- [Khaz Modan](Khaz Modan) = "Mountain of Khaz", named after the [titan](titan), [Khaz'goroth](Khaz'goroth).
 
 Dwarvish appears to borrow heavily from Old English, the Germanic tongue of the Anglo-Saxons.

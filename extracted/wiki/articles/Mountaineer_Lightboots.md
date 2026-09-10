@@ -24,7 +24,7 @@ categories: ["Grim Reaches NPCs", "Quest givers", "Turtle WoW content", "Wildham
 | location | Baggoth's Wall, Grim Reaches |
 | status | Alive |
 
--Mountaineer Lightboots** is a [Wildhammer dwarf](Wildhammer dwarf) quest giver located at [Baggoth's Wall](Baggoth's Wall) in the [Grim Reaches](Grim Reaches).
+**Mountaineer Lightboots** is a [Wildhammer dwarf](Wildhammer dwarf) quest giver located at [Baggoth's Wall](Baggoth's Wall) in the [Grim Reaches](Grim Reaches).
 
 ## Quests
 - [quest: Repairing Baggoth's Wall] 
@@ -32,7 +32,7 @@ categories: ["Grim Reaches NPCs", "Quest givers", "Turtle WoW content", "Wildham
 - [quest: Brangar's Folly] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 What brings you to Grim Reaches? If it is sight seeing then I got some bad news. The only thing you are going to see is the presence of Dragonmaw orcs that lurk throughout the countryside.
 
 ## Patch changes

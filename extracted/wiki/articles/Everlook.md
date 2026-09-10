@@ -22,7 +22,7 @@ categories: ["Articles using deprecated loot", "Everlook", "Goblin territories",
 | affiliation | Steamwheedle Cartel, Thorium Brotherhood |
 | source | Lands of Mystery, 23-26 |
 
--Everlook** is a trading post run by the [goblin](goblin)s of the [Steamwheedle Cartel](Steamwheedle Cartel). It lies at the crossroads of [Winterspring](Winterspring)'s main trade routes.
+**Everlook** is a trading post run by the [goblin](goblin)s of the [Steamwheedle Cartel](Steamwheedle Cartel). It lies at the crossroads of [Winterspring](Winterspring)'s main trade routes.
 
 This town is the last point of civilization before reaching [Hyjal Summit](Hyjal Summit). It is run by goblins as a trading post and is officially neutral to all races and factions. Even so, pilgrims allowed to venture up to the World Tree stop here, but otherwise this is the highest that merchants and explorers may venture without the night elves’ permission. Everlook would offer a commanding view of Kalimdor, if it were not at such a high altitude that clouds constantly shroud the mountain’s lower flanks.
 
@@ -30,55 +30,20 @@ Everlook is the only major goblin outpost in northern Kalimdor, and it serves se
 
 ## Travel Connections
 ### Flight
-  - [Talonbranch Glade](Talonbranch Glade)**
-  - [Talrendis Point](Talrendis Point)**
-  - [Orgrimmar](Orgrimmar)**
-  - [Bloodvenom Post](Bloodvenom Post)**
-  - [Valormok](Valormok)**
-  - [Moonglade](Moonglade)**
-  - [Moro'gai Village](Moro'gai Village), [Moonwhisper Coast](Moonwhisper Coast)**
+** [Talonbranch Glade](Talonbranch Glade)**
+** [Talrendis Point](Talrendis Point)**
+** [Orgrimmar](Orgrimmar)**
+** [Bloodvenom Post](Bloodvenom Post)**
+** [Valormok](Valormok)**
+** [Moonglade](Moonglade)**
+** [Moro'gai Village](Moro'gai Village), [Moonwhisper Coast](Moonwhisper Coast)**
 
 ## Everlook NPCs
-  -Merchants**
--
--
--
--
--
--
--
--
--
--
-
-  -Other Characters**
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
--
-- (stationed southwest of [Frostfire Hot Springs](Frostfire Hot Springs).)
--
-
-  -Guards**
--
-
-## Gaining Favor
+**Merchants**
+- - - - - - - - - - ;Other Characters
+- - - - - - - - - - - - - - - - - - - - - (stationed southwest of [Frostfire Hot Springs](Frostfire Hot Springs).)
+- ;Guards
+- ## Gaining Favor
 Killing the [Bloodsail Buccaneers](Bloodsail Buccaneers) and [Venture Co.](Venture Co.) in Stranglethorn will increase your [Reputation](Reputation) with the [:Steamwheedle Cartel](:Steamwheedle Cartel).  Having a [Friendly](Friendly) or higher Reputation will make the Guards help you in case of initiated violence against you.
 
 {| class="darktable" style="text-align: center;"
@@ -141,8 +106,8 @@ Killing the [Bloodsail Buccaneers](Bloodsail Buccaneers) and [Venture Co.](Ventu
 See [Mobs which affect reputation with Steamwheedle Cartel](Mobs_which_affect_reputation_with_Steamwheedle_Cartel).
 
 ## Notes
--Everlook is quite similar to [Gadgetzan](Gadgetzan) in its architecture, and there are both [Horde](Horde) and [Alliance](Alliance) [flight path](flight path)s, located outside the city gates. There is also a representative of the [Gadgetzan](Gadgetzan) [auction house](auction house).
--Everlooks stable master is located outside its walls, instead of the usual front of the inn option.
--A lot of high-level [Engineering](Engineering) schematics can be bought in Everlook. Goblin engineers can learn a schematic for free in Everlook that allows them to create a [trinket](trinket) for teleporting to Everlook.
--Many visitors notice the penguin wallpaper in some of the buildings.
--Also, while it may be unlikely, Everlook could be a referance to the Overlook from Stephen King's book The Shining, because both have similar sounding names, and because of the snowy weather.
+- Everlook is quite similar to [Gadgetzan](Gadgetzan) in its architecture, and there are both [Horde](Horde) and [Alliance](Alliance) [flight path](flight path)s, located outside the city gates. There is also a representative of the [Gadgetzan](Gadgetzan) [auction house](auction house).
+- Everlooks stable master is located outside its walls, instead of the usual front of the inn option.
+- A lot of high-level [Engineering](Engineering) schematics can be bought in Everlook. Goblin engineers can learn a schematic for free in Everlook that allows them to create a [trinket](trinket) for teleporting to Everlook.
+- Many visitors notice the penguin wallpaper in some of the buildings.
+- Also, while it may be unlikely, Everlook could be a referance to the Overlook from Stephen King's book The Shining, because both have similar sounding names, and because of the snowy weather.

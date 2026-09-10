@@ -49,7 +49,7 @@ If your are upgrading the mod from a previous version, make sure to delete the o
 
 ## Preview
 ## Supported Events
-  -Incoming:**
+**Incoming:**
 
 - Melee Damage
 - Melee Misses, Dodges, Parries, Blocks, Absorbs, and Immunes
@@ -61,7 +61,7 @@ If your are upgrading the mod from a previous version, make sure to delete the o
 - Heals Over Time (HoTs)
 - Environmental Damage    
 
-  -Outgoing:**
+**Outgoing:**
 
 - Melee Damage
 - Melee Misses, Dodges, Parries, Blocks, Absorbs, and Evades
@@ -77,7 +77,7 @@ If your are upgrading the mod from a previous version, make sure to delete the o
 - Pet Ability/Spell Misses, Dodges, Parries, and Blocks, Absorbs, Immunes, Reflects, and Evades
 - Pet Spell Resists 
 
-  -Notification**:
+**Notification**:
 
 - De-buffs
 - Buffs
@@ -93,7 +93,7 @@ If your are upgrading the mod from a previous version, make sure to delete the o
 - Experience Gains
 - Killing Blows (Player and NPC)
 
-  -Default Triggers:**
+**Default Triggers:**
 
 - Low Health
 - Low Mana
@@ -107,11 +107,11 @@ If your are upgrading the mod from a previous version, make sure to delete the o
 - Nightfall
 - Overpower
 
-  -Default Suppression's:**
+**Default Suppression's:**
 
 - Blessing/Judgement of Wisdom (+30 Mana, +33 Mana, +59 Mana)
 
-  -Trigger System Documentation**
+**Trigger System Documentation**
 
 - The trigger system allows you to specify notifications based on events that are not already covered by
 - MSBT's native events.The trigger system has been optimized so that having extra triggers which are
@@ -125,13 +125,13 @@ If your are upgrading the mod from a previous version, make sure to delete the o
 - with captures you can enter %1 through %9 to use the data that was captured.Also, for trigger types
 - with thresholds, the amount of health or mana will be in %1.
 
-  -Applicable Trigger Classes:**
+**Applicable Trigger Classes:**
 
 - These are the classes that you want the trigger to apply to.NOTE: THIS IS YOUR CLASS NOT THE TARGET CLASS.
 - You may look at the Execute trigger for an example.Since Warrior and Paladin are selected, the trigger
 - will only apply when you are playing on a warrior or paladin.
 
-  -Trigger Type:**
+**Trigger Type:**
 
 - This is the type of trigger.
 - Self Health - This will trigger when your health falls below the selected threshold.
@@ -141,12 +141,12 @@ If your are upgrading the mod from a previous version, make sure to delete the o
 - Friendly Target Health - This will trigger when your target is friendly and their health falls below the selected threshold.
 - Search Pattern - This will trigger when the search pattern you enter is found.
 
-  -Threshold:**
+**Threshold:**
 
 - This slider will only be present if the selected trigger type is one of the types that support it.
 - It specifies the threshold percentage that must be crossed for the trigger to fire.
 
-  -Trigger Event Types:**
+**Trigger Event Types:**
 
 - This list will only be present if the selected trigger type is Search Pattern.
 - This exists solely for optimization and is probably the most difficult field to enter.While not having this
@@ -156,14 +156,14 @@ If your are upgrading the mod from a previous version, make sure to delete the o
 - Only combat messages that match the search string will display their associated event type.Once you are done you
 - can type /msbt search to toggle event searching mode back off.
 
-  -Search Pattern 1 & 2:**
+**Search Pattern 1 & 2:**
 
 - These fields will only be present if the selected trigger type is Search Pattern.
 - These fields can either contain a global string from globalstrings.lua (if you happen to know which one you want) or a
 - lua formatted search string.The mod also supports data captured from the pattern.The output message specified for
 - the trigger can use the captured data by putting %1 - %9 where the number is the position of the captured data.
 
-  -Suppression System Documentation**
+**Suppression System Documentation**
 
 - The suppression system allows you to suppress specific text that MSBT is displaying to the screen via lua search patterns.
 - The text next to enable checkbox is the search pattern that will be checked for matches against the output text.If a match is made,
@@ -171,13 +171,13 @@ If your are upgrading the mod from a previous version, make sure to delete the o
 
 See the FAQ4 section for a tutorial on how to create a new suppression.
 
-  -Here is the official lua reference for patterns:**
+**Here is the official lua reference for patterns:**
 
-  -Character Class:**
+**Character Class:**
 
 A character class is used to represent a set of characters. 
 
-  -The following combinations are allowed in describing a character class:**
+**The following combinations are allowed in describing a character class:**
 - x: (where x is not one of the magic characters ^$()%.[]*+-?) represents the character x itself.
 - .: (a dot) represents all characters.
 - %a: represents all letters.
@@ -200,7 +200,7 @@ A character class is used to represent a set of characters.
 - For all classes represented by single letters (%a, %c, etc.), the corresponding uppercase letter represents the complement of the class. For instance, %S represents all non-space characters.
 - The definitions of letter, space, and other character groups depend on the current locale. In particular, the class [a-z] may not be equivalent to %l.
 
-  -Pattern Item:**
+**Pattern Item:**
 
 A pattern item may be:
 
@@ -213,13 +213,13 @@ A pattern item may be:
 - %bxy, where x and y are two distinct characters; such item matches strings that start with x, end with y, and where the x and y are balanced. This means that, if one reads the string from left to right,
 - counting +1 for an x and -1 for a y, the ending y is the first y where the count reaches 0. For instance, the item %b() matches expressions with balanced parentheses.
 
-  -Pattern:**
+**Pattern:**
 
 A pattern is a sequence of pattern items. 
 - A '^' at the beginning of a pattern anchors the match at the beginning of the subject string. A '$' at the end of a pattern anchors the match at the end of the subject string.
 - At other positions, '^' and '$' have no special meaning and represent themselves.
 
-  -Captures**:
+**Captures**:
 
 - A pattern may contain sub-patterns enclosed in parentheses; they describe captures. When a match succeeds, the substrings of the subject string that match captures are stored (captured) for future use. Captures are numbered
 - according to their left parentheses. For instance, in the pattern "(a*(.)%w(%s*))", the part of the string matching "a*(.)%w(%s*)" is stored as the first capture (and therefore has number 1); the character matching "." is
@@ -227,18 +227,18 @@ A pattern is a sequence of pattern items.
 - As a special case, the empty capture () captures the current string position (a number). For instance, if we apply the pattern "()aa()" on the string "flaaap", there will be two captures: 3 and 5.
 - A pattern cannot contain embedded zeros. Use %z instead.
 
-  -MikSBT.DisplayMessage Function Documentation**
+**MikSBT.DisplayMessage Function Documentation**
 
-  -Syntax**
+**Syntax**
 
 - MikSBT.DisplayMessage(message [, displayType, isSticky, colorR, colorG, colorB, fontSize, fontIndex, outlineIndex])
 
-  -Parameters**
+**Parameters**
 
 - message (Required) The string to display.
 - displayType (Optional) Specifies the scroll area to display the message in. 
 
-  -Possible values:**
+**Possible values:**
 
 - MikSBT.DISPLAYTYPE_INCOMING
 - MikSBT.DISPLAYTYPE_OUTGOING
@@ -253,7 +253,7 @@ A pattern is a sequence of pattern items.
 - fontIndex (Optional) Index of the font to use. Valid indices can be found in MikSBT.AVAILABLE_FONTS in localization.lua. If omitted, the font index for the scroll area will be used.
 - outlineIndex (Optional) Index of the outline to use. Valid indices are listed in MikSBT.AVAILABLE_OUTLINES in localization.lua. If omitted, the outline index for the scroll area will be used.
 
-  -Examples**
+**Examples**
 
 - Displays "Test Message" in the notification scroll area in white. MikSBT.DisplayMessage("Test Message");
 - Displays "Another Message" in the incoming scroll area in white as a sticky. MikSBT.DisplayMessage("Another Message", MikSBT.DISPLAYTYPE_INCOMING, true);
@@ -263,27 +263,27 @@ A pattern is a sequence of pattern items.
 This retains only the information relevant to the DisplayMessage function in the vanilla_mikscrollingbattletext add-on.
 
 ## FAQ
-  -FAQ1** 
+**FAQ1** 
 
 Don't like any of the fonts supplied with MSBT.How do I use my own fonts?
 
-  -WARNING**: all font modification will require that you completely quit the game and restart it. reloading the console alone will not work.
+**WARNING**: all font modification will require that you completely quit the game and restart it. reloading the console alone will not work.
 
-  -NOTE**: Keep in mind that if you use your own font files that you need to make sure the font supports the characters that will be displayed.For example the typical way to display buff gains is [BuffName].If the font you use does not have a character glyph for the [ or ] characters you will likely see a big ugly block instead of the intended characters.This is especially important with non-English clients since a lot of characters aren't supported by English fonts.
+**NOTE**: Keep in mind that if you use your own font files that you need to make sure the font supports the characters that will be displayed.For example the typical way to display buff gains is [BuffName].If the font you use does not have a character glyph for the [ or ] characters you will likely see a big ugly block instead of the intended characters.This is especially important with non-English clients since a lot of characters aren't supported by English fonts.
 
-  -There are two ways to use custom fonts:**
+**There are two ways to use custom fonts:**
 
 - The first, and easiest, method is to simply replace one of the font files in the MikScrollingBattleText\Fonts directory with the truetype font (.ttf) that you want.The drawback to this approach is that the mod's option screen will still reference the font with the old font's name.
 - For example, if you had a truetype font file "MyUberFont.ttf" you wanted to use.Rename MyUberFont.ttf to Adventure.ttf and replace the Adventure.ttf font file in the MikScrollingBattleText\Fonts directory.In the MSBT options interface it would still be called "Adventure," but it would actually be using the new font.
 - The second method is to open the file localization.lua in the MikScrollingBattleText directory and find the MikSBT.AVAILABLE_FONTS entry.You can add your font with the appropriate name and path. If you don't know anything about programming, I wouldn't suggest trying this method.Another thing to keep in mind with this approach is that due to the way WoW loads its data, I would suggest you put in new fonts you want to add in the same place as the current fonts for the mod (MikScrollingBattleText\Fonts) to avoid problems with loading.
 
-  -FAQ2** 
+**FAQ2** 
 
-  -How do I create a new trigger?**
+**How do I create a new trigger?**
 
 - Let's go through creating a trigger for a warrior's overpower ability which already exists, but will be used for illustrative purposes. A warrior's overpower ability becomes available once the enemy they are fighting dodges.So, the first that needs to be done is to ascertain the appropriate event types. Since we want the trigger to fire when the enemy dodges we need to take a look at what the combat log says when an enemy dodges. The combat-log message says "You attack. Mob dodges."To find out what event type this is you can type /msbt search dodge. What this will do is make it so that every time an entry is added to the combat log with the word dodge in it, you will get a message with the event type in your normal chat frame.
 
-  -In this case you would probably see something like:**
+**In this case you would probably see something like:**
 
 - MSBT: CHAT_MSG_COMBAT_CREATURE_VS_SELF_MISSES - Mob attacks. You dodge. 
 - MSBT: CHAT_MSG_COMBAT_HOSTILEPLAYER_MISSES - Player attacks. You dodge. 
@@ -292,7 +292,7 @@ Don't like any of the fonts supplied with MSBT.How do I use my own fonts?
 
 So the correct event types to choose are CHAT_MSG_COMBAT_SELF_MISSES and CHAT_MSG_SPELL_SELF_DAMAGE. Type /msbt search to turn the event searching mode back off. Now that we know the correct event types we can create the trigger.
 
-  -Here are the steps to do so:**
+**Here are the steps to do so:**
 
 - Since a new trigger is being created, click the Add Trigger button.A new trigger will appear in the list of triggers.
 - Click the output message for the new trigger and enter Overpower!.
@@ -313,19 +313,19 @@ NOTE: The trigger that is already setup uses the global strings VSDODGESELFOTHER
 - The trigger is now set to fire any time a mob or player dodges one of your attacks (only if you are a warrior).
 - The color, font settings, and sticky state for the trigger can be set like any other event.
 
-  -FAQ3** 
+**FAQ3** 
 
 Some of the default triggers are not working for me while others are. What's up with that? Most likely, you are using a non-English client.Some of the search patterns for the triggers use Blizzard's global strings which are translated by Blizzard and hence will work on your client by default. Some other triggers have an English search pattern for when to fire the trigger. Simply edit the trigger settings for the trigger that is not working and change the search pattern to an appropriate one for your language.
 
-  -FAQ4**
+**FAQ4**
 
-  -How do I create a new suppression?**
+**How do I create a new suppression?**
 
 As an example, let's create a suppression for warrior stance switching.
 
 Unless you have changed the output message format for buff gains and fades, the warrior stance switch
 
-  -messages should be:**
+**messages should be:**
 
 - [Battle Stance] 
 - [Battle Stance] 
@@ -336,7 +336,7 @@ Unless you have changed the output message format for buff gains and fades, the 
 
 What we want to do is create a search pattern that will match those output messages.
 
-  -Here is a search pattern that will match all of them:**
+**Here is a search pattern that will match all of them:**
 
 - %[.+ Stance%]
 - Now that we have a search pattern that will match all of the stance switching messages, we can
@@ -376,7 +376,7 @@ What we want to do is create a search pattern that will match those output messa
 - Fixed a bug where messages added via the MikSBT.DisplayMessage function were being shown even if the scroll area was set to not show messages.
 - Disabled Blizzard's new floating text in Patch 1.12 when MSBT is enabled.
 
-  -Updated for Patch 1.12.**
+**Updated for Patch 1.12.**
 
 - Reduced memory usage a little by removing the underlying tables used to store crit information for events that can never be crits. (Down to around 477KB)
 - To go along with the above change, the font settings interface for events was reworked so that you can no longer set crit information for events that don't support them.
@@ -385,7 +385,7 @@ What we want to do is create a search pattern that will match those output messa
 - Added the capability for notifications to be displayed "sticky" style.
 - Fixed the bug induced by patch 1.11 where reputation gains and losses weren't being displayed. 
 
-  -MAJOR optimization code rewrite:**
+**MAJOR optimization code rewrite:**
 
 - Made options load on demand to significantly reduce memory usage and start up time.
 - Implemented a table recycling system to reuse tables created during combat instead
@@ -410,6 +410,6 @@ What we want to do is create a search pattern that will match those output messa
 - Fixed a bug where options set with a checkbox were not being properly saved on logout.
 - Fixed a bug where the global string parser wasn't appropriately accounting for the argument order of non-English clients.
 
-  -Updated for Patch 1.11.** 
+**Updated for Patch 1.11.** 
 
 - Initial version.

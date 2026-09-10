@@ -10,7 +10,7 @@ categories: ["Badlands subzones", "Excavation sites", "Trogg territories", "Turt
 ---
 # Redbrand's Digsite
 
--Redbrand's Digsite** is an excavation area located in the southern [Badlands](Badlands). It was established by members of the [Redbrand Estate](Redbrand Estate), a prestigious family of [dwarves](Dwarf) of [Ironforge](Ironforge), in order to look into the ancient heritage of the dwarves - and earn some money. However, it has been overrun by [trogg](trogg)s, and much of the family that was here was killed.
+**Redbrand's Digsite** is an excavation area located in the southern [Badlands](Badlands). It was established by members of the [Redbrand Estate](Redbrand Estate), a prestigious family of [dwarves](Dwarf) of [Ironforge](Ironforge), in order to look into the ancient heritage of the dwarves - and earn some money. However, it has been overrun by [trogg](trogg)s, and much of the family that was here was killed.
 
 ## Patch changes
 - (Patch 1.16.4|note=Added.)

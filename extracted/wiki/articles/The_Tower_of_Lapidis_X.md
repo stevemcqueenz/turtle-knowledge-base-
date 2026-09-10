@@ -46,7 +46,7 @@ What you have done here is truly heroic, truly worthy of legend. You have assure
 Please, as a token of our gratitude, and in Caelan's name, have a just reward.
 
 ## Notes
-  -Upon completion**
+**Upon completion**
   **Colonel Hardinus says:** It is done, the tyranny of Lapidis has come to an end! Admiral Caelan's soul is put to rest, cheers to <name> for their heroic actions!
 
 ## Progression

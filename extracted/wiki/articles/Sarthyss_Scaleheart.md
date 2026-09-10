@@ -25,7 +25,7 @@ categories: ["Blue dragonspawn", "Grim Reaches NPCs", "Quest givers", "Turtle Wo
 | location | The Grim Hollow, Grim Reaches |
 | status | Alive |
 
--Sarthyss Scaleheart** is a [blue dragonspawn](blue dragonspawn) [quest giver](quest giver) located in the [Grim Hollow](Grim Hollow) in the [Grim Reaches](Grim Reaches). He has made camp beneath the great oak deep in the woods to uncover the truth of what plagues the Grim Hollow. (ref: [quest: Tomb of Ancestors]) 
+**Sarthyss Scaleheart** is a [blue dragonspawn](blue dragonspawn) [quest giver](quest giver) located in the [Grim Hollow](Grim Hollow) in the [Grim Reaches](Grim Reaches). He has made camp beneath the great oak deep in the woods to uncover the truth of what plagues the Grim Hollow. (ref: [quest: Tomb of Ancestors]) 
 
 ## Quests
 - [quest: The Blue Dragonkin] 
@@ -38,7 +38,7 @@ categories: ["Blue dragonspawn", "Grim Reaches NPCs", "Quest givers", "Turtle Wo
 - [quest: Smell of Dragonfire] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 A mortal? Here, in Grim Hollow?
 
 ## Patch changes

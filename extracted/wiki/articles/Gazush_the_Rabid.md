@@ -23,7 +23,7 @@ categories: ["Blackrock clan", "Burning Steppes NPCs", "Turtle WoW content", "Wo
 | location | Karfang Hold, Burning Steppes |
 | status | Alive |
 
--Gazush the Rabid** is a [worg](worg) located in [Karfang Hold](Karfang Hold) in the [Burning Steppes](Burning Steppes).
+**Gazush the Rabid** is a [worg](worg) located in [Karfang Hold](Karfang Hold) in the [Burning Steppes](Burning Steppes).
 
 ## Patch changes
 - (Patch 1.16.1|note=Added.)

@@ -24,10 +24,10 @@ categories: ["Human characters", "Kul Tiran Exploratory Fleet", "Lapidis Isle NP
 | location | Caelan's Rest, Lapidis Isle |
 | status | Alive |
 
--Marine Logan** is a human guard patrolling in [Caelan's Rest](Caelan's Rest) on [Lapidis Isle](Lapidis Isle).
+**Marine Logan** is a human guard patrolling in [Caelan's Rest](Caelan's Rest) on [Lapidis Isle](Lapidis Isle).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The Sailors are overly arrogant and can be a rowdy bunch.
 
 They may be good on a ship, but left alone on Caelan's Rest, they are as much of a nuisance as the wildlife.

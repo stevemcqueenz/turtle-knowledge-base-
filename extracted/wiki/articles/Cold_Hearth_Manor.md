@@ -10,6 +10,6 @@ categories: ["Farms", "Forsaken territories", "Manors", "Pages with broken file 
 ---
 # Cold Hearth Manor
 
--Cold Hearth Manor** is a farmstead in central [Tirisfal Glades](Tirisfal Glades), formerly known for its warm atmosphere and bountiful crops. After the [Plague of Undeath](Plague of Undeath) claimed the lives of everyone who lived or worked here, the fields have grown barren and become infested with mindless [Scourge](Scourge) zombies. 
+**Cold Hearth Manor** is a farmstead in central [Tirisfal Glades](Tirisfal Glades), formerly known for its warm atmosphere and bountiful crops. After the [Plague of Undeath](Plague of Undeath) claimed the lives of everyone who lived or worked here, the fields have grown barren and become infested with mindless [Scourge](Scourge) zombies. 
 
 The [Forsaken](Forsaken) managed to claim the farmhouse for themselves, changing its name to commemorate its former atmosphere. They now offer trade opportunities to travelers passing on the main road nearby.

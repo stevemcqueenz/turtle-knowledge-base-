@@ -25,10 +25,10 @@ categories: ["Night elf characters", "Northwind NPCs", "Turtle WoW content"]
 | status | Alive |
 | relatives | Maener (twin brother) |
 
--Steria Owlgarden** is a [night elf](night elf) located at [Lion's Watch](Lion's Watch) in [Northwind](Northwind). Along with her brother Maener, she is a traveling companion with the dwarven priestess [Olga Forgewarmth](Olga Forgewarmth).
+**Steria Owlgarden** is a [night elf](night elf) located at [Lion's Watch](Lion's Watch) in [Northwind](Northwind). Along with her brother Maener, she is a traveling companion with the dwarven priestess [Olga Forgewarmth](Olga Forgewarmth).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Olga is simply the funniest person I have ever met—so unlike my dull twin brother. Meeting her on our travels has been a blessing from Elune. I feel as though I have made a lifelong friend.
 
 ## Patch changes

@@ -24,10 +24,10 @@ categories: ["Draenei characters", "Moonwhisper Coast NPCs", "Turtle WoW content
 | location | Moro'gai Village, Moonwhisper Coast |
 | status | Alive |
 
--Terem Kalan** is a [draenei](draenei) located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Terem Kalan** is a [draenei](draenei) located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Min'pha and I are playing Tahaam Tuura! Do you want to join us? It's my favourite game to play, you just take this small net and try to fish as many of the small fishies as you can! You have to be really patient and calm to win.
 
 ## Patch changes

@@ -10,7 +10,7 @@ categories: ["Quest items", "Readable items", "Turtle WoW content"]
 ---
 # Throkk's Command
 
--Throkk's Command** can be found in [Blackrock Coffer](Blackrock Coffer).
+**Throkk's Command** can be found in [Blackrock Coffer](Blackrock Coffer).
 
 ## As a quest objective
 - [quest: Covering All Possibilities]

@@ -24,13 +24,13 @@ categories: ["High elf characters", "Moonwhisper Coast NPCs", "Quest givers", "T
 | location | Sunsworn Camp, Moonwhisper Coast |
 | status | Alive |
 
--Tesania Shadewind** is a [high elf](high elf) quest giver located in [Sunsworn Camp](Sunsworn Camp) in [Moonwhisper Coast](Moonwhisper Coast).
+**Tesania Shadewind** is a [high elf](high elf) quest giver located in [Sunsworn Camp](Sunsworn Camp) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: Ghosts of Maras'ethil] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Ah... a friendly face in such unfriendly lands.
 
 <Tesania smiles, a shadow curling at the edges of her expression.>

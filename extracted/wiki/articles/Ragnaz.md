@@ -24,7 +24,7 @@ categories: ["Grim Reaches NPCs", "Orc characters", "Turtle WoW content", "Warri
 | gender | Male |
 | location | Shatterblade Post, Grim Reaches |
 
--Ragnaz** is an [orc](orc) [warrior trainer](warrior trainer) located in [Shatterblade Post](Shatterblade Post) in the [Grim Reaches](Grim Reaches).
+**Ragnaz** is an [orc](orc) [warrior trainer](warrior trainer) located in [Shatterblade Post](Shatterblade Post) in the [Grim Reaches](Grim Reaches).
 
 ## Quotes
 A strong orc can change the fate of any battle, the might of a powerful warrior can change history itself.

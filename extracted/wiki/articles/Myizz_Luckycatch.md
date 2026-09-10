@@ -25,10 +25,10 @@ categories: ["Booty Bay characters", "Fishers", "Fishing trainers", "Goblin char
 | location | Booty Bay, Stranglethorn Vale |
 | status | Alive |
 
--Myizz Luckycatch** is a [goblin](goblin) [fishing trainer](fishing trainer) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale).
+**Myizz Luckycatch** is a [goblin](goblin) [fishing trainer](fishing trainer) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I can teach you fishing skills.
 
 ## External links

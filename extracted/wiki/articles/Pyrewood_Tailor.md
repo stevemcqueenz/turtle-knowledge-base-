@@ -28,4 +28,4 @@ categories: ["Armor vendors", "Human characters", "Rogue characters", "Silverpin
 The **Pyrewood Tailor** is a [human](human) [cloth](cloth) [armor](armor) [vendor](vendor) found at the [Pyrewood Village](Pyrewood Village) of [Silverpine Forest](Silverpine Forest). At night, he transforms into his [worgen](worgen) form as **[Moonrage Tailor](Moonrage Tailor)**. He can be seen wandering from his house behind the [smithy](Blacksmith (building)) and out in the street in front of the smith and back.
 
 ## Notes
--He is affiliated with [Stormwind](Stormwind (faction)) during the daytime to make him unattackable by Alliance players.
+- He is affiliated with [Stormwind](Stormwind (faction)) during the daytime to make him unattackable by Alliance players.

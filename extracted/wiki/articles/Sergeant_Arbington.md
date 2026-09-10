@@ -26,7 +26,7 @@ categories: ["Gilneas NPCs", "Human characters", "Quest givers", "Turtle WoW con
 | location | Ravenshire, Gilneas |
 | status | Alive |
 
--Sergeant Arbington** is a [human](human) [quest giver](quest giver) located in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
+**Sergeant Arbington** is a [human](human) [quest giver](quest giver) located in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
 
 ## Quests
 - [quest: The Brigade is Coming Home] 
@@ -34,7 +34,7 @@ categories: ["Gilneas NPCs", "Human characters", "Quest givers", "Turtle WoW con
 - [quest: The Staff of Shinban] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The Gilnean Brigade has finally returned home. We are here to reclaim these lands in the name of Greymane.
 
 ## Patch changes

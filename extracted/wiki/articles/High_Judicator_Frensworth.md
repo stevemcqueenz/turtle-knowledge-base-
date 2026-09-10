@@ -25,10 +25,10 @@ categories: ["Human characters", "Scarlet Crusade", "Turtle WoW content", "Weste
 | location | Hearthglen, Western Plaguelands |
 | status | Killable |
 
--High Judicator Frensworth** is an elite [human](human) located in the mage tower in [Hearthglen](Hearthglen) in the [Western Plaguelands](Western Plaguelands). After the two broken halves of the Binding of Xanthar were stolen from the small church outside of [Karazhan](Karazhan), he claimed the lower binding for his own.
+**High Judicator Frensworth** is an elite [human](human) located in the mage tower in [Hearthglen](Hearthglen) in the [Western Plaguelands](Western Plaguelands). After the two broken halves of the Binding of Xanthar were stolen from the small church outside of [Karazhan](Karazhan), he claimed the lower binding for his own.
 
 ## Objective of
--Drops [The Lower Binding of Xanthar](The Lower Binding of Xanthar) for [quest: The Binding of Xanthar].
+- Drops [The Lower Binding of Xanthar](The Lower Binding of Xanthar) for [quest: The Binding of Xanthar].
 
 ## Patch changes
 - (Patch 1.17.0|note=Added.)

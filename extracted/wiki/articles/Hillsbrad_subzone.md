@@ -10,10 +10,7 @@ categories: ["Hillsbrad Foothills subzones", "Town halls"]
 ---
 # Hillsbrad (subzone)
 
--Hillsbrad** is the [town hall](town hall) found in western [Hillsbrad Foothills](Hillsbrad Foothills). The area is surrounded by the [Hillsbrad Fields](Hillsbrad Fields).
+**Hillsbrad** is the [town hall](town hall) found in western [Hillsbrad Foothills](Hillsbrad Foothills). The area is surrounded by the [Hillsbrad Fields](Hillsbrad Fields).
 
 ## Inhabitants
--
--
--
--
+- - - -

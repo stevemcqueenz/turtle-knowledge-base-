@@ -24,7 +24,7 @@ categories: ["Bosses", "Crocolisks", "Stormwrought Ruins mobs", "Turtle WoW cont
 | status | Killable |
 | instance | Stormwrought Ruins |
 
--Eldermaw the Primordial** is a boss in [Stormwrought Ruins](Stormwrought Ruins).
+**Eldermaw the Primordial** is a boss in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Abilities
 - Tail Slap

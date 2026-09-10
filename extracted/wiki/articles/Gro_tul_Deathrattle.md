@@ -24,7 +24,7 @@ categories: ["Balor mobs", "Orc characters", "Turtle WoW content", "Twilight's H
 | location | Windrock Cliffs, Balor |
 | status | Killable |
 
--Gro'tul Deathrattle** is an orc of the [Twilight's Hammer](Twilight's Hammer) who hides in a cave within the [Windrock Cliffs](Windrock Cliffs) of [Balor](Balor).
+**Gro'tul Deathrattle** is an orc of the [Twilight's Hammer](Twilight's Hammer) who hides in a cave within the [Windrock Cliffs](Windrock Cliffs) of [Balor](Balor).
 
 ## Objective of
 - [quest: Storm, Twilight and Hammer]

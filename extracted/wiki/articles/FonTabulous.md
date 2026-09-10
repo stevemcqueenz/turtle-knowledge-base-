@@ -13,7 +13,7 @@ categories: ["Addon"]
 FonTabulous allows you to customize and enhance the default fonts. Choose from a variety of stylish fonts, preview them in-game, and tailor font size to your preference.
 
 ## Installation
-  -Manual Installation only**
+**Manual Installation only**
 
 # Go to the main page of the repository.
 # Click the **<> Code** dropdown and download the repository as a <code>.zip</code>.
@@ -21,23 +21,23 @@ FonTabulous allows you to customize and enhance the default fonts. Choose from a
 # Move the !!FonTabulous folder inside it into your <code>Interface/AddOns</code> directory 
 # Restart the game.
 
-  -Note:** Designed primarily for English version. Some fonts may not display correctly on non-English clients.
+**Note:** Designed primarily for English version. Some fonts may not display correctly on non-English clients.
 
 ## Git Links
 - [**(crazypoultry)**](https://github.com/crazypoultry/Wow1.12.1_Addons_Collection)
 
 ## Usage
-  -Main Command**
+**Main Command**
 
 - <code>/ftab</code> or <code>/fontabulous</code> Opens the font customization interface.
 
-  -In-Game Font Selection**
+**In-Game Font Selection**
 
 - Use the menu to browse and select fonts.
 - Preview your selection before applying.
 - Adjust font size with the **Scale** slider (percentage of the default size).
 
-  -Auto-Reload Option**
+**Auto-Reload Option**
 
 - Enable **AutoReload** in the options to automatically apply font changes upon selection.
 - If AutoReload is disabled, click **Reload UI** when prompted after changing fonts.

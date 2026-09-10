@@ -24,10 +24,10 @@ categories: ["Feralas NPCs", "Tauren characters", "Turtle WoW content"]
 | location | Chimaera Roost Vale, Feralas |
 | mentors | Velos Sharpstrike |
 
--Lataro Swifthoof** is a [tauren](tauren) located at the [Chimaera Roost Vale](Chimaera Roost Vale) in [Feralas](Feralas). He has come to the roost in order to learn of chimaera taming from [Velos Sharpstrike](Velos Sharpstrike), who is seeking to restore the long-forgotten roost.
+**Lataro Swifthoof** is a [tauren](tauren) located at the [Chimaera Roost Vale](Chimaera Roost Vale) in [Feralas](Feralas). He has come to the roost in order to learn of chimaera taming from [Velos Sharpstrike](Velos Sharpstrike), who is seeking to restore the long-forgotten roost.
 
 ## Quotes
-  -Gossip**
+**Gossip**
 It is exciting to train under the guidance of such an experienced mentor. While he may harsh at times, it is only because he knows that the lessons he teaches are vital. Chimaeras are vicious creatures, and one mistake can be the difference between life and death.
 
 ## Patch changes

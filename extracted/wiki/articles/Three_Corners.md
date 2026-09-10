@@ -10,4 +10,4 @@ categories: ["Human territories", "Redridge Mountains subzones"]
 ---
 # Three Corners
 
--Three Corners** is a crossroads just inside [Redridge Mountains](Redridge Mountains) that is patrolled by a lone [Stormwind](Stormwind) guard, [Guard Parker](Guard Parker). The crossroads splits three ways and leads to the "Three Shires". It runs west into [Elwynn Forest](Elwynn Forest) to [Goldshire](Goldshire), east to [Lakeshire](Lakeshire), and south into [Duskwood](Duskwood) to [Darkshire](Darkshire).
+**Three Corners** is a crossroads just inside [Redridge Mountains](Redridge Mountains) that is patrolled by a lone [Stormwind](Stormwind) guard, [Guard Parker](Guard Parker). The crossroads splits three ways and leads to the "Three Shires". It runs west into [Elwynn Forest](Elwynn Forest) to [Goldshire](Goldshire), east to [Lakeshire](Lakeshire), and south into [Duskwood](Duskwood) to [Darkshire](Darkshire).

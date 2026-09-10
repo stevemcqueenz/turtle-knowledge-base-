@@ -10,12 +10,10 @@ categories: ["Caves", "Gillijim's Isle subzones", "Turtle WoW content"]
 ---
 # Deepneck Cove
 
--Deepneck Cove** is a cavern system located on [Gillijim's Isle](Gillijim's Isle), along the [Gillijim Strand](Gillijim Strand). It runs beneath the [Maul'ogg Refuge](Maul'ogg Refuge) and is inhabited with basilisks.
+**Deepneck Cove** is a cavern system located on [Gillijim's Isle](Gillijim's Isle), along the [Gillijim Strand](Gillijim Strand). It runs beneath the [Maul'ogg Refuge](Maul'ogg Refuge) and is inhabited with basilisks.
 
 ## NPCs
-- 
-- 
--  (rare)
+- - - (rare)
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

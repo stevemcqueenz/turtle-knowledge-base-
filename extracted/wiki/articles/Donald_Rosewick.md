@@ -25,7 +25,7 @@ categories: ["Gilneas NPCs", "Human characters", "Quest givers", "Turtle WoW con
 | status | Alive |
 | relatives | Frell (wife) |
 
--Donald Rosewick** is a [human](human) quest giver located at the crossroads before [Northgate Tower](Northgate Tower) in [Gilneas](Gilneas).
+**Donald Rosewick** is a [human](human) quest giver located at the crossroads before [Northgate Tower](Northgate Tower) in [Gilneas](Gilneas).
 
 ## Quests
 - [quest: Wagon Woes] 

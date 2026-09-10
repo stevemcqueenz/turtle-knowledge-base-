@@ -10,4 +10,4 @@ categories: ["Elite areas", "Pages with broken file links", "Silithus subzones",
 ---
 # Hive'Ashi
 
--Hive'Ashi** was a [silithid](silithid) hive located in northern [Silithus](Silithus).
+**Hive'Ashi** was a [silithid](silithid) hive located in northern [Silithus](Silithus).

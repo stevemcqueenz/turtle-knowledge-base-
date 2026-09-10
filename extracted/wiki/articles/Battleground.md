@@ -10,7 +10,7 @@ categories: ["Stubs"]
 ---
 # Battleground
 
--Battlegrounds** are [instance](instance)d areas used for [player versus player](player versus player) combat (PvP). In them players can participate in team PvP, struggling for victory in one of a number of battlegrounds against a similarly capable team of players from the opposite [faction](faction). 
+**Battlegrounds** are [instance](instance)d areas used for [player versus player](player versus player) combat (PvP). In them players can participate in team PvP, struggling for victory in one of a number of battlegrounds against a similarly capable team of players from the opposite [faction](faction). 
 
 The two initial battleground areas, [Alterac Valley](Alterac Valley) and [Warsong Gulch](Warsong Gulch), went live June 7th, 2005. [Arathi Basin](Arathi Basin) was added to the list in [patch 1.7](patch 1.7) on September 13th, 2005.
 

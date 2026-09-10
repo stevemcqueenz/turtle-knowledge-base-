@@ -10,4 +10,4 @@ categories: ["Hinterlands subzones", "Pages with broken file links", "Ruins", "S
 ---
 # Shaol'watha
 
--Shaol'watha** is a [Vilebranch](Vilebranch) [forest troll](forest troll) ruin in the [Hinterlands](Hinterlands).
+**Shaol'watha** is a [Vilebranch](Vilebranch) [forest troll](forest troll) ruin in the [Hinterlands](Hinterlands).

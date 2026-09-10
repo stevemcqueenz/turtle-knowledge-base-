@@ -25,13 +25,13 @@ categories: ["Centaur characters", "Gillijim's Isle NPCs", "Quest givers", "Turt
 | location | Kalkor Point, Gillijim's Isle |
 | status | Alive |
 
--Achaikos** is a [centaur](centaur) [quest giver](quest giver) located in [Kalkor Point](Kalkor Point) in [Gillijim's Isle](Gillijim's Isle).
+**Achaikos** is a [centaur](centaur) [quest giver](quest giver) located in [Kalkor Point](Kalkor Point) in [Gillijim's Isle](Gillijim's Isle).
 
 ## Quests
 - [quest: Lykourgos] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Welcome to Kalkor Point. I assume you have many questions about why there are Centaur here in Gilijim.
 
 A long time ago, practically six years now, we set sail from Kalimdor and joined up with the Southsea Pirates. We were hired as mercenaries and fighters, but our leader betrayed us, and kept the gold for himself.

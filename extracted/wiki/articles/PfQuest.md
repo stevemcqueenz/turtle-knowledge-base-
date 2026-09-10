@@ -13,7 +13,7 @@ categories: ["Addon"]
 pfQuest assist players in locating in-game objects and quest-related points of interest by parsing quest objectives and plotting them on both the world and minimaps using an extensive internal database.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **AtlasLoot** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -22,7 +22,7 @@ The easiest way to keep **AtlasLoot** up to date is by using [GitAddonsManager](
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 # Download **[pfQuest-turtle](https://github.com/shagu/pfQuest-turtle/archive/master.zip)**
@@ -34,7 +34,7 @@ If you prefer manual installation, follow these steps:
 # Move the <code>pfQuest</code> folder into <code>TWoW\Interface\AddOns</code>
 # Restart Wow
 
-  -Important**: Set "Script Memory" to "0" ([HowTo](https://i.imgur.com/rZXwaK0.jpg))
+**Important**: Set "Script Memory" to "0" ([HowTo](https://i.imgur.com/rZXwaK0.jpg))
 
 ## Git Links
 - [**(pfQuest)**](https://github.com/shagu/pfQuest) - This is required

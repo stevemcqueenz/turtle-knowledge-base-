@@ -24,7 +24,7 @@ categories: ["Balor mobs", "Human characters", "SI:7", "Turtle WoW content"]
 | location | Balor |
 | status | Killable |
 
--SI:7 Scouts** are humans found on the island of [Stormbreaker Point](Stormbreaker Point) in [Balor](Balor).
+**SI:7 Scouts** are humans found on the island of [Stormbreaker Point](Stormbreaker Point) in [Balor](Balor).
 
 ## Abilities
 - Stealth

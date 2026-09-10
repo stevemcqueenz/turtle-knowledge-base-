@@ -10,9 +10,9 @@ categories: ["Template documentation"]
 ---
 # Template:MIT/doc
 
--Description**
+**Description**
   This template is used to mark images using the MIT license.
-  -Syntax**
+**Syntax**
   Type <code></code> on the image information page.
 
 <includeonly></includeonly><noinclude></noinclude>

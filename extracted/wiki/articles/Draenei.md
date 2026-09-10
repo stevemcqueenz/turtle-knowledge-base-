@@ -30,14 +30,14 @@ While Ner'zhul was unwilling to take the last step and give themselves over enti
 The orcs became increasingly aggressive under the secret control of Gul'dan and his Shadow Council, and over the course of a few months, the Horde eradicated nearly every draenei living on Draenor. Only a scattered handful of survivors managed to evade the orcs' awesome wrath.<ref>[Rise of the Horde](https://wowpedia.fandom.com/wiki/Rise_of_the_Horde_(History_of_Warcraft)))
 
 ### Third War
-  -This section concerns content related to *[Warcraft III: Reign of Chaos](Warcraft III: Reign of Chaos)* or its expansion *[The Frozen Throne](Warcraft III: The Frozen Throne)*.**
+**This section concerns content related to *[Warcraft III: Reign of Chaos](Warcraft III: Reign of Chaos)* or its expansion *[The Frozen Throne](Warcraft III: The Frozen Throne)*.**
 
 Several groups of draenei managed to survive the destruction of Draenor. One of these tribes, led by Elder Sage [Akama](Akama), were hunted down to the brink of extinction by [the armies of Magtheridon](Magtheridon's Forces), the [Burning Legion](Burning Legion) overlord in Outland. [Illidan Stormrage](Illidan Stormrage) promised to rid the draenei of their ancient enemies in exchange for their loyalty.
 
 The [Tribe of Sanv](Tribe of Sanv), at the time led by [Sanv Tas'dal](Sanv Tas'dal), fled from Outland to Azeroth after their world was ravaged by the orcs. However, Sanv Tas'dal had remained behind on Draenor, ordering [Sanv K'la](Sanv K'la) and [Akh Z'ador](Akh Z'ador) to escape the dying world with their brethren. Along with [another tribe](Lost Ones), they fled to Azeroth and built settlements in the [Swamp of Sorrows](Swamp of Sorrows). (ref:  [52] [Learn Of My Past](Learn Of My Past))
 
 ### World of Warcraft
-  -This section concerns content related to the original *[World of Warcraft](World of Warcraft)*.**
+**This section concerns content related to the original *[World of Warcraft](World of Warcraft)*.**
 
 The draenei exiles of the Tribe of Sanv who had founded the [Harborage](Harborage) within the [Swamp of Sorrows](Swamp of Sorrows) were now in open conflict with the other tribe of the [Fallow Sanctuary](Fallow Sanctuary), which had now become known as the [Lost Ones](Lost Ones). Driven mad by the rigors of their journey to Azeroth, [Noboru](Noboru) and his gang had become a terror to the draenei of the Harborage, wandering the swamps and killing any who crossed their path.
 

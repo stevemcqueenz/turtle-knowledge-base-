@@ -24,14 +24,14 @@ categories: ["Draenei characters", "Moonwhisper Coast NPCs", "Quest givers", "Tu
 | location | Moonwhisper Coast |
 | status | Alive |
 
--Hara'ne** is a [draenei](draenei) quest giver located in [Moonwhisper Coast](Moonwhisper Coast).
+**Hara'ne** is a [draenei](draenei) quest giver located in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: Silken Song] 
 - [quest: More Silk for the Wounded]  (Repeatable)
 
 ## Quotes
-  -Gossip**
+**Gossip**
 This world is full of wonders and excitement. When I find one intriguing thing, another pops up around the corner!
 
 ## Patch changes

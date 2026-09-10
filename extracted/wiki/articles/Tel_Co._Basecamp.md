@@ -29,33 +29,15 @@ categories: ["Goblin territories", "Harbors", "Neutral quest hubs", "Neutral set
 | flightpath | Yes |
 | status | Active |
 
--Tel Co. Basecamp** is a goblin town located along the southwestern shores of [Tel'Abim](Tel'Abim).
+**Tel Co. Basecamp** is a goblin town located along the southwestern shores of [Tel'Abim](Tel'Abim).
 
 ## Travel connections
 ### Flight
-  - [Gadgetzan](Gadgetzan), [Tanaris](Tanaris)**
+** [Gadgetzan](Gadgetzan), [Tanaris](Tanaris)**
 
 ## Inhabitants
 ### Quest givers
-- 
-- 
-- 
-- 
-- 
-- 
-
-### Goods and services
-- 
-- 
-- 
-- 
-- 
-- 
-
-### Additional characters
-- 
-- 
-- 
-
-## Patch changes
+- - - - - - ### Goods and services
+- - - - - - ### Additional characters
+- - - ## Patch changes
 - (Patch 1.16.4|note=Added.)

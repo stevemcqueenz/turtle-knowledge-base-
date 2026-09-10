@@ -26,7 +26,7 @@ categories: ["Ammo vendors", "Blackrock clan", "Burning Steppes NPCs", "General 
 | location | Karfang Hold, Burning Steppes |
 | status | Alive |
 
--Golsh** is an orc general goods vendor located in [Karfang Hold](Karfang Hold) in the [Burning Steppes](Burning Steppes).
+**Golsh** is an orc general goods vendor located in [Karfang Hold](Karfang Hold) in the [Burning Steppes](Burning Steppes).
 
 ## Quotes
 ### Gossip

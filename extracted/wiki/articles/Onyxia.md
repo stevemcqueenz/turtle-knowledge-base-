@@ -24,6 +24,6 @@ Though Onyxia has been sighted traveling to and from [Blackrock Mountain](Blackr
 See also: [Onyxia's Lair](Onyxia's Lair)
 
 ## Also known as
--Lady Katrina Prestor (We can only hope that Alextrasza and Korialstrasz become aware of the situation soon...)
+- Lady Katrina Prestor (We can only hope that Alextrasza and Korialstrasz become aware of the situation soon...)
 
 Some taken from [Lunarfalls](http://www.lunarfalls.com/WarCraft/index.html)(http://www.lunarfalls.com/WarCraft/index.html Lunarfalls)

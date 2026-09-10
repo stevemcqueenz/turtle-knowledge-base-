@@ -13,13 +13,7 @@ categories: ["Gilneas subzones", "Ogre territories", "Turtle WoW content"]
 The **Brol'ok Mound** is an ogre mound inhabited by the Brol'ok tribe of ogres located in [Gilneas](Gilneas), in the hills overlooking [Ravenshire](Ravenshire) to the north.
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
-- 
--  (rare)
+- - - - - - - (rare)
 
 ## Patch changes
 - (Patch 1.17.0|note=Added.)

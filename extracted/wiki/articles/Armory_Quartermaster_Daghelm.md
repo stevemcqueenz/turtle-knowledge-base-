@@ -25,7 +25,7 @@ categories: ["Bosses", "Human characters", "Scarlet Monastery mobs", "Turtle WoW
 | status | Killable |
 | instance | Scarlet Monastery |
 
--Armory Quartermaster Daghelm** is a boss in the [Scarlet Monastery Armory](Scarlet Monastery Armory). He is the diligent maintainer of the armory's warehouse and its resources, ready to deal with the enemies of the Crusade.
+**Armory Quartermaster Daghelm** is a boss in the [Scarlet Monastery Armory](Scarlet Monastery Armory). He is the diligent maintainer of the armory's warehouse and its resources, ready to deal with the enemies of the Crusade.
 
 ## Abilities
 - Armor of Faith
@@ -33,10 +33,10 @@ categories: ["Bosses", "Human characters", "Scarlet Monastery mobs", "Turtle WoW
 - Sunder Armor
 
 ## Quotes
-  -Aggro**
+**Aggro**
   These are the weapons that will defeat the Scourge!
 
-  -Death**
+**Death**
   The weapons... In the hands of our enemies...
 
 ## Objective of

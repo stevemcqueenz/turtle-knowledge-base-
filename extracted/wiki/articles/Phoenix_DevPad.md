@@ -10,10 +10,10 @@ categories: ["Addon"]
 ---
 # Phoenix DevPad
 
--Phoenix DevPad** is designed to streamline debugging, development, and event handling within WoW. Use the chat commands and UI to craft scripts, hook into events, and view variable data easily.
+**Phoenix DevPad** is designed to streamline debugging, development, and event handling within WoW. Use the chat commands and UI to craft scripts, hook into events, and view variable data easily.
 
 ## **Installation**
-  -Manual Installation only**
+**Manual Installation only**
 
 # Go to the main page of the repository.
 # Click the **<> Code** dropdown and download the repository as a <code>.zip</code>.
@@ -24,7 +24,7 @@ categories: ["Addon"]
 - [**(crazypoultry)**](https://github.com/crazypoultry/Wow1.12.1_Addons_Collection)
 
 ## Usage & Commands
-  -Main Chat Commands**
+**Main Chat Commands**
 
 Type these commands in chat (e.g., <code>/px</code>) to control Phoenix:
 {| class="fandom-table"
@@ -68,14 +68,14 @@ Type these commands in chat (e.g., <code>/px</code>) to control Phoenix:
 |Show last errors
 |}
 
-  -Script Commands (within scripts)**
+**Script Commands (within scripts)**
 
 - <code>pxc("/say Hello")</code> — Run a chat command
 - <code>pxs("MyScript")</code> — Run a named script
 - <code>pxp("Message: %d", "Combat", value)</code> — Print formatted message
 - <code>pxd(expression)</code> — Dump variable content
 
-  -Key Bindings (customizable)**
+**Key Bindings (customizable)**
 
 Assign keys for quick access:
 
@@ -84,32 +84,32 @@ Assign keys for quick access:
 - Toggle event override (<code>/pxv</code>)
 - Toggle chat errors (<code>/pxc</code>)
 
--(See your addon’s keybinding menu to set these)*
+*(See your addon’s keybinding menu to set these)*
 
 ## preview
 ## Features & Usage Tips
-  -Managing Scripts**
+**Managing Scripts**
 
 - **Create a new script:** Click "New Script" in DevPad or type <code>/px script</code>
 - **Save a script:** Changes auto-save when focus is lost from the input fields
 - **Run a script:** Select it and press "Run Script" or type <code>/pxs scriptName</code>
 - **Delete a script:** Select and click "Delete Script"
 
-  -Event Hookup**
+**Event Hookup**
 
 - To trigger a script on an event (e.g., zone change), name the script after the event (<code>ZONE_CHANGED_NEW_AREA</code>)
 - Check the "Event" box while editing the script to hook it
 - Use <code>/pxl</code> to list all hooked events
 - Toggle event handling on/off with <code>/pxv</code>
 
-  -Output & Error Handling**
+**Output & Error Handling**
 
 - Set output chat frame with <code>/px chat [name]</code>. If no name, defaults to "default"
 - Toggle script error popup with <code>/pxc</code>. Errors then print in chat
 - View last errors with <code>/pxe [number]</code>
 - Adjust error timeout with <code>/px timeout [seconds]</code> (default is 1s)
 
-  -Dumping Variables**
+**Dumping Variables**
 
 - Use <code>/pxd expression</code> to dump the content of a variable or table
 - For tables, specify <code>/pxd table [id|name]</code> to view nested data
@@ -125,7 +125,7 @@ Assign keys for quick access:
   - **Body:** code snippet content
 - **Output Area:** for script errors, debug info, or custom output
 
--(Access the UI with <code>/pxt</code> or assign a keybinding)*
+*(Access the UI with <code>/pxt</code> or assign a keybinding)*
 
 ## Known Issues
 - Long script names may not display fully in the name edit box (UI display bug)

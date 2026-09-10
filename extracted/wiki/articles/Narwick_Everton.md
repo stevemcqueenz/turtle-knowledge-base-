@@ -27,7 +27,7 @@ categories: ["Butchers", "Gilneas NPCs", "Human characters", "Meat vendors", "Qu
 | status | Alive |
 | relatives | Lance (son) |
 
--Narwick Everton** is a [human](human) [meat vendor](meat vendor) and [quest giver](quest giver) located in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
+**Narwick Everton** is a [human](human) [meat vendor](meat vendor) and [quest giver](quest giver) located in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
 
 ## Quests
 - [quest: Feeding the Rebellion] 

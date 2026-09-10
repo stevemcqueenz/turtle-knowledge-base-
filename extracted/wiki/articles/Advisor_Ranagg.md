@@ -24,7 +24,7 @@ categories: ["Grim Reaches NPCs", "Orc characters", "Quest givers", "Turtle WoW 
 | location | Shatterblade Post, Grim Reaches |
 | status | Alive |
 
--Advisor Ranagg** is an [orc](orc) [quest giver](quest giver) located in the outpost of [Shatterblade Post](Shatterblade Post) in the [Grim Reaches](Grim Reaches).
+**Advisor Ranagg** is an [orc](orc) [quest giver](quest giver) located in the outpost of [Shatterblade Post](Shatterblade Post) in the [Grim Reaches](Grim Reaches).
 
 ## Quests
 - [quest: The Shatterblade Expedition] 
@@ -33,7 +33,7 @@ categories: ["Grim Reaches NPCs", "Orc characters", "Quest givers", "Turtle WoW 
 - [quest: Stolgaz Documents] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I am Ranagg, advisor to [Aggnash](Commander Aggnash). It is always good to have support, even in such foreign lands.
 
 Do you bring word from [Orgrimmar](Orgrimmar)?

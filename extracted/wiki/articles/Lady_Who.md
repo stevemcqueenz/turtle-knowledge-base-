@@ -47,8 +47,8 @@ I wonder what sort of dark, twisted artefact she holds that can provide her owne
 What is this...?
 
 ## Progression
-1.[quest: Lady Who?]
-1.[quest: Storm, Twilight and Hammer]
+1. [quest: Lady Who?]
+1. [quest: Storm, Twilight and Hammer]
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

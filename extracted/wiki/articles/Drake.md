@@ -10,33 +10,33 @@ categories: ["Creatures", "Dragonkin", "Drakes", "Pages with broken file links"]
 ---
 # Drake
 
--DISAMBIGUATION: Were you looking for The [blizz](blizz)ard forum poster named [Drake](Drake (blizzard))?*
+*DISAMBIGUATION: Were you looking for The [blizz](blizz)ard forum poster named [Drake](Drake (blizzard))?*
 
 [Dragon](Dragon)s that are still relatively young in comparison to their ancient brethren. Drakes are always flying while moving, but the [Dragon](Dragon)s are bigger and walks most while moving. You can find Drakes in the [Burning Steppes](Burning Steppes), [Swamp of Sorrows](Swamp of Sorrows) and a lot of [Dungeon](Dungeon)s.
 
 ## Notable Drakes
 Black
--[Ebonroc](Ebonroc)
--[Emberstrife](Emberstrife)
--[Firemaw](Firemaw)
--[Flamegor](Flamegor)
--[Teremus the Devourer](Teremus the Devourer)
+- [Ebonroc](Ebonroc)
+- [Emberstrife](Emberstrife)
+- [Firemaw](Firemaw)
+- [Flamegor](Flamegor)
+- [Teremus the Devourer](Teremus the Devourer)
 Blue
--[Azurous](Azurous)
--[Manaclaw](Manaclaw)
--[Scryer](Scryer)
+- [Azurous](Azurous)
+- [Manaclaw](Manaclaw)
+- [Scryer](Scryer)
 Bronze
--[Chronalis](Chronalis)
--[Occulus](Occulus)
--[Tick](Tick (Dragon))
+- [Chronalis](Chronalis)
+- [Occulus](Occulus)
+- [Tick](Tick (Dragon))
 Green
--[Dreamscythe](Dreamscythe)
--[Dreamstalker](Dreamstalker)
--[Hazzas](Hazzas)
--[Morphaz](Morphaz)
--[Somnus](Somnus)
--[Weaver](Weaver)
+- [Dreamscythe](Dreamscythe)
+- [Dreamstalker](Dreamstalker)
+- [Hazzas](Hazzas)
+- [Morphaz](Morphaz)
+- [Somnus](Somnus)
+- [Weaver](Weaver)
 Red
--[Axtroz](Axtroz)
+- [Axtroz](Axtroz)
 Chromatic
--[Gyth](Gyth)
+- [Gyth](Gyth)

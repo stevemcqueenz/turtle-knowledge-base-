@@ -25,7 +25,7 @@ categories: ["Deadwind Pass", "Eastern Kingdoms"]
 | affiliation | Kirin Tor, Kingdom of Stormwind (claimed), Deadwind ogres |
 | loc | Central Azeroth |
 
--Deadwind Pass** is a contested zone located in central [Azeroth](Azeroth (continent)), joining the southeastern reaches of the [Kingdom of Stormwind](Stormwind (kingdom)) (via [Duskwood](Duskwood)) from the east to the [Swamp of Sorrows](Swamp of Sorrows) (and, eventually, the [Dark Portal](Dark Portal) in the [Blasted Lands](Blasted Lands)) from the west. It was, a score of years ago, considered a part of the [Redridge Mountains](Redridge Mountains). (ref: *[The Last Guardian](The Last Guardian)*, pg. 43)
+**Deadwind Pass** is a contested zone located in central [Azeroth](Azeroth (continent)), joining the southeastern reaches of the [Kingdom of Stormwind](Stormwind (kingdom)) (via [Duskwood](Duskwood)) from the east to the [Swamp of Sorrows](Swamp of Sorrows) (and, eventually, the [Dark Portal](Dark Portal) in the [Blasted Lands](Blasted Lands)) from the west. It was, a score of years ago, considered a part of the [Redridge Mountains](Redridge Mountains). (ref: *[The Last Guardian](The Last Guardian)*, pg. 43)
 
 The Ivory Tower of [Karazhan](Karazhan), once the dark wizard [Medivh](Medivh)’s seat of power, stands in the center of this jagged region and leaks evil magic into the land. The trees are petrified and leafless, and a terrible wind keens through the canyon. Ogres, demons, undead and a few human gypsies roam the interior. Deadwind Pass connects Duskwood and the Swamp of Sorrows, and travelers are advised to move quickly — whispers tell that a new force has claimed the Ivory Tower, and that the ogres and demons are under its sway.
 
@@ -83,12 +83,12 @@ WorldMap-DeadwindPass-old.jpg|Deadwind Pass prior to [patch 1.16.1](patch 1.16.1
   - [Dead Wood Tree](Dead Wood Tree)
 
 ## Wild creatures
--[Ghost](Ghost)s
--[Ogre](Ogre)s
--[Shade](Shade)s
--[Vulture](Vulture)s
--[Wisp](Wisp)s
--[Wraith](Wraith)s
+- [Ghost](Ghost)s
+- [Ogre](Ogre)s
+- [Shade](Shade)s
+- [Vulture](Vulture)s
+- [Wisp](Wisp)s
+- [Wraith](Wraith)s
 
 ## Patch changes
--  **[Patch 1.16.0](Patch 1.16.0) (2021-12-27):** Map updated.
+- **[Patch 1.16.0](Patch 1.16.0) (2021-12-27):** Map updated.

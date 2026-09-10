@@ -24,14 +24,14 @@ categories: ["Goblin characters", "Quest givers", "Tel'Abim NPCs", "Tel Company"
 | location | Tel Co. Basecamp, Tel'Abim |
 | status | Alive |
 
--Pumpworker Zalwan** is a [goblin](goblin) quest giver located in [Tel Co. Basecamp](Tel Co. Basecamp) in [Tel'Abim](Tel'Abim).
+**Pumpworker Zalwan** is a [goblin](goblin) quest giver located in [Tel Co. Basecamp](Tel Co. Basecamp) in [Tel'Abim](Tel'Abim).
 
 ## Quests
 - [quest: Contracts in Moonwhisper Coast] 
 - [quest: Zalwan's Cut] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 [Nokrot](Nokrot Felwaz) thinks he's all special, but I am the one that provides him with the water that he loves to wave around.
 
 ## Patch changes

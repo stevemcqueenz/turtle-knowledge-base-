@@ -25,7 +25,7 @@ categories: ["Custodians", "Deadwind Pass mobs", "Human characters", "Turtle WoW
 | location | The Master's Cellar, Deadwind Pass |
 | status | Killable |
 
--Groundskeeper Jacoby** is a [human](human) located in the [Master's Cellar](Master's Cellar) in [Deadwind Pass](Deadwind Pass). Still living to this day, he continues his work tending to the grounds around Karazhan, appearing only when not a living soul is looking and fleeing to the depths of the cellar to hide when the living linger. (ref: [quest: The Mystery of Karazhan V])
+**Groundskeeper Jacoby** is a [human](human) located in the [Master's Cellar](Master's Cellar) in [Deadwind Pass](Deadwind Pass). Still living to this day, he continues his work tending to the grounds around Karazhan, appearing only when not a living soul is looking and fleeing to the depths of the cellar to hide when the living linger. (ref: [quest: The Mystery of Karazhan V])
 
 ## Objective of
 - Drops [Old Crypt Key](Old Crypt Key) for [quest: The Mystery of Karazhan V] and [quest: The Depths of Karazhan V].

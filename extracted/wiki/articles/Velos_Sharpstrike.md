@@ -27,7 +27,7 @@ categories: ["Feralas NPCs", "Night elf characters", "Quest givers", "Turtle WoW
 | students | Lataro Swifthoof |
 | companions | Voltra (chimaera) |
 
--Velos Sharpstrike** is a [night elf](night elf) quest giver located at the [Chimaera Roost Vale](Chimaera Roost Vale) in [Feralas](Feralas). He is a seasoned chimaera trainer, and has recently made a remarkable discovery—a long-forgotten roost that lies to the southwest of [Thalanaar](Thalanaar). He seeks aid in reviving and restoring this sacred haven.
+**Velos Sharpstrike** is a [night elf](night elf) quest giver located at the [Chimaera Roost Vale](Chimaera Roost Vale) in [Feralas](Feralas). He is a seasoned chimaera trainer, and has recently made a remarkable discovery—a long-forgotten roost that lies to the southwest of [Thalanaar](Thalanaar). He seeks aid in reviving and restoring this sacred haven.
 
 ## Quests
 - [quest: Chimaeran Task] 
@@ -36,7 +36,7 @@ categories: ["Feralas NPCs", "Night elf characters", "Quest givers", "Turtle WoW
 - [quest: Harness of Chimaeran] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Hail, weary traveler. You have ventured far to reach this secluded vale. Though it may appear desolate and in ruins, do not be deceived. This vale was once a place of great importance, a vital stronghold in the defense of our people.
 
 It is now my solemn duty to restore it to its former glory, to bring new life to these crumbling monuments and to train a new generation of chimaeras to defend the people of Kalimdor.

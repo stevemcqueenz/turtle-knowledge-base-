@@ -15,18 +15,7 @@ The **Bilgerat Compound** is a pirate holdout located on one of the northern isl
 The [Logbook of The Rat's Nest](Logbook of The Rat's Nest) can be found in the captain's quarters aboard the ship.
 
 ## NPCs
-  -In the compound**
-- 
-- 
-- 
-- 
-
-  -Aboard the *Rat's Nest***
-- 
-- 
-- 
-- 
-- 
-
-## Patch changes
+**In the compound**
+- - - - ;Aboard the *Rat's Nest*
+- - - - - ## Patch changes
 - (Patch 1.18.0|note=Added.)

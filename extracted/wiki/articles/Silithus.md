@@ -22,7 +22,7 @@ categories: ["Kalimdor", "Silithus"]
 | minor | Ironforge Brigade Outpost, Orgrimmar Legion camp, Staghelm Point, Valor's Rest, Bronzebeard Encampment, Twilight Base Camp, Southwind Village, Twilight Outpost, Twilight Post, Twilight's Run |
 | affiliation | Cenarion Circle, Twilight's Hammer, Alliance, Horde |
 
--Silithus** forms the south-western corner of [Kalimdor](Kalimdor). It can only be reached by traveling to the north-western corner of the [Un'Goro Crater](Un'Goro Crater), where a wide path extends out of the crater and into Silithus.
+**Silithus** forms the south-western corner of [Kalimdor](Kalimdor). It can only be reached by traveling to the north-western corner of the [Un'Goro Crater](Un'Goro Crater), where a wide path extends out of the crater and into Silithus.
 
 Silithus is one of the insect-infested sections of southern [Kalimdor](Kalimdor). This area houses a section of the once great [Aqiri](Aqiri) empire, known as [Ahn'Qiraj](Ahn'Qiraj). It is currently uninhabited, but the central temple is sealed off by the night elves, who attempted to prevent an infestation from breaking out. Judging by the ruins in the area, as well as the massive Silithid colonies, they were unsuccessful in their attempt. The [Cenarion Circle](Cenarion Circle) maintains a constant presence in Silithus, at [Cenarion Hold](Cenarion Hold). From here, they monitor the Silithids, whom some believe to be a force so powerful and threatening that the Alliance and Horde must ally to combat. In addition to the Cenarion Druids, a second, more ominous presence has recently made itself known in Silithus. The [bronze dragonflight](bronze dragonflight), [Nozdormu](Nozdormu)'s brood, has returned to the desert for the first time in ten thousand years.
 
@@ -48,7 +48,7 @@ WorldMap-Silithus-old.jpg|Silithus prior to patch 1.8.0.
 |[Bones of Grakkarond](Bones of Grakkarond) • [Bronzebeard Encampment](Bronzebeard Encampment) • [Cenarion Hold](Cenarion Hold) • [The Crystal Vale](Crystal Vale) ([Ravaged Twilight Camp](Ravaged Twilight Camp)) • [Hive'Ashi](Hive'Ashi) • [Hive'Regal](Hive'Regal) • [Hive'Zora](Hive'Zora) • [Ortell's Hideout](Ortell's Hideout) • [The Scarab Wall](Scarab Wall) ([The Scarab Dais](Scarab Dais) • [Gates of Ahn'Qiraj](Gates of Ahn'Qiraj (subzone))) • [Southwind Village](Southwind Village) • [Staghelm Point](Staghelm Point) • [The Swarming Pillar](Swarming Pillar) • [Twilight Base Camp](Twilight Base Camp) • [Twilight Outpost](Twilight Outpost) • [Twilight Post](Twilight Post) • [Twilight's Run](Twilight's Run) • [Valor's Rest](Valor's Rest)
 |-
 ||
-  -Undisplayed locations**
+**Undisplayed locations**
 
 [Ironforge Brigade Outpost](Ironforge Brigade Outpost) • [Orgrimmar Legion camp](Orgrimmar Legion camp)
 |}
@@ -71,10 +71,10 @@ WorldMap-Silithus-old.jpg|Silithus prior to patch 1.8.0.
 
 ### Travel Hubs
 #### [Flight path](Flight path)s from [Cenarion Hold](Cenarion Hold)
--  [Feathermoon Stronghold](Feathermoon Stronghold), [Feralas](Feralas)
--  [Camp Mojache](Camp Mojache), [Feralas](Feralas)
--  [Gadgetzan](Gadgetzan), [Tanaris](Tanaris)
--  [Marshal's Refuge](Marshal's Refuge), [Un'Goro Crater](Un'Goro Crater)
+- [Feathermoon Stronghold](Feathermoon Stronghold), [Feralas](Feralas)
+- [Camp Mojache](Camp Mojache), [Feralas](Feralas)
+- [Gadgetzan](Gadgetzan), [Tanaris](Tanaris)
+- [Marshal's Refuge](Marshal's Refuge), [Un'Goro Crater](Un'Goro Crater)
 
 ### Regions Adjacent to Silithus
 {| class="fandom-table"
@@ -123,11 +123,11 @@ Silithus is a desert stretch of land, arid and hostile. Miners will find various
 - There's a well-hidden [Tauren Village](Silithus coast tauren settlement) on the "shores" of Silithus; only accessible by swimming from [Tanaris](Tanaris).
 
 ## Patch changes
--  **Patch 1.4.0 (2005-10-10):**
-  -Cenarion Hold added.
-  -The flight paths in Silithus have been moved from Valor's Rest to the new Cenarion Hold. Characters that previously discovered the Valor's Rest flight path will be treated as having discovered the Cenarion Hold flight path. 
-  -A neutral graveyard has been added to Silithus at Cenarion Hold. With the addition of this graveyard, characters dying in Silithus will be sent to whichever graveyard they are closer to when they die: Valor's Rest or Cenarion Hold. 
-  -The Silithus area map has been modified and its scale has changed.
--  **Patch 1.7.0 (2005-09-13):** Twilight's Hammer creatures in Silithus can now be pickpocketed.
--  **Patch 1.5.0 (2005-06-07):** Discovering Valor's Rest now also pops the Southwind Village puzzle piece on the Silithus area map.
--  **Patch 1.3.0 (2005-03-07):** Silithus has been itemized.
+- **Patch 1.4.0 (2005-10-10):**
+  - Cenarion Hold added.
+  - The flight paths in Silithus have been moved from Valor's Rest to the new Cenarion Hold. Characters that previously discovered the Valor's Rest flight path will be treated as having discovered the Cenarion Hold flight path. 
+  - A neutral graveyard has been added to Silithus at Cenarion Hold. With the addition of this graveyard, characters dying in Silithus will be sent to whichever graveyard they are closer to when they die: Valor's Rest or Cenarion Hold. 
+  - The Silithus area map has been modified and its scale has changed.
+- **Patch 1.7.0 (2005-09-13):** Twilight's Hammer creatures in Silithus can now be pickpocketed.
+- **Patch 1.5.0 (2005-06-07):** Discovering Valor's Rest now also pops the Southwind Village puzzle piece on the Silithus area map.
+- **Patch 1.3.0 (2005-03-07):** Silithus has been itemized.

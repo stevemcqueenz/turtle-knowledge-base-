@@ -13,7 +13,7 @@ categories: ["Bleeding Hollow clan", "Draenor", "Forts"]
 map.]]
 .]]
 
-  -Fortress Auchindoun** was a [fortress](fortress) of the [Bleeding Hollow clan](Bleeding Hollow clan) during the [Invasion of Draenor](Invasion of Draenor).
+**Fortress Auchindoun** was a [fortress](fortress) of the [Bleeding Hollow clan](Bleeding Hollow clan) during the [Invasion of Draenor](Invasion of Draenor).
 
 ## Invasion of Draenor
 [Kurdran Wildhammer](Kurdran Wildhammer) had located the fortress which served as a stronghold to the [Bleeding Hollow clan](Bleeding Hollow clan). [Alleria Windrunner](Alleria Windrunner)'s rangers had reported that they had seen a massive force moving towards the north and suspected that those troops were staging for another attack upon [Azeroth](Azeroth). The [Alliance](Alliance Expedition) forces launched a raid against Auchindoun and razed the fortress to force the [Horde](Horde of Draenor) army to retreat or to be cut off and destroyed. (ref: [The Fall of Auchindoun (WC2 Human)](https://wowpedia.fandom.com/wiki/The_Fall_of_Auchindoun_(WC2_Human)))

@@ -20,6 +20,6 @@ categories: ["Gilneas (kingdom)", "Human characters"]
 | location | Unknown |
 | relatives | Darius (father),, Mortimer (husband) |
 
--Elena Ravenwood** is the daughter of [Lord Darius Ravenwood](Lord Darius Ravenwood) and the wife of one of the Regent-Lords of [Gilneas](Gilneas), [Mortimer Harlow](Regent-Lord Mortimer Harlow). Her hand was given in marriage to Lord Mortimer as part of the treaty that brought an end to the First Rebellion; Elena having sacrificed herself to buy her father time in a tenuous truce. (ref: [The Raven's Sentence and the First Rebellion](The Raven's Sentence and the First Rebellion))
+**Elena Ravenwood** is the daughter of [Lord Darius Ravenwood](Lord Darius Ravenwood) and the wife of one of the Regent-Lords of [Gilneas](Gilneas), [Mortimer Harlow](Regent-Lord Mortimer Harlow). Her hand was given in marriage to Lord Mortimer as part of the treaty that brought an end to the First Rebellion; Elena having sacrificed herself to buy her father time in a tenuous truce. (ref: [The Raven's Sentence and the First Rebellion](The Raven's Sentence and the First Rebellion))
 
 ## References

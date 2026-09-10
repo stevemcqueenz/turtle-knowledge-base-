@@ -25,7 +25,7 @@ categories: ["Blackstone Island NPCs", "Goblin characters", "Survival trainers",
 | location | Rustgate Ridge, Blackstone Island |
 | status | Alive |
 
--Feebeld** is a [goblin](goblin) Journeyman [survival](survival) trainer located in [Rustgate Ridge](Rustgate Ridge) in [Blackstone Island](Blackstone Island).
+**Feebeld** is a [goblin](goblin) Journeyman [survival](survival) trainer located in [Rustgate Ridge](Rustgate Ridge) in [Blackstone Island](Blackstone Island).
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

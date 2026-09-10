@@ -21,65 +21,32 @@ categories: ["Durotar subzones", "Horde towns", "Orc territories", "Pages with b
 | language | Orcish |
 | loc | Central Durotar |
 
--Razor Hill** is an [orc](orc)ish outpost built on a crossroads in central [Durotar](Durotar). The southern road eventually leads to [Sen'Jin Village](Sen'Jin Village) and the [Valley of Trials](Valley of Trials). The northern road leads to [Orgrimmar](Orgrimmar), and the road west ends up in [the Barrens](the Barrens) and eventually to the major [Horde](Horde) gathering point of the [Crossroads](Crossroads). The [Razor Hill Barracks](Razor Hill Barracks) is the single most prominent structure in the town. The orc, [Orgnil Soulscar](Orgnil Soulscar) is the current leader of Razor Hill, occupied with investigating the activities of the [Burning Blade](Burning Blade) in the area. 
+**Razor Hill** is an [orc](orc)ish outpost built on a crossroads in central [Durotar](Durotar). The southern road eventually leads to [Sen'Jin Village](Sen'Jin Village) and the [Valley of Trials](Valley of Trials). The northern road leads to [Orgrimmar](Orgrimmar), and the road west ends up in [the Barrens](the Barrens) and eventually to the major [Horde](Horde) gathering point of the [Crossroads](Crossroads). The [Razor Hill Barracks](Razor Hill Barracks) is the single most prominent structure in the town. The orc, [Orgnil Soulscar](Orgnil Soulscar) is the current leader of Razor Hill, occupied with investigating the activities of the [Burning Blade](Burning Blade) in the area. 
 
 Razor Hill is the second place of training for all new orcs and trolls except mages. Usually people achieve level 10 before venturing on to [the Barrens](the Barrens).
 
 Shortly after the [Third War](Third War), the forces of [Kul Tiras](Kul Tiras) arranged a summit with Thrall at Razor Hill. It was in fact a planned ambush. However, having speculated this, [Rexxar](Rexxar) insisted that he should go in Thrall's place. In turn, Rexxar defeated the assassins. 
 
 ## Inhabitants
--  
--  
--  
--  
--  
--  
--  
--  
--  
--   (*Was once a demon trainer*)
+- - - - - - - - - - (*Was once a demon trainer*)
 
-  -Vendors:**
--  
--  
--  
--  
--  
--  
--  
-
-  -Trainers:**
--  
--  
--  
--  
--  
--  
--  
--  
--  
--  
--  
-
-  -Guards:  **
+**Vendors:**
+- - - - - - - ;Trainers:
+- - - - - - - - - - - ;Guards:  
 
 ## Quests
--[quest: Vanquish the Betrayers]
-  -[quest: From The Wreckage....]
--[quest: The Admiral's Orders (2)]
--[quest: Carry Your Weight]
--[quest: Break a Few Eggs]
--[quest: Encroachment]
--[quest: Dark Storms]
-  -[quest: Margoz]
--[quest: Conscript of the Horde]
+- [quest: Vanquish the Betrayers]
+  - [quest: From The Wreckage....]
+- [quest: The Admiral's Orders (2)]
+- [quest: Carry Your Weight]
+- [quest: Break a Few Eggs]
+- [quest: Encroachment]
+- [quest: Dark Storms]
+  - [quest: Margoz]
+- [quest: Conscript of the Horde]
 
 ### Class specific
--
-  -
-  -*
-  -**
+- -   - *
+  - **
 
--
-
-[fr:Tranchecolline](fr:Tranchecolline)
+- [fr:Tranchecolline](fr:Tranchecolline)

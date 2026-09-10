@@ -53,8 +53,8 @@ Remarkable. The craftsmanship alone places it centuries before the founding of Z
 You have brought back more than a relic today. You have returned a fragment of our past that might otherwise have vanished with the temple itself.
 
 ## Progression
-1.[quest: Echoes of Nendis]
-1.[quest: The Light of Elunaris]
+1. [quest: Echoes of Nendis]
+1. [quest: The Light of Elunaris]
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

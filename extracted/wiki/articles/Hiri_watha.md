@@ -10,4 +10,4 @@ categories: ["Forest troll territories", "Hinterlands subzones", "Pages with bro
 ---
 # Hiri'watha
 
--Hiri'watha** is a [Witherbark](Witherbark tribe) [forest troll](forest troll) village located within the [Hinterlands](Hinterlands) and due south of the [Quel'Danil Lodge](Quel'Danil Lodge).
+**Hiri'watha** is a [Witherbark](Witherbark tribe) [forest troll](forest troll) village located within the [Hinterlands](Hinterlands) and due south of the [Quel'Danil Lodge](Quel'Danil Lodge).

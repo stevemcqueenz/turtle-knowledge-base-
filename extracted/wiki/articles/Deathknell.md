@@ -10,7 +10,7 @@ categories: ["Forsaken territories", "Horde Towns", "Pages with broken file link
 ---
 # Deathknell
 
--Deathknell** is a small Forsaken village nestled in a well-guarded valley just north of [Silverpine Forest](Silverpine Forest) in the Tirisfal Glades, which serves as the starting area for the [Forsaken](Forsaken) located in [Tirisfal Glades](Tirisfal Glades). One of their greatest struggles for the citizens of Deathknell is obtaining the natural resources they need to survive, particularly gold. The goldmine to the northwest has been overrun by spiders, and the people of Deathknell frequently attempt to clear it out so that they may begin mining its precious metals. In the meantime, they do what they must to survive in the face of the [Scourge](Scourge) and the [Scarlet Crusade](Scarlet Crusade).
+**Deathknell** is a small Forsaken village nestled in a well-guarded valley just north of [Silverpine Forest](Silverpine Forest) in the Tirisfal Glades, which serves as the starting area for the [Forsaken](Forsaken) located in [Tirisfal Glades](Tirisfal Glades). One of their greatest struggles for the citizens of Deathknell is obtaining the natural resources they need to survive, particularly gold. The goldmine to the northwest has been overrun by spiders, and the people of Deathknell frequently attempt to clear it out so that they may begin mining its precious metals. In the meantime, they do what they must to survive in the face of the [Scourge](Scourge) and the [Scarlet Crusade](Scarlet Crusade).
 
 Lore-wise, Deathknell is unique among [Forsaken](Forsaken) sites due to its name. While other communities inhabited by the rebel undead of the Banshee Queen retained their names from their days as centers of human civilization, Deathknell was obviously renamed to its current appellation for reasons unknown.  The valley itself is guarded by a number of Deathguard Elites.
 
@@ -50,16 +50,16 @@ A detachment of the [Scarlet Crusade](Scarlet Crusade) has set up camp southeast
 - [Claire Willower](Claire Willower)
 
 ## Quests
--[quest: Rude Awakening] - Speak with Shadow Priest Sarvis.
--[quest: Welcome!] - Bring the Deathknell Gift Voucher to Claire Willower in Deathknell. [Note: Only available if you purchased the World of Warcraft Collector's Edition]
--[quest: The Mindless Ones] - Kill 8 Mindless Zombies and 8 Wretched Zombies.
-  -[quest: Rattling the Rattlecages] - Kill 12 Rattlecage Skeletons.
--[quest: The Damned] - Collect 6 Scavenger Paws and 6 Duskbat Wings.
--[quest: Scavenging Deathknell] - Collect 6 pieces of Scavenged Goods.
--[quest: Night Web's Hollow] - Kill 10 Young Night Web Spiders and 8 Night Web Spiders.
-  -[quest: The Scarlet Crusade] - Collect 12 Scarlet Armbands from Scarlet Converts and Scarlet Initiates.
-  -*[quest: The Red Messenger] - Kill Meven Korgal, the messenger, at the Crusader camp.
-  -**[quest: Vital Intelligence] - Deliver the Scarlet Crusade Documents to Executor Zygand in Brill.
--[quest: Marla's Last Wish] - Bring Samuel Fipps' Remains to Marla's Grave.
--[quest: A Rogue's Deal] - Deliver the Nondescript Letter to Innkeeper Renee in Tirisfal Glades.
-  -[quest: A Rogue's Deal (2)] - Defeat Calvin Montague in Deathknell.
+- [quest: Rude Awakening] - Speak with Shadow Priest Sarvis.
+- [quest: Welcome!] - Bring the Deathknell Gift Voucher to Claire Willower in Deathknell. [Note: Only available if you purchased the World of Warcraft Collector's Edition]
+- [quest: The Mindless Ones] - Kill 8 Mindless Zombies and 8 Wretched Zombies.
+  - [quest: Rattling the Rattlecages] - Kill 12 Rattlecage Skeletons.
+- [quest: The Damned] - Collect 6 Scavenger Paws and 6 Duskbat Wings.
+- [quest: Scavenging Deathknell] - Collect 6 pieces of Scavenged Goods.
+- [quest: Night Web's Hollow] - Kill 10 Young Night Web Spiders and 8 Night Web Spiders.
+  - [quest: The Scarlet Crusade] - Collect 12 Scarlet Armbands from Scarlet Converts and Scarlet Initiates.
+  - *[quest: The Red Messenger] - Kill Meven Korgal, the messenger, at the Crusader camp.
+  - **[quest: Vital Intelligence] - Deliver the Scarlet Crusade Documents to Executor Zygand in Brill.
+- [quest: Marla's Last Wish] - Bring Samuel Fipps' Remains to Marla's Grave.
+- [quest: A Rogue's Deal] - Deliver the Nondescript Letter to Innkeeper Renee in Tirisfal Glades.
+  - [quest: A Rogue's Deal (2)] - Defeat Calvin Montague in Deathknell.

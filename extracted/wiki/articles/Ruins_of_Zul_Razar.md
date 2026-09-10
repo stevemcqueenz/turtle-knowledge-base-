@@ -13,10 +13,7 @@ categories: ["Gillijim's Isle subzones", "Troll ruins", "Turtle WoW content"]
 The **Ruins of Zul'Razar** are the southern portion of the troll city of [Zul'Razar](Zul'Razar) located in [Gillijim's Isle](Gillijim's Isle). Having been overrun by the ogres of the [Maul'ogg](Maul'ogg), the ogres were themselves later driven out by a horde of creepers led by a massive beast named [Tanglemoss](Tanglemoss). (ref: [quest: Tanglemoss])
 
 ## NPCs
-- 
-- 
-
-## Patch changes
+- - ## Patch changes
 - (Patch 1.16.0|note=Added.)
 
 ## References

@@ -25,10 +25,10 @@ categories: ["Blacksmiths", "Forsaken characters", "Gilneas NPCs", "Turtle WoW c
 | location | Stillward Church, Gilneas |
 | status | Active |
 
--Balgon Slin** is a [Forsaken](Forsaken) weapons vendor located in [Stillward Church](Stillward Church) in [Gilneas](Gilneas).
+**Balgon Slin** is a [Forsaken](Forsaken) weapons vendor located in [Stillward Church](Stillward Church) in [Gilneas](Gilneas).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 You need something fixed? It would appear that is all I am good for in this new life.
 
 ## Patch changes

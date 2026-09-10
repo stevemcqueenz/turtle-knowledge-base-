@@ -35,7 +35,7 @@ Feeling the tempest up close made me realize that it was assuredly different fro
 ## Rewards
 You will receive:
 - 2500 XP
--+200 [reputation](reputation) with [Kul Tiras](Kul Tiras (faction))
+- +200 [reputation](reputation) with [Kul Tiras](Kul Tiras (faction))
 
 ## Progress
 Kul Tiras and Balor share a history, were it not their ships to make trade with our fledgling nation many decades ago. As such I feel a distant connection and familiarity with this place, as faint as it may be.

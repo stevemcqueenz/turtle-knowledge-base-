@@ -24,7 +24,7 @@ categories: ["Guards", "Human characters", "Lordaeron (kingdom)", "Turtle WoW co
 | location | Hawk's Vigil, Wetlands |
 | status | Alive |
 
--Vigil Footmen** are human guards defending the town of [Hawk's Vigil](Hawk's Vigil) in the [Wetlands](Wetlands).
+**Vigil Footmen** are human guards defending the town of [Hawk's Vigil](Hawk's Vigil) in the [Wetlands](Wetlands).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

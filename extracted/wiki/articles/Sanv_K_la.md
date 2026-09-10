@@ -24,7 +24,7 @@ categories: ["Draenei characters", "Quest givers", "Swamp of Sorrows NPCs", "Tur
 | location | The Harborage, Swamp of Sorrows |
 | status | Alive |
 
--Sanv K'la** is a [draenei](draenei) [quest giver](quest giver) in the [Harborage](Harborage) in the [Swamp of Sorrows](Swamp of Sorrows). A member of the [Tribe of Sanv](Tribe of Sanv), he is the leader of the draenei exiles of the Harborage. Along with part of his tribe and [another tribe](Lost Ones) of Draenei, he fled the dying world of [Draenor](Draenor) with the [riftwalker](riftwalker) [Akh Z'ador](Akh Z'ador) on the command of his chieftain, [Sanv Tas'dal](Sanv Tas'dal), after the destruction wrought by the [orcish Horde](orcish Horde).
+**Sanv K'la** is a [draenei](draenei) [quest giver](quest giver) in the [Harborage](Harborage) in the [Swamp of Sorrows](Swamp of Sorrows). A member of the [Tribe of Sanv](Tribe of Sanv), he is the leader of the draenei exiles of the Harborage. Along with part of his tribe and [another tribe](Lost Ones) of Draenei, he fled the dying world of [Draenor](Draenor) with the [riftwalker](riftwalker) [Akh Z'ador](Akh Z'ador) on the command of his chieftain, [Sanv Tas'dal](Sanv Tas'dal), after the destruction wrought by the [orcish Horde](orcish Horde).
 
 ## Quests
 - [quest: The Sanv Charm] 
@@ -46,12 +46,12 @@ Perhaps this is home now, and for the better.
 The Draenei here are friendly and will treat you with respect.
 
 ### On-click
-  -Greeting**
+**Greeting**
 - Welcome to Harborage.
 - I am Sanv K'la. I have led my people here.
 - What can the Draenei do for you?
 
-  -Farewell**
+**Farewell**
 - *(Grunts)*
 
 ## References

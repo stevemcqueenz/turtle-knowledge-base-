@@ -10,4 +10,4 @@ categories: ["Azshara subzones", "Naga territories", "Pages with broken file lin
 ---
 # Southridge Beach
 
--Southridge Beach** is located in central [Azshara](Azshara), lining the South edge of the [Bay of Storms](Bay of Storms). It is heavily inhabited by the [naga](naga), but also supports [makrura](makrura), [hydra](hydra)s, [murloc](murloc)s, and the occasional [sea giant](sea giant). Countless ruins dot the beach, remnants of the once-great city of [Eldarath](Eldarath).
+**Southridge Beach** is located in central [Azshara](Azshara), lining the South edge of the [Bay of Storms](Bay of Storms). It is heavily inhabited by the [naga](naga), but also supports [makrura](makrura), [hydra](hydra)s, [murloc](murloc)s, and the occasional [sea giant](sea giant). Countless ruins dot the beach, remnants of the once-great city of [Eldarath](Eldarath).

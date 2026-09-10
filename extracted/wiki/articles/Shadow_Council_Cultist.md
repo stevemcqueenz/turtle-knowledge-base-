@@ -25,7 +25,7 @@ categories: ["Forsaken characters", "Shadow Council", "Stormwrought Ruins mobs",
 | location | Stormwrought Ruins |
 | status | Killable |
 
--Shadow Council Cultists** are [Forsaken](Forsaken) located in [Stormwrought Ruins](Stormwrought Ruins).
+**Shadow Council Cultists** are [Forsaken](Forsaken) located in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

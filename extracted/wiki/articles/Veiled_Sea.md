@@ -10,4 +10,4 @@ categories: ["Darkshore subzones", "Desolace subzones", "Feralas subzones", "Pag
 ---
 # Veiled Sea
 
--The Veiled Sea** is a portion of the [Great Sea](Great Sea) along the northwestern coast of [Kalimdor](Kalimdor), mostly noted by travelers on the coasts of [Teldrassil](Teldrassil), [Darkshore](Darkshore), [Desolace](Desolace), and [Feralas](Feralas).
+**The Veiled Sea** is a portion of the [Great Sea](Great Sea) along the northwestern coast of [Kalimdor](Kalimdor), mostly noted by travelers on the coasts of [Teldrassil](Teldrassil), [Darkshore](Darkshore), [Desolace](Desolace), and [Feralas](Feralas).

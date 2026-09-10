@@ -26,10 +26,10 @@ categories: ["Couriers", "Human characters", "Northwind NPCs", "Stormwind (kingd
 | status | Alive |
 | relatives | Tina (wife) |
 
--Alastair Murray** is a [human](human) located at [Lion's Watch](Lion's Watch) in [Northwind](Northwind).
+**Alastair Murray** is a [human](human) located at [Lion's Watch](Lion's Watch) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 All these letters won't deliver themselves! These guards had better let me go about my business sooner rather than later, right? I promised my dear wife, Tina, that I'd be home in time for our anniversary.
 
 ## Patch changes

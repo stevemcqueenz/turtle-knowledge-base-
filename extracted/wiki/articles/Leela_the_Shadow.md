@@ -24,7 +24,7 @@ categories: ["High elf characters", "Quest enders", "Removed Loch Modan NPCs", "
 | sex | Female |
 | location | Brinthilien, Thalassian Highlands |
 
--Leela the Shadow** is a [high elf](high elf) [rogue trainer](rogue trainer) located in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands).
+**Leela the Shadow** is a [high elf](high elf) [rogue trainer](rogue trainer) located in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands).
 
 ## Quests
 - [quest: Shady Letter|class=rogue|race=HighElf] 
@@ -32,7 +32,7 @@ categories: ["High elf characters", "Quest enders", "Removed Loch Modan NPCs", "
 - [quest: Shady Letter|class=rogue|race=HighElf] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Whether you want to steal from a noble's pocket, explore the dark corners, or break into a chest, always remember the Sunwell.
 
 ## Patch changes

@@ -25,10 +25,10 @@ categories: ["Human characters", "Northwind NPCs", "Stormwind (kingdom)", "Turtl
 | location | Ambershire, Northwind |
 | status | Alive |
 
--Herbert Kent** is a [human](human) weapons vendor located in [Ambershire](Ambershire) in [Northwind](Northwind).
+**Herbert Kent** is a [human](human) weapons vendor located in [Ambershire](Ambershire) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 You won't find any finer wares in all of Stormwind; only the mastersmiths of Ironforge can hold a candle to my weaponry!
 
 ## Patch changes

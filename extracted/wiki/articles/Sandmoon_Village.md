@@ -24,26 +24,15 @@ categories: ["Sand troll territories", "Tanaris subzones", "Turtle WoW content",
 | travel | No |
 | status | Active |
 
--Sandmoon Village** is a sand troll settlement located in [Tanaris](Tanaris). It serves as a hidden home to a small sect of Sandfury trolls. Less bloodthirsty than the rest of their kind and aware of the corruption growing behind the walls of [Zul'Farrak](Zul'Farrak), they've established this village to separate themselves from them, and in requirement of aid from the Horde for survival in the cliffs of the scorching desert.
+**Sandmoon Village** is a sand troll settlement located in [Tanaris](Tanaris). It serves as a hidden home to a small sect of Sandfury trolls. Less bloodthirsty than the rest of their kind and aware of the corruption growing behind the walls of [Zul'Farrak](Zul'Farrak), they've established this village to separate themselves from them, and in requirement of aid from the Horde for survival in the cliffs of the scorching desert.
 
 Though their petition to join the Horde was initially met with apprehension by [Vol'jin](Vol'jin), chieftain of the [Darkspear tribe](Darkspear tribe), (ref: [quest: Sandfury Redemption III]) they would eventually be welcomed within the Horde, and members of the tribe such as [Uz'tuk](Uz'tuk) would go on to join the [Earthen Ring](Earthen Ring). (ref: [Uz'tuk#Quotes](Uz'tuk#Quotes))
 
 ## Inhabitants
 ### Quest givers
-- 
-- 
-- 
-
-### Goods and services
-- 
-
-### Additional characters
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - ### Goods and services
+- ### Additional characters
+- - - - ## Patch changes
 (Patch 1.16.1|note=Added.)
 
 ## References

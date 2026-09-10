@@ -18,7 +18,7 @@ Displays a mana bar when shapeshifted.
 # Move the DruidManaBar folder into your AddOns folder
 # Restart the game
 
-  -Optional:** [SuperWoW](https://github.com/balakethelock/SuperWoW) 
+**Optional:** [SuperWoW](https://github.com/balakethelock/SuperWoW) 
 
 ## Git Links
 - [**(gashole)**](https://github.com/gashole/DruidManaBar)

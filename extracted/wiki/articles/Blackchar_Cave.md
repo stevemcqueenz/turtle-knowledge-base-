@@ -10,4 +10,4 @@ categories: ["Caves", "Pages with broken file links", "Searing Gorge subzones"]
 ---
 # Blackchar Cave
 
--Blackchar Cave** is a mysterious, sealed-off cave near [Blackrock Mountain](Blackrock Mountain). This is where players can find [Ironband the Elder](Ironband the Elder) during the [Lunar Festival](Lunar Festival).
+**Blackchar Cave** is a mysterious, sealed-off cave near [Blackrock Mountain](Blackrock Mountain). This is where players can find [Ironband the Elder](Ironband the Elder) during the [Lunar Festival](Lunar Festival).

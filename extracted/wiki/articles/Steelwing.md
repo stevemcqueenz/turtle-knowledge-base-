@@ -25,10 +25,10 @@ categories: ["Gryphons", "Oddly classified characters", "Stormwind City NPCs", "
 | status | Alive |
 | location | Stormwind Harbor, Stormwind City |
 
--Steelwing** is a gryphon located along with [Operative Simmons](Operative Simmons) in [Stormwind Harbor](Stormwind Harbor), in [Stormwind City](Stormwind City). He provides transportation to the [SI:7 Outpost](SI:7 Outpost) on the island of [Balor](Balor).
+**Steelwing** is a gryphon located along with [Operative Simmons](Operative Simmons) in [Stormwind Harbor](Stormwind Harbor), in [Stormwind City](Stormwind City). He provides transportation to the [SI:7 Outpost](SI:7 Outpost) on the island of [Balor](Balor).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 <Seems like Gryphon's got something on his mind...>
 
   > Gossip: *Take me to Balor!*

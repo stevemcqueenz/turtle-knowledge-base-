@@ -10,7 +10,7 @@ categories: ["Alliance towns", "Ashenvale subzones", "Islands", "Night elf terri
 ---
 # Astranaar
 
--Astranaar**, aka **Astrannar**, is a [night elven](Night elf) town situated on the east-west road that divides [Ashenvale](Ashenvale) in two. Like the [Redridge Mountains](Redridge Mountains) and [Duskwood](Duskwood) regions in the [Eastern Kingdoms](Eastern Kingdoms), Ashenvale is often attacked by Horde as it is one of the first-tier [contested](contested) zones for the Alliance. However, the danger is two-fold since [Ashenvale](Ashenvale) houses two Horde towns, one in the [Zoram Strand](Zoram Strand) and the other to the east at [Splintertree Post](Splintertree Post). Exercise extreme caution around Astranaar. When questing, set your hearthstone to the inn whenever feasible in order to avoid having to dodge groups of Horde who like to gather a short distance away from the town in preparation to raid it.
+**Astranaar**, aka **Astrannar**, is a [night elven](Night elf) town situated on the east-west road that divides [Ashenvale](Ashenvale) in two. Like the [Redridge Mountains](Redridge Mountains) and [Duskwood](Duskwood) regions in the [Eastern Kingdoms](Eastern Kingdoms), Ashenvale is often attacked by Horde as it is one of the first-tier [contested](contested) zones for the Alliance. However, the danger is two-fold since [Ashenvale](Ashenvale) houses two Horde towns, one in the [Zoram Strand](Zoram Strand) and the other to the east at [Splintertree Post](Splintertree Post). Exercise extreme caution around Astranaar. When questing, set your hearthstone to the inn whenever feasible in order to avoid having to dodge groups of Horde who like to gather a short distance away from the town in preparation to raid it.
 
 Astranaar seems to be the only city that is a capital of two zones, Ashenvale and [Hyjal Summit](Hyjal Summit).
 
@@ -22,17 +22,17 @@ Astranaar seems to be the only city that is a capital of two zones, Ashenvale an
 
 ## Travel Connections
 ### Flight
-  - [Auberdine](Auberdine)**
+** [Auberdine](Auberdine)**
 
-  - [Talrendis Point](Talrendis Point)**
+** [Talrendis Point](Talrendis Point)**
 
-  - [Stonetalon Peak](Stonetalon Peak)**
+** [Stonetalon Peak](Stonetalon Peak)**
 
-  - [Forest Song](Forest Song)**
+** [Forest Song](Forest Song)**
 
-  - [Ratchet](Ratchet)**
+** [Ratchet](Ratchet)**
 
-  - [Emerald Sanctuary](Emerald Sanctuary)**
+** [Emerald Sanctuary](Emerald Sanctuary)**
 
 ## Tactical information
 ### Summary

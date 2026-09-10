@@ -25,7 +25,7 @@ categories: ["Human characters", "Stormwind City NPCs", "Turtle WoW content"]
 | relatives | Ronald and Verona (parents),, Adella (sister) |
 | status | Alive |
 
--Henrietta Gillian** is a [human](human) child located in [Cathedral Square](Cathedral Square) in [Stormwind City](Stormwind City).
+**Henrietta Gillian** is a [human](human) child located in [Cathedral Square](Cathedral Square) in [Stormwind City](Stormwind City).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

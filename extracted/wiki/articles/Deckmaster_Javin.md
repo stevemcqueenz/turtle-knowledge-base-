@@ -24,10 +24,10 @@ categories: ["Human characters", "Kul Tiras (kingdom)", "Stormwind City NPCs", "
 | location | Stormwind Harbor, Stormwind City |
 | status | Alive |
 
--Deckmaster Javin** is a [human](human) located in [Stormwind Harbor](Stormwind Harbor) in [Stormwind City](Stormwind City).
+**Deckmaster Javin** is a [human](human) located in [Stormwind Harbor](Stormwind Harbor) in [Stormwind City](Stormwind City).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 You be standing on the Old Tide, ship of Kul Tiras, and I am the Deckmaster here.
 
 Do not cause me any issues on the boat, <class>.

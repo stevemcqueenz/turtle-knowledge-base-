@@ -31,9 +31,7 @@ Once you have the .zip downloaded and your account ready, setting your game up w
 ## macOS (Silicon, M Series)
 <nowiki>**</nowiki> Options are Parallels and VMware Fusion Pro. Parallels is paid software and VMware Fusion Pro is free. 
 
--
-
-----
+- ----
 
 ### Intel Macs
 Some Intel Mac users have reported success with Crossover/Wineskin, so if you're a little more technical, feel free to give that a try. For Intel Macs running Catalina and newer, Porting Kit has successfully run Turtle WoW. After installing Porting Kit, use the following steps:

@@ -10,10 +10,10 @@ categories: ["Addon"]
 ---
 # Necrosis
 
--Necrosis** is a mod designed to assist Warlocks in managing their soul shards, stones, and demons. While it can't brew coffee, it's an invaluable tool for Warlocks!
+**Necrosis** is a mod designed to assist Warlocks in managing their soul shards, stones, and demons. While it can't brew coffee, it's an invaluable tool for Warlocks!
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **Necrosis** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **Necrosis** up to date is by using [GitAddonsManager](G
 # **Select the Branch:** Ensure that the main branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 # Visit the GitHub link you find, then click the green **<> Code** button, and select Download ZIP.
@@ -73,28 +73,28 @@ Operating Necrosis is straightforward. It features a sphere and seven buttons:
   - Right-click to use your Hearthstone.
 
 ## Features
-  -Button Customization:**
+**Button Customization:**
 
 - Move buttons for soul shards, spells, and demon menus around the screen.
 
 - **Configuration Options**:
   - **Locking Icons**: Prevent icons from moving to avoid accidental misplacement.
   - **Soul Shard Management**:
-  -* Sort and destroy soul shards.
+  - * Sort and destroy soul shards.
 
-  -Alerts:**
+**Alerts:**
 
 - Toggle alerts for Shadow Trance and Anti-Fear spells.
 
 - **Spell Timers**: Display timers for ongoing spells.
 - **Graphical Interface**: Configurable options for graphical enhancements, including button scaling, rotation, and colors.
 
-  -Menu Management:**
+**Menu Management:**
 
 - Customize the display of buff, pet, and curse menus.
 - Control showing or hiding various stones (e.g., Firestone, Felstone, etc.).
 
-  -Click Functions**
+**Click Functions**
 - **Necrosis Button**: Main button for accessing all Warlock functionalities.
 - **Spell Timer Button**: Click to show spell cooldown timers.
 - **Shadow Trance Button**: Click to toggle visibility/activation of Shadow Trance effects.
@@ -103,9 +103,9 @@ Operating Necrosis is straightforward. It features a sphere and seven buttons:
 - **Pet Menu Button**: Click to manage and summon pets.
 - **Curse Menu Button**: Click to access curse spells.
 
-  -Additional Miscellaneous Functions**
+**Additional Miscellaneous Functions**
 
-  -Slider Adjustments:** Adjust settings using sliders for:
+**Slider Adjustments:** Adjust settings using sliders for:
 
 - Rotation and scale of buttons.
 - Timer display positions and types.
@@ -129,7 +129,7 @@ Here are some notable changes from previous versions:
 - Fel Domination CD tracking ([pylebec](https://github.com/pylebecq/necrosis-twow))
 - Removed init dialog options ([BlackHobbiT](https://github.com/BlackHobbiT/necrosis-twow))
 
-  -1.5.2a**
+**1.5.2a**
 
 - TOC updated for compatibility.
 - Fixed an Epic Steed bug for the French client.
@@ -137,19 +137,19 @@ Here are some notable changes from previous versions:
 - Middle-clicking on the curse menu now attempts to recast the curse with the intended amplification.
 - Keybinds added for Banish, Life Tap, and recasting curses.
 
-  -1.5.2**
+**1.5.2**
 
 - Added Demonic Sacrifice and keybind for Shadow Ward.
 - Corrected localization errors in French and German.
 - Improved curse menu behavior, allowing for amplified casting and targeted assistance before casting.
 - Soulshard sorting is now disabled by default to prevent issues.
 
-  -1.5.1**
+**1.5.1**
 
 - Visual enhancements for timers with better performance.
 - New features such as the addition of Exhaustion Curse and Amplify Curse.
 
-  -1.5**
+**1.5**
 
 - Major timer rework for reduced lag.
 - New configurations for summons that include talking when summoning demons.

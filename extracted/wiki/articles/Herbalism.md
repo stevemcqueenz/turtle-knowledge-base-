@@ -23,18 +23,18 @@ An Herb Bag is a special type of bag that goes into one of your four bag slots. 
 ## Herbalism color codes
 Mousing over and inspecting the tooltip for any herb in the game world will allow you to determine whether or not you can harvest it. The "Requires Herbalism" text will be color coded as follows:
 
-  -*Red**: Can't be harvested.
-  -*Orange**: 100% chance of increasing Herbalism skill level, often fails.
-  -*Yellow**: 75% chance of increasing Herbalism skill level, never fails.
-  -*Green**: <50% chance of increasing Herbalism skill level, never fails.
-  -*Gray**: Never increases Herbalism skill level, never fails.
+- **Red**: Can't be harvested.
+- **Orange**: 100% chance of increasing Herbalism skill level, often fails.
+- **Yellow**: 75% chance of increasing Herbalism skill level, never fails.
+- **Green**: <50% chance of increasing Herbalism skill level, never fails.
+- **Gray**: Never increases Herbalism skill level, never fails.
 
 # Common uses for herbs
 While the majority of the herbs you will find are used by alchemists to create various potions, some will have other uses as well.
 
--Rogues will find  [Fadeleaf] useful in making  [Blinding Powder] using their Poisons skill, and  [Swiftthistle] useful in making  [Thistle Tea]. This makes herbalism a convenient profession for a rogue, but by no means a required one.
--Some herbs are used for class quests, such as  [Liferoot] and  [Wildvine] for Warriors, and  [Earthroot] for Druids.
--Certain Tailoring and Leatherworking patterns require relatively small amounts of herbs.
+- Rogues will find  [Fadeleaf] useful in making  [Blinding Powder] using their Poisons skill, and  [Swiftthistle] useful in making  [Thistle Tea]. This makes herbalism a convenient profession for a rogue, but by no means a required one.
+- Some herbs are used for class quests, such as  [Liferoot] and  [Wildvine] for Warriors, and  [Earthroot] for Druids.
+- Certain Tailoring and Leatherworking patterns require relatively small amounts of herbs.
 
 # Harvestable herbs by skill level
 {| class="fandom-table"
@@ -264,9 +264,9 @@ While the majority of the herbs you will find are used by alchemists to create v
 |}
 
 ## Notes
--[Swiftthistle] is occasionally found in  [Briarthorn] and  [Mageroyal] patches. There are no plants that contain  [Swiftthistle] only.
--[Wildvine], in the same manner as  [Swiftthistle], is found in  [Purple Lotus] patches.
--[Bloodvine] is an Template:Uncommon herb can be found in  [Golden Sansam] or  [Dreamfoil] patches in Zul'Gurub, and only when a  [Blood Scythe] is in your inventory.
--[Black Lotus] (also Template:Uncommon) is extremely rare and hard to find. It requires 300 herbalism skill and is still hard to pick (will get a failed attempt now and then), the Herbalism enchant will reduce failure rates on this and other herbs.
--Tauren can harvest  [Earthroot] immediately after training Herbalism, since their skill will start at 16.
--[Herbalist's Gloves] will give you a +5 bonus to herbalism.  When combined with a +5 herbalism enchant, you can get a max skill of 310 (325 for Tauren)
+- [Swiftthistle] is occasionally found in  [Briarthorn] and  [Mageroyal] patches. There are no plants that contain  [Swiftthistle] only.
+- [Wildvine], in the same manner as  [Swiftthistle], is found in  [Purple Lotus] patches.
+- [Bloodvine] is an Template:Uncommon herb can be found in  [Golden Sansam] or  [Dreamfoil] patches in Zul'Gurub, and only when a  [Blood Scythe] is in your inventory.
+- [Black Lotus] (also Template:Uncommon) is extremely rare and hard to find. It requires 300 herbalism skill and is still hard to pick (will get a failed attempt now and then), the Herbalism enchant will reduce failure rates on this and other herbs.
+- Tauren can harvest  [Earthroot] immediately after training Herbalism, since their skill will start at 16.
+- [Herbalist's Gloves] will give you a +5 bonus to herbalism.  When combined with a +5 herbalism enchant, you can get a max skill of 310 (325 for Tauren)

@@ -10,34 +10,34 @@ categories: ["API Functions"]
 ---
 # API GetBagName
 
-- *Arguments***
+** *Arguments***
   ;: (bagID)
   ; [bagID](API Type BagId)
    number - number of the bag the item is in, 0 is your backpack, 1-4 are the four additional bags, numbered right to left.
 
 ----
 
-  - *Returns***
+** *Returns***
 
   ; bagName
    bagName - the name of the specified bag (example "Green Woolen Bag")
 
 ----
 
-  - *Examples***
+** *Examples***
 <syntaxhighlight lang="lua">
  local bagName = GetBagName(0);  
  --Returns "Backpack"
 </syntaxhighlight>
 ----
 
-  - *Result***
+** *Result***
 
    bagName will contain the name of the specified bag if the bag number is 0-4 otherwise it will be nil, unless when the bank is opened, in which case GetBagName(-1) (for the bank) is nil and GetBagName(6) will give the name of the first bank bag, GetBagName(7) the name of the second bank bag, etc ...
 
 ----
 
-  - *Notes***
+** *Notes***
 
    It seems that there is no way to check the keyholder content; GetContainerNumSlots and GetBagName returns 0 and nil while bagID is -2.
 

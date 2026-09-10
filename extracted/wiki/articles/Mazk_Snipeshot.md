@@ -24,6 +24,6 @@ categories: ["Ammo vendors", "Booty Bay characters", "Engineering vendors", "Gob
 | gender | Male |
 | location | Old Port Authority, Stranglethorn Vale |
 
--Mazk Snipeshot** is a [goblin](goblin) [engineering](engineering) supplies vendor located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale) where he runs [Boomstick Imports East](Boomstick Imports East).
+**Mazk Snipeshot** is a [goblin](goblin) [engineering](engineering) supplies vendor located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale) where he runs [Boomstick Imports East](Boomstick Imports East).
 
 ## External links

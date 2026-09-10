@@ -25,20 +25,20 @@ categories: ["Bosses", "Stormwrought Ruins mobs", "Succubi", "Turtle WoW content
 | status | Killable |
 | instance | Stormwrought Ruins |
 
--Lady Drazare** is a boss in [Stormwrought Ruins](Stormwrought Ruins).
+**Lady Drazare** is a boss in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Abilities
 - Drazare's Embrace
 - Dark Seduction
 
 ## Quotes
-  -Aggro**
+**Aggro**
   New toys, let's hope you will not break so easily...
 
-  -Dark Seduction**
+**Dark Seduction**
   Share your darkest secrets with me!
 
-  -Death**
+**Death**
   Impossible... You... vile...
 
 ## Objective of

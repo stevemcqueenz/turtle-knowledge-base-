@@ -10,26 +10,10 @@ categories: ["Moonwhisper Coast subzones", "Tauren territories", "Turtle WoW con
 ---
 # Moonhoof Retreat
 
--Moonhoof Retreat** is a tauren camp located in [Moonwhisper Coast](Moonwhisper Coast). It is a sacred Moonhoof ceremony ground.
+**Moonhoof Retreat** is a tauren camp located in [Moonwhisper Coast](Moonwhisper Coast). It is a sacred Moonhoof ceremony ground.
 
 ## Inhabitants
-  -On the upper rise**
-- 
-- 
-- 
-- 
-- 
-- 
-
-  -At the tent**
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-## Patch changes
+**On the upper rise**
+- - - - - - ;At the tent
+- - - - - - - - ## Patch changes
 - (Patch 1.18.1|note=Added.)

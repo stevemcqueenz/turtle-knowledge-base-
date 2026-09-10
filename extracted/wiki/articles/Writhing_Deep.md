@@ -15,8 +15,8 @@ The **Writhing Deep** is the site of a [silithid](silithid) infestation in south
 It could also be considered to be Hive Zukk'ash, a minor silithid hive, considering the name of the silithid infesting the area.
 
 ## List of mobs
--[Zukk'ash Stinger](Zukk'ash Stinger)
--[Zukk'ash Tunneler](Zukk'ash Tunneler)
--[Zukk'ash Wasp](Zukk'ash Wasp)
--[Zukk'ash Worker](Zukk'ash Worker)
--[Stinglasher](Stinglasher)
+- [Zukk'ash Stinger](Zukk'ash Stinger)
+- [Zukk'ash Tunneler](Zukk'ash Tunneler)
+- [Zukk'ash Wasp](Zukk'ash Wasp)
+- [Zukk'ash Worker](Zukk'ash Worker)
+- [Stinglasher](Stinglasher)

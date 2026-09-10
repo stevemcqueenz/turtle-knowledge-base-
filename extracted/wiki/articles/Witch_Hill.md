@@ -12,4 +12,4 @@ categories: ["Dustwallow Marsh subzones", "Hills", "Pages with broken file links
 
 __NOTOC__
 
-  -Witch Hill** is an area in [Dustwallow Marsh](Dustwallow Marsh), located about a third of the way down the peninsula on the way to [Theramore Island](Theramore Island) (or northwest from there). Near its center is [Swamplight Manor](Swamplight Manor), home of ["Swamp Eye" Jarl]("Swamp Eye" Jarl). It also contains a few camps of the [Mirefin](Mirefin) [murloc](murloc) tribe.
+**Witch Hill** is an area in [Dustwallow Marsh](Dustwallow Marsh), located about a third of the way down the peninsula on the way to [Theramore Island](Theramore Island) (or northwest from there). Near its center is [Swamplight Manor](Swamplight Manor), home of ["Swamp Eye" Jarl]("Swamp Eye" Jarl). It also contains a few camps of the [Mirefin](Mirefin) [murloc](murloc) tribe.

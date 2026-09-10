@@ -26,8 +26,8 @@ categories: ["Alliance quests", "Blasted Lands quests", "Quests at 54", "Turtle 
 
 ## Objectives
 Gather 3 Felguard Cuffs, and 3 Felhound Claws for Watcher Mahar Ba in Nethergarde Keep at the Blasted Lands.
--[Felguard Cuff](Felguard Cuff) (3)
--[Felhound Claw](Felhound Claw) (3)
+- [Felguard Cuff](Felguard Cuff) (3)
+- [Felhound Claw](Felhound Claw) (3)
 
 ## Description
 The Riftwatchers and myself have much work to do in our studying now that we know what is happening. I will need you to assist and gather some items from the demons nearest to the Dark Portal.
@@ -40,8 +40,8 @@ Once they are obtained, return them to me, at once, three of each should suffice
 
 ## Rewards
 You will receive:
--4650 XP
--+100 [reputation](reputation) with [Dalaran](Dalaran (faction))
+- 4650 XP
+- +100 [reputation](reputation) with [Dalaran](Dalaran (faction))
 
 ## Progress
 Have the items been recovered yet <class>?

@@ -24,7 +24,7 @@ categories: ["Dungeons", "Eastern Kingdoms", "Human territories", "Prisons", "Th
 | players | 5 (10) |
 | bosses |  |
 
--Stormwind Stockade**, also known as **The Stockade**, is a heavily guarded prison in the middle of [Stormwind City](Stormwind City). A large number of dangerous criminals, including some criminal masterminds and Defias mercenaries, are currently being held in the stockade. However, not so long ago, there was a revolt inside the dungeon, and the prisoners now keep the Stockade under their control.
+**Stormwind Stockade**, also known as **The Stockade**, is a heavily guarded prison in the middle of [Stormwind City](Stormwind City). A large number of dangerous criminals, including some criminal masterminds and Defias mercenaries, are currently being held in the stockade. However, not so long ago, there was a revolt inside the dungeon, and the prisoners now keep the Stockade under their control.
 
 ## History
   *The Stockade is a high-security prison complex, hidden beneath the [canal district](Canals (Stormwind City)) of [Stormwind](Stormwind) city. Presided over by [Warden Thelwater](Warden Thelwater), Stormwind Stockade is home to petty crooks, political insurgents, murderers and a score of the most dangerous criminals in the land. Recently, a prisoner-led revolt has resulted in a state of pandemonium within the stockade - where the guards have been driven out and the convicts roam free. Warden Thelwater has managed to escape the holding area and is currently enlisting brave thrill-seekers to venture into the prison and kill the uprising's mastermind - the cunning felon, [Bazil Thredd](Bazil Thredd).*
@@ -37,11 +37,11 @@ WorldMap-TheStockade.jpg
 </gallery>
 
 ## Dungeon denizens
--  [Dark Iron dwarf](Dark Iron dwarf) (one, [Kam Deepfury](Kam Deepfury))
--  [Dwarf](Dwarf) (one, [Bruegal Ironknuckle](Bruegal Ironknuckle))
--  [Human](Human)s
--  [Ogre](Ogre) (one, [Hanhock](Hanhock))
--  [Orc](Orc) (one, [Targorr the Dread](Targorr the Dread))
+- [Dark Iron dwarf](Dark Iron dwarf) (one, [Kam Deepfury](Kam Deepfury))
+- [Dwarf](Dwarf) (one, [Bruegal Ironknuckle](Bruegal Ironknuckle))
+- [Human](Human)s
+- [Ogre](Ogre) (one, [Hanhock](Hanhock))
+- [Orc](Orc) (one, [Targorr the Dread](Targorr the Dread))
 
 ## Quest guide
 {| class="fandom-table"
@@ -78,7 +78,7 @@ WorldMap-TheStockade.jpg
 |}
 
 ## Patch changes
--  **Patch 1.3.0 (2005-03-07):** Capped at ten players.
--  **Patch 0.6 (2004-04-13):** Creatures located in the Stormwind Stockade now have spells and abilities.
+- **Patch 1.3.0 (2005-03-07):** Capped at ten players.
+- **Patch 0.6 (2004-04-13):** Creatures located in the Stormwind Stockade now have spells and abilities.
 
 ## References

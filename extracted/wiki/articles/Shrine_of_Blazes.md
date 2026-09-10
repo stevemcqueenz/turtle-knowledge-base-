@@ -13,7 +13,5 @@ categories: ["Moonwhisper Coast subzones", "Temples", "Turtle WoW content"]
 The **Shrine of Blazes** is one of the four Elemental Shrines of [Moonwhisper Coast](Moonwhisper Coast), dedicated to shamanistic worship of fire.
 
 ## NPCs
-- 
-
-## Patch changes
+- ## Patch changes
 - (Patch 1.18.1|note=Added.)

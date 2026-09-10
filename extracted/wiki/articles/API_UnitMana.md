@@ -13,26 +13,26 @@ categories: ["API Functions"]
 Returns the mana points of the specified unit.
 ----
 
-  - *Usage***
+** *Usage***
 
  local mana = UnitMana("unit");
 ----
 
-  - *Arguments***
+** *Arguments***
 
   ; unit
    String - The [UnitId](API Type UnitId) of the unit whose MP should be returned
 
 ----
 
-  - *Returns***
+** *Returns***
 
   ; mana
    Number - the unit's current mana point's
 
 ----
 
-  - *Details***
+** *Details***
 
    There's nothing special about this really. There is, however, one interesting anomally: While [UnitHealth](API UnitHealth) will return percentage values for "target" and "mouseover", this one seems to return the actual mana points for all possible targets.
 

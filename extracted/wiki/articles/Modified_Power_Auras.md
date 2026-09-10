@@ -10,14 +10,14 @@ categories: ["Addon"]
 ---
 # Modified Power Auras
 
--Modified Power Auras** (MPOWA) is an advanced version of the original Power Auras, designed to help you customize visual and audio alerts for various game events.
+**Modified Power Auras** (MPOWA) is an advanced version of the original Power Auras, designed to help you customize visual and audio alerts for various game events.
 
 ## How to install
 # Download manually via GitHub (click on [Releases](https://github.com/kxseven/ModifiedPowerAuras/releases) -> Download Source code (zip) . 
 # Extract the ColorPickerPlus and ModifiedPowerAuras folders into your twow/Interface/AddOns folder. 
 # Restart / start the game.
 
-  -Note**:
+**Note**:
 
 - Deleting <code>mpowa's</code> addon and lua files from WTF->SavedVariables. Resets <code>mpowa's</code> settings but fixes a issue with timers.
 
@@ -35,20 +35,20 @@ categories: ["Addon"]
 |}
 
 ## Usage
-  -Creating and Managing Auras**
+**Creating and Managing Auras**
 
 - **Add Aura:** Click the "Add" button in the main window to create a new aura.
 - **Edit Aura:** Select an existing aura from the list and click "Edit" to adjust its settings.
 - **Remove Aura:** Select an aura and click "Remove" to delete it.
 - **Test All:** Click the "Test All" button to preview all active auras.
 
-  -Profiles**
+**Profiles**
 
 - **Import Profile:** Use the "Import" button in the profile window to load saved aura profiles.
 - **Save Profile:** Save your current aura setup via the "Save" button.
 - **Remove Profile:** Delete a selected profile with the "Remove" button.
 
-  -Icon Selection**
+**Icon Selection**
 
 - Open the icon frame with the icon button, then select an icon from the list.
 - Use the color swatch to pick icon colors.

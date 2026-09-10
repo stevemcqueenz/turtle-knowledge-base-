@@ -24,10 +24,10 @@ categories: ["Human characters", "Northwind NPCs", "Turtle WoW content"]
 | location | Northwind |
 | status | Alive |
 
--Bogdan Novak** is a [human](human) located along the road between [Ambershire](Ambershire) and [Lion's Watch](Lion's Watch) in [Northwind](Northwind).
+**Bogdan Novak** is a [human](human) located along the road between [Ambershire](Ambershire) and [Lion's Watch](Lion's Watch) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 If only I could open this blasted lock! This is just like my father—gah! He hid away his "Alteraci legacy" in this damn chest, and my patience is running thin. How stubborn can an old mule be, denying his own son the only family heirloom he has...
 
 ## Patch changes

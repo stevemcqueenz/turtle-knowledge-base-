@@ -21,7 +21,7 @@ categories: ["Pages with broken file links"]
 | faction | Horde |
 | rewards |  |
 
--Thunder Bluff** is the faction of the [Tauren](Tauren) capital city [Thunder Bluff](Thunder Bluff) located in the northern part of the region of [Mulgore](Mulgore). The whole of the city is built on bluffs several hundred feet above the surrounding landscape, and is accessible by elevators on the southwestern and northeastern sides.
+**Thunder Bluff** is the faction of the [Tauren](Tauren) capital city [Thunder Bluff](Thunder Bluff) located in the northern part of the region of [Mulgore](Mulgore). The whole of the city is built on bluffs several hundred feet above the surrounding landscape, and is accessible by elevators on the southwestern and northeastern sides.
 
 ## Reputation
 [Rumstag Proudstrider](Rumstag Proudstrider) has the Thunder Bluff repeatable cloth quests used by non-tauren Horde players to obtain the right to ride [kodo](kodo)s at exalted.

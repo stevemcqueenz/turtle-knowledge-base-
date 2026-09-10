@@ -10,7 +10,7 @@ categories: ["Blackstone Island subzones", "Lumber mills", "Stubs", "Turtle WoW 
 ---
 # Rustgate Lumber Yard
 
--Rustgate Lumber Yard** is an area located at [Blackstone Island](Blackstone Island).
+**Rustgate Lumber Yard** is an area located at [Blackstone Island](Blackstone Island).
 
 ## Patch changes
 - (Patch 1.17.1|note=Added.)

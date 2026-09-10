@@ -10,23 +10,23 @@ categories: ["Emerald Circle", "Felwood subzones", "Neutral towns", "Night elf t
 ---
 # Emerald Sanctuary
 
--Emerald Sanctuary** is a camp of the [Emerald Circle](Emerald Circle) in southeastern [Felwood](Felwood). A large amount of [druid](druid)s are stationed here, and they offer many quests to adventurers about investigating demonic corruption and snuffing it out.
+**Emerald Sanctuary** is a camp of the [Emerald Circle](Emerald Circle) in southeastern [Felwood](Felwood). A large amount of [druid](druid)s are stationed here, and they offer many quests to adventurers about investigating demonic corruption and snuffing it out.
 
 There are no amenities of any kind.
 
 ## Travel Connections
 ### Flight
-  - [Talonbranch Glade](Talonbranch Glade)**
+** [Talonbranch Glade](Talonbranch Glade)**
 
-  - [Astranaar](Astranaar)**
+** [Astranaar](Astranaar)**
 
-  - [Forest Song](Forest Song)**
+** [Forest Song](Forest Song)**
 
-  - [Bloodvenom Post](Bloodvenom Post)**
+** [Bloodvenom Post](Bloodvenom Post)**
 
-  - [Zoram'gar Outpost](Zoram'gar Outpost)**
+** [Zoram'gar Outpost](Zoram'gar Outpost)**
 
-  - [Splintertree Post](Splintertree Post)**
+** [Splintertree Post](Splintertree Post)**
 
 ## Emerald Sanctuary NPCs
 - [Arathandris Silversky](Arathandris Silversky) South of Emerald Sanctuary

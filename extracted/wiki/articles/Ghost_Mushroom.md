@@ -10,4 +10,4 @@ categories: ["Alchemy crafting reagent items", "Herbalism gathered items", "Herb
 ---
 # Ghost Mushroom
 
--Ghost Mushroom** is an [herb](herb) that can be gathered with [Herbalism](Herbalism) (245).
+**Ghost Mushroom** is an [herb](herb) that can be gathered with [Herbalism](Herbalism) (245).

@@ -19,38 +19,38 @@ Note that if you want to insert an image elsewhere other than the top of the inf
 
 ### Parameters
 #### View/discuss/edit links
-  -name : The template page name that the "view/discuss/edit" links should point to. You can use <nowiki></nowiki>. If this parameter is omitted the view/discuss/edit links will not be displayed.**
+**name : The template page name that the "view/discuss/edit" links should point to. You can use <nowiki></nowiki>. If this parameter is omitted the view/discuss/edit links will not be displayed.**
 
 #### Title
 There are two different ways to put a title on an infobox. One contains the title inside the infobox's border, the other puts it on top as a caption. You can use both of them together if you like, or just one or the other, or even neither (though this is not recommended).
-  -title : Text to put in the caption over top of the table.**
-  -above : Text to put within the uppermost cell of the table.**
+**title : Text to put in the caption over top of the table.**
+**above : Text to put within the uppermost cell of the table.**
 
 #### Optional content
-  - image : An image to display at the top of the template. Use full image syntax, for example <nowiki></nowiki>. Image is centered by default.**
-  -caption : Text to put underneath the image.**
-  -header(n) : Text to use as a header in row n.**
-  -label(n): Text to use as a label in row n.**
-  -data(n): Text to display as data in row n.**
-  -below: Text to put in the bottom cell. The bottom cell is intended for footnotes, see-also, and other such information.**
+** image : An image to display at the top of the template. Use full image syntax, for example <nowiki></nowiki>. Image is centered by default.**
+**caption : Text to put underneath the image.**
+**header(n) : Text to use as a header in row n.**
+**label(n): Text to use as a label in row n.**
+**data(n): Text to display as data in row n.**
+**below: Text to put in the bottom cell. The bottom cell is intended for footnotes, see-also, and other such information.**
 
 #### Optional CSS styling
-  -bodystyle : Applies to the infobox table as a whole**
-  -titlestyle : Applies only to the title caption. Adding a background color is usually inadvisable since the text is rendered "outside" the infobox.**
-  -abovestyle : Applies only to the "above" cell at the top. The default style has font-size:large; since this cell is usually used for a title, if you want to use the above cell for regular-sized text include "font-size:medium;" in the abovestyle.**
-  -imagestyle : Applies to the cell the image is in. This includes the text of the image caption, but you should set text properties with captionstyle instead of imagestyle in case the caption is moved out of this cell in the future.**
-  -captionstyle : Applies to the text of the image caption.**
-  -headerstyle : Applies to all header cells**
-  -labelstyle : Applies to all label cells**
-  -datastyle : Applies to all data cells**
-  -belowstyle : Applies only to the below cell**
+**bodystyle : Applies to the infobox table as a whole**
+**titlestyle : Applies only to the title caption. Adding a background color is usually inadvisable since the text is rendered "outside" the infobox.**
+**abovestyle : Applies only to the "above" cell at the top. The default style has font-size:large; since this cell is usually used for a title, if you want to use the above cell for regular-sized text include "font-size:medium;" in the abovestyle.**
+**imagestyle : Applies to the cell the image is in. This includes the text of the image caption, but you should set text properties with captionstyle instead of imagestyle in case the caption is moved out of this cell in the future.**
+**captionstyle : Applies to the text of the image caption.**
+**headerstyle : Applies to all header cells**
+**labelstyle : Applies to all label cells**
+**datastyle : Applies to all data cells**
+**belowstyle : Applies only to the below cell**
 
 #### Microformats
-  -bodyclass: This parameter is inserted into the "class" attribute for the infobox as a whole**
-  -imageclass: This parameter is inserted into the "class" attribute for the image**
-  -class(n): This parameter is inserted into the "class" attribute for the data cell of the specified row. If there's no data cell it has no effect. **
-  -titleclass: This parameter is inserted into the "class" attribute for the infobox's title caption.**
-  -aboveclass: This parameter is inserted into the "class" attribute for the infobox's above cell.**
+**bodyclass: This parameter is inserted into the "class" attribute for the infobox as a whole**
+**imageclass: This parameter is inserted into the "class" attribute for the image**
+**class(n): This parameter is inserted into the "class" attribute for the data cell of the specified row. If there's no data cell it has no effect. **
+**titleclass: This parameter is inserted into the "class" attribute for the infobox's title caption.**
+**aboveclass: This parameter is inserted into the "class" attribute for the infobox's above cell.**
 
 This template supports the addition of microformat information. This is done by adding "class" attributes to various data cells, indicating what kind of information is contained within. To flag an infobox as containing hCard information, for example, add the following parameter:
 

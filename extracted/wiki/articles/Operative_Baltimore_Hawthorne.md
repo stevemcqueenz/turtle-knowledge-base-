@@ -26,7 +26,7 @@ categories: ["Human characters", "Northwind NPCs", "Quest givers", "SI:7", "Turt
 | status | Alive |
 | location | Ambershire, Northwind |
 
--Operative Baltimore Hawthorne** is a member of [SI:7](SI:7) and a quest giver in [Ambershire](Ambershire) in [Northwind](Northwind). With SI:7 having its hands full with the Defias in [Westfall](Westfall), [Mathias Shaw](Mathias Shaw) could afford only to send Hawthorne alone to [Northwind](Northwind) to investigate a case of missing people. (ref:  [28] [Empty Houses](Empty Houses))
+**Operative Baltimore Hawthorne** is a member of [SI:7](SI:7) and a quest giver in [Ambershire](Ambershire) in [Northwind](Northwind). With SI:7 having its hands full with the Defias in [Westfall](Westfall), [Mathias Shaw](Mathias Shaw) could afford only to send Hawthorne alone to [Northwind](Northwind) to investigate a case of missing people. (ref:  [28] [Empty Houses](Empty Houses))
 
 ## Quests
 - [quest: Empty Houses] 
@@ -37,7 +37,7 @@ categories: ["Human characters", "Northwind NPCs", "Quest givers", "SI:7", "Turt
 - [quest: A Veiled Threat] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I am unsure if sending me on my own here is a sign of [Master Shaw](Mathias Shaw)'s trust in my abilities; or some sort of twisted punishment.
 
 ## Patch changes

@@ -27,25 +27,25 @@ categories: ["Bosses", "Dark Iron dwarf characters", "Dwarf ghosts", "Molten Cor
 | status | Killable |
 | instance | Molten Core |
 
--Sorcerer-Thane Thaurissan** is a boss located in [Old Shadowforge](Old Shadowforge) in [Molten Core](Molten Core). He was the leader of the [Dark Iron clan](Dark Iron clan) before and during the [War of the Three Hammers](War of the Three Hammers) and was the one responsible for first summoning the Firelord [Ragnaros](Ragnaros) into Azeroth.
+**Sorcerer-Thane Thaurissan** is a boss located in [Old Shadowforge](Old Shadowforge) in [Molten Core](Molten Core). He was the leader of the [Dark Iron clan](Dark Iron clan) before and during the [War of the Three Hammers](War of the Three Hammers) and was the one responsible for first summoning the Firelord [Ragnaros](Ragnaros) into Azeroth.
 
 ## Quotes
-  -Aggro**
+**Aggro**
   A new batch of jesters arrives at mine court.
 
-  -Mirror Image**
+**Mirror Image**
   Your own eyes against you—troubled by the flames.
 
-  -Rune of Power**
+**Rune of Power**
   Witness the Emperor—He who hath summoned the flame!
 
-  -Rune of Detonation**
+**Rune of Detonation**
   Heed my call… from within, I shall carve your demise.
 
-  -Rune of Combustion**
+**Rune of Combustion**
   Flesh and bone—melting, as I see fit.
 
-  -Death**
+**Death**
   BY… FIRE. BE. PURGE—
 
 ## Loot

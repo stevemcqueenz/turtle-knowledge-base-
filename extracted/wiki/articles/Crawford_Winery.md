@@ -10,10 +10,8 @@ categories: ["Blackrock clan", "Farms", "Human territories", "Northwind subzones
 ---
 # Crawford Winery
 
--Crawford Winery** is a vineyard located within the [Auburn Forest](Auburn Forest) of [Northwind](Northwind), to the east of [Ambershire](Ambershire). Along with the [Mildenhall Horse Farm](Mildenhall Horse Farm), it is a part of the agricultural aspects of Northwind that are coordinated by [Lady Josephine Mildenhall](Lady Josephine Mildenhall). It has recently been invaded by [orc](orc)s of the [Blackrock clan](Blackrock clan), forcing the Crawford family to flee to the [Plump Pumpkin](Plump Pumpkin) inn.
+**Crawford Winery** is a vineyard located within the [Auburn Forest](Auburn Forest) of [Northwind](Northwind), to the east of [Ambershire](Ambershire). Along with the [Mildenhall Horse Farm](Mildenhall Horse Farm), it is a part of the agricultural aspects of Northwind that are coordinated by [Lady Josephine Mildenhall](Lady Josephine Mildenhall). It has recently been invaded by [orc](orc)s of the [Blackrock clan](Blackrock clan), forcing the Crawford family to flee to the [Plump Pumpkin](Plump Pumpkin) inn.
 
 ## NPCs
-- 
-
-## Patch changes
+- ## Patch changes
 - (Patch 1.18.0|note=Added.)

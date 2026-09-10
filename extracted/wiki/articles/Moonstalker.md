@@ -13,7 +13,7 @@ categories: ["Beasts", "NPCs", "Pages with broken file links", "Stubs"]
 A striped, black-colored big [cat](cat) found only in Darkshore.  These beasts are very aggressive, but their high swing speed and beautiful black coloration attracts some [hunter](hunter)s to tame them.
 
 Types of **Moonstalkers**:
--Moonstalker
--[Moonstalker Sire](Moonstalker Sire)
--[Moonstalker Matriarch](Moonstalker Matriarch)
--[Moonstalker Runt](Moonstalker Runt)
+- Moonstalker
+- [Moonstalker Sire](Moonstalker Sire)
+- [Moonstalker Matriarch](Moonstalker Matriarch)
+- [Moonstalker Runt](Moonstalker Runt)

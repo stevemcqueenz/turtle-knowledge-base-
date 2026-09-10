@@ -10,4 +10,4 @@ categories: ["Defias Brotherhood", "Duskwood subzones", "Farms", "Human territor
 ---
 # Yorgen Farmstead
 
--The Yorgen Farmstead** is an abandoned farm in southern [Duskwood](Duskwood). The farm was once owned by [Sven Yorgen](Sven Yorgen) who can be found at the small camp on the [Darkened Bank](Darkened Bank). The farmstead is now in the hands of the [Defias Brotherhood](Defias Brotherhood). Be wary when approaching the farmstead, as many stealthed Defias assassins patrol the area.
+**The Yorgen Farmstead** is an abandoned farm in southern [Duskwood](Duskwood). The farm was once owned by [Sven Yorgen](Sven Yorgen) who can be found at the small camp on the [Darkened Bank](Darkened Bank). The farmstead is now in the hands of the [Defias Brotherhood](Defias Brotherhood). Be wary when approaching the farmstead, as many stealthed Defias assassins patrol the area.

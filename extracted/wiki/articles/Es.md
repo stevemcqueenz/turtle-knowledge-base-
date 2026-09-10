@@ -35,7 +35,7 @@ __TOC__
 
 4. Continúa con la verificación de tu cuenta, luego procede con las instrucciones según tu sistema operativo.
 
-  -Importante**
+**Importante**
 - Los operadores, administradores y la dirección general jamás pedirán contraseñas de cuentas bajo ninguna circunstancia.
 - Es necesario que recuerdes el nombre de usuario y la contraseña, estas credenciales serán las que utilices para iniciar sesión en el cliente del juego.
 - También es necesario que recuerdes tu correo electrónico, lo que permitirá acciones futuras como recuperar tu cuenta, cambiar las credenciales o mantenerse actualizado mediante comunicación oficial del personal frente a grandes cambios.
@@ -63,7 +63,7 @@ Dos opciones comunes son Parallels y VMware Fusion. Parallels es un software de 
 
 2. Una vez que tengas tu máquina virtual con Windows configurada, descarga el cliente de Turtle WoW dentro de esta máquina virtual y sigue las instrucciones para [Windows](#Windows).
 
-  -Importante**
+**Importante**
 - En Parallels, es posible que recibas un error inmediatamente después de entrar al mundo o al abrir el diálogo de opciones de video. Esto puede solucionarse instalando el fix de menú desplegable para resolución de pantalla (screen resolution dropdown fix), que puedes descargar haciendo [clic aquí](https://github.com/veechs/ScreenResolutionDropdownFix).
 
 <p style="margin: 0">[Volver al índice](#Índice_de_Contenido)</p>
@@ -75,7 +75,7 @@ Turtle WoW incorpora sistemas únicos que enriquecen la experiencia de juego, de
 #### ¿Qué es la diplomacia?
 La diplomacia es una característica única de Turtle WoW que permite a los jugadores de la Horda y la Alianza agruparse, comerciar y comunicarse entre sí. Un jugador puede convertirse en diplomático al hablar con un NPC en el Distrito Comercial de Stormwind (cerca del banco) o en el Valle de la Fuerza de Orgrimmar (en la taberna).
 
-  -Importante**
+**Importante**
 - La diplomacia no hace que los personajes no jugadores (NPC) sean amigables contigo. Seguirás siendo atacado por los guardias si intentas ingresar a una ciudad de la facción opuesta.
 
 <p style="margin: 0">[Volver al índice](#Índice_de_Contenido)</p>
@@ -89,7 +89,7 @@ Con el uso del sistema de diplomacia, los Paladines y los Chamanes pueden estar 
 - **Salvación (Salvation)**: Aire Tranquilo (Tranquil Air).
 - **Santuario (Sanctuary)**: Piel de Piedra (Stoneskin).
 
-  -Importante**
+**Importante**
 - Las auras de resistencia y los tótems del mismo elemento no se apilan, aunque los tótems no eliminarán las auras.
 
 ### Escalado de Mazmorras
@@ -99,7 +99,7 @@ Los desarrolladores implementaron a finales de julio de 2019 el escalado de mazm
 - El escalado solo está activo en áreas de instancia. Esto quiere decir que los jefes mundiales, como Azuregos y Lord Kazzak, no se ven afectados por este sistema.
 - El escalado solo cuenta a aquellos que están dentro de la instancia. Si un miembro de la mazmorra está fuera de la instancia o desconectado, no se cuenta en el total para el escalado.
 
-  -Importante**
+**Importante**
 - Es más beneficioso contar con un buen jugador de mazmorra que depender del escalado, tanto en términos mecánicos como sociales. Después de todo, la mayor parte de la diversión de hacer mazmorras viene de pasar tiempo juntos, no solo de ajustarse a la dificultad del contenido.
 
 <p style="margin: 0">[Volver al índice](#Índice_de_Contenido)</p>
@@ -111,7 +111,7 @@ Es la verdadera prueba de tus habilidades como jugador: subir de nivel como un s
 #### ¿Cómo funciona?
 Para unirte al desafío, crea un personaje como de costumbre y busca al NPC llamado **Extraño Misterioso (Mysterious Stranger)** en tu ubicación inicial. Acepta y completa la misión "Quédate un rato y escucha..." para convertirte en mortal.
 
-  -Importante**
+**Importante**
 - Esta decisión es irreversible. Tus bolsas, banco y objetos de correo se borrarán una vez que te conviertas en mortal.
 - Automáticamente te unirás a un canal de chat Hardcore al que solo tendrán acceso los jugadores de modo Hardcore e Inferno, lo que te ayudará a encontrar fácilmente a otros jugadores que también estén subiendo personajes hardcore. Esta función te permite formar gemios independientes sin perder contacto con la comunidad Hardcore en general.
 
@@ -127,7 +127,7 @@ También conocido como HC60, ¡este es el desafío Hardcore de nivel máximo! Al
 # Está estrictamente prohibido hacer multiboxing si alguno de tus personajes está realizando un desafío Hardcore.
 # Los personajes Hardcore no pueden recibir ayuda de jugadores fuera de su grupo.
 
-  -Importante**
+**Importante**
 - No se restaurarán personajes hardcore fallecidos **por ningún motivo**, incluyendo problemas de conexión, errores, calentamiento global, un hermano menor, o cualquier otra razón.
 - Cuando tu personaje muera, el juego terminará para ti. Si eliges crear y jugar un personaje hardcore, lo haces bajo tu propio riesgo.
 - Mientras no los elimines, los personajes de nivel <code>10</code> o superior se mostrarán en nuestra tabla de clasificación.
@@ -145,32 +145,32 @@ Este es un desafío pensado para los jugadores que disfrutan de las misiones y e
 - Las tasas de mazmorras permanecen en <code>x1.0</code> solo para grupos, para fomentar que los jugadores se agrupen y hagan mazmorras.
 
 #### Recompensas
-  -Nivel 10**
+**Nivel 10**
 - <code>x5</code> Fashion Coin
 - <code>x1</code> Camiseta de Lino Finamente Confeccionada
 - <code>x1</code> Bolsillo de Cinturón del Aventurero
 
-  -Nivel 20**
+**Nivel 20**
 - <code>x5</code> Fashion Coin
 - <code>x1</code> Antorcha del Buscador de Tesoros
 - <code>x1</code> Lechón Negro
 
-  -Nivel 30**
+**Nivel 30**
 - <code>x5</code> Fashion Coin
 - <code>x1</code> Ídolo Tallado de Ogro
 - <code>x1</code> Mochila del Aventurero
 
-  -Nivel 40**
+**Nivel 40**
 - <code>x5</code> Fashion Coin
 - <code>x1</code> Fuegos Artificiales Eternos
 
-  -Nivel 50**
+**Nivel 50**
 - <code>x5</code> Fashion Coin
 - <code>x1</code> Terky
 - <code>x1</code> Mochila del Aventurero
 - <code>x1</code> Ilusión: Murloc
 
-  -Nivel 60**
+**Nivel 60**
 - <code>x5</code> Fashion Coin
 - <code>x200</code> Tokens
 - <code>x1</code> Espada de las Mil Verdades
@@ -187,7 +187,7 @@ Estarás obligado a usar únicamente equipo de calidad pobre o común hasta alca
 - Título de "El Vagabundo".
 - Una mula para cargar todas tus posesiones no tan valiosas.
 
-  -Importante**
+**Importante**
 - Si decides jugar aceptando el desafío, no podrás encantar objetos.
 
 ## Profesiones Únicas
@@ -209,7 +209,7 @@ Con el nivel de habilidad <code>1</code>, adquieres la habilidad para encender u
 #### Carpas
 Con el nivel de habilidad <code>75</code> y nivel de personaje <code>15</code>, puedes montar carpas de campaña. Para hacerlo, necesitas comprar los planos del vendedor de supervivencia en el campamento de Nesingwary. Cada <code>90</code> minutos, puedes hacer clic en los planos para usar <code>1x</code> madera simple y <code>5x</code> tela de lino para montar una carpa que dura <code>20</code> minutos. Durante la duración de la carpa, otorgará a los jugadores cercanos cinco burbujas de experiencia descansada. Cada carpa otorga la experiencia descansada por separado, por lo que es común escuchar en el chat global a personas buscando establecer "fiesta de carpas", donde varios jugadores montan carpas para ganar experiencia descansada a un ritmo acelerado.
 
-  -Importante**
+**Importante**
 - Solo puedes tener <code>30</code> burbujas de experiencia descansada a la vez, es decir el <code>1.5x</code> de tu nivel actual.
 
 <p style="margin: 0">[Volver al índice](#Índice_de_Contenido)</p>
@@ -222,24 +222,24 @@ Con un nivel de habilidad <code>100</code> y un nivel de personaje <code>20</cod
 - Esporas de setas del excavador de zanjas en la Cenarion Enclave de Darnassus.
 Una vez que tengas al menos una semilla de cada tipo, regresa con el encargado de la misión para recibir tu recompensa: una maceta y una pala gigante. Una vez que tengas la maceta en tu poder, puedes hacer clic derecho sobre ella de manera similar para colocarla. Elige una de las semillas que tengas en tu inventario para sembrarla, y luego espera. Después de <code>9</code> minutos, necesitarás [Tierra de Un'Goro](https://www.wowhead.com/classic/es/item=11018/tierra-de-ungoro) como fertilizante, y tras otros <code>9</code> minutos, deberás darla de comer con un poco de [Agua Refrescante de Manantial](https://www.wowhead.com/classic/es/item=159/agua-de-manantial-refrescante). Después de otros <code>9</code> minutos, tendrás que regar tu cultivo una vez más, ¡y estará listo para ser cosechado!
 
-  -Importante**
+**Importante**
 - Los ladrones y otros maleantes pueden robar tu trabajo si no estás atento.
 
 ##### Cultivos: Variantes y Efectos
-  -Calabazas Country Repletas** (requiere nivel <code>25</code>) tienen dos efectos diferentes:
+**Calabazas Country Repletas** (requiere nivel <code>25</code>) tienen dos efectos diferentes:
 
 - La primera variante restaura <code>552</code> puntos de salud durante <code>24</code> segundos, y si sigues comiendo durante <code>10</code> segundos, ganarás <code>6</code> de Resistencia y Espíritu durante <code>15</code> minutos.
 - La segunda variante restaura el <code>2%</code> de tu salud por segundo durante <code>24</code> segundos, y si sigues comiendo durante <code>10</code> segundos, ganarás Resistencia y Espíritu igual al <code>25%</code> de tu nivel durante <code>15</code> minutos.
 
-  -Berries de la Montaña Dulce** (requiere nivel <code>35</code>) tienen dos efectos diferentes:
+**Berries de la Montaña Dulce** (requiere nivel <code>35</code>) tienen dos efectos diferentes:
 - La primera variante restaura <code>874</code> puntos de salud durante <code>27</code> segundos, y si sigues comiendo durante <code>10</code> segundos, ganarás <code>10</code> de Agilidad durante <code>10</code> minutos.
 - La segunda variante restaura <code>874</code> puntos de salud durante <code>27</code> segundos, y aumenta tu Resistencia en <code>10</code> durante <code>10</code> minutos.
 
-  -Melones Rayados Jugosos** (requiere nivel <code>45</code>) tienen dos efectos diferentes:
+**Melones Rayados Jugosos** (requiere nivel <code>45</code>) tienen dos efectos diferentes:
 - La primera variante restaura <code>1392</code> puntos de salud durante <code>30</code> segundos, y si sigues comiendo durante <code>10</code> segundos, ganarás <code>12</code> de Resistencia y Espíritu durante <code>15</code> minutos.
 - La segunda variante restaura <code>1933</code> puntos de salud durante <code>27</code> segundos, y aumenta tu Intelecto en <code>10</code> durante <code>10</code> minutos.
 
-  -Hongos Mágicos** (requiere nivel <code>55</code>) tienen dos efectos diferentes:
+**Hongos Mágicos** (requiere nivel <code>55</code>) tienen dos efectos diferentes:
 - La primera variante restaura <code>2550</code> puntos de salud durante <code>30</code> segundos, y si sigues comiendo durante <code>10</code> segundos, ganarás <code>25</code> de Resistencia durante <code>15</code> minutos.
 - La segunda variante restaura <code>2148</code> puntos de salud durante <code>30</code> segundos, y si sigues comiendo durante <code>10</code> segundos, ganarás <code>20</code> de Fuerza durante <code>15</code> minutos.
 
@@ -264,13 +264,13 @@ Puedes elegir una de estas subespecializaciones al alcanzar un nivel de habilida
 
 Todos los joyeros pueden crear racimos de gemas, lo que permitirá reciclar materiales para obtener más joyas de lo que sería posible normalmente a través de la minería. Además, aparecerán depósitos de gemas raras en el mundo. Estos depósitos pueden reemplazar los filones de torio y requieren una habilidad en minería de <code>310</code>.
 
-  -Importante**
+**Importante**
 Minar estos depósitos puede proporcionar diversas gemas de diferentes niveles, pero lo más notable es que garantizan un topacio imperial, un material clave tanto para la subespecialización de Gemología como para la de Joyería, similar al loto negro y vital para las creaciones de alto nivel.
 
 ##### ¿Qué pueden crear los joyeros?
 Entre las cosas que pueden crear se encuentran: anillos, collares, bastones, abalorios, objetos para la mano secundaria, cascos y, notablemente, piedras preciosas.
 
-  -Importante**
+**Importante**
 - No todos los objetos estarán disponibles de inmediato y se desbloquearán a medida que avances en la profesión.
 - Para obtener ciertos materiales necesitarás la ayuda de otros jugadores con diferente profesión, por ejemplo, encantadores.
 
@@ -299,7 +299,7 @@ En Vanilla WoW, cada raza tenía un enfoque diferente para su adoración, lo que
 - El primer hechizo que obtienen es **Sanción Divina (Divine Sanction)**. Se obtiene al nivel <code>10</code> y es un hechizo de aumento dirigido, que aumenta la velocidad de ataque cuerpo a cuerpo, a distancia y de lanzamiento de hechizos del objetivo en un <code>10%</code> durante <code>10</code> segundos, con un tiempo de reutilización de <code>6</code> minutos. Debido a que el hechizo se basa completamente en un porcentaje, no tiene otros rangos para aprender.
 - El segundo hechizo que obtienen es **Abrazo del Sol (Sun's Embrace)**, que se obtiene inicialmente al nivel <code>20</code>, con rangos adicionales disponibles a los niveles <code>36</code>, <code>48</code> y <code>60</code>. Abrazo del Sol es un aumento auto-dirigido que reduce el costo de maná de los próximos <code>5</code> hechizos de **Golpe Sagrado (Smite)**, **Fuego Sagrado (Holy Fire)** y **Golpe Divino (Holy Smite)** que lances dentro de los siguientes <code>20</code> segundos, con un tiempo de reutilización de <code>5</code> minutos.
 
-  -Importante**
+**Importante**
 - Ambos hechizos son sagrados, por lo que no pueden ser lanzados mientras estés en **Forma de las Sombras (Shadowform)**, aunque **Abrazo del Sol (Sun's Embrace)** no es especialmente útil para sacerdotes de las sombras.
 
 <p style="margin: 0">[Volver al índice](#Índice_de_Contenido)</p>
@@ -313,7 +313,7 @@ La nueva raza jugable de la Horda, los Goblins de la Compañía de Aventura, tie
 - **Prospección (Prospecting)**: <code>+10</code> en Habilidad con minería.
 - **Estrategia de Escape (Exit Strategy)**: La habilidad racial activada, aumenta la velocidad de movimiento del lanzador en un <code>40%</code> durante <code>5</code> segundos. Sin embargo, mientras la velocidad esté aumentada, no es posible atacar ni lanzar hechizos, y al final de la duración, se ralentiza un <code>20%</code> durante <code>2</code> segundos.
 
-  -Importante**
+**Importante**
 - Efectos como estos se clasifican como efectos negativos, por lo que no puedes simplemente hacer clic derecho sobre ellos para eliminarlos.
 
 <p style="margin: 0">[Volver al índice](#Índice_de_Contenido)</p>
@@ -357,7 +357,7 @@ Golpe Sagrado (Holy Strike) se aprende inicialmente mediante una misión en tu c
 
 Una vez que hayas aprendido el primer rango, los rangos futuros se aprenden de libros que se compran a un vendedor en la misma sala donde recibiste la misión.
 
-  -Importante**
+**Importante**
 - La habilidad **Golpe Sagrado (Holy Strike)** aumenta el daño de tu siguiente ataque, con cada rango incrementando el daño adicional y el maná requerido, y convierte todo el daño en daño sagrado. Tiene un tiempo de reutilización de <code>8</code> segundos, y un gran poder.
 
 <p style="margin: 0">[Volver al índice](#Índice_de_Contenido)</p>
@@ -373,7 +373,7 @@ El disfraz se obtiene mediante una misión que recibes de tu instructor de clase
 - El **Trogg Astillapiedra** está en las montañas al oeste de Thelsamar, en Loch Modan.
 - El **Esbirro del Sindicato** está en la Mansión Northfold, al noroeste de las Tierras Altas de Arathi.
 
-  -Importante**
+**Importante**
 - Cada disfraz requiere materiales para ser creado y usado, y se quitará al realizar una acción hostil. Los disfraces son solo cosméticos y no engañarán a los personajes no jugadores (NPC).
 
 <p style="margin: 0">[Volver al índice](#Índice_de_Contenido)</p>

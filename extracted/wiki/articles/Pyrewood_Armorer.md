@@ -27,4 +27,4 @@ categories: ["Armor vendors", "Armorsmiths", "Human characters", "Silverpine For
 The **Pyrewood Armorer** is a [human](human) [armor](armor) [vendor](vendor) found at the [Blacksmith](Blacksmith (building)) in [Pyrewood Village](Pyrewood Village) in [Silverpine Forest](Silverpine Forest). At night, he transforms into his [worgen](worgen) form as the **[Moonrage Armorer](Moonrage Armorer)**.
 
 ## Notes
--He is affiliated with [Stormwind](Stormwind (faction)) during the daytime to make him unattackable by Alliance players.
+- He is affiliated with [Stormwind](Stormwind (faction)) during the daytime to make him unattackable by Alliance players.

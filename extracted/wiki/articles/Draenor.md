@@ -17,6 +17,6 @@ Eventually, the power of the Dark Portal twisted and tore Draenor apart, leaving
 The [Night Elf](Night Elf) Demon [Illidan](Illidan) and many of the [Naga](Naga) and [Blood Elves](Blood Elf) also fled to Draenor/Outland after their defeat in [Northrend](Northrend) at the hands of [Prince Arthas](Prince Arthas)/The [Lich King](Lich King).
 
 ## Native Draenor Creatures
--[Orc](Orc)s
--[Ogre](Ogre)s
--[Draenei](Draenei)
+- [Orc](Orc)s
+- [Ogre](Ogre)s
+- [Draenei](Draenei)

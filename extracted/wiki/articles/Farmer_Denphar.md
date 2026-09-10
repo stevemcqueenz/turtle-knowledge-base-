@@ -23,13 +23,13 @@ categories: ["Draenei characters", "Moonwhisper Coast NPCs", "Quset givers", "Tu
 | location | Moonwhisper Coast |
 | status | Alive |
 
--Farmer Denphar** is a [draenei](draenei) quest giver located in [Moonwhisper Coast](Moonwhisper Coast).
+**Farmer Denphar** is a [draenei](draenei) quest giver located in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: Farm Raiders] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Maintaining our farm has become increasingly more difficult. Either it is the local wildlife or those wretched servitors causing trouble for me! If only I could return to the days where I was tending to my crops in peace and not in mortal danger.
 
 ## Patch changes

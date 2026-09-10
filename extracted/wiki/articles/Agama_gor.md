@@ -10,6 +10,6 @@ categories: ["Barrens subzones", "Pages with broken file links", "Quilboar terri
 ---
 # Agama'gor
 
--Agama'gor**[44, 50] was a large [Bristleback](Bristleback tribe) [quilboar](quilboar) settlement located just north of the road leading west from [Camp Taurajo](Camp Taurajo). Its close proximity to the camp makes it a convenient area to grind for [Blood Shard](Blood Shard)s which are dropped by Bristleback quilboar [mob](mob)s and can be returned to the exile [Mangletooth](Mangletooth) for temporary [buff](buff)s.
+**Agama'gor**[44, 50] was a large [Bristleback](Bristleback tribe) [quilboar](quilboar) settlement located just north of the road leading west from [Camp Taurajo](Camp Taurajo). Its close proximity to the camp makes it a convenient area to grind for [Blood Shard](Blood Shard)s which are dropped by Bristleback quilboar [mob](mob)s and can be returned to the exile [Mangletooth](Mangletooth) for temporary [buff](buff)s.
 
 ## External links

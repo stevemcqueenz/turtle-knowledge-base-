@@ -28,7 +28,7 @@ categories: ["Feralas NPCs", "Night elf characters", "Quest givers", "Sentinels"
 | status | Alive |
 | relatives | Tyrande (surrogate mother), parents and other relatives killed in the War of the Ancients |
 
--Shandris Feathermoon** is a [night elf](night elf) quest giver located in [Feathermoon Stronghold](Feathermoon Stronghold) in [Feralas](Feralas). She is the General of the Sentinel Army.
+**Shandris Feathermoon** is a [night elf](night elf) quest giver located in [Feathermoon Stronghold](Feathermoon Stronghold) in [Feralas](Feralas). She is the General of the Sentinel Army.
 
 ## Biography
 ### War of the Ancients

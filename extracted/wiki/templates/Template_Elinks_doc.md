@@ -15,12 +15,12 @@ A template that redirects to the Turtle WoW database. To be used under the Exter
 Based on the article type, use the word type (**quest**, **npc**, **item**, **object**, **spell**, **faction**) as the first parameter and the respective ID as the second parameter.
 
 Example codes:
--<nowiki></nowiki>
--<nowiki></nowiki>
--<nowiki></nowiki>
--<nowiki></nowiki>
--<nowiki></nowiki>
--<nowiki></nowiki>
+- <nowiki></nowiki>
+- <nowiki></nowiki>
+- <nowiki></nowiki>
+- <nowiki></nowiki>
+- <nowiki></nowiki>
+- <nowiki></nowiki>
 
 Generates:
 

@@ -30,8 +30,8 @@ See [List of Durotar NPCs](List of Durotar NPCs).
 
 ## Quests
 He starts the following quests:
--[quest: Report to Orgnil]
--[quest: Minshina's Skull]
--[quest: Zalazane]
--[quest: The Spider God] (Dungeon)
--[quest: Summoning Shadra] (Elite)
+- [quest: Report to Orgnil]
+- [quest: Minshina's Skull]
+- [quest: Zalazane]
+- [quest: The Spider God] (Dungeon)
+- [quest: Summoning Shadra] (Elite)

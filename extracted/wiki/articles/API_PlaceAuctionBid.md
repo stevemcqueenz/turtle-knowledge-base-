@@ -14,7 +14,7 @@ Place a bid on the selected auction item.
  PlaceAuctionBid("type", index, bid);
 ----
 
-  - *Arguments***
+** *Arguments***
    (string type)
 
   ; type

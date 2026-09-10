@@ -25,6 +25,4 @@ categories: ["Caves", "Dun Morogh", "Ice troll territories", "Pages with broken 
 This unnamed cave is located in the south of [Coldridge Valley](Coldridge Valley) in [Dun Morogh](Dun Morogh), and is inhabited by [ice troll](ice troll)s of the [Frostmane](Frostmane clan). [Grelin Whitebeard](Grelin Whitebeard) has been tasked by the [Senate of Ironforge](Senate of Ironforge) with investigating the threat posed by the trolls in Coldridge Valley.
 
 ## NPCs
-- 
-- 
--
+- - -

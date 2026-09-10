@@ -13,12 +13,7 @@ categories: ["Burial sites", "Churches", "Elite areas", "Gardens", "Northwind su
 The **Abbey Gardens** are the grounds of the [Saint Mara Abbey](Saint Mara Abbey), which was burned down under mysterious circumstances. (ref: [quest: Remember the Dead]) The undead still roam the gardens and abbey. A [crypt](Crypt (Northwind)) can be found in the abbey's graveyard.
 
 ## NPCs
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - ## Patch changes
 - (Patch 1.18.0|note=Added.)
 
 ## References

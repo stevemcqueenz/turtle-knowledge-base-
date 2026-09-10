@@ -26,14 +26,14 @@ categories: ["Human characters", "Quest givers", "SI:7", "Turtle WoW content", "
 | status | Alive |
 | relatives | Anthony Dursley |
 
--Robb Dursley** is a [human](human) quest giver located in the town of [Hawk's Vigil](Hawk's Vigil) in the [Wetlands](Wetlands). An undercover [SI:7](SI:7) operative, he was sent to Hawk's Vigil by [Mathias Shaw](Mathias Shaw) to investigate [Harlus Ashbuckle](Harlus Ashbuckle).
+**Robb Dursley** is a [human](human) quest giver located in the town of [Hawk's Vigil](Hawk's Vigil) in the [Wetlands](Wetlands). An undercover [SI:7](SI:7) operative, he was sent to Hawk's Vigil by [Mathias Shaw](Mathias Shaw) to investigate [Harlus Ashbuckle](Harlus Ashbuckle).
 
 ## Quests
 - [quest: Overlapping Investigations] 
 - [quest: Robb's Report] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Lovely day, isn't it?
 
 ## Trivia

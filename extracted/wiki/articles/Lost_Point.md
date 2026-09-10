@@ -10,4 +10,4 @@ categories: ["Deserters", "Dustwallow Marsh subzones", "Human territories", "Pag
 ---
 # Lost Point
 
--Lost Point** is a run-down, decrepit [scout tower](scout tower) built by the [human](human)s of [Theramore](Theramore (nation)). It is located in western [Dustwallow Marsh](Dustwallow Marsh), and is currently inhabited by [Theramore deserters](Deserter#Theramore deserters). [Balos Jacken](Balos Jacken) is these deserters' leader, and has information about [Private Hendel](Private Hendel)'s part in the kidnapping of a very [important personality](Varian Wrynn).
+**Lost Point** is a run-down, decrepit [scout tower](scout tower) built by the [human](human)s of [Theramore](Theramore (nation)). It is located in western [Dustwallow Marsh](Dustwallow Marsh), and is currently inhabited by [Theramore deserters](Deserter#Theramore deserters). [Balos Jacken](Balos Jacken) is these deserters' leader, and has information about [Private Hendel](Private Hendel)'s part in the kidnapping of a very [important personality](Varian Wrynn).

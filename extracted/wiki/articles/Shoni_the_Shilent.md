@@ -24,10 +24,10 @@ categories: ["Gnome characters", "Quest givers", "Stormwind City NPCs"]
 | status | Alive |
 | location | Dwarven District, Stormwind City |
 
--Shoni the Shilent** is a [gnome](gnome) [quest giver](quest giver) located in the [Dwarven District](Dwarven District) in [Stormwind City](Stormwind City). She is the commander of the Gnomeregan underground assault crew.
+**Shoni the Shilent** is a [gnome](gnome) [quest giver](quest giver) located in the [Dwarven District](Dwarven District) in [Stormwind City](Stormwind City). She is the commander of the Gnomeregan underground assault crew.
 
 ## Quotes
-  -Gossip**
+**Gossip**
 For Gnomeregan!
 
 ## Quests

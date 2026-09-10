@@ -26,14 +26,14 @@ categories: ["Blasted Lands NPCs", "Dalaran (kingdom)", "Human characters", "Que
 | location | Nethergarde Keep, Blasted Lands |
 | status | Alive |
 
--Sergeant Burnside** is a [human](human) quest giver located in [Nethergarde Keep](Nethergarde Keep) in [Blasted Lands](Blasted Lands).
+**Sergeant Burnside** is a [human](human) quest giver located in [Nethergarde Keep](Nethergarde Keep) in [Blasted Lands](Blasted Lands).
 
 ## Quests
 - [quest: Finding Private Holson] 
 - [quest: Finding Private Holson II] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 We've seen all manner of foe out there, from ogre, to orc, to demon. It is only a matter of time before they grow bold enough to strike at us.
 
 We will be more then prepared for when they make such an action.

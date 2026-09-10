@@ -30,12 +30,12 @@ categories: ["Alliance quest hubs", "Alliance settlements", "Human territories",
 | flightpath | Yes |
 | status | Active |
 
--Ambershire** is an [Alliance](Alliance)-aligned town located in central [Northwind](Northwind).
+**Ambershire** is an [Alliance](Alliance)-aligned town located in central [Northwind](Northwind).
 
 ## Travel connections
 ### Flight
-  - [Stormwind City](Stormwind City), [Elwynn Forest](Elwynn Forest)**
-  - [Thorium Point](Thorium Point), [Searing Gorge](Searing Gorge)**
+** [Stormwind City](Stormwind City), [Elwynn Forest](Elwynn Forest)**
+** [Thorium Point](Thorium Point), [Searing Gorge](Searing Gorge)**
 
 ## Inhabitants
 ## Patch changes

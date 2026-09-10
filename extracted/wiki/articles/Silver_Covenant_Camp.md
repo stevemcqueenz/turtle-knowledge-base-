@@ -13,9 +13,5 @@ categories: ["Camps", "High elf territories", "Silver Covenant", "Thalassian Hig
 The **Silver Covenant Camp** is an encampment occupied by high elven forces of the [Silver Covenant](Silver Covenant) that is located in the [Thalassian Highlands](Thalassian Highlands).
 
 ## NPCs
-- 
-- 
-- 
-
-## Patch changes
+- - - ## Patch changes
 - (Patch 1.17.1|note=Added.)

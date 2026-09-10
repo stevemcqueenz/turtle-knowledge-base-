@@ -25,7 +25,7 @@ categories: ["Gilneas NPCs", "Human characters", "Quest givers", "Turtle WoW con
 | location | Dryrock Valley, Gilneas |
 | status | Alive |
 
--Parnabus** is a [human](human) [quest giver](quest giver) located in a small house in the [Dryrock Valley](Dryrock Valley) in [Gilneas](Gilneas).
+**Parnabus** is a [human](human) [quest giver](quest giver) located in a small house in the [Dryrock Valley](Dryrock Valley) in [Gilneas](Gilneas).
 
 ## Quests
 - [quest: The Upper Binding I] 

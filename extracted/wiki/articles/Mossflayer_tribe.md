@@ -10,10 +10,10 @@ categories: ["Troll", "Troll Tribes"]
 ---
 # Mossflayer tribe
 
--Location:** [Eastern Plaguelands](Eastern Plaguelands), [Undercroft](Undercroft)
+**Location:** [Eastern Plaguelands](Eastern Plaguelands), [Undercroft](Undercroft)
 
-  -Leader:** [Zaeldarr the Outcast](Zaeldarr the Outcast)
+**Leader:** [Zaeldarr the Outcast](Zaeldarr the Outcast)
 
-  -Appearance:** Green skin with green/blue hair
+**Appearance:** Green skin with green/blue hair
 
-  -History:** Most probably a group of [Amani](Amani), cut off from the rest of the Empire when the [Scourge](Scourge) invaded the lands now known as The Plaguelands.
+**History:** Most probably a group of [Amani](Amani), cut off from the rest of the Empire when the [Scourge](Scourge) invaded the lands now known as The Plaguelands.

@@ -25,10 +25,10 @@ categories: ["Draenei characters", "Moonwhisper Coast NPCs", "Turtle WoW content
 | status | Alive |
 | relatives | Chi'jec (child) |
 
--Ki'nia** is a [draenei](draenei) located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Ki'nia** is a [draenei](draenei) located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The Fallen Ones surround Moro'gai Village like vultures circling over a dying animal. To think some of them were once our friends...
 
 ## Patch changes

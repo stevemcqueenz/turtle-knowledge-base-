@@ -25,7 +25,7 @@ categories: ["Ammo vendors", "Grim Reaches NPCs", "Orc characters", "Turtle WoW 
 | location | Shatterblade Post, Grim Reaches |
 | status | Alive |
 
--Maktha** is an [orc](orc) ammo vendor located in the outpost of [Shatterblade Post](Shatterblade Post) in the [Grim Reaches](Grim Reaches).
+**Maktha** is an [orc](orc) ammo vendor located in the outpost of [Shatterblade Post](Shatterblade Post) in the [Grim Reaches](Grim Reaches).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

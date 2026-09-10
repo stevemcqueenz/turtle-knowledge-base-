@@ -10,7 +10,7 @@ categories: ["Quest items", "Readable items", "Turtle WoW content"]
 ---
 # Dossier: Isiden Perenolde
 
--Dossier: Isiden Perenolde** drops from [Overlord Grigor](Overlord Grigor) at the [Dryrock Pit](Dryrock Pit) in [Gilneas](Gilneas).
+**Dossier: Isiden Perenolde** drops from [Overlord Grigor](Overlord Grigor) at the [Dryrock Pit](Dryrock Pit) in [Gilneas](Gilneas).
 
 ## As a quest objective
 This item is an objective of [quest: Legacy of Perenolde].

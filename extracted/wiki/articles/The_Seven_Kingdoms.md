@@ -12,7 +12,7 @@ categories: ["History of Warcraft", "In-Game Books", "Lore"]
 
 <B style="font-weight:normal;background-color:#2b2b2b;">[  [Source Text](WoWWiki:Article_type)  ]</B>
 
--The Seven Kingdoms* is a section of the [History of Warcraft](History of Warcraft), Chapter II.  It is set 1 200 years before Warcraft I.  The text is also available as an [in-game book](:Category:In-Game Books).
+*The Seven Kingdoms* is a section of the [History of Warcraft](History of Warcraft), Chapter II.  It is set 1 200 years before Warcraft I.  The text is also available as an [in-game book](:Category:In-Game Books).
 
 Found at:
 - Reliquary of [Scholomance](Scholomance) in the [Western Plaguelands](Western Plaguelands).

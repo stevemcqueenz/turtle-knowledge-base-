@@ -13,7 +13,7 @@ categories: ["Addon"]
 QuickCall enables players to quickly call out incoming enemies in Arathi Basin by pressing UI buttons or using keybindings. The addon automatically activates upon entering Arathi Basin but can also be manually shown with the command <code>/Quickcall</code> or <code>/qc</code>.
 
 ## Installation
-  -GitAddonsManager (Recommended)**
+**GitAddonsManager (Recommended)**
 
 The easiest way to keep **QuickCall** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **QuickCall** up to date is by using [GitAddonsManager](
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -34,8 +34,8 @@ If you prefer manual installation, follow these steps:
 - [**(me0wg4ming)**](https://github.com/me0wg4ming/Quickcall) 
 
 ## Preview
-  -Keybinds:**
-  -Call Window:**<gallery>
+**Keybinds:**
+**Call Window:**<gallery>
 File:486550873-7abd23ed-164c-4edd-ae2f-5405b4c18d19.png
 File:486550895-7f586b0a-15ce-43d3-9ece-14fed156c6b3.png
 </gallery>

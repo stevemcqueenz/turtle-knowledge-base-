@@ -10,4 +10,4 @@ categories: ["Caves", "Durotar subzones", "Orc territories", "Pages with broken 
 ---
 # Skull Rock
 
--Skull Rock** in northeastern [Durotar](Durotar) [55, 11] is one of several holdouts of the [Burning Blade](Burning Blade) clan in Durotar. The leader of the Burning Blade within Skull Rock is the [orc](orc) [warlock](warlock), [Gazz'uz](Gazz'uz). The quest  is performed within this cave.
+**Skull Rock** in northeastern [Durotar](Durotar) [55, 11] is one of several holdouts of the [Burning Blade](Burning Blade) clan in Durotar. The leader of the Burning Blade within Skull Rock is the [orc](orc) [warlock](warlock), [Gazz'uz](Gazz'uz). The quest  is performed within this cave.

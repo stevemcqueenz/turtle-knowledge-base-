@@ -10,4 +10,4 @@ categories: ["Eastern Plaguelands subzones", "Forsaken territories", "Pages with
 ---
 # Marris Stead
 
--The Marris Stead** rests atop a small ridge in the [Eastern Plaguelands](Eastern Plaguelands) near the border of the [Western Plaguelands](Western Plaguelands). It is the long time family home of [Nathanos Marris the Blightcaller](Nathanos Blightcaller), who still makes the stead his home, despite being one with the [Forsaken](Forsaken) and hunted by the [Alliance](Alliance).
+**The Marris Stead** rests atop a small ridge in the [Eastern Plaguelands](Eastern Plaguelands) near the border of the [Western Plaguelands](Western Plaguelands). It is the long time family home of [Nathanos Marris the Blightcaller](Nathanos Blightcaller), who still makes the stead his home, despite being one with the [Forsaken](Forsaken) and hunted by the [Alliance](Alliance).

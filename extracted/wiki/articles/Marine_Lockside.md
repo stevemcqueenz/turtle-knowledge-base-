@@ -24,7 +24,7 @@ categories: ["Human characters", "Kul Tiran Exploratory Fleet", "Lapidis Isle NP
 | location | The Rock, Lapidis Isle |
 | status | Alive |
 
--Marine Lockside** is a [human](human) located at [the Rock](the Rock) in [Lapidis Isle](Lapidis Isle).
+**Marine Lockside** is a [human](human) located at [the Rock](the Rock) in [Lapidis Isle](Lapidis Isle).
 
 ## Quotes
 ### Gossip

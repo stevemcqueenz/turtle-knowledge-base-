@@ -33,11 +33,11 @@ Inspects the specified / selected "unit".
  end
 </syntaxhighlight>
 ## Info
-  -UnitPlayerControlled("unit")**
+**UnitPlayerControlled("unit")**
    [UnitPlayerControlled("unit")](API UnitPlayerControlled) - Returns true if the specified unit is controlled by a player, false otherwise.
-  -UnitIsUnit("unit", "otherunit")**
+**UnitIsUnit("unit", "otherunit")**
    [UnitIsUnit("unit", "otherUnit")](API UnitIsUnit) - Returns true if the two specified units refer to the same unit (e.g., "player" and "target" can refer to the same unit), false otherwise.
-  -CheckInteractDistance("unit", distIndex)**
+**CheckInteractDistance("unit", distIndex)**
    [CheckInteractDistance](API CheckInteractDistance)("[unit](API Type UnitId)",distIndex) - Returns true if you are in range of the specified unit to perform the action specified by distIndex. Otherwise, returns false.
 
 ## Macro

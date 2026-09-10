@@ -24,7 +24,7 @@ categories: ["Azshara NPCs", "Deceased characters", "Gnome characters", "Turtle 
 | location | The Ruined Reaches, Azshara |
 | status | Deceased |
 
--Dinkle Togpipe** was a [gnome](gnome) who was killed by [murloc](murloc)s at the landing pad on an island in the [Ruined Reaches](Ruined Reaches) out to the east of [Azshara](Azshara). He was the one last in possession of the [Flaxwhisker Front](Flaxwhisker Front)'s flight logbook. (ref: [quest: The Flight Logbook])
+**Dinkle Togpipe** was a [gnome](gnome) who was killed by [murloc](murloc)s at the landing pad on an island in the [Ruined Reaches](Ruined Reaches) out to the east of [Azshara](Azshara). He was the one last in possession of the [Flaxwhisker Front](Flaxwhisker Front)'s flight logbook. (ref: [quest: The Flight Logbook])
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

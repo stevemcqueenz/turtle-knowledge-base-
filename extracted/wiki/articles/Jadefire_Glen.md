@@ -10,6 +10,6 @@ categories: ["Felwood subzones", "Pages with broken file links", "Satyr territor
 ---
 # Jadefire Glen
 
--Jadefire Glen** is an encampment of demonic [satyr](satyr) in southern [Felwood](Felwood). Many of the [quest](quest)s in Felwood involve killing the satyr here and scattered throughout the rest of the corrupted [wood](wood)s.
+**Jadefire Glen** is an encampment of demonic [satyr](satyr) in southern [Felwood](Felwood). Many of the [quest](quest)s in Felwood involve killing the satyr here and scattered throughout the rest of the corrupted [wood](wood)s.
 
 The path leading to Jadefire Glen begins at [44, 84].

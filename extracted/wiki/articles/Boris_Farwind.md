@@ -25,13 +25,13 @@ categories: ["Human characters", "Northwind NPCs", "Quest enders", "Theramore", 
 | status | Alive |
 | relatives | Markus (father),, Alessa (sister) |
 
--Boris Farwind** is a [human](human) located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind).
+**Boris Farwind** is a [human](human) located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind).
 
 ## Quests
 - [quest: Far From Home] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 [Alessa](Alessa Farwind) tries to put up a brave face, but I can see she has trouble keeping up the facade. Our family hails from Stormwind and fled to Lordaeron after the First War, so I can only imagine what races through her mind.
 
 ## Patch changes

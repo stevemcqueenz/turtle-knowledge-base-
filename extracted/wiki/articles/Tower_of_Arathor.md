@@ -10,4 +10,4 @@ categories: ["Arathi Highlands subzones", "Location stubs", "Ogres", "Pages with
 ---
 # Tower of Arathor
 
--The Tower of Arathor** is found inside [Stromgarde Keep](Stromgarde Keep) in [Arathi Highlands](Arathi Highlands). It was formerly a tower dedicated to the study of the wizards of [Arathor](Arathor), but has since the fall of Stromgarde been taken over by the [Boulderfist](Boulderfist) [ogre](ogre)s.
+**The Tower of Arathor** is found inside [Stromgarde Keep](Stromgarde Keep) in [Arathi Highlands](Arathi Highlands). It was formerly a tower dedicated to the study of the wizards of [Arathor](Arathor), but has since the fall of Stromgarde been taken over by the [Boulderfist](Boulderfist) [ogre](ogre)s.

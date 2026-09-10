@@ -10,7 +10,7 @@ categories: ["Elite areas", "Jungle troll territories", "Lapidis Isle subzones",
 ---
 # Zul'Hazu
 
--Zul'Hazu** is a large jungle troll settlement in [Lapidis Isle](Lapidis Isle). It is the territory of the [Hazzuri tribe](Hazzuri tribe), and their leaders [Chieftain Woh'zo](Chieftain Woh'zo), [Champion Raggazi](Champion Raggazi) and [Darkmaster Haza'gi](Darkmaster Haza'gi) can be found here.
+**Zul'Hazu** is a large jungle troll settlement in [Lapidis Isle](Lapidis Isle). It is the territory of the [Hazzuri tribe](Hazzuri tribe), and their leaders [Chieftain Woh'zo](Chieftain Woh'zo), [Champion Raggazi](Champion Raggazi) and [Darkmaster Haza'gi](Darkmaster Haza'gi) can be found here.
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

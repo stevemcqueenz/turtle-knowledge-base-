@@ -24,14 +24,14 @@ categories: ["High elf characters", "Moonwhisper Coast NPCs", "Quest givers", "T
 | location | Sunsworn Camp, Moonwhisper Coast |
 | status | Alive |
 
--Rhys Dawnbreeze** is a [high elf](high elf) quest giver located in [Sunsworn Camp](Sunsworn Camp) in [Moonwhisper Coast](Moonwhisper Coast).
+**Rhys Dawnbreeze** is a [high elf](high elf) quest giver located in [Sunsworn Camp](Sunsworn Camp) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: Blackroot Hold] 
 - [quest: Falling the Fallen] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Do not trust these... creatures that lurk in the bog. They watch from the mist, patient and silent.
 
 They strike only when you have already let your guard fall.

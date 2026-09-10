@@ -10,6 +10,6 @@ categories: ["Forsaken territories", "Islands", "Murlocs", "Pages with broken fi
 ---
 # Dawning Isles
 
--The Dawning Isles** used to be an idyllic set of low keys that rose from the crystalline surface of [Lordamere Lake](Lordamere Lake), but have now been affected by the [Plague of Undeath](Plague of Undeath). The trees have grown sickly, and dangerous [murloc](murloc)s and [bog beast](bog beast)s now roam the islets.
+**The Dawning Isles** used to be an idyllic set of low keys that rose from the crystalline surface of [Lordamere Lake](Lordamere Lake), but have now been affected by the [Plague of Undeath](Plague of Undeath). The trees have grown sickly, and dangerous [murloc](murloc)s and [bog beast](bog beast)s now roam the islets.
 
 The Dawning Isles along with the larger [Fenris Isle](Fenris Isle) used to form the rim of an ancient volcano, long since eroded away by the elements. Deep fissures can still be seen riddling the lakebed below the surface.

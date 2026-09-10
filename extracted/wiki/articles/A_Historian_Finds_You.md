@@ -42,7 +42,7 @@ Am I dead?
 And so you have it <name>, or is it Captain <name>? I guess I'm a crewmate from now on, well, one only YOU can see.
 
 ## Notes
-  -Speaking with Sovatir**
+**Speaking with Sovatir**
 
   I bear the knowledge of the Shen'dralar, I am a highborne of Eldre'thalas and I know a great deal about our world. Since you can aid me to gain even more knowledge I am at your service, Captain.
 

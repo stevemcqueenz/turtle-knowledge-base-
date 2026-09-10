@@ -14,27 +14,27 @@ Abandon the specified quest.
  AbandonQuest();
 ----
 
-  - *Arguments***
+** *Arguments***
 
    *none*
 
 ----
 
-  - *Returns***
+** *Returns***
 
   ; nil
 
 ----
 
-  - *Example***
+** *Example***
 
  AbandonQuest();
 
-  - *Result***
+** *Result***
 
 ----
 
-  - *Description***
+** *Description***
 
    Abandon's the specified quest. Looks like [SetAbandonQuest](API SetAbandonQuest) should be called prior to use.
 

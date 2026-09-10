@@ -26,20 +26,20 @@ categories: ["Bosses", "Tauren characters", "Turtle WoW content", "Windhorn Cany
 | status | Killable |
 | instance | Windhorn Canyon |
 
--Walgan Bloodcaller** is a boss in [Windhorn Canyon](Windhorn Canyon).
+**Walgan Bloodcaller** is a boss in [Windhorn Canyon](Windhorn Canyon).
 
 ## Abilities
 - Cleave
 - War Stomp
 
 ## Quotes
-  -Aggro**
+**Aggro**
   Be destroyed by my hands!
 
-  -At 50%**
+**At 50%**
   Enough!
 
-  -Death**
+**Death**
   This cannot... be...
 
 ## Loot

@@ -23,7 +23,7 @@ categories: ["Lapidis Isle mobs", "Turtle WoW content", "Water elementals"]
 | location | The Tower of Lapidis, Lapidis Isle |
 | companions | Arch Hydromancer Lapidis |
 
--Twisted Water Elementals** are water elemental guardians of Arch Hydromancer Lapidis found outside [the Tower of Lapidis](Tower of Lapidis) in [Lapidis Isle](Lapidis Isle).
+**Twisted Water Elementals** are water elemental guardians of Arch Hydromancer Lapidis found outside [the Tower of Lapidis](Tower of Lapidis) in [Lapidis Isle](Lapidis Isle).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

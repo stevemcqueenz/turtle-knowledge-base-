@@ -25,10 +25,10 @@ categories: ["Grim Reaches NPCs", "Turtle WoW content", "Wildhammer dwarf charac
 | location | Dun Kithas Magistrate, Grim Reaches |
 | status | Alive |
 
--Keeper Blackforge** is a [Wildhammer dwarf](Wildhammer dwarf) located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
+**Keeper Blackforge** is a [Wildhammer dwarf](Wildhammer dwarf) located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I am Keeper Blackforge, responsible with keeping the records of Dun Kithas. It is my duty to record what takes place to, and where. Should anybody steal, or speak ill of another, it is written and recorded by myself...
 
 I would advise keeping the peace, the last thing you want is to end up in the records of Dun Kithas.

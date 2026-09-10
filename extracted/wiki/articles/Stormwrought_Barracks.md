@@ -13,7 +13,4 @@ categories: ["Stormwrought Ruins subzones"]
 The **Stormwrought Barracks** is an area inside [Stormwrought Ruins](Stormwrought Ruins). The former human barracks have been converted into living space for the orcs of the [Stormreaver clan](Stormreaver clan).
 
 ## NPCs
-- 
-- 
-- 
--
+- - - -

@@ -12,9 +12,9 @@ categories: ["History of Warcraft", "Lore"]
 
 <B style="font-weight:normal;background-color:#2b2b2b;">[  [Source Text](WoWWiki:Article_type)  ]</B>
 
--The Sundering of the World* is a section of the [History of Warcraft](History of Warcraft), Chapter I.
+*The Sundering of the World* is a section of the [History of Warcraft](History of Warcraft), Chapter I.
 
--For related topics, see [Sundering](Sundering).*
+*For related topics, see [Sundering](Sundering).*
 
 ## Text
 Knowing that the [Well](Well of Eternity)'s destruction would prevent him from ever wielding magic again, [Illidan](Illidan) selfishly abandoned the group and set out to warn the [Highborne](Highborne) of [Malfurion](Malfurion)'s plan. Due to the insanity brought on by his addiction and the stinging resentment towards his brother's affair with [Tyrande](Tyrande), Illidan felt no remorse at betraying Malfurion and siding with [Azshara](Azshara) and her ilk. Above all else, Illidan vowed to protect the Well's power by any means necessary. 

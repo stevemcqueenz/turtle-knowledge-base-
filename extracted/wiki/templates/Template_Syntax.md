@@ -10,14 +10,14 @@ categories: ["General wiki templates"]
 ---
 # Template:Syntax
 
--Description**
+**Description**
   A more flexable and styled alternative to  for template syntax display (rather than linking). Designed to be used with .
 
-  -Syntax**
+**Syntax**
   
   *Note: This serves as its own example.*
 
-  -Parameters**
+**Parameters**
 
   ;1=:Template's page name (the template namespace may be exluded for shorthand use).
   ;2=:Template's display name (replaces the template's name when displayed).

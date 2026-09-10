@@ -25,7 +25,7 @@ categories: ["Barrens NPCs", "Human characters", "Kul Tiras (kingdom)", "Paladin
 | location | Anchor's Edge, the Barrens |
 | status | Killable |
 
--Sir Danuvis** is a [human](human) [quest giver](quest giver) located in [Anchor's Edge](Anchor's Edge) in [the Barrens](the Barrens).
+**Sir Danuvis** is a [human](human) [quest giver](quest giver) located in [Anchor's Edge](Anchor's Edge) in [the Barrens](the Barrens).
 
 ## Abilities
 - Holy Strike
@@ -38,7 +38,7 @@ categories: ["Barrens NPCs", "Human characters", "Kul Tiras (kingdom)", "Paladin
 - [quest: Lieutenant Alverold]
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Keep your faith in the Light, and all shall reveal itself.
 
 ## Patch changes

@@ -10,7 +10,7 @@ categories: ["Barrow dens", "Furbolg territories", "Gnarlpine", "Night elf terri
 ---
 # Ban'ethil Barrow Den
 
--Ban'ethil Barrow Den** is a small [barrow den](barrow den) in [Teldrassil](Teldrassil) that was once one of the sacred places built by [night elves](Night elf) to hold sleeping [Druids of the Talon](Druids of the Talon). However, control over it has recently been taken over by the [corrupted](Corrupted furbolg) [furbolg](furbolg) [Gnarlpine tribe](Gnarlpine tribe), and is now a dangerous place to venture for a lone night elf. Its two sections are referred to as **Lower Den** and **Upper Den**.
+**Ban'ethil Barrow Den** is a small [barrow den](barrow den) in [Teldrassil](Teldrassil) that was once one of the sacred places built by [night elves](Night elf) to hold sleeping [Druids of the Talon](Druids of the Talon). However, control over it has recently been taken over by the [corrupted](Corrupted furbolg) [furbolg](furbolg) [Gnarlpine tribe](Gnarlpine tribe), and is now a dangerous place to venture for a lone night elf. Its two sections are referred to as **Lower Den** and **Upper Den**.
 
 ## Gallery
 <gallery>

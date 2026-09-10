@@ -10,4 +10,4 @@ categories: ["Nests", "Pages with broken file links", "Plateaus", "Stubs", "Thou
 ---
 # Highperch
 
--Highperch** is an elevated western area of the [Thousand Needles](Thousand Needles) [zone](zone). It is home to the proud Highperch [wyvern](wyvern)s and their nests, and occasionally a mighty wyvern, [Heartrazor](Heartrazor (mob)), can be found here. Sometimes, members of the [Horde](Horde) come to take the eggs to be tamed as [Wind Rider](Wind Rider) mounts.
+**Highperch** is an elevated western area of the [Thousand Needles](Thousand Needles) [zone](zone). It is home to the proud Highperch [wyvern](wyvern)s and their nests, and occasionally a mighty wyvern, [Heartrazor](Heartrazor (mob)), can be found here. Sometimes, members of the [Horde](Horde) come to take the eggs to be tamed as [Wind Rider](Wind Rider) mounts.

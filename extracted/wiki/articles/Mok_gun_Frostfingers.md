@@ -23,14 +23,14 @@ categories: ["Balor NPCs", "Orc characters", "Quest givers", "Shadowmoon clan", 
 | location | Stormbreaker Point, Balor |
 | status | Active |
 
--Mok'gun Frostfingers** is an [undead](undead) [quest giver](quest giver) located at [Stormbreaker Point](Stormbreaker Point) in [Balor](Balor).
+**Mok'gun Frostfingers** is an [undead](undead) [quest giver](quest giver) located at [Stormbreaker Point](Stormbreaker Point) in [Balor](Balor).
 
 ## Quests
 - [quest: Those That Remain] 
 - [quest: Old Friend] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The [Shadow Council](Shadow Council). The [Stormreaver Clan](Stormreaver clan). The puppets of [Gul'dan](Gul'dan) - a fate I once shared. Do not mistake me for one of your Forsaken allies, nor for a mere misguided warlock. I hold domination over the deepest, coldest corners of the [Twisting Nether](Twisting Nether).
 
 ## Patch changes

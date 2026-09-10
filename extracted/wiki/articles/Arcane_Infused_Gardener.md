@@ -21,7 +21,7 @@ categories: ["Moonwhisper Coast mobs", "Treants", "Turtle WoW content"]
 | creature | Elemental |
 | location | Moonwhisper Coast |
 
--Arcane Infused Gardeners** are treants found in [Moonwhisper Coast](Moonwhisper Coast).
+**Arcane Infused Gardeners** are treants found in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Objective of
 - Drops [Arcane Bark](Arcane Bark) for [quest: Draenei Divination].

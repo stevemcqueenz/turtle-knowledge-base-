@@ -28,9 +28,9 @@ TEMPLATE CODE
 <noinclude></noinclude>
 </pre>
 
--If your template is not a completed div or table, you may need to close the tags just before <code><nowiki></nowiki></code> is inserted (within the noinclude tags).*
+*If your template is not a completed div or table, you may need to close the tags just before <code><nowiki></nowiki></code> is inserted (within the noinclude tags).*
 
--A line break right before <code><nowiki></nowiki></code> can also be useful as it helps prevent the documentation template "running into" previous code.*
+*A line break right before <code><nowiki></nowiki></code> can also be useful as it helps prevent the documentation template "running into" previous code.*
 
 ### On the documentation page
 The documentation page is usually located on the /doc subpage for a template, but a different page can be specified with the first parameter of the template (see [Syntax](#Syntax)).

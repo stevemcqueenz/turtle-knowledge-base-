@@ -25,7 +25,7 @@ categories: ["Barrens NPCs", "Human characters", "Kul Tiras (kingdom)", "Quest g
 | location | Anchor's Edge, the Barrens |
 | status | Killable |
 
--Lieutenant Alverold** is a [human](human) [quest giver](quest giver) located in [Anchor's Edge](Anchor's Edge) in [the Barrens](the Barrens). Alverold was one of [Daelin Proudmoore](Daelin Proudmoore)'s lieutenants and made up a part of the fleet which sailed to [Durotar](Durotar) in search of [Jaina Proudmoore](Jaina Proudmoore). While Proudmoore headed towards land, he ordered Alverold to take an exploratory fleet and scout out the coasts of [Kalimdor](Kalimdor). Meanwhile, Daelin did battle with the [Horde](Horde), and was killed by [Rexxar](Rexxar) and his comrades.
+**Lieutenant Alverold** is a [human](human) [quest giver](quest giver) located in [Anchor's Edge](Anchor's Edge) in [the Barrens](the Barrens). Alverold was one of [Daelin Proudmoore](Daelin Proudmoore)'s lieutenants and made up a part of the fleet which sailed to [Durotar](Durotar) in search of [Jaina Proudmoore](Jaina Proudmoore). While Proudmoore headed towards land, he ordered Alverold to take an exploratory fleet and scout out the coasts of [Kalimdor](Kalimdor). Meanwhile, Daelin did battle with the [Horde](Horde), and was killed by [Rexxar](Rexxar) and his comrades.
 
 [Lieutenant Benedict](Lieutenant Benedict) continued Daelin's campaign, and [Admiral Proudmoore's Orders](Admiral Proudmoore's Orders) dictated that Alverold had to reinforce him eventually. Upon returning from his expedition, Alverold established the outpost of [Anchor's Edge](Anchor's Edge) on an island just south of the [Echo Isles](Echo Isles) to reinforce Benedict's troops in [Tiragarde Keep](Tiragarde Keep).
 
@@ -37,13 +37,13 @@ categories: ["Barrens NPCs", "Human characters", "Kul Tiras (kingdom)", "Quest g
 - Drops [Head of Alverold](Head of Alverold) for [quest: Lieutenant Alverold].
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Our journey has taken much longer than expected. It is about time that we bring our efforts against the Horde.
 
-  -Aggro**
+**Aggro**
   Wretched Horde scum! You shall be unended from this earth, for all the treachery and misery you have brought to the world!
 
-  -Death**
+**Death**
   Kul Tiras will never forget the suffering you have brought to Azeroth... You shall never know peace.. as long as the anchor stands...
 
 ## Trivia

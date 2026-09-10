@@ -24,39 +24,39 @@ categories: ["Bosses", "Observers", "Stormwrought Ruins mobs", "Turtle WoW conte
 | status | Killable |
 | instance | Stormwrought Ruins |
 
--Mergothid the All-Seeing** (ref: [Shadowlord's Research](Shadowlord's Research)) is the final boss of [Stormwrought Ruins](Stormwrought Ruins). He is summoned to Stormwrought by the [Shadow Council](Shadow Council) warlock [Ighal'for](Ighal'for).
+**Mergothid the All-Seeing** (ref: [Shadowlord's Research](Shadowlord's Research)) is the final boss of [Stormwrought Ruins](Stormwrought Ruins). He is summoned to Stormwrought by the [Shadow Council](Shadow Council) warlock [Ighal'for](Ighal'for).
 
 ## Abilities
-  -[Ighal'for](Ighal'for)**
+**[Ighal'for](Ighal'for)**
 - Flamestrike
 - Immolate
 - Curse of Agony
 - Death Coil
 - Bloodstone Ritual
 
-  -Mergothid**
+**Mergothid**
 - Spawn Rifttorn Nether Imps
 - Curse of Mergothid
 - Binding of Mergothid
 
 ## Quotes
-  -Approaching the Temple of Shadows**
+**Approaching the Temple of Shadows**
   **Ighal'for yells:** My master prepared me for this moment. Those ignorant to his truth will perish by my hands.
 
-  -Aggro**
+**Aggro**
   **Ighal'for yells:** Your intrusion ends here!
 
-  -Bloodstone Ritual**
+**Bloodstone Ritual**
   **Ighal'for yells:** Enough! The Bloodstone is ready; savor the last fleeting moments of your life!
 
-  -Mergothid spawns**
+**Mergothid spawns**
   **Ighal'for yells:** Great Mergothid, lay your eyes upon this feast of souls!
   **Mergothid yells:** Too soon, incessant weakling. Your pathetic soul will be the compensation for your failure.
 
-  -50%**
+**50%**
   **Mergothid yells:** More souls to feast upon!
 
-  -Death**
+**Death**
   **Mergothid yells:** The nether, calls yet again!
 
 ## Objective of

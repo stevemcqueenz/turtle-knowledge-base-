@@ -24,7 +24,7 @@ categories: ["Barrens NPCs", "Human characters", "Kul Tiras (kingdom)", "Quest g
 | location | Anchor's Edge, the Barrens |
 | status | Killable |
 
--Deckmaster Darkhollow** is a [human](human) [quest giver](quest giver) located in [Anchor's Edge](Anchor's Edge) in [the Barrens](the Barrens).
+**Deckmaster Darkhollow** is a [human](human) [quest giver](quest giver) located in [Anchor's Edge](Anchor's Edge) in [the Barrens](the Barrens).
 
 ## Quests
 - [quest: Kul Tiran Provisions: Food] 
@@ -34,7 +34,7 @@ categories: ["Barrens NPCs", "Human characters", "Kul Tiras (kingdom)", "Quest g
 - [quest: Cutting Ranks]
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The Deep Tide has been a loyal vessel to Kul Tiras for many years.
 
 ## Patch changes

@@ -28,7 +28,7 @@ categories: ["Archdruids", "Druid characters", "Moonwhisper Coast mobs", "Tauren
 | status | Killable |
 | students | Ireth Moondancer |
 
--Arch Druid Mothshroud** is a [tauren](tauren) located in the [Temple of Elunaris](Temple of Elunaris) in [Moonwhisper Coast](Moonwhisper Coast).
+**Arch Druid Mothshroud** is a [tauren](tauren) located in the [Temple of Elunaris](Temple of Elunaris) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## History
 Before the destruction of [Riverhorn Village](Riverhorn Village), Arch Druid Mothshroud was the benevolent and kind leader of the [Grove of the Moon](Grove of the Moon) along with his apprentice, [Ireth Moondancer](Ireth Moondancer), and was a friend to [Elder Moonhoof](Elder Moonhoof) once. He would worship both moons side by side in the grove, both [Mu'sha](Mu'sha) and the youngest, [Lo'sho](Lo'sho). However, after Riverhorn's destruction at the hands of the [draenei](draenei) of the [Fallen Ones](Fallen Ones), Mothshroud sought vengeance against them. This vengeance was denied to him by Elder Moonhoof, who thought it the flow of nature and prayed to [An'she](An'she) for guidance, refusing to allow those who felt a thirst for blood to sate it when he received signs that An'she too was of the same mind. As a result, Mothshroud lost much of his spark when he found out his friend's stance, growing distant and bitter (ref: [quest: Facing the Elder])
@@ -38,10 +38,10 @@ Mothshroud took the survivors of Riverhorn and others who were willing and told 
 He then left the grove, with his agents ready to brew chaos that would keep his enemies unfocused. He traveled to the ruins of [Maras'ethil](Maras'ethil), seeking an artifact he had heard of from the satyr. There he found the artifact, and brought it with him to the [Temple of Elunaris](Temple of Elunaris), where he sought to beseech Lo'sho with the power to shoot down the moon itself out of the skies of Azeroth.<ref>[Worn Letter](Worn Letter)) (ref: [quest: Mothshroud Falls])
 
 ## Quotes
-  -Aggro**
+**Aggro**
   I have damned everything I ever held dear at the cost of this day. I will not be stopped!
 
-  -Death**
+**Death**
   Damn... that fool...
 
 ## Objective of

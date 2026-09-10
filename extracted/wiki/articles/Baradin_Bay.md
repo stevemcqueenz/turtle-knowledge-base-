@@ -10,7 +10,7 @@ categories: ["Arathi Highlands", "Bays", "Gilneas", "Great Sea", "Hillsbrad Foot
 ---
 # Baradin Bay
 
--Baradin Bay** is a portion of the [Great Sea](Great Sea) off the west coast of central [Eastern Kingdoms](Eastern Kingdoms), mostly noted by travelers on the northwestern coast of the [Wetlands](Wetlands) north of [Menethil Harbor](Menethil Harbor). It spans the coast from [Menethil Harbor](Menethil Harbor) all the way to [Lordaeron](Lordaeron) in the north. Important settlements located on its coast include: [Menethil Harbor](Menethil Harbor), [Stromgarde Keep](Stromgarde Keep), [Southshore](Southshore), and [Ravenshire](Ravenshire).
+**Baradin Bay** is a portion of the [Great Sea](Great Sea) off the west coast of central [Eastern Kingdoms](Eastern Kingdoms), mostly noted by travelers on the northwestern coast of the [Wetlands](Wetlands) north of [Menethil Harbor](Menethil Harbor). It spans the coast from [Menethil Harbor](Menethil Harbor) all the way to [Lordaeron](Lordaeron) in the north. Important settlements located on its coast include: [Menethil Harbor](Menethil Harbor), [Stromgarde Keep](Stromgarde Keep), [Southshore](Southshore), and [Ravenshire](Ravenshire).
 
 ### Minor locations
 - [Menethil Harbor's isle](Menethil Harbor)

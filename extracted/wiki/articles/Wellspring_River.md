@@ -10,4 +10,4 @@ categories: ["Night elf territories", "Pages with broken file links", "Rivers", 
 ---
 # Wellspring River
 
--Wellspring River** comes from a natural spring that lies deep within the great tree [Teldrassil](Teldrassil).  The river flows north from [Wellspring Lake](Wellspring Lake) and cascades over the edge of Teldrassil in a great waterfall to the sea, far below. Crazed [timberling](timberling)s now patrol the banks of the river, attacking anyone who wanders near.
+**Wellspring River** comes from a natural spring that lies deep within the great tree [Teldrassil](Teldrassil).  The river flows north from [Wellspring Lake](Wellspring Lake) and cascades over the edge of Teldrassil in a great waterfall to the sea, far below. Crazed [timberling](timberling)s now patrol the banks of the river, attacking anyone who wanders near.

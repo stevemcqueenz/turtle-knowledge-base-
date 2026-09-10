@@ -10,4 +10,4 @@ categories: ["Ashenvale subzones", "Lakes", "Pages with broken file links"]
 ---
 # Fallen Sky Lake
 
--Fallen Sky Lake** 66 82 Ashenvale (g/s/c) is located in [Ashenvale](Ashenvale) south of [Silverwing Outpost](Silverwing Outpost), west of the [Warsong Labor Camp](Warsong Labor Camp), and northeast of [Silverwing Grove](Silverwing Grove). It is a small lake, and the island in the center in it holds a level 30 [Shadethicket Oracle](Shadethicket Oracle) that you must kill for a quest. Surrounding the lake are other shadethickets of lower levels than the oracle.
+**Fallen Sky Lake** 66 82 Ashenvale (g/s/c) is located in [Ashenvale](Ashenvale) south of [Silverwing Outpost](Silverwing Outpost), west of the [Warsong Labor Camp](Warsong Labor Camp), and northeast of [Silverwing Grove](Silverwing Grove). It is a small lake, and the island in the center in it holds a level 30 [Shadethicket Oracle](Shadethicket Oracle) that you must kill for a quest. Surrounding the lake are other shadethickets of lower levels than the oracle.

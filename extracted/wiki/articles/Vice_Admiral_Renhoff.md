@@ -25,7 +25,7 @@ categories: ["Human characters", "Kul Tiras (kingdom)", "Quest givers", "Stormwi
 | location | Davenburg, Stormwind Harbor, Stormwind City |
 | status | Alive |
 
--Vice Admiral Renhoff** is a [human](human) [quest ender](quest ender) located in [Davenburg](Davenburg) in [Stormwind Harbor](Stormwind Harbor) in [Stormwind City](Stormwind City).
+**Vice Admiral Renhoff** is a [human](human) [quest ender](quest ender) located in [Davenburg](Davenburg) in [Stormwind Harbor](Stormwind Harbor) in [Stormwind City](Stormwind City).
 
 ## Quests
 - [quest: The Scales of War] 
@@ -41,20 +41,20 @@ If Kul Tiras and Stormwind are ever to stand side-by-side then brutal truths mus
 There is no truces to be had with the Blackbloods, and no honor to be made standing alongside those that destroyed what once was.
 
 ### On-click
-  -Greeting**
--Kul Tiras sends its regards.
--We defend the vast sea from all who threaten us.
--We do not forget easy in Boralus.
--The Blackblood shall pay for their crimes.
+**Greeting**
+- Kul Tiras sends its regards.
+- We defend the vast sea from all who threaten us.
+- We do not forget easy in Boralus.
+- The Blackblood shall pay for their crimes.
 
-  -Farewell**
--May the tide be low and the waves calm.
--In the name of the Anchor.
--We shall see where the loyalties of Stormwind truly lie.
+**Farewell**
+- May the tide be low and the waves calm.
+- In the name of the Anchor.
+- We shall see where the loyalties of Stormwind truly lie.
 
-  -Pissed**
--Do you know who you are speaking with?
--I wouldn't push your luck with an admiral.
+**Pissed**
+- Do you know who you are speaking with?
+- I wouldn't push your luck with an admiral.
 
 ## Patch changes
 - (Patch 1.16.4|note=Added.)

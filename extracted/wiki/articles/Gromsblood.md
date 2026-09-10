@@ -10,9 +10,9 @@ categories: ["Alchemy crafting reagent items", "Herbalism gathered items", "Herb
 ---
 # Gromsblood
 
--Gromsblood** is an [herb](herb) that can be gathered with [Herbalism](Herbalism) (250). 
+**Gromsblood** is an [herb](herb) that can be gathered with [Herbalism](Herbalism) (250). 
 
 ### Pickable Zones
--[Felwood](Felwood) 54.5%
--[Blasted Lands](Blasted Lands) 32.0%
--[Desolace](Desolace) 13.6%
+- [Felwood](Felwood) 54.5%
+- [Blasted Lands](Blasted Lands) 32.0%
+- [Desolace](Desolace) 13.6%

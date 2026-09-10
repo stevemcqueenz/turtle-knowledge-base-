@@ -13,13 +13,7 @@ categories: ["Gillijim's Isle subzones", "Islands", "Turtle WoW content"]
 The **Southsea Sandbar** is an island located within [Gillijim's Isle](Gillijim's Isle) to the west of the main isle. It is the main basecamp for the [Southsea Freebooters](Southsea Freebooters) on Gillijim and [Lapidis Isle](Lapidis Isle). The southern-most island of the sandbar is [Distillery Island](Distillery Island), where the Southsea Pirates distill their Southsea Reserve moonshine. (ref: [quest: Southsea Reserve])
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - - ## Patch changes
 - (Patch 1.16.0|note=Added.)
 
 ## References

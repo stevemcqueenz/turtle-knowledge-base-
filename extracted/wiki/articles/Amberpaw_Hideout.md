@@ -13,10 +13,6 @@ categories: ["Gnoll territories", "Northwind subzones", "Turtle WoW content"]
 The **Amberpaw Hideout** is a ridge overlooking the [Merchant's Highroad](Merchant's Highroad) that is occupied by [gnoll](gnoll)s of the [Amberpaw pack](Amberpaw pack), which prey on merchants traveling to [Northwind](Northwind) from [Stormwind City](Stormwind City).
 
 ## NPCs
--  (rare)
-- 
-- 
-- 
-
-## Patch changes
+- (rare)
+- - - ## Patch changes
 - (Patch 1.18.0|note=Added.)

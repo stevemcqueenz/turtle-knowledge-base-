@@ -54,8 +54,8 @@ I cannot believe my ears, I have no doubt there will be a another troll that sha
 Until their infighting is over, we have time to celebrate!
 
 ## Progression
-1.[quest: The Frostmane War]
-1.[quest: Chieftain Ubukaz]
+1. [quest: The Frostmane War]
+1. [quest: Chieftain Ubukaz]
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

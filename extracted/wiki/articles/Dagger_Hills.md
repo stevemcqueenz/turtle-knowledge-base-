@@ -10,6 +10,6 @@ categories: ["Defias Brotherhood", "Human territories", "Westfall subzones"]
 ---
 # Dagger Hills
 
--The Dagger Hills** is actually a ridge, sitting behind [Moonbrook](Moonbrook) in [Westfall](Westfall). The area is also called Southern Westfall. (ref: [quest: The People's Militia]) Nowadays the hills are home to [Defias Knuckleduster](Defias Knuckleduster)s, [Defias Pathstalker](Defias Pathstalker)s, and [Defias Highwaymen](Defias Highwayman). [Grimbooze Thunderbrew](Grimbooze Thunderbrew) can also be found here, and [Leprithus](Leprithus) the [ghoul](ghoul) can also arise in the area.
+**The Dagger Hills** is actually a ridge, sitting behind [Moonbrook](Moonbrook) in [Westfall](Westfall). The area is also called Southern Westfall. (ref: [quest: The People's Militia]) Nowadays the hills are home to [Defias Knuckleduster](Defias Knuckleduster)s, [Defias Pathstalker](Defias Pathstalker)s, and [Defias Highwaymen](Defias Highwayman). [Grimbooze Thunderbrew](Grimbooze Thunderbrew) can also be found here, and [Leprithus](Leprithus) the [ghoul](ghoul) can also arise in the area.
 
 ## References

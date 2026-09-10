@@ -30,7 +30,7 @@ categories: ["Alliance factions", "Factions"]
 | caption | Icon of Wisdom |
 
 *This article is about the in-game faction. For the night elven city of the same name, see [Darnassus](Darnassus).*
-  -Darnassus** is the faction associated with [Darnassus](Darnassus), the capital city of the [night elves](Night elf). The high priestess, [Tyrande Whisperwind](Tyrande Whisperwind), resides in the [Temple of the Moon](Temple of the Moon), surrounded by other sisters of Elune. In the [Cenarion Enclave](Cenarion Enclave), the Arch Druid [Fandral Staghelm](Fandral Staghelm) leads the [Cenarion Circle](Cenarion Circle), often in direct opposition to his fellow druids in [Moonglade](Moonglade) and Tyrande herself.
+**Darnassus** is the faction associated with [Darnassus](Darnassus), the capital city of the [night elves](Night elf). The high priestess, [Tyrande Whisperwind](Tyrande Whisperwind), resides in the [Temple of the Moon](Temple of the Moon), surrounded by other sisters of Elune. In the [Cenarion Enclave](Cenarion Enclave), the Arch Druid [Fandral Staghelm](Fandral Staghelm) leads the [Cenarion Circle](Cenarion Circle), often in direct opposition to his fellow druids in [Moonglade](Moonglade) and Tyrande herself.
 
 ## Reputation
 [Raedon Duskstriker](Raedon Duskstriker) has the repeatable cloth quests to achieve a higher reputation with Darnassus. In return for exalted reputation, non-night elf players are able to ride [saber](saber)s.

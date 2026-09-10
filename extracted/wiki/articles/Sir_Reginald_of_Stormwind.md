@@ -24,7 +24,7 @@ categories: ["Human characters", "Northwind NPCs", "Stormwind (kingdom)", "Turtl
 | location | Jousting Grounds, Northwind |
 | status | Alive |
 
--Sir Reginald of Stormwind** is a human located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind). One of the participants in the Northwind jousting tournament representing the [kingdom of Stormwind](Stormwind (kingdom)), he faces off against Sir [Rudolf of Strom](Rudolf of Strom).
+**Sir Reginald of Stormwind** is a human located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind). One of the participants in the Northwind jousting tournament representing the [kingdom of Stormwind](Stormwind (kingdom)), he faces off against Sir [Rudolf of Strom](Rudolf of Strom).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

@@ -47,7 +47,7 @@ WorldMap-Arathi-old1.jpg|The Arathi Highlands prior to [patch 1.16.0](patch 1.16
 || [Boulder'gor](Boulder'gor) ([Boulderfist Outpost](Boulderfist Outpost)) • [Boulderfist Hall](Boulderfist Hall) • [Circle of East Binding](Circle of East Binding) • [Circle of Inner Binding](Circle of Inner Binding) • [Circle of Outer Binding](Circle of Outer Binding) • [Circle of West Binding](Circle of West Binding) • [Dabyrie's Farmstead](Dabyrie's Farmstead) • [The Drowned Reef](Drowned Reef) • [Drywhisker Gorge](Drywhisker Gorge) • [Faldir's Cove](Faldir's Cove) • [Farwell Stead](Farwell Stead) • [Go'Shek Farm](Go'Shek Farm) • [Hammerfall](Hammerfall) • [Livingstone Croft](Livingstone Croft) • [Northfold Manor](Northfold Manor) • [Refuge Pointe](Refuge Pointe) • [Ruins of Zul'Rasaz](Ruins of Zul'Rasaz) • [Stromgarde Keep](Stromgarde Keep) ([Crypt](Crypt (Stromgarde Keep)) • [Gallant Square](Gallant Square) • [The Sanctum](Sanctum (Stromgarde Keep))) • [Thandol Span](Thandol Span) • [Thoradin's Wall](Thoradin's Wall) • [The Tower of Arathor](Tower of Arathor) • [Wildtusk Village](Wildtusk Village) • [Witherbark Village](Witherbark Village)
 |-
 ||
-  -Undisplayed locations**
+**Undisplayed locations**
 
 [Baradin Bay](Baradin Bay) • *[Harbinger](Harbinger)* • *[Maiden's Folly](Maiden's Folly)* • *[Spirit of Silverpine](Spirit of Silverpine)* — Instanced: [Arathi Basin](Arathi Basin)
 |}

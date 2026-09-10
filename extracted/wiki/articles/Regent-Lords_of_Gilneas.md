@@ -28,21 +28,21 @@ categories: ["Black dragonspawn", "Bosses", "Gilneas City mobs", "Human characte
 The **Regent-Lords of Gilneas**, **[Mortimer](Regent-Lord Mortimer Harlow)** and **[Celia Harlow](Regent-Lady Celia Harlow)**, are a boss pair making up the second-to-last encounter of [Gilneas City](Gilneas City).
 
 ## Abilities
-  -Regent-Lady Celia Harlow**
+**Regent-Lady Celia Harlow**
 - Immolate
 - Corruption
 
-  -Regent-Lord Mortimer Harlow**
+**Regent-Lord Mortimer Harlow**
 - Holy Strike
 - Consecration
 - Blast Wave
 
 ## Quotes
-  -Aggro**
+**Aggro**
   **Regent-Lady Celia Harlow yells:** Mortimer, it would appear we have someone here to interrupt our plans!
   **Regent-Lord Mortimer Harlow yells:** You will not take what is mine!
 
-  -Death**
+**Death**
   **Regent-Lady Celia Harlow yells:** All of our progress, our influence. What a pointless end....
   **Regent-Lord Mortimer Harlow yells:** Father...
 

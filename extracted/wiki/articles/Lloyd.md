@@ -24,13 +24,13 @@ categories: ["Human characters", "Northwind NPCs", "Turtle WoW content"]
 | location | Ambershire Church, Northwind |
 | status | Alive |
 
--Lloyd** is a [human](human) girl located at the [Ambershire Church](Ambershire Church) in [Northwind](Northwind).
+**Lloyd** is a [human](human) girl located at the [Ambershire Church](Ambershire Church) in [Northwind](Northwind).
 
 ## Objective of
 - Must be interacted with for [quest: School Assistance]
 
 ## Quotes
-  -Gossip**
+**Gossip**
 When I am all grown up, I'll be a guard; protecting people, just like my big brother!
 
 ## Patch changes

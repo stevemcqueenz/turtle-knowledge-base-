@@ -24,10 +24,10 @@ categories: ["Human characters", "Kul Tiran Exploratory Fleet", "Lapidis Isle NP
 | location | Caelan's Rest, Lapidis Isle |
 | status | Alive |
 
--Marine Dagby** is a human guard watching over the entrance to [Caelan's Rest](Caelan's Rest) on [Lapidis Isle](Lapidis Isle).
+**Marine Dagby** is a human guard watching over the entrance to [Caelan's Rest](Caelan's Rest) on [Lapidis Isle](Lapidis Isle).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Careful beyond these stakes. Walk with your head on a swivel.
 
 You may end up dead if you are caught off guard.

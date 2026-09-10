@@ -25,14 +25,14 @@ categories: ["Blackrock clan", "Burning Steppes NPCs", "Foremen", "Orc character
 | location | Karfang Hold, Burning Steppes |
 | status | Alive |
 
--Taskmaster Ok'gog** is an [orc](orc) [quest giver](quest giver) located in [Karfang Hold](Karfang Hold) in the [Burning Steppes](Burning Steppes).
+**Taskmaster Ok'gog** is an [orc](orc) [quest giver](quest giver) located in [Karfang Hold](Karfang Hold) in the [Burning Steppes](Burning Steppes).
 
 ## Quests
 - [quest: The Firegut Task] 
 - [quest: Forest Troll Scum] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 You are lucky we are on good terms, outsider. Hold your tongue and your ill words - I am used to killing those not of our clan.
 
 ## Patch changes

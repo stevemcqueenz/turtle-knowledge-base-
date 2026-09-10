@@ -26,14 +26,14 @@ categories: ["Dwarf characters", "Explorers' League", "Quest givers", "Stonetalo
 | status | Alive |
 | relatives | Darnir (brother) |
 
--Grumnir Battlebeard** is a [dwarf](dwarf) [quest giver](quest giver) located in [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains).
+**Grumnir Battlebeard** is a [dwarf](dwarf) [quest giver](quest giver) located in [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains).
 
 ## Quests
 - [quest: A Journey for Vengeance] 
 - [quest: The Battlebeard Legacy] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I've known Whitepeak ever since my time serving Ironforge.
 
 I'm certain he could use my experience and expertise out here, especially so far from home.

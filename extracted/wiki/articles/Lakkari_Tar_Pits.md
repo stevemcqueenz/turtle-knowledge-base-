@@ -13,8 +13,8 @@ categories: ["Pages with broken file links", "Pools", "Un'Goro Crater subzones"]
 The **Lakkari Tar Pits** are located in the northcentral are of [Un'Goro Crater](Un'Goro Crater), just south of [Marshal's Refuge](Marshal's Refuge) and north of [Fire Plume Ridge](Fire Plume Ridge). Giant bones and [Tar Beast](Tar Beast)s can be found surrounding the pools.
 
 ## Tar beasts
--[Tar Beast](Tar Beast)
--[Tar Creeper](Tar Creeper)
--[Tar Lurker](Tar Lurker)
--[Tar Lord](Tar Lord)
--[Gormashh](Gormashh)
+- [Tar Beast](Tar Beast)
+- [Tar Creeper](Tar Creeper)
+- [Tar Lurker](Tar Lurker)
+- [Tar Lord](Tar Lord)
+- [Gormashh](Gormashh)

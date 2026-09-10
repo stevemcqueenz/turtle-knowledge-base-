@@ -25,7 +25,7 @@ categories: ["Human characters", "Priest characters", "Scarlet Crusade", "Tirisf
 | location | Venomweb Vale, Tirisfal Glade |
 | status | Killable |
 
--Citadel Preachers** are elite [human](human)s located outside of the [Scarlet Citadel](Scarlet Citadel) in [Venomweb Vale](Venomweb Vale) in the [Tirisfal Glades](Tirisfal Glades).
+**Citadel Preachers** are elite [human](human)s located outside of the [Scarlet Citadel](Scarlet Citadel) in [Venomweb Vale](Venomweb Vale) in the [Tirisfal Glades](Tirisfal Glades).
 
 ## Abilities
 - Heal

@@ -10,6 +10,6 @@ categories: ["Flats", "Swamp of Sorrows subzones", "Valleys"]
 ---
 # Misty Valley
 
--Misty Valley** is located in the northwestern corner of [Swamp of Sorrows](Swamp of Sorrows), north of the entrance to [Deadwind Pass](Deadwind Pass).
+**Misty Valley** is located in the northwestern corner of [Swamp of Sorrows](Swamp of Sorrows), north of the entrance to [Deadwind Pass](Deadwind Pass).
 
 It is home to [Tangled Horror](Tangled Horror)s, [Swampwalker Elder](Swampwalker Elder)s and [Swampwalker](Swampwalker)s and in the far back of the valley is a cave, where the [Mire Lord](Mire Lord) can be found.

@@ -10,4 +10,4 @@ categories: ["Dwarf territories", "Forts", "Loch Modan subzones"]
 ---
 # Algaz Station
 
--Algaz Station** is a [dwarven](dwarven) outpost in [Loch Modan](Loch Modan) where many dwarven mountaineers are stationed. It is located just east if the [North Gate Pass](North Gate Pass), and south of [Dun Algaz](Dun Algaz), from which it takes its name. [Mountaineer Stormpike](Mountaineer Stormpike) can be found here, as well as an armorer named [Gothor Brumn](Gothor Brumn).
+**Algaz Station** is a [dwarven](dwarven) outpost in [Loch Modan](Loch Modan) where many dwarven mountaineers are stationed. It is located just east if the [North Gate Pass](North Gate Pass), and south of [Dun Algaz](Dun Algaz), from which it takes its name. [Mountaineer Stormpike](Mountaineer Stormpike) can be found here, as well as an armorer named [Gothor Brumn](Gothor Brumn).

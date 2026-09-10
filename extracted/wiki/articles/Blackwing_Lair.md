@@ -11,11 +11,11 @@ categories: ["Blackrock Mountain", "Blackwing Lair", "Pages with broken file lin
 # Blackwing Lair
 
 # General
-  -*Level:** 60+
-  -*# of Players:** 40
-  -*Location:** Raid instance located inside Upper [Blackrock Spire](Blackrock Spire) - [Blackrock Mountain](Blackrock Mountain).
-  -*Released:** Patch 1.6
-  -*Abbreviation:** BWL
+- **Level:** 60+
+- **# of Players:** 40
+- **Location:** Raid instance located inside Upper [Blackrock Spire](Blackrock Spire) - [Blackrock Mountain](Blackrock Mountain).
+- **Released:** Patch 1.6
+- **Abbreviation:** BWL
 
 ## Location
 The entrance for Blackwing Lair can be found near the entrance to Blackrock Spire. Simply head up the ramp towards the instance, and take a left at the top instead of a right. Inside a small room will be an [Orb of Command](Orb of Command). You must be attuned to use this item. Using it will transport you inside the Blackwing Lair instance.
@@ -57,7 +57,7 @@ All remaining pieces of the [Tier 2](Tier 2) sets (head and pants drop from [Ony
 For more details see: [Blackwing Lair Loot](Blackwing Lair Loot)
 
 # Movies & Previews
--[Elite Chaos - Blackwing Lair](http://www.fileplanet.com/155192/150000/fileinfo/World-of-Warcraft---Blackwing-Lair-Raid) on Fileplanet.com
--[Preview](http://www.wow-europe.com/en/info/underdev/blackwing.html) on WoW-Europe.com
--[Preview](http://www.wowguru.com/blackwing-lair.php) at WoWGuru
--[Description at Worldofwarcraft.com](http://www.worldofwarcraft.com/info/underdev/blackwing.html)
+- [Elite Chaos - Blackwing Lair](http://www.fileplanet.com/155192/150000/fileinfo/World-of-Warcraft---Blackwing-Lair-Raid) on Fileplanet.com
+- [Preview](http://www.wow-europe.com/en/info/underdev/blackwing.html) on WoW-Europe.com
+- [Preview](http://www.wowguru.com/blackwing-lair.php) at WoWGuru
+- [Description at Worldofwarcraft.com](http://www.worldofwarcraft.com/info/underdev/blackwing.html)

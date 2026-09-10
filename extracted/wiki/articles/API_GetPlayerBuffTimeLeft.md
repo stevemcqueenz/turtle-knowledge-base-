@@ -15,7 +15,7 @@ Retrieve info about a certain player buff of a certain type.
 buffTimeLeft = GetPlayerBuffTimeLeft(buffIndex);
 ----
 
-  - ***Arguments*****
+** ***Arguments*****
 
    (Number buffIndex)
 
@@ -24,7 +24,7 @@ buffTimeLeft = GetPlayerBuffTimeLeft(buffIndex);
 
 ----
 
-  - ***Returns*****
+** ***Returns*****
 
    (Number buffTimeLeft)
 
@@ -33,17 +33,17 @@ buffTimeLeft = GetPlayerBuffTimeLeft(buffIndex);
 
 ----
 
-  - ***Example*****
+** ***Example*****
 
  local timeLeft = GetPlayerBuffTimeLeft(buffIndex)
 
-  - *Result***
+** *Result***
 
 Retrieves amount of time left of the first buff you have.
 
 or
 
-  - ***Example***<syntaxhighlight lang="lua">**
+** ***Example***<syntaxhighlight lang="lua">**
   for i=0,31 do
    local id,cancel = GetPlayerBuff(i,"HELPFUL|HARMFUL|PASSIVE");
    if(id > -1) then
@@ -53,12 +53,12 @@ or
  end
 </syntaxhighlight>
 
-  - ***Result*****
+** ***Result*****
 
 Will display your buff/debuff durations.
 ----
 
-  - ***Description*****
+** ***Description*****
 
    Retrieves time left until a certain buff expires.
 

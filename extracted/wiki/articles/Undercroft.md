@@ -10,4 +10,4 @@ categories: ["Burial sites", "Eastern Plaguelands subzones", "Pages with broken 
 ---
 # Undercroft
 
--The Undercroft** is a [crypt](crypt) in the southwestern region of the [Eastern Plaguelands](Eastern Plaguelands). It is home to a band of [undead](undead) [trolls](troll) who are led by the undead [dire troll](dire troll) [Zaeldarr the Outcast](Zaeldarr the Outcast). He leads occasional raids on the [Argent Dawn's](Argent Dawn) base at [Light's Hope Chapel](Light's Hope Chapel) to steal bodies from their grave pit. It is also the location of [Tirion Fordring](Tirion Fordring)'s ersatz grave.
+**The Undercroft** is a [crypt](crypt) in the southwestern region of the [Eastern Plaguelands](Eastern Plaguelands). It is home to a band of [undead](undead) [trolls](troll) who are led by the undead [dire troll](dire troll) [Zaeldarr the Outcast](Zaeldarr the Outcast). He leads occasional raids on the [Argent Dawn's](Argent Dawn) base at [Light's Hope Chapel](Light's Hope Chapel) to steal bodies from their grave pit. It is also the location of [Tirion Fordring](Tirion Fordring)'s ersatz grave.

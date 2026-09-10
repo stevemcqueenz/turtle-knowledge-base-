@@ -30,37 +30,16 @@ categories: ["Grim Reaches subzones", "Horde quest hubs", "Horde settlements", "
 | flightpath | Yes |
 | status | Active |
 
--Shatterblade Post** is a [Horde](Horde) outpost located in the northern [Grim Reaches](Grim Reaches).
+**Shatterblade Post** is a [Horde](Horde) outpost located in the northern [Grim Reaches](Grim Reaches).
 
 ## Travel connections
 ### Flight
-  - [Hammerfall](Hammerfall), [Arathi Highlands](Arathi Highlands)**
+** [Hammerfall](Hammerfall), [Arathi Highlands](Arathi Highlands)**
 
 ## Inhabitants
 ### Quest givers
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-### Goods and services
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-### Trainers
-- 
-
-### Guards
-- 
-
-## Patch changes
+- - - - - - - ### Goods and services
+- - - - - - - - ### Trainers
+- ### Guards
+- ## Patch changes
 - (Patch 1.18.0|note=Added.)

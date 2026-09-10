@@ -32,21 +32,21 @@ categories: ["Instance navigation templates"]
 
 [Hakkar the Soulflayer](Hakkar (tactics))
 |
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
 [(lore)](Hakkar the Soulflayer)
 |-
@@ -61,13 +61,13 @@ categories: ["Instance navigation templates"]
 
 [Wushoolay](Wushoolay) (summoned)
 |
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 |-
 | class="title" colspan="2" | **NPCs**
 |-

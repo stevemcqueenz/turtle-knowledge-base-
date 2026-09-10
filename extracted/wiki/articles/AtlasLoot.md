@@ -13,7 +13,7 @@ categories: ["Addon"]
 AtlasLoot provides a loot browser for dungeon bosses, raids, world bosses, PvP rewards, crafting, and more. It integrates seamlessly with the game to help players find loot tables and item info quickly.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **AtlasLoot** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **AtlasLoot** up to date is by using [GitAddonsManager](
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -30,7 +30,7 @@ If you prefer manual installation, follow these steps:
 # Unpack the <code>.zip</code> and rename the folder to AtlasLoot, removing the <code>-main</code> suffix.
 # Move the folder into your <code>Interface/AddOns</code> directory and restart the game.
 
-  -Recommended:**
+**Recommended:**
 - **[Atlas](Atlas)**
 - **[AtlasQuest](AtlasQuest)**
 
@@ -71,36 +71,36 @@ If you prefer manual installation, follow these steps:
 |}
 
 ## Features
-  -Opening and Closing the Loot Browser**
+**Opening and Closing the Loot Browser**
 
 - Use the bound key or <code>/atlasloot</code> to toggle the loot window.
 - You can also open via the minimap button if enabled.
 
-  -Viewing Loot from Bosses & Instances**
+**Viewing Loot from Bosses & Instances**
 
 - Select an instance or boss to see its loot table.
 - Click on a boss name or loot entry to view items.
 - Use **Next** / **Previous** buttons for multi-page loot tables.
 
-  -QuickLook Presets**
+**QuickLook Presets**
 
 - Save popular loot tables as QuickLooks for quick access.
 - Assign a loot table to a QuickLook slot via the "Show QuickLooks" menu.
 - QuickLook buttons are available for preset loot tables for fast access.
 
-  -Wishlist Management**
+**Wishlist Management**
 
 - Shift+Click items to add them to your wishlist.
 - Alt+Click items to remove from wishlist.
 - View your wishlist in the loot window.
 
-  -Item Tooltips & Chat Links**
+**Item Tooltips & Chat Links**
 
 - Hover over items to see detailed info.
 - Shift+Click on items to link them in chat or copy IDs.
 - Right-click on items for server query or to get item links.
 
-  -Loot Table Customization**
+**Loot Table Customization**
 
 - Options available for:
   - Safe links (uncached item links)
@@ -110,7 +110,7 @@ If you prefer manual installation, follow these steps:
   - Opacity of loot window
   - Minimap button position
 
-  -Minimap Button**
+**Minimap Button**
 
 - Left-click to toggle the loot window.
 - Middle-click for options menu.

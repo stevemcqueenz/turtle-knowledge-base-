@@ -13,7 +13,7 @@ categories: ["Addon"]
 NotGrid is a party and raid frame addon inspired by Grid, designed for Vanilla WoW (1.12.1). It provides customizable unit frames with features suited for healing and raid management, supporting click-casting, macros, proximity checks, and more.
 
 ## Installation
-  -GitAddonsManager (Recommended)**
+**GitAddonsManager (Recommended)**
 
 The easiest way to keep **Notgrid** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **Notgrid** up to date is by using [GitAddonsManager](Gi
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -30,7 +30,7 @@ If you prefer manual installation, follow these steps:
 # Unpack the <code>.zip</code> and rename the folder to <code>notgrid</code>, removing the <code>-main</code> suffix.
 # Move the folder into your <code>Interface/AddOns</code> directory and restart the game.
 
-  -Optional**:
+**Optional**:
 
 - **[Clique](Clique):** Enables click-casting.
 - **[LazySpell](LazySpell):** Automates spell rank selection based on unit health.
@@ -63,23 +63,23 @@ Use / for separating multiple Buffs/Debuffs to track on one icon.
 I use invert bottom right icon to keep track of who is missing Fortitude in raid:
 
 ## Setup & Configuration
-  -Accessing the Config Menu**
+**Accessing the Config Menu**
 - Use <code>/notgrid</code> or <code>/ng</code> to open the menu.
 - Use <code>/notgrid grid</code> to apply a grid style.
 - Use <code>/notgrid reset</code> to restore defaults.
-  -UI Scaling**
+**UI Scaling**
 
 If you're having issues with the frame borders/edges being un-uniformly sized or appearing clipped by the healthbar make sure to have a proper [UI scale](http://wow.gamepedia.com/UI_Scale) set. 
 
-  -Set UI scale:** 
+**Set UI scale:** 
 
 - <code>/console UIScale <value></code>    
 
-  -Recommended Formula:**
+**Recommended Formula:**
 
 - <code>UIScale = 768 / verticalResolution</code>
 
-  -Examples for common resolutions:**
+**Examples for common resolutions:**
 {| class="fandom-table"
 !Resolution
 !Command
@@ -116,7 +116,7 @@ For resolutions above **1920x1200** you  may need to manually set the scale usin
 
 Note that this setting isn't saved across reloads, so you'd need an addon or macro to set it each time.
 
-  -Customizing Frames**
+**Customizing Frames**
 - Use the configuration menu to resize, recolor, and reposition frames.
 - Adjust the appearance of borders, health/power bars, icons, and texts.
 - Enable/disable features like pet frames, aura icons, healing bars, etc.
@@ -127,24 +127,24 @@ Notgrid:
 Options:
 
 ## Features Explained
-  -Frame Customization**
+**Frame Customization**
 - Resize units (<code>Unit Width</code>, <code>Unit Height</code>)
 - Change border style (<code>Border Artwork</code>, <code>Unit Border</code>)
 - Position health/power bars (<code>Power Position</code>, <code>Health Orientation</code>)
 - Set colors for class, pet, or custom colors.
-  -Icon Tracking**
+**Icon Tracking**
 - Track specific buffs/debuffs via the <code>tracking icons</code> listed in options.
 - Show/hide icons based on buff/debuff presence.
 - Invert icons to hide when aura is present (useful for buffing the raid).
-  -Proximity & Range**
+**Proximity & Range**
 - **Map-based:** Uses map regions for distance estimation.
 - **Spell-based:** Detects 40-yard spells to check if units are in range.
 - **Map size data:** Comes with default values for Azeroth and other regions.
-  -Warnings & Alerts**
+**Warnings & Alerts**
 - **Aggro:** Highlights frames with threat.
 - **Low Mana:** Changes border color if mana drops below threshold.
 - **Target Highlight:** Highlights your current target.
-  -Macros & Click Casting**
+**Macros & Click Casting**
 - Use <code>/ngcast</code> for mouseover spell casts.
 - Supports macros with consideration for spell ranks.
 

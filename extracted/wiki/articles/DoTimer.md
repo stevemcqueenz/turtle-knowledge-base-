@@ -10,10 +10,10 @@ categories: ["Addon"]
 ---
 # DoTimer
 
--DoTimer** is a highly sophisticated DoT (Damage-over-Time) tracking tool. It tracks up to 10 targets with 20 debuffs each, supports macro functions, offers customizable interfaces, and detects resistances, immunities, and other effects for high accuracy.
+**DoTimer** is a highly sophisticated DoT (Damage-over-Time) tracking tool. It tracks up to 10 targets with 20 debuffs each, supports macro functions, offers customizable interfaces, and detects resistances, immunities, and other effects for high accuracy.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **DoTimer** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **DoTimer** up to date is by using [GitAddonsManager](Gi
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -30,7 +30,7 @@ If you prefer manual installation, follow these steps:
 # Unpack the <code>.zip</code> and rename the folder to <code>DoTimer</code>, removing the <code>-master</code> suffix.
 # Move the folder into your <code>Interface/AddOns</code> directory and restart the game.
 
-  -Note:** Replace <code>"expalert.wav"</code> with your preferred sound file in the addon directory for custom alerts.
+**Note:** Replace <code>"expalert.wav"</code> with your preferred sound file in the addon directory for custom alerts.
 
 ## Git Links
 - [**(kc8pnd)**](https://github.com/kc8pnd/DoTimer)
@@ -59,7 +59,7 @@ If you prefer manual installation, follow these steps:
 |Specific help on categories (e.g., sizing, interface)
 |}
 
-  -Common Settings via** <code>/dotimer</code> **GUI**
+**Common Settings via** <code>/dotimer</code> **GUI**
 
 - Change display mode (icons/bars)
 - Adjust scale and layout
@@ -85,7 +85,7 @@ Timers:
 - **Localization & Support:** Supports multiple languages and additional classes.
 
 ## Customization & Interface
-  -Layout & Size**
+**Layout & Size**
 
 Use <code>/dotimer</code> commands or GUI options to:
 
@@ -94,13 +94,13 @@ Use <code>/dotimer</code> commands or GUI options to:
 - Adjust bar length: <code>/dotimer bar length 200</code>
 - Lock/unlock interface positions
 
-  -Target & Debuff Display**
+**Target & Debuff Display**
 
 - Show only current target's timers (<code>/dotimer onlytarget on</code>)
 - Enable/disable target names
 - Change layout (up, down, left, right) with <code>/dotimer set layout</code> command
 
-  -Sound & Alerts**
+**Sound & Alerts**
 
 - Enable sound notifications (<code>/dotimer play sounds</code>)
 - Replace default sound by placing a file named <code>expalert.wav</code> in your addon folder
@@ -130,13 +130,13 @@ DoTimer provides several functions for macro automation. Here are some examples:
  /script local r,s,c="Rejuvenation",DoT_SpellOnTarget,CastSpellByName; if (s(r) or s("Regrowth")) then c("Swiftmend") else c(r) end</syntaxhighlight>
 
 ## Class & Spell Support
-  -DoTimer** supports all classes, with some support for priests, druids, and hunters. It tracks common DoTs, curses, and buffs.
+**DoTimer** supports all classes, with some support for priests, druids, and hunters. It tracks common DoTs, curses, and buffs.
 
-  -How to Customize Spells**
+**How to Customize Spells**
 
 Edit <code>spells.lua</code> and <code>spellsdata.lua</code> to add or modify spells:
 
-  -Use the format:**<syntaxhighlight lang="lua">
+**Use the format:**<syntaxhighlight lang="lua">
 ["texture_path"] = { name = "Spell Name", duration = seconds, multiplier = 1 }
 </syntaxhighlight>
 

@@ -26,10 +26,10 @@ categories: ["Balor NPCs", "Dwarf characters", "Flight masters", "Turtle WoW con
 | location | SI:7 Outpost, Balor |
 | status | Alive |
 
--Nundir Feathersoar** is a dwarf gryphon flight master located at [SI:7 Outpost](SI:7 Outpost) in [Balor](Balor).
+**Nundir Feathersoar** is a dwarf gryphon flight master located at [SI:7 Outpost](SI:7 Outpost) in [Balor](Balor).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 This island is spooking me gryphons, I'm having a hard time keeping them calm. If you need a flight back to Stormwind, you know where to find me.
 
 ## Flight paths

@@ -24,7 +24,7 @@ categories: ["Forsaken characters", "Gilneas NPCs", "Quest givers", "Royal Apoth
 | location | Ruins of Greyshire, Gilneas |
 | status | Active |
 
--Orvan Darkeye** is a [Forsaken](Forsaken) quest giver located in the [Ruins of Greyshire](Ruins of Greyshire) in [Gilneas](Gilneas).
+**Orvan Darkeye** is a [Forsaken](Forsaken) quest giver located in the [Ruins of Greyshire](Ruins of Greyshire) in [Gilneas](Gilneas).
 
 ## Quests
 - [quest: Dead Until Dark] 
@@ -35,7 +35,7 @@ categories: ["Forsaken characters", "Gilneas NPCs", "Quest givers", "Royal Apoth
 - [quest: Blood for Blood] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Can you believe it, the Scourge, here in Gilneas! No matter where I travel their taint seems to be present.
 
 The Greymane wall was breached some time in the past. From my studies these are the remnants of a former scourge invasion. This is a good opportunity, foolish to waste. There is still much we can learn from these lands, and I must uncover all that I can while I have the opportunity.

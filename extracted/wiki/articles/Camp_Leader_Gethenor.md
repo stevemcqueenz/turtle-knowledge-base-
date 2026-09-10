@@ -24,7 +24,7 @@ categories: ["Gilneas NPCs", "Human characters", "Quest givers", "Turtle WoW con
 | location | Vagrant Encampment, Gilneas |
 | status | Alive |
 
--Camp Leader Gethenor** is a [human](human) [quest giver](quest giver) located at the [Vagrant Encampment](Vagrant Encampment) in [Gilneas](Gilneas).
+**Camp Leader Gethenor** is a [human](human) [quest giver](quest giver) located at the [Vagrant Encampment](Vagrant Encampment) in [Gilneas](Gilneas).
 
 ## Quests
 - [quest: Vagrant Supplies] 
@@ -32,7 +32,7 @@ categories: ["Gilneas NPCs", "Human characters", "Quest givers", "Turtle WoW con
 - [quest: Nighthowl Neutralizing] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I expected Gilneas to be a safe haven for us refugees. I never imagined it would be as bad as Silverpine Forest.
 
 ## Patch changes

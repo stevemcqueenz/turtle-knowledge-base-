@@ -10,9 +10,7 @@ categories: ["Duskwood subzones", "Farms"]
 ---
 # Addle's Stead
 
--Addle's Stead** is located in southwestern [Duskwood](Duskwood), south of [Raven Hill](Raven Hill) and west of the [Vul'Gol Ogre Mound](Vul'Gol Ogre Mound). It is one of the many abandoned farmsteads, presumably left behind when the darkness crept into Duskwood. The farm has been completely taken over by agents of the [Defias Brotherhood](Defias Brotherhood), who creep throughout the field, hide in the barn, and stalk in the small farmhouse. [Alliance](Alliance)-aligned adventurers are sometimes brought here in search of an important docket that holds clues to the disappearance of [Varian Wrynn](Varian Wrynn).
+**Addle's Stead** is located in southwestern [Duskwood](Duskwood), south of [Raven Hill](Raven Hill) and west of the [Vul'Gol Ogre Mound](Vul'Gol Ogre Mound). It is one of the many abandoned farmsteads, presumably left behind when the darkness crept into Duskwood. The farm has been completely taken over by agents of the [Defias Brotherhood](Defias Brotherhood), who creep throughout the field, hide in the barn, and stalk in the small farmhouse. [Alliance](Alliance)-aligned adventurers are sometimes brought here in search of an important docket that holds clues to the disappearance of [Varian Wrynn](Varian Wrynn).
 
 ## NPCs
-- 
-- 
--
+- - -

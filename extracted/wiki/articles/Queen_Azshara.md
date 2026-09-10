@@ -25,7 +25,7 @@ When the portal to the other realm was almost open, the combined force of the Ni
 
 Not much later, the portal was destroyed and the [Sundering](Great Sundering) was upon Kalimdor. Realizing that [Sargeras](Sargeras) would not be coming, she decided not to tell her handmaidens and most loyal followers. When the black water of the [Well of Eternity](Well of Eternity) poured into the palace, she created a magical shield that would protect her from drowning. It was at that time that a voice in her head whispered of an escape: *"There is a way... there is a way... you will become more than you ever were... more than you ever were... we can help... we can help... You will be more than you have ever been... and when the time comes, for what we grant you... you will serve us well..."* Her spell collapsed but as the Well filled her lungs she did not drown. She instead expanded with hate and rage, becoming a massive monstrosity, reflecting the wickedness and malice that had always hidden within her core.
 
--Please note that "the allies from the future" are characters created by Richard A. Knaak who wrote novels regarding the [War of the Ancients](War of the Ancients). These novels contain information from World of Warcraft but is not actual lore.
+- Please note that "the allies from the future" are characters created by Richard A. Knaak who wrote novels regarding the [War of the Ancients](War of the Ancients). These novels contain information from World of Warcraft but is not actual lore.
 
 # Modern Day
 Queen Azshara lives still, in the vast city of [Nazjatar](Nazjatar) at the bottom of a deep ocean trench. She has embraced the power of the [naga](naga), grown in size, and possesses many tentacles bedecked in jewels and items of power. She plots her revenge on the treacherous [Night Elves](Night Elves), biding her time until the growing might of the [naga](naga) can be brought to bear.
@@ -42,7 +42,7 @@ It is thought that the [Old Gods](Old Gods) were responsible for transforming Qu
 - Flower of Life
 - Vision of Perfection
 
--(Several of these are specific to Night Elven civilization, so any names referencing the Moon are probably no longer used.)*
+*(Several of these are specific to Night Elven civilization, so any names referencing the Moon are probably no longer used.)*
 
 # Memorable Quotes:
 - "There has only ever been, only ever will be... *one* Azshara."

@@ -26,10 +26,10 @@ categories: ["Dwarf characters", "Ironforge NPCs", "Turtle WoW content"]
 | status | Alive |
 | relatives | Redbrand family |
 
--Belwyth Redbrand** is a [dwarf](dwarf) located in the [Mystic Ward](Mystic Ward) in [Ironforge](Ironforge).
+**Belwyth Redbrand** is a [dwarf](dwarf) located in the [Mystic Ward](Mystic Ward) in [Ironforge](Ironforge).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Why hello there. Is there anything I can do for you?
 
 ## Patch changes

@@ -24,7 +24,7 @@ categories: ["Defias Brotherhood", "Human characters", "Mage characters", "North
 | location | Northwind |
 | status | Killable |
 
--Defias Arcanists** are [human](human)s located in [Northwind](Northwind).
+**Defias Arcanists** are [human](human)s located in [Northwind](Northwind).
 
 ## Abilities
 - Fireball

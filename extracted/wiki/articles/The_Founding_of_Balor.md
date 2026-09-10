@@ -10,7 +10,7 @@ categories: ["Northwind objects", "Readable objects", "Scarlet Monastery objects
 ---
 # The Founding of Balor
 
--The Founding of Balor** is a book that can be found in the [Sanctum of the Fist](Sanctum of the Fist) in the [Scarlet Monastery Library](Scarlet Monastery Library) and at the [Ambershire Church](Ambershire Church) in [Northwind](Northwind).
+**The Founding of Balor** is a book that can be found in the [Sanctum of the Fist](Sanctum of the Fist) in the [Scarlet Monastery Library](Scarlet Monastery Library) and at the [Ambershire Church](Ambershire Church) in [Northwind](Northwind).
 
 ## See also
 - [The Siege of Balor](The Siege of Balor)

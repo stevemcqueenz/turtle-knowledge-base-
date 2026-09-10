@@ -24,7 +24,7 @@ categories: ["Human characters", "Lapidis Isle mobs", "Southsea Freebooters", "T
 | creature | Humanoid |
 | location | Lapidis Isle |
 
--Salty' O'Keef** is a human member of the [Southsea Freebooters](Southsea Freebooters) located in [Lapidis Isle](Lapidis Isle).
+**Salty' O'Keef** is a human member of the [Southsea Freebooters](Southsea Freebooters) located in [Lapidis Isle](Lapidis Isle).
 
 ## Speculation
 - Given his title of <Traitor>, he may have previously been a member of the [Kul Tiran Exploratory Fleet](Kul Tiran Exploratory Fleet) and betrayed them when they were shipwrecked on Lapidis Isle.

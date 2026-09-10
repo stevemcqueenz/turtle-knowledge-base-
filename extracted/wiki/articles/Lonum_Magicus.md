@@ -25,4 +25,4 @@ categories: ["Dalaran (kingdom)", "Faction quartermasters", "Human characters", 
 | location | Ambermill, Silverpine Forest |
 | status | Alive |
 
--Lonum Magicus** is the quartermaster for [Dalaran](Dalaran (faction)) and is located outside the town hall in [Ambermill](Ambermill) in [Silverpine Forest](Silverpine Forest).
+**Lonum Magicus** is the quartermaster for [Dalaran](Dalaran (faction)) and is located outside the town hall in [Ambermill](Ambermill) in [Silverpine Forest](Silverpine Forest).

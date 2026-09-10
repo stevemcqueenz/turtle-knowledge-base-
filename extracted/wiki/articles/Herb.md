@@ -11,10 +11,10 @@ categories: ["Alchemy", "Game Terms", "Herbalism", "Ingredients"]
 # Herb
 
 In [World of Warcraft](World of Warcraft), **herb** can mean one of two things:
-1.A leaf [item](Item) or part of and plant that serves as an [ingredient](Ingredient) for use with a [profession](Professions) (usually [Alchemy](Alchemy)). Sometimes a [Quest](Quest) item.
-1.A plant [resource](Resource) that those with the [Herbalism](Herbalism) [profession](Professions) can [harvest](Harvest) to gain the above item or items.
+1. A leaf [item](Item) or part of and plant that serves as an [ingredient](Ingredient) for use with a [profession](Professions) (usually [Alchemy](Alchemy)). Sometimes a [Quest](Quest) item.
+1. A plant [resource](Resource) that those with the [Herbalism](Herbalism) [profession](Professions) can [harvest](Harvest) to gain the above item or items.
 
-  -Herb** resources available and [Herbalism](Herbalism) skill level required to harvest:
+**Herb** resources available and [Herbalism](Herbalism) skill level required to harvest:
 {| border="0" cellpadding="3"
 |-bgcolor=#0E002B align="center"
 ! Herb !!  Skill Level !! Other Info

@@ -26,7 +26,7 @@ Following the conclusion of the War, Jarod was named one of the major leaders of
 
 Jarod was known to have at least partly returned the affection of [Shandris Feathermoon](Shandris Feathermoon).
 
--(Jarod's fate remains unknown. He is not mentioned outside the War of the Ancients trilogy.)*
+*(Jarod's fate remains unknown. He is not mentioned outside the War of the Ancients trilogy.)*
 
 ## Memorable Quotes
 Jarod: "I just feel like I look like a buffoon!"

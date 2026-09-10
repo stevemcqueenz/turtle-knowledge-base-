@@ -29,14 +29,14 @@ categories: ["Alliance quest hubs", "Alliance settlements", "Arathi Highlands su
 | flightpath | Yes |
 | status | Active |
 
--Refuge Pointe** is one of the few remaining patches of [Stromgarde](Stromgarde (kingdom)) territory. With [Stromgarde Keep](Stromgarde Keep) in ruins, and most of their populace fled south, the proud remnants of the [Stromgarde Militia](Stromgarde Militia) still fight on to reclaim their land. It is from Refuge Pointe that the [Alliance](Alliance)'s military operations in the area are conducted, most of which is concerned with aiding the Stromgarde Militia retake their former capital.
+**Refuge Pointe** is one of the few remaining patches of [Stromgarde](Stromgarde (kingdom)) territory. With [Stromgarde Keep](Stromgarde Keep) in ruins, and most of their populace fled south, the proud remnants of the [Stromgarde Militia](Stromgarde Militia) still fight on to reclaim their land. It is from Refuge Pointe that the [Alliance](Alliance)'s military operations in the area are conducted, most of which is concerned with aiding the Stromgarde Militia retake their former capital.
 
 ## Travel connections
 ### Flight
-  - [Ironforge](Ironforge), [Dun Morogh](Dun Morogh)**
-  - [Thelsamar](Thelsamar), [Loch Modan](Loch Modan)**
-  - [Menethil Harbor](Menethil Harbor), [Wetlands](Wetlands)**
-  - [Southshore](Southshore), [Hillsbrad Foothills](Hillsbrad Foothills)**
-  - [Aerie Peak](Aerie Peak), [Hinterlands](Hinterlands)**
+** [Ironforge](Ironforge), [Dun Morogh](Dun Morogh)**
+** [Thelsamar](Thelsamar), [Loch Modan](Loch Modan)**
+** [Menethil Harbor](Menethil Harbor), [Wetlands](Wetlands)**
+** [Southshore](Southshore), [Hillsbrad Foothills](Hillsbrad Foothills)**
+** [Aerie Peak](Aerie Peak), [Hinterlands](Hinterlands)**
 
 ## Inhabitants

@@ -24,10 +24,10 @@ categories: ["Farstriders", "Grim Reaches NPCs", "High elf characters", "Turtle 
 | location | Dun Kithas, Grim Reaches |
 | status | Alive |
 
--Ranger Darthal Whitemane** is a [high elf](high elf) located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
+**Ranger Darthal Whitemane** is a [high elf](high elf) located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The Grim Reaches may dazzle the eye, yet do not let their beauty beguile you. A slumbering darkness lingers beneath these lands.
 
 ## Patch changes

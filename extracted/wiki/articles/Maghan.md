@@ -24,7 +24,7 @@ categories: ["Draenei characters", "Moonwhisper Coast NPCs", "Quset givers", "Tu
 | location | Moonwhisper Coast |
 | status | Alive |
 
--Maghan** is a [draenei](draenei) quest giver located in [Moonwhisper Coast](Moonwhisper Coast).
+**Maghan** is a [draenei](draenei) quest giver located in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: Fallen One Cargo] 
@@ -32,7 +32,7 @@ categories: ["Draenei characters", "Moonwhisper Coast NPCs", "Quset givers", "Tu
 - [quest: Out of the Moonlight] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 These brutes are everywhere. I really wish the chieftain would finally do something about it.
 
 ## Patch changes

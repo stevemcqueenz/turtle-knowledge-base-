@@ -27,23 +27,23 @@ categories: ["Alchemists", "Blackwing Lair mobs", "Bosses", "Goblin characters",
 | status | Killable |
 | instance | Blackwing Lair |
 
--Ezzel Darkbrewer** is a boss in [Blackwing Lair](Blackwing Lair). Standing atop the lumbering ogre [Ton'Raka](Ton'Raka) with an arsenal of chemical concoctions and a brilliant mind sharpened by many years in the field, he's ready to thwart any intruders stepping into his employer's laboratory.
+**Ezzel Darkbrewer** is a boss in [Blackwing Lair](Blackwing Lair). Standing atop the lumbering ogre [Ton'Raka](Ton'Raka) with an arsenal of chemical concoctions and a brilliant mind sharpened by many years in the field, he's ready to thwart any intruders stepping into his employer's laboratory.
 
 ## Quotes
-  -Aggro**
+**Aggro**
   Ready to brew!
 
-  -Acid Bomb**
+**Acid Bomb**
   You'll love my new recipe.
 
-  -Charge**
+**Charge**
   Bob and weave you fool!
   Ton'Raka begins charging <name>!
 
-  -At 10%**
+**At 10%**
   For the highest bidder!
 
-  -Death**
+**Death**
   Oh, oh no, ooohh!
 
 ## Objective of

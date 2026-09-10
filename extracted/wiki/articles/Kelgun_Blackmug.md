@@ -24,7 +24,7 @@ categories: ["Dwarf characters", "Kul Tiran Exploratory Fleet", "Lapidis Isle NP
 | location | Caelan's Rest, Lapidis Isle |
 | status | Alive |
 
--Kelgun Blackmug** is a dwarf found in the inn in [Caelan's Rest](Caelan's Rest) on [Lapidis Isle](Lapidis Isle).
+**Kelgun Blackmug** is a dwarf found in the inn in [Caelan's Rest](Caelan's Rest) on [Lapidis Isle](Lapidis Isle).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

@@ -24,7 +24,7 @@ categories: ["Dalaran (kingdom)", "Grim Reaches NPCs", "Human characters", "Ques
 | location | Grim Reaches |
 | status | Alive |
 
--Dorthas Read** is a [human](human) [quest giver](quest giver) located in the [Grim Reaches](Grim Reaches). Along with his companions [Gimban Togglefuse](Gimban Togglefuse) and [Torlag](Torlag), he set up camp near a tunnel leading into the [Ruins of Grim Batol](Ruins of Grim Batol) to investigate the [darkness](Shadow Curse) that laid within now spreading out into the Grim Reaches.
+**Dorthas Read** is a [human](human) [quest giver](quest giver) located in the [Grim Reaches](Grim Reaches). Along with his companions [Gimban Togglefuse](Gimban Togglefuse) and [Torlag](Torlag), he set up camp near a tunnel leading into the [Ruins of Grim Batol](Ruins of Grim Batol) to investigate the [darkness](Shadow Curse) that laid within now spreading out into the Grim Reaches.
 
 ## Quests
 - [quest: Blemishes on the Land] 
@@ -36,7 +36,7 @@ categories: ["Dalaran (kingdom)", "Grim Reaches NPCs", "Human characters", "Ques
 - [quest: The Blue Dragonkin] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Why hello there adventurer, we're much alike, out trying to save the world from the dark, evil, and scary things no? Perhaps I'm just assuming but you look like the kind of person that offers assistance to those in need.
 
 I must admit, that's an admirable trait, one that we both have. We certainly are nice people.

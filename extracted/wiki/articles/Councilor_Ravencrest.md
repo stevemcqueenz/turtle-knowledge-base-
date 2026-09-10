@@ -24,7 +24,7 @@ categories: ["Gilneas NPCs", "Human characters", "Politicians", "Quest givers", 
 | location | Vagrant Encampment, Gilneas |
 | status | Alive |
 
--Councilor Ravencrest** is a [human](human) [quest giver](quest giver) located at the [Vagrant Encampment](Vagrant Encampment) in [Gilneas](Gilneas).
+**Councilor Ravencrest** is a [human](human) [quest giver](quest giver) located at the [Vagrant Encampment](Vagrant Encampment) in [Gilneas](Gilneas).
 
 ## Quests
 - [quest: Onward to Ravenshire] 

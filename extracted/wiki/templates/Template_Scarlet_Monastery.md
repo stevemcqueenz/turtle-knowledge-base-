@@ -29,17 +29,17 @@ categories: ["Instance navigation templates"]
 [Bloodmage Thalnos](Bloodmage Thalnos)
 
 |
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 |-
 | class="title" colspan="2" | **Library**
 |-
@@ -50,11 +50,11 @@ categories: ["Instance navigation templates"]
 
 [Arcanist Doan](Arcanist Doan)
 |
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 |-
 | class="title" colspan="2" | **Armory**
 |-
@@ -63,9 +63,9 @@ categories: ["Instance navigation templates"]
 
 [Herod](Herod)
 |
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 |-
 | class="title" colspan="2" | **Cathedral**
 |-
@@ -76,11 +76,11 @@ categories: ["Instance navigation templates"]
 
 [High Inquisitor Whitemane](High Inquisitor Whitemane)
 |
--(lore)*
+*(lore)*
 
 [(lore)](Renault Mograine)
 
--(lore)*
+*(lore)*
 |-
 | class="title" colspan="2" | **NPCs**
 |-

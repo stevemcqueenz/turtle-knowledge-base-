@@ -29,15 +29,15 @@ categories: ["Draenei territories", "Moonwhisper Coast subzones", "Neutral quest
 | flightpath | Yes |
 | status | Active |
 
--Moro'gai Village** is a [draenei](draenei) village located on the islands in [Shimmerstar Lake](Shimmerstar Lake) in [Moonwhisper Coast](Moonwhisper Coast). It is home to the [Moro'gai tribe](Moro'gai tribe).
+**Moro'gai Village** is a [draenei](draenei) village located on the islands in [Shimmerstar Lake](Shimmerstar Lake) in [Moonwhisper Coast](Moonwhisper Coast). It is home to the [Moro'gai tribe](Moro'gai tribe).
 
 ## Travel Connections
 ### Flight
-  - [Narvalis Point](Narvalis Point), **Moonwhisper Coast****
-  - [Moonhoof Village](Moonhoof Village), **Moonwhisper Coast****
-  - [Talrendis Point](Talrendis Point), [Azshara](Azshara)**
-  - [Valormok](Valormok), [Azshara](Azshara)**
-  - [Everlook](Everlook), [Winterspring](Winterspring)**
+** [Narvalis Point](Narvalis Point), **Moonwhisper Coast****
+** [Moonhoof Village](Moonhoof Village), **Moonwhisper Coast****
+** [Talrendis Point](Talrendis Point), [Azshara](Azshara)**
+** [Valormok](Valormok), [Azshara](Azshara)**
+** [Everlook](Everlook), [Winterspring](Winterspring)**
 
 ## Inhabitants
 ## Trivia

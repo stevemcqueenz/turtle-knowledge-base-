@@ -25,7 +25,7 @@ categories: ["Goblin characters", "Tel'Abim NPCs", "Tradeskill vendors", "Turtle
 | location | Tel Co. Basecamp, Tel'Abim |
 | status | Alive |
 
--Klazz** is a [goblin](goblin) trade goods vendor located in [Tel Co. Basecamp](Tel Co. Basecamp) in [Tel'Abim](Tel'Abim).
+**Klazz** is a [goblin](goblin) trade goods vendor located in [Tel Co. Basecamp](Tel Co. Basecamp) in [Tel'Abim](Tel'Abim).
 
 ## Patch changes
 - (Patch 1.16.4|note=Added.)

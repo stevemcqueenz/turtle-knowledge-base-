@@ -243,13 +243,13 @@ This list is believed to be complete. From scans of GetCVarDefault for all likel
  "widescreen" = "1"
 
 ## Explanations
-  - targetNearestDistance**
+** targetNearestDistance**
    Tab targetting distance in front of you
 
-  - targetNearestDistanceRadius**
+** targetNearestDistanceRadius**
    Tab targetting behind you? (Not tested)
 
-  - violenceLevel**
+** violenceLevel**
    0-2.
    0 - No hit animations whatsoever
    1 - Hit flashes + green(?) blood (perhaps somewhat lesser extent)

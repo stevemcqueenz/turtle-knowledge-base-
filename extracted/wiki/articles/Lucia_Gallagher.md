@@ -26,7 +26,7 @@ categories: ["Human characters", "Northwind NPCs", "Stormwind (kingdom)", "Trade
 | status | Alive |
 | relatives | Sebastian (father),, Mark (brother),, Wisteria (sister) |
 
--Lucia Gallagher** is a [human](human) trade goods vendor located in [Ambershire](Ambershire) in [Northwind](Northwind).
+**Lucia Gallagher** is a [human](human) trade goods vendor located in [Ambershire](Ambershire) in [Northwind](Northwind).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

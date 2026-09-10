@@ -25,7 +25,7 @@ categories: ["Armor vendors", "Human characters", "Northwind NPCs", "Stormwind (
 | location | Amberwood Keep, Northwind |
 | status | Alive |
 
--Meredith Rutland** is a [human](human) boot vendor located in [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind).
+**Meredith Rutland** is a [human](human) boot vendor located in [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

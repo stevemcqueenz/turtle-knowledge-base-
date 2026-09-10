@@ -10,16 +10,16 @@ categories: ["Addon"]
 ---
 # DemonTrainerFrame
 
--DemonTrainerFrame** replaces the standard merchant window when speaking to demon trainers. making demon trainer interactions more intuitive and streamlined.
+**DemonTrainerFrame** replaces the standard merchant window when speaking to demon trainers. making demon trainer interactions more intuitive and streamlined.
 
 ## **Installation**
-  -Manual Installation only**
+**Manual Installation only**
 # Go to the main page of the repository.
 # Click the **<> Code** dropdown and download the repository as a <code>.zip</code>.
 # Extract the .zip file, move the DemonTrainerFrame folder from inside the DemonTrainerFrame_v0.0.7 folder to your <code>Interface/AddOns</code> directory 
 # Restart the game.
 
-  -Optional**: [**TrainerSkills**](https://github.com/refaim/TrainerSkills)
+**Optional**: [**TrainerSkills**](https://github.com/refaim/TrainerSkills)
 
 ## Git Links
 - [**(crazypoultry)**](https://github.com/crazypoultry/Wow1.12.1_Addons_Collection)

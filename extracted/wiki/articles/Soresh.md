@@ -26,13 +26,13 @@ categories: ["Blackrock clan", "Burning Steppes NPCs", "Innkeepers", "Orc charac
 | location | Karfang Hold, Burning Steppes |
 | status | Alive |
 
--Soresh** is an [orc](orc) innkeeper located in [Karfang Hold](Karfang Hold) in the [Burning Steppes](Burning Steppes).
+**Soresh** is an [orc](orc) innkeeper located in [Karfang Hold](Karfang Hold) in the [Burning Steppes](Burning Steppes).
 
 ## Quests
 - [quest: Preventative Antidote] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 We have food or ale if you need it. What will it be?
 
 ## Patch changes

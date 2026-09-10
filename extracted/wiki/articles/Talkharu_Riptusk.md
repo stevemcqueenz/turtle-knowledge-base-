@@ -25,7 +25,7 @@ categories: ["Amani'Alor NPCs", "Blacksmithing vendors", "Forest troll character
 | location | Amani'Alor, Stonetalon Mountains |
 | status | Alive |
 
--Talkharu Riptusk** is a [forest troll](forest troll) blacksmithing vendor located in [Amani'Alor](Amani'Alor) in [Stonetalon Mountains](Stonetalon Mountains).
+**Talkharu Riptusk** is a [forest troll](forest troll) blacksmithing vendor located in [Amani'Alor](Amani'Alor) in [Stonetalon Mountains](Stonetalon Mountains).
 
 ## Speculation
 He may be related to [Reolis Riptusk](Reolis Riptusk) and [Ranor Riptusk](Ranor Riptusk).

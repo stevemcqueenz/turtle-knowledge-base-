@@ -10,7 +10,7 @@ categories: ["Quest items", "Readable items", "Turtle WoW content"]
 ---
 # Rommath's Orders
 
--Rommath's Orders** drop from the following blood elves in [Felstrider Retreat](Felstrider Retreat):
+**Rommath's Orders** drop from the following blood elves in [Felstrider Retreat](Felstrider Retreat):
 - [Blood Elf Ranger](Blood Elf Ranger)
 - [Blood Elf Darkcaster](Blood Elf Darkcaster)
 - [Blood Elf Marauder](Blood Elf Marauder)

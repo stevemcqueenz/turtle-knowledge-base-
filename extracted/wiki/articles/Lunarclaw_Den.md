@@ -13,9 +13,5 @@ categories: ["Caves", "Moonwhisper Coast subzones", "Turtle WoW content", "Wildk
 The **Lunarclaw Den** is a series of caves in [Moonwhisper Coast](Moonwhisper Coast) that are home to a host of [owlbeast](owlbeast)s.
 
 ## NPCs
-- 
-- 
-- 
-
-## Patch changes
+- - - ## Patch changes
 - (Patch 1.18.1|note=Added.)

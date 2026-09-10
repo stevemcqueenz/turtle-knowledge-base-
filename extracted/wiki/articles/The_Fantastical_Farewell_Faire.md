@@ -34,4 +34,4 @@ You will receive:
 Hello, hello! Like I always say, the more the merrier! Check out the booths, our dancefloor and take a visit to the pier and plant some lanterns into the water! Here, have this coin for a starter! Gather more and you'll be able to purchase wonderful souvenirs from my brother Wez right next to me!
 
 ## Patch changes
--  **[Hotfix](https://forum.turtlecraft.gg/viewtopic.php?t=24942) (2026-05-03):** Added.
+- **[Hotfix](https://forum.turtlecraft.gg/viewtopic.php?t=24942) (2026-05-03):** Added.

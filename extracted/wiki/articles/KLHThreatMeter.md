@@ -34,21 +34,21 @@ Some of this has been superseded by the GUI. There's a button for Master Target,
 - Type /ktm resetraid to clear everyone's threat.
 
 ## Changes
-  -17.40.250**
+**17.40.250**
 - Added support for TWoW Threat API
-  -17.39.243**
+**17.39.243**
 - Reworked mini-map button logic
 - Added option to hide mini-map button
-  -17.39**
+**17.39**
 - Added KTM_PetMod
 - Some small fixes
 - Added mini-map button
 - Reverted Execute multiplier to 1 by zelazrgn:
 - Onyxia knock away threat reduction is corrected to a 25% reduction
 - Small correction to Thunderfury threat values
-  -17.38**
+**17.38**
 - Added a fix for Essence of the Red by zelazrgn
-  -17.37**
+**17.37**
 - Added Sunder count for raid
 - Some Bosses rework
 - Fixed Onyxia on Everlook

@@ -24,10 +24,10 @@ categories: ["Human characters", "Kul Tiras (kingdom)", "Stormwind City NPCs", "
 | location | The Canals, Stormwind City |
 | status | Alive |
 
--Sailor Brewen** is a [human](human) wandering the [Canals](Canals (Stormwind City)) between the [Mage Quarter](Mage Quarter) and [Stormwind Harbor](Stormwind Harbor) in [Stormwind City](Stormwind City).
+**Sailor Brewen** is a [human](human) wandering the [Canals](Canals (Stormwind City)) between the [Mage Quarter](Mage Quarter) and [Stormwind Harbor](Stormwind Harbor) in [Stormwind City](Stormwind City).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 All this money I've saved up; no better time to spend it than right now, aye?
 
 <Sailor Brewen laughs.>

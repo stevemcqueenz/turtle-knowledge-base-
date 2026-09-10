@@ -10,7 +10,7 @@ categories: ["Articles using deprecated loot", "Burning Legion territories", "Ca
 ---
 # Darkwhisper Gorge
 
--Darkwhisper Gorge** 60 75 Winterspring (g/s/c) is an area in the far south of [Winterspring](Winterspring) which consists of a network of tunnels and chasms. This area is inhabited by [elite](elite) [demons](demons) of an approximate five-man difficulty, although easily solable by a level 70.
+**Darkwhisper Gorge** 60 75 Winterspring (g/s/c) is an area in the far south of [Winterspring](Winterspring) which consists of a network of tunnels and chasms. This area is inhabited by [elite](elite) [demons](demons) of an approximate five-man difficulty, although easily solable by a level 70.
 
 This treacherous cavern lies along Winterspring Valley's southern slope. Poisonous green vapours bubble out of acid pools deep within the bottom of the gorge. Malevolent sounds echo from a cave at the furthest end of the gorge, leading some night elves to believe that demons may have taken refuge in the toxic depths.
 

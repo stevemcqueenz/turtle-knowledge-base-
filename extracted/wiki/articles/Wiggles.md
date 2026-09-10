@@ -25,14 +25,14 @@ categories: ["Ghouls", "Northwind NPCs", "Quest givers", "Turtle WoW content"]
 | location | Ruins of Birkhaven, Northwind |
 | status | Active |
 
--Wiggles** is a ghoul [quest giver](quest giver) located in the [Ruins of Birkhaven](Ruins of Birkhaven) in [Northwind](Northwind).
+**Wiggles** is a ghoul [quest giver](quest giver) located in the [Ruins of Birkhaven](Ruins of Birkhaven) in [Northwind](Northwind).
 
 ## Quests
 - [quest: Where is Wiggles?] 
 - [quest: Wiggles Knows the Way] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Fleshy?
 
 ## Patch changes

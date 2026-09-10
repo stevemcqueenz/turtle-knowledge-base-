@@ -25,7 +25,7 @@ categories: ["Bosses", "Gilneas City mobs", "Human characters", "Turtle WoW cont
 | status | Killable |
 | instance | Gilneas City |
 
--Horsemaster Levvin** is a boss located in the stables of [Greymane Tower](Greymane Tower) in [Gilneas City](Gilneas City).
+**Horsemaster Levvin** is a boss located in the stables of [Greymane Tower](Greymane Tower) in [Gilneas City](Gilneas City).
 
 ## Loot
 - [Horsemaster Belt](Horsemaster Belt)

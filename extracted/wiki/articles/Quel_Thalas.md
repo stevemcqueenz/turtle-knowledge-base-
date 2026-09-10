@@ -27,7 +27,7 @@ categories: []
 
    — [Prince Kael'thas Sunstrider](Kael'thas Sunstrider)
 
-  -Quel'Thalas**, "Noble Home" or "Noble Land" in Thalassian, is an area composed of two peninsulas located northwest of Lordaeron. Beyond Quel'Thalas is the Island of Quel'danas, where the most powerful magical source of Azeroth, the Sunwell, was once located.
+**Quel'Thalas**, "Noble Home" or "Noble Land" in Thalassian, is an area composed of two peninsulas located northwest of Lordaeron. Beyond Quel'Thalas is the Island of Quel'danas, where the most powerful magical source of Azeroth, the Sunwell, was once located.
 
 It is bordered to the south by the Eastern Plaguelands and slightly to the southwest by the Thalassian Highlands.
 

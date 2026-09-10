@@ -25,7 +25,7 @@ categories: ["Human characters", "Northwind NPCs", "Stable masters", "Stormwind 
 | status | Alive |
 | companions | Bristlebelly (pet) |
 
--Leander Hering** is a [human](human) [stable master](stable master) located in [Ambershire](Ambershire) in [Northwind](Northwind).
+**Leander Hering** is a [human](human) [stable master](stable master) located in [Ambershire](Ambershire) in [Northwind](Northwind).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

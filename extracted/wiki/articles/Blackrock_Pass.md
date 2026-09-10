@@ -10,7 +10,7 @@ categories: ["Burning Steppes subzones", "Camps", "Doors", "Passes", "Turtle WoW
 ---
 # Blackrock Pass
 
--Blackrock Pass** is the main entrance into the [Burning Steppes](Burning Steppes) from the [Redridge Mountains](Redridge Mountains), and it the only foot entrance to the Steppes other than through [Blackrock Mountain](Blackrock Mountain). By traveling through the pass, you leave behind the tranquil low-level lands of the [human](human) starting areas and venture into the scorched and twisted ruin of the Burning Steppes. Low-level travelers are advised to avoid Blackrock Pass at all costs, as the enemies beyond are far stronger than those found in Redridge Mountains.
+**Blackrock Pass** is the main entrance into the [Burning Steppes](Burning Steppes) from the [Redridge Mountains](Redridge Mountains), and it the only foot entrance to the Steppes other than through [Blackrock Mountain](Blackrock Mountain). By traveling through the pass, you leave behind the tranquil low-level lands of the [human](human) starting areas and venture into the scorched and twisted ruin of the Burning Steppes. Low-level travelers are advised to avoid Blackrock Pass at all costs, as the enemies beyond are far stronger than those found in Redridge Mountains.
 
 The pass contains a gate that borders Redridge Mountains.
 

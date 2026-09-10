@@ -44,7 +44,7 @@ The [Tower of Karazhan](Tower of Karazhan) raid has two separate attunement ques
 - [quest: Death In One Strike]
 
 #### The Gemstone of Zhan
--Follow the guide listed [here](https://docs.google.com/spreadsheets/u/0/d/1BtTo7_boVxd4fhtsUAooJpljPrvopHJvrxzmfE0ahzw/htmlview#gid=1040611058).*
+*Follow the guide listed [here](https://docs.google.com/spreadsheets/u/0/d/1BtTo7_boVxd4fhtsUAooJpljPrvopHJvrxzmfE0ahzw/htmlview#gid=1040611058).*
 
 #### The Scepter Head
 - [quest: Restoration]

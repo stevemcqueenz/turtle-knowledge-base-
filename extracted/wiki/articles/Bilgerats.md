@@ -26,10 +26,7 @@ The **Bilgerats** are a pirate crew from [Plunder Isle](Plunder Isle) that were 
 
 ## Members
 - <sup>†</sup>
-- 
-- 
-- 
-- [Moralis](Moralis)<sup>†</sup>
+- - - - [Moralis](Moralis)<sup>†</sup>
 - [Framwin](Framwin)<sup>†</sup>
 - [Jade](Jade)
 

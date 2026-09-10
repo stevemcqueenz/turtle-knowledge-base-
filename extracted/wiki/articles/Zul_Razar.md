@@ -10,7 +10,7 @@ categories: ["Gillijim's Isle subzones", "Jungle troll territories", "Turtle WoW
 ---
 # Zul'Razar
 
--Zul'Razar** is a troll city located on [Gillijim's Isle](Gillijim's Isle). It is inhabited by the [Razzari tribe](Razzari tribe), an offshoot of the [Gurubashi tribe](Gurubashi tribe) of [Stranglethorn Vale](Stranglethorn Vale). The southern part of the city, known as the [Ruins of Zul'Razar](Ruins of Zul'Razar), were destroyed and occupied by ogres of the [Maul'ogg](Maul'ogg) and is now overrun with bog beasts, (ref: [quest: Tanglemoss]) the bridge to the northern part of the city lying destroyed. In recent times, the Razzari have fallen prey to demonic corruption brought by their brethren, the [Hazzuri](Hazzuri tribe) of [Lapidis Isle](Lapidis Isle). (ref: [quest: Razzari Madness]) (ref: [quest: The Razzari Leaders])
+**Zul'Razar** is a troll city located on [Gillijim's Isle](Gillijim's Isle). It is inhabited by the [Razzari tribe](Razzari tribe), an offshoot of the [Gurubashi tribe](Gurubashi tribe) of [Stranglethorn Vale](Stranglethorn Vale). The southern part of the city, known as the [Ruins of Zul'Razar](Ruins of Zul'Razar), were destroyed and occupied by ogres of the [Maul'ogg](Maul'ogg) and is now overrun with bog beasts, (ref: [quest: Tanglemoss]) the bridge to the northern part of the city lying destroyed. In recent times, the Razzari have fallen prey to demonic corruption brought by their brethren, the [Hazzuri](Hazzuri tribe) of [Lapidis Isle](Lapidis Isle). (ref: [quest: Razzari Madness]) (ref: [quest: The Razzari Leaders])
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

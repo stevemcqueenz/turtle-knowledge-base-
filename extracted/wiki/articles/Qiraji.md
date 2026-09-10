@@ -38,9 +38,9 @@ Now the unmentionable Old God slowly awakens from his slumber beneath Ahn'Qiraj.
 The word Qiraji may also be used in reference to the set you recieve from the [Temple of Ahn'Qiraj](Temple of Ahn'Qiraj) quests.
 
 ## See also
--[Origin of the races: The Evolution of the Silithids](Origin of the races#The Evolution of the Silithids)
--[War of the Shifting Sands](War of the Shifting Sands)
--[Prophecy of C'Thun](Prophecy of C'Thun)
--[C'Thun](C'Thun)
--[Ahn'Qiraj](Ahn'Qiraj)
--[Silithid](Silithid)
+- [Origin of the races: The Evolution of the Silithids](Origin of the races#The Evolution of the Silithids)
+- [War of the Shifting Sands](War of the Shifting Sands)
+- [Prophecy of C'Thun](Prophecy of C'Thun)
+- [C'Thun](C'Thun)
+- [Ahn'Qiraj](Ahn'Qiraj)
+- [Silithid](Silithid)

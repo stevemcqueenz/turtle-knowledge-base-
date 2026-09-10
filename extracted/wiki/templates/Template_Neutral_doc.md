@@ -11,10 +11,10 @@ categories: ["Template documentation"]
 # Template:Neutral/doc
 
 ## Usage
-  - Code**
+** Code**
  <nowiki></nowiki>
 
-  - Yields**
+** Yields**
 
 ### Sorting
 If you are using this icon in a sortable table, with no other text in the column use the following code instead. It visually looks identical, but the sorting is enabled. Do not use this feature when using this template in a header (<code><nowiki>==  ==</nowiki></code>)

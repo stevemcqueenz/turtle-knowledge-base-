@@ -24,7 +24,7 @@ categories: ["Booty Bay characters", "Goblin characters", "Quest givers", "Stran
 | location | Booty Bay, Stranglethorn Vale |
 | status | Alive |
 
--Caravaneer Ruzzgot** is a [goblin](goblin) [quest giver](quest giver) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale).
+**Caravaneer Ruzzgot** is a [goblin](goblin) [quest giver](quest giver) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale).
 
 ## Quests
 - [quest: Passage to Booty Bay] 

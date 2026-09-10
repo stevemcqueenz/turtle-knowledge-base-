@@ -21,7 +21,7 @@ categories: ["Kodos", "Moonwhisper Coast mobs", "Turtle WoW content"]
 | creature | Beast |
 | location | Moonwhisper Coast |
 
--Moonshade Kodos** are kodos found in [Moonwhisper Coast](Moonwhisper Coast).
+**Moonshade Kodos** are kodos found in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Objective of
 - Drops [Tough Moonshade Horn](Tough Moonshade Horn) for [quest: Worthy of Cloudhoof].

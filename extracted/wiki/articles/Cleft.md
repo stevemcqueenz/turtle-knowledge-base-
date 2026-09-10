@@ -10,17 +10,10 @@ categories: ["Caves", "Furbolg territories", "Gnarlpine", "Night elf territories
 ---
 # Cleft
 
--The Cleft** is a corrupted [furbolg](furbolg) den located north west of [Dolanaar](Dolanaar) in [Teldrassil](Teldrassil). The furbolg here are part of the [Gnarlpine tribe](Gnarlpine tribe) and are led by [Ursal the Mauler](Ursal the Mauler). They ambushed travelers along the road to [Darnassus](Darnassus) and were holding a group of [slumbering druids](Druid of the Talon) captive. [Moon Priestess Amara](Moon Priestess Amara) and her bodyguards guarded the road near the entrance.
+**The Cleft** is a corrupted [furbolg](furbolg) den located north west of [Dolanaar](Dolanaar) in [Teldrassil](Teldrassil). The furbolg here are part of the [Gnarlpine tribe](Gnarlpine tribe) and are led by [Ursal the Mauler](Ursal the Mauler). They ambushed travelers along the road to [Darnassus](Darnassus) and were holding a group of [slumbering druids](Druid of the Talon) captive. [Moon Priestess Amara](Moon Priestess Amara) and her bodyguards guarded the road near the entrance.
 
 ## Inhabitants
 ### Mobs
 - s
-- 
-- 
-
-- 
-
-### NPCs
-- 
-- 
--
+- - - ### NPCs
+- - -

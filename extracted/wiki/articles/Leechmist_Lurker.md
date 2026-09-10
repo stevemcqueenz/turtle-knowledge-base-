@@ -23,7 +23,7 @@ categories: ["Bog beasts", "Stormwrought Ruins mobs", "Turtle WoW content"]
 | location | Stormwrought Ruins |
 | status | Killable |
 
--Leechmist Lurkers** are [bog beast](bog beast)s located in [Stormwrought Ruins](Stormwrought Ruins).
+**Leechmist Lurkers** are [bog beast](bog beast)s located in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Abilities
 - Stealth

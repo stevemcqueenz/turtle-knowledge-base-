@@ -22,7 +22,7 @@ This is how to write the template in [wikitext](w:Help:wikitext) onto your artic
 These parameters are explained more fully below.
 
 ## Parameters
-  -Named parameters specify name shortcuts. They are all optional.** They are placed at the top of the template call, like this:
+**Named parameters specify name shortcuts. They are all optional.** They are placed at the top of the template call, like this:
 
 <pre>{{dialogue
 |short=full
@@ -75,17 +75,11 @@ You can number, bullet or indent your dialogue:
   
 
 <pre>#
-1.</pre>
+1. </pre>
 
-1.
-1.
+1. 1. <pre>*
+- </pre>
 
-<pre>*
--</pre>
-
--
--
-
-You will get the odd spacing error (e.g. "Speech<code><nowiki><space></nowiki></code>") if you lay out your dialogue on multiple lines.
+- - You will get the odd spacing error (e.g. "Speech<code><nowiki><space></nowiki></code>") if you lay out your dialogue on multiple lines.
 
 <includeonly></includeonly><noinclude></noinclude>

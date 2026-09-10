@@ -25,7 +25,7 @@ categories: ["Darnassus NPCs", "Night elf characters", "Survival trainers", "Tur
 | location | Craftsmen's Terrace, Darnassus |
 | status | Alive |
 
--Nallaeth** is a [night elf](night elf) Journeyman [survival](survival) trainer located in the [Craftsmen's Terrace](Craftsmen's Terrace) in [Darnassus](Darnassus).
+**Nallaeth** is a [night elf](night elf) Journeyman [survival](survival) trainer located in the [Craftsmen's Terrace](Craftsmen's Terrace) in [Darnassus](Darnassus).
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

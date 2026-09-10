@@ -10,4 +10,4 @@ categories: ["Darkshore subzones", "Night elf territories", "Pages with broken f
 ---
 # Twilight Vale
 
--Twilight Vale** is the name of the southern forests of [Darkshore](Darkshore). Like the rest of Darkshore, the woods of the Twilight Vale are crawling with corrupted [furbolg](furbolg)s, feral [nightsaber](nightsaber)s, and rabid [bear](bear)s.  Travelers are advised to stick to the roads when traveling through the vale.
+**Twilight Vale** is the name of the southern forests of [Darkshore](Darkshore). Like the rest of Darkshore, the woods of the Twilight Vale are crawling with corrupted [furbolg](furbolg)s, feral [nightsaber](nightsaber)s, and rabid [bear](bear)s.  Travelers are advised to stick to the roads when traveling through the vale.

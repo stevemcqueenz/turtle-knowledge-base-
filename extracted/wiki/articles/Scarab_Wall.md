@@ -10,7 +10,7 @@ categories: ["Great walls", "Pages with broken file links", "Ruins", "Silithus s
 ---
 # Scarab Wall
 
--The Scarab Wall** lies at the southern edge of [Silithus](Silithus), marking the boundary between the silithid-controlled desert and the ancient kingdom of [Ahn'Qiraj](Ahn'Qiraj). It is an impressive structure. 
+**The Scarab Wall** lies at the southern edge of [Silithus](Silithus), marking the boundary between the silithid-controlled desert and the ancient kingdom of [Ahn'Qiraj](Ahn'Qiraj). It is an impressive structure. 
 
 There is a [World Event](World Event) to open the [Gates of Ahn'Qiraj](Gates of Ahn'Qiraj).
 

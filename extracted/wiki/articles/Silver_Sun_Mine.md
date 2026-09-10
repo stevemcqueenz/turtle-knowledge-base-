@@ -13,8 +13,4 @@ categories: ["Mines", "Thalassian Highlands subzones"]
 The **Silver Sun Mine** is an arcane crystal mine located in the [Thalassian Highlands](Thalassian Highlands). As the only source of arcane crystals of the region, it is of great importance to the high elves of the [Silvermoon Remnant](Silvermoon Remnant) to prevent them from succumbing to arcane addiction. However, the arcane golem laborers that dug for the crystals were struck by an arcane discharge and went haywire, with the blood elves suspected to be behind their malfunction. (ref: [quest: Arcane Golem Revolt])
 
 ## NPCs
-- 
-- 
-- 
-
-## References
+- - - ## References

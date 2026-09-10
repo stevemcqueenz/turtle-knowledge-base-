@@ -10,7 +10,7 @@ categories: ["Patches"]
 ---
 # Patch 1.16.2
 
--Patch 1.16.2** was released on August 8, 2022.
+**Patch 1.16.2** was released on August 8, 2022.
 
 ## Patch Notes
 - [Compact Harvest Reaper](Compact Harvest Reaper) will now break after 10 minutes.

@@ -24,7 +24,7 @@ categories: ["Stormwrought Ruins mobs", "Succubi", "Turtle WoW content"]
 | location | Stormwrought Ruins |
 | status | Killable |
 
--Sinister Interrogators** are [succubi](succubi) located in [Stormwrought Ruins](Stormwrought Ruins).
+**Sinister Interrogators** are [succubi](succubi) located in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

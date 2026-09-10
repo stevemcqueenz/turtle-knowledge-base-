@@ -25,10 +25,10 @@ categories: ["Bosses", "Frostmane Hollow mobs", "Ice troll characters", "Stubs",
 | status | Killable |
 | instance | Frostmane Hollow |
 
--Handler Oboka** is a mini-boss in [Frostmane Hollow](Frostmane Hollow) accompanying [Tan'sha the Sleek](Tan'sha the Sleek).
+**Handler Oboka** is a mini-boss in [Frostmane Hollow](Frostmane Hollow) accompanying [Tan'sha the Sleek](Tan'sha the Sleek).
 
 ## Quotes
-  -Aggro**
+**Aggro**
   Tan'sha, kill them all!
 
 ## Patch changes

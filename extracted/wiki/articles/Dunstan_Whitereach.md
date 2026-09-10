@@ -25,7 +25,7 @@ categories: ["Argent Dawn", "Brotherhood of the Light", "Human characters", "Sca
 | location | Light's Point, Scarlet Enclave |
 | status | Alive |
 
--Dunstan Whitereach** is a [human](human) located in the guard tower at [Light's Point](Light's Point) in the [Scarlet Enclave](Scarlet Enclave).
+**Dunstan Whitereach** is a [human](human) located in the guard tower at [Light's Point](Light's Point) in the [Scarlet Enclave](Scarlet Enclave).
 
 ## Quotes
 It is in the fringes of the world that hope shines the brightest, never forget that even a dim torch is still burning.

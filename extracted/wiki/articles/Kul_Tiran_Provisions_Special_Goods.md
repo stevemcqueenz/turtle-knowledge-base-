@@ -44,7 +44,7 @@ Well, I was right to trust my hands in you. Perhaps not all is so bad in this 'N
 You've done well, and for your hard work, you've earned this commendation, wear it with pride soldier.
 
 ## Notes
-  -Upon completion**
+**Upon completion**
   **Deckmaster Darkhollow says:** Well done on your missions, recruit. You make Kul Tiras proud!
 
 ## Progression

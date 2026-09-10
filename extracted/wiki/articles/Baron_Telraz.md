@@ -25,7 +25,7 @@ categories: ["Goblin characters", "Quest givers", "Tel'Abim NPCs", "Tel Company"
 | location | Tel Co. Basecamp, Tel'Abim |
 | status | Alive |
 
--Baron Telraz** is a [goblin](goblin) [quest giver](quest giver) located in [Tel Co. Basecamp](Tel Co. Basecamp) in [Tel'Abim](Tel'Abim).
+**Baron Telraz** is a [goblin](goblin) [quest giver](quest giver) located in [Tel Co. Basecamp](Tel Co. Basecamp) in [Tel'Abim](Tel'Abim).
 
 ## Quests
 - [quest: Finding Bixxle!] 
@@ -34,7 +34,7 @@ categories: ["Goblin characters", "Quest givers", "Tel'Abim NPCs", "Tel Company"
 - [quest: The Work Must Continue] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 You one of those adventurers? If so, you're just what I'm lookin' for. We've had so many problems, and everything has collapsed. I got more dead employees than I do banana's, you UNDERSTAND?!
 
 <Baron Telraz takes a moment, clearing his throat.>

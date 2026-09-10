@@ -26,7 +26,7 @@ categories: ["Ogre mages", "Shadow Council", "Stormwrought Ruins mobs"]
 | instance | Stormwrought Ruins |
 | mentors | Cho'gall (master) |
 
--Ighal'for** is a miniboss in [Stormwrought Ruins](Stormwrought Ruins). He is the most treasured pupil of [Cho'gall](Cho'gall), (ref: [quest: It Can't Rain All the Time]) and was sent to [Balor](Balor) to oversee the summoning of the abhorrent beholder [Mergothid](Mergothid) into [Azeroth](Azeroth). (ref: [quest: Artifact of the Dark Lady])
+**Ighal'for** is a miniboss in [Stormwrought Ruins](Stormwrought Ruins). He is the most treasured pupil of [Cho'gall](Cho'gall), (ref: [quest: It Can't Rain All the Time]) and was sent to [Balor](Balor) to oversee the summoning of the abhorrent beholder [Mergothid](Mergothid) into [Azeroth](Azeroth). (ref: [quest: Artifact of the Dark Lady])
 
 ## Abilities
   *Main article: [Mergothid#Abilities](Mergothid#Abilities)*
@@ -39,6 +39,6 @@ categories: ["Ogre mages", "Shadow Council", "Stormwrought Ruins mobs"]
 - [quest: It Can't Rain All the Time]
 
 ## Patch changes
--  **[Patch 1.18.0](Patch 1.18.0) (2025-09-15):** Added.
+- **[Patch 1.18.0](Patch 1.18.0) (2025-09-15):** Added.
 
 ## References

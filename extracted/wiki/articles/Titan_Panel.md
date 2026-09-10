@@ -10,10 +10,10 @@ categories: ["Addon"]
 ---
 # Titan Panel
 
--Titan Panel** is a customizable in-game info bar that displays real-time data like gold, XP, FPS, latency, and more. It supports plugins to enhance your UI and optimize your gameplay experience.
+**Titan Panel** is a customizable in-game info bar that displays real-time data like gold, XP, FPS, latency, and more. It supports plugins to enhance your UI and optimize your gameplay experience.
 
 ## Installation
-  -Manual Installation Only**
+**Manual Installation Only**
 
 # Download this zip: [**Titan_v2.20.zip**](https://web.archive.org/web/20061109140913/http://downloadmod.worldofwar.net/upload/ui/1156392959Titan_v2.20.zip)
 # Unpack the <code>.zip</code> and move the folders into your <code>Interface/AddOns</code> directory and restart the game.
@@ -144,7 +144,7 @@ Option:
 |}
 
 ## Developer's Guide
-  -Basic Structure of a Titan Panel Button**
+**Basic Structure of a Titan Panel Button**
 
 A Titan panel button generally consists of:
 
@@ -153,7 +153,7 @@ A Titan panel button generally consists of:
 - **Tooltip**: Hover information.
 - **Control window**: Optional window for settings or controls.
 
-  -Defining a Button in XML**<syntaxhighlight lang="lua">
+**Defining a Button in XML**<syntaxhighlight lang="lua">
 <Frame parent="UIParent">
   <Frames>
     <Button name="TitanPanelExampleButton" inherits="TitanPanelTextTemplate"
@@ -172,7 +172,7 @@ A Titan panel button generally consists of:
 - **OnLoad**: Sets up plug-in details and registers with Titan Panel.
 - **Inheritance Templates**: Specify the button type (see below).
 
-  -Template Types for Buttons**
+**Template Types for Buttons**
 
 Choose the template based on your plug-in's display needs:
 {| class="fandom-table"
@@ -205,7 +205,7 @@ Choose the template based on your plug-in's display needs:
 |Used for sliders, not top-level buttons.
 |}
 
-  -Registering Your Plug-in**
+**Registering Your Plug-in**
 
 Before calling <code>TitanPanelButton_OnLoad()</code>, set up your plug-in's registry table. This defines appearance and behavior:
 {| class="fandom-table"
@@ -252,7 +252,7 @@ Before calling <code>TitanPanelButton_OnLoad()</code>, set up your plug-in's reg
 |Which functions to update (<code>tooltip</code>, <code>button</code>, or both).
 |}
 
-  -Example Registry Setup**<syntaxhighlight lang="lua">
+**Example Registry Setup**<syntaxhighlight lang="lua">
 function TitanPanelExamplePlugin_OnLoad()
   this.registry = {
     id = "Example",
@@ -267,12 +267,12 @@ function TitanPanelExamplePlugin_GetButtonText()
 end
 </syntaxhighlight>This creates a simple plug-in displaying "Example" on the panel.
 
-  -Handling Clicks**
+**Handling Clicks**
 
 - **Left Clicks**: Hook the <code>OnClick</code> event or create a control frame called <code>TitanPanel(ID)ControlFrame</code>.
 - **Right Clicks**: Ensure <code>TitanPanelButton_OnClick()</code> is called to handle context menus.
 
-  -Creating a Context Menu**
+**Creating a Context Menu**
 
 Define <code>TitanPanelRightClickMenu_Prepare(ID)</code> to build your menu:<syntaxhighlight lang="lua">
 function TitanPanelRightClickMenu_PrepareExampleMenu()
@@ -284,7 +284,7 @@ function TitanPanelRightClickMenu_PrepareExampleMenu()
 end
 </syntaxhighlight>
 
-  -Building a Context Menu**
+**Building a Context Menu**
 
 Use the following functions to add menu items:
 {| class="fandom-table"
@@ -313,7 +313,7 @@ Use the following functions to add menu items:
 |Toggle variable.
 |}
 
-  -Important Notes**
+**Important Notes**
 - The example plugin's registry lacks variables and icon — toggles won't work without them.
 - The <code>GetButtonText</code> method should return display text or labels.
 - Ensure your registry includes all necessary fields for full functionality.

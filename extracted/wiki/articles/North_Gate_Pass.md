@@ -10,7 +10,7 @@ categories: ["Dun Morogh subzones", "Dwarf territories", "Loch Modan subzones", 
 ---
 # North Gate Pass
 
--North Gate Pass** connects [Dun Morogh](Dun Morogh) in the high mountains to the west with [Loch Modan](Loch Modan) in the lower mountains to the east. It is frequently traveled by adventurers coming from or going to the [Wetlands](Wetlands), as this pass is the closest to the descent from the Loch. North Gate Pass is also the location of the guard station of [North Gate Outpost](North Gate Outpost).
+**North Gate Pass** connects [Dun Morogh](Dun Morogh) in the high mountains to the west with [Loch Modan](Loch Modan) in the lower mountains to the east. It is frequently traveled by adventurers coming from or going to the [Wetlands](Wetlands), as this pass is the closest to the descent from the Loch. North Gate Pass is also the location of the guard station of [North Gate Outpost](North Gate Outpost).
 
 <gallery>
 North Gate Pass.jpg|The pass entrance, Dun Morogh side.

@@ -24,7 +24,7 @@ categories: ["High elf characters", "Thalassian Highlands NPCs", "Turtle WoW con
 | location | Thalassian Highlands |
 | status | Alive |
 
--Raelus Morninglight** is a [high elf](high elf) located west of the [Thaumarium](Thaumarium) in the [Thalassian Highlands](Thalassian Highlands).
+**Raelus Morninglight** is a [high elf](high elf) located west of the [Thaumarium](Thaumarium) in the [Thalassian Highlands](Thalassian Highlands).
 
 ## Patch changes
 (Patch 1.17.1|note=Added.)

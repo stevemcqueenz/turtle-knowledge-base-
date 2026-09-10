@@ -32,21 +32,21 @@ Stratholme is basically divided into two parts, at least in the minds of players
 - **Enemy Level Range:** 55-62
 - **End Boss:** [Grand Crusader Dathrohan](Saiden Dathrohan)/[Balnazzar](Balnazzar)
 - **Mini Bosses:**
-  -[Malor the Zealous](Malor the Zealous)
-  -[Archivist Galford](Archivist Galford)
-  -[Cannonmaster Willey](Cannonmaster Willey)
-  -[Timmy the Cruel](Timmy)
-  -[Hearthsinger Forresten](Hearthsinger Forresten)
-  -[The Unforgiven](The Unforgiven)
-  -[Skul](Skul)
-  -[The Stratholme Courier](The Stratholme Courier)
+  - [Malor the Zealous](Malor the Zealous)
+  - [Archivist Galford](Archivist Galford)
+  - [Cannonmaster Willey](Cannonmaster Willey)
+  - [Timmy the Cruel](Timmy)
+  - [Hearthsinger Forresten](Hearthsinger Forresten)
+  - [The Unforgiven](The Unforgiven)
+  - [Skul](Skul)
+  - [The Stratholme Courier](The Stratholme Courier)
 - **Triggered Boss**
-  -[Fras Siabi](Fras Siabi)
-  -*Opening up his tobacco box for the quest.
-  -[Crimson Hammersmith](Crimson Hammersmith)
-  -*Clicking on a parchment named "Blacksmith Plans" will trigger the Hammersmith. The plans can appear in at least 2 known locations:
-  -*#On the floor in the Hoard area before Cannonmaster Willey
-  -*#On a bench in the alcoves occupied by Archivist Galford
+  - [Fras Siabi](Fras Siabi)
+  - *Opening up his tobacco box for the quest.
+  - [Crimson Hammersmith](Crimson Hammersmith)
+  - *Clicking on a parchment named "Blacksmith Plans" will trigger the Hammersmith. The plans can appear in at least 2 known locations:
+  - *#On the floor in the Hoard area before Cannonmaster Willey
+  - *#On a bench in the alcoves occupied by Archivist Galford
 
 ### Quests
 - *This is part eight of a ten part quest chain started by [Tirion Fordring](Tirion Fordring) on the banks of the Thondroril River in the Eastern Plaguelands. Look for the painting in the room with [Archivist Galford](Archivist Galford).*
@@ -59,18 +59,18 @@ Stratholme is basically divided into two parts, at least in the minds of players
 - **Enemy Level Range:** 55-62
 - **End Boss:** [Baron Rivendare](Baron Rivendare)
 - **Mini Bosses:**
-  -[Balzathon](Balzathon) (new with patch 1.11; will disappear when [Scourge Invasion](Scourge Invasion) ends)
-  -[Magistrate Barthilas](Barthilas) (drops key to Scourge side)
-  -[Baroness Anastari](Baroness Anastari)
-  -[Nerub'enkan](Nerub'enkan)
-  -[Maleki the Pallid](Maleki the Pallid)
-  -[Ramstein the Gorger](Ramstein the Gorger)
-  -[Stonespine](Stonespine)
+  - [Balzathon](Balzathon) (new with patch 1.11; will disappear when [Scourge Invasion](Scourge Invasion) ends)
+  - [Magistrate Barthilas](Barthilas) (drops key to Scourge side)
+  - [Baroness Anastari](Baroness Anastari)
+  - [Nerub'enkan](Nerub'enkan)
+  - [Maleki the Pallid](Maleki the Pallid)
+  - [Ramstein the Gorger](Ramstein the Gorger)
+  - [Stonespine](Stonespine)
 - **Triggered Boss**
-  -[Postmaster Malown](Postmaster Malown)
-  -*Opening up various mailboxes with their corresponding keys.
-  -[Black Guard Swordsmith](Black Guard Swordsmith)
-  -*The Black Guard Swordsmith is triggered by clicking on some blacksmithing plans on the floor to the right of the stairs of the First Ziggurat. Baroness Anastari is at the top of the stairs.
+  - [Postmaster Malown](Postmaster Malown)
+  - *Opening up various mailboxes with their corresponding keys.
+  - [Black Guard Swordsmith](Black Guard Swordsmith)
+  - *The Black Guard Swordsmith is triggered by clicking on some blacksmithing plans on the floor to the right of the stairs of the First Ziggurat. Baroness Anastari is at the top of the stairs.
 - Also contains the entrance to a future instance.
 
 ### Quests

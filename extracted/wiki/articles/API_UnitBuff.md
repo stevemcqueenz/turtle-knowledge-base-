@@ -15,23 +15,23 @@ Retrieve info about a certain buff on a certain unit.
 ----
 
 ## *Arguments*
-  -unit** 
+**unit** 
   String - The unit ID you want buff information for - "player", "target", "pet" etc
 
-  -buffIndex**
+**buffIndex**
    Number - The index num of the buff to retrieve info on. Starts at 1 and goes up to (and possibly beyond) a certain number. The maximum numbers used by turtle code are 32 for party/pet and 8(?) for target buffs.
 
-  -showCastable**
+**showCastable**
   Boolean - *(optional)* - Can be 0, 1, or nil. If present and 1, then only buffs will be returned which are castable by the player. Index is still starting with 1 and counting up.
 
 ## *Returns*
-  -buffTexture**
+**buffTexture**
   String - The identifier of (path and filename to) the indicated buff, or nil if no buff
 
-  -buffApplications**
+**buffApplications**
   String - The number of times the buff has been applied to the target.
 
-  -buffID**
+**buffID**
   Number - the unique identifier for the buff.
   As IDs are unique, they are more reliable than texture matching.
 

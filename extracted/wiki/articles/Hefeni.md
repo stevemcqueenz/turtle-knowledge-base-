@@ -26,10 +26,10 @@ categories: ["Balor NPCs", "Flight masters", "Tauren characters", "Turtle WoW co
 | location | Stormbreaker Point, Balor |
 | status | Alive |
 
--Hefeni** is a [tauren](tauren) wyvern flight master located at [Stormbreaker Point](Stormbreaker Point) in [Balor](Balor).
+**Hefeni** is a [tauren](tauren) wyvern flight master located at [Stormbreaker Point](Stormbreaker Point) in [Balor](Balor).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Should you wish to return to [Grom'gol Base Camp](Grom'gol Base Camp), don't worry. My wyverns will best these storms with ease.
 
 ## Flight paths

@@ -26,7 +26,7 @@ categories: ["Human characters", "Quest givers", "Sunnyglade Valley NPCs", "Turt
 | location | Sunnyglade Valley |
 | status | Killable |
 
--Lady Katrin** is a [human](human) quest giver and mini-boss in [Sunnyglade Valley](Sunnyglade Valley).
+**Lady Katrin** is a [human](human) quest giver and mini-boss in [Sunnyglade Valley](Sunnyglade Valley).
 
 ## Quests
 - [quest: Strategic Strike] 

@@ -25,7 +25,7 @@ categories: ["Moonwhisper Coast NPCs", "Moths", "Turtle WoW content"]
 | status | Alive |
 | companions | Huntress Fan Dhe'ra (master) |
 
--Teph Braka** is the [moth](moth) pet of [Huntress Fan Dhe'ra](Huntress Fan Dhe'ra) located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Teph Braka** is the [moth](moth) pet of [Huntress Fan Dhe'ra](Huntress Fan Dhe'ra) located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

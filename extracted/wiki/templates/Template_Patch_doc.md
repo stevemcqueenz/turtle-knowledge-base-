@@ -15,7 +15,7 @@ A template that displays the patch number, date, and a note. To be used under th
 Use a patch number (from Turtle WoW!) as the first parameter and add a note to the note parameter.
 
 Example:
--<nowiki>(Patch 1.17.1|note=Added.)</nowiki>
+- <nowiki>(Patch 1.17.1|note=Added.)</nowiki>
 
 Generates:
 (Patch 1.17.1|note=Added.)

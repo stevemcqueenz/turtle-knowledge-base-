@@ -10,4 +10,4 @@ categories: ["Ashenvale subzones", "Furbolg territories", "Pages with broken fil
 ---
 # Thistlefur Village
 
--Thistlefur Village** is a [village](village) located in the westcentral area of [Ashenvale](Ashenvale), north of [Astranaar](Astranaar). It is the homeland of the [Thistlefur tribe](Thistlefur tribe) of [corrupted furbolg](corrupted furbolg)s, who aggressively attack anyone who wanders too close. The Thistlefur tribe is led by two extremely ferocious [warrior](warrior)s: [Dal Bloodclaw](Dal Bloodclaw) and [Rorgish Jowl](Rorgish Jowl).
+**Thistlefur Village** is a [village](village) located in the westcentral area of [Ashenvale](Ashenvale), north of [Astranaar](Astranaar). It is the homeland of the [Thistlefur tribe](Thistlefur tribe) of [corrupted furbolg](corrupted furbolg)s, who aggressively attack anyone who wanders too close. The Thistlefur tribe is led by two extremely ferocious [warrior](warrior)s: [Dal Bloodclaw](Dal Bloodclaw) and [Rorgish Jowl](Rorgish Jowl).

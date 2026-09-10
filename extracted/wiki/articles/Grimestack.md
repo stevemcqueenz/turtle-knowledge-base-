@@ -25,6 +25,6 @@ categories: ["Booty Bay characters", "Goblin characters", "Stable masters", "Str
 | location | Booty Bay, Stranglethorn Vale |
 | status | Alive |
 
--Grimestack** is a [goblin](goblin) [stable master](stable master) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). He stands just outside the [Salty Sailor Tavern](Salty Sailor Tavern).
+**Grimestack** is a [goblin](goblin) [stable master](stable master) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). He stands just outside the [Salty Sailor Tavern](Salty Sailor Tavern).
 
 ## External links

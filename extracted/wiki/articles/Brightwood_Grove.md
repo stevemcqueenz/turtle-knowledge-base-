@@ -10,4 +10,4 @@ categories: ["Duskwood subzones", "Groves", "Worgen territories"]
 ---
 # Brightwood Grove
 
--Brightwood Grove** is an area in [Duskwood](Duskwood). The few buildings that stood at the edge of the grove lie in ruins and [Nightbane](Nightbane pack) [worgen](worgen) prowl the dark fields, erecting crude camps and hungrily attacking anyone who come too close. Young [Alliance](Alliance)-based adventurers are often sent here to slay some of the wolf men to better control their numbers. The location is just west of [Darkshire](Darkshire).
+**Brightwood Grove** is an area in [Duskwood](Duskwood). The few buildings that stood at the edge of the grove lie in ruins and [Nightbane](Nightbane pack) [worgen](worgen) prowl the dark fields, erecting crude camps and hungrily attacking anyone who come too close. Young [Alliance](Alliance)-based adventurers are often sent here to slay some of the wolf men to better control their numbers. The location is just west of [Darkshire](Darkshire).

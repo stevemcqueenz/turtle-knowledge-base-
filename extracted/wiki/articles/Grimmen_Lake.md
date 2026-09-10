@@ -10,18 +10,11 @@ categories: ["Human territories", "Lakes", "Murloc territories", "Northwind subz
 ---
 # Grimmen Lake
 
--Grimmen Lake** is a lake located directly east of the [Plump Pumpkin](Plump Pumpkin) in [Northwind](Northwind) that is crawling with bloodthirsty [murloc](murloc)s. Adventurers hunting murlocs in the lake should make sure to keep an eye open for the [Grimmen Thresher](Grimmen Thresher) that can be occasionally sighted patrolling the deeps.
+**Grimmen Lake** is a lake located directly east of the [Plump Pumpkin](Plump Pumpkin) in [Northwind](Northwind) that is crawling with bloodthirsty [murloc](murloc)s. Adventurers hunting murlocs in the lake should make sure to keep an eye open for the [Grimmen Thresher](Grimmen Thresher) that can be occasionally sighted patrolling the deeps.
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
--  (rare)
+- - - - - - (rare)
 
-  -In the cave**
-- 
-
-## Patch changes
+**In the cave**
+- ## Patch changes
 - (Patch 1.18.0|note=Added.)

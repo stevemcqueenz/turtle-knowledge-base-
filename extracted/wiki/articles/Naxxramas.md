@@ -11,16 +11,16 @@ categories: ["Eastern Plaguelands", "Naxxramas", "Pages with broken file links",
 # Naxxramas
 
 ----
--Floating above the Plaguelands, the necropolis known as Naxxramas serves as the seat of one of the Lich King's most powerful officers, the dreaded lich Kel'Thuzad. Horrors of the past and new terrors yet to be unleashed are gathering inside the necropolis as the Lich King's servants prepare their assault. Soon the Scourge will march again...*
+*Floating above the Plaguelands, the necropolis known as Naxxramas serves as the seat of one of the Lich King's most powerful officers, the dreaded lich Kel'Thuzad. Horrors of the past and new terrors yet to be unleashed are gathering inside the necropolis as the Lich King's servants prepare their assault. Soon the Scourge will march again...*
 
--NOTE: Naxxramas is opened as part of [The Scourge Invasion](The Scourge Invasion) world event.*
+*NOTE: Naxxramas is opened as part of [The Scourge Invasion](The Scourge Invasion) world event.*
 ----
 
 # General
-  -*Level:** 60+
-  -*# of Players:** 40
-  -*Location:** Raid instance located above the ruined city of [Stratholme](Stratholme) in [Eastern Plaguelands](Eastern Plaguelands)
-  -*Abbreviation:** Naxx
+- **Level:** 60+
+- **# of Players:** 40
+- **Location:** Raid instance located above the ruined city of [Stratholme](Stratholme) in [Eastern Plaguelands](Eastern Plaguelands)
+- **Abbreviation:** Naxx
 - Released: Added in [Patch 1.11](Patch 1.11 (Release Notes))
 ----
 
@@ -45,15 +45,15 @@ To enter Naxxramas, you must become attuned (which you do so through the [Argent
 The requirements for attuning to Naxxramas will depend on your reputation with the Argent Dawn:
 
 At **Honored**, the following is required:
--60 Gold 
--1 Righteous Orb 
--2 Nexus Crystals 
--5 Arcane Crystals 
+- 60 Gold 
+- 1 Righteous Orb 
+- 2 Nexus Crystals 
+- 5 Arcane Crystals 
 
 At **Revered**:
--30 Gold 
--2 Arcane Crystals 
--1 Nexus Crystal
+- 30 Gold 
+- 2 Arcane Crystals 
+- 1 Nexus Crystal
 
 Attunement at **Exalted** is free of charge. 
 
@@ -146,17 +146,17 @@ In the preferences are the [Tier 3](Tier 3) armor part the boss drops quest item
   - [Grobbulus](Grobbulus) (Feet)
   - [Gluth](Gluth) (Shoulder/Belt/Wrist)
   - [Thaddius](Thaddius) (Headx2)
-  -* [Eugen](Eugen) (Unique named non boss monster)
-  -* [Stalagg](Stalagg) (Unique named non boss monster)
+  - * [Eugen](Eugen) (Unique named non boss monster)
+  - * [Stalagg](Stalagg) (Unique named non boss monster)
 
 - **Deathknight Wing**
   - [Instructor Razuvious](Instructor Razuvious) (Shoulder)
   - [Gothik the Harvester](Gothik the Harvester) (Shoulder)
   - [The Four Horsemen](The Four Horsemen): (Chestx2)
-  -* [Highlord Mograine](Highlord Mograine) 
-  -* [Thane Korthazz](Thane Korthazz)
-  -* [Lady Blaumeux](Lady Blaumeux)
-  -* [Sir Zeliek](Sir Zeliek)
+  - * [Highlord Mograine](Highlord Mograine) 
+  - * [Thane Korthazz](Thane Korthazz)
+  - * [Lady Blaumeux](Lady Blaumeux)
+  - * [Sir Zeliek](Sir Zeliek)
 
 - **Plague Wing**
   - [Noth The Plaguebringer](Noth The Plaguebringer) (Belt)

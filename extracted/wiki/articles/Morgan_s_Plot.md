@@ -10,7 +10,7 @@ categories: ["Burial sites", "Churches", "Deadwind Pass subzones"]
 ---
 # Morgan's Plot
 
--Morgan's Plot** is a small decrepit church with a graveyard and [crypt](Karazhan Crypt) located in [Deadwind Pass](Deadwind Pass). It can be found just behind [Karazhan](Karazhan), and its graveyard serves as the respawn and [spirit healer](spirit healer) point for adventurers who die within the various [Karazhan](Karazhan) instances.
+**Morgan's Plot** is a small decrepit church with a graveyard and [crypt](Karazhan Crypt) located in [Deadwind Pass](Deadwind Pass). It can be found just behind [Karazhan](Karazhan), and its graveyard serves as the respawn and [spirit healer](spirit healer) point for adventurers who die within the various [Karazhan](Karazhan) instances.
 
 The chapel itself was once inhabited by two [Unliving Resident](Unliving Resident)s, and there was a third patrolling just down the hill. It is now inhabited by the specters of [Anelace the Clairvoyant](Anelace the Clairvoyant), [Hanvar the Righteous](Hanvar the Righteous), [Pietro Paraveno](Pietro Paraveno) and [Hierophant Nerseus](Hierophant Nerseus), who watch over the church and keep the secrets of Karazhan hidden from the gazes of evil.
 

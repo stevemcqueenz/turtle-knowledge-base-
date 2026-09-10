@@ -22,7 +22,7 @@ categories: ["Basilisks", "Gillijim's Isle mobs", "Tenacity beasts", "Turtle WoW
 | location | Deepneck Cove, Gillijim's Isle |
 | pet | Basilisk |
 
--Glasseye** is a basilisk found in [Deepneck Cove](Deepneck Cove) in [Gillijim's Isle](Gillijim's Isle).
+**Glasseye** is a basilisk found in [Deepneck Cove](Deepneck Cove) in [Gillijim's Isle](Gillijim's Isle).
 
 ## Objective of
 - Drops [The Glass Eye](The Glass Eye) for [quest: The Glass Eye].

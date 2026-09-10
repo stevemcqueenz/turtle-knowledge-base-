@@ -13,22 +13,9 @@ categories: ["Grim Reaches subzones", "Libraries", "Town halls", "Turtle WoW con
 The **Dun Kithas Magistrate**, also known as the **Magistrate's Hall**, (ref: [quest: Preparations for War]) is the seat of rule for the [Council of Dun Kithas](Council of Dun Kithas). Additionally, it appears to house all of [Dun Kithas](Dun Kithas)' census records and historical archives. The top floor is the library (ref: [Turtle WoW Team on Twitter](https://x.com/turtlecraft/status/1940667630672548216) (2025-07-03) (dead link)) and the bottom floor is the Council Hall.
 
 ## NPCs
-  -Library**
-- 
-- 
-- 
-- 
-
-  -Council Hall**
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-## Gallery
+**Library**
+- - - - ;Council Hall
+- - - - - - - ## Gallery
 <gallery>
 Dun Kithas Magistrate - Library1.png
 Dun Kithas Magistrate - Library2.png

@@ -78,8 +78,8 @@ And still, I cannot shake the feeling that this is only a shell. A key, perhaps.
 I must return to Alah'thalas at once. Oh cousin… this time, I did not fail you.
 
 ## Progression
-1.[quest: Expedition Gone Wrong]
-1.[quest: The Withered Den]
+1. [quest: Expedition Gone Wrong]
+1. [quest: The Withered Den]
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

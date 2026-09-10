@@ -10,4 +10,4 @@ categories: ["Azshara subzones", "Elven ruins", "Pages with broken file links", 
 ---
 # Rethress Sanctum
 
--Rethress Sanctum** is a ruined shrine located in the [Ruined Reaches](Ruined Reaches), southwest of [Ravencrest Monument](Ravencrest Monument) in [Azshara](Azshara).
+**Rethress Sanctum** is a ruined shrine located in the [Ruined Reaches](Ruined Reaches), southwest of [Ravencrest Monument](Ravencrest Monument) in [Azshara](Azshara).

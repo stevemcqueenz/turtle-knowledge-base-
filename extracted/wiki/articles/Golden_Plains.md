@@ -12,4 +12,4 @@ categories: ["Flats", "Mulgore subzones", "Pages with broken file links", "Taure
 
 __NOTOC__
 
-  -The Golden Plains**50 33 Mulgore (g/s/c) are a large basin surrounding [Thunder Bluff](Thunder Bluff) on the southeast. These plains are one of the most treasured parts of the [tauren](tauren) homeland, and are one of the tauren people's favorite hunting grounds. Large numbers of [kodo](kodo) congregate here, and it is said that the famous [Arra'chea](Arra'chea) also dwells in the shifting green sea of grass.
+**The Golden Plains**50 33 Mulgore (g/s/c) are a large basin surrounding [Thunder Bluff](Thunder Bluff) on the southeast. These plains are one of the most treasured parts of the [tauren](tauren) homeland, and are one of the tauren people's favorite hunting grounds. Large numbers of [kodo](kodo) congregate here, and it is said that the famous [Arra'chea](Arra'chea) also dwells in the shifting green sea of grass.

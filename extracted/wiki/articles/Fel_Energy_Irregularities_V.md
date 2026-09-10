@@ -39,8 +39,8 @@ Travel to the Southwest, and venture within the Tainted Scar, find Daio the Decr
 
 ## Rewards
 You will receive:
--2650 XP
--+100 [reputation](reputation) with [Dalaran](Dalaran (faction))
+- 2650 XP
+- +100 [reputation](reputation) with [Dalaran](Dalaran (faction))
 
 ## Progress
 Yes?

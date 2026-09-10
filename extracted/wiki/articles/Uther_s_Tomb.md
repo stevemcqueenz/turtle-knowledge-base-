@@ -10,7 +10,7 @@ categories: ["Crypts", "Human territories", "Pages with broken file links", "Tem
 ---
 # Uther's Tomb
 
--Uther's Tomb** is  a monument dedicated to [Uther the Lightbringer](Uther Lightbringer), at [Sorrow Hill](Sorrow Hill) in what is now [Western Plaguelands](Western Plaguelands) - the only bastion of Light in a dying land.
+**Uther's Tomb** is  a monument dedicated to [Uther the Lightbringer](Uther Lightbringer), at [Sorrow Hill](Sorrow Hill) in what is now [Western Plaguelands](Western Plaguelands) - the only bastion of Light in a dying land.
 
 ## History
 Uther confronted his former student, [Prince Arthas](Arthas Menethil), who had become the greatest of the [Lich King](Lich King)'s death knights. Arthas had already destroyed [the city of Lordaeron](Ruins of Lordaeron), and continued to spread the [Scourge](Scourge) across the [kingdom](Lordaeron). Tasked by [Tichondrius](Tichondrius) to find a magical vessel to carry the remains of [Kel'Thuzad](Kel'Thuzad) to the [Sunwell](Sunwell) in [Quel'Thalas](Quel'Thalas), Arthas confronted Uther - who was holding the urn of [King Terenas](King Terenas) just outside of [Andorhal](Andorhal). Meeting in combat, holy warhammer against evil runeblade [Frostmourne](Frostmourne), Arthas killed Uther and took possession of the urn for himself.

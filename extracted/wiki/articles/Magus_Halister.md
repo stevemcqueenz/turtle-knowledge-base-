@@ -24,7 +24,7 @@ categories: ["Dustwallow Marsh NPCs", "Human characters", "Quest givers", "Turtl
 | location | Theramore Isle, Dustwallow Marsh |
 | status | Alive |
 
--Magus Halister** is a [human](human) [quest giver](quest giver) located in [Theramore Isle](Theramore Isle) in [Dustwallow Marsh](Dustwallow Marsh).
+**Magus Halister** is a [human](human) [quest giver](quest giver) located in [Theramore Isle](Theramore Isle) in [Dustwallow Marsh](Dustwallow Marsh).
 
 ## Quests
 - [quest: The Betrayal from Within] 
@@ -36,7 +36,7 @@ categories: ["Dustwallow Marsh NPCs", "Human characters", "Quest givers", "Turtl
 - [quest: The Key to Karazhan V] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 We have all sorts of books stored, chaptering much of the things we have come across within Kalimdor. If you're seeking some rare knowledge, you've certainly come to the right place.
 
 ## Patch changes

@@ -25,7 +25,7 @@ categories: ["Alchemy vendors", "Moonwhisper Coast NPCs", "Tauren characters", "
 | location | Moonhoof Retreat, Moonwhisper Coast |
 | status | Alive |
 
--Yorla** is a [tauren](tauren) alchemy vendor located in [Moonhoof Retreat](Moonhoof Retreat) in [Moonwhisper Coast](Moonwhisper Coast).
+**Yorla** is a [tauren](tauren) alchemy vendor located in [Moonhoof Retreat](Moonhoof Retreat) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

@@ -10,7 +10,7 @@ categories: ["Alliance towns", "Night elf territories", "Pages with broken file 
 ---
 # Rut'theran Village
 
--Rut'theran Village** is an outpost port for the [night elf](night elf) [city](city) of [Darnassus](Darnassus), situated at the very bottom of the great tree [Teldrassil](Teldrassil). There is a portal here that goes directly into [Darnassus](Darnassus), and a pier for a docking [boat](boat) to [Auberdine](Auberdine) in [Darkshore](Darkshore). There is also a [hippogryph](hippogryph) roost that both go for free to [Auberdine](Auberdine), and for [druid](druid)s, from [Moonglade](Moonglade) in northern [Kalimdor](Kalimdor).
+**Rut'theran Village** is an outpost port for the [night elf](night elf) [city](city) of [Darnassus](Darnassus), situated at the very bottom of the great tree [Teldrassil](Teldrassil). There is a portal here that goes directly into [Darnassus](Darnassus), and a pier for a docking [boat](boat) to [Auberdine](Auberdine) in [Darkshore](Darkshore). There is also a [hippogryph](hippogryph) roost that both go for free to [Auberdine](Auberdine), and for [druid](druid)s, from [Moonglade](Moonglade) in northern [Kalimdor](Kalimdor).
 
 ## Profession (Tradeskill) Trainers
 - [Androl Oakhand](Androl Oakhand) &lt;Fisherman&gt;
@@ -20,10 +20,10 @@ categories: ["Alliance towns", "Night elf territories", "Pages with broken file 
 - [Nessa Shadowsong](Nessa Shadowsong) &lt;Fishing Supplies&gt;
 - [Vesprystus](Vesprystus) &lt;Hippogryph Master&gt;
 ### Teleport
-  - [Darnassus](Darnassus)**
+** [Darnassus](Darnassus)**
 
 ### Flight
-  - [Auberdine](Auberdine) (free)**
+** [Auberdine](Auberdine) (free)**
 
 ### Boat
-  - [Auberdine](Auberdine)**
+** [Auberdine](Auberdine)**

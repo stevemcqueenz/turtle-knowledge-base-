@@ -12,9 +12,9 @@ categories: ["General wiki templates"]
 
 <noinclude>
 
--This template is a shorthand for * <code>&lt;div style="clear:both; margin: 0; padding: 0">&lt;/div></code>.
+*This template is a shorthand for * <code>&lt;div style="clear:both; margin: 0; padding: 0">&lt;/div></code>.
 
--It moves following content below any objects floating to the left and/or right (TOCs, infoboxes, images, etc..). See [the talk page](Template talk:clr) for an example.*
+*It moves following content below any objects floating to the left and/or right (TOCs, infoboxes, images, etc..). See [the talk page](Template talk:clr) for an example.*
 
 See also: , 
 

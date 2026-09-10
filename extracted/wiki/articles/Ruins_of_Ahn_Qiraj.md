@@ -11,11 +11,11 @@ categories: ["Instance", "Stubs", "Zone:Silithus"]
 # Ruins of Ahn'Qiraj
 
 # Summary
-  -*Level:** 60+
-  -*# of Players:** 20
-  -*Location:** Southern [Silithus](Silithus), [Kalimdor](Kalimdor)
-  -*Released:** Patch 1.9
-  -*Abbreviation:** AQ20 or RAQ
+- **Level:** 60+
+- **# of Players:** 20
+- **Location:** Southern [Silithus](Silithus), [Kalimdor](Kalimdor)
+- **Released:** Patch 1.9
+- **Abbreviation:** AQ20 or RAQ
 
 The Ruins of Ahn'Qiraj will be an outdoor 20-player raid instance.
 It will use a similar loot system to [Zul'Gurub](Zul'Gurub), via tokens dropped from bosses which used to complete quests that give item rewards. Additionally, the quests can only be completed once a certain reputation has been reach with the Cenarion Hold (called Cenarion Circle in 1.8).
@@ -30,23 +30,23 @@ The entrance to the [Temple of Ahn'Qiraj](Temple of Ahn'Qiraj), which is a 40-ma
 For history and lore details, see [Ahn'Qiraj](Ahn'Qiraj).
 
 # Preparation
--This section should explain what kind of equipment is ideal to bring. Would a 20-man with endgame blues be sufficient? What resists are necessary? Any potions particularly useful?*
+*This section should explain what kind of equipment is ideal to bring. Would a 20-man with endgame blues be sufficient? What resists are necessary? Any potions particularly useful?*
 
 # Getting to the Instance Portal
--This section should explain how to navigate to the portal. Such as: whether you avoid the trash mobs, whether there multiple entrances or a key, etc.*
+*This section should explain how to navigate to the portal. Such as: whether you avoid the trash mobs, whether there multiple entrances or a key, etc.*
 
 The [Gates of Ahn'Qiraj](Gates of Ahn'Qiraj) event is currently underway to open access to this instance (Jan 4, 2006).
 Once the server has completed gathering the resources needed and the quests relating to the Bronze Dragonflight the gates open and you are free to access Both AQ20 and AQ40.
 
 # General Guidelines and Party Structure
--This section should outline any thematic strategies that are necessary, including party structure. For example: if most bosses require mana drain before  rogues engage, or if they have phase changes at 25/50/75% health, how many warlocks or mages are the minimum, and so on.*
+*This section should outline any thematic strategies that are necessary, including party structure. For example: if most bosses require mana drain before  rogues engage, or if they have phase changes at 25/50/75% health, how many warlocks or mages are the minimum, and so on.*
 
 # Boss Strategy
--This section should outline the techniques to beat each boss.* 
+*This section should outline the techniques to beat each boss.* 
 
-  -Facts and proven details should go in this section.* 
+- *Facts and proven details should go in this section.* 
 
-  -Ideas, theory and discussion should go on the [Talk:Ruins_of_Ahn'Qiraj](Talk:Ruins_of_Ahn'Qiraj) discussion page.*
+- *Ideas, theory and discussion should go on the [Talk:Ruins_of_Ahn'Qiraj](Talk:Ruins_of_Ahn'Qiraj) discussion page.*
 
 ## **Kurinnaxx**
 Kurinnaxx is the first boss of AQ20. As befitting a first boss, he is a relatively straightforward fight. In appearance he resembles a cross between a pseudoscorpion and a camel spider. The fight takes place in a flat, featureless open room, and as long as you clear the trash mobs in the area beforehand there should be no surprises.
@@ -189,10 +189,10 @@ The loot in AQ20 comes from:
 ## Loot-quest System
 AQ20 loot-quests require tokens which drop from bosses, combined with a certain level of faction with the [Cenarion Hold](Cenarion Hold). ([Zul'Gurub](Zul'Gurub) uses a similar system).
 
--Details of these tokens, quest rewards and reputation levels should go here, organised by class.*
+*Details of these tokens, quest rewards and reputation levels should go here, organised by class.*
 
 ## Boss and Mob Loot
--This section should list the phat lewt available from the bosses, organised by item type*
+*This section should list the phat lewt available from the bosses, organised by item type*
 
 Cloth:
 - *Details including who drops it*
@@ -207,11 +207,11 @@ Warrior-only
 Mage-only
 - *Details including who drops it*
 
--and so on*
+*and so on*
 
 # Quests
 Quests with item rewards should go in the loot section, above.
 
--This section should list:*
+*This section should list:*
 - *quest chains which should be done before entering the instance, and possibly climax within it*
 - *quests which are completed within*

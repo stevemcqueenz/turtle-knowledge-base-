@@ -25,7 +25,7 @@ categories: ["Ogre characters", "Tel'Abim NPCs", "Tel Company", "Turtle WoW cont
 | location | Tel Co. Basecamp, Tel'Abim |
 | status | Alive |
 
--O'ggon** is an [ogre](ogre) located in [Tel Co. Basecamp](Tel Co. Basecamp) in [Tel'Abim](Tel'Abim). He works as muscle for [Sneel Fizzwack](Sneel Fizzwack). (ref: [Sneel Fizzwack#Quotes](Sneel Fizzwack#Quotes))
+**O'ggon** is an [ogre](ogre) located in [Tel Co. Basecamp](Tel Co. Basecamp) in [Tel'Abim](Tel'Abim). He works as muscle for [Sneel Fizzwack](Sneel Fizzwack). (ref: [Sneel Fizzwack#Quotes](Sneel Fizzwack#Quotes))
 
 ## Patch changes
 - (Patch 1.16.4|note=Added.)

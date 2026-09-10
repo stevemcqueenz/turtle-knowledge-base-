@@ -33,23 +33,23 @@ categories: ["Instance navigation templates"]
 [Archmage Arugal](Archmage Arugal)
 
 |
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 |-
 | class="title" colspan="2"| [Loot](Shadowfang Keep loot)
 |}

@@ -25,15 +25,15 @@ categories: ["Instance navigation templates"]
 [Har'gesh Doomcaller](Har'gesh Doomcaller)
 
 |
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 |-
 | class="title" colspan="2"| [Loot](Hateforge Quarry loot)
 |}

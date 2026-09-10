@@ -10,4 +10,4 @@ categories: ["Burning Steppes subzones", "Orc territories", "Towers"]
 ---
 # Pillar of Ash
 
--The Pillar of Ash** is the name for a group of [orc](orc) structures near the middle of the [Burning Steppes](Burning Steppes). The pillar itself might refer to the tall tower filled to the brim with hostile [Blackrock](Blackrock Clan) orcs. The only other object of interest here is a huge statue of a [human](human) hero, sword raised in the direction of [Blackrock Mountain](Blackrock Mountain) - most likely marking the spot where [Anduin Lothar](Anduin Lothar) fell in battle.
+**The Pillar of Ash** is the name for a group of [orc](orc) structures near the middle of the [Burning Steppes](Burning Steppes). The pillar itself might refer to the tall tower filled to the brim with hostile [Blackrock](Blackrock Clan) orcs. The only other object of interest here is a huge statue of a [human](human) hero, sword raised in the direction of [Blackrock Mountain](Blackrock Mountain) - most likely marking the spot where [Anduin Lothar](Anduin Lothar) fell in battle.

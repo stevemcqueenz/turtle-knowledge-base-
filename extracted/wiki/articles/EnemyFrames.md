@@ -10,10 +10,10 @@ categories: ["Addon"]
 ---
 # EnemyFrames
 
--EnemyFrames** displays enemy unit frames, nameplates, target castbars, battlefield flags, incoming spells, and more.
+**EnemyFrames** displays enemy unit frames, nameplates, target castbars, battlefield flags, incoming spells, and more.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **EnemyFrames** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **EnemyFrames** up to date is by using [GitAddonsManager
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -30,7 +30,7 @@ If you prefer manual installation, follow these steps:
 # Rename the enemyFrames-master folder to enemyFrames
 # Restart the game
 
-  -Note**; 
+**Note**; 
 
 - Delete the addons SavedVariables files if you experience issues. 
 - Turn off nameplate and target cast bar functions in EnemyFrame's feature and nameplate tab if you use Shagutweaks or shaguplates.
@@ -76,13 +76,13 @@ If you prefer manual installation, follow these steps:
 - <code>/efs</code> — Opens the settings menu for customization
 - <code>/efc</code> — Shows current battlefield scores and nearby players
 
-  -Managing Raid Targets**
+**Managing Raid Targets**
 
 - Left-click on a unit frame to target that enemy
 - Right-click on a unit frame to spawn a target menu for assigning raid icons
 - Use the raid target icons to mark enemies for easier coordination
 
-  -Customization & Configuration**
+**Customization & Configuration**
 
 - Use <code>/efs</code> to access the in-game settings menu
 - Adjust layout, display options, icons, and more

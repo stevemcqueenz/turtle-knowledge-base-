@@ -27,7 +27,7 @@ A week after the arrival the druids started a meeting. The council learned the f
 ### Present cause
 They are active in Kalimdor, but mostly in the region of Hyjal, they are doing exploration tasks in the Emerald Sanctum. To honor their activity the Cenarion Circle is holding for them a gathering place in the forests of Ashenvale. It is hidden before the eyes of who are not members of this expedition force. This is the place from where Valurian and his lieutenants are coordinating the fight which will turn the Emerald Nightmare to the Emerald Dream.  
 ### Summary
--Couple years after the Third War , a crack commando unit was sent to a cave by a druids for some money what they didn't refuse. These men promptly escaped with Naralex from a maximum security Cavern to the Moonglade underground. Today, still wanted by the evil of Azeroth, they survive as soldiers of fortune. If you have a problem, if no one else can help, and if you can find them, maybe you can hire... <The Emerald Dream>.*
+*Couple years after the Third War , a crack commando unit was sent to a cave by a druids for some money what they didn't refuse. These men promptly escaped with Naralex from a maximum security Cavern to the Moonglade underground. Today, still wanted by the evil of Azeroth, they survive as soldiers of fortune. If you have a problem, if no one else can help, and if you can find them, maybe you can hire... <The Emerald Dream>.*
 
 ## Activity & Achievements
 #### Activity

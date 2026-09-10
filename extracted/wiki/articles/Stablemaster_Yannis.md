@@ -24,7 +24,7 @@ categories: ["Human characters", "Kul Tiran Exploratory Fleet", "Lapidis Isle NP
 | location | Caelan's Rest, Lapidis Isle |
 | status | Alive |
 
--Stablemaster Yannis** is a [human](human) [stable master](stable master) located in [Caelan's Rest](Caelan's Rest) in [Lapidis Isle](Lapidis Isle).
+**Stablemaster Yannis** is a [human](human) [stable master](stable master) located in [Caelan's Rest](Caelan's Rest) in [Lapidis Isle](Lapidis Isle).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

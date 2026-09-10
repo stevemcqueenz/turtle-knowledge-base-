@@ -32,8 +32,8 @@ Seek the [druid](druid)s at the foot of the [World Tree](World Tree) [Nordrassil
 
 ## Rewards
 You will receive:
--1200 XP
--+100 [reputation](reputation) with [Cenarion Circle](Cenarion Circle)
+- 1200 XP
+- +100 [reputation](reputation) with [Cenarion Circle](Cenarion Circle)
 
 ## Progress
 Greetings, adventurer. To ensure [our world](Azeroth)'s continued existence, we accept anyone willing to assist.

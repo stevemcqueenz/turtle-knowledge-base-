@@ -38,8 +38,8 @@ I trust that you will do for the good of the Kirin Tor, and for the Alliance its
 
 ## Rewards
 You will receive:
--2650 XP
--+100 [reputation](reputation) with [Dalaran](Dalaran (faction))
+- 2650 XP
+- +100 [reputation](reputation) with [Dalaran](Dalaran (faction))
 
 ## Progress
 Have you travelled to Dalaran, and spoken with Ansirem Runeweaver?

@@ -21,7 +21,7 @@ The following samples demonstrate the different possible icons from this templat
 - <code>&#123;&#123;FactionIcon|Combat|small&#125;&#125;</code> =  <code>|large&#125;&#125;</code> =   <code>|xlarge&#125;&#125;</code> = 
 - <code>&#123;&#123;FactionIcon|Boss|small&#125;&#125;</code> =  <code>|large&#125;&#125;</code> =   <code>|xlarge&#125;&#125;</code> = 
 
-  -Main factions**
+**Main factions**
 - <code>&#123;&#123;FactionIcon|Alliance|small&#125;&#125;</code> =  <code>|large&#125;&#125;</code> =   <code>|xlarge&#125;&#125;</code> = 
 - <code>&#123;&#123;FactionIcon|Horde|small&#125;&#125;</code> =  <code>|large&#125;&#125;</code> =   <code>|xlarge&#125;&#125;</code> = 
 - <code>&#123;&#123;FactionIcon|Both|small&#125;&#125;</code> =  <code>|large&#125;&#125;</code> =   <code>|xlarge&#125;&#125;</code> = 

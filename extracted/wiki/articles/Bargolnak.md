@@ -25,14 +25,14 @@ categories: ["Butchers", "Grim Reaches NPCs", "Meat vendors", "Orc characters", 
 | location | Shatterblade Post, Grim Reaches |
 | status | Alive |
 
--Bargolnak** is an [orc](orc) meat vendor and quest giver located in the outpost of [Shatterblade Post](Shatterblade Post) in the [Grim Reaches](Grim Reaches).
+**Bargolnak** is an [orc](orc) meat vendor and quest giver located in the outpost of [Shatterblade Post](Shatterblade Post) in the [Grim Reaches](Grim Reaches).
 
 ## Quests
 - [quest: Stonehide Rations] 
 - [quest: Shatterblade Stew] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 You looking for a good cut of meat? I'm making due with what I have, but I'm sure I can satisfy your desires.
 
 ## Patch changes

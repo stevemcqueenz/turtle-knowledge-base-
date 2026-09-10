@@ -47,8 +47,8 @@ Grandmother sent you, and she said that? Oh, I miss her dearly. I can't wait to 
 Do come and tell me of your adventures sometimes; this palace is dull and boring. I could use a friend.
 
 ## Progression
-1.[quest: Goody Bag]
-1.[quest: Fit for a Prince!]
+1. [quest: Goody Bag]
+1. [quest: Fit for a Prince!]
 
 ## Patch changes
 (Patch 1.18.0|note=Added.)

@@ -25,7 +25,7 @@ categories: ["Dwarf characters", "Explorers' League", "Pilots", "Quest givers", 
 | location | Bael Hardul, Stonetalon Mountains |
 | status | Alive |
 
--Harlek Vaultshield** is a [dwarf](dwarf) [quest giver](quest giver) located in [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains).
+**Harlek Vaultshield** is a [dwarf](dwarf) [quest giver](quest giver) located in [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains).
 
 ## Quests
 - [quest: The Sputtervalve Conductor] 
@@ -33,7 +33,7 @@ categories: ["Dwarf characters", "Explorers' League", "Pilots", "Quest givers", 
 - [quest: The Fixed Sputtervalve Conductor] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The skies be calling my name but I can't be answering!
 
 The bloody flying machine went and broke down, and now I'm grounded like the rest of the peasantry.

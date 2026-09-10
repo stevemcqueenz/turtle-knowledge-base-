@@ -10,7 +10,7 @@ categories: ["Ashenvale subzones", "Burning Legion", "Pages with broken file lin
 ---
 # Fire Scar Shrine
 
--Fire Scar Shrine** [26, 64] is located in southwestern [Ashenvale](Ashenvale), southwest of [Astranaar](Astranaar), south of the [Shrine of Aessina](Shrine of Aessina), and west of the [Ruins of Stardust](Ruins of Stardust).
+**Fire Scar Shrine** [26, 64] is located in southwestern [Ashenvale](Ashenvale), southwest of [Astranaar](Astranaar), south of the [Shrine of Aessina](Shrine of Aessina), and west of the [Ruins of Stardust](Ruins of Stardust).
 
 It has been corrupted by the [demon](demon)ic influence of the [Shadow Council](Shadow Council), and is now a place of great evil. A powerful [orc](orc)ish [warlock](warlock), [Ilkrud Magthrull](Ilkrud Magthrull), previously resided at the shrine in service to the leader of the [Cult of the Dark Strand](Cult of the Dark Strand), [Athrikus Narassin](Athrikus Narassin). 
 

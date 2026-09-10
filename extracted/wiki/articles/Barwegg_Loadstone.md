@@ -25,7 +25,7 @@ categories: ["Dwarf characters", "Grim Reaches NPCs", "Mining vendors", "Turtle 
 | location | Dun Kithas, Grim Reaches |
 | status | Alive |
 
--Barwegg Loadstone** is a [dwarf](dwarf) mining vendor located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
+**Barwegg Loadstone** is a [dwarf](dwarf) mining vendor located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

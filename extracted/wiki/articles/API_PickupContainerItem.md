@@ -14,7 +14,7 @@ Wildcard function usually called when a player clicks on a slot in their bags. F
  PickupContainerItem(bagID, slot);
 ----
 
-  - *Arguments***
+** *Arguments***
 
    (bagID, slot)
   ; [bagID](API Type BagId)
@@ -24,13 +24,13 @@ Wildcard function usually called when a player clicks on a slot in their bags. F
 
 ----
 
-  - *Returns***
+** *Returns***
 
    Nothing.
 
 ----
 
-  - *Details***
+** *Details***
 
    The function behaves differently depending on what is currently on the cursor:
   * If the cursor currently has nothing, calling this will pick up an item from your backpack.

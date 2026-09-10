@@ -25,7 +25,7 @@ categories: ["Gilneas (kingdom)", "Gilneas NPCs", "Human characters", "Turtle Wo
 | status | Alive |
 | relatives | Lurn Five-Pelts (son) |
 
--Demetreus** is a [human](human) located in a cave above [Mossgrove Farm](Mossgrove Farm) in [Gilneas](Gilneas).
+**Demetreus** is a [human](human) located in a cave above [Mossgrove Farm](Mossgrove Farm) in [Gilneas](Gilneas).
 
 ## Quotes
 The Wolf Serpent sees through me, hears through me, feels through me. I am the thunder of his voice, the instrument of his judgement.

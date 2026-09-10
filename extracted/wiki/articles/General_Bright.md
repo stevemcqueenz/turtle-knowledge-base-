@@ -25,10 +25,10 @@ categories: ["Human characters", "Northwind NPCs", "Turtle WoW content"]
 | status | Alive |
 | relatives | Lena (wife),, Estelle & Joshua (children) |
 
--General Bright** is a human located at the [Ambershire Church](Ambershire Church) in [Northwind](Northwind). He is kneeling before the grave of [Lena Bright](Lena Bright), his late wife.
+**General Bright** is a human located at the [Ambershire Church](Ambershire Church) in [Northwind](Northwind). He is kneeling before the grave of [Lena Bright](Lena Bright), his late wife.
 
 ## Quotes
-  -Gossip**
+**Gossip**
 My wife Lena has her final resting place here. She was taken from us far too early, and my duties to my Lord don't give me enough time to spend with my children Estelle and Joshua. Once these lands have returned to normalcy and peace returns, I will resign my position and fully embrace my role as father. It's the least they deserve.
 
 ## Notes

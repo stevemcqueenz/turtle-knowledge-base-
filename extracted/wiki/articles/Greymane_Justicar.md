@@ -24,7 +24,7 @@ categories: ["Gilneas City mobs", "Human characters", "Turtle WoW content"]
 | location | Gilneas City |
 | status | Killable |
 
--Greymane Justicars** are humans found in [Gilneas City](Gilneas City).
+**Greymane Justicars** are humans found in [Gilneas City](Gilneas City).
 
 ## Abilities
 - Holy Fire

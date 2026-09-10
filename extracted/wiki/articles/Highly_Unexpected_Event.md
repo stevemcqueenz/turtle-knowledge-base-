@@ -43,7 +43,7 @@ You stare at the statue with the engraved name once more and get ready to pull t
 As you push the button the shrink ray activates! Mumbling all sorts of sounds at first you start cursing the corpse of the goblin who built this, not only was he a double-crosser but he was no engineer! Or so you'd think, sooner than later the statue began to shrink, no weighing less, and could easily be placed in your backpack.
 
 ## Notes
-  -Aggro**
+**Aggro**
   **Fazgel Mechaflame says:** Yeah, I don't think so bub!
 
 ## Progression

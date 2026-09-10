@@ -25,20 +25,10 @@ categories: ["Alliance quest hubs", "Alliance settlements", "Barrens subzones", 
 | travel | No |
 | status | Active |
 
--Anchor's Edge** is an [Alliance](Alliance) outpost located on an island off the coast of the Barrens, to the south of the Echo Isles. It was established by the second wave of Kul Tiran forces led by [Lieutenant Alverold](Lieutenant Alverold) to reinforce [Lieutenant Benedict](Lieutenant Benedict) at [Tiragarde Keep](Tiragarde Keep) following the end of his expedition around Kalimdor.
+**Anchor's Edge** is an [Alliance](Alliance) outpost located on an island off the coast of the Barrens, to the south of the Echo Isles. It was established by the second wave of Kul Tiran forces led by [Lieutenant Alverold](Lieutenant Alverold) to reinforce [Lieutenant Benedict](Lieutenant Benedict) at [Tiragarde Keep](Tiragarde Keep) following the end of his expedition around Kalimdor.
 
 ## NPCs
 ### Quest givers
-- 
-- 
-- 
-- 
-
-### Others
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - ### Others
+- - - - ## Patch changes
 - (Patch 1.16.4|note=Added.)

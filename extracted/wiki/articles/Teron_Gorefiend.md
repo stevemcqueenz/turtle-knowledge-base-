@@ -22,7 +22,7 @@ categories: ["Lore characters", "Orc characters", "Undead characters"]
 | gender | Male |
 | status | Unknown |
 
--Teron Gorefiend** was the leader of the death knights created by [Gul'dan](Gul'dan) during the [Second War](Second War).
+**Teron Gorefiend** was the leader of the death knights created by [Gul'dan](Gul'dan) during the [Second War](Second War).
 
 Gorefiend's mortal life as an [orc](orc) [warlock](warlock) ended when he was killed by [Orgrim Doomhammer](Orgrim Doomhammer). He was subsequently reincarnated as a death knight in the body of a fallen knight of [Azeroth](Stormwind (kingdom)). (ref: *Warcraft II: Beyond the Dark Portal* manual, [Legends of the Land](https://wowpedia.fandom.com/wiki/Warcraft_II:_Beyond_the_Dark_Portal_manual#Teron_Gorefiend), Teron Gorefiend) Following the defeat of the Horde in the Second War, Gorefiend took control of the surviving death knights who had remained on [Azeroth](Azeroth) and joined [Ner'zhul](Ner'zhul) after he reopened the [Dark Portal](Dark Portal).
 

@@ -25,7 +25,7 @@ categories: ["Moonwhisper Coast NPCs", "Priest trainers", "Quest givers", "Taure
 | location | Moonhoof Village, Moonwhisper Coast |
 | status | Alive |
 
--Mhulf Nighthorn** is a [tauren](tauren) priest trainer located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Mhulf Nighthorn** is a [tauren](tauren) priest trainer located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: Highborne Burden] 
@@ -33,7 +33,7 @@ categories: ["Moonwhisper Coast NPCs", "Priest trainers", "Quest givers", "Taure
 - [quest: race=tauren|class=priest] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Several spirits haunt the Moonwhisper Coast, young one. While some of our ancestors have been disturbed, these hungering, cold, vengeful spirits are of elven nature. I thank the Earthmother that it was my eyes she took, for had she not, I would be forced to gaze upon the night sky and turn my sight away from Mu'sha, just as she has turned away from our need for aid. Why she allows these vile spirits to torment us, I do not know, for she chooses not to answer.
 
 Thankfully, she is not the only one I rely upon. When the pale one turns its light away from us, the blue draws ever closer. If you find yourself in trouble upon our lands, look to the sky for Lo'sho, young one. He will listen, when others will not.

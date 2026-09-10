@@ -13,8 +13,8 @@ categories: ["API Types"]
 These are the loot methods used by GetLootMethod()
 
 ## Values
-  - <code>"freeforall"</code> Free-for-all, everyone can loot corpses.**
-  - <code>"roundrobin"</code> Round-robin, looting cycles evenly through group members.**
-  - <code>"group"</code> Group loot, round-robin for normal items, rolling for special ones.**
-  - <code>"needbeforegreed"</code> Need before greed, round-robin for normal items, selective rolling for special ones.**
-  - <code>"master"</code> Master looter, designated player distributes loot.**
+** <code>"freeforall"</code> Free-for-all, everyone can loot corpses.**
+** <code>"roundrobin"</code> Round-robin, looting cycles evenly through group members.**
+** <code>"group"</code> Group loot, round-robin for normal items, rolling for special ones.**
+** <code>"needbeforegreed"</code> Need before greed, round-robin for normal items, selective rolling for special ones.**
+** <code>"master"</code> Master looter, designated player distributes loot.**

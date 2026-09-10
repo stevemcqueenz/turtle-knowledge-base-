@@ -24,10 +24,10 @@ categories: ["Dwarf characters", "Explorers' League", "Grim Reaches NPCs", "Turt
 | location | Dun Kithas, Grim Reaches |
 | status | Alive |
 
--Argaz Marblemight** is a [dwarf](dwarf) located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
+**Argaz Marblemight** is a [dwarf](dwarf) located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 We were on track to uncovering some great marvels up at [the excavation](Groldan's Excavation).
 
 ## Patch changes

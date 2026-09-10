@@ -25,4 +25,4 @@ categories: ["Mulgore NPCs", "Pages with broken file links", "Wolves"]
 | status | Alive |
 | companions | Shagu (master) |
 
--Fluppi** is a [wolf](wolf) located in [Bloodhoof Village](Bloodhoof Village) in [Mulgore](Mulgore).
+**Fluppi** is a [wolf](wolf) located in [Bloodhoof Village](Bloodhoof Village) in [Mulgore](Mulgore).

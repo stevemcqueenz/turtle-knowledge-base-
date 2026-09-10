@@ -10,10 +10,10 @@ categories: ["Addon"]
 ---
 # WhatsTraining
 
--WhatsTraining** shows you what spells are available for training at your class trainer. It helps you easily see which spells you can learn now, which are coming soon, or which you are missing requirements for.
+**WhatsTraining** shows you what spells are available for training at your class trainer. It helps you easily see which spells you can learn now, which are coming soon, or which you are missing requirements for.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **WhatsTraining** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **WhatsTraining** up to date is by using [GitAddonsManag
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -35,7 +35,7 @@ If you prefer manual installation, follow these steps:
 - **[(Gescht)](https://github.com/Gescht/WhatsTraining_Turtle)**
 
 ## Usage
-  -Accessing the Spells List**
+**Accessing the Spells List**
 
 - The addon adds a new tab to the Spellbook interface.
 - Click the **"What's Training?"** tab (represented by a question mark icon) to open the spells training window.
@@ -47,7 +47,7 @@ If you prefer manual installation, follow these steps:
   - Known spells
   - Pet abilities
 
-  -Interacting with the UI**
+**Interacting with the UI**
 
 - **Scroll** through the list using the scrollbar.
 - Hover over each spell to see detailed info (name, ID, school, level required).

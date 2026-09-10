@@ -23,7 +23,7 @@ categories: ["Moonwhisper Coast NPCs", "Tauren characters", "Turtle WoW content"
 | gender | Both |
 | location | Moonhoof Retreat, Moonwhisper Coast |
 
--Moonhoof Celebrators** are [tauren](tauren) located at [Moonhoof Retreat](Moonhoof Retreat) in [Moonwhisper Coast](Moonwhisper Coast).
+**Moonhoof Celebrators** are [tauren](tauren) located at [Moonhoof Retreat](Moonhoof Retreat) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

@@ -28,7 +28,7 @@ categories: ["Defias Brotherhood", "Human characters"]
 
 *This article is about the character biography. For the boss tactics, see [Edwin VanCleef (tactics)](Edwin VanCleef (tactics)).*
 
-  -Edwin VanCleef** was the leader of the [Stonemasons Guild](Stonemasons Guild) that rebuilt [Stormwind City](Stormwind City) after it was sacked by the [Horde](Horde) in the [First War](First War). A disagreement with the [House of Nobles](House of Nobles) led VanCleef to found the criminal organization known as the [Defias Brotherhood](Defias Brotherhood).
+**Edwin VanCleef** was the leader of the [Stonemasons Guild](Stonemasons Guild) that rebuilt [Stormwind City](Stormwind City) after it was sacked by the [Horde](Horde) in the [First War](First War). A disagreement with the [House of Nobles](House of Nobles) led VanCleef to found the criminal organization known as the [Defias Brotherhood](Defias Brotherhood).
 
 ## Biography
 ### Rise of the Defias

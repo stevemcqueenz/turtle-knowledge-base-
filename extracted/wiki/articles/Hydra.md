@@ -12,10 +12,10 @@ categories: ["Beasts", "Creatures", "Hydras", "Pages with broken file links"]
 
 A **hydra** is a huge, three-headed beast.  They are found at the coasts of [Darkshore](Darkshore), [Ashenvale](Ashenvale) and [Azshara](Azshara). They are amphibious and each head has its own will. They are intelligent and might be the favoured pets or servants of the [Old Gods](Old Gods).
 
-  -See also:**
--[Aku'mai](Aku'mai)
--[Gahz'rilla](Gahz'rilla)
--[Gahz'ranka](Gahz'ranka)
--[Hetaera](Hetaera)
+**See also:**
+- [Aku'mai](Aku'mai)
+- [Gahz'rilla](Gahz'rilla)
+- [Gahz'ranka](Gahz'ranka)
+- [Hetaera](Hetaera)
 
--The term *hydra'' may also refer a [player character](player character) being controlled by [player](player) who is controlling two or more characters at the same time.  See [Dual box](Dual box).
+*The term *hydra'' may also refer a [player character](player character) being controlled by [player](player) who is controlling two or more characters at the same time.  See [Dual box](Dual box).

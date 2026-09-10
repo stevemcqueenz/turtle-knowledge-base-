@@ -10,7 +10,7 @@ categories: ["Black dragonflight", "Burning Steppes subzones", "Dragon territori
 ---
 # Terror Wing Path
 
--Terror Wing Path** is the valley located in the eastern region of the [Burning Steppes](Burning Steppes). Terror Wing is home to many [whelp](whelp)s and [dragonkin](dragonkin) of the [Black Dragonflight](Black Dragonflight). There are also several black [drake](drake)s patrolling the stretch of the valley. The [rare](Rare mob) [elite](Elite creature) magma giant [Volchan](Volchan) can also occasionally be found wandering through the path. Only the highest level adventurers should journey through Terror Wing Path, and even so it is advised not to do so alone.
+**Terror Wing Path** is the valley located in the eastern region of the [Burning Steppes](Burning Steppes). Terror Wing is home to many [whelp](whelp)s and [dragonkin](dragonkin) of the [Black Dragonflight](Black Dragonflight). There are also several black [drake](drake)s patrolling the stretch of the valley. The [rare](Rare mob) [elite](Elite creature) magma giant [Volchan](Volchan) can also occasionally be found wandering through the path. Only the highest level adventurers should journey through Terror Wing Path, and even so it is advised not to do so alone.
 
 ## Patch changes
 - (Patch 1.16.1|note=Some of the [Black Broodling](Black Broodling)s have been replaced with [Peculiar Broodling](Peculiar Broodling)s near the [Hateforge Excavation](Hateforge Excavation).)

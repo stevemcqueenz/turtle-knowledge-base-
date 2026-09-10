@@ -10,7 +10,7 @@ categories: ["Quest items", "Readable items", "Turtle WoW content"]
 ---
 # 'On the Powers of Blood'
 
--<nowiki>'</nowiki>On the Powers of Blood<nowiki>'</nowiki>** is contained in ['On the Powers of Blood']('On the Powers of Blood' (object)) in [Gilneas City](Gilneas City).
+**<nowiki>'</nowiki>On the Powers of Blood<nowiki>'</nowiki>** is contained in ['On the Powers of Blood']('On the Powers of Blood' (object)) in [Gilneas City](Gilneas City).
 
 ## As a quest objective
 - [quest: The Evil Made Me Do It]

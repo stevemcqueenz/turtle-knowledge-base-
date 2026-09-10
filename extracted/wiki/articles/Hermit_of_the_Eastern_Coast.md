@@ -13,9 +13,7 @@ categories: ["Dustwallow Marsh", "Turtle WoW content", "Undisplayed locations"]
 The **Hermit of the Eastern Coast** (ref: [New Zones & World Edits](https://web.archive.org/web/20260514170802/https://turtlecraft.gg/new-locations-and-maps). Archived from [the original](https://turtlecraft.gg/new-locations-and-maps) on 2026-05-14. Retrieved on 2026-29-08.) is the solitary mountain home of [Dolvan Bracewind](Dolvan Bracewind), standing watch over the sea's endless horizon.
 
 ## NPC
-- 
-
-## Patch changes
+- ## Patch changes
 - (Patch 1.17.0|note=Added.)
 
 ## References

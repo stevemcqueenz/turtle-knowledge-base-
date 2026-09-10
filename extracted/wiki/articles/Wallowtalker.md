@@ -22,7 +22,7 @@ categories: ["Lapidis Isle mobs", "Murlocs", "Turtle WoW content"]
 | creature | Humanoid |
 | location | The Wallowing Coast, Lapidis Isle |
 
--Wallowtalker** is a [murloc](murloc) located at the southernmost point of [the Wallowing Coast](Wallowing Coast) in [Lapidis Isle](Lapidis Isle).
+**Wallowtalker** is a [murloc](murloc) located at the southernmost point of [the Wallowing Coast](Wallowing Coast) in [Lapidis Isle](Lapidis Isle).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

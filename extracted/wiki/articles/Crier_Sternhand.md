@@ -24,13 +24,13 @@ categories: ["Grim Reaches NPCs", "Quest givers", "Town criers", "Turtle WoW con
 | location | Dun Kithas, Grim Reaches |
 | status | Alive |
 
--Crier Sternhand** is a [Wildhammer dwarf](Wildhammer dwarf) quest giver located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
+**Crier Sternhand** is a [Wildhammer dwarf](Wildhammer dwarf) quest giver located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
 
 ## Quests
 - [quest: Preparations for War] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Greetings, and welcome adventurer! It is my duty to bring the latest news of the world to the citizens of Dun Kithas, and to announce the will of our great council.
 
 ## Speculation

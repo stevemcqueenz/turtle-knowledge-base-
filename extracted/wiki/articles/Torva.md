@@ -25,10 +25,10 @@ categories: ["Grim Reaches NPCs", "Innkeepers", "Orc characters", "Turtle WoW co
 | location | Shatterblade Post, Grim Reaches |
 | status | Alive |
 
--Torva** is an [orc](orc) innkeeper located in [Shatterblade Post](Shatterblade Post) in the [Grim Reaches](Grim Reaches).
+**Torva** is an [orc](orc) innkeeper located in [Shatterblade Post](Shatterblade Post) in the [Grim Reaches](Grim Reaches).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Even in foreign lands as these, warriors need a place to rest their head and replenish their strength.
 
 ## Patch changes

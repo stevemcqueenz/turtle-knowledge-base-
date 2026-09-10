@@ -12,7 +12,7 @@ categories: ["History of Warcraft", "In-Game Books", "Lore"]
 
 <B style="font-weight:normal;background-color:#2b2b2b;">[  [Source Text](WoWWiki:Article_type)  ]</B>
 
--The Founding of Quel'Thalas* is a section of the [History of Warcraft](History of Warcraft), Chapter II.  It is set 6,800 years before Warcraft I.  It is also available as an [in-game book](:Category:In-Game Books) in the [Scholomance](Scholomance) viewing room. 
+*The Founding of Quel'Thalas* is a section of the [History of Warcraft](History of Warcraft), Chapter II.  It is set 6,800 years before Warcraft I.  It is also available as an [in-game book](:Category:In-Game Books) in the [Scholomance](Scholomance) viewing room. 
 
 ## Text
 The [high elves](high elves), led by [Dath'Remar](Dath'Remar), left [Kalimdor](Kalimdor) behind them and challenged the storms of the [Maelstrom](Maelstrom). Their fleets wandered the wreckage of the world for many long years, and they discovered mysteries and lost kingdoms along their sojourn. Dath'Remar, who had taken the name [Sunstrider](Sunstrider) (or "he who walks the day"), sought out places of considerable ley power upon which to build a new homeland for his people. 

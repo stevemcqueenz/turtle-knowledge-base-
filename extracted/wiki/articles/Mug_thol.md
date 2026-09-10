@@ -27,7 +27,7 @@ categories: ["Alterac Mountains NPCs", "Ogre characters"]
 | occupation | Servant of the Dark Lady, leader of the Crushridge Ogres |
 | status | Killable |
 
--Mug'thol** was an [ogre](ogre) from [Draenor](Draenor) who fought during the [Second War](Second War) in the orcish [Horde](Horde). When the Horde was defeated and scattered, Mug'thol joined the [Stonemaul](Stonemaul) Ogres under the rule of [Kor'gall](Kor'gall).
+**Mug'thol** was an [ogre](ogre) from [Draenor](Draenor) who fought during the [Second War](Second War) in the orcish [Horde](Horde). When the Horde was defeated and scattered, Mug'thol joined the [Stonemaul](Stonemaul) Ogres under the rule of [Kor'gall](Kor'gall).
 
 Mug'thol led a small group of ogres in the [Plaguelands](Plaguelands), and found himself caught in the middle of a battle between [Sylvanas Windrunner](Sylvanas Windrunner) and the [Dreadlord](Dreadlord) [Varimathras](Varimathras). 
 

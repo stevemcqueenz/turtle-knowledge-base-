@@ -12,7 +12,7 @@ categories: ["Geography"]
 
 For listings of [zone](zone)s, see the subcategories, below.
 
-  -See also:**
+**See also:**
 - [:Category:Azeroth](:Category:Azeroth)
   - [:Category:Eastern Kingdoms](:Category:Eastern Kingdoms)
   - [:Category:Kalimdor](:Category:Kalimdor)

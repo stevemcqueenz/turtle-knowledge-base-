@@ -25,46 +25,46 @@ categories: ["Alliance settlements", "Dwarf territories", "Dwarven territories",
 | flightpath | Yes |
 | status | Active |
 
--Dun Agrath** is a dwarven village located in the southwestern portion of [the Wetlands](Wetlands), just southeast of [Menethil Harbor](Menethil Harbor) and west of [Hawk's Vigil](Hawk's Vigil).
+**Dun Agrath** is a dwarven village located in the southwestern portion of [the Wetlands](Wetlands), just southeast of [Menethil Harbor](Menethil Harbor) and west of [Hawk's Vigil](Hawk's Vigil).
 
 The flight path to Dun Agrath is unlocked when the player discovers the flight path to Menethil Harbor.
 
 ## Travel connections
 ### Flight
-  - [Menethil Harbor](Menethil Harbor)**
-  - [Ironforge Airfields](Ironforge Airfields)**
+** [Menethil Harbor](Menethil Harbor)**
+** [Ironforge Airfields](Ironforge Airfields)**
 
 ## NPCs
 ### Quest givers
--  [Captain Snowbeard](Captain Snowbeard) 
--  [Grovug Mithrilmane](Grovug Mithrilmane) <Explorers' League>
+- [Captain Snowbeard](Captain Snowbeard) 
+- [Grovug Mithrilmane](Grovug Mithrilmane) <Explorers' League>
 
 ### Goods and services
--  [Bruuk Barleybeard](Bruuk Barleybeard) <Bartender>
--  [Greta Stonehammer](Greta Stonehammer) <Gryphon Master>
--  [Ormus Grindelbeard](Ormus Grindelbeard) <Trade Supplier>
+- [Bruuk Barleybeard](Bruuk Barleybeard) <Bartender>
+- [Greta Stonehammer](Greta Stonehammer) <Gryphon Master>
+- [Ormus Grindelbeard](Ormus Grindelbeard) <Trade Supplier>
 
 ### Additional characters
--  [Barltok Kettleburn](Barltok Kettleburn)
--  [Brune Shunpike](Brune Shunpike)
--  [Cadmus Shacklebolt](Cadmus Shacklebolt)
--  [Chubb Goldstein](Chubb Goldstein)
--  [Dorris Pringlebrule](Dorris Pringlebrule)
--  [Elwing Ogden](Elwing Ogden)
--  [Garrick Strongrock](Garrick Strongrock)
--  [Glyn Hatchet](Glyn Hatchet)
--  [Gragin Barrelbrew](Gragin Barrelbrew)
--  [Gwenna](Gwenna)
--  [Igor](Igor)
--  [Irma Redtop](Irma Redtop)
--  [Kelvar Greybrew](Kelvar Greybrew)
--  [Korbeak Warheart](Korbeak Warheart)
--  [Lomnic Embershield](Lomnic Embershield)
--  [Minisa Dawlish](Minisa Dawlish)
--  [Myrtle Longbraid](Myrtle Longbraid)
--  [Rickard Ashbeard](Rickard Ashbeard)
--  [Rooster](Rooster)
--  [Rufus Steelborn](Rufus Steelborn)
--  [Thror](Thror)
--  [Vidra Bullhorn](Vidra Bullhorn)
--  [Yani Stoutcaller](Yani Stoutcaller)
+- [Barltok Kettleburn](Barltok Kettleburn)
+- [Brune Shunpike](Brune Shunpike)
+- [Cadmus Shacklebolt](Cadmus Shacklebolt)
+- [Chubb Goldstein](Chubb Goldstein)
+- [Dorris Pringlebrule](Dorris Pringlebrule)
+- [Elwing Ogden](Elwing Ogden)
+- [Garrick Strongrock](Garrick Strongrock)
+- [Glyn Hatchet](Glyn Hatchet)
+- [Gragin Barrelbrew](Gragin Barrelbrew)
+- [Gwenna](Gwenna)
+- [Igor](Igor)
+- [Irma Redtop](Irma Redtop)
+- [Kelvar Greybrew](Kelvar Greybrew)
+- [Korbeak Warheart](Korbeak Warheart)
+- [Lomnic Embershield](Lomnic Embershield)
+- [Minisa Dawlish](Minisa Dawlish)
+- [Myrtle Longbraid](Myrtle Longbraid)
+- [Rickard Ashbeard](Rickard Ashbeard)
+- [Rooster](Rooster)
+- [Rufus Steelborn](Rufus Steelborn)
+- [Thror](Thror)
+- [Vidra Bullhorn](Vidra Bullhorn)
+- [Yani Stoutcaller](Yani Stoutcaller)

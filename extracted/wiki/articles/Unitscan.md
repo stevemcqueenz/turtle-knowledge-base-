@@ -13,7 +13,7 @@ categories: ["Addon"]
 Unitscan is an essential tool for survival in hardcore mode. It provides a curated list of dangerous elites and rares, helping you stay alert and avoid deadly encounters. 
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **Unitscan** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **Unitscan** up to date is by using [GitAddonsManager](G
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -30,7 +30,7 @@ If you prefer manual installation, follow these steps:
 # Unpack the <code>.zip</code> and rename the folder to <code>unitscan-turtle-hc</code>, removing the <code>-master</code> suffix.
 # Move the folder into your <code>Interface/AddOns</code> directory and restart the game.
 
-  -Optional:** 
+**Optional:** 
 
 - SoloRaidTargetIcons - lets you put raid markers on units without being in a party.
 - Codex - see target abilities in the tooltip.

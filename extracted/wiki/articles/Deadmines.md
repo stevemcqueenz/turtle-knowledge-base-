@@ -23,7 +23,7 @@ categories: ["Deadmines", "Dungeons", "Turtle WoW content", "Westfall subzones"]
 | players | 5 |
 | bosses |  |
 
--The Deadmines** are expansive, winding tunnels dug out under [Westfall](Westfall) and part of northwestern [Stranglethorn Vale](Stranglethorn Vale). The Deadmines are the center of the [Defias Brotherhood](Defias Brotherhood) operation, led by the ambitious [Edwin VanCleef](Edwin VanCleef), who is constructing a juggernaught at the bottom of the mines with the aid of the goblins.
+**The Deadmines** are expansive, winding tunnels dug out under [Westfall](Westfall) and part of northwestern [Stranglethorn Vale](Stranglethorn Vale). The Deadmines are the center of the [Defias Brotherhood](Defias Brotherhood) operation, led by the ambitious [Edwin VanCleef](Edwin VanCleef), who is constructing a juggernaught at the bottom of the mines with the aid of the goblins.
 
 The Deadmines is the lowest-level [Alliance](Alliance) instance. Its entrance can be accessed in the town of [Moonbrook](Moonbrook) in southwestern Westfall, while its exit is located in the western part of the [Dagger Hills](Dagger Hills) near the ocean. Many quests occur in and around the Deadmines.
 
@@ -48,12 +48,12 @@ File:WorldMap-Deadmines.jpg|Interior
 |}
 
 ## Dungeon denizens
--  [Ghoul](Ghoul)s
--  [Goblin](Goblin)s
--  [Human](Human)s
--  [Murloc](Murloc)s (one, [Cookie](Cookie))
--  [Ogre](Ogre)s (one, [Rhahk'Zor](Rhahk'Zor))
--  [Tauren](Tauren) (one, [Mr. Smite](Mr. Smite))
+- [Ghoul](Ghoul)s
+- [Goblin](Goblin)s
+- [Human](Human)s
+- [Murloc](Murloc)s (one, [Cookie](Cookie))
+- [Ogre](Ogre)s (one, [Rhahk'Zor](Rhahk'Zor))
+- [Tauren](Tauren) (one, [Mr. Smite](Mr. Smite))
 
 ## Quest guide
 {| class="fandom-table"
@@ -112,13 +112,13 @@ File:WorldMap-Deadmines.jpg|Interior
 
 ## Patch changes
 - (Patch 1.17.2|note=Two new areas and bosses added:
-  -[Jared Voss](Jared Voss): Oversees a dangerous lab producing Zanzil's Mixture. Located in the mine section before Rhah'nkzor, presenting a new first boss encounter for adventurers who choose the optional route.
-  -[Masterpiece Harvester](Masterpiece Harvester): A relic from Deadmines' past has laid dormant for long in the Goblin Foundry, awaiting activation to wreak havoc at the world above.)
--  **Patch 1.5.0 (2005-06-07):** New load screen added.
--  **Patch 1.3.0 (2005-03-07):**
-  -Capped at ten players.
-  -The "cannon door" can now be opened with a Small Seaforium Charge in addition to the lockpick ability.
--  **Patch 0.12 (2004-10-11):** The Miners in the Deadmines are no longer elite monsters.
--  **Patch 0.6 (2004-04-13):** The [VanCleef](Edwin VanCleef) encounter and [Goblin Foundry](Goblin Foundry) in the Deadmines have been returned.
+  - [Jared Voss](Jared Voss): Oversees a dangerous lab producing Zanzil's Mixture. Located in the mine section before Rhah'nkzor, presenting a new first boss encounter for adventurers who choose the optional route.
+  - [Masterpiece Harvester](Masterpiece Harvester): A relic from Deadmines' past has laid dormant for long in the Goblin Foundry, awaiting activation to wreak havoc at the world above.)
+- **Patch 1.5.0 (2005-06-07):** New load screen added.
+- **Patch 1.3.0 (2005-03-07):**
+  - Capped at ten players.
+  - The "cannon door" can now be opened with a Small Seaforium Charge in addition to the lockpick ability.
+- **Patch 0.12 (2004-10-11):** The Miners in the Deadmines are no longer elite monsters.
+- **Patch 0.6 (2004-04-13):** The [VanCleef](Edwin VanCleef) encounter and [Goblin Foundry](Goblin Foundry) in the Deadmines have been returned.
 
 ## References

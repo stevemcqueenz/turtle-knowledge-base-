@@ -25,15 +25,15 @@ categories: ["Dwarf characters", "Ironforge NPCs", "Turtle WoW content", "Warloc
 | location | Forlorn Cavern, Ironforge |
 | status | Alive |
 
--Fulgrom Darkgrovel** is a [dwarf](dwarf) warlock trainer located in [Bonegrip's Runes and Dooms](Bonegrip's Runes and Dooms) within the [Forlorn Cavern](Forlorn Cavern) in [Ironforge](Ironforge).
+**Fulgrom Darkgrovel** is a [dwarf](dwarf) warlock trainer located in [Bonegrip's Runes and Dooms](Bonegrip's Runes and Dooms) within the [Forlorn Cavern](Forlorn Cavern) in [Ironforge](Ironforge).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 While the king grovels on his seat of vapid power, the people of Ironforge are those paying the price for it. But not anymore, for we have tapped into powers unimaginable. Soon, they will see that change cannot come without sacrifice, in whatever shape or form.
 
 Now come, young one. Let me show you the wonders of the dark arts.
 
-  -Non-warlock gossip**
+**Non-warlock gossip**
 I have no time for fruitless riffraff. You shall not pester me any longer. If you are no warlock, seek your own ilk, <class>.
 
 ## Patch changes

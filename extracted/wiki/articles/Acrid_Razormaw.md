@@ -23,7 +23,7 @@ categories: ["Crocolisks", "Stormwrought Ruins mobs", "Turtle WoW content"]
 | location | Stormwrought Ruins |
 | status | Killable |
 
--Acrid Razormaws** are crocolisks located in [Stormwrought Ruins](Stormwrought Ruins).
+**Acrid Razormaws** are crocolisks located in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Abilities
 - Shredded Muscle

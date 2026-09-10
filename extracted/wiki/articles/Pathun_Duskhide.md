@@ -26,7 +26,7 @@ categories: ["Bosses", "Tauren characters", "Turtle WoW content", "Windhorn Cany
 | status | Killable |
 | instance | Windhorn Canyon |
 
--Pathun Duskhide** is a boss in [Windhorn Canyon](Windhorn Canyon).
+**Pathun Duskhide** is a boss in [Windhorn Canyon](Windhorn Canyon).
 
 ## Abilities
 - Hooked Net
@@ -34,13 +34,13 @@ categories: ["Bosses", "Tauren characters", "Turtle WoW content", "Windhorn Cany
 - Kodo Stomp
 
 ## Quotes
-  -Aggro**
+**Aggro**
   This canyon will make for excellent hunting!
 
-  -At 50%**
+**At 50%**
   You shall be crushed!
 
-  -Death**
+**Death**
   I travel to the great beyond...
 
 ## Loot

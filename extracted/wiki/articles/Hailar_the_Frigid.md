@@ -24,19 +24,19 @@ categories: ["Bosses", "Frostmane Hollow mobs", "Ice elementals", "Turtle WoW co
 | status | Killable |
 | instance | Frostmane Hollow |
 
--Hailar the Frigid** is the final boss of [Frostmane Hollow](Frostmane Hollow).
+**Hailar the Frigid** is the final boss of [Frostmane Hollow](Frostmane Hollow).
 
 ## Abilities
 - Frostbolt
 
 ## Quotes
-  -Aggro**
+**Aggro**
   Embrace the cold...
 
-  -At 50%**
+**At 50%**
   Let the chill overcome...
 
-  -Death**
+**Death**
   Destruction...
 
 ## Loot

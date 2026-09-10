@@ -10,4 +10,4 @@ categories: ["Camps", "Hinterlands subzones", "Pages with broken file links", "W
 ---
 # Shindigger's Camp
 
--Shindigger's Camp** is a small camp in the [Hinterlands](Hinterlands) where the drunken dwarf [Rhapsody Shindigger](Rhapsody Shindigger) and the high elf [Gilveradin Sunchaser](Gilveradin Sunchaser) are located.
+**Shindigger's Camp** is a small camp in the [Hinterlands](Hinterlands) where the drunken dwarf [Rhapsody Shindigger](Rhapsody Shindigger) and the high elf [Gilveradin Sunchaser](Gilveradin Sunchaser) are located.

@@ -29,19 +29,19 @@ categories: ["Instance navigation templates"]
 [Alarus](Alarus)
 
 |
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
 |-
 | class="title" colspan="2"| [Loot](Karazhan Crypt loot)

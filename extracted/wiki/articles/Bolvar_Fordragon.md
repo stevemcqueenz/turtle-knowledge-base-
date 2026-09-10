@@ -46,18 +46,18 @@ Highlord **Bolvar Fordragon** is the current Regent of [Stormwind](Stormwind (ki
 - [quest: Celebrating Good Times] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I am Bolvar Fordragon, Highlord of Stormwind.
 
 ## Notes
 - Unlike the other Alliance faction leaders, Bolvar does not have unique on-click quotes.
 
 ## Patch changes
--  **[Patch 1.7.0](Patch 1.7.0) (2005-09-13:** Racial "Leaders" have been strengthened, and are now worth slightly less honor.
--  **[Patch 1.5.0](Patch 1.5.0) (2005-06-07):**
-  -Highlord Bolvar Fordragon should no longer despawn when "The Great Masquerade" is activated.
-  -Highlord Bolvar Fordragon is once again the Stormwind faction leader.
--  **[Patch 1.4.1](Patch 1.4.1) (2005-05-05):**
-  -Archbishop Benedictus staged a temporary coup, and has taken the title of NPC leader of Stormwind City from Highlord Bolvar! Horde seeking to take out the leader of Stormwind should focus their efforts on Archbishop Benedictus for the duration. These changes will remain until the next content patch, when Highlord Bolvar reclaims his rightful throne:
-  -Highlord Bolvar should be respawning between 5 and 8 minutes.
-  -Bolvar will give no contribution points.
+- **[Patch 1.7.0](Patch 1.7.0) (2005-09-13:** Racial "Leaders" have been strengthened, and are now worth slightly less honor.
+- **[Patch 1.5.0](Patch 1.5.0) (2005-06-07):**
+  - Highlord Bolvar Fordragon should no longer despawn when "The Great Masquerade" is activated.
+  - Highlord Bolvar Fordragon is once again the Stormwind faction leader.
+- **[Patch 1.4.1](Patch 1.4.1) (2005-05-05):**
+  - Archbishop Benedictus staged a temporary coup, and has taken the title of NPC leader of Stormwind City from Highlord Bolvar! Horde seeking to take out the leader of Stormwind should focus their efforts on Archbishop Benedictus for the duration. These changes will remain until the next content patch, when Highlord Bolvar reclaims his rightful throne:
+  - Highlord Bolvar should be respawning between 5 and 8 minutes.
+  - Bolvar will give no contribution points.

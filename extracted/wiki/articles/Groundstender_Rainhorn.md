@@ -24,14 +24,14 @@ categories: ["Moonwhisper Coast NPCs", "Quest givers", "Tauren characters", "Tur
 | location | Moonhoof Retreat, Moonwhisper Coast |
 | status | Alive |
 
--Groundstender Rainhorn** is a [tauren](tauren) quest giver located at the [Ancestral Grounds](Ancestral Grounds) in [Moonwhisper Coast](Moonwhisper Coast).
+**Groundstender Rainhorn** is a [tauren](tauren) quest giver located at the [Ancestral Grounds](Ancestral Grounds) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: Back to Sleep] 
 - [quest: Rainhorn's Frustration] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Our ancestors have been disturbed. The grounds are no longer a safe place to mourn those who have left us behind.
 
 ## Patch changes

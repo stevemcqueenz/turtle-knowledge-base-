@@ -11,19 +11,19 @@ categories: []
 # Template:They Call Him Smiling Jim
 
 <onlyinclude>
-1.*  [35] [They Call Him Smiling Jim](They Call Him Smiling Jim) (optional)
+1. *  [35] [They Call Him Smiling Jim](They Call Him Smiling Jim) (optional)
 # Complete all of:
-1.*  [35] [Suspicious Hoofprints](Suspicious Hoofprints (Alliance))
-1.* The Black Shield quest chain
-1.*#  [35] [The Black Shield](The Black Shield (Alliance))
-1.*#  [35] [The Black Shield](The Black Shield (Alliance 2))
-1.*#  [35] [The Black Shield](The Black Shield (Alliance 3))
-1.* Lieutenant Paval Reethe quest chain
-1.*#  [40] [Lieutenant Paval Reethe](Lieutenant Paval Reethe (Alliance 1))
-1.*#  [40] [Lieutenant Paval Reethe](Lieutenant Paval Reethe (Alliance 2))
-1.*#  [38] [Daelin's Men](Daelin's Men)
-1.*#  [38] [The Deserters](The Deserters (1))
-1.*#  [38] [The Deserters](The Deserters (2))
+1. *  [35] [Suspicious Hoofprints](Suspicious Hoofprints (Alliance))
+1. * The Black Shield quest chain
+1. *#  [35] [The Black Shield](The Black Shield (Alliance))
+1. *#  [35] [The Black Shield](The Black Shield (Alliance 2))
+1. *#  [35] [The Black Shield](The Black Shield (Alliance 3))
+1. * Lieutenant Paval Reethe quest chain
+1. *#  [40] [Lieutenant Paval Reethe](Lieutenant Paval Reethe (Alliance 1))
+1. *#  [40] [Lieutenant Paval Reethe](Lieutenant Paval Reethe (Alliance 2))
+1. *#  [38] [Daelin's Men](Daelin's Men)
+1. *#  [38] [The Deserters](The Deserters (1))
+1. *#  [38] [The Deserters](The Deserters (2))
 #  [35] [Report from Falgran](Report from Falgran)
 #  [35] [The Quillboar Suspects](The Quillboar Suspects)
 #  [35] [The Goblin Linguist](The Goblin Linguist)

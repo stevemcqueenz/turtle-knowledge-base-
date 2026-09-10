@@ -23,7 +23,7 @@ categories: ["Dungeons", "Sand troll territories", "Turtle WoW content", "Zul'Fa
 | players | 5 |
 | bosses |  |
 
--Zul'Farrak** is a [Sandfury](Sandfury tribe) troll city located in northwestern [Tanaris](Tanaris).
+**Zul'Farrak** is a [Sandfury](Sandfury tribe) troll city located in northwestern [Tanaris](Tanaris).
 
 ## History
 From the [World Dungeons](https://wowpedia.fandom.com/wiki/Game_Guide/World_Dungeons) page on the official World of Warcraft Community Site:
@@ -36,17 +36,17 @@ WorldMap-ZulFarrak.jpg
 </gallery>
 
 ## Dungeon denizens
--  [Basilisk](Basilisk)s
--  [Dire troll](Dire troll) (one, [Zel'jeb the Ancient](Zel'jeb the Ancient))
--  [Dwarf](Dwarf) (one, [Murta Grimgut](Murta Grimgut))
--  [Goblin](Goblin) (one, [Weegli Blastfuse](Weegli Blastfuse))
--  [Human](Human) (two, [Sergeant Bly](Sergeant Bly) and [Raven](Raven (NPC)))
--  [Hydra](Hydra) (one, [Gahz'rilla](Gahz'rilla))
--  [Orc](Orc) (one, [Oro Eyegouge](Oro Eyegouge))
--  [Sand Troll](Sand Troll)s
--  [Scarab](Scarab)s
--  [Skeletal warrior](Skeletal warrior)s
--  Troll [zombie](zombie)s
+- [Basilisk](Basilisk)s
+- [Dire troll](Dire troll) (one, [Zel'jeb the Ancient](Zel'jeb the Ancient))
+- [Dwarf](Dwarf) (one, [Murta Grimgut](Murta Grimgut))
+- [Goblin](Goblin) (one, [Weegli Blastfuse](Weegli Blastfuse))
+- [Human](Human) (two, [Sergeant Bly](Sergeant Bly) and [Raven](Raven (NPC)))
+- [Hydra](Hydra) (one, [Gahz'rilla](Gahz'rilla))
+- [Orc](Orc) (one, [Oro Eyegouge](Oro Eyegouge))
+- [Sand Troll](Sand Troll)s
+- [Scarab](Scarab)s
+- [Skeletal warrior](Skeletal warrior)s
+- Troll [zombie](zombie)s
 
 ## Quest guide
 {| class="fandom-table"
@@ -103,10 +103,10 @@ WorldMap-ZulFarrak.jpg
 
 ## Patch changes
 - (Patch 1.18.0|note=Two new areas and bosses added:
-  -[Zel'jeb the Ancient](Zel'jeb the Ancient): Reports suggest that the Sandfury are unearthing one of their ancient underground tombs after the collapse of their passages. What secrets might be hidden within?
-  -[Farraki Arena](Farraki Arena): Challenge your strength by facing the champions of the Farraki Arena.)
--  **Patch 1.5.0 (2005-06-07):** New load screen added.
--  **Patch 1.3.0 (2005-03-07):**
-  -Capped at ten players.
-  -Toned down the Zigguraut event.
-  -Fixed stuck NPCs that were causing "in combat" issues.
+  - [Zel'jeb the Ancient](Zel'jeb the Ancient): Reports suggest that the Sandfury are unearthing one of their ancient underground tombs after the collapse of their passages. What secrets might be hidden within?
+  - [Farraki Arena](Farraki Arena): Challenge your strength by facing the champions of the Farraki Arena.)
+- **Patch 1.5.0 (2005-06-07):** New load screen added.
+- **Patch 1.3.0 (2005-03-07):**
+  - Capped at ten players.
+  - Toned down the Zigguraut event.
+  - Fixed stuck NPCs that were causing "in combat" issues.

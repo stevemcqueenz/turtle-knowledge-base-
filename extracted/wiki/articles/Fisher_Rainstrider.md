@@ -25,14 +25,14 @@ categories: ["Fishers", "Fishing vendors", "Moonwhisper Coast NPCs", "Quest give
 | location | Moonhoof Village, Moonwhisper Coast |
 | status | Alive |
 
--Fisher Rainstrider** is a [tauren](tauren) fishing vendor and quest giver located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Fisher Rainstrider** is a [tauren](tauren) fishing vendor and quest giver located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: Siren's Song] 
 - [quest: Taste for Hydra] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Fish under the light of the two moons, and you may one day catch the mythical White-Scaled Eel.
 
 ## Patch changes

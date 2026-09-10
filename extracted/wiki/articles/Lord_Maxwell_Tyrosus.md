@@ -26,7 +26,7 @@ categories: ["Argent Dawn", "Eastern Plaguelands NPCs", "Human characters", "Que
 | location | Light's Hope Chapel, Eastern Plaguelands |
 | status | Alive |
 
--Lord Maxwell Tyrosus** is a [human](human) [quest giver](quest giver) and is the leader of the [Argent Dawn](Argent Dawn). He resides in [Light's Hope Chapel](Light's Hope Chapel) in the [Eastern Plaguelands](Eastern Plaguelands), and rarely sees visitors from outside his organization. From there he coordinates the troops of the Argent Dawn to fight the [Scourge](Scourge) in the Eastern Plaguelands and is planning with [Duke Nicholas Zverenhoff](Duke Nicholas Zverenhoff) an offensive on [Stratholme](Stratholme) to eliminate [Baron Rivendare](Baron Rivendare).
+**Lord Maxwell Tyrosus** is a [human](human) [quest giver](quest giver) and is the leader of the [Argent Dawn](Argent Dawn). He resides in [Light's Hope Chapel](Light's Hope Chapel) in the [Eastern Plaguelands](Eastern Plaguelands), and rarely sees visitors from outside his organization. From there he coordinates the troops of the Argent Dawn to fight the [Scourge](Scourge) in the Eastern Plaguelands and is planning with [Duke Nicholas Zverenhoff](Duke Nicholas Zverenhoff) an offensive on [Stratholme](Stratholme) to eliminate [Baron Rivendare](Baron Rivendare).
 
 ## Quests
 - [quest: The Wrath Of The Light Fall Upon Thee] 

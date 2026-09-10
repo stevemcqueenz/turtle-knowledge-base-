@@ -24,16 +24,16 @@ categories: ["Bog beasts", "Bosses", "Razorfen Kraul mobs", "Turtle WoW content"
 | status | Killable |
 | instance | Razorfen Kraul |
 
--Rotthorn** is a boss in the [Razorfen Kraul](Razorfen Kraul).
+**Rotthorn** is a boss in the [Razorfen Kraul](Razorfen Kraul).
 
 ## Objective of
 - Drops [Tainted Brambleheart](Tainted Brambleheart) for [quest: Tainted Brambleheart].
 
 ## Loot
--[Bramblethorn Girdle](Bramblethorn Girdle)
--[Thornlash Branch](Thornlash Branch)
--[Seed of Writhing Growth](Seed of Writhing Growth)
--[Idol of the Thorned Grove](Idol of the Thorned Grove)
+- [Bramblethorn Girdle](Bramblethorn Girdle)
+- [Thornlash Branch](Thornlash Branch)
+- [Seed of Writhing Growth](Seed of Writhing Growth)
+- [Idol of the Thorned Grove](Idol of the Thorned Grove)
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

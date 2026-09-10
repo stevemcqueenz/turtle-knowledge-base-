@@ -35,7 +35,7 @@ Everyone in the gym stopped to watch Ounce's incredible feat of strength. He had
 From that day forward, Ounce was known as the guy who could squat 300lbs below parallel. He continued to push himself in his training, always striving to be better. And his friends, Morty and Angry Video Game Nerd, were always there to support him along the way.
 
 ## The Music Bot Incident
-  -<u>Act 1: Skipping the Music</u>** 
+**<u>Act 1: Skipping the Music</u>** 
 
 The guild is in the middle of a raid when Warriorboi, the resident rogue, grows tired of the music selection provided by Agrias, the druid. He keeps skipping Agrias' songs, causing her to grow more and more frustrated with each skip. Despite repeated attempts to get Warriorboi to listen to her music, he just can't seem to get into it. 
 
@@ -90,19 +90,19 @@ Agrias and Warriorboi reluctantly agree to work together and come up with a play
 The End.
 
 ## Pimpin' at Papa John's
-  -<u>Act 1: The Setup</u>** 
+**<u>Act 1: The Setup</u>** 
 
 Tysonn and Nigma were hanging out in the local Papa John's, looking for a way to spice up their night. They had both just finished a long raid and were looking for something fun to do. "Yo bro, what do you say we try and pick up some chicks while we're here?" Tysonn suggested to Nigma, who was munching on a slice of pizza. Nigma wiped his mouth with a napkin and looked at Tysonn with a smirk. "Sounds like a solid plan, my man. Let's do it." 
 
-  -<u>Act 2: The Approach</u>**
+**<u>Act 2: The Approach</u>**
 
 Tysonn and Nigma sauntered over to a group of girls who were giggling and chatting at a nearby table. They tried their best to act cool and confident, but both were feeling a little nervous. "Hey ladies, what's up?" Tysonn said with a smile, trying to sound as smooth as possible. The girls looked up at them and smiled politely, but it was clear they were not interested. "Umm, we're just hanging out," one of the girls replied, going back to her conversation with her friends. Tysonn and Nigma tried to think of something clever to say, but their nerves got the best of them and they stumbled over their words. The girls just smiled and went back to their conversation, completely ignoring them. 
 
-  -<u>Act 3: The Realization</u>** 
+**<u>Act 3: The Realization</u>** 
 
 After a few more failed attempts to get the girls' attention, Tysonn and Nigma realized that they were just there to hang out with each other. Picking up chicks was just an excuse for them to spend some quality bro time together. "Dude, this is pathetic," Nigma said, shaking his head. "We don't even need these girls. We have each other, man." Tysonn nodded in agreement. "Yeah, you're right. Let's just enjoy the pizza and the atmosphere. We don't need anyone else." 
 
-  -<u>Act 4: The Aftermath</u>** 
+**<u>Act 4: The Aftermath</u>** 
 
 Tysonn and Nigma continued to chat and joke with each other, completely content in each other's company. They even ended up striking up a conversation with the Papa John's employee about their shared love of warcraft. As they left the restaurant, they both felt a sense of satisfaction and camaraderie. They realized that they didn't need anyone else to have a good time, as long as they had each other. "Yo bro, let's hit the gym tomorrow and work on our biceps. I heard Ounce squatting 300 pounds of weight under parallel," Nigma said with a laugh. "Sounds good to me, bro," Tysonn replied with a smile. "But first, let's go home and raid some more."
 

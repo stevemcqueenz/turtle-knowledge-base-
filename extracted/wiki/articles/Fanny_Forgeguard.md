@@ -24,10 +24,10 @@ categories: ["Balor NPCs", "Dwarf characters", "Turtle WoW content", "Weapon ven
 | location | SI:7 Outpost, Balor |
 | status | Alive |
 
--Fanny Forgeguard** is a [dwarf](dwarf) weapons vendor located at [SI:7 Outpost](SI:7 Outpost) in [Balor](Balor).
+**Fanny Forgeguard** is a [dwarf](dwarf) weapons vendor located at [SI:7 Outpost](SI:7 Outpost) in [Balor](Balor).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 This humid air is like poison to my beautiful weapons!
 
 ## Patch changes

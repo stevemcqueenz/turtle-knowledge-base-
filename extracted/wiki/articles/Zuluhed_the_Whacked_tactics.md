@@ -29,7 +29,7 @@ categories: ["Bosses", "Dragonmaw Retreat mobs", "Orc characters", "Turtle WoW c
 
 *This article is about the boss tactics. For the character biography, see [Zuluhed the Whacked](Zuluhed the Whacked).*
 
-  -Zuluhed the Whacked** is the chieftain of the orcish [Dragonmaw clan](Dragonmaw clan) and the final boss of [Dragonmaw Retreat](Dragonmaw Retreat).
+**Zuluhed the Whacked** is the chieftain of the orcish [Dragonmaw clan](Dragonmaw clan) and the final boss of [Dragonmaw Retreat](Dragonmaw Retreat).
 
 ## Abilities
 - Soul Domination
@@ -38,16 +38,16 @@ categories: ["Bosses", "Dragonmaw Retreat mobs", "Orc characters", "Turtle WoW c
   - Empowered Soul
 
 ## Quotes
-  -Aggro**
+**Aggro**
   The Dragonmaw Clan shall live forever!
 
-  -Soul Domination**
+**Soul Domination**
   You are under MY command!
 
-  -Withering Soul**
+**Withering Soul**
   Your power is mine!
 
-  -Death**
+**Death**
   The Dragonmaw will never be destroyed... Another will take my place, whelps!
 
 ## Loot

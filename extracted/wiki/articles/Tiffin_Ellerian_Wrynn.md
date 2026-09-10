@@ -21,7 +21,7 @@ categories: ["Aristocrats", "Deceased characters", "Human characters", "Northwin
 | status | Deceased |
 | relatives | Ingvild (mother),, Llane (father-in-law),, Varian (husband),, Anduin (son) |
 
--Tiffin Ellerian Wrynn** was the wife of King [Varian Wrynn](Varian Wrynn), mother of [Anduin Wrynn](Anduin Wrynn), and queen of the kingdom of Stormwind.
+**Tiffin Ellerian Wrynn** was the wife of King [Varian Wrynn](Varian Wrynn), mother of [Anduin Wrynn](Anduin Wrynn), and queen of the kingdom of Stormwind.
 
 ## Ambershire Memorial
 A statue of Tiffin is erected in the center of [Tiffin Park](Tiffin Park) in [Ambershire](Ambershire).

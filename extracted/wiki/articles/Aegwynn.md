@@ -23,7 +23,7 @@ categories: ["Humans", "Lore", "Lore Characters", "Major Characters"]
 | status | Alive |
 | relatives | Medivh (Son), Nielas Aran (Lover) |
 
--Aegwynn** was the second-to-last Guardian of Tirisfal, and the mother of the sorcerer [Medivh](Medivh).
+**Aegwynn** was the second-to-last Guardian of Tirisfal, and the mother of the sorcerer [Medivh](Medivh).
 
 # General
 Magna Aegwynn, Matriarch of [Tirisfal](Tirisfal), bears the secret guilt for all the misfortune that has befallen [Azeroth](Azeroth). The [Order of Tirisfal](Order of Tirisfal) was originally forged by the [High Elves](High Elves) to secretly protect the world from demonic corruption of magic, hoping to avoid the folly of their ancestors. These [Guardian](Guardian)s were given considerable power and longevity. 

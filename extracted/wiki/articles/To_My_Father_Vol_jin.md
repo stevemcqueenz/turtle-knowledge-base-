@@ -47,8 +47,8 @@ There is little time to spare. Speak.
 O'jin is on the right path; he has done well to send you instead of coming himself. A chieftain must know how to make the proper choice. This is valuable information, and for your trouble, a reward is due. There may come a time when I will seek your aid in dealing with this issue. I will return to my duties and soon speak with the Warchief. Beware of the shadows, <name>, especially where they dance freely.
 
 ## Progression
-1.[quest: A Dark Tide Will Rise]
-1.[quest: To My Father, Vol'jin]
+1. [quest: A Dark Tide Will Rise]
+1. [quest: To My Father, Vol'jin]
 
 ## Patch changes
 (Patch 1.18.0|note=Added.)

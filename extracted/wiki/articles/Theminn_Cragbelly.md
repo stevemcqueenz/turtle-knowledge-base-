@@ -26,7 +26,7 @@ categories: ["Dwarf characters", "Ironforge NPCs", "Survival vendors", "Turtle W
 | status | Alive |
 | relatives | Eissinn Cragbelly |
 
--Theminn Cragbelly** is a [dwarf](dwarf) [survival](survival) vendor located in the [Military Ward](Military Ward) in [Ironforge](Ironforge).
+**Theminn Cragbelly** is a [dwarf](dwarf) [survival](survival) vendor located in the [Military Ward](Military Ward) in [Ironforge](Ironforge).
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

@@ -24,7 +24,7 @@ categories: ["Bog beasts", "Bosses", "Stormwrought Ruins mobs", "Turtle WoW cont
 | status | Killable |
 | instance | Stormwrought Ruins |
 
--Mycellakos** is a boss in [Stormwrought Ruins](Stormwrought Ruins).
+**Mycellakos** is a boss in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Abilities
 - Decaying Mold

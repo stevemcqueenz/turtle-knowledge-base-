@@ -22,7 +22,7 @@ categories: ["Aristocrats", "Deceased characters", "Gilneas (kingdom)", "Human c
 | location | Buried in Hollow Web Cemetery |
 | relatives | Genn (husband),, Liam (son),, Tess (daughter) |
 
--Mia Greymane** was the wife of King [Genn Greymane](Genn Greymane), mother of [Liam](Liam Greymane) and [Tess Greymane](Tess Greymane), and queen consort of the kingdom of Gilneas.
+**Mia Greymane** was the wife of King [Genn Greymane](Genn Greymane), mother of [Liam](Liam Greymane) and [Tess Greymane](Tess Greymane), and queen consort of the kingdom of Gilneas.
 
 During the turmoil created by Alteraci refugees [Mortimer](Mortimer Harlow) and [Celia Harlow](Celia Harlow), Mia remained close to Genn, and his love for her provided the uncertain period a semblance of sanity, coaxing Genn out of seclusion to organize a charity event to distribute food and clothing to the Gilnean populace. However, as resources quickly dwindled, a confrontation between guards and the common folk took place, and Mia was killed by the Harlow siblings in the chaos. (ref: [Celia's Journal](Celia's Journal)) Her death devastated Genn, leading him to retreat to the confines of his mansion and removing himself entirely from public view. With [Lord Darius Ravenwood](Lord Darius Ravenwood) blamed for her death, the Harlows took power as regent lords of Gilneas and ushered in a reign of tyranny over Gilneas. (ref: [quest: The Rebellion])
 

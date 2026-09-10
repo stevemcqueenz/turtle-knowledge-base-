@@ -10,7 +10,7 @@ categories: ["Patches"]
 ---
 # Patch 1.15.1
 
--Patch 1.15.1** was released on March 11, 2021.
+**Patch 1.15.1** was released on March 11, 2021.
 
 ## Patch Notes
 - Fixes for missing icons and textures for certain item models.

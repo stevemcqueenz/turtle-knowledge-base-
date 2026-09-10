@@ -23,10 +23,10 @@ categories: ["Moonwhisper Coast NPCs", "Tauren characters", "Turtle WoW content"
 | gender | Female |
 | location | Shimmerstar Lake, Moonwhisper Coast |
 
--Sagarna** is a [tauren](tauren) located at [Shimmerstar Lake](Shimmerstar Lake) in [Moonwhisper Coast](Moonwhisper Coast).
+**Sagarna** is a [tauren](tauren) located at [Shimmerstar Lake](Shimmerstar Lake) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 It has been a while since we have seen outsiders venture into Moonwhisper Coast. What brings you to these lands?
 
 ## Patch changes

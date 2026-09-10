@@ -24,6 +24,6 @@ categories: ["Booty Bay characters", "Engineering schematic vendors", "Fireworks
 | gender | Male |
 | location | Booty Bay, Stranglethorn Vale |
 
--Crazk Sparks** is a [goblin](goblin) [fireworks vendor](Fireworks Vendor) located year-round in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale).
+**Crazk Sparks** is a [goblin](goblin) [fireworks vendor](Fireworks Vendor) located year-round in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale).
 
 ## External links

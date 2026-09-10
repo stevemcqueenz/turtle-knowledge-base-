@@ -11,6 +11,6 @@ categories: ["Dark Iron dwarves", "Races", "Skardyn"]
 # Skardyn
 
 , a skardyn.]]
-  -Skardyn** are the cursed descendants of [Dark Iron dwarves](Dark Iron dwarves) who had delved too deeply into the cursed depths of [Grim Batol](Grim Batol) and survived the Dark Iron siege of the city, near the end of the [War of the Three Hammers](War of the Three Hammers). Twisted by the vile magics of [Modgud](Modgud), their bodies and minds corrupted until they became creatures of shadow and malice, far removed from their former selves. (ref: [quest: The Skardyn])
+**Skardyn** are the cursed descendants of [Dark Iron dwarves](Dark Iron dwarves) who had delved too deeply into the cursed depths of [Grim Batol](Grim Batol) and survived the Dark Iron siege of the city, near the end of the [War of the Three Hammers](War of the Three Hammers). Twisted by the vile magics of [Modgud](Modgud), their bodies and minds corrupted until they became creatures of shadow and malice, far removed from their former selves. (ref: [quest: The Skardyn])
 
 ## References

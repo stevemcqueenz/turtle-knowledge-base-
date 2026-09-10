@@ -10,7 +10,7 @@ categories: []
 ---
 # Ancient
 
--Ancients** are demigod-like trees. They are some of the most important creatures in night elf society. They resemble sapient trees, but their wisdom and insight are almost unparalleled. Many of them are thousands of years old. They assist their night elf allies with guidance, education (particularly in the druidic arts), and protection — they are large and powerful, and are protectors of the forest. They are large enough to carry night elves, and some are so enormous that a few night elves make their homes in them. 
+**Ancients** are demigod-like trees. They are some of the most important creatures in night elf society. They resemble sapient trees, but their wisdom and insight are almost unparalleled. Many of them are thousands of years old. They assist their night elf allies with guidance, education (particularly in the druidic arts), and protection — they are large and powerful, and are protectors of the forest. They are large enough to carry night elves, and some are so enormous that a few night elves make their homes in them. 
 
 Most ancients resemble deciduous trees that live in temperate climates, such as oaks and maples. A few evergreen ancients also exist. No reliable reports of tropical ancients have yet surfaced, but the night elves claim that they can exist — and if a colony of night elves moves to the tropics and brings along the appropriate druidic magic, tropical ancients may indeed grace Azeroth's surface. Ancients speak [Darnassian](Darnassian), though a few also speak [Common](Common). Their voices sound like ancient trees creaking in the wind.
 

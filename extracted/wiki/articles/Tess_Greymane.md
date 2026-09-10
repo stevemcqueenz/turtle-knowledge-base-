@@ -26,7 +26,7 @@ categories: ["Gilneas (kingdom)", "Gilneas NPCs", "Human characters", "Quest giv
 | status | Alive |
 | relatives | Genn (father),, Mia (mother),, Liam (brother) |
 
--Tess Greymane** is the daughter of King [Genn Greymane](Genn Greymane) of [Gilneas](Gilneas).
+**Tess Greymane** is the daughter of King [Genn Greymane](Genn Greymane) of [Gilneas](Gilneas).
 
 ## Quests
 - [quest: On Legend's Trail] 

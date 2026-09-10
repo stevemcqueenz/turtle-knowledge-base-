@@ -14,7 +14,7 @@ Retrieves a link string about one item in the current retrieved list of items fr
  link = GetAuctionItemInfo("type", index);
 ----
 
-  - *Arguments***
+** *Arguments***
    (String type, Number index)
 
   ; type
@@ -31,14 +31,14 @@ Retrieves a link string about one item in the current retrieved list of items fr
 
 ----
 
-  - *Returns***
+** *Returns***
 
   ; link
    The link string for the specified item, or nil if the slot is empty.
 
 ----
 
-  - *Description***
+** *Description***
 
    Retrieves a link string about an item in the current list of auction items.
 

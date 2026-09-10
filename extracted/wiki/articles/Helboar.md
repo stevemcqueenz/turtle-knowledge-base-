@@ -24,7 +24,7 @@ categories: ["Blasted Lands mobs", "Helboars", "Tenacity beasts"]
 
 __NOTOC__
 
-  -Helboars** are demon [boar](boar)s found in the [Blasted Lands](Blasted Lands). Due to their proximity to the [Dark Portal](Dark Portal), they have been genetically warped from regular boars by the [fel](fel) energies. (ref: [quest: Genetic Alteration Anomaly!])
+**Helboars** are demon [boar](boar)s found in the [Blasted Lands](Blasted Lands). Due to their proximity to the [Dark Portal](Dark Portal), they have been genetically warped from regular boars by the [fel](fel) energies. (ref: [quest: Genetic Alteration Anomaly!])
 
 ## Objective of
 - [quest: class=warrior]

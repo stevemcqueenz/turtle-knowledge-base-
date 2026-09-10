@@ -10,7 +10,7 @@ categories: ["Professions"]
 ---
 # Lockpicking
 
--Lockpicking** is the ability to open locked [door](door)s, [chest](chest)s, [junkbox](junkbox)es, and [lockbox](lockbox)es. It can be performed in four ways:
+**Lockpicking** is the ability to open locked [door](door)s, [chest](chest)s, [junkbox](junkbox)es, and [lockbox](lockbox)es. It can be performed in four ways:
 
 # The [rogue](rogue) [class](class) has a trained ability, [Pick Lock](Pick Lock), which allows them to open locked items. This can be learned at level 16 from any [rogue trainer](rogue trainer). Lockpicking skill is 5 times the rogue's level.
 # [Blacksmiths](Blacksmithing) can craft [skeleton keys](skeleton keys) which are able to open locks of different levels. Each recipe yields multiple keys which can only be used by blacksmiths with the appropriate blacksmithing skill. The keys are consumed after successfully lockpicking an object.
@@ -247,15 +247,15 @@ Typically, unguarded footlockers have a lower skill range than guarded ones.  Wh
 |}
 
 ## FAQ
-  -Q. How do I get the skill lockpicking?**
+**Q. How do I get the skill lockpicking?**
 
 A. You must buy the skill from your trainer at level 16. Then you can complete the quest that trainer gives you to get free thieves tools (or buy them at 15 silver (or so).
 
-  -Q. Okay, I have the quest, but my skill is super low I can't complete the quest, what now?**
+**Q. Okay, I have the quest, but my skill is super low I can't complete the quest, what now?**
 
 A. In the same area as your lock-picking quest, there should be some chests you can level up on. These chests are orange at skill level 1 (see below for color explanation) and don't go grey until about 100. Also, see down below for a 1-300 skill-up guide.
 
-  -Q. What do these colors mean? Red? Orange? Grey? I'm colorblind!**
+**Q. What do these colors mean? Red? Orange? Grey? I'm colorblind!**
 
 A. Every lock you pick has a 'skill level'. Just like with trade-skill items, they are color coded.
 
@@ -267,6 +267,6 @@ A. Every lock you pick has a 'skill level'. Just like with trade-skill items, th
 
 There is a list down below for commonly items and their skill-up numbers in reference to lock difficulty.
 
-  -Q. Do I have to visit a trainer to get journeyman/artisan/safe-cracker rank in Lockpicking?**
+**Q. Do I have to visit a trainer to get journeyman/artisan/safe-cracker rank in Lockpicking?**
 
 A. You don't. Your skill scales with level: every level you gain as a rogue translates into 5 extra points to your lock-picking cap.

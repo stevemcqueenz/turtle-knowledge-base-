@@ -14,7 +14,7 @@ categories: ["Articles using deprecated loot", "Pages with broken file links", "
 |---|---|
 | 1 | Surf Glider |
 
--Land's End Beach** is the most southern point of the [Tanaris Desert](Tanaris Desert)[60, 88], in the far Southeastern tip of [Kalimdor](Kalimdor). It is located at an abandoned piece of coastline which is only reachable by sea. Besides a crashed [flying machine](flying machine) and some wood sticking out of the sand, there are s that range from 48 to 50, and are quite aggressive.
+**Land's End Beach** is the most southern point of the [Tanaris Desert](Tanaris Desert)[60, 88], in the far Southeastern tip of [Kalimdor](Kalimdor). It is located at an abandoned piece of coastline which is only reachable by sea. Besides a crashed [flying machine](flying machine) and some wood sticking out of the sand, there are s that range from 48 to 50, and are quite aggressive.
 
 If you look into the distance at the most southern point, you will see a [mysterious island](South Seas islands), which you cannot reach by swimming without tricks or completing the quest given by [Meridith the Mermaiden](Meridith the Mermaiden). With [water walking](water walking) granted by a [shaman](shaman) or an , as a [death knight](death knight) with [Unholy Presence](Unholy Presence) and [Path of Frost](Path of Frost) activated, or as a [druid](druid) with the , you can reach the island to find some empty goblin structures and several [Southsea Freebooter](Southsea Freebooter)s wandering about. 
 

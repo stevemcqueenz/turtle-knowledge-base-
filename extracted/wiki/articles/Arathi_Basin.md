@@ -10,7 +10,7 @@ categories: ["Arathi Basin", "Arathi Highlands", "Battlegrounds", "Pages with br
 ---
 # Arathi Basin
 
--Arathi Basin**, located in [Arathi Highlands](Arathi Highlands), is a fast and exciting Battleground. The Basin itself is rich with resources and coveted by both the [Horde](Horde) and the [Alliance](Alliance). The [Forsaken Defilers](Forsaken Defilers) and the [League of Arathor](League of Arathor) have arrived at Arathi Basin to wage war over these natural resources and claim them on behalf of their respective sides. It is sort of a 'king of the hill' match, though with multiple 'hills'.
+**Arathi Basin**, located in [Arathi Highlands](Arathi Highlands), is a fast and exciting Battleground. The Basin itself is rich with resources and coveted by both the [Horde](Horde) and the [Alliance](Alliance). The [Forsaken Defilers](Forsaken Defilers) and the [League of Arathor](League of Arathor) have arrived at Arathi Basin to wage war over these natural resources and claim them on behalf of their respective sides. It is sort of a 'king of the hill' match, though with multiple 'hills'.
 
 ## Characteristics
 <table cellpadding="2">
@@ -53,11 +53,11 @@ Also see:
 - Other battlegrounds [Warsong Gulch](Warsong Gulch) and [Alterac Valley](Alterac Valley)
 
 ## Basic Rules
--Each side has up to 15 players.
--There are five Resource Nodes on the map: the Farm, the Stables (ST), the Blacksmith (BS), the Lumber Mill (LM), and the Gold Mine (GM).
--A node only earns resources when it is captured (see below). With the exception of possible strategic value, there is no difference between the nodes.
--The rate of resource accumulation increases non-linearly as more nodes are captured. That is, if a side owns 2 nodes, it will accumulate resources slightly *more* than 2x as fast as when it only has 1 node. See the Strategy section below for more info.
--Arathi Basin is banded by level, just like Warsong Gulch. The minimum level to join is 20, and different instances will spawn for players between levels 20-29, 30-39, 40-49, 50-59 and 60.
+- Each side has up to 15 players.
+- There are five Resource Nodes on the map: the Farm, the Stables (ST), the Blacksmith (BS), the Lumber Mill (LM), and the Gold Mine (GM).
+- A node only earns resources when it is captured (see below). With the exception of possible strategic value, there is no difference between the nodes.
+- The rate of resource accumulation increases non-linearly as more nodes are captured. That is, if a side owns 2 nodes, it will accumulate resources slightly *more* than 2x as fast as when it only has 1 node. See the Strategy section below for more info.
+- Arathi Basin is banded by level, just like Warsong Gulch. The minimum level to join is 20, and different instances will spawn for players between levels 20-29, 30-39, 40-49, 50-59 and 60.
 
 # Accumulating Resources
 Resources accumulate at the rates shown in the table below. For more information, visit [Arathi Basin Strategy and Tactics](Arathi Basin Strategy and Tactics)
@@ -77,10 +77,10 @@ Per sec</td></tr>
 So if your team has three nodes, their team has two nodes, and they lead 1800 to 1700, you can still win if no nodes change hands. But if your team is at 1600 you cannot win unless you gain control of four nodes.
 
 ## Entering Arathi Basin Battleground
--The entrances to Arathi Basin are located in the Arathi Highlands zone. 
--For the Alliance, the entrance is located inside [Refuge Pointe](Refuge Pointe). 
--For the Horde, the entrance is just outside of [Hammerfall](Hammerfall) on the north side.
--Either side may also enter the Battleground queue through [Battlemaster](Battlemaster)s located in each capital city.
+- The entrances to Arathi Basin are located in the Arathi Highlands zone. 
+- For the Alliance, the entrance is located inside [Refuge Pointe](Refuge Pointe). 
+- For the Horde, the entrance is just outside of [Hammerfall](Hammerfall) on the north side.
+- Either side may also enter the Battleground queue through [Battlemaster](Battlemaster)s located in each capital city.
 
 ## Honour Rewards
 The game awards bonus honor ([Formulas:Honor_System#Arathi_Basin](Formulas:Honor_System#Arathi_Basin)) to everyone on your side of the match for reaching certain goals. Those goals are:
@@ -99,16 +99,16 @@ On the [Battlegrounds Holiday](Battlegrounds Holiday) weekend for Arathi Basin, 
 The total honor for the winning team on the holiday weekend is 2178. The losing team only earns honor for resources collected; there is no additional bonus for a loss on the holiday weekend.
 
 ## Quests, Reputation, and Other Rewards
--Near each entrance is an NPC who gives quests related to Arathi Basin. One quest can be completed simply by participating in a certain number of Arathi Basin battles, and another requires you to win the battle.
--Doing battle in Arathi Basin improves your reputation with [The Defilers](Defilers) (Horde) or [The League of Arathor](League of Arathor) (Alliance).
--When your reputation reaches Friendly, you can purchase special items from a vendor NPC near the battleground entrance. Regardless of your reputation, you can always browse the special items, have your armor repaired, and sell items to the faction vendor.
--Reputation rewards
-  -Collecting multiples of 200 resources (at 200, 400, 600, ...) = 10 rep (total 100 rep if you win)
-  -Control Four Bases Quest = 800 rep
-  -Win an AB Quest = 50 rep
+- Near each entrance is an NPC who gives quests related to Arathi Basin. One quest can be completed simply by participating in a certain number of Arathi Basin battles, and another requires you to win the battle.
+- Doing battle in Arathi Basin improves your reputation with [The Defilers](Defilers) (Horde) or [The League of Arathor](League of Arathor) (Alliance).
+- When your reputation reaches Friendly, you can purchase special items from a vendor NPC near the battleground entrance. Regardless of your reputation, you can always browse the special items, have your armor repaired, and sell items to the faction vendor.
+- Reputation rewards
+  - Collecting multiples of 200 resources (at 200, 400, 600, ...) = 10 rep (total 100 rep if you win)
+  - Control Four Bases Quest = 800 rep
+  - Win an AB Quest = 50 rep
 
 On the [Battlegrounds Holiday](Battlegrounds Holiday) weekend for Arathi Basin, the Reputation rewards are: 
--Collecting multiples of 150 resources (at 150, 300, 450, ...) = 10 rep (total 130 rep if you win)
+- Collecting multiples of 150 resources (at 150, 300, 450, ...) = 10 rep (total 130 rep if you win)
 
 ### Faction Rewards
 By gaining enough faction, you can make yourself eligible for rare and epic equipment rewards, as well some [consumable](consumable) items that can only be used in battlegrounds.  Though some of the Highlander and Defiler factions sell items with different names and artwork, their bonuses and equip effects are identical.  The equippable items sold by these factions can be "upgraded" as you gain levels, allowing higher level players to receive faction rewards with better equipment bonuses.  However, the exalted equipment rewards are only available at level 60.

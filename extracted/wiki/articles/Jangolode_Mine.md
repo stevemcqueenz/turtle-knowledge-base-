@@ -13,6 +13,4 @@ categories: ["Defias Brotherhood", "Kobold territories", "Mines", "Westfall subz
 The **Jangolode Mine** was one of the key sources in [Westfall](Westfall) of minerals for [Stormwind City](Stormwind City). It was taken over by the [Defias Brotherhood](Defias Brotherhood).
 
 ## NPCs
-- 
-- 
--  (rare)
+- - - (rare)

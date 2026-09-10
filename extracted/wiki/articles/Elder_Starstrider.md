@@ -27,7 +27,7 @@ categories: ["Moonwhisper Coast NPCs", "Quest givers", "Tauren characters", "Tur
 | status | Alive |
 | relatives | Ornak Starstrider |
 
--Elder Starstrider** is a [tauren](tauren) quest giver located in [Moonhoof Retreat](Moonhoof Retreat) in [Moonwhisper Coast](Moonwhisper Coast).
+**Elder Starstrider** is a [tauren](tauren) quest giver located in [Moonhoof Retreat](Moonhoof Retreat) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: An Opportune Arrival] 
@@ -37,7 +37,7 @@ categories: ["Moonwhisper Coast NPCs", "Quest givers", "Tauren characters", "Tur
 - [quest: The Moonhoof Celebration] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Why hello there young one, I am Elder Starstrider. I am the one who looks after our most sacred rituals and ceremonies, and have been entrusted to our traditions.
 
 Already many have begun to migrate here in anticipation for the celebration of the Blue Child's return. It is said that the return of the Blue Child is to herald a new chapter in our tribe's vaunted history.

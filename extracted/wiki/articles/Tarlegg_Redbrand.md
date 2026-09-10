@@ -26,7 +26,7 @@ categories: ["Dwarf characters", "Ironforge NPCs", "Turtle WoW content"]
 | status | Alive |
 | relatives | Redbrand family |
 
--Tarlegg Redbrand** is a [dwarf](dwarf) located in the [Mystic Ward](Mystic Ward) in [Ironforge](Ironforge).
+**Tarlegg Redbrand** is a [dwarf](dwarf) located in the [Mystic Ward](Mystic Ward) in [Ironforge](Ironforge).
 
 ## Patch changes
 - (Patch 1.16.4|note=Added.)

@@ -10,7 +10,7 @@ categories: []
 ---
 # List of jokes told by Sword of a Thousand Truths
 
--This list is incomplete. You can help by expanding it.*
+*This list is incomplete. You can help by expanding it.*
 
 - Protpals can tank!
 - Warlocks are too OP!

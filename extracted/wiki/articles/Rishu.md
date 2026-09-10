@@ -25,10 +25,10 @@ categories: ["Jungle troll characters", "Orgrimmar NPCs", "Survival vendors", "T
 | location | Valley of Honor, Orgrimmar |
 | status | Alive |
 
--Rishu** is a [jungle troll](jungle troll) [survival](survival) vendor located at [Brakan's Survival Supplies](Brakan's Survival Supplies) in the [Valley of Honor](Valley of Honor) in [Orgrimmar](Orgrimmar).
+**Rishu** is a [jungle troll](jungle troll) [survival](survival) vendor located at [Brakan's Survival Supplies](Brakan's Survival Supplies) in the [Valley of Honor](Valley of Honor) in [Orgrimmar](Orgrimmar).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 There are many ways in which you can utilize nature to your advantage. With a little bit of creativity and expertise, you can turn even the most mundane things into something useful.
 
 ## Patch changes

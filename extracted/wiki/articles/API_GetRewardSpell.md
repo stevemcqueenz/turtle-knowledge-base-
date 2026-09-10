@@ -12,6 +12,6 @@ categories: ["API Functions"]
 
 Returns the **texture** and the **name** of a spell if rewarded. **There could be more return values.**
 
-  -Example:**
+**Example:**
 
--local sTexture, sName = GetRewardSpell();*
+*local sTexture, sName = GetRewardSpell();*

@@ -24,7 +24,7 @@ categories: ["Grim Reaches NPCs", "Orc characters", "Quest givers", "Turtle WoW 
 | location | Grim Reaches |
 | status | Alive |
 
--Yor'thegg the Wise** is an [orc](orc) [quest giver](quest giver) located in the [Grim Reaches](Grim Reaches).
+**Yor'thegg the Wise** is an [orc](orc) [quest giver](quest giver) located in the [Grim Reaches](Grim Reaches).
 
 ## Quests
 - [quest: A Land in Peril] 
@@ -35,7 +35,7 @@ categories: ["Grim Reaches NPCs", "Orc characters", "Quest givers", "Turtle WoW 
 - [quest: Expelling Evil] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 If you wish to reach your true potential, you must look inside of yourself. You must harness what you are truly capable of unleashing. Find tranquility and search for what is possible within you.
 
 ## Patch changes

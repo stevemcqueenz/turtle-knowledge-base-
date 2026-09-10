@@ -27,7 +27,7 @@ categories: ["Eastern Kingdoms", "Human territories", "Northwind", "Turtle WoW c
 *"The serene lands of Northwind are a beautiful place, where falling autumn leaves grace the wide stretches of effervescent plains, like falling starts on a midnight sky."*
    — [Custodian Lambert](Custodian Lambert) (ref: [THE HIDDEN AREA BETWEEN STORMWIND AND IRONFORGE: Northwind Zone Trailer — Turtle WoW Patch 1.18](https://www.youtube.com/watch?v=vIuS0DXGY6Y) (dead link))
 
-  -Northwind** is a region located to the north of [Stormwind City](Stormwind City). Nestled in a vale north of Stormwind, Northwind is the cradle of nobility within the human kingdom. Commerce and trade runs high between its citizens and nobles, delivering quality goods to all regions of the [Eastern Kingdoms](Eastern Kingdoms). Its thriving trade makes it a center of wealth and influence. (ref: [Turtle WoW Team on Twitter](https://x.com/turtlecraft/status/1914700945696477219) (2025-04-22) (dead link))
+**Northwind** is a region located to the north of [Stormwind City](Stormwind City). Nestled in a vale north of Stormwind, Northwind is the cradle of nobility within the human kingdom. Commerce and trade runs high between its citizens and nobles, delivering quality goods to all regions of the [Eastern Kingdoms](Eastern Kingdoms). Its thriving trade makes it a center of wealth and influence. (ref: [Turtle WoW Team on Twitter](https://x.com/turtlecraft/status/1914700945696477219) (2025-04-22) (dead link))
 
 Nowadays however, the verdant hills are riddled with vile fiends sowing chaos and destruction. Lord Amberwood, Ruler of Northwind, and his fellow nobles struggle to maintain order in their lands with the little military power they have left. Even so, the recent incursions are not the only darkness brewing in the vale.
 
@@ -38,7 +38,7 @@ Nowadays however, the verdant hills are riddled with vile fiends sowing chaos an
 ||[Abbey Gardens](Abbey Gardens) ([Crypt](Crypt (Northwind)) • [Saint Mara Abbey](Saint Mara Abbey)) • [Amberpaw Hideout](Amberpaw Hideout) • [Ambershire](Ambershire) • [Amberwood Keep](Amberwood Keep) ([Jousting Grounds](Jousting Grounds)) • [Auburn Forest](Auburn Forest) ([Crawford Winery](Crawford Winery) • [Mildenhall Horse Farm](Mildenhall Horse Farm) • [The Plump Pumpkin](Plump Pumpkin)) • [Blackrock Breach](Blackrock Breach) • [Bristlewhisker Cavern](Bristlewhisker Cavern) • [Cinderfall Pass](Cinderfall Pass) • [Crystal Falls](Crystal Falls) • [Grimmen Lake](Grimmen Lake) • [Merchant's Highroad](Merchant's Highroad) • [Northridge Point](Northridge Point) • [Northwind Logging Camp](Northwind Logging Camp) • [Ruins of Birkhaven](Ruins of Birkhaven) • [Sherwood Quarry](Sherwood Quarry) • [Stillheart Port](Stillheart Port) • [Tower of Magilou](Tower of Magilou) • [Witch Coven](Witch Coven)
 |-
 ||
-  -Undisplayed locations**
+**Undisplayed locations**
 
 [Ambershire Church](Ambershire Church) • [Honey Drop Inn](Honey Drop Inn) • [Lion's Watch](Lion's Watch) • [Tiffin Park](Tiffin Park)
 |}

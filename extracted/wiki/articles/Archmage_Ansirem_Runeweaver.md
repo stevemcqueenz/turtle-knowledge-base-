@@ -57,13 +57,13 @@ At some point, he worked with Baron Revilgaz. He once visited Stranglethorn and 
 Welcome to Dalaran, we are currently in the process of reconstruction, so I do apologize if our hospitality may be lacking at this moment.
 
 ### On-click
-  -Greeting**
--The Kirin Tor welcomes you, friend.
--Have you come to study the ways of arcana, to gain knowledge?
--Our magical prowess is world-renowned.
+**Greeting**
+- The Kirin Tor welcomes you, friend.
+- Have you come to study the ways of arcana, to gain knowledge?
+- Our magical prowess is world-renowned.
 
-  -Farewell**
--Dalaran shall never be destroyed.
+**Farewell**
+- Dalaran shall never be destroyed.
 
 ## Notes and trivia
 - An epic staff, [Ansirem's Runeweaver](Ansirem's Runeweaver), drops from [Moroes](Moroes) in [Lower Karazhan Halls](Lower Karazhan Halls).

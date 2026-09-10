@@ -25,10 +25,10 @@ categories: ["Orc characters", "Orgrimmar NPCs", "Survival trainers", "Turtle Wo
 | location | Valley of Honor, Orgrimmar |
 | status | Alive |
 
--Brakan** is an [orc](orc) Journeyman [survival](survival) trainer located at [Brakan's Survival Supplies](Brakan's Survival Supplies) in the [Valley of Honor](Valley of Honor) in [Orgrimmar](Orgrimmar).
+**Brakan** is an [orc](orc) Journeyman [survival](survival) trainer located at [Brakan's Survival Supplies](Brakan's Survival Supplies) in the [Valley of Honor](Valley of Honor) in [Orgrimmar](Orgrimmar).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 We have not survived the deadly heat of Durotar by sheer luck. Our people are resilient, but moreso, they are resourceful. You ought to hone your instincts and skill, otherwise you'll not make it for long out there.
 
 ## Patch changes

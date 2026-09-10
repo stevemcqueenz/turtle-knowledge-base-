@@ -10,7 +10,7 @@ categories: ["Quest items", "Readable items", "Turtle WoW content"]
 ---
 # Captain Silas' Letter
 
--Captain Silas' Letter** is provided as an objective for [quest: A Call to Aid].
+**Captain Silas' Letter** is provided as an objective for [quest: A Call to Aid].
 
 ## Contains
 ## Patch changes

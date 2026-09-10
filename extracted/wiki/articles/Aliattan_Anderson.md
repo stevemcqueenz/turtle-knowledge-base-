@@ -24,7 +24,7 @@ categories: ["Gilneas NPCs", "Human characters", "Quest givers", "Turtle WoW con
 | location | Mossgrove Farm, Gilneas |
 | status | Alive |
 
--Aliattan Anderson** is a [human](human) [quest giver](quest giver) located at the [Mossgrove Farm](Mossgrove Farm) in [Gilneas](Gilneas).
+**Aliattan Anderson** is a [human](human) [quest giver](quest giver) located at the [Mossgrove Farm](Mossgrove Farm) in [Gilneas](Gilneas).
 
 ## Quests
 - [quest: The Haunting of Aliattan Anderson] 

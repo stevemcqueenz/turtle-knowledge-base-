@@ -26,7 +26,7 @@ categories: ["Gilneas (kingdom)", "Gilneas NPCs", "Human characters", "Quest giv
 | status | Alive |
 | relatives | Genn (father),, Mia (mother),, Tess (sister) |
 
--Liam Greymane** is the son and heir of King [Genn Greymane](Genn Greymane) of [Gilneas](Gilneas (kingdom)).
+**Liam Greymane** is the son and heir of King [Genn Greymane](Genn Greymane) of [Gilneas](Gilneas (kingdom)).
 
 ## Biography
 Prince Liam, along with Lords [Darius Ravenwood](Darius Ravenwood) and [Gerold](Gerold) of [Gelnor](Gelnor), formed the [Gilneas Brigade](Gilneas Brigade) to ready a force for Lady [Jaina Proudmoore](Jaina Proudmoore)'s [Human Expedition](Human Expedition) to [Kalimdor](Kalimdor) in defiance of his father's wishes. Named the Gilneas Brigade by Prince Liam with full honors on the Gilnean shores, the plot to send troops to the Human Expedition was only discovered by King Genn long after the ships, soldiers and supplies were far past the horizon. Harsh punishment fell upon all the plotters, the Crown Prince included, but the warriors found their way into the service of Jaina Proudmoore regardless. (ref: 
@@ -47,10 +47,10 @@ With his father's death in the Gilnean civil war and the retrieval of the Greyma
 - [quest: Assaulting Freyshear Keep] 
 
 ## Quotes
-  -At the Dryrock Mine**
+**At the Dryrock Mine**
 It is not the absence of liberty that holds me, stranger, but the heavy burden of my guilt. The decay of these lands at the hands of heretics has left a blight on my spirit. I have lost my parents, my title, and my freedom. Despite the darkness I bear, I still find hope in my sister, in my countrymen, and now in you.
 
-  -In Ravenshire**
+**In Ravenshire**
 You have given me back my freedom and, with it, the hope necessary to push on. I am no fool, nor are the men who remain loyal to our cause. Though the day may come that I must secure our future, rest assured that I will do so.
 
 ## Patch changes

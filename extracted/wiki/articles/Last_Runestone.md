@@ -10,11 +10,7 @@ categories: ["High elf territories", "Pages with broken file links", "Thalassian
 ---
 # Last Runestone
 
--The Last Runestone** is an area located in the [Thalassian Highlands](Thalassian Highlands). A fortified camp lies next to the runestone, where Ranger-General [Halduron Brightwing](Halduron Brightwing) leads a coalition of [Alliance](Alliance) forces to stem the tide of [Scourge](Scourge) from the [Scourged Pass](Scourged Pass).
+**The Last Runestone** is an area located in the [Thalassian Highlands](Thalassian Highlands). A fortified camp lies next to the runestone, where Ranger-General [Halduron Brightwing](Halduron Brightwing) leads a coalition of [Alliance](Alliance) forces to stem the tide of [Scourge](Scourge) from the [Scourged Pass](Scourged Pass).
 
 ## NPCs
-- 
-- 
-- 
-- 
--
+- - - - -

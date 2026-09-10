@@ -23,7 +23,7 @@ categories: ["Cooks", "Hillsbrad Foothills NPCs", "Human characters", "Quest giv
 | affiliation | Stormwind |
 | status | Alive |
 
--Chef Jessen** is a [human](human) quest giver located in [Southshore](Southshore) in the [Hillsbrad Foothills](Hillsbrad Foothills). Back in his younger days, Jessen used to travel past [Dalaran](Dalaran) and to [Lordamere Lake](Lordamere Lake) to hunt [Snapjaw](Snapjaw)s and prepare his world-famous [Soothing Turtle Bisque](Soothing Turtle Bisque). (ref: [quest: Soothing Turtle Bisque|profession=Cooking])
+**Chef Jessen** is a [human](human) quest giver located in [Southshore](Southshore) in the [Hillsbrad Foothills](Hillsbrad Foothills). Back in his younger days, Jessen used to travel past [Dalaran](Dalaran) and to [Lordamere Lake](Lordamere Lake) to hunt [Snapjaw](Snapjaw)s and prepare his world-famous [Soothing Turtle Bisque](Soothing Turtle Bisque). (ref: [quest: Soothing Turtle Bisque|profession=Cooking])
 
 ## Quests
 - [quest: Soothing Turtle Bisque|profession=Cooking] (Cooking) 

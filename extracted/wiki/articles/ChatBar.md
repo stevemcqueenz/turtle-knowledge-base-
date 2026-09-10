@@ -13,7 +13,7 @@ categories: ["Addon"]
 ChatBar allows you to quickly access and send chat messages of various types directly from a customizable button interface.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **ChatBar** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **ChatBar** up to date is by using [GitAddonsManager](Gi
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -30,7 +30,7 @@ If you prefer manual installation, follow these steps:
 # Unpack the .zip and move the ChatBar folder into your Interface/AddOns directory 
 # Restart the game.
 
-  -Optional:** 
+**Optional:** 
 
 - **Chronos** for channel reordering
 - **VisibilityOptions** for auto-hide features.
@@ -39,7 +39,7 @@ If you prefer manual installation, follow these steps:
 - [**(0ldi)**](https://github.com/0ldi/ChatBar)
 
 ## Usage
-  -Basic Interactions**
+**Basic Interactions**
 {| class="fandom-table"
 !Action
 !Description
@@ -54,7 +54,7 @@ If you prefer manual installation, follow these steps:
 |*Right-click the button*
 |}
 
-  -Chat Type Buttons**
+**Chat Type Buttons**
 {| class="fandom-table"
 !Button Type
 !Description
@@ -101,7 +101,7 @@ If you prefer manual installation, follow these steps:
 |"OFFICER" button
 |}
 
-  -Customization Options**
+**Customization Options**
 - **Reorder channels:** Rearrange the channel button order.
 - **Toggle vertical/horizontal layout:** Switch between vertical or horizontal display.
 - **Large buttons:** Enable larger button size for easier clicking.

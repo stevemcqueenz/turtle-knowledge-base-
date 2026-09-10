@@ -48,9 +48,9 @@ The following functions have been removed:
 - **[SetupWorldMapScale](API SetupWorldMapScale)**
 
 ## Main Game Functions
-  -This is a list of global functions internal to WoW that are exposed to Lua scripts.**  The list also includes standard global Lua functions as well as those global functions that map to standard Lua library functions.
+**This is a list of global functions internal to WoW that are exposed to Lua scripts.**  The list also includes standard global Lua functions as well as those global functions that map to standard Lua library functions.
 
--Functions in bold are not on the [World of Warcraft API](World of Warcraft API) page as of 13 September 2006*
+*Functions in bold are not on the [World of Warcraft API](World of Warcraft API) page as of 13 September 2006*
 
 - [AbandonQuest](API AbandonQuest)
 - [AbandonSkill](API AbandonSkill)
@@ -1177,9 +1177,9 @@ The following functions have been removed:
 - [xpcall](API xpcall)
 
 ## Lua Defined Functions
-  -Following are some of the global functions defined in the Blizzard [FrameXML](FrameXML) Lua files.**  Not all of these make sense to document on the [World of Warcraft API](World of Warcraft API) page, but the automatic scanning tools don't know that. Pick with some care.
+**Following are some of the global functions defined in the Blizzard [FrameXML](FrameXML) Lua files.**  Not all of these make sense to document on the [World of Warcraft API](World of Warcraft API) page, but the automatic scanning tools don't know that. Pick with some care.
 
--Functions in bold are not on the [World of Warcraft API](World of Warcraft API) page as of 13 September 2006*
+*Functions in bold are not on the [World of Warcraft API](World of Warcraft API) page as of 13 September 2006*
 
 - [ActionButtonDown](API ActionButtonDown)
 - [ActionButtonUp](API ActionButtonUp)

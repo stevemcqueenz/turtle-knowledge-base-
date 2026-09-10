@@ -10,4 +10,4 @@ categories: ["Elwynn Forest subzones", "Human territories", "Towers"]
 ---
 # Ridgepoint Tower
 
--Ridgepoint Tower** is one of the [scout tower](scout tower)s of the [Stormwind Guard](Stormwind Guard) in [Elwynn Forest](Elwynn Forest). These towers are well defended against any enemies who encroach into [human](Stormwind (faction)) lands. Ridgepoint in particular serves as a watchpost against the advances of the gnolls and orcs from [Redridge Mountains](Redridge Mountains), undead from [Duskwood](Duskwood), and the [Defias](Defias) from nearby camps.
+**Ridgepoint Tower** is one of the [scout tower](scout tower)s of the [Stormwind Guard](Stormwind Guard) in [Elwynn Forest](Elwynn Forest). These towers are well defended against any enemies who encroach into [human](Stormwind (faction)) lands. Ridgepoint in particular serves as a watchpost against the advances of the gnolls and orcs from [Redridge Mountains](Redridge Mountains), undead from [Duskwood](Duskwood), and the [Defias](Defias) from nearby camps.

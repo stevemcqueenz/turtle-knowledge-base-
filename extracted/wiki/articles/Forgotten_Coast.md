@@ -14,7 +14,7 @@ The **Forgotten Coast** is a portion of the western coast in [Feralas](Feralas) 
 
 ## Travel connections
 ### Boat
-  - [Feathermoon Stronghold](Feathermoon Stronghold)**
+** [Feathermoon Stronghold](Feathermoon Stronghold)**
 
 ## Patch changes
--  **Patch 1.4.0 (2005-04-19):** The dock on the Forgotten Coast in Feralas is no longer partially floating above the ground.
+- **Patch 1.4.0 (2005-04-19):** The dock on the Forgotten Coast in Feralas is no longer partially floating above the ground.

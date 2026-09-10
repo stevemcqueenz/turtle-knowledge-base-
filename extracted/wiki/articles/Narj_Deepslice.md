@@ -25,6 +25,6 @@ categories: ["Arathi Highlands NPCs", "Butchers", "Dwarf characters", "Meat vend
 | location | Refuge Pointe, Arathi Highlands |
 | status | Alive |
 
--Narj Deepslice** is a [dwarf](dwarf) meat vendor located at [Refuge Pointe](Refuge Pointe) in the [Arathi Highlands](Arathi Highlands). 
+**Narj Deepslice** is a [dwarf](dwarf) meat vendor located at [Refuge Pointe](Refuge Pointe) in the [Arathi Highlands](Arathi Highlands). 
 
 ## External links

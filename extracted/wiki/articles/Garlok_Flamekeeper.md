@@ -26,7 +26,7 @@ categories: ["Bosses", "Dragonmaw Retreat mobs", "Dragonmaw clan", "Orc characte
 | status | Killable |
 | instance | Dragonmaw Retreat |
 
--Garlok Flamekeeper** is an [orc](orc) and is the fourth boss of [Dragonmaw Retreat](Dragonmaw Retreat).
+**Garlok Flamekeeper** is an [orc](orc) and is the fourth boss of [Dragonmaw Retreat](Dragonmaw Retreat).
 
 ## Abilities
 - Flame Buffet
@@ -34,13 +34,13 @@ categories: ["Bosses", "Dragonmaw Retreat mobs", "Dragonmaw clan", "Orc characte
 - Flame Lash
 
 ## Quotes
-  -Aggro**
+**Aggro**
   I have been tasked to keep our sacred flame, do not test me!
 
-  -At 50%**
+**At 50%**
   You have no place here!
 
-  -Death**
+**Death**
   My duty... Is failed...
 
 ## Loot

@@ -15,12 +15,12 @@ hasAction = HasAction(actionSlot)
 </syntaxhighlight>
 
 ## Parameters
--Arguments*
+*Arguments*
 
   ; actionSlot - [ActionSlot](Action slot)
    The tested action slot.
 
--Returns*
+*Returns*
 
   ; hasAction - Flag
   * 1, if the slot contains an action

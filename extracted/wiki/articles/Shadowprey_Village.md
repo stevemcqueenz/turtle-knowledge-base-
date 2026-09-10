@@ -32,7 +32,7 @@ categories: ["Desolace subzones", "Horde towns", "Troll territories"]
 | profession | Yes |
 | status | Active |
 
--Shadowprey Village** ([26,75](http://www.wowhead.com/?maps=405:260750)) is located on the southern end of the coast of [Desolace](Desolace). This village is home to a number of professional [troll](troll) fishermen, whose catches help supply food to the [Ghost Walker Post](Ghost Walker Post) and are always in high demand.
+**Shadowprey Village** ([26,75](http://www.wowhead.com/?maps=405:260750)) is located on the southern end of the coast of [Desolace](Desolace). This village is home to a number of professional [troll](troll) fishermen, whose catches help supply food to the [Ghost Walker Post](Ghost Walker Post) and are always in high demand.
 
 Primarily a troll fishing village, Shadowprey is also a travel node for [Horde](Horde) adventurers. It lies along the Sar’theris Strand, south of the Valley of Spears. Nearby a representative of the [Cenarion Circle](Cenarion Circle), the [dryad](dryad) [Selendra](Selendra), investigates the whereabouts of [Zaetar](Zaetar)’s remains. The trolls tolerate her presence because they are aware that the [centaur](centaur) are a threat to them as well, and the [Alliance](Alliance) here helps their cause against the [Burning Blade](Burning Blade Clan).
 
@@ -40,32 +40,32 @@ In the WoW Game Manual, this village is called "Jagged Spear Village".
 
 ## Travel Connections
 ### Flight
-  - [Thunder Bluff](Thunder Bluff), [Mulgore](Mulgore)**
-  - [Sun Rock Retreat](Sun Rock Retreat), [Stonetalon Mountains](Stonetalon Mountains)**
-  - [Camp Mojache](Camp Mojache), [Feralas](Feralas)**
+** [Thunder Bluff](Thunder Bluff), [Mulgore](Mulgore)**
+** [Sun Rock Retreat](Sun Rock Retreat), [Stonetalon Mountains](Stonetalon Mountains)**
+** [Camp Mojache](Camp Mojache), [Feralas](Feralas)**
 
 ### Boat
-  - [Moonhoof Village](Moonhoof Village), [Moonwhisper Coast](Moonwhisper Coast)**
+** [Moonhoof Village](Moonhoof Village), [Moonwhisper Coast](Moonwhisper Coast)**
 
 ## Shadowprey Village NPCs
--  [Roon Wildmane](Roon Wildmane)
--  [Taiga Wisemane](Taiga Wisemane)
--  [Aboda](Aboda) - Stable Master
--  [Vark Battlescar](Vark Battlescar)
--  [Thalon](Thalon) - Wind Rider Master
--  [Innkeeper Sikewa](Innkeeper Sikewa) - Innkeeper  
--  [Rokaro](Rokaro) - Champion of the Horde
--  [Drulzegar Skraghook](Drulzegar Skraghook)
--  [Jinar'Zillen](Jinar'Zillen)
+- [Roon Wildmane](Roon Wildmane)
+- [Taiga Wisemane](Taiga Wisemane)
+- [Aboda](Aboda) - Stable Master
+- [Vark Battlescar](Vark Battlescar)
+- [Thalon](Thalon) - Wind Rider Master
+- [Innkeeper Sikewa](Innkeeper Sikewa) - Innkeeper  
+- [Rokaro](Rokaro) - Champion of the Horde
+- [Drulzegar Skraghook](Drulzegar Skraghook)
+- [Jinar'Zillen](Jinar'Zillen)
 - Guards:  [Shadowprey Guardian](Shadowprey Guardian) 
 
 ### Vendors
--  [Tukk](Tukk) - General Goods
--  [Wulan](Wulan) - Cooking Supplies 
--  [Hae'Wilani](Hae'Wilani) - Axecrafter
--  [Lah'Mawhani](Lah'Mawhani) - Trade Supplies
--  [Mai'Lahii](Mai'Lahii) - Fishing Supplies  
+- [Tukk](Tukk) - General Goods
+- [Wulan](Wulan) - Cooking Supplies 
+- [Hae'Wilani](Hae'Wilani) - Axecrafter
+- [Lah'Mawhani](Lah'Mawhani) - Trade Supplies
+- [Mai'Lahii](Mai'Lahii) - Fishing Supplies  
 
 ### Trainers
--  [Malux](Malux) - Skinning Trainer
--  [Lui'Mala](Lui'Mala) - Fishing Trainer
+- [Malux](Malux) - Skinning Trainer
+- [Lui'Mala](Lui'Mala) - Fishing Trainer

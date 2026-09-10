@@ -11,8 +11,8 @@ categories: ["Game terms", "Languages"]
 # Common (language)
 
 Common usually has two meanings in [World of Warcraft](World of Warcraft):
-1.The primary [language](Language) of [humans](Human) used throughout the [Alliance](Alliance) [faction](Faction).
-1.The second lowest level of [item](item) [quality](quality).
+1. The primary [language](Language) of [humans](Human) used throughout the [Alliance](Alliance) [faction](Faction).
+1. The second lowest level of [item](item) [quality](quality).
 
 ### Common Language
 The [Alliance](Alliance) counterpart to the [Horde](Horde)'s [orcish](orcish) language. All Alliance characters should understand **Common** tongue.
@@ -20,13 +20,13 @@ The [Alliance](Alliance) counterpart to the [Horde](Horde)'s [orcish](orcish) la
 It should be noted that traditionally, almost all intelligent races speak common.  WoW used to actually abide by this, but many players in the game's beta phase showed a lack of maturity in communication during battles.  This caused Common to be the primary Alliance language and Orcish to be the primary Horde language.  The Forsaken were given Common as a secondary language, but again, players showed a lack of maturity and this was taken away.
 
 ### Selected Common words
--"Daer" = "People"
+- "Daer" = "People"
 
 ### In-Game Phrases
 Note: The language algorithm used by the in-game "translator" merely makes the words LOOK like Common. It does not actually use a specific dictionary. Therefore, translated in-game speech isn't true Common. 
 
--"Goibon Uden Lo" = "Guards!" or "Guards help me!"
--"Uden" = "Help!"
+- "Goibon Uden Lo" = "Guards!" or "Guards help me!"
+- "Uden" = "Help!"
 
 ### Bur
 When an Alliance player says "Lol" it will appear as "Bur" to Horde players. (This is similar to how "Lol" in Orcish translates to "Kek" for alliance players)

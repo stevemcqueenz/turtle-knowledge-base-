@@ -23,4 +23,4 @@ categories: ["Coyotes", "Ferocity beasts", "Westfall mobs"]
 | location | Westfall |
 | pet | Wolf |
 
--Coyotes** are  level 10-11 [beasts](beasts) found in [Westfall](Westfall).
+**Coyotes** are  level 10-11 [beasts](beasts) found in [Westfall](Westfall).

@@ -26,10 +26,10 @@ categories: ["Mulgore NPCs", "Survival vendors", "Tauren characters"]
 | status | Alive |
 | relatives | Vira (sister) |
 
--Yrta Younghoof** is a [tauren](tauren) gardening vendor located in [Bloodhoof Village](Bloodhoof Village) in [Mulgore](Mulgore).
+**Yrta Younghoof** is a [tauren](tauren) gardening vendor located in [Bloodhoof Village](Bloodhoof Village) in [Mulgore](Mulgore).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I'm here to study the art of Survival under one of the wisest elders of the Mosshoof tribe, shando Kern.
 
 My sister tend to the wounds, teaching First Aid and I'm certain that healing comes from the Earth-Mother much more than any bandage could ever heal, gifts of the Earth itself.
@@ -37,4 +37,4 @@ My sister tend to the wounds, teaching First Aid and I'm certain that healing co
 Growing food is an art I'm eager to know as good as my own hooves.
 
 ## Patch changes
--  **[Hotfix](https://forum.turtlecraft.gg/viewtopic.php?f=2&t=1036) (2020-05-07):** Added.
+- **[Hotfix](https://forum.turtlecraft.gg/viewtopic.php?f=2&t=1036) (2020-05-07):** Added.

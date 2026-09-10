@@ -24,7 +24,7 @@ categories: ["Balor NPCs", "Orc characters", "Quest givers", "Thunderlord clan",
 | location | Stormbreaker Point, Balor |
 | status | Alive |
 
--Gre'shka Wolfbite** is an [orc](orc) [quest giver](quest giver) located at [Stormbreaker Point](Stormbreaker Point) in [Balor](Balor).
+**Gre'shka Wolfbite** is an [orc](orc) [quest giver](quest giver) located at [Stormbreaker Point](Stormbreaker Point) in [Balor](Balor).
 
 ## Quests
 - [quest: The First of Many] 
@@ -32,7 +32,7 @@ categories: ["Balor NPCs", "Orc characters", "Quest givers", "Thunderlord clan",
 - [quest: We are not Born Equal] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Listen. With the pounding rain comes the loud crash of the skies. It feels as if a magnificent being wields a grand whip, striking the clouds back into submission so that their torment may never end - and the rain may never cease.
 
 ## Patch changes

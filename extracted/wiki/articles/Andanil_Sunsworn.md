@@ -25,7 +25,7 @@ categories: ["High elf characters", "Moonwhisper Coast NPCs", "Quest givers", "T
 | status | Alive |
 | relatives | Astalor (cousin) |
 
--Andanil Sunsworn** is a [high elf](high elf) quest giver located in [Sunsworn Camp](Sunsworn Camp) in [Moonwhisper Coast](Moonwhisper Coast). He traveled to the Coast with an expedition sent by his cousin, Lord [Astalor Sunsworn](Astalor Sunsworn), in search of [draenethyst](draenethyst).
+**Andanil Sunsworn** is a [high elf](high elf) quest giver located in [Sunsworn Camp](Sunsworn Camp) in [Moonwhisper Coast](Moonwhisper Coast). He traveled to the Coast with an expedition sent by his cousin, Lord [Astalor Sunsworn](Astalor Sunsworn), in search of [draenethyst](draenethyst).
 
 ## Quests
 - [quest: Sunsworn Expedition] 
@@ -33,7 +33,7 @@ categories: ["High elf characters", "Moonwhisper Coast NPCs", "Quest givers", "T
 - [quest: The Withered Den] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Truly a disaster, to be sent here by that fool of a cousin of mine. Of all the places one might be assigned, it had to be this - so distant, so very odd.
 
 These lands are strange, yes, but do not mistake my displeasure for weakness. I did not come all this way to fail. Whatever trials await, I will endure them, and I will see my mission done.

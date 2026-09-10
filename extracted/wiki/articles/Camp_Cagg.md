@@ -10,4 +10,4 @@ categories: ["Badlands subzones", "Camps", "Ogre territories"]
 ---
 # Camp Cagg
 
--Camp Cagg** is, together with [Camp Boff](Camp Boff), [Kosh](Camp Kosh) and [Wurg](Camp Wurg), the home of some of the [Dustbelcher](Dustbelcher) [ogre](ogre)s. One exception though was their leader, [Boss Tho'grun](Boss Tho'grun), who patrolled the [Badlands](Badlands) between the four ogre bases.
+**Camp Cagg** is, together with [Camp Boff](Camp Boff), [Kosh](Camp Kosh) and [Wurg](Camp Wurg), the home of some of the [Dustbelcher](Dustbelcher) [ogre](ogre)s. One exception though was their leader, [Boss Tho'grun](Boss Tho'grun), who patrolled the [Badlands](Badlands) between the four ogre bases.

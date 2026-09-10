@@ -10,7 +10,7 @@ categories: ["Arathi Highlands subzones", "Great walls", "Hillsbrad Foothills su
 ---
 # Thoradin's Wall
 
--Thoradin's Wall** is a gigantic heavily damaged wall separating the [Arathi Highlands](Arathi Highlands) from the [Hillsbrad Foothills](Hillsbrad Foothills). 
+**Thoradin's Wall** is a gigantic heavily damaged wall separating the [Arathi Highlands](Arathi Highlands) from the [Hillsbrad Foothills](Hillsbrad Foothills). 
 
 ## Speculation
 - The purpose and origin of the great wall is unknown, thought it may have been built by King [Thoradin](Thoradin) or one of his descendants, perhaps to protect the lands of Arathi from the trolls' onslaught.

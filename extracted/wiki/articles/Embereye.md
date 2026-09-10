@@ -23,7 +23,7 @@ categories: ["Basilisks", "Gillijim's Isle mobs", "Tenacity beasts", "Turtle WoW
 | location | Deepneck Cove, Gillijim's Isle |
 | pet | Basilisk |
 
--Embereye** is a rare basilisk found in [Deepneck Cove](Deepneck Cove) in [Gillijim's Isle](Gillijim's Isle).
+**Embereye** is a rare basilisk found in [Deepneck Cove](Deepneck Cove) in [Gillijim's Isle](Gillijim's Isle).
 
 ## Abilities
 - Fire Blast

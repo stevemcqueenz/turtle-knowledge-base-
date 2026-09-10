@@ -10,14 +10,8 @@ categories: ["Caves", "Northwind subzones", "Orc territories", "Turtle WoW conte
 ---
 # Blackrock Breach
 
--Blackrock Breach** is the [Blackrock clan](Blackrock clan)'s main foothold in eastern [Northwind](Northwind). [Overlord Throkk](Overlord Throkk) has set his command post here, intent on bringing war to the people of Northwind.
+**Blackrock Breach** is the [Blackrock clan](Blackrock clan)'s main foothold in eastern [Northwind](Northwind). [Overlord Throkk](Overlord Throkk) has set his command post here, intent on bringing war to the people of Northwind.
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - - ## Patch changes
 - (Patch 1.18.0|note=Added.)

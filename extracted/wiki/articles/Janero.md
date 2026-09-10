@@ -24,10 +24,10 @@ categories: ["Jungle troll characters", "Moonwhisper Coast NPCs", "Turtle WoW co
 | location | Moonwhisper Coast |
 | status | Alive |
 
--Janero** is a [jungle troll](jungle troll) adventurer located in [Moonwhisper Coast](Moonwhisper Coast). With his companions [Richard](Richard), [Venuris](Venuris) and [Olgra](Olgra), he previously adventured into the [Swamp of Sorrows](Swamp of Sorrows) when they were ambushed by the Mirebeast and Richard was injured, leading him and the rest of his party to seek the Shard of Aka'Sha to cure his otherworldly sickness. (ref: [THE MIREBEAST — Everlook Broadcasting Co. Radio Play Series](https://www.youtube.com/watch?v=2fhEAUpBBLU))
+**Janero** is a [jungle troll](jungle troll) adventurer located in [Moonwhisper Coast](Moonwhisper Coast). With his companions [Richard](Richard), [Venuris](Venuris) and [Olgra](Olgra), he previously adventured into the [Swamp of Sorrows](Swamp of Sorrows) when they were ambushed by the Mirebeast and Richard was injured, leading him and the rest of his party to seek the Shard of Aka'Sha to cure his otherworldly sickness. (ref: [THE MIREBEAST — Everlook Broadcasting Co. Radio Play Series](https://www.youtube.com/watch?v=2fhEAUpBBLU))
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Da land be whispering mysterious words. Unclear and shrouded. Venuris led us to dis coast. Home of her people, a home she remembers differently. De coast be veiled in shadow, boiling underneath, eager to devour careless fools. You better be cautious when traveling de roads. You never know, what be lurkin' about.
 
 ## Trivia

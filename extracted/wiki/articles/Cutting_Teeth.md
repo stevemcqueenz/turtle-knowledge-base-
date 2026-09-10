@@ -34,8 +34,8 @@ I believe you'll be of more use to us slaughtering the [boar](boar)s you'll find
 
 ## Rewards
 You will be able to choose one of these rewards:
--[Soft Wool Boots](Soft Wool Boots)
--[Battleworn Leather Gloves](Battleworn Leather Gloves)
+- [Soft Wool Boots](Soft Wool Boots)
+- [Battleworn Leather Gloves](Battleworn Leather Gloves)
 
 You will also receive:
 - 170 [XP](XP)
@@ -51,8 +51,8 @@ Hmmm, not bad, <name>. But don't let it get to your head...you'll fight tougher 
 Nonetheless, you've proven yourself well, and your next trial will be against a considerably more dangerous opponent, so you'll need some extra protection.
 
 ## Progression
-1.[quest: Your Place In The World]
-1.[quest: Cutting Teeth]
-1.[quest: Sting of the Scorpid]
+1. [quest: Your Place In The World]
+1. [quest: Cutting Teeth]
+1. [quest: Sting of the Scorpid]
 
 ## External Links

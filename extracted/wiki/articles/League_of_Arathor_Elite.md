@@ -25,9 +25,9 @@ categories: ["Arathi Highlands NPCs", "Guards", "Human characters", "League of A
 | affiliation | League of Arathor, Kingdom of Stromgarde, Alliance |
 | location | Refuge Pointe, Arathi Highlands |
 
--League of Arathor Elites** are [elite](elite) [human](human)s who guard the entrance to [Arathi Basin](Arathi Basin) in [Refuge Pointe](Refuge Pointe) in the [Arathi Highlands](Arathi Highlands).
+**League of Arathor Elites** are [elite](elite) [human](human)s who guard the entrance to [Arathi Basin](Arathi Basin) in [Refuge Pointe](Refuge Pointe) in the [Arathi Highlands](Arathi Highlands).
 
 ## Patch changes
--  **Patch 1.7.0 (2005-09-13):** Added.
+- **Patch 1.7.0 (2005-09-13):** Added.
 
 ## External links

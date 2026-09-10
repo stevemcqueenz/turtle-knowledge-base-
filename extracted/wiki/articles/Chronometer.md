@@ -10,7 +10,7 @@ categories: ["Addon"]
 ---
 # Chronometer
 
--Chronometer** is an add-on that tracks the effects of spells you cast, including healing over time (HoTs), damage over time (DoTs), buffs, and debuffs. It provides clear visibility of the remaining duration of your spells, allowing you to know when they are about to fade. This enables you to recast spells or take any necessary actions in a timely manner. Chronometer is built on the Ace2 framework and utilizes CandyBar for its timer bars.
+**Chronometer** is an add-on that tracks the effects of spells you cast, including healing over time (HoTs), damage over time (DoTs), buffs, and debuffs. It provides clear visibility of the remaining duration of your spells, allowing you to know when they are about to fade. This enables you to recast spells or take any necessary actions in a timely manner. Chronometer is built on the Ace2 framework and utilizes CandyBar for its timer bars.
 
 ## How to install
 # Visit the GitHub link you find, then click the green **<> Code** button, and select Download ZIP.
@@ -88,7 +88,7 @@ categories: ["Addon"]
 |Toggles bars for spell duration's on the player. Some people didn't want to see these, since they already use another add-on like EBB to give them self-buff/de-buff bars.
 |}
 
-  -Clicking**
+**Clicking**
 
 Clicking on the Chronometer Bars
 
@@ -125,28 +125,28 @@ Options:
 - Fixed SnD timers to work in KRONOS (LaYt)
 - Fixed #1 "Bars not disappearing after kill"
 - Added ruRU locale
-  -v0.10.3**
+**v0.10.3**
 - Updated libs
 - Reorganized timers
 - Fixed mage timers
-  -v0.11.0**
+**v0.11.0**
 - Added waterfall lib and options frame using it
 - Added Blizzard timer for mages
 - Small fixes
 - Added mini-map or Fubar button 
-  -v0.11.1**
+**v0.11.1**
 - Fix onClick remove bar functionality
 - Update libs
-  -v0.12**
+**v0.12**
 - Added options vertical space between bars & icon position (left/right)
 - Ported TBC CandyBar lib
 - Added some new textures for bars
 - Reworked options to look better in Waterfall
 - Added Right-click Mouse-look feature
-  -v0.12.1**
+**v0.12.1**
 - Added Rogue poisons support
 - Libs update
-  -v0.13**
+**v0.13**
 - Added visibility configuration of spells in options by @dein0s
 - Added Flurry timer by @dein0s
 - Fixed Fire Vulnerability update mechanics

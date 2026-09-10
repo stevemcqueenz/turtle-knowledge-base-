@@ -10,4 +10,4 @@ categories: ["Barrens subzones", "Pages with broken file links"]
 ---
 # Tidus Stair
 
--The Tidus Stair** is an interesting geological formation that has the form of several terraces forming a giant set of stone stairs overlooking part of the [Merchant Coast](Merchant Coast). It is located southeast of [Ratchet](Ratchet), on the coast of the [Northern Barrens](Northern Barrens). A pair of [tauren](tauren), [Islen Waterseer](Islen Waterseer) and [Mahren Skyseer](Mahren Skyseer), sit and fish and converse with water spirits there.
+**The Tidus Stair** is an interesting geological formation that has the form of several terraces forming a giant set of stone stairs overlooking part of the [Merchant Coast](Merchant Coast). It is located southeast of [Ratchet](Ratchet), on the coast of the [Northern Barrens](Northern Barrens). A pair of [tauren](tauren), [Islen Waterseer](Islen Waterseer) and [Mahren Skyseer](Mahren Skyseer), sit and fish and converse with water spirits there.

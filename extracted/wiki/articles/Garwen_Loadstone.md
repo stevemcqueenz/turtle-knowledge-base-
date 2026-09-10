@@ -25,10 +25,10 @@ categories: ["Dwarf characters", "Explorers' League", "Stonetalon Mountains NPCs
 | location | Bael Hardul, Stonetalon Mountains |
 | status | Alive |
 
--Garwen Loadstone** is a [dwarf](dwarf) located in [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains).
+**Garwen Loadstone** is a [dwarf](dwarf) located in [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The Explorers' League is always looking for help, we are often stretched too thin to carry out our motivations and goals.
 
 ## Speculation

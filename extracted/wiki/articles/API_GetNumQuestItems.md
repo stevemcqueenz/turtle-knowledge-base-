@@ -14,13 +14,13 @@ Returns the number of items nessecary to complete a particular quest.
  GetNumQuestItems();
 ----
 
-  - *Arguments***
+** *Arguments***
 
    *none*
 
 ----
 
-  - *Returns***
+** *Returns***
 
    Number numRequiredItems
 
@@ -29,15 +29,15 @@ Returns the number of items nessecary to complete a particular quest.
 
 ----
 
-  - *Example***
+** *Example***
 
  local numRequiredItems = GetNumQuestItems()
 
-  - *Result***
+** *Result***
 
  5
 ----
 
-  - *Description***
+** *Description***
 
    Returns the number of items nessecary to complete a particular quest.

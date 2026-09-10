@@ -11,9 +11,9 @@ categories: ["Creatures", "Giants", "Instance Characters", "NPC stubs", "Pages w
 # Molten giant
 
 # General Information
--Level: 62 Elite
--[Location](:Category:Zones):  [Molten core](Molten core)
--[Type](Creature type):  [Giant](Creature_type#Giant)
+- Level: 62 Elite
+- [Location](:Category:Zones):  [Molten core](Molten core)
+- [Type](Creature type):  [Giant](Creature_type#Giant)
 
 # Background
 First two mobs in the instance. These always come in pairs, and are impossible to pull alone. As you progress through the [Molten Core](Molten Core), Molten Giants will gradually be replaced with [Molten Destroyer](Molten Destroyer)s, starting with one Destroyer and one [Giant](Giant), and eventually two Destroyers. The easiest way to deal with them is to put a tank on each and seperate them so their stomps do not hurt the same group. Finish one then the other.

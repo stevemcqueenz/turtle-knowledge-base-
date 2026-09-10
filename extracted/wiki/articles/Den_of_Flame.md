@@ -11,4 +11,4 @@ categories: ["Black Dragonflight", "Caves", "Dragonkin", "Dustwallow Marsh subzo
 # Den of Flame
 
 (38.5,65.8)[38, 65] 
-  -The Den of Flame** is an area in [Dustwallow Marsh](Dustwallow Marsh), just west of the [Stonemaul Ruins](Stonemaul Ruins) that has been completely overrun by [dragonkin](dragonkin) of the [Black Dragonflight](Black Dragonflight), presumably under the orders of the great [Black Dragon](Black Dragon), [Onyxia](Onyxia) who resides nearby. The architecture in the area suggests that the structure may have been built by the [Stonemaul](Stonemaul) [ogres](ogres).
+**The Den of Flame** is an area in [Dustwallow Marsh](Dustwallow Marsh), just west of the [Stonemaul Ruins](Stonemaul Ruins) that has been completely overrun by [dragonkin](dragonkin) of the [Black Dragonflight](Black Dragonflight), presumably under the orders of the great [Black Dragon](Black Dragon), [Onyxia](Onyxia) who resides nearby. The architecture in the area suggests that the structure may have been built by the [Stonemaul](Stonemaul) [ogres](ogres).

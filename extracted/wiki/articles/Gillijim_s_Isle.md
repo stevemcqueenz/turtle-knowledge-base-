@@ -23,7 +23,7 @@ categories: ["Eastern Kingdoms", "Gillijim's Isle", "Islands", "South Seas", "Tu
 | affiliation | Horde, Maul'ogg Ogres, Razzari tribe, Southsea Pirates |
 | loc | South Seas |
 
--Gillijim's Isle**, also referred to as **Gillijim's Island**, (ref: [quest: Faelon's Folly]) (ref: [quest: Drowning Deeptide]) is an island in the [South Seas](South Seas) off the coast of [Stranglethorn Vale](Stranglethorn Vale), south of [Lapidis Isle](Lapidis Isle).
+**Gillijim's Isle**, also referred to as **Gillijim's Island**, (ref: [quest: Faelon's Folly]) (ref: [quest: Drowning Deeptide]) is an island in the [South Seas](South Seas) off the coast of [Stranglethorn Vale](Stranglethorn Vale), south of [Lapidis Isle](Lapidis Isle).
 
 ## Geography
 ### Maps and subregions

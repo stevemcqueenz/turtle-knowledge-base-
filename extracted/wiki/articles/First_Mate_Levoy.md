@@ -24,10 +24,10 @@ categories: ["Human characters", "Kul Tiras (kingdom)", "Northwind NPCs", "Turtl
 | location | Jousting Grounds, Northwind |
 | status | Alive |
 
--First Mate Levoy** is a [human](human) located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind).
+**First Mate Levoy** is a [human](human) located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The Admiralty had a heated debate about us Kul Tirans participating in this tournament, from what I've heard. Seems they stand pretty divided about our relations with Stormwind. I can't really blame them for thinking like that, given Stormwind's direction in diplomacy with the Horde.
 
 ## Patch changes

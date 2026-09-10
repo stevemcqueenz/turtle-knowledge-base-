@@ -12,4 +12,4 @@ categories: ["Geography", "Waters"]
 
 This category contains articles related to areas where land meets water in the Warcraft universe and *World of Warcraft*, such as **beaches**, **shorelines**, and **coasts**.
 
-  -Notes:Only named shores should appear in this category; harbors, lakes, and coves, although involving the shoreline, should only appear in their own category.**
+**Notes:Only named shores should appear in this category; harbors, lakes, and coves, although involving the shoreline, should only appear in their own category.**

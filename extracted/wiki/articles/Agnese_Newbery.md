@@ -25,10 +25,10 @@ categories: ["Dalaran (kingdom)", "Human characters", "Northwind NPCs", "Turtle 
 | status | Alive |
 | mentors | Huey Stafford |
 
--Agnese Newbery** is a [human](human) located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind).
+**Agnese Newbery** is a [human](human) located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 [My master](Huey Stafford) is a passionate man, rarely have I seen someone as proud of Dalaran as him! With him participating at the joust, there is no way we will lose the tournament!
 
 ## Patch changes

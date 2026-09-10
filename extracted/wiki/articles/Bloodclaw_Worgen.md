@@ -23,7 +23,7 @@ categories: ["Gilneas mobs", "Turtle WoW content", "Worgen characters"]
 | location | Gilneas |
 | status | Killable |
 
--Bloodclaw Worgen** are worgen found in [Gilneas](Gilneas).
+**Bloodclaw Worgen** are worgen found in [Gilneas](Gilneas).
 
 ## Objective of
 - Drops [Bloodclaw Pelt](Bloodclaw Pelt) for [quest: Securing Gilneas I] and [quest: Ebonmere Worgen Infestation].

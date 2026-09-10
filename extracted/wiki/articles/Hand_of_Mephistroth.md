@@ -13,7 +13,7 @@ categories: ["Tower of Karazhan subzones", "Turtle WoW content"]
 The **Hand of Mephistroth** is an area floating above the [Rock of Desolation](Rock of Desolation) within the [Tower of Karazhan](Tower of Karazhan) raid. Accessed through the [Seat of Desolation](Seat of Desolation), it is where [Mephistroth](Mephistroth) can be fought.
 
 ## NPCs
--   [Mephistroth](Mephistroth)
+- [Mephistroth](Mephistroth)
 
 ## Patch changes
 - (Patch 1.17.2|note=Added.)

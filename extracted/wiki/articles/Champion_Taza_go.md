@@ -26,7 +26,7 @@ categories: ["Quest givers", "Sand troll characters", "Tanaris NPCs", "Turtle Wo
 | location | Sandmoon Village, Tanaris |
 | status | Alive |
 
--Champion Taza'go** is a [sand troll](sand troll) quest giver located in [Sandmoon Village](Sandmoon Village) in [Tanaris](Tanaris).
+**Champion Taza'go** is a [sand troll](sand troll) quest giver located in [Sandmoon Village](Sandmoon Village) in [Tanaris](Tanaris).
 
 ## Quests
 - [quest: Of the Sandfury and the Darkspear] 

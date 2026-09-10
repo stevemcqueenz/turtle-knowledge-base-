@@ -25,4 +25,4 @@ categories: ["Alterac Mountains NPCs", "Faction quartermasters", "Human characte
 | location | Dandred's Fold, Alterac Mountains |
 | status | Alive |
 
--Anna Lacroix** is the quartermaster for the [Syndicate](Syndicate) and is located outside of [Dandred's Fold](Dandred's Fold) in the [Alterac Mountains](Alterac Mountains).
+**Anna Lacroix** is the quartermaster for the [Syndicate](Syndicate) and is located outside of [Dandred's Fold](Dandred's Fold) in the [Alterac Mountains](Alterac Mountains).

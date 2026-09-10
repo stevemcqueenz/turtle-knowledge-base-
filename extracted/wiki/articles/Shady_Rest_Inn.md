@@ -10,4 +10,4 @@ categories: ["Dustwallow Marsh subzones", "Human territories", "Inns", "Pages wi
 ---
 # Shady Rest Inn
 
--Shady Rest Inn** (aka **Shady Rest**) was a human-built [inn](inn) near the border between [Dustwallow Marsh](Dustwallow Marsh) and the [Barrens](Barrens).
+**Shady Rest Inn** (aka **Shady Rest**) was a human-built [inn](inn) near the border between [Dustwallow Marsh](Dustwallow Marsh) and the [Barrens](Barrens).

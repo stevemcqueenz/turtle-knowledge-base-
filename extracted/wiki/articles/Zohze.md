@@ -25,10 +25,10 @@ categories: ["Balor NPCs", "Innkeepers", "Orc characters", "Turtle WoW content"]
 | location | Stormbreaker Point, Balor |
 | status | Alive |
 
--Zohze** is an [orc](orc) innkeeper located at [Stormbreaker Point](Stormbreaker Point) in [Balor](Balor).
+**Zohze** is an [orc](orc) innkeeper located at [Stormbreaker Point](Stormbreaker Point) in [Balor](Balor).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Getting sufficient rest may be more of a wishful thinking here, but let me allow you to get as much of it as you can.
 
 ## Patch changes

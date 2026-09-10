@@ -25,14 +25,14 @@ categories: ["Dwarf characters", "Explorers' League", "Grim Reaches NPCs", "Ques
 | location | Dun Kithas, Grim Reaches |
 | status | Alive |
 
--Groldan Blackforge** is a [dwarf](dwarf) quest giver located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
+**Groldan Blackforge** is a [dwarf](dwarf) quest giver located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
 
 ## Quests
 - [quest: Groldan's Grudge] 
 - [quest: Groldan's Stash] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Those blasted... All that work, gone in an instant
 
 <Groldan continues to grumble incoherently.>

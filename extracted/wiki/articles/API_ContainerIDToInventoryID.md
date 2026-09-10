@@ -10,34 +10,34 @@ categories: ["API Functions"]
 ---
 # API ContainerIDToInventoryID
 
-- *Arguments***
+** *Arguments***
   ;: (bagID)
   ; bagID
    [bagID](API Type BagId) - number of the bag (0-4) to get the inventoryID for
 
 ----
 
-  - *Returns***
+** *Returns***
 
   ; inventoryID
    inventoryID - the bag's inventory ID used in functions like [PutItemInBag(inventoryId)](API PutItemInBag) and [GetInventoryItemLink("player",inventoryId)](API GetInventoryItemLink)
 
 ----
 
-  - *Examples***
+** *Examples***
 <syntaxhighlight lang="lua">
  local invID = ContainerIDToInventoryID(1)  
  DEFAULT_CHAT_FRAME:AddMessage("Bag slot 1 is inventory slot "..invID)
 </syntaxhighlight>
 ----
 
-  - *Result***
+** *Result***
 <syntaxhighlight lang="lua">
  Bag slot 1 is inventory slot 20
 </syntaxhighlight>
 ----
 
-  - *Notes***
+** *Notes***
 
    The return of container IDs -2 (key ring), -1 (bank) and 0 (backpack) aren't actual Inventory slots usable by most Inventory functions.
    The player bags begin at container 1 and inventory 20.

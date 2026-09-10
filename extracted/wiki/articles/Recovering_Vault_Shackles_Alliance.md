@@ -42,5 +42,5 @@ Be careful, the Runic Constructs are quite powerful, an overchage of magical ene
 Ahh, here we are! This is them, thanks again, this means a lot, here, just as I promised.
 
 ## Notes
-  -Upon completion**
+**Upon completion**
   **Koli Steamheart says:** Thanks again for the help! I will make sure to study these so the same thing cannot happen again!

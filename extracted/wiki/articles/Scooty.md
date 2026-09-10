@@ -26,7 +26,7 @@ categories: ["Booty Bay characters", "Engineers", "Goblin characters", "Quest gi
 | location | Booty Bay, Stranglethorn Vale |
 | status | Alive |
 
--Scooty** is a [goblin](goblin) [quest giver](quest giver) located in [Booty Bay](Booty Bay) in [Stranglethorn Vale](Stranglethorn Vale). He maintains the teleporter, and claims to be a "master [engineer](engineer)".
+**Scooty** is a [goblin](goblin) [quest giver](quest giver) located in [Booty Bay](Booty Bay) in [Stranglethorn Vale](Stranglethorn Vale). He maintains the teleporter, and claims to be a "master [engineer](engineer)".
 
 ## Quests
 - [quest: A Fine Mess] 
@@ -34,10 +34,10 @@ categories: ["Booty Bay characters", "Engineers", "Goblin characters", "Quest gi
 - [quest: Gnomer-gooooone!] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Hello, <name>! I am master engineer, Scooty.
 
 ## Trivia
--Clearly an homage to Lt. Cmdr. Montgomery "Scotty" Scott, the chief engineer of the *U.S.S. Enterprise* from the *Star Trek* universe. Note the additional existence of  in [Gnomeregan](Gnomeregan).
+- Clearly an homage to Lt. Cmdr. Montgomery "Scotty" Scott, the chief engineer of the *U.S.S. Enterprise* from the *Star Trek* universe. Note the additional existence of  in [Gnomeregan](Gnomeregan).
 
 ## External links

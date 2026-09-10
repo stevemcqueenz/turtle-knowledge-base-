@@ -25,10 +25,10 @@ categories: ["Draenei characters", "Fishers", "Fishing trainers", "Moonwhisper C
 | location | Moro'gai Village, Moonwhisper Coast |
 | status | Alive |
 
--F'eesh** is a [draenei](draenei) fishing trainer located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**F'eesh** is a [draenei](draenei) fishing trainer located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The lake is calm today, not many fish are taking the bait. What about it, interested in giving it a try yourself?
 
 ## Patch changes

@@ -13,8 +13,4 @@ categories: ["Prisons", "Stormwrought Ruins subzones"]
 The **Stormwrought Prison** is a prison inside [Stormwrought Ruins](Stormwrought Ruins). Here, the [Stormreaver clan](Stormreaver clan) keeps its prisoners taken from [Northwind](Northwind) in preparation for the [Shadow Council](Shadow Council)'s rituals.
 
 ## NPCs
-- 
-- 
-- 
-- 
--
+- - - - -

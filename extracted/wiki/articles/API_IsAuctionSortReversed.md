@@ -16,7 +16,7 @@ Returns the sorting for a column on the auction house display.
 </syntaxhighlight>
 ----
 
-  - *Arguments***
+** *Arguments***
    (String type, String sort)
 
   ; type
@@ -47,7 +47,7 @@ Returns the sorting for a column on the auction house display.
 
 ----
 
-  - *Returns***
+** *Returns***
 
    1 or nil
 
@@ -60,16 +60,16 @@ SEE RESULT NOTE BELOW.
 
 ----
 
-  - *Example***
+** *Example***
 <syntaxhighlight lang="lua">
  sorted = IsAuctionSortReversed("list", "bid");
 </syntaxhighlight>
-  - *Result***
+** *Result***
 
 The value of the sort is now stored in "sorted".
 ----
 
-  - *Details***
+** *Details***
 
    The return values correspond to the arrows displayed.  An up arrow means IsAuctionSortReversed == 1.  A down arrow means IsAuctionSortReversed == nil.
 

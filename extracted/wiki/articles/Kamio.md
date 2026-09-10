@@ -22,4 +22,4 @@ categories: ["Locations"]
 
 *The subject of this article has been removed from Turtle WoW and is considered non-canon.*
 
-  -Kamio** is an island located in the South Sea. [Aneka Konko](Aneka Konko) has come to Kalimdor to seek aid against the Naga invading the island.
+**Kamio** is an island located in the South Sea. [Aneka Konko](Aneka Konko) has come to Kalimdor to seek aid against the Naga invading the island.

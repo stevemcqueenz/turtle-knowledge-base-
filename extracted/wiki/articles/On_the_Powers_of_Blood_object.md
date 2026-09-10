@@ -10,7 +10,7 @@ categories: ["Gilneas City objects", "Turtle WoW content"]
 ---
 # 'On the Powers of Blood' (object)
 
--<nowiki>'</nowiki>On the Powers of Blood<nowiki>'</nowiki>** is found in [Greymane Tower](Greymane Tower) in [Gilneas City](Gilneas City), next to the [Regent-Lords of Gilneas](Regent-Lords of Gilneas).
+**<nowiki>'</nowiki>On the Powers of Blood<nowiki>'</nowiki>** is found in [Greymane Tower](Greymane Tower) in [Gilneas City](Gilneas City), next to the [Regent-Lords of Gilneas](Regent-Lords of Gilneas).
 
 ## Objective of
 Contains ['On the Powers of Blood']('On the Powers of Blood') for the quest [quest: The Evil Made Me Do It].

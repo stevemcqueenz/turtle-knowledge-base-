@@ -13,7 +13,7 @@ categories: ["Addon"]
 Bagshui automatically categorizes, sorts, and manages your bags, bank, and keyring. It offers customizable layouts, rules, and various niceties to streamline inventory management.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **Bagshui** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **Bagshui** up to date is by using [GitAddonsManager](Gi
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -55,12 +55,12 @@ If you prefer manual installation, follow these steps:
 - Extensive customization via rules and profiles.
 
 ## Compatibility
-  -Supported:**
+**Supported:**
 
 - Vanilla WoW 1.12
 - Turtle WoW
 
-  -Supported Addons & Integrations:**
+**Supported Addons & Integrations:**
 
 - Blizzard UI, aux, Mail, Postal, CT_MailMod
 - Cooldown counts: OmniCC, pfUI, ShaguTweaks, Turtle Dragonflight
@@ -68,18 +68,18 @@ If you prefer manual installation, follow these steps:
 - Rule functions: Outfit() (ItemRack, Outfitter), Wishlist() (AtlasLoot)
 - Turtle WoW: Guild Bank deposit, Tmog collection (requires Bagshui-Tmog)
 
-  -Localization:**
+**Localization:**
 
 - English (enUS)
 - Chinese (zhCN)
 
 ## Core Concepts
-  -Layout Hierarchy**
+**Layout Hierarchy**
 - **Profiles**: Define appearance and organization.
 - **Structure**: Organizes how items are grouped (via Groups, Categories, Items).
 - **Categories**: Basic item classifications (e.g., Quest Items, Reagents).
 - **Groups**: Collections of categories, customizable per profile.
-  -Customization**
+**Customization**
 - **Profiles**: Save different setups for characters or playstyles.
 - **Rules**: Create dynamic item matching using functions (see below).
 - **Profiles & Structure**: Manage via Inventory window or <code>/bagshui profiles</code>.
@@ -106,26 +106,26 @@ Rules are logical statements to categorize items dynamically. Examples:
 |Items of uncommon or rare quality.
 |}
 
-  -Note:**
+**Note:**
 
 - Use <code>/pattern/</code> for Lua string pattern matching.
 - Use <code>and</code>, <code>or</code>, <code>not</code> for logic.
 - Functions like <code>ActiveQuest()</code>, <code>ProfessionCraft()</code>, <code>MatchCategory()</code>, etc., help refine rules.
 
 ## **Customization**
-  -How Items Are Assigned**
+**How Items Are Assigned**
 
 - **Rules**: Evaluate dynamically based on item properties.
 - **Assignments**: Static list of item IDs/names.
 
-  -Editing Layout**
+**Editing Layout**
 
 - Enter **Edit Mode** (top-left icon or right-click blank area).
 - Rearrange Groups/Categories by drag-and-drop.
 - Add new Groups or Categories via right-click menus.
 - Assign items by Alt+click or right-click context menu.
 
-  -Customization Tips**
+**Customization Tips**
 
 - Create custom Categories to override built-in ones.
 - Set Sequence numbers for evaluation order.
@@ -136,27 +136,27 @@ Rules are logical statements to categorize items dynamically. Examples:
 - **Design**: Visual settings (colors, badges, sizes).
 - **Structure**: How items are organized (Groups, Categories, Items).
 
-  -Switching Layouts**
+**Switching Layouts**
 
 - Use Profiles menu.
 - Create duplicates or reset to default.
 
 ## Advanced Features
-  -Automated Bag Swapping**
+**Automated Bag Swapping**
 
 - Automatically swap bags when replacing full bags (requires sufficient free space).
 
-  -Cross-Account Item Counts**
+**Cross-Account Item Counts**
 
 - Hover with Alt to see counts across characters.
 - Limited by WoW API; out-of-game solutions may be required for full sync.
 
-  -Import/Export**
+**Import/Export**
 
 - Share Profiles, Categories, Sort Orders via <code>/bagshui share</code> or menu.
 - Import data from shared exports.
 
-  -Command Line / Slash Commands**
+**Command Line / Slash Commands**
 
 - <code>/bagshui</code> or <code>/bs</code> for commands.
 - <code>/bagshui info <itemId></code> to get detailed item info.

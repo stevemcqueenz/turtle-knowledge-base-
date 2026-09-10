@@ -10,16 +10,10 @@ categories: ["Inns", "Northwind", "Turtle WoW content", "Undisplayed locations"]
 ---
 # Honey Drop Inn
 
--Honey Drop Inn** is an inn and outdoor terrace located in [Ambershire](Ambershire) in [Northwind](Northwind).
+**Honey Drop Inn** is an inn and outdoor terrace located in [Ambershire](Ambershire) in [Northwind](Northwind).
 
 ## NPCs
-  -Inside**
-- 
-- 
-- 
-
-  -Outdoor terrace**
-- 
-
-## Patch changes
+**Inside**
+- - - ;Outdoor terrace
+- ## Patch changes
 - (Patch 1.18.0|note=Added.)

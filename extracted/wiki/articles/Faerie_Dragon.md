@@ -14,7 +14,7 @@ Small flying lizards. They look much like a chameleon with butterfly wings. Thou
 
 They have long been used by the [Night Elves](Night Elves) in their endeavours.
 
-  -Also known as:**
+**Also known as:**
 - Sprite
 - Blink dragon
 

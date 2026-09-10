@@ -45,12 +45,12 @@ SimpleCombatLog is a mod that replaces the standard combat logs with shorter, co
 |Print out addon info
 |}
 
-  -Alt-Right-click** a chat frame tab to display the configuration menu for that chat frame. The settings in SimpleCombatLog are stored per character, per chat frame.
+**Alt-Right-click** a chat frame tab to display the configuration menu for that chat frame. The settings in SimpleCombatLog are stored per character, per chat frame.
 
 If you customized a chat frame the way you want and you want to import those settings to another character, in this case you can use the theme features in SimpleCombatLog.
 
 ## Preview
-  -Customization**
+**Customization**
 
 Despite the name, SimpleCombatLog is very customizable. SimpleCombatLog currently supports the following customization's:
 
@@ -59,7 +59,7 @@ Despite the name, SimpleCombatLog is very customizable. SimpleCombatLog currentl
 - Format: all the displayed combat logs can be customized.
 - Watch list: watch for specific name / skill in the combat logs, which has higher priority than Filters.
 
-  -Filter**
+**Filter**
 
 There are 3 kinds of filter : **event** (Blizzard event),**type** (message category) and **name** (unitid).
 
@@ -67,7 +67,7 @@ There are 3 kinds of filter : **event** (Blizzard event),**type** (message categ
 # Second, when SimpleCombatLog receives a combat message, SimpleCombatLog checks what kinds of message it is, and checks the TYPE filter, if that type filter is not turned on, the message will be filtered. For example, turning off <code>**heal**</code> filter will filter out all heals and HoTs. <code>**Gain**</code> is something like "*You gain 50 mana from Blessing of Wisdom*" and "*Your pet gains 50 happiness from Feed Pet effect*". <code>**Drain**</code> is "*Someone's Viper Sting drains 50 mana from you.*" and "*Your Mana Tap drains 50 mana from your pet, you gain 50 mana.*" Hit, Heal, Miss, Cast should be obvious.
 # Finally, if the message have name(s), SimpleCombatLog tries to find out it's **unitid**, and only when the **unitid** match any of the NAME filter it'll be displayed. For example, to receive messages related to you and your pet, only turn on <code>you</code> and <code>pet</code> name filter, which in fact means the **unitid** <code>player</code> and <code>pet</code>.
 
-  -Themes**
+**Themes**
 
 A theme is the combination of all the settings for a ChatFrame. By default SimpleCombatLog loads the <code>**default**</code> theme for <code>**ChatFrame2**</code>. You can set a ChatFrame to load another theme by the configuration menu.
 

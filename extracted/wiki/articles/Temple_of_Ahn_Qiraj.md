@@ -11,11 +11,11 @@ categories: ["Instance", "Raids", "Stubs", "Zone:Silithus"]
 # Temple of Ahn'Qiraj
 
 # General
-  -*Level:** 60+
-  -*# of Players:** 40
-  -*Location:** Southern [Silithus](Silithus), [Kalimdor](Kalimdor)
-  -*Released:** Patch 1.9
-  -*Abbreviation:** AQ40 or TAQ
+- **Level:** 60+
+- **# of Players:** 40
+- **Location:** Southern [Silithus](Silithus), [Kalimdor](Kalimdor)
+- **Released:** Patch 1.9
+- **Abbreviation:** AQ40 or TAQ
 
 ## Notes
 Players will access it via the [Gates of Ahn'Qiraj](Gates of Ahn'Qiraj), the area before the instances with portals to both Ruins of Ahn'qiraj and Temple of Ahn'qiraj.
@@ -43,16 +43,16 @@ The [Gates of Ahn'Qiraj](Gates of Ahn'Qiraj) event is currently on to gain acces
 - [Vekniss Gaurdian](Vekniss Gaurdian)
 
 # Boss Strategy
--[The Prophet Skeram](The Prophet Skeram)
--[Princess Yauj](Princess Yauj), [Vem](Vem) and [Kri](Kri)
-  -These are 3 insects inside the tunnels of [Ahn'Qiraj](Ahn'Qiraj). They are pulled together, and will [leash](leash) back if pulled outside.
--[Battleguard Sartura](Battleguard Sartura)
--[Fankriss the Unyielding](Fankriss the Unyielding)
--[Princess Huhuran](Princess Huhuran)
--[Viscidus](Viscidus)
--Twin Emperors: [Vek'lor](Vek'lor) and [Vek'nilash](Vek'nilash)
--[Ouro the Sandworm](Ouro the Sandworm)
--[C'Thun](C'Thun)
+- [The Prophet Skeram](The Prophet Skeram)
+- [Princess Yauj](Princess Yauj), [Vem](Vem) and [Kri](Kri)
+  - These are 3 insects inside the tunnels of [Ahn'Qiraj](Ahn'Qiraj). They are pulled together, and will [leash](leash) back if pulled outside.
+- [Battleguard Sartura](Battleguard Sartura)
+- [Fankriss the Unyielding](Fankriss the Unyielding)
+- [Princess Huhuran](Princess Huhuran)
+- [Viscidus](Viscidus)
+- Twin Emperors: [Vek'lor](Vek'lor) and [Vek'nilash](Vek'nilash)
+- [Ouro the Sandworm](Ouro the Sandworm)
+- [C'Thun](C'Thun)
 
 # Loot
 The loot in AQ40 comes from:

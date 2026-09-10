@@ -25,4 +25,4 @@ categories: ["Dwarf characters", "Faction quartermasters", "Hinterlands NPCs"]
 | location | Wildhammer Keep, Hinterlands |
 | status | Alive |
 
--Alyssa Stormbolt** is the quartermaster for the [Wildhammer Clan](Wildhammer Clan) and is located inside [Wildhammer Keep](Wildhammer Keep) in [Aerie Peak](Aerie Peak) in the [Hinterlands](Hinterlands).
+**Alyssa Stormbolt** is the quartermaster for the [Wildhammer Clan](Wildhammer Clan) and is located inside [Wildhammer Keep](Wildhammer Keep) in [Aerie Peak](Aerie Peak) in the [Hinterlands](Hinterlands).

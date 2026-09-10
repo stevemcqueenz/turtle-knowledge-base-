@@ -10,4 +10,4 @@ categories: ["Alterac Mountains subzones", "Caves", "Pages with broken file link
 ---
 # Growless Cave
 
--Growless Cave** is a cave in the [Alterac Mountains](Alterac Mountains) home to [yeti](yeti).  Inside is the Flame of Uzel, a ceremonial pyre created by the Forsaken, [Helcular](Helcular).  The powerful yeti [Frostmaw](Frostmaw) will approach the cave if meat is burned upon the Flame of Uzel.
+**Growless Cave** is a cave in the [Alterac Mountains](Alterac Mountains) home to [yeti](yeti).  Inside is the Flame of Uzel, a ceremonial pyre created by the Forsaken, [Helcular](Helcular).  The powerful yeti [Frostmaw](Frostmaw) will approach the cave if meat is burned upon the Flame of Uzel.

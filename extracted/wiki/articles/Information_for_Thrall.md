@@ -43,7 +43,7 @@ Do not forget that <name>.
 You've done well, and now we can act without worry.
 
 ## Notes
-  -Talking to Mally O'Flor**
+**Talking to Mally O'Flor**
 Watch yourself buddy.
 
 What do you want?

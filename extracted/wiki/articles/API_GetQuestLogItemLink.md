@@ -15,13 +15,13 @@ The function returns the [itemLink](itemLink) of the selected quest reward for t
 [itemLink](itemLink) = GetQuestLogItemLink("type", index) 
 
 ## Arguments
-  - type**
+** type**
    String - "required", "reward" or "choice"
-  - index**
+** index**
    Table - Integer - Quest reward item index (starts with 1).
 
 ## Returns
-  - [itemLink](itemLink)**
+** [itemLink](itemLink)**
    String - The link to the quest item specified
    or nil, if the type and/or index is invalid or there is no active quest at the moment.
 

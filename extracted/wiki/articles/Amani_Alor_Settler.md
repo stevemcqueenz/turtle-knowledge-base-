@@ -23,7 +23,7 @@ categories: ["Amani'Alor NPCs", "Forest troll characters", "Revantusk tribe", "S
 | gender | Both |
 | location | Amani'Alor, Stonetalon Mountains |
 
--Amani'Alor Settlers** are [forest troll](forest troll)s located in [Amani'Alor](Amani'Alor) in [Stonetalon Mountains](Stonetalon Mountains).
+**Amani'Alor Settlers** are [forest troll](forest troll)s located in [Amani'Alor](Amani'Alor) in [Stonetalon Mountains](Stonetalon Mountains).
 
 ## Patch changes
 - (Patch 1.15.0|note=Added.)

@@ -10,11 +10,7 @@ categories: ["Farms", "Human territories", "Westfall subzones"]
 ---
 # Dead Acre
 
--The Dead Acre**, formerly known as the **Easton Fields**, (ref: [quest: The Old Church of Westfall IX]) was once one of many [farm](farm)s in southeast [Westfall](Westfall), close to the bridge leading into [Duskwood](Duskwood). However, when the [Defias Brotherhood](Defias Brotherhood) took control of Westfall, [Carver Molsen](Carver Molsen) and the Defias burned the farm and field that had once stood there, and murdered the Easton family. Now, only the smoking ruins remain with mechanical [Harvest Watcher](Harvest Watcher)s roaming the smoldering fields.
+**The Dead Acre**, formerly known as the **Easton Fields**, (ref: [quest: The Old Church of Westfall IX]) was once one of many [farm](farm)s in southeast [Westfall](Westfall), close to the bridge leading into [Duskwood](Duskwood). However, when the [Defias Brotherhood](Defias Brotherhood) took control of Westfall, [Carver Molsen](Carver Molsen) and the Defias burned the farm and field that had once stood there, and murdered the Easton family. Now, only the smoking ruins remain with mechanical [Harvest Watcher](Harvest Watcher)s roaming the smoldering fields.
 
 ## NPCs
-- 
-- 
-- 
-
-## References
+- - - ## References

@@ -23,7 +23,7 @@ categories: ["Dungeons", "Prisons", "Stormwind City", "Stormwind Vault"]
 | players | 5 |
 | bosses |  |
 
--Stormwind Vault** is an instance dungeon located in [Stormwind City](Stormwind City). The Vault's runes of warding are weakening as the horrors within threaten Azeroth once again, you must venture down and stop these fiends once and for all.
+**Stormwind Vault** is an instance dungeon located in [Stormwind City](Stormwind City). The Vault's runes of warding are weakening as the horrors within threaten Azeroth once again, you must venture down and stop these fiends once and for all.
 
 ## Geography
 <gallery>
@@ -37,14 +37,14 @@ WorldMap-StormwindVault.jpg
 |}
 
 ## Dungeon denizens
--  [Banshee](Banshee) (one, [Black Bride](Black Bride))
--  [Elemental](Elemental)s
--  [Grell](Grell)
--  [Human](Human)s
--  [Ogre mage](Ogre mage) (one, [Tham'Grarr](Tham'Grarr))
--  [Ooze](Ooze)s
--  [Orc](Orc) (one, [Volkan Cruelblade](Volkan Cruelblade))
--  [Spider](Spider)s
+- [Banshee](Banshee) (one, [Black Bride](Black Bride))
+- [Elemental](Elemental)s
+- [Grell](Grell)
+- [Human](Human)s
+- [Ogre mage](Ogre mage) (one, [Tham'Grarr](Tham'Grarr))
+- [Ooze](Ooze)s
+- [Orc](Orc) (one, [Volkan Cruelblade](Volkan Cruelblade))
+- [Spider](Spider)s
 
 ## Quest guide
 {| class="fandom-table"
@@ -85,4 +85,4 @@ WorldMap-StormwindVault.jpg
 |}
 
 ## Patch changes
--  **[Patch 1.16.0](Patch 1.16.0) (2021-12-27):** Added.
+- **[Patch 1.16.0](Patch 1.16.0) (2021-12-27):** Added.

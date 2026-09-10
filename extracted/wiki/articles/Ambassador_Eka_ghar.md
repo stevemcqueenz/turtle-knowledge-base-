@@ -26,10 +26,10 @@ categories: ["Draenei characters", "Moonwhisper Coast mobs", "Turtle WoW content
 | status | Killable |
 | relatives | Bharash (brother) |
 
--Ambassador Eka'ghar** is a [draenei](draenei) located in [Foulheart Sanctum](Foulheart Sanctum) in [Moonwhisper Coast](Moonwhisper Coast). He joined [Elder Bhu'robi](Elder Bhu'robi) in his delusion, and served as an envoy to the Foulheart satyr.
+**Ambassador Eka'ghar** is a [draenei](draenei) located in [Foulheart Sanctum](Foulheart Sanctum) in [Moonwhisper Coast](Moonwhisper Coast). He joined [Elder Bhu'robi](Elder Bhu'robi) in his delusion, and served as an envoy to the Foulheart satyr.
 
 ## Quotes
-  -Aggro**
+**Aggro**
   The Ascended will not allow trifling intrusions!
 
 ## Objective of

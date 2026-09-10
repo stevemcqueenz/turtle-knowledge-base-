@@ -36,7 +36,7 @@ Return whether the "unit" is controlled by a player or an NPC.
  end
 </syntaxhighlight>
 ## Info
-  -DEFAULT_CHAT_FRAME:AddMessage("text",r,g,b)**
+**DEFAULT_CHAT_FRAME:AddMessage("text",r,g,b)**
 
   ; [ScrollingMessageFrame:AddMessage("text",r,g,b,id)](API ScrollingMessageFrame AddMessage)
    Valid Frame names: DEFAULT_CHAT_FRAME ChatFrame1 - ChatFrame7

@@ -10,4 +10,4 @@ categories: ["Alchemy crafting reagent items", "Enchanting crafting reagent item
 ---
 # Icecap
 
--Icecap** is an [Herb](Herb) found in [Winterspring](Winterspring). It can be gathered with [Herbalism](Herbalism) (290).
+**Icecap** is an [Herb](Herb) found in [Winterspring](Winterspring). It can be gathered with [Herbalism](Herbalism) (290).

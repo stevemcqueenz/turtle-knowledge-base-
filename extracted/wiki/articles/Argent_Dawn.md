@@ -90,9 +90,9 @@ Once you have completed the entire Egg-Freezing quest line (which starts with [T
 
 ## Patch changes
 - (Patch 1.18.0|note=New reputation rewards can be bough from [Torlath Ironhard](Torlath Ironhard).)
--  **Patch 1.7.0 (2005-09-13):** Argent Dawn vendors now show you their entire inventory regardless of current reputation, allowing players to peruse their full range of wares. The items in question now require the appropriate reputation level to make use of them.
--  **Patch 1.6.0 (2005-07-12):** Additional Smithing/Leatherworking/Tailoring/Enchanting Recipes added to Argent Dawn at Honored and Revered Reputation. Also new First Aid recipe added to Argent Dawn at Honored.
--  **Patch 1.4.0 (2005-04-19):** The range of restock time for Argent Dawn vendors has been widened.
--  **Patch 1.3.0 (2005-03-07):** The Argent Dawn is offering new rewards to heroes who are Revered and Exalted to the Dawn. Speak to a quartermaster of the Argent Dawn for more information!
+- **Patch 1.7.0 (2005-09-13):** Argent Dawn vendors now show you their entire inventory regardless of current reputation, allowing players to peruse their full range of wares. The items in question now require the appropriate reputation level to make use of them.
+- **Patch 1.6.0 (2005-07-12):** Additional Smithing/Leatherworking/Tailoring/Enchanting Recipes added to Argent Dawn at Honored and Revered Reputation. Also new First Aid recipe added to Argent Dawn at Honored.
+- **Patch 1.4.0 (2005-04-19):** The range of restock time for Argent Dawn vendors has been widened.
+- **Patch 1.3.0 (2005-03-07):** The Argent Dawn is offering new rewards to heroes who are Revered and Exalted to the Dawn. Speak to a quartermaster of the Argent Dawn for more information!
 
 ## References

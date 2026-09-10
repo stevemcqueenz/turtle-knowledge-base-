@@ -10,4 +10,4 @@ categories: ["Pages with broken file links", "Sea giants", "Shores", "Tanaris su
 ---
 # Southbreak Shore
 
--Southbreak Shore** in [Tanaris](Tanaris) is an expanse of flat beach to the south of [Lost Rigger Cove](Lost Rigger Cove).  It is quiet and almost deserted apart from the [Snapjaw](Snapjaw) turtles crawling in the surf.
+**Southbreak Shore** in [Tanaris](Tanaris) is an expanse of flat beach to the south of [Lost Rigger Cove](Lost Rigger Cove).  It is quiet and almost deserted apart from the [Snapjaw](Snapjaw) turtles crawling in the surf.

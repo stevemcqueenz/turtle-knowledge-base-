@@ -10,4 +10,4 @@ categories: ["Geography", "Zones"]
 ---
 # Category:Subzones
 
--Subzones** (a.k.a. **sub-zones** or **sub-areas**) are smaller areas within a [zone](zone).
+**Subzones** (a.k.a. **sub-zones** or **sub-areas**) are smaller areas within a [zone](zone).

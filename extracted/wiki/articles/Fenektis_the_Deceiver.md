@@ -25,16 +25,16 @@ categories: ["Bosses", "Crescent Grove mobs", "Satyr characters", "Turtle WoW co
 | status | Killable |
 | instance | Crescent Grove |
 
--Fenektis the Deceiver** is a boss in [the Crescent Grove](Crescent Grove).
+**Fenektis the Deceiver** is a boss in [the Crescent Grove](Crescent Grove).
 
 ## Abilities
 - Blade Flurry
 
 ## Quotes
-  -Aggro**
+**Aggro**
   We will serve at the Master's will!
 
-  -Death**
+**Death**
   You think... This... Is the end?
 
 ## Loot

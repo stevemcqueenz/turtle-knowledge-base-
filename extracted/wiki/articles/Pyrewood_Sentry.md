@@ -25,7 +25,7 @@ categories: ["Human characters", "Silverpine Forest mobs", "Warrior characters",
 | class | Warrior |
 | location | Pyrewood Village, Silverpine Forest |
 
--Pyrewood Sentries** are [warrior](warrior)s located in [Pyrewood Village](Pyrewood Village) in [Silverpine Forest](Silverpine Forest) during the day, appearing as [human](human)s. At night, they transform into their [worgen](worgen) form as **[Moonrage Sentries](Moonrage Sentry)**.
+**Pyrewood Sentries** are [warrior](warrior)s located in [Pyrewood Village](Pyrewood Village) in [Silverpine Forest](Silverpine Forest) during the day, appearing as [human](human)s. At night, they transform into their [worgen](worgen) form as **[Moonrage Sentries](Moonrage Sentry)**.
 
 ## Abilities
 - **Battle Roar** — Increases the Physical damage dealt by nearby party members for 1 min.

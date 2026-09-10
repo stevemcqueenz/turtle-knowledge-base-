@@ -29,34 +29,13 @@ categories: ["Arathi Highlands subzones", "Forest troll territories", "Pages wit
 | flightpath | No |
 | status | Active |
 
--Wildtusk Village** is a forest troll settlement located in [Arathi Highlands](Arathi Highlands). It is home to the survivors of the razed [Zul'Rasaz tribe](Zul'Rasaz tribe). The hamlet links to the Hinterlands via the winding Rasaz Trails. (ref: [New Zones & World Edits](https://web.archive.org/web/20260514170802/https://turtlecraft.gg/new-locations-and-maps). Archived from [the original](https://turtlecraft.gg/new-locations-and-maps) on 2026-05-14. Retrieved on 2026-29-08.)
+**Wildtusk Village** is a forest troll settlement located in [Arathi Highlands](Arathi Highlands). It is home to the survivors of the razed [Zul'Rasaz tribe](Zul'Rasaz tribe). The hamlet links to the Hinterlands via the winding Rasaz Trails. (ref: [New Zones & World Edits](https://web.archive.org/web/20260514170802/https://turtlecraft.gg/new-locations-and-maps). Archived from [the original](https://turtlecraft.gg/new-locations-and-maps) on 2026-05-14. Retrieved on 2026-29-08.)
 
 ## Inhabitants
 ### Quest givers
-- 
-- 
-- 
-- 
-- 
-
-### Goods and services
-- 
-- 
-- 
-- 
-- 
-
-### Additional characters
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - - ### Goods and services
+- - - - - ### Additional characters
+- - - - - - - - ## Patch changes
 - (Patch 1.16.0|note=Added.)
 
 ## References

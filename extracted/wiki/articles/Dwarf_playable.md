@@ -18,12 +18,12 @@ Dwarves start out in their snowy homeland, specifically in [Dun Morogh](Dun Moro
 
 ## Background
 ### Creation screen description
--In ages past the dwarves cared only for riches taken from the earth's depths. Then records surfaced of a god-like race said to have given the dwarves life... and an enchanted birthright. Driven to learn more, the dwarves devoted themselves to the pursuit of lost artifacts and ancient knowledge. Today dwarven archaeologists are scattered throughout the globe.*
+*In ages past the dwarves cared only for riches taken from the earth's depths. Then records surfaced of a god-like race said to have given the dwarves life... and an enchanted birthright. Driven to learn more, the dwarves devoted themselves to the pursuit of lost artifacts and ancient knowledge. Today dwarven archaeologists are scattered throughout the globe.*
 
 ### Opening cutscene
--The stoic dwarves of Ironforge spent countless generations mining treasures from deep within the earth. Hidden within their impregnable stronghold of Ironforge Mountain, they rarely ventured beyond the wintry peaks of Dun Morogh. Recently however, the dwarves unearthed a series of ruins that held secrets to their ancient heritage. Driven to discover the truth about his people’s fabled origins, the great King Magni Bronzebeard ordered that the dwarves shift their industry from mining to archaeology.*
+*The stoic dwarves of Ironforge spent countless generations mining treasures from deep within the earth. Hidden within their impregnable stronghold of Ironforge Mountain, they rarely ventured beyond the wintry peaks of Dun Morogh. Recently however, the dwarves unearthed a series of ruins that held secrets to their ancient heritage. Driven to discover the truth about his people’s fabled origins, the great King Magni Bronzebeard ordered that the dwarves shift their industry from mining to archaeology.*
 
--As part of the Grand Alliance, the stalwart dwarven armies have been called away to battle the merciless Horde in faraway lands. In these perilous times, the defense of the mountain kingdom falls to brave dwarves like you. The spirits of the ancient kings watch over you, and the very mountains are your strength. The future of your people is in your hands.*
+*As part of the Grand Alliance, the stalwart dwarven armies have been called away to battle the merciless Horde in faraway lands. In these perilous times, the defense of the mountain kingdom falls to brave dwarves like you. The spirits of the ancient kings watch over you, and the very mountains are your strength. The future of your people is in your hands.*
 
 ## Character
 ### Classes
@@ -58,7 +58,7 @@ Dwarves start out in their snowy homeland, specifically in [Dun Morogh](Dun Moro
 ## Videos
 ## Patch changes
 - (Patch 1.18.1|note=Dwarves now have access to the warlock class.)
--  **[Patch 1.17.2](Patch 1.17.2) (2024-11-01):**
+- **[Patch 1.17.2](Patch 1.17.2) (2024-11-01):**
   - Weapon skill racials have been reduced from +5 to +3.
   - Stoneform now reduces physical damage taken by 5% instead of increasing armor by 10%.
 - (Patch 1.16.0|note=Dwarves now have access to the mage class.)

@@ -25,6 +25,6 @@ categories: ["Ammo vendors", "Arathi Highlands NPCs", "General goods vendors", "
 | location | Refuge Pointe, Arathi Highlands |
 | status | Alive |
 
--Vikki Lonsav** is a [human](human) general goods vendor located in [Refuge Pointe](Refuge Pointe) in the [Arathi Highlands](Arathi Highlands). 
+**Vikki Lonsav** is a [human](human) general goods vendor located in [Refuge Pointe](Refuge Pointe) in the [Arathi Highlands](Arathi Highlands). 
 
 ## External links

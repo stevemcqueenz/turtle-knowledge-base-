@@ -25,7 +25,7 @@ categories: ["Moonwhisper Coast NPCs", "Tauren characters", "Tradeskill vendors"
 | location | Moonhoof Village, Moonwhisper Coast |
 | status | Alive |
 
--Trader Brightgrass** is a [tauren](tauren) trade goods vendor located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Trader Brightgrass** is a [tauren](tauren) trade goods vendor located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

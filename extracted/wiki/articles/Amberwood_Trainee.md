@@ -23,7 +23,7 @@ categories: ["Human characters", "Northwind NPCs", "Turtle WoW content"]
 | gender | Male |
 | location | Amberwood Keep, Northwind |
 
--Amberwood Trainees** are humans located in [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind).
+**Amberwood Trainees** are humans located in [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

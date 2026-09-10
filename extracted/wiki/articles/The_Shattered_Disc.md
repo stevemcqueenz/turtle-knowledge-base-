@@ -50,8 +50,8 @@ By the Makers, he was right. Oh, Odum, you lunatic! Betting your life on it was 
 For you, I have a just reward, for both your heroism and contribution to archeology. May you fare well on your journeys, traveler.
 
 ## Progression
-1.[quest: Searching for Archaeologist Evenpike]
-1.[quest: The Shattered Disc]
+1. [quest: Searching for Archaeologist Evenpike]
+1. [quest: The Shattered Disc]
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

@@ -13,9 +13,5 @@ categories: ["Balor subzones", "Farms", "Turtle WoW content"]
 The **Vander Farmstead** is an abandoned farm just below the cliffs of the [Grahan Estate](Grahan Estate) in [Balor](Balor).
 
 ## NPCs
-- 
-- 
-- 
-
-## Patch changes
+- - - ## Patch changes
 - (Patch 1.18.0|note=Added.)

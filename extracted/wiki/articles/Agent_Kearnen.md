@@ -26,7 +26,7 @@ categories: ["Human characters", "Quest givers", "Rogue characters", "SI:7", "We
 | status | Alive |
 | location | Westfall |
 
--Agent Amber Kearnen** is a member of [SI:7](SI:7) and a quest giver in [Westfall](Westfall) spying on [an abandoned Alliance watch tower](Klaven's Tower) in the southeastern part of the [Dust Plains](Dust Plains) that has been taken over by the [Defias Brotherhood](Defias Brotherhood). She is involved in helping rogues sent by [Mathias Shaw](Mathias Shaw) infiltrate the tower and retrieve the journal of [Klaven Mortwake](Klaven Mortwake). According to her [journal](Kearnen's Journal) her rank is Ground Level Operative, R8 (R8 most likely standing for Rank 8).
+**Agent Amber Kearnen** is a member of [SI:7](SI:7) and a quest giver in [Westfall](Westfall) spying on [an abandoned Alliance watch tower](Klaven's Tower) in the southeastern part of the [Dust Plains](Dust Plains) that has been taken over by the [Defias Brotherhood](Defias Brotherhood). She is involved in helping rogues sent by [Mathias Shaw](Mathias Shaw) infiltrate the tower and retrieve the journal of [Klaven Mortwake](Klaven Mortwake). According to her [journal](Kearnen's Journal) her rank is Ground Level Operative, R8 (R8 most likely standing for Rank 8).
 
 ## Quests
 - [quest: class=rogue] 

@@ -13,7 +13,7 @@ categories: ["Addon"]
 LoseControl helps you track and display crowd control (CC) effects on your character. It visually shows the duration of CC spells and can announce when you're sapped or CC'ed, making it easier to react during PvP or challenging encounters.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **LoseControl** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **LoseControl** up to date is by using [GitAddonsManager
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 

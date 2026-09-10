@@ -10,7 +10,7 @@ categories: ["Tower of Karazhan subzones"]
 ---
 # Rock of Desolation
 
--The Rock of Desolation** is a piece of the shattered world of [Draenor](Draenor), connected to the [Tower of Karazhan](Tower of Karazhan) through the [Netherspace](Netherspace). From here, the [nathrezim](nathrezim) [Mephistroth](Mephistroth) sought to turn Karazhan into a point of entry to Azeroth to begin an invasion anew. Corrupted members of the [draenei](draenei) [Tribe of Sanv](Tribe of Sanv), under [Sanv Tas'dal](Sanv Tas'dal), established the [Sanv Tribe Village](Sanv Tribe Village) upon the rock.
+**The Rock of Desolation** is a piece of the shattered world of [Draenor](Draenor), connected to the [Tower of Karazhan](Tower of Karazhan) through the [Netherspace](Netherspace). From here, the [nathrezim](nathrezim) [Mephistroth](Mephistroth) sought to turn Karazhan into a point of entry to Azeroth to begin an invasion anew. Corrupted members of the [draenei](draenei) [Tribe of Sanv](Tribe of Sanv), under [Sanv Tas'dal](Sanv Tas'dal), established the [Sanv Tribe Village](Sanv Tribe Village) upon the rock.
 
 ## Gallery
 <gallery>

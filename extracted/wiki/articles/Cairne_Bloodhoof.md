@@ -28,7 +28,7 @@ categories: ["City bosses", "Quest givers", "Stubs", "Tauren characters", "Thund
 | status | Alive |
 | relatives | Tamaala (lifemate),, Baine (son) |
 
--Cairne Bloodhoof** is the High Chieftain of the united tribes of the tauren, chieftain of the Bloodhoof and leader of Thunder Bluff. Allying with the Horde upon its arrival on the shores of Kalimdor, Cairne stands as one of its wisest and most venerated leaders.
+**Cairne Bloodhoof** is the High Chieftain of the united tribes of the tauren, chieftain of the Bloodhoof and leader of Thunder Bluff. Allying with the Horde upon its arrival on the shores of Kalimdor, Cairne stands as one of its wisest and most venerated leaders.
 
 ## Quests
 - [quest: A Hunt for Honor] 
@@ -49,17 +49,17 @@ Greetings young one, and welcome to Thunder Bluff. You'll find safe refuge from 
 The spirits of the present and past come alive here in this sacred place, my friend. Honor them, and in doing so honor yourself.
 
 ### Greetings
--We Tauren have always held a great respect for the ways of the Earthmother.
--I am Cairne, chief of the Bloodhoof Tauren.
--Take heart young one, the Earthmother is near.
--Ish-ne-alo por-ah, may the Earthmother smile upon you.
+- We Tauren have always held a great respect for the ways of the Earthmother.
+- I am Cairne, chief of the Bloodhoof Tauren.
+- Take heart young one, the Earthmother is near.
+- Ish-ne-alo por-ah, may the Earthmother smile upon you.
 
 ### Combat
-  -Aggro**
--Ishne'alo'porah!
--For honor!
+**Aggro**
+- Ishne'alo'porah!
+- For honor!
 
-  -Raid wipe**
--The attackers have fled! Strength and honor to the Horde!
+**Raid wipe**
+- The attackers have fled! Strength and honor to the Horde!
 
 ## References

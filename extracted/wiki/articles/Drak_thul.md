@@ -26,7 +26,7 @@ categories: ["Balor NPCs", "Orc characters", "Quest givers", "Stormreaver clan",
 | location | Balor |
 | status | Alive |
 
--Drak'thul** is an [orc](orc) [quest giver](quest giver) found in his hut on the back of a dead sea turtle off the shores of [Balor](Balor). He was once a warlock of [Gul'dan](Gul'dan)'s [Stormreaver clan](Stormreaver clan), but went into exile after the clan was eradicated at the end of the [Second War](Second War). Years later, he was encountered by [Maiev Shadowsong](Maiev Shadowsong) during her pursuit of [Illidan Stormrage](Illidan Stormrage).
+**Drak'thul** is an [orc](orc) [quest giver](quest giver) found in his hut on the back of a dead sea turtle off the shores of [Balor](Balor). He was once a warlock of [Gul'dan](Gul'dan)'s [Stormreaver clan](Stormreaver clan), but went into exile after the clan was eradicated at the end of the [Second War](Second War). Years later, he was encountered by [Maiev Shadowsong](Maiev Shadowsong) during her pursuit of [Illidan Stormrage](Illidan Stormrage).
 
 ## Background
 ### Second War
@@ -52,15 +52,15 @@ I fled the darkness before. Out of shame. Out of guilt. Out of disgust. My old s
 Speak, stranger. Will you assist me in becoming the last of the Stormreaver?
 
 ### On-click
-  -Greeting**
+**Greeting**
 - I am Drak'thul, last of the Stormreaver.
 - I will not run away again.
 - Once I obeyed the darkness. Now it heeds my call instead.
 
-  -Farewell**
+**Farewell**
 - Let chaos reign upon them!
 
-  -Pissed**
+**Pissed**
 - You are alone here. Remember that.
 - I will not shy away from demonstrating my dark arts to you!
 - A repressible fool like you will not be missed.

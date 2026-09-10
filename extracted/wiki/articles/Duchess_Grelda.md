@@ -25,7 +25,7 @@ categories: ["Aristocrats", "Forsaken characters", "Quest givers", "Silverpine F
 | status | Alive |
 | relatives | Faliona (sister), Nargelas (husband) |
 
--Duchess Grelda Darlthos** is a [Forsaken](Forsaken) quest giver located in her manor on the border to the [Tirisfal Uplands](Tirisfal Uplands) in the [Silverpine Forest](Silverpine Forest).
+**Duchess Grelda Darlthos** is a [Forsaken](Forsaken) quest giver located in her manor on the border to the [Tirisfal Uplands](Tirisfal Uplands) in the [Silverpine Forest](Silverpine Forest).
 
 ## Quests
 - [quest: Rightful Heir] 
@@ -34,8 +34,8 @@ categories: ["Aristocrats", "Forsaken characters", "Quest givers", "Silverpine F
 - [quest: Darlthos Legacy] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Go on, I'm listening.
 
 ## Patch changes
--  **[Patch 1.16.0](Patch 1.16.0) (2021-12-27):** Added.
+- **[Patch 1.16.0](Patch 1.16.0) (2021-12-27):** Added.

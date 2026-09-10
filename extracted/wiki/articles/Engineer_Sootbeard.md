@@ -24,7 +24,7 @@ categories: ["Dwarf characters", "Engineers", "Grim Reaches NPCs", "Turtle WoW c
 | location | Dun Kithas, Grim Reaches |
 | status | Alive |
 
--Engineer Sootbeard** is a [dwarf](dwarf) located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
+**Engineer Sootbeard** is a [dwarf](dwarf) located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

@@ -25,10 +25,10 @@ categories: ["Bakers", "Bread vendors", "Human characters", "Northwind NPCs", "S
 | location | Ambershire, Northwind |
 | status | Alive |
 
--Ulrich Buckert** is a [human](human) bread vendor located in [Ambershire](Ambershire), in [Northwind](Northwind).
+**Ulrich Buckert** is a [human](human) bread vendor located in [Ambershire](Ambershire), in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Only the finest flour is used to make these marvelous treats!
 
 ## Patch changes

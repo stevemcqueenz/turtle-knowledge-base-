@@ -19,10 +19,10 @@ A fully functional Texas Holdem Poker mod. Play poker with your friends while wa
 ## Starting a Game
 - **As Dealer:** Type <code>/holdem</code>
 - **Join a Game (as Player):** Type <code>/holdem PlayerName</code> (replace <code>PlayerName</code> with the dealer's character name)
-  -Dealer Controls**
+**Dealer Controls**
 - To start dealing, right-click your player box or type <code>/holdem</code> as dealer.
 - To stop dealing, click the "Quit" button or run <code>/holdem</code> again as dealer.
-  -Joining or Watching a Table**
+**Joining or Watching a Table**
 - Type <code>/holdem PlayerName</code> to join or spectate.
 
 ## Playing the Game
@@ -33,10 +33,10 @@ A fully functional Texas Holdem Poker mod. Play poker with your friends while wa
   - **Raise:** Increase the bet by the set amount.
   - **All In:** Bet all your chips.
   - **Adjust Raise:** Use "+" or "-" buttons to change raise size.
-  -Sit Out / Back In**
+**Sit Out / Back In**
 - Click "Sit Out" to leave the hand temporarily.
 - Click "I'm Back" to rejoin.
-  -Ending a Game**
+**Ending a Game**
 - As dealer, click "Quit" or type <code>/holdem</code> to stop the game.
 
 ## Commands
@@ -102,12 +102,12 @@ A fully functional Texas Holdem Poker mod. Play poker with your friends while wa
 ## Version
 Version Updates Summary
 
-  -v1.21**
+**v1.21**
 - Minimize support via minimap button
 - Flash notification when it's your turn
 - Fixed crash bug related to showing cards after losing chips
 - Resizable window: 50%, 75%, 100%
-  -v1.20**
+**v1.20**
 - Blink indicator for waiting players
 - Dealer button moves around
 - Sit out feature

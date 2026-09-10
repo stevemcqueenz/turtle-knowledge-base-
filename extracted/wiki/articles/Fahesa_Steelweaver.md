@@ -26,10 +26,10 @@ categories: ["Battlemasters", "Orgrimmar NPCs", "Tauren characters", "Turtle WoW
 | location | Hall of the Brave, Valley of Honor, Orgrimmar |
 | status | Alive |
 
--Fahesa Steelweaver** is a [tauren](tauren) [Thorn Gorge](Thorn Gorge) battlemaster located in the [Hall of the Brave](Hall of the Brave) in the [Valley of Honor](Valley of Honor) in [Orgrimmar](Orgrimmar).
+**Fahesa Steelweaver** is a [tauren](tauren) [Thorn Gorge](Thorn Gorge) battlemaster located in the [Hall of the Brave](Hall of the Brave) in the [Valley of Honor](Valley of Honor) in [Orgrimmar](Orgrimmar).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Vile Alliance dwarves have infiltrated our sacred grounds in the Thorn Gorge! Enlist yourself to rid these pests out of the lands of the Earthmother!
 
   

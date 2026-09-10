@@ -10,4 +10,4 @@ categories: ["Black dragonflight", "Caves", "Dragon territories", "Dustwallow Ma
 ---
 # Emberstrife's Den
 
--Emberstrife's Den** is a sizable cave in the [Wyrmbog](Wyrmbog) region of southern [Dustwallow Marsh](Dustwallow Marsh). It is the home of the Black [drake](drake) [Emberstrife](Emberstrife), who puts young black dragonlings through vigorous tests in order to become esteemed enough to enter [Onyxia's Lair](Onyxia's Lair).
+**Emberstrife's Den** is a sizable cave in the [Wyrmbog](Wyrmbog) region of southern [Dustwallow Marsh](Dustwallow Marsh). It is the home of the Black [drake](drake) [Emberstrife](Emberstrife), who puts young black dragonlings through vigorous tests in order to become esteemed enough to enter [Onyxia's Lair](Onyxia's Lair).

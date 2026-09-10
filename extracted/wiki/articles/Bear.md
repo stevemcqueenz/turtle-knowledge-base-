@@ -31,7 +31,7 @@ A very common, bulky, furry, four-legged [Beast](beast) that lopes along on all 
 - Ursius and the Young Forest Bear are two of the only known hunter pets with a swing speed higher than 2.0.  This means they hit less often, but for more damage.
 
 ## Notable Bears
--[Ol' Sooty](Ol' Sooty)
--[Ursius](Ursius)
--[Misha](Misha)
--[Ferra](Ferra)
+- [Ol' Sooty](Ol' Sooty)
+- [Ursius](Ursius)
+- [Misha](Misha)
+- [Ferra](Ferra)

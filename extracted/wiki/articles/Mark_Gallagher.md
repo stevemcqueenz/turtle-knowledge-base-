@@ -25,10 +25,10 @@ categories: ["Human characters", "Northwind NPCs", "Stormwind (kingdom)", "Turtl
 | status | Alive |
 | relatives | Sebastian (father),, Lucia and Wisteria (sisters) |
 
--Mark Gallagher** is a [human](human) located in [Ambershire](Ambershire) in [Northwind](Northwind).
+**Mark Gallagher** is a [human](human) located in [Ambershire](Ambershire) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 <Snores loudly.>
 
 ## Patch changes

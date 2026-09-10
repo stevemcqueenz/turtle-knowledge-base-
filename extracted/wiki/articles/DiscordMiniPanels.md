@@ -13,19 +13,19 @@ categories: ["Addon"]
 These mods replace the default spellbook and bag frames with scalable, movable, scrolling frames that display more detailed info. Both can be resized smaller, and the inventory includes extra tabs for item types, qualities, soulbound items, stacks, and up to 5 custom user-defined tabs. Bags can be named individually. Items are sortable by name, bag, quality, level, and type. There's also a compact mode similar to AllInOneInventory. Items can be dropped anywhere in the window and will automatically find the first empty slot.
 
 ## **Installation**
-  -Manual Installation only**
+**Manual Installation only**
 
 # Go to the main page of the repository.
 # Click the **<> Code** dropdown and download the repository as a <code>.zip</code>.
 # Extract the .zip file, move the DiscordMiniSpellbook and DiscordMiniInventory folder from inside the Discord_collection folder to your <code>Interface/AddOns</code> directory
 # Restart the game.
-  -Important:** The default keybindings "b" and "p" open the default bags and spellbook. The addons have their own section in the keybinding options where you can add the default keys to open them.
+**Important:** The default keybindings "b" and "p" open the default bags and spellbook. The addons have their own section in the keybinding options where you can add the default keys to open them.
 
 ## Git Links
 - [**(crazypoultry)**](https://github.com/crazypoultry/Wow1.12.1_Addons_Collection)
 
 ## Commands
-  -Spellbook Slash Commands:**
+**Spellbook Slash Commands:**
 {| class="fandom-table"
 !Command
 !Description
@@ -52,7 +52,7 @@ These mods replace the default spellbook and bag frames with scalable, movable, 
 |Toggle the ability to drag the spellbook frame
 |}
 
-  -Inventory Slash Commands:**
+**Inventory Slash Commands:**
 {| class="fandom-table"
 !Command
 !Description
@@ -103,7 +103,7 @@ These mods replace the default spellbook and bag frames with scalable, movable, 
 |Delete the specified custom tab
 |}
 
-  -*Note**:* Quotes are required for tab and item names.
+***Note**:* Quotes are required for tab and item names.
 
 ## Preview
 Spellbook:
@@ -120,47 +120,47 @@ Inventory:
 - **Custom Tabs:** Up to 5 user-defined, for specific items.
 
 ## Tips
-  -Customizing Your Inventory & Spellbook**
+**Customizing Your Inventory & Spellbook**
 
 - **Resizing & Moving:** Drag the frames by holding the left mouse button to position them exactly where you want.
 - **Scaling:** Use <code>/dmin scale #</code> or <code>/dmsb scale #</code> commands to resize the inventory or spellbook windows for your preference.
 - **Bag Naming:** Personalize your bag tabs with <code>/dmin bag name</code> for easier identification.
 - **Creating Custom Tabs:** Use <code>/dmin ctab "tab name" "item name"</code> to organize specific items, making quick access easier.
 
-  -Managing Tabs & Bags**
+**Managing Tabs & Bags**
 
 - **Hiding Tabs/Bags:** Use <code>/dmin tabs</code> or <code>/dmin bags</code> to toggle visibility if you want a cleaner interface.
 - **Auto-Selecting Tabs:** The addon automatically updates the tab display based on your current inventory or spellbook tab.
 
-  -Using the Drop Functionality**
+**Using the Drop Functionality**
 
 - Simply drag any item into the inventory window, and it will automatically place in the first available slot, saving you time.
 
-  -Sorting & Stacking**
+**Sorting & Stacking**
 
 - Use <code>/dmin combine</code> to merge stacks for a cleaner inventory.
 - Items can be sorted dynamically by name, level, quality, or bag via the sorting options in the menu or <code>/dmin sortby [criteria]</code>.
 
-  -Quick Access & Hotkeys**
+**Quick Access & Hotkeys**
 
 - Assign keybindings to toggle the inventory (<code>/dmin</code>) for instant access.
 - You can bind a key to toggle the spellbook as well.
 
-  -Performance Tips**
+**Performance Tips**
 
 - **Compact Mode:** Toggle to reduce clutter and improve performance if you have many items.
 - **Show Empty Slots:** Use <code>/dmin showempty</code> to display empty bag slots, which can be helpful for planning inventory management.
-  -Troubleshooting**
+**Troubleshooting**
 - **Frame Not Moving:** Ensure drag is enabled (<code>/dmin drag</code>), and the frame isn't locked.
 - **Commands Not Responding:** Make sure you've typed commands exactly, quotes are necessary for custom tab/item commands.
 - **Customization Limits:** You can create up to 5 custom tabs; delete unused ones with <code>/dmin cleartab tabname</code>.
 
-  -Settings**
+**Settings**
 
-  -Saved Variables:** Your settings are saved between sessions; reset positions or settings with <code>/dmin reset</code> or <code>/dmsb reset</code>.
+**Saved Variables:** Your settings are saved between sessions; reset positions or settings with <code>/dmin reset</code> or <code>/dmsb reset</code>.
 
 ## Changes
-  -Version 1.1**
+**Version 1.1**
 
 - Updated the .toc files.
 - Changed both mods to allow scaling up to 200%.

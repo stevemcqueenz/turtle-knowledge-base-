@@ -25,7 +25,7 @@ categories: ["Grim Reaches NPCs", "Orc characters", "Quest givers", "Turtle WoW 
 | status | Alive |
 | relatives | Slagg (brother) |
 
--Grunt Morkan** is an [orc](orc) [quest giver](quest giver) located in the outpost of [Shatterblade Post](Shatterblade Post) in the [Grim Reaches](Grim Reaches).
+**Grunt Morkan** is an [orc](orc) [quest giver](quest giver) located in the outpost of [Shatterblade Post](Shatterblade Post) in the [Grim Reaches](Grim Reaches).
 
 ## Quests
 - [quest: Hog For Morkan] 
@@ -34,7 +34,7 @@ categories: ["Grim Reaches NPCs", "Orc characters", "Quest givers", "Turtle WoW 
 - [quest: Shadowforge Incursions] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Watch yourself here, I won't tolerate anyone causing trouble.
 
 ## Patch changes

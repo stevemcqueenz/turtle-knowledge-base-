@@ -41,7 +41,7 @@ I could have never imagined it. For so long we have lived with the thought of us
 A projection crystal... from another draenei?! Please, hand it to me quickly!
 
 ## Notes
-  -Upon completion**
+**Upon completion**
   Sanv K'la channels energy into the crystal.
   **Image of Elder Krasheen says:** So the Parash'ka spoke true. There really are other draenei in this world.
   **Image of Elder Krasheen says:** I am Elder Krasheen of the Moro'gai. Formerly inhabiting the swamps of Monoogha, we now call the lakes of Moonwhisper Coast our home. It is an honor to meet your tribe as the representative of the Moro'gai.

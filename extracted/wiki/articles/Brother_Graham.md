@@ -25,13 +25,13 @@ categories: ["Church of Light", "Human characters", "Northwind NPCs", "Quest giv
 | status | Alive |
 | relatives | Unnamed mother, deceased |
 
--Brother Graham** is a human quest giver located at the [Ambershire Church](Ambershire Church) in [Northwind](Northwind). Though he was a native of Northwind, his mother died when he was young and he left to Stormwind, joining the [Church of Light](Church of Light). He later returned to Northwind on the recommendation of [Archbishop Benedictus](Archbishop Benedictus) to assist [Sister Argent](Sister Argent) in her educational duties.
+**Brother Graham** is a human quest giver located at the [Ambershire Church](Ambershire Church) in [Northwind](Northwind). Though he was a native of Northwind, his mother died when he was young and he left to Stormwind, joining the [Church of Light](Church of Light). He later returned to Northwind on the recommendation of [Archbishop Benedictus](Archbishop Benedictus) to assist [Sister Argent](Sister Argent) in her educational duties.
 
 ## Quests
 - [quest: The Grateful Dead] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I should focus on supporting [Sister Argent](Sister Argent) with her educational duties, but the image of [that burned abbey](Saint Mara Abbey) just can't escape my mind.
 
 ## Patch changes

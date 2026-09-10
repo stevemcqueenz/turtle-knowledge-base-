@@ -25,7 +25,7 @@ categories: ["Orc characters", "Quest givers", "Sunnyglade Valley NPCs", "Turtle
 | location | Sunnyglade Valley |
 | status | Killable |
 
--Blademaster Axon** is an [orc](orc) quest giver and mini-boss in [Sunnyglade Valley](Sunnyglade Valley).
+**Blademaster Axon** is an [orc](orc) quest giver and mini-boss in [Sunnyglade Valley](Sunnyglade Valley).
 
 ## Quests
 - [quest: Strategic Strike] 

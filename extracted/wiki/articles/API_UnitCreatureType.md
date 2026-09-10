@@ -27,7 +27,7 @@ Returns the creature type of the specified unit -- "Humanoid", "Demon", "Beast" 
 ----***Examples***
 
    DEFAULT_CHAT_FRAME:AddMessage(UnitCreatureType('target'))
-  -*Result***
+***Result***
 
    Prints the creature type to your default message window of whatever you have targeted.
 
@@ -36,7 +36,7 @@ Returns the creature type of the specified unit -- "Humanoid", "Demon", "Beast" 
    if (UnitCreatureType("target") == "Humanoid") then 
       CastSpellByName("Sap(Rank 3)")
    end
-  -*Result***
+***Result***
 
    If the creature targeted is a Humanoid and you are a rogue with Sap, Rank 3 -- it will launch that attack.
 

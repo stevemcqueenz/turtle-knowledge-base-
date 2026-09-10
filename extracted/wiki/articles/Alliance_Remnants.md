@@ -59,27 +59,8 @@ Following the death of Grand Marshal Garithos, the survivors of his army rallied
 ## Members
 ### Named
 - <sup>†</sup>
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-### Unnamed
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-## Gallery
+- - - - - - - - - - ### Unnamed
+- - - - - - - ## Gallery
 <gallery>
 Garithos Base.png|Garithos in his base outside of Capital City.
 Captain Silas House.jpg|Captain Silas in his home, with [Duchess Faliona](Duchess Faliona).

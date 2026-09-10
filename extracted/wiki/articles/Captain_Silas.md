@@ -26,7 +26,7 @@ categories: ["Human characters", "Lordaeron (kingdom)", "Quest givers", "Tirisfa
 | location | Remnants Camp, Tirisfal Glades |
 | status | Killable |
 
--Captain Silas** is a [human](human) [quest giver](quest giver) located in the [Remnants Camp](Remnants Camp) in [Tirisfal Glades](Tirisfal Glades). A survivor of Grand Marshal [Othmar Garithos](Othmar Garithos)' forces, (ref: [Gheor from the Turtle WoW Community Discord](https://discord.com/channels/466622455805378571/528228771594240030/1090029823910477845) - "The Tirisfal Uplands humans are what's left of his army.") he leads the [Alliance Remnants](Alliance Remnants) in the [Tirisfal Uplands](Tirisfal Uplands) and seeks to restore communications with the Alliance to get support to the Remnants. [Duchess Grelda](Duchess Grelda) wants him killed.
+**Captain Silas** is a [human](human) [quest giver](quest giver) located in the [Remnants Camp](Remnants Camp) in [Tirisfal Glades](Tirisfal Glades). A survivor of Grand Marshal [Othmar Garithos](Othmar Garithos)' forces, (ref: [Gheor from the Turtle WoW Community Discord](https://discord.com/channels/466622455805378571/528228771594240030/1090029823910477845) - "The Tirisfal Uplands humans are what's left of his army.") he leads the [Alliance Remnants](Alliance Remnants) in the [Tirisfal Uplands](Tirisfal Uplands) and seeks to restore communications with the Alliance to get support to the Remnants. [Duchess Grelda](Duchess Grelda) wants him killed.
 
 ## Quests
 - [quest: A Call to Aid] 

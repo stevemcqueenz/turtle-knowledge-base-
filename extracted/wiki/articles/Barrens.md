@@ -50,7 +50,7 @@ WorldMap-Barrens-old.jpg|Map of the Barrens prior to patch 1.5.0.
 ||[Agama'gor](Agama'gor) • [Anchor's Edge](Anchor's Edge) • [Boulder Lode Mine](Boulder Lode Mine) • [Bramblescar](Bramblescar) • [Camp Taurajo](Camp Taurajo) • [The Crossroads](Crossroads) • [Dreadmist Peak](Dreadmist Peak) ([Dreadmist Den](Dreadmist Den)) • [The Dry Hills](Dry Hills) • [Far Watch Post](Far Watch Post) • [The Forgotten Pools](Forgotten Pools) • [Fray Island](Fray Island) • [Gold Road](Gold Road) • [The Great Sea](Great Sea) • [Grol'dom Farm](Grol'dom Farm) • [Honor's Stand](Honor's Stand) • [Lushwater Oasis](Lushwater Oasis) ([Wailing Caverns](Wailing Caverns) ([Cavern of Mists](Cavern of Mists))) • [The Merchant Coast](Merchant Coast) ([Ratchet](Ratchet) • [The Tidus Stair](Tidus Stair)) • [Mor'shan Base Camp](Mor'shan Base Camp) • [The Mor'shan Rampart](Mor'shan Rampart) • [Northwatch Hold](Northwatch Hold) • [Raptor Grounds](Raptor Grounds) • [Shrine of the Fallen Warrior](Shrine of the Fallen Warrior) • [The Sludge Fen](Sludge Fen) • [Southern Barrens](Southern Barrens) ([Bael Modan](Bael Modan) ([Bael'dun Keep](Bael'dun Keep)) • [Blackthorn Ridge](Blackthorn Ridge) • [Field of Giants](Field of Giants) • [Razorfen Downs](Razorfen Downs) • [Razorfen Kraul](Razorfen Kraul) • [Southern Gold Road](Southern Gold Road)) • [Southfury River](Southfury River) • [The Stagnant Oasis](Stagnant Oasis) • [Thorn Hill](Thorn Hill)
 |-
 ||
-  -Undisplayed locations**
+**Undisplayed locations**
 
 [Bael Modan Excavation](Bael Modan Excavation) • [Broken Keel Tavern](Broken Keel Tavern) • *[Heedless](Heedless)* • *[Tide Razor](Tide Razor)* • [Venture Co. Tower](Venture Co. Tower) — [Instance](Instance)d: [Thorn Gorge](Thorn Gorge) • [Warsong Gulch](Warsong Gulch)
 |}
@@ -76,36 +76,36 @@ WorldMap-Barrens-old.jpg|Map of the Barrens prior to patch 1.5.0.
 |}
 
 ### Battlegrounds
--[Warsong Gulch](Warsong Gulch) (Horde Entrance)
+- [Warsong Gulch](Warsong Gulch) (Horde Entrance)
 
 ### Travel hubs
 #### [Flight path](Flight path)s from [the Crossroads](Crossroads)
--  [Bloodvenom Post](Bloodvenom Post), [Felwood](Felwood)
--  [Brackenwall Village](Brackenwall Village), [Dustwallow Marsh](Dustwallow Marsh)
--  [Camp Mojache](Camp Mojache), [Feralas](Feralas)
--  [Camp Taurajo](Camp Taurajo), The Barrens
--  [Freewind Post](Freewind Post), [Thousand Needles](Thousand Needles)
--  [Orgrimmar](Orgrimmar), [Durotar](Durotar)
--  [Splintertree Post](Splintertree Post), [Ashenvale](Ashenvale)
--  [Sun Rock Retreat](Sun Rock Retreat), [Stonetalon Mountains](Stonetalon Mountains)
--  [Thunder Bluff](Thunder Bluff), [Mulgore](Mulgore)
--  [Valormok](Valormok), [Azshara](Azshara)
--  [Zoram'gar Outpost](Zoram'gar Outpost), [Ashenvale](Ashenvale)
--  [Gadgetzan](Gadgetzan), [Tanaris](Tanaris)
--  [Ratchet](Ratchet), The Barrens
+- [Bloodvenom Post](Bloodvenom Post), [Felwood](Felwood)
+- [Brackenwall Village](Brackenwall Village), [Dustwallow Marsh](Dustwallow Marsh)
+- [Camp Mojache](Camp Mojache), [Feralas](Feralas)
+- [Camp Taurajo](Camp Taurajo), The Barrens
+- [Freewind Post](Freewind Post), [Thousand Needles](Thousand Needles)
+- [Orgrimmar](Orgrimmar), [Durotar](Durotar)
+- [Splintertree Post](Splintertree Post), [Ashenvale](Ashenvale)
+- [Sun Rock Retreat](Sun Rock Retreat), [Stonetalon Mountains](Stonetalon Mountains)
+- [Thunder Bluff](Thunder Bluff), [Mulgore](Mulgore)
+- [Valormok](Valormok), [Azshara](Azshara)
+- [Zoram'gar Outpost](Zoram'gar Outpost), [Ashenvale](Ashenvale)
+- [Gadgetzan](Gadgetzan), [Tanaris](Tanaris)
+- [Ratchet](Ratchet), The Barrens
 #### [Flight path](Flight path)s from [Camp Taurajo](Camp Taurajo)
--  [Freewind Post](Freewind Post), [Thousand Needles](Thousand Needles)
--  [The Crossroads](Crossroads), The Barrens
--  [Thunder Bluff](Thunder Bluff), [Mulgore](Mulgore)
+- [Freewind Post](Freewind Post), [Thousand Needles](Thousand Needles)
+- [The Crossroads](Crossroads), The Barrens
+- [Thunder Bluff](Thunder Bluff), [Mulgore](Mulgore)
 #### [Flight path](Flight path)s from [Ratchet](Ratchet)
--  [Astranaar](Astranaar), [Ashenvale](Ashenvale)
--  [Talrendis Point](Talrendis Point), [Azshara](Azshara)
--  [Theramore](Theramore), [Dustwallow Marsh](Dustwallow Marsh)
--  [Orgrimmar](Orgrimmar), [Durotar](Durotar)
--  [The Crossroads](The Crossroads), The Barrens
--  [Gadgetzan](Gadgetzan), [Tanaris](Tanaris)
+- [Astranaar](Astranaar), [Ashenvale](Ashenvale)
+- [Talrendis Point](Talrendis Point), [Azshara](Azshara)
+- [Theramore](Theramore), [Dustwallow Marsh](Dustwallow Marsh)
+- [Orgrimmar](Orgrimmar), [Durotar](Durotar)
+- [The Crossroads](The Crossroads), The Barrens
+- [Gadgetzan](Gadgetzan), [Tanaris](Tanaris)
 #### Boat destinations from [Ratchet](Ratchet)
--  [Booty Bay](Booty Bay), [Stranglethorn Vale](Stranglethorn Vale)
+- [Booty Bay](Booty Bay), [Stranglethorn Vale](Stranglethorn Vale)
 
 ### Adjacent regions
 {| class="fandom-table"
@@ -205,7 +205,7 @@ WorldMap-Barrens-old.jpg|Map of the Barrens prior to patch 1.5.0.
 
 ## Patch changes
 - (Patch 1.16.4|note=[Anchor's Edge](Anchor's Edge) added.)
--  **[Patch 1.6.0](Patch 1.6.0) (2005-07-12):** The Barrens should now feel more alive, with many guards and other NPCs added to provide more immersion.
--  **Patch 1.2.0 (2004-12-18):** Kodos in the Barrens will no longer stomp incessantly while in combat.
--  **Patch 0.10 (2004-09-18):** More rework done on the quests to make the area more player-friendly and to elaborate on the story behind the area.
--  **Patch 0.9 (2004-08-17):** More quests improved and added.
+- **[Patch 1.6.0](Patch 1.6.0) (2005-07-12):** The Barrens should now feel more alive, with many guards and other NPCs added to provide more immersion.
+- **Patch 1.2.0 (2004-12-18):** Kodos in the Barrens will no longer stomp incessantly while in combat.
+- **Patch 0.10 (2004-09-18):** More rework done on the quests to make the area more player-friendly and to elaborate on the story behind the area.
+- **Patch 0.9 (2004-08-17):** More quests improved and added.

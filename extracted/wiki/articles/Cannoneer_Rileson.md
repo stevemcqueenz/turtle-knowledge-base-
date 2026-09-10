@@ -24,7 +24,7 @@ categories: ["Gilneas mobs", "Human characters", "Turtle WoW content"]
 | location | Freyshear Keep, Gilneas |
 | status | Killable |
 
--Cannoneer Rileson** is a [human](human) located in [Freyshear Keep](Freyshear Keep) in [Gilneas](Gilneas).
+**Cannoneer Rileson** is a [human](human) located in [Freyshear Keep](Freyshear Keep) in [Gilneas](Gilneas).
 
 ## Objective of
 - [quest: Assaulting Freyshear Keep]

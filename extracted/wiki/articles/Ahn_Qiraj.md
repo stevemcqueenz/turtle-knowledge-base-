@@ -18,7 +18,7 @@ Bordered by vast mountains and the [Scarab Wall](Scarab Wall), the city-kingdom 
 # Instances
 Ahn'Qiraj can refer to either the [Ruins of Ahn'Qiraj](Ruins of Ahn'Qiraj) (20-man instance) or the [Temple of Ahn'Qiraj](Temple of Ahn'Qiraj) (40-man instance)
 
--See the [Gates of Ahn'Qiraj](Gates of Ahn'Qiraj) for info regarding the server-wide event to gain access.
+- See the [Gates of Ahn'Qiraj](Gates of Ahn'Qiraj) for info regarding the server-wide event to gain access.
 The [Gates of Ahn'Qiraj](Gates of Ahn'Qiraj) can only be opened by a series of player-driven quests (part of which is the [Ahn'Qiraj War Effort](Ahn'Qiraj War Effort). When completed, this triggers a [World Event](World Event), and the gates open. Once the gates are open, the spoils of the kingdom will be available for anyone on the server that can rise to the challenge.
 
 Although the instance was not activated until 1.9, the [Scarab Wall](Scarab Wall) (the gate to Ahn'Qiraj) has been present since early on in the game's release.
@@ -26,13 +26,13 @@ Although the instance was not activated until 1.9, the [Scarab Wall](Scarab Wall
 # History
 "Little is known of the ancient kingdom of Ahn'Qiraj, save for scattered legends concerning its creators - the enigmatic sorcerers known as the Qiraji. [Night Elf](Night Elf) tales abound of the Qiraji's strange hold over the insect like [Silithid](Silithid) - and their symbiotic link with the terrifying race. It has become clear that the Qiraji are stirring once again behind the sand-blasted walls of their kingdom. The [Silithid](Silithid) have begun to amass in the southern regions of [Kalimdor](Kalimdor). None know what vast evil might spew forth if the gates of Ahn'Qiraj were ever breached."
 
-  -*Taken from a comment at the [Thottbot Silithus page](http://thottbot.com/?z=70).***
+***Taken from a comment at the [Thottbot Silithus page](http://thottbot.com/?z=70).***
 
 According to some of the new quest series, the history of Ahn'Qiraj is connected to Arch Druid [Fandral Staghelm](Fandral Staghelm), as his own son, [Valstann Staghelm](Valstann Staghelm) led a campaign against the [Qiraji](Qiraji) which ultimately failed and resulted in his public execution at the hands of [Rajaxx](Rajaxx), a Qiraji general.
 
--More information on the ancient conflict between the Night Elves and the Qiraji can be found on the "War of the Shifting Sands" section of [Blizzard's 1.9 preview page](http://www.worldofwarcraft.com/info/underdev/1p9/shiftingsands.html).*
+*More information on the ancient conflict between the Night Elves and the Qiraji can be found on the "War of the Shifting Sands" section of [Blizzard's 1.9 preview page](http://www.worldofwarcraft.com/info/underdev/1p9/shiftingsands.html).*
 
-  -*From [Geologist Larksbane](Geologist Larksbane) in Silithus***
+***From [Geologist Larksbane](Geologist Larksbane) in Silithus***
 
 "It is history ... A history of Silithus ... of Ahn'Qiraj ... of Titans and [Old Gods](Old Gods) ... I read from the prophecy of [C'Thun](C'Thun) as written by the Qiraji Prophet Skeram. A prophecy that portends a cataclysm ...
 
@@ -60,7 +60,7 @@ The night elf army was pushed back through [Un'Goro Crater](Un'Goro Crater), to 
 
 Fascinating, this coincides with theories of Un'Goro being the home of the Titans when they inhabited Kalimdor. Perhaps [Aman'Thul](Aman'Thul) himself watched over 'The God Lands'.  In Tanaris the Qiraji document facing a bronze dragon. Surely they are planning to invade Kalimdor once more!"
 
-  -*From the book "The Two Empires"***
+***From the book "The Two Empires"***
 
 "The [Gurubashi](Gurubashi) and [Amani](Amani) Empires had little love for one another, but rarely warred against each other. At the time, their greatest common enemy was a third empire -- the civilization of [Azi'Aqir](Azi'Aqir). The Aqir were intelligent insectoids who ruled the lands of the far west. These clever insectoids were greatly expansionistic and incredibly evil. The Aqir were obsessed with eradicating all non-insect life from the fields of Kalimdor.
 
@@ -69,9 +69,9 @@ The trolls fought them for many thousands of years, but never succeeded in winni
 Two [Aqiri](Aqiri) city-states emerged -- [Azjol-Nerub](Azjol-Nerub) in the northern wastes, and Ahn'Qiraj in the southern desert. Though the trolls suspected that there were other Aqiri colonies beneath Kalimdor, their existence was never verified."
 
 # Factions
--[Brood of Nozdormu](Brood of Nozdormu)
+- [Brood of Nozdormu](Brood of Nozdormu)
 
--[Cenarion Circle](Cenarion Circle)
+- [Cenarion Circle](Cenarion Circle)
 
 # Population
 The city of Ahn'Qiraj is populated by the remaining forces of the Qiraji Empire. These include various forms of Silithus Bugs.

@@ -48,7 +48,7 @@ The [Corrupted Ashbringer](Corrupted Ashbringer) was reclaimed from Naxxramas, a
 With Highlord Mograine and his son dead and his hatred said to be running too deep within the Ashbringer, the spirit of High Inquisitor Fairbanks pointed the wielder of the Ashbringer to the skies towards Outland, where Mograine's second son could be found and reforge the blade anew.
 
 ## Quotes
-  -Gossip at Uther's Tomb**
+**Gossip at Uther's Tomb**
 I cannot rest. Not until I see the Scarlet Crusade fall and not until my son faces justice for killing his father.
 
 But do not worry, someone else is to fulfill that task. Even in my rage, I would wish to hold my children in my arms for the last time. I am ready to rest on the other side, <name>.

@@ -23,7 +23,7 @@ categories: ["Banshees", "Gilneas mobs"]
 | location | Gilneas |
 | status | Killable |
 
--Willow** is a banshee that appears during [quest: The Black Waltz]. One of the [Widows of the Woods](Widows of the Woods), a fickle lot of spirits that hold a strong attachment to the woods of [Gilneas](Gilneas), Willow has begun to haunt young [Aliattan Anderson](Aliattan Anderson) out of spite due to him accidentally sparking a fire on her willow tree, (ref: [Aliattan Anderson's Journal](Aliattan Anderson's Journal)) and sought to break his will and draw him into the "black waltz", a maddening dance that would see his soul itself be wrenched from his body with each twirl and spin, before being devoured by the hungry Widows. (ref: [quest: The Black Waltz])
+**Willow** is a banshee that appears during [quest: The Black Waltz]. One of the [Widows of the Woods](Widows of the Woods), a fickle lot of spirits that hold a strong attachment to the woods of [Gilneas](Gilneas), Willow has begun to haunt young [Aliattan Anderson](Aliattan Anderson) out of spite due to him accidentally sparking a fire on her willow tree, (ref: [Aliattan Anderson's Journal](Aliattan Anderson's Journal)) and sought to break his will and draw him into the "black waltz", a maddening dance that would see his soul itself be wrenched from his body with each twirl and spin, before being devoured by the hungry Widows. (ref: [quest: The Black Waltz])
 
 ## Quotes
   Another comes to bother these lands? I do not have the patience to toy with another. Join us in the cold, dead ground.

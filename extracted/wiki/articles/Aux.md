@@ -13,7 +13,7 @@ categories: ["Addon"]
 The most advanced auction house add-on for the 1.12 client with some features more advanced than anything even on retail.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **Aux** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **Aux** up to date is by using [GitAddonsManager](GitAdd
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -36,7 +36,7 @@ If you prefer manual installation, follow these steps:
 - [**(zanthor)**](https://github.com/zanthor/aux-addon) 
 
 ## Commands
-  -General**
+**General**
 
 - **/aux** (Lists the settings)
 - **/aux scale *factor*** (Scales the aux GUI by *factor*)
@@ -45,7 +45,7 @@ If you prefer manual installation, follow these steps:
 - **/aux crafting cost** (Toggles the crafting price information)
 - **/aux post duration *hours*** (Sets the default auction duration to *2*/*8*/*24* hours)
 
-  -Tooltip**
+**Tooltip**
 
 - **/aux tooltip value**
 - **/aux tooltip daily**
@@ -55,7 +55,7 @@ If you prefer manual installation, follow these steps:
 - **/aux tooltip vendor sell**
 
 ## Usage
-  -General**
+**General**
 
 For the auction listings in the search, auctions and bids tabs the following shortcuts are available.
 
@@ -68,7 +68,7 @@ For the auction listings in the search, auctions and bids tabs the following sho
 - Left-click on a header to sort.
 - Right-click on a header of a price column to switch between unit and stack price.
 
-  -Furthermore**
+**Furthermore**
 
 - Double-click in edit-boxes will highlight everything.
 
@@ -77,12 +77,12 @@ For the auction listings in the search, auctions and bids tabs the following sho
 - Dragging inventory items to the search box or right-clicking them will start a search.
 - Right-clicking item links will start a search.
 
-  -Search Results**
+**Search Results**
 
 - Bid prices for your own active bids are colored in green.
 - Bid prices for other auctions with an active bid are colored in orange.
 
-  -Saved Searches**
+**Saved Searches**
 
 - When hovering over an entry the tool-tip shows a longer and more nicely formatted version.
 - Left-click on an entry will start a search.
@@ -90,11 +90,11 @@ For the auction listings in the search, auctions and bids tabs the following sho
 - Shift-left-click on an entry will copy a search to the search box.
 - Shift-right-click on an entry will add a search to the existing query in the search box.
 
-  -Filter Builder**
+**Filter Builder**
 
 While it is faster to type filters directly into the search box this sub-tab serves as a tutorial to learn how to formulate queries. The filters on the left side are Blizzard filters which may reduce the number of pages to be scanned and those on the right side are post filters which do not affect the scan time but can be combined with logical operators to formulate very complex filters.
 
-  -Post**
+**Post**
 
 - When entering prices **g**, **s** and **c** denote gold, silver and copper respectively.
 - A price value without explicit denotations will count as gold. (e.g., 10.5 = 10g50s)
@@ -105,9 +105,9 @@ While it is faster to type filters directly into the search box this sub-tab ser
 - Clicking an entry in the in the listings of bids/buyouts of existing auctions will undercut with your bid stack/buyout unit price.
 - Double-click in the bids/buyouts listings will also match the stack size.
 
-  -Auctions**
+**Auctions**
 
-  -Bids**
+**Bids**
 
 ## Search Filters
 Add-ons do not have any additional Blizzard filters available to them beyond the ones in the default auction house interface, nor do they have any other ways to combine them. Of course it is possible for an addOn to apply arbitrary filters after the Blizzard query but only the Blizzard query will affect the number of pages to be scanned and thus the time it takes for a scan. Since the Vanilla API will only let you request a page every 4 seconds having no Blizzard query in your filter can lead to very long scan times.
@@ -119,39 +119,39 @@ Blizzard filters can be created through the form on the left side of the "New Fi
 
 Post processing filters are more flexible. They are specified using the filter primitives you find on the right side of the "New Filter" sub-tab and can be combined with **and**, **or** and **not** using polish notation (<nowiki>https://en.wikipedia.org/wiki/Polish_notation</nowiki>). Filter parts other than the first which don't match any specific filter, just like the first part is treated as a Blizzard name filter, are treated as a tooltip filter. For using a tooltip filter as the first filter part there is an explicit **tooltip** modifier.
 
-  -Here are some queries I use myself for illustration:**
+**Here are some queries I use myself for illustration:**
 
-  -or/and2/profit/5g/percent/60/and3/bid-profit/5g/bid-percent/60/left/30m**
+**or/and2/profit/5g/percent/60/and3/bid-profit/5g/bid-percent/60/left/30m**
 
 This filter will search the whole auction house for auctions either with a buyout price of 5g or more below market value and 60% or less of the market value or a bid price for which the same is true and in addition only 30m or less remaining.
 
-  -wrangler's wristbands/exact/or2/and2/+3 agility/+3 stamina/+5 stamina/price/1g**
+**wrangler's wristbands/exact/or2/and2/+3 agility/+3 stamina/+5 stamina/price/1g**
 
 This will search for wrangler's wristband with 3/3 monkey or 5 stam suffixes for at most 1g buyout price.
 
-  -recipe/usable/not/libram**
+**recipe/usable/not/libram**
 
 This will scan for usable recipes and exclude those with "libram" in the tooltip (i.e., librams)
 
-  -armor/cloth/50/intellect/stamina**
+**armor/cloth/50/intellect/stamina**
 
 This will scan the auction house for cloth armor which has a requirement of at least lvl 50 as well both intellect and stamina stats.
 
 ## Core Features
-  -Turtle**
+**Turtle**
 
 - Shares some price data through the LFT chat when searching the AH, use **/aux sharing** to disable sending and receiving data.
 - Accurate auction duration's for Turtle WoW.
 - Auto-completion for custom Turtle WoW items.
 
-  -General**
+**General**
 
 - Completely independent replacement for the Blizzard interface.
 - Elegant look based on the retail add-on TSM.
 - Many convenient shortcuts.
 - Convenient access to the unaltered Blizzard interface.
 
-  -Search**
+**Search**
 
 - Automatic scanning of all pages for a query.
 - Saving of recent and favorite queries.
@@ -164,7 +164,7 @@ This will scan the auction house for cloth armor which has a requirement of at l
 - Quick buying from any page without rescanning everything.
 - Real time mode which continuously scans the last page.
 
-  -Post**
+**Post**
 
 - Automatic assembling and posting of multiple stacks.
 - Automatic scanning of existing auctions.
@@ -175,7 +175,7 @@ This will scan the auction house for cloth armor which has a requirement of at l
 - Saving post configuration per item.
 - Efficient price input inspired by the retail add-on TSM.
 
-  -History**
+**History**
 
 - Automatic gathering of historical data from all scans.
 - Automatic collection of vendor prices.

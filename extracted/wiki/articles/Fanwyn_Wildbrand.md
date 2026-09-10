@@ -26,10 +26,10 @@ categories: ["Battlemasters", "Dwarf characters", "Ironforge NPCs", "Turtle WoW 
 | location | Hall of Arms, Ironforge |
 | status | Alive |
 
--Fanwyn Wildbrand** is a [dwarf](dwarf) [Thorn Gorge](Thorn Gorge) battlemaster located in the [Hall of Arms](Hall of Arms) in [Ironforge](Ironforge).
+**Fanwyn Wildbrand** is a [dwarf](dwarf) [Thorn Gorge](Thorn Gorge) battlemaster located in the [Hall of Arms](Hall of Arms) in [Ironforge](Ironforge).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The Bael Modan Garrison requires aid in their mission to gather ground in the western frontier of Kalimdor! Are you willing to step up and defend the Alliance's interests?
 
   

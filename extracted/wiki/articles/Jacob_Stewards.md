@@ -26,7 +26,7 @@ categories: ["Gilneas (kingdom)", "Gilneas NPCs", "Human characters", "Tradeskil
 | relatives | Samantha Stewards |
 | status | Alive |
 
--Jacob Stewards** is a [human](human) trade goods vendor located in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
+**Jacob Stewards** is a [human](human) trade goods vendor located in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
 
 ## Quotes
 I can assure you, Gilneas is known for its craftsmanship.

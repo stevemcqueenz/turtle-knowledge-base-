@@ -10,7 +10,7 @@ categories: ["Eastern Plaguelands subzones", "Mines", "Scourge territories", "Sp
 ---
 # Widow's Nest
 
--The Widow's Nest** is a mine located within the [Forlorn Summit](Forlorn Summit), in the [Eastern Plaguelands](Eastern Plaguelands). It is the lair of [High Widow Arania](High Widow Arania) and her brood of undead spiders. The mine was the site of the remaining defenders' last stand when the outpost was overrun, led by the paladin [Leonid Barthalomew](Leonid Barthalomew), who fell to the undead forces here. (ref: [quest: Vigilant Last Defender])
+**The Widow's Nest** is a mine located within the [Forlorn Summit](Forlorn Summit), in the [Eastern Plaguelands](Eastern Plaguelands). It is the lair of [High Widow Arania](High Widow Arania) and her brood of undead spiders. The mine was the site of the remaining defenders' last stand when the outpost was overrun, led by the paladin [Leonid Barthalomew](Leonid Barthalomew), who fell to the undead forces here. (ref: [quest: Vigilant Last Defender])
 
 ## Patch changes
 - (Patch 1.17.1|note=Added.)

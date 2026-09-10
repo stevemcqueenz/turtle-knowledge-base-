@@ -26,10 +26,10 @@ categories: ["Battlemasters", "Dwarf characters", "Stormwind City NPCs", "Turtle
 | location | Stormwind Keep, Stormwind City |
 | status | Alive |
 
--Ingwelda Wildbrand** is a [dwarf](dwarf) [Thorn Gorge](Thorn Gorge) battlemaster located in [Stormwind Keep](Stormwind Keep) in [Stormwind City](Stormwind City).
+**Ingwelda Wildbrand** is a [dwarf](dwarf) [Thorn Gorge](Thorn Gorge) battlemaster located in [Stormwind Keep](Stormwind Keep) in [Stormwind City](Stormwind City).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The Bael Modan Garrison requires aid in their mission to gather ground in the western frontier of Kalimdor! Are you willing to step up and defend the Alliance's interests?
 
   

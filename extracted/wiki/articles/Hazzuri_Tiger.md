@@ -22,7 +22,7 @@ categories: ["Ferocity beasts", "Lapidis Isle mobs", "Tigers", "Turtle WoW conte
 | location | Zul'Hazu, Lapidis Isle |
 | pet | Cat |
 
--Hazzuri Tigers** are tigers found at [Zul'Hazu](Zul'Hazu) in [Lapidis Isle](Lapidis Isle).
+**Hazzuri Tigers** are tigers found at [Zul'Hazu](Zul'Hazu) in [Lapidis Isle](Lapidis Isle).
 
 ## Objective of
 - Drops [Bengal Fang](Bengal Fang) for [quest: Bengal Fangs].

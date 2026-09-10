@@ -23,7 +23,7 @@ categories: ["Grim Reaches NPCs", "Guards", "Orc characters", "Turtle WoW conten
 | gender | Both |
 | location | Shatterblade Post, Grim Reaches |
 
--Shatterblade Grunts** are [orc](orc) guards defending the outpost of [Shatterblade Post](Shatterblade Post) in the [Grim Reaches](Grim Reaches).
+**Shatterblade Grunts** are [orc](orc) guards defending the outpost of [Shatterblade Post](Shatterblade Post) in the [Grim Reaches](Grim Reaches).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

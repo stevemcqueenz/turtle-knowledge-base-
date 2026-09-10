@@ -17,14 +17,4 @@ Although the Redbrands claim that they have served as the right hand to [Madoran
 The Redbrands are a powerful family in Ironforge and hold sway across much of Khaz Modan; (ref: [quest: Assault on Geth'kar]) most notably, its patriarch [Nazgrim Redbrand](Nazgrim Redbrand) commands the ear of the [Miners' Guild](Miners' League). (ref: [quest: Ore Must Flow]) The Redbrands' influence reaches far, with them showing interest in some of the local traditions of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches), (ref: [Garlin Redbrand#Quotes](Garlin Redbrand#Quotes)) as well as mining and archaeology at [Redbrand's Digsite](Redbrand's Digsite) in the [Badlands](Badlands).
 
 ## Known members
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-## References
+- - - - - - - - - ## References

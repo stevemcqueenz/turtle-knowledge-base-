@@ -24,10 +24,10 @@ categories: ["Human characters", "Northwind NPCs", "Stormwind (kingdom)", "Turtl
 | location | Grimmen Lake, Northwind |
 | status | Alive |
 
--Theresa** is a [human](human) located on a dock on the shores of [Grimmen Lake](Grimmen Lake) in [Northwind](Northwind).
+**Theresa** is a [human](human) located on a dock on the shores of [Grimmen Lake](Grimmen Lake) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Henry is such a charmer. He took me out for dinner here at the Plump Pumpkin even though he is knee-deep in becoming a blacksmith like his father. I appreciate him taking time out of his day for me; his father doesn't mind us two meeting, but he'd prefer if Henry spent more time at the forge.
 
 <Theresa chuckles.>

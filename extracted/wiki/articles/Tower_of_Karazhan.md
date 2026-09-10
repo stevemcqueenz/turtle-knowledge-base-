@@ -25,7 +25,7 @@ categories: ["Deadwind Pass", "Raids", "Tower of Karazhan", "Turtle WoW content"
 | key | Upper Karazhan Tower Key |
 | bosses |  |
 
--Tower of Karazhan** is an instance raid located in [Deadwind Pass](Deadwind Pass). Karazhan, once the towering stronghold of the former Guardian of Tirisfal, now hums with magical energy as it perches atop a powerful leyline. The spire holds immense, uncontrolled power, with numerous factions vying to claim it as their own.
+**Tower of Karazhan** is an instance raid located in [Deadwind Pass](Deadwind Pass). Karazhan, once the towering stronghold of the former Guardian of Tirisfal, now hums with magical energy as it perches atop a powerful leyline. The spire holds immense, uncontrolled power, with numerous factions vying to claim it as their own.
 
 ## Geography
 ### Maps and subregions
@@ -41,7 +41,7 @@ WorldMap-Rock of Desolation.jpg
 [The Broken Stair](Broken Stair) • [The Celestial Watch](Celestial Watch) • [Gamesman's Hall](Gamesman's Hall) • [Guardian's Library](Guardian's Library) • [Medivh's Chambers](Medivh's Chambers) • [The Menagerie](Menagerie) • [Netherspace](Netherspace) • [The Opera Hall](Opera Hall) • [The Repository](Repository)
 |-
 ||
-  -The Rock of Desolation**
+**The Rock of Desolation**
 
 [Hand of Mephistroth](Hand of Mephistroth) • [Sanv Tribe Village](Sanv Tribe Village) • [The Seat of Desolation](Seat of Desolation) • [Temple of Aka'Sha](Temple of Aka'Sha)
 |-
@@ -51,8 +51,8 @@ WorldMap-Rock of Desolation.jpg
   *Main article: [Tower of Karazhan attunement](Tower of Karazhan attunement)*
 
 ## See also
--[Lower Karazhan Halls](Lower Karazhan Halls) - The 10-player raid instance adjacent to Tower of Karazhan
--[Karazhan Crypt](Karazhan Crypt) - The 5-player dungeon instance adjacent to Tower of Karazhan
+- [Lower Karazhan Halls](Lower Karazhan Halls) - The 10-player raid instance adjacent to Tower of Karazhan
+- [Karazhan Crypt](Karazhan Crypt) - The 5-player dungeon instance adjacent to Tower of Karazhan
 
 ## Patch changes
 - (Patch 1.17.2|note=Added.)

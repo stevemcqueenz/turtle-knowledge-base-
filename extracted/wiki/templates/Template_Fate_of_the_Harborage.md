@@ -14,9 +14,9 @@ categories: []
 # [quest: Draenic Communication]
 # [quest: Finding Akh Z'ador]
 # [quest: Learn Of My Past]
-1.Complete both:
-1.*[quest: Rift Fatigue: Mind]
-1.*[quest: Rift Fatigue: Body]
+1. Complete both:
+1. *[quest: Rift Fatigue: Mind]
+1. *[quest: Rift Fatigue: Body]
 # [quest: The Riftwalker's Cane]
 # [quest: Novice In A Barren Land]
 # [quest: An Echo From Beyond]

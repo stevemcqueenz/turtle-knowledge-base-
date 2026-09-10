@@ -24,7 +24,7 @@ categories: ["Demon hunters", "Illidari", "Night elf characters"]
 | status | Alive |
 | relatives | Malfurion (twin brother) |
 
--Illidan Stormrage** is the self-proclaimed Lord of [Outland](Outland), ruler of the [Black Citadel](Black Citadel), and the leader of the [Illidari](Illidari). He is the twin brother of [Malfurion Stormrage](Malfurion Stormrage) and was, like his sibling, in love with [Tyrande Whisperwind](Tyrande Whisperwind).
+**Illidan Stormrage** is the self-proclaimed Lord of [Outland](Outland), ruler of the [Black Citadel](Black Citadel), and the leader of the [Illidari](Illidari). He is the twin brother of [Malfurion Stormrage](Malfurion Stormrage) and was, like his sibling, in love with [Tyrande Whisperwind](Tyrande Whisperwind).
 
 His pursuit of power and arcane mastery led him to commit a number of horrific acts against his own people and the races of Azeroth, including defecting to [Sargeras](Sargeras) during the [War of the Ancients](War of the Ancients) and creating the second [Well of Eternity](Well of Eternity). For his actions, he was imprisoned for ten thousand years, until his release during the [Third War](Third War). He came to be called **the Betrayer** for his acts against the night elf people.
 

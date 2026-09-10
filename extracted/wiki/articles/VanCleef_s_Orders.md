@@ -10,7 +10,7 @@ categories: ["Quest items", "Readable items", "Turtle WoW content"]
 ---
 # VanCleef's Orders
 
--VanCleef's Orders** drop from [Edward Paddley](Edward Paddley).
+**VanCleef's Orders** drop from [Edward Paddley](Edward Paddley).
 
 ## As a quest objective
 - [quest: Defying Orders]

@@ -30,11 +30,11 @@ categories: ["Alliance quest hubs", "Alliance settlements", "Harbors", "Human te
 | flightpath | Yes |
 | status | Active |
 
--Caelan's Rest** is an [Alliance](Alliance) outpost located on the eastern shores of Lapidis Isle.
+**Caelan's Rest** is an [Alliance](Alliance) outpost located on the eastern shores of Lapidis Isle.
 
 ## Travel connections
 ### Flight
-  - [Booty Bay](Booty Bay), [Stranglethorn Vale](Stranglethorn Vale)**
+** [Booty Bay](Booty Bay), [Stranglethorn Vale](Stranglethorn Vale)**
 
 ## Inhabitants
 ## Patch changes

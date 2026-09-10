@@ -10,4 +10,4 @@ categories: ["Stubs"]
 ---
 # Fashion Coin
 
--Fashion Coins** can be found from being dropped from mobs.
+**Fashion Coins** can be found from being dropped from mobs.

@@ -24,13 +24,13 @@ categories: ["Moonwhisper Coast NPCs", "Quest givers", "Tauren characters", "Tur
 | location | Moonhoof Retreat, Moonwhisper Coast |
 | status | Alive |
 
--Erna** is a [tauren](tauren) quest giver located in [Moonhoof Retreat](Moonhoof Retreat) in [Moonwhisper Coast](Moonwhisper Coast).
+**Erna** is a [tauren](tauren) quest giver located in [Moonhoof Retreat](Moonhoof Retreat) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: Raiments of Ritual] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I swear there is a new star in the night sky with each passing day.
 
 ## Patch changes

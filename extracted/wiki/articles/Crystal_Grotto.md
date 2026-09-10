@@ -13,9 +13,4 @@ categories: ["Stormwrought Ruins subzones"]
 The **Crystal Grotto** is an area located at [Stormwrought Descent](Stormwrought Descent) outside of [Stormwrought Ruins](Stormwrought Ruins).
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
--
+- - - - - -

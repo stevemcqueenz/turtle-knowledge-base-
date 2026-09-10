@@ -19,5 +19,5 @@ Some scholars theorize that primal forces of nature inhabit and animate tar beas
 Tar beasts begin combat by hurling blobs at their nearest foes. When an enemy closes in, the tar beast engages that enemy only until it becomes stuck in the tar creature's adhesive skin. Then the tar beast shifts its focus oto the next-closest enemy.
 
 ## Types
--Tar Beast
--Tar Lord
+- Tar Beast
+- Tar Lord

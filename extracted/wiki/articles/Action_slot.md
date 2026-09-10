@@ -25,7 +25,7 @@ ActionBar page 5 (Bottom Right ActionBar): slots 49 to 60
 
 ActionBar page 6 (Bottom Left ActionBar): slots 61 to 72
 
-  -Warrior Bonus Action Bars**
+**Warrior Bonus Action Bars**
 
 ActionBar page 1 Battle Stance: slots 73 to 84
 
@@ -33,13 +33,13 @@ ActionBar page 1 Defensive Stance: slots 85 to 96
 
 ActionBar page 1 Berserker Stance: slots 97 to 108
 
-  -Druid Bonus Action Bars**
+**Druid Bonus Action Bars**
 
 ActionBar page 1 Cat Form: slots 73 to 84
 
 ActionBar page 1 Bear Form: slots 97 to 108
 
-  -Rogue Bonus Action Bars**
+**Rogue Bonus Action Bars**
 
 ActionBar page 1 Stealth: slots 73 to 84
 

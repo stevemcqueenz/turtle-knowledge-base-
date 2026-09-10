@@ -14,20 +14,20 @@ This is the  meta-template.  It helps other templates detect what type of page t
 
 It detects and groups all the different [namespaces](Wikipedia:Namespace#Enumeration) used on Fandom into several types:
 
-  - main : Main (i.e. article) space, where normal articles are kept.**
-  - talk : Any talk space, including page names that start with "Talk:", "User talk:", "File talk:", etc.**
-  -user**
-  -file**
-  -mediawiki**
-  -template**
-  -help**
-  -category**
+** main : Main (i.e. article) space, where normal articles are kept.**
+** talk : Any talk space, including page names that start with "Talk:", "User talk:", "File talk:", etc.**
+**user**
+**file**
+**mediawiki**
+**template**
+**help**
+**category**
    The remaining namespaces.
-  - other : Any namespaces that were not specified as a parameter to the template (see explanation below).**
+** other : Any namespaces that were not specified as a parameter to the template (see explanation below).**
 
 For backwards compatibility, this template handles **image** as if **file**. **image** (<nowiki></nowiki>) is now deprecated.
 
-  -Note:** For most cases it may be better to use the simpler namespace detection templates (see the [see also](#See also) section below). This template is more prone to human errors such as misspelling parameter names.
+**Note:** For most cases it may be better to use the simpler namespace detection templates (see the [see also](#See also) section below). This template is more prone to human errors such as misspelling parameter names.
 
 This template uses the [Lua templating language](w:Help:Lua), and more information can be found [on the Global Lua Module page](w:c:dev:Global_Lua_Modules/Namespace_detect). **For a traditional wikitext version of this template, see [Namespace_detect on Templates Wiki](w:c:templates:Template:Namespace_detect)**.
 
@@ -63,7 +63,7 @@ The code above will render nothing when on mainspace (article) pages, but will r
 ## Demospace and page
 For testing and demonstration purposes, this template can take two parameters named **demospace** and **page**.
 
-  -demospace** understands any of the page type names used by this template, including the **other** type. It tells the template to behave like it is on some specific type of page. Like this:
+**demospace** understands any of the page type names used by this template, including the **other** type. It tells the template to behave like it is on some specific type of page. Like this:
 <pre>
 
 </pre>

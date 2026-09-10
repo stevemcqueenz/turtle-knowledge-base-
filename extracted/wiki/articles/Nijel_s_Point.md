@@ -10,17 +10,17 @@ categories: ["Alliance towns", "Desolace subzones", "Human territories", "Night 
 ---
 # Nijel's Point
 
--Nijel's Point** is an [Alliance](Alliance) outpost located in the northern mountains of [Desolace](Desolace). It features both human and night elven NPCs and structures, and holds flight paths to [Feathermoon Stronghold](Feathermoon Stronghold), [Theramore Isle](Theramore Isle), and [Auberdine](Auberdine). Nobody seems to know who Nijel is or was, not even the people living there. Most probably, he was the founder of the ancient town there which now lie in ruins.
+**Nijel's Point** is an [Alliance](Alliance) outpost located in the northern mountains of [Desolace](Desolace). It features both human and night elven NPCs and structures, and holds flight paths to [Feathermoon Stronghold](Feathermoon Stronghold), [Theramore Isle](Theramore Isle), and [Auberdine](Auberdine). Nobody seems to know who Nijel is or was, not even the people living there. Most probably, he was the founder of the ancient town there which now lie in ruins.
 
 ## Travel Connections
 ### Flight
-  - [Auberdine](Auberdine)**
+** [Auberdine](Auberdine)**
 
-  - [Stonetalon Peak](Stonetalon Peak)**
+** [Stonetalon Peak](Stonetalon Peak)**
 
-  - [Feathermoon Stronghold](Feathermoon Stronghold)**
+** [Feathermoon Stronghold](Feathermoon Stronghold)**
 
-  - [Theramore Isle](Theramore Isle)**
+** [Theramore Isle](Theramore Isle)**
 
 ## Nijel's Point NPCs
 ### Quest givers

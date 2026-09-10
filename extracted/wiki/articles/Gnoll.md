@@ -114,5 +114,5 @@ It is unknown whether or not the Rot Hide Gnolls were a Tribe unto themselves or
 Sayge the NPC from the Darkmoon Faire is either a Mudsnout, Palemane or a Shadowhide, based on his coloring.
 
 # External Links
--[World of Warcraft Gnolls](http://www.blizzard.com/wow/townhall/beastiary/gnoll.shtml)
--[Warcraft III Gnolls](http://www.battle.net/war3/neutral/gnolls.shtml#gnoll)
+- [World of Warcraft Gnolls](http://www.blizzard.com/wow/townhall/beastiary/gnoll.shtml)
+- [Warcraft III Gnolls](http://www.battle.net/war3/neutral/gnolls.shtml#gnoll)

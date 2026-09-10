@@ -14,7 +14,7 @@ The mighty keep of Stormwind is the seat of power in human lands. It is here tha
 
 To get to Stormwind Keep, you can head north from [Old Town](Old Town) or east from [the Dwarven District](the Dwarven District). The gates are located at the northeastern end of [the Canals](the Canals) between the two districts.
 
-  -Areas in Stormwind Keep:**
+**Areas in Stormwind Keep:**
 - [Petitioner's Chamber](Petitioner's Chamber) - First right as you enter the keep.
 - [Garden](Garden) - First left as you go down main hall of the keep.
   - [Royal Library](Royal Library) - Right from the Garden.

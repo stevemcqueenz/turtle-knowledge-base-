@@ -25,10 +25,10 @@ categories: ["Grim Reaches NPCs", "Politicians", "Turtle WoW content", "Wildhamm
 | location | Dun Kithas Magistrate, Grim Reaches |
 | status | Alive |
 
--Dandegg Shortbelly** is a [Wildhammer dwarf](Wildhammer dwarf) located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches). He has a short temper and does not appreciate the perspective of outsiders. (ref: [Magistrate Hurdam Toughhand#Quotes](Magistrate Hurdam Toughhand#Quotes))
+**Dandegg Shortbelly** is a [Wildhammer dwarf](Wildhammer dwarf) located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches). He has a short temper and does not appreciate the perspective of outsiders. (ref: [Magistrate Hurdam Toughhand#Quotes](Magistrate Hurdam Toughhand#Quotes))
 
 ## Quotes
-  -Gossip**
+**Gossip**
 What is it that you want, can't you see that we're busy with important work here? I can't waste my time with nosey adventurers from beyond our borders. There are more pressing matters that need attention.
 
 ## Patch changes

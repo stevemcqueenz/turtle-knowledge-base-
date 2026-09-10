@@ -14,7 +14,7 @@ Invites the specified player to a duel.
  StartDuel(playerName);
 ----
 
-  - *Arguments***
+** *Arguments***
 
    (String playerName)
 
@@ -23,20 +23,20 @@ Invites the specified player to a duel.
 
 ----
 
-  - *Returns***
+** *Returns***
 
   ; nil
 
 ----
 
-  - *Example***
+** *Example***
 
  StartDuel("Sembiance");
 
-  - *Result***
+** *Result***
 
 ----
 
-  - *Description***
+** *Description***
 
    Invites the specified player to a duel. Currently only works for members of the same faction (1.6.1).

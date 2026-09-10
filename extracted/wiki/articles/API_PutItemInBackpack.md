@@ -16,19 +16,19 @@ PutItemInBackpack();
 
 ----
 
-  - *Arguments***
+** *Arguments***
 
    None
 
 ----
 
-  - *Returns***
+** *Returns***
 
    Nothing.
 
 ----
 
-  - *Details***
+** *Details***
 
    Places the item currently on the cursor into the player's backpack otherwise it has no effect.
 

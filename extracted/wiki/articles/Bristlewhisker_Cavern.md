@@ -10,12 +10,8 @@ categories: ["Caves", "Kobold territories", "Northwind subzones", "Turtle WoW co
 ---
 # Bristlewhisker Cavern
 
--Bristlewhisker Cavern** is a cave located just south of the [Abbey Gardens](Abbey Gardens) in [Northwind](Northwind) where the [Bristlewhisker kobolds](Bristlewhisker) make their home.
+**Bristlewhisker Cavern** is a cave located just south of the [Abbey Gardens](Abbey Gardens) in [Northwind](Northwind) where the [Bristlewhisker kobolds](Bristlewhisker) make their home.
 
 ## NPCs
-- 
-- 
-- 
-
-## Patch changes
+- - - ## Patch changes
 - (Patch 1.18.0|note=Added.)

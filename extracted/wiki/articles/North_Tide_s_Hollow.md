@@ -10,4 +10,4 @@ categories: ["Pages with broken file links", "Silverpine Forest subzones", "Worg
 ---
 # North Tide's Hollow
 
--North Tide's Hollow**was a region of [Silverpine Forest](Silverpine Forest) just north of the [Sepulcher](Sepulcher). The Hollow was one of the many haunts of the evil [Moonrage](Moonrage) [worgen](worgen), the servants of the [Archmage](Archmage) [Arugal](Arugal). These worgen set up very crude encampments in some places. These camps employed only the meanest necessities of survival needed by the tough worgen.
+**North Tide's Hollow**was a region of [Silverpine Forest](Silverpine Forest) just north of the [Sepulcher](Sepulcher). The Hollow was one of the many haunts of the evil [Moonrage](Moonrage) [worgen](worgen), the servants of the [Archmage](Archmage) [Arugal](Arugal). These worgen set up very crude encampments in some places. These camps employed only the meanest necessities of survival needed by the tough worgen.

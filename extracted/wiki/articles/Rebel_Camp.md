@@ -26,16 +26,6 @@ The **Rebel Camp** is a camp of former men of [Colonel Kurzen](Colonel Kurzen), 
 
 ## Inhabitants
 ### Quest givers
-- 
-- 
-- 
-- 
-- 
-- 
-
-### Goods and services
-- 
-
-### Additional characters
-- 
--
+- - - - - - ### Goods and services
+- ### Additional characters
+- -

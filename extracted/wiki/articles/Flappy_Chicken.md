@@ -10,7 +10,7 @@ categories: ["Gilneas City shops", "Turtle WoW content"]
 ---
 # Flappy Chicken
 
--Flappy Chicken** is a shop located in [Gilneas City](Gilneas City).
+**Flappy Chicken** is a shop located in [Gilneas City](Gilneas City).
 
 ## Trivia
 - The name of the shop is a reference to the game "Flappy Bird".

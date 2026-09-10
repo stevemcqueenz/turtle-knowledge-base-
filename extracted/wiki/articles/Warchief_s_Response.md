@@ -10,7 +10,7 @@ categories: ["Quest items", "Readable items", "Turtle WoW content"]
 ---
 # Warchief's Response
 
--Warchief's Response** is provided for [quest: Of New and Old III].
+**Warchief's Response** is provided for [quest: Of New and Old III].
 
 ## As a quest objective
 - [quest: Of New and Old III]

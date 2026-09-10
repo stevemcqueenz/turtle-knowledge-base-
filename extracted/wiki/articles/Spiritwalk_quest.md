@@ -33,8 +33,8 @@ The wisdom of your travels can be seen clearly. I think it is time to speak with
 You've returned. It is time to open a new chapter in your spiritual journey.
 
 ## Progression
-1.[quest: Spiritwalk|race=tauren|class=priest]
-1.[quest: Spiritwalk|race=tauren|class=priest]
+1. [quest: Spiritwalk|race=tauren|class=priest]
+1. [quest: Spiritwalk|race=tauren|class=priest]
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

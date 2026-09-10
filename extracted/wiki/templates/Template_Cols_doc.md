@@ -10,10 +10,10 @@ categories: ["Template documentation"]
 ---
 # Template:Cols/doc
 
--Description**
+**Description**
 This template formats the text into the specified number of columns.
 
-  -Syntax**
+**Syntax**
 <pre></pre>
 
 Especially useful to wrap long lists of items into multiple columns.

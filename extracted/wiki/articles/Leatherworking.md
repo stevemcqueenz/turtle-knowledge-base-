@@ -10,7 +10,7 @@ categories: ["Professions"]
 ---
 # Leatherworking
 
--Leatherworking** is one of the primary professions. Your character can only have 2 primary professions at one time.
+**Leatherworking** is one of the primary professions. Your character can only have 2 primary professions at one time.
 
 ## Summary
 The Leatherworking profession allows players to utilize the Leather gathered through the Skinning profession to create a variety of items, including cloaks, leather and mail armors, armor kits, quivers, and ammo pouches. Leatherworker armors are chiefly of use to the leather and mail wearing classes, such as the Druid, Hunter, Shaman, and Rogue, though these armors may be of some interest to Paladins and Warriors prior to their access to Plate armor.

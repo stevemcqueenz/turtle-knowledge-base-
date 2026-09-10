@@ -24,7 +24,7 @@ categories: ["Human characters", "Mage characters", "Quest givers", "Stormwind C
 | location | Wizard's Sanctum, Mage Quarter, Stormwind City |
 | status | Alive |
 
--High Sorcerer Andromath** is a [human](human) [quest giver](quest giver) considered as one of the finest and most powerful sorcerers not locked away in [Dalaran](Dalaran). (ref: [quest: High Sorcerer Andromath|class=mage]) He is located in the [Wizard's Sanctum](Wizard's Sanctum), in the [Mage Quarter](Mage Quarter) of [Stormwind City](Stormwind City).
+**High Sorcerer Andromath** is a [human](human) [quest giver](quest giver) considered as one of the finest and most powerful sorcerers not locked away in [Dalaran](Dalaran). (ref: [quest: High Sorcerer Andromath|class=mage]) He is located in the [Wizard's Sanctum](Wizard's Sanctum), in the [Mage Quarter](Mage Quarter) of [Stormwind City](Stormwind City).
 
 ## Quests
 - [quest: The Missing Sorcerer] 

@@ -15,9 +15,7 @@ The **Tower of Magilou** is a mage tower in [Northwind](Northwind). It was forme
 [A monument to Stormwind's Court Magicians](Legacy of Stormwind's Court Magicians) is erected across from the tower.
 
 ## NPCs
-- 
-
-## Gallery
+- ## Gallery
 <gallery>
 Magilou's house.png|Enchantress Magilou's new place of residence, down the road from the tower.
 </gallery>

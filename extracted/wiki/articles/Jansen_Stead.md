@@ -10,10 +10,7 @@ categories: ["Defias Brotherhood", "Farms", "Human territories", "Westfall subzo
 ---
 # Jansen Stead
 
--The Jansen Stead** is the northernmost [farm](farm) in [Westfall](Westfall), and is located near the border with [Elwynn Forest](Elwynn Forest). Like most of the farms in Westfall, the owners have been driven off by the [Defias Brotherhood](Defias Brotherhood). Now, Defias mechanical [Harvest Watcher](Harvest Watcher)s and agents of the Brotherhood control the farm. Nearby, you can find [Farmer Furlbrow](Farmer Furlbrow) and his wife who have fled their own farm, [Furlbrow's Pumpkin Patch](Furlbrow's Pumpkin Patch). They give most adventurers their first quests in Westfall.
+**The Jansen Stead** is the northernmost [farm](farm) in [Westfall](Westfall), and is located near the border with [Elwynn Forest](Elwynn Forest). Like most of the farms in Westfall, the owners have been driven off by the [Defias Brotherhood](Defias Brotherhood). Now, Defias mechanical [Harvest Watcher](Harvest Watcher)s and agents of the Brotherhood control the farm. Nearby, you can find [Farmer Furlbrow](Farmer Furlbrow) and his wife who have fled their own farm, [Furlbrow's Pumpkin Patch](Furlbrow's Pumpkin Patch). They give most adventurers their first quests in Westfall.
 
 ## NPCs
-- 
-- 
-- 
--
+- - - -

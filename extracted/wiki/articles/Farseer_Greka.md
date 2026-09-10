@@ -24,14 +24,14 @@ categories: ["Orc characters", "Stonetalon Mountains NPCs", "Turtle WoW content"
 | location | Earthen Ring, Stonetalon Mountains |
 | status | Alive |
 
--Farseer Greka** is an orc quest giver located at the [Earthen Ring](Earthen Ring (Stonetalon Mountains)) in [Stonetalon Mountains](Stonetalon Mountains).
+**Farseer Greka** is an orc quest giver located at the [Earthen Ring](Earthen Ring (Stonetalon Mountains)) in [Stonetalon Mountains](Stonetalon Mountains).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 What a mess. The Earthen Ring has suddenly been overrun with elementals, and many of our members are not present to assist in quelling the chaos. A curious unfortunate coincidence, don't you think?
 
 ## Quests
--  [24] [Gone With The Wind](Gone With The Wind) 
+- [24] [Gone With The Wind](Gone With The Wind) 
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

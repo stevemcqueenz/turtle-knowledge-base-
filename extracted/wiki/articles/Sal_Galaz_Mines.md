@@ -10,7 +10,7 @@ categories: ["Grim Reaches subzones", "Mines", "Trogg territories", "Turtle WoW 
 ---
 # Sal'Galaz Mines
 
--Sal'Galaz Mines** is located in the southeastern part of the [Grim Reaches](Grim Reaches). Formerly occupied by the [Wildhammer dwarves](Wildhammer dwarves) of [Dun Kithas](Dun Kithas), the mine has been overrun by [Bonesplitter](Bonesplitter) troggs ever since a cursed gemstone has been unearthed. (ref: [quest: Reclaiming Sal'Galaz]) The Sal'Galaz Mines kept [Slatebeard's Forge](Slatebeard's Forge) supplied with the ore necessary to outfit the mountaineers of Dun Kithas. (ref: [quest: Ore Must Flow])
+**Sal'Galaz Mines** is located in the southeastern part of the [Grim Reaches](Grim Reaches). Formerly occupied by the [Wildhammer dwarves](Wildhammer dwarves) of [Dun Kithas](Dun Kithas), the mine has been overrun by [Bonesplitter](Bonesplitter) troggs ever since a cursed gemstone has been unearthed. (ref: [quest: Reclaiming Sal'Galaz]) The Sal'Galaz Mines kept [Slatebeard's Forge](Slatebeard's Forge) supplied with the ore necessary to outfit the mountaineers of Dun Kithas. (ref: [quest: Ore Must Flow])
 
 ## References
 ## Patch changes

@@ -13,11 +13,7 @@ categories: ["Burial sites", "Moonwhisper Coast subzones", "Turtle WoW content"]
 The **Ancestral Grounds** are a tauren burial ground in [Moonwhisper Coast](Moonwhisper Coast). The actions of the [Shadewalkers](Shadewalkers) at [An'she's Respite](An'she's Respite) have disturbed the rest of the [Moonhoof ancestors](Disturbed Ancestor), causing them to rise to make their disdain known. (ref: [quest: Back to Sleep])
 
 ## NPCs
-- 
-- 
-- 
-
-## Patch changes
+- - - ## Patch changes
 - (Patch 1.18.1|note=Added.)
 
 ## References

@@ -24,13 +24,13 @@ categories: ["Forsaken characters", "Gilneas NPCs", "Quest givers", "Turtle WoW 
 | location | Stillward Church, Gilneas |
 | status | Active |
 
--Harlan Ballow** is a [Forsaken](Forsaken) quest giver located in [Stillward Church](Stillward Church) in [Gilneas](Gilneas).
+**Harlan Ballow** is a [Forsaken](Forsaken) quest giver located in [Stillward Church](Stillward Church) in [Gilneas](Gilneas).
 
 ## Quests
 - [quest: Foulhide Mongrels] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Dark magic flows through my veins, I am reinvigorated to stand once more. My life was mired with deceit, anguish, and murder, perhaps now I can enact these miseries on those that wrought me to an early grave.
 
 ## Patch changes

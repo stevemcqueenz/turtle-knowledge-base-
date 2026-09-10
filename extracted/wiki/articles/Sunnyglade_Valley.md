@@ -22,7 +22,7 @@ categories: ["Battlegrounds", "Sunnyglade Valley", "Turtle WoW content"]
 | loc | Caverns of Time |
 | territory | Combat |
 
--Sunnyglade Valley** (**SGV** for short) is a [battleground](battleground) located within the depths of the [Caverns of Time](Caverns of Time), representing one of the largest clashes between the forces of the old [Kingdom of Azeroth](Stormwind (kingdom)) and the [Horde](Orcish Horde) during the [First War](First War). Here players will be acting at the behest of the guardian of the timeways, the bronze dragon [Vairozdormu](Vairozdormu), as an agent for the [Wardens of Time](Wardens of Time) and the Bronze dragonflight in their attempts to uncover the ongoing crisis threatening to alter the very fabric of history and the entirety of the modern world.
+**Sunnyglade Valley** (**SGV** for short) is a [battleground](battleground) located within the depths of the [Caverns of Time](Caverns of Time), representing one of the largest clashes between the forces of the old [Kingdom of Azeroth](Stormwind (kingdom)) and the [Horde](Orcish Horde) during the [First War](First War). Here players will be acting at the behest of the guardian of the timeways, the bronze dragon [Vairozdormu](Vairozdormu), as an agent for the [Wardens of Time](Wardens of Time) and the Bronze dragonflight in their attempts to uncover the ongoing crisis threatening to alter the very fabric of history and the entirety of the modern world.
 
 Sunnyglade Valley is a 20v20 Domination Battleground with a focus on uncovering the mystery of the shifting of time through the exploration of the nearby woodlands, as well as the local mines to gather clues.
 
@@ -64,17 +64,17 @@ Sunnyglade Valley gives you opportunity to acquire powerful trinkets. These can 
   - Added 1 Mini Boss for the Alliance and the Horde each: [Lady Katrin](Lady Katrin) and [Blademaster Axon](Blademaster Axon) respectively, and 2 Neutral Mini Bosses in the adjacent mines: [The Black Widow](The Black Widow) and [Krucios the Soulless](Krucios the Soulless).
   - Added 5 new Sunnyglade-only trinkets with unique effects, that will disappear once you leave the battleground. These can be found from the new minibosses and one that's hidden in the battleground map.
   - The Bosses have seen some adjustments:
-  -* Health scaling of bosses has been reduced, so they're easier to kill.
-  -* The bosses in Sunnyglade now properly transform into a black drake at 30% health, changing their abilities.
+  - * Health scaling of bosses has been reduced, so they're easier to kill.
+  - * The bosses in Sunnyglade now properly transform into a black drake at 30% health, changing their abilities.
   - Footmen and Grunts have seen some adjustments: (F&G for short)
-  -* F&G will now use Battle Shout, Shield Slam / Demoralizing Shout, Strike respectively.
-  -* Their levels have been nerfed from 60 to 55, and they now have less health.
+  - * F&G will now use Battle Shout, Shield Slam / Demoralizing Shout, Strike respectively.
+  - * Their levels have been nerfed from 60 to 55, and they now have less health.
   - Some of the creatures are now secretly Infinite Dragonflight agents in disguise, who will reveal their true form when attacked by players. Those that transform into drakonids will now give reputation to your entire team for the Wardens of Time faction.
   - Spark and related objects have seen some adjustments:
-  -* Sparks now actually look like sparks, instead of chests.
-  -* Added smaller spark spawns in empty areas of the map, which only contain 1 spark.
-  -* You can now continue to turn in sparks after the bosses have been summoned in Sunnyglade, and it will affect their health accordingly.
-  -* Turning in sparks now awards you with reputation, and the amount of reputation rewarded at the end of the battleground has been reduced to compensate for this
-  -* Added a healing leaf buff pickup in the empty room of the keep found in the middle of the map.)
+  - * Sparks now actually look like sparks, instead of chests.
+  - * Added smaller spark spawns in empty areas of the map, which only contain 1 spark.
+  - * You can now continue to turn in sparks after the bosses have been summoned in Sunnyglade, and it will affect their health accordingly.
+  - * Turning in sparks now awards you with reputation, and the amount of reputation rewarded at the end of the battleground has been reduced to compensate for this
+  - * Added a healing leaf buff pickup in the empty room of the keep found in the middle of the map.)
 - (Patch 1.16.1|note=Sunnyglade Valley now gives 400 Honor on the win and 120 Honor on defeat to make it more worthwhile for those that are working on rankings.)
 - (Patch 1.16.0|note=Added.)

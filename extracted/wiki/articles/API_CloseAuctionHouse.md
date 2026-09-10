@@ -14,27 +14,27 @@ Will close the AuctionFrame if opened.
  CloseAuctionHouse();
 ----
 
-  - *Arguments***
+** *Arguments***
 
    *none*
 
 ----
 
-  - *Returns***
+** *Returns***
 
   ; nil
 
 ----
 
-  - *Example***
+** *Example***
 
  CloseAuctionHouse();
 
-  - *Result***
+** *Result***
 
 ----
 
-  - *Description***
+** *Description***
 
    Will close the AuctionFrame if opened.
 

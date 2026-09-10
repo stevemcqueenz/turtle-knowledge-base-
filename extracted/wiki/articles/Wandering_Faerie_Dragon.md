@@ -22,7 +22,7 @@ categories: ["Crescent Grove mobs", "Faerie dragons", "Turtle WoW content"]
 | creature | Dragonkin |
 | location | The Crescent Grove |
 
--Wandering Faerie Dragons** are faerie dragons located in the [Crescent Grove](Crescent Grove).
+**Wandering Faerie Dragons** are faerie dragons located in the [Crescent Grove](Crescent Grove).
 
 ## Abilities
 - Mana Burn

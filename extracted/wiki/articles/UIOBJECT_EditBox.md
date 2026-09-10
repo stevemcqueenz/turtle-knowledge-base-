@@ -22,7 +22,7 @@ When you declare an edit box object make sure that you include a FontString elem
        
        <FontString inherits="GameFontNormal"/>
  </EditBox>
--EditBox will not display any text without the FontString object, just the blinking cursor --[watchout](User:Watchout) (7 June 2006, WoW 1.10)*
+*EditBox will not display any text without the FontString object, just the blinking cursor --[watchout](User:Watchout) (7 June 2006, WoW 1.10)*
 
 ## On multi-line and EditBox:SetHeight()
 Note that multi-line EditBoxes will ignore any attempts to set its height via [:SetHeight](API Region SetHeight)() or via Dimension attributes in XML. They will start out the height of a single line of text, and keep expanding their area as needed. This effect becomes visible if the editbox has a backdrop set, or a texture anchored to its corners.

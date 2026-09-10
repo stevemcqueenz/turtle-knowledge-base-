@@ -23,7 +23,7 @@ categories: ["Dwarf characters", "Scarlet Crusade", "Scarlet Enclave NPCs", "Tur
 | creature | Humanoid |
 | location | New Avalon, Scarlet Enclave |
 
--First Mate Dorrul** is a dwarf located in [New Avalon](New Avalon) in the [Scarlet Enclave](Scarlet Enclave). He is being held along with other [Scarlet Prisoner](Scarlet Prisoner)s within a longhouse next to the New Avalon chapel.
+**First Mate Dorrul** is a dwarf located in [New Avalon](New Avalon) in the [Scarlet Enclave](Scarlet Enclave). He is being held along with other [Scarlet Prisoner](Scarlet Prisoner)s within a longhouse next to the New Avalon chapel.
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

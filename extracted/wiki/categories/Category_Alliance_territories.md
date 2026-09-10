@@ -12,5 +12,5 @@ categories: ["Alliance", "Territories"]
 
 This category contains the racial subcategories of territories belonging to the [Alliance](Alliance).
 
-  -See also:**
+**See also:**
 - [Horde territories category](:Category:Horde territories).

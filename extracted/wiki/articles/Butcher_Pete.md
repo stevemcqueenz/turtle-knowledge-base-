@@ -25,7 +25,7 @@ categories: ["Butchers", "Human characters", "Scarlet Crusade", "Tirisfal Glades
 | location | Venomweb Vale, Tirisfal Glade |
 | status | Killable |
 
--Butcher Pete** is a [human](human) located outside of the [Scarlet Citadel](Scarlet Citadel) in [Venomweb Vale](Venomweb Vale) in the [Tirisfal Glades](Tirisfal Glades).
+**Butcher Pete** is a [human](human) located outside of the [Scarlet Citadel](Scarlet Citadel) in [Venomweb Vale](Venomweb Vale) in the [Tirisfal Glades](Tirisfal Glades).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

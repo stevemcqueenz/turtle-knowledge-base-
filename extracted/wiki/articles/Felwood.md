@@ -23,7 +23,7 @@ categories: ["Felwood", "Kalimdor"]
 | minor | Bloodvenom Post, Deadwood Village, Emerald Sanctuary, Felpaw Village, Jadefire Glen, Jadefire Run, Jaedenar |
 | affiliation | Timbermaw tribe, Emerald Circle, Burning Legion, Horde, Alliance |
 
--Felwood** is a contested zone located north of [Ashenvale](Ashenvale), east of [Darkshore](Darkshore), and west of [Hyjal](Hyjal) and [Winterspring](Winterspring). It is a corrupted forest filled with tainted creatures of the woods, demonic [satyr](satyr) and [infernal](infernal)s, rotting [treant](treant)s and [ancient](ancient)s, as well as the [tauren](tauren) and [night elves](Night elf) who try to battle back the sickening of the land. It is also home to one of the two tribes of pure [furbolg](furbolg)s left in the world — the [Timbermaw](Timbermaw).
+**Felwood** is a contested zone located north of [Ashenvale](Ashenvale), east of [Darkshore](Darkshore), and west of [Hyjal](Hyjal) and [Winterspring](Winterspring). It is a corrupted forest filled with tainted creatures of the woods, demonic [satyr](satyr) and [infernal](infernal)s, rotting [treant](treant)s and [ancient](ancient)s, as well as the [tauren](tauren) and [night elves](Night elf) who try to battle back the sickening of the land. It is also home to one of the two tribes of pure [furbolg](furbolg)s left in the world — the [Timbermaw](Timbermaw).
 
 ## Geography
 Although no large villages or major cities exist, Felwood is not entirely abandoned. The furbolgs and satyrs of Felwood have small encampments, and the [Alliance](Alliance), the [Horde](Horde), and the druids of the [Cenarion Circle](Cenarion Circle) have set up an outpost, an encampment, and a homestead in order to try to cure the woods and provide travel through the area.
@@ -36,7 +36,7 @@ There are no dungeons or battlegrounds of any kind in this area.
 |[Bloodvenom Falls](Bloodvenom Falls) • [Bloodvenom Post](Bloodvenom Post) • [Bloodvenom River](Bloodvenom River) • [Deadwood Village](Deadwood Village) • [Emerald Sanctuary](Emerald Sanctuary) • [Felpaw Village](Felpaw Village) • [Irontree Woods](Irontree Woods) ([Irontree Cavern](Irontree Cavern)) • [Jadefire Glen](Jadefire Glen) • [Jadefire Run](Jadefire Run) • [Jaedenar](Jaedenar) ([Shadow Hold](Shadow Hold) • [Shrine of the Deceiver](Shrine of the Deceiver)) • [Morlos'Aran](Morlos'Aran) • [Ruins of Constellas](Ruins of Constellas) • [Shatter Scar Vale](Shatter Scar Vale) ([Shrine of the Betrayer](Shrine of the Betrayer)) • [Talonbranch Glade](Talonbranch Glade) • [Timbermaw Hold](Timbermaw Hold)
 |-
 |
-  -Warcraft III**
+**Warcraft III**
 
 [Banewood Bog](Banewood Bog)
 |}
@@ -99,17 +99,17 @@ There are no dungeons or battlegrounds of any kind in this area.
   - [Star Wood Tree](Star Wood Tree)
 
 ## Wild Creatures
--[Ancient](Ancient)s
--[Bear](Bear)s
--[Dreadlord](Dreadlord)s
--[Felbeast](Felbeast)s
--[Fire Elementals](Fire Elementals)
--[Furbolg](Furbolg)s
--[Infernal](Infernal)s
--[Ooze](Ooze)s
--[Owl](Owl)s
--[Satyr](Satyr)
--[Succubi](Succubi)
--[Treant](Treant)s
--[Water Elemental](Water Elemental)s
--[Wolves](Wolf)
+- [Ancient](Ancient)s
+- [Bear](Bear)s
+- [Dreadlord](Dreadlord)s
+- [Felbeast](Felbeast)s
+- [Fire Elementals](Fire Elementals)
+- [Furbolg](Furbolg)s
+- [Infernal](Infernal)s
+- [Ooze](Ooze)s
+- [Owl](Owl)s
+- [Satyr](Satyr)
+- [Succubi](Succubi)
+- [Treant](Treant)s
+- [Water Elemental](Water Elemental)s
+- [Wolves](Wolf)

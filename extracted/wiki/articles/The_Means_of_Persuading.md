@@ -39,7 +39,7 @@ The report seems incomplete, other than some basic information of the prisoner t
 Reaching for the quill and ink, you note the information you extracted from Vladeus thus finalizing the report.
 
 ## Notes
-  -Speaking with Vladeus Springriver**
+**Speaking with Vladeus Springriver**
 What are they going to do to me? I am sorry for all I have done, I really am.
 
 I regret all of it, and given the chance I will surely make amends.

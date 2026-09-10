@@ -25,13 +25,13 @@ categories: ["Human characters", "Northwind NPCs", "Quest givers", "Stormwind (k
 | status | Alive |
 | relatives | Mirabelle (daughter) |
 
--Old Hamilton** is a [human](human) quest giver located at [Stillheart Port](Stillheart Port) in [Northwind](Northwind).
+**Old Hamilton** is a [human](human) quest giver located at [Stillheart Port](Stillheart Port) in [Northwind](Northwind).
 
 ## Quests
 - [quest: Chopping Defias] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Sir Amberwood is a disgrace to the [Northwind Guard](Northwind Guard). His predecessor would've never allowed Northwind to become this rundown.
 
 ## Patch changes

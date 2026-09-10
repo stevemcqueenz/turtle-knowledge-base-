@@ -24,10 +24,10 @@ categories: ["Dwarf characters", "Turtle WoW content", "Wetlands NPCs"]
 | location | Dun Agrath, Wetlands |
 | status | Alive |
 
--Minisa Dawlish** is a [dwarf](dwarf) located in [Dun Agrath](Dun Agrath) in the [Wetlands](Wetlands).
+**Minisa Dawlish** is a [dwarf](dwarf) located in [Dun Agrath](Dun Agrath) in the [Wetlands](Wetlands).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I'll tell you a secret. Something they don't teach you in your temple. The Gods envy us. They envy us because we're mortal, because any moment might be our last. Everything is more beautiful because we're doomed. You will never be lovelier than you are now. We will never be here again.
 
 ## Trivia

@@ -25,10 +25,10 @@ categories: ["Human characters", "Kul Tiras (kingdom)", "Stormwind City NPCs", "
 | location | Davenburg, Stormwind Harbor, Stormwind City |
 | status | Alive |
 
--Commando Harwall** is a [human](human) located in [Davenburg](Davenburg) in [Stormwind Harbor](Stormwind Harbor) in [Stormwind City](Stormwind City).
+**Commando Harwall** is a [human](human) located in [Davenburg](Davenburg) in [Stormwind Harbor](Stormwind Harbor) in [Stormwind City](Stormwind City).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 My job is to understand the enemy and to find their weak points.
 
 I could comment on the many flaws of Stormwind, but that is not why I am here.

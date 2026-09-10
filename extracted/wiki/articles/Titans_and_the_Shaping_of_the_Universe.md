@@ -10,7 +10,7 @@ categories: ["History of Warcraft", "Lore"]
 ---
 # Titans and the Shaping of the Universe
 
--The Titans and the Shaping of the Universe* is a section of the [History of Warcraft](History of Warcraft), Chapter I.
+*The Titans and the Shaping of the Universe* is a section of the [History of Warcraft](History of Warcraft), Chapter I.
 
 ## Text
 No one knows exactly how the universe began. Some theorize that a catastrophic cosmic explosion sent the infinite worlds spinning out into the vastness of the Great Dark - worlds that would one day bear life forms of wondrous and terrible diversity. Others believe that the universe was created as a whole by a single all-powerful entity. Though the exact origins of the chaotic universe remain uncertain, it is clear that a race of powerful beings arose to bring stability to the various worlds and ensure a safe future for the beings that would follow in their footsteps. 

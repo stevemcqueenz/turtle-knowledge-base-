@@ -10,4 +10,4 @@ categories: ["Elven ruins", "Feralas subzones", "Ogre territories", "Pages with 
 ---
 # Eldreth Row
 
--Eldreth Row** is the outermost area of [Dire Maul](Dire Maul), located outside the instance portals and before the [Broken Commons](Broken Commons).  Numerous [Gordunni](Gordunni) [ogre](ogre)s patrol the area. The [Dire Pool](Dire Pool) is located on the far western side, while one of the entrances to the [Warpwood Quarter](Warpwood Quarter) is on the far eastern side.
+**Eldreth Row** is the outermost area of [Dire Maul](Dire Maul), located outside the instance portals and before the [Broken Commons](Broken Commons).  Numerous [Gordunni](Gordunni) [ogre](ogre)s patrol the area. The [Dire Pool](Dire Pool) is located on the far western side, while one of the entrances to the [Warpwood Quarter](Warpwood Quarter) is on the far eastern side.

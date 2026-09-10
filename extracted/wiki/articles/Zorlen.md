@@ -13,7 +13,7 @@ categories: ["Addon"]
 Zorlen is a comprehensive library of functions that automate and simplify many gameplay actions, from targeting enemies to casting spells and managing inventory.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **Zorlen** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **Zorlen** up to date is by using [GitAddonsManager](Git
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -219,7 +219,7 @@ You can use slash commands in chat to perform various actions:
 ## General Functions
 These functions are useful for all classes in a variety of situations.
 
-  -Items**
+**Items**
 {| class="fandom-table"
 !Function
 !Description
@@ -243,7 +243,7 @@ These functions are useful for all classes in a variety of situations.
 |Returns true if you are diseased.
 |}
 
-  -Combat**
+**Combat**
 {| class="fandom-table"
 !Function
 !Description
@@ -309,7 +309,7 @@ These functions are useful for all classes in a variety of situations.
 |Returns true if your target is of type Dragonkin.
 |}
 
-  -Racial Abilities**
+**Racial Abilities**
 {| class="fandom-table"
 !Function
 !Description
@@ -330,7 +330,7 @@ These functions are useful for all classes in a variety of situations.
 |Casts Will of the Forsaken.
 |}
 
-  -Targeting**
+**Targeting**
 {| class="fandom-table"
 !Function
 !Description
@@ -372,7 +372,7 @@ These functions are useful for all classes in a variety of situations.
 |Targets the closest totem.
 |}
 
-  -Class Identification**
+**Class Identification**
 
 The default unit is "target".
 {| class="fandom-table"
@@ -407,7 +407,7 @@ The default unit is "target".
 |Returns true if the unit is a Warrior.
 |}
 
-  -Tracking**
+**Tracking**
 {| class="fandom-table"
 !Function
 !Description
@@ -467,7 +467,7 @@ The default unit is "target".
 ## Druid Functions
 Check out my Druid Macros page to see many examples of these functions in action.
 
-  -Condition States**
+**Condition States**
 
 This first group of functions check the state of the conditions you can have on yourself or your target.
 {| class="fandom-table"
@@ -550,7 +550,7 @@ This first group of functions check the state of the conditions you can have on 
 |Returns true if Nature's Swiftness is active on yourself.
 |}
 
-  -Shapeshifting**
+**Shapeshifting**
 
 These all behave the same way. If you are already in the form you are trying to shapeshift into, nothing happens. If you are in a feral form, the first invocation will shift to Caster form.
 {| class="fandom-table"
@@ -579,7 +579,7 @@ These all behave the same way. If you are already in the form you are trying to 
 |Shifts to Aquatic form.
 |}
 
-  -Casting Spells**
+**Casting Spells**
 
 All functions will generally cast the highest rank of the spell available at the time of casting.
 
@@ -587,7 +587,7 @@ If you have to be in a certain form to cast the spell, each invocation will shif
 
 Many spells will include a group and self variant. The group version will automatically cast on your party members without removing your current target. The self version will only cast on yourself, no matter what your target is.
 
-  -Buffs**
+**Buffs**
 
 The group variant for buffs is a great convenience. You can just repeatedly use castGroupMarkOfTheWild() to buff your whole party, without having to manually target each of them.
 {| class="fandom-table"
@@ -634,7 +634,7 @@ The group variant for buffs is a great convenience. You can just repeatedly use 
 |Casts Prowl if not already active, shifting to Cat form if necessary.
 |}
 
-  -Attacks / Debuffs**
+**Attacks / Debuffs**
 
 All attack and debuffs won't cast if the target is immune.
 {| class="fandom-table"
@@ -660,7 +660,7 @@ All attack and debuffs won't cast if the target is immune.
 |Casts Wrath on your target.
 |}
 
-  -Healing**
+**Healing**
 
 All the healing spells come in the same set of varieties. One to cast the best rank for the amount of damage taken, one to over-rank and under-rank, and one to cast the max rank all the time.
 
@@ -760,7 +760,7 @@ The group variant will cast on your target if possible, otherwise it will choose
 ## Hunter Functions
 Check out my Hunter Macros page to see many examples of these functions in action.
 
-  -Condition States**
+**Condition States**
 
 This first group of functions check the state of the conditions you can have on yourself or your target.
 {| class="fandom-table"
@@ -831,7 +831,7 @@ This first group of functions check the state of the conditions you can have on 
 |Returns true if Rapid Fire is active on yourself.
 |}
 
-  -Tracking / Buffs**
+**Tracking / Buffs**
 {| class="fandom-table"
 !Function
 !Description
@@ -849,7 +849,7 @@ This first group of functions check the state of the conditions you can have on 
 |Casts the type of tracking that matches your target.
 |}
 
-  -Aspects**
+**Aspects**
 {| class="fandom-table"
 !Function
 !Description
@@ -873,7 +873,7 @@ This first group of functions check the state of the conditions you can have on 
 |Casts Aspect of the Pack if not already active.
 |}
 
-  -Traps**
+**Traps**
 
 The trap functions will cast Feign Death on the first invocation if you are currently in combat. You can spam these while in combat to lay a trap.
 {| class="fandom-table"
@@ -899,7 +899,7 @@ The trap functions will cast Feign Death on the first invocation if you are curr
 |Casts Explosive Trap, casting Feign Death first if necessary.
 |}
 
-  -Melee Attacks**
+**Melee Attacks**
 
 Many of the melee attacks will save enough mana for you to cast Feign Death, since you are typically only using them when things have gone wrong.
 {| class="fandom-table"
@@ -925,7 +925,7 @@ Many of the melee attacks will save enough mana for you to cast Feign Death, sin
 |Casts Wing Clip if target is not immune, saving enough mana to cast Feign Death.
 |}
 
-  -Ranged Attacks**
+**Ranged Attacks**
 
 These functions all cast the different shots. Shot rotation uses an internal timer to calculate the best shot to use for a standard rotation of AutoShot, Aimed Shot, Multi Shot and Feign Death to lose aggro. The variants let you choose whether or not to cast Multi Shot or Feign Death.
 {| class="fandom-table"
@@ -990,7 +990,7 @@ These functions all cast the different shots. Shot rotation uses an internal tim
 |Same, but also puts your pet into passive mode.
 |}
 
-  -Hunter Pet Functions**
+**Hunter Pet Functions**
 {| class="fandom-table"
 !Function
 !Description
@@ -1035,7 +1035,7 @@ These functions all cast the different shots. Shot rotation uses an internal tim
 |Pet will attack your target if target is not in a break-on-damage crowd control.
 |}
 
-  -Pet Skills**
+**Pet Skills**
 
 All pet skills include functions to turn autocasting on and off. This is identical to using the Pet Bar, but can be done from a macro.
 {| class="fandom-table"
@@ -1178,7 +1178,7 @@ All pet skills include functions to turn autocasting on and off. This is identic
 ## Mage Functions
 Check out my Mage Macros page to see many examples of these functions in action.
 
-  -Condition States**
+**Condition States**
 
 This first group of functions check the state of the conditions you can have on yourself or your target.
 {| class="fandom-table"
@@ -1204,7 +1204,7 @@ This first group of functions check the state of the conditions you can have on 
 |Returns true if Ice Armor is active on yourself.
 |}
 
-  -Buffs**
+**Buffs**
 {| class="fandom-table"
 !Function
 !Description
@@ -1222,7 +1222,7 @@ This first group of functions check the state of the conditions you can have on 
 |Casts Mage Armor if not already active.
 |}
 
-  -Attack Spells**
+**Attack Spells**
 {| class="fandom-table"
 !Function
 !Description
@@ -1258,7 +1258,7 @@ This first group of functions check the state of the conditions you can have on 
 |Casts Scorch.
 |}
 
-  -Mana Efficient Variants**
+**Mana Efficient Variants**
 
 The next set of functions require that the Addon MobHealth2 be installed. If it is, they will cast a rank of the spell that most appropriate for the damage remaining on the target.
 {| class="fandom-table"
@@ -1299,7 +1299,7 @@ The next set of functions require that the Addon MobHealth2 be installed. If it 
 ## Paladin Functions
 Many Paladin functions have a shorthand version because the names are so long. Unfortunately, there is not a lot of interesting functions available, so I wrote several new functions on my Paladin Macros page that bring it more in line with the other classes.
 
-  -Auras**
+**Auras**
 {| class="fandom-table"
 !Function
 !Description
@@ -1338,7 +1338,7 @@ Shorthand: isRAA()
 |Returns true if any Aura is active.
 |}
 
-  -Blessings**
+**Blessings**
 {| class="fandom-table"
 !Function
 !Description
@@ -1412,7 +1412,7 @@ Shorthand: isGBoWA()
 |Returns true if any Blessing or Greater Blessing is active on yourself.
 |}
 
-  -Seals**
+**Seals**
 {| class="fandom-table"
 !Function
 !Description
@@ -1444,7 +1444,7 @@ Shorthand: isSotCA()
 |Returns true if Seal of Command, Justice, Light, Righteousness, Wisdom or Crusader is active.
 |}
 
-  -Buffs**
+**Buffs**
 {| class="fandom-table"
 !Function
 !Description
@@ -1462,7 +1462,7 @@ Shorthand: isSotCA()
 |Returns true if Righteous Fury is active.
 |}
 
-  -Casting**
+**Casting**
 {| class="fandom-table"
 !Function
 !Description
@@ -1519,7 +1519,7 @@ Many spells will include a group and self variant. The group version will automa
 
 The group variant will cast on your target if possible, otherwise it will choose a member of your group that needs healing and cast on them. This gives you a manual override by simply targeting the person you want to heal, otherwise you can let it decide while you focus on keeping enemy targets.
 
-  -Condition States**
+**Condition States**
 
 This first group of functions check the state of the conditions you can have on yourself or your target.
 {| class="fandom-table"
@@ -1575,7 +1575,7 @@ This first group of functions check the state of the conditions you can have on 
 |Returns true if Power Word: Shield is active on yourself.
 |}
 
-  -Attack Spells**
+**Attack Spells**
 {| class="fandom-table"
 !Function
 !Description
@@ -1617,7 +1617,7 @@ This first group of functions check the state of the conditions you can have on 
 |Casts Vampiric Embrace on target if not already active.
 |}
 
-  -Utility**
+**Utility**
 {| class="fandom-table"
 !Function
 !Description
@@ -1656,7 +1656,7 @@ This first group of functions check the state of the conditions you can have on 
 |
 |}
 
-  -Healing**
+**Healing**
 
 All the healing spells come in the same set of varieties. One to cast the best rank for the amount of damage taken, one to over-rank and under-rank, and one to cast the max rank all the time. They all will cast on yourself if it can't be cast on your target.
 {| class="fandom-table"
@@ -1743,7 +1743,7 @@ All the healing spells come in the same set of varieties. One to cast the best r
 |}
 
 ## Rogue Functions
-  -Condition States**
+**Condition States**
 
 This first group of functions check the state of the conditions you can have on yourself or your target.
 {| class="fandom-table"
@@ -1778,7 +1778,7 @@ This first group of functions check the state of the conditions you can have on 
 |Returns true if you are sprinting.
 |}
 
-  -Poisons**
+**Poisons**
 
 Valid options for the hand variable are "main" or "off". If you pass nothing to the function, it returns true if the poison is active on either hand.
 {| class="fandom-table"
@@ -1804,7 +1804,7 @@ Valid options for the hand variable are "main" or "off". If you pass nothing to 
 |Returns true if Crippling, Deadly, Instant, Mindnumbing or Wound Poison is active on the given hand.
 |}
 
-  -Attacks**
+**Attacks**
 {| class="fandom-table"
 !Function
 !Description
@@ -1905,7 +1905,7 @@ Unfortunately, there are only a few functions for the Shaman class.
 |}
 
 ## Warlock Functions
-  -Condition States**
+**Condition States**
 
 This first group of functions check the state of the conditions you can have on yourself or your target.
 {| class="fandom-table"
@@ -1972,7 +1972,7 @@ Shorthand: isCoE()
 |Returns true if Nightfall is active on yourself.
 |}
 
-  -Curses**
+**Curses**
 {| class="fandom-table"
 !Function
 !Description
@@ -2010,7 +2010,7 @@ Shorthand: castCoR()
 Shorthand: castCoT()
 |}
 
-  -Crowd Control**
+**Crowd Control**
 {| class="fandom-table"
 !Function
 !Description
@@ -2028,7 +2028,7 @@ Shorthand: castCoT()
 |Casts Curse of Doom, then casts a rank of Banish that has a duration less than the duration left on the Curse of Doom.
 |}
 
-  -Buffs**
+**Buffs**
 {| class="fandom-table"
 !Function
 !Description
@@ -2049,7 +2049,7 @@ Shorthand: castCoT()
 |Casts Shadow Ward.
 |}
 
-  -Utility**
+**Utility**
 {| class="fandom-table"
 !Function
 !Description
@@ -2085,7 +2085,7 @@ Shorthand: castCoT()
 |If Nightfall is active, casts Shadow Bolt. If you don't have Shadow Bolt and the enemy is near death or Corrupted, casts Drain Life, otherwise casts Corruption.
 |}
 
-  -Attacks**
+**Attacks**
 {| class="fandom-table"
 !Function
 !Description
@@ -2127,7 +2127,7 @@ Shorthand: castCoT()
 |Casts Soul Fire on your target if not immune.
 |}
 
-  -DOT Spam**
+**DOT Spam**
 
 These functions will intelligently apply every Damage over Time you have to a particular target. All the alternates let you pick any set of spells to cast.
 {| class="fandom-table"
@@ -2231,7 +2231,7 @@ These functions will intelligently apply every Damage over Time you have to a pa
 |
 |}
 
-  -Warlock Pet Spells**
+**Warlock Pet Spells**
 
 All pet skills include functions to turn autocasting on and off. This is identical to using the Pet Bar, but can be done from a macro.
 {| class="fandom-table"
@@ -2381,7 +2381,7 @@ All pet skills include functions to turn autocasting on and off. This is identic
 |}
 
 ## Warrior Functions
-  -Condition States**
+**Condition States**
 
 This first group of functions check the state of the conditions you can have on yourself or your target.
 {| class="fandom-table"
@@ -2434,7 +2434,7 @@ This first group of functions check the state of the conditions you can have on 
 |Returns true if you are in Berserker Stance.
 |}
 
-  -Stances**
+**Stances**
 {| class="fandom-table"
 !Function
 !Description
@@ -2449,7 +2449,7 @@ This first group of functions check the state of the conditions you can have on 
 |Switches to Berserker Stance.
 |}
 
-  -Debuffs**
+**Debuffs**
 {| class="fandom-table"
 !Function
 !Description
@@ -2467,7 +2467,7 @@ This first group of functions check the state of the conditions you can have on 
 |Casts Piercing Howl.
 |}
 
-  -Buffs**
+**Buffs**
 {| class="fandom-table"
 !Function
 !Description
@@ -2494,7 +2494,7 @@ This first group of functions check the state of the conditions you can have on 
 |Casts Bloodrage if you have over 20% health.
 |}
 
-  -Attacks**
+**Attacks**
 {| class="fandom-table"
 !Function
 !Description

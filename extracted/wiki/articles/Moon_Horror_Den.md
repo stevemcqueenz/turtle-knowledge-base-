@@ -10,4 +10,4 @@ categories: ["Caves", "Pages with broken file links", "Wildkin", "Winterspring s
 ---
 # Moon Horror Den
 
--Moon Horror Den** is a small cave inhabited by [Raging Owlbeasts](Raging Owlbeast). However, they may not always be there, as many players complete [quest: Wild Guardians (1)]. It is situated quite close to [Everlook](Everlook), just a short walk to the northeast from the city gates. Despite its apparent closeness to the [Winterfall Village](Winterfall Village) however, the mountain itself blocks a direct path and a long ride around is needed to head further south from the cave.
+**Moon Horror Den** is a small cave inhabited by [Raging Owlbeasts](Raging Owlbeast). However, they may not always be there, as many players complete [quest: Wild Guardians (1)]. It is situated quite close to [Everlook](Everlook), just a short walk to the northeast from the city gates. Despite its apparent closeness to the [Winterfall Village](Winterfall Village) however, the mountain itself blocks a direct path and a long ride around is needed to head further south from the cave.

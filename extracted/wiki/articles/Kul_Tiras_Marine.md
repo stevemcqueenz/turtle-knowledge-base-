@@ -23,14 +23,14 @@ categories: ["Durotar mobs", "Human characters", "Kul Tiras (kingdom)", "Marines
 | affiliation | Kul Tiras |
 | location | Tiragarde Keep, Durotar |
 
--Kul Tiras Marines** are [human](human)s that can be found in living at [Tiragarde Keep](Tiragarde Keep) with [Kul Tiras Sailor](Kul Tiras Sailor)s under the command of [Lieutenant Benedict](Lieutenant Benedict) in eastern [Durotar](Durotar).
+**Kul Tiras Marines** are [human](human)s that can be found in living at [Tiragarde Keep](Tiragarde Keep) with [Kul Tiras Sailor](Kul Tiras Sailor)s under the command of [Lieutenant Benedict](Lieutenant Benedict) in eastern [Durotar](Durotar).
 
 ## Abilities
--Shield Bash
+- Shield Bash
 
 ## Objective of
 - Drop [Canvas Scraps](Canvas Scraps) for [quest: Carry Your Weight].
 - [quest: Vanquish the Betrayers]
 
 ## Patch changes
--  **[Hotfix](https://forum.turtlecraft.gg/viewtopic.php?f=63&t=10667) (2023-10-07):** Faction changed from [Stormwind](Stormwind (faction)) to [Kul Tiras](Kul Tiras (faction)).
+- **[Hotfix](https://forum.turtlecraft.gg/viewtopic.php?f=63&t=10667) (2023-10-07):** Faction changed from [Stormwind](Stormwind (faction)) to [Kul Tiras](Kul Tiras (faction)).

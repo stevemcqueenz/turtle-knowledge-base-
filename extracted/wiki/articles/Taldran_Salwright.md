@@ -25,7 +25,7 @@ categories: ["Argent Dawn", "Brotherhood of the Light", "Human characters", "Sca
 | location | Light's Point, Scarlet Enclave |
 | status | Alive |
 
--Taldran Salwright** is a [human](human) located in the guard tower at [Light's Point](Light's Point) in the [Scarlet Enclave](Scarlet Enclave).
+**Taldran Salwright** is a [human](human) located in the guard tower at [Light's Point](Light's Point) in the [Scarlet Enclave](Scarlet Enclave).
 
 ## Quotes
 I am in my homeland, defending what is important to me, be it from those crazed zealots, or from the undead themselves. Light's Point will establish what once was.

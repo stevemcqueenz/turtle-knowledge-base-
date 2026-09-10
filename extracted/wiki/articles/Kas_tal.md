@@ -25,7 +25,7 @@ categories: ["Blasted Lands NPCs", "Draenei characters", "Quest givers", "Turtle
 | mentors | Akh Z'ador (master) |
 | status | Alive |
 
--Kas'tal** is a [draenei](draenei) [quest giver](quest giver) near the [Dark Portal](Dark Portal) in the [Blasted Lands](Blasted Lands). The apprentice of the [riftwalker](riftwalker) [Akh Z'ador](Akh Z'ador), he was sent to survey suspicious fluctuations near the [Dark Portal](Dark Portal) prior to his master's departure to search for the remainder of their tribe. (ref: [quest: Novice In A Barren Land])
+**Kas'tal** is a [draenei](draenei) [quest giver](quest giver) near the [Dark Portal](Dark Portal) in the [Blasted Lands](Blasted Lands). The apprentice of the [riftwalker](riftwalker) [Akh Z'ador](Akh Z'ador), he was sent to survey suspicious fluctuations near the [Dark Portal](Dark Portal) prior to his master's departure to search for the remainder of their tribe. (ref: [quest: Novice In A Barren Land])
 
 ## Quests
 - [quest: Novice In A Barren Land] 
@@ -33,7 +33,7 @@ categories: ["Blasted Lands NPCs", "Draenei characters", "Quest givers", "Turtle
 - [quest: Fate Of The Harborage] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 There are many things to learn, and much wisdom to be passed down.
 
 We exiles have a lot to teach the other races of this world.

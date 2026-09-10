@@ -10,7 +10,7 @@ categories: ["Quest items", "Readable items", "Turtle WoW content"]
 ---
 # Soaked Scroll
 
--Soaked Scroll** drops from [Sea Herald](Sea Herald).
+**Soaked Scroll** drops from [Sea Herald](Sea Herald).
 
 ## As a quest objective
 - Drops from [Sea Herald](Sea Herald) for [quest: A Dark Tide Will Rise].

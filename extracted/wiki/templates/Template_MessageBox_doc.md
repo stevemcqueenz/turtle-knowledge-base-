@@ -16,7 +16,7 @@ It is highly customizable with classes, inline styles, and provided CSS selector
 
 It uses the [Lua templating language](w:Help:Lua), and more information can be found [on the Global Lua Module page](w:c:dev:Global_Lua_Modules/Mbox). This version is modified to produce a starter style, based on the [basic style from the module](w:c:dev:mediawiki:Global Lua Modules/Mbox.css). To use the full capabilities of this module and remove the default styling, remove the indicated portions of [Module:Mbox](Module:Mbox). 
 
-  -For a traditional wikitext version of this template, see [Ambox on Templates Wiki](w:c:templates:Template:Ambox)**.
+**For a traditional wikitext version of this template, see [Ambox on Templates Wiki](w:c:templates:Template:Ambox)**.
 
 ## Parameters
 For examples of how to use these parameters, see [#Examples](#Examples).
@@ -165,7 +165,7 @@ Some communities may wish to customize the appearance of the mboxes. The most co
 }
 </syntaxhighlight>
 
-  - Technical notes**
+** Technical notes**
 - Additional inline styles to the root <code>.mbox</code> element can be achieved via the <code>style</code> parameter in the template.
 
 ## Examples

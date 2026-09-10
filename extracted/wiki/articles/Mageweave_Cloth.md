@@ -13,4 +13,4 @@ categories: ["Cloth items"]
 A fine [cloth](cloth) woven with magic.
 
 ## Source
-  -Mageweave Cloth** is [drop](drop)ped from any number of mid- to high-level [humanoid](humanoid)s.
+**Mageweave Cloth** is [drop](drop)ped from any number of mid- to high-level [humanoid](humanoid)s.

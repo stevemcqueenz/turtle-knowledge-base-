@@ -14,12 +14,12 @@ categories: ["Burning Legion", "Demons", "Forsaken", "Major Characters", "NPCs",
 A [Dreadlord](Nathrezim) of the [Nathrezim](Nathrezim) once in the service of the [Burning Legion](Burning Legion) under [Kil'jaeden's](Kil'jaeden) command, **Varimathras** was forced into allying with the [Forsaken](Forsaken) under the direct control of [Sylvanas Windrunner](Sylvanas Windrunner) in exchange for sparing his life after he and his brothers were overcome by her [undead](undead) forces. He now resides within the Royal Quarter of the [Undercity](Undercity) standing by at [Sylvanas](Sylvanas)'s side, answering to her every beck and call.
 
 ## Quests
--  [13] The Deathstalkers [(tb)](http://www.thottbot.com/m?qu=1978) *Step 5 in Rogue quest, [The Deathstalkers](http://www.thottbot.com/m?qu=1885)*.
--  [16] The Power to Destroy [(tb)](http://www.thottbot.com/m?qu=5725)
--  [32] Battle of Hillsbrad [(tb)](http://www.thottbot.com/m?qu=550) *Step 7 in the [Battle of Hillsbrad](http://www.thottbot.com/m?qu=527) questline.*
--  [38] An unholy Alliance [(tb)](http://www.thottbot.com/m?qu=6521) *Starts with a [small scroll](http://www.thottbot.com/m?i=6529) drop off of [Charlga Razorflank](Charlga Razorflank).*
--  [42] Into the Scarlet Monastery [(tb)](http://www.thottbot.com/m?qu=1048)
--  [61] The Crimson Courier [(tb)](http://www.thottbot.com/m?qu=6145) *Can only be obtained after finishing all of [Nathanos Blightcaller](Nathanos Blightcaller)s' quests.*
+- [13] The Deathstalkers [(tb)](http://www.thottbot.com/m?qu=1978) *Step 5 in Rogue quest, [The Deathstalkers](http://www.thottbot.com/m?qu=1885)*.
+- [16] The Power to Destroy [(tb)](http://www.thottbot.com/m?qu=5725)
+- [32] Battle of Hillsbrad [(tb)](http://www.thottbot.com/m?qu=550) *Step 7 in the [Battle of Hillsbrad](http://www.thottbot.com/m?qu=527) questline.*
+- [38] An unholy Alliance [(tb)](http://www.thottbot.com/m?qu=6521) *Starts with a [small scroll](http://www.thottbot.com/m?i=6529) drop off of [Charlga Razorflank](Charlga Razorflank).*
+- [42] Into the Scarlet Monastery [(tb)](http://www.thottbot.com/m?qu=1048)
+- [61] The Crimson Courier [(tb)](http://www.thottbot.com/m?qu=6145) *Can only be obtained after finishing all of [Nathanos Blightcaller](Nathanos Blightcaller)s' quests.*
 
 ## General
 During the [Third War](Third War), the [Dreadlords](Dreadlords), or [Nathrezim](Nathrezim), were tasked with leading the armies of the [Burning Legion](Burning Legion) into battle. They served as field commanders and tacticians and commanded the troops from behind the front lines. The Dreadlords were responsible for the summoning of [Archimonde](Archimonde) the Defiler, who served as General for the demonic forces. It was the Dreadlords [Mal'ganis](Mal'ganis) and [Tichondrius](Tichondrius) who first spread the taint and corruption of the Legion across [Lordaeron](Lordaeron) and [Felwood](Felwood) respectively, and after their deaths by the hands of the enemies of the [Scourge](Scourge), it was [Varimathras](Varimathras) and his brothers, [Detheroc](Detheroc) and [Balnazzar](Balnazzar), who were put in charge of the [undead](undead) forces in Lordaeron while Archimonde took his forces across the sea to [Kalimdor](Kalimdor) to siphon energy from the World Tree [Nordrassil](Nordrassil) on [Mount Hyjal](Mount Hyjal).

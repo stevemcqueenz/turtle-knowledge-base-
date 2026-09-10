@@ -25,13 +25,13 @@ categories: ["Dustwallow Marsh NPCs", "Human characters", "Quest givers", "Thera
 | status | Alive |
 | relatives | Boris (son),, Alessa (daughter) |
 
--Markus Farwind** is a [human](human) [quest giver](quest giver) located at the [Theramore Isle](Theramore Isle) in [Dustwallow Marsh](Dustwallow Marsh).
+**Markus Farwind** is a [human](human) [quest giver](quest giver) located at the [Theramore Isle](Theramore Isle) in [Dustwallow Marsh](Dustwallow Marsh).
 
 ## Quests
 - [quest: Far From Home] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Isn't this just a beautiful day?
 
 ## Patch changes

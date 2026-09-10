@@ -10,7 +10,7 @@ categories: ["Booty Bay shops"]
 ---
 # Plate-n-Chain (Booty Bay)
 
--Plate-n-Chain** is a shop located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). It's run by [Fargon Mortalak](Fargon Mortalak) and [Hurklor](Hurklor).
+**Plate-n-Chain** is a shop located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). It's run by [Fargon Mortalak](Fargon Mortalak) and [Hurklor](Hurklor).
 
 ## See also
--[Plate-n-Chain (Ratchet)](Plate-n-Chain (Ratchet))
+- [Plate-n-Chain (Ratchet)](Plate-n-Chain (Ratchet))

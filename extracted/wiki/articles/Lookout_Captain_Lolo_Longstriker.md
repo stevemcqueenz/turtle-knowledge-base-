@@ -26,4 +26,4 @@ categories: ["Blind characters", "Dark Iron dwarf characters", "Lookouts", "Page
 | location | Thorium Point, Searing Gorge |
 | status | Alive |
 
--Lookout Captain Lolo Longstriker** can be found at [Thorium Point](Thorium Point) in [Searing Gorge](Searing Gorge).
+**Lookout Captain Lolo Longstriker** can be found at [Thorium Point](Thorium Point) in [Searing Gorge](Searing Gorge).

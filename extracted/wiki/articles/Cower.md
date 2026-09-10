@@ -10,6 +10,6 @@ categories: ["Druid Abilities"]
 ---
 # Cower
 
--Cower, causing no damage but lowering your threat a small amount, making the enemy less likely to attack you.*
+*Cower, causing no damage but lowering your threat a small amount, making the enemy less likely to attack you.*
 
 A basic aggro reduction ability.

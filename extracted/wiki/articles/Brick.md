@@ -24,10 +24,10 @@ categories: ["Gnome characters", "Northwind NPCs", "Turtle WoW content"]
 | location | Ambershire, Northwind |
 | status | Alive |
 
--Brick** is a [gnome](gnome) located in [Ambershire](Ambershire) in [Northwind](Northwind).
+**Brick** is a [gnome](gnome) located in [Ambershire](Ambershire) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 New around here, are you? I hope you won't be causing any trouble. Otherwise, you'll have to face me. People call me Brick—I might not look like much, but my head is as strong as a piece of obsidian. So unless your chin wishes to meet my forehead, I'd suggest you stay clear of trouble.
 
 ## Patch changes

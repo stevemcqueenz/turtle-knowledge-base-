@@ -10,4 +10,4 @@ categories: ["Blasted Lands subzones", "Burning Legion territories", "Caves"]
 ---
 # Serpent's Coil
 
--Serpent's Coil** is a winding cave system that had been occupied by evil cultists worshipping [Kirith the Damned](Kirith the Damned). It is located in the eastern area of the [Blasted Lands](Blasted Lands), in sight of [Nethergarde Keep](Nethergarde Keep). Several burnt-out [orcish](orcish) structures stand here, remnants from the [Second War](Second War). [Archmage Allistarj](Archmage Allistarj) operates his [Shadowsworn](Shadowsworn) forces from within this small labyrinth.
+**Serpent's Coil** is a winding cave system that had been occupied by evil cultists worshipping [Kirith the Damned](Kirith the Damned). It is located in the eastern area of the [Blasted Lands](Blasted Lands), in sight of [Nethergarde Keep](Nethergarde Keep). Several burnt-out [orcish](orcish) structures stand here, remnants from the [Second War](Second War). [Archmage Allistarj](Archmage Allistarj) operates his [Shadowsworn](Shadowsworn) forces from within this small labyrinth.

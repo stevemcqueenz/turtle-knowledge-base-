@@ -16,57 +16,21 @@ While [Cairne Bloodhoof](Cairne Bloodhoof) himself holds a certain fondness for 
 
 ## Bloodhoof Village NPCs
 ### Quest Givers
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
--  ([Lunar Festival](Lunar Festival))(just north of Bloodhoof Village)
+- - - - - - - - - - - - ([Lunar Festival](Lunar Festival))(just north of Bloodhoof Village)
 
 ### Class Trainers
-- 
-- 
-- 
-- 
-- 
-
-### Profession (Tradeskill) Trainers
-- 
-- 
-- (just west of Bloodhoof Village)
-- 
-- 
-
-### Merchants
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-### Various Services
--  - (Directions)
--  - (Directions)
--  - (Directions)
--  - (Directions)
--  - (Directions)
--  - (Directions)
--  - (Directions)
--  - (Directions)
--  - (Directions)
--  - (Directions)
-- 
-- 
-
-## See also
+- - - - - ### Profession (Tradeskill) Trainers
+- - - (just west of Bloodhoof Village)
+- - ### Merchants
+- - - - - - - - - - ### Various Services
+- - (Directions)
+- - (Directions)
+- - (Directions)
+- - (Directions)
+- - (Directions)
+- - (Directions)
+- - (Directions)
+- - (Directions)
+- - (Directions)
+- - (Directions)
+- - ## See also

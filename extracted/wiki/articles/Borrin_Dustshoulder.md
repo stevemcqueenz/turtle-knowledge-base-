@@ -25,7 +25,7 @@ categories: ["Dwarf characters", "General goods vendors", "Stonetalon Mountains 
 | location | Bael Hardul, Stonetalon Mountains |
 | status | Alive |
 
--Borrin Dustshoulder** is a [dwarf](dwarf) general goods vendor located in [Hardul Distillery](Hardul Distillery) in [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains).
+**Borrin Dustshoulder** is a [dwarf](dwarf) general goods vendor located in [Hardul Distillery](Hardul Distillery) in [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains).
 
 ## Patch changes
 - (Patch 1.16.4|note=Added.)

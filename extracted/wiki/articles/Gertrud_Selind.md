@@ -27,14 +27,14 @@ categories: ["Aristocrats", "Human characters", "Northwind NPCs", "Stormwind (ki
 Lady **Gertrud Selind** is a [human](human) located at [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I regret every single minute of my precious time I'm still spending in this dump! My entourage and I traveled here from my estate in Stormwind past all the horrible dangers in the woods. My goal was to gain influence with his Lordship and acquire a semi-serious footing in the wealthy lands of Northwind. But now my custom fashioned purse with my sigil ring had been stolen from me, even thought I had it on me at all times! To think someone put his revolting fingers on me makes me want to puke.
 
   > Gossip: *Sounds like you're in need of some assistance.*
 
   I hate how right you are, peasant. [This letter here](Perfumed Letter (1)) is all I have for clues. I found it instead of my purse in my belongings. Take it and use it to bring me back my purse, now!
 
-  -With [Lady Selind's Purse](Lady Selind's Purse)**
+**With [Lady Selind's Purse](Lady Selind's Purse)**
 
   > Gossip: *Lady Selind, is this your purse?*
 

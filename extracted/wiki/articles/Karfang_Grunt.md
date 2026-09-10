@@ -24,7 +24,7 @@ categories: ["Blackrock clan", "Burning Steppes NPCs", "Guards", "Orc characters
 | gender | Male |
 | location | Karfang Hold, Burning Steppes |
 
--Karfang Grunts** are orc guards defending the town of [Karfang Hold](Karfang Hold) in the [Burning Steppes](Burning Steppes).
+**Karfang Grunts** are orc guards defending the town of [Karfang Hold](Karfang Hold) in the [Burning Steppes](Burning Steppes).
 
 ## Patch changes
 - (Patch 1.16.1|note=Added.)

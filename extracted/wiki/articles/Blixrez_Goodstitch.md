@@ -25,6 +25,6 @@ categories: ["Booty Bay characters", "Goblin characters", "Leatherworking vendor
 | location | Booty Bay, Stranglethorn Vale |
 | status | Alive |
 
--Blixrez Goodstitch** is a [goblin](goblin) [leatherworking](leatherworking) [vendor](vendor) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). Here he runs the [Tan-Your-Hide Leatherworks](Tan-Your-Hide Leatherworks) with [Qixdi Goodstitch](Qixdi Goodstitch).
+**Blixrez Goodstitch** is a [goblin](goblin) [leatherworking](leatherworking) [vendor](vendor) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). Here he runs the [Tan-Your-Hide Leatherworks](Tan-Your-Hide Leatherworks) with [Qixdi Goodstitch](Qixdi Goodstitch).
 
 ## External links

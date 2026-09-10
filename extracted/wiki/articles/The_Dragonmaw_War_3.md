@@ -25,7 +25,7 @@ categories: ["Alliance quests", "Grim Reaches quests", "Quests at 33", "Turtle W
 
 ## Objectives
 Recover the Banner of Baggoth from the top of [Baggoth Rampart](Baggoth Rampart) and return it to [Mountaineer Steelwind](Mountaineer Steelwind).
--[Banner of Baggoth](Banner of Baggoth)
+- [Banner of Baggoth](Banner of Baggoth)
 
 ## Description
 There's one thing I can't abide — leaving behind the banner of a true dwarven hero.
@@ -38,10 +38,10 @@ Climb the rampart, fight your way through the Dragonmaw scum, and retrieve that 
 
 ## Rewards
 You will receive:
--[Shield of Baggoth](Shield of Baggoth)
--2600XP
--+200 [reputation](reputation) with [Wildhammer Clan](Wildhammer Clan)
--+200 [reputation](reputation) with [Ironforge](Ironforge (faction))
+- [Shield of Baggoth](Shield of Baggoth)
+- 2600XP
+- +200 [reputation](reputation) with [Wildhammer Clan](Wildhammer Clan)
+- +200 [reputation](reputation) with [Ironforge](Ironforge (faction))
 
 ## Progress
 I'll not rest easy until that banner is back where it belongs.

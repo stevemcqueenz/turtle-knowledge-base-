@@ -10,29 +10,14 @@ categories: ["Islands", "South Seas", "Stranglethorn Vale subzones", "Zandalaria
 ---
 # Yojamba Isle
 
--Yojamba Isle** is a small group of tiny islands found in the northwestern corner of [Stranglethorn Vale](Stranglethorn Vale), near the border with [Westfall](Westfall) and northwest of the [haunted isle](haunted isle) and the [Vile Reef](Vile Reef). This island is occupied by the [Zandalar Tribe](Zandalar Tribe) to recruit the help of the [Alliance](Alliance) and the [Horde](Horde) to defeat [Hakkar the Soulflayer](Hakkar the Soulflayer) in [Zul'Gurub](Zul'Gurub).
+**Yojamba Isle** is a small group of tiny islands found in the northwestern corner of [Stranglethorn Vale](Stranglethorn Vale), near the border with [Westfall](Westfall) and northwest of the [haunted isle](haunted isle) and the [Vile Reef](Vile Reef). This island is occupied by the [Zandalar Tribe](Zandalar Tribe) to recruit the help of the [Alliance](Alliance) and the [Horde](Horde) to defeat [Hakkar the Soulflayer](Hakkar the Soulflayer) in [Zul'Gurub](Zul'Gurub).
 
 ## Inhabitants
-  -Quest givers**
--
--
--
--
-
-  -Class quest givers**
--
--
--
--
-
-  -Other**
--
--
--
--
-
-## Notes
+**Quest givers**
+- - - - ;Class quest givers
+- - - - ;Other
+- - - - ## Notes
 - To the north there is a gigantic gate, the only way for the Defias Juggernaught to leave the [Ironclad Cove](Ironclad Cove).
 
 ## Patch changes
--  **Patch 1.7.0 (2005-09-13):** Added.
+- **Patch 1.7.0 (2005-09-13):** Added.

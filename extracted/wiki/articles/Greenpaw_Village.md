@@ -10,4 +10,4 @@ categories: ["Ashenvale subzones", "Foulweald", "Furbolg territories", "Pages wi
 ---
 # Greenpaw Village
 
--Greenpaw Village** is located in central [Ashenvale](Ashenvale), south of [Raynewood Retreat](Raynewood Retreat), northeast of [Silverwind Refuge](Silverwind Refuge), and northwest of the southern [moonwell](Moonwell (Ashenvale)). It is the home of the [Foulweald](Foulweald) furbolgs, led by [Chief Murgut](Chief Murgut) and the shaman [Oakpaw](Oakpaw). Both [Horde](Horde) and [Alliance](Alliance) adventurers frequently come to Greenpaw to battle the corrupted bearmen.
+**Greenpaw Village** is located in central [Ashenvale](Ashenvale), south of [Raynewood Retreat](Raynewood Retreat), northeast of [Silverwind Refuge](Silverwind Refuge), and northwest of the southern [moonwell](Moonwell (Ashenvale)). It is the home of the [Foulweald](Foulweald) furbolgs, led by [Chief Murgut](Chief Murgut) and the shaman [Oakpaw](Oakpaw). Both [Horde](Horde) and [Alliance](Alliance) adventurers frequently come to Greenpaw to battle the corrupted bearmen.

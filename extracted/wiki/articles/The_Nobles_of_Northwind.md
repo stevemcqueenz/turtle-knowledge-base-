@@ -10,7 +10,7 @@ categories: ["Readable items", "Turtle WoW content"]
 ---
 # The Nobles of Northwind
 
--The Nobles of Northwind** is a book that can be bought from [Trevor Melain](Trevor Melain) in [Ambershire](Ambershire) in [Northwind](Northwind).
+**The Nobles of Northwind** is a book that can be bought from [Trevor Melain](Trevor Melain) in [Ambershire](Ambershire) in [Northwind](Northwind).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

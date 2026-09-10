@@ -13,7 +13,5 @@ categories: ["Farms", "Gilneas subzones", "Human territories", "Turtle WoW conte
 The **Mossgrove Farm** is an abandoned farmland located on the hills across below from [Stillward Church](Stillward Church) in [Gilneas](Gilneas). The Mossgrove family is no longer present on their farmland, its sole inhabitant being [Aliattan Anderson](Aliattan Anderson), who was seeking refuge away from his haunting by one of the [Widows of the Wood](Widows of the Wood).
 
 ## NPCs
-- 
-
-## Patch changes
+- ## Patch changes
 - (Patch 1.17.0|note=Added.)

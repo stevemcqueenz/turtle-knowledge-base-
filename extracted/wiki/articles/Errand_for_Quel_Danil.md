@@ -47,7 +47,7 @@ Yes, <class>? What brings you here?
 You have my deepest gratitude, <class>, and of course I'll make sure to thank Loania, too. You must be curious why a human is among us. If you are interested, then I shall tell you...
 
 ## Notes
-  -Upon completion**
+**Upon completion**
   **Voldana says:** Loania and her sister Lieren are the daughters of a Human paladin named Dougan. I have known Dougan since the Second war when we fought the Horde together.
   **Voldana says:** During the Second war, Dougan, myself, and a dwarf of the Wildhammer clan known as Kardan were close companions. After the war, Dougan and his wife Adena settled down in Grand Hamlet.
   **Voldana says:** Grand Hamlet later fell under a curse and became known as Darkshire, but I digress. One day, Dougan heard reports of villagers disappearing in the nearby cursed tower known as Karazhan. He summoned Kardan and I, and together we entered the tower to attempt a rescue.

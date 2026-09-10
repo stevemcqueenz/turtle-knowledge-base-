@@ -51,25 +51,25 @@ WorldMap-Hinterlands-old1.jpg|The Hinterlands prior to [patch 1.5.0](patch 1.5.0
 |}
 
 ### Elite areas
--[Jintha'Alor](Jintha'Alor)
--[Seradane](Seradane)
+- [Jintha'Alor](Jintha'Alor)
+- [Seradane](Seradane)
 
 ### Travel hubs
 ##### [Flight path](Flight path)s from [Aerie Peak](Aerie Peak)
--[Ironforge](Ironforge), [Dun Morogh](Dun Morogh)
--[Southshore](Southshore), [Hillsbrad Foothills](Hillsbrad Foothills)
--[Refuge Pointe](Refuge Pointe), [Arathi Highlands](Arathi Highlands)
--[Chillwind Camp](Chillwind Camp), [Western Plaguelands](Western Plaguelands)
--[Light's Hope Chapel](Light's Hope Chapel), [Eastern Plaguelands](Eastern Plaguelands)
+- [Ironforge](Ironforge), [Dun Morogh](Dun Morogh)
+- [Southshore](Southshore), [Hillsbrad Foothills](Hillsbrad Foothills)
+- [Refuge Pointe](Refuge Pointe), [Arathi Highlands](Arathi Highlands)
+- [Chillwind Camp](Chillwind Camp), [Western Plaguelands](Western Plaguelands)
+- [Light's Hope Chapel](Light's Hope Chapel), [Eastern Plaguelands](Eastern Plaguelands)
 
 ##### [Flight path](Flight path)s from [Revantusk Village](Revantusk Village)
--[Undercity](Undercity), [Tirisfal Glades](Tirisfal Glades)
--[Tarren Mill](Tarren Mill), [Hillsbrad Foothills](Hillsbrad Foothills)
--[Hammerfall](Hammerfall), [Arathi Highlands](Arathi Highlands)
--[Light's Hope Chapel](Light's Hope Chapel), [Eastern Plaguelands](Eastern Plaguelands)
+- [Undercity](Undercity), [Tirisfal Glades](Tirisfal Glades)
+- [Tarren Mill](Tarren Mill), [Hillsbrad Foothills](Hillsbrad Foothills)
+- [Hammerfall](Hammerfall), [Arathi Highlands](Arathi Highlands)
+- [Light's Hope Chapel](Light's Hope Chapel), [Eastern Plaguelands](Eastern Plaguelands)
 
 ##### Boat destinations from [Revantusk Village](Revantusk Village)
--[Sparkwater Port](Sparkwater Port), [Durotar](Durotar)
+- [Sparkwater Port](Sparkwater Port), [Durotar](Durotar)
 
 ### Adjacent regions
 {| class="fandom-table"
@@ -89,44 +89,44 @@ WorldMap-Hinterlands-old1.jpg|The Hinterlands prior to [patch 1.5.0](patch 1.5.0
 |}
 
 ## Resources
--Fish
-  -[Raw Nightfin Snapper](Raw Nightfin Snapper)
--Herbs
-  -[Liferoot](Liferoot)
-  -[Fadeleaf](Fadeleaf)
-  -[Goldthorn](Goldthorn)
-  -[Khadgar's Whisker](Khadgar's Whisker)
-  -[Purple Lotus](Purple Lotus)
-  -[Wildvine](Wildvine)
-  -[Ghost Mushroom](Ghost Mushroom)
-  -[Golden Sansam](Golden Sansam)
-  -[Sungrass](Sungrass)
--Leather
-  -[Turtle Scale](Turtle Scale)
--Ores
-  -[Gold Vein](Gold Vein)
-  -[Iron Deposit](Iron Deposit)
-  -[Mithril Deposit](Mithril Deposit)
-  -[Truesilver Deposit](Truesilver Deposit)
-  -[Small Thorium Vein](Small Thorium Vein)
+- Fish
+  - [Raw Nightfin Snapper](Raw Nightfin Snapper)
+- Herbs
+  - [Liferoot](Liferoot)
+  - [Fadeleaf](Fadeleaf)
+  - [Goldthorn](Goldthorn)
+  - [Khadgar's Whisker](Khadgar's Whisker)
+  - [Purple Lotus](Purple Lotus)
+  - [Wildvine](Wildvine)
+  - [Ghost Mushroom](Ghost Mushroom)
+  - [Golden Sansam](Golden Sansam)
+  - [Sungrass](Sungrass)
+- Leather
+  - [Turtle Scale](Turtle Scale)
+- Ores
+  - [Gold Vein](Gold Vein)
+  - [Iron Deposit](Iron Deposit)
+  - [Mithril Deposit](Mithril Deposit)
+  - [Truesilver Deposit](Truesilver Deposit)
+  - [Small Thorium Vein](Small Thorium Vein)
 - Lumber
   - [Shade Wood Tree](Shade Wood Tree)
 
 ## Wild creatures
--[Dragonspawn](Dragonspawn)
--[Forest troll](Forest troll)s
--[Green dragon](Green dragon)s
--[Gryphon](Gryphon)s
--[High elves](High elf)
--[Moonkin](Moonkin)
--[Ooze](Ooze)s
--[Shark](Shark)s
--[Turtle](Turtle)s
--[Wolves](Wolf)
+- [Dragonspawn](Dragonspawn)
+- [Forest troll](Forest troll)s
+- [Green dragon](Green dragon)s
+- [Gryphon](Gryphon)s
+- [High elves](High elf)
+- [Moonkin](Moonkin)
+- [Ooze](Ooze)s
+- [Shark](Shark)s
+- [Turtle](Turtle)s
+- [Wolves](Wolf)
 
 ## Patch changes
 - (Patch 1.16.0|note=Zone expanded; [the Rasaz Trail](Rasaz Trail) added.)
--  **Patch 1.5.0  (2005-06-07):**
-  -The Hinterlands has a new Horde quest hub known as Revantusk Village, located on the eastern coastline.
-  -A new graveyard has been added near the east coast of the Hinterlands at the Overlook Cliffs.
-  -The two Hinterlands graveyards are now using a system that will ensure that the spirits of dead characters go to the closest graveyard.
+- **Patch 1.5.0  (2005-06-07):**
+  - The Hinterlands has a new Horde quest hub known as Revantusk Village, located on the eastern coastline.
+  - A new graveyard has been added near the east coast of the Hinterlands at the Overlook Cliffs.
+  - The two Hinterlands graveyards are now using a system that will ensure that the spirits of dead characters go to the closest graveyard.

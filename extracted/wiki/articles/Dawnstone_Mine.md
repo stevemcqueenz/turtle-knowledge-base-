@@ -10,14 +10,10 @@ categories: ["Gilneas subzones", "Gnoll territories", "Mines", "Turtle WoW conte
 ---
 # Dawnstone Mine
 
--Dawnstone Mine** is a mine shaft that rune beneath [Gilneas City](Gilneas City) in [Gilneas](Gilneas). It is the only known source in the world of [Dawnstone Ore](Dawnstone Ore), a valuable and highly magical and energy-resistant (ref: [quest: The Dawnstone Coupler]) metal that was used to fashion the armor of the paladins of the [Silver Hand](Silver Hand) during the [Second War](Second War). It is believed by some that dawnstone was brought to the surface by a curse of some sort. (ref: [quest: Legend of Dawnstone]) The mine is currently overrun by gnolls of the Foulhide pack.
+**Dawnstone Mine** is a mine shaft that rune beneath [Gilneas City](Gilneas City) in [Gilneas](Gilneas). It is the only known source in the world of [Dawnstone Ore](Dawnstone Ore), a valuable and highly magical and energy-resistant (ref: [quest: The Dawnstone Coupler]) metal that was used to fashion the armor of the paladins of the [Silver Hand](Silver Hand) during the [Second War](Second War). It is believed by some that dawnstone was brought to the surface by a curse of some sort. (ref: [quest: Legend of Dawnstone]) The mine is currently overrun by gnolls of the Foulhide pack.
 
 ## NPCs
-- 
-- 
-- 
-
-## Patch changes
+- - - ## Patch changes
 - (Patch 1.17.0|note=Added.)
 
 ## References

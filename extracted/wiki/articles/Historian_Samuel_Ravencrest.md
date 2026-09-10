@@ -25,7 +25,7 @@ categories: ["Gilneas (kingdom)", "Gilneas NPCs", "Human characters", "Scholars"
 | location | Ravenshire, Gilneas |
 | status | Alive |
 
--Historian Samuel Ravencrest** is a [human](human) located in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
+**Historian Samuel Ravencrest** is a [human](human) located in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
 
 ## Sells
 - [The Silverline Raven](The Silverline Raven)

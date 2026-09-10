@@ -33,7 +33,7 @@ The following [NPCs](NPCs) can be found in [Durotar](Durotar).
 - [Misha Tor'kren](Misha Tor'kren)
 - [Ophek](Ophek)
 - [Orgnil Soulscar](Orgnil Soulscar)
--  [Rezlak](Rezlak) 
+- [Rezlak](Rezlak) 
 - [Rhinag](Rhinag)
 - [Ruzan](Ruzan)
 - [Swart](Swart) 
@@ -52,8 +52,8 @@ The following [NPCs](NPCs) can be found in [Durotar](Durotar).
 ## Class Trainers
 - [Dhugru Gorelust](Dhugru Gorelust) 
   - [Nartok](Nartok) 
-  -* [Kitha](Kitha) 
-  -** [Hraug](Hraug) 
+  - * [Kitha](Kitha) 
+  - ** [Hraug](Hraug) 
 - [Kaplak](Kaplak) 
   - [Rwag](Rwag) 
 - [Swart](Swart) 
@@ -64,7 +64,7 @@ The following [NPCs](NPCs) can be found in [Durotar](Durotar).
   - [Frang](Frang) 
 - [Thotar](Thotar) 
   - [Jen'shan](Jen'shan) 
-  -* [Harruk](Harruk) 
+  - * [Harruk](Harruk) 
 - [Un'Thuwa](Un'Thuwa) 
   - [Mai'ah](Mai'ah) 
 

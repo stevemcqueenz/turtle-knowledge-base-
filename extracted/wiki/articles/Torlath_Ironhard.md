@@ -26,7 +26,7 @@ categories: ["Argent Dawn", "Eastern Plaguelands NPCs", "Faction quartermasters"
 | location | Light's Hope Chapel, Eastern Plaguelands |
 | status | Alive |
 
--Torlath Ironhard** is a [human](human) [Argent Dawn](Argent Dawn) reputation goods vendor located at [Light's Hope Chapel](Light's Hope Chapel) in the [Eastern Plaguelands](Eastern Plaguelands).
+**Torlath Ironhard** is a [human](human) [Argent Dawn](Argent Dawn) reputation goods vendor located at [Light's Hope Chapel](Light's Hope Chapel) in the [Eastern Plaguelands](Eastern Plaguelands).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

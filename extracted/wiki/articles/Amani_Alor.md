@@ -24,38 +24,19 @@ categories: ["Forest troll territories", "Horde quest hubs", "Horde settlements"
 | status | Active |
 | loc | Northeastern Stonetalon Mountains |
 
--Amani'Alor** is a [forest troll](forest troll) settlement situated in the northwestern reaches of [Stonetalon Mountains](Stonetalon Mountains). An ancient Zandalari temple dating back to the Great Sundering with a deep connection to the loa, it was reclaimed by forest trolls of the Revantusk tribe who have left the shores of their home in order to forge a bond and more promising relations with the [Horde](Horde). (ref: [quest: A Tusken Affair]) Many Loa used to be worshipped at the temple, especially the Loa of Death. (ref: [quest: Lighting the Pyres])
+**Amani'Alor** is a [forest troll](forest troll) settlement situated in the northwestern reaches of [Stonetalon Mountains](Stonetalon Mountains). An ancient Zandalari temple dating back to the Great Sundering with a deep connection to the loa, it was reclaimed by forest trolls of the Revantusk tribe who have left the shores of their home in order to forge a bond and more promising relations with the [Horde](Horde). (ref: [quest: A Tusken Affair]) Many Loa used to be worshipped at the temple, especially the Loa of Death. (ref: [quest: Lighting the Pyres])
 
 Upon first arriving, the Revantusk raised structures to make a home for themselves and breached the entrance to the temple. However, the spirits in the tomb were disturbed by the arrival of the Revantusk settlers, and the dead of the past have risen to haunt the temple. These vengeful undead attack anyone who tries to walk their halls, even peaceful worshippers.
 
 ## Travel connections
 ### Portal
--  [Orgrimmar](Orgrimmar)
+- [Orgrimmar](Orgrimmar)
 
 ## NPCs
 ### Quest givers
-- 
-- 
-
-### Goods and services
-- 
-- 
-- 
-- 
-- 
-- 
-
-### Additional characters
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-## Gallery
+- - ### Goods and services
+- - - - - - ### Additional characters
+- - - - - - - - ## Gallery
 <gallery>
 File:WorldMap-AmaniAlor.jpg|Map of Amani'Alor prior to 1.18.0.
 </gallery>

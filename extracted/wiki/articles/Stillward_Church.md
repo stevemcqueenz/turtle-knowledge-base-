@@ -29,31 +29,19 @@ categories: ["Forsaken territories", "Gilneas subzones", "Horde quest hubs", "Ho
 | flightpath | Yes |
 | status | Active |
 
--Stillward Church** is a [Horde](Horde)-aligned outpost located in eastern [Gilneas](Gilneas).
+**Stillward Church** is a [Horde](Horde)-aligned outpost located in eastern [Gilneas](Gilneas).
 
 The hills of Stillward were the site of the final battle in [Gilneas](Gilneas (kingdom))' war of independence, where King [Garalon Greymane](Garalon Greymane) and the nascent Gilnean army clashed with the [Arathorian](Arathor) army led by King [Thoradin III](Thoradin III). (ref: [The First Greymane](The First Greymane))
 
 ## Travel connections
 ### Flight
-  - [Tarren Mill](Tarren Mill), [Hillsbrad Foothills](Hillsbrad Foothills)**
+** [Tarren Mill](Tarren Mill), [Hillsbrad Foothills](Hillsbrad Foothills)**
 
 ## Inhabitants
 ### Quest givers
-- 
-- 
-- 
-- 
-- 
-
-### Goods and services
-- 
-- 
-- 
-
-### Additional characters
-- 
-
-## Patch changes
+- - - - - ### Goods and services
+- - - ### Additional characters
+- ## Patch changes
 - (Patch 1.17.0|note=Added.)
 
 ## References

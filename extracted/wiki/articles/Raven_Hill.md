@@ -10,10 +10,9 @@ categories: ["Duskwood subzones", "Human territories", "Villages"]
 ---
 # Raven Hill
 
--Raven Hill** is an abandoned town located in western [Duskwood](Duskwood), north of [Addle's Stead](Addle's Stead) and south of the [Raven Hill Cemetery](Raven Hill Cemetery). The village now holds only a few living people - [Jitters](Jitters), and [Bliztik](Bliztik) the goblin vendor, who can be found hiding on the top floor of one of the buildings.
+**Raven Hill** is an abandoned town located in western [Duskwood](Duskwood), north of [Addle's Stead](Addle's Stead) and south of the [Raven Hill Cemetery](Raven Hill Cemetery). The village now holds only a few living people - [Jitters](Jitters), and [Bliztik](Bliztik) the goblin vendor, who can be found hiding on the top floor of one of the buildings.
 
 It is also haunted by the [Unseen](Unseen).
 
 ## Inhabitants
-- 
--
+- -

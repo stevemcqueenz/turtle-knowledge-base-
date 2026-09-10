@@ -12,4 +12,4 @@ categories: ["Dustwallow Marsh subzones", "Marshes", "Plants", "Villages"]
 
 __NOTOC__
 
-  -Bluefen** is a marshy area located on northern [Dustwallow Marsh](Dustwallow Marsh), in between [Brackenwall Village](Brackenwall Village) and [Blackhoof Village](Blackhoof Village). It is overran with [spider](spider)s, [bird](bird)s, [raptor](raptor)s, [crocolisk](crocolisk)s, and [Theramore Infiltrator](Theramore Infiltrator)s.
+**Bluefen** is a marshy area located on northern [Dustwallow Marsh](Dustwallow Marsh), in between [Brackenwall Village](Brackenwall Village) and [Blackhoof Village](Blackhoof Village). It is overran with [spider](spider)s, [bird](bird)s, [raptor](raptor)s, [crocolisk](crocolisk)s, and [Theramore Infiltrator](Theramore Infiltrator)s.

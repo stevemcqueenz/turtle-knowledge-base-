@@ -14,27 +14,27 @@ Selects the last targetted enemy as the current target.
  TargetLastEnemy();
 ----
 
-  - *Arguments***
+** *Arguments***
 
    *none*
 
 ----
 
-  - *Returns***
+** *Returns***
 
   ; nil
 
 ----
 
-  - *Example***
+** *Example***
 
  TargetLastEnemy();
 
-  - *Result***
+** *Result***
 
 ----
 
-  - *Description***
+** *Description***
 
    Selects the last targetted enemy as the current target. It will select a dead enemy's corpse if that was the last live enemy targetted.
 

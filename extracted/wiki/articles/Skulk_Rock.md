@@ -10,4 +10,4 @@ categories: ["Caves", "Hills", "Hinterlands subzones", "Oozes", "Pages with brok
 ---
 # Skulk Rock
 
--Skulk Rock** is a forest troll ruin, infested with [Slime](Slime)s. A cave exists in this area, and it is one of the few places one can find [Ghost Mushroom](Ghost Mushroom)s.
+**Skulk Rock** is a forest troll ruin, infested with [Slime](Slime)s. A cave exists in this area, and it is one of the few places one can find [Ghost Mushroom](Ghost Mushroom)s.

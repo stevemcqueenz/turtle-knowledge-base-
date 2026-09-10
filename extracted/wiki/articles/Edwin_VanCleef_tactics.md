@@ -30,26 +30,26 @@ categories: ["Bosses", "Deadmines mobs", "Defias Brotherhood", "Human characters
 
 *This article is about the boss tactics. For the character biography, see [Edwin VanCleef](Edwin VanCleef).*
 
-  -Edwin VanCleef** is the leader of the [Defias Brotherhood](Defias Brotherhood) and the final boss of the [Deadmines](Deadmines).
+**Edwin VanCleef** is the leader of the [Defias Brotherhood](Defias Brotherhood) and the final boss of the [Deadmines](Deadmines).
 
 ## Abilities
 - **Thrash** — Gave the caster 2 extra attacks.
 - **VanCleef's Allies** — Summoned a pair of [Defias Blackguard](Defias Blackguard)s to assist the caster.
 
 ## Quotes
-  -Aggro**
+**Aggro**
   None may challenge the Brotherhood!
 
-  -At 75%**
+**At 75%**
   Lapdogs, all of you!
 
-  -At 50%**
+**At 50%**
   Fools! Our cause is righteous!
 
-  -At 25%**
+**At 25%**
   The Brotherhood shall prevail!
 
-  -Killing a player**
+**Killing a player**
   And stay down!
 
 ## Objective of

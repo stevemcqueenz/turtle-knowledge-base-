@@ -25,7 +25,7 @@ categories: ["Bosses", "Human characters", "Human ghosts", "Librarians", "Stormw
 | status | Killable |
 | instance | Stormwrought Ruins |
 
--Librarian Theodorus** is a boss in [Stormwrought Ruins](Stormwrought Ruins).
+**Librarian Theodorus** is a boss in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Abilities
 - Blizzard
@@ -34,13 +34,13 @@ categories: ["Bosses", "Human characters", "Human ghosts", "Librarians", "Stormw
 - Summon Enraged Sea Elemental
 
 ## Quotes
-  -Aggro**
+**Aggro**
   I must kindly ask you to leave, the archives are not ready for public viewing!
 
-  -Summon Enraged Sea Elemental**
+**Summon Enraged Sea Elemental**
   Behold, my signature attack! The great waves of Balor shall destroy you, once and for all!
 
-  -Death**
+**Death**
   These pages were mine to organize... Such great effort, gone to waste!
 
 ## Objective of

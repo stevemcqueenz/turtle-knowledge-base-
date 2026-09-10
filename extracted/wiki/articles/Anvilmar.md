@@ -10,28 +10,13 @@ categories: ["Alliance settlements", "Dun Morogh subzones", "Dwarf territories",
 ---
 # Anvilmar
 
--Anvilmar** (also known as **building A3**) (ref: [Simple Memorandum](Simple Memorandum)) is the first settlement of significance encountered by [starting dwarves](Dwarf (playable)) and [gnomes](Gnome (playable)). It lies to the north in [Coldridge Valley](Coldridge Valley) and has a set of [trainer](trainer)s and some [quest giver](quest giver)s, as well as a few [vendor](vendor)s. The central structure of Anvilmar houses a large forge, although there are no tradeskill trainers present.
+**Anvilmar** (also known as **building A3**) (ref: [Simple Memorandum](Simple Memorandum)) is the first settlement of significance encountered by [starting dwarves](Dwarf (playable)) and [gnomes](Gnome (playable)). It lies to the north in [Coldridge Valley](Coldridge Valley) and has a set of [trainer](trainer)s and some [quest giver](quest giver)s, as well as a few [vendor](vendor)s. The central structure of Anvilmar houses a large forge, although there are no tradeskill trainers present.
 
 ## Inhabitants
 ### Quest givers
--
-
-### Trainers
--
--
--
--
--
--
--
--
-
-### Vendors
--
--
--
-
-## Notes and trivia
+- ### Trainers
+- - - - - - - - ### Vendors
+- - - ## Notes and trivia
 - In the early beta, the area was known as **Anvil Marr** instead. (ref: [The World of Warcraft Townhall/Races of Azeroth#Dwarves](https://wowpedia.fandom.com/wiki/The_World_of_Warcraft_Townhall/Races_of_Azeroth#Dwarves))
 
 ## Speculation

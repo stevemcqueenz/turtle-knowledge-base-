@@ -10,4 +10,4 @@ categories: ["Pages with broken file links", "Stonetalon Mountains subzones", "S
 ---
 # Camp Aparaje
 
--Camp Aparaje**77 90 Stonetalon Mountains (g/s/c) is a demolished Tauren camp. The hostile [Grimtotem](Grimtotem) prowl its ruins and attacks any player, regardless their faction.
+**Camp Aparaje**77 90 Stonetalon Mountains (g/s/c) is a demolished Tauren camp. The hostile [Grimtotem](Grimtotem) prowl its ruins and attacks any player, regardless their faction.

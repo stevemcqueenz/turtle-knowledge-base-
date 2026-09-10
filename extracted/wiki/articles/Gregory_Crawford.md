@@ -25,10 +25,10 @@ categories: ["Human characters", "Northwind NPCs", "Stormwind (kingdom)", "Turtl
 | status | Alive |
 | relatives | Old Man Crawford and Margaret (parents),, Jeremiah and Christine (siblings) |
 
--Gregory Crawford** is a [human](human) located at the [Plump Pumpkin](Plump Pumpkin) in [Northwind](Northwind).
+**Gregory Crawford** is a [human](human) located at the [Plump Pumpkin](Plump Pumpkin) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Mother tries to hold the family together, but our bond was crumbling even before we lost our home. Best I can do is support her.
 
 ## Patch changes

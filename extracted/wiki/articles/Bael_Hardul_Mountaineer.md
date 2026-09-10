@@ -25,7 +25,7 @@ categories: ["Dwarf characters", "Guards", "Stonetalon Mountains NPCs", "Turtle 
 | location | Bael Hardul, Stonetalon Mountains |
 | status | Alive |
 
--Bael Hardul Mountaineers** are dwarf guards defending the town of [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains).
+**Bael Hardul Mountaineers** are dwarf guards defending the town of [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains).
 
 ## Patch changes
 - (Patch 1.16.4|note=Added.)

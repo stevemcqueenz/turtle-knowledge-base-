@@ -39,7 +39,7 @@ There are no instanced dungeons or battlegrounds in the foothills, though the [A
 || [Azurelode Mine](Azurelode Mine) • [Darrow Hill](Darrow Hill) • [Dun Garok](Dun Garok) • [Durnholde Keep](Durnholde Keep) • [Eastern Strand](Eastern Strand) • [Hillsbrad Fields](Hillsbrad Fields) ([Hillsbrad](Hillsbrad (subzone))) • [Nethander Stead](Nethander Stead) • [Purgation Isle](Purgation Isle) • [Southpoint Tower](Southpoint Tower) • [Southshore](Southshore) ([Southshore Town Hall](Southshore Town Hall)) • [Tarren Mill](Tarren Mill) • [Thoradin's Wall](Thoradin's Wall) • [Western Strand](Western Strand)
 |-
 ||
-  -Undisplayed locations**
+**Undisplayed locations**
 
 [Baradin Bay](Baradin Bay) • [Foothill Caverns](Foothill Caverns) • [Thondroril River](Thondroril River)
 |}
@@ -115,6 +115,6 @@ There are no instanced dungeons or battlegrounds in the foothills, though the [A
 - [Yeti](Yeti)s
 
 ## Patch changes
--  **[Patch 1.6.0](Patch 1.6.0) (2005-07-12):** The pair of gryphons guarding the entrance to the Hinterlands have finally decided to stop staring at one another and will now wander around the entrance to the pass.
+- **[Patch 1.6.0](Patch 1.6.0) (2005-07-12):** The pair of gryphons guarding the entrance to the Hinterlands have finally decided to stop staring at one another and will now wander around the entrance to the pass.
 
 ## References

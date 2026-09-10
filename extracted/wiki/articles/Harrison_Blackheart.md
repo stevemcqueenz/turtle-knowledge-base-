@@ -25,7 +25,7 @@ categories: ["Forsaken characters", "Gilneas NPCs", "Quest givers", "Turtle WoW 
 | status | Active |
 | relatives | Franklin (brother) |
 
--Harrison Blackheart** is a [Forsaken](Forsaken) quest giver located in [Gilneas](Gilneas).
+**Harrison Blackheart** is a [Forsaken](Forsaken) quest giver located in [Gilneas](Gilneas).
 
 ## Quests
 - [quest: Greymane Hatred] 
@@ -33,7 +33,7 @@ categories: ["Forsaken characters", "Gilneas NPCs", "Quest givers", "Turtle WoW 
 - [quest: In Memory of Franklin] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 You can't just sneak up on people you know that?! You almost put me into my second grave.
 
 Can't you see that I am occupied here? Busy, engaged, distracted, preoccupied, immersed, absorbed, working?

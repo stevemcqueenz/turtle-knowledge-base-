@@ -25,13 +25,13 @@ categories: ["Human characters", "Northwind NPCs", "Quest givers", "Stormwind (k
 | status | Alive |
 | relatives | Old Hamilton (father) |
 
--Mirabelle Hamilton** is a [human](human) quest giver located at [Stillheart Port](Stillheart Port) in [Northwind](Northwind).
+**Mirabelle Hamilton** is a [human](human) quest giver located at [Stillheart Port](Stillheart Port) in [Northwind](Northwind).
 
 ## Quests
 - [quest: Lonesome Arnold] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 So much cruelty. This must be a test by the Light. Our faith has to remain strong during these hard times.
 
 ## Patch changes

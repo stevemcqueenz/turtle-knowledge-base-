@@ -25,11 +25,11 @@ categories: ["Hillsbrad Foothills NPCs", "Human characters"]
 | status | Alive |
 | relatives | Arnold, Karl (brothers) |
 
--Samual Boran** is a [human](human) located in [Southshore](Southshore) in the [Hillsbrad Foothills](Hillsbrad Foothills).
+**Samual Boran** is a [human](human) located in [Southshore](Southshore) in the [Hillsbrad Foothills](Hillsbrad Foothills).
 
 ## Quotes
   ''''
-  -Gossip**
+**Gossip**
 Southshore is a quaint little town and much different than where I come from.
 
 I am happy it was spared from the horrors of the Third War.

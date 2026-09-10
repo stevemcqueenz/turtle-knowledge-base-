@@ -12,7 +12,7 @@ categories: ["History of Warcraft", "In-Game Books", "Lore"]
 
 <B style="font-weight:normal;background-color:#2b2b2b;">[  [Source Text](WoWWiki:Article_type)  ]</B>
 
--Ironforge - the Awakening of the Dwarves* is a section of the [History of Warcraft](History of Warcraft), Chapter II.  It is set 2 500 years before Warcraft I.  It is also available as an [in-game book](:Category:In-Game Books).
+*Ironforge - the Awakening of the Dwarves* is a section of the [History of Warcraft](History of Warcraft), Chapter II.  It is set 2 500 years before Warcraft I.  It is also available as an [in-game book](:Category:In-Game Books).
 
 Found at:
 - [Hall of Explorers](Hall of Explorers) in [Ironforge](Ironforge).

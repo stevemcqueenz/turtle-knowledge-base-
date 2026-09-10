@@ -25,10 +25,10 @@ categories: ["Fishing vendors", "Human characters", "Northwind NPCs", "Stormwind
 | location | Ambershire, Northwind |
 | status | Alive |
 
--Griselda Tilley** is a [human](human) fishing vendor located in [Ambershire](Ambershire) in [Northwind](Northwind).
+**Griselda Tilley** is a [human](human) fishing vendor located in [Ambershire](Ambershire) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The best way to get good at fishing is becoming old. No fish gets scared if you can't even move that much anymore, ha!
 
 ## Patch changes

@@ -24,7 +24,7 @@ categories: ["High elf characters", "Quest givers", "Thalassian Highlands NPCs",
 | location | Brinthilien, Thalassian Highlands |
 | status | Alive |
 
--Phylas Hawkwing** is a [high elf](high elf) [quest giver](quest giver) located in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands).
+**Phylas Hawkwing** is a [high elf](high elf) [quest giver](quest giver) located in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands).
 
 ## Quests
 - [quest: Arcane Golem Revolt] 

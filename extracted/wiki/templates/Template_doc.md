@@ -10,10 +10,10 @@ categories: ["Template documentation"]
 ---
 # Template:=/doc
 
--Description**
+**Description**
   This template is used when escaping <code>=</code> when contained in [Parser functions](w:Help:Parser functions).
-  -This template cannot be substituted.**
-  -Syntax**
+**This template cannot be substituted.**
+**Syntax**
   Insert this template using <code></code>
 
 <includeonly></includeonly><noinclude></noinclude>

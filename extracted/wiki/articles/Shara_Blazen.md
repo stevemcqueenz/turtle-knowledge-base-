@@ -24,7 +24,7 @@ categories: ["Forsaken characters", "Hillsbrad Foothills NPCs", "Quest givers"]
 | status | Active |
 | location | Tarren Mill, Hillsbrad Foothills |
 
--Shara Blazen** is a [Forsaken](Forsaken) located inside the old [church](church) in [Tarren Mill](Tarren Mill) in [Hillsbrad Foothills](Hillsbrad Foothills).
+**Shara Blazen** is a [Forsaken](Forsaken) located inside the old [church](church) in [Tarren Mill](Tarren Mill) in [Hillsbrad Foothills](Hillsbrad Foothills).
 
 ## Quests
 - [quest: A Blaze Unending] 

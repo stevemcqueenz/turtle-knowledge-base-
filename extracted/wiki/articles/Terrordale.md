@@ -19,10 +19,10 @@ No facilities in [Terrordale](Terrordale) remain for players to use, aside for o
 This area is some particular interest to those that are collecting [Crypt Fiend Parts](Crypt Fiend Parts), as [Crypt Fiend](Crypt Fiend)s are very common in Terrordale and its nearby cave, [Terrorweb Tunnel](Terrorweb Tunnel).  Wandering the withered grounds of this area is also the neutral level 60 [Plagued Swine](Plagued Swine), considered a very good choice as a pet for Hunters.
 
 ## Quests
--; [61] 
--:[Caretaker Alen](Caretaker Alen) wants you to find his assistant [Egan](Egan). Egan lives in a house in Terrordale.
-  -; [61]  (Dungeon)
-  -:Egan wants you to patrol [Stratholme](Stratholme) and free the souls of the dead.
-  -:Reward: 
--; 
--:[Augustus the Touched](Augustus the Touched) wants you to find [Augustus' Receipt Book](Augustus' Receipt Book) in a nearby building.
+- ; [61] 
+- :[Caretaker Alen](Caretaker Alen) wants you to find his assistant [Egan](Egan). Egan lives in a house in Terrordale.
+  - ; [61]  (Dungeon)
+  - :Egan wants you to patrol [Stratholme](Stratholme) and free the souls of the dead.
+  - :Reward: 
+- ; 
+- :[Augustus the Touched](Augustus the Touched) wants you to find [Augustus' Receipt Book](Augustus' Receipt Book) in a nearby building.

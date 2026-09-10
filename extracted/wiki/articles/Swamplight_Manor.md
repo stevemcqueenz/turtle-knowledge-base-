@@ -10,4 +10,4 @@ categories: ["Dustwallow Marsh subzones", "Manors", "Pages with broken file link
 ---
 # Swamplight Manor
 
--Swamplight Manor** is a small house located in the [Witch Hill](Witch Hill) region of [Dustwallow Marsh](Dustwallow Marsh). It is home to the famous cook, ["Swamp Eye" Jarl]("Swamp Eye" Jarl).
+**Swamplight Manor** is a small house located in the [Witch Hill](Witch Hill) region of [Dustwallow Marsh](Dustwallow Marsh). It is home to the famous cook, ["Swamp Eye" Jarl]("Swamp Eye" Jarl).

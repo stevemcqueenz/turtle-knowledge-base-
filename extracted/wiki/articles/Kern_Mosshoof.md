@@ -25,10 +25,10 @@ categories: ["Mulgore NPCs", "Quest givers", "Tauren characters"]
 | location | Bloodhoof Village, Mulgore |
 | status | Alive |
 
--Kern Mosshoof** is a [tauren](tauren) quest giver located in [Bloodhoof Village](Bloodhoof Village) in [Mulgore](Mulgore).
+**Kern Mosshoof** is a [tauren](tauren) quest giver located in [Bloodhoof Village](Bloodhoof Village) in [Mulgore](Mulgore).
 
 ## Quests
 - [quest: You Reap What You Sow|profession=survival] 
 
 ## Patch changes
--  **[Hotfix](https://forum.turtlecraft.gg/viewtopic.php?f=2&t=1036) (2020-05-07):** Added.
+- **[Hotfix](https://forum.turtlecraft.gg/viewtopic.php?f=2&t=1036) (2020-05-07):** Added.

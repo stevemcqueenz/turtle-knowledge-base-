@@ -10,7 +10,7 @@ categories: ["Eastern Plaguelands subzones", "Human territories", "Pages with br
 ---
 # Tyr's Hand
 
--Tyr's Hand** is a region of the [Eastern Plaguelands](Eastern Plaguelands). It can be found in the EPL's southeast corner.
+**Tyr's Hand** is a region of the [Eastern Plaguelands](Eastern Plaguelands). It can be found in the EPL's southeast corner.
 
 ["Components of Importance (Tyr's Hand)"](Quest:Components of Importance (Tyr's Hand)) appears to be the only quest associated with this area for the Alliance. Despite that, players sometimes farm Tyr's Hand for money due to the high chance of items dropping that are worth being sold to a vendor in exchange for gold. Horde players, meanwhile, receive several quests from Nathanos Blightcaller that involve the inhabitants of Tyr's Hand, although mainly the quests involve ambushing agents of the Scarlet Crusade after they've left the safety of the town.
 

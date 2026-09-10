@@ -26,7 +26,7 @@ categories: ["Articles using deprecated loot", "Escort quests", "Neutral quests"
 
 ## Objectives
 Escort [Taelan Fordring](Taelan Fordring) out of [Hearthglen](Hearthglen). 
--Redemption?
+- Redemption?
 
 ## Description
 For so long, I have been a puppet of the Grand Crusader. What reason was there to fight against what the [Scarlet Crusade](Scarlet Crusade) had become? It has been decades, yet the memories of [my father](Tirion Fordring); those precious memories, they are what have kept me alive.

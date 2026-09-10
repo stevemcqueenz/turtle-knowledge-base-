@@ -10,10 +10,10 @@ categories: ["Addon"]
 ---
 # AuldLangSyne
 
--AuldLangSyne** is designed to enhance your social management by providing quick access to friend notes and information.
+**AuldLangSyne** is designed to enhance your social management by providing quick access to friend notes and information.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **AuldLangSyne** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **AuldLangSyne** up to date is by using [GitAddonsManage
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -30,7 +30,7 @@ If you prefer manual installation, follow these steps:
 # Unpack the <code>.zip</code> and rename the folder to <code>AuldLangSyne</code>, removing the <code>-master</code> suffix.
 # Move the folder into your <code>Interface/AddOns</code> directory and restart the game.
 
-  -Optional**: [Fubar](FuBar)
+**Optional**: [Fubar](FuBar)
 
 ## Git Links
 - [**(Road-block)**](https://github.com/Road-block/AuldLangSyne)
@@ -92,29 +92,29 @@ If you prefer manual installation, follow these steps:
 ## Minimap
 Minimap Button & Options
 
-  -Minimap Icon**
+**Minimap Icon**
 
 - AuldLangSyne adds an icon to your minimap for quick access.
 
-  -Options Window**
+**Options Window**
 
 - Right-click the minimap icon to access the options.
 - In the options window, you can configure display settings, data management, and backup options.
 
-  -Hiding the Minimap Icon**
+**Hiding the Minimap Icon**
 
 - To hide or show the minimap icon, use the addon’s options menu or type the command.
 
 ## How to Use
-  -Viewing Friends Info**
+**Viewing Friends Info**
 - Open your friends list; notes and additional info will be displayed inline.
 - Offline friends will show last seen info and notes if enabled.
-  -Adding / Editing Notes**
+**Adding / Editing Notes**
 - Click the small note button next to a friend's name to open the note editor.
 - Type your note and confirm to save.
-  -Backup & Restore**
+**Backup & Restore**
 - Use the options in /auld to save your current friends list to a slot or restore from a slot.
-  -Import from CT_PlayerNotes**
+**Import from CT_PlayerNotes**
 - Run /auld ctimport to load notes from CT_PlayerNotes into AuldLangSyne.
 
 ## Preview
@@ -125,13 +125,13 @@ Minimap Button & Options
 - Supports data backup and restore for your friends list.
 
 ## Fubar Support
-  -AuldLangSyne** integrates with Fubar, a widely-used addon framework that provides a customizable toolbar for various plugins and icons.
+**AuldLangSyne** integrates with Fubar, a widely-used addon framework that provides a customizable toolbar for various plugins and icons.
 
 ## Name Meaning
-  -AuldLangSyne** is derived from the Scots phrase **"Auld Lang Syne,"** which translates to **"old long since"** or more idiomatically, **"times gone by"** or **"the good old days."**
+**AuldLangSyne** is derived from the Scots phrase **"Auld Lang Syne,"** which translates to **"old long since"** or more idiomatically, **"times gone by"** or **"the good old days."**
 
 The phrase is most famously associated with the traditional Scottish folk song **"Auld Lang Syne,"** written by Robert Burns in 1788, which is often sung to bid farewell or celebrate past memories, especially during New Year’s celebrations.
 
-  -Why this name?**
+**Why this name?**
 
 The name **"AuldLangSyne"** reflects the addon’s focus on preserving, managing, and reminiscing about the friends and social connections you've built over time within the game. It emphasizes nostalgia and the importance of remembering those who have been part of your in-game community.

@@ -26,13 +26,13 @@ categories: ["Bosses", "Emerald Sanctum mobs", "Green dragons", "Stubs", "Turtle
 | instance | Emerald Sanctum |
 
 ## Quotes
-  -Aggro**
+**Aggro**
   You will not disturb the Awakener...
-  -Killing a player**
+**Killing a player**
   Your efforts will disturb everything, begone...
-  -Death**
+**Death**
   The shadow must not prevail, the dragonflights must stand... Against it..
-  -Solnius dies (Hard Mode)**
+**Solnius dies (Hard Mode)**
   The shadow, it fades... I am free from the nightmare that consumed my mind. I must thank you, adventurers, for you have saved me from madness. The Awakening has been stopped, and I may be free to rest at last.
 
 ## Patch changes

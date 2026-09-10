@@ -13,7 +13,7 @@ categories: ["API Functions"]
 Returns true if the two specified units are the same, false otherwise.
 ----
 
-  - *Arguments***
+** *Arguments***
 
    (String unit1, String unit2)
 
@@ -24,7 +24,7 @@ Returns true if the two specified units are the same, false otherwise.
 
 ----
 
-  - *Returns***
+** *Returns***
 
    Boolean unitIsUnit
 
@@ -33,7 +33,7 @@ Returns true if the two specified units are the same, false otherwise.
 
 ----
 
-  - *Example***
+** *Example***
 <syntaxhighlight lang="lua">
  if ( UnitIsUnit("party1", "target") ) then
    TargetUnit("partypet1");

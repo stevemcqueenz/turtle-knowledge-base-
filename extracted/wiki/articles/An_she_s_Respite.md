@@ -10,14 +10,10 @@ categories: ["Camps", "Moonwhisper Coast subzones", "Tauren territories", "Turtl
 ---
 # An'she's Respite
 
--An'she's Respite** is a tauren camp inhabited by the [Shadewalkers](Shadewalkers), a group that splintered from the [Moonhoof tribe](Moonhoof tribe) and no longer answers to their chieftain. Warped by vengeance, they chose to embrace [Lo'sho](Lo'sho)'s darker side, their foul chants twist their ancestors from their rest to serve.
+**An'she's Respite** is a tauren camp inhabited by the [Shadewalkers](Shadewalkers), a group that splintered from the [Moonhoof tribe](Moonhoof tribe) and no longer answers to their chieftain. Warped by vengeance, they chose to embrace [Lo'sho](Lo'sho)'s darker side, their foul chants twist their ancestors from their rest to serve.
 
 ## NPCs
-- 
-- 
-- 
-  - 
-- 
+- - - - * 
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

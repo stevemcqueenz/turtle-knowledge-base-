@@ -20,9 +20,9 @@ categories: ["Instance navigation templates"]
 
 [Zekkis](Zekkis) (rare)
 |
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 |-
 | class="title" colspan="2" | **Circle guardians**
 |-
@@ -39,17 +39,17 @@ categories: ["Instance navigation templates"]
 
 [Zul'Lor](Zul'Lor)
 |
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 |-
 | class="title" colspan="2" | **Bosses**
 |-
@@ -74,23 +74,23 @@ categories: ["Instance navigation templates"]
 
 [Shade of Eranikus](Shade of Eranikus)
 |
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
 ([lore](Hakkar the Soulflayer))
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
 ([lore](Eranikus))
 |-

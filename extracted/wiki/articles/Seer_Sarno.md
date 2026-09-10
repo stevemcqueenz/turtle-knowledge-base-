@@ -25,13 +25,13 @@ categories: ["Balor NPCs", "Bleeding Hollow clan", "Orc characters", "Quest ende
 | location | Stormbreaker Point, Balor |
 | status | Alive |
 
--Seer Sarno** is an [orc](orc) reagents vendor located at [Stormbreaker Point](Stormbreaker Point) in [Balor](Balor).
+**Seer Sarno** is an [orc](orc) reagents vendor located at [Stormbreaker Point](Stormbreaker Point) in [Balor](Balor).
 
 ## Quests
 - [quest: The Storms of Balor] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The storms of this island are unnatural and cursed with a sinister cold. The wind they bring is bereft of life and the rain tells of a doomed future. Be wary when treading these waters.
 
 ## Patch changes

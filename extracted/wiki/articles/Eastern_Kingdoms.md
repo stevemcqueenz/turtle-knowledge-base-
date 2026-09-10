@@ -29,119 +29,92 @@ The Eastern Kingdoms include the three continents of [Lordaeron](Lordaeron), [Kh
 ## Geography
 ### Continents
 The Eastern Kingdoms is divided into three and sometimes four continents:
--[Azeroth](Azeroth (continent))
--[Khaz Modan](Khaz Modan)
--[Lordaeron](Lordaeron)
-  -<s>[Quel'Thalas](Quel'Thalas)</s>
+- [Azeroth](Azeroth (continent))
+- [Khaz Modan](Khaz Modan)
+- [Lordaeron](Lordaeron)
+  - <s>[Quel'Thalas](Quel'Thalas)</s>
 
 #### Regions
 The Eastern Kingdoms is further divided into the following regions:
 - [Dun Morogh](Dun Morogh) (1 - 10)
 - [Elwynn Forest](Elwynn Forest) (1 - 10)
--  [Thalassian Highlands](Thalassian Highlands) (1 - 10)
+- [Thalassian Highlands](Thalassian Highlands) (1 - 10)
 - [Tirisfal Glades](Tirisfal Glades) (1 - 10)
 - [Loch Modan](Loch Modan) (10 - 20)
 - [Silverpine Forest](Silverpine Forest) (10 - 20)
 - [Westfall](Westfall) (10 - 20)
 - [Redridge Mountains](Redridge Mountains) (15 - 25)
--[Hillsbrad Foothills](Hillsbrad Foothills) (20 - 30)
+- [Hillsbrad Foothills](Hillsbrad Foothills) (20 - 30)
 - [Duskwood](Duskwood) (18 - 30)
 - [Wetlands](Wetlands) (20 - 25)
--  [Northwind](Northwind) (28 - 34)
+- [Northwind](Northwind) (28 - 34)
 - [Balor](Balor) (29 - 34)
--[Alterac Mountains](Alterac Mountains) (30 - 40)
--[Arathi Highlands](Arathi Highlands) (30 - 40)
--[Hinterlands](Hinterlands) (40 - 50)
--[Stranglethorn Vale](Stranglethorn Vale) (30 - 45)
+- [Alterac Mountains](Alterac Mountains) (30 - 40)
+- [Arathi Highlands](Arathi Highlands) (30 - 40)
+- [Hinterlands](Hinterlands) (40 - 50)
+- [Stranglethorn Vale](Stranglethorn Vale) (30 - 45)
 - [Grim Reaches](Grim Reaches) (33 - 38)
--[Badlands](Badlands) (35 - 45)
--[Swamp of Sorrows](Swamp of Sorrows) (35 - 45)
+- [Badlands](Badlands) (35 - 45)
+- [Swamp of Sorrows](Swamp of Sorrows) (35 - 45)
 - [Gilneas](Gilneas) (39 - 46)
--[Blasted Lands](Blasted Lands) (45 - 55)
--[Searing Gorge](Searing Gorge) (45 - 50)
--[Burning Steppes](Burning Steppes) (50 - 58)
+- [Blasted Lands](Blasted Lands) (45 - 55)
+- [Searing Gorge](Searing Gorge) (45 - 50)
+- [Burning Steppes](Burning Steppes) (50 - 58)
 - [Lapidis Isle](Lapidis Isle) (48 - 53)
 - [Gillijim's Isle](Gillijim's Isle) (48 - 53)
--[Deadwind Pass](Deadwind Pass) (55 - 60)
--[Blackrock Mountain](Blackrock Mountain) (55 - 60)
--[Plaguelands](Plaguelands)
-  -[Eastern Plaguelands](Eastern Plaguelands) (53 - 60)
-  -[Western Plaguelands](Western Plaguelands) (51 - 58)
+- [Deadwind Pass](Deadwind Pass) (55 - 60)
+- [Blackrock Mountain](Blackrock Mountain) (55 - 60)
+- [Plaguelands](Plaguelands)
+  - [Eastern Plaguelands](Eastern Plaguelands) (53 - 60)
+  - [Western Plaguelands](Western Plaguelands) (51 - 58)
   - [Scarlet Enclave](Scarlet Enclave) (55 - 60)
--<s> [Eversong Wastes](Eversong Wastes)</s>
--<s> [Zul'Aman](Zul'Aman)</s>
+- <s> [Eversong Wastes](Eversong Wastes)</s>
+- <s> [Zul'Aman](Zul'Aman)</s>
 
 ## Capital cities
 ### Alliance
--[Stormwind City](Stormwind City) in [Elwynn Forest](Elwynn Forest), Azeroth
--[Ironforge](Ironforge) in [Dun Morogh](Dun Morogh), Khaz Modan
+- [Stormwind City](Stormwind City) in [Elwynn Forest](Elwynn Forest), Azeroth
+- [Ironforge](Ironforge) in [Dun Morogh](Dun Morogh), Khaz Modan
 - [Alah'Thalas](Alah'Thalas) in the [Thalassian Highlands](Thalassian Highlands), Lordaeron
--[Aerie Peak](Aerie Peak) in the [Hinterlands](Hinterlands), Lordaeron
+- [Aerie Peak](Aerie Peak) in the [Hinterlands](Hinterlands), Lordaeron
 
 ### Horde
--[Undercity](Undercity) in [Tirisfal Glades](Tirisfal Glades), Lordaeron
--<s> [Zul'Aman](Zul'Aman (capital)) in [Zul'Aman](Zul'Aman), Quel'Thalas</s>
+- [Undercity](Undercity) in [Tirisfal Glades](Tirisfal Glades), Lordaeron
+- <s> [Zul'Aman](Zul'Aman (capital)) in [Zul'Aman](Zul'Aman), Quel'Thalas</s>
 
 ### Neutral
--[Booty Bay](Booty Bay) in [Stranglethorn Vale](Stranglethorn Vale), Azeroth
--[Zul'Gurub](Zul'Gurub) in [Stranglethorn Vale](Stranglethorn Vale), Azeroth
--[Blackrock Spire](Blackrock Spire) in [Blackrock Mountain](Blackrock Mountain), Azeroth / Khaz Modan
--[Shadowforge City](Shadowforge City) in [Blackrock Mountain](Blackrock Mountain), Azeroth / Khaz Modan
+- [Booty Bay](Booty Bay) in [Stranglethorn Vale](Stranglethorn Vale), Azeroth
+- [Zul'Gurub](Zul'Gurub) in [Stranglethorn Vale](Stranglethorn Vale), Azeroth
+- [Blackrock Spire](Blackrock Spire) in [Blackrock Mountain](Blackrock Mountain), Azeroth / Khaz Modan
+- [Shadowforge City](Shadowforge City) in [Blackrock Mountain](Blackrock Mountain), Azeroth / Khaz Modan
 
 ## Dungeons
 ### Azeroth
--
-- 
-- 
--
-- 
-- 
--
--
--[Blackrock Mountain](Blackrock Mountain)
-  -
-  -
-  -
-  -
-  -
--[Karazhan](Karazhan)
-  - 
-  - 
-  - 
-
-### Khaz Modan
-- 
--
--
--<s> </s>
+- - - - - - - - - [Blackrock Mountain](Blackrock Mountain)
+  -   -   -   -   - *[Karazhan](Karazhan)
+  -   -   - ### Khaz Modan
+- - - - <s> </s>
 
 ### Lordaeron
-- 
--
--
--[Scarlet Monastery](Scarlet Monastery)
-  -
-  -
-  -
-  -
--
+- - - - [Scarlet Monastery](Scarlet Monastery)
+  -   -   -   - *
 
 ### Quel'Thalas
--<s> </s>
+- <s> </s>
 
 ## Battlegrounds
--[Alterac Valley](Alterac Valley) - [Alterac Mountains](Alterac Mountains)
--[Arathi Basin](Arathi Basin) - [Arathi Highlands](Arathi Highlands)
+- [Alterac Valley](Alterac Valley) - [Alterac Mountains](Alterac Mountains)
+- [Arathi Basin](Arathi Basin) - [Arathi Highlands](Arathi Highlands)
 - [Blood Ring](Blood Ring) - [Stranglethorn Vale](Stranglethorn Vale)
 - [Sunstrider Court](Sunstrider Court) - [Thalassian Highlands](Thalassian Highlands)
--<s> [Ruins of Lordaeron](Ruins of Lordaeron (arena)) - [Tirisfal Glades](Tirisfal Glades)</s>
+- <s> [Ruins of Lordaeron](Ruins of Lordaeron (arena)) - [Tirisfal Glades](Tirisfal Glades)</s>
 
 ## Playable races
 ### Alliance
 - [Human](Human)s
 - [Dwarves](Dwarf)
 - [Gnome](Gnome)s
--  [High elves](High elf)
+- [High elves](High elf)
 
 ### Horde
 - [Forsaken](Forsaken)

@@ -25,10 +25,10 @@ categories: ["Orgrimmar NPCs", "Sand troll characters", "Turtle WoW content", "W
 | location | Cleft of Shadow, Orgrimmar |
 | status | Alive |
 
--Zim'bwaba** is a [sand troll](sand troll) warlock trainer located in the [Cleft of Shadow](Cleft of Shadow) in [Orgrimmar](Orgrimmar).
+**Zim'bwaba** is a [sand troll](sand troll) warlock trainer located in the [Cleft of Shadow](Cleft of Shadow) in [Orgrimmar](Orgrimmar).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 We, Farraki, have been saved by Vol'jin. Now it be our time to return the favor.
 
 Come closer, I will show you our magic.

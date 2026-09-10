@@ -64,9 +64,9 @@ Without them, the Tideblade will splinter into rival broods. Naga are not known 
 The High Priestess should hear of it.
 
 ## Progression
-1.[quest: Scales of the Tideblade]
-1.[quest: Serpents Without Heads]
-1.[quest: Word to the High Priestess]
+1. [quest: Scales of the Tideblade]
+1. [quest: Serpents Without Heads]
+1. [quest: Word to the High Priestess]
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

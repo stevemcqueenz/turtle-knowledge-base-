@@ -10,13 +10,10 @@ categories: ["Gardens", "Northwind", "Turtle WoW content", "Undisplayed location
 ---
 # Tiffin Park
 
--Tiffin Park** (ref: [Florette DeMure#Quotes](Florette DeMure#Quotes)) can be found in [Ambershire](Ambershire). Named in honor of the late Queen [Tiffin Ellerian Wrynn](Tiffin Ellerian Wrynn), a statue depicting her is erected in the center of the park.
+**Tiffin Park** (ref: [Florette DeMure#Quotes](Florette DeMure#Quotes)) can be found in [Ambershire](Ambershire). Named in honor of the late Queen [Tiffin Ellerian Wrynn](Tiffin Ellerian Wrynn), a statue depicting her is erected in the center of the park.
 
 ## Inhabitants
-- 
-- 
-
-## Patch changes
+- - ## Patch changes
 - (Patch 1.18.0|note=Added.)
 
 ## References

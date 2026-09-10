@@ -68,19 +68,13 @@ Prestor's schemes led to many troubles for the kingdom's citizens. The farmers o
 - The demonym used for the people of Stormwind is "Stormwindian". (ref: [Breman Hartford#Quotes](Breman Hartford#Quotes)) Prior to the reconstruction of the kingdom after the Second War, the demonym used for the people of Azeroth was "Azerothien". (ref: 
 ### Notable people
 ### Notable leaders
-  -House of Wrynn**
+**House of Wrynn**
 - <sup>†</sup>
 - <sup>†</sup>
 - <sup>†</sup>
-- 
-- 
-
-  -Other rulers**
+- - ;Other rulers
 - <sup>†</sup>
-- 
-- 
-
-## Territory and outposts of Stormwind
+- - ## Territory and outposts of Stormwind
 Following the victory of the [Alliance of Lordaeron](Alliance of Lordaeron) over the Horde, Stormwind was reclaimed and rebuilt as New Stormwind. The kingdom is currently split into several smaller territories. Some villages such as [Goldshire](Goldshire), [Lakeshire](Lakeshire), and other territories are governed by an appointed Marshal of the Stormwind Army, which upholds the law on behalf of the king. Other towns could be governed by a democratically elected official. Lakeshire and [Southshore](Southshore) are governed by magistrates appointed by Stormwind.<ref>[Magistrate Henry Maleb#Quotes](Magistrate Henry Maleb#Quotes)) Darkshire, for example, is governed by an elected mayor, which is [Lord Ello Ebonlocke](Lord Ello Ebonlocke). [Moonbrook](Moonbrook) was governed by a mayor before the [Defias Brotherhood](Defias Brotherhood) took control of the region. (ref: [A Dusty Unsent Letter](A Dusty Unsent Letter))
 
 According to [Antonio Perelli](Antonio Perelli), a wandering vendor, it takes him a week on foot to complete his journey through all the regions of the kingdom, regularly passing by [Goldshire](Goldshire), [Sentinel Hill](Sentinel Hill), [Darkshire](Darkshire), and [Lakeshire](Lakeshire) (in this order) to sell his goods. (ref: [Antonio Perelli#Quotes](Antonio Perelli#Quotes))

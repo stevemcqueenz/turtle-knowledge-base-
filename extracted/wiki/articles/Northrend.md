@@ -10,7 +10,7 @@ categories: ["Continent:Northrend", "Lore", "Pages with broken file links", "Stu
 ---
 # Northrend
 
--Northrend** is the icy, northernmost continent of the world of [Azeroth](Azeroth), and the source of the evil [Scourge](Scourge). It is also the home of Icecrown Glacier, the seat of the malevolent [Lich King](Lich King).
+**Northrend** is the icy, northernmost continent of the world of [Azeroth](Azeroth), and the source of the evil [Scourge](Scourge). It is also the home of Icecrown Glacier, the seat of the malevolent [Lich King](Lich King).
 
 ## General info
 Often called "the roof of the world", Northrend is a frozen wasteland that lies far to the north. As with the other continents, it was once part of the original [Kalimdor](Kalimdor) landmass that was broken apart during the [War of the Ancients](War of the Ancients). The land that became Northrend drifted far from Azeroth's temperate zone, which killed off a large portion of the remaining wildlife.

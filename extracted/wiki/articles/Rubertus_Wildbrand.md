@@ -26,10 +26,10 @@ categories: ["Battlemasters", "Darnassus NPCs", "Dwarf characters", "Turtle WoW 
 | location | Warrior's Terrace, Darnassus |
 | status | Alive |
 
--Rubertus Wildbrand** is a [dwarf](dwarf) [Thorn Gorge](Thorn Gorge) battlemaster located in the [Warrior's Terrace](Warrior's Terrace) in [Darnassus](Darnassus).
+**Rubertus Wildbrand** is a [dwarf](dwarf) [Thorn Gorge](Thorn Gorge) battlemaster located in the [Warrior's Terrace](Warrior's Terrace) in [Darnassus](Darnassus).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The Bael Modan Garrison requires aid in their mission to gather ground in the western frontier of Kalimdor! Are you willing to step up and defend the Alliance's interests?
 
   

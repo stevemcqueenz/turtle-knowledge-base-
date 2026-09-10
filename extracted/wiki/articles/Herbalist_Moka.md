@@ -25,7 +25,7 @@ categories: ["Herbalism trainers", "Moonwhisper Coast NPCs", "Tauren characters"
 | location | Moonhoof Village, Moonwhisper Coast |
 | status | Alive |
 
--Herbalist Moka** is a [tauren](tauren) [herbalism](herbalism) trainer located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Herbalist Moka** is a [tauren](tauren) [herbalism](herbalism) trainer located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

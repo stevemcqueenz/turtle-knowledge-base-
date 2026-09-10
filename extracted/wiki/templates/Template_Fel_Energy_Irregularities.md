@@ -10,10 +10,10 @@ categories: []
 ---
 # Template:Fel Energy Irregularities
 
-1.[quest: Fel Energy Irregularities I]
-1.[quest: Fel Energy Irregularities II]
-1.[quest: Fel Energy Irregularities III]
-1.[quest: Fel Energy Irregularities IV]
-1.[quest: Fel Energy Irregularities V]
-1.[quest: Fel Energy Irregularities VI]
-1.[quest: Fel Energy Irregularities VII]
+1. [quest: Fel Energy Irregularities I]
+1. [quest: Fel Energy Irregularities II]
+1. [quest: Fel Energy Irregularities III]
+1. [quest: Fel Energy Irregularities IV]
+1. [quest: Fel Energy Irregularities V]
+1. [quest: Fel Energy Irregularities VI]
+1. [quest: Fel Energy Irregularities VII]

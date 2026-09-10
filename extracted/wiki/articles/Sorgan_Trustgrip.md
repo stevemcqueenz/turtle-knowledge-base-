@@ -25,14 +25,14 @@ categories: ["Grim Reaches NPCs", "Quest givers", "Scholars", "Turtle WoW conten
 | location | Dun Kithas Magistrate, Grim Reaches |
 | status | Alive |
 
--Sorgan Trustgrip** is a [Wildhammer dwarf](Wildhammer dwarf) [quest giver](quest giver) located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
+**Sorgan Trustgrip** is a [Wildhammer dwarf](Wildhammer dwarf) [quest giver](quest giver) located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
 
 ## Quests
 - [quest: The Ancient Wildhammer Tome] 
 - [quest: The Lost Archives] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The history of this region is steeped in tradition, conflict, and prosperity. The Grim Reaches was once a fertile and suitable land for many families and nobles that once lived within the great halls of Grim Batol itself!
 
 Ours is a weathered story, and one of hardship. We have endured, and adapted to face the threats that have continually sought our destruction. Many of those threats are long gone, and yet we still remain, a testament to the willpower of dwarves within Grim Reaches.

@@ -25,10 +25,10 @@ categories: ["Guards", "Human characters", "Swamp of Sorrows NPCs", "Turtle WoW 
 | status | Alive |
 | gender | Male |
 
--Watchman Banal** is a [human](human) guard located in [Sorrowguard Keep](Sorrowguard Keep) in the [Swamp of Sorrows](Swamp of Sorrows).
+**Watchman Banal** is a [human](human) guard located in [Sorrowguard Keep](Sorrowguard Keep) in the [Swamp of Sorrows](Swamp of Sorrows).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Fresh blood huh? You looking to make a name for yourself? Become something of a hero like all those tales say?
 
 Well, sorry to tell you, but all you're gonna find out here is stinky swamp water.

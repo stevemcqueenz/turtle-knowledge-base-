@@ -24,7 +24,7 @@ categories: ["Lapidis Isle mobs", "Ogre characters", "Turtle WoW content"]
 | status | Killable |
 | location | Gor'dosh Heights, Lapidis Isle |
 
--Tyrant King Brog'dosh** is an [ogre](ogre) located at [Gor'dosh Heights](Gor'dosh Heights) in [Lapidis Isle](Lapidis Isle) and is the leader of the [Gor'dosh](Gor'dosh). [Sergeant Blackwell](Sergeant Blackwell) wants him dead.
+**Tyrant King Brog'dosh** is an [ogre](ogre) located at [Gor'dosh Heights](Gor'dosh Heights) in [Lapidis Isle](Lapidis Isle) and is the leader of the [Gor'dosh](Gor'dosh). [Sergeant Blackwell](Sergeant Blackwell) wants him dead.
 
 ## Objective of
 - Drops [Tyrant's Crown](Tyrant's Crown) for [quest: The Tyrant King].

@@ -27,4 +27,4 @@ categories: ["Armor vendors", "Human characters", "Leatherworkers", "Silverpine 
 The **Pyrewood Leatherworker** is a [human](human) [leather](leather) [armor](armor) [vendor](vendor) found in her house left of the Pyrewood Inn entrance in [Pyrewood Village](Pyrewood Village) in [Silverpine Forest](Silverpine Forest). At night, she transforms into her [worgen](worgen) form as the **[Moonrage Leatherworker](Moonrage Leatherworker)**.
 
 ## Notes
--She is affiliated with [Stormwind](Stormwind (faction)) during the daytime to make her unattackable by Alliance players.
+- She is affiliated with [Stormwind](Stormwind (faction)) during the daytime to make her unattackable by Alliance players.

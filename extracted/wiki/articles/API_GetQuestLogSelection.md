@@ -14,13 +14,13 @@ Returns a number associated with the QuestLogSelection index.
  GetQuestLogSelection();
 ----
 
-  - *Arguments***
+** *Arguments***
 
    *none*
 
 ----
 
-  - *Returns***
+** *Returns***
 
    Number questSelected
 
@@ -29,15 +29,15 @@ Returns a number associated with the QuestLogSelection index.
 
 ----
 
-  - *Example***
+** *Example***
 
  local questSelected= GetQuestLogSelection();
 
-  - *Result***
+** *Result***
 
  1
 ----
 
-  - *Description***
+** *Description***
 
    Returns a number associated with the QuestLogSelection index.

@@ -10,4 +10,4 @@ categories: ["Alterac Mountains subzones", "Human territories", "Pages with brok
 ---
 # Lordamere Internment Camp
 
--Lordamere Internment Camp** is the only [Internment Camp](Internment Camp) based in [Dalaran](Dalaran). It is located on a hill overlooking the rebuilding city, and is defended by Dalaran forces. Four treacherous [forsaken](forsaken) hide here, and agents of the [Horde](Horde) are asked to seek them out and  kill them for their misdeeds.
+**Lordamere Internment Camp** is the only [Internment Camp](Internment Camp) based in [Dalaran](Dalaran). It is located on a hill overlooking the rebuilding city, and is defended by Dalaran forces. Four treacherous [forsaken](forsaken) hide here, and agents of the [Horde](Horde) are asked to seek them out and  kill them for their misdeeds.

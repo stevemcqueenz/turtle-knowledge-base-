@@ -25,10 +25,10 @@ categories: ["Forsaken characters", "Survival vendors", "Turtle WoW content", "U
 | location | Rogues' Quarter, Undercity |
 | status | Active |
 
--Mort Gallspewer** is a [Forsaken](Forsaken) [survival](survival) vendor located in [Rogues' Quarter](Rogues' Quarter) in the [Undercity](Undercity).
+**Mort Gallspewer** is a [Forsaken](Forsaken) [survival](survival) vendor located in [Rogues' Quarter](Rogues' Quarter) in the [Undercity](Undercity).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 <Mort is giggling at the sight of you. Occasional twitching of his head and body complete his deranged look.>
 
 Interested in some materials? Yes, yes! Of course you are, come closer, I won't bite...

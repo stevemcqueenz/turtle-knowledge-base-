@@ -25,14 +25,14 @@ categories: ["Balor NPCs", "Night elf characters", "Quest givers", "SI:7", "Turt
 | location | SI:7 Outpost, Balor |
 | status | Alive |
 
--Kinrial** is a [night elf](night elf) [quest giver](quest giver) located at [SI:7 Outpost](SI:7 Outpost) in [Balor](Balor).
+**Kinrial** is a [night elf](night elf) [quest giver](quest giver) located at [SI:7 Outpost](SI:7 Outpost) in [Balor](Balor).
 
 ## Quests
 - [quest: Fungal Fever] 
 - [quest: Stinging Lullaby] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 <The Night Elf eyes you with an almost condescending look. What a chilling disposition.>
 
 ## Patch changes

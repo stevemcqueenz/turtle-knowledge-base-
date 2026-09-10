@@ -25,7 +25,7 @@ categories: ["High elf characters", "Thalassian Highlands mobs"]
 | location | Felstrider Retreat, Thalassian Highlands |
 | status | Killable |
 
--Ithirilen Shadewind** is an undead [high elf](high elf) located in [Felstrider Retreat](Felstrider Retreat) in the [Thalassian Highlands](Thalassian Highlands). He is an ambassador sent by [Sylvanas Windrunner](Sylvanas Windrunner) to treat with the [blood elves](Blood elf) of Felstrider Retreat led by Viceroy [Eldin Sunstrider](Eldin Sunstrider).
+**Ithirilen Shadewind** is an undead [high elf](high elf) located in [Felstrider Retreat](Felstrider Retreat) in the [Thalassian Highlands](Thalassian Highlands). He is an ambassador sent by [Sylvanas Windrunner](Sylvanas Windrunner) to treat with the [blood elves](Blood elf) of Felstrider Retreat led by Viceroy [Eldin Sunstrider](Eldin Sunstrider).
 
 ## Objective of
 - [quest: class=rogue|race=HighElf]
@@ -34,4 +34,4 @@ categories: ["High elf characters", "Thalassian Highlands mobs"]
 He may be related to [Tesania Shadewind](Tesania Shadewind).
 
 ## Patch changes
--  **[Patch 1.17.1](Patch 1.17.1) (2023-12-20):** Added.
+- **[Patch 1.17.1](Patch 1.17.1) (2023-12-20):** Added.

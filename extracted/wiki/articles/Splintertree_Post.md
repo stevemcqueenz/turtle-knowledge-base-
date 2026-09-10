@@ -10,7 +10,7 @@ categories: ["Ashenvale subzones", "Horde towns", "Orc territories", "Pages with
 ---
 # Splintertree Post
 
--Splintertree Post** is a [Horde](Horde) outpost in [Ashenvale](Ashenvale), lying just North-West of [Felfire Hill](Felfire Hill).
+**Splintertree Post** is a [Horde](Horde) outpost in [Ashenvale](Ashenvale), lying just North-West of [Felfire Hill](Felfire Hill).
 
 Like most Horde outposts, Splintertree is mainly populated by [orcs](orcs) and [tauren](tauren), all whom are primarily [scout](scout)s and [guard](guard)s. There are several [quest giver](quest giver)s, a heavy armor [vendor](vendor) for repairs, an [inn](inn), [mailbox](mailbox), [stable master](stable master), and a [flight path](flight path) maintained by [wind rider](wind rider) [flight master](flight master) [Vhulgra](Vhulgra).
 
@@ -21,31 +21,20 @@ Due to its location nearby the [Warsong Lumber Camp](Warsong Lumber Camp), it is
 
 ## Travel Connections
 ### Flight
-  - [Orgrimmar](Orgrimmar)**
+** [Orgrimmar](Orgrimmar)**
 
-  - [Zoram'gar Outpost](Zoram'gar Outpost)**
+** [Zoram'gar Outpost](Zoram'gar Outpost)**
 
-  - [Valormok](Valormok)**
+** [Valormok](Valormok)**
 
-  - [The Crossroads](The Crossroads)**
+** [The Crossroads](The Crossroads)**
 
-  - [Emerald Sanctuary](Emerald Sanctuary)**
+** [Emerald Sanctuary](Emerald Sanctuary)**
 
 ## Splintertree Post NPCs
 ### Quest Givers
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- (southwest of Splintertree Post)
+- - - - - - - - (southwest of Splintertree Post)
 
 ### Vendors
-- 
-- 
-
-### Various Services
-- 
--
+- - ### Various Services
+- -

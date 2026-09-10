@@ -10,17 +10,17 @@ categories: ["Addon"]
 ---
 # RogueSpam
 
--RogueSpam** filters out specific error messages that can be annoying during combat as a rogue, helping you maintain focus during fights.
+**RogueSpam** filters out specific error messages that can be annoying during combat as a rogue, helping you maintain focus during fights.
 
 ## Installation
-  -Manual Installation Only**
+**Manual Installation Only**
 
 # Go to the main page of the repository.
 # Click the **<> Code** dropdown and download the repository as a <code>.zip</code>.
 # Unpack the <code>.zip</code> and move the RogueSpam folder from RogueSpam_v1.6 into your <code>Interface/AddOns</code> directory
 # Restart the game.
 
-  -Note:**
+**Note:**
 
 - You can enable configuration options via Cosmos if installed.
 

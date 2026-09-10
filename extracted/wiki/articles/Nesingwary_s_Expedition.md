@@ -21,15 +21,9 @@ categories: ["Camps", "Neutral quest hubs", "Stranglethorn Vale subzones"]
 | loc | Northern Stranglethorn Vale |
 | status | Active |
 
--Nesingwary's Expedition** is a small hunting [camp](camp) in [Stranglethorn Vale](Stranglethorn Vale). It is situated just below the river north of [Lake Nazferiti](Lake Nazferiti). The [dwarven](dwarven) master [hunter](hunter) [Hemet Nesingwary](Hemet Nesingwary) has led an expedition into Stranglethorn to hunt some of the wild game that traverse the jungles.
+**Nesingwary's Expedition** is a small hunting [camp](camp) in [Stranglethorn Vale](Stranglethorn Vale). It is situated just below the river north of [Lake Nazferiti](Lake Nazferiti). The [dwarven](dwarven) master [hunter](hunter) [Hemet Nesingwary](Hemet Nesingwary) has led an expedition into Stranglethorn to hunt some of the wild game that traverse the jungles.
 
 ## Inhabitants
-  -Quest givers**
-- 
-- 
-- 
-- 
-
-  -Vendors and services**
-- 
--
+**Quest givers**
+- - - - ;Vendors and services
+- -

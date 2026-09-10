@@ -26,7 +26,7 @@ categories: ["Ammo vendors", "Grim Reaches NPCs", "Turtle WoW content", "Wildham
 | status | Alive |
 | relatives | Vohand Blundergate |
 
--Kazand Blundergate** is a [Wildhammer dwarf](Wildhammer dwarf) ammo vendor located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
+**Kazand Blundergate** is a [Wildhammer dwarf](Wildhammer dwarf) ammo vendor located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

@@ -10,4 +10,4 @@ categories: ["Shores", "Stranglethorn Vale subzones"]
 ---
 # Wild Shore
 
--Wild Shore** is the southernmost coastline of the [Eastern Kingdoms](Eastern Kingdoms), and is home to the [Bloodsail Buccaneers](Bloodsail Buccaneers) and their fleet. [Gorlash](Gorlash) can be found along the shore nearby.
+**Wild Shore** is the southernmost coastline of the [Eastern Kingdoms](Eastern Kingdoms), and is home to the [Bloodsail Buccaneers](Bloodsail Buccaneers) and their fleet. [Gorlash](Gorlash) can be found along the shore nearby.

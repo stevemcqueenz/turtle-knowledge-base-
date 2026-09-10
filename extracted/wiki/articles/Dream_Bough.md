@@ -10,6 +10,6 @@ categories: ["Dragonkin", "Elite areas", "Feralas subzones", "Green Dragonflight
 ---
 # Dream Bough
 
--Dream Bough** 50 11 Feralas (g/s/c) is an area in the northwestern part of [Feralas](Feralas) which has one of the four known entrances to the [Emerald Dream](Emerald Dream).  The area is guarded by Elite Green [Dragonspawn](Dragonspawn) and the [drake](drake)s [Lethlas](Lethlas) and [Dreamroarer](Dreamroarer).
+**Dream Bough** 50 11 Feralas (g/s/c) is an area in the northwestern part of [Feralas](Feralas) which has one of the four known entrances to the [Emerald Dream](Emerald Dream).  The area is guarded by Elite Green [Dragonspawn](Dragonspawn) and the [drake](drake)s [Lethlas](Lethlas) and [Dreamroarer](Dreamroarer).
 
 One of the four [Dragons of Nightmare](Dragons of Nightmare) bosses randomly spawns here.

@@ -23,7 +23,7 @@ categories: ["Gnome characters", "Grim Reaches NPCs", "Turtle WoW content"]
 | location | Grim Reaches |
 | status | Alive |
 
--Gimban Togglefuse** is a [gnome](gnome) located in the [Grim Reaches](Grim Reaches). Along with his companions [Dorthas Read](Dorthas Read) and [Torlag](Torlag), he set up camp near a tunnel leading into the [Ruins of Grim Batol](Ruins of Grim Batol) to investigate the [darkness](Shadow Curse) that laid within now spreading out into the Grim Reaches.
+**Gimban Togglefuse** is a [gnome](gnome) located in the [Grim Reaches](Grim Reaches). Along with his companions [Dorthas Read](Dorthas Read) and [Torlag](Torlag), he set up camp near a tunnel leading into the [Ruins of Grim Batol](Ruins of Grim Batol) to investigate the [darkness](Shadow Curse) that laid within now spreading out into the Grim Reaches.
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

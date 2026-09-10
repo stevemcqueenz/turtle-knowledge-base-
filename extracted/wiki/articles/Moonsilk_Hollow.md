@@ -10,13 +10,10 @@ categories: ["Moonwhisper Coast subzones", "Turtle WoW content", "Valleys"]
 ---
 # Moonsilk Hollow
 
--Moonsilk Hollow** is a vale located in [Moonwhisper Coast](Moonwhisper Coast). It is inhabited by [moth](moth)s that produce powerful silk full of potent energy which is desired by the [Moro'gai tribe](Moro'gai tribe) for its healing properties. (ref: [quest: Silken Song])
+**Moonsilk Hollow** is a vale located in [Moonwhisper Coast](Moonwhisper Coast). It is inhabited by [moth](moth)s that produce powerful silk full of potent energy which is desired by the [Moro'gai tribe](Moro'gai tribe) for its healing properties. (ref: [quest: Silken Song])
 
 ## NPCs
-- 
-- 
-
-## Patch changes
+- - ## Patch changes
 - (Patch 1.18.1|note=Added.)
 
 ## References

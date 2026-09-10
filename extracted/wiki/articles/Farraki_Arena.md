@@ -26,30 +26,30 @@ categories: ["Bosses", "Sand troll characters", "Turtle WoW content", "Zul'Farra
 The **Farraki Arena** is where the champions of the [Farraki](Sandfury tribe), **[Razjal the Quick](Champion Razjal the Quick)**, can be challenged to a fight in [Zul'Farrak](Zul'Farrak) along his best warriors, **[Kath'zen the Brutal](Kath'zen the Brutal)** and **[Juthza the Cunning](Juthza the Cunning)**.
 
 ## Abilities
-  -Champion Razjal the Quick**
+**Champion Razjal the Quick**
 - Scorpid Ritual
 - Hellfire
 
 ## Quotes
 ### Champion Razjal the Quick
-  -Intro**
+**Intro**
   You challenge me? You'll have to beat my best warriors first.
 
-  -Aggro**
+**Aggro**
   I am Razjal, champion of Zul'Farrak, who you be mon?
 
-  -Scorpid Ritual**
+**Scorpid Ritual**
   Be consumed by the sand!
 
-  -Hellfire**
+**Hellfire**
   I am the only champion, not you, not anyone!
 
 ### Kath'zen the Brutal
-  -Aggro**
+**Aggro**
   I shall crush your bones...
 
 ### Juthza the Cunning
-  -Aggro**
+**Aggro**
   I be elusive... You cannot escape me!
 
 ## Loot

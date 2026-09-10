@@ -122,5 +122,5 @@ Thalassian unicorns are bought from [Vanira Quel'Belore](Vanira Quel'Belore) in 
 
 ## Patch changes
 - (Patch 1.15.0|note=Re-added.)
--  **[Patch 1.6.1](Patch 1.6.1) (2005-08-02):** Removed.
--  **[Patch 1.6.0](Patch 1.6.0) (2005-07-12):** Added.
+- **[Patch 1.6.1](Patch 1.6.1) (2005-08-02):** Removed.
+- **[Patch 1.6.0](Patch 1.6.0) (2005-07-12):** Added.

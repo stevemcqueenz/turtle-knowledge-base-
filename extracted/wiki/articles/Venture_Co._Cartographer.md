@@ -24,7 +24,7 @@ categories: ["Blackstone Island NPCs", "Cartographers", "Goblin characters", "Tu
 | race | Goblin |
 | location | Blackstone Island |
 
--Venture Co. Cartographers** are [goblin](goblin)s found across [Blackstone Island](Blackstone Island).
+**Venture Co. Cartographers** are [goblin](goblin)s found across [Blackstone Island](Blackstone Island).
 
 ## Objective of
 - Drops [Venture Co. Medallion](Venture Co. Medallion) for [quest: War on Venture Co.].

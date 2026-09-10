@@ -10,4 +10,4 @@ categories: ["Elite areas", "Pages with broken file links", "Silithus subzones",
 ---
 # Hive'Zora
 
--Hive'Zora** was a [silithid](silithid) nest in western [Silithus](Silithus).32 54 Silithus (g/s/c)
+**Hive'Zora** was a [silithid](silithid) nest in western [Silithus](Silithus).32 54 Silithus (g/s/c)

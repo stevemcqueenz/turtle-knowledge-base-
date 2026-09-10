@@ -10,17 +10,17 @@ categories: ["Addon"]
 ---
 # XLoot
 
--XLoot** is a customizable loot frame replacement , offering enhanced visual features, flexible options, and improved loot handling.
+**XLoot** is a customizable loot frame replacement , offering enhanced visual features, flexible options, and improved loot handling.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 The easiest way to keep **XLoot** up to date is by using [GitAddonsManager](GitAddonsManager).
 
 # **Add the Repository:** Add the following URL to GitAddonsManager: https://github.com/Road-block/XLoot_AddOns.git
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -33,7 +33,7 @@ If you prefer manual installation, follow these steps:
 - XLootMaster
 - XLootMonitor
 
-  -Note**:
+**Note**:
 
 - XLootGroup, XLootMaster and XLootMonitor are optional and can be disabled or removed if their functionality is not required.
 - XLoot is a requirement for any of the other plugins to function.
@@ -43,21 +43,21 @@ If you prefer manual installation, follow these steps:
 - [**(Road-block)**](https://github.com/Road-block/XLoot_AddOns)
 
 ## Usage
-  -Opening the Options Menu**
+**Opening the Options Menu**
 - <code>/xloot options</code> Opens the configuration menu in-game for customizing XLoot.
 
-  -Loot Frame Interaction**
+**Loot Frame Interaction**
 
 - Left-click on loot items to pick them up.
 - Shift + Left-click on an item to preview/equip.
 - Right-click on loot items to dismiss or perform alternative actions if configured.
 
-  -Linking Loot**
+**Linking Loot**
 
 - Click the **Link All** button to share loot links in chat channels.
 - The addon can send loot info via chat channels like raid, party, or custom channels.
 
-  -Auto-Closing Loot Frame**
+**Auto-Closing Loot Frame**
 
 - The loot frame automatically closes when all items are looted or can be forced to close via scripts or commands.
 
@@ -112,12 +112,12 @@ Options:
 XLoot:
 
 ## Configuration Options
-  -Accessing Options**
+**Accessing Options**
 
 - Use <code>/xloot options</code> to open the configuration menu.
 - Alternatively, right-click the loot frame or use the in-game menu if integrated.
 
-  -Main Settings**
+**Main Settings**
 
 - **Lock Frame**: Locks/unlocks the loot frame position.
 - **Scale**: Adjust the size of the loot frame.
@@ -127,14 +127,14 @@ XLoot:
 - **Quality Borders & Frames**: Highlight items based on quality with colored borders and frames.
 - **Auto Loot**: Enable swift/auto-looting during specific actions like fishing or container opening.
 
-  -Appearance**
+**Appearance**
 
 - **Background & Border Colors**: Customize the frame's background and border.
 - **Loot Quality Borders**: Toggle borders around loot items based on quality.
 - **Highlight Loot**: Show highlight frames for high-quality loot.
 - **Text Colors**: Set text colors for item names and info.
 
-  -Behavior**
+**Behavior**
 
 - **Snap to Cursor**: Frame will appear at cursor position.
 - **Smart Snap**: Frame adjusts position intelligently.
@@ -142,7 +142,7 @@ XLoot:
 - **Link Threshold**: Minimum quality level for loot to be linked/shared.
 - **Channel Selection**: Choose chat channels for sharing loot links.
 
-  -Advanced & Debug**
+**Advanced & Debug**
 
 - Enable debug mode for troubleshooting.
 - Force compatibility mode if encountering errors.
@@ -167,21 +167,21 @@ XLoot:
 - **Compatibility Errors**: Use the <code>forcecompat</code> option in <code>/xloot options</code> if errors occur on different WoW versions.
 
 ## Frequently Asked Questions
-  -Q:** How do I change the loot frame position?
+**Q:** How do I change the loot frame position?
 
-  -A:** Drag the frame or set position via <code>/xloot options</code> > **Frame** settings.
+**A:** Drag the frame or set position via <code>/xloot options</code> > **Frame** settings.
 
-  -Q:** How do I enable or disable loot quality borders?
+**Q:** How do I enable or disable loot quality borders?
 
-  -A:** In the options menu, toggle **Loot Quality Border** under **Appearance**.
+**A:** In the options menu, toggle **Loot Quality Border** under **Appearance**.
 
-  -Q:** How to share loot links?
+**Q:** How to share loot links?
 
-  -A:** Click the **Link All** button or use <code>/xloot link</code> in chat.
+**A:** Click the **Link All** button or use <code>/xloot link</code> in chat.
 
-  -Q:** How to reset settings?
+**Q:** How to reset settings?
 
-  -A:** Use <code>/xloot defaults</code> command or reset in the options menu.
+**A:** Use <code>/xloot defaults</code> command or reset in the options menu.
 
 ## Support & Feedback
 - For bug reports, feature requests, or translations, visit the GitHub repository.

@@ -11,13 +11,13 @@ categories: ["Characters"]
 # Augustina Sunblade
 
 ## **Augustina Sunblade**
-  -Race:** Blood Elf (formerly High Elf)
+**Race:** Blood Elf (formerly High Elf)
 
-  -Class:** Paladin (Blood Knight)
+**Class:** Paladin (Blood Knight)
 
-  -Nickname:** Red Rose
+**Nickname:** Red Rose
 
--"I will conquer the darkness that seeks to consume me."*
+*"I will conquer the darkness that seeks to consume me."*
 
 ### **History:**
 Hailing from a lineage of High Elves, Augustina's life took a drastic turn during the Scourge invasion of Quel'Thalas. Witnessing the slaughter of her kin and the defilement of the sacred Sunwell left a lasting mark on her soul. In the aftermath, the survivors took on the name "blood elves," and Augustina became known as "Red Rose" for her unwavering determination and the crimson rose that bloomed amidst the desolation.

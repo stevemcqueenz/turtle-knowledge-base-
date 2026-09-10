@@ -10,7 +10,7 @@ categories: ["Grim Reaches subzones", "Orc territories", "Towers", "Turtle WoW c
 ---
 # Zarm'geth Point
 
--Zarm'geth Point** is a watch tower occupied by [orc](orc)s of the [Dragonmaw clan](Dragonmaw clan) in the [Grim Reaches](Grim Reaches), just north of [Zarm'geth Stronghold](Zarm'geth Stronghold).
+**Zarm'geth Point** is a watch tower occupied by [orc](orc)s of the [Dragonmaw clan](Dragonmaw clan) in the [Grim Reaches](Grim Reaches), just north of [Zarm'geth Stronghold](Zarm'geth Stronghold).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

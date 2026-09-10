@@ -26,6 +26,6 @@ categories: ["Alchemy vendors", "Arathi Highlands NPCs", "Dwarf characters"]
 
 __NOTOC__
 
-  -Drovnar Strongbrew** is a [dwarf](dwarf) [alchemy](alchemy) [vendor](vendor) located in [Refuge Pointe](Refuge Pointe) in the [Arathi Highlands](Arathi Highlands). 
+**Drovnar Strongbrew** is a [dwarf](dwarf) [alchemy](alchemy) [vendor](vendor) located in [Refuge Pointe](Refuge Pointe) in the [Arathi Highlands](Arathi Highlands). 
 
 ## External links

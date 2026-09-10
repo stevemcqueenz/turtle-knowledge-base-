@@ -10,4 +10,4 @@ categories: ["Alterac Mountains subzones", "Cats", "Crags", "Pages with broken f
 ---
 # Headland
 
--The Headland** is a hill that juts over [Hillsbrad](Hillsbrad).  It is covered with [Mountain Lion](Mountain Lion)s.
+**The Headland** is a hill that juts over [Hillsbrad](Hillsbrad).  It is covered with [Mountain Lion](Mountain Lion)s.

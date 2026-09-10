@@ -47,26 +47,26 @@ WorldMap-Mulgore-old.jpg|Map of Mulgore prior to [patch 1.16.1](patch 1.16.1).
 |[Bael'dun Digsite](Bael'dun Digsite) • [Bloodhoof Village](Bloodhoof Village) • [Brambleblade Ravine](Brambleblade Ravine) • [Camp Narache](Camp Narache) • [The Golden Plains](Golden Plains) • [Kodo Rock](Kodo Rock) • [Palemane Rock](Palemane Rock) • [Ravaged Caravan](Ravaged Caravan) • [Red Cloud Mesa](Red Cloud Mesa) • [Red Cloud Roost](Red Cloud Roost) • [Red Rocks](Red Rocks) • [The Rolling Plains](Rolling Plains) • [Stonebull Lake](Stonebull Lake) • [Suntail Pass](Suntail Pass) • [Thunderhorn Water Well](Thunderhorn Water Well) • [The Venture Co. Mine](Venture Co. Mine) • [Wildmane Water Well](Wildmane Water Well) • [Windfury Ridge](Windfury Ridge) • [Windswept Heights](Windswept Heights) • [Winterhoof Water Well](Winterhoof Water Well)
 |-
 ||
-  -Undisplayed locations**
+**Undisplayed locations**
 
 [Instance](Instance)d: [Thorn Gorge](Thorn Gorge)
 |}
 
 ### Travel hubs
 #### [Flight path](Flight path)s from [Thunder Bluff](Thunder Bluff)
--  [Brackenwall Village](Brackenwall Village), [Dustwallow Marsh](Dustwallow Marsh)
--  [Camp Mojache](Camp Mojache), [Feralas](Feralas)
--  [Camp Taurajo](Camp Taurajo), [the Barrens](Barrens)
--  [Freewind Post](Freewind Post), [Thousand Needles](Thousand Needles)
--  [Orgrimmar](Orgrimmar), [Durotar](Durotar)
--  [Sun Rock Retreat](Sun Rock Retreat), [Stonetalon Mountains](Stonetalon Mountains)
--  [Shadowprey Village](Shadowprey Village), [Desolace](Desolace)
--  [The Crossroads](Crossroads), [the Barrens](Barrens)
--  [Valormok](Valormok), [Azshara](Azshara)
--  [Gadgetzan](Gadgetzan), [Tanaris](Tanaris)
+- [Brackenwall Village](Brackenwall Village), [Dustwallow Marsh](Dustwallow Marsh)
+- [Camp Mojache](Camp Mojache), [Feralas](Feralas)
+- [Camp Taurajo](Camp Taurajo), [the Barrens](Barrens)
+- [Freewind Post](Freewind Post), [Thousand Needles](Thousand Needles)
+- [Orgrimmar](Orgrimmar), [Durotar](Durotar)
+- [Sun Rock Retreat](Sun Rock Retreat), [Stonetalon Mountains](Stonetalon Mountains)
+- [Shadowprey Village](Shadowprey Village), [Desolace](Desolace)
+- [The Crossroads](Crossroads), [the Barrens](Barrens)
+- [Valormok](Valormok), [Azshara](Azshara)
+- [Gadgetzan](Gadgetzan), [Tanaris](Tanaris)
 
 #### Zeppelin connections from [Thunder Bluff](Thunder Bluff)
--  [Orgrimmar](Orgrimmar), [Durotar](Durotar)
+- [Orgrimmar](Orgrimmar), [Durotar](Durotar)
 
 ### Adjacent regions
 {| class="fandom-table"

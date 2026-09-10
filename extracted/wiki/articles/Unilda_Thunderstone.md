@@ -25,7 +25,7 @@ categories: ["Dwarf characters", "Explorers' League", "Stonetalon Mountains NPCs
 | location | Bael Hardul, Stonetalon Mountains |
 | status | Alive |
 
--Unilda Thunderstone** is a [dwarf](dwarf) located in [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains).
+**Unilda Thunderstone** is a [dwarf](dwarf) located in [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains).
 
 ## Patch changes
 - (Patch 1.16.4|note=Added.)

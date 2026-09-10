@@ -25,7 +25,7 @@ categories: ["Bosses", "Human characters", "Scarlet Monastery mobs", "Turtle WoW
 | status | Killable |
 | instance | Scarlet Monastery |
 
--Brother Wystan** is a boss in the [Sanctum of the Fist](Sanctum of the Fist) within the [Scarlet Monastery Library](Scarlet Monastery Library).
+**Brother Wystan** is a boss in the [Sanctum of the Fist](Sanctum of the Fist) within the [Scarlet Monastery Library](Scarlet Monastery Library).
 
 ## Abilities
 - Snap Kick
@@ -33,10 +33,10 @@ categories: ["Bosses", "Human characters", "Scarlet Monastery mobs", "Turtle WoW
 - Fireball
 
 ## Quotes
-  -Aggro**
+**Aggro**
   Do you feel it? The radiance of the Light.
 
-  -Death**
+**Death**
   My faith... was not strong enough...
 
 ## Loot

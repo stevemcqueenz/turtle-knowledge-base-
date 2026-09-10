@@ -25,7 +25,7 @@ categories: ["Grim Reaches NPCs", "Stable masters", "Turtle WoW content", "Wildh
 | location | Dun Kithas, Grim Reaches |
 | status | Alive |
 
--Farwyn Barleynight** is a [Wildhammer dwarf](Wildhammer dwarf) stable master located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
+**Farwyn Barleynight** is a [Wildhammer dwarf](Wildhammer dwarf) stable master located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

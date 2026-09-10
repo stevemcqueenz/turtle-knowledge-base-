@@ -15,6 +15,6 @@ The **Farstrider Lodge** (or **Farstrider's Lodge**) is a hunters' lodge located
 The Farstrider Lodge was host to a caravan of high elven refugees travelling to Stormwind that have been waylaid by an attack by the dark iron dwarves of Shadowforge.
 
 ## Patch changes
--  **[Patch 1.17.1](Patch 1.17.1) (2023-12-20):** No longer the high elf starting area.
--  **[Patch 1.17.0](Patch 1.17.0) (2023-10-03):** The Farstrider Lodge is getting a new look! More accurate to its High Elven legacy. The gilded exterior blending with the natural wilds showcases both the ancestral ties to the Kaldorei, as well as the pride and progress of their civilization before the coming of the Scourge.
--  **[Patch 1.15.0](Patch 1.15.0) (2021-01-05):** Area expanded into the high elf starting area.
+- **[Patch 1.17.1](Patch 1.17.1) (2023-12-20):** No longer the high elf starting area.
+- **[Patch 1.17.0](Patch 1.17.0) (2023-10-03):** The Farstrider Lodge is getting a new look! More accurate to its High Elven legacy. The gilded exterior blending with the natural wilds showcases both the ancestral ties to the Kaldorei, as well as the pride and progress of their civilization before the coming of the Scourge.
+- **[Patch 1.15.0](Patch 1.15.0) (2021-01-05):** Area expanded into the high elf starting area.

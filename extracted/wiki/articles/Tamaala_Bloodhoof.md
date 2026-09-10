@@ -26,7 +26,7 @@ categories: ["Caverns of Time NPCs", "Tauren characters", "Turtle WoW content"]
 | status | Unknown |
 | relatives | Cairne (lifemate),, Baine (son) |
 
--Tamaala Bloodhoof** was the lifemate of Chieftain [Cairne Bloodhoof](Cairne Bloodhoof) and the mother of [Baine Bloodhoof](Baine Bloodhoof). (ref: [Neto the Time Weaver#Quotes](Neto the Time Weaver#Quotes))
+**Tamaala Bloodhoof** was the lifemate of Chieftain [Cairne Bloodhoof](Cairne Bloodhoof) and the mother of [Baine Bloodhoof](Baine Bloodhoof). (ref: [Neto the Time Weaver#Quotes](Neto the Time Weaver#Quotes))
 
 A time-displaced version of Tamaala appears in the [Caverns of Time](Caverns of Time) and is guided by [Neto the Time Weaver](Neto the Time Weaver) to her proper timeline.
 

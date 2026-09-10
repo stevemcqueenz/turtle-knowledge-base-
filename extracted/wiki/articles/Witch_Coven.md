@@ -13,7 +13,5 @@ categories: ["Northwind subzones", "Turtle WoW content"]
 The **Witch Coven** is a hut located in northern [Northwind](Northwind). It is home to the reclusive [the Witch of Northwind](the Witch of Northwind).
 
 ## Inhabitants
-- 
-
-## Patch changes
+- ## Patch changes
 - (Patch 1.18.0|note=Added.)

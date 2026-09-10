@@ -43,7 +43,7 @@ The Emerald Dream is in danger.
 So now you know. Solnius must be stopped.
 
 ## Notes
-  -Speaking with Ralathius**
+**Speaking with Ralathius**
 Hidden beneath the veil, a great shadow lurks within the dream, already much of my kind have been disturbed by the presence.
 
 You may not know this, but the awakening has begun.

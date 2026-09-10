@@ -24,7 +24,7 @@ categories: ["Children", "High elf characters", "Lapidis Isle NPCs", "Quest give
 | status | Alive |
 | relatives | Mournful Apparition (mother),, Eliza (adoptive mother) |
 
--Krilana** is a [high elf](high elf) [quest giver](quest giver) located in [Caelan's Rest](Caelan's Rest) in [Lapidis Isle](Lapidis Isle). Her parents were a part of the high elven fleet that accompanied Admiral [Caelan](Caelan) and the [Kul Tiran Exploratory Fleet](Kul Tiran Exploratory Fleet) and perished at the hands of the naga upon the shores of [Gillijim's Isle](Gillijim's Isle), in the shipwreck now known as [Faelon's Folly](Faelon's Folly). She was subsequently adopted by [Eliza Caldwell](Eliza Caldwell).
+**Krilana** is a [high elf](high elf) [quest giver](quest giver) located in [Caelan's Rest](Caelan's Rest) in [Lapidis Isle](Lapidis Isle). Her parents were a part of the high elven fleet that accompanied Admiral [Caelan](Caelan) and the [Kul Tiran Exploratory Fleet](Kul Tiran Exploratory Fleet) and perished at the hands of the naga upon the shores of [Gillijim's Isle](Gillijim's Isle), in the shipwreck now known as [Faelon's Folly](Faelon's Folly). She was subsequently adopted by [Eliza Caldwell](Eliza Caldwell).
 
 ## Quests
 - [quest: Krilana's Magnificent Quest] 

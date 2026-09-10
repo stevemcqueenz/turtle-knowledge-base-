@@ -25,7 +25,7 @@ categories: ["Blasted Lands NPCs", "Dalaran (kingdom)", "Human characters", "Que
 | location | Nethergarde Keep, Blasted Lands |
 | status | Alive |
 
--Watcher Mahar Ba** is a [human](human) quest giver located in [Nethergarde Keep](Nethergarde Keep) in [Blasted Lands](Blasted Lands).
+**Watcher Mahar Ba** is a [human](human) quest giver located in [Nethergarde Keep](Nethergarde Keep) in [Blasted Lands](Blasted Lands).
 
 ## Quests
 - [quest: Mazen's Behest] 

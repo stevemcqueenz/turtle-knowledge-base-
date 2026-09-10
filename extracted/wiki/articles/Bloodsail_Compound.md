@@ -13,8 +13,4 @@ categories: ["Human territories", "Neutral settlements", "Stranglethorn Vale sub
 The **Bloodsail Compound** is a loose camp of the [Bloodsail Buccaneers](Bloodsail Buccaneers) found on the western coast of [Stranglethorn Vale](Stranglethorn Vale) near the central portion. The camp is ran by ['Wincing' Willy]('Wincing' Willy).
 
 ## Inhabitants
-- 
-- 
-- 
-- 
--
+- - - - -

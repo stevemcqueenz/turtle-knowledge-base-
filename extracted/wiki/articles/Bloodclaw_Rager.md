@@ -23,7 +23,7 @@ categories: ["Gilneas mobs", "Turtle WoW content", "Worgen characters"]
 | location | Gilneas |
 | status | Killable |
 
--Bloodclaw Ragers** are worgen found in [Gilneas](Gilneas).
+**Bloodclaw Ragers** are worgen found in [Gilneas](Gilneas).
 
 ## Abilities
 - Enrage

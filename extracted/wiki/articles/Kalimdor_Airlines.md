@@ -10,4 +10,4 @@ categories: ["Booty Bay shops"]
 ---
 # Kalimdor Airlines
 
--Kalimdor Airlines** is a [flight master](flight master) platform located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). It's run by [Gringer](Gringer).
+**Kalimdor Airlines** is a [flight master](flight master) platform located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). It's run by [Gringer](Gringer).

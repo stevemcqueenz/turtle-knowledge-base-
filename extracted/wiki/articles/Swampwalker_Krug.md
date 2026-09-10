@@ -25,7 +25,7 @@ categories: ["Orc characters", "Survival trainers", "Swamp of Sorrows NPCs", "Tu
 | location | Stonard, Swamp of Sorrows |
 | status | Alive |
 
--Swampwalker Krug** is an [orc](orc) Expert [survival](survival) trainer located in [Stonard](Stonard) in [Swamp of Sorrows](Swamp of Sorrows).
+**Swampwalker Krug** is an [orc](orc) Expert [survival](survival) trainer located in [Stonard](Stonard) in [Swamp of Sorrows](Swamp of Sorrows).
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

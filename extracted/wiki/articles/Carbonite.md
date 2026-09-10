@@ -13,7 +13,7 @@ categories: ["Addon"]
 Carbonite is a comprehensive addon that provides map, quest, waypoint, and social features.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **Carbonite** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **Carbonite** up to date is by using [GitAddonsManager](
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -41,7 +41,7 @@ If you prefer manual installation, follow these steps:
 - The Carbonite logo appears on login if installed correctly.
 - Access the main features via the minimap icon or the map interface (default key: m).
 
-  -Minimap & Map**
+**Minimap & Map**
 
 - Left click minimap icon: toggles the map.
 - Right click minimap icon: opens the main menu.
@@ -50,14 +50,14 @@ If you prefer manual installation, follow these steps:
 - Shift + click: pings the minimap.
 - Alt + M: opens the default Blizzard map.
 
-  -Map Controls**
+**Map Controls**
 
 - Drag map: move around.
 - Right click in map: opens map menu with options like GOTO, Notes, Save/Restore Scale.
 - M: toggle full-screen map.
 - Map follows you by default; can be toggled off.
 
-  -Quest & Quest Watch**
+**Quest & Quest Watch**
 
 - The quest log replaces Blizzard's default.
 - Shift + quest title: add to watch list.
@@ -65,35 +65,35 @@ If you prefer manual installation, follow these steps:
 - Quest objectives: round buttons to activate GOTO, toggle objectives, or send status messages.
 - Quest Givers: show icons (parchment for normal, blue ! for dailies).
 
-  -HUD & Map**
+**HUD & Map**
 
 - Auto-tracking arrow: points to current target/objective.
 - Drag HUD arrow to move.
 - Right click arrow: targets the target of your target.
 - Left click arrow: targets the NPC/Player pointed at.
 
-  -Social & Punks**
+**Social & Punks**
 
 - Press O to open social window.
 - Pals tab: manage friends across characters.
 - Punks tab: track enemy players, note their locations, and keep notes.
 - Right click on punk entries for options like add, remove, or notes.
 
-  -Favorites & Notes**
+**Favorites & Notes**
 
 - The Favorites window manages locations, notes, and paths.
 - Create notes via right-clicking map.
 - Targets and notes are saved in folder structures, similar to a file system.
 - Use the "Record" mode to capture new locations/path points.
 
-  -Warehouse**
+**Warehouse**
 
 - Browse all your characters' gear and bank items.
 - Search for items across all characters.
 - Link items or export/import data for character management.
 - Sync data between characters or accounts.
 
-  -Map & Icons**
+**Map & Icons**
 
 - Clickable icons represent players, quest givers, points of interest.
 - Colors indicate friend, guild, party, enemy, or quest status.

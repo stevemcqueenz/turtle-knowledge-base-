@@ -10,10 +10,10 @@ categories: ["Addon"]
 ---
 # DifficultBulletinBoard
 
--Difficult Bulletin Board** scans world chat and organizes messages into an easy-to-read interface, making it simple to find groups, services, or updates.
+**Difficult Bulletin Board** scans world chat and organizes messages into an easy-to-read interface, making it simple to find groups, services, or updates.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **DifficultBulletinBoard** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **DifficultBulletinBoard** up to date is by using [GitAd
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -34,31 +34,31 @@ If you prefer manual installation, follow these steps:
 - [**(DeterminedPanda)**](https://github.com/DeterminedPanda/DifficultBulletinBoard)
 
 ## Usage
-  -Opening the Bulletin Board**
+**Opening the Bulletin Board**
 - Type <code>/dbb</code> or left-click the minimap icon to open the interface.
 - The main window displays organized chat messages.
-  -Managing Topics**
+**Managing Topics**
 - Right-click the minimap icon to open options.
 - Use checkboxes to follow/unfollow specific topics.
 - Use <code>/dbb</code> to toggle the main interface.
-  -Tabs**
+**Tabs**
 - **Groups**: Find or post group messages.
 - **Groups Logs**: View recent group chat entries.
 - **Professions**: Search for crafting services.
 - **Hardcore Messages**: Track hardcore-related events (deaths, level-ups).
-  -Filtering (in Groups Logs)**
+**Filtering (in Groups Logs)**
 - Use the filter box next to "Group Logs" to filter entries.
 - Enter comma-separated keywords to filter messages containing those terms.
-  -Chat Interactions**
+**Chat Interactions**
 - Click on a name:
   - Left-click: Whisper (<code>/w</code>) or shift-left-click: <code>/who</code>.
   - Right-click: Invite (<code>/invite</code>).
-  -Minimap Button**
+**Minimap Button**
 - Shift+Click to move the minimap button.
 
 ## Preview
 ## Customization & Settings
-  -Access Settings**
+**Access Settings**
 
 - Right-click minimap icon → Options.
 - Adjust:
@@ -69,7 +69,7 @@ If you prefer manual installation, follow these steps:
   - Filtering options
   - Sounds on open/close
 
-  -Using the Options Menu**
+**Using the Options Menu**
 
 - Resize, enable/disable features.
 - Set topics to monitor.

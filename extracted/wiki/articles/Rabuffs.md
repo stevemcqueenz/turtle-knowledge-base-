@@ -13,7 +13,7 @@ categories: ["Addon"]
 An add-on for tracking raid wide and personal buffs and weapon enchants. With a panel of clickable buttons that light up when a buff is found. Clicking the panel will buff up, which saves space from your action bars. Much of the functionality is also available in macros via the /rab and /rabq commands.
 
 ## Installation
-  -GitAddonsManager (Recommended)**
+**GitAddonsManager (Recommended)**
 
 The easiest way to keep RABuffs up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep RABuffs up to date is by using [GitAddonsManager](GitAdd
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -30,7 +30,7 @@ If you prefer manual installation, follow these steps:
 # Unpack the <code>.zip</code> and rename the folder to <code>RABuffs</code>, removing the <code>-master</code> suffix.
 # Move the folder into your <code>Interface/AddOns</code> directory and restart the game.
 
-  -Warning:**
+**Warning:**
 
 - This version is not backwards compatible with the original - it uses a new format in the WTF file as the original was very impractical to work with. It's recommended backing up your WTF folder or SavedVariables\Rabuffs.lua in case you ever want to revert.
 

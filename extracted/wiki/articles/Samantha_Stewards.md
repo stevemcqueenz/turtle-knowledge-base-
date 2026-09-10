@@ -26,7 +26,7 @@ categories: ["General goods vendors", "Gilneas (kingdom)", "Gilneas NPCs", "Huma
 | relatives | Jacob Stewards |
 | status | Alive |
 
--Samantha Stewards** is a [human](human) general goods vendor located in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
+**Samantha Stewards** is a [human](human) general goods vendor located in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
 
 ## Quotes
 I am sure you will find something you're looking for.

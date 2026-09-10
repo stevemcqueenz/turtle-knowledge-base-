@@ -22,7 +22,7 @@ categories: ["Icepoint Rock", "Islands", "North Sea", "Tuskarr territories"]
 | affiliation | Independent |
 | loc | In the North Sea |
 
--Icepoint Rock** is a small [island](island) located in the [North Sea](North Sea) located to the northeast of [Kalimdor](Kalimdor). It is to the north of Winterspring. (ref: [Flight Logbook](Flight Logbook))
+**Icepoint Rock** is a small [island](island) located in the [North Sea](North Sea) located to the northeast of [Kalimdor](Kalimdor). It is to the north of Winterspring. (ref: [Flight Logbook](Flight Logbook))
 
 The [Flaxwhisker Front](Flaxwhisker Front) used to maintain [an outpost](Flaxwhisker base camp) at the peak of Icepoint Rock to which they transferred supplies.
 
@@ -33,7 +33,7 @@ The [Flaxwhisker Front](Flaxwhisker Front) used to maintain [an outpost](Flaxwhi
 ||[Kaneq'nuun](Kaneq'nuun)
 |-
 ||
-  -Undisplayed locations**
+**Undisplayed locations**
 
 [Flaxwhisker base camp](Flaxwhisker base camp)
 |}
@@ -48,6 +48,6 @@ The [Flaxwhisker Front](Flaxwhisker Front) used to maintain [an outpost](Flaxwhi
 |}
 
 ## Patch changes
--  **[Patch 1.16.0](Patch 1.16.0) (2021-12-27):** Added.
+- **[Patch 1.16.0](Patch 1.16.0) (2021-12-27):** Added.
 
 ## References

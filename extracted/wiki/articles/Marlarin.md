@@ -25,7 +25,7 @@ categories: ["Darnassus NPCs", "Night elf characters", "Survival vendors", "Turt
 | location | Craftsmen's Terrace, Darnassus |
 | status | Alive |
 
--Marlarin** is a [night elf](night elf) [survival](survival) vendor located in the [Craftsmen's Terrace](Craftsmen's Terrace) in [Darnassus](Darnassus).
+**Marlarin** is a [night elf](night elf) [survival](survival) vendor located in the [Craftsmen's Terrace](Craftsmen's Terrace) in [Darnassus](Darnassus).
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

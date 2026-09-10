@@ -25,7 +25,7 @@ categories: ["Gilneas NPCs", "Human characters", "Quest enders", "Turtle WoW con
 | location | Ravenshire, Gilneas |
 | status | Alive |
 
--Clerk Ebonmere** is a [human](human) [quest ender](quest ender) located in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
+**Clerk Ebonmere** is a [human](human) [quest ender](quest ender) located in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
 
 ## Quests
 - [quest: Onward to Ravenshire] 

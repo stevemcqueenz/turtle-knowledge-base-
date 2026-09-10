@@ -27,7 +27,7 @@ categories: ["Alterac (kingdom)", "Alterac Mountains mobs", "Aristocrats", "Huma
 | relatives | Aiden (father),, Isiden (cousin),, Baron Perenolde (distant relative) |
 | mentors | Aedelas Blackmoore |
 
--Lord Aliden Perenolde** is the leader of the [Syndicate](Syndicate) and the son of King [Aiden Perenolde](Aiden Perenolde), the ruler of the nation and kingdom of [Alterac](Alterac (kingdom)) during the [Second War](Second War).
+**Lord Aliden Perenolde** is the leader of the [Syndicate](Syndicate) and the son of King [Aiden Perenolde](Aiden Perenolde), the ruler of the nation and kingdom of [Alterac](Alterac (kingdom)) during the [Second War](Second War).
 
 ## Background
 After the Second War and in the midst of the [Alterac crisis](Alterac crisis), Aliden fought over the lands of Alterac against his cousin [Isiden](Isiden Perenolde). He'd been mentored by [Aedelas Blackmoore](Aedelas Blackmoore). However, by the end of the [Third War](Third War), Aliden had taken command of the disenfranchised nobility of Alterac and led them as the [Syndicate](Syndicate), while Isiden remained a guest of [House Greymane](House Greymane) in Gilneas until he was taken captive by the Harlow regime.

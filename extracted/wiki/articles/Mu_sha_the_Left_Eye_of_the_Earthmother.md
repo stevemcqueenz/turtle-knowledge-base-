@@ -10,7 +10,7 @@ categories: ["Lore", "Moonwhisper Coast objects", "Readable objects", "Tauren", 
 ---
 # Mu'sha, the Left Eye of the Earthmother
 
--Mu'sha, the Left Eye of the Earthmother** is a part of tauren mythology. It is recorded in-game on the shaman stone in the center of [Moonhoof Village](Moonhoof Village).
+**Mu'sha, the Left Eye of the Earthmother** is a part of tauren mythology. It is recorded in-game on the shaman stone in the center of [Moonhoof Village](Moonhoof Village).
 
 ## See also
 - [An'she, the Right Eye of the Earthmother](An'she, the Right Eye of the Earthmother)

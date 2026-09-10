@@ -10,7 +10,7 @@ categories: ["Patches"]
 ---
 # Patch 1.15.0
 
--Patch 1.15.0** was released on January 5, 2021.
+**Patch 1.15.0** was released on January 5, 2021.
 
 ## Patch notes
 - Two new races: Goblins and High Elves & their starting locations

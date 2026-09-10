@@ -23,6 +23,6 @@ categories: ["Dustwallow Marsh NPCs", "Guards", "High elf characters", "Human ch
 | affiliation | Theramore Guard |
 | location | Theramore Isle, Dustwallow Marsh |
 
--Theramore Guards** are [human](human) and [high elf](high elf) guards stationed throughout [Theramore Isle](Theramore Isle) in [Dustwallow Marsh](Dustwallow Marsh).
+**Theramore Guards** are [human](human) and [high elf](high elf) guards stationed throughout [Theramore Isle](Theramore Isle) in [Dustwallow Marsh](Dustwallow Marsh).
 
 ## External links

@@ -18,8 +18,4 @@ categories: ["Elite areas", "Stubs", "Un'Goro Crater subzones"]
 Terror Run is the aptly-named area in the Southwestern quadrant of [Un'goro Crater](Un'goro Crater). The area is infested with giant dinosaurs of every type including [Devilsaur](Devilsaur), [Pterrordax](Pterrordax), [Diemetradon](Diemetradon) and [Stegodon](Stegodon), some of which are [elite](elite).
 
 ## List of elite mobs
--
--
--
--
-- ([rare mob](rare mob))
+- - - - - ([rare mob](rare mob))

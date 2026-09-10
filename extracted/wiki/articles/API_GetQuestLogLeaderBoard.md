@@ -14,7 +14,7 @@ This function returns up to 3 values:
  local desc, type, done = GetQuestLogLeaderBoard(i, [questID])
 ----
 
-  - *Arguments***
+** *Arguments***
 
   ; i
    Index of the quests objectives (see [GetNumQuestLeaderBoards()](API GetNumQuestLeaderBoards) ).
@@ -24,7 +24,7 @@ This function returns up to 3 values:
 
 ----
 
-  - *Return values***
+** *Return values***
 
   ; desc
    String - The text description of the objective, like: "Kill foo: 0/3"

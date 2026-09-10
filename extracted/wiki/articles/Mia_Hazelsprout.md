@@ -24,10 +24,10 @@ categories: ["Human characters", "Northwind NPCs", "Turtle WoW content"]
 | location | Ambershire, Northwind |
 | status | Alive |
 
--Mia Hazelsprout** is a [human](human) located in [Ambershire](Ambershire) in [Northwind](Northwind).
+**Mia Hazelsprout** is a [human](human) located in [Ambershire](Ambershire) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 My father used to fish in this small pond, but he would never take the fish home. I think he felt a certain sadness for them—raised, essentially, in captivity, in a small, limited place to roam. I wonder if that's how he felt about our home when he decided to join the [Defias](Defias Brotherhood). Mh, I suppose he got the opposite of what he wanted in the [Stockades](Stockades).
 
 ## Patch changes

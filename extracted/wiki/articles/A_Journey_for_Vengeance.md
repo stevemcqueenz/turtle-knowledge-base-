@@ -45,7 +45,7 @@ Now you see why it is I traveled so far?
 I will reclaim my families glory.
 
 ## Notes
-  -Speaking with Grumnir Battlebeard**
+**Speaking with Grumnir Battlebeard**
 I've known Whitepeak ever since my time serving Ironforge.
 
 I'm certain he could use my experience and expertise out here, especially so far from home.
@@ -57,8 +57,8 @@ I'm certain he could use my experience and expertise out here, especially so far
   **Grumnir Battlebeard says:** This orc breathes today, pardoned by the Horde, and still wielding the axe my brother carried, an heirloom to our family. I desire revenge, above all else.
 
 ## Progression
-1.[quest: A Journey for Vengeance]
-1.[quest: The Battlebeard Legacy]
+1. [quest: A Journey for Vengeance]
+1. [quest: The Battlebeard Legacy]
 
 ## Patch changes
 - (Patch 1.16.4|note=Added.)

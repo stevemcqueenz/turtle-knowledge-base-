@@ -10,7 +10,7 @@ categories: ["Azshara subzones", "Monuments", "Naga territories", "Pages with br
 ---
 # Ravencrest Monument
 
--Ravencrest Monument** is a huge statue in [Azshara](Azshara), raised in honor of Lord [Kur'talos Ravencrest](Kur'talos Ravencrest). He led the resistance after the fall of [Zin-Azshari](Zin-Azshari), [Suramar](Suramar), and countless other cities against the [Burning Legion](Burning Legion), and fought beside the young [Tyrande](Tyrande) and the brothers [Illidan](Illidan) and [Malfurion Stormrage](Malfurion Stormrage). 
+**Ravencrest Monument** is a huge statue in [Azshara](Azshara), raised in honor of Lord [Kur'talos Ravencrest](Kur'talos Ravencrest). He led the resistance after the fall of [Zin-Azshari](Zin-Azshari), [Suramar](Suramar), and countless other cities against the [Burning Legion](Burning Legion), and fought beside the young [Tyrande](Tyrande) and the brothers [Illidan](Illidan) and [Malfurion Stormrage](Malfurion Stormrage). 
 
 Sadly, the statue now lies in ruins; only the broken-off legs still stand and various parts are visible on the ground around them. Presumably, the rest has sunk beneath the waves of the [Great Sea](Great Sea). The ruins are inhabited by a tribe of [naga](naga), as always  against intruders.
 

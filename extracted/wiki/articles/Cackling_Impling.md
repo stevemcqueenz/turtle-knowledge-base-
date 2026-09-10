@@ -22,7 +22,7 @@ categories: ["Imps", "Stormwrought Ruins mobs", "Turtle WoW content"]
 | location | Stormwrought Ruins |
 | status | Killable |
 
--Cackling Implings** are [imp](imp)s located in [Stormwrought Ruins](Stormwrought Ruins).
+**Cackling Implings** are [imp](imp)s located in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

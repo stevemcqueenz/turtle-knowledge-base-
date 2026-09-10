@@ -23,4 +23,4 @@ categories: ["Bays", "Harbors", "Human territories", "Pages with broken file lin
 Protected by mountains on three sides, **Lost Rigger Cove** is the hideout of the [Southsea Pirates](Southsea Pirates) on the coast of [Tanaris](Tanaris). Agents of the [Steamwheedle Cartel](Steamwheedle Cartel) constantly attempt to disrupt the pirates' shipbuilding operations here. Killing Southsea Pirates will earn [reputation](reputation) with [Gadgetzan](Gadgetzan).
 
 ## Patch changes
--  **Patch 1.4.0 (2005-04-19):** Female orcs no longer get stuck in scaffolding in Lost Rigger Cove.
+- **Patch 1.4.0 (2005-04-19):** Female orcs no longer get stuck in scaffolding in Lost Rigger Cove.

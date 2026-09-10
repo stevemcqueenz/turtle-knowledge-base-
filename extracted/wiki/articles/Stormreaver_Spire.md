@@ -10,14 +10,8 @@ categories: ["Balor subzones", "Elite areas", "Orc territories", "Turtle WoW con
 ---
 # Stormreaver Spire
 
--Stormreaver Spire** is a ruined tower occupied by the [Stormreaver clan](Stormreaver clan) on a rise overlooking [Stormwrought Castle](Stormwrought Castle).
+**Stormreaver Spire** is a ruined tower occupied by the [Stormreaver clan](Stormreaver clan) on a rise overlooking [Stormwrought Castle](Stormwrought Castle).
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - - ## Patch changes
 - (Patch 1.18.0|note=Added.)

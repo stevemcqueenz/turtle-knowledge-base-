@@ -21,14 +21,14 @@ categories: ["Regions"]
 | affiliation | Tauren tribes, Dunemaul clan, Stonemaul clan, Horde, Darnassus, Alliance, Grimtotem tribe, Steamwheedle Cartel, Bronze dragonflight, Farraki tribe, Southsea Pirates, Cenarion Circle, Gordunni clan, Centaur tribes, Quilboar tribes, Twilight's Hammer |
 | loc | Southern Kalimdor |
 
--Southern Kalimdor** (ref: *World of Warcraft: Game Manual*, pg. 167) (ref: [Bluffwatcher's gossip about fishing in Mulgore](Bluffwatcher#Quotes)) is the southernmost region of [Kalimdor](Kalimdor), south of [central Kalimdor](central Kalimdor).
+**Southern Kalimdor** (ref: *World of Warcraft: Game Manual*, pg. 167) (ref: [Bluffwatcher's gossip about fishing in Mulgore](Bluffwatcher#Quotes)) is the southernmost region of [Kalimdor](Kalimdor), south of [central Kalimdor](central Kalimdor).
 
 ## Geography
 ### Zones
 - [Feralas](Feralas)
 - [Silithus](Silithus)
 - [Tanaris](Tanaris)
--  [Tel'Abim](Tel'Abim)
+- [Tel'Abim](Tel'Abim)
 - [Thousand Needles](Thousand Needles)
 - [Un'Goro Crater](Un'Goro Crater)
 

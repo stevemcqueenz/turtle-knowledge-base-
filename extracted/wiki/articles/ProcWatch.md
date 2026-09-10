@@ -13,7 +13,7 @@ categories: ["Addon"]
 ProcWatch is designed to determine proc rates of weapon procs and monitor specific combat events. It helps players track how often certain procs occur during fights, providing valuable stats for optimizing gear and understanding proc mechanics.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **ProcWatch** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **ProcWatch** up to date is by using [GitAddonsManager](
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -30,7 +30,7 @@ If you prefer manual installation, follow these steps:
 # Unpack the .zip and rename the folder to ProcWatch, removing the -master suffix.
 # Move the folder into your Interface/AddOns directory and restart the game.
 
-  -Note**: check every box in the Combat Log for Spell Messages
+**Note**: check every box in the Combat Log for Spell Messages
 
 ## Git Links
 - [**(diaFRAGma)**](https://github.com/diaFRAGma/ProcWatch)

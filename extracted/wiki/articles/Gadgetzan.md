@@ -35,7 +35,7 @@ categories: ["Articles using deprecated loot", "Goblin territories", "Pages with
 | profession | Yes |
 | status | Active |
 
--Capital of the [Steamwheedle Cartel](Steamwheedle Cartel) and home to goblinhood's finest engineers, alchemists, and merchants.*
+*Capital of the [Steamwheedle Cartel](Steamwheedle Cartel) and home to goblinhood's finest engineers, alchemists, and merchants.*
 
 The neutral [goblin](goblin) trading outpost of **Gadgetzan** is the only spot of civilization in the entire desert of [Tanaris](Tanaris). Explorers can find most gear that they need here, as well as a place to escape from the blistering sun and other dangers of the desert. Rising out of the northern [Tanaris](Tanaris) desert like an oasis, Gadgetzan (Gadgetzar or Gadgetar in some tongues) is the headquarters of the [Steamwheedle Cartel](Steamwheedle Cartel), the largest of the [Goblin](Goblin) Cartels. Here some of the best goblin engineers, miners and alchemists play their trade. The goblins believe in profit above loyalty, thus Gadgetzan is considered neutral territory in the Horde/Alliance conflict. Anyone with a fat wallet or services to offer is welcome in Gadgetzan.  Both governments officially recognize goblin neutrality, and for those who don't, the streets are heavily patrolled by goblin bruisers ready to pound to a pulp anyone disrupting their trade by instigating conflict. Why the goblins choose to build their trading towns in such inhospitable locations is anyone's guess, but once again, they defy logic and the hot sun with their wondrous city of Gadgetzan.
 
@@ -61,66 +61,25 @@ In the center of Gadgetzan is a cage. It has one door on the north side. The wal
 
 ## Travel Connections
 ### Flight
-  - [Theramore Isle](Theramore Isle)**
-  - [Thalanaar](Thalanaar)**
-  - [Orgrimmar](Orgrimmar)**
-  - [Thunder Bluff](Thunder Bluff)**
-  - [The Crossroads](The Crossroads)**
-  - [Brackenwall Village](Brackenwall Village)**
-  - [Camp Mojache](Camp Mojache)**
-  - [Freewind Post](Freewind Post)**
-  - [Ratchet](Ratchet)**
-  - [Mudsprocket](Mudsprocket)**
-  - [Marshal's Refuge](Marshal's Refuge)**
-  - [Cenarion Hold](Cenarion Hold)**
+** [Theramore Isle](Theramore Isle)**
+** [Thalanaar](Thalanaar)**
+** [Orgrimmar](Orgrimmar)**
+** [Thunder Bluff](Thunder Bluff)**
+** [The Crossroads](The Crossroads)**
+** [Brackenwall Village](Brackenwall Village)**
+** [Camp Mojache](Camp Mojache)**
+** [Freewind Post](Freewind Post)**
+** [Ratchet](Ratchet)**
+** [Mudsprocket](Mudsprocket)**
+** [Marshal's Refuge](Marshal's Refuge)**
+** [Cenarion Hold](Cenarion Hold)**
 
 ## Gadgetzan NPCs
-  -Merchants**
--
--
--
-- 
-- 
-- 
-- 
--
--
--
--
--
--
-
-  -Trainers**
--
--
--
-
-  -Other Characters**
--
--
--
--
--
--
--
--
--
--
--
--
--
-- 
--
--
--
--
--
-
-  -Guards**
--
--
-
-## Getting There
+**Merchants**
+- - - - - - - - - - - - - ;Trainers
+- - - ;Other Characters
+- - - - - - - - - - - - - - - - - - - ;Guards
+- - ## Getting There
 Gadgetzan is located in [Tanaris](Tanaris). It can be accessed by traveling through [Thousand Needles](Thousand Needles) and across the [Shimmering Flats](Shimmering Flats), using a mountain pass on the southern edge of the flats to travel into Tanaris. The town is built at the base of the pass.
 
 An alternate way to reach Gadgetzan for Alliance players is to swim south along the coast from [Theramore](Theramore). 
@@ -202,19 +161,19 @@ See [Mobs which affect reputation with Steamwheedle Cartel](Mobs which affect re
 - [quest: Tran'rek] - from [Krazek](Krazek) in [Booty Bay](Booty Bay)
 
 ### General
--[quest: Thistleshrub Valley] 
--[quest: Gadgetzan Water Survey] 
-  -[quest: Noxious Lair Investigation] 
--[quest: WANTED: Andre Firebeard] 
--[quest: The Dunemaul Compound] 
--[quest: The Thirsty Goblin] 
-  -[quest: In Good Taste] 
-  -*[quest: Sprinkle's Secret Ingredient] ([The Hinterlands](The Hinterlands))
-  -**[quest: Delivery for Marin] 
-  -***[quest: Noggenfogger Elixir] 
--[quest: March of the Silithid] ([Orgrimmar](Orgrimmar))
-  -[quest: Bungle in the Jungle] ([Un'Goro Crater](Un'Goro Crater))
--[quest: Super Sticky] ([Un'Goro Crater](Un'Goro Crater))
+- [quest: Thistleshrub Valley] 
+- [quest: Gadgetzan Water Survey] 
+  - [quest: Noxious Lair Investigation] 
+- [quest: WANTED: Andre Firebeard] 
+- [quest: The Dunemaul Compound] 
+- [quest: The Thirsty Goblin] 
+  - [quest: In Good Taste] 
+  - *[quest: Sprinkle's Secret Ingredient] ([The Hinterlands](The Hinterlands))
+  - **[quest: Delivery for Marin] 
+  - ***[quest: Noggenfogger Elixir] 
+- [quest: March of the Silithid] ([Orgrimmar](Orgrimmar))
+  - [quest: Bungle in the Jungle] ([Un'Goro Crater](Un'Goro Crater))
+- [quest: Super Sticky] ([Un'Goro Crater](Un'Goro Crater))
 
 ### Water!
 As you head east to [Noonshade Ruins](Noonshade Ruins), you can complete both  and , but don't worry if you don't collect enough Wastewander Water Pouches. For , head southeast of Gadgetzan to [Waterspring Field](Waterspring Field). Here, the mobs have a much higher droprate for Pouches. [Caliph Scorpidsting](Caliph Scorpidsting) will also be wandering the area with two stealthed escorts. Try to leave with Pouches in multiples of five; the first five for  if you're Horde and the rest for repeated turn-ins for . You may want to hold on to the Pouches for the Horde quest line that follows.
@@ -224,10 +183,10 @@ After completing , you will have access to  and . The former is available if you
 - [quest: Wastewander Justice]
   - [quest: More Wastewander Justice]
 - [quest: Water Pouch Bounty]
--  [46] Into the Field ([Undercity](Undercity))
+- [46] Into the Field ([Undercity](Undercity))
   - [quest: Slake That Thirst]
-  -* [quest: Another Power Source?]
-  -* [quest: Tanaris Field Sampling]
+  - * [quest: Another Power Source?]
+  - * [quest: Tanaris Field Sampling]
 - [quest: WANTED: Caliph Scorpidsting]
 
 ### Zul'Farrak
@@ -253,4 +212,4 @@ These three things alone make Gadgetzan an ideal city. The rest of the city's am
 That's not to say that Gadgetzan is perfect, of course. There are some minor problems that pester the people of this desert paradise. Small things like the Wastewander bandits who threaten the Waterspring Field. Adventurers who beat the bandits back earn the gratitude of the goblins and will be, in time, suitably rewarded. Of course, sometimes the problems come from the adventurers themselves. The Gadgetzan envisioned by the goblins is a trade haven but sometimes the Gadgetzan that really exists resembles a battlefield. Such battles are finished quickly once the Bruisers arrive on the scene, though, so future visitors need not worry overmuch about the violence they hear about in Gadgetzan. Aside from a few minor quirks, the city of Gadgetzan truly is the goblin-built jewel of Tanaris.''
 
 ## Notes
--Although Gadgetzan looks like, and appears to be, a reference to the desert town of Mos Eisley from *Star Wars*, it is even likelier to be a reference to "Barter Town" in the movie *[Mad Max: Beyond Thunderdome](wikipedia:Mad Max: Beyond Thunderdome)*; the main area in which the movie is situated is located in a desert and has an arena in the middle, similar to the one in Gadgetzan. Further evidence of this is the NPC named [Katrina Turner](Katrina Turner), whose name is very similar to Tina Turner, who played a lead part in that movie.
+- Although Gadgetzan looks like, and appears to be, a reference to the desert town of Mos Eisley from *Star Wars*, it is even likelier to be a reference to "Barter Town" in the movie *[Mad Max: Beyond Thunderdome](wikipedia:Mad Max: Beyond Thunderdome)*; the main area in which the movie is situated is located in a desert and has an arena in the middle, similar to the one in Gadgetzan. Further evidence of this is the NPC named [Katrina Turner](Katrina Turner), whose name is very similar to Tina Turner, who played a lead part in that movie.

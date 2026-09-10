@@ -10,7 +10,7 @@ categories: ["Alliance Towns", "Human Nations", "Stubs"]
 ---
 # Dalaran
 
--Dalaran** is a [magocratic](magocracy) city state in the northern [Eastern Kingdoms](Eastern Kingdoms), ruled by the [Kirin Tor](Kirin Tor).  It has served as the focal point for [mage](mage (lore))s and the study of the [arcane](arcane) throughout [human](human) history.
+**Dalaran** is a [magocratic](magocracy) city state in the northern [Eastern Kingdoms](Eastern Kingdoms), ruled by the [Kirin Tor](Kirin Tor).  It has served as the focal point for [mage](mage (lore))s and the study of the [arcane](arcane) throughout [human](human) history.
 
 ## Founding and Early History
 The second city-state of the nation of [Arathor](Arathor), Dalaran was founded in the lands northwest of [Strom](Strom). Many fledgling wizards left the restraining confines of Strom behind and traveled to Dalaran, where they hoped to use their new powers with greater freedom. These mages used their skills to build up the enchanted spires of Dalaran and reveled in the pursuit of their studies. The citizens of Dalaran built up a bustling economy under the protection of their magic-using defenders. 

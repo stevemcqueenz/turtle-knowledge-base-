@@ -10,7 +10,7 @@ categories: []
 ---
 # Canon
 
--Canon** is a term oft-used to refer to official lore, specifically the fictional accounts in the *Warcraft* universe as portrayed in Turtle WoW. It is used to define which lore should be considered a genuine part of the universe's history.
+**Canon** is a term oft-used to refer to official lore, specifically the fictional accounts in the *Warcraft* universe as portrayed in Turtle WoW. It is used to define which lore should be considered a genuine part of the universe's history.
 
 Turtle WoW's 'canon' is derived from the official *Warcraft* 'canon', and thus comprises a specific selection of works and sources of information considered from the *Warcraft* 'canon' to be authoritative and representative of the 'true' or official history of the *Warcraft* universe as it is portrayed in Turtle WoW. Therefore, 'canon' or 'canonical' lore is that which is part of this body of work, and is thus considered part of the true history in Turtle WoW.
 
@@ -30,9 +30,9 @@ In contrast, 'non-canon' information, while often containing characters and depi
   - *[Lord of the Clans](https://wowpedia.fandom.com/wiki/Lord_of_the_Clans)* by Christie Golden
   - *[Of Blood and Honor](https://wowpedia.fandom.com/wiki/Of_Blood_and_Honor)* by Chris Metzen
   - *[War of the Ancients Trilogy](https://wowpedia.fandom.com/wiki/War_of_the_Ancients_Trilogy)* by Richard A. Knaak
-  -* *[The Well of Eternity](https://wowpedia.fandom.com/wiki/The_Well_of_Eternity)*
-  -* *[The Demon Soul](https://wowpedia.fandom.com/wiki/The_Demon_Soul)*
-  -* *[The Sundering](https://wowpedia.fandom.com/wiki/The_Sundering)*
+  - * *[The Well of Eternity](https://wowpedia.fandom.com/wiki/The_Well_of_Eternity)*
+  - * *[The Demon Soul](https://wowpedia.fandom.com/wiki/The_Demon_Soul)*
+  - * *[The Sundering](https://wowpedia.fandom.com/wiki/The_Sundering)*
   - *[Cycle of Hatred](https://wowpedia.fandom.com/wiki/Cycle_of_Hatred)* by Keith R.A. DeCandido
 - Short stories:
   - *[The War of the Shifting Sands](https://wowpedia.fandom.com/wiki/The_War_of_the_Shifting_Sands_(short_story))* by Micky Neilson

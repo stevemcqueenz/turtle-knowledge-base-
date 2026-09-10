@@ -37,19 +37,19 @@ the titan holds a measure of dominance. Effects of these interests appear primar
 Most of the known **Titans** come from the elite, ruling sect known as the [Pantheon](Pantheon).
 
 Little is known of the names or details of the titans, beyond these few:
--[Sargeras](Sargeras)
+- [Sargeras](Sargeras)
 
--[Aman'Thul](Aman'Thul)
+- [Aman'Thul](Aman'Thul)
 
--[Eonar](Eonar)
+- [Eonar](Eonar)
 
--[Norgannon](Norgannon)
+- [Norgannon](Norgannon)
 
--[Khaz'goroth](Khaz'goroth)
+- [Khaz'goroth](Khaz'goroth)
 
--[Aggramar](Aggramar)
+- [Aggramar](Aggramar)
 
--[Golganneth](Golganneth)
+- [Golganneth](Golganneth)
 
 ## Other Facts
 - Titans brought the concept of [Runic Magic](Runic Magic) into the world.

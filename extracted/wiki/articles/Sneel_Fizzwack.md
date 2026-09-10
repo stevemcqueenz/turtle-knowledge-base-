@@ -25,7 +25,7 @@ categories: ["Goblin characters", "Quest givers", "Tel'Abim NPCs", "Tel Company"
 | location | Tel Co. Basecamp, Tel'Abim |
 | status | Alive |
 
--Sneel Fizzwack** is a [goblin](goblin) [quest giver](quest giver) located in [Tel Co. Basecamp](Tel Co. Basecamp) in [Tel'Abim](Tel'Abim).
+**Sneel Fizzwack** is a [goblin](goblin) [quest giver](quest giver) located in [Tel Co. Basecamp](Tel Co. Basecamp) in [Tel'Abim](Tel'Abim).
 
 ## Quests
 - [quest: The Spitefin Bounty] 
@@ -34,7 +34,7 @@ categories: ["Goblin characters", "Quest givers", "Tel'Abim NPCs", "Tel Company"
 - [quest: Highvale Rise] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 These apes need a lesson in discipline, it's about time we his them back, and hit hard. It isn't all bashing though, sometimes you need strategy, and [O'ggon](O'ggon) certainly helps when strategy doesn't work.
 
 ## Patch changes

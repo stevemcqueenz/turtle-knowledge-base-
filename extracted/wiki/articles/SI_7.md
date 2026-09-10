@@ -25,7 +25,7 @@ categories: ["Lore", "Rogue organizations", "SI:7"]
 | affiliation | Kingdom of Stormwind, Alliance |
 | status | Active |
 
--SI:7**, also known as **Stormwind Intelligence** (ref: [quest: class=rogue]) or **Stormwind Intelligence Agency**, (ref: [https://web.archive.org/web/20051031092226/http://www.worldofwarcraft.com/info/underdev/]) is a covert Alliance organization. It includes [rogue](rogue)s specializing in special operations, assassination and stealth tactics. They are currently led by [Master Mathias Shaw](Master Mathias Shaw) and his second in command, [Renzik "The Shiv"](Renzik "The Shiv"). SI:7 is located in the [Old Town](Old Town) region of Stormwind. They have operatives all throughout the [Eastern Kingdoms](Eastern Kingdoms) who carry out secret missions for Stormwind, such as [Flint Shadowmore](Flint Shadowmore).
+**SI:7**, also known as **Stormwind Intelligence** (ref: [quest: class=rogue]) or **Stormwind Intelligence Agency**, (ref: [https://web.archive.org/web/20051031092226/http://www.worldofwarcraft.com/info/underdev/]) is a covert Alliance organization. It includes [rogue](rogue)s specializing in special operations, assassination and stealth tactics. They are currently led by [Master Mathias Shaw](Master Mathias Shaw) and his second in command, [Renzik "The Shiv"](Renzik "The Shiv"). SI:7 is located in the [Old Town](Old Town) region of Stormwind. They have operatives all throughout the [Eastern Kingdoms](Eastern Kingdoms) who carry out secret missions for Stormwind, such as [Flint Shadowmore](Flint Shadowmore).
 
 ## History
 From their base of operations in the [barracks](SI:7 (Stormwind City)) of [Old Town](Old Town), the SI:7 underwent reconnaissance efforts for many agents regarding matters as far apart as the [Defias Brotherhood](Defias Brotherhood) to the [Undead](Undead) [Scourge](Scourge). In order to help Alliance heroes hunt down the Defias who sought to destroy [Stormwind City](Stormwind City) from within, [Master Mathias Shaw](Master Mathias Shaw) directed SI:7 reconnaissance operations on Defias activities, and later sent [Agent Kearnen](Agent Kearnen) to [Westfall](Westfall) to spy on [Klaven's Tower](Klaven's Tower). (ref: [quest: class=rogue])
@@ -183,10 +183,7 @@ At some point, Mathias received some disturbing reports of unusual [Forsaken](Fo
 |}
 
 ### Unnamed
-- 
-- 
-
-## People in touch with SI:7
+- - ## People in touch with SI:7
 {| class="darktable zebra sortable"
 !Name!!Role!!Status!!Location
 |-

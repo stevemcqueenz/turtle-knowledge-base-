@@ -23,7 +23,7 @@ categories: ["Crescent Grove mobs", "Furbolg characters", "Turtle WoW content"]
 | creature | Humanoid |
 | location | The Crescent Grove |
 
--Groveweald Pathfinders** are furbolgs of the Groveweald tribe located in the [Crescent Grove](Crescent Grove).
+**Groveweald Pathfinders** are furbolgs of the Groveweald tribe located in the [Crescent Grove](Crescent Grove).
 
 ## Abilities
 - Hooked Net

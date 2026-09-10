@@ -44,7 +44,7 @@ Bold accusation, <race>, I almost feel offended.
 I fear it was not me, things would’ve been simpler. I assume you got a name from your prisoner. Tell me what happened.
 
 ## Notes
-  -Upon completion**
+**Upon completion**
   **Brother Crowley says:** Brigitte Abbendis is the daughter of the former High General Abbendis and utterly hates the undead, which is not a surprise when it comes to the Scarlet Crusade, I know.
   **Brother Crowley says:** The issue is she'd go to any length and I mean any to achieve this purpose, given what you told me and the fate of the leaders she probably broke and went insane by now.
   **Brother Crowley says:** Last I heard she was in Tyr's Hand, but if there's a secret training place or whatever that prisoner called it the only one to know about it would be her, an information passed down from the Ashbringer to her father and from her father to her.

@@ -37,8 +37,8 @@ I could use a favor, if you don't mind. There are three sailors that I know of i
 
 ## Rewards
 You will receive:
--1138 XP
--+200 [reputation](reputation) with [Kul Tiras](Kul Tiras (faction))
+- 1138 XP
+- +200 [reputation](reputation) with [Kul Tiras](Kul Tiras (faction))
 
 ## Progress
 Any luck finding them all?

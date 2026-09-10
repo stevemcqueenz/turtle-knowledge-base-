@@ -53,7 +53,7 @@ Thus, the tauren convinced Warchief [Thrall](Thrall), despite his misgivings, to
 The [Darkspear](Darkspear tribe) [trolls](Jungle troll) are not particularly fond of the Forsaken because of their [shaman](Shamanistic) beliefs,<sup>[[Wowpedia:Citation|[*citation needed*<nowiki>]</nowiki>]]</sup>  but tolerate them and have learned to trust them in times of war.
 
 ### World of Warcraft
-  -This section concerns content related to the original *[World of Warcraft](World of Warcraft)*.**
+**This section concerns content related to the original *[World of Warcraft](World of Warcraft)*.**
 
 As the primary [Horde](Horde) force in the [Eastern Kingdoms](Eastern Kingdoms), the Forsaken went about dealing with a number of their surrounding enemies. New free-willed undead, freed by Lady Sylvanas, were inducted into the Forsaken's ranks and assisted their new (and old) people in the tasks set before them within [Tirisfal Glades](Tirisfal Glades). For years this blighted area has been home to Queen Sylvanas and her Forsaken, as well as the remaining vestiges of the [Scarlet Crusade](Scarlet Crusade). Their zealots, bent on wiping out any and all undead from Azeroth regardless of affiliation, have long been a thorn in the Forsaken's side. Recently, the [Argent Dawn](Argent Dawn) has offered assistance to Sylvanas' people against the Crusaders' constant harassment in eastern Tirisfal Glades. In addition, the Forsaken have begun a fresh march on their enemy's stronghold – the [Scarlet Monastery](Scarlet Monastery) – in an effort to finally secure their homeland from external threats.
 

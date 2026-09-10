@@ -24,10 +24,10 @@ categories: ["Human characters", "Kul Tiras (kingdom)", "Stormwind City NPCs", "
 | location | Stormwind Harbor, Stormwind City |
 | status | Alive |
 
--Sailor Shalwynd** is a [human](human) located in [Stormwind Harbor](Stormwind Harbor) in [Stormwind City](Stormwind City).
+**Sailor Shalwynd** is a [human](human) located in [Stormwind Harbor](Stormwind Harbor) in [Stormwind City](Stormwind City).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 You do not know the sheer pleasure of being able to stretch your legs on dry land after such a long expedition.
 
 ## Patch changes

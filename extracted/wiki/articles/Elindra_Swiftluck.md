@@ -25,13 +25,13 @@ categories: ["Balor NPCs", "General goods vendors", "High elf characters", "Ques
 | location | SI:7 Outpost, Balor |
 | status | Alive |
 
--Elindra Swiftluck** is a [high elf](high elf) general goods vendor and [quest giver](quest giver) located at [SI:7 Outpost](SI:7 Outpost) in [Balor](Balor).
+**Elindra Swiftluck** is a [high elf](high elf) general goods vendor and [quest giver](quest giver) located at [SI:7 Outpost](SI:7 Outpost) in [Balor](Balor).
 
 ## Quests
 - [quest: Suspicions From Sea] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Rarely have I ever seen such a cursed place. This island reeks of death and anguish. Best prepare for anything.
 
 ## Patch changes

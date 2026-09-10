@@ -23,7 +23,7 @@ categories: ["Human characters", "Stormwrought Ruins NPCs", "Turtle WoW content"
 | location | Stormwrought Prison, Stormwrought Ruins |
 | status | Alive |
 
--Stormreaver Prisoners** are [human](human)s that were adbucted from [Northwind](Northwind) that are being held captive in [Stormwrought Prison](Stormwrought Prison) in [Stormwrought Ruins](Stormwrought Ruins).
+**Stormreaver Prisoners** are [human](human)s that were adbucted from [Northwind](Northwind) that are being held captive in [Stormwrought Prison](Stormwrought Prison) in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

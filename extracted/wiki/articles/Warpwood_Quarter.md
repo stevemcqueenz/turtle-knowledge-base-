@@ -75,6 +75,6 @@ The area is so named for its numerous Warpwood [ancient](ancient)s, but it also 
 |}
 
 ## Patch changes
--  **Patch 1.3.0 (2005-03-07):** Added.
+- **Patch 1.3.0 (2005-03-07):** Added.
 
 ## References

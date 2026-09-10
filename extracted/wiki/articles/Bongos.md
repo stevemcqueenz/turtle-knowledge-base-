@@ -10,10 +10,10 @@ categories: ["Addon"]
 ---
 # Bongos
 
--Bongos** is a flexible, movable bar framework. It allows you to customize action bars, bags, pet bars, class bars, and more, with options for positioning, scaling, visibility, and behavior.
+**Bongos** is a flexible, movable bar framework. It allows you to customize action bars, bags, pet bars, class bars, and more, with options for positioning, scaling, visibility, and behavior.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **Bongos** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **Bongos** up to date is by using [GitAddonsManager](Git
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -38,7 +38,7 @@ If you prefer manual installation, follow these steps:
 - Bongos_Stats
 - Bongos_XP
 
-  -Optional**: 
+**Optional**: 
 
 - [CyCircled](CyCircled) - Add new skins on action buttons
 
@@ -46,18 +46,18 @@ If you prefer manual installation, follow these steps:
 - [**(MarcelineVQ)**](https://github.com/MarcelineVQ/Bongos)
 
 ## Basic Usage
-  -Moving Bars**
+**Moving Bars**
 
 - Unlock bars: Use the lock/unlock button.
 - Drag with your mouse to reposition.
 - Lock bars to prevent movement.
 
-  -Showing/Hiding Bars**
+**Showing/Hiding Bars**
 
 - Use commands /bg show <bar>, /bg hide <bar>, or /bg toggle <bar> to control visibility.
 - <bar> can be a specific number, name, or special keyword (all, bags, menu, etc.).
 
-  -Profiles**
+**Profiles**
 
 - Save current setup: /bg save <profile_name>
 - Load a profile: /bg load <profile_name>
@@ -65,21 +65,21 @@ If you prefer manual installation, follow these steps:
 - Set a profile as default: /bg setdefault <profile_name>
 - Clear default profile (use default WoW behavior): /bg cleardefault
 
-  -Adjusting Scale and Opacity**
+**Adjusting Scale and Opacity**
 
 - Set scale: /bg scale <bar> <value> (e.g., /bg scale 1 0.8)
 - Set opacity: /bg setalpha <bar> <value> (e.g., /bg setalpha 1 0.5)
 
-  -Sticky Bars**
+**Sticky Bars**
 
 - Enable or disable sticky snapping: /bg stickybars on or /bg stickybars off
 
-  -Reusing Blizzard Buttons**
+**Reusing Blizzard Buttons**
 
 - Toggle reusing Blizzard's default action buttons: /bg reuse on or /bg reuse off
 - Reusing saves memory but may cause conflicts.
 
-  -Additional Commands**
+**Additional Commands**
 
 - Show help: /bg help
 - Show current configuration: /bg (or /bob)
@@ -157,28 +157,28 @@ If you prefer manual installation, follow these steps:
 
 ## Preview
 ## Key Features
-  -Movable Bars**
+**Movable Bars**
 - Drag and reposition action bars, pet bars, bag bars, and other UI elements.
 - Bars can be locked/unlocked to prevent accidental movement.
-  -Customizable Appearance**
+**Customizable Appearance**
 - Scale bars individually.
 - Adjust bar opacity (alpha).
 - Change bar position and save custom layouts.
 - Sticky bars can snap together for easier alignment.
-  -Bar Management**
+**Bar Management**
 - Show, hide, or toggle visibility of individual bars or all bars.
 - Automatically anchor bars close to each other.
 - Save and load multiple profiles for different setups.
-  -Profiles**
+**Profiles**
 - Save your layouts as profiles.
 - Load, delete, or reset profiles.
 - Set a default profile for new characters.
-  -Right-Click Menus**
+**Right-Click Menus**
 - Context menus for each bar for quick access to options like locking, hiding, scaling, and more.
-  -Compatibility & Integration**
+**Compatibility & Integration**
 - Supports other addons like CT_BottomBar, Infield, and more.
 - Reuse Blizzard's default action buttons to save memory.
-  -Miscellaneous**
+**Miscellaneous**
 - Enable/disable sticky behavior.
 - Enable/disable reusing Blizzard-created buttons.
 - Set keybindings for quick actions.
@@ -187,15 +187,15 @@ If you prefer manual installation, follow these steps:
 - Toggle self-casting with right-click.
 
 ## Advanced Usage
-  -Context Menus**
+**Context Menus**
 - Right-click on a bar to access quick options like lock, hide, scale, and more.
-  -Profiles & Layouts**
+**Profiles & Layouts**
 - Create multiple profiles for different playstyles or characters.
 - Easily switch between profiles without losing your setup.
-  -Keybindings**
+**Keybindings**
 - Assign quick keys for showing/hiding bars or toggling options.
 - Keybinding commands are typically set via WoW's keybinding menu, but you can also script custom ones.
-  -Special Bar Types**
+**Special Bar Types**
 - Bag bar (bags)
 - Menu bar (menu)
 - Pet bar (pet)
@@ -205,7 +205,7 @@ If you prefer manual installation, follow these steps:
 - Roll bar (roll)
 - Cast bar (cast)
 - Keyring (key)
-  -Enabling/Disabling Features**
+**Enabling/Disabling Features**
 - Sticky bars: /bg stickybars on
 - Reuse Blizzard buttons: /bg reuse on
 - Selfcast: /bg selfcast on

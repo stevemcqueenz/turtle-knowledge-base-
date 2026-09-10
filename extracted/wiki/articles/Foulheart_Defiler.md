@@ -24,7 +24,7 @@ categories: ["Moonwhisper Coast mobs", "Satyr characters", "Turtle WoW content"]
 | location | Foulheart Sanctum, Moonwhisper Coast |
 | status | Killable |
 
--Foulheart Defilers** are [satyr](satyr)s located at the [Foulheart Sanctum](Foulheart Sanctum) in [Moonwhisper Coast](Moonwhisper Coast).
+**Foulheart Defilers** are [satyr](satyr)s located at the [Foulheart Sanctum](Foulheart Sanctum) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Abilities
 - Immolate

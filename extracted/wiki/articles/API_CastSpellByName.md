@@ -10,7 +10,7 @@ categories: ["API Functions"]
 ---
 # API CastSpellByName
 
-- *Arguments***
+** *Arguments***
 
    ( name{, onSelf})
   ; name
@@ -20,12 +20,12 @@ categories: ["API Functions"]
 
 ----
 
-  - *Returns***
+** *Returns***
   ; nil
 
 ----
 
-  - *Example***
+** *Example***
    ( syntax )
   ; CastSpellByName("spellname(Rank X)")
   ; CastSpellByName("spellname")
@@ -34,19 +34,19 @@ categories: ["API Functions"]
  CastSpellByName('Life Tap(Rank 2)')
 ----
 
-  - *Result***
+** *Result***
 
    Casts Life Tap (This example is warlock specific). When the (Rank X) string is omitted, the *highest rank of the spell which the user has in his spellbook* is cast. *This is not true for Stone creation spells (i.e. "Create Firestone"), because they do not use "ranks".*
 
 ----
 
-  - *Description***
+** *Description***
 
    Casts a spell by the spells given name.
 
 ----
 
-  - *Notes:***
+** *Notes:***
    To cast spells that contains parentheses in the spell name, such as "Create Healthstone (Major)" and "Faerie Fire (Feral)", it's necessary to either specify rank or add () to the end of the spell name, like: CastSpellByName("Faerie Fire (Feral)()").
    You might encounter difficulties when using this on a localized version of WoW.
 

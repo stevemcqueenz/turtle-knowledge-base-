@@ -26,16 +26,16 @@ categories: ["Armor vendors", "Barrens NPCs", "Food vendors", "Orc characters", 
 | location | Mor'shan Base Camp, the Barrens |
 | status | Alive |
 
--Kelm Hargunth** is an [orc](orc) PvP rewards vendor located at [Mor'shan Base Camp](Mor'shan Base Camp) in the [Barrens](Barrens). He is the supply officer for the [Warsong Outriders](Warsong Outriders).
+**Kelm Hargunth** is an [orc](orc) PvP rewards vendor located at [Mor'shan Base Camp](Mor'shan Base Camp) in the [Barrens](Barrens). He is the supply officer for the [Warsong Outriders](Warsong Outriders).
 
 ## Quests
--[quest: Outrider Basic Care Package] 
--[quest: Outrider Standard Care Package] 
--[quest: Outrider Advanced Care Package] 
+- [quest: Outrider Basic Care Package] 
+- [quest: Outrider Standard Care Package] 
+- [quest: Outrider Advanced Care Package] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Zug zug, my friend! I am Kelm Hargunth, the main supplier for the Warsong Outriders. As you improve your standing with the Outriders, I will make available to you a fine selection of goods that you can use inside [Warsong Gulch](Warsong Gulch). Should you find yourself in need of item repair, I also provide those services.
 
 ## Patch changes
--  **Patch 1.5.0 (2005-06-07):** Added.
+- **Patch 1.5.0 (2005-06-07):** Added.

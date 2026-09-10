@@ -26,7 +26,7 @@ categories: ["Mulgore NPCs", "Priest trainers", "Quest givers", "Tauren characte
 | status | Alive |
 | relatives | Nuhlok (brother) |
 
--Pargan Starstrider** is a [tauren](tauren) priest trainer located in [Bloodhoof Village](Bloodhoof Village) in [Mulgore](Mulgore).
+**Pargan Starstrider** is a [tauren](tauren) priest trainer located in [Bloodhoof Village](Bloodhoof Village) in [Mulgore](Mulgore).
 
 ## Quests
 - [quest: race=tauren|class=priest] 
@@ -34,7 +34,7 @@ categories: ["Mulgore NPCs", "Priest trainers", "Quest givers", "Tauren characte
 - [quest: Light of An'she|race=tauren|class=priest] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The spiritual destiny of the Tauren lies in our hands. It is up to us to channel our powers and inspire our people to realize their true strength.
 
 ## Patch changes

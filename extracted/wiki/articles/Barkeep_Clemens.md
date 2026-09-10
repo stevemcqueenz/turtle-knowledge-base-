@@ -25,7 +25,7 @@ categories: ["Bartenders", "Human characters", "Lordaeron (kingdom)", "Quest giv
 | location | Remnants Camp, Tirisfal Glades |
 | status | Alive |
 
--Barkeep Clemens** is a [human](human) [quest giver](quest giver) located in the [Remnants Camp](Remnants Camp) in [Tirisfal Glades](Tirisfal Glades).
+**Barkeep Clemens** is a [human](human) [quest giver](quest giver) located in the [Remnants Camp](Remnants Camp) in [Tirisfal Glades](Tirisfal Glades).
 
 ## Quests
 - [quest: A Call to Aid] 

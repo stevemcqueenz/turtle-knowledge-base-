@@ -32,15 +32,15 @@ The society of satyr is not well known. There are many clans or tribes of satyr 
 Athough satyr are usually thought of as a race of [demon](demon)s, some unique satyr are classified as [humanoid](humanoid)s for inexplicable reasons. It is possible that these satyr have somehow established a spiritual connection with [Azeroth](Azeroth), or that they have severed their bond with their demonic masters. Or it might just be a mistake on Blizzard's part. 
 
 Here is a list of the humanoid satyr that appear in the game:
--[Bazzalan](Bazzalan), [Ragefire Chasm](Ragefire Chasm)
--[Sethir the Ancient](Sethir the Ancient), [Teldrassil](Teldrassil)
--[Zenn Foulhoof](Zenn Foulhoof), [Teldrassil](Teldrassil)
+- [Bazzalan](Bazzalan), [Ragefire Chasm](Ragefire Chasm)
+- [Sethir the Ancient](Sethir the Ancient), [Teldrassil](Teldrassil)
+- [Zenn Foulhoof](Zenn Foulhoof), [Teldrassil](Teldrassil)
 
 Ntable demonic satyr:
--[Xavius](Xavius)
--[Vyletongue](Vyletongue)
--[Vorlus Vilehoof](Vorlus Vilehoof)
--[Zevrim Thornhoof](Zevrim Thornhoof)
+- [Xavius](Xavius)
+- [Vyletongue](Vyletongue)
+- [Vorlus Vilehoof](Vorlus Vilehoof)
+- [Zevrim Thornhoof](Zevrim Thornhoof)
 
 See also:
 - The [Origin of the races](Origin of the races)

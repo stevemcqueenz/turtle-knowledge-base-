@@ -19,7 +19,7 @@ The Crushridge Clan currently controls the fallen human city of [Alterac](Altera
   - [Targ](Targ)
   - [Muckrake](Muckrake)
   - [Glommus](Glommus)
-  -* [Grel'borg the Miser](Grel'borg the Miser)
+  - * [Grel'borg the Miser](Grel'borg the Miser)
 
 ## World of Warcraft
 One of the [realm](realm)s in [World of Warcraft](World of Warcraft) is named after the Crushridge Clan.

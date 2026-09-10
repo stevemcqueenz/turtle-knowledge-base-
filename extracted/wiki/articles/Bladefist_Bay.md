@@ -10,4 +10,4 @@ categories: ["Bays", "Durotar subzones", "Orc territories", "Pages with broken f
 ---
 # Bladefist Bay
 
--Bladefist Bay** is a portion of the [Great Sea](Great Sea) off the eastern coast of central [Kalimdor](Kalimdor). It is mostly noted by travelers on the northeastern coast of [Durotar](Durotar) around [Skull Rock](Skull Rock), and the southern coast of [Azshara](Azshara). Likely named after [Kargath Bladefist](Kargath Bladefist), former chieftain of the [Shattered Hand Clan](Shattered Hand Clan).
+**Bladefist Bay** is a portion of the [Great Sea](Great Sea) off the eastern coast of central [Kalimdor](Kalimdor). It is mostly noted by travelers on the northeastern coast of [Durotar](Durotar) around [Skull Rock](Skull Rock), and the southern coast of [Azshara](Azshara). Likely named after [Kargath Bladefist](Kargath Bladefist), former chieftain of the [Shattered Hand Clan](Shattered Hand Clan).

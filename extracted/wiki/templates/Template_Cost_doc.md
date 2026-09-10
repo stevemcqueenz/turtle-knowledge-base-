@@ -10,7 +10,7 @@ categories: ["Template documentation"]
 ---
 # Template:Cost/doc
 
--Description**
+**Description**
   This template is designed to represent the *most common* forms of [currency](currency): the set of gold, silver, and copper.
 
   **All other items that are used as currency, tokens, and quest objectives should use  instead of this template.**
@@ -18,21 +18,21 @@ categories: ["Template documentation"]
 <ul class="side-by-side">
 <li>
 Base currency
--Copper () - *c*
--Silver () - *s*
--Gold () - *g*
+- Copper () - *c*
+- Silver () - *s*
+- Gold () - *g*
 </li></ul>
 
-  -Syntax**
+**Syntax**
   
-  -Example**
+**Example**
   <nowiki>1  30 (g/s/c)</nowiki>
   <nowiki>2 3 (g/s/c)</nowiki>
   <nowiki> 4 5 (g/s/c)</nowiki>
   <nowiki>  6 (g/s/c)</nowiki>
   <nowiki>eob=2 (g/s/c)</nowiki>
   <nowiki>it=5 (g/s/c)</nowiki>
-  -Result**
+**Result**
   1  30 (g/s/c)
   2 3 (g/s/c)
    4 5 (g/s/c)
@@ -45,7 +45,7 @@ For tables that have a column filled with money, the gold, silver, and copper ca
 
 If a coin type is filled entirely with x's, that type's icon will additionally be made invisible.
 
-  -Example**
+**Example**
 <pre>{| class="darktable zebra"
 ! Cost
 |-

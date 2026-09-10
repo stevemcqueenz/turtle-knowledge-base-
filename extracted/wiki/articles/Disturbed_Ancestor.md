@@ -23,7 +23,7 @@ categories: ["Moonwhisper Coast mobs", "Tauren ghosts", "Turtle WoW content"]
 | location | Ancestral Grounds, Moonwhisper Coast |
 | status | Killable |
 
--Disturbed Ancestors** are the spirits of the [tauren](tauren) of the [Moonhoof tribe](Moonhoof tribe) found at the [Ancestral Grounds](Ancestral Grounds) in [Moonwhisper Coast](Moonwhisper Coast). Their rest has been disturbed by the somber energies invoked by the [Shadewalkers](Shadewalkers) of [An'she's Respite](An'she's Respite).
+**Disturbed Ancestors** are the spirits of the [tauren](tauren) of the [Moonhoof tribe](Moonhoof tribe) found at the [Ancestral Grounds](Ancestral Grounds) in [Moonwhisper Coast](Moonwhisper Coast). Their rest has been disturbed by the somber energies invoked by the [Shadewalkers](Shadewalkers) of [An'she's Respite](An'she's Respite).
 
 ## Objective of
 - [quest: Back to Sleep]

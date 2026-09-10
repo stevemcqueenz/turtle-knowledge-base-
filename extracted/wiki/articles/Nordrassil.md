@@ -10,7 +10,7 @@ categories: ["Lore", "Pages with broken file links", "Trees"]
 ---
 # Nordrassil
 
--Nordrassil** is the original [World Tree](World Tree) of the [night elves](Night Elf), meaning "crown of the heavens" in their language.
+**Nordrassil** is the original [World Tree](World Tree) of the [night elves](Night Elf), meaning "crown of the heavens" in their language.
 
 The tree was grown from an acorn of the Mother Tree [G'Hanir](G'Hanir) by the [great dragon](Dragon Aspects) [Alexstrasza](Alexstrasza) in the waters of the newly reborn [Well of Eternity](Well of Eternity) on [Mount Hyjal](Mount Hyjal).  The tree was also blessed by [Nozdormu](Nozdormu) and [Ysera](Ysera), and the night elves' bond to it was the source of their immortality.
 

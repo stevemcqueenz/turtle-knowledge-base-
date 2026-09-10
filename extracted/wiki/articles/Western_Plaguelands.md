@@ -111,5 +111,5 @@ The Western Plaguelands contain the instanced dungeon [Scholomance](Scholomance)
 - [Zombie](Zombie)s
 
 ## Patch changes
--  **Patch 1.6.0 (2005-07-12):** A neutral graveyard has been added on the island of Caer Darrow in Western Plaguelands. It will serve characters who die on Caer Darrow and in Scholomance.
--  **Patch 1.1.0 (2004-11-07):** Eastern and Western Plaguelands have dozens of new quests.
+- **Patch 1.6.0 (2005-07-12):** A neutral graveyard has been added on the island of Caer Darrow in Western Plaguelands. It will serve characters who die on Caer Darrow and in Scholomance.
+- **Patch 1.1.0 (2004-11-07):** Eastern and Western Plaguelands have dozens of new quests.

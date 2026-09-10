@@ -16,7 +16,7 @@ The **Shatterblade Bounty Board** can be found in [Shatterblade Post](Shatterbla
 - [quest: Bounty on Dragonmaw]
 
 ## Quotes
-  -Gossip**
+**Gossip**
 <Bounties available in Shatterblade Post.>
 
 ## Patch changes

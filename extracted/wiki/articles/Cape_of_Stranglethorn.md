@@ -10,4 +10,4 @@ categories: ["Stranglethorn Vale subzones"]
 ---
 # Cape of Stranglethorn
 
--The Cape of Stranglethorn** is the southern part of [Stranglethorn Vale](Stranglethorn Vale), designated as the piece of land south of the area around the [Gurubashi Arena](Gurubashi Arena).
+**The Cape of Stranglethorn** is the southern part of [Stranglethorn Vale](Stranglethorn Vale), designated as the piece of land south of the area around the [Gurubashi Arena](Gurubashi Arena).

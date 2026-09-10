@@ -24,13 +24,13 @@ categories: ["Moonwhisper Coast NPCs", "Quest givers", "Tauren characters", "Tur
 | location | Moonhoof Village, Moonwhisper Coast |
 | status | Alive |
 
--Luhal Tannedhorn** is a [tauren](tauren) quest giver located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Luhal Tannedhorn** is a [tauren](tauren) quest giver located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: Ritual Ready] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Another outsider. Come, rest under my roof. I hope you do not mind company. This goblin and his odd companion were refused entry, and so they too were in need of rest.
 
 ## Patch changes

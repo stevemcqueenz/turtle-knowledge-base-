@@ -11,12 +11,12 @@ categories: []
 # Arathor and the Troll Wars
 
 Found at:
--[Tarren Mill](Tarren Mill)
+- [Tarren Mill](Tarren Mill)
 
 Timeline:  2800 years before [Warcraft: Orcs & Humans](Warcraft: Orcs & Humans)
 
--&lt; Previous book: [The Founding of Quel'Thalas](The Founding of Quel'Thalas)
--&gt; Next book: [The Guardians of Tirisfal](The Guardians of Tirisfal) 
+- &lt; Previous book: [The Founding of Quel'Thalas](The Founding of Quel'Thalas)
+- &gt; Next book: [The Guardians of Tirisfal](The Guardians of Tirisfal) 
 
 <blockquote>
 <table cellpadding="10" width="420">

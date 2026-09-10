@@ -24,13 +24,13 @@ categories: ["Human characters", "Kul Tiras (kingdom)", "Quest givers", "Stormwi
 | location | Davenburg, Stormwind Harbor, Stormwind City |
 | status | Alive |
 
--Sailor Valia** is a [human](human) [quest giver](quest giver) located in [Davenburg](Davenburg) in [Stormwind Harbor](Stormwind Harbor) in [Stormwind City](Stormwind City).
+**Sailor Valia** is a [human](human) [quest giver](quest giver) located in [Davenburg](Davenburg) in [Stormwind Harbor](Stormwind Harbor) in [Stormwind City](Stormwind City).
 
 ## Quests
 - [quest: Embassy Blues] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 What can I do for you, mainlander?
 
 ## Patch changes

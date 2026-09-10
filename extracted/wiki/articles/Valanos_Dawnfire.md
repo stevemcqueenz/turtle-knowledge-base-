@@ -24,7 +24,7 @@ categories: ["High elf characters", "Quest enders", "Removed Loch Modan NPCs", "
 | gender | Male |
 | location | Brinthilien, Thalassian Highlands |
 
--Valanos Dawnfire** is a [high elf](high elf) [warrior trainer](warrior trainer) located in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands).
+**Valanos Dawnfire** is a [high elf](high elf) [warrior trainer](warrior trainer) located in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands).
 
 ## Quests
 - [quest: Plain Letter|class=warrior|race=HighElf] 
@@ -32,7 +32,7 @@ categories: ["High elf characters", "Quest enders", "Removed Loch Modan NPCs", "
 - [quest: Swordsman's Letter|class=warrior|race=HighElf] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Our people pride themselves on their intellect and their mastery of magic, but you and I both know that occasionally, a more forceful approach is necessary.
 
 ## Patch changes

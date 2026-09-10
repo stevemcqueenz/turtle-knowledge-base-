@@ -24,7 +24,7 @@ categories: ["Quest givers", "Thalassian Highlands NPCs", "Turtle WoW content", 
 | location | Brinthilien, Thalassian Highlands |
 | status | Alive |
 
--Ranathir** is a [withered](withered) [quest giver](quest giver) located in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands).
+**Ranathir** is a [withered](withered) [quest giver](quest giver) located in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands).
 
 ## Quests
 - [quest: Maddening Hunger] 

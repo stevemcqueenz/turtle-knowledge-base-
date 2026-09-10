@@ -19,8 +19,5 @@ categories: ["Badlands subzones", "Temples", "Turtle WoW content"]
 The **Temple of Corthan** is the ruined temple of the ancient capital of [Corthan](Corthan).
 
 ## NPCs
--
--
-
-## Patch changes
+- - ## Patch changes
 - (Patch 1.16.4|note=Added.)

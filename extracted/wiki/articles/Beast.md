@@ -20,4 +20,4 @@ Examples of beasts:
 - [Wolves](Wolf)
 
 ## See also
--[Beast entry in bestiary](Bestiary/type#Beast)
+- [Beast entry in bestiary](Bestiary/type#Beast)

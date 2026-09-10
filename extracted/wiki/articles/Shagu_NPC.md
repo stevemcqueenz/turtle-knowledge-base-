@@ -25,7 +25,7 @@ categories: ["Mulgore NPCs", "Quest givers", "Tauren characters"]
 | status | Alive |
 | companions | Fluppi (wolf) |
 
--Shagu** is a [tauren](tauren) quest giver located in [Bloodhoof Village](Bloodhoof Village) in [Mulgore](Mulgore).
+**Shagu** is a [tauren](tauren) quest giver located in [Bloodhoof Village](Bloodhoof Village) in [Mulgore](Mulgore).
 
 ## Quests
 - [quest: Puffing Peace] 

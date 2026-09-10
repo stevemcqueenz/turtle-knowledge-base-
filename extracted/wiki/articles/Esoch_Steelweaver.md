@@ -26,10 +26,10 @@ categories: ["Battlemasters", "Tauren characters", "Turtle WoW content", "Underc
 | location | Royal Quarter, Undercity |
 | status | Alive |
 
--Esoch Steelweaver** is a [tauren](tauren) [Thorn Gorge](Thorn Gorge) battlemaster located in the [Royal Quarter](Royal Quarter) in the [Undercity](Undercity).
+**Esoch Steelweaver** is a [tauren](tauren) [Thorn Gorge](Thorn Gorge) battlemaster located in the [Royal Quarter](Royal Quarter) in the [Undercity](Undercity).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Vile Alliance dwarves have infiltrated our sacred grounds in the Thorn Gorge! Enlist yourself to rid these pests out of the lands of the Earthmother!
 
   

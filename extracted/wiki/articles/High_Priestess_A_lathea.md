@@ -25,7 +25,7 @@ categories: ["Bosses", "Crescent Grove mobs", "Night elf characters", "Turtle Wo
 | status | Killable |
 | instance | Crescent Grove |
 
--High Priestess A'lathea** is a boss in [the Crescent Grove](Crescent Grove).
+**High Priestess A'lathea** is a boss in [the Crescent Grove](Crescent Grove).
 
 ## Abilities
 - Starfire

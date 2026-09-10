@@ -24,7 +24,7 @@ categories: ["Gilneas NPCs", "Human characters", "Quest givers", "Turtle WoW con
 | location | Shademore Tavern, Gilneas |
 | status | Alive |
 
--Father Oblen** is a [human](human) [quest giver](quest giver) located at the [Shademore Tavern](Shademore Tavern) in [Gilneas](Gilneas).
+**Father Oblen** is a [human](human) [quest giver](quest giver) located at the [Shademore Tavern](Shademore Tavern) in [Gilneas](Gilneas).
 
 ## Quests
 - [quest: Scouring Greyshire] 

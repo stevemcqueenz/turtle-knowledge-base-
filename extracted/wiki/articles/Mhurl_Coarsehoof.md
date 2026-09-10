@@ -25,7 +25,7 @@ categories: ["Blacksmithing vendors", "Moonwhisper Coast NPCs", "Tauren characte
 | location | Moonhoof Village, Moonwhisper Coast |
 | status | Alive |
 
--Mhurl Coarsehoof** is a [tauren](tauren) [blacksmithing](blacksmithing) vendor located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Mhurl Coarsehoof** is a [tauren](tauren) [blacksmithing](blacksmithing) vendor located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

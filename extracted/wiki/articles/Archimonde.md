@@ -21,7 +21,7 @@ categories: ["Burning Legion", "Deceased characters", "Eredar", "Stubs"]
 | affiliation | Burning Legion |
 | status | Deceased |
 
--Archimonde** was one of the most "faithful" subjects of the fallen [titan](titan), [Sargeras](Sargeras). Archimonde is one of the [Eredar](Eredar) [demon](demon)s, who forged the first of the [warlock](warlock) magics. His ruthless and cunning personality quickly earned him station and power within the Eredar ranks, until finally he was first among them.
+**Archimonde** was one of the most "faithful" subjects of the fallen [titan](titan), [Sargeras](Sargeras). Archimonde is one of the [Eredar](Eredar) [demon](demon)s, who forged the first of the [warlock](warlock) magics. His ruthless and cunning personality quickly earned him station and power within the Eredar ranks, until finally he was first among them.
 
 Arguably the second most powerful creature, second to [Kil'jaeden](Kil'jaeden), ever to set hoof in the world of Azeroth (besides the titans or the old gods).
 

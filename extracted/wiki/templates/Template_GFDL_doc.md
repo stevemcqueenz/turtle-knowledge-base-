@@ -10,9 +10,9 @@ categories: ["Template documentation"]
 ---
 # Template:GFDL/doc
 
--Description**
+**Description**
   This template is used to mark images using the GFDL.
-  -Syntax**
+**Syntax**
   Type <code></code> on the image information page.
 
 <includeonly></includeonly><noinclude></noinclude>

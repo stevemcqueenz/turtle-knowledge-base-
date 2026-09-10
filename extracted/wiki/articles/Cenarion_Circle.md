@@ -11,7 +11,7 @@ categories: ["Druids", "Factions", "Organizations", "Pages with broken file link
 # Cenarion Circle
 
 ----
--The [druids](druids) of Cenarion Circle are guardians of nature and make their home in tranquil [Moonglade](Moonglade).*
+*The [druids](druids) of Cenarion Circle are guardians of nature and make their home in tranquil [Moonglade](Moonglade).*
 ----
 
 The **Cenarion Circle** is an organization of [druid](druid)s, both [tauren](tauren) and [night elf](night elf), named after [Cenarius](Cenarius).  Its members are dedicated to protecting nature and restoring the damage done to it by malevolent forces. 

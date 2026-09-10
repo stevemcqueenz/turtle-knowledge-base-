@@ -13,7 +13,7 @@ categories: ["Grim Reaches objects", "Turtle WoW content"]
 The **Flame of Dagnoth** is a brazier deep within the heart of [Grim Hollow](Grim Hollow) in the [Grim Reaches](Grim Reaches). It is an old, and almost ancient well of dwarven magic that was started long ago, as a tradition to honor the spirits of the dead. However, this once honorable flame has been twisted and corrupted, stirring the ancient spirits to wake once again. (ref: [quest: Return to Yor'thegg]) 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 <The fire burns ominously.>
 
 ## Patch changes

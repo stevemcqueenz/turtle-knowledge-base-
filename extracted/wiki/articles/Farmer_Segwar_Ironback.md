@@ -24,13 +24,13 @@ categories: ["Dwarf characters", "Quest givers", "Stonetalon Mountains NPCs", "T
 | location | Bael Hardul, Stonetalon Mountains |
 | status | Alive |
 
--Farmer Segwar Ironback** is a [dwarf](dwarf) [quest giver](quest giver) located in [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains).
+**Farmer Segwar Ironback** is a [dwarf](dwarf) [quest giver](quest giver) located in [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains).
 
 ## Quests
 - [quest: Salvaging the Crops] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Do you know how long that farm took to fertilize?!
 
 <The dwarf is visibly upset.>

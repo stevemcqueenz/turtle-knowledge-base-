@@ -27,7 +27,7 @@ categories: ["Alterac (kingdom)", "Alterac Mountains mobs", "Aristocrats", "Huma
 | location | The foothills north of the Alterac Mountains |
 | status | Killable |
 
--Baron Vardus** is a [human](human) member of the [Syndicate](Syndicate), found in the Syndicate camps of the [Uplands](Uplands) or the basement of the [Strahnbrad](Strahnbrad) Inn in the [Alterac Mountains](Alterac Mountains). He is a former noble of [Alterac](Alterac (kingdom)) and is now quartermaster of the Syndicate.
+**Baron Vardus** is a [human](human) member of the [Syndicate](Syndicate), found in the Syndicate camps of the [Uplands](Uplands) or the basement of the [Strahnbrad](Strahnbrad) Inn in the [Alterac Mountains](Alterac Mountains). He is a former noble of [Alterac](Alterac (kingdom)) and is now quartermaster of the Syndicate.
 
 Baron Vardus contracted assassins to kill [Magistrate Henry Maleb](Magistrate Henry Maleb). Both Maleb and [High Executor Darthalia](High Executor Darthalia) want Vardus' head.
 

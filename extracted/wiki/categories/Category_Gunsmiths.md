@@ -12,5 +12,5 @@ categories: ["NPC occupations", "Weaponsmiths"]
 
 A list of articles of NPCs that fulfill one or both of the following criteria:
 
-1.Have the title of <Gunsmith>
-1.Have wares that are exclusively or nearly-exclusive to [gun](gun)s
+1. Have the title of <Gunsmith>
+1. Have wares that are exclusively or nearly-exclusive to [gun](gun)s

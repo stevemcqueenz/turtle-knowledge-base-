@@ -13,14 +13,7 @@ categories: ["Human territories", "Scarlet Crusade", "Tirisfal Glades", "Turtle 
 The **Scarlet Citadel** is a fortified complex occupied by the [Scarlet Crusade](Scarlet Crusade) that runs beneath the [Scarlet Monastery](Scarlet Monastery),
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
-- 
-
-## Trivia
+- - - - - - ## Trivia
 - The Scarlet Citadel was planned on being a 40-man raid instance. However, the raid was indefinitely put on hold due to issues with the instance model.
 - The books [The Light, Our Bastion](The Light, Our Bastion) and [Vows of the Crusade](Vows of the Crusade) can be found here.
 

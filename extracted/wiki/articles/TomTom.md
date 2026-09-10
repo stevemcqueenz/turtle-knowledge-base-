@@ -10,10 +10,10 @@ categories: ["Addon"]
 ---
 # TomTom
 
--TomTom is* a navigational assistant with a crazy-taxi style arrow used for way-point navigation.
+*TomTom is* a navigational assistant with a crazy-taxi style arrow used for way-point navigation.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **TomTom** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **TomTom** up to date is by using [GitAddonsManager](Git
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -73,7 +73,7 @@ If you prefer manual installation, follow these steps:
 |Print out addon info
 |}
 
-  -/way Usage:**
+**/way Usage:**
 {| class="fandom-table"
 !Command
 !Description

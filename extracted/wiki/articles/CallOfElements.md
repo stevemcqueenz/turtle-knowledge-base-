@@ -10,10 +10,10 @@ categories: ["Addon"]
 ---
 # CallOfElements
 
--Call of Elements (COE)** is an all-in-one Shaman class addon updated specifically for TurtleWow. It features a comprehensive totem module that simplifies totem usage and enhances efficiency in both party play and PvP. The addon also includes a robust healing module and various tools for managing Shaman tasks.
+**Call of Elements (COE)** is an all-in-one Shaman class addon updated specifically for TurtleWow. It features a comprehensive totem module that simplifies totem usage and enhances efficiency in both party play and PvP. The addon also includes a robust healing module and various tools for managing Shaman tasks.
 
 ## Install
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **CallOfElements** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **CallOfElements** up to date is by using [GitAddonsMana
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 # Visit the GitHub link you find, then click the green **<> Code** button, and select Download ZIP.
@@ -124,36 +124,36 @@ Totem Timers:
 - **Healing Functions:** Use the healing functions automatically during encounters to efficiently manage party health.
 
 ## Totem Module
-  -Totem Bars**
+**Totem Bars**
 - Each element has its totem bar with customizable buttons that resemble standard action bars.
 - Display modes include "Closed", "Open", "Flex", and "Hidden".
 - Customize displayed totems and their order easily via configuration mode.
-  -Totem Advisor**
+**Totem Advisor**
 - Notifies you when party members have debuffs that can be cured with your totems.
 - Use your preferred method or the "Throw next advised totem" key binding to activate.
-  -Totem Timers**
+**Totem Timers**
 - Each totem button displays a timer with notifications for low time remaining or if a totem expires.
-  -Totem Sets**
+**Totem Sets**
 - Predefined sets based on roles and environments (PvE and PvP).
 - Allows quick casting of sequences with a single button press.
 - New command options to throw sets by name and force drop existing totems.
 
 ## Healing Module
-  -Overview**
+**Overview**
 
 The Healing Module of the Call of Elements addon is responsible for managing healing logic, determining priority targets, and selecting the most effective healing spells to use based on several parameters and thresholds.
 
-  -Key Components**
+**Key Components**
 
 # **Initialization & Event Handling**
-1.* The module initializes by setting healing thresholds and registering important events.
-1.* Listens for the <code>PLAYER_ENTERING_WORLD</code> event to load available healing spells.
+1. * The module initializes by setting healing thresholds and registering important events.
+1. * Listens for the <code>PLAYER_ENTERING_WORLD</code> event to load available healing spells.
 # **Healing Thresholds:**
-1.* **HealingNeeded:** Healing is only performed if the target's health ratio falls below 85%.
-1.* **OverrideTarget:** A target can only be healed if no party/raid member is below 50% health, should a friendly target be actively selected.
+1. * **HealingNeeded:** Healing is only performed if the target's health ratio falls below 85%.
+1. * **OverrideTarget:** A target can only be healed if no party/raid member is below 50% health, should a friendly target be actively selected.
 # **Target Selection Logic:**
-1.* Prioritizes healing the party member with the lowest health ratio but also considers the player's health and any selected friendly target.
-1.* If a friendly non-party/non-raid target is selected and no other party members are in urgent need, it will heal that target.
+1. * Prioritizes healing the party member with the lowest health ratio but also considers the player's health and any selected friendly target.
+1. * If a friendly non-party/non-raid target is selected and no other party members are in urgent need, it will heal that target.
 # **Spell Determination:**
-1.* The module dynamically selects the best spell to use for healing, aiming to maximize efficiency in terms of mana consumption and casting speed.
-1.* Supports choices between high-healing spells and quicker-casting spells to adapt to different combat scenarios.
+1. * The module dynamically selects the best spell to use for healing, aiming to maximize efficiency in terms of mana consumption and casting speed.
+1. * Supports choices between high-healing spells and quicker-casting spells to adapt to different combat scenarios.

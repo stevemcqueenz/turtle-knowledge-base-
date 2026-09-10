@@ -25,7 +25,7 @@ categories: ["Teldrassil subzones"]
 | status | Active |
 | loc | Teldrassil, Kalimdor |
 
--Darnassus** is the capital city of the [night elves](night elves) of the [Alliance](Alliance). The high priestess, Tyrande Whisperwind, resides in the Temple of the Moon, surrounded by other sisters of Elune. In the Cenarion Enclave, the Arch Druid Fandral Staghelm leads the Cenarion Circle, often in direct opposition to his fellow druids in Moonglade and Tyrande herself.
+**Darnassus** is the capital city of the [night elves](night elves) of the [Alliance](Alliance). The high priestess, Tyrande Whisperwind, resides in the Temple of the Moon, surrounded by other sisters of Elune. In the Cenarion Enclave, the Arch Druid Fandral Staghelm leads the Cenarion Circle, often in direct opposition to his fellow druids in Moonglade and Tyrande herself.
 
 ## Terraces
 Darnassus is arranged in terraces on the north, east and southern sides of a central lake area.

@@ -10,6 +10,6 @@ categories: ["NPC stubs", "Pages with broken file links"]
 ---
 # The Beast
 
--The Beast** is a [Core Hound](Core Hound) [boss](boss) found in [Upper Blackrock Spire](UBRS).
+**The Beast** is a [Core Hound](Core Hound) [boss](boss) found in [Upper Blackrock Spire](UBRS).
 
 [Thottbot](http://www.thottbot.net/?n=655145)

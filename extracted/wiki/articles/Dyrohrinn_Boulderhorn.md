@@ -25,7 +25,7 @@ categories: ["Dun Morogh NPCs", "Dwarf characters", "Survival trainers", "Turtle
 | location | Kharanos, Dun Morogh |
 | status | Alive |
 
--Dyrohrinn Boulderhorn** is a [dwarf](dwarf) Journeyman [survival](survival) trainer located in [Kharanos](Kharanos) in [Dun Morogh](Dun Morogh).
+**Dyrohrinn Boulderhorn** is a [dwarf](dwarf) Journeyman [survival](survival) trainer located in [Kharanos](Kharanos) in [Dun Morogh](Dun Morogh).
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

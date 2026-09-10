@@ -10,7 +10,7 @@ categories: ["Mining nodes", "Pages with broken file links"]
 ---
 # Dark Iron Deposit
 
--Dark Iron Deposit** is a mining mineral node found only in the [Burning Steppes](Burning Steppes) dungeon and in the [Searing Gorge](Searing Gorge) raid. 
+**Dark Iron Deposit** is a mining mineral node found only in the [Burning Steppes](Burning Steppes) dungeon and in the [Searing Gorge](Searing Gorge) raid. 
 
 ## Patch changes
--  **Patch 1.7.0 (2005-09-13):** Dark Iron mineral nodes will now sometimes appear in the Burning Steppes and Searing Gorge.
+- **Patch 1.7.0 (2005-09-13):** Dark Iron mineral nodes will now sometimes appear in the Burning Steppes and Searing Gorge.

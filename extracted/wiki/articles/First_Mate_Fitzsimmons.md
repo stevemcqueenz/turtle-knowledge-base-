@@ -24,7 +24,7 @@ categories: ["Human characters", "Kul Tiras (kingdom)", "Marines", "Quest givers
 | location | Menethil Harbor, Wetlands |
 | status | Alive |
 
--First Mate Fitzsimmons** is a [human](human) [quest giver](quest giver) located outside [Deepwater Tavern](Deepwater Tavern) in [Menethil Harbor](Menethil Harbor) in the [Wetlands](Wetlands). He was once First Mate on the *[Wave Mistress](Wave Mistress)*, a [Kul Tiran](Kul Tiras (kingdom)) ship that was destroyed by [red dragon](red dragon)s during the [Second War](Second War). (ref: [quest: The Third Fleet]) He is the sole survivor of the [Lost Fleet](Lost Fleet), and now spends most of his time getting drunk outside the [Deepwater Tavern](Deepwater Tavern).
+**First Mate Fitzsimmons** is a [human](human) [quest giver](quest giver) located outside [Deepwater Tavern](Deepwater Tavern) in [Menethil Harbor](Menethil Harbor) in the [Wetlands](Wetlands). He was once First Mate on the *[Wave Mistress](Wave Mistress)*, a [Kul Tiran](Kul Tiras (kingdom)) ship that was destroyed by [red dragon](red dragon)s during the [Second War](Second War). (ref: [quest: The Third Fleet]) He is the sole survivor of the [Lost Fleet](Lost Fleet), and now spends most of his time getting drunk outside the [Deepwater Tavern](Deepwater Tavern).
 
 ## Quests
 - [quest: The Greenwarden] 
@@ -33,7 +33,7 @@ categories: ["Human characters", "Kul Tiras (kingdom)", "Marines", "Quest givers
 - [quest: Lifting the Curse] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 If you're willing to endure tales that will shiver your timbers and sog your skivvies, then get yourself a drink and sit for a spell...
 
 ## References

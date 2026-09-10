@@ -10,7 +10,7 @@ categories: ["Patches"]
 ---
 # Patch 1.18.0
 
--Patch 1.18.0: Scars of the Past** was released on August 15, 2025.
+**Patch 1.18.0: Scars of the Past** was released on August 15, 2025.
 
 ## Trailer
 ## Patch notes

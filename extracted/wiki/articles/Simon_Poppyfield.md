@@ -24,10 +24,10 @@ categories: ["Human characters", "Northwind NPCs", "Stormwind (kingdom)", "Turtl
 | location | Ambershire, Northwind |
 | status | Alive |
 
--Simon Poppyfield** is a [human](human) located at the [Honey Drop Inn](Honey Drop Inn) in [Ambershire](Ambershire) in [Northwind](Northwind).
+**Simon Poppyfield** is a [human](human) located at the [Honey Drop Inn](Honey Drop Inn) in [Ambershire](Ambershire) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 There's barely anything worth reading on any of these bookshelves. I suppose they might have been if I hadn't already read every single one of them at least twice...
 
 ## Patch changes

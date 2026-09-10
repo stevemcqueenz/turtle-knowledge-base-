@@ -24,7 +24,7 @@ categories: ["Duskwood", "Eastern Kingdoms", "Human territories"]
 | minor | Raven Hill, Beggar's Haunt, Addle's Stead, Yorgen Farmstead, Rotting Orchard, Manor Mistmantle |
 | affiliation | Night Watch, Kingdom of Stormwind, Nightbane pack, Splinter Fist, Green dragonflight, Defias Brotherhood |
 
--Duskwood** is is a fiefdom of the [Kingdom of Stormwind](Stormwind (kingdom)) located in the southern-central part of [Azeroth](Azeroth (continent)), south of [Elwynn Forest](Elwynn Forest), east of [Westfall](Westfall), west of [Deadwind Pass](Deadwind Pass), and north of [Stranglethorn Vale](Stranglethorn Vale). Though part of the Alliance and under Stormwind's protection, its distance from the mighty fortress and its close proximity to more malevolent forces in the south and east make it a realm of horror. Due to events central to the [Scythe of Elune](Scythe of Elune), Duskwood is a cursed, dying land. Beneath the eternal blanket of darkness which gave Duskwood its current name, the Scythe's effects have transformed what was once a beautiful part of Elwynn Forest into a land covered in gnarled trees.
+**Duskwood** is is a fiefdom of the [Kingdom of Stormwind](Stormwind (kingdom)) located in the southern-central part of [Azeroth](Azeroth (continent)), south of [Elwynn Forest](Elwynn Forest), east of [Westfall](Westfall), west of [Deadwind Pass](Deadwind Pass), and north of [Stranglethorn Vale](Stranglethorn Vale). Though part of the Alliance and under Stormwind's protection, its distance from the mighty fortress and its close proximity to more malevolent forces in the south and east make it a realm of horror. Due to events central to the [Scythe of Elune](Scythe of Elune), Duskwood is a cursed, dying land. Beneath the eternal blanket of darkness which gave Duskwood its current name, the Scythe's effects have transformed what was once a beautiful part of Elwynn Forest into a land covered in gnarled trees.
 
 Duskwood is inhabited by a defiant people who still cling to their holdings in the face of overwhelming adversity. On all sides lurk dangerous creatures, from hideous undead to extradimensional and ferocious [Nightbane](Nightbane pack) [worgen](worgen) and overgrown spiders. Ogres moving in have brought up even more problems. To fight against all these threats, the militia of Duskwood, known as the [Night Watch](Night Watch), patrolled the main thoroughfare and protected [Darkshire](Darkshire), wary of anything moving through the shadows.
 
@@ -39,18 +39,18 @@ There are no dungeons of any kind and no battlegrounds in this area. The Redridg
 || [Addle's Stead](Addle's Stead) • [Beggar's Haunt](Beggar's Haunt) • [Brightwood Grove](Brightwood Grove) • [The Darkened Bank](Darkened Bank) • [Darkshire](Darkshire) ([Darkshire Town Hall](Darkshire Town Hall) • [Scarlet Raven Tavern](Scarlet Raven Tavern)) • [The Hushed Bank](Hushed Bank) • [Manor Mistmantle](Manor Mistmantle) • [Raven Hill](Raven Hill) • [Raven Hill Cemetery](Raven Hill Cemetery) ([Dawning Woods Catacombs](Dawning Woods Catacombs) • [Forlorn Rowe](Forlorn Rowe)) • [Roland's Doom](Roland's Doom) • [The Rotting Orchard](Rotting Orchard) • [Tranquil Gardens Cemetery](Tranquil Gardens Cemetery) • [Twilight Grove](Twilight Grove) • [Vul'Gol Ogre Mound](Vul'Gol Ogre Mound) • [The Yorgen Farmstead](Yorgen Farmstead)
 |-
 ||
-  -Undisplayed locations**
+**Undisplayed locations**
 
 [Nazferiti river](Nazferiti river)
 |}
 
 ### Travel hubs
 ##### [Flight path](Flight path)s from [Darkshire](Darkshire)
--[Stormwind City](Stormwind City), [Elwynn Forest](Elwynn Forest)
--[Sentinel Hill](Sentinel Hill), [Westfall](Westfall)
--[Lakeshire](Lakeshire), [Redridge Mountains](Redridge Mountains)
--[Booty Bay](Booty Bay), [Stranglethorn Vale](Stranglethorn Vale)
--[Nethergarde Keep](Nethergarde Keep), [Blasted Lands](Blasted Lands)
+- [Stormwind City](Stormwind City), [Elwynn Forest](Elwynn Forest)
+- [Sentinel Hill](Sentinel Hill), [Westfall](Westfall)
+- [Lakeshire](Lakeshire), [Redridge Mountains](Redridge Mountains)
+- [Booty Bay](Booty Bay), [Stranglethorn Vale](Stranglethorn Vale)
+- [Nethergarde Keep](Nethergarde Keep), [Blasted Lands](Blasted Lands)
 
 ### Adjacent regions
 {| class="fandom-table"
@@ -106,7 +106,7 @@ There are no dungeons of any kind and no battlegrounds in this area. The Redridg
 - [Unseen](Unseen)
 
 ## Patch changes
--  **[Patch 1.8.0](Patch 1.8.0) (2005-10-10):** A Graveyard has been added to Duskwood at Raven Hill Cemetery.
--  **[Patch 1.3.0](Patch 1.3.0) (2005-03-07):**
-  -Players will no longer fall through the ground in a cave location in Duskwood.
-  -Players can no longer gain access to Zul'Gurub through Duskwood.
+- **[Patch 1.8.0](Patch 1.8.0) (2005-10-10):** A Graveyard has been added to Duskwood at Raven Hill Cemetery.
+- **[Patch 1.3.0](Patch 1.3.0) (2005-03-07):**
+  - Players will no longer fall through the ground in a cave location in Duskwood.
+  - Players can no longer gain access to Zul'Gurub through Duskwood.

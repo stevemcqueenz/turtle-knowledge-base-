@@ -25,7 +25,7 @@ categories: ["High elf characters", "Moonwhisper Coast NPCs", "Repairers", "Turt
 | location | Sunsworn Camp, Moonwhisper Coast |
 | status | Alive |
 
--Ley-Technician Firael** is a [high elf](high elf) repairer located in [Sunsworn Camp](Sunsworn Camp) in [Moonwhisper Coast](Moonwhisper Coast).
+**Ley-Technician Firael** is a [high elf](high elf) repairer located in [Sunsworn Camp](Sunsworn Camp) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

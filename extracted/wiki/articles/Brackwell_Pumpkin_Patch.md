@@ -10,12 +10,7 @@ categories: ["Defias Brotherhood", "Elwynn Forest subzones", "Farms", "Human ter
 ---
 # Brackwell Pumpkin Patch
 
--Brackwell Pumpkin Patch** lies in southeast [Elwynn Forest](Elwynn Forest). It has been taken over by bandits of the [Defias Brotherhood](Defias Brotherhood) who are littered about the buildings and the pumpkin patch itself. The farm was the home of an unknown family called the Brackwells, though it is a mystery if they were killed or driven off after the Defias claimed the land as their own. The Brackwells' prize-winning pig, [Princess](Princess), patrols the actual pumpkin patch accompanied by her entourage.
+**Brackwell Pumpkin Patch** lies in southeast [Elwynn Forest](Elwynn Forest). It has been taken over by bandits of the [Defias Brotherhood](Defias Brotherhood) who are littered about the buildings and the pumpkin patch itself. The farm was the home of an unknown family called the Brackwells, though it is a mystery if they were killed or driven off after the Defias claimed the land as their own. The Brackwells' prize-winning pig, [Princess](Princess), patrols the actual pumpkin patch accompanied by her entourage.
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
--
+- - - - - -

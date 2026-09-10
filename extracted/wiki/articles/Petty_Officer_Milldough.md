@@ -24,13 +24,13 @@ categories: ["Human characters", "Kul Tiras (kingdom)", "Quest givers", "Stormwi
 | location | Davenburg, Stormwind Harbor, Stormwind City |
 | status | Alive |
 
--Petty Officer Milldough** is a [human](human) [quest giver](quest giver) located in [Davenburg](Davenburg) in [Stormwind Harbor](Stormwind Harbor) in [Stormwind City](Stormwind City).
+**Petty Officer Milldough** is a [human](human) [quest giver](quest giver) located in [Davenburg](Davenburg) in [Stormwind Harbor](Stormwind Harbor) in [Stormwind City](Stormwind City).
 
 ## Quests
 - [quest: Controlling Sailors] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 It can be difficult to control the rabble of sailors and the animosity between them and the marines.
 
 It is where Petty Officers like myself come in.

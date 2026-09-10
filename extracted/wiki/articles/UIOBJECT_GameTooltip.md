@@ -34,7 +34,7 @@ The tooltip displayed when the mouse is hovering over players and/or NPCs on the
 Some tooltips have both left- and right-aligned sections. In order to get at the right-aligned section, use one of these objects instead of a GameTooltipTextLeft. Otherwise, the functionality is identical.
 
 ## Hidden tooltip for scanning
--(Description valid for patch 1.10)* 
+*(Description valid for patch 1.10)* 
 
 One of the most common uses of a tooltip is to use it to gain information text about an item, buff or spell. Many AddOns define their own tooltip for this purpose. This is a description of the best practice to follow when using a tooltip for this purpose, taking into account the need for performance.
 
@@ -66,7 +66,7 @@ This solution is safer and more robust to potential changes to tooltip behaviour
 ## Advanced Notes on GameTooltip methods
 This is a list of the finer details of using tooltips correctly:
 
--(Entries in bold are significant behaviour changes in patch 1.10 compared to 1.9)*
+*(Entries in bold are significant behaviour changes in patch 1.10 compared to 1.9)*
 
 - Unlike other UI objects, a tooltip has both a parent *and* an owner, the two are completely independent.
 

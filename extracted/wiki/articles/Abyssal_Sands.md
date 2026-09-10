@@ -10,4 +10,4 @@ categories: ["Deserts", "Pages with broken file links", "Tanaris subzones"]
 ---
 # Abyssal Sands
 
--Abyssal Sands** is a [subzone](subzone) of [Tanaris](Tanaris), which is a desert itself.
+**Abyssal Sands** is a [subzone](subzone) of [Tanaris](Tanaris), which is a desert itself.

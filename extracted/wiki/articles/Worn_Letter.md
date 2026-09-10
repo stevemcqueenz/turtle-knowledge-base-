@@ -10,7 +10,7 @@ categories: ["Quest items", "Readable items", "Turtle WoW content"]
 ---
 # Worn Letter
 
--Worn Letter** can be found in a [Forlorn Crate](Forlorn Crate) in [Moonwhisper Coast](Moonwhisper Coast).
+**Worn Letter** can be found in a [Forlorn Crate](Forlorn Crate) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## As a quest objective
 - [quest: Seeking the Truth]

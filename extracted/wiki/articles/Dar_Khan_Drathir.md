@@ -22,6 +22,6 @@ categories: ["High elf characters", "Scourge"]
 | occupation | Ruler of Quel'Thalas |
 | status | Alive |
 
--Dar'Khan Drathir** (sometimes spelled as "**Dar'khan**") is a traitor to the [Kingdom of Quel'Thalas](Quel'Thalas (kingdom)) and is now the current ruler of Quel'Thalas, lording over the [Scourge](Scourge) within the [Eversong Wastes](Eversong Wastes) from [Silvermoon City](Silvermoon City) to the [Blackened Woods](Blackened Woods).
+**Dar'Khan Drathir** (sometimes spelled as "**Dar'khan**") is a traitor to the [Kingdom of Quel'Thalas](Quel'Thalas (kingdom)) and is now the current ruler of Quel'Thalas, lording over the [Scourge](Scourge) within the [Eversong Wastes](Eversong Wastes) from [Silvermoon City](Silvermoon City) to the [Blackened Woods](Blackened Woods).
 
 ## References

@@ -24,7 +24,7 @@ categories: ["Human characters", "Lordaeron (kingdom)", "Tirisfal Glades mobs", 
 | location | Whispering Forest, Tirisfal Glades |
 | status | Killable |
 
--Private William** is a [human](human) that wanders between the [Shatteridge Tower](Shatteridge Tower) and the [Remnants Camp](Remnants Camp) in [Tirisfal Glades](Tirisfal Glades). He was formerly the altar boy of the chapel of [Glenshire](Glenshire), and [Deathguard Markus](Deathguard Markus) wants him killed.
+**Private William** is a [human](human) that wanders between the [Shatteridge Tower](Shatteridge Tower) and the [Remnants Camp](Remnants Camp) in [Tirisfal Glades](Tirisfal Glades). He was formerly the altar boy of the chapel of [Glenshire](Glenshire), and [Deathguard Markus](Deathguard Markus) wants him killed.
 
 ## Objective of
 - [quest: To Aid Brightcopf]

@@ -24,13 +24,13 @@ categories: ["Human characters", "Northwind NPCs", "Turtle WoW content"]
 | location | Ambershire Church, Northwind |
 | status | Alive |
 
--Ellie** is a [human](human) girl located at the [Ambershire Church](Ambershire Church) in [Northwind](Northwind).
+**Ellie** is a [human](human) girl located at the [Ambershire Church](Ambershire Church) in [Northwind](Northwind).
 
 ## Objective of
 - Must be interacted with for [quest: School Assistance]
 
 ## Quotes
-  -Gossip**
+**Gossip**
 My grandfather used to be mayor, you know. I love him very much, I visit him every Wednesday with my mother!
 
 ## Patch changes

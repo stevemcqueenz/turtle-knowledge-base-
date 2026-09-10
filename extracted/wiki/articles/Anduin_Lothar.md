@@ -45,7 +45,7 @@ Because of his great skill in warfare and experience with orcs, Lothar was named
 Anduin Lothar did not live to see his beloved homeland rebuilt and freed from orc control, but a massive stone statue depicting Lothar in his final charge where he fell in battle was built and still stands in the Burning Steppes, pointing defiantly towards Blackrock Spire. Lord Lothar's legacy lives on in all the free peoples of Stormwind. The [current king](Anduin Wrynn) of the nation bears Lothar's name.
 
 ## Quotes
-  -Echo in Karazhan**
+**Echo in Karazhan**
   **Echo of Llane Wrynn says:** Still of absent mind?
   **Echo of Anduin Lothar says:** More than ever. He would not bat an eye at any word I spoke.
   **Echo of Llane Wrynn says:** Finally gone mad from this forced solace.

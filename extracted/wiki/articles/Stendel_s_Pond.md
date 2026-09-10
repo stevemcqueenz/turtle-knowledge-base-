@@ -10,4 +10,4 @@ categories: ["Human territories", "Pools", "Westfall subzones"]
 ---
 # Stendel's Pond
 
--Stendel's Pond** is a small pond, located southwest of [Sentinel Hill](Sentinel Hill) in [Westfall](Westfall). It is currently surrounded by [gnoll](gnoll)s, a few skeleton remains and two graves, suggesting that the pond's water may be undrinkable.
+**Stendel's Pond** is a small pond, located southwest of [Sentinel Hill](Sentinel Hill) in [Westfall](Westfall). It is currently surrounded by [gnoll](gnoll)s, a few skeleton remains and two graves, suggesting that the pond's water may be undrinkable.

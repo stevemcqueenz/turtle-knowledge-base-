@@ -10,14 +10,10 @@ categories: ["Gilneas subzones", "Passes", "Turtle WoW content", "Worgen territo
 ---
 # Oldrock Pass
 
--Oldrock Pass** is a mountain pass leading from [South Tide's Run](South Tide's Run) in [Silverpine Forest](Silverpine Forest) into [Gilneas](Gilneas). A broken piece of the [Greymane Wall](Greymane Wall) lies here, a remnant of the attack on Gilneas conducted by the lich [Naze the Eternal](Naze the Eternal). The opening in the wall was used by the worgen to enter Gilneas shortly after the Scourge was defeated. (ref: [quest: Ebonmere Worgen Infestation]) The pass is currently overrun by worgen of the Nighthowl pack.
+**Oldrock Pass** is a mountain pass leading from [South Tide's Run](South Tide's Run) in [Silverpine Forest](Silverpine Forest) into [Gilneas](Gilneas). A broken piece of the [Greymane Wall](Greymane Wall) lies here, a remnant of the attack on Gilneas conducted by the lich [Naze the Eternal](Naze the Eternal). The opening in the wall was used by the worgen to enter Gilneas shortly after the Scourge was defeated. (ref: [quest: Ebonmere Worgen Infestation]) The pass is currently overrun by worgen of the Nighthowl pack.
 
 ## NPCs
-- 
-- 
-- 
-
-## Patch changes
+- - - ## Patch changes
 - (Patch 1.17.0|note=Added.)
 
 ## References

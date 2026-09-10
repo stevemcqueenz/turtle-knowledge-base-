@@ -16,7 +16,7 @@ Retrieves the time left for a item in the Auction House.
 </syntaxhighlight>
 ----
 
-  - *Arguments***
+** *Arguments***
    (String type, Number index)
 
   ; type
@@ -33,7 +33,7 @@ Retrieves the time left for a item in the Auction House.
 
 ----
 
-  - *Returns***
+** *Returns***
 
   ; timeleft
    a number between 1 and 4
@@ -48,16 +48,16 @@ Retrieves the time left for a item in the Auction House.
 
 ----
 
-  - *Example***
+** *Example***
 <syntaxhighlight lang="lua">
  timeleft = GetAuctionTimeLeft("owner", offset + i);
 </syntaxhighlight>
-  - *Result***
+** *Result***
 
 Returns the time that the item will stay in the auction house. Affects nothing other than the return values.
 ----
 
-  - *Description***
+** *Description***
 
    Retrieves the time left for an item in the current list of auction items.
 

@@ -24,7 +24,7 @@ categories: ["Draenei characters", "Moonwhisper Coast NPCs", "Quset givers", "Tu
 | location | Moro'gai Village, Moonwhisper Coast |
 | status | Alive |
 
--Chief Defender Hamaam** is a [draenei](draenei) quest giver located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Chief Defender Hamaam** is a [draenei](draenei) quest giver located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: Horns of their Allies] 
@@ -32,10 +32,10 @@ categories: ["Draenei characters", "Moonwhisper Coast NPCs", "Quset givers", "Tu
 - [quest: Wanted: Tama’an the Ruthless] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The Fallen Ones will pay for their sacriligious transgressions. I will not stand idly by and have them overrun Moro'gai Village!
 
-  -Fallen Ones attack Moro'gai Village**
+**Fallen Ones attack Moro'gai Village**
   **Moro'gai Defender yells:** Wretched beast! You will not disturb the peace!
   **Moro'gai Defender yells:** Begone! You do not belong here!
   **Chief Defender Hamaam yells:** The Fallen Ones are back! Defend the village at all costs!

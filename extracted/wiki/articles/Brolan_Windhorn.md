@@ -24,13 +24,13 @@ categories: ["Quest givers", "Tauren characters", "Thousand Needles NPCs", "Turt
 | location | Sagh's Refuge, Thousand Needles |
 | status | Alive |
 
--Brolan Windhorn** is a [tauren](tauren) [quest giver](quest giver) located at [Sagh's Refuge](Sagh's Refuge) in the [Thousand Needles](Thousand Needles).
+**Brolan Windhorn** is a [tauren](tauren) [quest giver](quest giver) located at [Sagh's Refuge](Sagh's Refuge) in the [Thousand Needles](Thousand Needles).
 
 ## Quests
 - [quest: The Need to Survive] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 My family has long lived within the Thousand Needles. It is our ancestral home, and a place that we have walked for what seems to be countless generations. Now all of our lives have been upended, and we find ourselves nothing more than refugees.
 
   *What happened to make you refugees?*

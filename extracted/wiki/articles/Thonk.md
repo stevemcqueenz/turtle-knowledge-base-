@@ -25,7 +25,7 @@ categories: ["Durotar NPCs", "Orc characters", "Survival trainers", "Turtle WoW 
 | location | Razor Hill, Durotar |
 | status | Alive |
 
--Thonk** is a [Forsaken](Forsaken) Journeyman [survival](survival) trainer located in [Razor Hill](Razor Hill) in [Durotar](Durotar).
+**Thonk** is a [Forsaken](Forsaken) Journeyman [survival](survival) trainer located in [Razor Hill](Razor Hill) in [Durotar](Durotar).
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

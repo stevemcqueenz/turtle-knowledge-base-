@@ -87,7 +87,7 @@ Beware! This may cause bugs with the UI causing elements to be whited out. [See 
 ## AutoLogin
 Those who play Blizzard's official Retail and Classic will know that the launcher is nice in that it lets you automatically log into the game client. Private servers don't exactly have this functionality, but there are tools to help automate logging in for a more seamless experience.
 
-  -WARNING!**
+**WARNING!**
 These solutions store your credentials in plain text readable by any program on your computer... so if a virus/someone hacks your computer, it's possible for your wow password to be stolen!
 By revealing the spoiler below you acknowledge you are assuming all risk and liability by using these programs.
 
@@ -115,6 +115,6 @@ You can find the repository, including the installation instructions at https://
 [Interact](https://github.com/lookino/Interact) is a mod that allows you to bind a key which you can then use to interact with the world around you. Using the key you will be able to pick herbs, mine veins, loot enemies and much more without the need to use the mouse to target the object.
 
 ## See Also
--[Addons](Addons)
--[Client Mods](Client Mods)
--[Sound Mods](Sound Mods)
+- [Addons](Addons)
+- [Client Mods](Client Mods)
+- [Sound Mods](Sound Mods)

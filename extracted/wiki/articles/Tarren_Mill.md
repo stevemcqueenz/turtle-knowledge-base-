@@ -32,15 +32,15 @@ categories: ["Farms", "Forsaken territories", "Hillsbrad Foothills subzones", "H
 | flightpath | yes |
 | status | Active |
 
--Tarren Mill** is a Forsaken town located in northern [Hillsbrad Foothills](Hillsbrad Foothills), near the Alterac Mountains. Prior to the Third War, Tarren Mill was a simple Lordaeronian town. At some point after the Third War, it was destroyed and taken over by the Forsaken afterward, and now serves as the staging point against the Alliance forces of [Southshore](Southshore), [Hillsbrad](Hillsbrad Fields) and [Dun Garok](Dun Garok).
+**Tarren Mill** is a Forsaken town located in northern [Hillsbrad Foothills](Hillsbrad Foothills), near the Alterac Mountains. Prior to the Third War, Tarren Mill was a simple Lordaeronian town. At some point after the Third War, it was destroyed and taken over by the Forsaken afterward, and now serves as the staging point against the Alliance forces of [Southshore](Southshore), [Hillsbrad](Hillsbrad Fields) and [Dun Garok](Dun Garok).
 
 ## Travel connections
 ### Flight
-  - [The Undercity](Undercity), [Tirisfal Glades](Tirisfal Glades)**
-  - [The Sepulcher](Sepulcher), [Silverpine Forest](Silverpine Forest)**
-  - [Hammerfall](Hammerfall), [Arathi Highlands](Arathi Highlands)**
-  - [Stillward Church](Stillward Church), [Gilneas](Gilneas)**
-  - [Revantusk Village](Revantusk Village), [The Hinterlands](Hinterlands)**
+** [The Undercity](Undercity), [Tirisfal Glades](Tirisfal Glades)**
+** [The Sepulcher](Sepulcher), [Silverpine Forest](Silverpine Forest)**
+** [Hammerfall](Hammerfall), [Arathi Highlands](Arathi Highlands)**
+** [Stillward Church](Stillward Church), [Gilneas](Gilneas)**
+** [Revantusk Village](Revantusk Village), [The Hinterlands](Hinterlands)**
 
 ## Inhabitants
 ## Notes and trivia

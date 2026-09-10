@@ -10,4 +10,4 @@ categories: ["Barrens subzones", "Farms", "Orc territories", "Pages with broken 
 ---
 # Grol'dom Farm
 
--Grol'dom Farm** [56, 20] is one of the many [orcish](orcish) [pig farm](pig farm)s that have sprung up in the years after the founding of [Orgrimmar](Orgrimmar). It is inhabited by [Kranal Fiss](Kranal Fiss), a farmer who also has a mission to offer to [shaman](shaman)s seeking the totem of fire. In addition to Kranal, there are a few small orcish children present.
+**Grol'dom Farm** [56, 20] is one of the many [orcish](orcish) [pig farm](pig farm)s that have sprung up in the years after the founding of [Orgrimmar](Orgrimmar). It is inhabited by [Kranal Fiss](Kranal Fiss), a farmer who also has a mission to offer to [shaman](shaman)s seeking the totem of fire. In addition to Kranal, there are a few small orcish children present.

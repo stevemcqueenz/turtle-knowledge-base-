@@ -10,4 +10,4 @@ categories: ["Ashenvale subzones", "Lakes", "Pages with broken file links", "Wat
 ---
 # Mystral Lake
 
--Mystral Lake** is located in south-central [Ashenvale](Ashenvale), just south of [Silverwind Refuge](Silverwind Refuge) and  east of [the Talondeep Path](the Talondeep Path). It is the largest lake in the forest, and subsequently often visited by both [Horde](Horde) and [Alliance](Alliance) characters for various reasons. The water [elemental](elemental)s of Mystral Lake pose a significant threat to lower level players.
+**Mystral Lake** is located in south-central [Ashenvale](Ashenvale), just south of [Silverwind Refuge](Silverwind Refuge) and  east of [the Talondeep Path](the Talondeep Path). It is the largest lake in the forest, and subsequently often visited by both [Horde](Horde) and [Alliance](Alliance) characters for various reasons. The water [elemental](elemental)s of Mystral Lake pose a significant threat to lower level players.

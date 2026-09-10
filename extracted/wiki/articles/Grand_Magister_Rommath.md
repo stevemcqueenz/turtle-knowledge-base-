@@ -43,7 +43,7 @@ When Lord [Astalor Sunsworn](Astalor Sunsworn) made a motion before the Council 
 - [quest: Rommath, the Saviour] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 In the midst of our ceaseless debates on the fate of our people, the answer lies crystal clear before us. Time, a precious resource we squander in endless deliberations, is better spent on the singular, unyielding purpose that binds our hearts - we must reclaim Quel'Thalas from the clutches of the Scourge, employing any means necessary to usher our homeland back into our embrace.
 
 ## Gallery

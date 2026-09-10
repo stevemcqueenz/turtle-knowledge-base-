@@ -26,15 +26,15 @@ categories: ["Food vendors", "Human characters", "Northwind NPCs", "Quest givers
 | status | Alive |
 | relatives | Mariah Huckabee |
 
--Mitchell Huckabee** is a [human](human) donut vendor who is located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind).
+**Mitchell Huckabee** is a [human](human) donut vendor who is located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind).
 
 ## Quests
 - [quest: Amberglaze Donuts] 
 
 ## Quotes
--Amberglaze Donuts, freshly baked and handmade! Just one bite and you'll never want anything else again!
+- Amberglaze Donuts, freshly baked and handmade! Just one bite and you'll never want anything else again!
 
-  -Gossip**
+**Gossip**
 Come here and grab a box of scrumptious Amberglaze Donuts, made from local Ambersap! Get them now while they are still crispy and warm!
 
 ## Patch changes

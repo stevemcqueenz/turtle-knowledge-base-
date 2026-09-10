@@ -13,5 +13,4 @@ categories: ["Stormwrought Ruins subzones"]
 The **Stormwrought Museum** is a museum inside [Stormwrought Ruins](Stormwrought Ruins). It is here that [Oronok Torn-Heart](Oronok Torn-Heart) can be fought.
 
 ## NPCs
-- 
--
+- -

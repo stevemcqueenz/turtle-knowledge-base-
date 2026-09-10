@@ -25,7 +25,7 @@ categories: ["Blacksmithing vendors", "Gilneas NPCs", "Human characters", "Turtl
 | location | Blackthorn's Camp, Gilneas |
 | status | Alive |
 
--Handon Blackhammer** is a [human](human) blacksmithing vendor located in [Blackthorn's Camp](Blackthorn's Camp) in [Gilneas](Gilneas).
+**Handon Blackhammer** is a [human](human) blacksmithing vendor located in [Blackthorn's Camp](Blackthorn's Camp) in [Gilneas](Gilneas).
 
 ## Quotes
 Need repairs or smithin' supplies? If so, I am your guy... For a price, of course.

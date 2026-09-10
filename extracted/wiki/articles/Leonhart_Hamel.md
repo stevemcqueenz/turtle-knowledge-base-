@@ -26,10 +26,10 @@ categories: ["Flight masters", "Human characters", "Northwind NPCs", "Stormwind 
 | location | Ambershire, Northwind |
 | status | Alive |
 
--Leonhart Hamel** is a [human](human) gryphon flight master located in [Ambershire](Ambershire) in [Northwind](Northwind).
+**Leonhart Hamel** is a [human](human) gryphon flight master located in [Ambershire](Ambershire) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Anywhere my sturdy gryphons can take you?
 
 ## Flight paths

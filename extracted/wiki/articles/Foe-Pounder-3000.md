@@ -25,7 +25,7 @@ categories: ["Crowd pummelers", "Moonwhisper Coast NPCs", "Turtle WoW content"]
 | status | Active |
 | companions | Zegh Sparkleblast (master) |
 
--Foe-Pounder-3000** is a [crowd pummeler](crowd pummeler) located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Foe-Pounder-3000** is a [crowd pummeler](crowd pummeler) located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

@@ -25,7 +25,7 @@ categories: ["Azshara NPCs", "Dalaran (kingdom)", "Human characters", "Quest giv
 | location | Ruins of Eldarath, Azshara |
 | status | Alive |
 
--Magus Bromley** is a [human](human) [quest giver](quest giver) located in [Peter Galen](Peter Galen)'s camp in the hills overlooking the [Ruins of Eldarath](Ruins of Eldarath) in [Azshara](Azshara).
+**Magus Bromley** is a [human](human) [quest giver](quest giver) located in [Peter Galen](Peter Galen)'s camp in the hills overlooking the [Ruins of Eldarath](Ruins of Eldarath) in [Azshara](Azshara).
 
 ## Quests
 - [quest: Delivery for Bromley] 
@@ -38,7 +38,7 @@ categories: ["Azshara NPCs", "Dalaran (kingdom)", "Human characters", "Quest giv
 - [quest: The Dampening Must End] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Dalaran may have been shattered but we still do our work for the greater knowledge of magic.
 
 ## Patch changes

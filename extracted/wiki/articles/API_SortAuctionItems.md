@@ -16,7 +16,7 @@ Sorts the auction house display.
 </syntaxhighlight>
 ----
 
-  - *Arguments***
+** *Arguments***
    (String type, String sort)
 
   ; type
@@ -47,16 +47,16 @@ Sorts the auction house display.
 
 ----
 
-  - *Example***
+** *Example***
 <syntaxhighlight lang="lua">
  SortAuctionItems("list", "bid");
 </syntaxhighlight>
-  - *Result***
+** *Result***
 
 The results on the "Browse" tab are sorted by bid.
 ----
 
-  - *Details***
+** *Details***
 
    There is no way to specifically set the direction of the sort.  It reverses the previous direction.  See also: [IsAuctionSortReversed(type, sort)](API IsAuctionSortReversed)
 

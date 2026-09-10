@@ -10,10 +10,10 @@ categories: ["Readable items", "Turtle WoW content"]
 ---
 # Aliattan Anderson's Journal
 
--[Aliattan Anderson](Aliattan Anderson)'s Journal** can be found at the campsite south of the [Ruins of Greyshire](Ruins of Greyshire) in [Gilneas](Gilneas).
+**[Aliattan Anderson](Aliattan Anderson)'s Journal** can be found at the campsite south of the [Ruins of Greyshire](Ruins of Greyshire) in [Gilneas](Gilneas).
 
 ## Objective of
--  [44] [The Haunting of Aliattan Anderson](The Haunting of Aliattan Anderson)
+- [44] [The Haunting of Aliattan Anderson](The Haunting of Aliattan Anderson)
 
 ## Content
 ## Patch changes

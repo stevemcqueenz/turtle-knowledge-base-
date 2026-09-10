@@ -56,70 +56,70 @@ Damage, Restoration and Mana Cost Values:
 - Rank 6 (Level 48 -> 44): 193-214 Holy Damage, 128 Health and 64 Mana restored, 64 Mana Cost
 - Rank 7 (Level 54 -> 52): 242-267 Holy Damage, 150 Health and 75 Mana restored, 75 Mana Cost
 - Rank 8 (Level 58 -> 60): 293-325 Holy Damage, 180 Health and 90 Mana restored, 90 Mana Cost
--Developer Comment: Holy Strike, as mentioned above, has always been a problematic ability. It was double dipping from Vengeance and all other percentage increases. It was piercing armor. With how bursty pvp in vanilla is, this was a very feel bad ability for the person on the other side of the screen.*
--On the other hand, as an ability used against creatures it was quite underwhelming. There was little tactical decision when you should use it, and overall it was quite boring as a spell, being just a copy of heroic strike. It was *something* to press, but it lacked meaningful synergy with the rest of the kit or any talents.*  *As for Crusader Strike - its low damage made it very low impact ability on press, and it lacked the power and feeling core rotational ability should have. It also made paladins global cooldown capped and spammy, because if you had a free gcd, you would just press it, which was rather uninteresting.*
+*Developer Comment: Holy Strike, as mentioned above, has always been a problematic ability. It was double dipping from Vengeance and all other percentage increases. It was piercing armor. With how bursty pvp in vanilla is, this was a very feel bad ability for the person on the other side of the screen.*
+*On the other hand, as an ability used against creatures it was quite underwhelming. There was little tactical decision when you should use it, and overall it was quite boring as a spell, being just a copy of heroic strike. It was *something* to press, but it lacked meaningful synergy with the rest of the kit or any talents.*  *As for Crusader Strike - its low damage made it very low impact ability on press, and it lacked the power and feeling core rotational ability should have. It also made paladins global cooldown capped and spammy, because if you had a free gcd, you would just press it, which was rather uninteresting.*
 
--That in itself was not the biggest problem of the ability. Its biggest issue was how it interacted with certain buffs provided by consumables and more so, shamans, such as flametongue and windfury. Playing paladin without these external buffs felt like playing an incomplete spec, and with them, paladin’s damage would get out of control quickly, making it a balance nightmare.*  *We believe new iterations of these abilities should provide paladin with a more balanced, tactical gameplay in combat, where you use strikes accordingly to your need, while also limiting their power in pvp combat.*  
--Moreover, once you look at the talent trees, you can notice that every tree has a 5 pointer talent that enhances these abilities, making them more useful for the respective specs.* 
+*That in itself was not the biggest problem of the ability. Its biggest issue was how it interacted with certain buffs provided by consumables and more so, shamans, such as flametongue and windfury. Playing paladin without these external buffs felt like playing an incomplete spec, and with them, paladin’s damage would get out of control quickly, making it a balance nightmare.*  *We believe new iterations of these abilities should provide paladin with a more balanced, tactical gameplay in combat, where you use strikes accordingly to your need, while also limiting their power in pvp combat.*  
+*Moreover, once you look at the talent trees, you can notice that every tree has a 5 pointer talent that enhances these abilities, making them more useful for the respective specs.* 
 ----New Ability: Hand of Reckoning
 Taunts the target to attack you, causing a high amount of threat.
 (10 Second Cooldown, 10 Yard Range, 90 Mana Cost)
 Learned at level 10.
--Developer Comment: Experiment with Judgement of Justice being a taunt was a worthy one, but it missed the mark in a few places. While it gave paladins a taunt that basically couldn’t miss, it was also very clunky, as it was basically using up two global cooldowns and a lot of mana to get back to normal rotation after taunting. We have decided to give paladins a baseline taunt, working in the same way as druid and warrior one, with the added benefit of talenting into additional hit in protection tree to give Paladins back their old taunt niche.*
+*Developer Comment: Experiment with Judgement of Justice being a taunt was a worthy one, but it missed the mark in a few places. While it gave paladins a taunt that basically couldn’t miss, it was also very clunky, as it was basically using up two global cooldowns and a lot of mana to get back to normal rotation after taunting. We have decided to give paladins a baseline taunt, working in the same way as druid and warrior one, with the added benefit of talenting into additional hit in protection tree to give Paladins back their old taunt niche.*
 ----Added a new rank for Flash of Light:
 Heals a friendly target for 428 to 493. 
 (180 Mana Cost)
 Learned at level 60.
 ----Judgement of the Crusader: Reverted to its original behavior.
--Developer Comment: Judgement of the Crusader was in a weird place after our first batch of class changes, when the addition of Crusader Strike made the ability almost useless. New version, added in a patch after between the batches of class changes, was poorly thought out and led to multiple issues with weapon chance on hit effects, where individual weapon effects had to be nerfed or changed just to accommodate the ability's existence. This proved to be too hard to design and balance around, that's why we are removing forced weapon chance on hit abilities from it, as cool as the ability is. To ease the minds of all concerned Discipline Priests and Retribution Paladins: it should be much easier to keep the holy damage increase on targets now, thanks to the strikes refreshing judgements.*
+*Developer Comment: Judgement of the Crusader was in a weird place after our first batch of class changes, when the addition of Crusader Strike made the ability almost useless. New version, added in a patch after between the batches of class changes, was poorly thought out and led to multiple issues with weapon chance on hit effects, where individual weapon effects had to be nerfed or changed just to accommodate the ability's existence. This proved to be too hard to design and balance around, that's why we are removing forced weapon chance on hit abilities from it, as cool as the ability is. To ease the minds of all concerned Discipline Priests and Retribution Paladins: it should be much easier to keep the holy damage increase on targets now, thanks to the strikes refreshing judgements.*
 ----Blessing of Freedom, Blessing of Sacrifice and Blessing of Protection are now Hand of Freedom, Hand of Sacrifice and Hand of Protection. They do not remove active blessings, but are exclusive to each other (for example, the target can’t have Hand of Freedom and Hand of Sacrifice from one Paladin at the same time.)
 ----All ranks of Blessing of Might, Blessing of Wisdom, Blessing of Kings, Blessing of Salvation, Blessing of Light and Blessing of Sanctuary now have a 10 minute duration.
 ----All ranks of Greater Blessing of Might, Greater Blessing of Wisdom, Greater Blessing of Kings, Greater Blessing of Salvation, Greater Blessing of Light and Greater Blessing of Sanctuary now have a 30 minute duration.
 ----The first rank of Holy Strike is now learned at level 4 from class trainers instead of a quest from Stormwind or Ironforge.
 ----Divine Shield now reduces all damage dealt by 50% instead of reducing attack speed by 100%.
--Developer Comment: This change was done at a patch between the first and second batches of class changes but we deemed it important that it's listed in this changelog.*
+*Developer Comment: This change was done at a patch between the first and second batches of class changes but we deemed it important that it's listed in this changelog.*
 ----Seal of Wisdom 
 Mana gained from the chance on hit effect increased by 100%. Two new ranks have been added for level 18 and 28.
--Developer Comment: This change will help with mana sustain of paladins without the need to rely on items that deal extra elemental damage when attacking (which was previously used to trigger Judgement of Wisdom additional times) or other gimmicks.*
+*Developer Comment: This change will help with mana sustain of paladins without the need to rely on items that deal extra elemental damage when attacking (which was previously used to trigger Judgement of Wisdom additional times) or other gimmicks.*
 
 ## **Holy**
 Holy is considered to be the most complete paladin specialization, and in good hands can perform quite well. However, when it comes to raw throughput, it is the weakest healer overall, as it suffers from poor scaling. Its main strength, mana efficiency, is not as important on Turtle as there are better and more efficient ways of gaining mana than in 1.12.
 Moreover, Holy Paladin lacks identity that would separate it from other healers. Holy Paladin right now is a priest in all but name, and our changes aim to address that, incentivizing holy paladin to increase their throughput and sustain by going into melee range while keeping the old playstyle at similar power level.
 Removed: Improved Blessing of Wisdom
 Talent has been removed and its effect has been added to a new talent in the first row of the Retribution talent tree that increases the potency of both Blessing of Might and Wisdom. 
--Developer Comment: We believe that this change will make it easier for raiding paladins to manage their blessings.*
+*Developer Comment: We believe that this change will make it easier for raiding paladins to manage their blessings.*
 ----New Talent: Holy Judgement  (Row 2 / 3 Ranks)
 Casting Judgement reduces the cast time of your next Holy Light by 0.3/0.6/1 seconds.
--Developer Comment: As said before, we want to incentivize Holy Paladins going into melee range. This talent should help with that, reducing the cast time of your most powerful healing spell.* 
+*Developer Comment: As said before, we want to incentivize Holy Paladins going into melee range. This talent should help with that, reducing the cast time of your most powerful healing spell.* 
 ----Adjustment: Spiritual Focus
 Now requires 2 points instead of 5 points.
 ----Adjustment: Improved Seal of Righteousness
 Damage increase reduced to 10% from 15%, but now affects total damage (after Spell Power) instead of base damage.
--Developer Comment: We believe this talent will help both protection and spell retribution, allowing their main seal to scale into endgame.*
+*Developer Comment: We believe this talent will help both protection and spell retribution, allowing their main seal to scale into endgame.*
 ----Adjustment: Illumination
 Mana restoration lowered from 20/40/60/80/100% to 12/24/36/48/60% of the base cost of the spell.
--Developer Comment: Holy Paladins are incredibly mana efficient with their heals compared to other healers, which is problematic when it comes to balancing their healing capabilities. Theoretically they would excel in long fights with high healing requirements, but such fights simply don’t exist in vanilla.*
--That’s why we decided to power down their sustain a bit, while increasing their overall healing throughput and healing capabilities. In addition, buffed Seal of Wisdom should provide Holy Paladins with additional mana regeneration, so Holy Paladins willing to stop healing for a while and melee the boss have a way to restore their mana.*
+*Developer Comment: Holy Paladins are incredibly mana efficient with their heals compared to other healers, which is problematic when it comes to balancing their healing capabilities. Theoretically they would excel in long fights with high healing requirements, but such fights simply don’t exist in vanilla.*
+*That’s why we decided to power down their sustain a bit, while increasing their overall healing throughput and healing capabilities. In addition, buffed Seal of Wisdom should provide Holy Paladins with additional mana regeneration, so Holy Paladins willing to stop healing for a while and melee the boss have a way to restore their mana.*
 ----New Talent: Ironclad (Row 4 / 2 Ranks)
 Increases your healing power by 1/2% of your Armor contribution from items.
--Developer Comment: Paladins are infamous for wearing cloth dresses in vanilla. This change aims to give some additional healing power to plate pieces and improve the overall scaling of the class.*
+*Developer Comment: Paladins are infamous for wearing cloth dresses in vanilla. This change aims to give some additional healing power to plate pieces and improve the overall scaling of the class.*
 ----Rework: Holy Shock
 Now acquired at row 5. Can no longer target enemies, but the amount of healing is increased and now has a chance to reset its own cooldown which starts at 5% and is increased by 1% for every 100 healing power you have.
--Developer Comment: Holy Paladin’s damage right now can be quite bursty at times, thanks to Holy Shock. With the new talents allowing for it to reset, we felt like the ranged burst could become too dangerous. Overall Holy damage should be higher thanks to the new strikes, but will require you to remain in melee.* *While we understand that the “shockadin” specialization is beloved by many, it does not fit our vision for the class.* 
+*Developer Comment: Holy Paladin’s damage right now can be quite bursty at times, thanks to Holy Shock. With the new talents allowing for it to reset, we felt like the ranged burst could become too dangerous. Overall Holy damage should be higher thanks to the new strikes, but will require you to remain in melee.* *While we understand that the “shockadin” specialization is beloved by many, it does not fit our vision for the class.* 
 ----Rework: Divine Favor
 Now has 5 ranks and grants 6/12/18/24/30% critical chance to your Holy Shock passively instead of being an active ability.
--Developer Comment: We felt like the niche of Divine Favor as an emergency critical spell was rather bland and uninteresting, and in most scenarios was just combined with a Holy Shock cast. We believe this talent will be a good way to increase Holy Shock potency passively, while old-style paladin builds can just skip it.*
+*Developer Comment: We felt like the niche of Divine Favor as an emergency critical spell was rather bland and uninteresting, and in most scenarios was just combined with a Holy Shock cast. We believe this talent will be a good way to increase Holy Shock potency passively, while old-style paladin builds can just skip it.*
 ----Adjustment: Holy Power
 Now has 3 ranks granting 2/4/6% critical chance to Flash of Light and Holy Light, no longer affecting Holy Shock.
 ----New Talent: Blessed Strikes (Row 6 / 5 Ranks)
 
 Crusader Strike has a 20/40/60/80/100% chance to reset the cooldown of your Holy Shock. (after resetting holy shock’s cooldown that way, it will have global cooldown reduced by 1 second)
 Holy Strike healing effect is increased by  30/60/90/120/150%.
--Developer Comment: Both of these talents are meant to push Holy into melee range, either by improving their aoe healing capabilities with Holy Strike, or single target instant healing with Crusader Strike. We hope this will make Holy an engaging healer who has way more options in their arsenal, while playing into paladin melee healer fantasy.*
+*Developer Comment: Both of these talents are meant to push Holy into melee range, either by improving their aoe healing capabilities with Holy Strike, or single target instant healing with Crusader Strike. We hope this will make Holy an engaging healer who has way more options in their arsenal, while playing into paladin melee healer fantasy.*
 ----New Capstone Talent: Daybreak (Row 7 / 1 Rank)
 
 Critically healing an ally leaves Daybreak on them for 12 seconds. Daybreak increases healing taken from Flash of Light, Holy Light and Holy Shock by 20% and increases their maximum hit points by 5%.
--Developer Comment: Holy Paladin by design was meant as a healer excelling in single target, tank healing. Unfortunately, current design does not promote it in any way, and people see Holy Paladins as a good single target healer mostly because they can’t do anything else. Their raw single target healing throughput is lower than other healing classes. We hope this talent will help solve this issue, promoting healing same targets by keeping the critical strike buff on them. Moreover this buff provides paladin synergy, making it more worthwhile to bring more Holy Paladins to the raid.*
+*Developer Comment: Holy Paladin by design was meant as a healer excelling in single target, tank healing. Unfortunately, current design does not promote it in any way, and people see Holy Paladins as a good single target healer mostly because they can’t do anything else. Their raw single target healing throughput is lower than other healing classes. We hope this talent will help solve this issue, promoting healing same targets by keeping the critical strike buff on them. Moreover this buff provides paladin synergy, making it more worthwhile to bring more Holy Paladins to the raid.*
 
 ## **Protection**
 Protection compared to 1.12 Vanilla already received a lot of changes on Turtle. While they somewhat helped the specialization to become viable, it was still behind bear and warrior tanks in raiding. While you could do a good amount of threat as a paladin, the setup required was not equal to the rewards.
@@ -129,23 +129,23 @@ Adjustment: Anticipation
 Reduced down to 3 ranks, and now grants 7/14/20 Defense skill instead of the original 2/4/6/8/10.
 ----Adjustment: Shield Specialisation 
 This talent's mana restoration on block can no longer occur more than once every 5 seconds instead of 1 second.
--Developer Comment: Mana sustain of Protection Paladin against multiple creatures was already crazy good, and with the new changes it became even better. We decided to reduce power of this talent  against multiple creatures to keep mana sustain on similar levels as in 1.17.1.*
+*Developer Comment: Mana sustain of Protection Paladin against multiple creatures was already crazy good, and with the new changes it became even better. We decided to reduce power of this talent  against multiple creatures to keep mana sustain on similar levels as in 1.17.1.*
 ----Adjustment: Improved Righteous Fury
 Now increases the amount of threat generated by your Righteous Fury spell by 25/50/75% instead of 16/33/50%.
 ----New Talent: Righteous Defense  (Row 5 / 3 Ranks)
 While Righteous Fury is active, your damage taken is reduced by 3/6/10%.
 ----New Talent: Sacred Duty (Row 6 / 3 Ranks)
 Increases your total Stamina by 2/4/6%.
--Developer Comment: Both of these talents aim to increase Protection Paladin survivability, which was lacking. They require quite an investment of points, but we believe that for a hybrid class it is appropriate.* 
+*Developer Comment: Both of these talents aim to increase Protection Paladin survivability, which was lacking. They require quite an investment of points, but we believe that for a hybrid class it is appropriate.* 
 ----New Talent: Improved Hand of Reckoning (Row 4 / 2 Ranks)
 Increases your chance to hit with Hand of Reckoning by 4/8%.
--Developer Comment: We wanted to give Protection Paladins an easier time hitting with their taunt, as was the case with Judgement of Justice.*
+*Developer Comment: We wanted to give Protection Paladins an easier time hitting with their taunt, as was the case with Judgement of Justice.*
 ----Adjustment: Holy Shield
 Increased the block chance granted from 30% to 50%, increased the Spell Power scaling coefficient for Holy damage dealt when blocking from 5% to 33% and increased the threat modifier for the Holy damage dealt when blocking from 30% to 45%.
--Developer Comment: Block chance increased to make it easier for Prot Palas to reach crush immunity. With combination with Righteous Strikes, paladins will need only a bit of block chance on their gear to reach this breakpoint.* *In addition, we increased the threat and damage of this ability.*
+*Developer Comment: Block chance increased to make it easier for Prot Palas to reach crush immunity. With combination with Righteous Strikes, paladins will need only a bit of block chance on their gear to reach this breakpoint.* *In addition, we increased the threat and damage of this ability.*
 ----Rework: Reckoning
 Now gives you a 5/10/15/20/25% chance to gain an extra attack after blocking an enemy's attack, replacing the old effect.
--Developer Comment: Reckoning as it was was purely a joke ability which relied on getting critically struck just like old Redoubt. It was a failed design of Vanilla, as tanks actively don’t want to be critically struck because in many cases it leads to damage spikes and death. That’s why we changed it to promote blocking, which fits the Protection flavor much better.*
+*Developer Comment: Reckoning as it was was purely a joke ability which relied on getting critically struck just like old Redoubt. It was a failed design of Vanilla, as tanks actively don’t want to be critically struck because in many cases it leads to damage spikes and death. That’s why we changed it to promote blocking, which fits the Protection flavor much better.*
 ----New Talent: Righteous Strikes (Row 6 / 5 Ranks)
 Zeal (Buff granted by Crusader Strike) increases your chance to block by 1/2/3/4/5% per stack.
 Holy Strike causes 50% additional threat and its damage is increased by 10/20/30/40/50%.
@@ -160,28 +160,28 @@ Damage Values:
 - Rank 2 (Level 50): 417 - 451 Holy Damage
 
 - Rank 3 (Level 60): 556 - 601 Holy Damage
--Developer Comment: The old capstone Ardent Defender was extremely unrewarding and fairly weak, so we decided to replace it with an active button. This ability can serve both as an emergency threat generation and a powerful defensive cooldown, which gives it flexibility and reinforces in-combat decision making, which was our goal.*
+*Developer Comment: The old capstone Ardent Defender was extremely unrewarding and fairly weak, so we decided to replace it with an active button. This ability can serve both as an emergency threat generation and a powerful defensive cooldown, which gives it flexibility and reinforces in-combat decision making, which was our goal.*
 
 ## **Retribution**
 Retribution Paladin number wise is a competitive specialization that has its niche and multiple viable builds. However, we don’t like how it plays and its reliance on Windfury Totem and Flametongue Totem. We also think that items that grant extra elemental damage on attacks being almost required to keep up Vengeance and sustain mana are unhealthy in the long run. Lastly, this specialization suffers from threat issues and a weak capstone talent.
 With this rework, we tried to handle all these concerns, and create a more unified design, but still with multiple viable build and gearing options.
 Adjustment: Improved Blessing of Might > Improved Blessings 
 Now also affects Blessing of Wisdom, increasing its effect by 4/8/12/16/20% too.
--Developer Comment: We wanted to unite these talents to make it easier to manage raids buffing by preventing conflict between differently talented paladin blessings*
+*Developer Comment: We wanted to unite these talents to make it easier to manage raids buffing by preventing conflict between differently talented paladin blessings*
 ----Adjustment: Heart of the Crusader
 Reverted to original behavior:
 Increases the melee attack power bonus of your Seal of the Crusader and the Holy damage increase of your Judgement of the Crusader by 5/10/15%.
 ----Adjustment: Vindication
 Now gives a chance to reduce the target's damage by 1/2/3% for 10 seconds instead of reducing the target's Strength and Agility.
--Developer Comment: Old Vindication was straight up not working against non-player enemies, due to mobs not having Agility and Strength values. It was often misleading, so we replaced it with a similar effect that actually works.*
+*Developer Comment: Old Vindication was straight up not working against non-player enemies, due to mobs not having Agility and Strength values. It was often misleading, so we replaced it with a similar effect that actually works.*
 ----Adjustment: Two-Handed Weapon Specialization
 Now grants 1/2/3 weapon skill for two-handed Swords, Maces and Axes.
 ----Removed: Sanctified Command
--Developer Comment: Mana restoration part of this talent has been quite useless, and paladin can now provide this type of support with Holy Strike. However, we recognize the utility this talent possesses for player combat- we will closely monitor paladin matchups against Purge and make Seals undispellable if those matchups prove to be too oppressive.*
+*Developer Comment: Mana restoration part of this talent has been quite useless, and paladin can now provide this type of support with Holy Strike. However, we recognize the utility this talent possesses for player combat- we will closely monitor paladin matchups against Purge and make Seals undispellable if those matchups prove to be too oppressive.*
 ----Rework: Vengeance
 Moved to Row 5, Physical and Holy damage bonus reduced from 3/6/9/12/15% to 1/2/3/4/5%, now reduces threat generation by 2/4/6/8/10%, duration increased from 8 seconds to 30 seconds and now stacks up to 3 times.
--Developer Comment: 1.12.1 Vengeance is a cool concept, but flawed due to existence of items that add elemental damage to your attacks. We believe it will be healthier to remove some burst and explosiveness from Vengeance in favor for a stacking buff thats easier to keep up.*
--In addition, we added threat reduction to Vengeance to combat both Protection Paladins taking this talent and using a two handed weapon, and to help with threat issues of Retribution.*
+*Developer Comment: 1.12.1 Vengeance is a cool concept, but flawed due to existence of items that add elemental damage to your attacks. We believe it will be healthier to remove some burst and explosiveness from Vengeance in favor for a stacking buff thats easier to keep up.*
+*In addition, we added threat reduction to Vengeance to combat both Protection Paladins taking this talent and using a two handed weapon, and to help with threat issues of Retribution.*
 ----Adjustment: Seal and Judgement of Command
 Seal of Command now has a small Spell Power modifier, and Judgement of Command now has a small Attack Power modifier.
 ----New Talent: Crusading Strikes (Row 6 / 5 Ranks)
@@ -199,9 +199,9 @@ Damage Values:
 - Rank 2 (Level 50): 120 Holy Damage
 
 - Rank 3 (Level 60): 160 Holy Damage
--Developer Comment: Repentance is extremely underwhelming against creatures, but an important tool against players. We decided to keep it as a capstone and give it some additional functionality against bosses that fits flavor of Retribution very well.* *Note: The damage component will **never** apply to players.*
+*Developer Comment: Repentance is extremely underwhelming against creatures, but an important tool against players. We decided to keep it as a capstone and give it some additional functionality against bosses that fits flavor of Retribution very well.* *Note: The damage component will **never** apply to players.*
 
-  -UPDATES | Dated: October 21 2024**Bulwark of the Righteous: CD increased from 3 minutes to 5 minutes, damage reduction reduced from 40% to 30%.
+**UPDATES | Dated: October 21 2024**Bulwark of the Righteous: CD increased from 3 minutes to 5 minutes, damage reduction reduced from 40% to 30%.
 ----Sacred Duty: Removed.
-  -UPDATES | Dated: November 1 2024**Crusader Strike's weapon damage reduced by 10% for all ranks.
+**UPDATES | Dated: November 1 2024**Crusader Strike's weapon damage reduced by 10% for all ranks.
 ----Righteous Strikes' Holy Strike damage increase reduced to 5/10/15/20/25%.

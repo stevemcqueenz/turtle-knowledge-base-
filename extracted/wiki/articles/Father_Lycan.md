@@ -25,7 +25,7 @@ categories: ["Hyjal mobs", "Turtle WoW content", "Worgen characters", "World bos
 | location | Circle of Power, Hyjal |
 | status | Killable |
 
--Father Lycan** is a [worgen](worgen) pricolich and bloodmage who ventured to the world of Azeroth from the worgen homeworld of [Vorgendor](Vorgendor). After crawling over the [Greymane Wall](Greymane Wall) into [Gilneas](Gilneas) from the [Silverpine Forest](Silverpine Forest), he introduced [Celia](Celia Harlow) and [Mortimer Harlow](Mortimer Harlow) to the blood magics that they used to corrupt the nobility and leadership of the human nation. (ref: [Celia's Journal](Celia's Journal))
+**Father Lycan** is a [worgen](worgen) pricolich and bloodmage who ventured to the world of Azeroth from the worgen homeworld of [Vorgendor](Vorgendor). After crawling over the [Greymane Wall](Greymane Wall) into [Gilneas](Gilneas) from the [Silverpine Forest](Silverpine Forest), he introduced [Celia](Celia Harlow) and [Mortimer Harlow](Mortimer Harlow) to the blood magics that they used to corrupt the nobility and leadership of the human nation. (ref: [Celia's Journal](Celia's Journal))
 
 As part of a bid to purify the [Scythe of Elune](Scythe of Elune), [Arch Druid Dreamwind](Arch Druid Dreamwind) directs adventurers to kill the pricoliches on Azeroth so that their influence in the world wanes. In the [Circle of Power](Circle of Power) of [Mount Hyjal](Mount Hyjal), the Arch Druid directs adventurers to summon Father Lycan by speaking his name with an arcane orb infused with the essence of primal magic in order to ensnare him and strip away his dark powers, rendering him vulnerable.
 
@@ -35,19 +35,19 @@ As part of a bid to purify the [Scythe of Elune](Scythe of Elune), [Arch Druid D
 - **Herald's Transmutation** — Transforms an enemy into a Shadowfang Glutton, enslaving it to the caster's will for 15 seconds.
 
 ## Quotes
-  -Aggro**
+**Aggro**
   **Father Lycan yells:** You have dared to summon me? I shall bring doom to this world, for I am herald of Vorgendor!
 
-  -Herald's Transmutation**
+**Herald's Transmutation**
   **Father Lycan yells:** Bask in my power!
 
-  -50%**
+**50%**
   **Father Lycan yells:** I shall bring forth a new reality...
 
-  -Kill**
+**Kill**
   **Father Lycan yells:** Behold, the doom of Vorgendor!
 
-  -Death**
+**Death**
   **Father Lycan yells:** The power of Vorgendor, I can feel it fading...
 
 ## Objective of

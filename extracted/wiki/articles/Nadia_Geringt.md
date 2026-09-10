@@ -26,10 +26,10 @@ categories: ["Human characters", "Mount vendors", "Northwind NPCs", "Stormwind (
 | status | Alive |
 | relatives | Horsekeeper Geringt (husband) |
 
--Nadia Geringt** is a [human](human) horse vendor located at the [Mildenhall Horse Farm](Mildenhall Horse Farm) in [Northwind](Northwind).
+**Nadia Geringt** is a [human](human) horse vendor located at the [Mildenhall Horse Farm](Mildenhall Horse Farm) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 My husband and I have our hands tied with caring for the jousting horse just yonder the road. Many of them require special treatment and feed, and with only Jorg as extra help, it can get quite busy around here. Nevertheless, take a look at our other horses here; they are the best steeds in the entire kingdom! Lady Mildenhall's horses are famous amongst the most prestigious knights and nobles of the capital.
 
 ## Patch changes

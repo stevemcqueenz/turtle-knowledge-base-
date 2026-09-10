@@ -24,10 +24,10 @@ categories: ["Moonwhisper Coast NPCs", "Tauren characters", "Turtle WoW content"
 | location | Moonhoof Village, Moonwhisper Coast |
 | status | Alive |
 
--Parnal** is a [tauren](tauren) located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Parnal** is a [tauren](tauren) located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The Moonhoof tribe has gained our name from the ancient texts that describe how our great mother once walked with the moons. It is our legacy to uphold these lands, and keep them sacred.
 
 ## Patch changes

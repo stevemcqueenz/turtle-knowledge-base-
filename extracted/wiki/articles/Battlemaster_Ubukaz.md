@@ -26,10 +26,10 @@ categories: ["Bosses", "Frostmane Hollow mobs", "Ice troll characters", "Turtle 
 | status | Killable |
 | instance | Frostmane Hollow |
 
--Battlemaster Ubukaz** is a boss in [Frostmane Hollow](Frostmane Hollow). He is a revered fighter of the [Frostmane clan](Frostmane clan), of which he is the leader.
+**Battlemaster Ubukaz** is a boss in [Frostmane Hollow](Frostmane Hollow). He is a revered fighter of the [Frostmane clan](Frostmane clan), of which he is the leader.
 
 ## Quotes
-  -Aggro**
+**Aggro**
   The Frostmane be da strongest, be da fiercest! Dis be our home, you think you can mess wit us?
 
 ## Objective of

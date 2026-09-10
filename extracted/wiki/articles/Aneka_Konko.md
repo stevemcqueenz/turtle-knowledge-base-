@@ -26,7 +26,7 @@ categories: ["Human characters", "Quest givers", "Removed Barrens NPCs"]
 
 *The subject of this article has been removed from Turtle WoW and is considered non-canon.*
 
-  -Aneka Konko** was a [human](human) [quest giver](quest giver) located in [Ratchet](Ratchet) in the [Barrens](Barrens).
+**Aneka Konko** was a [human](human) [quest giver](quest giver) located in [Ratchet](Ratchet) in the [Barrens](Barrens).
 
 Aneka hails from [Kamio](Kamio) and has come to [Kalimdor](Kalimdor) in order to assist her people.
 

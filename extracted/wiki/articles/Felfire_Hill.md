@@ -10,4 +10,4 @@ categories: ["Ashenvale subzones", "Burning Legion territories", "Pages with bro
 ---
 # Felfire Hill
 
--Felfire Hill** is located in [Ashenvale](Ashenvale), southeast of [Splintertree Post](Splintertree Post), southwest of the [Warsong Lumber Camp](Warsong Lumber Camp), and northeast of the [Dor'Danil Barrow Den](Dor'Danil Barrow Den). It is the site of the arrival of several [infernal](infernal)s during the [Third War](Third War), and is inhabited by all manner of foul demons. The [Horde](Horde) has fortified both bridges leading to the hill in order to prevent attacks on any of their nearby settlements.
+**Felfire Hill** is located in [Ashenvale](Ashenvale), southeast of [Splintertree Post](Splintertree Post), southwest of the [Warsong Lumber Camp](Warsong Lumber Camp), and northeast of the [Dor'Danil Barrow Den](Dor'Danil Barrow Den). It is the site of the arrival of several [infernal](infernal)s during the [Third War](Third War), and is inhabited by all manner of foul demons. The [Horde](Horde) has fortified both bridges leading to the hill in order to prevent attacks on any of their nearby settlements.

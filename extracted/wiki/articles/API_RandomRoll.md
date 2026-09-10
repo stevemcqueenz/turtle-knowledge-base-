@@ -30,7 +30,7 @@ RandomRoll([low, [high]])
 
 ## Example
   RandomRoll(1, 10)
-  -Result:** *<Your name>* rolls. *<number>* (1-10)
+**Result:** *<Your name>* rolls. *<number>* (1-10)
 
 ## Details
   * If only *low* is provided, it is taken as the highest number

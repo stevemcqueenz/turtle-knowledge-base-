@@ -10,6 +10,6 @@ categories: ["Flats", "Geography"]
 ---
 # Category:Grasslands
 
--Grasslands** are too dry to support trees, so are instead covered by short or tall grasses. Found both in the tropics, the arctic, and in the temperate parts of the world, they are very varied zones. In-game, many areas are covered mainly by grasses, and as such, may be considered grasslands.
+**Grasslands** are too dry to support trees, so are instead covered by short or tall grasses. Found both in the tropics, the arctic, and in the temperate parts of the world, they are very varied zones. In-game, many areas are covered mainly by grasses, and as such, may be considered grasslands.
 
 This category should list [subzone](subzone)s and [zone](zone)s that are primarily grassy. This category is a subcategory of the [Flats category](:Category:Flats).

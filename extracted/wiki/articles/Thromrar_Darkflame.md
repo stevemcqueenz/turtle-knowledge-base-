@@ -25,7 +25,7 @@ categories: ["Grim Reaches mobs", "Skardyn characters", "Turtle WoW content"]
 | location | Tomb of Ancestors, Grim Reaches |
 | status | Killable |
 
--Thromrar Darkflame** is a [skardyn](skardyn) located in the [Tomb of Ancestors](Tomb of Ancestors) in the [Grim Reaches](Grim Reaches).
+**Thromrar Darkflame** is a [skardyn](skardyn) located in the [Tomb of Ancestors](Tomb of Ancestors) in the [Grim Reaches](Grim Reaches).
 
 Thromrar is the source of the corruption seeping through the [Grim Hollow](Grim Hollow), having ensnared the minds of the Red dragonkin that patrol the swamp and raised the fallen ancestors of the Wildhammer through dark magic. [Sarthyss Scaleheart](Sarthyss Scaleheart) wants Thromrar dead to lift the taint on the land.
 

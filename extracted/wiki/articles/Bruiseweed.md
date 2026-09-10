@@ -10,7 +10,7 @@ categories: ["Herbalism gathered items", "Herbs", "Pages with broken file links"
 ---
 # Bruiseweed
 
--Bruiseweed** is an [Herb](Herb) that can be gathered with [Herbalism](Herbalism). 
+**Bruiseweed** is an [Herb](Herb) that can be gathered with [Herbalism](Herbalism). 
 
 ## Source
 Bruiseweed can be found near structures or occasionally on hillsides. It can also be found in limited supply at [vendor](vendor)s.

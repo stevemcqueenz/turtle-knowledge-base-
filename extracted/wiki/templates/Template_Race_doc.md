@@ -12,7 +12,7 @@ categories: ["Pages with script errors", "Template documentation"]
 
 This template is a simple shortcut for displaying races' icons and (optionally) a link to the relevant playable race article, organization or some other formatted text.
 
-  -Usage**
+**Usage**
   
 
 The *race* parameter accepts many options outside of what the twelve races are called in-game based on past wiki history.
@@ -20,152 +20,29 @@ The *race* parameter accepts many options outside of what the twelve races are c
 The second parameter can be either any formatted text (try to include a link), or the string 'notext' to not display any text at all, just the two icons.
 
 ## Races
-  -Cenarian**
-- 
-- 
-- 
-- 
-  -Demon**
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-  -Draenei**
-- 
-  -Dragon**
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-  - 
-  -Dwarf**
-- 
-- 
-- 
-- 
-- 
-- 
-  -Elemental**
-- 
-- 
-- 
-- 
-- 
-- 
-  -Elf**
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-  -Furbolg**
-- 
-  -Giant**
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-  -Gnome**
-- 
-- 
-- 
-- 
-  -Goblin**
-- 
-  -Human**
-- 
-- 
-  - 
-- 
-- 
-  - 
-  - 
-  -Kobold**
-- 
-  -Ogre**
-- 
-- 
-- 
-  -Orc**
-- 
-- 
-- 
-- 
-  - 
-- 
-- 
-- 
-- 
-- 
-  - 
-  -Quilboar**
-- 
-- 
-  -Tauren**
-- 
-- 
-  -Troll**
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-  -Voidwalker**
-- 
-
-  -Worgen**
-- 
-  -Other races**
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-  - 
-  - 
-- 
-- 
-- 
-- 
-- 
-- 
-<includeonly></includeonly>
+**Cenarian**
+- - - - ;Demon
+- - - - - - - - - - - - ;Draenei
+- ;Dragon
+- - - - - - - - - ;Dwarf
+- - - - - - ;Elemental
+- - - - - - ;Elf
+- - - - - - - ;Furbolg
+- ;Giant
+- - - - - - - - ;Gnome
+- - - - ;Goblin
+- ;Human
+- - - * 
+- -   - ;Kobold
+- ;Ogre
+- - - ;Orc
+- - - - - * 
+- - - - - ;Quilboar
+- - ;Tauren
+- - ;Troll
+- - - - - - - - - - ;Voidwalker
+- ;Worgen
+- ;Other races
+- - - - - - - - - - - - - - - - - - - -   - * 
+- - - - - <includeonly></includeonly>
 <noinclude></noinclude>

@@ -24,7 +24,7 @@ categories: ["Mulgore NPCs", "Tauren characters", "Turtle WoW content"]
 | location | Mulgore |
 | status | Alive |
 
--Brave Runebrace** is a [tauren](tauren) located next to the path to [Red Cloud Roost](Red Cloud Roost) in [Mulgore](Mulgore).
+**Brave Runebrace** is a [tauren](tauren) located next to the path to [Red Cloud Roost](Red Cloud Roost) in [Mulgore](Mulgore).
 
 ## Patch changes
 - (Patch 1.16.1|note=Added.)

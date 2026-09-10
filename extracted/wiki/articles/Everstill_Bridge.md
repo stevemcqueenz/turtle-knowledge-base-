@@ -10,6 +10,6 @@ categories: ["Crossings", "Redridge Mountains", "Undisplayed locations"]
 ---
 # Everstill Bridge
 
--Everstill Bridge** (ref:  [20] [The Everstill Bridge](The Everstill Bridge)) is the bridge over [Lake Everstill](Lake Everstill) connecting the town of [Lakeshire](Lakeshire) with the southern part of [Redridge Mountains](Redridge Mountains). It has been damaged by the [Blackrock clan](Blackrock clan), (ref:  [16] [The Lost Tools](The Lost Tools)) and is undergoing repairs led by [Foreman Oslow](Foreman Oslow).
+**Everstill Bridge** (ref:  [20] [The Everstill Bridge](The Everstill Bridge)) is the bridge over [Lake Everstill](Lake Everstill) connecting the town of [Lakeshire](Lakeshire) with the southern part of [Redridge Mountains](Redridge Mountains). It has been damaged by the [Blackrock clan](Blackrock clan), (ref:  [16] [The Lost Tools](The Lost Tools)) and is undergoing repairs led by [Foreman Oslow](Foreman Oslow).
 
 ## References

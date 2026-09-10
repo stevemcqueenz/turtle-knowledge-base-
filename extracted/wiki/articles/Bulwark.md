@@ -10,7 +10,7 @@ categories: ["Argent Dawn", "Forsaken territories", "Pages with broken file link
 ---
 # Bulwark
 
--The Bulwark** is the [Forsaken](Forsaken)'s last bastion of defense against the main forces of the [Scourge](Scourge). It lies in southeastern [Tirisfal Glades](Tirisfal Glades), and forms the border with the [Western Plaguelands](Western Plaguelands) beyond. The [Argent Dawn](Argent Dawn) and [Forsaken](Forsaken) defenders on the Bulwark have teamed up to protect the land from the hordes of undead to the east, and send experienced adventurers of the [Horde](Horde) to battle the minions of the [Lich King](Lich King).
+**The Bulwark** is the [Forsaken](Forsaken)'s last bastion of defense against the main forces of the [Scourge](Scourge). It lies in southeastern [Tirisfal Glades](Tirisfal Glades), and forms the border with the [Western Plaguelands](Western Plaguelands) beyond. The [Argent Dawn](Argent Dawn) and [Forsaken](Forsaken) defenders on the Bulwark have teamed up to protect the land from the hordes of undead to the east, and send experienced adventurers of the [Horde](Horde) to battle the minions of the [Lich King](Lich King).
 
 Unlike the rest of Tirisfal Glades, this area is filled with [plaguemist](plaguemist) and the sky is tinted the same yellowish-gray color as in Western Plaguelands. 
 

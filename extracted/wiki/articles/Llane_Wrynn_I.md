@@ -37,7 +37,7 @@ Warchief [Blackhand](Blackhand)'s second in command, [Orgrim Doomhammer](Orgrim 
 
 ## Royal Gallery Statue
 ## Quotes
-  -Echo in Karazhan**
+**Echo in Karazhan**
   **Echo of Llane Wrynn says:** Still of absent mind?
   **Echo of Anduin Lothar says:** More than ever. He would not bat an eye at any word I spoke.
   **Echo of Llane Wrynn says:** Finally gone mad from this forced solace.

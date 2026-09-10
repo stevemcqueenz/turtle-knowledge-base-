@@ -10,4 +10,4 @@ categories: ["Desolace subzones", "Pages with broken file links", "Ruins", "Saty
 ---
 # Sargeron
 
--Sargeron**[74, 28] was once a [night elven](night elven) [city](city), but has lain in [ruin](ruin)s since the [War of the Ancients](War of the Ancients). The town's original name has been lost to time, but its ruins are now home to numerous [satyr](satyr) who have redubbed it Sargeron — after their demonic master [Sargeras](Sargeras).
+**Sargeron**[74, 28] was once a [night elven](night elven) [city](city), but has lain in [ruin](ruin)s since the [War of the Ancients](War of the Ancients). The town's original name has been lost to time, but its ruins are now home to numerous [satyr](satyr) who have redubbed it Sargeron — after their demonic master [Sargeras](Sargeras).

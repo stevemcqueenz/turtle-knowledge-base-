@@ -25,7 +25,7 @@ categories: ["Blasted Lands NPCs", "Dalaran (kingdom)", "Engineers", "Gnome char
 | location | Nethergarde Keep, Blasted Lands |
 | status | Alive |
 
--Engineer Wigglestip** is a [gnome](gnome) quest giver located in [Nethergarde Keep](Nethergarde Keep) in [Blasted Lands](Blasted Lands).
+**Engineer Wigglestip** is a [gnome](gnome) quest giver located in [Nethergarde Keep](Nethergarde Keep) in [Blasted Lands](Blasted Lands).
 
 ## Quests
 - [quest: Genetic Alteration Anomaly!] 
@@ -34,7 +34,7 @@ categories: ["Blasted Lands NPCs", "Dalaran (kingdom)", "Engineers", "Gnome char
 - Must be spoken with for [quest: Fel Energy Irregularities I].
 
 ## Quotes
-  -Gossip**
+**Gossip**
 So many magical fluctuations, so much warping of genetics, it almost makes a gnomes head spin with the possibilities of it all!
 
 There's research to be done <race>, Research to be done!

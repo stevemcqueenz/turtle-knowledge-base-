@@ -24,7 +24,7 @@ categories: ["Amani tribe", "Forest troll characters"]
 | occupation | Axethrower, Warlord of the Amani tribe |
 | status | Unknown |
 
--Zul'jin** (also spelled **Zuljin** (ref: *Warcraft II: Tides of Darkness* game manual, *[Legends of the Land](https://wowpedia.fandom.com/wiki/Warcraft_II:_Tides_of_Darkness_manual#Zuljin)*, Zuljin)) was a warlord of the [Amani](Amani tribe) forest trolls since before the [Second War](Second War).
+**Zul'jin** (also spelled **Zuljin** (ref: *Warcraft II: Tides of Darkness* game manual, *[Legends of the Land](https://wowpedia.fandom.com/wiki/Warcraft_II:_Tides_of_Darkness_manual#Zuljin)*, Zuljin)) was a warlord of the [Amani](Amani tribe) forest trolls since before the [Second War](Second War).
 
 ## Biography
 ### Second War
@@ -39,25 +39,25 @@ Following the Second War, Zul'jin disappeared. Many of the Revantusk tribe hold 
 ...
 
 ### On-click
-  -Greeting**
--Hello, mon.
--Ol' Zul'jin welcomes ya.
--De Amani will endure.
--Are ya here to help?
+**Greeting**
+- Hello, mon.
+- Ol' Zul'jin welcomes ya.
+- De Amani will endure.
+- Are ya here to help?
 
-  -Annoyed**
--Ya, mon?
--De elves take more than me eye.
--De Amani will rise again soon!
--Dese were our lands... troll lands.
--Zul'Aman shall not fall!
--Keep that up and Zul'jin gonna cook ya!
+**Annoyed**
+- Ya, mon?
+- De elves take more than me eye.
+- De Amani will rise again soon!
+- Dese were our lands... troll lands.
+- Zul'Aman shall not fall!
+- Keep that up and Zul'jin gonna cook ya!
 
-  -Farewell**
--May the Loa be with ya.
--Take care now, mon.
--Bye now.
--We be meetin' again soon.
+**Farewell**
+- May the Loa be with ya.
+- Take care now, mon.
+- Bye now.
+- We be meetin' again soon.
 
 ## Notes and trivia
 - Prior to his initial introduction in *Turtle WoW* in patch 1.16, Zul'jin was mentioned several times in the game:
@@ -68,6 +68,6 @@ Following the Second War, Zul'jin disappeared. Many of the Revantusk tribe hold 
 - Zul'jin was removed from Turtle WoW at an unknown point.
 
 ## Patch changes
--  **[Patch 1.16.0](Patch 1.16.0) (2021-12-27):** Added.
+- **[Patch 1.16.0](Patch 1.16.0) (2021-12-27):** Added.
 
 ## References

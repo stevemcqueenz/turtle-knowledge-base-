@@ -23,7 +23,7 @@ categories: ["Guards", "Human characters", "Northwind NPCs", "Turtle WoW content
 | gender | Male |
 | location | Northwind |
 
--Northwind Guards** are human guards located at various locations throughout [Northwind](Northwind).
+**Northwind Guards** are human guards located at various locations throughout [Northwind](Northwind).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

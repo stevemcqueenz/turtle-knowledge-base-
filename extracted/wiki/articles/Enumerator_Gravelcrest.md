@@ -26,10 +26,10 @@ categories: ["Grim Reaches NPCs", "Turtle WoW content", "Wildhammer dwarf charac
 | location | Dun Kithas Magistrate, Grim Reaches |
 | status | Alive |
 
--Enumerator Gravelcrest** is a [Wildhammer dwarf](Wildhammer dwarf) located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
+**Enumerator Gravelcrest** is a [Wildhammer dwarf](Wildhammer dwarf) located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 It is my duty to keep tabs upon the populace, and make sure to keep a steady count of how many live within our confines. I keep track of how many live here, and who lives where.
 
 As Clerk of Dun Kithas, I also oversee documenting and filing issues with the council itself. If you have any concerns, or suggestions for Dun Kithas, let me know, and I can pass it on to the Council itself.

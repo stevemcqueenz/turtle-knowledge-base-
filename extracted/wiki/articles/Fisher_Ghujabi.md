@@ -24,10 +24,10 @@ categories: ["Fishers", "Forest troll characters", "Moonwhisper Coast NPCs", "Tu
 | location | Moonhoof Village, Moonwhisper Coast |
 | status | Alive |
 
--Fisher Ghujabi** is a [forest troll](forest troll) located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Fisher Ghujabi** is a [forest troll](forest troll) located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I traveled here from [Revantusk Village](Revantusk Village), far far to the east in the [Hinterlands](Hinterlands). Chatty adventurers like yourself told me of this azure coast where the fish are as beautiful as they are big. Naturally I got eager to prove to my tribesmen that the great Ghujabi can fish any fish, be it at home or in the far reaches of the world. They'll be singing songs about me when I return!
 
 ## Patch changes

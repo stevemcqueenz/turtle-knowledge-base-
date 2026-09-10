@@ -26,7 +26,7 @@ categories: ["Bosses", "Orc characters", "Shadow Council", "Stormwrought Ruins m
 | status | Killable |
 | instance | Stormwrought Ruins |
 
--Deathlord Tidebane** is a boss in [Stormwrought Ruins](Stormwrought Ruins). A death knight, his soul was placed in the body of [Barbaros](Barbaros), captain of the [Bilgerats](Bilgerats) of [Plunder Isle](Plunder Isle) in life. (ref: [Moriena from the Turtle WoW Community Discord](https://discord.com/channels/466622455805378571/528228771594240030/1462715515360378940) - "He's Deathlord Tidebane")
+**Deathlord Tidebane** is a boss in [Stormwrought Ruins](Stormwrought Ruins). A death knight, his soul was placed in the body of [Barbaros](Barbaros), captain of the [Bilgerats](Bilgerats) of [Plunder Isle](Plunder Isle) in life. (ref: [Moriena from the Turtle WoW Community Discord](https://discord.com/channels/466622455805378571/528228771594240030/1462715515360378940) - "He's Deathlord Tidebane")
 
 ## Abilities
 - Bone Armor
@@ -36,13 +36,13 @@ categories: ["Bosses", "Orc characters", "Shadow Council", "Stormwrought Ruins m
 - Rain of Fire
 
 ## Quotes
-  -Aggro**
+**Aggro**
   Step forth. Accept the cold embrace of death and drown in its bleakness!
 
-  -Wail of Souls**
+**Wail of Souls**
   Darkness shall come, and consume you all!
 
-  -Death**
+**Death**
   The waves... they beckon me...
 
 ## Loot

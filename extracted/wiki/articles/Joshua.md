@@ -25,10 +25,10 @@ categories: ["Human characters", "Northwind NPCs", "Turtle WoW content"]
 | status | Alive |
 | relatives | General Bright (father),, Lena (mother),, Estelle (sister) |
 
--Joshua Bright** is a human located at the [Ambershire Church](Ambershire Church) in [Northwind](Northwind), accompanying his sister and father to the grave of [Lena Bright](Lena Bright), his mother.
+**Joshua Bright** is a human located at the [Ambershire Church](Ambershire Church) in [Northwind](Northwind), accompanying his sister and father to the grave of [Lena Bright](Lena Bright), his mother.
 
 ## Quotes
-  -Gossip**
+**Gossip**
 <The boy isn't saying anything and has a rather barren expression.>
 
 ## Notes

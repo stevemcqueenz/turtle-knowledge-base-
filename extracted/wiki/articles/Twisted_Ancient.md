@@ -22,7 +22,7 @@ categories: ["Crescent Grove mobs", "Treants", "Turtle WoW content"]
 | creature | Elemental |
 | location | The Crescent Grove |
 
--Twisted Ancients** are treants located in the [Crescent Grove](Crescent Grove).
+**Twisted Ancients** are treants located in the [Crescent Grove](Crescent Grove).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

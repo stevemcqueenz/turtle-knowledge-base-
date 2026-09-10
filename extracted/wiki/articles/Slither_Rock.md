@@ -10,4 +10,4 @@ categories: ["Black dragonflight", "Burning Steppes subzones", "Caves"]
 ---
 # Slither Rock
 
--Slither Rock** is a small cave found in the far northeastern corner of the [Burning Steppes](Burning Steppes). It is inhabited by a sole creature - the black [dragonspawn](dragonspawn) [Cyrus Therepentous](Cyrus Therepentous). Hidden beyond the [Terror Wing Path](Terror Wing Path), Cyrus nevertheless aids adventurers in vanquishing a common foe, albeit not without an ample supply of rude and derisive comments.
+**Slither Rock** is a small cave found in the far northeastern corner of the [Burning Steppes](Burning Steppes). It is inhabited by a sole creature - the black [dragonspawn](dragonspawn) [Cyrus Therepentous](Cyrus Therepentous). Hidden beyond the [Terror Wing Path](Terror Wing Path), Cyrus nevertheless aids adventurers in vanquishing a common foe, albeit not without an ample supply of rude and derisive comments.

@@ -43,7 +43,7 @@ So, have you spoken with him?
 I see. Lord Cruk'Zogg will bring us into ruin, I must come up with a new way to convince him.
 
 ## Notes
-  -Speaking with Lord Cruk'Zogg**
+**Speaking with Lord Cruk'Zogg**
 
    I am Lord Cruk'zogg, I lead here. We were once part of the great Gor'dosh tribe, but now we are alone.
 

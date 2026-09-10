@@ -47,7 +47,7 @@ Interesting. With the testimonies you've presented and my own information, we sh
 
 ## Notes
 <interactive-map name="Northwind"|marker=https://turtle-wow.fandom.com/wiki/Map:Northwind?marker=1/>
-  -Speaking with Judith Flenning**
+**Speaking with Judith Flenning**
 <The woman is shaking and distressed.>
 
   > Gossip: *I am here on behalf of SI:7 Operative Hawthorne. Have you noticed anything suspicious during the previous nights?*
@@ -56,14 +56,14 @@ Interesting. With the testimonies you've presented and my own information, we sh
 
   <Judith is breaking down in tears.>
 
-  -Speaking with Bailiff Lancaster**
+**Speaking with Bailiff Lancaster**
 What do you want from me? I really have neither the time nor the luster to bother myself with the insignificant squabbles of an adventurer.
 
   > Gossip: *I am here on behalf of SI:7 Operative Hawthorne. Have you noticed anything suspicious during the previous nights?*
 
   So you're Hawthorne's dog, I take it? With each passing day, the kingdom draws closer to ruin. That Stormwind is sending just one measly person to solve all our problems is all we need as proof. To answer your question: Yes, I have noticed 'suspicious activity' the past few days. Blackrock Orcs have invaded our vale, razing the entirety of Birkhaven to the ground and locking themselves in a stalemate with the Dark Iron that ALSO invaded Northwind. It is to be expected for people to disappear under these circumstances.
 
-  -Speaking with Ignatz**
+**Speaking with Ignatz**
 These leaves just never stop falling.
 
   > Gossip: *I am here on behalf of SI:7 Operative Hawthorne. Have you noticed anything suspicious during the previous nights?*

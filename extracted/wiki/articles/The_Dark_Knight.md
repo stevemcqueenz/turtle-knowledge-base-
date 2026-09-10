@@ -24,13 +24,13 @@ categories: ["Human characters", "Northwind mobs", "Turtle WoW content"]
 | location | Jousting Grounds, Northwind |
 | status | Killable |
 
--The Dark Knight** is a [human](human) located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind). At the behest of [Sir Nathaniel Amberwood](Sir Amberwood), brother to [Lord Percival Amberwood](Lord Amberwood), and with the support of the House of Nobles, he was to kill Lord Amberwood during the jousting tournament so that Sir Amberwood could be elevated to the lordship of Northwind. (ref: [quest: In Amber Disgust])
+**The Dark Knight** is a [human](human) located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind). At the behest of [Sir Nathaniel Amberwood](Sir Amberwood), brother to [Lord Percival Amberwood](Lord Amberwood), and with the support of the House of Nobles, he was to kill Lord Amberwood during the jousting tournament so that Sir Amberwood could be elevated to the lordship of Northwind. (ref: [quest: In Amber Disgust])
 
 ## Objective of
 - Drops [Damning Document](Damning Document) for [quest: A Dark Knight Rises].
 
 ## Quotes
-  -Gossip**
+**Gossip**
 <You are met with an icecold glare, and feel definitely not welcome here.>
 
 ## Patch changes

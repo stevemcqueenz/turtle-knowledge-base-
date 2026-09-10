@@ -14,7 +14,7 @@ Returns basic information about the quest items.
  GetQuestItemInfo(type, itemNum);
 ----
 
-  - *Arguments***
+** *Arguments***
 
    (String type, Number itemNum)
 
@@ -25,7 +25,7 @@ Returns basic information about the quest items.
 
 ----
 
-  - *Returns***
+** *Returns***
 
    String name, String texture, Number numItems, Number quality, Boolean isUsable
 
@@ -42,15 +42,15 @@ Returns basic information about the quest items.
 
 ----
 
-  - *Example***
+** *Example***
 
  local name, texture, numItems, quality, isUsable = GetQuestItemInfo(requiredItem.type, i);
 
-  - *Result***
+** *Result***
 
  "Boar Meat", ..., 5, 100, true
 ----
 
-  - *Description***
+** *Description***
 
    Returns basic information about the quest items. You can query on items required to complete quests or rewards given by quests.

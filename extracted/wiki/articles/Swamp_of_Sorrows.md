@@ -94,19 +94,19 @@ WorldMap-SwampOfSorrows-old.jpg|The Swamp of Sorrows prior to [patch 1.16.0](pat
   - [Shade Wood Tree](Shade Wood Tree)
 
 ## Wild creatures
--[Bog beast](Bog beast)s
--[Crab](Crab)s
--[Crocolisk](Crocolisk)s
--[Dragonspawn](Dragonspawn) (green)
--[Dragon whelp](Dragon whelp)s (green)
--[Drake](Drake)s (green)
--[Frenzies](Frenzies)
--[Lost One](Lost One)s
--[Murloc](Murloc)s
--[Ooze](Ooze)s
--[Shark](Shark)s
--[Spider](Spider)s
--[Swamp Jaguar](Swamp Jaguar)s
+- [Bog beast](Bog beast)s
+- [Crab](Crab)s
+- [Crocolisk](Crocolisk)s
+- [Dragonspawn](Dragonspawn) (green)
+- [Dragon whelp](Dragon whelp)s (green)
+- [Drake](Drake)s (green)
+- [Frenzies](Frenzies)
+- [Lost One](Lost One)s
+- [Murloc](Murloc)s
+- [Ooze](Ooze)s
+- [Shark](Shark)s
+- [Spider](Spider)s
+- [Swamp Jaguar](Swamp Jaguar)s
 
 ## Patch changes
 - (Patch 1.16.0|note=[Sorrowguard Keep](Sorrowguard Keep) added.)

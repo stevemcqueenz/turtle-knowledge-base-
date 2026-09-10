@@ -25,13 +25,13 @@ categories: ["Draenei characters", "Moonwhisper Coast NPCs", "Quest givers", "Tu
 | location | Moro'gai Village, Moonwhisper Coast |
 | status | Alive |
 
--Fena Ma'dar** is a [draenei](draenei) quest giver located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Fena Ma'dar** is a [draenei](draenei) quest giver located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: Respect the Elderly] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Infantile whelps like you just don't know how to act around a woman of my age! Always running around without a thought inside your empty heads, you'll get yourselves killed if you keep this nonsense up! I have enough bones of reckless youths inside the basket on my back, I don't need yours too!
 
 ## Patch changes

@@ -24,7 +24,7 @@ categories: ["Human characters", "Northwind NPCs", "Stormwind (kingdom)", "Turtl
 | location | Jousting Grounds, Northwind |
 | status | Alive |
 
--Bruford of Stormwind** is a human located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind), representing the [kingdom of Stormwind](Stormwind (kingdom)).
+**Bruford of Stormwind** is a human located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind), representing the [kingdom of Stormwind](Stormwind (kingdom)).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

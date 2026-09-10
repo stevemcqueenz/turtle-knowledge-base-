@@ -26,10 +26,10 @@ categories: ["Blacksmithing trainers", "Blacksmiths", "Human characters", "North
 | status | Alive |
 | relatives | Henry (son) |
 
--Smith Martin** is a [human](human) blacksmithing trainer located in [Ambershire](Ambershire) in [Northwind](Northwind).
+**Smith Martin** is a [human](human) blacksmithing trainer located in [Ambershire](Ambershire) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 My good-for-nothing son is daydreaming of becoming a knight and courting his woman all day long. If only he used that energy to inherit my craft...
 
 ## Patch changes

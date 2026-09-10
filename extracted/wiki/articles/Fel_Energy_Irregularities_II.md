@@ -38,8 +38,8 @@ Travel to Dalaran at once, and deliver this report to Archmage Ansirem Runeweave
 
 ## Rewards
 You will receive:
--2650 XP
--+100 [reputation](reputation) with [Dalaran](Dalaran (faction))
+- 2650 XP
+- +100 [reputation](reputation) with [Dalaran](Dalaran (faction))
 
 ## Progress
 Yes?

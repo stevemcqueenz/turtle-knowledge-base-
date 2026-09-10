@@ -10,7 +10,7 @@ categories: ["Patches"]
 ---
 # Patch 1.18.1
 
--Patch 1.18.1: Nightmares of Ursol** was released on March 20, 2026.
+**Patch 1.18.1: Nightmares of Ursol** was released on March 20, 2026.
 
 ## Trailer
 ## Patch notes
@@ -26,26 +26,26 @@ categories: ["Patches"]
 
 ### ONYXIA'S LAIR EXTENSION & UPDATES
 The broodmother of the Black Dragonflight has fought back many incursions into her lair, each inching closer to her demise. For this reason the security in her lair has been elevated, now featuring new guardians, the commander of her brood as a brand new boss and new tricks for Onyxia herself, the nest is now more perilous than ever. Lucky for you, peril attracts treasure, adding plenty of new equipment as rewards.
--Added two new creatures to Onyxia's Lair: [Onyxian Flamespawn](Onyxian Flamespawn) and [Onyxian Inciter](Onyxian Inciter).
--Added a new section and with it a new optional boss: [Broodcommander Axelus](Broodcommander Axelus).
--Added new mechanics to Onyxia.
+- Added two new creatures to Onyxia's Lair: [Onyxian Flamespawn](Onyxian Flamespawn) and [Onyxian Inciter](Onyxian Inciter).
+- Added a new section and with it a new optional boss: [Broodcommander Axelus](Broodcommander Axelus).
+- Added new mechanics to Onyxia.
 
 ### BLACKWING LAIR EXTENSION & UPDATES
 Lord Victor Nefarius recently realized that his pitiful minions have been insufficient in preventing interlopers from walking up to his doorstep. Therefore he has taken steps in improving his entourage, with no small amount of help from his newly contracted alchemist.
 
--Ezzel Darkbrewer might be a goblin of small stature but he is but he is by no means a pushover. With an arsenal of chemical concoctions and a brilliant mind sharpened by many years in the field, he's ready to thwart any intruders stepping into his employer's laboratory. Oh, and don't forget the lumbering ogre he's atop of.
--Added a new mechanic or updated a mechanic for all bosses (with the exception of Chromaggus).
--Added a new section and with it a new optional boss: [Ezzel Darkbrewer](Ezzel Darkbrewer).
+- Ezzel Darkbrewer might be a goblin of small stature but he is but he is by no means a pushover. With an arsenal of chemical concoctions and a brilliant mind sharpened by many years in the field, he's ready to thwart any intruders stepping into his employer's laboratory. Oh, and don't forget the lumbering ogre he's atop of.
+- Added a new mechanic or updated a mechanic for all bosses (with the exception of Chromaggus).
+- Added a new section and with it a new optional boss: [Ezzel Darkbrewer](Ezzel Darkbrewer).
 
 ### CLASSIC ZONE EDITS
--[Sagh's Refuge](Sagh's Refuge). A new quest hub in Thousand Needles for Horde players located in Windhorn Canyon.
--[Ironstone Camp](Ironstone Camp). Updated Ironstone Camp in Thousand Needles with more details.
--[Earthern Ring](Earthen Ring (Stonetalon Mountains)). Earthen Ring has been restored as a sanctuary for shamans to train and work towards restoring balance to Azeroth.
--Azshara has been updated to show the Timbermaw Hold Gate and the furbolgs that live along the cliffs above it. The Timbermaw Hold Gate allows transport to the new raid, as well as between Moonwhisper Coast and Azshara.
+- [Sagh's Refuge](Sagh's Refuge). A new quest hub in Thousand Needles for Horde players located in Windhorn Canyon.
+- [Ironstone Camp](Ironstone Camp). Updated Ironstone Camp in Thousand Needles with more details.
+- [Earthern Ring](Earthen Ring (Stonetalon Mountains)). Earthen Ring has been restored as a sanctuary for shamans to train and work towards restoring balance to Azeroth.
+- Azshara has been updated to show the Timbermaw Hold Gate and the furbolgs that live along the cliffs above it. The Timbermaw Hold Gate allows transport to the new raid, as well as between Moonwhisper Coast and Azshara.
 
 ### NEW FACTIONS
--[Draenei Exiles](Draenei Exiles) [Neutral]. The Draenei Tribes from Outland that have survived the rigors of warp travel and now find themselves upon new lands. The Sanv and the Moro'gai tribes now reside on Azeroth, brought to the planet by adept riftwalkers. The Draenei Exiles now seek to make a new chapter of prosperity for their people.
--[Earthen Ring](Earthen Ring (faction)) [Horde]. A group of shamans, united in their quest for elemental balance, has made [their home](Earthen Ring (Stonetalon Mountains)) in the serene Stonetalon Mountains.
+- [Draenei Exiles](Draenei Exiles) [Neutral]. The Draenei Tribes from Outland that have survived the rigors of warp travel and now find themselves upon new lands. The Sanv and the Moro'gai tribes now reside on Azeroth, brought to the planet by adept riftwalkers. The Draenei Exiles now seek to make a new chapter of prosperity for their people.
+- [Earthen Ring](Earthen Ring (faction)) [Horde]. A group of shamans, united in their quest for elemental balance, has made [their home](Earthen Ring (Stonetalon Mountains)) in the serene Stonetalon Mountains.
 
 ### NEW RACE & CLASS COMBINATION — TAUREN PRIEST
 Guided by the gaze of the celestial siblings, the children of the Earthmother have faced many hardships while still staying true to their deities. Their efforts to rekindle the ancestral bond between the celestial and the mortal have granted them the boon of the Three Siblings. Yet while [Mu'sha](Mu'sha) and [An'she](An'she) seek to bless those of good will, the younger sibling [Lo'sho](Lo'sho) is known to answer any who seek his blessing, regardless of intent. And so the fate of the Horde twists under the gaze of the Earthmother, as Tauren across the lands seek to represent and spread their cultural worship, either through acts of hope and order or dismay and chaos.

@@ -29,29 +29,15 @@ categories: ["Balor subzones", "Bleeding Hollow clan", "Horde quest hubs", "Hord
 | flightpath | Yes |
 | status | Active |
 
--Stormbreaker Point** is a [Horde](Horde) outpost located on one of the eastern islands of the region of [Balor](Balor).
+**Stormbreaker Point** is a [Horde](Horde) outpost located on one of the eastern islands of the region of [Balor](Balor).
 
 ## Travel connections
 ### Flight
-  - [Grom'gol Base Camp](Grom'gol Base Camp), [Stranglethorn Vale](Stranglethorn Vale)**
+** [Grom'gol Base Camp](Grom'gol Base Camp), [Stranglethorn Vale](Stranglethorn Vale)**
 
 ## NPCs
 ### Quest givers
-- 
-- 
-- 
-- 
-- 
-- 
-
-### Goods and services
-- 
-- 
-- 
-- 
-
-### Additional characters
-- 
-
-## Patch changes
+- - - - - - ### Goods and services
+- - - - ### Additional characters
+- ## Patch changes
 - (Patch 1.18.0|note=Added.)

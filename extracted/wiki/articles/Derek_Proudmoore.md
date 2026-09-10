@@ -20,6 +20,6 @@ categories: ["Deceased characters", "Human characters", "Kul Tiras (kingdom)", "
 | status | Deceased |
 | relatives | Daelin (father),, Jaina (sister) |
 
--Derek Proudmoore** was the eldest son of Grand Admiral [Daelin Proudmoore](Daelin Proudmoore) (ref: *[Day of the Dragon](Day of the Dragon)*) and the brother of [Jaina](Jaina Proudmoore). A member of the ill-fated [Third Fleet](Third Fleet) of [Kul Tiras](Kul Tiras), he died on the seas during the [Second War](Second War) when his fleet was destroyed by the fire of the red dragons under the [Horde](Old Horde)'s control.
+**Derek Proudmoore** was the eldest son of Grand Admiral [Daelin Proudmoore](Daelin Proudmoore) (ref: *[Day of the Dragon](Day of the Dragon)*) and the brother of [Jaina](Jaina Proudmoore). A member of the ill-fated [Third Fleet](Third Fleet) of [Kul Tiras](Kul Tiras), he died on the seas during the [Second War](Second War) when his fleet was destroyed by the fire of the red dragons under the [Horde](Old Horde)'s control.
 
 ## References

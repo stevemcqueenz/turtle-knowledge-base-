@@ -11,7 +11,7 @@ categories: ["Factions", "Night Elves", "Pages with broken file links"]
 # Shen'dralar
 
 ----
--A remnant of the once powerful [elves](elf) living in [Dire Maul](Dire Maul), yet still wise and knowledgeable about great secrets.*
+*A remnant of the once powerful [elves](elf) living in [Dire Maul](Dire Maul), yet still wise and knowledgeable about great secrets.*
 ----
 
 The **Shen'dralar** are the [Faction](Faction) of the [Night Elves](Night Elf) (and one [Blood elf](Blood elf)) remaining in [Dire Maul](Dire Maul). They are a group of high practitioners of arcane magic in order of their former [Queen Azshara](Queen Azshara). They have been living in Eldre'Thalas (previous name of Dire Maul) since the [Great Sundering](Great Sundering). They are few, but their knowledge and mystic power are great, referring to things players think are powerful such as Arcanums and Librams as mere cantrips. 
@@ -20,21 +20,21 @@ Their leader, [Prince Tortheldrin](Prince Tortheldrin), was in charge and oversa
 
 - Additional [Reputation](Reputation) can be gained by turning in Books and [Librams](libram). 
 
-  -Librams**
--[Libram of Focus](Libram of Focus)
--[Libram of Protection](Libram of Protection)
--[Libram of Rapidity](Libram of Rapidity)
-  -Class Books**
--Harnessing Shadows - [Warlock](Warlock)
--Frost Shock And You - [Shaman](Shaman)
--Holy Bologna: What the Light Won't Tell You - [Priest](Priest)
--The Light and How to Swing It - [Paladin](Paladin)
--Garona: A Study on Stealth and Treachery - [Rogue](Rogue)
--The Arcanist's Cookbook - [Mage](Mage)
--The Greatest Race of Hunters - [Hunter](Hunter)
--The Emerald Dream - [Druid](Druid)
--Codex of Defense - [Warrior](Warrior)
--Foror's Compendium of Dragon Slaying - [Warrior](Warrior) & [Paladin](Paladin)
+**Librams**
+- [Libram of Focus](Libram of Focus)
+- [Libram of Protection](Libram of Protection)
+- [Libram of Rapidity](Libram of Rapidity)
+**Class Books**
+- Harnessing Shadows - [Warlock](Warlock)
+- Frost Shock And You - [Shaman](Shaman)
+- Holy Bologna: What the Light Won't Tell You - [Priest](Priest)
+- The Light and How to Swing It - [Paladin](Paladin)
+- Garona: A Study on Stealth and Treachery - [Rogue](Rogue)
+- The Arcanist's Cookbook - [Mage](Mage)
+- The Greatest Race of Hunters - [Hunter](Hunter)
+- The Emerald Dream - [Druid](Druid)
+- Codex of Defense - [Warrior](Warrior)
+- Foror's Compendium of Dragon Slaying - [Warrior](Warrior) & [Paladin](Paladin)
 
 Both class Books and Librams give 200 [Reputation](Reputation) points. In patch 1.10 blizzard removed the ability to repeat the Class Book turn-ins.
 

@@ -25,10 +25,10 @@ categories: ["Human characters", "Northwind NPCs", "Stormwind (kingdom)", "Turtl
 | status | Alive |
 | relatives | Old Man Crawford and Margaret (parents),, Jeremiah and Gregory (brothers) |
 
--Christine Crawford** is a [human](human) located at the [Plump Pumpkin](Plump Pumpkin) in [Northwind](Northwind).
+**Christine Crawford** is a [human](human) located at the [Plump Pumpkin](Plump Pumpkin) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 We are all devastated by what happened. Mother and Father moreso than us, surely. Having their legacy be ransacked just like that after building it up over centuries? I can barely imagine the pain.
 
 ## Patch changes

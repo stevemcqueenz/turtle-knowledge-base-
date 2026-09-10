@@ -10,7 +10,7 @@ categories: ["Feralas subzones", "Mountains", "Night elf territories", "Stubs"]
 ---
 # Twin Colossals
 
--The Twin Colossals** are a pair of high vertical mountains, rising up on the west side of [Feralas](Feralas). The road from [Feralas](Feralas) to [Desolace](Desolace) runs between these two mountains. (Some individuals conjecture that these are the stumps of what were once trees that have since eroded and become indiscernible from the surrounding rock and dirt)
+**The Twin Colossals** are a pair of high vertical mountains, rising up on the west side of [Feralas](Feralas). The road from [Feralas](Feralas) to [Desolace](Desolace) runs between these two mountains. (Some individuals conjecture that these are the stumps of what were once trees that have since eroded and become indiscernible from the surrounding rock and dirt)
 
 They are one of the most striking landmarks of the area and inspire awe in whoever beholds them. 
 

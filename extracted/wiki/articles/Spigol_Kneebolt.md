@@ -24,13 +24,13 @@ categories: ["Gnome characters", "Quest givers", "Stonetalon Mountains NPCs", "T
 | location | Bael Hardul, Stonetalon Mountains |
 | status | Alive |
 
--Spigol Kneebolt** is a [gnome](gnome) quest giver located in [Hardul Distillery](Hardul Distillery) in [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains).
+**Spigol Kneebolt** is a [gnome](gnome) quest giver located in [Hardul Distillery](Hardul Distillery) in [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains).
 
 ## Quests
 - [quest: A Flickering Flame] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I've never been this far west! I'm eager to try some of my long-delayed experiments now that I am free from scrutiny.
 
 ## Patch changes

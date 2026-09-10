@@ -12,7 +12,7 @@ categories: ["History of Warcraft", "Lore"]
 
 <B style="font-weight:normal;background-color:#2b2b2b;">[  [Source Text](WoWWiki:Article_type)  ]</B>
 
--Mount Hyjal and Illidan's Gift* is a section of the [History of Warcraft](History of Warcraft), Chapter I.  
+*Mount Hyjal and Illidan's Gift* is a section of the [History of Warcraft](History of Warcraft), Chapter I.  
 
 ## Text
 The few [night elves](night elf) that survived the horrific explosion rallied together on crudely made rafts and slowly made their way to the only landmass in sight. Somehow, by the grace of Elune, Malfurion, Tyrande, and Cenarius had survived the [Great Sundering](Great Sundering). The weary heroes agreed to lead their fellow survivors and establish a new home for their people. As they journeyed in silence, they surveyed the wreckage of their world and realized that their passions had wrought the destruction all around them. Though [Sargeras](Sargeras) and his Legion had been ripped from the world by the Well's destruction, Malfurion and his companions were left to ponder the terrible cost of victory. 

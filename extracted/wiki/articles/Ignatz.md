@@ -25,11 +25,11 @@ categories: ["Human characters", "Northwind NPCs", "Stormwind (kingdom)", "Turtl
 | location | Ambershire, Northwind |
 | status | Alive |
 
--Ignatz** is a [human](human) located in [Tiffin Park](Tiffin Park) in [Ambershire](Ambershire), in [Northwind](Northwind).
+**Ignatz** is a [human](human) located in [Tiffin Park](Tiffin Park) in [Ambershire](Ambershire), in [Northwind](Northwind).
 
 ## Quotes
   *Main article: [Empty Houses#Notes](Empty Houses#Notes)*
-  -Gossip**
+**Gossip**
 These leaves just never stop falling.
 
 ## Patch changes

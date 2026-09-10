@@ -10,7 +10,7 @@ categories: ["Human territories", "Lumber mills", "Redridge Mountains subzones",
 ---
 # Alther's Mill
 
--Alther's Mill** is an abandoned lumber mill located northeast of [Lakeshire](Lakeshire) in the [Redridge Mountains](Redridge Mountains) [region](region) of [Stormwind](Stormwind (kingdom)). This is a relatively backwater area that is overrun by [spider](spider)s, [buzzard](buzzard)s and the occasional stray [orc](orc). Most folks pass through on the way to [Stonewatch Keep](Stonewatch Keep).
+**Alther's Mill** is an abandoned lumber mill located northeast of [Lakeshire](Lakeshire) in the [Redridge Mountains](Redridge Mountains) [region](region) of [Stormwind](Stormwind (kingdom)). This is a relatively backwater area that is overrun by [spider](spider)s, [buzzard](buzzard)s and the occasional stray [orc](orc). Most folks pass through on the way to [Stonewatch Keep](Stonewatch Keep).
 
 ## Notes
 - [Alliance](Alliance) [rogue](rogue)s are required to visit the mill to get their thieving certificate, and there are footlockers around the area to practice [lockpicking](lockpicking) on.

@@ -24,10 +24,10 @@ categories: ["Draenei characters", "Moonwhisper Coast NPCs", "Turtle WoW content
 | status | Alive |
 | relatives | Ki'nia (mother) |
 
--Chi'jec** is a [draenei](draenei) located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Chi'jec** is a [draenei](draenei) located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Mother says we should hide in the inn for now, but I would rather play outside with Ar'lia.
 
 ## Patch changes

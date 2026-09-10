@@ -12,8 +12,8 @@ categories: ["Beasts", "Pages with broken file links", "Primitive Creatures"]
 
 A winged, 2-headed dragon-like creature.
 
--Sometimes spelled *Chimera*.
--Pronounced "kai-mare-ah".
+- Sometimes spelled *Chimera*.
+- Pronounced "kai-mare-ah".
 
 The mysterious **Chimaera** are deadly, territorial beasts who have developed an empathic bond with the Night Elf race. The fearsome, two-headed Chimaera fly above the dark forestlands spewing forth their terrible breath weapons upon all who would defy the sanctity of Kalimdor. Just the sight of these dark, massive beasts is enough to drive most enemies to retreat.
 

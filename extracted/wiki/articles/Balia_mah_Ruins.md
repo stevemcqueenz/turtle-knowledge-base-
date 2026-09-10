@@ -10,4 +10,4 @@ categories: ["Jungle troll territories", "Stranglethorn Vale subzones", "Troll r
 ---
 # Balia'mah Ruins
 
--Balia'mah Ruins** are ancient [troll](Jungle troll) ruins found in [Stranglethorn Vale](Stranglethorn Vale). They are currently inhabited by the [Skullsplitter](Skullsplitter tribe) trolls. They are located east-southeast of [Grom'gol Base Camp](Grom'gol Base Camp) on the east side of the river and south-west of [Mosh'Ogg Ogre Mound](Mosh'Ogg Ogre Mound).
+**Balia'mah Ruins** are ancient [troll](Jungle troll) ruins found in [Stranglethorn Vale](Stranglethorn Vale). They are currently inhabited by the [Skullsplitter](Skullsplitter tribe) trolls. They are located east-southeast of [Grom'gol Base Camp](Grom'gol Base Camp) on the east side of the river and south-west of [Mosh'Ogg Ogre Mound](Mosh'Ogg Ogre Mound).

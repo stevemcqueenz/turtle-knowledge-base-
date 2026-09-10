@@ -23,10 +23,10 @@ categories: ["Barrens NPCs", "Human characters", "Kul Tiras (kingdom)", "Turtle 
 | gender | Both |
 | location | Anchor's Edge, the Barrens |
 
--Expedition Clerics** are humans found in [Anchor's Edge](Anchor's Edge) in [the Barrens](the Barrens).
+**Expedition Clerics** are humans found in [Anchor's Edge](Anchor's Edge) in [the Barrens](the Barrens).
 
 ## Abilities
--Lesser Heal
+- Lesser Heal
 
 ## Objective of
 - [quest: Anchor's End]

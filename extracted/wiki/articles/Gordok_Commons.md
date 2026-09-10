@@ -68,4 +68,4 @@ File:WorldMap-DireMaul1.jpg
 |}
 
 ## Patch changes
--  **Patch 1.3.0 (2005-03-07):** Added.
+- **Patch 1.3.0 (2005-03-07):** Added.

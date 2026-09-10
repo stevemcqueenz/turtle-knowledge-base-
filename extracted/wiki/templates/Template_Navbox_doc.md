@@ -215,13 +215,13 @@ This template supports the addition of microformat information. This is done by 
 | bodyclass = vcard
 </pre>
 
--and*
+*and*
 
 <pre>
 | titleclass = fn
 </pre>
 
--or* (for example):
+*or* (for example):
 
 <pre><nowiki>
 | title = The books of [Iain Banks](Iain Banks)
@@ -345,11 +345,11 @@ Using this template on other wikis requires [HTML Tidy](HTML Tidy) to be turned 
 # Excessive use of the **unsubstituted**  template as a delimiter, can in extreme cases cause the wiki page rendering to fail&nbsp;— there is a limit to the number of templates that can be used on a page (example [Ketamine](Ketamine) where the inclusion of eleven Navboxes with hundreds of bullets caused the page load not to complete, only the substitution of the bullets in those navboxes cured the problem). Use of the <code>hlist</code> class avoids the delimiter transclusion issue altogether, as the delimiters are rendered via CSS.
 
 ## See also
--  – Used for the navigation links in navbox.
--  – To display text at normal font-weight within a context where the default font-weight is bold, e.g. header cells in tables.
--  – Vertically-aligned navigation (navbox) templates.
+- – Used for the navigation links in navbox.
+- – To display text at normal font-weight within a context where the default font-weight is bold, e.g. header cells in tables.
+- – Vertically-aligned navigation (navbox) templates.
 - [Template:Navbox/testcases](Template:Navbox/testcases) – For additional examples of template code.
--  – The how-to guide about how to handle word wraps (line breaks) on Wikipedia, such as the wrapping of the link lists used in navboxes.
+- – The how-to guide about how to handle word wraps (line breaks) on Wikipedia, such as the wrapping of the link lists used in navboxes.
 - ,  and  are **deprecated** in favor of the <code>hlist</code> class for formatting lists. See [Flatlist](Template:Flatlist#Technical details) for a technical explanation of how <code>hlist</code> works.
 
 <includeonly>

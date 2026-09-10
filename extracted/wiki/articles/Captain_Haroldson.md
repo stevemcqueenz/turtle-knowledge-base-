@@ -23,7 +23,7 @@ categories: ["Human characters", "Scarlet Crusade", "Scarlet Enclave NPCs", "Tur
 | creature | Humanoid |
 | location | King's Harbor, Scarlet Enclave |
 
--Captain Haroldson** is a human located in [King's Harbor](King's Harbor) in the [Scarlet Enclave](Scarlet Enclave). He is the captain of the *Embertide*, a ship of the [Scarlet Fleet](Scarlet Fleet).
+**Captain Haroldson** is a human located in [King's Harbor](King's Harbor) in the [Scarlet Enclave](Scarlet Enclave). He is the captain of the *Embertide*, a ship of the [Scarlet Fleet](Scarlet Fleet).
 
 ## Quotes
 Well, you've been a much more friendly face to us, not even our own comrades in arms were willing to simply come up and talk.

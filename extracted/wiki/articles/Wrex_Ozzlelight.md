@@ -25,10 +25,10 @@ categories: ["Goblin characters", "Innkeepers", "Tel'Abim NPCs", "Tel Company", 
 | location | Tel Co. Basecamp, Tel'Abim |
 | status | Alive |
 
--Wrex Ozzlelight** is a [goblin](goblin) [innkeeper](innkeeper) located in [Tel Co. Basecamp](Tel Co. Basecamp) in [Tel'Abim](Tel'Abim).
+**Wrex Ozzlelight** is a [goblin](goblin) [innkeeper](innkeeper) located in [Tel Co. Basecamp](Tel Co. Basecamp) in [Tel'Abim](Tel'Abim).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Welcome to the Inn here at the Tel Co. Basecamp, we are monkey free and very affordable, please do make yourself comfortable.
 
 Also, I just want to dispell floating rumors that have been going around. There were no monkey attacks at this establishment, NONE AT ALL. A roving band of monkeys did NOT break in at the late hours of the night and cause a ruckus and attack innocent patrons.

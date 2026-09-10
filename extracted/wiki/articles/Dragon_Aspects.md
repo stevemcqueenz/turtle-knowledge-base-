@@ -14,14 +14,14 @@ The **Dragon Aspects**, also known as the **Great Aspects**, (ref: [Charge of th
 
 ## The Dragon Aspects
 - [Nozdormu](Nozdormu) the Timeless One
--: The massive bronze dragon chosen by [Aman'Thul](Aman'Thul) to guard time itself and police the ever-spinning pathways of fate and destiny.
+- : The massive bronze dragon chosen by [Aman'Thul](Aman'Thul) to guard time itself and police the ever-spinning pathways of fate and destiny.
 - [Alexstrasza](Alexstrasza) the Life-Binder
--: The red leviathan chosen by [Eonar](Eonar) to safeguard all living creatures within the world.
+- : The red leviathan chosen by [Eonar](Eonar) to safeguard all living creatures within the world.
 - [Ysera](Ysera) the Dreamer
--: The lithe green dragon and Alexstrasza's younger sister chosen by [Eonar](Eonar) to watch over the growing wilds of the world from her verdant realm, the [Emerald Dream](Emerald Dream).
+- : The lithe green dragon and Alexstrasza's younger sister chosen by [Eonar](Eonar) to watch over the growing wilds of the world from her verdant realm, the [Emerald Dream](Emerald Dream).
 - [Malygos](Malygos) the Spell-Weaver
--: The blue dragon chosen by [Norgannon](Norgannon) as the guardian of magic and hidden arcanum.
+- : The blue dragon chosen by [Norgannon](Norgannon) as the guardian of magic and hidden arcanum.
 - [Neltharion](Neltharion) the Earth-Warder
--: The mighty black wyrm chosen by [Khaz'goroth](Khaz'goroth) and given dominion over the earth and the deep places of the world. Turned evil by the [Old Gods](Old Gods) and ultimately drove the blue dragonflight to near extinction. Now known as [Deathwing](Deathwing).
+- : The mighty black wyrm chosen by [Khaz'goroth](Khaz'goroth) and given dominion over the earth and the deep places of the world. Turned evil by the [Old Gods](Old Gods) and ultimately drove the blue dragonflight to near extinction. Now known as [Deathwing](Deathwing).
 
 ## References

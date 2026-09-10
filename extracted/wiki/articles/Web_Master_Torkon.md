@@ -26,7 +26,7 @@ categories: ["Bosses", "Dragonmaw Retreat mobs", "Dragonmaw clan", "Orc characte
 | status | Killable |
 | instance | Dragonmaw Retreat |
 
--Web Master Torkon** is an [orc](orc) and is the third boss of [Dragonmaw Retreat](Dragonmaw Retreat).
+**Web Master Torkon** is an [orc](orc) and is the third boss of [Dragonmaw Retreat](Dragonmaw Retreat).
 
 ## Abilities
 - Poison Cloud
@@ -34,13 +34,13 @@ categories: ["Bosses", "Dragonmaw Retreat mobs", "Dragonmaw clan", "Orc characte
 - Web Spray
 
 ## Quotes
-  -Aggro**
+**Aggro**
   You won't interrupt my plans...
 
-  -At 50%**
+**At 50%**
   The brood will live on, my work will not end here!
 
-  -Death**
+**Death**
   Pointless...
 
 ## Loot

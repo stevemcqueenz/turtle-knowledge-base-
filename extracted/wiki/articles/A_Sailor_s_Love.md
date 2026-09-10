@@ -40,7 +40,7 @@ Travel to the florist Bernard Gump, he runs a shop called 'Fragrant Flowers' in 
 ## Rewards
 You will receive:
 - 310 XP
--+100 [reputation](reputation) with [Kul Tiras](Kul Tiras (faction))
+- +100 [reputation](reputation) with [Kul Tiras](Kul Tiras (faction))
 
 ## Progress
 Yes?

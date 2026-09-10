@@ -10,6 +10,6 @@ categories: ["Ashenvale subzones", "Keeps", "Orc territories", "Pages with broke
 ---
 # Kargathia Keep
 
--Kargathia Keep** (or Kargathia Outpost) (ref: *[World of Warcraft: Game Manual](World of Warcraft: Game Manual)*) is located in eastern [Ashenvale](Ashenvale), in the eastern part of the [Warsong Lumber Camp](Warsong Lumber Camp) just west of the [Southfury River](Southfury River). It is the base of operations for the officers of the [Warsong Clan](Warsong Clan), and has a strategic position that lets it receive reinforcements from [Orgrimmar](Orgrimmar) should a battle with the [Alliance](Alliance) break out. The keep, much like [Kargath](Kargath) in the [Badlands](Badlands), and [Bladefist Bay](Bladefist Bay) in [Durotar](Durotar), is named for the legendary orcish hero [Kargath Bladefist](Kargath Bladefist). 
+**Kargathia Keep** (or Kargathia Outpost) (ref: *[World of Warcraft: Game Manual](World of Warcraft: Game Manual)*) is located in eastern [Ashenvale](Ashenvale), in the eastern part of the [Warsong Lumber Camp](Warsong Lumber Camp) just west of the [Southfury River](Southfury River). It is the base of operations for the officers of the [Warsong Clan](Warsong Clan), and has a strategic position that lets it receive reinforcements from [Orgrimmar](Orgrimmar) should a battle with the [Alliance](Alliance) break out. The keep, much like [Kargath](Kargath) in the [Badlands](Badlands), and [Bladefist Bay](Bladefist Bay) in [Durotar](Durotar), is named for the legendary orcish hero [Kargath Bladefist](Kargath Bladefist). 
 
 ## References

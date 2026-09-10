@@ -28,7 +28,7 @@ categories: ["Argent Dawn", "Brotherhood of the Light", "Eastern Plaguelands NPC
 | location | Light's Hope Chapel, Eastern Plaguelands |
 | status | Alive |
 
--Korfax, Champion of the Light** is a [human](human) [quest giver](quest giver) located at [Light's Hope Chapel](Light's Hope Chapel) in the [Eastern Plaguelands](Eastern Plaguelands). A member of the [Brotherhood of the Light](Brotherhood of the Light), a subsection of the [Argent Dawn](Argent Dawn)'s ranks, he offers quests to adventurers to collect [Dark Iron Scraps](Dark Iron Scraps) to then exchange them with him for an [Insignia of the Dawn](Insignia of the Dawn). (ref: [quest: Dark Iron Scraps])
+**Korfax, Champion of the Light** is a [human](human) [quest giver](quest giver) located at [Light's Hope Chapel](Light's Hope Chapel) in the [Eastern Plaguelands](Eastern Plaguelands). A member of the [Brotherhood of the Light](Brotherhood of the Light), a subsection of the [Argent Dawn](Argent Dawn)'s ranks, he offers quests to adventurers to collect [Dark Iron Scraps](Dark Iron Scraps) to then exchange them with him for an [Insignia of the Dawn](Insignia of the Dawn). (ref: [quest: Dark Iron Scraps])
 
 He also tells the story of [Ramaladni](Ramaladni), a warrior of the Brotherhood and a pupil of Highlord [Alexandros Mograine](Alexandros Mograine), who went to [Naxxramas](Naxxramas) in search of revenge and never returned, asking the adventurers to find out his fate. (ref: [quest: The Fate of Ramaladni]) When they returned only with his ring, Korfax announced that this did not bode well for Ramaladni, but that his ring might be salvageable, leading to the creation of [Ramaladni's Icy Grasp](Ramaladni's Icy Grasp). (ref: [quest: Ramaladni's Icy Grasp])
 
@@ -51,7 +51,7 @@ During the [Third War](Third War), Korfax fought alongside [Alexandros Mograine]
 - [quest: Dreadnaught Waistguard|class=warrior] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 What is the Brotherhood of the Light? Well... We are all members of the Argent Dawn at the core - members of the Argent Dawn that aren't held in check by morals, guilt and useless human emotion. Consider us Scarlet Crusade minus the stupidity, lack of leadership, and blind zealotry.
 
 Don't let the Scarlet Commander tell you otherwise.
@@ -79,6 +79,6 @@ And don't let Tyrosus know I said that... It would be a terrible shame if I had 
   If you're the bloodthirsty adventuring type, the dungeons of Blackrock Spire and Blackrock Depths hold quite a large supply of the scraps.
 
 ## Patch changes
--  **[Patch 1.11.0](Patch 1.11.0) (2006-06-19):** Added.
+- **[Patch 1.11.0](Patch 1.11.0) (2006-06-19):** Added.
 
 ## References

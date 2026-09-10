@@ -13,12 +13,12 @@ categories: ["Lapidis Isle subzones", "Murloc territories", "Shores", "Turtle Wo
 The **Wallowing Coast** is a stretch of coastline in the southeast of [Lapidis Isle](Lapidis Isle). The Wallowing Coast is home to the many [Wallowfin](Wallowfin tribe) murlocs who have built small camps along the shore.
 
 ## NPCs
--  [Wallowtalker](Wallowtalker)
--  [Wallowfin Murloc](Wallowfin Murloc)
--  [Wallowfin Netter](Wallowfin Netter)
--  [Wallowfin Devourer](Wallowfin Devourer)
--  [Wallowfin Tidecaller](Wallowfin Tidecaller)
--  [Wallowfin Shorerunner](Wallowfin Shorerunner)
+- [Wallowtalker](Wallowtalker)
+- [Wallowfin Murloc](Wallowfin Murloc)
+- [Wallowfin Netter](Wallowfin Netter)
+- [Wallowfin Devourer](Wallowfin Devourer)
+- [Wallowfin Tidecaller](Wallowfin Tidecaller)
+- [Wallowfin Shorerunner](Wallowfin Shorerunner)
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

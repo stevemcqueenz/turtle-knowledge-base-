@@ -25,7 +25,7 @@ categories: ["Bosses", "Crescent Grove mobs", "Night elf characters", "Turtle Wo
 | status | Killable |
 | instance | Crescent Grove |
 
--Warden Treeshade** is a [night elf](night elf) mini-boss in [the Crescent Grove](Crescent Grove).
+**Warden Treeshade** is a [night elf](night elf) mini-boss in [the Crescent Grove](Crescent Grove).
 
 ## Abilities
 - Wrath

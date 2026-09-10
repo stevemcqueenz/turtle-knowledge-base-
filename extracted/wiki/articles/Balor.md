@@ -23,7 +23,7 @@ categories: ["Balor", "Eastern Kingdoms", "Turtle WoW content"]
 | faffiliation | Kingdom of Azeroth |
 | loc | Western Azeroth |
 
--Balor** is a region located on a series of islands to the west of Stormwind. Forgotten and mythical alike, this island off to the western shores of [Elwynn](Elwynn Forest) and [Westfall](Westfall) is an accursed place among the people of [Stormwind](Stormwind (kingdom)). Burdened by a harrowed past, it was once a blooming trade port for the kingdom, before falling into the hands of the [Old Horde](Old Horde) during the [First War](First War). Held within the tight grip of [Gul'dan](Gul'dan)'s [Shadow Council](Shadow Council) althroughout the [Second War](Second War), its shores now only beckon death as its cliffs and breaking waves call out to the restless souls beneath its surface.
+**Balor** is a region located on a series of islands to the west of Stormwind. Forgotten and mythical alike, this island off to the western shores of [Elwynn](Elwynn Forest) and [Westfall](Westfall) is an accursed place among the people of [Stormwind](Stormwind (kingdom)). Burdened by a harrowed past, it was once a blooming trade port for the kingdom, before falling into the hands of the [Old Horde](Old Horde) during the [First War](First War). Held within the tight grip of [Gul'dan](Gul'dan)'s [Shadow Council](Shadow Council) althroughout the [Second War](Second War), its shores now only beckon death as its cliffs and breaking waves call out to the restless souls beneath its surface.
 
 ## Geography
 ### Maps and subregions

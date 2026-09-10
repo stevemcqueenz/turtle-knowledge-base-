@@ -21,6 +21,6 @@ categories: ["Alterac (kingdom)", "Human characters", "Lore characters", "Readab
 | occupation | Warrior of the Scarlet Crusade |
 | status | Unknown (presumed deceased) |
 
--Valea Twinblades** has a large statue erected in her honor in the the [Hall of Champions](Hall of Champions), located in the [Scarlet Monastery](Scarlet Monastery) in the [Tirisfal Glades](Tirisfal Glades). She was born in [Alterac](Alterac (kingdom)). Her current condition is unknown, but she was last seen deep in the [Eastern Plaguelands](Eastern Plaguelands).
+**Valea Twinblades** has a large statue erected in her honor in the the [Hall of Champions](Hall of Champions), located in the [Scarlet Monastery](Scarlet Monastery) in the [Tirisfal Glades](Tirisfal Glades). She was born in [Alterac](Alterac (kingdom)). Her current condition is unknown, but she was last seen deep in the [Eastern Plaguelands](Eastern Plaguelands).
 
 ## Plaque

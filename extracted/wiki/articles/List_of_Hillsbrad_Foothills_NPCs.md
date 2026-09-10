@@ -13,14 +13,14 @@ categories: ["NPCs", "Pages with broken file links", "Zone:Hillsbrad Foothills"]
 The following [NPC](NPC)s can be found in [Hillsbrad Foothills](Hillsbrad Foothills).
 
 # Questgivers
--  [Apothecary Lydon](Apothecary Lydon) &lt;Royal Apothecary Society&gt;
+- [Apothecary Lydon](Apothecary Lydon) &lt;Royal Apothecary Society&gt;
 - [Bartolo Ginsetti](Bartolo Ginsetti)
 - [Chef Jessen](Chef Jessen)
 - [Christoph Jeffcoat](Christoph Jeffcoat) &lt;Tradesman&gt;
 - [Darren Malvew](Darren Malvew) &lt;Stablehand&gt;
 - [Deathguard Humber](Deathguard Humber)
 - [Deathguard Samsa](Deathguard Samsa)
--  [Deathstalker Lesh](Deathstalker Lesh)
+- [Deathstalker Lesh](Deathstalker Lesh)
 - [Fahrad](Fahrad) &lt;Grand Master Rogue&gt;
 - [High Executor Darthalia](High Executor Darthalia)
 - [Keeper Bel'varil](Keeper Bel'varil)

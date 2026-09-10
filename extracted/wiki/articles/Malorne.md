@@ -24,11 +24,11 @@ categories: ["Ancient Guardians", "Duskwood NPCs", "Stags", "Stubs"]
 | location | Twilight Grove, Duskwood |
 | relatives | Elune (lover),, Cenarius (son),, Remulos, Ordanus, Zaetar (grandsons),, Celebras (great grandson),, Cavindra (great granddaughter) |
 
--Malorne**, or, as he is referred to by the tauren, **Apa'ro**, is a powerful and wise Ancient Guardian who takes the form of an enormous white stag.
+**Malorne**, or, as he is referred to by the tauren, **Apa'ro**, is a powerful and wise Ancient Guardian who takes the form of an enormous white stag.
 
 ## Interaction
 Malorne is not ordinarily visible to players. However, by using the [Dreamsight Gem](Dreamsight Gem) item (provided as part of a quest) in [Twilight Grove](Twilight Grove), he will appear immediately in front of the portal. 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The enormous stag observes its surroundings with attention. You feel humbled by its presence.

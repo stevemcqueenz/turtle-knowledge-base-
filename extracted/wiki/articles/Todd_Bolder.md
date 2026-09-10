@@ -26,7 +26,7 @@ categories: ["Blacksmiths", "Gilneas NPCs", "Human characters", "Quest givers", 
 | status | Alive |
 | relatives | Larry (son) |
 
--Todd Bolder** is a [human](human) [quest giver](quest giver) located in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
+**Todd Bolder** is a [human](human) [quest giver](quest giver) located in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
 
 ## Quests
 - [quest: Crystalvein Ore] 

@@ -10,14 +10,14 @@ categories: []
 ---
 # Template:The Second Wave
 
-1.[quest: The Second Wave]
-1.[quest: The Warchief's Orders]
-1.[quest: The Balance of Power]
-1.[quest: A Favor for Mally]
-1.[quest: Information for Thrall]
-1.[quest: A War Worth Fighting]
-1.Complete both:
-1.*[quest: Anchor's End]
-1.*[quest: Cutting Ranks]
-1.[quest: Lieutenant Alverold]
-1.[quest: A Hero's Reward]
+1. [quest: The Second Wave]
+1. [quest: The Warchief's Orders]
+1. [quest: The Balance of Power]
+1. [quest: A Favor for Mally]
+1. [quest: Information for Thrall]
+1. [quest: A War Worth Fighting]
+1. Complete both:
+1. *[quest: Anchor's End]
+1. *[quest: Cutting Ranks]
+1. [quest: Lieutenant Alverold]
+1. [quest: A Hero's Reward]

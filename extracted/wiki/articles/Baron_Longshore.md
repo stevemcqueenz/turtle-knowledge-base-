@@ -26,7 +26,7 @@ categories: ["Aristocrats", "Barrens mobs", "Gilneas (kingdom)", "Human characte
 | location | Merchant Coast, Barrens |
 | status | Killable |
 
--Baron Longshore** is the captain of the *[Heedless](Heedless)*, a ship in the pirate fleet of the [Southsea Freebooters](Southsea Freebooters), and hails from [Gilneas](Gilneas (kingdom)). (ref:  [16] [WANTED: Baron Longshore](WANTED: Baron Longshore)) He is located on the [Merchant Coast](Merchant Coast) in the [Barrens](Barrens).
+**Baron Longshore** is the captain of the *[Heedless](Heedless)*, a ship in the pirate fleet of the [Southsea Freebooters](Southsea Freebooters), and hails from [Gilneas](Gilneas (kingdom)). (ref:  [16] [WANTED: Baron Longshore](WANTED: Baron Longshore)) He is located on the [Merchant Coast](Merchant Coast) in the [Barrens](Barrens).
 
 [Gazlowe](Gazlowe) has put a prize on Baron Longshore's head on charges of piracy and for leading vessels of the Southsea Freebooters.
 

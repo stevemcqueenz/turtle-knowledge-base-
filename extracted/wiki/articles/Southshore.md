@@ -31,7 +31,7 @@ categories: ["Alliance quest hubs", "Alliance settlements", "Hillsbrad Foothills
 | flightpath | yes |
 | status | Active |
 
--Southshore** (or **South Shore**) (ref: *World of Warcraft: Game Manual*) is an [Alliance](Alliance) port town located in the region of [Hillsbrad Foothills](Hillsbrad Foothills). It is a quiet port town and one of the few pockets of human civilization that existed in Lordaeron, maintaining their allegiance to the [Alliance](Alliance). A few survivors of the Third War and adventurers call this town home.
+**Southshore** (or **South Shore**) (ref: *World of Warcraft: Game Manual*) is an [Alliance](Alliance) port town located in the region of [Hillsbrad Foothills](Hillsbrad Foothills). It is a quiet port town and one of the few pockets of human civilization that existed in Lordaeron, maintaining their allegiance to the [Alliance](Alliance). A few survivors of the Third War and adventurers call this town home.
 
 ## History
 ### Second War
@@ -41,12 +41,12 @@ Despite its new status as a military port, Southshore was eventually attacked an
 
 ## Travel connections
 ### Flight
-  - [Ironforge](Ironforge), [Dun Morogh](Dun Morogh)**
-  - [Menethil Harbor](Menethil Harbor), [Wetlands](Wetlands)**
-  - [Refuge Pointe](Refuge Pointe), [Arathi Highlands](Arathi Highlands)**
-  - [Ravenshire](Ravenshire), [Gilneas](Gilneas)**
-  - [Aerie Peak](Aerie Peak), [The Hinterlands](Hinterlands)**
-  - [Chillwind Camp](Chillwind Camp), [Western Plaguelands](Western Plaguelands)**
+** [Ironforge](Ironforge), [Dun Morogh](Dun Morogh)**
+** [Menethil Harbor](Menethil Harbor), [Wetlands](Wetlands)**
+** [Refuge Pointe](Refuge Pointe), [Arathi Highlands](Arathi Highlands)**
+** [Ravenshire](Ravenshire), [Gilneas](Gilneas)**
+** [Aerie Peak](Aerie Peak), [The Hinterlands](Hinterlands)**
+** [Chillwind Camp](Chillwind Camp), [Western Plaguelands](Western Plaguelands)**
 
 ## Inhabitants
 ## Significance

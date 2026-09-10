@@ -26,13 +26,13 @@ categories: ["Dwarf characters", "Grim Reaches NPCs", "Quest givers", "Turtle Wo
 | status | Alive |
 | relatives | Nazgrim (father), Redbrand family |
 
--Garlin Redbrand** is a [dwarf](dwarf) quest giver located in [East Ridge Outpost](East Ridge Outpost) in the [Grim Reaches](Grim Reaches).
+**Garlin Redbrand** is a [dwarf](dwarf) quest giver located in [East Ridge Outpost](East Ridge Outpost) in the [Grim Reaches](Grim Reaches).
 
 ## Quests
 - [quest: Assault on Geth'kar] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I've come all the way from [Ironforge](Ironforge), my family is interested in some of the local traditions here in Dun Kithas.
 
 ## Patch changes

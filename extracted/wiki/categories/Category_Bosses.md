@@ -10,7 +10,7 @@ categories: ["NPCs"]
 ---
 # Category:Bosses
 
--Boss** is a quite general phrase used for several special types of [mob](mob)s. The following boss types exist:
+**Boss** is a quite general phrase used for several special types of [mob](mob)s. The following boss types exist:
 
 - [Instance](Instance) boss
 - [Outdoor boss](World boss)

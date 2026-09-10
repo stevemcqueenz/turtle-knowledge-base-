@@ -23,11 +23,11 @@ categories: ["Kalimdor", "Thousand Needles", "Turtle WoW content"]
 | minor | Camp E'thok, Splithoof Crag, Whitereach Post, Sagh's Refuge |
 | affiliation | Grimtotem clan, Galak tribe, Tauren tribes, Horde |
 
--Thousand Needles** is a huge dry canyon in Southern Kalimdor, filled with towering mesas.  In the east, the canyon opens up to the [Shimmering Flats](Shimmering Flats), a vast salt pan that is used by [goblin](goblin) and [gnomish](Gnome) engineers for their races. Despite being relatively barren, the area has its own harsh beauty, and the sunrise seen from either [Freewind Post](Freewind Post) or one of the mesas around [Darkcloud Pinnacle](Darkcloud Pinnacle) can be spectacular. The [Shimmering Flats](Shimmering Flats) and [Mirage Raceway](Mirage Raceway) are also worth visiting for their surreal, lonely atmosphere.
+**Thousand Needles** is a huge dry canyon in Southern Kalimdor, filled with towering mesas.  In the east, the canyon opens up to the [Shimmering Flats](Shimmering Flats), a vast salt pan that is used by [goblin](goblin) and [gnomish](Gnome) engineers for their races. Despite being relatively barren, the area has its own harsh beauty, and the sunrise seen from either [Freewind Post](Freewind Post) or one of the mesas around [Darkcloud Pinnacle](Darkcloud Pinnacle) can be spectacular. The [Shimmering Flats](Shimmering Flats) and [Mirage Raceway](Mirage Raceway) are also worth visiting for their surreal, lonely atmosphere.
 
 ## Getting there
-  -Alliance: Alliance characters will first reach Thousand Needles from the north. The traveler can either take a boat or fly to [Theramore Isle](Theramore Isle) in [Dustwallow Marsh](Dustwallow Marsh), run west to the [Barrens](Barrens), then south to the [Great Lift](Great Lift) (avoiding its Horde guards) and into Thousand Needles; or head south from [Ratchet](Ratchet) in the [Barrens](Barrens) (Ratchet can be reached either by boat from [Booty Bay](Booty Bay) or by running south from [Ashenvale](Ashenvale)). The route from Theramore is faster but much more dangerous, as [Dustwallow Marsh](Dustwallow Marsh) is a 35-45 level zone.**
-  -Horde: From [Camp Taurajo](Camp Taurajo) in the [Barrens](Barrens), head south along the road to the [Great Lift](Great Lift) and down into Thousand Needles.**
+**Alliance: Alliance characters will first reach Thousand Needles from the north. The traveler can either take a boat or fly to [Theramore Isle](Theramore Isle) in [Dustwallow Marsh](Dustwallow Marsh), run west to the [Barrens](Barrens), then south to the [Great Lift](Great Lift) (avoiding its Horde guards) and into Thousand Needles; or head south from [Ratchet](Ratchet) in the [Barrens](Barrens) (Ratchet can be reached either by boat from [Booty Bay](Booty Bay) or by running south from [Ashenvale](Ashenvale)). The route from Theramore is faster but much more dangerous, as [Dustwallow Marsh](Dustwallow Marsh) is a 35-45 level zone.**
+**Horde: From [Camp Taurajo](Camp Taurajo) in the [Barrens](Barrens), head south along the road to the [Great Lift](Great Lift) and down into Thousand Needles.**
 
 ## Geography
 The dungeon [Windhorn Canyon](Windhorn Canyon) is located in Thousand Needles; it otherwise contains no raid dungeons, micro dungeons, or battlegrounds.
@@ -38,7 +38,7 @@ The dungeon [Windhorn Canyon](Windhorn Canyon) is located in Thousand Needles; i
 |[Camp E'thok](Camp E'thok) • [Darkcloud Pinnacle](Darkcloud Pinnacle) • [Freewind Post](Freewind Post) • [The Great Lift](Great Lift) • [Highperch](Highperch) • [Ironstone Camp](Ironstone Camp) • [The Screeching Canyon](Screeching Canyon) ([Roguefeather Den](Roguefeather Den)) • [The Shimmering Flats](Shimmering Flats) ([Mirage Raceway](Mirage Raceway) • [Rustmaul Dig Site](Rustmaul Dig Site) • [Tahonda Ruins](Tahonda Ruins) • [Weazel's Crater](Weazel's Crater)) • [Splithoof Crag](Splithoof Crag) ([Splithoof Hold](Splithoof Hold)) • [The Weathered Nook](Weathered Nook) • [Whitereach Post](Whitereach Post) • [Windbreak Canyon](Windbreak Canyon) • [Windhorn Caverns](Windhorn Caverns)
 |-
 ||
-  -Undisplayed locations**
+**Undisplayed locations**
 
 [Sagh's Refuge](Sagh's Refuge)
 |}
@@ -125,6 +125,6 @@ There is only one flight path in Thousand Needles, and that is Horde-aligned [Fr
 
 ## Patch changes
 - (Patch 1.18.1|note=[Sagh's Refuge](Sagh's Refuge) and [Windhorn Canyon](Windhorn Canyon) added and [Ironstone Camp](Ironstone Camp) updated with more details.)
--  **Patch 0.10 (2004-09-18):** Has had more quests and zone rework done. Horde players should find this a much healthier alternative to Hillsbrad Foothills to explore and do more quests.
+- **Patch 0.10 (2004-09-18):** Has had more quests and zone rework done. Horde players should find this a much healthier alternative to Hillsbrad Foothills to explore and do more quests.
 
 ## References

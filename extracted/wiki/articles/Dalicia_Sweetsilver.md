@@ -25,7 +25,7 @@ categories: ["Cooks", "High elf characters", "Quest givers", "Thalassian Highlan
 | location | Brinthilien, Thalassian Highlands |
 | status | Alive |
 
--Dalicia Sweetsilver**, nicknamed **Dal**, is a [high elf](high elf) [quest giver](quest giver) located in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands). A cook, she had been involved with the resettlement of the Highlands and the restoration of the outpost of [Alah'Thalas](Alah'Thalas) since its very beginnings, putting her culinary skills to use to feed the laborers and refugees.
+**Dalicia Sweetsilver**, nicknamed **Dal**, is a [high elf](high elf) [quest giver](quest giver) located in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands). A cook, she had been involved with the resettlement of the Highlands and the restoration of the outpost of [Alah'Thalas](Alah'Thalas) since its very beginnings, putting her culinary skills to use to feed the laborers and refugees.
 
 ## Quests
 - [quest: Thalassian Goulash] 

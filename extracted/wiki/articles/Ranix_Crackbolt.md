@@ -24,7 +24,7 @@ categories: ["Frostmane Hollow NPCs", "Goblin characters", "Quest givers", "Turt
 | location | Frostmane Hollow |
 | status | Alive |
 
--Ranix Crackbolt** is a [goblin](goblin) [quest giver](quest giver) located in [Frostmane Hollow](Frostmane Hollow), in a room opposite from [Battlemaster Ubukaz](Battlemaster Ubukaz).
+**Ranix Crackbolt** is a [goblin](goblin) [quest giver](quest giver) located in [Frostmane Hollow](Frostmane Hollow), in a room opposite from [Battlemaster Ubukaz](Battlemaster Ubukaz).
 
 ## Quests
 - [quest: A Grave Misunderstanding!] 

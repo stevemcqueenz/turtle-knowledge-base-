@@ -69,10 +69,10 @@ The Grove of the Sun on the Isle of Tyrandas may hold answers. One of my allies 
 Seek out Sister Mirallun. She watches the forest more closely than most. Tell her what you have seen.
 
 ## Progression
-1.[quest: The Moth's Heresy]
-1.[quest: A Dryad's Counsel]
-1.[quest: The Rot of Elun'aran]
-1.[quest: Keeper of the Broken Grove]
+1. [quest: The Moth's Heresy]
+1. [quest: A Dryad's Counsel]
+1. [quest: The Rot of Elun'aran]
+1. [quest: Keeper of the Broken Grove]
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

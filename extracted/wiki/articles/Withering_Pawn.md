@@ -27,7 +27,7 @@ categories: ["Human characters", "Human ghosts", "Tower of Karazhan mobs", "Turt
 
 ''''
 
-  -Withering Pawns** are [human](human) ghosts located in the [Tower of Karazhan](Tower of Karazhan)'s [Chess Event](Chess Event).
+**Withering Pawns** are [human](human) ghosts located in the [Tower of Karazhan](Tower of Karazhan)'s [Chess Event](Chess Event).
 
 ## Patch changes
 - (Patch 1.17.2|note=Added.)

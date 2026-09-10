@@ -11,7 +11,7 @@ categories: ["Dwarves", "Factions"]
 # Stormpike Guard
 
 ----
--The Stormpike [Dwarves](Dwarves) have set up residence in [Alterac Valley](Alterac Valley), where they're locked in battle with the [Frostwolf Orcs](Frostwolf).*
+*The Stormpike [Dwarves](Dwarves) have set up residence in [Alterac Valley](Alterac Valley), where they're locked in battle with the [Frostwolf Orcs](Frostwolf).*
 ----
 
 The [Alliance](Alliance) [faction](faction) for the [Alterac Valley](Alterac Valley) [Battleground](Battleground).

@@ -24,13 +24,13 @@ categories: ["Booty Bay characters", "Dwarf characters", "Quest givers", "Strang
 | location | Booty Bay, Stranglethorn Vale |
 | status | Alive |
 
--Kurnen Oathbrace** is a [dwarf](dwarf) [quest giver](quest giver) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale).
+**Kurnen Oathbrace** is a [dwarf](dwarf) [quest giver](quest giver) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale).
 
 ## Quests
 - [quest: Legend of Dawnstone] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Why hello there, you wouldn't mind helping out a dwarf in need would ye?
 
 ## Patch changes

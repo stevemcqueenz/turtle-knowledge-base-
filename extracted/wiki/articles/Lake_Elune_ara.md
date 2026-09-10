@@ -10,7 +10,7 @@ categories: ["Lakes", "Moonglade subzones", "Night elf territories", "Pages with
 ---
 # Lake Elune'ara
 
--Lake Elune'ara** is a large body of water in [Moonglade](Moonglade). It is the largest lake on the continent of [Kalimdor](Kalimdor).
+**Lake Elune'ara** is a large body of water in [Moonglade](Moonglade). It is the largest lake on the continent of [Kalimdor](Kalimdor).
 
 The mad [demigod](demigod) [Omen](Omen (boss)), defeated many centuries ago, yet resides in Lake Elune'ara. 
 

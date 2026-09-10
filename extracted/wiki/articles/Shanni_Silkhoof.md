@@ -25,13 +25,13 @@ categories: ["Moonwhisper Coast NPCs", "Quest givers", "Tailoring vendors", "Tau
 | location | Moonhoof Village, Moonwhisper Coast |
 | status | Alive |
 
--Shanni Silkhoof** is a [tauren](tauren) tailoring vendor and quest giver located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Shanni Silkhoof** is a [tauren](tauren) tailoring vendor and quest giver located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: Before They Hatch] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Step closer, adventurer. The wares of Moonhoof Village are one-of-a-kind and of immaculate quality. Anything your heart desires; and more!
 
 ## Patch changes

@@ -32,7 +32,7 @@ During the war, the goblins witnessed the [Old Horde](Old Horde)'s arrival and t
 Approximately four years after the Second War, the goblin city of [Gadgetzan](Gadgetzan) had already been built in [Tanaris](Tanaris) on [Kalimdor](Kalimdor), as it was visited by [Greydon Thorne](Greydon Thorne). By the time of the [Battle of Grim Batol](Battle of Grim Batol), Deathwing also still had goblin servitors, just as he did during the War of the Ancients. The three known ones were [Kryll](Kryll), [Nullyn](Nullyn), and [Voyd](Voyd).
 
 ### World of Warcraft
-  -This section concerns content related to the original *[World of Warcraft](World of Warcraft)*.**
+**This section concerns content related to the original *[World of Warcraft](World of Warcraft)*.**
 {| class="fandom-table"
 |
 |This section is **a [lore](lore) stub**.

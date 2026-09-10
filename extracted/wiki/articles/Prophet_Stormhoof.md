@@ -26,7 +26,7 @@ categories: ["Bosses", "Tauren characters", "Turtle WoW content", "Windhorn Cany
 | status | Killable |
 | instance | Windhorn Canyon |
 
--Prophet Stormhoof** is a boss in [Windhorn Canyon](Windhorn Canyon).
+**Prophet Stormhoof** is a boss in [Windhorn Canyon](Windhorn Canyon).
 
 ## Abilities
 - Corruption
@@ -34,13 +34,13 @@ categories: ["Bosses", "Tauren characters", "Turtle WoW content", "Windhorn Cany
 - Wail of Souls
 
 ## Quotes
-  -Aggro**
+**Aggro**
   Our destiny has been foretold!
 
-  -At 50%**
+**At 50%**
   I have seen the future, and it is your death!
 
-  -Death**
+**Death**
   My sight, has left me!
 
 ## Objective of

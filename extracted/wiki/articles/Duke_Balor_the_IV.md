@@ -25,7 +25,7 @@ categories: ["Bosses", "Human characters", "Human ghosts", "Stormwrought Ruins m
 | status | Killable |
 | instance | Stormwrought Ruins |
 
--Duke Frederik Balor the IV** (ref: [quest: Skull And Bones]) is a boss in [Stormwrought Ruins](Stormwrought Ruins).
+**Duke Frederik Balor the IV** (ref: [quest: Skull And Bones]) is a boss in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Abilities
 - Mind Flay
@@ -35,10 +35,10 @@ categories: ["Bosses", "Human characters", "Human ghosts", "Stormwrought Ruins m
 - Dark Strike
 
 ## Quotes
-  -Aggro**
+**Aggro**
   Yet again do the forces of darkness seek to lay claim to my throne. Stormwrought will not fall into your hands, fiends!
 
-  -Death**
+**Death**
   Olivert... Philmore... Old friends...
 
 ## Objective of

@@ -28,7 +28,7 @@ categories: ["City bosses", "Darnassus NPCs", "Night elf characters"]
 | status | Alive |
 | relatives | Malfurion (lover) |
 
--Tyrande Whisperwind** (pronounced *Ti-Ran-Da*) is the most prominent night elf leader, as the chosen high priestess of the goddess [Elune](Elune) and the current head of the Sisterhood of Elune. Together with her lifelong mate, the [Archdruid](Archdruid) [Malfurion Stormrage](Malfurion Stormrage), she has represented the highest leadership of the night elves since the fall of Queen Azshara and the Highborne caste ten thousand years ago. In *World of Warcraft*, she is found inside the Temple of the Moon within the Kaldorei's capital city of [Darnassus](Darnassus).
+**Tyrande Whisperwind** (pronounced *Ti-Ran-Da*) is the most prominent night elf leader, as the chosen high priestess of the goddess [Elune](Elune) and the current head of the Sisterhood of Elune. Together with her lifelong mate, the [Archdruid](Archdruid) [Malfurion Stormrage](Malfurion Stormrage), she has represented the highest leadership of the night elves since the fall of Queen Azshara and the Highborne caste ten thousand years ago. In *World of Warcraft*, she is found inside the Temple of the Moon within the Kaldorei's capital city of [Darnassus](Darnassus).
 
 ## Biography
 ### Invasion of Ashenvale
@@ -81,16 +81,16 @@ Treachery, a malady more insidious than any foe we faced in battle, festers with
 It spreads like a blight, and the one responsible for this affliction resides comfortably within the confines of this very city.
 
 ### On-click
--Ishnu'alah. May Elune light your path.
--The goddess is my shield.
--Elune give me strength.
--I heed the voice of Elune.
--My heart sleeps in the Emerald Dream.
+- Ishnu'alah. May Elune light your path.
+- The goddess is my shield.
+- Elune give me strength.
+- I heed the voice of Elune.
+- My heart sleeps in the Emerald Dream.
 
 ### Aggro
--Anu'dora!
--For Kalimdor!
--Endu'di Rifa!
+- Anu'dora!
+- For Kalimdor!
+- Endu'di Rifa!
 
 ## Gallery
 <gallery>
@@ -98,4 +98,4 @@ File:WoWTyrande.jpg|Tyrande in-game.
 </gallery>
 
 ## Patch changes
--  **Patch 1.7.0 (2005-09-13):** Racial "Leaders" have been strengthened, and are now worth slightly less honor.
+- **Patch 1.7.0 (2005-09-13):** Racial "Leaders" have been strengthened, and are now worth slightly less honor.

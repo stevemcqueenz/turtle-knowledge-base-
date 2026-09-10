@@ -10,7 +10,7 @@ categories: ["Creatures", "Instance:The Deadmines", "Mechanicals", "Pages with b
 ---
 # Shredder
 
--Shredders** are impressive [goblin](goblin) mechanical creatures, piloted by a [goblin](goblin). They're usually used for lumbering, but they can serve in war, because of the solid metal construction of the machine, and because of the great saws they wield.
+**Shredders** are impressive [goblin](goblin) mechanical creatures, piloted by a [goblin](goblin). They're usually used for lumbering, but they can serve in war, because of the solid metal construction of the machine, and because of the great saws they wield.
 
 Horde members can get a quest to help steal a Shredder in [The Barrens](:Category:Zone:The Barrens).
 

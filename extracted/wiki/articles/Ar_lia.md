@@ -25,7 +25,7 @@ categories: ["Draenei characters", "Moonwhisper Coast NPCs", "Quest givers", "Tu
 | status | Alive |
 | relatives | Moro'gai K'la (father) |
 
--Ar'lia** is a [draenei](draenei) quest giver located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Ar'lia** is a [draenei](draenei) quest giver located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: Ar'lia of the Moro'gai] 
@@ -36,7 +36,7 @@ categories: ["Draenei characters", "Moonwhisper Coast NPCs", "Quest givers", "Tu
 - [quest: A Student's Determination] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I welcome you to Moro'gai village. My name is Ar'lia, son of Moro'gai K'la, our chieftain. We seldom get visitors, especially in these turbulent times; still, you are free to make yourself at home in our midst.
 
 ## Patch changes

@@ -14,7 +14,7 @@ Retrieve info about a certain player buff of a certain type.
  buffIndex, untilCancelled = GetPlayerBuff(buffId, buffFilter);
 ----
 
-  - ***Arguments*****
+** ***Arguments*****
 
    (Number buffId)
 
@@ -36,7 +36,7 @@ Retrieve info about a certain player buff of a certain type.
 
 ----
 
-  - ***Returns*****
+** ***Returns*****
 
    (Number buffIndex)
 
@@ -51,16 +51,16 @@ Retrieve info about a certain player buff of a certain type.
 
 ----
 
-  - ***Example*****
+** ***Example*****
 
  local buffIndex, untilCancelled = GetPlayerBuff(0, "HELPFUL|HARMFUL|PASSIVE");
 
-  - ***Result*****
+** ***Result*****
 
 Retrieves buff info about the first buff you have.
 ----
 
-  - ***Description*****
+** ***Description*****
 
    Retrieves info and identifier about a certain effect on the player.
 

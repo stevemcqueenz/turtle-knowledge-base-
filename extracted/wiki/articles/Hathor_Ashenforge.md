@@ -24,10 +24,10 @@ categories: ["Dwarf characters", "Northwind NPCs", "Turtle WoW content"]
 | location | Ambershire, Northwind |
 | status | Alive |
 
--Hathor Ashenforge** is a [dwarf](dwarf) located at the [Honey Drop Inn](Honey Drop Inn) in [Ambershire](Ambershire) in [Northwind](Northwind).
+**Hathor Ashenforge** is a [dwarf](dwarf) located at the [Honey Drop Inn](Honey Drop Inn) in [Ambershire](Ambershire) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I had hoped this would be the best place to retire, yet once more I am denied peace of mind. You see, I worry a great deal—it must be because of that time we had to lock ourselves in Ironforge, praying that no orc would ransack our home. I am a simple man; I've never raised arms in all my years, and I fear what the days to come may bring.
 
 ## Patch changes

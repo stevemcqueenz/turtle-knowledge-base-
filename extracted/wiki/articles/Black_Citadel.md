@@ -24,7 +24,7 @@ The Citadel, however, was heavily guarded. Magtheridon controlled a variety of [
 Illidan and his company succeeded in defeating Magtheridon and named themselves the new rulers of Outland. The victory was short-lived as Kil'jaeden appeared to remind Illidan that he could not escape the far-reaching gaze of the [Burning Legion](Burning Legion), not even in the Black Citadel. (ref: [Lord of Outland (WC3 BloodElf)](Lord of Outland (WC3 BloodElf)))
 
 ## Trivia
--As far back as April 2003, the Black Citadel as a level 70+ raid was among the planned instances for the original *World of Warcraft*.
--Black Citadel is also a melee [tileset](tileset) in *The Frozen Throne*.
+- As far back as April 2003, the Black Citadel as a level 70+ raid was among the planned instances for the original *World of Warcraft*.
+- Black Citadel is also a melee [tileset](tileset) in *The Frozen Throne*.
 
 ## References

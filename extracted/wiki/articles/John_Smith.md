@@ -25,4 +25,4 @@ categories: ["Alterac Mountains NPCs", "Faction quartermasters", "Human characte
 | location | Ravenholdt Manor, Alterac Mountains |
 | status | Alive |
 
--John Smith** is the quartermaster for [Ravenholdt](Ravenholdt) and is located inside [Ravenholdt Manor](Ravenholdt Manor) in the [Alterac Mountains](Alterac Mountains).
+**John Smith** is the quartermaster for [Ravenholdt](Ravenholdt) and is located inside [Ravenholdt Manor](Ravenholdt Manor) in the [Alterac Mountains](Alterac Mountains).

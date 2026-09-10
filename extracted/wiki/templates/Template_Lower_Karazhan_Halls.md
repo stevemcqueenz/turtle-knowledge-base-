@@ -25,15 +25,15 @@ categories: ["Instance navigation templates"]
 [Moroes](Moroes)
 
 |
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
 |-
 | class="title" colspan="2"| [Loot](Lower Karazhan Halls loot)

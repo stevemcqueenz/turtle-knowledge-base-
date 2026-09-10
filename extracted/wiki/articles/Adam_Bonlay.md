@@ -25,7 +25,7 @@ categories: ["Gilneas NPCs", "Human characters", "Tradeskill vendors", "Turtle W
 | location | Shademore Tavern, Gilneas |
 | status | Alive |
 
--Adam Bonlay** is a [human](human) trade supplies located at the [Shademore Tavern](Shademore Tavern) in [Gilneas](Gilneas).
+**Adam Bonlay** is a [human](human) trade supplies located at the [Shademore Tavern](Shademore Tavern) in [Gilneas](Gilneas).
 
 ## Patch changes
 - (Patch 1.17.0|note=Added.)

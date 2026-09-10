@@ -24,14 +24,14 @@ categories: ["Crescent Grove NPCs", "Night elf characters"]
 | location | Vilethorn Scar, the Crescent Grove |
 | status | Active |
 
--Swordsman Daelus** is a [night elf](night elf) [ghost](ghost) located in [the Crescent Grove](Crescent Grove).
+**Swordsman Daelus** is a [night elf](night elf) [ghost](ghost) located in [the Crescent Grove](Crescent Grove).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I am bound to my duty.
 
 ## Trivia
 - Despite being a ghost, Daelus is classified as a humanoid.
 
 ## Patch changes
--  **[Patch 1.16.0](Patch 1.16.0) (2021-12-27):** Added.
+- **[Patch 1.16.0](Patch 1.16.0) (2021-12-27):** Added.

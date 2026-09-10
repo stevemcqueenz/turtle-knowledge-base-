@@ -25,7 +25,7 @@ categories: ["Alah'Thalas NPCs", "Gilneas (kingdom)", "Human characters", "Turtl
 | location | Citadel of the Sun, Alah'Thalas |
 | status | Alive |
 
--Lord Horghita Ironmane** is a [human](human) located in the [Citadel of the Sun](Citadel of the Sun) in [Alah'Thalas](Alah'Thalas). An ambassador from the [kingdom of Gilneas](Gilneas (kingdom)), he is speaking with [Yagon Grimbeard](Yagon Grimbeard), ambassador of the [Wildhammer clan](Wildhammer clan) to the [Silvermoon Remnant](Silvermoon Remnant).
+**Lord Horghita Ironmane** is a [human](human) located in the [Citadel of the Sun](Citadel of the Sun) in [Alah'Thalas](Alah'Thalas). An ambassador from the [kingdom of Gilneas](Gilneas (kingdom)), he is speaking with [Yagon Grimbeard](Yagon Grimbeard), ambassador of the [Wildhammer clan](Wildhammer clan) to the [Silvermoon Remnant](Silvermoon Remnant).
 
 ## Speculation
 He may be related to [Prelate Ironmane](Prelate Ironmane).

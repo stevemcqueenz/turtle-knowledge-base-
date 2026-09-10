@@ -14,13 +14,13 @@ Returns the description and objectives required for the specified quest.
  GetQuestLogQuestText();
 ----
 
-  - *Arguments***
+** *Arguments***
 
    *none*
 
 ----
 
-  - *Returns***
+** *Returns***
 
    String questDescription, String questObjectives
 
@@ -31,15 +31,15 @@ Returns the description and objectives required for the specified quest.
 
 ----
 
-  - *Example***
+** *Example***
 
  local questDescription, questObjectives = GetQuestLogQuestText();
 
-  - *Result***
+** *Result***
 
  "Those darn leprechauns continue to bury their gold in my fields...", "Kill 10 leprechauns."
 ----
 
-  - *Description***
+** *Description***
 
    Returns the description and objectives required for the specified quest.

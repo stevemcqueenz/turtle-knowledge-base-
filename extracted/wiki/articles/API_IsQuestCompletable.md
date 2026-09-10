@@ -14,27 +14,27 @@ Returns true if a quest is possible to complete.
  IsQuestCompletable();
 ----
 
-  - *Arguments***
+** *Arguments***
 
    *none*
 
 ----
 
-  - *Returns***
+** *Returns***
 
   ; Boolean
 
 ----
 
-  - *Example***
+** *Example***
 
   if ( IsQuestCompletable() ) then QuestFrameCompleteButton:Enable(); end
 
-  - *Result***
+** *Result***
 
  true | false
 ----
 
-  - *Description***
+** *Description***
 
    Returns true if the currently loaded quest in the quest window is completable.

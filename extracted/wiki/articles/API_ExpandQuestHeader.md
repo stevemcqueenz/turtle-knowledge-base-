@@ -14,7 +14,7 @@ Expands the quest header.
  ExpandQuestHeader(questID);
 ----
 
-  - *Arguments***
+** *Arguments***
 
    (Number questID)
 
@@ -23,20 +23,20 @@ Expands the quest header.
 
 ----
 
-  - *Returns***
+** *Returns***
 
   ; nil
 
 ----
 
-  - *Example***
+** *Example***
 
  ExpandQuestHeader(3);
 
-  - *Result***
+** *Result***
 
 ----
 
-  - *Description***
+** *Description***
 
    Expands the quest header.

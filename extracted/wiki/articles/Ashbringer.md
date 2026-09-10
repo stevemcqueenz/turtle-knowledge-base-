@@ -10,7 +10,7 @@ categories: ["Legendary Items", "Pages with broken file links", "Rumors", "Stubs
 ---
 # Ashbringer
 
--Ashbringer**, Blade of the Scarlet Highlord, was an immensely powerful weapon created for [Alexandros Mograine](Alexandros Mograine), the Highlord of the [Scarlet Crusade](Scarlet Crusade). Mograine also became known as the Ashbringer, for legend had it that the power of the blade incinerated his enemies before he took a swing. The blade was believed lost, but has been confirmed to still be in Mograine's possession even after his enslavement by the evil lich [Kel'Thuzad](Kel'Thuzad), the master of [Naxxramas](Naxxramas). However, it has been [corrupted](Corrupted Ashbringer) due to the circumstances surrounding his death along with the fact that he and his sword behaved as one entity.
+**Ashbringer**, Blade of the Scarlet Highlord, was an immensely powerful weapon created for [Alexandros Mograine](Alexandros Mograine), the Highlord of the [Scarlet Crusade](Scarlet Crusade). Mograine also became known as the Ashbringer, for legend had it that the power of the blade incinerated his enemies before he took a swing. The blade was believed lost, but has been confirmed to still be in Mograine's possession even after his enslavement by the evil lich [Kel'Thuzad](Kel'Thuzad), the master of [Naxxramas](Naxxramas). However, it has been [corrupted](Corrupted Ashbringer) due to the circumstances surrounding his death along with the fact that he and his sword behaved as one entity.
 
 ## Item Data
 <small style="float:left; margin-left:1em; width:24em;">Ashbringer as a [GM](GM)-only weapon

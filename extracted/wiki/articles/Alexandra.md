@@ -24,7 +24,7 @@ categories: ["Gilneas NPCs", "Human characters", "Stable masters", "Turtle WoW c
 | location | Ravenshire, Gilneas |
 | status | Alive |
 
--Alexandra** is a [human](human) [stable master](stable master) located in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
+**Alexandra** is a [human](human) [stable master](stable master) located in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
 
 ## Patch changes
 - (Patch 1.17.0|note=Added.)

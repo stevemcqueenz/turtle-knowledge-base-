@@ -37,11 +37,11 @@ In your WTF/Account/ACCNAME/SERVER/CHARNAME/ folders delete:
 - Use /vcb to bring up the user interface.
 
 ## Preview
-  -Default Frame Configuration:**
+**Default Frame Configuration:**
 
-  -Unlocked Frame:**
+**Unlocked Frame:**
 
-  -Dummy Mode for configuration:**
+**Dummy Mode for configuration:**
 
 ## Features
 - A better overview for your auras due to consolidation.
@@ -56,7 +56,7 @@ In your WTF/Account/ACCNAME/SERVER/CHARNAME/ folders delete:
 [Shino](https://github.com/tdymel) (author)
 
 ## Changes
-  -v2.5:**
+**v2.5:**
 
 - Fixed Disappearing Issue
 - Fixed Buff Applications
@@ -98,7 +98,7 @@ In your WTF/Account/ACCNAME/SERVER/CHARNAME/ folders delete:
 - Implemented Interface for Consolidated Frame
 - Implemented Consolidated Icon interface
 
-  -For that:**
+**For that:**
 
 - Added select font color option
 - Added show amount out of possible buffs checkbutton (1/5 > Depending on your group members)
@@ -112,7 +112,7 @@ In your WTF/Account/ACCNAME/SERVER/CHARNAME/ folders delete:
 - Added function for all those features added above (for the consolidated icon)
 - Implemented interface for Buff Frame
 
-  -For that:**
+**For that:**
 
 - Added select border color colorpicker
 - Added select background color colorpicker
@@ -133,7 +133,7 @@ In your WTF/Account/ACCNAME/SERVER/CHARNAME/ folders delete:
 - Implemented pager for a lot of pages
 - Implemented aura frame
 
-  -For that:**
+**For that:**
 
 - Added enable border checkbutton
 - Added enable background color checkbutton
@@ -155,7 +155,7 @@ In your WTF/Account/ACCNAME/SERVER/CHARNAME/ folders delete:
 - Added functions to all those features mentioned above
 - Implemented aura timer interface
 
-  -For that:**
+**For that:**
 
 - Added enable font border checkbutton
 - Added select font color colorpicker
@@ -165,7 +165,7 @@ In your WTF/Account/ACCNAME/SERVER/CHARNAME/ folders delete:
 - Implemented interface for the Buff Frame
 - Implemented interface for general options
 
-  -For that:**
+**For that:**
 
 - Added vertical mode checkbutton
 - Added enable background color checkbutton
@@ -187,7 +187,7 @@ In your WTF/Account/ACCNAME/SERVER/CHARNAME/ folders delete:
 - Added functions for all those features mentioned above
 - Implemented border interface for the buff frame
 
-  -For that:**
+**For that:**
 
 - Added enable border checkbutton
 - Added use custom border checkbutton
@@ -205,7 +205,7 @@ In your WTF/Account/ACCNAME/SERVER/CHARNAME/ folders delete:
 - Implemented debuff frame
 - Implemented debuff general frame
 
-  -For that:**
+**For that:**
 
 - Added vertical mode checkbutton
 - Added enable background color checkbutton
@@ -227,7 +227,7 @@ In your WTF/Account/ACCNAME/SERVER/CHARNAME/ folders delete:
 - Added function for all those features mentioned above for the debuff frame
 - Implemented debuff border interface
 
-  -For that:**
+**For that:**
 
 - Added enable border checkbutton
 - Added use custom border checkbutton
@@ -238,7 +238,7 @@ In your WTF/Account/ACCNAME/SERVER/CHARNAME/ folders delete:
 - Added functions for all those features mentioned above
 - Implemented debuff aura timer interface
 
-  -For that:**
+**For that:**
 
 - Added enable font border checkbutton
 - Added selct font color colorpicker
@@ -248,7 +248,7 @@ In your WTF/Account/ACCNAME/SERVER/CHARNAME/ folders delete:
 - Implemented interface for the weapon frame
 - Implemented weapon general frame
 
-  -For that:**
+**For that:**
 
 - Added vertical mode checkbutton
 - Added enable background color checkbutton
@@ -282,7 +282,7 @@ In your WTF/Account/ACCNAME/SERVER/CHARNAME/ folders delete:
 - Added functions for all those features mentioned above
 - Implemented profile manager frame
 
-  -For that:**
+**For that:**
 
 - Made profiles global for the whole account
 - Added a list for the profiles list
@@ -293,7 +293,7 @@ In your WTF/Account/ACCNAME/SERVER/CHARNAME/ folders delete:
 - Implemented miscellaneous interface
 - Implemented miscellaneous general interface
 
-  -For That:**
+**For That:**
 
 - Added disable consolidated mechanic 
 - Added disable banning mechanic 
@@ -308,25 +308,25 @@ In your WTF/Account/ACCNAME/SERVER/CHARNAME/ folders delete:
 - Worked on the readme
 - Solved an updating issue when adding/removing a buff from a list
 
-  -v2.4:**  
+**v2.4:**  
 
 - Aura applications added  
 
-  -v2.3:**  
+**v2.3:**  
 
 - GameTooltips are now shown properly  
 - Auras arent funky anymore in the way of being displayed  
 
-  -v2.2:**  
+**v2.2:**  
 
 - Timer finally fixed  
 - Performance updated  
 
-  -v2.1:**  
+**v2.1:**  
 
 - Timer fixed  
 
-  -v2.0:**  
+**v2.0:**  
 
 - Buffs are now displayed correctly after adding them to the list  
 - Debuffs can now be displayed twice  
@@ -340,18 +340,18 @@ v1.9:  
 
 - Hotfix for a function name error  
 
-  -v1.8:**  
+**v1.8:**  
 
 - Clean up  
 - Solved some bugs  
 
-  -v1.7:**  
+**v1.7:**  
 
 - A colored border depending on the debuff type was added at the debuffs  
 - Timer fixed  
 - Tooltips are now displayed properly  
 
-  -v1.6:**  
+**v1.6:**  
 
 - Fully implemented Buff and Debuff Frames  
 - The Frame is now dragable  
@@ -360,7 +360,7 @@ v1.9:  
 - Fixed some bugs  
 - Did some visual stuff  
 
-  -v1.5:**  
+**v1.5:**  
 
 - Some major bugs were fixed with the AutoUnbuffer  
 - Some visual bugs were fixed  

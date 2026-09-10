@@ -13,7 +13,5 @@ categories: ["Defias Brotherhood", "Farms", "Human territories", "Westfall subzo
 The **Molsen Farm** is one of the many [farm](farm)s of [Westfall](Westfall) that have been taken over by the [Defias Brotherhood](Defias Brotherhood). Now, the deadly mechanical [Harvest Watcher](Harvest Watcher)s terrorize the fields and the Defias have claimed the farmstead as their own.
 
 ## NPCs
-- 
-- 
--  (rare)
+- - - (rare)
 -

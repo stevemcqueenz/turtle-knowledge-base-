@@ -25,7 +25,7 @@ categories: ["Ammo vendors", "Gunsmiths", "Moonwhisper Coast NPCs", "Tauren char
 | location | Moonhoof Village, Moonwhisper Coast |
 | status | Alive |
 
--Therul** is a [tauren](tauren) weapons vendor located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Therul** is a [tauren](tauren) weapons vendor located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

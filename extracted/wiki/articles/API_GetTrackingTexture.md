@@ -14,18 +14,18 @@ Return the texture of the active tracking buff if one is active.
  "icon" = GetTrackingTexture ()
 ----
 
-  - *Arguments***
+** *Arguments***
 
 None
 ----
 
-  - *Returns***
+** *Returns***
 
-  -: icon : The texture of the active tracking buff, or *nil* is no tracking buff is active**
+**: icon : The texture of the active tracking buff, or *nil* is no tracking buff is active**
 
 ----
 
-  - *Example*<syntaxhighlight lang="lua">**
+** *Example*<syntaxhighlight lang="lua">**
 local icon = GetTrackingTexture ()
 if icon then
   myTexture:SetTexture (icon)

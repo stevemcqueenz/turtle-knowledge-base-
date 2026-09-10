@@ -24,24 +24,14 @@ categories: ["Alliance quest hubs", "Alliance settlements", "Burning Steppes sub
 | flightpath | Yes |
 | status | Active |
 
--Morgan's Vigil** is an [Alliance](Alliance) settlement in the southeastern corner of the [Burning Steppes](Burning Steppes). It is only a small village left in ruins; with houses and structures burned to the ground and a single mage tower left crumbled and destroyed. Several tents have been erected for the inhabitants to live in. 
+**Morgan's Vigil** is an [Alliance](Alliance) settlement in the southeastern corner of the [Burning Steppes](Burning Steppes). It is only a small village left in ruins; with houses and structures burned to the ground and a single mage tower left crumbled and destroyed. Several tents have been erected for the inhabitants to live in. 
 
 ## Travel connections
 ### Flight
-  - [Stormwind City](Stormwind City), [Elwynn Forest](Elwynn Forest)**
-  - [Thorium Point](Thorium Point), [Searing Gorge](Searing Gorge)**
+** [Stormwind City](Stormwind City), [Elwynn Forest](Elwynn Forest)**
+** [Thorium Point](Thorium Point), [Searing Gorge](Searing Gorge)**
 
 ## Inhabitants
 ### Quest givers
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-### Goods and services
-- 
-- 
--
+- - - - - - - ### Goods and services
+- - -

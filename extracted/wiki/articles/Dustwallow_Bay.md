@@ -10,4 +10,4 @@ categories: ["Bays", "Dustwallow Marsh subzones", "Pages with broken file links"
 ---
 # Dustwallow Bay
 
--Dustwallow Bay** is a portion of the [Great Sea](Great Sea) off the eastern coast of central [Kalimdor](Kalimdor), mostly noted by travelers on the eastern coast of the [Dustwallow Marsh](Dustwallow Marsh) west of [Theramore Isle](Theramore Isle). [Nat Pagle](Nat Pagle) the noted fisherman is located on an island just off the bay in [Tidefury Cove](Tidefury Cove).
+**Dustwallow Bay** is a portion of the [Great Sea](Great Sea) off the eastern coast of central [Kalimdor](Kalimdor), mostly noted by travelers on the eastern coast of the [Dustwallow Marsh](Dustwallow Marsh) west of [Theramore Isle](Theramore Isle). [Nat Pagle](Nat Pagle) the noted fisherman is located on an island just off the bay in [Tidefury Cove](Tidefury Cove).

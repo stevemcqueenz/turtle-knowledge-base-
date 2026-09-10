@@ -42,7 +42,7 @@ Make sure those crawler legs are juicy!
 Ah, yeah this should be everything. A meal worthy for the Admiral! Here, have some as thanks.
 
 ## Notes
-  -Speaking with [Chef Jenkel](Chef Jenkel)**
+**Speaking with [Chef Jenkel](Chef Jenkel)**
 
   Cooking is a fine art, and working with such few resources at our disposal makes it an even finer art.
 

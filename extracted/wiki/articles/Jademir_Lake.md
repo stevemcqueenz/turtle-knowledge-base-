@@ -10,11 +10,11 @@ categories: ["Dragon territories", "Elite areas", "Feralas subzones", "Green dra
 ---
 # Jademir Lake
 
--Jademir Lake** is a medium sized lake in northern [Feralas](Feralas) with a small island, [Dream Bough](Dream Bough), at its center. Dream Bough contains a portal to the [Emerald Dream](Emerald Dream), guarded by [Lethlas](Lethlas) and several [green dragonspawn](green dragonspawn).
+**Jademir Lake** is a medium sized lake in northern [Feralas](Feralas) with a small island, [Dream Bough](Dream Bough), at its center. Dream Bough contains a portal to the [Emerald Dream](Emerald Dream), guarded by [Lethlas](Lethlas) and several [green dragonspawn](green dragonspawn).
 
 [Infected green whelps](Noxious Whelp) can be found on the northwestern shore.
 
 ## Patch changes
--  **Patch 1.4.0 (2005-04-19):** There is no longer water missing on the shore of Jademir Lake in Oneiros in Feralas.
+- **Patch 1.4.0 (2005-04-19):** There is no longer water missing on the shore of Jademir Lake in Oneiros in Feralas.
 
 ## External links

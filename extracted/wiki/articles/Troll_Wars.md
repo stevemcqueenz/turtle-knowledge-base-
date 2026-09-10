@@ -19,4 +19,4 @@ The human tribes, also suffering at the hands of the trolls, finally banded toge
 The now strengthened alliance of high elves and humans eventually defeated the forest trolls so completely that the race would never fully recover in the [Eastern Kingdoms](Eastern Kingdoms). 
 
 ## See Also
--[Arathor and the Troll Wars](Arathor and the Troll Wars) (part of the [History of Warcraft](History of Warcraft))
+- [Arathor and the Troll Wars](Arathor and the Troll Wars) (part of the [History of Warcraft](History of Warcraft))

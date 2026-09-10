@@ -10,8 +10,8 @@ categories: ["Turtle WoW content"]
 ---
 # Hallowed Note
 
--Hallowed Note** is provided as an objective for [quest: Hallowed Note|race=tauren|class=priest].
+**Hallowed Note** is provided as an objective for [quest: Hallowed Note|race=tauren|class=priest].
 
 ## Contains
 ## Patch changes
--(Patch 1.18.1|note=Added.)
+- (Patch 1.18.1|note=Added.)

@@ -25,10 +25,10 @@ categories: ["Balor NPCs", "Innkeepers", "Night elf characters", "Turtle WoW con
 | location | SI:7 Outpost, Balor |
 | status | Alive |
 
--Fydent Mossrage** is a [night elf](night elf) innkeeper located at [SI:7 Outpost](SI:7 Outpost) in [Balor](Balor).
+**Fydent Mossrage** is a [night elf](night elf) innkeeper located at [SI:7 Outpost](SI:7 Outpost) in [Balor](Balor).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Our beds may not be comfortable, but they will offer enough rest to regain your strength.
 
 ## Patch changes

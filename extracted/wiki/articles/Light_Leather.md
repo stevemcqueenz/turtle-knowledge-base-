@@ -10,9 +10,7 @@ categories: ["Leathers"]
 ---
 # Light Leather
 
--Light Leather** is a basic [crafting reagent](crafting reagent) used in [Leatherworking](Leatherworking).
+**Light Leather** is a basic [crafting reagent](crafting reagent) used in [Leatherworking](Leatherworking).
 
 ## Patch changes
--
-
-## External links
+- ## External links

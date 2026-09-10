@@ -10,16 +10,16 @@ categories: ["Template documentation"]
 ---
 # Template:T/doc
 
--Description**
+**Description**
 A template link with a variable number of parameters (0-20).
 
-  -Syntax**
+**Syntax**
    
 
-  -Source**
+**Source**
   Improved version not needing t/piece subtemplate developed on [Templates wiki](http://templates.fandom.com) see the [list of authors](http://templates.fandom.com/index.php?title=Template:T&action=history). Copied here via CC-By-SA 3.0 license.
 
-  -Example**
+**Example**
   
 
 <includeonly></includeonly>

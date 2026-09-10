@@ -10,17 +10,10 @@ categories: ["Defias Brotherhood", "Human territories", "Northwind subzones", "T
 ---
 # Crystal Falls
 
--Crystal Falls** is a waterfall in [Northwind](Northwind) that feeds into both [Grimmen Lake](Grimmen Lake) to the north, and into the [Northshire River](Northshire River) to the south, eventually emptying out in [Crystal Lake](Crystal Lake) in [Elwynn Forest](Elwynn Forest). The falls have been overrun with members of the [Defias Brotherhood](Defias Brotherhood) led by [Edward Paddley](Edward Paddley), who was sent on orders from [Edwin VanCleef](Edwin VanCleef) to plunder the nobles of Northwind. (ref: [VanCleef's Orders](VanCleef's Orders))
+**Crystal Falls** is a waterfall in [Northwind](Northwind) that feeds into both [Grimmen Lake](Grimmen Lake) to the north, and into the [Northshire River](Northshire River) to the south, eventually emptying out in [Crystal Lake](Crystal Lake) in [Elwynn Forest](Elwynn Forest). The falls have been overrun with members of the [Defias Brotherhood](Defias Brotherhood) led by [Edward Paddley](Edward Paddley), who was sent on orders from [Edwin VanCleef](Edwin VanCleef) to plunder the nobles of Northwind. (ref: [VanCleef's Orders](VanCleef's Orders))
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - - - ## Patch changes
 - (Patch 1.18.0|note=Added.)
 
 ## References

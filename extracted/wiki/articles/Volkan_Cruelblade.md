@@ -26,17 +26,17 @@ categories: ["Bosses", "Burning Blade clan", "Orc characters", "Stormwind Vault 
 | status | Killable |
 | instance | Stormwind Vault |
 
--Volkan Cruelblade** is a boss in the [Stormwind Vault](Stormwind Vault).
+**Volkan Cruelblade** is a boss in the [Stormwind Vault](Stormwind Vault).
 
 ## Quotes
-  -Aggro**
+**Aggro**
   I will be a prisoner no longer!
 
-  -During combat**
+**During combat**
   Feel the heat of the Burning Blade!
   Behind you!
 
-  -Death**
+**Death**
   Lok'tar... *whimper* ...O-ogar...
 
 ## Loot

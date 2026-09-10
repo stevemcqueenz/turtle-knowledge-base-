@@ -24,7 +24,7 @@ categories: ["Gilneas mobs", "Human characters", "Turtle WoW content"]
 | location | The Dryrock Mine, Gilneas |
 | status | Killable |
 
--Guard Captain Marson** is a [human](human) located at the [Dryrock Mine](Dryrock Mine) in [Gilneas](Gilneas).
+**Guard Captain Marson** is a [human](human) located at the [Dryrock Mine](Dryrock Mine) in [Gilneas](Gilneas).
 
 ## Objective of
 - Drops [Rust-Covered Key](Rust-Covered Key) for [quest: One Chain At a Time].

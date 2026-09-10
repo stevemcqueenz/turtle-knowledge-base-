@@ -24,7 +24,7 @@ categories: ["High elf characters", "Thalassian Highlands NPCs", "Turtle WoW con
 | location | Thaumarium, Thalassian Highlands |
 | status | Alive |
 
--Eirwen Aniron** is a [high elf](high elf) located in [Thaumarium](Thaumarium) of the [Thalassian Highlands](Thalassian Highlands).
+**Eirwen Aniron** is a [high elf](high elf) located in [Thaumarium](Thaumarium) of the [Thalassian Highlands](Thalassian Highlands).
 
 ## Patch changes
 (Patch 1.17.1|note=Added.)

@@ -25,7 +25,7 @@ categories: ["Blacksmithing vendors", "Centaur characters", "Gillijim's Isle NPC
 | location | Kalkor Point, Gillijim's Isle |
 | status | Alive |
 
--Isidora** is a [centaur](centaur) [blacksmithing](blacksmithing) vendor located in [Kalkor Point](Kalkor Point) in [Gillijim's Isle](Gillijim's Isle).
+**Isidora** is a [centaur](centaur) [blacksmithing](blacksmithing) vendor located in [Kalkor Point](Kalkor Point) in [Gillijim's Isle](Gillijim's Isle).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

@@ -25,6 +25,6 @@ categories: ["Arathi Highlands NPCs", "Dwarf characters", "Weapon vendors"]
 | location | Refuge Pointe, Arathi Highlands |
 | status | Alive |
 
--Jannos Ironwill** is a [dwarf](dwarf) mace vendor located in [Refuge Pointe](Refuge Pointe) in the [Arathi Highlands](Arathi Highlands).
+**Jannos Ironwill** is a [dwarf](dwarf) mace vendor located in [Refuge Pointe](Refuge Pointe) in the [Arathi Highlands](Arathi Highlands).
 
 ## External links

@@ -25,13 +25,13 @@ categories: ["Bosses", "Frostmane Hollow mobs", "Ice troll characters", "Turtle 
 | status | Killable |
 | instance | Frostmane Hollow |
 
--Kan'za the Seer** is a boss in [Frostmane Hollow](Frostmane Hollow).
+**Kan'za the Seer** is a boss in [Frostmane Hollow](Frostmane Hollow).
 
 ## Abilities
 - Blizzard
 
 ## Quotes
-  -Aggro**
+**Aggro**
   I have seen da future, and you aint in it!
 
 ## Loot

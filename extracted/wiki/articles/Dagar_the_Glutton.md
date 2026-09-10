@@ -26,7 +26,7 @@ categories: ["Bosses", "Orc characters", "Stormreaver clan", "Stormwrought Ruins
 | status | Killable |
 | instance | Stormwrought Ruins |
 
--Dagar the Glutton** is a boss in [Stormwrought Ruins](Stormwrought Ruins).
+**Dagar the Glutton** is a boss in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Abilities
 - **Tendon Rip** — Movement speed reduced by 58%.
@@ -34,10 +34,10 @@ categories: ["Bosses", "Orc characters", "Stormreaver clan", "Stormwrought Ruins
 - **Infected Bite** — Nature damage inflicted every 10 sec. Increased physical damage taken.
 
 ## Quotes
-  -Aggro**
+**Aggro**
   More meat to devour!
 
-  -Death**
+**Death**
   The hunger... never ends...
 
 ## Loot

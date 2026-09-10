@@ -23,7 +23,7 @@ categories: ["Bog beasts", "Stormwrought Ruins mobs", "Turtle WoW content"]
 | location | Stormwrought Ruins |
 | status | Killable |
 
--Leechspore Horrors** are [bog beast](bog beast)s located in [Stormwrought Ruins](Stormwrought Ruins).
+**Leechspore Horrors** are [bog beast](bog beast)s located in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Abilities
 - Fungal Spores

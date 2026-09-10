@@ -10,13 +10,8 @@ categories: ["Draenei territories", "Moonwhisper Coast subzones", "Tauren territ
 ---
 # Riverhorn Village
 
--Riverhorn Village** was a tauren village located in [Moonwhisper Coast](Moonwhisper Coast). It was razed by a group of [draenei](draenei) of the [Fallen Ones](Fallen Ones) led by [Baxdi'zha](Baxdi'zha).
+**Riverhorn Village** was a tauren village located in [Moonwhisper Coast](Moonwhisper Coast). It was razed by a group of [draenei](draenei) of the [Fallen Ones](Fallen Ones) led by [Baxdi'zha](Baxdi'zha).
 
 ## NPCs
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - ## Patch changes
 - (Patch 1.18.1|note=Added.)

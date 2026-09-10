@@ -54,28 +54,28 @@ Chat:
 - **Who** - additional channel actions.
 
 ## Changes
-  -v1.0.8**
+**v1.0.8**
 
 - Removed the Chat Link feature. This feature is not necessary on Turtle WoW, so it did nothing but break item links for people who do not have Prat.
 
-  -v1.0.7**
+**v1.0.7**
 
 - Added UNICODE font support (Chinese font) - Need reload UI after change font 
 
-  -v1.0.5**
+**v1.0.5**
 
 - Added setting for default ChatTab at logon or reload
 
-  -v1.0.3**
+**v1.0.3**
 
 - try to fix performance issue at PlayerNames module
 
-  -v1.0.2**
+**v1.0.2**
 
 - added self nickname highlighting in chat (PopupMessage can be disabled)
 - some fixes
 
-  -v1.0.1**
+**v1.0.1**
 
 - added ruRU Locale by RuWOW Team
 - added support for Census+ database (color nicks in chat)

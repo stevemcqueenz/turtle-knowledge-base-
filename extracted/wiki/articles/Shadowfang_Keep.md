@@ -23,7 +23,7 @@ categories: ["Dungeons", "Keeps", "Silverpine Forest subzones", "Turtle WoW cont
 | players | 5 |
 | bosses |  |
 
--Shadowfang Keep**, formerly known as **Silverlaine Keep**, (ref: [The Silverpine Wars](The Silverpine Wars)) is a haunted keep in southern [Silverpine Forest](Silverpine Forest), near [Pyrewood Village](Pyrewood Village). It is the base of operations for the evil archmage [Arugal](Arugal) and his [worgen](worgen) progeny.
+**Shadowfang Keep**, formerly known as **Silverlaine Keep**, (ref: [The Silverpine Wars](The Silverpine Wars)) is a haunted keep in southern [Silverpine Forest](Silverpine Forest), near [Pyrewood Village](Pyrewood Village). It is the base of operations for the evil archmage [Arugal](Arugal) and his [worgen](worgen) progeny.
 
 ## History
 From the [World Dungeons](https://wowpedia.fandom.com/wiki/Game_Guide/World_Dungeons) page on the official World of Warcraft Community Site:
@@ -105,6 +105,6 @@ WorldMap-ShadowfangKeep.jpg
 
 ## Patch changes
 - (Patch 1.17.2|note=New area and boss added: Prelate Ironmane. A spectral priest and preacher of the Light as it was in the Gilnean faith, haunting the keep's church, seeking peace. Lay the prelate to rest to purify the keep.)
--  **[Patch 1.3.0](Patch 1.3.0) (2005-03-07):** Capped at ten players.
+- **[Patch 1.3.0](Patch 1.3.0) (2005-03-07):** Capped at ten players.
 
 ## References

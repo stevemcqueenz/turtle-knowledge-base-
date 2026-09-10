@@ -23,7 +23,7 @@ categories: ["Caves", "Dungeons", "Ragefire Chasm"]
 | players | 5 |
 | bosses |  |
 
--Ragefire Chasm** is a level 13-18 dungeon located in the Horde capital city of Orgrimmar. The instance portal is situated deep within the Cleft of Shadow. Due to its low-level requirement, straightforward progression path, and elementary mechanics, RFC is widely considered to be the easiest dungeon in the game.
+**Ragefire Chasm** is a level 13-18 dungeon located in the Horde capital city of Orgrimmar. The instance portal is situated deep within the Cleft of Shadow. Due to its low-level requirement, straightforward progression path, and elementary mechanics, RFC is widely considered to be the easiest dungeon in the game.
 ## Geography
 <gallery>
 WorldMap-Ragefire.jpg

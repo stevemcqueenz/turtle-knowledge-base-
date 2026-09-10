@@ -24,7 +24,7 @@ categories: ["Arathi Highlands NPCs", "Human characters", "Stromgarde (kingdom)"
 | occupation | Commander |
 | location | Refuge Pointe, Arathi Highlands |
 
--Commander Amaren** is a human located at [Refuge Pointe](Refuge Pointe) in the [Arathi Highlands](Arathi Highlands).
+**Commander Amaren** is a human located at [Refuge Pointe](Refuge Pointe) in the [Arathi Highlands](Arathi Highlands).
 
 ## Abilities
-  -*Battle Shout** — Increases the physical damage dealt of nearby party members for 2 min.
+- **Battle Shout** — Increases the physical damage dealt of nearby party members for 2 min.

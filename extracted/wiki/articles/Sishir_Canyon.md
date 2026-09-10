@@ -10,4 +10,4 @@ categories: ["Pages with broken file links", "Spiders", "Stonetalon Mountains su
 ---
 # Sishir Canyon
 
--Sishir Canyon** [54, 75] is absolutely taken over by monstrous Deepmoss spiders. Their eggs and webbing densely cover the whole area, and deep inside, the most powerful of their number [Besseleth](Besseleth) awaits.
+**Sishir Canyon** [54, 75] is absolutely taken over by monstrous Deepmoss spiders. Their eggs and webbing densely cover the whole area, and deep inside, the most powerful of their number [Besseleth](Besseleth) awaits.

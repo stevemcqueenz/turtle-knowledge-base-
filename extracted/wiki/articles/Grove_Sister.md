@@ -23,7 +23,7 @@ categories: ["Dryads", "Moonwhisper Coast NPCs", "Turtle WoW content"]
 | location | Grove of the Sun, Moonwhisper Coast |
 | status | Alive |
 
--Grove Sisters** are [dryad](dryad)s located in the [Grove of the Sun](Grove of the Sun) in [Moonwhisper Coast](Moonwhisper Coast).
+**Grove Sisters** are [dryad](dryad)s located in the [Grove of the Sun](Grove of the Sun) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

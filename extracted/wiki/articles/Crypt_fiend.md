@@ -15,6 +15,6 @@ The cunning crypt fiends were once the lords of the ancient spider kingdom of [A
 Crypt Fiends can be found the [Eastern Plaguelands](Eastern Plaguelands), [Stratholme](Stratholme) and [Scholomance](Scholomance)  There is also a Crypt Fiend in [Razorfen Downs](Razorfen Downs), and another one that somehow ended up in [Blackrock Depths](Blackrock Depths).
 
 ## Notable Crypt Fiends
--[Anub'shiah](Anub'shiah)
--[Nerub'enkan](Nerub'enkan)
--[Tuten'kash](Tuten'kash)
+- [Anub'shiah](Anub'shiah)
+- [Nerub'enkan](Nerub'enkan)
+- [Tuten'kash](Tuten'kash)

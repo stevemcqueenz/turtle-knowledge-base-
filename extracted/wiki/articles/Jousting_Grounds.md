@@ -13,54 +13,14 @@ categories: ["Northwind subzones", "Turtle WoW content"]
 The **Jousting Grounds** are an area located outside of [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind). Here, riders from various human nations have gathered to participate in a jousting tournament hosted by the nobles of Northwind. [Duke Johnathan Sherwood](Duke Johnathan Sherwood) presides over the knightly joust, heralding the competitors and naming the victor of the bouts.
 
 ## NPCs
-  -North pavilion**
-- 
-
-  -South pavilion**
-- 
-
-  -Jousters**
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-  -Theramore tent**
-- 
-- 
-- 
-
-  -Kul Tiras tent**
-- 
-- 
-- 
-
-  -Dalaran tent**
-- 
-- 
-- 
-
-  -Stromgarde tent**
-- 
-- 
-- 
-- 
-
-  -Dark Knight tent**
-- 
-
-  -Additional characters**
-- 
-- 
-- 
--  
-- 
-
-## Patch changes
+**North pavilion**
+- ;South pavilion
+- ;Jousters
+- - - - - - - - - - ;Theramore tent
+- - - ;Kul Tiras tent
+- - - ;Dalaran tent
+- - - ;Stromgarde tent
+- - - - ;Dark Knight tent
+- ;Additional characters
+- - - - - ## Patch changes
 - (Patch 1.18.0|note=Added.)

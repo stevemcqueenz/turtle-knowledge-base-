@@ -10,4 +10,4 @@ categories: ["Forsaken territories", "Murlocs", "Pages with broken file links", 
 ---
 # North Coast
 
--The North Coast** is a stretch of beach bordering a portion of the [Great Sea](Great Sea). It lies along the northern edge of [Tirisfal Glades](Tirisfal Glades), and is mostly inhabited by ravenous murlocs and various marine animals. Since the [Plague of Undeath](Plague of Undeath) marred the region with its taint, the north coast has become dark and cold, the site of several dead sea creatures which lie rotting at the edge of the water.
+**The North Coast** is a stretch of beach bordering a portion of the [Great Sea](Great Sea). It lies along the northern edge of [Tirisfal Glades](Tirisfal Glades), and is mostly inhabited by ravenous murlocs and various marine animals. Since the [Plague of Undeath](Plague of Undeath) marred the region with its taint, the north coast has become dark and cold, the site of several dead sea creatures which lie rotting at the edge of the water.

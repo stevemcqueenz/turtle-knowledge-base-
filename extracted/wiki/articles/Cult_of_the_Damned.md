@@ -11,11 +11,11 @@ categories: ["Lore", "Organizations", "Pages with broken file links", "Religions
 # Cult of the Damned
 
 # General
-  -Members**: Mostly [human](human)s
+**Members**: Mostly [human](human)s
 
-  -Main Gods**: The [Lich King](Lich King)
+**Main Gods**: The [Lich King](Lich King)
 
-  -Religious Leader**: [Kel'thuzad](Kel'thuzad)
+**Religious Leader**: [Kel'thuzad](Kel'thuzad)
 
 # Overview
 The **Cult of the Damned** was formed during the opening hours of the [Third War](Third War), when the [Scourge](Scourge) was working to establish its foothold on [Lordaeron](Lordaeron) and fulfill the wishes of the [Burning Legion](Burning Legion), who the [Lich King](Lich King) at that point was an unwilling servant of. As the Lich King reached out with his mind, he contacted many dark individuals who were already tainted by a lust for power.

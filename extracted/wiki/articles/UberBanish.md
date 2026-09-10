@@ -10,10 +10,10 @@ categories: ["Addon"]
 ---
 # UberBanish
 
--UberBanish** is designed to improve Banish management during raids and parties. It provides real-time timers, alerts, and communication features to coordinate Banishes effectively.
+**UberBanish** is designed to improve Banish management during raids and parties. It provides real-time timers, alerts, and communication features to coordinate Banishes effectively.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **UberBanish** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **UberBanish** up to date is by using [GitAddonsManager]
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -35,14 +35,14 @@ If you prefer manual installation, follow these steps:
 - [**(Artur91425)**](https://gitlab.com/Artur91425/UberBanish)
 
 ## Usage
-  -Basic Controls:**
+**Basic Controls:**
 
 - **Left-Click on the Banish Button:** Cast Banish (Rank 2)
 - **Right-Click on the Banish Button:** Cast Banish (Rank 1)
 - **Shift + Drag the Banish Button:** Move the button on-screen
 - **Left-Click on the Minimap Button**: Hide / show the Banish Button.
 
-  -Configuration Options:**
+**Configuration Options:**
 
 Access the configuration window by right-clicking the minimap button.
 
@@ -73,4 +73,4 @@ In the addon, there are two variants for detecting Banish:
 # **Correct**. The timer is activated at the event CHAT_MSG_SPELL_PERIODIC_CREATURE_DAMAGE.
 # **Incorrect**. If the above event does not work, then the timer is activated at the SPELLCAST_STOP event, which is not very reliable. In this case, the Banish button with the timer will be pulsed.
 
-  -Note**: For reasons unknown to me, all events for a unit do not work if the unit on which event, is at a great distance (about 28-30 yards) from the player. In other words, if the player will cast Banish at the maximum available distance, then the events for the 1 detection variant may not work, but for 2 will work as SPELLCAST_STOP only works for the player.
+**Note**: For reasons unknown to me, all events for a unit do not work if the unit on which event, is at a great distance (about 28-30 yards) from the player. In other words, if the player will cast Banish at the maximum available distance, then the events for the 1 detection variant may not work, but for 2 will work as SPELLCAST_STOP only works for the player.

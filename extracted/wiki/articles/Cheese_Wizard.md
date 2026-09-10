@@ -22,10 +22,10 @@ categories: ["Critters", "House cats", "Northwind NPCs", "Turtle WoW content"]
 | faction | Neutral |
 | location | Northwind |
 
--Cheese Wizard** is a [house cat](house cat) that can be found in [Enchantress Magilou](Enchantress Magilou)'s home in [Northwind](Northwind).
+**Cheese Wizard** is a [house cat](house cat) that can be found in [Enchantress Magilou](Enchantress Magilou)'s home in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 <Cheese Wizard stares blankly at Magilou, judging her every move.>
 
   > Gossip: *Pet Cheese Wizard.*

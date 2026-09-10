@@ -24,7 +24,7 @@ categories: ["Dwarf characters", "Human characters", "Lordaeron (kingdom)", "Tir
 | gender | Male |
 | location | Whispering Forest, Tirisfal Glades |
 
--Remnants Scouts** are humans found in the [Whispering Forest](Whispering Forest) in [Tirisfal Glades](Tirisfal Glades).
+**Remnants Scouts** are humans found in the [Whispering Forest](Whispering Forest) in [Tirisfal Glades](Tirisfal Glades).
 
 ## Objective of
 - [quest: Outnumbered]

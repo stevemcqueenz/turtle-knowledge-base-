@@ -10,4 +10,4 @@ categories: ["Ashenvale subzones", "Pages with broken file links", "Woods"]
 ---
 # Nightsong Woods
 
--Nightsong Woods** is the largest bulk of [Ashenvale](Ashenvale) forest, stretching from just east of [Astranaar](Astranaar) in the west, all the way east to [Azshara](Azshara).
+**Nightsong Woods** is the largest bulk of [Ashenvale](Ashenvale) forest, stretching from just east of [Astranaar](Astranaar) in the west, all the way east to [Azshara](Azshara).

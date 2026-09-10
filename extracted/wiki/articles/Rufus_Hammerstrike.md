@@ -25,13 +25,13 @@ categories: ["Balor NPCs", "Dwarf characters", "Quest givers", "SI:7", "Turtle W
 | location | SI:7 Outpost, Balor |
 | status | Alive |
 
--Rufus Hammerstrike** is a [dwarf](dwarf) [quest giver](quest giver) located at [SI:7 Outpost](SI:7 Outpost) in [Balor](Balor).
+**Rufus Hammerstrike** is a [dwarf](dwarf) [quest giver](quest giver) located at [SI:7 Outpost](SI:7 Outpost) in [Balor](Balor).
 
 ## Quests
 - [quest: Explosives Make My Heart Go BOOM!] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 <The dwarf takes a sip out of his mug.>
 
 Ah! Let me tell you, if I didn't have my beloved Thunderbrew Lager with me I would be sticking to Noppsy and his boring research or whatever else he is doing. This ale pumps me up like nothing else. I could take on any orc!

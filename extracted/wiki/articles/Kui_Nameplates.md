@@ -22,7 +22,7 @@ Then copy and paste these folders into the Turtle/Interface/Addons folder:
 - Kui_Nameplates
 - Kui_Nameplates_Auras
 
-  -Important** - If you got ShaguTweaks you need to turn off nameplate scale and nameplate class colors in advanced options.
+**Important** - If you got ShaguTweaks you need to turn off nameplate scale and nameplate class colors in advanced options.
 
 ## Git links
 [**(laytya)**](https://github.com/laytya/Kui-Namaplates/releases)
@@ -39,33 +39,33 @@ Then copy and paste these folders into the Turtle/Interface/Addons folder:
 - [laytya](https://github.com/laytya) (vanilla port)
 
 ## Changes
-  -beta 0.16**
+**beta 0.16**
 - Reworked options GUI (ACE3 dialogoptions updated)
 - Added offtanks tracker to tankmode
 - small updates
 - Added libs (submodules removed) to git so you can use [CODE] button and gitaddonmanager again.
 
-  -beta 0.16**
+**beta 0.16**
 
 - Added the mechanics of recognizing interrupts from all cast fails
 
-  -beta 0.14**
+**beta 0.14**
 
 - Fixed support for latest SuperWOW 1.5+
 
-  -beta 0.11**
+**beta 0.11**
 
 - Added options for raid icon
 - Added castwarning module
 - Added healer mod to tankmodule
 
-  -beta 0.10**
+**beta 0.10**
 
 - Cleanup,
 - tuned tankmod,
 - added some textures to media
 
-  -beta 0.9**
+**beta 0.9**
 
 - some beta updates including 
   - superwow support,
@@ -73,25 +73,25 @@ Then copy and paste these folders into the Turtle/Interface/Addons folder:
   - support RAW mod combatlog for reach auras on nameplates
   - Added target arrows
 
-  -Beta 0.7**
+**Beta 0.7**
 
 - Added some Zorlen workaround
 - Added support of enemybuffs from classic
 
-  -Beta 0.6**
+**Beta 0.6**
 
 - Added Click Through functionality
 
-  -Beta 0.5**
+**Beta 0.5**
 
 - Fixed Rapture spell gives error
 - Added pets to NameOnly nameplates
 
-  -Beta 0.4b**
+**Beta 0.4b**
 
 - Fixed - pet bar not working (ACE3 Cursor lib)
 
-  -Beta 0.4**
+**Beta 0.4**
 
 - Added critters
 - Fixed [#1](https://github.com/laytya/Kui-Namaplates/issues/1)
@@ -101,13 +101,13 @@ Then copy and paste these folders into the Turtle/Interface/Addons folder:
 - Fixes for classcolor delay
 - Updated LibBableSpell-3.0
 
-  -Beta 0.3**
+**Beta 0.3**
 
 - Updated callbacks in UnitCasting lib
 - Switched to LibBabble-Spell-3.0
 - Cleanup libs
 
-  -Beta 0.2**
+**Beta 0.2**
 
 Reworked UnitCasting Lib:
 
@@ -120,7 +120,7 @@ Reworked UnitCasting Lib:
 - Added special look of Totems
 - Added Rare & Elite marks
 
-  -v 0.1**
+**v 0.1**
 
 - First release of ported Kui-Nameplates
 - May have bugs, so issues are welcome

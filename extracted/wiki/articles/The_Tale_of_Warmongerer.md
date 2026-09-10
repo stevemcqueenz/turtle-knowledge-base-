@@ -10,7 +10,7 @@ categories: ["Readable items", "Turtle WoW content"]
 ---
 # The Tale of Warmongerer
 
--The Tale of Warmongerer** is a book that can be bought from [Historian Samuel Ravencrest](Historian Samuel Ravencrest) in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
+**The Tale of Warmongerer** is a book that can be bought from [Historian Samuel Ravencrest](Historian Samuel Ravencrest) in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
 
 ## Patch changes
 - (Patch 1.17.0|note=Added.)

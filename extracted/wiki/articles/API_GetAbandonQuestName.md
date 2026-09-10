@@ -14,28 +14,28 @@ Returns the name of a quest that is about to be abandoned.  Non-nil in the time 
  GetAbandonQuestName();
 ----
 
-  - *Arguments***
+** *Arguments***
 
    None
 
 ----
 
-  - *Returns***
+** *Returns***
 
   ; Name(String)
    The name of the quest being abandoned.
 
 ----
 
-  - *Example***
+** *Example***
 
  local Name = GetAbandonQuestName();
 
-  - *Result***
+** *Result***
 
  "Leprechaun Assault"
 ----
 
-  - *Description***
+** *Description***
 
    Returns the name of a quest that is about to be abandoned.  Non-nil in the time between clicking abandon, and before clicking "Yes."  Not tested to see if it retains values at other times.

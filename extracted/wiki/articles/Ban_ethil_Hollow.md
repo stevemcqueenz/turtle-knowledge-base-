@@ -10,4 +10,4 @@ categories: ["Furbolg territories", "Night elf territories", "Pages with broken 
 ---
 # Ban'ethil Hollow
 
--Ban'ethil Hollow** is a small ravine in [Teldrassil](Teldrassil), located south of the road that leads from [Dolanaar](Dolanaar) to [Darnassus](Darnassus). The hollow is filled with many [hostile](hostile) [furbolg](furbolg)s who will occasionally ambush adventurers on the road. It is wise to exercise caution when traveling.  The [Ban'ethil Barrow Den](Ban'ethil Barrow Den) is located in the back of the hollow.
+**Ban'ethil Hollow** is a small ravine in [Teldrassil](Teldrassil), located south of the road that leads from [Dolanaar](Dolanaar) to [Darnassus](Darnassus). The hollow is filled with many [hostile](hostile) [furbolg](furbolg)s who will occasionally ambush adventurers on the road. It is wise to exercise caution when traveling.  The [Ban'ethil Barrow Den](Ban'ethil Barrow Den) is located in the back of the hollow.

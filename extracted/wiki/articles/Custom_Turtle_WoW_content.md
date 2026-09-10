@@ -13,9 +13,9 @@ categories: ["Turtle WoW content"]
 __TOC__While Turtle WoW "Mysteries of Azeroth" is based on World of Warcraft client version 1.12.2, it features a range of custom additions to the vanilla basegame.
 ## Changes to classes, races, and character customization
 ### Faction gameplay (on PvE servers)
--One common world chat and auction house for Alliance and Horde characters
--Players of both factions can form groups, raid groups, and guilds together. Instanced battleground teams are always cross-faction.
--Players will still be attacked by guards at settlements of the opposing faction and world PvP (on PvP servers or with activated [War Mode](War Mode)) is exclusively Alliance vs. Horde.
+- One common world chat and auction house for Alliance and Horde characters
+- Players of both factions can form groups, raid groups, and guilds together. Instanced battleground teams are always cross-faction.
+- Players will still be attacked by guards at settlements of the opposing faction and world PvP (on PvP servers or with activated [War Mode](War Mode)) is exclusively Alliance vs. Horde.
 
 ### Class changes
 All classes have received changes on Turtle WoW, with alterations and additions to their abilities and talent trees. See respective articles for details:
@@ -23,24 +23,24 @@ All classes have received changes on Turtle WoW, with alterations and additions 
 [Druid](Druid) | [Hunter](Hunter) | [Mage](Mage) | [Paladin](Paladin) | [Priest](Priest) | [Rogue](Rogue) | [Shaman](Shaman) | [Warlock](Warlock) | [Warrior](Warrior)
 
 ### New playable Alliance race: [High Elves](High elf (playable))
--Reputation faction: [Silvermoon Remnant](Silvermoon Remnant)s
--Starting zone: [Thalassian Highlands](Thalassian Highlands)
--Classes: Warrior, Hunter, Rogue, Priest, Mage, Paladin
--Traits: 
-  -Arcane Resistance (+10)
-  -Bow Specialization (+5)
-  -[Quel'dorei Meditation](Quel'dorei Meditation) (channeled mana/rage/energy regen for 5s)
-  -[Enchanting](Enchanting) Specialization (+10)
+- Reputation faction: [Silvermoon Remnant](Silvermoon Remnant)s
+- Starting zone: [Thalassian Highlands](Thalassian Highlands)
+- Classes: Warrior, Hunter, Rogue, Priest, Mage, Paladin
+- Traits: 
+  - Arcane Resistance (+10)
+  - Bow Specialization (+5)
+  - [Quel'dorei Meditation](Quel'dorei Meditation) (channeled mana/rage/energy regen for 5s)
+  - [Enchanting](Enchanting) Specialization (+10)
 
 ### New playable Horde race: [Goblins](Goblin  (playable))
--Reputation faction: [Durotar Labor Union](Durotar Labor Union)
--Starting zone: [Blackstone Island](Blackstone Island)
--Classes: Warrior, Hunter, Rogue, Mage, Warlock
--Traits:
-  -Chemical Superfreak ([Alchemy](Alchemy) +10)
-  -Prospecting ([Mining](Mining) +10)
-  -[Exit Strategy](Exit Strategy) (+30% movement for 5s)
-  -[Aggressive Negotiations](Aggressive Negotiations) (daggers & maces +5)
+- Reputation faction: [Durotar Labor Union](Durotar Labor Union)
+- Starting zone: [Blackstone Island](Blackstone Island)
+- Classes: Warrior, Hunter, Rogue, Mage, Warlock
+- Traits:
+  - Chemical Superfreak ([Alchemy](Alchemy) +10)
+  - Prospecting ([Mining](Mining) +10)
+  - [Exit Strategy](Exit Strategy) (+30% movement for 5s)
+  - [Aggressive Negotiations](Aggressive Negotiations) (daggers & maces +5)
 
 ### Race/class combinations
 {| style="border-spacing:0px; text-align:center; font-size:small; color:white;" cellspacing="0" cellpadding="5"
@@ -172,9 +172,9 @@ All classes have received changes on Turtle WoW, with alterations and additions 
 Races and race/class combinations new in Turtle WoW are marked with turtle icons.
 
 ### Expanded character customization
--[Transmogrification](Transmogrification): Change the appearance of any item piece to that of another item you once equipped. Requires [Fashion Coin](Fashion Coin)s earned through dungeon end bosses or purchased in the [Donation Rewards](Donation Rewards) shop.
--Large number of additional appearance options during character creation for every race
--[Barber Shop](Barber Shop): Change color and style of hair and facial hair any time at barber shops in the faction capitals
+- [Transmogrification](Transmogrification): Change the appearance of any item piece to that of another item you once equipped. Requires [Fashion Coin](Fashion Coin)s earned through dungeon end bosses or purchased in the [Donation Rewards](Donation Rewards) shop.
+- Large number of additional appearance options during character creation for every race
+- [Barber Shop](Barber Shop): Change color and style of hair and facial hair any time at barber shops in the faction capitals
 
 ## New content
 ### New/revamped zones and subzones
@@ -948,7 +948,7 @@ ALL world bosses, new and old, can be summoned on demand using certain ingredien
   - [Southshore vs Tarren Mill](Southshore vs Tarren Mill)
   - [Redwall Keep](Redwall Keep)
 ### New PvP maps
--New battlegrounds
+- New battlegrounds
   - [Thorn Gorge](Thorn Gorge) (15 vs 15)
   - Temporarily retired: [Sunnyglade Valley](Sunnyglade Valley) (20 vs 20)
 - Rated PvP Arenas
@@ -958,15 +958,15 @@ ALL world bosses, new and old, can be summoned on demand using certain ingredien
   - [Ruins of Lordaeron](Ruins of Lordaeron) (2 v 2)
 
 ## New professions & recipes
--New primary profession: [Jewelcrafting](Jewelcrafting)
-  -Main resources: Ores, stones, cloth
-  -Craft crowns, rings, staves, necklaces, off-hand items, trinkets, bangles/bracelets, and neck+ring enchants
-  -Two specializations: Goldsmithing, Gemology
--New secondary profession: [Survival](Survival)
-  -New gathering mechanic: Woodcutting (including Find Trees minimap tracker)
-  -Main resources: Wood, various other materials
-  -Craft trap nets (to root enemies), fishing poles, tents (grant rested XP), skinner's/miner's/fishing bags, bows, gathering trinkets (increasing drop chance of Black Lotus or Arcane Crystals), various utility items
-  -Unlocks Gardening: Harvest buff food that stacks with buffs from [Cooking](Cooking)
+- New primary profession: [Jewelcrafting](Jewelcrafting)
+  - Main resources: Ores, stones, cloth
+  - Craft crowns, rings, staves, necklaces, off-hand items, trinkets, bangles/bracelets, and neck+ring enchants
+  - Two specializations: Goldsmithing, Gemology
+- New secondary profession: [Survival](Survival)
+  - New gathering mechanic: Woodcutting (including Find Trees minimap tracker)
+  - Main resources: Wood, various other materials
+  - Craft trap nets (to root enemies), fishing poles, tents (grant rested XP), skinner's/miner's/fishing bags, bows, gathering trinkets (increasing drop chance of Black Lotus or Arcane Crystals), various utility items
+  - Unlocks Gardening: Harvest buff food that stacks with buffs from [Cooking](Cooking)
 
 ## New reputation factions
 - [Draenei Exiles](Draenei Exiles)
@@ -980,15 +980,15 @@ Most vanilla factions have been reworked with new quests, rewards, and NPCs.
 
 ## New leveling challenges
 Most challenges reward a specific character achievement title. Slow and Steady rewards certain items every 10 levels and a mount at level 60. All challenges except for Level One Lunatic can be combined with each other.
--[Hardcore](Hardcore) - Your character becomes mortal and will not be playable anymore if it dies before level 60
--[Traveling Craftmaster](Traveling Craftmaster) - Only self-crafted items can be equipped
--[Slow and Steady](Slow and Steady) - Creature kills give only 50% XP and you lose 5% of your level's XP upon each death
--[Level One Lunatic](Level One Lunatic) - Reach exalted with a faction, gain 10,000 honorable kills, get the Arena Master trinket, or complete 100 quests all while staying level 1
--[Boaring Adventure](Boaring Adventure) - Gain XP only from killing boars throughout the world
--[War Mode](War Mode) - PvP mode is permanently activated (only for PvE servers)
--[Exhaustion](Exhaustion) - No longer gain rested XP, but weapon skill gain is doubled
--[Vagrant's Endeavor](Vagrant's Endeavor) - Only items of poor (grey) and common (white) quality can be equipped 
--[Trial of Heroism](Trial of Heroism) - XP can only be gained from completing and killing quests and creatures, respectively, that are orange or red, i.e., at least 3 levels above you
+- [Hardcore](Hardcore) - Your character becomes mortal and will not be playable anymore if it dies before level 60
+- [Traveling Craftmaster](Traveling Craftmaster) - Only self-crafted items can be equipped
+- [Slow and Steady](Slow and Steady) - Creature kills give only 50% XP and you lose 5% of your level's XP upon each death
+- [Level One Lunatic](Level One Lunatic) - Reach exalted with a faction, gain 10,000 honorable kills, get the Arena Master trinket, or complete 100 quests all while staying level 1
+- [Boaring Adventure](Boaring Adventure) - Gain XP only from killing boars throughout the world
+- [War Mode](War Mode) - PvP mode is permanently activated (only for PvE servers)
+- [Exhaustion](Exhaustion) - No longer gain rested XP, but weapon skill gain is doubled
+- [Vagrant's Endeavor](Vagrant's Endeavor) - Only items of poor (grey) and common (white) quality can be equipped 
+- [Trial of Heroism](Trial of Heroism) - XP can only be gained from completing and killing quests and creatures, respectively, that are orange or red, i.e., at least 3 levels above you
 
 ## New items
 All vanilla tier sets and their set bonuses as well as many crafted items were revamped to varying degrees.

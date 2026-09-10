@@ -52,8 +52,8 @@ Another one of Kaltunk's recruits, hm?
 A sorry state of affairs we find ourselves in if this is the best the Horde can produce. No matter. By the time we think you're ready to leave the [Valley](Valley of Trials), you'll be a proud warrior of the Horde.
 
 ## Progression
-1.[quest: Your Place In The World]
-1.[quest: Cutting Teeth]
-1.[quest: Sting of the Scorpid]
+1. [quest: Your Place In The World]
+1. [quest: Cutting Teeth]
+1. [quest: Sting of the Scorpid]
 
 ## External Links

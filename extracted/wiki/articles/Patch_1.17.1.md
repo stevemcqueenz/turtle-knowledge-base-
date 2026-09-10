@@ -10,7 +10,7 @@ categories: ["Patches"]
 ---
 # Patch 1.17.1
 
--Patch 1.17.1: Labor and Legacy** was released on December 20, 2023.
+**Patch 1.17.1: Labor and Legacy** was released on December 20, 2023.
 
 ## Trailer
 ## Patch notes

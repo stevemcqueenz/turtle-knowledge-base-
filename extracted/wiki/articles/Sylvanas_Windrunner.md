@@ -96,14 +96,14 @@ Sylvanas sent adventurers to train under Nathanos, and later to help remove the 
 Be quick. There is much to prepare for. Our enemies will not be stalled by idle chatter, the Forsaken must be the same.
 
 ### On-click
--We are the [Forsaken](Forsaken). We will slaughter *anyone* who stands in our way.
--What are we if not slaves to this torment?
--What joy is there in this curse?
--I have no time for games.
+- We are the [Forsaken](Forsaken). We will slaughter *anyone* who stands in our way.
+- What are we if not slaves to this torment?
+- What joy is there in this curse?
+- I have no time for games.
 
 ### Aggro
--Let none survive!
--May my aim be true.
+- Let none survive!
+- May my aim be true.
 
 ## Trivia
 - Though in life Sylvanas was a [high elf](high elf), her original model in the World of Warcraft was that of a tall female [night elf](night elf), but this is because that was the closest model available before *Mysteries of Azeroth*.
@@ -118,6 +118,6 @@ File:SylvanasMoA.png|Sylvanas' model in Turtle WoW.
 </gallery>
 
 ## Patch changes
--  **[Patch 1.7.0](Patch 1.7.0) (2005-09-13):** Racial "Leaders" have been strengthened, and are now worth slightly less honor.
+- **[Patch 1.7.0](Patch 1.7.0) (2005-09-13):** Racial "Leaders" have been strengthened, and are now worth slightly less honor.
 
 ## References

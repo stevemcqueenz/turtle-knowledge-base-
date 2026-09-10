@@ -10,7 +10,7 @@ categories: ["Gillijim's Isle subzones", "Turtle WoW content", "Valleys"]
 ---
 # Gillijim Canyon
 
--Gillijim Canyon** is a canyon that runs through the middle of [Gillijim's Isle](Gillijim's Isle), separating the island in two halves.
+**Gillijim Canyon** is a canyon that runs through the middle of [Gillijim's Isle](Gillijim's Isle), separating the island in two halves.
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

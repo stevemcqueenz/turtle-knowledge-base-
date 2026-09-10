@@ -23,7 +23,7 @@ categories: ["Gilneas mobs", "Turtle WoW content", "Worgen characters"]
 | location | Gilneas |
 | status | Killable |
 
--Nighthowl Alphas** are worgen found in [Gilneas](Gilneas).
+**Nighthowl Alphas** are worgen found in [Gilneas](Gilneas).
 
 ## Objective of
 - Drops [Nighthowl Shackle](Nighthowl Shackle) for [quest: Nighthowl Nuisance].

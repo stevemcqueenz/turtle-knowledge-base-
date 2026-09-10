@@ -13,15 +13,7 @@ categories: ["Alah'Thalas subzones", "Turtle WoW content"]
 The **Regency Spire** is the center of government of the [Silvermoon Remnant](Silvermoon Remnant) in [Alah'Thalas](Alah'Thalas), where the [Regency Council](Regency Council) meets and deliberates.
 
 ## NPCs
-  -Ground floor**
-- 
-- 
-- 
-- 
-- 
-
-  -Atop the spire**
-- 
-
-## Patch changes
+**Ground floor**
+- - - - - ;Atop the spire
+- ## Patch changes
 - (Patch 1.17.1|note=Added.)

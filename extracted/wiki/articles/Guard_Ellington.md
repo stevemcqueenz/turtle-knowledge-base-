@@ -24,10 +24,10 @@ categories: ["Human characters", "Northwind NPCs", "Stormwind (kingdom)", "Turtl
 | location | Lion's Watch, Northwind |
 | status | Alive |
 
--Guard Ellington** is a [human](human) located at [Lion's Watch](Lion's Watch) in [Northwind](Northwind).
+**Guard Ellington** is a [human](human) located at [Lion's Watch](Lion's Watch) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Lion's Watch used to be heavily guarded as part of the [Merchant's Highroad](Merchant's Highroad), but nowadays only us militia folk are sticking around. Makes you think what the nobility is up to.
 
 ## Patch changes

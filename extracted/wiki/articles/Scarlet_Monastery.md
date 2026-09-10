@@ -36,14 +36,14 @@ From the [World Dungeons](https://wowpedia.fandom.com/wiki/Game_Guide/World_Dung
 Before the Third War, the Monastery served as a seminary for paladins-in-training. (ref: [quest: Mythology of the Titans])
 
 ### World of Warcraft
-  -This section concerns content related to the original *World of Warcraft*.**
+**This section concerns content related to the original *World of Warcraft*.**
 
 [Raleigh the Devout](Raleigh the Devout) believed in the cause of the Scarlet Crusade to rid Azeroth of the undead. As he spent time at the Monastery, he realized that the Crusade's grasp on reality was slipping because they thought everyone was plagued who didn't wear the tabard of the Crusade. Innocent men and women were tortured because they were supposedly plagued.
 
 [Meven Korgal](Meven Korgal) was sent from the Monastery to spy on [Deathknell](Deathknell).
 
 ## Patch changes
--  **Patch 1.3.0 (2005-03-07):**
+- **Patch 1.3.0 (2005-03-07):**
   - Capped at ten players.
   - Doors requiring the Scarlet Key can now also be opened with a [Large Seaforium Charge](Large Seaforium Charge) in addition to the [lockpick](Lockpicking) ability.
 

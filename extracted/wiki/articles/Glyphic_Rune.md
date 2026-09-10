@@ -10,8 +10,8 @@ categories: ["Turtle WoW content"]
 ---
 # Glyphic Rune
 
--Glyphic Rune** is provided as an objective for [quest: Glyphic Rune|race=dwarf|class=mage].
+**Glyphic Rune** is provided as an objective for [quest: Glyphic Rune|race=dwarf|class=mage].
 
 ## Contains
 ## Patch changes
--(Patch 1.16.0|note=Added.)
+- (Patch 1.16.0|note=Added.)

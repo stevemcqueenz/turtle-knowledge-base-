@@ -41,7 +41,7 @@ Have you found him?
 The people of Westfall are safe. Thank you, <name>. These lands will heal in time.
 
 ## Notes
-  -Speaking with Farad**
+**Speaking with Farad**
 
   Get out of my shack.
 
@@ -55,7 +55,7 @@ The people of Westfall are safe. Thank you, <name>. These lands will heal in tim
 
   > Gossip: *<Attack.>*
 
-  -Death**
+**Death**
   **Farad Wrightsow says:** If only you knew... Maltimor, I hope the Twisting Nether... takes you...
   **Gazzirik says:** That was a bad deal...
 

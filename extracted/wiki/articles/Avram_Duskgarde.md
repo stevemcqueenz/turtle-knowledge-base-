@@ -24,7 +24,7 @@ categories: ["Gilneas (kingdom)", "Gilneas NPCs", "Human characters", "Turtle Wo
 | location | Hollow Web Cemetery, Gilneas |
 | status | Alive |
 
--Avram Duskgarde** is a [human](human) located in [Hollow Web Cemetery](Hollow Web Cemetery) in [Gilneas](Gilneas).
+**Avram Duskgarde** is a [human](human) located in [Hollow Web Cemetery](Hollow Web Cemetery) in [Gilneas](Gilneas).
 
 ## Quotes
 <The man stares at you with a look of intensity.>

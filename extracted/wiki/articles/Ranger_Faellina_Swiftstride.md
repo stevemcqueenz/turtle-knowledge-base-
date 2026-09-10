@@ -24,7 +24,7 @@ categories: ["Farstriders", "Grim Reaches NPCs", "High elf characters", "Quest g
 | location | Dun Kithas, Grim Reaches |
 | status | Alive |
 
--Ranger Faellina Swiftstride** is a [high elf](high elf) quest giver located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
+**Ranger Faellina Swiftstride** is a [high elf](high elf) quest giver located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
 
 ## Quests
 - [quest: Honoring Old Alliances] 
@@ -32,7 +32,7 @@ categories: ["Farstriders", "Grim Reaches NPCs", "High elf characters", "Quest g
 - [quest: To Cure the Withered] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 [Lord Theron](Lor'themar Theron) tasked us with a mission of great importance. If you have nothing of value to report, I suggest you refrain from disrupting our work here.
 
 ## Patch changes

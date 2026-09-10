@@ -10,7 +10,7 @@ categories: ["Alchemy crafting reagent items", "Herbalism gathered items", "Herb
 ---
 # Mountain Silversage
 
--Mountain Silversage** is an [Herb](Herb) that can be gathered with [Herbalism](Herbalism) (280).
+**Mountain Silversage** is an [Herb](Herb) that can be gathered with [Herbalism](Herbalism) (280).
 
 ## Source
 Mountain Silversage can be found on mountainsides in various high level zones of Azeroth. Often, reaching the herb node requires a bit of climbing.

@@ -13,8 +13,8 @@ categories: ["Northwind objects"]
 A **Half-Buried Container** can be found in a ruined home in the mountains to the west of [Sherwood Quarry](Sherwood Quarry) in [Northwind](Northwind). Interacting with it while having [Perfumed Letter #2](Perfumed Letter (2)) allows for the acquisition of [Perfumed Letter #3](Perfumed Letter (3)).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Halfway stuck in the dirt.
 
-  -With [Perfumed Letter #2](Perfumed Letter (2))**
+**With [Perfumed Letter #2](Perfumed Letter (2))**
   > Gossip: *<Pry open the container.>*

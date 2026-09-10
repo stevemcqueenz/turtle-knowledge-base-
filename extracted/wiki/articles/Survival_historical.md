@@ -12,7 +12,7 @@ categories: ["Professions", "Turtle WoW content"]
 
 *This article is about the original iteration of the Survival profession. For the modern profession, see [Survival](Survival).*
 
-  -Survival** is a secondary professions in Turtle WoW which enables players to create a number of tools to aid them in overcoming obstacles and taming the wilderness.
+**Survival** is a secondary professions in Turtle WoW which enables players to create a number of tools to aid them in overcoming obstacles and taming the wilderness.
 
 ## Overview
   *Survivalists practice outdoor skills that aid them in surviving the dangerous wilds of Azeroth. With the proper materials, they can create shelter and heat sources to survive the untamed wilderness.*
@@ -66,5 +66,5 @@ Gardening can only be done in gardening zones located outside [Stormwind City](S
 
 ## Patch changes
 - (Patch 1.18.1|note=[Overhauled](Survival).)
--  **[Hotfix](https://forum.turtlecraft.gg/viewtopic.php?f=2&t=1036) (2020-05-07):** Gardening added.
--  **[Hotfix](https://forum.turtlecraft.gg/viewtopic.php?t=519) (2019-05-10):** Added.
+- **[Hotfix](https://forum.turtlecraft.gg/viewtopic.php?f=2&t=1036) (2020-05-07):** Gardening added.
+- **[Hotfix](https://forum.turtlecraft.gg/viewtopic.php?t=519) (2019-05-10):** Added.

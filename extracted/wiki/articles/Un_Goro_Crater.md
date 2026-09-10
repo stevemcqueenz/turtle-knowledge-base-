@@ -34,7 +34,7 @@ Aside from this direct reference little is known regarding the crater's fascinat
 [Aru-Talis](Aru-Talis) may be an incorrect night elven legend about Un'Goro Crater.
 
 ## Getting there
-  -Alliance and Horde:Un'Goro can be reached from [Silithus](Silithus) to the west or [Tanaris](Tanaris) to the east. In the South-Western most point of Tanaris there is a path between two dark-grey stone pillars (in [Thistleshrub Valley](Thistleshrub Valley)). In some places it is possible to jump into the crater in stages, avoiding death. However, those who don't want to take the chance can use the ramps leading down to the crater floor, found in southwestern [Tanaris](Tanaris) and northeastern [Silithus](Silithus). The flight path for the zone is in the center of the northern crater wall, known as [Marshal's Refuge](Marshal's Refuge).**
+**Alliance and Horde:Un'Goro can be reached from [Silithus](Silithus) to the west or [Tanaris](Tanaris) to the east. In the South-Western most point of Tanaris there is a path between two dark-grey stone pillars (in [Thistleshrub Valley](Thistleshrub Valley)). In some places it is possible to jump into the crater in stages, avoiding death. However, those who don't want to take the chance can use the ramps leading down to the crater floor, found in southwestern [Tanaris](Tanaris) and northeastern [Silithus](Silithus). The flight path for the zone is in the center of the northern crater wall, known as [Marshal's Refuge](Marshal's Refuge).**
 
 ## Geography
 Un'Goro is a massive crater full of amazingly lush jungle and teeming with life. [Dinosaur](Dinosaur)s roam freely here, as the land is wild and unpredictable. At the center of the crater a volcano rises, and [Fire Elemental](Fire Elemental)s prowl. In addition, many strange and beautiful crystals dot the landscape, their purpose unknown to most but an object of research for some of the adventurous scientists camped in the area.
@@ -56,8 +56,8 @@ WorldMap-UngoroCrater-old.jpg|Map of Un'Goro Crater prior to [patch 1.15.0](patc
 
 ### Travel hubs
 #### [Flight path](Flight path)s from [Marshal's Refuge](Marshal's Refuge)
--  [Gadgetzan](Gadgetzan), [Tanaris](Tanaris)
--  [Cenarion Hold](Cenarion Hold), [Silithus](Silithus)
+- [Gadgetzan](Gadgetzan), [Tanaris](Tanaris)
+- [Cenarion Hold](Cenarion Hold), [Silithus](Silithus)
 
 ### Adjacent regions
 {| class="fandom-table"
@@ -139,10 +139,10 @@ In Un'Goro there are 3 Pylons: a Northern[56, 12], Western[23, 59], and Eastern 
 
 ## Patch changes
 - (Patch 1.15.0|note=The [Shaper's Terrace](Shaper's Terrace) and [Waygate](Waygate) added.)
--  **Patch 1.11.0 (2006-06-19):** Flight point added at Marshal's Refuge.
--  **Patch 1.6.0 (2005-07-12):** Dimetradons in Un'Goro Crater should be found more regularly now.
--  **Patch 1.5.0 (2005-06-07):** Additional mithril nodes have been added in Un'Goro crater.
--  **Patch 1.2.0 (2004-12-18):** Fixed the rotating animations of the crystals in Un'Goro Crater.
--  **Patch 0.9 (2004-08-17):** Quests added.
+- **Patch 1.11.0 (2006-06-19):** Flight point added at Marshal's Refuge.
+- **Patch 1.6.0 (2005-07-12):** Dimetradons in Un'Goro Crater should be found more regularly now.
+- **Patch 1.5.0 (2005-06-07):** Additional mithril nodes have been added in Un'Goro crater.
+- **Patch 1.2.0 (2004-12-18):** Fixed the rotating animations of the crystals in Un'Goro Crater.
+- **Patch 0.9 (2004-08-17):** Quests added.
 
 ## References

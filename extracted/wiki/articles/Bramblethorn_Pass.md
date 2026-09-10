@@ -10,23 +10,12 @@ categories: ["Passes", "Quilboar territories", "Stonetalon Mountains subzones", 
 ---
 # Bramblethorn Pass
 
--Bramblethorn Pass** is a pass located in the eastern [Stonetalon Mountains](Stonetalon Mountains), in the hills above [Windshear Crag](Windshear Crag) to the southeast. Here, the Bramblethorn quillboar have discovered a great evil, now retreating to the southern passageway to avoid the ghosts of their once kin on the upper cliffs.
+**Bramblethorn Pass** is a pass located in the eastern [Stonetalon Mountains](Stonetalon Mountains), in the hills above [Windshear Crag](Windshear Crag) to the southeast. Here, the Bramblethorn quillboar have discovered a great evil, now retreating to the southern passageway to avoid the ghosts of their once kin on the upper cliffs.
 
 ## NPCs
-  -Upper pass**
-- 
-- 
-- 
-
-  -Lower pass**
-- 
-- 
-- 
-- 
-- 
-- 
-
-## Gallery
+**Upper pass**
+- - - ;Lower pass
+- - - - - - ## Gallery
 <gallery>
 Bramblethorn Pass - Lower.png|Lower Bramblethorn Pass, inhabited by the Bramblethorn quillboar.
 </gallery>

@@ -24,7 +24,7 @@ categories: ["Gilneas (kingdom)", "Gilneas NPCs", "Human characters", "Quest giv
 | location | Hollow Web Cemetery, Gilneas |
 | status | Alive |
 
--Mother Tanya** is a [human](human) [quest giver](quest giver) located in the crypt at the [Hollow Web Cemetery](Hollow Web Cemetery) in [Gilneas](Gilneas).
+**Mother Tanya** is a [human](human) [quest giver](quest giver) located in the crypt at the [Hollow Web Cemetery](Hollow Web Cemetery) in [Gilneas](Gilneas).
 
 ## Quests
 - [quest: To Numb the Pain] 

@@ -28,7 +28,7 @@ categories: ["Church of Light", "City bosses", "Human characters", "Quest givers
 | status | Alive |
 | mentors | Alonsus Faol |
 
--Archbishop Benedictus** is the current leader of the [Church of Light](Church of Light). In his youth, the kindly Benedictus was the student of Archbishop [Alonsus Faol](Alonsus Faol). Benedictus spent many years learning from his pious master and helped the Church of Light construct its most striking monument, the [Cathedral](Cathedral of Light) in [Stormwind](Stormwind City). Following Faol's death, Benedictus took charge of the Church and swore to continue the good work his mentor had begun so many years ago. (ref: *World of Warcraft: Game Manual*) According to his follower, [Commander Karl Philips](Commander Karl Philips), Benedictus was kind and wise. He asked to pity the undead Forsaken by granting them a swift death in the [Alterac Valley](Alterac Valley). (ref: [quest: The Archbishop's Mercy])
+**Archbishop Benedictus** is the current leader of the [Church of Light](Church of Light). In his youth, the kindly Benedictus was the student of Archbishop [Alonsus Faol](Alonsus Faol). Benedictus spent many years learning from his pious master and helped the Church of Light construct its most striking monument, the [Cathedral](Cathedral of Light) in [Stormwind](Stormwind City). Following Faol's death, Benedictus took charge of the Church and swore to continue the good work his mentor had begun so many years ago. (ref: *World of Warcraft: Game Manual*) According to his follower, [Commander Karl Philips](Commander Karl Philips), Benedictus was kind and wise. He asked to pity the undead Forsaken by granting them a swift death in the [Alterac Valley](Alterac Valley). (ref: [quest: The Archbishop's Mercy])
 
 ## Quests
 - [quest: Cleansing the Eye] 
@@ -50,9 +50,9 @@ My blessings go to you, <class>, and I pray they may guide and protect you durin
 - Sacrilege! Defend the cathedral!
 
 ## Patch changes
--  **Patch 1.5.0 (2005-06-07):** Archbishop Benedictus is no longer the Stormwind faction leader.
--  **Patch 1.4.1 (2005-05-05):**Archbishop Benedictus staged a temporary coup, and has taken the title of NPC leader of Stormwind City from Highlord Bolvar! Horde seeking to take out the leader of Stormwind should focus their efforts on Archbishop Benedictus for the duration. These changes will remain until the next content patch, when Highlord Bolvar reclaims his rightful throne:
-  -Archbishop Benedictus should be respawning every 2 hours.
-  -Archbishop Benedictus will give 15,000 contribution points.
+- **Patch 1.5.0 (2005-06-07):** Archbishop Benedictus is no longer the Stormwind faction leader.
+- **Patch 1.4.1 (2005-05-05):**Archbishop Benedictus staged a temporary coup, and has taken the title of NPC leader of Stormwind City from Highlord Bolvar! Horde seeking to take out the leader of Stormwind should focus their efforts on Archbishop Benedictus for the duration. These changes will remain until the next content patch, when Highlord Bolvar reclaims his rightful throne:
+  - Archbishop Benedictus should be respawning every 2 hours.
+  - Archbishop Benedictus will give 15,000 contribution points.
 
 ## References

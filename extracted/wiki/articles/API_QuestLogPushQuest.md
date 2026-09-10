@@ -14,19 +14,19 @@ Initiates the sharing of the currently viewed quest in the quest log with other 
  QuestLogPushQuest();
 ----
 
-  - *Arguments***
+** *Arguments***
 
    *none*
 
 ----
 
-  - *Returns***
+** *Returns***
 
    *<unknown>*
 
 ----
 
-  - *Example***
+** *Example***
 
   <Button name="QuestFramePushQuestButton" inherits="UIPanelButtonTemplate" text="SHARE_QUEST">
     ...
@@ -38,12 +38,12 @@ Initiates the sharing of the currently viewed quest in the quest log with other 
     </Scripts>
   </Button>
 
-  - *Result***
+** *Result***
 
  *<unknown>*
 ----
 
-  - *Description***
+** *Description***
 
    Attempt to share (push) the currently loaded quest in the quest window with other players.
    The system only attempts to push the quest to grouped players and will fail if a recipient is out of range (typically trading range), does not qualify for the quest (too low level or hasn't completed prior chain-quests) or has already completed it.

@@ -10,16 +10,10 @@ categories: ["Gilneas subzones", "Human territories", "Mines", "Turtle WoW conte
 ---
 # Dryrock Mine
 
--The Dryrock Mine** is a mithril mine that runs in the mountain beneath [Gilneas City](Gilneas City). It is responsible with supplying the Gilnean Royal Army with ore for its equipment. (ref: [quest: Heist in Dryrock Mine]) Crown Prince [Liam Greymane](Liam Greymane) and Princess [Tess Greymane](Tess Greymane) were held captive here by forces loyal to the Regent-Lords Harlow without the knowledge of [their father](Genn Greymane), who had been informed by the Regent-Lords that they had tragically perished at sea along with [Isiden Perenolde](Isiden Perenolde). (ref: [quest: Wolf Amongst Sheep]) (ref: [Celia's Journal](Celia's Journal))
+**The Dryrock Mine** is a mithril mine that runs in the mountain beneath [Gilneas City](Gilneas City). It is responsible with supplying the Gilnean Royal Army with ore for its equipment. (ref: [quest: Heist in Dryrock Mine]) Crown Prince [Liam Greymane](Liam Greymane) and Princess [Tess Greymane](Tess Greymane) were held captive here by forces loyal to the Regent-Lords Harlow without the knowledge of [their father](Genn Greymane), who had been informed by the Regent-Lords that they had tragically perished at sea along with [Isiden Perenolde](Isiden Perenolde). (ref: [quest: Wolf Amongst Sheep]) (ref: [Celia's Journal](Celia's Journal))
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - - ## Patch changes
 - (Patch 1.17.0|note=Added.)
 
 ## References

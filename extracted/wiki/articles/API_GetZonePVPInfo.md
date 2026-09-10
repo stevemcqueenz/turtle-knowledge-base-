@@ -15,12 +15,12 @@ Returns PVP info for the current zone - doesnt seems to work at pve servers
  GetZonePVPInfo();
 </syntaxhighlight>
 ----
-  -*Arguments***
+***Arguments***
 
   *none*
 
 ----
-  -*Returns***
+***Returns***
 
   String pvpType, String factionName, Boolean isArena
   ;pvpType : "friendly", if the zone is controlled by the faction the player belongs to
@@ -30,17 +30,17 @@ Returns PVP info for the current zone - doesnt seems to work at pve servers
   ;isArena : true, if the player is in an arena, false otherwise
 
 ----
-  -*Example***
+***Example***
 <syntaxhighlight lang="lua">
  local pvpType, factionName, isArena = GetZonePVPInfo();
  
 </syntaxhighlight>
-  -*Result***
+***Result***
 <syntaxhighlight lang="lua">
  "friendly", "Alliance", false
 </syntaxhighlight>
 ----
-  -*Description***
+***Description***
 
    Returns PVP info for the current zone.
 

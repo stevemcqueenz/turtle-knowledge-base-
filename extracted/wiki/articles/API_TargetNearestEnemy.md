@@ -14,7 +14,7 @@ Selects the nearest enemy as the current target.
  TargetNearestEnemy([reverse]);
 ----
 
-  - *Arguments***
+** *Arguments***
 
    ([reverse])
 
@@ -23,21 +23,21 @@ Selects the nearest enemy as the current target.
 
 ----
 
-  - *Returns***
+** *Returns***
 
   ; nil
 
 ----
 
-  - *Example***
+** *Example***
 
  TargetNearestEnemy();
 
-  - *Result***
+** *Result***
 
 ----
 
-  - *Description***
+** *Description***
 
    Selects the nearest enemy as the current target.
    This appears to be equivalent to pressing TAB, as it only cycles through enemies that you are facing, even if there are enemies behind you that are closer.

@@ -21,7 +21,7 @@ categories: ["Moonwhisper Coast mobs", "Plainstriders", "Turtle WoW content"]
 | creature | Beast |
 | location | Moonwhisper Coast |
 
--Moonstrider Matriarchs** are [plainstrider](plainstrider)s located in [Moonwhisper Coast](Moonwhisper Coast).
+**Moonstrider Matriarchs** are [plainstrider](plainstrider)s located in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Objective of
 - Drops [Moonstrider Feather](Moonstrider Feather) for [quest: Starstrider Headdress].

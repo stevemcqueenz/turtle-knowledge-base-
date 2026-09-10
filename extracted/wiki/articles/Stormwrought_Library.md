@@ -13,7 +13,4 @@ categories: ["Libraries", "Stormwrought Ruins subzones"]
 The **Stormwrought Library** is a library inside [Stormwrought Ruins](Stormwrought Ruins). It is here that [Librarian Theodorus](Librarian Theodorus) can be fought.
 
 ## NPCs
-- 
-- 
-- 
--
+- - - -

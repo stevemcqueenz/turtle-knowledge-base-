@@ -23,7 +23,7 @@ categories: ["Human characters", "Scarlet Crusade", "Scarlet Enclave NPCs", "Tur
 | creature | Humanoid |
 | location | King's Harbor, Scarlet Enclave |
 
--Embertide Crewmen** are humans located in [King's Harbor](King's Harbor) in the [Scarlet Enclave](Scarlet Enclave). They are crewmen of the *Embertide*, a ship of the [Scarlet Fleet](Scarlet Fleet).
+**Embertide Crewmen** are humans located in [King's Harbor](King's Harbor) in the [Scarlet Enclave](Scarlet Enclave). They are crewmen of the *Embertide*, a ship of the [Scarlet Fleet](Scarlet Fleet).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

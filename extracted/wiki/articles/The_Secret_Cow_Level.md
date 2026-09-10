@@ -22,6 +22,6 @@ Some said you might reach the cow level playing a naked tauren warrior on hardco
 
 To this date, you can still find glorious adventureres talking about it, such as:
 
--"Or at least... that's what they say..."*
+*"Or at least... that's what they say..."*
 
--"You damn right thats what we say!"*
+*"You damn right thats what we say!"*

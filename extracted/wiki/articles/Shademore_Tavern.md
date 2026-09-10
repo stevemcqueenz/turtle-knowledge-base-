@@ -10,21 +10,8 @@ categories: ["Alliance quest hubs", "Gilneas subzones", "Human territories", "In
 ---
 # Shademore Tavern
 
--Shademore Tavern** is an inn located south of the [Ruins of Greyshire](Ruins of Greyshire) in [Gilneas](Gilneas).
+**Shademore Tavern** is an inn located south of the [Ruins of Greyshire](Ruins of Greyshire) in [Gilneas](Gilneas).
 
 ## Inhabitants
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - - - - - - - - - ## Patch changes
 - (Patch 1.17.0|note=Added.)

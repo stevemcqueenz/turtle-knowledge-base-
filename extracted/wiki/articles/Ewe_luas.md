@@ -25,13 +25,13 @@ categories: ["Mage trainers", "Ogre mages", "Orgrimmar NPCs", "Turtle WoW conten
 | location | Cleft of Shadows, Orgrimmar |
 | status | Alive |
 
--Ewe'luas** is an [ogre mage](ogre mage) mage trainer located in the [Cleft of Shadows](Cleft of Shadows) in [Orgrimmar](Orgrimmar).
+**Ewe'luas** is an [ogre mage](ogre mage) mage trainer located in the [Cleft of Shadows](Cleft of Shadows) in [Orgrimmar](Orgrimmar).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Greetings, mage. Are you here to learn of the hidden arts?
 
-  -Non-mage gossip**
+**Non-mage gossip**
 Greetings, <class>. I pity your kind, for the secrets of true magic are beyond you...
 
 ## Patch changes

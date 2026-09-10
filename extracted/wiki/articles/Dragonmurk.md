@@ -10,4 +10,4 @@ categories: ["Black Dragonflight", "Dragonkin", "Dustwallow Marsh subzones", "Pa
 ---
 # Dragonmurk
 
--The Dragonmurk** is a section of southern [Dustwallow Marsh](Dustwallow Marsh) where [dragon](dragon) whelps and [dragonspawn](dragonspawn) of the [black dragonflight](black dragonflight) are very prolific. Surrounded by the Dragonmurk are [the Den of Flame](the Den of Flame) and the [Stonemaul Ruins](Stonemaul Ruins), both of which are also inhabited by black [dragonspawn](dragonspawn).
+**The Dragonmurk** is a section of southern [Dustwallow Marsh](Dustwallow Marsh) where [dragon](dragon) whelps and [dragonspawn](dragonspawn) of the [black dragonflight](black dragonflight) are very prolific. Surrounded by the Dragonmurk are [the Den of Flame](the Den of Flame) and the [Stonemaul Ruins](Stonemaul Ruins), both of which are also inhabited by black [dragonspawn](dragonspawn).

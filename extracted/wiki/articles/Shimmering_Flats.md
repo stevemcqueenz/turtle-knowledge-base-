@@ -23,18 +23,15 @@ Thanks to goblin prospecting, the large salt flat is actually a rich source of o
 The area is full of [turtle](turtle)s, [buzzard](buzzard)s, scorpids, and basilisks. A group of [dwarven](Dwarf) archaeologists were driven out of the ruins in the southwest when they inadvertently dug into a subterranean [silithid](silithid) hive.
 
 ## Trivia
--The Shimmering Flats appear to be based on the Bonneville Flats in Utah, or Arizona's flats, many of which are test sites for rocket cars and airplanes.
--The area must have been a lake (due to the fact of the boat)and seems to have a long river through Thousand Needles and Feralas and emptied into the Veiled Sea.
+- The Shimmering Flats appear to be based on the Bonneville Flats in Utah, or Arizona's flats, many of which are test sites for rocket cars and airplanes.
+- The area must have been a lake (due to the fact of the boat)and seems to have a long river through Thousand Needles and Feralas and emptied into the Veiled Sea.
 
 ## History
 As vicious as they are lovely [harpies](harpies) once moved on the sands of the Scorched Basin vying with the [centaur](centaur) and [Razormane](Razormane)s for resources. The tileset is called "Barrens".
 
 ## Shimmering Flats NPCs
 - [Wizzle Brassbolts](Wizzle Brassbolts) *quest giver*
-  - 
-  - 
-
-- Engineering Supplies ([Jinky Twizzlefixxit](Jinky Twizzlefixxit))
+  -   - * Engineering Supplies ([Jinky Twizzlefixxit](Jinky Twizzlefixxit))
   - Standard engineering supplies
   - [Schematic: Lovingly Crafted Boomstick](Schematic: Lovingly Crafted Boomstick)  10 (g/s/c)
   - [Schematic: Gnomish Universal Remote](Schematic: Gnomish Universal Remote)  12 (g/s/c) *long restock timer* ([Limited Sale Recipe](Limited Sale Recipe))
@@ -43,4 +40,4 @@ As vicious as they are lovely [harpies](harpies) once moved on the sands of the 
 
 - Drink vendor ([Riznek](Riznek)) *wandering*
   - Mana drinks from [Refreshing Spring Water](Refreshing Spring Water) to [Morning Glory Dew](Morning Glory Dew)
-  -*Ice Cream Vendor ([Brivelthwerp](Brivelthwerp)) sells Ice Cream.
+  - *Ice Cream Vendor ([Brivelthwerp](Brivelthwerp)) sells Ice Cream.

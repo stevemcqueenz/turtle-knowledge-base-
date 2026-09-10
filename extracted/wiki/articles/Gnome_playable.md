@@ -18,12 +18,12 @@ Gnomes start out with their dwarven cousins in [Dun Morogh](Dun Morogh)'s [Coldr
 
 ## Background
 ### Creation screen description
--Though small in stature, the gnomes of Khaz Modan have used their great intellect to secure a place in history. Indeed, their subterranean kingdom, Gnomeregan, was once a marvel of steam-driven technology. Even so, due to a massive trogg invasion, the city was lost. Now its builders are vagabonds in the dwarven lands, aiding their allies as best they can.*
+*Though small in stature, the gnomes of Khaz Modan have used their great intellect to secure a place in history. Indeed, their subterranean kingdom, Gnomeregan, was once a marvel of steam-driven technology. Even so, due to a massive trogg invasion, the city was lost. Now its builders are vagabonds in the dwarven lands, aiding their allies as best they can.*
 
 ### Opening cutscene
--The eccentric, often brilliant gnomes are held as one of the most peculiar races of the world. With their obsession for developing radical new technologies and constructing marvels of mind-bending engineering, it’s a wonder that any gnomes have survived to proliferate. Over the years, the gnomes have contributed ingenious weapons to aid the Grand Alliance in its fierce battles against the Horde. Thriving in the wondrous techno-city of Gnomeregan, the gnomes shared the resources of the forested Dun Morogh peaks with their dwarven cousins. Yet recently, a barbaric menace rose up from the bowels of the earth and invaded Gnomeregan.*
+*The eccentric, often brilliant gnomes are held as one of the most peculiar races of the world. With their obsession for developing radical new technologies and constructing marvels of mind-bending engineering, it’s a wonder that any gnomes have survived to proliferate. Over the years, the gnomes have contributed ingenious weapons to aid the Grand Alliance in its fierce battles against the Horde. Thriving in the wondrous techno-city of Gnomeregan, the gnomes shared the resources of the forested Dun Morogh peaks with their dwarven cousins. Yet recently, a barbaric menace rose up from the bowels of the earth and invaded Gnomeregan.*
 
--Aided by their dwarven allies, the gnomes fought a valiant battle to save their beloved city. Nevertheless, Gnomeregan was irrevocably lost. The surviving gnomes flew to the safety of the dwarf stronghold of Ironforge. There they remained; devising strategies to retake their city. As a gnome of proud standing, it falls to you to answer the challenge and lead your curious people to a brighter future.*
+*Aided by their dwarven allies, the gnomes fought a valiant battle to save their beloved city. Nevertheless, Gnomeregan was irrevocably lost. The surviving gnomes flew to the safety of the dwarf stronghold of Ironforge. There they remained; devising strategies to retake their city. As a gnome of proud standing, it falls to you to answer the challenge and lead your curious people to a brighter future.*
 
 ## Character
 ### Classes
@@ -34,7 +34,7 @@ Gnomes start out with their dwarven cousins in [Dun Morogh](Dun Morogh)'s [Coldr
 - Warrior
 
 ### Racial traits
-  -Current**
+**Current**
 {| class="fandom-table" style="width: 430px; text-align:left;"
 ! style="text-align:left" |Escape Artist - 0.5 sec cast - 1.5 min cooldown
 |-
@@ -54,7 +54,7 @@ Gnomes start out with their dwarven cousins in [Dun Morogh](Dun Morogh)'s [Coldr
 |- class="alt"
 |}
 
-  -Removed**
+**Removed**
 {| class="fandom-table" style="width: 430px; text-align:left;"
 ! style="text-align:left" |Arcane Resistance - passive
 |-
@@ -64,8 +64,8 @@ Gnomes start out with their dwarven cousins in [Dun Morogh](Dun Morogh)'s [Coldr
 
 ## Videos
 ## Patch changes
--  **[Patch 1.17.2](Patch 1.17.2) (2024-11-01):**
+- **[Patch 1.17.2](Patch 1.17.2) (2024-11-01):**
   - Escape Artist’s cooldown has been increased from 1 minute to 1.5 minutes.
   - Arcane Resistance removed.
   - New racial: Disassembler: Damage dealt versus Mechanicals increased by 5%.
--  **[Patch 1.15.0](Patch 1.15.0) (2021-01-05):** Gnomes now have access to the hunter class.
+- **[Patch 1.15.0](Patch 1.15.0) (2021-01-05):** Gnomes now have access to the hunter class.

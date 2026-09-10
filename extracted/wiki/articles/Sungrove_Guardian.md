@@ -23,7 +23,7 @@ categories: ["Guards", "Moonwhisper Coast NPCs", "Night elf characters", "Tauren
 | creature | Humanoid |
 | location | Grove of the Sun, Moonwhisper Coast |
 
--Sungrove Guardians** are [night elf](night elf) and [tauren](tauren) guards located at the [Grove of the Sun](Grove of the Sun) in [Moonwhisper Coast](Moonwhisper Coast).
+**Sungrove Guardians** are [night elf](night elf) and [tauren](tauren) guards located at the [Grove of the Sun](Grove of the Sun) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

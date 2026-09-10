@@ -10,4 +10,4 @@ categories: ["Caves", "Silithid", "Tanaris subzones"]
 ---
 # Noxious Lair
 
--The Noxious Lair** is a minor [silithid](silithid) [hive](Silithid#Hives) found in southwestern [Tanaris](Tanaris).
+**The Noxious Lair** is a minor [silithid](silithid) [hive](Silithid#Hives) found in southwestern [Tanaris](Tanaris).

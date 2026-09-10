@@ -23,7 +23,7 @@ categories: ["Oozes", "Stormwrought Ruins mobs", "Turtle WoW content"]
 | location | Stormwrought Ruins |
 | status | Killable |
 
--Corroding Masses** are [ooze](ooze)s located in [Stormwrought Ruins](Stormwrought Ruins).
+**Corroding Masses** are [ooze](ooze)s located in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Abilities
 - Corrosive Acid Breath

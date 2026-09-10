@@ -26,7 +26,7 @@ categories: ["Blackrock clan", "Burning Steppes NPCs", "Orc characters", "Quest 
 | location | Karfang Hold, Burning Steppes |
 | status | Alive |
 
--Molk** is an [orc](orc) [quest giver](quest giver) located in [Karfang Hold](Karfang Hold) in the [Burning Steppes](Burning Steppes).
+**Molk** is an [orc](orc) [quest giver](quest giver) located in [Karfang Hold](Karfang Hold) in the [Burning Steppes](Burning Steppes).
 
 ## Quests
 - [quest: Report to Molk] 
@@ -34,7 +34,7 @@ categories: ["Blackrock clan", "Burning Steppes NPCs", "Orc characters", "Quest 
 - [quest: Removing Vital Assets] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 What is it that you want? Can you not see that I am busy, whelpling?
 
 ## Patch changes

@@ -25,7 +25,7 @@ categories: ["Armor vendors", "Armorsmiths", "Grim Reaches NPCs", "Turtle WoW co
 | location | East Ridge Outpost, Grim Reaches |
 | status | Alive |
 
--Dorlegg Firegrip** is a [Wildhammer dwarf](Wildhammer dwarf) armor vendor located in [East Ridge Outpost](East Ridge Outpost) in the [Grim Reaches](Grim Reaches).
+**Dorlegg Firegrip** is a [Wildhammer dwarf](Wildhammer dwarf) armor vendor located in [East Ridge Outpost](East Ridge Outpost) in the [Grim Reaches](Grim Reaches).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

@@ -23,7 +23,7 @@ categories: ["Gilneas mobs", "Turtle WoW content", "Worgen characters"]
 | location | Gilneas |
 | status | Killable |
 
--Nighthowl Worgen** are worgen found in [Gilneas](Gilneas).
+**Nighthowl Worgen** are worgen found in [Gilneas](Gilneas).
 
 ## Abilities
 - **Piercing Howl** — Silenced.

@@ -33,39 +33,22 @@ categories: ["Alliance quest hubs", "Alliance settlements", "Feralas subzones", 
 | class | No |
 | status | Active |
 
--Thalanaar** is a [night elf](night elf) outpost located on the border of [Feralas](Feralas) and the [Thousand Needles](Thousand Needles). Once a small elven outpost on the border of the Thousand Needles, it has increased in size significantly in recent times. Led by [Commander Anashya Starfall](Commander Anashya Starfall), a group of Sentinels at odds with [Shandris Feathermoon](Shandris Feathermoon) now occupy Thalanaar, expanding their influence in both Feralas and Thousand Needles.
+**Thalanaar** is a [night elf](night elf) outpost located on the border of [Feralas](Feralas) and the [Thousand Needles](Thousand Needles). Once a small elven outpost on the border of the Thousand Needles, it has increased in size significantly in recent times. Led by [Commander Anashya Starfall](Commander Anashya Starfall), a group of Sentinels at odds with [Shandris Feathermoon](Shandris Feathermoon) now occupy Thalanaar, expanding their influence in both Feralas and Thousand Needles.
 
 The [Tribal Leatherworking](Tribal Leatherworking) trainer [Caryssia Moonhunter](Caryssia Moonhunter) can be found here.
 
 ## Travel connections
 ### Flight
-  - [Feathermoon Stronghold](Feathermoon Stronghold), [Feralas](Feralas)**
-  - [Theramore Isle](Theramore Isle), [Dustwallow Marsh](Dustwallow Marsh)**
-  - [Gadgetzan](Gadgetzan), [Tanaris](Tanaris)**
+** [Feathermoon Stronghold](Feathermoon Stronghold), [Feralas](Feralas)**
+** [Theramore Isle](Theramore Isle), [Dustwallow Marsh](Dustwallow Marsh)**
+** [Gadgetzan](Gadgetzan), [Tanaris](Tanaris)**
 
 ## Inhabitants
 ### Quest givers
-- 
-- 
-- 
-- 
-- 
-- 
-
-### Trainers
-- 
-
-### Goods and services
-- 
-- 
-- 
-
-### Additional characters
-- 
-- 
-- 
-
-## Gallery
+- - - - - - ### Trainers
+- ### Goods and services
+- - - ### Additional characters
+- - - ## Gallery
 <gallery>
 Thalanaar2.jpg|Thalanaar prior to being expanded.
 </gallery>

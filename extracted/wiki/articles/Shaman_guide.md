@@ -10,7 +10,7 @@ categories: ["Classes", "Shaman"]
 ---
 # Shaman guide
 
--This guide was originally posted in the Turtle WoW forum by "Skegg" in September and October 2025. This wiki page is to ensure it remains accessible.*
+*This guide was originally posted in the Turtle WoW forum by "Skegg" in September and October 2025. This wiki page is to ensure it remains accessible.*
 
 I wrote this out as my personal levelling plan after compiling a lot of different tips from discussions in the #shaman channel on the Turtle WoW Discord. Since I noticed a lot of people asking for one, I'll share this in case it helps anyone save time by not having to research the same stuff. I'll be editing this if I come across any more relevant info, and I'd be grateful for any corrections or additions that anyone is willing to make.
 
@@ -321,7 +321,7 @@ Resto:
 
 - Place all totems:
 
-1.showtooltip Flametongue Totem
+1. showtooltip Flametongue Totem
 
 /cast Flametongue Totem
 

@@ -29,29 +29,15 @@ categories: ["Alliance quest hubs", "Alliance settlements", "Balor subzones", "T
 | flightpath | Yes |
 | status | Active |
 
--SI:7 Outpost** is an [Alliance](Alliance) outpost located on one of the southeastern islands of the region of [Balor](Balor).
+**SI:7 Outpost** is an [Alliance](Alliance) outpost located on one of the southeastern islands of the region of [Balor](Balor).
 
 ## Travel connections
 ### Flight
-  - [Sentinel Hill](Sentinel Hill), [Westfall](Westfall)**
+** [Sentinel Hill](Sentinel Hill), [Westfall](Westfall)**
 
 ## NPCs
 ### Quest givers
-- 
-- 
-- 
-- 
-- 
-- 
-
-### Goods and services
-- 
-- 
-- 
-- 
-
-### Additional characters
-- 
-
-## Patch changes
+- - - - - - ### Goods and services
+- - - - ### Additional characters
+- ## Patch changes
 - (Patch 1.18.0|note=Added.)

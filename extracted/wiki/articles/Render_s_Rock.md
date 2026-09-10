@@ -10,6 +10,6 @@ categories: ["Caves", "Orc territories", "Redridge Mountains subzones"]
 ---
 # Render's Rock
 
--Render's Rock** is a large cave in the northwestern [Redridge Mountains](Redridge Mountains) near the entrance to the [Burning Steppes](Burning Steppes). It contains a number of powerful [Blackrock](Blackrock clan) [orc](orc)s.
+**Render's Rock** is a large cave in the northwestern [Redridge Mountains](Redridge Mountains) near the entrance to the [Burning Steppes](Burning Steppes). It contains a number of powerful [Blackrock](Blackrock clan) [orc](orc)s.
 
 Render's Rock is also the location of the wounded [Corporal Keeshan](Corporal Keeshan), who needs help in getting to [Lakeshire](Lakeshire) in one piece.

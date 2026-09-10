@@ -24,7 +24,7 @@ categories: ["Blackwater Raiders", "Booty Bay characters", "Goblin characters", 
 | location | Booty Bay, Stranglethorn Vale |
 | status | Alive |
 
--First Mate Crazz** is a [goblin](goblin) [quest giver](quest giver) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). He is affiliated with the [Blackwater Raiders](Blackwater Raiders). He is eager to investigate [Bloodsail Buccaneers](Bloodsail Buccaneers) activity in the area.
+**First Mate Crazz** is a [goblin](goblin) [quest giver](quest giver) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). He is affiliated with the [Blackwater Raiders](Blackwater Raiders). He is eager to investigate [Bloodsail Buccaneers](Bloodsail Buccaneers) activity in the area.
 
 ## Quests
 - [quest: The Bloodsail Buccaneers] 

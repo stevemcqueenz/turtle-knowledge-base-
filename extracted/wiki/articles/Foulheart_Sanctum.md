@@ -10,14 +10,7 @@ categories: ["Draenei territories", "Moonwhisper Coast subzones", "Satyr territo
 ---
 # Foulheart Sanctum
 
--Foulheart Sanctum** is a grotto located in [Moonwhisper Coast](Moonwhisper Coast). It is inhabited by Foulheart satyr that ship corrupted [draenethyst](draenethyst) acquired from the [Fallen Ones](Fallen Ones) to [Selenaxx Foulheart](Selenaxx Foulheart) in [Timbermaw Hold](Timbermaw Hold).
+**Foulheart Sanctum** is a grotto located in [Moonwhisper Coast](Moonwhisper Coast). It is inhabited by Foulheart satyr that ship corrupted [draenethyst](draenethyst) acquired from the [Fallen Ones](Fallen Ones) to [Selenaxx Foulheart](Selenaxx Foulheart) in [Timbermaw Hold](Timbermaw Hold).
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
-- 
-- 
--  (rare)
+- - - - - - - - (rare)

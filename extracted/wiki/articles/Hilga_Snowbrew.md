@@ -24,10 +24,10 @@ categories: ["Dwarf characters", "Explorers' League", "Grim Reaches NPCs", "Turt
 | location | Dun Kithas, Grim Reaches |
 | status | Alive |
 
--Hilga Snowbrew** is a [dwarf](dwarf) located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
+**Hilga Snowbrew** is a [dwarf](dwarf) located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I came here to discover relics of the past, and now we're stuck here waiting around to hear more news from the Explorer's League.
 
 ## Patch changes

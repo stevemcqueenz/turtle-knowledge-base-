@@ -14,26 +14,26 @@ Throws an error when the choose reward method doesn't work.
  QuestChooseRewardError();
 ----
 
-  - *Arguments***
+** *Arguments***
 
    *none*
 
 ----
 
-  - *Returns***
+** *Returns***
 
   ; nil
 
 ----
 
-  - *Example***
+** *Example***
 
  QuestChooseRewardError();
 
-  - *Result***
+** *Result***
 
 ----
 
-  - *Description***
+** *Description***
 
    Throws an error when the choose reward method doesn't work.

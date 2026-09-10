@@ -24,7 +24,7 @@ categories: ["Draenei characters", "Moonwhisper Coast NPCs", "Quest givers", "Tu
 | location | Moro'gai Village, Moonwhisper Coast |
 | status | Alive |
 
--Heghala** is a [draenei](draenei) quest giver located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Heghala** is a [draenei](draenei) quest giver located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: Raw Draenethyst Formation]  (Repeatable)
@@ -32,7 +32,7 @@ categories: ["Draenei characters", "Moonwhisper Coast NPCs", "Quest givers", "Tu
 - [quest: Actual Collector of Draenethyst] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Greetings, wanderer from afar. Us Draenei revere the sacred Draenethyst, a pure crystal formed from the lifeblood of our homeworld Draenor. When our tribe fled to this place with our ancient Riftwalk magic, residue energy of the process seeped into the ground of your own world. Over time, the once foreign crystals began forming on their own.
 
 With the ever more swiftly encroaching darkness across these plains, we are barely able to harvest more of the precious Draenethyst. The village is dependent on these gems, as they bear great amounts of power, both spiritually and magically. If you find them during your travels through the coast, don't hesitate to bring them to me. I will award you with our finest treasures should you do so.

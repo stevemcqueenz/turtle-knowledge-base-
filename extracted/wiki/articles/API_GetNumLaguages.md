@@ -29,15 +29,15 @@ Returns the number of languages your character can speak (I guess that Blizzard'
  end
 
 ## Info
-  -for .. do**
+**for .. do**
 
    Look for the 'for .. do' block at the [Reference Manual](http://www.lua.org/manual/5.0/).
 
-  -GetLanguageByIndex(index)**
+**GetLanguageByIndex(index)**
 
    [GetLanguageByIndex(index)](API GetLanguageByIndex) - Returns the language specified by the index.
 
-  -DEFAULT_CHAT_FRAME:AddMessage("text",r,g,b)**
+**DEFAULT_CHAT_FRAME:AddMessage("text",r,g,b)**
 
   ; [ScrollingMessageFrame:AddMessage("text",r,g,b,id)](API ScrollingMessageFrame AddMessage)
    Valid Frame names: DEFAULT_CHAT_FRAME ChatFrame1 - ChatFrame7

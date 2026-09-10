@@ -25,13 +25,13 @@ categories: ["Dwarf characters", "Explorers' League", "Quest enders", "Turtle Wo
 | location | Dun Agrath, Wetlands |
 | status | Alive |
 
--Grovug Mithrilmane** is a [dwarf](dwarf) quest ender located in [Dun Agrath](Dun Agrath) in the [Wetlands](Wetlands). He is located on a hill along the northern path to the east of Dun Agrath.
+**Grovug Mithrilmane** is a [dwarf](dwarf) quest ender located in [Dun Agrath](Dun Agrath) in the [Wetlands](Wetlands). He is located on a hill along the northern path to the east of Dun Agrath.
 
 ## Quests
 - [quest: Help The League?] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Stormy seas out there. The sea spirits must be restless....hic!
 
 ## Patch changes

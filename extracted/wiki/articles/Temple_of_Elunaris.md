@@ -13,18 +13,5 @@ categories: ["Elite areas", "Moonwhisper Coast subzones", "Night elf territories
 The **Temple of Elunaris** is a ruined [night elf](night elf) temple located in the city of [Elun'aran](Elun'aran), on the isle of [Tyrandas](Tyrandas) in [Moonwhisper Coast](Moonwhisper Coast). Atop the temple is [Arch Druid Mothshroud](Arch Druid Mothshroud), who seeks to shoot down the moon itself out of the skies of Azeroth.
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - - - - - - - - - ## Patch changes
 - (Patch 1.18.1|note=Added.)

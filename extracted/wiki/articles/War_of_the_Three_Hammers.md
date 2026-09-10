@@ -17,7 +17,7 @@ Both attacks were defeated, with King [Madoran Bronzebeard](Madoran Bronzebeard)
 
 Sensing impendeding defeat, Thaurissan summoned [Ragnaros](Ragnaros) the Firelord into [Azeroth](Azeroth). The cataclysm formed [Blackrock Spire](Blackrock Spire) and halted the advanced of the Bronzebeard and Wildhammer armies.
 
--For an official account of the war, see [War of the Three Hammers (History of Warcraft)](War of the Three Hammers (History of Warcraft)).*
+*For an official account of the war, see [War of the Three Hammers (History of Warcraft)](War of the Three Hammers (History of Warcraft)).*
 
 ## The Death of the High King
 There were originally three main distinctions, or clans, of Dwarves. The [Bronzebeard Clan](Bronzebeard Clan), the [Wildhammer Clan](Wildhammer Clan), and the [Dark Iron Clan](Dark Iron Clan). The Dark Irons were ruled by the sorcerer Thaurissan, and lived in the darkest shadows of the Ironforge Mountain. The mountain was shared by all three factions. Tensions were held to a reasonable amount until the High King of the Dwarves, [Modimus Anvilmar](Modimus Anvilmar) died.

@@ -10,4 +10,4 @@ categories: ["Azshara subzones", "Barrens subzones", "Durotar subzones", "Dustwa
 ---
 # Great Sea
 
--The Great Sea** makes up the deep waters between the [continent](continent)s of [Azeroth](Azeroth). This stretch of ocean is so vast you will [die](death) of [fatigue](fatigue) before you can [swim](swim) any significant distance in it. Some say that somewhere in the **Great Sea** lost islands still to be explored and such mysterious places such as the [Maelstrom](Maelstrom), the [Broken Isles](Broken Isles) and the [Undermine](Undermine) await travelers in the future.
+**The Great Sea** makes up the deep waters between the [continent](continent)s of [Azeroth](Azeroth). This stretch of ocean is so vast you will [die](death) of [fatigue](fatigue) before you can [swim](swim) any significant distance in it. Some say that somewhere in the **Great Sea** lost islands still to be explored and such mysterious places such as the [Maelstrom](Maelstrom), the [Broken Isles](Broken Isles) and the [Undermine](Undermine) await travelers in the future.

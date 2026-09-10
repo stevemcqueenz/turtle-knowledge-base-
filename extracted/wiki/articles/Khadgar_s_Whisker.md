@@ -10,7 +10,7 @@ categories: ["Alchemy crafting reagent items", "Herbalism gathered items", "Herb
 ---
 # Khadgar's Whisker
 
--Khadgar's Whisker** is an [herb](herb) that can be gathered with [herbalism](herbalism) (185).
+**Khadgar's Whisker** is an [herb](herb) that can be gathered with [herbalism](herbalism) (185).
 
 ## Notes
 "Khadgar's Whisker" is named after [Archmage Khadgar](Khadgar).

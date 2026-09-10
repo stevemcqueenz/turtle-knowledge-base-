@@ -24,10 +24,10 @@ categories: ["Moonwhisper Coast NPCs", "Tauren characters", "Turtle WoW content"
 | location | Moonhoof Village, Moonwhisper Coast |
 | status | Alive |
 
--Matron Mefini** is a [tauren](tauren) located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Matron Mefini** is a [tauren](tauren) located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I am worried, <Class>. The Youngbloods grow up in a time of turmoil and uncertainty. We lived in harmony for many moons in our humble village, minding our own business and keeping mostly to ourselves. Seeing what dangers roam outside our walls, and at what alarming speed they spread across the coast, I fear for the survival of our tribe. Just what are we to make of this fate? The Earthmother must be testing our resolve, it must be.
 
 ## Patch changes

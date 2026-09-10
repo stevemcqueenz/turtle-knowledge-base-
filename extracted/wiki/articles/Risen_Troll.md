@@ -22,7 +22,7 @@ categories: ["Amani'Alor mobs", "Stonetalon Mountain mobs", "Troll characters", 
 | gender | Both |
 | location | Amani'Alor, Stonetalon Mountains |
 
--Risen Trolls** are mummified trolls located in [Amani'Alor](Amani'Alor) in [Stonetalon Mountains](Stonetalon Mountains).
+**Risen Trolls** are mummified trolls located in [Amani'Alor](Amani'Alor) in [Stonetalon Mountains](Stonetalon Mountains).
 
 ## Speculation
 - As Amani'Alor was previously a Zandalari temple, the risen trolls may be of the Zandalar tribe.

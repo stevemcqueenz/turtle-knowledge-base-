@@ -10,4 +10,4 @@ categories: ["Stubs"]
 ---
 # Server:Ravenshire SEA
 
--Ravenshire**  is a PvE server that was launched on September 9th, 2023.
+**Ravenshire**  is a PvE server that was launched on September 9th, 2023.

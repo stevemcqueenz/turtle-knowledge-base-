@@ -10,8 +10,8 @@ categories: ["Patches"]
 ---
 # Patch 1.12.2
 
--Patch 1.12.2** was released for European servers only on 13 October 2006. The North American, Simplified, and Traditional Chinese localization servers were never affected with this patch.
+**Patch 1.12.2** was released for European servers only on 13 October 2006. The North American, Simplified, and Traditional Chinese localization servers were never affected with this patch.
 
 ## Bug Fixes
--Fixed an issue where players were unable to resurrect at a [Spirit Healer](Spirit Healer). (Spanish Only) 
--Fixed several issues with in-game slash commands. (Spanish Only)
+- Fixed an issue where players were unable to resurrect at a [Spirit Healer](Spirit Healer). (Spanish Only) 
+- Fixed several issues with in-game slash commands. (Spanish Only)

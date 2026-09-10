@@ -22,7 +22,7 @@ categories: ["Forest trolls", "Primals", "The Hinterlands NPCs", "Troll quest gi
 | location | Revantusk Village, The Hinterlands |
 | relatives | Elder Torntusk (mate) |
 
--Primal Torntusk** is a level 60 [elite](elite) [quest giver](quest giver) located in [Revantusk Village](Revantusk Village) in the [contested](contested) territory of the [Hinterlands](Hinterlands). She is also a [primal](primal) and the leader of the [Revantusk tribe](Revantusk tribe), the last remaining tribe of [forest trolls](forest trolls) in [Thrall](Thrall)'s [Horde](Horde).
+**Primal Torntusk** is a level 60 [elite](elite) [quest giver](quest giver) located in [Revantusk Village](Revantusk Village) in the [contested](contested) territory of the [Hinterlands](Hinterlands). She is also a [primal](primal) and the leader of the [Revantusk tribe](Revantusk tribe), the last remaining tribe of [forest trolls](forest trolls) in [Thrall](Thrall)'s [Horde](Horde).
 
 She starts the following quests:
 - [quest: Dark Vessels]

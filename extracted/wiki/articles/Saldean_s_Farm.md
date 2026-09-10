@@ -10,8 +10,7 @@ categories: ["Farms", "Human territories", "Westfall subzones"]
 ---
 # Saldean's Farm
 
--Saldean's Farm** is unique in [Westfall](Westfall) in that it is the only farm aside from the [Gartside Plot](Gartside Plot) that has not been completely taken over by the [Defias Brotherhood](Defias Brotherhood). Though Defias [harvest golem](harvest golem)s roam the fields, Farmer Saldean and his wife have stubbornly refused to leave.
+**Saldean's Farm** is unique in [Westfall](Westfall) in that it is the only farm aside from the [Gartside Plot](Gartside Plot) that has not been completely taken over by the [Defias Brotherhood](Defias Brotherhood). Though Defias [harvest golem](harvest golem)s roam the fields, Farmer Saldean and his wife have stubbornly refused to leave.
 
 ## Inhabitants
-- 
--
+- -

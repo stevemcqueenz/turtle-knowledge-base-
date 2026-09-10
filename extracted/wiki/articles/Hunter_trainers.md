@@ -10,7 +10,7 @@ categories: ["Game Terms", "Hunter Trainers", "Hunters", "Pet Trainers", "Stubs"
 ---
 # Hunter trainers
 
--Hunter trainers** offer [hunter](hunter)s the opportunity to train and learn ranks of spells, including [talent](talent)-based abilities. 
+**Hunter trainers** offer [hunter](hunter)s the opportunity to train and learn ranks of spells, including [talent](talent)-based abilities. 
 
 [Pet trainer](Pet trainer)s can teach those [pet](pet) abilities the hunter has not yet learned. The hunter must have a pet summoned to be able to learn pet abilities from a trainer. 
 

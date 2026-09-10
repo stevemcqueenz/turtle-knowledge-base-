@@ -25,10 +25,10 @@ categories: ["Human characters", "Kul Tiras (kingdom)", "Stormwind City NPCs", "
 | location | Stormwind Harbor, Stormwind City |
 | status | Alive |
 
--Kelly Vaulstone** is a [human](human) located in [Stormwind Harbor](Stormwind Harbor) in [Stormwind City](Stormwind City).
+**Kelly Vaulstone** is a [human](human) located in [Stormwind Harbor](Stormwind Harbor) in [Stormwind City](Stormwind City).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 This harbor ain't too shabby for fishing!
 
 ## Patch changes

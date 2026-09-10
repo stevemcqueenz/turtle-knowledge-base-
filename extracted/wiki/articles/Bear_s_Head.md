@@ -10,6 +10,6 @@ categories: ["Azshara subzones", "Furbolg territories", "Pages with broken file 
 ---
 # Bear's Head
 
--Bear's Head** is a remote [subzone](subzone) located by the southeastern edge of the mountains of [Azshara](Azshara). [Azshara Tower](Azshara Tower), located on a cliff in the area, houses [Archmage Xylem](Archmage Xylem) as well as several apprentices and associates, including the high elves [Joy Ar'nareth](Joy Ar'nareth) and [Rayan Dawnrisen](Rayan Dawnrisen).
+**Bear's Head** is a remote [subzone](subzone) located by the southeastern edge of the mountains of [Azshara](Azshara). [Azshara Tower](Azshara Tower), located on a cliff in the area, houses [Archmage Xylem](Archmage Xylem) as well as several apprentices and associates, including the high elves [Joy Ar'nareth](Joy Ar'nareth) and [Rayan Dawnrisen](Rayan Dawnrisen).
 
 The area is named after the [village](village)s of [Timbermaw](Timbermaw) [furbolg](furbolg)s dotting the landscape, which work as outposts for the more northerly [Timbermaw Hold](Timbermaw Hold) and [Ursolan](Ursolan).

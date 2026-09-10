@@ -24,10 +24,10 @@ categories: ["Human characters", "Meat vendors", "Northwind NPCs", "Stormwind (k
 | location | The Plump Pumpkin, Northwind |
 | status | Alive |
 
--Udo Keller** is a [human](human) food vendor who is located at the [Plump Pumpkin](Plump Pumpkin) in [Northwind](Northwind).
+**Udo Keller** is a [human](human) food vendor who is located at the [Plump Pumpkin](Plump Pumpkin) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Business used to be better, kid. If you're hungry and need some strength after your journey, I got the finest game you can find in all of Northwind!
 
 ## Patch changes

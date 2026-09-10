@@ -10,4 +10,4 @@ categories: ["Ashenvale subzones", "Furbolg territories", "Pages with broken fil
 ---
 # Bloodtooth Camp
 
--Bloodtooth Camp** is located in [Ashenvale](Ashenvale) just west of the [Falfarren River](Falfarren River) and southwest of the southern [Moonwell](Moonwell (Ashenvale)). As its name implies, it is the camp of a tribe of [furbolg](furbolg)s led by [Ran Bloodtooth](Ran Bloodtooth). These furbolgs have all been corrupted, and are hostile to any outsiders.
+**Bloodtooth Camp** is located in [Ashenvale](Ashenvale) just west of the [Falfarren River](Falfarren River) and southwest of the southern [Moonwell](Moonwell (Ashenvale)). As its name implies, it is the camp of a tribe of [furbolg](furbolg)s led by [Ran Bloodtooth](Ran Bloodtooth). These furbolgs have all been corrupted, and are hostile to any outsiders.

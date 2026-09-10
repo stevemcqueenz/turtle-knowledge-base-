@@ -13,12 +13,12 @@ categories: []
 The Wallowfin tribe is a tribe of murlocs found in [Lapidis Isle](Lapidis Isle).
 
 ## Members
-  -Named**
--[Wallowtalker](Wallowtalker)
+**Named**
+- [Wallowtalker](Wallowtalker)
 
-  -Unnamed**
--[Wallowfin Murloc](Wallowfin Murloc)
--[Wallowfin Netter](Wallowfin Netter)
--[Wallowfin Devourer](Wallowfin Devourer)
--[Wallowfin Tidecaller](Wallowfin Tidecaller)
--[Wallowfin Shorerunner](Wallowfin Shorerunner)
+**Unnamed**
+- [Wallowfin Murloc](Wallowfin Murloc)
+- [Wallowfin Netter](Wallowfin Netter)
+- [Wallowfin Devourer](Wallowfin Devourer)
+- [Wallowfin Tidecaller](Wallowfin Tidecaller)
+- [Wallowfin Shorerunner](Wallowfin Shorerunner)

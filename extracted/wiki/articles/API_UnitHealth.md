@@ -20,7 +20,7 @@ Otherwise in points.
  local health = UnitHealth(unit);
 ----
 
-  - *Arguments***
+** *Arguments***
 
    (String unit)
 
@@ -29,7 +29,7 @@ Otherwise in points.
 
 ----
 
-  - *Returns***
+** *Returns***
 
    health
   ; health
@@ -37,7 +37,7 @@ Otherwise in points.
 
 ----
 
-  - *Example***
+** *Example***
 <syntaxhighlight lang="lua">
  local health = UnitHealth("player");
  local health2 = UnitHealth("target");
@@ -45,7 +45,7 @@ Otherwise in points.
  ChatFrame1:AddMessage('target health: ' .. health2 .. "%");
 </syntaxhighlight>
 
-  - *Result***
+** *Result***
 <syntaxhighlight lang="lua">
  Prints the player's and target's health to the chat frame as
  
@@ -54,7 +54,7 @@ Otherwise in points.
 
 ----
 
-  - *Description***
+** *Description***
 
    Returns the current health of the specified unit. The health is returned in real points only if the unit is in the player's group (party or raid). Otherwise, a percentage is returned (0-100). (Note, that the player, the player's pet, and any group member pets are considered to be in the group.)
 

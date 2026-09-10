@@ -10,19 +10,8 @@ categories: ["Inns", "Northwind subzones", "Turtle WoW content"]
 ---
 # Plump Pumpkin
 
--The Plump Pumpkin** is an inn located within the [Auburn Forest](Auburn Forest) of [Northwind](Northwind), near the shores of [Grimmen Lake](Grimmen Lake).
+**The Plump Pumpkin** is an inn located within the [Auburn Forest](Auburn Forest) of [Northwind](Northwind), near the shores of [Grimmen Lake](Grimmen Lake).
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - - - - - - - ## Patch changes
 - (Patch 1.18.0|note=Added.)

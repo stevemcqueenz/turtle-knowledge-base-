@@ -25,7 +25,7 @@ categories: ["Quilboar characters", "Razorfen Downs mobs", "Turtle WoW content"]
 | location | Temple of Agamaggan, Razorfen Downs |
 | status | Killable |
 
--Death's Head Servitors** are quilboars located in the [Temple of Agamaggan](Temple of Agamaggan) in [Razorfen Downs](Razorfen Downs).
+**Death's Head Servitors** are quilboars located in the [Temple of Agamaggan](Temple of Agamaggan) in [Razorfen Downs](Razorfen Downs).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

@@ -22,7 +22,7 @@ categories: ["Crescent Grove mobs", "Felguards", "Turtle WoW content"]
 | creature | Demon |
 | location | Vilethorn Scar, the Crescent Grove |
 
--Roaming Felguards** are felguards located in the [Vilethorn Scar](Vilethorn Scar) in the [Crescent Grove](Crescent Grove).
+**Roaming Felguards** are felguards located in the [Vilethorn Scar](Vilethorn Scar) in the [Crescent Grove](Crescent Grove).
 
 ## Abilities
 - Cleave

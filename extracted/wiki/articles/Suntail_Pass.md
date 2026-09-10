@@ -13,13 +13,7 @@ categories: ["Mulgore subzones", "Passes", "Tauren territories", "Turtle WoW con
 The **Suntail Pass** is a trail located in northeastern [Mulgore](Mulgore) that serves as a pilgrimage site for spirit walkers and provides a safer route to the [Barrens](Barrens) for young [tauren](tauren). (ref: [Turtle WoW Team on Twitter](https://x.com/turtlecraft/status/1815143007404060754) (2024-07-21) (dead link)) (ref: [New Zones & World Edits](https://web.archive.org/web/20260514170802/https://turtlecraft.gg/new-locations-and-maps). Archived from [the original](https://turtlecraft.gg/new-locations-and-maps) on 2026-05-14. Retrieved on 2026-29-08.)
 
 ## Inhabitants
-- 
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - - ## Patch changes
 - (Patch 1.16.1|note=Added.)
 
 ## References

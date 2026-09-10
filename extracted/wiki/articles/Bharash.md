@@ -25,13 +25,13 @@ categories: ["Draenei characters", "Moonwhisper Coast NPCs", "Turtle WoW content
 | status | Alive |
 | relatives | Eka'ghar (brother) |
 
--Bharash** is a [draenei](draenei) located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Bharash** is a [draenei](draenei) located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 My brother Eka'ghar joined Elder Bhu'robi in his delusion. He has always been gullible, but to think he'd abandon us all so easily... Father would have been deeply ashamed if he was still with us.
 
-  -After [quest: Hooves and Horns, Clad in Red]**
+**After [quest: Hooves and Horns, Clad in Red]**
   > Gossip: *Eka'ghar is dead. He and the Fallen Ones coincided with the demons known as Satyrs.*
 
   With demons, you say?

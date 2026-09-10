@@ -14,13 +14,13 @@ Returns the material string associated with the particular quest.
  GetQuestBackgroundMaterial();
 ----
 
-  - *Arguments***
+** *Arguments***
 
    *none*
 
 ----
 
-  - *Returns***
+** *Returns***
 
    String questStory
 
@@ -29,15 +29,15 @@ Returns the material string associated with the particular quest.
 
 ----
 
-  - *Example***
+** *Example***
 
  local questStory = GetQuestBackgroundMaterial();
 
-  - *Result***
+** *Result***
 
  "Arr matey. You need to go find Captain Sander's treasure..."
 ----
 
-  - *Description***
+** *Description***
 
    Returns the material string associated with the particular quest.

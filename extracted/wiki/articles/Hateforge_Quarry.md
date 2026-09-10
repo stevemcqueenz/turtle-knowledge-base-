@@ -24,7 +24,7 @@ categories: ["Burning Steppes", "Dungeons", "Excavation sites", "Hateforge Quarr
 | players | 5 |
 | bosses |  |
 
--Hateforge Quarry** is an instance dungeon located in the [Burning Steppes](Burning Steppes). Hidden away at the southeastern walls of the Burning Steppes, the Hateforge Quarry is the Dark Iron dwarves' newest effort to find of a new weapon to use against their adversaries. The innocent-looking quarry hides an insidious cavern, where the Shadowforge dwarves plot new schemes against all those that oppose them.
+**Hateforge Quarry** is an instance dungeon located in the [Burning Steppes](Burning Steppes). Hidden away at the southeastern walls of the Burning Steppes, the Hateforge Quarry is the Dark Iron dwarves' newest effort to find of a new weapon to use against their adversaries. The innocent-looking quarry hides an insidious cavern, where the Shadowforge dwarves plot new schemes against all those that oppose them.
 
 ## Geography
 ### Maps and subregions
@@ -33,10 +33,10 @@ WorldMap-HateforgeQuarry.jpg
 </gallery>
 
 ## Dungeon denizens
--  [Dark Iron dwarves](Dark Iron dwarf)
--  [Leper gnome](Leper gnome)s (one, [Engineer Figgles](Engineer Figgles))
--  [Troll](Troll)s
--  [Orc](Orc)s
+- [Dark Iron dwarves](Dark Iron dwarf)
+- [Leper gnome](Leper gnome)s (one, [Engineer Figgles](Engineer Figgles))
+- [Troll](Troll)s
+- [Orc](Orc)s
 
 ## Quest guide
 {| class="fandom-table"

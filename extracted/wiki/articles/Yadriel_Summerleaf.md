@@ -23,10 +23,10 @@ categories: ["Food and drink vendors", "Moonwhisper Coast NPCs", "Night elf char
 | gender | Female |
 | location | Grove of the Sun, Moonwhisper Coast |
 
--Yadriel Summerleaf** is a [night elf](night elf) reagents, food and drink vendor located at the [Grove of the Sun](Grove of the Sun) in [Moonwhisper Coast](Moonwhisper Coast).
+**Yadriel Summerleaf** is a [night elf](night elf) reagents, food and drink vendor located at the [Grove of the Sun](Grove of the Sun) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Not many of us are left. This grove used to be full of druids in harmony with the wilds, even despite Tyrandas having long been abandoned. Now those same druids wage war against their own kind. What could drive them to such madness?
 
 ## Patch changes

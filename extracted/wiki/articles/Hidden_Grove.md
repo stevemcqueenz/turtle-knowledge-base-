@@ -10,4 +10,4 @@ categories: ["Pages with broken file links", "Wildkin", "Winterspring subzones",
 ---
 # Hidden Grove
 
--The Hidden Grove** is a forested crater in northeastern [Winterspring](Winterspring). The grove is surrounded on all sides by high cliffs and is virtually inaccessible. There is one entrance through a cave on the southeastern face of the ridge [65.0, 18.7]. Dropping down from the top is also possible in some places, albeit very dangerous. The grove is home to many [moonkin](moonkin) who are extremely hostile, and so most adventurers don't attempt to enter the glade.
+**The Hidden Grove** is a forested crater in northeastern [Winterspring](Winterspring). The grove is surrounded on all sides by high cliffs and is virtually inaccessible. There is one entrance through a cave on the southeastern face of the ridge [65.0, 18.7]. Dropping down from the top is also possible in some places, albeit very dangerous. The grove is home to many [moonkin](moonkin) who are extremely hostile, and so most adventurers don't attempt to enter the glade.

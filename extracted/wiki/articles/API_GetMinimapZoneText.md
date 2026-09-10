@@ -15,26 +15,26 @@ Returns the zone text, that is displayed over the minimap
  GetMinimapZoneText();
 
 ----
-  -*Arguments***
+***Arguments***
 
   *none*
 
 ----
-  -*Returns***
+***Returns***
 
   String minimapzonetext
   ;minimapzonetext : string, that ist currently shown over the minimap
 
 ----
-  -*Example***
+***Example***
  local minimapzonetext = GetMinimapZoneText();
  
 
-  -*Result***
+***Result***
  "Trade District"
 
 ----
-  -*Description***
+***Description***
 
    Returns the zone text, that is displayed over the minimap. The event <tt>"MINIMAP_ZONE_CHANGED"</tt> is triggered, when the text changes. It equals [GetSubZoneText](API_GetSubZoneText) if the player is in a subzone and [GetZoneText](API_GetZoneText) if the player is not in a subzone.
 

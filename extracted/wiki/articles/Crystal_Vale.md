@@ -10,4 +10,4 @@ categories: ["Earth elementals", "Silithus subzones", "Stubs"]
 ---
 # Crystal Vale
 
--The Crystal Vale** is a valley in the far northwestern corner of [Silithus](Silithus).  It is populated by earth and air elementals, and is a popular location for farming too.  It is also the location of the final battle in the [Thunderfury](Thunderfury) quest chain, with [Thunderaan](Thunderaan). If you use Cartographer, check out these coordinates:  23,15. One quest in the area is "The Twilight Mystery."
+**The Crystal Vale** is a valley in the far northwestern corner of [Silithus](Silithus).  It is populated by earth and air elementals, and is a popular location for farming too.  It is also the location of the final battle in the [Thunderfury](Thunderfury) quest chain, with [Thunderaan](Thunderaan). If you use Cartographer, check out these coordinates:  23,15. One quest in the area is "The Twilight Mystery."

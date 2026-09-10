@@ -10,4 +10,4 @@ categories: ["Ashenvale subzones", "Naga territories", "Pages with broken file l
 ---
 # Zoram Strand
 
--The Zoram Strand** is a stretch of beach in the northwest corner of [Ashenvale](Ashenvale). While the [Horde](Horde) have set up a minor outpost ([Zoram'gar Outpost](Zoram'gar Outpost)) in the Zoram Strand, the area has fallen to the [Naga](Naga). The dark creatures have taken up residence, evident in their numbers and in the shipwrecks and beached sea creatures along the shore.
+**The Zoram Strand** is a stretch of beach in the northwest corner of [Ashenvale](Ashenvale). While the [Horde](Horde) have set up a minor outpost ([Zoram'gar Outpost](Zoram'gar Outpost)) in the Zoram Strand, the area has fallen to the [Naga](Naga). The dark creatures have taken up residence, evident in their numbers and in the shipwrecks and beached sea creatures along the shore.

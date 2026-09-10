@@ -23,7 +23,7 @@ categories: ["Fishers", "Jungle troll characters", "Lapidis Isle mobs", "Turtle 
 | creature | Humanoid |
 | location | Zul'Hazu, Lapidis Isle |
 
--Hazzuri Fishermen** are [jungle troll](jungle troll)s of the [Hazzuri tribe](Hazzuri tribe) located at [Zul'Hazu](Zul'Hazu) in [Lapidis Isle](Lapidis Isle).
+**Hazzuri Fishermen** are [jungle troll](jungle troll)s of the [Hazzuri tribe](Hazzuri tribe) located at [Zul'Hazu](Zul'Hazu) in [Lapidis Isle](Lapidis Isle).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

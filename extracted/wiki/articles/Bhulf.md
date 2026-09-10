@@ -25,10 +25,10 @@ categories: ["Leatherworking vendors", "Moonwhisper Coast NPCs", "Tauren charact
 | location | Moonhoof Village, Moonwhisper Coast |
 | status | Alive |
 
--Bhulf** is a [tauren](tauren) [leatherworking](leatherworking) vendor located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Bhulf** is a [tauren](tauren) [leatherworking](leatherworking) vendor located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Nature has been plentiful in our bounty to procure goods.
 
 ## Patch changes

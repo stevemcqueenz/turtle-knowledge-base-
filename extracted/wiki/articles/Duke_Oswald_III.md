@@ -25,7 +25,7 @@ categories: ["Human characters", "Paladin characters", "Scarlet Crusade", "Tiris
 | location | Venomweb Vale, Tirisfal Glade |
 | status | Killable |
 
--Duke Oswald III** is an elite [human](human) located outside of the [Scarlet Citadel](Scarlet Citadel) in [Venomweb Vale](Venomweb Vale) in the [Tirisfal Glades](Tirisfal Glades).
+**Duke Oswald III** is an elite [human](human) located outside of the [Scarlet Citadel](Scarlet Citadel) in [Venomweb Vale](Venomweb Vale) in the [Tirisfal Glades](Tirisfal Glades).
 
 ## Abilities
 - Hammer of Justice

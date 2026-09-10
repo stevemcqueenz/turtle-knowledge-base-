@@ -23,7 +23,7 @@ categories: ["Alah'Thalas NPCs", "Blood elf characters", "Scholars", "Turtle WoW
 | gender | Both |
 | location | Citadel of the Sun, Alah'Thalas |
 
--Alah'Thalas Researchers ** are [blood elves](blood elves) located in the [Citadel of the Sun](Citadel of the Sun) in [Alah'Thalas](Alah'Thalas).
+**Alah'Thalas Researchers ** are [blood elves](blood elves) located in the [Citadel of the Sun](Citadel of the Sun) in [Alah'Thalas](Alah'Thalas).
 
 ## Trivia
 - They are amongst the few blood elves who can be seen inhabiting Alliance territories without coming into conflict with adventurers or their own people; likewise, they are hostile towards the Horde, so it is understood that they are part of the Alliance.

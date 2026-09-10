@@ -26,7 +26,7 @@ categories: ["Azshara quests", "Neutral quests", "Quests at 52", "Stubs", "Turtl
 
 ## Objectives
 Bring Akh Z'ador in Azshara three Siren Brains for his ‘mental recovery'.
--[Siren Brain](Siren Brain) (3)
+- [Siren Brain](Siren Brain) (3)
 
 ## Description
 Before we can tackle the saving of my tribe, we need to prepare, both myself and my belongings. Riftwalking is very taxing on the user's mind, an interrupted riftwalk even more so. Without my mental strength returned, a rescue will not be possible.

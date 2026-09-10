@@ -10,7 +10,7 @@ categories: ["API Functions"]
 ---
 # API GetComboPoints
 
--GetComboPoints()**
+**GetComboPoints()**
 
 Delivers how much combo points the rogue or the druids cat form on the actual target has. 
 

@@ -37,8 +37,8 @@ He is on the top of the tower.
 
 ## Rewards
 You will receive:
--90 XP
--+150 [reputation](reputation) with [Silvermoon Remnant](Silvermoon Remnant)
+- 90 XP
+- +150 [reputation](reputation) with [Silvermoon Remnant](Silvermoon Remnant)
 
 ## Progress
 Who dares interrupt my meditation?

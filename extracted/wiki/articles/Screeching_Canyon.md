@@ -12,4 +12,4 @@ categories: ["Harpy territories", "Pages with broken file links", "Thousand Need
 
 [File:The Screeching Canyon.jpg|thumb|The Screeching Canyon]]
 
-  -The Screeching Canyon** was a canyon in the southern parts of [Thousand Needles](Thousand Needles)[28, 48] infested by aggressive [Screeching](Screeching) [harpies](harpy). The [Roguefeather Den](Roguefeather Den) was located in the back of it.
+**The Screeching Canyon** was a canyon in the southern parts of [Thousand Needles](Thousand Needles)[28, 48] infested by aggressive [Screeching](Screeching) [harpies](harpy). The [Roguefeather Den](Roguefeather Den) was located in the back of it.

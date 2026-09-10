@@ -31,12 +31,12 @@ categories: ["Caverns of Time NPCs", "City bosses", "Orc characters", "Orgrimmar
 *"The beginning of wisdom is the statement 'I do not know.' The person who cannot make that statement is one who will never learn anything. And I have prided myself on my ability to learn."*
    — Thrall (ref: *[Cycle of Hatred](Cycle of Hatred)*, pg. 77)
 
-  -Thrall**, born **Go'el**, (ref: [Go'el](https://database.turtle-wow.org/?npc=65131)) son of [Durotan](Durotan) and [Draka](Draka), is the [Warchief](Warchief) of the restored [shamanistic](Shaman) [Horde](Horde), founder and current ruler of the [Nation](Durotar (nation)) of [Durotar](Durotar) in [Kalimdor](Kalimdor). His parents killed by [Gul'dan](Gul'dan)'s [assassins](Assassin) shortly after his birth in the beginning of the [First War](First War), he was found and raised by [Aedelas Blackmoore](Aedelas Blackmoore) who gave Thrall his name. Raised as a slave and gladiator, he later joined [Orgrim Doomhammer](Orgrim Doomhammer) in freeing the [orc](orc)s imprisoned after the [Second War](Second War), being named Warchief after Doomhammer's death. After leading the Horde away from the [Alliance](Alliance of Lordaeron)-claimed [Eastern Kingdoms](Eastern Kingdoms), he rescued and made allies of the [Darkspear](Darkspear tribe) [trolls](Jungle troll) and [Bloodhoof](Bloodhoof tribe) [tauren](tauren). Thrall led the new Horde against their [former demonic masters](Burning Legion) in the [Battle of Mount Hyjal](Battle of Mount Hyjal). He subsequently led diplomatic efforts at peace between the Horde and [Alliance](Alliance) after the end of the [Third War](Third War), as well as accepted new members to the Horde, like the [Forsaken](Undead) of the [Undercity](Undercity) and the [goblin](goblin)s of the [Durotar Labor Union](Durotar Labor Union).
+**Thrall**, born **Go'el**, (ref: [Go'el](https://database.turtle-wow.org/?npc=65131)) son of [Durotan](Durotan) and [Draka](Draka), is the [Warchief](Warchief) of the restored [shamanistic](Shaman) [Horde](Horde), founder and current ruler of the [Nation](Durotar (nation)) of [Durotar](Durotar) in [Kalimdor](Kalimdor). His parents killed by [Gul'dan](Gul'dan)'s [assassins](Assassin) shortly after his birth in the beginning of the [First War](First War), he was found and raised by [Aedelas Blackmoore](Aedelas Blackmoore) who gave Thrall his name. Raised as a slave and gladiator, he later joined [Orgrim Doomhammer](Orgrim Doomhammer) in freeing the [orc](orc)s imprisoned after the [Second War](Second War), being named Warchief after Doomhammer's death. After leading the Horde away from the [Alliance](Alliance of Lordaeron)-claimed [Eastern Kingdoms](Eastern Kingdoms), he rescued and made allies of the [Darkspear](Darkspear tribe) [trolls](Jungle troll) and [Bloodhoof](Bloodhoof tribe) [tauren](tauren). Thrall led the new Horde against their [former demonic masters](Burning Legion) in the [Battle of Mount Hyjal](Battle of Mount Hyjal). He subsequently led diplomatic efforts at peace between the Horde and [Alliance](Alliance) after the end of the [Third War](Third War), as well as accepted new members to the Horde, like the [Forsaken](Undead) of the [Undercity](Undercity) and the [goblin](goblin)s of the [Durotar Labor Union](Durotar Labor Union).
 
 ## Biography
 ### Reign of Chaos
 #### Flight to Kalimdor
-  -This section concerns content related to *[Warcraft III: Reign of Chaos](Warcraft III: Reign of Chaos)* or its expansion *[The Frozen Throne](Warcraft III: The Frozen Throne)*.**
+**This section concerns content related to *[Warcraft III: Reign of Chaos](Warcraft III: Reign of Chaos)* or its expansion *[The Frozen Throne](Warcraft III: The Frozen Throne)*.**
 
   *"You must rally the horde and lead your people to their destiny!"*
    — [Medivh](Medivh) to Thrall in a vision.
@@ -48,7 +48,7 @@ When he awoke, he realized that it was no dream, it was a vision, granted him by
 Thrall obeyed, and gathering the Horde, prepared to make their way across the [Great Sea](Great Sea). The [clans](Clan) begun assembling and he constructed a base to give the Horde a place to stay. Grom turned out to have been captured by humans, and Thrall quickly stepped in to save him. Hellscream then got the idea, to steal the human ships so that they could leave the human lands forever. With the Horde assembled, they stole the ships, and left across the Great Sea to the forgotten lands of [Kalimdor](Kalimdor).
 
 #### Exodus of the Horde
-  -This section concerns content related to *[Warcraft III: Reign of Chaos](Warcraft III: Reign of Chaos)* or its expansion *[The Frozen Throne](Warcraft III: The Frozen Throne)*.**
+**This section concerns content related to *[Warcraft III: Reign of Chaos](Warcraft III: Reign of Chaos)* or its expansion *[The Frozen Throne](Warcraft III: The Frozen Throne)*.**
 
 Halfway along their journey to [Kalimdor](Kalimdor), Thrall's ships were beset by a fierce storm near the [Maelstrom](Maelstrom) and forced to take shelter on a small island. There the orcs met the troll leader, [Sen'jin](Sen'jin), who told them of a [human](human) outpost that attacked his tribe night and day on the island. Fearing for the Horde and the Darkspear Trolls' safety, Thrall and his warriors assaulted the human base. During his stay, he reactivated a Fountain of Health and discovered that the isle had active volcanos. Aided by the Darkspear trolls, the human leader, an [archmage](archmage), was killed, but then many [murlocs](Murloc) attacked the Horde, the humans, and the Darkspear trolls. While the orcish and human forces were occupied with one another, the piscine monsters sought out sacrifices for their rituals.
 
@@ -56,10 +56,10 @@ Thrall was then imprisoned within the murlocs' fiery dungeon. He learned from a 
 
 Thrall emerged from the cave and was confronted by the [Sea Witch](Zar'jira). She threatened vengeance for the destruction of her altar and worshipers. She placed a curse upon the warchief; that he and all his forces would be swallowed up by the sea. Upon returning to his base camp, Thrall discovered that his ships, damaged by the storm, were not yet ready to sail. He also learned that the island dormant volcano erupted and that the island had begun to sink. The Sea Witch, meanwhile, launched her [murloc forces](Underworld Minions) against the Horde, thirsty for vengeance. Nevertheless, aided by the trolls, the Horde was able to hold off their attackers long enough to repair their ships and managed to escape before the isle sunk. The Sea Witch then told to Thrall that a "Dark Tide" would swallow them all and that there will be nowhere to hide.
 
--The sea witch's curse may have come true, depending on how close her island was to Kalimdor — because Thrall's force was shipwrecked. It can be assumed that other clans, such as [Hellscream's](Warsong clan), were not among those caught by the storm and driven to the island.*
+*The sea witch's curse may have come true, depending on how close her island was to Kalimdor — because Thrall's force was shipwrecked. It can be assumed that other clans, such as [Hellscream's](Warsong clan), were not among those caught by the storm and driven to the island.*
 
 #### Kalimdor
-  -This section concerns content related to *[Warcraft III: Reign of Chaos](Warcraft III: Reign of Chaos)* or its expansion *[The Frozen Throne](Warcraft III: The Frozen Throne)*.**
+**This section concerns content related to *[Warcraft III: Reign of Chaos](Warcraft III: Reign of Chaos)* or its expansion *[The Frozen Throne](Warcraft III: The Frozen Throne)*.**
 
 The ships had been scattered and many of those on board barely made it to the shores of Kalimdor alive. The clans were scattered, and Thrall slowly roamed the coast, collecting the orcs and trolls he came across as he did. But Grom could not be found. This new land held many strange new creatures, but the most brutal were the [centaurs](Centaur), particularly in their treatment of the [tauren](tauren).
 
@@ -78,14 +78,14 @@ Thrall made his way up the mountain and was surprised to find his path crossing 
 Thrall and Cairne separated and searched the caverns themselves. After much time, they found the Oracle's chamber, but they also found Jaina Proudmoore and were about to battle when the [Oracle](Medivh) appeared, revealing himself to be the Prophet that Thrall and Jaina had met in Lordaeron. He told Thrall of Grom's corruption, and that the orcs and humans must join forces or be destroyed. Reluctantly, Thrall agreed, desperate to save Grom.
 
 #### Lifting of the Blood Curse
-  -This section concerns content related to *[Warcraft III: Reign of Chaos](Warcraft III: Reign of Chaos)* or its expansion *[The Frozen Throne](Warcraft III: The Frozen Throne)*.**
+**This section concerns content related to *[Warcraft III: Reign of Chaos](Warcraft III: Reign of Chaos)* or its expansion *[The Frozen Throne](Warcraft III: The Frozen Throne)*.**
 
 They returned to [the Barrens](the Barrens) to find Grom in command of the corrupted [Warsong clan](Warsong clan), and he moved against them as the demonic invasion of Kalimdor began. An epic battle took place between the Warchief and Hellscream's forces as the fire of falling [infernals](infernals) lit up the night sky. Thrall, with the help of Cairne and Jaina, fought his way through the ranks of blood-maddened [chaos orcs](Chaos orc), determined to reach Hellscream at all costs. Finally, after defeating Hellscream's army of orcs, [doomguards](Doomguard), [felhounds](Felhound), and warlocks, Thrall faced his old friend. Hellscream taunted the Warchief, revealing to him that the demons didn't forcefully corrupt the orcs, but that the orc chieftains themselves willingly chose to drink the demon's blood, in full knowledge that it would forever enslave them to the Legions dark rule. Enraged at this revelation and betrayal, Thrall charged at his old friend and the armies of Thrall and Grom along with a swarm of doomguard battled. After a long and desperate struggle, Thrall regained control of himself and managed to capture Grom's essence in a [soul gem](Soul Gem (Warcraft III)) and returned it to a Ritual Circle, where with the combination of [orcish](orcish) [shamanism](Shaman (Warcraft III)) and [elven](Priest (Warcraft III)) magic, the demonic energy was purged from Grom's system. Grom, realizing what he had done, was instantly apologetic, and he and Thrall immediately set out to face Mannoroth in a canyon carved by the falling infernals.
 
 Thrall put an initial assault against [Mannoroth](Mannoroth), but was subdued quickly, and would have been killed, had Grom not gathered his strength and made a devastating blow against Mannoroth, shattering his plate and driving [his axe](Gorehowl) deep into his belly. This was enough to kill the pit lord, but as Mannoroth died explosive energies burst forth from his body and hit Grom at point-blank range. The chieftain of the Warsong clan was mortally wounded. As the demonic, red haze lifted from the eyes of Grom Hellscream and his clan mates, Grom was told that he had freed himself. Thrall approached Grom telling to him that he had freed not just him, but all the orcs from demonic corruption.
 
 #### Battle of Mount Hyjal
-  -This section concerns content related to *[Warcraft III: Reign of Chaos](Warcraft III: Reign of Chaos)* or its expansion *[The Frozen Throne](Warcraft III: The Frozen Throne)*.**
+**This section concerns content related to *[Warcraft III: Reign of Chaos](Warcraft III: Reign of Chaos)* or its expansion *[The Frozen Throne](Warcraft III: The Frozen Throne)*.**
 
 Thrall and Jaina went into Ashenvale but found a new threat behind them as well as in front. The night elves, cursing them for the killing of [Cenarius](Cenarius), attacked them as they attempted to make a new settlement.
 
@@ -98,7 +98,7 @@ All the allied races collectively defended [Nordrassil](Nordrassil) and [Mount H
 As Archimonde made his way up the mountain towards Thrall's base, he taunted Thrall by saying that his race wasn't worth bothering with and that the orcs were weak. Thrall replied that their spirit is strong and if they are to be defeated at least they are free, and struck out, attacking Archimonde and hurting him a little with a  [[Chain Lightning](Chain Lightning)], before Jaina teleported him away. After a great battle, Archimonde was finally destroyed and the Burning Legion was defeated.
 
 ### Founding of Orgrimmar
-  -This section concerns content related to *[Warcraft III: Reign of Chaos](Warcraft III: Reign of Chaos)* or its expansion *[The Frozen Throne](Warcraft III: The Frozen Throne)*.**
+**This section concerns content related to *[Warcraft III: Reign of Chaos](Warcraft III: Reign of Chaos)* or its expansion *[The Frozen Throne](Warcraft III: The Frozen Throne)*.**
 
 Following the victory at Mount Hyjal and the defeat of the Burning Legion, Thrall gathered his people and resolved to find a place for them in the rugged, beautiful lands of the Barrens. Thrall led his orcs into the battle against the [Razormane](Razormane tribe) quilboar and claimed much of the land, founding [Durotar](Durotar), named after his heroic father. Its capital city was [Orgrimmar](Orgrimmar), named for [Orgrim Doomhammer](Orgrim Doomhammer). After many months, things began to pull together. The orcs were fleshing out Durotar, the tauren had gone into [Mulgore](Mulgore), and the [trolls](Jungle troll) had settled on the [Echo Isles](Echo Isles) off the coast.
 
@@ -119,7 +119,7 @@ As soon as Daelin Proudmoore fell, Rexxar shouted that the battle was over and o
 Grateful to Rexxar for all he had done, Thrall extended an invitation to the Mok'Nathal to stay and make a home for himself in Durotar. Rexxar politely declined, telling Thrall that he was a wanderer and his place was in the wilds. But he promised Thrall that he was part of the Horde, and that if his help was ever needed again he would be there. So Thrall said goodbye to Rexxar and resumed building Durotar. For the moment, all was well.
 
 ### World of Warcraft
-  -This section concerns content related to the original *[World of Warcraft](World of Warcraft)*.**
+**This section concerns content related to the original *[World of Warcraft](World of Warcraft)*.**
 
 Thrall, proud Warchief of the Horde remained in his palace, located in the [Valley of Wisdom](Valley of Wisdom) in [Orgrimmar](Orgrimmar). He was considered the mightiest orc alive. He stood as warchief over the entire Horde, holding dominion over the Darkspear trolls and tauren tribes alike. His honor, cunning, and compassion have won him many allies over the years, even amongst the humans and night elves. Thrall lives to defend his people's freedom and ensure the safety of the extended Horde.
 
@@ -144,16 +144,16 @@ At the time of the [Ahn'Qiraj War](Ahn'Qiraj War), Thrall quickly came to an unp
 ## Quests
 - [12] [Hidden Enemies](Hidden Enemies) 
   - [12] [Hidden Enemies (2)](Hidden Enemies (2)) 
-  -* [16D] [Hidden Enemies (3)](Hidden Enemies (3)) 
+  - * [16D] [Hidden Enemies (3)](Hidden Enemies (3)) 
 - [28] [A Unknown Letter](A Unknown Letter) 
 - [54D] [What is Going On?](What is Going On?) 
   - [54D] [The Eastern Kingdoms](The Eastern Kingdoms) 
-  -* [54D] [The Royal Rescue](The Royal Rescue) 
-  -** [54D] [The Princess Saved?](The Princess Saved?) 
+  - * [54D] [The Royal Rescue](The Royal Rescue) 
+  - ** [54D] [The Princess Saved?](The Princess Saved?) 
 - [60] [Eitrigg's Wisdom](Eitrigg's Wisdom) 
   - [60R] [For The Horde!](For The Horde!) 
-  -* [60] [What the Wind Carries](What the Wind Carries) 
-  -** [60] [The Champion of the Horde](The Champion of the Horde) 
+  - * [60] [What the Wind Carries](What the Wind Carries) 
+  - ** [60] [The Champion of the Horde](The Champion of the Horde) 
 - [60R] [The Lord of Blackrock (Horde)](The Lord of Blackrock (Horde)) 
   - [60] [The Lord of Blackrock (Horde 2)](The Lord of Blackrock (Horde 2)) 
 - [60R] [Victory for the Horde](Victory for the Horde) 
@@ -178,13 +178,13 @@ Many cults exist within the Council, but only to hide its actions against the fo
 Groups like the [Burning Blade](Burning Blade), the [Argus Wake](Argus Wake), and the [Searing Blade](Searing Blade) are all tools of the Council. Consider them one and the same
 
 ### On-click
--Lok'tar, friend. What is it you wish?
--Welcome to Orgrimmar. Have you come to serve the Horde?
+- Lok'tar, friend. What is it you wish?
+- Welcome to Orgrimmar. Have you come to serve the Horde?
 
 ### Aggro
--Lok'narosh!
--For Doomhammer!
--Your time has come!
+- Lok'narosh!
+- For Doomhammer!
+- Your time has come!
 
 ## Gallery
 <gallery>
@@ -194,6 +194,6 @@ File:Thrall-wow.webp|Thrall in World of Warcraft.
 
 ## Patch changes
 - (Patch 1.16.0|note=Appearance in the Caverns of Time added.)
--  **[Patch 1.7.0](Patch 1.7.0) (2005-09-13):** Racial "Leaders" have been strengthened, and are now worth slightly less honor.
+- **[Patch 1.7.0](Patch 1.7.0) (2005-09-13):** Racial "Leaders" have been strengthened, and are now worth slightly less honor.
 
 ## References

@@ -26,7 +26,7 @@ categories: ["Dustwallow Marsh NPCs", "Human characters", "Kirin Tor", "Quest gi
 | status | Alive |
 | companions | Whiskers (pet) |
 
--Dolvan Bracewind**, real name **Archmage Vandol**, is a [human](human) [quest giver](quest giver) located in a [small house](Hermit of the Eastern Coast) along the shores of [Dustwallow Marsh](Dustwallow Marsh). Formerly an archmage of the [Kirin Tor](Kirin Tor), he was once a dear friend of the Guardian of Tirisfal, (ref: [quest: The Key to Karazhan IV]) [Medivh](Medivh), who often hosted the Kirin Tor mage in the tower of [Karazhan](Karazhan). (ref: [quest: The Key to Karazhan III]) He was a senior mage to [Bethor Iceshard](Bethor Iceshard), who learned much from him about the arcane and its rules. (ref: [quest: The Key to Karazhan IV]) After Medivh's death, he was tasked by the [Council of Six](Council of Six) along with [Khadgar](Khadgar) and other members of the Kirin Tor with retrieving dangerous relics left behind during the chaos of Lothar's assault on Karazhan. While Khadgar was given the task of retrieving the artifacts, [Antonidas](Antonidas) gave Vandol the task of safekeeping them. (ref: [Khadgar's Journal](Khadgar's Journal))
+**Dolvan Bracewind**, real name **Archmage Vandol**, is a [human](human) [quest giver](quest giver) located in a [small house](Hermit of the Eastern Coast) along the shores of [Dustwallow Marsh](Dustwallow Marsh). Formerly an archmage of the [Kirin Tor](Kirin Tor), he was once a dear friend of the Guardian of Tirisfal, (ref: [quest: The Key to Karazhan IV]) [Medivh](Medivh), who often hosted the Kirin Tor mage in the tower of [Karazhan](Karazhan). (ref: [quest: The Key to Karazhan III]) He was a senior mage to [Bethor Iceshard](Bethor Iceshard), who learned much from him about the arcane and its rules. (ref: [quest: The Key to Karazhan IV]) After Medivh's death, he was tasked by the [Council of Six](Council of Six) along with [Khadgar](Khadgar) and other members of the Kirin Tor with retrieving dangerous relics left behind during the chaos of Lothar's assault on Karazhan. While Khadgar was given the task of retrieving the artifacts, [Antonidas](Antonidas) gave Vandol the task of safekeeping them. (ref: [Khadgar's Journal](Khadgar's Journal))
 
 During the [Third War](Third War) and the devastation of Dalaran at the hands of [Archimonde](Archimonde), Vandol suffered injuries that took a great toll on him that resulted in him retiring as one of the most accomplished mages of modern time. (ref:  After the war, he traveled to [Theramore Isle](Theramore Isle) seeking to settle around the area and paid a visit to Lady [Jaina Proudmoore](Jaina Proudmoore), though he did not stay in the city for long, finding it too bustling. He purchased a small boat and loaded it up with vital supplies, food and seeds, setting sail for the south where he took on a new name and settled down in a lonely estate along the shores.<ref>[quest: The Key to Karazhan V])
 
@@ -43,7 +43,7 @@ During the [Third War](Third War) and the devastation of Dalaran at the hands of
 - [quest: Sovereign of Desolation] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I must admit, I was not expecting company.
 
 I decided to live here for such a reason infact, I enjoy being alone these days, for I have seen a lot.

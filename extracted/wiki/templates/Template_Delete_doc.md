@@ -10,9 +10,9 @@ categories: ["Template documentation"]
 ---
 # Template:Delete/doc
 
--Description**
+**Description**
   This template is used to mark pages for deletion, categorizing them in [:Category:Candidates for deletion](:Category:Candidates for deletion).
-  -Syntax**
+**Syntax**
   Type <code></code> on the page to be deleted.'''
 
 <includeonly></includeonly><noinclude></noinclude>

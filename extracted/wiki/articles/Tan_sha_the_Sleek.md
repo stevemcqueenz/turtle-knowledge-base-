@@ -24,7 +24,7 @@ categories: ["Bosses", "Frostmane Hollow mobs", "Snow leopards", "Turtle WoW con
 | status | Killable |
 | instance | Frostmane Hollow |
 
--Tan'sha the Sleek** is a boss in [Frostmane Hollow](Frostmane Hollow) that is accompanied by [Handler Oboka](Handler Oboka).
+**Tan'sha the Sleek** is a boss in [Frostmane Hollow](Frostmane Hollow) that is accompanied by [Handler Oboka](Handler Oboka).
 
 ## Objective of
 - Drops [Flawless Leopard Pelt](Flawless Leopard Pelt) for [quest: The Finest Pelt].

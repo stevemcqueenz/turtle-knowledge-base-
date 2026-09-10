@@ -10,6 +10,6 @@ categories: ["Bronze Dragonflight", "Dragonflight territories", "Night elf terri
 ---
 # Staghelm Point
 
--Staghelm Point** [70, 26] is a tower on the top of a peak in northeastern [Silithus](Silithus) 70 25 Silithus (g/s/c). It is either named for Archdruid [Fandral Staghelm](Fandral Staghelm), who led the night elf armies in the [War of the Shifting Sands](War of the Shifting Sands), or for his son [Valstann Staghelm](Valstann Staghelm), who fell during that war.
+**Staghelm Point** [70, 26] is a tower on the top of a peak in northeastern [Silithus](Silithus) 70 25 Silithus (g/s/c). It is either named for Archdruid [Fandral Staghelm](Fandral Staghelm), who led the night elf armies in the [War of the Shifting Sands](War of the Shifting Sands), or for his son [Valstann Staghelm](Valstann Staghelm), who fell during that war.
 
 [Ralo'shan the Eternal Watcher](Ralo'shan the Eternal Watcher) resides here, and a bronze drake from the [Brood of Nozdormu](Brood of Nozdormu) circles the skies above the tower.

@@ -10,4 +10,4 @@ categories: ["Booty Bay shops"]
 ---
 # Tan-Your-Hide Leatherworks
 
--Tan-Your-Hide Leatherworks** is a [leatherworking](leatherworking) shop located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). It's run by [Blixrez Goodstitch](Blixrez Goodstitch) and [Qixdi Goodstitch](Qixdi Goodstitch).
+**Tan-Your-Hide Leatherworks** is a [leatherworking](leatherworking) shop located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). It's run by [Blixrez Goodstitch](Blixrez Goodstitch) and [Qixdi Goodstitch](Qixdi Goodstitch).

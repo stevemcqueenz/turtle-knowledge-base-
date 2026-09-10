@@ -26,10 +26,10 @@ categories: ["Moonwhisper Coast NPCs", "Priest trainers", "Tauren characters", "
 | status | Alive |
 | relatives | Elder Starstrider |
 
--Ornak Starstrider** is a [tauren](tauren) priest trainer located in [Moonhoof Retreat](Moonhoof Retreat) in [Moonwhisper Coast](Moonwhisper Coast).
+**Ornak Starstrider** is a [tauren](tauren) priest trainer located in [Moonhoof Retreat](Moonhoof Retreat) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 We must be the light in the darkness, to guide those who cannot find the path of redemption. It is up to us loyal priests to keep the unity of the Tauren.
 
 There are many perils in this world and corruption towards darkness can be found from the most unlikely places. Many look to us for direction, and we must point them on the familiar path, the one trodden by our ancestors before us.

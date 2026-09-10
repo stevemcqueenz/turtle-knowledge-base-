@@ -24,7 +24,7 @@ categories: ["Gilneas City mobs", "Gilneas mobs", "Human characters", "Turtle Wo
 | location | Dryrock Pit and Freyshear Keep, Gilneas, Gilneas City |
 | status | Killable |
 
--Greymane Workers** are humans found in the [Dryrock Pit](Dryrock Pit) and at [Freyshear Keep](Freyshear Keep) in [Gilneas](Gilneas), and within [Gilneas City](Gilneas City).
+**Greymane Workers** are humans found in the [Dryrock Pit](Dryrock Pit) and at [Freyshear Keep](Freyshear Keep) in [Gilneas](Gilneas), and within [Gilneas City](Gilneas City).
 
 ## Quotes
 - You won't leave here alive, outsider!

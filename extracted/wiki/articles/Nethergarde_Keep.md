@@ -31,7 +31,7 @@ categories: ["Alliance quest hubs", "Alliance settlements", "Blasted Lands subzo
 | flightpath | Yes |
 | status | Active |
 
--Nethergarde Keep**, also known as the **Citadel of Nethergarde**, (ref:  is a [Dalaran](Dalaran)ian<ref name="WC2Manual">*Warcraft II: Beyond the Dark Portal* manual, *[The Aftermath of the Second War](https://wowpedia.fandom.com/wiki/Warcraft_II:_Beyond_the_Dark_Portal_manual#The_Aftermath_of_the_Second_War)*) fortress built to keep watch over the [Dark Portal](Dark Portal) after the [Second War](Second War). It stands on a high bluff along the only road into the [Blasted Lands](Blasted Lands), a road often traveled by both the [Alliance](Alliance) and the [Horde](Horde) as they prepare to do battle with the demonic forces in the region.
+**Nethergarde Keep**, also known as the **Citadel of Nethergarde**, (ref:  is a [Dalaran](Dalaran)ian<ref name="WC2Manual">*Warcraft II: Beyond the Dark Portal* manual, *[The Aftermath of the Second War](https://wowpedia.fandom.com/wiki/Warcraft_II:_Beyond_the_Dark_Portal_manual#The_Aftermath_of_the_Second_War)*) fortress built to keep watch over the [Dark Portal](Dark Portal) after the [Second War](Second War). It stands on a high bluff along the only road into the [Blasted Lands](Blasted Lands), a road often traveled by both the [Alliance](Alliance) and the [Horde](Horde) as they prepare to do battle with the demonic forces in the region.
 
 Nethergarde Keep is a heavily defended Alliance town, and although technically it is a castle-like [Northwatch Hold](Northwatch Hold) in the [Barrens](Barrens), none of the guards are [PvP](PvP)-enabled except the [Gryphon Master](Gryphon Master) and a few quest givers. It has two [barracks](barracks), a [mage tower](mage tower) and a [blacksmith](blacksmith).
 
@@ -48,9 +48,9 @@ The [mage](mage)s of the [Wizard's Sanctum](Wizard's Sanctum) are also conductin
 
 ## Travel connections
 ### Flight
-  - [Darkshire](Darkshire), [Duskwood](Duskwood)**
-  - [Stormwind City](Stormwind City), [Elwynn Forest](Elwynn Forest)**
-  - [Morgan's Vigil](Morgan's Vigil), [Burning Steppes](Burning Steppes)**
+** [Darkshire](Darkshire), [Duskwood](Duskwood)**
+** [Stormwind City](Stormwind City), [Elwynn Forest](Elwynn Forest)**
+** [Morgan's Vigil](Morgan's Vigil), [Burning Steppes](Burning Steppes)**
 
 ## Inhabitants
 ## References

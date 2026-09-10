@@ -26,7 +26,7 @@ categories: ["High elf characters", "Hinterlands NPCs", "Quest enders", "Turtle 
 | location | Quel'Danil Lodge, Hinterlands |
 | relatives | Loania (adoptive daughter) |
 
--Voldana** is a [high elf](high elf) quest ender located in [Quel'Danil Lodge](Quel'Danil Lodge) in the [Hinterlands](Hinterlands). During the [Second War](Second War), she fought with [Dougan](Dougan) and [Kardan](Kardan) against the [Horde](Old Horde). When Dougan heard townsfolk were disappearing from investigating the cursed tower of [Karazhan](Karazhan), he ventured off with Kardan and Voldana to rescue the missing villagers. The evils of the tower was too much and while Kardan and Voldana escaped, Dougan didn't make it out. Kardan and Voldana delivered the sad news to Dougan's wife [Adena](Adena). Yet so immense was her grief that she lost the will to live. Subsequently, Kardan and Voldana each adopted a twin. (ref: [quest: Errand for Quel'Danil])
+**Voldana** is a [high elf](high elf) quest ender located in [Quel'Danil Lodge](Quel'Danil Lodge) in the [Hinterlands](Hinterlands). During the [Second War](Second War), she fought with [Dougan](Dougan) and [Kardan](Kardan) against the [Horde](Old Horde). When Dougan heard townsfolk were disappearing from investigating the cursed tower of [Karazhan](Karazhan), he ventured off with Kardan and Voldana to rescue the missing villagers. The evils of the tower was too much and while Kardan and Voldana escaped, Dougan didn't make it out. Kardan and Voldana delivered the sad news to Dougan's wife [Adena](Adena). Yet so immense was her grief that she lost the will to live. Subsequently, Kardan and Voldana each adopted a twin. (ref: [quest: Errand for Quel'Danil])
 
 ## Quests
 - [quest: Errand for Quel'Danil] 

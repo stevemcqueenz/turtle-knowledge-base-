@@ -10,7 +10,7 @@ categories: ["Patches"]
 ---
 # Patch 1.16.1
 
--Patch 1.16.1: Hateforge Quarry** was released on July 24, 2022.
+**Patch 1.16.1: Hateforge Quarry** was released on July 24, 2022.
 
 ## Patch Notes
 ### General
@@ -251,42 +251,42 @@ Full plate armor set accessible with Blood Ring reputation.
 #### Misc. old set fixes
 We've touched upon some below level 60 armor sets to make them more worthwhile to wear on your adventures while keeping their original flavor.
 
-  -[Embrace of the Viper](Embrace of the Viper) ([WC](Wailing Caverns) Set)**
+**[Embrace of the Viper](Embrace of the Viper) ([WC](Wailing Caverns) Set)**
 - 2 Set: 7 Nature Spellpower -> 14 Nature SP
 - 3 Set: +2 Staves -> 1% Attack Speed
 - 4 Set: Healing Power 11 -> 22
 - 5 Set: 10 Intellect -> 15 Intellect
 
-  -[Defias Leather](Defias Leather) ([DM](Deadmines) Set)**
+**[Defias Leather](Defias Leather) ([DM](Deadmines) Set)**
 - 2 Set: 10 Armor -> 30 Armor
 - 3 Set: 5 Arcane Resistance -> 10 AR
 - 4 Set: Daggers +1 -> Daggers +3
 - 5 Set: 10 Attack Power -> 20 AP
 
-  -[Chain of the Scarlet Crusade](Chain of the Scarlet Crusade) ([SM](Scarlet Monastery) Set)**
+**[Chain of the Scarlet Crusade](Chain of the Scarlet Crusade) ([SM](Scarlet Monastery) Set)**
 - 2 Set: 10 Armor -> 50 Armor
 - 3 Set: 1 Defense -> 4 Defense
 - 4 Set: 5 Shadow Resistance -> 10 SR
 - 5 Set: 15 Attack Power vs Undead -> 30 AP vs Undead
 
-  -[Shard of the Gods](Shard of the Gods) ([Onyxia](Onyxia) + [Ragnaros](Ragnaros) Set)**
+**[Shard of the Gods](Shard of the Gods) ([Onyxia](Onyxia) + [Ragnaros](Ragnaros) Set)**
 This has been added due to the fact nobody ever wears the 16 health regeneration trinket from Ragnaros (for good reason), this should incentivize wearing them together as they give half their bonuses as extra when used in tandem in addition to the original +10 all resistances bonus.
 - +2 Set: 8 MP5
 - +2 Set: 8 HP5
 
-  -[Ironweave Battlesuit](Ironweave Battlesuit) (Various high-level dungeons + T0.5 questline summoned bosses)**
+**[Ironweave Battlesuit](Ironweave Battlesuit) (Various high-level dungeons + T0.5 questline summoned bosses)**
 - +4 Set: +15 Stamina
 - +6 Set: 1% Dodge and 1% Spell Hit
 - 8 Set: +200 Armor -> +300 Armor
 - Old 4 Set: 10% Silence and Interrupt resist -> New 2 Set
 
-  -[The Gladiator](The Gladiator) ([Blackrock Depths](Blackrock Depths) arena boss drops)**
+**[The Gladiator](The Gladiator) ([Blackrock Depths](Blackrock Depths) arena boss drops)**
 - 2 Set: 20 Armor -> 100 Armor
 - 3 Set: 2 Defense -> 6 Defense
 - 4 Set: 10 Attack Power -> 30 AP
 - 5 Set: 1% Crit -> 2% Crit
 
-  -[The Postmaster](The Postmaster) ([Stratholme](Stratholme) all mailbox opening summoned boss)**
+**[The Postmaster](The Postmaster) ([Stratholme](Stratholme) all mailbox opening summoned boss)**
 - 4 Set: 12 Spellpower -> 18 Spellpower
 - 5 Set: 10 Intellect -> 20 Intellect
 
@@ -317,54 +317,54 @@ The vanilla design of the Druid is infamous for being pretty unfinished. Its mec
 
 ##### Talent Changes
 ###### Balance
-  -[Natural Weapons](Natural Weapons)** | Now 3 Ranks (down from 5)
+**[Natural Weapons](Natural Weapons)** | Now 3 Ranks (down from 5)
 
 Increases the damage you deal with physically in all forms by 3/6/10% and increases your chance to hit with melee attacks and spells by 1/2/3%.
 
-  -[Nature's Grace](Nature's Grace)**
+**[Nature's Grace](Nature's Grace)**
 
 All spell criticals grace you with a blessing of nature, reducing the casting time and global cooldown of your next spell by 0.5 sec.
 
-  -[Moonkin Form](Moonkin Form)**
+**[Moonkin Form](Moonkin Form)**
 
 Transforms the Druid into Moonkin Form. While in this form the armor contribution from items is increased by 360%, the Mana cost of your Balance spells reduced by 20%, and all party members within 30 yards have their spell critical chance increased by 3%. The Moonkin can only cast Balance spells, Innervate, and Remove Curse while shapeshifted.
 
-  -[Omen of Clarity](Omen of Clarity)**
+**[Omen of Clarity](Omen of Clarity)**
 
 Imbues the Druid with natural energy. Each of the Druid's melee attacks and direct damage spell casts has a chance of causing the caster to enter a Clearcasting state. The Clearcasting state reduces the Mana, Rage, or Energy cost of your next damage or healing spell or offensive ability by 100%. Lasts 30 min.
 
 ###### Feral
-  -[Primal Fury](Primal Fury)** and **[Blood Frenzy](Blood Frenzy)** have had their existing effects combined into **Primal Fury**: Gives you a 50/100% chance to gain an additional 5 Rage anytime you get a critical strike while in Bear and Dire Bear Form and your critical strikes from Cat Form abilities that add combo points have a 50/100% chance to add an additional combo point.
+**[Primal Fury](Primal Fury)** and **[Blood Frenzy](Blood Frenzy)** have had their existing effects combined into **Primal Fury**: Gives you a 50/100% chance to gain an additional 5 Rage anytime you get a critical strike while in Bear and Dire Bear Form and your critical strikes from Cat Form abilities that add combo points have a 50/100% chance to add an additional combo point.
 
 Reduced the ranks of **[Thick Hide](Thick Hide)** from 5 ranks to 3 ranks.
 
 Increases your Armor contribution from items by 3/6/10%.
 
-  -[Feral Instinct](Feral Instinct)** reduced from 5 ranks to 3 ranks.
+**[Feral Instinct](Feral Instinct)** reduced from 5 ranks to 3 ranks.
 
 Increasing threat caused in Bear Form and Dire Bear Form by 5/10/15% and reduces the chance enemies have to detect you while PRowling.
 
-  -New Talent: [Blood Frenzy](Blood Frenzy) (Row 4)** | 2 Ranks
+**New Talent: [Blood Frenzy](Blood Frenzy) (Row 4)** | 2 Ranks
 
 Increases the duration of [Tiger's Fury](Tiger's Fury) by 3/6 seconds and your Enrage now also instantly restores 5/10 rage. In addition, Tiger’s Fury and Enrage increases your attack speed by 6/12% for 6/12 seconds.
 
-  -New Talent: [Berserk](Berserk) (Row 5)** | 6 Minute Cooldown
+**New Talent: [Berserk](Berserk) (Row 5)** | 6 Minute Cooldown
 
 Removes all Fear effects and increases your energy regeneration rate by 100% while in Cat form, and increases your total health by 20% while in Bear Form. After the effect ends, the health is lost. The effect lasts 20 seconds.
 
 ###### Restoration
-  -[Swiftmend](Swiftmend)** has moved from a Row 7 to a Row 3 talent, replacing Insect Swarm.
+**[Swiftmend](Swiftmend)** has moved from a Row 7 to a Row 3 talent, replacing Insect Swarm.
 
-  -[Tranquil Spirit](Tranquil Spirit)** is no longer a prerequisite for the Row 7 major talent.
+**[Tranquil Spirit](Tranquil Spirit)** is no longer a prerequisite for the Row 7 major talent.
 
-  -[Improved Rejuvenation](Improved Rejuvenation)** is now a prerequisite talent for Improved Regrowth.
+**[Improved Rejuvenation](Improved Rejuvenation)** is now a prerequisite talent for Improved Regrowth.
 
-  -[Improved Enrage](Improved Enrage)** has been removed from the Restoration tree and has been integrated into the new talent Blood Frenzy.
+**[Improved Enrage](Improved Enrage)** has been removed from the Restoration tree and has been integrated into the new talent Blood Frenzy.
 
-  -[Subtlety](Subtlety)** now also reduces threat generated from Balance spells.
+**[Subtlety](Subtlety)** now also reduces threat generated from Balance spells.
 Reduces the threat generated by your Healing and Balance spells by 4/8/12/16/20%.
 
-  -New Talent: [Tree of Life Form](Tree of Life Form) (Row 7)**
+**New Talent: [Tree of Life Form](Tree of Life Form) (Row 7)**
 
 Shapeshift into the Tree of Life. While in this form you increase healing received by 20% of your total Spirit for all party members within 30 yards, your movement speed is reduced by 20%, and you cannot cast damaging spells or Healing Touch, but the mana cost of these spells is reduced by 20%.
 
@@ -374,7 +374,7 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
 Hunter’s main problem in vanilla comes down to two issues: DPS does not scale well with their gear so they tend to not be competitive in endgame stages, and their pets are particularly fragile in a raid setting, often leading to them not being used. Burning Crusade fixed these problems at the same time with pet scaling, Kill Command, and Steady Shot abilities - leading them to become massively overpowered. Avoiding this while also addressing their vanilla issues can be done by not giving them all three at once.
 
 ##### New Abilities
-  -[Trueshot](Trueshot)**
+**[Trueshot](Trueshot)**
 
 A precise shot with a ranged weapon that strikes the target for X additional damage. (Cooldown of this ability is equal to the attack speed of your ranged weapon.)
 
@@ -388,13 +388,13 @@ Rank 4: 40 Additional Damage, 5% Mana, Learned at Level 54
 
 Rank 5: 50 Additional Damage, 5% Mana, Learned at Level 60
 
-  -[Aspect of the Wolf](Aspect of the Wolf)**
+**[Aspect of the Wolf](Aspect of the Wolf)**
 
 Learned at Level 30 | Toggled | 185 Mana Cost |
 
 The hunter takes on the aspects of a wolf, increasing melee attack power by 155 and disabling the use of ranged attacks. Only one Aspect can be active at a time.
 
-  -[Avoidance](Avoidance)**
+**[Avoidance](Avoidance)**
 
 Learned at Level 50 | Pet Passive |
 
@@ -402,36 +402,36 @@ Reduces the damage your pet takes from the area of effect attacks by an addition
 
 ##### Talent Changes
 ###### Beast Mastery
-  -[Improved Eyes of the Beast](Improved Eyes of the Beast)**
+**[Improved Eyes of the Beast](Improved Eyes of the Beast)**
 
 Increases the duration of Eyes of the Beast by 30/60 seconds. While channeling this ability your tamed pet deals 15/30% additional damage and increases its focus generation by 15/30%.
 
-  -[Improved Aspect of the Hawk](Improved Aspect of the Hawk)** has been renamed to **[Improved Predator Aspects](Improved Predator Aspects)** and now gives your melee attacks a 1/2/3/4/5% chance to increase melee attack speed by 30% for 12 seconds while Aspect of the Wolf is active.
+**[Improved Aspect of the Hawk](Improved Aspect of the Hawk)** has been renamed to **[Improved Predator Aspects](Improved Predator Aspects)** and now gives your melee attacks a 1/2/3/4/5% chance to increase melee attack speed by 30% for 12 seconds while Aspect of the Wolf is active.
 
 ###### Survival
-  -New Talent: [Superior Strikes](Superior Strikes)**
+**New Talent: [Superior Strikes](Superior Strikes)**
 
 Reduces the cooldown of your [Raptor Strike](Raptor Strike) and [Mongoose Bite](Mongoose Bite) by 0.2/0.4/0.6/0.8/1 sec.
 
-  -[Monster Slaying](Monster Slaying)** and **[Humanoid Slaying](Humanoid Slaying)** have been combined into one talent called [Improved Slaying](Improved Slaying) which gives the damage and critical damage bonuses of both talents.
+**[Monster Slaying](Monster Slaying)** and **[Humanoid Slaying](Humanoid Slaying)** have been combined into one talent called [Improved Slaying](Improved Slaying) which gives the damage and critical damage bonuses of both talents.
 
 #### [Mage](Mage)
 There isn’t much to improve on for the Fire and Frost mage specs in vanilla - they are tightly designed and synergize well with other mages very well. That said, Arcane falls far behind despite having an opportunity to fill its own niche and the possibility of encouraging the Elemental Mage playstyle.
 
 ##### Changes to Baseline Spells
-  -[Arcane Missiles](Arcane Missiles)**: Spell Power scaling coefficient has been increased: (0.24 -> 0.286)
+**[Arcane Missiles](Arcane Missiles)**: Spell Power scaling coefficient has been increased: (0.24 -> 0.286)
 
 ##### Talent Changes
 ###### Arcane
-  -Improved [Arcane Explosion](Arcane Explosion) > [Arcane Impact](Arcane Impact)**
+**Improved [Arcane Explosion](Arcane Explosion) > [Arcane Impact](Arcane Impact)**
 
 Increases the critical strike chance of your Arcane Explosion and Arcane Missiles spells by an additional 2/4/6%.
 
-  -New Talent: [Arcane Potency](Arcane Potency) (Row 4)**
+**New Talent: [Arcane Potency](Arcane Potency) (Row 4)**
 
 Increases the critical strike damage bonus of your Arcane spells by 18/36/50%. Requires Arcane Mind as a prerequisite talent.
 
-  -New Talent: [Brilliance Aura](Brilliance Aura) (Row 5)**
+**New Talent: [Brilliance Aura](Brilliance Aura) (Row 5)**
 
 Gives Mana regeneration to party members equal to 15% of the Mage's mana regeneration within 30 yards. Lasts 30 minutes. Requires Arcane Potency as a prerequisite talent. (Can be cast while riding a mount, just like how the Archmage did in Warcraft 3.)
 
@@ -439,16 +439,16 @@ Gives Mana regeneration to party members equal to 15% of the Mage's mana regener
 Let’s be frank - the only good thing a paladin can do in vanilla is healing. Sure, with the right setup you can do decent tanking or decent DPS, but it still doesn’t all quite come together. A lot of the potential and uniqueness to the class has always attracted people to it, but that was progressively lost over time in retail post-vanilla. We believe there is a lot of opportunities to help the Paladin perform more than just healing adequately without making them too powerful or “warrior-lite.”
 
 ##### Changes to Baseline Spells
-  -[Consecration](Consecration)** is no longer a talent and is now available to all Paladins starting at level 20, its scaling coefficient has been increased (0.042 -> 0.119) and mana cost for all ranks has been reduced. Example: Rank 5 Mana Cost 565 -> 505
+**[Consecration](Consecration)** is no longer a talent and is now available to all Paladins starting at level 20, its scaling coefficient has been increased (0.042 -> 0.119) and mana cost for all ranks has been reduced. Example: Rank 5 Mana Cost 565 -> 505
 
-  -[Judgement of Righteousness](Judgement of Righteousness)** scaling coefficient has been increased: (0.5 -> 0.728)
+**[Judgement of Righteousness](Judgement of Righteousness)** scaling coefficient has been increased: (0.5 -> 0.728)
 
-  -[Retribution Aura](Retribution Aura)** scaling coefficient has been added: (0.033)
+**[Retribution Aura](Retribution Aura)** scaling coefficient has been added: (0.033)
 
-  -[Holy Strike](Holy Strike)** cooldown increased from 8 seconds to 10 seconds.
+**[Holy Strike](Holy Strike)** cooldown increased from 8 seconds to 10 seconds.
 
 ##### New Abilities
-  -[Crusader Strike](Crusader Strike)**
+**[Crusader Strike](Crusader Strike)**
 
 A strike that causes X damage and increases the holy damage taken by the target by up to Y per Crusader Strike. Can be applied up to 5 times. Lasts 30 seconds.
 
@@ -466,11 +466,11 @@ Crusader Strike is not able to proc seals, damage-based procs, or refresh judgme
 
 ##### Talent Changes
 ###### Holy
-  -[Healing Light](Healing Light) (Row 3)**
+**[Healing Light](Healing Light) (Row 3)**
 
 Increases the amount healed by your Holy Light, Flash of Light, and the effectiveness of Holy Shock spells by 4/8/12%.
 
-  -[Holy Shock](Holy Shock)** | Rework: (Values are for Rank 3):
+**[Holy Shock](Holy Shock)** | Rework: (Values are for Rank 3):
 
 Cooldown reduced from 30 seconds to 20 seconds.
 
@@ -480,35 +480,35 @@ Healing Increased from 365 to 628.
 
 Damage increased from 365 to 496.
 
-  -[Lasting Judgements](Lasting Judgements)** (Row 5) removed.
+**[Lasting Judgements](Lasting Judgements)** (Row 5) removed.
 
 ###### Protection
-  -[Redoubt](Redoubt)** and now has a 2/4/6/8/10% chance to activate off of any direct attack instead of being the victim of a critical strike.
+**[Redoubt](Redoubt)** and now has a 2/4/6/8/10% chance to activate off of any direct attack instead of being the victim of a critical strike.
 
-  -[Precision](Precision)**. Increases your chance to hit with melee weapons and spells by 1/2/3%.
+**[Precision](Precision)**. Increases your chance to hit with melee weapons and spells by 1/2/3%.
 
-  -[Blessing of Kings](Blessing of Kings)** has been moved from Row 3 of the Protection talent tree to Row 3 of the Retribution talent tree.
+**[Blessing of Kings](Blessing of Kings)** has been moved from Row 3 of the Protection talent tree to Row 3 of the Retribution talent tree.
 
-  -[Shield Specialization](Shield Specialization)**. Increases the amount of damage absorbed by your shield by 10/20/30% and has a 33/66/100% chance to restore 2% mana when a block occurs. This effect cannot occur more than once every second.
+**[Shield Specialization](Shield Specialization)**. Increases the amount of damage absorbed by your shield by 10/20/30% and has a 33/66/100% chance to restore 2% mana when a block occurs. This effect cannot occur more than once every second.
 
-  -[Improved Concentration Aura](Improved Concentration Aura)** has been moved from Row 4 of the Protection talent tree to Row 5 of the Holy talent tree.
+**[Improved Concentration Aura](Improved Concentration Aura)** has been moved from Row 4 of the Protection talent tree to Row 5 of the Holy talent tree.
 
 New Talent: **[Improved Seal of Justice](Improved Seal of Justice)** (Row 4). Increases the chance your Seal of Justice will stun the opponent by 22/33/67% and your Judgement of Justice has a 33/66/100% chance to taunt your target to attack you but has no effect if the target is already attacking you.
 
-  -[Blessing of Sanctuary](Blessing of Sanctuary)** has been moved from Row 5 to Row 3 in the Protection tree.
+**[Blessing of Sanctuary](Blessing of Sanctuary)** has been moved from Row 5 to Row 3 in the Protection tree.
 
-  -[Holy Shield](Holy Shield)** moved from Row 7 to Row 5.
+**[Holy Shield](Holy Shield)** moved from Row 7 to Row 5.
 
 New Talent: **[Ardent Defender](Ardent Defender)** (Row 7). When you have less than 35% health, all damage taken is reduced by 25%.
 
 ###### Retribution
-  -[Seal of Command](Seal of Command)** moved from Row 3 to Row 5.
+**[Seal of Command](Seal of Command)** moved from Row 3 to Row 5.
 
-  -[Sanctity Aura](Sanctity Aura)** has been moved from Row 5 of the Retribution talent tree to Row 3 of the Holy talent tree.
+**[Sanctity Aura](Sanctity Aura)** has been moved from Row 5 of the Retribution talent tree to Row 3 of the Holy talent tree.
 
-  -[Greater Blessing of Kings](Greater Blessing of Kings)**' Mana Cost has been adjusted: (150 Mana -> 15% Base Mana)
+**[Greater Blessing of Kings](Greater Blessing of Kings)**' Mana Cost has been adjusted: (150 Mana -> 15% Base Mana)
 
-  -[Improved Seal of the Crusader](Improved Seal of the Crusader)** has been renamed to **[Heart of the Crusader](Heart of the Crusader)** and now also increases the holy damage bonus of [Crusader Strike](Crusader Strike).
+**[Improved Seal of the Crusader](Improved Seal of the Crusader)** has been renamed to **[Heart of the Crusader](Heart of the Crusader)** and now also increases the holy damage bonus of [Crusader Strike](Crusader Strike).
 
 New Talent: **[Sanctified Command](Sanctified Command)** (Row 5). Gives your [Seal of Command](Seal of Command) a 45/90% chance to resist dispel effects and your [Judgement of Command](Judgement of Command) will restore mana equal to 10/20% of the base mana cost of the Seal of Command to you and nearby party members. Requires Seal of Command as a prerequisite talent.
 
@@ -516,17 +516,17 @@ New Talent: **[Sanctified Command](Sanctified Command)** (Row 5). Gives your [Se
 Shadow priests are notorious for being good, but also not. Their mana economy is horrendous and comes with several downsides other dps+caster hybrids don’t have to work around. The challenge for Shadow is to boost its utility and mana economy without increasing its power, as their damage per second is actually very good already.
 
 ##### Changes to Baseline Spells
-  -[Inner Fire](Inner Fire)** now also gives Attack Power like in the beta versions, and Improved Inner Fire also scales this value.
+**[Inner Fire](Inner Fire)** now also gives Attack Power like in the beta versions, and Improved Inner Fire also scales this value.
 
-  -[Fear Ward](Fear Ward)** is now a Discipline spell and can be cast in Shadowform.
+**[Fear Ward](Fear Ward)** is now a Discipline spell and can be cast in Shadowform.
 
-  -[Feedback](Feedback)** mana cost has been reduced.
+**[Feedback](Feedback)** mana cost has been reduced.
 
-  -[Holy Fire](Holy Fire)** initial damage component scaling has been adjusted: (0.75 -> 0.857)
+**[Holy Fire](Holy Fire)** initial damage component scaling has been adjusted: (0.75 -> 0.857)
 
 '''[Divine Spirit](Divine Spirit) (Row 5) is now the baseline for all Priests starting at level 30.
 
-  -[Lightwell](Lightwell)** (Row 7) has been made baseline and is available for all Priests starting at level 40.
+**[Lightwell](Lightwell)** (Row 7) has been made baseline and is available for all Priests starting at level 40.
 
 ##### New Abilities
 New Passive: **[Improved Shadowform](Improved Shadowform)**. | Learned at Level 60 | Passive
@@ -543,16 +543,16 @@ Heal the friendly target 518 to 615. This spell generates a reduced threat. Requ
 
 ##### Talent Changes
 ###### Shadow
-  -[Improved Vampiric Touch](Improved Vampiric Touch)** has been renamed as **[Vampiric Embrace](Vampiric Embrace)**: Increases the percentage healed by Vampiric Embrace by an additional 5/10% and your Vampiric Embrace now causes all party members to also gain mana equal to 2/4% of any Shadow spell damage you deal.
+**[Improved Vampiric Touch](Improved Vampiric Touch)** has been renamed as **[Vampiric Embrace](Vampiric Embrace)**: Increases the percentage healed by Vampiric Embrace by an additional 5/10% and your Vampiric Embrace now causes all party members to also gain mana equal to 2/4% of any Shadow spell damage you deal.
 
 ###### Holy
-  -[Holy Nova](Holy Nova)** damage component scaling has been adjusted: (0.107 -> 0.161)
+**[Holy Nova](Holy Nova)** damage component scaling has been adjusted: (0.107 -> 0.161)
 
 New Talent: **[Holy Champion](Holy Champion)** (Row 7)
 
 Allows you to choose another player as your holy champion, granting you several unique abilities:
 
-  -[Proclaim Champion](Proclaim Champion)** | 250 Mana Cost | 10 Second Cast | 2 Hour Cooldown
+**[Proclaim Champion](Proclaim Champion)** | 250 Mana Cost | 10 Second Cast | 2 Hour Cooldown
 
 Proclaim the friendly target as your champion for 2 hrs. Increases armor by 230, all resistances by 10, and allows the use of various Champion spells on that target.
 
@@ -560,24 +560,24 @@ Note: Persists through death and continues its duration and cooldown countdowns 
 
 Note: Armor buff does not stack with Scroll of Protection IV
 
-  -[Champion’s Grace](Champion’s Grace)** | Learned at Level 40 | 250 Mana Cost
+**[Champion’s Grace](Champion’s Grace)** | Learned at Level 40 | 250 Mana Cost
 
 Bestow the target Champion with grace, increasing all healing done by the priest by 10%. Lasts 2 hrs.
 
-  -[Champion’s Bond](Champion’s Bond)** | Learned at Level 44 | 250 Mana Cost
+**[Champion’s Bond](Champion’s Bond)** | Learned at Level 44 | 250 Mana Cost
 
 Creates a bond between priest and Champion. When the priest takes damage up to 20 will be taken by the Champion instead. Lasts 10 min.
 
-  -[Empower Champion](Empower Champion)** | Learned at Level 50 | 1100 Mana Cost
+**[Empower Champion](Empower Champion)** | Learned at Level 50 | 1100 Mana Cost
 
 Empower the target Champion, increasing all healing and spell damage done by up to 20 and attack power by 30. Lasts 2 hrs.
 Note: Does not stack effects with Greater Arcane Elixir or Juju Power/Elixir of Giants
 
-  -[Champion's Resolve](Champion's Resolve)** | Learned at Level 58 | 250 Mana Cost | 5 Minute Cooldown
+**[Champion's Resolve](Champion's Resolve)** | Learned at Level 58 | 250 Mana Cost | 5 Minute Cooldown
 
 Wards the champion against Fear. The next Fear effect used against the target will fail, using up the ward. Lasts 10 sec.
 
-  -[Revive Champion](Revive Champion)** | 81% Base Mana Cost | 2 Second Cast
+**[Revive Champion](Revive Champion)** | 81% Base Mana Cost | 2 Second Cast
 
 Return the priest's Champion to life with 2500 health and 2600 mana.
 
@@ -592,7 +592,7 @@ Causes 20% of the damage absorbed by your Power Word: Shield to reflect back at 
 Not a lot to say for Rogues. If anything, Combat being the only viable talent spec in PvE all the way to late AQ40/Naxx is unfortunate. Debuff cap limits and some new abilities to add to their toolkit without majorly changing the way the class functions is something we believe Rogue players are looking for.
 
 ##### New Abilities
-  -[Deadly Throw](Deadly Throw)** | 30 Energy | Cooldown Equal to Ranged Weapon Speed | 8 - 30 Yard Range
+**[Deadly Throw](Deadly Throw)** | 30 Energy | Cooldown Equal to Ranged Weapon Speed | 8 - 30 Yard Range
 
 Finishing move causes thrown weapon damage plus additional damage per combo point:
 
@@ -606,11 +606,11 @@ Finishing move causes thrown weapon damage plus additional damage per combo poin
 
 5 points: 468 - 564 damage
 
-  -[Agitating Poison](Agitating Poison)** | Learned at Level 60
+**[Agitating Poison](Agitating Poison)** | Learned at Level 60
 
 Coats a weapon with poison that lasts for 30 minutes. Each strike has a 20% chance of poisoning the enemy which instantly inflicts 67 to 85 Nature damage, and causes additional threat. 115 charges.
 
-  -[Flourish](Flourish)** | 25 Energy | Learned at Level 42
+**[Flourish](Flourish)** | 25 Energy | Learned at Level 42
 
 A finishing move that increases your chance to parry by an additional 20%. Lasts longer per combo point:
 
@@ -626,14 +626,14 @@ A finishing move that increases your chance to parry by an additional 20%. Lasts
 
 ##### Talent Changes
 ###### Combat
-  -[Dagger Specialization](Dagger Specialization)** (Row 4) and **[Fist Weapon Specialization](Fist Weapon Specialization)** (Row 5) have been combined into **[Close Quarters Combat](Close Quarters Combat)** (Row 4): Increases your chance to get a critical strike with Daggers and Fist Weapons by 1/2/3/4/5%.
+**[Dagger Specialization](Dagger Specialization)** (Row 4) and **[Fist Weapon Specialization](Fist Weapon Specialization)** (Row 5) have been combined into **[Close Quarters Combat](Close Quarters Combat)** (Row 4): Increases your chance to get a critical strike with Daggers and Fist Weapons by 1/2/3/4/5%.
 
 New Talent: [Throwing Weapon Specialization](Throwing Weapon Specialization) (Row 5)
 
 Increases the range of your throwing weapons by 3/6 yards.
 
 ###### Subtlety
-  -[Improved Sap](Improved Sap)** (Row 4)
+**[Improved Sap](Improved Sap)** (Row 4)
 
 Gives you a 50/100% chance to return to stealth mode after using your Sap ability.
 
@@ -641,15 +641,15 @@ Gives you a 50/100% chance to return to stealth mode after using your Sap abilit
 Elemental and Enhancement both have struggles in PvE that can be addressed somewhat easily. Restoration is pretty solid in vanilla, but its talent tree leaves a lot to be desired - something to keep in mind for the future.
 
 ##### New Abilities
-  -[Calm Elements](Calm Elements)** | Learned at Level 30 | 90 Mana Cost
+**[Calm Elements](Calm Elements)** | Learned at Level 30 | 90 Mana Cost
 
 Calms the target, reducing the range at which it will attack you by 10 yards. Only affects Elemental targets level 70 or lower. Lasts 15 sec.
 
-  -[Water Shield](Water Shield)** | Learned at Level 60 | 15 Mana Cost
+**[Water Shield](Water Shield)** | Learned at Level 60 | 15 Mana Cost
 
 The caster is surrounded by 3 globes of water. When a spell, melee or ranged attack hits the caster, 83 mana is restored to the caster. This expends one water globe. Only one globe will activate every few seconds. Lasts 10 min. Only one elemental shield can be active on the Shaman at any one time.
 
-  -[Earth Shield](Earth Shield)** | Learned at Level 60 | 300 Mana Cost
+**[Earth Shield](Earth Shield)** | Learned at Level 60 | 300 Mana Cost
 
 The caster is surrounded by an earthen shield, giving a 30% chance of ignoring spell interruption when damaged and causing attacks to heal the shielded target by 150. This effect can only occur once every few seconds. 3 charges. Lasts 10 min. Only one elemental shield can be active on the Shaman at any one time.
 
@@ -679,13 +679,13 @@ New Rank 2 of **[Stormstrike](Stormstrike)** added, learnable at level 60. Diffe
 ###### Enhancement
 [Two-Handed](Two-Handed) [Axe](Axe)s and [Mace](Mace)s will be learned on character creation instead of being acquired from Row 3 of Enchancement. Existing characters will already have this skill trained.
 
-  -[Parry](Parry)** will now be learnable at Level 6 from your class trainer instead of being acquired from Row 5 of Enchancement.
+**[Parry](Parry)** will now be learnable at Level 6 from your class trainer instead of being acquired from Row 5 of Enchancement.
 
 New Talent: *[Thunderhead](Thunderhead)* (Row 3).
 
 Allows your [Lightning Shield](Lightning Shield) to be cast on allies and reduces its mana cost by 20%. Requires [Improved Lightning Shield](Improved Lightning Shield) as a prerequisite talent.
 
-  -[Stormstrike](Stormstrike)** has been moved from Row 7 to Row 5.
+**[Stormstrike](Stormstrike)** has been moved from Row 7 to Row 5.
 
 New Talent: **[Bloodlust](Bloodlust)** (Row 7)
 
@@ -699,14 +699,14 @@ New Talent: **[Spirit Armor](Spirit Armor)** (Row 4)
 
 Increases the armor gained from Shields by 10/20/30%.
 
-  -[Toughness](Toughness)** and **[Anticipation](Anticipation)** have been combined into one talent: **[Ancestral Guidance](Ancestral Guidance)** (Row 3)
+**[Toughness](Toughness)** and **[Anticipation](Anticipation)** have been combined into one talent: **[Ancestral Guidance](Ancestral Guidance)** (Row 3)
 
 Increases your armor value from items by 2/4/6/8/10% and chance to dodge by an additional 1/2/3/4/5%.
 
 ###### Elemental
-  -[Elemental Focus](Elemental Focus)** (Row 3) changed: after landing a critical strike with a Fire, Frost, or Nature damage spell or melee attack, you enter a Clearcasting state. The Clearcasting state reduces the mana cost of your next 2 damage spells by 40%.
+**[Elemental Focus](Elemental Focus)** (Row 3) changed: after landing a critical strike with a Fire, Frost, or Nature damage spell or melee attack, you enter a Clearcasting state. The Clearcasting state reduces the mana cost of your next 2 damage spells by 40%.
 
-  -[Flame Shock](Flame Shock)** initial damage increased and mana cost decreased:
+**[Flame Shock](Flame Shock)** initial damage increased and mana cost decreased:
 
 Example: Rank 6
 
@@ -751,26 +751,26 @@ Reduces the damage your pet takes from the area of effect attacks by an addition
 
 ##### Talent Changes
 ###### Affliction
-  -[Improved Drain Life](Improved Drain Life)** and **[Improved Drain Mana](Improved Drain Mana)** have been combined into one talent: **[Soul Siphon](Soul Siphon)**
+**[Improved Drain Life](Improved Drain Life)** and **[Improved Drain Mana](Improved Drain Mana)** have been combined into one talent: **[Soul Siphon](Soul Siphon)**
 Increases the Health drained by your Drain Life spell by 5/10% and causes 15/30% of the mana drained by your Drain Mana spell to damage the opponent.
 
 ###### Demonology
-  -[Improved Enslave Demon](Improved Enslave Demon)** reduced to 2 ranks (down from 5). Reduces the Attack Speed and Casting Speed penalty of your [Enslave Demon](Enslave Demon) spell by 10/20%, reduces the resist chance by 10/20%.
+**[Improved Enslave Demon](Improved Enslave Demon)** reduced to 2 ranks (down from 5). Reduces the Attack Speed and Casting Speed penalty of your [Enslave Demon](Enslave Demon) spell by 10/20%, reduces the resist chance by 10/20%.
 
-  -[Soul Link](Soul Link)** and **[Health Funnel](Health Funnel)** will now work with enslaved demons.
+**[Soul Link](Soul Link)** and **[Health Funnel](Health Funnel)** will now work with enslaved demons.
 
-  -[Improved Healthstone](Improved Healthstone)**, **[Improved Firestone](Improved Firestone)**, and **[Improved Spellstone](Improved Spellstone)** have all been combined into one talent: **[Master Conjurer](Master Conjurer)** (Row 2). Increases the amount of Health restored by your [Healthstone](Healthstone) by 10/20% and increases the bonuses and effects of your [Firestone](Firestone)s and [Spellstone](Spellstone)s by 15/30%.
+**[Improved Healthstone](Improved Healthstone)**, **[Improved Firestone](Improved Firestone)**, and **[Improved Spellstone](Improved Spellstone)** have all been combined into one talent: **[Master Conjurer](Master Conjurer)** (Row 2). Increases the amount of Health restored by your [Healthstone](Healthstone) by 10/20% and increases the bonuses and effects of your [Firestone](Firestone)s and [Spellstone](Spellstone)s by 15/30%.
 
-  -[Inferno](Inferno)** cooldown reduced from 1 hour to 20 minutes and can now be cast indoors.
+**[Inferno](Inferno)** cooldown reduced from 1 hour to 20 minutes and can now be cast indoors.
 
-  -[Fel Intellect](Fel Intellect)** has been reduced from 5 ranks down to 3 ranks. Increases the maximum Mana of your Imp, Voidwalker, Succubus, and Felhound by 5/10/15%.
+**[Fel Intellect](Fel Intellect)** has been reduced from 5 ranks down to 3 ranks. Increases the maximum Mana of your Imp, Voidwalker, Succubus, and Felhound by 5/10/15%.
 
-  -[Fel Stamina](Fel Stamina)** has been reduced from 5 ranks down to 3 ranks. Increases the maximum Health of your Imp, Voidwalker, Succubus, and Felhound by 5/10/15%.
+**[Fel Stamina](Fel Stamina)** has been reduced from 5 ranks down to 3 ranks. Increases the maximum Health of your Imp, Voidwalker, Succubus, and Felhound by 5/10/15%.
 
 ###### Destruction
-  -[Intensity](Intensity)** (Row 4). Gives you Fire spells a 70% chance to resist interruption caused by damage while casting or channeling any Destruction fire spell.
+**[Intensity](Intensity)** (Row 4). Gives you Fire spells a 70% chance to resist interruption caused by damage while casting or channeling any Destruction fire spell.
 
-  -[Pyroclasm](Pyroclasm)** (Row 5). Gives your Rain of Fire, Hellfire, Conflagrate, and Soul Fire spells a 25% chance to stun the target for 3 sec.
+**[Pyroclasm](Pyroclasm)** (Row 5). Gives your Rain of Fire, Hellfire, Conflagrate, and Soul Fire spells a 25% chance to stun the target for 3 sec.
 
 #### [Warrior](Warrior)
 Warrior in Vanilla is overpowered. Just straight up too powerful for the game. That being said, this just means that any change made to the class must down one of two things only: either optimize what doesn’t work but should for the class, or improve on suboptimal playstyles to allow for more options for the player. The changes proposed for the coming patch attempt to stick within those guidelines.
@@ -799,11 +799,11 @@ Increases your chance to parry attacks by 20% while under the effect of Retaliat
 
 ##### Talent Changes
 ###### Arms
-  -[Improved Thunder Clap](Improved Thunder Clap)** (Row 2). Reduces the cost of your [Thunder Clap](Thunder Clap) ability by 1/2/4 rage points and increases the damage by 20/40/60%.
+**[Improved Thunder Clap](Improved Thunder Clap)** (Row 2). Reduces the cost of your [Thunder Clap](Thunder Clap) ability by 1/2/4 rage points and increases the damage by 20/40/60%.
 
-  -[Polearm Specialization](Polearm Specialization)** (Row 6) has been combined into **[Axe Specialization](Axe Specialization)** (Row 5) and renamed **[Poleaxe Specialization](Poleaxe Specialization)** (Row 5).
+**[Polearm Specialization](Polearm Specialization)** (Row 6) has been combined into **[Axe Specialization](Axe Specialization)** (Row 5) and renamed **[Poleaxe Specialization](Poleaxe Specialization)** (Row 5).
 
 New Talent: **[Improved Disciplines](Improved Disciplines)** (Row 6). Reduces the cooldown of your [Retaliation](Retaliation), [Recklessness](Recklessness), and [Shield Wall](Shield Wall) abilities by 2/4/6 min.
 
 ###### Protection
-  -[Improved Shield Block](Improved Shield Block)** has been reduced from 3 ranks down to 1 rank. Allows your Shield Block ability to block an additional attack and increases the duration by 1 second.
+**[Improved Shield Block](Improved Shield Block)** has been reduced from 3 ranks down to 1 rank. Allows your Shield Block ability to block an additional attack and increases the duration by 1 second.

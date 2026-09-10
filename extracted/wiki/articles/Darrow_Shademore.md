@@ -25,7 +25,7 @@ categories: ["Gilneas NPCs", "Human characters", "Quest givers", "Turtle WoW con
 | status | Alive |
 | relatives | Mariette (wife),, Odon (son) |
 
--Darrow Shademore** is a [human](human) [quest giver](quest giver) located at the [Shademore Tavern](Shademore Tavern) in [Gilneas](Gilneas).
+**Darrow Shademore** is a [human](human) [quest giver](quest giver) located at the [Shademore Tavern](Shademore Tavern) in [Gilneas](Gilneas).
 
 ## Quests
 - [quest: Foulhide Pests] 

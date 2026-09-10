@@ -25,26 +25,26 @@ categories: ["Dragonmaw clan", "Grim Reaches mobs", "Orc characters"]
 | location | Zarm'geth Stronghold, Grim Reaches |
 | status | Killable |
 
--Commander Korlag Doomsong** is an [orc](orc) located at [Zarm'geth Stronghold](Zarm'geth Stronghold) in [Grim Reaches](Grim Reaches) and one of the leaders of the [Dragonmaw clan](Dragonmaw clan) that refused to rally under [Zuluhed the Whacked](Zuluhed the Whacked) and the [Dark Horde](Dark Horde). (ref:  [35D] [Letter from Korlag Doomsong](Letter from Korlag Doomsong)) [Magistrate Hurdam Toughhand](Magistrate Hurdam Toughhand) and [Commander Aggnash](Commander Aggnash) want him dead.
+**Commander Korlag Doomsong** is an [orc](orc) located at [Zarm'geth Stronghold](Zarm'geth Stronghold) in [Grim Reaches](Grim Reaches) and one of the leaders of the [Dragonmaw clan](Dragonmaw clan) that refused to rally under [Zuluhed the Whacked](Zuluhed the Whacked) and the [Dark Horde](Dark Horde). (ref:  [35D] [Letter from Korlag Doomsong](Letter from Korlag Doomsong)) [Magistrate Hurdam Toughhand](Magistrate Hurdam Toughhand) and [Commander Aggnash](Commander Aggnash) want him dead.
 
 ## Abilities
 - Intimidating Shout
 - Thunderclap
 
 ## Quotes
-  -Aggro**
+**Aggro**
   I shall bring the Dragonmaw Clan to victory! All those that oppose me shall be destroyed!
 
-  -50%**
+**50%**
   Taste my fury!
 
-  -Death**
+**Death**
   This cannot be! I was destined to be our future!
 
 ## Objective of
 - Drops [Head of Korlag Doomsong](Head of Korlag Doomsong) for  [39+] [Destruction of the Dragonmaw](Destruction of the Dragonmaw (Alliance)) and  [39+] [Destruction of the Dragonmaw](Destruction of the Dragonmaw (Horde)).
 
 ## Patch changes
--  **[Patch 1.18.0](Patch 1.18.0) (2025-09-15):** Added.
+- **[Patch 1.18.0](Patch 1.18.0) (2025-09-15):** Added.
 
 ## References

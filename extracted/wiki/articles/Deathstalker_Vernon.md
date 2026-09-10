@@ -24,7 +24,7 @@ categories: ["Forsaken characters", "Gilneas NPCs", "Quest givers", "Turtle WoW 
 | location | Stillward Church, Gilneas |
 | status | Active |
 
--Deathstalker Vernon** is a [Forsaken](Forsaken) innkeeper located in [Stillward Church](Stillward Church) in [Gilneas](Gilneas).
+**Deathstalker Vernon** is a [Forsaken](Forsaken) innkeeper located in [Stillward Church](Stillward Church) in [Gilneas](Gilneas).
 
 ## Quests
 - [quest: A Chief Among Brutes] 
@@ -32,7 +32,7 @@ categories: ["Forsaken characters", "Gilneas NPCs", "Quest givers", "Turtle WoW 
 - [quest: War on Worgen] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The land of Gilneas is certainly wounded and scarred, but it is not rotten from the inside out like Tirisfal. Any chance to extend out our influence here will take considerable effort.
 
 ## Patch changes

@@ -11,30 +11,30 @@ categories: ["Classes"]
 # Warlock
 
 ## Leveling Strategies
-  -Vanilla Drain Tanking**
+**Vanilla Drain Tanking**
 
 - **[Drain Tanking Guide](https://drive.google.com/file/d/1qdUs229_XvkR1NCeTrJkybL5BDXGIh7q/view)**  Explains a leveling method where Warlocks use Drain Life and Life Tap to sustain themselves indefinitely. Instead of drinking for mana, you trade health for mana and restore health with Drain Life. With Voidwalker or Succubus tanking, you can grind mobs efficiently with minimal downtime.
 - **[Reddit Post on Drain Tanking](https://www.reddit.com/r/classicwow/comments/ccxosl/dives_drain_tanking_guide_for_warlock_leveling_in/)**  An in-depth breakdown of the strategy, including talents, gear, and mob-killing efficiency, with insights from players.
 
-  -Key Changes in TurtleWoW:**
+**Key Changes in TurtleWoW:**
 
 - Dark Pact has been removed (no mana drain from pet).
 - Talent shifts require build adjustments.
 - Despite changes, Drain Tanking remains an efficient leveling method due to its sustain and AoE.
 
 ## Leveling Guides
-  -SailorVEVO Leveling Guide (Last Update: 24/9/25)**
+**SailorVEVO Leveling Guide (Last Update: 24/9/25)**
 
 Experiment with where specific talents are placed to better fit your playstyle. For example, as Demonology, if you use only Imp or Succubus, move points out of Nether Studies since it will not improve your throughput.
 
 Offers multiple paths depending on playstyle, covering early (1–40) and post-40 talent setups:
 
-  -Up to Level 40**
+**Up to Level 40**
 
 - **[Affliction-Based Leveling](https://talents.turtlecraft.gg/warlock?points=BoASaIBDRJFAB--)**  Focuses on DoTs like Corruption, Siphon Life, and Improved Drain Life for self-sufficient aoe pulling. Perfect for questing. Points in Curse of Exhaustion may be removed in favour of throughput talents such as Nightfall at your discretion.
 - **[Demonology-Based Leveling](https://talents.turtlecraft.gg/warlock?points=Ao-AoQYBoCbBAFAB-)**  Centers on strong demons (Voidwalker or Succubus), providing safer, tanky gameplay, ideal for newcomers.
 
-  -Post-40 Specializations**
+**Post-40 Specializations**
 
 Choose based on solo vs. group play:
 

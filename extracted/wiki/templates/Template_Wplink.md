@@ -12,14 +12,10 @@ categories: ["External link templates"]
 
 <includeonly>{{#ifeq:{}||&nbsp;}}[{{{2|{}}}}](wikipedia:{})</includeonly><noinclude>
 
-  -*Usage:** 
-  -<code>&#123;&#123;wplink&#124;article_name&#124;optional_label&#125;&#125;</code>
-  -<code>&#123;&#123;wplink&#124;article_name&#124;optional_label&#124;icon=&#125;&#125;</code>
-  -<code>&#123;&#123;wp&#124;World of Warcraft&#125;&#125;</code>
+- **Usage:** 
+  - <code>&#123;&#123;wplink&#124;article_name&#124;optional_label&#125;&#125;</code>
+  - <code>&#123;&#123;wplink&#124;article_name&#124;optional_label&#124;icon=&#125;&#125;</code>
+  - <code>&#123;&#123;wp&#124;World of Warcraft&#125;&#125;</code>
 
-  -*Results:** 
-  -
-  -
-  -
-
-</noinclude>
+- **Results:** 
+  -   -   - </noinclude>

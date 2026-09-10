@@ -13,15 +13,5 @@ categories: ["Dark Iron dwarf territories", "Destroyed settlements", "Northwind 
 The **Ruins of Birkhaven** are what remains of the city of **Birkhaven**, located in northeastern [Northwind](Northwind). Once ruled by [Duke Johnathan Sherwood](Duke Johnathan Sherwood) and his family, it has now fallen to the [Blackrock](Blackrock clan) [orc](orc)s and [Dark Iron dwarves](Dark Iron dwarf) that now war over the ruins.
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - - - - - - ## Patch changes
 - (Patch 1.18.0|note=Added.)

@@ -10,7 +10,7 @@ categories: ["Gillijim's Isle subzones", "Islands", "Turtle WoW content"]
 ---
 # Kazon Island
 
--Kazon Island** is an island located within [Gillijim's Isle](Gillijim's Isle), to the north of the main island. It is the home of the great hermit [Insom'ni](Insom'ni), also known as the green dragon Insomnius.
+**Kazon Island** is an island located within [Gillijim's Isle](Gillijim's Isle), to the north of the main island. It is the home of the great hermit [Insom'ni](Insom'ni), also known as the green dragon Insomnius.
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

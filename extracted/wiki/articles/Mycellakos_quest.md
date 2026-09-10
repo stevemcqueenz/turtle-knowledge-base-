@@ -51,9 +51,9 @@ The Earthmother will guide you to the answer.
 You have brought me its core? Well done. I will attempt to purify it now.
 
 ## Progression
-1.[quest: Living Fungus]
-1.[quest: Mycellakos]
-1.[quest: The Matron Will Know]
+1. [quest: Living Fungus]
+1. [quest: Mycellakos]
+1. [quest: The Matron Will Know]
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

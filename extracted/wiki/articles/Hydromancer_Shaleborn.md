@@ -24,7 +24,7 @@ categories: ["Barrens NPCs", "Human characters", "Kul Tiras (kingdom)", "Quest g
 | location | Anchor's Edge, the Barrens |
 | status | Killable |
 
--Hydromancer Shaleborn** is a [human](human) [quest giver](quest giver) located in [Anchor's Edge](Anchor's Edge) in [the Barrens](the Barrens).
+**Hydromancer Shaleborn** is a [human](human) [quest giver](quest giver) located in [Anchor's Edge](Anchor's Edge) in [the Barrens](the Barrens).
 
 ## Quests
 - [quest: The Power of Aqua] 
@@ -33,7 +33,7 @@ categories: ["Barrens NPCs", "Human characters", "Kul Tiras (kingdom)", "Quest g
 - [quest: Cutting Ranks]
 
 ## Quotes
-  -Gossip**
+**Gossip**
 What brings you to Anchor's Edge of all places?
 
 ## Patch changes

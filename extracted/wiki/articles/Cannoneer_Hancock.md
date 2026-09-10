@@ -24,7 +24,7 @@ categories: ["Human characters", "Kul Tiran Exploratory Fleet", "Lapidis Isle NP
 | location | The Rock, Lapidis Isle |
 | status | Alive |
 
--Cannoneer Hancock** is a [human](human) located at [the Rock](the Rock) in [Lapidis Isle](Lapidis Isle).
+**Cannoneer Hancock** is a [human](human) located at [the Rock](the Rock) in [Lapidis Isle](Lapidis Isle).
 
 ## Quotes
 ### Gossip

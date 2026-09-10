@@ -22,7 +22,7 @@ categories: ["Crabs", "Lapidis Isle mobs", "Tenacity beasts", "Turtle WoW conten
 | location | The Rock, Lapidis Isle |
 | pet | Crab |
 
--Rock Crawlers** are crabs found on the shores of [the Rock](the Rock) in [Lapidis Isle](Lapidis Isle).
+**Rock Crawlers** are crabs found on the shores of [the Rock](the Rock) in [Lapidis Isle](Lapidis Isle).
 
 ## Objective of
 - Drops [Juicy Crawler Leg](Juicy Crawler Leg) for [quest: Sailors Innovation].

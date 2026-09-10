@@ -24,7 +24,7 @@ categories: ["Goblin characters", "Tel'Abim NPCs", "Tel Company", "Turtle WoW co
 | location | Tel Co. Basecamp, Tel'Abim |
 | status | Alive |
 
--Tel Co. Workers** are [goblin](goblin)s located in [Tel Co. Basecamp](Tel Co. Basecamp) in [Tel'Abim](Tel'Abim).
+**Tel Co. Workers** are [goblin](goblin)s located in [Tel Co. Basecamp](Tel Co. Basecamp) in [Tel'Abim](Tel'Abim).
 
 ## Patch changes
 - (Patch 1.16.4|note=Added.)

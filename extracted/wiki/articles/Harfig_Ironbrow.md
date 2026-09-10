@@ -24,14 +24,14 @@ categories: ["Grim Reaches NPCs", "Quest givers", "Turtle WoW content", "Wildham
 | location | Dun Kithas, Grim Reaches |
 | status | Alive |
 
--Harfig Ironbrow** is a [Wildhammer dwarf](Wildhammer dwarf) quest giver located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
+**Harfig Ironbrow** is a [Wildhammer dwarf](Wildhammer dwarf) quest giver located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
 
 ## Quests
 - [quest: Death to Grimscale] 
 - [quest: Grimscale Revenge] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Is there something that I can assist you with outsider?
 
 ## Patch changes

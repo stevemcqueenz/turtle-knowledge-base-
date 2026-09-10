@@ -10,4 +10,4 @@ categories: ["Dwarf territories", "Gnome territories", "Ironforge subzones", "Ma
 ---
 # Hall of Mysteries
 
--Hall of Mysteries** is the center of arcane and divine power in the dwarven kingdom of [Ironforge](Ironforge). It houses several [mage](mage), [paladin](paladin), and [priest](priest) trainers and a few quest givers.
+**Hall of Mysteries** is the center of arcane and divine power in the dwarven kingdom of [Ironforge](Ironforge). It houses several [mage](mage), [paladin](paladin), and [priest](priest) trainers and a few quest givers.

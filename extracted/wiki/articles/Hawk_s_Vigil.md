@@ -30,7 +30,7 @@ categories: ["Alliance quest hubs", "Alliance settlements", "Human territories",
 | flightpath | No |
 | status | Active |
 
--Hawk's Vigil** is a mountain [Alliance](Alliance) town located in the southern hills of the [Wetlands](Wetlands), to the east of [Dun Agrath](Dun Agrath). It was founded by humans of [Lordaeron](Lordaeron (kingdom)) that fled their fallen kingdom when it fell to the [Scourge](Scourge), (ref: [quest: Honoring the Departed]) and have been bracing themselves for a Scourge raid that never came. (ref: [New Zones & World Edits](https://web.archive.org/web/20260514170802/https://turtlecraft.gg/new-locations-and-maps). Archived from [the original](https://turtlecraft.gg/new-locations-and-maps) on 2026-05-14. Retrieved on 2026-29-08.)
+**Hawk's Vigil** is a mountain [Alliance](Alliance) town located in the southern hills of the [Wetlands](Wetlands), to the east of [Dun Agrath](Dun Agrath). It was founded by humans of [Lordaeron](Lordaeron (kingdom)) that fled their fallen kingdom when it fell to the [Scourge](Scourge), (ref: [quest: Honoring the Departed]) and have been bracing themselves for a Scourge raid that never came. (ref: [New Zones & World Edits](https://web.archive.org/web/20260514170802/https://turtlecraft.gg/new-locations-and-maps). Archived from [the original](https://turtlecraft.gg/new-locations-and-maps) on 2026-05-14. Retrieved on 2026-29-08.)
 
 ## NPCs
 ## Trivia

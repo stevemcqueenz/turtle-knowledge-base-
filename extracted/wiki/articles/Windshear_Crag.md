@@ -10,7 +10,7 @@ categories: ["Goblin territories", "Pages with broken file links", "Stonetalon M
 ---
 # Windshear Crag
 
--Windshear Crag** once was a massive old-growth forest nestled in a valley in the [Stonetalon Mountains](Stonetalon Mountains). This cut in the mountains leads from the southern border of Ashenvale into the stormy canyons of the Stonetalons.
+**Windshear Crag** once was a massive old-growth forest nestled in a valley in the [Stonetalon Mountains](Stonetalon Mountains). This cut in the mountains leads from the southern border of Ashenvale into the stormy canyons of the Stonetalons.
 
 The Crag is now home to a massive logging expedition by the [Venture Company](Venture Company). The once green landscape is now a barren area of tree stumps, polluted waters, and creaking machinery. The entire logging operation was put in the hands of [Gerenzo Wrenchwhistle](Gerenzo Wrenchwhistle), a gnome who is now more machine than gnome. Using his mechanical expertise, he built the [Super Reaper 6000](Super Reaper 6000) which can reduce the most massive trees to sawdust. He watches over the crag from a platform built above the [Cragpool Lake](Cragpool Lake).
 

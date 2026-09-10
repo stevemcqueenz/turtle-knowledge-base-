@@ -25,7 +25,7 @@ categories: ["Gilneas NPCs", "Human characters", "Innkeepers", "Turtle WoW conte
 | status | Alive |
 | relatives | Darrow (husband),, Odon (son) |
 
--Mariette Shademore** is a [human](human) [innkeeper](innkeeper) located at the [Shademore Tavern](Shademore Tavern) in [Gilneas](Gilneas).
+**Mariette Shademore** is a [human](human) [innkeeper](innkeeper) located at the [Shademore Tavern](Shademore Tavern) in [Gilneas](Gilneas).
 
 ## Quotes
 An outsider, huh? We haven't had those in such a long time. With the Greymane Wall closed, we haven't heard much of the goings-on outside the kingdom.

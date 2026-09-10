@@ -31,7 +31,7 @@ categories: ["Barrens subzones", "Camps", "Horde settlements", "Pages with broke
 | flightpath | Yes |
 | status | Active |
 
--Camp Taurajo** is a [tauren](tauren) outpost situated in the [Barrens](Barrens) near the mountain pass leading to [Mulgore](Mulgore). It can be reached by starting tauren players by following the road east from [Bloodhoof Village](Bloodhoof Village). It has an [inn](inn), a few vendors, some [profession](Professions) trainers, and a [flight master](flight master).
+**Camp Taurajo** is a [tauren](tauren) outpost situated in the [Barrens](Barrens) near the mountain pass leading to [Mulgore](Mulgore). It can be reached by starting tauren players by following the road east from [Bloodhoof Village](Bloodhoof Village). It has an [inn](inn), a few vendors, some [profession](Professions) trainers, and a [flight master](flight master).
 
 ## Facilities
 - Stables
@@ -42,27 +42,14 @@ categories: ["Barrens subzones", "Camps", "Horde settlements", "Pages with broke
 
 ## Travel Connections
 ### Flight
-  - [Thunder Bluff](Thunder Bluff)**
+** [Thunder Bluff](Thunder Bluff)**
 
-  - [The Crossroads](The Crossroads)**
+** [The Crossroads](The Crossroads)**
 
-  - [Freewind Post](Freewind Post)**
+** [Freewind Post](Freewind Post)**
 
 ## Camp Taurajo NPCs
 ### Profession Trainers
--  
--  
--  
-
-### Merchants
--  
--  
--  
-
-### Other Available NPCs
--  
--  
--  
--  
--  
--
+- - - ### Merchants
+- - - ### Other Available NPCs
+- - - - - -

@@ -27,7 +27,7 @@ categories: ["Balor", "Dungeons", "Stormwrought Ruins"]
 
 *This article is about the dungeon. For the dungeon subzone, see [Stormwrought Castle (Stormwrought Ruins)](Stormwrought Castle (Stormwrought Ruins)). For the castle exterior, see [Stormwrought Castle](Stormwrought Castle).*
 
-  -Stormwrought Ruins** is an instance dungeon located in [Balor](Balor), within the ruins of [Stormwrought Castle](Stormwrought Castle). An impregnable fortress, once [Duke Balor](Duke Balor)'s home and seat of power, Stormwrought Castle lies derelict atop the wave crashed cliffs of Balor. Seized during the [First War](First War), all its inhabitants were slaughtered viciously, and those less fortunate taken captive to be used in heinous rituals. Years later, this abandoned ruin has now been claimed again, by the orcish [Stormreaver clan](Stormreaver clan) and their sinister overlords of the [Shadow Council](Shadow Council). The no longer pristine halls of the castle harbor a menagerie of horror and depravity, with lingering ghosts, hulking demons and murmuring cultists skulking along the pitchblack halls of this horrid place.
+**Stormwrought Ruins** is an instance dungeon located in [Balor](Balor), within the ruins of [Stormwrought Castle](Stormwrought Castle). An impregnable fortress, once [Duke Balor](Duke Balor)'s home and seat of power, Stormwrought Castle lies derelict atop the wave crashed cliffs of Balor. Seized during the [First War](First War), all its inhabitants were slaughtered viciously, and those less fortunate taken captive to be used in heinous rituals. Years later, this abandoned ruin has now been claimed again, by the orcish [Stormreaver clan](Stormreaver clan) and their sinister overlords of the [Shadow Council](Shadow Council). The no longer pristine halls of the castle harbor a menagerie of horror and depravity, with lingering ghosts, hulking demons and murmuring cultists skulking along the pitchblack halls of this horrid place.
 
 ## Geography
 ### Maps and subregions
@@ -43,20 +43,20 @@ WorldMap-StormwroughtRuins.jpg
 |}
 
 ## Dungeon denizens
--  [Bog beast](Bog beast)s
--  [Crocolisk](Crocolisk)s
--  [Felguard](Felguard)s
--  [Gnome](Gnome)s
--  [Human](Human)s
--  [Imp](Imp)s
--  [Lasher](Lasher)s
--  [Beholder](Beholder) (one, [Mergothid](Mergothid))
--  [Ogre mage](Ogre mage) (one, [Ighal'for](Ighal'for))
--  [Ooze](Ooze)s
--  [Orc](Orc)s
--  [Succubi](Succubus)
--  [Tauren](Tauren)
--  [Undead](Undead)
+- [Bog beast](Bog beast)s
+- [Crocolisk](Crocolisk)s
+- [Felguard](Felguard)s
+- [Gnome](Gnome)s
+- [Human](Human)s
+- [Imp](Imp)s
+- [Lasher](Lasher)s
+- [Beholder](Beholder) (one, [Mergothid](Mergothid))
+- [Ogre mage](Ogre mage) (one, [Ighal'for](Ighal'for))
+- [Ooze](Ooze)s
+- [Orc](Orc)s
+- [Succubi](Succubus)
+- [Tauren](Tauren)
+- [Undead](Undead)
 
 ## Quest guide
 {| class="fandom-table"
@@ -131,4 +131,4 @@ dropped by
 |}
 
 ## Patch changes
--  **[Patch 1.18.0](Patch 1.18.0) (2025-09-15):** Added.
+- **[Patch 1.18.0](Patch 1.18.0) (2025-09-15):** Added.

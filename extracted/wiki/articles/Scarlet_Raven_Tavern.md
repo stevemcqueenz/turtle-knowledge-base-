@@ -18,12 +18,4 @@ Before he retired from active duty, [Marshal Haggard](Marshal Haggard) and the [
 While the tavern no longer saw the business it used to do because of the corruption of Duskwood, they still do get travelers passing through. At some point, [Jitters](Jitters) rented a room here for a few days, and spent his nights at the bar, writing, until he left the town in a hurry as he was hunted by the [Dark Riders](Dark Riders). (ref:  [25] [Inquire at the Inn](Inquire at the Inn)) After beings stuck hiding at [Raven Hill](Raven Hill) for weeks, Jitters sent the adventurer at the tavern to bring him [Dusky Crab Cakes](Dusky Crab Cakes) in exchange for information. (ref:  [20] [Jitters' Growling Gut](Jitters' Growling Gut)) (ref:  [20] [Return to Jitters](Return to Jitters))
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-## References
+- - - - - - - ## References

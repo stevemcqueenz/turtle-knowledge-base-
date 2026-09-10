@@ -10,9 +10,9 @@ categories: ["Template documentation"]
 ---
 # Template:From Wikimedia/doc
 
--Description**
+**Description**
   This template is used to mark images as having been uploaded on [Wikipedia](wikipedia:) or another [Wikimedia](wikimedia:) project.
-  -Syntax**
+**Syntax**
   Type <code></code> on the image information page.
 
 <includeonly></includeonly><noinclude></noinclude>

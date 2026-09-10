@@ -24,4 +24,4 @@ categories: ["Cartographers", "Orc characters", "Swamp of Sorrows NPCs"]
 | race | Orc |
 | location | Stonard, Swamp of Sorrows |
 
--Stonard Cartographers** are [orc](orc)s near [Stonard](Stonard) that are mapping the contested [Swamp of Sorrows](Swamp of Sorrows).
+**Stonard Cartographers** are [orc](orc)s near [Stonard](Stonard) that are mapping the contested [Swamp of Sorrows](Swamp of Sorrows).

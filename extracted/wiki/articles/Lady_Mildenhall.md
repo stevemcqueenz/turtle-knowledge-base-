@@ -26,13 +26,13 @@ categories: ["Aristocrats", "Human characters", "Northwind NPCs", "Quest givers"
 | status | Alive |
 | relatives | Hans (nephew) |
 
--Lady Josephine Mildenhall** is a [human](human) quest giver located in [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind). She coordinates the agricultural aspects of Northwind. Both [Crawford Winery](Crawford Winery) and her own [Mildenhall Horse Farm](Mildenhall Horse Farm) are important locations for the region's economic growth. The patented Crawford Wine is an especially acquired taste and luxury good found within the banquet halls of any Stormwind noble. Lady Mildenhall's kind and maternal nature makes her particularly cherished among the children of [Ambershire](Ambershire). (ref: [The Nobles of Northwind](The Nobles of Northwind))
+**Lady Josephine Mildenhall** is a [human](human) quest giver located in [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind). She coordinates the agricultural aspects of Northwind. Both [Crawford Winery](Crawford Winery) and her own [Mildenhall Horse Farm](Mildenhall Horse Farm) are important locations for the region's economic growth. The patented Crawford Wine is an especially acquired taste and luxury good found within the banquet halls of any Stormwind noble. Lady Mildenhall's kind and maternal nature makes her particularly cherished among the children of [Ambershire](Ambershire). (ref: [The Nobles of Northwind](The Nobles of Northwind))
 
 ## Quests
 - [quest: To Look A Gift Horse In The Mouth] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 King's Honor, friend. Please make sure you behave accordingly when walking these halls. We really can't afford any more trouble than we already have.
 
   > Gossip: *Good lady, just what chaos has befallen these lands?*

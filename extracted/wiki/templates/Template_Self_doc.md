@@ -10,9 +10,9 @@ categories: ["Template documentation"]
 ---
 # Template:Self/doc
 
--Description**
+**Description**
   This template is used to mark images as having been uploaded by the photographer or author.
-  -Syntax**
+**Syntax**
   Type <code></code> on the image information page.
 
 <includeonly></includeonly><noinclude></noinclude>

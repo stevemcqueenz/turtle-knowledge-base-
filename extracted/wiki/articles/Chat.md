@@ -12,14 +12,14 @@ categories: []
 
 Chat is primarily text-based communication, initiated by pressing Enter or typing '/' to open the command line. Chat channels are accessed via slash commands (see below).
 
-  -Additional notes:**
+**Additional notes:**
 
 - Opposing faction characters can only communicate via /s (say) or /y (yell), and messages are seen in faction language.
 - Shift-clicking items or quests inserts clickable links into chat that show descriptions or objectives.
 - A profanity filter is enabled by default.
 
 ## Chat Commands
-  -Basic Chat Commands**
+**Basic Chat Commands**
 {| class="fandom-table"
 !Command
 !Usage
@@ -90,7 +90,7 @@ Chat is primarily text-based communication, initiated by pressing Enter or typin
 |Summarizes chat commands
 |}
 
-  -Basic Chat with Audible Sounds**
+**Basic Chat with Audible Sounds**
 {| class="fandom-table"
 !Command
 !Usage
@@ -149,7 +149,7 @@ Chat is primarily text-based communication, initiated by pressing Enter or typin
 |Flirt with player (race/gender-dependent)
 |}
 
-  -Guild Specific Chat**
+**Guild Specific Chat**
 {| class="fandom-table"
 !Command
 !Usage
@@ -176,7 +176,7 @@ Chat is primarily text-based communication, initiated by pressing Enter or typin
 |Set guild message of the day
 |}
 
-  -Advanced Chat Channel Usage**
+**Advanced Chat Channel Usage**
 {| class="fandom-table"
 !Command
 !Usage
@@ -244,7 +244,7 @@ Chat is primarily text-based communication, initiated by pressing Enter or typin
 |}
 
 ## **Advanced Chat**
-  -Advanced Chat Terminology & Details**
+**Advanced Chat Terminology & Details**
 
 - **Channel Limit:** Max 10 channels at once (excluding say, yell, party, raid, guild, officer, whisper).
 - **Undead Channel:** Leftover join/leave messages caused by crashes or exiting game during OOZ channels.
@@ -253,12 +253,12 @@ Chat is primarily text-based communication, initiated by pressing Enter or typin
 - **Chat Types:** SAY, YELL, EMOTE, PARTY, RAID, GUILD, OFFICER, WHISPER, CHANNEL, SYSTEM.
 - **Sticky Chat Types:** Remembers last used chat type per session (default: SAY, PARTY, RAID, GUILD).
 
-  -*Note**:* Capital cities have specific channels:
+***Note**:* Capital cities have specific channels:
 
 - **Alliance:** Stormwind, Ironforge, Darnassus
 - **Horde:** Orgrimmar, Undercity, Thunder Bluff
 
-  -How to Switch Chat Language**
+**How to Switch Chat Language**
 
 In the chat interface:
 
@@ -267,9 +267,9 @@ In the chat interface:
 # Select from your known languages.
 
 ## **FAQ**
-  -Out-of-Zone Chat Channel FAQ**
+**Out-of-Zone Chat Channel FAQ**
 
-  -Q1:** How do I join an OOZ channel?
+**Q1:** How do I join an OOZ channel?
 
 - **A:** Use <code>/script JoinChannelByName("Channel - Zone")</code> and add to chat window:
 <syntaxhighlight lang="lua">
@@ -278,15 +278,15 @@ In the chat interface:
 
 - **A:** No, typically not. Crashes or logouts may leave you stuck; you may need to manually edit your chat-cache file.
 
-  -Q3:** What happens if I join an OOZ channel while in another?
+**Q3:** What happens if I join an OOZ channel while in another?
 
 - **A:** Traffic may reroute to the OOZ channel; avoid <code>/leave</code> or <code>/join</code> conflicts while in the OOZ.
 
-  -Q4:** Are there addons to manage OOZ channels?
+**Q4:** Are there addons to manage OOZ channels?
 
 - **A:** Yes, tools like **ChannelManager** automate joining/leaving common OOZ channels.
 
-  -Q5:** Why aren’t my OOZ visibility options saved?
+**Q5:** Why aren’t my OOZ visibility options saved?
 
 - **A:** Due to cache limitations, re-add channels via macro:
 <syntaxhighlight lang="lua">
@@ -294,7 +294,7 @@ In the chat interface:
 </syntaxhighlight>
 
 ## Troubleshooting
-  -Chat Channel Troubleshooting**
+**Chat Channel Troubleshooting**
 
 # **Cannot talk or see messages:**
 
@@ -304,23 +304,23 @@ END
 ZONECHANNELS 0
 </syntaxhighlight>Log out, close game, edit file, restart.
 
-  -Cannot see chat in a channel:**
+**Cannot see chat in a channel:**
 
 - Right-click chat tab → Filters → Ensure channel is checked.
 
-  -Cannot see system messages:**
+**Cannot see system messages:**
 
 - Usually a cache bug; delete <code>chat-cache.txt</code> and relog.
 
-  -Cannot join #2 channel (Trade):**
+**Cannot join #2 channel (Trade):**
 
 - Outside cities, Trade is hidden; only join inside city.
 
-  -Channel colors not saved:**
+**Channel colors not saved:**
 
 - Saved by channel number; server channels usually in order: 1. General, 2. Trade, etc.
 
-  -Cannot talk in a channel:**
+**Cannot talk in a channel:**
 
 - Reset chat settings:
   - Exit game.

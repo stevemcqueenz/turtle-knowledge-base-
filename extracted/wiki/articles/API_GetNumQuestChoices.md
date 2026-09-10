@@ -15,7 +15,7 @@ Gets the number of rewards for a quest that you are currently turning in success
 
 ## Parameters
 ### Returns
-  - *Returns* **
+** *Returns* **
    num
 
   ; num

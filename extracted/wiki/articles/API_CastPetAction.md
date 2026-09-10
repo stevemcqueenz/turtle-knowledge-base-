@@ -14,7 +14,7 @@ Cast the corresponding pet skill.
  CastPetAction(index);
 ----
 
-  - *Arguments***
+** *Arguments***
 
    (index)
   ; index
@@ -22,13 +22,13 @@ Cast the corresponding pet skill.
 
 ----
 
-  - *Returns***
+** *Returns***
 
    nil
 
 ----
 
-  - *Example***
+** *Example***
 
 Cast by specified action name
 <syntaxhighlight lang="lua">
@@ -42,7 +42,7 @@ Cast by specified action name
 Please notice that this exemple will only works if the sacrifice skill is named "Sacrifice" in the client locale.
 ----
 
-  - *Description***
+** *Description***
 
    Cast the corresponding pet skill. Requires a button press.
 

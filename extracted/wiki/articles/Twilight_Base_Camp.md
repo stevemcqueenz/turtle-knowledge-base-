@@ -10,6 +10,6 @@ categories: ["Pages with broken file links", "Silithus subzones", "Stubs", "Twil
 ---
 # Twilight Base Camp
 
--Twilight Base Camp** is a [village](village) and one of four [Twilight's Hammer](Twilight's Hammer) camps in [Silithus](Silithus).
+**Twilight Base Camp** is a [village](village) and one of four [Twilight's Hammer](Twilight's Hammer) camps in [Silithus](Silithus).
 
 ## References

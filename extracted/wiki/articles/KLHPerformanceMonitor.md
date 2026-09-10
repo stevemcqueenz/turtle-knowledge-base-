@@ -10,10 +10,10 @@ categories: ["Addon"]
 ---
 # KLHPerformanceMonitor
 
--KLHPerformanceMonitor** tracks the memory creation and CPU usage of all the mods running. You can print out a list of the top 10 mods, for memory usage or CPU time, in total or in the last 30.
+**KLHPerformanceMonitor** tracks the memory creation and CPU usage of all the mods running. You can print out a list of the top 10 mods, for memory usage or CPU time, in total or in the last 30.
 
 ## **Installation**
-  -Manual Installation only**
+**Manual Installation only**
 
 # Go to the main page of the repository.
 # Click the **<> Code** dropdown and download the repository as a <code>.zip</code>.
@@ -45,9 +45,9 @@ categories: ["Addon"]
 |}
 
 ## How to Use
-  -Enabling and Starting the Monitor**
+**Enabling and Starting the Monitor**
 - To start monitoring, type: <code>/kpm load</code> *This activates data collection and takes a few seconds to gather initial stats.*
-  -Viewing Performance Data**
+**Viewing Performance Data**
 - To see CPU time usage:  <code>/kpm time total</code> — Shows total CPU time since monitoring started.  <code>/kpm time recent</code> — Shows CPU time over the last ~30 seconds.
 - To see memory usage:  <code>/kpm memory total</code> — Shows total memory used since monitoring started.  <code>/kpm memory recent</code> — Memory used in the last ~30 seconds.
 

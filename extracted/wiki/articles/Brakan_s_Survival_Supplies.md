@@ -10,11 +10,8 @@ categories: ["Orgrimmar shops", "Turtle WoW content"]
 ---
 # Brakan's Survival Supplies
 
--Brakan's Survival Supplies** is a survival shop found in the [Valley of Honor](Valley of Honor) in [Orgrimmar](Orgrimmar).
+**Brakan's Survival Supplies** is a survival shop found in the [Valley of Honor](Valley of Honor) in [Orgrimmar](Orgrimmar).
 
 ## Inhabitants
--
--
-
-## Patch changes
+- - ## Patch changes
 - (Patch 1.18.1|note=Added.)

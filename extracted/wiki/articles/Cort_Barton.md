@@ -25,7 +25,7 @@ categories: ["Human characters", "Lordaeron (kingdom)", "Tirisfal Glades NPCs", 
 | location | Remnants Camp, Tirisfal Glades |
 | status | Alive |
 
--Cort Barton** is a [human](human) worker located in the [Remnants Camp](Remnants Camp) in [Tirisfal Glades](Tirisfal Glades).
+**Cort Barton** is a [human](human) worker located in the [Remnants Camp](Remnants Camp) in [Tirisfal Glades](Tirisfal Glades).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

@@ -43,8 +43,8 @@ Come, let us speak. There are things you lack that you must learn, and I can tea
 His graceful light nurtures our bodies and crops. It is the same light that illuminates Mu’sha and Lo’sho in the night sky, for without his light they could not be seen. Yet, like any elder, An’she can be stubborn and judgmental, but he is just. He believes his path is the right one, for through his eyes it is the path of protection for both his worshippers and his siblings. A selfish yet benevolent patron, is he not?
 
 ## Progression
-1.[quest: race=tauren|class=priest]
-1.[quest: race=tauren|class=priest]
+1. [quest: race=tauren|class=priest]
+1. [quest: race=tauren|class=priest]
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

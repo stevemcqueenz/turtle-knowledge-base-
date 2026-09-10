@@ -10,15 +10,10 @@ categories: ["Gilneas subzones", "Human territories", "Keeps", "Turtle WoW conte
 ---
 # Freyshear Keep
 
--Freyshear Keep** is a keep located on an island overlooking the [Baradin Bay](Baradin Bay) in [Gilneas](Gilneas). In addition to its position over the sea, it holds a vantage point over the town of [Ravenshire](Ravenshire), its cannons being a constant threat to the [Ravenwood Rebellion](Ravenwood Rebellion) and denying it incoming shipments of supplies for the rebellion, (ref:  [42] [Assaulting Freyshear Keep](Assaulting Freyshear Keep)) as well as threatening Horde transport ships trading with the Undercity. (ref:  [42] [Guns of Gilneas](Guns of Gilneas))
+**Freyshear Keep** is a keep located on an island overlooking the [Baradin Bay](Baradin Bay) in [Gilneas](Gilneas). In addition to its position over the sea, it holds a vantage point over the town of [Ravenshire](Ravenshire), its cannons being a constant threat to the [Ravenwood Rebellion](Ravenwood Rebellion) and denying it incoming shipments of supplies for the rebellion, (ref:  [42] [Assaulting Freyshear Keep](Assaulting Freyshear Keep)) as well as threatening Horde transport ships trading with the Undercity. (ref:  [42] [Guns of Gilneas](Guns of Gilneas))
 
 ## NPCs
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - ## Patch changes
 - (Patch 1.17.0|note=Added.)
 
 ## References

@@ -10,4 +10,4 @@ categories: []
 ---
 # Azmogal
 
--Azmogal** is an annihilan who uses demonic fel.
+**Azmogal** is an annihilan who uses demonic fel.

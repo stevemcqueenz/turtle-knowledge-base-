@@ -25,7 +25,7 @@ categories: ["Elwynn Forest NPCs", "Human characters", "Quest givers"]
 | relatives | Stonefield family |
 | status | Alive |
 
--"Auntie" Bernice Stonefield** is a [human](human) quest giver located at the [Stonefield Farm](Stonefield Farm) in [Elwynn Forest](Elwynn Forest). She became a widow with the loss of her husband in a military campaign and is renowned for her Pork Belly Pies. She dislikes [Billy Maclure](Billy Maclure), who she believed had stolen her necklace. She can be found outside the Stonefield home, beside [Ma Stonefield](Ma Stonefield).
+**"Auntie" Bernice Stonefield** is a [human](human) quest giver located at the [Stonefield Farm](Stonefield Farm) in [Elwynn Forest](Elwynn Forest). She became a widow with the loss of her husband in a military campaign and is renowned for her Pork Belly Pies. She dislikes [Billy Maclure](Billy Maclure), who she believed had stolen her necklace. She can be found outside the Stonefield home, beside [Ma Stonefield](Ma Stonefield).
 
 ## Quests
 - [quest: Lost Necklace] 

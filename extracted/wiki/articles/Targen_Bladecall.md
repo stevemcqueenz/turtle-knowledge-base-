@@ -25,7 +25,7 @@ categories: ["Grim Reaches NPCs", "Orc characters", "Turtle WoW content", "Weapo
 | location | Shatterblade Post, Grim Reaches |
 | status | Alive |
 
--Targen Bladecall** is an [orc](orc) weapons vendor located in the outpost of [Shatterblade Post](Shatterblade Post) in the [Grim Reaches](Grim Reaches).
+**Targen Bladecall** is an [orc](orc) weapons vendor located in the outpost of [Shatterblade Post](Shatterblade Post) in the [Grim Reaches](Grim Reaches).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

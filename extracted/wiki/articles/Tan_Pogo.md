@@ -25,7 +25,7 @@ categories: ["Amani'Alor NPCs", "Faction quartermasters", "Forest troll characte
 | location | Amani'Alor, Stonetalon Mountains |
 | status | Alive |
 
--Tan'Pogo** is the quartermaster for the [Revantusk Trolls](Revantusk Trolls) and is located in [Amani'Alor](Amani'Alor) in [Stonetalon Mountains](Stonetalon Mountains).
+**Tan'Pogo** is the quartermaster for the [Revantusk Trolls](Revantusk Trolls) and is located in [Amani'Alor](Amani'Alor) in [Stonetalon Mountains](Stonetalon Mountains).
 
 ## Patch changes
 - (Patch 1.15.0|note=Added.)

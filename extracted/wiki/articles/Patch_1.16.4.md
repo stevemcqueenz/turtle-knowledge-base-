@@ -10,7 +10,7 @@ categories: ["Patches"]
 ---
 # Patch 1.16.4
 
--Patch 1.16.4: Anchor's Fall** was released on December 20, 2022.
+**Patch 1.16.4: Anchor's Fall** was released on December 20, 2022.
 
 ## Patch notes
 ### Unexpected Visitors in Durotar

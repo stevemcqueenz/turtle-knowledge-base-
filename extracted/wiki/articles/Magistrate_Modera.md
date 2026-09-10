@@ -28,7 +28,7 @@ categories: ["Dalaran (kingdom)", "Human characters", "Northwind NPCs", "Turtle 
 Magistrate **Caitlyn Modera** is a [human](human) located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind). She is the daughter of [Archmage Modera](Archmage Modera), a member of the [Council of Six](Council of Six).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Have you seen that silver fox from [Stromgarde](Stromgarde (kingdom)) over there? Isn't he just stunning?
 
 <Modera's eyes are sparkling at the sight of [Commander Leder](Commander Leder). Being obviously enchanted by his appearance, she loses her train of thought before quickly regaining composure.>

@@ -13,8 +13,5 @@ categories: ["Balor subzones", "Plateaus", "Turtle WoW content"]
 The **Croaking Plateau** is a terrace overlooking the [Ruins of Breezehaven](Ruins of Breezehaven) in northern [Balor](Balor). A corps of ten [SI:7](SI:7) operatives made camp here to survey the port ruins for any suspicious activity, but were captured by the [Stormreaver clan](Stormreaver clan). All but [Agent Deryl](Agent Deryl), who was taken to the inn by [Sorrowmore Lake](Sorrowmore Lake), were killed.
 
 ## NPCs
-- 
-- 
-
-## Patch changes
+- - ## Patch changes
 - (Patch 1.18.0|note=Added.)

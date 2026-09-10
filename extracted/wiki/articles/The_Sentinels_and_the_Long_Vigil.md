@@ -12,7 +12,7 @@ categories: ["History of Warcraft", "Lore"]
 
 <B style="font-weight:normal;background-color:#2b2b2b;">[  [Source Text](WoWWiki:Article_type)  ]</B>
 
--The Sentinels and the Long Vigil* is a section of the [History of Warcraft](History of Warcraft), Chapter I.
+*The Sentinels and the Long Vigil* is a section of the [History of Warcraft](History of Warcraft), Chapter I.
 
 ## Text
 With the departure of their wayward cousins, the [night elves](night elf) turned their attention back to the safekeeping of their enchanted homeland. The [druid](druid)s, sensing that their time of hibernation was drawing near, prepared to sleep and leave their loved ones and families behind. [Tyrande](Tyrande Whisperwind), who had become the High Priestess of [Elune](Elune), asked her love, [Malfurion](Malfurion), not to leave her for [Ysera](Ysera)'s [Emerald Dream](Emerald Dream). But Malfurion, honor bound to enter the changing Dreamways, bid the priestess farewell and swore that they would never be apart so long as they held true to their love. 

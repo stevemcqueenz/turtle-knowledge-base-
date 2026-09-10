@@ -26,15 +26,15 @@ categories: ["Instance navigation templates"]
 
 [Dextren Ward](Dextren Ward)
 |
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 |}

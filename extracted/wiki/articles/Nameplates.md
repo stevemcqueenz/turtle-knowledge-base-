@@ -15,7 +15,7 @@ Makes nameplates less obtrusive and gives lists of nearby friendly/hostile units
 ## How to install
 Download manually via GitHub (click on <> Code -> [**Download ZIP**](https://github.com/Road-block/wow-saiket/archive/refs/heads/_Nameplates.zip). Do not forget to rename the directory to "_Nameplates" afterwards.
 
-  -Important** - If you got ShaguTweaks you need to turn off nameplate scale and nameplate class colors in advanced options.
+**Important** - If you got ShaguTweaks you need to turn off nameplate scale and nameplate class colors in advanced options.
 
 ## Git links
 [**(Road-block)**](https://github.com/Road-block/wow-saiket/tree/_Nameplates)
@@ -25,11 +25,11 @@ Download manually via GitHub (click on <> Code -> [**Download ZIP**](https://git
 - Click CTRL+V to show nameplates for all NPCs and players (enemies and allies).
 - Click Shift+V to show only friendly NPCs/players.
 
-  -Tracking cross**
+**Tracking cross**
 
 - The tracking cross appears when you press a health bar on the nearby list. The tracking cross is only accurate when nameplates are on.
 
-  -Nearby list**
+**Nearby list**
 
 - Priority lists for “Friendly” and “Hostile” units appear automatically when you turn those types of nameplates on.
 - The nearby list show npc's in tab target range which is currently visible on screen when nameplates are turned on.

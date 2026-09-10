@@ -25,7 +25,7 @@ categories: ["Goblin characters", "Guards", "Tel'Abim NPCs", "Tel Company", "Tur
 | location | Tel Co. Basecamp, Tel'Abim |
 | status | Alive |
 
--Tel Co. Enforcers** are [goblin](goblin) guards located in [Tel Co. Basecamp](Tel Co. Basecamp) in [Tel'Abim](Tel'Abim).
+**Tel Co. Enforcers** are [goblin](goblin) guards located in [Tel Co. Basecamp](Tel Co. Basecamp) in [Tel'Abim](Tel'Abim).
 
 ## Patch changes
 - (Patch 1.16.4|note=Added.)

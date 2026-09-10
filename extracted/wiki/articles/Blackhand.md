@@ -23,7 +23,7 @@ categories: ["Blackrock clan", "Deceased characters", "Orc characters"]
 | status | Deceased |
 | relatives | Rend (son),, Main (son),, Griselda (daughter) |
 
--Blackhand** was the chieftain of the mighty [Blackrock clan](Blackrock clan) and the first Warchief of the [Old Horde](Old Horde) until he was killed by [Orgrim Doomhammer](Orgrim Doomhammer) near the end of the [First War](First War). He was known throughout [Draenor](Draenor) and [Azeroth](Azeroth) alike as a brutal tyrant.
+**Blackhand** was the chieftain of the mighty [Blackrock clan](Blackrock clan) and the first Warchief of the [Old Horde](Old Horde) until he was killed by [Orgrim Doomhammer](Orgrim Doomhammer) near the end of the [First War](First War). He was known throughout [Draenor](Draenor) and [Azeroth](Azeroth) alike as a brutal tyrant.
 
 ## Biography
 After the Horde's first catastrophic assault of [Stormwind Keep](Stormwind Keep) by [Kilrogg Deadeye](Kilrogg Deadeye) of the [Bleeding Hollow](Bleeding Hollow clan) and [Cho'gall](Cho'gall) of the [Twilight's Hammer](Twilight's Hammer), Cho'gall and Kilrogg blamed each other's incompetence for the failure and the orcs quickly polarized into factions that supported either chieftain, threatening to tear the Horde apart. [Gul'dan](Gul'dan) quickly stepped in to quell the problem, installing Blackhand, chieftain of the young [Blackrock clan](Blackrock clan), as Warchief of the Horde to restore order to the Horde. (ref: *Warcraft II: Tides of Darkness* manual, *[The History of Orcish Ascension](https://wowpedia.fandom.com/wiki/Warcraft_II:_Tides_of_Darkness_manual#The_Mastery_of_Forces_-_Medivh_and_Blackhand)*, The Mastery of Forces - Medivh and Blackhand)

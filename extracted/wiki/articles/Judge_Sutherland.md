@@ -25,7 +25,7 @@ categories: ["Bosses", "Gilneas City mobs", "Human characters", "Stubs", "Turtle
 | status | Killable |
 | instance | Gilneas City |
 
--Judge Sutherland** is a boss in [Gilneas City](Gilneas City).
+**Judge Sutherland** is a boss in [Gilneas City](Gilneas City).
 
 ## Abilities
 - Smite
@@ -33,10 +33,10 @@ categories: ["Bosses", "Gilneas City mobs", "Human characters", "Stubs", "Turtle
 - Mind Blast
 
 ## Quotes
-  -Aggro**
+**Aggro**
   Order must be maintained!
 
-  -Death**
+**Death**
   I will not let Gilneas fall to madness, not while I...
 
 ## Objective of

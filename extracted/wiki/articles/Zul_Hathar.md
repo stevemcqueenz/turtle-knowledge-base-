@@ -10,7 +10,7 @@ categories: ["Dark troll territories", "Hyjal subzones", "Stubs", "Turtle WoW co
 ---
 # Zul'Hathar
 
--Zul'Hathar** is an area located at [Hyjal](Hyjal).
+**Zul'Hathar** is an area located at [Hyjal](Hyjal).
 
 ## Patch changes
 - (Patch 1.17.0|note=Added.)

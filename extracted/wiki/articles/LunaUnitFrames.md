@@ -45,36 +45,36 @@ Raid Frames:
 - Raid-frames show units with aggro by an indicator.
 - Click casting interface (no 3rd party add-on required).
 - Mouseover casting system: Use **/lunamo** or **/lunamouseover** followed by your spell of choice to make the macro behave like a normal spell button on your bar but when you are over a frame it casts on that target.
-  -Example:**<syntaxhighlight lang="lua">
+**Example:**<syntaxhighlight lang="lua">
 /script if nil then CastSpellByName("Greater Heal(Rank 1)") end
 /lunamo Greater Heal(Rank 1)
 </syntaxhighlight>The first line in this macro is equal to a '#show' you might know from live WoW. With this, bar addons that color your bar depending on if you have the mana for the spell will pick it up even though its a macro. Its optional.
 
 ## FAQ
-  -Q:** After downloading your add-on doesn't show up in the game.
+**Q:** After downloading your add-on doesn't show up in the game.
 
-  -A:** Please remove the "-master" from the folder name.
+**A:** Please remove the "-master" from the folder name.
 
-  -Q:** How do i open the configuration?
+**Q:** How do i open the configuration?
 
-  -A:** Try **/luf** **/luna** or **/lunaunitframes**
+**A:** Try **/luf** **/luna** or **/lunaunitframes**
 
-  -Q:** How do i move stuff?
+**Q:** How do i move stuff?
 
-  -A:** There is an unlock button in the configuration. Raid-frames are moved by dragging their text (GRP1 etc).
+**A:** There is an unlock button in the configuration. Raid-frames are moved by dragging their text (GRP1 etc).
 
-  -Q:** Can i have spinning timers on anything other than player?
+**Q:** Can i have spinning timers on anything other than player?
 
-  -A:** No, not possible with the vanilla client. There could be unreliable timers but I'm not gonna do that.
+**A:** No, not possible with the vanilla client. There could be unreliable timers but I'm not gonna do that.
 
-  -Q:** Why can't i see health values for enemy's?
+**Q:** Why can't i see health values for enemy's?
 
-  -A:** As stated above you have to install [**MobHealth3**](https://github.com/Paparogue/MobHealth3-Kronos3-Edition). If you have installed it correctly you should see HP numbers after the mob lost 10% health. By default MobHealth3 doesn't save its data between sessions so you would have to wait those 10% again after re-logging / reloading UI.
+**A:** As stated above you have to install [**MobHealth3**](https://github.com/Paparogue/MobHealth3-Kronos3-Edition). If you have installed it correctly you should see HP numbers after the mob lost 10% health. By default MobHealth3 doesn't save its data between sessions so you would have to wait those 10% again after re-logging / reloading UI.
 
-  -Q:** How do i turn off portraits?
+**Q:** How do i turn off portraits?
 
-  -A:** Turn portrait to bar -> Choose portrait from the second drop-down -> move the slider below that drop-down all the way to the left.
+**A:** Turn portrait to bar -> Choose portrait from the second drop-down -> move the slider below that drop-down all the way to the left.
 
-  -Q:** I am getting tons of LUA errors!
+**Q:** I am getting tons of LUA errors!
 
-  -A:** If you get LUA errors please post something like a report from **[ImprovedErrorFrame](https://legacy-wow.com/vanilla-addons/improved-error-frame/)** and what you were doing at the time. Or anything else that might help to describe the issue.
+**A:** If you get LUA errors please post something like a report from **[ImprovedErrorFrame](https://legacy-wow.com/vanilla-addons/improved-error-frame/)** and what you were doing at the time. Or anything else that might help to describe the issue.

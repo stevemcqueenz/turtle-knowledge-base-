@@ -24,10 +24,10 @@ categories: ["Draenei characters", "Moonwhisper Coast NPCs", "Tradeskill vendors
 | location | Moro'gai Village, Moonwhisper Coast |
 | status | Alive |
 
--Dhom** is a [draenei](draenei) trade goods vendor located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Dhom** is a [draenei](draenei) trade goods vendor located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 My tools are both practical and durable! Come and be impressed by Draenei craftsmanship!
 
 ## Patch changes

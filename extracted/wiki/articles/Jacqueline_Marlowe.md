@@ -25,10 +25,10 @@ categories: ["Cooking vendors", "Cooks", "Human characters", "Northwind NPCs", "
 | location | Amberwood Keep, Northwind |
 | status | Alive |
 
--Jacqueline Marlowe** is a [human](human) cooking vendor located in [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind).
+**Jacqueline Marlowe** is a [human](human) cooking vendor located in [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Chef Huxley has me on a tight leash. Sir Amberwood has ordered us to serve all tournament contestants the finest cuisine we have to offer; so if you need anything, please make it quick!
 
 ## Patch changes

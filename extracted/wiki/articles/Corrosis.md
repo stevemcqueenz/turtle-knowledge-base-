@@ -24,14 +24,14 @@ categories: ["Bosses", "Hateforge Quarry mobs", "Turtle WoW content", "Water ele
 | status | Killable |
 | instance | Hateforge Quarry |
 
--Corrosis** is an elite water elemental mini-boss found in [Hateforge Quarry](Hateforge Quarry).
+**Corrosis** is an elite water elemental mini-boss found in [Hateforge Quarry](Hateforge Quarry).
 
 ## Loot
--[Sludge-drenched Sabatons](Sludge-drenched Sabatons)
--[Toxic Ripper](Toxic Ripper)
--[Venomsight Mask](Venomsight Mask)
--[Muckwater Leggings](Muckwater Leggings)
--[Corrosive Core](Corrosive Core)
+- [Sludge-drenched Sabatons](Sludge-drenched Sabatons)
+- [Toxic Ripper](Toxic Ripper)
+- [Venomsight Mask](Venomsight Mask)
+- [Muckwater Leggings](Muckwater Leggings)
+- [Corrosive Core](Corrosive Core)
 
 ## Patch changes
 - (Patch 1.16.1|note=Added.)

@@ -12,7 +12,7 @@ categories: ["Creatures", "Dragon", "Dragonkin", "Game Terms", "Intelligent Crea
 
 # Overview
 A powerful, flying lizard-like monster. Most dragons have some sort of magical power and are extremely intelligent.
--Young dragons are called whelps, whelplings, hatchlings, or broodlings.
+- Young dragons are called whelps, whelplings, hatchlings, or broodlings.
 - The term *[Dragonkin](Dragonkin)* is used to describe any creature whose ancestry or race can be traced to the Dragon species.
 
 Dragons were one of the first intelligent life forms to appear in [Azeroth](Azeroth). At one time their numbers were uncountable, but in present-day Azeroth there are very few left. Originally, there were many different [dragonflights](dragonflights), with many different colors to be seen. The five most influential, however, were the Reds, the Greens, the Bronze, the Blacks, and the Blues, and eventually most of the other flights disappeared.

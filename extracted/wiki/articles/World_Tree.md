@@ -10,7 +10,7 @@ categories: ["Lore", "Pages with broken file links", "Trees"]
 ---
 # World Tree
 
--World Tree** refers to to great trees in [Azeroth](Azeroth):
+**World Tree** refers to to great trees in [Azeroth](Azeroth):
 - [Nordrassil](Nordrassil), the original World Tree blessed by the [dragon aspects](Dragon Aspects), and
 - [Teldrassil](Teldrassil), the tree created by the [night elves'](night elf) in a failed attempt to restore their immortality.
 

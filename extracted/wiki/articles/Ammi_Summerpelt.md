@@ -25,10 +25,10 @@ categories: ["Mulgore NPCs", "Survival vendors", "Tauren characters", "Turtle Wo
 | location | Bloodhoof Village, Mulgore |
 | status | Alive |
 
--Ammi Summerpelt** is a [tauren](tauren) [survival](survival) vendor located in [Bloodhoof Village](Bloodhoof Village) in [Mulgore](Mulgore).
+**Ammi Summerpelt** is a [tauren](tauren) [survival](survival) vendor located in [Bloodhoof Village](Bloodhoof Village) in [Mulgore](Mulgore).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The plains offer plentiful bounties, enough to benefit from the Earthmother's blessing without depriving her off her natural beauty.
 
 ## Patch changes

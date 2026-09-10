@@ -10,6 +10,6 @@ categories: ["Forsaken territories", "Pages with broken file links", "Tirisfal G
 ---
 # Stillwater Pond
 
--Stillwater Pond** is a small lake located west of [Brill](Brill) in [Tirisfal Glades](Tirisfal Glades). Before the [Plague of Undeath](Plague of Undeath), it was a popular site for picnics by the inhabitants of the glades, and the pond offered swimming opportunities for children who were not yet old enough to test their mettle in the much larger and deeper [Brightwater Lake](Brightwater Lake).
+**Stillwater Pond** is a small lake located west of [Brill](Brill) in [Tirisfal Glades](Tirisfal Glades). Before the [Plague of Undeath](Plague of Undeath), it was a popular site for picnics by the inhabitants of the glades, and the pond offered swimming opportunities for children who were not yet old enough to test their mettle in the much larger and deeper [Brightwater Lake](Brightwater Lake).
 
 Now the pond lies gray and forgotten, and only wandering undead and wild beasts set their eyes on its cold waters as they pass by.

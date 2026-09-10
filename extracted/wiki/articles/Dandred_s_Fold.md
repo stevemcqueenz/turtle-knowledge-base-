@@ -10,4 +10,4 @@ categories: ["Alterac Mountains subzones", "Farms", "Human territories", "Manors
 ---
 # Dandred's Fold
 
--Dandred's Fold** is a small area in [Alterac Mountains](Alterac Mountains) on the shores of [Lordamere Lake](Lordamere Lake), where the mansion of [Lord Aliden Perenolde](Lord Aliden Perenolde), the current leader of [Syndicate](Syndicate), is located. Despite its charming appearance, numerous Syndicate rogues and mercenaries sneak through the area, quick to put a dagger in the back of anyone who appears to not share their affiliation.
+**Dandred's Fold** is a small area in [Alterac Mountains](Alterac Mountains) on the shores of [Lordamere Lake](Lordamere Lake), where the mansion of [Lord Aliden Perenolde](Lord Aliden Perenolde), the current leader of [Syndicate](Syndicate), is located. Despite its charming appearance, numerous Syndicate rogues and mercenaries sneak through the area, quick to put a dagger in the back of anyone who appears to not share their affiliation.

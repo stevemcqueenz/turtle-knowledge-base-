@@ -27,7 +27,7 @@ categories: ["Desolace NPCs", "Feralas NPCs", "Mok'Nathal", "Quest givers", "Sto
 | status | Alive |
 | companions | Misha |
 
--Rexxar** is a half-ogre, half-orc beastmaster of the [Mok'Nathal](Mok'Nathal) who was instrumental in assisting the [Horde](Horde) after the fall of the [Burning Legion](Burning Legion). Due to his mixed lineage, he's a huge and fierce warrior who wields two huge axes in battle. He is a loner and somewhat of an outcast, wandering the lands of [Kalimdor](Kalimdor) with his loyal bear companion [Misha](Misha).
+**Rexxar** is a half-ogre, half-orc beastmaster of the [Mok'Nathal](Mok'Nathal) who was instrumental in assisting the [Horde](Horde) after the fall of the [Burning Legion](Burning Legion). Due to his mixed lineage, he's a huge and fierce warrior who wields two huge axes in battle. He is a loner and somewhat of an outcast, wandering the lands of [Kalimdor](Kalimdor) with his loyal bear companion [Misha](Misha).
 
 ## History
 ### The Founding of Durotar
@@ -86,7 +86,7 @@ Rexxar himself, patrolling Desolace and Feralas with Misha at his side, assists 
 Greetings, <class>. I am Rexxar, champion of the Horde, servant of Thrall, master to the beasts of the wilds.
 
 ### On-click
-  -Greeting**
+**Greeting**
 - I hear the call of the wild.
 - I'm ready to track.
 - I've got the scent.
@@ -94,12 +94,12 @@ Greetings, <class>. I am Rexxar, champion of the Horde, servant of Thrall, maste
 - My quarry nears.
 - Our paths converge.
 
-  -Farewell**
+**Farewell**
 - For the Mok'Nathal!
 - By fang and claw!
 - I wander alone.
 
-  -Pissed**
+**Pissed**
 - The beasts obey me.
 - Where I lay my head is home. See that rock? That's my pillow.
 - The beasts around me are *nothing* compared to the beast within.

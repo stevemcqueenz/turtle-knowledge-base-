@@ -21,12 +21,12 @@ categories: ["Arathi Highlands mobs", "Articles using deprecated loot", "Named m
 | aggro |  |
 | location | Stromgarde Keep, Arathi Highlands |
 
--Or'Kalar** is a level 40 [ogre](ogre) found in [Stromgarde Keep](Stromgarde Keep) in the [Arathi Highlands](Arathi Highlands).
+**Or'Kalar** is a level 40 [ogre](ogre) found in [Stromgarde Keep](Stromgarde Keep) in the [Arathi Highlands](Arathi Highlands).
 
 [Korin Fel](Korin Fel) wants Or'Kalar's head.
 
 ## Quests
--[quest: The Real Threat]
+- [quest: The Real Threat]
 
 ## Loot
 - *(Quest Item)*

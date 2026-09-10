@@ -41,11 +41,11 @@ WorldMap-SearingGorge-old.jpg|Searing Gorge prior to [patch 1.5.0](patch 1.5.0).
 
 ### Travel hubs
 ##### [Flight path](Flight path)s from [Thorium Point](Thorium Point)
--  [Ironforge](Ironforge), [Dun Morogh](Dun Morogh)
--  [Ambershire](Ambershire), [Northwind](Northwind)
--  [Morgan's Vigil](Morgan's Vigil), [Burning Steppes](Burning Steppes)
--  [Kargath](Kargath), [The Badlands](Badlands)
--  [Flame Crest](Flame Crest), [Burning Steppes](Burning Steppes)
+- [Ironforge](Ironforge), [Dun Morogh](Dun Morogh)
+- [Ambershire](Ambershire), [Northwind](Northwind)
+- [Morgan's Vigil](Morgan's Vigil), [Burning Steppes](Burning Steppes)
+- [Kargath](Kargath), [The Badlands](Badlands)
+- [Flame Crest](Flame Crest), [Burning Steppes](Burning Steppes)
 
 ### Adjacent regions
 {| class="fandom-table"

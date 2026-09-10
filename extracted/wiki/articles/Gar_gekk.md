@@ -24,13 +24,13 @@ categories: ["Grim Reaches NPCs", "Orc characters", "Quest givers", "Turtle WoW 
 | location | Shatterblade Post, Grim Reaches |
 | status | Alive |
 
--Gar'gekk** is an [orc](orc) quest giver located in the outpost of [Shatterblade Post](Shatterblade Post) in the [Grim Reaches](Grim Reaches).
+**Gar'gekk** is an [orc](orc) quest giver located in the outpost of [Shatterblade Post](Shatterblade Post) in the [Grim Reaches](Grim Reaches).
 
 ## Quests
 - [quest: The Betrayal of Rethkag] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 This land is scarred by battle, weakened by the conflict. Perhaps this is time for the Horde to place its claim.
 
 ## Patch changes

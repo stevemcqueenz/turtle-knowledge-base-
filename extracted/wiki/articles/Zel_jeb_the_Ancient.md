@@ -26,7 +26,7 @@ categories: ["Bosses", "Dire trolls", "Sand troll characters", "Turtle WoW conte
 | status | Killable |
 | instance | Zul'Farrak |
 
--Zel'jeb the Ancient** is a boss in [Zul'Farrak](Zul'Farrak). Once one of the most venerable warlords of the [Farraki](Sandfury tribe), (ref: [quest: The Farraki Ancient]) he has returned after the Sandfury unearthed one of their ancient underground tombs after the collapse of their passages.
+**Zel'jeb the Ancient** is a boss in [Zul'Farrak](Zul'Farrak). Once one of the most venerable warlords of the [Farraki](Sandfury tribe), (ref: [quest: The Farraki Ancient]) he has returned after the Sandfury unearthed one of their ancient underground tombs after the collapse of their passages.
 
 ## Abilities
 - **Ancient Embalming** - Receives 90% less damage from all sources. Vulnerable to Fire spells and effects.
@@ -35,16 +35,16 @@ categories: ["Bosses", "Dire trolls", "Sand troll characters", "Turtle WoW conte
 - War Stomp
 
 ## Quotes
-  -Aggro**
+**Aggro**
   These halls be sacred, you shall be banished from them.
 
-  -Curse of Years - at 50%**
+**Curse of Years - at 50%**
   Zel'jeb the Ancient calls upon the ancestors of Zul'Farrak!
 
-  -At 25%**
+**At 25%**
   I shall live forever!
 
-  -Death**
+**Death**
   No! Once more I return to sand...
 
 ## Objective of

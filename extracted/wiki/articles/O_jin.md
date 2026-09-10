@@ -25,7 +25,7 @@ categories: ["Balor NPCs", "Jungle troll characters", "Quest givers", "Turtle Wo
 | relatives | Sen'jin (grandfather),, Vol'jin (father),, Yenniku (brother) |
 | status | Alive |
 
--O'jin** is a [jungle troll](jungle troll) [quest giver](quest giver) located at [Stormbreaker Point](Stormbreaker Point) in [Balor](Balor) and the eldest son of [Vol'jin](Vol'jin), chieftain of the [Darkspear Trolls](Darkspear Trolls).
+**O'jin** is a [jungle troll](jungle troll) [quest giver](quest giver) located at [Stormbreaker Point](Stormbreaker Point) in [Balor](Balor) and the eldest son of [Vol'jin](Vol'jin), chieftain of the [Darkspear Trolls](Darkspear Trolls).
 
 ## Quests
 - [quest: A Dark Tide Will Rise] 
@@ -33,7 +33,7 @@ categories: ["Balor NPCs", "Jungle troll characters", "Quest givers", "Turtle Wo
 - [quest: Innocence Lost] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 One day, my shoulders will bear heavier burdens. But today, I am simply a child of the Horde - here to fight on its behalf.
 
 ## Patch changes

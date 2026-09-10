@@ -23,10 +23,10 @@ categories: ["Earth elementals", "Stonetalon Mountains NPCs", "Turtle WoW conten
 | location | Earthen Ring, Stonetalon Mountains |
 | status | Alive |
 
--Tectonius** is an earth elemental located at the [Earthen Ring](Earthen Ring (Stonetalon Mountains)) in [Stonetalon Mountains](Stonetalon Mountains).
+**Tectonius** is an earth elemental located at the [Earthen Ring](Earthen Ring (Stonetalon Mountains)) in [Stonetalon Mountains](Stonetalon Mountains).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 These renegade elementals are untamed. Something has them enraged, I can feel their fury.
 
 ## Patch changes

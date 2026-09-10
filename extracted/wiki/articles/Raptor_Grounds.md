@@ -10,7 +10,7 @@ categories: ["Barrens subzones", "Pages with broken file links", "Raptors", "Val
 ---
 # Raptor Grounds
 
--Raptor Grounds**[57, 53] is a tiny valley located in the southern part of the [Barrens](Barrens) and west of [Northwatch Hold](Northwatch Hold). It was densely populated by the Sunscale [raptor](raptor)s, who are odd among their kind, showing an unnatural intelligence and even building their own crude huts and tools. Their attraction to shiny objects and, indeed, anything out of the ordinary caused them to steal many items from the [Horde](Horde) settlements in the area. (ref: [Stolen Silver (quest)](Stolen Silver (quest))) 
+**Raptor Grounds**[57, 53] is a tiny valley located in the southern part of the [Barrens](Barrens) and west of [Northwatch Hold](Northwatch Hold). It was densely populated by the Sunscale [raptor](raptor)s, who are odd among their kind, showing an unnatural intelligence and even building their own crude huts and tools. Their attraction to shiny objects and, indeed, anything out of the ordinary caused them to steal many items from the [Horde](Horde) settlements in the area. (ref: [Stolen Silver (quest)](Stolen Silver (quest))) 
 
 ## References
 ## External links

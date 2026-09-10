@@ -14,7 +14,7 @@ Returns a pile of reward item info.
  GetQuestLogRewardInfo(itemNum);
 ----
 
-  - *Arguments***
+** *Arguments***
 
    (Number itemNum)
 
@@ -23,7 +23,7 @@ Returns a pile of reward item info.
 
 ----
 
-  - *Returns***
+** *Returns***
 
    String name, String texture, Number numItems, Number quality, Boolean isUsable
 
@@ -40,15 +40,15 @@ Returns a pile of reward item info.
 
 ----
 
-  - *Example***
+** *Example***
 
  local name, texture, numItems, quality, isUsable = GetQuestLogRewardInfo(requiredItem.type, i);
 
-  - *Result***
+** *Result***
 
  "Silver Belt", ..., 1, 100, false
 ----
 
-  - *Description***
+** *Description***
 
    Returns a pile of reward item info.

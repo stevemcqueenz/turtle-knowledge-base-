@@ -25,4 +25,4 @@ categories: ["Faction quartermasters", "Tauren characters", "Thunder Bluff NPCs"
 | location | Thunder Bluff |
 | status | Alive |
 
--Gorrok** is the quartermaster for [Thunder Bluff](Thunder Bluff (faction)) and is located in [Thunder Bluff](Thunder Bluff).
+**Gorrok** is the quartermaster for [Thunder Bluff](Thunder Bluff (faction)) and is located in [Thunder Bluff](Thunder Bluff).

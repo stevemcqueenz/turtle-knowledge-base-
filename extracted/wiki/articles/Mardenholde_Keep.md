@@ -10,4 +10,4 @@ categories: ["Forts", "Human territories", "Pages with broken file links", "Scar
 ---
 # Mardenholde Keep
 
--Mardenholde Keep** is the fortress keep within the town of [Hearthglen](Hearthglen), currently held by the [Scarlet Crusade](Scarlet Crusade). It is the location of [Highlord Taelan Fordring](Highlord Taelan Fordring), and is heavily guarded by soldiers of the Scarlet Crusade.
+**Mardenholde Keep** is the fortress keep within the town of [Hearthglen](Hearthglen), currently held by the [Scarlet Crusade](Scarlet Crusade). It is the location of [Highlord Taelan Fordring](Highlord Taelan Fordring), and is heavily guarded by soldiers of the Scarlet Crusade.

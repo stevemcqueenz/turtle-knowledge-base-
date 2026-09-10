@@ -25,10 +25,10 @@ categories: ["Human characters", "Northwind NPCs", "Tailoring vendors", "Turtle 
 | location | Stillheart Port, Northwind |
 | status | Alive |
 
--Alison Swift** is a [human](human) tailoring vendor located in [Stillheart Port](Stillheart Port) in [Northwind](Northwind).
+**Alison Swift** is a [human](human) tailoring vendor located in [Stillheart Port](Stillheart Port) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Come see my wares! I've imported them straight from beyond the Great Sea!
 
 ## Patch changes

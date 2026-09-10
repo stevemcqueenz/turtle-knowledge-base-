@@ -56,20 +56,20 @@ Due to Ratchet's closeness to the [Crossroads](Crossroads), Ratchet is often use
 
 ## Travel connections
 ### Flight
-  - [Astranaar](Astranaar)**
+** [Astranaar](Astranaar)**
 
-  - [Talrendis Point](Talrendis Point)**
+** [Talrendis Point](Talrendis Point)**
 
-  - [Theramore Isle](Theramore Isle)**
+** [Theramore Isle](Theramore Isle)**
 
-  - [The Crossroads](The Crossroads)**
+** [The Crossroads](The Crossroads)**
 
-  - [Orgrimmar](Orgrimmar)**
+** [Orgrimmar](Orgrimmar)**
 
-  - [Gadgetzan](Gadgetzan)**
+** [Gadgetzan](Gadgetzan)**
 
 ### Boat
-  - [Booty Bay](Booty Bay)**
+** [Booty Bay](Booty Bay)**
 
 ## Class trainers
 Warlock Trainers are located near Strahad by his tower.

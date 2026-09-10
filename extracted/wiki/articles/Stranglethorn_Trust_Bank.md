@@ -12,6 +12,5 @@ categories: ["Banks", "Booty Bay shops", "Pages with broken file links", "Steamw
 
 The **Stranglethorn Trust Bank** is a [bank](bank) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale).
 
-  -Bankers:**
-- 
--
+**Bankers:**
+- -

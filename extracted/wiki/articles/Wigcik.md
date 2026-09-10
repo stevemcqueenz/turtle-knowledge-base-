@@ -25,6 +25,6 @@ categories: ["Booty Bay characters", "Fish vendors", "Fishers", "Goblin characte
 | location | Booty Bay, Stranglethorn Vale |
 | status | Alive |
 
--Wigcik** is a [goblin](goblin) [fish vendor](fish vendor) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale).
+**Wigcik** is a [goblin](goblin) [fish vendor](fish vendor) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale).
 
 ## External links

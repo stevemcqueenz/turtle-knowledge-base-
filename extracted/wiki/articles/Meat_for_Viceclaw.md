@@ -44,7 +44,7 @@ You can find da turtles on the shore, next to da port.
 Good, turtle meat for Viceclaw! Ya be useful outsider. Ya can stay, Ekka be likin' ya.
 
 ## Notes
-  -Upon completion**
+**Upon completion**
    **Ekka says:** Viceclaw my dear. Da feast today!
    Viceclaw: <cackles>
    **Ekka says:** Good boy.

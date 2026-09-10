@@ -24,7 +24,7 @@ categories: ["Mulgore NPCs", "Tauren characters", "Turtle WoW content"]
 | location | Mulgore |
 | status | Alive |
 
--Brave Greenhorn** is an injured [tauren](tauren) brave located just south of [Bloodhoof Village](Bloodhoof Village) in [Mulgore](Mulgore). He was injured after fighting the [Venture Co.](Venture Co.) that had overrun the [Winterhoof Water Well](Winterhoof Water Well).
+**Brave Greenhorn** is an injured [tauren](tauren) brave located just south of [Bloodhoof Village](Bloodhoof Village) in [Mulgore](Mulgore). He was injured after fighting the [Venture Co.](Venture Co.) that had overrun the [Winterhoof Water Well](Winterhoof Water Well).
 
 ## Objective of
 - He must be healed and fortified for [quest: race=tauren|class=priest].

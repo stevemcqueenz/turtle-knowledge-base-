@@ -21,7 +21,7 @@ categories: ["Crescent Grove mobs", "Grells", "Turtle WoW content"]
 | creature | Demon |
 | location | The Crescent Grove |
 
--Grove Sprite Corruptors** are grells located in the [Crescent Grove](Crescent Grove).
+**Grove Sprite Corruptors** are grells located in the [Crescent Grove](Crescent Grove).
 
 ## Abilities
 - Corruption

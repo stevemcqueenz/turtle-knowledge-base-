@@ -10,4 +10,4 @@ categories: ["Alterac Mountains subzones", "Cats", "Crags", "Pages with broken f
 ---
 # Gavin's Naze
 
--Gavin's Naze** is a hill overlooking Hillsbrad. [Mountain Lion](Mountain Lion)s inhabit the area, including the uniquely colored [Araga](Araga).
+**Gavin's Naze** is a hill overlooking Hillsbrad. [Mountain Lion](Mountain Lion)s inhabit the area, including the uniquely colored [Araga](Araga).

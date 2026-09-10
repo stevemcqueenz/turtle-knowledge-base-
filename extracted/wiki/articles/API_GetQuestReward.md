@@ -14,7 +14,7 @@ Gets the quest reward specified.
  GetQuestReward(itemChoice);
 ----
 
-  - *Arguments***
+** *Arguments***
 
    (Number itemChoice)
 
@@ -23,20 +23,20 @@ Gets the quest reward specified.
 
 ----
 
-  - *Returns***
+** *Returns***
 
   ; nil
 
 ----
 
-  - *Example***
+** *Example***
 
  GetQuestReward(QuestFrameRewardPanel.itemChoice);
 
-  - *Result***
+** *Result***
 
 ----
 
-  - *Description***
+** *Description***
 
    Gets the quest reward specified.

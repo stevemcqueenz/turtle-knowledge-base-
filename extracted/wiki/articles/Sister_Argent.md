@@ -24,14 +24,14 @@ categories: ["Church of Light", "Human characters", "Northwind NPCs", "Quest giv
 | location | Ambershire Church, Northwind |
 | status | Alive |
 
--Sister Argent** is a human quest giver located at the [Ambershire Church](Ambershire Church) in [Northwind](Northwind).
+**Sister Argent** is a human quest giver located at the [Ambershire Church](Ambershire Church) in [Northwind](Northwind).
 
 ## Quests
 - [quest: Who Will Think Of The Children?] 
 - [quest: School Assistance] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The children are especially lively today, they better keep attention during class.
 
 ## Patch changes

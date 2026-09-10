@@ -10,4 +10,4 @@ categories: ["Ashenvale subzones", "Lakes", "Murlocs", "Pages with broken file l
 ---
 # Lake Falathim
 
--Lake Falathim** is located in western [Ashenvale](Ashenvale), southeast of [the Zoram Strand](the Zoram Strand) and southwest of [Maestra's Post](Maestra's Post). Although it was once a popular place for [night elves](night elves) to go swim or fish, the lake has recently become overrun with ferocious [murloc](murloc)s. The scholar [Teronis](Teronis' Corpse) was last seen near the lake, it bodes ill of his fate that he has not yet returned.
+**Lake Falathim** is located in western [Ashenvale](Ashenvale), southeast of [the Zoram Strand](the Zoram Strand) and southwest of [Maestra's Post](Maestra's Post). Although it was once a popular place for [night elves](night elves) to go swim or fish, the lake has recently become overrun with ferocious [murloc](murloc)s. The scholar [Teronis](Teronis' Corpse) was last seen near the lake, it bodes ill of his fate that he has not yet returned.

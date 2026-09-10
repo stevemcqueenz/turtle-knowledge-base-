@@ -25,7 +25,7 @@ categories: ["High elf characters", "Quest givers", "Thalassian Highlands NPCs",
 | status | Alive |
 | relatives | Maelor Steelguard (husband) |
 
--Fainriel Silverharp** is a [high elf](high elf) located in [Thaumarium](Thaumarium) of the [Thalassian Highlands](Thalassian Highlands).
+**Fainriel Silverharp** is a [high elf](high elf) located in [Thaumarium](Thaumarium) of the [Thalassian Highlands](Thalassian Highlands).
 
 ## Quests
 - [quest: Grapes in the Hills] 

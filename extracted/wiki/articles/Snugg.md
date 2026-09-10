@@ -25,7 +25,7 @@ categories: ["Balor mobs", "Kobolds", "Rare mobs", "Turtle WoW content"]
 | location | Ruins of Breezehaven, Balor |
 | status | Killable |
 
--Snugg** is a rare [kobold](kobold) found in a camp just outside the mine in the [Ruins of Breezehaven](Ruins of Breezehaven) in [Balor](Balor).
+**Snugg** is a rare [kobold](kobold) found in a camp just outside the mine in the [Ruins of Breezehaven](Ruins of Breezehaven) in [Balor](Balor).
 
 ## Drops
 - [Shovel of Loneliness](Shovel of Loneliness)

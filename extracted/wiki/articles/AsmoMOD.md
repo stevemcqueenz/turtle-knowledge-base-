@@ -10,10 +10,10 @@ categories: ["Addon"]
 ---
 # AsmoMOD
 
--AsmoMOD** is a comprehensive addon designed to automate and enhance gameplay. Features include automatic breaks for crowd control effects, swiftmend monitoring and automation, auto-repair, group management, battleground automation, and more.
+**AsmoMOD** is a comprehensive addon designed to automate and enhance gameplay. Features include automatic breaks for crowd control effects, swiftmend monitoring and automation, auto-repair, group management, battleground automation, and more.
 
 ## **Installation**
-  -Manual Installation only**
+**Manual Installation only**
 
 # Go to the main page of the repository.
 # Click the **<> Code** dropdown and download the repository as a <code>.zip</code>.
@@ -24,14 +24,14 @@ categories: ["Addon"]
 - [**(crazypoultry)**](https://github.com/crazypoultry/Wow1.12.1_Addons_Collection)
 
 ## How to Use
-  -Enabling Features**
+**Enabling Features**
 
 - Open the options menu via <code>/asmo</code> or the minimap button.
 - Toggle desired features (Auto Repair, Auto Group, Auto BG, Auto Resurrection, etc.).
 - Adjust thresholds (percentages) for NS-Heal, Swiftmend, and Emergency Swiftmend.
 - Enable or disable auto features individually for fine control.
 
-  -Manual Activation**
+**Manual Activation**
 
 - Use macros with the commands above for quick manual triggers.
 - For auto-casting, just press any hotbar key or switch targets after enabling features.
@@ -57,11 +57,11 @@ categories: ["Addon"]
 |Uses Feign Death + Freezing Trap.
 |}
 
--Note:* For automatic features like auto-break, Swiftmend, or mana conservation, you must press any key on your hotbar or switch targets for the spell to execute.
+*Note:* For automatic features like auto-break, Swiftmend, or mana conservation, you must press any key on your hotbar or switch targets for the spell to execute.
 
 ## Preview
 ## Key Features & Usage
-  -Auto Break Effects**
+**Auto Break Effects**
 
 - Automatically uses abilities like Berserker Rage, Will of the Forsaken, or PvP trinkets to break fear, stun, charm, sleep, roots, and other impairing effects.
 - Priority order varies by class/race:
@@ -69,7 +69,7 @@ categories: ["Addon"]
   - Dwarves: Use Stoneform for poisons.
 - Works seamlessly in combat to free you from CC effects.
 
-  -Swiftmend Monitoring & Automation**
+**Swiftmend Monitoring & Automation**
 
 - Tracks your last 5 HoTs (Healing Touch, Rejuvenation, Regrowth) with visual bars.
 - Clicking on a bar casts Swiftmend on that target instantly.
@@ -78,11 +78,11 @@ categories: ["Addon"]
   - **Emergency Threshold:** Target's health drops below a set percentage regardless of HoT remaining.
 - Emergency Swiftmend can be configured for player-only or any party member.
 
-  -Mana Conservation**
+**Mana Conservation**
 
 - Cancels healing spells if your target’s health is above a set percentage, conserving mana for critical moments.
 
-  -Automation & Lazy Features**
+**Automation & Lazy Features**
 
 - Auto repairs gear upon talking to a vendor.
 - Auto joins groups, battlegrounds, and releases in BGs.

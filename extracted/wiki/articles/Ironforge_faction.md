@@ -28,7 +28,7 @@ categories: ["Alliance factions", "Factions"]
 | caption | Icon of the Forge |
 
 *This article is about the in-game faction. For the dwarven kingdom, see [Ironforge (kingdom)](Ironforge (kingdom)). For the dwarven city of the same name, see [Ironforge](Ironforge).*
-  -Ironforge** is the faction associated with the capital city of the [Alliance](Alliance) dwarves, [Ironforge](Ironforge). King [Magni Bronzebeard](Magni Bronzebeard) rules his kingdom of Khaz Modan from his throne room within the city.
+**Ironforge** is the faction associated with the capital city of the [Alliance](Alliance) dwarves, [Ironforge](Ironforge). King [Magni Bronzebeard](Magni Bronzebeard) rules his kingdom of Khaz Modan from his throne room within the city.
 
 ## Reputation
 [Mistina Steelshield](Mistina Steelshield) has the repeatable cloth quests to achieve a higher reputation with Ironforge. In return for exalted reputation, non-dwarf players are able to ride [ram](ram)s.

@@ -24,7 +24,7 @@ categories: ["Booty Bay characters", "Human characters", "Quest givers", "Strang
 | location | Booty Bay, Stranglethorn Vale |
 | status | Alive |
 
--'Slip**' is a [human](human) [quest giver](quest giver) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale).
+**'Slip**' is a [human](human) [quest giver](quest giver) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale).
 
 ## Quests
 - [quest: Intercepted Shipment] 
@@ -34,7 +34,7 @@ categories: ["Booty Bay characters", "Human characters", "Quest givers", "Strang
 - [quest: Wally Wisecrack] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Not many people come back here. You useful? Think you could do some handy work for me?
 
 ## External links

@@ -10,7 +10,7 @@ categories: ["Animals", "Beast", "Creatures"]
 ---
 # Lion
 
--Lions** are large, carnivorous [cat](cat)s.  In [WoW](WoW), lions are common predatory [beast](beast)s in central [Kalimdor](Kalimdor).  As predators, lions tend to be [hostile](hostile) and will attack [player](player)s who approach them.
+**Lions** are large, carnivorous [cat](cat)s.  In [WoW](WoW), lions are common predatory [beast](beast)s in central [Kalimdor](Kalimdor).  As predators, lions tend to be [hostile](hostile) and will attack [player](player)s who approach them.
 
 ### Game Value
 - [Hunter](Hunter)s can tame lions as [pet](pet)s; pet lions will [eat](Pet Feeding) [meat](meat) and [fish](fish).

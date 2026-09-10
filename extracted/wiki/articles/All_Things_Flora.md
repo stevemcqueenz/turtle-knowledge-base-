@@ -10,4 +10,4 @@ categories: ["Booty Bay shops"]
 ---
 # All Things Flora
 
--All Things Flora** is a [herbalist](herbalist) shop located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). It's named after and run by [Flora Silverwind](Flora Silverwind).
+**All Things Flora** is a [herbalist](herbalist) shop located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). It's named after and run by [Flora Silverwind](Flora Silverwind).

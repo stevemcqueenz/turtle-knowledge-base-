@@ -10,9 +10,9 @@ categories: ["Template documentation"]
 ---
 # Template:Nolicense/doc
 
--Description**
+**Description**
   This template is used to mark images where the copyright status is not known. It automatically adds the images to the [Unattributed files](:Category:Unattributed files) category for later maintenance
-  -Syntax**
+**Syntax**
   Type <code></code> on the image information page.
 
 <includeonly></includeonly><noinclude></noinclude>

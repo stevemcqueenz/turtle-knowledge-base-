@@ -26,10 +26,10 @@ categories: ["Alah'Thalas NPCs", "Turtle WoW content", "Withered characters"]
 | location | Wretched Ghetto, Alah'Thalas |
 | status | Alive |
 
--Tenris Mirkblood** is a withered located in the [Wretched Ghetto](Wretched Ghetto) in [Alah'Thalas](Alah'Thalas).
+**Tenris Mirkblood** is a withered located in the [Wretched Ghetto](Wretched Ghetto) in [Alah'Thalas](Alah'Thalas).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Cursed by our gluttony, we now stand close to our soon-to-be demise. See us as we stand, shattered, broken, and wretched amidst the rubble and unwanted much of our brethren. They have cast us aside, claiming they shall seek the salvation we cannot desire.
 
 ## Notes

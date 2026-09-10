@@ -10,7 +10,7 @@ categories: ["Quest items", "Readable items", "Turtle WoW content"]
 ---
 # Khadgar's Journal
 
--Khadgar's Journal** is a book that is provided for [quest: Clutch of Thalnar].
+**Khadgar's Journal** is a book that is provided for [quest: Clutch of Thalnar].
 
 ## Patch changes
 - (Patch 1.17.2|note=Added.)

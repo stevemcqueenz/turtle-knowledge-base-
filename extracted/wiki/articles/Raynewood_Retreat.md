@@ -10,7 +10,7 @@ categories: ["Ashenvale subzones", "Dryad territories", "Keepers of the Grove", 
 ---
 # Raynewood Retreat
 
--Raynewood Retreat** is located in north-central [Ashenvale](Ashenvale), east of [Shael'dryn](Shael'dryn)'s [moonwell](moonwell (Ashenvale)) and west of [Night Run](Night Run).
+**Raynewood Retreat** is located in north-central [Ashenvale](Ashenvale), east of [Shael'dryn](Shael'dryn)'s [moonwell](moonwell (Ashenvale)) and west of [Night Run](Night Run).
 
 The Raynewood Retreat is an alliance outpost lead by a keeper of the grove named Ordanus. The druids and keepers here oppose the corruption that spreads through their beloved land.
 

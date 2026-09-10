@@ -10,10 +10,8 @@ categories: ["Gilneas subzones", "Lighthouses", "Turtle WoW content"]
 ---
 # Greymane's Watch
 
--Greymane's Watch** is a lighthouse found atop the western cliffs of [Gilneas](Gilneas), overlooking the [Baradin Sea](Baradin Sea). It is manned by the spirit of [Elaroth Ranworth](Elaroth Ranworth), who has been cursed long ago to tend to the lighthouse.
+**Greymane's Watch** is a lighthouse found atop the western cliffs of [Gilneas](Gilneas), overlooking the [Baradin Sea](Baradin Sea). It is manned by the spirit of [Elaroth Ranworth](Elaroth Ranworth), who has been cursed long ago to tend to the lighthouse.
 
 ## Inhabitants
-- 
-
-## Patch changes
+- ## Patch changes
 - (Patch 1.17.0|note=Added.)

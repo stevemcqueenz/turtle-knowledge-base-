@@ -13,23 +13,23 @@ categories: ["API Types"]
 These numeric values are used to indicate how a player is perceived by a specific faction.
 
 ## Values
-  - <code>0</code> - Unknown**
+** <code>0</code> - Unknown**
 
-  - <code>1</code> - Hated**
+** <code>1</code> - Hated**
 
-  - <code>2</code> - Hostile**
+** <code>2</code> - Hostile**
 
-  - <code>3</code> - Unfriendly**
+** <code>3</code> - Unfriendly**
 
-  - <code>4</code> - Neutral**
+** <code>4</code> - Neutral**
 
-  - <code>5</code> - Friendly**
+** <code>5</code> - Friendly**
 
-  - <code>6</code> - Honored**
+** <code>6</code> - Honored**
 
-  - <code>7</code> - Revered**
+** <code>7</code> - Revered**
 
-  - <code>8</code> - Exalted**
+** <code>8</code> - Exalted**
 
 These values are defined globaly by the FACTION_STANDING_LABEL(x) variables. Probably locale specific.
 

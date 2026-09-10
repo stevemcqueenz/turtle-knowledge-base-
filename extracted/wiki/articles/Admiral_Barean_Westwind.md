@@ -26,7 +26,7 @@ categories: ["Human characters", "Kul Tiras (kingdom)", "Scarlet Crusade", "Scar
 | location | Light's Point, Scarlet Enclave |
 | status | Killable |
 
--Admiral Barean Westwind** is a rare elite [human](human) located at [Light's Point](Light's Point) in the [Scarlet Enclave](Scarlet Enclave). He was a prominent member of the [Scarlet Crusade](Scarlet Crusade) and the Grand Admiral of the [Scarlet Fleet](Scarlet Fleet). He disappeared off the [Frozen Coast](Frozen Coast) of [Northrend](Northrend), and a statue was erected in his honor in the [Scarlet Monastery](Scarlet Monastery)'s [Hall of Champions](Hall of Champions). However, his fleet emerged once more, making berth at Light's Point along the eastern shores of Lordaeron. Although he survived his expedition to the frozen north, [his](Lost Crewman) [sailors](Wallowing Crewman) have not fared as well.
+**Admiral Barean Westwind** is a rare elite [human](human) located at [Light's Point](Light's Point) in the [Scarlet Enclave](Scarlet Enclave). He was a prominent member of the [Scarlet Crusade](Scarlet Crusade) and the Grand Admiral of the [Scarlet Fleet](Scarlet Fleet). He disappeared off the [Frozen Coast](Frozen Coast) of [Northrend](Northrend), and a statue was erected in his honor in the [Scarlet Monastery](Scarlet Monastery)'s [Hall of Champions](Hall of Champions). However, his fleet emerged once more, making berth at Light's Point along the eastern shores of Lordaeron. Although he survived his expedition to the frozen north, [his](Lost Crewman) [sailors](Wallowing Crewman) have not fared as well.
 
 ## Loot
 - [Fleetmaster's Cane](Fleetmaster's Cane)

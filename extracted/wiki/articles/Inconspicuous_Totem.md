@@ -13,8 +13,8 @@ categories: ["Object quest givers", "Tel'Abim objects"]
 The **Inconspicuous Totem** is a Kamio totem located on a small island to the east of [Tel'Abim](Tel'Abim).
 
 ## Quests
--  [52] [An Exile's Regret](An Exile's Regret) 
--  [52] [To Heal A Soul](To Heal A Soul) 
+- [52] [An Exile's Regret](An Exile's Regret) 
+- [52] [To Heal A Soul](To Heal A Soul) 
 
 ## Patch changes
--  **[Patch 1.16.4](Patch 1.16.4) (2022-12-20):** Added.
+- **[Patch 1.16.4](Patch 1.16.4) (2022-12-20):** Added.

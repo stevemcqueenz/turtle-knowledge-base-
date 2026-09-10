@@ -10,4 +10,4 @@ categories: ["Forest trolls", "Hinterlands subzones", "Pages with broken file li
 ---
 # Zun'watha
 
--Zun'watha** are a [forest troll](forest troll) ruins inhabited by trolls of the [Witherbark](Witherbark) tribe in [The Hinterlands](The Hinterlands).
+**Zun'watha** are a [forest troll](forest troll) ruins inhabited by trolls of the [Witherbark](Witherbark) tribe in [The Hinterlands](The Hinterlands).

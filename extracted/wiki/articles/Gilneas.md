@@ -26,7 +26,7 @@ categories: ["Eastern Kingdoms", "Gilneas", "Turtle WoW content"]
 
 *This article is about the modern state of the peninsula. For the kingdom, see [Gilneas (kingdom)](Gilneas (kingdom)).*
 
-  -Gilneas** is a human nation and kingdom located in the peninsula directly south of [Silverpine Forest](Silverpine Forest) on the continent of [Lordaeron](Lordaeron). The kingdom was founded following the breaking of Arathor and is ruled by the Greymane dynasty. Besides the peninsula, the kingdom also included the island of [Zul'Dare](Zul'Dare). 
+**Gilneas** is a human nation and kingdom located in the peninsula directly south of [Silverpine Forest](Silverpine Forest) on the continent of [Lordaeron](Lordaeron). The kingdom was founded following the breaking of Arathor and is ruled by the Greymane dynasty. Besides the peninsula, the kingdom also included the island of [Zul'Dare](Zul'Dare). 
 
 Gilneas is a large peninsula that juts into the sea south of western Lordaeron. Silverpine Forest lies to the northeast and [Kul Tiras](Kul Tiras) awaits across the sea to the south. Lord [Genn Greymane](Genn Greymane) never supported the Lordaeron Alliance in the Second War. Thus, after the war, he constructed the [Greymane Wall](Greymane Wall): a massive barrier spanning the entire northern border. The enormous wall barricades Gilneas from Lordaeron. Gilneas does not allow anyone in or out, and none knows what has been transpiring there since the end of the Second War.
 
@@ -48,7 +48,7 @@ WorldMap-Gilneas-old.jpg|Gilneas prior to [patch 1.17.2](patch 1.17.2).
 ||[Blackthorn's Camp](Blackthorn's Camp) • [Brol'ok Mound](Brol'ok Mound) • [Dawnstone Mine](Dawnstone Mine) • [The Dryrock Mine](Dryrock Mine) • [Dryrock Valley](Dryrock Valley) ([The Dryrock Pit](Dryrock Pit)) • [Ebonmere Farm](Ebonmere Farm) • [Freyshear Keep](Freyshear Keep) • [Gilneas City](Gilneas City) • [Glaymore Stead](Glaymore Stead) • [The Greymane Wall](Greymane Wall) • [Greymane's Watch](Greymane's Watch) • [Hollow Web Cemetery](Hollow Web Cemetery) • [Hollow Web Woods](Hollow Web Woods) • [Mossgrove Farm](Mossgrove Farm) • [Northgate Tower](Northgate Tower) • [Oldrock Pass](Oldrock Pass) • [The Overgrown Acre](Overgrown Acre) • [Ravenshire](Ravenshire) • [Ravenwood Keep](Ravenwood Keep) • [Rosewick Plantation](Rosewick Plantation) • [Ruins of Greyshire](Ruins of Greyshire) • [Shademore Tavern](Shademore Tavern) • [Southmire Orchard](Southmire Orchard) • [Stillward Church](Stillward Church) • [Vagrant Encampment](Vagrant Encampment) • [Westgate Tower](Westgate Tower)
 |-
 ||
-  -Undisplayed locations**
+**Undisplayed locations**
 
 [Baradin Bay](Baradin Bay)
 |}

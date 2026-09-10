@@ -24,7 +24,7 @@ categories: ["Blood elf characters", "Illidari", "Thalassian Highlands mobs"]
 | location | Brinthilien, Thalassian Highlands |
 | status | Killable |
 
--Veloren Brightstar** is a blood elf found on a hill overlooking [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands). An agent of [Kael'thas Sunstrider](Kael'thas Sunstrider) and the [Illidari](Illidari), he was tasked by Viceroy [Eldin Sunstrider](Eldin Sunstrider) to spy on the refugees resettling the Highlands when the [Silvermoon Remnant](Silvermoon Remnant) began to resettle the region. (ref: [quest: A Letter from the Royalty])
+**Veloren Brightstar** is a blood elf found on a hill overlooking [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands). An agent of [Kael'thas Sunstrider](Kael'thas Sunstrider) and the [Illidari](Illidari), he was tasked by Viceroy [Eldin Sunstrider](Eldin Sunstrider) to spy on the refugees resettling the Highlands when the [Silvermoon Remnant](Silvermoon Remnant) began to resettle the region. (ref: [quest: A Letter from the Royalty])
 
 [Commander Anarileth](Commander Anarileth) wants Veloren killed to remove a threat to the refugees in Brinthilien.
 
@@ -38,6 +38,6 @@ categories: ["Blood elf characters", "Illidari", "Thalassian Highlands mobs"]
 - [quest: A Troubling Presence]
 
 ## Patch changes
--  **[Patch 1.17.1](Patch 1.17.1) (2023-12-20):** Added.
+- **[Patch 1.17.1](Patch 1.17.1) (2023-12-20):** Added.
 
 ## References

@@ -25,10 +25,10 @@ categories: ["Gnome characters", "Ironforge NPCs", "Turtle WoW content"]
 | location | Tinker Town, Ironforge |
 | status | Alive |
 
--Gelwin Brasspipe** is a [gnome](gnome) located in [Tinker Town](Tinker Town) in [Ironforge](Ironforge). He stands in [High Tinker Mekkatorque](High Tinker Mekkatorque)'s former spot, directing people to the [Gnomeregan Reclamation Facility](Gnomeregan Reclamation Facility).
+**Gelwin Brasspipe** is a [gnome](gnome) located in [Tinker Town](Tinker Town) in [Ironforge](Ironforge). He stands in [High Tinker Mekkatorque](High Tinker Mekkatorque)'s former spot, directing people to the [Gnomeregan Reclamation Facility](Gnomeregan Reclamation Facility).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 A new era is upon us thanks to the hard work and brilliance of Gnomekind! Many of us who once dwelled here in Tinker Town have begun to gravitate back toward Gnomeregan. Well, the Reclamation Facility anyway. It's a new venture to reclaim our irradiated home.
 
 You see, it was built before the betrayal of Thermaplugg and is now being used to cleanse the toxic gases from the city. Fascinating stuff, isn't it?!

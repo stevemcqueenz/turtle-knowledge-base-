@@ -32,15 +32,15 @@ Returns the language specified by the index that your character can speak.
  end
 
 ## Info
-  -for .. do**
+**for .. do**
 
    Look for the 'for .. do' block at the [Reference Manual](http://www.lua.org/manual/5.0/).
 
-  -GetNumLaguages()**
+**GetNumLaguages()**
 
    [GetNumLaguages()](API GetNumLaguages) - Returns the number of languages your character can speak (I guess Blizzard's programmers mistyped that function name).
 
-  -DEFAULT_CHAT_FRAME:AddMessage("text",r,g,b)**
+**DEFAULT_CHAT_FRAME:AddMessage("text",r,g,b)**
 
   ; [ScrollingMessageFrame:AddMessage("text",r,g,b,id)](API ScrollingMessageFrame AddMessage)
    Valid Frame names: DEFAULT_CHAT_FRAME ChatFrame1 - ChatFrame7

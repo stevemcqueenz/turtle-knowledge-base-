@@ -10,7 +10,7 @@ categories: ["Night elf characters", "Pages with broken file links", "Stubs"]
 ---
 # Maiev Shadowsong
 
--Maiev Shadowsong** was a [priestess](Sisters of Elune) of [Elune](Elune) during the events of the [War of the Ancients](War of the Ancients). 
+**Maiev Shadowsong** was a [priestess](Sisters of Elune) of [Elune](Elune) during the events of the [War of the Ancients](War of the Ancients). 
 She has a younger brother, [Jarod Shadowsong](Jarod Shadowsong). Both played key roles in the battle against the [Burning Legion](Burning Legion), and in the aftermath Maiev was appointed the [jailor](Warden) of [Illidan Stormrage](Illidan Stormrage) and took on the mantle of leader of the Watchers.
 
 # Biography
@@ -80,11 +80,11 @@ According to Shadows & Light, she has died; this is also confirmed in the Allian
 Sinking into vengeful madness, Maiev pursued Illidan all the way to Outland. Emotion clouded her vision, and Illidan slipped away from her several times. Finally, when Maiev was all but blinded by frustration and vengeance, the Betrayer got the better of her. Maiev died alone on the red sand, unmourned, unsung, with none to remember her fall, her soul empty of all but rage.
 
 # Memorable Quotes
--"We must trust time to reveal all things."*
+*"We must trust time to reveal all things."*
 
 -Maiev to Naisha on the Broken Isles
 
--"Blood elves and naga! Your bastard races are an affront to everything the night elves stand for!"*
+*"Blood elves and naga! Your bastard races are an affront to everything the night elves stand for!"*
 
 # Frozen Throne in-game secrets
 <i>In the third mission of the Night Elf campaign in the Frozen Throne:</i>
@@ -98,11 +98,11 @@ If you blink to the Naga base on the right while playing as Maiev you'll find th
 If you blink to the Naga base on the top, you'll find a garden with the in-game secret [Grank the Rat](Grank the Rat).
 
 # Sources
-1.[The History of Azeroth, Chapter I: Mythos](http://worldofwarcraft.com/info/story/chapter1.shtml)
-1.[The History of Azeroth, Chapter V: Return of the Burning Legion](http://www.worldofwarcraft.com/info/story/chapter5.html)
-1.[www.lunarfalls.com](http://www.lunarfalls.com/WarCraft/index.html)
+1. [The History of Azeroth, Chapter I: Mythos](http://worldofwarcraft.com/info/story/chapter1.shtml)
+1. [The History of Azeroth, Chapter V: Return of the Burning Legion](http://www.worldofwarcraft.com/info/story/chapter5.html)
+1. [www.lunarfalls.com](http://www.lunarfalls.com/WarCraft/index.html)
 
-  -See also:**
+**See also:**
 - [Naisha](Naisha)
 - [Illidan Stormrage](Illidan Stormrage)
 - [Malfurion Stormrage](Malfurion Stormrage)

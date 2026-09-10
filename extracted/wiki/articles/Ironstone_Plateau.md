@@ -10,4 +10,4 @@ categories: ["Pages with broken file links", "Plateaus", "Un'Goro Crater subzone
 ---
 # Ironstone Plateau
 
--Ironstone Plateau** is a region in northeastern [Un'Goro Crater](Un'Goro Crater)[77, 33]. It is home to fledgling [Pterrordax](Pterrordax), and features several stretches of bare rock tucked on the bare edge of the crater wall. Its secluded and monster-free area sometimes attracts guilds to hold guild meets there.
+**Ironstone Plateau** is a region in northeastern [Un'Goro Crater](Un'Goro Crater)[77, 33]. It is home to fledgling [Pterrordax](Pterrordax), and features several stretches of bare rock tucked on the bare edge of the crater wall. Its secluded and monster-free area sometimes attracts guilds to hold guild meets there.

@@ -13,7 +13,7 @@ categories: ["Addon"]
 FlightMap enhances the in-game experience by providing detailed flight path visualization, including flight lines, flight master locations, durations, costs, and route management. It allows players to see all available flight paths on both continent and zone maps, and provides quick access to flight information.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **FlightMap** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **FlightMap** up to date is by using [GitAddonsManager](
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -30,27 +30,27 @@ If you prefer manual installation, follow these steps:
 # Unpack the <code>.zip</code> and rename the folder to FlightMap, removing the <code>-main</code> suffix.
 # Move the folder into your <code>Interface/AddOns</code> directory and restart the game.
 
-  -Optional**:  [LevelRange-Turtle](LevelRange).
+**Optional**:  [LevelRange-Turtle](LevelRange).
 
 ## Git Links
 - **[(TrangOul)](https://github.com/TrangOul/FlightMap)**
 - [**(Tolle44)**](https://github.com/Tolle44/FlightMap)
 
 ## Usage
-  -Accessing FlightMap**
+**Accessing FlightMap**
 
 - Use <code>/fmap</code> or <code>/flightmap</code> for options.
 - Bind a key to open the flight selection window.
 - Hover over zones or flight masters for detailed info.
 - Click on destinations to take flights via the route system.
 
-  -During Flight**
+**During Flight**
 
 - A progress bar indicates your flight time.
 - Optionally, the timer can be locked or moved.
 - Flight times are inferred and can be corrected based on actual experience.
 
-  -Options:**
+**Options:**
 
 - Enable/Disable flight lines on maps.
 - Show/hide flight master icons.

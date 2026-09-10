@@ -10,14 +10,10 @@ categories: ["Elwynn Forest subzones", "Gnoll territories", "Human territories",
 ---
 # Forest's Edge
 
--Forest's Edge** is a peninsula-like swath of forest southwest of [Stormwind City](Stormwind City) in [Elwynn Forest](Elwynn Forest), located between [Mirror Lake Orchard](Mirror Lake Orchard), the [Nazferiti river](Nazferiti river) and the small northern river near [Westfall](Westfall).
+**Forest's Edge** is a peninsula-like swath of forest southwest of [Stormwind City](Stormwind City) in [Elwynn Forest](Elwynn Forest), located between [Mirror Lake Orchard](Mirror Lake Orchard), the [Nazferiti river](Nazferiti river) and the small northern river near [Westfall](Westfall).
 
 It is the location of a group of [gnoll](gnoll)s led by an [elite](elite) named [Hogger](Hogger). A couple of [boar](boar)s also wander around the area. It also contains some [herb](herb) spawn points, as well as a [copper vein](copper vein) or two along the rivers. [Westbrook Garrison](Westbrook Garrison) is found on its northern area.
 
 ## NPCs
-- 
--  (rare)
-- 
-- 
-- 
--
+- - (rare)
+- - - -

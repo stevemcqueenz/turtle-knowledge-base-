@@ -26,16 +26,16 @@ categories: ["Bosses", "Dragonmaw Retreat mobs", "Dragonmaw clan", "Orc characte
 | status | Killable |
 | instance | Dragonmaw Retreat |
 
--Overlord Blackheart** is an [orc](orc) and is the seventh boss of [Dragonmaw Retreat](Dragonmaw Retreat).
+**Overlord Blackheart** is an [orc](orc) and is the seventh boss of [Dragonmaw Retreat](Dragonmaw Retreat).
 
 ## Quotes
-  -Aggro**
+**Aggro**
   More slaves? How fortunate for you to deliver yourself to me!
 
-  -At 50%**
+**At 50%**
   Get into order, maggots!
 
-  -Death**
+**Death**
   Overlord Blackheart begins to laugh maniacally.
 
 ## Loot

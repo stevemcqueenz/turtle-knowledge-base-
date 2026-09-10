@@ -46,7 +46,7 @@ So orcs were responsible after all; but not the Blackrocks. The way you describe
 Regarding the girl... I will see to it to retrieve her body myself; I need to see this orc camp either way. Leave telling her mother to me, it is nothing that should fall to someone like you anyway.
 
 ## Notes
-  -Inspecting Sara Flenning's body**
+**Inspecting Sara Flenning's body**
 The young woman lies motionless on the ground. Her skin is cold to the touch and any life has long left her body.
 
   > Gossip: *<Inspect the body.>*

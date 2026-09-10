@@ -30,8 +30,8 @@ categories: ["Cenarion Circle", "Hyjal subzones", "Kalimdor", "Neutral quest hub
 | flightpath | Yes |
 | status | Active |
 
--Nordanaar** is a night elven town located in [Hyjal](Hyjal), within [Nordrassil Glade](Nordrassil Glade).
+**Nordanaar** is a night elven town located in [Hyjal](Hyjal), within [Nordrassil Glade](Nordrassil Glade).
 
 ## Travel connections
 ### Flight
-  - [Everlook](Everlook)**
+** [Everlook](Everlook)**

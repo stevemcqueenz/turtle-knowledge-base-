@@ -10,7 +10,7 @@ categories: ["Northwind subzones", "Passes", "Turtle WoW content"]
 ---
 # Cinderfall Pass
 
--Cinderfall Pass** is a pass leading between [Northwind](Northwind) and the [Burning Steppes](Burning Steppes). It leads to the pathway just south of the [Altar of Storms](Altar of Storms (Burning Steppes)).
+**Cinderfall Pass** is a pass leading between [Northwind](Northwind) and the [Burning Steppes](Burning Steppes). It leads to the pathway just south of the [Altar of Storms](Altar of Storms (Burning Steppes)).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

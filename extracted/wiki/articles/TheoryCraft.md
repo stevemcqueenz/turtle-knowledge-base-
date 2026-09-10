@@ -12,7 +12,7 @@ categories: ["Addon"]
 
 TheoryCraft calculates detailed combat statistics for your spells and abilities, providing insights into their performance based on your current gear, talents, and buffs. This information can be displayed on tooltips, and some values can be shown directly on your action bar buttons and in the spellbook.
 ## Installation
-  -GitAddonsManager (Recommended)**
+**GitAddonsManager (Recommended)**
 
 The easiest way to keep TheoryCraft up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -20,7 +20,7 @@ The easiest way to keep TheoryCraft up to date is by using [GitAddonsManager](Gi
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -29,7 +29,7 @@ If you prefer manual installation, follow these steps:
 # Unpack the <code>.zip</code> and rename the folder to TheoryCraft-Turtle, removing the <code>-master</code> suffix.
 # Move the folder into your <code>Interface/AddOns</code> directory and restart the game.
 
-  -Migrating from TheoryCraft for 1.12:**
+**Migrating from TheoryCraft for 1.12:**
 
 TheoryCraft-Turtle is a fork and will conflict with the original version.
 
@@ -38,7 +38,7 @@ TheoryCraft-Turtle is a fork and will conflict with the original version.
 # Repeat the renaming process for the <code>TheoryCraft.lua</code> file found in <code>wowfolder/WTF/Account/username/</code> if you wish to preserve estimated enemy mob and player armor values.
 
 ## Git links
-  -[(tiffanyplus)](https://github.com/tiffanyplus/TheoryCraft-Turtle)**
+**[(tiffanyplus)](https://github.com/tiffanyplus/TheoryCraft-Turtle)**
 
 ## Commands
 {| class="fandom-table"
@@ -73,18 +73,18 @@ TheoryCraft-Turtle is a fork and will conflict with the original version.
 |Shows your actual crit rate, from combat. Only works for healers.
 |}
 
-  -Healing macro:**
+**Healing macro:**
 
 You can create macros that use TheoryCraft's casting logic:<syntaxhighlight lang="lua">
 /script TheoryCraftCast("Greater Heal", 1)
 </syntaxhighlight>
 This macro will cast the lowest rank of Greater Heal needed to bring the target to full health. Changing the second argument (e.g., to <code>1.2</code>) will attempt to overheal by that percentage to account for damage taken during the cast.
 
-  -Macro Tooltips:**
+**Macro Tooltips:**
 
 - You can display the tooltip for any spell by naming a macro accordingly (e.g., <code>Ice Block(0)</code>). If button text is enabled, the macro name will be hidden.
 
-  -Button Text Setup:**
+**Button Text Setup:**
 
 - In the TheoryCraft UI, you can choose two values to display on your button text. If the first value is not available for a spell, the second will be shown. Button text position, font, color, and size are customizable.
 
@@ -146,7 +146,7 @@ This macro will cast the lowest rank of Greater Heal needed to bring the target 
 - **Seal of Crusader dps:** Average Melee Hit + Attack Power Bonus / 14 * Weapon Speed + (Average Melee Hit + Attack Power Bonus / 14 * Weapon Speed) * Melee crit chance
 
 ## Addon Developers
-  -Accessing Spell Data:**
+**Accessing Spell Data:**
 
 To retrieve data from TheoryCraft for a specific spell, use one of the following global functions, listed in order of speed:
 
@@ -156,11 +156,11 @@ To retrieve data from TheoryCraft for a specific spell, use one of the following
 
 These functions will return a table containing spell data if available. If the data is not present, TheoryCraft will attempt to generate it (if possible) and cache it for faster future access. The cache is reset when relevant factors change (e.g., equipping new spell damage gear).
 
-  -Example:**<syntaxhighlight lang="lua">
+**Example:**<syntaxhighlight lang="lua">
 local spelldata = TheoryCraft_GetSpellDataByName("Immolate", 5) Print(spelldata.mindamage)
 </syntaxhighlight>
 
-  -Available Spell Data Fields:**
+**Available Spell Data Fields:**
 
 The following fields are accessible in the returned spell data table (or <code>nil</code> if not applicable to the spell):
 
@@ -214,9 +214,9 @@ The following fields are accessible in the returned spell data table (or <code>n
 
 All damage (<code>dam</code>/<code>dmg</code>) fields also have corresponding healing (<code>heal</code>) fields (e.g., <code>minheal</code>, <code>maxheal</code>, <code>hpm</code>).
 
-  -Note on <code>TheoryCraft_GetSpellDataByDescription</code>:** This function is significantly slower than the others for generating new data because it requires iterating through your spellbook to match the description. Its use is generally not recommended for performance-sensitive operations.
+**Note on <code>TheoryCraft_GetSpellDataByDescription</code>:** This function is significantly slower than the others for generating new data because it requires iterating through your spellbook to match the description. Its use is generally not recommended for performance-sensitive operations.
 
-  -Updating Button Text:**
+**Updating Button Text:**
 
 When spell data or action bars change, TheoryCraft resets the <code>TheoryCraft_UpdatedButtons</code> table to blank. To efficiently update your button text without hooking numerous events, you can use the <code>OnUpdate()</code> event:
 
@@ -226,11 +226,11 @@ When spell data or action bars change, TheoryCraft resets the <code>TheoryCraft_
 
 TheoryCraft will reset <code>TheoryCraft_UpdatedButtons</code> when a repaint is necessary.
 
-  -Regenerating Data:**
+**Regenerating Data:**
 
 You generally shouldn't need to manually regenerate all data, but if necessary, call:<syntaxhighlight lang="lua">TheoryCraft_GenerateAll()</syntaxhighlight>
 
-  -Other Global Functions:**
+**Other Global Functions:**
 
 - <code>TheoryCraft_UpdateTalents(genall)</code>
 - <code>TheoryCraft_UpdateGear(target, genall)</code> (Only affects "player" target)
@@ -247,7 +247,7 @@ The <code>genall</code> parameter in <code>TheoryCraft_UpdateTalents</code>, <co
 - [laytya](https://github.com/laytya) (support macros)
 
 ## Changes
-  -Talent Updates for 1.17.2:**
+**Talent Updates for 1.17.2:**
 
 TheoryCraft has been updated to support talents introduced in patch 1.17.2 for the following classes:
 
@@ -261,7 +261,7 @@ TheoryCraft has been updated to support talents introduced in patch 1.17.2 for t
 - Warrior: x (Updated)
 - Warlock: x (Updated)
 
-  -Version Kronos**
+**Version Kronos**
 
 - Change/Improvements
 - Included "Improved Shadow Bolt" to shadow calculations
@@ -270,17 +270,17 @@ TheoryCraft has been updated to support talents introduced in patch 1.17.2 for t
 - Included "Stormstrike" to nature calculations
 - included "Plagueheart corruption set bonus" to corruptions calculations 
 
-  -Todo-List:**
+**Todo-List:**
 
 - need to add healing buff/debuffs to calculations
 - fix lifetap feature
 - adjust curse of agony to show correct dot damage    
 
-  -Bugs**:
+**Bugs**:
 
 - lifetap feature still bugged and is applied to all abilities except lifetap at the moment    
 
-  -Version 1.06.5**
+**Version 1.06.5**
 
 - Changing action bar pages finally works with button text
 - Forms, Warrior stances now work correctly with button text
@@ -293,7 +293,7 @@ TheoryCraft has been updated to support talents introduced in patch 1.17.2 for t
 - Ammo no longer affects melee attacks (doh!)
 - More custom bar addons will have their macro names hidden now
 
-  -Version 1.06.4 (Temporary)**
+**Version 1.06.4 (Temporary)**
 
 - 1.07 will be out soon, and is a major rewrite - this is a temporary download.
 - Updated TOC
@@ -302,7 +302,7 @@ TheoryCraft has been updated to support talents introduced in patch 1.17.2 for t
 - Added latest german locale (I think)
 - Fixed TC saying that GLOCK wasn't installed when it was - functionality with latest version of GLOCK untested
 
-  -Version 1.06.3**
+**Version 1.06.3**
 
 - Added Fire Festival Fury.
 - Added Very Berry Cream.
@@ -313,22 +313,22 @@ TheoryCraft has been updated to support talents introduced in patch 1.17.2 for t
 - Consecration fixed. (Wasn't able to read in the duration)
 - Immolate fixed. (On some talent builds, DoT wouldn't be modified)
 
-  -Version 1.06.2**
+**Version 1.06.2**
 
 - Added Evocation
 - Fixed Max Dam w/ Evocation + Gem - was ~ 2000 mana out before.
 - Button Text can be disabled.
 - Fixed a bug with "Cooldown remaining: "
 
-  -Version 1.06.1**
+**Version 1.06.1**
 
 - Updated Toc to 1.11
 - Fixed mage armor (buff description has changed since 1.10)
 - Fixed an error on line 65 of Gear. (nil error)
 
-  -Version 1.06**
+**Version 1.06**
 
-  -New Features:**
+**New Features:**
 
 - New Feature: Make a macro with '/script TheoryCraftCast("Greater Heal", 1)', and it'll cast the lowest rank Greater Heal that'll bring the target to full health. Changing the 1 to 1.2 will attempt to overheal by 20% (allowing for damage whilst casting), and so forth.
 - New Hidden command: Type /tc dpsmana to add a dps/mana line to the tooltip.
@@ -342,13 +342,13 @@ TheoryCraft has been updated to support talents introduced in patch 1.17.2 for t
 - Button text now works with Flexbar, for text label substitution though I recommend Flexbar Improved.
 - Button text is now fully customizeable in position, font, colour and size.
 
-  -Localisation Updates:**
+**Localisation Updates:**
 
 - German and French locale updates.
 - Full +damage support of items that increase damage vs Undead only.
 - Elixir of frost power, and possibly other buffs, work again now. (Previously Frost was capitalised, at some patch it was changed to lowercase frost, now I read them case insensitive)
 
-  -Internal Changes:**
+**Internal Changes:**
 
 - *MASSIVE* memory management overhaul, no regularly called TC function will require garbage collection. (Particularly noticeable for hunters - where TC had runaway memory problems due to the regular gear change event)
 - All Button Text labels are created at run time now (previously all were declared in xml file).
@@ -356,7 +356,7 @@ TheoryCraft has been updated to support talents introduced in patch 1.17.2 for t
 - Note to other developers: Spellcasts, damage til oom (remaining), damage til oom (floored) are now available from GetSpellData functions.
 - Speed improvements
 
-  -Bug Fixes:**
+**Bug Fixes:**
 
 - Paladins tooltips are neater for seals now
 - Hunters ammo is no longer affected by RWS or Barrage (autoshot damage will now read correctly)
@@ -374,29 +374,29 @@ TheoryCraft has been updated to support talents introduced in patch 1.17.2 for t
 - This time the nil error is actually fixed ^.^
 - Added a guide on getting button text on flexbar. (Text file in addon directory, read it :))
 
-  -Version 1.05.4**
+**Version 1.05.4**
 
 - Fixed a nil error on line 19 of TheoryCraftMitigation
 
-  -Version 1.05.3**
+**Version 1.05.3**
 
 - Targeting a player > 2 levels higher then you will now display the correct resist rate.
 - Fixed nil error on line 133 of TheoryCraftMain
 
-  -Version 1.05.2**
+**Version 1.05.2**
 
 - German Locale works again (old one had an encoding error)
 - Possibly fixed an error on targetting players
 
-  -Version 1.05.1**
+**Version 1.05.1**
 
 - Bug Fixes
 - Minor chance to autoshot rotation formulas if you don't have Aimed Shot.
 - Procs work again
 
-  -Version 1.05**
+**Version 1.05**
 
-  -New Features:**
+**New Features:**
 
 - TheoryCraft now calculates the targets armor, based off your actual hits.
 - New Command: "/tc armorchanges" to have TC tell you whenever it updates the armor of the target.
@@ -417,7 +417,7 @@ TheoryCraft has been updated to support talents introduced in patch 1.17.2 for t
 - Added support for Shaman totems
 - Added support for Shaman 1.11 talents + totem coefficients
 
-  -Updated Crit Formula:**
+**Updated Crit Formula:**
 
 - Mages now have a 0.2% base spell crit rate, and 1% crit per 59.5 int
 - Priests now have a 0.8% base spell crit rate, and 1% crit per 59.5 int
@@ -428,9 +428,9 @@ TheoryCraft has been updated to support talents introduced in patch 1.17.2 for t
 - Paladins now have a 0.75% base melee crit rate (only matters for levels < 60)
 - Hunters now use 52.91 agi per crit at level 60
 
-  -Bug fixes:**
+**Bug fixes:**
 
-  -Rogues**:
+**Rogues**:
 
 - Talents can now be tested correctly (previously opportunity was miles off)
 - Backstab no longer has values if there is no dagger equipped.
@@ -439,7 +439,7 @@ TheoryCraft has been updated to support talents introduced in patch 1.17.2 for t
 - Riposte now works with embed again.
 - Dagger and Fist spec are no longer applied twice.
 
-  -Hunters**:
+**Hunters**:
 
 - Fixed a bug with dequipping ranged attack power items.
 - Fixed a bug with ranged weapon speed.
@@ -448,18 +448,18 @@ TheoryCraft has been updated to support talents introduced in patch 1.17.2 for t
 - AS/MS rotations should now be calculated correctly.
 - Some things were showing on autoshot that shouldn't have.
 
-  -Warriors**
+**Warriors**
 
 - Fixed Bloodthirst.
 - Rage cost will be updated when 8 piece wrath procs.
 
-  -Shaman**
+**Shaman**
 
 - Fixed chain lightning and shocks showing damage til oom.
 - Healing Wave Rank 4 now has the correct coefficient.
 - Lightning Shield now has the correct coefficient.
 
-  -All**:
+**All**:
 
 - Heals no longer show "Up to: " Penetration figure with resists turned on.
 - Fixed a bug where TC was reading invisble lines on the right hand side of the tooltip.
@@ -470,13 +470,13 @@ TheoryCraft has been updated to support talents introduced in patch 1.17.2 for t
 - Removed some redundant functions from merging Stripped and Normal versions.
 - All values are now unrounded right to the point until they're displayed.
 
-  -Version 1.04.6.4**
+**Version 1.04.6.4**
 
 - Fixed a nil error (found in messy)
 - Updated the Paladins regen from spirit formula (now spirit/5+15)
 - One less autoshot per 9 second rotation now, should be correct
 
-  -Version 1.04.6.3**
+**Version 1.04.6.3**
 
 - Set Bonuses are no longer bugged during combat
 - Fixed ZHC/ToEP not updating
@@ -491,19 +491,19 @@ TheoryCraft has been updated to support talents introduced in patch 1.17.2 for t
 - Added 9 sec rotation dps for hunters
 - Rotation dps will now be anywhere from 10->11 seconds, whatever is most efficient for your weapon.  This'll greatly improve rhok dps.
 
-  -Version 1.04.6.2**
+**Version 1.04.6.2**
 
 - Outfits work again.
 
-  -Version 1.04.6**
+**Version 1.04.6**
 
 - Version 1.04.5 shall never be mentioned again >.<
 
-  -Version 1.04.5 FIXED**
+**Version 1.04.5 FIXED**
 
 - Apparently you should never upload a mod at 2am in the morning.  Biggest apologies to everyone who got slaughtered by the last release, this one is fine.
 
-  -Version 1.04.5**
+**Version 1.04.5**
 
 - Big Fix: Firing an arrow/bullet no longer calls for all your gear to be reread, which was causing lag with hunters.
 - Big Fix: TC was regenning far too often - now correctly only regens when your gear/buffs change in such a way that your spells are affected.
@@ -512,7 +512,7 @@ TheoryCraft has been updated to support talents introduced in patch 1.17.2 for t
 - Scatter shot has its text modified again.
 - Massively improved German locale.
 
-  -Version 1.04.4.2**
+**Version 1.04.4.2**
 
 - Fixed a bug with the French Locale
 - Fixed a bug with Mar'li's Eye
@@ -520,11 +520,11 @@ TheoryCraft has been updated to support talents introduced in patch 1.17.2 for t
 - Fixed a bug with the German locale
 - Fixed three variables that should have been local, but instead were being accessed as global causing compatibility problems with LazyRogue.
 
-  -Version 1.04.4**
+**Version 1.04.4**
 
 - Sorry, TC settings will be reset again on this release.
 
-  -New Features**
+**New Features**
 
 - Time TheoryCraft by clicking "Generate All" on the Button Text tab
 - If your gear changes whilst in combat, TC will only reread your main hand/off hand and wand to prevent lag
@@ -540,7 +540,7 @@ TheoryCraft has been updated to support talents introduced in patch 1.17.2 for t
 - 1.11 Arcane Missile, Cone of Cold, Ice Barrier and Blast Wave support.
 - Added 1.11 Combustion and Winter's Chill buffs/debuffs
 
-  -Bug fixes:**
+**Bug fixes:**
 
 - Fixed a bug with next 10 agility (was completely incorrect before, no idea which version of TC broke it)
 - Paladin Seals have +dmg embeded again
@@ -560,7 +560,7 @@ TheoryCraft has been updated to support talents introduced in patch 1.17.2 for t
 - Fixed a bug with Hunters and Damage til oom showing on button text (nil error)
 - Fixed several ranged attack power bugs regarding item testing
 
-  -Version 1.04.3**
+**Version 1.04.3**
 
 - Everything is pattern based now, simplifying localisations and making the tooltip entirely customizeable (see localisation.lua for more info)
 - Only the first 13 chars need to match macro name now (or 12 if rank is two digits)
@@ -570,7 +570,7 @@ TheoryCraft has been updated to support talents introduced in patch 1.17.2 for t
 - Fixed a bug involving Tremor Totems
 - Fixed a bug involving Attack Power items regarding Ranged Attack Power when in any outfit other then Equipped and Naked
 
-  -Version 1.04.2**
+**Version 1.04.2**
 
 - New Feature: If you name a macro Shadow Bolt(10) it'll show the tooltip of rank 10 shadow bolt, and if button text is enabled, hide the macro name.
 - Base increasers are now multiplied together. Eg, curse of shadow and touch of chaos stack properly now.
@@ -580,27 +580,27 @@ TheoryCraft has been updated to support talents introduced in patch 1.17.2 for t
 - Fel Energy added.
 - Fixed two nil errors at least one user was getting.
 
-  -Version 1.04.1**
+**Version 1.04.1**
 
 - Talents will now work when you first log in (Previously they'd only work after they were reread, due to your client not having the data ready on login)
 - Shoot will no longer bring up an error
 - Compatible with autotrade mods again
 - Large Button Text will now hide correctly when you flip through action bars
 
-  -Version 1.04**
+**Version 1.04**
 
 - Too many changes to list, by a factor of ~ 100.
 
-  -Version 1.03B**
+**Version 1.03B**
 
 - Fixed a hang during load on german locale.
 
-  -Version 1.03A**
+**Version 1.03A**
 
 - Added Greater Firepower
 - No longer causes errors on unsupported locales of WoW
 
-  -Version 1.03**
+**Version 1.03**
 
 - French Support ! Thank you Hip :) (caster's/hybrids only)
 - Now much more localisable - every string has been moved to localisation files for each language
@@ -616,13 +616,13 @@ TheoryCraft has been updated to support talents introduced in patch 1.17.2 for t
 - Fixed some bugs involving mana cost
 - Added some mana per 5 second food buffs
 
-  -Version 1.02J**
+**Version 1.02J**
 
 - Added Soulfire and shadowburn (Maybe)
 - Fixed Hellfire (again....)
 - Final +Damage now displays correctly for spells that state what they tick for on the tooltip, rather then the total damage. Eg Arcane Missiles, Siphon life, Drain Life
 
-  -Version 1.02I**
+**Version 1.02I**
 
 - Fixed the tooltip text for +Damage Coefficient
 - +Damage Coefficient now displays correctly for spells that state what they tick for on the tooltip, rather then the total damage. Eg Arcane Missiles, Siphon life, Drain Life
@@ -630,32 +630,32 @@ TheoryCraft has been updated to support talents introduced in patch 1.17.2 for t
 - New option, DoT over CT (old one renamed Combined DoT). DoT over Cast Time is expressed as total damage of DoT over the cast time.
 - New option, "Show Heal Component" (was always in the mod, just now there's a checkbox for it - for spells like holy nova, holy shock, drain life)
 
-  -Version 1.02H**
+**Version 1.02H**
 
 - Fixed siphon life
 
-  -Version 1.02G**
+**Version 1.02G**
 
 - Fixed a reasonably large bug in the detecting buff and debuff functions.
 - Fixed corruption (previously was bugged with talents in improved corruption)
 
-  -Version 1.02F**
+**Version 1.02F**
 
 - Added 3 piece felheart bonus
 - Drain Life and Siphon Life now show Healing stats as well as damage (type in /tc healanddamage to disable)
 - You can now drag the options frame
 - Options frame now has a dark dingy background like every other addon :(
 
-  -Version 1.02E**
+**Version 1.02E**
 
 - Fixed Hellfire and Siphon Life
 
-  -Version 1.02D**
+**Version 1.02D**
 
 - Added Ticks For to Rain of Fire
 - Added Druid move Claw.
 
-  -Version 1.02C**
+**Version 1.02C**
 
 - Added a "Ticks For:" line to warlock and druid DoTs/HoTs. (more to come)
 - Fixed an error with Seal of Righteousness
@@ -663,15 +663,15 @@ TheoryCraft has been updated to support talents introduced in patch 1.17.2 for t
 - Fixed "Factor Resists" under DPM
 - Fixed an error with the Warlock ZG leg/head enchant.
 
-  -Version 1.02B**
+**Version 1.02B**
 
 - Fixed the description of max w/ evoc + gem.
 
-  -Version 1.02A**
+**Version 1.02A**
 
 - Fixed an error with the Mage ZG leg/head enchant.
 
-  -Version 1.02**
+**Version 1.02**
 
 - Full hunter support.
 - Completely rewrote equipment reading function, now 3-10 times quicker and rewrote some internal arrays, report any bugs :)
@@ -682,7 +682,7 @@ TheoryCraft has been updated to support talents introduced in patch 1.17.2 for t
 - Troll +5% vs beasts added.
 - Fixed free mana cost error.
 
-  -Version 1.01**
+**Version 1.01**
 
 - Druid cat support.
 - No longer crashes when lawbringer boots are equipped (and possibly other items)
@@ -693,23 +693,23 @@ TheoryCraft has been updated to support talents introduced in patch 1.17.2 for t
 - Drain Life fixed.
 - Divine Favour, Combustion, Blessing of Light, Judgement of the Crusader added.
 
-  -Version 1.00C**
+**Version 1.00C**
 
 - Warrior/Rogues fixed (1.00A broke them completely).
 - Combustion added.
 - Drain soul fixed.
 - Dps from +dam tooltip now factors in base modifiers eg shadowform/arcane power.
 
-  -Version 1.00B**
+**Version 1.00B**
 
 - Fixed a large bug with fireball.
 
-  -Version 1.00A**
+**Version 1.00A**
 
 - Crit chances appearing on spells that cannot crit, fixed.
 - Added another DPS figure for spells like immolate that have direct damage then a DoT, and an option for changing how it is calculated under /tc. 
 - Changed the way DPM was expressed for spells with DoT components.
 
-  -Version 1.00**
+**Version 1.00**
 
 - First Release.

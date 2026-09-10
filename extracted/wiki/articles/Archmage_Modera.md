@@ -23,7 +23,7 @@ categories: ["Dalaran (kingdom)", "Human characters", "Lore characters", "Mage c
 | status | Alive |
 | relatives | Caitlyn (daughter) |
 
--Archmage Modera** is a [human](human) mage and a member of the [Council of Six](Council of Six), the [Kirin Tor](Kirin Tor) high council of [Dalaran](Dalaran (kingdom)). She appears to be one of the most long-standing members of the Six, having been active as a member during the [Second War](Second War) up until now.
+**Archmage Modera** is a [human](human) mage and a member of the [Council of Six](Council of Six), the [Kirin Tor](Kirin Tor) high council of [Dalaran](Dalaran (kingdom)). She appears to be one of the most long-standing members of the Six, having been active as a member during the [Second War](Second War) up until now.
 
 ## History
 ### Aftermath of the Second War

@@ -24,16 +24,16 @@ Some illusions come with multiple model skins. Every time such illusion is appli
 
 ## List of Available Illusions
 - Illusion: Banshee - Available from Turtle WoW Donation Rewards for 120 tokens.
--Illusion: Dryad - Available from Turtle WoW Donation Rewards for 120 tokens.
--Illusion: Furbolg - rewarded from the Winter's Veil custom quest ["Grizzlore Wants Thunder"](https://database.turtle-wow.org/?quest=50326), found in the Turtle WoW exclusive Winter Veil Vale event zone, also available from Turtle WoW Donation Rewards for 120 tokens.
--Illusion: Ghost - Available from Turtle WoW Donation Rewards for 120 tokens.
--Illusion: Gnoll - Available from Turtle WoW Donation Rewards for 120 tokens.
+- Illusion: Dryad - Available from Turtle WoW Donation Rewards for 120 tokens.
+- Illusion: Furbolg - rewarded from the Winter's Veil custom quest ["Grizzlore Wants Thunder"](https://database.turtle-wow.org/?quest=50326), found in the Turtle WoW exclusive Winter Veil Vale event zone, also available from Turtle WoW Donation Rewards for 120 tokens.
+- Illusion: Ghost - Available from Turtle WoW Donation Rewards for 120 tokens.
+- Illusion: Gnoll - Available from Turtle WoW Donation Rewards for 120 tokens.
 - Illusion: Pandaren - Available from Turtle WoW Donation Rewards for 120 tokens.
--Illusion: Scourge - Available from Turtle WoW Donation Rewards for 120 tokens.
--Illusion: Shadow - Available from Turtle WoW Donation Rewards for 120 tokens.
--Illusion: Succubus - Available from Turtle WoW Donation Rewards for 120 tokens.
--Illusion: Two-headed Ogre - Available from Turtle WoW Donation Rewards for 120 tokens.
--Illusion: Worgen - Available from Turtle WoW Donation Rewards for 120 tokens.
--Illusion: Murloc - Available from Speedy's Gift Box: Level 50, which is mailed to your character when it reaches level 50 in Slow & Steady Challenge.
+- Illusion: Scourge - Available from Turtle WoW Donation Rewards for 120 tokens.
+- Illusion: Shadow - Available from Turtle WoW Donation Rewards for 120 tokens.
+- Illusion: Succubus - Available from Turtle WoW Donation Rewards for 120 tokens.
+- Illusion: Two-headed Ogre - Available from Turtle WoW Donation Rewards for 120 tokens.
+- Illusion: Worgen - Available from Turtle WoW Donation Rewards for 120 tokens.
+- Illusion: Murloc - Available from Speedy's Gift Box: Level 50, which is mailed to your character when it reaches level 50 in Slow & Steady Challenge.
 - Illusion: High Elf - Was previously available from Speedy's Gift Box: Level 50, which was mailed to your character when it reaches level 50 in Slow & Steady Challenge, this was replaced with the Illusion: Murloc leading to the release of 1.15.0 and the proper implementation of High Elves as a playable race (ref: These work exactly like all other illusions, even if they prelude their fully fledged playable race counterparts.).
--Illusion: Goblin - Was previously available from Turtle WoW Donation Rewards for 120 tokens, this has long been removed before the release of 1.15.0 and the proper implementation of Goblins as a playable race.
+- Illusion: Goblin - Was previously available from Turtle WoW Donation Rewards for 120 tokens, this has long been removed before the release of 1.15.0 and the proper implementation of Goblins as a playable race.

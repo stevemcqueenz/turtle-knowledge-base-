@@ -38,21 +38,9 @@ The **Maw of Ursoc** is a cave within [Ursolan](Ursolan) that serves as the seat
 
 ## Inhabitants
 ### Quest givers
-- 
-- 
-- 
-
-### Goods and services
-- 
-- 
-- 
-
-### Additional characters
-- 
-- 
-- 
-
-## See also
+- - - ### Goods and services
+- - - ### Additional characters
+- - - ## See also
 - [Maw of Ursol](Maw of Ursol)
 
 ## Patch changes

@@ -10,10 +10,10 @@ categories: ["Alchemy crafting reagent items", "Herbalism gathered items", "Herb
 ---
 # Blindweed
 
--Blindweed** is an [Herb](Herb) that can be gathered with [Herbalism](Herbalism) (235).
+**Blindweed** is an [Herb](Herb) that can be gathered with [Herbalism](Herbalism) (235).
 
 ## Source
 Blindweed can be found near stagnant water and along the shorelines of lakes and waterways in [Feralas](Feralas).
 
 ## Patch changes
--Patch 1.8.0: Blindweed has been increased in size, making it easier to see.
+- Patch 1.8.0: Blindweed has been increased in size, making it easier to see.

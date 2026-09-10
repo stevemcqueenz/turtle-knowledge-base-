@@ -10,16 +10,7 @@ categories: ["Booty Bay", "Inns", "Stranglethorn Vale subzones", "Taverns"]
 ---
 # Salty Sailor Tavern
 
--The Salty Sailor Tavern** is the local tavern and [inn](inn) located in [Booty Bay](Booty Bay) and is run by [Innkeeper Skindle](Innkeeper Skindle).
+**The Salty Sailor Tavern** is the local tavern and [inn](inn) located in [Booty Bay](Booty Bay) and is run by [Innkeeper Skindle](Innkeeper Skindle).
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
--
+- - - - - - - - - -

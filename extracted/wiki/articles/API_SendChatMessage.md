@@ -57,7 +57,7 @@ Sends a chat message.
 ## Details
    Sends a chat message of the specified in 'msg' (ex. "Hey!"), to the system specified in 'system' ("SAY", "WHISPER", "EMOTE", "CHANNEL", "PARTY", "GUILD", "OFFICER", "YELL", "RAID", "RAID_WARNING", "AFK", "DND"), in the language specified in 'language' ("COMMON", "DARNASSIAN", "DWARVISH", "TAURAHE", "ORCISH", "GUTTERSPEAK", "DEMONIC", "DRACONIC", "KALIMAG", "TITAN", "GNOMISH"), to the player or channel specified in 'channel'(ex. "1", "Bob").
 
-  - *Notes***
+** *Notes***
 
    "AFK" and "DND" set your AFK or DND auto-reply. To cancel afk/dnd status, send another message to the same 'channel'.
 

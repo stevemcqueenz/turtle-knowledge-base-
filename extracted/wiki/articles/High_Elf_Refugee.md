@@ -23,7 +23,7 @@ categories: ["Alah'Thalas NPCs", "High elf characters", "Thalassian Highlands NP
 | sex | Both |
 | location | Brinthilien, Thalassian Highlands; Alah'Thalas |
 
--High Elf Refugees** can be found in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands) and in the high elven capital of [Alah'Thalas](Alah'Thalas).
+**High Elf Refugees** can be found in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands) and in the high elven capital of [Alah'Thalas](Alah'Thalas).
 
 ## Patch changes
 - (Patch 1.17.1|note=Moved from [Farstrider Lodge](Farstrider Lodge) in [Loch Modan](Loch Modan) to the new high elf starting zone at [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands).)

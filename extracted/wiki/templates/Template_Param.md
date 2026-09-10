@@ -10,14 +10,14 @@ categories: ["General wiki templates"]
 ---
 # Template:Param
 
--Description**
+**Description**
   A more flexable and styled replacement to  for template syntax display. Designed to be used inside .
 
-  -Syntax**
+**Syntax**
   
   *Note: This serves as its own example.*
 
-  -Parameters**
+**Parameters**
 
   ;1=:Parameter value type(s) or parameter name when *2=* is supplied.
   ;2=:Parameter value type(s).

@@ -10,11 +10,8 @@ categories: ["Gilneas subzones", "Turtle WoW content"]
 ---
 # Westgate Tower
 
--Westgate Tower** is an abandoned guard tower located just south of the [Ruins of Greyshire](Ruins of Greyshire) in [Gilneas](Gilneas). It is currently overrun by lingering undead from Greyshire.
+**Westgate Tower** is an abandoned guard tower located just south of the [Ruins of Greyshire](Ruins of Greyshire) in [Gilneas](Gilneas). It is currently overrun by lingering undead from Greyshire.
 
 ## NPCs
-- 
-- 
-
-## Patch changes
+- - ## Patch changes
 - (Patch 1.17.0|note=Added.)

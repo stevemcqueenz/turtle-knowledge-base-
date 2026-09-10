@@ -25,13 +25,13 @@ categories: ["Booty Bay characters", "Goblin characters", "Innkeepers", "Strangl
 | location | Booty Bay, Stranglethorn Vale |
 | status | Alive |
 
--Innkeeper Skindle** is a [goblin](goblin) [innkeeper](innkeeper) located in the [Salty Sailor Tavern](Salty Sailor Tavern) in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale).
+**Innkeeper Skindle** is a [goblin](goblin) [innkeeper](innkeeper) located in the [Salty Sailor Tavern](Salty Sailor Tavern) in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale).
 
 ## Quests
 - [quest: South Seas Delicacy] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Come in, come in. Just don't sit too close to the stove. It hasn't exploded yet today, but just to be safe I think you should sit elsewhere.
 
 ## External links

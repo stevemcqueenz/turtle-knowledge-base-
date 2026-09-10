@@ -26,7 +26,7 @@ categories: ["Forsaken characters", "Gilneas NPCs", "Innkeepers", "Quest givers"
 | location | Stillward Church, Gilneas |
 | status | Active |
 
--Dark Bishop Mordren** is a [Forsaken](Forsaken) innkeeper located in [Stillward Church](Stillward Church) in [Gilneas](Gilneas).
+**Dark Bishop Mordren** is a [Forsaken](Forsaken) innkeeper located in [Stillward Church](Stillward Church) in [Gilneas](Gilneas).
 
 ## Quests
 - [quest: Forsaken at the Church] 
@@ -38,7 +38,7 @@ categories: ["Forsaken characters", "Gilneas NPCs", "Innkeepers", "Quest givers"
 - [quest: Gift of the Dark Bishop] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 During my life it was I who looked after this church. I was murdered in cold blood by those that bear the emblem of this kingdom. It appears that I have been awoken from my slumber to serve a new purpose, and sever this purpose I shall.
 
 You will find no hostilities here, I may be Gilnean but I offer a chance to find solace inside the walls of my parish.

@@ -24,10 +24,10 @@ categories: ["Blacksmithing vendors", "Northwind NPCs", "Pages with broken file 
 | location | Crypt, Northwind |
 | status | Active |
 
--Count Femur** is a skeleton blacksmithing vendor located in a [Crypt](Crypt (Northwind)) in [Northwind](Northwind).
+**Count Femur** is a skeleton blacksmithing vendor located in a [Crypt](Crypt (Northwind)) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Nobody ever visits the Master and your presence here is already both disturbing and annoying. Please, I beg of you, whatever you need, make it quick.
 
 ## Patch changes

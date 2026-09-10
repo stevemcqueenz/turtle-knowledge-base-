@@ -24,7 +24,7 @@ categories: ["Grim Reaches NPCs", "Orc characters", "Quest givers", "Turtle WoW 
 | location | Shatterblade Post, Grim Reaches |
 | status | Alive |
 
--Far Seer Mothang** is an [orc](orc) [quest giver](quest giver) located in the outpost of [Shatterblade Post](Shatterblade Post) in the [Grim Reaches](Grim Reaches).
+**Far Seer Mothang** is an [orc](orc) [quest giver](quest giver) located in the outpost of [Shatterblade Post](Shatterblade Post) in the [Grim Reaches](Grim Reaches).
 
 ## Quests
 - [quest: Entranced Magic] 
@@ -34,7 +34,7 @@ categories: ["Grim Reaches NPCs", "Orc characters", "Quest givers", "Turtle WoW 
 - [quest: The Ritual of Uth'okk] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Can you feel the power here, it drifts upon the air, waiting to be seized. I must claim the magic that is here in Grim Reaches for the Horde. It speaks to me, and calls my name... I shall answer.
 
 ## Patch changes

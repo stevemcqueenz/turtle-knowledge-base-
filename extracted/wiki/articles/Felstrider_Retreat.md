@@ -13,10 +13,4 @@ categories: ["Blood elf territories", "Pages with broken file links", "Thalassia
 The **Felstrider Retreat** is a fortified mountain fortress nestled in the western [Thalassian Highlands](Thalassian Highlands). It is inhabited by remnants of [Kael'thas Sunstrider](Kael'thas Sunstrider)'s forces that did not accompany the [Illidari](Illidari) to [Northrend](Northrend), now led by Viceroy [Eldin Sunstrider](Eldin Sunstrider) as they await word from their Prince.
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
-  - 
--
+- - - - - - *

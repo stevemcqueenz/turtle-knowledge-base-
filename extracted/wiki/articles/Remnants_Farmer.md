@@ -24,7 +24,7 @@ categories: ["Human characters", "Lordaeron (kingdom)", "Tirisfal Glades mobs", 
 | gender | Male |
 | location | The Garrick Stead, Tirisfal Glades |
 
--Remnants Farmers** are humans found at the [Garrick Stead](Garrick Stead) in [Tirisfal Glades](Tirisfal Glades).
+**Remnants Farmers** are humans found at the [Garrick Stead](Garrick Stead) in [Tirisfal Glades](Tirisfal Glades).
 
 ## Objective of
 - [quest: Attack from the Inside]

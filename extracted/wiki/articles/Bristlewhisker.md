@@ -15,9 +15,4 @@ The **Bristlewhisker** are a group of kobolds found at the [Bristlewhisker Caver
 Recently, the Bristlewhisker stole the [Ambershire Church](Ambershire Church)'s remaining [Amber Candle](Amber Candle)s. (ref: [quest: To Light the Afterlife]) Other Bristlewhisker kobolds were enslaved by the [Dark Iron clan](Dark Iron clan) and put to work in [Sherwood Quarry](Sherwood Quarry) by [Overseer Bragordi](Overseer Bragordi). (ref: [Maltorius' Missive](Maltorius' Missive))
 
 ## Members
-- 
-- 
-- 
-- 
-
-## References
+- - - - ## References

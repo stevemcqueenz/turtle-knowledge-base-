@@ -10,7 +10,7 @@ categories: ["Furbolg territories", "Hyjal subzones", "Stubs", "Turtle WoW conte
 ---
 # Barkskin Village
 
--Barkskin Village** is an area located at [Hyjal](Hyjal).
+**Barkskin Village** is an area located at [Hyjal](Hyjal).
 
 ## Patch changes
 - (Patch 1.17.0|note=Added.)

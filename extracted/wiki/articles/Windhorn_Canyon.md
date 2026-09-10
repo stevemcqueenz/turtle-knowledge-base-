@@ -24,7 +24,7 @@ categories: ["Dungeons", "Thousand Needles", "Turtle WoW content", "Valleys", "W
 | players | 5 |
 | bosses |  |
 
--Windhorn Canyon** is an instance dungeon in [Thousand Needles](Thousand Needles). This ancient canyon has been home to many tauren tribes who have in years past fought for the dominance of its flowing waters and shelter from the dangers of Kalimdor. The cultures and traditions of many have lived within Windhorn Canyon, which can be seen from the ancient shelters carved into the mountainside, to the relics coveted by the Tauren. As of recently the Windhorn Tauren were expelled and driven away by the Grimtotem who have conquered it, and claimed it for their own.
+**Windhorn Canyon** is an instance dungeon in [Thousand Needles](Thousand Needles). This ancient canyon has been home to many tauren tribes who have in years past fought for the dominance of its flowing waters and shelter from the dangers of Kalimdor. The cultures and traditions of many have lived within Windhorn Canyon, which can be seen from the ancient shelters carved into the mountainside, to the relics coveted by the Tauren. As of recently the Windhorn Tauren were expelled and driven away by the Grimtotem who have conquered it, and claimed it for their own.
 
 ## Geography
 ### Maps and subregions
@@ -34,10 +34,10 @@ WorldMap-WindhornCanyon.jpg|Interior
 </gallery>
 
 ## Dungeon denizens
--  [Tauren](Tauren)
--  [Air elemental](Air elemental)s
--  [Wind serpent](Wind serpent)s
--  [Scorpid](Scorpid)s
+- [Tauren](Tauren)
+- [Air elemental](Air elemental)s
+- [Wind serpent](Wind serpent)s
+- [Scorpid](Scorpid)s
 
 ## Quest guide
 {| class="fandom-table"

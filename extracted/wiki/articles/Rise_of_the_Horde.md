@@ -12,7 +12,7 @@ categories: ["History of Warcraft", "In-Game Books"]
 
 <B style="font-weight:normal;background-color:#2b2b2b;">[  [Source Text](WoWWiki:Article_type)  ]</B>
 
--Rise of the Horde* is a section of the [History of Warcraft](History of Warcraft), Chapter III. It is also available as an [in-game book](:Category:In-Game Books).
+*Rise of the Horde* is a section of the [History of Warcraft](History of Warcraft), Chapter III. It is also available as an [in-game book](:Category:In-Game Books).
 
 Found at:
 - [Hall of Explorers](Hall of Explorers) in [Ironforge](Ironforge).

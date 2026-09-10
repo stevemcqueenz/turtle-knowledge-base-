@@ -10,4 +10,4 @@ categories: ["Flats", "Gnoll territories", "Redridge Mountains subzones", "Valle
 ---
 # Galardell Valley
 
--Galardell Valley** is located in the northeastern part of the [Redridge Mountains](Redridge Mountains). It is the location of the infamous [Tower of Ilgalar](Tower of Ilgalar) where the evil [Morganth](Morganth) dwells. The valley is crawling with [gnoll](gnoll)s, and the most powerful of these is [Lieutenant Fangore](Lieutenant Fangore), who can dispatch an unprepared group of adventurers by calling to the nearby gnolls for help.
+**Galardell Valley** is located in the northeastern part of the [Redridge Mountains](Redridge Mountains). It is the location of the infamous [Tower of Ilgalar](Tower of Ilgalar) where the evil [Morganth](Morganth) dwells. The valley is crawling with [gnoll](gnoll)s, and the most powerful of these is [Lieutenant Fangore](Lieutenant Fangore), who can dispatch an unprepared group of adventurers by calling to the nearby gnolls for help.

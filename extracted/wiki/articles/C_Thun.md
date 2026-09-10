@@ -35,20 +35,20 @@ Interesting fact: The name C'thun bears a resemblance to Cthulhu of H.P. Lovecra
 ### Phase 1
 Eye of C'thun : 1-1,5~ Million hitpoints.
 
-  -Eye Beam**
+**Eye Beam**
 (the green beam) 2625 - 3375 Nature damage. Eye of C'thun casts one every 2 seconds, if other players are standing close to the affected player the beam gets linked(range seems to be somewhere around 10 yards) and damage doubled, for each additional link after that the damage gets doubled again and so on, so spreading out is key. Seems to be the person at the top of the hate list,. You can partially resist the damage up to 75%.
 
 Example of eye beam hitting in the center of the raid:
 
 http://retributionguild.net/img/20022006/cthundmg.jpg
 
-  -Dark glare**
+**Dark glare**
 
 C'thun does a Dark Glare (the red beam) for 43750-56250 Shadow damage on the players that gets hit. Seems to be random target. Can move both clockwise/counter-clockwise around the room for 180 degrees at a slow pace, move away! He waits 40 seconds before he begins to cast it, the Dark glare lasts for another 40 seconds and then he waits again and so on. This attack is usually insta kill.
 
 http://img205.imageshack.us/img205/6973/attack14aw.jpg
 
-  - Claw Tentacles**
+** Claw Tentacles**
 At around 90% health he will start spawning 8 Claw tentacles every 45 seconds or so. They spawn in a circle around him. These eyes have a Mind Flay(you can counterspell + interrupt and stun them to prevent mind flay) that does 750 damage a tick. It is random target. They do something like 200~ melee damage to targets close to them. They also do a one-time knockback when they are spawned called Ground Rupture for 1350 - 1650 damage. The Eye Tentacles have around 2000 health. 
 
 http://img455.imageshack.us/img455/9839/attack27ww.jpg

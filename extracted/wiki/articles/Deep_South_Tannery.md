@@ -10,4 +10,4 @@ categories: ["Booty Bay shops"]
 ---
 # Deep South Tannery
 
--Deep South Tannery** is a warehouse located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale).
+**Deep South Tannery** is a warehouse located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale).

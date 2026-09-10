@@ -51,9 +51,9 @@ Good.
 Still... their true leaders remain. And until they fall, the Tideblade will not abandon these ruins.
 
 ## Progression
-1.[quest: Scales of the Tideblade]
-1.[quest: Serpents Without Heads]
-1.[quest: Word to the High Priestess]
+1. [quest: Scales of the Tideblade]
+1. [quest: Serpents Without Heads]
+1. [quest: Word to the High Priestess]
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

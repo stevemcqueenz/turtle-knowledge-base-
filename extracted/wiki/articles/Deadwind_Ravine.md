@@ -10,4 +10,4 @@ categories: ["Deadwind Pass subzones", "Valleys"]
 ---
 # Deadwind Ravine
 
--Deadwind Ravine** is a craggy cleft running through the mountains south towards [Karazhan](Karazhan) in [Deadwind Pass](Deadwind Pass). The western road runs through the ravine on the upper level, and at the end of the area lies the southern bridge nearby the ominous tower.
+**Deadwind Ravine** is a craggy cleft running through the mountains south towards [Karazhan](Karazhan) in [Deadwind Pass](Deadwind Pass). The western road runs through the ravine on the upper level, and at the end of the area lies the southern bridge nearby the ominous tower.

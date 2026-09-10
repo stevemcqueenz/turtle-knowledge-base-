@@ -10,7 +10,7 @@ categories: ["Lapidis Isle subzones", "Reefs", "Turtle WoW content", "Wreckages"
 ---
 # Shank's Reef
 
--Shank's Reef** is a reef located in [Lapidis Isle](Lapidis Isle). It is the site of the wreckage of the *[Tidemaster](Tidemaster)*, one of the ships that was a part of the stranded [Kul Tiran Exploratory Fleet](Kul Tiran Exploratory Fleet).
+**Shank's Reef** is a reef located in [Lapidis Isle](Lapidis Isle). It is the site of the wreckage of the *[Tidemaster](Tidemaster)*, one of the ships that was a part of the stranded [Kul Tiran Exploratory Fleet](Kul Tiran Exploratory Fleet).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

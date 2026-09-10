@@ -25,7 +25,7 @@ categories: ["Gilneas NPCs", "Human characters", "Politicians", "Quest givers", 
 | location | Ravenshire, Gilneas |
 | status | Alive |
 
--Magistrate Carson** is a [human](human) [quest giver](quest giver) located in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
+**Magistrate Carson** is a [human](human) [quest giver](quest giver) located in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
 
 ## Quests
 - [quest: Hollow Web Silk] 

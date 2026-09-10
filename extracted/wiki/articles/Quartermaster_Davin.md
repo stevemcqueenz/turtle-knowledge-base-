@@ -25,7 +25,7 @@ categories: ["Human characters", "Quest givers", "Swamp of Sorrows NPCs", "Turtl
 | status | Alive |
 | gender | Male |
 
--Quartermaster Davin** is a [human](human) [quest giver](quest giver) located in [Sorrowguard Keep](Sorrowguard Keep) in the [Swamp of Sorrows](Swamp of Sorrows).
+**Quartermaster Davin** is a [human](human) [quest giver](quest giver) located in [Sorrowguard Keep](Sorrowguard Keep) in the [Swamp of Sorrows](Swamp of Sorrows).
 
 ## Quests
 - [quest: Food Improvision] 

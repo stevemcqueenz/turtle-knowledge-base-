@@ -10,4 +10,4 @@ categories: ["Camps", "Human territories", "Pages with broken file links", "Sear
 ---
 # Tanner Camp
 
--Tanner Camp** is a small [camp](camp) in the [Searing Gorge](Searing Gorge) where [Sarah Tanner](Sarah Tanner), the master elemental [leatherworker](leatherworker) for the [Alliance](Alliance), lives. Behind her tent is a long, sprawling passageway that leads to the [thunder lizard](thunder lizard) [Margol the Rager](Margol the Rager).
+**Tanner Camp** is a small [camp](camp) in the [Searing Gorge](Searing Gorge) where [Sarah Tanner](Sarah Tanner), the master elemental [leatherworker](leatherworker) for the [Alliance](Alliance), lives. Behind her tent is a long, sprawling passageway that leads to the [thunder lizard](thunder lizard) [Margol the Rager](Margol the Rager).

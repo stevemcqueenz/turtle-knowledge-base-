@@ -33,14 +33,14 @@ categories: ["Alliance quest hubs", "Alliance settlements", "Dwarf territories",
 | class | No |
 | status | Active |
 
--Thelsamar** is a [dwarven](Dwarf) town on the west side of [Loch Modan](Loch Modan), located north of [Grizzlepaw Ridge](Grizzlepaw Ridge) and northeast of [Stonesplinter Valley](Stonesplinter Valley). The town has a [gryphon](gryphon) roost, an [inn](Stoutlager Inn), and several vendors and profession trainers. A north-south road runs just west of town, leading to the passes into [Dun Morogh](Dun Morogh) and the [Wetlands](Wetlands).
+**Thelsamar** is a [dwarven](Dwarf) town on the west side of [Loch Modan](Loch Modan), located north of [Grizzlepaw Ridge](Grizzlepaw Ridge) and northeast of [Stonesplinter Valley](Stonesplinter Valley). The town has a [gryphon](gryphon) roost, an [inn](Stoutlager Inn), and several vendors and profession trainers. A north-south road runs just west of town, leading to the passes into [Dun Morogh](Dun Morogh) and the [Wetlands](Wetlands).
 
 ## Travel connections
 ### Flight
-  - [Ironforge](Ironforge), [Dun Morogh](Dun Morogh)**
-  - [Menethil Harbor](Menethil Harbor), [Wetlands](Wetlands)**
-  - [Dun Kithas](Dun Kithas), [Grim Reaches](Grim Reaches)**
-  - [Refuge Pointe](Refuge Pointe), [Arathi Highlands](Arathi Highlands)**
-  - [Thorium Point](Thorium Point), [Searing Gorge](Searing Gorge)**
+** [Ironforge](Ironforge), [Dun Morogh](Dun Morogh)**
+** [Menethil Harbor](Menethil Harbor), [Wetlands](Wetlands)**
+** [Dun Kithas](Dun Kithas), [Grim Reaches](Grim Reaches)**
+** [Refuge Pointe](Refuge Pointe), [Arathi Highlands](Arathi Highlands)**
+** [Thorium Point](Thorium Point), [Searing Gorge](Searing Gorge)**
 
 ## Inhabitants

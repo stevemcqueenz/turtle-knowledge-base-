@@ -38,7 +38,7 @@ Now you see the truth, mortal—clear as the moon over the frozen peaks. This sk
 Whatever foul purpose brought him to Grim Hollow, it festers like a wound—and if left unchecked, its rot will spread. These swamps, already choked with corruption, are but the beginning. Mark my words: the magic he weaves will not stop here. It will slither beyond the Hollow... to Dun Kithas, and perhaps even farther, poisoning the land, the skies, the very soul of Khaz Modan.
 
 ## Notes
-  -Speaking with Sarthyss**
+**Speaking with Sarthyss**
 
   After the civil war between the Bronzebeards, Dark Irons and Wildhammer clan, Thane Khardros of the Wildhammers led his people northward, passing through the barrier gates of Dun Algaz to forge a new kingdom within the mighty mountain of Grim Batol.
 

@@ -10,4 +10,4 @@ categories: ["Stubs", "World of Warcraft mounts"]
 ---
 # Racial mount
 
--Racial mounts** are ground [mount](mount)s associated with the playable races.  They can be purchased from vendors.
+**Racial mounts** are ground [mount](mount)s associated with the playable races.  They can be purchased from vendors.

@@ -25,10 +25,10 @@ categories: ["Moonwhisper Coast NPCs", "Turtle WoW content", "Withered character
 | status | Alive |
 | relatives | Netharas (brother) |
 
--Kallion Dawnstrike** is a [withered](withered) located in [Sunsworn Camp](Sunsworn Camp) in [Moonwhisper Coast](Moonwhisper Coast).
+**Kallion Dawnstrike** is a [withered](withered) located in [Sunsworn Camp](Sunsworn Camp) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Apologies for my brother... he still hasn't come to terms with... this. The hunger gnaws at him, as it does at many of us. That is why we are here, actually. In Alah'thalas, many believe these crystals - yes, those crystals - might turn back the withering, might yet save us all.
 
 <Kallion laughs hysterically.>

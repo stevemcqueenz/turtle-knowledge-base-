@@ -22,10 +22,10 @@ categories: ["Critters", "House cats", "Northwind NPCs", "Turtle WoW content"]
 | faction | Neutral |
 | location | Ambershire, Northwind |
 
--Monkey** is a [house cat](house cat) that can be found running through the leaf piles in [Ambershire](Ambershire) in [Northwind](Northwind).
+**Monkey** is a [house cat](house cat) that can be found running through the leaf piles in [Ambershire](Ambershire) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 <Monkey zooms around in a circle from pile to pile.>
 
   > Gossip: *Pet Monkey.*

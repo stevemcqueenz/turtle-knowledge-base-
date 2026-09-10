@@ -38,7 +38,7 @@ Although incapable of casting spells, Farabert's extensive reading has given him
 (**Note:** *Most of the public’s knowledge regarding Farabert’s exploits is derived from **The Lay of Sir Farabert**, composed by the bard **Perinya of Highvale**; the veracity of details is left to the reader’s own discernment.*)
 
 ### The Lay of Sir Farabert
-  -I.**
+**I.**
 
 O'er stony heights the eagles fly,
 
@@ -56,7 +56,7 @@ Since peril haunts the highland glen,
 
 This bleeding realm holds no spare men.
 
-  -II.**
+**II.**
 
 From sires of old, this law he kept,
 
@@ -74,7 +74,7 @@ While lesser men in comfort slept:
 
 "A living shield, let come what may."
 
-  -III.**
+**III.**
 
 When two times seven winters passed,
 
@@ -92,7 +92,7 @@ He shared the Prince's youthful spring,
 
 But found more favor with the King;
 
-  -IV.**
+**IV.**
 
 Where unshackled Horde in rage cry,
 
@@ -110,7 +110,7 @@ To guard the crown, to hold the light,
 
 “I bid thee now: Arise, Sir Knight!"
 
-  -V.**
+**V.**
 
 When Lordaeron to shadow fell,
 
@@ -128,7 +128,7 @@ King Thoras spoke with heavy heart,
 
 "In south his glory shall ne’er fade."
 
-  -VI.**
+**VI.**
 
 Alone he braved the gates of rot,
 
@@ -146,7 +146,7 @@ No thief had dared to claim the gold,
 
 Where only rot and silence hold.
 
-  -VII.**
+**VII.**
 
 He wrapped the gold in cloak of red,
 
@@ -164,7 +164,7 @@ But firm of will he would not hear,
 
 Until he smelt the sea-salt near.
 
-  -VIII.**
+**VIII.**
 
 He found a ship of humble name,
 
@@ -182,7 +182,7 @@ But fast he held the sacred crown,
 
 Against the waves that sought to drown.
 
-  -IX.**
+**IX.**
 
 He woke upon a silken bed,
 
@@ -200,7 +200,7 @@ For seven days she watched his breath,
 
 And drew him from the gates of death.
 
-  -X.**
+**X.**
 
 With wit as deep as mercy’s flow,
 
@@ -218,7 +218,7 @@ As moon and star, with mingled grace,
 
 Effuse their light in night’s embrace.
 
-  -XI.**
+**XI.**
 
 As sunlight pierced the silent shade,
 
@@ -236,7 +236,7 @@ To make her name in honor grow—
 
 Seven foul drakes shall cease to be."
 
-  -XII.**
+**XII.**
 
 To Stormwind's gates of marble white,
 
@@ -254,7 +254,7 @@ Where tides do wash the Lion's land.
 
 For deeds the son has wrought awry."
 
-  -XIII.**
+**XIII.**
 
 To Homeland came the victor knight,
 
@@ -272,7 +272,7 @@ He drew his sword before the throne,
 
 "E'en Arthas made his treason known!"
 
-  -XIV.**
+**XIV.**
 
 Comrades of blood now choose their sides,
 
@@ -290,7 +290,7 @@ I swear no oath to tainted throne,
 
 So guard the folk you call your own.”
 
-  -XV.**
+**XV.**
 
 From Highland gates he rode apart,
 
@@ -308,7 +308,7 @@ He shielded innocents in the strife,
 
 And led them in the fight for life.
 
-  -XVI.**
+**XVI.**
 
 By shattered spires of wise decree,
 
@@ -326,7 +326,7 @@ With beauteous mercy through the foam,
 
 They sailed the west and left their home.
 
-  -XVII.**
+**XVII.**
 
 The wind bore seeds across the main,
 
@@ -344,7 +344,7 @@ But weary folk should bear in mind,
 
 The shadows follow close behind.
 
-  -XVIII.**
+**XVIII.**
 
 The Crown of Heavens gave its call,
 
@@ -362,7 +362,7 @@ The first of first, the sword to wield,
 
 An eagle flies upon his shield.
 
-  -XIX.**
+**XIX.**
 
 The mountain shakes with hellish might,
 
@@ -380,7 +380,7 @@ Once nemesis, brothers in line,
 
 Against the demon's dark design.
 
-  -XX.**
+**XX.**
 
 Through hills of dead and rivers red,
 
@@ -398,7 +398,7 @@ The bleeding Knight, he grinned in fray,
 
 “That is the dragon first to slay!”
 
-  -XXI.**
+**XXI.**
 
 Upon the shattered, bleeding land,
 
@@ -416,7 +416,7 @@ A triumph rang through crimson sky,
 
 Amidst the rose a knight lay nigh.
 
-  -XXII.**
+**XXII.**
 
 A distant harp from moonlit dreams,
 
@@ -434,7 +434,7 @@ When moonlight laves in haven deep,
 
 The knight revives where ripples sweep.
 
-  -XXIII.**
+**XXIII.**
 
 In grove the knight his days did dream,
 
@@ -452,7 +452,7 @@ Nordrassil's leaf he took alone,
 
 The sole reward he'd call his own.
 
-  -XXIV.**
+**XXIV.**
 
 And so he journeyed far and wide,
 

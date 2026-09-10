@@ -49,47 +49,26 @@ The Armory, the center-right entrance, consists of five sections: the [Training 
 - **Training Grounds**
 
 |
--  
-  - 
--  
+- - *  
 |- valign=top class="alt"
 |
 - **Footman's Armory**
 
 |
--  
--  
--  
--  
-|- valign=top
+- - - - |- valign=top
 |
 - **Crusader's Armory**
 
 |
--  
--  
--  
--  
--  
-|- valign=top class="alt"
+- - - - - |- valign=top class="alt"
 |
 - **Warehouse**
-  - 
-
-|
--  
--  
--  
--  
--  
-|- valign=top
+  - |
+- - - - - |- valign=top
 |
 - **Hall of Champions**
-  - 
-
-|
-- 
-|- valign=top class="alt"
+  - |
+- |- valign=top class="alt"
 |}
 
 ## Quest guide
@@ -135,6 +114,6 @@ The Hall of Champions also has a collection of large statues of the order's most
 
 ## Patch changes
 - (Patch 1.17.2|note=New area and boss added: Armory Quartermaster Daghelm, the diligent maintainer of the warehouse and its resources, ready to deal with the enemies of the Crusade.)
--  **Patch 1.3.0 (2005-03-07):**
-  -Capped at ten players.
-  -Doors requiring the Scarlet Key can now also be opened with a Large Seaforium Charge in addition to the lockpick ability.
+- **Patch 1.3.0 (2005-03-07):**
+  - Capped at ten players.
+  - Doors requiring the Scarlet Key can now also be opened with a Large Seaforium Charge in addition to the lockpick ability.

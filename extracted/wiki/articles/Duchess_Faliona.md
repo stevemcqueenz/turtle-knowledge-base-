@@ -26,7 +26,7 @@ categories: ["Aristocrats", "Human characters", "Lordaeron (kingdom)", "Tirisfal
 | status | Killable |
 | relatives | Grelda (sister), Nargelas (brother-in-law) |
 
--Duchess Faliona Darlthos** is a [human](human) located at the [Remnants Camp](Remnants Camp) in [Tirisfal Glades](Tirisfal Glades).
+**Duchess Faliona Darlthos** is a [human](human) located at the [Remnants Camp](Remnants Camp) in [Tirisfal Glades](Tirisfal Glades).
 
 ## Objective of
 - [quest: Fall Of The Usurper] 

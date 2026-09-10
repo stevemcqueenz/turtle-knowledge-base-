@@ -10,7 +10,7 @@ categories: ["Hyjal subzones", "Passes", "Stubs", "Turtle WoW content"]
 ---
 # Darkhollow Pass
 
--Darkhollow Pass** is an area located at [Hyjal](Hyjal).
+**Darkhollow Pass** is an area located at [Hyjal](Hyjal).
 
 ## Patch changes
 - (Patch 1.17.0|note=Added.)

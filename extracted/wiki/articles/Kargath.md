@@ -32,7 +32,7 @@ categories: ["Badlands subzones", "Horde settlements", "Orc territories", "Turtl
 
 ''''
 
-  -Kargath** is a [Horde](Horde) in the western [Badlands](Badlands), named after the [Shattered Hand clan](Shattered Hand clan) chieftain [Kargath Bladefist](Kargath Bladefist). It was notable for having once been the only Horde outpost in [Khaz Modan](Khaz Modan), though it has since been joined by [Shatterblade Post](Shatterblade Post) in the [Grim Reaches](Grim Reaches).
+**Kargath** is a [Horde](Horde) in the western [Badlands](Badlands), named after the [Shattered Hand clan](Shattered Hand clan) chieftain [Kargath Bladefist](Kargath Bladefist). It was notable for having once been the only Horde outpost in [Khaz Modan](Khaz Modan), though it has since been joined by [Shatterblade Post](Shatterblade Post) in the [Grim Reaches](Grim Reaches).
 
 Kargath's [flight path](flight path) is very important because it linked the northern and the southern areas of Horde flight paths on the [Eastern Kingdoms](Eastern Kingdoms). It links [Hammerfall](Hammerfall) and the [Undercity](Undercity) in the north to [Grom'gol](Grom'gol), [Booty Bay](Booty Bay), and [Stonard](Stonard) in the south.
 
@@ -42,42 +42,20 @@ On the orders of Warchief [Thrall](Thrall) himself, the [Kargath Expeditionary F
 
 ## Travel connections
 ### Flight
-  - [Undercity](Undercity), [Tirisfal Glades](Tirisfal Glades)**
-  - [Hammerfall](Hammerfall), [Arathi Highlands](Arathi Highlands)**
-  - [Flame Crest](Flame Crest), [Burning Steppes](Burning Steppes)**
-  - [Stonard](Stonard), [Swamp of Sorrows](Swamp of Sorrows)**
-  - [Grom'gol Base Camp](Grom'gol Base Camp), [Stranglethorn Vale](Stranglethorn Vale)**
-  - [Thorium Point](Thorium Point), [Searing Gorge](Searing Gorge)**
-  - [Booty Bay](Booty Bay), [Stranglethorn Vale](Stranglethorn Vale)**
+** [Undercity](Undercity), [Tirisfal Glades](Tirisfal Glades)**
+** [Hammerfall](Hammerfall), [Arathi Highlands](Arathi Highlands)**
+** [Flame Crest](Flame Crest), [Burning Steppes](Burning Steppes)**
+** [Stonard](Stonard), [Swamp of Sorrows](Swamp of Sorrows)**
+** [Grom'gol Base Camp](Grom'gol Base Camp), [Stranglethorn Vale](Stranglethorn Vale)**
+** [Thorium Point](Thorium Point), [Searing Gorge](Searing Gorge)**
+** [Booty Bay](Booty Bay), [Stranglethorn Vale](Stranglethorn Vale)**
 
 ### Zeppelin
-  - [Orgrimmar](Orgrimmar), [Durotar](Durotar)**
+** [Orgrimmar](Orgrimmar), [Durotar](Durotar)**
 
 ## NPCs
 ### Quest givers
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-### Goods and services
-- 
-- 
-- 
-- 
-- 
-
-### Additional characters
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - - - - - - - ### Goods and services
+- - - - - ### Additional characters
+- - - - ## Patch changes
 - (Patch 1.16.0|note=Zeppelin to Orgrimmar added.)

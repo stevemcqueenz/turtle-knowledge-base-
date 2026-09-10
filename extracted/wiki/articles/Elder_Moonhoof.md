@@ -28,7 +28,7 @@ categories: ["Moonwhisper Coast NPCs", "Quest givers", "Tauren characters", "Tur
 | status | Alive |
 | relatives | Moonhoof the Younger (son) |
 
--Elder Moonhoof** is a [tauren](tauren) quest giver located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Elder Moonhoof** is a [tauren](tauren) quest giver located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: Hiding in the Shade] 
@@ -40,7 +40,7 @@ categories: ["Moonwhisper Coast NPCs", "Quest givers", "Tauren characters", "Tur
 - [quest: Rainhorn's Frustration] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The omens are clear, traveler. The eyes and tear of the Earthmother still bless our skies during the eternal cycle of night and day. And yet, they have grown distant from each other, much like our people. A time has come when sibling will fight sibling, when the very blood that unites us will be shed across the blue grass of our coast. It is a heavy cost and an even heavier burden. A future we need not know, but will.
 
 ## Patch changes

@@ -26,21 +26,21 @@ categories: ["Bosses", "Centaur characters", "Turtle WoW content", "Wailing Cave
 | status | Killable |
 | instance | Wailing Caverns |
 
--Zandara Windhoof** is a boss at the [Kolkar Falls](Kolkar Falls) within the [Wailing Caverns](Wailing Caverns).
+**Zandara Windhoof** is a boss at the [Kolkar Falls](Kolkar Falls) within the [Wailing Caverns](Wailing Caverns).
 
 ## Abilities
 - Chain Lightning
 - Gust of Wind
 
 ## Quotes
-  -Aggro**
+**Aggro**
   This is our birthright, you have no place here!
 
-  -Death**
+**Death**
   I will never learn the secrets...
 
 ## Objective of
--  [23D] [Against the Kolkar Dream](Against the Kolkar Dream)
+- [23D] [Against the Kolkar Dream](Against the Kolkar Dream)
 
 ## Loot
 - [Windborne Sash](Windborne Sash)

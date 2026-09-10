@@ -25,10 +25,10 @@ categories: ["Deceased characters", "Human characters", "Lumberjacks", "Northwin
 | status | Deceased |
 | relatives | Arnold (son) |
 
--Christoph** was a [human](human) lumberjack who worked at the [Northwind Logging Camp](Northwind Logging Camp) when it was raided by the [Defias Brotherhood](Defias Brotherhood). He was unable to flee from the bandits, which his friend [Old Hamilton](Old Hamilton) noted when he and his daughter Mirabelle were tending to the injured. Mirabelle sent an adventurer to find him for his son Arnold, but a **Mangled Corpse** was all that remained of him.
+**Christoph** was a [human](human) lumberjack who worked at the [Northwind Logging Camp](Northwind Logging Camp) when it was raided by the [Defias Brotherhood](Defias Brotherhood). He was unable to flee from the bandits, which his friend [Old Hamilton](Old Hamilton) noted when he and his daughter Mirabelle were tending to the injured. Mirabelle sent an adventurer to find him for his son Arnold, but a **Mangled Corpse** was all that remained of him.
 
 ## Quotes
-  -Gossip**
+**Gossip**
 This man is heavily mutilated. Stab wounds and twisted limbs make him almost unrecognizable.
 
 ## Objective of

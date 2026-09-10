@@ -44,8 +44,8 @@ A report from Bixxle himself? Give me that!
 My, that certainly is a relief! Without Bixxle, I would have no idea how to manage things up there. Thanks for the work kid. Here, take some coins for the hassle of running around.
 
 ## Progression
-1.[quest: Finding Bixxle!]
-1.[quest: A Report From Bixxle]
+1. [quest: Finding Bixxle!]
+1. [quest: A Report From Bixxle]
 
 ## Patch changes
 - (Patch 1.16.4|note=Added.)

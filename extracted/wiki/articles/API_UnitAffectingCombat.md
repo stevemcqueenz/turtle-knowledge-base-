@@ -32,5 +32,5 @@ Determine whether a unit is in combat or has aggro.
    Goes to false on death.
    Is false if the unit being checked for agro is out of range, or in another zone.
 
--Note: remains false if a unit is proximity-aggroed. It wont go true until it either attacks or is attacked.*
+*Note: remains false if a unit is proximity-aggroed. It wont go true until it either attacks or is attacked.*
 ----

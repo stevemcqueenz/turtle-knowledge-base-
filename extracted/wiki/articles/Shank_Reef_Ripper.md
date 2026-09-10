@@ -22,7 +22,7 @@ categories: ["Lapidis Isle mobs", "Turtle WoW content"]
 | location | Shank Reef, Lapidis Isle |
 | status | Killable |
 
--Shank Reef Rippers** are [frenzies](Frenzy (fish)) found in [Shank Reef](Shank Reef) in [Lapidis Isle](Lapidis Isle).
+**Shank Reef Rippers** are [frenzies](Frenzy (fish)) found in [Shank Reef](Shank Reef) in [Lapidis Isle](Lapidis Isle).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

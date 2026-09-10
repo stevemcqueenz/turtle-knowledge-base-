@@ -24,7 +24,7 @@ categories: ["Defias Brotherhood", "Human characters", "Northwind mobs", "Turtle
 | location | Northwind Logging Camp, Northwind |
 | status | Killable |
 
--Red Jenny** is a [human](human) located at [Northwind Logging Camp](Northwind Logging Camp) in [Northwind](Northwind).
+**Red Jenny** is a [human](human) located at [Northwind Logging Camp](Northwind Logging Camp) in [Northwind](Northwind).
 
 ## Abilities
 - Backhand

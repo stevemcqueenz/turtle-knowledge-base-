@@ -13,7 +13,7 @@ categories: ["Addon"]
 QuestItem helps you identify which quest a specific item belongs to, whether you've picked it up before or after installing the addon. It displays quest names, statuses, and item counts in tooltips and the item list, making it safer to destroy quest items once you're done.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **QuestItem** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **QuestItem** up to date is by using [GitAddonsManager](
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -30,30 +30,30 @@ If you prefer manual installation, follow these steps:
 # Unpack the <code>.zip</code> and rename the folder to <code>QuestItem</code>, removing the <code>-master</code> suffix.
 # Move the folder into your <code>Interface/AddOns</code> directory and restart the game.
 
-  -Optional**: [QuestHistory](https://github.com/GrenderG/QuestHistory)
+**Optional**: [QuestHistory](https://github.com/GrenderG/QuestHistory)
 
 ## Git Links
 - [**(wow-vanilla-addons)**](https://github.com/wow-vanilla-addons/QuestItem)
 
 ## Usage
-  -Access Configuration:**
+**Access Configuration:**
 
 - <code>/questitem</code> or <code>/qi</code> in chat to open the addon configuration menu.
 
-  -Manual Item Mapping:**
+**Manual Item Mapping:**
 
 - Shift + Right Click on an item in the list to manually set or change the quest association.
 
-  -Change Quest Status:**
+**Change Quest Status:**
 
 - Alt + Left Click on an item in the list to cycle through quest statuses (active, complete, abandoned).
 
-  -Tooltip Display Settings:**
+**Tooltip Display Settings:**
 
 - Enable/disable in the configuration menu whether quest info appears in item tooltips.
 - Choose to show/hide item counts in tooltips and list.
 
-  -Sorting & Display:**
+**Sorting & Display:**
 
 - Items can be sorted in the list.
 - Optionally display only items relevant to the current character.

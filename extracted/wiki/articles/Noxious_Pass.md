@@ -10,7 +10,7 @@ categories: ["Caves", "Eastern Plaguelands subzones", "Pages with broken file li
 ---
 # Noxious Pass
 
--The Noxious Pass** is a tunnel located in the [Eastern Plaguelands](Eastern Plaguelands). 
+**The Noxious Pass** is a tunnel located in the [Eastern Plaguelands](Eastern Plaguelands). 
 
 ## Patch changes
 -

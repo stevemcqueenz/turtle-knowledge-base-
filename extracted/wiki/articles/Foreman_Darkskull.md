@@ -26,7 +26,7 @@ categories: ["Foremen", "Gillijim's Isle mobs", "Orc characters", "Rare mobs", "
 | location | The Jade Mine, Gillijim's Isle |
 | status | Killable |
 
--Foreman Darkskull** is a rare [orc](orc) found at the [Jade Mine](Jade Mine) in [Gillijim's Isle](Gillijim's Isle).
+**Foreman Darkskull** is a rare [orc](orc) found at the [Jade Mine](Jade Mine) in [Gillijim's Isle](Gillijim's Isle).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

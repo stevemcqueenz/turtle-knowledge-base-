@@ -10,14 +10,8 @@ categories: ["Defias Brotherhood", "Human territories", "Lumber mills", "Northwi
 ---
 # Northwind Logging Camp
 
--Northwind Logging Camp** is a lumber mill camp located in northwestern [Northwind](Northwind), to the north of the [Jousting Grounds](Jousting Grounds). It has been overrun by members of the [Defias Brotherhood](Defias Brotherhood), and the surviving lumberjacks have fled to [Stillheart Port](Stillheart Port).
+**Northwind Logging Camp** is a lumber mill camp located in northwestern [Northwind](Northwind), to the north of the [Jousting Grounds](Jousting Grounds). It has been overrun by members of the [Defias Brotherhood](Defias Brotherhood), and the surviving lumberjacks have fled to [Stillheart Port](Stillheart Port).
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - - ## Patch changes
 - (Patch 1.18.0|note=Added.)

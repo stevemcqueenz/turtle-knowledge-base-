@@ -35,23 +35,23 @@ categories: ["Instance navigation templates"]
 [Zuluhed the Whacked](Zuluhed the Whacked (tactics))
 
 |
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
 ([lore](Zuluhed the Whacked))
 |-

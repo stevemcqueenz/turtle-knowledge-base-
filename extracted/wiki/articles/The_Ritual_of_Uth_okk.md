@@ -56,7 +56,7 @@ The Pendant of Uth'okk has been sapped of its power, but I am sure you can make 
 Farewell <class>.
 
 ## Notes
-  -On accept**
+**On accept**
   Far Seer Mothang begins the ritual.
   **Far Seer Mothang says:** I can feel the power flowing through my veins!
   *Far Seer Mothang turns red and increases in size.*

@@ -24,7 +24,7 @@ categories: ["Earthen Ring", "Moonwhisper Coast NPCs", "Quest givers", "Sand tro
 | location | Moonhoof Village, Moonwhisper Coast |
 | status | Alive |
 
--Uz'tuk** is a [sand troll](sand troll) quest giver located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Uz'tuk** is a [sand troll](sand troll) quest giver located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: What Upsets the Elements?] 
@@ -32,7 +32,7 @@ categories: ["Earthen Ring", "Moonwhisper Coast NPCs", "Quest givers", "Sand tro
 - [quest: In Water, Clarity] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The Earthen Ring has come to investigate the turbulent behavior of the local elementals. They are far too restless here. Blessed be the Loa, it keeps me away from the sand and dust for a while. As a sand troll, ever since our [Sandmoon Village](Sandmoon Village) joined the Horde, fleeing Tanaris was my greatest dream. Imagine my surprise when I reached Durotar and traded sand for dust. Even the Earthen Ring keeps its circle in Stonetalon. When all this is done, I might even ask the Moonhoof Tribe to let me stay.
 
 ## Patch changes

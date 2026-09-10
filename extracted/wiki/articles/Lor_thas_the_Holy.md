@@ -24,7 +24,7 @@ categories: ["High elf characters", "Paladin characters", "Paladin trainers", "Q
 | sex | Male |
 | location | Brinthilien, Thalassian Highlands |
 
--Lor'thas the Holy** is a [high elf](high elf) [paladin trainer](paladin trainer) located in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands).
+**Lor'thas the Holy** is a [high elf](high elf) [paladin trainer](paladin trainer) located in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands).
 
 ## Quests
 - [quest: Elegant Letter|class=paladin|race=HighElf] 
@@ -32,7 +32,7 @@ categories: ["High elf characters", "Paladin characters", "Paladin trainers", "Q
 - [quest: Paladin's Letter|class=paladin|race=HighElf] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 It is by the grace of the Light that we stand here today, and we will be the ones to defend our people against the Scourge and other threats. However, remember that justice is to be dealt fairly, not blindly guided by vengeance.
 
 ## Patch changes

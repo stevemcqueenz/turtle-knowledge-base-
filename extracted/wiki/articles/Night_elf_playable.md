@@ -20,12 +20,12 @@ For the [Alliance](Alliance), the [druid](druid) class is exclusive to the night
 
 ## Background
 ### Creation screen description
--Ten thousand years ago, the night elves founded a vast empire, but their reckless use of primal magic brought them to ruin. In grief, they withdrew to the forests and remained isolated there until the return of their ancient enemy, the Burning Legion. With no other choice, the night elves emerged at last from their seclusion to fight for their place in the new world.*
+*Ten thousand years ago, the night elves founded a vast empire, but their reckless use of primal magic brought them to ruin. In grief, they withdrew to the forests and remained isolated there until the return of their ancient enemy, the Burning Legion. With no other choice, the night elves emerged at last from their seclusion to fight for their place in the new world.*
 
 ### Opening cutscene
--For ten thousand years, the immortal night elves cultivated a druidic society within the shadowed recesses of Ashenvale Forest. Yet recently, the catastrophic invasion of the Burning Legion shattered the tranquility of their ancient civilization. Led by the Arch-Druid Malfurion Stormrage and the Priestess Tyrande Whisperwind, the mighty night elves rose to challenge the demonic onslaught. Though victorious, the night elves were forced to sacrifice their cherished immortality and watch their beloved forests burn. Seeking to regain their immortality, a number of wayward druids conspired to plant a special tree that would reestablish a link between their spirits and the eternal world. Despite Malfurion's warning that nature would never bless such a selfish act. The druids planted the great tree, Teldrassil, off the stormy coasts of northern Kalimdor. Among the twilight boughs of the colossal tree, the wondrous city of Darnassus took root.*
+*For ten thousand years, the immortal night elves cultivated a druidic society within the shadowed recesses of Ashenvale Forest. Yet recently, the catastrophic invasion of the Burning Legion shattered the tranquility of their ancient civilization. Led by the Arch-Druid Malfurion Stormrage and the Priestess Tyrande Whisperwind, the mighty night elves rose to challenge the demonic onslaught. Though victorious, the night elves were forced to sacrifice their cherished immortality and watch their beloved forests burn. Seeking to regain their immortality, a number of wayward druids conspired to plant a special tree that would reestablish a link between their spirits and the eternal world. Despite Malfurion's warning that nature would never bless such a selfish act. The druids planted the great tree, Teldrassil, off the stormy coasts of northern Kalimdor. Among the twilight boughs of the colossal tree, the wondrous city of Darnassus took root.*
 
--However, the great tree was not consecrated with nature's blessing and soon fell prey to the corruption of the Burning Legion. Now the wildlife and even the limbs of the great tree itself are tainted by a growing darkness. It is your sworn duty to defend Darnassus and the wild children of nature against the Legion’s encroaching corruption.*
+*However, the great tree was not consecrated with nature's blessing and soon fell prey to the corruption of the Burning Legion. Now the wildlife and even the limbs of the great tree itself are tainted by a growing darkness. It is your sworn duty to defend Darnassus and the wild children of nature against the Legion’s encroaching corruption.*
 
 ## Character
 ### Classes
@@ -57,4 +57,4 @@ For the [Alliance](Alliance), the [druid](druid) class is exclusive to the night
 
 ## Videos
 ## Patch changes
--  **[Patch 1.17.2](Patch 1.17.2) (2024-11-01):** Shadowmeld now persists for 2 seconds after being canceled or moving. Cooldown increased from 10 seconds to 1 minute.
+- **[Patch 1.17.2](Patch 1.17.2) (2024-11-01):** Shadowmeld now persists for 2 seconds after being canceled or moving. Cooldown increased from 10 seconds to 1 minute.

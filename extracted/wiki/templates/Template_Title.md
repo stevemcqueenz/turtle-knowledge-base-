@@ -11,5 +11,5 @@ categories: ["WoW utility templates"]
 # Template:Title
 
 <noinclude>Makes into title text like &lt;*title_text*&gt;.
-  -Usage:** &#123;&#123;title|*title_text*&#125;&#125; 
+**Usage:** &#123;&#123;title|*title_text*&#125;&#125; 
 </noinclude>{{#ifeq:{}|-||}}&lt;{}&gt;{{#ifeq:{}|-||}}

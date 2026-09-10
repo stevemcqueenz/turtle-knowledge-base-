@@ -28,7 +28,7 @@ categories: ["Bosses", "Gilneas City mobs", "Human characters", "Turtle WoW cont
 
 *This article is about the boss tactics. For the character biography, see [Genn Greymane](Genn Greymane).*
 
-  -Genn Greymane** is the king of the human nation of [Gilneas](Gilneas) and the final boss of [Gilneas City](Gilneas City).
+**Genn Greymane** is the king of the human nation of [Gilneas](Gilneas) and the final boss of [Gilneas City](Gilneas City).
 
 ## Abilities
 - Drain Life
@@ -37,13 +37,13 @@ categories: ["Bosses", "Gilneas City mobs", "Human characters", "Turtle WoW cont
 - Fear
 
 ## Quotes
-  -Aggro**
+**Aggro**
   My family has held power in Gilneas for countless generations. You will not change fate.
 
-  -At 50%**
+**At 50%**
   Our nation stands strong! I did what was necessary.
 
-  -Death**
+**Death**
   It... It was pointless after all, this cannot be the way I fall...
 
 ## Objective of

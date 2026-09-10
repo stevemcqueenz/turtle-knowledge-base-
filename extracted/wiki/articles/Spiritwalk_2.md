@@ -34,8 +34,8 @@ You will learn:
 Lo'sho is often misunderstood, but he is as much a part of the Earthmother as both of her eyes. Close your eyes and listen to our people's legends.
 
 ## Progression
-1.[quest: Spiritwalk|race=tauren|class=priest]
-1.[quest: Spiritwalk|race=tauren|class=priest]
+1. [quest: Spiritwalk|race=tauren|class=priest]
+1. [quest: Spiritwalk|race=tauren|class=priest]
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

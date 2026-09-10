@@ -25,15 +25,15 @@ categories: ["Night elf characters", "Quest givers", "Teldrassil NPCs", "Warrior
 | affiliation | Darnassus |
 | location | Aldrassil, Teldrassil |
 
--Alyissia** is a level 11 [warrior trainer](warrior trainer) located in [Aldrassil](Aldrassil) in the [night elf](night elf) starting zone, [Teldrassil](Teldrassil).
+**Alyissia** is a level 11 [warrior trainer](warrior trainer) located in [Aldrassil](Aldrassil) in the [night elf](night elf) starting zone, [Teldrassil](Teldrassil).
 
 See [List of Teldrassil NPCs](List of Teldrassil NPCs).
 
 ## Quotes
-  -Warrior **
+**Warrior **
 Greetings. Do you seek instruction in the art of war?
 
-  -Non-warrior**
+**Non-warrior**
 I do not see the warrior's spirit within you, child. I have no teachings that would benefit a <class> such as yourself.
 
 ## External links

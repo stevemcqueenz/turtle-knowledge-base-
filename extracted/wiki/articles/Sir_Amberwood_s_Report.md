@@ -10,12 +10,12 @@ categories: ["Quest items", "Readable items", "Turtle WoW content"]
 ---
 # Sir Amberwood's Report
 
--Sir Amberwood's Report** is acquired from [Sir Amberwood](Sir Amberwood).
+**Sir Amberwood's Report** is acquired from [Sir Amberwood](Sir Amberwood).
 
 ## As a quest objective
 - [quest: The Messenger Of Northwind]
 
 ## Contains
 ## Patch changes
--  **[Hotfix](https://forum.turtlecraft.gg/viewtopic.php?f=63&t=21191) (2025-08-20):** Corrected the text of Sir Amberwood's Report.
+- **[Hotfix](https://forum.turtlecraft.gg/viewtopic.php?f=63&t=21191) (2025-08-20):** Corrected the text of Sir Amberwood's Report.
 - (Patch 1.18.0|note=Added.)

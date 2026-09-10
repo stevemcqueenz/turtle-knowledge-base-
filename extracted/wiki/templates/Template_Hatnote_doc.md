@@ -14,10 +14,10 @@ The hatnotes used for adding links between articles where more context is import
 Broadly speaking, a hatnote should answer a readers' question: Am I on the right page?
 
 ## Usage
-  - Basic usage:**
+** Basic usage:**
  &#123;{hatnote|*text*}}
 
-  - All parameters:**
+** All parameters:**
  &#123;{hatnote|*text*|extraclasses=*extra classes*|selfref=*yes*|category=*no*}}
 
 ## Parameters
@@ -33,9 +33,9 @@ This template accepts the following parameters:
 ## Typical types
 ,  are very similar, but indicate either the primary page for a topic or more detailed related topic. They have a nearly identical set of parameters.
 
-  -: When an article is large, it often has a summary and a link to a main article. This template is used after the heading of the summary, to indicate a link to the subtopic article that has been summarized.**
-  -: Used to link to articles containing further information on this topic.**
-  -: Used to link to additional articles on related topics.**
+**: When an article is large, it often has a summary and a link to a main article. This template is used after the heading of the summary, to indicate a link to the subtopic article that has been summarized.**
+**: Used to link to articles containing further information on this topic.**
+**: Used to link to additional articles on related topics.**
 
   ;  →:
   ;  →:
@@ -46,7 +46,7 @@ This template accepts the following parameters:
 
 ## Disambiguation
 Templates such as  and  are to be used in cases where a disambiguation is not needed. In general, disambiguation pages should only be used for 4 or more titles that are mostly or entirely identical, except for a qualifier.
-  -: Links the reader to other articles with similar titles or concepts that they may have been seeking instead. The template has several formats, including:**
+**: Links the reader to other articles with similar titles or concepts that they may have been seeking instead. The template has several formats, including:**
   ; →:
   ; →:
   ; →:
@@ -63,7 +63,7 @@ Alternately, a <code>section=yes</code> parameter can be added to the  template 
 
 A <var>text</var> option adds text to the end; note that this should be only used when truly necessary, and the other hatnote templates listed below don't suffice. This template also supports <var>selfref</var>.
 
-  -: Provides links to up to four articles or disambiguation pages. It accepts zero to five parameters. **
+**: Provides links to up to four articles or disambiguation pages. It accepts zero to five parameters. **
 
   ;If used without parameters on a page named *Foo*, the result is
   
@@ -79,9 +79,7 @@ A <var>text</var> option adds text to the end; note that this should be only use
 
 ## Errors
 If no hatnote text is supplied, the template will output the following message:
-- 
-
-If you see this error message, it is for one of four reasons:
+- If you see this error message, it is for one of four reasons:
 # No parameters were specified (the template code was <code><nowiki></nowiki></code>). Please use <code><nowiki></nowiki></code> instead.
 # Some parameters were specified, but the hatnote text wasn't included. For example, the template text <code><nowiki></nowiki></code> will produce this error. Please use (for example) <code><nowiki></nowiki></code> instead.
 # The hatnote text was specified, but that text contains an equals sign ("="). The equals sign has a special meaning in template code, and because of this it cannot be used in template parameters that do not specify a parameter name. For example, the template code <code><nowiki></nowiki></code> will produce this error. To work around this, you can specify the parameter name explicitly by using <code>1=</code> before the hatnote text, like this: <code><nowiki></nowiki></code>.

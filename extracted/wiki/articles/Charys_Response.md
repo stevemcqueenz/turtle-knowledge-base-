@@ -42,7 +42,7 @@ Take it to the sailor, and let him know his actions are appreciated.
 ## Rewards
 You will receive:
 - 1100 XP
--+75 [reputation](reputation) with [Kul Tiras](Kul Tiras (faction))
+- +75 [reputation](reputation) with [Kul Tiras](Kul Tiras (faction))
 
 ## Progress
 Yes?

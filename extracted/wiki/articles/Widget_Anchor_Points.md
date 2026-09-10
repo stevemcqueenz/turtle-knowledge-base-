@@ -15,14 +15,14 @@ Note: when you bind just one "point" you only bind that "side" of the UI compone
 Therefore, unless you are an experienced UI hacker, use the positions that bind all sides.
 
 ## All sides
-  - TOPLEFT**
-  - TOPRIGHT**
-  - BOTTOMLEFT**
-  - BOTTOMRIGHT**
-  - CENTER**
+** TOPLEFT**
+** TOPRIGHT**
+** BOTTOMLEFT**
+** BOTTOMRIGHT**
+** CENTER**
 
 ## One side
-  - TOP**
-  - BOTTOM**
-  - LEFT**
-  - RIGHT**
+** TOP**
+** BOTTOM**
+** LEFT**
+** RIGHT**

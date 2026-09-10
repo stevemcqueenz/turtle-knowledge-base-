@@ -24,10 +24,10 @@ categories: ["Draenei characters", "Fruit vendors", "Moonwhisper Coast NPCs", "T
 | location | Moro'gai Village, Moonwhisper Coast |
 | status | Alive |
 
--Bogtu** is a [draenei](draenei) fruit vendor located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Bogtu** is a [draenei](draenei) fruit vendor located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 My display of fruits is scarce, but their taste is immaculate regardless.
 
 ## Patch changes

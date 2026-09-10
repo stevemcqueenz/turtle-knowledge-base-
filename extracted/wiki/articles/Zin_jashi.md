@@ -25,13 +25,13 @@ categories: ["Durotar NPCs", "Forest troll characters", "Quest enders", "Turtle 
 | location | The Den, Durotar |
 | status | Alive |
 
--Zin'jashi** is a [forest troll](forest troll) warlock trainer located in [the Den](the Den) in [Durotar](Durotar).
+**Zin'jashi** is a [forest troll](forest troll) warlock trainer located in [the Den](the Den) in [Durotar](Durotar).
 
 ## Quests
 - [quest: Tainted Tablet|race=troll|class=warlock] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 What a weird place, mon. I much prefer wall of Zul'Aman to... this.
 
 If ya be needing training, I be here.

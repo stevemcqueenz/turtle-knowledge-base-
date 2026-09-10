@@ -35,7 +35,7 @@ __TOC__
 
 4. Continue verificando sua conta e siga as instruções com base no seu sistema operacional.
 
-  -Importante**
+**Importante**
 - Operadores, administradores e Gm's nunca solicitarão senhas de contas em nenhuma circunstância.
 - Você precisa se lembrar do nome de usuário e da senha; essas credenciais serão as que você usará para fazer login no cliente do jogo.
 - Você também precisa se lembrar do seu e-mail, o que permitirá ações futuras, como recuperar sua conta, alterar credenciais ou manter-se atualizado por meio de comunicação oficial da equipe em caso de alterações importantes.
@@ -63,7 +63,7 @@ Duas opções comuns são Parallels e VMware Fusion. O Parallels é um software 
 
 2. Depois de configurar sua máquina virtual do Windows, baixe o cliente Turtle WoW dentro desta máquina virtual e siga as instruções para [Windows](#Windows).
 
-  -Importante**
+**Importante**
 - No Parallels, você pode receber um erro imediatamente após entrar no mundo ou ao abrir o menu de opções de vídeo. Isso pode ser corrigido instalando a correção do menu suspenso de resolução de tela (screen resolution dropdown fix), que você pode baixar aqui. [Clique aqui](https://github.com/veechs/ScreenResolutionDropdownFix).
 
 <p style="margin: 0">[Voltar ao índice](#Índice_de_Conteúdo)</p>
@@ -75,7 +75,7 @@ Turtle WoW incorpora sistemas exclusivos que enriquecem a experiência do jogo, 
 #### O que é diplomacia?
 Diplomacia é um recurso exclusivo do Turtle WoW que permite que jogadores da Horda e da Aliança se agrupem, negociem e se comuniquem entre si. Um jogador pode se tornar um diplomata falando com um NPC no Distrito Comercial de Stormwind (perto do banco) ou no Vale da Força em Orgrimmar (na taverna).
 
-  -Importante**
+**Importante**
 - A diplomacia não torna os personagens não-jogadores (NPCs) amigáveis com você. Você ainda será atacado por guardas se tentar entrar em uma cidade da facção oposta.
 
 <p style="margin: 0">[Voltar ao índice](#Índice_de_Conteúdo)</p>
@@ -89,7 +89,7 @@ Com o uso do sistema diplomático, Paladinos e Xamãs podem estar no mesmo grupo
 - **Salvação (Salvation)**: Totem do Ar Sereno (Tranquil Air).
 - **Santuario (Sanctuary)**: Totens Guardiões (Stoneskin).
 
-  -Importante**
+**Importante**
 - As auras de resistência e os totens do mesmo elemento não stackam, embora os totens não eliminem as auras. Stackar (Stack) é um termo usado em jogos, significa que os diferentes bônus podem ser somados.
 
 ### Escalonamento de Invasões
@@ -99,7 +99,7 @@ Os desenvolvedores implementaram o escalonamento de invasões (“Raid Scaling�
 - A escalonamento está ativado apenas em áreas de instância. Isto significa que os chefes mundiais, como Azuregos e Lord Kazzak, não são afetados por este sistema.
 - O escalonamento conta apenas aqueles que estão dentro da instância (“instance”). Se um membro da masmorra estiver fora da instância ou off-line, ele não será contabilizado no total de escalonamento.
 
-  -Importante**
+**Importante**
 - O sistema de Escalonamento existe para que os jogadores em grupos e guildas menores de jogadores consigam acompanhar todo o conteúdo do jogo. Entretanto é importante ressaltar que está ferramenta não deve ser usada de desculpa para excluir jogadores dos seus grupos, ainda mais sendo jogadores bons experientes, pois este é um jogo social e pessoas não devem ser excluídas (ou não convidadas) em grupos com espaço. Afinal, a maior parte da diversão de fazer invasões (“raids”) vem de passar algum tempo juntos, não apenas de se ajustar à dificuldade do conteúdo.
 
 <p style="margin: 0">[Voltar ao índice](#Índice_de_Conteúdo)</p>
@@ -111,8 +111,8 @@ Os desenvolvedores implementaram o escalonamento de invasões (“Raid Scaling�
 #### Como funciona?
 Para participar do desafio, crie um personagem nível 1, e antes de atingir o level 2 procure o NPC chamado **Mysterious Stranger** no seu local inicial. Aceite e complete a missão "Fique um pouco e ouça..." para se tornar mortal.
 
-  -Importante**
--Esta decisão é irreversível. Suas bolsas, banco e itens de correspondência serão excluídos quando você se tornar mortal.
+**Importante**
+- Esta decisão é irreversível. Suas bolsas, banco e itens de correspondência serão excluídos quando você se tornar mortal.
 - Você entrará automaticamente em um canal de bate-papo Hardcore ao qual apenas jogadores dos modos Hardcore e Inferno terão acesso, o que o ajudará a encontrar facilmente outros jogadores que também estão jogando com personagens hardcore. Este recurso permite que você forme grupos independentes sem perder contato com a comunidade Hardcore mais ampla.
 
 #### O que é o Modo Inferno?
@@ -127,7 +127,7 @@ Também conhecido como HC60, este é o desafio Hardcore definitivo! Ao atingir o
 # Multiboxing é estritamente proibido se algum de seus personagens estiver fazendo um desafio Hardcore.
 # Personagens Hardcore não podem receber ajuda de jogadores fora do seu grupo.
 
-  -Importante**
+**Importante**
 - Personagens hardcore falecidos não serão restaurados **por qualquer motivo**, incluindo problemas de conexão, bugs, aquecimento global, um irmão mais novo ou qualquer outro motivo.
 - Quando seu personagem morrer, o jogo terminará para você. Se você decidir criar e interpretar um personagem hardcore, faça isso por sua própria conta e risco.
 - Contanto que você não morra, nivele os personagens com nivel <code>10</code> ou superior serão exibidos em nossa tabela de classificação.
@@ -146,32 +146,32 @@ Conhecido pelo nome “Slow and Stead”, este é um desafio desenvolvido para j
 - As taxas de experiência em masmorras permanecem em <code>x1.0</code> apenas grupos, para encorajar os jogadores a se agruparem e fazerem atividades socais.
 
 #### Recompensas
-  -Nivel 10**
+**Nivel 10**
 - <code>x5</code> Fashion Coin
 - <code>x1</code> Camiseta de linho confeccionada
 - <code>x1</code> Bolso para cinto de aventureiro
 
-  -Nivel 20**
+**Nivel 20**
 - <code>x5</code> Fashion Coin
 - <code>x1</code> Tocha do Caçador de Tesouros
 - <code>x1</code> Leitão Preto
 
-  -Nivel 30**
+**Nivel 30**
 - <code>x5</code> Fashion Coin
 - <code>x1</code> Ídolo Ogro Esculpido
 - <code>x1</code> Mochila do Aventureiro
 
-  -Nivel 40**
+**Nivel 40**
 - <code>x5</code> Fashion Coin
 - <code>x1</code> Fogos de Artifício Eternos
 
-  -Nivel 50**
+**Nivel 50**
 - <code>x5</code> Fashion Coin
 - <code>x1</code> Terky
 - <code>x1</code> Mochila do Aventureiro
 - <code>x1</code> Ilusão: Murloc
 
-  -Nivel 60**
+**Nivel 60**
 - <code>x5</code> Fashion Coin
 - <code>x200</code> Tokens
 - <code>x1</code> Espada das Mil Verdades
@@ -188,7 +188,7 @@ Você será forçado a usar apenas equipamentos de qualidade ruim ou comum até 
 - Título de "O Vagabundo".
 - Uma mula para carregar todos os seus bens não tão valiosos.
 
-  -Importante**
+**Importante**
 - Se você decidir jogar aceitando o desafio, não poderá encantar itens. Além disso, você não será capaz de equipar itens de qualidade incomum (verdes) por mais que tente, e esse desavio pode ser cancelado a qualquer momento no Gly Master de sua fação.
 
 ## Profissões Únicas
@@ -210,7 +210,7 @@ Com o nível de habilidade <code>1</code>, Você ganha a habilidade de acender u
 #### Tendas
 Com o nível de habilidade <code>75</code> e nível de personagem <code>15</code>, você pode montar tendas. Para fazer isso, você precisa comprar a receita do vendedor de sobrevivência no acampamento Nesingwary. Cada <code>90</code> minutos, você pode ativar a receita que usará <code>1x</code> madeira simples e <code>5x</code> tecido de linho para montar uma tenda que irá durar <code>20</code> minutos. Durante a duração da tenda, os jogadores próximos dela recuperam seu bônus de experiência (“rested bônus”) em uma velocidade mais alta que se estivesse em uma capital ou em uma taverna. Além disso, cada tenda concede a experiência de descanso separadamente, por isso é comum ouvir no chat global pessoas querendo montar uma “festa de tendas”, onde vários jogadores montam tendas para ganhar experiência de descanso em ritmo acelerado.
 
-  -Importante**
+**Importante**
 - Você só pode ter até <code>30</code> segmentos de experiência descansada de cada vez, isto é, o <code>1.5x</code> do seu nível atual.
 
 <p style="margin: 0">[Voltar ao índice](#Índice_de_Conteúdo)</p>
@@ -223,24 +223,24 @@ Com um nível de habilidade <code>100</code> e um nível de personagem <code>20<
 - Esporos de Cogumelo Ditch Digger no Cenarion Enclave de Darnassus.
 Depois de ter pelo menos uma semente de cada tipo, retorne ao remetente da missão para receber sua recompensa: um vaso de flores e uma pá gigante. Depois de ter o vaso de flores em sua posse, você também pode clicar com o botão direito nele para posicioná-lo. Escolha uma das sementes do seu inventário para plantar e espere. Depois de <code>9</code> minutos, você vai precisar [Solo de Un'Goro](https://www.wowhead.com/classic/pt/item=11018/solo-de-ungoro) como fertilizante, e depois de outros <code>9</code> minutos, você deve alimentá-lo com um pouco de https://www.wowhead.com/classic/pt/item=159/água-refrescante-da-fonte Água Refrescante da Fonte]. depois dos outros <code>9</code> minutos, você terá que regar sua plantação mais uma vez e ela estará pronta para ser colhida!
 
-  -Importante**
--Ladrões e outros bandidos podem roubar seu trabalho se você não tomar cuidado.
+**Importante**
+- Ladrões e outros bandidos podem roubar seu trabalho se você não tomar cuidado.
 
 ##### Culturas: variantes e efeitos
-  -Abóboras Embaladas** (requer nível <code>25</code>) elas têm dois efeitos diferentes:
+**Abóboras Embaladas** (requer nível <code>25</code>) elas têm dois efeitos diferentes:
 
 - A primeira variante restaura <code>552</code> pontos de saúde durante<code>24</code> segundos, e se você continuar comendo por <code>10</code> segundos, você ganhara <code>6</code> de Resistência e Espírito durante <code>15</code> minutos.
 - A segunda variante restaura o <code>2%</code> da sua saúde por segundo durante <code>24</code> segundos, e se você continuar comendo por<code>10</code> segundos, você ganhará Vigor e Espírito iguais a <code>25%</code> do seu nível durante <code>15</code> minutos.
 
-  -Berries Doces da Montanha** (requer nível<code>35</code>) eles têm dois efeitos diferentes:
+**Berries Doces da Montanha** (requer nível<code>35</code>) eles têm dois efeitos diferentes:
 - A primeira variante restaura <code>874</code> pontos de saúde durante <code>27</code> segundos, e se você continuar comendo por <code>10</code> segundos, você ganhara <code>10</code> de Agilidade durante <code>10</code> minutos.
 - A segunda variante restaura <code>874</code> pontos de saúde durante <code>27</code> segundos e aumente sua resistência em <code>10</code> durante <code>10</code> minutos.
 
-  -Melões Listrados Suculentos** (requer nível <code>45</code>) eles têm dois efeitos diferentes:
+**Melões Listrados Suculentos** (requer nível <code>45</code>) eles têm dois efeitos diferentes:
 - A primeira variante restaura <code>1392</code> pontos de saúde durante <code>30</code> segundos, e se você continuar comendo por <code>10</code> segundos, você ganhara <code>12</code> de Resistência e Espírito durante <code>15</code> minutos.
 - A segunda variante restaura  <code>1933</code> pontos de saúde durante <code>27</code> segundos, e aumente seu intelecto em <code>10</code> durante <code>10</code> minutos.
 
-  -Cogumelos Mágicos** (requer nível<code>55</code>) eles têm dois efeitos diferentes:
+**Cogumelos Mágicos** (requer nível<code>55</code>) eles têm dois efeitos diferentes:
 - A primeira variante restaura <code>2550</code> pontos de saúde durante <code>30</code> segundos, e se você continuar comendo por <code>10</code> segundos, você ganhara <code>25</code> de resistência durante <code>15</code> minutos.
 - A segunda variante restaura <code>2148</code> pontos de saúde durante <code>30</code> segundos, e se você continuar comendo por <code>10</code> segundos, você ganhara <code>20</code> de Força durante <code>15</code> minutos.
 
@@ -260,7 +260,7 @@ Esta profissão completamente desenvolvida apresenta mais de <code>200</code> no
 
 O que os joalheiros podem criar? Entre as coisas que eles podem criar estão: anéis, colares, cajados, bugigangas, itens improvisados, capacetes e, principalmente, pedras preciosas.
 
-  -Importante**
+**Importante**
 - Nem todos os itens estarão disponíveis imediatamente e serão desbloqueados conforme você avança na profissão.
 - Para obter determinados materiais você precisará da ajuda de outros jogadores com profissões diferentes, por exemplo, encantadores.
 
@@ -272,7 +272,7 @@ Você pode escolher uma dessas subespecializações atingindo um nível de habil
 
 Todos os joalheiros podem criar grupos de gemas, o que permitirá a reciclagem de materiais para obter mais joias do que normalmente seria possível através da mineração. Além disso, depósitos de joias raras aparecerão no mundo. Esses depósitos podem substituir os veios de tório e exigir habilidade de mineração de <code>310</code>.
 
-  -Importante**
+**Importante**
 A mineração desses depósitos pode fornecer várias gemas de diferentes níveis, mas principalmente garantem um Topázio Imperial, um material chave para as subespecializações de Gemologia e Joalheria, semelhante ao lótus negro e vital para criações de alto nível.
 
 <p style="margin: 0">[Voltar ao índice](#Índice_de_Conteúdo)</p>
@@ -298,7 +298,7 @@ No Vanilla WoW, cada raça tinha uma abordagem diferente para sua adoração, o 
 - O primeiro feitiço que eles recebem é Sanção Divina (Divine Sanction). É obtido no nível <code>10</code> e é um feitiço de aumento direcionado, que aumenta a velocidade de ataque corpo a corpo, de longo alcance e de lançamento de feitiços do alvo em <code>10%</code> durante <code>10</code> segundos, com um tempo de recarga de <code>6</code> minutos. Como o feitiço é totalmente baseado em porcentagem, ele não possui outros níveis para aprender.
 - O segundo feitiço que eles recebem é Abraço do Sol (Sun's Embrace), que é obtido inicialmente no nível <code>20</code>, com ranks de habilidade adicionais disponíveis em níveis <code>36</code>, <code>48</code> y <code>60</code>. Abraço do Sol é um aumento autodirecionado que reduz o custo de mana dos próximos  <code>5</code> **Holy Strike**, **Holy Fire** e **Divine Strike** feitiços que você lança dentro dos seguintes  <code>20</code> segundos, com um tempo de recarga de <code>5</code> minutos.
 
-  -Importante**
+**Importante**
 - Ambos os feitiços são sagrados, portanto não podem ser lançados enquanto estiver em **Forma de Sombra (Shadowform)**, embora **é Abraço do Sol (Sun's Embrace)** não seja particularmente útil para sacerdotes das sombras.
 
 <p style="margin: 0">[Voltar ao índice](#Índice_de_Conteúdo)</p>
@@ -312,7 +312,7 @@ A nova raça jogável da Horda, a Trupe da Aventura Goblins, tem as seguintes ha
 - **Prospecção (Prospecting)**: <code>+10</code> em habilidade de mineração.
 - **Estratégia de fuga (Exit Strategy)**: A habilidade racial ativada aumenta a velocidade de movimento do lançador em um <code>40%</code> durante <code>5</code> segundos. Porém, enquanto a velocidade aumenta, não é possível atacar ou lançar feitiços e, ao final da duração, ela fica lenta em <code>20%</code> durante <code>2</code> segundos.
 
-  -Importante**
+**Importante**
 - Efeitos como esses são classificados como efeitos negativos, então você não pode simplesmente clicar com o botão direito sobre eles para removê-los.
 
 <p style="margin: 0">[Voltar ao índice](#Índice_de_Conteúdo)</p>
@@ -337,7 +337,7 @@ Golpe Sagrado  (Holy Strike) é inicialmente aprendido através de uma missão e
 
 Depois de aprender o primeiro rank, os ranks de habilidade futuras serão aprendidas em livros comprados de um vendedor na mesma sala onde você recebeu a missão..
 
-  -Importante**
+**Importante**
 - A habilidade **Golpe Sagrado (Holy Strike)** aumenta o dano do seu próximo ataque, com cada rank aumentando o dano adicional e a mana necessária, e converte todo o dano em dano sagrado. Tem um tempo de espera de <code>8</code> segundos e grande poder.
 
 <p style="margin: 0">[Voltar ao índice](#Índice_de_Conteúdo)</p>
@@ -353,7 +353,7 @@ A fantasia é obtida por meio de uma missão que você recebe do instrutor da tu
 - O "Trogg Lascapedra" fica nas montanhas a oeste de Thelsamar, em Loch Modan..
 - O **Capanga do Sindicato** está em Northfold Manor, a noroeste das Terras Altas de Arathi..
 
-  -Importante**
+**Importante**
 - Cada fantasia requer materiais para ser criada e vestida e será removida ao realizar uma ação hostil. As fantasias são apenas cosméticas e não enganarão personagens não-jogadores (NPC).
 
 <p style="margin: 0">[Voltar ao índice](#Índice_de_Conteúdo)</p>

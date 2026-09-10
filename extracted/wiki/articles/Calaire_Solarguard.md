@@ -25,7 +25,7 @@ categories: ["High elf characters", "Thalassian Highlands NPCs", "Tradeskill ven
 | location | Thalassian Highlands |
 | status | Alive |
 
--Calaire Solarguard** is a [high elf](high elf) trade goods vendor located west of the [Thaumarium](Thaumarium) in the [Thalassian Highlands](Thalassian Highlands).
+**Calaire Solarguard** is a [high elf](high elf) trade goods vendor located west of the [Thaumarium](Thaumarium) in the [Thalassian Highlands](Thalassian Highlands).
 
 ## Sells
 ...

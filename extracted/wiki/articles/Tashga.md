@@ -25,7 +25,7 @@ categories: ["Alchemy vendors", "Grim Reaches NPCs", "Herbalism vendors", "Orc c
 | location | Shatterblade Post, Grim Reaches |
 | status | Alive |
 
--Tashga** is an [orc](orc) herbalism and alchemy vendor located in the outpost of [Shatterblade Post](Shatterblade Post) in the [Grim Reaches](Grim Reaches).
+**Tashga** is an [orc](orc) herbalism and alchemy vendor located in the outpost of [Shatterblade Post](Shatterblade Post) in the [Grim Reaches](Grim Reaches).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

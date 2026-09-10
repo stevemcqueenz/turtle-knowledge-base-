@@ -24,7 +24,7 @@ categories: ["Gilneas mobs", "Ogre mages", "Turtle WoW content"]
 | location | Brol'ok Mound, Gilneas |
 | status | Killable |
 
--Shinban Four-Eyes** is an ogre found in [Brol'ok Mound](Brol'ok Mound) in [Gilneas](Gilneas). He is vying for power amongst the [Brol'ok](Brol'ok), with his chief rival being [Chief Maulfist](Chief Maulfist). Although he calls himself Four-Eyes, he only has three - he claims that the fourth is a hidden one that gives him the vision required to lead the Brol'ok. (ref: [quest: The Staff of Shinban])
+**Shinban Four-Eyes** is an ogre found in [Brol'ok Mound](Brol'ok Mound) in [Gilneas](Gilneas). He is vying for power amongst the [Brol'ok](Brol'ok), with his chief rival being [Chief Maulfist](Chief Maulfist). Although he calls himself Four-Eyes, he only has three - he claims that the fourth is a hidden one that gives him the vision required to lead the Brol'ok. (ref: [quest: The Staff of Shinban])
 
 ## Objective of
 - Drops [Staff of Shinban](Staff of Shinban) for [quest: The Staff of Shinban].

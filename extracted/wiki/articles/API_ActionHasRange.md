@@ -14,12 +14,12 @@ Returns true is the action has a numeric range requirement.
  isTrue = ActionHasRange(slotID)
 
 ## Parameters
--Arguments*
+*Arguments*
 
   ; slotID
    Number - The [slot ID](Action slot) to test.
 
--Returns*
+*Returns*
 
    Boolean - True if the specified action has a numeric range requirement.
 
@@ -27,7 +27,7 @@ Returns true is the action has a numeric range requirement.
  /script if (ActionHasRange(1)) then if (IsActionInRange(1)) 
   then ChatFrame1:AddMessage("Action 1 is in range!");end;end;
 
-  -Result**
+**Result**
  "Action 1 is in range!"
 
    The above message will be printed if the action in slot 1 has a numeric range requirement and you are within range of the target (or if there is no target; see [IsActionInRange](API IsActionInRange)).

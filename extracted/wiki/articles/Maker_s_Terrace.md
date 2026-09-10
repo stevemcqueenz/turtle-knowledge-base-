@@ -10,4 +10,4 @@ categories: ["Badlands subzones", "Dark Iron dwarf territories", "Elite areas", 
 ---
 # Maker's Terrace
 
--The Maker's Terrace** is a large excavation site located just outside the entrance to [Uldaman](Uldaman) in the [Badlands](Badlands).  For most adventurers first venturing into the Badlands from [Loch Modan](Loch Modan), it will be the first place they travel past. The Terrace is patrolled by [Dark Iron dwarves](Dark Iron clan).
+**The Maker's Terrace** is a large excavation site located just outside the entrance to [Uldaman](Uldaman) in the [Badlands](Badlands).  For most adventurers first venturing into the Badlands from [Loch Modan](Loch Modan), it will be the first place they travel past. The Terrace is patrolled by [Dark Iron dwarves](Dark Iron clan).

@@ -25,7 +25,7 @@ categories: ["Gilneas NPCs", "Human characters", "Quest enders", "Turtle WoW con
 | status | Alive |
 | relatives | Donald (husband) |
 
--Frell Rosewick** is a [human](human) located at the [Shademore Tavern](Shademore Tavern) in [Gilneas](Gilneas).
+**Frell Rosewick** is a [human](human) located at the [Shademore Tavern](Shademore Tavern) in [Gilneas](Gilneas).
 
 ## Quests
 - [quest: Rosewick Worries] 

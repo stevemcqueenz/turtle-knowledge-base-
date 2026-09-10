@@ -25,14 +25,14 @@ categories: ["Balor NPCs", "Gnome characters", "Quest givers", "SI:7", "Turtle W
 | relatives | Noppsy (brother) |
 | status | Alive |
 
--Nippsy Spickerspan** is a [gnome](gnome) [quest giver](quest giver) located at [SI:7 Outpost](SI:7 Outpost) in [Balor](Balor).
+**Nippsy Spickerspan** is a [gnome](gnome) [quest giver](quest giver) located at [SI:7 Outpost](SI:7 Outpost) in [Balor](Balor).
 
 ## Quests
 - [quest: Demons Galore] 
 - [quest: Assassin In Training] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 New around here? This place is in a league of its own, even for someone as experienced as me. Keep your wits about you and stay alert; you never know what waits around the next corner!
 
 ## Patch changes

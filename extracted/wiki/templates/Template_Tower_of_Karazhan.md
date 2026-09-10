@@ -33,23 +33,23 @@ categories: ["Instance navigation templates"]
 [Mephistroth](Mephistroth)
 
 |
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
 ([lore](Medivh))
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
 |-
 | class="title" colspan="2"| [Loot](Tower of Karazhan loot)

@@ -47,8 +47,8 @@ That said, belief alone will not carry us through what waits in that den. Pride 
 I will admit this, if only once. I could use a steady hand at my side in this matter.
 
 ## Progression
-1.[quest: Expedition Gone Wrong]
-1.[quest: The Withered Den]
+1. [quest: Expedition Gone Wrong]
+1. [quest: The Withered Den]
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

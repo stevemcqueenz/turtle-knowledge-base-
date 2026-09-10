@@ -24,7 +24,7 @@ categories: ["Grim Reaches NPCs", "Quest givers", "Turtle WoW content", "Wildham
 | location | East Ridge Outpost, Grim Reaches |
 | status | Alive |
 
--Mountaineer Steelwind** is a [Wildhammer dwarf](Wildhammer dwarf) quest giver located in [East Ridge Outpost](East Ridge Outpost) in the [Grim Reaches](Grim Reaches).
+**Mountaineer Steelwind** is a [Wildhammer dwarf](Wildhammer dwarf) quest giver located in [East Ridge Outpost](East Ridge Outpost) in the [Grim Reaches](Grim Reaches).
 
 ## Quests
 - [quest: The Dragonmaw War] 
@@ -35,7 +35,7 @@ categories: ["Grim Reaches NPCs", "Quest givers", "Turtle WoW content", "Wildham
 - [quest: The Dragonmaw War] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 It is getting more difficult to keep the roadways clear each day. The Dragonmaw Orcs may have been pushed back for now, but it is only a matter of time before they return.
 
 I pray that we have the strength to repel them again when the time comes.

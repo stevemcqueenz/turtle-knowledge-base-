@@ -10,4 +10,4 @@ categories: ["Pages with broken file links", "Wetlands subzones"]
 ---
 # Green Belt
 
--The Green Belt** is an area of the eastern [Wetlands](Wetlands) where the trees and shrubs grow especially thick and where swamp flowers bloom all year around. [Rethiel the Greenwarden](Rethiel the Greenwarden) makes his home here behind a hill, and where he treads, plants spring to life and blossoms flourish. The Green Belt is also home to [crocolisk](crocolisk)s, [bog beast](bog beast)s, and [ooze](ooze)s.
+**The Green Belt** is an area of the eastern [Wetlands](Wetlands) where the trees and shrubs grow especially thick and where swamp flowers bloom all year around. [Rethiel the Greenwarden](Rethiel the Greenwarden) makes his home here behind a hill, and where he treads, plants spring to life and blossoms flourish. The Green Belt is also home to [crocolisk](crocolisk)s, [bog beast](bog beast)s, and [ooze](ooze)s.

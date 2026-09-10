@@ -48,7 +48,7 @@ Following a campaign by the [Silver Covenant](Silver Covenant) to retake [Shalan
 - [quest: Sunsworn Expedition] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Vereesa's ineptitude in rallying Alliance forces to reclaim Quel'Thalas marks the last straw. I refuse to witness our proud race reduced to a puppet state of Stormwind. With our reliance on the Alliance military, we stand exposed to the threats of both the Scourge and the resurgent Amani tribe.
 
 It is only a matter of time until others recognize my rightful claim to leadership. The Sunsworn dynasty shall ascend, and under my rule, we will endure for countless millennia. The era of vulnerability and subservience is over; the domination of the Quel'dorei shall be reestablished, unyielding against external threats.

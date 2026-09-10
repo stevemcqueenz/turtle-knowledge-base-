@@ -13,11 +13,5 @@ categories: ["Moonwhisper Coast subzones", "Murloc territories", "Shores", "Turt
 The **Whispering Shores** are located along the northwestern coast of [Moonwhisper Coast](Moonwhisper Coast). The shores are inhabited by [Bluetide](Bluetide) [murloc](murloc)s, and hydras that have emerged from the bed of the ocean roam the beach.
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - - ## Patch changes
 - (Patch 1.18.1|note=Added.)

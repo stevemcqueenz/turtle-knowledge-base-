@@ -25,10 +25,10 @@ categories: ["Aristocrats", "Human characters", "Northwind NPCs", "Stormwind (ki
 | status | Alive |
 | relatives | Josephine (aunt) |
 
--Sir Hans Dale** is a [human](human) located at [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind). He was present at a council meeting with [Lord Amberwood](Lord Amberwood), [Rutherford Justino](Rutherford Justino) and [Custodian Lambert](Custodian Lambert), where at Lambert's behest Lord Amberwood sent word out to any adventurers who could aid Northwind in the dark hours of the [Blackrock](Blackrock clan) and [Dark Iron](Dark Iron dwarf) incursions. (ref: [THE HIDDEN AREA BETWEEN STORMWIND AND IRONFORGE: Northwind Zone Trailer — Turtle WoW Patch 1.18](https://www.youtube.com/watch?v=vIuS0DXGY6Y))
+**Sir Hans Dale** is a [human](human) located at [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind). He was present at a council meeting with [Lord Amberwood](Lord Amberwood), [Rutherford Justino](Rutherford Justino) and [Custodian Lambert](Custodian Lambert), where at Lambert's behest Lord Amberwood sent word out to any adventurers who could aid Northwind in the dark hours of the [Blackrock](Blackrock clan) and [Dark Iron](Dark Iron dwarf) incursions. (ref: [THE HIDDEN AREA BETWEEN STORMWIND AND IRONFORGE: Northwind Zone Trailer — Turtle WoW Patch 1.18](https://www.youtube.com/watch?v=vIuS0DXGY6Y))
 
 ## Quotes
-  -Gossip**
+**Gossip**
 <The young noble exhales a frustrated sigh.>
 
 Well hello, fair peasant. Curious that the guards let you inside Amberwood Keep, given Northwind's current... let's say 'precarious' situation. Did you slide them some coin or are you just that charismatic? Alas, here you are, so you might as well entertain me. Auntie Josephine doesn't even let me out of the castle walls and I am getting bored to death reading the same old tomes again and again.

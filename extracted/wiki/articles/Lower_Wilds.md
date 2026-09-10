@@ -13,4 +13,4 @@ categories: ["Feralas subzones", "Pages with broken file links", "Stubs", "Woods
 The **Lower Wilds** is the eastern section of [Feralas](Feralas) that leads into [Thousand Needles](Thousand Needles). The area in inhabited by [treant](treant)s & corrupted [dryad](dryad)s.
 
 ## Patch changes
--  **Patch 1.4.0 (2005-04-19):** There is no longer water missing from the pool by the Grimtotems in the Lower Wilds of Feralas.
+- **Patch 1.4.0 (2005-04-19):** There is no longer water missing from the pool by the Grimtotems in the Lower Wilds of Feralas.

@@ -10,7 +10,7 @@ categories: ["Centaur territories", "Durotar subzones", "Pages with broken file 
 ---
 # Kolkar Crag
 
--Kolkar Crag**48 78 Durotar (g/s/c) was a craggy gorge in southern [Durotar](Durotar) called this way because of the [Kolkar](Kolkar clan) [centaur](centaur)s inhabiting it.
+**Kolkar Crag**48 78 Durotar (g/s/c) was a craggy gorge in southern [Durotar](Durotar) called this way because of the [Kolkar](Kolkar clan) [centaur](centaur)s inhabiting it.
 
 ## History
 Three years after the [Battle of Mount Hyjal](Battle of Mount Hyjal), when [Theramore](Theramore Isle) received words that [orc](orc) troops were massing at Kolkar Crag, they sent reinforcements to [Northwatch Hold](Northwatch Hold). (ref: *[Cycle of Hatred](Cycle of Hatred)*, chapter 13)

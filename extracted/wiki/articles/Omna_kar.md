@@ -24,10 +24,10 @@ categories: ["Draenei characters", "Moonwhisper Coast NPCs", "Tradeskill vendors
 | location | Moro'gai Village, Moonwhisper Coast |
 | status | Alive |
 
--Omna'kar** is a [draenei](draenei) trade goods vendor located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Omna'kar** is a [draenei](draenei) trade goods vendor located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Come closer, Parash'ka. My wares are exquisite and flawless, anything you need for your daily crafting needs.
 
 ## Patch changes

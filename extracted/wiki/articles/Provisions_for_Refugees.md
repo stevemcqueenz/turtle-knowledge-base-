@@ -25,7 +25,7 @@ categories: ["Alliance quests", "Quests at 1", "Thalassian Highlands quests"]
 
 ## Objectives
 Bring 10 Young Thalassian Boar Flanks to Commander Anarileth in Brinthillien.
--[Young Thalassian Boar Flank](Young Thalassian Boar Flank)s (10)
+- [Young Thalassian Boar Flank](Young Thalassian Boar Flank)s (10)
 
 ## Description
 The Regency Council has bestowed upon me the responsibility of providing sustenance and shelter for all those who seek refuge in this land. A task, noble in intent, but one burdened by a stark lack of resources.

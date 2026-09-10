@@ -23,10 +23,10 @@ categories: ["Moonwhisper Coast NPCs", "Tauren characters", "Turtle WoW content"
 | gender | Male |
 | location | Shimmerstar Lake, Moonwhisper Coast |
 
--Garwon** is a [tauren](tauren) located at [Shimmerstar Lake](Shimmerstar Lake) in [Moonwhisper Coast](Moonwhisper Coast).
+**Garwon** is a [tauren](tauren) located at [Shimmerstar Lake](Shimmerstar Lake) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Such beauty can be found in this land, but also danger. You must keep your wits about you these days, even when traveling the roads.
 
 ## Patch changes

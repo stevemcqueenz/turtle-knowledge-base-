@@ -23,10 +23,10 @@ categories: ["Guards", "Moonwhisper Coast NPCs", "Night elf characters", "Sentin
 | gender | Female |
 | location | Narvalis Point, Moonwhisper Coast |
 
--Narvalis Sentinels** are [night elf](night elf) guards located in [Narvalis Point](Narvalis Point) in [Moonwhisper Coast](Moonwhisper Coast).
+**Narvalis Sentinels** are [night elf](night elf) guards located in [Narvalis Point](Narvalis Point) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The coast remains treacherous, through and through. Stay vigilant out there.
 
 ## Patch changes

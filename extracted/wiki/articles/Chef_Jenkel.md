@@ -25,10 +25,10 @@ categories: ["Cooking trainers", "Human characters", "Kul Tiran Exploratory Flee
 | location | Caelan's Rest, Lapidis Isle |
 | status | Alive |
 
--Chef Jenkel** is a [human](human) cooking trainer located in [Caelan's Rest](Caelan's Rest) in [Lapidis Isle](Lapidis Isle).
+**Chef Jenkel** is a [human](human) cooking trainer located in [Caelan's Rest](Caelan's Rest) in [Lapidis Isle](Lapidis Isle).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Cooking is a fine art, and working with such few resources at our disposal makes it an even finer art.
 
 ## Patch changes

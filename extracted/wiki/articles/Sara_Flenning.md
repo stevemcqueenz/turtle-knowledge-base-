@@ -25,7 +25,7 @@ categories: ["Deceased characters", "Human characters", "Northwind NPCs", "Storm
 | status | Deceased |
 | relatives | Judith (mother),, Timothy (brother) |
 
--Sara Flenning** was a human woman from [Northwind](Northwind), where she lived with her mother [Judith](Judith Flenning) and brother [Timothy](Timothy Flenning). While Judith was away from the house, she and Timothy were kidnapped (ref: [quest: Empty Houses]) by orcs of the [Stormreaver clan](Stormreaver clan) that sought to take them to their hideout on the island of [Balor](Balor).
+**Sara Flenning** was a human woman from [Northwind](Northwind), where she lived with her mother [Judith](Judith Flenning) and brother [Timothy](Timothy Flenning). While Judith was away from the house, she and Timothy were kidnapped (ref: [quest: Empty Houses]) by orcs of the [Stormreaver clan](Stormreaver clan) that sought to take them to their hideout on the island of [Balor](Balor).
 
 Sara was killed by the Stormreavers before she could be rescued, and her body was later retrieved by [Operative Baltimore Hawthorne](Operative Baltimore Hawthorne) of [SI:7](SI:7). (ref: [quest: Shadow's Vision])
 

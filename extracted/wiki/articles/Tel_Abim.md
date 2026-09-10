@@ -23,7 +23,7 @@ categories: ["Islands", "Kalimdor", "South Seas", "Tel'Abim"]
 | affiliation | Tel Company |
 | loc | South Seas |
 
--Tel'Abim** is an island in the [South Seas](South Seas) off the eastern coast of [Tanaris](Tanaris). Tel'Abim stands as the center for banana export, overseen by the neutral [Tel Company](Tel Company). Recently, the apes of the island have started a rebellion against the company, driving them off of collection sites and demolishing equipment.
+**Tel'Abim** is an island in the [South Seas](South Seas) off the eastern coast of [Tanaris](Tanaris). Tel'Abim stands as the center for banana export, overseen by the neutral [Tel Company](Tel Company). Recently, the apes of the island have started a rebellion against the company, driving them off of collection sites and demolishing equipment.
 
 ## Geography
 ### Maps and subregions
@@ -62,5 +62,5 @@ WorldMap-TelAbim-old.jpg|Tel'Abimprior to [patch 1.17.2](patch 1.17.2).
 - [Wind Serpent](Wind Serpent)
 
 ## Patch changes
--  **[Patch 1.17.2](Patch 1.17.2) (2024-11-01):** Map has been updated, allowing for proper discovery of its regions.
--  **[Patch 1.16.4](Patch 1.16.4) (2022-12-20):** Added.
+- **[Patch 1.17.2](Patch 1.17.2) (2024-11-01):** Map has been updated, allowing for proper discovery of its regions.
+- **[Patch 1.16.4](Patch 1.16.4) (2022-12-20):** Added.

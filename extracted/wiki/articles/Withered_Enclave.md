@@ -13,10 +13,7 @@ categories: ["Elite areas", "Groves", "Moonwhisper Coast subzones", "Turtle WoW 
 The **Withered Enclave** is a desecrated grove overrun with grell and twisted treants. A [moonwell](moonwell) can be found here.
 
 ## NPCs
-- 
-- 
-- 
--  (rare)
+- - - - (rare)
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

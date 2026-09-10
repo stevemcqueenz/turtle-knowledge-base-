@@ -24,12 +24,12 @@ categories: ["Blood elf characters", "Thalassian Highlands mobs"]
 | location | Brinthilien, Thalassian Highlands |
 | status | Killable |
 
--Blood Elf Spies** are blood elves found on a hill overlooking [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands). Led by [Veloren Brightstar](Veloren Brightstar), they were tasked by Viceroy [Eldin Sunstrider](Eldin Sunstrider) to spy on the refugees in Brinthilien when the [Silvermoon Remnant](Silvermoon Remnant) began to resettle the Highlands. (ref: [quest: A Letter from the Royalty])
+**Blood Elf Spies** are blood elves found on a hill overlooking [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands). Led by [Veloren Brightstar](Veloren Brightstar), they were tasked by Viceroy [Eldin Sunstrider](Eldin Sunstrider) to spy on the refugees in Brinthilien when the [Silvermoon Remnant](Silvermoon Remnant) began to resettle the Highlands. (ref: [quest: A Letter from the Royalty])
 
 ## Objective of
 - [quest: A Troubling Presence]
 
 ## Patch changes
--  **[Patch 1.17.1](Patch 1.17.1) (2023-12-20):** Added.
+- **[Patch 1.17.1](Patch 1.17.1) (2023-12-20):** Added.
 
 ## References

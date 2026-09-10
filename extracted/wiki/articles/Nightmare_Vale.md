@@ -10,4 +10,4 @@ categories: ["Forsaken territories", "Pages with broken file links", "Tirisfal G
 ---
 # Nightmare Vale
 
--Nightmare Vale** is a wide valley located in southwestern [Tirisfal Glades](Tirisfal Glades). While the glades here were once verdant and teeming with forest animals, now the trees have withered and the wildlife has been eaten by hungry [darkhound](darkhound)s and huge [vampire bat](bat)s. The [Scarlet Crusade](Scarlet Crusade) also has an outpost here. [Ressan the Needler](Ressan the Needler), a [rare](rare) white bat, also appears here.
+**Nightmare Vale** is a wide valley located in southwestern [Tirisfal Glades](Tirisfal Glades). While the glades here were once verdant and teeming with forest animals, now the trees have withered and the wildlife has been eaten by hungry [darkhound](darkhound)s and huge [vampire bat](bat)s. The [Scarlet Crusade](Scarlet Crusade) also has an outpost here. [Ressan the Needler](Ressan the Needler), a [rare](rare) white bat, also appears here.

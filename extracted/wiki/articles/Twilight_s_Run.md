@@ -10,4 +10,4 @@ categories: ["Caves", "Pages with broken file links", "Silithus subzones", "Stub
 ---
 # Twilight's Run
 
--Twilight's Run** is a cave filled with members of the [Twilight's Hammer Cult](Twilight's Hammer Cult) in northern [Silithus](Silithus).
+**Twilight's Run** is a cave filled with members of the [Twilight's Hammer Cult](Twilight's Hammer Cult) in northern [Silithus](Silithus).

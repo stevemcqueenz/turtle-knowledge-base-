@@ -11,7 +11,7 @@ categories: ["Lore", "Worlds"]
 # Azeroth
 
 *This article is about Azeroth, the planet. For other uses, see [Azeroth (disambiguation)](Azeroth (disambiguation)).*
-  -Azeroth** is the name of the world in which the majority of the *Warcraft* series is set. The world of Azeroth is the birthplace of many races, most notably elves ([night elves](Night elf), [high elves](High elf), and [blood elves](Blood elf)), [human](human)s, [dwarves](dwarf), [tauren](tauren), [goblin](goblin)s, [troll](troll)s, [gnome](gnome)s, and [dragon](dragon)s.
+**Azeroth** is the name of the world in which the majority of the *Warcraft* series is set. The world of Azeroth is the birthplace of many races, most notably elves ([night elves](Night elf), [high elves](High elf), and [blood elves](Blood elf)), [human](human)s, [dwarves](dwarf), [tauren](tauren), [goblin](goblin)s, [troll](troll)s, [gnome](gnome)s, and [dragon](dragon)s.
 
 ## Geography
 The world of Azeroth comprises three major continents with a number of islands scattered about them. The [Great Sea](Great Sea) is located between the three landmasses and has at its center the [Maelstrom](Maelstrom)—a tumultuous storm of tidal fury and chaotic energies born of the destruction of the [Well of Eternity](Well of Eternity). (ref: [The Sundering of the World](https://warcraft.wiki.gg/wiki/The_Sundering_of_the_World))
@@ -27,7 +27,7 @@ Before the [War of the Ancients](War of the Ancients), all these continents and 
 The [Forbidding Sea](Forbidding Sea) is the expanse of water to the east of the Eastern Kingdoms. The [Veiled Sea](Veiled Sea) sits west of Kalimdor.
 
 ## Gallery
-  -In-game maps**
+**In-game maps**
 <gallery>
 File:WorldMap-World-old.jpg|*World of Warcraft* release
 File:WorldMap-World-old1.jpg|[Patch 1.16.4](Patch 1.16.4)

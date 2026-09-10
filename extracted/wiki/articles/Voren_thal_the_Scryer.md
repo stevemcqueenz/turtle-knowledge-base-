@@ -27,7 +27,7 @@ categories: ["Alah'Thalas NPCs", "High elf characters", "Turtle WoW content"]
 | location | Sunsworn Mansion, Alah'Thalas |
 | status | Alive |
 
--Voren'thal the Scryer** is a magister and former advisor to Prince [Kael'thas Sunstrider](Kael'thas Sunstrider), and a current member of the [Regency Council](Regency Council) of [Alah'Thalas](Alah'Thalas). He has long lived under the roof of Lord [Astalor Sunsworn](Astalor Sunsworn) in Alah'Thalas, enjoying his patronage and basking in borrowed wealth and influence, and is believed to be nothing more than a puppet to Lord Sunsworn.
+**Voren'thal the Scryer** is a magister and former advisor to Prince [Kael'thas Sunstrider](Kael'thas Sunstrider), and a current member of the [Regency Council](Regency Council) of [Alah'Thalas](Alah'Thalas). He has long lived under the roof of Lord [Astalor Sunsworn](Astalor Sunsworn) in Alah'Thalas, enjoying his patronage and basking in borrowed wealth and influence, and is believed to be nothing more than a puppet to Lord Sunsworn.
 
 When Lord Sunsworn made a motion before the Council to be named Lord-Regent of Quel'Thalas following the retaking of [Shalandis Isle](Shalandis Isle) by the [Silver Covenant](Silver Covenant), Voren'thal voted in his favor.
 

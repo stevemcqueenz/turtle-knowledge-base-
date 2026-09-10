@@ -10,6 +10,6 @@ categories: ["Elite areas", "Felwood subzones", "Infernals", "Pages with broken 
 ---
 # Shatter Scar Vale
 
--Shatter Scar Vale** lies north of the [Bloodvenom Falls](Bloodvenom Falls) in [Felwood](Felwood). Shatter Scar Vale is where many of the demonic [infernal](infernal)s fell to [Azeroth](Azeroth) during the invasion of the [Burning Legion](Burning Legion) during the [Third War](Third War). Still-smoldering craters dot the vale, and [demon](demon)s still wander the scarred landscape.
+**Shatter Scar Vale** lies north of the [Bloodvenom Falls](Bloodvenom Falls) in [Felwood](Felwood). Shatter Scar Vale is where many of the demonic [infernal](infernal)s fell to [Azeroth](Azeroth) during the invasion of the [Burning Legion](Burning Legion) during the [Third War](Third War). Still-smoldering craters dot the vale, and [demon](demon)s still wander the scarred landscape.
 
 ## External links

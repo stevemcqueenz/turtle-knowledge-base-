@@ -25,17 +25,17 @@ categories: ["Darnassus NPCs", "Druid characters", "Druid trainers", "Night elf 
 | location | Cenarion Enclave, Darnassus |
 | status | Active |
 
--Denatharion** was a [night elf](night elf) [druid trainer](Druid trainers) located in the [Cenarion Enclave](Cenarion Enclave) in [Darnassus](Darnassus).
+**Denatharion** was a [night elf](night elf) [druid trainer](Druid trainers) located in the [Cenarion Enclave](Cenarion Enclave) in [Darnassus](Darnassus).
 
 ## Quests
 - [quest: race=NightElf|class=druid] 
 - [quest: The Crescent Grove] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The blessings of [Cenarius](Cenarius) be yours, <class>.
 
 ## See also
--[List of Darnassus NPCs](List of Darnassus NPCs)
+- [List of Darnassus NPCs](List of Darnassus NPCs)
 
 ## External links

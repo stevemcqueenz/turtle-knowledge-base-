@@ -25,13 +25,13 @@ categories: ["Dwarf characters", "Explorers' League", "Quest givers", "Stonetalo
 | location | Bael Hardul, Stonetalon Mountains |
 | status | Alive |
 
--Prospector Flinthammer** is a [dwarf](dwarf) [quest giver](quest giver) located in [Hardul Distillery](Hardul Distillery) in [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains).
+**Prospector Flinthammer** is a [dwarf](dwarf) [quest giver](quest giver) located in [Hardul Distillery](Hardul Distillery) in [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains).
 
 ## Quests
 - [quest: The Ornate Windshear Gemstone] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Kalimdor is surely to be full of rich and rare minerals that we don't often see on the Eastern Kingdoms and I'm sure of it. I just need to find what I'm looking for, that's all.
 
 ## Speculation

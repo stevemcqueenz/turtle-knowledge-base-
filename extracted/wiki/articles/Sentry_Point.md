@@ -10,4 +10,4 @@ categories: ["Dustwallow Marsh subzones", "Human territories", "Pages with broke
 ---
 # Sentry Point
 
--Sentry Point** is a [scout tower](scout tower) built by [Theramore](Theramore (nation)) and located on the mainland of [Dustwallow Marsh](Dustwallow Marsh) just across the bridge from the citadel itself. The tower acts as its name suggests, watching the comings and goings on the road to Theramore.
+**Sentry Point** is a [scout tower](scout tower) built by [Theramore](Theramore (nation)) and located on the mainland of [Dustwallow Marsh](Dustwallow Marsh) just across the bridge from the citadel itself. The tower acts as its name suggests, watching the comings and goings on the road to Theramore.

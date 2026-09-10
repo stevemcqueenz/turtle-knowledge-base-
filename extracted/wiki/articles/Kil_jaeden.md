@@ -21,7 +21,7 @@ categories: ["Burning Legion", "Eredar", "Stubs"]
 | affiliation | Burning Legion |
 | status | Alive |
 
--Kil'jaeden the Deceiver*' is the chief servant of the Fallen Titan, [Sargeras](Sargeras). Along with his comrade, [Archimonde](Archimonde) the Defiler, he was the Destroyer's chief lieutenant, manipulating the strands of fate in order to ensure the Burning Crusade's consumption of all worlds floating in the Twisting Nether.
+*Kil'jaeden the Deceiver*' is the chief servant of the Fallen Titan, [Sargeras](Sargeras). Along with his comrade, [Archimonde](Archimonde) the Defiler, he was the Destroyer's chief lieutenant, manipulating the strands of fate in order to ensure the Burning Crusade's consumption of all worlds floating in the Twisting Nether.
 
 # Biography
 First in the ranks of the [Eredar](Eredar), the demon lord Kil’jaeden is as vile as he is powerful. Selected by [Sargeras](Sargeras) as his champion, Kil'jaeden was responsible for the enslavement of the [Dreadlord](Dreadlord)s to the will of the fallen [Titan](Titan), and their leader, [Tichondrius](Tichondrius), vowed to follow Kil'jaeden's dark agenda of assimilating every race possible into the folds of the [Burning Legion](Burning Legion). The Legion's maleficence swallowed world after world, leaving nothing but fire and destruction in their wake. Though Archimonde was given much credit, the Legion would never had done it had Kil'jaeden not done his job so nefariously well.

@@ -27,7 +27,7 @@ categories: ["Aristocrats", "Blood elf characters", "Dalaran (kingdom)", "High e
 *"The [Scourge](Scourge) devoured our ancient homeland of [Quel'Thalas](Quel'Thalas (kingdom)). [The once-proud bloodline of my people](High elf) is nearly spent. The few of us that remain now call ourselves [blood elves](Blood elf), in homage to our murdered people."*
    — Prince Kael'thas Sunstrider to [Maiev Shadowsong](Maiev Shadowsong).
 
-  -Kael'thas Sunstrider** is the former prince of the [high elven](High elf) kingdom of [Quel'Thalas](Quel'Thalas (kingdom)) and the current leader of the [blood elves](Blood elf).
+**Kael'thas Sunstrider** is the former prince of the [high elven](High elf) kingdom of [Quel'Thalas](Quel'Thalas (kingdom)) and the current leader of the [blood elves](Blood elf).
 
 Considered a traitor for allying himself with the naga and with the also considered traitor [Illidan Stormrage](Illidan Stormrage), he is currently in [Outland](Outland) allied with the [Illidari](Illidari) in the hope of finding some way to save his people from the magical addiction that afflicts them, after the fall of Quel'Thalas and the destruction of the [Sunwell](Sunwell).
 
@@ -49,16 +49,16 @@ Many consider him dead, since they saw how the promise of his return faded over 
 Kael keeps an eye on the elves of [Alah'Thalas](Alah'Thalas) through the Felstrider Retreat and by maintaining direct communication with a member of the new [Regency Council](Regency Council), [Grand Magister Rommath](Grand Magister Rommath), who still holds faith in his prince and his quest to find a cure for the elves' magical addiction.
 
 ## Quotes
-  -Greeting**
+**Greeting**
 - I'm waiting.
 - I feel edgy.
 - My people must be avenged.
 
-  -Farewell**
+**Farewell**
 - Outstanding.
 - My pleasure.
 
-  -Pissed**
+**Pissed**
 - Nothing of my homeland remains, but ash and sorrow.
 - My hunger for magic is clouding my judgment!
 - All I feel is hate and rage.

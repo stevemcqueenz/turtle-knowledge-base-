@@ -10,8 +10,8 @@ categories: []
 ---
 # Template:Entranced Magic
 
-1.[quest: Entranced Magic]
-1.[quest: Natural Remedies]
-1.[quest: Dark Essence]
-1.[quest: The Power of Uth'okk]
-1.[quest: The Ritual of Uth'okk]
+1. [quest: Entranced Magic]
+1. [quest: Natural Remedies]
+1. [quest: Dark Essence]
+1. [quest: The Power of Uth'okk]
+1. [quest: The Ritual of Uth'okk]

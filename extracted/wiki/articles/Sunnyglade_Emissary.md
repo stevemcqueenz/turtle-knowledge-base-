@@ -22,14 +22,14 @@ categories: ["Battlemasters", "Blood elf characters", "Removed Darnassus NPCs", 
 | creature | Humanoid |
 | gender | Both |
 
--Sunnyglade Emissaries** were blood elven [Sunnyglade Valley](Sunnyglade Valley) recruiters located at various spots throughout the largest Alliance and Horde cities - [Stormwind City](Stormwind City), [Ironforge](Ironforge), [Darnassus](Darnassus), [Orgrimmar](Orgrimmar), [Thunder Bluff](Thunder Bluff), and [Undercity](Undercity), during the weekly battleground holiday event for Sunnyglade Valley.
+**Sunnyglade Emissaries** were blood elven [Sunnyglade Valley](Sunnyglade Valley) recruiters located at various spots throughout the largest Alliance and Horde cities - [Stormwind City](Stormwind City), [Ironforge](Ironforge), [Darnassus](Darnassus), [Orgrimmar](Orgrimmar), [Thunder Bluff](Thunder Bluff), and [Undercity](Undercity), during the weekly battleground holiday event for Sunnyglade Valley.
 
 ## Quotes
-  -High enough level character**
+**High enough level character**
 Listen to us, hero! Your urgent assistance is needed in Sunnyglade Valley. Infinite Dragonflight saboteurs are tampering with time and attempting to change the outcome of an important historical battle, which could alter the world as we know it. Join the battle and slay their agents posing as members of the opposite faction.
 
   
 
 ## Patch changes
 - (Patch 1.18.0|note=Replaced by [Thorn Gorge Emissary](Thorn Gorge Emissary).)
--  **[Hotfix](https://forum.turtlecraft.gg/viewtopic.php?t=8377) (2023-06-19):** Added.
+- **[Hotfix](https://forum.turtlecraft.gg/viewtopic.php?t=8377) (2023-06-19):** Added.

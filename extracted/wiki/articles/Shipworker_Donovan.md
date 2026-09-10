@@ -24,7 +24,7 @@ categories: ["Human characters", "Kul Tiran Exploratory Fleet", "Lapidis Isle NP
 | location | Caelan's Rest, Lapidis Isle |
 | status | Alive |
 
--Shipworker Donovan** is a human in [Caelan's Rest](Caelan's Rest) on [Lapidis Isle](Lapidis Isle).
+**Shipworker Donovan** is a human in [Caelan's Rest](Caelan's Rest) on [Lapidis Isle](Lapidis Isle).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

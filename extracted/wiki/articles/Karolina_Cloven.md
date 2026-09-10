@@ -25,7 +25,7 @@ categories: ["Forsaken characters", "Survival trainers", "Tirisfal Glades NPCs",
 | location | Brill, Tirisfal Glades |
 | status | Active |
 
--Karolina Cloven** is a [Forsaken](Forsaken) Journeyman [survival](survival) trainer located in [Brill](Brill) in [Tirisfal Glades](Tirisfal Glades).
+**Karolina Cloven** is a [Forsaken](Forsaken) Journeyman [survival](survival) trainer located in [Brill](Brill) in [Tirisfal Glades](Tirisfal Glades).
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

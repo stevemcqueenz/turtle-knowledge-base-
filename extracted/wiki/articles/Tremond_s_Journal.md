@@ -10,7 +10,7 @@ categories: ["Quest items", "Readable items", "Turtle WoW content"]
 ---
 # Tremond's Journal
 
--Tremond's Journal** drops from [Lighthouse Keeper Tremond](Lighthouse Keeper Tremond).
+**Tremond's Journal** drops from [Lighthouse Keeper Tremond](Lighthouse Keeper Tremond).
 
 ## As a quest objective
 - [quest: Forgotten Stories]

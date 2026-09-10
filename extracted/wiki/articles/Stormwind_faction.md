@@ -29,7 +29,7 @@ categories: ["Alliance factions", "Factions"]
 | rewards | Horse mounts (rare and epic) |
 | tabard | Stormwind Tabard.png |
 
--Stormwind** is the faction associated with [Stormwind City](Stormwind City), the capital of the [Alliance](Alliance) [human](human)s as well as the [Kingdom of Stormwind](Kingdom of Stormwind). It is located in the northwestern part of [Elwynn Forest](Elwynn Forest). It is ruled by the young child king [Anduin Wrynn](Anduin Wrynn), regent Highlord [Bolvar Fordragon](Bolvar Fordragon), and [Lady Katrana Prestor](Lady Katrana Prestor).
+**Stormwind** is the faction associated with [Stormwind City](Stormwind City), the capital of the [Alliance](Alliance) [human](human)s as well as the [Kingdom of Stormwind](Kingdom of Stormwind). It is located in the northwestern part of [Elwynn Forest](Elwynn Forest). It is ruled by the young child king [Anduin Wrynn](Anduin Wrynn), regent Highlord [Bolvar Fordragon](Bolvar Fordragon), and [Lady Katrana Prestor](Lady Katrana Prestor).
 
 ## Reputation
 [Clavicus Knavingham](Clavicus Knavingham) has the repeatable cloth quests to achieve a higher reputation with Stormwind. In return for exalted reputation, non-human players are able to ride [horse](horse)s.

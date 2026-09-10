@@ -26,7 +26,7 @@ categories: ["Dun Morogh NPCs", "Gnome characters", "Quest givers", "Removed Iro
 | location | Gnomeregan Reclamation Facility, Dun Morogh |
 | status | Alive |
 
--Gelbin Mekkatorque** is the current High Tinker of Gnomeregan and leader of the gnomish evacuees from Gnomeregan. He is the current elected leader of gnomekind, though as one of the perks of his station, he likes to style himself as "King of Gnomes".
+**Gelbin Mekkatorque** is the current High Tinker of Gnomeregan and leader of the gnomish evacuees from Gnomeregan. He is the current elected leader of gnomekind, though as one of the perks of his station, he likes to style himself as "King of Gnomes".
 
 ## Biography
 The gnomes have not had a proper king or queen for over four hundred years. Instead, they prefer to elect their highest officials for set terms of service. The highest office in Gnomeregan, High Tinker, has been held by the crafty Gelbin Mekkatorque for the past seven years. Gelbin is one of the most renowned inventors ever, and has been honored as a just and skillful leader. However, when the troggs began their invasion of Gnomeregan, Gelbin was unprepared to stop them. At the behest of his top advisor, Mekgineer Thermaplugg, he ordered that the city be bathed in toxic radiation. Though the radiation stopped the raiders' advance, it ultimately killed more gnomes than troggs. Now the High Tinker carries the weight of the dead on his shoulders and seeks to avenge his people by reclaiming their lost city. (ref: *World of Warcraft: Game Manual*, pg. 175)
@@ -43,10 +43,10 @@ He is, however, credited with the construction of the Deeprun Tram, a fast runni
 
 ## Quotes
 ### Gossip
-  -Tinker Town (removed from the game)**
+**Tinker Town (removed from the game)**
 Welcome to Tinker Town!
 
-  -Gnomeregan Reclamation Facility**
+**Gnomeregan Reclamation Facility**
 Welcome to the Gnomeregan Reclamation Facility! I am High Tinker Gelbin Mekkatorque, King of Gnomeregan.
 
 While we are grateful for the hospitality of the dwarves, the terminal for the Deeprun Tram will no longer suffice as a home for the Gnomish people. Gnomeregan must be reclaimed, and this old factory has been refurbished into new quarters for the Gnomish people to do so. We can use this place as a staging ground to cleanse and reclaim Gnomeregan from the traitorous Lepers.
@@ -56,16 +56,16 @@ We will reclaim what is ours... and bring Thermaplugg to justice!
 Now, having said that. What can I help you with?
 
 ### On-click
--I just love to tinker!
--Necessity is the first cousin of invention.
--Hello there! Welcome to Tinkertown.
--Any news from Gnomeregan?
+- I just love to tinker!
+- Necessity is the first cousin of invention.
+- Hello there! Welcome to Tinkertown.
+- Any news from Gnomeregan?
 
 ### Combat
-  -Aggro**
--I won't stand for that!
-  -Killing a player**
--Pick on someone your own size!
+**Aggro**
+- I won't stand for that!
+**Killing a player**
+- Pick on someone your own size!
 
 ## Patch changes
 - (Patch 1.17.0|note=Moved from [Tinker Town](Tinker Town) in [Ironforge](Ironforge) to the [Gnomeregan Reclamation Facility](Gnomeregan Reclamation Facility).)

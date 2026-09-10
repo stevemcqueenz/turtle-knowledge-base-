@@ -25,13 +25,13 @@ categories: ["Food and drink vendors", "Human characters", "Northwind NPCs", "Qu
 | status | Alive |
 | location | The Plump Pumpkin, Northwind |
 
--Jarold Thorpe** is a [human](human) food and drink vendor and quest giver in the [Plump Pumpkin](Plump Pumpkin) in [Northwind](Northwind).
+**Jarold Thorpe** is a [human](human) food and drink vendor and quest giver in the [Plump Pumpkin](Plump Pumpkin) in [Northwind](Northwind).
 
 ## Quests
 - [quest: Amberfin Bounty] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 What a commotion. The Plump Pumpkin is usually bustling with visitors, but with all the invaders from the east all I got is this brooding relic over there asking me too many questions. Either way: welcome to the Plump Pumpkin! Hungry or thirsty, by chance?
 
 ## Patch changes

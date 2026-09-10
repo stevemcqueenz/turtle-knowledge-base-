@@ -10,4 +10,4 @@ categories: ["Pages with broken file links", "Spiders", "Stonetalon Mountains su
 ---
 # Webwinder Path
 
--Webwinder Path** leads to [Windshear Crag](Windshear Crag), filled with Deepmoss [spider](spider)s and their eggs.
+**Webwinder Path** leads to [Windshear Crag](Windshear Crag), filled with Deepmoss [spider](spider)s and their eggs.

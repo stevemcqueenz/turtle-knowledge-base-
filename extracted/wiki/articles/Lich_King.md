@@ -84,7 +84,7 @@ However, Illidan was waiting for him. Arthas warned Illidan to leave Azeroth and
 
 Arthas entered the hollow glacier and beheld a winding pinnacle chained to the ice. As he strode up the stairs towards his destiny, the voices of those he had forsaken flooded through his mind. He heard [Muradin Bronzebeard](Muradin Bronzebeard), [Uther](Uther the Lightbringer), and [Jaina](Jaina Proudmoore) calling out to him, yet he ignored them, continuing his ascent.  Finally, he reached the pinnacle and before him he saw an icy cask, within which was a suit of armour, arranged as if seated on a massive throne.  Now only one voice spoke to him, the rasping whisper of [Ner'zhul](Ner'zhul): 
 
--Return the blade... complete the circle... release me from this prison!*
+*Return the blade... complete the circle... release me from this prison!*
 
 With a great cry of strength, Arthas brought the might of [Frostmourne](Frostmourne) to bear against the Lich King's icy prison and with a haunting scream, the Frozen Throne exploded, and shards of the crystal scattered on the ground.  With Ner’zhul’s thorny helm at his feet, Arthas leaned forward, picked it up and then placed the unimaginably powerful artifact on his head. 
 

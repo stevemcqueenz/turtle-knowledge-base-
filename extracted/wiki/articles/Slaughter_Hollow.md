@@ -10,4 +10,4 @@ categories: ["Alterac Mountains subzones", "Caves", "Ogres", "Pages with broken 
 ---
 # Slaughter Hollow
 
--Slaughter Hollow** is an [ogre](ogre) mound deep in the [Alterac Mountains](Alterac Mountains) home to the [Crushridge](Crushridge) ogres.
+**Slaughter Hollow** is an [ogre](ogre) mound deep in the [Alterac Mountains](Alterac Mountains) home to the [Crushridge](Crushridge) ogres.

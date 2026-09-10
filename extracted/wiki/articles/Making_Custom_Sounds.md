@@ -89,7 +89,7 @@ http://imgur.com/6zSZLtM
 
 ### 1) Making the Right Folders
 #### The folder structure:
-  - World of Warcraft\Sound\Item\Weapons\Gun**
+** World of Warcraft\Sound\Item\Weapons\Gun**
 
 If you don't have these folders already, make them.
 

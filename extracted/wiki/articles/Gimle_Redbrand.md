@@ -27,10 +27,10 @@ categories: ["Dwarf characters", "Ironforge NPCs", "Turtle WoW content"]
 | status | Alive |
 | relatives | Redbrand family |
 
--Gimle Redbrand** is a [dwarf](dwarf) located in the [Mystic Ward](Mystic Ward) in [Ironforge](Ironforge).
+**Gimle Redbrand** is a [dwarf](dwarf) located in the [Mystic Ward](Mystic Ward) in [Ironforge](Ironforge).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I wouldn't mess with the Redbrand if I were ye.
 
 ## Patch changes

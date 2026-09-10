@@ -13,7 +13,4 @@ categories: ["Stormwrought Ruins subzones"]
 The **Stormwrought Court** is a courtroom inside [Stormwrought Ruins](Stormwrought Ruins). It is here that [Duke Balor the IV](Duke Balor the IV) can be fought.
 
 ## NPCs
-- 
-- 
-- 
--
+- - - -

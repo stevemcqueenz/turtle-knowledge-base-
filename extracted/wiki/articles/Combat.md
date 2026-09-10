@@ -11,6 +11,6 @@ categories: ["Combat", "Game Terms", "Stubs"]
 # Combat
 
 # Overview
-  -Combat** has a couple of meanings in World of Warcraft:
+**Combat** has a couple of meanings in World of Warcraft:
 # The state where your character is considered actively fighting and prevents actions that can only be done out of combat, like using [food](Food) or [drink](Drink).
 # Anything having to do with fighting, especially physical combat with [weapons](Weapon) and [armor](Armor).

@@ -22,10 +22,10 @@ In Alterac Valley, your goal is to push your way to the other faction's base, an
 
 The official Alliance entrance is in The Headlands north of [Southshore](Southshore). However like all [BG](BG)s you can enter through a [Battlemaster](Battlemaster). Once inside the instance, the alliance base rests in the north. Their primary fortress is called [Dun Balder](Alterac Valley#Dun Balder) in which resides their [General](Alterac Valley#Generals); [Vanndar Stormpike](Vanndar Stormpike). The Alliance [Captain](Alterac Valley#Captains) is [Balinda Stonehearth](Balinda Stonehearth) who stays in [Stonehearth Outpost](Alterac Valley#Stonehearth Outpost). There are 4 Alliance [Commanders](Alterac Valley#Commanders) and 6 Alliance [Lieutenants](Alterac Valley#Lieutenants) scattered throughout the [Towers](Alterac Valley#Towers) and [Graveyards](Alterac Valley#Graveyards).
 
-  -*Horde Base:** [Frostwolf Keep](Frostwolf Keep) (South)
-  -*Horde Entrance:** North of [Tarren Mill](Tarren Mill)
+- **Horde Base:** [Frostwolf Keep](Frostwolf Keep) (South)
+- **Horde Entrance:** North of [Tarren Mill](Tarren Mill)
 
--Note that Alterac Valley is not level-banded like [Warsong Gulch](Warsong Gulch) and [Arathi Basin](Arathi Basin).*
+*Note that Alterac Valley is not level-banded like [Warsong Gulch](Warsong Gulch) and [Arathi Basin](Arathi Basin).*
 
 There are also many NPC units working on your side.  NPC players in AV can be buffed, healed, bandaged, and many other spell effects apply to them like paladin auras or the AoE buff of Battle Standards.
 
@@ -297,7 +297,7 @@ As you fight in Alterac Valley, you earn reputation with either the [Frostwolf C
 
 Note that in Alterac Valley all reputation with Stormpike/Frostwolves is shared amoungst all combatants, whether or not they are partied with you or not. However some turns in will give reputation with one of the 4 main primary factions. This faction is not shared.
 
-  -Stormpike/Frostwolf reputation is gained in the following ways:**
+**Stormpike/Frostwolf reputation is gained in the following ways:**
 - Killing the enemy General (300 rep)
 - Killing the enemy Captain (125 rep)
 - Killing an enemy Lieutenant or Commander (12 rep)
@@ -314,9 +314,9 @@ Note that in Alterac Valley all reputation with Stormpike/Frostwolves is shared 
   - Bringing a ram/frostwolf to your stable (1 rep)
   - Storm Crystals/Stormpike Blood (1 rep, 5 rep for Crystal Cluster or Gallon of Blood)
   - **Wind Riders**
-  -* Sildore/Guse (1 rep)
-  -* Vipore/Jeztor (2 rep)
-  -* Ichman/Mulverik (5 rep)
+  - * Sildore/Guse (1 rep)
+  - * Vipore/Jeztor (2 rep)
+  - * Ichman/Mulverik (5 rep)
 - **At the end of the game, extra rep is gained for each of the following conditions:**
   - Enemy Captain killed (36 rep)
   - Your Captain is still alive (125 rep)

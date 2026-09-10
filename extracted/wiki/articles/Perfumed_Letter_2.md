@@ -10,7 +10,7 @@ categories: ["Readable items", "Turtle WoW content"]
 ---
 # Perfumed Letter (2)
 
--Perfumed Letter #2** is acquired by interacting with the [Suspicious Pumpkin](Suspicious Pumpkin) in the field of the [Plump Pumpkin](Plump Pumpkin) in [Northwind](Northwind) while in possession of [Perfumed Letter #1](Perfumed Letter (1)).
+**Perfumed Letter #2** is acquired by interacting with the [Suspicious Pumpkin](Suspicious Pumpkin) in the field of the [Plump Pumpkin](Plump Pumpkin) in [Northwind](Northwind) while in possession of [Perfumed Letter #1](Perfumed Letter (1)).
 
 ## Contains
 ## Patch changes

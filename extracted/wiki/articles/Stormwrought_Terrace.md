@@ -10,12 +10,7 @@ categories: ["Stormwrought Ruins subzones"]
 ---
 # Stormwrought Terrace
 
--Stormwrought Terrace** is an area located at [Stormwrought Descent](Stormwrought Descent) outside of [Stormwrought Ruins](Stormwrought Ruins). It is here that [Subjugator Halthas Shadecrest](Subjugator Halthas Shadecrest) can be fought.
+**Stormwrought Terrace** is an area located at [Stormwrought Descent](Stormwrought Descent) outside of [Stormwrought Ruins](Stormwrought Ruins). It is here that [Subjugator Halthas Shadecrest](Subjugator Halthas Shadecrest) can be fought.
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
--
+- - - - - -

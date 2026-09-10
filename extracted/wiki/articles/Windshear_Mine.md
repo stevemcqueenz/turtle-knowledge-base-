@@ -10,4 +10,4 @@ categories: ["Goblin territories", "Mines", "Stonetalon Mountains subzones"]
 ---
 # Windshear Mine
 
--Windshear Mine** is a [tin](tin) [mine](mine) located at the end of [Blackwolf River](Blackwolf River) in [Windshear Crag](Windshear Crag). The [Venture Company](Venture Company) controls the area, employing [kobold](kobold)s to mine the area.
+**Windshear Mine** is a [tin](tin) [mine](mine) located at the end of [Blackwolf River](Blackwolf River) in [Windshear Crag](Windshear Crag). The [Venture Company](Venture Company) controls the area, employing [kobold](kobold)s to mine the area.

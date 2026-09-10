@@ -25,7 +25,7 @@ categories: ["Human characters", "Lordaeron (kingdom)", "Tirisfal Glades mobs", 
 | gender | Both |
 | location | Remnants Camp, Tirisfal Glades |
 
--Remnants Footmen** are humans found in the [Remnants Camp](Remnants Camp) in [Tirisfal Glades](Tirisfal Glades).
+**Remnants Footmen** are humans found in the [Remnants Camp](Remnants Camp) in [Tirisfal Glades](Tirisfal Glades).
 
 ## Objective of
 - [quest: Fall Of The Usurper]

@@ -16,7 +16,7 @@ Retrieves the number of auction items of a certain type.
 </syntaxhighlight>
 ----
 
-  - *Arguments***
+** *Arguments***
    (string type)
 
   ; type
@@ -30,7 +30,7 @@ Retrieves the number of auction items of a certain type.
 
 ----
 
-  - *Returns***
+** *Returns***
 
   ; batch
    The size of the batch, seems to be MIN(NUM_AUCTION_ITEMS_PER_PAGE,count)
@@ -39,7 +39,7 @@ Retrieves the number of auction items of a certain type.
 
 ----
 
-  - *Example***
+** *Example***
 <syntaxhighlight lang="lua">
  numBatchAuctions, totalAuctions = GetNumAuctionItems("bidder");
 </syntaxhighlight>

@@ -13,20 +13,7 @@ categories: ["Stormwrought Ruins subzones"]
 The **Sanctum of Blood** is an area located in deep within the [Stormwrought Descent](Stormwrought Descent) in [Stormwrought Ruins](Stormwrought Ruins). It is from there that the [Shadow Council](Shadow Council) operates on [Balor](Balor), and the [Remains of the Innocent](Remains of the Innocent) and [Lady Drazare](Lady Drazare) can be fought here. The deepest recesses of the sanctum houses the [Temple of Shadows](Temple of Shadows), where the Shadow Council seeks to summon [Mergothid the All-Seeing](Mergothid).
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-## Gallery
+- - - - - - - - - - - - ## Gallery
 <gallery>
 Sanctum of Blood2.png
 Sanctum of Blood3.png

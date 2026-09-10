@@ -25,10 +25,10 @@ categories: ["Cooks", "Goblin characters", "Quest givers", "Tel'Abim NPCs", "Tur
 | location | Tel Co. Basecamp, Tel'Abim |
 | status | Alive |
 
--Chef Danonzo Laxjolt** is a [goblin](goblin) quest giver located in [Tel Co. Basecamp](Tel Co. Basecamp) in [Tel'Abim](Tel'Abim).
+**Chef Danonzo Laxjolt** is a [goblin](goblin) quest giver located in [Tel Co. Basecamp](Tel Co. Basecamp) in [Tel'Abim](Tel'Abim).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Listen here pal, sometimes you need to think outside the box. I spent many of my days working with boring strider meat in [Ratchet](Ratchet), and if I ever wanna make it big with a bigshot name in Kezan, I need to use some innovation.
 
 A goblins best trait is cunning, and thinking, you see? A big brain needs big ideas and what better way to think out of the box than Tel'abim? Bananas are the secret kid, I'm tellin' ya, just the right spice, the right ingredients, and it'll hit big.

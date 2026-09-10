@@ -39,7 +39,7 @@ Operative **Verona Gillian** is a [human](human) [quest giver](quest giver) loca
 - [quest: Heart of Darkness] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 For me, Balor was nothing more than a mare my parents used to jokingly scare me with; to prepare me for the dangers outside of Stormwind. I even continued telling the same terrifying fairy tales to my children, much to the dismay of my husband. Now that I am here, I wish those stories were reality.
 
 ## Patch changes

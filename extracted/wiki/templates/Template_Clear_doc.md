@@ -10,19 +10,19 @@ categories: ["Template documentation"]
 ---
 # Template:Clear/doc
 
--Description**
+**Description**
 This template allows you to clear the left side, right side, or both sides of the page. Clearing means that the content following the template will not be displayed until the existing content on the specified sides (for example, "hanging" or floating images or blocks) is displayed completely. This template is often used so that the text does not flow around unrelated images.
 
 The template adds the following code to the page: <code><nowiki></nowiki></code> (the value after <code>clear</code> depends on the parameters). This code affects elements with the CSS property <code>float</code>, including files floated to the side (for example, <code><nowiki></nowiki></code>).
 
-  -Syntax**
+**Syntax**
 - To clear both sides of the page, add the code .
 - To clear only the left side of the page, add the code .
 - To clear only the right side of the page, add the code .
 
 You can also use  instead of  as a shorthand call for this template.
 __NOTOC__
-  -Example **
+**Example **
 <pre style="display:table">
 
 ### Section 1

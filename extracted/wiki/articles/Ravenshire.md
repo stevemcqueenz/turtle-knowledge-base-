@@ -30,42 +30,18 @@ categories: ["Alliance quest hubs", "Alliance settlements", "Gilneas subzones", 
 | flightpath | Yes |
 | status | Active |
 
--Ravenshire** is an [Alliance](Alliance)-aligned port town located in eastern [Gilneas](Gilneas). It is one of the oldest towns in Gilneas and is sworn to the lords of [Ravenwood Keep](Ravenwood Keep), though with the recent destruction of the Keep, [Lord Darius Ravenwood](Lord Darius Ravenwood) has moved his court to Ravenshire. (ref: [Historian Samuel Ravencrest#Quotes](Historian Samuel Ravencrest#Quotes)) In the center of the town is erected the [Gilneas Memorial Stone](Gilneas Memorial Stone), a monument in memory of fallen Gilnean soldiers.
+**Ravenshire** is an [Alliance](Alliance)-aligned port town located in eastern [Gilneas](Gilneas). It is one of the oldest towns in Gilneas and is sworn to the lords of [Ravenwood Keep](Ravenwood Keep), though with the recent destruction of the Keep, [Lord Darius Ravenwood](Lord Darius Ravenwood) has moved his court to Ravenshire. (ref: [Historian Samuel Ravencrest#Quotes](Historian Samuel Ravencrest#Quotes)) In the center of the town is erected the [Gilneas Memorial Stone](Gilneas Memorial Stone), a monument in memory of fallen Gilnean soldiers.
 
 ## Travel connections
 ### Flight
-  - [Southshore](Southshore), [Hillsbrad Foothills](Hillsbrad Foothills)**
+** [Southshore](Southshore), [Hillsbrad Foothills](Hillsbrad Foothills)**
 
 ## Inhabitants
 ### Quest givers
-- 
-- 
--  (after [quest: On Legend's Trail])
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-### Goods and services
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-### Additional characters
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - (after [quest: On Legend's Trail])
+- - - - - - - ### Goods and services
+- - - - - - - - ### Additional characters
+- - - - ## Patch changes
 - (Patch 1.17.0|note=Added.)
 
 ## References

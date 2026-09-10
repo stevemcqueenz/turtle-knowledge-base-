@@ -24,7 +24,7 @@ categories: ["Feralas", "Kalimdor", "Turtle WoW content"]
 | affiliation | Darnassus, Alliance, Tauren tribes, Horde, Grimtotem clan, Gordunni, Woodpaw gnolls, Feral Scar |
 | rulers | General Shandris Feathermoon, King Gordok, Lord Shalzaru |
 
--Feralas**, unlike its barren neighbors to the north, south, and east, is a lush jungle. Both the [Horde](Horde) and [Alliance](Alliance) lay claim to the area and have to contend with powerful local forces. These include the bloodthirsty [Gordunni](Gordunni) [ogre](ogre)s which populate the region and control a number of scattered ancient [elven](night elf) ruins, including the vast ruined city now known as [Dire Maul](Dire Maul). The ogres have desecrated and defiled much of Feralas, damaging the land with their taint. The Horde in particular is concerned with the unchecked expansion of the Gordunni and has put out a call for [adventurer](adventurer)s to aid the war effort against them. Feralas is also home to a number of [Woodpaw](Woodpaw) [gnoll](gnoll)s and [Grimtotem](Grimtotem) [tauren](tauren), members of which are hunted by order of [Belgrom Rockmaul](Belgrom Rockmaul) in [Orgrimmar](Orgrimmar). The far western islands are crawling with [naga](naga) and recently several [silithid](silithid) hives have been spotted. Feralas is also the location of one of the four [Great Tree](Great Tree)s leading to the [Emerald Dream](Emerald Dream).
+**Feralas**, unlike its barren neighbors to the north, south, and east, is a lush jungle. Both the [Horde](Horde) and [Alliance](Alliance) lay claim to the area and have to contend with powerful local forces. These include the bloodthirsty [Gordunni](Gordunni) [ogre](ogre)s which populate the region and control a number of scattered ancient [elven](night elf) ruins, including the vast ruined city now known as [Dire Maul](Dire Maul). The ogres have desecrated and defiled much of Feralas, damaging the land with their taint. The Horde in particular is concerned with the unchecked expansion of the Gordunni and has put out a call for [adventurer](adventurer)s to aid the war effort against them. Feralas is also home to a number of [Woodpaw](Woodpaw) [gnoll](gnoll)s and [Grimtotem](Grimtotem) [tauren](tauren), members of which are hunted by order of [Belgrom Rockmaul](Belgrom Rockmaul) in [Orgrimmar](Orgrimmar). The far western islands are crawling with [naga](naga) and recently several [silithid](silithid) hives have been spotted. Feralas is also the location of one of the four [Great Tree](Great Tree)s leading to the [Emerald Dream](Emerald Dream).
 
 ## Geography
 Feralas is a large rainforest of huge, ancient trees stretching from [Thousand Needles](Thousand Needles) to the coastline in the west and from the wasteland of [Desolace](Desolace) in the north to the lush [Un'Goro Crater](Un'Goro Crater) to the south.
@@ -54,10 +54,10 @@ WorldMap-Feralas-old.jpg|Map of Feralas prior to [patch 1.17.0](patch 1.17.0).
 |}
 
 ### Elite areas
--[Dream Bough](Dream Bough)
--[Isle of Dread](Isle of Dread)
--[Jademir Lake](Jademir Lake)
--[Oneiros](Oneiros)
+- [Dream Bough](Dream Bough)
+- [Isle of Dread](Isle of Dread)
+- [Jademir Lake](Jademir Lake)
+- [Oneiros](Oneiros)
 
 ### Travel Hubs
 #### [Flight path](Flight path)s from [Feathermoon Stronghold](Feathermoon Stronghold)

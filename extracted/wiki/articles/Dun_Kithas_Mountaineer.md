@@ -23,7 +23,7 @@ categories: ["Grim Reaches NPCs", "Guards", "Turtle WoW content", "Wildhammer dw
 | gender | Both |
 | location | Grim Reaches |
 
--Dun Kithas Mountaineers** are [Wildhammer dwarf](Wildhammer dwarf) guards defending the Wildhammers' territories in the [Grim Reaches](Grim Reaches), primarily the town of [Dun Kithas](Dun Kithas).
+**Dun Kithas Mountaineers** are [Wildhammer dwarf](Wildhammer dwarf) guards defending the Wildhammers' territories in the [Grim Reaches](Grim Reaches), primarily the town of [Dun Kithas](Dun Kithas).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

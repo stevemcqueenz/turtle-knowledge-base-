@@ -10,4 +10,4 @@ categories: ["Mining nodes", "Pages with broken file links"]
 ---
 # Mithril Deposit
 
--Mithril Deposits** can be found primarily in zones that have a minimum level of 30, 35, or 40.
+**Mithril Deposits** can be found primarily in zones that have a minimum level of 30, 35, or 40.

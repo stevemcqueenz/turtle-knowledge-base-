@@ -25,10 +25,10 @@ categories: ["Draenei characters", "Flight masters", "Moonwhisper Coast NPCs", "
 | location | Moro'gai Village, Moonwhisper Coast |
 | status | Alive |
 
--Z'ahk** is a [draenei](draenei) hippogryff flight master located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Z'ahk** is a [draenei](draenei) hippogryff flight master located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 We've tamed a few of these birds, they are mighty and awe-inspiring creatures that can carry a great amount of weight. Still, they are stubborn and won't let us Draenei ride on their backs. Perhaps you have more luck?
 
 ## Flight paths

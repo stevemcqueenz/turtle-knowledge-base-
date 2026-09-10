@@ -25,21 +25,21 @@ categories: ["Bosses", "Crystals", "Stormwind Vault mobs", "Turtle WoW content"]
 | status | Killable |
 | instance | Stormwind Vault |
 
--Arc'tiras** (also spelled **Arc'Tiras**) (ref:  [63D] [Ending Arc'Tiras](Ending Arc'Tiras (Alliance))) is the final boss of the [Stormwind Vault](Stormwind Vault).
+**Arc'tiras** (also spelled **Arc'Tiras**) (ref:  [63D] [Ending Arc'Tiras](Ending Arc'Tiras (Alliance))) is the final boss of the [Stormwind Vault](Stormwind Vault).
 
 ## Quotes
-  -Aggro**
+**Aggro**
   They brought me here in greed, and now they have me locked in absolute terror. This prison will be your frozen tomb.
 
-  -Summoning [Frigid Guardians](Frigid Guardians)**
+**Summoning [Frigid Guardians](Frigid Guardians)**
   Arc'tiras vocalizes a chilling chime.
 
-  -Death**
+**Death**
   You hear something shatter behind you!
 
 ## Objective of
--  [63D] [Ending Arc'Tiras (Alliance)](Ending Arc'Tiras (Alliance))
--  [63D] [Ending Arc'Tiras (Horde)](Ending Arc'Tiras (Horde))
+- [63D] [Ending Arc'Tiras (Alliance)](Ending Arc'Tiras (Alliance))
+- [63D] [Ending Arc'Tiras (Horde)](Ending Arc'Tiras (Horde))
 
 ## Loot
 ...

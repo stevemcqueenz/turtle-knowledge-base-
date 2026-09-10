@@ -16,7 +16,7 @@ Postal for easier mailbox management. Improved version that Includes better mail
 Either clone the repository to your WoW/Interface/Add-ons folder, or download manually via GitHub (click on Clone or Download -> Download ZIP. Do not forget to rename the directory to "Postal Returned" afterwards.
 
 ## Git links
-  -[Grymskvll](https://github.com/Grymskvll/Postal-Returned)**
+**[Grymskvll](https://github.com/Grymskvll/Postal-Returned)**
 
 ## Preview
 ## Features

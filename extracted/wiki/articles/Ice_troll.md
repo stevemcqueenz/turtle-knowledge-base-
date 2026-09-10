@@ -23,13 +23,13 @@ The Ice Trolls of Northrend are also a troubled civilisation, first being the ta
 ### Society
 Frostmane society is geared around their state of guerilla war, with even the Whelps and Novices of their Tribe being enlisted into the battle. Headhunters, Hideskinners and Snowstriders form the core of their warrior force, making up the hunter-killer and ranger type warriors of their armies, and Seers and Shadowcasters act as their magic users and spiritual advisors. In the last great war it was observed that the Ice Trolls of Northrend also had Trapper, Berserker, Priest, High Priest and Warlord type martial units, similar to most other Troll military forces, and many of them acted as mercenaries for the [Alliance](Alliance) forces of [Prince Arthas](Prince Arthas) in the belief that the [Lich King](Lich King) was their common enemy.
 
-  -Important Individuals**
--[Grik'nir the Cold](Grik'nir the Cold)
--[Great Father Arctikus](Great Father Arctikus)
+**Important Individuals**
+- [Grik'nir the Cold](Grik'nir the Cold)
+- [Great Father Arctikus](Great Father Arctikus)
 
-  -Tribes/Groups**
--[Frostmane](Frostmane) Tribe
--[Drakkari](Drakkari) Tribe
--[Winterax](Winterax) Tribe
+**Tribes/Groups**
+- [Frostmane](Frostmane) Tribe
+- [Drakkari](Drakkari) Tribe
+- [Winterax](Winterax) Tribe
 
 some taken from [http://iownallyourbase.com/boomshaka/races.php]

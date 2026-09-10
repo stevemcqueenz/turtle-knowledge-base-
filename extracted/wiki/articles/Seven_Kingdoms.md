@@ -44,12 +44,12 @@ AlteracBanner.webp|[Alterac](Alterac (kingdom))
 Demonym is a term for the residents of a locality and is usually, though not always, derived from the name of a locality.
 
 The known demonyms for the Seven Kingdoms' residents are:
-  -*[Alterac](Alterac (kingdom))** = Alteraci. (ref: [The First Greymane](The First Greymane)) (ref: [Bogdan Novak#Quotes](Bogdan Novak#Quotes))
-  -*[Dalaran](Dalaran (kingdom))** = Dalaranian (ref:  or Dalarani.<ref>[Dalarani Conjurer's Hat](https://database.turtle-wow.org/?item=60724)) (ref: [Huey Stafford#Quotes](Huey Stafford#Quotes))
-  -*[Gilneas](Gilneas (kingdom))** = Gilnean. (ref: 
-  -*[Kul Tiras](Kul Tiras (kingdom))** = Kul Tiran<ref>[Kul Tiran Exploratory Fleet](Kul Tiran Exploratory Fleet)) (ref:  [16] [Kul Tiran Provisions: Food](Kul Tiran Provisions: Food)) (ref:  [16] [Kul Tiran Provisions: Special Goods](Kul Tiran Provisions: Special Goods)) or Tirassian. (ref: Derived from the [Tirassian wind-runner](https://wowpedia.fandom.com/wiki/Tirassian_wind-runner).)
-  -*[Lordaeron](Lordaeron (kingdom))** = Lordaeronian (ref: [The Silverpine Wars](The Silverpine Wars)) (ref: [The Silverline Raven](The Silverline Raven)) or Lordaeroni. (ref:  [60] [The Sword Master](The Sword Master))
-  -*[Stormwind](Stormwind (kingdom))** = Stormwindian. (ref: [Breman Hartford#Quotes](Breman Hartford#Quotes))
+- **[Alterac](Alterac (kingdom))** = Alteraci. (ref: [The First Greymane](The First Greymane)) (ref: [Bogdan Novak#Quotes](Bogdan Novak#Quotes))
+- **[Dalaran](Dalaran (kingdom))** = Dalaranian (ref:  or Dalarani.<ref>[Dalarani Conjurer's Hat](https://database.turtle-wow.org/?item=60724)) (ref: [Huey Stafford#Quotes](Huey Stafford#Quotes))
+- **[Gilneas](Gilneas (kingdom))** = Gilnean. (ref: 
+- **[Kul Tiras](Kul Tiras (kingdom))** = Kul Tiran<ref>[Kul Tiran Exploratory Fleet](Kul Tiran Exploratory Fleet)) (ref:  [16] [Kul Tiran Provisions: Food](Kul Tiran Provisions: Food)) (ref:  [16] [Kul Tiran Provisions: Special Goods](Kul Tiran Provisions: Special Goods)) or Tirassian. (ref: Derived from the [Tirassian wind-runner](https://wowpedia.fandom.com/wiki/Tirassian_wind-runner).)
+- **[Lordaeron](Lordaeron (kingdom))** = Lordaeronian (ref: [The Silverpine Wars](The Silverpine Wars)) (ref: [The Silverline Raven](The Silverline Raven)) or Lordaeroni. (ref:  [60] [The Sword Master](The Sword Master))
+- **[Stormwind](Stormwind (kingdom))** = Stormwindian. (ref: [Breman Hartford#Quotes](Breman Hartford#Quotes))
 
 ## Current status
 [King Anduin Wrynn](Anduin Wrynn) is the current ruler of Stormwind, having been crowned in absence of his father, [Varian Wrynn](Varian Wrynn). Stormwind maintains its position as one of the last bastions of humanity and the most powerful nation in the [Alliance](Alliance).

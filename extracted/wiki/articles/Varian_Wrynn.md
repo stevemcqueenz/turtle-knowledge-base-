@@ -45,4 +45,4 @@ Varian Wrynn CoT.png|Varian as he appears in the Caverns of Time.
 
 ## Patch changes
 - (Patch 1.16.0|note=Appearance in the Caverns of Time added.)
--  **[Patch 1.9.0](Patch 1.9.0) (2006-01-03):** Removed from the dungeons beneath [Alcaz Island](Alcaz Island).
+- **[Patch 1.9.0](Patch 1.9.0) (2006-01-03):** Removed from the dungeons beneath [Alcaz Island](Alcaz Island).

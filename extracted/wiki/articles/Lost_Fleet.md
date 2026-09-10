@@ -10,4 +10,4 @@ categories: ["Pages with broken file links", "Wetlands subzones", "Wreckages"]
 ---
 # Lost Fleet
 
--The Lost Fleet** is a pair of ships that recently crashed and sank in the [Baradin Bay](Baradin Bay) off the coast of northern [Bluegill Marsh](Bluegill Marsh). Some say the ships were cursed and that the reason for the crew's undeath is a dark orb hidden deep in the cargo hold of one of the ships. The curse affects anyone trying to locate the orb, transforming them into an illusionary undead form and weakening their spirits. Fortunately, the curse seems to only be permanent on those who are truly dead.
+**The Lost Fleet** is a pair of ships that recently crashed and sank in the [Baradin Bay](Baradin Bay) off the coast of northern [Bluegill Marsh](Bluegill Marsh). Some say the ships were cursed and that the reason for the crew's undeath is a dark orb hidden deep in the cargo hold of one of the ships. The curse affects anyone trying to locate the orb, transforming them into an illusionary undead form and weakening their spirits. Fortunately, the curse seems to only be permanent on those who are truly dead.

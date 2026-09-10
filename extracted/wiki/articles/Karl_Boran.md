@@ -25,7 +25,7 @@ categories: ["Human characters", "Quest givers", "Wetlands NPCs"]
 | status | Alive |
 | relatives | Arnold, Samual (brothers) |
 
--Karl Boran** is a [human](human) [quest giver](quest giver) located in [Menethil Harbor](Menethil Harbor) in the [Wetlands](Wetlands).
+**Karl Boran** is a [human](human) [quest giver](quest giver) located in [Menethil Harbor](Menethil Harbor) in the [Wetlands](Wetlands).
 
 ## Quests
 - [quest: Claws from the Deep] 

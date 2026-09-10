@@ -15,8 +15,5 @@ categories: ["Dun Morogh subzones", "Dwarf territories", "Gnome territories", "S
 Coldridge Valley contains three small camps where dwarves and gnomes receive missions to defend the region from the encroaching troggs, trolls, and wildlife. Other tasks are also to be found, from collecting gear parts to delivering hot stew. When the young recruits are deemed ready to move on, they are sent out through the pass.
 
 ## NPCs
--
--
-
-### Vendors
+- - ### Vendors
 -

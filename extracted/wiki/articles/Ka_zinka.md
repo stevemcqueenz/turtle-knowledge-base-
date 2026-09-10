@@ -25,7 +25,7 @@ categories: ["Demon trainers", "Forest troll characters", "Orgrimmar NPCs", "Tur
 | location | Cleft of Shadow, Orgrimmar |
 | status | Alive |
 
--Ka'zinka** is a [forest troll](forest troll) demon trainer located in the [Cleft of Shadow](Cleft of Shadow) in [Orgrimmar](Orgrimmar).
+**Ka'zinka** is a [forest troll](forest troll) demon trainer located in the [Cleft of Shadow](Cleft of Shadow) in [Orgrimmar](Orgrimmar).
 
 ## Patch changes
 - (Patch 1.17.0|note=Added.)

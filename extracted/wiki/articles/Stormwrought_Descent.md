@@ -10,18 +10,9 @@ categories: ["Stormwrought Ruins subzones"]
 ---
 # Stormwrought Descent
 
--Stormwrought Descent** is the second section of the [Stormwrought Ruins](Stormwrought Ruins) dungeon. It can be accessed with the [Key to Stormwrought Castle](Key to Stormwrought Castle) either from [Stormwrought Castle](Stormwrought Castle (Stormwrought Ruins)) through the [prison](Stormwrought Prison), or through the side entrance at [Treacherous Crags](Treacherous Crags). It encompasses the lower sanctum and caverns beneath the castle that have been occupied by the [Shadow Council](Shadow Council). [Chieftain Stormsong](Chieftain Stormsong) stands guard at the gate between the prison and the inner descent.
+**Stormwrought Descent** is the second section of the [Stormwrought Ruins](Stormwrought Ruins) dungeon. It can be accessed with the [Key to Stormwrought Castle](Key to Stormwrought Castle) either from [Stormwrought Castle](Stormwrought Castle (Stormwrought Ruins)) through the [prison](Stormwrought Prison), or through the side entrance at [Treacherous Crags](Treacherous Crags). It encompasses the lower sanctum and caverns beneath the castle that have been occupied by the [Shadow Council](Shadow Council). [Chieftain Stormsong](Chieftain Stormsong) stands guard at the gate between the prison and the inner descent.
 
 ## NPCs
-  -Descent gate**
-- 
-- 
-- 
-- 
-
-  -Caverns**
-- 
-- 
-- 
-- 
--
+**Descent gate**
+- - - - ;Caverns
+- - - - -

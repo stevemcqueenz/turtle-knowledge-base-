@@ -38,7 +38,7 @@ I can subside the pearl's unbridled power with a spell, but I require a few ingr
 ## Rewards
 You will receive:
 - 3000 XP
--+100 [reputation](reputation) with [Kul Tiras](Kul Tiras (faction))
+- +100 [reputation](reputation) with [Kul Tiras](Kul Tiras (faction))
 
 ## Progress
 From what we gathered I would assume the murlocs are collecting the shards of the broken pearl to complete it again. They do possess a degree of intelligence, more than enough to cast spells, yet even this is abnormal for what you'd expect from your regular murloc.

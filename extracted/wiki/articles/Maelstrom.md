@@ -20,12 +20,12 @@ At the center of the Maelstrom is a location known as, The [Eye](Eye). The empir
 
 In Warcraft three, when Thrall's fleet crashed, it made an emergency landing on an island near the maelstrom where the trolls were fighting desperately against human colonists and murloc raiders. The island was destroyed and Thrall barely escaped.
 ## Zones & Locations
--The [Eye](Eye)
--[Nazjatar](Nazjatar)
--The [Boiling Terrace](Boiling Terrace)
--The [Rift](Rift)
--[Scintal Reef](Scintal Reef)
--The [Drowned Reaches](Drowned Reaches)
--[Gishan Caverns](Gishan Caverns)
--[Mak'aru](Mak'aru)
--[Pillar Deep](Pillar Deep)
+- The [Eye](Eye)
+- [Nazjatar](Nazjatar)
+- The [Boiling Terrace](Boiling Terrace)
+- The [Rift](Rift)
+- [Scintal Reef](Scintal Reef)
+- The [Drowned Reaches](Drowned Reaches)
+- [Gishan Caverns](Gishan Caverns)
+- [Mak'aru](Mak'aru)
+- [Pillar Deep](Pillar Deep)

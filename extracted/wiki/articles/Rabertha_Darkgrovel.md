@@ -25,13 +25,13 @@ categories: ["Demon trainers", "Dwarf characters", "Ironforge NPCs", "Turtle WoW
 | location | Forlorn Cavern, Ironforge |
 | status | Alive |
 
--Rabertha Darkgrovel** is a [dwarf](dwarf) demon trainer located in the [Forlorn Cavern](Forlorn Cavern) in [Ironforge](Ironforge).
+**Rabertha Darkgrovel** is a [dwarf](dwarf) demon trainer located in the [Forlorn Cavern](Forlorn Cavern) in [Ironforge](Ironforge).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Your miserable demon pets are a disgrace. You're putting your fellow disciples to shame with weaklings such as them. Let me remedy this, for but a few coins of your own.
 
-  -Non-warlock gossip**
+**Non-warlock gossip**
 I have no time for fruitless riffraff. You shall not pester me any longer. If you are no warlock, seek your own ilk, <class>.
 
 ## Patch changes

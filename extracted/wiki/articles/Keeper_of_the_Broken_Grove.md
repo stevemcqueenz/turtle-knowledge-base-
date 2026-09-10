@@ -64,10 +64,10 @@ But for now, the forest breathes a little easier.
 You have done well.
 
 ## Progression
-1.[quest: The Moth's Heresy]
-1.[quest: A Dryad's Counsel]
-1.[quest: The Rot of Elun'aran]
-1.[quest: Keeper of the Broken Grove]
+1. [quest: The Moth's Heresy]
+1. [quest: A Dryad's Counsel]
+1. [quest: The Rot of Elun'aran]
+1. [quest: Keeper of the Broken Grove]
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

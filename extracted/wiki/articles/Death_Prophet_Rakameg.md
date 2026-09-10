@@ -26,17 +26,17 @@ categories: ["Bosses", "Quilboar characters", "Razorfen Downs mobs", "Turtle WoW
 | status | Killable |
 | instance | Razorfen Downs |
 
--Death Prophet Rakameg** is a boss in [Razorfen Downs](Razorfen Downs).
+**Death Prophet Rakameg** is a boss in [Razorfen Downs](Razorfen Downs).
 
 ## Abilities
 - Shadow Burst
 - Consuming Shadows
 
 ## Quotes
-  -Aggro**
+**Aggro**
   Agamaggan shall be reborn!
 
-  -Death**
+**Death**
   No! No! I cannot die!
 
 ## Loot

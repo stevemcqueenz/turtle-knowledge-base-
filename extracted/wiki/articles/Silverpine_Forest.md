@@ -22,7 +22,7 @@ categories: ["Eastern Kingdoms", "Forests", "Silverpine Forest", "Turtle WoW con
 | affiliation | Forsaken, Horde, Magocracy of Dalaran, Moonrage pack, Shadowfang pack, Scourge |
 | faffiliation | Kingdom of Lordaeron |
 
--Silverpine Forest**, or simply **Silverpine**, is a vast, ancient wood that runs along [Lordaeron's](Lordaeron) rugged western coast. The land ranges from fairly flat to hilly, and is nestled among even taller mountains. The forest is eerily silent save for the occasional unnatural howling echoing among the trees. Mossy overhangs shiver in the cold breeze, and the trees are all sickly or dying. Dilapidated farmsteads and abandoned mines dot the land, home now to the darker denizens of the woods.
+**Silverpine Forest**, or simply **Silverpine**, is a vast, ancient wood that runs along [Lordaeron's](Lordaeron) rugged western coast. The land ranges from fairly flat to hilly, and is nestled among even taller mountains. The forest is eerily silent save for the occasional unnatural howling echoing among the trees. Mossy overhangs shiver in the cold breeze, and the trees are all sickly or dying. Dilapidated farmsteads and abandoned mines dot the land, home now to the darker denizens of the woods.
 
 This woodland is haunted and wild, characterized by its tall, silver-barked pines towering over grassy knolls. The [Alliance](Alliance) once protected Silverpine Forest when it was verdant and lively. Now the place is shrouded in ghostly mists. [Forsaken](Forsaken) control the northern forest and constantly clash with the wretched [Rot Hide](Rot Hide) [gnoll](gnoll)s. What remains of the human population retains control of the southern forest, but they are desperate and their forces thinly stretched. [Dalaran](Dalaran) sends frequent expeditions into Silverpine to defend these people and reactivate a dormant ley energy node. (ref:  [14] [Dalaran's Intentions](Dalaran's Intentions))
 
@@ -61,7 +61,7 @@ WorldMap-Silverpine-old.png|Silverpine prior to [patch 1.16.0](patch 1.16.0).
 ||[Ambermill](Ambermill) • [Beren's Peril](Beren's Peril) • [The Dawning Isles](Dawning Isles) • [The Dead Field](Dead Field) • [The Decrepit Ferry](Decrepit Ferry) • [Deep Elem Mine](Deep Elem Mine) • [Fenris Isle](Fenris Isle) • [Fenris Keep](Fenris Keep) • [The Greymane Wall](Greymane Wall) • [The Ivar Patch](Ivar Patch) • [Lordamere Lake](Lordamere Lake) • [Malden's Orchard](Malden's Orchard) • [North Tide's Hollow](North Tide's Hollow) • [North Tide's Run](North Tide's Run) • [Olsen's Farthing](Olsen's Farthing) • [Pyrewood Village](Pyrewood Village) • [The Sepulcher](Sepulcher) • [Shadowfang Keep](Shadowfang Keep) • [The Shining Strand](Shining Strand) • [The Skittering Dark](Skittering Dark) • [South Tide's Run](South Tide's Run) • [Valgan's Field](Valgan's Field)
 |-
 ||
-  -[Warcraft III: The Frozen Throne](Warcraft III: The Frozen Throne)**
+**[Warcraft III: The Frozen Throne](Warcraft III: The Frozen Throne)**
 
 [River Arevass](River Arevass) (TFT)
 |-
@@ -145,26 +145,26 @@ Quests of note in this area include the [Arugal](Arugal) quest chain, in which p
   - [Simple Wood Tree](Simple Wood Tree)
 
 ## Wild creatures
--[Bear](Bear)s
--[Bog beast](Bog beast)s
--[Frenzies](Frenzy (Fish))
--[Ghoul](Ghoul)s
--[Gnoll](Gnoll)s
--[Murloc](Murloc)s
--[Shark](Shark)s
--[Skeleton](Skeleton)s
--[Spider](Spider)s
--[Worgen](Worgen)
--[Worg](Worg)s
+- [Bear](Bear)s
+- [Bog beast](Bog beast)s
+- [Frenzies](Frenzy (Fish))
+- [Ghoul](Ghoul)s
+- [Gnoll](Gnoll)s
+- [Murloc](Murloc)s
+- [Shark](Shark)s
+- [Skeleton](Skeleton)s
+- [Spider](Spider)s
+- [Worgen](Worgen)
+- [Worg](Worg)s
 
 ## Warcraft III
 There is a map in *Warcraft III* named Silverpine Forest.
 
 ## Patch changes
 - (Patch 1.16.0|note=Pathway to the [Tirisfal Uplands](Tirisfal Uplands) added.)
--  **Patch 1.5.0 (2005-06-07):** In Silverpine Forest on Fenris Island, moved a Rot Hide Plague Weaver's spawn point from inside a tree. 
--  **Patch 1.4.0 (2005-04-19):** 
-  -There are no longer fish flying around above the water line in Silverpine Forest.
-  -Aggro radius of Bears and Wolves in Silverpine have been reduced.
+- **Patch 1.5.0 (2005-06-07):** In Silverpine Forest on Fenris Island, moved a Rot Hide Plague Weaver's spawn point from inside a tree. 
+- **Patch 1.4.0 (2005-04-19):** 
+  - There are no longer fish flying around above the water line in Silverpine Forest.
+  - Aggro radius of Bears and Wolves in Silverpine have been reduced.
 
 ## References

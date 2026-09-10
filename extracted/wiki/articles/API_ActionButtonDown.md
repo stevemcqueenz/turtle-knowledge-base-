@@ -15,19 +15,19 @@ categories: ["API Functions"]
 Presses the specified action button.
 
 ## Parameters
-  -Arguments**
+**Arguments**
 
    (Number buttonID)
   ; buttonID
    The button ID of the button to push
 
-  -Returns**
+**Returns**
 
   ; nil
 
 ## Example
  ActionButtonDown(1);
-  -Result**
+**Result**
 
   # Checks if BonusActionBarFrame is visible.
   # If true -

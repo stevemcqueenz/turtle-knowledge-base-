@@ -23,10 +23,10 @@ categories: ["Draenei characters", "Moonwhisper Coast NPCs", "Turtle WoW content
 | location | Moro'gai Village, Moonwhisper Coast |
 | status | Alive |
 
--Botanist Nepkal** is a [draenei](draenei) located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Botanist Nepkal** is a [draenei](draenei) located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I am tending to the flora growing on this island we have settled on. Ever since the tribe drifted here from beyond the Twisting Nether, the plants have steadily worsened over time. The elders and I assume the draenethyst residue that seeped into the soil to be the source of the stress they are suffering from. A regrettable consequence. We have damaged the coast with our arrival and therefore it is our obligation to care for it in turn.
 
 ## Patch changes

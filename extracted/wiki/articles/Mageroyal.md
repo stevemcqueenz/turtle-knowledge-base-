@@ -10,4 +10,4 @@ categories: ["Alchemy crafting reagent items", "Herbalism gathered items", "Herb
 ---
 # Mageroyal
 
--Mageroyal** is an [herb](herb) [crafting reagent](crafting reagent) that can be gathered by [Herbalist](Herbalist)s.
+**Mageroyal** is an [herb](herb) [crafting reagent](crafting reagent) that can be gathered by [Herbalist](Herbalist)s.

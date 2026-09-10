@@ -25,7 +25,7 @@ categories: ["Balor mobs", "Orc characters", "Stormreaver clan", "Turtle WoW con
 | location | Stormreaver Spire, Balor |
 | status | Killable |
 
--Nethercaller Mahlgus** is an [orc](orc) located at [Stormreaver Spire](Stormreaver Spire) in [Balor](Balor).
+**Nethercaller Mahlgus** is an [orc](orc) located at [Stormreaver Spire](Stormreaver Spire) in [Balor](Balor).
 
 ## Objective of
 - [quest: Into The Hornet's Nest]

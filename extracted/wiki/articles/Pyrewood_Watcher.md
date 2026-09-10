@@ -24,7 +24,7 @@ categories: ["Human characters", "Silverpine Forest mobs", "Worgen characters"]
 | aggro |  |
 | location | Pyrewood Village, Silverpine Forest |
 
--Pyrewood Watchers** are [human](human)s located in [Pyrewood Village](Pyrewood Village) in [Silverpine Forest](Silverpine Forest) during the day. At night, they transform into their [worgen](worgen) form as **[Moonrage Watcher](Moonrage Watcher)s**.
+**Pyrewood Watchers** are [human](human)s located in [Pyrewood Village](Pyrewood Village) in [Silverpine Forest](Silverpine Forest) during the day. At night, they transform into their [worgen](worgen) form as **[Moonrage Watcher](Moonrage Watcher)s**.
 
 ## Abilities
 - **Shoot** — Shoots at an enemy, inflicting Physical damage.

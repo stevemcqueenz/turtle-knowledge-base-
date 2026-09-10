@@ -15,7 +15,7 @@ The **Flame of Farrak** is located in [Zul'Farrak](Zul'Farrak), next to [Chief U
 It can be interacted with to obtain the item [Flame of Farrak](Flame of Farrak), which has a ten minute duration and can be used to bypass the ancient embalming of [Zel'jeb the Ancient](Zel'jeb the Ancient) if the party does not have a member capable of dealing fire damage.
 
 ## Quotes
-  -Gossip**
+**Gossip**
 <The flame glows hot, crackling with ancient magic.>
 
   > Gossip: *Take the Flame of Farrak.*

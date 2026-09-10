@@ -26,7 +26,7 @@ categories: ["Druid characters", "Feralas NPCs", "Night elf characters", "Quest 
 | status | Alive |
 | relatives | Bethelon (brother) |
 
--Larodar Wildwhisper** is a [night elf](night elf) quest giver located in [Thalanaar](Thalanaar) in [Feralas](Feralas).
+**Larodar Wildwhisper** is a [night elf](night elf) quest giver located in [Thalanaar](Thalanaar) in [Feralas](Feralas).
 
 ## Quests
 - [quest: The Ruins of Isildien] 
@@ -36,7 +36,7 @@ categories: ["Druid characters", "Feralas NPCs", "Night elf characters", "Quest 
 - [quest: Essence of Zalmos] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Feralas, a land of unrivaled beauty, remains as one of the last sanctuaries of untamed nature in the southern Kalimdor. Come, immerse yourself in its magnificence and sense the ancient tales of our kin.
 
 Alas, these territories have been abandoned for far too long and have now fallen prey to those who seek to obliterate our heritage and fade it into oblivion.

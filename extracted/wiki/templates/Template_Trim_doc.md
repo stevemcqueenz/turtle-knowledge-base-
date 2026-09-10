@@ -10,10 +10,10 @@ categories: ["Template documentation"]
 ---
 # Template:Trim/doc
 
--Description**
+**Description**
 This template trims whitespace from the beginning and end of the supplied value. It works by using the simple hack of filtering it through the <code>#if</code> parser function.
 
-  -Syntax**
+**Syntax**
  <nowiki></nowiki>
 
 <includeonly></includeonly><noinclude></noinclude>

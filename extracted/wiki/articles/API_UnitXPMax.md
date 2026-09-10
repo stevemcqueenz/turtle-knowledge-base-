@@ -34,12 +34,12 @@ Return the max XP of a "unit" - only seems to work with "player".
 </syntaxhighlight>
 
 ## Info
-  -DEFAULT_CHAT_FRAME:AddMessage("text",r,g,b)**
+**DEFAULT_CHAT_FRAME:AddMessage("text",r,g,b)**
   ; [ScrollingMessageFrame:AddMessage("text",r,g,b,id)](API ScrollingMessageFrame AddMessage)
    Valid Frame names: DEFAULT_CHAT_FRAME ChatFrame1 - ChatFrame7
-  -UnitXP("unit")**
+**UnitXP("unit")**
    [UnitXP("unit")](API UnitXP) - Returns the number of experience points the specified unit has in their current level.
-  -floor(value)**
+**floor(value)**
    [floor(value)](API floor) - Returns the floor of value.
 
 ## Macros

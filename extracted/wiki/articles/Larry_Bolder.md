@@ -26,7 +26,7 @@ categories: ["Armor vendors", "Armorsmiths", "Gilneas (kingdom)", "Gilneas NPCs"
 | relatives | Todd (father) |
 | status | Alive |
 
--Larry Bolder** is a [human](human) armor vendor located in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
+**Larry Bolder** is a [human](human) armor vendor located in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
 
 ## Quotes
 My father has been teaching me how to craft and repair armor for pretty much all of my life. If you're ever wanting to learn a thing or two, you should speak with him, he is certainly the best.

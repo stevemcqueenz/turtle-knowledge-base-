@@ -10,4 +10,4 @@ categories: ["Alchemy crafting reagent items", "Herbalism gathered items", "Herb
 ---
 # Silverleaf
 
--Silverleaf** is an [herb](herb) that can be gathered with [Herbalism](Herbalism) starting at a skill level of 1.
+**Silverleaf** is an [herb](herb) that can be gathered with [Herbalism](Herbalism) starting at a skill level of 1.

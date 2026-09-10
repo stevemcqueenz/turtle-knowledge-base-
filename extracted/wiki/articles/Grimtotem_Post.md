@@ -10,4 +10,4 @@ categories: ["Grimtotem tribe", "Pages with broken file links", "Stonetalon Moun
 ---
 # Grimtotem Post
 
--Grimtotem Post**[74, 85] is the base of [Grimtotem](Grimtotem) operations in Stonetalon.  Many different types, such as Brutes, Ruffians, Sorcerers, and Mercenaries patrol the post and nearby areas. The Grimtotem here are lead by the fierce [Grundig Darkcloud](Grundig Darkcloud).
+**Grimtotem Post**[74, 85] is the base of [Grimtotem](Grimtotem) operations in Stonetalon.  Many different types, such as Brutes, Ruffians, Sorcerers, and Mercenaries patrol the post and nearby areas. The Grimtotem here are lead by the fierce [Grundig Darkcloud](Grundig Darkcloud).

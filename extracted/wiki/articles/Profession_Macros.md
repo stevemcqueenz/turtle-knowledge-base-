@@ -33,7 +33,7 @@ Or just simply remove the if statement which will allow it to be used in any fra
 Enchants Aquadynamic Fish Attractor to fishing pole
  <code>/run for b=0,4 do for s=1,18 do local i=GetContainerItemLink if not(i(b,s)==nil)then if strfind(i(b,s), "Aquadynamic Fish Attractor")then  UseContainerItem(b,s)PickupInventoryItem(16)ReplaceEnchant()end end end end</code>
 
-  -Toggle between the named rod and weapon**
+**Toggle between the named rod and weapon**
 
 While holding shift, toggles between the named rod and weapon. While not holding shift, casts fishing. It doesn't take offhands into account.
  <code>/run local p,w,z,c,u,l="Fishing Pole","Gnarled Short Staff",string,CastSpellByName,UseItemByName,GetInventoryItemLink("player",16)local s,e=z.find(l,"%[.+%]")l=z.sub(l,s+1,e-1)if IsShiftKeyDown() then if l~=p then u(p)else u(w)end else c("Fishing")end</code>

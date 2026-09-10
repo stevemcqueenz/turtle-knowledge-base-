@@ -27,11 +27,11 @@ categories: ["Jungle troll characters", "Lapidis Isle NPCs", "Turtle WoW content
 | location | Hazzuri Glade, Lapidis Isle |
 | status | Alive |
 
--Head-Primalist Manaz'ago** is a [jungle troll](jungle troll) quest giver located in [Hazzuri Glade](Hazzuri Glade) in [Lapidis Isle](Lapidis Isle). He is the leader of the [Hazzuri Primalists](Hazzuri Primalists), outcasts from the [Hazzuri tribe](Hazzuri tribe).
+**Head-Primalist Manaz'ago** is a [jungle troll](jungle troll) quest giver located in [Hazzuri Glade](Hazzuri Glade) in [Lapidis Isle](Lapidis Isle). He is the leader of the [Hazzuri Primalists](Hazzuri Primalists), outcasts from the [Hazzuri tribe](Hazzuri tribe).
 
 ## Quests
--  [52] [Thunderhead Horn](Thunderhead Horn) 
--  [55] [Rumors of the Great Fire Plume](Rumors of the Great Fire Plume) 
+- [52] [Thunderhead Horn](Thunderhead Horn) 
+- [55] [Rumors of the Great Fire Plume](Rumors of the Great Fire Plume) 
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

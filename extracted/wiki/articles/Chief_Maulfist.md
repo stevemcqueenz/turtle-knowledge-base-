@@ -24,7 +24,7 @@ categories: ["Gilneas mobs", "Ogre characters", "Turtle WoW content"]
 | location | Brol'ok Mound, Gilneas |
 | status | Killable |
 
--Chief Maulfist** is an ogre found in [Brol'ok Mound](Brol'ok Mound) in [Gilneas](Gilneas). He is vying for power amongst the [Brol'ok](Brol'ok), with his chief rival being [Shinban Four-Eyes](Shinban Four-Eyes).
+**Chief Maulfist** is an ogre found in [Brol'ok Mound](Brol'ok Mound) in [Gilneas](Gilneas). He is vying for power amongst the [Brol'ok](Brol'ok), with his chief rival being [Shinban Four-Eyes](Shinban Four-Eyes).
 
 ## Objective of
 - Drops [Crown of Maulfist](Crown of Maulfist) for [quest: A Chief Among Brutes].

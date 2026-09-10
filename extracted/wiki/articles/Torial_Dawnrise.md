@@ -24,7 +24,7 @@ categories: ["Ammo vendors", "General goods vendors", "High elf characters", "Th
 | gender | Male |
 | location | Brinthilien, Thalassian Highlands |
 
--Torial Dawnrise** is a high elf general goods vendor located in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands).
+**Torial Dawnrise** is a high elf general goods vendor located in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands).
 
 ## Patch changes
 - (Patch 1.17.1|note=Moved from [Farstrider Lodge](Farstrider Lodge) in [Loch Modan](Loch Modan) to the new high elf starting zone at [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands).)

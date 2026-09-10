@@ -25,7 +25,7 @@ categories: ["Eastern Plaguelands NPCs", "Human characters", "Quest givers", "Sc
 | location | Tyr's Hand, Eastern Plaguelands |
 | status | Alive |
 
--Mavel Brightwood** is a human quest giver of the [Scarlet Crusade](Scarlet Crusade) located in [Tyr's Hand](Tyr's Hand).
+**Mavel Brightwood** is a human quest giver of the [Scarlet Crusade](Scarlet Crusade) located in [Tyr's Hand](Tyr's Hand).
 
 ## Quests
 - [quest: Donning the Red Flag] 

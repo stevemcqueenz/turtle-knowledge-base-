@@ -10,11 +10,7 @@ categories: ["Flats", "Human territories", "Westfall subzones"]
 ---
 # Dust Plains
 
--The Dust Plains** are the southernmost area of [Westfall](Westfall). The plains have a population of [gnoll](gnoll)s that threaten adventurers from their few camps. [An abandoned watch tower](Klaven's Tower), recently taken over by the Defias Brotherhood, is located on the eastern edge of the plains.
+**The Dust Plains** are the southernmost area of [Westfall](Westfall). The plains have a population of [gnoll](gnoll)s that threaten adventurers from their few camps. [An abandoned watch tower](Klaven's Tower), recently taken over by the Defias Brotherhood, is located on the eastern edge of the plains.
 
 ## NPCs
-- 
-- 
-- 
-- 
--
+- - - - -

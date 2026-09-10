@@ -10,4 +10,4 @@ categories: ["Badlands subzones", "Black dragonflight", "Dragon territories", "E
 ---
 # Lethlor Ravine
 
--Lethlor Ravine** is a wide craggy valley located in the eastern section of the [Badlands](Badlands). It is populated with [dragon whelp](dragon whelp)s and [drake](drake)s from the [black dragonflight](black dragonflight), and contains several crystalline obelisks that are part of a [quest chain](Broken Alliances (2)).
+**Lethlor Ravine** is a wide craggy valley located in the eastern section of the [Badlands](Badlands). It is populated with [dragon whelp](dragon whelp)s and [drake](drake)s from the [black dragonflight](black dragonflight), and contains several crystalline obelisks that are part of a [quest chain](Broken Alliances (2)).

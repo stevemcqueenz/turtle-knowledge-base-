@@ -23,7 +23,7 @@ categories: ["Gilneas NPCs", "Guards", "Human characters", "Turtle WoW content"]
 | gender | Male |
 | location | Blackthorn's Camp, Gilneas |
 
--Blackthorn Footpads** are human bandit guards defending [Blackthorn's Camp](Blackthorn's Camp) in [Gilneas](Gilneas).
+**Blackthorn Footpads** are human bandit guards defending [Blackthorn's Camp](Blackthorn's Camp) in [Gilneas](Gilneas).
 
 ## Patch changes
 - (Patch 1.17.0|note=Added.)

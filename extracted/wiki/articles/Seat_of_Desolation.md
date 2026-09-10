@@ -10,10 +10,10 @@ categories: ["Tower of Karazhan subzones", "Turtle WoW content"]
 ---
 # Seat of Desolation
 
--The Seat of Desolation** is an area located upon the [Rock of Desolation](Rock of Desolation) within the [Tower of Karazhan](Tower of Karazhan) raid. It is where [Kruul](Kruul), Highlord of the [Burning Legion](Burning Legion), can be fought. After Kruul's defeat, a portal opens up that leads to the [Hand of Mephistroth](Hand of Mephistroth).
+**The Seat of Desolation** is an area located upon the [Rock of Desolation](Rock of Desolation) within the [Tower of Karazhan](Tower of Karazhan) raid. It is where [Kruul](Kruul), Highlord of the [Burning Legion](Burning Legion), can be fought. After Kruul's defeat, a portal opens up that leads to the [Hand of Mephistroth](Hand of Mephistroth).
 
 ## NPCs
--   [Kruul](Kruul) <Highlord of the Burning Legion>
+- [Kruul](Kruul) <Highlord of the Burning Legion>
 
 ## Patch changes
 - (Patch 1.17.2|note=Added.)

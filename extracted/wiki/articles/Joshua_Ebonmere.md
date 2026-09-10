@@ -24,7 +24,7 @@ categories: ["Forsaken characters", "Gilneas NPCs", "Quest givers", "Turtle WoW 
 | location | Ebonmere Farm, Gilneas |
 | status | Active |
 
--Joshua Ebonmere** is a Forsaken [quest giver](quest giver) located at the [Ebonmere Farm](Ebonmere Farm) in [Gilneas](Gilneas).
+**Joshua Ebonmere** is a Forsaken [quest giver](quest giver) located at the [Ebonmere Farm](Ebonmere Farm) in [Gilneas](Gilneas).
 
 ## Quests
 - [quest: Ebonmere Worgen Infestation] 

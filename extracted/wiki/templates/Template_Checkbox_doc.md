@@ -13,13 +13,11 @@ categories: ["Template documentation"]
 Small Icon only template; creates an inline checkbox:
 
 Syntax:
-- 
-
-Options:
--  Checked
--  Partially-checked
--  Unsure
--  Un-checked
+- Options:
+- Checked
+- Partially-checked
+- Unsure
+- Un-checked
 
 Or supply text, and the checks will be listed:
 

@@ -27,10 +27,10 @@ categories: ["Custodians", "Human characters", "Northwind NPCs", "Stormwind (kin
 *"We have been abandoned. [The King](Anduin Wrynn), safe within [his castle](Stormwind Keep), sees no urgency; nor will his soldiers disobey his command to guard him, and him alone."*
    — Custodian Lambert (ref: [THE HIDDEN AREA BETWEEN STORMWIND AND IRONFORGE: Northwind Zone Trailer — Turtle WoW Patch 1.18](https://www.youtube.com/watch?v=vIuS0DXGY6Y))
 
-  -Custodian Lambert** is a [human](human) located at [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind). At a council meeting with [Lord Amberwood](Lord Amberwood), [Sir Hans Dale](Sir Hans Dale) and [Rutherford Justino](Rutherford Justino), it was at his behest that Lord Amberwood send word out to any adventurers who could aid Northwind in the dark hours of the [Blackrock](Blackrock clan) and [Dark Iron](Dark Iron dwarf) incursions.
+**Custodian Lambert** is a [human](human) located at [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind). At a council meeting with [Lord Amberwood](Lord Amberwood), [Sir Hans Dale](Sir Hans Dale) and [Rutherford Justino](Rutherford Justino), it was at his behest that Lord Amberwood send word out to any adventurers who could aid Northwind in the dark hours of the [Blackrock](Blackrock clan) and [Dark Iron](Dark Iron dwarf) incursions.
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Watch your manners and respect the queue. Cutting in line won't get you a quicker audience with Lord Amberwood!
 
 ## Notes and trivia

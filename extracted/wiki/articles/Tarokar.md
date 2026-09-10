@@ -25,13 +25,13 @@ categories: ["Centaur characters", "Gillijim's Isle NPCs", "Quest givers", "Turt
 | location | Kalkor Point, Gillijim's Isle |
 | status | Alive |
 
--Tarokar** is a [centaur](centaur) [quest giver](quest giver) located in [Kalkor Point](Kalkor Point) in [Gillijim's Isle](Gillijim's Isle).
+**Tarokar** is a [centaur](centaur) [quest giver](quest giver) located in [Kalkor Point](Kalkor Point) in [Gillijim's Isle](Gillijim's Isle).
 
 ## Quests
 - [quest: The Ghostly Charm] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Lykourgos will pay for what he has done.
 
 ## Patch changes

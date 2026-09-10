@@ -25,10 +25,10 @@ categories: ["Cooking trainers", "Cooks", "Human characters", "Northwind NPCs", 
 | location | Amberwood Keep, Northwind |
 | status | Alive |
 
--Linus Huxley** is a [human](human) cooking trainer located in [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind).
+**Linus Huxley** is a [human](human) cooking trainer located in [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 No time to twiddle my thumbs, we've got meals to prepare and stomachs to fill! Interested in helping out? I can teach you a few simple dishes.
 
 ## Patch changes

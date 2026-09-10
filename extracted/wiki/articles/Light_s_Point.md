@@ -10,18 +10,18 @@ categories: ["Scarlet Enclave subzones", "Shores", "Towers", "Turtle WoW content
 ---
 # Light's Point
 
--Light's Point** is the beach to the east of [Havenshire](Havenshire) in the [Scarlet Enclave](Scarlet Enclave). [Admiral Barean Westwind](Admiral Barean Westwind)'s doomed fleet has made berth along the shores, and a guard tower located on the bluffs west and above the beach is occupied by [Argent Dawn](Argent Dawn) members of the [Brotherhood of the Light](Brotherhood of the Light) led by [Joshua Ambercrest](Joshua Ambercrest).
+**Light's Point** is the beach to the east of [Havenshire](Havenshire) in the [Scarlet Enclave](Scarlet Enclave). [Admiral Barean Westwind](Admiral Barean Westwind)'s doomed fleet has made berth along the shores, and a guard tower located on the bluffs west and above the beach is occupied by [Argent Dawn](Argent Dawn) members of the [Brotherhood of the Light](Brotherhood of the Light) led by [Joshua Ambercrest](Joshua Ambercrest).
 
-  -Along the shore**
--  [Admiral Barean Westwind](Admiral Barean Westwind) (rare)
--  [Lost Crewman](Lost Crewman)
--  [Wallowing Crewman](Wallowing Crewman)
+**Along the shore**
+- [Admiral Barean Westwind](Admiral Barean Westwind) (rare)
+- [Lost Crewman](Lost Crewman)
+- [Wallowing Crewman](Wallowing Crewman)
 
-  -In the Light's Point tower**
--  [Joshua Ambercrest](Joshua Ambercrest)
--  [Taldran Salwright](Taldran Salwright)
--  [Dunstan Whitereach](Dunstan Whitereach)
--  [Orin Stonefury](Orin Stonefury)
+**In the Light's Point tower**
+- [Joshua Ambercrest](Joshua Ambercrest)
+- [Taldran Salwright](Taldran Salwright)
+- [Dunstan Whitereach](Dunstan Whitereach)
+- [Orin Stonefury](Orin Stonefury)
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

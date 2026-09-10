@@ -25,10 +25,10 @@ categories: ["Tauren characters", "Thousand Needles NPCs", "Turtle WoW content"]
 | location | Sagh's Refuge, Thousand Needles |
 | status | Alive |
 
--Ruhit Windhorn** is a [tauren](tauren) located at [Sagh's Refuge](Sagh's Refuge) in the [Thousand Needles](Thousand Needles).
+**Ruhit Windhorn** is a [tauren](tauren) located at [Sagh's Refuge](Sagh's Refuge) in the [Thousand Needles](Thousand Needles).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The Blackwind are lucky that I was not present during their great conquest of my home. It burns me with anger to know that I was away on a hunt while they stormed and murdered my friends, and family.
 
 ## Patch changes

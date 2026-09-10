@@ -10,4 +10,4 @@ categories: ["Caves", "Hills", "Hillsbrad Foothills subzones", "Yetis"]
 ---
 # Darrow Hill
 
--Darrow Hill** is an area in the northern part of the [Hillsbrad Foothills](Hillsbrad Foothills), beneath the [Headland](Headland) of [Alterac Mountain](Alterac Mountain). [Mountain lion](Mountain lion)s and [stag](stag)s roam its fields, and [yeti](yeti)s inhabit the [Foothill Caverns](Foothill Caverns). [Alterac Granite](Alterac Granite) can be found within the cave found here.
+**Darrow Hill** is an area in the northern part of the [Hillsbrad Foothills](Hillsbrad Foothills), beneath the [Headland](Headland) of [Alterac Mountain](Alterac Mountain). [Mountain lion](Mountain lion)s and [stag](stag)s roam its fields, and [yeti](yeti)s inhabit the [Foothill Caverns](Foothill Caverns). [Alterac Granite](Alterac Granite) can be found within the cave found here.

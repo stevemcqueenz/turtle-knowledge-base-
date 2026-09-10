@@ -21,13 +21,13 @@ It is possible that the Sand Trolls had a small nation during the time of the [G
 ### Society
 Sand Trolls seem to have one of the most diverse number of social units in their society, ranging from Axe Throwers, Hideskinners, Blood Drinkers, Guardians and Executioners who act as the warriors and hunters of Zul'Farrak, to the Shadow Hunters, Soul Eaters, Firecallers and Witch Doctors who are potent Voodoo casters. It is rumorered that slaves are also employed by the Sandfury Tribe as warriors, and extra labour. A number of priest-type Trolls such as Zealots and Acolytes seem to be at the core of the Sand Troll civilisation, acting as religious leaders. Drudges and Cretins seem to perform the menial labour, similar to the role of peons.
 
-  -Important Individuals**
+**Important Individuals**
 
--[Hydromancer Velratha](Hydromancer Velratha) 
--[Theka the Martyr](Theka the Martyr) 
+- [Hydromancer Velratha](Hydromancer Velratha) 
+- [Theka the Martyr](Theka the Martyr) 
 
 Tribes/Groups
 
--[Sandfury Tribe](Sandfury Tribe) - The Sandfury Tribe inhabits the Tanaris Desert and holds many ancient relics of Troll society. They can be found in and around the ancient bastion of Zul'Farrak in the Tanaris Desert. 
+- [Sandfury Tribe](Sandfury Tribe) - The Sandfury Tribe inhabits the Tanaris Desert and holds many ancient relics of Troll society. They can be found in and around the ancient bastion of Zul'Farrak in the Tanaris Desert. 
 
 mostly taken from [http://iownallyourbase.com/boomshaka/races.php]

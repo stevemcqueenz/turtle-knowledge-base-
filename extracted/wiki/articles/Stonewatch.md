@@ -10,4 +10,4 @@ categories: ["Blackrock clan", "Elite areas", "Forts", "Orc territories", "Redri
 ---
 # Stonewatch
 
--Stonewatch** is the common name of the battlestation in central [Redridge Mountains](Redridge Mountains). It includes both the easily defensible [Stonewatch Keep](Stonewatch Keep) and the armored [Stonewatch Tower](Stonewatch Tower), with the [Stonewatch Falls](Stonewatch Falls) cascading down a cliff face below it. The entirety of Stonewatch has fallen into the hands of the [Blackrock](Blackrock Clan) clan under the leadership of their warchief [Gath'Ilzogg](Gath'Ilzogg), and his chief lieutenant, [Tharil'zun](Tharil'zun).
+**Stonewatch** is the common name of the battlestation in central [Redridge Mountains](Redridge Mountains). It includes both the easily defensible [Stonewatch Keep](Stonewatch Keep) and the armored [Stonewatch Tower](Stonewatch Tower), with the [Stonewatch Falls](Stonewatch Falls) cascading down a cliff face below it. The entirety of Stonewatch has fallen into the hands of the [Blackrock](Blackrock Clan) clan under the leadership of their warchief [Gath'Ilzogg](Gath'Ilzogg), and his chief lieutenant, [Tharil'zun](Tharil'zun).

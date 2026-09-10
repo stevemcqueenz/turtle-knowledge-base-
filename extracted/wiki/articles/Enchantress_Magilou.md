@@ -26,13 +26,13 @@ categories: ["Enchanting trainers", "Gnome characters", "Northwind NPCs", "Quest
 | status | Alive |
 | students | Thronda |
 
--Enchantress Magilou** is a [gnome](gnome) enchanting trainer located at a home to the west of the [Tower of Magilou](Tower of Magilou) in [Northwind](Northwind). Due to her apprentice [Thronda](Thronda)'s mishap in an attempt to summon her own assembly of arcane elementals to help with her chores, the both of them were forced to vacate the tower. (ref: [quest: Magilou's Magical Mishap])
+**Enchantress Magilou** is a [gnome](gnome) enchanting trainer located at a home to the west of the [Tower of Magilou](Tower of Magilou) in [Northwind](Northwind). Due to her apprentice [Thronda](Thronda)'s mishap in an attempt to summon her own assembly of arcane elementals to help with her chores, the both of them were forced to vacate the tower. (ref: [quest: Magilou's Magical Mishap])
 
 ## Quests
 - [quest: Magilou's Magical Mishap] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 That foolish girl! This is the eleventh disaster caused by her I have to remedy. If she continues like that I will look like an old hag from all the stress it is causing me!
 
 ## Patch changes

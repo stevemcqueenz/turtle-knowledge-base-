@@ -10,4 +10,4 @@ categories: ["Alchemy crafting reagent items", "Herbalism gathered items", "Herb
 ---
 # Dreamfoil
 
--Dreamfoil** is an [herb](herb) that can be gathered with [Herbalism](Herbalism) (270).
+**Dreamfoil** is an [herb](herb) that can be gathered with [Herbalism](Herbalism) (270).

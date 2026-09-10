@@ -24,18 +24,18 @@ categories: ["Arathi Highlands NPCs", "Human characters", "League of Arathor", "
 | location | Refuge Pointe, Arathi Highlands |
 | status | Alive |
 
--Field Marshal Oslight** is a [human](human) [quest giver](quest giver) located in [Refuge Pointe](Refuge Pointe) in the [Arathi Highlands](Arathi Highlands). 
+**Field Marshal Oslight** is a [human](human) [quest giver](quest giver) located in [Refuge Pointe](Refuge Pointe) in the [Arathi Highlands](Arathi Highlands). 
 
 ## Quests
--  [25]/[35]/[45]/[55] [The Battle for Arathi Basin!](The Battle for Arathi Basin!) (PvP) 
+- [25]/[35]/[45]/[55] [The Battle for Arathi Basin!](The Battle for Arathi Basin!) (PvP) 
 - [quest: Control Four Bases] (PvP) 
 - [quest: Control Five Bases] (PvP) 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The [League of Arathor](League of Arathor) has sworn to retake [Arathi](Arathi Highlands) for [human](human)s of [Stromgarde](Stromgarde (kingdom)) and the [Alliance](Alliance). It is a battle hard fought, but a battle worth fighting.
 
 ## Patch changes
--  **Patch 1.7.0 (2005-09-13):** Added.
+- **Patch 1.7.0 (2005-09-13):** Added.
 
 ## External links

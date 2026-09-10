@@ -26,7 +26,7 @@ categories: ["Archmages", "Dalaran (kingdom)", "Kirin Tor", "Lore characters", "
 | relatives | Alexstrasza (consort) |
 | students | Rhonin |
 
--Korialstrasz** is the consort of the Aspect of Life [Alexstrasza](Alexstrasza). In the guise of the [high elven](high elven) mage **Krasus**, he is a senior member of the [Kirin Tor](Kirin Tor), and formerly one of the [Council of Six](Council of Six), the ruling council of [Dalaran](Dalaran (kingdom)).
+**Korialstrasz** is the consort of the Aspect of Life [Alexstrasza](Alexstrasza). In the guise of the [high elven](high elven) mage **Krasus**, he is a senior member of the [Kirin Tor](Kirin Tor), and formerly one of the [Council of Six](Council of Six), the ruling council of [Dalaran](Dalaran (kingdom)).
 
 ## Biography
 ### War of the Ancients

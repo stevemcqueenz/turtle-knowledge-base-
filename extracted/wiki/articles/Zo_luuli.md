@@ -24,10 +24,10 @@ categories: ["Forest troll characters", "Stonetalon Mountains NPCs", "Turtle WoW
 | location | Earthen Ring, Stonetalon Mountains |
 | status | Alive |
 
--Zo'luuli** is a forest troll located at the [Earthen Ring](Earthen Ring (Stonetalon Mountains)) in [Stonetalon Mountains](Stonetalon Mountains).
+**Zo'luuli** is a forest troll located at the [Earthen Ring](Earthen Ring (Stonetalon Mountains)) in [Stonetalon Mountains](Stonetalon Mountains).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Da spirit be whispering about a great unrest. De elements are weeping and we be seeing de result of it.
 
 ## Patch changes

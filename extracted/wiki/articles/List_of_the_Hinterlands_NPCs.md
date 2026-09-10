@@ -15,13 +15,13 @@ The following [NPC](NPC)s can be found in [the Hinterlands](the Hinterlands).
 # Questgivers
 - [Agnar Beastamer](Agnar Beastamer)
 - [Ambassador Rualeth](Ambassador Rualeth)
--  [Atal'ai Exile](Atal'ai Exile)
+- [Atal'ai Exile](Atal'ai Exile)
 - [Elder Torntusk](Elder Torntusk)
 - [Falstad Wildhammer](Falstad Wildhammer) - &lt;High Thane&gt;
 - [Fraggar Thundermantle](Fraggar Thundermantle)
--  [Gilveradin Sunchaser](Gilveradin Sunchaser)
+- [Gilveradin Sunchaser](Gilveradin Sunchaser)
 - [Gryphon Master Talonaxe](Gryphon Master Talonaxe)
--  [Homing Robot OOX-09/HL](Homing Robot OOX-09/HL)
+- [Homing Robot OOX-09/HL](Homing Robot OOX-09/HL)
 - [Huntsman Markhor](Huntsman Markhor) - &lt;Stable Master&gt;
 - [Katoom the Angler](Katoom the Angler) - &lt;Fishing Trainer & Supplies&gt;
 - [Lard](Lard) - &lt;Innkeeper&gt;
@@ -41,7 +41,7 @@ None
 - [Katoom the Angler](Katoom the Angler) - &lt;Fishing Trainer & Supplies&gt;
 
 # Merchants
--  [Gigget Zipcoil](Gigget Zipcoil) - &lt;Trade Supplies&gt;
+- [Gigget Zipcoil](Gigget Zipcoil) - &lt;Trade Supplies&gt;
 - [Harggan](Harggan) - &lt;Blacksmithing Supplies&gt;
 - [Innkeeper Thulfram](Innkeeper Thulfram) - &lt;Innkeeper&gt;
 - [Katoom the Angler](Katoom the Angler) - &lt;Fishing Trainer & Supplies&gt;
@@ -49,7 +49,7 @@ None
 - [Nioma](Nioma) - &lt;Leatherworking Supplies&gt;
 - [Otho Moji'ko](Otho Moji'ko) - &lt;Cooking Supplier&gt;
 - [Renn'az](Renn'az) - &lt;Ammunition Vendor&gt;
--  [Ruppo Zipcoil](Ruppo Zipcoil) - &lt;Engineering Supplies&gt;
+- [Ruppo Zipcoil](Ruppo Zipcoil) - &lt;Engineering Supplies&gt;
 - [Smith Slagtree](Smith Slagtree) - &lt;Blacksmithing Supplies&gt;
 - [Truk Wildbeard](Truk Wildbeard) - &lt;Bartender&gt;
 

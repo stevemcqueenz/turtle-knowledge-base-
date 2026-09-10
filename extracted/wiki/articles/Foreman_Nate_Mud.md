@@ -25,7 +25,7 @@ categories: ["Foremen", "Human characters", "Kul Tiran Exploratory Fleet", "Lapi
 | location | Caelan's Rest, Lapidis Isle |
 | status | Alive |
 
--Foreman Nate Mud** is a human in [Caelan's Rest](Caelan's Rest) on [Lapidis Isle](Lapidis Isle).
+**Foreman Nate Mud** is a human in [Caelan's Rest](Caelan's Rest) on [Lapidis Isle](Lapidis Isle).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

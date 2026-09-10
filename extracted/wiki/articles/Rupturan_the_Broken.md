@@ -24,7 +24,7 @@ categories: ["Bosses", "Earth elementals", "Stubs", "Tower of Karazhan mobs", "T
 | status | Killable |
 | instance | Tower of Karazhan |
 
--Rupturan the Broken** is the seventh boss of [Tower of Karazhan](Tower of Karazhan).
+**Rupturan the Broken** is the seventh boss of [Tower of Karazhan](Tower of Karazhan).
 
 ## Gallery
 <gallery>

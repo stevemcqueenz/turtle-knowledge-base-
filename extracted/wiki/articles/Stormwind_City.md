@@ -28,7 +28,7 @@ categories: ["Alliance settlements", "Cities", "Eastern Kingdoms", "Elwynn Fores
 
 *"Stormwind" redirects here. For the in-game reputation faction, see [Stormwind (faction)](Stormwind (faction)).*
 
-  -Stormwind City** (Also called **New Stormwind** or simply **Stormwind**), located north of [Elwynn Forest](Elwynn Forest) on Azeroth region's northwest coast, is the capital city of the kingdom of Stormwind and the largest human city on Azeroth. After the [Third War](Third War), it has become one of the last great human cities, and embodies the heart of the [Alliance](Alliance). Stormwind's willingness to work with others to find diplomatic solutions stands out as one of its true strengths. Its citizens hold fast to the principles of honor and justice as they defend their settlements, and the Alliance, against any aggressors.
+**Stormwind City** (Also called **New Stormwind** or simply **Stormwind**), located north of [Elwynn Forest](Elwynn Forest) on Azeroth region's northwest coast, is the capital city of the kingdom of Stormwind and the largest human city on Azeroth. After the [Third War](Third War), it has become one of the last great human cities, and embodies the heart of the [Alliance](Alliance). Stormwind's willingness to work with others to find diplomatic solutions stands out as one of its true strengths. Its citizens hold fast to the principles of honor and justice as they defend their settlements, and the Alliance, against any aggressors.
 
 No city better demonstrates human determination than Stormwind. Destroyed during the Horde's initial invasion of Azeroth, Stormwind was painstakingly reconstructed by the Stonemasons' Guild after the Second War. From the magnificent Cathedral of Light, which serves as a major spiritual hub, to the awe-inspiring Valley of Heroes, which commemorates the sacrifices of Stormwind's loyal champions, the city truly represents the courageous heart of humanity, and serves as a bastion of the Holy Light.
 
@@ -85,20 +85,20 @@ After the fall of Quel'Thalas and the departure and apparent betrayal of Kael'th
 
 ## Travel connections
 ### Flight
--  [Sentinel Hill](Sentinel Hill), [Westfall](Westfall)
--  [Lakeshire](Lakeshire), [Redridge Mountains](Redridge Mountains)
--  [Darkshire](Darkshire), [Duskwood](Duskwood)
--  [Ambershire](Ambershire), [Northwind](Northwind)
--  [Morgan's Vigil](Morgan's Vigil), [Burning Steppes](Burning Steppes)
--  [Thorium Point](Thorium Point), [Searing Gorge](Searing Gorge)
--  [Nethergarde Keep](Nethergarde Keep), [Blasted Lands](Blasted Lands)
--  [Booty Bay](Booty Bay), [Stranglethorn Vale](Stranglethorn Vale)
--  [Ironforge](Ironforge), [Dun Morogh](Dun Morogh)
+- [Sentinel Hill](Sentinel Hill), [Westfall](Westfall)
+- [Lakeshire](Lakeshire), [Redridge Mountains](Redridge Mountains)
+- [Darkshire](Darkshire), [Duskwood](Duskwood)
+- [Ambershire](Ambershire), [Northwind](Northwind)
+- [Morgan's Vigil](Morgan's Vigil), [Burning Steppes](Burning Steppes)
+- [Thorium Point](Thorium Point), [Searing Gorge](Searing Gorge)
+- [Nethergarde Keep](Nethergarde Keep), [Blasted Lands](Blasted Lands)
+- [Booty Bay](Booty Bay), [Stranglethorn Vale](Stranglethorn Vale)
+- [Ironforge](Ironforge), [Dun Morogh](Dun Morogh)
 ### Boat
--  [Auberdine](Auberdine), [Darkshore](Darkshore)
+- [Auberdine](Auberdine), [Darkshore](Darkshore)
 
 ## Gallery
-  -Maps**
+**Maps**
 <gallery>
 File:WorldMap-StormwindCity-old1.jpg|Map before [Patch 1.16.0](Patch 1.16.0).
 File:WorldMap-StormwindCity-old2.jpg|Map before [Patch 1.16.4](Patch 1.16.4).
@@ -109,8 +109,8 @@ File:WorldMap-StormwindCity-old3.jpg|Map before [Patch 1.18.1](Patch 1.18.1).
 - (Patch 1.16.4|note=[Davenburg](Davenburg) added to Stormwind Harbor.)
 - (Patch 1.16.0|note=[Stormwind Harbor](Stormwind Harbor) added.)
 - (Patch 1.15.0|note=[Cut-Throat Alley](Cut-Throat Alley) changed to [Little Silvermoon](Little Silvermoon).)
--  **Patch 1.4.0 (2005-04-19):** Patrolling scouts that can see through stealth and invisibility have been added to Stormwind City.
--  **Patch 0.6 (2004-04-13):**
+- **Patch 1.4.0 (2005-04-19):** Patrolling scouts that can see through stealth and invisibility have been added to Stormwind City.
+- **Patch 0.6 (2004-04-13):**
   - Stormwind had undergone layout changes.
   - Guards in Stormwind now provide directions for those who ask.
 

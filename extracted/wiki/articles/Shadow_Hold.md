@@ -10,7 +10,7 @@ categories: ["Caves", "Felwood subzones", "Pages with broken file links", "Shado
 ---
 # Shadow Hold
 
--Shadow Hold**, located in western [Felwood](Felwood), is the main dwelling of the [Shadow Council](Shadow Council). It is a gigantic subterranean labyrinth roamed by [Jaedenar](Jaedenar) warlocks and their demonic pets.
+**Shadow Hold**, located in western [Felwood](Felwood), is the main dwelling of the [Shadow Council](Shadow Council). It is a gigantic subterranean labyrinth roamed by [Jaedenar](Jaedenar) warlocks and their demonic pets.
 
 [Night elf](Night elf) [Arko'narin](Arko'narin) is being held captive inside as well as her close friend, a [human](human) by the name of [Trey Lightforge](Trey Lightforge), who later turns out to have been tortured to death.
 
@@ -23,7 +23,7 @@ The area is heavily populated by [humanoid](humanoid)s and [demon](demon)s rangi
 - [quest: Forces of Jaedenar]
 - [quest: Rescue From Jaedenar]
   - [quest: Retribution of the Light]
-  -* [quest: The Remains of Trey Lightforge]
+  - * [quest: The Remains of Trey Lightforge]
 
 ### Quests to get before entering
 - [quest: Forces of Jaedenar] from [Greta Mosshoof](Greta Mosshoof) in the [Emerald Sanctuary](Emerald Sanctuary)

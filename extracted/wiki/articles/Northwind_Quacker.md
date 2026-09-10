@@ -21,4 +21,4 @@ categories: ["Critters", "Ducks", "Northwind mobs"]
 | faction | Neutral |
 | location | Northwind |
 
--Northwind Quackers** are [critter](critter)s that can be found along various water sources in [Northwind](Northwind).
+**Northwind Quackers** are [critter](critter)s that can be found along various water sources in [Northwind](Northwind).

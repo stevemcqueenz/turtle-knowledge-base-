@@ -23,7 +23,7 @@ categories: ["Human characters", "Lumberjacks", "Northwind NPCs", "Turtle WoW co
 | gender | Male |
 | location | Stillheart Port, Northwind |
 
--Injured Lumberjacks** are [human](human)s located at [Stillheart Port](Stillheart Port) in [Northwind](Northwind). They fled from the [Northwind Logging Camp](Northwind Logging Camp) after it was raided by the [Defias Brotherhood](Defias Brotherhood).
+**Injured Lumberjacks** are [human](human)s located at [Stillheart Port](Stillheart Port) in [Northwind](Northwind). They fled from the [Northwind Logging Camp](Northwind Logging Camp) after it was raided by the [Defias Brotherhood](Defias Brotherhood).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

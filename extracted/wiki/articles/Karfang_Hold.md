@@ -29,30 +29,11 @@ categories: ["Blackrock clan", "Burning Steppes subzones", "Horde quest hubs", "
 | flightpath | No |
 | status | Active |
 
--Karfang Hold** is a [Horde](Horde) outpost located in the northeastern mountains of the [Burning Steppes](Burning Steppes).
+**Karfang Hold** is a [Horde](Horde) outpost located in the northeastern mountains of the [Burning Steppes](Burning Steppes).
 
 ## NPCs
 ### Quest givers
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-### Goods and services
-- 
-- 
-- 
-- 
-- 
-
-### Additional characters
-- 
-- 
-- 
-- 
-
-## Patch changes
--  **[Patch 1.16.1](Patch 1.16.1) (2021-07-24):** Added.
+- - - - - - - ### Goods and services
+- - - - - ### Additional characters
+- - - - ## Patch changes
+- **[Patch 1.16.1](Patch 1.16.1) (2021-07-24):** Added.

@@ -10,4 +10,4 @@ categories: ["Caves", "Centaur territories", "Desolace subzones", "Pages with br
 ---
 # Bolgan's Hole
 
--Bolgan's Hole** is a large cave that houses the most prominent members of the [Gelkis](Gelkis) [centaur](centaur)s. The clan's khan is housed here, and his death is an important step in earning the [Magram](Magram) centaurs' trust.
+**Bolgan's Hole** is a large cave that houses the most prominent members of the [Gelkis](Gelkis) [centaur](centaur)s. The clan's khan is housed here, and his death is an important step in earning the [Magram](Magram) centaurs' trust.

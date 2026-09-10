@@ -25,10 +25,10 @@ categories: ["Human characters", "Northwind NPCs", "Theramore", "Turtle WoW cont
 | status | Alive |
 | relatives | Markus (father),, Boris (brother) |
 
--Alessa Farwind** is a [human](human) located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind).
+**Alessa Farwind** is a [human](human) located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 It's been ages since [my brother](Boris Farwind) and I were last in Stormwind. We haven't left Theramore since departing from Lordaeron, so this reunion feels bittersweet to me. Still, I cannot let this hold me back in the tournament.
 
 ## Patch changes

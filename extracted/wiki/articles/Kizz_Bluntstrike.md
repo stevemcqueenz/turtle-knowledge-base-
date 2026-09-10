@@ -24,6 +24,6 @@ categories: ["Booty Bay characters", "Goblin characters", "Stranglethorn Vale NP
 | gender | Male |
 | location | Old Port Authority, Stranglethorn Vale |
 
--Kizz Bluntstrike** is a [goblin](goblin) [mace](mace) [vendor](vendor) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). He runs [Cuts-N-Bruises Incorporated](Cuts-N-Bruises Incorporated) together with [Zarena Cromwind](Zarena Cromwind).
+**Kizz Bluntstrike** is a [goblin](goblin) [mace](mace) [vendor](vendor) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). He runs [Cuts-N-Bruises Incorporated](Cuts-N-Bruises Incorporated) together with [Zarena Cromwind](Zarena Cromwind).
 
 ## External links

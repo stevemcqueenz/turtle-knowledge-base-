@@ -42,18 +42,18 @@ File:WorldMap-WailingCaverns.jpg|Interior
 |}
 
 ## Dungeon denizens
--  [Bog beast](Bog beast)s
--  [Centaur](Centaur)
--  [Crocolisk](Crocolisk)s
--  [Faerie dragon](Faerie dragon)s
--  (one, [Mutanus the Devourer](Mutanus the Devourer))
--  [Night elf](Night elf)
--  [Ooze](Ooze)s
--  [Raptor](Raptor)s
--  [Serpent](Serpent)s
--  [Snake](Snake)s
--  [Threshadon](Threshadon)s
--  [Wind serpent](Wind serpent)s
+- [Bog beast](Bog beast)s
+- [Centaur](Centaur)
+- [Crocolisk](Crocolisk)s
+- [Faerie dragon](Faerie dragon)s
+- (one, [Mutanus the Devourer](Mutanus the Devourer))
+- [Night elf](Night elf)
+- [Ooze](Ooze)s
+- [Raptor](Raptor)s
+- [Serpent](Serpent)s
+- [Snake](Snake)s
+- [Threshadon](Threshadon)s
+- [Wind serpent](Wind serpent)s
 
 ## Quest guide
 {| class="fandom-table"
@@ -119,7 +119,7 @@ File:WorldMap-WailingCaverns.jpg|Interior
 
 ## Patch changes
 - (Patch 1.17.2|note=Two new areas and bosses added:
-  -[Vangros](Vangros): A formidable apex predator empowered by the rampant life magics of the caverns, lurking in an overgrown sub-cave.
-  -[Zandara Windhoof](Zandara Windhoof): The Kolkar has sent an expedition to the depths of the caverns and have established a camp with the intention of cementing it as a stronghold for the centaur, threatening the Barrens and beyond.)
--  **Patch 1.5.0 (2005-06-07):** New load screen added.
--  **Patch 1.3.0 (2005-03-07):** Capped at ten players.
+  - [Vangros](Vangros): A formidable apex predator empowered by the rampant life magics of the caverns, lurking in an overgrown sub-cave.
+  - [Zandara Windhoof](Zandara Windhoof): The Kolkar has sent an expedition to the depths of the caverns and have established a camp with the intention of cementing it as a stronghold for the centaur, threatening the Barrens and beyond.)
+- **Patch 1.5.0 (2005-06-07):** New load screen added.
+- **Patch 1.3.0 (2005-03-07):** Capped at ten players.

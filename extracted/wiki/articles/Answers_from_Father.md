@@ -44,7 +44,7 @@ My son has matured a lot in these past years, it seems. Another regrettable thin
 Ar’lia is right. The time of lamentation and idleness is over. We have not survived one genocide to succumb to another conducted by our own kin. Raise your arms, <name>. We will silence this false prophet.
 
 ## Notes
-  -Confronting Moro'gai K'la**
+**Confronting Moro'gai K'la**
   **Moro'gai K'la says:** My son? What is the meaning of this?
   **Ar'lia says:** Father, you haven't told me the truth, have you?
   **Moro'gai K'la says:** Ar'lia, just what are you talking about? What are you accusing me of?

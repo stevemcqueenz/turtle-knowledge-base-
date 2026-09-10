@@ -16,7 +16,7 @@ Casts Shapeshift on yourself. This is class dependant - not all classes have spe
 </syntaxhighlight>
 ## Parameters
 ### Arguments
-  - index**
+** index**
    relates to the different forms:
 
   ; Druid

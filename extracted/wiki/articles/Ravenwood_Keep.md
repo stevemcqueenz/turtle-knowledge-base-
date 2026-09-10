@@ -10,13 +10,8 @@ categories: ["Gilneas subzones", "Keeps", "Turtle WoW content"]
 ---
 # Ravenwood Keep
 
--Ravenwood Keep** is a ruined keep in [Gilneas](Gilneas) that formerly served as the ancestral home of [House Ravenwood](House Ravenwood). It was destroyed at the beginning of the [Gilnean civil war](Gilnean civil war) by royalist forces loyal to the Harlow regime. The restless ghosts of the fallen still haunt the ruin, consumed by bitterness.
+**Ravenwood Keep** is a ruined keep in [Gilneas](Gilneas) that formerly served as the ancestral home of [House Ravenwood](House Ravenwood). It was destroyed at the beginning of the [Gilnean civil war](Gilnean civil war) by royalist forces loyal to the Harlow regime. The restless ghosts of the fallen still haunt the ruin, consumed by bitterness.
 
 ## NPCs
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - ## Patch changes
 - (Patch 1.17.0|note=Added.)

@@ -26,10 +26,10 @@ categories: ["Boars", "Northwind NPCs", "Turtle WoW content"]
 | status | Alive |
 | companions | Leander Hering (master) |
 
--Bristlebelly** is the [boar](boar) pet of [Leander Hering](Leander Hering) located in [Ambershire](Ambershire) in [Northwind](Northwind).
+**Bristlebelly** is the [boar](boar) pet of [Leander Hering](Leander Hering) located in [Ambershire](Ambershire) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 <The boar is snoring loudly.>
 
   > Gossip: *<Ruffle Bristlebelly over his round tummy.>*

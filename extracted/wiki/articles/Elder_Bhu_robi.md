@@ -27,13 +27,13 @@ categories: ["Draenei characters", "Moonwhisper Coast mobs", "Turtle WoW content
 | location | Servitor's Sanctuary, Moonwhisper Coast |
 | status | Killable |
 
--Elder Bhu'robi** is a [draenei](draenei) located in [Servitor's Sanctuary](Servitor's Sanctuary) in [Moonwhisper Coast](Moonwhisper Coast).
+**Elder Bhu'robi** is a [draenei](draenei) located in [Servitor's Sanctuary](Servitor's Sanctuary) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Aggro**
+**Aggro**
   You are but struggling infants in the face of our god's truth. Regrettably you will not see the fulmination of his words.
 
-  -Death**
+**Death**
   No! I have to spread... the gospel! The dawn of a new world... is upon us...!
 
 ## Objective of

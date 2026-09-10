@@ -25,7 +25,7 @@ categories: ["Hillsbrad Foothills subzones", "Human territories", "Keeps"]
 | loc | Eastern Hillsbrad Foothills |
 | status | In ruins |
 
--Durnholde Keep** is a ruined stronghold in the [Hillsbrad Foothills](Hillsbrad Foothills) that was once the command center of the internment camps. Once ruled by Lieutenant General [Aedelas Blackmoore](Aedelas Blackmoore), the fortress was destroyed by [Thrall](Thrall) after Blackmoore's death. It was there that Thrall was raised until he broke free and escaped. Currently it is now held by the [Syndicate](Syndicate) and is being used as their base of operations within the Hillsbrad region.
+**Durnholde Keep** is a ruined stronghold in the [Hillsbrad Foothills](Hillsbrad Foothills) that was once the command center of the internment camps. Once ruled by Lieutenant General [Aedelas Blackmoore](Aedelas Blackmoore), the fortress was destroyed by [Thrall](Thrall) after Blackmoore's death. It was there that Thrall was raised until he broke free and escaped. Currently it is now held by the [Syndicate](Syndicate) and is being used as their base of operations within the Hillsbrad region.
 
 ## History
 ### Lord of the Clans
@@ -36,13 +36,4 @@ Blackmoore named the boy "Thrall", beat and tortured him in the ring, using Thra
 However, Thrall rallied the free orcs in a campaign to end the internment camp system, eventually liberating the smaller encampments, and finally Thrall laid siege to Durnholde. Thrall slew Blackmoore in single combat, completely destroyed the keep, calling upon the Spirit of the Earth to level the fortress. It remains in ruins today and is currently used as an outpost of the [Syndicate](Syndicate), which has staked a claim to many of the ruins in Hillsbrad, [Arathi Highlands](Arathi Highlands), and the [Alterac Mountains](Alterac Mountains).
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-## References
+- - - - - - - - ## References

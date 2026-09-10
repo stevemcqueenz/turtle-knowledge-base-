@@ -24,10 +24,10 @@ categories: ["High elf characters", "Orgrimmar NPCs", "Quest givers", "Stormwind
 | location | Stormwind City and Orgrimmar |
 | status | Alive |
 
--Qiuyue** is a [high elf](high elf) [quest giver](quest giver) who appears in [Stormwind City](Stormwind City) and [Orgrimmar](Orgrimmar) for the [Autumn Moon's Festival](Autumn Moon's Festival).
+**Qiuyue** is a [high elf](high elf) [quest giver](quest giver) who appears in [Stormwind City](Stormwind City) and [Orgrimmar](Orgrimmar) for the [Autumn Moon's Festival](Autumn Moon's Festival).
 
 ## Quests
 - [quest: Illuminate the Moonlit Night] 
 
 ## Patch changes
--  **[Hotfix](https://forum.turtlecraft.gg/viewtopic.php?t=14895) (2024-09-18):** Added.
+- **[Hotfix](https://forum.turtlecraft.gg/viewtopic.php?t=14895) (2024-09-18):** Added.

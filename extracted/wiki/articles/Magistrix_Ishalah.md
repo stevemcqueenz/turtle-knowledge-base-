@@ -24,13 +24,13 @@ categories: ["Alah'Thalas NPCs", "High elf characters", "Removed Loch Modan NPCs
 | location | Brinthilien, Thalassian Highlands; Golden Dawn Institute, Alah'Thalas |
 | status | Alive |
 
--Magistrix Ishalah** is a [high elf](high elf) located both in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands) and at the [Golden Dawn Institute](Golden Dawn Institute) in [Alah'Thalas](Alah'Thalas). While a part of the refugee caravan in [Farstrider Lodge](Farstrider Lodge), she teleported high elf adventurers to [Goldshire](Goldshire) at the behest of [Kathy Wake](Kathy Wake) once they were finished with the starting experience.
+**Magistrix Ishalah** is a [high elf](high elf) located both in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands) and at the [Golden Dawn Institute](Golden Dawn Institute) in [Alah'Thalas](Alah'Thalas). While a part of the refugee caravan in [Farstrider Lodge](Farstrider Lodge), she teleported high elf adventurers to [Goldshire](Goldshire) at the behest of [Kathy Wake](Kathy Wake) once they were finished with the starting experience.
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Is there anything I can help you with? I am presently occupied.
 
-  -During [quest: Porting to Goldshire]**
+**During [quest: Porting to Goldshire]**
 Ah, if it isn't <name>! You've certainly become famous around here.
 
 You need to get to Goldshire? Well, I can't deny you after all you've done for us. I will be able to teleport you there this one time as a special favor.

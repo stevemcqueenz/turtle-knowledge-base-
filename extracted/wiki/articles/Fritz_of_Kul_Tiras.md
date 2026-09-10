@@ -24,7 +24,7 @@ categories: ["Human characters", "Kul Tiras (kingdom)", "Northwind NPCs", "Turtl
 | location | Jousting Grounds, Northwind |
 | status | Alive |
 
--Fritz of Kul Tiras** is a human located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind). One of the participants in the Northwind jousting tournament representing the [kingdom of Kul Tiras](Kul Tiras (kingdom)), he faces off against [Sir Lorenz of Theramore](Sir Lorenz of Theramore).
+**Fritz of Kul Tiras** is a human located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind). One of the participants in the Northwind jousting tournament representing the [kingdom of Kul Tiras](Kul Tiras (kingdom)), he faces off against [Sir Lorenz of Theramore](Sir Lorenz of Theramore).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

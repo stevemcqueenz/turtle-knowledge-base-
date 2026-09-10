@@ -14,23 +14,23 @@ Clears the selected target.
  ClearTarget();
 ----
 
-  - *Arguments***
+** *Arguments***
 
    *none*
 
 ----
 
-  - *Returns***
+** *Returns***
 
   ; nil
 
 ----
 
-  - *Example***
+** *Example***
 
  ClearTarget();
 
-  - *Result***
+** *Result***
 
 Your current target is detargeted.
 

@@ -23,10 +23,10 @@ categories: ["Draenei characters", "Moonwhisper Coast NPCs", "Turtle WoW content
 | location | Moro'gai Village, Moonwhisper Coast |
 | status | Alive |
 
--Tabletcarver Z'kahr** is a [draenei](draenei) located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Tabletcarver Z'kahr** is a [draenei](draenei) located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Draenei history is carved into tablets, cementing them into the annals of time for all eternity. Many of our stories and folklore had been lost following the destruction of our home Draenor, which is why it is all the more important for me to archive the history of our people onto these stone tablets. It is a responsibility I shoulder with great pride.
 
 ## Patch changes

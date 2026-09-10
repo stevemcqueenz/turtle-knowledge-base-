@@ -12,7 +12,7 @@ categories: ["History of Warcraft", "Lore"]
 
 <B style="font-weight:normal;background-color:#2b2b2b;">[  [Source Text](WoWWiki:Article_type)  ]</B>
 
--The Guardians of Tirisfal* is a section of the [History of Warcraft](History of Warcraft), Chapter II.  It is set 2 700 years before Warcraft I.
+*The Guardians of Tirisfal* is a section of the [History of Warcraft](History of Warcraft), Chapter II.  It is set 2 700 years before Warcraft I.
 
 ## Text
 With the absence of [troll](troll)s in the northlands, the elves of [Quel'Thalas](Quel'Thalas) bent their efforts towards rebuilding their glorious homeland. The victorious armies of [Arathor](Arathor) returned home to southlands of [Strom](Strom). The human society of Arathor grew and prospered, yet [Thoradin](Thoradin), fearful that his kingdom would splinter apart if it overextended itself, maintained that Strom was the center of the Arathorian empire. After many peaceful years of growth and commerce, mighty Thoradin died of old age, leaving Arathor's younger generation free to expand the empire beyond the lands of Strom. 

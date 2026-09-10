@@ -10,7 +10,7 @@ categories: ["Factions", "Game Terms", "Lore", "Scourge", "Stubs", "Undead"]
 ---
 # Scourge
 
--The Scourge** is the Azerothian equivalent of the proverbial Army of Darkness.  A horrifying host of all types of [undead](undead), the Scourge consists of hundreds of thousands of walking corpses, disembodied spirits, damned mortals and extra-dimensional entities of unknown origin.  It has established a foothold in the lands of [Lordaeron](Lordaeron), having turned the formerly green farmlands into fields of death and disease.
+**The Scourge** is the Azerothian equivalent of the proverbial Army of Darkness.  A horrifying host of all types of [undead](undead), the Scourge consists of hundreds of thousands of walking corpses, disembodied spirits, damned mortals and extra-dimensional entities of unknown origin.  It has established a foothold in the lands of [Lordaeron](Lordaeron), having turned the formerly green farmlands into fields of death and disease.
 
 ## Origins
 The Scourge was created by [Ner'zhul](Ner'zhul) the [Lich King](Lich King).  Under the direct control of the [Burning Legion](Burning Legion), the Scourge's mission was to spread terror and destruction across the world in anticipation of the Legion's inevitable invasion.  The Lich King, who ruled the icy realm of [Northrend](Northrend) from his frozen throne, created the terrible [Plague of Undeath](Plague of Undeath), which he sent southward into [human](human) lands.  As the plague encroached on the southlands, countless humans fell prey to Ner'zhul's mental control and life-draining sickness every day, swelling the ranks of the already-considerable Scourge.
@@ -29,24 +29,24 @@ The Scourge is primarily concentrated in the [Plaguelands](Plaguelands). Their p
 The necromancer-lich Kel'Thuzad, the majordomo of the Lich King, controls the Scourge in Lordaeron from his citadel of [Naxxramas](Naxxramas), floating over Stratholme and the Plaguewood in Eastern Plaguelands; the high elf traitor [Dar'khan Drathir](Dar'khan Drathir), slain during the Third War, to the northeast of Naxxramas; [Amnennar the Coldbringer](Amnennar the Coldbringer), a lich like Kel'Thuzad, rules Razorfen Downs.
 
 ## Minions of the Scourge
--[Lich](Lich): The Lich King's most powerful spell-casters. Kel'Thuzad, resurrected by Arthas during the invasion of Quel'Thalas, is the most renowned of the liches. Others include [Araj the Summoner](Araj the Summoner), former headmaster of Scholomance, [Ras Frostwhisper](Ras Frostwhisper), who conducts experiments in Scholomance's laboratory, and Amnennar the Coldbringer, master of Razorfen Downs.
+- [Lich](Lich): The Lich King's most powerful spell-casters. Kel'Thuzad, resurrected by Arthas during the invasion of Quel'Thalas, is the most renowned of the liches. Others include [Araj the Summoner](Araj the Summoner), former headmaster of Scholomance, [Ras Frostwhisper](Ras Frostwhisper), who conducts experiments in Scholomance's laboratory, and Amnennar the Coldbringer, master of Razorfen Downs.
 
--[Gargoyle](Gargoyle): Flyers who possess the ability to turn to stone to heal themselves.
+- [Gargoyle](Gargoyle): Flyers who possess the ability to turn to stone to heal themselves.
 
--[Frost Wyrm](Frost Wyrm): The resurrected corpses of blue dragons, combining their frost magics with their fealty to the Lich King. [Sapphiron](Sapphiron), guardian of Kel'Thuzad's inner sanctum in Naxxramas, is a frost wyrm.
+- [Frost Wyrm](Frost Wyrm): The resurrected corpses of blue dragons, combining their frost magics with their fealty to the Lich King. [Sapphiron](Sapphiron), guardian of Kel'Thuzad's inner sanctum in Naxxramas, is a frost wyrm.
 
--[Ghoul](Ghoul): Among the Scourge's shock troopers, ghouls - especially those in Eastern Plaguelands - have the trapped souls of the innocent still within their rotted forms.
+- [Ghoul](Ghoul): Among the Scourge's shock troopers, ghouls - especially those in Eastern Plaguelands - have the trapped souls of the innocent still within their rotted forms.
 
--[Skeleton](Skeleton): Mindless, bony monstrocities, and the primary "grunt" of the Scourge armies.
+- [Skeleton](Skeleton): Mindless, bony monstrocities, and the primary "grunt" of the Scourge armies.
 
--[Banshee](Banshee): Ethereal spirits of the fallen elves of Quel'Thalas. [Sylvanas Windrunner](Sylvanas Windrunner) is a former banshee.
+- [Banshee](Banshee): Ethereal spirits of the fallen elves of Quel'Thalas. [Sylvanas Windrunner](Sylvanas Windrunner) is a former banshee.
 
--[Crypt Fiend](Crypt Fiend): Formerly the warriors of Azjol-Nerub, raised by the Lich King after the Spider War.
+- [Crypt Fiend](Crypt Fiend): Formerly the warriors of Azjol-Nerub, raised by the Lich King after the Spider War.
 
--[Crypt Lord](Crypt Lord): The former Kings of Azjol-Nerub. [Anub'arak](Anub'arak), the last king of Azjol-Nerub, is a crypt lord who serves as a majordomo to the Lich King.
+- [Crypt Lord](Crypt Lord): The former Kings of Azjol-Nerub. [Anub'arak](Anub'arak), the last king of Azjol-Nerub, is a crypt lord who serves as a majordomo to the Lich King.
 
--[Death Knights](Death Knights): Corrupted human paladins who have forsaken the Light in favor of eternal life as a servitor of the Lich King. Before fusing with the Lich King, Arthas was once the greatest of the Death Knights; others include Baron Rivendare, Lord of Stratholme, and Darkreaver, who is summoned in Scholomance.
+- [Death Knights](Death Knights): Corrupted human paladins who have forsaken the Light in favor of eternal life as a servitor of the Lich King. Before fusing with the Lich King, Arthas was once the greatest of the Death Knights; others include Baron Rivendare, Lord of Stratholme, and Darkreaver, who is summoned in Scholomance.
 
--[Necromancer](Necromancer): Members of the Cult of the Damned who practice death magics. Kel'Thuzad, the master of the Cult of the Damned, is a former necromancer. While it has not been confirmed, it is likely that Dar'khan Drathir, the master of the Scourge in Quel'Thalas, may also be a necromancer.
+- [Necromancer](Necromancer): Members of the Cult of the Damned who practice death magics. Kel'Thuzad, the master of the Cult of the Damned, is a former necromancer. While it has not been confirmed, it is likely that Dar'khan Drathir, the master of the Scourge in Quel'Thalas, may also be a necromancer.
 
--[Zombie](Zombie): Shambling, mindless corpses with a desire to consume human flesh; they also serve as "cannon fodder" in the mass armies of the Scourge.
+- [Zombie](Zombie): Shambling, mindless corpses with a desire to consume human flesh; they also serve as "cannon fodder" in the mass armies of the Scourge.

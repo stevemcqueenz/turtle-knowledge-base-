@@ -22,7 +22,7 @@ categories: ["Ferocity beasts", "Lapidis Isle mobs", "Tigers", "Turtle WoW conte
 | location | Lapidis Isle |
 | pet | Cat |
 
--Bengal Matriarchs** are tigers found in [Lapidis Isle](Lapidis Isle).
+**Bengal Matriarchs** are tigers found in [Lapidis Isle](Lapidis Isle).
 
 ## Objective of
 - Drops [Bengal Fang](Bengal Fang) for [quest: Bengal Fangs].

@@ -10,7 +10,7 @@ categories: ["Elite areas", "Murloc territories", "Reefs", "South Seas", "Strang
 ---
 # Vile Reef
 
--The Vile Reef** is a colorful reef portion of the [Great Sea](Great Sea) near the southwestern tip of the [Eastern Kingdoms](Eastern Kingdoms), mostly noted by travelers on the west coast of [Stranglethorn Vale](Stranglethorn Vale) near [Grom'gol Base Camp](Grom'gol Base Camp). It is populated by [murloc](murloc)s who inhabit sunken [troll](troll) ruins among the reef. The [Altar of the Tides](Altar of the Tides) can be found here.
+**The Vile Reef** is a colorful reef portion of the [Great Sea](Great Sea) near the southwestern tip of the [Eastern Kingdoms](Eastern Kingdoms), mostly noted by travelers on the west coast of [Stranglethorn Vale](Stranglethorn Vale) near [Grom'gol Base Camp](Grom'gol Base Camp). It is populated by [murloc](murloc)s who inhabit sunken [troll](troll) ruins among the reef. The [Altar of the Tides](Altar of the Tides) can be found here.
 
 [Giant Clam](Giant Clam)s can be found scattered among the corals. These clams have been rumored to hold [Blue Pearl](Blue Pearl)s. Also, many floating wreckages can be found along its coasts.
 

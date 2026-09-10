@@ -65,39 +65,39 @@ MBF Frame:
 - [laytya](https://github.com/laytya) (vanilla port)
 
 ## History
-  -v1.12**
+**v1.12**
 
 - Updated to TWoW 1.17.2
 
-  -v1.11**
+**v1.11**
 
 - Added Auto Hide functionality
 - Added TWoW buttons
 - some fixes
 
-  -1.10e**
+**1.10e**
 
 - Added support for EVTCalendar
 
-  -1.10d**
+**1.10d**
 
 - Separate FuBar plugin (need translation of locales differ enUS and ruRU)
 
-  -1.10c**
+**1.10c**
 
 - Added ItemSync compatibility
 - Added DPSMate button to default auto include, if it not gathering by MBF use /mbf add command
 
-  -1.10b**
+**1.10b**
 
 - fixed finally MiniMapTrackingFrame error
 
-  -1.10a**
+**1.10a**
 
 - fix MiniMapTrackingFrame error
 - fix some interaddon compatibility, dont use such names:  "minimapButton"
 
-  -1.10**
+**1.10**
 
 - Backported to vanilla
 - update TOC

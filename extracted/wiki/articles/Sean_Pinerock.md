@@ -25,7 +25,7 @@ categories: ["Blacksmithing vendors", "Blacksmiths", "Human characters", "Kul Ti
 | location | Caelan's Rest, Lapidis Isle |
 | status | Alive |
 
--Sean Pinerock** is a [human](human) blacksmithing vendor located in [Caelan's Rest](Caelan's Rest) in [Lapidis Isle](Lapidis Isle).
+**Sean Pinerock** is a [human](human) blacksmithing vendor located in [Caelan's Rest](Caelan's Rest) in [Lapidis Isle](Lapidis Isle).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

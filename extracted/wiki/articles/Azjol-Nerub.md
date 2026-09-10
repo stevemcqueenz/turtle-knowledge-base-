@@ -10,7 +10,7 @@ categories: ["Cities", "Lore locations", "Northrend"]
 ---
 # Azjol-Nerub
 
--Azjol-Nerub** is the fallen and ancient underground Kingdom of the insectoid [Nerubian](Nerubian)s. Azjol-Nerub is located on the icy continent of [Northrend](Northrend). The entrance to Azjol-Nerub can be found in the northern reaches of [The Dragonblight](The Dragonblight). 
+**Azjol-Nerub** is the fallen and ancient underground Kingdom of the insectoid [Nerubian](Nerubian)s. Azjol-Nerub is located on the icy continent of [Northrend](Northrend). The entrance to Azjol-Nerub can be found in the northern reaches of [The Dragonblight](The Dragonblight). 
 
 However, it seems as though a large portion of the underground Azjol-Nerub caverns was pushed upwards by a cataclysm, ascending the underground ruins toward the surface as the ice broke. Nerubians no longer inhabit these [Riplash Ruins](Riplash Ruins), therefore the [Naga](Naga) took residence within the abandoned ruins. Azjol-Nerub contained huge libraries of literature, philosophy, and arcane lore.
 
@@ -22,7 +22,7 @@ Later the Nerubians were attacked by the [Lich King](Lich King), who, with his n
 Now [Dwarves](Dwarves) are located near the main entrance to the city, keeping the gates shut in hopes that scourge do not reach them. The undead hold many of the floors of the [Upper Kingdom](Upper Kingdom). The Nerubian rebels hold floors in the [Old Kingdom](Old Kingdom). Many of deepest areas are held by [faceless ones](Faceless One).
 
 ## See Also
--[Nerubian](Nerubian)
--[Ahn'Qiraj](Ahn'Qiraj)
--[Azj'Aqir](Azj'Aqir)
--[Silithid](Silithid)
+- [Nerubian](Nerubian)
+- [Ahn'Qiraj](Ahn'Qiraj)
+- [Azj'Aqir](Azj'Aqir)
+- [Silithid](Silithid)

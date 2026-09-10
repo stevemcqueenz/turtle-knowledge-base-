@@ -16,7 +16,7 @@ categories: ["Article management tags", "Pages with broken file links", "Stubs"]
 | type = an [NPC](NPC)
 | section = {}
 | info =
--Use <code></code> for non-in-game characters, <code></code> for non-interactive, non-player characters or monsters, or <code></code> for bosses.
+- Use <code></code> for non-in-game characters, <code></code> for non-interactive, non-player characters or monsters, or <code></code> for bosses.
 - This type of article is usually categorized under "[Quest givers](:Category:Quest givers)", "[Trainers](:Category:Trainers)", or "[Vendors](:Category:Vendors)".
 - You might want to use the **[NPC boilerplate](Help:NPC articles)** to fill in this article (see [Wowpedia:Boilerplates](Wowpedia:Boilerplates) for help). Alternatively, you might want to import some information from a database site - see: .
 {{#if:{}|

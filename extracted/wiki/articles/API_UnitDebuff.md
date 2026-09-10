@@ -14,26 +14,26 @@ Retrieve info about a certain debuff on a certain unit.
  debuffTexture, debuffApplications, debuffDispelType, debuffID = UnitDebuff( unitID, debuffIndex [, showDispellable] );
 
 ## Arguments
-  -unitID**
+**unitID**
   String - The unit ID you want debuff information for - "player", "target", "pet" etc
 
-  -debuffIndex**
+**debuffIndex**
   Number - The index of the debuff to retrieve info for. Starts at 1. The maximum index is 16 for party/pet/target debuffs.
 
-  -showDispellable**
+**showDispellable**
   Boolean - *(optional)* - Can be 0, 1, or nil. If present and 1, then only debuffs will be returned which are dispellable by the player. Index is still starting with 1 and counting up.
 
 ## Returns
-  -debuffTexture**
+**debuffTexture**
   String - The identifier of (path and filename to) the indicated debuff, or nil if no debuff
 
-  -debuffApplications**
+**debuffApplications**
   Number - The number of times the debuff has been applied to the target.  Returns 0 for any debuff which doesn't stack.
 
-  -debuffDispelType**
+**debuffDispelType**
   String - The debuff dispel type. Can be "Magic", "Curse", "Poison", "Disease" or nil if not dispellable. These strings are constant across localizations.
 
-  -debuffID**
+**debuffID**
   Number - the unique identifier for the debuff. 
   As IDs are unique, they are more reliable than texture matching.
 

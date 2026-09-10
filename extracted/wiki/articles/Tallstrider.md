@@ -11,7 +11,7 @@ categories: ["Animals", "Beast", "Creatures", "Game Terms", "Stubs"]
 # Tallstrider
 
 These ostrich-like [beast](beast)s are native to [Kalimdor](Kalimdor). 
--Plainstriders are found in the [Barrens](Barrens) and [Mulgore](Mulgore)
--Foreststriders can be found in [Darkshore](Darkshore).
+- Plainstriders are found in the [Barrens](Barrens) and [Mulgore](Mulgore)
+- Foreststriders can be found in [Darkshore](Darkshore).
 
--The [Gnome](Gnome)s modelled their [Mechano-strider](Mechano-strider) [mount](mount)s after striders.
+- The [Gnome](Gnome)s modelled their [Mechano-strider](Mechano-strider) [mount](mount)s after striders.

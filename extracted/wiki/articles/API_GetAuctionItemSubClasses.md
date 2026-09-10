@@ -10,11 +10,11 @@ categories: ["API Functions"]
 ---
 # API GetAuctionItemSubClasses
 
--GetAuctionItemSubClasses(index)**
+**GetAuctionItemSubClasses(index)**
 
-  -Parameters:** index of the major category to look into, from 1 to number of elements returned by GetAuctionItemClasses
+**Parameters:** index of the major category to look into, from 1 to number of elements returned by GetAuctionItemClasses
 
-  -Returns:** n return values, each of which is a sub category of category index.
+**Returns:** n return values, each of which is a sub category of category index.
 ----
 
 ## Addon

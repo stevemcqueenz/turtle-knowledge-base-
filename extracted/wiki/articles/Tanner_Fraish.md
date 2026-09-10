@@ -26,10 +26,10 @@ categories: ["Fishers", "Gilneas (kingdom)", "Gilneas NPCs", "Human characters",
 | location | Ravenshire, Gilneas |
 | status | Alive |
 
--Tanner Fraish** is a [human](human) fishing trainer and vendor located in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
+**Tanner Fraish** is a [human](human) fishing trainer and vendor located in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Ravenshire has relied on fish for quite a while, and the ocean is always bountiful enough to feed.
 
 ## Patch changes

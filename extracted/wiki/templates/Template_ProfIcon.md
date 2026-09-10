@@ -11,26 +11,24 @@ categories: ["WoW icon templates"]
 # Template:ProfIcon
 
 Small Icon only template; links to the selected profession/skill:
--  Alchemy
--  Blacksmithing
--  Cooking
--  Enchanting
--  Engineering
--  First Aid
--  Fishing
--  Herbalism
--  Jewelcrafting
--  Leatherworking
--  Mining
--  Riding
--  Skinning
--  Survival
--  Tailoring
--  Lockpicking
--  Poisons
+- Alchemy
+- Blacksmithing
+- Cooking
+- Enchanting
+- Engineering
+- First Aid
+- Fishing
+- Herbalism
+- Jewelcrafting
+- Leatherworking
+- Mining
+- Riding
+- Skinning
+- Survival
+- Tailoring
+- Lockpicking
+- Poisons
 
 Syntax:
-- 
-
-Default:
+- Default:
 - <onlyinclude></onlyinclude>

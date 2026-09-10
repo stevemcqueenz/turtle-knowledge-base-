@@ -10,4 +10,4 @@ categories: ["Eastern Plaguelands subzones", "Forest troll territories", "Pages 
 ---
 # Mazra'Alor
 
--Mazra'Alor** is the large ziggurat temple located at the heart of [Zul'Mashar](Zul'Mashar) in the [Eastern Plaguelands](Eastern Plaguelands). It is populated by several [forest troll](forest troll) [shadow hunter](shadow hunter)s of the [Mossflayer tribe](Mossflayer tribe).
+**Mazra'Alor** is the large ziggurat temple located at the heart of [Zul'Mashar](Zul'Mashar) in the [Eastern Plaguelands](Eastern Plaguelands). It is populated by several [forest troll](forest troll) [shadow hunter](shadow hunter)s of the [Mossflayer tribe](Mossflayer tribe).

@@ -10,10 +10,10 @@ categories: ["Addon"]
 ---
 # TurtleRP
 
--TurtleRP** is a roleplay addon. It enhances your roleplay experience by providing profile management, in-game tooltips, directory browsing, map location sharing, and chat commands.
+**TurtleRP** is a roleplay addon. It enhances your roleplay experience by providing profile management, in-game tooltips, directory browsing, map location sharing, and chat commands.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **TurtleRP** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **TurtleRP** up to date is by using [GitAddonsManager](G
 # **Select the Branch:** Ensure that the main branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -30,7 +30,7 @@ If you prefer manual installation, follow these steps:
 # Unpack the <code>.zip</code> and rename the folder to TurtleRP, removing the <code>-main</code> suffix.
 # Move the folder into your <code>Interface/AddOns</code> directory and restart the game.
 
-  -Note**: If a link is included in the text, and you are using Shagu / PFUI, The text will be formatted incorrectly because Shagu adds a white color after a link.
+**Note**: If a link is included in the text, and you are using Shagu / PFUI, The text will be formatted incorrectly because Shagu adds a white color after a link.
 
 ## Git Links
 - **[(OldManAlpha)](https://github.com/OldManAlpha/TurtleRP)** - Optimized version
@@ -66,14 +66,14 @@ Profile:
 - **Descriptions** - Provide descriptions in plain text or WoW's allowed basic HTML.
 - **At A Glance** - Select icons and snippets to display whenever players target you.
 
-  -Profile Management**
+**Profile Management**
 
 - **Open Profile**: Use the admin panel or <code>/ttrp</code> command.
 - **Switch Profiles**: Use the dropdown menu in the profile tab.
 - **Edit Profile Info**: Fill out character name, race, class, description, notes, and roleplay style.
 - **Save Profile**: Changes are saved automatically or via the save buttons.
 
-  -Profile Features**
+**Profile Features**
 
 - View detailed character info, including:
   - Full name
@@ -83,20 +83,20 @@ Profile:
   - Descriptions and notes
   - RP style and preferences
 
-  -Directory & Map Features**
+**Directory & Map Features**
 
 - **Browse Profiles**: Use the directory panel to find other players' profiles.
 - **Sort & Filter**: Click column headers to sort by character name or zone. Use the search box to filter results.
 - **View Nearby Players**: The addon tracks players' locations and displays them on the map if in the same zone.
 - **Delete Profiles**: Profiles with bad characters can be manually removed from the directory.
 
-  -Map Location Sharing**
+**Map Location Sharing**
 
 - Players can share their current zone and map coordinates.
 - Share location with permission in settings.
 - **Show Nearby Players**: Automatically updates map icons for players in the same zone.
 
-  -Tooltip & In-Game Display**
+**Tooltip & In-Game Display**
 
 - **Hover over players**: Shows detailed profile info in tooltips, including:
   - Name, race, class
@@ -108,7 +108,7 @@ Profile:
 - **Right-click on target**: Opens the profile window for more details.
 - **Mouseover**: Sends a request to fetch and display in-tooltip info about the hovered player.
 
-  -Chat & Emote System**
+**Chat & Emote System**
 
 - **Send Long Emotes**: Use <code>/ttrp</code> or chat commands to send long-form emotes split into manageable chunks.
 - **Commands**:

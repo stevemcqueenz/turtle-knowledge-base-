@@ -24,10 +24,10 @@ categories: ["Goblin characters", "Quest givers", "Tel'Abim NPCs", "Turtle WoW c
 | location | Tel Co. Basecamp, Tel'Abim |
 | status | Alive |
 
--Archaeologist Trixia Goldspark** is a [goblin](goblin) [quest giver](quest giver) located in [Tel Co. Basecamp](Tel Co. Basecamp) in [Tel'Abim](Tel'Abim).
+**Archaeologist Trixia Goldspark** is a [goblin](goblin) [quest giver](quest giver) located in [Tel Co. Basecamp](Tel Co. Basecamp) in [Tel'Abim](Tel'Abim).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Yo <race>, ever wondering what's hiding beneath your feet? What bounty we can claim from lost cultures? Perhaps we could find out together.
 
 ## Quests

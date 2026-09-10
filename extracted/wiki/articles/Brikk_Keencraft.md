@@ -24,10 +24,10 @@ categories: ["Blacksmithing trainers", "Blacksmiths", "Booty Bay characters", "G
 | aggro |  |
 | location | Booty Bay, Stranglethorn Vale |
 
--Brikk Keencraft** is a [goblin](goblin) [blacksmithing trainer](blacksmithing trainer) located in the blacksmithing building in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale).
+**Brikk Keencraft** is a [goblin](goblin) [blacksmithing trainer](blacksmithing trainer) located in the blacksmithing building in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Yeah? Of course I'm a [smith](smith). What, you think [Dwarves](Dwarf) are the only ones worth their weight in [anvil](anvil)s? Fine, be that way. Go get a dwarf to help you!
 
 ## External links

@@ -24,13 +24,13 @@ categories: ["Human characters", "Kul Tiras (kingdom)", "Quest givers", "Stormwi
 | location | Davenburg, Stormwind Harbor, Stormwind City |
 | status | Alive |
 
--Marine Hornby** is a [human](human) [quest giver](quest giver) located in [Davenburg](Davenburg) in [Stormwind Harbor](Stormwind Harbor) in [Stormwind City](Stormwind City).
+**Marine Hornby** is a [human](human) [quest giver](quest giver) located in [Davenburg](Davenburg) in [Stormwind Harbor](Stormwind Harbor) in [Stormwind City](Stormwind City).
 
 ## Quests
 - [quest: A Hydromancer's Curiosity] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The sea is harsh and filled with secrets. There is still more out there for us to explore, and more for expeditions to chart on maps.
 
 You can count on us to find the unveiled places of this world.

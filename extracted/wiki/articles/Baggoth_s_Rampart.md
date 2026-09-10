@@ -11,7 +11,7 @@ categories: ["Grim Reaches subzones", "Orc territories", "Ramparts", "Turtle WoW
 # Baggoth's Rampart
 
 flying atop the central tower.]]
-  -Baggoth's Rampart** is a dwarven fortification located in the [Grim Reaches](Grim Reaches). Built by Commander [Baggoth Ironmantle](Baggoth Ironmantle), Marshal of Dun Kithas, (ref: [Historian Sternhand#Quotes](Historian Sternhand#Quotes)) it was overrun by [orc](orc)s of the [Dragonmaw clan](Dragonmaw clan) when they rose once more against the [Wildhammer dwarves](Wildhammer dwarves) of the Reaches. In the chaos of the attack, the dwarven defenders were forced to leave behind the [Banner of Baggoth](Banner of Baggoth), the standard of the Wildhammer people. (ref: [quest: The Dragonmaw War])
+**Baggoth's Rampart** is a dwarven fortification located in the [Grim Reaches](Grim Reaches). Built by Commander [Baggoth Ironmantle](Baggoth Ironmantle), Marshal of Dun Kithas, (ref: [Historian Sternhand#Quotes](Historian Sternhand#Quotes)) it was overrun by [orc](orc)s of the [Dragonmaw clan](Dragonmaw clan) when they rose once more against the [Wildhammer dwarves](Wildhammer dwarves) of the Reaches. In the chaos of the attack, the dwarven defenders were forced to leave behind the [Banner of Baggoth](Banner of Baggoth), the standard of the Wildhammer people. (ref: [quest: The Dragonmaw War])
 
 ## Gallery
 <gallery>

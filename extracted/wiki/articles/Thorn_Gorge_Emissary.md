@@ -21,10 +21,10 @@ categories: ["Battlemasters", "Blood elf characters", "Darnassus NPCs", "Ironfor
 | creature | Humanoid |
 | gender | Both |
 
--Thorn Gorge Emissaries** are blood elven [Thorn Gorge](Thorn Gorge) recruiters located at various spots throughout the largest Alliance and Horde cities - [Stormwind City](Stormwind City), [Ironforge](Ironforge), [Darnassus](Darnassus), [Orgrimmar](Orgrimmar), [Thunder Bluff](Thunder Bluff), and [Undercity](Undercity), during the weekly battleground holiday event for Thorn Gorge.
+**Thorn Gorge Emissaries** are blood elven [Thorn Gorge](Thorn Gorge) recruiters located at various spots throughout the largest Alliance and Horde cities - [Stormwind City](Stormwind City), [Ironforge](Ironforge), [Darnassus](Darnassus), [Orgrimmar](Orgrimmar), [Thunder Bluff](Thunder Bluff), and [Undercity](Undercity), during the weekly battleground holiday event for Thorn Gorge.
 
 ## Quotes
-  -High enough level character**
+**High enough level character**
 The Call to Arms rings loud in Thorn Gorge. Answer it... or be forgotten like so many before you.
 
   

@@ -10,4 +10,4 @@ categories: ["Mining nodes", "Pages with broken file links"]
 ---
 # Copper Vein
 
--Copper Veins** can be found in many [zone](zone)s in the [Eastern Kingdoms](Eastern Kingdoms) and [Kalimdor](Kalimdor).
+**Copper Veins** can be found in many [zone](zone)s in the [Eastern Kingdoms](Eastern Kingdoms) and [Kalimdor](Kalimdor).

@@ -26,15 +26,15 @@ categories: ["Dustwallow Marsh NPCs", "Human characters", "Theramore", "Warrior 
 | location | Theramore Isle, Dustwallow Marsh |
 | status | Alive |
 
--Captain Evencane** is a [human](human) [warrior trainer](warrior trainer) located in [Foothold Citadel](Foothold Citadel) on [Theramore Isle](Theramore Isle) in [Dustwallow Marsh](Dustwallow Marsh).
+**Captain Evencane** is a [human](human) [warrior trainer](warrior trainer) located in [Foothold Citadel](Foothold Citadel) on [Theramore Isle](Theramore Isle) in [Dustwallow Marsh](Dustwallow Marsh).
 
 Even that he is a warrior trainer, he does not offer option to unlearn talents.
 
 ## Quotes
-  -Non-warriors**
+**Non-warriors**
 While Theramore is renown for it's exceptional training of warriors, I am afraid that I can not help you.
 
-  -Warriors**
+**Warriors**
 Come to train with the [Theramore guard](Theramore Guard) have you?
 
 ## External links

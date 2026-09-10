@@ -10,4 +10,4 @@ categories: ["Blackrock clan", "Burning Steppes subzones", "Keeps", "Orc territo
 ---
 # Blackrock Stronghold
 
--Blackrock Stronghold** is a massive [stronghold](stronghold) controlled by the [Blackrock clan](Blackrock clan) of [orc](orc)s. It is located in the northern region of the [Burning Steppes](Burning Steppes), just outside [Blackrock Spire](Blackrock Spire).
+**Blackrock Stronghold** is a massive [stronghold](stronghold) controlled by the [Blackrock clan](Blackrock clan) of [orc](orc)s. It is located in the northern region of the [Burning Steppes](Burning Steppes), just outside [Blackrock Spire](Blackrock Spire).

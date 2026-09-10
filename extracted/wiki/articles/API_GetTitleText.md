@@ -10,22 +10,22 @@ categories: ["API Functions"]
 ---
 # API GetTitleText
 
--: **Description****
-  - When you select an NPC who offers a quest, you use this function**
-  - to obtain the quest name even before it is accepted**
-  -: **Example****
-  - function MesoonicUI_OnLoad()**
-  -: this:RegisterEvent("QUEST_DETAIL")**
-  - end**
+**: **Description****
+** When you select an NPC who offers a quest, you use this function**
+** to obtain the quest name even before it is accepted**
+**: **Example****
+** function MesoonicUI_OnLoad()**
+**: this:RegisterEvent("QUEST_DETAIL")**
+** end**
 
-  - function MesoonicUI_OnEvent()**
-  -: if (event == "QUEST_DETAIL") then**
-  -:: MesoonicUI_DisplayQuestName()**
-  -: end**
-  - end**
-  - function MesoonicUI_DisplayQuestName()**
-  -: DEFAULT_CHAT_FRAME:AddMessage(GetTitleText())**
-  - end**
+** function MesoonicUI_OnEvent()**
+**: if (event == "QUEST_DETAIL") then**
+**:: MesoonicUI_DisplayQuestName()**
+**: end**
+** end**
+** function MesoonicUI_DisplayQuestName()**
+**: DEFAULT_CHAT_FRAME:AddMessage(GetTitleText())**
+** end**
 
 ## Addon
 Example from addon named TurtleGuide<syntaxhighlight lang="lua">

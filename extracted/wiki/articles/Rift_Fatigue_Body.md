@@ -27,8 +27,8 @@ categories: ["Azshara quests", "Neutral quests", "Quests at 52", "Stubs", "Turtl
 ## Objectives
 Akh Z'ador in Azshara requires herbs from the furbolgs to the west and flesh of the makrura to the east.
 
--[Zesty Makrura Claw](Zesty Makrura Claw) (6)
--[Timbermaw Herb Bundle](Timbermaw Herb Bundle) (10)
+- [Zesty Makrura Claw](Zesty Makrura Claw) (6)
+- [Timbermaw Herb Bundle](Timbermaw Herb Bundle) (10)
 
 ## Description
 Being exposed to the currents of the Twisting Nether is a dangerous act, its ramifications are still felt on my body. The draenei have ancient recipes, passed on between generations, to combat the side effects of prolonged riftwalking. While I do not have access to the traditional ingredients, I am sure the native wildlife here are fit enough to create a substitute cure.

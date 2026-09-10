@@ -23,7 +23,7 @@ categories: ["Durotar mobs", "Human characters", "Kul Tiras (kingdom)", "Turtle 
 | gender | Both |
 | location | Echo Isles, Durotar |
 
--Expedition Commandos** are [human](human)s found on the [Echo Isles](Echo Isles) in [Durotar](Durotar).
+**Expedition Commandos** are [human](human)s found on the [Echo Isles](Echo Isles) in [Durotar](Durotar).
 
 ## Objective of
 - [quest: The Second Wave]

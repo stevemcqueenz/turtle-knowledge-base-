@@ -10,6 +10,6 @@ categories: ["Harbors", "Pages with broken file links", "Silverpine Forest subzo
 ---
 # Decrepit Ferry
 
--The Decrepit Ferry** used to be the location of a bustling ferry service that transported goods and people to and from [Fenris Isle](Fenris Isle). The nearby farmsteads all sold part of their crops to the island's rich lord and his family, and the ferryman was paid a small fee for each trip.
+**The Decrepit Ferry** used to be the location of a bustling ferry service that transported goods and people to and from [Fenris Isle](Fenris Isle). The nearby farmsteads all sold part of their crops to the island's rich lord and his family, and the ferryman was paid a small fee for each trip.
 
 Then the [Scourge](Scourge) invaded [Lordaeron](Lordaeron). The ferryman was brutally murdered, the ferry was destroyed, and ghouls, skeletal warriors, and [Rot Hide](Rot Hide) gnolls invaded the docks. It is now a hazardous place to venture for inexperienced travelers.

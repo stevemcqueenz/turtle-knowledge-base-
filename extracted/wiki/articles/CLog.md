@@ -13,7 +13,7 @@ categories: ["Addon"]
 CLog records combat and chat events into a log file. It helps players analyze combat interactions, chat occurrences, and other in-game events.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **CLog** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **CLog** up to date is by using [GitAddonsManager](GitAd
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -45,12 +45,12 @@ If you prefer manual installation, follow these steps:
 |Clears the current combat log entries.
 |}
 
-  -Notes:**
+**Notes:**
 
 - When recording is active, events such as combat, NPC speech, emotes, and other chat messages are logged with timestamps.
 - Log files are saved in your SavedVariables folder (<code>WTF\Account\ACCOUNTNAME\SavedVariables\CLog.lua</code>).
 
-  -Registering Events:**<syntaxhighlight lang="lua">
+**Registering Events:**<syntaxhighlight lang="lua">
 function CLog_Register()
   -- Register all desired events for logging
   -- (see your existing CLog_Register function for full list)
@@ -66,11 +66,11 @@ end
 Log file:
 
 ## **Optimization**
-  -Event Registration Optimization**
+**Event Registration Optimization**
 
 Instead of calling <code>RegisterEvent</code> for each event separately, define all event strings in a table and register/unregister them in a loop. This reduces code duplication and improves maintainability.
 
-  -Example:**<syntaxhighlight lang="lua">
+**Example:**<syntaxhighlight lang="lua">
 local CLogEventsList = {
   "PLAYER_REGEN_ENABLED",
   "PLAYER_REGEN_DISABLED",
@@ -80,7 +80,7 @@ local CLogEventsList = {
 }
 </syntaxhighlight>
 
-  -Registering:**<syntaxhighlight lang="lua">
+**Registering:**<syntaxhighlight lang="lua">
 local function CLog_Register()
   for _, event in ipairs(CLogEventsList) do
     CLogFrame:RegisterEvent(event)

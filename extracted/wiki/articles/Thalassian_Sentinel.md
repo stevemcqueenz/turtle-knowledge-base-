@@ -24,7 +24,7 @@ categories: ["Guards", "High elf characters", "Thalassian Highlands NPCs", "Turt
 | gender | Male |
 | location | Thalassian Highlands |
 
--Thalassian Sentinels** are high elven guards located at various locations throughout the [Thalassian Highlands](Thalassian Highlands). They can be found patrolling the roads and stationed in [Brinthilien](Brinthilien). They are flagged for PvP and will attack any member of the Horde on sight. They can provide directions to various locations in the [Thalassian Highlands](Thalassian Highlands) and [Alah'Thalas](Alah'Thalas).
+**Thalassian Sentinels** are high elven guards located at various locations throughout the [Thalassian Highlands](Thalassian Highlands). They can be found patrolling the roads and stationed in [Brinthilien](Brinthilien). They are flagged for PvP and will attack any member of the Horde on sight. They can provide directions to various locations in the [Thalassian Highlands](Thalassian Highlands) and [Alah'Thalas](Alah'Thalas).
 
 ## Patch changes
 - (Patch 1.17.1|note=Added.)

@@ -10,13 +10,9 @@ categories: ["Defias Brotherhood", "Farms", "Human territories", "Westfall subzo
 ---
 # Alexston Farmstead
 
--Alexston Farmstead** is one of the many [farm](farm)s in central [Westfall](Westfall) that have been taken over by the [Defias Brotherhood](Defias Brotherhood). Now, the deadly mechanical [Harvest Watcher](Harvest Watcher)s roam the fields, and the Defias have laid claim to the farm.
+**Alexston Farmstead** is one of the many [farm](farm)s in central [Westfall](Westfall) that have been taken over by the [Defias Brotherhood](Defias Brotherhood). Now, the deadly mechanical [Harvest Watcher](Harvest Watcher)s roam the fields, and the Defias have laid claim to the farm.
 
 [Baros Alexston](Baros Alexston), an architect at the service of [Stormwind City](Stormwind City), hails his humble origin from this very land, where he worked as a young boy. (ref:  [15] [Humble Beginnings](Humble Beginnings))
 
 ## NPCs
-- 
-- 
-- 
-
-## References
+- - - ## References

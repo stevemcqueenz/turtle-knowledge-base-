@@ -23,7 +23,7 @@ categories: ["Bronze dragons"]
 | status | Alive |
 | relatives | Saridormi (consort),, Anachronos (son) |
 
--Nozdormu the Timeless One** is one of the five [Dragon Aspects](Dragon Aspects) and the leader of the [bronze dragonflight](bronze dragonflight).
+**Nozdormu the Timeless One** is one of the five [Dragon Aspects](Dragon Aspects) and the leader of the [bronze dragonflight](bronze dragonflight).
 
 ## Biography
 ### The Charge of the Dragonflights

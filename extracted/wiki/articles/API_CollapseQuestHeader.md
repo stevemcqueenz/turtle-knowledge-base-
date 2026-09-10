@@ -14,7 +14,7 @@ Collapses the quest header.
  CollapseQuestHeader(questID);
 ----
 
-  - *Arguments***
+** *Arguments***
 
    (Number questID)
 
@@ -23,20 +23,20 @@ Collapses the quest header.
 
 ----
 
-  - *Returns***
+** *Returns***
 
   ; nil
 
 ----
 
-  - *Example***
+** *Example***
 
  CollapseQuestHeader(3);
 
-  - *Result***
+** *Result***
 
 ----
 
-  - *Description***
+** *Description***
 
    Collapses the quest header.

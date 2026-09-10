@@ -10,4 +10,4 @@ categories: ["Badlands subzones", "Skeleton territories"]
 ---
 # Apocryphan's Rest
 
--Apocryphan's Rest** is the name of a large draconic skeleton that lies fallen in the [Badlands](Badlands) south of [Kargath](Kargath). It is populated by a flock of hungry [buzzard](buzzard)s.
+**Apocryphan's Rest** is the name of a large draconic skeleton that lies fallen in the [Badlands](Badlands) south of [Kargath](Kargath). It is populated by a flock of hungry [buzzard](buzzard)s.

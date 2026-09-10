@@ -37,8 +37,8 @@ However, amidst this turmoil, there are those loyal to the broader vision. They 
 
 ## Rewards
 You will receive:
--120 XP
--+150 [reputation](reputation) with [Silvermoon Remnant](Silvermoon Remnant)
+- 120 XP
+- +150 [reputation](reputation) with [Silvermoon Remnant](Silvermoon Remnant)
 
 ## Progress
 Lady Windrunner shall lead us to victory!

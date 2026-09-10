@@ -42,7 +42,7 @@ The Horde have been honest about their investigations, it makes me happy that we
 What did you learn, soldier?
 
 ## Notes
-  -Talking to Falgran Hastil**
+**Talking to Falgran Hastil**
 What is it you need?
 
   > Gossip: I am ready for the meeting.

@@ -24,7 +24,7 @@ categories: ["Bears", "Desolace NPCs", "Feralas NPCs", "Stonetalon Mountains NPC
 | status | Alive |
 | companions | Rexxar |
 
--Misha** is a [bear](bear) and a companion of the [Mok'nathal](Mok'nathal) [Rexxar](Rexxar), accompanying him through the [Stonetalon Mountains](Stonetalon Mountains), [Desolace](Desolace), and [Feralas](Feralas).
+**Misha** is a [bear](bear) and a companion of the [Mok'nathal](Mok'nathal) [Rexxar](Rexxar), accompanying him through the [Stonetalon Mountains](Stonetalon Mountains), [Desolace](Desolace), and [Feralas](Feralas).
 
 ## Trivia
 - Misha's model was updated at an unknown point to use the textures from the Founding of Durotar menu. Rexxar's model was updated simultaneously to use his model from *The Burning Crusade*.

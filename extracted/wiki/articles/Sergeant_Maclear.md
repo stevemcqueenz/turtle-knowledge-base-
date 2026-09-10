@@ -25,19 +25,19 @@ categories: ["Arathi Highlands NPCs", "Human characters", "League of Arathor", "
 | location | Refuge Pointe, Arathi Highlands |
 | status | Alive |
 
--Sergeant Maclear** is a [human](human) located in [Refuge Pointe](Refuge Pointe) in the [Arathi Highlands](Arathi Highlands).
+**Sergeant Maclear** is a [human](human) located in [Refuge Pointe](Refuge Pointe) in the [Arathi Highlands](Arathi Highlands).
 
 ## Quests
--Arathi Basin Resources! 
+- Arathi Basin Resources! 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 To win this war, we can't sit idle and let the tides sweep us over. We must strike, hard and fast, or [Arathi](Arathi Highlands) will never again be ours.
 
 ## Patch changes
--  **Patch 1.7.0 (2005-09-13):** Added.
+- **Patch 1.7.0 (2005-09-13):** Added.
 
 ## See also
--[List of Arathi Highlands NPCs](Arathi Highlands NPCs)
+- [List of Arathi Highlands NPCs](Arathi Highlands NPCs)
 
 ## External links

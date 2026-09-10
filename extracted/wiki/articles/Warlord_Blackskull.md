@@ -26,7 +26,7 @@ categories: ["Orc characters", "Sunnyglade Valley NPCs", "Turtle WoW content"]
 | location | Sunnyglade Valley |
 | status | Killable |
 
--Warlord Blackskull** is an [orc](orc) and was the leader of the invading orcish forces in [Sunnyglade Valley](Sunnyglade Valley) during the [First War](First War). Blackskull led his army from [Gol'dregar](Gol'dregar) in the southern part of the Valley.
+**Warlord Blackskull** is an [orc](orc) and was the leader of the invading orcish forces in [Sunnyglade Valley](Sunnyglade Valley) during the [First War](First War). Blackskull led his army from [Gol'dregar](Gol'dregar) in the southern part of the Valley.
 
 ## Patch changes
 - (Patch 1.17.0|note=

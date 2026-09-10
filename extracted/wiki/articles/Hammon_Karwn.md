@@ -27,6 +27,6 @@ categories: ["Arathi Highlands NPCs", "Human characters", "Tradeskill vendors"]
 
 __NOTOC__
 
-  -Hammon Karwn** is a [human](human) trade goods [vendor](vendor) located in [Refuge Pointe](Refuge Pointe) in the [Arathi Highlands](Arathi Highlands). 
+**Hammon Karwn** is a [human](human) trade goods [vendor](vendor) located in [Refuge Pointe](Refuge Pointe) in the [Arathi Highlands](Arathi Highlands). 
 
 ## External links

@@ -25,7 +25,7 @@ categories: ["Alliance quest hubs", "Alliance settlements", "Eastern Kingdoms", 
 | status | Active |
 | loc | Thalassian Highlands |
 
--Alah'Thalas** (meaning **Land of Light** in [Thalassian](Thalassian)) (ref: [quest: Assisting the Children of the Sun] *(Deprecated)*), sometimes spelled **Alah'thalas**, is a [high elven](High elf) city situated on a peninsula at the tip of the [Thalassian Highlands](Thalassian Highlands), near Quel'Thalas. It is the largest of the three major concentrations of high elves in [Lordaeron](Lordaeron) and is one of the very last high elven settlements.
+**Alah'Thalas** (meaning **Land of Light** in [Thalassian](Thalassian)) (ref: [quest: Assisting the Children of the Sun] *(Deprecated)*), sometimes spelled **Alah'thalas**, is a [high elven](High elf) city situated on a peninsula at the tip of the [Thalassian Highlands](Thalassian Highlands), near Quel'Thalas. It is the largest of the three major concentrations of high elves in [Lordaeron](Lordaeron) and is one of the very last high elven settlements.
 
 ## History
 Roughly a century before the Third War, high elves of Quel'Thalas founded an outpost and empowered it by an arcane crystal infused with the energies of the Sunwell itself. However, some time later it was abandoned and remained uninhabited until recent time. The outpost was rediscovered after the Third War by the Silvermoon Remnants with information from Dalaran's archives and resettled by Thalassian refugees, now looking for the help of volunteers from the Alliance in their mission to maintain the city and protect the remnants of their once great race.
@@ -47,9 +47,9 @@ Unlike Farstrider Lodges across Azeroth that have a kaldorei-like wooden archite
 
 ## Travel connections
 ### Flight
--  [Light's Hope Chapel](Light's Hope Chapel), [Eastern Plaguelands](Eastern Plaguelands)
+- [Light's Hope Chapel](Light's Hope Chapel), [Eastern Plaguelands](Eastern Plaguelands)
 ### Boat
--  [Auberdine](Auberdine), [Darkshore](Darkshore)
+- [Auberdine](Auberdine), [Darkshore](Darkshore)
 
 ## Gallery
 <gallery>

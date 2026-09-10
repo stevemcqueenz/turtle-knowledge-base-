@@ -10,4 +10,4 @@ categories: ["Caves", "Durotar subzones", "Orc territories", "Pages with broken 
 ---
 # Dustwind Cave
 
--Dustwind Cave** in [Durotar](Durotar) is a haven for the exiled members of the [Burning Blade](Burning Blade) clan. It is located atop the cliffs of [Razorwind Canyon](Razorwind Canyon), just northeast of [Razor Hill](Razor Hill).
+**Dustwind Cave** in [Durotar](Durotar) is a haven for the exiled members of the [Burning Blade](Burning Blade) clan. It is located atop the cliffs of [Razorwind Canyon](Razorwind Canyon), just northeast of [Razor Hill](Razor Hill).

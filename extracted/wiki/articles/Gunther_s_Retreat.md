@@ -10,4 +10,4 @@ categories: ["Forsaken territories", "Islands", "Pages with broken file links", 
 ---
 # Gunther's Retreat
 
--Gunther's Retreat** is an island located in [Brightwater Lake](Brightwater Lake) in central [Tirisfal Glades](Tirisfal Glades). While most of the islands' inhabitants are mindless [Scourge](Scourge) zombies, it is also home to the [Forsaken](Forsaken) lich, [Gunther Arcanus](Gunther Arcanus), who believes himself to be the only sane undead in the world.
+**Gunther's Retreat** is an island located in [Brightwater Lake](Brightwater Lake) in central [Tirisfal Glades](Tirisfal Glades). While most of the islands' inhabitants are mindless [Scourge](Scourge) zombies, it is also home to the [Forsaken](Forsaken) lich, [Gunther Arcanus](Gunther Arcanus), who believes himself to be the only sane undead in the world.

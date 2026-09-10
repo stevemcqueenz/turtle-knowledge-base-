@@ -25,7 +25,7 @@ categories: ["Food and drink vendors", "Grim Reaches NPCs", "Turtle WoW content"
 | location | Dun Kithas, Grim Reaches |
 | status | Alive |
 
--Velwin Gravelcrest** is a [Wildhammer dwarf](Wildhammer dwarf) food and drink vendor located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
+**Velwin Gravelcrest** is a [Wildhammer dwarf](Wildhammer dwarf) food and drink vendor located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

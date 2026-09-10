@@ -10,7 +10,7 @@ categories: ["Destroyers", "Pages with broken file links", "Thalassian navy", "U
 ---
 # Flying Osprey
 
--*Flying Osprey*** was a [high elven](High elf) destroyer of the [Thalassian navy](Thalassian navy) that accompanied [Kul Tiras](Kul Tiras (kingdom))' [Third Fleet](Lost Fleet) during the [Second War](Second War). The elven vessel was carrying a load of [Lightforge Iron](Lightforge Iron) and had joined the Third Fleet for protection.
+***Flying Osprey*** was a [high elven](High elf) destroyer of the [Thalassian navy](Thalassian navy) that accompanied [Kul Tiras](Kul Tiras (kingdom))' [Third Fleet](Lost Fleet) during the [Second War](Second War). The elven vessel was carrying a load of [Lightforge Iron](Lightforge Iron) and had joined the Third Fleet for protection.
 
 During a battle between the [Alliance](Alliance of Lordaeron) and [Horde](Old Horde) naval forces off the coast of the [Wetlands](Wetlands) of [Khaz Modan](Khaz Modan), the Third Fleet was destroyed by the [Dragonmaw clan](Dragonmaw clan) and their subservient [red dragon](red dragon)s. The vessel's wreckage remains off the coast of the Wetlands to this day, to the south of [Menethil Harbor](Menethil Harbor) in the entrance of [Menethil Bay](Menethil Bay).
 

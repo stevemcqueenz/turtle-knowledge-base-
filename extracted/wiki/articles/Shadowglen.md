@@ -21,4 +21,4 @@ categories: ["Night elf territories", "Pages with broken file links", "Pages wit
 | affiliation | Darnassus, Alliance |
 | loc | Northeastern Teldrassil |
 
--Shadowglen** (or **Shadow Glen**) is the [night elven](Night elf) [starting area](starting area). It is found in the northeastern part of [Teldrassil](Teldrassil), which is just north of [Starbreeze Village](Starbreeze Village). Like all starting areas, it has [class](class) trainers for all night elven classes.
+**Shadowglen** (or **Shadow Glen**) is the [night elven](Night elf) [starting area](starting area). It is found in the northeastern part of [Teldrassil](Teldrassil), which is just north of [Starbreeze Village](Starbreeze Village). Like all starting areas, it has [class](class) trainers for all night elven classes.

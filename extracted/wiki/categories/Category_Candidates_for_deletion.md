@@ -13,4 +13,4 @@ categories: ["Maintenance"]
 __EXPECTUNUSEDCATEGORY__
 This category contains articles that have been marked as candidates for deletion with the  template.
 
-  -Administrators, before deleting these pages** make sure you check each page's discussion page, what links to each page, and the history of each page before proceeding with the deletion.
+**Administrators, before deleting these pages** make sure you check each page's discussion page, what links to each page, and the history of each page before proceeding with the deletion.

@@ -16,13 +16,13 @@ Also cancels some types of weapon buffs when they ask for confirmation.  For exa
  SpellStopTargeting()
 ----
 
-  - *Arguments***
+** *Arguments***
 
    *none*
 
 ----
 
-  - *Returns***
+** *Returns***
 
    Boolean istargeting
   ; istargeting
@@ -30,7 +30,7 @@ Also cancels some types of weapon buffs when they ask for confirmation.  For exa
 
 ----
 
-  - *Example***
+** *Example***
 
 ?
 

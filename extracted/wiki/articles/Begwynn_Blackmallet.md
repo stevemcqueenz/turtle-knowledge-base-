@@ -25,7 +25,7 @@ categories: ["Dwarf characters", "Leatherworking vendors", "Stonetalon Mountains
 | location | Bael Hardul, Stonetalon Mountains |
 | status | Alive |
 
--Begwynn Blackmallet** is a [dwarf](dwarf) leatherworking vendor located in [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains).
+**Begwynn Blackmallet** is a [dwarf](dwarf) leatherworking vendor located in [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains).
 
 ## Patch changes
 - (Patch 1.16.4|note=Added.)

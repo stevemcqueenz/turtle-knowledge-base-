@@ -25,7 +25,7 @@ categories: ["Alliance factions", "Factions", "Turtle WoW content"]
 
 *This article is about the in-game faction. For the city-state and human nation, see [Theramore Isle](Theramore Isle).*
 
-  -Theramore Isle** was settled by [Jaina Proudmoore](Jaina Proudmoore) and the refugees who fled from [Lordaeron](Lordaeron) and its neighboring kingdoms. Following the [Battle at Mount Hyjal](Battle at Mount Hyjal), Theramore has maintained cordial ties with the [Horde](Horde) and sought peace.
+**Theramore Isle** was settled by [Jaina Proudmoore](Jaina Proudmoore) and the refugees who fled from [Lordaeron](Lordaeron) and its neighboring kingdoms. Following the [Battle at Mount Hyjal](Battle at Mount Hyjal), Theramore has maintained cordial ties with the [Horde](Horde) and sought peace.
 
 ## Rewards
 <onlyinclude>{| class="fandom-table"
@@ -41,5 +41,5 @@ categories: ["Alliance factions", "Factions", "Turtle WoW content"]
 
 ## Patch changes
 - (Patch 1.15.0|note=Re-added.)
--  **Patch 1.6.1 (2005-08-02):** Removed.
--  **[Patch 1.6.0](Patch 1.6.0) (2005-07-12):** Added.
+- **Patch 1.6.1 (2005-08-02):** Removed.
+- **[Patch 1.6.0](Patch 1.6.0) (2005-07-12):** Added.

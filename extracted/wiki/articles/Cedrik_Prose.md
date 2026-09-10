@@ -26,16 +26,16 @@ categories: ["Arathi Highlands NPCs", "Flight masters", "Human characters"]
 | location | Refuge Pointe, Arathi Highlands |
 | status | Alive |
 
--Cedrik Prose** is a [human](human) [gryphon](gryphon) [flight master](flight master) located in [Refuge Pointe](Refuge Pointe) in the [Arathi Highlands](Arathi Highlands).
+**Cedrik Prose** is a [human](human) [gryphon](gryphon) [flight master](flight master) located in [Refuge Pointe](Refuge Pointe) in the [Arathi Highlands](Arathi Highlands).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Where would you like to fly to?
 
 ## Flight paths
 See [Refuge Pointe#Travel connections](Refuge Pointe#Travel connections).
 
 ## See also
--[List of Arathi Highlands NPCs](List of Arathi Highlands NPCs)
+- [List of Arathi Highlands NPCs](List of Arathi Highlands NPCs)
 
 ## External links

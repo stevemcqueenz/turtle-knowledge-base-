@@ -22,13 +22,13 @@ categories: ["Instance navigation templates"]
 
 [Hailar the Frigid](Hailar the Frigid)
 |
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 |-
 | class="title" colspan="2"| [Loot](Frostmane Hollow loot)
 |}

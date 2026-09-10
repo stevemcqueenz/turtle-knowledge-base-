@@ -20,24 +20,10 @@ The **Ambershire Church** (ref: [quest: The Grateful Dead]) is the chapel and gr
 - [Bartholomew Gallagher](Bartholomew Gallagher)
 
 ## Inhabitants
-  -Inside the chapel**
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-  -In the graveyard**
-- 
-- 
-- 
-
-  -Outside the graveyard**
-- 
-
-## Patch changes
+**Inside the chapel**
+- - - - - - - ;In the graveyard
+- - - ;Outside the graveyard
+- ## Patch changes
 - (Patch 1.18.0|note=Added.)
 
 ## References

@@ -28,7 +28,7 @@ categories: ["Alliance quests", "Quests at 5", "Thalassian Highlands quests", "T
 
 ## Objectives
 Bring the Feltouched Letter to Lady [Vereesa Windrunner](Vereesa Windrunner) in [Alah'Thalas](Alah'Thalas).
--[Feltouched Letter](Feltouched Letter) (provided)
+- [Feltouched Letter](Feltouched Letter) (provided)
 
 ## Description
 Quickly now, time is of the essence. This missive must find its way to the [Regency Council](Regency Council) with the swiftness of the wind before circumstances turn dire.
@@ -39,9 +39,9 @@ Yet, a caution weighs upon these words. Not every member within the Council is t
 
 ## Rewards
 You will receive:
--70 XP
--+150 [reputation](reputation) with [Silvermoon Remnant](Silvermoon Remnant)
--[Thalassian Handguards](Thalassian Handguards)
+- 70 XP
+- +150 [reputation](reputation) with [Silvermoon Remnant](Silvermoon Remnant)
+- [Thalassian Handguards](Thalassian Handguards)
 
 ## Progress
 Another one of our kin finds a way into Alah'Thalas. Welcome.

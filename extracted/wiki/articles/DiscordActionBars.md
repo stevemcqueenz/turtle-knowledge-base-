@@ -10,10 +10,10 @@ categories: ["Addon"]
 ---
 # DiscordActionBars
 
--Discord Action Bars** (DAB) spreads your base 120 action buttons across 10 configurable bars, with custom layouts, profiles, and scripting support.
+**Discord Action Bars** (DAB) spreads your base 120 action buttons across 10 configurable bars, with custom layouts, profiles, and scripting support.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **DiscordActionBars** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -25,7 +25,7 @@ The easiest way to keep **DiscordActionBars** up to date is by using [GitAddonsM
 # **Select the Branch:** Ensure that the main branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -39,7 +39,7 @@ If you prefer manual installation, follow these steps:
 - DiscordActionBarsOptions-main to DiscordActionBarsOptions
   5 Restart the game.
 
-  -Important**
+**Important**
 
 # This mod *does not use the default UI's keybindings* for the action bars. Scroll down in the keybindings menu until you see the *Discord Action Bars* header. Beneath that is where you set your keybindings. The pet and shapeshift bars still use the default keybindings.
 # Do not set the *Use For Shapeshift Form* option on the Main Bar to any form. Why did you think the mod was spamming a warning at you when you tried to do so?
@@ -131,7 +131,7 @@ If you prefer manual installation, follow these steps:
 ## **Options Overview**
 To open DAB's options window you simply type /dab.
 
-  -When typing a new value in any editbox, remember to hit enter when finished.  The new value will not be applied until you hit enter.**
+**When typing a new value in any editbox, remember to hit enter when finished.  The new value will not be applied until you hit enter.**
 
 You'll see a list of bars in the upper-left.  Clicking anything in that area will bring up options for the object you clicked.  That area of the window is a scrolling frame.  You can scroll down to access options for the pet, shapeshift, bag, and menu bars, control boxes, and floaters.
 
@@ -155,28 +155,28 @@ By default, holding Ctrl lets you drag an object regardless of whether dragging 
 ## Features
 Key Features & How to Use
 
-  -Action Buttons & IDs**
+**Action Buttons & IDs**
 - Each button has an **Action ID** (1-120), which can be changed on the fly.
 - Buttons can be assigned to any action (spell, macro, item).
 - Use slash commands or the options menu to assign actions.
-  -Action Bars & Pages**
+**Action Bars & Pages**
 - Each bar can have multiple pages (sets of action IDs).
 - Change pages via mouse wheel, keybindings, slash commands (<code>/dab barpage</code>), or scripts.
 - Use <code>/dab barpage barID page</code> to switch pages manually.
-  -Profiles**
+**Profiles**
 - Save different profiles for different characters or setups.
 - Load profiles via <code>/dab load profile</code>.
 - Create new profiles in **Misc Options**.
-  -Custom Layouts**
+**Custom Layouts**
 - Download user-made layouts from external sources.
 - Place custom layouts (<code>DAB_Custom.lua</code>) into your addon folder.
 - Load them via **Misc Options** > **Load Custom Profile**.
-  -Scripting Support**
+**Scripting Support**
 - Write custom Lua scripts for game events and button actions.
 - Use the **Scripts** tab in options or in specific objects.
 - Useful for advanced automations or responses.
 
-  -Here's some of what you can do with the bars:**
+**Here's some of what you can do with the bars:**
 - Drag a bar to where you want it.
 - Set the number of buttons per bar
 - Set the number of rows in which to display the buttons
@@ -198,7 +198,7 @@ Key Features & How to Use
 - Configure solo buttons (referred to as 'floaters') that aren't attached to any bar.
 
 ## **Bar Options**
-  -BAR CONFIG TAB:**
+**BAR CONFIG TAB:**
 
 - **^v<> (Nudge Buttons)** - These buttons give you precise control over moving the bar.  Left-clicking one of them will move the bar 1 unit in the direction you clicked.  Right-clicking one of them will move the bar 10 units in the direction you clicked.  Clicking and holding the middle-mouse button on one of them will keep the frame moving until you release the middle-mouse button.
 - **Anchor Frame** - Specify a frame to attach the bar to.  Any frame can be specified.  You can type a new name into the editbox rather than choosing one from the drop-down menu.
@@ -237,7 +237,7 @@ Key Features & How to Use
 - **X** - Sets the horizontal offset of the Anchor Point from the Anchor To.
 - **Y** - Sets the vertical offset of the Anchor Point from the Anchor To.
 
-  -ADV. BAR CONFIG TAB:**
+**ADV. BAR CONFIG TAB:**
 
 - **Action Unusable** - Lets you set the color the buttons change to when unusable.
 - **Border** - Lets you set the texture and color of the buttons' borders.
@@ -262,9 +262,9 @@ Key Features & How to Use
 - **Right-click Bar** - Specifies another bar to use whenever you right-click a button.  The action in the button in the same position on that bar is the action you use.
 - **Show Hidden Buttons When Dragging an Action** - Causes all hidden buttons on the bar to be displayed whenever you're dragging a spell, item, or macro.
 
-  -Trim Button Edges** - Trims the white borders and rounded corners off the action icon. 
+**Trim Button Edges** - Trims the white borders and rounded corners off the action icon. 
 
-  -LABEL TAB:**
+**LABEL TAB:**
 
 A bar's label is a small box attached to the bar displaying whatever text you want.
 
@@ -284,7 +284,7 @@ A bar's label is a small box attached to the bar displaying whatever text you wa
 - **X** - Sets the horizontal offset of the Anchor Point from the Anchor To.
 - **Y** - Sets the vertical offset of the Anchor Point from the Anchor To.
 
-  -BAR CONTROL TAB:**
+**BAR CONTROL TAB:**
 
 This tab lets you set up conditions the bar watches for and responses that are run each time a condition becomes true.
 
@@ -300,7 +300,7 @@ The Overridden By editbox lets you specify other conditions that prevent this co
 
 When finished setting up the condition, response, and overrides click the Add Condition button to add the condition to the list of the bar's active conditions. 
 
-  -BUTTON CONTROL TAB:**
+**BUTTON CONTROL TAB:**
 
 This tab lets you set up conditions each button on the bar watches for and responses that are run each time a condition becomes true.
 
@@ -316,7 +316,7 @@ The Choose Response drop-down menu lets you choose an action that occurs wheneve
 
 The Overridden By editbox lets you specify other conditions that prevent this condition from becoming true.  As long as any one of the overrides is true, this condition cannot become true.  You type in the number that appears to the left of a condition in the scrolling frame at the top of the window.  Multiple overrides must be separated by a comma, for example: 1, 3, 5. When finished setting up the condition, response, and overrides click the Add Condition button to add the condition to the list of the bar's active conditions. 
 
-  -SCRIPTS TAB:**
+**SCRIPTS TAB:**
 
 This tab lets you enter your own lua scripts for each of the bar's handlers.  A tooltip for each handler tells you when it's run.  Handlers that currently hold a script will be marked with an asterisk (*). For OnClick, OnEnter, and OnLeave handlers, WoW's this variable will refer to the button on the bar that caused the handler to run.  Using this:GetID() will return the button's ID.  Using this:GetActionID() will return the button's action ID. Note that all pages on a bar use the same button IDs and can have, but not necessarily will have, different action IDs.
 
@@ -355,7 +355,7 @@ The this variable isn't set for OnKeybindingDown and OnKeybindingUp parameters. 
 - **Y** - Sets the vertical offset of the Anchor Point from the Anchor To.
 
 ## **Control Box Options**
-  -CONFIG TAB:**
+**CONFIG TAB:**
 
 - **^v<> (Nudge Buttons)** - These buttons give you precise control over moving the control box.  Left-clicking one of them will move the box 1 unit in the direction you clicked.  Right-clicking one of them will move the box 10 units in the direction you clicked.  Clicking and holding the middle-mouse button on one of them will keep the frame moving until you release the middle-mouse button.
 - **Anchor Frame** - Specify a frame to attach the control box to.  Any frame can be specified.  You can type a new name into the editbox rather than choosing one from the drop-down menu.
@@ -391,7 +391,7 @@ The this variable isn't set for OnKeybindingDown and OnKeybindingUp parameters. 
 - **X** - Sets the horizontal offset of the Anchor Point from the Anchor To.
 - **Y** - Sets the vertical offset of the Anchor Point from the Anchor To. 
 
-  -CONTROL TAB:**
+**CONTROL TAB:**
 
 - **Bar** - The drop-down next to this label lets you choose the bar whose page gets change when the control box is clicked.  The drop-down menu below the label lets you choose the page the bar is changed to.
 - **Change A Bar's Page On Click** - Checking this option causes the control box to change any bar's page when it's clicked.
@@ -405,12 +405,12 @@ The this variable isn't set for OnKeybindingDown and OnKeybindingUp parameters. 
 - **Toggle Group On Mouseover** - The control box will toggle its group once when you move the mouse over the control box and once when you move the mouse off the control box.  Moving the mouse over an object in the box's group before the control box toggles it on mouseout will prevent the control box group from being toggled as long as the mouse is over any object in the group.
 - **Toggle Group On Right-click** - Checking this option will let you specify another group for the control box to toggle when the control box is right-clicked.  Use the drop-down menu to choose the other group. 
 
-  -SCRIPTS TAB:**
+**SCRIPTS TAB:**
 
 This tab lets you enter lua scripts that are run in response to various handlers for the control box.  A tooltip in the drop-down menu at the top describes what each handler does.  Refer to the Scripting sections below for more info.
 
 ## **Floater Options**
-  -CONFIG TAB:** The large icon at the top of the window displays the action the floater currently holds.  You can change the floater's action there by dragging a new action into it.
+**CONFIG TAB:** The large icon at the top of the window displays the action the floater currently holds.  You can change the floater's action there by dragging a new action into it.
 
 - **^v<> (Nudge Buttons)** - These buttons give you precise control over moving the floater.  Left-clicking one of them will move the floater 1 unit in the direction you clicked.  Right-clicking one of them will move the floater 10 units in the direction you clicked.  Clicking and holding the middle-mouse button on one of them will keep the frame moving until you release the middle-mouse button.
 - **Anchor Frame** - Specify a frame to attach the floater to.  Any frame can be specified.  You can type a new name into the editbox rather than choosing one from the drop-down menu.
@@ -429,7 +429,7 @@ This tab lets you enter lua scripts that are run in response to various handlers
 - **X** - Sets the horizontal offset of the Anchor Point from the Anchor To.
 - **Y** - Sets the vertical offset of the Anchor Point from the Anchor To. 
 
-  -ADV. BAR CONFIG TAB:**
+**ADV. BAR CONFIG TAB:**
 
 - **Action Unusable** - Lets you set the color the button changes to when unusable.
 - **Border** - Lets you set the texture and color of the button's border.
@@ -454,7 +454,7 @@ This tab lets you enter lua scripts that are run in response to various handlers
 - **Show Hidden Buttons When Dragging an Action** - Causes the floater to show when you drag an action.
 - **Trim Button Edges** - Trims the white borders and rounded corners off the action icon. 
 
-  -CONTROL TAB:**
+**CONTROL TAB:**
 
 This tab lets you set up conditions the floater watches for and responses that are run each time a condition becomes true.
 
@@ -470,7 +470,7 @@ The Overridden By editbox lets you specify other conditions that prevent this co
 
 When finished setting up the condition, response, and overrides click the Add Condition button to add the condition to the list of the floater's active conditions. 
 
-  -SCRIPTS TAB:**
+**SCRIPTS TAB:**
 
 This tab lets you enter lua scripts for the various script handlers for the floater.  See the scripting sections below for more info.
 
@@ -508,7 +508,7 @@ A list of events can be found here: http://www.wowwiki.com/Events_(API)
 - **XP Bar Alpha** - Changes the transparency of the XP bar.
 - **Let DAB Control Latency Bar** - This option lets DAB pull the default latency bar out of the default UI so that DAB can configure it.  It won't be hidden along with the main bar art.  Unlocking dragging will allow you to drag the bar around the screen.
 
-  -Latency Bar Scale** - Changes the size of the latency bar.Back to Top
+**Latency Bar Scale** - Changes the size of the latency bar.Back to Top
 
 ## **Misc Options**
 - **Options Window Scale** - Lets you change the size of the options window.
@@ -533,11 +533,11 @@ Wherever DAB lets you write scripts, any lua code is allowed.  Here's some handy
 
 Back to Top
 
-  -Useful Script Functions**
+**Useful Script Functions**
 
 The following functions are defined by DAB and the Discord Library and can make scripting easier.
 
-  -Bar Buttons or Floaters:**
+**Bar Buttons or Floaters:**
 
 - **DAB_ActionButton_#:GetActionID()** - This will return the action ID currently held by the specified button.  Change # to the button ID of the button.
 - **DAB_ActionButton_FauxHide(buttonID)** - This will hide the specified button in a way that allows condition checking to continue.
@@ -545,9 +545,9 @@ The following functions are defined by DAB and the Discord Library and can make 
 - **DAB_ActionButton_SetTarget(buttonID, unitID)** - Sets the button to always target the specified unit ID.  To remove the target override, use this: DAB_ActionButton_#.targetOverride = nil.  Change # to the button's ID.
 - **DAB_ActionButton_SetAction(buttonID, actionID)** - Sets the action ID a button uses.
 
-  -DAB_ActionButton_SetTimer(buttonID, seconds)** - This sets the button's cooldown count display to countdown the specified number of seconds.  It will override the button's cooldown count until the timer is finished. 
+**DAB_ActionButton_SetTimer(buttonID, seconds)** - This sets the button's cooldown count display to countdown the specified number of seconds.  It will override the button's cooldown count until the timer is finished. 
 
-  -Bar Functions:**
+**Bar Functions:**
 
 - **DAB_Bar_Backdrop(barID, bgtexture, bordertexture, tileSize, edgeSize, left, right, top, bottom)** - Lets you change different attributes of the bar's background.
 - **DAB_Bar_BackdropPadding(barID, left, right, top, bottom)** - Lets you change the amount of space between the bars borders and the buttons.
@@ -572,17 +572,17 @@ The following functions are defined by DAB and the Discord Library and can make 
 - **DAB_Bar_TimeToHide(barID, seconds)** - Sets a delay after which the bar gets hidden.
 - **DAB_Bar_Toggle(barID)** - If the bar is hidden, it shows it.  If the bar is shown, it hides it.
 
-  -DAB_Set_KeybindingGroup(groupID, barID)** - Applies a keybinding group to a bar. 
+**DAB_Set_KeybindingGroup(groupID, barID)** - Applies a keybinding group to a bar. 
 
-  -Control Box Functions:**
+**Control Box Functions:**
 
 - **DAB_ControlBox_Hide(controlboxID)** - Hides a control box.
 - **DAB_ControlBox_Show(controlboxID)** - Shows a control box.
 - **DAB_ControlBox_Text(controlboxID, text)** - Sets the text of a control box.
 
-  -DAB_ControlBox_Toggle(controlboxID)** - If the control box is shown, this hides it.  If the control box is hidden, this shows it. 
+**DAB_ControlBox_Toggle(controlboxID)** - If the control box is shown, this hides it.  If the control box is hidden, this shows it. 
 
-  -Floater Functions:**
+**Floater Functions:**
 
 - **DAB_Floater_Hide(buttonID)** - Hides the floater in way that disables condition checking.  Toggles the floater's Hide checkbox on.
 - **DAB_Floater_Location(buttonID, xOffset, yOffset, attachFrame, attachPoint, attachTo)** - Changes how the floater is anchored.
@@ -596,25 +596,25 @@ The following functions are defined by DAB and the Discord Library and can make 
 - **DAB_Floater_Size(buttonID, size)** - Sets the height and width of a floater to the specified size.
 - **DAB_Floater_TimeToHide(buttonID, seconds)** - Sets a delay on the floater at the end of which it hides.
 
-  -DAB_Floater_Toggle(buttonID)** - If the floater is hidden, this shows it.  If the floater is shown, this hides it.  
+**DAB_Floater_Toggle(buttonID)** - If the floater is hidden, this shows it.  If the floater is shown, this hides it.  
 
-  -Control Box Groups:**
+**Control Box Groups:**
 
 - **DAB_Hide_Group(groupID)** - Hides the specified group.
 - **DAB_Show_Group(groupID)** - Shows the specified group.
 
-  -DAB_Toggle_Group(groupID)** - Goes through each object in the group.  If the object is hidden, this shows it.  If the object is shown, this hides it. 
+**DAB_Toggle_Group(groupID)** - Goes through each object in the group.  If the object is hidden, this shows it.  If the object is shown, this hides it. 
 
-  -Other Bars:**
+**Other Bars:**
 
 The IDs for the Other Bars are: 11 - Pet Action, 12 - Shapeshift, 13 - Bag, 14 - Micro Menu
 
 - **DAB_OtherBar_Hide(barID)** - Hides the bar.
 - **DAB_OtherBar_Show(barID)** - Shows the bar.
 
-  -DAB_OtherBar_Toggle(barID)** - If the bar's shown, this hides it.  If the bar's hidden, this shows it.  
+**DAB_OtherBar_Toggle(barID)** - If the bar's shown, this hides it.  If the bar's hidden, this shows it.  
 
-  -Miscellaneous Functions:**
+**Miscellaneous Functions:**
 
 - **DAB_Add_AutoCast(actionID, unitID)** - Adds an action to the auto-cast queue.  The action auto-targets the specified unit.
 - **DAB_Load_Profile(profileName)** - Loads the specified profile.
@@ -658,21 +658,21 @@ The IDs for the Other Bars are: 11 - Pet Action, 12 - Shapeshift, 13 - Bag, 14 -
 - **Profile:** A profile is one set of saved DAB settings.  Multiple characters can share the same profile.  If a change is made on any one of those characters, it's made to characters using the same profile.  You can create as many profiles as you want.
 - **Response:** A action performed in response to a condition becoming true.  A response is only run once its condition becomes false and then becomes true again.
 
-  -Action IDs:**
+**Action IDs:**
 
 As of DAB v3.1, action IDs have been separated from button IDs.  Now any button can have any action ID applied to it.  When you add a new button to a bar or create a new floater, DAB will look for an unused action ID (one that's not used in any button on any page of a bar and not used in any floater) to apply to the button.  If DAB can't find one, it applies action ID 1 to the button.  A button's default action ID can be set in the Set Action IDs tab of the Button Layout window.  See that window's section of the readme for further details.
 
-  -Bar Pages:** 
+**Bar Pages:** 
 
 Bars in DAB can now have multiple pages, just like the default UI's main action bar.  The number of pages a bar has is set in the Button Layout window. You can change pages on bar by scrolling the mousewheel while the cursor is over the bar, using keybindings, using a control box, using the /dab barpage slash command, or the DAB_Bar_SetPage function.  See the appropriate sections below for details on each of those methods.
 A page is simply a separate set of action IDs applied to the bar's buttons.  The bar's button IDs never change.  These action IDs are defined in the Set Action IDs tab of the Button Layout window.
 
-  -Profiles:**
+**Profiles:**
 
 Profiles are a set of settings you can load on the fly.  All characters start out using the Default profile.  You can change the Default profile's settings.  Different characters can use different profiles or multiple characters can share a single profile.  If you make a change to the profile on any one of the characters using it, the change is made for all characters that use the profile.  Profiles can be created and loaded in Misc Options.  Creating a new profile copies the settings from the currently loaded profile into the newly created profile.
 The Custom profile is a special profile used to load settings from the DAB_Custom.lua file.  ***DO NOT MAKE CHANGES TO THIS PROFILE.  THEY WILL NOT SAVE.***  If you load a custom layout and need to make changes to it, make sure you create a new profile first or your changes won't be saved.
 
-  -Custom Layouts:**
+**Custom Layouts:**
 
 DAB supports the ability for users to install layouts built by other users.  All it takes is a DAB_Custom.lua file from the other user.  Drop it into your Interface\AddOns\DiscordActionBars folder while WoW isn't running and replace whatever DAB_Custom.lua file is already there.  If the custom layout comes with any .blp or .tga files, drop them in the Interface\AddOns\DiscordActionBars\CustomTextures folder.  If the custom layout comes with any .ttf files, drop them in the Interface\AddOns\DiscordActionBars\CustomFonts folder.  Log-in to WoW.  Go to Misc Options, load the Custom profile and voila, you're done.
 The Custom profile is a special profile used to load settings from the DAB_Custom.lua file.  ***DO NOT MAKE CHANGES TO THIS PROFILE.  THEY WILL NOT SAVE.***  If you load a custom layout and need to make changes to it, make sure you create a new profile first or your changes won't be saved.

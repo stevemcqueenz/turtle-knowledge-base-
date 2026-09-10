@@ -10,8 +10,8 @@ categories: ["Turtle WoW content"]
 ---
 # Tainted Tablet
 
--Tainted Tablet** is provided as an objective for [quest: Tainted Tablet|race=troll|class=warlock].
+**Tainted Tablet** is provided as an objective for [quest: Tainted Tablet|race=troll|class=warlock].
 
 ## Contains
 ## Patch changes
--(Patch 1.17.0|note=Added.)
+- (Patch 1.17.0|note=Added.)

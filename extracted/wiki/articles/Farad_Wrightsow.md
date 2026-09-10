@@ -24,13 +24,13 @@ categories: ["Defias Brotherhood", "Duskwood mobs", "Engineers", "Human characte
 | location | Darkshire, Duskwood |
 | status | Killable |
 
--Farad Wrightsow** is a [human](human) found in a shack outside of [Darkshire](Darkshire) in [Duskwood](Duskwood). A renowned engineer, along with his friend [Maltimor Gartside](Maltimor Gartside), the two built the original harvest golems out of their old workshop in [Moonbrook](Moonbrook) and sold them to the local farmers to help them, as well as to be able to afford to move out of [Westfall](Westfall). However, due to the farmers' low purchasing power, they sold them as low prices and would lose money on construction. Thus, they designed a killswitch into the golems with enchanted animation runes that when activated would turn the golems into murderous machines, blaming it on the work of a vile warlock and "fixing" the golems for a much higher price.
+**Farad Wrightsow** is a [human](human) found in a shack outside of [Darkshire](Darkshire) in [Duskwood](Duskwood). A renowned engineer, along with his friend [Maltimor Gartside](Maltimor Gartside), the two built the original harvest golems out of their old workshop in [Moonbrook](Moonbrook) and sold them to the local farmers to help them, as well as to be able to afford to move out of [Westfall](Westfall). However, due to the farmers' low purchasing power, they sold them as low prices and would lose money on construction. Thus, they designed a killswitch into the golems with enchanted animation runes that when activated would turn the golems into murderous machines, blaming it on the work of a vile warlock and "fixing" the golems for a much higher price.
 
 In a fit of greed, Maltimor attempted to kill Farad by activating the golems' killswitch while he was working on them so that he would keep all of the money. Farad survived the attempt on his life, though he was left blinded as a result and was left with a deep hatred for Maltimor. Though Maltimor saw the destruction he caused and sought to reverse it, his spell failed for reasons unknown. Though Maltimor attempted to dissuade him, Farad threw his lot in with the [Defias Brotherhood](Defias Brotherhood), continuing to produce the animation runes for them with the goblin [Gazzirik](Gazzirik) as the golems wrecked havoc across the farmlands of [Westfall](Westfall). (ref: [quest: The Harvest Golem Mystery]) (ref: [quest: Letter from Maltimor])
 
 ## Quotes
   *Main article: [quest: The Harvest Golem Mystery]*
-  -Gossip**
+**Gossip**
 Get out of my shack.
 
 ## Drops

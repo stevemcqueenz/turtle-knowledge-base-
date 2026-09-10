@@ -24,7 +24,7 @@ categories: ["Guards", "Moonwhisper Coast NPCs", "Tauren characters", "Turtle Wo
 | gender | Both |
 | location | Moonwhisper Coast |
 
--Moonhoof Defenders** are [tauren](tauren) guards located at [Moonhoof Village](Moonhoof Village) and [Moonhoof Retreat](Moonhoof Retreat) in [Moonwhisper Coast](Moonwhisper Coast).
+**Moonhoof Defenders** are [tauren](tauren) guards located at [Moonhoof Village](Moonhoof Village) and [Moonhoof Retreat](Moonhoof Retreat) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

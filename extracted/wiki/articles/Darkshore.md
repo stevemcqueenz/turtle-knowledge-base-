@@ -23,7 +23,7 @@ categories: []
 | affiliation | Circle of Ancients, Darnassus, Alliance, Shatterspear tribe, Blackwood tribe, Stormscale, Deth'ryll, Greymist tribe, Gravelflint, Cult of the Dark Strand, Twilight's Hammer |
 | loc | Eastern Northern Kalimdor |
 
--Darkshore** is a long strip of coast on the northwestern part of [Kalimdor](Kalimdor). It is known for its characteristically shadowed woods and rocky beaches, littered with ancient ruins and mountainside caves. The [night elves](Night elf) of [Teldrassil](Teldrassil) claim the shore as part of their new kingdom, and [sentinel](sentinel)s patrol the road from the port of [Auberdine](Auberdine) towards [Ashenvale](Ashenvale) to the south. This rocky area stretches along Kalimdor's north coast. Rains, winds and rocky beaches make the place inhospitable. Old night elf ruins stand crumbling on the cliffs, and murlocs and naga lurk within. The night elf village of [Auberdine](Auberdine) serves as a friendly trading post.
+**Darkshore** is a long strip of coast on the northwestern part of [Kalimdor](Kalimdor). It is known for its characteristically shadowed woods and rocky beaches, littered with ancient ruins and mountainside caves. The [night elves](Night elf) of [Teldrassil](Teldrassil) claim the shore as part of their new kingdom, and [sentinel](sentinel)s patrol the road from the port of [Auberdine](Auberdine) towards [Ashenvale](Ashenvale) to the south. This rocky area stretches along Kalimdor's north coast. Rains, winds and rocky beaches make the place inhospitable. Old night elf ruins stand crumbling on the cliffs, and murlocs and naga lurk within. The night elf village of [Auberdine](Auberdine) serves as a friendly trading post.
 
 The region is not without dangers, however. Aggressive wildlife roams the grassy hills and stalks among the dark trees. The ruined cities of the night elves are infested with [naga](naga), [satyr](satyr)s, [grell](grell)s and haunting [ghost](ghost)s, and cultists of the [Dark Strand](Cult of the Dark Strand) and [Twilight's Hammer](Twilight's Hammer) ambush unwary travelers from their hideouts beyond the road. Even the seas are unsafe, as bloodthirsty [frenzies](frenzy (Fish)), gigantic [threshadon](threshadon)s, and hostile [murloc](murloc)s lurk beneath the waves. 
 
@@ -112,24 +112,24 @@ Darkshore contains no dungeons of any type, and no battlegrounds. The [night elf
   - [Simple Wood Tree](Simple Wood Tree)
 
 ## Wild creatures
--[Bear](Bear)s
--[Crab](Crab)s
--[Cat](Cat)s
--[Frenzies](Frenzy (Fish))
--[Furbolg](Furbolg)s
--[Ghost](Ghost)s
--[Golem](Golem)s
--[Grell](Grell)s
--[Moonkin](Moonkin)
--[Moonstalker](Moonstalker)s
--[Murloc](Murloc)s
--[Naga](Naga)
--[Satyr](Satyr)
--[Shark](Shark)s
--[Tallstrider](Tallstrider)s
--[Threshadon](Threshadon)s
--[Trogg](Trogg)s
+- [Bear](Bear)s
+- [Crab](Crab)s
+- [Cat](Cat)s
+- [Frenzies](Frenzy (Fish))
+- [Furbolg](Furbolg)s
+- [Ghost](Ghost)s
+- [Golem](Golem)s
+- [Grell](Grell)s
+- [Moonkin](Moonkin)
+- [Moonstalker](Moonstalker)s
+- [Murloc](Murloc)s
+- [Naga](Naga)
+- [Satyr](Satyr)
+- [Shark](Shark)s
+- [Tallstrider](Tallstrider)s
+- [Threshadon](Threshadon)s
+- [Trogg](Trogg)s
 
 ## Patch changes
--  **Patch 0.12 (2004-10-11):** Blackfathom Deeps has been moved to the [Zoram Strand](Zoram Strand) in [Ashenvale](Ashenvale) forest near the border of Darkshore.
--  **Patch 0.6 (2004-04-13):** [Blackfathom Deeps](Blackfathom Deeps), a level 20 - 27 dungeon is now opened and itemized in Northern Darkshore.
+- **Patch 0.12 (2004-10-11):** Blackfathom Deeps has been moved to the [Zoram Strand](Zoram Strand) in [Ashenvale](Ashenvale) forest near the border of Darkshore.
+- **Patch 0.6 (2004-04-13):** [Blackfathom Deeps](Blackfathom Deeps), a level 20 - 27 dungeon is now opened and itemized in Northern Darkshore.

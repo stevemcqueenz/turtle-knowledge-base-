@@ -25,7 +25,7 @@ categories: ["Desolace NPCs", "Night elf characters", "Survival trainers", "Turt
 | location | Nijel's Point, Desolace |
 | status | Alive |
 
--Nerean Stagtree** is a [night elf](night elf) Expert [survival](survival) trainer located in [Nijel's Point](Nijel's Point) in [Desolace](Desolace).
+**Nerean Stagtree** is a [night elf](night elf) Expert [survival](survival) trainer located in [Nijel's Point](Nijel's Point) in [Desolace](Desolace).
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

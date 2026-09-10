@@ -10,7 +10,7 @@ categories: ["Addon"]
 ---
 # BananaBar
 
--BananaBar** allows you to easily select marked units by searching for raid or party members’ targets that have specific symbols or Hunter's Mark.
+**BananaBar** allows you to easily select marked units by searching for raid or party members’ targets that have specific symbols or Hunter's Mark.
 
 ## How to Install
 # Visit the GitHub link you find, then click the green **<> Code** button, and select Download ZIP.
@@ -18,7 +18,7 @@ categories: ["Addon"]
 # Rename the bananabar-master folder to bananabar
 # Restart the game
 
-  -Note:** 
+**Note:** 
 
 - Be sure to delete any old "Banana" files when you download **BananaBar** to avoid conflicts.
 - When used alongside [SuperWoW](https://github.com/balakethelock/SuperWoW) it enhances consistency in target selection.
@@ -29,23 +29,23 @@ categories: ["Addon"]
 ## **How to Use**
 - **Left-click on Raid Symbol or Hunter's Mark Button**  Searches for a mob with the specified symbol. BananaBar checks all raid or party members and their targets for the specified symbol or Hunter's Mark. If a matching unit is found, it will be targeted. If no units are found, an error sound is played.
 
-  -Chat Command:**
+**Chat Command:**
 
 - <code>/bananatarget 1-8</code> or <code>/bbtarget 1-8</code>  Mark 1 is the star, Mark 8 is the skull, and the others are easily deduced. This allows you to use the addon’s functionality in macros.
 
 - **Ctrl+Left-click on Raid Symbol Button:**  Sets a raid symbol to your current target. If the target already has the specified symbol, it will be removed. (Only works if you are a Raid Leader, Raid Officer, or Party Leader.)
 - **Ctrl+Left-click on Hunter's Mark Button:**  Sets Hunter's Mark to your current target. (Only works if you are a Hunter.)
 
-  -Ctrl+Right-click:**
+**Ctrl+Right-click:**
 
 Moves the buttons around the screen.
 
-  -Restrictions:**
+**Restrictions:**
 
 - Only **one Hunter's Mark** is supported at a time. If more than one is set, the Hunter's Mark button will not work correctly.
 - If both **Hunter's Mark** and a **Raid Symbol** are set on the same target, only the Raid Symbol will be shown.
 
-  -Settings**:
+**Settings**:
 
 You can open the settings dialog with the following commands:
 
@@ -81,59 +81,59 @@ Option:
 - Configuration settings available through slash commands.
 
 ## History
-  -1.6**
+**1.6**
 
 - Reduced memory usage by 99%—no need to create new tables every frame.
 - Refactored code for better performance, readability, and stability.
 - Added new options: Invert direction and detach 9th symbol (Hunter's Mark).
 
-  -1.5 Beta 1**
+**1.5 Beta 1**
 
 - Added a new button for Hunter's Mark functionality.
 
-  -1.0**
+**1.0**
 
 - Fixed issues with button frames not hiding in RC1.
 
-  -1.0 RC1**
+**1.0 RC1**
 
 - Icons now display on the left side of the CT_Raid maintank window.
 - Works in both raids and normal parties.
 - Added target names (useful in vertical layout).
 
-  -1.0 Beta 12**
+**1.0 Beta 12**
 
 - Reworked button position saving and scaling.
 - Button scaling is now relative to WoW’s interface scaling settings.
 - New keyboard shortcut for clearing all raid symbols.
 
-  -1.0 Beta 11**
+**1.0 Beta 11**
 
 - Internal release for bug fixes.
 
-  -1.0 Beta 10**
+**1.0 Beta 10**
 
 - Fixed bug where buttons weren’t shown after the first install.
 - Added key bindings for targeting by symbol and resetting button positions.
 
-  -1.0 Beta 9**
+**1.0 Beta 9**
 
 - Fixed chat window spam issue.
 
-  -1.0 Beta 8**
+**1.0 Beta 8**
 
 - Bug fix for <code>nil</code> reference error.
 
-  -1.0 Beta 7**
+**1.0 Beta 7**
 
 - Buttons for dead targets are now greyed out.
 - Button frames can be toggled off.
 - Added shortcuts for targeting by symbol.
 
-  -1.0 Beta 6**
+**1.0 Beta 6**
 
 - Fixed incorrect slash commands for the config menu.
 
-  -1.0 Beta 5**
+**1.0 Beta 5**
 
 - First official release.

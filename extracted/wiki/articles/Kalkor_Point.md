@@ -29,20 +29,12 @@ categories: ["Centaur territories", "Gillijim's Isle subzones", "Turtle WoW cont
 | flightpath | No |
 | status | Active |
 
--Kalkor Point** is a neutral centaur camp located on the northern point of [Gillijim's Isle](Gillijim's Isle). It was established by a band of centaur mercenaries, the [Kalkor](Kalkor), who had been hired by the [Southsea Freebooters](Southsea Freebooters). However, the Kalkor were betrayed by their leader, [Lykourgos](Lykourgos), and left his kin stranded on the island.
+**Kalkor Point** is a neutral centaur camp located on the northern point of [Gillijim's Isle](Gillijim's Isle). It was established by a band of centaur mercenaries, the [Kalkor](Kalkor), who had been hired by the [Southsea Freebooters](Southsea Freebooters). However, the Kalkor were betrayed by their leader, [Lykourgos](Lykourgos), and left his kin stranded on the island.
 
 ## Inhabitants
 ### Quest givers
-- 
-- 
-- 
-
-### Goods and services
-- 
-- 
-- 
-
-## Notes
+- - - ### Goods and services
+- - - ## Notes
 - Although Kalkor Point's inhabitants are neutral and provide both quests and services, they are attackable.
 
 ## Patch changes

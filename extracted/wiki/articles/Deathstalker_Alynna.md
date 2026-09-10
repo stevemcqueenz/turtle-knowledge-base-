@@ -24,13 +24,13 @@ categories: ["Forsaken characters", "Gilneas NPCs", "Quest givers", "Turtle WoW 
 | location | Stillward Church, Gilneas |
 | status | Active |
 
--Deathstalker Alynna** is a [Forsaken](Forsaken) quest giver located in [Stillward Church](Stillward Church) in [Gilneas](Gilneas).
+**Deathstalker Alynna** is a [Forsaken](Forsaken) quest giver located in [Stillward Church](Stillward Church) in [Gilneas](Gilneas).
 
 ## Quests
 - [quest: Dead Until Dark] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 We have been sent to monitor the situation in Gilneas, things here are... Far more interesting than I would have imagined.
 
 Perhaps we can be a more instrumental part of future history.

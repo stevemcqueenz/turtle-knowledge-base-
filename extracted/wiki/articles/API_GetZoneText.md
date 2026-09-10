@@ -15,27 +15,27 @@ Returns the zone text.
  GetZoneText();
 </syntaxhighlight>
 ----
-  -*Arguments***
+***Arguments***
 
   *none*
 
 ----
-  -*Returns***
+***Returns***
 
   
   ;zonetext : String - zone name (localized).
 
 ----
-  -*Example***
+***Example***
 <syntaxhighlight lang="lua">
  local zonetext = GetZoneText();
  message(zonetext);
 </syntaxhighlight>
-  -*Result***
+***Result***
    Message box appears displaying your current zone.
 
 ----
-  -*Description***
+***Description***
 
    Returns the zone text, in which the player currently is. The event **ZONE_CHANGED_NEW_AREA** is triggered when the text changes. See also the related functions [GetSubZoneText](API_GetSubZoneText) and [GetMinimapZoneText](API_GetMinimapZoneText).
    Additional note: Blizzard also registers the event **ZONE_CHANGED_INDOORS**. If you know what this event is used for, please edit this page.

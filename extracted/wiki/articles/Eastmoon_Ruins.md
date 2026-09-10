@@ -13,4 +13,4 @@ categories: ["Pages with broken file links", "Tanaris subzones", "Troll ruins"]
 The **Eastmoon Ruins** is an area of ancient troll ruins found just west of the [Gaping Chasm](Gaping Chasm) in [Tanaris](Tanaris).
 
 ## Notes
--There are no quests that involve this area or these mobs.
+- There are no quests that involve this area or these mobs.

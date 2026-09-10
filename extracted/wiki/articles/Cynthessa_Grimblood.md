@@ -25,10 +25,10 @@ categories: ["Forsaken characters", "Survival trainers", "Turtle WoW content", "
 | location | Rogues' Quarter, Undercity |
 | status | Active |
 
--Cynthessa Grimblood** is a [Forsaken](Forsaken) Journeyman [survival](survival) trainer located in [Rogues' Quarter](Rogues' Quarter) in the [Undercity](Undercity).
+**Cynthessa Grimblood** is a [Forsaken](Forsaken) Journeyman [survival](survival) trainer located in [Rogues' Quarter](Rogues' Quarter) in the [Undercity](Undercity).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 [Mort](Mort Gallspewer) has spent too much time outside of Undercity again. The sight of fresh Scarlet corpses excites him to no end, as you can clearly see. I can help you prevent ending up like him. Bracing yourself against the dangers of Lordaeron is a skill the Dark Lady expects all of us to possess.
 
 ## Patch changes

@@ -10,4 +10,4 @@ categories: ["Dark Iron dwarf territories", "Elite areas", "Searing Gorge subzon
 ---
 # Firewatch Ridge
 
--Firewatch Ridge** is where the main campsite of the [Dark Iron dwarves](Dark Iron clan) in [Searing Gorge](Searing Gorge) lies. It overlooks the great excavation site of the [Cauldron](Cauldron).  Dark Irons, their mechanical golems, and giant flame spiders cover most of the ridge, making it exceptionally dangerous for adventurers.
+**Firewatch Ridge** is where the main campsite of the [Dark Iron dwarves](Dark Iron clan) in [Searing Gorge](Searing Gorge) lies. It overlooks the great excavation site of the [Cauldron](Cauldron).  Dark Irons, their mechanical golems, and giant flame spiders cover most of the ridge, making it exceptionally dangerous for adventurers.

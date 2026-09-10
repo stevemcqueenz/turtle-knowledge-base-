@@ -10,7 +10,7 @@ categories: ["Barrow dens", "Dryad territories", "Elite areas", "Night elf terri
 ---
 # Talon Den
 
--The Talon Den** is a [barrow den](barrow den) on [Stonetalon Peak](Stonetalon Peak) inhabited by [Mirkfallon Dryad](Mirkfallon Dryad)s, [night elves](Night elf) [Cenarion Caretaker](Cenarion Caretaker)s, and [Mirkfallon Keeper](Mirkfallon Keeper)s.
+**The Talon Den** is a [barrow den](barrow den) on [Stonetalon Peak](Stonetalon Peak) inhabited by [Mirkfallon Dryad](Mirkfallon Dryad)s, [night elves](Night elf) [Cenarion Caretaker](Cenarion Caretaker)s, and [Mirkfallon Keeper](Mirkfallon Keeper)s.
 
 ## NPCs
 ...

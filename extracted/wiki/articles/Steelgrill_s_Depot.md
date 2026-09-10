@@ -10,13 +10,7 @@ categories: ["Alliance territories", "Dun Morogh subzones"]
 ---
 # Steelgrill's Depot
 
--Steelgrill's Depot** is small settlement of [miner](miner)s and [engineer](engineer)s that lies just east of [Kharanos](Kharanos) in [Dun Morogh](Dun Morogh). There are three [trainer](trainer)s, some [vendor](vendor)s, and a few low-level [quest](quest)s available in the settlement.
+**Steelgrill's Depot** is small settlement of [miner](miner)s and [engineer](engineer)s that lies just east of [Kharanos](Kharanos) in [Dun Morogh](Dun Morogh). There are three [trainer](trainer)s, some [vendor](vendor)s, and a few low-level [quest](quest)s available in the settlement.
 
 ## Inhabitants
-- 
-- 
-- 
-- 
-- 
-- 
--
+- - - - - - -

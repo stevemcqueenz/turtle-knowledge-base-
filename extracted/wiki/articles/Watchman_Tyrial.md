@@ -25,10 +25,10 @@ categories: ["Guards", "Human characters", "Swamp of Sorrows NPCs", "Turtle WoW 
 | status | Alive |
 | gender | Male |
 
--Watchman Tyrial** is a [human](human) guard located in [Sorrowguard Keep](Sorrowguard Keep) in the [Swamp of Sorrows](Swamp of Sorrows).
+**Watchman Tyrial** is a [human](human) guard located in [Sorrowguard Keep](Sorrowguard Keep) in the [Swamp of Sorrows](Swamp of Sorrows).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 It is good to see a friendly face, [Banal](Watchman Banal) can certainly be aggravating.
 
 ## Patch changes

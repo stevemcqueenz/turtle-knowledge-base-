@@ -25,10 +25,10 @@ categories: ["Grim Reaches NPCs", "Innkeepers", "Turtle WoW content", "Wildhamme
 | location | Dun Kithas Magistrate, Grim Reaches |
 | status | Alive |
 
--Telga Wildward** is a [Wildhammer dwarf](Wildhammer dwarf) innkeeper located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
+**Telga Wildward** is a [Wildhammer dwarf](Wildhammer dwarf) innkeeper located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Welcome, and make yourself at home. Dun Kithas is known for its hospitality!
 
 ## Patch changes

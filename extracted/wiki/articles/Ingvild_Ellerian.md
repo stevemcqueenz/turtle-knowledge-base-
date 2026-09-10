@@ -25,14 +25,14 @@ categories: ["Aristocrats", "Human characters", "Northwind NPCs", "Quest givers"
 | status | Alive |
 | relatives | Tiffin (daughter),, Varian (son-in-law),, Anduin (grandson) |
 
--Ingvild Ellerian** is mother of [Tiffin Ellerian Wrynn](Tiffin Ellerian Wrynn) and the grandmother of [Anduin Wrynn](Anduin Wrynn), the king of Stormwind.
+**Ingvild Ellerian** is mother of [Tiffin Ellerian Wrynn](Tiffin Ellerian Wrynn) and the grandmother of [Anduin Wrynn](Anduin Wrynn), the king of Stormwind.
 
 ## Quests
 - [quest: Goody Bag] 
 - [quest: Fit for a Prince!] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Mourning is something all people have in common. No matter how young or old we are, we all end up mourning our dead. Whether they were taken from us too soon or not, it matters little. Our hearts simply cannot bear the ache. I never imagined that I would outlive my own daughter - yet here I am, staring at a statue that barely resembles her.
 
 My Tiffin was no warrior, but she was a kind, tender soul. Some still remember their short-lived queen and come to pay their respects. For that, I am grateful and content. I long to see her face again, her silly smile, her golden hair.

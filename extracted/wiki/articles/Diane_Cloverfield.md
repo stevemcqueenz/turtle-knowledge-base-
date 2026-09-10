@@ -25,15 +25,15 @@ categories: ["Gilneas NPCs", "Human characters", "Turtle WoW content"]
 | location | Shademore Tavern, Gilneas |
 | status | Alive |
 
--Diane Cloverfield** is a [human](human) hunter trainer located at the [Shademore Tavern](Shademore Tavern) in [Gilneas](Gilneas).
+**Diane Cloverfield** is a [human](human) hunter trainer located at the [Shademore Tavern](Shademore Tavern) in [Gilneas](Gilneas).
 
 ## Quotes
-  -Hunters**
+**Hunters**
 Your skill with a bow can be the difference between survival and death.
 
 Remember to keep training, even when you think you know it all.
 
-  -Non-hunters**
+**Non-hunters**
 ...
 
 ## Patch changes

@@ -13,7 +13,7 @@ categories: ["Addon"]
 BigWigs is a boss encounter addon that provides timers, alerts, and other helpful features for raid bosses.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **BigWigs** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **BigWigs** up to date is by using [GitAddonsManager](Gi
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -29,7 +29,7 @@ If you prefer manual installation, follow these steps:
 # Click the **<> Code** dropdown and download the repository as a <code>.zip</code>.
 # Unpack the <code>.zip</code> and rename the folder to <code>BigWigs</code>, removing the <code>-master</code> suffix.
 # Move the folder into your <code>Interface/AddOns</code> directory and restart the game.
-  -Optional**: [FuBar](FuBar)
+**Optional**: [FuBar](FuBar)
 
 ## Git links
 - [**(pepopo978)**](https://github.com/pepopo978/BigWigs)
@@ -86,7 +86,7 @@ If you prefer manual installation, follow these steps:
 |Print addon info and version
 |}
 
-  -Configuring BigWigs & Plugins**
+**Configuring BigWigs & Plugins**
 
 You can customize BigWigs settings through multiple methods:
 
@@ -156,7 +156,7 @@ The following plugins enhance boss encounter alerts, timers, and raid management
 ## Provided API
 This is a (incomplete) documentation of the BigWigs API. This is only important for developers. Also refer to the [modulePrototype](https://github.com/pepopo978/BigWigs/blob/master/documentation/modulePrototype%20overview.txt) overview and the [bossTemplate](https://github.com/pepopo978/BigWigs/blob/master/documentation/bossTemplate.lua) for an example implementation.
 
-  -Overview**<syntaxhighlight lang="lua">
+**Overview**<syntaxhighlight lang="lua">
   Sync(sync)
   DelayedSync(delay, sync)
   CancelDelayedSync(sync)
@@ -198,24 +198,24 @@ table :DelayedSound(delay, sound[, id])
   KTM_SetTarget(targetName[, forceReset]) 
 </syntaxhighlight>
 
-  -:Bar(text, length, icon, otherColor, ...)**
+**:Bar(text, length, icon, otherColor, ...)**
 
 Starts a timer bar that counts down for the specified length of time. If the length argument is table with the keys "min" and "max" a irregular bar will be created.
 
-  -Arguments**
+**Arguments**
 
 - **text** string The text to show on the bar.
 - **length** number/table The length of the bar in seconds or a table with the keys min and max (will create a irregular bar)
 - **icon** string What icon to show on the bar.
 - **otherColor** boolean Optional, if not specified, the configured colors will be used. If specified, you must provide 1 to 10 colors to use as arguments after otherColor.
 - **...** color Optional, if otherColor is specified, you must provide 1 to 10 colors.
-  -Returns** Nothing.
+**Returns** Nothing.
 
-  -Remarks**
+**Remarks**
 
 "Interface\\Icons\\" is automatically pre-pended to the icon path. If you have to show a bar with an icon that is not part of the default icons provided by WoW, this is still possible using the self:TriggerEvent("BigWigs_StartBar", ...) syntax.
 
-  -Example**<syntaxhighlight lang="lua">
+**Example**<syntaxhighlight lang="lua">
 self:Bar("Adds incoming!", 30, "Spell_Nature_Web")
 self:Bar("Testing Colors!", 60, "Spell_Nature_Web", true, "red", "yellow", "green")
 self:Bar("More adds incoming!", { min: 20, max: 25 }, "Spell_Nature_Web")
@@ -223,60 +223,60 @@ self:Bar("More adds incoming!", { min: 20, max: 25 }, "Spell_Nature_Web")
 
 Puts the specified raid icon on the specified player, only works if you are promoted in the raid or the raid leader.
 
-  -Arguments**
+**Arguments**
 
 - **name** string The name of the player you want to put an icon on.
 - **iconnumber** number Optional, if not specified, the configured default raid icon will be used. If specified, this raid icon will be used. 1: Yellow Star, 2: Orange Circle, 3: Purple Diamond, 4: Green Triangle, 5: White Moon, 6: Blue Square, 7: Red Cross, 8: Skull
 
-  -Returns** Nothing.
+**Returns** Nothing.
 
-  -Remarks**
+**Remarks**
 
 If you use CheckForBossDeath or CheckForWipe (used by default) the icon is removed automatically. If not, you should clear it yourself.
 
-  -Example**<syntaxhighlight lang="lua">
+**Example**<syntaxhighlight lang="lua">
 self:Icon("Dorann") -- puts a skull on Dorann
 self:Icon("Dorann", 2) -- puts an orange circle on Dorann
 </syntaxhighlight>
 
-  -:Message(text, priority, noRaidSay, sound, broadcastOnly)**
+**:Message(text, priority, noRaidSay, sound, broadcastOnly)**
 
 Displays a message in the configured message frame (defaults to BigWigs' own message frame) with the color configured for the given priority.
 
-  -Arguments**
+**Arguments**
 
 - **text** string The message to show.
 - **priority** string Optional, one of "Important" (red), "Personal" (red), "Urgent" (orange), "Attention" (yellow), "Positive" (green), "Bosskill" (green) or "Core" (cyan).
 - **noRaidSay** boolean Optional, if this is non-nil, the message will not be relayed to raid warning channel, even if that option is enabled.
 - **sound** string or boolean Optional, if this is a string, it must be a valid sound name (see :Sound). If 'true' is passed, the default "RaidWarning" sound provided by WoW will be played.
 - **broadcastOnly** boolean Optional, if this is provided, the message will only be broadcasted to the raid warning channel (if that option is enabled), and not shown locally.
-  -Returns** Nothing**.**
+**Returns** Nothing**.**
 
-  -Remarks**
+**Remarks**
 
 You should almost always provide a priority - if not, the message will be white. Remember that you should NOT surround the text with "***". 
 
 Also note that priority can be a RGB tuple, like {r=1.0,g=0,b=0}, and also just a color name ("Red", "Purple", "Orange", "Yellow", "Green", "Cyan").
 
-  -Example**<syntaxhighlight lang="lua">
+**Example**<syntaxhighlight lang="lua">
 self:Message("Fear in 2sec!", "Important")
 self:Message("You have the plague", "Personal", true, "Info")
 </syntaxhighlight>
 
-  -:DelayedMessage(delay, ...)**
+**:DelayedMessage(delay, ...)**
 
 This will schedule a delayed message to be printed after delay seconds.
 
-  -Arguments**
+**Arguments**
 
 - **delay** number The number of seconds to wait before printing the message.
 - **...** The rest of the arguments are exactly like the ones for :Message.
 
-  -Returns**
+**Returns**
 
 The scheduled event ID, which is useful if you may want to cancel the scheduled message later.
 
-  -Example**<syntaxhighlight lang="lua">
+**Example**<syntaxhighlight lang="lua">
 self:DelayedMessage(55, "Something happens in 5sec!", "Important")
 
 local x = self:DelayedMessage(55, "Something happens in 5sec!", "Important") -- Then, a bit later, the boss enters phase 2, and you no langer want this message to display
@@ -284,28 +284,28 @@ self:CancelScheduledEvent(x)
 -- or better 
 </syntaxhighlight>
 
-  -:Sync(sync)**
+**:Sync(sync)**
 
 Sends a communication sync to the other BigWigs users in the group.
 
-  -Arguments**
+**Arguments**
 
 - **sync** string The synchronization token to send to the other people in your group. Note that these tokens are recieved by all the BigWigs modules, so you should make sure you pick something unique.
 
-  -Returns** Nothing.
+**Returns** Nothing.
 
-  -Remarks**
+**Remarks**
 
 The tokens we use are typically prefixed by some portion of the boss name, like "HyakissWeb". When sending a sync, if you want to send more data (this will be provided by the second argument to :BigWigs_RecvSync, detailed later), you have to use string concatenation; "HyakissWeb" .. playerName (which would bekome "HyakissWeb MyToon"). Note that synchronization throttling is done only on the first part, not the additional information you include in the sync. Of course, sync messages are sent using SendAddonMessage, and as such there are some restrictions inherited. Take a look at Wowpedia for more information.
 
-  -Example**<syntaxhighlight lang="lua">
+**Example**<syntaxhighlight lang="lua">
 self:Sync("BossAbility") self:Sync("BossTargettedAbility " .. player)
 </syntaxhighlight>
 
 ## Module Prototype
 The following functions and variables are available on each boss module. Also refer to the [modulePrototype](https://github.com/pepopo978/BigWigs/blob/master/documentation/modulePrototype%20overview.txt) overview and the [bossTemplate](https://github.com/pepopo978/BigWigs/blob/master/documentation/bossTemplate.lua) for an example implementation. 
 
-  -Functions and Variables**<syntaxhighlight lang="lua">
+**Functions and Variables**<syntaxhighlight lang="lua">
 -- do not override
 BigWigs.modulePrototype.core = BigWigs
 BigWigs.modulePrototype.debugFrame = ChatFrame1
@@ -368,7 +368,7 @@ void BigWigs.modulePrototype:BigWigs_RecvSync(sync, rest, nick)
 void BigWigs.modulePrototype:Test()
 </syntaxhighlight>
 
-  -Provided API**<syntaxhighlight lang="lua">
+**Provided API**<syntaxhighlight lang="lua">
 void BigWigs.modulePrototype:Sync(sync)
 void BigWigs.modulePrototype:DelayedSync(delay, sync)
 void BigWigs.modulePrototype:CancelDelayedSync(sync)
@@ -403,7 +403,7 @@ void BigWigs.modulePrototype:KTM_ClearTarget([forceReset])
 void BigWigs.modulePrototype:KTM_SetTarget(targetName[, forceReset])
 </syntaxhighlight>
 
-  -Core: Module Handling**<syntaxhighlight lang="lua">
+**Core: Module Handling**<syntaxhighlight lang="lua">
 void BigWigs:ModuleDeclaration(bossName, zoneName)
 void BigWigs:RegisterModule(name, module)
 void BigWigs:EnableModule(moduleName, nosync)
@@ -414,7 +414,7 @@ void BigWigs:DisableModule(moduleName)
 void BigWigs:BigWigs_RebootModule(moduleName)
 </syntaxhighlight>
 
-  -Call Hierarchy**<syntaxhighlight lang="lua">
+**Call Hierarchy**<syntaxhighlight lang="lua">
 BigWigs.modulePrototype:OnInitialize() -- do not override, entry point
 	BigWigs:RegisterModule(name, module)
 		BigWigs.modulePrototype:OnRegister() -- only used for plugins (and kel'thuzad)

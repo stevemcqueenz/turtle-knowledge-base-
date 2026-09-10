@@ -27,10 +27,10 @@ categories: ["Human characters", "SI:7", "Stormwind City NPCs", "Turtle WoW cont
 | location | Stormwind Harbor, Stormwind City |
 | companions | Steelwing (gryphon) |
 
--Operative Simmons** is a member of [SI:7](SI:7) in [Stormwind Harbor](Stormwind Harbor). With his riding gryphon [Steelwing](Steelwing), he provides transportation to the [SI:7 Outpost](SI:7 Outpost) on the island of [Balor](Balor).
+**Operative Simmons** is a member of [SI:7](SI:7) in [Stormwind Harbor](Stormwind Harbor). With his riding gryphon [Steelwing](Steelwing), he provides transportation to the [SI:7 Outpost](SI:7 Outpost) on the island of [Balor](Balor).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 If you wish to join us on our operation on [Balor](Balor), my steadfast gryphon [Steelwing](Steelwing) can bring you there.
 
 ## Patch changes

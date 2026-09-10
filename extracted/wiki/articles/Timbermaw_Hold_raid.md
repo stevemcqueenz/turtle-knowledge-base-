@@ -26,7 +26,7 @@ categories: ["Furbolg territories", "Raids", "Stubs", "Timbermaw Hold", "Turtle 
 
 ''This article is about the instance. For the Timbermaw capital, see [Timbermaw Hold](Timbermaw Hold). For the in-game reputation faction, see [Timbermaw Hold (faction)](Timbermaw Hold (faction))
 
-  -Timbermaw Hold** is an instance raid in Northern Kalimdor. As ancient as Kalimdor itself, this enigmatic labyrinthine network of tunnels and caves beneath [Mount Hyjal](Mount Hyjal) has been the home of the Furbolgs since well before the Sundering. Its halls are sacred among the tribes, a place of worship to their progenitors, the twin gods Ursoc and Ursol. Nowadays however, only wafts of putrid vapors escape the rotten caverns and whispers of venerating a foul god echo throughout Timbermaw Hold...
+**Timbermaw Hold** is an instance raid in Northern Kalimdor. As ancient as Kalimdor itself, this enigmatic labyrinthine network of tunnels and caves beneath [Mount Hyjal](Mount Hyjal) has been the home of the Furbolgs since well before the Sundering. Its halls are sacred among the tribes, a place of worship to their progenitors, the twin gods Ursoc and Ursol. Nowadays however, only wafts of putrid vapors escape the rotten caverns and whispers of venerating a foul god echo throughout Timbermaw Hold...
 
 ## Geography
 ### Maps and subregions

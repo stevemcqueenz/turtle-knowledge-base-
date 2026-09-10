@@ -25,10 +25,10 @@ categories: ["Dwarf characters", "Northwind NPCs", "Turtle WoW content"]
 | status | Alive |
 | mentors | Enchantress Magilou |
 
--Thronda** is a [dwarf](dwarf) located at a home to the west of the [Tower of Magilou](Tower of Magilou) in [Northwind](Northwind). Due to a mishap in an attempt to summon her own assembly of arcane elementals to help with her chores, Thronda and her master, [Enchantress Magilou](Enchantress Magilou), were forced to vacate the tower. (ref: [quest: Magilou's Magical Mishap])
+**Thronda** is a [dwarf](dwarf) located at a home to the west of the [Tower of Magilou](Tower of Magilou) in [Northwind](Northwind). Due to a mishap in an attempt to summon her own assembly of arcane elementals to help with her chores, Thronda and her master, [Enchantress Magilou](Enchantress Magilou), were forced to vacate the tower. (ref: [quest: Magilou's Magical Mishap])
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I've done it again. I won't hear the end of it from the master for atleast a month. That's what I get for trying my hands on difficult incantations on my own...
 
 ## Patch changes

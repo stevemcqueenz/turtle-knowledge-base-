@@ -10,4 +10,4 @@ categories: ["Badlands subzones", "Caves", "Ogre territories"]
 ---
 # Dustbelch Grotto
 
--Dustbelch Grotto** is a large [ogre mound](ogre mound) in southwestern [Badlands](Badlands). It is home to the [Dustbelcher](Dustbelcher) [ogre](ogre)s.
+**Dustbelch Grotto** is a large [ogre mound](ogre mound) in southwestern [Badlands](Badlands). It is home to the [Dustbelcher](Dustbelcher) [ogre](ogre)s.

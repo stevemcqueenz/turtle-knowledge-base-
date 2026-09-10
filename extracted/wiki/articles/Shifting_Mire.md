@@ -10,4 +10,4 @@ categories: ["Swamp of Sorrows subzones"]
 ---
 # Shifting Mire
 
--The Shifting Mire** is the central bulk of the [Swamp of Sorrows](Swamp of Sorrows) west of the [Pool of Tears](Pool of Tears). Here you will find [Young Sawtooth Crocolisk](Young Sawtooth Crocolisk)s, [Sorrow Spinner](Sorrow Spinner)s, [Swamp Jaguar](Swamp Jaguar)s and [Draenei](Draenei).
+**The Shifting Mire** is the central bulk of the [Swamp of Sorrows](Swamp of Sorrows) west of the [Pool of Tears](Pool of Tears). Here you will find [Young Sawtooth Crocolisk](Young Sawtooth Crocolisk)s, [Sorrow Spinner](Sorrow Spinner)s, [Swamp Jaguar](Swamp Jaguar)s and [Draenei](Draenei).

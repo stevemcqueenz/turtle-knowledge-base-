@@ -24,7 +24,7 @@ categories: ["Caves", "Dun Morogh subzones", "Dungeons", "Eastern Kingdoms", "Fr
 | players | 5 |
 | bosses |  |
 
--Frostmane Hollow** is an instance dungeon located in [Dun Morogh](Dun Morogh), just south of the [Ironforge Airfields](Ironforge Airfields). It is the sanctum of the [Frostmane clan](Frostmane clan) and a de-facto capital for all of trollkind in Dun Morogh.
+**Frostmane Hollow** is an instance dungeon located in [Dun Morogh](Dun Morogh), just south of the [Ironforge Airfields](Ironforge Airfields). It is the sanctum of the [Frostmane clan](Frostmane clan) and a de-facto capital for all of trollkind in Dun Morogh.
 
 ## Geography
 ### Maps and subregions
@@ -33,12 +33,12 @@ WorldMap-FrostmaneHollow.jpg
 </gallery>
 
 ## Dungeon denizens
--  [Ice troll](Ice troll)s
--  [Ice elemental](Ice elemental)s
--  [Goblin](Goblin)s (one, [Ranix Crackbolt](Ranix Crackbolt))
--  [Orc](Orc)s
--  [Snow leopards](Leopard)
--  [Bear](Bear)s
+- [Ice troll](Ice troll)s
+- [Ice elemental](Ice elemental)s
+- [Goblin](Goblin)s (one, [Ranix Crackbolt](Ranix Crackbolt))
+- [Orc](Orc)s
+- [Snow leopards](Leopard)
+- [Bear](Bear)s
 
 ## Quest guide
 {| class="fandom-table"

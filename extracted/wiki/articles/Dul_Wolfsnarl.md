@@ -26,14 +26,14 @@ categories: ["Blackrock clan", "Northwind NPCs", "Orc characters", "Quest givers
 | location | Northwind |
 | status | Alive |
 
--Dul Wolfsnarl** is an [orc](orc) [quest giver](quest giver) located in [Northwind](Northwind).
+**Dul Wolfsnarl** is an [orc](orc) [quest giver](quest giver) located in [Northwind](Northwind).
 
 ## Quests
 - [quest: Vile Dwarven Pigs] 
 - [quest: Scum Should Stay Scum] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Lower that tone, you fool, or we will both kiss our miserable lives goodbye.
 
 ## Patch changes

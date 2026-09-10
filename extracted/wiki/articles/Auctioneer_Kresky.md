@@ -23,6 +23,6 @@ categories: ["Auctioneers", "Booty Bay characters", "Goblin characters", "Strang
 | gender | Male |
 | location | Booty Bay, Stranglethorn Vale |
 
--Auctioneer Kresky** is a [goblin](goblin) [auctioneer](auctioneer) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale).
+**Auctioneer Kresky** is a [goblin](goblin) [auctioneer](auctioneer) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale).
 
 ## External links

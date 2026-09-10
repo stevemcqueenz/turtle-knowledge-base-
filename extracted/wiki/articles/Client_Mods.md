@@ -18,7 +18,7 @@ All these mods may break the game in one way or another. In case things are not 
 ## Installation
 To install a client mod, download the .mpq file, and drag it into <code>TurtleWoW/Data/</code>. To uninstall a mod, just delete the corresponding .mpq file from the Data folder. When using the **Turtle WoW** Launcher, you should enable the mods in the launcher's "Mods" tab (refer to picture).
 
-  -Sometimes two mods share the same name and conflict.** That is okay since you can easily rename these mods to different patch letters and numbers. Turtle WoW uses the early numbers for its own client mods that allow the client to function, so avoid using numbers and early letters, and keep to using later letters first.
+**Sometimes two mods share the same name and conflict.** That is okay since you can easily rename these mods to different patch letters and numbers. Turtle WoW uses the early numbers for its own client mods that allow the client to function, so avoid using numbers and early letters, and keep to using later letters first.
 The client loads the mods in order, **starting** with patch-1.mpq, **ending** in patch-Z.mpq.  
 {| class="fandom-table"
 !Filename (*.mpq)
@@ -164,6 +164,6 @@ A client fix for SuperWoW users. This mod fixes an error message that occurs whe
 - Download at [GitHub](https://github.com/MarcelineVQ/SuperWoWGBankFix).
 
 ## See Also
--[Addons](Addons)
--[Client Fixes and Tweaks](Client Fixes and Tweaks)
--[Sound Mods](Sound Mods)
+- [Addons](Addons)
+- [Client Fixes and Tweaks](Client Fixes and Tweaks)
+- [Sound Mods](Sound Mods)

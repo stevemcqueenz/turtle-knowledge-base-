@@ -25,7 +25,7 @@ categories: ["Orc characters", "Stormreaver clan", "Stormwrought Ruins mobs", "T
 | location | Stormwrought Ruins |
 | status | Killable |
 
--Stormreaver Sorcerers** are [orc](orc)s located in [Stormwrought Ruins](Stormwrought Ruins).
+**Stormreaver Sorcerers** are [orc](orc)s located in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Abilities
 - Frostbolt

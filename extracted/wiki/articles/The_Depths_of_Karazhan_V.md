@@ -41,8 +41,8 @@ When these items are obtained, return to me, and I can forge the key.
 
 ## Rewards
 You will receive:
--6150 XP
--+250 [reputation](reputation) with [Orgrimmar](Orgrimmar (faction))
+- 6150 XP
+- +250 [reputation](reputation) with [Orgrimmar](Orgrimmar (faction))
 
 ## Progress
 Be dedicated in your searching, if we are to destroy this evil, then we must act fast.

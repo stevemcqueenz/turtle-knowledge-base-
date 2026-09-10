@@ -25,16 +25,16 @@ categories: ["Mage trainers", "Orc characters", "Orgrimmar NPCs", "Quest givers"
 | location | Valley of Spirits, Orgrimmar |
 | status | Alive |
 
--Ureda** is an [orc](orc) mage trainer located in the [Valley of Spirits](Valley of Spirits) in [Orgrimmar](Orgrimmar).
+**Ureda** is an [orc](orc) mage trainer located in the [Valley of Spirits](Valley of Spirits) in [Orgrimmar](Orgrimmar).
 
 ## Quests
 - [quest: class=mage] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Greetings, mage. Are you here to learn of the hidden arts?
 
-  -Non-mage gossip**
+**Non-mage gossip**
 Greetings, <class>. I pity your kind, for the secrets of true magic are beyond you...
 
 ## Patch changes

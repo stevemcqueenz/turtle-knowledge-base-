@@ -26,13 +26,13 @@ categories: ["Might of Kalimdor", "Orc characters", "Orgrimmar NPCs", "Silithus 
 | location | Valley of Strength, Orgrimmar |
 | relatives | Broxigar (brother) |
 
--High Overlord Saurfang** is an orc quest ender located in the [Valley of Strength](Valley of Strength) in [Orgrimmar](Orgrimmar). He was the Supreme Commander of the [Might of Kalimdor](Might of Kalimdor) during the [Ahn'Qiraj War](Ahn'Qiraj War) against the [silithid](silithid) and their [qiraji](qiraji) masters. He is the brother of [Broxigar](Broxigar), an orc who travelled back in time to the War of the Ancients and died in glorious battle against the [Burning Legion](Burning Legion).
+**High Overlord Saurfang** is an orc quest ender located in the [Valley of Strength](Valley of Strength) in [Orgrimmar](Orgrimmar). He was the Supreme Commander of the [Might of Kalimdor](Might of Kalimdor) during the [Ahn'Qiraj War](Ahn'Qiraj War) against the [silithid](silithid) and their [qiraji](qiraji) masters. He is the brother of [Broxigar](Broxigar), an orc who travelled back in time to the War of the Ancients and died in glorious battle against the [Burning Legion](Burning Legion).
 
 ## Quests
 - [quest: The Lord of Blackrock] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I am he who watches they. I am the fist of retribution. That which does quell the recalcitrant. Dare you defy the Warchief? Dare you face my merciless judgement?
 
 ## Trivia

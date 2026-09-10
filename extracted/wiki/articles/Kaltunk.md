@@ -24,7 +24,7 @@ categories: ["Durotar NPCs", "Orc characters", "Quest givers"]
 | location | Valley of Trials, Durotar |
 | status | Alive |
 
--Kaltunk** is an [orc](orc) [quest giver](quest giver) located in the [Valley of Trials](Valley of Trials) in [Durotar](Durotar). He greets new orc characters as they log in for the first time, giving their first quest at the Valley.
+**Kaltunk** is an [orc](orc) [quest giver](quest giver) located in the [Valley of Trials](Valley of Trials) in [Durotar](Durotar). He greets new orc characters as they log in for the first time, giving their first quest at the Valley.
 
 ## Quests
 - [quest: Your Place In The World] 

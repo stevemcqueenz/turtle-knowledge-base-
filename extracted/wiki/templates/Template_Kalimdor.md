@@ -12,7 +12,7 @@ categories: ["Zone navigation templates"]
 
 {| class="mw-collapsible {{#ifeq:{}|||mw-collapsed}}" style="border: 1px solid #38090A; width: 100%; margin-bottom: 8px;"
 ! colspan="2" style="background-color:#5072A7; border: 1px solid #3d4d6f; color: #FFFFFF;" | 
-  -[Regions](Zone) of [Kalimdor](Kalimdor)**
+**[Regions](Zone) of [Kalimdor](Kalimdor)**
 |-
 | width="11%" | 
 

@@ -10,15 +10,8 @@ categories: ["Alliance settlements", "Harbors", "Human territories", "Northwind 
 ---
 # Stillheart Port
 
--Stillheart Port** is a small harbor located on the eastern coast of [Northwind](Northwind). After the [Northwind Logging Camp](Northwind Logging Camp) was overran by the [Defias Brotherhood](Defias Brotherhood), the lumberjacks took refuge in Stillheart Port.
+**Stillheart Port** is a small harbor located on the eastern coast of [Northwind](Northwind). After the [Northwind Logging Camp](Northwind Logging Camp) was overran by the [Defias Brotherhood](Defias Brotherhood), the lumberjacks took refuge in Stillheart Port.
 
 ## Inhabitants
-- 
-- 
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - - - ## Patch changes
 - (Patch 1.18.0|note=Added.)

@@ -21,12 +21,12 @@ categories: ["Regions"]
 | affiliation | Orc clans, Tauren tribes, Durotar Labor Union, Theramore, Darkspear tribe, Alliance, Grimtotem tribe, Steamwheedle Cartel, Venture Company, Cenarion Circle, Centaur tribes, Quilboar tribes |
 | loc | Central Kalimdor |
 
--Central Kalimdor**, (ref: *World of Warcraft Strategy Guide: Second Edition*) also also spelled as **central Kalimdor**, (ref: [The Oracle (WC3 Orc)](https://wowpedia.fandom.com/wiki/The_Oracle_(WC3_Orc))) is the central region of [Kalimdor](Kalimdor) between [northern](northern Kalimdor) and [southern Kalimdor](southern Kalimdor).
+**Central Kalimdor**, (ref: *World of Warcraft Strategy Guide: Second Edition*) also also spelled as **central Kalimdor**, (ref: [The Oracle (WC3 Orc)](https://wowpedia.fandom.com/wiki/The_Oracle_(WC3_Orc))) is the central region of [Kalimdor](Kalimdor) between [northern](northern Kalimdor) and [southern Kalimdor](southern Kalimdor).
 
 ## Geography
 ### Zones
 - [The Barrens](Barrens)
--  [Blackstone Island](Blackstone Island)
+- [Blackstone Island](Blackstone Island)
 - [Desolace](Desolace)
 - [Durotar](Durotar)
 - [Dustwallow Marsh](Dustwallow Marsh)

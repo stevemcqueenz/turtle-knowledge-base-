@@ -24,5 +24,5 @@ The color of the portal indicates the type of instance:
 - <font color="red">Red</font> Instance Portal: [PvP](PvP) Battlezone ([battleground](battleground))
 |}
 
-  -See also:**
+**See also:**
 - [http://www.worldofwarcraft.com/info/basics/instancing.html](http://www.worldofwarcraft.com/info/basics/instancing.html) on the [official site](http://www.worldofwarcraft.com/).

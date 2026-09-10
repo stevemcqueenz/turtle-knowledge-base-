@@ -25,7 +25,7 @@ categories: ["Orc characters", "Shadow Council", "Stormwrought Ruins mobs", "Tur
 | location | Stormwrought Ruins |
 | status | Killable |
 
--Shadow Council Summoners** are [orc](orc)s located in [Stormwrought Ruins](Stormwrought Ruins).
+**Shadow Council Summoners** are [orc](orc)s located in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Abilities
 - Shadow Bolt

@@ -25,6 +25,6 @@ categories: ["Booty Bay characters", "Food and drink vendors", "Goblin character
 | location | Booty Bay, Stranglethorn Vale |
 | status | Alive |
 
--Nixxrax Fillamug** is a [goblin](goblin) [bread](bread) and [drink vendor](drink vendor) located in the [Salty Sailor Tavern](Salty Sailor Tavern) in [Booty Bay](Booty Bay).
+**Nixxrax Fillamug** is a [goblin](goblin) [bread](bread) and [drink vendor](drink vendor) located in the [Salty Sailor Tavern](Salty Sailor Tavern) in [Booty Bay](Booty Bay).
 
 ## External links

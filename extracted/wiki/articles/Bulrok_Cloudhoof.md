@@ -24,13 +24,13 @@ categories: ["Moonwhisper Coast NPCs", "Quest givers", "Tauren characters", "Tur
 | location | Moonhoof Retreat, Moonwhisper Coast |
 | status | Alive |
 
--Bulrok Cloudhoof** is a [tauren](tauren) quest giver located in [Moonhoof Retreat](Moonhoof Retreat) in [Moonwhisper Coast](Moonwhisper Coast).
+**Bulrok Cloudhoof** is a [tauren](tauren) quest giver located in [Moonhoof Retreat](Moonhoof Retreat) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: Worthy of Cloudhoof] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Behold, I am Bulrok, one of the Cloudhoof.
 
 <Bulrok gazes upon you, as if this name is supposed to garner respect.>

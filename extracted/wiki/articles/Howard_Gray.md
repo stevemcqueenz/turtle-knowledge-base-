@@ -25,7 +25,7 @@ categories: ["Human characters", "Swamp of Sorrows NPCs", "Tradeskill vendors", 
 | location | Sorrowguard Keep, Swamp of Sorrows |
 | status | Alive |
 
--Howard Gray** is a [human](human) trade goods vendor located in [Sorrowguard Keep](Sorrowguard Keep) in the [Swamp of Sorrows](Swamp of Sorrows).
+**Howard Gray** is a [human](human) trade goods vendor located in [Sorrowguard Keep](Sorrowguard Keep) in the [Swamp of Sorrows](Swamp of Sorrows).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

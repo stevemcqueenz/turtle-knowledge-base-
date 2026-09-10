@@ -10,7 +10,7 @@ categories: ["Azshara subzones", "Furbolg territories", "Timbermaw", "Turtle WoW
 ---
 # Ursolan
 
--Ursolan** is an area in [Azshara](Azshara) just east of [Timbermaw Hold](Timbermaw Hold). It is characterized by a deep scar running through the middle of it. Ursolan is now the site of an extensive [Timbermaw](Timbermaw Hold (faction)) [furbolg](furbolg) settlement, which runs south through [Timbermaw Hold](Timbermaw Hold) to [Bear's Head](Bear's Head). Ursolan leads up the mountains to the [Maw of Ursoc](Maw of Ursoc).
+**Ursolan** is an area in [Azshara](Azshara) just east of [Timbermaw Hold](Timbermaw Hold). It is characterized by a deep scar running through the middle of it. Ursolan is now the site of an extensive [Timbermaw](Timbermaw Hold (faction)) [furbolg](furbolg) settlement, which runs south through [Timbermaw Hold](Timbermaw Hold) to [Bear's Head](Bear's Head). Ursolan leads up the mountains to the [Maw of Ursoc](Maw of Ursoc).
 
 Ursolan's namesake is [Ursol](Ursol), a [Kalimdor](Kalimdor) [bear](bear) [demigod](demigod) revered by the [furbolg](furbolg) race.
 

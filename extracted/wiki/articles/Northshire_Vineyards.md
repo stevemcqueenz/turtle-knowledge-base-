@@ -13,5 +13,4 @@ categories: ["Defias Brotherhood", "Elwynn Forest subzones", "Farms", "Human ter
 The **Northshire Vineyards** are located just northeast of [Northshire Abbey](Northshire Abbey). The vineyards have been taken over by agents of the nefarious [Defias Brotherhood](Defias Brotherhood) and their leader [Garrick Padfoot](Garrick Padfoot). It is here that [human](human) players have their first encounter with the Brotherhood, fighting their minions and retrieving the stolen property of [Milly Osworth](Milly Osworth).
 
 ## NPCs
-- 
--
+- -

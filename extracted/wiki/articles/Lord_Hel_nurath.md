@@ -28,13 +28,11 @@ categories: ["Dire Maul mobs", "Named mobs", "Nathrezim", "Turtle WoW content", 
 | relatives | Lord Banehollow (rival) |
 | instance | Dire Maul |
 
--Lord Hel'nurath** is a level 62 [rare](rare mob) [elite](elite) [demon](demon) summoned in [Dire Maul](Dire Maul) West.
+**Lord Hel'nurath** is a level 62 [rare](rare mob) [elite](elite) [demon](demon) summoned in [Dire Maul](Dire Maul) West.
 
 A member of the [nathrezim](nathrezim) ruling over the world of [Xoroth](Xoroth). You have to defeat him and one of his [dreadsteed](dreadsteed)s to be able to summon a [dreadsteed](dreadsteed) on the quest line for the [warlock](warlock) epic [mount](mount).
 ## Quests
--
-
-## Loot
+- ## Loot
 ## Patches and hotfixes
 (Patch 1.3.0|note=Added)
 

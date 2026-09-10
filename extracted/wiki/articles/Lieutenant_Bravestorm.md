@@ -24,10 +24,10 @@ categories: ["Human characters", "Northwind NPCs", "Theramore", "Turtle WoW cont
 | location | Jousting Grounds, Northwind |
 | status | Alive |
 
--Lieutenant Bravestorm** is a [human](human) located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind).
+**Lieutenant Bravestorm** is a [human](human) located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 [Lady Proudmoore](Jaina Proudmoore) chose me and the Farwind siblings as representatives of our port city. She wishes to foster relations not only with Stormwind, but the other human nations as well. An admirable goal, and I will not allow her ambitions to fail.
 
 ## Patch changes

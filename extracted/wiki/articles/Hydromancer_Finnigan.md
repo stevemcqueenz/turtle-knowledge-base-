@@ -24,7 +24,7 @@ categories: ["Balor NPCs", "Human characters", "Kul Tiras (kingdom)", "Quest giv
 | location | SI:7 Outpost, Balor |
 | status | Alive |
 
--Hydromancer Finnigan** is a [human](human) [quest giver](quest giver) located at [SI:7 Outpost](SI:7 Outpost) in [Balor](Balor).
+**Hydromancer Finnigan** is a [human](human) [quest giver](quest giver) located at [SI:7 Outpost](SI:7 Outpost) in [Balor](Balor).
 
 ## Quests
 - [quest: A Hydromancer's Curiosity] 
@@ -33,7 +33,7 @@ categories: ["Balor NPCs", "Human characters", "Kul Tiras (kingdom)", "Quest giv
 - [quest: Calming The Tempest] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I hail from [Davenburg](Davenburg), the Kul Tiran embassy found in [Stormwind Harbor](Stormwind Harbor). My countrymen, myself included, are vehemently trying to reestablish good relations with the Alliance. As such it was my obligation to assist the SI:7 in this mission. Furthermore, the storms raging over this island are most peculiar, an abnormality worth investigating on its own.
 
 ## Patch changes

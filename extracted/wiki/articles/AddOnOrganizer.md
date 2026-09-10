@@ -48,8 +48,8 @@ Either clone the repository to your WoW/Interface/Add-ons folder, or download ma
 - When you have selected a profile you would like to use, select it in the list, and press "Accept" in the main window, and voilá! You're all set.
 
 ### Deleting Profiles
--   Select a profile from the list, and press
--   "Delete" and the profile is gone.
+- Select a profile from the list, and press
+- "Delete" and the profile is gone.
 
 ## Features
 - This mod allows you to turn on and off, all of you're current mods in you're add-on directory. 
@@ -62,31 +62,31 @@ Either clone the repository to your WoW/Interface/Add-ons folder, or download ma
 - [Monteo](https://github.com/Monteo)
 
 ## History
-  -v.1.1011**
+**v.1.1011**
 - Button added to the game main menu.
 - This is placed below as there might be changes to this menu in the near future.
 - When a profile is selected the name is written in the textbox for a much better modification opportunity than having to type an existing name to modify it.
-  -v.1.1010**
+**v.1.1010**
 - As you all have requested; Profiles have been implemented. 
 - To learn how to use these newly implemented profiles read the "How-To". 
 - Also still programming on the concept of K-I-S-S, "Keep It Simple Stupid"!
-  -v.1.1000**
+**v.1.1000**
 - Updated version and UI number to match the 1.10 patch!
 - Nothing new yet, but the old stuff works perfectly.
-  -V.1.900**
+**V.1.900**
 - Made Version number match Wow's two first digits. So this is version 00.
 - Added Moveable Frame and close on escape.
 - Profiles are coming, and will now be easier with blizzard having implemented it.
-  -V.1.4**
+**V.1.4**
 - Code Cleanup, and added some small visual features for add-ons which is enabled, but can't be loaded.
-  -V.1.3**
+**V.1.3**
 - Added Slash Command "/aoo" for simplicity.
-  -V.1.2**
+**V.1.2**
 - The bug with enable all, and disable all, have now been fixed!
 - Thanks to Ezikial who reported them.
-  -V.1.1**
+**V.1.1**
 - Fixed Bug when more than 22 mods are in the directory.
 - Fixed Bug when scrolling.
-  -V.1.0**
+**V.1.0**
 - First release version, so no changes yet!
 - Although any suggestions about eventual changes are welcome!

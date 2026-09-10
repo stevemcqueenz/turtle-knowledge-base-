@@ -26,7 +26,7 @@ categories: ["Alah'Thalas NPCs", "Farstriders", "High elf characters", "Turtle W
 | location | Alah'Thalas |
 | status | Alive |
 
--Damilara Sunsorrow** is a hunter trainer located in [Alah'Thalas](Alah'Thalas), beneath the translocation orb leading to the Golden Dawn Institute. Following the fall of Silvermoon and the establishment of the [Silvermoon Remnant](Silvermoon Remnant), Damilara held the position of Ranger-General under the leadership of Speaker [Vereesa Windrunner](Vereesa Windrunner) until the resettlement of the [Thalassian Highlands](Thalassian Highlands) and the formation of the [Regency Council](Regency Council), after which the position was granted to [Halduron Brightwing](Halduron Brightwing).
+**Damilara Sunsorrow** is a hunter trainer located in [Alah'Thalas](Alah'Thalas), beneath the translocation orb leading to the Golden Dawn Institute. Following the fall of Silvermoon and the establishment of the [Silvermoon Remnant](Silvermoon Remnant), Damilara held the position of Ranger-General under the leadership of Speaker [Vereesa Windrunner](Vereesa Windrunner) until the resettlement of the [Thalassian Highlands](Thalassian Highlands) and the formation of the [Regency Council](Regency Council), after which the position was granted to [Halduron Brightwing](Halduron Brightwing).
 
 ## Quests
 - [quest: The Hunter's Path|class=hunter|race=HighElf] 
@@ -36,7 +36,7 @@ categories: ["Alah'Thalas NPCs", "Farstriders", "High elf characters", "Turtle W
 - [quest: Taming the Beast|class=hunter|race=HighElf] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The Farstriders were a proud group of rangers, with the fall of our land they too have been left behind, yet it is in us that their legacy will live on.
 
 ## Patch changes

@@ -27,7 +27,7 @@ categories: ["Blackrock clan", "Burning Steppes NPCs", "Orc characters", "Quest 
 | location | Karfang Hold, Burning Steppes |
 | status | Alive |
 
--Karfang** is an [orc](orc) [quest giver](quest giver) located in [Karfang Hold](Karfang Hold) in the [Burning Steppes](Burning Steppes).
+**Karfang** is an [orc](orc) [quest giver](quest giver) located in [Karfang Hold](Karfang Hold) in the [Burning Steppes](Burning Steppes).
 
 ## Quests
 - [quest: Of New and Old III] 
@@ -47,17 +47,17 @@ My people should cause you no harm, lest you insult or bother them too much. The
 The Blackrock Clan find themselves manipulated by greater forces. The Old Horde is a shell of what it once was, and I will not allow my people to follow them into madness.
 
 ### On-click
-  -Greeting**
--What brings you to Karfang Hold?
--I am the warleader here. What can I do for you, whelpling?
+**Greeting**
+- What brings you to Karfang Hold?
+- I am the warleader here. What can I do for you, whelpling?
 
-  -Farewell**
--Tread carefully near the mountain.
--Strength be with you.
+**Farewell**
+- Tread carefully near the mountain.
+- Strength be with you.
 
-  -Pissed**
--Is this normal in your "New Horde"?!
--I grow tired of your pestering, worm.
+**Pissed**
+- Is this normal in your "New Horde"?!
+- I grow tired of your pestering, worm.
 
 ## Patch changes
 - (Patch 1.16.1|note=Added.)

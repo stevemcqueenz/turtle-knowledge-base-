@@ -24,7 +24,7 @@ categories: ["Gilneas NPCs", "Human characters", "Quest givers", "Turtle WoW con
 | location | Blackthorn's Camp, Gilneas |
 | status | Alive |
 
--Livia Strongarm** is a [human](human) [quest giver](quest giver) located in [Blackthorn's Camp](Blackthorn's Camp) in [Gilneas](Gilneas). She has been a part of [Blackthorn](Blackthorn)'s crew since the very beginning. (ref: [quest: Report to Livia Strongarm])
+**Livia Strongarm** is a [human](human) [quest giver](quest giver) located in [Blackthorn's Camp](Blackthorn's Camp) in [Gilneas](Gilneas). She has been a part of [Blackthorn](Blackthorn)'s crew since the very beginning. (ref: [quest: Report to Livia Strongarm])
 
 ## Quests
 - [quest: Report to Livia Strongarm] 

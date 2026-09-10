@@ -10,7 +10,7 @@ categories: ["Grim Reaches subzones", "Turtle WoW content", "Wildhammer dwarf te
 ---
 # Slatebeard's Forge
 
--Slatebeard's Forge** is a Wildhammer blacksmith located in the [Grim Reaches](Grim Reaches), just south of [Dun Kithas](Dun Kithas). The forge is run by [Farleg Slatebeard](Farleg Slatebeard) and his children, [Grukson](Grukson Slatebeard) and [Margella](Margella Slatebeard), and [Ragdan Hammersmith](Ragdan Hammersmith) sells blacksmithing supplies outside the forge. The Slatebeards have outfitted mountaineers in the Grim Reaches for generations. (ref: [quest: Ore Must Flow])
+**Slatebeard's Forge** is a Wildhammer blacksmith located in the [Grim Reaches](Grim Reaches), just south of [Dun Kithas](Dun Kithas). The forge is run by [Farleg Slatebeard](Farleg Slatebeard) and his children, [Grukson](Grukson Slatebeard) and [Margella](Margella Slatebeard), and [Ragdan Hammersmith](Ragdan Hammersmith) sells blacksmithing supplies outside the forge. The Slatebeards have outfitted mountaineers in the Grim Reaches for generations. (ref: [quest: Ore Must Flow])
 
 ## References
 ## Patch changes

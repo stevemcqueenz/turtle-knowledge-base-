@@ -14,13 +14,13 @@ Returns a number representing the amount of copper rewarded by a particular ques
  GetQuestLogRewardMoney();
 ----
 
-  - *Arguments***
+** *Arguments***
 
    *none*
 
 ----
 
-  - *Returns***
+** *Returns***
 
    Number rewardMoney
 
@@ -29,15 +29,15 @@ Returns a number representing the amount of copper rewarded by a particular ques
 
 ----
 
-  - *Example***
+** *Example***
 
  local rewardMoney= GetQuestLogRewardMoney();
 
-  - *Result***
+** *Result***
 
  500
 ----
 
-  - *Description***
+** *Description***
 
    Returns a number representing the amount of copper rewarded by a particular quest.

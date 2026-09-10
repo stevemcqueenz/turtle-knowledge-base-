@@ -24,7 +24,7 @@ categories: ["Defias Brotherhood", "Human characters", "Northwind mobs", "Turtle
 | location | Northwind |
 | status | Killable |
 
--Defias Infiltrators** are [human](human)s located in [Northwind](Northwind).
+**Defias Infiltrators** are [human](human)s located in [Northwind](Northwind).
 
 ## Abilities
 - Strike

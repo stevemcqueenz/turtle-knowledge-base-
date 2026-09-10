@@ -20,7 +20,7 @@ Turtle WoW's population is on the slighter side, and for a long time we struggle
 ## **Unique Bosses**
 Turtle WoW is home to some unique bosses as well, providing a new and interesting challenge to an older world.
 
-  -Turtlhu**
+**Turtlhu**
 
 N'zoth's servant, Turtlhu, wanders the northern shores of Feralas in search of treasures for his dark master. This corrupted turtle is balanced around being engaged by a group of roughly 15 to 20 pre-raid geared adventurers and has a few notable abilities.
 - **Soon, You Shall Flee!** The first ability of Turtlhu summons the entire raid to surround him, and immediately precedes his next ability.
@@ -29,7 +29,7 @@ N'zoth's servant, Turtlhu, wanders the northern shores of Feralas in search of t
 - **Blackout** I'm not truly clear on it, but I believe it works the same was as the priest talent of the same name, giving Turtlhu a chance upon dealing shadow damage to stun as well.
 - **The Shadows Devour! (Enrage)** At 30%, Turtlehu will enrage, taking on a shadowy tint, and begin casting Shadow Bolt Volley regardless of deaths. He will continue to use all his other abilities, so you need to burn him down before the additional damage causes too many deaths.
 - Once you slay him, Turtlhu will be freed from the old gods' control, and revert to his former self. As a reward for freeing him, he will drop one epic item from the non-shared nightmare dragon loot tables, a unique non-combat pet (Egg of Turtlhu), and a varying amount of Corrupted Sand.
-  -Snowball**
+**Snowball**
 
 Snowball is a giant wolf who terrorized the Winter Veil Vale in Dun Morogh. Currently, no one has seen hide nor hair of the monstrous white wolf, but in case he returns next year, or simply for documentation's sake, it would be wise to recall his abilities. (Disclaimer: Fought him way less than Turtlhu by virtue of being a limited time boss, and abilities were added as the event went on, so I'll be operating off memory)
 - **Blizzard:** Throughout the fight, Snowball will cast a blizzard spell upon random members of the raid. It lasts for roughly ten seconds and remains where it was cast, so simply move out of the way.

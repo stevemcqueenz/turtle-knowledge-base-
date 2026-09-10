@@ -10,7 +10,7 @@ categories: ["Gilneas City shops", "Turtle WoW content"]
 ---
 # A Hat You Need
 
--A Hat You Need** is a shop located in [Gilneas City](Gilneas City).
+**A Hat You Need** is a shop located in [Gilneas City](Gilneas City).
 
 ## Patch changes
 - (Patch 1.17.0|note=Added.)

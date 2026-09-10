@@ -25,8 +25,4 @@ categories: ["Draenei territories", "Moonwhisper Coast", "Undisplayed locations"
 This Fallen Ones outpost is located in central [Moonwhisper Coast](Moonwhisper Coast), just north of [Moro'gai Village](Moro'gai Village) and east of [Riverhorn Village](Riverhorn Village).
 
 ## NPCs
-- 
-- 
-- 
-- 
--
+- - - - -

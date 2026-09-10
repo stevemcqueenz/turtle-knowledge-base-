@@ -10,7 +10,7 @@ categories: ["Readable items", "Turtle WoW content"]
 ---
 # Writings of the Elder
 
--Elder's Missive** drops from [Elder Bhu'robi](Elder Bhu'robi) in [Servitor's Sanctuary](Servitor's Sanctuary).
+**Elder's Missive** drops from [Elder Bhu'robi](Elder Bhu'robi) in [Servitor's Sanctuary](Servitor's Sanctuary).
 
 ## Contains
 ## Patch changes

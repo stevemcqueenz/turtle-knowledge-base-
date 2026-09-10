@@ -10,4 +10,4 @@ categories: ["Blasted Lands subzones", "Forts", "Ogre territories"]
 ---
 # Dreadmaul Hold
 
--Dreadmaul Hold** is the main encampment of the powerful [Dreadmaul](Dreadmaul) [ogre](ogre)s in the northwest corner of the [Blasted Lands](Blasted Lands). It is here that [Grol the Destroyer](Grol the Destroyer), a servant of the demon [Razelikh the Defiler](Razelikh the Defiler), rules over the Dreadmaul. Venturing into the Hold is extremely dangerous and adventures are cautioned not to go in alone.
+**Dreadmaul Hold** is the main encampment of the powerful [Dreadmaul](Dreadmaul) [ogre](ogre)s in the northwest corner of the [Blasted Lands](Blasted Lands). It is here that [Grol the Destroyer](Grol the Destroyer), a servant of the demon [Razelikh the Defiler](Razelikh the Defiler), rules over the Dreadmaul. Venturing into the Hold is extremely dangerous and adventures are cautioned not to go in alone.

@@ -10,18 +10,10 @@ categories: ["Gilneas subzones", "Human territories", "Turtle WoW content"]
 ---
 # Dryrock Pit
 
--The Dryrock Pit** is a slave labor camp ran by [Overlord Grigor](Overlord Grigor) and [High Officer Osmark Dryrock](High Officer Osmark) located within the [Dryrock Valley](Dryrock Valley) in western [Gilneas](Gilneas). Lord [Isiden Perenolde](Isiden Perenolde) of [Alterac](Alterac (kingdom)), guest of House Greymane and claimant to the throne of Alterac, was formerly held here by order of the Regent-Lords Harlow before his escape at some point after the [Ravenwood Rebellion](Ravenwood Rebellion) cracked open the [Greymane Wall](Greymane Wall). (ref: [Dossier: Isiden Perenolde](Dossier: Isiden Perenolde))
+**The Dryrock Pit** is a slave labor camp ran by [Overlord Grigor](Overlord Grigor) and [High Officer Osmark Dryrock](High Officer Osmark) located within the [Dryrock Valley](Dryrock Valley) in western [Gilneas](Gilneas). Lord [Isiden Perenolde](Isiden Perenolde) of [Alterac](Alterac (kingdom)), guest of House Greymane and claimant to the throne of Alterac, was formerly held here by order of the Regent-Lords Harlow before his escape at some point after the [Ravenwood Rebellion](Ravenwood Rebellion) cracked open the [Greymane Wall](Greymane Wall). (ref: [Dossier: Isiden Perenolde](Dossier: Isiden Perenolde))
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - - - - ## Patch changes
 - (Patch 1.17.0|note=Added.)
 
 ## References

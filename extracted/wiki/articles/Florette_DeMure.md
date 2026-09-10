@@ -25,10 +25,10 @@ categories: ["Flower vendors", "Human characters", "Northwind NPCs", "Stormwind 
 | location | Ambershire, Northwind |
 | status | Alive |
 
--Florette DeMure** is a [human](human) florist located in [Ambershire](Ambershire) in [Northwind](Northwind).
+**Florette DeMure** is a [human](human) florist located in [Ambershire](Ambershire) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Have you paid your respects to [Queen Tiffin](Tiffin Ellerian Wrynn) yet? If not, why not purchase one of my bouquets and offer it just over there in [Tiffin Park](Tiffin Park)?
 
 ## Patch changes

@@ -25,7 +25,7 @@ categories: ["Moonwhisper Coast NPCs", "Night elf characters", "Quest givers", "
 | status | Alive |
 | mentors | Arch Druid Mothshroud |
 
--Ireth Moondancer** is a [night elf](night elf) quest giver located in the [Ruins of Nendis](Ruins of Nendis) in [Moonwhisper Coast](Moonwhisper Coast).
+**Ireth Moondancer** is a [night elf](night elf) quest giver located in the [Ruins of Nendis](Ruins of Nendis) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: Moondancer Lives?] 

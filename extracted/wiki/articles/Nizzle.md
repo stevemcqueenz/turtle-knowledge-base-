@@ -23,13 +23,13 @@ categories: ["Food vendors", "Goblin characters", "Quest givers", "Stranglethorn
 | gender | Male |
 | location | Old Port Authority, Stranglethorn Vale |
 
--Nizzle** is a [goblin](goblin) food vendor located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). He sells rare imports from [Kezan](Kezan) to well-off customers.
+**Nizzle** is a [goblin](goblin) food vendor located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). He sells rare imports from [Kezan](Kezan) to well-off customers.
 
 ## Quests
 - [quest: Kezan Fruitcake Imports] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Hey there bud, I'm Nizzle, and I make a living importing goods all the way from Kezan. If you're looking for the good stuff, you've found the right spot.
 
 ## Patch changes

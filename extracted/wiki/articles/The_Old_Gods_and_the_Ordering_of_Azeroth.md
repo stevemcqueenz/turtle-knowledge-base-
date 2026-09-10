@@ -12,7 +12,7 @@ categories: ["History of Warcraft", "In-Game Books", "Lore"]
 
 <B style="font-weight:normal;background-color:#2b2b2b;">[  [Source Text](WoWWiki:Article_type)  ]</B>
 
--The Old Gods and the Ordering of Azeroth* is a section of the [History of Warcraft](History of Warcraft), Chapter I.  It is also available as an [in-game book](:Category:In-Game Books) that can be found the [Scholomance](Scholomance) library and the Hall of Explorers in [Ironforge](Ironforge).
+*The Old Gods and the Ordering of Azeroth* is a section of the [History of Warcraft](History of Warcraft), Chapter I.  It is also available as an [in-game book](:Category:In-Game Books) that can be found the [Scholomance](Scholomance) library and the Hall of Explorers in [Ironforge](Ironforge).
 
 ## Text
 Unaware of [Sargeras](Sargeras)' mission to undo their countless works, the [Titan](Titan)s continued to move from world to world, shaping and ordering each planet as they saw fit. Along their journey they happened upon a small world that its inhabitants would later name [Azeroth](Azeroth). As the Titans made their way across the primordial landscape, they encountered a number of hostile elemental beings. These elementals, who worshipped a race of unfathomably evil beings known only as the [Old God](Old God)s, vowed to drive the Titans back and keep their world inviolate from the invaders' metallic touch. 

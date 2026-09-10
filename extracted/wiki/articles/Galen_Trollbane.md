@@ -27,7 +27,7 @@ categories: ["Arathi Highlands NPCs", "Arathi Highlands mobs", "Human characters
 | status | Killable |
 | relatives | Ignaeus (ancestor),, Liam (grandfather),, Thoras (father),, Danath (cousin) |
 
--Prince Galen Trollbane** is the current ruler of the human kingdom of [Stromgarde](Stromgarde). Galen took leadership of Stromgarde following the assassination of his father, [Thoras Trollbane](Thoras Trollbane), shortly after the [Third War](Third War). Not long after his father's death, Stromgarde came under siege by forces of the [Syndicate](Syndicate) and [Boulderfist](Boulderfist) [ogre](ogre)s.
+**Prince Galen Trollbane** is the current ruler of the human kingdom of [Stromgarde](Stromgarde). Galen took leadership of Stromgarde following the assassination of his father, [Thoras Trollbane](Thoras Trollbane), shortly after the [Third War](Third War). Not long after his father's death, Stromgarde came under siege by forces of the [Syndicate](Syndicate) and [Boulderfist](Boulderfist) [ogre](ogre)s.
 
 The Syndicate and Boulderfist won several victories against the weakened kingdom, and managed to occupy much of its terrain, including most of the capital city. Galen took the command of the forces of Stromgarde and has since been desperately trying to retake the ancient, now ruined lands of his people. Recognizing the vastly changed circumstances since his father's time and also acknowledging the incredible odds he faced, Galen agreed to rejoin the Alliance.
 

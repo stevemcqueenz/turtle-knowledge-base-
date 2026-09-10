@@ -26,7 +26,7 @@ As a Druid, Nivekai has access to many healing techniques and often prefers heal
 - A lyre
 - A bag of medicinal herbs
 - A flower from a friend
-  -*Notable things Nive has achieved Icly due to other Character Arcs***
+***Notable things Nive has achieved Icly due to other Character Arcs***
 
 - Cured 2 worgen of their bloodlust ( two different rituals that are cruder more primitive versions of that we seen in cata.)
 - Participated in bringing down a Black Dragon
@@ -34,11 +34,11 @@ As a Druid, Nivekai has access to many healing techniques and often prefers heal
 
 - Participated in an Assault on a Scarlet Crusade outpost (*any scarlet Rpers wanna use this fact against her, feel free. I mean a Dryad rushing one of your outposts with a group would be quite notable if you saw her around*)
 
-  -Limitations the Author has put on the character in RP**
+**Limitations the Author has put on the character in RP**
 
-  -*Dreamwalk***: Dryad according to their wiki can slip into the dream at will and use it as a means to teleport anywhere. I found this to OP to use in casual RP combat, and to easily abuseable.  I have written a short story based on another RP where Nive was banned from using the dream for such things.
+***Dreamwalk***: Dryad according to their wiki can slip into the dream at will and use it as a means to teleport anywhere. I found this to OP to use in casual RP combat, and to easily abuseable.  I have written a short story based on another RP where Nive was banned from using the dream for such things.
 
-  -*Magic Immunity/Easily corrupted*** : Dryad have magic immunity but we often see Dryad shaped by their environments. I have decided that there are just locations icly that Nive cannot go, and certain people or magics Nive cannot fight. She may be immune to most magic, but she is far easier to corrupt by other means. (E.G. forcing her to drink demons blood, or if she spent to long in a place like Mauradon)--- PS, Enchanted weapons dont count, you could totally stab Nive with a flaming knife and it would hurt her just like everyone els.
+***Magic Immunity/Easily corrupted*** : Dryad have magic immunity but we often see Dryad shaped by their environments. I have decided that there are just locations icly that Nive cannot go, and certain people or magics Nive cannot fight. She may be immune to most magic, but she is far easier to corrupt by other means. (E.G. forcing her to drink demons blood, or if she spent to long in a place like Mauradon)--- PS, Enchanted weapons dont count, you could totally stab Nive with a flaming knife and it would hurt her just like everyone els.
 
 ### ***RP stats I use ingame with LPL's roll system. - Roll 100 modifyers.***
 - ***Martial: -***20 ( Combat by Martial means)
@@ -68,7 +68,7 @@ These are the only stats I use ingame in RP, the stats below are just to give an
 - Tough Hide: +1 ac
 - inhuman frame: Armor costs more to make for this character
 
-  -Dryad creature class features**
+**Dryad creature class features**
 
 - Spell resistance: Dryad of 8th level or below have spell resistance
 - Magic Immunity: At 9th level, A Dryad becomes immune to all spell or spell like effects that allows spell resistance
@@ -80,6 +80,6 @@ WoW RPG Alliance Guide
 
 Official Wiki on Dryads
 
-  -Authors note**
+**Authors note**
 
 Yea I know WoW RPG isnt Canon material to retail, but unless the Twow staff wishes to add their own lore, its what im going to use for now. If and when they add more Dryad stuff, I will happily use theirs instead.  With that said if you wish to RP with me just add me to friends and send a mail or hit me up. I am PST timezone but i stay up late. See you ingame turtles.

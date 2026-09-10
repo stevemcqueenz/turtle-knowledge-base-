@@ -25,10 +25,10 @@ categories: ["Goblin characters", "Moonwhisper Coast NPCs", "Turtle WoW content"
 | status | Alive |
 | companions | Foe-Pounder-3000 (bodyguard) |
 
--Zegh Sparkleblast** is a [goblin](goblin) located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Zegh Sparkleblast** is a [goblin](goblin) located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I have travelled all the way from Sparkwater Port to offer my help to this tribe, and yet they refused to allow me entry into their village. Thankfully, this elder allowed me to rest in his hut. Perhaps he took pity on me, since he too feels like an outsider among them.
 
 ## Patch changes

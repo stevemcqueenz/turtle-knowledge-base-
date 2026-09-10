@@ -63,60 +63,60 @@ Following the Third War, the balance of power among the human kingdoms shifted. 
 
 ## Organization and leadership
 ### Alliance army
--  Supreme Commander [Anduin Lothar](Anduin Lothar)
-  -  General [Turalyon](Turalyon)
+- Supreme Commander [Anduin Lothar](Anduin Lothar)
+  - General [Turalyon](Turalyon)
 
 ### Alliance navy
--  Grand Admiral [Daelin Proudmoore](Daelin Proudmoore)
+- Grand Admiral [Daelin Proudmoore](Daelin Proudmoore)
 
 ### The [Seven Kingdoms](Seven Kingdoms)
 #### [Kingdom of Azeroth](Stormwind (kingdom))
--  [Anduin Lothar](Anduin Lothar) - Regent Lord of the kingdom of Stormwind, and Supreme Commander of the Alliance armies.
--  [Varian Wrynn](Varian Wrynn) - Crowned king of Stormwind after the [Second War](Second War).
+- [Anduin Lothar](Anduin Lothar) - Regent Lord of the kingdom of Stormwind, and Supreme Commander of the Alliance armies.
+- [Varian Wrynn](Varian Wrynn) - Crowned king of Stormwind after the [Second War](Second War).
 
 #### [Kingdom of Lordaeron](Lordaeron (kingdom))
--  [Terenas Menethil II](Terenas Menethil II) - King of Lordaeron and primary founder of the Alliance of Lordaeron
-  -  [Arthas Menethil](Arthas Menethil)
+- [Terenas Menethil II](Terenas Menethil II) - King of Lordaeron and primary founder of the Alliance of Lordaeron
+  - [Arthas Menethil](Arthas Menethil)
 
 #### [Kingdom of Stromgarde](Stromgarde (kingdom))
--  [Thoras Trollbane](Thoras Trollbane) - Lord and king of Stromgarde
-  -  [Danath Trollbane](Danath Trollbane)
+- [Thoras Trollbane](Thoras Trollbane) - Lord and king of Stromgarde
+  - [Danath Trollbane](Danath Trollbane)
 
 #### [Kingdom of Kul Tiras](Kul Tiras (kingdom))
--  [Daelin Proudmoore](Daelin Proudmoore) - Lord Admiral of Kul Tiras, and Grand Admiral of the Alliance fleets
+- [Daelin Proudmoore](Daelin Proudmoore) - Lord Admiral of Kul Tiras, and Grand Admiral of the Alliance fleets
 
 #### [Kingdom of Gilneas](Gilneas (kingdom))
--  [Genn Greymane](Genn Greymane) - Lord and king of Gilneas
-  -  [Magnus Greystone](Marshal Magnus Greystone)
+- [Genn Greymane](Genn Greymane) - Lord and king of Gilneas
+  - [Magnus Greystone](Marshal Magnus Greystone)
 
 #### [Magocracy of Dalaran](Dalaran (kingdom))
--  [Antonidas](Antonidas) - Leader of the Kirin Tor and ruler of Dalaran
+- [Antonidas](Antonidas) - Leader of the Kirin Tor and ruler of Dalaran
 
 #### [Kingdom of Alterac](Alterac (kingdom))
--  [Aiden Perenolde](Aiden Perenolde) - Lord and king of Alterac, he betrayed the Alliance and allied with the Horde
+- [Aiden Perenolde](Aiden Perenolde) - Lord and king of Alterac, he betrayed the Alliance and allied with the Horde
 
 ### Non-human nations
 #### [Kingdom of Quel'Thalas](Quel'Thalas (kingdom))
--  [Anasterian Sunstrider](Anasterian Sunstrider) - High King of Quel'Thalas
-  -  [Kael'thas Sunstrider](Kael'thas Sunstrider)
-  -  [Sylvanas Windrunner](Sylvanas Windrunner)
-  -  [Alleria Windrunner](Alleria Windrunner)
+- [Anasterian Sunstrider](Anasterian Sunstrider) - High King of Quel'Thalas
+  - [Kael'thas Sunstrider](Kael'thas Sunstrider)
+  - [Sylvanas Windrunner](Sylvanas Windrunner)
+  - [Alleria Windrunner](Alleria Windrunner)
 
 #### [Kingdom of Ironforge](Ironforge (kingdom))
--  [Magni Bronzebeard](Magni Bronzebeard) - King of Khaz Modan
-  -  [Muradin Bronzebeard](Muradin Bronzebeard)
-  -  [Brann Bronzebeard](Brann Bronzebeard)
+- [Magni Bronzebeard](Magni Bronzebeard) - King of Khaz Modan
+  - [Muradin Bronzebeard](Muradin Bronzebeard)
+  - [Brann Bronzebeard](Brann Bronzebeard)
 
 #### [Wildhammer clan](Wildhammer clan)
--  [Kurdran Wildhammer](Kurdran Wildhammer) - Chief thane of the Wildhammer clan located at Northeron and the Aerie Peaks
--  [Falstad Wildhammer](Falstad Wildhammer) - High Thane of the Wildhammer clan and Lord of Aerie Peak
+- [Kurdran Wildhammer](Kurdran Wildhammer) - Chief thane of the Wildhammer clan located at Northeron and the Aerie Peaks
+- [Falstad Wildhammer](Falstad Wildhammer) - High Thane of the Wildhammer clan and Lord of Aerie Peak
 
 ### Other major groups and entities
 #### Church of Light
--  [Alonsus Faol](Alonsus Faol) - Abbot of Northshire Abbey and Archbishop of the Church of Light
+- [Alonsus Faol](Alonsus Faol) - Abbot of Northshire Abbey and Archbishop of the Church of Light
 
 #### Knights of the Silver Hand
--  [Uther the Lightbringer](Uther the Lightbringer) - Leader of the newly formed Silver Hand
+- [Uther the Lightbringer](Uther the Lightbringer) - Leader of the newly formed Silver Hand
 
 ## Notes and trivia
 - It was the first time in history that humans, elves, dwarves, and gnomes were brought under the same banner.  (ref: *Warcraft II: Tides of Darkness The Official Strategy Guide* Chapter 3: The Annals of the Great Alliance intro)

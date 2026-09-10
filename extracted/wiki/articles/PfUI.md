@@ -10,10 +10,10 @@ categories: ["Addon"]
 ---
 # PfUI
 
--pfUI** is a comprehensive user interface replacement. Inspired by modern UI designs, pfUI offers a minimalistic and easy-to-use interface, built from scratch without relying on third-party libraries.
+**pfUI** is a comprehensive user interface replacement. Inspired by modern UI designs, pfUI offers a minimalistic and easy-to-use interface, built from scratch without relying on third-party libraries.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **pfUI** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **pfUI** up to date is by using [GitAddonsManager](GitAd
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -30,12 +30,12 @@ If you prefer manual installation, follow these steps:
 # Unpack the .zip and rename the folder to pfUI, removing the -master suffix.
 # Move the folder into your Interface/AddOns directory and restart the game.
 
-  -Recommended Addons:**
+**Recommended Addons:**
 
 - **[pfQuest](pfQuest):** Quest helper & database
 - **[WIM](WIM):** Whisper IM system
 
-  -Plugins:**
+**Plugins:**
 
 - **[pfUI-eliteoverlay](https://shagu.org/pfUI-eliteoverlay/):** Adds elite dragon icons to unitframes
 - **[pfUI-fonts](https://shagu.org/pfUI-fonts/):** Additional fonts
@@ -95,12 +95,12 @@ User Interface:
 ## Modules & Skins
 pfUI supports modular components and custom skins:
 
-  -Register modules/skins:**<syntaxhighlight lang="lua">
+**Register modules/skins:**<syntaxhighlight lang="lua">
 pfUI:RegisterModule("moduleName", "version", function() ... end)
 pfUI:RegisterSkin("skinName", "version", function() ... end)
 </syntaxhighlight>
 
-  -Load modules/skins:**<syntaxhighlight lang="lua">
+**Load modules/skins:**<syntaxhighlight lang="lua">
 pfUI:LoadModule("moduleName")
 pfUI:LoadSkin("skinName")
 </syntaxhighlight>
@@ -111,44 +111,44 @@ pfUI:LoadSkin("skinName")
 - Troubleshoot performance issues by disabling addons incrementally
 
 ## FAQs
-  -What does "pfUI" stand for?**
+**What does "pfUI" stand for?**
 - "pfui!" is German slang meaning "pooh!" — reflecting the developer's humorous attitude toward creating configuration UIs.
 
-  -How to donate?**
+**How to donate?**
 - Support via GitHub or Ko-fi.
 
-  -How to report bugs?**
+**How to report bugs?**
 - Use the bug tracker, providing detailed info, error messages, steps to reproduce, and addon conflict info.
 
-  -Performance issues?**
+**Performance issues?**
 - Known issue: Frame Shadows. Disable them in settings.
 - For other issues, disable all addons except pfUI, then re-enable one-by-one.
 
-  -Pet Happiness Indicator?**
+**Pet Happiness Indicator?**
 - Shown by the pet's frame color:
   - Green = Happy
   - Yellow = Content
   - Red = Unhappy
 - Since v4.0.7, an additional icon can be enabled.
 
-  -Can I use Clique?**
+**Can I use Clique?**
 - pfUI supports clickcasting natively. For Vanilla WoW, a compatible version of Clique is available here. Apply the patch if needed.
 
-  -Where is the Experience Bar?**
+**Where is the Experience Bar?**
 - Appears on mouseover next to the left chatframe or can be set to always visible via settings.
 
-  -How to show Damage & Threat meters?**
+**How to show Damage & Threat meters?**
 - Enable "dock" feature for third-party meters like DPSMate or KTM.
 - Toggle meters via the ">" symbol on the bottom-right panel.
 
-  -Why is chat limited to 3 lines?**
+**Why is chat limited to 3 lines?**
 - "Simple Chat" option in Blizzard settings restricts chat lines.
 - Disable it with:
 <syntaxhighlight lang="lua">
 /run SIMPLE_CHAT="0"; pfUI.chat.SetupPositions(); ReloadUI()
 </syntaxhighlight>
 
-  -Mouseover Cast?**
+**Mouseover Cast?**
 
 - Vanilla: Create macro /pfcast SPELLNAME. For cooldown display, add:
 <syntaxhighlight lang="lua">

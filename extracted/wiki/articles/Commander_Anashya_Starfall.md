@@ -25,7 +25,7 @@ categories: ["Feralas NPCs", "Night elf characters", "Quest givers", "Sentinels"
 | location | Thalanaar, Feralas |
 | status | Alive |
 
--Commander Anashya Starfall** is a [night elf](night elf) quest giver located in [Thalanaar](Thalanaar) in [Feralas](Feralas). She has been banished by General [Shandris Feathermoon](Shandris Feathermoon) for insubordination, though the rest of her squad followed her to Thalanaar.
+**Commander Anashya Starfall** is a [night elf](night elf) quest giver located in [Thalanaar](Thalanaar) in [Feralas](Feralas). She has been banished by General [Shandris Feathermoon](Shandris Feathermoon) for insubordination, though the rest of her squad followed her to Thalanaar.
 
 ## Quests
 - [quest: The Galak Messenger] 
@@ -35,7 +35,7 @@ categories: ["Feralas NPCs", "Night elf characters", "Quest givers", "Sentinels"
 - [quest: The Word of the Archdruid] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 An outsider approaches.
 
 Welcome to Thalanaar. I am Commander Anashya Starfall.

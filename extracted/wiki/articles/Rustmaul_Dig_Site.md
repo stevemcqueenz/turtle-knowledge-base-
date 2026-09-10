@@ -19,12 +19,7 @@ The **Rustmaul Dig Site**[70, 86] is an abandoned [dwarven](dwarven) digsite in 
 The surviving members of the Horde war party can be found at [Ironstone Camp](Ironstone Camp), while some did manage to make it to [Orgrimmar](Orgrimmar). When the Shattering caused the flooding of Thousand Needles, the dig site was lost and the Silithid creatures borrowed underground. The area was renamed to [Sunken Dig Site](Sunken Dig Site).
 
 ## Mobs
-- 
-- 
-- 
-- 
-
-## Gallery
+- - - - ## Gallery
 <gallery>
 The Rustmaul Dig Site.jpg|Rustmaul Dig Site.
 Rustmaul Dig Site above.jpg|Seen from above.

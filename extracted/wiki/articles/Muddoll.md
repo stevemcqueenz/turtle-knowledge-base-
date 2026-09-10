@@ -24,7 +24,7 @@ categories: ["Earth elementals", "Earthen Ring", "Moonwhisper Coast NPCs", "Turt
 | status | Alive |
 | companions | Lotka Muddoll (master) |
 
--Muddoll** is an [earth elemental](earth elemental) located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Muddoll** is an [earth elemental](earth elemental) located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

@@ -26,10 +26,10 @@ categories: ["Human characters", "Hunter trainers", "Stormwind (kingdom)", "Stor
 | status | Alive |
 | relatives | Barry (brother) |
 
--AJ Springberry** is a [human](human) hunter trainer located in [the Park](Park), in [Stormwind City](Stormwind City).
+**AJ Springberry** is a [human](human) hunter trainer located in [the Park](Park), in [Stormwind City](Stormwind City).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Have you ever held a crossbow before, let alone shot one? It does have a bit of a kick to it.
 
 ## Patch changes

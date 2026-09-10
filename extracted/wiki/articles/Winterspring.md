@@ -23,7 +23,7 @@ categories: ["Kalimdor", "Winterspring"]
 | minor | Winterfall Village |
 | affiliation | Wintersaber Trainers, Darnassus, Explorers' League, Alliance, Furbolg tribes, Blue dragonflight, Steamwheedle Cartel |
 
--Winterspring** (also known as **Winterspring Valley**) (ref: [The Druids Arise image description](https://wowpedia.fandom.com/wiki/File:WC3-N04.jpg)) is a snowy valley located in [Northern Kalimdor](Northern Kalimdor), east of [Felwood](Felwood), northeast of [Hyjal](Hyjal), and north of [Azshara](Azshara). It holds the [goblin](goblin) trading post of [Everlook](Everlook), old [night elf](night elf) ruins, and the vast cave [Mazthoril](Mazthoril), the traditional homeland of the [blue dragonflight](blue dragonflight). Many wild creatures roam this beautiful landscape.
+**Winterspring** (also known as **Winterspring Valley**) (ref: [The Druids Arise image description](https://wowpedia.fandom.com/wiki/File:WC3-N04.jpg)) is a snowy valley located in [Northern Kalimdor](Northern Kalimdor), east of [Felwood](Felwood), northeast of [Hyjal](Hyjal), and north of [Azshara](Azshara). It holds the [goblin](goblin) trading post of [Everlook](Everlook), old [night elf](night elf) ruins, and the vast cave [Mazthoril](Mazthoril), the traditional homeland of the [blue dragonflight](blue dragonflight). Many wild creatures roam this beautiful landscape.
 
 ## Geography
 ### Maps and subregions
@@ -32,23 +32,23 @@ categories: ["Kalimdor", "Winterspring"]
 |[Darkwhisper Gorge](Darkwhisper Gorge) • [Dun Mandarr](Dun Mandarr) • [Everlook](Everlook) • [Frostfire Hot Springs](Frostfire Hot Springs) • [Frostsaber Rock](Frostsaber Rock) • [Frostwhisper Gorge](Frostwhisper Gorge) • [The Hidden Grove](Hidden Grove) • [Ice Thistle Hills](Ice Thistle Hills) • [Lake Kel'Theril](Lake Kel'Theril) ([The Ruins of Kel'Theril](Ruins of Kel'Theril)) • [Mazthoril](Mazthoril) • [Moon Horror Den](Moon Horror Den) • [Owl Wing Thicket](Owl Wing Thicket) • [Starfall Village](Starfall Village) • [Timbermaw Hold](Timbermaw Hold) • [Timbermaw Post](Timbermaw Post) • [Winterfall Village](Winterfall Village)
 |-
 |
-  -Warcraft III**
+**Warcraft III**
 
 [Barrow Dens](Barrow Dens) • [Cursed Glade](Cursed Glade)
 |}
 
 ### Elite areas
--[Mazthoril](Mazthoril)
--[Darkwhisper Gorge](Darkwhisper Gorge)
--[Frostwhisper Gorge](Frostwhisper Gorge)
+- [Mazthoril](Mazthoril)
+- [Darkwhisper Gorge](Darkwhisper Gorge)
+- [Frostwhisper Gorge](Frostwhisper Gorge)
 
 ### Travel hubs
 #### [Flight path](Flight path)s from [Everlook](Everlook)
--  [Orgrimmar](Orgrimmar)
--  [Talonbranch Glade](Talonbranch Glade), [Felwood](Felwood)
--  [Bloodvenom Post](Bloodvenom Post), [Felwood](Felwood)
--  [Moonglade](Moonglade)
--  [Talrendis Point](Talrendis Point), [Azshara](Azshara)
+- [Orgrimmar](Orgrimmar)
+- [Talonbranch Glade](Talonbranch Glade), [Felwood](Felwood)
+- [Bloodvenom Post](Bloodvenom Post), [Felwood](Felwood)
+- [Moonglade](Moonglade)
+- [Talrendis Point](Talrendis Point), [Azshara](Azshara)
 
 ### Regions adjacent to Winterspring
 {| class="fandom-table"
@@ -117,6 +117,6 @@ categories: ["Kalimdor", "Winterspring"]
 - [Yeti](Yeti)
 
 ## Notes
--[Darkwhisper Gorge](Darkwhisper Gorge) occupies a rather large portion of the zone. It holds elite demons of an approximate five-man difficulty who guard the entrance to [Hyjal](Hyjal).
+- [Darkwhisper Gorge](Darkwhisper Gorge) occupies a rather large portion of the zone. It holds elite demons of an approximate five-man difficulty who guard the entrance to [Hyjal](Hyjal).
 
 ## References

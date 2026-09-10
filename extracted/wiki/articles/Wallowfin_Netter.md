@@ -22,7 +22,7 @@ categories: ["Lapidis Isle mobs", "Murlocs", "Turtle WoW content"]
 | creature | Humanoid |
 | location | The Wallowing Coast, Lapidis Isle |
 
--Wallowfin Netters** are [murloc](murloc)s located at [the Wallowing Coast](Wallowing Coast) in [Lapidis Isle](Lapidis Isle).
+**Wallowfin Netters** are [murloc](murloc)s located at [the Wallowing Coast](Wallowing Coast) in [Lapidis Isle](Lapidis Isle).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

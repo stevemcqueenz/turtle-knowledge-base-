@@ -42,38 +42,38 @@ Far beneath the ruined capital city of Lordaeron, the royal crypts have been tur
 ## Geography
 ### Map and quarters
 The city is made up of roughly symmetrical quarters arranged around a circular center.
-  -*[Ruins of Lordaeron](Ruins of Lordaeron)** - Outdoors area beyond and including the entry area.
-  -*[The Trade Quarter](Trade Quarter)** - The city center at the bottom elevator exits.
-  -*[The Magic Quarter](Magic Quarter)** - Northeast from the Trade Quarter.
-  -*[The Rogues' Quarter](Rogues' Quarter)** - Southeast from the Trade Quarter.
-  -*[The Apothecarium](Apothecarium)** - Southwest from the Trade Quarter.
-  -*[The War Quarter](War Quarter)** - Northwest from the Trade Quarter.
-  -*[The Royal Quarter](Royal Quarter)** - South from the Apothecarium entrance.
-  -*[The Sewers](Sewers)** - Through a tunnel west of city.
-  -*[The Canals](Canals (Undercity))** - Interspace between the different quarters.
+- **[Ruins of Lordaeron](Ruins of Lordaeron)** - Outdoors area beyond and including the entry area.
+- **[The Trade Quarter](Trade Quarter)** - The city center at the bottom elevator exits.
+- **[The Magic Quarter](Magic Quarter)** - Northeast from the Trade Quarter.
+- **[The Rogues' Quarter](Rogues' Quarter)** - Southeast from the Trade Quarter.
+- **[The Apothecarium](Apothecarium)** - Southwest from the Trade Quarter.
+- **[The War Quarter](War Quarter)** - Northwest from the Trade Quarter.
+- **[The Royal Quarter](Royal Quarter)** - South from the Apothecarium entrance.
+- **[The Sewers](Sewers)** - Through a tunnel west of city.
+- **[The Canals](Canals (Undercity))** - Interspace between the different quarters.
 
 ### Points of interest
--The Bank in the very heart of the city, in the middle of the Trade Quarter.
--The Bat Handler stands in the southwestern part of the Trade Quarter.
--The City Hall in the northeastern edge of the Trade Quarter.
--The Auction House is located in the circular area that leads between the Trade Quarter and the rest of the city.
--The mailbox is located on the north side of the upper rim of the Trade Quarter. Mailboxes are now also located near the auctioneers.
+- The Bank in the very heart of the city, in the middle of the Trade Quarter.
+- The Bat Handler stands in the southwestern part of the Trade Quarter.
+- The City Hall in the northeastern edge of the Trade Quarter.
+- The Auction House is located in the circular area that leads between the Trade Quarter and the rest of the city.
+- The mailbox is located on the north side of the upper rim of the Trade Quarter. Mailboxes are now also located near the auctioneers.
 
 ## Travel connections
 ### Flight
--  [Steepcliff Port](Steepcliff Port), [Tirisfal Glades](Tirisfal Glades)
--  [The Sepulcher](The Sepulcher), [Silverpine Forest](Silverpine Forest)
--  [Tarren Mill](Tarren Mill), [Hillsbrad Foothills](Hillsbrad Foothills)
--  [Hammerfall](Hammerfall), [Arathi Highlands](Arathi Highlands)
--  [Revantusk Village](Revantusk Village), [Hinterlands](Hinterlands)
--  [Kargath](Kargath), [Badlands](Badlands)
--  [Light's Hope Chapel](Light's Hope Chapel), [Eastern Plaguelands](Eastern Plaguelands)
+- [Steepcliff Port](Steepcliff Port), [Tirisfal Glades](Tirisfal Glades)
+- [The Sepulcher](The Sepulcher), [Silverpine Forest](Silverpine Forest)
+- [Tarren Mill](Tarren Mill), [Hillsbrad Foothills](Hillsbrad Foothills)
+- [Hammerfall](Hammerfall), [Arathi Highlands](Arathi Highlands)
+- [Revantusk Village](Revantusk Village), [Hinterlands](Hinterlands)
+- [Kargath](Kargath), [Badlands](Badlands)
+- [Light's Hope Chapel](Light's Hope Chapel), [Eastern Plaguelands](Eastern Plaguelands)
 
 ### Zeppelin
--  [Orgrimmar](Orgrimmar), [Durotar](Durotar)
--  [Grom'gol Base Camp](Grom'gol Base Camp), [Stranglethorn Vale](Stranglethorn Vale)
+- [Orgrimmar](Orgrimmar), [Durotar](Durotar)
+- [Grom'gol Base Camp](Grom'gol Base Camp), [Stranglethorn Vale](Stranglethorn Vale)
 
 ## Patch changes
--  **Patch 1.4.0 (2005-04-19):** Patrolling scouts that can see through stealth and invisibility have been added to the Undercity.
+- **Patch 1.4.0 (2005-04-19):** Patrolling scouts that can see through stealth and invisibility have been added to the Undercity.
 
 ## References

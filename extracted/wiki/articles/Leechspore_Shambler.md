@@ -23,7 +23,7 @@ categories: ["Bog beasts", "Stormwrought Ruins mobs", "Turtle WoW content"]
 | location | Stormwrought Ruins |
 | status | Killable |
 
--Leechspore Shamblers** are [bog beast](bog beast)s located in [Stormwrought Ruins](Stormwrought Ruins).
+**Leechspore Shamblers** are [bog beast](bog beast)s located in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Abilities
 - Regrowth

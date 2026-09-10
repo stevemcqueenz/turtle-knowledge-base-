@@ -15,11 +15,11 @@ categories: ["Stonetalon Mountains subzones", "Tauren territories", "Turtle WoW 
 The **Earthen Ring** is the home of the ancient order of the [Earthen Ring](Earthen Ring), located in the [Stonetalon Mountains](Stonetalon Mountains). While most of its member are now on pilgrimage to quell the elemental unrest, their sacred ritual site south of [Sun Rock Retreat](Sun Rock Retreat) has been taken over by a large group of air elementals, wreaking havoc without bounds. The [Earthen Ring Memorial](Earthen Ring Memorial) is erected here.
 
 ## NPCs
--   [Farseer Greka](Farseer Greka)
--   [Zo'luuli](Zo'luuli)
--   [Tectonius](Tectonius)
--   [Razorgust](Razorgust)
--   [Renegade Air Elemental](Renegade Air Elemental)
+- [Farseer Greka](Farseer Greka)
+- [Zo'luuli](Zo'luuli)
+- [Tectonius](Tectonius)
+- [Razorgust](Razorgust)
+- [Renegade Air Elemental](Renegade Air Elemental)
 
 ## Patch changes
 - (Patch 1.18.1|note=The Earthen Ring has been restored as a sanctuary for shamans to train and work towards restoring balance to Azeroth.)

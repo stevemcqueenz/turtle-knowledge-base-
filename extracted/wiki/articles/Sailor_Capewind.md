@@ -24,10 +24,10 @@ categories: ["Human characters", "Kul Tiras (kingdom)", "Stormwind City NPCs", "
 | location | Stormwind Harbor, Stormwind City |
 | status | Alive |
 
--Sailor Capewind** is a [human](human) located in [Stormwind Harbor](Stormwind Harbor) in [Stormwind City](Stormwind City).
+**Sailor Capewind** is a [human](human) located in [Stormwind Harbor](Stormwind Harbor) in [Stormwind City](Stormwind City).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 <Sailor Capewind looks over you curiously.>
 
 Is there something you need, or are you just intrigued by the tabard?

@@ -15,10 +15,10 @@ A large aquatic fish-like creature.  They are elite and patrol the coastlines of
 Sharks, like all truly marine beasts, cannot be [tame](tame)d by [Hunter](Hunter)s.
 
 ## Types
--[Basking Shark](Basking Shark)
--[Coral Shark](Coral Shark)
--[Great Shark](Great Shark)
--[Hammerhead Shark](Hammerhead Shark)
--[Mammoth Shark](Mammoth Shark)
--[Reef Shark](Reef Shark)
--[Sand Shark](Sand Shark)
+- [Basking Shark](Basking Shark)
+- [Coral Shark](Coral Shark)
+- [Great Shark](Great Shark)
+- [Hammerhead Shark](Hammerhead Shark)
+- [Mammoth Shark](Mammoth Shark)
+- [Reef Shark](Reef Shark)
+- [Sand Shark](Sand Shark)

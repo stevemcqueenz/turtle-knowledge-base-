@@ -25,13 +25,13 @@ categories: ["Centaur characters", "Gillijim's Isle NPCs", "Quest givers", "Turt
 | location | Kalkor Point, Gillijim's Isle |
 | status | Alive |
 
--Eudokia** is a [centaur](centaur) [quest giver](quest giver) located in [Kalkor Point](Kalkor Point) in [Gillijim's Isle](Gillijim's Isle).
+**Eudokia** is a [centaur](centaur) [quest giver](quest giver) located in [Kalkor Point](Kalkor Point) in [Gillijim's Isle](Gillijim's Isle).
 
 ## Quests
 - [quest: Crumbling Allies] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 It takes a brave heart to continue on after tragedy and keep a good face to the world.
 
 ## Patch changes

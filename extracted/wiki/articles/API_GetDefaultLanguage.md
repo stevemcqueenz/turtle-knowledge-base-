@@ -14,30 +14,30 @@ Returns the Language used by the indicated Player.
  GetDefaultLanguage("player");
 ----
 
-  - *Arguments***
+** *Arguments***
 
    String "player" : I haven't tested this thoroughly yet, but it seems that you can use the same constants that are used in the UnitName() function.  Giving it "player" will return your own default language, for example.
 
 ----
 
-  - *Returns***
+** *Returns***
 
    String language : the default language of the indicated object.
 
 ----
 
-  - *Example***
+** *Example***
 
  if( GetDefaultLanguage("player") ~= arg3) then ChatFrame:AddMessage(arg2 .. " is not speaking your language!"); end
 (Remember, arg2 is the author and arg3 is the language in a standard "MSG" event.)
 
-  - *Result***
+** *Result***
 
 If the player doesn't speak the same language as the person who spoke the message, you get:
  (author) is not speaking your language!
 ----
 
-  - *Description***
+** *Description***
 
 Returns the Language used by the indicated Player.
 

@@ -21,23 +21,23 @@ categories: ["Articles using deprecated loot", "Named mobs", "The Hinterlands NP
 | faction | combat |
 | location | The Hinterlands |
 
--Vile Priestess Hexx** is a level 51 [troll](troll) in the ancient troll city of [Jintha'Alor](Jintha'Alor), [The Hinterlands](The Hinterlands). She is the presiding ruler of the [Vilebranch](Vilebranch) [troll](troll) tribe.
+**Vile Priestess Hexx** is a level 51 [troll](troll) in the ancient troll city of [Jintha'Alor](Jintha'Alor), [The Hinterlands](The Hinterlands). She is the presiding ruler of the [Vilebranch](Vilebranch) [troll](troll) tribe.
 
 Hexx is a busy woman:
 
--Hexx guards the Altar of Jintha'Alor, which can be used to create the [Mallet of Zul'Farrak](Mallet of Zul'Farrak).
--Hexx has also caged the [gryphon](gryphon) [Sharpbeak](Sharpbeak).
--[Primal Torntusk](Primal Torntusk) has offered a reward for any that slay Hexx.
--Hexx has kidnapped [Elder Torntusk](Elder Torntusk), the husband of Primal Torntusk. 
+- Hexx guards the Altar of Jintha'Alor, which can be used to create the [Mallet of Zul'Farrak](Mallet of Zul'Farrak).
+- Hexx has also caged the [gryphon](gryphon) [Sharpbeak](Sharpbeak).
+- [Primal Torntusk](Primal Torntusk) has offered a reward for any that slay Hexx.
+- Hexx has kidnapped [Elder Torntusk](Elder Torntusk), the husband of Primal Torntusk. 
 
 ## Abilities
--[Hex](http://thottbot.com/s18503) - A polymorph effect which does not break on taking damage.  This spell makes Hexx difficult to solo.
--[Shadow Word: Pain](Shadow Word: Pain)
--[Heal](Heal)
+- [Hex](http://thottbot.com/s18503) - A polymorph effect which does not break on taking damage.  This spell makes Hexx difficult to solo.
+- [Shadow Word: Pain](Shadow Word: Pain)
+- [Heal](Heal)
 
 ## Quests
--[quest: Saving Sharpbeak]
--[quest: Wanted: Vile Priestess Hexx and Her Minions]
+- [quest: Saving Sharpbeak]
+- [quest: Wanted: Vile Priestess Hexx and Her Minions]
 
 ## Loot
 - *(Quest Item)*

@@ -10,6 +10,6 @@ categories: ["Creatures", "Elemental", "Mechanical", "Mindless Creatures", "Page
 ---
 # Golem
 
--Golems** are huge [elemental](elemental) entities, mainly in [humanoid](humanoid) forms, that are built generally as guardians or protectors of a person, place, or thing. Usually composed of stone or metal, they are brought to life by the elemental magic infused inside them. Most usually have Golem Oil flowing inside them like blood, but some are also mechanical.
+**Golems** are huge [elemental](elemental) entities, mainly in [humanoid](humanoid) forms, that are built generally as guardians or protectors of a person, place, or thing. Usually composed of stone or metal, they are brought to life by the elemental magic infused inside them. Most usually have Golem Oil flowing inside them like blood, but some are also mechanical.
 
  from Dalaran City's Jail]]

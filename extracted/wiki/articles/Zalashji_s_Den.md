@@ -10,6 +10,6 @@ categories: ["Pages with broken file links", "Tanaris subzones"]
 ---
 # Zalashji's Den
 
--Zalashji's Den** was the home of [Zalashji](Zalashji) the [naga](naga), located in eastern [Tanaris](Tanaris).
+**Zalashji's Den** was the home of [Zalashji](Zalashji) the [naga](naga), located in eastern [Tanaris](Tanaris).
 
 ## External links

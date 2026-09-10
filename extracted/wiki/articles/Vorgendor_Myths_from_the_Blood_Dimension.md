@@ -10,7 +10,7 @@ categories: ["Quest items", "Readable items", "Turtle WoW content"]
 ---
 # Vorgendor: Myths from the Blood Dimension
 
--Vorgendor: Myths from the Blood Dimension** is contained in [Vorgendor: Myths from the Blood Dimension](Vorgendor: Myths from the Blood Dimension (object)) in [Tower of Karazhan](Tower of Karazhan). It can be looted even when not on the quest.
+**Vorgendor: Myths from the Blood Dimension** is contained in [Vorgendor: Myths from the Blood Dimension](Vorgendor: Myths from the Blood Dimension (object)) in [Tower of Karazhan](Tower of Karazhan). It can be looted even when not on the quest.
 
 ## As a quest objective
 - [quest: Scythe of the Goddess]

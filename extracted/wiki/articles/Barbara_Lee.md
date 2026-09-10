@@ -25,13 +25,13 @@ categories: ["Ammo vendors", "Human characters", "Northwind NPCs", "Quest enders
 | location | Amberwood Keep, Northwind |
 | status | Alive |
 
--Barbara Lee** is a [human](human) ammo vendor located in [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind). She is [Lord Amberwood](Lord Amberwood)'s fletcher and an old friend of [Avette Fellwood](Avette Fellwood). (ref: [quest: A Dear Friend])
+**Barbara Lee** is a [human](human) ammo vendor located in [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind). She is [Lord Amberwood](Lord Amberwood)'s fletcher and an old friend of [Avette Fellwood](Avette Fellwood). (ref: [quest: A Dear Friend])
 
 ## Quests
 - [quest: A Dear Friend] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Ready to test your aim? My arrows are the best in all of Northwind.
 
 ## Patch changes

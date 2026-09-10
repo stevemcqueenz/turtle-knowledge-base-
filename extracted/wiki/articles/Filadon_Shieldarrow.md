@@ -25,7 +25,7 @@ categories: ["Night elf characters", "Survival trainers", "Teldrassil NPCs", "Tu
 | location | Dolanaar, Teldrassil |
 | status | Alive |
 
--Filadon Shieldarrow** is a [night elf](night elf) Journeyman [survival](survival) trainer located in [Dolanaar](Dolanaar) in [Teldrassil](Teldrassil).
+**Filadon Shieldarrow** is a [night elf](night elf) Journeyman [survival](survival) trainer located in [Dolanaar](Dolanaar) in [Teldrassil](Teldrassil).
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

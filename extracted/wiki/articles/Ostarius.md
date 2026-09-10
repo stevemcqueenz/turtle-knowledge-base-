@@ -24,13 +24,13 @@ categories: ["Stone watchers", "Stubs", "Tanaris mobs", "Turtle WoW content", "W
 | location | Uldum, Tanaris |
 | status | Killable |
 
--Ostarius**, also known as **Ostarius of Uldum**, (ref: [Patch 1.16.0 - New Dungeons, Group & Raid Content](https://forum.turtle-wow.org/viewtopic.php?t=2253)) is a stone watcher who serves as the gate keeper to the titan research facility of [Uldum](Uldum), in southern [Tanaris](Tanaris).
+**Ostarius**, also known as **Ostarius of Uldum**, (ref: [Patch 1.16.0 - New Dungeons, Group & Raid Content](https://forum.turtle-wow.org/viewtopic.php?t=2253)) is a stone watcher who serves as the gate keeper to the titan research facility of [Uldum](Uldum), in southern [Tanaris](Tanaris).
 
 ## Abilities
 ## Quotes
 ## Objective of
--  [60R] [Gate Keeper](Gate Keeper)
--  [60R] [Guardian of the Gate](Guardian of the Gate)
+- [60R] [Gate Keeper](Gate Keeper)
+- [60R] [Guardian of the Gate](Guardian of the Gate)
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

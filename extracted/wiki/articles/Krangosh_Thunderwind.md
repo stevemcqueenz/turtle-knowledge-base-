@@ -26,7 +26,7 @@ categories: ["Dwarf characters", "Flight masters", "Grim Reaches NPCs", "Turtle 
 | location | Dun Kithas, Grim Reaches |
 | status | Alive |
 
--Krangosh Thunderwind** is a [dwarf](dwarf) gryphon flight master located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
+**Krangosh Thunderwind** is a [dwarf](dwarf) gryphon flight master located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
 
 ## Flight paths
 See [Dun Kithas#Travel connections](Dun Kithas#Travel connections).

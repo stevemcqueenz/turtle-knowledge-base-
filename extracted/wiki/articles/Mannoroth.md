@@ -21,7 +21,7 @@ categories: ["Burning Legion", "Deceased characters", "Pit Lords", "Stubs"]
 | affiliation | Burning Legion |
 | status | Deceased |
 
--Mannoroth the Destructor** was a [Pit Lord](Pit Lord) whose ruthlessness and vile cunning made him quickly become one of the favoured lieutenants of his dark masters, [Archimonde](Archimonde) and [Kil'jaeden](Kil'jaeden), the [Eredar](Eredar) champions of the [Burning Legion](Burning Legion). 
+**Mannoroth the Destructor** was a [Pit Lord](Pit Lord) whose ruthlessness and vile cunning made him quickly become one of the favoured lieutenants of his dark masters, [Archimonde](Archimonde) and [Kil'jaeden](Kil'jaeden), the [Eredar](Eredar) champions of the [Burning Legion](Burning Legion). 
 
 ## Background
 Mannoroth was among the demons who made the excursion into [Kalimdor](Kalimdor) many centuries ago during the [War of the Ancients](War of the Ancients). Though he battled with brutal ferocity and millions fell at his four feet, he was defeated by [Cenarius](Cenarius) and his followers and sent back into the [Twisting Nether](Twisting Nether) as the [Well of Eternity](Well of Eternity) was destroyed.

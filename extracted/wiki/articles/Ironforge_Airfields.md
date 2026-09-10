@@ -14,8 +14,8 @@ The **Ironforge Airfields** is an airfield located in a high mountain valley nor
 
 ## Travel connections
 ### Flight
-  - [Ironforge](Ironforge), [Dun Morogh](Dun Morogh)**
-  - [Dun Agrath](Dun Agrath), [Wetlands](Wetlands)**
+** [Ironforge](Ironforge), [Dun Morogh](Dun Morogh)**
+** [Dun Agrath](Dun Agrath), [Wetlands](Wetlands)**
 
 ## Patch changes
 - (Patch 1.18.1|note=Road connecting to Ironforge added.)

@@ -14,8 +14,8 @@ A insectoid menace awaits in [Silithus](Silithus) in the ancient, brooding city 
 
 ## Related information
 Other pages relating to this:
--[Ahn'Qiraj](Ahn'Qiraj) the area
-  -[Ruins of Ahn'Qiraj](Ruins of Ahn'Qiraj) the instance
-  -[Temple of Ahn'Qiraj](Temple of Ahn'Qiraj) the instance
--[Silithus](Silithus) the zone
--[Scarab Wall](Scarab Wall) the location
+- [Ahn'Qiraj](Ahn'Qiraj) the area
+  - [Ruins of Ahn'Qiraj](Ruins of Ahn'Qiraj) the instance
+  - [Temple of Ahn'Qiraj](Temple of Ahn'Qiraj) the instance
+- [Silithus](Silithus) the zone
+- [Scarab Wall](Scarab Wall) the location

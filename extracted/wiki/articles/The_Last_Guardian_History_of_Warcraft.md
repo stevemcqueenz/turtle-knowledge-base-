@@ -12,9 +12,9 @@ categories: ["History of Warcraft", "Lore"]
 
 <B style="font-weight:normal;background-color:#2b2b2b;">[  [Source Text](WoWWiki:Article_type)  ]</B>
 
--The Last Guardian * is a section of the [History of Warcraft](History of Warcraft), Chapter II.  It is set 45 years before Warcraft I.
+*The Last Guardian * is a section of the [History of Warcraft](History of Warcraft), Chapter II.  It is set 45 years before Warcraft I.
 
--[The Last Guardian](The Last Guardian) is also the name of a novel by [Jeff Grubb](Jeff Grubb).*
+*[The Last Guardian](The Last Guardian) is also the name of a novel by [Jeff Grubb](Jeff Grubb).*
 
 Found at:
 - --

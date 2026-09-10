@@ -22,7 +22,7 @@ categories: ["Ashenvale", "Kalimdor"]
 | affiliation | Darnassus, Alliance, Horde, Furbolg tribes |
 | loc | Southwestern Northern Kalimdor |
 
--Ashenvale**, also known as **Ashenvale Forest**, (ref: *Warcraft III* maps) is a wilderness region south of [Darkshore](Darkshore) and [Felwood](Felwood), west of [Azshara](Azshara), and north of the [Stonetalon Mountains](Stonetalon Mountains) and the [Barrens](Barrens). It is the ancestral homeland of the [night elves](Night elf), who remain in control of several holdings through the zone, including [Astranaar](Astranaar), [Maestra's Post](Maestra's Post), [Silverwind Refuge](Silverwind Refuge), [Silverwing Grove](Silverwing Grove), and the [Shrine of Aessina](Shrine of Aessina). The [Horde](Horde) has more recently established a settlement in the eastern part of the woods — [Splintertree Post](Splintertree Post) — as well as a smaller camp on the western beach — [Zoram'gar Outpost](Zoram'gar Outpost) - along with several Warsong camps situated from [Kargathia Keep](Kargathia Keep) all through the southeast to the [Mor'shan Rampart](Mor'shan Rampart) in the far south. The zone is heavily populated with [furbolg](furbolg)s, [satyr](satyr), and wild creatures such as [spider](spider)s, [wolves](Wolf), and [bear](bear)s. The region is quite large, and running from the [Zoram Strand](Zoram Strand) to the [Warsong Lumber Camp](Warsong Lumber Camp) is quite an undertaking.
+**Ashenvale**, also known as **Ashenvale Forest**, (ref: *Warcraft III* maps) is a wilderness region south of [Darkshore](Darkshore) and [Felwood](Felwood), west of [Azshara](Azshara), and north of the [Stonetalon Mountains](Stonetalon Mountains) and the [Barrens](Barrens). It is the ancestral homeland of the [night elves](Night elf), who remain in control of several holdings through the zone, including [Astranaar](Astranaar), [Maestra's Post](Maestra's Post), [Silverwind Refuge](Silverwind Refuge), [Silverwing Grove](Silverwing Grove), and the [Shrine of Aessina](Shrine of Aessina). The [Horde](Horde) has more recently established a settlement in the eastern part of the woods — [Splintertree Post](Splintertree Post) — as well as a smaller camp on the western beach — [Zoram'gar Outpost](Zoram'gar Outpost) - along with several Warsong camps situated from [Kargathia Keep](Kargathia Keep) all through the southeast to the [Mor'shan Rampart](Mor'shan Rampart) in the far south. The zone is heavily populated with [furbolg](furbolg)s, [satyr](satyr), and wild creatures such as [spider](spider)s, [wolves](Wolf), and [bear](bear)s. The region is quite large, and running from the [Zoram Strand](Zoram Strand) to the [Warsong Lumber Camp](Warsong Lumber Camp) is quite an undertaking.
 
 Since the zone is [contested](contested) there is often a lot of skirmishing going on throughout the woods, and attacks on the faction-based settlements are not uncommon. The zone is also a major travel hub for both [Horde](Horde) and [Alliance](Alliance), even at higher levels.
 
@@ -41,12 +41,12 @@ WorldMap-Ashenvale-old.jpg|Map of Ashenvale prior to patch 1.16.0.
 |[Astranaar](Astranaar) • [Bathran's Haunt](Bathran's Haunt) • [Bloodtooth Camp](Bloodtooth Camp) • [Bough Shadow](Bough Shadow) • [Demon Fall Canyon](Demon Fall Canyon) ([Demon Fall Ridge](Demon Fall Ridge)) • [The Dor'Danil Barrow Den](Dor'Danil Barrow Den) • [Falfarren River](Falfarren River) • [Fallen Sky Lake](Fallen Sky Lake) • [Felfire Hill](Felfire Hill) • [Fire Scar Shrine](Fire Scar Shrine) • [Forest Song](Forest Song) • [Greenpaw Village](Greenpaw Village) • [The Howling Vale](Howling Vale) • [Iris Lake](Iris Lake) • [Lake Falathim](Lake Falathim) • [Maestra's Post](Maestra's Post) • [Moonwell](Moonwell (Ashenvale)) • [Mystral Lake](Mystral Lake) • [Night Run](Night Run) • [Nightsong Woods](Nightsong Woods) • [Raynewood Retreat](Raynewood Retreat) • [The Ruins of Ordil'Aran](Ruins of Ordil'Aran) • [The Ruins of Stardust](Ruins of Stardust) • [Satyrnaar](Satyrnaar) • [The Shady Nook](Shady Nook)  • [The Shrine of Aessina](Shrine of Aessina) • [Silverwind Refuge](Silverwind Refuge) • [Silverwing Grove](Silverwing Grove) • [Silverwing Outpost](Silverwing Outpost) • [Southfury River](Southfury River) • [Splintertree Post](Splintertree Post) • [The Talondeep Path](Talondeep Path) • [Thistlefur Village](Thistlefur Village) • [Warsong Labor Camp](Warsong Labor Camp) • [Warsong Lumber Camp](Warsong Lumber Camp) ([Kargathia Keep](Kargathia Keep)) • [Xavian](Xavian) • [The Zoram Strand](Zoram Strand) ([Blackfathom Deeps](Blackfathom Deeps) • [Zoram'gar Outpost](Zoram'gar Outpost))
 |-
 |
-  -Undisplayed locations**
+**Undisplayed locations**
 
 [Thistlefur Hold](Thistlefur Hold) — [Instance](Instance)d: [Warsong Gulch](Warsong Gulch)
 |-
 |
-  -[Warcraft III](Warcraft III)**
+**[Warcraft III](Warcraft III)**
 
 [Ashenvale goblin town](Ashenvale goblin town) • [Chaos Well](Chaos Well) • [Dragon Falls](Dragon Falls)
 |}
@@ -68,10 +68,10 @@ WorldMap-Ashenvale-old.jpg|Map of Ashenvale prior to patch 1.16.0.
 |}
 
 ### Elite areas
--[Bough Shadow](Bough Shadow): The location of one of the four [Great Tree](Great Tree)s (gates into the [Emerald Dream](Emerald Dream)), the Bough of Shadow is populated by elite green dragonkin. One of the four [Dragons of Nightmare](Dragons of Nightmare) - [Emeriss](Emeriss), [Lethon](Lethon), [Taerar](Taerar), or [Ysondre](Ysondre), will randomly spawn here on occasion. They are tough and require a raid group to take down. The three other Great Trees are in [the Hinterlands](Hinterlands), [Feralas](Feralas) and [Duskwood](Duskwood).
+- [Bough Shadow](Bough Shadow): The location of one of the four [Great Tree](Great Tree)s (gates into the [Emerald Dream](Emerald Dream)), the Bough of Shadow is populated by elite green dragonkin. One of the four [Dragons of Nightmare](Dragons of Nightmare) - [Emeriss](Emeriss), [Lethon](Lethon), [Taerar](Taerar), or [Ysondre](Ysondre), will randomly spawn here on occasion. They are tough and require a raid group to take down. The three other Great Trees are in [the Hinterlands](Hinterlands), [Feralas](Feralas) and [Duskwood](Duskwood).
 
 ### Battlegrounds
--[Warsong Gulch](Warsong Gulch) (Alliance entrance): The entrance to [Warsong Gulch](Warsong Gulch) can be found in the southern part of the forest, in an area known as [Silverwing Grove](Silverwing Grove). The [Horde](Horde) entrance is located in [the Barrens](the Barrens).
+- [Warsong Gulch](Warsong Gulch) (Alliance entrance): The entrance to [Warsong Gulch](Warsong Gulch) can be found in the southern part of the forest, in an area known as [Silverwing Grove](Silverwing Grove). The [Horde](Horde) entrance is located in [the Barrens](the Barrens).
 
 ### Travel hubs
 Both Horde and Alliance have two travel hubs in Ashenvale.
@@ -186,8 +186,8 @@ Both Horde and Alliance have two travel hubs in Ashenvale.
 - Ashenvale holds two of the game's higher level-gaps at the border with [Felwood](Felwood) and [Azshara](Azshara), where the level skips from 25 to 45, a 20 level jump! Beware!
 
 ## Patch changes
--  **[Patch 1.1.0](Patch 1.1.0) (2004-11-07):** Horde quests added to Ashenvale, ranging from levels 19-30.
--  **[Patch 0.10](Patch 0.10) (2004-10-11):** Ashenvale has gotten a facelift to include more points of interest, and significant changes were made to make it easier to navigate. [Blackfathom Deeps](Blackfathom Deeps) has been moved to the [Zoram Strand](Zoram Strand), from the [Ruins of Mathystra](Ruins of Mathystra) in [Darkshore](Darkshore).
--  **[Patch 0.9](Patch 0.9) (2004-09-29):** Ashenvale has had a face lift, and will have new content soon.
+- **[Patch 1.1.0](Patch 1.1.0) (2004-11-07):** Horde quests added to Ashenvale, ranging from levels 19-30.
+- **[Patch 0.10](Patch 0.10) (2004-10-11):** Ashenvale has gotten a facelift to include more points of interest, and significant changes were made to make it easier to navigate. [Blackfathom Deeps](Blackfathom Deeps) has been moved to the [Zoram Strand](Zoram Strand), from the [Ruins of Mathystra](Ruins of Mathystra) in [Darkshore](Darkshore).
+- **[Patch 0.9](Patch 0.9) (2004-09-29):** Ashenvale has had a face lift, and will have new content soon.
 
 ## References

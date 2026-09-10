@@ -24,14 +24,14 @@ categories: ["Aristocrats", "Balor NPCs", "Human characters", "Human ghosts", "Q
 | relatives | Alfin (sister) |
 | status | Active |
 
--Lord Olivert Grahan** is a [human](human) ghost [quest giver](quest giver) located at the [Grahan Estate](Grahan Estate) in [Balor](Balor).
+**Lord Olivert Grahan** is a [human](human) ghost [quest giver](quest giver) located at the [Grahan Estate](Grahan Estate) in [Balor](Balor).
 
 ## Quests
 - [quest: Put Them To Rest] 
 - [quest: Skull And Bones] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Ruin. Devastation. Death. Nothing more to find on this once luscious island. I remember the verdant trees and hills, the sweet and salty breeze coursing over the mountains and the warm rays of the sun on my skin. None of it remains. Regret and misery is all you can see.
 
 ## Patch changes

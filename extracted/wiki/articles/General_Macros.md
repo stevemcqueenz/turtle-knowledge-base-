@@ -98,7 +98,7 @@ AQ40 mount combined with normal mount.
 Dismount
  <code>/run local i=0 g=GetPlayerBuff while not(g(i) == -1)do if(strfind(GetPlayerBuffTexture(g(i)), "Ability_Mount"))then CancelPlayerBuff(g(i))end i=i+1 end</code>
 
-  -Summon random mount**
+**Summon random mount**
 
 If you've got your 4 mounts in the first 4 slots of your first bag it would look like this
  <code>/script UseContainerItem(0,math.random(1,4));</code>
@@ -175,7 +175,7 @@ Uses BUFF_1 if the main buff is active, or else uses SPELL_2
 You need to replace "BUFF_TEXTURE" with the TEXTURE of a particular buff and NOT it's name. For example A Rogue's Stealth skill and a Druid's Prowl skill both use the little icon texture called "Ability_Ambush". Use this site to lookup your buff's texture: [Queriable_buff_effects](https://turtle-wow.fandom.com/wiki/Queriable_buff_effects)
 
 ## Timer
-  -Simple script to track the time elapsed from a set point in time.**
+**Simple script to track the time elapsed from a set point in time.**
 
 # Clicking the script while holding the Alt key down will begin the timer and state so. E.g. "Timer Set: [Instance Start]".
 # Clicking the script without any additional keys thereafter will yield the time elapsed. E.g. "Time Elapsed - [Instance Start]: 00h:01m19s".
@@ -185,7 +185,7 @@ If you click the script without holding the Alt key first, you will receive an i
 your timer will be erased. Change "Say" to whatever channel you want "Party", "Raid", "Guild", etc.
  <code>/run if IsAltKeyDown() then L1="Instance Start"; T1=GetTime(); M=format("Timer Set [%s]",L1); else N=GetTime(); D=N-T1; M=format("Time Elapsed – [%s]: %02dh:%02dm:%02ds",L1, D/3600,mod((D/60),60), mod(D,60)); end; SendChatMessage(M,"SAY");</code>
 
-  -About script variables**
+**About script variables**
 L1 (Label) – Holds the label for the timer. If you have script space, you can copy this script and change L1 to L2, L3 etc. creating multiple timers each with different labels (Core Hound 1, Core Hound 2 etc.)
 T1 (Time) – Holds the base time from which time elapsed is computed. For multiple scripts, change T1 to T2, T3 etc.
 

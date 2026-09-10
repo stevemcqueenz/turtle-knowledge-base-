@@ -10,4 +10,4 @@ categories: ["Defias Brotherhood", "Destroyed settlements", "Farms", "Human terr
 ---
 # Demont's Place
 
--Demont's Place** lies just west of [Moonbrook](Moonbrook) in [Westfall](Westfall). Like the [Dead Acre](Dead Acre), little remains of the original [farm](farm)stead. While no mechanical [harvester](harvester)s patrol the area, it is crawling with agents of the [Defias Brotherhood](Defias Brotherhood).
+**Demont's Place** lies just west of [Moonbrook](Moonbrook) in [Westfall](Westfall). Like the [Dead Acre](Dead Acre), little remains of the original [farm](farm)stead. While no mechanical [harvester](harvester)s patrol the area, it is crawling with agents of the [Defias Brotherhood](Defias Brotherhood).

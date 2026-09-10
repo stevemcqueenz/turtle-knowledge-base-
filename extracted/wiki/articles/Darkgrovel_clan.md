@@ -13,9 +13,4 @@ categories: ["Dwarf clans"]
 The **Darkgrovel clan** is a dwarven clan that has devoted itself to dark magics of the [warlock](warlock)s, seeking to attain any means necessary to exterminate those who do harm to Ironforge. (ref: [quest: Tainted Rune|race=dwarf|class=warlock])
 
 ## Known members
-- 
-- 
-- 
-- 
-
-## References
+- - - - ## References

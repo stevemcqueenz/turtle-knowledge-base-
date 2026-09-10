@@ -10,4 +10,4 @@ categories: ["Badlands subzones", "Dwarf territories", "Explorers' League", "Tro
 ---
 # Agmond's End
 
--Agmond's End** is an abandoned digsite in southern central [Badlands](Badlands), where the dwarven prospector Agmond met an unfortunate end thanks to the [troggs](troggs) which have infested the site. Another explorer, [Theldurin the Lost](Theldurin the Lost), camps nearby and gives out the [Uldaman](Uldaman) quests [quest: Solution to Doom] and [quest: The Lost Fragments].
+**Agmond's End** is an abandoned digsite in southern central [Badlands](Badlands), where the dwarven prospector Agmond met an unfortunate end thanks to the [troggs](troggs) which have infested the site. Another explorer, [Theldurin the Lost](Theldurin the Lost), camps nearby and gives out the [Uldaman](Uldaman) quests [quest: Solution to Doom] and [quest: The Lost Fragments].

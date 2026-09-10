@@ -14,27 +14,27 @@ Selects the last target as the current target. New as of patch 1.6.
  TargetLastTarget();
 ----
 
-  - *Arguments***
+** *Arguments***
 
    *none*
 
 ----
 
-  - *Returns***
+** *Returns***
 
   ; nil
 
 ----
 
-  - *Example***
+** *Example***
 
  TargetLastTarget();
 
-  - *Result***
+** *Result***
 
 ----
 
-  - *Description***
+** *Description***
 
    Selects the last target as the current target. It will select a dead character or mob's corpse if that was the last live character or mob targetted. Can distinguish between two mobs of the same name and level.
 

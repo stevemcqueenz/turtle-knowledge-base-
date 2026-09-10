@@ -10,10 +10,10 @@ categories: ["Addon"]
 ---
 # SimpleActionSets
 
--SimpleActionSets** allows you to save all 120 action buttons into customizable sets, which can be swapped on the fly for quick access to different action configurations.
+**SimpleActionSets** allows you to save all 120 action buttons into customizable sets, which can be swapped on the fly for quick access to different action configurations.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **SimpleActionSets** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **SimpleActionSets** up to date is by using [GitAddonsMa
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 # Visit the GitHub link you find, then click the green **<> Code** button, and select Download ZIP.
@@ -63,7 +63,7 @@ If you prefer manual installation, follow these steps:
 ## **Help**
 Simple Action Sets Help
 
-  -Action Set Slots**
+**Action Set Slots**
 
 - Click or drag to pick up an action.
 - Click or drop on another action to move the action.
@@ -71,23 +71,23 @@ Simple Action Sets Help
 - Drag or right-click off the Simple Action Sets frame to delete it.
 - Hold down Control and click to delete an action.
 
-  -Action Set Bars**
+**Action Set Bars**
 
 - Click or drag the bar ID button to pick up the action bar.
 - Click or drop on a bar ID button to swap action bars.
 - Hold down Shift and click to copy an action bar.
 - Hold down Control and click to delete an action bar.
 
-  -Action Set Bar Check Buttons**
+**Action Set Bar Check Buttons**
 
 - Disabling an action bar with the check button will prevent this entire bar from being applied when applying action sets.
 
-  -How to Swap Action Sets**
+**How to Swap Action Sets**
 
 - Action sets can be swapped either from the Simple Action Sets' **Action Sets** menu, or by **right-clicking on the SAS minimap button** and selecting the set there.
 - You can also put action sets into a macro by calling the set with: <code>/sas swap setname</code>
 
-  -Additional Information**
+**Additional Information**
 
 - Any bar that is unchecked or empty will not be swapped.
 - If a bar has actions but some are empty, those actions will be cleared. You can change this behavior in the options tab.

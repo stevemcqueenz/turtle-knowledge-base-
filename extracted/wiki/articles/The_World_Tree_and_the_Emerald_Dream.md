@@ -12,7 +12,7 @@ categories: ["History of Warcraft", "In-Game Books", "Lore"]
 
 <B style="font-weight:normal;background-color:#2b2b2b;">[  [Source Text](WoWWiki:Article_type)  ]</B>
 
--The World Tree and the Emerald Dream* is a section of the [History of Warcraft](History of Warcraft), Chapter I. It is also available as an [in-game book](:Category:In-Game Books) in [The Scarlet Monastery](The Scarlet Monastery). 
+*The World Tree and the Emerald Dream* is a section of the [History of Warcraft](History of Warcraft), Chapter I. It is also available as an [in-game book](:Category:In-Game Books) in [The Scarlet Monastery](The Scarlet Monastery). 
 
 ## Text
 For many years, the [night elves](night elf) worked tirelessly to rebuild what they could of their ancient homeland. Leaving their broken temples and roads to be overgrown, they constructed their new homes amidst the verdant trees and shadowed hills at [Hyjal](Hyjal)'s base. In time, the dragons that had survived the [Great Sundering](Great Sundering) came forth from their secret abodes. 

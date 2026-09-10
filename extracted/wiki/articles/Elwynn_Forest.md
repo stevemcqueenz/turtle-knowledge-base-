@@ -24,7 +24,7 @@ categories: ["Eastern Kingdoms", "Elwynn Forest", "Forests", "Human territories"
 | minor | Westbrook Garrison, Tower of Azora, Maclure Vineyards, Stonefield Farm, Ridgepoint Tower, Mirror Lake Orchard, Northshire Vineyards, Brackwell Pumpkin Patch, Jerod's Landing |
 | affiliation | Kingdom of Stormwind, Brotherhood of Northshire, Alliance, Riverpaw pack, Defias Brotherhood |
 
--Elwynn Forest**, the **Forest of Elwynn** (ref: *[The Last Guardian](The Last Guardian)*, chapter 1) or simply **Elwynn**, is a vast woodland of stately hardwoods nestled just below the foothills of the [Burning Steppes](Burning Steppes) to the north. The idyllic [Redridge Mountains](Redridge Mountains) lie to the east, and to the south, across the [Nazferiti river](Nazferiti river) is where [Duskwood](Duskwood) is located. It is the heartland of the [human](human) Kingdom of [Stormwind](Stormwind (kingdom)) and consequently is the starting point of all human characters.
+**Elwynn Forest**, the **Forest of Elwynn** (ref: *[The Last Guardian](The Last Guardian)*, chapter 1) or simply **Elwynn**, is a vast woodland of stately hardwoods nestled just below the foothills of the [Burning Steppes](Burning Steppes) to the north. The idyllic [Redridge Mountains](Redridge Mountains) lie to the east, and to the south, across the [Nazferiti river](Nazferiti river) is where [Duskwood](Duskwood) is located. It is the heartland of the [human](human) Kingdom of [Stormwind](Stormwind (kingdom)) and consequently is the starting point of all human characters.
 
 [Marshal Dughan](Marshal Dughan) serves as the municipal law enforcer for [Goldshire](Goldshire) and [Marshal McBride](Marshal McBride) serves as the municipal law enforcer for [Northshire Valley](Northshire Valley). Though much of the forest was burned down during the [First War](First War), trees and lush glades have grown anew. (ref: [The World of Warcraft Townhall/World Map#Elwynn Forest](https://wowpedia.fandonm.com/wiki/The_World_of_Warcraft_Townhall/World_Map#Elwynn_Forest)) [Stormwind City](Stormwind City) lies northwest of the forest and is heavily patrolled by the Stormwind guards.
 
@@ -39,7 +39,7 @@ Kobolds infested the [Jasperlode Mine](Jasperlode Mine) and [Fargodeep Mine](Far
 || [Brackwell Pumpkin Patch](Brackwell Pumpkin Patch) • [Crystal Lake](Crystal Lake) • [Eastvale Logging Camp](Eastvale Logging Camp) • [Fargodeep Mine](Fargodeep Mine) • [Forest's Edge](Forest's Edge) ([Westbrook Garrison](Westbrook Garrison)) • [Goldshire](Goldshire) ([Lion's Pride Inn](Lion's Pride Inn)) • [Jasperlode Mine](Jasperlode Mine) • [Jerod's Landing](Jerod's Landing) • [The Maclure Vineyards](Maclure Vineyards) • [Mirror Lake](Mirror Lake) ([Mirror Lake Orchard](Mirror Lake Orchard)) • [Northshire Valley](Northshire Valley) ([Echo Ridge Mine](Echo Ridge Mine) • [Northshire Abbey](Northshire Abbey) ([Hall of Arms](Hall of Arms (Northshire)) • [Library Wing](Library Wing (Northshire)) • [Main Hall](Main Hall (Northshire))) • [Northshire Vineyards](Northshire Vineyards)) • [Ridgepoint Tower](Ridgepoint Tower) • [Stone Cairn Lake](Stone Cairn Lake) ([Heroes' Vigil](Heroes' Vigil)) • [The Stonefield Farm](Stonefield Farm) •  [Stormwind City](Stormwind City) • [Thunder Falls](Thunder Falls) • [Tower of Azora](Tower of Azora)
 |-
 ||
-  -Undisplayed locations**
+**Undisplayed locations**
 
 [Nazferiti river](Nazferiti river) • [Northshire River](Northshire River)
 |}
@@ -60,7 +60,7 @@ Kobolds infested the [Jasperlode Mine](Jasperlode Mine) and [Fargodeep Mine](Far
 | 1.5-2.5 hours
 |}
 
--Please note that both the [Stockade](Stockade) and the [Vault](Stormwind Vault) are in [Stormwind City](Stormwind City). The Vault has a secondary entrance for Horde characters located at the base of the [Mirror Lake](Mirror Lake) falls.
+- Please note that both the [Stockade](Stockade) and the [Vault](Stormwind Vault) are in [Stormwind City](Stormwind City). The Vault has a secondary entrance for Horde characters located at the base of the [Mirror Lake](Mirror Lake) falls.
 
 ### Travel hubs
 ##### [Flight path](Flight path)s from [Stormwind City](Stormwind City)
@@ -111,16 +111,16 @@ Kobolds infested the [Jasperlode Mine](Jasperlode Mine) and [Fargodeep Mine](Far
   - [Simple Wood Tree](Simple Wood Tree)
 
 ## Wild creatures
--[Bear](Bear)s
--[Boar](Boar)s
--[Gnoll](Gnoll)s
--[Kobold](Kobold)s
--[Murloc](Murloc)s
--[Spider](Spider)s
--[Wolves](Wolf)
+- [Bear](Bear)s
+- [Boar](Boar)s
+- [Gnoll](Gnoll)s
+- [Kobold](Kobold)s
+- [Murloc](Murloc)s
+- [Spider](Spider)s
+- [Wolves](Wolf)
 
 ## Patch changes
--  **[Patch 1.6.0](Patch 1.6.0) (2005-07-12):**
+- **[Patch 1.6.0](Patch 1.6.0) (2005-07-12):**
   - Elwynn Forest has been converted over to the new graveyard system. The system will place your character's spirit at the closest allowed graveyard in the zone.
   - A neutral graveyard has been added at the Eastvale Logging Camp in Elwynn Forest. The graveyard at Goldshire  is now for use by the Alliance exclusively. Horde characters dying in Elwynn Forest and its sub-areas, as well as in Stormwind, The Stockade and the Deeprun Tram, will have their spirits travel to the new graveyard at the Eastvale Logging Camp.
 

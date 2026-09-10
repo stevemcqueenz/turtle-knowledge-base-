@@ -10,7 +10,7 @@ categories: ["Pages with broken file links", "Scourge", "Western Plaguelands sub
 ---
 # Sorrow Hill
 
--Sorrow Hill** is a large cemetery south of [Andorhal](Andorhal) in what is now the [Western Plaguelands](Western Plaguelands).
+**Sorrow Hill** is a large cemetery south of [Andorhal](Andorhal) in what is now the [Western Plaguelands](Western Plaguelands).
 
 ## History
 In more peaceful times the cemetery was used to bury the deceased from Andorhal and the surrounding area.  The cemetery was used for both the rich and poor, having many crypts as well as simple plots. When the Plague of Undeath struck and the Scourge began their relentless raids and attacks, the number of cemetery residences skyrocketed. Quickly dug and poorly marked graves can still be seen at Sorrow Hill from the massive casualties suffered in the defense of Andorhal. Eventually the surviving townspeople stopped burying their dead, and instead dug a mass grave south of the cemetery to incinerate their loved ones, for fear of undeath taking them. The final blow for the surviving townsfolk was when Lord Uther was struck down by Arthas; the final act of the dwindling population before abandoning the town was to erect a great tomb where they buried the torn body of the great hero on the top of the cemetery hill. "Sorrow Hill" may refer to Uther's final resting place.  

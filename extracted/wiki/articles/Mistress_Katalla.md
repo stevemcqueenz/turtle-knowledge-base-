@@ -27,14 +27,14 @@ categories: ["Blackrock clan", "Burning Steppes NPCs", "Orc characters", "Quest 
 | location | Karfang Hold, Burning Steppes |
 | status | Alive |
 
--Mistress Katalla** is an [orc](orc) [quest giver](quest giver) located in [Karfang Hold](Karfang Hold) in the [Burning Steppes](Burning Steppes).
+**Mistress Katalla** is an [orc](orc) [quest giver](quest giver) located in [Karfang Hold](Karfang Hold) in the [Burning Steppes](Burning Steppes).
 
 ## Quests
 - [quest: Peculiar Won't Even Cut It] 
 - [quest: Hunting Engineer Figgles] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I am the one that trains the worgs for hunting, killing and roaming.
 
 I am responsible for our best specimens, and our most useful allies. Now, what is it you want, outsider?

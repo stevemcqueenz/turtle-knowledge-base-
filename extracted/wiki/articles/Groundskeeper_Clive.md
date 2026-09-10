@@ -24,14 +24,14 @@ categories: ["Custodians", "Human characters", "Northwind NPCs", "Quest givers",
 | location | Ambershire Church, Northwind |
 | status | Alive |
 
--Groundskeeper Clive** is a [human](human) quest giver located at the [Ambershire Church](Ambershire Church) in [Northwind](Northwind).
+**Groundskeeper Clive** is a [human](human) quest giver located at the [Ambershire Church](Ambershire Church) in [Northwind](Northwind).
 
 ## Quests
 - [quest: Remember the Dead] 
 - [quest: To Light the Afterlife] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Please stay quiet while you visit the church and respect the departed's eternal rest.
 
 ## Patch changes

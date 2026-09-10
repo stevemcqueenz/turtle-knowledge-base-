@@ -10,7 +10,7 @@ categories: ["Quest items", "Readable items", "Turtle WoW content"]
 ---
 # Karfang Missive
 
--Karfang Missive** is provided for [quest: Of New and Old].
+**Karfang Missive** is provided for [quest: Of New and Old].
 
 ## As a quest objective
 - [quest: Of New and Old]

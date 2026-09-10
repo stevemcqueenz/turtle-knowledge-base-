@@ -10,7 +10,7 @@ categories: ["Quest items", "Readable items", "Turtle WoW content"]
 ---
 # Maltorius' Missive
 
--Maltorius' Missive** drops from [Overseer Bragordi](Overseer Bragordi).
+**Maltorius' Missive** drops from [Overseer Bragordi](Overseer Bragordi).
 
 ## As a quest objective
 - [quest: The Slavemakers]

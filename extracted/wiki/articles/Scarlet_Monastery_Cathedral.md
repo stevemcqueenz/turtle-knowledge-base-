@@ -49,26 +49,11 @@ The Cathedral, the center-left entrance, consists of two sections: the [Chapel G
 - **Chapel Gardens**
 
 |
--  
--  
-- 
--  
-- 
-|- valign=top class="alt"
+- - - - - |- valign=top class="alt"
 |
 - **Crusader's Chapel**
-  - 
-  - 
-  - 
-
-|
-- 
--  
--  
--  
--  
-- 
-|- valign=top
+  -   -   - |
+- - - - - - |- valign=top
 |}
 
 ## Quest guide
@@ -107,6 +92,6 @@ The Cathedral, the center-left entrance, consists of two sections: the [Chapel G
 |}
 
 ## Patch changes
--  **Patch 1.3.0 (2005-03-07):**
+- **Patch 1.3.0 (2005-03-07):**
   - Capped at ten players.
   - Doors requiring the Scarlet Key can now also be opened with a Large Seaforium Charge in addition to the lockpick ability.

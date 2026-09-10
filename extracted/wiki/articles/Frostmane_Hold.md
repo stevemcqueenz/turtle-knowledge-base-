@@ -24,10 +24,8 @@ categories: ["Caves", "Dun Morogh subzones", "Ice troll territories"]
 
 *For the quest with the same name, see [quest: Frostmane Hold].*
 
-  -Frostmane Hold** is the base camp of the [Frostmane](Frostmane clan) [ice troll](ice troll)s located in the western edge of the cold mountains of [Dun Morogh](Dun Morogh) south of [Gnomeregan](Gnomeregan). The hold is comprised of a few buildings and a cave system. Young [dwarves](Dwarf) and [gnome](gnome)s are tasked with exploring the caves and reporting back to [Kharanos](Kharanos), in order to determine just how big a threat the trolls were. The area is heavily guarded by troll headhunters and hideskinners.
+**Frostmane Hold** is the base camp of the [Frostmane](Frostmane clan) [ice troll](ice troll)s located in the western edge of the cold mountains of [Dun Morogh](Dun Morogh) south of [Gnomeregan](Gnomeregan). The hold is comprised of a few buildings and a cave system. Young [dwarves](Dwarf) and [gnome](gnome)s are tasked with exploring the caves and reporting back to [Kharanos](Kharanos), in order to determine just how big a threat the trolls were. The area is heavily guarded by troll headhunters and hideskinners.
 
 ## Mobs
--  (rare)
-- 
-- 
--
+- (rare)
+- - -

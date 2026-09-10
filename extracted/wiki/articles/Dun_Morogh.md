@@ -24,7 +24,7 @@ categories: ["Dun Morogh", "Dwarf territories", "Eastern Kingdoms", "Gnome terri
 | minor | Brewnall Village, Frostmane Hold |
 | affiliation | Kingdom of Ironforge, Gnomeregan Exiles, Alliance, Frostmane clan, Rockjaw tribe |
 
--Dun Morogh** is a snowy region located between the magma-strewn wasteland of the [Searing Gorge](Searing Gorge) to the south, the gentle ridges of [Loch Modan](Loch Modan) to the east, and the swampy [Wetlands](Wetlands) to the north. Dun Morogh is home to both the [gnome](gnome)s of [Gnomeregan](Gnomeregan) and the Ironforge [dwarves](Dwarf) and is the location of the major city of [Ironforge](Ironforge). The Khaz Modan mountains surround Dun Morogh on all sides, making it accessible only by certain passes that are currently watched over by dwarven troops.
+**Dun Morogh** is a snowy region located between the magma-strewn wasteland of the [Searing Gorge](Searing Gorge) to the south, the gentle ridges of [Loch Modan](Loch Modan) to the east, and the swampy [Wetlands](Wetlands) to the north. Dun Morogh is home to both the [gnome](gnome)s of [Gnomeregan](Gnomeregan) and the Ironforge [dwarves](Dwarf) and is the location of the major city of [Ironforge](Ironforge). The Khaz Modan mountains surround Dun Morogh on all sides, making it accessible only by certain passes that are currently watched over by dwarven troops.
 
 ## Geography
 Dun Morogh contains no raid dungeons, micro dungeons, or battlegrounds. [Frostmane Hollow](Frostmane Hollow), an instanced dungeon for adventurers levels 13 to 20, can be found south of Ironforge Airfields, and [Gnomeregan](Gnomeregan), an instanced dungeon for adventurers levels 28 to 35, can be found in the western part of the zone, beyond Brewnall Village. Dun Morogh is the starting area for the [dwarves](dwarf) and [gnome](gnome)s, and so it contains a very sheltered 1-5 leveling area - [Coldridge Valley](Coldridge Valley). The dwarven city, [Ironforge](Ironforge), can also be found in this zone, and is one of the major [Alliance](Alliance) trade and travel hubs.
@@ -40,7 +40,7 @@ WorldMap-DunMorogh-old.jpg|Dun Morogh prior to [patch 1.17.0](patch 1.17.0).
 || [Amberstill Ranch](Amberstill Ranch) • [Brewnall Village](Brewnall Village) • [Chill Breeze Valley](Chill Breeze Valley) • [Coldridge Valley](Coldridge Valley) ([Anvilmar](Anvilmar) • [Coldridge Pass](Coldridge Pass)) • [Frostmane Hold](Frostmane Hold) • [Frostmane Hollow](Frostmane Hollow) • [Gates of Ironforge](Gates of Ironforge) ( [Ironforge](Ironforge)) • [Gnomeregan](Gnomeregan) ([Gnomeregan Reclamation Facility](Gnomeregan Reclamation Facility)) • [Gol'Bolar Quarry](Gol'Bolar Quarry) ([Gol'Bolar Quarry Mine](Gol'Bolar Quarry Mine)) •  [The Grizzled Den](Grizzled Den) • [Helm's Bed Lake](Helm's Bed Lake) • [Iceflow Lake](Iceflow Lake) • [Ironband's Compound](Ironband's Compound) • [Ironforge Airfields](Ironforge Airfields) • [Kharanos](Kharanos) ([Thunderbrew Distillery](Thunderbrew Distillery)) • [Misty Pine Refuge](Misty Pine Refuge) • [North Gate Pass](North Gate Pass) ([North Gate Outpost](North Gate Outpost)) • [Rugford's Mountain Rest](Rugford's Mountain Rest) • [Shimmer Ridge](Shimmer Ridge) • [South Gate Pass](South Gate Pass) ([South Gate Outpost](South Gate Outpost)) • [Steelgrill's Depot](Steelgrill's Depot) • [The Tundrid Hills](Tundrid Hills)
 |-
 ||
-  -Undisplayed locations**
+**Undisplayed locations**
 
 [Frostmane cave](Frostmane cave) • Instanced: [Winter Veil Vale](Winter Veil Vale)
 |}
@@ -109,16 +109,16 @@ WorldMap-DunMorogh-old.jpg|Dun Morogh prior to [patch 1.17.0](patch 1.17.0).
   - [Simple Wood Tree](Simple Wood Tree)
 
 ## Wild creatures
--[Bear](Bear)s
--[Boar](Boar)s
--[Dark Iron dwarves](Dark Iron dwarf)
--[Fox](Fox)es
--[Ice troll](Ice troll)s
--[Snow leopards](Leopard)
--[Leper gnome](Leper gnome)s
--[Trogg](Trogg)s
--[Wendigo](Wendigo)s
--[Wolves](Wolf)
+- [Bear](Bear)s
+- [Boar](Boar)s
+- [Dark Iron dwarves](Dark Iron dwarf)
+- [Fox](Fox)es
+- [Ice troll](Ice troll)s
+- [Snow leopards](Leopard)
+- [Leper gnome](Leper gnome)s
+- [Trogg](Trogg)s
+- [Wendigo](Wendigo)s
+- [Wolves](Wolf)
 
 ## Notes and trivia
 - Not on the map and featuring weather quite unlike the rest of the zone, [Newman's Landing](Newman's Landing) is a small dock and house. It is only accessible through swimming from the [Wetlands](Wetlands).
@@ -128,4 +128,4 @@ WorldMap-DunMorogh-old.jpg|Dun Morogh prior to [patch 1.17.0](patch 1.17.0).
 - (Patch 1.17.2|note=Flight path added to Gnomeregan Reclamation Facility.)
 - (Patch 1.17.0|note=[Gnomeregan Reclamation Facility](Gnomeregan Reclamation Facility) added.)
 - (Patch 1.16.0|note=Flight path added to [Ironforge Airfields](Ironforge Airfields).)
--  **[Patch 1.6.0](Patch 1.6.0) (2005-07-12):** An Alliance-only graveyard has been added just outside of Ironforge, around the side of the mountain. It is only for use by Alliance characters that die inside Ironforge and in the Gates of Ironforge sub-area of Dun Morogh. Horde characters dying therein will continue to only use the Kharanos graveyard.
+- **[Patch 1.6.0](Patch 1.6.0) (2005-07-12):** An Alliance-only graveyard has been added just outside of Ironforge, around the side of the mountain. It is only for use by Alliance characters that die inside Ironforge and in the Gates of Ironforge sub-area of Dun Morogh. Horde characters dying therein will continue to only use the Kharanos graveyard.

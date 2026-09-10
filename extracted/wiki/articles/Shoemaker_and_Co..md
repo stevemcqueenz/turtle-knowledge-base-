@@ -10,7 +10,7 @@ categories: ["Gilneas City shops", "Turtle WoW content"]
 ---
 # Shoemaker and Co.
 
--Shoemaker and Co.** is a shop located in [Gilneas City](Gilneas City).
+**Shoemaker and Co.** is a shop located in [Gilneas City](Gilneas City).
 
 ## Patch changes
 - (Patch 1.17.0|note=Added.)

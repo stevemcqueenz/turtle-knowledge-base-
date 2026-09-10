@@ -25,14 +25,14 @@ categories: ["Dwarf characters", "Miners", "Quest givers", "Stormwind City NPCs"
 | status | Alive |
 | relatives | Foreman Thistlenettle (brother) |
 
--Wilder Thistlenettle** is a [dwarf](dwarf) [quest giver](quest giver) located in a nearly empty pub in the [Dwarven District](Dwarven District) of [Stormwind City](Stormwind City). He and his brother were members of a mining company until they were caught in a cave-in within the [Deadmines](Deadmines). Though Wilder escaped, the rest of the company was killed, and they now roam the collapsed tunnel as restless [undead](undead).
+**Wilder Thistlenettle** is a [dwarf](dwarf) [quest giver](quest giver) located in a nearly empty pub in the [Dwarven District](Dwarven District) of [Stormwind City](Stormwind City). He and his brother were members of a mining company until they were caught in a cave-in within the [Deadmines](Deadmines). Though Wilder escaped, the rest of the company was killed, and they now roam the collapsed tunnel as restless [undead](undead).
 
 ## Quests
 - [quest: Collecting Memories] 
 - [quest: Oh Brother. . .] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 There were thieves everywhere!
 
 It was horrible. The cave came down on us. I think the mining company is dead, including my brother, the Foreman.

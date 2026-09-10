@@ -13,16 +13,6 @@ categories: ["Groves", "Moonwhisper Coast subzones", "Turtle WoW content"]
 The **Grove of the Moon** is one of the two druidic circles in [Moonwhisper Coast](Moonwhisper Coast), along with the [Grove of the Sun](Grove of the Sun). Enclaves of the [Cenarion Circle](Cenarion Circle), both circles represented the relationship between the night elves and tauren. However, the druids of the Grove of the Moon were subverted by the corrupted teachings of [Arch Druid Mothshroud](Arch Druid Mothshroud) and his [Shadewalkers](Shadewalkers).
 
 ## NPCs
-- 
-- 
-- 
-- 
-
-  -Inside the Barrow Den**
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - ;Inside the Barrow Den
+- - - - ## Patch changes
 - (Patch 1.18.1|note=Added.)

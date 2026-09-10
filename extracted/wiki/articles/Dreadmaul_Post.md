@@ -10,4 +10,4 @@ categories: ["Blasted Lands subzones", "Caves", "Ogre territories"]
 ---
 # Dreadmaul Post
 
--Dreadmaul Post** is an [ogre mound](ogre mound) of the Dreadmaul [ogre](ogre) clan in the [Blasted Lands](Blasted Lands). Dreadmaul ogres remained close to the [Dark Portal](Dark Portal) after coming to [Azeroth](Azeroth) from [Draenor](Draenor). They continue to maintain a strong presence in the area. An occasional lost [draenei](draenei) can also be found wandering the nearby territory.
+**Dreadmaul Post** is an [ogre mound](ogre mound) of the Dreadmaul [ogre](ogre) clan in the [Blasted Lands](Blasted Lands). Dreadmaul ogres remained close to the [Dark Portal](Dark Portal) after coming to [Azeroth](Azeroth) from [Draenor](Draenor). They continue to maintain a strong presence in the area. An occasional lost [draenei](draenei) can also be found wandering the nearby territory.

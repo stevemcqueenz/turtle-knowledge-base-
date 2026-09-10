@@ -15,7 +15,7 @@ PlaySound(SoundName);
 Play one of a set of built-in sounds.  Other players will not hear the sound.
 
 ----
-  -*Arguments***
+***Arguments***
 
   (SoundName)
   ;SoundName : String - One of the below sound names (not all these actually make a sound)
@@ -255,7 +255,7 @@ Play one of a set of built-in sounds.  Other players will not hear the sound.
  AuctionWindowClose
 
 ----
-  -*Example*
+***Example*
 **
  PlaySound("LEVELUPSOUND");
 

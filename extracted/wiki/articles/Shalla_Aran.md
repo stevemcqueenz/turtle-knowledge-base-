@@ -10,4 +10,4 @@ categories: ["Stubs", "Tirisfal Glades subzones"]
 ---
 # Shalla'Aran
 
--Shalla'Aran** is an area located at the Tirisfal Uplands.
+**Shalla'Aran** is an area located at the Tirisfal Uplands.

@@ -10,14 +10,8 @@ categories: ["Furbolg territories", "Moonwhisper Coast subzones", "Turtle WoW co
 ---
 # Blackroot Village
 
--Blackroot Village** is a furbolg settlement located in [Moonwhisper Coast](Moonwhisper Coast).
+**Blackroot Village** is a furbolg settlement located in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - - ## Patch changes
 - (Patch 1.18.1|note=Added.)

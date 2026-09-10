@@ -20,6 +20,6 @@ categories: ["Human characters", "Lore characters"]
 | status | Unknown (presumed deceased) |
 | relatives | Dougan (husband),, Lieren & Loania (twin daughters) |
 
--Adena** is the widowed wife of [Dougan](Dougan) and the mother of [Lieren](Lieren) and [Loania](Loania). After hearing the sad news of Dougan’s demise from his friends [Kardan](Kardan) and [Voldana](Voldana), Adena's grief was so immense that she lost the will to live. Subsequently, Kardan and Voldana each adopted a twin. (ref: [quest: Errand for Quel'Danil])
+**Adena** is the widowed wife of [Dougan](Dougan) and the mother of [Lieren](Lieren) and [Loania](Loania). After hearing the sad news of Dougan’s demise from his friends [Kardan](Kardan) and [Voldana](Voldana), Adena's grief was so immense that she lost the will to live. Subsequently, Kardan and Voldana each adopted a twin. (ref: [quest: Errand for Quel'Danil])
 
 ## References

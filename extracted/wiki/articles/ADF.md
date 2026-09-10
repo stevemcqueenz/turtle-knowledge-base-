@@ -15,14 +15,14 @@ Adds a small HUD that standardizes critical info about your target's defences, i
 You can use the old version or the newer one; both work, but the newer one has significant improvements.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **aDFF** up to date is by using [GitAddonsManager](GitAddonsManager).
 
 # **Add the Repository:** Add the following URL to GitAddonsManager:   https://github.com/Autignem/aDF.git (version 4.x) 
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
-  -Manual Installation**
+**Manual Installation**
 If you prefer manual installation, follow these steps:
 
 # Go to the main page of the repository.

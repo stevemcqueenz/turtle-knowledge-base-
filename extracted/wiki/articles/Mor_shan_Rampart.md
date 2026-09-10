@@ -10,4 +10,4 @@ categories: ["Barrens subzones", "Pages with broken file links", "Stubs", "Tower
 ---
 # Mor'shan Rampart
 
--The Mor'shan Rampart**[48, 6] lies at the northern terminus of the [Gold Road](Gold Road) in [the Barrens](the Barrens). This makeshift defensive post was built to withstand the push of [Alliance](Alliance) forces into the [Barrens](Barrens) from [Ashenvale](Ashenvale) to the north. There is, however, a damaged portion unguarded by the Horde to the east of the main post. It is mostly abandoned, but still serves as a makeshift launching point for raids on the [Night Elf](Night Elf) town of [Astranaar](Astranaar).
+**The Mor'shan Rampart**[48, 6] lies at the northern terminus of the [Gold Road](Gold Road) in [the Barrens](the Barrens). This makeshift defensive post was built to withstand the push of [Alliance](Alliance) forces into the [Barrens](Barrens) from [Ashenvale](Ashenvale) to the north. There is, however, a damaged portion unguarded by the Horde to the east of the main post. It is mostly abandoned, but still serves as a makeshift launching point for raids on the [Night Elf](Night Elf) town of [Astranaar](Astranaar).

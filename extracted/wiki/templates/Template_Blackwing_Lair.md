@@ -32,21 +32,21 @@ categories: ["Instance navigation templates"]
 
 [Nefarian](Nefarian (tactics))
 |
--(lore)*
+*(lore)*
 
 [(lore)](Vaelastrasz)
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
 [(lore)](Nefarian)
 |-

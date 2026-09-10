@@ -10,10 +10,10 @@ categories: ["Addon"]
 ---
 # ShaguDPS
 
--ShaguDPS** is a customizable damage and healing meter. It tracks combat performance, providing detailed statistics on damage, healing, and more.
+**ShaguDPS** is a customizable damage and healing meter. It tracks combat performance, providing detailed statistics on damage, healing, and more.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **ShaguDPS** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **ShaguDPS** up to date is by using [GitAddonsManager](G
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -72,13 +72,13 @@ If you prefer manual installation, follow these steps:
 |Toggle visibility of the main window
 |}
 
-  -Configuration**
+**Configuration**
 
 - **Display Settings:** Adjust window visibility, size, texture, and colors via <code>/sdps</code> command.
 - **Tracking Scope:** Choose whether to track all units or only selected targets.
 - **Data Persistence:** Save data across sessions or reset with <code>/sdps reset</code>.
 
-  -Range Control**
+**Range Control**
 
 Since ShaguDPS relies on combat log data, range limits the information collected. To increase the combat log range (default 40 yards) to 200 yards, run:<syntaxhighlight lang="lua">
 /run for _,n in pairs({"Party", "PartyPet", "FriendlyPlayers", "FriendlyPlayersPets", "HostilePlayers", "HostilePlayersPets", "Creature" }) do SetCVar("CombatLogRange"..n, 200) end

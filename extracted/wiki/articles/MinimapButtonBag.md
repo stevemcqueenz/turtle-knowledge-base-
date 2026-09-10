@@ -18,7 +18,7 @@ MinimapButtonBag cleans up your mini-map and relocates the buttons in a menu bar
 - Rename "MinimapButtonBag-master" to "MinimapButtonBag"
 
 ## Git links
-  -[(McPewPew)](https://github.com/McPewPew/MinimapButtonBag)**
+**[(McPewPew)](https://github.com/McPewPew/MinimapButtonBag)**
 
 ## Commands
 - /mbb - shows the MBB commands
@@ -47,30 +47,30 @@ Options and mini-map button
 - [McPewPew](https://github.com/McPewPew) (TurtleSnacks)
 
 ## Changes
-  -v0.507**
+**v0.507**
 - RUru localization fixed #6 thanks @Artur91425
 - Fixed #3
 - Added TimeManagerClock to ignore list
-  -v0.506**
+**v0.506**
 - Startup gathering  fixed
 - Added Callbacks for unusual add-on buttons
 - More support for RecipeRadar
 - fixed positional bugs of main button #5
-  -v0.505**
+**v0.505**
 - Added button's scale option
-  -v0.504**
+**v0.504**
 - More fix for #3
-  -v0.503a**
+**v0.503a**
 - Fix errors DPS_mate #2
-  -v0.503**
+**v0.503**
 - Fix for #3
 - Moved to folder "MBB" to easy install (need to exit WOW if you upgrading to this version)
 - Changed from Drag to Shift-Drag to move MBB button.
 - More compatibility w/ simpleMinimap
 - Fix DPS_Mate errors
-  -v0.502**
+**v0.502**
 - Fix for WIM icon. But you need to use this version of WIM <nowiki>https://github.com/shirsig/WIM</nowiki>
-  -v0.501**
+**v0.501**
 - Fixed some position issues.
 - Added square mini-map support (Squeenix & simpleMiniMap)
 - Added Russian localization

@@ -19,7 +19,7 @@ Every item in the game has an type and subtype of some kind.  No valid item will
 "Armor", "Consumable", "Container", "Key", "Miscellaneous", "Reagent", "Recipe", "Projectile", "Quest", "Quiver", "Trade Goods", "Weapon"
 
 ### Sorted Types and Subtypes
-  -Armor**
+**Armor**
 
 - "Cloth"
 - "Idols"
@@ -31,11 +31,11 @@ Every item in the game has an type and subtype of some kind.  No valid item will
 - "Totems"
 - "Plate"
 
-  -Consumable**
+**Consumable**
 
 - "Consumable"
 
-  -Container**
+**Container**
 
 - "Bag"
 - "Enchanting Bag"
@@ -43,19 +43,19 @@ Every item in the game has an type and subtype of some kind.  No valid item will
 - "Herb Bag"
 - "Soul Bag"
 
-  -Key**
+**Key**
 
 - "Key"
 
-  -Miscellaneous**
+**Miscellaneous**
 
 - "Junk"
 
-  -Reagent**
+**Reagent**
 
 - "Reagent"
 
-  -Recipe**
+**Recipe**
 
 - "Alchemy"
 - "Blacksmithing"
@@ -67,28 +67,28 @@ Every item in the game has an type and subtype of some kind.  No valid item will
 - "Leatherworking"
 - "Tailoring"
 
-  -Projectile**
+**Projectile**
 
 - "Arrow"
 - "Bullet"
 
-  -Quest**
+**Quest**
 
 - "Quest"
 
-  -Quiver**
+**Quiver**
 
 - "Ammo Pouch"
 - "Quiver"
 
-  -Trade Goods**
+**Trade Goods**
 
 - "Devices"
 - "Explosives"
 - "Parts"
 - "Trade Goods"
 
-  -Weapon**
+**Weapon**
 
 - "Bows"
 - "Crossbows"

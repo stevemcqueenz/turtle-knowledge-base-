@@ -24,10 +24,10 @@ categories: ["Human characters", "Kul Tiras (kingdom)", "Stormwind City NPCs", "
 | location | Davenburg, Stormwind Harbor, Stormwind City |
 | status | Alive |
 
--Quartermaster Alden** is a [human](human) located in [Davenburg](Davenburg) in [Stormwind Harbor](Stormwind Harbor) in [Stormwind City](Stormwind City).
+**Quartermaster Alden** is a [human](human) located in [Davenburg](Davenburg) in [Stormwind Harbor](Stormwind Harbor) in [Stormwind City](Stormwind City).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The Nation of Kul Tiras is generous to its loyal subjects and those that swear fealty to it.
 
 Our loyalties and dedication lay with the Kingdom of Lordaeron and the Old Alliance.

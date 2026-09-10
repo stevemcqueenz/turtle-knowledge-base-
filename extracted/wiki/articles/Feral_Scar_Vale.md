@@ -10,7 +10,7 @@ categories: ["Caves", "Feralas subzones", "Pages with broken file links", "Stubs
 ---
 # Feral Scar Vale
 
--Feral Scar Vale** is a subarea in [Feralas](Feralas). It is a cave that houses several [yeti](yeti).  In the back of the cave is a trapped mechanical chicken by the name of [Homing Robot OOX-22/FE](Homing Robot OOX-22/FE).  If you find its distress beacon, then go to Feral Scar Vale and activate the chicken, it will begin an escort quest.
+**Feral Scar Vale** is a subarea in [Feralas](Feralas). It is a cave that houses several [yeti](yeti).  In the back of the cave is a trapped mechanical chicken by the name of [Homing Robot OOX-22/FE](Homing Robot OOX-22/FE).  If you find its distress beacon, then go to Feral Scar Vale and activate the chicken, it will begin an escort quest.
 
 This area consists of three things:
 - An entrance cave

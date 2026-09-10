@@ -10,24 +10,12 @@ categories: ["Goblin territories", "Neutral towns", "Steamwheedle Cartel", "Stub
 ---
 # Steamwheedle Port
 
--Steamwheedle Port** is a port [village](village) on the coast of [Tanaris Desert](Tanaris Desert), first built to receive materials for the construction of [Gadgetzan](Gadgetzan). The port is directly connected to [Undermine](Undermine), but at this point in the game it is not scheduled for any passenger ships to dock.
+**Steamwheedle Port** is a port [village](village) on the coast of [Tanaris Desert](Tanaris Desert), first built to receive materials for the construction of [Gadgetzan](Gadgetzan). The port is directly connected to [Undermine](Undermine), but at this point in the game it is not scheduled for any passenger ships to dock.
 
 ## Steamwheedle Port NPCs
-  -Merchants**
--
--
--
- 
-  -Other Characters**
--
--
--
--
--
--
-  -
-
-## Quest guide
+**Merchants**
+- - - ;Other Characters
+- - - - - - - ## Quest guide
 - [quest: Ship Schedules] - [world drop](world drop) from [Footlocker](Footlocker)
 - [quest: Screecher Spirits] - from [Yeh'kinya](Yeh'kinya)
 - [quest: Stoley's Shipment] - from [Stoley](Stoley)

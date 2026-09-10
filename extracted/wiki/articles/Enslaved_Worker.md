@@ -23,7 +23,7 @@ categories: ["Gilneas NPCs", "Human characters", "Turtle WoW content"]
 | location | The Dryrock Pit and Dryrock Mine, Gilneas |
 | status | Alive |
 
--Enslaved Workers** are humans found at the [Dryrock Pit](Dryrock Pit) and [Dryrock Mine](Dryrock Mine) in [Gilneas](Gilneas).
+**Enslaved Workers** are humans found at the [Dryrock Pit](Dryrock Pit) and [Dryrock Mine](Dryrock Mine) in [Gilneas](Gilneas).
 
 ## Patch changes
 - (Patch 1.17.0|note=Added.)

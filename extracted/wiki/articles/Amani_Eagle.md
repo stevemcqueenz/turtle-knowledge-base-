@@ -21,7 +21,7 @@ categories: ["Amani'Alor mobs", "Eagles", "Stonetalon Mountain mobs", "Turtle Wo
 | creature | Beast |
 | location | Amani'Alor, Stonetalon Mountains |
 
--Amani Eagles** are eagles located in [Amani'Alor](Amani'Alor) in [Stonetalon Mountains](Stonetalon Mountains).
+**Amani Eagles** are eagles located in [Amani'Alor](Amani'Alor) in [Stonetalon Mountains](Stonetalon Mountains).
 
 ## Patch changes
 - (Patch 1.15.0|note=Added.)

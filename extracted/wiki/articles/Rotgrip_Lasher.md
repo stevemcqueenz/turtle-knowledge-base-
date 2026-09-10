@@ -22,7 +22,7 @@ categories: ["Lashers", "Stormwrought Ruins mobs", "Turtle WoW content"]
 | location | Stormwrought Ruins |
 | status | Killable |
 
--Rotgrip Lashers** are [lasher](lasher)s located in [Stormwrought Ruins](Stormwrought Ruins).
+**Rotgrip Lashers** are [lasher](lasher)s located in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Abilities
 - **Razorlash** — Bleeding for 30 damage every 3 seconds. Lasts 15 seconds.

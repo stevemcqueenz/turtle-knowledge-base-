@@ -26,7 +26,7 @@ categories: ["Argent Dawn", "Eastern Plaguelands NPCs", "Knights of the Silver H
 | location | Light's Hope Chapel, Eastern Plaguelands |
 | status | Active |
 
--Leonid Barthalomew the Revered** is an [undead](undead) member of the [Argent Dawn](Argent Dawn), who is revered by his colleagues for the sacrifices he has made. He investigated the return of the powerful [lich](lich), [Ras Frostwhisper](Ras Frostwhisper), in the [Eastern Plaguelands](Eastern Plaguelands). Barthalomew looks at his [undeath](undeath) as a malady, an illness that merely requires treatment. However, he also considers it a great blessing for the Argent Dawn, believing that, as an undead, he is a great vessel to smite the abominations of the [Scourge](Scourge). (ref: [quest: Houses of the Holy])
+**Leonid Barthalomew the Revered** is an [undead](undead) member of the [Argent Dawn](Argent Dawn), who is revered by his colleagues for the sacrifices he has made. He investigated the return of the powerful [lich](lich), [Ras Frostwhisper](Ras Frostwhisper), in the [Eastern Plaguelands](Eastern Plaguelands). Barthalomew looks at his [undeath](undeath) as a malady, an illness that merely requires treatment. However, he also considers it a great blessing for the Argent Dawn, believing that, as an undead, he is a great vessel to smite the abominations of the [Scourge](Scourge). (ref: [quest: Houses of the Holy])
 
 ## History
 ### Third War
@@ -48,7 +48,7 @@ Years after the [Third War](Third War), Leonid can be found in [Light's Hope Cha
 - [quest: Soulbound Keepsake] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Through knowledge, may we find salvation.
 
 ## References

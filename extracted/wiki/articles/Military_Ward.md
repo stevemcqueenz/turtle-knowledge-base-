@@ -10,7 +10,7 @@ categories: ["Dwarf territories", "Gnome territories", "Ironforge subzones", "Pa
 ---
 # Military Ward
 
--The Military Ward** serves as the command center for the [Ironforge](Ironforge) Military, as well as a center for all things martial. Weapon, armor, and gun shops are all located here. The center of the ward is the [Hall of Arms](Hall of Arms), which contains [hunter](hunter) and [warrior](warrior) trainers, [battlemaster](battlemaster)s, and a hangar for both [steam tank](steam tank)s and [dwarven flying machine](dwarven flying machine)s.
+**The Military Ward** serves as the command center for the [Ironforge](Ironforge) Military, as well as a center for all things martial. Weapon, armor, and gun shops are all located here. The center of the ward is the [Hall of Arms](Hall of Arms), which contains [hunter](hunter) and [warrior](warrior) trainers, [battlemaster](battlemaster)s, and a hangar for both [steam tank](steam tank)s and [dwarven flying machine](dwarven flying machine)s.
 
 To get to the Military Ward, you can head east from [the Commons](the Commons), southeast from the [Great Forge](Great Forge), or south from [Tinker Town](Tinker Town).
 

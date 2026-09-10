@@ -13,9 +13,5 @@ categories: ["Gillijim's Isle subzones", "Mines", "Turtle WoW content"]
 The **Jade Mine** is located along the northern coast of [Gillijim's Isle](Gillijim's Isle). The mine is occupied by [Southsea Freebooters](Southsea Freebooters) and is overseen by [Foreman Darkskull](Foreman Darkskull).
 
 ## NPCs
-- 
-- 
-- 
-
-## Patch changes
+- - - ## Patch changes
 - (Patch 1.16.0|note=Added.)

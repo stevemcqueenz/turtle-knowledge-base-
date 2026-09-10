@@ -10,7 +10,7 @@ categories: ["Readable items", "Turtle WoW content"]
 ---
 # Shadowlord's Research
 
--Shadowlord's Research** can be acquired from [Noppsy Spickerspan](Noppsy Spickerspan) after the completion of [quest: Harrowing News]. It is a translation of the [Stormreaver Scroll](Stormreaver Scroll) taken from [Shadowlord Ar'kor](Shadowlord Ar'kor).
+**Shadowlord's Research** can be acquired from [Noppsy Spickerspan](Noppsy Spickerspan) after the completion of [quest: Harrowing News]. It is a translation of the [Stormreaver Scroll](Stormreaver Scroll) taken from [Shadowlord Ar'kor](Shadowlord Ar'kor).
 
 ## Contains
 ## Patch changes

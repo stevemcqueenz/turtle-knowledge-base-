@@ -22,7 +22,7 @@ categories: ["Human characters", "Tirisfal Glades mobs", "Turtle WoW content"]
 | gender | Male |
 | location | The Rogue Heights, Tirisfal Glades |
 
--Storn** is a human found in a cave within the [Rogue Heights](Rogue Heights) in [Tirisfal Glades](Tirisfal Glades). The leader of a local bandit gang, [Bounty Hunter Knox](Bounty Hunter Knox) had been hunting him for a while. However, after having a falling out with his men, he went into hiding in the Tirisfal Uplands.
+**Storn** is a human found in a cave within the [Rogue Heights](Rogue Heights) in [Tirisfal Glades](Tirisfal Glades). The leader of a local bandit gang, [Bounty Hunter Knox](Bounty Hunter Knox) had been hunting him for a while. However, after having a falling out with his men, he went into hiding in the Tirisfal Uplands.
 
 ## Objective of
 - Drops [Storn's Head](Storn's Head) for [quest: Bandit Lord]

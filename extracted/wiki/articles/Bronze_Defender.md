@@ -24,7 +24,7 @@ categories: ["Bronze drakonid", "Caverns of Time NPCs", "Guards", "Oddly classif
 | gender | Male |
 | location | Caverns of Time, Tanaris |
 
--Bronze Defender** are bronze drakonid guards located within the [Caverns of Time](Caverns of Time) in [Tanaris](Tanaris).
+**Bronze Defender** are bronze drakonid guards located within the [Caverns of Time](Caverns of Time) in [Tanaris](Tanaris).
 
 ## Notes and trivia
 - Though they are bronze drakonids, they are classified as humanoids.

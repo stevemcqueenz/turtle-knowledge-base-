@@ -25,10 +25,10 @@ categories: ["Engineering vendors", "Goblin characters", "Tel'Abim NPCs", "Turtl
 | location | Tel Co. Basecamp, Tel'Abim |
 | status | Alive |
 
--Wazlon Headiron** is a [goblin](goblin) engineering vendor located in [Tel Co. Basecamp](Tel Co. Basecamp) in [Tel'Abim](Tel'Abim).
+**Wazlon Headiron** is a [goblin](goblin) engineering vendor located in [Tel Co. Basecamp](Tel Co. Basecamp) in [Tel'Abim](Tel'Abim).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Goblin Machinery, intricate parts and haphazard design. It certainly leads to spectacular breakdowns, which is what keeps engineers like myself in business.
 
 So, what'll it be?
@@ -36,7 +36,7 @@ So, what'll it be?
 You better not be here for Shredder repairs.
 
 ## Quests
--  [55] [Derelict Supplies](Derelict Supplies) 
+- [55] [Derelict Supplies](Derelict Supplies) 
 
 ## Patch changes
 - (Patch 1.16.4|note=Added.)

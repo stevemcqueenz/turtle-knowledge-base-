@@ -10,14 +10,10 @@ categories: ["Islands", "Moonwhisper Coast subzones", "Night elf territories", "
 ---
 # Tyrandas
 
--Tyrandas**, also known as the **Isle of Tyrandas**, (ref: [quest: The Light of Elunaris]) is an island located to the northeast of [Moonwhisper Coast](Moonwhisper Coast). Once home to a sacred temple of the [Sisterhood of Elune](Sisterhood of Elune), the [Temple of Elunaris](Temple of Elunaris) has long since been abandoned by the Sisterhood. (ref: [Talanis Amberscribe#Quotes](Talanis Amberscribe#Quotes)) One of the two druidic circles of Moonwhisper Coast, the [Grove of the Sun](Grove of the Sun), can be found on the island.
+**Tyrandas**, also known as the **Isle of Tyrandas**, (ref: [quest: The Light of Elunaris]) is an island located to the northeast of [Moonwhisper Coast](Moonwhisper Coast). Once home to a sacred temple of the [Sisterhood of Elune](Sisterhood of Elune), the [Temple of Elunaris](Temple of Elunaris) has long since been abandoned by the Sisterhood. (ref: [Talanis Amberscribe#Quotes](Talanis Amberscribe#Quotes)) One of the two druidic circles of Moonwhisper Coast, the [Grove of the Sun](Grove of the Sun), can be found on the island.
 
 ## NPCs
-- 
-- 
-- 
-
-## Patch changes
+- - - ## Patch changes
 - (Patch 1.18.1|note=Added.)
 
 ## References

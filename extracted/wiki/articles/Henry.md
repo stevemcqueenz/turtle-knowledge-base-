@@ -25,13 +25,13 @@ categories: ["Human characters", "Northwind NPCs", "Quest givers", "Stormwind (k
 | status | Alive |
 | relatives | Smith Martin (father) |
 
--Henry** is a [human](human) quest giver located on a dock on the shores of [Grimmen Lake](Grimmen Lake) in [Northwind](Northwind).
+**Henry** is a [human](human) quest giver located on a dock on the shores of [Grimmen Lake](Grimmen Lake) in [Northwind](Northwind).
 
 ## Quests
 - [quest: The Amber Pearl] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Have you heard the tale of Sir Edrin Vellas? A simple peasant who became one of Stormwind's greatest knights. He is a local legend, there isn't anyone who doesn't know his name and deeds. I wish I could one day become like him - a true knight, traveling the world, seeking adventure and protecting the innocent!
 
 ## Trivia

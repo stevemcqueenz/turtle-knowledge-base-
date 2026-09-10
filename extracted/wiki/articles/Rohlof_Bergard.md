@@ -25,10 +25,10 @@ categories: ["Artists", "Human characters", "Northwind NPCs", "Turtle WoW conten
 | location | Amberwood Keep, Northwind |
 | status | Alive |
 
--Rohlof Bergard** is a [human](human) located at [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind).
+**Rohlof Bergard** is a [human](human) located at [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Can you feel the essence of this vale? The crimson trees, rolling verdant fields and the crystal clear breeze coursing through the air? Just taking one deep breath fills my spirit with inspiration like no muse ever could! I'm telling you, there is no place like Northwind in the entirety of the Eastern Kingdoms.
 
 ## Patch changes

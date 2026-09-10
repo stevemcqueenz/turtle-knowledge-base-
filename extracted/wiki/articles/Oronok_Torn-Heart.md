@@ -26,7 +26,7 @@ categories: ["Bosses", "Orc characters", "Shadow Council", "Stormreaver clan", "
 | status | Killable |
 | instance | Stormwrought Ruins |
 
--Oronok Torn-Heart** is a boss in [Stormwrought Ruins](Stormwrought Ruins).
+**Oronok Torn-Heart** is a boss in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Abilities
 - Death and Decay
@@ -35,10 +35,10 @@ categories: ["Bosses", "Orc characters", "Shadow Council", "Stormreaver clan", "
 - Shadow Bolt
 
 ## Quotes
-  -Aggro**
+**Aggro**
   Let me tear your heart asunder!
 
-  -Death**
+**Death**
   Gul'dan...! Your legacy...
 
 ## Objective of

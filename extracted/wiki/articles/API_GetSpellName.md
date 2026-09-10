@@ -14,7 +14,7 @@ Retrieves the spell name and spell rank for a spell in the player's spellbook. I
  *spellName*, *spellRank* = GetSpellName( *spellId*, *bookType* );
 ----
 
-  - *Arguments***
+** *Arguments***
 
   ; spellId
    Integer - Spell ID. Valid values are 1 through total number of spells in the spellbook on all pages and all tabs, ignoring empty slots.
@@ -24,7 +24,7 @@ Retrieves the spell name and spell rank for a spell in the player's spellbook. I
 
 ----
 
-  - *Returns***
+** *Returns***
 
   ; spellName
    String - Name of the spell as it appears in the spellbook, eg. *"Lesser Heal"*
@@ -34,7 +34,7 @@ Retrieves the spell name and spell rank for a spell in the player's spellbook. I
 
 ----
 
-  - *Example***
+** *Example***
 <syntaxhighlight lang="lua">
  local i = 1
  while true do
@@ -49,7 +49,7 @@ Retrieves the spell name and spell rank for a spell in the player's spellbook. I
     i = i + 1
  end
 </syntaxhighlight>
-  - *Result***
+** *Result***
    Displays every spell in the player's spellbook, on all pages and all tabs, in the format required by [CastSpellByName](API CastSpellByName).
 
 ## Macros

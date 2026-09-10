@@ -25,15 +25,15 @@ categories: ["Alliance quests", "Quests at 5", "Thalassian Highlands quests", "T
 
 ## Objectives
 Deliver the Wildhammer Supply Package to [Tiriel Brightwater](Tiriel Brightwater) in [Alah'Thalas](Alah'Thalas).
--[Wildhammer Supply Package](Wildhammer Supply Package) (provided)
+- [Wildhammer Supply Package](Wildhammer Supply Package) (provided)
 
 ## Description
 Heading to the city of Alah'Thalas, are you? If so, I've a task that requires your aid. My companion, Tiriel, has established an inn for the influx of refugees making their way to the city, and, as you can imagine, it's teeming with occupants. We've just received a fresh supply package from the [Wildhammers](Wildhammer dwarf), and it would be of immense help if you could deliver it to her. You'll find Tiriel's inn adjacent to the city entrance, the first building on your left as you pass [Anasterian Park](Anasterian Park).
 
 ## Rewards
 You will receive:
--130 XP
--+25 [reputation](reputation) with [Silvermoon Remnant](Silvermoon Remnant)
+- 130 XP
+- +25 [reputation](reputation) with [Silvermoon Remnant](Silvermoon Remnant)
 
 ## Progress
 Welcome to my inn, traveler. We are out of beds for now, but you can always sleep on the floor, right?

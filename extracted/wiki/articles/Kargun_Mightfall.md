@@ -25,7 +25,7 @@ categories: ["Ammo vendors", "Armor vendors", "Grim Reaches NPCs", "Turtle WoW c
 | location | Dun Kithas, Grim Reaches |
 | status | Alive |
 
--Kargun Mightfall** is a [Wildhammer dwarf](Wildhammer dwarf) armor vendor located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
+**Kargun Mightfall** is a [Wildhammer dwarf](Wildhammer dwarf) armor vendor located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

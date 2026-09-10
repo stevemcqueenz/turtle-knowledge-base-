@@ -10,4 +10,4 @@ categories: ["Feralas subzones", "Gnoll territories", "Pages with broken file li
 ---
 # Woodpaw Hills
 
--Woodpaw Hills** is an area, densely inhabited by the [Woodpaw tribe](Woodpaw tribe) of [gnoll](gnoll)s, in the southeastern part of [Feralas](Feralas), north of the [Writhing Deep](Writhing Deep).
+**Woodpaw Hills** is an area, densely inhabited by the [Woodpaw tribe](Woodpaw tribe) of [gnoll](gnoll)s, in the southeastern part of [Feralas](Feralas), north of the [Writhing Deep](Writhing Deep).

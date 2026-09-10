@@ -10,22 +10,10 @@ categories: ["Stormwind City subzones", "Turtle WoW content"]
 ---
 # Davenburg
 
--Davenburg** is a [Kul Tiran](Kul Tiras (kingdom)) embassy located on the northern edges of [Stormwind Harbor](Stormwind Harbor) in [Stormwind City](Stormwind City). Established by [Vice Admiral Renhoff](Vice Admiral Renhoff), the Kul Tirans have been sent by order of the Lord Admiral to open diplomatic ties with the [kingdom of Stormwind](Stormwind (kingdom)) once again. (ref: [Vice Admiral Renhoff#Quotes](Vice Admiral Renhoff#Quotes))
+**Davenburg** is a [Kul Tiran](Kul Tiras (kingdom)) embassy located on the northern edges of [Stormwind Harbor](Stormwind Harbor) in [Stormwind City](Stormwind City). Established by [Vice Admiral Renhoff](Vice Admiral Renhoff), the Kul Tirans have been sent by order of the Lord Admiral to open diplomatic ties with the [kingdom of Stormwind](Stormwind (kingdom)) once again. (ref: [Vice Admiral Renhoff#Quotes](Vice Admiral Renhoff#Quotes))
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - - - - - - - - ## Patch changes
 - (Patch 1.16.4|note=Added.)
 
 ## References

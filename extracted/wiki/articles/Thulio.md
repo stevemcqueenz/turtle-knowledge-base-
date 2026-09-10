@@ -24,7 +24,7 @@ categories: ["Horses", "Moonwhisper Coast NPCs", "Oddly classified characters", 
 | location | Moonwhisper Coast |
 | status | Alive |
 
--Thulio** is a horse located in a camp just south of [Narvalis Point](Narvalis Point) in [Moonwhisper Coast](Moonwhisper Coast). 
+**Thulio** is a horse located in a camp just south of [Narvalis Point](Narvalis Point) in [Moonwhisper Coast](Moonwhisper Coast). 
 
 ## Notes and trivia
 - Despite being a horse, Thulio is classified as a humanoid.

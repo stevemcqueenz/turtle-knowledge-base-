@@ -10,5 +10,5 @@ categories: ["Articles using deprecated loot", "Caves", "Pages with broken file 
 ---
 # Weeping Cave
 
--The Weeping Cavern** is a cave filled with [bog beast](Bog Beast)s and [ooze](ooze)s, and also the location of a rare spawn elemental named [The Husk](The Husk). The cave is located in northeastern [Western Plaguelands](Western Plaguelands), just west of the [Thondroril River](Thondroril River).
+**The Weeping Cavern** is a cave filled with [bog beast](Bog Beast)s and [ooze](ooze)s, and also the location of a rare spawn elemental named [The Husk](The Husk). The cave is located in northeastern [Western Plaguelands](Western Plaguelands), just west of the [Thondroril River](Thondroril River).
 The mobs inside this cave have a low chance to drop .

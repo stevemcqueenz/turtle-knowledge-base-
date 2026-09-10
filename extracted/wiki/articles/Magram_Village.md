@@ -10,4 +10,4 @@ categories: ["Centaur territories", "Desolace subzones", "Magram Clan Centaur", 
 ---
 # Magram Village
 
--Magram Village** is a [centaur](centaur) [village](village), home of the [Magram clan](Magram clan). It is located in the southeastern area of [Desolace](Desolace) on the shores and islands of a series of polluted yellow [pool](pool)s. Crude bridges connect the islands to each other and the shore. Adventurers can choose to ally with the Magram clan in their ongoing war against the [Gelkis clan](Gelkis clan).
+**Magram Village** is a [centaur](centaur) [village](village), home of the [Magram clan](Magram clan). It is located in the southeastern area of [Desolace](Desolace) on the shores and islands of a series of polluted yellow [pool](pool)s. Crude bridges connect the islands to each other and the shore. Adventurers can choose to ally with the Magram clan in their ongoing war against the [Gelkis clan](Gelkis clan).

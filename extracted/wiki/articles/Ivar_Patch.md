@@ -10,7 +10,7 @@ categories: ["Farms", "Ghouls", "Pages with broken file links", "Silverpine Fore
 ---
 # Ivar Patch
 
--The Ivar Patch** is a pumpkin patch in northern [Silverpine Forest](Silverpine Forest). This was once a prosperous and pleasant farm, and Ivar employed many farmhands and servants. That was only until the [Scourge](Scourge) ravaged the lands of [Lordaeron](Lordaeron), however. 
+**The Ivar Patch** is a pumpkin patch in northern [Silverpine Forest](Silverpine Forest). This was once a prosperous and pleasant farm, and Ivar employed many farmhands and servants. That was only until the [Scourge](Scourge) ravaged the lands of [Lordaeron](Lordaeron), however. 
 
 Ivar and his family and farmhands succumbed to the [Plague of Undeath](Plague of Undeath) and became terrible rotting [ghoul](ghoul)s. [Ivar the Foul](Ivar the Foul) and the other ghouls stalk the former farm, terrorizing any who come near. 
 

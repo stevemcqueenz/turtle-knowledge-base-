@@ -10,7 +10,7 @@ categories: ["Professions", "Turtle WoW content"]
 ---
 # Survival
 
--Survival** is a secondary professions in Turtle WoW which enables players to create a number of tools to aid them in overcoming obstacles and taming the wilderness.
+**Survival** is a secondary professions in Turtle WoW which enables players to create a number of tools to aid them in overcoming obstacles and taming the wilderness.
 
 ## Overview
   *Survivalists practice outdoor skills that aid them in surviving the dangerous wilds of Azeroth. With the proper materials, they can create shelter and heat sources to survive the untamed wilderness.*
@@ -152,10 +152,10 @@ To begin your survivalist career, seek out the Survival trainer for your faction
 ### Training locations
 Trainers are located within or just outside of capital cities and in several other population centers. Consult the [list of trainers](Survival trainers) or ask a guard for directions.
 
-  -Expert**
+**Expert**
 Horde players can purchase Expert training from [Swampwalker Krug](Swampwalker Krug) in [Stonard](Stonard) in [Swamp of Sorrows](Swamp of Sorrows), while Alliance players can purchase it from [Nerean Stagtree](Nerean Stagtree) in [Nijel's Point](Nijel's Point) in [Desolace](Desolace).
 
-  -Artisan**
+**Artisan**
 Reaching Artisan level requires the completion of the quest [quest: profession=survival] from [Rufus Hardwick](Rufus Hardwick) at [Nesingwary's Expedition](Nesingwary's Expedition) in [Stranglethorn Vale](Stranglethorn Vale).
 
 ## Patch changes

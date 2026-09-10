@@ -48,8 +48,8 @@ Do not let your guard down around those blasted trolls. They lack honor, and wil
 Got rid of those trolls have ye? Ironforge is just a little bit safer thanks to your actions, but now we can put our attentions at the real threats.
 
 ## Progression
-1.[quest: The Frostmane War]
-1.[quest: Chieftain Ubukaz]
+1. [quest: The Frostmane War]
+1. [quest: Chieftain Ubukaz]
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

@@ -20,11 +20,11 @@ It is thought that some Banshees wandered Azeroth long before the Scourge, and w
 Sylvanas' Dark Ranger form has been confused with [Dark Elves](Dark Elf), an erroneous race thought to have been the basis of her physical form, however this is not true. Dark Elves do not exist in the Warcraft Universe.
 
 ## Noteworthy Banshees
--[Lady Sylvanas Windrunner](Sylvanas Windrunner)
--[Baroness Anastari](Baroness Anastari)
--[Lost Soul](Lost Soul)
--[Sharlindra](Sharlindra)
--[Nightlash](Nightlash)
--[Aelthalyste](Aelthalyste)
--[Kaelystia Hatebringer](Kaelystia Hatebringer)
--[Lady Falther'ess](Lady Falther'ess)
+- [Lady Sylvanas Windrunner](Sylvanas Windrunner)
+- [Baroness Anastari](Baroness Anastari)
+- [Lost Soul](Lost Soul)
+- [Sharlindra](Sharlindra)
+- [Nightlash](Nightlash)
+- [Aelthalyste](Aelthalyste)
+- [Kaelystia Hatebringer](Kaelystia Hatebringer)
+- [Lady Falther'ess](Lady Falther'ess)

@@ -24,7 +24,7 @@ categories: ["Blackwater Raiders", "Booty Bay characters", "Goblin characters", 
 | location | Booty Bay, Stranglethorn Vale |
 | status | Alive |
 
--Baron Revilgaz** is a goblin [quest giver](quest giver) located in [Booty Bay](Booty Bay), in the [contested](contested) territory of [Stranglethorn Vale](Stranglethorn Vale). He is the de facto ruler of [Booty Bay](Booty Bay), and from his balcony atop the [Salty Sailor Tavern](Salty Sailor Tavern), he has an overview of the entire [Blackwater Cove](Blackwater Cove), and is able to observe strangers and visitors of his town. His most trusted advisor is [Fleet Master Seahorn](Fleet Master Seahorn), with whom he often shares company.
+**Baron Revilgaz** is a goblin [quest giver](quest giver) located in [Booty Bay](Booty Bay), in the [contested](contested) territory of [Stranglethorn Vale](Stranglethorn Vale). He is the de facto ruler of [Booty Bay](Booty Bay), and from his balcony atop the [Salty Sailor Tavern](Salty Sailor Tavern), he has an overview of the entire [Blackwater Cove](Blackwater Cove), and is able to observe strangers and visitors of his town. His most trusted advisor is [Fleet Master Seahorn](Fleet Master Seahorn), with whom he often shares company.
 
 ## Quests
 - [quest: It All Comes Sinking Down] 
@@ -53,7 +53,7 @@ Welcome to Booty Bay, partner. I hope your stay in my town is enjoyable and unev
 Now then... what can this humble servant of the Steamwheeldle Cartel do for you? Better still - what can you do for me, eh?
 
 ### On-click
-  -Greetings**
+**Greetings**
 - Well met, traveler.  There's opportunity to be had here if you're clever enough.
 - Keep your nose clean in my town.
 - I have work for one such as you.

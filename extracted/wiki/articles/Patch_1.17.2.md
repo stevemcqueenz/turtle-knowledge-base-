@@ -10,7 +10,7 @@ categories: ["Patches"]
 ---
 # Patch 1.17.2
 
--Patch 1.17.2: Tower of Karazhan** was released on November 1, 2024.
+**Patch 1.17.2: Tower of Karazhan** was released on November 1, 2024.
 
 ## Patch notes
 ### New raid: Tower of Karazhan
@@ -20,7 +20,7 @@ Conquering the Tower of Karazhan will not only offer great loot and new Tier 3.5
 - Realm First: Warden of the Ley Lines
 - Raid Completion for All: Bane of the Nathrezim
 
--Karazhan 40 is like Karazhan 10, but upstairs. Don’t trip over treasure on your way up.*
+*Karazhan 40 is like Karazhan 10, but upstairs. Don’t trip over treasure on your way up.*
 
 ### Class changes
 While we're happy with the first batch of class changes, they were done under a much more conservative mindset with minor changes, and so vanilla's unbalanced state was still very much felt. Due to this, it fell short on fixing the issues for some of the specializations and failing to make enough impactful changes. It has now been 2 years since those changes and we’re finally taking a deeper dive into balancing and building a solid foundation that’ll serve as the core for all specializations for years to come.
@@ -51,41 +51,41 @@ Additionally, rare Gemstone Deposits will now appear in the world. These deposit
 ### Vanilla dungeon updates
 In this patch, we've expanded classic WoW dungeons, adding new areas and boss encounters for a bit of variety. This aims at horizontal progression, introducing fresh challenges without changing the fundamental dungeon experience too much. Here's what's new:
 
-  -Deadmines**
+**Deadmines**
 - New Areas: Two new areas have been added, featuring a new boss in each.
 - New Bosses:
   - Jared Vess: Oversees a dangerous lab producing Zanzil's Mixture. Located in the mine section before Rhah'nkzor, presenting a new first boss encounter for adventurers who choose the optional route.
   - Masterpiece Harvester: A relic from Deadmines' past has laid dormant for long in the Goblin Foundry, awaiting activation to wreak havoc at the world above.
 - Loot Updates: Rhahk'zor's loot pool has been adjusted for equal drop chances, with notable upgrades including his hammer to Uncommon with armor, Rockbiter to a Rare two-handed axe with armor penetration and a new pair of Rare mail gauntlets.
 
-  -Wailing Caverns**
+**Wailing Caverns**
 - New Areas: Two new areas have been added, each hosting a new boss.
 - New Bosses:
   - Vangros: A formidable apex predator empowered by the rampant life magics of the caverns, lurking in an overgrown sub-cave.
   - Zandara Windhoof: The Kolkar has sent an expedition to the depths of the caverns and have established a camp with the intention of cementing it as a stronghold for the centaur, threatening the Barrens and beyond.
 - Loot Updates: Lady Anacondra's drops have been enhanced, including her Serpent's Shoulders to Rare and adding a new staff tailored for Bear Druids.
 
-  -Shadowfang Keep**
+**Shadowfang Keep**
 - New Area: One new area have been added with a new boss.
 - New Boss:
   - Prelate Ironmane: A spectral priest and preacher of the Light as it was in the Gilnean faith, haunting the keep's church, seeking peace. Lay the prelate to rest to purify the keep.
 
-  -Scarlet Monastery Graveyard**
+**Scarlet Monastery Graveyard**
 - New Area: One new area have been added with a new boss.
 - New Boss:
   - Duke Dreadmoore <Knight of Naxxramas>, a harbinger of the Dread Citadel enslaved in the prison complex below the torture chambers and experimented on, waiting for the right moment to break free.
 
-  -Scarlet Monastery Library**
+**Scarlet Monastery Library**
 - New Area: One new area have been added with a new boss.
 - New Boss:
   - Brother Wystan, a masterful monk preparing initiates with martial prowess in the hidden chambers of the Library.
 
-  -Scarlet Monastery Armory**
+**Scarlet Monastery Armory**
 - New Area: One new area have been added with a new boss.
 - New Boss:
   - Armory Quartermaster Daghelm, the diligent maintainer of the warehouse and its resources, ready to deal with the enemies of the Crusade.
 
-  -General Notes**
+**General Notes**
 
 These additions are designed to enrich the exploration and combat experience in familiar dungeons with new lore, challenges, and rewards.
 

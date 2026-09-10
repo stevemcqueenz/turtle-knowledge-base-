@@ -10,4 +10,4 @@ categories: ["Mining nodes", "Pages with broken file links"]
 ---
 # Silver Vein
 
--Silver Veins** rarely spawn in place of [Tin Vein](Tin Vein)s; as a result, they can be found in any zone where tin is found.
+**Silver Veins** rarely spawn in place of [Tin Vein](Tin Vein)s; as a result, they can be found in any zone where tin is found.

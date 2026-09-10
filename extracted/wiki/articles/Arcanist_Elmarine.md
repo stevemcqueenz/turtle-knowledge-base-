@@ -25,7 +25,7 @@ categories: ["High elf characters", "Moonwhisper Coast NPCs", "Reagent vendors",
 | location | Sunsworn Camp, Moonwhisper Coast |
 | status | Alive |
 
--Arcanist Elmarine** is a [high elf](high elf) reagents vendor located in [Sunsworn Camp](Sunsworn Camp) in [Moonwhisper Coast](Moonwhisper Coast).
+**Arcanist Elmarine** is a [high elf](high elf) reagents vendor located in [Sunsworn Camp](Sunsworn Camp) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

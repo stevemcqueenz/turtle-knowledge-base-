@@ -11,4 +11,4 @@ categories: ["Creatures"]
 # Duck
 
 s.]]
-  -Ducks** are avian creatures native to [Northwind](Northwind).
+**Ducks** are avian creatures native to [Northwind](Northwind).

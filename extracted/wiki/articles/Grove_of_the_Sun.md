@@ -33,19 +33,7 @@ The **Grove of the Sun** is a small grove located on the isle of [Tyrandas](Tyra
 
 ## Inhabitants
 ### Quest givers
-- 
-- 
-- 
-
-### Goods and services
-- 
-
-### Additional characters
-- 
-- 
-- 
-- 
--  
-
-## Patch changes
+- - - ### Goods and services
+- ### Additional characters
+- - - - - ## Patch changes
 - (Patch 1.18.1|note=Added.)

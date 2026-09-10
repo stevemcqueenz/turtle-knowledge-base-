@@ -13,7 +13,7 @@ categories: ["Addon"]
 cyCircled provides round, textured skins for action buttons used by various addons. It allows users to customize the appearance of their action buttons with different skins, colors, and overlays.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **cyCircled** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **cyCircled** up to date is by using [GitAddonsManager](
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -83,19 +83,19 @@ ElvUI Skin:
   - Normal, hover, and equipped overlay colors.
 
 ## Configuration Options
-  -Skin Selection**
+**Skin Selection**
 - Choose from predefined skins (e.g., Beveled, Circle, Serenity, etc.)
 - Change via dropdown in minimap menu.
-  -Colors**
+**Colors**
 - **Normal**: Default button color.
 - **Hover**: Color when mouse is over.
 - **Equipped**: Overlay color when an item is equipped.
-  -Elements**
+**Elements**
 - Toggle skins for individual elements:
   - Icon, overlay, equip, flash, cooldown, hotkey, count, autocast, autocast arrows, normal, highlight, pushed, checked textures.
 
 ## Skin Elements & Parameters
-  -Supported Skin Elements:**
+**Supported Skin Elements:**
 
 - icon: Button icon texture
 - overlay: Base overlay texture
@@ -107,7 +107,7 @@ ElvUI Skin:
 - autocast: Autocast animation overlay
 - autocastable: Arrow indicators for autocast
 
-  -Texture Parameters:**
+**Texture Parameters:**
 {| class="fandom-table"
 !Parameter
 !Description

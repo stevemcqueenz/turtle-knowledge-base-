@@ -33,38 +33,23 @@ categories: ["Alliance settlements", "Felwood subzones", "Night elf territories"
 | flightpath | Yes |
 | status | Active |
 
--Talonbranch Glade** is a modest [Alliance](Alliance) outpost located in the far northern parts of [Felwood](Felwood). It is populated by a handful of [night elves](night elves), and is not a place where players stay longer than needed. Talonbranch Glade is located a bit south of [Timbermaw Hold](Timbermaw Hold), which leads to [Moonglade](Moonglade) and [Winterspring](Winterspring).
+**Talonbranch Glade** is a modest [Alliance](Alliance) outpost located in the far northern parts of [Felwood](Felwood). It is populated by a handful of [night elves](night elves), and is not a place where players stay longer than needed. Talonbranch Glade is located a bit south of [Timbermaw Hold](Timbermaw Hold), which leads to [Moonglade](Moonglade) and [Winterspring](Winterspring).
 
 The ancient treant [Ethwyr](Ethwyr) sacrificed himself to cleanse this part of Felwood, and druids loyal to [Fandral Staghelm](Fandral Staghelm) arrived to study the area and attempt to replicate his feat. However, not all is what it seems. (ref: [Patch 1.16.4#An Effort to Cleanse Felwood](Patch 1.16.4#An Effort to Cleanse Felwood))
 
 ## Travel connections
 ### Flight
-  - [Auberdine](Auberdine), [Darkshore](Darkshore)**
-  - [Talrendis Point](Talrendis Point), [Azshara](Azshara)**
-  - [Moonglade](Moonglade)**
-  - [Everlook](Everlook), [Winterspring](Winterspring)**
+** [Auberdine](Auberdine), [Darkshore](Darkshore)**
+** [Talrendis Point](Talrendis Point), [Azshara](Azshara)**
+** [Moonglade](Moonglade)**
+** [Everlook](Everlook), [Winterspring](Winterspring)**
 
 ## Inhabitants
 ### Quest givers
-- 
-- 
-- 
-- 
-
-### Goods and services
-- 
-- 
-- 
-- 
-  - 
-- 
-- 
-- 
-
-### Additional characters
-- 
-  - 
-- 
+- - - - ### Goods and services
+- - - - - * 
+- - ### Additional characters
+- - * 
 
 ## Patch changes
 - (Patch 1.16.4|note=Area expanded.)

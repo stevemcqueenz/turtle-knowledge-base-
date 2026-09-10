@@ -25,22 +25,22 @@ categories: ["Bosses", "Doomguards", "Stubs", "Tower of Karazhan mobs", "Turtle 
 | status | Killable |
 | instance | Tower of Karazhan |
 
--Kruul** is the eighth boss of [Tower of Karazhan](Tower of Karazhan).
+**Kruul** is the eighth boss of [Tower of Karazhan](Tower of Karazhan).
 
 ## Quotes
-  -Aggro**
+**Aggro**
   Standing before the High Lord of the Burning Legion, so far from home? Daring...
 
-  -During combat**
+**During combat**
   Like lambs to the slaughter!
 
-  -Mark of the Highlord**
+**Mark of the Highlord**
   Let your magic burn you inside and out!
 
-  -Enrage**
+**Enrage**
   I grow tired of your insolence. Begone!
 
-  -Death**
+**Death**
   I shall see you again, mortals.
 
 ## Patch changes

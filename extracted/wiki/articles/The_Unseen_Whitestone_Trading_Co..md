@@ -10,4 +10,4 @@ categories: []
 ---
 # The Unseen / Whitestone Trading Co.
 
--*The Whitestone Trading Co.***, commonly referred as ***The Unseen*** (*OOC*), is a crossfaction guild originally founded by Sera'Thenis Uldreyin ([Sera'Thenis, The Devil](Sera'Thenis, The Devil)) and with its headquarters in Stormwind City. Its aims are the enrichment of the owners and high ranks with not-so-legitimate businesses in both Kalimdor and the Eastern Kingdoms, often smuggling and trading prohibited goods, sometimes stolen.
+***The Whitestone Trading Co.***, commonly referred as ***The Unseen*** (*OOC*), is a crossfaction guild originally founded by Sera'Thenis Uldreyin ([Sera'Thenis, The Devil](Sera'Thenis, The Devil)) and with its headquarters in Stormwind City. Its aims are the enrichment of the owners and high ranks with not-so-legitimate businesses in both Kalimdor and the Eastern Kingdoms, often smuggling and trading prohibited goods, sometimes stolen.

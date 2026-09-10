@@ -20,6 +20,6 @@ categories: ["Arathor", "Aristocrats", "Deceased characters", "Human characters"
 | status | Deceased |
 | relatives | Thoradin III (father) |
 
--Lenarol I** (ref: [The Silverpine Wars](The Silverpine Wars)) was the king of the [Empire of Arathor](Empire of Arathor) at the time of the Gilnean war of independence, having succeeded his father [Thoradin III](Thoradin III) following his death in the battle of [Stillward](Stillward Church). (ref: [The First Greymane](The First Greymane)) Prince Lenarol was the one who came to sue for peace with the Gilneans, bestowing upon them the lands of the Gilnean peninsula into Silverpine Forest.
+**Lenarol I** (ref: [The Silverpine Wars](The Silverpine Wars)) was the king of the [Empire of Arathor](Empire of Arathor) at the time of the Gilnean war of independence, having succeeded his father [Thoradin III](Thoradin III) following his death in the battle of [Stillward](Stillward Church). (ref: [The First Greymane](The First Greymane)) Prince Lenarol was the one who came to sue for peace with the Gilneans, bestowing upon them the lands of the Gilnean peninsula into Silverpine Forest.
 
 ## References

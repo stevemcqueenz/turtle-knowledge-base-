@@ -25,5 +25,5 @@ This is one of the many names taken from the works of [Tolkien](Tolkien).
 - Worgs, when tamed as a hunter pet, are in the same category as wolves and have the same skills.
 
 ## See Also
--[Worg Pup](Worg Pup)
--[Worgen](Worgen)
+- [Worg Pup](Worg Pup)
+- [Worgen](Worgen)

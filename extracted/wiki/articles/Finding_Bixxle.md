@@ -41,8 +41,8 @@ Yes?
 Huh, Telraz sent you? I was wondering when he would check in, I guess everything has gotten quite crazy around here after all!
 
 ## Progression
-1.[quest: Finding Bixxle!]
-1.[quest: A Report From Bixxle]
+1. [quest: Finding Bixxle!]
+1. [quest: A Report From Bixxle]
 
 ## Patch changes
 - (Patch 1.16.4|note=Added.)

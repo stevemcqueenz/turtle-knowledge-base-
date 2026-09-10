@@ -10,6 +10,6 @@ categories: ["Caves", "Gnoll territories", "Redridge Mountains subzones"]
 ---
 # Rethban Caverns
 
--Rethban Caverns** is an extensive series of caverns which extend deep into the northwestern section of the [Redridge Mountains](Redridge Mountains). Adventurers sometimes visit the caverns in search of [Rethban Ore](Rethban Ore), which can be found in the possession of the local [gnoll](gnoll)s who are led by the cunning [Ardo Dirtpaw](Ardo Dirtpaw).
+**Rethban Caverns** is an extensive series of caverns which extend deep into the northwestern section of the [Redridge Mountains](Redridge Mountains). Adventurers sometimes visit the caverns in search of [Rethban Ore](Rethban Ore), which can be found in the possession of the local [gnoll](gnoll)s who are led by the cunning [Ardo Dirtpaw](Ardo Dirtpaw).
 
 The caverns may have been named after [Bart Rethban](Bart Rethban).

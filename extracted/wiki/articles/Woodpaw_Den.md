@@ -10,4 +10,4 @@ categories: ["Caves", "Feralas subzones", "Gnoll territories", "Pages with broke
 ---
 # Woodpaw Den
 
--Woodpaw Den** is an area of [Feralas](Feralas) which is heavily populated by the [Woodpaw tribe](Woodpaw tribe) of [gnoll](gnoll)s.
+**Woodpaw Den** is an area of [Feralas](Feralas) which is heavily populated by the [Woodpaw tribe](Woodpaw tribe) of [gnoll](gnoll)s.

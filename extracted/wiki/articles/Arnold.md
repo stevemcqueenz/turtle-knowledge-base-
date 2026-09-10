@@ -25,10 +25,10 @@ categories: ["Human characters", "Northwind NPCs", "Stormwind (kingdom)", "Turtl
 | status | Alive |
 | relatives | Christoph (father) |
 
--Arnold** is a [human](human) boy located in [Stillheart Port](Stillheart Port) in [Northwind](Northwind).
+**Arnold** is a [human](human) boy located in [Stillheart Port](Stillheart Port) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Why is father taking so long? He wanted to buy me these yummy donuts from the Jousting Grounds!
 
 ## Patch changes

@@ -10,10 +10,10 @@ categories: ["Addon"]
 ---
 # BugSack
 
--BugSack** is a bug tracking addon that captures and displays error messages, allowing players and developers to review and report bugs efficiently. It integrates with BugGrabber for error collection and provides commands and UI options to manage error logs.
+**BugSack** is a bug tracking addon that captures and displays error messages, allowing players and developers to review and report bugs efficiently. It integrates with BugGrabber for error collection and provides commands and UI options to manage error logs.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **BugSack** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **BugSack** up to date is by using [GitAddonsManager](Gi
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -32,7 +32,7 @@ If you prefer manual installation, follow these steps:
 - !BugGrabber
 - BugSack
 
-  -Optional**: 
+**Optional**: 
 
 - [FuBar](FuBar) 
 

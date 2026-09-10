@@ -27,17 +27,17 @@ categories: ["Instance navigation templates"]
 [Arc'tiras](Arc'tiras)
 
 |
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 |-
 | class="title" colspan="2"| [Loot](Stormwind Vault loot)
 |}

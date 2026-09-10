@@ -82,4 +82,4 @@ Tasked with oversight of all foreign affairs and diplomatic efforts, the Departm
 
 Though still reeling over the tragedies of Gnomeregan, one of the first orders of the High Tinker after establishing the Federation was to reinforce the Alliance in the fight against the Horde.
 
--Work in progress..*
+*Work in progress..*

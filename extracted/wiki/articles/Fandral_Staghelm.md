@@ -14,7 +14,7 @@ has no idea how to lead our people!
 
 I have vision that she lacks....</i>"]]
 __NOTOC__
-  -Fandral Staghelm** is the current Arch-Druid of the [Kaldorei](Night Elves).
+**Fandral Staghelm** is the current Arch-Druid of the [Kaldorei](Night Elves).
 
 Fandral was one of [Malfurion Stormrage](Malfurion Stormrage)'s top lieutenants, and trained many of the newest generation of druids of the wild. His hot temperament has sometimes clashed with the more restrained Malfurion. Fandral believes that the future of the [Night Elves](Night Elves) demands more expansionism and military planning. His radical beliefs and aggressive demeanor often lead him to quarrel openly with [Tyrande](Tyrande). 
 
@@ -33,9 +33,9 @@ Later they were nothing, their defiance defeated.
 
 ## Quests
 Arch Druid Fandral Staghelm starts the following quests:
--  [11] [Grove of the Ancients](Quest:Grove of the Ancients)
--  [50] [Un'Goro Soil](Quest:Un'Goro Soil)
--  [50] [Morrowgrain Research (1)](Quest:Morrowgrain Research (1))
--  [55] [The New Frontier (2)](Quest:The New Frontier (2))
+- [11] [Grove of the Ancients](Quest:Grove of the Ancients)
+- [50] [Un'Goro Soil](Quest:Un'Goro Soil)
+- [50] [Morrowgrain Research (1)](Quest:Morrowgrain Research (1))
+- [55] [The New Frontier (2)](Quest:The New Frontier (2))
 
 See [List of Darnassus NPCs](List of Darnassus NPCs).

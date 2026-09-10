@@ -24,6 +24,6 @@ categories: ["Booty Bay characters", "Bruisers", "Goblin characters", "Guards", 
 | affiliation | Booty Bay |
 | location | Booty Bay, Stranglethorn Vale |
 
--Booty Bay Bruisers** are [goblin](goblin)s located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale).
+**Booty Bay Bruisers** are [goblin](goblin)s located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale).
 
 ## External links

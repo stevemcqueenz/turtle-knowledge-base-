@@ -10,7 +10,7 @@ categories: ["Readable items", "Turtle WoW content"]
 ---
 # Perfumed Letter (1)
 
--Perfumed Letter #1** is acquired by speaking with [Gertrud Selind](Gertrud Selind) in [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind).
+**Perfumed Letter #1** is acquired by speaking with [Gertrud Selind](Gertrud Selind) in [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind).
 
 ## Contains
 ## Patch changes

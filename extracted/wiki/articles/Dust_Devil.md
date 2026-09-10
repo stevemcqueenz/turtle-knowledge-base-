@@ -10,7 +10,7 @@ categories: ["Air Elemental"]
 ---
 # Dust Devil
 
--Dust Devils** are [elemental](elemental) monsters that roam the grasslands of [Westfall](Westfall).  Dust Devils are typically around level 18, and they can be extremely dangerous to [player](player)s who have only recently "graduated" from [Elwynn Forest](Elwynn Forest).
+**Dust Devils** are [elemental](elemental) monsters that roam the grasslands of [Westfall](Westfall).  Dust Devils are typically around level 18, and they can be extremely dangerous to [player](player)s who have only recently "graduated" from [Elwynn Forest](Elwynn Forest).
 
 Characteristics:
 - Dust Devils have a whirlwind attack that can [root](root) opponents.

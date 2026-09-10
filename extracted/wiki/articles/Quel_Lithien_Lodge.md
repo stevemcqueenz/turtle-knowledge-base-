@@ -10,6 +10,6 @@ categories: ["Eastern Plaguelands subzones", "High elf territories", "Hunting lo
 ---
 # Quel'Lithien Lodge
 
--Not to be confused with [Quel'Danil Lodge](Quel'Danil Lodge).*
+*Not to be confused with [Quel'Danil Lodge](Quel'Danil Lodge).*
 
 [Quel'Lithien Lodge](Quel'Lithien Lodge) is a [high elven](high elven) hunting lodge near the entrance to the ruined kingdom of [Quel'Thalas](Quel'Thalas). It is one of two major concentrations of high elves in [Lordaeron](Lordaeron). Quel'Lithien is home to [Ranger Lord Hawkspear](Ranger Lord Hawkspear), a silver elite [Alliance](Alliance) NPC. It is also the home to the [ranger](ranger)s, [pathstrider](pathstrider)s, and [woodsmen](woodsman) that are the object of the quest [The Ranger Lord's Behest](The Ranger Lord's Behest).

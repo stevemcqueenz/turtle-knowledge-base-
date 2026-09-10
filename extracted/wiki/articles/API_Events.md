@@ -933,7 +933,7 @@ Fired when the client recieved a time played message.
 - **arg2**: Current time at this level
 
 ## TOOLTIP_ADD_MONEY
--Event was removed in version 1700. See OnTooltipAddMoney* Fired when a tooltip has money added to it.
+*Event was removed in version 1700. See OnTooltipAddMoney* Fired when a tooltip has money added to it.
 
 - **arg1**: tooltip name
 - **arg2**: money amount
@@ -1064,7 +1064,7 @@ Fired when a target's faction is announced.
 Same as UNIT_MANA, except for certain classes. Hunter used to use focus, but now they use mana. But it is still used when a pets energy changes.
 
 ## UNIT_HAPPINESS
--Not studied*
+*Not studied*
 
 ## UNIT_HEALTH
 Fired whenever a units health is affected. It is so important that it gets called twice when it's about the player (might do the same for other things too)
@@ -1095,7 +1095,7 @@ Fired when a unit's maximum energy changes.
 Fired when a unit's maximum focus changes.
 
 ## UNIT_MAXHAPPINESS
--Not studied*
+*Not studied*
 
 ## UNIT_MAXHEALTH
 Fired when a unit's maximum health changes.

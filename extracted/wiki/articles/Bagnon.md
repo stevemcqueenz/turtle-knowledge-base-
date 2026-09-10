@@ -10,10 +10,10 @@ categories: ["Addon"]
 ---
 # Bagnon
 
--Bagnon** is designed to enhance inventory management. It consolidates all your bags and bank contents into single, customizable frames for easier access and organization. Additionally, it offers features like color-coded item slots, quick switching between characters’ inventories, and flexible configuration options to improve your overall gameplay experience by making inventory management more streamlined and visually intuitive.
+**Bagnon** is designed to enhance inventory management. It consolidates all your bags and bank contents into single, customizable frames for easier access and organization. Additionally, it offers features like color-coded item slots, quick switching between characters’ inventories, and flexible configuration options to improve your overall gameplay experience by making inventory management more streamlined and visually intuitive.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **Bagnon** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **Bagnon** up to date is by using [GitAddonsManager](Git
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -34,7 +34,7 @@ If you prefer manual installation, follow these steps:
 - Bagnon_Forever
 - Bagnon_Options
 
-  -Optional**: [KC_Items](https://github.com/crazypoultry/Wow1.12.1_Addons_Collection/tree/master/KC_Items_v.94.5)
+**Optional**: [KC_Items](https://github.com/crazypoultry/Wow1.12.1_Addons_Collection/tree/master/KC_Items_v.94.5)
 
 ## Git Links
 - [**(McPewPew)**](https://github.com/McPewPew/Bagnon)
@@ -66,23 +66,23 @@ If you prefer manual installation, follow these steps:
 |Disables debug information.
 |}
 
-  -Keybindings**
+**Keybindings**
 - **Toggle Inventory:** <code>BAGNON_TOGGLE</code>
 - **Toggle Bank:** <code>BANKNON_TOGGLE</code>
 
-  -Moving Frames**
+**Moving Frames**
 
 - Unlock frames (via right-click menu), then click and drag the title bar to reposition.
 
-  -Hiding Bags**
+**Hiding Bags**
 
 - Shift-Click on any bag within the frame to toggle its visibility.
 
-  -Viewing Other Characters**
+**Viewing Other Characters**
 
 - Click the arrow button on the frame title to select a different character’s inventory or bank.
 
-  -Searching**
+**Searching**
 
 - Double-click the frame title to open a search box.
 

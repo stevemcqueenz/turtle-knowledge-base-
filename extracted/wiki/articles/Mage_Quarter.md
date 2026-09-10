@@ -15,4 +15,4 @@ The **Mage Quarter** lies in the southern corner of [Stormwind City](Stormwind C
 To get to the Mage Quarter, you can head southwest from the [Trade District](Trade District) or southeast from the [Park](Park).
 
 ## Notes
--There are a few night elves there despite them being unable to become mages nor warlocks.
+- There are a few night elves there despite them being unable to become mages nor warlocks.

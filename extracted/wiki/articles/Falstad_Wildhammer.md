@@ -27,7 +27,7 @@ categories: ["Hinterlands NPCs", "Quest givers", "Wildhammer clan", "Wildhammer 
 | location | Aerie Peak, Hinterlands |
 | status | Alive |
 
--Falstad Wildhammer**, also known as **Falstad Dragonreaver**, (ref: *[Day of the Dragon](Day of the Dragon)*, chapter 7) is the High Thane of the [Wildhammer clan](Wildhammer clan). He ruled the Wildhammer clan from [Aerie Peak](Aerie Peak) in the [Hinterlands](Hinterlands) following the departure of [Kurdran Wildhammer](Kurdran Wildhammer) and joined his companions [Rhonin](Rhonin) and [Vereesa](Vereesa Windrunner) in freeing the Dragon Queen [Alexstrasza](Alexstrasza) from [Grim Batol](Grim Batol).
+**Falstad Wildhammer**, also known as **Falstad Dragonreaver**, (ref: *[Day of the Dragon](Day of the Dragon)*, chapter 7) is the High Thane of the [Wildhammer clan](Wildhammer clan). He ruled the Wildhammer clan from [Aerie Peak](Aerie Peak) in the [Hinterlands](Hinterlands) following the departure of [Kurdran Wildhammer](Kurdran Wildhammer) and joined his companions [Rhonin](Rhonin) and [Vereesa](Vereesa Windrunner) in freeing the Dragon Queen [Alexstrasza](Alexstrasza) from [Grim Batol](Grim Batol).
 
 ## Biography
 ### Day of the Dragon
@@ -42,7 +42,7 @@ Now High Thane, Falstad appears as a quest giver located at [Aerie Peak](Aerie P
 - [quest: Nat Pagle, Murloc Expert] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I am Falstad, Thane of the Wildhammer Clan. Can you smell it upon the air, the foul stench of troll lingers like a taint upon The Hinterlands.
 
 The trolls have been encroaching ever closer to Aerie Peak, and it is our job to stifle them at every chance that we can.

@@ -10,9 +10,7 @@ categories: ["Defias Brotherhood", "Farms", "Human territories", "Westfall subzo
 ---
 # Furlbrow's Pumpkin Patch
 
--Furlbrow's Pumpkin Patch** is one of the many farms in [Westfall](Westfall) that has been taken over by the [Defias Brotherhood](Defias Brotherhood) and their mechanical [harvest golem](harvest golem)s. Now the killing machines patrol the fields and Defias have taken up residence in the buildings. [Farmer Furlbrow](Farmer Furlbrow) and his wife [Verna](Verna Furlbrow) have fled and can be found on the road near the [Jansen Stead](Jansen Stead) in northern Westfall.
+**Furlbrow's Pumpkin Patch** is one of the many farms in [Westfall](Westfall) that has been taken over by the [Defias Brotherhood](Defias Brotherhood) and their mechanical [harvest golem](harvest golem)s. Now the killing machines patrol the fields and Defias have taken up residence in the buildings. [Farmer Furlbrow](Farmer Furlbrow) and his wife [Verna](Verna Furlbrow) have fled and can be found on the road near the [Jansen Stead](Jansen Stead) in northern Westfall.
 
 ## NPCs
-- 
-- 
--
+- - -

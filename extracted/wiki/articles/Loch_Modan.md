@@ -24,7 +24,7 @@ categories: ["Dwarf territories", "Eastern Kingdoms", "Loch Modan", "Turtle WoW 
 | minor | Valley of Kings, Algaz Station, Farstrider Lodge |
 | affiliation | Kingdom of Ironforge, Alliance, Silvermoon Remnant, Dark Iron clan, Mo'grosh, Stonesplinter tribe, Tunnel Rat, Horde Runners |
 
--Loch Modan** is a large area east of [Dun Morogh](Dun Morogh), situated in eastern [Khaz Modan](Khaz Modan). It is known for its temperate climate, abandoned archaeological dig site and the huge lake from which the region takes its name. The gray and rugged Khaz Modan mountains rise up on all sides around the loch, and the hills are lightly wooded with pine and birch. The loch is held in place by the [Stonewrought Dam](Stonewrought Dam), an architectural wonder of no equal on [Azeroth](Azeroth).
+**Loch Modan** is a large area east of [Dun Morogh](Dun Morogh), situated in eastern [Khaz Modan](Khaz Modan). It is known for its temperate climate, abandoned archaeological dig site and the huge lake from which the region takes its name. The gray and rugged Khaz Modan mountains rise up on all sides around the loch, and the hills are lightly wooded with pine and birch. The loch is held in place by the [Stonewrought Dam](Stonewrought Dam), an architectural wonder of no equal on [Azeroth](Azeroth).
 
 Loch Modan is heavily populated by hostile [trogg](trogg)s, unearthed from caves below ground by the dwarven digs. They have since settled in the surrounding mountainous area and built crude camps and caves from which to strike at passing travelers. Other dangers include dangerous wildlife, aggressive [kobold](kobold)s, and the powerful [ogre](ogre)s of the [Mo'grosh Stronghold](Mo'grosh Stronghold).
 
@@ -97,18 +97,18 @@ WorldMap-LochModan-old.jpg|Loch Modan prior to [patch 1.17.0](patch 1.17.0).
   - [Simple Wood Tree](Simple Wood Tree)
 
 ## Wild creatures
--[Bear](Bear)s
--[Boar](Boar)s
--[Carrion Bird](Carrion Bird)s
--[Crocolisk](Crocolisk)s
--[Dark Iron dwarves](Dark Iron dwarf)
--[Frenzies](Frenzy (Fish))
--[Kobold](Kobold)s
--[Mountain Buzzard](Mountain Buzzard)s
--[Ogre](Ogre)s
--[Spider](Spider)s
--[Threshadon](Threshadon)s
--[Trogg](Trogg)s
+- [Bear](Bear)s
+- [Boar](Boar)s
+- [Carrion Bird](Carrion Bird)s
+- [Crocolisk](Crocolisk)s
+- [Dark Iron dwarves](Dark Iron dwarf)
+- [Frenzies](Frenzy (Fish))
+- [Kobold](Kobold)s
+- [Mountain Buzzard](Mountain Buzzard)s
+- [Ogre](Ogre)s
+- [Spider](Spider)s
+- [Threshadon](Threshadon)s
+- [Trogg](Trogg)s
 
 ## Patch changes
 - (Patch 1.18.0|note=Tunnel to [Grim Reaches](Grim Reaches) added.)

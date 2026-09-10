@@ -48,4 +48,4 @@ As you stand before the totem, a voice touches your mind. It seems to call for h
 # [52] [To Heal A Soul](To Heal A Soul)
 
 ## Patch changes
--  **[Patch 1.16.4](Patch 1.16.4) (2022-12-20):** Added.
+- **[Patch 1.16.4](Patch 1.16.4) (2022-12-20):** Added.

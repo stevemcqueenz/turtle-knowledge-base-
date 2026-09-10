@@ -25,7 +25,7 @@ categories: ["Armor vendors", "Blacksmiths", "Dwarf characters", "Stonetalon Mou
 | location | Bael Hardul, Stonetalon Mountains |
 | status | Alive |
 
--Dugin Coalborn** is a [dwarf](dwarf) armor vendor located in [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains).
+**Dugin Coalborn** is a [dwarf](dwarf) armor vendor located in [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains).
 
 ## Speculation
 - He may be related to [Halfdan Coalborn](Halfdan Coalborn) and [Orion Coalborn](Orion Coalborn).

@@ -25,10 +25,10 @@ categories: ["Forest troll characters", "Hinterlands NPCs", "Turtle WoW content"
 | location | Revantusk Village, Hinterlands |
 | status | Alive |
 
--Mezaji** is a [forest troll](forest troll) warlock trainer located in [Revantusk Village](Revantusk Village) in the [Hinterlands](Hinterlands).
+**Mezaji** is a [forest troll](forest troll) warlock trainer located in [Revantusk Village](Revantusk Village) in the [Hinterlands](Hinterlands).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Da dark voodoo that we wield be often overlooked by others. They be gravely mistaken.
 
 ## Patch changes

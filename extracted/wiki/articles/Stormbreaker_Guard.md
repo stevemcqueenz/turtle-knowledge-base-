@@ -24,7 +24,7 @@ categories: ["Balor NPCs", "Bleeding Hollow clan", "Guards", "Orc characters", "
 | gender | Male |
 | location | Stormbreaker Point, Balor |
 
--Stormbreaker Guards** are orc guards defending the town of [Stormbreaker Point](Stormbreaker Point) on the island of [Balor](Balor).
+**Stormbreaker Guards** are orc guards defending the town of [Stormbreaker Point](Stormbreaker Point) on the island of [Balor](Balor).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

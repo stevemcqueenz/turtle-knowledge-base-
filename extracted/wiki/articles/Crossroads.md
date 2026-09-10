@@ -10,7 +10,7 @@ categories: ["Barrens subzones", "Horde towns", "Orc territories", "Stubs", "Tau
 ---
 # Crossroads
 
--The Crossroads** is the largest [Horde](Horde) [town](town) in the [Barrens](Barrens), aptly named for the crossing of the main north-south road (from the [Gold Road](Gold Road)) and the road from [Ratchet](Ratchet) in the east all the way to the [Stonetalon Mountains](Stonetalon Mountains) in the west. Combined with its central location and the [Wyvern](Wyvern) flight routes, the Crossroads offers access to nearly all Horde outposts in [Kalimdor](Kalimdor). As such, this small crossing is the usually the first place you will see large gatherings of players outside of [Orgrimmar](Orgrimmar) or [Thunder Bluff](Thunder Bluff).
+**The Crossroads** is the largest [Horde](Horde) [town](town) in the [Barrens](Barrens), aptly named for the crossing of the main north-south road (from the [Gold Road](Gold Road)) and the road from [Ratchet](Ratchet) in the east all the way to the [Stonetalon Mountains](Stonetalon Mountains) in the west. Combined with its central location and the [Wyvern](Wyvern) flight routes, the Crossroads offers access to nearly all Horde outposts in [Kalimdor](Kalimdor). As such, this small crossing is the usually the first place you will see large gatherings of players outside of [Orgrimmar](Orgrimmar) or [Thunder Bluff](Thunder Bluff).
 
 In addition to the numerous Horde players that gather there, Crossroads attracts its fair share of Alliance players as well. Within striking distance of [Ashenvale](Ashenvale) to the north, and the port of [Ratchet](Ratchet) to the east, it is not uncommon to find an all out war happening outside one of the entrances of Crossroads on a daily basis. Larger scale [Alliance](Alliance) assaults tend to occur during peak server population periods. (Between 4 PM and around midnight.)
 
@@ -30,64 +30,64 @@ For some reason, there are many locations, especially on some parts of instances
 
 ## Travel Connections
 ### Flight
-  - [Orgrimmar](Orgrimmar)**
+** [Orgrimmar](Orgrimmar)**
 
-  - [Thunder Bluff](Thunder Bluff)**
+** [Thunder Bluff](Thunder Bluff)**
 
-  - [Bloodvenom Post](Bloodvenom Post)**
+** [Bloodvenom Post](Bloodvenom Post)**
 
-  - [Valormok](Valormok)**
+** [Valormok](Valormok)**
 
-  - [Zoram'gar Outpost](Zoram'gar Outpost)**
+** [Zoram'gar Outpost](Zoram'gar Outpost)**
 
-  - [Splintertree Post](Splintertree Post)**
+** [Splintertree Post](Splintertree Post)**
 
-  - [Sun Rock Retreat](Sun Rock Retreat)**
+** [Sun Rock Retreat](Sun Rock Retreat)**
 
-  - [Camp Taurajo](Camp Taurajo)**
+** [Camp Taurajo](Camp Taurajo)**
 
-  - [Brackenwall Village](Brackenwall Village)**
+** [Brackenwall Village](Brackenwall Village)**
 
-  - [Camp Mojache](Camp Mojache)**
+** [Camp Mojache](Camp Mojache)**
 
-  - [Freewind Post](Freewind Post)**
+** [Freewind Post](Freewind Post)**
 
-  - [Ratchet](Ratchet)**
+** [Ratchet](Ratchet)**
 
-  - [Gadgetzan](Gadgetzan)**
+** [Gadgetzan](Gadgetzan)**
 
 ## The Crossroads NPCs
--  [Darsok Swiftdagger](Darsok Swiftdagger)
--  [Devrak](Devrak) - Wind Rider Master
--  [Gazrog](Gazrog)
--  [Mankrik](Mankrik)
--  [Thork](Thork)
--  [Sergra Darkthorn](Sergra Darkthorn)
--  [Innkeeper Boorand Plainswind](Innkeeper Boorand Plainswind) - Innkeeper
--  [Tonga Runetotem](Tonga Runetotem)
--  [Sikwa](Sikwa) - Stable Master
--  [Apothecary Helbrim](Apothecary Helbrim)
--  [Grenthar](Grenthar)
--  [Korran](Korran)
+- [Darsok Swiftdagger](Darsok Swiftdagger)
+- [Devrak](Devrak) - Wind Rider Master
+- [Gazrog](Gazrog)
+- [Mankrik](Mankrik)
+- [Thork](Thork)
+- [Sergra Darkthorn](Sergra Darkthorn)
+- [Innkeeper Boorand Plainswind](Innkeeper Boorand Plainswind) - Innkeeper
+- [Tonga Runetotem](Tonga Runetotem)
+- [Sikwa](Sikwa) - Stable Master
+- [Apothecary Helbrim](Apothecary Helbrim)
+- [Grenthar](Grenthar)
+- [Korran](Korran)
 
 ### Trainers
--  [Traugh](Traugh) - Blacksmithing (Expert)
--  [Kil'hala](Kil'hala) - Tailoring (Journeyman)
+- [Traugh](Traugh) - Blacksmithing (Expert)
+- [Kil'hala](Kil'hala) - Tailoring (Journeyman)
 
 ### Merchants
--  [Barg](Barg) - General Supplies
--  [Hraq](Hraq) - Blacksmithing Supplier
--  [Larhka](Larhka) - Beverage Merchant
--  [Nargal Deatheye](Nargal Deatheye) - Weaponsmith
--  [Uthrok](Uthrok) - Bowyer & Gunsmith
--  [Wrahk](Wrahk) - Tailoring Supplier
--  [Zargh](Zargh) - Butcher
--  [Jahan Hawkwing](Jahan Hawkwing) - Leather & Mail Armor
--  [Halija Whitestrider](Halija Whitestrider) - Clothier
--  [Moorane Hearthgrain](Moorane Hearthgrain) - Baker
--  [Hula'mahi](Hula'mahi) - Reagents, Herbs and Poison Supplies
--  [Kalyimah Stormcloud](Kalyimah Stormcloud) - Bags & Sacks
--  [Tari'qa](Tari'qa) - Trade Supplies
+- [Barg](Barg) - General Supplies
+- [Hraq](Hraq) - Blacksmithing Supplier
+- [Larhka](Larhka) - Beverage Merchant
+- [Nargal Deatheye](Nargal Deatheye) - Weaponsmith
+- [Uthrok](Uthrok) - Bowyer & Gunsmith
+- [Wrahk](Wrahk) - Tailoring Supplier
+- [Zargh](Zargh) - Butcher
+- [Jahan Hawkwing](Jahan Hawkwing) - Leather & Mail Armor
+- [Halija Whitestrider](Halija Whitestrider) - Clothier
+- [Moorane Hearthgrain](Moorane Hearthgrain) - Baker
+- [Hula'mahi](Hula'mahi) - Reagents, Herbs and Poison Supplies
+- [Kalyimah Stormcloud](Kalyimah Stormcloud) - Bags & Sacks
+- [Tari'qa](Tari'qa) - Trade Supplies
 
 ## Quests That Begin Here
 - [quest: Ride to Orgrimmar].
@@ -95,17 +95,17 @@ For some reason, there are many locations, especially on some parts of instances
 - [quest: Wharfmaster Dizzywig (Horde)]
 - [quest: Plainstrider Menace]
   - [quest: The Zhevra]
-  -* [quest: Prowlers of the Barrens]
-  -** [quest: Echeyakee]
-  -*** [quest: The Angry Scytheclaws]
-  -**** [quest: Jorn Skyseer]
+  - * [quest: Prowlers of the Barrens]
+  - ** [quest: Echeyakee]
+  - *** [quest: The Angry Scytheclaws]
+  - **** [quest: Jorn Skyseer]
 - [quest: Disrupt the Attacks]
   - [quest: The Disruption Ends]
 - [quest: The Forgotten Pools]
   - [quest: The Stagnant Oasis]
-  -* [quest: Altered Beings]
-  -** [quest: Hamuul Runetotem]
-  -** [quest: Mura Runetotem]
+  - * [quest: Altered Beings]
+  - ** [quest: Hamuul Runetotem]
+  - ** [quest: Mura Runetotem]
 - [quest: Raptor Thieves]
   - [quest: Stolen Silver]
 - [quest: Supplies for the Crossroads]
@@ -113,8 +113,8 @@ For some reason, there are many locations, especially on some parts of instances
   - [quest: Apothecary Zamah]
 - [quest: Harpy Raiders]
   - [quest: Harpy Lieutenants]
-  -* [quest: Serena Bloodfeather]
-  -** [quest: Letter to Jin'Zil]
+  - * [quest: Serena Bloodfeather]
+  - ** [quest: Letter to Jin'Zil]
 - [quest: Report to Kadrak]
 - [quest: Consumed by Hatred]
 - [quest: Lost In Battle]
@@ -122,6 +122,4 @@ For some reason, there are many locations, especially on some parts of instances
 - [quest: The Swarm Grows]
 
 ### Class Specific
-- 
-- 
-  -
+- - -

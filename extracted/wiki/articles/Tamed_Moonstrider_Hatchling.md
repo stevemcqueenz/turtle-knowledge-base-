@@ -22,7 +22,7 @@ categories: ["Moonwhisper Coast NPCs", "Plainstriders", "Turtle WoW content"]
 | location | Moro'gai Village, Moonwhisper Coast |
 | status | Alive |
 
--Tamed Moonstrider Hatchlings** are [plainstrider](plainstrider)s located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast). They are being tended to by [Tobuuri](Tobuuri).
+**Tamed Moonstrider Hatchlings** are [plainstrider](plainstrider)s located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast). They are being tended to by [Tobuuri](Tobuuri).
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

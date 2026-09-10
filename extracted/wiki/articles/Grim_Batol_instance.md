@@ -15,4 +15,4 @@ categories: ["Eastern Kingdoms"]
 | name | Grim Batol |
 | loc | Khaz Modan |
 
--Grim Batol** is a planned raid for Turtle WoW.
+**Grim Batol** is a planned raid for Turtle WoW.

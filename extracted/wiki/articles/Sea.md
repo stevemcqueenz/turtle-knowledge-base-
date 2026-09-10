@@ -10,7 +10,7 @@ categories: ["Azeroth", "Seas"]
 ---
 # Sea
 
--Seas** are large bodies of water found on the different worlds.
+**Seas** are large bodies of water found on the different worlds.
 
 ## List of seas
 ### Azeroth

@@ -11,14 +11,14 @@ categories: ["Game Mechanics"]
 # Magical Resistance
 
 ## Miss Chance and Resistance Mechanics
-  -Spell Miss Chance by Level Difference**
+**Spell Miss Chance by Level Difference**
 
 When an offensive spell is cast, the target has two separate chances to resist or avoid the spell:
 
   1:  **Level Difference Check (Miss Chance):**  This check is based on the level difference between the caster and the target, and can be affected by the caster's +spell hit% equipment and talents like *Arcane Focus*.  
   
   
-  -Level Difference vs. Miss Chance (PvE & PvP):**
+**Level Difference vs. Miss Chance (PvE & PvP):**
 
 {| class="fandom-table"
 !Level Difference
@@ -69,21 +69,21 @@ When an offensive spell is cast, the target has two separate chances to resist o
   - Max average resistance is capped at **75%**.
   - Resistance scaling treats casters below level 20 as level 20.
   - For example:
-  -* Level 20 caster: 100 resistance for 75% max resistance.
-  -* Level 30 caster: 150 resistance.
-  -* Level 50 caster: 250 resistance.
-  -* Level 60 caster: 300 resistance.
-  -* Level 63 caster: 315 resistance.
+  - * Level 20 caster: 100 resistance for 75% max resistance.
+  - * Level 30 caster: 150 resistance.
+  - * Level 50 caster: 250 resistance.
+  - * Level 60 caster: 300 resistance.
+  - * Level 63 caster: 315 resistance.
 - **Impact of Resistance:**  Higher resistance increases the chance to completely resist or significantly reduce damage. For damage spells, resistance results in various resist percentages (0%, 25%, 50%, 75%, or 100%).
 
 ## Damage Absorption and Damage Reduction
 - **Damage Absorbed Calculation:**  The amount of damage a character can soak per point of health depends on resistance: <math> \text{Damage Absorbed} / \text{Actual Damage Taken} = \frac{1}{1 - \left(\frac{\text{Resistance}}{5 \times \text{Caster Level}}\right) \times 0.75} - 1 </math>
-  -Example**:
+**Example**:
 - **Level 60 caster**, **200 resistance**:
   - Resists approximately 1000 damage per 1000 damage taken.
 - **Level 60 caster**, **240 resistance**:
   - Resists approximately 1500 damage per 1000 damage taken.
-  -Practical Example:**  Two mages (both with 3000 HP) fighting Ragnaros (level 63):
+**Practical Example:**  Two mages (both with 3000 HP) fighting Ragnaros (level 63):
 - **Mage A**: 15 fire resist (from Mage Armor).
   - Resists about 111 damage before dying.
 - **Mage B**: 150 resist + group bonus (total 210).
@@ -98,7 +98,7 @@ When an offensive spell is cast, the target has two separate chances to resist o
   - The word **"miss"** indicates effects that fail due to level difference or complete resistance.
   - The word **"resisted"** indicates resistance due to target’s resistance stat.
 
-  -Note:**
+**Note:**
 
 - All mage spells are labeled "resisted" if fully resisted, regardless of cause.
 - Hunter effects often show "miss" when effects fail entirely.

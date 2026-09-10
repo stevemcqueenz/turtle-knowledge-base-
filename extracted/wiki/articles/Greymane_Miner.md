@@ -24,7 +24,7 @@ categories: ["Gilneas mobs", "Human characters", "Miners", "Turtle WoW content"]
 | location | The Dryrock Pit and Dryrock Mine, Gilneas |
 | status | Killable |
 
--Greymane Miners** are humans found at the [Dryrock Pit](Dryrock Pit) and [Dryrock Mine](Dryrock Mine) in [Gilneas](Gilneas).
+**Greymane Miners** are humans found at the [Dryrock Pit](Dryrock Pit) and [Dryrock Mine](Dryrock Mine) in [Gilneas](Gilneas).
 
 ## Quotes
 - You won't leave here alive, outsider!

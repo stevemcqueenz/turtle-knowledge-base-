@@ -34,20 +34,20 @@ UniqueIds don't appear to hold any information in and of themselves, and are not
 
 ## Example Item Strings
 
-  -<code>"item:6948:0:0:0"</code>**
+**<code>"item:6948:0:0:0"</code>**
 
    The first number is the ItemID for a Hearthstone.  The other 3 values are 0, which tells the client it has no enchants, extra stats, and wasn't made by anyone.
 
-  -<code>"item:18832:2564:0:0"</code>**
+**<code>"item:18832:2564:0:0"</code>**
 
    The first number is the ItemID for Brutality Blade.  The second number ([enchantId](enchantId)) in this case denotes that it is enchanted with +15 agility.
 
-  -<code>"item:10242:0:614:0"</code>**
+**<code>"item:10242:0:614:0"</code>**
 
    The first number is the ItemID for Heavy Lamellar Gauntlets.  The third number ([suffixId](suffixId)) adds to this item's name " of the Monkey" and adds +11 Agility and +11 Stamina.
 
-  -<code>"item:4388:0:0:210677200"</code>**
+**<code>"item:4388:0:0:210677200"</code>**
 
    The first number is the ItemID for Discombobulator Ray.  The fourth number adds the information that this particular item only has 4 uses left and was made by Kirov.
 
--Note:* The fourth number does not always stand for who made an item; it usually appears on quest items too, and sometimes on dropped items. It's possible that the value is a reference to a database entry which can hold extra data, such as who made an item, which quest it came from, when the quest was delivered, who sold the item on the Auction House, etc. etc. GMs would then be able to track an item should a petition about one be made.
+*Note:* The fourth number does not always stand for who made an item; it usually appears on quest items too, and sometimes on dropped items. It's possible that the value is a reference to a database entry which can hold extra data, such as who made an item, which quest it came from, when the quest was delivered, who sold the item on the Auction House, etc. etc. GMs would then be able to track an item should a petition about one be made.

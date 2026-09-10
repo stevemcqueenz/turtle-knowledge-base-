@@ -13,9 +13,7 @@ categories: ["Gilneas subzones", "Spider territories", "Turtle WoW content", "Wo
 The **Hollow Web Woods** are a spider-infested forest located in southern [Gilneas](Gilneas), between the [Hollow Web Cemetery](Hollow Web Cemetery) and [Ravenshire](Ravenshire). The silk produced by the spiders of these woods is some of the finest that the land can offer, but it is rare and hard to come by. (ref:  [44] [Hollow Web Silk](Hollow Web Silk))
 
 ## NPCs
-- 
-- 
--  (rare)
+- - - (rare)
 
 ## Patch changes
 - (Patch 1.17.0|note=Added.)

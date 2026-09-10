@@ -13,14 +13,14 @@ categories: ["Addon"]
 FuBar is a customizable panel system allowing modules (plugins) to plug into and display various types of information. Users can create, modify, and organize panels to suit their interface needs.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 The easiest way to keep **FuBar** up to date is by using [GitAddonsManager](GitAddonsManager).
 
 # **Add the Repository:** Add the following URL to GitAddonsManager: https://github.com/laytya/FuBar.git
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -29,7 +29,7 @@ If you prefer manual installation, follow these steps:
 # Unpack the <code>.zip</code> and rename the folder to <code>FuBar</code>, removing the <code>-main</code> suffix.
 # Move the folder into your <code>Interface/AddOns</code> directory and restart the game.
 
-  -Optional**: a huge pack of plugins, extra textures, 1.2 compatibility package
+**Optional**: a huge pack of plugins, extra textures, 1.2 compatibility package
 
 Manual Installation Only
 
@@ -101,21 +101,21 @@ Manual Installation Only
 |}
 
 ## Panel Management
-  -Accessing Options:**
+**Accessing Options:**
 
 - **Right-click on a panel** to open the panel menu.
-  -Panel Management:**
+**Panel Management:**
 - **Create a new panel:**  Use the menu to select **Create new panel**.
 - **Lock/Unlock panels:**  Lock panels to prevent accidental moving. Unlock to reposition or resize.
 - **Attach/Detach panels:**
   - Attach to top or bottom of the screen.
   - Detach panels to move freely.
 - **Remove a panel:**  When a panel is empty, or confirm prompt appears, choose **Remove panel**.
-  -Panel Positioning:**
+**Panel Positioning:**
 - **Drag panels** from top or bottom to reposition.
 - **Resize panels** by dragging edges when unlocked.
 - **Switch panels** with others by dragging plugins between panels.
-  -Panel Auto-Hiding:**
+**Panel Auto-Hiding:**
 - Enable **Auto-hide top/bottom panels** to hide panels when not hovered.
 - Use the options to toggle auto-hide behavior.
 
@@ -125,7 +125,7 @@ Options:
 Panel:
 
 ## Panel Settings
-  -Appearance:**
+**Appearance:**
 
 - **Texture:** Change panel background texture.
 - **Spacing:** Adjust space between plugins (left, center, right).
@@ -133,44 +133,44 @@ Panel:
 - **Transparency:** Adjust panel and tooltip transparency.
 - **Thickness:** Change the border thickness between panels.
 
-  -Overflow & Overflow Plugins:**
+**Overflow & Overflow Plugins:**
 
 - Allow plugins to overflow onto another panel.
 - Enable/disable overflow via options or commands.
 
-  -Auto-Adjust Frames:**
+**Auto-Adjust Frames:**
 
 - Automatically adjust Blizzard’s UI frames for better integration.
 
 ## Plugin Management
-  -Adding Plugins:**
+**Adding Plugins:**
 
 - Use the right-click menu or <code>/fubar</code> options.
 - Plugins can be added to left, center, or right sides.
 - Plugins can be organized, moved, or removed.
 
-  -Removing Plugins:**
+**Removing Plugins:**
 
 - Right-click the plugin or use the panel menu to remove.
 - You can also drag plugins out of panels to detach them.
 
-  -Plugin Commands:**
+**Plugin Commands:**
 
 - **Show/Hide plugin:** Click on plugin icons to toggle visibility if supported.
 - **Reload plugins:** Use <code>/fubar</code> options to reload or configure plugins.
 
 ## Advanced Usage
-  -Profiles:**
+**Profiles:**
 
 - Save different panel setups via profiles.
 - Switch profiles to change your UI layout.
 
-  -Skinning:**
+**Skinning:**
 
 - Use **Texture** option or <code>/fubar</code> menu to change panel backgrounds.
 - Supports custom skins for aesthetic changes.
 
-  -Resizing & Moving:**
+**Resizing & Moving:**
 
 - Drag panel edges or the entire panel (when unlocked) for custom sizing.
 - Panels can be moved to top, bottom, or detached for flexible layout.

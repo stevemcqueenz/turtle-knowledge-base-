@@ -10,13 +10,8 @@ categories: ["Forts", "Grim Reaches subzones", "Orc territories", "Turtle WoW co
 ---
 # Geth'kar
 
--Geth'kar** is a Dragonmaw fortress located in the [Grim Reaches](Grim Reaches), to the southwest of [Zarm'geth Stronghold](Zarm'geth Stronghold). It serves as the [Dragonmaw clan](Dragonmaw clan)'s main supply depot in the region. (ref: [quest: Assault on Geth'kar])
+**Geth'kar** is a Dragonmaw fortress located in the [Grim Reaches](Grim Reaches), to the southwest of [Zarm'geth Stronghold](Zarm'geth Stronghold). It serves as the [Dragonmaw clan](Dragonmaw clan)'s main supply depot in the region. (ref: [quest: Assault on Geth'kar])
 
 ## NPCs
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - ## Patch changes
 - (Patch 1.18.0|note=Added.)

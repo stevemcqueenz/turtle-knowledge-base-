@@ -25,10 +25,10 @@ categories: ["Forsaken characters", "General goods vendors", "Gilneas NPCs", "Tu
 | location | Stillward Church, Gilneas |
 | status | Active |
 
--Savenna Mosscage** is a [Forsaken](Forsaken) general goods vendor located in [Stillward Church](Stillward Church) in [Gilneas](Gilneas).
+**Savenna Mosscage** is a [Forsaken](Forsaken) general goods vendor located in [Stillward Church](Stillward Church) in [Gilneas](Gilneas).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Looking for something? You'd better spit it out.
 
 ## Patch changes

@@ -14,19 +14,19 @@ Returns true if the currently loaded quest in the quest window is able to be sha
  GetQuestLogPushable();
 ----
 
-  - *Arguments***
+** *Arguments***
 
    *none*
 
 ----
 
-  - *Returns***
+** *Returns***
 
   ; Boolean
 
 ----
 
-  - *Example***
+** *Example***
 
   -- Determine whether the selected quest is pushable or not
   if ( GetQuestLogPushable() and GetNumPartyMembers() > 0 ) then
@@ -35,12 +35,12 @@ Returns true if the currently loaded quest in the quest window is able to be sha
     QuestFramePushQuestButton:Disable();
   end
 
-  - *Result***
+** *Result***
 
  true | false
 ----
 
-  - *Description***
+** *Description***
 
    Returns true if the currently loaded quest in the quest window is able to be shared with other players ("pushable" simply meaning "sharable").
    To initiate pushing of a quest, see [QuestLogPushQuest()](API QuestLogPushQuest).

@@ -44,7 +44,7 @@ What is it, friend? Oh, by the Light...
 I bid you farewell, <name>. Thank you for understanding. And once again, thank you for all you did. You truly are a hero.
 
 ## Notes
-  -Speaking with Maltimor**
+**Speaking with Maltimor**
 
   Westfall. Once, a land of prosperity. Now, nothing more than a wasteland.
 

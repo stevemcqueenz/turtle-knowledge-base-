@@ -25,7 +25,7 @@ categories: ["Food and drink vendors", "Moonwhisper Coast NPCs", "Tauren charact
 | location | Moonhoof Retreat, Moonwhisper Coast |
 | status | Alive |
 
--Raltok** is a [tauren](tauren) food and drink vendor located in [Moonhoof Retreat](Moonhoof Retreat) in [Moonwhisper Coast](Moonwhisper Coast).
+**Raltok** is a [tauren](tauren) food and drink vendor located in [Moonhoof Retreat](Moonhoof Retreat) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

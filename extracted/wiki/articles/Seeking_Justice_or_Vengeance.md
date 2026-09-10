@@ -41,7 +41,7 @@ The report seems incomplete, other than some basic information of the prisoner t
 Reaching for the quill and ink, you note the information you extracted from Vladeus thus finalizing the report.
 
 ## Notes
-  -Speaking with Vladeus Springriver**
+**Speaking with Vladeus Springriver**
 Please, don't kill me, please!
 
 I don't know anything else, please! I just want to go home.

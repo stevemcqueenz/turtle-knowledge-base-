@@ -10,6 +10,6 @@ categories: ["Deadwood tribe", "Felwood subzones", "Furbolg territories", "Pages
 ---
 # Felpaw Village
 
--Felpaw Village** is an encampment that lies in the very north of [Felwood](Felwood) near the entrance of [Timbermaw Hold](Timbermaw Hold). The encampment belongs to the [Deadwood tribe](Deadwood tribe) of [corrupted furbolg](corrupted furbolg)s. Killing the Deadwoods is a good way to gain [reputation](reputation) with [Timbermaw Hold](Timbermaw Hold). 
+**Felpaw Village** is an encampment that lies in the very north of [Felwood](Felwood) near the entrance of [Timbermaw Hold](Timbermaw Hold). The encampment belongs to the [Deadwood tribe](Deadwood tribe) of [corrupted furbolg](corrupted furbolg)s. Killing the Deadwoods is a good way to gain [reputation](reputation) with [Timbermaw Hold](Timbermaw Hold). 
 
 ## References

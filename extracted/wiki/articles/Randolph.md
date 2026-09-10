@@ -24,13 +24,13 @@ categories: ["Human characters", "Northwind NPCs", "Turtle WoW content"]
 | location | Ambershire Church, Northwind |
 | status | Alive |
 
--Randolph** is a [human](human) boy located at the [Ambershire Church](Ambershire Church) in [Northwind](Northwind).
+**Randolph** is a [human](human) boy located at the [Ambershire Church](Ambershire Church) in [Northwind](Northwind).
 
 ## Objective of
 - Must be interacted with for [quest: School Assistance]
 
 ## Quotes
-  -Gossip**
+**Gossip**
 School is so boring. I'd rather throw some punches with [Brick](Brick), atleast he knows how to have fun!
 
 ## Patch changes

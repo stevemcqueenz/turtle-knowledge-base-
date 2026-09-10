@@ -45,22 +45,22 @@ WorldMap-TheTempleOfAtalHakkar.jpg
 |}
 
 ## Dungeon denizens
--  [Bog beast](Bog beast)s
--  [Dire troll](Dire troll)s
--  [Green](Green dragonflight) [dragon](dragon) (one, [Shade of Eranikus](Shade of Eranikus))
--  [Green](Green dragonflight) [drake](drake)s
--  [Green](Green dragonflight) [dragonspawn](dragonspawn)
--  [Green](Green dragonflight) [dragon whelp](dragon whelp)s
--  [Grell](Grell)s
--  [Larva](Larva)e
--  [Ooze](Ooze)s
--  [Serpent](Serpent)s
--  [Skeletal wind serpent](Skeletal wind serpent) (one, [Avatar of Hakkar](Avatar of Hakkar))
--  [Snake](Snake)s
--  [Troll](Troll)s
--  [Wind serpent](Wind serpent)s
--  [Worm](Worm)s
--  [Undead](Undead) [troll](troll)s
+- [Bog beast](Bog beast)s
+- [Dire troll](Dire troll)s
+- [Green](Green dragonflight) [dragon](dragon) (one, [Shade of Eranikus](Shade of Eranikus))
+- [Green](Green dragonflight) [drake](drake)s
+- [Green](Green dragonflight) [dragonspawn](dragonspawn)
+- [Green](Green dragonflight) [dragon whelp](dragon whelp)s
+- [Grell](Grell)s
+- [Larva](Larva)e
+- [Ooze](Ooze)s
+- [Serpent](Serpent)s
+- [Skeletal wind serpent](Skeletal wind serpent) (one, [Avatar of Hakkar](Avatar of Hakkar))
+- [Snake](Snake)s
+- [Troll](Troll)s
+- [Wind serpent](Wind serpent)s
+- [Worm](Worm)s
+- [Undead](Undead) [troll](troll)s
 
 ## Quest guide
 {| class="fandom-table"
@@ -172,5 +172,5 @@ WorldMap-TheTempleOfAtalHakkar.jpg
 |}
 
 ## Patch changes
--  **Patch 1.4.0 (2005-04-19):** The minimum level requirement on the Temple of Atal'Hakkar Meeting Stone has been properly assigned.
--  **Patch 1.3.0 (2005-03-07):** Capped at ten players.
+- **Patch 1.4.0 (2005-04-19):** The minimum level requirement on the Temple of Atal'Hakkar Meeting Stone has been properly assigned.
+- **Patch 1.3.0 (2005-03-07):** Capped at ten players.

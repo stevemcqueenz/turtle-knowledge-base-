@@ -23,7 +23,7 @@ categories: ["Stormwrought Ruins mobs", "Turtle WoW content", "Zombies"]
 | location | Stormwrought Ruins |
 | status | Killable |
 
--Blooddrained Carcasses** are [zombie](zombie)s located in [Stormwrought Ruins](Stormwrought Ruins).
+**Blooddrained Carcasses** are [zombie](zombie)s located in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Abilities
 - Draining Rot

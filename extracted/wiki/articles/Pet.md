@@ -10,4 +10,4 @@ categories: ["Game Terms", "Stubs"]
 ---
 # Pet
 
--Pets** are creatures that a player can summon or tame, and partially control. The [classes](Class) that can use pets, at first, are the [Warlock](Warlock) and the [Hunter](Hunter).
+**Pets** are creatures that a player can summon or tame, and partially control. The [classes](Class) that can use pets, at first, are the [Warlock](Warlock) and the [Hunter](Hunter).

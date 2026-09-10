@@ -13,6 +13,4 @@ categories: ["Defias Brotherhood", "Human territories", "Mines", "Westfall subzo
 The **Gold Coast Quarry** used to be a valuable mineral and gold mine in [Westfall](Westfall) for the [kingdom of Stormwind](Stormwind (kingdom)). Now, however, the quarry is in the hands of the [Defias Brotherhood](Defias Brotherhood) and their agents patrol the area.
 
 ## NPCs
-- 
-- 
--
+- - -

@@ -21,7 +21,7 @@ categories: ["Horde factions", "Pages with broken file links", "Stubs"]
 | government | Tribal chiefdom |
 | rewards | Wolf mounts (rare and epic) |
 
--Orgrimmar** is the faction of the [Orc](Orc) capital city [Orgrimmar](Orgrimmar) located on the northern edge of the region of [Durotar](Durotar). The city is a fortified complex guarded by stout walls, massive gates and tall towers. The mountainous ranges of northern Durotar form a natural barrier to the rear of the fortress, and parts of the complex are carved into the mountain itself. 
+**Orgrimmar** is the faction of the [Orc](Orc) capital city [Orgrimmar](Orgrimmar) located on the northern edge of the region of [Durotar](Durotar). The city is a fortified complex guarded by stout walls, massive gates and tall towers. The mountainous ranges of northern Durotar form a natural barrier to the rear of the fortress, and parts of the complex are carved into the mountain itself. 
 
 ## Reputation
 [Rashona Straglash](Rashona Straglash) has the Orgrimmar repeatable cloth quests used by non-orcish Horde players to obtain the right to ride [Wolf#Wolves_as_Mounts](Wolf#Wolves_as_Mounts) at Exalted.

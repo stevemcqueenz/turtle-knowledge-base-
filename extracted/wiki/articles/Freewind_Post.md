@@ -10,7 +10,7 @@ categories: ["Camps", "Horde towns", "Pages with broken file links", "Stubs", "T
 ---
 # Freewind Post
 
--Freewind Post** is a [Horde](Horde) town located high on a mesa in [Thousand Needles](Thousand Needles), inhabited by a small number of [tauren](tauren). Tauren settlements in Thousand Needles are constructed atop the tall mesas in the region, staying out of reach of the [centaur](centaur) warbands that have several camps in the area. The village on the mesa's top is accessible by the employment of the ingenious wooden lifts of the tauren, although there is a series of rope bridges spanning amongst the adjacent pinnacles, gradually working their way to the top. 
+**Freewind Post** is a [Horde](Horde) town located high on a mesa in [Thousand Needles](Thousand Needles), inhabited by a small number of [tauren](tauren). Tauren settlements in Thousand Needles are constructed atop the tall mesas in the region, staying out of reach of the [centaur](centaur) warbands that have several camps in the area. The village on the mesa's top is accessible by the employment of the ingenious wooden lifts of the tauren, although there is a series of rope bridges spanning amongst the adjacent pinnacles, gradually working their way to the top. 
 
 The tauren of Freewind Post work to stop the activity of the [Galak](Galak) centaur in Thousand Needles. [Roguefeather](Roguefeather) [harpies](harpies) pose a less dire threat to the stability of the region as well. Another large aspect of the society of Freewind Post deals with the [wyverns](wyverns) of [Highperch](Highperch), where young tauren are sent study the wyverns and to cull eggs from their ancestral nesting grounds to be raised as mounts for the Horde. 
 
@@ -19,48 +19,48 @@ The Horde-aligned tauren of Freewind Post are growing continually more wary of t
 Closely related to the problems with the Grimtotem is the concern surrounding a so-called "Alien Egg" that is rumored to have appeared near the nests of the Needles' resident [wind serpent](wind serpent)s. The Grimtotem have given supplication to the creature that hatched from the egg, [Arikara](Arikara), Serpent of Vengeance, in hopes that it would aid them in their mission to depose [Cairne Bloodhoof](Cairne Bloodhoof) as punishment for his changes to tauren culture and tradition. 
 
 ### Facilities
--Mailbox
--Inn
--Flight Path
--Gunsmith/Bowyer
--Reagent Vendor
--Butcher
--Stable Master
--General Goods Vendor
--Trade Goods Vendor
+- Mailbox
+- Inn
+- Flight Path
+- Gunsmith/Bowyer
+- Reagent Vendor
+- Butcher
+- Stable Master
+- General Goods Vendor
+- Trade Goods Vendor
 
 ## Travel Connections
 ### Flight
-  - [Thunder Bluff](Thunder Bluff)**
+** [Thunder Bluff](Thunder Bluff)**
 
-  - [The Crossroads](The Crossroads)**
+** [The Crossroads](The Crossroads)**
 
-  - [Camp Taurajo](Camp Taurajo)**
+** [Camp Taurajo](Camp Taurajo)**
 
-  - [Camp Mojache](Camp Mojache)**
+** [Camp Mojache](Camp Mojache)**
 
-  - [Mudsprocket](Mudsprocket)**
+** [Mudsprocket](Mudsprocket)**
 
-  - [Gadgetzan](Gadgetzan)**
+** [Gadgetzan](Gadgetzan)**
 
 ## Freewind Post NPCs
 ### Merchants
--[Starn](Starn) 
--[Montarr](Montarr)  (Reagent Vendor)
--[Turhaw](Turhaw) 
--[Jawn Highmesa](Jawn Highmesa) 
--[Jandia](Jandia) 
--[Innkeeper Abeqwa](Innkeeper Abeqwa) 
+- [Starn](Starn) 
+- [Montarr](Montarr)  (Reagent Vendor)
+- [Turhaw](Turhaw) 
+- [Jawn Highmesa](Jawn Highmesa) 
+- [Jandia](Jandia) 
+- [Innkeeper Abeqwa](Innkeeper Abeqwa) 
 
 ### Other Characters
--[Nyse](Nyse) 
--[Awenasa](Awenasa) 
--[Elu](Elu) 
--[Hagar Lightninghoof](Hagar Lightninghoof)
--[Dog](Dog_(NPC)) 
--[Guard Wachabe](Guard Wachabe)
--[Cliffwatcher Longhorn](Cliffwatcher Longhorn)
--[Thalia Amberhide](Thalia Amberhide)
--[Rau Cliffrunner](Rau Cliffrunner)
+- [Nyse](Nyse) 
+- [Awenasa](Awenasa) 
+- [Elu](Elu) 
+- [Hagar Lightninghoof](Hagar Lightninghoof)
+- [Dog](Dog_(NPC)) 
+- [Guard Wachabe](Guard Wachabe)
+- [Cliffwatcher Longhorn](Cliffwatcher Longhorn)
+- [Thalia Amberhide](Thalia Amberhide)
+- [Rau Cliffrunner](Rau Cliffrunner)
 
--Guards: [Freewind Brave](Freewind Brave)
+- Guards: [Freewind Brave](Freewind Brave)

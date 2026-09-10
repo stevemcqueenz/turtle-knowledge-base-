@@ -25,7 +25,7 @@ categories: ["Cooks", "Gilneas NPCs", "Human characters", "Meat vendors", "Quest
 | location | Vagrant Encampment, Gilneas |
 | status | Alive |
 
--Camp Chef Velden** is a [human](human) [meat vendor](meat vendor) and [quest giver](quest giver) located at the [Vagrant Encampment](Vagrant Encampment) in [Gilneas](Gilneas).
+**Camp Chef Velden** is a [human](human) [meat vendor](meat vendor) and [quest giver](quest giver) located at the [Vagrant Encampment](Vagrant Encampment) in [Gilneas](Gilneas).
 
 ## Quests
 - [quest: Supplementing Rations] 

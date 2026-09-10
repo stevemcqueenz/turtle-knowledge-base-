@@ -69,13 +69,13 @@ Yet, in the halls of our own kin, where nobility should be defined by honor and 
 Instead of marshalling our resources and collective wisdom to face the pressing challenges that loom before us, we find ourselves mired in needless debates that obscure the clarity of our path forward.
 
 ### On-click
-  -Greeting**
+**Greeting**
 - Welcome to Alah'Thalas.
 - Greetings, friend.
 - Quel'Thalas will not be forgotten.
 - Have you come to help us?
 
-  -Pissed**
+**Pissed**
 - Is there something wrong?
 - I have left my husband behind for my people.
 - My people needed me. They have no one else.
@@ -83,7 +83,7 @@ Instead of marshalling our resources and collective wisdom to face the pressing 
 - I am the last of the Windrunners, and I will sacrifice it all for my people to endure.
 - What have you sacrificed?
 
-  -Farewell**
+**Farewell**
 - Al'diel sha'lah.
 - Goodbye, friend.
 - Stay safe.

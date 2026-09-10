@@ -19,19 +19,19 @@ See also our [List of Turtle WoW clones](List of Turtle WoW clones).
 Turtle WoW was a group of servers hosting *Mysteries of Azeroth*, a rendition of "Vanilla+" diverging from client version 1.12.2. This expansion aimed to take a different path from the Burning Crusade, emphasizing the familiar Azeroth of Vanilla WoW over the cosmic battle with the Burning Legion. While being heavily based on the lore from Warcraft III and Vanilla WoW, *Mysteries of Azeroth* sought to enhance the game by adding content that matched the already well-established lore of the Warcraft universe.
 
 ## Quick links
-  -*[Turtle WoW Website: turtlecraft.gg](https://turtlecraft.gg)**
-  -*[List of Turtle WoW clones](List of Turtle WoW clones)**
--[**Overview of custom Turtle WoW content**](Custom Turtle WoW content)
--[**List of Turtle WoW Patches**](:Category:Patches)
--[**Turtle WoW Addons**](Addons)
-  -*[Turtle WoW Macros](:Category:Macros)**
-  -*Mods for Turtle WoW**
-  -[Client Mods](Client Mods)
-  -[Client Fixes and Tweaks](Client Fixes and Tweaks)
-  -[Sound Mods](Sound Mods)
-  -[Making Custom Sounds](https://turtle-wow.fandom.com/wiki/Making_Custom_Sounds)
-  -[3D Model Guide](https://docs.google.com/document/d/15pY_HqGEDbjvs3FztZYETfVxGr9EC_0UGL7c3bzmFaI/edit?tab=t.0#heading=h.4p4p8wueyrc9)
-  -[Mod Primer Guide](https://docs.google.com/document/d/1kUrZus7HAaxpJeVFX2bJ2iyyZfUR6ZJAmBygIPo-NHA/edit?usp=sharing)
+- **[Turtle WoW Website: turtlecraft.gg](https://turtlecraft.gg)**
+- **[List of Turtle WoW clones](List of Turtle WoW clones)**
+- [**Overview of custom Turtle WoW content**](Custom Turtle WoW content)
+- [**List of Turtle WoW Patches**](:Category:Patches)
+- [**Turtle WoW Addons**](Addons)
+- **[Turtle WoW Macros](:Category:Macros)**
+- **Mods for Turtle WoW**
+  - [Client Mods](Client Mods)
+  - [Client Fixes and Tweaks](Client Fixes and Tweaks)
+  - [Sound Mods](Sound Mods)
+  - [Making Custom Sounds](https://turtle-wow.fandom.com/wiki/Making_Custom_Sounds)
+  - [3D Model Guide](https://docs.google.com/document/d/15pY_HqGEDbjvs3FztZYETfVxGr9EC_0UGL7c3bzmFaI/edit?tab=t.0#heading=h.4p4p8wueyrc9)
+  - [Mod Primer Guide](https://docs.google.com/document/d/1kUrZus7HAaxpJeVFX2bJ2iyyZfUR6ZJAmBygIPo-NHA/edit?usp=sharing)
 
 - **API for Turtle Wow**
   - [API Events](https://turtle-wow.fandom.com/wiki/API_Events)
@@ -78,10 +78,10 @@ All Turtle WoW servers were shut down on May 15, 2026.
 ### SEA
 - **Ravenshire** (PvE), launched on September 9th, 2023
 - **Hogger** (PvE), launched on September 9th, 2023
-  -*Emerald Dream** (PvE), launched on September 16th, 2023
-  -*Blood Ring** (PvP), launched on September 23th, 2023
-  -*Stormstout** (PvE), launched on October 2nd, 2023
-  -*Endless Sea** (PvP), launched on November ??th, 2023
+- **Emerald Dream** (PvE), launched on September 16th, 2023
+- **Blood Ring** (PvP), launched on September 23th, 2023
+- **Stormstout** (PvE), launched on October 2nd, 2023
+- **Endless Sea** (PvP), launched on November ??th, 2023
 
 ### SA
 - **South Seas** (PvE), launched on April 4th, 2025
@@ -97,14 +97,14 @@ This wiki is for players to collaborate and share anything about **Turtle WoW** 
 <mainpage-rightcolumn-start />
 
 ### *Useful Turtle WoW Wiki meta pages*
--[Rules of this wiki](Project:Wiki rules)
--[Frequently Asked Questions](Turtle WoW Wiki:Frequently Asked Questions)
--[How to Contribute](w:c:community:Help:Contributing)
+- [Rules of this wiki](Project:Wiki rules)
+- [Frequently Asked Questions](Turtle WoW Wiki:Frequently Asked Questions)
+- [How to Contribute](w:c:community:Help:Contributing)
 
 ### *Need help building out this community?*
--[Rules of this wiki](Project:Wiki rules)
--[Getting Started](w:c:community:Help:Getting Started)
--[How to Contribute](w:c:community:Help:Contributing)
--[Managing your new community](w:c:community:Help:Community Management)
--[Guides](w:c:community:Help:Contents)
--[All Help articles](w:c:community:Help:Index)<mainpage-endcolumn />
+- [Rules of this wiki](Project:Wiki rules)
+- [Getting Started](w:c:community:Help:Getting Started)
+- [How to Contribute](w:c:community:Help:Contributing)
+- [Managing your new community](w:c:community:Help:Community Management)
+- [Guides](w:c:community:Help:Contents)
+- [All Help articles](w:c:community:Help:Index)<mainpage-endcolumn />

@@ -13,7 +13,7 @@ categories: ["Addon"]
 WIM (WoW Instant Messenger) is an instant messenger interface designed specifically for in-game whispers. It allows you to communicate without interfering with your busy interface during raids, providing the convenience of a dedicated chat window for each user you communicate with.
 
 ## Installation
-  -GitAddonsManager (Recommended)**
+**GitAddonsManager (Recommended)**
 
 The easiest way to keep WIM up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep WIM up to date is by using [GitAddonsManager](GitAddonsM
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -41,26 +41,26 @@ If you prefer manual installation, follow these steps:
 - **/wim reset filters**: Reload all built in filter definitions
 - **/wim clear history**: Clear history
 
-  -Shift + Left Click:**
+**Shift + Left Click:**
 
 - **On Minimap Icon**: Drag the minimap icon when in free-moving mode.
 - **On Inventory Items**: Insert the item link into the message box (for items in the inventory, trading, looting, etc.).
 - **On Trade Skills and Crafts**: Insert links for selected trade skills and craft reagents into the message box.
 - **On Loot Items**: Insert the loot item link into the message box.
 
-  -Tab:** 
+**Tab:** 
 
 Toggle between messages while in a conversation window.
 
-  -Whisper:**
+**Whisper:**
 
 - Click on the name of the person you want to whisper to in the chat
 - (<code>/w</code>): Send a whisper message to a player.
 
-  -Reply:**
+**Reply:**
 - (<code>/r</code>): Reply to the last whispered message.
 
-  -Key Bindings:**
+**Key Bindings:**
 
 - Be sure to check your Key Bindings screen for WIM's available actions.
 
@@ -78,15 +78,15 @@ WIM:
 - Built-in Titan plugin
 
 ## Change Log
-  -Version 1.3.3 (12-27-2017)**
+**Version 1.3.3 (12-27-2017)**
 
 - Refactored code by shirsig.
 
-  -Version 1.3.2 (01-05-2017)**
+**Version 1.3.2 (01-05-2017)**
 
 - Added Russian translation (ruRU).
 
-  -Version 1.3.1 (10-17-2006)**
+**Version 1.3.1 (10-17-2006)**
 
 - Created a new minimap icon menu; no longer using Blizzard's Drop Down Menu.
 - Added the ability to close conversations from the minimap icon menu.
@@ -99,11 +99,11 @@ WIM:
 - Added support for EngInventory.
 - Allowed execution of slash commands inside a message window.
 
-  -Version 1.2.13 (10-03-2006)**
+**Version 1.2.13 (10-03-2006)**
 
 - Fixed a bug that caused an error if Titan was not loaded.
 
-  -Version 1.2.12 (10-03-2006)**
+**Version 1.2.12 (10-03-2006)**
 
 - Added support for AtlasLoot.
 - Introduced an option to keep focus only while in a major city.
@@ -117,7 +117,7 @@ WIM:
 - The Who window should no longer pop up when finding similar names.
 - Titan is now listed as an optional dependency.
 
-  -Version 1.2.11 (09-29-2006)**
+**Version 1.2.11 (09-29-2006)**
 
 - Fixed a spelling mistake on the Windows tab.
 - No longer run <code>/who</code> requests on cross-realm users.
@@ -131,7 +131,7 @@ WIM:
 - Added a "Credits" tab in help.
 - Added a button in the options screen to access help.
 
-  -Version 1.2.10 (09-26-2006)**
+**Version 1.2.10 (09-26-2006)**
 
 - Made minor adjustments to window focusing behavior.
 - Modified the options window to include aliasing, filtering, and history options.
@@ -142,7 +142,7 @@ WIM:
 - Added a button in the message window to access history if available.
 - Added options to set the default window position and toggle window cascading.
 
-  -Version 1.1.15 (09-19-2006)**
+**Version 1.1.15 (09-19-2006)**
 
 - Added an option to show character information for <code>/who</code> requests.
 - Added support for showing class icons.
@@ -151,7 +151,7 @@ WIM:
 - Added options to set class color for title bar text and display timestamps.
 - Added a shortcut bar and detailed character information (Guild, level, race, class).
 
-  -Version 1.1.4 (09-15-2006)**
+**Version 1.1.4 (09-15-2006)**
 
 - Added built-in Titan plugin.
 - Adjusted transparency behavior for chat text.
@@ -162,11 +162,11 @@ WIM:
 - Added options for tooltips and window sorting behavior.
 - Enabled dragging of message windows by the chat frame and focused on clicking the chat frame.
 
-  -Version 1.0.19 (09-12-2006)**
+**Version 1.0.19 (09-12-2006)**
 
 - Fixed issues with in-game languages (Common/Orcish). Resolved conflicts with other language interfaces.
 - Recoded function hooks to avoid receiving duplicate messages due to addon conflicts.
 
-  -Version 1.0.18 (09-12-2006)**
+**Version 1.0.18 (09-12-2006)**
 
 - Initial public release.

@@ -16,7 +16,7 @@ Retrieves the cooldown data of the spell specified.
 </syntaxhighlight>
 ----
 
-  - *Arguments***
+** *Arguments***
 
    (Number spellID)
 
@@ -30,7 +30,7 @@ Retrieves the cooldown data of the spell specified.
 
 ----
 
-  - *Returns***
+** *Returns***
 
    (Number startTime, Number duration, Number enable)
 
@@ -56,7 +56,7 @@ else
 end
 </syntaxhighlight>
 
-  - *Result***
+** *Result***
 
    Retrieves data. Does not (to my knowledge) actually change anything.
 
@@ -66,7 +66,7 @@ end
 
 ----
 
-  - *Description***
+** *Description***
 
    Retrieves data on the cooldown of a specific spell within your spellbook.
 

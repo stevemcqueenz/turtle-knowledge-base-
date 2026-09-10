@@ -15,7 +15,7 @@ PlaySoundFile(SoundFile);
 Play the specified sound file.  The file will be played once.
 ----
 
-  - *Arguments***
+** *Arguments***
 
    (SoundFile)
   ; SoundFile
@@ -23,14 +23,14 @@ Play the specified sound file.  The file will be played once.
 
 ----
 
-  - *Example: Playing a sound file from within an AddOn's directory***
+** *Example: Playing a sound file from within an AddOn's directory***
 
  PlaySoundFile("Interface\\AddOns\\MyAddOn\\mysound.wav");
 or
  PlaySoundFile("Interface\\AddOns\\MyAddOn\\mysound.mp3");
 ----
 
-  - *Details***
+** *Details***
 
 This has been successfully tested for playing sounds inside your AddOn's directory, so you don't have to worry about putting your sound files outside your AddOn directory.
 

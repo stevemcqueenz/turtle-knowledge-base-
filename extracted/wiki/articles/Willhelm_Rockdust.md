@@ -25,10 +25,10 @@ categories: ["Human characters", "Hunter trainers", "Stormwind (kingdom)", "Stor
 | location | The Park, Stormwind City |
 | status | Alive |
 
--Willhelm Rockdust** is a [human](human) hunter trainer located in [the Park](Park), in [Stormwind City](Stormwind City).
+**Willhelm Rockdust** is a [human](human) hunter trainer located in [the Park](Park), in [Stormwind City](Stormwind City).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I am often employed to train recruits to the Stormwind Guard in how to wield bows and crossbows. For the defense of the city, or for use in battle.
 
 Let me tell you, it's one of the tasks I enjoy least.

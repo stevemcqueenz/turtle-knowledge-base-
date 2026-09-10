@@ -10,7 +10,7 @@ categories: ["Patches"]
 ---
 # Patch 1.16.5
 
--Patch 1.16.5** was released on January 3, 2023.
+**Patch 1.16.5** was released on January 3, 2023.
 
 ## Patch notes
 ### General

@@ -24,7 +24,7 @@ categories: ["Moonwhisper Coast NPCs", "Stable masters", "Tauren characters", "T
 | location | Moonhoof Village, Moonwhisper Coast |
 | status | Alive |
 
--Hula Swiftmane** is a [tauren](tauren) stable master located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Hula Swiftmane** is a [tauren](tauren) stable master located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

@@ -12,7 +12,7 @@ categories: ["History of Warcraft", "In-Game Books", "Lore"]
 
 <B style="font-weight:normal;background-color:#2b2b2b;">[  [Source Text](WoWWiki:Article_type)  ]</B>
 
--Kil'jaeden and the Shadow Pact* is a section of the [History of Warcraft](History of Warcraft), Chapter III.  It is set approximately 45 years before the events of [Warcraft I](Warcraft I). It is also available as an [in-game book](:Category:In-Game Books).
+*Kil'jaeden and the Shadow Pact* is a section of the [History of Warcraft](History of Warcraft), Chapter III.  It is set approximately 45 years before the events of [Warcraft I](Warcraft I). It is also available as an [in-game book](:Category:In-Game Books).
 
 Found at:
 - [Scholomance](Scholomance) in the [Western Plaguelands](Western Plaguelands)

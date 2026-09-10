@@ -24,7 +24,7 @@ categories: ["Dustwallow Marsh NPCs", "Human characters", "Quest givers", "Thera
 | location | Theramore Isle, Dustwallow Marsh |
 | status | Alive |
 
--Colonel Breen** is a [human](human) [quest giver](quest giver) located in [Theramore Isle](Theramore Isle) in [Dustwallow Marsh](Dustwallow Marsh).
+**Colonel Breen** is a [human](human) [quest giver](quest giver) located in [Theramore Isle](Theramore Isle) in [Dustwallow Marsh](Dustwallow Marsh).
 
 ## Quests
 - [quest: Reports of Dustwallow] 
@@ -32,7 +32,7 @@ categories: ["Dustwallow Marsh NPCs", "Human characters", "Quest givers", "Thera
 - [quest: The Blackhorn Conflict] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Welcome to Theramore, make yourself at ease. I am Colonel Breen, commander of the defense of Theramore.
 
 We are always looking for a pair of brave hands. If you're looking for work, perhaps you could be of assistance to the Theramore Guard.

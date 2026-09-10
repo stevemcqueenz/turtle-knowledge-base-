@@ -10,7 +10,7 @@ categories: ["Quest items", "Readable items", "Turtle WoW content"]
 ---
 # Marcus Jonathan's Letter
 
--Marcus Jonathan's Letter** is provided as an objective for [quest: A Call to Aid].
+**Marcus Jonathan's Letter** is provided as an objective for [quest: A Call to Aid].
 
 ## Contains
 ## Patch changes

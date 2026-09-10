@@ -10,4 +10,4 @@ categories: ["Elite areas", "Pages with broken file links", "Silithus subzones",
 ---
 # Hive'Regal
 
--Hive'Regal** was a [silithid](silithid) nest located in southern [Silithus](Silithus).
+**Hive'Regal** was a [silithid](silithid) nest located in southern [Silithus](Silithus).

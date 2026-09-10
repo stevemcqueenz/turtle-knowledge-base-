@@ -10,7 +10,7 @@ categories: ["Characters"]
 ---
 # Wiley
 
--"Wiley"** is a human who was raised in [Westfall](Westfall), Eastern Kingdoms. While the majority of his past isn't public knowledge, there are several records few and far in between detailing excerpts assumed to be of his life. 
+**"Wiley"** is a human who was raised in [Westfall](Westfall), Eastern Kingdoms. While the majority of his past isn't public knowledge, there are several records few and far in between detailing excerpts assumed to be of his life. 
 
 Wiley was born in an unknown region in Year 596 of the King's Calendar, but as an infant was taken by his aunt to live a new life in Westfall, hopefully free from the claws of war that grasped the eastern territories of the King's Lands. His aunt raised him to be an upstanding member of society and even a soldier like her brother and his father, whom Wiley knew nothing about. Wiley's aunt had him taught at the Westfall Church before its shutdown, where until the age of 10, he followed a path relatively free of danger or any real risk to his life. 
 
@@ -22,7 +22,7 @@ While Wiley learned how to use standard-grade military weaponry by the young age
 
 At the age of 15, Wiley enlisted in the King's Armies of Stormwind. While he was young, the kid showed promise, and his commanding officer noted that the boy had several qualities worth praise and recognition: 
 
--"Despite his childish antics within the barracks, Recruit [REDACTED] shows courage, bravery, and honor on the battlefield and in the line of duty. While he isn't as martially inclined as his fellow soldiers yet, the boy is exceptional with a bow and an arrow. We will watch his tenure with great curiosity."*
+*"Despite his childish antics within the barracks, Recruit [REDACTED] shows courage, bravery, and honor on the battlefield and in the line of duty. While he isn't as martially inclined as his fellow soldiers yet, the boy is exceptional with a bow and an arrow. We will watch his tenure with great curiosity."*
 
 - Commanding Officer Breckensworth, of the Stormwind Army (Year 611 of the King's Calendar)
 
@@ -33,7 +33,7 @@ For the next section, it is almost entirely unknown (ICly, as well as OOCly) whe
 
 Wiley served as a Knight of Stormwind's armies for three years, before being dishonorably discharged under command of his Knight Captain: 
 
--"Knight [REDACTED] has breached the sworn oath of knighthood by violating the trust, honor, and respect of His Majesty and His Armies. He is indefinitely, indisputably, dishonorably discharged as of 621 K.C."* 
+*"Knight [REDACTED] has breached the sworn oath of knighthood by violating the trust, honor, and respect of His Majesty and His Armies. He is indefinitely, indisputably, dishonorably discharged as of 621 K.C."* 
 
 - Knight-Captain Dalonath, of the Stormwind Army (Year 621 King's Calendar)
 

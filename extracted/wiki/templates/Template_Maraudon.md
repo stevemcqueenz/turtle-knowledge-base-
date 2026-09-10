@@ -22,13 +22,13 @@ categories: ["Instance navigation templates"]
 
 [Meshlok the Harvester](Meshlok the Harvester) (rare)
 |
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 |-
 | class="title" colspan="2" | **Foulspore Cavern**
 |-
@@ -37,9 +37,9 @@ categories: ["Instance navigation templates"]
 
 [Noxxion](Noxxion)
 |
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 |-
 | class="title" colspan="2" | **Earth Song Falls**
 |-
@@ -52,11 +52,11 @@ categories: ["Instance navigation templates"]
 
 [Princess Theradras](Princess Theradras)
 |
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 |-
 | class="title" colspan="2"| [Loot](Maraudon loot)
 |}

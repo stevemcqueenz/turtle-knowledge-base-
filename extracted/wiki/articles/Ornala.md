@@ -25,7 +25,7 @@ categories: ["Ammo vendors", "General goods vendors", "Moonwhisper Coast NPCs", 
 | location | Moonhoof Village, Moonwhisper Coast |
 | status | Alive |
 
--Ornala** is a [tauren](tauren) general goods vendor located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Ornala** is a [tauren](tauren) general goods vendor located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

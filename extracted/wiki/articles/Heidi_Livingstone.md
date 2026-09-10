@@ -24,10 +24,10 @@ categories: ["Human characters", "Northwind NPCs", "Stromgarde (kingdom)", "Turt
 | location | Jousting Grounds, Northwind |
 | status | Alive |
 
--Heidi Livingstone** is a [human](human) located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind).
+**Heidi Livingstone** is a [human](human) located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 My family has [a small, unremarkable farm](Livingstone Croft) in the outskirts of Stromgarde, yet here I am. I am honored to have been chosen as a representative of our kingdom; I will make them proud no matter what!
 
 ## Patch changes

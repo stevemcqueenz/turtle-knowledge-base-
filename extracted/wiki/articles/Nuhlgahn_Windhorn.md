@@ -25,14 +25,14 @@ categories: ["Moonwhisper Coast NPCs", "Quest givers", "Tauren characters", "Tur
 | status | Alive |
 | relatives | Tagasha Windhorn |
 
--Nuhlgahn Windhorn** is a [tauren](tauren) quest giver located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Nuhlgahn Windhorn** is a [tauren](tauren) quest giver located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: The Windhorn Burden] 
 - [quest: In Lucid Dreams] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I come from the great lands of Thousand Needles. My outcast tribe has been searching for a new place to call home. We widely regard our Moonhoof brothers and sisters as cousins, so I see no better place to build a new life.
 
 ## Patch changes

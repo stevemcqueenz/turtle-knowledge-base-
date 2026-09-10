@@ -13,7 +13,7 @@ categories: ["API Functions"]
 Returns 1 if you are in range of the specified unit to perform the action specified by distIndex (returns nil otherwise).
 ----
 
-  - *Arguments***
+** *Arguments***
 
    (String unit, Int distIndex)
 
@@ -29,14 +29,14 @@ Returns 1 if you are in range of the specified unit to perform the action specif
 
 ----
 
-  - *Returns***
+** *Returns***
 
   ; canInteract
    If in range to perform the action, 1 (true).  Otherwise, nil (false).
 
 ----
 
-  - *Notes***
+** *Notes***
 
    If "unit" is a hostile unit, the return values are the same.  But you obviously won't be able to do things like Trade.
 
@@ -44,7 +44,7 @@ Returns 1 if you are in range of the specified unit to perform the action specif
 
 ----
 
-  - *Example***
+** *Example***
 <syntaxhighlight lang="lua">
  if ( CheckInteractDistance("target", 4) ) then
    FollowUnit("target");

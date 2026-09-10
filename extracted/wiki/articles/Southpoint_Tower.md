@@ -10,4 +10,4 @@ categories: ["Forsaken territories", "Hillsbrad Foothills subzones", "Ruins", "T
 ---
 # Southpoint Tower
 
--Southpoint Tower** is a ruined scout tower at the far west end of [Hillsbrad Foothills](Hillsbrad Foothills), just south of the road to [Silverpine Forest](Silverpine Forest). The Forsaken [Deathstalker Lesh](Deathstalker Lesh) is stationed there, spying on the Alliance activity in the area.
+**Southpoint Tower** is a ruined scout tower at the far west end of [Hillsbrad Foothills](Hillsbrad Foothills), just south of the road to [Silverpine Forest](Silverpine Forest). The Forsaken [Deathstalker Lesh](Deathstalker Lesh) is stationed there, spying on the Alliance activity in the area.

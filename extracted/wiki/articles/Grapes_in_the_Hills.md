@@ -24,7 +24,7 @@ categories: ["Alliance quests", "Quests at 7", "Thalassian Highlands quests", "T
 
 ## Objectives
 Bring 10 Buckets of Grapes to [Fainriel Silverharp](Fainriel Silverharp) in the [Thaumarium](Thaumarium).
--[Bucket of Grapes](Bucket of Grapes) (10)
+- [Bucket of Grapes](Bucket of Grapes) (10)
 
 ## Description
 Greetings, friend. Have you come to savor our renowned wines? Regrettably, due to the incessant [lynx](lynx) attacks, grape cultivation in the hills had to be halted, leaving us with naught.
@@ -33,13 +33,13 @@ Yet, I harbor optimism that amidst the chaos, our workers may have left behind b
 
 ## Rewards
 You will receive:
--630 XP
--+100 [reputation](reputation) with [Silvermoon Remnant](Silvermoon Remnant)
+- 630 XP
+- +100 [reputation](reputation) with [Silvermoon Remnant](Silvermoon Remnant)
 
 You can choose one of these awards:
--[Minor Healing Potion](Minor Healing Potion)
--[Weak Troll's Blood Potion](Weak Troll's Blood Potion)
--[Swim Speed Potion](Swim Speed Potion)
+- [Minor Healing Potion](Minor Healing Potion)
+- [Weak Troll's Blood Potion](Weak Troll's Blood Potion)
+- [Swim Speed Potion](Swim Speed Potion)
 
 ## Progress
 Be wary of those lynxes! My sweet Maelor lost his eye in a fight with one of them.

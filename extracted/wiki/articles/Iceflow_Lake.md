@@ -10,6 +10,6 @@ categories: ["Dun Morogh subzones", "Dwarf territories", "Gnome territories", "L
 ---
 # Iceflow Lake
 
--Iceflow Lake** is a medium-sized lake located in western [Dun Morogh](Dun Morogh). Although the altitude and the frigid temperature ensures that the lake continually freezes over, the dwarves of [Brewnall Village](Brewnall Village) keep a hole clear of ice in order to access fresh water and provide fishing opportunities. [Paxton Ganter](Paxton Ganter) is located here.
+**Iceflow Lake** is a medium-sized lake located in western [Dun Morogh](Dun Morogh). Although the altitude and the frigid temperature ensures that the lake continually freezes over, the dwarves of [Brewnall Village](Brewnall Village) keep a hole clear of ice in order to access fresh water and provide fishing opportunities. [Paxton Ganter](Paxton Ganter) is located here.
 
 The lake is dominated by a couple of large islands located in its center. These islands are best avoided, as they are home to a large pack of ravenous [wolves](wolf), led by the [worg](worg) [Timber](Timber).

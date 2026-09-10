@@ -22,15 +22,9 @@ categories: ["Badlands subzones", "Dark Iron clan", "Dark Iron dwarf territories
 | loc | Northern Badlands |
 | status | Active |
 
--Angor Fortress** is the main site of operations of the [Dark Iron dwarves](Dark Iron clan) in the [Badlands](Badlands). Here, they organize their exploration for exploiting [Uldaman](Uldaman). An agent of [Ragnaros](Ragnaros), [Ambassador Infernus](Ambassador Infernus), also resides in this [keep](keep).
+**Angor Fortress** is the main site of operations of the [Dark Iron dwarves](Dark Iron clan) in the [Badlands](Badlands). Here, they organize their exploration for exploiting [Uldaman](Uldaman). An agent of [Ragnaros](Ragnaros), [Ambassador Infernus](Ambassador Infernus), also resides in this [keep](keep).
 
 ## NPCs
 ### Named
--
--
-
-### Unnamed
--
--
--
--
+- - ### Unnamed
+- - - -

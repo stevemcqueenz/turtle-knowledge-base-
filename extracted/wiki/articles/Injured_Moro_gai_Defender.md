@@ -23,10 +23,10 @@ categories: ["Draenei characters", "Moonwhisper Coast NPCs", "Turtle WoW content
 | location | Moro'gai Village, Moonwhisper Coast |
 | status | Alive |
 
--Injured Moro'gai Defenders** are [draenei](draenei) located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast). They are being treated by [Elder Sage Azh'okar](Elder Sage Azh'okar).
+**Injured Moro'gai Defenders** are [draenei](draenei) located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast). They are being treated by [Elder Sage Azh'okar](Elder Sage Azh'okar).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 <The defender grunts in pain.>
 
 ## Patch changes

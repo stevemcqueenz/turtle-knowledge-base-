@@ -11,7 +11,7 @@ categories: ["Elwynn Forest", "Rivers", "Undisplayed locations"]
 # Northshire River
 
 .]]
-  -Northshire River** flows from the [Crystal Falls](Crystal Falls) in [Northwind](Northwind), through [Northshire Valley](Northshire Valley), and eventually empties its waters into [Crystal Lake](Crystal Lake) in [Elwynn Forest](Elwynn Forest).
+**Northshire River** flows from the [Crystal Falls](Crystal Falls) in [Northwind](Northwind), through [Northshire Valley](Northshire Valley), and eventually empties its waters into [Crystal Lake](Crystal Lake) in [Elwynn Forest](Elwynn Forest).
 
 ## Notes and trivia
 - Although not displayed in the overworld, the subzone is found in the *World of Warcraft* files.

@@ -27,7 +27,7 @@ categories: ["Human characters", "Quest givers", "SI:7", "Stormwind City NPCs"]
 | location | SI:7, Stormwind City |
 | students | Edwin VanCleef |
 
--Master Mathias Shaw** is the leader of [SI:7](SI:7) and master of all assassins, (ref: [quest: The Head of the Beast]) and is also a member or presumably the leader of the [Stormwind Assassin's Guild](Stormwind Assassin's Guild). (ref:  His second in command is the [goblin](goblin) [Renzik](Renzik "The Shiv").<ref>[quest: SI:7|class=rogue])
+**Master Mathias Shaw** is the leader of [SI:7](SI:7) and master of all assassins, (ref: [quest: The Head of the Beast]) and is also a member or presumably the leader of the [Stormwind Assassin's Guild](Stormwind Assassin's Guild). (ref:  His second in command is the [goblin](goblin) [Renzik](Renzik "The Shiv").<ref>[quest: SI:7|class=rogue])
 
 ## Biography
 Mathias Shaw was a childhood friend of [Edwin VanCleef](Edwin VanCleef), and personally trained him as a rogue, hoping that one day he might consider a career alongside him. (ref: 
@@ -49,27 +49,27 @@ Mathias owed [Baros Alexston](Baros Alexston) a favor, but it is unknown what fo
   - [quest: The Defias Brotherhood] 
 - [quest: class=rogue] 
   - [quest: Klaven's Tower|class=rogue] 
-  -* [quest: class=rogue] 
+  - * [quest: class=rogue] 
 - [quest: Robb's Report] 
   - [quest: The Stockade Search] 
-  -* [quest: Investigating Corinth] 
-  -** [quest: Uncovering Evidence] 
-  -*** [quest: Mathias' Letter] 
+  - * [quest: Investigating Corinth] 
+  - ** [quest: Uncovering Evidence] 
+  - *** [quest: Mathias' Letter] 
 - [quest: Shadow of the Past] 
   - [quest: Look to an Old Friend] 
-  -* [quest: The Head of the Beast] 
-  -** [quest: Brotherhood's End] 
+  - * [quest: The Head of the Beast] 
+  - ** [quest: Brotherhood's End] 
 - [quest: A Veiled Threat] 
   - [quest: Into The Tortured Past] 
 - [quest: The First and the Last] 
   - [quest: Honor the Dead] 
-  -* [quest: Flint Shadowmore] 
+  - * [quest: Flint Shadowmore] 
 - [quest: The Elusive SI:7] 
   - [quest: Young and Foolish] 
-  -* [quest: Caravan Meets Caravan] 
+  - * [quest: Caravan Meets Caravan] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Welcome to SI:7 headquarters, <name>.
 
 ## References

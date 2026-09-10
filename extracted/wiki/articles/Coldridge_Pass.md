@@ -10,4 +10,4 @@ categories: ["Caves", "Dun Morogh subzones", "Dwarf territories", "Gnome territo
 ---
 # Coldridge Pass
 
--Coldridge Pass** links [Coldridge Valley](Coldridge Valley) to the rest of [Dun Morogh](Dun Morogh), and is crucial to give the trickle of dwarven and gnomish recruits to the frontier town of [Kharanos](Kharanos). Unfortunately, the pass has recently become infested with [trogg](trogg)s, and the only chance for travelers to get through is either to run at top speed or slash their way through the hostile invaders.
+**Coldridge Pass** links [Coldridge Valley](Coldridge Valley) to the rest of [Dun Morogh](Dun Morogh), and is crucial to give the trickle of dwarven and gnomish recruits to the frontier town of [Kharanos](Kharanos). Unfortunately, the pass has recently become infested with [trogg](trogg)s, and the only chance for travelers to get through is either to run at top speed or slash their way through the hostile invaders.

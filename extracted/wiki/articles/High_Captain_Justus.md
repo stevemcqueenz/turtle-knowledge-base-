@@ -25,7 +25,7 @@ categories: ["Human characters", "Scarlet Crusade", "Scarlet Enclave mobs", "Tur
 | location | New Avalon, Scarlet Enclave |
 | status | Killable |
 
--High Captain Justus** is an elite [human](human) located in the [New Avalon](New Avalon) barracks in the [Scarlet Enclave](Scarlet Enclave).
+**High Captain Justus** is an elite [human](human) located in the [New Avalon](New Avalon) barracks in the [Scarlet Enclave](Scarlet Enclave).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

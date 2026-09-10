@@ -34,53 +34,27 @@ categories: ["Forts", "Horde quest hubs", "Jungle troll territories", "Orc terri
 | boat | Yes |
 | status | Active |
 
--Grom'gol Base Camp** (or **Grom'Gol**) (ref: [Hin Denburg#Quotes](Hin Denburg#Quotes)) is an [orc](orc)ish camp on the northwestern coast of [Stranglethorn Vale](Stranglethorn Vale). Led by [Commander Aggro'gosh](Commander Aggro'gosh), the outpost provides a safe chain of supply to [Stonard](Stonard) in the [Swamp of Sorrows](Swamp of Sorrows). This fort is heavily strengthened to be able to guard against [jungle troll](jungle troll)s, [naga](naga), and the many members of the [Alliance](Alliance) who arrive from [Booty Bay](Booty Bay) and [Duskwood](Duskwood).
+**Grom'gol Base Camp** (or **Grom'Gol**) (ref: [Hin Denburg#Quotes](Hin Denburg#Quotes)) is an [orc](orc)ish camp on the northwestern coast of [Stranglethorn Vale](Stranglethorn Vale). Led by [Commander Aggro'gosh](Commander Aggro'gosh), the outpost provides a safe chain of supply to [Stonard](Stonard) in the [Swamp of Sorrows](Swamp of Sorrows). This fort is heavily strengthened to be able to guard against [jungle troll](jungle troll)s, [naga](naga), and the many members of the [Alliance](Alliance) who arrive from [Booty Bay](Booty Bay) and [Duskwood](Duskwood).
 
 ## Travel connections
 ### Flight
-  - [Stormbreaker Point](Stormbreaker Point), [Balor](Balor)**
-  - [Kargath](Kargath), [Badlands](Badlands)**
-  - [Stonard](Stonard), [Swamp of Sorrows](Swamp of Sorrows)**
-  - [Booty Bay](Booty Bay), [Stranglethorn Vale](Stranglethorn Vale)**
+** [Stormbreaker Point](Stormbreaker Point), [Balor](Balor)**
+** [Kargath](Kargath), [Badlands](Badlands)**
+** [Stonard](Stonard), [Swamp of Sorrows](Swamp of Sorrows)**
+** [Booty Bay](Booty Bay), [Stranglethorn Vale](Stranglethorn Vale)**
 
 ### Zeppelin
-  - [Undercity](Undercity), [Tirisfal Glades](Tirisfal Glades)**
-  - [Orgrimmar](Orgrimmar), [Durotar](Durotar)**
+** [Undercity](Undercity), [Tirisfal Glades](Tirisfal Glades)**
+** [Orgrimmar](Orgrimmar), [Durotar](Durotar)**
 
 ## Inhabitants
 ### Quest givers
-- 
-- 
-- 
-- 
-
-### Trainers
-- 
-- 
-- 
-- 
-- 
-
-### Goods and services
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-### Guards
-- 
-- 
-
-## Patch changes
--  **Patch 1.7.0 (2005-09-13):**
-  -Entering the zeppelin tower at the Grom'gol Base Camp no longer incorrectly flags you as being in the Valley of Strength.
-  -A new inn has been added to the Grom'gol Base Camp in Stranglethorn Vale at the base of the zeppelin tower.
+- - - - ### Trainers
+- - - - - ### Goods and services
+- - - - - - - - - - - ### Guards
+- - ## Patch changes
+- **Patch 1.7.0 (2005-09-13):**
+  - Entering the zeppelin tower at the Grom'gol Base Camp no longer incorrectly flags you as being in the Valley of Strength.
+  - A new inn has been added to the Grom'gol Base Camp in Stranglethorn Vale at the base of the zeppelin tower.
 
 ## References

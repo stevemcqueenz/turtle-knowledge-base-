@@ -10,4 +10,4 @@ categories: ["Orc territories", "Redridge Mountains subzones", "Towers"]
 ---
 # Stonewatch Tower
 
--Stonewatch Tower** is the secondary structure of the human stronghold of [Stonewatch](Stonewatch), which also includes the [Stonewatch Keep](Stonewatch Keep). They both used to be controlled by the [human](human)s of [Lakeshire](Lakeshire) but were taken by [orc](orc)s of the [Blackrock clan](Blackrock clan). Now the tower is firmly in the hands of [Gath'Ilzogg](Gath'Ilzogg)'s underlings.
+**Stonewatch Tower** is the secondary structure of the human stronghold of [Stonewatch](Stonewatch), which also includes the [Stonewatch Keep](Stonewatch Keep). They both used to be controlled by the [human](human)s of [Lakeshire](Lakeshire) but were taken by [orc](orc)s of the [Blackrock clan](Blackrock clan). Now the tower is firmly in the hands of [Gath'Ilzogg](Gath'Ilzogg)'s underlings.

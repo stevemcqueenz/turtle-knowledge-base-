@@ -10,7 +10,7 @@ categories: ["Alterac Mountains subzones", "Manors", "Rogues"]
 ---
 # Ravenholdt Manor
 
--Ravenholdt Manor** is the headquarters for the [Ravenholdt](Ravenholdt) [faction](faction).
+**Ravenholdt Manor** is the headquarters for the [Ravenholdt](Ravenholdt) [faction](faction).
 
 For those having trouble finding it, there is a plateau slightly northwest of [Durnholde Keep](Durnholde Keep) in [Hillsbrad Foothills](Hillsbrad Foothills).   At the back of this plateau, where it meets the mountains (the Alterac Mountains, incidentally), you should find a small path leading up into the mountains (at coordinates 75,23).  This path twists back and forth, goes through a small cave, and then leads to Ravenholdt Manor.
 

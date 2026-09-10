@@ -25,14 +25,14 @@ categories: ["Human characters", "Northwind NPCs", "Quest givers", "Stormwind (k
 | status | Alive |
 | location | The Plump Pumpkin, Northwind |
 
--Colonel Driscol** is a [human](human) quest giver in the [Plump Pumpkin](Plump Pumpkin) in [Northwind](Northwind).
+**Colonel Driscol** is a [human](human) quest giver in the [Plump Pumpkin](Plump Pumpkin) in [Northwind](Northwind).
 
 ## Quests
 - [quest: Darker than Iron] 
 - [quest: Orcs by Our Borders] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 First Redridge and now Northwind? Do these orcs not know their place?
 
 ## Patch changes

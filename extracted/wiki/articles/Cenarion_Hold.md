@@ -11,7 +11,7 @@ categories: ["Cenarion Circle", "Forts", "Neutral settlements", "Pages with brok
 # Cenarion Hold
 
 location of Cenarion Hold.]]
-  -Cenarion Hold** is a location of utmost strategic importance in [Silithus](Silithus). The [Cenarion Circle](Cenarion Circle) has taken over the duty of defending the ancient [night elven](night elven) settlement against the increasingly hostile and aggressive [Silithid](Silithid) and other forces that have set foot in this troubled region recently.
+**Cenarion Hold** is a location of utmost strategic importance in [Silithus](Silithus). The [Cenarion Circle](Cenarion Circle) has taken over the duty of defending the ancient [night elven](night elven) settlement against the increasingly hostile and aggressive [Silithid](Silithid) and other forces that have set foot in this troubled region recently.
 
 It was introduced in [Patch 1.8](Patch 1.8 (Release Notes)).
 
@@ -22,51 +22,49 @@ See [Cenarion Circle](Cenarion Circle) for information on summoning the Dukes an
 Cenarion Hold's leader is [Commander Mar'alith](Commander Mar'alith).
 
 ## Cenarion Hold NPCs
-  -Merchants**
--[Kania](Kania) <Enchanting Supplies>
--[Vargus](Vargus) <Blacksmith>
--[Mishta](Mishta) <Trade Supplies>
--[Calandrath](Calandrath) <Innkeeper>
--[Khur Hornstriker](Khur Hornstriker) <Reagents>
-  -Other Characters**
--[Runk Windtamer](Runk Windtamer) <Wind Rider Master>
--[Cloud Skydancer](Cloud Skydancer) <Hippogryph Master>
--[Scout Bloodfist](Scout Bloodfist)
--[Bor Wildmane](Bor Wildmane)
--[Huum Wildmane](Huum Wildmane)
--[Squire Leoren Mal'derath](Squire Leoren Mal'derath) <Stable Master>
--[Geologist Larksbane](Geologist Larksbane)
--[Baristolth of the Shifting Sands](Baristolth of the Shifting Sands)
--[Windcaller Kaldon](Windcaller Kaldon)
--[Commander Mar'alith](Commander Mar'alith)
--[Rifleman Torrig](Rifleman Torrig)
--[Vish Kozus](Vish Kozus) <Captain of the Guard>
--[Windcaller Proudhorn](Windcaller Proudhorn)
--[Warden Haro](Warden Haro)
--[Aurel Goldleaf](Aurel Goldleaf)
--[Windcaller Yessendra](Windcaller Yessendra)
--[Garon Hutchins](Garon Hutchins)
--[Keyl Swiftclaw](Keyl Swiftclaw)
--[J.D. Shadesong](J.D. Shadesong)
--[Dirk Thunderwood](Dirk Thunderwood)
--[Beetix Ficklespragg](Beetix Ficklespragg)
--[Noggle Ficklespragg](Noggle Ficklespragg)
-  -Guards**
--[Cenarion Hold Infantry](Cenarion Hold Infantry)
+**Merchants**
+- [Kania](Kania) <Enchanting Supplies>
+- [Vargus](Vargus) <Blacksmith>
+- [Mishta](Mishta) <Trade Supplies>
+- [Calandrath](Calandrath) <Innkeeper>
+- [Khur Hornstriker](Khur Hornstriker) <Reagents>
+**Other Characters**
+- [Runk Windtamer](Runk Windtamer) <Wind Rider Master>
+- [Cloud Skydancer](Cloud Skydancer) <Hippogryph Master>
+- [Scout Bloodfist](Scout Bloodfist)
+- [Bor Wildmane](Bor Wildmane)
+- [Huum Wildmane](Huum Wildmane)
+- [Squire Leoren Mal'derath](Squire Leoren Mal'derath) <Stable Master>
+- [Geologist Larksbane](Geologist Larksbane)
+- [Baristolth of the Shifting Sands](Baristolth of the Shifting Sands)
+- [Windcaller Kaldon](Windcaller Kaldon)
+- [Commander Mar'alith](Commander Mar'alith)
+- [Rifleman Torrig](Rifleman Torrig)
+- [Vish Kozus](Vish Kozus) <Captain of the Guard>
+- [Windcaller Proudhorn](Windcaller Proudhorn)
+- [Warden Haro](Warden Haro)
+- [Aurel Goldleaf](Aurel Goldleaf)
+- [Windcaller Yessendra](Windcaller Yessendra)
+- [Garon Hutchins](Garon Hutchins)
+- [Keyl Swiftclaw](Keyl Swiftclaw)
+- [J.D. Shadesong](J.D. Shadesong)
+- [Dirk Thunderwood](Dirk Thunderwood)
+- [Beetix Ficklespragg](Beetix Ficklespragg)
+- [Noggle Ficklespragg](Noggle Ficklespragg)
+**Guards**
+- [Cenarion Hold Infantry](Cenarion Hold Infantry)
 
 ## Pre 1.8
 Before Patch 1.8, Cenarion Hold did not exist and [Valor's Rest](Valor's Rest) was the only Silithus flight point.
 
 ## Travel Connections
 ### Flight
-  - [Feathermoon Stronghold](Feathermoon Stronghold)**
-  - [Camp Mojache](Camp Mojache)**
-  - [Marshal's Refuge](Marshal's Refuge)**
-  - [Gadgetzan](Gadgetzan)**
+** [Feathermoon Stronghold](Feathermoon Stronghold)**
+** [Camp Mojache](Camp Mojache)**
+** [Marshal's Refuge](Marshal's Refuge)**
+** [Gadgetzan](Gadgetzan)**
 
 ## Patch changes
--
-
-## External links
+- ## External links
 [fr:Fort Cénarien](fr:Fort Cénarien)
 [pl:Cenarion Hold](pl:Cenarion Hold)

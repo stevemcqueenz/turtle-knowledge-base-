@@ -10,7 +10,7 @@ categories: ["Gilneas City shops", "Turtle WoW content"]
 ---
 # Millie's Apothecary
 
--Millie's Apothecary** is a shop located in [Gilneas City](Gilneas City).
+**Millie's Apothecary** is a shop located in [Gilneas City](Gilneas City).
 
 ## Patch changes
 - (Patch 1.17.0|note=Added.)

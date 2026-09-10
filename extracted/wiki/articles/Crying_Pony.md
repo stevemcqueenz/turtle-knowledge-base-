@@ -10,7 +10,7 @@ categories: ["Gilneas City shops", "Turtle WoW content"]
 ---
 # Crying Pony
 
--The Crying Pony** is a shop located in [Gilneas City](Gilneas City).
+**The Crying Pony** is a shop located in [Gilneas City](Gilneas City).
 
 ## Speculation
 - The name of the shop may be a reference to the Prancing Pony inn from *The Lord of the Rings*.

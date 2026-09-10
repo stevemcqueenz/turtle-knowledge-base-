@@ -27,8 +27,8 @@ categories: ["Azshara quests", "Neutral quests", "Quests at 54", "Stubs", "Turtl
 
 ## Objectives
 Return with Akh Z'ador's Riftwalker Cane and the Mojo of Jammal'an to Akh Z'ador in Azshara.
--[Akh Z'ador's Riftwalker Cane](Akh Z'ador's Riftwalker Cane)
--[Mojo of Jammal'an](Mojo of Jammal'an)
+- [Akh Z'ador's Riftwalker Cane](Akh Z'ador's Riftwalker Cane)
+- [Mojo of Jammal'an](Mojo of Jammal'an)
 
 ## Description
 Now that I feel rejuvenated, our next step is retrieving my most prized possession: my riftwalker staff. When I was stranded on the auburn grass of these cliffs, I was surrounded by rabid creatures left and right. One of them, horned fiends wielding sinister hexes and curses, their features reminding me of the terrors of the Burning Legion. While I lay defenseless on the ground, they approached me like predators descending on a wounded animal. Barely able to escape, I had left my riftwalker staff behind - a mishap hurting me deeply.

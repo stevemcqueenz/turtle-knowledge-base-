@@ -10,24 +10,10 @@ categories: ["Arathi Highlands subzones", "Human territories", "Turtle WoW conte
 ---
 # Gallant Square
 
--Gallant Square** is a militia-controlled district of the city of [Stromgarde Keep](Stromgarde Keep) that has been reclaimed by the Arathi humans. (ref: [New Zones & World Edits](https://web.archive.org/web/20260514170802/https://turtlecraft.gg/new-locations-and-maps). Archived from [the original](https://turtlecraft.gg/new-locations-and-maps) on 2026-05-14. Retrieved on 2026-29-08.)
+**Gallant Square** is a militia-controlled district of the city of [Stromgarde Keep](Stromgarde Keep) that has been reclaimed by the Arathi humans. (ref: [New Zones & World Edits](https://web.archive.org/web/20260514170802/https://turtlecraft.gg/new-locations-and-maps). Archived from [the original](https://turtlecraft.gg/new-locations-and-maps) on 2026-05-14. Retrieved on 2026-29-08.)
 
 ## Inhabitants
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - - - - - - - - - - ## Patch changes
 - (Patch 1.16.1|note=Added.)
 
 ## References

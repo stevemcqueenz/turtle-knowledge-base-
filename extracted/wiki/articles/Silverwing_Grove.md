@@ -10,4 +10,4 @@ categories: ["Ashenvale subzones", "Night elf territories", "Pages with broken f
 ---
 # Silverwing Grove
 
--Silverwing Grove** is located in south-central [Ashenvale](Ashenvale), southwest of [Silverwing Outpost](Silverwing Outpost) and west of [Fallen Sky Lake](Fallen Sky Lake). It is the location of the entrance to the [Warsong Gulch](Warsong Gulch) battlegrounds, and holds several [pvp](pvp)-aligned [npc](npc)s, including an [Alliance Brigadier General](Alliance Brigadier General), a pair of [vendor](vendor)s, and another pvp [quest giver](quest giver) named .
+**Silverwing Grove** is located in south-central [Ashenvale](Ashenvale), southwest of [Silverwing Outpost](Silverwing Outpost) and west of [Fallen Sky Lake](Fallen Sky Lake). It is the location of the entrance to the [Warsong Gulch](Warsong Gulch) battlegrounds, and holds several [pvp](pvp)-aligned [npc](npc)s, including an [Alliance Brigadier General](Alliance Brigadier General), a pair of [vendor](vendor)s, and another pvp [quest giver](quest giver) named .

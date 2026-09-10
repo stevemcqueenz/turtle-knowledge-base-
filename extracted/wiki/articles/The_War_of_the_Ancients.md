@@ -12,7 +12,7 @@ categories: ["History of Warcraft", "Lore"]
 
 <B style="font-weight:normal;background-color:#2b2b2b;">[  [Source Text](WoWWiki:Article_type)  ]</B>
 
--The War of the Ancients* is a section of the [History of Warcraft](History of Warcraft), Chapter I.  It is also available as an [in-game book](:Category:In-Game Books) in the Athenaeum of [The Scarlet Monastery](The Scarlet Monastery).
+*The War of the Ancients* is a section of the [History of Warcraft](History of Warcraft), Chapter I.  It is also available as an [in-game book](:Category:In-Game Books) in the Athenaeum of [The Scarlet Monastery](The Scarlet Monastery).
 
 ''For the novels by [Richard A. Knaak](Richard A. Knaak), see [War of the Ancients Trilogy](War of the Ancients Trilogy).  For a general article on the event, see [War of the Ancients](War of the Ancients).
 

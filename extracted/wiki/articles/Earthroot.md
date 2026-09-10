@@ -10,4 +10,4 @@ categories: ["Alchemy crafting reagent items", "Herbalism gathered items", "Herb
 ---
 # Earthroot
 
--Earthroot** is an [herb](herb) [crafting reagent](crafting reagent) that can be gathered by [Herbalist](Herbalist)s. It can be found along cliff faces and hills in and around starting zones.
+**Earthroot** is an [herb](herb) [crafting reagent](crafting reagent) that can be gathered by [Herbalist](Herbalist)s. It can be found along cliff faces and hills in and around starting zones.

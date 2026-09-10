@@ -15,7 +15,7 @@ Returns whether the passed unit is on the passed quest.
 IsUnitOnQuest(questIndex, "unit")
 ----
 
-  - *Arguments***
+** *Arguments***
 
    (questIndex, "unit")
   ; questIndex
@@ -25,24 +25,24 @@ IsUnitOnQuest(questIndex, "unit")
 
 ----
 
-  - *Returns***
+** *Returns***
 
   ; bool
 
 ----
 
-  - *Example***
+** *Example***
 
     if IsUnitOnQuest(0, "player")  then
         SendChatMessage("i am on my quest", "SAY", "Common", "General")
     end
 
-  - *Result***
+** *Result***
 
     <1. General>Player: "i am on my quest";
 ----
 
-  - *Description***
+** *Description***
 
 - Returns whether the specified unit is on the specified quest. One can use any of the defined [UnitId](API Type UnitId) values so long as it refers to a unit in the party or raid.
 

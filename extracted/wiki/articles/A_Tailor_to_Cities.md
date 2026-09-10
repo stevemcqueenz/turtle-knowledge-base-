@@ -10,4 +10,4 @@ categories: ["Booty Bay shops"]
 ---
 # A Tailor to Cities
 
--A Tailor to Cities** is a [tailoring](tailoring) shop located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). It's run by [Grarnik Goodstitch](Grarnik Goodstitch) and [Xizk Goodstitch](Xizk Goodstitch).
+**A Tailor to Cities** is a [tailoring](tailoring) shop located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). It's run by [Grarnik Goodstitch](Grarnik Goodstitch) and [Xizk Goodstitch](Xizk Goodstitch).

@@ -25,7 +25,7 @@ categories: ["Forsaken characters", "Hillsbrad Foothills NPCs", "Quest givers"]
 | location | Tarren Mill, Hillsbrad Foothills |
 | status | Active |
 
--High Executor Darthalia** is a [Forsaken](Forsaken) [quest giver](quest giver) located in [Tarren Mill](Tarren Mill) in the [Hillsbrad Foothills](Hillsbrad Foothills). She commands the [Forsaken](Forsaken) forces from her command post, and is under the direct command of the dreadlord [Varimathras](Varimathras) and [Sylvanas Windrunner](Sylvanas Windrunner). Her job is stop the spread of [Human](Human)s and other Alliance members in Hillsbrad.
+**High Executor Darthalia** is a [Forsaken](Forsaken) [quest giver](quest giver) located in [Tarren Mill](Tarren Mill) in the [Hillsbrad Foothills](Hillsbrad Foothills). She commands the [Forsaken](Forsaken) forces from her command post, and is under the direct command of the dreadlord [Varimathras](Varimathras) and [Sylvanas Windrunner](Sylvanas Windrunner). Her job is stop the spread of [Human](Human)s and other Alliance members in Hillsbrad.
 
 ## Quests
 - [quest: Battle of Hillsbrad] 
@@ -41,7 +41,7 @@ categories: ["Forsaken characters", "Hillsbrad Foothills NPCs", "Quest givers"]
 - [quest: Dangerous!] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 In order to serve the Dark Lady and Varimathras we need to advance the front on the Human Infestation.
 
 ## External links

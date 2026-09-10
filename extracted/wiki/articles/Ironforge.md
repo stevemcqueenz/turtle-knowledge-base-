@@ -26,7 +26,7 @@ categories: ["Dun Morogh subzones"]
 | loc | Dun Morogh, Eastern Kingdoms |
 | faffiliation | Alliance of Lordaeron |
 
--Ironforge** is the capital city of the dwarves of the [Alliance](Alliance). King Magni Bronzebeard rules from his throne room, and the gnome king, High Tinker Mekkatorque, has temporarily had to settle down in Tinkertown due to the fall of the gnome city of [Gnomeregan](Gnomeregan).
+**Ironforge** is the capital city of the dwarves of the [Alliance](Alliance). King Magni Bronzebeard rules from his throne room, and the gnome king, High Tinker Mekkatorque, has temporarily had to settle down in Tinkertown due to the fall of the gnome city of [Gnomeregan](Gnomeregan).
 
 ## History
 Many dwarven strongholds fell during the Second War, but the mighty city of Ironforge, nestled in the wintry peaks of [Dun Morogh](Dun Morogh), was never breached by the invading [Horde](Horde). Once center of all dwarves races (before the Dark Iron Dwarves were banished from the city, which eventually lead to the Three Hammer War), it is now home to its namebearing clan - the Ironforge Dwarves.

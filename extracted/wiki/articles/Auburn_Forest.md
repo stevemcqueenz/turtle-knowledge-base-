@@ -10,7 +10,7 @@ categories: ["Northwind subzones", "Turtle WoW content", "Woods"]
 ---
 # Auburn Forest
 
--Auburn Forest** is a forested area in the southern area of [Northwind](Northwind).
+**Auburn Forest** is a forested area in the southern area of [Northwind](Northwind).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

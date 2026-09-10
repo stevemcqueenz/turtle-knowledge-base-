@@ -10,6 +10,6 @@ categories: ["Crypts", "Forsaken territories", "Pages with broken file links", "
 ---
 # Shadow Grave
 
--Shadow Grave** is a crypt that lies at the top of a slope along the [Tirisfal Glades](Tirisfal Glades) mountains, just above the [Forsaken](Forsaken) village of [Deathknell](Deathknell). A path runs down from Shadow Grave to Deathknell. 
+**Shadow Grave** is a crypt that lies at the top of a slope along the [Tirisfal Glades](Tirisfal Glades) mountains, just above the [Forsaken](Forsaken) village of [Deathknell](Deathknell). A path runs down from Shadow Grave to Deathknell. 
 
 It is this crypt in which every undead [player character](player character) "comes back to life" after character creation.

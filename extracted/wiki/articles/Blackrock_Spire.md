@@ -11,11 +11,11 @@ categories: ["Forts", "Instances", "Pages with broken file links", "Raids", "Zon
 # Blackrock Spire
 
 # General
-  -*Level:** 55+
-  -*# of Players:** 10 (was 15 prior to Patch 1.10)
-  -*Location:** Raid instance located inside [Blackrock Spire](Blackrock Spire) under [Blackrock Mountain](Blackrock Mountain).
-  -*Final Bosses:** [Overlord Wyrmthalak](Overlord Wyrmthalak) (Lower), [General Drakkisath](General Drakkisath) (Upper)
-  -*Abbreviation:** BRS, LBRS, UBRS
+- **Level:** 55+
+- **# of Players:** 10 (was 15 prior to Patch 1.10)
+- **Location:** Raid instance located inside [Blackrock Spire](Blackrock Spire) under [Blackrock Mountain](Blackrock Mountain).
+- **Final Bosses:** [Overlord Wyrmthalak](Overlord Wyrmthalak) (Lower), [General Drakkisath](General Drakkisath) (Upper)
+- **Abbreviation:** BRS, LBRS, UBRS
 ----
 
 ### History

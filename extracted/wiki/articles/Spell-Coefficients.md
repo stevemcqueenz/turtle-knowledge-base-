@@ -102,7 +102,7 @@ Example talent bonus 2
 - Moonfire DoT: (12/15)*(12/15) / (1.5/3.5 + 12/15) = 52.09% - 13.02% per tick (4)
 - Hurricane - 3.5/3.5*0.95/3 - 31.66% - 3.16% per tick (10)
 
-  -Paladin**
+**Paladin**
 
 - One-Handed Seal of Righteousness - 10% per hit
 - Two-Handed Seal of Righteousness - 12% per hit
@@ -146,7 +146,7 @@ Example talent bonus 2
 - Immolation Trap: 0%
 - Explosive Trap: 0%
 
-  -Attack Power coefficients**
+**Attack Power coefficients**
 
 There are only 6 abilities that gain damage bonuses from your attack power. These are:
 

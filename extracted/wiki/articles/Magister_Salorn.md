@@ -25,7 +25,7 @@ categories: ["Dalaran (kingdom)", "Human characters", "Tirisfal Glades mobs", "T
 | gender | Male |
 | location | The Rogue Heights, Tirisfal Glades |
 
--Magister Salorn** is a human found at the [Rogue Heights](Rogue Heights) in [Tirisfal Glades](Tirisfal Glades). Magister Salorn leads a group of alleged Rogue Wizards as part of a covert [Kirin Tor](Kirin Tor) group checking the Forsaken in their expansion within the [Tirisfal Uplands](Tirisfal Uplands). (ref: [quest: Magical Interference])
+**Magister Salorn** is a human found at the [Rogue Heights](Rogue Heights) in [Tirisfal Glades](Tirisfal Glades). Magister Salorn leads a group of alleged Rogue Wizards as part of a covert [Kirin Tor](Kirin Tor) group checking the Forsaken in their expansion within the [Tirisfal Uplands](Tirisfal Uplands). (ref: [quest: Magical Interference])
 
 ## Objective of
 - Drops [Salorn's Ring](Salorn's Ring) for [quest: Magical Interference].

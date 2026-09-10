@@ -22,7 +22,7 @@ The Firelord's return was marked by the eruption of a giant volcano, which reduc
 ### World of Warcraft
 A few years after the [Third War](Third War), an Alliance expedition was commissioned to find mysterious relics rumored to still lie within the ruins of the city. [Though all relics were uncovered](The Smoldering Ruins of Thaurissan (2)), none of them could be brought back in one piece. Nonetheless, the information they magically revealed was still priceless. Merely touching the relics caused memories of the destruction of Thaurissan to overwhelm the explorers, flooding their sights with visions of the terrible ruin wrought upon the city.
 
-  -Notes taken by the explorers are recorded here:**<ref> [54] [The Smoldering Ruins of Thaurissan (2)](The Smoldering Ruins of Thaurissan (2)))
+**Notes taken by the explorers are recorded here:**<ref> [54] [The Smoldering Ruins of Thaurissan (2)](The Smoldering Ruins of Thaurissan (2)))
 - *A tormented voice whispered, "He cannot be defeated." The relic burned to nothing. The memories it held are now my own. This city was destroyed by a being not of this world.*
 - *Another tormented voice: "Your existence is acknowledged." The relic turned to dust. My head throbs with newfound wisdom. Something evil lurks in the heart of the mountain.*
 - *"Help us, outsider." The relic crumbled to dust. A vision of eight Dark Iron dwarves performing some sort of ritual filled my head.*

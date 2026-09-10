@@ -24,7 +24,7 @@ categories: ["Bosses", "Dragonmaw Retreat mobs", "Pages with broken file links",
 | status | Killable |
 | instance | Dragonmaw Retreat |
 
--Slagfist Destroyer** is a [stone golem](stone golem) and is the sixth boss of [Dragonmaw Retreat](Dragonmaw Retreat).
+**Slagfist Destroyer** is a [stone golem](stone golem) and is the sixth boss of [Dragonmaw Retreat](Dragonmaw Retreat).
 
 ## Abilities
 - Skin of Rock
@@ -33,13 +33,13 @@ categories: ["Bosses", "Dragonmaw Retreat mobs", "Pages with broken file links",
 - Enrage
 
 ## Quotes
-  -Aggro**
+**Aggro**
   Unidentified intruder detected.
 
-  -At 50%**
+**At 50%**
   Execute destruction measure 13.
 
-  -Death**
+**Death**
   Protocol failure...
 
 ## Loot

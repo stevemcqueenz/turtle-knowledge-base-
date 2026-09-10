@@ -24,10 +24,10 @@ categories: ["Moonwhisper Coast NPCs", "Tauren characters", "Turtle WoW content"
 | location | Grove of the Sun, Moonwhisper Coast |
 | relatives | Achak (brother) |
 
--Naturalist Pinemoon** is a [tauren](tauren) located at the [Grove of the Sun](Grove of the Sun) in [Moonwhisper Coast](Moonwhisper Coast).
+**Naturalist Pinemoon** is a [tauren](tauren) located at the [Grove of the Sun](Grove of the Sun) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 My brother Achak and I have many friends in the Grove of the Moon on the mainland. The possibility of them being among the invaders defiling the ruins of Tyrandas is both revolting and saddening.
 
 ## Patch changes

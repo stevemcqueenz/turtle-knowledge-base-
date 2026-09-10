@@ -26,7 +26,7 @@ categories: ["Flight masters", "Moonwhisper Coast NPCs", "Tauren characters", "T
 | location | Moonhoof Village, Moonwhisper Coast |
 | status | Alive |
 
--Sol Greycloud** is a [tauren](tauren) wyvern flight master located at [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Sol Greycloud** is a [tauren](tauren) wyvern flight master located at [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Flight paths
 See [Moonhoof Village#Travel connections](Moonhoof Village#Travel connections).

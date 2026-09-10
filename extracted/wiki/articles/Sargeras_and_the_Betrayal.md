@@ -12,7 +12,7 @@ categories: ["History of Warcraft", "In-Game Books", "Lore"]
 
 <B style="font-weight:normal;background-color:#2b2b2b;">[  [Source Text](WoWWiki:Article_type)  ]</B>
 
--Sargeras and the Betrayal* is a section of the [History of Warcraft](History of Warcraft), Chapter I.  It is also available as an [in-game book](:Category:In-Game Books) in the Reliquary of [Scholomance](Scholomance).
+*Sargeras and the Betrayal* is a section of the [History of Warcraft](History of Warcraft), Chapter I.  It is also available as an [in-game book](:Category:In-Game Books) in the Reliquary of [Scholomance](Scholomance).
 
 ## Text
 Over time, demonic entities made their way into the [Titan](Titan)s' worlds from the [Twisting Nether](Twisting Nether), and the [Pantheon](Pantheon) elected its greatest warrior, [Sargeras](Sargeras), to act as its first line of defense. A noble giant of molten bronze, Sargeras carried out his duties for countless millennia, seeking out and destroying these demons wherever he could find them. Over the eons, Sargeras encountered two powerful demonic races, both of which were bent on gaining power and dominance over the physical universe. 

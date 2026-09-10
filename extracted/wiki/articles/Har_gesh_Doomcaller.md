@@ -27,33 +27,33 @@ categories: ["Bosses", "Hateforge Quarry mobs", "Orc characters", "Turtle WoW co
 | status | Killable |
 | instance | Hateforge Quarry |
 
--Har'gesh Doomcaller** is an elite orc boss in [Hateforge Quarry](Hateforge Quarry) and the final boss of the dungeon. He can be found at the end of the rightmost fork of the upper section of the quarry interior.
+**Har'gesh Doomcaller** is an elite orc boss in [Hateforge Quarry](Hateforge Quarry) and the final boss of the dungeon. He can be found at the end of the rightmost fork of the upper section of the quarry interior.
 
 ## Quotes
-  -Aggro**
+**Aggro**
   So, you have been the ones that raised the alarms, you shall meet your demise within this cave...
 
-  -Summoning Faceless Terrors**
+**Summoning Faceless Terrors**
   The Void hungers for more souls, let it consume you...
 
-  -Death**
+**Death**
   Stronger than I have anticipated... I have served my masters, till the end.
 
 ## Objective of
--  [57G] [Assaulting Hateforge](Assaulting Hateforge)
--  [57G] [Of New and Old IV](Of New and Old IV)
+- [57G] [Assaulting Hateforge](Assaulting Hateforge)
+- [57G] [Of New and Old IV](Of New and Old IV)
 
 ## Loot
--[Toxic Talisman](Toxic Talisman)
--[Call of Shadow](Call of Shadow)
--[Sacrosanct Epaulets](Sacrosanct Epaulets)
--[The Veil of Hatred](The Veil of Hatred)
--[Doomcaller Staff](Doomcaller Staff)
--[Band of Calamity](Band of Calamity)
--[Cuffs of Dawnfall](Cuffs of Dawnfall)
--[Shawl of End Times](Shawl of End Times)
--[Shadowruned Girdle](Shadowruned Girdle)
--[Fashion Coin](Fashion Coin)
+- [Toxic Talisman](Toxic Talisman)
+- [Call of Shadow](Call of Shadow)
+- [Sacrosanct Epaulets](Sacrosanct Epaulets)
+- [The Veil of Hatred](The Veil of Hatred)
+- [Doomcaller Staff](Doomcaller Staff)
+- [Band of Calamity](Band of Calamity)
+- [Cuffs of Dawnfall](Cuffs of Dawnfall)
+- [Shawl of End Times](Shawl of End Times)
+- [Shadowruned Girdle](Shadowruned Girdle)
+- [Fashion Coin](Fashion Coin)
 
 ## Patch changes
 - (Patch 1.16.1|note=Added.)

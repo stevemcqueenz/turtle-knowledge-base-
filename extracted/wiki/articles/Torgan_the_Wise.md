@@ -24,7 +24,7 @@ categories: ["Moonwhisper Coast NPCs", "Quest givers", "Tauren characters", "Tur
 | location | Moonhoof Retreat, Moonwhisper Coast |
 | status | Alive |
 
--Torgan the Wise** is a [tauren](tauren) quest giver located in [Moonhoof Retreat](Moonhoof Retreat) in [Moonwhisper Coast](Moonwhisper Coast).
+**Torgan the Wise** is a [tauren](tauren) quest giver located in [Moonhoof Retreat](Moonhoof Retreat) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: An Opportune Arrival] 
@@ -32,7 +32,7 @@ categories: ["Moonwhisper Coast NPCs", "Quest givers", "Tauren characters", "Tur
 - [quest: Report to Moonhoof Village] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Ah, a new sheep looks to join our flock? Many have already begun to gather here for the coming ceremony, and many others have come to find shelter from the wolves at our doorstep.
 
 It would appear this dawning of the Blue Child has certainly come at an opportune time.

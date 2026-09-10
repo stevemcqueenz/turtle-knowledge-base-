@@ -10,10 +10,10 @@ categories: ["Addon"]
 ---
 # BonusScanner
 
--BonusScanner** scans your equipment for cumulative item bonuses and displays the total values for various stats and resistances. Use this to quickly see how your gear boosts your character. 
+**BonusScanner** scans your equipment for cumulative item bonuses and displays the total values for various stats and resistances. Use this to quickly see how your gear boosts your character. 
 
 ## Installation
-  -GitAddonsManager** 
+**GitAddonsManager** 
 
 The easiest way to keep **BonusScanner** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **BonusScanner** up to date is by using [GitAddonsManage
 # **Select the Branch:** Ensure that the main branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -29,7 +29,7 @@ If you prefer manual installation, follow these steps:
 # Click the **<> Code** dropdown and download the repository as a <code>.zip</code>.
 # Unpack the <code>.zip</code> and rename the folder to <code>BonusScanner</code>, removing the <code>-main</code> suffix.
 # Move the folder into your <code>Interface/AddOns</code> directory and restart the game.
-  -Notes:**
+**Notes:**
 
 - The addon analyzes item tooltip data; ensure items are properly cached.
 - BonusScanner updates bonuses on login and whenever your inventory changes, providing real-time info.
@@ -66,26 +66,26 @@ If you prefer manual installation, follow these steps:
 ## Developer Info
 For advanced users or developers, the code provides functions to access bonus data programmatically:
 
-  -BonusScanner:GetBonus(bonus)**
+**BonusScanner:GetBonus(bonus)**
 
 - Returns total of a certain bonus type or 0 if not that bonus type is not present. 
 - **Example**: BonusScanner:GetBonus('CRIT') returns crit chance bonus of your current equipment.
 
-  -BonusScanner:GetSlotBonuses(slotname)**
+**BonusScanner:GetSlotBonuses(slotname)**
 
 - Returns table of bonuses on a certain item slot or an empty table if nothing present.
 - **Example**: BonusScanner:GetSlotBonuses('Trinket0') returns bonuses on your first trinket slot
 
-  -BonusScanner:GetBonusDetails(bonus)**
+**BonusScanner:GetBonusDetails(bonus)**
 
 - Returns slot distribution of a certain bonus type
 
-  -BonusScanner:GetSlotBonus(bonus, slotname)**
+**BonusScanner:GetSlotBonus(bonus, slotname)**
 
 - Returns the bonus amount of a certain bonus type on a certain item slot..
 - **Example**: BonusScanner:GetSlotBonus('DMG', 'Head') returns the spell damage bonus on your helmet. 
 
-  -BonusScanner_Update()** 
+**BonusScanner_Update()** 
 
 - Gets called, after bonuses get updated. Empty function to hook into.
 

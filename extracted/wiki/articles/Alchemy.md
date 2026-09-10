@@ -486,14 +486,14 @@ MinLvl: 35, Use: Restores 700 to 900 health. Cooldown: 2 min, Charges: 1 (Expend
 |Transmute: Iron to Gold
 Gold Bar
 |1x Iron Bar
-  -Requires**: Philosopher's Stone 
+**Requires**: Philosopher's Stone 
 |Vendor
 |-
 |225
 |Transmute: Mithril to Truesilver
 Truesilver Bar
 |1x Mithril Bar
-  -Requires**: Philosopher's Stone 
+**Requires**: Philosopher's Stone 
 |Vendor
 |-
 |225
@@ -685,7 +685,7 @@ MinLvl: 45, Use: Restores 1050 to 1750 health. Cooldown: 2 min, Charges: 1 (Expe
 |Transmute: Air to Fire
 Essence of Fire
 |1x Essence of Air
-  -Requires**: Philosopher's Stone 
+**Requires**: Philosopher's Stone 
 |Vendor
 |-
 |275
@@ -693,56 +693,56 @@ Essence of Fire
 Arcanite Bar
 |1x Thorium Bar,
 1x Arcane Crystal
-  -Requires**: Philosopher's Stone 
+**Requires**: Philosopher's Stone 
 |Vendor
 |-
 |275
 |Transmute: Earth to Life
 Living Essence
 |1x Essence of Earth
-  -Requires**: Philosopher's Stone 
+**Requires**: Philosopher's Stone 
 |Drop
 |-
 |275
 |Transmute: Earth to Water
 Essence of Water
 |1x Essence of Earth
-  -Requires**: Philosopher's Stone 
+**Requires**: Philosopher's Stone 
 |Vendor
 |-
 |275
 |Transmute: Fire to Earth
 Essence of Earth
 |1x Essence of Fire
-  -Requires**: Philosopher's Stone 
+**Requires**: Philosopher's Stone 
 |Vendor
 |-
 |275
 |Transmute: Life to Earth
 Essence of Earth
 |1x Living Essence
-  -Requires**: Philosopher's Stone 
+**Requires**: Philosopher's Stone 
 |Drop
 |-
 |275
 |Transmute: Undeath to Water
 Essence of Water
 |1x Essence of Undeath
-  -Requires**: Philosopher's Stone 
+**Requires**: Philosopher's Stone 
 |Drop
 |-
 |275
 |Transmute: Water to Air
 Essence of Air
 |1x Essence of Water
-  -Requires**: Philosopher's Stone 
+**Requires**: Philosopher's Stone 
 |Vendor
 |-
 |275
 |Transmute: Water to Undeath
 Essence of Undeath
 |1x Essence of Water
-  -Requires**: Philosopher's Stone 
+**Requires**: Philosopher's Stone 
 |Drop
 |-
 |280
@@ -849,7 +849,7 @@ MinLvl: 50, Use: Increases your resistance to all schools of magic by 25 for 2 h
 10x Mountain Silversage,
 1x Black Lotus,
 1x Crystal Vial
-  -Requires**: Alchemy Lab 
+**Requires**: Alchemy Lab 
 |Drop
 |-
 |300
@@ -859,7 +859,7 @@ MinLvl: 50, Use: Increases the player's maximum mana by 2000 for 2 hrs. You can 
 10x Icecap,
 1x Black Lotus,
 1x Crystal Vial
-  -Requires**: Alchemy Lab 
+**Requires**: Alchemy Lab 
 |Drop
 |-
 |300
@@ -869,7 +869,7 @@ MinLvl: 50, Use: You turn to stone, protecting you from all physical attacks and
 10x Mountain Silversage,
 1x Black Lotus,
 1x Crystal Vial
-  -Requires**: Philosopher's Stone, Alchemy Lab 
+**Requires**: Philosopher's Stone, Alchemy Lab 
 |Drop
 |-
 |300
@@ -879,7 +879,7 @@ MinLvl: 50, Use: Increases damage done by magical spells and effects by up to 15
 10x Mountain Silversage,
 1x Black Lotus,
 1x Crystal Vial
-  -Requires**: Alchemy Lab 
+**Requires**: Alchemy Lab 
 |Drop
 |-
 |300
@@ -889,7 +889,7 @@ MinLvl: 50, Use: Increases the player's maximum health by 1200 for 2 hrs. You ca
 10x Stonescale Oil,
 1x Black Lotus,
 1x Crystal Vial
-  -Requires**: Alchemy Lab 
+**Requires**: Alchemy Lab 
 |Drop
 |-
 |300

@@ -25,7 +25,7 @@ categories: ["Dwarf characters", "Stonetalon Mountains NPCs", "Tradeskill vendor
 | location | Bael Hardul, Stonetalon Mountains |
 | status | Alive |
 
--Orman Granitemantle** is a [dwarf](dwarf) trade goods vendor located in [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains).
+**Orman Granitemantle** is a [dwarf](dwarf) trade goods vendor located in [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains).
 
 ## Patch changes
 - (Patch 1.16.4|note=Added.)

@@ -10,11 +10,11 @@ categories: ["API Functions"]
 ---
 # API GetAuctionItemClasses
 
--GetAuctionItemClasses()**
+**GetAuctionItemClasses()**
 
-  -Parameters:** none
+**Parameters:** none
 
-  -Returns:** n return values, each of which is a major auction category. Right now "Weapon", "Armor", "Container", "Consumable", "Trade Goods", "Projectile", "Quiver", "Recipe", "Reagent", "Miscallaneous"
+**Returns:** n return values, each of which is a major auction category. Right now "Weapon", "Armor", "Container", "Consumable", "Trade Goods", "Projectile", "Quiver", "Recipe", "Reagent", "Miscallaneous"
 ----
 
 ## Addon

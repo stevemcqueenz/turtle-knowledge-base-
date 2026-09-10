@@ -25,7 +25,7 @@ categories: ["Alchemists", "Gnome characters", "Shadow Council", "Stormwrought R
 | location | Stormwrought Ruins |
 | status | Killable |
 
--Shadow Council Alchemists** are [tauren](tauren) located in [Stormwrought Ruins](Stormwrought Ruins).
+**Shadow Council Alchemists** are [tauren](tauren) located in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Abilities
 - Mighty Leechroot Potion

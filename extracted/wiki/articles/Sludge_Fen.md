@@ -10,4 +10,4 @@ categories: ["Barrens subzones", "Goblin territories", "Pages with broken file l
 ---
 # Sludge Fen
 
--The Sludge Fen**[57, 7] is an oil field the northeast corner of the [Barrens](Barrens). Occupied by the [Venture Trading Company](Venture Trading Company) for their oil refining projects, the fen is one of the [Oil platform](Oil platform)s that can be visited in game. This is a dangerous area to adventure in, as the cowardly Venture Co. employees will rush for help if they are attacked. Sludge Fen is led by [Tinkerer Sniggles](Tinkerer Sniggles), [Foreman Grills](Foreman Grills) and [Engineer Whirleygig](Engineer Whirleygig).
+**The Sludge Fen**[57, 7] is an oil field the northeast corner of the [Barrens](Barrens). Occupied by the [Venture Trading Company](Venture Trading Company) for their oil refining projects, the fen is one of the [Oil platform](Oil platform)s that can be visited in game. This is a dangerous area to adventure in, as the cowardly Venture Co. employees will rush for help if they are attacked. Sludge Fen is led by [Tinkerer Sniggles](Tinkerer Sniggles), [Foreman Grills](Foreman Grills) and [Engineer Whirleygig](Engineer Whirleygig).

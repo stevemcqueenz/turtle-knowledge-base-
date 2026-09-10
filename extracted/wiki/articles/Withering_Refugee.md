@@ -23,7 +23,7 @@ categories: ["Alah'Thalas NPCs", "High elf characters", "Thalassian Highlands NP
 | gender | Both |
 | location | Brinthilien, Thalassian Highlands; Alah'Thalas |
 
--Withering Refugees** can be found in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands) and in the [Wretched Ghetto](Wretched Ghetto) in the high elven capital of [Alah'Thalas](Alah'Thalas). They are high elves who are in the process of succumbing to their arcane addiction and becoming [withered](Withered Refugee).
+**Withering Refugees** can be found in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands) and in the [Wretched Ghetto](Wretched Ghetto) in the high elven capital of [Alah'Thalas](Alah'Thalas). They are high elves who are in the process of succumbing to their arcane addiction and becoming [withered](Withered Refugee).
 
 ## Patch changes
 - (Patch 1.17.1|note=Added.)

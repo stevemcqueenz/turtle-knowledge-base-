@@ -25,7 +25,7 @@ categories: ["Grim Reaches NPCs", "Orc characters", "Reagent vendors", "Turtle W
 | location | Shatterblade Post, Grim Reaches |
 | status | Alive |
 
--Vagrog** is an [orc](orc) reagent vendor located in the outpost of [Shatterblade Post](Shatterblade Post) in the [Grim Reaches](Grim Reaches).
+**Vagrog** is an [orc](orc) reagent vendor located in the outpost of [Shatterblade Post](Shatterblade Post) in the [Grim Reaches](Grim Reaches).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

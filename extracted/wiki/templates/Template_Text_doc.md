@@ -30,49 +30,19 @@ Other colorMode options include any valid CSS, such as:
 - Html hex color specifications of the form #RRGGBB, where RR, GG, and BB are hexadecimal numbers between 00 and FF. Not case-sensitive; #FFFFFF and #ffffff will work the same.
 - Html RGB color specifications in form of rgb(RR,GG,BB)
 
-  -*Be careful when using other color modes than the predefined options. The predefined options are designed to work on both light-colored and dark-colored (the default) skins. If you're not using one of them, test your colors on both a dark skin (e.g. [DarkVector](http://www.wowpedia.org/Template:Text?useskin=darkvector)) and a light skin (say,  [Vector](http://www.wowpedia.org/Template:Text?useskin=vector)) to make sure it's readable.***
+***Be careful when using other color modes than the predefined options. The predefined options are designed to work on both light-colored and dark-colored (the default) skins. If you're not using one of them, test your colors on both a dark skin (e.g. [DarkVector](http://www.wowpedia.org/Template:Text?useskin=darkvector)) and a light skin (say,  [Vector](http://www.wowpedia.org/Template:Text?useskin=vector)) to make sure it's readable.***
 
-  - Examples**
+** Examples**
  <nowiki>2-parameter mode
-- 
-- 
-- 
-- 
-- 
-- 
+- - - - - - 3-parameter mode
+- - - - Specials
+- - - </nowiki>
 
-3-parameter mode
-- 
-- 
-- 
-- 
-
-Specials
-- 
-- 
-- </nowiki>
-
-  - Yield**
+** Yield**
 2-parameter mode
-- 
-- 
-- 
-- 
-- 
-- 
-
-3-parameter mode
-- 
-- 
-- 
-- 
-
-Specials
-- 
-- 
-- 
-
-## Hex codes for common colors
+- - - - - - 3-parameter mode
+- - - - Specials
+- - - ## Hex codes for common colors
 ### Classes
 {|
 |+[Class colors](Class colors) (Dark skin color / light skin color)
@@ -115,12 +85,12 @@ Specials
 |+[Skill-up](skillup) chance colors*
 |-style="vertical-align:top;"
 |
--  ()
--  ()
--  ()
+- ()
+- ()
+- ()
 |
--  ()
--  ()
+- ()
+- ()
 |}
 &#42; These colors are also used in-game to show the difficulty of [mob](mob)s and [quest](quest)s compared to the player's level. On Wowpedia though, they'll mostly be used for professions.
 ## Notes

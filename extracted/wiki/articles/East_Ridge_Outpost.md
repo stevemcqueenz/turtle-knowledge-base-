@@ -10,7 +10,7 @@ categories: ["Forts", "Grim Reaches subzones", "Turtle WoW content", "Wildhammer
 ---
 # East Ridge Outpost
 
--East Ridge Outpost** is a dwarven outpost in the [Grim Reaches](Grim Reaches) located just west of the pass into the [Wetlands](Wetlands). [Mountaineer Steelwind](Mountaineer Steelwind) can be found here, as well as an armorer named [Dorlegg Firegrip](Dorlegg Firegrip). Sent all the way from [Ironforge](Ironforge) by the [Redbrand Estate](Redbrand Estate) is also [Garlin Redbrand](Garlin Redbrand).
+**East Ridge Outpost** is a dwarven outpost in the [Grim Reaches](Grim Reaches) located just west of the pass into the [Wetlands](Wetlands). [Mountaineer Steelwind](Mountaineer Steelwind) can be found here, as well as an armorer named [Dorlegg Firegrip](Dorlegg Firegrip). Sent all the way from [Ironforge](Ironforge) by the [Redbrand Estate](Redbrand Estate) is also [Garlin Redbrand](Garlin Redbrand).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

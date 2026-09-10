@@ -19,7 +19,7 @@ Early versions of World of Warcraft used Lua v4, which shows in that the majorit
 
 In Lua, there are only two values that evaluate to a boolean false: **false** and **nil**.
 
-  -ALL OTHER VALUES EVALUATE TO TRUE**. Including 0, which is an important distinction for e.g. C/C++ programmers.
+**ALL OTHER VALUES EVALUATE TO TRUE**. Including 0, which is an important distinction for e.g. C/C++ programmers.
 
 ## Gotchas with Booleans in Lua
 When used in **if ... then** clauses a **1** result is the same as a **true** result, so you do not have to worry there. But beware of *comparing* the returns of supposedly-boolean functions with eachother without forcing them to actually be boolean.

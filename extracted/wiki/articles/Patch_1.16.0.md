@@ -10,7 +10,7 @@ categories: ["Patches"]
 ---
 # Patch 1.16.0
 
--Patch 1.16.0: Mysteries of Azeroth** was released on December 27, 2021.
+**Patch 1.16.0: Mysteries of Azeroth** was released on December 27, 2021.
 
 ## Trailer
 ## Patch Notes

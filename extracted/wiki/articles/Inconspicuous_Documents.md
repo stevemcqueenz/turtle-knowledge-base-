@@ -10,7 +10,7 @@ categories: ["Quest items", "Readable items", "Turtle WoW content"]
 ---
 # Inconspicuous Documents
 
--Inconspicuous Documents** can be found in [Northwind](Northwind).
+**Inconspicuous Documents** can be found in [Northwind](Northwind).
 
 ## As a quest objective
 - [quest: Defying Orders]

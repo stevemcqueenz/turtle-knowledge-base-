@@ -10,7 +10,7 @@ categories: ["Caves", "Durotar subzones", "Horde towns", "Orc territories", "Pag
 ---
 # Den
 
--The Den** is the base of operations in the [Valley of Trials](Valley of Trials), and is the starting camp for young [troll](troll) and [orc](orc) adventurers. It is in the small southwest corner of [Durotar](Durotar). This is where nearly all the Valley of Trials quests are obtained. It contains basic class trainers and vendors, but no profession trainers. 
+**The Den** is the base of operations in the [Valley of Trials](Valley of Trials), and is the starting camp for young [troll](troll) and [orc](orc) adventurers. It is in the small southwest corner of [Durotar](Durotar). This is where nearly all the Valley of Trials quests are obtained. It contains basic class trainers and vendors, but no profession trainers. 
 
 ## Inhabitants
 - [Canaga Earthcaller](Canaga Earthcaller)

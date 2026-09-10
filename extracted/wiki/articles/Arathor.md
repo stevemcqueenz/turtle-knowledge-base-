@@ -10,7 +10,7 @@ categories: ["Former nations", "Human Nations", "Lore"]
 ---
 # Arathor
 
--Arathor** was the first great [human nation](human nation), founded by a unification of the various tribes of the [Eastern Kingdoms](Eastern Kingdoms) under the [Arathi](Arathi).  Its capital was [Strom](Strom), now known as the semi-abandoned fortress of [Stromgarde](Stromgarde).
+**Arathor** was the first great [human nation](human nation), founded by a unification of the various tribes of the [Eastern Kingdoms](Eastern Kingdoms) under the [Arathi](Arathi).  Its capital was [Strom](Strom), now known as the semi-abandoned fortress of [Stromgarde](Stromgarde).
 
 ## Creation and the Troll Wars
 Concerned that the [troll](Troll War)s were becoming too great a threat, the Arathi tribe embarked on a campaign to conquer its rivals through combat and politics.  By offering equality and peace to the people they conquered, the Arathi were able to form a powerful nation, Arathor.  The capital of Strom was built, and the humans in the area that would become [Lordaeron](Lordaeron) travelled to its protection.
@@ -24,7 +24,7 @@ Following the defeat of the trolls, the human mages that had been instructed by 
 The human nations that splintered off from Arathor would not be united again until the [Second War](Second War), in which the [Alliance of Lordaeron](Alliance of Lordaeron) was formed to defeat the [Horde](Old Horde).  Lord [Anduin Lothar](Anduin Lothar), as the last descendant of the Arathi, was able to call upon the [high elves](high elf) to join the Alliance, in payment of the help provided by the humans of Arathor during the troll wars.
 
 ## See Also
--[Arathor and the Troll Wars](Arathor and the Troll Wars)
--[The Seven Kingdoms](The Seven Kingdoms)
--[Human nation](Human nation)
--[Realm Names and their place in Warcraft Lore](Realm_Name_Lore)
+- [Arathor and the Troll Wars](Arathor and the Troll Wars)
+- [The Seven Kingdoms](The Seven Kingdoms)
+- [Human nation](Human nation)
+- [Realm Names and their place in Warcraft Lore](Realm_Name_Lore)

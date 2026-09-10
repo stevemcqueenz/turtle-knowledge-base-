@@ -25,7 +25,7 @@ categories: ["Balor mobs", "Orc characters", "Stormreaver clan", "Turtle WoW con
 | location | Stormwrought Castle, Balor |
 | status | Killable |
 
--Warlord Jawbreaker** is an [orc](orc) located in [Stormwrought Castle](Stormwrought Castle) in [Balor](Balor).
+**Warlord Jawbreaker** is an [orc](orc) located in [Stormwrought Castle](Stormwrought Castle) in [Balor](Balor).
 
 ## Abilities
 - Intimidating Shout

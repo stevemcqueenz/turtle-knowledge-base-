@@ -24,7 +24,7 @@ categories: ["Human characters", "Northwind NPCs", "Turtle WoW content"]
 | location | Jousting Grounds, Northwind |
 | status | Alive |
 
--The Black Knight** is a human located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind). One of the participants in the Northwind jousting tournament representing no flag and bearing no color, he faces off against Sir [Halfar of Kul Tiras](Halfar of Kul Tiras).
+**The Black Knight** is a human located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind). One of the participants in the Northwind jousting tournament representing no flag and bearing no color, he faces off against Sir [Halfar of Kul Tiras](Halfar of Kul Tiras).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

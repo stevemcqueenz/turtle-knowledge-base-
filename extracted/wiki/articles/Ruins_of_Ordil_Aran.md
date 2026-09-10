@@ -10,6 +10,6 @@ categories: ["Ashenvale subzones", "Pages with broken file links", "Ruins", "Sha
 ---
 # Ruins of Ordil'Aran
 
--The Ruins of Ordil'Aran** are located in northwestern [Ashenvale](Ashenvale), north of [Maestra's Post](Maestra's Post) and south of [Bathran's Haunt](Bathran's Haunt). Although not much remains of the ancient city that once stood here, the site is a favorite spot for the [Cult of the Dark Strand](Cult of the Dark Strand), who inhabit what is left of the ruins, ready to strike at any who approach. There is a notable presence of [high elves](high elves) among these evil warlocks.
+**The Ruins of Ordil'Aran** are located in northwestern [Ashenvale](Ashenvale), north of [Maestra's Post](Maestra's Post) and south of [Bathran's Haunt](Bathran's Haunt). Although not much remains of the ancient city that once stood here, the site is a favorite spot for the [Cult of the Dark Strand](Cult of the Dark Strand), who inhabit what is left of the ruins, ready to strike at any who approach. There is a notable presence of [high elves](high elves) among these evil warlocks.
 
 The Ruins of Ordil'Aran are also the sight of the [Heartswood](Heartswood) tree.

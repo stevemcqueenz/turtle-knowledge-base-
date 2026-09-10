@@ -25,7 +25,7 @@ categories: ["Armor vendors", "Armorsmiths", "Dwarf characters", "Northwind NPCs
 | location | Amberwood Keep, Northwind |
 | status | Alive |
 
--Argor Smugshield** is a [dwarf](dwarf) armor vendor located in [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind).
+**Argor Smugshield** is a [dwarf](dwarf) armor vendor located in [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

@@ -25,14 +25,14 @@ categories: ["Moonwhisper Coast NPCs", "Night elf characters", "Quest givers", "
 | location | Narvalis Point, Moonwhisper Coast |
 | status | Alive |
 
--Talanis Amberscribe** is a [night elf](night elf) quest giver located in [Narvalis Point](Narvalis Point) in [Moonwhisper Coast](Moonwhisper Coast).
+**Talanis Amberscribe** is a [night elf](night elf) quest giver located in [Narvalis Point](Narvalis Point) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: Echoes of Nendis] 
 - [quest: The Light of Elunaris] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The island of Tyrandas used to be of spiritual significance for the [Sisterhood of Elune](Sisterhood of Elune) twelve millennia ago. Many of the most devout and respected priestesses completed their religious training in the sacred temple towering above the island.
 
 Now, however, it lies in ruins, abandoned by the Sisterhood. All that remains are its secrets, regrets and mysteries buried beneath a thick layer of shadows.

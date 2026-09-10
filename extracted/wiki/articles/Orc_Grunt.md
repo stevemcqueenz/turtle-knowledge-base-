@@ -25,7 +25,7 @@ categories: ["Orc characters", "Sunnyglade Valley NPCs", "Turtle WoW content"]
 | location | Sunnyglade Valley |
 | status | Killable |
 
--Orc Grunts** are [orc](orc) invaders of the [Old Horde](Old Horde) in [Sunnyglade Valley](Sunnyglade Valley) during the [First War](First War).
+**Orc Grunts** are [orc](orc) invaders of the [Old Horde](Old Horde) in [Sunnyglade Valley](Sunnyglade Valley) during the [First War](First War).
 
 ## Abilities
 - Demoralizing Shout

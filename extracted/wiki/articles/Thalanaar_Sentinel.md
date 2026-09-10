@@ -23,7 +23,7 @@ categories: ["Feralas NPCs", "Guards", "Night elf characters", "Sentinels", "Tur
 | affiliation | Sentinel Army, Darnassus |
 | location | Thalanaar, Feralas |
 
--Thalanaar Sentinels** are [night elf](night elf) guards located in [Thalanaar](Thalanaar) in [Feralas](Feralas).
+**Thalanaar Sentinels** are [night elf](night elf) guards located in [Thalanaar](Thalanaar) in [Feralas](Feralas).
 
 ## Patch changes
 - (Patch 1.16.4|note=Added.)

@@ -10,7 +10,7 @@ categories: ["Feralas subzones", "Nests", "Night elf territories", "Turtle WoW c
 ---
 # Chimaera Roost Vale
 
--Chimaera Roost Vale** is a valley hidden south of the [Lower Wilds](Lower Wilds) in [Feralas](Feralas). Once a stronghold of the [night elves](Night elf), (ref: [Velos Sharpstrike#Quotes](Velos Sharpstrike#Quotes)) the vale has since fallen into ruin, almost completely abandoned save for the [Venomlash](Venomlash Chimaera) and [Dunebound Chimaera](Dunebound Chimaera) that roam the area.
+**Chimaera Roost Vale** is a valley hidden south of the [Lower Wilds](Lower Wilds) in [Feralas](Feralas). Once a stronghold of the [night elves](Night elf), (ref: [Velos Sharpstrike#Quotes](Velos Sharpstrike#Quotes)) the vale has since fallen into ruin, almost completely abandoned save for the [Venomlash](Venomlash Chimaera) and [Dunebound Chimaera](Dunebound Chimaera) that roam the area.
 
 [Velos Sharpstrike](Velos Sharpstrike), together with his chimaera companion [Voltra](Voltra) and apprentice [Lataro Swifthoof](Lataro Swifthoof), have recently re-settled in the vale, hoping to restore the night elven stronghold to its former glory.
 

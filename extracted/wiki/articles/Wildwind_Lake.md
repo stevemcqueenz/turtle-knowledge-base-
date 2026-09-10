@@ -10,4 +10,4 @@ categories: ["Feralas subzones", "Lakes", "Pages with broken file links", "Taure
 ---
 # Wildwind Lake
 
--Wildwind Lake** is a stretch of water near [Camp Mojache](Camp Mojache) in the region of [Feralas](Feralas).
+**Wildwind Lake** is a stretch of water near [Camp Mojache](Camp Mojache) in the region of [Feralas](Feralas).

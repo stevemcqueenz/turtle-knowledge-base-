@@ -24,7 +24,7 @@ categories: ["Barrens subzones", "Caves", "Dungeons", "Quilboar territories", "R
 | players | 5 |
 | bosses |  |
 
--Razorfen Kraul** is the ancestral home of the [quilboar](quilboar), heavily entrenched within the thorns that supposedly sprang from the corpse of the demigod Agamaggan. It is found in the southern [Barrens](Barrens), at the far southern edge, west side.
+**Razorfen Kraul** is the ancestral home of the [quilboar](quilboar), heavily entrenched within the thorns that supposedly sprang from the corpse of the demigod Agamaggan. It is found in the southern [Barrens](Barrens), at the far southern edge, west side.
 
 ## History
 From the [World Dungeons](https://wowpedia.fandom.com/wiki/Game_Guide/World_Dungeons) page on the official World of Warcraft Community Site:
@@ -43,61 +43,42 @@ WorldMap-RazorfenKraul.jpg
 !NPCs
 |-valign=top
 |
--   (Final Boss)
--  
--  
--  
--  
--  
--  
--   (Rare)
--   (Rare)
+- (Final Boss)
+- - - - - - - (Rare)
+- (Rare)
 |
-  -Oozes**
--  [Blood of Agamaggan](Blood of Agamaggan)
-  -Bats**
--  [Kraul Bat](Kraul Bat)
--  [Greater Kraul Bat](Greater Kraul Bat)
-  -Boars**
--  
--  
--  
-  -Razorfen Tribe**
--  [Razorfen Servitor](Razorfen Servitor)
--  [Razorfen Warrior](Razorfen Warrior)
--  [Razorfen Quilguard](Razorfen Quilguard)
--  [Razorfen Warden](Razorfen Warden)
--  [Razorfen Handler](Razorfen Handler)
-  -  [Tamed Hyena](Tamed Hyena)
--  [Razorfen Geomancer](Razorfen Geomancer)
-  -  [Stone Rumbler](Stone Rumbler)
--  [Razorfen Defender](Razorfen Defender)
--  [Razorfen Groundshaker](Razorfen Groundshaker)
--  [Razorfen Beast Trainer](Razorfen Beast Trainer)
-  -  [Tamed Battleboar](Tamed Battleboar)
--  [Razorfen Stalker](Razorfen Stalker)
--  [Razorfen Dustweaver](Razorfen Dustweaver)
-  -  [Wind Howler](Wind Howler)
--  [Razorfen Totemic](Razorfen Totemic)
--  [Quilguard Champion](Quilguard Champion)
--  [Razorfen Beastmaster](Razorfen Beastmaster)
-  -  [Tamed Battleboar](Tamed Battleboar)
--  [Razorfen Spearhide](Razorfen Spearhide)
--  [Ward Guardian](Ward Guardian)
-  -Death's Head Cult**
--  
--  
--  
--  
--  
--  
-  -Bramblehide**
--  
--  
-|
--  
--  
-|-valign=top
+**Oozes**
+- [Blood of Agamaggan](Blood of Agamaggan)
+**Bats**
+- [Kraul Bat](Kraul Bat)
+- [Greater Kraul Bat](Greater Kraul Bat)
+**Boars**
+- - - ;Razorfen Tribe
+- [Razorfen Servitor](Razorfen Servitor)
+- [Razorfen Warrior](Razorfen Warrior)
+- [Razorfen Quilguard](Razorfen Quilguard)
+- [Razorfen Warden](Razorfen Warden)
+- [Razorfen Handler](Razorfen Handler)
+  - [Tamed Hyena](Tamed Hyena)
+- [Razorfen Geomancer](Razorfen Geomancer)
+  - [Stone Rumbler](Stone Rumbler)
+- [Razorfen Defender](Razorfen Defender)
+- [Razorfen Groundshaker](Razorfen Groundshaker)
+- [Razorfen Beast Trainer](Razorfen Beast Trainer)
+  - [Tamed Battleboar](Tamed Battleboar)
+- [Razorfen Stalker](Razorfen Stalker)
+- [Razorfen Dustweaver](Razorfen Dustweaver)
+  - [Wind Howler](Wind Howler)
+- [Razorfen Totemic](Razorfen Totemic)
+- [Quilguard Champion](Quilguard Champion)
+- [Razorfen Beastmaster](Razorfen Beastmaster)
+  - [Tamed Battleboar](Tamed Battleboar)
+- [Razorfen Spearhide](Razorfen Spearhide)
+- [Ward Guardian](Ward Guardian)
+**Death's Head Cult**
+- - - - - - ;Bramblehide
+- - |
+- - |-valign=top
 |}
 
 ## Quest guide
@@ -154,5 +135,5 @@ WorldMap-RazorfenKraul.jpg
 
 ## Patch changes
 - (Patch 1.18.0|note=New area and boss added: Rotthorn. The caverns of Razorfen Kraul, wrapped in thorns, go deeper than presumed.)
--  **Patch 1.10.0 (2006-03-28):** Now capped at five players.
--  **Patch 1.3.0 (2005-03-07):** Now capped at ten players.
+- **Patch 1.10.0 (2006-03-28):** Now capped at five players.
+- **Patch 1.3.0 (2005-03-07):** Now capped at ten players.

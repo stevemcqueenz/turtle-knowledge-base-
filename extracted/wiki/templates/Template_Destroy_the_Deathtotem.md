@@ -10,10 +10,10 @@ categories: []
 ---
 # Template:Destroy the Deathtotem
 
-1.[quest: Message to Freewind Post]
-1.[quest: Pacify the Centaur]
-1.[quest: Grimtotem Spying]
-1.[quest: Rumors of the Deathtotem]
-1.[quest: Uncovering the Rumors]
-1.[quest: Information for Cairne]
-1.[quest: Destroy the Deathtotem]
+1. [quest: Message to Freewind Post]
+1. [quest: Pacify the Centaur]
+1. [quest: Grimtotem Spying]
+1. [quest: Rumors of the Deathtotem]
+1. [quest: Uncovering the Rumors]
+1. [quest: Information for Cairne]
+1. [quest: Destroy the Deathtotem]

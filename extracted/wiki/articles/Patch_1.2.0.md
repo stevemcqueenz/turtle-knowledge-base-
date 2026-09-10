@@ -10,7 +10,7 @@ categories: ["Named patches", "Pages with broken file links", "World of Warcraft
 ---
 # Patch 1.2.0
 
--Patch 1.2.0: Mysteries of Maraudon** is a [content patch](content patch) for *[World of Warcraft](World of Warcraft)* that released on 18 December 2004.
+**Patch 1.2.0: Mysteries of Maraudon** is a [content patch](content patch) for *[World of Warcraft](World of Warcraft)* that released on 18 December 2004.
 
 ## Major Changes
 ### Happy Holidays!

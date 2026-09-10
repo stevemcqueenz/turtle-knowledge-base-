@@ -25,7 +25,7 @@ categories: ["Cooking vendors", "Cooks", "Human characters", "Kul Tiran Explorat
 | location | Caelan's Rest, Lapidis Isle |
 | status | Alive |
 
--Cook Lopperson** is a [human](human) cooking vendor located in [Caelan's Rest](Caelan's Rest) in [Lapidis Isle](Lapidis Isle).
+**Cook Lopperson** is a [human](human) cooking vendor located in [Caelan's Rest](Caelan's Rest) in [Lapidis Isle](Lapidis Isle).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

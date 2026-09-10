@@ -24,14 +24,14 @@ categories: ["Foremen", "Grim Reaches NPCs", "Quest givers", "Turtle WoW content
 | location | Dun Kithas Magistrate, Grim Reaches |
 | status | Alive |
 
--Foreman Kegg Boulderboots** is a [Wildhammer dwarf](Wildhammer dwarf) quest giver located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches). He served as the foreman for the [Sal'Galaz Mines](Sal'Galaz Mines) for a good thirty years until the mine was overrun by troggs after one half of the [Gemstone of Naraz](Gemstone of Naraz) was unearthed. (ref: [quest: Reclaiming Sal'Galaz])
+**Foreman Kegg Boulderboots** is a [Wildhammer dwarf](Wildhammer dwarf) quest giver located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches). He served as the foreman for the [Sal'Galaz Mines](Sal'Galaz Mines) for a good thirty years until the mine was overrun by troggs after one half of the [Gemstone of Naraz](Gemstone of Naraz) was unearthed. (ref: [quest: Reclaiming Sal'Galaz])
 
 ## Quests
 - [quest: Reclaiming Sal'Galaz] 
 - [quest: Reclaiming Sal'Galaz] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I warned them that the troggs would be an issue, but no one wants to listen to Kegg and his cooky nonsense.
 
 <Kegg lets out a maniacal laugh.>

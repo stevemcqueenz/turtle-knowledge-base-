@@ -26,7 +26,7 @@ categories: ["Flight masters", "Grim Reaches NPCs", "Orc characters", "Turtle Wo
 | location | Shatterblade Post, Grim Reaches |
 | status | Alive |
 
--Razikgar** is an orc wyvern flight master located at [Shatterblade Post](Shatterblade Post) in the [Grim Reaches](Grim Reaches).
+**Razikgar** is an orc wyvern flight master located at [Shatterblade Post](Shatterblade Post) in the [Grim Reaches](Grim Reaches).
 
 ## Flight paths
 See [Shatterblade Post#Travel connections](Shatterblade Post#Travel connections).

@@ -26,7 +26,7 @@ categories: ["Blackrock clan", "Burning Steppes NPCs", "Orc characters", "Trades
 | location | Karfang Hold, Burning Steppes |
 | status | Alive |
 
--Sarkensh** is an [orc](orc) trade goods vendor located in [Karfang Hold](Karfang Hold) in the [Burning Steppes](Burning Steppes).
+**Sarkensh** is an [orc](orc) trade goods vendor located in [Karfang Hold](Karfang Hold) in the [Burning Steppes](Burning Steppes).
 
 ## Patch changes
 - (Patch 1.16.1|note=Added.)

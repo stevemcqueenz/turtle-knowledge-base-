@@ -16,8 +16,8 @@ During the [First War](First War), Orc Warlocks were adept at summoning these cr
 
 Spiders are fond of using poison spit and throwing webs upon opponents.  There are three different models of spider: tarantula; and a much larger version of a normal spider; and a miniature spider. The [Smoulderweb Hatchling](Smoulderweb Hatchling), a miniature spider, can be obtained as a small pet.
 
--Not skinnable.
--Usually drop webbing, spider legs, spinnerets, mandibles (or fangs), or spider meat as loot.
+- Not skinnable.
+- Usually drop webbing, spider legs, spinnerets, mandibles (or fangs), or spider meat as loot.
 
 ## As A [Hunter](Hunter) Pet
 - Has high damage, medium HP, and low armor.

@@ -10,6 +10,6 @@ categories: ["Dwarf territories", "Gnome territories", "Ironforge subzones", "Pa
 ---
 # Forlorn Cavern
 
--The Forlorn Cavern** is a long, winding road built around Ironforge's underground lake.  It's naturally dark and secluded nature makes it perfect for lots of shady deals. [Warlock](Warlock) and [rogue](rogue) trainers can be found here, as well as vendors catering to those classes.
+**The Forlorn Cavern** is a long, winding road built around Ironforge's underground lake.  It's naturally dark and secluded nature makes it perfect for lots of shady deals. [Warlock](Warlock) and [rogue](rogue) trainers can be found here, as well as vendors catering to those classes.
 
 To get to the Forlorn Cavern, you can head east from the [Mystic Ward](Mystic Ward) or west from the [Hall of Explorers](Hall of Explorers).

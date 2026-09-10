@@ -24,13 +24,13 @@ categories: ["Human characters", "Northwind NPCs", "Turtle WoW content"]
 | location | Ambershire Church, Northwind |
 | status | Alive |
 
--Tio** is a [human](human) girl located at the [Ambershire Church](Ambershire Church) in [Northwind](Northwind).
+**Tio** is a [human](human) girl located at the [Ambershire Church](Ambershire Church) in [Northwind](Northwind).
 
 ## Objective of
 - Must be interacted with for [quest: School Assistance]
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Father said I should speak more with the others here at the church, but I am a bit shy...
 
 ## Patch changes

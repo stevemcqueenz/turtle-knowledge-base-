@@ -10,9 +10,9 @@ categories: []
 ---
 # Template:Sandfury Redemption
 
-1.[quest: Sandfury Redemption I]
-1.[quest: Sandfury Redemption II]
-1.[quest: Sandfury Redemption III]
-1.[quest: Of the Sandfury and the Darkspear]
-1.[quest: Plight of the Sandfury]
-1.[quest: End Ukorz Sandscalp]
+1. [quest: Sandfury Redemption I]
+1. [quest: Sandfury Redemption II]
+1. [quest: Sandfury Redemption III]
+1. [quest: Of the Sandfury and the Darkspear]
+1. [quest: Plight of the Sandfury]
+1. [quest: End Ukorz Sandscalp]

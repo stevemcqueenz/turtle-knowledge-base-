@@ -10,7 +10,7 @@ categories: ["Characters", "Human characters"]
 ---
 # Tofvic Arkenbrine
 
--Tofvic Arkenbrine** or simply **'Vic**<nowiki/>', is a Lordaeronian witch hunter who serves as the current Keeper of Hawk's Talon after the death of Heralt, the original keeper.
+**Tofvic Arkenbrine** or simply **'Vic**<nowiki/>', is a Lordaeronian witch hunter who serves as the current Keeper of Hawk's Talon after the death of Heralt, the original keeper.
 
 ## **Appearance and Personality**
 Tofvic is a physically imposing man in his mid 40s, sporting graying facial hair that was originally black, and a bald head. He stands at an average-tall human height of 182,5 cm (6'0" ft). His skin, kissed by sun and wind, bears a light tan. His small brown eyes, sharp and watchful, resemble those of a hawk. Thin, low eyebrows frame his gaze. His head is cleanly shaved, revealing a smooth scalp. His face resembles a shield coated in leather.

@@ -11,8 +11,8 @@ categories: []
 # Exile of the High Elves
 
 Found at:
--[Darnassus](Darnassus)
--?
+- [Darnassus](Darnassus)
+- ?
 
 http://lyberty.com/wow/items/exile_highelves_p1.jpg
 

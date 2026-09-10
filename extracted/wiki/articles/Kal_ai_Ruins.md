@@ -10,4 +10,4 @@ categories: ["Murloc territories", "Stranglethorn Vale subzones", "Troll ruins"]
 ---
 # Kal'ai Ruins
 
--Kal'ai Ruins** is a collection of ancient [troll](troll) ruins found in [Stranglethorn Vale](Stranglethorn Vale) that are now partially submerged. The [Murkgill tribe](Murkgill tribe) of [murloc](murloc)s live in these ruins.
+**Kal'ai Ruins** is a collection of ancient [troll](troll) ruins found in [Stranglethorn Vale](Stranglethorn Vale) that are now partially submerged. The [Murkgill tribe](Murkgill tribe) of [murloc](murloc)s live in these ruins.

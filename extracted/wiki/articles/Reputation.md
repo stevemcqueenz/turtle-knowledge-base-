@@ -121,9 +121,9 @@ Gaining reputation with a Faction City you are already exalted with will cause 2
 
 ## Reputation sheet
 You can check your reputation with all factions by pressing the "u" hotkey or by going to the Character window ("c" hotkey) and clicking on the Reputation tab along the bottom. You can also enable or disable various options:
-  -*Show as experience bar:** Allows you to display one reputation bar as an experience bar on your main display (located above your level experience bar).
-  -*[At War](At War):** If checked, you can initiate combat with NPCs of that faction, and your AoE spells will affect the mobs of that faction. It's always checked if you are Hated or Hostile; it can't be checked for other races within the Alliance/Horde.
-  -*Inactive:** Moves the selected faction to the bottom of the reputation pane.
+- **Show as experience bar:** Allows you to display one reputation bar as an experience bar on your main display (located above your level experience bar).
+- **[At War](At War):** If checked, you can initiate combat with NPCs of that faction, and your AoE spells will affect the mobs of that faction. It's always checked if you are Hated or Hostile; it can't be checked for other races within the Alliance/Horde.
+- **Inactive:** Moves the selected faction to the bottom of the reputation pane.
 
 ## Gaining and losing reputation
 Completing non-repeatable [quests](quests) will usually increase your reputation with the quest giver's faction(s) by a fixed number of points. Some of the factions also have special repeatable quests that give reputation when completed, or special mobs that give reputation when killed.

@@ -34,25 +34,25 @@ categories: ["Instance navigation templates"]
 
 [Peroth'arn](Peroth'arn)
 |
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
 ([lore](Ursol))
 
--(lore)*
+*(lore)*
 |-
 | class="title" colspan="2"| [Loot](Timbermaw Hold loot)
 |}

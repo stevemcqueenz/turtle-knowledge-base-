@@ -13,5 +13,5 @@ categories: ["Northwind objects"]
 A **Suspicious Pumpkin** can be found in the field outside the [Plump Pumpkin](Plump Pumpkin) in [Northwind](Northwind). Interacting with it while having [Perfumed Letter #1](Perfumed Letter (1)) allows for the acquisition of [Perfumed Letter #2](Perfumed Letter (2)).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Awefully plump.

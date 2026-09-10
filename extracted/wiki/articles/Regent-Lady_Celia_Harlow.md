@@ -28,7 +28,7 @@ categories: ["Aristocrats", "Black dragonspawn", "Bosses", "Gilneas City mobs", 
 
 ''''
 
-  -Regent-Lady Celia Harlow** is a [human](human) located in [Greymane Tower](Greymane Tower) in [Gilneas City](Gilneas City).
+**Regent-Lady Celia Harlow** is a [human](human) located in [Greymane Tower](Greymane Tower) in [Gilneas City](Gilneas City).
 
 Ostensibly Alteraci nobles sent to the court of King [Genn Greymane](Genn Greymane) by Lord [Daval Prestor](Daval Prestor), Celia and her brother were black dragonspawn tasked by their father with infiltrating the kingdom of Gilneas and bringing it to ruin from within. Although they successfully integrated themselves among Genn's courtiers and advisors, soon poisoning the mind of the king and manipulating him into against his people, they lost contact with their father and received no more word from him. (ref: [Celia's Journal](Celia's Journal))
 

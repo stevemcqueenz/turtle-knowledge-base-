@@ -25,7 +25,7 @@ categories: ["Ashenvale NPCs", "Human characters", "Knights of the Silver Hand",
 | location | Maestra's Post, Ashenvale |
 | status | Alive |
 
--Delgren the Purifier** is a [human](human) [paladin](paladin) quest giver located at [Maestra's Post](Maestra's Post) in [Ashenvale](Ashenvale), working alongside [Balthule Shadowstrike](Balthule Shadowstrike) and [Feero Ironhand](Feero Ironhand) against the [Cult of the Dark Strand](Cult of the Dark Strand). He fought in the [Third War](Third War) as part of Lady [Jaina Proudmoore](Jaina Proudmoore)'s [Human Expedition](Human Expedition) alongside [Lead Explorer Whitepeak](Lead Explorer Whitepeak), (ref:  and later came to Ashenvale to offer his help to the [Alliance](Alliance)'s [night elven](Night elf) allies in their quest to purge the lands of demons and [undead](undead).<ref>[quest: The Tower of Althalaxx]) Much to the disdain of his superiors, Delgren learned [Orcish](Orcish (language)). (ref: [quest: The Tower of Althalaxx])
+**Delgren the Purifier** is a [human](human) [paladin](paladin) quest giver located at [Maestra's Post](Maestra's Post) in [Ashenvale](Ashenvale), working alongside [Balthule Shadowstrike](Balthule Shadowstrike) and [Feero Ironhand](Feero Ironhand) against the [Cult of the Dark Strand](Cult of the Dark Strand). He fought in the [Third War](Third War) as part of Lady [Jaina Proudmoore](Jaina Proudmoore)'s [Human Expedition](Human Expedition) alongside [Lead Explorer Whitepeak](Lead Explorer Whitepeak), (ref:  and later came to Ashenvale to offer his help to the [Alliance](Alliance)'s [night elven](Night elf) allies in their quest to purge the lands of demons and [undead](undead).<ref>[quest: The Tower of Althalaxx]) Much to the disdain of his superiors, Delgren learned [Orcish](Orcish (language)). (ref: [quest: The Tower of Althalaxx])
 
 ## Quests
 - [quest: Dwarves of Bael Hardul] 
@@ -38,7 +38,7 @@ categories: ["Ashenvale NPCs", "Human characters", "Knights of the Silver Hand",
 - [quest: The Tower of Althalaxx] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Good day, <Class>.
 
 ## References

@@ -18,7 +18,7 @@ categories: ["Instance navigation templates"]
 
 [Onyxia](Onyxia (tactics))
 |
--(lore)*
+*(lore)*
 
 [(lore)](Onyxia)
 |-

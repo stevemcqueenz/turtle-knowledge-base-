@@ -24,9 +24,9 @@ categories: ["Boars", "Durotar mobs", "Tenacity beasts"]
 
 __NOTOC__
 
-  -Mottled Boars** are [boar](boar)s found in the [Valley of Trials](Valley of Trials) in [Durotar](Durotar). Orc and troll heroes are sent to kill these for training.
+**Mottled Boars** are [boar](boar)s found in the [Valley of Trials](Valley of Trials) in [Durotar](Durotar). Orc and troll heroes are sent to kill these for training.
 
 ## Objective of
--Kill 6 for [quest: Cutting Teeth].
+- Kill 6 for [quest: Cutting Teeth].
 
 ## External links

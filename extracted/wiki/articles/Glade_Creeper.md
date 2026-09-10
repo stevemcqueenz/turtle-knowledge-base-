@@ -22,7 +22,7 @@ categories: ["Bog beasts", "Crescent Grove mobs", "Turtle WoW content"]
 | creature | Elemental |
 | location | The Crescent Grove |
 
--Glade Creepers** are bog beasts located in the [Crescent Grove](Crescent Grove).
+**Glade Creepers** are bog beasts located in the [Crescent Grove](Crescent Grove).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

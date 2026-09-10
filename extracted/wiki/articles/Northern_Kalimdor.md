@@ -21,7 +21,7 @@ categories: ["Regions"]
 | affiliation | Nation of Durotar, Horde, Darnassus, Alliance, Cenarion Circle, Steamwheedle Cartel, Furbolg tribes |
 | loc | Northern Kalimdor |
 
--Northern Kalimdor** (ref: *World of Warcraft: Game Manual*, pg. 176) is the northernmost region of [Kalimdor](Kalimdor), north of [central Kalimdor](central Kalimdor).
+**Northern Kalimdor** (ref: *World of Warcraft: Game Manual*, pg. 176) is the northernmost region of [Kalimdor](Kalimdor), north of [central Kalimdor](central Kalimdor).
 
 ## Geography
 ### Zones
@@ -30,10 +30,10 @@ categories: ["Regions"]
 - [Darkshore](Darkshore)
 - [Felwood](Felwood)
 - [Moonglade](Moonglade)
--  [Moonwhisper Coast](Moonwhisper Coast)
+- [Moonwhisper Coast](Moonwhisper Coast)
 - [Teldrassil](Teldrassil)
 - [Winterspring](Winterspring)
--  [Hyjal](Hyjal)
+- [Hyjal](Hyjal)
 
 ## Gallery
 <gallery>

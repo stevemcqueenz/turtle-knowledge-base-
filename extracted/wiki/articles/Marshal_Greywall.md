@@ -26,7 +26,7 @@ categories: ["Human characters", "Sunnyglade Valley NPCs", "Turtle WoW content"]
 | location | Sunnyglade Valley |
 | status | Killable |
 
--Marshal Greywall** is a [human](human) and was the leader of the human defenders of [Azeroth](Stormwind (kingdom)) in [Sunnyglade Valley](Sunnyglade Valley) during the [First War](First War). Greywall led his army from [Greywall's Advance](Greywall's Advance) in the northern part of the Valley.
+**Marshal Greywall** is a [human](human) and was the leader of the human defenders of [Azeroth](Stormwind (kingdom)) in [Sunnyglade Valley](Sunnyglade Valley) during the [First War](First War). Greywall led his army from [Greywall's Advance](Greywall's Advance) in the northern part of the Valley.
 
 ## Patch changes
 - (Patch 1.17.0|note=

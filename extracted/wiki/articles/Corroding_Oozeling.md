@@ -23,7 +23,7 @@ categories: ["Oozes", "Stormwrought Ruins mobs", "Turtle WoW content"]
 | location | Stormwrought Ruins |
 | status | Killable |
 
--Corroding Oozelings** are [ooze](ooze)s located in [Stormwrought Ruins](Stormwrought Ruins).
+**Corroding Oozelings** are [ooze](ooze)s located in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

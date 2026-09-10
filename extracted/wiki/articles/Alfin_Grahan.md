@@ -24,10 +24,10 @@ categories: ["Aristocrats", "Balor NPCs", "Human characters", "Human ghosts", "T
 | relatives | Olivert (brother) |
 | status | Active |
 
--Alfin Grahan** is a [human](human) ghost located at the [Grahan Estate](Grahan Estate) in [Balor](Balor). Unlike her brother, her mind is slowly escaping her grasp and she appears to still believe herself to be alive. (ref: [quest: Put Them To Rest])
+**Alfin Grahan** is a [human](human) ghost located at the [Grahan Estate](Grahan Estate) in [Balor](Balor). Unlike her brother, her mind is slowly escaping her grasp and she appears to still believe herself to be alive. (ref: [quest: Put Them To Rest])
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Where are all the servants? I've been waiting for my strawberry parfait for over three hours now. Whoever is taking their sweet time with my dessert will have their last day under my brother's employment!
 
 ## Patch changes

@@ -23,7 +23,7 @@ categories: ["Bears", "Crescent Grove mobs", "Tenacity beasts", "Turtle WoW cont
 | location | The Crescent Grove |
 | pet | Bear |
 
--Enraged Sharpclaws** are bears located in the [Crescent Grove](Crescent Grove).
+**Enraged Sharpclaws** are bears located in the [Crescent Grove](Crescent Grove).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

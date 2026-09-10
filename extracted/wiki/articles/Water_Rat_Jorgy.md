@@ -25,7 +25,7 @@ categories: ["Human characters", "Lapidis Isle mobs", "Southsea Freebooters", "T
 | status | Killable |
 | location | Bright Coast, Lapidis Isle |
 
--'Water Rat' Jorgy** is a human member of the [Southsea Freebooters](Southsea Freebooters) located at the [Bright Coast](Bright Coast) in [Lapidis Isle](Lapidis Isle). [Sergeant Blackwell](Sergeant Blackwell) wants him dead for his part in sinking the [Kul Tiran Exploratory Fleet](Kul Tiran Exploratory Fleet)'s ships on the isle.
+**'Water Rat' Jorgy** is a human member of the [Southsea Freebooters](Southsea Freebooters) located at the [Bright Coast](Bright Coast) in [Lapidis Isle](Lapidis Isle). [Sergeant Blackwell](Sergeant Blackwell) wants him dead for his part in sinking the [Kul Tiran Exploratory Fleet](Kul Tiran Exploratory Fleet)'s ships on the isle.
 
 ## Objective of
 - Drops [Head of Jorgy](Head of Jorgy) for [quest: The Water Rat].

@@ -25,7 +25,7 @@ categories: ["General goods vendors", "High elf characters", "Thalassian Highlan
 | location | Thaumarium, Thalassian Highlands |
 | status | Alive |
 
--Aira Starsworn** is a [high elf](high elf) general goods vendor located in [Thaumarium](Thaumarium) of the [Thalassian Highlands](Thalassian Highlands).
+**Aira Starsworn** is a [high elf](high elf) general goods vendor located in [Thaumarium](Thaumarium) of the [Thalassian Highlands](Thalassian Highlands).
 
 ## Sells
 ...

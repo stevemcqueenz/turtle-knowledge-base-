@@ -27,7 +27,7 @@ categories: ["Alliance quests", "Quests at 9", "Thalassian Highlands quests", "T
 
 ## Objectives
 Find proof of the Blood Elf plot in [Felstrider Retreat](Felstrider Retreat).
--[Rommath's Orders](Rommath's Orders)
+- [Rommath's Orders](Rommath's Orders)
 
 ## Description
 Our... former brethren have fortified themselves in the mountain fortress of [Felstrider Retreat](Felstrider Retreat). They've been here even before we arrived to settle these lands, and I suspect they may be remnants of [Kael](Kael'thas Sunstrider)'s forces that did not sail to [Northrend](Northrend). Up until now, they haven't caused much trouble, and quite embarrassingly, we've been overlooking their presence. However, if what you say is true, they must be plotting something.
@@ -36,8 +36,8 @@ I need you to find evidence of their plot. Perhaps one of their soldiers carries
 
 ## Rewards
 You will receive:
--850 XP
--+150 [reputation](reputation) with [Silvermoon Remnant](Silvermoon Remnant)
+- 850 XP
+- +150 [reputation](reputation) with [Silvermoon Remnant](Silvermoon Remnant)
 
 ## Progress
 Have you found anything?

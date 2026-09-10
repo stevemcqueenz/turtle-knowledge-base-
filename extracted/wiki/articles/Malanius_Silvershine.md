@@ -24,7 +24,7 @@ categories: ["Food and drink vendors", "High elf characters", "Thalassian Highla
 | gender | Male |
 | location | Brinthilien, Thalassian Highlands |
 
--Malanius Silvershine** is a high elf food and drink vendor located in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands).
+**Malanius Silvershine** is a high elf food and drink vendor located in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands).
 
 ## Patch changes
 - (Patch 1.17.1|note=Moved from [Farstrider Lodge](Farstrider Lodge) in [Loch Modan](Loch Modan) to the new high elf starting zone at [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands).)

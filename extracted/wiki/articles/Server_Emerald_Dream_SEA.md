@@ -10,4 +10,4 @@ categories: ["Stubs"]
 ---
 # Server:Emerald Dream SEA
 
--Emerald Dream** is a PvE server that was launched on September 16th, 2023.
+**Emerald Dream** is a PvE server that was launched on September 16th, 2023.

@@ -24,12 +24,12 @@ categories: ["Feralas NPCs", "Human characters", "Turtle WoW content"]
 | location | Feathermoon Stronghold, Feralas |
 | status | Alive |
 
--Kristy Grant** is a [human](human) located in [Feathermoon Stronghold](Feathermoon Stronghold) in [Feralas](Feralas). She had previously been located in [Thalanaar](Thalanaar) prior to the exile of [Commander Anashya Starfall](Commander Anashya Starfall) and her sentinels.
+**Kristy Grant** is a [human](human) located in [Feathermoon Stronghold](Feathermoon Stronghold) in [Feralas](Feralas). She had previously been located in [Thalanaar](Thalanaar) prior to the exile of [Commander Anashya Starfall](Commander Anashya Starfall) and her sentinels.
 
 ## Relatives
 She may be related to [Kelly Grant](Kelly Grant) and [Kimberly Grant](Kimberly Grant).
 
 ## Patch changes
--(Patch 1.16.4|note=Moved from [Thalanaar](Thalanaar) to [Feathermoon Stronghold](Feathermoon Stronghold).)
+- (Patch 1.16.4|note=Moved from [Thalanaar](Thalanaar) to [Feathermoon Stronghold](Feathermoon Stronghold).)
 
 ## External links

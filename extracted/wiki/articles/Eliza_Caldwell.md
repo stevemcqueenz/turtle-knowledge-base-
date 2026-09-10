@@ -26,7 +26,7 @@ categories: ["Human characters", "Kul Tiran Exploratory Fleet", "Lapidis Isle NP
 | status | Alive |
 | relatives | Krilana (adoptive daughter) |
 
--Eliza Caldwell** is a [human](human) [quest giver](quest giver) located in [Caelan's Rest](Caelan's Rest) in [Lapidis Isle](Lapidis Isle).
+**Eliza Caldwell** is a [human](human) [quest giver](quest giver) located in [Caelan's Rest](Caelan's Rest) in [Lapidis Isle](Lapidis Isle).
 
 ## Quests
 - [quest: Drowning Deeptide] 

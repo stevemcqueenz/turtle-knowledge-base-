@@ -13,8 +13,8 @@ categories: ["Northwind objects"]
 The **Dragon Vault** can be found in [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind). Interacting with it while having [Perfumed Letter #4](Perfumed Letter (4)) and the [Violet Key](Violet Key) allows for the acquisition of [Lady Selind's Purse](Lady Selind's Purse).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Prized sculpture of the renowned artist [Rohlof Bergard](Rohlof Bergard). You can see a small keyhole on the plaque.
 
-  -With [Perfumed Letter #4](Perfumed Letter (4)) and the [Violet Key](Violet Key)**
+**With [Perfumed Letter #4](Perfumed Letter (4)) and the [Violet Key](Violet Key)**
   > Gossip: *<Unlock it with the Violet Key.>*

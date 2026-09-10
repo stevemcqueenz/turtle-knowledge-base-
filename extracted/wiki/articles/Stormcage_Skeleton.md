@@ -23,7 +23,7 @@ categories: ["Skeletons", "Stormwrought Ruins mobs", "Turtle WoW content"]
 | location | Stormwrought Ruins |
 | status | Killable |
 
--Stormcage Skeletons** are [skeleton](skeleton)s located in [Stormwrought Ruins](Stormwrought Ruins).
+**Stormcage Skeletons** are [skeleton](skeleton)s located in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Abilities
 - Chain Lightning

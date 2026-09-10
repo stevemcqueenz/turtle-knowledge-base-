@@ -13,16 +13,10 @@ categories: ["Hillsbrad Foothills subzones", "Human territories", "Mines"]
 The **Azurelode Mine** is an [Alliance](Alliance)-controlled mine in southwestern [Hillsbrad Foothills](Hillsbrad Foothills), south of the [Hillsbrad Fields](Hillsbrad Fields) and west of [Southshore](Southshore). It is a home to miners under [Foreman Bonds](Foreman Bonds) from [Hillsbrad Fields](Hillsbrad Fields), (ref: [Hillsbrad Town Registry](Hillsbrad Town Registry)) and has guards to protect the miners. It supplies iron to Alliance armories. (ref:  [28] [Battle of Hillsbrad (5)](Battle of Hillsbrad (5)))
 
 The [Horde](Horde) has three quests which send them inside the mine:
--  [28] [Battle of Hillsbrad (5)](Battle of Hillsbrad (5))
--  [28] [Dangerous! (quest)](Dangerous! (quest))
--  [30] [Brutal Armor](Brutal Armor)
+- [28] [Battle of Hillsbrad (5)](Battle of Hillsbrad (5))
+- [28] [Dangerous! (quest)](Dangerous! (quest))
+- [30] [Brutal Armor](Brutal Armor)
 
 ## NPCs
-- 
-  - 
-- 
-- 
-- 
-- 
-
-## References
+- - * 
+- - - ## References

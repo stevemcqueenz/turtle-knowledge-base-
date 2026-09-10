@@ -28,7 +28,7 @@ categories: ["Deceased characters", "Orc characters", "Shadow Council", "Shadowm
 *"I am Gul'dan... I am darkness incarnate. I will not be denied."*
    — [The History of Orcish Ascension](https://wowpedia.fandom.com/wiki/Warcraft_II:_Tides_of_Darkness_manual#The_History_of_Orcish_Ascension)
 
-  -Gul'dan** was the first [orc](orc)ish warlock as well as the de facto founder of the [Horde](Old Horde). He betrayed both his people and his mentor [Ner'zhul](Ner'zhul) to the demon lord [Kil'jaeden](Kil'jaeden) for personal gain and power, and was directly responsible for the orcs' fall to demonic enslavement and their [subsequent invasion](First War) of Azeroth.
+**Gul'dan** was the first [orc](orc)ish warlock as well as the de facto founder of the [Horde](Old Horde). He betrayed both his people and his mentor [Ner'zhul](Ner'zhul) to the demon lord [Kil'jaeden](Kil'jaeden) for personal gain and power, and was directly responsible for the orcs' fall to demonic enslavement and their [subsequent invasion](First War) of Azeroth.
 
 ## Background
 ### Kil'jaeden's Scheme

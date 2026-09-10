@@ -24,7 +24,7 @@ categories: ["Bosses", "Turtle WoW content", "Wind serpents", "Windhorn Canyon m
 | status | Killable |
 | instance | Windhorn Canyon |
 
--Ahgk'tos the Pure** is a boss in [Windhorn Canyon](Windhorn Canyon).
+**Ahgk'tos the Pure** is a boss in [Windhorn Canyon](Windhorn Canyon).
 
 ## Abilities
 - Lightning Cloud

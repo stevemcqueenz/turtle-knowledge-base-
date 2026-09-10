@@ -10,11 +10,11 @@ categories: ["Tower of Karazhan subzones", "Turtle WoW content"]
 ---
 # Medivh's Chambers
 
--Medivh's Chambers**, located near the summit of the [Tower of Karazhan](Tower of Karazhan), are the private bedchambers and study of [Medivh](Medivh), the last [Guardian of Tirisfal](Guardian of Tirisfal). The room contains a worktable, an elevated bed, and many paintings and statues.
+**Medivh's Chambers**, located near the summit of the [Tower of Karazhan](Tower of Karazhan), are the private bedchambers and study of [Medivh](Medivh), the last [Guardian of Tirisfal](Guardian of Tirisfal). The room contains a worktable, an elevated bed, and many paintings and statues.
 
 ## NPCs
--   [Echo of the Mysterious Stranger](Echo of the Mysterious Stranger)
--   [Filius Crosner](Filius Crosner)
+- [Echo of the Mysterious Stranger](Echo of the Mysterious Stranger)
+- [Filius Crosner](Filius Crosner)
 
 ## Patch changes
 - (Patch 1.17.2|note=Added.)

@@ -10,7 +10,7 @@ categories: []
 ---
 # Category:Races
 
--Race** is a term used in *[World of Warcraft](World of Warcraft)* to split various unique creatures into separate groups. Numerous races populate [Azeroth](Azeroth) including [elves](Elf), [troll](troll)s, [human](human)s, [orc](orc)s, [gnome](gnome)s, and [murloc](murloc)s, among many others. Many races can interbreed including humans, [high elves](High elf), [night elves](Night elf), [ogre](ogre)s, orcs, and [draenei](draenei) — producing offspring often called [half-breed](half-breed)s.
+**Race** is a term used in *[World of Warcraft](World of Warcraft)* to split various unique creatures into separate groups. Numerous races populate [Azeroth](Azeroth) including [elves](Elf), [troll](troll)s, [human](human)s, [orc](orc)s, [gnome](gnome)s, and [murloc](murloc)s, among many others. Many races can interbreed including humans, [high elves](High elf), [night elves](Night elf), [ogre](ogre)s, orcs, and [draenei](draenei) — producing offspring often called [half-breed](half-breed)s.
 
 The [*Warcraft* universe](Warcraft universe) is inhabited by many sentient and sapient beings. These races speak many different [language](language)s, have different homelands and [racial traits](Racial Traits), and can pursue different [class](class)es. Though most races are native to the world of [Azeroth](Azeroth), some have arrived from other worlds, such as [Draenor](Draenor). The armies of the [Burning Legion](Burning Legion) are notably culled from many conquered worlds throughout the [Great Dark Beyond](Great Dark Beyond).
 

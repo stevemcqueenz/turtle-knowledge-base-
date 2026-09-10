@@ -13,10 +13,5 @@ categories: ["Farms", "Gilneas subzones", "Turtle WoW content"]
 The **Ebonmere Farm** is one of the many farms of [Gilneas](Gilneas) that have been abandoned in the midst of the [Gilnean civil war](Gilnean civil war). It is overran by [Vilewing Batling](Vilewing Batling)s.
 
 ## NPCs
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - ## Patch changes
 - (Patch 1.17.0|note=Added.)

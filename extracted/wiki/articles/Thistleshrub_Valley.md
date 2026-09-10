@@ -10,9 +10,9 @@ categories: ["Tanaris subzones", "Thistleshrubs"]
 ---
 # Thistleshrub Valley
 
--Thistleshrub Valley** is an area thick with giant cacti (which are very unusually alive for [Tanaris](Tanaris)) and desert-dwelling [thistleshrub](thistleshrub)s.  
+**Thistleshrub Valley** is an area thick with giant cacti (which are very unusually alive for [Tanaris](Tanaris)) and desert-dwelling [thistleshrub](thistleshrub)s.  
 
 ## Mobs
--[Thistleshrub Rootshaper](Thistleshrub Rootshaper)
--[Thistleshrub Dew Collector](Thistleshrub Dew Collector)
--[Gnarled Thistleshrub](Gnarled Thistleshrub)
+- [Thistleshrub Rootshaper](Thistleshrub Rootshaper)
+- [Thistleshrub Dew Collector](Thistleshrub Dew Collector)
+- [Gnarled Thistleshrub](Gnarled Thistleshrub)

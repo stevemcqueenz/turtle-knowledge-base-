@@ -10,8 +10,8 @@ categories: ["Turtle WoW content"]
 ---
 # Tainted Rune
 
--Tainted Rune** is provided as an objective for [quest: Tainted Rune|race=dwarf|class=warlock].
+**Tainted Rune** is provided as an objective for [quest: Tainted Rune|race=dwarf|class=warlock].
 
 ## Contains
 ## Patch changes
--(Patch 1.18.1|note=Added.)
+- (Patch 1.18.1|note=Added.)

@@ -27,7 +27,7 @@ categories: ["Bleeding Hollow clan", "Deceased characters", "Orc characters"]
 | relatives | Thrall (son), Drakka (wife) |
 | status | Deceased |
 
--Durotan** was the chieftain of the [Frostwolf clan](Frostwolf clan). 
+**Durotan** was the chieftain of the [Frostwolf clan](Frostwolf clan). 
 
 ## Background
 The [orc](orc)s became increasingly aggressive under the secret control of [Gul'dan](Gul'dan) and his [Shadow Council](Shadow Council). They constructed massive arenas where the orcs honed their [warrior](warrior) skills in trials of combat and death. During this period, a few clan chieftains spoke out against the growing depravity in their race. One such chieftain, Durotan of the [Frostwolf](Frostwolf) clan, warned against the orcs' losing themselves to hate and fury. His words fell on deaf ears, however, as stronger chieftains such as [Grom Hellscream](Grom Hellscream) of the [Warsong](Warsong) clan stepped forward to champion the new age of warfare and dominance.

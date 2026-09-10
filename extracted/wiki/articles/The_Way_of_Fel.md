@@ -24,7 +24,7 @@ categories: ["Alliance quests", "Quests at 9", "Thalassian Highlands quests", "T
 
 ## Objectives
 Retrieve 10 Fel Crystals from Felstrider Retreat for Leshandra Fintri in Alah'Thalas.
--[Fel Crystal](Fel Crystal) (10)
+- [Fel Crystal](Fel Crystal) (10)
 
 ## Description
 Greetings. I am Leshandra Fintri, and my research delves into the more... unconventional methods of satiating our arcane addiction.
@@ -33,8 +33,8 @@ To the southwest lies a Blood Elf fortress. Blood Elves, notorious for handling 
 
 ## Rewards
 You will receive:
--9300 XP
--+150 [reputation](reputation) with [Silvermoon Remnant](Silvermoon Remnant)
+- 9300 XP
+- +150 [reputation](reputation) with [Silvermoon Remnant](Silvermoon Remnant)
 
 ## Progress
 I'm sure you will be fine. Just don't show the crystals to the guards.

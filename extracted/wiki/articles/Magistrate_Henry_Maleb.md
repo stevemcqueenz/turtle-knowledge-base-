@@ -26,7 +26,7 @@ categories: ["Hillsbrad Foothills NPCs", "Human characters", "Politicians", "Que
 | location | Southshore Town Hall, Hillsbrad Foothills |
 | status | Alive |
 
--Magistrate Henry Maleb** is a [human](human) quest giver located in the [Southshore Town Hall](Southshore Town Hall) in the [Hillsbrad Foothills](Hillsbrad Foothills). He is the new magistrate of Southshore, recently assigned after the assassination of the previous magistrate. (ref: [quest: Syndicate Assassins])
+**Magistrate Henry Maleb** is a [human](human) quest giver located in the [Southshore Town Hall](Southshore Town Hall) in the [Hillsbrad Foothills](Hillsbrad Foothills). He is the new magistrate of Southshore, recently assigned after the assassination of the previous magistrate. (ref: [quest: Syndicate Assassins])
 
 ## Quests
 - [quest: Syndicate Assassins] 
@@ -38,7 +38,7 @@ categories: ["Hillsbrad Foothills NPCs", "Human characters", "Politicians", "Que
 - [quest: Baron's Demise] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 When I was first offered the title of Southshore Magistrate I was elated to have earned such a commission so early in my career.
 
 But now that I'm here, I wonder if I'd have been better off shuffling papers in Stormwind.

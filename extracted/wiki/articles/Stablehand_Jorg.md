@@ -24,10 +24,10 @@ categories: ["Human characters", "Northwind NPCs", "Stormwind (kingdom)", "Turtl
 | location | Mildenhall Horse Farm, Northwind |
 | status | Alive |
 
--Stablehand Jorg** is a [human](human) located at the [Mildenhall Horse Farm](Mildenhall Horse Farm) in [Northwind](Northwind).
+**Stablehand Jorg** is a [human](human) located at the [Mildenhall Horse Farm](Mildenhall Horse Farm) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 This is not how I imagined my vacation. The Geringts needed the workforce, and with no one else here, it's only me cleaning the stables at the moment. To be completely honest with you... I don't feel particularly safe on my own here. Mr. Geringt has me cover the last shift here and with all the rumours going around about people being abducted and what not, I'd rather hole up at my house and not come out!
 
 ## Patch changes

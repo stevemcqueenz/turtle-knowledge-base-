@@ -15,12 +15,12 @@ count = <i>GameTooltip</i>:NumLines();
 Return the number of text lines which comprise a tooltip object.
 
 ----
-  -*Arguments***
+***Arguments***
 
   <i>none</i>
 
 ----
-  -*Returns***
+***Returns***
 
   count
   ;count : Number - The number of lines in the tooltip.

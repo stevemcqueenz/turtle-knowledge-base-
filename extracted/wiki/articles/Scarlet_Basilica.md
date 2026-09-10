@@ -10,6 +10,6 @@ categories: ["Eastern Plaguelands subzones", "Human territories", "Pages with br
 ---
 # Scarlet Basilica
 
--The Scarlet Basilica** is a large cathedral located inside [Tyr's Hand](Tyr's Hand) in the [Eastern Plaguelands](Eastern Plaguelands). It is the high seat of religious power for the [Scarlet Crusade](Scarlet Crusade), and has close ties to the [Tyr's Hand Abbey](Tyr's Hand Abbey) nearby as well as the [Scarlet Monastery](Scarlet Monastery) much further west in [Tirisfal Glades](Tirisfal Glades). It is the location of [Crusader Lord Valdelmar](Crusader Lord Valdelmar).
+**The Scarlet Basilica** is a large cathedral located inside [Tyr's Hand](Tyr's Hand) in the [Eastern Plaguelands](Eastern Plaguelands). It is the high seat of religious power for the [Scarlet Crusade](Scarlet Crusade), and has close ties to the [Tyr's Hand Abbey](Tyr's Hand Abbey) nearby as well as the [Scarlet Monastery](Scarlet Monastery) much further west in [Tirisfal Glades](Tirisfal Glades). It is the location of [Crusader Lord Valdelmar](Crusader Lord Valdelmar).
 
 The Scarlet Basilica is built very much like the [Cathedral of Light](Cathedral of Light) in the city of [Stormwind](Stormwind).

@@ -24,13 +24,13 @@ categories: ["Gilneas NPCs", "Human characters", "Turtle WoW content"]
 | location | Shademore Tavern, Gilneas |
 | status | Alive |
 
--"Greta Longpike"** is the assumed name of a [human](human) bandit of [Blackthorn](Blackthorn)'s gang located at the [Shademore Tavern](Shademore Tavern) in [Gilneas](Gilneas).
+**"Greta Longpike"** is the assumed name of a [human](human) bandit of [Blackthorn](Blackthorn)'s gang located at the [Shademore Tavern](Shademore Tavern) in [Gilneas](Gilneas).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Well, this is a fine day here in Gilneas, isn't it? Take care if you leave town, alright?
 
-  -Dialogue**
+**Dialogue**
   *Main article: [Rendezvous with the Infiltrator#Notes](Rendezvous with the Infiltrator#Notes)*
 
 ## Patch changes

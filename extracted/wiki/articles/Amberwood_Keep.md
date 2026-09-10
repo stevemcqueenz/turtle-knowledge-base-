@@ -10,42 +10,15 @@ categories: ["Human territories", "Keeps", "Northwind subzones", "Turtle WoW con
 ---
 # Amberwood Keep
 
--Amberwood Keep** is an area located in [Northwind](Northwind). It is the seat of [Lord Amberwood](Lord Amberwood), ruler of Northwind.
+**Amberwood Keep** is an area located in [Northwind](Northwind). It is the seat of [Lord Amberwood](Lord Amberwood), ruler of Northwind.
 
 ## Inhabitants
 ### Quest givers
-- 
-- 
-
-### Goods and services
-- 
-- 
-- 
-- 
-- 
-
-### Trainers
-- 
-
-### Additional characters
-  -Inside the keep**
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-  -Outside the keep**
-- 
-- 
-- 
-
-### Guards
-- 
-
-## Patch changes
+- - ### Goods and services
+- - - - - ### Trainers
+- ### Additional characters
+**Inside the keep**
+- - - - - - - - - ;Outside the keep
+- - - ### Guards
+- ## Patch changes
 - (Patch 1.18.0|note=Added.)

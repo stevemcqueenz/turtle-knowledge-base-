@@ -25,7 +25,7 @@ categories: ["Priest trainers", "Quest givers", "Tauren characters", "Thunder Bl
 | location | Spirit Rise, Thunder Bluff |
 | status | Alive |
 
--Artahla Starstrider** is a [tauren](tauren) priest trainer located in [Spirit Rise](Spirit Rise) in [Thunder Bluff](Thunder Bluff).
+**Artahla Starstrider** is a [tauren](tauren) priest trainer located in [Spirit Rise](Spirit Rise) in [Thunder Bluff](Thunder Bluff).
 
 ## Quests
 - [quest: Light of An'she|race=tauren|class=priest] 
@@ -34,7 +34,7 @@ categories: ["Priest trainers", "Quest givers", "Tauren characters", "Thunder Bl
 - [quest: Spiritwalk|race=tauren|class=priest] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 You come to seek guidance, to seek wisdom? Such things can be found from searching within and identifying your inner self. You would be surprised just how much spirit and fortitude lays deep in ones heart.
 
 ## Patch changes

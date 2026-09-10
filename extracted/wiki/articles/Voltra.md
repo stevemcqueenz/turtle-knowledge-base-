@@ -24,7 +24,7 @@ categories: ["Chimaeras", "Feralas NPCs", "Turtle WoW content"]
 | status | Alive |
 | location | Chimaera Roost Vale, Feralas |
 
--Voltra** is a [chimaera](chimaera) located along with [Velos Sharpstrike](Velos Sharpstrike) at the [Chimaera Roost Vale](Chimaera Roost Vale) in [Feralas](Feralas).
+**Voltra** is a [chimaera](chimaera) located along with [Velos Sharpstrike](Velos Sharpstrike) at the [Chimaera Roost Vale](Chimaera Roost Vale) in [Feralas](Feralas).
 
 ## Patch changes
 - (Patch 1.17.0|note=Added.)

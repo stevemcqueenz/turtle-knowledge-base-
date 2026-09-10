@@ -10,13 +10,13 @@ categories: ["Eastern Plaguelands subzones", "Ghosts", "Pages with broken file l
 ---
 # Darrowshire
 
--The Annals of Darrowshire**
+**The Annals of Darrowshire**
 
 [Darrowshire](Darrowshire), named for the [Darrowmere Lake](Darrowmere Lake) to its west, is a village tucked into the southern foothills of [Lordaeron](Lordaeron).  Known for its humble yet hardworking residents, Darrowshire stayed in the background of Lordaeron history until the [Third War](Third War).
 
 Heroes were made during that war, and heroes were lost.
 
-  -The Battle for Darrowshire**
+**The Battle for Darrowshire**
 
 The Battle of Darrowshire took place in the middle of the [Third War](Third War), when the [Scourge](Scourge) forces rampaged across Lordaeron.  Darrowshire was cut off from the bulk of the [Alliance](Alliance) forces, but the town was bolstered by a company of troops consisting of a contingent of [paladins](paladins) of the [Silver Hand](Silver Hand) and a staunch group of local militia led by Captain [Joseph Redpath](Joseph Redpath).
 
@@ -34,31 +34,31 @@ The corrupted Captain Redpath then spread his evil taint among the defenders of 
 
 The remaining Scourge army, along with the corrupted spirit of Captain Redpath left the ravaged village of Darrowshire and tore into Lordaeron, adding to the pain and death of the Third War.
 
--from the Extended Annals of Darrowshire*
+*from the Extended Annals of Darrowshire*
 
-  -The Fate of Horgus the Ravager**
+**The Fate of Horgus the Ravager**
 
 Horgus the Ravager fell at the Battle of Darrowshire.  But the evil within him was not fully spent.  The victorious Scourge forces removed his skull from the battelfield of Darrowshire.  Carrying it with them to sow dread among the living they faced.
 
 Days Later, the company of Scourge who possessed the head were defeated by Silver Hand paladins.  Horgus' head was cast into Blackwood Lake.
 
-  -The Fate of Marduck, the Black**
+**The Fate of Marduck, the Black**
 
 Marduk survived the Second War (sic), causing great death and suffering with his foul, rune-laden sword.  Although Marduk still lives, his sword was lost in a battle near Corin's Crossing.  A dwarf captain shattered the sword on his enchanted shield, forcing Marduk to flee the field and winning the day for the Alliance.
 
-  -The Fate of Davil Lightforge**
+**The Fate of Davil Lightforge**
 
 Davil Lightforge died at the Battle of Darrowshire, but his bravery inspired the Alliance throughout the war.
 
 His book, his paladin's libram, was recovered by Scarlet Crusade troops.  It now resides in the town hall of the Scarlet Crusade controlled Hearthglen, often read by crusaders eager to draw from Davil's strength.
 
-  -The Fate of Joseph Redpath**
+**The Fate of Joseph Redpath**
 
 Joseph Redpath was killed during the Battle of Darrowshire.  His spirit was corrupted and took new shape, and this creature spread great evil in Lordaeron.
 
 At Gahrron's Withering, east of Andorhal, the corrupted Redpath was finally defeated by Alliance forces.  His shield still rests near the barn of the plagued farmstead, and Scourge minions are still drawn to the memory of his evil.
 
-  -The Fate of Carlin Redpath**
+**The Fate of Carlin Redpath**
 
 Brother to Captain Joseph Redpath, Carlin fell during the battle of Darrowshire.  But although terribly wounded, he was not slain.
 

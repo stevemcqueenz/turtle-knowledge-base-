@@ -23,7 +23,7 @@ Returns link to the quest item.
    Integer - Quest reward item index.
 
 ### Returns
-  - *Returns***
+** *Returns***
    itemLink
 
   ; itemLink

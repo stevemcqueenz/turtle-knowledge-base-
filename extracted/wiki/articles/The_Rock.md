@@ -10,12 +10,12 @@ categories: ["Camps", "Human territories", "Islands", "Kul Tiran Exploratory Fle
 ---
 # The Rock
 
--The Rock** is a small Alliance outpost located off the coast of [Lapidis Isle](Lapidis Isle). Consisting of a tent and a cannon stand, the outpost is manned by two members of the [Kul Tiran Exploratory Fleet](Kul Tiran Exploratory Fleet) and serves to blast any unwanted ships. The Rock is seen as a boring shift by the Caelan's Rest marines.
+**The Rock** is a small Alliance outpost located off the coast of [Lapidis Isle](Lapidis Isle). Consisting of a tent and a cannon stand, the outpost is manned by two members of the [Kul Tiran Exploratory Fleet](Kul Tiran Exploratory Fleet) and serves to blast any unwanted ships. The Rock is seen as a boring shift by the Caelan's Rest marines.
 
 ## NPCs
--  [Cannoneer Hancock](Cannoneer Hancock)
--  [Marine Lockside](Marine Lockside)
--  [Rock Crawler](Rock Crawler)
+- [Cannoneer Hancock](Cannoneer Hancock)
+- [Marine Lockside](Marine Lockside)
+- [Rock Crawler](Rock Crawler)
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

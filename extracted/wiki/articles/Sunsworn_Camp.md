@@ -30,23 +30,11 @@ categories: ["Alliance quest hubs", "Alliance settlements", "Camps", "High elf t
 | flightpath | No |
 | status | Active |
 
--Sunsworn Camp** is an [Alliance](Alliance)-aligned encampment located in southwest [Moonwhisper Coast](Moonwhisper Coast). It is the base camp of a high elven expedition led by [Andanil Sunsworn](Andanil Sunsworn), cousin to Lord [Astalor Sunsworn](Astalor Sunsworn) of the [Silvermoon Remnant](Silvermoon Remnant), sent to Moonwhisper Coast in search of [draenethyst](draenethyst).
+**Sunsworn Camp** is an [Alliance](Alliance)-aligned encampment located in southwest [Moonwhisper Coast](Moonwhisper Coast). It is the base camp of a high elven expedition led by [Andanil Sunsworn](Andanil Sunsworn), cousin to Lord [Astalor Sunsworn](Astalor Sunsworn) of the [Silvermoon Remnant](Silvermoon Remnant), sent to Moonwhisper Coast in search of [draenethyst](draenethyst).
 
 ## Inhabitants
 ### Quest givers
-- 
-- 
-- 
-- 
-
-### Goods and services
-- 
-- 
-
-### Additional characters
-- 
-- 
-- 
-
-## Patch changes
+- - - - ### Goods and services
+- - ### Additional characters
+- - - ## Patch changes
 - (Patch 1.18.1|note=Added.)

@@ -24,10 +24,10 @@ categories: ["Farstriders", "Grim Reaches NPCs", "High elf characters", "Turtle 
 | location | Dun Kithas, Grim Reaches |
 | status | Alive |
 
--Ranger Sinastria Viltmoore** is a [high elf](high elf) located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
+**Ranger Sinastria Viltmoore** is a [high elf](high elf) located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I miss [Alah'Thalas](Alah'Thalas) already.
 
 ## Patch changes

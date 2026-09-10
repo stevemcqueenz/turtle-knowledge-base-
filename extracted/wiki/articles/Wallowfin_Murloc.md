@@ -22,10 +22,10 @@ categories: ["Lapidis Isle mobs", "Murlocs", "Turtle WoW content"]
 | creature | Humanoid |
 | location | The Wallowing Coast and Crown Island, Lapidis Isle |
 
--Wallowfin Murlocs** are [murloc](murloc)s located at [the Wallowing Coast](Wallowing Coast) and [Crown Island](Crown Island) in [Lapidis Isle](Lapidis Isle).
+**Wallowfin Murlocs** are [murloc](murloc)s located at [the Wallowing Coast](Wallowing Coast) and [Crown Island](Crown Island) in [Lapidis Isle](Lapidis Isle).
 
 ## Objective of
--  [51] [Lost and Stranded](Lost and Stranded)
+- [51] [Lost and Stranded](Lost and Stranded)
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

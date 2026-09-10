@@ -25,4 +25,4 @@ categories: ["Faction quartermasters", "Human characters", "Stormwind City NPCs"
 | location | Stormwind City |
 | status | Alive |
 
--Valiant** is the quartermaster for [Stormwind](Stormwind (faction)) and is located outside of the [Command Center](Command Center) in [Old Town](Old Town) in [Stormwind City](Stormwind City).
+**Valiant** is the quartermaster for [Stormwind](Stormwind (faction)) and is located outside of the [Command Center](Command Center) in [Old Town](Old Town) in [Stormwind City](Stormwind City).

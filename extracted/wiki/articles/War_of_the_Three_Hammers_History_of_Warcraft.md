@@ -12,7 +12,7 @@ categories: ["History of Warcraft", "In-Game Books", "Lore"]
 
 <B style="font-weight:normal;background-color:#2b2b2b;">[  [Source Text](WoWWiki:Article_type)  ]</B>
 
--War of the Three Hammers* is a section of the [History of Warcraft](History of Warcraft), Chapter II.  It is set 230 years before Warcraft I. It is also available as an [in-game book](:Category:In-Game Books).
+*War of the Three Hammers* is a section of the [History of Warcraft](History of Warcraft), Chapter II.  It is set 230 years before Warcraft I. It is also available as an [in-game book](:Category:In-Game Books).
 
 Found at:
 - Gallery of Treasures of [The Scarlet Monastery](The Scarlet Monastery) in [Tirisfal Glades](Tirisfal Glades).

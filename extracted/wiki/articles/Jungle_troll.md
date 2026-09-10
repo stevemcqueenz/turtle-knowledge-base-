@@ -30,32 +30,32 @@ The history of the jungle trolls begins at the dawn of civilisation when the [Gu
 - [Mar'Lee](Mar'Lee) - news anchor of the highly esteemed [Gnomeregan Gnews Gnetwork](Gnomeregan Gnews Gnetwork).
 
 ## Tribes and groups
--[Darkspear Tribe](Darkspear Tribe) - Once exiled from Stranglethorn to the distant islands of the great ocean, the Darkspear Tribe, led by Vol'jin is now one of the most powerful troll tribes again, and has formed an alliance with the Horde.
--[Bloodscalp](Bloodscalp) Tribe - A powerful Tribe of Stranglethorn, led by Gan'zulah, they are currently at war with the Skullsplitter Tribe.
--[Skullsplitter](Skullsplitter) Tribe - A powerful Tribe of Stranglethorn, led by Ana'thek the Cruel, they are currently at war with the Bloodscalp Tribe.
--[Atal'ai](Atal'ai) Tribe - The rebellious followers of Hakkar, who did not give up his worship after the fall, they reside in the Swamp Of Sorrows, where the Temple of Atal'Hakkar has been sunk by the [green dragonflight](green dragonflight) in an attempt to keep Hakkar from being unleashed upon the world.
--[Gurubashi](Gurubashi) Tribe - The tribe that ruled the [Gurubashi Empire](Gurubashi Empire) and now rules only the city of [Zul'Gurub](Zul'Gurub). They worship [Hakkar](Hakkar the Soulflayer), due to the influence of the Ata'lai.
--The [Hakkari](Hakkari)
--[Shatterspear](Shatterspear) Tribe
+- [Darkspear Tribe](Darkspear Tribe) - Once exiled from Stranglethorn to the distant islands of the great ocean, the Darkspear Tribe, led by Vol'jin is now one of the most powerful troll tribes again, and has formed an alliance with the Horde.
+- [Bloodscalp](Bloodscalp) Tribe - A powerful Tribe of Stranglethorn, led by Gan'zulah, they are currently at war with the Skullsplitter Tribe.
+- [Skullsplitter](Skullsplitter) Tribe - A powerful Tribe of Stranglethorn, led by Ana'thek the Cruel, they are currently at war with the Bloodscalp Tribe.
+- [Atal'ai](Atal'ai) Tribe - The rebellious followers of Hakkar, who did not give up his worship after the fall, they reside in the Swamp Of Sorrows, where the Temple of Atal'Hakkar has been sunk by the [green dragonflight](green dragonflight) in an attempt to keep Hakkar from being unleashed upon the world.
+- [Gurubashi](Gurubashi) Tribe - The tribe that ruled the [Gurubashi Empire](Gurubashi Empire) and now rules only the city of [Zul'Gurub](Zul'Gurub). They worship [Hakkar](Hakkar the Soulflayer), due to the influence of the Ata'lai.
+- The [Hakkari](Hakkari)
+- [Shatterspear](Shatterspear) Tribe
 
 ## [Locations](Locations) in [World of Warcraft](World of Warcraft)
--[Stranglethorn Vale](Stranglethorn Vale)
-  -[Zul'Kunda](Zul'Kunda)
-  -[Zul'Mamwe](Zul'Mamwe)
-  -[Zuuldaia](Zuuldaia)
-  -[Kal'ai](Kal'ai)
-  -[Bal'lal](Bal'lal)
-  -[Ziata'jai](Ziata'jai)
-  -[Jubuwal](Jubuwal)
-  -[Aboraz](Aboraz)
-  -[Balia'mah](Balia'mah)
-  -[Mizjah](Mizjah)
-  -[Tkashi](Tkashi)
-  -[Gurubashi Arena](Gurubashi Arena)
-  -[Gillijim's Isle](Gillijim's Isle)
-  -[Zul'Gurub](Zul'Gurub)
--[Durotar](Durotar)
-  -[Echo Isles](Echo Isles)
-  -[Sen'jin Village](Sen'jin Village)
-  -[Razor Hill](Razor Hill) 
--[Stonetalon Mountains](Stonetalon Mountains)
+- [Stranglethorn Vale](Stranglethorn Vale)
+  - [Zul'Kunda](Zul'Kunda)
+  - [Zul'Mamwe](Zul'Mamwe)
+  - [Zuuldaia](Zuuldaia)
+  - [Kal'ai](Kal'ai)
+  - [Bal'lal](Bal'lal)
+  - [Ziata'jai](Ziata'jai)
+  - [Jubuwal](Jubuwal)
+  - [Aboraz](Aboraz)
+  - [Balia'mah](Balia'mah)
+  - [Mizjah](Mizjah)
+  - [Tkashi](Tkashi)
+  - [Gurubashi Arena](Gurubashi Arena)
+  - [Gillijim's Isle](Gillijim's Isle)
+  - [Zul'Gurub](Zul'Gurub)
+- [Durotar](Durotar)
+  - [Echo Isles](Echo Isles)
+  - [Sen'jin Village](Sen'jin Village)
+  - [Razor Hill](Razor Hill) 
+- [Stonetalon Mountains](Stonetalon Mountains)

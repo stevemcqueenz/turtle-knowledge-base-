@@ -24,4 +24,4 @@ categories: ["Caves", "Ogre territories", "Pages with broken file links", "Tanar
 | loc | Tanaris |
 | status | Active |
 
--Dunemaul Compound** is the [ogre mound](ogre mound) of the [Dunemaul](Dunemaul clan) [ogre](ogre)s of [Tanaris](Tanaris). Their leader, [Gor'marok the Ravager](Gor'marok the Ravager), resides here in his cave.
+**Dunemaul Compound** is the [ogre mound](ogre mound) of the [Dunemaul](Dunemaul clan) [ogre](ogre)s of [Tanaris](Tanaris). Their leader, [Gor'marok the Ravager](Gor'marok the Ravager), resides here in his cave.

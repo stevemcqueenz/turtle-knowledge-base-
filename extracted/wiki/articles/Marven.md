@@ -26,10 +26,10 @@ categories: ["Human characters", "Pet trainers", "Stormwind (kingdom)", "Stormwi
 | status | Alive |
 | companions | Heartclaw |
 
--Marven** is a [human](human) pet trainer located in [the Park](Park), in [Stormwind City](Stormwind City).
+**Marven** is a [human](human) pet trainer located in [the Park](Park), in [Stormwind City](Stormwind City).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 To be one with nature, and to tame beasts themselves, is a skill worth learning.
 
 ## Patch changes

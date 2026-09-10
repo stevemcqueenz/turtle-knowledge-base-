@@ -13,10 +13,5 @@ categories: ["Northwind subzones", "Turtle WoW content"]
 The **Merchant's Highroad** is the road leading from [Stormwind City](Stormwind City) to [Northwind](Northwind). [Gnoll](Gnoll)s from the [Amberpaw Hideout](Amberpaw Hideout) prey on travelers along the road.
 
 ## NPCs
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - ## Patch changes
 - (Patch 1.18.0|note=Added.)

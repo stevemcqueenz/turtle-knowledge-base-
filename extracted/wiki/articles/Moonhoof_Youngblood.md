@@ -24,7 +24,7 @@ categories: ["Children", "Moonwhisper Coast NPCs", "Tauren characters", "Turtle 
 | location | Moonhoof Village, Moonwhisper Coast |
 | status | Alive |
 
--Moonhoof Youngbloods** are [tauren](tauren) youths located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Moonhoof Youngbloods** are [tauren](tauren) youths located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

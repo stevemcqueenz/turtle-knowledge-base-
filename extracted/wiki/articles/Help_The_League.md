@@ -25,7 +25,7 @@ categories: ["Alliance quests", "Quests at 27", "Wetlands quests"]
 
 ## Objectives
 Collect 10 Raptor Eggs and bring them to [Grovug Mithrilmane](Grovug Mithrilmane) stationed in Dun Agrath.
--[Raptor Egg](Raptor Egg): 0/10
+- [Raptor Egg](Raptor Egg): 0/10
 ## Description
 Report after report of raptors slowly moving against our digsite were ignored by that fool Grovug up in the mountains.
 
@@ -36,8 +36,8 @@ I need some solid proof to give to him, right to his face for some action to get
 Slay the beasts down there, and collect eggs from them. Bring those eggs to Grovug in the mountains of Dun Agrath to the south west along the mountains.
 
 ## Rewards
--2150 [XP](XP)
--200 Reputation with [Ironforge](Ironforge)
+- 2150 [XP](XP)
+- 200 Reputation with [Ironforge](Ironforge)
 ## Progress
 I'm on important League business up here.
 ## Completion

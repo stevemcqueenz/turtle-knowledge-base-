@@ -25,4 +25,4 @@ categories: ["Faction quartermasters", "Orc characters", "Orgrimmar NPCs"]
 | location | Valley of Strength, Orgrimmar |
 | status | Alive |
 
--Gorrok** is the quartermaster for [Orgrimmar](Orgrimmar (faction)) and is located in the [Valley of Strength](Valley of Strength) in [Orgrimmar](Orgrimmar).
+**Gorrok** is the quartermaster for [Orgrimmar](Orgrimmar (faction)) and is located in the [Valley of Strength](Valley of Strength) in [Orgrimmar](Orgrimmar).

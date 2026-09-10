@@ -10,6 +10,6 @@ categories: ["Crypts", "Forsaken territories", "Pages with broken file links", "
 ---
 # Faol's Rest
 
--Faol's Rest** is located in eastern [Tirisfal Glades](Tirisfal Glades), just southwest of the [Scarlet Monastery](Scarlet Monastery). It is presumed to be the final resting place of the much revered archbishop [Alonsus Faol](Alonsus Faol), who died some time before the coming of the [Scourge](Scourge). Although the grave was a much visited place by mourners in the time before the [Plague of Undeath](Plague of Undeath), it now lies untended and forgotten.
+**Faol's Rest** is located in eastern [Tirisfal Glades](Tirisfal Glades), just southwest of the [Scarlet Monastery](Scarlet Monastery). It is presumed to be the final resting place of the much revered archbishop [Alonsus Faol](Alonsus Faol), who died some time before the coming of the [Scourge](Scourge). Although the grave was a much visited place by mourners in the time before the [Plague of Undeath](Plague of Undeath), it now lies untended and forgotten.
 
 It serves as the [Graveyard](Graveyard) for those dying on the Scarlet Monastery [instance](instance) or the low-level quests around that place.

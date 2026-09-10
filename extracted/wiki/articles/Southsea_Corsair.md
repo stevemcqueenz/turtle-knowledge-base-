@@ -23,7 +23,7 @@ categories: ["Human characters", "Lapidis Isle mobs", "Southsea Freebooters", "T
 | creature | Humanoid |
 | location | Bright Coast, Lapidis Isle |
 
--Southsea Corsairs** are humans located at the [Bright Coast](Bright Coast) in [Lapidis Isle](Lapidis Isle).
+**Southsea Corsairs** are humans located at the [Bright Coast](Bright Coast) in [Lapidis Isle](Lapidis Isle).
 
 ## Objective of
 - Drops [Southsea Sash](Southsea Sash) for [quest: Smashing the Southsea!]

@@ -35,57 +35,57 @@ Tailoring training can be found throughout the world, at Journeyman, Expert, Art
 |}
 
 ## Apprentice Trainers
-  -Alliance**:
+**Alliance**:
 
--Eldrin <Journeyman Tailor> (Elwynn Forest, Eastvale Lumber Camp)
--Lawrence Schneider <Journeyman Tailor> (Stormwind City, Mage Quarter, tloc 44,74)
--Uthrar Threx <Journeyman Tailor> (Ironforge, Great Forge)
--Trianna <Journeyman Tailor> (Darnassus, Craftsman's Terrace)
--Grondal Moonbreeze <Journeyman Tailor> (Darkshore, Auberdine)
+- Eldrin <Journeyman Tailor> (Elwynn Forest, Eastvale Lumber Camp)
+- Lawrence Schneider <Journeyman Tailor> (Stormwind City, Mage Quarter, tloc 44,74)
+- Uthrar Threx <Journeyman Tailor> (Ironforge, Great Forge)
+- Trianna <Journeyman Tailor> (Darnassus, Craftsman's Terrace)
+- Grondal Moonbreeze <Journeyman Tailor> (Darkshore, Auberdine)
 
-  -Horde**:
+**Horde**:
 
--Bowen Brisboise <Journeyman Tailor> (Tirisfal Glades, Coldhearth Manor)
+- Bowen Brisboise <Journeyman Tailor> (Tirisfal Glades, Coldhearth Manor)
 - Victor Ward <Journeyman Tailor> (Undercity, Magic Quarter)
--Snarg <Journeyman Tailor> (Orgrimmar, The Drag)
+- Snarg <Journeyman Tailor> (Orgrimmar, The Drag)
 - Vhan <Journeyman Tailor> (Thunder Bluff, Central Elevation 2)
--Kil'hala <Journeyman Tailor> (The Barrens, Camp Tarajo)
+- Kil'hala <Journeyman Tailor> (The Barrens, Camp Tarajo)
 
 ### Journeyman Trainers
-  -Alliance**:
+**Alliance**:
 
--Sellandus <Expert Tailor> (Stormwind City, Mage Quarter, tloc 42,76)
--Jormund Stonebrow <Expert Tailor> (Ironforge, Great Forge)
--Me'lynn <Expert Tailor> (Darnassus, Craftsman's Terrace)
+- Sellandus <Expert Tailor> (Stormwind City, Mage Quarter, tloc 42,76)
+- Jormund Stonebrow <Expert Tailor> (Ironforge, Great Forge)
+- Me'lynn <Expert Tailor> (Darnassus, Craftsman's Terrace)
 
-  -Horde**:  
+**Horde**:  
 
--Rhiannon Davis <Expert Tailor> (Undercity, Magic Quarter)
--Magar <Expert Tailor> (Orgrimmar, The Drag)
--Tepa <Expert Tailor> (Thunder Bluff, Central Elevation 2)
--Mahani <Expert Tailor> (The Barrens, Camp Taurajo)
+- Rhiannon Davis <Expert Tailor> (Undercity, Magic Quarter)
+- Magar <Expert Tailor> (Orgrimmar, The Drag)
+- Tepa <Expert Tailor> (Thunder Bluff, Central Elevation 2)
+- Mahani <Expert Tailor> (The Barrens, Camp Taurajo)
 
-  -Neutral**:
+**Neutral**:
 
--Grarnik Goodstich <Expert Tailor> (Stranglethorn Vale, Booty Bay)
+- Grarnik Goodstich <Expert Tailor> (Stranglethorn Vale, Booty Bay)
 
 ### Expert Trainers
-  -Alliance**:
+**Alliance**:
 
--Georgio Bolero <Artisan Tailor> (Stormwind City, Mage Quarter, tloc 44,74)
+- Georgio Bolero <Artisan Tailor> (Stormwind City, Mage Quarter, tloc 44,74)
 
-  -Horde**: 
+**Horde**: 
 
--Josef Gregorian <Artisan Tailor> (Undercity, Magic Quarter)
+- Josef Gregorian <Artisan Tailor> (Undercity, Magic Quarter)
 
 ### Artisan Trainers
-  -Alliance**:
+**Alliance**:
 
--Timothy Worthington <Master Tailor> (Dustwallow Marsh, Theramore Isle)
+- Timothy Worthington <Master Tailor> (Dustwallow Marsh, Theramore Isle)
 
-  -Horde**: 
+**Horde**: 
 
--Daryl Stack <Master Tailor> (Hillsbrad Foothills, Tarren Mill)
+- Daryl Stack <Master Tailor> (Hillsbrad Foothills, Tarren Mill)
 
 ## Recipes
 {| class="fandom-table"
@@ -1185,7 +1185,7 @@ Bolt of Runecloth
 |Mooncloth
 Mooncloth
 | 2x Felcloth
-  -Requires**: Moonwell 
+**Requires**: Moonwell 
 |Vendor
 |-
 |250

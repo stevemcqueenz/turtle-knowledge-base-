@@ -14,7 +14,7 @@ BuyMerchantItem(index {, quantity});
 Buys the specified item.
 ----
 
-  - *Arguments***
+** *Arguments***
 
    (index {, quantity})
   ; index
@@ -24,13 +24,13 @@ Buys the specified item.
 
 ----
 
-  - *Returns***
+** *Returns***
 
    nothing
 
 ----
 
-  - *Details***
+** *Details***
 
    If the item is sold in stacks, the quantity specifies how many stacks will be bought.
 

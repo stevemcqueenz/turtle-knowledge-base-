@@ -10,6 +10,6 @@ categories: ["Defias Brotherhood", "Elwynn Forest subzones", "Human territories"
 ---
 # Heroes' Vigil
 
--Heroes' Vigil** is the central area of the [Stone Cairn Lake](Stone Cairn Lake) island in eastern [Elwynn Forest](Elwynn Forest). It features a ring of stones, and a monument called the [Stone of Remembrance](Stone of Remembrance) which commemorates the dead from the orcs' sacking of [Goldshire](Goldshire) and other nearby regions during the [First War](First War). The island itself is controlled by [Defias Rogue Wizard](Defias Rogue Wizard)s who can be dangerous to inexperienced adventurers, as well as the rogue Defias mage [Ralthas](Ralthas), who fled to Heroes' Vigil after stealing the [Necklace of Azora](Necklace of Azora) from the [Tower of Azora](Tower of Azora).
+**Heroes' Vigil** is the central area of the [Stone Cairn Lake](Stone Cairn Lake) island in eastern [Elwynn Forest](Elwynn Forest). It features a ring of stones, and a monument called the [Stone of Remembrance](Stone of Remembrance) which commemorates the dead from the orcs' sacking of [Goldshire](Goldshire) and other nearby regions during the [First War](First War). The island itself is controlled by [Defias Rogue Wizard](Defias Rogue Wizard)s who can be dangerous to inexperienced adventurers, as well as the rogue Defias mage [Ralthas](Ralthas), who fled to Heroes' Vigil after stealing the [Necklace of Azora](Necklace of Azora) from the [Tower of Azora](Tower of Azora).
 
 The body of [Henze Faulk](Henze Faulk) is situated here.

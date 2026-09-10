@@ -24,7 +24,7 @@ categories: ["Booty Bay characters", "Cooks", "Goblin characters", "Quest givers
 | location | Booty Bay, Stranglethorn Vale |
 | status | Alive |
 
--Sprogger** is a [goblin](goblin) [quest giver](quest giver) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). He was [Captain Hecklebury Smotts](Captain Hecklebury Smotts)' cook aboard the *[Smotts' Revenge](Smotts' Revenge)* and was the only other survivor of a [sea giant](sea giant) attack besides Smotts himself.
+**Sprogger** is a [goblin](goblin) [quest giver](quest giver) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). He was [Captain Hecklebury Smotts](Captain Hecklebury Smotts)' cook aboard the *[Smotts' Revenge](Smotts' Revenge)* and was the only other survivor of a [sea giant](sea giant) attack besides Smotts himself.
 
 ## Quests
 - [quest: The Captain's Cutlass] 

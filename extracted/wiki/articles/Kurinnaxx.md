@@ -23,8 +23,8 @@ categories: ["Bosses", "Ruins of Ahn'Qiraj mobs", "Silithid"]
 | faction | Combat |
 | instance | Ruins of Ahn'Qiraj |
 
--Kurinnaxx**, a large [sand reaver](sand reaver), is the first [boss](boss) found in the [Ruins of Ahn'Qiraj](Ruins of Ahn'Qiraj).  He has a wide aggro radius and can see stealthed rogues.
+**Kurinnaxx**, a large [sand reaver](sand reaver), is the first [boss](boss) found in the [Ruins of Ahn'Qiraj](Ruins of Ahn'Qiraj).  He has a wide aggro radius and can see stealthed rogues.
 ## Patch changes
--Patch 1.9.0: Added.
+- Patch 1.9.0: Added.
 
 ## External links

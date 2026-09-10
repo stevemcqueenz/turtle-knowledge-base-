@@ -13,8 +13,4 @@ categories: ["Goblin territories", "Stranglethorn Vale subzones", "Venture Compa
 The **Venture Co. Base Camp** is the base of operations for the [Venture Company](Venture Company), specifically those interested in [Tumbled Crystal](Tumbled Crystal)s. Adjacent to this area is the [Venture Co. Operations Center](Venture Co. Operations Center).
 
 ## NPCs
--  
--  
--  
--  
--
+- - - - -

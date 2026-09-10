@@ -14,13 +14,13 @@ Returns the number of entries in the quest log.
  GetNumQuestLogEntries();
 ----
 
-  - *Arguments***
+** *Arguments***
 
    *none*
 
 ----
 
-  - *Returns***
+** *Returns***
 
    Number numEntries
 
@@ -34,11 +34,11 @@ Returns the number of entries in the quest log.
 
 ----
 
-  - *Example***
+** *Example***
 
  local numEntries, numQuests = GetNumQuestLogEntries()
 ----
 
-  - *Description***
+** *Description***
 
    Returns the number of entries in the quest log.

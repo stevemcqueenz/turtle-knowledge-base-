@@ -15,4 +15,4 @@ The **Bones of Grakkarond** lie in central [Silithus](Silithus). They are the hu
 He was slain by [Ossirian the Unscarred](Ossirian the Unscarred).
 
 ## Patch changes
--  **Patch 1.4.0 (2005-04-19):** The dragon bones just to the southwest of The Swarming Pillar in Silithus have been named the Bones of Grakkarond.
+- **Patch 1.4.0 (2005-04-19):** The dragon bones just to the southwest of The Swarming Pillar in Silithus have been named the Bones of Grakkarond.

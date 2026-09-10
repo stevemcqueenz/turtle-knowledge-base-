@@ -26,14 +26,14 @@ categories: ["Mulgore NPCs", "Priest trainers", "Quest givers", "Tauren characte
 | status | Alive |
 | relatives | Pargan (brother) |
 
--Nuhlok Starstrider** is a [tauren](tauren) priest trainer located in [Camp Narache](Camp Narache) in [Mulgore](Mulgore).
+**Nuhlok Starstrider** is a [tauren](tauren) priest trainer located in [Camp Narache](Camp Narache) in [Mulgore](Mulgore).
 
 ## Quests
 - [quest: Hallowed Note|race=tauren|class=priest] 
 - [quest: race=tauren|class=priest] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Be at peace young one. It is our duty to bring harmony to the tribes, and navigate the evils of this world.
 
 ## Patch changes

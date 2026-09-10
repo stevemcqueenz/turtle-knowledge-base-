@@ -10,6 +10,6 @@ categories: ["Creatures", "Pages with broken file links", "Stubs", "Undead", "Zo
 ---
 # Zombie
 
--Zombies** are a species of undead. They are reanimated corpses who have not completed the transition into "true" undeath, [Ghouls](Ghoul).
+**Zombies** are a species of undead. They are reanimated corpses who have not completed the transition into "true" undeath, [Ghouls](Ghoul).
 
 Zombies can be found most notably in [Tirisfal Glades](Tirisfal Glades), the [Western Plaguelands](Western Plaguelands) and the [Eastern Plaguelands](Eastern Plaguelands).

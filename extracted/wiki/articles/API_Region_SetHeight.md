@@ -15,24 +15,24 @@ Sets the desired height of a frame-based object.
  obj:SetHeight(*height*);
 
 ----
-  -*Arguments***
+***Arguments***
 
-  - height : The desired height to set the frame-based object to (use 0 to clear the desired height). Note that a frame whose height is determined based on its anchors will not use this height.**
+** height : The desired height to set the frame-based object to (use 0 to clear the desired height). Note that a frame whose height is determined based on its anchors will not use this height.**
 
 ----
-  -*Returns***
+***Returns***
 
   ;nil
 
 ----
-  -*Example***
+***Example***
  myAddonOptionsParent = myAddonOptions:GetParent();
  *myAddonOptions:SetHeight(*myAddonOptionsParent:GetHeight() / 2*)*;
 
-  -*Result***
+***Result***
    The frame named 'myAddonOptions' would be set to half the height of its parent frame.
 
 ----
-  -*Description***
+***Description***
 
    Sets the height of a frame-based object.

@@ -25,10 +25,10 @@ categories: ["High elf characters", "Northwind NPCs", "Turtle WoW content"]
 | status | Alive |
 | relatives | Elenar (husband) |
 
--Aladrel Dewblade** is a [high elf](high elf) located outside [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind).
+**Aladrel Dewblade** is a [high elf](high elf) located outside [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Many of our kind joined the expedition to Alah'thalas and have rebuilt that ancient relic. Not us, though. We cannot bear to live in the shadows of the past, clinging to it like a snotty child begging its mother for forgiveness. For us, a new path lies ahead... far away from the horrors we've had to endure.
 
 ## Patch changes

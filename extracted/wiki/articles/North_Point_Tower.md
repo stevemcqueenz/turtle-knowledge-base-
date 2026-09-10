@@ -10,8 +10,7 @@ categories: ["Dustwallow Marsh subzones", "Human territories", "Pages with broke
 ---
 # North Point Tower
 
--North Point Tower** was built by the inhabitants of [Theramore Isle](Theramore Isle) in northern [Dustwallow Marsh](Dustwallow Marsh) near a well-traveled stretch of road. 
+**North Point Tower** was built by the inhabitants of [Theramore Isle](Theramore Isle) in northern [Dustwallow Marsh](Dustwallow Marsh) near a well-traveled stretch of road. 
 
 ## NPCs
--
--
+- -

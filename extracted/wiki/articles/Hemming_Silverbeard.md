@@ -25,4 +25,4 @@ categories: ["Dwarf characters", "Faction quartermasters", "Ironforge NPCs"]
 | location | Ironforge |
 | status | Alive |
 
--Hemming Silverbeard** is the quartermaster for [Ironforge](Ironforge (faction)) and is located in the [Commons](Commons) in [Ironforge](Ironforge).
+**Hemming Silverbeard** is the quartermaster for [Ironforge](Ironforge (faction)) and is located in the [Commons](Commons) in [Ironforge](Ironforge).

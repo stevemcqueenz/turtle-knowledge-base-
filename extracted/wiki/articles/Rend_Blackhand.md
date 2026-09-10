@@ -10,7 +10,7 @@ categories: ["Instance Characters", "Orc", "Pages with broken file links"]
 ---
 # Rend Blackhand
 
--Full name:** Dal'rend Blackhand
+**Full name:** Dal'rend Blackhand
 
 The bloodthirsty son of the bloodthirsty former Warchief of the [Horde](Horde), [Blackhand](Blackhand) the Destroyer. He believes that he is the rightful Warchief of the Horde due to lineage, and seeks to overthrow [Thrall](Thrall).
 
@@ -25,5 +25,5 @@ As spoken by [Eitrigg](Eitrigg), former member of the [Blackrock Clan](Blackrock
   ''Rend and his brother Maim ruled the Spire, in constant conflict with the [Dark Iron Dwarves](Dark Iron Dwarves). They managed to displace the dwarves in the upper portion of the city, but only after the [dragon](dragon)s came and only after the death of Maim.
 
 ## See Also
--[Maim Blackhand](Maim Blackhand) (brother)
--[Blackhand](Blackhand) (father)
+- [Maim Blackhand](Maim Blackhand) (brother)
+- [Blackhand](Blackhand) (father)

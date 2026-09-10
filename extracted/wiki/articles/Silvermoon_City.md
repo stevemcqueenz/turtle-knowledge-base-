@@ -29,6 +29,6 @@ categories: ["Cities", "Destroyed settlements", "Eastern Kingdoms"]
 
 *This article is about the lore of the city. For the planned raid instance, see [Ruins of Silvermoon](Ruins of Silvermoon).*
 
-  -Silvermoon** was a high elf city located in the area known as [Quel'Thalas](Quel'Thalas), famous for its indiscriminate use of arcane magic, it was the pride of the noble race of the High Elves.
+**Silvermoon** was a high elf city located in the area known as [Quel'Thalas](Quel'Thalas), famous for its indiscriminate use of arcane magic, it was the pride of the noble race of the High Elves.
 
 After the attack of the plague and the departure of Kael'thas with his regiment of Blood Elves, the city was completely abandoned and left to the hands of the plague, through whose ruins today wander the Undead and the souls of all those who died on the fateful day of the attack on Quel'thalas.

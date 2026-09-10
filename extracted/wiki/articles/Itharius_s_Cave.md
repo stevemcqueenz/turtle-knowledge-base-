@@ -10,4 +10,4 @@ categories: ["Caves", "Dragon territories", "Swamp of Sorrows subzones"]
 ---
 # Itharius's Cave
 
--Itharius's Cave** is the current residence of the mysterious [high elf](high elf) [Itharius](Itharius). It is located in the far southwestern corner of the [Swamp of Sorrows](Swamp of Sorrows). The area outside the cave is filled with unruly green [whelp](whelp)s, which Itharius has taken it upon himself to watch over while they grow.
+**Itharius's Cave** is the current residence of the mysterious [high elf](high elf) [Itharius](Itharius). It is located in the far southwestern corner of the [Swamp of Sorrows](Swamp of Sorrows). The area outside the cave is filled with unruly green [whelp](whelp)s, which Itharius has taken it upon himself to watch over while they grow.

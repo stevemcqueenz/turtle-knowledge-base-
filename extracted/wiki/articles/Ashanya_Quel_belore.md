@@ -25,10 +25,10 @@ categories: ["High elf characters", "Thalassian Highlands NPCs", "Turtle WoW con
 | location | Brinthilien, Thalassian Highlands |
 | status | Alive |
 
--Ashanya Quel'belore** is a high elf innkeeper located in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands).
+**Ashanya Quel'belore** is a high elf innkeeper located in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 You have journeyed a great distance. Rest your weary body under our roof, and my the Sun guide you.
 
 ## Patch changes

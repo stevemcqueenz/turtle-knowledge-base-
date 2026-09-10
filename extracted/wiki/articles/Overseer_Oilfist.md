@@ -26,15 +26,15 @@ categories: ["Dark Iron dwarf characters", "Foremen", "Quest givers", "Searing G
 | location | Thorium Point, Searing Gorge |
 | status | Alive |
 
--Overseer Oilfist** is a [Dark Iron dwarf](Dark Iron dwarf) found in [Thorium Point](Thorium Point) in the [Searing Gorge](Searing Gorge). He is the Overseer of the [Thorium Brotherhood](Thorium Brotherhood).
+**Overseer Oilfist** is a [Dark Iron dwarf](Dark Iron dwarf) found in [Thorium Point](Thorium Point) in the [Searing Gorge](Searing Gorge). He is the Overseer of the [Thorium Brotherhood](Thorium Brotherhood).
 
 ## Quests
 - [quest: Rival Presence] 
 - [quest: Secrets of the Colossus - Regal] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Ah, the sooty air of Searing Gorge, feels great after the smoldering air of Blackrock Mountain and smells of riches and opportunities. One has to be a fool to not exploit it, I'm sure the others feel the same. Now tell me, how can I help you, or how can you help me?
 
 ## Patch changes
--  **Patch 1.5.0 (2005-06-07):** Added.
+- **Patch 1.5.0 (2005-06-07):** Added.

@@ -10,9 +10,9 @@ categories: ["Template documentation"]
 ---
 # Template:LGPL/doc
 
--Description**
+**Description**
   This template is used to mark images using the LGPL.
-  -Syntax**
+**Syntax**
   Type <code></code> on the image information page.
 
 <includeonly></includeonly><noinclude></noinclude>

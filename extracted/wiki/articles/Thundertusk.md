@@ -22,7 +22,7 @@ categories: ["Elekks", "Moonwhisper Coast mobs", "Turtle WoW content"]
 | creature | Beast |
 | location | Moonwhisper Coast |
 
--Thundertusk** is a rare [elekk](elekk) found in [Moonwhisper Coast](Moonwhisper Coast).
+**Thundertusk** is a rare [elekk](elekk) found in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Abilities
 - War Stomp

@@ -13,5 +13,5 @@ categories: ["Blacksmiths", "NPC occupations"]
 A list of NPCs with the title of <Weaponsmith> or "Weaponsmith" in their name.
 
 Please note the following:
--Most weaponsmiths are [weapon vendors](:Category:Weapon vendors), but not all of them.
--This title is not exclusive to NPCs with the title of <Weaponsmith>. For example, [Kizz Bluntstrike](Kizz Bluntstrike) has the title of <Macecrafter>.
+- Most weaponsmiths are [weapon vendors](:Category:Weapon vendors), but not all of them.
+- This title is not exclusive to NPCs with the title of <Weaponsmith>. For example, [Kizz Bluntstrike](Kizz Bluntstrike) has the title of <Macecrafter>.

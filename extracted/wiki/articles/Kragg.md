@@ -26,13 +26,13 @@ categories: ["Hunter characters", "Hunter trainers", "Orc characters", "Strangle
 | location | Grom'gol Base Camp, Stranglethorn Vale |
 | status | Alive |
 
--Kragg** is an [orc](orc) [hunter trainer](hunter trainer) located in [Grom'gol Base Camp](Grom'gol Base Camp) in [Stranglethorn](Stranglethorn).
+**Kragg** is an [orc](orc) [hunter trainer](hunter trainer) located in [Grom'gol Base Camp](Grom'gol Base Camp) in [Stranglethorn](Stranglethorn).
 
 ## Quotes
-  -Non-hunter gossip**
+**Non-hunter gossip**
 Don't waste my time.
 
 ## See also
--[List of Stranglethorn Vale NPCs](List of Stranglethorn Vale NPCs)
+- [List of Stranglethorn Vale NPCs](List of Stranglethorn Vale NPCs)
 
 ## External links

@@ -26,13 +26,13 @@ categories: ["Blackrock clan", "Blacksmiths", "Burning Steppes NPCs", "Orc chara
 | location | Karfang Hold, Burning Steppes |
 | status | Alive |
 
--Blacksmith Torren** is an [orc](orc) weapons and armor vendor located in [Karfang Hold](Karfang Hold) in the [Burning Steppes](Burning Steppes).
+**Blacksmith Torren** is an [orc](orc) weapons and armor vendor located in [Karfang Hold](Karfang Hold) in the [Burning Steppes](Burning Steppes).
 
 ## Quests
 - [quest: Scrap Forager] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I am well versed crafting in the old methods, perhaps you could use a repair to let me refine my skills.
 
 ## Patch changes

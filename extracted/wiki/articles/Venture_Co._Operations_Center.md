@@ -13,9 +13,5 @@ categories: ["Goblin territories", "Stranglethorn Vale subzones", "Venture Compa
 The **Venture Co. Operations Center** is a goblin oil platform that is located on [Lake Nazferiti](Lake Nazferiti) in [Stranglethorn Vale](Stranglethorn Vale). It is filled with mechanics, geologists and other goblin teams invading the jungle.
 
 ## NPCs
--  
--  
--  
-
-## See also
+- - - ## See also
 - [Venture Co. Base Camp](Venture Co. Base Camp)

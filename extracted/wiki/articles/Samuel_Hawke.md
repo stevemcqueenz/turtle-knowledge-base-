@@ -27,13 +27,13 @@ categories: ["Arathi Highlands NPCs", "Armor vendors", "Human characters", "Leag
 | location | Refuge Pointe, Arathi Highlands |
 | status | Alive |
 
--Samuel Hawke** is a [PvP](PvP) [vendor](vendor) located at [Refuge Pointe](Refuge Pointe) in the [Arathi Highlands](Arathi Highlands). He is the [League of Arathor](League of Arathor)' supply officer and stands outside the entrance to the [Arathi Basin](Arathi Basin). 
+**Samuel Hawke** is a [PvP](PvP) [vendor](vendor) located at [Refuge Pointe](Refuge Pointe) in the [Arathi Highlands](Arathi Highlands). He is the [League of Arathor](League of Arathor)' supply officer and stands outside the entrance to the [Arathi Basin](Arathi Basin). 
 
 ## Patch changes
--  **Patch 1.7.0 (2005-09-13):** Added.
+- **Patch 1.7.0 (2005-09-13):** Added.
 
 ## See also
--[Illiyana Moonblaze](Illiyana Moonblaze) - similiar vendor for [Silverwing Sentinels](Silverwing Sentinels).
+- [Illiyana Moonblaze](Illiyana Moonblaze) - similiar vendor for [Silverwing Sentinels](Silverwing Sentinels).
 
 ## References
 ## External links

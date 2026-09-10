@@ -24,7 +24,7 @@ categories: ["Draenei characters", "Moonwhisper Coast NPCs", "Quest givers", "Tu
 | location | Moro'gai Village, Moonwhisper Coast |
 | status | Alive |
 
--Riftmaster Ral'pekta** is a [draenei](draenei) quest giver located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Riftmaster Ral'pekta** is a [draenei](draenei) quest giver located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: An Ill Omen] 
@@ -36,7 +36,7 @@ categories: ["Draenei characters", "Moonwhisper Coast NPCs", "Quest givers", "Tu
 - [quest: Draenethyst Recovery] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Among the Draenei there is nothing more sacred than the venerable art of Riftwalking. Once a widely spread practice, it is now sadly nothing more than an empty shell of the grandeur us Riftwalkers were able to conjure in age-old times; eons ago, under the swirling firmament of Draenor's night sky. I fear your kind may not grasp the magnitude of this sorcery, judging from your befuddled look. No need to trouble yourself with foolish contemplations. Riftwalking is a sacred rite, it will not be sullied by you lesser races, even in its current, pitiful state. The weaving of the arcane fabric itself, drawing power from the hallowed Draenethyst; only us Draenei shall possess this power, and no one else.
 
 ## Patch changes

@@ -23,7 +23,7 @@ categories: ["Cunning beasts", "Gilneas mobs", "Spiders", "Turtle WoW content"]
 | status | Killable |
 | pet | Spider |
 
--Hollow Web Spiders** are [spider](spider)s found in the [Hollow Web Woods](Hollow Web Woods) in [Gilneas](Gilneas).
+**Hollow Web Spiders** are [spider](spider)s found in the [Hollow Web Woods](Hollow Web Woods) in [Gilneas](Gilneas).
 
 ## Objective of
 - Drops [Hollow Web Venom](Hollow Web Venom) for [quest: To Numb the Pain].

@@ -23,7 +23,7 @@ categories: ["Ashenvale mobs", "Crescent Grove mobs", "Furbolg characters", "Tur
 | creature | Humanoid |
 | location | The Crescent Grove; Ashenvale |
 
--Groveweald Warriors** are furbolgs of the Groveweald tribe located in the [Crescent Grove](Crescent Grove) and outside the instance in [Ashenvale](Ashenvale).
+**Groveweald Warriors** are furbolgs of the Groveweald tribe located in the [Crescent Grove](Crescent Grove) and outside the instance in [Ashenvale](Ashenvale).
 
 ## Abilities
 - Shadow Bolt

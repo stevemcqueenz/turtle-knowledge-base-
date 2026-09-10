@@ -20,7 +20,7 @@ categories: ["Deceased characters", "Gilneas objects", "Human characters", "Lore
 | location | Buried northwest of the Southmire Orchard |
 | relatives | Harrison (brother) |
 
--Franklin Blackheart** was the brother of [Harrison Blackheart](Harrison Blackheart) and a member of the [Ravenwood Rebellion](Ravenwood Rebellion). He was killed by Greymane loyalists led by [Captain Veller](Captain Veller), (ref: [quest: The Blackheart Killer]) and his entire camp was burned to the ground. (ref: [quest: Greymane Hatred]) His brother buried him in a ruin located just south of the [Ruins of Greyshire](Ruins of Greyshire).
+**Franklin Blackheart** was the brother of [Harrison Blackheart](Harrison Blackheart) and a member of the [Ravenwood Rebellion](Ravenwood Rebellion). He was killed by Greymane loyalists led by [Captain Veller](Captain Veller), (ref: [quest: The Blackheart Killer]) and his entire camp was burned to the ground. (ref: [quest: Greymane Hatred]) His brother buried him in a ruin located just south of the [Ruins of Greyshire](Ruins of Greyshire).
 
 ## Grave
 ## Patch changes

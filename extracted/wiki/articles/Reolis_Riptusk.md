@@ -25,7 +25,7 @@ categories: ["Amani'Alor NPCs", "Forest troll characters", "Revantusk tribe", "S
 | location | Amani'Alor, Stonetalon Mountains |
 | status | Alive |
 
--Reolis Riptusk** is a [forest troll](forest troll) quest giver located in [Amani'Alor](Amani'Alor) in [Stonetalon Mountains](Stonetalon Mountains).
+**Reolis Riptusk** is a [forest troll](forest troll) quest giver located in [Amani'Alor](Amani'Alor) in [Stonetalon Mountains](Stonetalon Mountains).
 
 ## Quests
 He started the following quests, all of which gave [Revantusk Trolls](Revantusk Trolls) reputation:

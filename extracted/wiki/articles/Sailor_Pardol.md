@@ -24,10 +24,10 @@ categories: ["Human characters", "Kul Tiras (kingdom)", "Stormwind City NPCs", "
 | location | Slaughtered Lamb, Stormwind City |
 | status | Alive |
 
--Sailor Pardol** is a [human](human) located in the [Slaughtered Lamb](Slaughtered Lamb) in [Stormwind City](Stormwind City).
+**Sailor Pardol** is a [human](human) located in the [Slaughtered Lamb](Slaughtered Lamb) in [Stormwind City](Stormwind City).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 You better back off before we have a problem, understood?
 
 ## Objective of

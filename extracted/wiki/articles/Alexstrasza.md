@@ -23,7 +23,7 @@ categories: ["Red dragons"]
 | relatives | Tyranastrasz (elder consort),, Korialstrasz (consort),, Ysera (sister),, Caelestrasz (son) |
 | status | Alive |
 
--Alexstrasza the Life-Binder**, also known as **Alexstrasza the Red**, is one of the five [Dragon Aspects](Dragon Aspects) and the leader of the [red dragonflight](red dragonflight).
+**Alexstrasza the Life-Binder**, also known as **Alexstrasza the Red**, is one of the five [Dragon Aspects](Dragon Aspects) and the leader of the [red dragonflight](red dragonflight).
 
 ## Biography
 ### The Charge of the Dragonflights

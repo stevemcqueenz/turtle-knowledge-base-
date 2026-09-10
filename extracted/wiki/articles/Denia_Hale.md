@@ -25,7 +25,7 @@ categories: ["Ammo vendors", "General goods vendors", "Human characters", "Kul T
 | location | Caelan's Rest, Lapidis Isle |
 | status | Alive |
 
--Denia Hale** is a human general goods vendor located in [Caelan's Rest](Caelan's Rest) in [Lapidis Isle](Lapidis Isle).
+**Denia Hale** is a human general goods vendor located in [Caelan's Rest](Caelan's Rest) in [Lapidis Isle](Lapidis Isle).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

@@ -25,14 +25,14 @@ categories: ["Forsaken characters", "Northwind NPCs", "Quest givers", "Turtle Wo
 | location | Crypt, Northwind |
 | status | Active |
 
--Triston Lancaster** is a [Forsaken](Forsaken) [quest giver](quest giver) located in a [Crypt](Crypt (Northwind)) in [Northwind](Northwind).
+**Triston Lancaster** is a [Forsaken](Forsaken) [quest giver](quest giver) located in a [Crypt](Crypt (Northwind)) in [Northwind](Northwind).
 
 ## Quests
 - [quest: Charred Bones] 
 - [quest: Where is Wiggles?] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Hm? You are not Wiggles - damn ghoul ran off when I needed him most. Wiggles, come back, boy!
 
 ## Patch changes

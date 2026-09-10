@@ -24,7 +24,7 @@ categories: ["Moonwhisper Coast NPCs", "Night elf characters", "Stable masters",
 | location | Narvalis Point, Moonwhisper Coast |
 | status | Alive |
 
--Badel Wildlance** is a [night elf](night elf) [stable master](stable master) located in [Narvalis Point](Narvalis Point) in [Moonwhisper Coast](Moonwhisper Coast).
+**Badel Wildlance** is a [night elf](night elf) [stable master](stable master) located in [Narvalis Point](Narvalis Point) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

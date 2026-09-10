@@ -26,7 +26,7 @@ categories: ["Ammo vendors", "Grim Reaches NPCs", "Gunsmiths", "Turtle WoW conte
 | status | Alive |
 | relatives | Kazand Blundergate |
 
--Vohand Blundergate** is a [Wildhammer dwarf](Wildhammer dwarf) weapon vendor located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
+**Vohand Blundergate** is a [Wildhammer dwarf](Wildhammer dwarf) weapon vendor located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

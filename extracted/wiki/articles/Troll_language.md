@@ -10,6 +10,6 @@ categories: ["Game terms", "Languages"]
 ---
 # Troll (language)
 
--Trolll**, also known as **Zandalari**, (ref: [quest: Zandalarian Shadow Talisman|class=rogue]) is the native language of all [troll](troll)s.
+**Trolll**, also known as **Zandalari**, (ref: [quest: Zandalarian Shadow Talisman|class=rogue]) is the native language of all [troll](troll)s.
 
 ## References

@@ -24,10 +24,10 @@ categories: ["Moonwhisper Coast NPCs", "Night elf characters", "Priest character
 | location | Moonwhisper Coast |
 | status | Alive |
 
--Venuris** is a [night elf](night elf) adventurer located in [Moonwhisper Coast](Moonwhisper Coast). With her companions [Richard](Richard), [Janero](Janero) and [Olgra](Olgra), she previously adventured into the [Swamp of Sorrows](Swamp of Sorrows) when they were ambushed by the Mirebeast and Richard was injured, leading her and the rest of her party to seek the Shard of Aka'Sha to cure his otherworldly sickness. (ref: [THE MIREBEAST — Everlook Broadcasting Co. Radio Play Series](https://www.youtube.com/watch?v=2fhEAUpBBLU))
+**Venuris** is a [night elf](night elf) adventurer located in [Moonwhisper Coast](Moonwhisper Coast). With her companions [Richard](Richard), [Janero](Janero) and [Olgra](Olgra), she previously adventured into the [Swamp of Sorrows](Swamp of Sorrows) when they were ambushed by the Mirebeast and Richard was injured, leading her and the rest of her party to seek the Shard of Aka'Sha to cure his otherworldly sickness. (ref: [THE MIREBEAST — Everlook Broadcasting Co. Radio Play Series](https://www.youtube.com/watch?v=2fhEAUpBBLU))
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Ishnu-alah, traveler. What takes you to the moonlit fields of this coast? My comrades and I travel Azeroth in search of adventure, mysteries and the occasional treasure - atleast when it comes to Richard. Just a few months ago we were entangled - quite literally - in a most precarious predicament in the Swamp of Sorrows beyond the Great Sea. It was there where we became acquainted with the venerable Draenei. You can imagine how surprised I was to see them here in Moonwhisper Coast as well. It truly has been ages since I last came here...
 
 ## Trivia

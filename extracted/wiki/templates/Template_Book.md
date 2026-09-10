@@ -11,21 +11,21 @@ categories: ["Templates with inline colors", "WoW utility templates"]
 # Template:Book
 
 Formats text in the style of a book.
-  - Syntax : **
+** Syntax : **
 
 Parameters:
-  -1=:Title of the book.**
-  -width=:Width of container where the value is a number with unit of measurement. (Defaults to a max width of 44em, optimal line length + margins)**
-  -height=:Max height of contents where the value is a number with unit of measurement. Also applies <code>overflow-y: auto;</code>.**
-  -float=:Float direction <nowiki>["left"/"right"]</nowiki>.**
-  -clear=:Clear direction <nowiki>["both"/"left"/"right"]</nowiki>.**
-  -align=:Text alignment for the book's content. (Defaults to left.)**
-  -content=:The book's content.**
+**1=:Title of the book.**
+**width=:Width of container where the value is a number with unit of measurement. (Defaults to a max width of 44em, optimal line length + margins)**
+**height=:Max height of contents where the value is a number with unit of measurement. Also applies <code>overflow-y: auto;</code>.**
+**float=:Float direction <nowiki>["left"/"right"]</nowiki>.**
+**clear=:Clear direction <nowiki>["both"/"left"/"right"]</nowiki>.**
+**align=:Text alignment for the book's content. (Defaults to left.)**
+**content=:The book's content.**
 
-  -Example**
+**Example**
   <code><nowiki></nowiki></code>
 
-  -Result**
+**Result**
 
 <onlyinclude><includeonly>
 {{#if:{}|{}}}

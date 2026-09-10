@@ -41,7 +41,7 @@ categories: ["Alliance settlements", "Cities", "Dustwallow Marsh subzones", "Gre
 
 *This article is about the city-state and human nation. For the in-game faction, see [Theramore (faction)](Theramore (faction)).*
 
-  -Theramore Isle** (also known as **Theramore City** (ref: [A Blaze of Glory (WC3 Orc)](https://wowpedia.fandom.com/wiki/A_Blaze_of_Glory_(WC3_Orc))) or simply **Theramore**) is a [human](human) city (ref: *[Cycle of Hatred](Cycle of Hatred)*, chapter 8 - *"I rule Theramore, the human city on this continent."*) located in a rocky island east of [Dustwallow Marsh](Dustwallow Marsh), as well as the capital of the eponymous city-state.
+**Theramore Isle** (also known as **Theramore City** (ref: [A Blaze of Glory (WC3 Orc)](https://wowpedia.fandom.com/wiki/A_Blaze_of_Glory_(WC3_Orc))) or simply **Theramore**) is a [human](human) city (ref: *[Cycle of Hatred](Cycle of Hatred)*, chapter 8 - *"I rule Theramore, the human city on this continent."*) located in a rocky island east of [Dustwallow Marsh](Dustwallow Marsh), as well as the capital of the eponymous city-state.
 
 The importance of Theramore is emphasized by the fact that many class and profession trainers reside here. A mage with sufficient skill can even use teleport and open portals into this city.
 
@@ -104,14 +104,14 @@ File:Theramore Guard.jpg|Theramore uniform.
 
 ## Travel connections
 ### Flight
-  - [Auberdine](Auberdine), [Darkshore](Darkshore)**
-  - [Nijel's Point](Nijel's Point), [Desolace](Desolace)**
-  - [Thalanaar](Thalanaar), [Feralas](Feralas)**
-  - [Ratchet](Ratchet), [Barrens](Barrens)**
-  - [Gadgetzan](Gadgetzan), [Tanaris](Tanaris)**
+** [Auberdine](Auberdine), [Darkshore](Darkshore)**
+** [Nijel's Point](Nijel's Point), [Desolace](Desolace)**
+** [Thalanaar](Thalanaar), [Feralas](Feralas)**
+** [Ratchet](Ratchet), [Barrens](Barrens)**
+** [Gadgetzan](Gadgetzan), [Tanaris](Tanaris)**
 
 ### Boat
-  - [Menethil Harbor](Menethil Harbor)**
+** [Menethil Harbor](Menethil Harbor)**
 
 ## Inhabitants
 ## Patch changes

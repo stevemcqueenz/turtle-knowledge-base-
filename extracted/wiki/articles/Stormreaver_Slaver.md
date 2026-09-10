@@ -25,7 +25,7 @@ categories: ["Orc characters", "Slavers", "Stormreaver clan", "Stormwrought Ruin
 | location | Stormwrought Ruins |
 | status | Killable |
 
--Stormreaver Slavers** are [orc](orc)s located in [Stormwrought Ruins](Stormwrought Ruins).
+**Stormreaver Slavers** are [orc](orc)s located in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Abilities
 - **Rend** — Physical damage inflicted every 3 sec.

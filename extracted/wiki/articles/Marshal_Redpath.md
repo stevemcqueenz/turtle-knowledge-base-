@@ -24,7 +24,7 @@ categories: ["Hillsbrad Foothills NPCs", "Human characters", "Quest givers"]
 | location | Southshore, Hillsbrad Foothills |
 | status | Alive |
 
--Marshal Redpath** is a [human](human) [quest giver](quest giver) located in [Southshore](Southshore) in the [Hillsbrad Foothills](Hillsbrad Foothills).
+**Marshal Redpath** is a [human](human) [quest giver](quest giver) located in [Southshore](Southshore) in the [Hillsbrad Foothills](Hillsbrad Foothills).
 
 ## Quests
 - [quest: Farren's Proof] 
@@ -34,7 +34,7 @@ categories: ["Hillsbrad Foothills NPCs", "Human characters", "Quest givers"]
 - [quest: The Wall Comes Crashing Down] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 What brings you around to Southshore?
 
 ## Speculation

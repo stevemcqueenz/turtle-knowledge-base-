@@ -14,26 +14,26 @@ Accept the quest. Yes. Really accept it.
  ConfirmAcceptQuest();
 ----
 
-  - *Arguments***
+** *Arguments***
 
    *none*
 
 ----
 
-  - *Returns***
+** *Returns***
 
   ; nil
 
 ----
 
-  - *Example***
+** *Example***
 
  ConfirmAcceptQuest();
 
-  - *Result***
+** *Result***
 
 ----
 
-  - *Description***
+** *Description***
 
    Accept the quest. Yes. Really accept it.

@@ -13,10 +13,7 @@ categories: ["Azotha", "Badlands subzones", "Ruins", "Turtle WoW content"]
 The **Ruins of Zeth** is an ancient [Corthanian](Corthan) ruin (ref: [quest: In Your Own Defense]) located in the northeastern mountains of the [Badlands](Badlands), near [Uldaman](Uldaman). Once the high temple (ref: [Gheor from the Turtle WoW Community Discord](https://discord.com/channels/466622455805378571/528228771594240030/1086448472720412815) (dead link) - "Zeth would translate as High Temple, and the Zeths are the High Priests of said temple.") of a bygone civilization, it is now the haunt of the spirits of [Ancient Warrior](Ancient Warrior)s. The [Forgotten Keeper](Forgotten Keeper) also resides in the ruins.
 
 ## NPCs
-- 
-- 
-
-## Quests
+- - ## Quests
 # [quest: In Your Own Defense]
 # [quest: The Land of Kings]
 # [quest: The Curse of Zetharia]

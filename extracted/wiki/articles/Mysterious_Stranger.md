@@ -31,12 +31,12 @@ An **Echo of the Mysterious Stranger** resides in [Medivh's Chambers](Medivh's C
 - [quest: Stay Awhile and Listen...] (Hardcore) 
 
 ## Quotes
-  -After level 1**
+**After level 1**
 Well, well... You've had a change of heart, hm? So all of a sudden, you decide that you have business with me? Well, I do not have business with YOU.
 
 Begone!
 
-  -Echo in Karazhan**
+**Echo in Karazhan**
 <The Echo's eyes are following you. Chilling.>
 
 ## Gallery
@@ -45,6 +45,6 @@ Echo of the Mysterious Stranger.png|The Echo of the Mysterious Stranger in Karaz
 </gallery>
 
 ## Patch changes
--  **[Hotfix](https://forum.turtlecraft.gg/viewtopic.php?t=17678) (2025-04-03):** All appearances in starting zones removed due to the leveling challenges being moved to the character creation screen.
+- **[Hotfix](https://forum.turtlecraft.gg/viewtopic.php?t=17678) (2025-04-03):** All appearances in starting zones removed due to the leveling challenges being moved to the character creation screen.
 - (Patch 1.17.2|note=Appearance added in Tower of Karazhan.)
--  **[Hotfix](https://forum.turtlecraft.gg/viewtopic.php?t=1636) (2021-03-06):** Added.
+- **[Hotfix](https://forum.turtlecraft.gg/viewtopic.php?t=1636) (2021-03-06):** Added.

@@ -98,14 +98,14 @@ As the Ruler of Theramore, Jaina led the town and was found in her tower. Theram
 
 ## Quotes
 ### Theramore
-  -Gossip**
+**Gossip**
 I welcome you to Theramore, <name>.
 
 I apologize for being abrupt and not having a lot of time to exchange pleasantries, but my city must come first. Too many things threaten our way of life and the sanctity of the Alliance. I must stay ever vigilant against forces outside of our control if I'm to ensure my people remain safe and happy.
 
 Perhaps we'll have more time to speak later.
 
-  -The Missing Diplomat completed**
+**The Missing Diplomat completed**
 Hendel is in our custody now, <name>, thanks to you.
 
 Although the questioning goes slowly, I assure you, he will tell us everything he knows.
@@ -115,12 +115,12 @@ For now, please be patient. I will contact you immediately if we have need of yo
 Until then, please, enjoy Theramore and I invite you to stay for as long as you like within our city's walls as a friend of the Alliance.
 
 ### On-click
--Welcome to Theramore. Have you come to help the Alliance?
--All I ever wanted was to study.
--Shh, I'm trying to think here.
+- Welcome to Theramore. Have you come to help the Alliance?
+- All I ever wanted was to study.
+- Shh, I'm trying to think here.
 
 ### Aggro
--You asked for it.
--I hate resorting to violence!
+- You asked for it.
+- I hate resorting to violence!
 
 ## References

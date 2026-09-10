@@ -23,4 +23,4 @@ categories: ["Deceased characters", "Orc characters", "Stubs", "Warsong clan"]
 | location | Buried in Demon Fall Canyon |
 | status | Deceased |
 
--Grommash "Grom" Hellscream** was the chieftain of the [Warsong clan](Warsong clan), a powerful blademaster and best friend and chief advisor to Warchief [Thrall](Thrall). He was one of the chieftains who had gladly taken the blood of [Mannoroth the Destructor](Mannoroth), thus binding the Horde to the Burning Legion - and he would eventually pay the ultimate price to free himself and his people from the Blood Curse.
+**Grommash "Grom" Hellscream** was the chieftain of the [Warsong clan](Warsong clan), a powerful blademaster and best friend and chief advisor to Warchief [Thrall](Thrall). He was one of the chieftains who had gladly taken the blood of [Mannoroth the Destructor](Mannoroth), thus binding the Horde to the Burning Legion - and he would eventually pay the ultimate price to free himself and his people from the Blood Curse.

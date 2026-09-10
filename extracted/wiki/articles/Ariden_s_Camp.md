@@ -10,4 +10,4 @@ categories: ["Deadwind Pass subzones"]
 ---
 # Ariden's Camp
 
--Ariden's Camp** is a campsite found just north of the main road passing through [Deadwind Pass](Deadwind Pass) from [Duskwood](Duskwood) to the [Swamp of Sorrows](Swamp of Sorrows). It is occupied by [Magus Ariden Dusktower](Magus Ariden Dusktower) of the [Kirin Tor](Kirin Tor), who is investigating the growing magical energies surrounding the tower of [Karazhan](Karazhan).
+**Ariden's Camp** is a campsite found just north of the main road passing through [Deadwind Pass](Deadwind Pass) from [Duskwood](Duskwood) to the [Swamp of Sorrows](Swamp of Sorrows). It is occupied by [Magus Ariden Dusktower](Magus Ariden Dusktower) of the [Kirin Tor](Kirin Tor), who is investigating the growing magical energies surrounding the tower of [Karazhan](Karazhan).

@@ -24,7 +24,7 @@ categories: ["High elf characters", "Priest characters", "Priest trainers", "Que
 | gender | Female |
 | location | Brinthilien, Thalassian Highlands |
 
--Priestess Maelah Sunsworn** is a [high elf](high elf) [priest trainer](priest trainer) located in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands).
+**Priestess Maelah Sunsworn** is a [high elf](high elf) [priest trainer](priest trainer) located in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands).
 
 ## Quests
 - [quest: Blessed Elegant Letter|class=priest|race=HighElf] 
@@ -32,7 +32,7 @@ categories: ["High elf characters", "Priest characters", "Priest trainers", "Que
 - [quest: Priest's Letter|class=priest|race=HighElf] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 These are bleak times, but our kin must be guided towards the Light. Their wounds, while they cannot be healed entirely, must be attended to with all our might.
 
 ## Speculation

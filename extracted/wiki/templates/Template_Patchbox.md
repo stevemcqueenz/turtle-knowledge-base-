@@ -42,8 +42,8 @@ categories: []
 |data11   = {{#if:{}|{{#ifexist:Patch {} (undocumented changes)|
 
 <hr>
-  -*[Documented changes](Patch {})**
-  -*[Undocumented changes](Patch {} (undocumented changes))**
+- **[Documented changes](Patch {})**
+- **[Undocumented changes](Patch {} (undocumented changes))**
 
 }}}}
 |header12 = Patch chronology

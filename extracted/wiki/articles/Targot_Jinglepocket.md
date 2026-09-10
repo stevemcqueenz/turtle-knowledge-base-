@@ -26,9 +26,9 @@ categories: ["Arathi Highlands NPCs", "Goblin characters", "Smokywood Pastures c
 
 __NOTOC__
 
-  -Targot Jinglepocket** is a [goblin](goblin) [food](food) and [drink](drink) [vendor](vendor) located in [Refuge Pointe](Refuge Pointe) in the [Arathi Highlands](Arathi Highlands).
+**Targot Jinglepocket** is a [goblin](goblin) [food](food) and [drink](drink) [vendor](vendor) located in [Refuge Pointe](Refuge Pointe) in the [Arathi Highlands](Arathi Highlands).
 
 ## Trivia
--Like all [Smokywood Pastures](Smokywood Pastures) merchants, Targot is named after a large store chain, in his case, the mass merchandise retailer .
+- Like all [Smokywood Pastures](Smokywood Pastures) merchants, Targot is named after a large store chain, in his case, the mass merchandise retailer .
 
 ## External links

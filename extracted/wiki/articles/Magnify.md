@@ -10,10 +10,10 @@ categories: ["Addon"]
 ---
 # Magnify
 
--Magnify** enhances the world map experience by allowing you to zoom in and out, with additional visual improvements and customization options.
+**Magnify** enhances the world map experience by allowing you to zoom in and out, with additional visual improvements and customization options.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **Magnify** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **Magnify** up to date is by using [GitAddonsManager](Gi
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 

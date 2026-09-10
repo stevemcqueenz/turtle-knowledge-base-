@@ -10,4 +10,4 @@ categories: ["Darkshore subzones", "Dwarf territories", "Explorers' League", "Pa
 ---
 # Remtravel's Excavation
 
--Remtravel's Excavation**  is named after the famous archaeologist, [Prospector Remtravel](Prospector Remtravel). At the digsite, he has discovered a most unusual fossil of mystic properties, but the absent-minded prospector has forgotten where he put it. The digsite has also been invaded by [Gravelflint](Gravelflint) [trogg](trogg)s and huge [golem](golem)s which have been unearthed in the dig, and entering the excavation without the proper training can be very hazardous.
+**Remtravel's Excavation**  is named after the famous archaeologist, [Prospector Remtravel](Prospector Remtravel). At the digsite, he has discovered a most unusual fossil of mystic properties, but the absent-minded prospector has forgotten where he put it. The digsite has also been invaded by [Gravelflint](Gravelflint) [trogg](trogg)s and huge [golem](golem)s which have been unearthed in the dig, and entering the excavation without the proper training can be very hazardous.

@@ -28,10 +28,4 @@ During the [Gilnean civil war](Gilnean civil war), the Pellars were approached b
 The Pellars have the ability to partially transform themselves. (ref: [Moonwraith from the Turtle WoW Community Discord](https://discord.com/channels/466622455805378571/466626998593388579/1435287012713431070) - "Unlike the Coven who are like legit worgen. The Pellars can turn an arm or two, their legs blah blah.") Amongst the artifacts guarded by the Pellars are the Fangs of Zalmos.
 
 ## Members
-- 
-- 
-- 
-- 
-- 
-
-## References
+- - - - - ## References

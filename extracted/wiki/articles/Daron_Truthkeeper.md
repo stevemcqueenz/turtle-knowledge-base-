@@ -25,7 +25,7 @@ categories: ["Blacksmithing vendors", "Blacksmiths", "Human characters", "Scarle
 | location | New Avalon, Scarlet Enclave |
 | status | Alive |
 
--Daron Truthkeeper** is a [human](human) blacksmithing vendor located in [New Avalon](New Avalon) in the [Scarlet Enclave](Scarlet Enclave).
+**Daron Truthkeeper** is a [human](human) blacksmithing vendor located in [New Avalon](New Avalon) in the [Scarlet Enclave](Scarlet Enclave).
 
 ## Quotes
 <Daron looks somewhat confused by your presence.>

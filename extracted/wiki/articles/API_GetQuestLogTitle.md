@@ -14,7 +14,7 @@ Returns the string and other information which is associated with the specific Q
  GetQuestLogTitle(questID);
 ----
 
-  - *Arguments***
+** *Arguments***
 
    (Number questID)
 
@@ -23,7 +23,7 @@ Returns the string and other information which is associated with the specific Q
 
 ----
 
-  - *Returns***
+** *Returns***
 
   ; questTitle(String)
    The title of the quest
@@ -40,19 +40,19 @@ Returns the string and other information which is associated with the specific Q
 
 ----
 
-  - *Example***
+** *Example***
 
  local questTitle = GetQuestLogTitle(1);
 
-  - *Result***
+** *Result***
 
  "Leprechaun Assault"
 
-  - *Example from QuestLogFrame.lua***
+** *Example from QuestLogFrame.lua***
 
  local questLogTitleText, level, questTag, isHeader, isCollapsed, isComplete = GetQuestLogTitle(questIndex);
 ----
 
-  - *Description***
+** *Description***
 
    Returns the string which is associated with the specific QuestLog Title in the game. Also returns other information about a given quest such as what it's level is, completion status, whether it's a header and if so if it is collapsed.

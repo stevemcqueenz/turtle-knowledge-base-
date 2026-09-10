@@ -47,4 +47,4 @@ This is a nice haul and the ghosts are gone, yeah? I will order the crew to star
 # [57] [Azotha Gold](Azotha Gold)
 
 ## Patch changes
--  **[Patch 1.16.4](Patch 1.16.4) (2022-12-20):** Added.
+- **[Patch 1.16.4](Patch 1.16.4) (2022-12-20):** Added.

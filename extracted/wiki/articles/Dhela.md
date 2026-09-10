@@ -24,13 +24,13 @@ categories: ["Moonwhisper Coast NPCs", "Quest givers", "Tauren characters", "Tur
 | location | Moonhoof Village, Moonwhisper Coast |
 | status | Alive |
 
--Dhela** is a [tauren](tauren) quest giver located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Dhela** is a [tauren](tauren) quest giver located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: Lady Stargazer] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Stray not too far from our village, young one. The coast has become far more dangerous now than it ever was, now more than ever, when those we once called brethren choose to bask in the light of Lo'sho under a different name. Beware the shades and those who see themselves as Shadewalkers, for while they sing the name of Lo'sho in joy, they seek it for chaos and destruction.
 
 ## Patch changes

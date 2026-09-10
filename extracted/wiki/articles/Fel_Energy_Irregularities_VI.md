@@ -27,7 +27,7 @@ categories: ["Alliance quests", "Blasted Lands quests", "Quests at 60", "Turtle 
 
 ## Objectives
 Slay a Dreadlord within The Tainted Scar, and bring his Heart to Daio the Decrepit.
--[Dreadlord Heart](Dreadlord Heart)
+- [Dreadlord Heart](Dreadlord Heart)
 
 ## Description
 Heh.. He has a question, does he?
@@ -42,8 +42,8 @@ Within the Tainted Scar lies a secretive race of demon, the Dreadlord, I have be
 
 ## Rewards
 You will receive:
--6450 XP
--+300 [reputation](reputation) with [Dalaran](Dalaran (faction))
+- 6450 XP
+- +300 [reputation](reputation) with [Dalaran](Dalaran (faction))
 
 ## Progress
 Yes yes yes, do you have my heart?

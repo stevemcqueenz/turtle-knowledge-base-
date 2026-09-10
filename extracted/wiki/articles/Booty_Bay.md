@@ -40,7 +40,7 @@ categories: ["Articles using deprecated loot", "Bays", "Blackwater Raiders", "Bo
 *"This booming coastal city is run by [Baron Revilgaz](Baron Revilgaz) of the [Blackwater Raiders](Blackwater Raiders). Mortal enemies of the [Bloodsail Buccaneers](Bloodsail Buccaneers) and part of the [Steamwheedle Cartel](Steamwheedle Cartel)."*
   — Faction in-game description
 
-  -Booty Bay** is a large pirate town nestled into the cliffs surrounding a beautiful blue lagoon on the southern tip of [Stranglethorn Vale](Stranglethorn Vale). The city is entered by traversing through the bleached-white jaws of a giant shark. Run by the [Blackwater Raiders](:Category:Blackwater Raiders) who are closely associated with the [Steamwheedle Cartel](Steamwheedle Cartel), the port offers facilities to any traveller passing through, regardless of their faction. Combined with the world renowned Salty Sailor Tavern, it is one of the most popular locations in [Azeroth](Azeroth).
+**Booty Bay** is a large pirate town nestled into the cliffs surrounding a beautiful blue lagoon on the southern tip of [Stranglethorn Vale](Stranglethorn Vale). The city is entered by traversing through the bleached-white jaws of a giant shark. Run by the [Blackwater Raiders](:Category:Blackwater Raiders) who are closely associated with the [Steamwheedle Cartel](Steamwheedle Cartel), the port offers facilities to any traveller passing through, regardless of their faction. Combined with the world renowned Salty Sailor Tavern, it is one of the most popular locations in [Azeroth](Azeroth).
 
 ## History
 The area was previously known as the **Blackwater Cove** (ref:  and was described as a large, sheltered, semi-circular cove surrounded by cliffs at the southern end of [Stranglethorn Vale](Stranglethorn Vale). It was a former small port town inhabited by [human](human)s which was overrun by [jungle troll](jungle troll)s.<ref>[The World of Warcraft Townhall/World Map](https://wowpedia.fandom.com/wiki/The_World_of_Warcraft_Townhall/World_Map)) (ref: [Original Stranglethorn Vale description](http://web.archive.org/web/20040204231548/http://www.blizzard.com/wow/townhall/stranglethorn.shtml)) (ref: [The Artistry of World of Warcraft: Stranglethorn Vale (PC)](http://pc.gamespy.com/pc/world-of-warcraft/568788p1.html)) Eventually, the [goblin](goblin)s of the [Steamwheedle Cartel](Steamwheedle Cartel) managed to drive out the trolls from the immediate area to claim the shores of the cove for their new center for operations in the [Eastern Kingdoms](Eastern Kingdoms) &mdash; Booty Bay. (ref:  [11] [Wharfmaster Dizzywig (Barrens)](Wharfmaster Dizzywig (Barrens))) (ref:  [30] [The Barrens Port](The Barrens Port): Most likely Velinde found a trading vessel in Ratchet to take her to Blackwater Cove in Azeroth.) (ref:  [30] [Passage to Booty Bay](Passage to Booty Bay): Velinde. Booked passage to Booty Bay on the Black Osprey.)
@@ -52,21 +52,21 @@ Outside of Booty Bay, on the island of [Janeiro's Point](Janeiro's Point), is a 
 
 ## Shops and services
 ## Inhabitants
--Excluding the above areas:*
+*Excluding the above areas:*
 
 ## Travel connections
 ### Flight
-  - [Sentinel Hill](Sentinel Hill), [Westfall](Westfall)**
-  - [Darkshire](Darkshire), [Duskwood](Duskwood)**
-  - [Stormwind City](Stormwind City), [Elwynn Forest](Elwynn Forest)**
-  - [Caelan's Rest](Caelan's Rest), [Lapidis Isle](Lapidis Isle)**
-  - [Grom'gol Base Camp](Grom'gol Base Camp), [Stranglethorn Vale](Stranglethorn Vale)**
-  - [Stonard](Stonard), [Swamp of Sorrows](Swamp of Sorrows)**
-  - [Kargath](Kargath), [Badlands](Badlands)**
-  - [Maul'ogg Refuge](Maul'ogg Refuge), [Gillijim's Isle](Gillijim's Isle)**
+** [Sentinel Hill](Sentinel Hill), [Westfall](Westfall)**
+** [Darkshire](Darkshire), [Duskwood](Duskwood)**
+** [Stormwind City](Stormwind City), [Elwynn Forest](Elwynn Forest)**
+** [Caelan's Rest](Caelan's Rest), [Lapidis Isle](Lapidis Isle)**
+** [Grom'gol Base Camp](Grom'gol Base Camp), [Stranglethorn Vale](Stranglethorn Vale)**
+** [Stonard](Stonard), [Swamp of Sorrows](Swamp of Sorrows)**
+** [Kargath](Kargath), [Badlands](Badlands)**
+** [Maul'ogg Refuge](Maul'ogg Refuge), [Gillijim's Isle](Gillijim's Isle)**
 
 ### Boat
-  - [Ratchet](Ratchet), [Barrens](Barrens) (*[Maiden's Fancy](Maiden's Fancy)*)**
+** [Ratchet](Ratchet), [Barrens](Barrens) (*[Maiden's Fancy](Maiden's Fancy)*)**
 
 ## Reputation
 Killing the [Bloodsail Buccaneers](Bloodsail Buccaneers) and [Venture Co.](Venture Co.) in Stranglethorn will increase your [reputation](reputation) with the [Steamwheedle Cartel](Steamwheedle Cartel).
@@ -115,6 +115,6 @@ An alternative to killing Bloodsail Buccaneers is to do the repeatable quest [Ca
 |}
 
 ## Patch changes
--  **[Hotfix](https://forum.turtlecraft.gg/viewtopic.php?t=11153) (2023-10-25):** Allowed mounting in Booty Bay.
+- **[Hotfix](https://forum.turtlecraft.gg/viewtopic.php?t=11153) (2023-10-25):** Allowed mounting in Booty Bay.
 
 ## References

@@ -26,7 +26,7 @@ categories: ["Deadwind Pass mobs", "Human characters", "Human ghosts", "Turtle W
 | status | Killable |
 | relatives | Andreon (twin brother) |
 
--Captain Rothynn** is a [human](human) ghost located in the [Master's Cellar](Master's Cellar) in [Deadwind Pass](Deadwind Pass). Along with his twin brother Andreon, he was a part of Karazhan's tower guard, and both were granted a [Mark of Karazhan](Mark of Karazhan) upon being accepted into the guard. (ref: [quest: The Mystery of Karazhan V])
+**Captain Rothynn** is a [human](human) ghost located in the [Master's Cellar](Master's Cellar) in [Deadwind Pass](Deadwind Pass). Along with his twin brother Andreon, he was a part of Karazhan's tower guard, and both were granted a [Mark of Karazhan](Mark of Karazhan) upon being accepted into the guard. (ref: [quest: The Mystery of Karazhan V])
 
 ## Objective of
 - Drops [Mark of Karazhan](Mark of Karazhan) for [quest: The Mystery of Karazhan V] and [quest: The Depths of Karazhan V].

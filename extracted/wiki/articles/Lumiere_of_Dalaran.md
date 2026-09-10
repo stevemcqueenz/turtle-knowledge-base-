@@ -24,7 +24,7 @@ categories: ["Dalaran (kingdom)", "Human characters", "Northwind NPCs", "Turtle 
 | location | Jousting Grounds, Northwind |
 | status | Alive |
 
--Lumiere of Dalaran** is a human located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind). One of the participants in the Northwind jousting tournament representing the [magocracy of Dalaran](Dalaran (kingdom)), he faces off against [Sir Barnabas of Strom](Sir Barnabas of Strom).
+**Lumiere of Dalaran** is a human located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind). One of the participants in the Northwind jousting tournament representing the [magocracy of Dalaran](Dalaran (kingdom)), he faces off against [Sir Barnabas of Strom](Sir Barnabas of Strom).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

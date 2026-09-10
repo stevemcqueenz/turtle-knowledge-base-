@@ -10,7 +10,7 @@ categories: ["Blackstone Island subzones", "Mines", "Stubs", "Turtle WoW content
 ---
 # Black Ash Mine
 
--Black Ash Mine** is an area located at [Blackstone Island](Blackstone Island).
+**Black Ash Mine** is an area located at [Blackstone Island](Blackstone Island).
 
 ## Patch changes
 - (Patch 1.17.1|note=Added.)

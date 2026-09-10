@@ -44,7 +44,7 @@ Now, now. Don't let me wait too much.
 Oho, splendid, darling. The Widow's Frills are especially thick this season, if we didn't need them for now I would make a loveable stew out of them. They're quite delectable, perhaps you can try them yourself once all of this is over. And this comb you've brought - it's from a young woman. Let us not tarry any longer. Now then, to mix this all together...
 
 ## Notes
-  -Speaking with Judith Flenning**
+**Speaking with Judith Flenning**
 <The woman is shaking and distressed.>
 
   > Gossip: *Greetings Judith, I am sorry to bother you again, but do you have something personal from one of your children? It may help me locate them.*

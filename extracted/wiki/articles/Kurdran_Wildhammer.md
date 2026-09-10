@@ -22,7 +22,7 @@ categories: ["Alliance Expedition", "Readable objects", "Stormwind City objects"
 | occupation | Commander of the Gryphon Rider Division |
 | status | Unknown |
 
--Kurdran Wildhammer**, Aerie Peak Dwarf of [Northeron](Northeron), was the proud rider of the gryphon [Sky'ree](Sky'ree) and the commander of the Alliance Expedition's Gryphon Rider Division. He gained an impressive reputation as the master of the skies, with nine dragons on his death toll during the [Second War](Second War). After the war, Kurdran continued to work for the Alliance, acting as a scout searching out the [Bleeding Hollow clan](Bleeding Hollow clan) in Azeroth.
+**Kurdran Wildhammer**, Aerie Peak Dwarf of [Northeron](Northeron), was the proud rider of the gryphon [Sky'ree](Sky'ree) and the commander of the Alliance Expedition's Gryphon Rider Division. He gained an impressive reputation as the master of the skies, with nine dragons on his death toll during the [Second War](Second War). After the war, Kurdran continued to work for the Alliance, acting as a scout searching out the [Bleeding Hollow clan](Bleeding Hollow clan) in Azeroth.
 
 Upon hearing that [Deathwing](Deathwing) had breached the Dark Portal into Draenor, Kurdran was only too eager to serve as scout and warrior for the [Alliance Expedition](Alliance Expedition) to Draenor and commanded the Gryphon Rider Division. Though Kurdran was captured during the raid on Auchindoun, he was rescued by the Alliance and met his vengeance upon those who imprisoned him.
 

@@ -10,6 +10,6 @@ categories: ["Mobs", "Stubs", "Turtles"]
 ---
 # Snapjaw
 
--Snapjaws** are [neutral](neutral) level 30-31 [turtle](turtle)s found in the [Alterac Mountains](Alterac Mountains) and [Hillsbrad Foothills](Hillsbrad Foothills).
+**Snapjaws** are [neutral](neutral) level 30-31 [turtle](turtle)s found in the [Alterac Mountains](Alterac Mountains) and [Hillsbrad Foothills](Hillsbrad Foothills).
 
 The [Albino Snapjaw](Albino Snapjaw), [Hawksbill Snapjaw](Hawksbill Snapjaw), [Leatherback Snapjaw](Leatherback Snapjaw), [Loggerhead Snapjaw](Loggerhead Snapjaw), and [Olive Snapjaw](Olive Snapjaw), a miniature snapjaw, can be obtained as a small pet.

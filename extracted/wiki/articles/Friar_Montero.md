@@ -24,7 +24,7 @@ categories: ["Human characters", "Human ghosts", "Northwind mobs", "Rare elite m
 | location | Saint Mara Abbey, Northwind |
 | status | Killable |
 
--Friar Montero** is a rare elite human ghost found in [Saint Mara Abbey](Saint Mara Abbey) in [Northwind](Northwind).
+**Friar Montero** is a rare elite human ghost found in [Saint Mara Abbey](Saint Mara Abbey) in [Northwind](Northwind).
 
 ## Notable loot
 - [Friar's Signet](Friar's Signet)

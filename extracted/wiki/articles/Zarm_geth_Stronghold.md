@@ -10,14 +10,10 @@ categories: ["Elite areas", "Forts", "Grim Reaches subzones", "Orc territories",
 ---
 # Zarm'geth Stronghold
 
--Zarm'geth Stronghold** is the heart of the [Dragonmaw clan](Dragonmaw clan) in the [Grim Reaches](Grim Reaches), (ref: [quest: The Dragonmaw War]) located in the northern reaches of the region. The most powerful champions of the clan's forces in the Grim Reaches reside here, led by [Commander Korlag Doomsong](Commander Korlag Doomsong).
+**Zarm'geth Stronghold** is the heart of the [Dragonmaw clan](Dragonmaw clan) in the [Grim Reaches](Grim Reaches), (ref: [quest: The Dragonmaw War]) located in the northern reaches of the region. The most powerful champions of the clan's forces in the Grim Reaches reside here, led by [Commander Korlag Doomsong](Commander Korlag Doomsong).
 
 ## NPCs
-- 
-- 
-- 
-
-## Patch changes
+- - - ## Patch changes
 - (Patch 1.18.0|note=Added.)
 
 ## References

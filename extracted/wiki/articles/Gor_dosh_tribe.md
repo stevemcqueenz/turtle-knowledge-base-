@@ -27,13 +27,5 @@ Upon the arrival of the [Kul Tiran Exploratory Fleet](Kul Tiran Exploratory Flee
 
 ## Members
 ### Named
--
-
-### Unnamed
--
--
--
--
--
-
-## References
+- ### Unnamed
+- - - - - ## References

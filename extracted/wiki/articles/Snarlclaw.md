@@ -25,7 +25,7 @@ categories: ["Gilneas mobs", "Turtle WoW content", "Worgen characters"]
 | location | Gilneas |
 | status | Killable |
 
--Snarlclaw** is a worgen found in a cave south of the [Rosewick Plantation](Rosewick Plantation) in [Gilneas](Gilneas). He is responsible for the deaths of [Dominic Larson](Dominic Larson) and his comrades, as well as the wife of [Maxwell Givings](Maxwell Givings).
+**Snarlclaw** is a worgen found in a cave south of the [Rosewick Plantation](Rosewick Plantation) in [Gilneas](Gilneas). He is responsible for the deaths of [Dominic Larson](Dominic Larson) and his comrades, as well as the wife of [Maxwell Givings](Maxwell Givings).
 
 ## Abilities
 - Mind Blast

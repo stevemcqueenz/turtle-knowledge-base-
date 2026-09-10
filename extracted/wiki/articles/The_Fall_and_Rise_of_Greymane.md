@@ -42,7 +42,7 @@ The end of an era is upon us. A darkness has been lifted on this day, and with i
 <His eyes shine with hope, for perhaps the first time in a generation.>
 
 ## Notes
-  -Upon completion**
+**Upon completion**
   **Lord Darius Ravenwood yells:** Tyranny has been defeated this day! Our land has been freed from the evil that has corrupted our forests, and murdered countless innocents. A new king has been crowned, glory to Gilneas!
 
 ## Progression

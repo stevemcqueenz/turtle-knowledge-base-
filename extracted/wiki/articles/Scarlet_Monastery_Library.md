@@ -46,39 +46,24 @@ The Library, the right-most entrance, consists of four sections: the [Huntsman's
 |- valign=top
 |
 - **Huntsman's Cloister**
-  - 
-  -* 
+  -   - * 
 
 |
--  
-- 
-  - 
--  
+- - - *  
 |- valign=top class="alt"
 |
 - **Gallery of Treasures**
 
 |
-- 
--  
--  
-|- valign=top
+- - - |- valign=top
 |
 - **Sanctum of the Fist**
-  - 
-
-|
-- 
-|- valign=top class="alt"
+  - |
+- |- valign=top class="alt"
 |
 - **Athenaeum**
-  - 
-
-|
-- 
--  
--  
-|- valign=top
+  - |
+- - - |- valign=top
 |}
 
 ## Quest guide
@@ -118,4 +103,4 @@ The Library, the right-most entrance, consists of four sections: the [Huntsman's
 
 ## Patch changes
 - (Patch 1.17.2|note=New area and boss added: Brother Wystan, a masterful monk preparing initiates with martial prowess in the hidden chambers of the Library.)
--  **Patch 1.3.0 (2005-03-07):** Capped at ten players.
+- **Patch 1.3.0 (2005-03-07):** Capped at ten players.

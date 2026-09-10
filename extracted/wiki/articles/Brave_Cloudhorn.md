@@ -24,7 +24,7 @@ categories: ["Mulgore NPCs", "Tauren characters", "Turtle WoW content"]
 | location | Red Cloud Roost, Mulgore |
 | status | Alive |
 
--Brave Cloudhorn** is a [tauren](tauren) located patrolling the path to [Red Cloud Roost](Red Cloud Roost) in [Mulgore](Mulgore).
+**Brave Cloudhorn** is a [tauren](tauren) located patrolling the path to [Red Cloud Roost](Red Cloud Roost) in [Mulgore](Mulgore).
 
 ## Patch changes
 - (Patch 1.16.1|note=Added.)

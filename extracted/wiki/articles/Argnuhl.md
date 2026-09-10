@@ -25,7 +25,7 @@ categories: ["Moonwhisper Coast NPCs", "Tauren characters", "Tradeskill vendors"
 | location | Moonhoof Retreat, Moonwhisper Coast |
 | status | Alive |
 
--Argnuhl** is a [tauren](tauren) trade goods vendor located in [Moonhoof Retreat](Moonhoof Retreat) in [Moonwhisper Coast](Moonwhisper Coast).
+**Argnuhl** is a [tauren](tauren) trade goods vendor located in [Moonhoof Retreat](Moonhoof Retreat) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

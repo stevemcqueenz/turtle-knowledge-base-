@@ -24,14 +24,14 @@ categories: ["Draenei characters", "Moonwhisper Coast NPCs", "Quest enders", "Re
 | location | Moro'gai Village, Moonwhisper Coast |
 | status | Alive |
 
--Elder Sage Azh'okar** is a [draenei](draenei) reagents vendor located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Elder Sage Azh'okar** is a [draenei](draenei) reagents vendor located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: Silken Song] 
 - [quest: More Silk for the Wounded] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Speak, Parash'ka. I have crucial duties to attend to and no time to waste on idle chitchat.
 
 ## Patch changes

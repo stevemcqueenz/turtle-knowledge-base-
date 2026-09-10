@@ -26,7 +26,7 @@ categories: ["Bosses", "Human characters", "Human ghosts", "Shadowfang Keep mobs
 | status | Killable |
 | instance | Shadowfang Keep |
 
--Prelate Ironmane** is a boss in [Shadowfang Keep](Shadowfang Keep). In life, he was a most pious man and a close friend of [Father Brightcopf](Father Brightcopf) of [Glenshire](Glenshire), who would often visit Silverlaine Keep to listen to his sermons. (ref:  [22D] [Too Late to Prelate](Too Late to Prelate))
+**Prelate Ironmane** is a boss in [Shadowfang Keep](Shadowfang Keep). In life, he was a most pious man and a close friend of [Father Brightcopf](Father Brightcopf) of [Glenshire](Glenshire), who would often visit Silverlaine Keep to listen to his sermons. (ref:  [22D] [Too Late to Prelate](Too Late to Prelate))
 
 ## Abilities
 - Smite
@@ -34,14 +34,14 @@ categories: ["Bosses", "Human characters", "Human ghosts", "Shadowfang Keep mobs
 - Drain Mana
 
 ## Quotes
-  -Aggro**
+**Aggro**
   What, you come for confession?
 
-  -Death**
+**Death**
   Free... At last...
 
 ## Objective of
--  [22D] [Too Late to Prelate](Too Late to Prelate)
+- [22D] [Too Late to Prelate](Too Late to Prelate)
 
 ## Loot
 - [Mitre of the First Light](Mitre of the First Light)

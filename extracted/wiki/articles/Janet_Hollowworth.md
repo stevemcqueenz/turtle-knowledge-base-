@@ -25,7 +25,7 @@ categories: ["Blacksmithing vendors", "Blacksmiths", "Human characters", "Quest 
 | status | Alive |
 | gender | Female |
 
--Janet Hollowworth** is a [human](human) blacksmithing vendor and [quest giver](quest giver) located in [Sorrowguard Keep](Sorrowguard Keep) in the [Swamp of Sorrows](Swamp of Sorrows).
+**Janet Hollowworth** is a [human](human) blacksmithing vendor and [quest giver](quest giver) located in [Sorrowguard Keep](Sorrowguard Keep) in the [Swamp of Sorrows](Swamp of Sorrows).
 
 ## Quests
 - [quest: Iron to Sorrowguard] 
@@ -33,7 +33,7 @@ categories: ["Blacksmithing vendors", "Blacksmiths", "Human characters", "Quest 
 - [quest: Swords to Sorrowguard] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Greetings <name>
 
 ## Patch changes

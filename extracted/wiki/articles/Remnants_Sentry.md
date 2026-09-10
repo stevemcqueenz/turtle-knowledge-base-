@@ -24,7 +24,7 @@ categories: ["Human characters", "Lordaeron (kingdom)", "Tirisfal Glades mobs", 
 | gender | Male |
 | location | Shatteridge Tower, Tirisfal Glades |
 
--Remnants Sentries** are humans found at the [Shatteridge Tower](Shatteridge Tower) in [Tirisfal Glades](Tirisfal Glades).
+**Remnants Sentries** are humans found at the [Shatteridge Tower](Shatteridge Tower) in [Tirisfal Glades](Tirisfal Glades).
 
 ## Objective of
 - [quest: In the Dark]

@@ -10,4 +10,4 @@ categories: ["Azshara subzones", "Elven ruins", "Pages with broken file links", 
 ---
 # Hetaera's Clutch
 
--Hetaera's Clutch** was a large underwater temple of Elune located in the [Bay of Storms](Bay of Storms), off the coast of [Azshara](Azshara). It was populated by the children of [Hetaera](Hetaera), the [hydra](hydra)s. Hetaera herself was found swimming the waters a bit north of the Clutch, sometimes sitting on an island there.
+**Hetaera's Clutch** was a large underwater temple of Elune located in the [Bay of Storms](Bay of Storms), off the coast of [Azshara](Azshara). It was populated by the children of [Hetaera](Hetaera), the [hydra](hydra)s. Hetaera herself was found swimming the waters a bit north of the Clutch, sometimes sitting on an island there.

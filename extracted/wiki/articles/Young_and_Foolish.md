@@ -44,21 +44,21 @@ So we were right, this would've been valuable information if we didn't already r
 Sorry about that, <name>. I will be needing your help once more.
 
 ## Notes
-  -Speaking with Foreman Oslow**
+**Speaking with Foreman Oslow**
 I don't have much time for idle talk, <name>. I've got to get this bridge rebuilt before the rains come. I've finished every project on-time and under budget and I'm not about to start slipping now.
 
   > Gossip: *Anything strange happen recently?*
 
   Yes. A caravan with men and women dressed in scarlet passed through here. Many of our young ones followed them.
 
-  -Speaking with Dorin Songblade**
+**Speaking with Dorin Songblade**
 I am really busy crafting this armor, so make it quick!
 
   > Gossip: *Anything strange happen recently?*
 
   Aye, our young ones left with them. Can you blame them? Look at this place.
 
-  -Speaking with Magistrate Solomon**
+**Speaking with Magistrate Solomon**
 Who is this <class> who goes before the Court of Lakeshire in the Kingdom of Stormwind? State your business within this township, <race>. The orc threat to the Kingdom is far too great to squander time in idle conversation.
 
   > Gossip: *Anything strange happen recently?*

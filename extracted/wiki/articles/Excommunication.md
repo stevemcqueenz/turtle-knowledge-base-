@@ -10,7 +10,7 @@ categories: ["Lore", "Of Blood and Honor", "Paladins"]
 ---
 # Excommunication
 
--Excommunication** was a rare and harsh punishment that stripped a [paladin](paladin) of their [Light](Light)-given powers, banished them from the paladinship, and sent them into exile. Though it had only been used a few times, every paladin lived in mortal fear of it. (ref: *[Of Blood and Honor](Of Blood and Honor)*, chapter 5)
+**Excommunication** was a rare and harsh punishment that stripped a [paladin](paladin) of their [Light](Light)-given powers, banished them from the paladinship, and sent them into exile. Though it had only been used a few times, every paladin lived in mortal fear of it. (ref: *[Of Blood and Honor](Of Blood and Honor)*, chapter 5)
 
 [Tirion Fordring](Tirion Fordring) was excommunicated and exiled by [Uther the Lightbringer](Uther the Lightbringer) after he had assaulted Alliance soldiers during the capture of the orc [Eitrigg](Eitrigg). When his Light-given powers were stripped from his body with a sweeping motion of Uther's hand, Tirion felt panic and despair overwhelm him as the grace and strengthening energies of the Light fled his body, he felt as if he had been wrapped in darkness and cast down into oblivion, and then observed the world darkening around him despite the ambient light not fading. He realized that he could no longer use his sacred powers, and was unable to withstand the raging despair and hopelessness that continued to wash over him in waves. (ref: 
 

@@ -28,7 +28,7 @@ categories: ["Gilneas (kingdom)", "Gilneas NPCs", "Human characters", "Quest giv
 | relatives | Elena (daughter) |
 | status | Alive |
 
--Lord Darius Ravenwood** is a [human](human) [quest giver](quest giver) located in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
+**Lord Darius Ravenwood** is a [human](human) [quest giver](quest giver) located in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
 
 ## Quests
 - [quest: The Wall Comes Crashing Down] 
@@ -38,7 +38,7 @@ categories: ["Gilneas (kingdom)", "Gilneas NPCs", "Human characters", "Quest giv
 - [quest: The Fall and Rise of Greymane] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Gilneas has seen darker days. But with newfound allies, such as you, hope remains. I feared the Alliance would've abandoned us, but here we stand. I will bend no knee to these Alteraci scum.
 
 We will prevail.

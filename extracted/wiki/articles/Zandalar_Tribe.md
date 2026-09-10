@@ -139,24 +139,9 @@ There is also a class-specific [Zul'Gurub Trinket](Zul'Gurub Trinket) by defeati
 
 ## Members
 ### Named
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-### Unnamed
-- 
-- 
-- 
-- 
-
-## Patch changes
--  **Patch 1.7.0 (2005-09-13):** Added.
+- - - - - - - - - ### Unnamed
+- - - - ## Patch changes
+- **Patch 1.7.0 (2005-09-13):** Added.
 
 ## References
 ## External links

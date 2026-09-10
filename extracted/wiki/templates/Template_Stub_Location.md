@@ -16,7 +16,7 @@ categories: ["Article management tags", "Pages with broken file links", "Stubs"]
 | type = a [location](location)
 | section = {}
 | info =
--You might want to import some information from a database site - see **[Fansites](Fansites)** for listings.
+- You might want to import some information from a database site - see **[Fansites](Fansites)** for listings.
 {{#if:{}|
 - Reason: {}}}
 }}<includeonly>{{#if:{}||}}</includeonly>

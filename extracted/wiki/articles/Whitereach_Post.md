@@ -23,12 +23,7 @@ categories: ["Camps", "Pages with broken file links", "Thousand Needles subzones
 | loc | Thousand Needles |
 | status | Active |
 
--Whitereach Post** is a small [Horde](Horde) camp along the road near [Camp E'thok](Camp E'thok) in [Thousand Needles](Thousand Needles). [21, 32] 
+**Whitereach Post** is a small [Horde](Horde) camp along the road near [Camp E'thok](Camp E'thok) in [Thousand Needles](Thousand Needles). [21, 32] 
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
--
+- - - - - -

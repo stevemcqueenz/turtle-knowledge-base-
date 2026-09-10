@@ -10,4 +10,4 @@ categories: ["Doors", "Eastern Plaguelands subzones", "Pages with broken file li
 ---
 # Eastwall Gate
 
--Eastwall Gate** is the side entrance to the city of [Stratholme](Stratholme), located in the [Eastern Plaguelands](Eastern Plaguelands).
+**Eastwall Gate** is the side entrance to the city of [Stratholme](Stratholme), located in the [Eastern Plaguelands](Eastern Plaguelands).

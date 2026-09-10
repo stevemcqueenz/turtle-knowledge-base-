@@ -18,7 +18,7 @@ categories: ["Widget methods"]
 This function sets a tooltip widget to display information for the given unit's given inventory slot.
 
 ----
-  -*Arguments*
+***Arguments*
 **
 
   ("unit", slot {, nameOnly})
@@ -27,7 +27,7 @@ This function sets a tooltip widget to display information for the given unit's 
   ;nameOnly : Unknown - unknown argument
 
 ----
-  -*Returns*
+***Returns*
 **
 
   hasItem, hasCooldown
@@ -36,7 +36,7 @@ This function sets a tooltip widget to display information for the given unit's 
   ;repairCost : Number - cost of repairing item 
 
 ----
-  -*Example*
+***Example*
 **
 <syntaxhighlight lang="lua">
  -- See if the player has head gear and if it is broken
@@ -52,7 +52,7 @@ This function sets a tooltip widget to display information for the given unit's 
  end
 </syntaxhighlight>
 ----
-  -*Source***
+***Source***
 
 This information was obtained via a Google cached page of a Thottbot index of a now expired official US beta forum post by Angarth.  It appears to still be correct.
 

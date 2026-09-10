@@ -24,10 +24,10 @@ categories: ["Goblin characters", "Quest givers", "Tel'Abim NPCs"]
 | location | Tel Co. Basecamp, Tel'Abim |
 | status | Alive |
 
--Leezza Fraxtoggle** is a [goblin](goblin) quest giver located in [Tel Co. Basecamp](Tel Co. Basecamp) in [Tel'Abim](Tel'Abim).
+**Leezza Fraxtoggle** is a [goblin](goblin) quest giver located in [Tel Co. Basecamp](Tel Co. Basecamp) in [Tel'Abim](Tel'Abim).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 What do you want? I wouldn't be sticking my nose where it didn't belong if I was you.
 
 ## Quests
@@ -36,4 +36,4 @@ What do you want? I wouldn't be sticking my nose where it didn't belong if I was
 - [quest: Gargantuan Information!] 
 
 ## Patch changes
--  **[Patch 1.16.4](Patch 1.16.4) (2022-12-20):** Added.
+- **[Patch 1.16.4](Patch 1.16.4) (2022-12-20):** Added.

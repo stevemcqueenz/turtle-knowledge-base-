@@ -10,4 +10,4 @@ categories: []
 ---
 # Server:Ambershire EU
 
--Ambershire** is a PvM server that was launched on August 17th, 2025.
+**Ambershire** is a PvM server that was launched on August 17th, 2025.

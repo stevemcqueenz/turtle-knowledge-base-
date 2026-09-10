@@ -26,13 +26,13 @@ categories: ["Bosses", "Gilneas City mobs", "Human characters", "Turtle WoW cont
 | status | Killable |
 | instance | Gilneas City |
 
--Matthias Holtz** is a boss in [Gilneas City](Gilneas City). He and his troops have put the city entrance district of Gilneas City under lockdown after it was overran by the worgen of the Darkpelt pack and [Packmaster Ragetooth](Packmaster Ragetooth).
+**Matthias Holtz** is a boss in [Gilneas City](Gilneas City). He and his troops have put the city entrance district of Gilneas City under lockdown after it was overran by the worgen of the Darkpelt pack and [Packmaster Ragetooth](Packmaster Ragetooth).
 
 ## Quotes
-  -Aggro**
+**Aggro**
   This district is currently on lockdown!
 
-  -Death**
+**Death**
   Foolish interloper, you do not belong here...
 
 ## Loot

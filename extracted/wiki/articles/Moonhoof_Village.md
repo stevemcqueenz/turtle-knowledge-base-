@@ -30,14 +30,14 @@ categories: ["Horde quest hubs", "Horde settlements", "Moonwhisper Coast subzone
 | boat | Yes |
 | status | Active |
 
--Moonhoof Village** is a [tauren](tauren) village located on the eastern shores of [Moonwhisper Coast](Moonwhisper Coast), just south of [Tyrandas](Tyrandas). It is home to the [Moonhoof tribe](Moonhoof tribe).
+**Moonhoof Village** is a [tauren](tauren) village located on the eastern shores of [Moonwhisper Coast](Moonwhisper Coast), just south of [Tyrandas](Tyrandas). It is home to the [Moonhoof tribe](Moonhoof tribe).
 
 ## Travel Connections
 ### Flight
-  - [Moro'gai Village](Moro'gai Village), **Moonwhisper Coast****
+** [Moro'gai Village](Moro'gai Village), **Moonwhisper Coast****
 
 ### Boat
-  - [Shadowprey Village](Shadowprey Village), [Desolace](Desolace)**
+** [Shadowprey Village](Shadowprey Village), [Desolace](Desolace)**
 
 ## Inhabitants
 ## Patch changes

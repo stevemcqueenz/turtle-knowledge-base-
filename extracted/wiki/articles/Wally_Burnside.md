@@ -24,7 +24,7 @@ categories: ["Human characters", "Kul Tiran Exploratory Fleet", "Lapidis Isle NP
 | location | Crown Island, Lapidis Isle |
 | status | Alive |
 
--Wally Burnside** is a [human](human) quest giver located on [Crown Island](Crown Island) in [Lapidis Isle](Lapidis Isle). A crewman aboard a Kul Tiran vessel, the *Tidemaster*, he was shipwrecked on Crown Island when is was scuttled in [Shank's Reef](Shank's Reef) on Lapidis Isle after a battle against the [Southsea Freebooters](Southsea Freebooters).
+**Wally Burnside** is a [human](human) quest giver located on [Crown Island](Crown Island) in [Lapidis Isle](Lapidis Isle). A crewman aboard a Kul Tiran vessel, the *Tidemaster*, he was shipwrecked on Crown Island when is was scuttled in [Shank's Reef](Shank's Reef) on Lapidis Isle after a battle against the [Southsea Freebooters](Southsea Freebooters).
 
 ## Quests
 - [quest: Lost and Stranded] 

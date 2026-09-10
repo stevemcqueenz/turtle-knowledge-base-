@@ -25,16 +25,16 @@ categories: ["Mulgore NPCs", "Quest enders", "Tauren characters", "Turtle WoW co
 | status | Alive |
 | relatives | Ulf (brother) |
 
--Hulfnar Stonetotem** is a [tauren](tauren) located in [Bloodhoof Village](Bloodhoof Village) in [Mulgore](Mulgore). He is the younger brother of [Ulf Stonetotem](Ulf Stonetotem) and hails from [Moonhoof Village](Moonhoof Village), having traveled to Mulgore to train as a warrior. (ref: [quest: Brother's Duty]) He will occasionally fight [Thontek Rumblehoof](Thontek Rumblehoof) in a training ring under the direction of [Krang Stonehoof](Krang Stonehoof).
+**Hulfnar Stonetotem** is a [tauren](tauren) located in [Bloodhoof Village](Bloodhoof Village) in [Mulgore](Mulgore). He is the younger brother of [Ulf Stonetotem](Ulf Stonetotem) and hails from [Moonhoof Village](Moonhoof Village), having traveled to Mulgore to train as a warrior. (ref: [quest: Brother's Duty]) He will occasionally fight [Thontek Rumblehoof](Thontek Rumblehoof) in a training ring under the direction of [Krang Stonehoof](Krang Stonehoof).
 
 ## Quests
 - [quest: Brother's Duty] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Rigorous training builds muscle, tenacity and stamina. It we want to protect our sacred Mulgore, we need to stay strong - no, become even stronger!
 
-  -Fight with Thontek**
+**Fight with Thontek**
   **Krang Stonehoof says:** [Taurahe] Hulfnar! Thontek! Stand and address me.
   **Krang Stonehoof says:** [Taurahe] I want you both to demonstrate the techniques I have taught you for the benefit of the younger students here. Ready... begin!
   **Hulfnar Stonetotem says:** [Taurahe] Start running!

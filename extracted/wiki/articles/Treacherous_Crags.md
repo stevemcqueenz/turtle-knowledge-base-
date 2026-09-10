@@ -13,10 +13,7 @@ categories: ["Balor subzones", "Cliffs", "Turtle WoW content"]
 The **Treacherous Crags** are a set of steep cliffs to the south of the island of [Balor](Balor) inhabited by coyotes. A side entrance to [Stormwrought Ruins](Stormwrought Ruins) can be found here, which can be unlocked with the [Key to Stonewrought Castle](Key to Stonewrought Castle).
 
 ## NPCs
-- 
-- 
-
-## Gallery
+- - ## Gallery
 <gallery>
 Stormwrought Side Entrance.png|The side entrance into Stormwrought Descent.
 </gallery>

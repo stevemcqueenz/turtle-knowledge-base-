@@ -25,7 +25,7 @@ categories: ["Scholars", "Shadow Council", "Stormwrought Ruins mobs", "Tauren ch
 | location | Stormwrought Ruins |
 | status | Killable |
 
--Shadow Council Researchers** are [tauren](tauren) located in [Stormwrought Ruins](Stormwrought Ruins).
+**Shadow Council Researchers** are [tauren](tauren) located in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

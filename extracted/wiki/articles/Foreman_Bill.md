@@ -25,7 +25,7 @@ categories: ["Foremen", "Human characters", "Lordaeron (kingdom)", "Tirisfal Gla
 | location | The Garrick Stead, Tirisfal Glades |
 | status | Alive |
 
--Foreman Bill** is a [human](human) foreman located at the [Garrick Stead](Garrick Stead) in [Tirisfal Glades](Tirisfal Glades).
+**Foreman Bill** is a [human](human) foreman located at the [Garrick Stead](Garrick Stead) in [Tirisfal Glades](Tirisfal Glades).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

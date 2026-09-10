@@ -22,16 +22,16 @@ Return information for a macro.
 ## Returns
   ; name, iconTextureID, body, local
 
-  - *name***
+** *name***
    The name of the macro
 
-  - *iconTextureID***
+** *iconTextureID***
    The texture of the macro
 
-  - *body***
+** *body***
    The contents of the macro
 
-  - *local***
+** *local***
    unknown; apears to be the numeric value 1.
 
 ## Example

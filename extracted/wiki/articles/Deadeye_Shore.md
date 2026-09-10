@@ -10,4 +10,4 @@ categories: ["Durotar subzones", "Orc territories", "Pages with broken file link
 ---
 # Deadeye Shore
 
--Deadeye Shore** is a section of seashore on the eastern coast of [Durotar](Durotar), directly east of [Drygulch Ravine](Drygulch Ravine). It is named after [Kilrogg Deadeye](Kilrogg Deadeye), [orcish](orcish) hero and chieftain of the [Bleeding Hollow clan](Bleeding Hollow clan).
+**Deadeye Shore** is a section of seashore on the eastern coast of [Durotar](Durotar), directly east of [Drygulch Ravine](Drygulch Ravine). It is named after [Kilrogg Deadeye](Kilrogg Deadeye), [orcish](orcish) hero and chieftain of the [Bleeding Hollow clan](Bleeding Hollow clan).

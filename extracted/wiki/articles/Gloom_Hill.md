@@ -10,15 +10,15 @@ categories: ["Scarlet Enclave subzones", "Turtle WoW content"]
 ---
 # Gloom Hill
 
--Gloom Hill** is a plateau located in the [Scarlet Enclave](Scarlet Enclave) to the west of [Havenshire](Havenshire). [A cave](Noxious Pass) leads to the [Noxious Glade](Noxious Glade) in the [Eastern Plaguelands](Eastern Plaguelands), though it has been caved in. Regardless, nerubians burrow through the pass to attempt to attack the Enclave, where they are met with Scarlet defenders.
+**Gloom Hill** is a plateau located in the [Scarlet Enclave](Scarlet Enclave) to the west of [Havenshire](Havenshire). [A cave](Noxious Pass) leads to the [Noxious Glade](Noxious Glade) in the [Eastern Plaguelands](Eastern Plaguelands), though it has been caved in. Regardless, nerubians burrow through the pass to attempt to attack the Enclave, where they are met with Scarlet defenders.
 
 ## NPCs
--  [Crypt Slayer](Crypt Slayer)
--  [Scarlet Paladin](Scarlet Paladin)
--  [Scarlet Cavalier](Scarlet Cavalier)
--  [Scarlet Invoker](Scarlet Invoker)
--  [Scarlet Medic](Scarlet Medic)
--  [Scarlet Hunter](Scarlet Hunter)
+- [Crypt Slayer](Crypt Slayer)
+- [Scarlet Paladin](Scarlet Paladin)
+- [Scarlet Cavalier](Scarlet Cavalier)
+- [Scarlet Invoker](Scarlet Invoker)
+- [Scarlet Medic](Scarlet Medic)
+- [Scarlet Hunter](Scarlet Hunter)
   - [Scarlet Hound](Scarlet Hound)
 
 ## Patch changes

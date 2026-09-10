@@ -24,14 +24,14 @@ categories: ["Engineers", "Gnome characters", "Quest givers", "Stonetalon Mounta
 | location | Bael Hardul, Stonetalon Mountains |
 | status | Alive |
 
--Engineer Tansi Sparkfuse** is a [gnome](gnome) [quest giver](quest giver) located in [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains).
+**Engineer Tansi Sparkfuse** is a [gnome](gnome) [quest giver](quest giver) located in [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains).
 
 ## Quests
 - [quest: The Sputtervalve Fix] 
 - [quest: The Fixed Sputtervalve Conductor] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The life of an engineer, I thought I would be doing invention, but I mostly am a glorified mechanic helping fix broken devices and machinery.
 
 Oh well, atleast I'm working with tools.

@@ -24,7 +24,7 @@ categories: ["Dun Morogh NPCs", "Dwarf characters", "Quest givers", "Turtle WoW 
 | location | Dun Morogh |
 | status | Alive |
 
--Mountaineer Granitebeard** is a [dwarf](dwarf) [quest giver](quest giver) located at the [Ironforge Airfields](Ironforge Airfields) in [Dun Morogh](Dun Morogh).
+**Mountaineer Granitebeard** is a [dwarf](dwarf) [quest giver](quest giver) located at the [Ironforge Airfields](Ironforge Airfields) in [Dun Morogh](Dun Morogh).
 
 ## Quests
 - [quest: The Frostmane War] 

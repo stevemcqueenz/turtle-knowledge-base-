@@ -24,7 +24,7 @@ categories: ["Durotar", "Kalimdor", "Starting areas", "Turtle WoW content"]
 | major | Razor Hill, Sen'jin Village, Sparkwater Port |
 | minor | Tiragarde Keep, The Den |
 
--Durotar** lies on the eastern coast of [Kalimdor](Kalimdor). It borders [the Barrens](Barrens) to the west and the coastal lands of [Azshara](Azshara) to the north. The land of Durotar is rocky, and the soil is cracked and red, not unlike the [orc](orc)s' homeland of [Draenor](Draenor). The land has many crags and canyons, where various dangerous creatures take residence. It is a harsh land to survive in; it is very dry and hot, and the vegetation and freshwater access is sparse. The orcs, however, see a harsh beauty in the land that reminds them of their home world. Durotar is a proving ground for young orcs, who are sent to the [Valley of Trials](Valley of Trials) to complete several rites of passage before they are considered fit for the challenges that lie ahead. Durotar is the new homeland of the orcs and the site of the orcs' principal city of [Orgrimmar](Orgrimmar). While the orcs founded their city of Orgrimmar here, Durotar has become something of a haven for all of the Horde races, especially the [Darkspear](Darkspear tribe) [jungle troll](jungle troll)s.
+**Durotar** lies on the eastern coast of [Kalimdor](Kalimdor). It borders [the Barrens](Barrens) to the west and the coastal lands of [Azshara](Azshara) to the north. The land of Durotar is rocky, and the soil is cracked and red, not unlike the [orc](orc)s' homeland of [Draenor](Draenor). The land has many crags and canyons, where various dangerous creatures take residence. It is a harsh land to survive in; it is very dry and hot, and the vegetation and freshwater access is sparse. The orcs, however, see a harsh beauty in the land that reminds them of their home world. Durotar is a proving ground for young orcs, who are sent to the [Valley of Trials](Valley of Trials) to complete several rites of passage before they are considered fit for the challenges that lie ahead. Durotar is the new homeland of the orcs and the site of the orcs' principal city of [Orgrimmar](Orgrimmar). While the orcs founded their city of Orgrimmar here, Durotar has become something of a haven for all of the Horde races, especially the [Darkspear](Darkspear tribe) [jungle troll](jungle troll)s.
 
 ## Geography
 There are no [dungeon](dungeon)s, [raid dungeon](raid dungeon)s, [micro dungeon](micro dungeon)s, or [battleground](battleground)s in Durotar. However, [Ragefire Chasm](Ragefire Chasm) can be found in the Horde capital city, [Orgrimmar](Orgrimmar), which is located in this zone.
@@ -114,23 +114,23 @@ The Horde capital city, [Orgrimmar](Orgrimmar), is located in this zone, and is 
   - [Simple Wood Tree](Simple Wood Tree)
 
 ## Wild creatures
--[Boar](Boar)s
--[Centaur](Centaur)s
--[Crab](Crab)s
--[Crocolisk](Crocolisk)s
--[Grell](Grell)s
--[Harpies](Harpy)
--[Makrura](Makrura)s
--[Quilboar](Quilboar)s
--[Raptor](Raptor)s
--[Scorpid](Scorpid)s
--[Shark](Shark)s
--[Thunder lizard](Thunder lizard)s
--[Tiger](Tiger)s
+- [Boar](Boar)s
+- [Centaur](Centaur)s
+- [Crab](Crab)s
+- [Crocolisk](Crocolisk)s
+- [Grell](Grell)s
+- [Harpies](Harpy)
+- [Makrura](Makrura)s
+- [Quilboar](Quilboar)s
+- [Raptor](Raptor)s
+- [Scorpid](Scorpid)s
+- [Shark](Shark)s
+- [Thunder lizard](Thunder lizard)s
+- [Tiger](Tiger)s
 
 ## Patch changes
 - (Patch 1.16.0|note=[Sparkwater Port](Sparkwater Port) added.)
--  **Patch 1.7.0 (2005-09-13):** Entering the zeppelin tower at Durotar no longer incorrectly flags you as being in the Valley of Strength.
--  **Patch 1.6.0 (2005-07-12):**
+- **Patch 1.7.0 (2005-09-13):** Entering the zeppelin tower at Durotar no longer incorrectly flags you as being in the Valley of Strength.
+- **Patch 1.6.0 (2005-07-12):**
   - Durotar has been converted over to the new graveyard system. The system will place your character's spirit at the closest allowed graveyard in the zone.
   - A Horde-only graveyard has been added in the northern section of Durotar, just to the south of Orgrimmar. In addition to serving northern Durotar, Horde characters dying in Orgrimmar, The Hall of Legends and Ragefire Chasm will use this new graveyard. Alliance characters dying in Durotar will continue to only use the Razor Hill graveyard.

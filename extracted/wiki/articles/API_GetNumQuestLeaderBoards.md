@@ -14,14 +14,14 @@ This function returns up to 3 values:
  local numQuestLogLeaderBoards = GetNumQuestLogLeaderBoards([questID])
 ----
 
-  - *Arguments***
+** *Arguments***
 
   ; questID
    Identifier of the quest. If not provided, default to the currently selected Quest, via [SelectQuestLogEntry()](API SelectQuestLogEntry).
 
 ----
 
-  - *Return values***
+** *Return values***
 
   ; numQuestLogLeaderBoards
    Integer - The number of objectives this quest possesses.  (Can be 0.)

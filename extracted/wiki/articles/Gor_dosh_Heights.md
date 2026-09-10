@@ -13,12 +13,12 @@ categories: ["Lapidis Isle subzones", "Ogre territories", "Turtle WoW content"]
 The **Gor'dosh Heights** are the home of the [Gor'dosh](Gor'dosh) ogres in [Lapidis Isle](Lapidis Isle), who first established themselves on the island under the leadership of the Tyrant King, [Brog'dosh](Tyrant King Brog'dosh).
 
 ## NPCs
--  [Tyrant King Brog'dosh](Tyrant King Brog'dosh)
--  [Gor'dosh Ogre](Gor'dosh Ogre)
--  [Gor'dosh Brute](Gor'dosh Brute)
--  [Gor'dosh Shaman](Gor'dosh Shaman)
--  [Gor'dosh Firethrower](Gor'dosh Firethrower)
--  [Gor'dosh Butcher](Gor'dosh Butcher)
+- [Tyrant King Brog'dosh](Tyrant King Brog'dosh)
+- [Gor'dosh Ogre](Gor'dosh Ogre)
+- [Gor'dosh Brute](Gor'dosh Brute)
+- [Gor'dosh Shaman](Gor'dosh Shaman)
+- [Gor'dosh Firethrower](Gor'dosh Firethrower)
+- [Gor'dosh Butcher](Gor'dosh Butcher)
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

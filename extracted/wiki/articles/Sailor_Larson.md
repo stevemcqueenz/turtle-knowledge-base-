@@ -24,13 +24,13 @@ categories: ["Human characters", "Kul Tiran Exploratory Fleet", "Lapidis Isle NP
 | location | Caelan's Rest, Lapidis Isle |
 | status | Alive |
 
--Sailor Larson** is a [human](human) [quest giver](quest giver) located in [Caelan's Rest](Caelan's Rest) in [Lapidis Isle](Lapidis Isle).
+**Sailor Larson** is a [human](human) [quest giver](quest giver) located in [Caelan's Rest](Caelan's Rest) in [Lapidis Isle](Lapidis Isle).
 
 ## Quests
 - [quest: Southsea Reserve] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The Marines usually get all the credit, but we do all of the hard work.
 
 ## Patch changes

@@ -10,6 +10,6 @@ categories: ["Basilisks", "Craters", "Pages with broken file links", "Stubs", "T
 ---
 # Weazel's Crater
 
--Weazel's Crater** is a large, deep crater located in the northern part of the [Shimmering Flats](Shimmering Flats). Its origins are mysterious, but its name suggests either who found it or who created it.  Due to the fact that there are often goblin and gnome races around the area in highly dangerous cars (as seen by the many bits of rubble and craters scattered about) perhaps this is a result from a rather unstable invention.
+**Weazel's Crater** is a large, deep crater located in the northern part of the [Shimmering Flats](Shimmering Flats). Its origins are mysterious, but its name suggests either who found it or who created it.  Due to the fact that there are often goblin and gnome races around the area in highly dangerous cars (as seen by the many bits of rubble and craters scattered about) perhaps this is a result from a rather unstable invention.
 
 It's currently inhabited by Saltstone [basilisk](basilisk)s.

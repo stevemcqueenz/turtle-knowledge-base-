@@ -10,7 +10,7 @@ categories: ["Short stories"]
 ---
 # A Good Day
 
--*A Good Day*** is a short story and audiobook written by Voji and published as an Everlook Broadcasting Co. Radio Play Series. (ref: [A GOOD DAY — Everlook Broadcasting Co. Radio Play Series](https://www.youtube.com/watch?v=u90BCZfygz0))
+***A Good Day*** is a short story and audiobook written by Voji and published as an Everlook Broadcasting Co. Radio Play Series. (ref: [A GOOD DAY — Everlook Broadcasting Co. Radio Play Series](https://www.youtube.com/watch?v=u90BCZfygz0))
 
 ## Characters
 {|

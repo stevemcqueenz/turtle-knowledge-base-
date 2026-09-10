@@ -23,7 +23,7 @@ categories: ["Deadwind Pass", "Dungeons", "Karazhan Crypt", "Turtle WoW content"
 | key | Karazhan Crypt Key |
 | bosses |  |
 
--Karazhan Crypt** is an instance dungeon located in [Deadwind Pass](Deadwind Pass). Something is twisting the dead back to life in the forlorn catacombs, find the source so the dead may rest again.
+**Karazhan Crypt** is an instance dungeon located in [Deadwind Pass](Deadwind Pass). Something is twisting the dead back to life in the forlorn catacombs, find the source so the dead may rest again.
 
 ## Geography
 <gallery>
@@ -78,8 +78,8 @@ Similar to Dire Maul North or the Scholomance, the instance portal to Karazhan C
 |}
 
 ## See also
--[Lower Karazhan Halls](Lower Karazhan Halls) - The 10-player raid instance adjacent to Karazhan Crypt
--[Tower of Karazhan](Tower of Karazhan) - The 40-player raid instance adjacent to Karazhan Crypt
+- [Lower Karazhan Halls](Lower Karazhan Halls) - The 10-player raid instance adjacent to Karazhan Crypt
+- [Tower of Karazhan](Tower of Karazhan) - The 40-player raid instance adjacent to Karazhan Crypt
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

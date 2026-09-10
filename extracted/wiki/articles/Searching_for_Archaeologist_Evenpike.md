@@ -38,8 +38,8 @@ You will receive:
 The icy cold of the cave has preserved Evenpike’s body and halted decomposition. You were sadly too late.
 
 ## Progression
-1.[quest: Searching for Archaeologist Evenpike]
-1.[quest: The Shattered Disc]
+1. [quest: Searching for Archaeologist Evenpike]
+1. [quest: The Shattered Disc]
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

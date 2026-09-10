@@ -10,4 +10,4 @@ categories: ["Forsaken territories", "Pages with broken file links", "Spiders", 
 ---
 # Venomweb Vale
 
--Venomweb Vale** is a wide valley located in eastern [Tirisfal Glades](Tirisfal Glades), just south of the [Scarlet Monastery](Scarlet Monastery). While the vale used to be a haven for hunting deer and rabbits, its trees verdant and the grass green, it is now a tainted place full of poisonous and deadly [spider](spider)s which give the vale its new name. The leader of the spiders here is [Sri'Skulk](Sri'Skulk).
+**Venomweb Vale** is a wide valley located in eastern [Tirisfal Glades](Tirisfal Glades), just south of the [Scarlet Monastery](Scarlet Monastery). While the vale used to be a haven for hunting deer and rabbits, its trees verdant and the grass green, it is now a tainted place full of poisonous and deadly [spider](spider)s which give the vale its new name. The leader of the spiders here is [Sri'Skulk](Sri'Skulk).

@@ -10,7 +10,7 @@ categories: ["Gilneas City shops", "Turtle WoW content"]
 ---
 # Huntsman's Axe
 
--Huntsman's Axe** is a shop located in [Gilneas City](Gilneas City).
+**Huntsman's Axe** is a shop located in [Gilneas City](Gilneas City).
 
 ## Patch changes
 - (Patch 1.17.0|note=Added.)

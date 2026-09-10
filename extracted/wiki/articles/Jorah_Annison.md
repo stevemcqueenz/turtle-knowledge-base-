@@ -25,7 +25,7 @@ categories: ["Cartographers", "Forsaken characters", "Quest givers", "Undercity 
 | location | Magic Quarter, Undercity |
 | status | Active |
 
--Jorah Annison** is a [Forsaken](Forsaken) located in the [Magic Quarter](Magic Quarter) in the [Undercity](Undercity). He works as a cartographer. (ref: [quest: Tome of the Cabal|class=warlock])
+**Jorah Annison** is a [Forsaken](Forsaken) located in the [Magic Quarter](Magic Quarter) in the [Undercity](Undercity). He works as a cartographer. (ref: [quest: Tome of the Cabal|class=warlock])
 
 ## Quests
 - [quest: Tome of the Cabal|class=warlock] 

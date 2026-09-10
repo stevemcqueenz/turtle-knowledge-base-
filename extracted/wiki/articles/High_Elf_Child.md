@@ -23,7 +23,7 @@ categories: ["Alah'Thalas NPCs", "Children", "High elf characters", "Loch Modan 
 | gender | Female |
 | location | Various |
 
--High Elf Children** can be found in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands), in the high elven capital of [Alah'Thalas](Alah'Thalas), in [Little Silvermoon](Little Silvermoon) in [Stormwind City](Stormwind City) and at the [Farstrider Lodge](Farstrider Lodge) in [Loch Modan](Loch Modan).
+**High Elf Children** can be found in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands), in the high elven capital of [Alah'Thalas](Alah'Thalas), in [Little Silvermoon](Little Silvermoon) in [Stormwind City](Stormwind City) and at the [Farstrider Lodge](Farstrider Lodge) in [Loch Modan](Loch Modan).
 
 ## Patch changes
 - (Patch 1.15.0|note=Added.)

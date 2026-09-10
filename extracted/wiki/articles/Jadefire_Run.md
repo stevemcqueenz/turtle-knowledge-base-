@@ -10,6 +10,6 @@ categories: ["Felwood subzones", "Satyr territories"]
 ---
 # Jadefire Run
 
--Jadefire Run** is a [satyr](satyr) encampment in northern [Felwood](Felwood).  The most powerful satyr in Felwood make their home in Jadefire Run, so exercise caution when adventuring in the area.
+**Jadefire Run** is a [satyr](satyr) encampment in northern [Felwood](Felwood).  The most powerful satyr in Felwood make their home in Jadefire Run, so exercise caution when adventuring in the area.
 
 This area used to be commonly farmed by players looking for [Felcloth](Felcloth).

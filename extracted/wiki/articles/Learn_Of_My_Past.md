@@ -42,7 +42,7 @@ Please, I insist: sit down and make yourself comfortable.
 As you can see, what I have witnessed paints a grim picture for my brethren at the Harborage. I have led them to this world in search for safety, and now our past threatens to haunt us once more. I need to prevent this, yet alone I am unable to. Dear stranger, will you assist me like you assisted Sanv K'la?
 
 ## Notes
-  -Speaking with Akh Z'ador**
+**Speaking with Akh Z'ador**
 The raw intensity seeping out of the ground is incredible. If I didn't know better, I'd say the land is bursting at the seams with magic.
 
   > Gossip: *Riftwalker, share your story with me.*

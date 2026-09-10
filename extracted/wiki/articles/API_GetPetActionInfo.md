@@ -14,7 +14,7 @@ Returns information on the specified pet action.
   name, subtext, texture, isToken, isActive, autoCastAllowed, autoCastEnabled = GetPetActionInfo(index)
 ----
 
-  - *Arguments***
+** *Arguments***
 
    (index)
   ; index
@@ -22,7 +22,7 @@ Returns information on the specified pet action.
 
 ----
 
-  - *Returns***
+** *Returns***
 
   ; name, subtext, texture, isToken, isActive, autoCastAllowed, autoCastEnabled
 
@@ -43,12 +43,12 @@ Returns information on the specified pet action.
 
 ----
 
-  - *Example***
+** *Example***
 
   local name, subtext, texture, isToken, isActive, autoCastAllowed, autoCastEnabled = GetPetActionInfo(4); 
 ----
 
-  - *Description***
+** *Description***
 
    Returns information on the specified pet action.
 

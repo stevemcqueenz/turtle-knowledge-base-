@@ -25,7 +25,7 @@ categories: ["Ammo vendors", "Goblin characters", "Tel'Abim NPCs", "Turtle WoW c
 | location | Tel Co. Basecamp, Tel'Abim |
 | status | Alive |
 
--Wezzy Coppersaw** is a [goblin](goblin) ammo vendor located in [Tel Co. Basecamp](Tel Co. Basecamp) in [Tel'Abim](Tel'Abim).
+**Wezzy Coppersaw** is a [goblin](goblin) ammo vendor located in [Tel Co. Basecamp](Tel Co. Basecamp) in [Tel'Abim](Tel'Abim).
 
 ## Patch changes
 - (Patch 1.16.4|note=Added.)

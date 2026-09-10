@@ -24,6 +24,6 @@ categories: ["Arathi Highlands NPCs", "Footmen", "Guards", "Human characters", "
 | creature | Humanoid |
 | location | Refuge Pointe, Arathi Highlands |
 
--Refuge Pointe Defenders** are [human](human) [guard](guard)s found protecting the settlement of [Refuge Pointe](Refuge Pointe) in the [Arathi Highlands](Arathi Highlands).
+**Refuge Pointe Defenders** are [human](human) [guard](guard)s found protecting the settlement of [Refuge Pointe](Refuge Pointe) in the [Arathi Highlands](Arathi Highlands).
 
 ## External links

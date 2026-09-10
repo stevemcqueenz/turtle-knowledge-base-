@@ -22,14 +22,14 @@ categories: ["Battlemasters", "Forsaken characters", "Orc characters", "Orgrimma
 | creature | Humanoid |
 | gender | Both |
 
--Blood Ring Gladiators** are Forsaken and orc [Blood Ring](Blood Ring) recruiters located at various spots throughout the largest Horde cities - [Orgrimmar](Orgrimmar), [Thunder Bluff](Thunder Bluff), and [Undercity](Undercity), during the weekly battleground holiday event for Blood Ring.
+**Blood Ring Gladiators** are Forsaken and orc [Blood Ring](Blood Ring) recruiters located at various spots throughout the largest Horde cities - [Orgrimmar](Orgrimmar), [Thunder Bluff](Thunder Bluff), and [Undercity](Undercity), during the weekly battleground holiday event for Blood Ring.
 
 ## Quotes
-  -High enough level character**
+**High enough level character**
   Do you dream of rising above your contemporaries by achieving eternal glory in battle? Step into the Blood Ring to engage in mortal combat against some of the best gladiators in Azeroth, and the glory you've been seeking all your life will be yours.
 
   
 
 ## Patch changes
--  **[Patch 1.17.0](Patch 1.17.0) (2023-10-03):** Now neutral and affiliated with the [Steamwheedle Blood Ring](Steamwheedle Blood Ring) faction instead of [Orgrimmar](Orgrimmar (faction)).
--  **[Hotfix](https://forum.turtlecraft.gg/viewtopic.php?t=8377) (2023-06-19):** Added.
+- **[Patch 1.17.0](Patch 1.17.0) (2023-10-03):** Now neutral and affiliated with the [Steamwheedle Blood Ring](Steamwheedle Blood Ring) faction instead of [Orgrimmar](Orgrimmar (faction)).
+- **[Hotfix](https://forum.turtlecraft.gg/viewtopic.php?t=8377) (2023-06-19):** Added.

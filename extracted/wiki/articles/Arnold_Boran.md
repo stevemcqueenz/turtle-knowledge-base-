@@ -25,13 +25,13 @@ categories: ["Human characters", "Kul Tiran Exploratory Fleet", "Lapidis Isle NP
 | status | Alive |
 | relatives | Karl, Samual (brothers) |
 
--Arnold Boran** is a [human](human) [quest giver](quest giver) located in [Caelan's Rest](Caelan's Rest) in [Lapidis Isle](Lapidis Isle).
+**Arnold Boran** is a [human](human) [quest giver](quest giver) located in [Caelan's Rest](Caelan's Rest) in [Lapidis Isle](Lapidis Isle).
 
 ## Quests
 - [quest: The Boran Family] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Being stuck in Caelan's Rest has left my mind worrying about family. At the least, it isn't terrible; we have plenty to read.
 
 ## Patch changes

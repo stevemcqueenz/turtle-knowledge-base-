@@ -18,12 +18,12 @@ Humans begin their adventures in the [Northshire Abbey](Northshire Abbey) of [El
 
 ## Background
 ### Creation screen description
--Humans are a young race, and thus highly versatile, mastering the arts of combat, craftsmanship, and magic with stunning efficiency. The humans' valor and optimism have led them to build some of the world's greatest kingdoms. In this troubled era, after generations of conflict, humanity seeks to rekindle its former glory and forge a shining new future.*
+*Humans are a young race, and thus highly versatile, mastering the arts of combat, craftsmanship, and magic with stunning efficiency. The humans' valor and optimism have led them to build some of the world's greatest kingdoms. In this troubled era, after generations of conflict, humanity seeks to rekindle its former glory and forge a shining new future.*
 
 ### Opening cutscene
--The noble humans of Stormwind are a proud, tenacious race. Though the recent invasion of the demonic Burning Legion decimated their sister kingdom of Lordaeron, the defenders of Stormwind stand vigilant against any who would threaten the sanctity of their lands. Nestled in the foothills of Elwynn Forest, Stormwind City is one of the last bastions of human power in the world. Ruled by the child king, Anduin Wrynn, the people of Stormwind remain steadfast in their commitment to the Grand Alliance. Backed by their stalwart allies, the armies of Stormwind have been called away to fight the savage Horde on distant battlefields.*
+*The noble humans of Stormwind are a proud, tenacious race. Though the recent invasion of the demonic Burning Legion decimated their sister kingdom of Lordaeron, the defenders of Stormwind stand vigilant against any who would threaten the sanctity of their lands. Nestled in the foothills of Elwynn Forest, Stormwind City is one of the last bastions of human power in the world. Ruled by the child king, Anduin Wrynn, the people of Stormwind remain steadfast in their commitment to the Grand Alliance. Backed by their stalwart allies, the armies of Stormwind have been called away to fight the savage Horde on distant battlefields.*
 
--With the armies gone, the defense of Stormwind now falls to its proud citizens. You must defend the kingdom against the foul mongrels that encroach upon it and hunt down the subversive traitors who seek to destroy it from within. Now is the time for heroes. Now humanity's greatest chapter can be told.*
+*With the armies gone, the defense of Stormwind now falls to its proud citizens. You must defend the kingdom against the foul mongrels that encroach upon it and hunt down the subversive traitors who seek to destroy it from within. Now is the time for heroes. Now humanity's greatest chapter can be told.*
 
 ## Character
 ### Classes
@@ -61,8 +61,8 @@ Humans begin their adventures in the [Northshire Abbey](Northshire Abbey) of [El
 
 ## Videos
 ## Patch changes
--  **[Patch 1.17.2](Patch 1.17.2) (2024-11-01):**
+- **[Patch 1.17.2](Patch 1.17.2) (2024-11-01):**
   - Weapon skill racials have been reduced from +5 to +3.
   - Perception now also grants 2% increased physical and spell critical strike chance for the duration.
   - The Human Spirit now allows 5% of your Mana regeneration to continue while casting.
--  **[Patch 1.17.0](Patch 1.17.0) (2023-10-03):** Humans now have access to the hunter class.
+- **[Patch 1.17.0](Patch 1.17.0) (2023-10-03):** Humans now have access to the hunter class.

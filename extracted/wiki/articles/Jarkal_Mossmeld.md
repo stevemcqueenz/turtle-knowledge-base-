@@ -24,17 +24,17 @@ categories: ["Darkspear Trolls", "Jungle troll characters", "Quest givers"]
 | location | Kargath, Badlands |
 | status | Alive |
 
--Jarkal Mossmeld** is a [jungle troll](jungle troll) [quest giver](quest giver) located in [Kargath](Kargath) in the [Badlands](Badlands).
+**Jarkal Mossmeld** is a [jungle troll](jungle troll) [quest giver](quest giver) located in [Kargath](Kargath) in the [Badlands](Badlands).
 
 ## Quests
--Uldaman Reagent Run 
--Badlands Reagent Run 
--Badlands Reagent Run II 
--Translating the Journal 
--Translating the Journal (2) 
--Find the Gems and Power Source 
--Deliver the Gems 
--Necklace Recovery, Take 3 
--[Foreign Knowledge](Foreign Knowledge) 
+- Uldaman Reagent Run 
+- Badlands Reagent Run 
+- Badlands Reagent Run II 
+- Translating the Journal 
+- Translating the Journal (2) 
+- Find the Gems and Power Source 
+- Deliver the Gems 
+- Necklace Recovery, Take 3 
+- [Foreign Knowledge](Foreign Knowledge) 
 
 ## External links

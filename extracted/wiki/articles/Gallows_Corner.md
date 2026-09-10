@@ -10,4 +10,4 @@ categories: ["Alterac Mountains subzones", "Pages with broken file links", "Towe
 ---
 # Gallows' Corner
 
--Gallows' Corner** is a crossroads in the [Alterac Mountains](Alterac Mountains), close to the [Ruins of Alterac](Ruins of Alterac). This area is held by [ogre](ogre)s who patrol the area around the ruined tower.
+**Gallows' Corner** is a crossroads in the [Alterac Mountains](Alterac Mountains), close to the [Ruins of Alterac](Ruins of Alterac). This area is held by [ogre](ogre)s who patrol the area around the ruined tower.

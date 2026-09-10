@@ -24,7 +24,7 @@ categories: ["Bosses", "Diemetradons", "Turtle WoW content", "Wailing Caverns mo
 | status | Killable |
 | instance | Wailing Caverns |
 
--Vangros** is a boss in the [Overgrowth](Overgrowth) within the [Wailing Caverns](Wailing Caverns).
+**Vangros** is a boss in the [Overgrowth](Overgrowth) within the [Wailing Caverns](Wailing Caverns).
 
 ## Abilities
 - Crush Armor

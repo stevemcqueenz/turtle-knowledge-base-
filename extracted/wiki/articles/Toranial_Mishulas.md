@@ -25,7 +25,7 @@ categories: ["High elf characters", "Thalassian Highlands NPCs", "Turtle WoW con
 | gender | Male |
 | location | Brinthilien, Thalassian Highlands |
 
--Toranial Mishulas** is a high elf located in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands).
+**Toranial Mishulas** is a high elf located in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands).
 
 ## Notes
 - Although his title says that he is an "apprentice weapon master", he can't teach any weapons to players.

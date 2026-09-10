@@ -24,7 +24,7 @@ categories: ["Blue drakes", "Moonwhisper Coast mobs", "Turtle WoW content"]
 | location | Starshard Cradle, Moonwhisper Coast |
 | status | Killable |
 
--Starcaller** is a blue drake located in [Starshard Cradle](Starshard Cradle) in [Moonwhisper Coast](Moonwhisper Coast). After the arcane meteor was called down by the blue dragonflight, Starcaller and a brood of the blue flight began occupying the impact site, driving away anything that comes too close - adventurers, scholars and even the naga have learned to give it a wide berth. [Zarazar Sagewind](Zarazar Sagewind) wants the drake killed and [Gor'dush Jawtaker](Gor'dush Jawtaker) seeks to acquire its jaw.
+**Starcaller** is a blue drake located in [Starshard Cradle](Starshard Cradle) in [Moonwhisper Coast](Moonwhisper Coast). After the arcane meteor was called down by the blue dragonflight, Starcaller and a brood of the blue flight began occupying the impact site, driving away anything that comes too close - adventurers, scholars and even the naga have learned to give it a wide berth. [Zarazar Sagewind](Zarazar Sagewind) wants the drake killed and [Gor'dush Jawtaker](Gor'dush Jawtaker) seeks to acquire its jaw.
 
 ## Objective of
 - Must be killed for [quest: A Star That Calls Back].

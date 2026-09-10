@@ -43,7 +43,7 @@ Any luck, matey?
 This is it! Haha! Such fine work—you'd make one excellent swashbuckler aboard the Waterbreaker when she is repaired!
 
 ## Notes
-  -Speaking with 'Moonshine' Marty**
+**Speaking with 'Moonshine' Marty**
   Please, don't kill me!
 
   I'm the bootlegger who created the recipe for the famous Southsea Reserve!

@@ -10,10 +10,10 @@ categories: ["Addon"]
 ---
 # QuickHeal
 
--QuickHeal** automatically heals party/raid members and yourself when needed, without manual targeting or enemy deselection. Designed for maximum mana efficiency, it downranks spells when appropriate and automatically selects the best healing spell based on the situation.
+**QuickHeal** automatically heals party/raid members and yourself when needed, without manual targeting or enemy deselection. Designed for maximum mana efficiency, it downranks spells when appropriate and automatically selects the best healing spell based on the situation.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **QuickHeal** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **QuickHeal** up to date is by using [GitAddonsManager](
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -30,7 +30,7 @@ If you prefer manual installation, follow these steps:
 # Unpack the <code>.zip</code> and rename the folder to <code>QuickHeal</code>, removing the <code>-main</code> suffix.
 # Move the folder into your <code>Interface/AddOns</code> directory and restart the game.
 
-  -Mandatory**:
+**Mandatory**:
 
 - [HealComm](https://github.com/maztheman/HealComm) is mandatory or QuickHeal won't work.
 - [Bonusscanner](https://github.com/GryllsAddons/BonusScanner) makes QuickHeal and HealComm (Luna unit Frames) more accurate by taking gear and +Heal into account.

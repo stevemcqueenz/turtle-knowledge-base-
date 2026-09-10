@@ -25,7 +25,7 @@ categories: ["Blackrock clan", "Burning Steppes NPCs", "Orc characters", "Turtle
 | location | Karfang Hold, Burning Steppes |
 | status | Alive |
 
--Dagesh the Evoker** is an [orc](orc) located in [Karfang Hold](Karfang Hold) in the [Burning Steppes](Burning Steppes).
+**Dagesh the Evoker** is an [orc](orc) located in [Karfang Hold](Karfang Hold) in the [Burning Steppes](Burning Steppes).
 
 ## Quotes
 ### Gossip

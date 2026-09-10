@@ -27,7 +27,7 @@ categories: ["Balor NPCs", "Bleeding Hollow clan", "Orc characters", "Quest give
 | location | Stormbreaker Point, Balor |
 | status | Alive |
 
--Kilrogg Deadeye** is the chieftain of the [Bleeding Hollow clan](Bleeding Hollow clan). Leading his clan in both the [First](First War) and [Second War](Second War)s, Kilrogg was one of the older and more cunning orc chieftains.
+**Kilrogg Deadeye** is the chieftain of the [Bleeding Hollow clan](Bleeding Hollow clan). Leading his clan in both the [First](First War) and [Second War](Second War)s, Kilrogg was one of the older and more cunning orc chieftains.
 
 ## Background
 ### First War
@@ -70,15 +70,15 @@ Lok-tar-ogar!
 For the Horde!
 
 ### On-click
-  -Greeting**
+**Greeting**
 - For the Horde!
 - Beware the shadows of this place.
 - By my axe, victory or death!
 
-  -Farewell**
+**Farewell**
 - Show them no mercy!
 
-  -Pissed**
+**Pissed**
 - Your mind is as hollow as my eye.
 - Is chatter all you are good for?
 - A disappointment to the Horde.

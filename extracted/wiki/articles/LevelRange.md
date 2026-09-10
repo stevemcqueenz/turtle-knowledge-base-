@@ -22,7 +22,7 @@ LevelRange shows the zone level ranges on the World Map.
 [**(Spartelfant)**](https://github.com/Spartelfant/LevelRange-Turtle)
 
 ## Commands
-  -Slash Commands**
+**Slash Commands**
 
 - **/lr** or **/levelrange**: Opens the options frame for LevelRange if it’s not visible, toggles it otherwise.
 - **/lr help**: Displays help messages related to LevelRange.
@@ -31,7 +31,7 @@ LevelRange shows the zone level ranges on the World Map.
 - **/lr instances**: Toggles showing information about instances in the tooltip.
 - **/lr fishing**: Toggles the visibility of fishing level requirements in the tooltip.
 
-  -Hovered Functionality**
+**Hovered Functionality**
 
 - Hovering over a zone on the World Map will display its level range and any relevant fishing level requirements, instances, and raids.
 
@@ -48,29 +48,29 @@ Options:
 - Diplomacy display is available (toggle-able).
 
 ## Change Log
-  -2.0.3 (Update by blehz.)**
+**2.0.3 (Update by blehz.)**
 
 - Updated zones, dungeons, and raids to Turtle WoW 1.17.1.
 
-  -2.0.2 (Update by rado-boy)**
+**2.0.2 (Update by rado-boy)**
 
 - Added a togglable option to show fishing level requirements on tooltips. Note that not all zones are complete.
 
-  -2.0.1 (Update)**
+**2.0.1 (Update)**
 
 - Updated outdated references.
 - Improved localization.
 - Removed "The Lower Karazhan Halls," as it is not yet added.
 - Fixed a bug where "Black Fathoms Deep" did not appear in Ashenvale's information box.
 
-  -2.0.0 (Release)**
+**2.0.0 (Release)**
 
 - Ported to Turtle-Wow.
   - Added Zones: Gillijim's Isle, Lapidis Isle, Tel'Abim.
   - Added Dungeons: The Crescent Grove, Hateforge Quarry, The Karazhan Crypt, The Stormwind Vaults, Caverns of Time: The Black Morass.
   - Added Raid: The Emerald Sanctum; Lower Karazhan Halls.
 
-  -1.2.0 (Update)**
+**1.2.0 (Update)**
 
 - Added support for displaying raids and their level ranges.
 - Introduced an options frame for toggling features with <code>/lr</code> or <code>/levelrange</code>.
@@ -80,11 +80,11 @@ Options:
 - Updated the display method for instance level ranges.
 - Fixed a bug with FlightMap display issues.
 
-  -1.1.0 (Update)**
+**1.1.0 (Update)**
 
 - Added feature for showing instances and their level ranges.
 - Introduced slash commands (currently non-functional).
 
-  -1.0.0 (Release)**
+**1.0.0 (Release)**
 
 - Initial public release.

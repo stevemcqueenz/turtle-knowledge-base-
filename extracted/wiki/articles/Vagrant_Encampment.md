@@ -13,13 +13,7 @@ categories: ["Alliance quest hubs", "Camps", "Gilneas subzones", "Human territor
 The **Vagrant Encampment** is a small camp just south of the [Greymane Wall](Greymane Wall) in [Gilneas](Gilneas). It was established by the refugees that camped in the shadow of the [Greymane Wall](Greymane Wall) in [Silverpine Forest](Silverpine Forest), who came to Gilneas seeking safe haven only to find that it was just as bad as Silverpine. (ref: [Camp Leader Gethenor#Quotes](Camp Leader Gethenor#Quotes))
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - - ## Patch changes
 - (Patch 1.17.0|note=Added.)
 
 ## References

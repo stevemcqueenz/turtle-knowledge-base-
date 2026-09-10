@@ -25,7 +25,7 @@ categories: ["Blackwater Raiders", "Booty Bay characters", "Goblin characters", 
 | location | Booty Bay, Stranglethorn Vale |
 | status | Alive |
 
--Fin Fizracket** is a [goblin](goblin) [quest giver](quest giver) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). He is affiliated with the [Blackwater Raiders](Blackwater Raiders). He suffered from [Stranglethorn Fever](Stranglethorn Fever), which is cured only by eating the [heart](Heart of Mokk) of the [gorilla](gorilla) [Mokk the Savage](Mokk the Savage).
+**Fin Fizracket** is a [goblin](goblin) [quest giver](quest giver) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). He is affiliated with the [Blackwater Raiders](Blackwater Raiders). He suffered from [Stranglethorn Fever](Stranglethorn Fever), which is cured only by eating the [heart](Heart of Mokk) of the [gorilla](gorilla) [Mokk the Savage](Mokk the Savage).
 
 ## Quests
 - [quest: Stranglethorn Fever] 

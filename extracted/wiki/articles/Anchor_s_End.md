@@ -46,7 +46,7 @@ If my duties did not keep me here, I would have gladly joined you in the thrill 
 You have delivered the Warchief's reckoning to our enemies. For that, the whole Horde shall sing your praise. 
 
 ## Notes
-  -Upon accepting this quest and [quest: Cutting Ranks]**
+**Upon accepting this quest and [quest: Cutting Ranks]**
 
   **Warbringer Dar'nakk says:** Baha! A true soldier of the Horde! One of grit and steel — those Kul Tirans are no match for you!
 

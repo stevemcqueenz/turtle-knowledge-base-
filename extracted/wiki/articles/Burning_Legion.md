@@ -106,35 +106,35 @@ With Archimonde finally defeated, Kil'jaeden has assumed complete control of the
 
 # Command Structure
 Note: it's somewhat unclear who commands the Fel Guard, and what position Kazzak originally held in the Legion before they were defeated on Azeroth. This is meant to offer insight as to the command structure *before* the Second Invasion/Third War.
-  -*[Sargeras](Sargeras)** (dead, spirit remains somewhere in the Twisting Nether)
-  -**[Archimonde](Archimonde)** (dead)
-  -*[Mannoroth](Mannoroth) (dead)
-  -**[Azgalore](Azgalore) (took command of the Pit Lords after Mannoroth was killed)
-  -**[Magtheridon](Magtheridon) (dead)
-  -**Other [Pit Lord](Pit Lord)s
-  -***[Master of Pain](Master of Pain) (dead)
-  -***[Mistress of Torment](Mistress of Torment) (dead)
-  -*[Hakkar](Hakkar)
-  -**[Kazzak](Kazzak)?
-  -***[Doomguard](Doomguard)s
-  -**[Felbeast](Felbeast)s
-  -*Other [Eredar](Eredar)
-  -**[Kil'jaeden](Kil'jaeden)**
-  -*[Tichondrius](Tichondrius) (dead) (original Commander of the Scourge)
-  -**[Anetheron](Anetheron) (dead) (took joint command of the Scourge when TIchondrius was killed)
-  -**[Rage Winterchill](Rage Winterchill) (dead) (took joint command of the Scourge when TIchondrius was killed)
-  -**[Ner'zhul](Ner'zhul) (became the [Lich King](Lich King))
-  -***[Arthas](Arthas) (merged with the [Lich King](Lich King))
-  -****[The Scourge](Scourge)
-  -**[Mal'Ganis](Mal'Ganis) (dead)
-  -**[Varimathras](Varimathras) (now allied with [Sylvanas](Sylvanas) and the [Forsaken](Forsaken))
-  -**[Detheroc](Detheroc) (dead)
-  -**[Balnazzar](Balnazzar)
-  -**Other [Dreadlords](Dreadlords)
-  -*[Illidan](Illidan)
-  -**[Lady Vashj](Lady Vashj) (also loyal to [Queen Azshara](Queen Azshara))
-  -***Other [Naga](Naga)
-  -**[Kael'thas](Kael'thas)
-  -***The [Blood Elves](Blood Elves)
-  -**[Akama](Akama)
-  -***The [Draenei](Draenei)
+- **[Sargeras](Sargeras)** (dead, spirit remains somewhere in the Twisting Nether)
+  - **[Archimonde](Archimonde)** (dead)
+  - *[Mannoroth](Mannoroth) (dead)
+  - **[Azgalore](Azgalore) (took command of the Pit Lords after Mannoroth was killed)
+  - **[Magtheridon](Magtheridon) (dead)
+  - **Other [Pit Lord](Pit Lord)s
+  - ***[Master of Pain](Master of Pain) (dead)
+  - ***[Mistress of Torment](Mistress of Torment) (dead)
+  - *[Hakkar](Hakkar)
+  - **[Kazzak](Kazzak)?
+  - ***[Doomguard](Doomguard)s
+  - **[Felbeast](Felbeast)s
+  - *Other [Eredar](Eredar)
+  - **[Kil'jaeden](Kil'jaeden)**
+  - *[Tichondrius](Tichondrius) (dead) (original Commander of the Scourge)
+  - **[Anetheron](Anetheron) (dead) (took joint command of the Scourge when TIchondrius was killed)
+  - **[Rage Winterchill](Rage Winterchill) (dead) (took joint command of the Scourge when TIchondrius was killed)
+  - **[Ner'zhul](Ner'zhul) (became the [Lich King](Lich King))
+  - ***[Arthas](Arthas) (merged with the [Lich King](Lich King))
+  - ****[The Scourge](Scourge)
+  - **[Mal'Ganis](Mal'Ganis) (dead)
+  - **[Varimathras](Varimathras) (now allied with [Sylvanas](Sylvanas) and the [Forsaken](Forsaken))
+  - **[Detheroc](Detheroc) (dead)
+  - **[Balnazzar](Balnazzar)
+  - **Other [Dreadlords](Dreadlords)
+  - *[Illidan](Illidan)
+  - **[Lady Vashj](Lady Vashj) (also loyal to [Queen Azshara](Queen Azshara))
+  - ***Other [Naga](Naga)
+  - **[Kael'thas](Kael'thas)
+  - ***The [Blood Elves](Blood Elves)
+  - **[Akama](Akama)
+  - ***The [Draenei](Draenei)

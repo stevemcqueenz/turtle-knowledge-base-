@@ -10,10 +10,10 @@ categories: ["Addon"]
 ---
 # LazySpell
 
--LazySpell** is designed to optimize healing by automatically selecting the appropriate spell rank based on the target's health deficit. It supports popular unit frames and addons like Clique, LunaUnitFrames, pfUI, and Classic Mouseover, helping healers deliver efficient, targeted heals while conserving mana and reducing overhealing.
+**LazySpell** is designed to optimize healing by automatically selecting the appropriate spell rank based on the target's health deficit. It supports popular unit frames and addons like Clique, LunaUnitFrames, pfUI, and Classic Mouseover, helping healers deliver efficient, targeted heals while conserving mana and reducing overhealing.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **LazySpell** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **LazySpell** up to date is by using [GitAddonsManager](
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -33,20 +33,20 @@ If you prefer manual installation, follow these steps:
 - [**(laytya)**](https://github.com/laytya/Lazyspell)
 
 ## Usage
-  -Clique**
+**Clique**
 - Assign spell with rank 1 in Clique.
 - Use macro <code>/cmcast SpellName(Rank 1)</code> for mouseover or quick casts.
-  -LunaUnitFrames**
+**LunaUnitFrames**
 - Create macro <code>/lunamo SpellName(Rank 1)</code>.
 - Bind macro to a button; hover over target frame to heal.
-  -pfUI**
+**pfUI**
 - Configure clickcast for spells with rank 1.
 - LazySpell will adjust spell rank automatically when clicked.
-  -Classic Mouseover**
+**Classic Mouseover**
 - Create macro <code>/cmcast SpellName(Rank 1)</code>.
 - Bind to key or mouse button for mouseover healing.
 
-  -How LazySpell Works**
+**How LazySpell Works**
 
 LazySpell dynamically determines the appropriate spell rank to use based on:
 

@@ -24,7 +24,7 @@ categories: ["Farstriders", "High elf characters", "Hunter characters", "Hunter 
 | gender | Female |
 | location | Brinthilien, Thalassian Highlands |
 
--Ranger Rubinah Sunsworn** is a [high elf](high elf) [hunter trainer](hunter trainer) located in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands).
+**Ranger Rubinah Sunsworn** is a [high elf](high elf) [hunter trainer](hunter trainer) located in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands).
 
 ## Quests
 - [quest: Feathered Letter|class=hunter|race=HighElf] 
@@ -32,7 +32,7 @@ categories: ["Farstriders", "High elf characters", "Hunter characters", "Hunter 
 - [quest: Ranger's Letter|class=hunter|race=HighElf] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The Farstriders were a proud group of rangers. With the downfall of our homeland, most of them, too, have passed away. Still, their legacy will live on through us.
 
 ## Speculation

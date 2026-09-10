@@ -24,13 +24,13 @@ categories: ["Druid characters", "Feralas NPCs", "Night elf characters", "Quest 
 | location | Thalanaar, Feralas |
 | status | Alive |
 
--Calaran Windseeker** is a [night elf](night elf) quest giver located in [Thalanaar](Thalanaar) in [Feralas](Feralas).
+**Calaran Windseeker** is a [night elf](night elf) quest giver located in [Thalanaar](Thalanaar) in [Feralas](Feralas).
 
 ## Quests
 - [quest: The Gnarled Bramblehide] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The wilds are fascinating, are they not? Nature has always been a mysterious guardian, with many secrets for us to uncover, and protect.
 
 My name is Calaran, what is it you seek here friend?

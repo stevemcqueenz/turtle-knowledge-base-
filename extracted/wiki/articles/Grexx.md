@@ -25,13 +25,13 @@ categories: ["Balor NPCs", "Goblin characters", "Quest givers", "Turtle WoW cont
 | location | Stormbreaker Point, Balor |
 | status | Alive |
 
--Grexx** is a [goblin](goblin) weapons vendor and [quest giver](quest giver) located at [Stormbreaker Point](Stormbreaker Point) in [Balor](Balor).
+**Grexx** is a [goblin](goblin) weapons vendor and [quest giver](quest giver) located at [Stormbreaker Point](Stormbreaker Point) in [Balor](Balor).
 
 ## Quests
 - [quest: Free Merchandise] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 This is the last time I am owing [Nert](Nert Blastentom) a favor. Sending me alongside these orcs is such an imposition of my talents as a craftsman!
 
 ## Patch changes

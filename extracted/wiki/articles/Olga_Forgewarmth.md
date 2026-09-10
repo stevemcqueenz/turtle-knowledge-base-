@@ -25,10 +25,10 @@ categories: ["Dwarf characters", "Northwind NPCs", "Priest characters", "Turtle 
 | location | Lion's Watch, Northwind |
 | status | Alive |
 
--Olga Forgewarmth** is a [dwarf](dwarf) priestess located at [Lion's Watch](Lion's Watch) in [Northwind](Northwind). She is a traveling companion with the night elf twins [Maener](Maener Owlgarden) and [Steria Owlgarden](Steria Owlgarden).
+**Olga Forgewarmth** is a [dwarf](dwarf) priestess located at [Lion's Watch](Lion's Watch) in [Northwind](Northwind). She is a traveling companion with the night elf twins [Maener](Maener Owlgarden) and [Steria Owlgarden](Steria Owlgarden).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Ay, by the Light, these elves and their long legs! Bah, I need to be up on my feet—I'm here to see [that winery](Crawford Winery)! I must see for myself what had those elves in [Alah'thalas](Alah'thalas) so happy.
 
 ## Patch changes

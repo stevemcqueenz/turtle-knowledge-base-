@@ -26,10 +26,10 @@ categories: ["Battlemasters", "Tauren characters", "Thunder Bluff NPCs", "Turtle
 | location | Hunter Rise, Thunder Bluff |
 | status | Alive |
 
--Suda Steelweaver** is a [tauren](tauren) [Thorn Gorge](Thorn Gorge) battlemaster located in the [Hunter Rise](Hunter Rise) in [Thunder Bluff](Thunder Bluff).
+**Suda Steelweaver** is a [tauren](tauren) [Thorn Gorge](Thorn Gorge) battlemaster located in the [Hunter Rise](Hunter Rise) in [Thunder Bluff](Thunder Bluff).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Vile Alliance dwarves have infiltrated our sacred grounds in the Thorn Gorge! Enlist yourself to rid these pests out of the lands of the Earthmother!
 
   

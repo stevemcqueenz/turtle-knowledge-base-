@@ -26,10 +26,10 @@ categories: ["Dwarf characters", "Stonetalon Mountains NPCs", "Turtle WoW conten
 | status | Alive |
 | relatives | Redbrand family |
 
--Darrak Redbrand** is a [dwarf](dwarf) located in [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains).
+**Darrak Redbrand** is a [dwarf](dwarf) located in [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 There is always adventure to be had, especially out in the far frontiers.
 
 ## Patch changes

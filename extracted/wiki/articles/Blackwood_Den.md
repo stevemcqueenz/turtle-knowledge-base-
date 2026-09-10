@@ -10,4 +10,4 @@ categories: ["Caves", "Darkshore subzones", "Furbolg territories", "Pages with b
 ---
 # Blackwood Den
 
--Blackwood Den** is located in the far southern area of [Darkshore](Darkshore), near the border with [Ashenvale](Ashenvale). It is comprised of a few [corrupted furbolg](corrupted furbolg) [camp](camp)s and a small cave. Inside the cave sits a lone [night elf](night elf) named [Volcor](Volcor) who awaits rescue. Talking to someone in [Auberdine](Auberdine) may be prudent to get the item needed to help Volcor out of his predicament.
+**Blackwood Den** is located in the far southern area of [Darkshore](Darkshore), near the border with [Ashenvale](Ashenvale). It is comprised of a few [corrupted furbolg](corrupted furbolg) [camp](camp)s and a small cave. Inside the cave sits a lone [night elf](night elf) named [Volcor](Volcor) who awaits rescue. Talking to someone in [Auberdine](Auberdine) may be prudent to get the item needed to help Volcor out of his predicament.

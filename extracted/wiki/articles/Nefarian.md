@@ -11,8 +11,8 @@ categories: ["Characters", "Dragon", "Instance Characters"]
 # Nefarian
 
 Also known as:
--Lord Victor Nefarius
--Blackwing
+- Lord Victor Nefarius
+- Blackwing
 
 Nefarion (aka Blackwing) resides in his [lair](Blackwing Lair) high in the spires of [Blackrock Mountain](Blackrock Mountain). There, he and his minions fight a constant battle with [Ragnaros](Ragnaros) and his forces for control of the mountain, and ultimately control of the entire region.
 

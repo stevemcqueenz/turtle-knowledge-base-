@@ -13,18 +13,9 @@ categories: ["Balor subzones", "Turtle WoW content"]
 The **Ruins of Breezehaven** are what remains of the town of **Breezehaven**, located in [Balor](Balor). The town was the first settlement on the island, named after the fresh and salty winds circulating the settlers' new home. (ref: [The Founding of Balor](The Founding of Balor))
 
 ## NPCs
-  -In the town**
-- 
-- 
-- 
-- 
-- 
-
-  -In the mine**
-- 
-- 
-- 
--  (rare)
+**In the town**
+- - - - - ;In the mine
+- - - - (rare)
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

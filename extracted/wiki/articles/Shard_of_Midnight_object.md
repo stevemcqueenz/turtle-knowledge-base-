@@ -10,7 +10,7 @@ categories: ["Gilneas City objects", "Turtle WoW content"]
 ---
 # Shard of Midnight (object)
 
--Shard of Midnight** is found in [Greymane Tower](Greymane Tower) in [Gilneas City](Gilneas City), next to [Genn Greymane](Genn Greymane (tactics)).
+**Shard of Midnight** is found in [Greymane Tower](Greymane Tower) in [Gilneas City](Gilneas City), next to [Genn Greymane](Genn Greymane (tactics)).
 
 ## Objective of
 Contains [Shard of Midnight](Shard of Midnight) for the quest [quest: The Greymane Stone].

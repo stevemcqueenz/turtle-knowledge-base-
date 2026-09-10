@@ -25,6 +25,6 @@ categories: ["Arathi Highlands NPCs", "Human characters", "Leatherworking vendor
 | location | Refuge Pointe, Arathi Highlands |
 | status | Alive |
 
--Androd Fadran** is a [human](human) [leatherworking](leatherworking) [vendor](vendor) located in [Refuge Pointe](Refuge Pointe) in the [Arathi Highlands](Arathi Highlands). 
+**Androd Fadran** is a [human](human) [leatherworking](leatherworking) [vendor](vendor) located in [Refuge Pointe](Refuge Pointe) in the [Arathi Highlands](Arathi Highlands). 
 
 ## External links

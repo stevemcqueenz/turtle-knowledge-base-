@@ -12,5 +12,5 @@ categories: ["Vendors"]
 
 This category contains articles on vendors who sell mana-restoring drinks.
 
-  -See also**
+**See also**
 [:Category:Food and drink vendors](:Category:Food and drink vendors), which can share a large overlap with this category, but is generally reserved for vendors with the title <Food & Drink>.

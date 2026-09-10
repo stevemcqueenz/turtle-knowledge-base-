@@ -22,7 +22,7 @@ categories: ["Crescent Grove mobs", "Satyr", "Turtle WoW content"]
 | creature | Demon |
 | location | Vilethorn Scar, the Crescent Grove |
 
--Blacktalon Felsworn** are satyrs located in the [Vilethorn Scar](Vilethorn Scar) in the [Crescent Grove](Crescent Grove).
+**Blacktalon Felsworn** are satyrs located in the [Vilethorn Scar](Vilethorn Scar) in the [Crescent Grove](Crescent Grove).
 
 ## Abilities
 - Shadow Bolt

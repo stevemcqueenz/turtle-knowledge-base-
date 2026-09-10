@@ -10,14 +10,9 @@ categories: ["Alah'Thalas subzones", "Harbors", "Turtle WoW content"]
 ---
 # Windrunner Pier
 
--Windrunner Pier** is the harbor of [Alah'Thalas](Alah'Thalas) named for the famed [Windrunner](Windrunner) family. A night elven vessel captained by [Captain Velari Shadelain](Captain Velari Shadelain) is moored by one of the docks, carrying volunteers and supplies from Darnassus to give aid the high elven refugees resettling the [Thalassian Highlands](Thalassian Highlands). A transport ship regularly sails between Alah'Thalas and [Auberdine](Auberdine) in [Darkshore](Darkshore).
+**Windrunner Pier** is the harbor of [Alah'Thalas](Alah'Thalas) named for the famed [Windrunner](Windrunner) family. A night elven vessel captained by [Captain Velari Shadelain](Captain Velari Shadelain) is moored by one of the docks, carrying volunteers and supplies from Darnassus to give aid the high elven refugees resettling the [Thalassian Highlands](Thalassian Highlands). A transport ship regularly sails between Alah'Thalas and [Auberdine](Auberdine) in [Darkshore](Darkshore).
 
 ## NPCs
-- 
-- 
-  -Aboard the night elven vessel**
-- 
-- 
-
-## Patch changes
+- - ;Aboard the night elven vessel
+- - ## Patch changes
 - (Patch 1.17.1|note=Added.)

@@ -47,9 +47,9 @@ There are no instanced dungeons or battlegrounds in this zone, though several mi
 
 ### Travel hubs
 ##### [Flight path](Flight path)s from [Nethergarde Keep](Nethergarde Keep)
--[Stormwind City](Stormwind City), [Elwynn Forest](Elwynn Forest)
--[Darkshire](Darkshire), [Duskwood](Duskwood)
--[Morgan's Vigil](Morgan's Vigil), [Burning Steppes](Burning Steppes)
+- [Stormwind City](Stormwind City), [Elwynn Forest](Elwynn Forest)
+- [Darkshire](Darkshire), [Duskwood](Duskwood)
+- [Morgan's Vigil](Morgan's Vigil), [Burning Steppes](Burning Steppes)
 
 ### Adjacent regions
 {| class="fandom-table"
@@ -77,19 +77,19 @@ There are no instanced dungeons or battlegrounds in this zone, though several mi
   - [Dead Wood Tree](Dead Wood Tree)
 
 ## Wild creatures
--[Boar](Boar)s
--[Basilisk](Basilisk)s
--[Black dragon](Black dragon)s
--[Doomguard](Doomguard)
--[Draenei](Draenei)
--[Nathrezim](Nathrezim)
--[Felhound](Felhound)s
--[Felguard](Felguard)s
--[Helboar](Helboar)s
--[Hyena](Hyena)s
--[Ogre](Ogre)s
--[Scorpid](Scorpid)s
--[Vulture](Vulture)s
+- [Boar](Boar)s
+- [Basilisk](Basilisk)s
+- [Black dragon](Black dragon)s
+- [Doomguard](Doomguard)
+- [Draenei](Draenei)
+- [Nathrezim](Nathrezim)
+- [Felhound](Felhound)s
+- [Felguard](Felguard)s
+- [Helboar](Helboar)s
+- [Hyena](Hyena)s
+- [Ogre](Ogre)s
+- [Scorpid](Scorpid)s
+- [Vulture](Vulture)s
 
 ## Patch changes
--  **Patch 0.8 (2004-07-07):** Opened and itemized.
+- **Patch 0.8 (2004-07-07):** Opened and itemized.

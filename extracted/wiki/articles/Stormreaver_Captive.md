@@ -23,10 +23,10 @@ categories: ["Human characters", "Stormwrought Ruins NPCs", "Turtle WoW content"
 | location | Stormwrought Prison, Stormwrought Ruins |
 | status | Alive |
 
--Stormreaver Captives** are [human](human)s that were adbucted from [Northwind](Northwind) that are being held prisoner in [Stormwrought Prison](Stormwrought Prison) in [Stormwrought Ruins](Stormwrought Ruins).
+**Stormreaver Captives** are [human](human)s that were adbucted from [Northwind](Northwind) that are being held prisoner in [Stormwrought Prison](Stormwrought Prison) in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 <The captive is shivering and not responsive.>
 
   > Gossip: *You have to get out of here!*

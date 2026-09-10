@@ -13,14 +13,5 @@ categories: ["Stormwrought Ruins subzones"]
 The **Rotting Caverns** is an underground basin located within the [Stormwrought Descent](Stormwrought Descent) in [Stormwrought Ruins](Stormwrought Ruins). The ancient crocolisk [Eldermaw the Primordial](Eldermaw the Primordial) makes its home in the caverns' murky waters.
 
 ## NPCs
-- 
-  - 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
--
+- - * 
+- - - - - - - -

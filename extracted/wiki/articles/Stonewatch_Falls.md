@@ -12,4 +12,4 @@ categories: ["Human territories", "Murloc territories", "Redridge Mountains subz
 
 in the background.]]
 
-  -Stonewatch Falls** is located on the terminus of [Lake Everstill](Lake Everstill)'s eastern river. It cascades down the hill below [Stonewatch](Stonewatch) and forms a deep lake in the nook of the eastern [Redridge Mountains](Redridge Mountains). A small tribe of [murloc](murloc)s make their home here, catching [fish](fish) from the lake and erecting crude structures to sleep in.
+**Stonewatch Falls** is located on the terminus of [Lake Everstill](Lake Everstill)'s eastern river. It cascades down the hill below [Stonewatch](Stonewatch) and forms a deep lake in the nook of the eastern [Redridge Mountains](Redridge Mountains). A small tribe of [murloc](murloc)s make their home here, catching [fish](fish) from the lake and erecting crude structures to sleep in.

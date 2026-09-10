@@ -10,8 +10,8 @@ categories: []
 ---
 # Template:Storm's End
 
-1.[quest: Deep in the Mines]
-1.[quest: Mere Thoughts]
-1.[quest: Colony of Ants]
-1.[quest: It Can't Rain All the Time]
-1.[quest: Storm's End]
+1. [quest: Deep in the Mines]
+1. [quest: Mere Thoughts]
+1. [quest: Colony of Ants]
+1. [quest: It Can't Rain All the Time]
+1. [quest: Storm's End]

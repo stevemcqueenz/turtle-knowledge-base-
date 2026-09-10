@@ -26,13 +26,13 @@ categories: ["Dalaran (kingdom)", "Human characters", "Moonwhisper Coast NPCs", 
 | status | Alive |
 | companions | Thulio (steed) |
 
--Zarazar Sagewind** is a [human](human) quest giver located in a camp just south of [Narvalis Point](Narvalis Point) in [Moonwhisper Coast](Moonwhisper Coast). He traveled to the Coast alongside the Sentinels' expedition led by [Sentinel Commander Silverstreak](Sentinel Commander Silverstreak), though his presence was an unwelcome one and he was forbidden from resting in Narvalis Point along with them due to practicing the arcane.
+**Zarazar Sagewind** is a [human](human) quest giver located in a camp just south of [Narvalis Point](Narvalis Point) in [Moonwhisper Coast](Moonwhisper Coast). He traveled to the Coast alongside the Sentinels' expedition led by [Sentinel Commander Silverstreak](Sentinel Commander Silverstreak), though his presence was an unwelcome one and he was forbidden from resting in Narvalis Point along with them due to practicing the arcane.
 
 ## Quests
 - [quest: A Star That Calls Back] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 An unexpected visitor. I have not much to offer, but please, let me be as hospitable as I can be. My name is Zarazar Sagewind, from the esteemed capital of magic Dalaran. I know that title may be far-fetched, but our architects are making good strides in restoring our great city to its former glory.
 
 Thulio and I journeyed to this coast alongside the Sentinel expedition. Regrettably, they are a bit apprehensive when it comes to those mastering the arcane practices. While they allowed me to accompany them here, they forbade me from resting with them in their base camp. A bit shortsighted, if you ask me, but I am more than capable of fending more myself.

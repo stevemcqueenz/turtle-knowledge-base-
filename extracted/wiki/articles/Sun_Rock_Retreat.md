@@ -10,7 +10,7 @@ categories: ["Horde towns", "Pages with broken file links", "Stonetalon Mountain
 ---
 # Sun Rock Retreat
 
--Sun Rock Retreat** 50.1 60.8 Stonetalon Mountains (g/s/c) is a nice, [tauren](tauren)-style, [Horde](Horde) settlement in middle of the [Stonetalon Mountains](Stonetalon Mountains), south of [Mirkfallon Lake](Mirkfallon Lake). 
+**Sun Rock Retreat** 50.1 60.8 Stonetalon Mountains (g/s/c) is a nice, [tauren](tauren)-style, [Horde](Horde) settlement in middle of the [Stonetalon Mountains](Stonetalon Mountains), south of [Mirkfallon Lake](Mirkfallon Lake). 
 
 ## Facilities
 - [Flight Path](Flight Path)
@@ -22,13 +22,13 @@ categories: ["Horde towns", "Pages with broken file links", "Stonetalon Mountain
 
 ## Travel Connections
 ### Flight
-  - [Thunder Bluff](Thunder Bluff)**
+** [Thunder Bluff](Thunder Bluff)**
 
-  - [Zoram'gar Outpost](Zoram'gar Outpost)**
+** [Zoram'gar Outpost](Zoram'gar Outpost)**
 
-  - [The Crossroads](The Crossroads)**
+** [The Crossroads](The Crossroads)**
 
-  - [Shadowprey Village](Shadowprey Village)**
+** [Shadowprey Village](Shadowprey Village)**
 
 ## Sun Rock Retreat NPCs
 ...

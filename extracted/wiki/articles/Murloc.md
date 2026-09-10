@@ -10,7 +10,7 @@ categories: ["Creatures", "Humanoid", "Pages with broken file links", "Primitive
 ---
 # Murloc
 
--Aaaaaughibbrgubugbugrguburgle!* ([MP3 sound](http://www.owlboy.com/wowwiki/mMurlocAggroB.mp3), [Shockwave Flash sound](http://forums.worldofwarcraft.com/images-new/murloc_02.swf))
+*Aaaaaughibbrgubugbugrguburgle!* ([MP3 sound](http://www.owlboy.com/wowwiki/mMurlocAggroB.mp3), [Shockwave Flash sound](http://forums.worldofwarcraft.com/images-new/murloc_02.swf))
 
 The **murloc** is a bipedal amphibianoid race residing along coastlines, lakeshores and riverbeds, as well as in underwater ruins. Murlocs are distinguished by their bulbous bodies, large mouths lined with row upon row of sharp fangs, and slime-coated skin. Murlocs range in coloration from turquoise to darkish grey, and in height from 3-1/2 feet to 6 feet.
 

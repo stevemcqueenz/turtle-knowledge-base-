@@ -10,10 +10,10 @@ categories: ["Alchemy crafting reagent items", "Herbalism gathered items", "Herb
 ---
 # Wintersbite
 
--Wintersbite** is a rare [Herb](Herb) that can be gathered with [Herbalism](Herbalism) (195).
+**Wintersbite** is a rare [Herb](Herb) that can be gathered with [Herbalism](Herbalism) (195).
 
 ## Source
 Wintersbite can only be found in the [Alterac Mountains](Alterac Mountains) on [Eastern Kingdoms](Eastern Kingdoms), (*not to be confused with [Alterac Valley](Alterac Valley)*) specifically in the [Ruins of Alterac](Ruins of Alterac) region. A [skill](skill) level of 195 in [Herbalism](Herbalism) is required to gather this [herb](herbs). It's a grind to harvest, but the rewards are plentiful. Wintersbite can be a lucrative selling item in the [Auction House](Auction House) because of its rarity and somewhat painstaking and time consuming collection-effort.
 
 ### Pickable zones
--[Alterac Mountains](Alterac Mountains) 100%
+- [Alterac Mountains](Alterac Mountains) 100%

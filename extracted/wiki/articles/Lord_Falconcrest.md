@@ -26,7 +26,7 @@ categories: ["Arathi Highlands NPCs", "Arathi Highlands mobs", "Human characters
 | location | Stromgarde Keep, Arathi Highlands |
 | status | Killable |
 
--Lord Falconcrest** is one of the leaders of the [Syndicate](Syndicate), a vicious group of brigands led by former lords of Alterac bent on regaining their old territory and taking revenge on their enemies. He is found in [Stromgarde Keep](Stromgarde Keep) in the [Arathi Highlands](Arathi Highlands). Falconcrest is rarely seen without his servant and bodyguard [Otto](Otto) by his side. Prince [Galen Trollbane](Galen Trollbane) has placed a bounty on his head, (ref: [quest: Securing the Keep]) and he is thus currently marked for death by the [Stromgarde Militia](Stromgarde Militia) for his crimes. (ref: [quest: Wanted! Otto and Falconcrest]) He also directs operations against [Southshore](Southshore). (ref: [Foreboding Plans](Foreboding Plans))
+**Lord Falconcrest** is one of the leaders of the [Syndicate](Syndicate), a vicious group of brigands led by former lords of Alterac bent on regaining their old territory and taking revenge on their enemies. He is found in [Stromgarde Keep](Stromgarde Keep) in the [Arathi Highlands](Arathi Highlands). Falconcrest is rarely seen without his servant and bodyguard [Otto](Otto) by his side. Prince [Galen Trollbane](Galen Trollbane) has placed a bounty on his head, (ref: [quest: Securing the Keep]) and he is thus currently marked for death by the [Stromgarde Militia](Stromgarde Militia) for his crimes. (ref: [quest: Wanted! Otto and Falconcrest]) He also directs operations against [Southshore](Southshore). (ref: [Foreboding Plans](Foreboding Plans))
 
 ## Quests
 - [quest: Securing the Roads] 

@@ -10,7 +10,7 @@ categories: []
 ---
 # Small Thorium Vein
 
--Small Thorium Veins** can be found primarily in zones that are in the 50–60 level range.
+**Small Thorium Veins** can be found primarily in zones that are in the 50–60 level range.
 
 ## Contents
 With [Mining](Mining) (245), these veins can be looted for:

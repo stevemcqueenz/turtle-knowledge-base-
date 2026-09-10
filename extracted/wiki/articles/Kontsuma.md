@@ -22,6 +22,6 @@ categories: []
 
 *The subject of this article has been removed from Turtle WoW and is considered non-canon.*
 
-  -Kontsuma** is the largest populated settlement on the island of [Kamio](Kamio), a small island located in the [South Sea](South Sea). One year prior to the [Battle of Mount Hyjal](Battle of Mount Hyjal) (ref:  [11] [Troubles From Distant Lands](Troubles From Distant Lands)), the naga began to encroach upon their civilization, and the people of Kontsuma now look for help from the rest of the world.
+**Kontsuma** is the largest populated settlement on the island of [Kamio](Kamio), a small island located in the [South Sea](South Sea). One year prior to the [Battle of Mount Hyjal](Battle of Mount Hyjal) (ref:  [11] [Troubles From Distant Lands](Troubles From Distant Lands)), the naga began to encroach upon their civilization, and the people of Kontsuma now look for help from the rest of the world.
 
 ## References

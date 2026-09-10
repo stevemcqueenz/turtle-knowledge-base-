@@ -39,8 +39,8 @@ Now, begone, I have repaid his favor.
 
 ## Rewards
 You will receive:
--7850 XP
--+750 [reputation](reputation) with [Dalaran](Dalaran (faction))
+- 7850 XP
+- +750 [reputation](reputation) with [Dalaran](Dalaran (faction))
 
 ## Progress
 Yes?

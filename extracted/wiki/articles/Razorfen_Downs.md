@@ -25,7 +25,7 @@ categories: ["Barrens subzones", "Caves", "Dungeons", "Pages with broken file li
 | players | 5 |
 | bosses |  |
 
--Razorfen Downs** are the ancestral burial grounds of the [quilboar](quilboar), nestled amid huge brambles in the [Barrens](Barrens), on the east side of the far southern edge. The [Scourge](Scourge) have taken over much of the downs, and infest the burial grounds with the reawakened dead.
+**Razorfen Downs** are the ancestral burial grounds of the [quilboar](quilboar), nestled amid huge brambles in the [Barrens](Barrens), on the east side of the far southern edge. The [Scourge](Scourge) have taken over much of the downs, and infest the burial grounds with the reawakened dead.
 
 ## History
 From the [World Dungeons](https://wowpedia.fandom.com/wiki/Game_Guide/World_Dungeons) page on the official World of Warcraft Community Site:
@@ -51,84 +51,41 @@ WorldMap-RazorfenDowns.jpg
 |
 - '''Entrance
 |
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-|
+- - - - - - - - - - |
 |- valign=top class="alt"
 |
 - '''[The Caller's Chamber](Caller's Chamber)
-  -  
-|
-- 
-- 
-- 
-- 
-|
+  - |
+- - - - |
 |- valign=top
 |
 - '''[The Murder Pens](Murder Pens)
-  - 
-|
-- 
-- 
-- 
-- 
-|
+  - |
+- - - - |
 - [Belnistrasz](Belnistrasz)
 - [Henry Stern](Henry Stern)
 - [Sah'rhee](Sah'rhee)
 |- valign=top class="alt"
 |
 - '''[The Bone Pile](Bone Pile)
-  - 
-|
-- 
-- 
-|
+  - |
+- - |
 |- valign=top
 |
 - '''Beginning of the [Spiral of Thorns](Spiral of Thorns)
-  - 
-  - 
-|
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-|
+  -   - |
+- - - - - - - - |
 |- valign=top class="alt"
 |
 - **[Temple of Agamaggan](Temple of Agamaggan)**
-  - 
-|
-- 
-- 
-- 
-|
+  - |
+- - - |
 |- valign=top
 |
 - **[Spiral of Thorns](Spiral of Thorns)**
-  - 
-|
-- 
-- 
-- 
-  - 
-- 
-- 
-|
+  - |
+- - - - * 
+- |
 |}
 
 ## Quest guide
@@ -176,11 +133,11 @@ WorldMap-RazorfenDowns.jpg
 
 ## Patch changes
 - (Patch 1.18.0|note=New area and boss added: Death Prophet Rakameg. The Death's Head Cult, allied with the Scourge, forms an unholy alliance that must be stopped!)
--  **Patch 1.5.0 (2005-06-07):** New load screen added.
--  **Patch 1.3.0 (2005-03-07):**
+- **Patch 1.5.0 (2005-06-07):** New load screen added.
+- **Patch 1.3.0 (2005-03-07):**
   - Capped at ten players.
   - Lengthened the respawn time of many of the creatures in Razorfen Downs.
--  **Patch 0.8 (2004-07-07):** Opened and itemized.
--  **Patch 0.7 (2004-06-15):** Non-instanced version of dungeon added to give testers a sneak peek.
+- **Patch 0.8 (2004-07-07):** Opened and itemized.
+- **Patch 0.7 (2004-06-15):** Non-instanced version of dungeon added to give testers a sneak peek.
 
 ## References

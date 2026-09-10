@@ -10,7 +10,7 @@ categories: ["Eastern Plaguelands subzones", "Pages with broken file links", "Sc
 ---
 # Plaguewood
 
--Plaguewood** is a large area within the [Eastern Plaguelands](Eastern Plaguelands) directly south of [Stratholme](Stratholme) and stretching all the way to [Terrordale](Terrordale). It is heavily occupied by the [Scourge](Scourge) and contains large amounts of infrastructure, including [ziggurat](ziggurat)s and slaughterhouses.
+**Plaguewood** is a large area within the [Eastern Plaguelands](Eastern Plaguelands) directly south of [Stratholme](Stratholme) and stretching all the way to [Terrordale](Terrordale). It is heavily occupied by the [Scourge](Scourge) and contains large amounts of infrastructure, including [ziggurat](ziggurat)s and slaughterhouses.
 
 The area is presumably named Plaguewood because of the drastic effect that [Blight](Blight) has had on the landscape. The soil itself resembles a sponge in appearance, and the ecology of the area has been dramatically altered since the days of the plague. Fungus grows to amazing proportions, predominantly in the form of large mushrooms or toadstools, dwarfing nearby trees. It often belches out dark brown gas, looking in appearance similar to the gas that spews from [Plague Cauldrons](Plague Cauldrons); whether or not these fungi are a tool used by the Scourge to spread clouds of noxious plague gas is not clear.
 

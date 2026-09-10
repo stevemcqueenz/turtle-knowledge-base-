@@ -24,13 +24,13 @@ categories: ["Grim Reaches NPCs", "Quest enders", "Scholars", "Turtle WoW conten
 | location | Dun Kithas Magistrate, Grim Reaches |
 | status | Alive |
 
--Historian Sternhand** is a [Wildhammer dwarf](Wildhammer dwarf) quest ender located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
+**Historian Sternhand** is a [Wildhammer dwarf](Wildhammer dwarf) quest ender located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
 
 ## Quests
 - [quest: Brangar's Journal] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 A fellow historian perhaps? Are you here to learn of the great [Baggoth Ironmantle](Baggoth Ironmantle)? Renowned general and architect of the Grim Reaches? Did you know it was Baggoth himself that helped orchestrate the defense of the first Dragonmaw incursion?
 
 ...Maybe you're more interested in the fall of [Stolgaz Keep](Stolgaz Keep) some years ago?

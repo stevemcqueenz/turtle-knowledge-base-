@@ -11,10 +11,10 @@ categories: ["General wiki templates"]
 # Template:Cite web
 
 <includeonly>{{
-1.if: {{#if: {} | {{#if: {} |1}}}}
+1. if: {{#if: {} | {{#if: {} |1}}}}
   ||Error on call to [Template:cite web](Template:cite web): Parameters **url** and **title** must be specified
 }}{{
-1.if: {}{} 
+1. if: {}{} 
   | {{#if: {{#if: {}| {{#if: {} |1}}}}
     ||Error on call to [template:cite web](template:cite web): Parameters **archiveurl** and **archivedate** must be both specified or both omitted
 }}

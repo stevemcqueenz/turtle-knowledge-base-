@@ -25,10 +25,10 @@ categories: ["Mulgore NPCs", "Survival trainers", "Tauren characters", "Turtle W
 | location | Bloodhoof Village, Mulgore |
 | status | Alive |
 
--Nasnan Hillcreek** is a [tauren](tauren) Journeyman [survival](survival) trainer located in [Bloodhoof Village](Bloodhoof Village) in [Mulgore](Mulgore).
+**Nasnan Hillcreek** is a [tauren](tauren) Journeyman [survival](survival) trainer located in [Bloodhoof Village](Bloodhoof Village) in [Mulgore](Mulgore).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 For many years we have traveled across the lands of Kalimdor, persecuted by the centaur marauders. During that time, we learned much from the land, its dangers and its intransigence. If you wish to survive, you have to fight tooth and nail for it, as there is no mercy for you out there.
 
 ## Patch changes

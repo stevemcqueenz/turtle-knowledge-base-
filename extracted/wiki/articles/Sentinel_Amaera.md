@@ -24,7 +24,7 @@ categories: ["Feralas NPCs", "Night elf characters", "Sentinels", "Turtle WoW co
 | location | Thalanaar, Feralas |
 | status | Alive |
 
--Sentinel Amaera** is a [night elf](night elf) located in [Thalanaar](Thalanaar) in [Feralas](Feralas).
+**Sentinel Amaera** is a [night elf](night elf) located in [Thalanaar](Thalanaar) in [Feralas](Feralas).
 
 ## Patch changes
 - (Patch 1.16.4|note=Added.)

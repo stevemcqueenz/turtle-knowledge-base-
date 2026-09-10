@@ -24,7 +24,7 @@ categories: ["Booty Bay characters", "Human characters", "Pirates", "Quest giver
 | location | Booty Bay, Stranglethorn Vale |
 | status | Alive |
 
--Captain Hecklebury Smotts** is a [human](human) [quest giver](quest giver) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). His crew, boat, and entire fortune were lost when he was attacked by three [sea giant](sea giant)s: [Gorlash](Gorlash), [Negolash](Negolash) and [Mok'rash](Mok'rash). Gorlash stole his [Captain's Chest](Smotts' Chest). Negolash stole [Smotts' Cutlass](Smotts' Cutlass). Mok'rash stole his [Monogrammed Sash](Monogrammed Sash). Smotts bought another ship, *[Smotts' Revenge](Smotts' Revenge)*, to find the sea giants and get his revenge, but they sank that too and killed his second crew. The only other survivor of his second ship was [Sprogger](Sprogger), the cook. Smotts is looking for adventurers in order to help recover his possessions that were lost in the attack.
+**Captain Hecklebury Smotts** is a [human](human) [quest giver](quest giver) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). His crew, boat, and entire fortune were lost when he was attacked by three [sea giant](sea giant)s: [Gorlash](Gorlash), [Negolash](Negolash) and [Mok'rash](Mok'rash). Gorlash stole his [Captain's Chest](Smotts' Chest). Negolash stole [Smotts' Cutlass](Smotts' Cutlass). Mok'rash stole his [Monogrammed Sash](Monogrammed Sash). Smotts bought another ship, *[Smotts' Revenge](Smotts' Revenge)*, to find the sea giants and get his revenge, but they sank that too and killed his second crew. The only other survivor of his second ship was [Sprogger](Sprogger), the cook. Smotts is looking for adventurers in order to help recover his possessions that were lost in the attack.
 
 ## Quests
 - [quest: The Captain's Chest] 
@@ -33,7 +33,7 @@ categories: ["Booty Bay characters", "Human characters", "Pirates", "Quest giver
 - [quest: The Monogrammed Sash] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 They're out there! I can hear them at night, laughing. Oh, they'll pay! They... will... pay!!
 
 ## External links

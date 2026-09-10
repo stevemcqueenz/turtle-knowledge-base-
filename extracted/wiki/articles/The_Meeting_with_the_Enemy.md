@@ -46,7 +46,7 @@ You met with the Horde unauthorized? This could've provoked a major diplomatic i
 At least you learned important information.
 
 ## Notes
-  -Talking to Falgran Hastil**
+**Talking to Falgran Hastil**
 What is it you need?
 
   > Gossip: I am ready for the meeting.

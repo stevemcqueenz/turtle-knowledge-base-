@@ -10,7 +10,7 @@ categories: ["Blackstone Island subzones", "Stubs", "Turtle WoW content"]
 ---
 # Gazzik's Workshop
 
--Gazzik's Workshop** is an area located at [Blackstone Island](Blackstone Island).
+**Gazzik's Workshop** is an area located at [Blackstone Island](Blackstone Island).
 
 ## Patch changes
 - (Patch 1.17.1|note=Added.)

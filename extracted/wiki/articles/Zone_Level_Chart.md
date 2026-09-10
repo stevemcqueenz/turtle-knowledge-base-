@@ -1582,9 +1582,9 @@ Google spreadsheet: [**Link**](https://docs.google.com/spreadsheets/d/1vf7lmyBIv
 |R
 |}
 
-  -Grind levels 1 to 60 in 2 days / Power leveling**
+**Grind levels 1 to 60 in 2 days / Power leveling**
 
-  -Two Day Grind**
+**Two Day Grind**
 
 Horde Grinding Spots:
 
@@ -1617,7 +1617,7 @@ EXP Rates:
 - Levels 40-51 = 20-25k exp/hour
 - Levels 52-60 = 40-50k exp/hour (Dire Maul)
 
-  -Power Leveling**
+**Power Leveling**
 
 This is the method the power levelers have used since closed beta and I finally got one of them to give it up. It is by no means the way to go if you want to maximize your experience in the game as this method will bypass almost all the content in the game and essentially ignore many of the fun, unique aspects of WoW. This is not recommended for new players and is meant for players who already have experienced the content and just want to level up an alt to play with their level 60 friends (ie. your level 60 instance group needs a priest and there are no priests to be had). As a benchmark to how successful you are with this, download cosmos (Cosmos) and use the clock feature to measure your xp/hour. At level 50 you should be getting about 40,000+/hour. 1-20: Newbie lands, stick to the friendly zones (not contested). Just grind. The quests are a waste of time up to level 20 if you are focusing on maxing out xp per hour. 20-26: Wetlands quests and raptors/slime/orcs for grinding. Redridge mountain Lakeshire quests.
 

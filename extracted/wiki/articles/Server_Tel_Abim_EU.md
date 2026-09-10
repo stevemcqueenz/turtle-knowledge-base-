@@ -10,4 +10,4 @@ categories: ["Stubs"]
 ---
 # Server:Tel'Abim EU
 
--Tel'Abim** is a PvP server that was launched on October 27th, 2023.
+**Tel'Abim** is a PvP server that was launched on October 27th, 2023.

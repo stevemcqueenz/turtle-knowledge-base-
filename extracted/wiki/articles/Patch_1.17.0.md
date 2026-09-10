@@ -10,7 +10,7 @@ categories: ["Patches"]
 ---
 # Patch 1.17.0
 
--Patch 1.17.0: Beyond the Greymane Wall** was released on October 3, 2023.
+**Patch 1.17.0: Beyond the Greymane Wall** was released on October 3, 2023.
 
 ## Trailer
 ## Patch notes
@@ -153,7 +153,7 @@ If you do not care about the mystery and tracking down of these creatures you ca
 - M-0L1Y (???)
 
 ### PvP changes
-  -Sunnyglade Valley**
+**Sunnyglade Valley**
 - Sunnyglade Valley is now a part of the Battleground Weekend rotation, granting double honor and reputation gains while active.
 - You will now be able to earn marks for winning and losing Sunnyglade matches, being rewarded with 3 and 1 marks respectively.
 - Added an introduction sequence that explains the premise and objective, during the preparation period before the battleground begins.
@@ -174,7 +174,7 @@ If you do not care about the mystery and tracking down of these creatures you ca
   - Turning in sparks now awards you with reputation, and the amount of reputation rewarded at the end of the battleground has been reduced to compensate for this
   - Added a healing leaf buff pickup in the empty room of the keep found in the middle of the map.
 
-  -Blood Ring Arena**
+**Blood Ring Arena**
 - Blood Ring is being changed from 2v2 to 3v3. This change does not mean that 2v2 is going away forever though, it will return using the Ruins of Lordaeron as its dedicated arena at a later date. 2v2 will also grant the Steamwheedle Blood Ring reputation and honor, but at lower rates due to matches lasting a shorter amount of time.
 - Reputation rewards for Blood Ring have been increased to compensate for the increased durations that come with 3v3 matches.
 - Blood Ring is now a part of the Battleground Weekend rotation, granting double honor and reputation gains while active.
@@ -187,10 +187,10 @@ If you do not care about the mystery and tracking down of these creatures you ca
   - Formula: Enchant Gloves - Major Strength, granting 9 Strength to your gloves.
   - Recipe: Gurubashi Gumbo, a delight for the seasoned gladiator that grants 10 Stamina and reduces the chance to get critically struck by 1% if eaten for atleast 10 seconds.
 
-  -Warsong Gulch**
+**Warsong Gulch**
 - Capturing a flag now grants your team 108 reputation up from 35 reputation, amounting to 324 reputation if you capture all three flags to win the battleground.
 
-  -Arathi Basin**
+**Arathi Basin**
 - The reputation points granted for gathering resources has been increased from 13 to 25 for each tick, amounting to 325 reputation with 13 ticks if you acquire enough resources to win the battleground.
 
 ### Gathering

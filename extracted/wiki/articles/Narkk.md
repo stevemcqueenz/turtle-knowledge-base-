@@ -25,7 +25,7 @@ categories: ["Bloodsail Buccaneers", "Companion vendors", "Goblin characters", "
 | location | Old Port Authority, Stranglethorn Vale |
 | status | Alive |
 
--Narkk** is a [goblin](goblin) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale) where he runs [Nautical Needs](Nautical Needs). He is in truth working on the behalf of [Garfield Sparkblast](Garfield Sparkblast) of the [Bloodsail Buccaneers](Bloodsail Buccaneers) to steal weapon crates from the [Blackwater Raiders](Blackwater Raiders).
+**Narkk** is a [goblin](goblin) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale) where he runs [Nautical Needs](Nautical Needs). He is in truth working on the behalf of [Garfield Sparkblast](Garfield Sparkblast) of the [Bloodsail Buccaneers](Bloodsail Buccaneers) to steal weapon crates from the [Blackwater Raiders](Blackwater Raiders).
 
 ## Quests
 - [quest: Weapons Laying About] 

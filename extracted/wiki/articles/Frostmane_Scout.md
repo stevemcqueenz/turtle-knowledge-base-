@@ -23,7 +23,7 @@ categories: ["Dun Morogh mobs", "Ice troll characters", "Turtle WoW content"]
 | creature | Humanoid |
 | location | Frostmane Hollow, Dun Morogh |
 
--Frostmane Scouts** are [ice troll](ice troll)s of the [Frostmane clan](Frostmane clan) located at [Frostmane Hollow](Frostmane Hollow) in [Dun Morogh](Dun Morogh).
+**Frostmane Scouts** are [ice troll](ice troll)s of the [Frostmane clan](Frostmane clan) located at [Frostmane Hollow](Frostmane Hollow) in [Dun Morogh](Dun Morogh).
 
 ## Objective of
 - [quest: The Frostmane War]

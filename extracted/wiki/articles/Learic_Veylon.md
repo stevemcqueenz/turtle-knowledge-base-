@@ -25,7 +25,7 @@ categories: ["Food and drink vendor", "Gilneas NPCs", "Human characters", "Turtl
 | location | Blackthorn's Camp, Gilneas |
 | status | Alive |
 
--Learic Veylon** is a [human](human) food and drink vendor  located in [Blackthorn's Camp](Blackthorn's Camp) in [Gilneas](Gilneas).
+**Learic Veylon** is a [human](human) food and drink vendor  located in [Blackthorn's Camp](Blackthorn's Camp) in [Gilneas](Gilneas).
 
 ## Quotes
 Hey, everyone's gotta eat, am I right? Well, anyone who is alive that is. In any case, if you're hungry, I can spare some of our stash. You better have gold on you though.

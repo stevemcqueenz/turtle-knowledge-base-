@@ -16,21 +16,21 @@ Checks to see if a unit is flagged for PvP or not.
 </syntaxhighlight>
 ----
 
-  - *Arguments***
+** *Arguments***
 
   ; unit ([UnitID](API Type UnitId))
    the unit name (e.g., "target")
 
 ----
 
-  - *Returns***
+** *Returns***
 
   ; ispvp
    1 if the unit is flagged for PvP, nil otherwise.
 
 ----
 
-  - *Example***
+** *Example***
 <syntaxhighlight lang="lua">
  if (UnitIsPVP("target")) then
   -- Target is flagged for PvP

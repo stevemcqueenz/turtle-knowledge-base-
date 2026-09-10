@@ -30,31 +30,19 @@ categories: ["Alliance quest hubs", "Alliance settlements", "Camps", "Moonwhispe
 | flightpath | Yes |
 | status | Active |
 
--Narvalis Point** is an [Alliance](Alliance)-aligned encampment located in northeast [Moonwhisper Coast](Moonwhisper Coast). It is the base camp of a Sentinels expedition led by [Sentinel Commander Silverstreak](Sentinel Commander Silverstreak) sent by General [Shandris Feathermoon](Shandris Feathermoon) to investigate reports of strange events along Moonwhisper's forgotten shores. (ref: [quest: Endless Vigil])
+**Narvalis Point** is an [Alliance](Alliance)-aligned encampment located in northeast [Moonwhisper Coast](Moonwhisper Coast). It is the base camp of a Sentinels expedition led by [Sentinel Commander Silverstreak](Sentinel Commander Silverstreak) sent by General [Shandris Feathermoon](Shandris Feathermoon) to investigate reports of strange events along Moonwhisper's forgotten shores. (ref: [quest: Endless Vigil])
 
 ## Travel Connections
 ### Flight
-  - [Talrendis Point](Talrendis Point), [Azshara](Azshara)**
-  - [Moro'gai Village](Moro'gai Village), [Moonwhisper Coast](Moonwhisper Coast)**
-  - [Everlook](Everlook), [Winterspring](Winterspring)**
+** [Talrendis Point](Talrendis Point), [Azshara](Azshara)**
+** [Moro'gai Village](Moro'gai Village), [Moonwhisper Coast](Moonwhisper Coast)**
+** [Everlook](Everlook), [Winterspring](Winterspring)**
 
 ## Inhabitants
 ### Quest givers
-- 
-- 
-- 
-- 
-
-### Goods and services
-- 
-- 
-- 
-- 
-
-### Additional characters
-- 
-
-## Patch changes
+- - - - ### Goods and services
+- - - - ### Additional characters
+- ## Patch changes
 - (Patch 1.18.1|note=Added.)
 
 ## References

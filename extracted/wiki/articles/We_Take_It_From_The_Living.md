@@ -47,7 +47,7 @@ Now that is impressive. Let us see how this blood will react with my concoction.
 
 ## Progression
 ## Notes
-  -Upon completion**
+**Upon completion**
   The concoction explodes violently, covering Orvan in blood.
   **Orvan Darkeye says:** Damn it! We will need the blasted book after all.
 

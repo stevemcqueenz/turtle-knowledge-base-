@@ -24,7 +24,7 @@ categories: ["High elf characters", "Quest givers", "Thalassian Highlands NPCs",
 | location | Brinthilien, Thalassian Highlands |
 | status | Alive |
 
--Commander Anarileth** is a [high elf](high elf) [quest giver](quest giver) located in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands). She is a ranger of the [Silvermoon Remnant](Silvermoon Remnant) who was tasked by the [Regency Council](Regency Council) with providing sustenance and shelter for all those who seek refuge in the Highlands. (ref: [quest: Provisions for Refugees])
+**Commander Anarileth** is a [high elf](high elf) [quest giver](quest giver) located in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands). She is a ranger of the [Silvermoon Remnant](Silvermoon Remnant) who was tasked by the [Regency Council](Regency Council) with providing sustenance and shelter for all those who seek refuge in the Highlands. (ref: [quest: Provisions for Refugees])
 
 ## Quests
 - [quest: Refugees no More] 
@@ -41,7 +41,7 @@ categories: ["High elf characters", "Quest givers", "Thalassian Highlands NPCs",
 - [quest: Message for the Windrunner] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Welcome to Brinthilien, young <class>. May the Eternal Sun shine upon you.
 
 ## Patch changes

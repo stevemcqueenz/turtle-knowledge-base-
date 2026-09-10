@@ -10,6 +10,6 @@ categories: ["Durotar subzones", "Jungle troll territories", "Orc territories", 
 ---
 # Spirit Rock
 
--Spirit Rock** is a place sacred to the [shaman](shaman) of the [Horde](Horde). It is located in the hills high above the [Valley of Trials](Valley of Trials) in [Durotar](Durotar), and is accessible from the [Hidden Path](Hidden Path) leading up to it.
+**Spirit Rock** is a place sacred to the [shaman](shaman) of the [Horde](Horde). It is located in the hills high above the [Valley of Trials](Valley of Trials) in [Durotar](Durotar), and is accessible from the [Hidden Path](Hidden Path) leading up to it.
 
 Aspiring shaman used to drink a sapta near the rock in order to commune with the earth.

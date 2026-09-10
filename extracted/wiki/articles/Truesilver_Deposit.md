@@ -10,4 +10,4 @@ categories: ["Mining nodes", "Pages with broken file links"]
 ---
 # Truesilver Deposit
 
--Truesilver Deposits** rarely spawn in place of [Mithril Deposit](Mithril Deposit)s or [Small Thorium Vein](Small Thorium Vein)s; as a result, they can be found in any zone where mithril or thorium is found.
+**Truesilver Deposits** rarely spawn in place of [Mithril Deposit](Mithril Deposit)s or [Small Thorium Vein](Small Thorium Vein)s; as a result, they can be found in any zone where mithril or thorium is found.

@@ -25,20 +25,20 @@ categories: ["Bosses", "Human characters", "Stormwind Vault mobs", "Turtle WoW c
 | status | Killable |
 | instance | Stormwind Vault |
 
--Aszosh Grimflame** is a boss in the [Stormwind Vault](Stormwind Vault).
+**Aszosh Grimflame** is a boss in the [Stormwind Vault](Stormwind Vault).
 
 ## Quotes
-  -Aggro**
+**Aggro**
   I was amongst the first, and I will claim vengeance for Gul'dan!
 
-  -During combat**
+**During combat**
   Rise bones of misery and serve your new master!
   Your strength becomes my own!
   Your own mind shall become your enemy.
   You will serve me soon!
   I will take everything you have!
 
-  -Death**
+**Death**
   Your will is not your... *cough* own...
 
 ## Loot

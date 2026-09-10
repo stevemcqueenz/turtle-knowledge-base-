@@ -10,7 +10,7 @@ categories: ["Dustwallow Marsh subzones", "Elite areas", "Islands", "Pages with 
 ---
 # Alcaz Island
 
--Alcaz Island** is a large island off the northeast coast of [Dustwallow Marsh](Dustwallow Marsh). Unlike the rest of the zone, it features tropical vegetation similar to the nearby [Echo Isles](Echo Isles). It is inhabited mostly by [naga](naga)s and [hydra](hydra)s, which can be found in the water around the island. 
+**Alcaz Island** is a large island off the northeast coast of [Dustwallow Marsh](Dustwallow Marsh). Unlike the rest of the zone, it features tropical vegetation similar to the nearby [Echo Isles](Echo Isles). It is inhabited mostly by [naga](naga)s and [hydra](hydra)s, which can be found in the water around the island. 
 
 Once a human settlement, naga have taken over Alcaz Island and seem to be protecting something. Rumors abound, but so far no one has uncovered what the naga may be hiding. Alcaz was a small human village with an underground tunnel system, and presumably the tunnel system might be where the naga are hiding whatever it is they are guarding. Hydras also dwell off the coast; these may be native to the area, or the naga may have summoned them.
 

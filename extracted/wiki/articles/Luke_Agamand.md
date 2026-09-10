@@ -25,7 +25,7 @@ categories: ["Gilneas NPCs", "Human characters", "Quest givers", "Turtle WoW con
 | relatives | Agamand family |
 | status | Alive |
 
--Luke Agamand** is a [human](human) [quest giver](quest giver) located in [Blackthorn's Camp](Blackthorn's Camp) in [Gilneas](Gilneas). An outcast in his own family, the prosperous [Agamands](Agamand family) of [Tirisfal](Tirisfal Glades), Luke was disowned and banished from his own home, ironically sparing him the fate of his family during the scourging of Lordaeron. After being cast out of his home, Luke found his way into the bandit lord [Blackthorn](Blackthorn)'s notice and joined his crew, the [Agamand Mills](Agamand Mills) being one of his first raids. (ref: [quest: Report to Luke Agamand])
+**Luke Agamand** is a [human](human) [quest giver](quest giver) located in [Blackthorn's Camp](Blackthorn's Camp) in [Gilneas](Gilneas). An outcast in his own family, the prosperous [Agamands](Agamand family) of [Tirisfal](Tirisfal Glades), Luke was disowned and banished from his own home, ironically sparing him the fate of his family during the scourging of Lordaeron. After being cast out of his home, Luke found his way into the bandit lord [Blackthorn](Blackthorn)'s notice and joined his crew, the [Agamand Mills](Agamand Mills) being one of his first raids. (ref: [quest: Report to Luke Agamand])
 
 ## Quests
 - [quest: Forsaken at the Church] 

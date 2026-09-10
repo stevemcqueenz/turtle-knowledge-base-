@@ -10,4 +10,4 @@ categories: ["Stubs"]
 ---
 # Server:Hogger SEA
 
--Hogger**  is a PvE server that was launched on September 9th, 2023.
+**Hogger**  is a PvE server that was launched on September 9th, 2023.

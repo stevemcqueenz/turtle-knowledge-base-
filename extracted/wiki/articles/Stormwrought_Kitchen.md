@@ -13,7 +13,4 @@ categories: ["Stormwrought Ruins subzones"]
 The **Stormwrought Kitchen** is a kitchen inside [Stormwrought Ruins](Stormwrought Ruins). It is here that [Dagar the Glutton](Dagar the Glutton) can be fought.
 
 ## NPCs
-- 
-- 
-- 
--
+- - - -

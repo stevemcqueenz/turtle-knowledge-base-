@@ -24,7 +24,7 @@ categories: ["Blackrock clan", "Deceased characters", "Orc characters", "Thunder
 | companions | Durotan (best friend) |
 | students | Thrall (heir and protegé) |
 
--Orgrim Doomhammer** was the Warchief of the [Old Horde](Old Horde) and Chieftain of the [Blackrock clan](Blackrock clan) during the end of the [First War](First War) and the entirety of the [Second War](Second War). The orcish capital of [Orgrimmar](Orgrimmar) and the Horde-controlled town of [Hammerfall](Hammerfall) in the [Arathi Highlands](Arathi Highlands) are named in his honor. He was also known as the Backstabber by loyalists of [Gul'dan](Gul'dan) and [Blackhand](Blackhand).
+**Orgrim Doomhammer** was the Warchief of the [Old Horde](Old Horde) and Chieftain of the [Blackrock clan](Blackrock clan) during the end of the [First War](First War) and the entirety of the [Second War](Second War). The orcish capital of [Orgrimmar](Orgrimmar) and the Horde-controlled town of [Hammerfall](Hammerfall) in the [Arathi Highlands](Arathi Highlands) are named in his honor. He was also known as the Backstabber by loyalists of [Gul'dan](Gul'dan) and [Blackhand](Blackhand).
 
 ## Background
 Before becoming Warchief of the Horde in Azeroth, Orgrim rose to power through the [Thunderlord clan](Thunderlord clan). (ref: 

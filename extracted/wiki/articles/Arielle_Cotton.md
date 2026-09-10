@@ -24,10 +24,10 @@ categories: ["Human characters", "Kul Tiras (kingdom)", "Northwind NPCs", "Turtl
 | location | Jousting Grounds, Northwind |
 | status | Alive |
 
--Arielle Cotton** is a [human](human) located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind).
+**Arielle Cotton** is a [human](human) located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 You must forgive [Malleville](Malleville Graeme)'s attitude. He lost many good friends and comrades in the Second War, and experienced many of its horrors personally. I will make sure he stays civil and doesn't hurt anyone, I'll give you my word.
 
 ## Patch changes

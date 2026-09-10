@@ -13,15 +13,7 @@ categories: ["Draenei territories", "Moonwhisper Coast subzones", "Turtle WoW co
 The **Servitor's Sanctuary** is a [draenei](draenei) village in [Moonwhisper Coast](Moonwhisper Coast) inhabited by the [Fallen Ones](Fallen Ones) led by [Elder Bhu'robi](Elder Bhu'robi). It was established when Bhu'robi left the [Moro'gai tribe](Moro'gai tribe) with his followers, dissatisfied with [Moro'gai K'la](Moro'gai K'la)'s failing leadership. When an arcane meteor fell from the skies at [Starshard Cradle](Starshard Cradle), part of the sanctuary was caught in the blast. (ref: [Writings of the Elder](Writings of the Elder))
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - - - - ## Patch changes
 - (Patch 1.18.1|note=Added.)
 
 ## References

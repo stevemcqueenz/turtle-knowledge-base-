@@ -25,7 +25,7 @@ categories: ["Balor mobs", "Orc characters", "Stormreaver clan", "Turtle WoW con
 | location | Stormwrought Castle, Balor;, Stormreaver Spire, Balor |
 | status | Killable |
 
--Stormreaver Torturers** are [orc](orc)s located in [Stormwrought Castle](Stormwrought Castle) and [Stormreaver Spire](Stormreaver Spire) in [Balor](Balor).
+**Stormreaver Torturers** are [orc](orc)s located in [Stormwrought Castle](Stormwrought Castle) and [Stormreaver Spire](Stormreaver Spire) in [Balor](Balor).
 
 ## Objective of
 - Drops [Stormreaver Insignia](Stormreaver Insignia) for [quest: Into The Hornet's Nest].

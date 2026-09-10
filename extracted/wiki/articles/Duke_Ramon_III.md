@@ -25,7 +25,7 @@ categories: ["Human characters", "Stormwind City NPCs", "Turtle WoW content"]
 | location | Petitioner's Chamber, Stormwind Keep, Stormwind City |
 | status | Alive |
 
--Duke Ramon III** is a human located in [Stormwind Keep](Stormwind Keep) in the city of [Stormwind](Stormwind City). He is a member of the influential House of Nobles and can be found in the [Petitioner's Chamber](Petitioner's Chamber), the first room on the right through the keep's main entrance. It was at his behest that [Martin Corinth](Harlus Ashbuckle)'s execution was delayed and that he was released from the Stockades.
+**Duke Ramon III** is a human located in [Stormwind Keep](Stormwind Keep) in the city of [Stormwind](Stormwind City). He is a member of the influential House of Nobles and can be found in the [Petitioner's Chamber](Petitioner's Chamber), the first room on the right through the keep's main entrance. It was at his behest that [Martin Corinth](Harlus Ashbuckle)'s execution was delayed and that he was released from the Stockades.
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

@@ -24,7 +24,7 @@ categories: ["Human characters", "Stormwind Vault mobs", "Turtle WoW content"]
 | location | Stormwind Vault |
 | status | Killable |
 
--Maddened Vault Guards** are humans found in the [Stormwind Vault](Stormwind Vault).
+**Maddened Vault Guards** are humans found in the [Stormwind Vault](Stormwind Vault).
 
 ## Abilities
 - Knock Away

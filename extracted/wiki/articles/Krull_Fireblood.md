@@ -25,7 +25,7 @@ categories: ["Barrens NPCs", "Orc characters", "Turtle WoW content"]
 | location | Barrens |
 | status | Alive |
 
--Krull Fireblood** is an [orc](orc)  located in the [Barrens](Barrens).
+**Krull Fireblood** is an [orc](orc)  located in the [Barrens](Barrens).
 
 ## Quotes
 ### Gossip

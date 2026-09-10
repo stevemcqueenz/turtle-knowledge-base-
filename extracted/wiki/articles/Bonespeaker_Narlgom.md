@@ -25,22 +25,22 @@ categories: ["Bosses", "Tauren characters", "Turtle WoW content", "Windhorn Cany
 | status | Killable |
 | instance | Windhorn Canyon |
 
--Bonespeaker Narlgom** is a boss in [Windhorn Canyon](Windhorn Canyon).
+**Bonespeaker Narlgom** is a boss in [Windhorn Canyon](Windhorn Canyon).
 
 ## Abilities
 - Rain of Fire
 
 ## Quotes
-  -Aggro**
+**Aggro**
   My powers will lead us to victory!
 
-  -At 50%**
+**At 50%**
   The Windhorn were just a nuisance!
 
-  -Champion Rotag appears**
+**Champion Rotag appears**
   **Spirit of Champion Rotag yells:** I have returned...
 
-  -Death**
+**Death**
   I do not fear death... I embrace it...
 
 ## Loot

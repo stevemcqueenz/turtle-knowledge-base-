@@ -19,7 +19,7 @@ In modern times, 'undead' refers primarily to either the [Scourge](Scourge) or t
 
 - Cannot be [skinned](skinnable), except for certain undead animals that would otherwise be classified as [Beast](Beast)s (i.e.: [bear](bear)s, [boar](boar)s, [wolves](wolf), etc.).
 - Generally are unaffected by mind affecting spells, like [fear](fear), [hibernate](hibernate), [sleep](sleep) or [mind control](mind control).
-  -*See also:** [Undead category](:Category:Undead)
+- **See also:** [Undead category](:Category:Undead)
 
 ### Examples of Undead
 - [Forsaken](Forsaken) player characters

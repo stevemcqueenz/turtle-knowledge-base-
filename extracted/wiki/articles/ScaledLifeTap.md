@@ -10,17 +10,17 @@ categories: ["Addon"]
 ---
 # ScaledLifeTap
 
--ScaledLifeTap** (SLT) automatically scales your Life Tap spell to the appropriate rank based on your equipment and talent effects. It takes into account damage bonuses from gear and talents like Improved Life Tap.
+**ScaledLifeTap** (SLT) automatically scales your Life Tap spell to the appropriate rank based on your equipment and talent effects. It takes into account damage bonuses from gear and talents like Improved Life Tap.
 
 ## Installation
-  -Manual Installation Only**
+**Manual Installation Only**
 
 # Go to the main page of the repository.
 # Click the **<> Code** dropdown and download the repository as a <code>.zip</code>.
 # Unpack the <code>.zip</code> and move the ScaledLifeTap and BonusScanner folder from ScaledLifeTap_v3 into your <code>Interface/AddOns</code> directory 
 # Restart the game.
 
-  -Note:**
+**Note:**
 
 - The addon requires **[BonusScanner](BonusScanner)** for gear bonus detection.
 

@@ -24,7 +24,7 @@ categories: ["Dryads", "Moonwhisper Coast NPCs", "Quest givers", "Turtle WoW con
 | location | Grove of the Sun, Moonwhisper Coast |
 | status | Alive |
 
--Sister Mirallun** is a [dryad](dryad) quest giver located in the [Grove of the Sun](Grove of the Sun) in [Moonwhisper Coast](Moonwhisper Coast).
+**Sister Mirallun** is a [dryad](dryad) quest giver located in the [Grove of the Sun](Grove of the Sun) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: A Dryad's Counsel] 
@@ -32,7 +32,7 @@ categories: ["Dryads", "Moonwhisper Coast NPCs", "Quest givers", "Turtle WoW con
 - [quest: Keeper of the Broken Grove] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Bandalar is protecting everyone with everything he's got. Us sisters of the Wild trust him fully, was it not him who protected us against the Burning Legion during the Third War, too. The dryads will aid him with all their might! The protectors of nature will stand strong and united against the evil of this world.
 
 ## Patch changes

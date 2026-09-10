@@ -24,10 +24,10 @@ categories: ["Human characters", "Kul Tiras (kingdom)", "Stormwind City NPCs", "
 | location | Davenburg, Stormwind Harbor, Stormwind City |
 | status | Alive |
 
--Darwin Holdfall** is a [human](human) located in [Davenburg](Davenburg) in [Stormwind Harbor](Stormwind Harbor) in [Stormwind City](Stormwind City).
+**Darwin Holdfall** is a [human](human) located in [Davenburg](Davenburg) in [Stormwind Harbor](Stormwind Harbor) in [Stormwind City](Stormwind City).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Stormwind was kind enough to offer us accomodations and a place to hold our Embassy. I feel it will be quite a while until the two kingdoms see eye to eye to stand together.
 
 ## Patch changes

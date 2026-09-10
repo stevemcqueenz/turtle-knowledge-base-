@@ -25,10 +25,10 @@ categories: ["Guards", "Human characters", "Swamp of Sorrows NPCs", "Turtle WoW 
 | status | Alive |
 | gender | Male |
 
--Watchman Damion** is a [human](human) guard located in [Sorrowguard Keep](Sorrowguard Keep) in the [Swamp of Sorrows](Swamp of Sorrows).
+**Watchman Damion** is a [human](human) guard located in [Sorrowguard Keep](Sorrowguard Keep) in the [Swamp of Sorrows](Swamp of Sorrows).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 You heard anything from Stormwind? Those bastards have left us high and dry out here.
 
 ## Patch changes

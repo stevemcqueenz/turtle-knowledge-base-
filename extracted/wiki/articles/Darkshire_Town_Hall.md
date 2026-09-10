@@ -13,12 +13,4 @@ categories: ["Clocks", "Duskwood subzones", "Human territories", "Town halls"]
 The **Darkshire Town Hall** is the seat of rule for [Darkshire](Darkshire)'s mayor, [Lord Ello Ebonlocke](Lord Ello Ebonlocke). It also houses the members of the [Darkshire Council](Council of Darkshire) as well as historians and clerks. It is located on the western edge of the Darkshire town square. In the town hall, [Clerk Daltry](Clerk Daltry) keeps records of the people that live and pass through the town, although some of his records are a little outdated. (ref:  [30] [The Caravan Road](The Caravan Road))
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-## References
+- - - - - - - ## References

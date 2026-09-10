@@ -10,6 +10,6 @@ categories: ["Herbalism gathered items", "Herbs"]
 ---
 # Arthas' Tears
 
--Arthas' Tears** is an [herb](herb) that can be gathered with [Herbalism](Herbalism) (220)
+**Arthas' Tears** is an [herb](herb) that can be gathered with [Herbalism](Herbalism) (220)
 ## Notes and trivia
 - Arthas' Tears is named after [Arthas Menethil](Arthas Menethil).

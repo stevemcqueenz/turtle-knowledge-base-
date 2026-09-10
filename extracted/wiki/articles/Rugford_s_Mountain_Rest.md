@@ -10,13 +10,10 @@ categories: ["Dark Iron dwarf territories", "Dun Morogh subzones", "Inns", "Tave
 ---
 # Rugford's Mountain Rest
 
--Rugford's Mountain Rest** is a famous and beloved inn that is nestled in the southeastern mountains of [Dun Morogh](Dun Morogh), uphill behind [Ironband's Compound](Ironband's Compound). Established many years ago by [Durmir Rugford](Durmir Rugford), it formerly offered respite and rest for the mountaineers of Ironforge, and has now been overrun by sinister Dark Iron marauders sowing chaos in the dwarven kingdom. (ref: [New Zones & World Edits](https://web.archive.org/web/20260514170802/https://turtlecraft.gg/new-locations-and-maps). Archived from [the original](https://turtlecraft.gg/new-locations-and-maps) on 2026-05-14. Retrieved on 2026-29-08.)
+**Rugford's Mountain Rest** is a famous and beloved inn that is nestled in the southeastern mountains of [Dun Morogh](Dun Morogh), uphill behind [Ironband's Compound](Ironband's Compound). Established many years ago by [Durmir Rugford](Durmir Rugford), it formerly offered respite and rest for the mountaineers of Ironforge, and has now been overrun by sinister Dark Iron marauders sowing chaos in the dwarven kingdom. (ref: [New Zones & World Edits](https://web.archive.org/web/20260514170802/https://turtlecraft.gg/new-locations-and-maps). Archived from [the original](https://turtlecraft.gg/new-locations-and-maps) on 2026-05-14. Retrieved on 2026-29-08.)
 
 ## NPCs
-- 
-- 
-
-## Gallery
+- - ## Gallery
 <gallery>
 Ironband's Compound and entrance to Rugford's Mountain Rest.png|The entrance to Rugford's Mountain Rest, behind Ironband's Compound.
 Inside Rugford's Mountain Rest. .png

@@ -23,7 +23,7 @@ categories: ["Crescent Grove mobs", "Furbolg characters", "Turtle WoW content"]
 | creature | Humanoid |
 | location | The Crescent Grove |
 
--Elder Blackmaw** is a furbolg of the Groveweald tribe located in the [Crescent Grove](Crescent Grove) that accompanies [Grovetender Engryss](Grovetender Engryss) alongside [Elder 'One Eye'](Elder 'One Eye').
+**Elder Blackmaw** is a furbolg of the Groveweald tribe located in the [Crescent Grove](Crescent Grove) that accompanies [Grovetender Engryss](Grovetender Engryss) alongside [Elder 'One Eye'](Elder 'One Eye').
 
 ## Objective of
 - Drops [Paw of Elder Blackmaw](Paw of Elder Blackmaw) for  [34D] [The Unwise Elders](The Unwise Elders).

@@ -25,14 +25,14 @@ categories: ["Dwarf characters", "Explorers' League", "Quest givers", "Stonetalo
 | location | Bael Hardul, Stonetalon Mountains |
 | status | Alive |
 
--Mountaineer Truthforge** is a [dwarf](dwarf) [quest giver](quest giver) located in [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains).
+**Mountaineer Truthforge** is a [dwarf](dwarf) [quest giver](quest giver) located in [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains).
 
 ## Quests
 - [quest: The Cursed Bramblethorn Pass] 
 - [quest: Gorras Thorncrusher] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 We are far in hostile territory, practically surrounded by enemies. It is best to keep our whits about us and be ready for a fight.
 
 Are you looking to assist us here in Bael Hardul?

@@ -21,6 +21,6 @@ categories: ["Deceased characters", "Gilneas (kingdom)", "Gilneas City objects",
 | titles | Hierophant |
 | status | Deceased |
 
--Joshua the Redeemer** was a historical Gilnean figure. A devout man of the Holy Light, a statue is erected in his honor in [Gilneas City](Gilneas City) in the square outside of the outskirts to [Greymane Tower](Greymane Tower).
+**Joshua the Redeemer** was a historical Gilnean figure. A devout man of the Holy Light, a statue is erected in his honor in [Gilneas City](Gilneas City) in the square outside of the outskirts to [Greymane Tower](Greymane Tower).
 
 ## Joshua's Memorial

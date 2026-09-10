@@ -14,13 +14,13 @@ Returns true if the player has a pet User Interface.
  hasUI = HasPetUI();
 ----
 
-  - *Arguments***
+** *Arguments***
 
    *none*
 
 ----
 
-  - *Returns***
+** *Returns***
 
    hasUI
   ; hasUI
@@ -28,11 +28,11 @@ Returns true if the player has a pet User Interface.
 
 ----
 
-  - *Example***
+** *Example***
 
   if ( HasPetUI() ) then DoPetStuff(); end
 
-  - *Result***
+** *Result***
 
  true | false
 

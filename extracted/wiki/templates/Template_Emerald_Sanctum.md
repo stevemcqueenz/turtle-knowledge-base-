@@ -19,9 +19,9 @@ categories: ["Instance navigation templates"]
 [Solnius](Solnius)
 
 |
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
 |-
 | class="title" colspan="2"| [Loot](Emerald Sanctum loot)

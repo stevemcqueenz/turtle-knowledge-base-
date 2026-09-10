@@ -24,7 +24,7 @@ categories: ["Defias Brotherhood", "Human characters", "Northwind mobs", "Rogue 
 | location | Northwind |
 | status | Killable |
 
--Defias Robbers** are [human](human)s located in [Northwind](Northwind).
+**Defias Robbers** are [human](human)s located in [Northwind](Northwind).
 
 ## Abilities
 - Backstab

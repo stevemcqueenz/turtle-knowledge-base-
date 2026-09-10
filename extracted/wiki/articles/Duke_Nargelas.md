@@ -25,7 +25,7 @@ categories: ["Aristocrats", "Forsaken characters", "Quest givers", "Tirisfal Gla
 | status | Alive |
 | relatives | Grelda (wife), Faliona (sister-in-law) |
 
--Duke Nargelas** is a [Forsaken](Forsaken) quest giver located in [Glenshire](Glenshire) in the [Tirisfal Glades](Tirisfal Glades).
+**Duke Nargelas** is a [Forsaken](Forsaken) quest giver located in [Glenshire](Glenshire) in the [Tirisfal Glades](Tirisfal Glades).
 
 ## Quests
 - [quest: Darlthos Heritage] 
@@ -40,10 +40,10 @@ categories: ["Aristocrats", "Forsaken characters", "Quest givers", "Tirisfal Gla
 This better not be a waste of time.
 
 ### On-click
-  -Greeting**
--How may you be of assistance to me?
--I may be dead, but that does not mean I will live like a peasant.
--Welcome to our war.
+**Greeting**
+- How may you be of assistance to me?
+- I may be dead, but that does not mean I will live like a peasant.
+- Welcome to our war.
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

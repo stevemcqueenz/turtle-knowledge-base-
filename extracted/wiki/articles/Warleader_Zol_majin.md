@@ -24,11 +24,11 @@ categories: ["Amani'Alor NPCs", "Forest troll characters", "Quest givers", "Reva
 | location | Amani'Alor, Stonetalon Mountains |
 | status | Alive |
 
--Warleader Zol'majin** is a [forest troll](forest troll) [quest giver](quest giver) located in [Amani'Alor](Amani'Alor) in [Stonetalon Mountains](Stonetalon Mountains).
+**Warleader Zol'majin** is a [forest troll](forest troll) [quest giver](quest giver) located in [Amani'Alor](Amani'Alor) in [Stonetalon Mountains](Stonetalon Mountains).
 
 ## Quests
 - [quest: The Means To Heal]  (Daily)
 - [quest: Raiding Quel'Lithien Lodge]  (Daily)
 
 ## Patch changes
--  **[Patch 1.15.0](Patch 1.15.0) (2021-01-05):** Added.
+- **[Patch 1.15.0](Patch 1.15.0) (2021-01-05):** Added.

@@ -26,7 +26,7 @@ categories: ["Booty Bay characters", "Goblin characters", "Quest givers", "Stran
 | status | Alive |
 | relatives | Grarnik (brother) |
 
--Xizk Goodstitch** is a [goblin](goblin) [tailoring](tailoring) [vendor](vendor) located in [A Tailor to Cities](A Tailor to Cities) in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale).
+**Xizk Goodstitch** is a [goblin](goblin) [tailoring](tailoring) [vendor](vendor) located in [A Tailor to Cities](A Tailor to Cities) in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale).
 
 ## Quests
 - [quest: Components for the Enchanted Gold Bloodrobe|class=warlock] 
@@ -34,10 +34,10 @@ categories: ["Booty Bay characters", "Goblin characters", "Quest givers", "Stran
 - [quest: Fine Gold Thread|class=warlock] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Welcome to [my shop](A Tailor to Cities‎), <class>. What is it the Goodstitch brothers can do for you?
 
-  -To warlocks**
+**To warlocks**
 Ah, one of my favorite customers. You look to be of a warlock of some power, <name>. I am pleased to meet you. If there is anything I can do for you, please, just ask.
 
 My brother and I feel that it will be your kind who lead us into the next great era. One with such power... such control... it's only a matter of time before the Legion itself bends to your will.

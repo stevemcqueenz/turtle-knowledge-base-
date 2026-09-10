@@ -13,7 +13,7 @@ categories: ["Addon"]
 BetterCharacterStats (BCS) enhances your character's info panel by displaying detailed stats not available in the default UI. Designed specifically for Turtle WoW, it accounts for custom game mechanics, buffs, gear, talents, and auras to give an accurate representation of your character's capabilities.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **BetterCharacterStats** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **BetterCharacterStats** up to date is by using [GitAddo
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 

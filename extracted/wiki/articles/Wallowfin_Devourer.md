@@ -22,7 +22,7 @@ categories: ["Lapidis Isle mobs", "Murlocs", "Turtle WoW content"]
 | creature | Humanoid |
 | location | The Wallowing Coast and Crown Island, Lapidis Isle |
 
--Wallowfin Devourers** are [murloc](murloc)s located at [the Wallowing Coast](Wallowing Coast) and [Crown Island](Crown Island) in [Lapidis Isle](Lapidis Isle).
+**Wallowfin Devourers** are [murloc](murloc)s located at [the Wallowing Coast](Wallowing Coast) and [Crown Island](Crown Island) in [Lapidis Isle](Lapidis Isle).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

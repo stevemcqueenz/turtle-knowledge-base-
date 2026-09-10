@@ -10,16 +10,10 @@ categories: ["Tauren territories", "Thousand Needles", "Turtle WoW content", "Un
 ---
 # Sagh's Refuge
 
--Sagh's Refuge** (ref: [Patch 1.18.1#CLASSIC ZONE EDITS](Patch 1.18.1#CLASSIC ZONE EDITS)) is the home of the tauren [Sagh](Sagh), located in the [Thousand Needles](Thousand Needles). It has become the refuge of survivors of the [Windhorn tribe](Windhorn tribe) who have fled their home of [Windhorn Canyon](Windhorn Canyon) when it was attacked by the [Grimtotem](Grimtotem clan) of the [Blackwind](Blackwind).
+**Sagh's Refuge** (ref: [Patch 1.18.1#CLASSIC ZONE EDITS](Patch 1.18.1#CLASSIC ZONE EDITS)) is the home of the tauren [Sagh](Sagh), located in the [Thousand Needles](Thousand Needles). It has become the refuge of survivors of the [Windhorn tribe](Windhorn tribe) who have fled their home of [Windhorn Canyon](Windhorn Canyon) when it was attacked by the [Grimtotem](Grimtotem clan) of the [Blackwind](Blackwind).
 
 ## Inhabitants
-- 
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - - ## Patch changes
 - (Patch 1.18.1|note=Added.)
 
 ## References

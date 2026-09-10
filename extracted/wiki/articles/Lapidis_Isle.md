@@ -24,7 +24,7 @@ categories: ["Eastern Kingdoms", "Islands", "Lapidis Isle", "South Seas", "Turtl
 | affiliation | Alliance, Kul Tiran Exploratory Fleet, Southsea Pirates, Gor'dosh Ogres, Hazzuri tribe |
 | loc | South Seas |
 
--Lapidis Isle** (also referred to as the **Isle of Lapidis** (ref: [Letter to Karl](Letter to Karl)) or the **Island of Lapidis**) (ref: [New Zones & World Edits](https://web.archive.org/web/20260514170802/https://turtlecraft.gg/new-locations-and-maps). Archived from [the original](https://turtlecraft.gg/new-locations-and-maps) on 2026-05-14. Retrieved on 2026-29-08.) is an island in the [South Seas](South Seas) off the coast of [Stranglethorn Vale](Stranglethorn Vale), north of [Gillijim's Isle](Gillijim's Isle). The island contains jungle troll ruins and is the site of the shipwreck of an [exploratory fleet](Kul Tiran Exploratory Fleet) that was led by Admiral [Caelan](Caelan) of [Kul Tiras](Kul Tiras).
+**Lapidis Isle** (also referred to as the **Isle of Lapidis** (ref: [Letter to Karl](Letter to Karl)) or the **Island of Lapidis**) (ref: [New Zones & World Edits](https://web.archive.org/web/20260514170802/https://turtlecraft.gg/new-locations-and-maps). Archived from [the original](https://turtlecraft.gg/new-locations-and-maps) on 2026-05-14. Retrieved on 2026-29-08.) is an island in the [South Seas](South Seas) off the coast of [Stranglethorn Vale](Stranglethorn Vale), north of [Gillijim's Isle](Gillijim's Isle). The island contains jungle troll ruins and is the site of the shipwreck of an [exploratory fleet](Kul Tiran Exploratory Fleet) that was led by Admiral [Caelan](Caelan) of [Kul Tiras](Kul Tiras).
 
 ## Geography
 ### Maps and subregions
@@ -37,9 +37,9 @@ WorldMap-Lapidis-old.jpg|Lapidis Isle prior to [patch 1.17.2](patch 1.17.2).
 ||[Bright Coast](Bright Coast) · [Caelan's Rest](Caelan's Rest) · [Crown Island](Crown Island) · [Gor'dosh Heights](Gor'dosh Heights) · [Hazzuri Glade](Hazzuri Glade) · [The Rock](The Rock) · [Shank's Reef](Shank's Reef) · [The Tower of Lapidis](Tower of Lapidis) · [The Wallowing Coast](Wallowing Coast) · [Zul'Hazu](Zul'Hazu)
 |-
 ||
-  -Undisplayed locations**
+**Undisplayed locations**
 
--[Tidemaster](Tidemaster)*
+*[Tidemaster](Tidemaster)*
 |}
 
 ### Travel hubs

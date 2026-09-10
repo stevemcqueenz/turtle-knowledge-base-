@@ -24,7 +24,7 @@ categories: ["Night elf characters", "Quest givers", "Stonetalon Mountains NPCs"
 | location | Bael Hardul, Stonetalon Mountains |
 | status | Alive |
 
--Maloran Oakbranch** is a [dwarf](dwarf) [quest giver](quest giver) located in [Hardul Distillery](Hardul Distillery) in [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains). He is a delegate sent to Bael Hardul on behalf of [Stonetalon Peak](Stonetalon Peak) to make sure that the natural order is not disturbed. (ref: [quest: Pursuing Harmony])
+**Maloran Oakbranch** is a [dwarf](dwarf) [quest giver](quest giver) located in [Hardul Distillery](Hardul Distillery) in [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains). He is a delegate sent to Bael Hardul on behalf of [Stonetalon Peak](Stonetalon Peak) to make sure that the natural order is not disturbed. (ref: [quest: Pursuing Harmony])
 
 ## Quests
 - [quest: Pursuing Harmony] 
@@ -32,7 +32,7 @@ categories: ["Night elf characters", "Quest givers", "Stonetalon Mountains NPCs"
 - [quest: Digging Deeper] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I am an emissary from Stonetalon Peak, and something of a guide to help Whitepeak and his kin traverse these lands without disturbing the natural order.
 
 ## Patch changes

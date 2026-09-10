@@ -10,7 +10,7 @@ categories: ["Hyjal subzones", "Stubs", "Turtle WoW content"]
 ---
 # Nordrassil Glade
 
--Nordrassil Glade** is an area located at [Hyjal](Hyjal).
+**Nordrassil Glade** is an area located at [Hyjal](Hyjal).
 
 ## Patch changes
 - (Patch 1.17.0|note=Added.)

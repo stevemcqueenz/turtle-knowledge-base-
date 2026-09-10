@@ -25,7 +25,7 @@ categories: ["Orc characters", "Stormreaver clan", "Stormwrought Ruins mobs", "T
 | location | Stormwrought Ruins |
 | status | Killable |
 
--Stormreaver Hunters** are [orc](orc)s located in [Stormwrought Ruins](Stormwrought Ruins).
+**Stormreaver Hunters** are [orc](orc)s located in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Notable loot
 - [Stormreaver Belt](Stormreaver Belt)

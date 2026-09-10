@@ -13,9 +13,5 @@ categories: ["Balor subzones", "Caves", "Spider territories", "Turtle WoW conten
 The **Scurrying Thicket** is a spider-infested section of the woods in northern [Balor](Balor).
 
 ## NPCs
-- 
-- 
-- 
-
-## Patch changes
+- - - ## Patch changes
 - (Patch 1.18.0|note=Added.)

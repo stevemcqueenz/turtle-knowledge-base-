@@ -26,7 +26,7 @@ categories: ["Dustwallow Marsh NPCs", "Gilneas NPCs", "Guards", "Human character
 | location | Ravenshire, Gilneas, Theramore Isle, Dustwallow Marsh |
 | status | Alive |
 
--Brigade Footmen** are human guards defending the town of [Ravenshire](Ravenshire) and the [Shademore Tavern](Shademore Tavern) in [Gilneas](Gilneas). A contingent of Brigade Footmen are also still deployed in [Theramore Isle](Theramore Isle), waiting to return home.
+**Brigade Footmen** are human guards defending the town of [Ravenshire](Ravenshire) and the [Shademore Tavern](Shademore Tavern) in [Gilneas](Gilneas). A contingent of Brigade Footmen are also still deployed in [Theramore Isle](Theramore Isle), waiting to return home.
 
 ## Patch changes
 - (Patch 1.17.0|note=Added.)

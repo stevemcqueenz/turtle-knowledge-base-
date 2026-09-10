@@ -27,13 +27,13 @@ categories: ["Druid characters", "Feralas NPCs", "Night elf characters", "Quest 
 | status | Alive |
 | relatives | Larodar (brother) |
 
--Bethelon Wildwhisper** is a [night elf](night elf) quest giver located in [Thalanaar](Thalanaar) in [Feralas](Feralas).
+**Bethelon Wildwhisper** is a [night elf](night elf) quest giver located in [Thalanaar](Thalanaar) in [Feralas](Feralas).
 
 ## Quests
 - [quest: Chimaeran Task] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Listen well, traveler. My brother may choose to be a pawn in Fandral's game, but I am no puppet of the archdruid. I came to these lands to safeguard my younger kin from any perils that may cross his path, and from the gaze of those Sentinels. Always watching…
 
 <Bethelon chuckles and gives a playful wink to one of the Sentinels nearby, causing her to blush and hastily avert her gaze.>

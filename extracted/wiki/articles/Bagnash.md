@@ -24,7 +24,7 @@ categories: ["Grim Reaches NPCs", "Orc characters", "Turtle WoW content"]
 | location | Grim Reaches |
 | status | Alive |
 
--Bagnash** is an [orc](orc) located in the [Grim Reaches](Grim Reaches).
+**Bagnash** is an [orc](orc) located in the [Grim Reaches](Grim Reaches).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

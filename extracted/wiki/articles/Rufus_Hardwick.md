@@ -24,13 +24,13 @@ categories: ["Dwarf characters", "Quest givers", "Stranglethorn Vale NPCs", "Sur
 | location | Nesingwary's Expedition, Stranglethorn Vale |
 | status | Alive |
 
--Rufus Hardwick** is a [dwarf](dwarf) Artisan [survival](survival) trainer located at [Nesingwary's Expedition](Nesingwary's Expedition) in [Stranglethorn Vale](Stranglethorn Vale).
+**Rufus Hardwick** is a [dwarf](dwarf) Artisan [survival](survival) trainer located at [Nesingwary's Expedition](Nesingwary's Expedition) in [Stranglethorn Vale](Stranglethorn Vale).
 
 ## Quests
 - [quest: profession=survival] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Hmph. The jungle's no place for the weak or the witless.
 
 One wrong step and you're snake food, troll stew, or worse. If you're here to learn, speak up.
@@ -38,4 +38,4 @@ One wrong step and you're snake food, troll stew, or worse. If you're here to le
 If not, quit wastin' my time - I've got better things to do than pull' greenhorns out o' the much.
 
 ## Patch changes
--  **[Hotfix](https://forum.turtlecraft.gg/viewtopic.php?t=519) (2019-05-10):** Added.
+- **[Hotfix](https://forum.turtlecraft.gg/viewtopic.php?t=519) (2019-05-10):** Added.

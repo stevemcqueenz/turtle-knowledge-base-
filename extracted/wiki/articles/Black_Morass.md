@@ -23,7 +23,7 @@ categories: ["Black Morass", "Caverns of Time", "Dungeons", "Turtle WoW content"
 | players | 5 |
 | bosses |  |
 
--The Black Morass** (also known as **Caverns of Time: Black Morass**) is an instance dungeon found in the [Caverns of Time](Caverns of Time). Move through the timeways to stop the Infinite Dragonflight from changing the Opening of the Dark Portal and the past itself.
+**The Black Morass** (also known as **Caverns of Time: Black Morass**) is an instance dungeon found in the [Caverns of Time](Caverns of Time). Move through the timeways to stop the Infinite Dragonflight from changing the Opening of the Dark Portal and the past itself.
 
 ## Geography
 ### Maps and subregions

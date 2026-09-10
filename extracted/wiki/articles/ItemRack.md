@@ -13,7 +13,7 @@ categories: ["Addon"]
 This is a mod to make swapping equipment easier.  You add equipment slots to a bar and mouse-over on the bar will create a menu of all items in your bags that can go in that slot. 
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **ItemRack** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **ItemRack** up to date is by using [GitAddonsManager](G
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -30,7 +30,7 @@ If you prefer manual installation, follow these steps:
 # Unpack the <code>.zip</code> and rename the folder to <code>ItemRack</code>, removing the <code>-master</code> suffix.
 # Move the folder into your <code>Interface/AddOns</code> directory and restart the game.
 
-  -Optional**: If you want to use ItemRackFu, drag the ItemRackFu folder into the main Addons folder.
+**Optional**: If you want to use ItemRackFu, drag the ItemRackFu folder into the main Addons folder.
 
 ## Git links
 - [**(Otari98)**](https://github.com/Otari98/ItemRack)
@@ -94,7 +94,7 @@ Item rack
 - Mouse-over an item in the bar and a menu will pop up of all items in your bags that can go in that slot.  Click the item in the menu and it will swap.
 - If an equipped item can be used, clicking the item on the bar (or its key binding) will use the item.
 - Default behavior is to only show Soul-bound items in the menu.  You can turn this off in options, accessed by a button on the edge of the bar. (Hold Alt down if the bar is locked to get to the options button)
-  -Sets**
+**Sets**
 
 To start making sets, left-click the ItemRack mini-map button:
 
@@ -107,12 +107,12 @@ To start making sets, left-click the ItemRack mini-map button:
 - Sets will not queue during death or combat (yet)
 - Sets are saved per-character
 
-  -To equip a set, there are three ways:**
+**To equip a set, there are three ways:**
 
 # Add the Set "slot" to the rack by alt+clicking yourself in the character window. (or alt+click the set icon in the set builder).  Now you can swap sets the same as you swap individual items.  Mouse-over the "Set" slot and it will display your saved sets to swap to.
 # Bind a key from the set builder.  Up to 10 sets (per character) can be directly bound to a key.  After you've saved a set, click 'Bind Key' and then choose a key to bind to the set.  You do not need to create any macros or action buttons.  Just hit the key to equip that set.
 # Make a macro.  In some cases you may want to situationally equip a set.  To do so in a macro, use /script EquipSet("setname").  For instance: /script if UnitClass("target")=="Priest" then EquipSet("1h+shield") end.
-  -Queued Items**
+**Queued Items**
 
 We can't swap non-weapon items when we're dead or in combat.  If you attempt to swap in either of these conditions, ItemRack will "queue" the items for immediate swap once you leave combat or return to life.
 
@@ -122,7 +122,7 @@ We can't swap non-weapon items when we're dead or in combat.  If you attempt to
 - The 'queue' is only one-item deep.  Meaning, once a queued item is equipped that queue is emptied.
 - Selecting a series of items for a slot will only change the queued item.  It won't set up an order to them.
 - You can queue as many armor slots as you want.  For instance if a druid is corpse camping you and you're paranoid enough to have a suit of Nature Resist gear in your bags, you can queue up the whole suit and it will swap in on revive.
-  -Misc**
+**Misc**
 - You can directly Alt+Click the slot on the ItemRack to remove it.
 - You can Alt+Click items or sets on the menu to hide/reveal them. (hold Alt down while you open the menu to see hidden items/sets)
 - There are three buttons on the end of the ItemRack.  These are: Rotate, Lock and Options.
@@ -162,13 +162,13 @@ We can't swap non-weapon items when we're dead or in combat.  If you attempt to
 ## Events
 ItemRack introduces event-driven scripts to swap gear.
 
-  -Using Events**
+**Using Events**
 - In the options window when you right-click the minimap button are three tabs.  All event setup is done in the Events tab.
 - Events are disabled initially.  To begin using events you need to enable it with the "Enable Events" checkbox at the top of the Events tab.  This is the "master switch".  You can set up a key binding to toggle all events on or off as well.
 - In that tab you'll see a list of events with a red question mark beside it.  Click the question mark to choose what set to equip for the event.  When you've chosen a set it will be enabled.  You won't be able to enable an event until you've associated a set for it. (even if the event script doesn't rely on a defined script)
 - To disable/enable a set with an associated event, uncheck the event.  Alternately, you can click Delete to remove the set association and have it drop down to the bottom of the list.
 - Deleting an event not associated with a set will completely remove it if no other characters use that event.
-  -Editing or Creating Events**
+**Editing or Creating Events**
 
 If you hit Edit or New at the bottom of the events tab you'll be brought to the event script editor.  Here you define when the event runs and what it does.  You can copy-paste into/out of these boxes.  The four boxes are:
 
@@ -179,30 +179,30 @@ If you hit Edit or New at the bottom of the events tab you'll be brought to the 
 - Some knowledge of WoW Lua and scripting will help a great deal in editing and creating events.  An excellent resource is the wiki: http://www.wowwiki.com/Interface_Customization
 - In the lower left is a Test button.  You can use this to run the script once to make sure there are no syntax or other obvious errors.  But it can't test if the trigger works or anything beyond stuff that would prompt a red error box.
 - If at any time you've messed up your default events and want them back: /itemrack reset events.  This will not touch your custom events.  It will just recreate the default events.
-  -Event Name**
+**Event Name**
 - If you format a name like Class:Event, then you can restrict the list to the class unless "Show All" is checked in the Events tab.  For instance "Mage:Evocation" will make the event only list on mages.
 - The class is the localized name of the class.  Other clients will probably want to keep "Show All" checked.
 - If you change the name of an existing event and save it, a COPY is made.  This is to make it easy to set up multi-event scripts that can fire on many different triggers. (crits for spells, melee, vs hostile players, creatures, etc)
-  -Event Trigger**
+**Event Trigger**
 
 The list of all usable events are listed here: http://www.wowwiki.com/Events
 
 - You can use ITEMRACK_NOTIFY as a trigger for the mod's notify.  arg1 will be the name of item you received notification for.
 - You can use ITEMRACK_ITEMUSED as a trigger for an item being used.  arg1 will be the name of the item and arg2 will be the slot the item was used in.
 - Events enabled on a character are registered after the first PLAYER_ENTERING_WORLD when you log in/reload, not including that PLAYER_ENTERING_WORLD.
-  -Event Delay**
+**Event Delay**
 - If the delay is 0, then the script will immediately run on every occurance of the event.
 - If the delay is greater than 0, then the script will be run only *once* after the last occurange of the event.
 - Many events are fired in game hundreds of times in a flurry. BAG_UPDATE for instance can fire 300 times when you zone.  In those cases, putting a small delay here will ensure your script only runs once instead of 300 times. 0.5 seconds is sufficient in most cases.  For events that are frequent but not spastic (like UNIT_AURA or PLAYER_AURAS_CHANGED), I prefer 1 to defer processing while heavy stuff is going on (combat, loading, etc) but you can usually choose 0.
 - You can use the delay to wait before running a script also.  For instance the "Overpower Begin" has a delay of 0 when an opponent dodges melee, and "Overpower End" has a delay of 5 when an opponent dodges melee.  With this pair it can swap in gear at the dodge and swap gear out 5 seconds later.  If the opponent dodges again in that 5 seconds, "Overpower Begin" will immediately run again and the "Overpower End" will wait until 5 seconds after tht second dodge.
 - arg1 and arg2 will be saved in delayed events, but arg3+ will not
-  -Event Script**
+**Event Script**
 
 You can use the entire Lua environment.  In the default events I make heavy use of globals to carry a state over from one event to the next.  You could check the gear currently equipped to determine its new state instead if you want. Scripts can be up to 4096 characters long. You can add bracketed comments and they will appear in an event's tooltip: --[Add notes anywhere in your script](Add notes anywhere in your script) Scripts are run with RunScript().  
 
 This is not as fast as pre-compiled Lua.  If you have some massive function you want to do many times, it's always better to embed it into an existing .lua that loads with the game. 
 
-  -There are some helper functions to help simplify scripts:** 
+**There are some helper functions to help simplify scripts:** 
 
 - EquipSet() : Equips the set associated with the event.
 - SaveSet() : Remembers the gear currently in the slots of the associated set.
@@ -226,7 +226,7 @@ Finally, remember the script is run without parsing.  You don't need to equip a 
 - [McPewPew](https://github.com/McPewPew) (support turtle mount)
 
 ## Changes
-  -New in 1.975**
+**New in 1.975**
 - Fix for drinking event
 - Notifications will use default floating combat text if enabled
 

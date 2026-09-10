@@ -10,4 +10,4 @@ categories: ["Caves", "Pages with broken file links", "Wildkin territories", "Wi
 ---
 # Dun Mandarr
 
--Dun Mandarr** is a small base nearby an icy cavern in south-eastern [Winterspring](Winterspring). The camp is overrun by ferocious [moonkin](moonkin) and was set up by [Jaron Stoneshaper](Jaron Stoneshaper), its [dwarven](dwarven) origin obvious from the linguistic qualities of the cave's name. Jaron had discovered a [Blue-Feathered Amulet](Blue-Feathered Amulet), which enraged the wildkin and caused them to chase Jaron off and destroy his camp.
+**Dun Mandarr** is a small base nearby an icy cavern in south-eastern [Winterspring](Winterspring). The camp is overrun by ferocious [moonkin](moonkin) and was set up by [Jaron Stoneshaper](Jaron Stoneshaper), its [dwarven](dwarven) origin obvious from the linguistic qualities of the cave's name. Jaron had discovered a [Blue-Feathered Amulet](Blue-Feathered Amulet), which enraged the wildkin and caused them to chase Jaron off and destroy his camp.

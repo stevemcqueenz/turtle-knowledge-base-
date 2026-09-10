@@ -25,4 +25,4 @@ categories: ["Dustwallow Marsh NPCs", "Faction quartermasters", "High elf charac
 | location | Theramore Isle, Dustwallow Marsh |
 | status | Alive |
 
--Lorath Silverwing** is the quartermaster for [Theramore](Theramore (faction)) and is located inside [Jaina Proudmoore](Jaina Proudmoore)'s tower in [Theramore Isle](Theramore Isle) in [Dustwallow Marsh](Dustwallow Marsh).
+**Lorath Silverwing** is the quartermaster for [Theramore](Theramore (faction)) and is located inside [Jaina Proudmoore](Jaina Proudmoore)'s tower in [Theramore Isle](Theramore Isle) in [Dustwallow Marsh](Dustwallow Marsh).

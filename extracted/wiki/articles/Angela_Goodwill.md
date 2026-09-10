@@ -25,7 +25,7 @@ categories: ["Food and drink vendors", "Human characters", "Kul Tiran Explorator
 | location | Caelan's Rest, Lapidis Isle |
 | status | Alive |
 
--Angela Goodwill** is a human food and drink vendor located in [Caelan's Rest](Caelan's Rest) on [Lapidis Isle](Lapidis Isle).
+**Angela Goodwill** is a human food and drink vendor located in [Caelan's Rest](Caelan's Rest) on [Lapidis Isle](Lapidis Isle).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

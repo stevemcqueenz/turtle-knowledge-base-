@@ -15,7 +15,7 @@ Will return information about items in the auction house.
  QueryAuctionItems("name", "minLevel", "maxLevel", invTypeIndex, classIndex, subclassIndex, page, isUsable, qualityIndex) -
 </syntaxhighlight>
 ----
-  -*Arguments***
+***Arguments***
   (string type, string type, string type, index value, )
 
   ;name : A part of the item's name (or the complete name) or "" for no retrenchment.
@@ -52,16 +52,16 @@ Will return information about items in the auction house.
   ;qualityIndex : The items' quality (nil = no restrictions)
 
 ----
-  -*Returns***
+***Returns***
 nothing
 
 ----
-  -*Example***
+***Example***
 
-  -*Result***
+***Result***
 
 ----
-  -*Description***
+***Description***
 
 ----
 

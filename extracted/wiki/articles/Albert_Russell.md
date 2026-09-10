@@ -24,10 +24,10 @@ categories: ["Human characters", "Northwind NPCs", "Turtle WoW content"]
 | location | Northwind |
 | status | Alive |
 
--Albert Russell** is a [human](human) located along the road west of the [Northwind Logging Camp](Northwind Logging Camp) in [Northwind](Northwind). He was placed in charge with the maintenance of the lights along the roads of Northwind.
+**Albert Russell** is a [human](human) located along the road west of the [Northwind Logging Camp](Northwind Logging Camp) in [Northwind](Northwind). He was placed in charge with the maintenance of the lights along the roads of Northwind.
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Sending me out here all on my own just to fix these damned lights - what were they thinking? Once I'm done with this one I'll scurry over to the Honey Drop Inn for an ice cold Amberale.
 
 ## Patch changes

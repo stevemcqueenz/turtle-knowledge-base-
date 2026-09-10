@@ -10,4 +10,4 @@ categories: ["Ghouls", "Jungle troll territories", "Stranglethorn Vale subzones"
 ---
 # Ruins of Jubuwal
 
--Ruins of Jubuwal** are ancient [troll](troll) ruins, just east of the [Gurubashi Arena](Gurubashi Arena), along main road that spans the length of [Stranglethorn Vale](Stranglethorn Vale). Ghoul, naga, and troll minions of [Zanzil the Outcast](Zanzil the Outcast) currently inhabit the ruins, including [Jon-Jon the Crow](Jon-Jon the Crow) and [Maury "Club Foot" Wilkins](Maury "Club Foot" Wilkins), debtors to the ruthless ["Sea Wolf" MacKinley]("Sea Wolf" MacKinley).
+**Ruins of Jubuwal** are ancient [troll](troll) ruins, just east of the [Gurubashi Arena](Gurubashi Arena), along main road that spans the length of [Stranglethorn Vale](Stranglethorn Vale). Ghoul, naga, and troll minions of [Zanzil the Outcast](Zanzil the Outcast) currently inhabit the ruins, including [Jon-Jon the Crow](Jon-Jon the Crow) and [Maury "Club Foot" Wilkins](Maury "Club Foot" Wilkins), debtors to the ruthless ["Sea Wolf" MacKinley]("Sea Wolf" MacKinley).

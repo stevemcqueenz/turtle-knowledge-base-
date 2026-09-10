@@ -13,7 +13,7 @@ categories: ["Addon"]
 WowLua is an in-game Lua scripting environment. It provides an interactive Lua interpreter, a multi-page script editor, syntax highlighting, and convenient commands for running scripts directly from chat or macros.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **WowLua** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **WowLua** up to date is by using [GitAddonsManager](Git
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 

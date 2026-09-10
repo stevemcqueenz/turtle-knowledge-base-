@@ -10,15 +10,10 @@ categories: ["Burial sites", "Gilneas subzones", "Turtle WoW content"]
 ---
 # Hollow Web Cemetery
 
--Hollow Web Cemetery** is a graveyard located in southern [Gilneas](Gilneas), to the west of the [Hollow Web Woods](Hollow Web Woods). It is the final resting place of [Mia Greymane](Mia Greymane), queen consort of [Genn Greymane](Genn Greymane). (ref:  [42] [Dim Light in the Darkness](Dim Light in the Darkness)) The [Lupine Coven](Lupine Coven) is based out of the cemetery's crypt.
+**Hollow Web Cemetery** is a graveyard located in southern [Gilneas](Gilneas), to the west of the [Hollow Web Woods](Hollow Web Woods). It is the final resting place of [Mia Greymane](Mia Greymane), queen consort of [Genn Greymane](Genn Greymane). (ref:  [42] [Dim Light in the Darkness](Dim Light in the Darkness)) The [Lupine Coven](Lupine Coven) is based out of the cemetery's crypt.
 
 ## Inhabitants
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - ## Patch changes
 - (Patch 1.17.0|note=Added.)
 
 ## References

@@ -18,6 +18,6 @@ The Faire can be reached by speaking with a [Turtle Faire Barker](Turtle Faire B
 - The Fairwell Faire was created to offer the space and opportunity to talk, drink, eat, and celebrate together, to share stories of the past, or plan adventures yet to come with the community in light of Turtle WoW officially shutting down on May 15th, 2026.
 
 ## Patch changes
--  **[Hotfix](https://forum.turtlecraft.gg/viewtopic.php?t=24942) (2026-05-03):** Added.
+- **[Hotfix](https://forum.turtlecraft.gg/viewtopic.php?t=24942) (2026-05-03):** Added.
 
 ## References

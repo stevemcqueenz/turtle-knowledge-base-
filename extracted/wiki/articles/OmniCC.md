@@ -13,7 +13,7 @@ categories: ["Addon"]
 Omni Cooldown Count (OmniCC) is a universal cooldown count plugin.  Anything that uses the default functions for cooldown models should have a cooldown count added with this addon, including the default blizzard action bars, your inventory, and the character sheet. Cooldown counts are generated dynamically, so OmniCC should be much more efficient than just pregenerating the cooldown counts for every possible button. 
 
 ## Installation
-  -GitAddonsManager** 
+**GitAddonsManager** 
 
 The easiest way to keep **OmniCC** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **OmniCC** up to date is by using [GitAddonsManager](Git
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -91,35 +91,35 @@ Warrior:
 - **Compatibility:** Updated for WoW version 1.12 and TurtleWow.
 
 ## Additional Tips
-  -Configuring for Your UI**
+**Configuring for Your UI**
 
 - **Default Settings:** Use <code>/omnicc reset</code> to restore default configuration if custom settings cause display issues.
 - **Compatibility Tips:** Disable other cooldown addons to prevent conflicts, especially those that modify cooldown displays.
 
-  -Custom Font Paths**
+**Custom Font Paths**
 
 - Use full path for custom fonts, e.g., <code>Fonts\ARIALN.TTF</code>. Valid paths include:
   - Standard fonts like <code>Fonts\FRIZQT__.TTF</code>
   - User-installed or custom font files
 - **Tip:** Test font changes with <code>/omnicc font</code> command to verify validity.
 
-  -Performance Tips**
+**Performance Tips**
 
 - OmniCC is designed to be efficient, but excessive customization or many cooldowns can impact performance.
 - **Solution:** Use <code>/omnicc min <value></code> to hide cooldown text for short, less critical timers.
 
-  -Shine & Visual Effects**
+**Shine & Visual Effects**
 
 - Bright flashes are optional and can be distracting for some users.
 - Use <code>/omnicc shinescale <value></code> to customize size; larger values make flashes more prominent.
 - To disable shine effects, run <code>/omnicc shine</code> again.
 
-  -Color Coding for Quick Recognition**
+**Color Coding for Quick Recognition**
 
 - Set different colors for durations like <code>vlong</code>, <code>long</code>, <code>medium</code>, and <code>short</code>:
   - Example:
-  -* <code>/omnicc color long 0 1 0</code> (green for long cooldowns)
-  -* <code>/omnicc color short 1 0 0</code> (red for quick cooldowns)
+  - * <code>/omnicc color long 0 1 0</code> (green for long cooldowns)
+  - * <code>/omnicc color short 1 0 0</code> (red for quick cooldowns)
 
 ## Troubleshooting
 - **Fonts:** Ensure you specify correct font paths; invalid fonts revert to default.
@@ -128,18 +128,18 @@ Warrior:
 - **Compatibility:** Remove old folders (<code>!OmniCC</code>) before installing new versions to prevent conflicts.
 
 ## Changelogs
-  -6.8.30** 
+**6.8.30** 
 
 - Updated for 1.12 
 - Added another check for invalid fonts 
 - Adjusted the cooldown count timing to not show 0, again :) 
 
-  -6.7.30** 
+**6.7.30** 
 
 - The shine is now disabled by default. 
 - Fixed an issue causing cooldown flashes to not inherit its parent's opacity 
 
-  -6.7.24** 
+**6.7.24** 
 
 - Made OmniCC a proper addon. 
 - Adjusted the cooldown count timing to not show 0 

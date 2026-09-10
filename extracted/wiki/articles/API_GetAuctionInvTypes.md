@@ -10,11 +10,11 @@ categories: ["API Functions"]
 ---
 # API GetAuctionInvTypes
 
--GetAuctionInvTypes(classIndex,subClassIndex)**
+**GetAuctionInvTypes(classIndex,subClassIndex)**
 
-  -Parameters:** major category index and sub category index
+**Parameters:** major category index and sub category index
 
-  -Returns:** n return values, each of which is a string representing a type in that category. I am not sure how to make it work, it seems to only return something under armor misc to armor plate (2,1 to 2,5) and returns "INVTYPE_HEAD", "INVTYPE_NECK", "INVTYPE_SHOULDER", "INVTYPE_BODY", "INVTYPE_CHEST", "INVTYPE_WAIST", "INVTYPE_LEGS", "INVTYPE_FEET", "INVTYPE_WRIST", "INVTYPE_HAND", "INVTYPE_FINGER", "INVTYPE_TRINKET", "INVTYPE_CLOAK", "INVTYPE_HOLDABLE"
+**Returns:** n return values, each of which is a string representing a type in that category. I am not sure how to make it work, it seems to only return something under armor misc to armor plate (2,1 to 2,5) and returns "INVTYPE_HEAD", "INVTYPE_NECK", "INVTYPE_SHOULDER", "INVTYPE_BODY", "INVTYPE_CHEST", "INVTYPE_WAIST", "INVTYPE_LEGS", "INVTYPE_FEET", "INVTYPE_WRIST", "INVTYPE_HAND", "INVTYPE_FINGER", "INVTYPE_TRINKET", "INVTYPE_CLOAK", "INVTYPE_HOLDABLE"
 I found many other types looking at the executable in a hex editor: "INVTYPE_RANGEDRIGHT", "INVTYPE_THROWN", "INVTYPE_AMMO", "INVTYPE_HOLDABLE", "INVTYPE_WEAPONOFFHAND", "INVTYPE_WEAPONMAINHAND", "INVTYPE_ROBE", "INVTYPE_TABARD", "INVTYPE_BAG", "INVTYPE_2HWEAPON", "INVTYPE_CLOAK", "INVTYPE_RANGED", "INVTYPE_SHIELD", "INVTYPE_WEAPON"
 
 ----

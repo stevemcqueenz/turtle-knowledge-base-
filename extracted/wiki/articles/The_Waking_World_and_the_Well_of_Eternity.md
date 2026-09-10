@@ -12,7 +12,7 @@ categories: ["History of Warcraft", "Lore"]
 
 <B style="font-weight:normal;background-color:#2b2b2b;">[  [Source Text](WoWWiki:Article_type)  ]</B>
 
--The Waking World and the Well of Eternity* is a section of the [History of Warcraft](History of Warcraft), Chapter I.  
+*The Waking World and the Well of Eternity* is a section of the [History of Warcraft](History of Warcraft), Chapter I.  
 
 ## Text
 Ten thousand years before the [orc](orc)s and [human](human)s clashed in their [First War](First War), the world of [Azeroth](Azeroth) cradled only one massive continent, surrounded by the sea. That landmass, known as [Kalimdor](Kalimdor), was home to a number of disparate races and creatures, all vying for survival amongst the savage elements of the waking world. At the dark continent's center was a mysterious lake of incandescent energies. The lake, which would later be called the [Well of Eternity](Well of Eternity), was the true heart of the world's magic and natural power. Drawing its energies from the infinite Great Dark beyond the world, the Well acted as a mystical fount, sending its potent energies out across the world to nourish life in all its wondrous forms. 

@@ -23,7 +23,7 @@ categories: ["Blackstone Island", "Goblin territories", "Islands", "Kalimdor", "
 | affiliation | Durotar Labor Union, Venture Company, Mudpaw tribe |
 | loc | Off the shores northeast of Central Kalimdor |
 
--Blackstone Island** is the starting zone for [playable goblins](Goblin (playable)). 
+**Blackstone Island** is the starting zone for [playable goblins](Goblin (playable)). 
 
 After escaping from the lands of Stonetalon Mountains, the goblins of the [Durotar Labor Union](Durotar Labor Union) have succumbed to their biggest weakness: greed. They have seized control of an island rich in natural resources, but this new empire has been built on the backs of hopeful goblins who sought an escape from the clutches of the Venture Co. These new recruits found themselves trapped in a similar predicament again, only this time under new management.
 
@@ -72,4 +72,4 @@ Blackstone Island is located to the east of [Durotar](Durotar), off the coast of
 - [Scorpid](Scorpid)s
 
 ## Patch changes
--  **[Patch 1.17.1](Patch 1.17.1) (2023-12-20):** Added.
+- **[Patch 1.17.1](Patch 1.17.1) (2023-12-20):** Added.

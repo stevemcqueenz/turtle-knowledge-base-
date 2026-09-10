@@ -48,7 +48,7 @@ Draw nearer still. Through tireless research and countless tomes, I have unearth
 Now, with the Eye of Xythos firmly in my grasp, I shall delve into the depths of time itself. I seek to unveil the true nature of this formidable power that we now confront.
 
 ## Notes
-  -Upon completion**
+**Upon completion**
   **Dark Bishop Mordren says:** Now witness... The Eye!
   **Dark Bishop Mordren says:** I see... Stillward as it was... the battle.
   **Dark Bishop Mordren says:** This cannot be. A Greymane... holding such power.

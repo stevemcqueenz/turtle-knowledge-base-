@@ -25,14 +25,14 @@ categories: ["Blackrock clan", "Burning Steppes NPCs", "Orc characters", "Quest 
 | location | Karfang Hold, Burning Steppes |
 | status | Alive |
 
--Darkseer Geshtol** is an [orc](orc) [quest giver](quest giver) located in [Karfang Hold](Karfang Hold) in the [Burning Steppes](Burning Steppes).
+**Darkseer Geshtol** is an [orc](orc) [quest giver](quest giver) located in [Karfang Hold](Karfang Hold) in the [Burning Steppes](Burning Steppes).
 
 ## Quests
 - [quest: Fueling the Blood Fury] 
 - [quest: Fueling the Blood Fury] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Dark magic aids us in battle and empowers our spirits. The Blood Fury that flows through our veins is a resource that can be tapped and enhanced by the powers I can conjure.
 
 ## Patch changes

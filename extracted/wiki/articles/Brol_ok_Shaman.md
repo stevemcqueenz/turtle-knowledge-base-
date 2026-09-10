@@ -24,7 +24,7 @@ categories: ["Gilneas mobs", "Ogre characters", "Turtle WoW content"]
 | location | Brol'ok Mound, Gilneas |
 | status | Killable |
 
--Brol'ok Shamans** are ogres found in [Brol'ok Mound](Brol'ok Mound) in [Gilneas](Gilneas).
+**Brol'ok Shamans** are ogres found in [Brol'ok Mound](Brol'ok Mound) in [Gilneas](Gilneas).
 
 ## Abilities
 - Chain Lightning

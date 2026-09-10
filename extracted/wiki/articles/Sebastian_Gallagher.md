@@ -25,10 +25,10 @@ categories: ["Human characters", "Northwind NPCs", "Stormwind (kingdom)", "Turtl
 | status | Alive |
 | relatives | Lucia, Mark, Wisteria (children) |
 
--Sebastian Gallagher** is a [human](human) located in [Ambershire](Ambershire) in [Northwind](Northwind).
+**Sebastian Gallagher** is a [human](human) located in [Ambershire](Ambershire) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I enjoy looking at the town from my chair. Each day, I would see children playing in the leaf piles, happily dancing around. Nowadays, we've been robbed of that kind of peace. Children are missing or kept inside by paranoid parents. Were I five years younger, I would take my sword and show this young generation what must be done at times like this! Yet, I am cursed with weak legs and a lazy bum of a son—he's probably asleep right now. At least the Light blessed me with better daughters.
 
 ## Patch changes

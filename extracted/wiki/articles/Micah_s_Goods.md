@@ -10,7 +10,7 @@ categories: ["Gilneas City shops", "Turtle WoW content"]
 ---
 # Micah’s Goods
 
--Micah’s Goods** is a shop located in [Gilneas City](Gilneas City).
+**Micah’s Goods** is a shop located in [Gilneas City](Gilneas City).
 
 ## Patch changes
 - (Patch 1.17.0|note=Added.)

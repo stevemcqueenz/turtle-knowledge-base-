@@ -13,11 +13,5 @@ categories: ["Draenei territories", "Stubs", "Temples", "Tower of Karazhan subzo
 The **Temple of Aka'Sha** is an area located upon the [Rock of Desolation](Rock of Desolation) within the [Tower of Karazhan](Tower of Karazhan) raid, just past the [Sanv Tribe Village](Sanv Tribe Village). It is where [Sanv Tas'dal](Sanv Tas'dal) can be fought.
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - - ## Patch changes
 - (Patch 1.17.2|note=Added.)

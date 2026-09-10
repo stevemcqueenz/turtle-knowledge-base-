@@ -12,11 +12,11 @@ categories: ["Mulgore subzones", "Pages with broken file links", "Quilboar terri
 
 __NOTOC__
 
-  -Brambleblade Ravine** is the home to the [Bristleback](Bristleback tribe) [quilboar](quilboar)s found on the northeastern edge of [Red Cloud Mesa](Red Cloud Mesa). Early tauren adventurers journeyed here in order to disrupt the quilboar attacks, even to go as far as attacking their leader [Chief Sharptusk Thornmantle](Chief Sharptusk Thornmantle), who resided in a large hut towards the back of this ravine.
+**Brambleblade Ravine** is the home to the [Bristleback](Bristleback tribe) [quilboar](quilboar)s found on the northeastern edge of [Red Cloud Mesa](Red Cloud Mesa). Early tauren adventurers journeyed here in order to disrupt the quilboar attacks, even to go as far as attacking their leader [Chief Sharptusk Thornmantle](Chief Sharptusk Thornmantle), who resided in a large hut towards the back of this ravine.
 
 ## Inhabitants
--[Chief Sharptusk Thornmantle](Chief Sharptusk Thornmantle)
--["Squealer" Thornmantle]("Squealer" Thornmantle)
--[Bristleback Quilboar](Bristleback Quilboar)
--[Bristleback Battleboar](Bristleback Battleboar)
--[Bristleback Shaman](Bristleback Shaman)
+- [Chief Sharptusk Thornmantle](Chief Sharptusk Thornmantle)
+- ["Squealer" Thornmantle]("Squealer" Thornmantle)
+- [Bristleback Quilboar](Bristleback Quilboar)
+- [Bristleback Battleboar](Bristleback Battleboar)
+- [Bristleback Shaman](Bristleback Shaman)

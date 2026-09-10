@@ -10,18 +10,10 @@ categories: ["Elite areas", "Moonwhisper Coast subzones", "Night elf territories
 ---
 # Elun'aran
 
--Elun'aran** is a ruined [night elf](night elf) city located on the isle of [Tyrandas](Tyrandas). At its center stands the [Temple of Elunaris](Temple of Elunaris), once a center for training for the priestesses of [Elune](Elune). Once tended by druids who honored both the forest and the moon, it fell under the influence of [Arch Druid Mothshroud](Arch Druid Mothshroud) and the [Shadewalkers](Shadewalkers), corrupting their purpose and twisting the land in rot. (ref: [quest: The Rot of Elun'aran]) (ref: [quest: Keeper of the Broken Grove])
+**Elun'aran** is a ruined [night elf](night elf) city located on the isle of [Tyrandas](Tyrandas). At its center stands the [Temple of Elunaris](Temple of Elunaris), once a center for training for the priestesses of [Elune](Elune). Once tended by druids who honored both the forest and the moon, it fell under the influence of [Arch Druid Mothshroud](Arch Druid Mothshroud) and the [Shadewalkers](Shadewalkers), corrupting their purpose and twisting the land in rot. (ref: [quest: The Rot of Elun'aran]) (ref: [quest: Keeper of the Broken Grove])
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
--  (rare)
+- - - - - - - - - (rare)
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

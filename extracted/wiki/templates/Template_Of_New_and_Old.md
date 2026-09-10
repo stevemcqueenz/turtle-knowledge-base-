@@ -10,7 +10,7 @@ categories: []
 ---
 # Template:Of New and Old
 
-1.[quest: Of New and Old]
-1.[quest: Of New and Old II]
-1.[quest: Of New and Old III]
-1.[quest: Of New and Old IV]
+1. [quest: Of New and Old]
+1. [quest: Of New and Old II]
+1. [quest: Of New and Old III]
+1. [quest: Of New and Old IV]

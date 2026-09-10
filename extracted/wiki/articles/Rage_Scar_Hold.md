@@ -10,4 +10,4 @@ categories: ["Caves", "Feralas subzones", "Pages with broken file links", "Yetis
 ---
 # Rage Scar Hold
 
--Rage Scar Hold** is a dug in cave in [Feralas](Feralas), near [Feathermoon Stronghold](Feathermoon Stronghold). It contains the most vicious [yeti](yeti)s in the area.
+**Rage Scar Hold** is a dug in cave in [Feralas](Feralas), near [Feathermoon Stronghold](Feathermoon Stronghold). It contains the most vicious [yeti](yeti)s in the area.

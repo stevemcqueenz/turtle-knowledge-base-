@@ -24,7 +24,7 @@ categories: ["Balor NPCs", "Guards", "Human characters", "SI:7", "Turtle WoW con
 | gender | Both |
 | location | SI:7 Outpost, Balor |
 
--SI:7 Operatives** are human guards defending the [SI:7 Outpost](SI:7 Outpost) on the island of [Balor](Balor).
+**SI:7 Operatives** are human guards defending the [SI:7 Outpost](SI:7 Outpost) on the island of [Balor](Balor).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

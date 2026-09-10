@@ -21,7 +21,7 @@ The [Argent Dawn](Argent Dawn), a neutral regime dedicated to the eradication of
 Currently, Apothecaries of the [Forsaken](Forsaken) are working on producing their own [New Plague](New Plague), which would have a similar effect as the original Plague, but with far deadlier results, first turning its victims into [ghoul](ghoul)s before killing them mere seconds later. Experiments on this New Plague have been conducted by Apothecaries in [Brill](Brill), the [Sepulcher](Sepulcher), and [Tarren Mill](Tarren Mill).
 
 ## The Undead Plague
--From [Undead Plague](http://worldofwarcraft.com/info/story/undeadplague.html)*
+*From [Undead Plague](http://worldofwarcraft.com/info/story/undeadplague.html)*
 
 The devastating undead plague began in Northrend after the Second War. There, from the depths of the Frozen Throne, the Lich King Ner'zhul afflicted a remote human village through his will alone: a morbid test meant to gauge the plague's effectiveness. The infected villagers died, and when their zombified corpses rose soon after, they had become lumbering, mindless servants of Ner'zhul.
 

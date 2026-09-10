@@ -13,7 +13,7 @@ categories: ["Addon"]
 StatCompare is designed for gear checks and player comparisons. It provides detailed character and target gear stats, talents, buffs, enchants, and custom abilities, making it a valuable tool for raiders, guilds, and gear evaluators.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **StatCompare** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **StatCompare** up to date is by using [GitAddonsManager
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -30,7 +30,7 @@ If you prefer manual installation, follow these steps:
 # Unpack the .zip and rename the folder to StatCompare, removing the -master suffix.
 # Move the folder into your Interface/AddOns directory and restart the game.
 
-  -Optional**: [BetterCharacterStats](BetterCharacterStats)
+**Optional**: [BetterCharacterStats](BetterCharacterStats)
 
 ## Git Links
 - [**(grimfiendish)**](https://github.com/grimfiendish/StatCompare/)

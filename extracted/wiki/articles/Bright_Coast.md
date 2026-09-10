@@ -13,12 +13,12 @@ categories: ["Lapidis Isle subzones", "Shores", "Southsea Freebooters", "Turtle 
 The **Bright Coast** is a stretch of coastline to the west of [Lapidis Isle](Lapidis Isle). The Bright Coast is occupied by pirates of the [Southsea Freebooters](Southsea Freebooters), who under the leadership of ['Water Rat' Jorgy]('Water Rat' Jorgy) have established camps along the shore after being stranded on the island along with the [Kul Tiran Exploratory Fleet](Kul Tiran Exploratory Fleet).
 
 ## NPCs
--  ['Water Rat' Jorgy]('Water Rat' Jorgy)
--  [Southsea Buccaneer](Southsea Buccaneer)
--  [Southsea Corsair](Southsea Corsair)
--  [Southsea Pillager](Southsea Pillager)
--  [Deepsnap Viceclaw](Deepsnap Viceclaw)
--  [Bright Crawler](Bright Crawler)
+- ['Water Rat' Jorgy]('Water Rat' Jorgy)
+- [Southsea Buccaneer](Southsea Buccaneer)
+- [Southsea Corsair](Southsea Corsair)
+- [Southsea Pillager](Southsea Pillager)
+- [Deepsnap Viceclaw](Deepsnap Viceclaw)
+- [Bright Crawler](Bright Crawler)
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

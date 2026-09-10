@@ -26,17 +26,17 @@ categories: ["Blue dragons", "Quest givers", "Winterspring NPCs"]
 | location | Mazthoril, Winterspring |
 | status | Alive |
 
--Halegosa** (ref: [Moriena from the Turtle WoW Community Discord](https://discord.com/channels/466622455805378571/528228771594240030/1255267086293270568) - "There are more interesting blue dragons we can use from Vanilla, like Arygos or Halegosa"), also known as **Haleh**, is a blue dragon and the Matron Protectorate of [Mazthoril](Mazthoril), the blue dragonflight's home in the frigid landscape of [Winterspring](Winterspring).
+**Halegosa** (ref: [Moriena from the Turtle WoW Community Discord](https://discord.com/channels/466622455805378571/528228771594240030/1255267086293270568) - "There are more interesting blue dragons we can use from Vanilla, like Arygos or Halegosa"), also known as **Haleh**, is a blue dragon and the Matron Protectorate of [Mazthoril](Mazthoril), the blue dragonflight's home in the frigid landscape of [Winterspring](Winterspring).
 
 ## Quests
 - [quest: The Matron Protectorate] 
   - [quest: Wrath of the Blue Flight] 
-  -* [quest: Wrath of the Blue Flight] 
+  - * [quest: Wrath of the Blue Flight] 
 - [quest: The Dragon's Eye] 
   - [quest: Drakefire Amulet] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 What is it you ask of the Blue Flight?
 
 ## References

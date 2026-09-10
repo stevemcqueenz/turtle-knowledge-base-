@@ -78,16 +78,16 @@ Unknown to Genn, Liam and Tess had not died at sea with Isiden Perenolde. Liam a
 
 ### Notable people
 ### Notable leaders
-  -House Greymane**
--  King [Garalon Greymane](Garalon Greymane)<sup>†</sup>
--  King [Veren Greymane](Veren Greymane)<sup>†</sup>
--  Queen [Elaena Greymane](Elaena Greymane)<sup>†</sup>
--  King [Genn Greymane](Genn Greymane)<sup>†</sup>
--  King [Liam Greymane](Liam Greymane)
+**House Greymane**
+- King [Garalon Greymane](Garalon Greymane)<sup>†</sup>
+- King [Veren Greymane](Veren Greymane)<sup>†</sup>
+- Queen [Elaena Greymane](Elaena Greymane)<sup>†</sup>
+- King [Genn Greymane](Genn Greymane)<sup>†</sup>
+- King [Liam Greymane](Liam Greymane)
 
-  -Other rulers**
--  Regent-Lord [Mortimer Harlow](Mortimer Harlow)<sup>†</sup>
--  Regent-Lady [Celia Harlow](Celia Harlow)<sup>†</sup>
+**Other rulers**
+- Regent-Lord [Mortimer Harlow](Mortimer Harlow)<sup>†</sup>
+- Regent-Lady [Celia Harlow](Celia Harlow)<sup>†</sup>
 
 ## Military
 Equipped in the finest mithril from the [Dryrock Mine](Dryrock Mine), (ref: [quest: Heist in Dryrock Mine]) the Royal Army has defended the borders of the kingdom of Gilneas for centuries, having been strong enough to even be considered a formidable entity in [Lordaeron](Lordaeron), as well as one of humanity's strongest nations, despite being much smaller than its [closest neighbor](Lordaeron (kingdom)). (ref: *Warcraft II: Tides of Darkness* manual, *[Nations of the Alliance](https://wowpedia.fandom.com/wiki/Warcraft_II:_Tides_of_Darkness_manual#Gilneas)*) Gilneas' military comprises not only footsoldiers and knights, but [Gelnor](Gelnor)ian gryphon riders both dwarves and men. (ref: [The Dwarves of Gelnor](The Dwarves of Gelnor)) The [Gilneas Brigade](Gilneas Brigade), a detachment of troops formed by Prince Liam and Lords [Ravenwood](Darius Ravenwood) and [Gerold](Gerold) to support Lady [Jaina Proudmoore](Jaina Proudmoore)'s human expedition to Kalimdor, fielded a great amount of Gelnorian dwarves in Stonetalon as riflemen and mortar operators. (ref: [Cry of the Warsong (WC3 Orc)](https://wowpedia.fandom.com/wiki/Cry_of_the_Warsong_(WC3_Orc))) 

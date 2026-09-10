@@ -14,13 +14,13 @@ Returns the count of the rewards for a particular quest.
  GetNumQuestLogRewards();
 ----
 
-  - *Arguments***
+** *Arguments***
 
    *none*
 
 ----
 
-  - *Returns***
+** *Returns***
 
    Number numQuestRewards
 
@@ -29,15 +29,15 @@ Returns the count of the rewards for a particular quest.
 
 ----
 
-  - *Example***
+** *Example***
 
  local numQuestRewards = GetNumQuestLogRewards();
 
-  - *Result***
+** *Result***
 
  4
 ----
 
-  - *Description***
+** *Description***
 
    Returns the count of the rewards for a particular quest.

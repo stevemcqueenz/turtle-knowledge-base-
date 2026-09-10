@@ -24,7 +24,7 @@ categories: ["Human characters", "Northwind NPCs", "Turtle WoW content"]
 | location | Amberwood Keep, Northwind |
 | status | Alive |
 
--Servant Robert** is a [human](human) located at [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind).
+**Servant Robert** is a [human](human) located at [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

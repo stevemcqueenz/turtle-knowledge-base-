@@ -40,7 +40,7 @@ You return. You had better have that report in hand.
 Gilneas appears to be in open rebellion. One side is led by Prince Liam Greymane and a certain Ravenwood, while the other side is led by corrupt Gilnean nobles. The boss will want to hear about this. You have done well. This task couldn't have been easy, but as a member of the Horde, you have proven yourself capable with this flawless execution.
 
 ## Notes
-  -Speaking with Greta Longpike**
+**Speaking with Greta Longpike**
 Well, this is a fine day here in Gilneas, isn't it? Take care if you leave town, alright?
 
   > Gossip: *Night lady, gold in mouth at dawn.*

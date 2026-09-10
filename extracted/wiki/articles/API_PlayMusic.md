@@ -17,7 +17,7 @@ categories: ["API Functions"]
 Plays the given mp3.
 ----
 
-  - *Arguments* **
+** *Arguments* **
 
    ("mp3")
   ; mp3
@@ -25,7 +25,7 @@ Plays the given mp3.
 
 ----
 
-  - *Example* **
+** *Example* **
 <syntaxhighlight lang="lua">
  PlayMusic("Sound\\Music\\GlueScreenMusic\\wow_main_theme.mp3");
 
@@ -33,7 +33,7 @@ Plays the given mp3.
 </syntaxhighlight>
 ----
 
-  - *Details* **
+** *Details* **
 
    This function plays the given music file (file format has to be mp3, I think. I have not tried others.) You cannot pause the playback. You can stop it with [StopMusic](API StopMusic).
    If any of the built-in music is playing when you call this function (e.g. Stormwind background music), it will fade out.

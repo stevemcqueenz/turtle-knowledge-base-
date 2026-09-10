@@ -10,7 +10,7 @@ categories: ["Readable items", "Turtle WoW content"]
 ---
 # Perfumed Letter (4)
 
--Perfumed Letter #4** is acquired by interacting with the [Weird Barrel](Weird Barrel) in [Northwind](Northwind) while in possession of [Perfumed Letter #3](Perfumed Letter (3)).
+**Perfumed Letter #4** is acquired by interacting with the [Weird Barrel](Weird Barrel) in [Northwind](Northwind) while in possession of [Perfumed Letter #3](Perfumed Letter (3)).
 
 ## Contains
 ## Patch changes

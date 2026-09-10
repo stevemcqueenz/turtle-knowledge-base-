@@ -25,7 +25,7 @@ categories: ["Human characters", "Shadow Council", "Stormwrought Ruins mobs", "T
 | location | Stormwrought Ruins |
 | status | Killable |
 
--Shadow Council Soulweavers** are [human](human)s located in [Stormwrought Ruins](Stormwrought Ruins).
+**Shadow Council Soulweavers** are [human](human)s located in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Abilities
 - Soul Harvest

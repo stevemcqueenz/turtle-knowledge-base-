@@ -91,7 +91,7 @@ The addon utilizes several core functions to maintain swing timers, track combat
 - **<code>UpdateDisplay</code>**: Updates the visual representation of the swing timer based on current game state and settings.
 - **<code>CheckDamageSource</code>**: Analyzes the source of damage done to determine which timer to reset.
 
-  -Combat Handling**
+**Combat Handling**
 
 The addon listens for various combat-related events:
 
@@ -99,6 +99,6 @@ The addon listens for various combat-related events:
 - **CRITICAL HITS**: Recognizes critical hits and updates timers accordingly.
 - **PLAYER COMBAT STATUS**: Monitors the player's entry and exit from combat to adjust display settings.
 
-  -Localization**
+**Localization**
 
 Currently supports English and French locales. When a specific translation isn't available, it falls back to English.

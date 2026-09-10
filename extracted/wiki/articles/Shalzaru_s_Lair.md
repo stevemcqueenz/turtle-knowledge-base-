@@ -15,4 +15,4 @@ A large, twisting [naga](naga) lair south of [Feathermoon Stronghold](Feathermoo
 The cave consists of a main cave and a smaller cave. They are connected by a waterway. The cave is filled with [Hatecrest Sorceress](Hatecrest Sorceress)es and [Hatecrest Serpent Guard](Hatecrest Serpent Guard)s.
 
 ## Patch changes
--  **Patch 1.4.0 (2005-04-19):** Shalzaru's Lair on the Isle of Dread off the coast of Feralas now properly displays its name when you enter the cave.
+- **Patch 1.4.0 (2005-04-19):** Shalzaru's Lair on the Isle of Dread off the coast of Feralas now properly displays its name when you enter the cave.

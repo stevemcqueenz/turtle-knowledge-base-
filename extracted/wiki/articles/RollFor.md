@@ -10,7 +10,7 @@ categories: ["Addon"]
 ---
 # RollFor
 
--RollFor** is designed to manage rolling for items within the game. It streamlines the rolling process, making it more efficient and user-friendly, particularly in raid environments.
+**RollFor** is designed to manage rolling for items within the game. It streamlines the rolling process, making it more efficient and user-friendly, particularly in raid environments.
 
 ## How to Install
 # Visit the GitHub link you find, then click the green **<> Code** button, and select Download ZIP.
@@ -18,13 +18,13 @@ categories: ["Addon"]
 # Rename the RollFor-main folder to RollFor
 # Restart the game
 
-  -Note**: If you want to install the addon via the launcher, use https://github.com/sica42/RollFor instead.
+**Note**: If you want to install the addon via the launcher, use https://github.com/sica42/RollFor instead.
 
 ## Git Links
 - [**(sica42)**](https://github.com/sica42/RollFor)
 
 ## Commands
-  -Usage**
+**Usage**
 {| class="fandom-table"
 !Function
 !Description
@@ -72,7 +72,7 @@ categories: ["Addon"]
 | Clear soft-res data.
 |}
 
-  -Configuration**
+**Configuration**
 {| class="fandom-table"
 !Function
 !Description
@@ -153,7 +153,7 @@ categories: ["Addon"]
 |Toggle announcing of class restriction on items
 |}
 
-  -Click Functions**
+**Click Functions**
 
 - **Minimap Icon Click:**  Access soft-res data and perform actions related to the addon.
 - **Shift-click the map icon:**  View the winners tracking popup.
@@ -177,7 +177,7 @@ Roll Window:
   - White: No soft-res data available.
 - **Multiple Roll Types Supported:**  Includes general rolling, off-spec rolls, and transmogrification rolls. Supports “two top rolls win” mechanics.
 
-  -New Features in Sica42's Fork**
+**New Features in Sica42's Fork**
 
 - **/rf config auto-class-announce:**  Replaces normal roll messages with class information for restricted items.
 - **/rf config auto-tmog:**  Disables tmog rolling for trash items by default.

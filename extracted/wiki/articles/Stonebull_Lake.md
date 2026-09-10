@@ -12,4 +12,4 @@ categories: ["Lakes", "Mulgore subzones", "Pages with broken file links", "Taure
 
 __NOTOC__
 
-  -Stonebull Lake** is a long horseshoe-shaped lake that surrounds [Bloodhoof Village](Bloodhoof Village) in central [Mulgore](Mulgore) on three sides. It is known for its abundant fish, and many an hour is spent casting lines into the cool water. A bridge spans the lake at its narrowest point. The road that crosses this bridge connects [Thunder Bluff](Thunder Bluff) to Bloodhoof Village.
+**Stonebull Lake** is a long horseshoe-shaped lake that surrounds [Bloodhoof Village](Bloodhoof Village) in central [Mulgore](Mulgore) on three sides. It is known for its abundant fish, and many an hour is spent casting lines into the cool water. A bridge spans the lake at its narrowest point. The road that crosses this bridge connects [Thunder Bluff](Thunder Bluff) to Bloodhoof Village.

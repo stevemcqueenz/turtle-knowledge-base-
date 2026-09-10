@@ -10,19 +10,10 @@ categories: ["Human territories", "Northwind", "Towers", "Turtle WoW content"]
 ---
 # Lion's Watch
 
--Lion's Watch** (ref: [Guard Ellington#Quotes](Guard Ellington#Quotes)) is a scout tower located on the [Merchant's Highroad](Merchant's Highroad) in [Northwind](Northwind). Though it used to be heavily guarded, it is now watched over only by Northwind's militia.
+**Lion's Watch** (ref: [Guard Ellington#Quotes](Guard Ellington#Quotes)) is a scout tower located on the [Merchant's Highroad](Merchant's Highroad) in [Northwind](Northwind). Though it used to be heavily guarded, it is now watched over only by Northwind's militia.
 
 ## Inhabitants
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - - - - - ## Patch changes
 - (Patch 1.18.0|note=Added.)
 
 ## References

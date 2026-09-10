@@ -39,6 +39,6 @@ There... It is done, the key has had its magical properties manipulated, and sho
 
 ## Notes
 Archmage Ansirem Runeweaver will begin channeling magic. After a moment, he will finish.
--**Archmage Ansirem Runeweaver says:** That certainly was challenging, but I have finished my work, the key should be enchanted.
+- **Archmage Ansirem Runeweaver says:** That certainly was challenging, but I have finished my work, the key should be enchanted.
 
 ## Progression

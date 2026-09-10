@@ -10,15 +10,10 @@ categories: ["Furbolg territories", "Moonwhisper Coast subzones", "Turtle WoW co
 ---
 # Blackroot Hold
 
--Blackroot Hold** is a large village of corrupted [furbolg](furbolg)s located in southwestern [Moonwhisper Coast](Moonwhisper Coast). The village is ruled by [Grawlsh the Mad](Grawlsh the Mad), who resides in the [Maw of Ursol](Maw of Ursol). After the corruption from within [Timbermaw Hold](Timbermaw Hold) seeped into the Blackroot furbolgs, they raided [Sunsworn Camp](Sunsworn Camp) and stole supplies meant to last the expedition the month. (ref: [quest: Blackroot Hold])
+**Blackroot Hold** is a large village of corrupted [furbolg](furbolg)s located in southwestern [Moonwhisper Coast](Moonwhisper Coast). The village is ruled by [Grawlsh the Mad](Grawlsh the Mad), who resides in the [Maw of Ursol](Maw of Ursol). After the corruption from within [Timbermaw Hold](Timbermaw Hold) seeped into the Blackroot furbolgs, they raided [Sunsworn Camp](Sunsworn Camp) and stole supplies meant to last the expedition the month. (ref: [quest: Blackroot Hold])
 
 ## NPCs
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - ## Patch changes
 - (Patch 1.18.1|note=Added.)
 
 ## References

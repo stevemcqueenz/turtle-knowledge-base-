@@ -25,7 +25,7 @@ categories: ["Ammo vendors", "General goods vendors", "Gilneas NPCs", "Human cha
 | location | Blackthorn's Camp, Gilneas |
 | status | Alive |
 
--Anati Gapper** is a [human](human) general goods vendor located in [Blackthorn's Camp](Blackthorn's Camp) in [Gilneas](Gilneas).
+**Anati Gapper** is a [human](human) general goods vendor located in [Blackthorn's Camp](Blackthorn's Camp) in [Gilneas](Gilneas).
 
 ## Quotes
 Since you're helping us, I don't mind helping you resupply. Nothing's free, of course. This ain't a charity.

@@ -10,7 +10,7 @@ categories: ["Readable items", "Turtle WoW content"]
 ---
 # Celia's Journal
 
--Celia's Journal** is a book that can drop from [Regent-Lady Celia Harlow](Regent-Lady Celia Harlow) in [Gilneas City](Gilneas City).
+**Celia's Journal** is a book that can drop from [Regent-Lady Celia Harlow](Regent-Lady Celia Harlow) in [Gilneas City](Gilneas City).
 
 ## Patch changes
 - (Patch 1.17.0|note=Added.)

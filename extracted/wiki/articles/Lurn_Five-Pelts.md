@@ -25,7 +25,7 @@ categories: ["Gilneas NPCs", "Human characters", "Quest givers", "Turtle WoW con
 | status | Alive |
 | relatives | Demetreus (father) |
 
--Lurn Five-Pelts** is a [human](human) [quest giver](quest giver) located in a cave above [Mossgrove Farm](Mossgrove Farm) in [Gilneas](Gilneas).
+**Lurn Five-Pelts** is a [human](human) [quest giver](quest giver) located in a cave above [Mossgrove Farm](Mossgrove Farm) in [Gilneas](Gilneas).
 
 ## Quests
 - [quest: Deathly Fetters] 

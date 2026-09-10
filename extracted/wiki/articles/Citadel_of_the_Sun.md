@@ -13,19 +13,6 @@ categories: ["Alah'Thalas subzones", "Turtle WoW content"]
 The **Citadel of the Sun** lies over the shores of the [Thalassian Highlands](Thalassian Highlands). Formerly the beating heart of [Alah'Thalas](Alah'Thalas), it is now home to ambassadors of the [Alliance](Alliance). The Citadel formerly housed the new Magistry, the headquarters of the Rangers, and the seat of the Speaker.
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - - - - - - - - - ## Patch changes
 - (Patch 1.17.1|note=No longer the seat of the Speaker.)
 - (Patch 1.15.0|note=Added.)

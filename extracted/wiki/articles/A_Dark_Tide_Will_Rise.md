@@ -47,8 +47,8 @@ Slithering snakes, self acclaimed rulers of the seas and oceans—-a pain to dea
 The irony of this scroll is lost on me.
 
 ## Progression
-1.[quest: A Dark Tide Will Rise]
-1.[quest: To My Father, Vol'jin]
+1. [quest: A Dark Tide Will Rise]
+1. [quest: To My Father, Vol'jin]
 
 ## Patch changes
 (Patch 1.18.0|note=Added.)

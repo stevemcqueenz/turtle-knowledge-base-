@@ -24,10 +24,10 @@ categories: ["Balor NPCs", "Jungle troll characters", "Turtle WoW content"]
 | location | Stormbreaker Point, Balor |
 | status | Alive |
 
--Nijima** is a [jungle troll](jungle troll) located at [Stormbreaker Point](Stormbreaker Point) in [Balor](Balor).
+**Nijima** is a [jungle troll](jungle troll) located at [Stormbreaker Point](Stormbreaker Point) in [Balor](Balor).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Young [O'jin](O'jin) still has much to learn, if he intends to succeed his father one day.
 
 ## Patch changes

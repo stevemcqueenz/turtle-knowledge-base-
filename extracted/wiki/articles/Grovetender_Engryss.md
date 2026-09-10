@@ -26,16 +26,16 @@ categories: ["Bosses", "Crescent Grove mobs", "Furbolg characters", "Turtle WoW 
 | status | Killable |
 | instance | Crescent Grove |
 
--Grovetender Engryss** is a boss in [the Crescent Grove](Crescent Grove). He is accompanied by [Elder 'One Eye'](Elder 'One Eye') and [Elder Blackmaw](Elder Blackmaw).
+**Grovetender Engryss** is a boss in [the Crescent Grove](Crescent Grove). He is accompanied by [Elder 'One Eye'](Elder 'One Eye') and [Elder Blackmaw](Elder Blackmaw).
 
 ## Quotes
-  -Aggro**
+**Aggro**
   I am the leader of the tribes, me! The Groveweald shall destroy everyone that gets in the way!
 
-  -At 50%**
+**At 50%**
   The Furbolg must survive! I will do anything to ensure it!
 
-  -Death**
+**Death**
   I.. I can see clearly now.. The madness... It's... Over...
 
 ## Objective of

@@ -45,7 +45,7 @@ An ingame IDE with an event viewer.
 |Reload the UI
 |}
 
-  -Window Management**
+**Window Management**
 
 - **Alt + Left-Mouse-button** to move windows
 - **Alt + Right-Mouse-button** to resize windows

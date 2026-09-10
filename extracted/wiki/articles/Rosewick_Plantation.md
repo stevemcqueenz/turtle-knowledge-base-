@@ -13,7 +13,5 @@ categories: ["Farms", "Gilneas subzones", "Turtle WoW content", "Worgen territor
 The **Rosewick Plantation** is an abandoned farmland south of the [Greymane Wall](Greymane Wall) in [Gilneas](Gilneas). The Rosewicks, [Donald](Donald Rosewick) and his wife [Frell](Frell Rosewick), have been displaced by the arrival of the worgen and evacuated to find safety at the [Shademore Tavern](Shademore Tavern). The farmland is currently overrun by worgen of the Nighthowl pack that entered Gilneas through [Oldrock Pass](Oldrock Pass).
 
 ## NPCs
-- 
-
-## Patch changes
+- ## Patch changes
 - (Patch 1.17.0|note=Added.)

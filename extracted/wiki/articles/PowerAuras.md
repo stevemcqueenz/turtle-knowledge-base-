@@ -31,16 +31,16 @@ Download from [**releases**](https://github.com/laytya/PowerAuras-vanilla/releas
 - [shikulja](https://github.com/shikulja) (Russian localization)
 
 ## Updates
-  -Version 2.21**
+**Version 2.21**
 
 - Added combat status check - just type "combat" in buff name field
 
-  -Version 2.20-vanila** 
+**Version 2.20-vanila** 
 
 - Added weapon enchant, you can use weapon enchant name as buff. if you add 'main' or 'off' words, it will look in specific slots.
 - Back-ported image auras from newest mod, so you can use up to 50 ones. Don't forget to adjust number in advanced options.
 
-  -Version 2.10** 
+**Version 2.10** 
 
 - Added a button "+" to easily add more effects 
 - Added a button "-" to clear all unused effects and sort the other by type 
@@ -56,7 +56,7 @@ Download from [**releases**](https://github.com/laytya/PowerAuras-vanilla/releas
 - Finally, fixed the bug which cause some effects beeing randomly activated or deactivated 
 - Some minor animation bugs fixes 
 
-  -Version 2.01** 
+**Version 2.01** 
 
 - Added a timer for debuffs and debuff types (and more functions)
 - Added the option "animation speed" for all effects
@@ -66,7 +66,7 @@ Download from [**releases**](https://github.com/laytya/PowerAuras-vanilla/releas
 - Fixed a bug causing incorrect display of debuff types on non-english versions of the game
 - Fixed a bug not allowing to save the maximum number of texture correctly
 
-  -Version 1.12b** 
+**Version 1.12b** 
 
 - Added 5 textures and 3 animations (don't overwrite your textures if you modified or created new ones)
 - Added a movable timer for buffs (debuffs in a future version). This timer will always show the remaining time of the shortest buff.
@@ -74,11 +74,11 @@ Download from [**releases**](https://github.com/laytya/PowerAuras-vanilla/releas
 - You can enter several names of buffs/debuffs on a single page of effect, if you separate them by "/" (ex: Fortitude/Mark of the wild)
 - You can activate a type of debuff which isn't a Magic, Disease... with the word "None" (the effect will show if the debuff has no particular type). Furthermore, you can enter multiple type of debuffs to the "Name of the debuff" (to track Poison and Disease for example).
 
-  -Version 1.12a** 
+**Version 1.12a** 
 
 - Fixed a problem with memory usage, it should work great now
 
-  -Version 1.12**
+**Version 1.12**
 
 - Added the possibility to save yours effects in a list common to all the characters, juste click the button "List"
 - Added advanced options, available by typing : / powa help

@@ -16,7 +16,7 @@ categories: ["API Functions"]
 Returns the unit's melee attack power and modifiers.
 ----
 
-  - *Arguments***
+** *Arguments***
 
    ("unit")
   ; unit
@@ -24,7 +24,7 @@ Returns the unit's melee attack power and modifiers.
 
 ----
 
-  - *Returns***
+** *Returns***
 
    base, posBuff, negBuff
   ; base
@@ -36,7 +36,7 @@ Returns the unit's melee attack power and modifiers.
 
 ----
 
-  - *Example***
+** *Example***
 <syntaxhighlight lang="lua">
  local base, posBuff, negBuff = UnitAttackPower("unit");
  local effective = base + posBuff + negBuff;

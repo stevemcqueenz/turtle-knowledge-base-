@@ -10,7 +10,7 @@ categories: ["Northwind objects", "Readable objects", "Scarlet Monastery objects
 ---
 # The Siege of Balor
 
--The Siege of Balor** is a book that can be found in the [Athenaeum](Athenaeum) in the [Scarlet Monastery Library](Scarlet Monastery Library) and at the [Ambershire Church](Ambershire Church) in [Northwind](Northwind).
+**The Siege of Balor** is a book that can be found in the [Athenaeum](Athenaeum) in the [Scarlet Monastery Library](Scarlet Monastery Library) and at the [Ambershire Church](Ambershire Church) in [Northwind](Northwind).
 
 ## See also
 - [The Founding of Balor](The Founding of Balor)

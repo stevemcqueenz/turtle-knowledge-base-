@@ -10,17 +10,17 @@ categories: ["Addon"]
 ---
 # Servitude
 
--Servitude** simplifies pet interactions, prioritizes critical targets, and provides real-time alerts allowing you to focus more on the fight and less on micromanagement.
+**Servitude** simplifies pet interactions, prioritizes critical targets, and provides real-time alerts allowing you to focus more on the fight and less on micromanagement.
 
 ## **Installation**
-  -Manual Installation only**
+**Manual Installation only**
 
 # Go to the main page of the repository.
 # Click the **<> Code** dropdown and download the repository as a <code>.zip</code>.
 # Extract the .zip file, move the Servitude folder from inside the Servitude_v060519.0 folder to your <code>Interface/AddOns</code> directory
 # Restart the game.
 
-  -Optional**: AssistHelper
+**Optional**: AssistHelper
 
 ## Git Links
 - [**(crazypoultry)**](https://github.com/crazypoultry/Wow1.12.1_Addons_Collection)
@@ -31,8 +31,8 @@ categories: ["Addon"]
 # Use <code>/servitude clear</code> to reset the priority.
 # Enable or disable features like auto-sacrifice, invisibility, and spell lock within the UI.
 # For quick actions, bind keys:
-1.* Primary action: <code>/servitude primary</code> (or via keybinding)
-1.* Secondary action: <code>/servitude secondary</code>
+1. * Primary action: <code>/servitude primary</code> (or via keybinding)
+1. * Secondary action: <code>/servitude secondary</code>
 
 ## Commands
 {| class="fandom-table"
@@ -56,27 +56,27 @@ categories: ["Addon"]
 |}
 
 ## Features
-  -Pet Management**
+**Pet Management**
 
 - The addon automatically manages pet spells like Devour Magic, Dispel Magic, Sacrifice, and Invisibility based on your settings.
 - You can set a priority unit to focus on devouring debuffs from specific raid/party members.
 
-  -Spell Lock & Anti-Interrupt**
+**Spell Lock & Anti-Interrupt**
 
 - Detects enemy spells and can automatically lock or interrupt dangerous spells in PvP/PvE.
 - Customize behaviors via settings.
 
-  -In-Combat & Out-of-Combat Automation**
+**In-Combat & Out-of-Combat Automation**
 
 - The addon intelligently manages spells depending on combat status.
 - It can automatically sacrifice or devour based on health ratios and combat situation.
 
-  -Visual & Audio Alerts**
+**Visual & Audio Alerts**
 
 - Alerts and notifications appear on-screen.
 - Optional sound alerts for specific events (e.g., spell lock, devour, sacrifice).
 
-  -Custom Colors & Messages**
+**Custom Colors & Messages**
 
 - Configure message colors and alert frames for personalized display.
 

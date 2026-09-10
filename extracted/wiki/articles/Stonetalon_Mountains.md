@@ -40,7 +40,7 @@ WorldMap-StonetalonMountains-old1.jpg|Map of Stonetalon Mountains prior to [patc
 ||[Amani'Alor](Amani'Alor) • [Bael Hardul](Bael Hardul) ([Hardul Distillery](Hardul Distillery)) • [Blacksand Oil Fields](Blacksand Oil Fields) • [Boulderslide Ravine](Boulderslide Ravine) ([Boulderslide Cavern](Boulderslide Cavern)) • [Bramblethorn Pass](Bramblethorn Pass) • [Broken Cliff Mine](Broken Cliff Mine) • [Camp Aparaje](Camp Aparaje) • [The Charred Vale](Charred Vale) • [Earthen Ring](Earthen Ring (Stonetalon Mountains)) • [Greatwood Vale](Greatwood Vale) • [Grimtotem Post](Grimtotem Post) • [Malaka'jin](Malaka'jin) • [Mirkfallon Lake](Mirkfallon Lake) • [Powder Town](Powder Town) • [Sishir Canyon](Sishir Canyon) • [Stonetalon Peak](Stonetalon Peak) • [Sun Rock Retreat](Sun Rock Retreat) • [The Talon Den](Talon Den) • [Venture Company Camp](Venture Company Camp) • [Webwinder Path](Webwinder Path) • [Windshear Crag](Windshear Crag) ([Blackwolf River](Blackwolf River) • [Cragpool Lake](Cragpool Lake) • [The Talondeep Path](Talondeep Path) • [Windshear Mine](Windshear Mine))
 |-
 ||
-  -Warcraft III**
+**Warcraft III**
 
 [Stonetalon Peak caverns](Stonetalon Peak caverns)
 |}
@@ -104,28 +104,28 @@ Both Horde and Alliance have travel hubs in the Stonetalon Mountains, at [Sun Ro
   - [Bright Wood Tree](Bright Wood Tree)
 
 ## Wild creatures
--[Basilisk](Basilisk)
--[Chimera](Chimera)
--[Dryad](Dryad)
--[Earth elemental](Earth elemental)
--[Faerie dragon](Faerie dragon)
--[Fire elemental](Fire elemental)
--[Goblin](Goblin)
--[Harpy](Harpy)
--[Kobold](Kobold)
--[Moonstalker](Moonstalker)
--[Ooze](Ooze)
--[Shredder](Shredder)
--[Spider](Spider)
--[Stag](Stag)
--[Thunder lizard](Thunder lizard)
--[Treant](Treant)
--[Wyvern](Wyvern)
+- [Basilisk](Basilisk)
+- [Chimera](Chimera)
+- [Dryad](Dryad)
+- [Earth elemental](Earth elemental)
+- [Faerie dragon](Faerie dragon)
+- [Fire elemental](Fire elemental)
+- [Goblin](Goblin)
+- [Harpy](Harpy)
+- [Kobold](Kobold)
+- [Moonstalker](Moonstalker)
+- [Ooze](Ooze)
+- [Shredder](Shredder)
+- [Spider](Spider)
+- [Stag](Stag)
+- [Thunder lizard](Thunder lizard)
+- [Treant](Treant)
+- [Wyvern](Wyvern)
 
 ## Patch changes
 - (Patch 1.18.0|note=[Earthen Ring](Earthen Ring (Stonetalon Mountains)) added.)
 - (Patch 1.16.4|note=[Powder Town](Powder Town), [Bramblethorn Pass](Bramblethorn Pass), [Bael Hardul](Bael Hardul) and [Blacksand Oil Fields](Blacksand Oil Fields) added.)
 - (Patch 1.15.0|note=[Venture Camp](Venture Camp) added.)
--  **Patch 1.1.0 (2004-11-07):** More quests added to Stonetalon.
+- **Patch 1.1.0 (2004-11-07):** More quests added to Stonetalon.
 
 ## References

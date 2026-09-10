@@ -13,7 +13,7 @@ categories: ["Addon"]
 This addon helps you find groups quickly without sifting through chat spam. It features a streamlined interface with customizable options to filter and display group messages, and tools to manage group invitations efficiently.
 
 ## Installation
-  -GitAddonsManager (Recommended)**
+**GitAddonsManager (Recommended)**
 
 The easiest way to keep GroupFinder up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep GroupFinder up to date is by using [GitAddonsManager](Gi
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -34,7 +34,7 @@ If you prefer manual installation, follow these steps:
 - [**(redshadowz)**](https://github.com/redshadowz/Groupfinder) - this is for the latest patch, it is unstable as work is ongoing.
 
 ## **Features**
-  -Layout**
+**Layout**
 
 The addon is designed for simplicity and ease of use. The main interface is divided into four sections:
 
@@ -43,7 +43,7 @@ The addon is designed for simplicity and ease of use. The main interface is divi
 - **Middle:** Group Listings
 - **Bottom:** Group Maker
 
-  -Chat Options**
+**Chat Options**
 
 - **Show groups:** Display group messages in chat.
 - **Show Minimap:** Show group messages next to the minimap button.
@@ -53,9 +53,9 @@ The addon is designed for simplicity and ease of use. The main interface is divi
 - **Show Politics:** Show political or offensive messages.
 - **Show Loots:** Show loot-related messages (item rolls, money looting, grey items, greed/need rolls, experience/honor gains).
 
-  -*Note**:* All blocked chat is logged.
+***Note**:* All blocked chat is logged.
 
-  -Filtering & Sound**
+**Filtering & Sound**
 
 - **Auto Filter:** Show only groups near your level (default: within 6 levels).
 - **Play Sound:** Play a sound when a group is found.
@@ -63,7 +63,7 @@ The addon is designed for simplicity and ease of use. The main interface is divi
 - **Keywords:** Text filter for your group list. Use "/" to separate multiple keywords. The dropdown auto-populates based on your level.
 - **Auto /Who:** Automatically perform '/who' commands to gather class/level info of groups/players.
 
-  -Channel & Spam Management**
+**Channel & Spam Management**
 
 - **Join World Channel:** Keep you in the World Channel.
 - **Enable Error Filtering:** Block server messages related to group invites, quest sharing, and "Under Attack!"
@@ -71,7 +71,7 @@ The addon is designed for simplicity and ease of use. The main interface is divi
 - **Enable Spam Filtering:** Block repetitive spam messages.
 - **Enable Auto Blacklist:** Blacklist players who spam below level 12 automatically.
 
-  -Group Maker**
+**Group Maker**
 
 Allows you to send group recruitment messages efficiently:
 
@@ -83,7 +83,7 @@ Allows you to send group recruitment messages efficiently:
 - You can customize your message in the textbox.
 - Use the **"Auto"** feature to automatically adjust the message based on current group size; the message stops when the group is full.
 
-  -Whisper & Invite Tools**
+**Whisper & Invite Tools**
 
 Facilitates whispering and inviting players:
 
@@ -92,9 +92,9 @@ Facilitates whispering and inviting players:
 # Enter a message in the **Invite** textbox (defaults to the last announce message if blank).
 # Click **"Invite"** to whisper players from the list.
 
-  -*Note**:* Players are not messaged more than once every 15 minutes.
+***Note**:* Players are not messaged more than once every 15 minutes.
 
-  -Additional Notes**
+**Additional Notes**
 
 - The Turtle WoW version enforces a whisper limit (~15 whispers), so be mindful when messaging multiple players.
 - Shift-right-click the minimap icon to toggle a "hide everything" overlay mode for quick concealment.

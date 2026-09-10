@@ -24,7 +24,7 @@ categories: ["Gilneas NPCs", "Human ghosts", "Quest givers", "Turtle WoW content
 | location | Greymane's Watch, Gilneas |
 | status | Active |
 
--Elaroth Ranworth** is a human ghost [quest giver](quest giver) located at [Greymane's Watch](Greymane's Watch) in [Gilneas](Gilneas).
+**Elaroth Ranworth** is a human ghost [quest giver](quest giver) located at [Greymane's Watch](Greymane's Watch) in [Gilneas](Gilneas).
 
 ## Quests
 - [quest: The Gilneas Lighthouse I] 

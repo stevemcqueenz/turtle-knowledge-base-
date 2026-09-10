@@ -10,4 +10,4 @@ categories: ["Barrens subzones", "Hills", "Pages with broken file links", "Quilb
 ---
 # Blackthorn Ridge
 
--Blackthorn Ridge**43 80 Northern Barrens (g/s/c) is a thorny valley located just north of the [Quilboar](Quilboar) capital of [Razorfen Kraul](Razorfen Kraul), populated primarily by [Razormane](Razormane tribe) [Quilboar](Quilboar). The [orc](orc) [shaman](shaman) [Brine](Brine) dwells on the ridge that gives this area it's name. Just below her camp, lies a pool whose water is of notable quality and purity.
+**Blackthorn Ridge**43 80 Northern Barrens (g/s/c) is a thorny valley located just north of the [Quilboar](Quilboar) capital of [Razorfen Kraul](Razorfen Kraul), populated primarily by [Razormane](Razormane tribe) [Quilboar](Quilboar). The [orc](orc) [shaman](shaman) [Brine](Brine) dwells on the ridge that gives this area it's name. Just below her camp, lies a pool whose water is of notable quality and purity.

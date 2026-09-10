@@ -10,6 +10,6 @@ categories: ["Spiders", "Tarantulas"]
 ---
 # Tarantula
 
--Tarantulas** are a group of large, hairy [spider](spider)s. Although [Redridge Mountains](Redridge Mountains) is a peaceful Alliance region, the mountains remain dangerous at times, with tarantulas in the east. When traveling though here, [Brann Bronzebeard](Brann Bronzebeard) himself stumbled upon a nest of tarantulas. He noted that if you followed the current from the [Stonewatch Falls](Stonewatch Falls), you would eventually run into the canyons where tarantulas can be found, so most people did not go that far.
+**Tarantulas** are a group of large, hairy [spider](spider)s. Although [Redridge Mountains](Redridge Mountains) is a peaceful Alliance region, the mountains remain dangerous at times, with tarantulas in the east. When traveling though here, [Brann Bronzebeard](Brann Bronzebeard) himself stumbled upon a nest of tarantulas. He noted that if you followed the current from the [Stonewatch Falls](Stonewatch Falls), you would eventually run into the canyons where tarantulas can be found, so most people did not go that far.
 
 They can be found in many regions of Azeroth like [Redridge Mountains](Redridge Mountains) & the [Swamp of Sorrows](Swamp of Sorrows).

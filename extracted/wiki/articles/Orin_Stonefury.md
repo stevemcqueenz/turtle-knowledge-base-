@@ -25,7 +25,7 @@ categories: ["Argent Dawn", "Brotherhood of the Light", "Dwarf characters", "Sca
 | location | Light's Point, Scarlet Enclave |
 | status | Alive |
 
--Orin Stonefury** is a [dwarf](dwarf) located in the guard tower at [Light's Point](Light's Point) in the [Scarlet Enclave](Scarlet Enclave).
+**Orin Stonefury** is a [dwarf](dwarf) located in the guard tower at [Light's Point](Light's Point) in the [Scarlet Enclave](Scarlet Enclave).
 
 ## Quotes
 My family called Lordaeron home once, heh, believe it or not. Valuable money was to be made from ore and jewelcrafting that we Stonefury were once known for many years ago! Now all that's left of my family's legacy is smouldering ruins and piles of stone and burnt wood, not to mention the corpses!

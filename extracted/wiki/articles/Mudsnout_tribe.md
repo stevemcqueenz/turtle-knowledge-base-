@@ -17,8 +17,8 @@ The **Mudsnout tribe** is a [tribe](tribe) of [gnolls](gnolls) found in the [Hil
 ## Classes
 There seems to be two [class](class) of Mudsnouts in *World of Warcraft*.
 
--Mudsnout Gnoll
--[Mudsnout Shaman](Mudsnout Shaman)
+- Mudsnout Gnoll
+- [Mudsnout Shaman](Mudsnout Shaman)
 
 ## Famous/Named Mobs
 [Ro'Bark](Ro'Bark) is a level 28 rare spawn, and may be their leader.

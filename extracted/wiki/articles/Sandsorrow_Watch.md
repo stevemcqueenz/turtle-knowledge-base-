@@ -10,4 +10,4 @@ categories: ["Elite areas", "Pages with broken file links", "Sand troll territor
 ---
 # Sandsorrow Watch
 
--Sandsorrow Watch** is an area of Tanaris heavily populated by [Sandfury trolls](Sandfury trolls).  Their dwellings and powerful soldiers dot the landscape.
+**Sandsorrow Watch** is an area of Tanaris heavily populated by [Sandfury trolls](Sandfury trolls).  Their dwellings and powerful soldiers dot the landscape.

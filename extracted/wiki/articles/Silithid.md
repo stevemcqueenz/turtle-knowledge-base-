@@ -24,32 +24,32 @@ The Silithids burrow their underground hives all over southern Kalimdor. All of 
 ## Castes
 Over the centuries, many castes developed:
 
--[Silithid Larva](Silithid Larva)
--[Silithid Worker](Silithid Worker)
--[Silithid Scarab](Silithid Scarab)
--[Silithid Wasp](Silithid Wasp)
--[Silithid Tank](Silithid Tank)
--[Silithid Colossus](Silithid Colossus)
--[Silithid Sand Worm](Silithid Sand Worm)
--[Sandreaver](Sandreaver)
--[Silithid Light](Silithid Light)
--[Silithid Pill Bug](Silithid Pill Bug)
--[Silithid Egg Layer](Silithid Egg Layer)
--[Riding Silithid](Riding Silithid)
+- [Silithid Larva](Silithid Larva)
+- [Silithid Worker](Silithid Worker)
+- [Silithid Scarab](Silithid Scarab)
+- [Silithid Wasp](Silithid Wasp)
+- [Silithid Tank](Silithid Tank)
+- [Silithid Colossus](Silithid Colossus)
+- [Silithid Sand Worm](Silithid Sand Worm)
+- [Sandreaver](Sandreaver)
+- [Silithid Light](Silithid Light)
+- [Silithid Pill Bug](Silithid Pill Bug)
+- [Silithid Egg Layer](Silithid Egg Layer)
+- [Riding Silithid](Riding Silithid)
 
 ## Hives
 ### Major Hives
--[Hive'Zora](Hive'Zora) - [Silithus](Silithus)
--[Hive'Ashi](Hive'Ashi) - [Silithus](Silithus)
--[Hive'Regal](Hive'Regal) - [Silithus](Silithus)
--[Hive'Zara](Hive'Zara) - [Ruins of Ahn'Qiraj](Ruins of Ahn'Qiraj)
+- [Hive'Zora](Hive'Zora) - [Silithus](Silithus)
+- [Hive'Ashi](Hive'Ashi) - [Silithus](Silithus)
+- [Hive'Regal](Hive'Regal) - [Silithus](Silithus)
+- [Hive'Zara](Hive'Zara) - [Ruins of Ahn'Qiraj](Ruins of Ahn'Qiraj)
 ### Minor Hives
--[Gorishi](Gorishi) - [Un'Goro Crater](Un'Goro Crater)
--[Zukk'ash](Zukk'ash) - [Feralas](Feralas)
--[Centipaar](Centipaar) - [Tanaris](Tanaris)
--[Hazzali](Hazzali) - [Tanaris](Tanaris)
--[Rustmaul Digsite](Rustmaul Digsite) - [Thousand Needles](Thousand Needles)
--[Field of Giants](Field of Giants) - [The Barrens](The Barrens)
+- [Gorishi](Gorishi) - [Un'Goro Crater](Un'Goro Crater)
+- [Zukk'ash](Zukk'ash) - [Feralas](Feralas)
+- [Centipaar](Centipaar) - [Tanaris](Tanaris)
+- [Hazzali](Hazzali) - [Tanaris](Tanaris)
+- [Rustmaul Digsite](Rustmaul Digsite) - [Thousand Needles](Thousand Needles)
+- [Field of Giants](Field of Giants) - [The Barrens](The Barrens)
 
 ## *Starship Troopers*
 Some believe the Silithid's insect-like appearance is derived from the movie *[Starship Troopers](http://www.imdb.com/title/tt0120201/)* (1997), where a group of insectoids do battle with humans in space. Similar suggestions have been put forth about the [Zerg](Zerg) from [Blizzard](Blizzard)'s [Starcraft](Starcraft) series. Blizzard has also claimed that they derived some inspiration from the *Starship Troopers* movie for Starcraft, leaving the possibility that the Silithid design may have been influenced by it.

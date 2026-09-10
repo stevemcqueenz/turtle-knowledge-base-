@@ -25,13 +25,13 @@ categories: ["Dwarf characters", "Elwynn Forest NPCs", "Survival vendors"]
 | location | Elwynn Forest |
 | status | Alive |
 
--Betty** is a [dwarf](dwarf) gardening vendor located in [Elwynn Forest](Elwynn Forest) on the outskirts to [Stormwind City](Stormwind City).
+**Betty** is a [dwarf](dwarf) gardening vendor located in [Elwynn Forest](Elwynn Forest) on the outskirts to [Stormwind City](Stormwind City).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 My grand dream is to grow the World's Biggest Pumpkin!
 
 What's yours?
 
 ## Patch changes
--  **[Hotfix](https://forum.turtlecraft.gg/viewtopic.php?f=2&t=1036) (2020-05-07):** Added.
+- **[Hotfix](https://forum.turtlecraft.gg/viewtopic.php?f=2&t=1036) (2020-05-07):** Added.

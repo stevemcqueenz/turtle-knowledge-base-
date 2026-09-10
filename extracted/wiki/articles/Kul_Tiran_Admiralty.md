@@ -16,7 +16,7 @@ Regarding PVP, we collect alliance players between 1-49 on our discord. The goal
 
 The Kul Tiran Navy is serving the High Admiral, at all times. Representing interests of Kul Tiras in every corner of the world. Roleplaying adventures and members you will find under: [Logbook of the Kul Tiran Admiralty](https://forum.turtlecraft.gg/viewtopic.php?t=15880)
 
-  -One can find us in several places:** 
+**One can find us in several places:** 
 
 - in Davenburg a part of Stormwind where they maintain an embassy.
 - in the Lapidis Island where Admiral Caelan's  fleet is wrecked.
@@ -31,7 +31,7 @@ The members may come from different races of the Alliance, but they all swear fe
 - Gnomes
 - High Elf -  *with explanation, why to work for the Navy* 
 - Night Elf - *with explanation, why to work for the Navy*
-  -Roles we need in the Navy:**
+**Roles we need in the Navy:**
 - Sailors
 - Cooks
 - Bartenders
@@ -44,7 +44,7 @@ The members may come from different races of the Alliance, but they all swear fe
 - Hunters
 - Cannoners
 
-  -How to join?**
+**How to join?**
 
 Please find us at the Turtle WoW discord and connect us there, or find us in the game! 
 
@@ -52,7 +52,7 @@ Selewkos, Reijo
 
 Let's write together our future!
 
--"Join the Kul Tiran Admiralty, where the sea is your home and honor is your compass. As a recruit, you'll learn the art of seamanship from seasoned sailors in Davensburg, mastering the rigging and weaponry of our mighty warships. From defending our shores to exploring distant horizons, your journey will be steeped in adventure and camaraderie. Embrace the call of the sea, and become part of a legacy that spans generations. Are you ready to sail with courage and uphold the proud traditions of Kul Tiras? Join us, and together, we will face the challenges of the Great Sea with unwavering resolve."*<gallery>
+*"Join the Kul Tiran Admiralty, where the sea is your home and honor is your compass. As a recruit, you'll learn the art of seamanship from seasoned sailors in Davensburg, mastering the rigging and weaponry of our mighty warships. From defending our shores to exploring distant horizons, your journey will be steeped in adventure and camaraderie. Embrace the call of the sea, and become part of a legacy that spans generations. Are you ready to sail with courage and uphold the proud traditions of Kul Tiras? Join us, and together, we will face the challenges of the Great Sea with unwavering resolve."*<gallery>
 File:Képernyőkép 2024-07-05 002355 másolata.png
 File:Képernyőkép 2024-07-18 214253 másolata.png
 File:Képernyőkép 2024-07-31 004426 másolata.png

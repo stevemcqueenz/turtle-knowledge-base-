@@ -26,7 +26,7 @@ categories: ["Dalaran (kingdom)", "Deadwind Pass NPCs", "Human characters", "Kir
 | status | Alive |
 | mentors | Ansirem Runeweaver (master) |
 
--Magus Ariden Dusktower** is a [human](human) [quest giver](quest giver) located in [Ariden's Camp](Ariden's Camp) in [Deadwind Pass](Deadwind Pass).
+**Magus Ariden Dusktower** is a [human](human) [quest giver](quest giver) located in [Ariden's Camp](Ariden's Camp) in [Deadwind Pass](Deadwind Pass).
 
 ## Quests
 - [quest: The Mystery of Karazhan I] 
@@ -38,7 +38,7 @@ categories: ["Dalaran (kingdom)", "Deadwind Pass NPCs", "Human characters", "Kir
 - [quest: The Mystery of Karazhan VII] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The growing magical energies surrounding Karazhan have been a great cause for concern within the Kirin Tor. I have ventured here of my own will to study the mysteries that seem to be growing more bold with the passing of time. Perhaps you are willing to assist the Kirin Tor in uncovering the unknown for the greater good?
 
 ## Patch changes

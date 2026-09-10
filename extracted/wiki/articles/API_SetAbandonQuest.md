@@ -14,27 +14,27 @@ Called before calling [AbandonQuest](API AbandonQuest)
  SetAbandonQuest();
 ----
 
-  - *Arguments***
+** *Arguments***
 
    *none*
 
 ----
 
-  - *Returns***
+** *Returns***
 
   ; nil
 
 ----
 
-  - *Example***
+** *Example***
 
  SetAbandonQuest();
 
-  - *Result***
+** *Result***
 
 ----
 
-  - *Description***
+** *Description***
 
    Called before calling [AbandonQuest](API AbandonQuest). Found in OnClick event of the Abandon Quest button of the default interface file QuestLogFrame.xml
 

@@ -10,13 +10,13 @@ categories: ["Addon"]
 ---
 # CRAP
 
--Compact Raid and Party** (CRAP) is a World of Warcraft (1.12) add-on that replaces the default party and raid frames with a more compact group frame.
+**Compact Raid and Party** (CRAP) is a World of Warcraft (1.12) add-on that replaces the default party and raid frames with a more compact group frame.
 
 ## How to install
 Either clone the repository to your WoW/Interface/Add-ons folder, or download manually via github (click on Clone or Download -> Download ZIP. Do not forget to rename the directory to "CRAP" afterwards.
 
 ## Git links
-  -[(vargv666)](https://github.com/vargv666/CRAP)**
+**[(vargv666)](https://github.com/vargv666/CRAP)**
 
 ## Preview
 ## Features

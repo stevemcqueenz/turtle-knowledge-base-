@@ -25,7 +25,7 @@ categories: ["Defias Brotherhood", "Human characters", "Northwind mobs", "Turtle
 | location | Crystal Falls, Northwind |
 | status | Killable |
 
--Edward Paddley** is a [human](human) located at [Crystal Falls](Crystal Falls) in [Northwind](Northwind). He was placed in charge of the [Defias Brotherhood](Defias Brotherhood)'s incursion into Northwind by [Edwin VanCleef](Edwin VanCleef), taking advantage of the chaos caused by the Blackrock and Dark Iron invasions of the region in order to plunder it. (ref: [VanCleef's Orders](VanCleef's Orders))
+**Edward Paddley** is a [human](human) located at [Crystal Falls](Crystal Falls) in [Northwind](Northwind). He was placed in charge of the [Defias Brotherhood](Defias Brotherhood)'s incursion into Northwind by [Edwin VanCleef](Edwin VanCleef), taking advantage of the chaos caused by the Blackrock and Dark Iron invasions of the region in order to plunder it. (ref: [VanCleef's Orders](VanCleef's Orders))
 
 ## Abilities
 - Cleave

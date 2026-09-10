@@ -13,14 +13,4 @@ categories: ["Human territories", "Inns", "Redridge Mountains subzones"]
 The **Lakeshire Inn** in [Redridge Mountains](Redridge Mountains) is a well-known establishment, and has kept its warm atmosphere despite the town's beleaguered state. It is a popular spot to sit down and have a chat and a drink of wine or ale, and the inn also offers bedrest to the weary traveler.
 
 ## Inhabitants
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
--
+- - - - - - - - - - -

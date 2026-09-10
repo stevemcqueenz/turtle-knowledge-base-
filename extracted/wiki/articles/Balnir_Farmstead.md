@@ -10,4 +10,4 @@ categories: ["Farms", "Forsaken territories", "Pages with broken file links", "T
 ---
 # Balnir Farmstead
 
--Balnir Farmstead** is one of the many places that used to belong to the farmfolk of [Lordaeron](Lordaeron), but since the [Plague of Undeath](Plague of Undeath), has fallen into the hands of the [Scourge](Scourge). Spirits and animated corpses wander the fields and inhabit the barn, ready to assault anyone who approaches.
+**Balnir Farmstead** is one of the many places that used to belong to the farmfolk of [Lordaeron](Lordaeron), but since the [Plague of Undeath](Plague of Undeath), has fallen into the hands of the [Scourge](Scourge). Spirits and animated corpses wander the fields and inhabit the barn, ready to assault anyone who approaches.

@@ -26,14 +26,14 @@ categories: ["Human characters", "Kul Tiran Exploratory Fleet", "Lapidis Isle NP
 | status | Alive |
 | companions | Hydrox |
 
--Magus Valgon** is a [human](human) [quest giver](quest giver) located in a camp south of the [Hazzuri Glade](Hazzuri Glade) in [Lapidis Isle](Lapidis Isle).
+**Magus Valgon** is a [human](human) [quest giver](quest giver) located in a camp south of the [Hazzuri Glade](Hazzuri Glade) in [Lapidis Isle](Lapidis Isle).
 
 ## Quests
 - [quest: The Tower of Lapidis VI] 
 - [quest: The Tower of Lapidis VII] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I am Magus Valgon, citizen of [Kul Tiras](Kul Tiras (kingdom)) and a wizard dedicated to both hydromancy and the studies of the arcane.
 
 There are many great mysteries lurking upon this island, and I have dedicated myself to uncovering them all.

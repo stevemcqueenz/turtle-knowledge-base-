@@ -25,7 +25,7 @@ categories: ["Human characters", "Sunnyglade Valley NPCs", "Turtle WoW content"]
 | location | Sunnyglade Valley |
 | status | Killable |
 
--Human Footmen** are [human](human) defenders of [Azeroth](Stormwind (kingdom)) in [Sunnyglade Valley](Sunnyglade Valley) during the [First War](First War).
+**Human Footmen** are [human](human) defenders of [Azeroth](Stormwind (kingdom)) in [Sunnyglade Valley](Sunnyglade Valley) during the [First War](First War).
 
 ## Abilities
 - Battle Shout

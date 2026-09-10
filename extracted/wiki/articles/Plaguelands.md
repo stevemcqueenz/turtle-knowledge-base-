@@ -43,16 +43,16 @@ The proper Plaguelands are the [Western](Western Plaguelands) and [Eastern Plagu
 |}
 
 ### Other regions of the Plaguelands
--[Tirisfal Glades](Tirisfal Glades)
+- [Tirisfal Glades](Tirisfal Glades)
 
 ### Plagued regions outside the Plaguelands
--[Eversong Wastes](Eversong Wastes)
--[Silverpine Forest](Silverpine Forest) - It could be considered part of them, but not always because there are many places without Scourge soldiers, but their influence is evident.
+- [Eversong Wastes](Eversong Wastes)
+- [Silverpine Forest](Silverpine Forest) - It could be considered part of them, but not always because there are many places without Scourge soldiers, but their influence is evident.
 
 ## Notes and trivia
--[Balnazzar](Balnazzar) referred to [ruins of Capital City](Ruins of Lordaeron) or [Tirisfal Glades](Tirisfal Glades) as Plaguelands. (ref: [A New Power in Lordaeron (WC3 Undead)](https://wowpedia.fandom.com/wiki/A_New_Power_in_Lordaeron_(WC3_Undead)))
--[Lordaeron](Lordaeron) and [Quel'Thalas](Quel'Thalas) were referred to as the toxic Plaguelands. (ref: *World of Warcraft: Game Manual*, pg. 164)
--According to [Rhonin](Rhonin) after the Third War, the Scourge intended to make a vast Plagueland. (ref: *[The Demon Soul](The Demon Soul)*, chapter 14)
--In *[The Frozen Throne](Warcraft III: The Frozen Throne)* and early concept maps for *[World of Warcraft](World of Warcraft)*, the Plaguelands were a single area instead of having a western and eastern distinction.
+- [Balnazzar](Balnazzar) referred to [ruins of Capital City](Ruins of Lordaeron) or [Tirisfal Glades](Tirisfal Glades) as Plaguelands. (ref: [A New Power in Lordaeron (WC3 Undead)](https://wowpedia.fandom.com/wiki/A_New_Power_in_Lordaeron_(WC3_Undead)))
+- [Lordaeron](Lordaeron) and [Quel'Thalas](Quel'Thalas) were referred to as the toxic Plaguelands. (ref: *World of Warcraft: Game Manual*, pg. 164)
+- According to [Rhonin](Rhonin) after the Third War, the Scourge intended to make a vast Plagueland. (ref: *[The Demon Soul](The Demon Soul)*, chapter 14)
+- In *[The Frozen Throne](Warcraft III: The Frozen Throne)* and early concept maps for *[World of Warcraft](World of Warcraft)*, the Plaguelands were a single area instead of having a western and eastern distinction.
 
 ## References

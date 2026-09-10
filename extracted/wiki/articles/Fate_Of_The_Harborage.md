@@ -43,7 +43,7 @@ I am devastated. Not even in the wildest of dreams could I have imagined this to
 The Harborage is forever in your debt. Words cannot express how heavy my gratitude towards your selflessness lies, so please: Take this symbol of appreciation from all draenei of this humble sanctuary.
 
 ## Notes
-  -Talking to Sanv K'la**
+**Talking to Sanv K'la**
 You are out of breath, what has happened?
 
   > Gossip: <Kas'tal sends me, he fears for the safety of your people!>
@@ -57,12 +57,12 @@ You are out of breath, what has happened?
   **Sanv Tas'dal says:** Anyone eager to follow me back into the fulfilling embrace of our saviors, come forth! And those who wish to defy me...
   **Sanv Tas'dal says:** Prepare to be cast into the endless oblivion of the Twisting Nether!
 
--At 50%:*
+*At 50%:*
   **Sanv Tas'dal yells:** You feeble races. Your defiance is laughable in the face of certain death. Perish, and let your bodies pave the way for the enlightened!
   **Akh Z'ador yells:** Friends of the Harborage! Stay vigilant! Assist me in banishing this foul specter from our new home. The corrupt and demonic have no place here!
   **Sanv Tas'dal yells:** Impertinent fool! Your pathetic display of magic won't change a thing! Your fate is already sealed!
 
--After killing Sanv Tas'dal's projection:*
+*After killing Sanv Tas'dal's projection:*
   **Sanv Tas'dal yells:** No! This will not be the end, there is nowhere to hide for you anymore!
   **Akh Z'ador yells:** The evil shadow of my former master is cast into the void again. Friends, speak with Sanv K'la, while I regain my strength.
 

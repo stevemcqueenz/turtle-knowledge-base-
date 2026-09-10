@@ -31,46 +31,20 @@ categories: ["Feralas subzones", "Horde towns", "Tauren territories", "Villages"
 | profession | Yes |
 | status | Active |
 
--Camp Mojache** is a [Tauren](Tauren) village in eastern [Feralas](Feralas) overlooking the scenic [Wildwind Lake](Wildwind Lake). The camp straddles a swift-flowing stream that feeds the lake. 
+**Camp Mojache** is a [Tauren](Tauren) village in eastern [Feralas](Feralas) overlooking the scenic [Wildwind Lake](Wildwind Lake). The camp straddles a swift-flowing stream that feeds the lake. 
 
 ## Travel Connections
 ### Flight
-  - [Thunder Bluff](Thunder Bluff), [Mulgore](Mulgore)**
-  - [The Crossroads](Crossroads), [Barrens](Barrens)**
-  - [Shadowprey Village](Shadowprey Village), [Desolace](Desolace)**
-  - [Freewind Post](Freewind Post), [Thousand Needles](Thousand Needles)**
-  - [Cenarion Hold](Cenarion Hold), [Silithus](Silithus)**
-  - [Gadgetzan](Gadgetzan), [Tanaris](Tanaris)**
+** [Thunder Bluff](Thunder Bluff), [Mulgore](Mulgore)**
+** [The Crossroads](Crossroads), [Barrens](Barrens)**
+** [Shadowprey Village](Shadowprey Village), [Desolace](Desolace)**
+** [Freewind Post](Freewind Post), [Thousand Needles](Thousand Needles)**
+** [Cenarion Hold](Cenarion Hold), [Silithus](Silithus)**
+** [Gadgetzan](Gadgetzan), [Tanaris](Tanaris)**
 
 ## Inhabitants
 ### Trainers
-- 
-- 
-- 
-- 
-
-### Goods and services
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-### Additional characters=
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-  -Guards**
+- - - - ### Goods and services
+- - - - - - - - - ### Additional characters=
+- - - - - - - - - - ;Guards
 -

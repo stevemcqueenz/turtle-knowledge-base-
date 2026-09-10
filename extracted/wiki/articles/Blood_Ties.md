@@ -10,4 +10,4 @@ categories: []
 ---
 # Blood Ties
 
--World of Warcraft: Blood Ties** is a novel by Christie Golden which is a prequel to World of Warcraft: Midnight. It was released on November 18th 2025.
+**World of Warcraft: Blood Ties** is a novel by Christie Golden which is a prequel to World of Warcraft: Midnight. It was released on November 18th 2025.

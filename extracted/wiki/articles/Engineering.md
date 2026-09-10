@@ -303,7 +303,7 @@ Requires Engineering (1), Use: Inflicts 26 to 34 Fire damage in a 5 yard radius.
 |Handful of Copper Bolts
 Handful of Copper Bolts
 |1x Copper Bar
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |1 
 |
 |Trainer
@@ -316,7 +316,7 @@ Requires Engineering (30), Use: Inflicts 22 to 28 Fire damage and disorients tar
 1x Handful of Copper Bolts,
 2x Rough Blasting Powder,
 1x Linen Cloth
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |2 
 |
 |Trainer
@@ -326,7 +326,7 @@ Requires Engineering (30), Use: Inflicts 22 to 28 Fire damage and disorients tar
 |Arclight Spanner
 Dmg: 5-8, Spd: 2.40, DPS: 2.7, Main Hand, Requires Engineering (50) 
 |6x Copper Bar
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |1 
 |
 |Trainer
@@ -337,7 +337,7 @@ Dmg: 5-8, Spd: 2.40, DPS: 2.7, Main Hand, Requires Engineering (50)
 Copper Tube 
 |2x Copper Bar,
 1x Weak Flux
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |1 
 |
 |Trainer
@@ -349,7 +349,7 @@ Copper Tube
 | 1x Copper Tube,
 1x Handful of Copper Bolts,
 1x Wooden Stock
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |1 
 |
 |Trainer
@@ -361,7 +361,7 @@ MinLvl: 5, Use: Attaches a permanent scope to a bow or gun that increases its da
 |1x Copper Tube,
 1x Malachite,
 1x Handful of Copper Bolts
-  -Requires**: Arclight Spanner 
+**Requires**: Arclight Spanner 
 |1 
 |
 |Trainer
@@ -373,7 +373,7 @@ Copper Modulator
 |2x Handful of Copper Bolts,
 1x Copper Bar,
 2x Linen Cloth
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Trainer
@@ -415,7 +415,7 @@ Binds when used, Use: Creates a Mechanical Squirrel that follows you around. Rig
 1x Handful of Copper Bolts,
 1x Copper Bar,
 2x Malachite
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Drop
@@ -428,7 +428,7 @@ Requires Engineering (85), Use: Drops a target dummy on the ground that attracts
 2x Handful of Copper Bolts,
 1x Bronze Bar,
 1x Wool Cloth
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Trainer
@@ -456,7 +456,7 @@ MinLvl: 10, Use: The dynamite for Non-Engineers that nearly always gets to the t
 [BoE] (Cloth Head) AC: 27, Sta: 4, Spi: 4, Requires Engineering (100)
 |6x Light Leather,
 2x Tigerseye
-  -Requires**: Arclight Spanner 
+**Requires**: Arclight Spanner 
 |1 
 |
 |Trainer
@@ -467,7 +467,7 @@ Practice Lock
 |1x Bronze Bar,
 2x Handful of Copper Bolts,
 1x Weak Flux
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |1 
 |
 |Trainer
@@ -488,7 +488,7 @@ Requires Engineering (100), Use: Blasts open simple locked doors. Cooldown: 1 se
 Bronze Tube 
 |2x Bronze Bar,
 1x Weak Flux
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |1 
 |
 |Trainer
@@ -500,7 +500,7 @@ Bronze Tube
 4x Handful of Copper Bolts,
 1x Wooden Stock,
 2x Medium Leather
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Trainer
@@ -511,7 +511,7 @@ Requires Engineering (105), Use: Inflicts 43 to 57 Fire damage and disorients ta
 |3x Copper Bar,
 4x Coarse Blasting Powder,
 1x Silver Contact
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |
 |Trainer
@@ -521,7 +521,7 @@ Requires Engineering (105), Use: Inflicts 43 to 57 Fire damage and disorients ta
 MinLvl: 10, Use: Attaches a permanent scope to a bow or gun that increases its damage by 2. Cooldown: 1 sec, Charges: 1 (Expendable), 3 sec cast 
 |1x Bronze Tube,
 1x Moss Agate
-  -Requires**: Arclight Spanner 
+**Requires**: Arclight Spanner 
 |1 
 |
 |Trainer
@@ -533,7 +533,7 @@ MinLvl: 10, Use: Attaches a permanent scope to a bow or gun that increases its d
 2x Handful of Copper Bolts,
 1x Heavy Stock,
 3x Moss Agate
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Vendor
@@ -554,7 +554,7 @@ Requires Engineering (120), Use: Inflicts 73 to 97 Fire damage and disorients ta
 2x Bronze Bar,
 1x Silver Contact,
 1x Wool Cloth
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |
 |Trainer
@@ -573,7 +573,7 @@ MinLvl: 30, Projectile, Bullet, Adds 8.5 damage per second
 MinLvl: 15, Use: Absorbs 500 fire damage. Lasts 1 min. Cooldown: 15 min, Charges: 5 (Expendable)
 |1x Whirring Bronze Gizmo,
 1x Small Flame Sac
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Drop
@@ -586,7 +586,7 @@ MinLvl: 15, Use: Absorbs 500 fire damage. Lasts 1 min. Cooldown: 15 min, Charges
 2x Flask of Oil,
 1x Tigerseye,
 1x Malachite
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Vendor, Drop 
@@ -613,7 +613,7 @@ Requires Engineering (125), Use: Inflicts 128 to 172 Fire damage in a 5 yard rad
 Whirring Bronze Gizmo
 |2x Bronze Bar,
 1x Wool Cloth
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Trainer
@@ -625,7 +625,7 @@ Whirring Bronze Gizmo
 2x Whirring Bronze Gizmo,
 1x Heavy Stock,
 3x Silver Bar
-  -Requires**: Anvil 
+**Requires**: Anvil 
 |1 
 |
 |Trainer
@@ -647,7 +647,7 @@ Requires Engineering (140), Use: Inflicts 85 to 115 Fire damage and disorients t
 |2x Heavy Blasting Powder,
 3x Bronze Bar,
 1x Silver Contact
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |
 |
 |Trainer
@@ -680,7 +680,7 @@ Bronze Framework
 3x Whirring Bronze Gizmo,
 1x Heavy Stock,
 2x Lesser Moonstone
-  -Requires**: Anvil 
+**Requires**: Anvil 
 |1 
 |
 |Drop
@@ -711,7 +711,7 @@ Requires Engineering (150), Use: Summons an Explosive Sheep which will charge at
 1x Whirring Bronze Gizmo,
 2x Heavy Blasting Powder,
 2x Wool Cloth
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Trainer
@@ -720,7 +720,7 @@ Requires Engineering (150), Use: Summons an Explosive Sheep which will charge at
 |Gold Power Core
 Gold Power Core 
 |1x Gold Bar
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |3 
 |
 |Trainer
@@ -740,7 +740,7 @@ Use: Shoots a firework into the air that bursts into a thousand green stars. Coo
 |4x Medium Leather,
 2x Moss Agate,
 1x Flying Tiger Goggles
-  -Requires**: Arclight Spanner 
+**Requires**: Arclight Spanner 
 |1 
 |
 |Trainer
@@ -759,7 +759,7 @@ Use: Shoots a firework into the air that bursts into a thousand red stars. Coold
 MinLvl: 21, Use: Absorbs 600 frost damage. Lasts 1 min. Cooldown: 15 min, Charges: 5 (Expendable)
 |1x Whirring Bronze Gizmo,
 1x Frost Oil
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Vendor
@@ -771,7 +771,7 @@ Use: Transforms the target into a Leper Gnome, reducing its melee and spell dama
 2x Silk Cloth,
 1x Jade,
 1x Bronze Tube
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Drop
@@ -780,7 +780,7 @@ Use: Transforms the target into a Leper Gnome, reducing its melee and spell dama
 |Iron Strut
 Iron Strut
 |2x Iron Bar
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |1 
 |
 |Trainer
@@ -805,7 +805,7 @@ Requires Engineering (165), Use: Inflicts 85 to 115 Fire damage and disorients t
 1x Iron Strut,
 4x Heavy Blasting Powder,
 4x Medium Leather
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Drop
@@ -815,7 +815,7 @@ Requires Engineering (165), Use: Inflicts 85 to 115 Fire damage and disorients t
 Gyrochronatom
 |1x Iron Bar,
 1x Gold Power Core
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Trainer
@@ -825,7 +825,7 @@ Gyrochronatom
 [BoE] (Cloth Head) AC: 38, Sta: 9, Spi: 9, Requires Engineering (175)
 |6x Heavy Leather,
 2x Citrine
-  -Requires**: Arclight Spanner, Gyromatic Micro-Adjustor 
+**Requires**: Arclight Spanner, Gyromatic Micro-Adjustor 
 |1 
 |
 |Drop
@@ -837,7 +837,7 @@ MinLvl: 30, Requires Engineering (175), Use: Creates a Compact Harvest Reaper th
 1x Bronze Framework,
 2x Gyrochronatom,
 4x Heavy Leather
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Trainer
@@ -846,7 +846,7 @@ MinLvl: 30, Requires Engineering (175), Use: Creates a Compact Harvest Reaper th
 |Gyromatic Micro-Adjustor
 Gyromatic Micro-Adjustor
 |4x Steel Bar
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |1 
 |
 |Trainer
@@ -857,7 +857,7 @@ Requires Engineering (175), Use: Inflicts 132 to 218 Fire damage and disorients 
 |1x Iron Bar,
 1x Heavy Blasting Powder,
 1x Silk Cloth
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |
 |
 |Trainer
@@ -885,7 +885,7 @@ MinLvl: 20, Use: Attaches a permanent scope to a bow or gun that increases its d
 |1x Bronze Tube,
 1x Jade,
 1x Citrine
-  -Requires**: Arclight Spanner, Gyromatic Micro-Adjustor 
+**Requires**: Arclight Spanner, Gyromatic Micro-Adjustor 
 |1 
 |
 |Vendor
@@ -897,7 +897,7 @@ Requires Engineering (185), Use: Drops a target dummy on the ground that attract
 1x Bronze Framework,
 1x Gyrochronatom,
 4x Heavy Leather
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Trainer
@@ -907,7 +907,7 @@ Requires Engineering (185), Use: Drops a target dummy on the ground that attract
 [BoE] (Cloth Head) AC: 40, Int: 15, MinLvl: 32, Requires Engineering (185)
 |6x Heavy Leather,
 2x Citrine
-  -Requires**: Arclight Spanner, Gyromatic Micro-Adjustor 
+**Requires**: Arclight Spanner, Gyromatic Micro-Adjustor 
 |1 
 |
 |Drop
@@ -928,7 +928,7 @@ Requires Engineering (190), Use: Inflicts 149 to 201 Fire damage and disorients 
 |3x Iron Bar,
 3x Heavy Blasting Powder,
 1x Silver Contact
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |2 
 |
 |Trainer
@@ -940,7 +940,7 @@ Requires Engineering (190), Use: Allows an experienced engineer to turn water in
 4x Gyrochronatom,
 4x Snowball,
 1x Frost Oil
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Quest
@@ -951,7 +951,7 @@ Requires Engineering (195), Use: Places the Goblin Land Mine on the ground. It w
 |3x Heavy Blasting Powder,
 2x Iron Bar,
 1x Gyrochronatom
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Drop
@@ -960,7 +960,7 @@ Requires Engineering (195), Use: Places the Goblin Land Mine on the ground. It w
 |Mithril Tube
 Mithril Tube 
 |3x Mithril Bar
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |1 
 |
 |Trainer
@@ -982,7 +982,7 @@ MinLvl: 30, Use: Inflicts 213 to 287 Fire damage in a 5 yard radius (Assuming th
 2x Lesser Moonstone,
 2x Citrine,
 1x Fused Wiring
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Vendor, Drop 
@@ -1005,7 +1005,7 @@ Requires Engineering (200), Use: Blasts open difficult locked doors. Cooldown: 1
 4x Gyrochronatom,
 2x Citrine,
 1x Fused Wiring
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Vendor
@@ -1016,7 +1016,7 @@ Requires Engineering (200), Use: Restores 700 health to a friendly mechanical ta
 |1x Mithril Bar,
 1x Mageweave Cloth,
 1x Solid Blasting Powder
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Trainer
@@ -1027,7 +1027,7 @@ Unstable Trigger
 |1x Mithril Bar,
 1x Mageweave Cloth,
 1x Solid Blasting Powder
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Trainer
@@ -1039,7 +1039,7 @@ Unstable Trigger
 2x Citrine,
 2x Elemental Fire,
 4x Heavy Leather
-  -Requires**: Arclight Spanner, Gyromatic Micro-Adjustor 
+**Requires**: Arclight Spanner, Gyromatic Micro-Adjustor 
 |1 
 |
 |Trainer
@@ -1052,7 +1052,7 @@ Unstable Trigger
 4x Mithril Bar,
 4x Flask of Mojo,
 2x Jade
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |Gnome
 |Trainer
@@ -1063,7 +1063,7 @@ Unstable Trigger
 |8x Mithril Bar,
 1x Citrine,
 4x Elemental Fire
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |Goblin
 |Trainer
@@ -1074,7 +1074,7 @@ Unstable Trigger
 |8x Mithril Bar,
 1x Citrine,
 4x Elemental Earth
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |Goblin
 |Trainer
@@ -1087,7 +1087,7 @@ Unstable Trigger
 5x Solid Blasting Powder,
 1x Gold Power Core,
 1x Elemental Fire
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |Goblin
 |Trainer
@@ -1126,7 +1126,7 @@ Requires Engineering (205), Use: Explodes when triggered dealing 450 to 750 Fire
 1x Fused Wiring,
 2x Mithril Bar,
 1x Truesilver Bar
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |Gnome
 |Drop
@@ -1139,7 +1139,7 @@ Requires Engineering (205), Use: Explodes when triggered dealing 450 to 750 Fire
 1x Heavy Stock,
 4x Mithril Bar,
 2x Elemental Fire
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Trainer
@@ -1151,7 +1151,7 @@ Requires Engineering (205), Use: Explodes when triggered dealing 450 to 750 Fire
 1x Heart of Fire,
 1x Fused Wiring,
 6x Mithril Bar
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |Goblin
 |Drop
@@ -1162,7 +1162,7 @@ MinLvl: 30, Use: Attaches a permanent scope to a bow or gun that increases its d
 |1x Mithril Tube,
 2x Aquamarine,
 2x Thick Leather
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Vendor
@@ -1175,7 +1175,7 @@ MinLvl: 30, Use: Attaches a permanent scope to a bow or gun that increases its d
 2x Gold Power Core,
 2x Flask of Mojo,
 2x Heavy Leather
-  -Requires**: Arclight Spanner, Gyromatic Micro-Adjustor 
+**Requires**: Arclight Spanner, Gyromatic Micro-Adjustor 
 |1 
 |Gnome
 |Trainer
@@ -1188,7 +1188,7 @@ MinLvl: 30, Use: Attaches a permanent scope to a bow or gun that increases its d
 4x Thick Spider's Silk,
 2x Solid Blasting Powder,
 4x Mithril Bar
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |Gnome
 |Trainer
@@ -1198,7 +1198,7 @@ MinLvl: 30, Use: Attaches a permanent scope to a bow or gun that increases its d
 MinLvl: 37, Projectile, Bullet, Adds 12.5 damage per second
 |1x Mithril Bar,
 1x Solid Blasting Powder
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |200
 |
 |Trainer
@@ -1211,7 +1211,7 @@ MinLvl: 37, Projectile, Bullet, Adds 12.5 damage per second
 2x Truesilver Bar,
 1x Unstable Trigger,
 2x Aquamarine
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |Gnome
 |Trainer
@@ -1220,7 +1220,7 @@ MinLvl: 37, Projectile, Bullet, Adds 12.5 damage per second
 |Mithril Casing
 Mithril Casing
 |3x Mithril Bar
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Trainer
@@ -1231,7 +1231,7 @@ Requires Engineering (205), Use: Inflicts 149 to 201 Fire damage and disorients 
 |1x Mithril Casing,
 1x Unstable Trigger,
 1x Solid Blasting Powder
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |3 
 |
 |Trainer
@@ -1242,7 +1242,7 @@ Requires Engineering (205), Use: Inflicts 149 to 201 Fire damage and disorients 
 |4x Thick Leather,
 2x Aquamarine,
 1x Catseye Elixir
-  -Requires**: Arclight Spanner, Gyromatic Micro-Adjustor 
+**Requires**: Arclight Spanner, Gyromatic Micro-Adjustor 
 |1 
 |
 |Drop
@@ -1255,7 +1255,7 @@ Requires Engineering (205), Use: Inflicts 149 to 201 Fire damage and disorients 
 1x Heavy Stock,
 6x Mithril Bar,
 2x Citrine
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Drop
@@ -1268,7 +1268,7 @@ Requires Engineering (205), Use: Inflicts 149 to 201 Fire damage and disorients 
 4x Heavy Leather,
 8x Solid Blasting Powder,
 4x Gyrochronatom
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |Gnome
 |Trainer
@@ -1281,7 +1281,7 @@ Requires Engineering (205), Use: Inflicts 149 to 201 Fire damage and disorients 
 4x Heavy Leather,
 2x Goblin Rocket Fuel,
 1x Unstable Trigger
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |Goblin
 |Trainer
@@ -1293,7 +1293,7 @@ Requires Engineering (205), Use: Inflicts 149 to 201 Fire damage and disorients 
 2x Shadow Silk,
 1x Unstable Trigger,
 4x Solid Blasting Powder
-  -Requires**: Arclight Spanner, Gyromatic Micro-Adjustor 
+**Requires**: Arclight Spanner, Gyromatic Micro-Adjustor 
 |1 
 |
 |Drop
@@ -1303,7 +1303,7 @@ Requires Engineering (205), Use: Inflicts 149 to 201 Fire damage and disorients 
 [BoE] (Cloth Head) AC: 46, Requires Engineering (215), Equip: Increases damage and healing done by magical spells and effects by up to 21.
 |4x Thick Leather,
 2x Star Ruby
-  -Requires**: Arclight Spanner, Gyromatic Micro-Adjustor 
+**Requires**: Arclight Spanner, Gyromatic Micro-Adjustor 
 |1 
 |
 |Drop
@@ -1316,7 +1316,7 @@ Requires Engineering (205), Use: Inflicts 149 to 201 Fire damage and disorients 
 1x Truesilver Bar,
 4x Tigerseye,
 4x Malachite
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Vendor
@@ -1330,7 +1330,7 @@ Requires Engineering (205), Use: Inflicts 149 to 201 Fire damage and disorients 
 2x Inlaid Mithril Cylinder,
 1x Gold Power Core,
 2x Jade
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |Gnome
 |Trainer
@@ -1343,7 +1343,7 @@ Requires Engineering (205), Use: Inflicts 149 to 201 Fire damage and disorients 
 6x Truesilver Bar,
 1x Unstable Trigger,
 2x Accurate Scope
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |Goblin
 |Trainer
@@ -1353,7 +1353,7 @@ Requires Engineering (205), Use: Inflicts 149 to 201 Fire damage and disorients 
 [BoE] (Cloth Head) AC: 49, Int: 12, Spi: 13, Requires Engineering (230)
 |6x Thick Leather,
 2x Star Ruby
-  -Requires**: Arclight Spanner, Gyromatic Micro-Adjustor 
+**Requires**: Arclight Spanner, Gyromatic Micro-Adjustor 
 |1 
 |
 |Trainer
@@ -1366,7 +1366,7 @@ Requires Engineering (205), Use: Inflicts 149 to 201 Fire damage and disorients 
 1x Gold Power Core,
 2x Star Ruby,
 4x Mageweave Cloth
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |Gnome
 |Trainer
@@ -1377,7 +1377,7 @@ Requires Engineering (235), Use: Inflicts 255 to 345 Fire damage and disorients 
 |2x Mithril Casing,
 1x Unstable Trigger,
 2x Solid Blasting Powder
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |4 
 |
 |Trainer
@@ -1389,7 +1389,7 @@ Requires Engineering (225), Use: Inflicts 340 to 460 Fire damage and disorients 
 1x Goblin Rocket Fuel,
 6x Solid Dynamite,
 1x Unstable Trigger
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |2 
 |Goblin
 |Trainer
@@ -1402,7 +1402,7 @@ Requires Engineering (225), Use: Inflicts 340 to 460 Fire damage and disorients 
 1x Essence of Undeath,
 4x Ichor of Undeath,
 1x Inlaid Mithril Cylinder
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |Gnome
 |Trainer
@@ -1415,7 +1415,7 @@ Requires Engineering (225), Use: Inflicts 340 to 460 Fire damage and disorients 
 6x Mithril Bar,
 6x Truesilver Bar,
 1x Unstable Trigger
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |Goblin
 |Trainer
@@ -1426,7 +1426,7 @@ MinLvl: 40, Use: Attaches a permanent scope to a bow or gun that increases its d
 |1x Mithril Tube,
 1x Star Ruby,
 2x Truesilver Bar
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Drop
@@ -1438,7 +1438,7 @@ MinLvl: 40, Use: Attaches a permanent scope to a bow or gun that increases its d
 4x Goblin Rocket Fuel,
 4x Mithril Bar,
 1x Unstable Trigger
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |Goblin
 |Trainer
@@ -1451,7 +1451,7 @@ MinLvl: 40, Use: Attaches a permanent scope to a bow or gun that increases its d
 3x Aquamarine,
 2x Heart of the Wild,
 2x Wildvine
-  -Requires**: Arclight Spanner, Gyromatic Micro-Adjustor 
+**Requires**: Arclight Spanner, Gyromatic Micro-Adjustor 
 |1 
 |
 |Trainer
@@ -1461,7 +1461,7 @@ MinLvl: 40, Use: Attaches a permanent scope to a bow or gun that increases its d
 MinLvl: 44, Projectile, Bullet, Adds 15 damage per second
 |2x Mithril Bar,
 2x Solid Blasting Powder
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |200
 |
 |Trainer
@@ -1492,7 +1492,7 @@ Requires Engineering (250), Use: Inflicts 340 to 460 Fire damage in a 5 yard rad
 2x Inlaid Mithril Cylinder,
 2x Goblin Rocket Fuel,
 2x Star Ruby
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Vendor
@@ -1504,7 +1504,7 @@ Requires Leatherworking (250), Use: Allows an experienced leatherworker to turn 
 6x Thorium Bar,
 1x Gold Power Core,
 4x Unstable Trigger
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |1 
 |
 |Trainer
@@ -1528,7 +1528,7 @@ Snake Bloom Firework - Use: Shoots a firework into the air that bursts in a yell
 4x Essence of Fire,
 2x Frost Oil,
 4x Icecap
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Vendor
@@ -1540,7 +1540,7 @@ Requires Engineering (260), Use: Inflicts 300 to 500 Fire damage and disorients 
 3x Thorium Bar,
 3x Dense Blasting Powder,
 3x Runecloth
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |3 
 |
 |Vendor
@@ -1553,7 +1553,7 @@ Requires Engineering (260), Use: Inflicts 300 to 500 Fire damage and disorients 
 2x Thorium Widget,
 4x Thorium Bar,
 1x Deadly Scope
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Drop
@@ -1563,7 +1563,7 @@ Requires Engineering (260), Use: Inflicts 300 to 500 Fire damage and disorients 
 Thorium Widget
 |3x Thorium Bar,
 1x Runecloth
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Vendor
@@ -1574,7 +1574,7 @@ Truesilver Transformer
 |2x Truesilver Bar,
 2x Elemental Earth,
 1x Elemental Air
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Vendor
@@ -1587,7 +1587,7 @@ Requires Engineering (250), Requires Gnomish Engineer, Use: Enlarges the entire 
 1x Gold Power Core,
 1x Unstable Trigger,
 1x Citrine
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |1 
 |Gnome
 |Drop
@@ -1600,7 +1600,7 @@ Requires Engineering (265), Use: Summons an Alarm-O-Bot for 10 minutes that occa
 4x Rugged Leather,
 1x Star Ruby,
 1x Fused Wiring
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |Gnome
 |Drop
@@ -1624,7 +1624,7 @@ Binds when used, Use: Right Click to summon and dismiss your lifelike mechanical
 4x Thorium Widget,
 1x Gold Power Core,
 1x Rugged Leather
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Drop
@@ -1636,7 +1636,7 @@ Binds when used, Use: Right Click to summon and dismiss your lifelike mechanical
 4x Star Ruby,
 2x Enchanted Leather,
 8x Runecloth
-  -Requires**: Arclight Spanner, Gyromatic Micro-Adjustor 
+**Requires**: Arclight Spanner, Gyromatic Micro-Adjustor 
 |1 
 |
 |Drop
@@ -1650,7 +1650,7 @@ Binds when used, Use: Right Click to summon and dismiss your lifelike mechanical
 2x Blue Sapphire,
 2x Large Opal,
 4x Rugged Leather
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Black Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Black Anvil 
 |1 
 |
 |Drop
@@ -1674,7 +1674,7 @@ Requires Engineering (275), Use: Drops a target dummy on the ground that attract
 1x Truesilver Bar,
 2x Rugged Leather,
 4x Runecloth
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Vendor
@@ -1694,7 +1694,7 @@ Requires Engineering (275), Use: Blasts open nearly any locked door. Cooldown: 1
 |Thorium Tube
 Thorium Tube 
 |6x Thorium Bar
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Vendor
@@ -1706,7 +1706,7 @@ Requires Engineering (285), Use: Inflicts 225 to 675 Fire damage and disorients 
 1x Dark Iron Bar,
 3x Dense Blasting Powder,
 3x Runecloth
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |3 
 |
 |Drop
@@ -1716,7 +1716,7 @@ Requires Engineering (285), Use: Inflicts 225 to 675 Fire damage and disorients 
 Delicate Arcanite Converter
 |1x Arcanite Bar,
 1x Ironweb Spider Silk
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Vendor
@@ -1726,7 +1726,7 @@ Delicate Arcanite Converter
 MinLvl: 52, Projectile, Bullet, Adds 17.5 damage per second
 |2x Thorium Bar,
 1x Dense Blasting Powder
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |200
 |
 |Drop
@@ -1739,7 +1739,7 @@ MinLvl: 52, Projectile, Bullet, Adds 17.5 damage per second
 6x Essence of Water,
 4x Star Ruby,
 2x Azerothian Diamond
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Drop
@@ -1750,7 +1750,7 @@ MinLvl: 52, Projectile, Bullet, Adds 17.5 damage per second
 |1x Fire Goggles,
 2x Huge Emerald,
 4x Enchanted Leather
-  -Requires**: Arclight Spanner, Gyromatic Micro-Adjustor 
+**Requires**: Arclight Spanner, Gyromatic Micro-Adjustor 
 |1 
 |
 |Drop
@@ -1762,7 +1762,7 @@ MinLvl: 52, Projectile, Bullet, Adds 17.5 damage per second
 1x Gold Power Core,
 1x Thorium Widget,
 1x Large Opal
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Drop
@@ -1773,7 +1773,7 @@ Requires Engineering (300), Use: Drains 675 to 1125 mana from those in the blast
 |1x Delicate Arcanite Converter,
 3x Thorium Bar,
 1x Runecloth
-  -Requires**: Blacksmith Hammer, Anvil 
+**Requires**: Blacksmith Hammer, Anvil 
 |3 
 |
 |Drop
@@ -1787,7 +1787,7 @@ Requires Engineering (300), Use: Drains 675 to 1125 mana from those in the blast
 6x Thorium Widget,
 4x Gold Power Core,
 6x Enchanted Leather
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Drop
@@ -1800,7 +1800,7 @@ MinLvl: 50, Use: Attaches a permanent scope to a bow or gun that increases its c
 4x Delicate Arcanite Converter,
 6x Dark Iron Bar,
 1x Thorium Tube
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |8 
 |
 |Drop
@@ -1813,7 +1813,7 @@ MinLvl: 50, Use: Attaches a permanent scope to a bow or gun that increases its c
 2x Delicate Arcanite Converter,
 8x Powerful Mojo,
 4x Enchanted Leather
-  -Requires**: Gyromatic Micro-Adjustor, Arclight Spanner 
+**Requires**: Gyromatic Micro-Adjustor, Arclight Spanner 
 |1 
 |
 |Vendor
@@ -1826,7 +1826,7 @@ MinLvl: 50, Use: Attaches a permanent scope to a bow or gun that increases its c
 1x Delicate Arcanite Converter,
 8x Powerful Mojo,
 4x Enchanted Leather
-  -Requires**: Gyromatic Micro-Adjustor, Arclight Spanner 
+**Requires**: Gyromatic Micro-Adjustor, Arclight Spanner 
 |1 
 |
 |Vendor
@@ -1839,7 +1839,7 @@ MinLvl: 50, Use: Attaches a permanent scope to a bow or gun that increases its c
 6x Arcanite Bar,
 2x Delicate Arcanite Converter,
 2x Thorium Tube
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Drop
@@ -1852,7 +1852,7 @@ Requires Engineering (300), Use: Unfolds into a Field Repair Bot that can repair
 1x Fused Wiring,
 2x Elemental Earth,
 1x Elemental Fire
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |4 
 |
 |Trainer
@@ -1866,7 +1866,7 @@ Requires Engineering (300), Use: Unfolds into a Field Repair Bot that can repair
 2x Essence of Earth,
 2x Azerothian Diamond,
 2x Enchanted Leather
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Drop
@@ -1879,7 +1879,7 @@ Requires Engineering (300), Use: Unfolds into a Field Repair Bot that can repair
 8x Essence of Air,
 12x Living Essence,
 8x Essence of Earth
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Drop
@@ -1893,7 +1893,7 @@ Requires Engineering (300), Use: Unfolds into a Field Repair Bot that can repair
 4x Essence of Undeath,
 2x Azerothian Diamond,
 2x Large Opal
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |
 |Drop
@@ -1906,7 +1906,7 @@ Requires Engineering (300), Use: Unfolds into a Field Repair Bot that can repair
 4x Heart of Fire,
 2x Star Ruby,
 1x The Big One
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |Gnome
 |Trainer
@@ -1920,7 +1920,7 @@ Requires Engineering (300), Use: Unfolds into a Field Repair Bot that can repair
 2x Globe of Water,
 4x Aquamarine,
 1x Inlaid Mithril Cylinder
-  -Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
+**Requires**: Blacksmith Hammer, Arclight Spanner, Anvil 
 |1 
 |Goblin
 |Trainer

@@ -25,7 +25,7 @@ categories: ["Human characters", "Priest characters", "Silverpine Forest NPCs"]
 | location | Greymane Wall, Silverpine Forest/Gilneas |
 | status | Killable |
 
--Dalin Forgewright** is a [human](human) found at the [Greymane Wall](Greymane Wall) along the border of [Gilneas](Gilneas) and [Silverpine Forest](Silverpine Forest).
+**Dalin Forgewright** is a [human](human) found at the [Greymane Wall](Greymane Wall) along the border of [Gilneas](Gilneas) and [Silverpine Forest](Silverpine Forest).
 
 Dalin fled from Lordaeron when the plague struck, taking his love with him. When he came upon the refugees at the Greymane Wall, he felt it his duty to succor them, sending his wife on to Hillsbrad. For his charity, [Carendin Halgar](Carendin Halgar) sends young [Horde](Horde) [warlock](warlock)s to harvest his heart, along with the heart of [Comar Villard](Comar Villard), so that they may learn to summon a [succubus](succubus). (ref: [quest: class=warlock])
 

@@ -24,7 +24,7 @@ categories: ["Gilneas mobs", "Human characters", "Turtle WoW content"]
 | location | Freyshear Keep, Gilneas |
 | status | Killable |
 
--Captain Veller** is a [human](human) located in [Freyshear Keep](Freyshear Keep) in [Gilneas](Gilneas).
+**Captain Veller** is a [human](human) located in [Freyshear Keep](Freyshear Keep) in [Gilneas](Gilneas).
 
 ## Objective of
 - Drops [Blackheart Necklace](Blackheart Necklace) for [quest: The Blackheart Killer].

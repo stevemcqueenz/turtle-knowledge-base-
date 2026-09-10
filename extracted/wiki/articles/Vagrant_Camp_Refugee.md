@@ -24,7 +24,7 @@ categories: ["Gilneas NPCs", "Human characters", "Turtle WoW content"]
 | location | Vagrant Encampment, Gilneas |
 | status | Alive |
 
--Vagrant Camp Refugees** are [sickly](Sickly Refugee) and [haggard](Haggard Refugee) [human](human) refugees located at the [Vagrant Encampment](Vagrant Encampment) in [Gilneas](Gilneas).
+**Vagrant Camp Refugees** are [sickly](Sickly Refugee) and [haggard](Haggard Refugee) [human](human) refugees located at the [Vagrant Encampment](Vagrant Encampment) in [Gilneas](Gilneas).
 
 ## Patch changes
 - (Patch 1.17.0|note=Added.)

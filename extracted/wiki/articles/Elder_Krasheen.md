@@ -24,14 +24,14 @@ categories: ["Draenei characters", "Mage trainers", "Moonwhisper Coast NPCs", "Q
 | location | Moro'gai Village, Moonwhisper Coast |
 | status | Alive |
 
--Elder Krasheen** is a [draenei](draenei) mage trainer located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Elder Krasheen** is a [draenei](draenei) mage trainer located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: A Familiar Disturbance] 
 - [quest: Homecoming] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Weaving arcane energy requires great amounts of focus. Those who easily falter under its pressure are either torn apart or driven mad. I've seen it countless times with naive acolytes of my people's tribes. Tell me, is your kind resilient enough to withstand the sheer energy of the Twisting Nether? I am more than curious.
 
 ## Patch changes

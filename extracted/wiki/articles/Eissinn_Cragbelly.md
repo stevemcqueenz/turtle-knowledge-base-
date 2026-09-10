@@ -26,7 +26,7 @@ categories: ["Dwarf characters", "Ironforge NPCs", "Survival trainers", "Turtle 
 | status | Alive |
 | relatives | Theminn Cragbelly |
 
--Eissinn Cragbelly** is a [dwarf](dwarf) Journeyman [survival](survival) trainer located in the [Military Ward](Military Ward) in [Ironforge](Ironforge).
+**Eissinn Cragbelly** is a [dwarf](dwarf) Journeyman [survival](survival) trainer located in the [Military Ward](Military Ward) in [Ironforge](Ironforge).
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

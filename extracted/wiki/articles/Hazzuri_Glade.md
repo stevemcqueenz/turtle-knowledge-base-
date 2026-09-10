@@ -10,15 +10,15 @@ categories: ["Jungle troll territories", "Lapidis Isle subzones", "Turtle WoW co
 ---
 # Hazzuri Glade
 
--Hazzuri Glade** is a neutral troll encampment in [Lapidis Isle](Lapidis Isle) that is home to the [Hazzuri Primalists](Hazzuri Primalists), outcasts from the [Hazzuri tribe](Hazzuri tribe).
+**Hazzuri Glade** is a neutral troll encampment in [Lapidis Isle](Lapidis Isle) that is home to the [Hazzuri Primalists](Hazzuri Primalists), outcasts from the [Hazzuri tribe](Hazzuri tribe).
 
 ## NPCs
--   [Head-Primalist Manaz'ago](Head-Primalist Manaz'ago) <Hazzuri Primalists>
--   [Primalist Bin'doga](Primalist Bin'doga) <Reagents>
--   [Primalist Gojo](Primalist Gojo) <Voodoo Goods>
--   [Primalist Jongi](Primalist Jongi) <Hazzuri Primalists>
--   [Primalist Liganni](Primalist Liganni) <Hazzuri Primalists>
--   [Primalist Palaz](Primalist Palaz) <Hazzuri Primalists>
+- [Head-Primalist Manaz'ago](Head-Primalist Manaz'ago) <Hazzuri Primalists>
+- [Primalist Bin'doga](Primalist Bin'doga) <Reagents>
+- [Primalist Gojo](Primalist Gojo) <Voodoo Goods>
+- [Primalist Jongi](Primalist Jongi) <Hazzuri Primalists>
+- [Primalist Liganni](Primalist Liganni) <Hazzuri Primalists>
+- [Primalist Palaz](Primalist Palaz) <Hazzuri Primalists>
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

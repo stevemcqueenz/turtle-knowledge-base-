@@ -23,7 +23,7 @@ categories: ["Felguards", "Stormwrought Ruins mobs", "Turtle WoW content"]
 | location | Stormwrought Ruins |
 | status | Killable |
 
--Brutish Felguards** are [felguard](felguard)s located in [Stormwrought Ruins](Stormwrought Ruins).
+**Brutish Felguards** are [felguard](felguard)s located in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Abilities
 - Enrage

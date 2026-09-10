@@ -10,7 +10,7 @@ categories: ["Template documentation"]
 ---
 # Template:Stub/doc
 
--Description**
+**Description**
   This template is used to identify a stub. Any pages using this template will be automatically placed in the [Stubs](:Category:Stubs) category.
 
 <includeonly></includeonly><noinclude></noinclude>

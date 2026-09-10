@@ -24,7 +24,7 @@ categories: ["Deceased characters", "Human characters", "Lordaeron (kingdom)", "
 | companions | Karramyn Langston (trusted confidant), Taretha Foxton (mistress), Thrall (slave), Nightsong (steed) |
 | students | Aliden Perenolde |
 
--Aedelas Blackmoore** was the master of [Durnholde Keep](Durnholde Keep) and head of the orcish internment camp system shortly after the [Second War](Second War), and the man who found Thrall lost in the wilds.
+**Aedelas Blackmoore** was the master of [Durnholde Keep](Durnholde Keep) and head of the orcish internment camp system shortly after the [Second War](Second War), and the man who found Thrall lost in the wilds.
 
 ## Biography
 ### Early life

@@ -10,7 +10,7 @@ categories: ["Grim Reaches subzones", "Passes", "Roads", "Turtle WoW content"]
 ---
 # High Pass
 
--The High Pass** is a road and tunnel in [Grim Reaches](Grim Reaches) that leads southwest to [Loch Modan](Loch Modan). The pass is located to the west of [Dun Kithas](Dun Kithas), and ends at the [Farstrider Lodge](Farstrider Lodge).
+**The High Pass** is a road and tunnel in [Grim Reaches](Grim Reaches) that leads southwest to [Loch Modan](Loch Modan). The pass is located to the west of [Dun Kithas](Dun Kithas), and ends at the [Farstrider Lodge](Farstrider Lodge).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

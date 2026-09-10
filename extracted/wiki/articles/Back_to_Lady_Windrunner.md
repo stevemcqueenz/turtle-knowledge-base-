@@ -33,8 +33,8 @@ Make haste, <class>! You may still have time to stop [Rommath](Rommath)'s scheme
 
 ## Rewards
 You will receive:
--350 XP
--+150 [reputation](reputation) with [Silvermoon Remnant](Silvermoon Remnant)
+- 350 XP
+- +150 [reputation](reputation) with [Silvermoon Remnant](Silvermoon Remnant)
 
 ## Progress
 How was your investigation?

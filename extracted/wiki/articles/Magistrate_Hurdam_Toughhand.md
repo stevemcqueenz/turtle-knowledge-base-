@@ -26,7 +26,7 @@ categories: ["Grim Reaches NPCs", "Politicians", "Quest givers", "Turtle WoW con
 | location | Dun Kithas Magistrate, Grim Reaches |
 | status | Alive |
 
--Magistrate Hurdam Toughhand** is a [Wildhammer dwarf](Wildhammer dwarf) quest giver located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches). [Lord Nazgrim Redbrand](Lord Nazgrim Redbrand) of the [Redbrand Estate](Redbrand Estate) owed Hurdam a favor, but it is unknown what for. (ref: [quest: Ore Must Flow])
+**Magistrate Hurdam Toughhand** is a [Wildhammer dwarf](Wildhammer dwarf) quest giver located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches). [Lord Nazgrim Redbrand](Lord Nazgrim Redbrand) of the [Redbrand Estate](Redbrand Estate) owed Hurdam a favor, but it is unknown what for. (ref: [quest: Ore Must Flow])
 
 ## Quests
 - [quest: The Grim Reaches] 
@@ -40,7 +40,7 @@ categories: ["Grim Reaches NPCs", "Politicians", "Quest givers", "Turtle WoW con
 - [quest: Destruction of the Dragonmaw] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Welcome to Dun Kithas, I am Magistrate Hurdam Toughhand. I was elected as the head of governance here to work with my fellow councilors in deciding what should, and should not be done. These decisions hold extreme weight in how we deal with many things, from the mundane, to the more serious. If you have an issue that you may need resolving, or a concern that should be brought to the council, please speak with [Enumerator Gravelcrest](Enumerator Gravelcrest) upstairs. He should give you the proper documents to file any grievances, concerns, or suggestions to be brought up in our next meeting.
 
 Oh, and do not mind [Dandegg](Dandegg Shortbelly), he has a bit of a short temper, and does not appreciate the perspective of outsiders.

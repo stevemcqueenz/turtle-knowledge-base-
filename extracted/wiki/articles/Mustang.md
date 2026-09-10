@@ -25,7 +25,7 @@ categories: ["Gilneas NPCs", "Human characters", "Pages with broken file links",
 | location | Cave above Mossgrove Farm, Gilneas |
 | status | Alive |
 
--Mustang** is a [human](human) [quest giver](quest giver) located in a cave above [Mossgrove Farm](Mossgrove Farm) in [Gilneas](Gilneas).
+**Mustang** is a [human](human) [quest giver](quest giver) located in a cave above [Mossgrove Farm](Mossgrove Farm) in [Gilneas](Gilneas).
 
 ## Quests
 - [quest: Rods for the Pellars] 

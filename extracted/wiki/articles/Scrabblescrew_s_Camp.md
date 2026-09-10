@@ -10,4 +10,4 @@ categories: ["Camps", "Desolace subzones", "Goblin territories", "Pages with bro
 ---
 # Scrabblescrew's Camp
 
--Scrabblescrew's Camp** is a small [goblin](goblin) camp located not far from the [Kodo Graveyard](Kodo Graveyard) in [Desolace](Desolace).[60.9, 61.9] It is the home of [Smeed Scrabblescrew](Smeed Scrabblescrew), an enterprising goblin who maintains a [kodo](kodo) [caravan](caravan).
+**Scrabblescrew's Camp** is a small [goblin](goblin) camp located not far from the [Kodo Graveyard](Kodo Graveyard) in [Desolace](Desolace).[60.9, 61.9] It is the home of [Smeed Scrabblescrew](Smeed Scrabblescrew), an enterprising goblin who maintains a [kodo](kodo) [caravan](caravan).

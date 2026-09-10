@@ -13,9 +13,5 @@ categories: ["Farms", "Gilneas subzones", "Gnoll territories", "Turtle WoW conte
 The **Southmire Orchard** is an abandoned farm in [Gilneas](Gilneas) that is overrun by [gnolls](gnolls) of the [Foulhide](Foulhide) pack.
 
 ## NPCs
-- 
-- 
-- 
-
-## Patch changes
+- - - ## Patch changes
 - (Patch 1.17.0|note=Added.)

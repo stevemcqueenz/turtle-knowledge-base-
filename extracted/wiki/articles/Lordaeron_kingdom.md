@@ -107,15 +107,15 @@ Meanwhile, [Hillsbrad Fields](Hillsbrad Fields) was led by [Magistrate Burnside]
 - The demonym used for the people of Lordaeron is "Lordaeronian". (ref: <ref>[The Silverline Raven](The Silverline Raven))
 
 ### Notable people
--  [Lord Alexei Barov](Lord Alexei Barov)
--  [Calia Menethil](Calia Menethil)
--  [Nathanos Marris](Nathanos Marris)
--  [Tirion Fordring](Tirion Fordring)
--  [Othmar Garithos](Othmar Garithos)
+- [Lord Alexei Barov](Lord Alexei Barov)
+- [Calia Menethil](Calia Menethil)
+- [Nathanos Marris](Nathanos Marris)
+- [Tirion Fordring](Tirion Fordring)
+- [Othmar Garithos](Othmar Garithos)
 
 ### Notable leaders
--  King [Terenas Menethil II](Terenas Menethil II)<sup>†</sup>
--  King [Arthas Menethil](Arthas Menethil)
+- King [Terenas Menethil II](Terenas Menethil II)<sup>†</sup>
+- King [Arthas Menethil](Arthas Menethil)
 
 ## Military
 During the Second War, the armies of Lordaeron were the first to heed the call to arms against the orcs. They were known to be deeply religious and driven by the belief that humanity must stand steadfast against the blasphemous onslaught of the Orcish Horde. (ref: *Warcraft II: Tides of Darkness* manual, *[Nations of the Alliance](https://wowpedia.fandom.com/wiki/Warcraft_II:_Tides_of_Darkness_manual#Lordaeron)*, Lordaeron) On the battlefields, the knights of Lordaeron represented the fiercest fighting force in the Alliance armies. Astride great warhorses, these honorable and just warriors served as a symbol of order to the peoples of Lordaeron in these dark and chaotic times. Having learned of the fate the Knights of Azeroth suffered after the First War, they had sworn to both avenge their fallen brethren and free their homelands from the grip of the orcs. (ref: *Warcraft II: Tides of Darkness* manual, *[Alliance Ground Units](https://wowpedia.fandom.com/wiki/Warcraft_II:_Tides_of_Darkness_manual#Alliance_Ground_Units)*, Knight)

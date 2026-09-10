@@ -10,7 +10,7 @@ categories: ["NPCs", "Organizations", "Zone:Duskwood"]
 ---
 # Night Watch
 
--The Night Watch** is an independent policing organization created to defend [Darkshire](Darkshire) from the dangers plaguing [Duskwood](Duskwood) since [Stormwind](Stormwind) pulled all of their troops away. The two most prominent dangers are the [undead](undead) of [Raven Hill](Raven Hill) Cemetary and [Tranquil Gardens Cemetery](Tranquil Gardens Cemetery) and the [Worgen](Worgen) of [Brightwood Grove](Brightwood Grove) and [Roland's Doom](Roland's Doom). The Night Watch does what it can to keep the region safe, often relying on the recruitment of citizens and passerbys to aid in their defense.
+**The Night Watch** is an independent policing organization created to defend [Darkshire](Darkshire) from the dangers plaguing [Duskwood](Duskwood) since [Stormwind](Stormwind) pulled all of their troops away. The two most prominent dangers are the [undead](undead) of [Raven Hill](Raven Hill) Cemetary and [Tranquil Gardens Cemetery](Tranquil Gardens Cemetery) and the [Worgen](Worgen) of [Brightwood Grove](Brightwood Grove) and [Roland's Doom](Roland's Doom). The Night Watch does what it can to keep the region safe, often relying on the recruitment of citizens and passerbys to aid in their defense.
 
 #### Night Watch Roster
 {|border="0" cellpadding="3" cellspacing="0"

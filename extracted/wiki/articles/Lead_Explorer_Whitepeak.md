@@ -26,14 +26,14 @@ categories: ["Dwarf characters", "Explorers' League", "Quest givers", "Stonetalo
 | location | Bael Hardul, Stonetalon Mountains |
 | status | Alive |
 
--Lead Explorer Whitepeak** is a [dwarf](dwarf) [quest giver](quest giver) located in [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains). He is an old friend of [Delgren the Purifier](Delgren the Purifier), having fought by his side in the [Third War](Third War) under the command of Lady [Jaina Proudmoore](Jaina Proudmoore).
+**Lead Explorer Whitepeak** is a [dwarf](dwarf) [quest giver](quest giver) located in [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains). He is an old friend of [Delgren the Purifier](Delgren the Purifier), having fought by his side in the [Third War](Third War) under the command of Lady [Jaina Proudmoore](Jaina Proudmoore).
 
 ## Quests
 - [quest: Dwarves of Bael Hardul] 
 - [quest: Exploring in Peace] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Welcome to Bael Hardul, this place was left here from the time of the Third War.
 
 Us dwarves contributed to help the Alliance during those times, battling against orc and demon alike until the unification and the battle at Mount Hyjal.

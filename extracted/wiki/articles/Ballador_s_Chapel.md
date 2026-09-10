@@ -10,19 +10,8 @@ categories: ["Churches", "High elf territories", "Thalassian Highlands subzones"
 ---
 # Ballador's Chapel
 
--Ballador's Chapel** is a church named after the paladin [Ballador the Bright](Ballador the Bright), located in the [Thalassian Highlands](Thalassian Highlands).
+**Ballador's Chapel** is a church named after the paladin [Ballador the Bright](Ballador the Bright), located in the [Thalassian Highlands](Thalassian Highlands).
 
 ## Inhabitants
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - - - - - - - ## Patch changes
 - (Patch 1.17.1|note=Added.)

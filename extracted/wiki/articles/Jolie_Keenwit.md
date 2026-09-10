@@ -23,7 +23,7 @@ categories: ["High elf characters", "Thalassian Highlands NPCs", "Turtle WoW con
 | gender | Female |
 | location | Brinthilien, Thalassian Highlands |
 
--Jolie Keenwit** is a high elf located in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands). [Avenant](Avenant) is romantically interested in her, though Jolie has not reciprocated any of his advances.
+**Jolie Keenwit** is a high elf located in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands). [Avenant](Avenant) is romantically interested in her, though Jolie has not reciprocated any of his advances.
 
 ## Patch changes
 - (Patch 1.17.1|note=Added.)

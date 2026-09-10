@@ -34,17 +34,6 @@ The **Remnants Camp** is an [Alliance](Alliance) outpost located in northern [Ti
 
 ## NPCs
 ### Quest givers
-- 
-- 
-
-### Goods and services
-- 
-
-### Additional characters
-- 
-- 
-- 
-- 
-- 
-- 
--
+- - ### Goods and services
+- ### Additional characters
+- - - - - - -

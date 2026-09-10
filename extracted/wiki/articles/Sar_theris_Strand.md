@@ -10,4 +10,4 @@ categories: ["Desolace subzones", "Makrura", "Naga territories", "Pages with bro
 ---
 # Sar'theris Strand
 
--Sar'theris Strand** is the name of the coast of [Desolace](Desolace). It is heavily populated by [sea giant](sea giant)s, [naga](naga), and [makrura](makrura). The Karnitol Shipwreck lies off the northern part of the strand, and a small boat lies smashed on the beach below [Ethel Rethor](Ethel Rethor). Though Desolace is a grey, gloomy wasteland, the Sar'theris Strand is sunny and grassy.  It is off this coast that [Sar'theris Striker](Sar'theris Striker) can be fished for Nat Pagle, Angler Extreme.
+**Sar'theris Strand** is the name of the coast of [Desolace](Desolace). It is heavily populated by [sea giant](sea giant)s, [naga](naga), and [makrura](makrura). The Karnitol Shipwreck lies off the northern part of the strand, and a small boat lies smashed on the beach below [Ethel Rethor](Ethel Rethor). Though Desolace is a grey, gloomy wasteland, the Sar'theris Strand is sunny and grassy.  It is off this coast that [Sar'theris Striker](Sar'theris Striker) can be fished for Nat Pagle, Angler Extreme.

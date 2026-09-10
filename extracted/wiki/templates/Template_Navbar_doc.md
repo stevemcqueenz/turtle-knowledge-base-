@@ -12,7 +12,7 @@ categories: ["Template documentation"]
 
 ## Examples
 ### Required parameters
--<code><nowiki></nowiki></code> the template name is required.
+- <code><nowiki></nowiki></code> the template name is required.
 
 ### Optional parameters
 {| class="wikitable"

@@ -13,7 +13,7 @@ categories: ["Addon"]
 Moosnuckel's (the best tauren warrior) fork of sunderarmor (ref: [Sunderarmor](https://github.com/melbaa/sunderarmor)) that adds many quality of life features
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep Moosnuckel's **sunderarmor** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep Moosnuckel's **sunderarmor** up to date is by using [Git
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -57,31 +57,31 @@ If you prefer manual installation, follow these steps:
 ## Features
 Features & Usage Tips
 
-  -Smart Notification**
+**Smart Notification**
 
-  -*"Start Sunder" (Green)*:** Reminds you to apply Sunder Armor when you target a new enemy and enter combat with them.
+***"Start Sunder" (Green)*:** Reminds you to apply Sunder Armor when you target a new enemy and enter combat with them.
 
-  -*"Stop Sunder" (Red)*:** Alerts you immediately when the target reaches the maximum 5 stacks so you don't waste rage.
+***"Stop Sunder" (Red)*:** Alerts you immediately when the target reaches the maximum 5 stacks so you don't waste rage.
 
-  -*"Maintenance" (Yellow)*:** Confirms when you successfully refresh the timer on a fully stacked target.
+***"Maintenance" (Yellow)*:** Confirms when you successfully refresh the timer on a fully stacked target.
 
-  -*"Sunder Soon" Warning*:** Warns you when the Sunder debuff is about to expire (5 seconds remaining) so you don't lose the stack.
+***"Sunder Soon" Warning*:** Warns you when the Sunder debuff is about to expire (5 seconds remaining) so you don't lose the stack.
 
-  -Accurate Tracking**
+**Accurate Tracking**
 
-  -Real-Time Stack Counts:** Displays current stack numbers in your chat window as they apply
+**Real-Time Stack Counts:** Displays current stack numbers in your chat window as they apply
 
-  -Smart Accuracy:** Automatically ignores Misses, Dodges, Parries, and Blocks so your count is always correct.
+**Smart Accuracy:** Automatically ignores Misses, Dodges, Parries, and Blocks so your count is always correct.
 
-  -Lag Protection:** Prevents double-counting or skipping numbers if the server is lagging.
+**Lag Protection:** Prevents double-counting or skipping numbers if the server is lagging.
 
-  -Modes & Automation**
+**Modes & Automation**
 
-  -Raid Sync:** Automatically shares data with other warriors in your party or raid who have the addon, keeping everyone's count synchronized.
+**Raid Sync:** Automatically shares data with other warriors in your party or raid who have the addon, keeping everyone's count synchronized.
 
-  -Tank Mode:** Allows Main Tanks to spam Sunder freely without flooding the data for other warriors.
+**Tank Mode:** Allows Main Tanks to spam Sunder freely without flooding the data for other warriors.
 
-  -Auto-Disable:** The addon automatically turns itself off if you log in on a class other than a Warrior.
+**Auto-Disable:** The addon automatically turns itself off if you log in on a class other than a Warrior.
 
 ## Contributors
 shagu/pfui

@@ -27,17 +27,17 @@ offset = GetBonusBarOffset()
 ## Details
 Certain classes have "bonus action bars" for their class-specific actions, e.g. the various [Stance Bars](Stance) for the [Warrior](Warrior) class.  GetBonusBarOffset() returns the index of the current action bar that is being displayed.  Note that simply scrolling through the action bar pages won't change the output; only switching to the different bonus bars.  Each class has their own way of indexing their bonus bars.
 
-  -Warrior**
+**Warrior**
 
 - Battle Stance: 1
 - Defensive Stance: 2
 - Berserker Stance: 3
 
-  -Druid**
+**Druid**
 
--  ???
+- ???
 
-  -Rogue**
+**Rogue**
 
 - Normal: 0
 - Stealthed: 1

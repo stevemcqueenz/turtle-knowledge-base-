@@ -54,10 +54,10 @@ The forest has been restless for many nights now. Roots twist where they should 
 The corruption runs deeper than a single grove.
 
 ## Progression
-1.[quest: The Moth's Heresy]
-1.[quest: A Dryad's Counsel]
-1.[quest: The Rot of Elun'aran]
-1.[quest: Keeper of the Broken Grove]
+1. [quest: The Moth's Heresy]
+1. [quest: A Dryad's Counsel]
+1. [quest: The Rot of Elun'aran]
+1. [quest: Keeper of the Broken Grove]
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

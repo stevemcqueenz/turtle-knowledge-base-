@@ -21,7 +21,7 @@ categories: ["Deceased characters", "Human characters", "Mage characters"]
 | relatives | Aegwynn (mother), Nielas Aran (father) |
 | students | Khadgar |
 
--Medivh** was the last [Guardian of Tirisfal](Guardian of Tirisfal), an ancient line of protectors bestowed with great powers to do battle with the agents of the [Burning Legion](Burning Legion). However, he was corrupted and posessed by [Sargeras](Sargeras), who used him in his plan to conquer [Azeroth](Azeroth). Medivh contacted the [orc](orc) [Gul'dan](Gul'dan) and together they opened the [Dark Portal](Dark Portal) to allow the [Horde](Old Horde) into Azeroth.  Later, he returned as a mysterious prophet, guiding the mortal races to victory in the [Battle of Mount Hyjal](Battle of Mount Hyjal).
+**Medivh** was the last [Guardian of Tirisfal](Guardian of Tirisfal), an ancient line of protectors bestowed with great powers to do battle with the agents of the [Burning Legion](Burning Legion). However, he was corrupted and posessed by [Sargeras](Sargeras), who used him in his plan to conquer [Azeroth](Azeroth). Medivh contacted the [orc](orc) [Gul'dan](Gul'dan) and together they opened the [Dark Portal](Dark Portal) to allow the [Horde](Old Horde) into Azeroth.  Later, he returned as a mysterious prophet, guiding the mortal races to victory in the [Battle of Mount Hyjal](Battle of Mount Hyjal).
 
 ## Biography
 ### Birth and Early Life

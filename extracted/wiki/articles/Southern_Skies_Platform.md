@@ -10,4 +10,4 @@ categories: ["Booty Bay shops"]
 ---
 # Southern Skies Platform
 
--Southern Skies Platform** is a [flight master](flight master) platform located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). It's run by [Gyll](Gyll).
+**Southern Skies Platform** is a [flight master](flight master) platform located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). It's run by [Gyll](Gyll).

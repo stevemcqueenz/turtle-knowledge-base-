@@ -25,7 +25,7 @@ categories: ["Gilneas NPCs", "Human characters", "Turtle WoW content"]
 | status | Alive |
 | relatives | Narwick (father) |
 
--Lance Everton** is a [human](human) child located in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
+**Lance Everton** is a [human](human) child located in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
 
 ## Quotes
 My father is a skilled hunter, he is able to kill giant wolf and then make them into food!

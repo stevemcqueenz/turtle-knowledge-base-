@@ -26,7 +26,7 @@ categories: ["Booty Bay characters", "Goblin characters", "Quest givers", "Stran
 | location | Booty Bay, Stranglethorn Vale |
 | status | Alive |
 
--Kebok** is a [goblin](goblin) [quest giver](quest giver) located in the [Salty Sailor Tavern](Salty Sailor Tavern) in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). As the [trolls](Jungle troll) have been killing agents in the jungle, Kebok sends adventurers to kill them and bring back their [ears](Bloodscalp Ear) and [tusks](Skullsplitter Tusk). Kebok intends on using the tusks as undetectable fake [tiger](tiger) fangs to export to islands in the [South Seas](South Seas).
+**Kebok** is a [goblin](goblin) [quest giver](quest giver) located in the [Salty Sailor Tavern](Salty Sailor Tavern) in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). As the [trolls](Jungle troll) have been killing agents in the jungle, Kebok sends adventurers to kill them and bring back their [ears](Bloodscalp Ear) and [tusks](Skullsplitter Tusk). Kebok intends on using the tusks as undetectable fake [tiger](tiger) fangs to export to islands in the [South Seas](South Seas).
 
 ## Quests
 - [quest: Bloodscalp Ears] 
@@ -34,7 +34,7 @@ categories: ["Booty Bay characters", "Goblin characters", "Quest givers", "Stran
 - [quest: Skullsplitter Tusks] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Well, hello there. You seem like you wouldn't be opposed to making some coin, hm? I can tell from the look in your eyes. I am Mogul Kebok, overseer of operations in [Azeroth](Azeroth (continent)), and if it is riches you seek, perhaps I can make arrangements.
 
 ## External links

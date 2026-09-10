@@ -10,9 +10,9 @@ categories: ["Template documentation"]
 ---
 # Template:Permission/doc
 
--Description**
+**Description**
   This template is used to mark images as being copyrighted, but the copyright holder has given permission for its use.
-  -Syntax**
+**Syntax**
   Type <code></code> on the image information page.
 
 <includeonly></includeonly><noinclude></noinclude>

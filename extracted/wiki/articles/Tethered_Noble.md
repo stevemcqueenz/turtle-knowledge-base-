@@ -24,7 +24,7 @@ categories: ["Human ghosts", "Stormwrought Ruins mobs", "Turtle WoW content"]
 | location | Stormwrought Ruins |
 | status | Killable |
 
--Tethered Nobles** are [human](human) ghosts located in [Stormwrought Ruins](Stormwrought Ruins).
+**Tethered Nobles** are [human](human) ghosts located in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Abilities
 - Smite

@@ -26,14 +26,14 @@ categories: ["Dragonmaw clan", "Moonwhisper Coast NPCs", "Orc characters", "Ques
 | location | Ancestral Grounds, Moonwhisper Coast |
 | status | Alive |
 
--Gor'dush Jawtaker** is an [orc](orc) quest giver located at the [Ancestral Grounds](Ancestral Grounds) in [Moonwhisper Coast](Moonwhisper Coast).
+**Gor'dush Jawtaker** is an [orc](orc) quest giver located at the [Ancestral Grounds](Ancestral Grounds) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: In Blue Defiance] 
 - [quest: Jawtaker] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Lok'tar. A fine day to spill dragon blood, is it not? You seem uncertain and uneager. Fret not. While I am of the Dragonmaw, I fly my colors with the Horde, under the Scalereaver Warband. Mischief and mayhem may seem to live at our core, but I tell you, wanderer, we are those who raise arms against the stronger inhabitants of Azeroth when the time for action comes.
 
 ## Patch changes

@@ -10,4 +10,4 @@ categories: ["Burning Steppes subzones", "Hills", "Ogre territories"]
 ---
 # Dreadmaul Rock
 
--Dreadmaul Rock** is the base of operations for the [Firegut](Firegut) [ogre](ogre)s. It is a large structure, with paths leading to the top and a complicated cave system of ogre mounds within.
+**Dreadmaul Rock** is the base of operations for the [Firegut](Firegut) [ogre](ogre)s. It is a large structure, with paths leading to the top and a complicated cave system of ogre mounds within.

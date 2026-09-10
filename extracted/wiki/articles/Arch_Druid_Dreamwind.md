@@ -27,7 +27,7 @@ categories: ["Archdruids", "Cenarion Circle", "Druid characters", "Hyjal NPCs", 
 | location | Nordanaar, Hyjal |
 | status | Alive |
 
--Arch Druid Dreamwind** is a [night elf](night elf) quest giver located in [Nordanaar](Nordanaar) in [Hyjal](Hyjal).
+**Arch Druid Dreamwind** is a [night elf](night elf) quest giver located in [Nordanaar](Nordanaar) in [Hyjal](Hyjal).
 
 ## Quests
 - [quest: Mount Hyjal In Turmoil] 
@@ -54,7 +54,7 @@ categories: ["Archdruids", "Cenarion Circle", "Druid characters", "Hyjal NPCs", 
 - [quest: class=druid] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 My duty is to ensure the roots of the World Tree recover from the devastation wrought by the Burning Legion. It has been some years their leader was defeated by Malfurion Stormrage, and yet their kind still linger.
 
 As long as you remain an enemy to demons, you will always be welcome in Nordrassil Glade.

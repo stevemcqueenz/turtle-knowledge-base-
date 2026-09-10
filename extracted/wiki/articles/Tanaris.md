@@ -25,7 +25,7 @@ categories: ["Kalimdor", "Tanaris", "Turtle WoW content"]
 | loc | Southeastern Southern Kalimdor |
 | territory | Contested |
 
--Tanaris**, or the **Tanaris Desert**, (ref:  [41] [Safety First](Safety First)) (ref: [Game Guide/World Dungeons#Zul'Farrak](https://wowpedia.fandom.com/wiki/Game_Guide/World_Dungeons)) is a desert located in southeastern [Kalimdor](Kalimdor), east of [Un'Goro Crater](Un'Goro Crater) and south of [Thousand Needles](Thousand Needles). It is an arid land, covered in sand dunes and frequently exposed to dangerous sandstorms. The [Steamwheedle Cartel](Steamwheedle Cartel) goblins of [Undermine](Undermine) have established [Steamwheedle Port](Steamwheedle Port) and [Gadgetzan](Gadgetzan) as their main centers of operation here. The dock in Steamwheedle Port is presumably used for transport to the outer islands, but so far, the goblins have proved unwilling to share the ships with the other races.
+**Tanaris**, or the **Tanaris Desert**, (ref:  [41] [Safety First](Safety First)) (ref: [Game Guide/World Dungeons#Zul'Farrak](https://wowpedia.fandom.com/wiki/Game_Guide/World_Dungeons)) is a desert located in southeastern [Kalimdor](Kalimdor), east of [Un'Goro Crater](Un'Goro Crater) and south of [Thousand Needles](Thousand Needles). It is an arid land, covered in sand dunes and frequently exposed to dangerous sandstorms. The [Steamwheedle Cartel](Steamwheedle Cartel) goblins of [Undermine](Undermine) have established [Steamwheedle Port](Steamwheedle Port) and [Gadgetzan](Gadgetzan) as their main centers of operation here. The dock in Steamwheedle Port is presumably used for transport to the outer islands, but so far, the goblins have proved unwilling to share the ships with the other races.
 
 ## History
 The Tanaris Desert has been an endless sea of sand for aeons. [Nozdormu](Nozdormu), the great dragon of time, was said to make this land his home since time immemorial, thriving in the solitude of oppressive heat and miles of sand.
@@ -33,8 +33,8 @@ The Tanaris Desert has been an endless sea of sand for aeons. [Nozdormu](Nozdorm
 Tanaris is the ancestral home of the [bronze dragonflight](bronze dragonflight) based out of the [Caverns of Time](Caverns of Time). The [titan](titan)s also have a holding here in form of the ancient research facility of [Uldum](Uldum), found in the southern parts of the desert. It was here that [Anachronos](Anachronos) first discovered the full threat of the [silithid](silithid), who had been making hives in the remote regions of Tanaris. The [War of the Shifting Sands](War of the Shifting Sands) was consequently unleashed upon the western land of [Silithus](Silithus).
 
 ## Getting there
-  -Alliance: From [Thalanaar](Thalanaar), head east through [Thousand Needles](Thousand Needles) and south through the [Shimmering Flats](Shimmering Flats). Through the mountain pass to the south of the flats lies [Gadgetzan](Gadgetzan).**
-  -Horde: From [Freewind Post](Freewind Post) travel east into the [Shimmering Flats](Shimmering Flats), then head south through the mountain pass to [Gadgetzan](Gadgetzan).**
+**Alliance: From [Thalanaar](Thalanaar), head east through [Thousand Needles](Thousand Needles) and south through the [Shimmering Flats](Shimmering Flats). Through the mountain pass to the south of the flats lies [Gadgetzan](Gadgetzan).**
+**Horde: From [Freewind Post](Freewind Post) travel east into the [Shimmering Flats](Shimmering Flats), then head south through the mountain pass to [Gadgetzan](Gadgetzan).**
 
 ## Geography
 The Tanaris Desert covers a vast expanse of southern [Kalimdor](Kalimdor), just south of the [Thousand Needles](Thousand Needles). It is a blazing hot expanse of rolling sand dunes under a cloudless sky. The southern region is more mountainous, with large cavern networks - some extending deep beneath the surface. A vast realm, the Tanaris Desert holds many secrets. The land is mostly desert, and below the ground are gigantic tunnel networks. They remain largely unexplored, for few have the fortitude to venture into such a harsh landscape. Still, rumors tell of all manner of creatures that hide within the tunnels and slaughter trespassers without hesitation. Although the sea of dunes does not look as if it would support a variety of wildlife, humans, Sandfury Trolls, hyenas, scorpids, basilisks, and silithid bugs are quite common. Occasionally drakes are also seen soaring on the thermals that swirl over the great desert.
@@ -70,26 +70,26 @@ WorldMap-Tanaris-old1.jpg|Tanaris prior to [patch 1.16.1](patch 1.16.1).
 |}
 
 ### Elite areas
--[Sandsorrow Watch](Sandsorrow Watch)
--[Valley of the Watchers](Valley of the Watchers)
+- [Sandsorrow Watch](Sandsorrow Watch)
+- [Valley of the Watchers](Valley of the Watchers)
 
 ### Travel hubs
 #### [Flight path](Flight path)s from [Gadgetzan](Gadgetzan)
--  [Orgrimmar](Orgrimmar)
--  [Thunder Bluff](Thunder Bluff)
--  [The Crossroads](Crossroads), [the Barrens](Barrens)
--  [Camp Taurajo](Camp Taurajo), [the Barrens](Barrens)
--  [Theramore Isle](Theramore Isle), [Dustwallow Marsh](Dustwallow Marsh)
--  [Brackenwall Village](Brackenwall Village), [Dustwallow Marsh](Dustwallow Marsh)
--  [Thalanaar](Thalanaar), [Feralas](Feralas)
--  [Camp Mojache](Camp Mojache), [Feralas](Feralas)
--  [Slickwick Oil Rig](Slickwick Oil Rig), **Tanaris**
--  [Marshal's Refuge](Marshal's Refuge), [Un'Goro Crater](Un'Goro Crater)
--  [Tel Co. Basecamp](Tel Co. Basecamp), [Tel'Abim](Tel'Abim)
--  [Cenarion Hold](Cenarion Hold), [Silithus](Silithus)
+- [Orgrimmar](Orgrimmar)
+- [Thunder Bluff](Thunder Bluff)
+- [The Crossroads](Crossroads), [the Barrens](Barrens)
+- [Camp Taurajo](Camp Taurajo), [the Barrens](Barrens)
+- [Theramore Isle](Theramore Isle), [Dustwallow Marsh](Dustwallow Marsh)
+- [Brackenwall Village](Brackenwall Village), [Dustwallow Marsh](Dustwallow Marsh)
+- [Thalanaar](Thalanaar), [Feralas](Feralas)
+- [Camp Mojache](Camp Mojache), [Feralas](Feralas)
+- [Slickwick Oil Rig](Slickwick Oil Rig), **Tanaris**
+- [Marshal's Refuge](Marshal's Refuge), [Un'Goro Crater](Un'Goro Crater)
+- [Tel Co. Basecamp](Tel Co. Basecamp), [Tel'Abim](Tel'Abim)
+- [Cenarion Hold](Cenarion Hold), [Silithus](Silithus)
 
 #### [Flight path](Flight path)s from [Slickwick Oil Rig](Slickwick Oil Rig)
--  [Gadgetzan](Gadgetzan), **Tanaris**
+- [Gadgetzan](Gadgetzan), **Tanaris**
 
 ### Adjacent regions
 {| class="fandom-table"
@@ -152,8 +152,8 @@ WorldMap-Tanaris-old1.jpg|Tanaris prior to [patch 1.16.1](patch 1.16.1).
 - (Patch 1.18.0|note=[Slickwick Oil Rig](Slickwick Oil Rig) added.)
 - (Patch 1.16.4|note=Map updated for [Tel'Abim](Tel'Abim).)
 - (Patch 1.16.1|note=[Sandmoon Village](Sandmoon Village) added.)
--  **Patch 1.1.0 (2004-11-07):** Added as a level 40 - 50 zone.
--  **Patch 0.8 (2004-07-07):** New music has been added to the desert region.
--  **Patch 0.7 (2004-06-15):** Opened and itemized.
+- **Patch 1.1.0 (2004-11-07):** Added as a level 40 - 50 zone.
+- **Patch 0.8 (2004-07-07):** New music has been added to the desert region.
+- **Patch 0.7 (2004-06-15):** Opened and itemized.
 
 ## References

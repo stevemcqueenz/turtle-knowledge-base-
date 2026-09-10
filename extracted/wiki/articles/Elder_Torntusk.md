@@ -28,7 +28,7 @@ categories: ["Forest troll characters", "Hinterlands NPCs", "Quest givers", "Rev
 | location | Revantusk Village, The Hinterlands |
 | relatives | Primal Torntusk (mate) |
 
--Elder Torntusk** is the co-leader of the [Revantusk tribe](Revantusk tribe) located on the sacrificial altar at the very top of [Jintha'Alor](Jintha'Alor) in the [contested](contested) territory of the [Hinterlands](Hinterlands).
+**Elder Torntusk** is the co-leader of the [Revantusk tribe](Revantusk tribe) located on the sacrificial altar at the very top of [Jintha'Alor](Jintha'Alor) in the [contested](contested) territory of the [Hinterlands](Hinterlands).
 
 Be careful if you are [Alliance](Alliance) and attempting to obtain the [Mallet of Zul'Farrak](Mallet of Zul'Farrak), Elder Torntusk is a PVP flagged [Horde](Horde) NPC directly on top of the altar you need - but he is not automatically hostile. Attacking him will flag you PvP, but he will not attack you unless you damage him.
 
@@ -38,11 +38,11 @@ In his younger days, Elder Torntusk was amongst the [forest troll](forest troll)
 At some point, Elder Torntusk was taken prisoner by the [Vilebranch tribe](Vilebranch tribe) after they launched a bold midnight raid on Revantusk village. Imprisoned within [Jintha'alor](Jintha'alor), [Vile Priestess Hexx](Vile Priestess Hexx) sought to sacrifice him to the faceless Blood God, [Hakkar the Soulflayer](Hakkar the Soulflayer). However before this dark act could be carried out, she was slain and Torntusk was liberated by the Horde [adventurers](adventurer) after they killed [Hitah'ya the Keeper](Hitah'ya the Keeper) and secured the key she had. Following his liberation, he returned to his mate and tribe.
 
 ## Quotes
-  -Gossip**
+**Gossip**
   Get the key and unlock these chains! Hitah'ya the Keeper holds it... back of cave...
 
 ## Patch changes
--1.5.0: Added.
+- 1.5.0: Added.
 
 ## References
 ## External links

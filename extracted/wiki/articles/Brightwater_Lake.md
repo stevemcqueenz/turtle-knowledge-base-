@@ -10,4 +10,4 @@ categories: ["Forsaken territories", "Lakes", "Pages with broken file links", "T
 ---
 # Brightwater Lake
 
--Brightwater Lake** is the biggest lake in [Tirisfal Glades](Tirisfal Glades). Before the [Plague of Undeath](Plague of Undeath) struck the land, this lake was a popular site for recreation like bathing and fishing. Now it lies dark and silent, dead trees floating along the edge and rotting on the bottom. [Gunther's Retreat](Gunther's Retreat), mostly inhabited by mindless [Scourge](Scourge) zombies, is situated on the lake's largest island.
+**Brightwater Lake** is the biggest lake in [Tirisfal Glades](Tirisfal Glades). Before the [Plague of Undeath](Plague of Undeath) struck the land, this lake was a popular site for recreation like bathing and fishing. Now it lies dark and silent, dead trees floating along the edge and rotting on the bottom. [Gunther's Retreat](Gunther's Retreat), mostly inhabited by mindless [Scourge](Scourge) zombies, is situated on the lake's largest island.

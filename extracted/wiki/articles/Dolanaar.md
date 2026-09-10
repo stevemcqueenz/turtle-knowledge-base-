@@ -27,4 +27,4 @@ categories: ["Alliance settlements", "Cities", "Night elf territories", "Pages w
 | profession | Yes |
 | status | Active |
 
--Dolanaar** was a [night elven](Night elf) village located in the central-eastern part of [Teldrassil](Teldrassil). Found just southwest of [Shadowglen](Shadowglen), its central location made it involved in much of Teldrassil's regional affairs and the first major town usually encountered by aspiring night elf [adventurer](adventurer)s after leaving [Shadowglen](Shadowglen). [Class trainer](Class trainer)s for all night elven classes, as well as [profession](profession) training, were also available here.
+**Dolanaar** was a [night elven](Night elf) village located in the central-eastern part of [Teldrassil](Teldrassil). Found just southwest of [Shadowglen](Shadowglen), its central location made it involved in much of Teldrassil's regional affairs and the first major town usually encountered by aspiring night elf [adventurer](adventurer)s after leaving [Shadowglen](Shadowglen). [Class trainer](Class trainer)s for all night elven classes, as well as [profession](profession) training, were also available here.

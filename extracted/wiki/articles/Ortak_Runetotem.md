@@ -25,10 +25,10 @@ categories: ["Druid trainers", "Moonwhisper Coast NPCs", "Tauren characters", "T
 | location | Moonhoof Retreat, Moonwhisper Coast |
 | status | Alive |
 
--Ortak Runetotem** is a [tauren](tauren) druid trainer located in [Moonhoof Retreat](Moonhoof Retreat) in [Moonwhisper Coast](Moonwhisper Coast).
+**Ortak Runetotem** is a [tauren](tauren) druid trainer located in [Moonhoof Retreat](Moonhoof Retreat) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The power of nature itself can be an invigorating force. In dark times such as these it is up to the hands of Druids to tend to nature, and mend the scars left by evil.
 
 ## Patch changes

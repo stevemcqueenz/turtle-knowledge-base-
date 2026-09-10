@@ -10,7 +10,7 @@ categories: ["Durotar subzones", "Harpy territories", "Pages with broken file li
 ---
 # Drygulch Ravine
 
--Drygulch Ravine** is a location in [Durotar](Durotar). Apart from falling down into the ravine from above, the only entrance is from [Razorwind Canyon](Razorwind Canyon), through a small cave at [52.3, 27.3].
+**Drygulch Ravine** is a location in [Durotar](Durotar). Apart from falling down into the ravine from above, the only entrance is from [Razorwind Canyon](Razorwind Canyon), through a small cave at [52.3, 27.3].
 
 ## History
 Three years after the [Third War](Third War) ended, [thunder lizard](thunder lizard)s escaped from [Thunder Ridge](Thunder Ridge) and endangered the ravine. A young orc messenger from Drygulch Ravine went to [Orgrimmar](Orgrimmar) and reported the news to Warchief [Thrall](Thrall). (ref: *[Cycle of Hatred](Cycle of Hatred)*, chapter 7) In addition to the orcs living here, there is also a river that feeds the ravine. (ref: *[Cycle of Hatred](Cycle of Hatred)*, chapter 8)

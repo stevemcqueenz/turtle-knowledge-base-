@@ -24,7 +24,7 @@ categories: ["Gilneas NPCs", "Human characters", "Turtle WoW content"]
 | location | Vagrant Encampment, Gilneas |
 | status | Alive |
 
--'Quaking' Kevin** is a [human](human) located at the [Vagrant Encampment](Vagrant Encampment) in [Gilneas](Gilneas).
+**'Quaking' Kevin** is a [human](human) located at the [Vagrant Encampment](Vagrant Encampment) in [Gilneas](Gilneas).
 
 ## Quotes
 Did you hear that?!

@@ -13,9 +13,5 @@ categories: ["Gilneas subzones", "Human territories", "Turtle WoW content", "Val
 The **Dryrock Valley** is a valley located in western [Gilneas](Gilneas), in the shadow of [Gilneas City](Gilneas City). Within the valley, royalist forces answering to the Regent-Lords of Gilneas operate lumber and mining industries, putting slave labor to work in the [Dryrock Pit](Dryrock Pit) and the [Dryrock Mine](Dryrock Mine).
 
 ## NPCs
-- 
-- 
-- 
-
-## Patch changes
+- - - ## Patch changes
 - (Patch 1.17.0|note=Added.)

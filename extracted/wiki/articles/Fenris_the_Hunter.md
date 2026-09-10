@@ -21,7 +21,7 @@ categories: ["Orc characters", "Thunderlord clan"]
 | occupation | Chieftain of the Thunderlord clan, captain of the Wolfriders |
 | status | Unknown |
 
--Fenris the Hunter** was the chieftain of the Thunderlord clan and captain of the remaining Wolfriders in Draenor that Orgrim Doomhammer disbanded soon after the [First War](First War).
+**Fenris the Hunter** was the chieftain of the Thunderlord clan and captain of the remaining Wolfriders in Draenor that Orgrim Doomhammer disbanded soon after the [First War](First War).
 
 Shortly after the [Bleeding Hollow clan](Bleeding Hollow clan)'s return to Draenor, [Ner'zhul](Ner'zhul) sent [Dentarg](Dentarg) to influence warriors from Fenris' clan to join in the battle against the [Bonechewer clan](Bonechewer clan), who possessed the [Skull of Gul'dan](Skull of Gul'dan). The Slayer of the Shadowmoon clan was sent to help rally the Thunderlords and destroy the Bonechewers with the aid of the [Shattered Hand](Shattered Hand clan). (ref: [The Skull of Gul'dan (WC2 Orc)](https://wowpedia.fandom.com/wiki/The_Skull_of_Gul%27dan_(WC2_Orc))) Fenris, who was eager to lead his clan to glorious battle in the human lands, schemed with [Tagar Spinebreaker](Tagar Spinebreaker) to journey to Azeroth and have their clans triumph where [Orgrim Doomhammer](Orgrim Doomhammer) had failed. This was not a vision that was shared by [Ner'zhul](Ner'zhul), who ordered that their clans be culled as an example to ensure that none would dare to interfere with his dark schemes. (ref: [Thunderlord and Bonechewer (WC2 Orc)](https://wowpedia.fandom.com/wiki/Thunderlord_and_Bonechewer_(WC2_Orc)))
 

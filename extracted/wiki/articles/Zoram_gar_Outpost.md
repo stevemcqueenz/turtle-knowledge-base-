@@ -10,7 +10,7 @@ categories: ["Ashenvale subzones", "Horde towns", "Troll territories"]
 ---
 # Zoram'gar Outpost
 
--Zoram'gar Outpost** is a Horde outpost located on the [Zoram Strand](Zoram Strand) of [Ashenvale](Ashenvale). It is the very last attempt in gaining control over Ashenvale by the Horde without breaking the "truce". Zoram'gar is troll controlled. 
+**Zoram'gar Outpost** is a Horde outpost located on the [Zoram Strand](Zoram Strand) of [Ashenvale](Ashenvale). It is the very last attempt in gaining control over Ashenvale by the Horde without breaking the "truce". Zoram'gar is troll controlled. 
 
 ## Facilities
 - Flight Master
@@ -19,31 +19,19 @@ categories: ["Ashenvale subzones", "Horde towns", "Troll territories"]
 
 ## Travel Connections
 ### Flight
-  - [Bloodvenom Post](Bloodvenom Post)**
+** [Bloodvenom Post](Bloodvenom Post)**
 
-  - [Splintertree Post](Splintertree Post)**
+** [Splintertree Post](Splintertree Post)**
 
-  - [Sun Rock Retreat](Sun Rock Retreat)**
+** [Sun Rock Retreat](Sun Rock Retreat)**
 
-  - [The Crossroads](The Crossroads)**
+** [The Crossroads](The Crossroads)**
 
-  - [Emerald Sanctuary](Emerald Sanctuary)**
+** [Emerald Sanctuary](Emerald Sanctuary)**
 
 ## Zoram'gar Outpost NPCs
 ### Quest Givers
-- 
-- 
-- 
-- 
-- 
-
-### Profession (Tradeskill) Trainers
-- 
-
-### Merchants
-- 
-
-### Various Services
-- 
-
-## Getting There
+- - - - - ### Profession (Tradeskill) Trainers
+- ### Merchants
+- ### Various Services
+- ## Getting There

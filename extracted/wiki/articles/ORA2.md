@@ -105,14 +105,14 @@ oRa is a dynamic raid assist add-on.
 |Print out addon info
 |}
 
-  -Commands**
+**Commands**
 
 - <code>**/rainvite**</code> – Guild invite command.
 - <code>**/rakeyword**</code> – A command related to guild invitations.
 - <code>**/ready**</code> - perform a ready check
 - **MT and PT commands**: Ability to assign Main Tanks and Player Targets via tooltips or keybindings.
 
-  -Click Functions**
+**Click Functions**
 
 - **Ctrl+Alt+Click**: Used to disable or re-enable oRA by clicking the FBP (FuBar plugin).
 - **Alt-Drag**: A new way to interact with the system for certain options (e.g., horizontal layout).
@@ -121,81 +121,81 @@ oRa is a dynamic raid assist add-on.
 
 ## Preview
 ## Features
-  -Cooldown Monitor**
+**Cooldown Monitor**
 - Added Innervate, Divine Intervention, Shield Wall and Challenging Shout/Roar
 - Added configuration for each Spell
 - Added an option to lock the Frame. If the frame is unlocked in can be moved by Drag&Drop (pressing you Alt-key is not necessary anymore)
 - Added an option to scale the bar size
 
-  -Resurrection Monitor**
+**Resurrection Monitor**
 
 - Added an option to lock the Frame. If the frame is unlocked in can be moved by Drag&Drop (pressing you Alt-key is not necessary anymore)
 
-  -Invite**
+**Invite**
 
 - Added Auto Promote Feature: automatically promotes all players on your Auto Promote list to raid assistants whenever you become the raid leader or when you already are the raid leader and they join the raid
 - Added the possibility to define multiple keywords for Auto Invite. Separate your keywords with a Space, e.g. "inv raid" would mean whenever someone whispers you "inv" or "raid", you would automatically invite them.
 
-  -Ready Check**
+**Ready Check**
 
 - Added Slash command <code>**/ready**</code> to perform a ready check
 - Raid members without oRA2 can participate in ready checks by whispering + or -
 
-  -Main Tank**
+**Main Tank**
 
 - Added a Test option to set up the main tank frame outside of a raid group
-  -Guild invite**
+**Guild invite**
 
 - Can now take level as an optional argument to invite players of a certain level or higher.
 
-  -Leader/Invite functionality**
+**Leader/Invite functionality**
 
 - Uses <code>InviteUnit</code> and <code>UninviteUnit</code> APIs if available.
 
-  -Durability/Resistance checks**
+**Durability/Resistance checks**
 
 - Prevents players from appearing twice in these checks.
 
-  -SurfaceLib integration**
+**SurfaceLib integration**
 
 - For textures and updates.
 
-  -Level of Detail (LoD)**
+**Level of Detail (LoD)**
 
 - oRA2 now uses LoD, similar to BigWigs, which will break external modules.
 
-  -Participant/Ready status**
+**Participant/Ready status**
 
 - Updated to use SurfaceLib.
 
-  -Fixed localization issues**
+**Fixed localization issues**
 
 - Updates for various languages (e.g., zhCN, koKR, deDE, frFR).
 
-  -Improved resurrection monitoring**
+**Improved resurrection monitoring**
 
 - Ensures proper behavior when players are mid-resurrection.
 
-  -Tooltips**
+**Tooltips**
 
 - Ability to detach and display non-interactive lists of Player Targets (PT) and Main Tanks (MT).
 
-  -Resurrection monitor improvements**
+**Resurrection monitor improvements**
 
 - Better handling when leaving and rejoining a raid with resurrections.
 
-  -Texture changing**
+**Texture changing**
 
 - Default texture set and ability to change textures for certain modules.
 
-  -Horizontal layout**
+**Horizontal layout**
 
 - Added option for a horizontal layout for MT frames.
 
-  -AceLocale-2.2 and AceHook 2.1 support**
+**AceLocale-2.2 and AceHook 2.1 support**
 
 - Localization and hooks added for various improvements.
 
-  -Cooldown module**
+**Cooldown module**
 
 - Ability to change textures and some drycoded improvements.

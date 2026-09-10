@@ -25,10 +25,10 @@ categories: ["Human characters", "Northwind NPCs", "Stormwind (kingdom)", "Turtl
 | status | Alive |
 | relatives | Old Man Crawford (husband),, Jeremiah, Gregory and Christine (children) |
 
--Margaret Crawford** is a [human](human) located at the [Plump Pumpkin](Plump Pumpkin) in [Northwind](Northwind).
+**Margaret Crawford** is a [human](human) located at the [Plump Pumpkin](Plump Pumpkin) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 My husband is in a terrible state, and my children are distraught at what has become of us. I, however, will not let this heavy mood stand any longer. We've built this with our own hands and hard work, and we will take it back with the same hands!
 
 ## Patch changes

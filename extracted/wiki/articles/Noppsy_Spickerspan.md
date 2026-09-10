@@ -26,7 +26,7 @@ categories: ["Balor NPCs", "Gnome characters", "Quest givers", "SI:7", "Scholars
 | relatives | Nippsy (sister) |
 | status | Alive |
 
--Noppsy Spickerspan** is a [gnome](gnome) [quest giver](quest giver) located at [SI:7 Outpost](SI:7 Outpost) in [Balor](Balor).
+**Noppsy Spickerspan** is a [gnome](gnome) [quest giver](quest giver) located at [SI:7 Outpost](SI:7 Outpost) in [Balor](Balor).
 
 ## Quests
 - [quest: Forgotten Stories] 
@@ -36,7 +36,7 @@ categories: ["Balor NPCs", "Gnome characters", "Quest givers", "SI:7", "Scholars
 - [quest: Antiquities] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Greetings! My name is Noppsy Spickerspan and I am responsible for archiving everything that occurs during this operation. Balor has a rich history, with many mysteries still left unanswered ever since Stormwind lost it in the First War. If you discover any documents or similar records, don't hesitate to bring them to me.
 
 ## Patch changes

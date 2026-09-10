@@ -22,7 +22,7 @@ categories: ["Bears", "Moonwhisper Coast mobs", "Tenacity beasts", "Turtle WoW c
 | location | Moonwhisper Coast |
 | pet | Bear |
 
--Nightpelt Ursas** are bears found in [Moonwhisper Coast](Moonwhisper Coast).
+**Nightpelt Ursas** are bears found in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Objective of
 - Drops [Nightpelt Flank](Nightpelt Flank) for [quest: The Long Hunt].

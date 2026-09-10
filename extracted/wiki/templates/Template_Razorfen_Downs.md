@@ -28,19 +28,19 @@ categories: ["Instance navigation templates"]
 
 [Amnennar the Coldbringer](Amnennar the Coldbringer)
 |
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 |-
 | class="title" colspan="2"| NPCs
 |-

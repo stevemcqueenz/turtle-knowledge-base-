@@ -23,7 +23,7 @@ categories: ["Stormwrought Ruins mobs", "Threshadons", "Turtle WoW content"]
 | location | Stormwrought Ruins |
 | status | Killable |
 
--Ancient Threshadons** are [threshadon](threshadon)s located in [Stormwrought Ruins](Stormwrought Ruins).
+**Ancient Threshadons** are [threshadon](threshadon)s located in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

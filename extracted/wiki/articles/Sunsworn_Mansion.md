@@ -10,17 +10,10 @@ categories: ["Alah'Thalas subzones", "Estates", "Turtle WoW content"]
 ---
 # Sunsworn Mansion
 
--Sunsworn Mansion** is the personal estate of the high elven nobleman and [Regency Council](Regency Council) member [Astalor Sunsworn](Astalor Sunsworn), located by the shores of the [Thalassian Highlands](Thalassian Highlands) in the northern part of [Alah'Thalas](Alah'Thalas).
+**Sunsworn Mansion** is the personal estate of the high elven nobleman and [Regency Council](Regency Council) member [Astalor Sunsworn](Astalor Sunsworn), located by the shores of the [Thalassian Highlands](Thalassian Highlands) in the northern part of [Alah'Thalas](Alah'Thalas).
 
 ## NPCs
-  -Top floor**
-- 
-- 
-- 
-- 
-  -Ground floor**
-- 
-- 
-
-## Patch changes
+**Top floor**
+- - - - ;Ground floor
+- - ## Patch changes
 - (Patch 1.17.1|note=Added.)

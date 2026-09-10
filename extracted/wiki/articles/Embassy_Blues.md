@@ -37,8 +37,8 @@ Head into the city, it should be ripe with ale, find me 3 Flasks of Port, that s
 
 ## Rewards
 You will receive:
--2100 XP
--+75 [reputation](reputation) with [Kul Tiras](Kul Tiras (faction))
+- 2100 XP
+- +75 [reputation](reputation) with [Kul Tiras](Kul Tiras (faction))
 
 ## Progress
 So, you find the port...?

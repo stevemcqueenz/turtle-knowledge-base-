@@ -97,8 +97,8 @@ The **Redridge Range** (ref: *[The Last Guardian](The Last Guardian)*, pg. 2) is
 - [Giant](Giant)s (one, [Boulderheart](Boulderheart))
 
 ## Notes
--Redridge has one of the game's highest level-gaps between zones at its border with the [Burning Steppes](Burning Steppes), which is a 30 level jump from 20 to 50. Players are instead directed to [Duskwood](Duskwood) (to the southwest) after completing all the quests here.
--The *Warcraft III: Reign of Chaos* Game Manual specifically mentions gnolls and kobolds as being present in the Redridge Mountains, despite the game's plot never going there.
+- Redridge has one of the game's highest level-gaps between zones at its border with the [Burning Steppes](Burning Steppes), which is a 30 level jump from 20 to 50. Players are instead directed to [Duskwood](Duskwood) (to the southwest) after completing all the quests here.
+- The *Warcraft III: Reign of Chaos* Game Manual specifically mentions gnolls and kobolds as being present in the Redridge Mountains, despite the game's plot never going there.
 
 ## Patch changes
 - (Patch 1.17.2|note=[Redwall Keep](Redwall Keep) added.)

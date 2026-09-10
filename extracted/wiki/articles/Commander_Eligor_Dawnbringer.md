@@ -28,7 +28,7 @@ categories: ["Argent Dawn", "Brotherhood of the Light", "Eastern Plaguelands NPC
 | location | Light's Hope Chapel, Eastern Plaguelands |
 | status | Alive |
 
--Commander Eligor Dawnbringer** is a [human](human) [quest giver](quest giver) located at [Light's Hope Chapel](Light's Hope Chapel) in the [Eastern Plaguelands](Eastern Plaguelands). A member of the [Brotherhood of the Light](Brotherhood of the Light), a subsection of the [Argent Dawn](Argent Dawn)'s ranks, he is the representative leader of the Brotherhood at the meeting with [Scarlet Crusade](Scarlet Crusade) envoys led by [Scarlet Commander Marjhan](Scarlet Commander Marjhan) in order to keep relations between the Dawn and the Crusade from turning violent, and to counter an imminent attack from [Kel'Thuzad](Kel'Thuzad) and the [Scourge](Scourge).
+**Commander Eligor Dawnbringer** is a [human](human) [quest giver](quest giver) located at [Light's Hope Chapel](Light's Hope Chapel) in the [Eastern Plaguelands](Eastern Plaguelands). A member of the [Brotherhood of the Light](Brotherhood of the Light), a subsection of the [Argent Dawn](Argent Dawn)'s ranks, he is the representative leader of the Brotherhood at the meeting with [Scarlet Crusade](Scarlet Crusade) envoys led by [Scarlet Commander Marjhan](Scarlet Commander Marjhan) in order to keep relations between the Dawn and the Crusade from turning violent, and to counter an imminent attack from [Kel'Thuzad](Kel'Thuzad) and the [Scourge](Scourge).
 
 At some point during the [Third War](Third War), Eligor Dawnbringer fought alongside [Alexandros Mograine](Alexandros Mograine) prior to the Scarlet Highlord's death and the forming of the Argent Dawn, watching the Highlord burn legions of undead in righteous fire before he would even unsheathe his blade.
 
@@ -44,7 +44,7 @@ At some point during the [Third War](Third War), Eligor Dawnbringer fought along
 - [quest: Redemption Wristguards|class=paladin] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Watch your step, <race>. We of the Brotherhood of the Light are not as lenient as our brethren when it comes to meting justice to those that would do this world wrong.
 
 Woe unto those that would anger [Korfax](Korfax).
@@ -61,7 +61,7 @@ Now if you have no business with me or the other members of the Brotherhood, ple
 
   Such tragedy...
 
-  -Meeting with the Scarlet envoys**
+**Meeting with the Scarlet envoys**
    **Scarlet Commander Marjhan says:** Your message did reach us, Commander, but by no means is our involvement here sanctioned by the Grand Crusader.
    **Commander Eligor Dawnbringer says:** Your leader takes residence at the doorstep to Naxxramas. Do you think he does not feel the pressure?
    Commander Eligor Dawnbringer lowers the sound of his voice to a whisper.
@@ -82,7 +82,7 @@ Now if you have no business with me or the other members of the Brotherhood, ple
    **Commander Eligor Dawnbringer says:** Now be silent and note where you are, lest I inform [Lord Fordring](Tirion Fordring) and his [knights](Knights of the Silver Hand) that you are no longer here on amicable terms. I am certain he would take great pleasure in seeing to your 'atonement.'
    *Eligor sits back down.*
 
-  -Jessica serving food**
+**Jessica serving food**
   **Jessica Chambers says:** Ok, you had the fish platter, Commander. Enjoy!
   **Jessica Chambers says:** Father, you had the bowl of fruit? Right?
   **Commander Eligor Dawnbringer says:** The fish is exquisite, Jessica.
@@ -94,4 +94,4 @@ Now if you have no business with me or the other members of the Brotherhood, ple
   **Archmage Angela Dosantos says:** Indeed... Lovely dress, Jessica.
 
 ## Patch changes
--  **[Patch 1.11.0](Patch 1.11.0) (2006-06-19):** Added.
+- **[Patch 1.11.0](Patch 1.11.0) (2006-06-19):** Added.

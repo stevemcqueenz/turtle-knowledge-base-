@@ -30,54 +30,16 @@ categories: ["High elf territories", "Thalassian Highlands subzones"]
 | flightpath | No |
 | status | Active |
 
--Brinthilien** is the [high elven](high elf) starting zone. Located within a small valley in the southern-most part of the [Thalassian Highlands](Thalassian Highlands), Brinthilien serves as the primary designated shelter for high elven refugees and settlers arriving in the Thalassian Highlands by order of the [Regency Council](Regency Council). (ref: [quest: Provisions for Refugees])
+**Brinthilien** is the [high elven](high elf) starting zone. Located within a small valley in the southern-most part of the [Thalassian Highlands](Thalassian Highlands), Brinthilien serves as the primary designated shelter for high elven refugees and settlers arriving in the Thalassian Highlands by order of the [Regency Council](Regency Council). (ref: [quest: Provisions for Refugees])
 
 ## NPCs
 ### Quest givers
--
--
--
--
--
--
--
-
-  -Removed from the game**
--
-
-### Goods and services
--
--
--
--
--
-
-  -Removed from the game**
--
-
-### Trainers
--
--
--
--
--
--
-
-### Additional characters
--
--
--
--
--
--
--
--
--
--
--
--
-
-## Patch changes
--  **[Patch 1.17.1](Patch 1.17.1) (2023-12-20):** Added.
+- - - - - - - ;Removed from the game
+- ### Goods and services
+- - - - - ;Removed from the game
+- ### Trainers
+- - - - - - ### Additional characters
+- - - - - - - - - - - - ## Patch changes
+- **[Patch 1.17.1](Patch 1.17.1) (2023-12-20):** Added.
 
 ## References

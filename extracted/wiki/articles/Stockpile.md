@@ -10,6 +10,6 @@ categories: ["Caves", "Human territories", "Stranglethorn Vale subzones"]
 ---
 # Stockpile
 
--The Stockpile** is a cave where [Colonel Kurzen](Colonel Kurzen) and his fighters keep their war-waging equipment.
+**The Stockpile** is a cave where [Colonel Kurzen](Colonel Kurzen) and his fighters keep their war-waging equipment.
 
 It is a non-instanced dungeon located at the back of the [Kurzen's Compound](Kurzen's Compound) in [Stranglethorn Vale](Stranglethorn Vale).

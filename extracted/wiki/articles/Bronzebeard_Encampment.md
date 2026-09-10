@@ -10,7 +10,7 @@ categories: ["Dwarf territories", "Explorers' League", "Neutral settlements", "P
 ---
 # Bronzebeard Encampment
 
--Bronzebeard Encampment** was located in the southern [Silithus](Silithus), east of the [Scarab Wall](Scarab Wall).
+**Bronzebeard Encampment** was located in the southern [Silithus](Silithus), east of the [Scarab Wall](Scarab Wall).
 
 ## Patch changes
 -

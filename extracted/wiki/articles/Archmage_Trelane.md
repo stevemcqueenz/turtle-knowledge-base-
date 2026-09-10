@@ -23,15 +23,15 @@ categories: ["Archmages", "Human characters", "Lore characters", "Mage character
 | status | Alive |
 | students | Archmage Malin |
 
--Archmage Trelane** (ref: [quest: Malin's Request]) was once a studying wizard in the [Tower of Arathor](Tower of Arathor). There he created a defense system that call [Summoned Guardian](Summoned Guardian)s for help when using a prepared [gem](Enchanted Agate). It seems that this wasn't enough as he fled [Stromgarde](Stromgarde (kingdom)) not long ago. He is the original master of [Archmage Malin](Archmage Malin), who sent [Skuerto](Skuerto) to recover some of Trelane's belongings from the [ogre](ogre) controlled part of [Stromgarde Keep](Stromgarde Keep).
+**Archmage Trelane** (ref: [quest: Malin's Request]) was once a studying wizard in the [Tower of Arathor](Tower of Arathor). There he created a defense system that call [Summoned Guardian](Summoned Guardian)s for help when using a prepared [gem](Enchanted Agate). It seems that this wasn't enough as he fled [Stromgarde](Stromgarde (kingdom)) not long ago. He is the original master of [Archmage Malin](Archmage Malin), who sent [Skuerto](Skuerto) to recover some of Trelane's belongings from the [ogre](ogre) controlled part of [Stromgarde Keep](Stromgarde Keep).
 
 According to [quest: Malin's Request], Trelane is located in [Stormwind City](Stormwind City).
 
 ## Possessions
 Trelane left several items in the tower, all named after Trelane. They are:
--[Trelane's Phylactery](Trelane's Phylactery) in [Trelane's Footlocker](Trelane's Footlocker)
--[Trelane's Orb](Trelane's Orb) in [Trelane's Chest](Trelane's Chest)
--[Trelane's Ember Agate](Trelane's Ember Agate) in [Trelane's Lockbox](Trelane's Lockbox).
--[Trelane's Wand of Invocation](Trelane's Wand of Invocation) held by [Kor'gresh Coldrage](Kor'gresh Coldrage), which enables the wielder to cast frost spells, most notably [Trelane's Freezing Touch](http://thottbot.com/s4320). (ref: [quest: Wand over Fist]) (ref: [Kor'gresh Coldrage#Abilities](Kor'gresh Coldrage#Abilities))
+- [Trelane's Phylactery](Trelane's Phylactery) in [Trelane's Footlocker](Trelane's Footlocker)
+- [Trelane's Orb](Trelane's Orb) in [Trelane's Chest](Trelane's Chest)
+- [Trelane's Ember Agate](Trelane's Ember Agate) in [Trelane's Lockbox](Trelane's Lockbox).
+- [Trelane's Wand of Invocation](Trelane's Wand of Invocation) held by [Kor'gresh Coldrage](Kor'gresh Coldrage), which enables the wielder to cast frost spells, most notably [Trelane's Freezing Touch](http://thottbot.com/s4320). (ref: [quest: Wand over Fist]) (ref: [Kor'gresh Coldrage#Abilities](Kor'gresh Coldrage#Abilities))
 
 ## References

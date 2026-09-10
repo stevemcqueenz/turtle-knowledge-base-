@@ -52,11 +52,11 @@ After Thandol Span and its dwarven troops suffered heavy damage due to a Dark Ir
 ## People and culture
 ### Notable people
 ### Notable leaders
-  -House Trollbane**
--  Lord [Ignaeus Trollbane](Ignaeus Trollbane)<sup>†</sup>
--  King [Liam Trollbane](Liam Trollbane)<sup>†</sup>
--  King [Thoras Trollbane](Thoras Trollbane)<sup>†</sup>
--  Prince [Galen Trollbane](Galen Trollbane)
+**House Trollbane**
+- Lord [Ignaeus Trollbane](Ignaeus Trollbane)<sup>†</sup>
+- King [Liam Trollbane](Liam Trollbane)<sup>†</sup>
+- King [Thoras Trollbane](Thoras Trollbane)<sup>†</sup>
+- Prince [Galen Trollbane](Galen Trollbane)
 
 ## Military
 The Stromgarde Militia is the force protecting Stromgarde. The crimson-clad defenders are known for the martial discipline in battle and has proven themselves in the Second War which they were able to hold off the entire Horde for quite a while on their own, allowing the rest of the Alliance to mobilize. (ref:  Possessing a long history of warfare against the trolls, their warriors are well prepared to engage in open combat with all enemies of humanity.<ref>*Warcraft II: Tides of Darkness* manual, *[Nations of the Alliance](https://wowpedia.fandom.com/wiki/Warcraft_II:_Tides_of_Darkness_manual#Stromgarde)*) Members of the Stromgarde Militia can be identified by their [Stromgarde Badge](Stromgarde Badge)s. (ref: [quest: Stromgarde Badges])

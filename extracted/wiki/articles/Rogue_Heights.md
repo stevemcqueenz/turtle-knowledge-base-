@@ -13,8 +13,4 @@ categories: ["Stubs", "Tirisfal Glades subzones"]
 The **Rogue Heights** is an area located at the Tirisfal Uplands.
 
 ## NPCs
-- 
-- 
-- 
-- 
--
+- - - - -

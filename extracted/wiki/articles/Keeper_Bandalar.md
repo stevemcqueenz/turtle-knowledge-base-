@@ -25,13 +25,13 @@ categories: ["Keepers of the grove", "Moonwhisper Coast NPCs", "Quest givers", "
 | status | Alive |
 | relatives | Cenarius (father) |
 
--Keeper Bandalar** is a [keeper of the grove](keeper of the grove) quest giver located in the [Grove of the Sun](Grove of the Sun) in [Moonwhisper Coast](Moonwhisper Coast).
+**Keeper Bandalar** is a [keeper of the grove](keeper of the grove) quest giver located in the [Grove of the Sun](Grove of the Sun) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: Led Astray] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Our brethren are straying from their path. Blinded by the moonlight of Elune's child, they are guided by a false premonition. If we don't interfere quickly, I am afraid we will lose them forever.
 
 ## Patch changes

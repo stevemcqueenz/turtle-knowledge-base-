@@ -34,8 +34,8 @@ You will learn:
 It is time to indulge in the teachings of An'she, the Right Eye of the Earthmother. Let his light illuminate your way and blind those who wish to harm the Earthmother's favored.
 
 ## Progression
-1.[quest: Light of An'she|race=tauren|class=priest]
-1.[quest: Light of An'she|race=tauren|class=priest]
+1. [quest: Light of An'she|race=tauren|class=priest]
+1. [quest: Light of An'she|race=tauren|class=priest]
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

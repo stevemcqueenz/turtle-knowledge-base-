@@ -13,7 +13,7 @@ categories: ["Addon"]
 QuestHaste is a lightweight addon that streamlines quest turn-ins and acceptance. It is especially useful for repeatable quests, enabling faster gameplay by automating common quest interactions.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **QuestHaste** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **QuestHaste** up to date is by using [GitAddonsManager]
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 

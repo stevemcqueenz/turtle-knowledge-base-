@@ -22,7 +22,7 @@ categories: ["Burning Legion", "Deceased characters", "Nathrezim"]
 | status | Deceased |
 | relatives | Tichondrius (brother) |
 
--Anetheron** was a [nathrezim](nathrezim) best known for his participation during the [Battle of Mount Hyjal](Battle of Mount Hyjal).
+**Anetheron** was a [nathrezim](nathrezim) best known for his participation during the [Battle of Mount Hyjal](Battle of Mount Hyjal).
 
 During the course of the [Third War](Third War), Anetheron waited in the [Twisting Nether](Twisting Nether), acting as an emissary of [Archimonde](Archimonde) to [Tichondrius](Tichondrius). He was later one of the dreadlords assigned to watch over the [Lich King](Lich King) and grew agitated when they began to suspect [Ner'zhul](Ner'zhul) of treachery and possibly becoming a threat to the [Burning Legion](Burning Legion). Nonetheless, Tichondrius was confident that, despite his obvious ulterior motives, the Lich King was still providing the tools they needed to make way for the invasion. In a meeting in the Twisting Nether, Tichondrius assured Anetheron that everything was still well in his control.
 

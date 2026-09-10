@@ -26,7 +26,7 @@ categories: ["Custodians", "Human characters", "Scarlet Crusade", "Tirisfal Glad
 | location | Venomweb Vale, Tirisfal Glade |
 | status | Killable |
 
--Groundskeeper Samual** is an elite [human](human) located outside of the [Scarlet Citadel](Scarlet Citadel) in [Venomweb Vale](Venomweb Vale) in the [Tirisfal Glades](Tirisfal Glades).
+**Groundskeeper Samual** is an elite [human](human) located outside of the [Scarlet Citadel](Scarlet Citadel) in [Venomweb Vale](Venomweb Vale) in the [Tirisfal Glades](Tirisfal Glades).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

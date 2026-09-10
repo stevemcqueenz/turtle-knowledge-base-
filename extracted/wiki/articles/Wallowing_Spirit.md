@@ -22,7 +22,7 @@ categories: ["Crescent Grove mobs", "Turtle WoW content", "Wraiths"]
 | creature | Undead |
 | location | Vilethorn Scar, the Crescent Grove |
 
--Wallowing Spirits** are wraiths located in the [Crescent Grove](Crescent Grove).
+**Wallowing Spirits** are wraiths located in the [Crescent Grove](Crescent Grove).
 
 ## Abilities
 - Psychic Scream

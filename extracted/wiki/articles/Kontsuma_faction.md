@@ -24,7 +24,7 @@ categories: ["Factions", "Neutral factions", "Turtle WoW content"]
 
 *The subject of this article has been removed from Turtle WoW and is considered non-canon.*
 
-  -Kontsuma** is the largest populated settlement on [Kamio](Kamio). The people of [Kontsuma](Kontsuma) look to help from the rest of the world as the [Naga](Naga) encroach upon their civilization.
+**Kontsuma** is the largest populated settlement on [Kamio](Kamio). The people of [Kontsuma](Kontsuma) look to help from the rest of the world as the [Naga](Naga) encroach upon their civilization.
 
 ## Patch changes
 - (Patch 1.17.0|note=Removed.)

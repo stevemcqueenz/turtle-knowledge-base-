@@ -14,22 +14,22 @@ Sets the current world map continent and zone to be the zone the player is curre
  SetMapToCurrentZone()
 ----
 
-  - *Arguments***
+** *Arguments***
 
    *none*
 
 ----
 
-  - *Example***
+** *Example***
 
  SetMapToCurrentZone();
 
-  - *Result***
+** *Result***
    World map zoom changes (if necessary)
 
 ----
 
-  - *Details***
+** *Details***
 
    Important note: This function seems to have a bug after "reloadui". Then it only sets the zoom to the continent the player is on and not to the zone until the zone changes at least once.
 

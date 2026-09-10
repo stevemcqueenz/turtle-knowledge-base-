@@ -25,7 +25,7 @@ categories: ["Lapidis Isle mobs", "Rare elite mobs", "Sea giants", "Turtle WoW c
 | location | Lapidis Isle |
 | relatives | Hargul the Hardy (son) |
 
--Margon the Mighty** is a rare [sea giant](sea giant) located along the western coast of [Lapidis Isle](Lapidis Isle).
+**Margon the Mighty** is a rare [sea giant](sea giant) located along the western coast of [Lapidis Isle](Lapidis Isle).
 
 ## Drops
 - [Fisher's Harpoon](Fisher's Harpoon)

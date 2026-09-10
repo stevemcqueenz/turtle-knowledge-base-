@@ -70,7 +70,7 @@ At some point, Tirion succeeded in gathering knights of the Silver Hand under hi
 Tirion's followers in the Argent Dawn held camps in the [Eversong Wastes](Eversong Wastes), lending aid where they could, though most of their strength was consumed by the unending wars of the Plaguelands. (ref: 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Race does not dictate honor, <race>. While you remain on my farmstead, I ask that you remember and respect this credo.
 
 I have known orcs who have been as honorable the most noble of knights and humans who have been as vile as the most ruthless of Scourge.

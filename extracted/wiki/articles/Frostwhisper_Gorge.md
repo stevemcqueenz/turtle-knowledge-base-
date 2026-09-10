@@ -10,7 +10,7 @@ categories: ["Elite areas", "Elven ruins", "Ice giants", "Pages with broken file
 ---
 # Frostwhisper Gorge
 
--Frostwhisper Gorge** is a canyon in southern [Winterspring](Winterspring), just north of [Darkwhisper Gorge](Darkwhisper Gorge). It is scattered with [night elven](night elven) ruins both at the bottom of the gorge and at the ridges above. A great bridge spans the gorge, connecting [Darkwhisper Gorge](Darkwhisper Gorge) and [Hyjal](Hyjal) to the south with the rest of [Winterspring](Winterspring).
+**Frostwhisper Gorge** is a canyon in southern [Winterspring](Winterspring), just north of [Darkwhisper Gorge](Darkwhisper Gorge). It is scattered with [night elven](night elven) ruins both at the bottom of the gorge and at the ridges above. A great bridge spans the gorge, connecting [Darkwhisper Gorge](Darkwhisper Gorge) and [Hyjal](Hyjal) to the south with the rest of [Winterspring](Winterspring).
 
 Several of the huge [Frostmaul Preserver](Frostmaul Preserver)s and [Frostmaul Giant](Frostmaul Giant)s reside here. They are elite mobs of level 59 and 60, and drop [Frostmaul Shards](Frostmaul Shards) for the quest , which starts with [Witch Doctor Mau'ari](Witch Doctor Mau'ari) in [Everlook](Everlook). The giants also drop [Starbreeze Village Relic](Starbreeze Village Relic) for the [Dungeon Set 2](Dungeon Set 2) quest chain.
 

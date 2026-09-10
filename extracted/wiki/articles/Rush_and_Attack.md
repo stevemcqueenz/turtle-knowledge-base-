@@ -10,7 +10,7 @@ categories: ["Guilds"]
 ---
 # Rush and Attack
 
--Rush'n Attack** - the largest Russian-speaking guild on Turtle WoW.
+**Rush'n Attack** - the largest Russian-speaking guild on Turtle WoW.
 
 ## **Сommunity**
 The guild has its own big discord server, presence in which is mandatory for members of the guild: 
@@ -50,7 +50,7 @@ The guild also holds regular "guest" raids to which everyone can join to get the
 Players who have just reached level 60 can ask for help regarding their class from the guild class leaders, who are called **Curators** in Rush'n Attack, and join 20 ppl fun-raids for gett they're first raid equipment.
 
 ## **History**
-  -June 10, 2020** - collection of signatures for the creation of a guild Rush n Attack has begun.
+**June 10, 2020** - collection of signatures for the creation of a guild Rush n Attack has begun.
 
 The first players of the guild were:
 
@@ -58,54 +58,54 @@ The first players of the guild were:
 - Evgeny
 - Seahorse
 - Jaraindi
--Emigrant (Guild Master)
+- Emigrant (Guild Master)
 
-  -Jun 11, 2020** - First Guild Campaign: https://youtu.be/iZ_ErwHYZhw
+**Jun 11, 2020** - First Guild Campaign: https://youtu.be/iZ_ErwHYZhw
 
-  -August 10, 2020** - the beginning of the conflict with the administration of the project TW, which resulted in the ban of **Emigrant** on Turtle WoW.
+**August 10, 2020** - the beginning of the conflict with the administration of the project TW, which resulted in the ban of **Emigrant** on Turtle WoW.
 
-  -November 8, 2020** - after long ordeals with the crooked management of the old guild, due to the transfer of rights through the GM, **Tor-Tun** (new guild master) agrees with **Torta** on the re-creation of the guild and inspects the place where the new guild house will be located.
+**November 8, 2020** - after long ordeals with the crooked management of the old guild, due to the transfer of rights through the GM, **Tor-Tun** (new guild master) agrees with **Torta** on the re-creation of the guild and inspects the place where the new guild house will be located.
 
-  -January 2022**, the guild began to explore PvE raid content on Turtle WoW: https://youtu.be/SlYsd-6w6IA
+**January 2022**, the guild began to explore PvE raid content on Turtle WoW: https://youtu.be/SlYsd-6w6IA
 
-  -March 21, 2022** - **Medeya** and **Kostet** join the guild, later they will join the governing board of Rush'n Attack and head the Moscow static of the guild.
+**March 21, 2022** - **Medeya** and **Kostet** join the guild, later they will join the governing board of Rush'n Attack and head the Moscow static of the guild.
 
-  -June 14, 2022** - under public pressure and at the request of the Turtle WoW project management, a decision was made to change the guild tag from <Rush n Attack> to <Rush and Attack>.
+**June 14, 2022** - under public pressure and at the request of the Turtle WoW project management, a decision was made to change the guild tag from <Rush n Attack> to <Rush and Attack>.
 
-  -October 12, 2022** - raid leader of the first guild static was expelled from the guild for gross violation of the guild norms. Subsequently, 98% of the members of the first static left the guild, which in general amounted to about 20% of the members of the entire guild. Тhe departed static organized into a separate guild <Hidra Dominatus>.
+**October 12, 2022** - raid leader of the first guild static was expelled from the guild for gross violation of the guild norms. Subsequently, 98% of the members of the first static left the guild, which in general amounted to about 20% of the members of the entire guild. Тhe departed static organized into a separate guild <Hidra Dominatus>.
 
-  -November 08, 2022** - the Moscow static of the guild killed Nefarian:  https://youtu.be/GezrNnJEsNE
+**November 08, 2022** - the Moscow static of the guild killed Nefarian:  https://youtu.be/GezrNnJEsNE
 
-  -January 31, 2023** - the Moscow static of the guild killed C'Thun: https://youtu.be/JUb8hYsKDK8
+**January 31, 2023** - the Moscow static of the guild killed C'Thun: https://youtu.be/JUb8hYsKDK8
 
-  -February 21, 2023** - the Moscow static of the guild closed The Arachnid Quarter of Naxxramas: https://youtu.be/xVIRHbzJZoQ
+**February 21, 2023** - the Moscow static of the guild closed The Arachnid Quarter of Naxxramas: https://youtu.be/xVIRHbzJZoQ
 
-  -March 4, 2023** - The departure of the guild raid leader of the Far Eastern static, due to disagreement with the rules of the guild and their flagrant violation. Тhe departed static organized into a separate guild <Phoenix Soul>, <Spisy Dwarfburgers> then.
+**March 4, 2023** - The departure of the guild raid leader of the Far Eastern static, due to disagreement with the rules of the guild and their flagrant violation. Тhe departed static organized into a separate guild <Phoenix Soul>, <Spisy Dwarfburgers> then.
 
-  -March 7, 2023** -the Moscow static of the guild killed Patchwerk in Naxxramas: https://www.youtube.com/watch?v=drndMyVDMIw
+**March 7, 2023** -the Moscow static of the guild killed Patchwerk in Naxxramas: https://www.youtube.com/watch?v=drndMyVDMIw
 
-  -March 23, 2023** - **Kostet** and **Medeya** handed over control of the Moscow static to **Nios.**
+**March 23, 2023** - **Kostet** and **Medeya** handed over control of the Moscow static to **Nios.**
 
-  -March 24, 2023** - **Laco** announces Sunday Morning Funraid campaigns.
+**March 24, 2023** - **Laco** announces Sunday Morning Funraid campaigns.
 
-  -May 18, 2023** - **Laco** announces the formation of a Sunday static (static 3) with raids from 13:00 to 16:00 Moscow time.
+**May 18, 2023** - **Laco** announces the formation of a Sunday static (static 3) with raids from 13:00 to 16:00 Moscow time.
 
-  -May 30, 2023** - Moscow static of the guild killed Sapphiron in Naxxramas: https://youtube.com/watch?v=HhOfTzR2MFs&feature=share7
+**May 30, 2023** - Moscow static of the guild killed Sapphiron in Naxxramas: https://youtube.com/watch?v=HhOfTzR2MFs&feature=share7
 
-  -June 14, 2023** - Moscow static of the guild killed  Kel'Thuzad in Naxxramas:https://youtu.be/H5JgP8T_yNg
+**June 14, 2023** - Moscow static of the guild killed  Kel'Thuzad in Naxxramas:https://youtu.be/H5JgP8T_yNg
 
-  -July 16, 2023** -  **MC** closed for the first time with **Laco** static
+**July 16, 2023** -  **MC** closed for the first time with **Laco** static
 
-  -August 15, 2023** - Moscow static officers announced the end of the raids
+**August 15, 2023** - Moscow static officers announced the end of the raids
 
-  -October 15, 2023** -  **BWL** closed for the first time with **Laco** static
+**October 15, 2023** -  **BWL** closed for the first time with **Laco** static
 
-  -December 17, 2023** - the **Laco** static of the guild killed C'Thun
+**December 17, 2023** - the **Laco** static of the guild killed C'Thun
 
-  -July 23, 2024** - Closing of the 2023-24 raid game season https://www.youtube.com/watch?v=jeB0XabV2TQ
+**July 23, 2024** - Closing of the 2023-24 raid game season https://www.youtube.com/watch?v=jeB0XabV2TQ
 
-  -August 28, 2024** - **Lako** dissolves static. The departed members of the statics created a separate guild <No Mercy>.
+**August 28, 2024** - **Lako** dissolves static. The departed members of the statics created a separate guild <No Mercy>.
 
-  -January 14, 2025** - The guild has been disbanded, its discord serves as a meeting place for guild veterans
+**January 14, 2025** - The guild has been disbanded, its discord serves as a meeting place for guild veterans
 
-  -October 17, 2025** - A "Rush n Attack" guild was created in Ambershire by Tortun character
+**October 17, 2025** - A "Rush n Attack" guild was created in Ambershire by Tortun character

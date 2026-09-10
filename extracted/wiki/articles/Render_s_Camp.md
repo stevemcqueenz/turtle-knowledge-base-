@@ -10,4 +10,4 @@ categories: ["Camps", "Orc territories", "Redridge Mountains subzones"]
 ---
 # Render's Camp
 
--Render's Camp** is a [Blackrock](Blackrock clan) [orc](orc) outpost in the northwestern [Redridge Mountains](Redridge Mountains), near the entrance to the [Burning Steppes](Burning Steppes).
+**Render's Camp** is a [Blackrock](Blackrock clan) [orc](orc) outpost in the northwestern [Redridge Mountains](Redridge Mountains), near the entrance to the [Burning Steppes](Burning Steppes).

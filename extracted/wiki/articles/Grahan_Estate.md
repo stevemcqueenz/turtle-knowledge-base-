@@ -13,9 +13,5 @@ categories: ["Balor subzones", "Estates", "Turtle WoW content"]
 The **Grahan Estate** is the home of the Grahan family, now abandoned by all but the aimlessly wandering peasants and servants that linger on.
 
 ## NPCs
-- 
-- 
-- 
-
-## Patch changes
+- - - ## Patch changes
 - (Patch 1.18.0|note=Added.)

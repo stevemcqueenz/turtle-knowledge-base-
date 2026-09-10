@@ -26,7 +26,7 @@ categories: ["Argent Dawn", "Brotherhood of the Light", "Human characters", "Sca
 | location | Light's Point, Scarlet Enclave |
 | status | Alive |
 
--Joshua Ambercrest** is a [human](human) located in the guard tower at [Light's Point](Light's Point) in the [Scarlet Enclave](Scarlet Enclave).
+**Joshua Ambercrest** is a [human](human) located in the guard tower at [Light's Point](Light's Point) in the [Scarlet Enclave](Scarlet Enclave).
 
 ## Quotes
 Welcome to Light's Point, make yourself at home, should you not be tainted by either the plague of undeath, or the plague of zealotry.

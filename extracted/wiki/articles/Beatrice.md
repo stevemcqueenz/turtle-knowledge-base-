@@ -24,10 +24,10 @@ categories: ["Human characters", "Northwind NPCs", "Stormwind (kingdom)", "Turtl
 | location | Mildenhall Horse Farm, Northwind |
 | status | Alive |
 
--Beatrice** is a [human](human) girl located at the [Mildenhall Horse Farm](Mildenhall Horse Farm) in [Northwind](Northwind). She's playing hide and seek with [Jeremiah](Jeremiah).
+**Beatrice** is a [human](human) girl located at the [Mildenhall Horse Farm](Mildenhall Horse Farm) in [Northwind](Northwind). She's playing hide and seek with [Jeremiah](Jeremiah).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Jeremy is a big meanie. I can never find his stupid hiding place but he still always wants to play this game. All I want to do is play house...
 
 ## Patch changes

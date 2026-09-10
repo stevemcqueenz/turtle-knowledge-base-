@@ -10,4 +10,4 @@ categories: ["Black dragonflight", "Burning Steppes subzones", "Dragon territori
 ---
 # Draco'dar
 
--Draco'dar** is a region of scorched hills in the southwest [Burning Steppes](Burning Steppes). Draco'dar is crawling with minions of the [black dragonflight](black dragonflight) and adventurers are advised not to enter the area alone.
+**Draco'dar** is a region of scorched hills in the southwest [Burning Steppes](Burning Steppes). Draco'dar is crawling with minions of the [black dragonflight](black dragonflight) and adventurers are advised not to enter the area alone.

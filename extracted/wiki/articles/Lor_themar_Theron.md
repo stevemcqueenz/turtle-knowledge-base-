@@ -47,7 +47,7 @@ Despite ostensibly being a supporter to Vereesa, Lor'themar was the one who had 
 - [quest: Honoring Old Alliances] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 In the ashes of our once-proud kingdom, we find ourselves, hollow and scarred by the betrayals that have stripped us of everything.
 
 Yet, in this desolation, a bitter resolve takes root, for we stand not as defeated remnants but as a united force, forged anew with a singular purpose. The future, once dictated by the whims of the traitorous prince, now lies open before us, a blank canvas upon which we can inscribe our own destiny.

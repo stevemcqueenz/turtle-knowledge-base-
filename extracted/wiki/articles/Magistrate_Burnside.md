@@ -28,7 +28,7 @@ categories: ["Hillsbrad Foothills mobs", "Human character", "Mage characters", "
 | location | Hillsbrad, Hillsbrad Foothills |
 | status | Killable |
 
--Magistrate Rutherford Burnside** (ref: [Hillsbrad Town Registry](Hillsbrad Town Registry)) is a [human](human) found in [Hillsbrad](Hillsbrad Fields) in the [Hillsbrad Foothills](Hillsbrad Foothills). He is the current leader of the [Hillsbrad Fields](Hillsbrad Fields).
+**Magistrate Rutherford Burnside** (ref: [Hillsbrad Town Registry](Hillsbrad Town Registry)) is a [human](human) found in [Hillsbrad](Hillsbrad Fields) in the [Hillsbrad Foothills](Hillsbrad Foothills). He is the current leader of the [Hillsbrad Fields](Hillsbrad Fields).
 
 [High Executor Darthalia](High Executor Darthalia) wants Burnside killed in order to disrupt the leadership of the Hillsbrad community.
 
@@ -38,7 +38,7 @@ categories: ["Hillsbrad Foothills mobs", "Human character", "Mage characters", "
 - **Fire Nova** — Inflicts 147 to 177 Fire damage to nearby enemies, and encases the caster in a shield of flame that lasts 10 sec. and burns melee attackers for an additional 50 damage.
 
 ## Objective of
--  [26] [Battle of Hillsbrad (4)](Battle of Hillsbrad (4))
+- [26] [Battle of Hillsbrad (4)](Battle of Hillsbrad (4))
 
 ## Speculation
 He may be related to the bankers in [Stormwind City](Stormwind City) - [Olivia Burnside](Olivia Burnside), [Newton Burnside](Newton Burnside), [John Burnside](John Burnside).

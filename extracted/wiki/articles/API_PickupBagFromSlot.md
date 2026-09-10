@@ -16,20 +16,20 @@ PickupBagFromSlot(slot);
 
 ----
 
-  - *Arguments***
+** *Arguments***
    (slot) 
   ; slot
    [InventorySlotID](API Type InventorySlotId) - the slot containing the bag.
 
 ----
 
-  - *Returns***
+** *Returns***
 
    Nothing.
 
 ----
 
-  - *Details***
+** *Details***
 
    Valid slot numbers are 20-23, numbered from left to right starting after the backpack.
    inventoryID ,the result of [ContainerIDtoInventoryID(BagID)](API ContainerIDToInventoryID), can help to compute the slot number and bag numbers can be viewed in the [InventorySlotID](API Type InventorySlotId) page.

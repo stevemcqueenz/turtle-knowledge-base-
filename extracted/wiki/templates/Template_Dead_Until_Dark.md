@@ -10,9 +10,9 @@ categories: []
 ---
 # Template:Dead Until Dark
 
-1.[quest: Dead Until Dark]
-1.[quest: All We Need is Blood]
-1.[quest: Last of the Living Dead]
-1.[quest: We Take It From The Living]
-1.[quest: The Evil Made Me Do It]
-1.[quest: Blood for Blood]
+1. [quest: Dead Until Dark]
+1. [quest: All We Need is Blood]
+1. [quest: Last of the Living Dead]
+1. [quest: We Take It From The Living]
+1. [quest: The Evil Made Me Do It]
+1. [quest: Blood for Blood]

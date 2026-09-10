@@ -25,7 +25,7 @@ categories: ["Food and drink vendors", "Gilneas (kingdom)", "Gilneas NPCs", "Hum
 | location | Ravenshire, Gilneas |
 | status | Alive |
 
--Nolan Tanner** is a [human](human) food and drink vendor located in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
+**Nolan Tanner** is a [human](human) food and drink vendor located in [Ravenshire](Ravenshire) in [Gilneas](Gilneas).
 
 ## Patch changes
 - (Patch 1.17.0|note=Added.)

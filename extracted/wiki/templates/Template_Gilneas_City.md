@@ -31,19 +31,19 @@ categories: ["Instance navigation templates"]
 [Genn Greymane](Genn Greymane (tactics))
 
 |
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
 ([lore](Genn Greymane))
 |-

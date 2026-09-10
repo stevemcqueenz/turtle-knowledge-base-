@@ -12,14 +12,14 @@ categories: ["Beasts", "Crabs", "Creatures", "Hunter Pets", "Pages with broken f
 
 A (typically) small crustacean that is often found on beaches.  Crabs have high armor, as the shell would imply.  Crabs are typically neutral and are ignored by passerby.  They drop [Crawler Meat](Crawler Meat), used to make [Crab Cake](Crab Cake)s.  Crabs are found in [Durotar](Durotar), [The Barrens](The Barrens), [Darkshore](Darkshore), [Westfall](Westfall), [Blackfathom Deeps](Blackfathom Deeps), [Ashenvale](Ashenvale), [Desolace](Desolace), [Stranglethorn Vale](Stranglethorn Vale), and the [Swamp of Sorrows](Swamp of Sorrows).
 
--Not skinnable.
+- Not skinnable.
 
 Types of **Crabs**:
--Silithid Protector
--Surf Crawler
--Reef Crawler
--Sand Crawler
--Spider Crab
+- Silithid Protector
+- Surf Crawler
+- Reef Crawler
+- Sand Crawler
+- Spider Crab
 
 ## As A [Hunter](Hunter) Pet
 - Have high armor, medium attack, and low HP.

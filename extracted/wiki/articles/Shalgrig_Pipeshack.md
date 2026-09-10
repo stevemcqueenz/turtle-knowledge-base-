@@ -25,7 +25,7 @@ categories: ["Booty Bay characters", "Goblin characters", "Quest givers", "Stran
 | location | Booty Bay, Stranglethorn Vale |
 | status | Alive |
 
--Shalgrig Pipeshack** is a [goblin](goblin) [quest giver](quest giver) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale).
+**Shalgrig Pipeshack** is a [goblin](goblin) [quest giver](quest giver) located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale).
 
 ## Quests
 - [quest: Dry Hiding] 

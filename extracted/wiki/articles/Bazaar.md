@@ -13,28 +13,8 @@ categories: ["Alah'Thalas subzones", "Markets", "Turtle WoW content"]
 The **Bazaar** is the central subzone and marketplace of [Alah'Thalas](Alah'Thalas). By the central plaza is a set of statues and a plaque in memory of the fallen of [Quel'Thalas](Quel'Thalas).
 
 ## NPCs
-  -Central plaza**
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-  -Lin Swiftblade's grocery shop**
-- 
-- 
-- 
-- 
-
-  -Vanudal Goldweaver's leatherworking shop**
-- 
-- 
-- 
-- 
-
-## Patch changes
+**Central plaza**
+- - - - - - - - - ;Lin Swiftblade's grocery shop
+- - - - ;Vanudal Goldweaver's leatherworking shop
+- - - - ## Patch changes
 - (Patch 1.17.1|note=Added.)

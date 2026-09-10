@@ -25,13 +25,13 @@ categories: ["Human characters", "Quest givers", "Stormwind City NPCs", "Turtle 
 | relatives | Verona (wife),, Adella and Henrietta (children) |
 | status | Alive |
 
--Ronald Gillian** is a [human](human) [quest giver](quest giver) located in [Cathedral Square](Cathedral Square) in [Stormwind City](Stormwind City).
+**Ronald Gillian** is a [human](human) [quest giver](quest giver) located in [Cathedral Square](Cathedral Square) in [Stormwind City](Stormwind City).
 
 ## Quests
 - [quest: My Darling Wife] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The children are quite rambunctious today and we haven't even reached the park yet.
 
 ## Patch changes

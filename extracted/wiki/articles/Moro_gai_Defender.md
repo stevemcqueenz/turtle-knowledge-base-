@@ -23,13 +23,13 @@ categories: ["Draenei characters", "Guards", "Moonwhisper Coast NPCs", "Turtle W
 | location | Moro'gai Village, Moonwhisper Coast |
 | status | Alive |
 
--Moro'gai Defenders** are [draenei](draenei) guards located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Moro'gai Defenders** are [draenei](draenei) guards located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Day in and day out are we besieged by the Fallen Ones. I'd appreciate it if you could adhere to the order inside the village, Parash'ka.
 
-  -Fallen Ones attack Moro'gai Village**
+**Fallen Ones attack Moro'gai Village**
   **Moro'gai Defender yells:** Wretched beast! You will not disturb the peace!
   **Moro'gai Defender yells:** Begone! You do not belong here!
   **Chief Defender Hamaam yells:** The Fallen Ones are back! Defend the village at all costs!

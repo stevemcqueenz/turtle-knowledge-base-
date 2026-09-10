@@ -15,19 +15,7 @@ The **Mildenhall Horse Farm** is a stable located to the southwest of [Ambershir
 Players can purchase their riding skills and both the normal and epic [human](human) [mount](mount)s here.
 
 ## Inhabitants
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-## Notes
+- - - - - - - - - - - ## Notes
 - Although there are [Black Stallion](Black Stallion)s present on the farm, [Nadia Geringt](Nadia Geringt) does not actually have them for sale.
 
 ## Patch changes

@@ -10,7 +10,7 @@ categories: ["Arenas", "Feralas subzones", "Free For All areas", "Ogre territori
 ---
 # Maul (subzone)
 
--The Maul**  is a large pit located outside the three instance wings of [Dire Maul](Dire Maul) in the middle of the [Broken Commons](Broken Commons).
+**The Maul**  is a large pit located outside the three instance wings of [Dire Maul](Dire Maul) in the middle of the [Broken Commons](Broken Commons).
 
 Like [Gurubashi Arena](Gurubashi Arena) in [Stranglethorn Vale](Stranglethorn Vale), entering the Maul flagsplayers for [PvA](Player vs All) and allows them to attack and kill other players in the Maul, regardless of faction. When a party was in the Maul, however, you could not attack members of your party.
 

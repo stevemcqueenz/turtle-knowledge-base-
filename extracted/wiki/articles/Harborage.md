@@ -21,18 +21,11 @@ categories: ["Draenei territories", "Neutral quest hubs", "Swamp of Sorrows subz
 | loc | Swamp of Sorrows |
 | status | Active |
 
--The Harborage** is a small [draenei](draenei) village inhabited by the [Tribe of Sanv](Tribe of Sanv), a group of draenei exiles who managed to stay sane after crossing over to the world of [Azeroth](Azeroth) from [Draenor](Draenor). It is located in the northern part of the [Swamp of Sorrows](Swamp of Sorrows). The draenei here are led by [Sanv K'la](Sanv K'la).
+**The Harborage** is a small [draenei](draenei) village inhabited by the [Tribe of Sanv](Tribe of Sanv), a group of draenei exiles who managed to stay sane after crossing over to the world of [Azeroth](Azeroth) from [Draenor](Draenor). It is located in the northern part of the [Swamp of Sorrows](Swamp of Sorrows). The draenei here are led by [Sanv K'la](Sanv K'la).
 
 ## NPCs
-  -Quest givers**
-- 
-- 
-- 
-
-  -Goods and services**
-- 
-
-  -Other characters**
--  (after [quest: Fate Of The Harborage])
-- 
--
+**Quest givers**
+- - - ;Goods and services
+- ;Other characters
+- (after [quest: Fate Of The Harborage])
+- -

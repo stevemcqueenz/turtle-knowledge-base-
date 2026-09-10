@@ -14,7 +14,7 @@ The following [NPC](NPC)s can be found in [Ashenvale](Ashenvale).
 
 # Questgivers
 - [Caylais Moonfeather](Caylais Moonfeather) - &lt;Hippogryph Master&gt;
-  -  [12] [Easy Strider Living](Quest:Easy Strider Living) (Cooking)
+  - [12] [Easy Strider Living](Quest:Easy Strider Living) (Cooking)
 
 # Class Trainers
 # Profession (Tradeskill) Trainers

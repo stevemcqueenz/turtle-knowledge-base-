@@ -10,6 +10,6 @@ categories: ["Harpy territories", "Mulgore subzones", "Pages with broken file li
 ---
 # Windfury Ridge
 
--Windfury Ridge**51 10 Mulgore (g/s/c) is a dangerous place to travel for those who are not aware of its inhabitants. Furious [harpies](harpies) swoop down to capture or kill those who come too near to their nests, and the hills are also dotted with wild [cougar](cougar)s and [wolves](Wolf).
+**Windfury Ridge**51 10 Mulgore (g/s/c) is a dangerous place to travel for those who are not aware of its inhabitants. Furious [harpies](harpies) swoop down to capture or kill those who come too near to their nests, and the hills are also dotted with wild [cougar](cougar)s and [wolves](Wolf).
 
 The [Windfury harpies](Windfury harpies) are often hunted for their brilliant feathers, which the [tauren](tauren) of [Thunder Bluff](Thunder Bluff) appropriate for decoration in weddings and feasts.

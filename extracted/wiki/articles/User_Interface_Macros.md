@@ -17,7 +17,7 @@ Mouseover a action bar button and use this macro to get the ID
 This will print all the slot and texture names where abilities are placed
  <code>/run for i=1,72 do if GetActionTexture(i) then DEFAULT_CHAT_FRAME:AddMessage("Slot "..i..": "..GetActionTexture(i))end end</code>
 
-  -Here you can see where the actionID slots in your actionbars are:**
+**Here you can see where the actionID slots in your actionbars are:**
 ActionBar page 1: slots 1 to 12
 ActionBar page 2: slots 13 to 24
 ActionBar page 3 (Right ActionBar): slots 25 to 36
@@ -107,25 +107,25 @@ Hide action bar gryphons
  <code>/run MainMenuBarLeftEndCap:Hide(); MainMenuBarRightEndCap:Hide()</code>
 
 ## Inventory
-  -In the inventory, the slots are numbered like this:**
+**In the inventory, the slots are numbered like this:**
 
-  -1_______10**
+**1_______10**
 
-  -2_______6**
+**2_______6**
 
-  -3_______7**
+**3_______7**
 
-  -15______8**
+**15______8**
 
-  -4_______11**
+**4_______11**
 
-  -5_______12**
+**5_______12**
 
-  -19______13**
+**19______13**
 
-  -9_______14**
+**9_______14**
 
-  -16 17 18**
+**16 17 18**
 
 This prints the name and slot of equipped items
  <code>/run for i=0,23 do if GetInventoryItemLink("player",i) then DEFAULT_CHAT_FRAME:AddMessage("Slot "..i..": "..GetInventoryItemLink("player",i)) end end</code>

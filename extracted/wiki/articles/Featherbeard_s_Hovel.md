@@ -10,4 +10,4 @@ categories: ["Hinterlands subzones", "Pages with broken file links", "Wildhammer
 ---
 # Featherbeard's Hovel
 
--Featherbeard's Hovel** is a house next to [Aerie Peak](Aerie Peak) in the [Hinterlands](Hinterlands). It was [Featherbeard](Featherbeard)'s home.
+**Featherbeard's Hovel** is a house next to [Aerie Peak](Aerie Peak) in the [Hinterlands](Hinterlands). It was [Featherbeard](Featherbeard)'s home.

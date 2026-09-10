@@ -21,7 +21,7 @@ categories: ["Elekks", "Moonwhisper Coast mobs", "Turtle WoW content"]
 | creature | Beast |
 | location | Moonwhisper Coast |
 
--Moonwhisper Elekks** are [elekk](elekk)s located in [Moonwhisper Coast](Moonwhisper Coast).
+**Moonwhisper Elekks** are [elekk](elekk)s located in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Objective of
 - Drops [Elekk Tusk](Elekk Tusk) for [quest: The Mighty Elekk].

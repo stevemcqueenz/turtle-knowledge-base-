@@ -10,30 +10,22 @@ categories: ["Dustwallow Marsh subzones", "Goblin territories", "Neutral towns",
 ---
 # Mudsprocket
 
--Mudsprocket**, is a goblin town in the south-west of [Dustwallow Marsh](Dustwallow Marsh). It is a quest hub with a flight master, inn, graveyard, anvil, forge and mailbox. This town's faction is tied with [Gadgetzan](Gadgetzan).
+**Mudsprocket**, is a goblin town in the south-west of [Dustwallow Marsh](Dustwallow Marsh). It is a quest hub with a flight master, inn, graveyard, anvil, forge and mailbox. This town's faction is tied with [Gadgetzan](Gadgetzan).
 
 ## Travel Connections
 ### Flight
-  - [Theramore Isle](Theramore Isle)**
+** [Theramore Isle](Theramore Isle)**
 
-  - [Thalanaar](Thalanaar)**
+** [Thalanaar](Thalanaar)**
 
-  - [Brackenwall Village](Brackenwall Village)**
+** [Brackenwall Village](Brackenwall Village)**
 
-  - [Freewind Post](Freewind Post)**
+** [Freewind Post](Freewind Post)**
 
 ## Mudsprocket NPCs
 ### Merchants
--
--
--
--
-
-### Quest NPCs
--
--
--
-# == Gallery =
+- - - - ### Quest NPCs
+- - - # == Gallery =
 <gallery>
 Image:Mudsprocket1.jpg|The flight master stands outside the town
 Image:Mudsprocket3.jpg

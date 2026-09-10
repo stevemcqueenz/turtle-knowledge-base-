@@ -25,7 +25,7 @@ categories: ["Neutral quests", "Quests at 39", "Stubs", "Swamp of Sorrows quests
 
 ## Objectives
 Head to the Misty Valley and find the Sanv Charm.
--[Sanv Charm](Sanv Charm)
+- [Sanv Charm](Sanv Charm)
 
 ## Description
 The world we come from is a hellish place. One filled with danger, with demons, and hostile to life in all ways imaginable. Food was scarce, and water even scarcer. I led my people to the safety of this world through our magic by way of the Rift. In the ancient days, my people created a charm that attuned them to the old world, and it held great magic. This allowed for Riftwalking, the ability to travel great distances.

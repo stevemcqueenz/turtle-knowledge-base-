@@ -25,7 +25,7 @@ categories: ["Bosses", "Dragonmaw Retreat mobs", "Red dragons", "Turtle WoW cont
 | status | Killable |
 | instance | Dragonmaw Retreat |
 
--Searistrasz** is a [red dragon](red dragon) and is the ninth boss of [Dragonmaw Retreat](Dragonmaw Retreat).
+**Searistrasz** is a [red dragon](red dragon) and is the ninth boss of [Dragonmaw Retreat](Dragonmaw Retreat).
 
 ## Abilities
 - Enchanting Flames
@@ -34,16 +34,16 @@ categories: ["Bosses", "Dragonmaw Retreat mobs", "Red dragons", "Turtle WoW cont
 - Wing Flap
 
 ## Quotes
-  -Enchanting Flames removed**
+**Enchanting Flames removed**
   The enchanted flame has left! Who dares mess with my power?!
 
-  -Aggro**
+**Aggro**
   This sanctum is mine.. Begone from this place.
 
-  -At 50%**
+**At 50%**
   Bathe in fire, and fury.
 
-  -Death**
+**Death**
   I am... Free, once again.
 
 ## Loot

@@ -10,7 +10,7 @@ categories: ["Booty Bay shops"]
 ---
 # The Happy Bobber
 
--The Happy Bobber** is a [fishing](fishing) shop located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). It's run by [Old Man Heming](Old Man Heming).
+**The Happy Bobber** is a [fishing](fishing) shop located in [Booty Bay](Booty Bay) in the [Stranglethorn Vale](Stranglethorn Vale). It's run by [Old Man Heming](Old Man Heming).
 
 ## Gallery
 <gallery>

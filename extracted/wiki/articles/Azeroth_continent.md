@@ -28,16 +28,16 @@ The **continent of Azeroth** (ref: *Warcraft II: Tides of Darkness* manual, *[Pl
 
 ## Geography
 ### Zones
--  [Balor](Balor)
+- [Balor](Balor)
 - [Blasted Lands](Blasted Lands)
 - [Blackrock Mountain](Blackrock Mountain)
 - [Burning Steppes](Burning Steppes)
 - [Deadwind Pass](Deadwind Pass)
 - [Duskwood](Duskwood)
 - [Elwynn Forest](Elwynn Forest)
--  [Gillijim's Isle](Gillijim's Isle)
--  [Lapidis Isle](Lapidis Isle)
--  [Northwind](Northwind)
+- [Gillijim's Isle](Gillijim's Isle)
+- [Lapidis Isle](Lapidis Isle)
+- [Northwind](Northwind)
 - [Redridge Mountains](Redridge Mountains)
 - [Stranglethorn Vale](Stranglethorn Vale)
 - [Swamp of Sorrows](Swamp of Sorrows)

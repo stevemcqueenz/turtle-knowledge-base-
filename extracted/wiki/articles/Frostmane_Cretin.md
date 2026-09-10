@@ -23,7 +23,7 @@ categories: ["Frostmane Hollow mobs", "Ice troll characters", "Turtle WoW conten
 | creature | Humanoid |
 | location | Frostmane Hollow |
 
--Frostmane Cretins** are [ice troll](ice troll)s of the [Frostmane clan](Frostmane clan) located in [Frostmane Hollow](Frostmane Hollow).
+**Frostmane Cretins** are [ice troll](ice troll)s of the [Frostmane clan](Frostmane clan) located in [Frostmane Hollow](Frostmane Hollow).
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

@@ -10,10 +10,10 @@ categories: ["Addon"]
 ---
 # DPSMate
 
--DPSMate** is an advanced combat analysis tool designed to provide detailed statistics and visualizations of your encounters.
+**DPSMate** is an advanced combat analysis tool designed to provide detailed statistics and visualizations of your encounters.
 
 ## **Installation**
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **DPSMate** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **DPSMate** up to date is by using [GitAddonsManager](Gi
 # Select the Branch: Ensure that the master branch is selected.
 # Update: Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -29,7 +29,7 @@ If you prefer manual installation, follow these steps:
 # Click the **<> Code** dropdown and download the repository as a <code>.zip</code>.
 # Extract the .zip file, move DPSMate and the module folders you want to your <code>Interface/AddOns</code> directory and restart the game.
 
-  -Note**: 
+**Note**: 
 
 - No one needs all the modules installed. For dps you only need DPSMate itself, and the healer modules for healers. Loading all the modules is excessive.
 - If you have issues with DPSMate try to remove DPSMate.lua and DPSMate.lua.bak in WTF/Account/YOUR ACC NAME/Nordanaar/YOUR CHAR NAME/SavedVariables/
@@ -90,13 +90,13 @@ Keybindings menu (Escape > Keybindings).
 |}
 
 ## Features
-  -Multiple & Customizable Frames**
+**Multiple & Customizable Frames**
 
 - Show multiple data modes simultaneously.
 - Resizable and positionable to fit your interface.
 - Fully customizable via the configuration menu.
 
-  -Extensive Data Modes (~40 modes)**
+**Extensive Data Modes (~40 modes)**
 
 - Effective Healing & Absorbs
 - Death Recalls (your or others)
@@ -106,7 +106,7 @@ Keybindings menu (Escape > Keybindings).
 - Compare Mode
 - And many more...
 
-  -Additional Utilities**
+**Additional Utilities**
 
 - Segment-based stats (Total, Current Fight, Past segments)
 - Data synchronization for accuracy

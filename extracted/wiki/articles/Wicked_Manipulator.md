@@ -22,7 +22,7 @@ categories: ["Crescent Grove mobs", "Succubi", "Turtle WoW content"]
 | creature | Demon |
 | location | Vilethorn Scar, the Crescent Grove |
 
--Wicked Manipulators** are succubi located in the [Vilethorn Scar](Vilethorn Scar) in the [Crescent Grove](Crescent Grove).
+**Wicked Manipulators** are succubi located in the [Vilethorn Scar](Vilethorn Scar) in the [Crescent Grove](Crescent Grove).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

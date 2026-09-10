@@ -29,19 +29,19 @@ categories: ["Instance navigation templates"]
 [Chieftain Shalk Blackwind](Chieftain Shalk Blackwind)
 
 |
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 |-
 | class="title" colspan="2"| [Loot](Windhorn Canyon loot)
 |}

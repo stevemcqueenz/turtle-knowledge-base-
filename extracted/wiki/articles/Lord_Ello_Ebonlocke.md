@@ -26,7 +26,7 @@ categories: ["Aristocrats", "Duskwood NPCs", "Human characters", "Politicians", 
 | status | Alive |
 | relatives | Althea Ebonlocke |
 
--Lord Ello Ebonlocke** is a [human](human) quest giver located in the [Darkshire Town Hall](Darkshire Town Hall) in [Duskwood](Duskwood). He is the mayor of [Darkshire](Darkshire), leading the [Council of Darkshire](Council of Darkshire). He is also a relative of [Commander Althea Ebonlocke](Commander Althea Ebonlocke), the leader of the [Night Watch](Night Watch).
+**Lord Ello Ebonlocke** is a [human](human) quest giver located in the [Darkshire Town Hall](Darkshire Town Hall) in [Duskwood](Duskwood). He is the mayor of [Darkshire](Darkshire), leading the [Council of Darkshire](Council of Darkshire). He is also a relative of [Commander Althea Ebonlocke](Commander Althea Ebonlocke), the leader of the [Night Watch](Night Watch).
 
 When [Magistrate Solomon](Magistrate Solomon) required the help of the [Night Watch](Night Watch) to save [Lakeshire](Lakeshire) from the [Blackrock](Blackrock clan) [orc](orc)s, (ref: [quest: Messenger to Darkshire]) Ebonlocke had to refuse because the town would have been overrun by evil before the guards could even reach the edge of the forest. (ref: [quest: Messenger to Darkshire])
 
@@ -39,9 +39,9 @@ When [Magistrate Solomon](Magistrate Solomon) required the help of the [Night Wa
 - [quest: Bride of the Embalmer] 
 
 ## Quotes
-  -Dialogue**
--Undead are crawling all over the land. Where is the [Stormwind Army](Stormwind Army)?
--The Night Watch alone cannot protect us forever. We need the backing of the Stormwind Army.
--We must not give into the evil which has darkened our land. The Night Watch must prevail!
+**Dialogue**
+- Undead are crawling all over the land. Where is the [Stormwind Army](Stormwind Army)?
+- The Night Watch alone cannot protect us forever. We need the backing of the Stormwind Army.
+- We must not give into the evil which has darkened our land. The Night Watch must prevail!
 
 ## References

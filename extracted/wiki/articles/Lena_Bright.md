@@ -20,7 +20,7 @@ categories: ["Deceased characters", "Human characters"]
 | status | Deceased |
 | relatives | General Bright (husband),, Estelle & Joshua (children) |
 
--Lena Bright** was a human who was buried at the cemetary at [Ambershire Church](Ambershire Church) in [Northwind](Northwind). She was the wife of [General Bright](General Bright).
+**Lena Bright** was a human who was buried at the cemetary at [Ambershire Church](Ambershire Church) in [Northwind](Northwind). She was the wife of [General Bright](General Bright).
 
 ## Notes
 - Lena Bright, along with her husband and children, is a reference to the character of the same name in *Trails in the Sky*.

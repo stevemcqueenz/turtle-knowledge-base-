@@ -10,4 +10,4 @@ categories: ["Eastern Plaguelands subzones", "Human territories", "Pages with br
 ---
 # Tyr's Hand Abbey
 
--Tyr's Hand Abbey** is the smaller of the two religious facilities at [Tyr's Hand](Tyr's Hand), the larger being [the Scarlet Basilica](the Scarlet Basilica). The abbey is well tended for, and has different function for the religious [Scarlet Crusade](Scarlet Crusade) than the basilica does. It is built very much like [Northshire Abbey](Northshire Abbey).
+**Tyr's Hand Abbey** is the smaller of the two religious facilities at [Tyr's Hand](Tyr's Hand), the larger being [the Scarlet Basilica](the Scarlet Basilica). The abbey is well tended for, and has different function for the religious [Scarlet Crusade](Scarlet Crusade) than the basilica does. It is built very much like [Northshire Abbey](Northshire Abbey).

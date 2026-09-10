@@ -10,10 +10,10 @@ categories: ["Addon"]
 ---
 # LootBlare
 
--LootBlare** displays a clear, sorted list of item rolls in a moveable frame whenever a single uncommon or higher item is linked in Raid Warning. It helps raid leaders and players see roll results at a glance.
+**LootBlare** displays a clear, sorted list of item rolls in a moveable frame whenever a single uncommon or higher item is linked in Raid Warning. It helps raid leaders and players see roll results at a glance.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **LootBlare** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **LootBlare** up to date is by using [GitAddonsManager](
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -35,20 +35,20 @@ If you prefer manual installation, follow these steps:
 - [**(MarcelineVQ)**](https://github.com/MarcelineVQ/LootBlare)
 
 ## How to Use
-  -Starting a Roll**
+**Starting a Roll**
 
 - To initiate a loot roll, the **Master Looter (ML)** sends a **Raid Warning** with the linked item. This prompts the addon to display the roll frame.
 - Only the **ML** can start the roll; other players' rolls are ignored.
 
-  -Roll Sorting**
+**Roll Sorting**
 
 - Rolls are automatically categorized and sorted by type to streamline loot distribution. Only the first roll submitted by each player is considered; subsequent rolls are ignored.
 
-  -Moving the Frame**
+**Moving the Frame**
 
 - The loot frame appears at the center of your screen and can be moved by dragging.
 
-  -Easy Roll Buttons**
+**Easy Roll Buttons**
 
 - The addon provides quick buttons for common roll types:
 

@@ -25,7 +25,7 @@ categories: ["Jungle troll characters", "Lapidis Isle mobs", "Turtle WoW content
 | status | Killable |
 | location | Zul'Hazu, Lapidis Isle |
 
--Chieftain Woh'zo** is a [jungle troll](jungle troll) located at [Zul'Hazu](Zul'Hazu) in [Lapidis Isle](Lapidis Isle) and one of the leaders of the [Hazzuri tribe](Hazzuri tribe). [Insom'ni](Insom'ni) wants him dead.
+**Chieftain Woh'zo** is a [jungle troll](jungle troll) located at [Zul'Hazu](Zul'Hazu) in [Lapidis Isle](Lapidis Isle) and one of the leaders of the [Hazzuri tribe](Hazzuri tribe). [Insom'ni](Insom'ni) wants him dead.
 
 ## Objective of
 - [quest: The Hermit's Wrath]

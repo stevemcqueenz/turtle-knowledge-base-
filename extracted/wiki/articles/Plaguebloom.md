@@ -10,7 +10,7 @@ categories: ["Alchemy crafting reagent items", "Herbalism gathered items", "Herb
 ---
 # Plaguebloom
 
--Plaguebloom** was an [herb](herb) that could be gathered with [Herbalism](Herbalism) (285).
+**Plaguebloom** was an [herb](herb) that could be gathered with [Herbalism](Herbalism) (285).
 
 ## Source
 Plaguebloom was found in the [Eastern Plaguelands](Eastern Plaguelands), [Felwood](Felwood), and the [Western Plaguelands](Western Plaguelands).

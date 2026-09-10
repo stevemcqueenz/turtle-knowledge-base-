@@ -46,39 +46,24 @@ The Graveyard, the left-most entrance, is the easiest and smallest. The mobs are
 |- valign=top
 |
 - **Chamber of Atonement**
-  - 
-
-|
--  
--  
-- 
-|- valign=top class="alt"
+  - |
+- - - |- valign=top class="alt"
 |
 - **Scarlet Prison**
-  - 
-
-|
-- 
--  
--  
-- 
-|- valign=top
+  - |
+- - - - |- valign=top
 |
 - **Forlorn Cloister**
-  -  (Rare)
-  -  (Rare)
-  -  (Rare)
+  - (Rare)
+  - (Rare)
+  - (Rare)
 
 |
-- 
-- 
-  - 
-- 
+- - - * 
 |- valign=top class="alt"
 |
 - **Honor's Tomb**
-  - 
-|- valign=top
+  - |- valign=top
 |}
 
 ## Quest guide
@@ -100,4 +85,4 @@ The Graveyard, the left-most entrance, is the easiest and smallest. The mobs are
 
 ## Patch changes
 - (Patch 1.17.2|note=New area and boss added: Duke Dreadmoore, a harbinger of the Dread Citadel enslaved in the prison complex below the torture chambers and experimented on, waiting for the right moment to break free.)
--  **Patch 1.3.0 (2005-03-07):** Capped at ten players.
+- **Patch 1.3.0 (2005-03-07):** Capped at ten players.

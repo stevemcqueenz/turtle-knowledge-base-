@@ -24,7 +24,7 @@ categories: ["Deceased characters", "Dwarf characters", "Explorers' League", "Fr
 | location | Frostmane Hollow |
 | status | Deceased |
 
--Archaeologist Odum Evenpike** is a [dwarf](dwarf) [quest giver](quest giver) located in [Frostmane Hollow](Frostmane Hollow), deep at the bottom of the chasm that leads to [Hailar the Frigid](Hailar the Frigid). He was killed by the [ice troll](ice troll)s of the [Frostmane clan](Frostmane clan) while searching for an old relic he presumed to be of Titan origin. (ref: [quest: The Shattered Disc])
+**Archaeologist Odum Evenpike** is a [dwarf](dwarf) [quest giver](quest giver) located in [Frostmane Hollow](Frostmane Hollow), deep at the bottom of the chasm that leads to [Hailar the Frigid](Hailar the Frigid). He was killed by the [ice troll](ice troll)s of the [Frostmane clan](Frostmane clan) while searching for an old relic he presumed to be of Titan origin. (ref: [quest: The Shattered Disc])
 
 ## Quests
 - [quest: Searching for Archaeologist Evenpike] 

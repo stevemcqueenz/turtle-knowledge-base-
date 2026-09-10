@@ -25,25 +25,25 @@ categories: ["Bosses", "Ogre mages", "Stormwind Vault mobs", "Turtle WoW content
 | status | Killable |
 | instance | Stormwind Vault |
 
--Tham'Grarr** is a boss in the [Stormwind Vault](Stormwind Vault).
+**Tham'Grarr** is a boss in the [Stormwind Vault](Stormwind Vault).
 
 ## Abilities
 - Ice Block
 
 ## Quotes
-  -Aggro**
+**Aggro**
   **Tham says:** Finally, something to amuse me.
   **Grarr yells:** Kill them, kill them all!
 
-  -During combat**
+**During combat**
   **Tham says:** Death comes from above.
   **Grarr yells:** Grarr sees puny people dance! Dance more for Grarr!
   **Tham says:** You're making me angry!
 
-  -Ice block**
+**Ice block**
   **Grarr says:** Grarr starting to feel cold...
 
-  -At 50%**
+**At 50%**
   **Tham says:** I will not fail!
   **Grarr yells:** Back, stay back!
 

@@ -26,10 +26,10 @@ categories: ["Human characters", "Innkeepers", "Northwind NPCs", "Stormwind (kin
 | status | Alive |
 | relatives | Marisa Arello |
 
--Thomas Arello** is a [human](human) innkeeper located at the [Honey Drop Inn](Honey Drop Inn) in [Ambershire](Ambershire) in [Northwind](Northwind).
+**Thomas Arello** is a [human](human) innkeeper located at the [Honey Drop Inn](Honey Drop Inn) in [Ambershire](Ambershire) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Welcome to the Honey Drop Inn! Grab a seat and enjoy Northwind's finest cuisine!
 
 ## Patch changes

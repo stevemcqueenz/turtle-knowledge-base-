@@ -13,11 +13,11 @@ categories: ["API Types"]
 The Auction interface is divided between three types of activity, and many of the auction functions operate on more than one of these types, and use this identifier to specify which. The following values are available:
 
 ## Values
-  - <code>"list"</code>**
+** <code>"list"</code>**
    The main browsable/searchable list of items.
 
-  - <code>"bidder"</code>**
+** <code>"bidder"</code>**
    The auctions for which the player is a bidder.
 
-  - <code>"owner"</code>**
+** <code>"owner"</code>**
    The auctions placed by the player.

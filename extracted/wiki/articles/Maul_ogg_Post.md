@@ -10,7 +10,7 @@ categories: ["Gillijim's Isle subzones", "Ogre territories", "Turtle WoW content
 ---
 # Maul'ogg Post
 
--Maul'ogg Post** is an ogre outpost located on [Gillijim's Isle](Gillijim's Isle). Although it was mostly abandoned to the basilisks when the Maul'ogg retreated to the [Maul'ogg Refuge](Maul'ogg Refuge), the ogre magi [Embergut](Embergut) was adamant about staying.
+**Maul'ogg Post** is an ogre outpost located on [Gillijim's Isle](Gillijim's Isle). Although it was mostly abandoned to the basilisks when the Maul'ogg retreated to the [Maul'ogg Refuge](Maul'ogg Refuge), the ogre magi [Embergut](Embergut) was adamant about staying.
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

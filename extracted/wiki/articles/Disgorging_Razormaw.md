@@ -23,7 +23,7 @@ categories: ["Crocolisks", "Stormwrought Ruins mobs", "Turtle WoW content"]
 | location | Stormwrought Ruins |
 | status | Killable |
 
--Disgorging Razormaws** are crocolisks located in [Stormwrought Ruins](Stormwrought Ruins).
+**Disgorging Razormaws** are crocolisks located in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Abilities
 - Bile Breath

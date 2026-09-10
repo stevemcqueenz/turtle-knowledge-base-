@@ -25,10 +25,10 @@ categories: ["Blacksmithing vendors", "Human characters", "Northwind NPCs", "Tur
 | location | Stillheart Port, Northwind |
 | status | Alive |
 
--Frederik Hewg** is a [human](human) blacksmithing vendor located at [Stillheart Port](Stillheart Port) in [Northwind](Northwind).
+**Frederik Hewg** is a [human](human) blacksmithing vendor located at [Stillheart Port](Stillheart Port) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 This heat is killing me! What I would give for an ice cold mug of Amberale.
 
 ## Patch changes

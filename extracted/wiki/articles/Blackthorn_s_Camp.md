@@ -24,23 +24,13 @@ categories: ["Camps", "Gilneas subzones", "Horde quest hubs", "Human territories
 | mailbox | Yes |
 | status | Active |
 
--Blackthorn's Camp** is a [Horde](Horde)-aligned outpost located on the shores of western [Gilneas](Gilneas). Led by the banshee-possessed bandit lord [Blackthorn](Blackthorn), the bandit gang was sent to Gilneas to survey the situation, acquire assets for the Horde, and evaluate whether the area is suitable for exploitation by the Forsaken. (ref: [quest: To Gilneas])
+**Blackthorn's Camp** is a [Horde](Horde)-aligned outpost located on the shores of western [Gilneas](Gilneas). Led by the banshee-possessed bandit lord [Blackthorn](Blackthorn), the bandit gang was sent to Gilneas to survey the situation, acquire assets for the Horde, and evaluate whether the area is suitable for exploitation by the Forsaken. (ref: [quest: To Gilneas])
 
 ## Inhabitants
 ### Quest givers
-- 
-- 
-- 
-
-### Goods and services
-- 
-- 
-- 
-
-### Additional characters
-- 
-
-## Trivia
+- - - ### Goods and services
+- - - ### Additional characters
+- ## Trivia
 - The main building in the camp is the [Mercenary Camp](https://wowpedia.fandom.com/wiki/Mercenary_Camp) from *Warcraft III*, from which bandit creeps could be hired.
 
 ## Patch changes

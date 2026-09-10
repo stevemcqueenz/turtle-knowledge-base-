@@ -25,7 +25,7 @@ categories: ["Alchemy vendors", "Human characters", "Northwind NPCs", "Stormwind
 | location | Amberwood Keep, Northwind |
 | status | Alive |
 
--Fidel Prescott** is a [human](human) alchemy vendor located in [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind).
+**Fidel Prescott** is a [human](human) alchemy vendor located in [Amberwood Keep](Amberwood Keep) in [Northwind](Northwind).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

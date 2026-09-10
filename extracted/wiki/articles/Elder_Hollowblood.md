@@ -26,7 +26,7 @@ categories: ["Bosses", "Dragonmaw Retreat mobs", "Dragonmaw clan", "Orc characte
 | status | Killable |
 | instance | Dragonmaw Retreat |
 
--Elder Hollowblood** is an [orc](orc) and is the eighth boss of [Dragonmaw Retreat](Dragonmaw Retreat).
+**Elder Hollowblood** is an [orc](orc) and is the eighth boss of [Dragonmaw Retreat](Dragonmaw Retreat).
 
 ## Abilities
 - Lightning Bolt
@@ -36,13 +36,13 @@ categories: ["Bosses", "Dragonmaw Retreat mobs", "Dragonmaw clan", "Orc characte
 - Chain Lightning
 
 ## Quotes
-  -Aggro**
+**Aggro**
   The destiny of our clan is set in stone, you can not change fate.
 
-  -At 50%**
+**At 50%**
   Behold, the power of the elements!
 
-  -Death**
+**Death**
   My legacy...
 
 ## Loot

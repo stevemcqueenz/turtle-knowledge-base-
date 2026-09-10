@@ -24,7 +24,7 @@ categories: ["Booty Bay characters", "Goblin characters", "Quest givers", "Stran
 | location | Salty Sailor Tavern, Stranglethorn Vale |
 | status | Alive |
 
--Crank Fizzlebub** is a [goblin](goblin) [quest giver](quest giver) located in the [Salty Sailor Tavern](Salty Sailor Tavern) in [Booty Bay](Booty Bay), in the [Stranglethorn Vale](Stranglethorn Vale). Like many goblins, he can be quite shady in his operations. He has adventurers obtain [Singing Blue Crystal](Singing Blue Crystal)s from members of the [Venture Company](Venture Company) for his own gain and assists [Kravel Koalbeard](Kravel Koalbeard) in fixing the rocket car races at the [Mirage Raceway](Mirage Raceway) by using the mind-bending [Zanzil's Mixture](Zanzil's Mixture) on the crew pit teams.
+**Crank Fizzlebub** is a [goblin](goblin) [quest giver](quest giver) located in the [Salty Sailor Tavern](Salty Sailor Tavern) in [Booty Bay](Booty Bay), in the [Stranglethorn Vale](Stranglethorn Vale). Like many goblins, he can be quite shady in his operations. He has adventurers obtain [Singing Blue Crystal](Singing Blue Crystal)s from members of the [Venture Company](Venture Company) for his own gain and assists [Kravel Koalbeard](Kravel Koalbeard) in fixing the rocket car races at the [Mirage Raceway](Mirage Raceway) by using the mind-bending [Zanzil's Mixture](Zanzil's Mixture) on the crew pit teams.
 
 ## Quests
 - [quest: Singing Blue Shards] 
@@ -39,7 +39,7 @@ categories: ["Booty Bay characters", "Goblin characters", "Quest givers", "Stran
 - [quest: Zanzil's Mixture and a Fool's Stout] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 What what?!? We all have profit to make... and we won't do it by standing idle.
 
 ## External links

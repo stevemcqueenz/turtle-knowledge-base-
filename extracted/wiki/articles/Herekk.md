@@ -26,7 +26,7 @@ categories: ["Blackrock clan", "Burning Steppes NPCs", "Orc characters", "Stable
 | location | Karfang Hold, Burning Steppes |
 | status | Alive |
 
--Herekk** is an [orc](orc) [stable master](stable master) located in [Karfang Hold](Karfang Hold) in the [Burning Steppes](Burning Steppes).
+**Herekk** is an [orc](orc) [stable master](stable master) located in [Karfang Hold](Karfang Hold) in the [Burning Steppes](Burning Steppes).
 
 ## Patch changes
 - (Patch 1.16.1|note=Added.)

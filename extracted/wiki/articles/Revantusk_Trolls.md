@@ -46,5 +46,5 @@ Today the Revantusk tribe continues to live in a village along the southeast coa
 
 ## Patch changes
 - (Patch 1.15.0|note=Added.)
--  **[Patch 1.11.0](Patch 1.11.0) (2006-01-03):** Removed.
--  **[Patch 1.5.0](Patch 1.5.0) (2005-06-07):** Added.
+- **[Patch 1.11.0](Patch 1.11.0) (2006-01-03):** Removed.
+- **[Patch 1.5.0](Patch 1.5.0) (2005-06-07):** Added.

@@ -10,4 +10,4 @@ categories: ["Desolace subzones", "Islands", "Naga territories", "Pages with bro
 ---
 # Ranazjar Isle
 
--Ranazjar Isle** is a small, rocky island off the northwest coast of [Desolace](Desolace)[28, 8]. It is inhabited by the serpentine [naga](naga). On the isle are many [night elven](night elven) ruins that seem to be part of the same ancient city as those of [Ethel Rethor](Ethel Rethor). One notable feature on the island is a statue of what may be [Queen Azshara](Queen Azshara).
+**Ranazjar Isle** is a small, rocky island off the northwest coast of [Desolace](Desolace)[28, 8]. It is inhabited by the serpentine [naga](naga). On the isle are many [night elven](night elven) ruins that seem to be part of the same ancient city as those of [Ethel Rethor](Ethel Rethor). One notable feature on the island is a statue of what may be [Queen Azshara](Queen Azshara).

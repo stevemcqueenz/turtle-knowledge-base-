@@ -24,7 +24,7 @@ categories: ["Bosses", "Nathrezim", "Tower of Karazhan mobs", "Turtle WoW conten
 | status | Killable |
 | instance | Tower of Karazhan |
 
--Mephistroth** is the ruler of the Rock of Desolation and one of the most powerful of the [nathrezim](nathrezim), second only to [Tichondrius](Tichondrius). (ref: [quest: Sovereign of Desolation]) Mephistroth remained in the [Twisting Nether](Twisting Nether) during the [Third War](Third War), (ref: [The Dreadlords Convene (WC3 Undead)](https://wowpedia.fandom.com/wiki/The_Dreadlords_Convene_(WC3_Undead))) but in the aftermath of the Legion's defeat at [Mount Hyjal](Mount Hyjal) began scheming to use the abandoned tower of [Karazhan](Karazhan) and its leyline to open a link to Azeroth and begin a new invasion.
+**Mephistroth** is the ruler of the Rock of Desolation and one of the most powerful of the [nathrezim](nathrezim), second only to [Tichondrius](Tichondrius). (ref: [quest: Sovereign of Desolation]) Mephistroth remained in the [Twisting Nether](Twisting Nether) during the [Third War](Third War), (ref: [The Dreadlords Convene (WC3 Undead)](https://wowpedia.fandom.com/wiki/The_Dreadlords_Convene_(WC3_Undead))) but in the aftermath of the Legion's defeat at [Mount Hyjal](Mount Hyjal) began scheming to use the abandoned tower of [Karazhan](Karazhan) and its leyline to open a link to Azeroth and begin a new invasion.
 
 He serves as the ninth and final boss of [Tower of Karazhan](Tower of Karazhan).
 
@@ -32,13 +32,13 @@ He serves as the ninth and final boss of [Tower of Karazhan](Tower of Karazhan).
 - Drops [Soul of the Dreadlord](Soul of the Dreadlord) for [quest: Scythe of the Goddess].
 
 ## Quotes
-  -Aggro**
+**Aggro**
   I foresaw your arrival, did you not think I watched your adventures within the tower of Karazhan? The link between our worlds shall slowly open, and with it the Burning Legion shall consume all!
 
-  -Hellfire Shards**
+**Hellfire Shards**
   My plan has long been in the making, your pathetic power has no place here!
 
-  -Death**
+**Death**
   This can not be! My purpose is brought to ruin... Our power is unmatched, do not savor your victory, for we shall come... Again...
 
 ## Loot

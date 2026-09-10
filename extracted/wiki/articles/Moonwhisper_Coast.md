@@ -22,7 +22,7 @@ categories: ["Kalimdor", "Moonwhisper Coast", "Turtle WoW content"]
 | affiliation | Moonhoof tribe, Moro'gai tribe, Tideblade, Fallen Ones |
 | loc | Northeastern Northern Kalimdor |
 
--Moonwhisper Coast** is a region located to the north of [Azshara](Azshara). Clad in moonlit splendor, this stretch of [Kaldorei](Kaldorei) land is as mysterious as it is bewitched. Spirits of forlorn Highborne haunt the abandoned elven ruins and alien magic permeates the blue forests of this humid shore. An unbound land only a few would willingly call their home, yet it became such a haven for the wandering [Tauren](Tauren) Tribe of the [Moonhoof](Moonhoof tribe), now holding watch over the azure expanses of the chaotic Moonwhisper Coast.
+**Moonwhisper Coast** is a region located to the north of [Azshara](Azshara). Clad in moonlit splendor, this stretch of [Kaldorei](Kaldorei) land is as mysterious as it is bewitched. Spirits of forlorn Highborne haunt the abandoned elven ruins and alien magic permeates the blue forests of this humid shore. An unbound land only a few would willingly call their home, yet it became such a haven for the wandering [Tauren](Tauren) Tribe of the [Moonhoof](Moonhoof tribe), now holding watch over the azure expanses of the chaotic Moonwhisper Coast.
 
 ## Geography
 ### Maps and subregions
@@ -31,7 +31,7 @@ categories: ["Kalimdor", "Moonwhisper Coast", "Turtle WoW content"]
 ||[Ancestral Grounds](Ancestral Grounds) • [An'she's Respite](An'she's Respite) • [Blackroot Hold](Blackroot Hold) ([Maw of Ursol](Maw of Ursol)) • [Blackroot Village](Blackroot Village) • [Foulheart Sanctum](Foulheart Sanctum) • [Grove of the Moon](Grove of the Moon) • [Lunarclaw Den](Lunarclaw Den) • [Maras'ethil](Maras'ethil) • [Moonhoof Retreat](Moonhoof Retreat) • [Moonhoof Village](Moonhoof Village) • [Moonsilk Hollow](Moonsilk Hollow) • [Narvalis Point](Narvalis Point) • [Riverhorn Village](Riverhorn Village) • [Ruins of Nendis](Ruins of Nendis) • [Servitor's Sanctuary](Servitor's Sanctuary) • [Shimmerstar Lake](Shimmerstar Lake) ([Moro'gai Village](Moro'gai Village)) • [Shrine of Blazes](Shrine of Blazes) • [Shrine of Crags](Shrine of Crags) • [Shrine of Cyclones](Shrine of Cyclones) • [Shrine of Tides](Shrine of Tides) • [Starshard Cradle](Starshard Cradle) • [Sunsworn Camp](Sunsworn Camp) • [Timbermaw Hold](Timbermaw Hold) • [Tyrandas](Tyrandas) ([Elun'aran](Elun'aran) • [Grove of the Sun](Grove of the Sun) • [Temple of Elunaris](Temple of Elunaris) • [Withered Enclave](Withered Enclave)) • [Vysnagosa's Rest](Vysnagosa's Rest) • [Whispering Shores](Whispering Shores)
 |-
 ||
-  -Undisplayed locations**
+**Undisplayed locations**
 
 [Farewell Faire](Farewell Faire) • [Fallen Ones outpost](Fallen Ones outpost)
 |}
@@ -52,11 +52,11 @@ categories: ["Kalimdor", "Moonwhisper Coast", "Turtle WoW content"]
 - [Moro'gai Village](Moro'gai Village), **Moonwhisper Coast**
 
 #### [Flight path](Flight path)s from [Moro'gai Village](Moro'gai Village)
--  [Narvalis Point](Narvalis Point), **Moonwhisper Coast**
--  [Moonhoof Village](Moonhoof Village), **Moonwhisper Coast**
--  [Talrendis Point](Talrendis Point), [Azshara](Azshara)
--  [Valormok](Valormok), [Azshara](Azshara)
--  [Everlook](Everlook), [Winterspring](Winterspring)
+- [Narvalis Point](Narvalis Point), **Moonwhisper Coast**
+- [Moonhoof Village](Moonhoof Village), **Moonwhisper Coast**
+- [Talrendis Point](Talrendis Point), [Azshara](Azshara)
+- [Valormok](Valormok), [Azshara](Azshara)
+- [Everlook](Everlook), [Winterspring](Winterspring)
 
 #### Boat destinations from [Moonhoof Village](Moonhoof Village)
 - [Shadowprey Village](Shadowprey Village), [Desolace](Desolace)

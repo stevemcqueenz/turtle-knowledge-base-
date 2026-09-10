@@ -24,10 +24,10 @@ categories: ["Fishers", "Human characters", "Kul Tiran Exploratory Fleet", "Lapi
 | location | Caelan's Rest, Lapidis Isle |
 | status | Alive |
 
--Fisherman Delavey** is a human in [Caelan's Rest](Caelan's Rest) on [Lapidis Isle](Lapidis Isle).
+**Fisherman Delavey** is a human in [Caelan's Rest](Caelan's Rest) on [Lapidis Isle](Lapidis Isle).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 A wonderful day to fish, is it not?
 
 ## Patch changes

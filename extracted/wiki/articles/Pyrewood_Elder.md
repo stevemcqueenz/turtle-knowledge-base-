@@ -27,7 +27,7 @@ categories: ["Human characters", "Priest characters", "Silverpine Forest mobs", 
 | location | Pyrewood Village, Silverpine Forest |
 | profession | Pickpocket |
 
--Pyrewood Elders** are [human](human)s found in [Pyrewood Village](Pyrewood Village) in [Silverpine Forest](Silverpine Forest). At night, they transform into their [worgen](worgen) form as **[Moonrage Elder](Moonrage Elder)s**.
+**Pyrewood Elders** are [human](human)s found in [Pyrewood Village](Pyrewood Village) in [Silverpine Forest](Silverpine Forest). At night, they transform into their [worgen](worgen) form as **[Moonrage Elder](Moonrage Elder)s**.
 
 ## Abilities
 - **Lesser Heal** — Heal your target for 143 to 165.

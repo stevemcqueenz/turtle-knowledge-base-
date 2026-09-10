@@ -23,7 +23,7 @@ categories: ["Guards", "High elf characters", "Moonwhisper Coast NPCs", "Turtle 
 | gender | Male |
 | location | Sunsworn Camp, Moonwhisper Coast |
 
--Sunsworn Sentinels** are [high elven](High elf) guards located at [Sunsworn Camp](Sunsworn Camp) in [Moonwhisper Coast](Moonwhisper Coast).
+**Sunsworn Sentinels** are [high elven](High elf) guards located at [Sunsworn Camp](Sunsworn Camp) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Patch changes
 - (Patch 1.18.1|note=Added.)

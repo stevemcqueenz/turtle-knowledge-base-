@@ -24,7 +24,7 @@ categories: ["Alliance quests", "Quests at 20", "Rogue quests"]
 | next | Klaven's Tower (quest) |
 | id | 2360 |
 
--Mathias and the Defias** is a [rogue](rogue) [quest](quest) available at level 20.  The quest is began by talking to [Mathias Shaw](Mathias Shaw) in [Stormwind](Stormwind).
+**Mathias and the Defias** is a [rogue](rogue) [quest](quest) available at level 20.  The quest is began by talking to [Mathias Shaw](Mathias Shaw) in [Stormwind](Stormwind).
 
 ## Objective
 Travel to Westfall and find [Agent Kearnen](Amber Kearnen) for your debriefing.
@@ -42,7 +42,7 @@ Get to Westfall and contact Agent Kearnen for your debriefing. You will find her
 
 ## Rewards
 You will receive:
--390 [XP](XP)
+- 390 [XP](XP)
 
 ## Completion
 Mathias finally sent another agent to back me up, eh? Well I hope he's ready to hear some bad news.

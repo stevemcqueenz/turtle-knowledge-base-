@@ -16,4 +16,4 @@ With the head and wings of an eagle, and the body of a lion, these proud creatur
 
 In order to travel by Gryphon you must first speak to a [Gryphon Master](Gryphon Master) at the destination point. By doing so, the location will be added to your list of known [Flight Path](Flight Path)s. Each Gryphon ride costs a varying amount of gold.
 
--Also known as Griffin.*
+*Also known as Griffin.*

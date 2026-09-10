@@ -21,7 +21,7 @@ categories: ["Bronze dragonflight", "Brood of Nozdormu", "Dragon organizations",
 | rewards | Brood of Nozdormu set, Signet Ring of the Bronze Dragonflight |
 | affiliation | Bronze dragonflight |
 
--Brood of Nozdormu** is a [faction](faction) consisting of the [bronze dragonflight](bronze dragonflight). Prior to [patch 1.16.0](patch 1.16.0), their leader [Anachronos](Anachronos) could be found outside the [Caverns of Time](Caverns of Time), though now he is located in the heart of the caverns. Many of its agents fly in the sky of [Silithus](Silithus). Reputation with the brood is a necessary part of the long quest line to open the [Gates of Ahn'Qiraj](Gates of Ahn'Qiraj). This reputation is also relevant for the 40-man Ahn'Qiraj instance in order to obtain epic quest gear and rings.
+**Brood of Nozdormu** is a [faction](faction) consisting of the [bronze dragonflight](bronze dragonflight). Prior to [patch 1.16.0](patch 1.16.0), their leader [Anachronos](Anachronos) could be found outside the [Caverns of Time](Caverns of Time), though now he is located in the heart of the caverns. Many of its agents fly in the sky of [Silithus](Silithus). Reputation with the brood is a necessary part of the long quest line to open the [Gates of Ahn'Qiraj](Gates of Ahn'Qiraj). This reputation is also relevant for the 40-man Ahn'Qiraj instance in order to obtain epic quest gear and rings.
 
 ## Background
   **''I**n the lives of most mortals, time is nothing more but a simple hourglass, its sands quietly trickling away. Only few ever realize that in truth, time rages like a storm, untamed and chaotic. When the Titans first descended on Azeroth, vanquishing the Old Gods and bringing order to the world, the Highfather of the Pantheon himself empowered the great dragon Nozdormu with some of his own cosmic powers, enabling the dragon to guard time itself and police the ever-spinning pathways of fate and destiny. And so, the stoic, honorable Nozdormu became known as the Timeless One. Ever since then, Nozdormu's Brood has guarded the timestream from all who would seek to disrupt its flow, guided by the Timeless One's wise, all-knowing counsel.
@@ -160,6 +160,6 @@ Killing [AQ40](AQ40) trash can only get you to 2999/3000 , at which point reputa
 |}
 
 ## Patch changes
--  **Patch 1.9.0 (2006-01-03):** Added.
+- **Patch 1.9.0 (2006-01-03):** Added.
 
 ## References

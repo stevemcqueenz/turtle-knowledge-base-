@@ -13,7 +13,7 @@ categories: ["Addon"]
 HCDeaths displays and logs hardcore character deaths. It provides visual notifications (toasts), logs death details.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **HCDeaths** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **HCDeaths** up to date is by using [GitAddonsManager](G
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 

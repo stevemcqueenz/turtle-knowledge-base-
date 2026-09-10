@@ -10,7 +10,7 @@ categories: ["Moonglade subzones", "Neutral towns", "Night elf territories", "Pa
 ---
 # Nighthaven
 
--Nighthaven** is the only [town](town) in [Moonglade](Moonglade). Being in [Moonglade](Moonglade), it is involved in many of the [druid quests](druid quests).
+**Nighthaven** is the only [town](town) in [Moonglade](Moonglade). Being in [Moonglade](Moonglade), it is involved in many of the [druid quests](druid quests).
 
 - Quest NPC [Dendrite Starblaze](Dendrite Starblaze) is located in the northeast corner of town.
 - There are druid-only Horde and Alliance flight paths located in the southwestern corner of town 44 45 Moonglade (g/s/c). Regular [flight master](flight master)s are elsewhere in [Moonglade](Moonglade).
@@ -32,32 +32,15 @@ At one time, there was a [temple](temple) dedicated to light and life. However, 
 
 ## Nighthaven NPCs
 ### Quest Givers
-- 
--  ([Lunar Festival](Lunar Festival))
-- 
-- 
--  ([Lunar Festival](Lunar Festival))
+- - ([Lunar Festival](Lunar Festival))
+- - - ([Lunar Festival](Lunar Festival))
 
 ### Class Trainers
-- 
-
-### Profession (Tradeskill) Trainers
-- 
-
-### Merchants
-- 
-- 
-- 
-- 
-- 
-- 
--  ([Lunar Festival](Lunar Festival))
-- 
-- 
-- 
-
-### Various Services
--  (Druid)
--  (Druid)
+- ### Profession (Tradeskill) Trainers
+- ### Merchants
+- - - - - - - ([Lunar Festival](Lunar Festival))
+- - - ### Various Services
+- (Druid)
+- (Druid)
 
 [fr:Havrenuit](fr:Havrenuit)

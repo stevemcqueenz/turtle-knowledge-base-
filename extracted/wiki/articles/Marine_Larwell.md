@@ -24,10 +24,10 @@ categories: ["Human characters", "Kul Tiras (kingdom)", "Stormwind City NPCs", "
 | location | Davenburg, Stormwind Harbor, Stormwind City |
 | status | Alive |
 
--Marine Larwell** is a [human](human) located in [Davenburg](Davenburg) in [Stormwind Harbor](Stormwind Harbor) in [Stormwind City](Stormwind City).
+**Marine Larwell** is a [human](human) located in [Davenburg](Davenburg) in [Stormwind Harbor](Stormwind Harbor) in [Stormwind City](Stormwind City).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I haven't been to Stormwind in a long time. It's nice to see how much it has changed.
 
 ## Patch changes

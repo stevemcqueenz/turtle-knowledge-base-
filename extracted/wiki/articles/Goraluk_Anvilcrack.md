@@ -11,18 +11,13 @@ categories: ["Instance:Blackrock Spire", "Instance Characters", "Named Mobs", "O
 # Goraluk Anvilcrack
 
 # General Information
--Level: 61 (Elite)
--[Location](:Category:Zones): [Blackrock Spire](Blackrock Spire)
--[Type](Creature type): [Humanoid](Creature type#Humanoid)
+- Level: 61 (Elite)
+- [Location](:Category:Zones): [Blackrock Spire](Blackrock Spire)
+- [Type](Creature type): [Humanoid](Creature type#Humanoid)
 
 # Background
 [Blacksmith](Blacksmith) of the blackrock orcs in [UBRS](UBRS) which is related to several fire resistance items, and smith items.
 
 # Loot
--
--
--
--
--
--Plans: 
--Plans:
+- - - - - - Plans: 
+- Plans:

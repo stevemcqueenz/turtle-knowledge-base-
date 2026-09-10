@@ -24,7 +24,7 @@ categories: ["Defias Brotherhood", "Human characters", "Northwind mobs", "Turtle
 | location | Northwind |
 | status | Killable |
 
--Defias Shadow Wizards** are [human](human)s located in [Northwind](Northwind).
+**Defias Shadow Wizards** are [human](human)s located in [Northwind](Northwind).
 
 ## Abilities
 - Curse of Thorns

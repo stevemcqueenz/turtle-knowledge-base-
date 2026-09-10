@@ -10,7 +10,7 @@ categories: ["Grim Reaches subzones", "Lakes", "Turtle WoW content", "Wildhammer
 ---
 # Lake Kithas
 
--Lake Kithas** is a lake in the central [Grim Reaches](Grim Reaches). A waterfall sends the water to the [Grimwater River](Grimwater River), which empties into the [Forbidding Sea](Forbidding Sea). [Fisherman Nudrew](Fisherman Nudrew) sits on the pier on the southern bank of the lake.
+**Lake Kithas** is a lake in the central [Grim Reaches](Grim Reaches). A waterfall sends the water to the [Grimwater River](Grimwater River), which empties into the [Forbidding Sea](Forbidding Sea). [Fisherman Nudrew](Fisherman Nudrew) sits on the pier on the southern bank of the lake.
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

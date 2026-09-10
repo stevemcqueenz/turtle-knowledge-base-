@@ -10,7 +10,7 @@ categories: ["Buildings", "Crypts", "Human territories", "Pages with broken file
 ---
 # Cathedral of Light
 
--Cathedral of Light** in [Stormwind City](Stormwind City) is the most striking monument of the [Church of Light](Church of Light). The construction of the cathedral was overseen by [Archbishop Benedictus](Archbishop Benedictus) and his then-mentor, Archbishop [Alonsus Faol](Alonsus Faol). 
+**Cathedral of Light** in [Stormwind City](Stormwind City) is the most striking monument of the [Church of Light](Church of Light). The construction of the cathedral was overseen by [Archbishop Benedictus](Archbishop Benedictus) and his then-mentor, Archbishop [Alonsus Faol](Alonsus Faol). 
 
 The Cathedral is home to some of the most powerful and influential holy leaders in the world. [Duthorian Rall](Duthorian Rall) is perhaps Stormwind City's most accomplished [paladin](paladin). The archbishop himself also resides within the hallowed chambers. 
 

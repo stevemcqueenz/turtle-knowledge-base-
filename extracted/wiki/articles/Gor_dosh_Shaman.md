@@ -24,7 +24,7 @@ categories: ["Lapidis Isle mobs", "Ogre characters", "Turtle WoW content"]
 | status | Killable |
 | location | Gor'dosh Heights, Lapidis Isle |
 
--Gor'dosh Shamans** are [ogre](ogre)s located at [Gor'dosh Heights](Gor'dosh Heights) in [Lapidis Isle](Lapidis Isle).
+**Gor'dosh Shamans** are [ogre](ogre)s located at [Gor'dosh Heights](Gor'dosh Heights) in [Lapidis Isle](Lapidis Isle).
 
 ## Objective of
 - [quest: The Gor'dosh Ogres]

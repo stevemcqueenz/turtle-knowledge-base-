@@ -26,10 +26,10 @@ categories: ["Dwarf characters", "Flight masters", "Stonetalon Mountains NPCs", 
 | location | Bael Hardul, Stonetalon Mountains |
 | status | Alive |
 
--Orrik Thunderbeard** is a dwarf gryphon flight master located at [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains).
+**Orrik Thunderbeard** is a dwarf gryphon flight master located at [Bael Hardul](Bael Hardul) in [Stonetalon Mountains](Stonetalon Mountains).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The skies of Kalimdor are as untamed as its lands. Where would you like to fly to?
 
 ## Flight paths

@@ -16,7 +16,7 @@ categories: ["Lore", "Pages with broken file links"]
 The [Satyr](Satyr) are the descendents of [Kaldorei](Kaldorei) who allied directly with the [Burning Legion](Burning Legion) during the first invasion. These former elves were taken by the [demon](demon)s and twisted into shapes that more accurately reflected their nature.
 
 [Harpies](Harpy) are descended from female elves who betrayed [Queen Azshara](Queen Azshara), Sorceress-Queen of [Kalimdor](Kalimdor), and were transformed into hideous bird-creatures as punishment.
--Although there is some reference in the War of the Ancients books by Richard A Knakk, that imply that harpies descended from the demi-goddess [Aviana](Aviana).*
+*Although there is some reference in the War of the Ancients books by Richard A Knakk, that imply that harpies descended from the demi-goddess [Aviana](Aviana).*
 
 The [High Elves](High Elves) are a race descended from the [Highborne](Highborne) Night Elves who left Kalimdor and settled in the [Eastern Kingdoms](Eastern Kingdoms), founding [Quel'Thalas](Quel'Thalas). When Quel'Thalas and at least 90% of the High Elven race was destroyed by the [Scourge](Scourge), they split into two factions.
 

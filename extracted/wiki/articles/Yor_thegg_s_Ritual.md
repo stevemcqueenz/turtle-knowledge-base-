@@ -43,7 +43,7 @@ The land yearns for peace, and it is our responsibility to comply.
 The materials have been gathered. You have done your duty, now let me conduct mine...
 
 ## Notes
-  -Upon completion**
+**Upon completion**
   **Yor'thegg the Wise says:** Elements of Grim Reaches, hear me, for I have come to listen!
   *An [Anguished Elemental](Anguished Elemental) appears.*
   **Anguished Elemental says:** Long has it been since we have been heard... The land is disturbed, the airs stir with volatility. A foul magic poisons all it touches...

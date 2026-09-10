@@ -24,7 +24,7 @@ categories: ["Aristocrats", "High elf characters", "Mage characters", "Mage trai
 | gender | Male |
 | location | Brinthilien, Thalassian Highlands |
 
--Magister Ala'shor Sunblood** is a [high elf](high elf) [mage trainer](mage trainer) located in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands). In addition to his role as a Magister of Quel'Thalas, he is a noble of House Sunblood. (ref: [Magister's Letter](Magister's Letter))
+**Magister Ala'shor Sunblood** is a [high elf](high elf) [mage trainer](mage trainer) located in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands). In addition to his role as a Magister of Quel'Thalas, he is a noble of House Sunblood. (ref: [Magister's Letter](Magister's Letter))
 
 ## Quests
 - [quest: Magically Sealed Letter|class=mage|race=HighElf] 
@@ -32,7 +32,7 @@ categories: ["Aristocrats", "High elf characters", "Mage characters", "Mage trai
 - [quest: Magister's Letter|class=mage|race=HighElf] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Ever since the Sunwell fell, we've strained to minimize the amount of mana we expend. We used to be paragons of arcane power; now, we are a mere shadow of our former selves.
 
 ## Patch changes

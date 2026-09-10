@@ -24,10 +24,10 @@ categories: ["Draenei characters", "Moonwhisper Coast NPCs", "Specialty vendors"
 | location | Moro'gai Village, Moonwhisper Coast |
 | status | Alive |
 
--Fra'phani** is a [draenei](draenei) companion pet vendor located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Fra'phani** is a [draenei](draenei) companion pet vendor located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 You look like someone with a keen eye for the excentric. Come close and gaze upon my menagerie of creatures you've never laid eyes upon!
 
 ## Patch changes

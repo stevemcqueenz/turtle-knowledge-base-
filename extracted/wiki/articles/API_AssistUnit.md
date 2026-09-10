@@ -15,28 +15,28 @@ Selects the target of the specified id as the current target.
  AssistUnit("unit");
 
 ----
-  -*Arguments***
+***Arguments***
 
   ("unit")
 
   ;unit: String - The [UnitId](API Type UnitId) to select as a target.
 
 ----
-  -*Returns***
+***Returns***
 
   ;nil
 
 ----
-  -*Example***
+***Example***
  AssistUnit("player");
 
-  -*Result***
+***Result***
 
 ----
-  -*Description***
+***Description***
 
--Selects the target of the specified id as the current target. One can use any of the defined [UnitId](API Type UnitId) values. One can also use AssistUnit("[unit](API Type UnitId)"pet) to assist the pet.
--If the players target was changed by a Targetting Function it is possible to restore the original target by assisting the player. 
+- Selects the target of the specified id as the current target. One can use any of the defined [UnitId](API Type UnitId) values. One can also use AssistUnit("[unit](API Type UnitId)"pet) to assist the pet.
+- If the players target was changed by a Targetting Function it is possible to restore the original target by assisting the player. 
 
 ## Macros
 Send Pet to assist Friendly Target. Send Pet on that Hostile Target. Recall your Pet.<syntaxhighlight lang="lua">

@@ -10,7 +10,7 @@ categories: ["Bloodpetals", "Un'Goro Crater mobs", "Uncategorized Creatures"]
 ---
 # Bloodpetal
 
--Bloodpetals** are a type of medium-sized flower-like plant. Bloodpetals are found all over the floor of [Un'goro Crater](Un'goro Crater). 
+**Bloodpetals** are a type of medium-sized flower-like plant. Bloodpetals are found all over the floor of [Un'goro Crater](Un'goro Crater). 
 
 Bloodpetals are ambulatory plants that dwell in the steamy jungles of the Un'Goro Crater. The plant has a hugh blood-red flower and a thick stem extending five feet to the ground. The creature ambles along on many wiry roots, which act like legs; its thorn-covered arms wave back and forth menacingly. They are covered in nasty thorns that exude a crippling toxin; although not terribly dangerous alone, they tend to use swarm tactics. Otherwise, not much is known about these curious creatures, although the Explorers' League produces a few reports. Colonies of bloodpetals, apparently always less than 30 in number, stake out a territory typically in some remote area where threats are at a minimum. They defend this area carefully while new bloodpetal sprouts grow. A sprout remains immobile for several months before its legs fully develop. Once a bloodpetal patch grows too large for nearby resources to support it, the creatures send out scouts. These scouts range far and wide, and thus are usually the first bloodpetals a visitor to Un'Goro encounters; interestingly, a scout avoids conflict and fights only to defend itself, giving the illusion that bloodpetals aren't terribly aggressive-a fact that leads many explorers into trouble when they encounter an actual patch.
 
@@ -23,5 +23,5 @@ Their sprouts make a tasty meal for other creatures of the area, yet the fully g
 Bloodpetals are a plentiful source of [Savage Frond](Savage Frond)s.
 
 ## Types
--Bloodpetal
--[Bloodpetal Flayer](Bloodpetal Flayer)
+- Bloodpetal
+- [Bloodpetal Flayer](Bloodpetal Flayer)

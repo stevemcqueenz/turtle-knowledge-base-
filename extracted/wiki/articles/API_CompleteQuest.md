@@ -14,26 +14,26 @@ Complete the specified quest.
  CompleteQuest();
 ----
 
-  - *Arguments***
+** *Arguments***
 
    *none*
 
 ----
 
-  - *Returns***
+** *Returns***
 
   ; nil
 
 ----
 
-  - *Example***
+** *Example***
 
  CompleteQuest();
 
-  - *Result***
+** *Result***
 
 ----
 
-  - *Description***
+** *Description***
 
    Complete the specified quest in the quest log window. Called when the CompleteQuest button is pressed.

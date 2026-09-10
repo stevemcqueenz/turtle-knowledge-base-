@@ -27,7 +27,7 @@ categories: ["Blue drakonid", "Bosses", "Stubs", "Tower of Karazhan mobs", "Turt
 | status | Killable |
 | instance | Tower of Karazhan |
 
--Ley-Watcher Incantigos** is the second boss of [Tower of Karazhan](Tower of Karazhan). Once a friend of the highborne [Al'Dorel](Al'Dorel), he sought to make a name for himself within the [Blue dragonflight](Blue dragonflight) by advancing the cause of the great dampening. He sought to meet [Malygos](Malygos) himself, but [Haleh](Haleh) denied him this right, as she believed it was not yet time for them to meet. (ref: [quest: And Lost to the Stars]) Thus, despite Al'Dorel counseling against it, Incantigos departed for the [Eastern Kingdoms](Eastern Kingdoms), seeking out the chaotic power and unstable leylines that ran through [Karazhan](Karazhan) in order to harness and untangle them. (ref: [quest: Asleep Under Snow])
+**Ley-Watcher Incantigos** is the second boss of [Tower of Karazhan](Tower of Karazhan). Once a friend of the highborne [Al'Dorel](Al'Dorel), he sought to make a name for himself within the [Blue dragonflight](Blue dragonflight) by advancing the cause of the great dampening. He sought to meet [Malygos](Malygos) himself, but [Haleh](Haleh) denied him this right, as she believed it was not yet time for them to meet. (ref: [quest: And Lost to the Stars]) Thus, despite Al'Dorel counseling against it, Incantigos departed for the [Eastern Kingdoms](Eastern Kingdoms), seeking out the chaotic power and unstable leylines that ran through [Karazhan](Karazhan) in order to harness and untangle them. (ref: [quest: Asleep Under Snow])
 
 ## Patch changes
 - (Patch 1.17.2|note=Added.)

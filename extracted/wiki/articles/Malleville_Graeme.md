@@ -24,10 +24,10 @@ categories: ["Human characters", "Kul Tiras (kingdom)", "Northwind NPCs", "Turtl
 | location | Jousting Grounds, Northwind |
 | status | Alive |
 
--Malleville Graeme** is a [human](human) located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind).
+**Malleville Graeme** is a [human](human) located at the [Jousting Grounds](Jousting Grounds) in [Northwind](Northwind).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Being forced to participate in this idiotic tournament is a disgrace to any truthful Kul Tiran. What do these traitorous bastards think this will accomplish?!
 
 ## Patch changes

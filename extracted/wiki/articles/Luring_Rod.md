@@ -10,7 +10,7 @@ categories: ["Gilneas City shops", "Turtle WoW content"]
 ---
 # Luring Rod
 
--The Luring Rod** is a shop located in [Gilneas City](Gilneas City).
+**The Luring Rod** is a shop located in [Gilneas City](Gilneas City).
 
 ## Patch changes
 - (Patch 1.17.0|note=Added.)

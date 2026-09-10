@@ -10,8 +10,8 @@ categories: []
 ---
 # Template:Through Greater Magic
 
-1.[quest: Through Greater Magic]
-1.[quest: The Ravenwood Scepter]
-1.[quest: The Powers Beyond]
-1.[quest: The Greymane Stone]
-1.[quest: Gift of the Dark Bishop]
+1. [quest: Through Greater Magic]
+1. [quest: The Ravenwood Scepter]
+1. [quest: The Powers Beyond]
+1. [quest: The Greymane Stone]
+1. [quest: Gift of the Dark Bishop]

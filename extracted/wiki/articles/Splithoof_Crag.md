@@ -10,4 +10,4 @@ categories: ["Pages with broken file links", "Stubs", "Thousand Needles subzones
 ---
 # Splithoof Crag
 
--Splithoof Crag** was the name of the [Galak](Galak tribe) [centaur](centaur) village located against the northern wall of [Thousand Needles](Thousand Needles), just east of [Darkcloud Pinnacle](Darkcloud Pinnacle). [41, 39]
+**Splithoof Crag** was the name of the [Galak](Galak tribe) [centaur](centaur) village located against the northern wall of [Thousand Needles](Thousand Needles), just east of [Darkcloud Pinnacle](Darkcloud Pinnacle). [41, 39]

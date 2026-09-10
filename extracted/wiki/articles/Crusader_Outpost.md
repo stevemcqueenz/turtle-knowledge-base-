@@ -10,6 +10,6 @@ categories: ["Pages with broken file links", "Scarlet Crusade", "Tirisfal Glades
 ---
 # Crusader Outpost
 
--Crusader Outpost** is a guard tower located in eastern [Tirisfal Glades](Tirisfal Glades). It is under the control of the [Scarlet Crusade](Scarlet Crusade), who use it to keep an eye on the main road through the glades south of the hills the tower has been built on, and also to provide for flanking opportunities against enemies who try to assault the [Scarlet Monastery](Scarlet Monastery).
+**Crusader Outpost** is a guard tower located in eastern [Tirisfal Glades](Tirisfal Glades). It is under the control of the [Scarlet Crusade](Scarlet Crusade), who use it to keep an eye on the main road through the glades south of the hills the tower has been built on, and also to provide for flanking opportunities against enemies who try to assault the [Scarlet Monastery](Scarlet Monastery).
 
 Should not be confused with the [Crusader's Outpost](Crusader's Outpost), which lies much further west.

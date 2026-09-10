@@ -27,7 +27,7 @@ categories: ["Characters", "Death Knight characters", "Human characters", "Kul T
 | mentors | Albert Keirich |
 | companions | Hoshino Ryoko, Shibatou Atsumi |
 
--Archduke Keirich** (High German pronunciation: *ˈʃtɛlʊs ˈkaɪʁɪç*), born **Stellus Keirich**, is a female [Blood Death Knight](Blood Death Knight) affiliated with the [Scourge](Scourge). She is a noble scion of the fallen [Kingdom of Lordaeron](Kingdom of Lordaeron) with maternal blood ties to [Kul Tiras](Kul Tiras). In the *Chronicle of Myers*, she embodies the tragic elegance of Lordaeron's lost nobility blended with the untamed spirit of the sea, while wielding both runeblade and necrotic song.
+**Archduke Keirich** (High German pronunciation: *ˈʃtɛlʊs ˈkaɪʁɪç*), born **Stellus Keirich**, is a female [Blood Death Knight](Blood Death Knight) affiliated with the [Scourge](Scourge). She is a noble scion of the fallen [Kingdom of Lordaeron](Kingdom of Lordaeron) with maternal blood ties to [Kul Tiras](Kul Tiras). In the *Chronicle of Myers*, she embodies the tragic elegance of Lordaeron's lost nobility blended with the untamed spirit of the sea, while wielding both runeblade and necrotic song.
 
 ## Biography
 ### Early Life and Resurrection

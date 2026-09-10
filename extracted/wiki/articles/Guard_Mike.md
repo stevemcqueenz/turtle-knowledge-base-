@@ -24,13 +24,13 @@ categories: ["Human characters", "Northwind NPCs", "Quest givers", "Stormwind (k
 | location | Lion's Watch, Northwind |
 | status | Alive |
 
--Guard Mike** is a [human](human) quest giver located at [Lion's Watch](Lion's Watch) in [Northwind](Northwind).
+**Guard Mike** is a [human](human) quest giver located at [Lion's Watch](Lion's Watch) in [Northwind](Northwind).
 
 ## Quests
 - [quest: Among the Jousters] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 There is something foul within Northwind. A sickness within, how small it may be at first, can quickly germinate and infect. We cannot let that happen.
 
 ## Patch changes

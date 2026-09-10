@@ -15,7 +15,7 @@ Picks up part of a stack of items from a container, placing them on the cursor.
 SplitContainerItem(bagID, slot, count);
 ----
 
-  - *Arguments***
+** *Arguments***
 
    (bagID, slot)
   ; [bagID](API Type BagId)
@@ -27,13 +27,13 @@ SplitContainerItem(bagID, slot, count);
 
 ----
 
-  - *Returns***
+** *Returns***
 
    Nothing.
 
 ----
 
-  - *Details***
+** *Details***
 
    This function always puts the requested item(s) on the cursor (unlike [PickupContainerItem()](API PickupContainerItem) which can pick up items, place items, or cast spells on items based on what's already on the cursor).
 

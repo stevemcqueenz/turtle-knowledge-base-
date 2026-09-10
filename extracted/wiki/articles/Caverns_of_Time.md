@@ -15,38 +15,8 @@ Located in the eastern part of [Tanaris](Tanaris), the **Caverns of Time** conta
 Inside the COT: It is possible to enter the caverns of time, but it is a very confusing place. One starts by walking down a cavern which has random statues and objects from around the world stuck to the walls. It is not long afterward that one encounters that he or she is in outer space. After walking past many strange and weird objects one will find a rather huge hourglass.
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
--  (Unselectable)
-- 
-- 
-- 
-- 
-
-### Time-displaced NPCs
+- - - - - - - - - - - - - - - - - - - (Unselectable)
+- - - - ### Time-displaced NPCs
 The following NPCs are part of a scene where [Neto the Time Weaver](Neto the Time Weaver) guides them to their proper timelines.
-- 
-- 
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - - - ## Patch changes
 - (Patch 1.16.0|note=The Caverns are opened up, allowing access to the interior and the new [Caverns of Time: Black Morass](Caverns of Time: Black Morass) dungeon.)

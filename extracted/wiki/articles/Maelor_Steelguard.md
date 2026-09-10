@@ -25,7 +25,7 @@ categories: ["High elf characters", "Quest givers", "Thalassian Highlands NPCs",
 | status | Alive |
 | relatives | Fainriel Silverharp (wife) |
 
--Maelor Steelguard** is a [high elf](high elf) located in [Thaumarium](Thaumarium) of the [Thalassian Highlands](Thalassian Highlands).
+**Maelor Steelguard** is a [high elf](high elf) located in [Thaumarium](Thaumarium) of the [Thalassian Highlands](Thalassian Highlands).
 
 ## Quests
 - [quest: The Highland Menace] 

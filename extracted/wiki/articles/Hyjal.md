@@ -21,7 +21,7 @@ categories: ["Hyjal", "Kalimdor"]
 | minor | Zul'Hatha, Barkskin Village, Barkskin Plateau |
 | loc | Central Northern Kalimdor |
 
--Hyjal** (also **Mount Hyjal** or **Hyjal Summit**) is the name of a massive mount in northern Kalimdor. It was the site of the [Battle of Mount Hyjal](Battle of Mount Hyjal), the final conflict of the [Third War](Third War). Two gray peaks rise high above the surrounding forests. The arcane Well of Eternity lies on Hyjal Summit and the great World Tree Nordrassil, blackened and wounded in the Third War, stands over it.
+**Hyjal** (also **Mount Hyjal** or **Hyjal Summit**) is the name of a massive mount in northern Kalimdor. It was the site of the [Battle of Mount Hyjal](Battle of Mount Hyjal), the final conflict of the [Third War](Third War). Two gray peaks rise high above the surrounding forests. The arcane Well of Eternity lies on Hyjal Summit and the great World Tree Nordrassil, blackened and wounded in the Third War, stands over it.
 
 Sitting on the peaks of Kalimdor, Hyjal has served as the land of eternal vigilance for the Night Elves since the War of the Ancients. Archimonde's bones, adorned on Nordrassil, serve as a grim reminder of those dark days. Normally secluded from the rest of the world, the path through Darkwhisper Gorge has recently been opened as a call for aid in the fight against the growing Nightmare in the dream and the demonic corruption that plagues the mountain.
 
@@ -42,7 +42,7 @@ WorldMap-Hyjal-old1.jpg|Map of Hyjal prior to [patch 1.17.0](patch 1.17.0).
 ||[Barkskin Plateau](Barkskin Plateau) • [Barkskin Village](Barkskin Village) • [Bleakhollow Crater](Bleakhollow Crater) • [Circle of Power](Circle of Power) • [Darkhollow Pass](Darkhollow Pass) • [The Emerald Gateway](Emerald Gateway) • [Nordanaar](Nordanaar) • [Nordrassil Glade](Nordrassil Glade) • [The Ruins of Telennas](Ruins of Telennas) • [Zul'Hathar](Zul'Hathar)
 |-
 ||
-  -Undisplayed locations**
+**Undisplayed locations**
 
 [Prophet's Hill](Prophet's Hill)
 |}
@@ -92,5 +92,5 @@ WorldMap-Hyjal-old1.jpg|Map of Hyjal prior to [patch 1.17.0](patch 1.17.0).
 - [Stag](Stag)s
 
 ## Patch changes
--  **[Patch 1.17.2](Patch 1.17.2) (2024-11-01):** Map has been updated, allowing for proper discovery of its regions.
--  **[Patch 1.17.0](Patch 1.17.0) (2023-10-03):** Map updated and made accessible.
+- **[Patch 1.17.2](Patch 1.17.2) (2024-11-01):** Map has been updated, allowing for proper discovery of its regions.
+- **[Patch 1.17.0](Patch 1.17.0) (2023-10-03):** Map updated and made accessible.

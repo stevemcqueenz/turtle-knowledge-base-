@@ -13,22 +13,22 @@ categories: ["API Types"]
 The methods relating to sorting in the auction house can operate on many columns, this identifier is used to indicate which column is being referenced. Valid values are:
 
 ## Values
-  - <code>"quality"</code>**
+** <code>"quality"</code>**
    Item quality (All types)
 
-  - <code>"level"</code>**
+** <code>"level"</code>**
    Item level (Only "list", "bidder")
 
-  - <code>"duration"</code>**
+** <code>"duration"</code>**
    Auction duration (All types)
 
-  - <code>"buyout"</code>**
+** <code>"buyout"</code>**
    Current buyout price? (Only "bidder")
 
-  - <code>"status"</code>**
+** <code>"status"</code>**
    Status (High bidder or not??) (All types)
 
-  - <code>"bid"</code>**
+** <code>"bid"</code>**
    Current bid (All types)
 
 ## Notes

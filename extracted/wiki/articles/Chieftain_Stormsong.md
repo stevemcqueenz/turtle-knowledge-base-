@@ -26,7 +26,7 @@ categories: ["Bosses", "Orc characters", "Stormreaver clan", "Stormwrought Ruins
 | status | Killable |
 | instance | Stormwrought Ruins |
 
--Chieftain Stormsong** is a boss in [Stormwrought Ruins](Stormwrought Ruins).
+**Chieftain Stormsong** is a boss in [Stormwrought Ruins](Stormwrought Ruins).
 
 ## Abilities
 - Enrage
@@ -35,10 +35,10 @@ categories: ["Bosses", "Orc characters", "Stormreaver clan", "Stormwrought Ruins
 - Forked Lightning
 
 ## Quotes
-  -Aggro**
+**Aggro**
   The dark sea will swallow your souls!
 
-  -Death**
+**Death**
   You know so little, whelps...
 
 ## Objective of

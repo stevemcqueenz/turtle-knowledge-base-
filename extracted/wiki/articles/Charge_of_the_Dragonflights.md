@@ -12,7 +12,7 @@ categories: ["History of Warcraft", "In-Game Books", "Lore"]
 
 <B style="font-weight:normal;background-color:#2b2b2b;">[  [Source Text](WoWWiki:Article_type)  ]</B>
 
--Charge of the Dragonflights* is a section of the [History of Warcraft](History of Warcraft), Chapter I.  It is also available as an [in-game book](:Category:In-Game Books) in the Hall of Explorers in [Ironforge](Ironforge).
+*Charge of the Dragonflights* is a section of the [History of Warcraft](History of Warcraft), Chapter I.  It is also available as an [in-game book](:Category:In-Game Books) in the Hall of Explorers in [Ironforge](Ironforge).
 
 ## Text
 Satisfied that the small world had been ordered and that their work was done, the [Titan](Titan)s prepared to leave Azeroth. However, before they departed, they charged the greatest species of the world with the task of watching over [Kalimdor](Kalimdor), lest any force should threaten its perfect tranquility. In that age, there were many [dragonflight](dragonflight)s. Yet there were five flights that held dominion over their brethren. It was these five flights that the Titans chose to shepherd the budding world. The greatest members of the [Pantheon](Pantheon) imbued a portion of their power upon each of the flights' leaders. These majestic dragons (as listed below) became known as the Great Aspects, or the [Dragon Aspects](Dragon Aspects). 

@@ -26,15 +26,15 @@ categories: ["Instance navigation templates"]
 
 [Alzzin the Wildshaper](Alzzin the Wildshaper)
 |
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 |-
 | class="title" colspan="2" | **[Capital Gardens](Capital Gardens) (West)**
 |-
@@ -51,17 +51,17 @@ categories: ["Instance navigation templates"]
 
 [Prince Tortheldrin](Prince Tortheldrin)
 |
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 |-
 | class="title" colspan="2" | **[Gordok Commons](Gordok Commons) (North)**
 |-
@@ -80,19 +80,19 @@ categories: ["Instance navigation templates"]
 
 [King Gordok](King Gordok)
 |
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 
--(lore)*
+*(lore)*
 |-
 | class="title" colspan="2" | **NPCs**
 |-

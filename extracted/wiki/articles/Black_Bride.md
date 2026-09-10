@@ -25,18 +25,18 @@ categories: ["Banshees", "Bosses", "Stormwind Vault mobs", "Turtle WoW content"]
 | status | Killable |
 | instance | Stormwind Vault |
 
--Black Bride** is a boss in the [Stormwind Vault](Stormwind Vault).
+**Black Bride** is a boss in the [Stormwind Vault](Stormwind Vault).
 
 ## Quotes
-  -Aggro**
+**Aggro**
   Come and meet your end.
 
-  -During combat**
+**During combat**
   I would have done anything for your love.
   Infidels!
   Your touch defiles me, I an only his!
 
-  -Death**
+**Death**
   D-Damian, my.. my love.
 
 ## Loot

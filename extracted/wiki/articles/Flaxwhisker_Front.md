@@ -22,25 +22,13 @@ categories: ["Azshara subzones", "Gnome territories", "Pages with broken file li
 | loc | Southern Azshara |
 | status | Active |
 
--Flaxwhisker Front** is an [Alliance](Alliance)-aligned outpost located in southern [Azshara](Azshara). It is a basecamp established by a gnomish expedition sent from [Gnomeregan](Gnomeregan) before it was lost, now left stranded and unaware of the tragedy that befell their home. (ref: [New Zones & World Edits](https://web.archive.org/web/20260514170802/https://turtlecraft.gg/new-locations-and-maps). Archived from [the original](https://turtlecraft.gg/new-locations-and-maps) on 2026-05-14. Retrieved on 2026-29-08.)
+**Flaxwhisker Front** is an [Alliance](Alliance)-aligned outpost located in southern [Azshara](Azshara). It is a basecamp established by a gnomish expedition sent from [Gnomeregan](Gnomeregan) before it was lost, now left stranded and unaware of the tragedy that befell their home. (ref: [New Zones & World Edits](https://web.archive.org/web/20260514170802/https://turtlecraft.gg/new-locations-and-maps). Archived from [the original](https://turtlecraft.gg/new-locations-and-maps) on 2026-05-14. Retrieved on 2026-29-08.)
 
 ## Inhabitants
 ### Quest givers
-- 
-- 
-- 
-- 
-- 
-- 
-
-### Goods and services
-- 
-
-### Additional characters
-- 
-- 
-
-## Trivia
+- - - - - - ### Goods and services
+- ### Additional characters
+- - ## Trivia
 - Prior to [Patch 1.16.0](Patch 1.16.0), the two-story home was inhabited by [Blimo](Blimo Gadgetspring) and [Jubie Gadgetspring](Jubie Gadgetspring), who were neutral trade supplies and engineering vendors. After the area was expanded into the Flaxwhisker Front, Blimo was changed to use the [Gnomeregan Exiles](Gnomeregan Exiles) faction and is now only friendly to the Alliance; Jubie retains her original neutrality.
 
 ## Patch changes

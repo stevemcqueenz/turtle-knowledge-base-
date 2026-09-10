@@ -26,14 +26,14 @@ categories: ["Blasted Lands NPCs", "Dalaran (kingdom)", "Dwarf characters", "Que
 | location | Nethergarde Keep, Blasted Lands |
 | status | Alive |
 
--Harguf** is a [dwarf](dwarf) quest giver located in [Nethergarde Keep](Nethergarde Keep) in [Blasted Lands](Blasted Lands).
+**Harguf** is a [dwarf](dwarf) quest giver located in [Nethergarde Keep](Nethergarde Keep) in [Blasted Lands](Blasted Lands).
 
 ## Quests
 - [quest: Dreadmaul Skull Bounty] 
 - [quest: Shadowsworn Pendant Bounty] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I'm growing restless behind these blasted stone walls, I've crushed too many demon skulls to be wasting away here.
 
 Names Harguf, I've been here quite a long time, what can I do for you?

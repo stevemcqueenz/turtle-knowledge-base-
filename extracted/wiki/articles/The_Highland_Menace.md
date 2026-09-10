@@ -25,7 +25,7 @@ categories: ["Alliance quests", "Quests at 7", "Thalassian Highlands quests", "T
 
 ## Objectives
 Bring 10 Bright Lynx Furs to [Maelor Steelguard](Maelor Steelguard) in the [Thaumarium](Thaumarium).
--[Bright Lynx Fur](Bright Lynx Fur) (10)
+- [Bright Lynx Fur](Bright Lynx Fur) (10)
 
 ## Description
 Welcome to Thaumarium. Within these walls, my [enchanting wife](enchanting wife) crafts the finest wines to grace the [Thalassian Highlands](Thalassian Highlands). We've bestowed upon this haven the same name as our erstwhile winery in [Quel'Thalas](Quel'Thalas), harboring eager anticipation for the prosperity of our venture.
@@ -34,12 +34,12 @@ However, a quandary befalls us. Our aspirations lead us to cultivate a vineyard 
 
 ## Rewards
 You will receive:
--910 XP
--+150 [reputation](reputation) with [Silvermoon Remnant](Silvermoon Remnant)
+- 910 XP
+- +150 [reputation](reputation) with [Silvermoon Remnant](Silvermoon Remnant)
 
 You can choose one of these awards:
--[Winestained Bracers](Winestained Bracers)
--[Thalassian Sentinel Belt](Thalassian Sentinel Belt)
+- [Winestained Bracers](Winestained Bracers)
+- [Thalassian Sentinel Belt](Thalassian Sentinel Belt)
 
 ## Progress
 Be careful, these creatures are more savage than you think.

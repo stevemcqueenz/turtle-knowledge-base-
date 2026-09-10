@@ -23,7 +23,7 @@ categories: ["Boars", "Northwind mobs", "Rare mobs", "Turtle WoW content"]
 | location | Northwind |
 | status | Killable |
 
--Goldtusk** is a rare boar found east of [Grimmen Lake](Grimmen Lake) in [Northwind](Northwind).
+**Goldtusk** is a rare boar found east of [Grimmen Lake](Grimmen Lake) in [Northwind](Northwind).
 
 ## Notable loot
 - [Boarhide Leggings](Boarhide Leggings)

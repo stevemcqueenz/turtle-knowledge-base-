@@ -23,10 +23,10 @@ categories: ["Alah'Thalas NPCs", "Thalassian Highlands NPCs", "Turtle WoW conten
 | gender | Male |
 | location | Brinthilien, Thalassian Highlands; Alah'Thalas |
 
--Withered Refugees** can be found in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands) and in the [Wretched Ghetto](Wretched Ghetto) in the high elven capital of [Alah'Thalas](Alah'Thalas). They are high elves who have succumbed to their arcane addiction.
+**Withered Refugees** can be found in [Brinthilien](Brinthilien) in the [Thalassian Highlands](Thalassian Highlands) and in the [Wretched Ghetto](Wretched Ghetto) in the high elven capital of [Alah'Thalas](Alah'Thalas). They are high elves who have succumbed to their arcane addiction.
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Our suffering knows no end. Can you help us?
 
 ## Patch changes

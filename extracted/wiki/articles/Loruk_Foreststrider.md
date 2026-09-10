@@ -24,7 +24,7 @@ categories: ["Ashenvale NPCs", "Quest givers", "Tauren characters"]
 | location | Splintertree Post, Ashenvale |
 | relatives | Taupo (brother) |
 
--Loruk Foreststrider** is a [tauren](tauren) [quest giver](quest giver) that can be found at [Splintertree Post](Splintertree Post) in [Ashenvale](Ashenvale).
+**Loruk Foreststrider** is a [tauren](tauren) [quest giver](quest giver) that can be found at [Splintertree Post](Splintertree Post) in [Ashenvale](Ashenvale).
 
 ## Quests
 - [quest: A Brother's Worried Mind] 

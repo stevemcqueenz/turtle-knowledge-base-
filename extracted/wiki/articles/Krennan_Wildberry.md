@@ -26,10 +26,10 @@ categories: ["Elwynn Forest NPCs", "Human characters", "Survival trainers", "Tur
 | status | Alive |
 | relatives | Tabetha Wildberry |
 
--Krennan Wildberry** is a [human](human) Journeyman [survival](survival) trainer located in [Elwynn Forest](Elwynn Forest) on the outskirts to [Stormwind City](Stormwind City).
+**Krennan Wildberry** is a [human](human) Journeyman [survival](survival) trainer located in [Elwynn Forest](Elwynn Forest) on the outskirts to [Stormwind City](Stormwind City).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The woods are dangerous, and civilization is often far away. I can teach you how to survive out in the harsh wilderness.
 
 ## Patch changes

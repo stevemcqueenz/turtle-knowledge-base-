@@ -27,7 +27,7 @@ categories: ["Draenei characters", "Moonwhisper Coast NPCs", "Quest givers", "Tu
 | status | Alive |
 | relatives | Ar'lia (son) |
 
--Moro'gai K'la** is a [draenei](draenei) quest giver located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Moro'gai K'la** is a [draenei](draenei) quest giver located in [Moro'gai Village](Moro'gai Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: Ar'lia of the Moro'gai] 
@@ -36,7 +36,7 @@ categories: ["Draenei characters", "Moonwhisper Coast NPCs", "Quest givers", "Tu
 - [quest: A Student's Determination] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Okhal-asha, stranger. I am Moro'gai K'la, chieftain of my people and I welcome you to our humble village. We are a peaceful folk, having fled our dying homeworld years ago in search of a safe haven. Nevertheless, danger and uncertainty plague my people's minds, as sinister forces have begun encroaching, threatening our dream of a new home. If your wish for tranquility resonates with ours, then please: Aid me and my people survive these new risks.
 
 ## Patch changes

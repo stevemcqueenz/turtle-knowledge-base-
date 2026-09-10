@@ -15,5 +15,5 @@ A [tribe](tribe) of [ogre](ogre)s that live throughout the [Arathi Highlands](Ar
 Their main holds include [Boulder'gor](Boulder'gor) and [Boulderfist Hall](Boulderfist Hall). 
 
 Notable Boulderfist Ogres:
--Kor'gresh Coldridge
--Or'Kalar
+- Kor'gresh Coldridge
+- Or'Kalar

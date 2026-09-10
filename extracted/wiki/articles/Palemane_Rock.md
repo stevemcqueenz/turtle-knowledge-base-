@@ -10,6 +10,6 @@ categories: ["Caves", "Gnoll territories", "Mulgore subzones", "Pages with broke
 ---
 # Palemane Rock
 
--Palemane Rock**35 64 Mulgore (g/s/c) is a cave in western [Mulgore](Mulgore) inhabited by [gnoll](gnoll)s of the [Palemane tribe](Palemane tribe). They are aggressive creatures and will attack any who wander too close.
+**Palemane Rock**35 64 Mulgore (g/s/c) is a cave in western [Mulgore](Mulgore) inhabited by [gnoll](gnoll)s of the [Palemane tribe](Palemane tribe). They are aggressive creatures and will attack any who wander too close.
 
 The gnolls live both inside the cave and in a camp outside, and the cave itself stretches fairly deep into the mountainside.

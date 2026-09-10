@@ -25,7 +25,7 @@ categories: ["General goods vendors", "Grim Reaches NPCs", "Turtle WoW content",
 | location | Dun Kithas, Grim Reaches |
 | status | Alive |
 
--Gazla Blackforge** is a [Wildhammer dwarf](Wildhammer dwarf) general goods vendor located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
+**Gazla Blackforge** is a [Wildhammer dwarf](Wildhammer dwarf) general goods vendor located in the town of [Dun Kithas](Dun Kithas) in the [Grim Reaches](Grim Reaches).
 
 ## Patch changes
 - (Patch 1.18.0|note=Added.)

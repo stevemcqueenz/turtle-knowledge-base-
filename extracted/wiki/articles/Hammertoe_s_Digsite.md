@@ -10,4 +10,4 @@ categories: ["Badlands subzones", "Dark Iron dwarf territories", "Excavation sit
 ---
 # Hammertoe's Digsite
 
--Hammertoe's Digsite** lies in the northern part of the [Badlands](Badlands). The dig has recently been abandoned by [Hammertoe](Hammertoe Grez) and taken over by a gang of [Dark Irons](Dark Iron dwarf), presumably part of the same force that has moved into [Uldaman](Uldaman).
+**Hammertoe's Digsite** lies in the northern part of the [Badlands](Badlands). The dig has recently been abandoned by [Hammertoe](Hammertoe Grez) and taken over by a gang of [Dark Irons](Dark Iron dwarf), presumably part of the same force that has moved into [Uldaman](Uldaman).

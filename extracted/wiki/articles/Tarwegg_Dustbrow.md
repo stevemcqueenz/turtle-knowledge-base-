@@ -24,7 +24,7 @@ categories: ["Dwarf characters", "Ironforge NPCs", "Quest givers", "Turtle WoW c
 | location | Hall of Explorers, Ironforge |
 | status | Alive |
 
--Tarwegg Dustbrow** is a [dwarf](dwarf) quest giver located in the [Hall of Explorers](Hall of Explorers) in [Ironforge](Ironforge).
+**Tarwegg Dustbrow** is a [dwarf](dwarf) quest giver located in the [Hall of Explorers](Hall of Explorers) in [Ironforge](Ironforge).
 
 ## Quests
 - [quest: In Search of Tauren Relics] 

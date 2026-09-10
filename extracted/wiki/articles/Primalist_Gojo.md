@@ -27,7 +27,7 @@ categories: ["Jungle troll characters", "Lapidis Isle NPCs", "Turtle WoW content
 | location | Hazzuri Glade, Lapidis Isle |
 | status | Alive |
 
--Primalist Gojo** is a [jungle troll](jungle troll) general goods vendor located in [Hazzuri Glade](Hazzuri Glade) in [Lapidis Isle](Lapidis Isle).
+**Primalist Gojo** is a [jungle troll](jungle troll) general goods vendor located in [Hazzuri Glade](Hazzuri Glade) in [Lapidis Isle](Lapidis Isle).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

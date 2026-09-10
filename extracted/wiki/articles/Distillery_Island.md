@@ -10,17 +10,10 @@ categories: ["Gillijim's Isle subzones", "Islands", "Turtle WoW content"]
 ---
 # Distillery Island
 
--Distillery Island** is the southern-most island of the [Southsea Sandbar](Southsea Sandbar) off the shores of [Gillijim's Isle](Gillijim's Isle). It is where the Southsea Pirates distill their Southsea Reserve moonshine. (ref: [quest: Southsea Reserve])
+**Distillery Island** is the southern-most island of the [Southsea Sandbar](Southsea Sandbar) off the shores of [Gillijim's Isle](Gillijim's Isle). It is where the Southsea Pirates distill their Southsea Reserve moonshine. (ref: [quest: Southsea Reserve])
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
-- 
-
-## Patch changes
+- - - - - - ## Patch changes
 - (Patch 1.16.0|note=Added.)
 
 ## References

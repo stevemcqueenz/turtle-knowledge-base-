@@ -33,8 +33,8 @@ Well then, you should seek out my friend Merrin Rockweaver, one of the many exca
 Head east from here and find Whelgar's Excavation site. It should be tucked against the southern mountains, so keep your eyes peeled explorer!
 
 ## Rewards
--375 [XP](XP)
--50 Reputation with [Ironforge](Ironforge)
+- 375 [XP](XP)
+- 50 Reputation with [Ironforge](Ironforge)
 ## Progress
 Yeah, can I help you? Things are a bit of a mess here.
 ## Completion

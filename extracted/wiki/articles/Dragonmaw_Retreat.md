@@ -25,7 +25,7 @@ categories: ["Dragonmaw Retreat", "Dungeons", "Turtle WoW content", "Wetlands"]
 | key | Lower Reserve Key |
 | bosses |  |
 
--Dragonmaw Retreat** is an instance dungeon that is located in the [Wetlands](Wetlands). Fragments of an older yet unknown dwarven civilization, these caverns were used as part of the mining networks of Grim Batol. Since its second abandonment, the [Dragonmaw](Dragonmaw clan) have carved this forgotten network into a base of operations. Now in possession of a shard of the [Demon Soul](Demon Soul), they'll stop at nothing to take back the Wetlands and the Grim Reaches with the help of their army of entranced red dragons.
+**Dragonmaw Retreat** is an instance dungeon that is located in the [Wetlands](Wetlands). Fragments of an older yet unknown dwarven civilization, these caverns were used as part of the mining networks of Grim Batol. Since its second abandonment, the [Dragonmaw](Dragonmaw clan) have carved this forgotten network into a base of operations. Now in possession of a shard of the [Demon Soul](Demon Soul), they'll stop at nothing to take back the Wetlands and the Grim Reaches with the help of their army of entranced red dragons.
 
 ## Geography
 ### Maps and subregions
@@ -40,11 +40,11 @@ WorldMap-DragonmawRetreat.jpg
 |}
 
 ## Dungeon denizens
--  [Ghost](Ghost)s
--  [Gnoll](Gnoll)s
--  [Orc](Orc)s
--  [Red dragon](Red dragon) (one, [Searistrasz](Searistrasz))
--  [Spider](Spider)s
+- [Ghost](Ghost)s
+- [Gnoll](Gnoll)s
+- [Orc](Orc)s
+- [Red dragon](Red dragon) (one, [Searistrasz](Searistrasz))
+- [Spider](Spider)s
 
 ## Quest guide
 {| class="fandom-table"

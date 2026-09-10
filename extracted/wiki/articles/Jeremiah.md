@@ -24,10 +24,10 @@ categories: ["Human characters", "Northwind NPCs", "Stormwind (kingdom)", "Turtl
 | location | Mildenhall Horse Farm, Northwind |
 | status | Alive |
 
--Jeremiah** is a [human](human) boy located at the [Mildenhall Horse Farm](Mildenhall Horse Farm) in [Northwind](Northwind). He's playing hide and seek with [Beatrice](Beatrice).
+**Jeremiah** is a [human](human) boy located at the [Mildenhall Horse Farm](Mildenhall Horse Farm) in [Northwind](Northwind). He's playing hide and seek with [Beatrice](Beatrice).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 Me and Betty are playing hide and seek. She never finds me in time for dinner though.
 
 ## Patch changes

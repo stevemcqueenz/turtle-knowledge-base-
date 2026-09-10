@@ -17,13 +17,7 @@ Stolgaz Keep was built to serve as a fortress to defend the Grim Reaches from an
 In addition to holding a critical position in the defense of the Grim Reaches, Stolgaz Keep housed some of the Wildhammer dwarves' most precious historical records. Lineages, royal decrees, journals of heroes long gone—entire volumes chronicling the rise of their people. (ref: [quest: The Lost Archives])
 
 ## NPCs
-- 
-- 
-- 
-- 
-- 
-- 
--  (rare)
+- - - - - - - (rare)
 
 ## Notes and trivia
 - Stolgaz Keep was named after [Mountaineer Steelwind](Mountaineer Steelwind)'s grandfather. (ref: [quest: The Dragonmaw War])

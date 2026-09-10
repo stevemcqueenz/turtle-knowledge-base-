@@ -26,11 +26,11 @@ categories: ["Dustwallow Marsh mobs", "Human characters"]
 | location | Deserter's Hideout, Dustwallow Marsh |
 | status | Killable |
 
--Deserter Turncoats** are [human](human)s located at the [Deserter's Hideout](Deserter's Hideout) in [Dustwallow Marsh](Dustwallow Marsh).
+**Deserter Turncoats** are [human](human)s located at the [Deserter's Hideout](Deserter's Hideout) in [Dustwallow Marsh](Dustwallow Marsh).
 
 ## Objective of
 - [quest: Daelin's Brigade] 
 - [quest: Theramore Deserters]
 
 ## Patch changes
--  **[Patch 1.16.4](Patch 1.16.4) (2022-12-20):** Added.
+- **[Patch 1.16.4](Patch 1.16.4) (2022-12-20):** Added.

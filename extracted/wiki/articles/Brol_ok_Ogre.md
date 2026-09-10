@@ -24,7 +24,7 @@ categories: ["Gilneas mobs", "Ogre characters", "Turtle WoW content"]
 | location | Brol'ok Mound, Gilneas |
 | status | Killable |
 
--Brol'ok Ogres** are ogres found in [Brol'ok Mound](Brol'ok Mound) in [Gilneas](Gilneas).
+**Brol'ok Ogres** are ogres found in [Brol'ok Mound](Brol'ok Mound) in [Gilneas](Gilneas).
 
 ## Objective of
 - Drops [Brol'ok Ogre Head](Brol'ok Ogre Head) for [quest: Brol'ok Ogre Bounty] and [quest: Vernon's Task].

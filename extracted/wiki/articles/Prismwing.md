@@ -22,7 +22,7 @@ categories: ["Faerie dragons", "Moonwhisper Coast NPCs", "Oddly classified chara
 | location | Grove of the Sun, Moonwhisper Coast |
 | status | Alive |
 
--Prismwing** is a [faerie dragon](faerie dragon) located in the [Grove of the Sun](Grove of the Sun) in [Moonwhisper Coast](Moonwhisper Coast).
+**Prismwing** is a [faerie dragon](faerie dragon) located in the [Grove of the Sun](Grove of the Sun) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Notes and trivia
 - Despite being a faerie dragon, Prismwing is classified as a humanoid.

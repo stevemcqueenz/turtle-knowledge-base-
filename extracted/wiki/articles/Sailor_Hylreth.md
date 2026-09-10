@@ -24,10 +24,10 @@ categories: ["Human characters", "Kul Tiras (kingdom)", "Stormwind City NPCs", "
 | location | Pig and Whistle Tavern, Stormwind City |
 | status | Alive |
 
--Sailor Hylreth** is a [human](human) located in the [Pig and Whistle Tavern](Pig and Whistle Tavern) within [Old Town](Old Town) in [Stormwind City](Stormwind City).
+**Sailor Hylreth** is a [human](human) located in the [Pig and Whistle Tavern](Pig and Whistle Tavern) within [Old Town](Old Town) in [Stormwind City](Stormwind City).
 
 ## Quotes
-  -Gossip**
+**Gossip**
 The south isn't so bad after all. Good ale, and a chance to stretch my weary sea legs from the long journey.
 
 What can I do for you, mainlander?

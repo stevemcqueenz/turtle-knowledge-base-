@@ -12,11 +12,11 @@ categories: ["Creatures", "Humanoids", "Pages with broken file links", "Troggs"]
 
 "*We drove the troggs out of [Gnomeregan](Gnomeregan), but then it all went so horribly wrong!* 
 
--Now our home is completely irradiated, and we gnomes have been scattered all over [Dun Morogh](Dun Morogh)...*"
+*Now our home is completely irradiated, and we gnomes have been scattered all over [Dun Morogh](Dun Morogh)...*"
 
   - [Felix Whindlebolt](Felix Whindlebolt), gnome, at Anvilmar ([Quest:A Refugee's Quandary](Quest:A Refugee's Quandary)).
 
-  -Troggs** are a simple humanoid lifeform. They are the first mutation of the [Earthen](Earthen), one of the two races created by the Titans. They retain the strength and rocky composition of the Earthen, but vastly reduced cognative abillities. They are made mostly of rock, and eat anything made of rock, including each other. The Titans considered them an unacceptable mutation, due to their stupidity and cannibalism. They are found mostly in [Khaz Modan](Khaz Modan), but also in [Ragefire Chasm](Ragefire Chasm).
+**Troggs** are a simple humanoid lifeform. They are the first mutation of the [Earthen](Earthen), one of the two races created by the Titans. They retain the strength and rocky composition of the Earthen, but vastly reduced cognative abillities. They are made mostly of rock, and eat anything made of rock, including each other. The Titans considered them an unacceptable mutation, due to their stupidity and cannibalism. They are found mostly in [Khaz Modan](Khaz Modan), but also in [Ragefire Chasm](Ragefire Chasm).
 
 Troggs are stupid. Very stupid. There are not very many trogg casters, only several shamans in Ragefire Chasm. They are usually easy to defeat. While they travel in large groups, they rarely seem to stay close enough together that attacking one will alert the others.
 

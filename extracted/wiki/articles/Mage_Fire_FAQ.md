@@ -23,10 +23,10 @@ Fire was heavily changed again in 1.18.0.  Ignite was changed back to a 4 second
 I've never leveled as fire, this is just some suggestions you can really choose whatever talents you want while leveling.
 
 Talent Priorities:
-1.Improved Fireball
-1.Elemental precision
-1.Burning soul
-1.Arcane concentration
+1. Improved Fireball
+1. Elemental precision
+1. Burning soul
+1. Arcane concentration
 
 ## What talents to use when raiding?
 Pepo raid

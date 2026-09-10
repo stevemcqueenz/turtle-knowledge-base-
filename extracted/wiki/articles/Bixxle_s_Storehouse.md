@@ -10,7 +10,7 @@ categories: ["Goblin territories", "Stubs", "Tel'Abim subzones", "Turtle WoW con
 ---
 # Bixxle's Storehouse
 
--Bixxle's Storehouse** is an area located at [Tel'Abim](Tel'Abim).
+**Bixxle's Storehouse** is an area located at [Tel'Abim](Tel'Abim).
 
 ## Patch changes
 - (Patch 1.16.4|note=Added.)

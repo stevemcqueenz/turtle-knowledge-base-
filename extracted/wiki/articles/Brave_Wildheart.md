@@ -25,13 +25,13 @@ categories: ["Moonwhisper Coast NPCs", "Quest enders", "Tauren characters", "Tur
 | location | Moonhoof Village, Moonwhisper Coast |
 | status | Alive |
 
--Brave Wildheart** is a [tauren](tauren) quest ender located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
+**Brave Wildheart** is a [tauren](tauren) quest ender located in [Moonhoof Village](Moonhoof Village) in [Moonwhisper Coast](Moonwhisper Coast).
 
 ## Quests
 - [quest: Report to Moonhoof Village] 
 
 ## Quotes
-  -Gossip**
+**Gossip**
 I am charged to secure Moonhoof Village from threats that encroach upon our borders. Though it seems as of recently I have become a babysitter tasked with keeping the peace.
 
 There have been a few squabbles which I have had to sort through, so please do not add fuel to the fire.

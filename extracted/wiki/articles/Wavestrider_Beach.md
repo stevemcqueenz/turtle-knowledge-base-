@@ -10,9 +10,9 @@ categories: ["Pages with broken file links", "Shores", "Tanaris subzones", "Turt
 ---
 # Wavestrider Beach
 
--Wavestrider Beach** is an area located on the eastern shore of [Tanaris](Tanaris). The beach stretches between [Steamwheedle Port](Steamwheedle Port) and [Zalashji's Den](Zalashji's Den). There are two burning ships far off the coast here and [Steeljaw Snapper](Steeljaw Snapper)s that are anywhere from lvl 42 to 47 roam the shoreline.
+**Wavestrider Beach** is an area located on the eastern shore of [Tanaris](Tanaris). The beach stretches between [Steamwheedle Port](Steamwheedle Port) and [Zalashji's Den](Zalashji's Den). There are two burning ships far off the coast here and [Steeljaw Snapper](Steeljaw Snapper)s that are anywhere from lvl 42 to 47 roam the shoreline.
 ## Quests involved with Wavestrider Beach
 - [quest: Tooga's Quest] - from NPC Tooga. Lead Tooga to his wife Torta in Steamwheedle Port.
 
 ## External link
--[Fishing drops from Wavestrider Beach](http://www.thottbot.com/?n=9240)
+- [Fishing drops from Wavestrider Beach](http://www.thottbot.com/?n=9240)

@@ -10,10 +10,10 @@ categories: ["Addon"]
 ---
 # ProcDoc
 
--ProcDoc** is a lightweight addon that visually alerts you when your character gains an instant or free-cast buff (procs), such as Clearcasting, Shadow Trance, Overpower, etc. It provides pulsing visual cues to help you never miss a proc.
+**ProcDoc** is a lightweight addon that visually alerts you when your character gains an instant or free-cast buff (procs), such as Clearcasting, Shadow Trance, Overpower, etc. It provides pulsing visual cues to help you never miss a proc.
 
 ## Installation
-  -GitAddonsManager**
+**GitAddonsManager**
 
 The easiest way to keep **ProcDoc** up to date is by using [GitAddonsManager](GitAddonsManager).
 
@@ -21,7 +21,7 @@ The easiest way to keep **ProcDoc** up to date is by using [GitAddonsManager](Gi
 # **Select the Branch:** Ensure that the master branch is selected.
 # **Update:** Using GitAddonsManager, you can check for and install updates for all your AddOns with a single click.
 
-  -Manual Installation**
+**Manual Installation**
 
 If you prefer manual installation, follow these steps:
 
@@ -54,21 +54,21 @@ Options:
 - **Sound Alerts:** Optional sound cues when procs occur (muted or volume adjustable).
 
 ## Supported Procs
-  -Warlock**
+**Warlock**
 - Shadow Trance
-  -Mage**
+**Mage**
 - Clearcasting
 - Netherwind Focus
 - Temporal Convergence
 - Flash Freeze
 - Arcane Surge
-  -Warrior**
+**Warrior**
 - Enrage
 - Overpower
 - Execute
 - Revenge
 - Counterattack
-  -Druid**
+**Druid**
 - Clearcasting
 - Nature’s Grace
 - Tiger’s Fury
@@ -76,24 +76,24 @@ Options:
 - Natural Boon
 - Arcane Eclipse
 - Nature Eclipse
-  -Rogue**
+**Rogue**
 - Remorseless
 - Riposte
 - Surprise Attack
-  -Shaman**
+**Shaman**
 - Clearcasting
 - Nature's Swiftness
 - Stormstrike
 - Flurry
-  -Priest**
+**Priest**
 - Resurgence
 - Enlightened
 - Searing Light
-  -Hunter**
+**Hunter**
 - Quick Shots
 - Counterattack
 - Mongoose Bite
-  -Paladin**
+**Paladin**
 - Hammer of Wrath
 
 ## Adding Custom Procs

@@ -50,26 +50,26 @@ Listen here pal, I am trying to make a living, so you either buy something or sc
 Of course unless you got something else to talk about but make it quick!
 
 ## Notes
-  -First clue**
+**First clue**
 Before you lies the body of a Dwarf Mountaineer.
 
   > Gossip: *Examine the body.*
 
   It appears that this dwarf wasn't only killed but also mutilated, the jaw was missing.
 
-  -Second clue**
+**Second clue**
 The canister was empty, its contents most likely were poured over what was still seemingly aflame.
 
   > Gossip: *Examine the canister.*
 
-  -Third clue**
+**Third clue**
 You are now certain that the new recruits were the ones to slaughter these dwarves.
 
 The missing jaw however is something that raises your suspicions, your next thought would be to ask the Goblin that camps south of where you are, at the Crossroads if he was the one to sell them the oil.
 
   > Gossip: *Take Scarlet Recruit's Insignia Ring.*
 
-  -Speaking with Kixxle**
+**Speaking with Kixxle**
 Greetings, potential customer! I've got many rare herbs for sale. Take a look.
 
   > Gossip: *Were you the one to sell an oil canister to a group of men dressed in scarlet?*

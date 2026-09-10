@@ -10,7 +10,7 @@ categories: ["Human territories", "Stormwind City subzones", "Waters"]
 ---
 # Canals (Stormwind City)
 
--The Canals** of Stormwind City are a series of waterways that wind their way through the city, separating each of its various districts. While these canals are mostly used for thoroughfare, they do house a few shops overlooking the marble pathways and docks, and it is a popular area for fishermen to spend time hauling small catches. The Canals also house the infamous [Stockade](Stockade).
+**The Canals** of Stormwind City are a series of waterways that wind their way through the city, separating each of its various districts. While these canals are mostly used for thoroughfare, they do house a few shops overlooking the marble pathways and docks, and it is a popular area for fishermen to spend time hauling small catches. The Canals also house the infamous [Stockade](Stockade).
 
 The Canals are accessible from every single district in Stormwind, and is indeed quite hard to not cross at one point while staying in Stormwind.
 

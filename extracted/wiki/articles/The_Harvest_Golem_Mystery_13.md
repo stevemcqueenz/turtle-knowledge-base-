@@ -39,7 +39,7 @@ Extraordinary. Great work. Those needles will serve me well. So thin, so durable
 I made a promise. Let me decipher this message.
 
 ## Notes
-  -On completion**
+**On completion**
   Franklin Hamar looks into the note.
   **Franklin Hamar says:** Awful handwriting, it's like the person writing this was blind. Alright, here it goes. Listen carefully.
   **Franklin Hamar says:** Tell [G.](Gilnid) that the people in Darkshire are getting delicious. Sorry, suspicious.

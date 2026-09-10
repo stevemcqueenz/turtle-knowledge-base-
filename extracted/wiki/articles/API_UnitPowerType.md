@@ -15,7 +15,7 @@ local powerType = UnitPowerType(unit);
 </syntaxhighlight>
 ----
 
-  - *Arguments***
+** *Arguments***
 
    (String unit)
 
@@ -24,7 +24,7 @@ local powerType = UnitPowerType(unit);
 
 ----
 
-  - *Returns***
+** *Returns***
 
    powerType
   ; powerType
@@ -37,7 +37,7 @@ local powerType = UnitPowerType(unit);
 
 ----
 
-  - *Example*<syntaxhighlight lang="lua">**
+** *Example*<syntaxhighlight lang="lua">**
 if (UnitPowerType("player") == 1) then
   ChatFrame1:AddMessage('players rage: ' .. UnitMana("player"));
 elseif (UnitPowerType("player") == 0) then
@@ -47,7 +47,7 @@ elseif (UnitPowerType("player") == 3) then
 end
 </syntaxhighlight>
 
-  - *Result*<syntaxhighlight lang="lua">**
+** *Result*<syntaxhighlight lang="lua">**
 'players rage: 0' - For warriors(and probably druids in bear form)
 'players energy: 0' - For Rogues (and druids in cat form)
 'players mana: 0' - Otherwise
@@ -55,7 +55,7 @@ end
 
 ----
 
-  - *Description***
+** *Description***
 
    Returns a number corresponding to the power type (e.g., mana, rage, energy or happiness) of the specified unit.
 

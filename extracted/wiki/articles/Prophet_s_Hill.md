@@ -10,6 +10,6 @@ categories: ["Hills", "Hyjal", "Undisplayed locations"]
 ---
 # Prophet's Hill
 
--Prophet's Hill** (ref: [quest: class=druid]) is a hill overlooking the southern road in [Hyjal](Hyjal) past [Darkhollow Pass](Darkhollow Pass). It is where the Prophet [Medivh](Medivh) met with the leaders of the [night elves](Night elf), [Alliance](Alliance), and [Horde](Horde) to unite them under the banner of the [Great Alliance](Great Alliance) in order to defeat the [Burning Legion](Burning Legion) at the end of the [Third War](Third War). The [Fourth Feather of Medivh](Fourth Feather of Medivh) can be found here.
+**Prophet's Hill** (ref: [quest: class=druid]) is a hill overlooking the southern road in [Hyjal](Hyjal) past [Darkhollow Pass](Darkhollow Pass). It is where the Prophet [Medivh](Medivh) met with the leaders of the [night elves](Night elf), [Alliance](Alliance), and [Horde](Horde) to unite them under the banner of the [Great Alliance](Great Alliance) in order to defeat the [Burning Legion](Burning Legion) at the end of the [Third War](Third War). The [Fourth Feather of Medivh](Fourth Feather of Medivh) can be found here.
 
 ## References

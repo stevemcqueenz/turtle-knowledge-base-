@@ -24,7 +24,7 @@ categories: ["Lapidis Isle mobs", "Ogre characters", "Turtle WoW content"]
 | status | Killable |
 | location | Gor'dosh Heights, Lapidis Isle |
 
--Gor'dosh Firethrowers** are [ogre](ogre)s located at [Gor'dosh Heights](Gor'dosh Heights) in [Lapidis Isle](Lapidis Isle).
+**Gor'dosh Firethrowers** are [ogre](ogre)s located at [Gor'dosh Heights](Gor'dosh Heights) in [Lapidis Isle](Lapidis Isle).
 
 ## Patch changes
 - (Patch 1.16.0|note=Added.)

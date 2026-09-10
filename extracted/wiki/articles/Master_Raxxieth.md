@@ -25,19 +25,19 @@ categories: ["Bosses", "Crescent Grove mobs", "Doomguard", "Turtle WoW content"]
 | status | Killable |
 | instance | Crescent Grove |
 
--Master Raxxieth** is the final boss of [the Crescent Grove](Crescent Grove).
+**Master Raxxieth** is the final boss of [the Crescent Grove](Crescent Grove).
 
 ## Abilities
 - Flamestrike
 
 ## Quotes
-  -Aggro**
+**Aggro**
   Do you think you can withstand the might of the Burning Legion?
 
-  -At 50%**
+**At 50%**
   Your interference will not stop us!
 
-  -Death**
+**Death**
   My death.. Means little in the grand scheme, mortals... Drink down your victory... It will mean nothing... In the end...
 
 ## Objective of

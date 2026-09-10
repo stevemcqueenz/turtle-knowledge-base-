@@ -24,7 +24,7 @@ categories: ["Gilneas mobs", "Human characters", "Turtle WoW content"]
 | location | Gilneas |
 | status | Killable |
 
--Greymane Enforcers** are humans found along the road to [Freyshear Keep](Freyshear Keep) in [Gilneas](Gilneas).
+**Greymane Enforcers** are humans found along the road to [Freyshear Keep](Freyshear Keep) in [Gilneas](Gilneas).
 
 ## Quotes
 - You won't leave here alive, outsider!

@@ -10,7 +10,7 @@ categories: ["Islands", "South Seas", "Stranglethorn Vale subzones"]
 ---
 # Jaguero Isle
 
--Jaguero Isle**, also referred to as **Jaguero Island**, (ref: [quest: Making a Statement]) is an island off the coast of [Stranglethorn Vale](Stranglethorn Vale) that is populated by [panther](panther)s and [gorilla](gorilla)s. [Princess Poobah](Princess Poobah), a captive [tauren](tauren), is kept there by an enormous [ape](ape) — [King Mukla](King Mukla).
+**Jaguero Isle**, also referred to as **Jaguero Island**, (ref: [quest: Making a Statement]) is an island off the coast of [Stranglethorn Vale](Stranglethorn Vale) that is populated by [panther](panther)s and [gorilla](gorilla)s. [Princess Poobah](Princess Poobah), a captive [tauren](tauren), is kept there by an enormous [ape](ape) — [King Mukla](King Mukla).
 
 Along the coast of the [Wild Shore](Wild Shore), you will find [Half-Buried Bottle](Half-Buried Bottle)s. One of them will contain a [Carefully Folded Note](Carefully Folded Note) which begins the questline:
 
@@ -18,6 +18,6 @@ Along the coast of the [Wild Shore](Wild Shore), you will find [Half-Buried Bott
   - [quest: Message in a Bottle]
 
 ## Trivia
--This area is a reference to ''''.
+- This area is a reference to ''''.
 
 ## References

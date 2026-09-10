@@ -10,4 +10,4 @@ categories: ["Furbolg territories", "Pages with broken file links", "Winterfall"
 ---
 # Timbermaw Post
 
--Timbermaw Post** is a small  [furbolg](furbolg) camp located southeast across the road from the [Frostfire Hot Springs](Frostfire Hot Springs), and west of [Lake Kel'Theril](Lake Kel'Theril). Although the name suggests that the camp was originally held by the [Timbermaw](Timbermaw), it is now in complete control of furbolgs from the corrupted [Winterfall](Winterfall) tribe.
+**Timbermaw Post** is a small  [furbolg](furbolg) camp located southeast across the road from the [Frostfire Hot Springs](Frostfire Hot Springs), and west of [Lake Kel'Theril](Lake Kel'Theril). Although the name suggests that the camp was originally held by the [Timbermaw](Timbermaw), it is now in complete control of furbolgs from the corrupted [Winterfall](Winterfall) tribe.
