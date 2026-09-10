@@ -1,0 +1,6438 @@
+{
+ "Abyssal Scepter": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2022-09-11",
+    "rate": "100%",
+    "sample_size": null,
+    "source": "n/a",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=24828#p24828"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Abyssal Scepter",
+  "sold_by": [],
+  "sources": []
+ },
+ "Ancient Jade Leggings (+8 Two-Handed Mace skill, reported at 6% drop chance)": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Emerald Sanctum",
+    "npc": "Solnius the Awakener"
+   }
+  ],
+  "item_id": null,
+  "name": "Ancient Jade Leggings (+8 Two-Handed Mace skill, reported at 6% drop chance)",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=130281#p130281",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91958#p91958",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=102971#p102971",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=149960#p149960",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=80796#p80796",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=129590#p129590",
+   "https://turtle-wow.fandom.com/wiki/Solnius",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=94829#p94829",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=95027#p95027",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=95765#p95765",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=69843#p69843"
+  ]
+ },
+ "Ar'pora, the Chieftain's Judgement": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Windhorn Canyon",
+    "npc": "Chieftain Shalk Blackwind"
+   }
+  ],
+  "item_id": null,
+  "name": "Ar'pora, the Chieftain's Judgement",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Chieftain_Shalk_Blackwind"
+  ]
+ },
+ "Araxxna's Hatchling (pet)": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Lower Karazhan Halls",
+    "npc": "Brood Queen Araxxna"
+   }
+  ],
+  "item_id": null,
+  "name": "Araxxna's Hatchling (pet)",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=160087#p160087",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=160089#p160089",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=118948#p118948",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=52542#p52542",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=160125#p160125"
+  ]
+ },
+ "Araxxna's Husk (140 armor, 15 stamina, 1% dodge)": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Lower Karazhan Halls",
+    "npc": "Brood Queen Araxxna"
+   }
+  ],
+  "item_id": null,
+  "name": "Araxxna's Husk (140 armor, 15 stamina, 1% dodge)",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=160087#p160087",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=160089#p160089",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=118948#p118948",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=52542#p52542",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=160125#p160125"
+  ]
+ },
+ "Armored Thalassian Unicorn": {
+  "drop_rates": [],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Armored Thalassian Unicorn",
+  "sold_by": [
+   {
+    "location": "Thalassian Highlands",
+    "npc": "Vanira Quel'Belore",
+    "price": "100g"
+   }
+  ],
+  "sources": []
+ },
+ "Arthur's Soul Fragment (quest: The Will of Balor)": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Lady Drazare"
+   }
+  ],
+  "item_id": null,
+  "name": "Arthur's Soul Fragment (quest: The Will of Balor)",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Lady_Drazare"
+  ]
+ },
+ "Ashen Leggings": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Regent-Lords of Gilneas"
+   }
+  ],
+  "item_id": null,
+  "name": "Ashen Leggings",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Regent-Lords_of_Gilneas"
+  ]
+ },
+ "Bag of the Vast Conscious": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2023-12-01",
+    "rate": "15% -> 25%; guaranteed from the Favor",
+    "sample_size": null,
+    "source": "Solnius (Emerald Sanctum)",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=79558#p79558"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Bag of the Vast Conscious",
+  "sold_by": [],
+  "sources": []
+ },
+ "Balanced Razor Shivs": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Scarlet Monastery",
+    "npc": "Armory Quartermaster Daghelm"
+   }
+  ],
+  "item_id": null,
+  "name": "Balanced Razor Shivs",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709",
+   "https://turtlecraft.gg/classic-dungeons-update",
+   "https://turtle-wow.fandom.com/wiki/Armory_Quartermaster_Daghelm"
+  ]
+ },
+ "Balor Sigil Ring (quest: Skull And Bones)": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Duke Balor the IV"
+   }
+  ],
+  "item_id": null,
+  "name": "Balor Sigil Ring (quest: Skull And Bones)",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Duke_Balor_the_IV"
+  ]
+ },
+ "Band of Calamity": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "Har'gesh Doomcaller"
+   }
+  ],
+  "item_id": null,
+  "name": "Band of Calamity",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Har%27gesh_Doomcaller",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177"
+  ]
+ },
+ "Band of Hailar": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Frostmane Hollow",
+    "npc": "Hailar the Frigid"
+   }
+  ],
+  "item_id": null,
+  "name": "Band of Hailar",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Hailar_the_Frigid"
+  ]
+ },
+ "Band of Piercing Shadows": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Marshal Magnus Greystone"
+   }
+  ],
+  "item_id": null,
+  "name": "Band of Piercing Shadows",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Marshal_Magnus_Greystone",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=111130#p111130"
+  ]
+ },
+ "Band of Subservience": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Chieftain Stormsong"
+   }
+  ],
+  "item_id": null,
+  "name": "Band of Subservience",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Chieftain_Stormsong"
+  ]
+ },
+ "Band of the Claw": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Wailing Caverns",
+    "npc": "Vangros"
+   }
+  ],
+  "item_id": null,
+  "name": "Band of the Claw",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=116739#p116739",
+   "https://turtle-wow.fandom.com/wiki/Vangros"
+  ]
+ },
+ "Bands of Ranathos": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "The Crescent Grove",
+    "npc": "Keeper Ranathos"
+   }
+  ],
+  "item_id": null,
+  "name": "Bands of Ranathos",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Keeper_Ranathos",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615"
+  ]
+ },
+ "Belt of Binding": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Frostmane Hollow",
+    "npc": "Hailar the Frigid"
+   }
+  ],
+  "item_id": null,
+  "name": "Belt of Binding",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Hailar_the_Frigid"
+  ]
+ },
+ "Betrayer": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "The Crescent Grove",
+    "npc": "Fenektis the Deceiver"
+   }
+  ],
+  "item_id": null,
+  "name": "Betrayer",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Fenektis_the_Deceiver",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615"
+  ]
+ },
+ "Black Lotus": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2024-04-23",
+    "rate": "2% -> 4%",
+    "sample_size": null,
+    "source": "Dreamfoil / Mountain Silversage / Plaguebloom / Icecap",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=93361#p93361",
+     "https://forum.turtlecraft.gg/viewtopic.php?p=93396#p93396"
+    ]
+   },
+   {
+    "authority": "player",
+    "date": "2026-03-31",
+    "rate": "\"well over 30%\" on Ambershire vs 4% on Nordanaar",
+    "sample_size": null,
+    "source": "herb nodes on the Ambershire realm",
+    "status": "CONTESTED - disputed the same day",
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=173493#p173493"
+    ]
+   },
+   {
+    "authority": "player",
+    "date": "2026-03-31",
+    "rate": "disputed: \"I don't get 1 per day. In 40-50 gathers\"",
+    "sample_size": "40-50 gathers",
+    "source": "herb nodes on the Ambershire realm",
+    "status": "CONTESTED - rebuts the previous record",
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=173515#p173515"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Black Lotus",
+  "sold_by": [],
+  "sources": []
+ },
+ "Black Lotus (additional chance from high-level herbs)": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2023-10-18",
+    "rate": "0.5% baseline",
+    "sample_size": null,
+    "source": "Dreamfoil / Mountain Silversage / Plaguebloom / Icecap",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=71753#p71753"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Black Lotus (additional chance from high-level herbs)",
+  "sold_by": [],
+  "sources": []
+ },
+ "Black Lotus and Arcanite Bar": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2024-04-24",
+    "rate": "4% Black Lotus, 2% Arcanite Bar",
+    "sample_size": null,
+    "source": "low-level herbs e.g. Peacebloom",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=93400#p93400"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Black Lotus and Arcanite Bar",
+  "sold_by": [],
+  "sources": []
+ },
+ "Blackcowl Sash": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Dustivan Blackcowl"
+   }
+  ],
+  "item_id": null,
+  "name": "Blackcowl Sash",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Dustivan_Blackcowl"
+  ]
+ },
+ "Blackflame Wand": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "The Crescent Grove",
+    "npc": "Fenektis the Deceiver"
+   }
+  ],
+  "item_id": null,
+  "name": "Blackflame Wand",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Fenektis_the_Deceiver",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615"
+  ]
+ },
+ "Blackhammer Pauldrons": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "High Foreman Bargul Blackhammer"
+   }
+  ],
+  "item_id": null,
+  "name": "Blackhammer Pauldrons",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/High_Foreman_Bargul_Blackhammer",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177"
+  ]
+ },
+ "Blackroot Totem": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2026-03-31",
+    "rate": "\"increased\" - no figure",
+    "sample_size": null,
+    "source": "Moonwhisper Coast",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Blackroot Totem",
+  "sold_by": [],
+  "sources": []
+ },
+ "Blacksmith Hammer": {
+  "drop_rates": [],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Blacksmith Hammer",
+  "sold_by": [
+   {
+    "location": null,
+    "npc": "Mining Supplier (generic)",
+    "price": "20c"
+   }
+  ],
+  "sources": []
+ },
+ "Blacksmithing plans as mob drops": {
+  "drop_rates": [
+   {
+    "authority": "player",
+    "date": "2025-05-27",
+    "rate": "\"the droprate seems very low every time\"; asks how accurate the Turtle database rates are",
+    "sample_size": null,
+    "source": "world mobs",
+    "status": "question never answered",
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=133221#p133221"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Blacksmithing plans as mob drops",
+  "sold_by": [],
+  "sources": []
+ },
+ "Blackstone Stompers": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "Hatereaver Annihilator"
+   }
+  ],
+  "item_id": null,
+  "name": "Blackstone Stompers",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Hatereaver_Annihilator"
+  ]
+ },
+ "Blackwind Facemask": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Windhorn Canyon",
+    "npc": "Prophet Stormhoof"
+   }
+  ],
+  "item_id": null,
+  "name": "Blackwind Facemask",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Prophet_Stormhoof"
+  ]
+ },
+ "Blackwind Striker": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Windhorn Canyon",
+    "npc": "Pathun Duskhide"
+   }
+  ],
+  "item_id": null,
+  "name": "Blackwind Striker",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Pathun_Duskhide"
+  ]
+ },
+ "Blood-Spattered Helm": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "The Crescent Grove",
+    "npc": "Master Raxxieth"
+   }
+  ],
+  "item_id": null,
+  "name": "Blood-Spattered Helm",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Master_Raxxieth",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=129934#p129934"
+  ]
+ },
+ "Blood-etched Fetish": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Razorfen Downs",
+    "npc": "Death Prophet Rakameg"
+   }
+  ],
+  "item_id": null,
+  "name": "Blood-etched Fetish",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://turtle-wow.fandom.com/wiki/Death_Prophet_Rakameg"
+  ]
+ },
+ "Bloodcaller's Decapitator": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Windhorn Canyon",
+    "npc": "Walgan Bloodcaller"
+   }
+  ],
+  "item_id": null,
+  "name": "Bloodcaller's Decapitator",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Walgan_Bloodcaller"
+  ]
+ },
+ "Bloodied Almanac": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Remains of the Innocent"
+   }
+  ],
+  "item_id": null,
+  "name": "Bloodied Almanac",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Remains_of_the_Innocent"
+  ]
+ },
+ "Bloodstained Fangblade": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Zul'Farrak",
+    "npc": "Zel'jeb the Ancient"
+   }
+  ],
+  "item_id": null,
+  "name": "Bloodstained Fangblade",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://turtle-wow.fandom.com/wiki/Zel%27jeb_the_Ancient"
+  ]
+ },
+ "Bonespeaker Cane": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Windhorn Canyon",
+    "npc": "Bonespeaker Narlgom"
+   }
+  ],
+  "item_id": null,
+  "name": "Bonespeaker Cane",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Bonespeaker_Narlgom"
+  ]
+ },
+ "Boots of Espionage": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Genn Greymane"
+   }
+  ],
+  "item_id": null,
+  "name": "Boots of Espionage",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Genn_Greymane_(tactics)"
+  ]
+ },
+ "Bow of the Grove": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "The Crescent Grove",
+    "npc": "Keeper Ranathos"
+   }
+  ],
+  "item_id": null,
+  "name": "Bow of the Grove",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Keeper_Ranathos",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615"
+  ]
+ },
+ "Bracers of the Bloodbound": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Zul'Farrak",
+    "npc": "Zel'jeb the Ancient"
+   }
+  ],
+  "item_id": null,
+  "name": "Bracers of the Bloodbound",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://turtle-wow.fandom.com/wiki/Zel%27jeb_the_Ancient"
+  ]
+ },
+ "Bramblethorn Girdle": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Razorfen Kraul",
+    "npc": "Rotthorn"
+   }
+  ],
+  "item_id": null,
+  "name": "Bramblethorn Girdle",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://turtle-wow.fandom.com/wiki/Rotthorn"
+  ]
+ },
+ "Call of Shadow": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "Har'gesh Doomcaller"
+   }
+  ],
+  "item_id": null,
+  "name": "Call of Shadow",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Har%27gesh_Doomcaller",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177"
+  ]
+ },
+ "Canyon's Barricade": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Windhorn Canyon",
+    "npc": "Chieftain Shalk Blackwind"
+   }
+  ],
+  "item_id": null,
+  "name": "Canyon's Barricade",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Chieftain_Shalk_Blackwind"
+  ]
+ },
+ "Canyonhide Gloves": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Windhorn Canyon",
+    "npc": "Walgan Bloodcaller"
+   }
+  ],
+  "item_id": null,
+  "name": "Canyonhide Gloves",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Walgan_Bloodcaller"
+  ]
+ },
+ "Chainlinked Cloak": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Marshal Magnus Greystone"
+   }
+  ],
+  "item_id": null,
+  "name": "Chainlinked Cloak",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Marshal_Magnus_Greystone",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=111130#p111130"
+  ]
+ },
+ "Chainmail of Writhing Miasma": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Ighal'for -> Mergothid"
+   }
+  ],
+  "item_id": null,
+  "name": "Chainmail of Writhing Miasma",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Mergothid",
+   "https://turtle-wow.fandom.com/wiki/Ighal%27for",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=147116#p147116",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=148454#p148454"
+  ]
+ },
+ "Champion's Sandhelm": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Zul'Farrak",
+    "npc": "Farraki Arena (Kath'zen the Brutal, Juthza the Cunning, Champion Razjal the Quick)"
+   }
+  ],
+  "item_id": null,
+  "name": "Champion's Sandhelm",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=159994#p159994",
+   "https://turtle-wow.fandom.com/wiki/Farraki_Arena"
+  ]
+ },
+ "Cheap Goblin's Oil": {
+  "drop_rates": [],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Cheap Goblin's Oil",
+  "sold_by": [
+   {
+    "location": "Stranglethorn Vale",
+    "npc": "Mazk Snipeshot",
+    "price": "40s 50c (2019); 45s (2023)"
+   }
+  ],
+  "sources": []
+ },
+ "Chemist's Shawl": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "The Deadmines",
+    "npc": "Jared Voss"
+   }
+  ],
+  "item_id": null,
+  "name": "Chemist's Shawl",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=166661#p166661",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=112126#p112126",
+   "https://turtle-wow.fandom.com/wiki/Jared_Voss",
+   "https://turtlecraft.gg/classic-dungeons-update"
+  ]
+ },
+ "Circle of Flame": {
+  "drop_rates": [
+   {
+    "authority": "player",
+    "date": "2022-08-13",
+    "rate": "first seen in 1000 BRD runs",
+    "sample_size": "1000 runs, 1",
+    "source": "Blackrock Depths",
+    "status": "cited approvingly as a good ultra-rare",
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=22171#p22171"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Circle of Flame",
+  "sold_by": [],
+  "sources": []
+ },
+ "Circlet of Cenarius": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "The Crescent Grove",
+    "npc": "Keeper Ranathos"
+   }
+  ],
+  "item_id": null,
+  "name": "Circlet of Cenarius",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Keeper_Ranathos",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615"
+  ]
+ },
+ "Circlet of the Crescent Moon": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "The Crescent Grove",
+    "npc": "High Priestess A'lathea"
+   }
+  ],
+  "item_id": null,
+  "name": "Circlet of the Crescent Moon",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/High_Priestess_A%27lathea",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615"
+  ]
+ },
+ "Cloak of the Dark Veil": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Dustivan Blackcowl"
+   }
+  ],
+  "item_id": null,
+  "name": "Cloak of the Dark Veil",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Dustivan_Blackcowl"
+  ]
+ },
+ "Cloudrender Pants": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Windhorn Canyon",
+    "npc": "Bonespeaker Narlgom"
+   }
+  ],
+  "item_id": null,
+  "name": "Cloudrender Pants",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Bonespeaker_Narlgom"
+  ]
+ },
+ "Coil of Sturdy Rope": {
+  "drop_rates": [],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Coil of Sturdy Rope",
+  "sold_by": [
+   {
+    "location": "Stranglethorn Vale",
+    "npc": "Jaquilina Dramet",
+    "price": "35s"
+   }
+  ],
+  "sources": []
+ },
+ "Coilscale Ring": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Windhorn Canyon",
+    "npc": "Ahgk'tos the Pure"
+   }
+  ],
+  "item_id": null,
+  "name": "Coilscale Ring",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Ahgk%27tos_the_Pure"
+  ]
+ },
+ "Core of Mycellakos": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Mycellakos"
+   }
+  ],
+  "item_id": null,
+  "name": "Core of Mycellakos",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Mycellakos"
+  ]
+ },
+ "Corrosive Core": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "Corrosis"
+   }
+  ],
+  "item_id": null,
+  "name": "Corrosive Core",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Corrosis"
+  ]
+ },
+ "Corrosive Vial": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "The Deadmines",
+    "npc": "Jared Voss"
+   }
+  ],
+  "item_id": null,
+  "name": "Corrosive Vial",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=166661#p166661",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=112126#p112126",
+   "https://turtle-wow.fandom.com/wiki/Jared_Voss",
+   "https://turtlecraft.gg/classic-dungeons-update"
+  ]
+ },
+ "Craftsman's Pants": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "The Deadmines",
+    "npc": "Masterpiece Harvester"
+   }
+  ],
+  "item_id": null,
+  "name": "Craftsman's Pants",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980",
+   "https://turtle-wow.fandom.com/wiki/Masterpiece_Harvester"
+  ]
+ },
+ "Creeper Root": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2025-02-21",
+    "rate": "30% -> 40%",
+    "sample_size": null,
+    "source": "Ruins Creeper",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=120590#p120590"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Creeper Root",
+  "sold_by": [],
+  "sources": []
+ },
+ "Crescent Grove Staff": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "The Crescent Grove",
+    "npc": "Warden Liferoot"
+   },
+   {
+    "instance": "The Crescent Grove",
+    "npc": "Warden Treeshade"
+   }
+  ],
+  "item_id": null,
+  "name": "Crescent Grove Staff",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Warden_Liferoot",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://turtle-wow.fandom.com/wiki/Warden_Treeshade"
+  ]
+ },
+ "Crescent Sigil": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "The Crescent Grove",
+    "npc": "High Priestess A'lathea"
+   }
+  ],
+  "item_id": null,
+  "name": "Crescent Sigil",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/High_Priestess_A%27lathea",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615"
+  ]
+ },
+ "Crown of Balor (quest: The Late Duke Balor)": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Duke Balor the IV"
+   }
+  ],
+  "item_id": null,
+  "name": "Crown of Balor (quest: The Late Duke Balor)",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Duke_Balor_the_IV"
+  ]
+ },
+ "Crown of Corruption": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "The Crescent Grove",
+    "npc": "Master Raxxieth"
+   }
+  ],
+  "item_id": null,
+  "name": "Crown of Corruption",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Master_Raxxieth",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=129934#p129934"
+  ]
+ },
+ "Crown of Oppression": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Subjugator Halthas Shadecrest"
+   }
+  ],
+  "item_id": null,
+  "name": "Crown of Oppression",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Subjugator_Halthas_Shadecrest"
+  ]
+ },
+ "Cuffs of Dawnfall": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "Har'gesh Doomcaller"
+   }
+  ],
+  "item_id": null,
+  "name": "Cuffs of Dawnfall",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Har%27gesh_Doomcaller",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177"
+  ]
+ },
+ "Cuffs of Evocation": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Scarlet Monastery",
+    "npc": "Armory Quartermaster Daghelm"
+   }
+  ],
+  "item_id": null,
+  "name": "Cuffs of Evocation",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709",
+   "https://turtlecraft.gg/classic-dungeons-update",
+   "https://turtle-wow.fandom.com/wiki/Armory_Quartermaster_Daghelm"
+  ]
+ },
+ "Dagger of Sinister Secrets": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Dustivan Blackcowl"
+   }
+  ],
+  "item_id": null,
+  "name": "Dagger of Sinister Secrets",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Dustivan_Blackcowl"
+  ]
+ },
+ "Dark Iron Hooked Net": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "High Foreman Bargul Blackhammer"
+   }
+  ],
+  "item_id": null,
+  "name": "Dark Iron Hooked Net",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/High_Foreman_Bargul_Blackhammer",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177"
+  ]
+ },
+ "Darkwatch Pants": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Matthias Holtz"
+   }
+  ],
+  "item_id": null,
+  "name": "Darkwatch Pants",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Matthias_Holtz"
+  ]
+ },
+ "Deadwood Headdress Feather": {
+  "drop_rates": [
+   {
+    "authority": "player",
+    "date": "2019-10-18",
+    "rate": "~1200 kills over two characters, zero drops",
+    "sample_size": "~1200 kills, 0",
+    "source": "Deadwood furbolgs (Felwood)",
+    "status": "unanswered",
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=4247#p4247"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Deadwood Headdress Feather",
+  "sold_by": [],
+  "sources": []
+ },
+ "Deathtotem Relic": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Windhorn Canyon",
+    "npc": "Prophet Stormhoof"
+   }
+  ],
+  "item_id": null,
+  "name": "Deathtotem Relic",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Prophet_Stormhoof"
+  ]
+ },
+ "Decoy Dragonling Remote": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "Engineer Figgles"
+   }
+  ],
+  "item_id": null,
+  "name": "Decoy Dragonling Remote",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Engineer_Figgles",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177"
+  ]
+ },
+ "Defias Longbow (added 2026-01-27)": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "The Deadmines",
+    "npc": "Jared Voss"
+   }
+  ],
+  "item_id": null,
+  "name": "Defias Longbow (added 2026-01-27)",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=166661#p166661",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=112126#p112126",
+   "https://turtle-wow.fandom.com/wiki/Jared_Voss",
+   "https://turtlecraft.gg/classic-dungeons-update"
+  ]
+ },
+ "Demon Hair Bow": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Lady Drazare"
+   }
+  ],
+  "item_id": null,
+  "name": "Demon Hair Bow",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Lady_Drazare"
+  ]
+ },
+ "Desecration": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Tower of Karazhan",
+    "npc": "Kruul"
+   }
+  ],
+  "item_id": null,
+  "name": "Desecration",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=130900#p130900",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=136891#p136891",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=132195#p132195",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=128053#p128053",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=158027#p158027",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=170517#p170517",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=166667#p166667",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=162492#p162492",
+   "https://turtle-wow.fandom.com/wiki/Kruul"
+  ]
+ },
+ "Devout Mantle (20%) and Lightforge Spaulders (10%)": {
+  "drop_rates": [
+   {
+    "authority": "player",
+    "date": "2024-02-06",
+    "rate": "20+ runs, neither dropped; same reported on the Tel'Abim realm",
+    "sample_size": "20+ runs, 0",
+    "source": "UBRS",
+    "status": "unanswered",
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=87109#p87109",
+     "https://forum.turtlecraft.gg/viewtopic.php?p=87130#p87130"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Devout Mantle (20%) and Lightforge Spaulders (10%)",
+  "sold_by": [],
+  "sources": []
+ },
+ "Devout Skirt": {
+  "drop_rates": [
+   {
+    "authority": "player",
+    "date": "2024-12-31",
+    "rate": "40+ runs, never seen; needed for a questline",
+    "sample_size": "40+ runs, 0",
+    "source": "Stratholme Undead",
+    "status": "unanswered",
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=115009#p115009"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Devout Skirt",
+  "sold_by": [],
+  "sources": []
+ },
+ "Dissolved Hookblade": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Remains of the Innocent"
+   }
+  ],
+  "item_id": null,
+  "name": "Dissolved Hookblade",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Remains_of_the_Innocent"
+  ]
+ },
+ "Doomcaller Staff": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "Har'gesh Doomcaller"
+   }
+  ],
+  "item_id": null,
+  "name": "Doomcaller Staff",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Har%27gesh_Doomcaller",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177"
+  ]
+ },
+ "Dragonmaw Bracers/Greaves/Hauberk/Leggings, Stormreaver Boots/Belt": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2025-09-02",
+    "rate": "0.11% -> 1.35%",
+    "sample_size": null,
+    "source": "Grim Reaches / Balor content",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=149960#p149960"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Dragonmaw Bracers/Greaves/Hauberk/Leggings, Stormreaver Boots/Belt",
+  "sold_by": [],
+  "sources": []
+ },
+ "Dreamscale": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2023-12-01",
+    "rate": "48% -> guaranteed",
+    "sample_size": null,
+    "source": "Solnius (Emerald Sanctum)",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=79558#p79558"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Dreamscale",
+  "sold_by": [],
+  "sources": []
+ },
+ "Dungeon Set 1 pieces": {
+  "drop_rates": [
+   {
+    "authority": "player",
+    "date": "2022-09-12",
+    "rate": "200+ UBRS runs for the Lightbringer chestplate, seen once",
+    "sample_size": "200+ runs, 1",
+    "source": "Baron Rivendare, Darkmaster Gandling",
+    "status": "unanswered",
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=24939#p24939"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Dungeon Set 1 pieces",
+  "sold_by": [],
+  "sources": []
+ },
+ "E'ko items": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2023-05-09",
+    "rate": "party loot removed, raised to 60%",
+    "sample_size": null,
+    "source": "Winterspring",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=45215#p45215"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "E'ko items",
+  "sold_by": [],
+  "sources": []
+ },
+ "Ebonmere Deed (quest: Ebonmere Affairs)": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Dustivan Blackcowl"
+   }
+  ],
+  "item_id": null,
+  "name": "Ebonmere Deed (quest: Ebonmere Affairs)",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Dustivan_Blackcowl"
+  ]
+ },
+ "Elder Crone's Sigil Ring": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Windhorn Canyon",
+    "npc": "Prophet Stormhoof"
+   }
+  ],
+  "item_id": null,
+  "name": "Elder Crone's Sigil Ring",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Prophet_Stormhoof"
+  ]
+ },
+ "Electroconductive Mitts": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "Engineer Figgles"
+   }
+  ],
+  "item_id": null,
+  "name": "Electroconductive Mitts",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Engineer_Figgles",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177"
+  ]
+ },
+ "Elemental Air": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2025-08-26",
+    "rate": "reduced to 20%",
+    "sample_size": null,
+    "source": "Renegade Air Elemental",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=148454#p148454"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Elemental Air",
+  "sold_by": [],
+  "sources": []
+ },
+ "Emerald Drake (mount, added 2025-09-02)": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Emerald Sanctum",
+    "npc": "Solnius the Awakener"
+   }
+  ],
+  "item_id": null,
+  "name": "Emerald Drake (mount, added 2025-09-02)",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=130281#p130281",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91958#p91958",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=102971#p102971",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=149960#p149960",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=80796#p80796",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=129590#p129590",
+   "https://turtle-wow.fandom.com/wiki/Solnius",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=94829#p94829",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=95027#p95027",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=95765#p95765",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=69843#p69843"
+  ]
+ },
+ "Emerald Dream Frog pet": {
+  "drop_rates": [
+   {
+    "authority": "player",
+    "date": "2024-04-04",
+    "rate": "soft-reserved weekly for half a year, never dropped",
+    "sample_size": "~26 lockouts, 0",
+    "source": "Emerald Sanctum",
+    "status": "unanswered",
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=92070#p92070"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Emerald Dream Frog pet",
+  "sold_by": [],
+  "sources": []
+ },
+ "Emerald Sanctum crafting recipes": {
+  "drop_rates": [
+   {
+    "authority": "player",
+    "date": "2024-04-04",
+    "rate": "\"4% per week is brutal\"",
+    "sample_size": null,
+    "source": "Emerald Sanctum",
+    "status": "rate is a database value",
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=92063#p92063"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Emerald Sanctum crafting recipes",
+  "sold_by": [],
+  "sources": []
+ },
+ "Empowered Power Core": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "Hatereaver Annihilator"
+   }
+  ],
+  "item_id": null,
+  "name": "Empowered Power Core",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Hatereaver_Annihilator"
+  ]
+ },
+ "Enraging Waistwraps": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Wailing Caverns",
+    "npc": "Vangros"
+   }
+  ],
+  "item_id": null,
+  "name": "Enraging Waistwraps",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=116739#p116739",
+   "https://turtle-wow.fandom.com/wiki/Vangros"
+  ]
+ },
+ "Ephemeral Pendant": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2025-06-24",
+    "rate": "4% -> 10% (2025-04-16), then 20% (2025-06-24)",
+    "sample_size": null,
+    "source": "Outland bosses / all encounters",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=126946#p126946",
+     "https://forum.turtlecraft.gg/viewtopic.php?p=136891#p136891"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Ephemeral Pendant",
+  "sold_by": [],
+  "sources": []
+ },
+ "Essence of Eranikus": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2023-04-03",
+    "rate": "100%",
+    "sample_size": null,
+    "source": "n/a",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=40087#p40087"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Essence of Eranikus",
+  "sold_by": [],
+  "sources": []
+ },
+ "Eye of the Abyss": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2023-01-21",
+    "rate": "around 1%",
+    "sample_size": null,
+    "source": "Antnormi (Caverns of Time: Black Morass)",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Eye of the Abyss",
+  "sold_by": [],
+  "sources": []
+ },
+ "Eye of the Abyss (epic, around 1% drop chance)": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Caverns of Time: Black Morass",
+    "npc": "Antnormi"
+   }
+  ],
+  "item_id": null,
+  "name": "Eye of the Abyss (epic, around 1% drop chance)",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049"
+  ]
+ },
+ "Eyes of the Beholder": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Ighal'for -> Mergothid"
+   }
+  ],
+  "item_id": null,
+  "name": "Eyes of the Beholder",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Mergothid",
+   "https://turtle-wow.fandom.com/wiki/Ighal%27for",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=147116#p147116",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=148454#p148454"
+  ]
+ },
+ "Fabric of Time": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Caverns of Time: Black Morass",
+    "npc": "Epidamu"
+   }
+  ],
+  "item_id": null,
+  "name": "Fabric of Time",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868"
+  ]
+ },
+ "Fashion Coin": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "The Crescent Grove",
+    "npc": "Grovetender Engryss"
+   },
+   {
+    "instance": "The Crescent Grove",
+    "npc": "Keeper Ranathos"
+   },
+   {
+    "instance": "The Crescent Grove",
+    "npc": "High Priestess A'lathea"
+   },
+   {
+    "instance": "The Crescent Grove",
+    "npc": "Fenektis the Deceiver"
+   },
+   {
+    "instance": "The Crescent Grove",
+    "npc": "Master Raxxieth"
+   },
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "Engineer Figgles"
+   },
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "High Foreman Bargul Blackhammer"
+   },
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "Hatereaver Annihilator"
+   },
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "Har'gesh Doomcaller"
+   }
+  ],
+  "item_id": null,
+  "name": "Fashion Coin",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Grovetender_Engryss",
+   "https://turtle-wow.fandom.com/wiki/Keeper_Ranathos",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://turtle-wow.fandom.com/wiki/High_Priestess_A%27lathea",
+   "https://turtle-wow.fandom.com/wiki/Fenektis_the_Deceiver",
+   "https://turtle-wow.fandom.com/wiki/Master_Raxxieth",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=129934#p129934",
+   "https://turtle-wow.fandom.com/wiki/Engineer_Figgles",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177",
+   "https://turtle-wow.fandom.com/wiki/High_Foreman_Bargul_Blackhammer",
+   "https://turtle-wow.fandom.com/wiki/Hatereaver_Annihilator",
+   "https://turtle-wow.fandom.com/wiki/Har%27gesh_Doomcaller"
+  ]
+ },
+ "Felflame Shard": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "The Crescent Grove",
+    "npc": "Fenektis the Deceiver"
+   }
+  ],
+  "item_id": null,
+  "name": "Felflame Shard",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Fenektis_the_Deceiver",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615"
+  ]
+ },
+ "Felforged Dreadhound": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Tower of Karazhan",
+    "npc": "Mephistroth"
+   }
+  ],
+  "item_id": null,
+  "name": "Felforged Dreadhound",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=128053#p128053",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=129028#p129028",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=134147#p134147",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=129934#p129934",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=138497#p138497",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=136891#p136891",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=163576#p163576",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=134911#p134911",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=130909#p130909",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=131426#p131426",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=128749#p128749",
+   "https://turtle-wow.fandom.com/wiki/Mephistroth"
+  ]
+ },
+ "Ferra's Collar": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2023-07-10",
+    "rate": "14%",
+    "sample_size": null,
+    "source": "Illyanna Ravenoak's pet bear Ferra (Dire Maul)",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=52800#p52800"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Ferra's Collar",
+  "sold_by": [],
+  "sources": []
+ },
+ "Figgle's Coveralls": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "Engineer Figgles"
+   }
+  ],
+  "item_id": null,
+  "name": "Figgle's Coveralls",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Engineer_Figgles",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177"
+  ]
+ },
+ "Fine Thread": {
+  "drop_rates": [],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Fine Thread",
+  "sold_by": [
+   {
+    "location": null,
+    "npc": "Survival Supplier (generic)",
+    "price": "1s"
+   }
+  ],
+  "sources": []
+ },
+ "Flameforged Lugnut": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "Hatereaver Annihilator"
+   }
+  ],
+  "item_id": null,
+  "name": "Flameforged Lugnut",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Hatereaver_Annihilator"
+  ]
+ },
+ "Flawless Leopard Pelt (quest: The Finest Pelt)": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Frostmane Hollow",
+    "npc": "Tan'sha the Sleek"
+   }
+  ],
+  "item_id": null,
+  "name": "Flawless Leopard Pelt (quest: The Finest Pelt)",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Tan%27sha_the_Sleek"
+  ]
+ },
+ "Fleshslasher": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Regent-Lords of Gilneas"
+   }
+  ],
+  "item_id": null,
+  "name": "Fleshslasher",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Regent-Lords_of_Gilneas"
+  ]
+ },
+ "Flint & Tinder": {
+  "drop_rates": [],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Flint & Tinder",
+  "sold_by": [
+   {
+    "location": "Stranglethorn Vale",
+    "npc": "Rufus Hardwick",
+    "price": null
+   }
+  ],
+  "sources": []
+ },
+ "Fluorescent Green Mechanostrider": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "Engineer Figgles"
+   }
+  ],
+  "item_id": null,
+  "name": "Fluorescent Green Mechanostrider",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Engineer_Figgles",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177"
+  ]
+ },
+ "Footwraps of Perfect Form": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Windhorn Canyon",
+    "npc": "Walgan Bloodcaller"
+   }
+  ],
+  "item_id": null,
+  "name": "Footwraps of Perfect Form",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Walgan_Bloodcaller"
+  ]
+ },
+ "Forked Mudrock Tongue": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2025-05-06",
+    "rate": "25% -> 50%, now party loot",
+    "sample_size": null,
+    "source": "quest \"Mudrock Soup and Bugs\"",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=129934#p129934"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Forked Mudrock Tongue",
+  "sold_by": [],
+  "sources": []
+ },
+ "Formula: Enchant Bracer - Vampirism": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Genn Greymane"
+   }
+  ],
+  "item_id": null,
+  "name": "Formula: Enchant Bracer - Vampirism",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Genn_Greymane_(tactics)"
+  ]
+ },
+ "Formula: Eternal Dreamstone Shard": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2025-06-24",
+    "rate": "raised to 1% (2023-12-01), then 1.5% with a 3-day cooldown (2025-06-24)",
+    "sample_size": null,
+    "source": "Emerald Sanctum",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=79558#p79558",
+     "https://forum.turtlecraft.gg/viewtopic.php?p=136891#p136891"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Formula: Eternal Dreamstone Shard",
+  "sold_by": [],
+  "sources": []
+ },
+ "Foulheart Horn": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2026-03-21",
+    "rate": "\"increased\" - no figure",
+    "sample_size": null,
+    "source": "quest \"Horns of their Allies\"",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Foulheart Horn",
+  "sold_by": [],
+  "sources": []
+ },
+ "Frigid Cloak": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Frostmane Hollow",
+    "npc": "Tan'sha the Sleek"
+   }
+  ],
+  "item_id": null,
+  "name": "Frigid Cloak",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Tan%27sha_the_Sleek"
+  ]
+ },
+ "Frost Seet Dirk": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Frostmane Hollow",
+    "npc": "Kan'za the Seer"
+   }
+  ],
+  "item_id": null,
+  "name": "Frost Seet Dirk",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Kan%27za_the_Seer"
+  ]
+ },
+ "Frostmane Battle Boots": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Frostmane Hollow",
+    "npc": "Battlemaster Ubukaz"
+   }
+  ],
+  "item_id": null,
+  "name": "Frostmane Battle Boots",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Battlemaster_Ubukaz"
+  ]
+ },
+ "Fungal Threads": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Mycellakos"
+   }
+  ],
+  "item_id": null,
+  "name": "Fungal Threads",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Mycellakos"
+  ]
+ },
+ "Furbolg Battle Grips": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "The Crescent Grove",
+    "npc": "Grovetender Engryss"
+   }
+  ],
+  "item_id": null,
+  "name": "Furbolg Battle Grips",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Grovetender_Engryss"
+  ]
+ },
+ "Galvanized Wrists": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Windhorn Canyon",
+    "npc": "Ambassador Vortalus"
+   }
+  ],
+  "item_id": null,
+  "name": "Galvanized Wrists",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Ambassador_Vortalus",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490"
+  ]
+ },
+ "Gavel of Gilnean Justice": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Judge Sutherland"
+   }
+  ],
+  "item_id": null,
+  "name": "Gavel of Gilnean Justice",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Judge_Sutherland"
+  ]
+ },
+ "Gemstone Oil": {
+  "drop_rates": [],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Gemstone Oil",
+  "sold_by": [
+   {
+    "location": null,
+    "npc": "Jewelcrafting Supplier (generic)",
+    "price": "25s"
+   }
+  ],
+  "sources": []
+ },
+ "Genn Greymane's Head (quest)": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Genn Greymane"
+   }
+  ],
+  "item_id": null,
+  "name": "Genn Greymane's Head (quest)",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Genn_Greymane_(tactics)"
+  ]
+ },
+ "Ghoulskin Treads": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Scarlet Monastery",
+    "npc": "Duke Dreadmoore <Knight of Naxxramas>"
+   }
+  ],
+  "item_id": null,
+  "name": "Ghoulskin Treads",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709",
+   "https://turtlecraft.gg/classic-dungeons-update",
+   "https://turtle-wow.fandom.com/wiki/Duke_Dreadmoore"
+  ]
+ },
+ "Gilded Blade of Razjal": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Zul'Farrak",
+    "npc": "Farraki Arena (Kath'zen the Brutal, Juthza the Cunning, Champion Razjal the Quick)"
+   }
+  ],
+  "item_id": null,
+  "name": "Gilded Blade of Razjal",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=159994#p159994",
+   "https://turtle-wow.fandom.com/wiki/Farraki_Arena"
+  ]
+ },
+ "Gilnean Raven": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Genn Greymane"
+   }
+  ],
+  "item_id": null,
+  "name": "Gilnean Raven",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Genn_Greymane_(tactics)"
+  ]
+ },
+ "Gilneas Shackles": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Matthias Holtz"
+   }
+  ],
+  "item_id": null,
+  "name": "Gilneas Shackles",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Matthias_Holtz"
+  ]
+ },
+ "Glademender's Robes": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "The Crescent Grove",
+    "npc": "Keeper Ranathos"
+   }
+  ],
+  "item_id": null,
+  "name": "Glademender's Robes",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Keeper_Ranathos",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615"
+  ]
+ },
+ "Golden Sansam, Arthas' Tears, Swiftthistle, Dreamfoil, Firebloom, Gromsblood, Sungrass": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2024-03-19",
+    "rate": "~1.7% -> 4%",
+    "sample_size": null,
+    "source": "Whip Lasher (Dire Maul)",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=90746#p90746"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Golden Sansam, Arthas' Tears, Swiftthistle, Dreamfoil, Firebloom, Gromsblood, Sungrass",
+  "sold_by": [],
+  "sources": []
+ },
+ "Gowlfang's Vest": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Dragonmaw Retreat",
+    "npc": "Gowlfang"
+   }
+  ],
+  "item_id": null,
+  "name": "Gowlfang's Vest",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Gowlfang",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=34787#p34787"
+  ]
+ },
+ "Gressil, Dawn of Ruin": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2024-04-01",
+    "rate": "0.01% quoted",
+    "sample_size": null,
+    "source": "n/a",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=91795#p91795"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Gressil, Dawn of Ruin",
+  "sold_by": [],
+  "sources": []
+ },
+ "Greymane Charger (mount)": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Horsemaster Levvin"
+   }
+  ],
+  "item_id": null,
+  "name": "Greymane Charger (mount)",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Horsemaster_Levvin"
+  ]
+ },
+ "Greymane Helmet": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Marshal Magnus Greystone"
+   }
+  ],
+  "item_id": null,
+  "name": "Greymane Helmet",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Marshal_Magnus_Greystone",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=111130#p111130"
+  ]
+ },
+ "Greymane Shoulders": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Genn Greymane"
+   }
+  ],
+  "item_id": null,
+  "name": "Greymane Shoulders",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Genn_Greymane_(tactics)"
+  ]
+ },
+ "Greymane Tabard": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Marshal Magnus Greystone"
+   }
+  ],
+  "item_id": null,
+  "name": "Greymane Tabard",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Marshal_Magnus_Greystone",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=111130#p111130"
+  ]
+ },
+ "Groveweald Badge (quest: The Rampant Groveweald)": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "The Crescent Grove",
+    "npc": "Grovetender Engryss"
+   }
+  ],
+  "item_id": null,
+  "name": "Groveweald Badge (quest: The Rampant Groveweald)",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Grovetender_Engryss"
+  ]
+ },
+ "Groveweald Elder Cuffs": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "The Crescent Grove",
+    "npc": "Grovetender Engryss"
+   }
+  ],
+  "item_id": null,
+  "name": "Groveweald Elder Cuffs",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Grovetender_Engryss"
+  ]
+ },
+ "Groveweald Tribal Necklace": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "The Crescent Grove",
+    "npc": "Grovetender Engryss"
+   }
+  ],
+  "item_id": null,
+  "name": "Groveweald Tribal Necklace",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Grovetender_Engryss"
+  ]
+ },
+ "Harbinger Girdle": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Scarlet Monastery",
+    "npc": "Duke Dreadmoore <Knight of Naxxramas>"
+   }
+  ],
+  "item_id": null,
+  "name": "Harbinger Girdle",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709",
+   "https://turtlecraft.gg/classic-dungeons-update",
+   "https://turtle-wow.fandom.com/wiki/Duke_Dreadmoore"
+  ]
+ },
+ "Hatchet of the Long Hunt": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Windhorn Canyon",
+    "npc": "Pathun Duskhide"
+   }
+  ],
+  "item_id": null,
+  "name": "Hatchet of the Long Hunt",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Pathun_Duskhide"
+  ]
+ },
+ "Hateforge Quarry epic trinket": {
+  "drop_rates": [
+   {
+    "authority": "player",
+    "date": "2023-05-27",
+    "rate": "one player 23 runs, another 150+ runs with no drop; a hunter 125+ runs",
+    "sample_size": "23 / 125 / 150 runs",
+    "source": "Hateforge Quarry",
+    "status": "high variance",
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=47681#p47681"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Hateforge Quarry epic trinket",
+  "sold_by": [],
+  "sources": []
+ },
+ "Hateforged Cleaver": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "High Foreman Bargul Blackhammer"
+   }
+  ],
+  "item_id": null,
+  "name": "Hateforged Cleaver",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/High_Foreman_Bargul_Blackhammer",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177"
+  ]
+ },
+ "Hatereaver Cog": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "Hatereaver Annihilator"
+   }
+  ],
+  "item_id": null,
+  "name": "Hatereaver Cog",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Hatereaver_Annihilator"
+  ]
+ },
+ "Hawkfeather Crown": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Windhorn Canyon",
+    "npc": "Chieftain Shalk Blackwind"
+   }
+  ],
+  "item_id": null,
+  "name": "Hawkfeather Crown",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Chieftain_Shalk_Blackwind"
+  ]
+ },
+ "Head of Gowlfang (quest: Gowlfang's Defeat)": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Dragonmaw Retreat",
+    "npc": "Gowlfang"
+   }
+  ],
+  "item_id": null,
+  "name": "Head of Gowlfang (quest: Gowlfang's Defeat)",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Gowlfang",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=34787#p34787"
+  ]
+ },
+ "Heart of Mycellakos (quest)": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Mycellakos"
+   }
+  ],
+  "item_id": null,
+  "name": "Heart of Mycellakos (quest)",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Mycellakos"
+  ]
+ },
+ "Heart of Windhorn": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Windhorn Canyon",
+    "npc": "Chieftain Shalk Blackwind"
+   }
+  ],
+  "item_id": null,
+  "name": "Heart of Windhorn",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Chieftain_Shalk_Blackwind"
+  ]
+ },
+ "Hearth of Mephistroth": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Tower of Karazhan",
+    "npc": "Mephistroth"
+   }
+  ],
+  "item_id": null,
+  "name": "Hearth of Mephistroth",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=128053#p128053",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=129028#p129028",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=134147#p134147",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=129934#p129934",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=138497#p138497",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=136891#p136891",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=163576#p163576",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=134911#p134911",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=130909#p130909",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=131426#p131426",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=128749#p128749",
+   "https://turtle-wow.fandom.com/wiki/Mephistroth"
+  ]
+ },
+ "Hilt of Radiance": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Shadowfang Keep",
+    "npc": "Prelate Ironmane"
+   }
+  ],
+  "item_id": null,
+  "name": "Hilt of Radiance",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=121678#p121678",
+   "https://turtle-wow.fandom.com/wiki/Prelate_Ironmane",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=29743#p29743"
+  ]
+ },
+ "Hookblade Cleaver": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Dustivan Blackcowl"
+   }
+  ],
+  "item_id": null,
+  "name": "Hookblade Cleaver",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Dustivan_Blackcowl"
+  ]
+ },
+ "Horn of Engryss": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "The Crescent Grove",
+    "npc": "Grovetender Engryss"
+   }
+  ],
+  "item_id": null,
+  "name": "Horn of Engryss",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Grovetender_Engryss"
+  ]
+ },
+ "Horse Rustler Drape": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Horsemaster Levvin"
+   }
+  ],
+  "item_id": null,
+  "name": "Horse Rustler Drape",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Horsemaster_Levvin"
+  ]
+ },
+ "Horsemaster Belt": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Horsemaster Levvin"
+   }
+  ],
+  "item_id": null,
+  "name": "Horsemaster Belt",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Horsemaster_Levvin"
+  ]
+ },
+ "Hot Spices": {
+  "drop_rates": [],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Hot Spices",
+  "sold_by": [
+   {
+    "location": null,
+    "npc": "Survival Supplier (generic)",
+    "price": "40c"
+   }
+  ],
+  "sources": []
+ },
+ "Huntsman's Halfhorn": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Windhorn Canyon",
+    "npc": "Pathun Duskhide"
+   }
+  ],
+  "item_id": null,
+  "name": "Huntsman's Halfhorn",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Pathun_Duskhide"
+  ]
+ },
+ "Idol of Death": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2024-03-19",
+    "rate": "0.4% -> 1%",
+    "sample_size": null,
+    "source": "various",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=90751#p90751"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Idol of Death",
+  "sold_by": [],
+  "sources": []
+ },
+ "Idol of Equilibrium": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Onyxia's Lair",
+    "npc": "Broodcommander Axelus"
+   }
+  ],
+  "item_id": null,
+  "name": "Idol of Equilibrium",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608",
+   "https://turtle-wow.fandom.com/wiki/Broodcommander_Axelus"
+  ]
+ },
+ "Idol of Laceration": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Tower of Karazhan",
+    "npc": "Keeper Gnarlmoon"
+   }
+  ],
+  "item_id": null,
+  "name": "Idol of Laceration",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=130900#p130900",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=126056#p126056",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=170300#p170300",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=174801#p174801",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=52799#p52799",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=128636#p128636",
+   "https://turtle-wow.fandom.com/wiki/Keeper_Gnarlmoon"
+  ]
+ },
+ "Idol of Propagation": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Mycellakos"
+   }
+  ],
+  "item_id": null,
+  "name": "Idol of Propagation",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Mycellakos"
+  ]
+ },
+ "Idol of Savagery": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Caverns of Time: Black Morass",
+    "npc": "Rotmaw"
+   }
+  ],
+  "item_id": null,
+  "name": "Idol of Savagery",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868"
+  ]
+ },
+ "Idol of the Apex Predator": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Wailing Caverns",
+    "npc": "Vangros"
+   }
+  ],
+  "item_id": null,
+  "name": "Idol of the Apex Predator",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=116739#p116739",
+   "https://turtle-wow.fandom.com/wiki/Vangros"
+  ]
+ },
+ "Idol of the Moonfang": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Lower Karazhan Halls",
+    "npc": "Clawlord Howlfang"
+   }
+  ],
+  "item_id": null,
+  "name": "Idol of the Moonfang",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=160087#p160087",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=160143#p160143",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=160173#p160173",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=141670#p141670",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=141323#p141323",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=162969#p162969",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=162983#p162983",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=162984#p162984",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=52799#p52799",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=52873#p52873",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=87278#p87278",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=108118#p108118"
+  ]
+ },
+ "Idol of the Thorned Grove": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Razorfen Kraul",
+    "npc": "Rotthorn"
+   }
+  ],
+  "item_id": null,
+  "name": "Idol of the Thorned Grove",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://turtle-wow.fandom.com/wiki/Rotthorn"
+  ]
+ },
+ "Incendosaur Skin Boots": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "High Foreman Bargul Blackhammer"
+   }
+  ],
+  "item_id": null,
+  "name": "Incendosaur Skin Boots",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/High_Foreman_Bargul_Blackhammer",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177"
+  ]
+ },
+ "Intact Pounder Mainframe": {
+  "drop_rates": [
+   {
+    "authority": "player",
+    "date": "2025-04-16",
+    "rate": "took around 500 kills",
+    "sample_size": "~500 kills, 1 drop",
+    "source": "Crowd Pummeler 9-60 (Gnomeregan)",
+    "status": "consistent with an earlier report",
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=126955#p126955"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Intact Pounder Mainframe",
+  "sold_by": [],
+  "sources": []
+ },
+ "Introduction to the Dark Arts": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Scarlet Monastery",
+    "npc": "Duke Dreadmoore <Knight of Naxxramas>"
+   }
+  ],
+  "item_id": null,
+  "name": "Introduction to the Dark Arts",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709",
+   "https://turtlecraft.gg/classic-dungeons-update",
+   "https://turtle-wow.fandom.com/wiki/Duke_Dreadmoore"
+  ]
+ },
+ "Inventor's Mitts": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "The Deadmines",
+    "npc": "Masterpiece Harvester"
+   }
+  ],
+  "item_id": null,
+  "name": "Inventor's Mitts",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980",
+   "https://turtle-wow.fandom.com/wiki/Masterpiece_Harvester"
+  ]
+ },
+ "Jade Scale of the Dreamer": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Emerald Sanctum",
+    "npc": "Solnius the Awakener"
+   }
+  ],
+  "item_id": null,
+  "name": "Jade Scale of the Dreamer",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=130281#p130281",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91958#p91958",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=102971#p102971",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=149960#p149960",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=80796#p80796",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=129590#p129590",
+   "https://turtle-wow.fandom.com/wiki/Solnius",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=94829#p94829",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=95027#p95027",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=95765#p95765",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=69843#p69843"
+  ]
+ },
+ "Jaw of the Ancient": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Eldermaw the Primordial"
+   }
+  ],
+  "item_id": null,
+  "name": "Jaw of the Ancient",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Eldermaw_the_Primordial"
+  ]
+ },
+ "Jewelers Kit": {
+  "drop_rates": [],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Jewelers Kit",
+  "sold_by": [
+   {
+    "location": null,
+    "npc": "Jewelcrafting Supplier (generic)",
+    "price": "2s"
+   }
+  ],
+  "sources": []
+ },
+ "Journal of Basil Frye (quest: Reminiscent of Steel)": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Scarlet Monastery",
+    "npc": "Armory Quartermaster Daghelm"
+   }
+  ],
+  "item_id": null,
+  "name": "Journal of Basil Frye (quest: Reminiscent of Steel)",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709",
+   "https://turtlecraft.gg/classic-dungeons-update",
+   "https://turtle-wow.fandom.com/wiki/Armory_Quartermaster_Daghelm"
+  ]
+ },
+ "Kelpie's Legacy": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Duke Balor the IV"
+   }
+  ],
+  "item_id": null,
+  "name": "Kelpie's Legacy",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Duke_Balor_the_IV"
+  ]
+ },
+ "Knuckles of Vortalus": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Windhorn Canyon",
+    "npc": "Ambassador Vortalus"
+   }
+  ],
+  "item_id": null,
+  "name": "Knuckles of Vortalus",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Ambassador_Vortalus",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490"
+  ]
+ },
+ "Kolkar Marauder Gauntlets": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Wailing Caverns",
+    "npc": "Zandara Windhoof"
+   }
+  ],
+  "item_id": null,
+  "name": "Kolkar Marauder Gauntlets",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709",
+   "https://turtle-wow.fandom.com/wiki/Zandara_Windhoof"
+  ]
+ },
+ "Kruul axe": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Tower of Karazhan",
+    "npc": "Kruul"
+   }
+  ],
+  "item_id": null,
+  "name": "Kruul axe",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=130900#p130900",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=136891#p136891",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=132195#p132195",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=128053#p128053",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=158027#p158027",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=170517#p170517",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=166667#p166667",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=162492#p162492",
+   "https://turtle-wow.fandom.com/wiki/Kruul"
+  ]
+ },
+ "Leechmist Vine": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Subjugator Halthas Shadecrest"
+   }
+  ],
+  "item_id": null,
+  "name": "Leechmist Vine",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Subjugator_Halthas_Shadecrest"
+  ]
+ },
+ "Ley-Attuned Choker": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Tower of Karazhan",
+    "npc": "Keeper Gnarlmoon"
+   }
+  ],
+  "item_id": null,
+  "name": "Ley-Attuned Choker",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=130900#p130900",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=126056#p126056",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=170300#p170300",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=174801#p174801",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=52799#p52799",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=128636#p128636",
+   "https://turtle-wow.fandom.com/wiki/Keeper_Gnarlmoon"
+  ]
+ },
+ "Libram of Radiance": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Scarlet Monastery",
+    "npc": "Brother Wystan"
+   }
+  ],
+  "item_id": null,
+  "name": "Libram of Radiance",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709",
+   "https://turtlecraft.gg/classic-dungeons-update",
+   "https://turtle-wow.fandom.com/wiki/Brother_Wystan"
+  ]
+ },
+ "Libram of the Eternal Tower": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Tower of Karazhan",
+    "npc": "Echo of Medivh"
+   }
+  ],
+  "item_id": null,
+  "name": "Libram of the Eternal Tower",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=130900#p130900",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=129028#p129028",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=135351#p135351",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=52799#p52799",
+   "https://turtle-wow.fandom.com/wiki/Echo_of_Medivh"
+  ]
+ },
+ "Libram of the Faithful": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Lower Karazhan Halls",
+    "npc": "Lord Blackwald II"
+   }
+  ],
+  "item_id": null,
+  "name": "Libram of the Faithful",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=160087#p160087",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=141670#p141670",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=73511#p73511",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=52799#p52799"
+  ]
+ },
+ "Libram of the Farraki Zealot": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Zul'Farrak",
+    "npc": "Farraki Arena (Kath'zen the Brutal, Juthza the Cunning, Champion Razjal the Quick)"
+   }
+  ],
+  "item_id": null,
+  "name": "Libram of the Farraki Zealot",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=159994#p159994",
+   "https://turtle-wow.fandom.com/wiki/Farraki_Arena"
+  ]
+ },
+ "Light's Sermon": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Duke Balor the IV"
+   }
+  ],
+  "item_id": null,
+  "name": "Light's Sermon",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Duke_Balor_the_IV"
+  ]
+ },
+ "Loop of Focused Magic": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Scarlet Monastery",
+    "npc": "Armory Quartermaster Daghelm"
+   }
+  ],
+  "item_id": null,
+  "name": "Loop of Focused Magic",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709",
+   "https://turtlecraft.gg/classic-dungeons-update",
+   "https://turtle-wow.fandom.com/wiki/Armory_Quartermaster_Daghelm"
+  ]
+ },
+ "Magic Mushroom Spores": {
+  "drop_rates": [],
+  "drops_from": [],
+  "item_id": 51716,
+  "name": "Magic Mushroom Spores",
+  "sold_by": [
+   {
+    "location": "Mulgore / Teldrassil / Eastern Plaguelands",
+    "npc": "Gardening seed vendors (names not given)",
+    "price": "2g 50s (2g at Honored with the 20% discount)"
+   }
+  ],
+  "sources": []
+ },
+ "Mantle of Law": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Judge Sutherland"
+   }
+  ],
+  "item_id": null,
+  "name": "Mantle of Law",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Judge_Sutherland"
+  ]
+ },
+ "Mantle of the Disciple": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Ighal'for -> Mergothid"
+   }
+  ],
+  "item_id": null,
+  "name": "Mantle of the Disciple",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Mergothid",
+   "https://turtle-wow.fandom.com/wiki/Ighal%27for",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=147116#p147116",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=148454#p148454"
+  ]
+ },
+ "Manual: Intervene": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "High Foreman Bargul Blackhammer"
+   }
+  ],
+  "item_id": null,
+  "name": "Manual: Intervene",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/High_Foreman_Bargul_Blackhammer",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177"
+  ]
+ },
+ "Mark of the Worgen": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Genn Greymane"
+   }
+  ],
+  "item_id": null,
+  "name": "Mark of the Worgen",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Genn_Greymane_(tactics)"
+  ]
+ },
+ "Marshal's Blocker": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Marshal Magnus Greystone"
+   }
+  ],
+  "item_id": null,
+  "name": "Marshal's Blocker",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Marshal_Magnus_Greystone",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=111130#p111130"
+  ]
+ },
+ "Mephistroth's Cunning": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Tower of Karazhan",
+    "npc": "Mephistroth"
+   }
+  ],
+  "item_id": null,
+  "name": "Mephistroth's Cunning",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=128053#p128053",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=129028#p129028",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=134147#p134147",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=129934#p129934",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=138497#p138497",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=136891#p136891",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=163576#p163576",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=134911#p134911",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=130909#p130909",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=131426#p131426",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=128749#p128749",
+   "https://turtle-wow.fandom.com/wiki/Mephistroth"
+  ]
+ },
+ "Middle Piece of an Ancient Idol": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2026-02-03",
+    "rate": "+10%",
+    "sample_size": null,
+    "source": "Gahz'ranka",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=167358#p167358"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Middle Piece of an Ancient Idol",
+  "sold_by": [],
+  "sources": []
+ },
+ "Mitre of the First Light": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Shadowfang Keep",
+    "npc": "Prelate Ironmane"
+   }
+  ],
+  "item_id": null,
+  "name": "Mitre of the First Light",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=121678#p121678",
+   "https://turtle-wow.fandom.com/wiki/Prelate_Ironmane",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=29743#p29743"
+  ]
+ },
+ "Mixologist": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "The Deadmines",
+    "npc": "Jared Voss"
+   }
+  ],
+  "item_id": null,
+  "name": "Mixologist",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=166661#p166661",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=112126#p112126",
+   "https://turtle-wow.fandom.com/wiki/Jared_Voss",
+   "https://turtlecraft.gg/classic-dungeons-update"
+  ]
+ },
+ "Molasses Firewater": {
+  "drop_rates": [],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Molasses Firewater",
+  "sold_by": [
+   {
+    "location": null,
+    "npc": "Survival Supplier (generic)",
+    "price": "10s"
+   }
+  ],
+  "sources": []
+ },
+ "Moontouched Shoulders": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "The Crescent Grove",
+    "npc": "High Priestess A'lathea"
+   }
+  ],
+  "item_id": null,
+  "name": "Moontouched Shoulders",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/High_Priestess_A%27lathea",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615"
+  ]
+ },
+ "Mountain Silversage / Plaguebloom / Icecap": {
+  "drop_rates": [
+   {
+    "authority": "player",
+    "date": "2024-03-20",
+    "rate": "no drop in 400 lasher kills; a second player: 10 DM lasher runs, none",
+    "sample_size": "400 kills / 10 runs, 0",
+    "source": "Whip Lasher (Dire Maul)",
+    "status": "contradicts the staff 4% change of 2024-03-19; unanswered",
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=90885#p90885",
+     "https://forum.turtlecraft.gg/viewtopic.php?p=90922#p90922",
+     "https://forum.turtlecraft.gg/viewtopic.php?p=90965#p90965"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Mountain Silversage / Plaguebloom / Icecap",
+  "sold_by": [],
+  "sources": []
+ },
+ "Mountain Silversage, Plaguebloom, Icecap": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2024-03-19",
+    "rate": "4% (new)",
+    "sample_size": null,
+    "source": "Whip Lasher (Dire Maul)",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=90746#p90746"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Mountain Silversage, Plaguebloom, Icecap",
+  "sold_by": [],
+  "sources": []
+ },
+ "Muckwater Leggings": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "Corrosis"
+   }
+  ],
+  "item_id": null,
+  "name": "Muckwater Leggings",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Corrosis"
+  ]
+ },
+ "Nethershard Sickle": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Lady Drazare"
+   }
+  ],
+  "item_id": null,
+  "name": "Nethershard Sickle",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Lady_Drazare"
+  ]
+ },
+ "Noble's Pendant": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2025-08-13",
+    "rate": "missing drop added",
+    "sample_size": null,
+    "source": "Gilneas City",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=145131#p145131"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Noble's Pendant",
+  "sold_by": [],
+  "sources": []
+ },
+ "Northwind Guard Breeches": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Remains of the Innocent"
+   }
+  ],
+  "item_id": null,
+  "name": "Northwind Guard Breeches",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Remains_of_the_Innocent"
+  ]
+ },
+ "Obedient Shackles": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Subjugator Halthas Shadecrest"
+   }
+  ],
+  "item_id": null,
+  "name": "Obedient Shackles",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Subjugator_Halthas_Shadecrest"
+  ]
+ },
+ "Oboka's Axe": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Frostmane Hollow",
+    "npc": "Tan'sha the Sleek"
+   }
+  ],
+  "item_id": null,
+  "name": "Oboka's Axe",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Tan%27sha_the_Sleek"
+  ]
+ },
+ "Ogre Warbeads": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2024-01-16",
+    "rate": "raised to 25%",
+    "sample_size": null,
+    "source": "Dire Maul",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=84934#p84934"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Ogre Warbeads",
+  "sold_by": [],
+  "sources": []
+ },
+ "Onyxia Hide Bag (18 to 20 slots)": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Onyxia's Lair",
+    "npc": "Onyxia"
+   }
+  ],
+  "item_id": null,
+  "name": "Onyxia Hide Bag (18 to 20 slots)",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=149960#p149960",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=129934#p129934"
+  ]
+ },
+ "Onyxian Drake (mount, added 2025-09-02)": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Onyxia's Lair",
+    "npc": "Onyxia"
+   }
+  ],
+  "item_id": null,
+  "name": "Onyxian Drake (mount, added 2025-09-02)",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=149960#p149960",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=129934#p129934"
+  ]
+ },
+ "Orb of Aka'thar": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Packmaster Ragetooth"
+   }
+  ],
+  "item_id": null,
+  "name": "Orb of Aka'thar",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Packmaster_Ragetooth"
+  ]
+ },
+ "Ornate Thalassian Unicorn": {
+  "drop_rates": [],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Ornate Thalassian Unicorn",
+  "sold_by": [
+   {
+    "location": "Thalassian Highlands",
+    "npc": "Vanira Quel'Belore",
+    "price": "100g"
+   }
+  ],
+  "sources": []
+ },
+ "Packmaster Gloves": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Packmaster Ragetooth"
+   }
+  ],
+  "item_id": null,
+  "name": "Packmaster Gloves",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Packmaster_Ragetooth"
+  ]
+ },
+ "Panther Hide Sack": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2023-06-27",
+    "rate": "12% -> 18%",
+    "sample_size": null,
+    "source": "Stranglethorn Vale",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=51551#p51551"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Panther Hide Sack",
+  "sold_by": [],
+  "sources": []
+ },
+ "Pants of Forgotten Ages": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Eldermaw the Primordial"
+   }
+  ],
+  "item_id": null,
+  "name": "Pants of Forgotten Ages",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Eldermaw_the_Primordial"
+  ]
+ },
+ "Pattern: Grimtotem Bracers": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Windhorn Canyon",
+    "npc": "Chieftain Shalk Blackwind"
+   }
+  ],
+  "item_id": null,
+  "name": "Pattern: Grimtotem Bracers",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Chieftain_Shalk_Blackwind"
+  ]
+ },
+ "Pattern: Stormreaver Gloves": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Chieftain Stormsong"
+   }
+  ],
+  "item_id": null,
+  "name": "Pattern: Stormreaver Gloves",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Chieftain_Stormsong"
+  ]
+ },
+ "Paw of Chief Rnarl / Paw of Belgar": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2025-09-30",
+    "rate": "100%",
+    "sample_size": null,
+    "source": "Chief Rnarl / Belgar",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=153822#p153822"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Paw of Chief Rnarl / Paw of Belgar",
+  "sold_by": [],
+  "sources": []
+ },
+ "Pendant of Scarlet Rage": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Scarlet Monastery",
+    "npc": "Brother Wystan"
+   }
+  ],
+  "item_id": null,
+  "name": "Pendant of Scarlet Rage",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709",
+   "https://turtlecraft.gg/classic-dungeons-update",
+   "https://turtle-wow.fandom.com/wiki/Brother_Wystan"
+  ]
+ },
+ "Peroth'arn's Dirk of the Beast": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Timbermaw Hold",
+    "npc": "Peroth'arn"
+   }
+  ],
+  "item_id": null,
+  "name": "Peroth'arn's Dirk of the Beast",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=174120#p174120",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=175230#p175230"
+  ]
+ },
+ "Plans: Ceremonial Belt Buckle": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Windhorn Canyon",
+    "npc": "Prophet Stormhoof"
+   }
+  ],
+  "item_id": null,
+  "name": "Plans: Ceremonial Belt Buckle",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Prophet_Stormhoof"
+  ]
+ },
+ "Plans: Dragonscale Belt Buckle": {
+  "drop_rates": [
+   {
+    "authority": "player",
+    "date": "2026-04-03",
+    "rate": "database rate \"like 1 in 4000 kills\"; killed 200-300 dragons with none",
+    "sample_size": "200-300 kills, 0",
+    "source": "world drop from dragons",
+    "status": "unanswered",
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=173839#p173839"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Plans: Dragonscale Belt Buckle",
+  "sold_by": [],
+  "sources": []
+ },
+ "Plans: Kodoheart Necklace": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Windhorn Canyon",
+    "npc": "Pathun Duskhide"
+   }
+  ],
+  "item_id": null,
+  "name": "Plans: Kodoheart Necklace",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Pathun_Duskhide"
+  ]
+ },
+ "Plans: Towerforge Demolisher (Hammersmith)": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Lower Karazhan Halls",
+    "npc": "Master Blacksmith Rolfen"
+   }
+  ],
+  "item_id": null,
+  "name": "Plans: Towerforge Demolisher (Hammersmith)",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=160087#p160087",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=52800#p52800",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=168204#p168204",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=168191#p168191"
+  ]
+ },
+ "Polishing Oil": {
+  "drop_rates": [],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Polishing Oil",
+  "sold_by": [
+   {
+    "location": null,
+    "npc": "Jewelcrafting Supplier (generic)",
+    "price": "1s"
+   }
+  ],
+  "sources": []
+ },
+ "Prelate's Sigil": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Shadowfang Keep",
+    "npc": "Prelate Ironmane"
+   }
+  ],
+  "item_id": null,
+  "name": "Prelate's Sigil",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=121678#p121678",
+   "https://turtle-wow.fandom.com/wiki/Prelate_Ironmane",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=29743#p29743"
+  ]
+ },
+ "Pridewing Venom Sac": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2026-04-28",
+    "rate": "\"increased\" - no figure",
+    "sample_size": null,
+    "source": "n/a",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=176311#p176311"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Pridewing Venom Sac",
+  "sold_by": [],
+  "sources": []
+ },
+ "Primordial Pauldrons": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Eldermaw the Primordial"
+   }
+  ],
+  "item_id": null,
+  "name": "Primordial Pauldrons",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Eldermaw_the_Primordial"
+  ]
+ },
+ "Pristine Ley Crystal": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Tower of Karazhan",
+    "npc": "Mephistroth"
+   }
+  ],
+  "item_id": null,
+  "name": "Pristine Ley Crystal",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=128053#p128053",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=129028#p129028",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=134147#p134147",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=129934#p129934",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=138497#p138497",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=136891#p136891",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=163576#p163576",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=134911#p134911",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=130909#p130909",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=131426#p131426",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=128749#p128749",
+   "https://turtle-wow.fandom.com/wiki/Mephistroth"
+  ]
+ },
+ "Prospector's Magnifying Lens (Survival trinket)": {
+  "drop_rates": [
+   {
+    "authority": "player",
+    "date": "2026-04-03",
+    "rate": "reported to work only for Jewelcrafting, not Mining; database implies 1.5x drop chance",
+    "sample_size": null,
+    "source": "Rich Thorium Veins",
+    "status": "unresolved - no staff statement",
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=173826#p173826"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Prospector's Magnifying Lens (Survival trinket)",
+  "sold_by": [],
+  "sources": []
+ },
+ "Pummeler mount starting item": {
+  "drop_rates": [
+   {
+    "authority": "player",
+    "date": "2023-10-18",
+    "rate": "100 runs with no drop; was easy before a content update",
+    "sample_size": "100 runs, 0",
+    "source": "Crowd Pummeler 9-60",
+    "status": "unanswered",
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=71963#p71963"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Pummeler mount starting item",
+  "sold_by": [],
+  "sources": []
+ },
+ "Ragereaver's Helm": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "Hatereaver Annihilator"
+   }
+  ],
+  "item_id": null,
+  "name": "Ragereaver's Helm",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Hatereaver_Annihilator"
+  ]
+ },
+ "Rak'uhz the Coldbinder": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Frostmane Hollow",
+    "npc": "Hailar the Frigid"
+   }
+  ],
+  "item_id": null,
+  "name": "Rak'uhz the Coldbinder",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Hailar_the_Frigid"
+  ]
+ },
+ "Rare mount (added to the last bosses of MC, BWL and AQ40 in 1.17.2)": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Molten Core",
+    "npc": "Ragnaros"
+   }
+  ],
+  "item_id": null,
+  "name": "Rare mount (added to the last bosses of MC, BWL and AQ40 in 1.17.2)",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=147116#p147116",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=129028#p129028",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=136087#p136087",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=149960#p149960",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980"
+  ]
+ },
+ "Razorskin Cape": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Eldermaw the Primordial"
+   }
+  ],
+  "item_id": null,
+  "name": "Razorskin Cape",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Eldermaw_the_Primordial"
+  ]
+ },
+ "Recipe: Blue Starfire": {
+  "drop_rates": [],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Recipe: Blue Starfire",
+  "sold_by": [
+   {
+    "location": "Tanaris",
+    "npc": "Gonzo Snaphands",
+    "price": null
+   }
+  ],
+  "sources": []
+ },
+ "Recipe: Elixir of Rapid Growth": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Subjugator Halthas Shadecrest"
+   }
+  ],
+  "item_id": null,
+  "name": "Recipe: Elixir of Rapid Growth",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Subjugator_Halthas_Shadecrest"
+  ]
+ },
+ "Recipe: Gilneas Hot Stew": {
+  "drop_rates": [],
+  "drops_from": [],
+  "item_id": 61676,
+  "name": "Recipe: Gilneas Hot Stew",
+  "sold_by": [
+   {
+    "location": "Gilneas",
+    "npc": "Stickypaws",
+    "price": null
+   }
+  ],
+  "sources": []
+ },
+ "Reedwoven Epaulets": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Windhorn Canyon",
+    "npc": "Bonespeaker Narlgom"
+   }
+  ],
+  "item_id": null,
+  "name": "Reedwoven Epaulets",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Bonespeaker_Narlgom"
+  ]
+ },
+ "Refreshing Spring Water": {
+  "drop_rates": [],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Refreshing Spring Water",
+  "sold_by": [
+   {
+    "location": null,
+    "npc": "Survival Supplier (generic)",
+    "price": "25c"
+   }
+  ],
+  "sources": []
+ },
+ "Regal Goldforged Breastplate": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Genn Greymane"
+   }
+  ],
+  "item_id": null,
+  "name": "Regal Goldforged Breastplate",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Genn_Greymane_(tactics)"
+  ]
+ },
+ "Regal Robes of the Regent": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Regent-Lords of Gilneas"
+   }
+  ],
+  "item_id": null,
+  "name": "Regal Robes of the Regent",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Regent-Lords_of_Gilneas"
+  ]
+ },
+ "Remedy Herbs": {
+  "drop_rates": [],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Remedy Herbs",
+  "sold_by": [
+   {
+    "location": null,
+    "npc": "Survival Supplier (generic)",
+    "price": "12c"
+   }
+  ],
+  "sources": []
+ },
+ "Resurging Necklace": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Regent-Lords of Gilneas"
+   }
+  ],
+  "item_id": null,
+  "name": "Resurging Necklace",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Regent-Lords_of_Gilneas"
+  ]
+ },
+ "Ring of Demonic Fury": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "The Crescent Grove",
+    "npc": "Master Raxxieth"
+   }
+  ],
+  "item_id": null,
+  "name": "Ring of Demonic Fury",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Master_Raxxieth",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=129934#p129934"
+  ]
+ },
+ "Ring of Electrical Binding": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Dustivan Blackcowl"
+   }
+  ],
+  "item_id": null,
+  "name": "Ring of Electrical Binding",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Dustivan_Blackcowl"
+  ]
+ },
+ "Robe of Light's Ambassador": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Genn Greymane"
+   }
+  ],
+  "item_id": null,
+  "name": "Robe of Light's Ambassador",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Genn_Greymane_(tactics)"
+  ]
+ },
+ "Robes of the Dukedom": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Duke Balor the IV"
+   }
+  ],
+  "item_id": null,
+  "name": "Robes of the Dukedom",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Duke_Balor_the_IV"
+  ]
+ },
+ "Rod of Subjugation": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Subjugator Halthas Shadecrest"
+   }
+  ],
+  "item_id": null,
+  "name": "Rod of Subjugation",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Subjugator_Halthas_Shadecrest"
+  ]
+ },
+ "Rusted Anchor": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Mycellakos"
+   }
+  ],
+  "item_id": null,
+  "name": "Rusted Anchor",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Mycellakos"
+  ]
+ },
+ "Sack of Gruesome Eminence": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Genn Greymane"
+   }
+  ],
+  "item_id": null,
+  "name": "Sack of Gruesome Eminence",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Genn_Greymane_(tactics)"
+  ]
+ },
+ "Sacred Windhorn Footwraps": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Windhorn Canyon",
+    "npc": "Ambassador Vortalus"
+   }
+  ],
+  "item_id": null,
+  "name": "Sacred Windhorn Footwraps",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Ambassador_Vortalus",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490"
+  ]
+ },
+ "Sacred Windhorn Gloves": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Windhorn Canyon",
+    "npc": "Ahgk'tos the Pure"
+   }
+  ],
+  "item_id": null,
+  "name": "Sacred Windhorn Gloves",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Ahgk%27tos_the_Pure"
+  ]
+ },
+ "Sacred Windhorn Headdress": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Windhorn Canyon",
+    "npc": "Prophet Stormhoof"
+   }
+  ],
+  "item_id": null,
+  "name": "Sacred Windhorn Headdress",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Prophet_Stormhoof"
+  ]
+ },
+ "Sacred Windhorn Pants": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Windhorn Canyon",
+    "npc": "Walgan Bloodcaller"
+   }
+  ],
+  "item_id": null,
+  "name": "Sacred Windhorn Pants",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Walgan_Bloodcaller"
+  ]
+ },
+ "Sacred Windhorn Robe": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Windhorn Canyon",
+    "npc": "Bonespeaker Narlgom"
+   }
+  ],
+  "item_id": null,
+  "name": "Sacred Windhorn Robe",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Bonespeaker_Narlgom"
+  ]
+ },
+ "Sacred Windhorn Shoulders": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Windhorn Canyon",
+    "npc": "Pathun Duskhide"
+   }
+  ],
+  "item_id": null,
+  "name": "Sacred Windhorn Shoulders",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Pathun_Duskhide"
+  ]
+ },
+ "Sacrosanct Epaulets": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "Har'gesh Doomcaller"
+   }
+  ],
+  "item_id": null,
+  "name": "Sacrosanct Epaulets",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Har%27gesh_Doomcaller",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177"
+  ]
+ },
+ "Sash of Conviction": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Judge Sutherland"
+   }
+  ],
+  "item_id": null,
+  "name": "Sash of Conviction",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Judge_Sutherland"
+  ]
+ },
+ "Sash of Ritual Scars": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Zul'Farrak",
+    "npc": "Zel'jeb the Ancient"
+   }
+  ],
+  "item_id": null,
+  "name": "Sash of Ritual Scars",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://turtle-wow.fandom.com/wiki/Zel%27jeb_the_Ancient"
+  ]
+ },
+ "Schematic: Enchanted Thorium Shells": {
+  "drop_rates": [
+   {
+    "authority": "player",
+    "date": "2026-04-14",
+    "rate": "still not dropping a week after the fix",
+    "sample_size": null,
+    "source": "Cannon Master Willey (per staff, 2026-04-07)",
+    "status": "unresolved at the end of the record",
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=174367#p174367",
+     "https://forum.turtlecraft.gg/viewtopic.php?p=175240#p175240"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Schematic: Enchanted Thorium Shells",
+  "sold_by": [],
+  "sources": []
+ },
+ "Scholomance final-chamber boss loot": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2023-04-26",
+    "rate": "30% -> 100% chance to drop boss loot; shared 20-item table is 4% per item",
+    "sample_size": null,
+    "source": "5 of 6 final-chamber bosses",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=43089#p43089"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Scholomance final-chamber boss loot",
+  "sold_by": [],
+  "sources": []
+ },
+ "Scriptures of Blood": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Marshal Magnus Greystone"
+   }
+  ],
+  "item_id": null,
+  "name": "Scriptures of Blood",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Marshal_Magnus_Greystone",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=111130#p111130"
+  ]
+ },
+ "Scythe of the Goddess (quest 41062)": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Lower Karazhan Halls",
+    "npc": "Lord Blackwald II"
+   }
+  ],
+  "item_id": null,
+  "name": "Scythe of the Goddess (quest 41062)",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=160087#p160087",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=141670#p141670",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=73511#p73511",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=52799#p52799"
+  ]
+ },
+ "Seed of Writhing Growth": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Razorfen Kraul",
+    "npc": "Rotthorn"
+   }
+  ],
+  "item_id": null,
+  "name": "Seed of Writhing Growth",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://turtle-wow.fandom.com/wiki/Rotthorn"
+  ]
+ },
+ "Sentinel's Moonslicer": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "The Crescent Grove",
+    "npc": "High Priestess A'lathea"
+   }
+  ],
+  "item_id": null,
+  "name": "Sentinel's Moonslicer",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/High_Priestess_A%27lathea",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615"
+  ]
+ },
+ "Shaderun Boots": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Packmaster Ragetooth"
+   }
+  ],
+  "item_id": null,
+  "name": "Shaderun Boots",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Packmaster_Ragetooth"
+  ]
+ },
+ "Shadowruned Girdle": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "Har'gesh Doomcaller"
+   }
+  ],
+  "item_id": null,
+  "name": "Shadowruned Girdle",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Har%27gesh_Doomcaller",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177"
+  ]
+ },
+ "Shadowthread Cloak": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "The Crescent Grove",
+    "npc": "Master Raxxieth"
+   }
+  ],
+  "item_id": null,
+  "name": "Shadowthread Cloak",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Master_Raxxieth",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=129934#p129934"
+  ]
+ },
+ "Shawl of End Times": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "Har'gesh Doomcaller"
+   }
+  ],
+  "item_id": null,
+  "name": "Shawl of End Times",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Har%27gesh_Doomcaller",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177"
+  ]
+ },
+ "Shimmering Oil": {
+  "drop_rates": [],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Shimmering Oil",
+  "sold_by": [
+   {
+    "location": null,
+    "npc": "Jewelcrafting Supplier (generic)",
+    "price": "5s"
+   }
+  ],
+  "sources": []
+ },
+ "Signet of Faded Sermons": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Shadowfang Keep",
+    "npc": "Prelate Ironmane"
+   }
+  ],
+  "item_id": null,
+  "name": "Signet of Faded Sermons",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=121678#p121678",
+   "https://turtle-wow.fandom.com/wiki/Prelate_Ironmane",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=29743#p29743"
+  ]
+ },
+ "Simple Wood": {
+  "drop_rates": [],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Simple Wood",
+  "sold_by": [
+   {
+    "location": "Stranglethorn Vale",
+    "npc": "Rufus Hardwick",
+    "price": null
+   }
+  ],
+  "sources": []
+ },
+ "Simple Wooden Planter recipe": {
+  "drop_rates": [],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Simple Wooden Planter recipe",
+  "sold_by": [
+   {
+    "location": "Elwynn Forest",
+    "npc": "Mortimer Stansfield",
+    "price": null
+   },
+   {
+    "location": "Mulgore",
+    "npc": "Kern Mosshoof",
+    "price": null
+   }
+  ],
+  "sources": []
+ },
+ "Slag Slugger": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "The Deadmines",
+    "npc": "Masterpiece Harvester"
+   }
+  ],
+  "item_id": null,
+  "name": "Slag Slugger",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980",
+   "https://turtle-wow.fandom.com/wiki/Masterpiece_Harvester"
+  ]
+ },
+ "Slain Sentry's Ring": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Scarlet Monastery",
+    "npc": "Duke Dreadmoore <Knight of Naxxramas>"
+   }
+  ],
+  "item_id": null,
+  "name": "Slain Sentry's Ring",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709",
+   "https://turtlecraft.gg/classic-dungeons-update",
+   "https://turtle-wow.fandom.com/wiki/Duke_Dreadmoore"
+  ]
+ },
+ "Slayer's Edge": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "The Crescent Grove",
+    "npc": "Master Raxxieth"
+   }
+  ],
+  "item_id": null,
+  "name": "Slayer's Edge",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Master_Raxxieth",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=129934#p129934"
+  ]
+ },
+ "Sludge-drenched Sabatons": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "Corrosis"
+   }
+  ],
+  "item_id": null,
+  "name": "Sludge-drenched Sabatons",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Corrosis"
+  ]
+ },
+ "Smoldering Dream Essence": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2023-12-01",
+    "rate": "20% -> 35%",
+    "sample_size": null,
+    "source": "Druid Emerald Blessing chain",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=79558#p79558"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Smoldering Dream Essence",
+  "sold_by": [],
+  "sources": []
+ },
+ "Snickerfang Jowl, Vulture Gizzard, Scorpok Pincer, Blasted Boar Lung, Basilisk Brain": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2024-03-19",
+    "rate": "raised to 80%",
+    "sample_size": null,
+    "source": "Blasted Lands mobs",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=90751#p90751"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Snickerfang Jowl, Vulture Gizzard, Scorpok Pincer, Blasted Boar Lung, Basilisk Brain",
+  "sold_by": [],
+  "sources": []
+ },
+ "Snowchilled Crest": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Frostmane Hollow",
+    "npc": "Battlemaster Ubukaz"
+   }
+  ],
+  "item_id": null,
+  "name": "Snowchilled Crest",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Battlemaster_Ubukaz"
+  ]
+ },
+ "Soothing Spices": {
+  "drop_rates": [],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Soothing Spices",
+  "sold_by": [
+   {
+    "location": null,
+    "npc": "Survival Supplier (generic)",
+    "price": "1s 60c"
+   }
+  ],
+  "sources": []
+ },
+ "Soul of the Dreadlord (quest: Scythe of the Goddess)": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Tower of Karazhan",
+    "npc": "Mephistroth"
+   }
+  ],
+  "item_id": null,
+  "name": "Soul of the Dreadlord (quest: Scythe of the Goddess)",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=128053#p128053",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=129028#p129028",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=134147#p134147",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=129934#p129934",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=138497#p138497",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=136891#p136891",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=163576#p163576",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=134911#p134911",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=130909#p130909",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=131426#p131426",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=128749#p128749",
+   "https://turtle-wow.fandom.com/wiki/Mephistroth"
+  ]
+ },
+ "Spine of Dentarg": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Ighal'for -> Mergothid"
+   }
+  ],
+  "item_id": null,
+  "name": "Spine of Dentarg",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Mergothid",
+   "https://turtle-wow.fandom.com/wiki/Ighal%27for",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=147116#p147116",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=148454#p148454"
+  ]
+ },
+ "Springy Rope": {
+  "drop_rates": [],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Springy Rope",
+  "sold_by": [
+   {
+    "location": null,
+    "npc": "Survival Supplier (generic)",
+    "price": "85c"
+   }
+  ],
+  "sources": []
+ },
+ "Stablehand Broom": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Horsemaster Levvin"
+   }
+  ],
+  "item_id": null,
+  "name": "Stablehand Broom",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Horsemaster_Levvin"
+  ]
+ },
+ "Stablemaster's Nightlight": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Horsemaster Levvin"
+   }
+  ],
+  "item_id": null,
+  "name": "Stablemaster's Nightlight",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Horsemaster_Levvin"
+  ]
+ },
+ "Staff of Alarus": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Karazhan Crypt",
+    "npc": "Alarus"
+   }
+  ],
+  "item_id": null,
+  "name": "Staff of Alarus",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=132195#p132195",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=111130#p111130",
+   "https://turtle-wow.fandom.com/wiki/Karazhan_Crypt"
+  ]
+ },
+ "Staff of the Bloodbound": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Zul'Farrak",
+    "npc": "Zel'jeb the Ancient"
+   }
+  ],
+  "item_id": null,
+  "name": "Staff of the Bloodbound",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://turtle-wow.fandom.com/wiki/Zel%27jeb_the_Ancient"
+  ]
+ },
+ "Steamrigged Servohammer": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "Hatereaver Annihilator"
+   }
+  ],
+  "item_id": null,
+  "name": "Steamrigged Servohammer",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Hatereaver_Annihilator"
+  ]
+ },
+ "Stormreaver Mantle": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Chieftain Stormsong"
+   }
+  ],
+  "item_id": null,
+  "name": "Stormreaver Mantle",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Chieftain_Stormsong"
+  ]
+ },
+ "Stormwind Vault trash items": {
+  "drop_rates": [
+   {
+    "authority": "player",
+    "date": "2024-03-16",
+    "rate": "111 runs, never saw any trash item",
+    "sample_size": "111 runs, 0",
+    "source": "Stormwind Vault",
+    "status": "staff answered: 0.01%/0.02%",
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=90378#p90378",
+     "https://forum.turtlecraft.gg/viewtopic.php?p=90396#p90396"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Stormwind Vault trash items",
+  "sold_by": [],
+  "sources": []
+ },
+ "Strong Flux": {
+  "drop_rates": [],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Strong Flux",
+  "sold_by": [
+   {
+    "location": null,
+    "npc": "Jewelcrafting Supplier (generic)",
+    "price": "20s"
+   }
+  ],
+  "sources": []
+ },
+ "Sturdy Rope": {
+  "drop_rates": [],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Sturdy Rope",
+  "sold_by": [
+   {
+    "location": null,
+    "npc": "Survival Supplier (generic)",
+    "price": "1s"
+   }
+  ],
+  "sources": []
+ },
+ "Sutherland's Cuffs": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Judge Sutherland"
+   }
+  ],
+  "item_id": null,
+  "name": "Sutherland's Cuffs",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Judge_Sutherland"
+  ]
+ },
+ "Swiftcaster's Chapeau": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Genn Greymane"
+   }
+  ],
+  "item_id": null,
+  "name": "Swiftcaster's Chapeau",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Genn_Greymane_(tactics)"
+  ]
+ },
+ "Swiftstrike Kilt": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Scarlet Monastery",
+    "npc": "Brother Wystan"
+   }
+  ],
+  "item_id": null,
+  "name": "Swiftstrike Kilt",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709",
+   "https://turtlecraft.gg/classic-dungeons-update",
+   "https://turtle-wow.fandom.com/wiki/Brother_Wystan"
+  ]
+ },
+ "Tainted Brambleheart (quest)": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Razorfen Kraul",
+    "npc": "Rotthorn"
+   }
+  ],
+  "item_id": null,
+  "name": "Tainted Brambleheart (quest)",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://turtle-wow.fandom.com/wiki/Rotthorn"
+  ]
+ },
+ "Tainted Mojo": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2025-02-21",
+    "rate": "100%",
+    "sample_size": null,
+    "source": "Seer Jang'zo and Speaker Ujuwa",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=120590#p120590"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Tainted Mojo",
+  "sold_by": [],
+  "sources": []
+ },
+ "Talisman of the Sandborn": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Zul'Farrak",
+    "npc": "Farraki Arena (Kath'zen the Brutal, Juthza the Cunning, Champion Razjal the Quick)"
+   }
+  ],
+  "item_id": null,
+  "name": "Talisman of the Sandborn",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=159994#p159994",
+   "https://turtle-wow.fandom.com/wiki/Farraki_Arena"
+  ]
+ },
+ "Tarnished Citrine Choker (Jewelcrafting quest)": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Dustivan Blackcowl"
+   }
+  ],
+  "item_id": null,
+  "name": "Tarnished Citrine Choker (Jewelcrafting quest)",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Dustivan_Blackcowl"
+  ]
+ },
+ "Taskmaster's Tag": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "High Foreman Bargul Blackhammer"
+   }
+  ],
+  "item_id": null,
+  "name": "Taskmaster's Tag",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/High_Foreman_Bargul_Blackhammer",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177"
+  ]
+ },
+ "Techrifle X-TREME 5200": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "Engineer Figgles"
+   }
+  ],
+  "item_id": null,
+  "name": "Techrifle X-TREME 5200",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Engineer_Figgles",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177"
+  ]
+ },
+ "Thaddius Tier 3 head tokens": {
+  "drop_rates": [
+   {
+    "authority": "player",
+    "date": "2024-05-07",
+    "rate": "15 kills (30 drop rolls) without one specific token",
+    "sample_size": "15 kills / 30 rolls",
+    "source": "Thaddius (Naxxramas)",
+    "status": "contested statistics argument",
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=94185#p94185",
+     "https://forum.turtlecraft.gg/viewtopic.php?p=94203#p94203",
+     "https://forum.turtlecraft.gg/viewtopic.php?p=94219#p94219"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Thaddius Tier 3 head tokens",
+  "sold_by": [],
+  "sources": []
+ },
+ "The Black Pendant": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Judge Sutherland"
+   }
+  ],
+  "item_id": null,
+  "name": "The Black Pendant",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Judge_Sutherland"
+  ]
+ },
+ "The Blackwind Pillar": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Windhorn Canyon",
+    "npc": "Chieftain Shalk Blackwind"
+   }
+  ],
+  "item_id": null,
+  "name": "The Blackwind Pillar",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Chieftain_Shalk_Blackwind"
+  ]
+ },
+ "The Creator's Goggles": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "Engineer Figgles"
+   }
+  ],
+  "item_id": null,
+  "name": "The Creator's Goggles",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Engineer_Figgles",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177"
+  ]
+ },
+ "The Greymane Crown (quest)": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Genn Greymane"
+   }
+  ],
+  "item_id": null,
+  "name": "The Greymane Crown (quest)",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Genn_Greymane_(tactics)"
+  ]
+ },
+ "The Scythe of Elune": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2025-05-21",
+    "rate": "2%",
+    "sample_size": null,
+    "source": "Lower Karazhan Halls",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=132271#p132271"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "The Scythe of Elune",
+  "sold_by": [],
+  "sources": []
+ },
+ "The Veil of Hatred": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "Har'gesh Doomcaller"
+   }
+  ],
+  "item_id": null,
+  "name": "The Veil of Hatred",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Har%27gesh_Doomcaller",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177"
+  ]
+ },
+ "Thorngorged Fleshgloves": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Razorfen Downs",
+    "npc": "Death Prophet Rakameg"
+   }
+  ],
+  "item_id": null,
+  "name": "Thorngorged Fleshgloves",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://turtle-wow.fandom.com/wiki/Death_Prophet_Rakameg"
+  ]
+ },
+ "Thornlash Branch": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Razorfen Kraul",
+    "npc": "Rotthorn"
+   }
+  ],
+  "item_id": null,
+  "name": "Thornlash Branch",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://turtle-wow.fandom.com/wiki/Rotthorn"
+  ]
+ },
+ "Thornroot Maul": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "The Crescent Grove",
+    "npc": "Grovetender Engryss"
+   }
+  ],
+  "item_id": null,
+  "name": "Thornroot Maul",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Grovetender_Engryss"
+  ]
+ },
+ "Thornspine": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Razorfen Downs",
+    "npc": "Death Prophet Rakameg"
+   }
+  ],
+  "item_id": null,
+  "name": "Thornspine",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://turtle-wow.fandom.com/wiki/Death_Prophet_Rakameg"
+  ]
+ },
+ "Thornstrand Sash": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "The Crescent Grove",
+    "npc": "Warden Liferoot"
+   },
+   {
+    "instance": "The Crescent Grove",
+    "npc": "Warden Treeshade"
+   }
+  ],
+  "item_id": null,
+  "name": "Thornstrand Sash",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Warden_Liferoot",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://turtle-wow.fandom.com/wiki/Warden_Treeshade"
+  ]
+ },
+ "Thunderstrike Pike": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Windhorn Canyon",
+    "npc": "Ambassador Vortalus"
+   }
+  ],
+  "item_id": null,
+  "name": "Thunderstrike Pike",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Ambassador_Vortalus",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490"
+  ]
+ },
+ "Tier 3 pieces": {
+  "drop_rates": [
+   {
+    "authority": "player",
+    "date": "2026-03-31",
+    "rate": "10-11 lockouts, 2 tier-3 pieces total",
+    "sample_size": "10-11 lockouts",
+    "source": "Naxxramas",
+    "status": "argument for a badge system",
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=173499#p173499"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Tier 3 pieces",
+  "sold_by": [],
+  "sources": []
+ },
+ "Tiny Bracelet": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Remains of the Innocent"
+   }
+  ],
+  "item_id": null,
+  "name": "Tiny Bracelet",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Remains_of_the_Innocent"
+  ]
+ },
+ "Tooth of Ahgk'tos": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Windhorn Canyon",
+    "npc": "Ahgk'tos the Pure"
+   }
+  ],
+  "item_id": null,
+  "name": "Tooth of Ahgk'tos",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Ahgk%27tos_the_Pure"
+  ]
+ },
+ "Top Half of Advance Goldsmithing 2": {
+  "drop_rates": [
+   {
+    "authority": "player",
+    "date": "2026-02-06",
+    "rate": "farmed without success",
+    "sample_size": null,
+    "source": "database points at Sunken Temple trolls",
+    "status": "unresolved",
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=155228#p155228",
+     "https://forum.turtlecraft.gg/viewtopic.php?p=167568#p167568"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Top Half of Advance Goldsmithing 2",
+  "sold_by": [],
+  "sources": []
+ },
+ "Torn Wings of Midnight": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Tower of Karazhan",
+    "npc": "Keeper Gnarlmoon"
+   }
+  ],
+  "item_id": null,
+  "name": "Torn Wings of Midnight",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=130900#p130900",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=126056#p126056",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=170300#p170300",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=174801#p174801",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=52799#p52799",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=128636#p128636",
+   "https://turtle-wow.fandom.com/wiki/Keeper_Gnarlmoon"
+  ]
+ },
+ "Totem of Broken Earth": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Tower of Karazhan",
+    "npc": "Rupturan the Broken"
+   }
+  ],
+  "item_id": null,
+  "name": "Totem of Broken Earth",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=145131#p145131",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=130900#p130900",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=128053#p128053",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=132195#p132195",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=163576#p163576",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=164078#p164078",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=52799#p52799",
+   "https://turtle-wow.fandom.com/wiki/Rupturan_the_Broken"
+  ]
+ },
+ "Totem of Crackling Thunder": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Lower Karazhan Halls",
+    "npc": "Grizikil"
+   }
+  ],
+  "item_id": null,
+  "name": "Totem of Crackling Thunder",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=160087#p160087",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=52799#p52799"
+  ]
+ },
+ "Totem of Static Charge": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Wailing Caverns",
+    "npc": "Zandara Windhoof"
+   }
+  ],
+  "item_id": null,
+  "name": "Totem of Static Charge",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709",
+   "https://turtle-wow.fandom.com/wiki/Zandara_Windhoof"
+  ]
+ },
+ "Totem of Tides": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Chieftain Stormsong"
+   }
+  ],
+  "item_id": null,
+  "name": "Totem of Tides",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Chieftain_Stormsong"
+  ]
+ },
+ "Totem of the Flowing Timeways": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Caverns of Time: Black Morass",
+    "npc": "Epidamu"
+   }
+  ],
+  "item_id": null,
+  "name": "Totem of the Flowing Timeways",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868"
+  ]
+ },
+ "Totem of the Rotten Roots": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Razorfen Downs",
+    "npc": "Death Prophet Rakameg"
+   }
+  ],
+  "item_id": null,
+  "name": "Totem of the Rotten Roots",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://turtle-wow.fandom.com/wiki/Death_Prophet_Rakameg"
+  ]
+ },
+ "Toxic Ripper": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "Corrosis"
+   }
+  ],
+  "item_id": null,
+  "name": "Toxic Ripper",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Corrosis"
+  ]
+ },
+ "Toxic Talisman": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "Har'gesh Doomcaller"
+   }
+  ],
+  "item_id": null,
+  "name": "Toxic Talisman",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Har%27gesh_Doomcaller",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177"
+  ]
+ },
+ "Transmutation Alloy (rogue class quest)": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Blackwing Lair",
+    "npc": "Ezzel Darkbrewer"
+   }
+  ],
+  "item_id": null,
+  "name": "Transmutation Alloy (rogue class quest)",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608",
+   "https://turtle-wow.fandom.com/wiki/Ezzel_Darkbrewer"
+  ]
+ },
+ "Traveler's Tent Blueprints": {
+  "drop_rates": [],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Traveler's Tent Blueprints",
+  "sold_by": [
+   {
+    "location": "Stranglethorn Vale",
+    "npc": "Rufus Hardwick",
+    "price": "1g 50s (2023-05); cheaper in 2019"
+   }
+  ],
+  "sources": []
+ },
+ "Treads of Forgotten Empathy": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Ighal'for -> Mergothid"
+   }
+  ],
+  "item_id": null,
+  "name": "Treads of Forgotten Empathy",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Mergothid",
+   "https://turtle-wow.fandom.com/wiki/Ighal%27for",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=147116#p147116",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=148454#p148454"
+  ]
+ },
+ "Treads of Renewal": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Scarlet Monastery",
+    "npc": "Armory Quartermaster Daghelm"
+   }
+  ],
+  "item_id": null,
+  "name": "Treads of Renewal",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709",
+   "https://turtlecraft.gg/classic-dungeons-update",
+   "https://turtle-wow.fandom.com/wiki/Armory_Quartermaster_Daghelm"
+  ]
+ },
+ "Treads of the Keeper": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "The Crescent Grove",
+    "npc": "Keeper Ranathos"
+   }
+  ],
+  "item_id": null,
+  "name": "Treads of the Keeper",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Keeper_Ranathos",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615"
+  ]
+ },
+ "Treads of the Unknown": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Chieftain Stormsong"
+   }
+  ],
+  "item_id": null,
+  "name": "Treads of the Unknown",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Chieftain_Stormsong"
+  ]
+ },
+ "Tribal War Gauntlets": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Frostmane Hollow",
+    "npc": "Battlemaster Ubukaz"
+   }
+  ],
+  "item_id": null,
+  "name": "Tribal War Gauntlets",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Battlemaster_Ubukaz"
+  ]
+ },
+ "Trickster's Wraps": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "The Crescent Grove",
+    "npc": "Fenektis the Deceiver"
+   }
+  ],
+  "item_id": null,
+  "name": "Trickster's Wraps",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Fenektis_the_Deceiver",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615"
+  ]
+ },
+ "Turalyon's Hope": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Tower of Karazhan",
+    "npc": "Mephistroth"
+   }
+  ],
+  "item_id": null,
+  "name": "Turalyon's Hope",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=128053#p128053",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=129028#p129028",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=134147#p134147",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=129934#p129934",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=138497#p138497",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=136891#p136891",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=163576#p163576",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=134911#p134911",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=130909#p130909",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=131426#p131426",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=128749#p128749",
+   "https://turtle-wow.fandom.com/wiki/Mephistroth"
+  ]
+ },
+ "Twisted Demon Crystal": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Ighal'for -> Mergothid"
+   }
+  ],
+  "item_id": null,
+  "name": "Twisted Demon Crystal",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Mergothid",
+   "https://turtle-wow.fandom.com/wiki/Ighal%27for",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=147116#p147116",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=148454#p148454"
+  ]
+ },
+ "UBRS-key gems": {
+  "drop_rates": [
+   {
+    "authority": "player",
+    "date": "2023-11-06",
+    "rate": "35 runs for the last gem (dropped twice); another: 15 runs, each gem once; a third: 45+ runs",
+    "sample_size": "15 / 35 / 45 runs",
+    "source": "LBRS bosses",
+    "status": "high variance; no rate established",
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=76160#p76160",
+     "https://forum.turtlecraft.gg/viewtopic.php?p=76184#p76184",
+     "https://forum.turtlecraft.gg/viewtopic.php?p=47681#p47681"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "UBRS-key gems",
+  "sold_by": [],
+  "sources": []
+ },
+ "Unlit Poor Torch": {
+  "drop_rates": [],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Unlit Poor Torch",
+  "sold_by": [
+   {
+    "location": "Stranglethorn Vale",
+    "npc": "Rufus Hardwick",
+    "price": null
+   },
+   {
+    "location": null,
+    "npc": "Survival Supplier (generic)",
+    "price": "10c"
+   }
+  ],
+  "sources": []
+ },
+ "Vander Legguards": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Duke Balor the IV"
+   }
+  ],
+  "item_id": null,
+  "name": "Vander Legguards",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Duke_Balor_the_IV"
+  ]
+ },
+ "Venomsight Mask": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "Corrosis"
+   }
+  ],
+  "item_id": null,
+  "name": "Venomsight Mask",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Corrosis"
+  ]
+ },
+ "Vest of Dark Desires": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Lady Drazare"
+   }
+  ],
+  "item_id": null,
+  "name": "Vest of Dark Desires",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Lady_Drazare"
+  ]
+ },
+ "Vest of the Beastkeeper": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Frostmane Hollow",
+    "npc": "Tan'sha the Sleek"
+   }
+  ],
+  "item_id": null,
+  "name": "Vest of the Beastkeeper",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Tan%27sha_the_Sleek"
+  ]
+ },
+ "Visor of Command": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "High Foreman Bargul Blackhammer"
+   }
+  ],
+  "item_id": null,
+  "name": "Visor of Command",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/High_Foreman_Bargul_Blackhammer",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177"
+  ]
+ },
+ "Voss' Sizzling Brew (quest: Turning Off The Tap)": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "The Deadmines",
+    "npc": "Jared Voss"
+   }
+  ],
+  "item_id": null,
+  "name": "Voss' Sizzling Brew (quest: Turning Off The Tap)",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=166661#p166661",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=112126#p112126",
+   "https://turtle-wow.fandom.com/wiki/Jared_Voss",
+   "https://turtlecraft.gg/classic-dungeons-update"
+  ]
+ },
+ "War Master Voone loot": {
+  "drop_rates": [
+   {
+    "authority": "player",
+    "date": "2024-01-19",
+    "rate": "always dropped the T0 hunter glove plus throwing axe over 20+ kills",
+    "sample_size": "20+ kills",
+    "source": "UBRS",
+    "status": "contested",
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=85387#p85387"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "War Master Voone loot",
+  "sold_by": [],
+  "sources": []
+ },
+ "Warden's Vest": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "The Crescent Grove",
+    "npc": "Warden Liferoot"
+   },
+   {
+    "instance": "The Crescent Grove",
+    "npc": "Warden Treeshade"
+   }
+  ],
+  "item_id": null,
+  "name": "Warden's Vest",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Warden_Liferoot",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://turtle-wow.fandom.com/wiki/Warden_Treeshade"
+  ]
+ },
+ "Warrior Tier 0 chest / legs": {
+  "drop_rates": [
+   {
+    "authority": "player",
+    "date": "2023-12-29",
+    "rate": "60-70 combined kills, only 1 boot drop",
+    "sample_size": "60-70 kills",
+    "source": "Rivendare, Drakkisath, Kirtonos",
+    "status": "unanswered",
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=83110#p83110"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Warrior Tier 0 chest / legs",
+  "sold_by": [],
+  "sources": []
+ },
+ "Weak Flux": {
+  "drop_rates": [],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Weak Flux",
+  "sold_by": [
+   {
+    "location": null,
+    "npc": "Jewelcrafting Supplier (generic)",
+    "price": "1s"
+   }
+  ],
+  "sources": []
+ },
+ "Whip of Shared Secrets": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Stormwrought Ruins",
+    "npc": "Lady Drazare"
+   }
+  ],
+  "item_id": null,
+  "name": "Whip of Shared Secrets",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Lady_Drazare"
+  ]
+ },
+ "White Thalassian Unicorn": {
+  "drop_rates": [],
+  "drops_from": [],
+  "item_id": null,
+  "name": "White Thalassian Unicorn",
+  "sold_by": [
+   {
+    "location": "Thalassian Highlands",
+    "npc": "Vanira Quel'Belore",
+    "price": "10g"
+   }
+  ],
+  "sources": []
+ },
+ "Whittle": {
+  "drop_rates": [],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Whittle",
+  "sold_by": [
+   {
+    "location": null,
+    "npc": "Survival Supplier (generic)",
+    "price": "50c"
+   }
+  ],
+  "sources": []
+ },
+ "Wildfeather Bracers": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Regent-Lords of Gilneas"
+   }
+  ],
+  "item_id": null,
+  "name": "Wildfeather Bracers",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Regent-Lords_of_Gilneas"
+  ]
+ },
+ "Windborne Sash": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Wailing Caverns",
+    "npc": "Zandara Windhoof"
+   }
+  ],
+  "item_id": null,
+  "name": "Windborne Sash",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709",
+   "https://turtle-wow.fandom.com/wiki/Zandara_Windhoof"
+  ]
+ },
+ "Windcrest Pants": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Frostmane Hollow",
+    "npc": "Kan'za the Seer"
+   }
+  ],
+  "item_id": null,
+  "name": "Windcrest Pants",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Kan%27za_the_Seer"
+  ]
+ },
+ "Windserpent Hauberk": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Windhorn Canyon",
+    "npc": "Ahgk'tos the Pure"
+   }
+  ],
+  "item_id": null,
+  "name": "Windserpent Hauberk",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Ahgk%27tos_the_Pure"
+  ]
+ },
+ "Wolfblood": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Genn Greymane"
+   }
+  ],
+  "item_id": null,
+  "name": "Wolfblood",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Genn_Greymane_(tactics)"
+  ]
+ },
+ "Wolfheart Necklace": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Packmaster Ragetooth"
+   }
+  ],
+  "item_id": null,
+  "name": "Wolfheart Necklace",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Packmaster_Ragetooth"
+  ]
+ },
+ "Woodcutting Axe": {
+  "drop_rates": [],
+  "drops_from": [],
+  "item_id": null,
+  "name": "Woodcutting Axe",
+  "sold_by": [
+   {
+    "location": null,
+    "npc": "Survival Supplier (generic)",
+    "price": "50c"
+   }
+  ],
+  "sources": []
+ },
+ "Worgen Hunter Grips": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Matthias Holtz"
+   }
+  ],
+  "item_id": null,
+  "name": "Worgen Hunter Grips",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Matthias_Holtz"
+  ]
+ },
+ "Worgen Hunter Musket": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Gilneas City",
+    "npc": "Matthias Holtz"
+   }
+  ],
+  "item_id": null,
+  "name": "Worgen Hunter Musket",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Matthias_Holtz"
+  ]
+ },
+ "Wraps of the Transmogrified": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Caverns of Time: Black Morass",
+    "npc": "Rotmaw"
+   }
+  ],
+  "item_id": null,
+  "name": "Wraps of the Transmogrified",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868"
+  ]
+ },
+ "Wrench of Creation": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Hateforge Quarry",
+    "npc": "Engineer Figgles"
+   }
+  ],
+  "item_id": null,
+  "name": "Wrench of Creation",
+  "sold_by": [],
+  "sources": [
+   "https://turtle-wow.fandom.com/wiki/Engineer_Figgles",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177"
+  ]
+ },
+ "Wystan's Steel Fist": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Scarlet Monastery",
+    "npc": "Brother Wystan"
+   }
+  ],
+  "item_id": null,
+  "name": "Wystan's Steel Fist",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709",
+   "https://turtlecraft.gg/classic-dungeons-update",
+   "https://turtle-wow.fandom.com/wiki/Brother_Wystan"
+  ]
+ },
+ "all Idols": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2023-03-08",
+    "rate": "0.4% -> 1%",
+    "sample_size": null,
+    "source": "various",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=37124#p37124"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "all Idols",
+  "sold_by": [],
+  "sources": []
+ },
+ "boss loot tables generally": {
+  "drop_rates": [
+   {
+    "authority": "player",
+    "date": "2025-07-07",
+    "rate": "same loot 30 kills in a row; changed only after killing other bosses first",
+    "sample_size": "30 kills",
+    "source": "Gilneas City worgen boss",
+    "status": "contested - countered as ordinary RNG",
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=138351#p138351"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "boss loot tables generally",
+  "sold_by": [],
+  "sources": []
+ },
+ "druid glyph appearances": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Emerald Sanctum",
+    "npc": "Solnius the Awakener"
+   }
+  ],
+  "item_id": null,
+  "name": "druid glyph appearances",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=130281#p130281",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91958#p91958",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=102971#p102971",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=149960#p149960",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=80796#p80796",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=129590#p129590",
+   "https://turtle-wow.fandom.com/wiki/Solnius",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=94829#p94829",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=95027#p95027",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=95765#p95765",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=69843#p69843"
+  ]
+ },
+ "endgame custom dungeon BoE rare drops": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2024-07-03",
+    "rate": "raised from 0.0031%",
+    "sample_size": null,
+    "source": "custom dungeons",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=98410#p98410"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "endgame custom dungeon BoE rare drops",
+  "sold_by": [],
+  "sources": []
+ },
+ "quest items generally": {
+  "drop_rates": [
+   {
+    "authority": "player",
+    "date": "2023-10-25",
+    "rate": "some quest items drop per-player and some for the whole party, with no way to tell which; Intercepting Wavecrest needed ~100 naga kills for a group of 4 at ~80%",
+    "sample_size": null,
+    "source": "Turtle custom quests",
+    "status": "staff replied; no documented rule",
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=73526#p73526",
+     "https://forum.turtlecraft.gg/viewtopic.php?p=73571#p73571",
+     "https://forum.turtlecraft.gg/viewtopic.php?p=40601#p40601"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "quest items generally",
+  "sold_by": [],
+  "sources": []
+ },
+ "ranged weapons / Might of Menethil": {
+  "drop_rates": [
+   {
+    "authority": "player",
+    "date": "2025-03-03",
+    "rate": "13-14 clears, no ranged weapon, 1 Might of Menethil",
+    "sample_size": "13-14 clears",
+    "source": "Four Horsemen, Kel'Thuzad (Naxxramas)",
+    "status": "unanswered",
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=121461#p121461"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "ranged weapons / Might of Menethil",
+  "sold_by": [],
+  "sources": []
+ },
+ "recipe: Jewelry Lens": {
+  "drop_rates": [],
+  "drops_from": [],
+  "item_id": null,
+  "name": "recipe: Jewelry Lens",
+  "sold_by": [
+   {
+    "location": null,
+    "npc": "Jewelcrafting Supplier (generic)",
+    "price": null
+   }
+  ],
+  "sources": []
+ },
+ "recipe: Jewelry Scope": {
+  "drop_rates": [],
+  "drops_from": [],
+  "item_id": null,
+  "name": "recipe: Jewelry Scope",
+  "sold_by": [
+   {
+    "location": "Tanaris",
+    "npc": "Gonzo Snaphands",
+    "price": null
+   }
+  ],
+  "sources": []
+ },
+ "recipe: Precision Jewelers Kit": {
+  "drop_rates": [],
+  "drops_from": [],
+  "item_id": null,
+  "name": "recipe: Precision Jewelers Kit",
+  "sold_by": [
+   {
+    "location": "The Barrens",
+    "npc": "Ranik",
+    "price": null
+   }
+  ],
+  "sources": []
+ },
+ "rods for \"The Clutch of Atherelex\"": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2025-08-13",
+    "rate": "11% -> 35%",
+    "sample_size": null,
+    "source": "n/a",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=145131#p145131"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "rods for \"The Clutch of Atherelex\"",
+  "sold_by": [],
+  "sources": []
+ },
+ "three Armorsmithing Towerforge plans (helmet, breastplate, pauldrons, two-handed mace set)": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Lower Karazhan Halls",
+    "npc": "Master Blacksmith Rolfen"
+   }
+  ],
+  "item_id": null,
+  "name": "three Armorsmithing Towerforge plans (helmet, breastplate, pauldrons, two-handed mace set)",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=160087#p160087",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=52800#p52800",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=168204#p168204",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=168191#p168191"
+  ]
+ },
+ "two Tier 3.5 chest tokens": {
+  "drop_rates": [],
+  "drops_from": [
+   {
+    "instance": "Tower of Karazhan",
+    "npc": "Mephistroth"
+   }
+  ],
+  "item_id": null,
+  "name": "two Tier 3.5 chest tokens",
+  "sold_by": [],
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=128053#p128053",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=129028#p129028",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=134147#p134147",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=129934#p129934",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=138497#p138497",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=136891#p136891",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=163576#p163576",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=134911#p134911",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=130909#p130909",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=131426#p131426",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=128749#p128749",
+   "https://turtle-wow.fandom.com/wiki/Mephistroth"
+  ]
+ },
+ "unnamed auction-house rarity": {
+  "drop_rates": [
+   {
+    "authority": "staff",
+    "date": "2024-03-16",
+    "rate": "0.01% and 0.02%",
+    "sample_size": null,
+    "source": "Stormwind Vault trash",
+    "status": null,
+    "urls": [
+     "https://forum.turtlecraft.gg/viewtopic.php?p=90378#p90378",
+     "https://forum.turtlecraft.gg/viewtopic.php?p=90525#p90525"
+    ]
+   }
+  ],
+  "drops_from": [],
+  "item_id": null,
+  "name": "unnamed auction-house rarity",
+  "sold_by": [],
+  "sources": []
+ }
+}

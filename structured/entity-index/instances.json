@@ -1,0 +1,2151 @@
+{
+ "black-morass": {
+  "bosses": [
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Drifting Avatar of Time",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [
+     "Totem of the Flowing Timeways",
+     "Fabric of Time"
+    ],
+    "name": "Epidamu",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [
+     "Idol of Savagery",
+     "Wraps of the Transmogrified"
+    ],
+    "name": "Rotmaw",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Mossheart",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [
+     "Eye of the Abyss (epic, around 1% drop chance)"
+    ],
+    "name": "Antnormi",
+    "npc_id": null,
+    "order": null
+   }
+  ],
+  "custom": true,
+  "level_min": 60,
+  "level_range": "60",
+  "name": "Caverns of Time: Black Morass",
+  "patch_introduced": "1.16.0",
+  "size": 5,
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=32681#p32681",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=54660#p54660",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=69006#p69006",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=77428#p77428",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=78235#p78235",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=88271#p88271",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=96794#p96794",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=98410#p98410",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=145131#p145131",
+   "https://turtlecraft.gg/raids-and-dungeons",
+   "https://turtle-wow.fandom.com/wiki/Black_Morass",
+   "https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=29739#p29739",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=29758#p29758",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=20858#p20858",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=76719#p76719",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=89576#p89576"
+  ],
+  "type": "dungeon",
+  "zone": "Caverns of Time, Tanaris (south-west portal)"
+ },
+ "blackfathom-deeps": {
+  "bosses": [
+   {
+    "in_npc_index": true,
+    "loot": [],
+    "name": "Velthelaxx the Defiler",
+    "npc_id": null,
+    "order": null
+   }
+  ],
+  "custom": false,
+  "level_min": 22,
+  "level_range": "22-31",
+  "name": "Blackfathom Deeps",
+  "patch_introduced": "vanilla",
+  "size": 5,
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=79953#p79953",
+   "https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=29739#p29739",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=29743#p29743"
+  ],
+  "type": "dungeon",
+  "zone": "Ashenvale"
+ },
+ "blackwing-lair": {
+  "bosses": [
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Razorgore the Untamed",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Vaelastrasz the Corrupt",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Broodlord Lashlayer",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Firemaw",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Ebonroc",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Flamegor",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Chromaggus",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Nefarian",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Transmutation Alloy (rogue class quest)"
+    ],
+    "name": "Ezzel Darkbrewer",
+    "npc_id": null,
+    "order": null
+   }
+  ],
+  "custom": false,
+  "level_min": 60,
+  "level_range": "60",
+  "name": "Blackwing Lair",
+  "patch_introduced": "vanilla",
+  "size": 40,
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=174367#p174367",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=176101#p176101",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=35264#p35264",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=79223#p79223",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=79953#p79953",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=88271#p88271",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=94874#p94874",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=66741#p66741",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=24828#p24828",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=70096#p70096",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120933#p120933",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=129934#p129934",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=111130#p111130",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=112126#p112126",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=115021#p115021",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980",
+   "https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=173564#p173564",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=174380#p174380",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=146911#p146911",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120619#p120619",
+   "https://forum.turtlecraft.gg/viewtopic.php?t=940"
+  ],
+  "type": "raid",
+  "zone": "Blackrock Mountain"
+ },
+ "crescent-grove": {
+  "bosses": [
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Groveweald Tribal Necklace",
+     "Thornroot Maul",
+     "Groveweald Elder Cuffs",
+     "Furbolg Battle Grips",
+     "Horn of Engryss",
+     "Fashion Coin",
+     "Groveweald Badge (quest: The Rampant Groveweald)"
+    ],
+    "name": "Grovetender Engryss",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Bow of the Grove",
+     "Bands of Ranathos",
+     "Glademender's Robes",
+     "Treads of the Keeper",
+     "Circlet of Cenarius",
+     "Fashion Coin"
+    ],
+    "name": "Keeper Ranathos",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Warden's Vest",
+     "Crescent Grove Staff",
+     "Thornstrand Sash"
+    ],
+    "name": "Warden Liferoot",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Warden's Vest",
+     "Crescent Grove Staff",
+     "Thornstrand Sash"
+    ],
+    "name": "Warden Treeshade",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Circlet of the Crescent Moon",
+     "Sentinel's Moonslicer",
+     "Moontouched Shoulders",
+     "Crescent Sigil",
+     "Fashion Coin"
+    ],
+    "name": "High Priestess A'lathea",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Felflame Shard",
+     "Trickster's Wraps",
+     "Betrayer",
+     "Blackflame Wand",
+     "Fashion Coin"
+    ],
+    "name": "Fenektis the Deceiver",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Crown of Corruption",
+     "Blood-Spattered Helm",
+     "Ring of Demonic Fury",
+     "Shadowthread Cloak",
+     "Slayer's Edge",
+     "Fashion Coin"
+    ],
+    "name": "Master Raxxieth",
+    "npc_id": null,
+    "order": null
+   }
+  ],
+  "custom": true,
+  "level_min": 32,
+  "level_range": "32-38",
+  "name": "The Crescent Grove",
+  "patch_introduced": "1.16.0",
+  "size": 5,
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=28269#p28269",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=34787#p34787",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=46277#p46277",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=96352#p96352",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=129934#p129934",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=155594#p155594",
+   "https://turtlecraft.gg/raids-and-dungeons",
+   "https://turtle-wow.fandom.com/wiki/Crescent_Grove"
+  ],
+  "type": "dungeon",
+  "zone": "Ashenvale, above Mystral Lake"
+ },
+ "deadmines": {
+  "bosses": [
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Chemist's Shawl",
+     "Corrosive Vial",
+     "Mixologist",
+     "Defias Longbow (added 2026-01-27)",
+     "Voss' Sizzling Brew (quest: Turning Off The Tap)"
+    ],
+    "name": "Jared Voss",
+    "npc_id": null,
+    "order": 1
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Craftsman's Pants",
+     "Inventor's Mitts",
+     "Slag Slugger"
+    ],
+    "name": "Masterpiece Harvester",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Rhahk'zor",
+    "npc_id": null,
+    "order": null
+   }
+  ],
+  "custom": false,
+  "level_min": 17,
+  "level_range": "17-24",
+  "name": "The Deadmines",
+  "patch_introduced": "vanilla",
+  "size": 5,
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=112126#p112126",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=166661#p166661",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=34787#p34787",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=79953#p79953",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=100299#p100299",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=129934#p129934",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=130900#p130900",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=148454#p148454",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049",
+   "https://turtlecraft.gg/classic-dungeons-update",
+   "https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=29739#p29739",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=175765#p175765"
+  ],
+  "type": "dungeon",
+  "zone": "Westfall"
+ },
+ "dragonmaw-retreat": {
+  "bosses": [
+   {
+    "in_npc_index": true,
+    "loot": [],
+    "name": "Cavernweb Broodmother",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Gowlfang's Vest",
+     "Head of Gowlfang (quest: Gowlfang's Defeat)"
+    ],
+    "name": "Gowlfang",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [],
+    "name": "Web Master Torkon",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [],
+    "name": "Slagfist Destroyer",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [],
+    "name": "Garlok Flamekeeper",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [],
+    "name": "Halgan Redbrand",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [],
+    "name": "Overlord Blackheart",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [],
+    "name": "Elder Hollowblood",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [],
+    "name": "Searistrasz",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [],
+    "name": "Zuluhed the Whacked",
+    "npc_id": null,
+    "order": null
+   }
+  ],
+  "custom": true,
+  "level_min": 25,
+  "level_range": "25-34 (wiki); 26-35 (in-game LFT addon per community guide)",
+  "name": "Dragonmaw Retreat",
+  "patch_introduced": "1.18.0",
+  "size": 5,
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=148454#p148454",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=147116#p147116",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=145822#p145822",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=149960#p149960",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=152865#p152865",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=153822#p153822",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=154470#p154470",
+   "https://turtle-wow.fandom.com/wiki/Dragonmaw_Retreat",
+   "https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=29739#p29739",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120619#p120619",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=126684#p126684",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=126813#p126813",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=126944#p126944"
+  ],
+  "type": "dungeon",
+  "zone": "Wetlands (entrance at the Dragonmaw Gates)"
+ },
+ "emerald-sanctum": {
+  "bosses": [
+   {
+    "in_npc_index": true,
+    "loot": [],
+    "name": "Erennius",
+    "npc_id": null,
+    "order": 1
+   },
+   {
+    "in_npc_index": false,
+    "loot": [
+     "Ancient Jade Leggings (+8 Two-Handed Mace skill, reported at 6% drop chance)",
+     "Jade Scale of the Dreamer",
+     "Emerald Drake (mount, added 2025-09-02)",
+     "druid glyph appearances"
+    ],
+    "name": "Solnius the Awakener",
+    "npc_id": 60748,
+    "order": 2
+   }
+  ],
+  "custom": true,
+  "level_min": 60,
+  "level_range": "60",
+  "name": "Emerald Sanctum",
+  "patch_introduced": "1.17.0",
+  "size": 40,
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=67821#p67821",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=69525#p69525",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=70087#p70087",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=70096#p70096",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=71678#p71678",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=73511#p73511",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=76368#p76368",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=79953#p79953",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=80839#p80839",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=87117#p87117",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91958#p91958",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=118948#p118948",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120590#p120590",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=149960#p149960",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=155594#p155594",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=176101#p176101",
+   "https://turtlecraft.gg/raids-and-dungeons",
+   "https://turtle-wow.fandom.com/wiki/Emerald_Sanctum",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=83859#p83859",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=92053#p92053",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=92054#p92054",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=92063#p92063",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=92070#p92070",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=130280#p130280",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=130281#p130281",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=130283#p130283",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=149181#p149181",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120619#p120619",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=69843#p69843",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=94829#p94829",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=95027#p95027",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=99769#p99769",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=93145#p93145",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=93177#p93177",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=169696#p169696",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=128282#p128282"
+  ],
+  "type": "raid",
+  "zone": "Hyjal (through the Emerald Gateway)"
+ },
+ "frostmane-hollow": {
+  "bosses": [
+   {
+    "in_npc_index": true,
+    "loot": [],
+    "name": "Handler Oboka",
+    "npc_id": null,
+    "order": 1
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Frigid Cloak",
+     "Oboka's Axe",
+     "Vest of the Beastkeeper",
+     "Flawless Leopard Pelt (quest: The Finest Pelt)"
+    ],
+    "name": "Tan'sha the Sleek",
+    "npc_id": null,
+    "order": 2
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Frostmane Battle Boots",
+     "Tribal War Gauntlets",
+     "Snowchilled Crest"
+    ],
+    "name": "Battlemaster Ubukaz",
+    "npc_id": null,
+    "order": 3
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Frost Seet Dirk",
+     "Windcrest Pants"
+    ],
+    "name": "Kan'za the Seer",
+    "npc_id": null,
+    "order": 4
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Rak'uhz the Coldbinder",
+     "Belt of Binding",
+     "Band of Hailar"
+    ],
+    "name": "Hailar the Frigid",
+    "npc_id": null,
+    "order": 5
+   }
+  ],
+  "custom": true,
+  "level_min": 13,
+  "level_range": "13-20",
+  "name": "Frostmane Hollow",
+  "patch_introduced": "1.18.1",
+  "size": 5,
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168",
+   "https://turtle-wow.fandom.com/wiki/Frostmane_Hollow",
+   "https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=174367#p174367",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=176311#p176311",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=174963#p174963",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=173481#p173481"
+  ],
+  "type": "dungeon",
+  "zone": "Dun Morogh (eastern, south of the Ironforge Airfields)"
+ },
+ "gilneas-city": {
+  "bosses": [
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Gilneas Shackles",
+     "Darkwatch Pants",
+     "Worgen Hunter Grips",
+     "Worgen Hunter Musket"
+    ],
+    "name": "Matthias Holtz",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Wolfheart Necklace",
+     "Shaderun Boots",
+     "Packmaster Gloves",
+     "Orb of Aka'thar"
+    ],
+    "name": "Packmaster Ragetooth",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Sutherland's Cuffs",
+     "Mantle of Law",
+     "Sash of Conviction",
+     "Gavel of Gilnean Justice",
+     "The Black Pendant"
+    ],
+    "name": "Judge Sutherland",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Hookblade Cleaver",
+     "Blackcowl Sash",
+     "Ring of Electrical Binding",
+     "Dagger of Sinister Secrets",
+     "Cloak of the Dark Veil",
+     "Ebonmere Deed (quest: Ebonmere Affairs)",
+     "Tarnished Citrine Choker (Jewelcrafting quest)"
+    ],
+    "name": "Dustivan Blackcowl",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Horsemaster Belt",
+     "Horse Rustler Drape",
+     "Stablehand Broom",
+     "Stablemaster's Nightlight",
+     "Greymane Charger (mount)"
+    ],
+    "name": "Horsemaster Levvin",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Greymane Helmet",
+     "Chainlinked Cloak",
+     "Band of Piercing Shadows",
+     "Marshal's Blocker",
+     "Scriptures of Blood",
+     "Greymane Tabard"
+    ],
+    "name": "Marshal Magnus Greystone",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Ashen Leggings",
+     "Wildfeather Bracers",
+     "Fleshslasher",
+     "Regal Robes of the Regent",
+     "Resurging Necklace"
+    ],
+    "name": "Regent-Lords of Gilneas",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Regal Goldforged Breastplate",
+     "Swiftcaster's Chapeau",
+     "Boots of Espionage",
+     "Sack of Gruesome Eminence",
+     "Robe of Light's Ambassador",
+     "Wolfblood",
+     "Greymane Shoulders",
+     "Formula: Enchant Bracer - Vampirism",
+     "Gilnean Raven",
+     "Mark of the Worgen",
+     "The Greymane Crown (quest)",
+     "Genn Greymane's Head (quest)"
+    ],
+    "name": "Genn Greymane",
+    "npc_id": null,
+    "order": null
+   }
+  ],
+  "custom": true,
+  "level_min": 43,
+  "level_range": "43-49 (staff, site, wiki); 42-50 (in-game LFT addon per community guide)",
+  "name": "Gilneas City",
+  "patch_introduced": "1.17.0",
+  "size": 5,
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=68406#p68406",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=71678#p71678",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=76368#p76368",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=94874#p94874",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=96794#p96794",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=111130#p111130",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=132195#p132195",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=145131#p145131",
+   "https://turtlecraft.gg/raids-and-dungeons",
+   "https://turtle-wow.fandom.com/wiki/Gilneas_City",
+   "https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=29739#p29739",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=29764#p29764",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=69056#p69056"
+  ],
+  "type": "dungeon",
+  "zone": "Gilneas (western)"
+ },
+ "hateforge-quarry": {
+  "bosses": [
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Sludge-drenched Sabatons",
+     "Toxic Ripper",
+     "Venomsight Mask",
+     "Muckwater Leggings",
+     "Corrosive Core"
+    ],
+    "name": "Corrosis",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "The Creator's Goggles",
+     "Electroconductive Mitts",
+     "Figgle's Coveralls",
+     "Wrench of Creation",
+     "Techrifle X-TREME 5200",
+     "Decoy Dragonling Remote",
+     "Fluorescent Green Mechanostrider",
+     "Fashion Coin"
+    ],
+    "name": "Engineer Figgles",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Hateforged Cleaver",
+     "Visor of Command",
+     "Blackhammer Pauldrons",
+     "Incendosaur Skin Boots",
+     "Taskmaster's Tag",
+     "Manual: Intervene",
+     "Dark Iron Hooked Net",
+     "Fashion Coin"
+    ],
+    "name": "High Foreman Bargul Blackhammer",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Hatereaver Cog",
+     "Flameforged Lugnut",
+     "Ragereaver's Helm",
+     "Blackstone Stompers",
+     "Empowered Power Core",
+     "Steamrigged Servohammer",
+     "Fashion Coin"
+    ],
+    "name": "Hatereaver Annihilator",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Toxic Talisman",
+     "Call of Shadow",
+     "Sacrosanct Epaulets",
+     "The Veil of Hatred",
+     "Doomcaller Staff",
+     "Band of Calamity",
+     "Cuffs of Dawnfall",
+     "Shawl of End Times",
+     "Shadowruned Girdle",
+     "Fashion Coin"
+    ],
+    "name": "Har'gesh Doomcaller",
+    "npc_id": null,
+    "order": null
+   }
+  ],
+  "custom": true,
+  "level_min": 48,
+  "level_range": "52-60 (site, wiki; wiki minimum level 48); 50-60 (in-game LFT addon per community guide)",
+  "name": "Hateforge Quarry",
+  "patch_introduced": "1.16.1",
+  "size": 5,
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=63377#p63377",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=77428#p77428",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=83488#p83488",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=96794#p96794",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=165755#p165755",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490",
+   "https://turtlecraft.gg/raids-and-dungeons",
+   "https://turtle-wow.fandom.com/wiki/Hateforge_Quarry",
+   "https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=29739#p29739",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=29749#p29749",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=69056#p69056",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715"
+  ],
+  "type": "dungeon",
+  "zone": "Burning Steppes, Hateforge Excavation (south-eastern per staff and wiki; the official site says north-eastern)"
+ },
+ "karazhan-crypt": {
+  "bosses": [
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Marrowspike",
+    "npc_id": null,
+    "order": 1
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Corpsemuncher",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Commander Andreon",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Archlich Enkhraz",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [
+     "Staff of Alarus"
+    ],
+    "name": "Alarus",
+    "npc_id": null,
+    "order": null
+   }
+  ],
+  "custom": true,
+  "level_min": 58,
+  "level_range": "58-60",
+  "name": "Karazhan Crypt",
+  "patch_introduced": "1.16.0",
+  "size": 5,
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=33498#p33498",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=33639#p33639",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=81778#p81778",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=98410#p98410",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=111130#p111130",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120590#p120590",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=132195#p132195",
+   "https://turtlecraft.gg/raids-and-dungeons",
+   "https://turtle-wow.fandom.com/wiki/Karazhan_Crypt",
+   "https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=29739#p29739",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=29757#p29757",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120619#p120619",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=119888#p119888",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=119889#p119889",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=20858#p20858",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=14969#p14969",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=76719#p76719",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=88012#p88012",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=114873#p114873",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=127927#p127927",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=129644#p129644"
+  ],
+  "type": "dungeon",
+  "zone": "Deadwind Pass"
+ },
+ "lower-karazhan-halls": {
+  "bosses": [
+   {
+    "in_npc_index": false,
+    "loot": [
+     "Araxxna's Husk (140 armor, 15 stamina, 1% dodge)",
+     "Araxxna's Hatchling (pet)"
+    ],
+    "name": "Brood Queen Araxxna",
+    "npc_id": 61221,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [
+     "Totem of Crackling Thunder"
+    ],
+    "name": "Grizikil",
+    "npc_id": 61224,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [
+     "Idol of the Moonfang"
+    ],
+    "name": "Clawlord Howlfang",
+    "npc_id": 61223,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Dark Rider Champion",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [
+     "Libram of the Faithful",
+     "Scythe of the Goddess (quest 41062)"
+    ],
+    "name": "Lord Blackwald II",
+    "npc_id": 61222,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Moroes",
+    "npc_id": 61225,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [
+     "Plans: Towerforge Demolisher (Hammersmith)",
+     "three Armorsmithing Towerforge plans (helmet, breastplate, pauldrons, two-handed mace set)"
+    ],
+    "name": "Master Blacksmith Rolfen",
+    "npc_id": 61319,
+    "order": null
+   }
+  ],
+  "custom": true,
+  "level_min": 60,
+  "level_range": "60",
+  "name": "Lower Karazhan Halls",
+  "patch_introduced": "1.17.0",
+  "size": 10,
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=67821#p67821",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=69525#p69525",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=70096#p70096",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=71678#p71678",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=73511#p73511",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=77428#p77428",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=81562#p81562",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=83488#p83488",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=84147#p84147",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=87117#p87117",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=87728#p87728",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=88271#p88271",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=99696#p99696",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=118168#p118168",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=118948#p118948",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490",
+   "https://turtlecraft.gg/raids-and-dungeons",
+   "https://turtle-wow.fandom.com/wiki/Lower_Karazhan_Halls",
+   "https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=160087#p160087",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=160174#p160174",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=141323#p141323",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=141546#p141546",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=141554#p141554",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=108105#p108105",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=108116#p108116",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=108117#p108117",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=108118#p108118",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=87278#p87278",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=109707#p109707",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=167969#p167969",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=88922#p88922"
+  ],
+  "type": "raid",
+  "zone": "Deadwind Pass (front door of the Karazhan tower)"
+ },
+ "molten-core": {
+  "bosses": [
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Lucifron",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Magmadar",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Gehennas",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Garr",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Baron Geddon",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Shazzrah",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Sulfuron Harbinger",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Golemagg the Incinerator",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Majordomo Executus",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [
+     "Rare mount (added to the last bosses of MC, BWL and AQ40 in 1.17.2)"
+    ],
+    "name": "Ragnaros",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Incindis",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Smoldaris",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Basalthar",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [],
+    "name": "Sorcerer-Thane Thaurissan",
+    "npc_id": null,
+    "order": null
+   }
+  ],
+  "custom": false,
+  "level_min": 60,
+  "level_range": "60",
+  "name": "Molten Core",
+  "patch_introduced": "vanilla",
+  "size": 40,
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=145822#p145822",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=147116#p147116",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=148454#p148454",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=148662#p148662",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=149960#p149960",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=154470#p154470",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=163576#p163576",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=35264#p35264",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=24112#p24112",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=56424#p56424",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=79223#p79223",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=115021#p115021",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120590#p120590",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=80839#p80839",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=176101#p176101",
+   "https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=148757#p148757",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=146868#p146868",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=147307#p147307"
+  ],
+  "type": "raid",
+  "zone": "Blackrock Mountain"
+ },
+ "onyxias-lair": {
+  "bosses": [
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Idol of Equilibrium"
+    ],
+    "name": "Broodcommander Axelus",
+    "npc_id": null,
+    "order": 1
+   },
+   {
+    "in_npc_index": false,
+    "loot": [
+     "Onyxian Drake (mount, added 2025-09-02)",
+     "Onyxia Hide Bag (18 to 20 slots)"
+    ],
+    "name": "Onyxia",
+    "npc_id": null,
+    "order": 2
+   }
+  ],
+  "custom": false,
+  "level_min": 60,
+  "level_range": "60",
+  "name": "Onyxia's Lair",
+  "patch_introduced": "vanilla",
+  "size": 40,
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=176101#p176101",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=149960#p149960",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=129934#p129934",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=145131#p145131",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=164078#p164078",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=159221#p159221",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=165064#p165064",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=59286#p59286",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=36265#p36265",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=56424#p56424",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=115795#p115795",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=79223#p79223",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251",
+   "https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=171787#p171787",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=174380#p174380",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=146851#p146851",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=170490#p170490"
+  ],
+  "type": "raid",
+  "zone": "Dustwallow Marsh"
+ },
+ "razorfen-downs": {
+  "bosses": [
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Thornspine",
+     "Thorngorged Fleshgloves",
+     "Totem of the Rotten Roots",
+     "Blood-etched Fetish"
+    ],
+    "name": "Death Prophet Rakameg",
+    "npc_id": null,
+    "order": null
+   }
+  ],
+  "custom": false,
+  "level_min": 36,
+  "level_range": "42-44 (wiki table); 36-46 (in-game LFT addon per community guide)",
+  "name": "Razorfen Downs",
+  "patch_introduced": "vanilla",
+  "size": 5,
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=79953#p79953",
+   "https://turtle-wow.fandom.com/wiki/Razorfen_Downs",
+   "https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=29739#p29739",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=29746#p29746"
+  ],
+  "type": "dungeon",
+  "zone": "The Barrens"
+ },
+ "razorfen-kraul": {
+  "bosses": [
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Bramblethorn Girdle",
+     "Thornlash Branch",
+     "Seed of Writhing Growth",
+     "Idol of the Thorned Grove",
+     "Tainted Brambleheart (quest)"
+    ],
+    "name": "Rotthorn",
+    "npc_id": null,
+    "order": null
+   }
+  ],
+  "custom": false,
+  "level_min": 29,
+  "level_range": "32-42 (wiki table); 29-36 (in-game LFT addon per community guide)",
+  "name": "Razorfen Kraul",
+  "patch_introduced": "vanilla",
+  "size": 5,
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=140939#p140939",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=79953#p79953",
+   "https://turtle-wow.fandom.com/wiki/Razorfen_Kraul",
+   "https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=29739#p29739",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=29746#p29746"
+  ],
+  "type": "dungeon",
+  "zone": "The Barrens"
+ },
+ "scarlet-monastery": {
+  "bosses": [
+   {
+    "in_npc_index": false,
+    "loot": [
+     "Introduction to the Dark Arts",
+     "Harbinger Girdle",
+     "Slain Sentry's Ring",
+     "Ghoulskin Treads"
+    ],
+    "name": "Duke Dreadmoore <Knight of Naxxramas>",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Libram of Radiance",
+     "Wystan's Steel Fist",
+     "Swiftstrike Kilt",
+     "Pendant of Scarlet Rage"
+    ],
+    "name": "Brother Wystan",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Cuffs of Evocation",
+     "Balanced Razor Shivs",
+     "Loop of Focused Magic",
+     "Treads of Renewal",
+     "Journal of Basil Frye (quest: Reminiscent of Steel)"
+    ],
+    "name": "Armory Quartermaster Daghelm",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Scarlet Commander Mograine and High Inquisitor Whitemane",
+    "npc_id": null,
+    "order": null
+   }
+  ],
+  "custom": false,
+  "level_min": 27,
+  "level_range": "Graveyard 27-36, Library 32-39, Armory 40-45, Cathedral 40-45 (wiki); 27-45 for the complex (community guide)",
+  "name": "Scarlet Monastery",
+  "patch_introduced": "vanilla",
+  "size": 5,
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=84147#p84147",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=87728#p87728",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=96352#p96352",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=100299#p100299",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=108746#p108746",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=113782#p113782",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=71678#p71678",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=79953#p79953",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=36204#p36204",
+   "https://turtlecraft.gg/classic-dungeons-update",
+   "https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=29739#p29739",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120619#p120619"
+  ],
+  "type": "dungeon",
+  "zone": "Tirisfal Glades"
+ },
+ "shadowfang-keep": {
+  "bosses": [
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Mitre of the First Light",
+     "Prelate's Sigil",
+     "Hilt of Radiance",
+     "Signet of Faded Sermons"
+    ],
+    "name": "Prelate Ironmane",
+    "npc_id": null,
+    "order": null
+   }
+  ],
+  "custom": false,
+  "level_min": 20,
+  "level_range": "20-28 (in-game LFT addon per community guide)",
+  "name": "Shadowfang Keep",
+  "patch_introduced": "vanilla",
+  "size": 5,
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=121678#p121678",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=108746#p108746",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=154470#p154470",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=79953#p79953",
+   "https://turtlecraft.gg/classic-dungeons-update",
+   "https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=29739#p29739",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=29743#p29743"
+  ],
+  "type": "dungeon",
+  "zone": "Silverpine Forest"
+ },
+ "stormwind-vault": {
+  "bosses": [
+   {
+    "in_npc_index": true,
+    "loot": [],
+    "name": "Volkan Cruelblade",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [],
+    "name": "Damian",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [],
+    "name": "Black Bride",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [],
+    "name": "Aszosh Grimflame",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [],
+    "name": "Tham'Grarr",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [],
+    "name": "Arc'tiras",
+    "npc_id": null,
+    "order": null
+   }
+  ],
+  "custom": true,
+  "level_min": 58,
+  "level_range": "60 (site and wiki); minimum level to enter 58",
+  "name": "Stormwind Vault",
+  "patch_introduced": "1.16.0",
+  "size": 5,
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=14667#p14667",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=22582#p22582",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=24112#p24112",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=26292#p26292",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=29057#p29057",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=31601#p31601",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=32923#p32923",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=33498#p33498",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=37124#p37124",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=51551#p51551",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=63377#p63377",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=66741#p66741",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=71678#p71678",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=76368#p76368",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=81778#p81778",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=85725#p85725",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=86423#p86423",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=98410#p98410",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=111130#p111130",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=140939#p140939",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=155594#p155594",
+   "https://turtlecraft.gg/raids-and-dungeons",
+   "https://turtle-wow.fandom.com/wiki/Stormwind_Vault",
+   "https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=29739#p29739",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=29759#p29759"
+  ],
+  "type": "dungeon",
+  "zone": "Stormwind City (plus an undocumented secret sewer entrance and an entrance at Mirror Lake)"
+ },
+ "stormwrought-ruins": {
+  "bosses": [
+   {
+    "in_npc_index": true,
+    "loot": [],
+    "name": "Librarian Theodorus",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [],
+    "name": "Dagar the Glutton",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [],
+    "name": "Oronok Torn-Heart",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Robes of the Dukedom",
+     "Kelpie's Legacy",
+     "Vander Legguards",
+     "Light's Sermon",
+     "Crown of Balor (quest: The Late Duke Balor)",
+     "Balor Sigil Ring (quest: Skull And Bones)"
+    ],
+    "name": "Duke Balor the IV",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Totem of Tides",
+     "Stormreaver Mantle",
+     "Treads of the Unknown",
+     "Band of Subservience",
+     "Pattern: Stormreaver Gloves"
+    ],
+    "name": "Chieftain Stormsong",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Idol of Propagation",
+     "Core of Mycellakos",
+     "Fungal Threads",
+     "Rusted Anchor",
+     "Heart of Mycellakos (quest)"
+    ],
+    "name": "Mycellakos",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Primordial Pauldrons",
+     "Jaw of the Ancient",
+     "Pants of Forgotten Ages",
+     "Razorskin Cape"
+    ],
+    "name": "Eldermaw the Primordial",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Rod of Subjugation",
+     "Obedient Shackles",
+     "Leechmist Vine",
+     "Crown of Oppression",
+     "Recipe: Elixir of Rapid Growth"
+    ],
+    "name": "Subjugator Halthas Shadecrest",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Tiny Bracelet",
+     "Bloodied Almanac",
+     "Northwind Guard Breeches",
+     "Dissolved Hookblade"
+    ],
+    "name": "Remains of the Innocent",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Whip of Shared Secrets",
+     "Vest of Dark Desires",
+     "Demon Hair Bow",
+     "Nethershard Sickle",
+     "Arthur's Soul Fragment (quest: The Will of Balor)"
+    ],
+    "name": "Lady Drazare",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [],
+    "name": "Deathlord Tidebane",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [
+     "Eyes of the Beholder",
+     "Mantle of the Disciple",
+     "Twisted Demon Crystal",
+     "Chainmail of Writhing Miasma",
+     "Treads of Forgotten Empathy",
+     "Spine of Dentarg"
+    ],
+    "name": "Ighal'for -> Mergothid",
+    "npc_id": null,
+    "order": null
+   }
+  ],
+  "custom": true,
+  "level_min": 35,
+  "level_range": "35-42 (official site); 35-41 (wiki); 35-44 (in-game LFT addon per community guide)",
+  "name": "Stormwrought Ruins",
+  "patch_introduced": "1.18.0",
+  "size": 5,
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=145822#p145822",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=147116#p147116",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=148454#p148454",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=149960#p149960",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=152865#p152865",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=154470#p154470",
+   "https://turtlecraft.gg/raids-and-dungeons",
+   "https://turtle-wow.fandom.com/wiki/Stormwrought_Ruins",
+   "https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=29739#p29739",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120619#p120619",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=175765#p175765"
+  ],
+  "type": "dungeon",
+  "zone": "Balor, inside Stormwrought Castle"
+ },
+ "timbermaw-hold": {
+  "bosses": [
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Karrsh the Sentinel",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Rotgrowl",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Kodiak",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Loktanag the Vile",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Ormanos the Cracked",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Selenaxx Foulheart",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Trioch the Devourer",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Archdruid Kronn",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Ursol",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [
+     "Peroth'arn's Dirk of the Beast"
+    ],
+    "name": "Peroth'arn",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Secret encounter",
+    "npc_id": null,
+    "order": null
+   }
+  ],
+  "custom": true,
+  "level_min": 60,
+  "level_range": "60",
+  "name": "Timbermaw Hold",
+  "patch_introduced": "1.18.1",
+  "size": 20,
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=169695#p169695",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=165064#p165064",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=175230#p175230",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=176101#p176101",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=174120#p174120",
+   "https://turtle-wow.fandom.com/wiki/Timbermaw_Hold_raid",
+   "https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=172477#p172477",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=172541#p172541",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=173516#p173516",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=173564#p173564",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=174380#p174380",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=174112#p174112"
+  ],
+  "type": "raid",
+  "zone": "Western Azshara, through the Timbermaw Hold Gate (the raid lies beneath Mount Hyjal)"
+ },
+ "tower-of-karazhan": {
+  "bosses": [
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Idol of Laceration",
+     "Ley-Attuned Choker",
+     "Torn Wings of Midnight"
+    ],
+    "name": "Keeper Gnarlmoon",
+    "npc_id": null,
+    "order": 1
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Ley-Watcher Incantagos",
+    "npc_id": null,
+    "order": 2
+   },
+   {
+    "in_npc_index": true,
+    "loot": [],
+    "name": "Anomalus",
+    "npc_id": null,
+    "order": 3
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Libram of the Eternal Tower"
+    ],
+    "name": "Echo of Medivh",
+    "npc_id": null,
+    "order": 4
+   },
+   {
+    "in_npc_index": true,
+    "loot": [],
+    "name": "Chess Event",
+    "npc_id": null,
+    "order": 5
+   },
+   {
+    "in_npc_index": true,
+    "loot": [],
+    "name": "Sanv Tas'dal",
+    "npc_id": null,
+    "order": 6
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Totem of Broken Earth"
+    ],
+    "name": "Rupturan the Broken",
+    "npc_id": null,
+    "order": 7
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Kruul axe",
+     "Desecration"
+    ],
+    "name": "Kruul",
+    "npc_id": null,
+    "order": 8
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Soul of the Dreadlord (quest: Scythe of the Goddess)",
+     "Hearth of Mephistroth",
+     "Pristine Ley Crystal",
+     "Felforged Dreadhound",
+     "Turalyon's Hope",
+     "Mephistroth's Cunning",
+     "two Tier 3.5 chest tokens"
+    ],
+    "name": "Mephistroth",
+    "npc_id": null,
+    "order": 9
+   }
+  ],
+  "custom": true,
+  "level_min": 60,
+  "level_range": "60",
+  "name": "Tower of Karazhan",
+  "patch_introduced": "1.17.2",
+  "size": 40,
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=104997#p104997",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=106610#p106610",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=111191#p111191",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120531#p120531",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120590#p120590",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=121909#p121909",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=122945#p122945",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=126056#p126056",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=126946#p126946",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=128053#p128053",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=129028#p129028",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=129934#p129934",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=130900#p130900",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=132195#p132195",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=134147#p134147",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=136891#p136891",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=138497#p138497",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=145131#p145131",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=155594#p155594",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=163576#p163576",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=164078#p164078",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=166661#p166661",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=169965#p169965",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=176101#p176101",
+   "https://turtlecraft.gg/raids-and-dungeons",
+   "https://turtle-wow.fandom.com/wiki/Tower_of_Karazhan",
+   "https://turtle-wow.fandom.com/wiki/Tower_of_Karazhan_attunement",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=126586#p126586",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=168411#p168411",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=126572#p126572",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=126582#p126582",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=126634#p126634",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=126644#p126644",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=126648#p126648",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=126657#p126657",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=127004#p127004",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=127094#p127094",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=128282#p128282",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=159824#p159824",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=159828#p159828",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=128135#p128135",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=128287#p128287",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=168980#p168980"
+  ],
+  "type": "raid",
+  "zone": "Deadwind Pass"
+ },
+ "wailing-caverns": {
+  "bosses": [
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Enraging Waistwraps",
+     "Band of the Claw",
+     "Idol of the Apex Predator"
+    ],
+    "name": "Vangros",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Windborne Sash",
+     "Kolkar Marauder Gauntlets",
+     "Totem of Static Charge"
+    ],
+    "name": "Zandara Windhoof",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [],
+    "name": "Lady Anacondra",
+    "npc_id": null,
+    "order": null
+   }
+  ],
+  "custom": false,
+  "level_min": 17,
+  "level_range": "17-24",
+  "name": "Wailing Caverns",
+  "patch_introduced": "vanilla",
+  "size": 5,
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=116739#p116739",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=108746#p108746",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=153822#p153822",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=79953#p79953",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=77428#p77428",
+   "https://turtlecraft.gg/classic-dungeons-update",
+   "https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=29739#p29739",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=29742#p29742"
+  ],
+  "type": "dungeon",
+  "zone": "The Barrens"
+ },
+ "windhorn-canyon": {
+  "bosses": [
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Sacred Windhorn Gloves",
+     "Windserpent Hauberk",
+     "Coilscale Ring",
+     "Tooth of Ahgk'tos"
+    ],
+    "name": "Ahgk'tos the Pure",
+    "npc_id": null,
+    "order": 1
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Blackwind Striker",
+     "Sacred Windhorn Shoulders",
+     "Huntsman's Halfhorn",
+     "Hatchet of the Long Hunt",
+     "Plans: Kodoheart Necklace"
+    ],
+    "name": "Pathun Duskhide",
+    "npc_id": null,
+    "order": 2
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Sacred Windhorn Footwraps",
+     "Knuckles of Vortalus",
+     "Thunderstrike Pike",
+     "Galvanized Wrists"
+    ],
+    "name": "Ambassador Vortalus",
+    "npc_id": null,
+    "order": 3
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Footwraps of Perfect Form",
+     "Sacred Windhorn Pants",
+     "Bloodcaller's Decapitator",
+     "Canyonhide Gloves"
+    ],
+    "name": "Walgan Bloodcaller",
+    "npc_id": null,
+    "order": 4
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Sacred Windhorn Robe",
+     "Bonespeaker Cane",
+     "Reedwoven Epaulets",
+     "Cloudrender Pants"
+    ],
+    "name": "Bonespeaker Narlgom",
+    "npc_id": null,
+    "order": 5
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Deathtotem Relic",
+     "Sacred Windhorn Headdress",
+     "Blackwind Facemask",
+     "Elder Crone's Sigil Ring",
+     "Plans: Ceremonial Belt Buckle"
+    ],
+    "name": "Prophet Stormhoof",
+    "npc_id": null,
+    "order": 6
+   },
+   {
+    "in_npc_index": true,
+    "loot": [
+     "The Blackwind Pillar",
+     "Canyon's Barricade",
+     "Ar'pora, the Chieftain's Judgement",
+     "Heart of Windhorn",
+     "Pattern: Grimtotem Bracers",
+     "Hawkfeather Crown"
+    ],
+    "name": "Chieftain Shalk Blackwind",
+    "npc_id": null,
+    "order": 7
+   }
+  ],
+  "custom": true,
+  "level_min": 26,
+  "level_range": "26-30 (staff, wiki); 25-33 (in-game LFT addon per community guide)",
+  "name": "Windhorn Canyon",
+  "patch_introduced": "1.18.1",
+  "size": 5,
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=163461#p163461",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490",
+   "https://turtle-wow.fandom.com/wiki/Windhorn_Canyon",
+   "https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=29739#p29739",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=29760#p29760"
+  ],
+  "type": "dungeon",
+  "zone": "Thousand Needles"
+ },
+ "zulfarrak": {
+  "bosses": [
+   {
+    "in_npc_index": true,
+    "loot": [
+     "Bloodstained Fangblade",
+     "Staff of the Bloodbound",
+     "Bracers of the Bloodbound",
+     "Sash of Ritual Scars"
+    ],
+    "name": "Zel'jeb the Ancient",
+    "npc_id": null,
+    "order": null
+   },
+   {
+    "in_npc_index": false,
+    "loot": [
+     "Champion's Sandhelm",
+     "Libram of the Farraki Zealot",
+     "Gilded Blade of Razjal",
+     "Talisman of the Sandborn"
+    ],
+    "name": "Farraki Arena (Kath'zen the Brutal, Juthza the Cunning, Champion Razjal the Quick)",
+    "npc_id": null,
+    "order": null
+   }
+  ],
+  "custom": false,
+  "level_min": 44,
+  "level_range": "46-56 (wiki table); 44-54 (in-game LFT addon per community guide)",
+  "name": "Zul'Farrak",
+  "patch_introduced": "vanilla",
+  "size": 5,
+  "sources": [
+   "https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=159994#p159994",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=42070#p42070",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=112126#p112126",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=79953#p79953",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251",
+   "https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=29739#p29739",
+   "https://forum.turtlecraft.gg/viewtopic.php?p=29747#p29747",
+   "https://forum.turtlecraft.gg/viewtopic.php?t=10230"
+  ],
+  "type": "dungeon",
+  "zone": "Tanaris"
+ }
+}

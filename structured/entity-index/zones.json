@@ -218,6 +218,9 @@
   "continent": null,
   "faction": "Night elf, Orc, Furbolg, Naga, Satyr, Jungle troll, Human",
   "instance_size": null,
+  "instances": [
+   "Blackfathom Deeps"
+  ],
   "is_turtle_content": false,
   "level": "18 - 30",
   "location": null,
@@ -499,6 +502,10 @@
   "continent": null,
   "faction": "Neutral",
   "instance_size": null,
+  "instances": [
+   "Molten Core",
+   "Blackwing Lair"
+  ],
   "is_turtle_content": false,
   "level": "55 - 60",
   "location": null,
@@ -1042,6 +1049,10 @@
   "continent": null,
   "faction": "Neutral",
   "instance_size": null,
+  "instances": [
+   "Karazhan Crypt",
+   "Tower of Karazhan"
+  ],
   "is_turtle_content": false,
   "level": "55 - 60",
   "location": null,
@@ -1341,6 +1352,9 @@
   "continent": null,
   "faction": "Neutral",
   "instance_size": null,
+  "instances": [
+   "Onyxia's Lair"
+  ],
   "is_turtle_content": true,
   "level": "35-45",
   "location": null,
@@ -4205,6 +4219,9 @@
   "continent": null,
   "faction": "Horde",
   "instance_size": null,
+  "instances": [
+   "Shadowfang Keep"
+  ],
   "is_turtle_content": true,
   "level": "10 - 20",
   "location": null,
@@ -4803,6 +4820,9 @@
   "continent": null,
   "faction": "Neutral",
   "instance_size": null,
+  "instances": [
+   "Zul'Farrak"
+  ],
   "is_turtle_content": true,
   "level": "40 - 50",
   "location": null,
@@ -5147,6 +5167,9 @@
   "continent": null,
   "faction": "Contested",
   "instance_size": null,
+  "instances": [
+   "Windhorn Canyon"
+  ],
   "is_turtle_content": true,
   "level": "25 - 35",
   "location": null,
@@ -5246,6 +5269,9 @@
   "continent": null,
   "faction": "Horde",
   "instance_size": null,
+  "instances": [
+   "Scarlet Monastery"
+  ],
   "is_turtle_content": true,
   "level": "1 - 10",
   "location": null,
@@ -5482,6 +5508,9 @@
   "continent": null,
   "faction": "Alliance",
   "instance_size": null,
+  "instances": [
+   "The Deadmines"
+  ],
   "is_turtle_content": true,
   "level": "10 - 20",
   "location": null,
