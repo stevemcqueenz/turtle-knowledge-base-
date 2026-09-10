@@ -1,0 +1,26 @@
+---
+title: "Vastrien Anu'thori"
+url: "https://turtle-wow.fandom.com/wiki/Vastrien_Anu%27thori"
+source_type: "community wiki (turtle-wow.fandom.com), not an official source"
+revision: "2024-01-10T09:28:31Z"
+fetched: "2026-09-10T07:39:56Z"
+is_turtle_content: false
+patch: null
+categories: ["Characters"]
+---
+# Vastrien Anu'thori
+
+## Vastrien Anu'thori
+#### **Occupations**
+-
+#### **Looks**
+Vastrien stands tall, his lean frame exuding both grace and power. He has fiery red hair that cascades down to his shoulders, framing sharp, amber eyes that burn with an inner intensity. While he can be found wearing an assortment of differing outfits, he prefers robes adorned with intricate golden embroidery to further symbolize his magical prowess. He carries a staff crafted from enchanted wood, a symbol of his mastery over the arcane arts.
+#### **Personality**
+Vastrien is a charismatic and ambitious individual. He exudes confidence, often seen with a mischievous smile playing on his lips. Vastrien possesses a hunger for knowledge and power, but he understands the importance of balance and control when it comes to wielding arcane and the nuances of fire magic. Vastrien is driven by a desire to prove himself and leave a lasting mark on the magical world. He can be impulsive and prone to taking risks, but he understands the importance of control and discipline when it comes to wielding the volatile powers of fire.
+#### Relationships
+Delawyn Emberweald (Mother) - Deceased
+
+Astaros Emberweald (Father) - Deceased
+
+## Backstory
+Vastrien Emberweald comes from a noble lineage of mages within Silvermoon City. He was raised with a deep respect for the arcane arts and a strong connection to the Sunwell. Vastrien's parents, both renowned mages, instilled in him a sense of duty to protect and uphold the magical heritage of the Quel'dorei. As a young mage, he underwent rigorous training under the tutelage of his father, honing his skills in the elemental school of fire magic. Vastrien's family was devastated by the Scourge invasion, and he witnessed the destruction of the Sunwell firsthand. This event deeply affected him, fueling his desire to reclaim the lost source of their magic. In response to such a tragedy, he forwent his birthname and adopted the surname 'Anu'thori', meaning 'The Furious' in Thalassian.

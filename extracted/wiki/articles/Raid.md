@@ -1,0 +1,52 @@
+---
+title: "Raid"
+url: "https://turtle-wow.fandom.com/wiki/Raid"
+source_type: "community wiki (turtle-wow.fandom.com), not an official source"
+revision: "2024-10-29T04:35:05Z"
+fetched: "2026-09-10T07:39:26Z"
+is_turtle_content: false
+patch: null
+categories: []
+---
+# Raid
+
+## **Raid Scaling**
+Turtle WoW's population is on the slighter side, and for a long time we struggled to get more than 25 active 60s at a time. In late July 2019, the GMs blessed us with Raid Scaling. Raid scaling scales down the melee damage and health of enemies in raids depending on how many people are in the raid, allowing our smaller server to progress. Mechanics and spells are unaffected, however. I do not have an intimate understanding of the system, so I will simply list facts rather than going in-depth.
+
+- Scaling "starts" at 20 people for a 40 man raid, and 12 people for a 20 man raid. This means that even if you have less than 20 people in Molten Core, for instance, the scaling will act like you don't.
+- Scaling is only active in instanced areas. This means world bosses like Azuregos and Lord Kazzak are not affected.
+- Scaling only counts those who are currently within the instance. If a member of the raid is outside or offline, they are not added to the total.Note: Raid Scaling is a stop gap measure; it is more beneficial to have a good raider than to rely on scaling, both mechanically and socially. The majority of the fun of raiding is hanging out with each other, after all.
+
+## **Unique Bosses**
+Turtle WoW is home to some unique bosses as well, providing a new and interesting challenge to an older world.
+
+  -Turtlhu**
+
+N'zoth's servant, Turtlhu, wanders the northern shores of Feralas in search of treasures for his dark master. This corrupted turtle is balanced around being engaged by a group of roughly 15 to 20 pre-raid geared adventurers and has a few notable abilities.
+- **Soon, You Shall Flee!** The first ability of Turtlhu summons the entire raid to surround him, and immediately precedes his next ability.
+- **All Your Energy Shall Burn!** After Turtlhu has summoned the raid to him, he will begin casting this ability. When he completes the cast, any enemy still within 20 yards of him will be horrified, and their mana will be burned.
+- **Shadow Bolt Volley** If any enemy dies (be it a player or a pet), Turtlhu will immediately reward the survivors with a Shadow Bolt Volley. It deals roughly 2000 damage, and he does it every time someone dies, so it's quite common to see him wipe the raid in quick succession by chaining it. As such, it is generally advisable to not have your pet summoned for this fight if you do not think you can keep it up the entire way.
+- **Blackout** I'm not truly clear on it, but I believe it works the same was as the priest talent of the same name, giving Turtlhu a chance upon dealing shadow damage to stun as well.
+- **The Shadows Devour! (Enrage)** At 30%, Turtlehu will enrage, taking on a shadowy tint, and begin casting Shadow Bolt Volley regardless of deaths. He will continue to use all his other abilities, so you need to burn him down before the additional damage causes too many deaths.
+- Once you slay him, Turtlhu will be freed from the old gods' control, and revert to his former self. As a reward for freeing him, he will drop one epic item from the non-shared nightmare dragon loot tables, a unique non-combat pet (Egg of Turtlhu), and a varying amount of Corrupted Sand.
+  -Snowball**
+
+Snowball is a giant wolf who terrorized the Winter Veil Vale in Dun Morogh. Currently, no one has seen hide nor hair of the monstrous white wolf, but in case he returns next year, or simply for documentation's sake, it would be wise to recall his abilities. (Disclaimer: Fought him way less than Turtlhu by virtue of being a limited time boss, and abilities were added as the event went on, so I'll be operating off memory)
+- **Blizzard:** Throughout the fight, Snowball will cast a blizzard spell upon random members of the raid. It lasts for roughly ten seconds and remains where it was cast, so simply move out of the way.
+- **Frost Breath:** Snowball will periodically breath frost in a frontal cone (think fire breath for your average dragon); stand to the side and back of him if you aren't the tank!
+- **Snowball:** Snowball will occasionally hit a random member of the raid with a snowball, dealing respectable frost damage, and knocking them back.
+- **Ice Cover:** On occasion, Snowball will spawn ice blocks in front of ranged members that interfere with their line of sight and briefly freezing them in place. The freeze can be dispelled by anything that removes magic debuffs, but you'll need to reposition to continue firing upon the boss.
+- **Ice Block:** Not to be confused with the previous ability, but often used in conjunction with it. Snowball will encase himself in a block of ice and begin healing until he is removed. You can continue damaging him (he is not immune to attacks), but he will generally out-heal your efforts. The ice block can be removed by damaging him with fire spells.
+- **Frostbolt Volley:** If Snowball manages to get himself back to full health while in the ice block, he will cast Frostbolt Volley, hitting for upwards of 6k damage. This is generally a wipe, so don't let him heal to full.
+- **Every hero in the Vale likes casters a lot; but Snowball, who prowls just west of the Vale, did *NOT*.**
+- Snowball does not like casters; if too many are near him, he will push everyone away from him.
+- **Shivering Cold (Enrage):** Despite his name, Snowball actually hates the cold. If he is hit by more than ~30 frost spells, he will enrage and cast a Frostbolt Volley for over 10k damage to make it stop. This will likely be a nonissue, since logic dictates hitting a boss named Snowball with frost attacks is less than ideal.
+- Once Snowball was defeated, he dropped one level 50-60 world drop epic, two level 50-60 world drop rares, and had a chance to drop [Snowball's Horn], a unique mount. In addition, there was a quest to kill the direwolf that rewarded an 18-slot bag.
+
+## Turtle WoW Raid Reset Times
+- [Raid Times Spreadsheet](https://docs.google.com/spreadsheets/d/1j5BJRE66WaH2STD5nrP1L-654WZnVaXOmc5bxowkFyw/edit#gid=0)
+- [Raidres Raid-resets](https://raidres.fly.dev/raid-resets) (includes Tel'Abim raids as of January 2024)
+- [Turtle WoW Raid Reset Times](https://turtle-timer.vercel.app/)
+
+## Edge of Madness Calendar
+[Edge of Madness Boss Calendar](https://edgeofmadnesscalendar.com/) <-- This is not an accurate calender for turtle wow, However you can verify which boss will spawn by inspecting the tablets in the Zul'gurub instance around the perimeter of the Edge of Madness. Look for text that reads "is near..." or "close to..."

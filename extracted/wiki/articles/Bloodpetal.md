@@ -1,0 +1,27 @@
+---
+title: "Bloodpetal"
+url: "https://turtle-wow.fandom.com/wiki/Bloodpetal"
+source_type: "community wiki (turtle-wow.fandom.com), not an official source"
+revision: "2025-12-04T18:21:08Z"
+fetched: "2026-09-10T07:38:26Z"
+is_turtle_content: false
+patch: null
+categories: ["Bloodpetals", "Un'Goro Crater mobs", "Uncategorized Creatures"]
+---
+# Bloodpetal
+
+-Bloodpetals** are a type of medium-sized flower-like plant. Bloodpetals are found all over the floor of [Un'goro Crater](Un'goro Crater). 
+
+Bloodpetals are ambulatory plants that dwell in the steamy jungles of the Un'Goro Crater. The plant has a hugh blood-red flower and a thick stem extending five feet to the ground. The creature ambles along on many wiry roots, which act like legs; its thorn-covered arms wave back and forth menacingly. They are covered in nasty thorns that exude a crippling toxin; although not terribly dangerous alone, they tend to use swarm tactics. Otherwise, not much is known about these curious creatures, although the Explorers' League produces a few reports. Colonies of bloodpetals, apparently always less than 30 in number, stake out a territory typically in some remote area where threats are at a minimum. They defend this area carefully while new bloodpetal sprouts grow. A sprout remains immobile for several months before its legs fully develop. Once a bloodpetal patch grows too large for nearby resources to support it, the creatures send out scouts. These scouts range far and wide, and thus are usually the first bloodpetals a visitor to Un'Goro encounters; interestingly, a scout avoids conflict and fights only to defend itself, giving the illusion that bloodpetals aren't terribly aggressive-a fact that leads many explorers into trouble when they encounter an actual patch.
+
+Bloodpetals typically stand about 5 feet high and weigh about 100 pounds. They speak no languages as far as anyone knows, although they do seem capable of communicating with each other in some unknown manner. A bloodpetal attacks by striking out with its thorny arms, attempting to poison its foes. Once a creature no longer seems a threat, the bloodpetal moves to the next target or, if combat is over, departs. Bloodpetals don't consume animal matter, although they might bury a corpse for use as convenient fertilizer.
+
+Unlike most creatures in Un'Goro, they are passive and do not attack unless attacked first. Once angered they will attack with thorns, poisons or entangling roots. They seem to grow as sprouts before becoming full, moving flowers, not unlike the Timberlings on [Teldrassil](Teldrassil).
+
+Their sprouts make a tasty meal for other creatures of the area, yet the fully grown plants are not-edible due to their thorns and poison they have to help them survive in the harsh region.
+
+Bloodpetals are a plentiful source of [Savage Frond](Savage Frond)s.
+
+## Types
+-Bloodpetal
+-[Bloodpetal Flayer](Bloodpetal Flayer)

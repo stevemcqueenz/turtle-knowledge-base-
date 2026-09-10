@@ -1,0 +1,15 @@
+---
+title: "Crown Guard Tower"
+url: "https://turtle-wow.fandom.com/wiki/Crown_Guard_Tower"
+source_type: "community wiki (turtle-wow.fandom.com), not an official source"
+revision: "2025-11-28T00:53:55Z"
+fetched: "2026-09-10T07:38:34Z"
+is_turtle_content: false
+patch: null
+categories: ["Eastern Plaguelands subzones", "Pages with broken file links", "Towers"]
+---
+# Crown Guard Tower
+
+[Crown Guard Tower](Crown Guard Tower) is a ruined tower located in the [Eastern Plaguelands](Eastern Plaguelands), and an objective in the [Game of Towers](A Game of Towers) world PvP event. It is located in the south western part of the map, overlooking the main road. When players capture this tower, anyone in their faction can use a nearby graveyard, located just north of the tower.
+
+Because of its out of the way location, this tower is less likely to be captured by [Stratholme](Stratholme) groups doing PvP before a run. Thus, once captured, it has a higher likelyhood of staying captured.

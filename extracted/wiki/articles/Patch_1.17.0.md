@@ -1,0 +1,250 @@
+---
+title: "Patch 1.17.0"
+url: "https://turtle-wow.fandom.com/wiki/Patch_1.17.0"
+source_type: "community wiki (turtle-wow.fandom.com), not an official source"
+revision: "2026-06-03T05:29:09Z"
+fetched: "2026-09-10T07:39:24Z"
+is_turtle_content: false
+patch: null
+categories: ["Patches"]
+---
+# Patch 1.17.0
+
+-Patch 1.17.0: Beyond the Greymane Wall** was released on October 3, 2023.
+
+## Trailer
+## Patch notes
+### General
+- You can access hardcore channel by typing a chat command /h now, if you're hardcore player. This channel is disabled at level 60 if you are not an Inferno Mode player and therefore immortal again.
+- Every new player will now be joined to the World channel upon their first login.
+- All custom locations now properly give exploration experience.
+- Glyph of the Ice Bear: Both alliance and horde versions received an appearance update, that has more animations, including dancing and sitting.
+- Goblin Hunters now start with a gun and the skill to use them instead of bows.
+- Misc. fixes to health, armor and damage values of many custom npcs.
+- Pet & Mount collections will now have proper description in your spell book.
+- The mirrors in the Stormwind Barbershop are no longer bright green.
+- Added many new loading screen game tips and updated some old ones.
+- All custom instance loading screens now display the Mysteries of Azeroth expansion instead of just Vanilla.
+- Adjusted Crescent Grove lighting to match Ashenvale's ambient lighting.
+- Sunnyglade Valley loading screen now has the proper battleground colors instead normal instance loading screen.
+
+### Itemization changes
+- Please see a separate itemization changelog: [https://forum.turtlecraft.gg/viewtopic.php?t=8230](https://web.archive.org/web/20260515192313/https://forum.turtlecraft.gg/viewtopic.php?t=8230)
+
+### Spell changes
+Note: We are opening recruitment for the Class Design this August!
+
+- The arsenal of Mage transportation has seen some additions, allowing Mages to teleport or open portals to Theramore and Stonard for Alliance and Horde respectively. The teleport spells can be acquired from new class quests found in Theramore and Stonard at level 45, while the portal spells are acquired from tome drops in Lower Karazhan Halls.
+- Divine Shield now reduces the damage you deal by 50% instead of reducing attack speed by 100% during its duration.
+*Developer Note:* One of paladin's strengths in PvP is their armor piercing Holy Strike. With 50% damage reduction while under effect of Divine Shield, it will be much harder from them to oneshot people with this ability, giving other classes more counterplay options. We closely monitor PvP balance in battlegrounds and Blood Ring and expect more balance changes targeted strictly at PvP soon.
+- Grace of the Sunwell mana cost reduced from 21% to 6% of base mana.
+- Feedback mana costs have been reduced to approximately 35% of their original values.
+- Cone of Cold and Hellfire now list their area of effect in the spell descriptions.
+- Added a new raid buff to Druids: Emerald Blessing. This ability can be acquired from Emerald Sanctum after a small questline. At the cost of one Bright Dream Shard, this aura grants raid members within 80 yards 10% movement speed, 1% spell hit and 5% mana regeneration in combat.
+- Glyph of the Ice Bear: Both alliance and horde versions received an appearance update, that has more animations, including dancing and sitting.
+- Flourish now has a 40 second cooldown to avoid cases where the Rogue would become avoidance capped.
+*Developer Note:* Rogue tanking, while a cool and unique concept, has one major flaw. With avoidance based tanks, you either die instantly or do not require any healing at all. It leads to some encounters being trivialised, such as Patchwerk. It has also been brought to our attention that some crafty rogues use flourish to farm some end game bosses alone or in a much smaller group than intended. For that reason, we decided to put a cd on Flourish, to make reaching avoidance cap much harder. Expect more changes for rogue tanking, and rogue class as a whole in the next round of spell changes.
+- Mage's Brilliance Aura, Hunter's Trueshot Aura, and Paladin's Righteous Fury are all now treated as aura / state type spells. These spells no longer have a mana cost or duration and can be toggled on and off. They can also be active at the same time with other auras such as Paladin Auras and Hunter Aspects.
+- Champion's Grace is now available from Priest class trainers at level 40, usable if you have Proclaim Champion talented.
+- Each Totem Element now have their own global cooldown that's seperate from normal abilities, and totems that do not have a cooldown now have a 1.5 sec cooldown. This essentially allows macro-ing totems of different elements together to drop them at the same time.
+- Tree of Life's Aura now increases healing power instead of increasing healing by a flat value.
+- Trainer's ability description text for the ability Detection should now show the proper information.
+- Trainer's ability description text for the ability Agitating Poison should now show the proper information.
+- Agitating Poison I is now named Agitating Poison like other rogue spells where only one ability exists.
+- Trainer's ability description text for the ability Deadly Throw should now show the proper information.
+- Deadly Throw no longer shows a rank like other rogue spells where only one ability exists.
+
+### New transport routes
+- New flight path: Everlook, Winterspring ↔ Nordanaar, Hyjal (Horde & Alliance)
+- New flight path: Southshore, Hillsbrad Foothills ↔ Ravenshire, Gilneas
+- New flight path: Tarren Mill, Hillsbrad Foothills ↔ Stillward Church, Gilneas
+- New flight path: Bael Hardul, Stonetalon Mountains ↔ Astranaar, Ashenvale
+
+### New class and race combinations
+- Human Hunter. Many humans have been training vigorously with their newfound High Elven allies ever since they joined forces. They have been forging strong bonds with nature and honing their marksmanship skills. Finally, the first line of Human Hunters is now fully prepared and ready to face whatever challenges the world may present.
+- Troll Warlock. The reunion of the forest trolls and the Darkspear tribes has resulted in a fusion of cultures. As a consequence, the prominence of dark magic has increased within troll society, offering new avenues for those who crave power. The audacious tusken kin, willing to pay the price, are now prepared to venture into the wider world. The question remains: Will you rise above all others, or will your insatiable hunger for power lead to your downfall?
+
+### New titles & challenges
+- Vagrant's Endeavor. Sick of snagging two-handed axes that are as useful as a screen door on a submarine? Fed up with trying to calculate how much intellect or spell damage you need to avoid becoming the laughing stock of your dungeon party? Fear not, my friend!
+The solution is here: join the Vagrant's Endeavor challenge and bid farewell to the headache of having to pick the right item stats! You'll be forced to wear nothing but poor or common quality gear until you hit level 60. Enchanting items is not permitted.
+But fear not, once you reach that milestone, you'll be rewarded with the coveted title of "The Wanderer" and a beat-up mule to lug around all your not-so-valuable possessions. Who needs rare items when you can have a donkey, am I right?
+- Lord of the Frogs. Are you a frog fanatic like us? Are you ready to hop around and explore every slimy corner in search of that rare breed? It's time to gather every frog in Azeroth and earn the legendary title of Lord of the Frogs! Let's ribbit our way to victory!
+- Crazy Cat Lady. Get ready to embark on a wild adventure of snatching up every feline you come across on the street! Bring them all back to your humble abode and claim the ultimate title of Crazy Cat Lady in the game. It's time to show the world just how much you're head-over-heels in love with these purrfect little creatures. Meow!
+- Diplomat. You know what they say - you can't please everyone. But let's face it, who wants to be a people pleaser anyway? If you're ready to earn your title of Diplomat, it's time to prove the naysayers wrong! So, buckle up and get ready to cozy up with the Timbermaw Hold, Cenarion Circle, and Thorium Brotherhood.
+- Bloodthirsty. The next title is called Bloodthirsty, and does it live up to its name! Now, don't go all crazy and start biting necks left and right. We want you to maintain your honor points while you quench your thirst for blood. So, go ahead and show us your fangs, but make sure you do it with style and class. After all, we're not animals... or are we? Muahaha!
+
+### New zones and quests
+- Gilneas. Gilneas, once the proud home of a nation, now lies in ruins. Its despondent people struggle to survive, scavenging whatever scraps they can find from the remains. However, with the battered and broken gate of the Greymane Wall, the nation can now open its doors to the outside world, raising hope that Gilneas may flourish once more.
+This new zone, which ranges from level 39 to 45, is located south of Silverpine Forest. Beyond the Wall, you will discover town hubs for both factions, offering connections to established flight paths. The Ravenshire Rebellion calls upon the aid of the Alliance, while the Forsaken have occupied the Stillward Church and reunited with an ally from a distant past. It is up to you to support your faction's efforts, whether by aiding the remnants of Gilneas' people or helping the Horde establish a presence in these newly opened lands.
+As you venture through the zone, you will unravel the story of these forgotten lands, whether by participating in unfolding events or by delving into old manuscripts that describe the ancient legends and mythos of the Gilnean people. Rest assured, your efforts will not go unrewarded.
+- Hyjal. Perched atop the peaks of Kalimdor, Hyjal has long been a sacred place for the Night Elves, serving as a constant watch against the horrors of the past. Archimonde's bones, a haunting reminder of the War of the Ancients, adorn Nordrassil. Recently, the once secluded Hyjal has opened its gates, beckoning for aid in the battle against the growing Nightmare and demonic corruption that plagues the mountain. It is crucial that we climb Mount Hyjal and join the fight against this evil, lest we return to the dark days of ten thousand years ago, or worse.
+Hyjal is a new zone designed for endgame content, available to players at levels 58-60. To access the zone, venture through the tunnel located at the southern end of Darkwhisper Gorge in Winterspring. As you ascend, you will encounter unfamiliar creatures such as the dark trolls of Zul'Hatha, the Vilemusk satyr that has infiltrated the corrupted sections of the region, and the corrupted Barkskin furbolg. Eventually, you will arrive at Nordrassil, the world tree, and the town of Nordanaar, which serves as the main hub for this zone. Nordanaar also offers a flight path connecting to Everlook.
+Within Hyjal, you will find the Emerald Gateway, the entrance to Emerald Sanctum, a new 40-man raid in the Blackwing Lair difficulty. This raid offers an optional hard mode, where you must combat the influence of the Nightmare and stop Solnius from initiating the Awakening, which would cause the corrupted Green Dragonflight to rampage across Azeroth. Before entering the raid, completion of an attunement questline in Hyjal is required.
+In addition to the standard quests, there are repeatable quests in Hyjal that reward Dream Shards. Collect enough of these shards to exchange them for various rewards, including equipment forged from Dream infused materials. These repeatable quests can be completed individually, as a group for elite content, or through item turn-ins.
+- New Alliance town: Gnomegeran Reclamation Facility. The Gnomeregan Reclamation Facility is the result of gnomekind's collective efforts to reclaim their city. Located in Dun Morogh, it serves as the new home for the Gnomeregan Exiles. This Alliance town offers familiar amenities like an auction house and bank, as well as general goods vendors. Former residents of Tinker Town, Ironforge, have relocated here, along with new gnomes joining the cause. The facility provides quests for reclaiming Gnomeregan, including a section overrun by toxic components. While you will be rewarded for your helping efforts, be cautious of the gadgets you receive, as they may turn you into a test subject.
+- Ronae'Thalas. *We have escaped the mad prince's clutches and are now free. However, we must confront the horrors and mistakes we allowed to happen. Our family and people were sacrificed for nothing, and we have only suffered losses. But this ends now. While Eldre'Thalas may be lost, we are not. We can start anew, regain our dignity, and find our place in this vastly changed world.*
+Ronae'Thalas, a new questing area, is available for adventurers at level 54. It revolves around the Shen'dralar Highborne who have rejected Tortheldrin's ways and fled the city. They have settled in the ruins of a magical academy east of Feralas, hoping to find their place in the world again. To unlock Ronae'Thalas, speak to Azj'tordin in the Lariss Pavillon in Feralas after completing his quest: "Pusillin and the Elder Azj'Tordin." Ronae'Thalas offers quests and daily quests that grant Shen'dralar reputation. It is part of an ongoing storyline featuring this group of Highborne. The Alliance High elves and the Horde Forsaken have also sent representatives to gain favor with the Highborne. You can choose to assist your faction's representative to earn more reputation and rewards.
+
+### World edits
+- Ground clutter has been added to most custom areas.
+- Water in Alah'thalas now has a proper color.
+- Chimaera Roost Vale (Feralas). Once abandoned after the Third War, the forgotten Chimaera Roost Vale finds hope in the determined efforts of night elf Velos, who strives to restore its former glory.
+- The Farstrider Lodge is getting a new look! More accurate to its High Elven legacy. The gilded exterior blending with the natural wilds showcases both the ancestral ties to the Kaldorei, as well as the pride and progress of their civilization before the coming of the Scourge.
+- The Quel'dorei fleet was not completely wiped out after the fall of Quel'thalas. Some of their iconic destroyers are returning to serve their people again!
+- The Caverns of Time are now properly open and no longer require talking to the gatekeeper to pass through.
+- The people of Southshore have expanded their dock, awaiting for shipments from Kul Tiras.
+
+### Dungeons
+- Gilneas City. At the heart of this once-isolated land lies Gilneas City, which was once a bastion of hope for its people. Established after breaking free from the rule of the Arathorian lords, it stood as a symbol of resilience and prosperity. However, it is now a mere shell of its former beauty, with a dark presence casting a gripping shadow over Gilneas and serving as a reminder of its once glorious past. Distant howls echo through the city, haunting reminders of its new occupants. Yet, there is a possibility that not everyone is gone and that their accursed king may still live.
+Gilneas City is a new level 43-49 dungeon located in its namesake zone, featuring sprawling streets and homes now in disrepair, while the towers that reach for the skies cast their shadows over you as you make your way through the streets to the heart of the city. The dungeon includes two mini-bosses and five normal bosses, with plenty of new loot to acquire as you liberate the city, including armaments of the Gilneas Guard. We cannot reveal too much about the dungeon as it is closely tied to the story of the zone at large, but we can say that you should not expect only worgen to roam the alleyways.
+- Black Morass (Rework). It's finally back and better than ever! The Black Morass dungeon is reopened once more, allowing hardy adventurers to venture within the timeways once again. You can see the primary list of changes below:
+  - The Harbinger and Infinite Chromie boss encounters and the Aqir section have been revamped to be more time related with new custom spells and effects, with the two bosses being replaced with two totally new encounters: Drifting Avatar of Time and Epidamu.
+  - Rotmaw and Mossheart are no longer rare bosses and can now always be found in the swamp section of the dungeon, raising the total boss count to 7.
+  - Properly linked all trash mob packs.
+  - The stats of almost all creatures have seen adjustments to make sure the difficulty is where it was intended to be.
+  - General scripting have been polished and (hopefully) all bugs have been dealt with.
+  - A few packs have been adjusted in pack size and composition.
+  - Added 8 new rare quality item drops as very rare drops from trash mobs, the drop chances are higher for powerful creatures while its lower for weaker creatures such as non-elites and whelps.
+  - Four new items have been added to the boss loottables! Idol of Savagery and Wraps of the Transmogrified have been added to Rotmaw while Totem of the Flowing Timeways and Fabric of Time has been added to the new boss Epidamu.
+  - You can now mount up in the swamp section of the dungeon.
+  - Most of the Infinite Chromie items have been moved to Epidamu, with two items being replaced with the new items. The Eye of the Abyss epic item now drops from Antnormi with around 1% chance.
+  - Infinite Riftguard's Echoing Roar armor reduction has been reduced from 72% to 50%.
+  - Updated the skybox from the swamp to something more fitting for the timeways section.
+  - Infinite Chromie related scripts have been removed due to redundancy post rework.
+
+We hope you enjoy this new rework and thanks for your patience while we worked on bringing this instance up to par with Turtle WoW standards. 
+
+### New end-game raids
+- Emerald Sanctum. A fog of corruption has descended upon the Emerald Dream, twisting the morals and intentions of even the noblest and purest. The corrupted Wakener is preparing to send a premature call of awakening; if not stopped, his kin will arise and go on a frenzied rampage across Azeroth.
+Emerald Sanctum is the first 40-Man Raid being introduced to the server. It can be accessed after completing its attunement chain in Hyjal. This raid is specifically designed for raiders who are actively progressing in Blackwing Lair, which can be considered the Onyxia's Lair for this raid tier. The instance consists of one mini boss, Erennius, and one main boss, Solnius the Awakener. We won't delve into too much detail as the element of mystery is part of the experience. However, you can expect to encounter debilitating afflictions and face the full wrath of the Green Dragonflight unleashed upon your raid.
+A new slew of appearances await fellow druids in Hyjal, rarely dropping from Solnius in the Emerald Sanctum.
+- Lower Karazhan Halls. Karazhan, once the towering stronghold of the former Guardian of Tirisfal, now hums with magical energy as it perches atop a powerful leyline. Its long-forgotten corridors, covered in dust, have become a haven for various creatures, though it appears that not all of its inhabitants have willingly departed. In the depths of the lower halls, Medivh's loyal castellan, Moroes, remains a vigilant guardian. If you manage to impress him, he may grant you access to the upper floors.
+Lower Karazhan Halls is a 10-man raid that can be accessed via the front door of the Karazhan Tower, not requiring any attunements to enter. Designed to offer a challenge similar to Molten Core, the lower halls are inhabited by a multitude of unfamiliar creatures, unlike their later iterations in subsequent expansions. Within these halls, you will encounter six formidable bosses, each dropping items of equal difficulty level. The final boss, however, will reward you with items on par with the treasures of Majordomo Executus.
+Prepare yourself for a plethora of new relics, pseudo item sets and a multitude of treasures imbued with unprecedented powers.
+
+### New rare monsters in the open world
+Should luck favor you, you might encounter these new rare monsters out in the wilds of new locations and zones that have been introduced so far, though be wary as they won't go out without a fight. If you succeed you're sure to acquire one of many new items created just for these elusive adversaries, with a low chance for a trinket from a few and an even lower chance for an epic from the new mini world bosses of Gilijim and Lapidis Islands!
+
+If you do not care about the mystery and tracking down of these creatures you can find a list of them below, along with their zone, level and if they are elite.
+
+- Azurebeak (Hyjal) (Level 60) (ELITE)
+- Barkskin Fisher (Hyjal) (Level 60)
+- Shadeflayer Goliath (Hyjal) (Level 61) (ELITE)
+- Stoneshell (Tel'abim) (Level 56)
+- Highvale Silverback (Tel'abim) (Level 58)
+- Shade Mage (Tirisfal Uplands) (Level 17)
+- Graypaw Alpha (Tirisfal Uplands) (Level 18)
+- Earthcaller Rezengal (Stonetalon Revamp: Bramblethorn Pass) (Level 17)
+- Blazespark (Stonetalon Revamp: Blacksand Oil Fields) (Level 24)
+- Witch Doctor Tan'zo (Ruins of Zul'Rasaz) (Level 35)
+- Ripjaw (Lapidis Isle) (Level 51-52) (ELITE)
+- Margon the Mighty (Lapidis Isle) (Level 55) (ELITE)
+- Ruk'thok the Pyromancer (Lapidis Isle) (Level 51)
+- Letashaz (Gilijim Isle) (Level 55) (ELITE)
+- Embereye (Gilijim Isle) (Level 51)
+- Aquitus (Gilijim Isle) (Level 54) (ELITE)
+- Maltimor's Prototype (Gilneas) (Level 43) (ELITE)
+- Baron Perenolde (Gilneas) (Level 45)
+- Widow of the Woods (Gilneas) (ELITE)
+- Bonecruncher (Gilneas) (Level 44)
+- Duskskitter (Gilneas) (Level 44)
+- Dawnhowl (Gilneas) (Level 40)
+- Firstborn of Arugal (Gilneas) (Level 55) (ELITE)
+- M-0L1Y (???)
+
+### PvP changes
+  -Sunnyglade Valley**
+- Sunnyglade Valley is now a part of the Battleground Weekend rotation, granting double honor and reputation gains while active.
+- You will now be able to earn marks for winning and losing Sunnyglade matches, being rewarded with 3 and 1 marks respectively.
+- Added an introduction sequence that explains the premise and objective, during the preparation period before the battleground begins.
+- The player limit has been increased from 10 to 20 players.
+- Added 1 Mini Boss for the Alliance and the Horde each: Lady Katrin and Blademaster Axon respectively, and 2 Neutral Mini Bosses in the adjacent mines: The Black Widow and Krucios the Soulless.
+- Added 5 new Sunnyglade-only trinkets with unique effects, that will disappear once you leave the battleground. These can be found from the new minibosses and one that's hidden in the battleground map.
+- The Bosses have seen some adjustments:
+  - Health scaling of bosses has been reduced, so they're easier to kill.
+  - The bosses in Sunnyglade now properly transform into a black drake at 30% health, changing their abilities.
+- Footmen and Grunts have seen some adjustments: (F&G for short)
+  - F&G will now use Battle Shout, Shield Slam / Demoralizing Shout, Strike respectively.
+  - Their levels have been nerfed from 60 to 55, and they now have less health.
+- Some of the creatures are now secretly Infinite Dragonflight agents in disguise, who will reveal their true form when attacked by players. Those that transform into drakonids will now give reputation to your entire team for the Wardens of Time faction.
+- Spark and related objects have seen some adjustments:
+  - Sparks now actually look like sparks, instead of chests.
+  - Added smaller spark spawns in empty areas of the map, which only contain 1 spark.
+  - You can now continue to turn in sparks after the bosses have been summoned in Sunnyglade, and it will affect their health accordingly.
+  - Turning in sparks now awards you with reputation, and the amount of reputation rewarded at the end of the battleground has been reduced to compensate for this
+  - Added a healing leaf buff pickup in the empty room of the keep found in the middle of the map.
+
+  -Blood Ring Arena**
+- Blood Ring is being changed from 2v2 to 3v3. This change does not mean that 2v2 is going away forever though, it will return using the Ruins of Lordaeron as its dedicated arena at a later date. 2v2 will also grant the Steamwheedle Blood Ring reputation and honor, but at lower rates due to matches lasting a shorter amount of time.
+- Reputation rewards for Blood Ring have been increased to compensate for the increased durations that come with 3v3 matches.
+- Blood Ring is now a part of the Battleground Weekend rotation, granting double honor and reputation gains while active.
+- Acquiring Exalted reputation now has additional rewards:
+  - Three new Item Level 68 epic rings for Physical DPS, Caster DPS and Healers. These rings are primarily tailored for PvP with high stamina values and 1% reduced chance to get critically struck. These rings are Unique so you're only able to carry and wear only one.
+  - In addition, you will be awarded with the "Blood Ring Champion" title for accomplishing such a deed.
+- You will now be able to earn marks for winning and losing Blood Ring matches, being rewarded with 3 and 1 marks respectively. These marks can be turned in for extra reputation or converted to Marks of Blood for the following:
+  - Plans: Bloody Belt Buckle which creates a buckle can be attached to your belt to reduce the chance to get critically struck by 1%.
+  - Plans: Ornate Bloodstone Blade, a dagger for spellcasters that has a chance to proc extra fire damage on damaging spellcast at the cost of your own health.
+  - Formula: Enchant Gloves - Major Strength, granting 9 Strength to your gloves.
+  - Recipe: Gurubashi Gumbo, a delight for the seasoned gladiator that grants 10 Stamina and reduces the chance to get critically struck by 1% if eaten for atleast 10 seconds.
+
+  -Warsong Gulch**
+- Capturing a flag now grants your team 108 reputation up from 35 reputation, amounting to 324 reputation if you capture all three flags to win the battleground.
+
+  -Arathi Basin**
+- The reputation points granted for gathering resources has been increased from 13 to 25 for each tick, amounting to 325 reputation with 13 ticks if you acquire enough resources to win the battleground.
+
+### Gathering
+The following locations now have herbs, ore deposits and sometimes chest spawns:
+
+- Suntail Pass
+- Icepoint Rock
+- Ruins of Zul'rasaz
+- Zul'rasaz Trails
+- Westhaven Hollow
+- Blackhorn Village
+- Deserter's Hideout
+- Bramblethorn Pass
+- Bael Hardul's Farm
+- Blacksand Oil Fields
+- Ruins of Corthan
+- Crystalline Oasis
+- Crystalline Pinnacle
+- Redbrand's Digsite
+- Angor Digsite
+- Ruins of Zeth
+- Tel'abim's shores are now populated with Stranglekelp.
+- Black Lotus can now be found in Tel'abim and Hyjal. The same pooling system found in Vanilla zones is also effective at these custom zones, meaning only one Black Lotus can be up amongst multiple spawn locations that are not shared by other herbs.
+
+### World map
+- Added the ability to minimize to world map, allowing for a more streamlined and immersive gameplay experience.
+- World maps for the following locations have been added:
+  - Caverns of Time
+  - Bramblethorn Pass and Bael Hardul (Stonetalon Mountains)
+  - Gilneas
+  - Westhaven Hollow (Dustwallow Marsh)
+  - Tel'abim (Now visible from Tanaris map)
+  - Chimaera Roost Vale (Feralas)
+  - Icepoint Rock
+  - There is no cow level, do not keep looking for it.
+  - Stormwind Harbor: Davensburg (Kul Tiran Embassy)
+  - The Black Morass
+  - Stormwind Vault
+  - Karazhan Crypt
+  - Crescent Grove
+  - Hateforge Quarry
+  - Gilneas City
+- Reworked Maps:
+  - Hyjal
+  - Amani'Alor
+  - Northwestern Stonetalon Mountains: Powder Town & Blacksand Oil Fields
+  - Alah'thalas
+
+### Turtle WoW radio
+- HELLOOOO CAPITAL WASTELAND! How's your day... oh, wait, wrong game. Anyway, with the upcoming patch, you'll notice a radio button on your minimap. It will be broadcasting your favorite podcasters, playing music, and sharing all the latest rumors and drama! Exciting, right? Woo!
+
+### Original soundtrack
+- Of course, every new zone comes with new zone music composed by our talented musicians! Discover the latest releases here, available for free listening on Soundcloud: https://forum.turtle-wow.org/viewtopic.php?t=8412
+  - [Zone Music & Ambience: Lower Karazhan Halls](https://soundcloud.com/turtlewow/j-zsef-kiss-castle-of?in=turtlewow/sets/jozsef-kiss-spectral-symphony)
+  - [Zone Music & Ambience: Gilneas & Gilneas City](https://soundcloud.com/turtlewow/george-kouroupakis-despair?in=turtlewow/sets/beyond-the-greymane-wall)
+  - [Zone Music & Ambience: Gnomeregan Reclamation Facility](https://soundcloud.com/turtlewow/atom-plans?in=turtlewow/sets/george-kouroupakis-inferior-numbers)
+  - [Zone Music & Ambience: Emerald Sanctum](https://soundcloud.com/turtlewow/sets/george-kouroupakis-emerald-sanctum)

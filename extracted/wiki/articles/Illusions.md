@@ -1,0 +1,39 @@
+---
+title: "Illusions"
+url: "https://turtle-wow.fandom.com/wiki/Illusions"
+source_type: "community wiki (turtle-wow.fandom.com), not an official source"
+revision: "2022-07-06T17:53:06Z"
+fetched: "2026-09-10T07:39:00Z"
+is_turtle_content: false
+patch: null
+categories: []
+---
+# Illusions
+
+Illusions are items that allow players to temporarily change their player model.
+
+## Using an illusion
+An illusion item has infinite uses. After 2 seconds of cast time, an illusions item changes your model, or reverts it back to the original character model if used again. The illusion effect lasts indefinitely, and does not break upon entering combat, casting a spell, crafting, dealing or taking damage, however your character cannot mount up or use the flight master services while under the effect of an illusion. Polymorph effects, such as Polymorph, Curse of the Eye, Druid shapeshift, Wisp Spirit, etc. will override the illusion, and return you back to your original character model when they fade away, necessitating to use the illusion item again. Upon dying and releasing spirit, your character retains the illusion model while in ghost form, but the corpse reverts to the original character model. The illusion affects your portrait, the Character panel model, and the Dressing room model.
+
+Illusion does not trigger the global cooldown and can be used during the global cooldown.
+
+## Illusion Visuals
+Most illusions use models of hostile NPCs, and as such they lack most animations that are available to original character models. The full list of available animations varies from illusion to illusion, but generally all illusions have animations for standing, walking, running, attacking, casting and dying. When using an illusion, the player's equipment is no longer visible, except for unsheathed weapons (ref: Using the Succubus illusion renders weapons invisible as well, as she uses a whip that is a part of her model instead.).
+
+Some illusions come with multiple model skins. Every time such illusion is applied, a random skin is picked.
+
+## List of Available Illusions
+- Illusion: Banshee - Available from Turtle WoW Donation Rewards for 120 tokens.
+-Illusion: Dryad - Available from Turtle WoW Donation Rewards for 120 tokens.
+-Illusion: Furbolg - rewarded from the Winter's Veil custom quest ["Grizzlore Wants Thunder"](https://database.turtle-wow.org/?quest=50326), found in the Turtle WoW exclusive Winter Veil Vale event zone, also available from Turtle WoW Donation Rewards for 120 tokens.
+-Illusion: Ghost - Available from Turtle WoW Donation Rewards for 120 tokens.
+-Illusion: Gnoll - Available from Turtle WoW Donation Rewards for 120 tokens.
+- Illusion: Pandaren - Available from Turtle WoW Donation Rewards for 120 tokens.
+-Illusion: Scourge - Available from Turtle WoW Donation Rewards for 120 tokens.
+-Illusion: Shadow - Available from Turtle WoW Donation Rewards for 120 tokens.
+-Illusion: Succubus - Available from Turtle WoW Donation Rewards for 120 tokens.
+-Illusion: Two-headed Ogre - Available from Turtle WoW Donation Rewards for 120 tokens.
+-Illusion: Worgen - Available from Turtle WoW Donation Rewards for 120 tokens.
+-Illusion: Murloc - Available from Speedy's Gift Box: Level 50, which is mailed to your character when it reaches level 50 in Slow & Steady Challenge.
+- Illusion: High Elf - Was previously available from Speedy's Gift Box: Level 50, which was mailed to your character when it reaches level 50 in Slow & Steady Challenge, this was replaced with the Illusion: Murloc leading to the release of 1.15.0 and the proper implementation of High Elves as a playable race (ref: These work exactly like all other illusions, even if they prelude their fully fledged playable race counterparts.).
+-Illusion: Goblin - Was previously available from Turtle WoW Donation Rewards for 120 tokens, this has long been removed before the release of 1.15.0 and the proper implementation of Goblins as a playable race.

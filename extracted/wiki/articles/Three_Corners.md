@@ -1,0 +1,13 @@
+---
+title: "Three Corners"
+url: "https://turtle-wow.fandom.com/wiki/Three_Corners"
+source_type: "community wiki (turtle-wow.fandom.com), not an official source"
+revision: "2025-12-04T21:03:02Z"
+fetched: "2026-09-10T07:39:52Z"
+is_turtle_content: false
+patch: null
+categories: ["Human territories", "Redridge Mountains subzones"]
+---
+# Three Corners
+
+-Three Corners** is a crossroads just inside [Redridge Mountains](Redridge Mountains) that is patrolled by a lone [Stormwind](Stormwind) guard, [Guard Parker](Guard Parker). The crossroads splits three ways and leads to the "Three Shires". It runs west into [Elwynn Forest](Elwynn Forest) to [Goldshire](Goldshire), east to [Lakeshire](Lakeshire), and south into [Duskwood](Duskwood) to [Darkshire](Darkshire).

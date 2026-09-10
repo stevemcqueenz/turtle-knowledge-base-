@@ -1,0 +1,15 @@
+---
+title: "Tomb of Sargeras"
+url: "https://turtle-wow.fandom.com/wiki/Tomb_of_Sargeras"
+source_type: "community wiki (turtle-wow.fandom.com), not an official source"
+revision: "2025-11-23T02:00:18Z"
+fetched: "2026-09-10T07:39:53Z"
+is_turtle_content: false
+patch: null
+categories: ["Lore", "Pages with broken file links", "Ruins", "Temples", "World:Azeroth"]
+---
+# Tomb of Sargeras
+
+The term **Tomb of Sargeras** refers to the remnants of the Temple of Elune in the ancient [Kaldorei](Kaldorei) city of Suramar (coincidentally, the same city in which [Tyrande](Tyrande), [Malfurion](Malfurion), and [Illidan](Illidan) grew up) that was used by the [Guardian](Guardian) [Aegwynn](Aegwynn) to contain the body of [Sargeras](Sargeras) after she supposedly defeated the Dark [Titan](Titan) in mortal combat. The Tomb was sent to the bottom of the Great Sea by the Aspects, but was much later raised by [Gul'dan](Gul'dan), who believed that the body of Sargeras contained the power to make him a god (it was in fact the promise of the Tomb of Sargeras that led Gul'dan to first open the Dark Portal). The warlock led his entire army, about a third of the Horde's entire standing forces, to the islands. This action ultimatly led to the Horde's defeat in Lordaeron. Gul'Dan himself was later torn apart by the Tomb's Guardians, at the very threshhold of the Eye Chamber (once the Courtyard of the Moon). 
+
+Many years later, the tomb was visited by [Illidan](Illidan) who was searching for the  [Eye of Sargeras](Eye of Sargeras) to destroy Northrend on [Kil'jaeden](Kil'jaeden)'s orders. [Maiev Shadowsong](Maiev Shadowsong) tried to stop him from claiming the Eye, and Illidan collapsed the chamber on top of her, setting off a chain reaction that collapsed the entire building. Maiev escaped, and the Tomb of Sargeras and the evils it contained was at last destroyed, the tools of the Dark Titan never to be used again, his dark reign hopefully fading forever into memory.  The tomb's ruins are located on an eastern island in the [Broken Isles](Broken Isles) to the east of the [Maelstrom](Maelstrom)

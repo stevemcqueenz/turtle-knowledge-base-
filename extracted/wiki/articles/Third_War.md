@@ -1,0 +1,43 @@
+---
+title: "Third War"
+url: "https://turtle-wow.fandom.com/wiki/Third_War"
+source_type: "community wiki (turtle-wow.fandom.com), not an official source"
+revision: "2025-11-17T19:03:19Z"
+fetched: "2026-09-10T07:39:50Z"
+is_turtle_content: false
+patch: null
+categories: ["Lore"]
+---
+# Third War
+
+The Third War refers mainly to the events leading up to and including the second invasion of the [Burning Legion](Burning Legion), the destruction of the major [Alliance](Alliance) lands by the [Scourge](Scourge), and the migration to [Kalimdor](Kalimdor), culminating in the Battle of [Mount Hyjal](Mount Hyjal), where the Burning Legion where defeated.
+
+## The Scourge of Lordaeron
+After preparing for many long months, [Kel'Thuzad](Kel'Thuzad) and his [Cult of the Damned](Cult of the Damned) finally struck the first blow by releasing the [plague of undeath](Plague of Undeath) upon [Lordaeron](Lordaeron). [Uther](Uther) and his fellow [paladin](paladin)s investigated the infected regions in the hope of finding a way to stop the plague. Despite their efforts, the plague continued to spread and threatened to tear the Alliance apart. 
+
+As the ranks of the undead swept across Lordaeron, [Terenas](Terenas)' only son, [Prince Arthas](Prince Arthas), took up the fight against the Scourge. Arthas succeeded in killing Kel'Thuzad, but even so, the undead ranks swelled with every soldier that fell defending the land. Frustrated and stymied by the seemingly unstoppable enemy, Arthas took increasingly extreme steps to conquer them. Finally Arthas' comrades warned him that he was losing his hold on his humanity. 
+
+Arthas' fear and resolve proved to be his ultimate undoing. He tracked the plague's source to [Northrend](Northrend), intending to end its threat forever. Instead, Prince Arthas eventually fell prey to the [Lich King](Lich King)'s tremendous power. Believing that it would save his people, Arthas took up the cursed runeblade, [Frostmourne](Frostmourne). Though the sword did grant him unfathomable power, it also stole his soul and transformed him into the greatest of the Lich King's death knights. With his soul cast aside and his sanity shattered, Arthas led the Scourge against his own kingdom. Ultimately, Arthas murdered his own father, King Terenas, and crushed Lordaeron under the Lich King's iron heel.
+
+## Sunwell - The Fall of Quel'Thalas
+Though he had defeated all of the people he now saw as his enemies, Arthas was still haunted by the ghost of Kel'Thuzad. The ghost told Arthas that he needed to be revived for the next phase of the Lich King's plan. To revive him, Arthas needed to bring Kel'Thuzad's remains to the mystical [Sunwell](Sunwell), hidden within the high elves' eternal kingdom of [Quel'Thalas](Quel'Thalas). 
+
+Arthas and his Scourge invaded Quel'Thalas and laid siege to the elves' crumbling defenses. [Sylvanas Windrunner](Sylvanas Windrunner), the Ranger-General of [Silvermoon](Silvermoon), put up a valiant fight, but Arthas eventually eradicated the high elf army and battled through to the Sunwell. In a cruel gesture of his dominance, he even raised Sylvanas' defeated body as a [banshee](banshee), cursed to endless undeath in the service of Quel'Thalas' conqueror. 
+
+Ultimately, Arthas submerged Kel'Thuzad's remains within the holy waters of the Sunwell. Although the potent waters of Eternity were fouled by this act, Kel'Thuzad was reborn as a sorcerous lich. Resurrected as a far more powerful being, Kel'Thuzad explained the next phase of the Lich King's plan. By the time Arthas and his army of the dead turned southward, not one living elf remained in Quel'Thalas. The glorious homeland of the high elves, which had stood for more than nine thousand years, was no more. 
+
+## Archimonde's Return and the Flight to Kalimdor
+Once Kel'Thuzad was whole again, Arthas led the Scourge south to [Dalaran](Dalaran). There the lich would obtain the powerful [spellbook of Medivh](Book of Medivh), and use it to summon [Archimonde](Archimonde) back into the world. From that point on, Archimonde himself would begin the Legion's final invasion. Not even the wizards of the [Kirin Tor](Kirin Tor) could stop Arthas' forces from stealing Medivh's book, and soon Kel'Thuzad had all he needed to perform his spell. After ten thousand years, the mighty demon Archimonde and his host emerged once again upon the world of Azeroth. Yet Dalaran was not their final destination. Under orders from [Kil'jaeden](Kil'jaeden) himself, Archimonde and his demons followed the undead Scourge to [Kalimdor](Kalimdor), bent on destroying [Nordrassil](Nordrassil), the World Tree. 
+
+In the midst of this chaos, a lone, mysterious prophet appeared to lend the mortal races guidance. This prophet proved to be none other than [Medivh](Medivh), the last Guardian, miraculously returned from the Beyond to redeem himself for past sins. Medivh told the [Horde](Horde) and the [Alliance](Alliance) of the dangers they faced and urged them to band together. Jaded by generations of hate, the orcs and humans would have none of it. Medivh was forced to deal with each race separately, using prophecy and trickery to guide them across the sea to the legendary land of Kalimdor. The orcs and humans soon encountered the long-hidden civilization of the [Kaldorei](Kaldorei). 
+
+The [orcs](orcs), led by [Thrall](Thrall), suffered a series of setbacks on their journey across Kalimdor's Barrens. Though they befriended [Cairne Bloodhoof](Cairne Bloodhoof) and his mighty tauren warriors, many orcs began to succumb to the demonic bloodlust that had plagued them for years. Thrall's greatest lieutenant, [Grom Hellscream](Grom Hellscream), even betrayed the Horde by giving himself over to his baser instincts. As Hellscream and his loyal [Warsong](Warsong) warriors stalked through the forests of [Ashenvale](Ashenvale), they clashed with the ancient night elf [Sentinels](Sentinels). Certain that the orcs had returned to their warlike ways, the demigod [Cenarius](Cenarius) came forth to drive Hellscream and his orcs back. Yet Hellscream and his orcs, overcome with supernatural hate and rage, managed to kill Cenarius and corrupt the ancient forestlands. Ultimately, Hellscream redeemed his honor by helping Thrall defeat [Mannoroth](Mannoroth), the demon lord who first cursed the orcs with his bloodline of hate and rage. With Mannoroth's death, the orcs' blood-curse was finally brought to an end. 
+
+While Medivh worked to convince the orcs and humans of the need for an alliance, the night elves fought the Legion in their own secretive ways. [Tyrande Whisperwind](Tyrande Whisperwind), the immortal High Priestess of the night elf Sentinels, battled desperately to keep the demons and undead from overrunning the forests of Ashenvale. Tyrande realized that she needed help, so she set out to awaken the night elf [druids](druids) from their thousand-year slumber. Calling upon her ancient love, [Malfurion Stormrage](Malfurion Stormrage), Tyrande succeeded in galvanizing her defenses and driving the Legion back. With Malfurion's help, nature herself rose up to vanquish the Legion and its Scourge allies. 
+
+While searching for more of the hibernating druids, Malfurion found the ancient barrow prison in which he had chained his brother, [Illidan](Illidan). Convinced that Illidan would aid them against the Legion, Tyrande set him free. Though Illidan did aid them for a time, he eventually fled to pursue his own interests. 
+
+The night elves braced themselves and fought the Burning Legion with grim determination. The Legion had never ceased in its desire for the [Well of Eternity](Well of Eternity), long the source of strength for the World Tree and itself the heart of the night elf kingdom. If their planned assault on the Tree was successful, the demons would literally tear the world apart. 
+
+## The Battle of Mount Hyjal
+Under Medivh's guidance, [Thrall](Thrall) and [Jaina Proudmoore](Jaina Proudmoore) - the leader of the human forces in Kalimdor - realized that they had to put aside their differences. Similarly, the night elves, led by Malfurion and Tyrande, agreed that they must unite if they hoped to defend the World Tree. Unified in purpose, the races of Azeroth worked together to fortify the World Tree's energies to their utmost. Empowered by the very strength of the world, Malfurion succeeded in unleashing Nordrassil's primal fury, utterly destroying Archimonde and severing the Legion's anchor to the Well of Eternity. The final battle shook the continent of Kalimdor to its roots. Unable to draw power from the Well itself, the Burning Legion crumbled under the combined might of the mortal armies.

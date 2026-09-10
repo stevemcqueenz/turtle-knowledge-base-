@@ -1,0 +1,26 @@
+---
+title: "Emerald Dream"
+url: "https://turtle-wow.fandom.com/wiki/Emerald_Dream"
+source_type: "community wiki (turtle-wow.fandom.com), not an official source"
+revision: "2025-11-17T19:09:42Z"
+fetched: "2026-09-10T07:38:43Z"
+is_turtle_content: false
+patch: null
+categories: ["Game Terms", "Lore"]
+---
+# Emerald Dream
+
+# Lore
+The waking Dream of Creation and verdant realm of the [Dragon Aspect](Dragon Aspects) [Ysera](Ysera).  The **Emerald Dream**, as the realm of the wild, appears to those who travel within it as [Azeroth](Azeroth) would have appeared without the development of the sentient races.  It is what Azeroth would have been if not for humans, elves and other intelligent creatures. This plane shows travelers what their world would be if intelligent races had not cut forests, farmed prairies, diverted rivers and built cities. It is a vision of the world as a verdant natural paradise. Verdant forests stretch away in every direction, and rolling hills and majestic mountains mimic Azeroth’s landscape.
+
+Indeed, Azeroth and the Emerald Dream are quasi-duplicates of each other — the Emerald Dream is Azeroth as seen through a magic lens, untouched by the hands of mortals. Indeed, the Emerald Dream is the Azeroth that would not have been split by magic into the two landmasses of today - within it is the original greater landmass of Kalimdor, covered in the hazy emerald green forests of aeons past. 
+
+Nature is in a perfect balance in the Emerald Dream. Animals of all types inhabit the world, including some that are extinct on Azeroth and subspecies that never got the chance to evolve. Many fey creatures, such as sprites and faerie dragons, also roam the forests. However, it is not only the inhabitant creatures that roam the Dream. Creatures from Azeroth constantly visit, though they may or may not know it. Dreaming creatures arrive in the Emerald Dream and often have prophetic and helpful visions.
+
+Druids enter the plane through their connection with nature. While within the dream, the traveler can, through exercise of will, view the waking world and to a limited extent interact with it (as presumably all aspects of the world have some connection to the Emerald Dream). Accessing the Emerald Dream via more conventional magic is possible, but the plane’s natives do not look kindly on intruders. 
+
+The entire plane is the dominion of Ysera, the mighty green dragon Aspect, and she and her brood ensure that none despoil this paradise. For all its wonder, the Emerald Dream is not without its dangers. Those who visit via their dreams are welcomed and enfolded within the natural balance, but those who bring their physical selves face suspicion and hostility.
+
+The Druid [Malfurion Stormrage](Malfurion Stormrage) made use of the Emerald Dream to enter into the palace of [Queen Azshara](Queen Azshara) and thwart the plans of Lord [Xavius](Xavius).  Ysera herself and a great number of the green dragonflight reside in the dream either permanently or occassionally, as do the vast majority of the Night Elf [Druid](Druid)s.  As part of an ancient pact made between Ysera and [Malfurion Stormrage](Malfurion Stormrage), the druids are required to spend long periods of time sleeping in the Emerald Dream in exchange for their powers over the forces of nature, presumably so that they will better appreciate that which they have pledged themselves to preserve.  Recently, strange events have been transpiring within the Emerald Dream and it appears that Malfurion himself may be trapped within its confines.  
+
+A darker force has found its way into the Emerald Dream as well. Called [The Nightmare](The Nightmare), this mobile area of corruption stems from the twisted thoughts and fears of sleeping beings’ subconscious minds. The Nightmare travels slowly through the Emerald Dream, leaving corrupted, vicious animals and Unwaking travelers in its path. None, not even Ysera, knows why the Nightmare exists — nor why its boundaries grow.

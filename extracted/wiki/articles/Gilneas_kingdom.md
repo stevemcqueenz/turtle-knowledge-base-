@@ -1,0 +1,97 @@
+---
+title: "Gilneas (kingdom)"
+url: "https://turtle-wow.fandom.com/wiki/Gilneas_(kingdom)"
+source_type: "community wiki (turtle-wow.fandom.com), not an official source"
+revision: "2026-05-05T22:22:49Z"
+fetched: "2026-09-10T07:38:51Z"
+is_turtle_content: false
+patch: null
+categories: ["Gilneas (kingdom)", "Human nations"]
+---
+# Gilneas (kingdom)
+
+| field | value |
+|---|---|
+| name | Kingdom of Gilneas |
+| image | Gilneas Flag.png |
+| faction | Alliance |
+| leader | Liam Greymane |
+| fleader | Genn Greymane† |
+| leaders | Tess Greymane, Darius Ravenwood, Caliban Silverlaine |
+| fleaders | Mia Greymane†, Mortimer Harlow†, Celia Harlow† |
+| races | Human, Wildhammer dwarf |
+| capital | Gilneas City |
+| government | Hereditary monarchy, (Greymane family) |
+| language | Common |
+| affiliation | Alliance |
+| faffiliation | Alliance of Lordaeron, Empire of Arathor |
+| status | Active |
+| tabard | Gilneas Tabard.jpg |
+
+*This article is about the human kingdom. For the region of the same name, see [Gilneas](Gilneas).*
+
+The **kingdom of Gilneas** is one of the [seven human nations](Seven Kingdoms) in the [Eastern Kingdoms](Eastern Kingdoms), and is located in the peninsula of Gilneas, situated southwest of [Silverpine Forest](Silverpine Forest) on the continent of [Lordaeron](Lordaeron). Originally an Arathorian city-state founded after the Troll Wars, it became an independent kingdom after splitting from the empire.
+
+## History
+### Early history
+Gilneas was first founded as one of the city-states of the [Empire of Arathor](Arathor), and for long was a very militaristic supporter of the Empire along with the city-state of Alterac. Both Alterac and Gilneas' mighty armies explored the mountainous southern lands of [Khaz Modan](Khaz Modan) and made first contact with the dwarves. (ref: [The Seven Kingdoms](https://wowpedia.fandom.com/wiki/The_Seven_Kingdoms))
+
+According to Gilnean legend, the kingdom of Gilneas was founded by [Garalon Greymane](Garalon Greymane) after winning its independence from the Empire of Arathor. Gilneas had become independent after Dalaran, but before nations such as Alterac and Kul Tiras, which remains a point of pride for Gilneans. Garalon, then a minor noble of Gilneas, led a rebellion against King [Thoradin III](Thoradin III) of Arathor, seeing the Arathorian nobles who influenced the city-state as corrupt and oppressive. Rallying the other nobles of the state, Garalon declared himself the king of Gilneas, an act that Arathor could not tolerate. An army was sent to Gilneas to pacify it, leading to a war that saw Gilneas rise as an independent nation and led to the death of Thoradin III. During the war, Garalon made usage of dark magics to fight the Arathorian forces, which he channeled through [his scepter](Scepter of Garalon) with great effect in the battle of Stillward. (ref: [quest: The Ravenwood Scepter]) Though Thoradin's heir, Prince [Lenarol I](Lenarol I) (ref: [The Silverpine Wars](The Silverpine Wars)), sued for peace and bestowed upon them the lands of the Gilnean peninsula into [Silverpine Forest](Silverpine Forest), the budding nation of Gilneas was invaded by the neighboring nation of Dalaran soon after. Gilneas emerged victorious against the Dalaranian incursion, though the nation came under threat once more when a rebellion erupted to remove King Garalon from power. With the help of Garalon's favored general, Lord [Aldrin Ravenwood](Aldrin Ravenwood), the rebellion was subdued. (ref: [The First Greymane](The First Greymane)) After Gilneas had established its independence from Arathor, they established their capital within the [city of Gilneas](Gilneas City) in the western peaks of the peninsula. (ref: [Patch 1.17.0 - Gilneas City overview](Patch 1.17.0#Dungeons))
+
+Garalon later supported the secession of [Kul Tiras](Kul Tiras (kingdom)) and [Alterac](Alterac (kingdom)) from Arathor, though Garalon was assassinated at the age of 43 by the very Alteraci nobles he had supported just years before. (ref:  Garalon's son was mentored and regented by Lord Ravenwood after Garalon's death, ensuring that the young prince would be prepared to take the throne upon coming of age.<ref>[Aldrin, Protector of the Realm](Aldrin, Protector of the Realm))
+
+During the rule of King [Veren Greymane](Veren Greymane), [Lordaeronian](Lordaeron (kingdom)) forces led by Prince [Arterian Lordanol](Arterian Lordanol) invaded the lands of Silverpine to claim it for Lordaeron, advancing with little resistance during the autumn before being halted by the harsh winters of the region. The Gilneans were far more accustomed to the climates, and so during the winter King Veran and his soldiers cut off Prince Arterain's supply lines and launched a surprise attack on Arterain's command camp, forcing the Lordaeronian army to retreat and taking the prince captive. During battle, witnesses claimed that King Veran called upon dark blood magics in battle, manipulating the blood essence of the fallen Lordaeronian soldiers. Prince Arterian was ransomed back to Lordaeron for a hefty sum, and Gilneas' victory over Lordaeron securing Gilnean rule over Silverpine for many years; though they later lost control over the region to Lordaeron under the rule of the Menethils. (ref: 
+
+In the aftermath of the disastrous War of the Three Hammers, the [Wildhammer dwarves](Wildhammer dwarves) of [Dun Kithas](Dun Kithas) led by Sky King [Redoran](Redoran) flew west from the [Grim Reaches](Grim Reaches) into Gilneas while in search of a new land to call home. Reaching the city of [Gelnor](Gelnor), Redoran gifted many trinkets of his people to the Gilneans which they treasured, awed by the artisanship of dwarven-craft. Richest of Redoran's gifts was a bejeweled mithril crown he gifted to the ruling Greymane Queen, [Elaena the Good](Elaena Greymane). So charmed was Elaena that throughout her reign she never again unwearied her head. When Redoran and his people made ready to depart, they were halted by Queen Elaena who, for their generosity to the people of Gilneas, gifted them a place in Gelnor and to Redoran a seat at her court. The dwarves were glad to accept and Redoran ever shared Elaena's trust and council. To this day, dwarves and humans live there in Gelnor as one Gilnean kin.<ref>[The Dwarves of Gelnor](The Dwarves of Gelnor))
+
+### Second War and aftermath
+By the start of the [Second War](Second War), Gilneas was one of the most powerful human nations, and because of this, the kingdom's ruler, [Genn Greymane](Genn Greymane), was not a strong supporter of the [Alliance](Alliance of Lordaeron), believing that his own armies would be more than enough to deal with any threat. Despite this, Gilneas was not neutral towards the Horde and did join the Alliance late in the Second War, and Gilnean soldiers led by [Marshal Magnus Greystone](Marshal Magnus Greystone) engaged the Orcish Horde on the battlefield during the war; (ref: [Marshal Magnus Greystone#Quotes](Marshal Magnus Greystone#Quotes)) although Lord Greymane constantly argued against its existence from beginning to end. Shortly after the Horde was defeated, Greymane pulled his nation's support from the Alliance, refusing to spend his nation's resources on keeping the orcs alive in internment camps or in rebuilding other nations devastated by the war.
+
+After the betrayal of [Aiden Perenolde](Aiden Perenolde), the ruler of [Alterac](Alterac (kingdom)), was revealed, Greymane had his eye on ruling the now-leaderless kingdom, even though he had no right to it. He supported the claim of Lord Perenolde's nephew, [Isiden](Isiden Perenolde), to Alterac's throne. A base in Alterac would give Gilneas access to resources the southern kingdom did not have, and the excuse to send its mighty ships across the Great Sea. Greymane almost fought with Admiral [Daelin Proudmoore](Daelin Proudmoore) over the issue, but the confrontation never came as both of them had reluctantly agreed not to bring back any weapons. They had even agreed to having themselves searched by selected sentries from the [Knights of the Silver Hand](Knights of the Silver Hand), the only military unit they all trusted despite its outward allegiance to Terenas. Over time, due to mind control by the black dragon Deathwing, he grew to support Lord [Daval Prestor](Daval Prestor) (actually Deathwing in human form), in his bid for the throne. (ref: *[Day of the Dragon](Day of the Dragon)*)
+
+During this time, Genn was visited by [Mortimer](Mortimer Harlow) and [Celia Harlow](Celia Harlow), Alteraci nobles who had been sent by Lord Prestor. The siblings integrated themselves to his court, entering the ranks of courtiers and nobles that advised the king. However, the pair were actually black dragonspawn sent by their father to destabilize and destroy it from within. (ref: [Celia's Journal](Celia's Journal)) After Prestor vanished, Greymane continued to push Isiden's claim.
+
+### Third War and the Wall
+Sometime after the Second War, Greymane constructed the [Greymane Wall](Greymane Wall) — an enormous stone barrier that now separates Gilneas from Lordaeron. Attempting to forever remove his nation from what he considered "other people's troubles", he barricaded Gilneas behind the wall. No one, not even other humans are allowed to enter Gilneas. Even during the Scourge's invasion of Lordaeron, while human refugees came begging to be allowed in, the Greymane Wall remained closed. Nevertheless, more refugees and other nations have entreated Gilneas for aid. These unfortunates never see a Gilnean and are easy prey for the worgen that occasionally stray south from Shadowfang Keep. Those on the other side in Gilneas have been spared from the Plague, though a part of the Greymane Wall now known as [Oldrock Pass](Oldrock Pass) was briefly breached by a Scourge warhost led by the lich [Naze the Eternal](Naze the Eternal) two years prior to the opening of the Greymane Wall, leading to the destruction of the town of [Greyshire](Ruins of Greyshire) and the Scourge being decisively pushed out of Gilneas. (ref: [quest: Scouring Greyshire]) Although the land connection to Gilneas was closed, ships from this self-isolated nation have been spotted throughout the world, such as the pirate ship *Heedless* of captain Baron Longshore.
+
+Just before the onset of the Third War, King Greymane was briefly visited by a [mysterious prophet](Medivh) that flew over the Greymane Wall, pleading him to flee west to the lands of [Kalimdor](Kalimdor), but he refused, saying that flight was 'a craven's course' and that he would not tell his people to make refugees of their families. Yet as the months drew on, each of the stranger's prophecies turned to reality. First the return of the orcs, then the coming of the plague. When word that Stratholme had been put to the torch by Prince Arthas, Genn only tightened his resolve and fully sealed his gates to all outsiders. (ref: [The Prophet's Warnings and the Gilneas Brigade](The Prophet's Warnings and the Gilneas Brigade))
+
+Many in his council protested at his edict, chief amongst them being Genn's son, Crown Prince [Liam Greymane](Liam Greymane), who brought the news of Lady [Jaina Proudmoore](Jaina Proudmoore) gathering the survivors of Lordaeron and sailing west to Kalimdor. He petitioned for his royal father to send a honor guard to escort the defenseless refugees. But the King refused, on account that any pestilence borne by the Lordaeronians risked spreading back to Gilneas. Against Genn's wishes, Liam sought support among the lords of Gilneas to send aid to the Human Expedition. Few shared his views, but of these, Lord [Darius Ravenwood](Darius Ravenwood) and Lord [Gerold](Gerold) of [Gelnor](Gelnor) were the most influential. While Lord Ravenwood readied a fleet in secret, Gerold assembled a force of stout Gelnorian dwarves and men to volunteer as the promised honor guard. Thus the [Gilneas Brigade](Gilneas Brigade), named by Prince Liam with full honors on the Gilnean shores, set sail for Kalimdor into the service of Lady Proudmoore. By the time that Genn discovered the plot, the Gilneas Brigade had already departed to join the expedition, though he harshly punished those involved in its formation, namely the Crown Prince and Lords Ravenwood and Gerold. (ref: 
+
+### Mysteries of Azeroth
+In time, the Harlows used their influence over the king to poison his mind with thoughts of rebellion, leading him to turn against Lord Ravenwood and isolating him from his people and nobles; after the Harlows caused the death of Genn's wife [Mia](Mia Greymane) during a public event and led him to believe that Isiden Perenolde had caused the deaths of his son and daughter, he fell into despair and retired entirely from public view, leaving the Harlow siblings to rule Gilneas as Regent-Lords with Genn believed to be dead or incapacitated.<ref name="TheRebellion">[quest: The Rebellion]) (ref: 
+
+Deep in despair at the believed loss of his entire family, the once-proud Genn was a broken man easily directed by the Regent-Lords. After the Harlows began to follow the teachings of the worgen pricolich [Father Lycan](Father Lycan), they corrupted his retinue and court through vampiric blood magic, turning them to depraved consumption of flesh and blood. Under the Harlows' rule, a reign of tyranny ushered over Gilneas, and after being falsely accused of Mia's murder, Lord Darius Ravenwood rallied the support of the commonfolk and rose up against the oppressive regime, forming the Ravenwood Rebellion and beginning the [Gilnean civil war](Gilnean civil war).
+
+Eventually, the Greymane Wall was cracked open by members of the Ravenwood Rebellion, making the peninsula accessible once again to the outside world after over ten years. Seeking aid from the Alliance, [Lord Ivar Pyrewood](Lord Ivar Pyrewood) travelled to [Stormwind City](Stormwind City) to petition the nobles of Azeroth to their cause and to seek aid in locating and freeing Isiden Perenolde.<ref>[quest: Legacy of Perenolde]) The Gilneas Brigade, once stationed as part of the budding city-state of Theramore, redeployed back home upon hearing of the troubles that haunted their homeland. (ref: [quest: The Brigade is Coming Home]) On orders of [Highlord Bolvar Fordragon](Highlord Bolvar Fordragon), [Marshal Redpath](Marshal Redpath) of [Southshore](Southshore) sent all able-bodied soldiers and adventurers to lend assistance to the Ravenwood Rebellion in their struggle for the liberation of Gilneas. (ref: [quest: The Wall Comes Crashing Down])
+
+At the same time, a group of bandits loyal to the Forsaken led by the banshee-possessed bandit lord [Blackthorn](Blackthorn) infiltrated Gilneas to survey the situation, acquire assets for the Horde, and evaluate whether the area is suitable for exploitation by the Forsaken. (ref: [quest: To Gilneas]) Establishing [a camp](Blackthorn's Camp) by the western shores of Gilneas, the human bandits' living status made them more suited for blending in among other humans. One of their operatives infiltrated the [Shademore Tavern](Shademore Tavern) under the assumed name "[Greta Longpike](Greta Longpike)" to gather information. (ref: [quest: Rendezvous with the Infiltrator])
+
+Unknown to Genn, Liam and Tess had not died at sea with Isiden Perenolde. Liam and Tess were held in captivity at the [Dryrock Mine](Dryrock Mine); Tess had escaped captivity and sought out the [Pellars of Wolfswood](Pellars of Wolfswood), and Liam was rescued by adventurers sent by Lord Ravenwood, additionally securing an alliance with the [Lupine Coven](Lupine Coven) during his escape to Ravenshire. Rallying the remaining common folk of the lands, the rebellion took Gilneas City by storm to rescue their king and the Harlows were slain. However, after ascending [Greymane Tower](Greymane Tower) they found Genn at the pinnacle, long insane from despair, manipulation and blood magics. With his death, his son Liam was crowned as the new king of Gilneas. (ref: [quest: The Fall and Rise of Greymane])
+
+## Culture and people
+- The demonym used for the people of Gilneas is "Gilnean". (ref: 
+- While the [Holy Light](Holy Light) is the primary form of worship in Gilneas, an enigmatic order known as the [Pellars of Wolfswood](Pellars of Wolfswood) revere the old ways<ref>[Lurn Five-Pelts#Quotes](Lurn Five-Pelts#Quotes)), primarily the Wild God [Zalmos](Zalmos), known in Gilnean folklore as the Wolf Serpent. (ref: [quest: The Fallen Ancient])
+- Gilnean cooking is some of the finest in the world, though not all find their ingredients enjoyable. (ref: [Cook Harry#Quotes](Cook Harry#Quotes))
+- The raven serves as a timeless symbol of regal authority, reminding all of the lasting influence of House Greymane. (ref: [Gilnean Raven](https://database.turtle-wow.org/?item=69000))
+- The national emblem of Gilneas is presumed by Gilnean historians and archaeologists to have originated as a pre-Arathorian magic rune dedicated to a primitive god or being. (ref: [Chronicles of the National Emblem](Chronicles of the National Emblem))
+
+### Notable people
+### Notable leaders
+  -House Greymane**
+-  King [Garalon Greymane](Garalon Greymane)<sup>†</sup>
+-  King [Veren Greymane](Veren Greymane)<sup>†</sup>
+-  Queen [Elaena Greymane](Elaena Greymane)<sup>†</sup>
+-  King [Genn Greymane](Genn Greymane)<sup>†</sup>
+-  King [Liam Greymane](Liam Greymane)
+
+  -Other rulers**
+-  Regent-Lord [Mortimer Harlow](Mortimer Harlow)<sup>†</sup>
+-  Regent-Lady [Celia Harlow](Celia Harlow)<sup>†</sup>
+
+## Military
+Equipped in the finest mithril from the [Dryrock Mine](Dryrock Mine), (ref: [quest: Heist in Dryrock Mine]) the Royal Army has defended the borders of the kingdom of Gilneas for centuries, having been strong enough to even be considered a formidable entity in [Lordaeron](Lordaeron), as well as one of humanity's strongest nations, despite being much smaller than its [closest neighbor](Lordaeron (kingdom)). (ref: *Warcraft II: Tides of Darkness* manual, *[Nations of the Alliance](https://wowpedia.fandom.com/wiki/Warcraft_II:_Tides_of_Darkness_manual#Gilneas)*) Gilneas' military comprises not only footsoldiers and knights, but [Gelnor](Gelnor)ian gryphon riders both dwarves and men. (ref: [The Dwarves of Gelnor](The Dwarves of Gelnor)) The [Gilneas Brigade](Gilneas Brigade), a detachment of troops formed by Prince Liam and Lords [Ravenwood](Darius Ravenwood) and [Gerold](Gerold) to support Lady [Jaina Proudmoore](Jaina Proudmoore)'s human expedition to Kalimdor, fielded a great amount of Gelnorian dwarves in Stonetalon as riflemen and mortar operators. (ref: [Cry of the Warsong (WC3 Orc)](https://wowpedia.fandom.com/wiki/Cry_of_the_Warsong_(WC3_Orc))) 
+
+In addition to the Royal Army, Gilneas fields a fleet of mighty ships, the Black Fleet. First raised in honor of [Danavar](Danavar), a humble fisherman from the town of [Seahaven](Seahaven) that rallied a militia of fellow fishers to battle an invasion of Mur'guls in southern Gilneas, (ref: [The Tale of Warmongerer](The Tale of Warmongerer)) the Black Fleet primarily operated in the seas surrounding Gilneas; but in the aftermath of the Second War, King Genn sought to gain influence in Alterac so as to have an excuse to send Gilneas' mighty ships across the Great Sea. Gilnean ships having influence on Alteraci seas was enough of a concern to Lord Admiral Daelin Proudmoore, who was afraid that it would threaten Kul Tiras' naval sovereignty.
+
+## References

@@ -1,0 +1,20 @@
+---
+title: "Darkspear Trolls"
+url: "https://turtle-wow.fandom.com/wiki/Darkspear_Trolls"
+source_type: "community wiki (turtle-wow.fandom.com), not an official source"
+revision: "2025-12-08T20:50:15Z"
+fetched: "2026-09-10T07:38:36Z"
+is_turtle_content: false
+patch: null
+categories: []
+---
+# Darkspear Trolls
+
+Darkspear Trolls, the tribe of exiled trolls have joined forces with [Thrall](Thrall) and the Horde. They now call [Orgrimmar](Orgrimmar) their home, which they share with their orc allies.
+
+## History
+As tribal rivalries erupted throughout the former Gurubashi Empire, the Darkspear Tribe found themselves driven from their homeland in [Stranglethorn Vale](Stranglethorn Vale). Having settled in what are believed today to be the [Broken Isles](Broken Isles), the tribe soon found themselves entangled in a conflict with a band of [murlocs](murlocs). Their fate seemed sealed until the orcish Warchief [Thrall](Thrall) and his band of newly freed orcs took shelter on their island home. Controlled by a Sea Witch, a group of rampaging murlocs captured the Darkspears' leader [Sen'jin](Sen'jin), along with Thrall and several other orcs and trolls. Thrall managed to free himself and others, but was ultimately unable to save the trolls' leader. Although Sen'jin was sacrificed to the Sea Witch, he was able to reveal a vision he had in which Thrall would lead the Darkspear from the island. 
+
+After returning to the island, Thrall and his followers managed to fend off further attacks by the [Sea Witch](Sea Witch) and her murloc minions, and set sail for Kalimdor once again. Under the new leadership of Vol'jin, the Darkspear swore allegiance to Thrall's Horde and followed him to Kalimdor. Now considered enemies by all other trolls except the **[Revantusk](Revantusk)** and the **[Zandalari](Zandalari)**, the Darkspear are held in contempt to this day. Yet, the Darkspear have not forgotten being driven from their ancestral homes and this animosity is eagerly returned, especially towards the other jungle trolls. Having reached the orc's new homeland, [Durotar](Durotar), the trolls carved out another home for themselves - this time among the Echo Isles on the eastern shores of the new orc kingdom. 
+
+However, with the coming of [Kul Tiras](Kul Tiras) and its navy, the Darkspear were forced to retreat inland under the onslaught of the misguided commander [Daelin Proudmoore](Daelin Proudmoore). The trolls, fighting alongside their horde brethren, defeated the enemy and reclaimed their new homeland. Shortly thereafter, a witch doctor by the name of [Zalazane](Zalazane) began using dark magic to take the minds of his fellow Darkspear. As his army of mindless followers grew, Vol'jin ordered the free trolls to evacuate, and Zalazane took control of the Echo Isles. The Darkspear have since settled on the nearby shore, naming their new village after their old leader, Sen'jin. From [Sen'jin Village](Sen'jin Village) they, along with their allies, send forces to battle Zalazane and his enslaved army. (ref: http://www.worldofwarcraft.com/info/story/troll/jungletribes.html#darkspear)

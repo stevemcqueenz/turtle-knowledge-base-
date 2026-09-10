@@ -1,0 +1,32 @@
+---
+title: "Leechspore Shambler"
+url: "https://turtle-wow.fandom.com/wiki/Leechspore_Shambler"
+source_type: "community wiki (turtle-wow.fandom.com), not an official source"
+revision: "2026-05-08T19:25:06Z"
+fetched: "2026-09-10T07:39:08Z"
+is_turtle_content: true
+patch: "1.18.0"
+categories: ["Bog beasts", "Stormwrought Ruins mobs", "Turtle WoW content"]
+---
+# Leechspore Shambler
+
+| field | value |
+|---|---|
+| name | Leechspore Shambler |
+| image | Leechspore Shambler.png |
+| level | 34 - 35 |
+| type | Elite |
+| faction | Hostile |
+| aggro |  |
+| race | Bog beast |
+| creature | Elemental |
+| location | Stormwrought Ruins |
+| status | Killable |
+
+-Leechspore Shamblers** are [bog beast](bog beast)s located in [Stormwrought Ruins](Stormwrought Ruins).
+
+## Abilities
+- Regrowth
+
+## Patch changes
+- (Patch 1.18.0|note=Added.)
