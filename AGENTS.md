@@ -35,7 +35,7 @@ Post record (`structured/forum/posts/f<forum>[.partN].jsonl`): `post_id, url, au
 Topic record (`structured/forum/topics.jsonl`): `topic_id, forum_id, forum, listed_in_forum, title, url, author, author_id, author_authority, posted, last_post, post_count, pages, pages_fetched, fetched, era, staff_posts, extracted_path`.
 Authors (`structured/forum/authors.json`): username -> `{user_id, ranks[], colors[], posts, topics_started, authority, first_seen, last_seen}`.
 
-1.18.1 changes (`structured/patches/1.18.1-changes.yaml`): top-level `patch, name, announced, released, hotfix_maintenances[], status_legend, linked_changelogs, entries[]`; entry `id, system, subsystem, entity, entity_ids[], change, before, after, numbers, source_url, source_author, source_authority, source_date, status (announced|released|hotfixed|reverted|unclear), notes`. Systems: zones, dungeons, raids, quests-factions, classes, items, professions, pvp, race-class, systems-ui, challenges, general.
+1.18.1 changes (`structured/patches/1.18.1-changes.yaml`): top-level `patch, name, announced, released, hotfix_maintenances[], status_legend, linked_changelogs, entries[]`; entry `id, system, subsystem, entity, entity_ids[], change, before, after, numbers, source_url, source_author, source_authority, source_date, status (announced|released|hotfixed|reverted|unclear), notes`. Ids are descriptive slugs (e.g. `zone-moonwhisper-coast`, `class-hunter-aspect-of-the-viper`), not numbered; key any findings on the id string as written. Systems: zones, dungeons, raids, quests-factions, classes, items, professions, pvp, race-class, systems-ui, challenges, general.
 Turtle vs vanilla (`turtle-vs-vanilla.yaml`, list): `id (TVV-nnnn), system, subsystem, entity, entity_ids, introduced_in, change, before_vanilla, after, superseded_by, source_*, notes`. `timeline.yaml`: one row per patch with `version, name, date, forum_topic_id, url, headline_features`.
 Issues (`structured/issues.yaml` -> `entries[]`): `id (ISS-nnnn), title, symptom, reproduction, system, subsystem, entities[], entity_ids[], patch_reported, patch_fixed, era, status (open|confirmed|fixed|intended|unclear), status_source, severity (blocker|crash|exploit|major|minor|cosmetic), affects, reports[{url,author,authority,date,quote}], notes`.
 Contradictions (`structured/contradictions.yaml` -> `entries[]`): `id (CON-nnnn), system, topic, side_a/side_b(/side_c) {claim, author, authority, date, url}, what_would_settle_it, assessment, status, check_against_local_game_data (bool)`.
@@ -62,7 +62,11 @@ Talent links (`structured/talent-links.jsonl`): `url, class, code, post_id, post
 
 No source gives: spell/talent/item/NPC IDs (except as noted), stat weights for most specs, hit/crit/defense caps under Turtle's changed formulas, the honor-per-kill formula, creature stat curves, threat coefficients, per-class PvP dampening values, instance lockout timers except Lower Karazhan Halls, vendor inventories (the wiki's are placeholders), boss order in most custom instances, and any Onyxia/BWL 1.18.1 mechanic details beyond names. Each class README (`synthesis/classes/<class>/README.md`) and each content document ends with a gaps section; `synthesis/FINAL-REPORT.md` §4 collects them.
 
-## 5. Regenerating and validating
+## 5. Prompt for a local-server/bot agent
+
+`scrape/prompts/local-server-agent.md` is a ready-to-paste instruction for an agent with DBC and server access; it follows the order in §3 and specifies the `verification/` outputs.
+
+## 6. Regenerating and validating
 
 ```
 python3 scrape/validate.py            # every citation resolves, every data file parses

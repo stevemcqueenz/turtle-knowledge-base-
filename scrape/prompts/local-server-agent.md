@@ -33,7 +33,7 @@ Rules: never "fix" the server toward a player claim when a staff statement or th
 
 ## Outputs I want from you
 
-- `verification/findings.yaml`: one record per checked entry, keyed by the source id (`1181-…`, `TVV-…`, `CON-…`, `ISS-…`, instance id), with `result` (match | mismatch | not-found | intended | settled-side-a | settled-side-b), `local_value`, `source_value`, `table_or_dbc`, `row_id`, `checked_on`, `action` (none | fix | investigate) and a one-line note. Keep it machine-readable so it can be joined back to the repo files by id.
+- `verification/findings.yaml`: one record per checked entry, keyed by the source id exactly as written in the repo file (1.18.1 changes use descriptive slugs such as `zone-moonwhisper-coast`; Turtle-vs-vanilla uses `TVV-nnnn`; contradictions `CON-nnnn`; issues `ISS-nnnn`; instances their `id` slug), with `result` (match | mismatch | not-found | intended | settled-side-a | settled-side-b), `local_value`, `source_value`, `table_or_dbc`, `row_id`, `checked_on`, `action` (none | fix | investigate) and a one-line note. Keep it machine-readable so it can be joined back to the repo files by id.
 - `verification/fixes.md`: every change you make to the server database or config, with the finding id, the before and after values, and the source URL from the repo that justifies it.
 - Updated playbook YAML with `spell_id`s and decoded talent points, plus `structured/talent-links.decoded.jsonl`.
 - A short summary at the end: counts of match/mismatch/not-found per system, the ten most consequential mismatches, what the repo's sources could not settle, and what the bot module still lacks.
