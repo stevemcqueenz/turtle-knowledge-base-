@@ -1,0 +1,30 @@
+---
+title: "pfUI: Changing Font Size in Quest Dialogs / Questlog?"
+url: "https://forum.turtlecraft.gg/viewtopic.php?t=21260"
+topic_id: 21260
+forum_id: 18
+forum: "AddOns"
+author: "Songan"
+author_authority: "player"
+posted: "2025-08-21T13:50:00Z"
+last_post: "2025-08-21T13:50:00Z"
+post_count: 1
+pages: 1
+fetched: "2026-09-10T10:24:29Z"
+era: "pre-1.18.1"
+note: bold text marks names highlighted in the source; posts are in original order; times are UTC
+---
+
+# pfUI: Changing Font Size in Quest Dialogs / Questlog?
+
+## Post 147502 by Songan — 2025-08-21T13:50:00Z
+<!-- url: https://forum.turtlecraft.gg/viewtopic.php?p=147502#p147502 | page 1 | era: pre-1.18.1 -->
+
+Hey there,
+
+i cant find the option to lower the font size for the quest dialogs or the questlog. The font size is way to big.
+
+Help :)
+
+Songan
+

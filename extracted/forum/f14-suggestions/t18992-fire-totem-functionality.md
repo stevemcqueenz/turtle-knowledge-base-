@@ -1,0 +1,440 @@
+---
+title: "Fire totem functionality"
+url: "https://forum.turtlecraft.gg/viewtopic.php?t=18992"
+topic_id: 18992
+forum_id: 14
+forum: "Suggestions"
+author: "Krizpmango"
+author_authority: "player"
+posted: "2025-05-01T11:23:00Z"
+last_post: "2025-07-20T10:47:00Z"
+post_count: 28
+pages: 1
+fetched: "2026-09-10T11:24:26Z"
+era: "pre-1.18.1"
+note: bold text marks names highlighted in the source; posts are in original order; times are UTC
+---
+
+# Fire totem functionality
+
+## Post 129238 by Krizpmango — 2025-05-01T11:23:00Z
+<!-- url: https://forum.turtlecraft.gg/viewtopic.php?p=129238#p129238 | page 1 | era: pre-1.18.1 -->
+
+Hello   happy_turtle_head
+
+First a disclaimer. I go by Rinzu in the discord and in game and I am maining as Shaman Tank. My views will of course be influenced by this and additionally I don't have the most in depth game knowledge out there. Because of this is will draw on different resources and list them as is relevant.
+
+This post is mainly for the development team to consider, as it has been brought forward several times in the discord that the best way to propose changes or tweaks is by posting on the forums.
+
+The fire totems are a strange bunch of spells. I believe they are coded as minions/guardians and because of this they don't benefit from many of the stats of the shaman casting them. Here I am mainly thinking of spell hit and spell crit. Additionally they can't trigger on hit or on damage effect like Blade of Eternal Darknes (<https://database.turtlecraft.gg/?item=17780>) (BoED), Ornate Bloodstone Dagger (<https://database.turtlecraft.gg/?item=65004>) (OBD) or vampirism effects like Sigil of Leeching (<https://database.turtlecraft.gg/?item=61436>). This means that they are quite a bit worse than every other AoE spell in the game in that regard. Adding to this, the AoE spells of other classes have been buffed, the mana cost of Mage's Flamestrike ability has been reduced ([viewtopic.php?p=124511&hilit=flamestrike#p124511](https://forum.turtlecraft.gg/viewtopic.php?p=124511&hilit=flamestrike#p124511)), the spellpower coefficent of Paladin's Consecration ability has been almost tripled ([viewtopic.php?t=3334&sid=40ed2751b9cc13 ... 0a9da03640](https://forum.turtlecraft.gg/viewtopic.php?t=3334)) and melee Hunters have gotten the ability to use traps in combat as well as Attack Power scaling on said traps. It seems in this regard that the development team isn't dismissive of strengthening the AoE capabilities of certain classes.
+
+The fire totems (specifically the AoE totems Magma and Fire Nova) have the same SP coefficient as in classic it seems, based on testing both I and others have done, that being 32-33% over the entire duration for Magma Totem and 15-17% for Fire Nova Totem. Searing Totem has been doubled it seems to 16% (I am using this source for SP coefficients
+[embed: https://s9e.github.io/iframe/2/reddit.min.html#classicwow/comments/95abc8#theme=]
+This mirrors the SP coefficient of most other AoE spells in the game. This would seem fair and reasonable, until we take into account that the totems do not benefit from spell hit and crit. This means that they will miss much more than for example a Mage casting Blizzard or Flamestrike, a Priest casting Holy Nova or a Warlock casting Hellfire. Furthermore the tic rate of Magma totem is once every 2 seconds as opposed to the tic rate of Consecration, Blizzard and Hellfire which are all once every second. So on paper the total SP gain seems the same, yet the DPS is in reality halfed just by that alone. Fire Nova as well suffers. You could say it's instant cast. Which technically is true, yet it has a 5 second wind-up before actually dealing damage. Making it the slowest cast AoE spell in the game. All of this isn't even taking into account that the Shaman spec that uses SP (Elemental) has to stop casting and walk in range of the mob to even put down the totem in the first place. So the totems are in a weird place, are they Elemental or Enhance abilities? It would seem most obvious that they are meant for Enhance since they are already within striking distance of the enemy, but Enhance suffers from having basically 0 SP on their gear.
+
+What I am trying to convey here is that, the AoE fire totems are much weaker spells than any other AoE spell in the game. The only reason I see for keeping it this way is because the totems generate threat on their own and that this threat is not added to the threat of the shaman. Threat is one of the ways developers can balance damaging abilites, since going over threat means you won't be doing any damage for the rest of the fight.
+
+So, my solution to this problem would be to rework the talent "Totemic Alignment". This talent, while nice in theory, is in reality not worth the talent points for tanks, which are the only ones putting points into it. My rework would look like this:
+
+ 1/1 "Totemic Alignment" "Tethers the spirit of the shaman with their totemic creations. Transfer 100% of the threat generated by totems to the shaman. The spell power gain is doubled for Fire Nova and Magma totem and all totems benefit from spell hit and spell crit. They can now also trigger on-hit effects (BoED, OBD, vampirism)"
+
+I think this would solve what can be so frustrating about using the fire totems for all shaman specs at the same time, while still mirroring what balances the AoE of other classes. Namely, threat. This would also mean that the talent "Improved Fire Totems", which reduce the threat generated by Magma totem would be of use at end game. Effectively adding 2 new talents to the shaman without doing much.
+
+I hope this will be taken into consideration by the development team. You're all doing great work and feedback is only the sign of an engaged and caring community. We wouldn't feel so much about the game if it sucked. Keep it up!   turtle_in_love_head
+
+## Post 129250 by Healingrain — 2025-05-01T13:03:00Z
+<!-- url: https://forum.turtlecraft.gg/viewtopic.php?p=129250#p129250 | page 1 | era: pre-1.18.1 -->
+
+I want to add that totems not benefiting from spell hit and crit is a deviation from Vanilla balance. We have logs detailing 30+% crit rates on Searing Totem from world buffed Shamans on Classic Retail servers right now. There's a detailed bug report here; <https://turtlecraft.gg/bug-report?id=12275>
+
+Further it makes no sense that Elemental has talent support like Flame Guidance doubling the crit damage of Fire Totems when due to the lack of crit scaling the talent is an absolutely pathetic DPS boost. I'm talking like 2-3 DPS on Searing depending on enemy level for a Naxx level Ele when you math it out.
+
+I feel the ability most analogous to Magma Totem is Consecrate because they're both kind of "set and forget" AoE spells unlike something that requires constant channelling or GCD spam. But Consecrate is just superior in almost every respect; A coefficient that beats it several times over, ticks twice as often, it cannot be partially resisted, and it cannot be fully resisted. All it can do is Crit and Conc can't.
+
+An Elemental Shaman with both Call of Flame and Flame Guidance, casting Fire Nova and Magma perfectly on CD will lose in AoE DPS to a Prot Paladin Conc spam without Vengeance at around 400ish spellpower. A TANK SPEC is out-scaling a Caster DPS spec on AoE DPS. And if you're even thinking about Fire Totem AoE TPS for Shaman Tank you can just forget it, its even worse because of the threat modifier disparity. Im talking like needing 8 times the spellpower of a Paladin for similar TPS returns. It's a joke. The only thing keeping Shaman Tank AoE remotely relevant is Stoneclaw on top of it, which wont scale with gear at all.
+
+## Post 131946 by Krizpmango — 2025-05-19T13:22:00Z
+<!-- url: https://forum.turtlecraft.gg/viewtopic.php?p=131946#p131946 | page 1 | era: pre-1.18.1 -->
+
+Selfbump
+
+## Post 131971 by Steakhouse (Patch Note Conspiracy Theorist) — 2025-05-19T15:33:00Z
+<!-- url: https://forum.turtlecraft.gg/viewtopic.php?p=131971#p131971 | page 1 | era: pre-1.18.1 -->
+
+Great post ! I'd like to bring up two points though:
+ - triggering onhit effects would be too much. You don't want fire nova being able to proc WF or any other proc really, it'll scale too hard and be impossible to balance. It'll also turn shamans into "apply this on-hit debuff" machines.
+ - your new suggested effects for totem alignment are great in of themselves, in that they're desirable not just for shaman tanks, so tying them to the transferred threat from totemic alignment might not be desirable
+
+I agree with everything else youve said !
+
+## Post 132034 by Krizpmango — 2025-05-20T05:30:00Z
+<!-- url: https://forum.turtlecraft.gg/viewtopic.php?p=132034#p132034 | page 1 | era: pre-1.18.1 -->
+
+Thanks for the reply!
+ - Of course totems shouldn’t be able to trigger physical on hit effects. I do think, however, that they should be able to trigger spell on hit, like wrath of cenarion and blade of eternal darkness.
+ - Even though it seems like the threat transfer is aimed at strengthening tanks, it’s actually to balance the totems like the spells of other classes. Threat is one of the primary ways ability damage can be balanced.
+
+## Post 132036 by Atreidon (Grandmaster of Forum PvP) — 2025-05-20T05:42:00Z
+<!-- url: https://forum.turtlecraft.gg/viewtopic.php?p=132036#p132036 | page 1 | era: pre-1.18.1 -->
+
+Reading this post im torn. On one hand i'd love to see the firetotems buffed, on the other hand, totems not having a gcd means shaman has access to his full aoe while doing his regular single target rotation.
+
+I would be in favor of juicing them up to have proper aoe dmg numbers, but bring back gcd for magma searing and nova.
+If they are straight up regular dps spells, they do need a regular gcd
+
+Sure they causw threat for themselves which is an upside, but i dont think its as big of an upside as people think on shaman. If the totem rips threat and dies, you have to recast it, which is hardly beneficial. And if it has its own threat, that means shamans with his heavy armor and shield cant easily grab aoe threat off of other eager bomber classes.
+
+## Post 132037 by Krizpmango — 2025-05-20T06:03:00Z
+<!-- url: https://forum.turtlecraft.gg/viewtopic.php?p=132037#p132037 | page 1 | era: pre-1.18.1 -->
+
+Good point. Of course they should both be put back on the gcd, and just for clarities sake, nova already is.
+Speaking the threat part. It was never about the totems pulling aggro, but balancing the damaging abilities of shaman the same as other classes. Threat is a central part of dps balancing and having damage without threat is very strong, so if we're asking to buff the totems, that would have to be balanced some other way. I think threat is the best way to do it, both because it would bring the totems in line with other aoe spells, and because we actually have a tank spec that would really benefit from the increase to aoe threat.
+
+## Post 138344 by Krizpmango — 2025-07-07T10:14:00Z
+<!-- url: https://forum.turtlecraft.gg/viewtopic.php?p=138344#p138344 | page 1 | era: pre-1.18.1 -->
+
+I'll bump it again. Hoping to catch the eyes of the devs now that 1.18 is (hopefully) nearing
+
+## Post 138346 by Voodoochile (Patch Note Conspiracy Theorist) — 2025-07-07T10:33:00Z
+<!-- url: https://forum.turtlecraft.gg/viewtopic.php?p=138346#p138346 | page 1 | era: pre-1.18.1 -->
+
+I don't really agree with the premise that totems being treated as pets is a wholly bad aspect. Fire Totems for Ele shaman make up some 15% of their dps in pve on a typical solo mob and much more on aoe, depending on the pack between 25-80% of that Shaman's dmg. Tying dmg to the totem instead of the shaman alleviates the threat issue for both dps and heals. The fact that Totemic Alignment exists is a bandaid fix to give these totems value for tank.
+
+And keep in mind that Magma Totem can crit, unlike Blizzard, and again is not tied to the shaman meaning that they dont need to channel these fire abilties while they are dealing their damage. As said, they are effectively instant cast with delay. All of this contributes to the Shaman burst that Shaman is balanced around, and these aspects in particular are the most unique parts of shaman that differentiate themselves from other classes.
+
+By buffing these totems, you are essentially buffing Shaman's burst, which is already problematic with the exception of Searing Totem which, while a fine totem on Twow with high SP, could use a minor buff in the form of crit scaling OR hit scaling.
+
+To this end, I am opposed to buffing Magma and Nova in any meaningful way. However, the issue with Twow is their rampant powercreep that has plagued the server since CC2. So by taking a stance against buffing these totems, Shaman is essentially being left behind by the virtue of how much the other classes have gained in this regard.
+
+And with this in mind, Twow will always leave a bitter taste in my mouth because the issues caused by CC2 usually lead to fixes that require  the line of thought...: "What's one more change?"
+
+## Post 138385 by Cosmico (Patch Note Conspiracy Theorist) — 2025-07-07T19:32:00Z
+<!-- url: https://forum.turtlecraft.gg/viewtopic.php?p=138385#p138385 | page 1 | era: pre-1.18.1 -->
+
+> **Krizpmango wrote: Thu May 01, 2025 11:23 am**
+> Hello   happy_turtle_head
+>
+>  First a disclaimer. I go by Rinzu in the discord and in game and I am maining as Shaman Tank. My views will of course be influenced by this and additionally I don't have the most in depth game knowledge out there. Because of this is will draw on different resources and list them as is relevant.
+>
+>  This post is mainly for the development team to consider, as it has been brought forward several times in the discord that the best way to propose changes or tweaks is by posting on the forums.
+>
+>  The fire totems are a strange bunch of spells. I believe they are coded as minions/guardians and because of this they don't benefit from many of the stats of the shaman casting them. Here I am mainly thinking of spell hit and spell crit. Additionally they can't trigger on hit or on damage effect like Blade of Eternal Darknes (<https://database.turtlecraft.gg/?item=17780>) (BoED), Ornate Bloodstone Dagger (<https://database.turtlecraft.gg/?item=65004>) (OBD) or vampirism effects like Sigil of Leeching (<https://database.turtlecraft.gg/?item=61436>). This means that they are quite a bit worse than every other AoE spell in the game in that regard. Adding to this, the AoE spells of other classes have been buffed, the mana cost of Mage's Flamestrike ability has been reduced ([viewtopic.php?p=124511&hilit=flamestrike#p124511](https://forum.turtlecraft.gg/viewtopic.php?p=124511&hilit=flamestrike#p124511)), the spellpower coefficent of Paladin's Consecration ability has been almost tripled ([viewtopic.php?t=3334&sid=40ed2751b9cc13 ... 0a9da03640](https://forum.turtlecraft.gg/viewtopic.php?t=3334)) and melee Hunters have gotten the ability to use traps in combat as well as Attack Power scaling on said traps. It seems in this regard that the development team isn't dismissive of strengthening the AoE capabilities of certain classes.
+>
+>  The fire totems (specifically the AoE totems Magma and Fire Nova) have the same SP coefficient as in classic it seems, based on testing both I and others have done, that being 32-33% over the entire duration for Magma Totem and 15-17% for Fire Nova Totem. Searing Totem has been doubled it seems to 16% (I am using this source for SP coefficients
+> [embed: https://s9e.github.io/iframe/2/reddit.min.html#classicwow/comments/95abc8#theme=]
+>  This mirrors the SP coefficient of most other AoE spells in the game. This would seem fair and reasonable, until we take into account that the totems do not benefit from spell hit and crit. This means that they will miss much more than for example a Mage casting Blizzard or Flamestrike, a Priest casting Holy Nova or a Warlock casting Hellfire. Furthermore the tic rate of Magma totem is once every 2 seconds as opposed to the tic rate of Consecration, Blizzard and Hellfire which are all once every second. So on paper the total SP gain seems the same, yet the DPS is in reality halfed just by that alone. Fire Nova as well suffers. You could say it's instant cast. Which technically is true, yet it has a 5 second wind-up before actually dealing damage. Making it the slowest cast AoE spell in the game. All of this isn't even taking into account that the Shaman spec that uses SP (Elemental) has to stop casting and walk in range of the mob to even put down the totem in the first place. So the totems are in a weird place, are they Elemental or Enhance abilities? It would seem most obvious that they are meant for Enhance since they are already within striking distance of the enemy, but Enhance suffers from having basically 0 SP on their gear.
+>
+>  What I am trying to convey here is that, the AoE fire totems are much weaker spells than any other AoE spell in the game. The only reason I see for keeping it this way is because the totems generate threat on their own and that this threat is not added to the threat of the shaman. Threat is one of the ways developers can balance damaging abilites, since going over threat means you won't be doing any damage for the rest of the fight.
+>
+>  So, my solution to this problem would be to rework the talent "Totemic Alignment". This talent, while nice in theory, is in reality not worth the talent points for tanks, which are the only ones putting points into it. My rework would look like this:
+>
+>  1/1 "Totemic Alignment" "Tethers the spirit of the shaman with their totemic creations. Transfer 100% of the threat generated by totems to the shaman. The spell power gain is doubled for Fire Nova and Magma totem and all totems benefit from spell hit and spell crit. They can now also trigger on-hit effects (BoED, OBD, vampirism)"
+>
+>  I think this would solve what can be so frustrating about using the fire totems for all shaman specs at the same time, while still mirroring what balances the AoE of other classes. Namely, threat. This would also mean that the talent "Improved Fire Totems", which reduce the threat generated by Magma totem would be of use at end game. Effectively adding 2 new talents to the shaman without doing much.
+>
+>  I hope this will be taken into consideration by the development team. You're all doing great work and feedback is only the sign of an engaged and caring community. We wouldn't feel so much about the game if it sucked. Keep it up!   turtle_in_love_head
+
+A shaman with top armor and weapon deletes you from battleground with 4 hits, even 3 if you're going no buffs in a bad day. You want more enhancements?
+
+## Post 140447 by Krizpmango — 2025-07-19T10:39:00Z
+<!-- url: https://forum.turtlecraft.gg/viewtopic.php?p=140447#p140447 | page 1 | era: pre-1.18.1 -->
+
+> **Cosmico wrote: Mon Jul 07, 2025 7:32 pm**
+> A shaman with top armor and weapon deletes you from battleground with 4 hits, even 3 if you're going no buffs in a bad day. You want more enhancements?
+
+I don’t see what that has to do with my post?
+
+## Post 140449 by Krizpmango — 2025-07-19T10:52:00Z
+<!-- url: https://forum.turtlecraft.gg/viewtopic.php?p=140449#p140449 | page 1 | era: pre-1.18.1 -->
+
+> **Voodoochile wrote: Mon Jul 07, 2025 10:33 am**
+> I don't really agree with the premise that totems being treated as pets is a wholly bad aspect. Fire Totems for Ele shaman make up some 15% of their dps in pve on a typical solo mob and much more on aoe, depending on the pack between 25-80% of that Shaman's dmg. Tying dmg to the totem instead of the shaman alleviates the threat issue for both dps and heals. The fact that Totemic Alignment exists is a bandaid fix to give these totems value for tank.
+>
+>  And keep in mind that Magma Totem can crit, unlike Blizzard, and again is not tied to the shaman meaning that they dont need to channel these fire abilties while they are dealing their damage. As said, they are effectively instant cast with delay. All of this contributes to the Shaman burst that Shaman is balanced around, and these aspects in particular are the most unique parts of shaman that differentiate themselves from other classes.
+>
+>  By buffing these totems, you are essentially buffing Shaman's burst, which is already problematic with the exception of Searing Totem which, while a fine totem on Twow with high SP, could use a minor buff in the form of crit scaling OR hit scaling.
+>
+>  To this end, I am opposed to buffing Magma and Nova in any meaningful way. However, the issue with Twow is their rampant powercreep that has plagued the server since CC2. So by taking a stance against buffing these totems, Shaman is essentially being left behind by the virtue of how much the other classes have gained in this regard.
+>
+>  And with this in mind, Twow will always leave a bitter taste in my mouth because the issues caused by CC2 usually lead to fixes that require  the line of thought...: "What's one more change?"
+
+The fact that the crit and hit of the totems doesn’t work on turtle is actually a bug. There’s been made an extensive forum post about it. In classic the totems were affected by the stats of the shaman. So what I’m proposing is actually to “fix” the totems, so they work as they should, but bring the power level down by transferring the threat of the damage to the shaman in a PvE setting. As for PvP, the burst of shamans (which at this point is not the worst offender) is not tied to the totems either. You have a visual indication of where nova is placed and 5 seconds to get out of the way. You have no way of telling where a mage is casting flamestrike. So it has much easier counterplay.
+
+## Post 140463 by Voodoochile (Patch Note Conspiracy Theorist) — 2025-07-19T11:33:00Z
+<!-- url: https://forum.turtlecraft.gg/viewtopic.php?p=140463#p140463 | page 1 | era: pre-1.18.1 -->
+
+> **Krizpmango wrote: Sat Jul 19, 2025 10:52 am**
+> The fact that the crit and hit of the totems doesn’t work on turtle is actually a bug. There’s been made an extensive forum post about it. In classic the totems were affected by the stats of the shaman. So what I’m proposing is actually to “fix” the totems, so they work as they should, but bring the power level down by transferring the threat of the damage to the shaman in a PvE setting. As for PvP, the burst of shamans (which at this point is not the worst offender) is not tied to the totems either. You have a visual indication of where nova is placed and 5 seconds to get out of the way. You have no way of telling where a mage is casting flamestrike. So it has much easier counterplay.
+
+> And keep in mind that Magma Totem can crit and again is not tied to the shaman meaning that they dont need to channel these fire abilties while they are dealing their damage. As said, they are effectively instant cast with delay. All of this contributes to the Shaman burst that Shaman is balanced around, and these aspects in particular are the most unique parts of shaman that differentiate themselves from other classes.
+
+The fact that it takes 4 seconds to wind up is not relevant, but, assuming that it was, talents allow that to be dropped to 2 seconds and it is still instant cast. Meaning that you can cast CL or LB while it winds up into a instant shock cast the millisecond the CL/LB cast ends doing something like 1500 dmg in the window of 1 second with base numbers.
+
+And the fact that the totem are bugged and not deliberately lacking scaling is also not relevant because it's been that way for a long time on this server. The class functions fine without the scaling, and the twow team implicitly agrees on that in their choice to leave it unaffected. Itemization and class buffs have increased Shaman's power level to the point where it doesn't need these type of buffs.
+
+Shaman threat is already high as it is despite being a middling set of dps specs, but you propose turning Totemic Alignment into an absurd talent that more than triples fire totem value while also making it them give 100% of threat directly to the shaman? Being able to proc on-spell-hit effects would be absolutely insane in tandem with crit, hit, scaling reintroduced and doubled sp coefficient. There would be no reason to not take this as every single spec with how strong this would make fire totems, and at the same time it would hard punish both the Shaman and their group with ridiculous threat. This talent alone would make Shaman never have to question if they are going to have aggro or not.
+
+## Post 140482 by Krizpmango — 2025-07-19T12:46:00Z
+<!-- url: https://forum.turtlecraft.gg/viewtopic.php?p=140482#p140482 | page 1 | era: pre-1.18.1 -->
+
+> **Voodoochile wrote: Sat Jul 19, 2025 11:33 am**
+> The fact that it takes 4 seconds to wind up is not relevant, but, assuming that it was, talents allow that to be dropped to 2 seconds and it is still instant cast. Meaning that you can cast CL or LB while it winds up into a instant shock cast the millisecond the CL/LB cast ends doing something like 1500 dmg in the window of 1 second with base numbers.
+>
+>  And the fact that the totem are bugged and not deliberately lacking scaling is also not relevant because it's been that way for a long time on this server. The class functions fine without the scaling, and the twow team implicitly agrees on that in their choice to leave it unaffected. Itemization and class buffs have increased Shaman's power level to the point where it doesn't need these type of buffs.
+>
+>  Shaman threat is already high as it is despite being a middling set of dps specs, but you propose turning Totemic Alignment into an absurd talent that more than triples fire totem value while also making it them give 100% of threat directly to the shaman? Being able to proc on-spell-hit effects would be absolutely insane in tandem with crit, hit, scaling reintroduced and doubled sp coefficient. There would be no reason to not take this as every single spec with how strong this would make fire totems, and at the same time it would hard punish both the Shaman and their group with ridiculous threat. This talent alone would make Shaman never have to question if they are going to have aggro or not.
+
+Pointing to how other spells interact to make ele shaman a bursty class doesn’t really add anything to how fire totems should or should not function. You have POM pyroblast mage as well? I’m not saying that the general burstiness couldn’t take with being brought down a peg or two, it could, and it seems the devs is working to make that happen.
+
+I would much rather have spells with the same kind of scaling as literally EVERY other aoe spell in the game, except those that are better, and if the base damage + scaling is too much, then rather bring the base damage down than remove the scaling. You are not pointing to how other spells behave, right? Are you also making the point that all other hit, crit and sp scaling of all other aoe spells should be removed, because it would be a more balanced experience?
+
+Saying that this change would be like “tripling” fire totems value seems extremely hyperbolic. I honestly don’t even know what to say to that. As for if this would make shaman aoe tanking “the best”, I promise you it wouldn’t. Did you read my original post, where I point out that consecration has almost 100% sp scaling over the duration the spell? I’m simply proposing to make totems behave like all other aoe spells in the game behave, and under the same set of rules as the spells of other classes. If it is to powerful, then rather bring the base damage down and have scaling, to make it more valuable as you progress through the content.
+
+## Post 140499 by Cosmico (Patch Note Conspiracy Theorist) — 2025-07-19T14:53:00Z
+<!-- url: https://forum.turtlecraft.gg/viewtopic.php?p=140499#p140499 | page 1 | era: pre-1.18.1 -->
+
+> **Krizpmango wrote: Sat Jul 19, 2025 10:39 am**
+> > **Cosmico wrote: Mon Jul 07, 2025 7:32 pm**
+> > A shaman with top armor and weapon deletes you from battleground with 4 hits, even 3 if you're going no buffs in a bad day. You want more enhancements?
+>
+>   I don’t see what that has to do with my post?
+
+So you don't see how broken your class is and how much this looks as if you were asking for more buffs right?
+
+## Post 140515 by Krizpmango — 2025-07-19T17:42:00Z
+<!-- url: https://forum.turtlecraft.gg/viewtopic.php?p=140515#p140515 | page 1 | era: pre-1.18.1 -->
+
+> **Cosmico wrote: Sat Jul 19, 2025 2:53 pm**
+> > **Krizpmango wrote: Sat Jul 19, 2025 10:39 am**
+> > > **Cosmico wrote: Mon Jul 07, 2025 7:32 pm**
+> > > A shaman with top armor and weapon deletes you from battleground with 4 hits, even 3 if you're going no buffs in a bad day. You want more enhancements?
+> >
+> >   I don’t see what that has to do with my post?
+>
+>   So you don't see how broken your class is and how much this looks as if you were asking for more buffs right?
+
+I’m sorry, but you’re kind of missing the target.
+
+## Post 140518 by Voodoochile (Patch Note Conspiracy Theorist) — 2025-07-19T18:28:00Z
+<!-- url: https://forum.turtlecraft.gg/viewtopic.php?p=140518#p140518 | page 1 | era: pre-1.18.1 -->
+
+> **Krizpmango wrote: Sat Jul 19, 2025 12:46 pm**
+> > **Voodoochile wrote: Sat Jul 19, 2025 11:33 am**
+> > The fact that it takes 4 seconds to wind up is not relevant, but, assuming that it was, talents allow that to be dropped to 2 seconds and it is still instant cast. Meaning that you can cast CL or LB while it winds up into a instant shock cast the millisecond the CL/LB cast ends doing something like 1500 dmg in the window of 1 second with base numbers.
+> >
+> >  And the fact that the totem are bugged and not deliberately lacking scaling is also not relevant because it's been that way for a long time on this server. The class functions fine without the scaling, and the twow team implicitly agrees on that in their choice to leave it unaffected. Itemization and class buffs have increased Shaman's power level to the point where it doesn't need these type of buffs.
+> >
+> >  Shaman threat is already high as it is despite being a middling set of dps specs, but you propose turning Totemic Alignment into an absurd talent that more than triples fire totem value while also making it them give 100% of threat directly to the shaman? Being able to proc on-spell-hit effects would be absolutely insane in tandem with crit, hit, scaling reintroduced and doubled sp coefficient. There would be no reason to not take this as every single spec with how strong this would make fire totems, and at the same time it would hard punish both the Shaman and their group with ridiculous threat. This talent alone would make Shaman never have to question if they are going to have aggro or not.
+>
+>   Pointing to how other spells interact to make ele shaman a bursty class doesn’t really add anything to how fire totems should or should not function. You have POM pyroblast mage as well? I’m not saying that the general burstiness couldn’t take with being brought down a peg or two, it could, and it seems the devs is working to make that happen.
+>
+>  I would much rather have spells with the same kind of scaling as literally EVERY other aoe spell in the game, except those that are better, and if the base damage + scaling is too much, then rather bring the base damage down than remove the scaling. You are not pointing to how other spells behave, right? Are you also making the point that all other hit, crit and sp scaling of all other aoe spells should be removed, because it would be a more balanced experience?
+>
+>  Saying that this change would be like “tripling” fire totems value seems extremely hyperbolic. I honestly don’t even know what to say to that. As for if this would make shaman aoe tanking “the best”, I promise you it wouldn’t. Did you read my original post, where I point out that consecration has almost 100% sp scaling over the duration the spell? I’m simply proposing to make totems behave like all other aoe spells in the game behave, and under the same set of rules as the spells of other classes. If it is to powerful, then rather bring the base damage down and have scaling, to make it more valuable as you progress through the content.
+
+It IS tripling the value. You want to double the sp scaling, increase threat generation from the talent by 50% of its current value, and you want it to scale with spell hit AND spell crit. AND you want it to proc on-spellhit effects.
+
+Just because something CAN work like another class's kit DOESNT mean it SHOULD. Shamans are balanced around their lack of strong aoe, their lack of cc, their threat issue, and their mana issues. Just because Mage has a polymorph doesnt mean that Hex should last a minute and have no cd. Just because Blizzard has an enhanced slow doesnt mean that Earthbind totem needs one. Just because Holy Nova can proc on-spellhit effects doesnt mean that Fire Nova has to. THAT was why I brought up why the crit/hit bug wasnt fixed in all this time because Shaman is in a good state number-wise.
+
+And balance is even beside the fact that Shaman is a completely separate class, and separate classes need uniqueness. A Magma Totem is not a Blizzard is not a Hellfire is not a Consecrate. Like I already said, Shaman does not need to commit with his fire totems. They are instacast and he can walk away while still allowing his totem to do damage. Mage and Warlock both need to fully commit to a channel to get their damage off and Paladin doesnt have a viable spell dmg spec anymore so giving them that scaling means they are essentially fully committing to "I do alot of aoe damage specifically". But Shaman? Literally everything scales with SP except for SS.
+
+And at no point did I say that it would make Shaman Tanking the best Tank because this proposal legitimately doesnt answer any of Shaman's actual problems as a tank. It would only make them better at threat and dps, something they are ALREADY exceptional at.
+
+I said that what you are proposing would literally be too good for any shaman spec to pass up. It literally gives the totems more value than enhanced flametongue imbue + Call of Flame combined.
+
+## Post 140520 by Cosmico (Patch Note Conspiracy Theorist) — 2025-07-19T18:56:00Z
+<!-- url: https://forum.turtlecraft.gg/viewtopic.php?p=140520#p140520 | page 1 | era: pre-1.18.1 -->
+
+> **Krizpmango wrote: Sat Jul 19, 2025 5:42 pm**
+> > **Cosmico wrote: Sat Jul 19, 2025 2:53 pm**
+> > > **Krizpmango wrote: Sat Jul 19, 2025 10:39 am**
+> > > I don’t see what that has to do with my post?
+> >
+> >   So you don't see how broken your class is and how much this looks as if you were asking for more buffs right?
+>
+>   I’m sorry, but you’re kind of missing the target.
+
+May do you explain better what you mean?
+
+## Post 140523 by Krizpmango — 2025-07-19T19:22:00Z
+<!-- url: https://forum.turtlecraft.gg/viewtopic.php?p=140523#p140523 | page 1 | era: pre-1.18.1 -->
+
+> **Cosmico wrote: Sat Jul 19, 2025 6:56 pm**
+> > **Krizpmango wrote: Sat Jul 19, 2025 5:42 pm**
+> > > **Cosmico wrote: Sat Jul 19, 2025 2:53 pm**
+> > > So you don't see how broken your class is and how much this looks as if you were asking for more buffs right?
+> >
+> >   I’m sorry, but you’re kind of missing the target.
+>
+>   May do you explain better what you mean?
+
+Nowhere did I state that I think shaman shouldn’t be balanced, did I? I did even explicitly state that this idea is for pve, as threat doesn’t exist in PvP. I have also said in another reply that twow PvP right now seems way to bursty, and that I’m a proponent of balancing spells and classes to make for engaging gameplay. What I am saying, is that I think balancing should happen the same across classes and spells, and that it is fundamentally flawed design to have a system like the current fire totems that do not scale in a meaningful way, does not benefit from the stats of the caster like literally all other spells in the game, and that the talent “totemic alignment” is stillborn, it is inconsequential for the spec it was designed for and I propose a way to make it more useful for tanks as well as make totems behave the same as other aoe spells, so they can be better balanced.
+
+## Post 140529 by Krizpmango — 2025-07-19T20:10:00Z
+<!-- url: https://forum.turtlecraft.gg/viewtopic.php?p=140529#p140529 | page 1 | era: pre-1.18.1 -->
+
+> **Voodoochile wrote: Sat Jul 19, 2025 6:28 pm**
+> > **Krizpmango wrote: Sat Jul 19, 2025 12:46 pm**
+> > > **Voodoochile wrote: Sat Jul 19, 2025 11:33 am**
+> > > The fact that it takes 4 seconds to wind up is not relevant, but, assuming that it was, talents allow that to be dropped to 2 seconds and it is still instant cast. Meaning that you can cast CL or LB while it winds up into a instant shock cast the millisecond the CL/LB cast ends doing something like 1500 dmg in the window of 1 second with base numbers.
+> > >
+> > >  And the fact that the totem are bugged and not deliberately lacking scaling is also not relevant because it's been that way for a long time on this server. The class functions fine without the scaling, and the twow team implicitly agrees on that in their choice to leave it unaffected. Itemization and class buffs have increased Shaman's power level to the point where it doesn't need these type of buffs.
+> > >
+> > >  Shaman threat is already high as it is despite being a middling set of dps specs, but you propose turning Totemic Alignment into an absurd talent that more than triples fire totem value while also making it them give 100% of threat directly to the shaman? Being able to proc on-spell-hit effects would be absolutely insane in tandem with crit, hit, scaling reintroduced and doubled sp coefficient. There would be no reason to not take this as every single spec with how strong this would make fire totems, and at the same time it would hard punish both the Shaman and their group with ridiculous threat. This talent alone would make Shaman never have to question if they are going to have aggro or not.
+> >
+> >   Pointing to how other spells interact to make ele shaman a bursty class doesn’t really add anything to how fire totems should or should not function. You have POM pyroblast mage as well? I’m not saying that the general burstiness couldn’t take with being brought down a peg or two, it could, and it seems the devs is working to make that happen.
+> >
+> >  I would much rather have spells with the same kind of scaling as literally EVERY other aoe spell in the game, except those that are better, and if the base damage + scaling is too much, then rather bring the base damage down than remove the scaling. You are not pointing to how other spells behave, right? Are you also making the point that all other hit, crit and sp scaling of all other aoe spells should be removed, because it would be a more balanced experience?
+> >
+> >  Saying that this change would be like “tripling” fire totems value seems extremely hyperbolic. I honestly don’t even know what to say to that. As for if this would make shaman aoe tanking “the best”, I promise you it wouldn’t. Did you read my original post, where I point out that consecration has almost 100% sp scaling over the duration the spell? I’m simply proposing to make totems behave like all other aoe spells in the game behave, and under the same set of rules as the spells of other classes. If it is to powerful, then rather bring the base damage down and have scaling, to make it more valuable as you progress through the content.
+>
+>  It IS tripling the value. You want to double the sp scaling, increase threat generation from the talent by 50% of its current value, and you want it to scale with spell hit AND spell crit. AND you want it to proc on-spellhit effects.
+>
+>  Just because something CAN work like another class's kit DOESNT mean it SHOULD. Shamans are balanced around their lack of strong aoe, their lack of cc, their threat issue, and their mana issues. Just because Mage has a polymorph doesnt mean that Hex should last a minute and have no cd. Just because Blizzard has an enhanced slow doesnt mean that Earthbind totem needs one. Just because Holy Nova can proc on-spellhit effects doesnt mean that Fire Nova has to. THAT was why I brought up why the crit/hit bug wasnt fixed in all this time because Shaman is in a good state number-wise.
+>
+>  And balance is even beside the fact that Shaman is a completely separate class, and separate classes need uniqueness. A Magma Totem is not a Blizzard is not a Hellfire is not a Consecrate. Like I already said, Shaman does not need to commit with his fire totems. They are instacast and he can walk away while still allowing his totem to do damage. Mage and Warlock both need to fully commit to a channel to get their damage off and Paladin doesnt have a viable spell dmg spec anymore so giving them that scaling means they are essentially fully committing to "I do alot of aoe damage specifically". But Shaman? Literally everything scales with SP except for SS.
+>
+>  And at no point did I say that it would make Shaman Tanking the best Tank because this proposal legitimately doesnt answer any of Shaman's actual problems as a tank. It would only make them better at threat and dps, something they are ALREADY exceptional at.
+>
+>  I said that what you are proposing would literally be too good for any shaman spec to pass up. It literally gives the totems more value than enhanced flametongue imbue + Call of Flame combined.
+
+What I want is the AoE spells of shaman to function like every other AoE spell in the game. There is not a single other spell in the game that does not benefit from the stats of the caster. All other spells benefit from spell hit. I outlined the sp scaling and what it averages to in terms of increased DPS in my post and if the spell can crit, it benefits from the spell crit of the caster. If triggering on-spell-hit effects is too much, let that show in actual playing, but i can not see how stats like Vampirism shouldn't be triggered, it does it for literally every other spell in the game. The reason I say to transfer 100% of the threat is to, again, bring the totems in line with the functionality of every other spell in the game.
+
+I am also not saying that all classes should be equal. But it's a hard buy when you compare the shaman "balance" to the mage "balance". Check the logs post cc2 and see where shaman lands. Totems function differently from other spells in how they are executed, that is true. You can put them down and walk away. That also means though, that you have to get in range of the mob to actually have the totem do damage. That means it can be killed in a PvP setting. The spell closest in functionality to at least magma totem is consecration, and I think I outlined pretty well the stark differences between those 2.
+
+Now that we talk about what shaman tank lacks, I'll give my 2 cents. The threat of shaman tank is fine. Bear beats it and it isn't even close. Pala can take over, at least in the beginning and until both are at near bis. Warrior has the most incredible toolbox of all the tanks. All the other tank classes have tools to effectively manage big packs. Bear and Warrior has an AoE taunt and Pala has absolutely unbeatable AoE threat. Shaman has nothing. That is one of the things shaman tank lacks. All other tank classes also have defensive cooldowns, something else shaman tank lacks. Shaman tank does not lack mitigation in general.
+
+How is making the fire totems function the same as, i say it again, literally every other spell in the game, so gamebreakingly overpowered that every single shaman needs to take the talent? I am not saying to raise the base damage, I'm saying to increase the scaling so it equals the same DPS gain as other spells. However if that turns out to be too much, simply reduce the scaling or reduce the base damage of the spells.
+
+## Post 140547 by Voodoochile (Patch Note Conspiracy Theorist) — 2025-07-19T22:06:00Z
+<!-- url: https://forum.turtlecraft.gg/viewtopic.php?p=140547#p140547 | page 1 | era: pre-1.18.1 -->
+
+> **Krizpmango wrote: Sat Jul 19, 2025 8:10 pm**
+> I am also not saying that all classes should be equal. But it's a hard buy when you compare the shaman "balance" to the mage "balance". Check the logs post cc2 and see where shaman lands.
+
+Alright, show me some logs that also include the spread of dmg by spells for shaman. Also as a side note, Mages are a dedicated dps class, Shaman are a hybrid class. A balanced classic experience would not have the avg Shaman outperforming the avg Mage.
+
+> **Krizpmango wrote: Sat Jul 19, 2025 8:10 pm**
+> What I want is the AoE spells of shaman to function like every other AoE spell in the game. There is not a single other spell in the game that does not benefit from the stats of the caster. All other spells benefit from spell hit. I outlined the sp scaling and what it averages to in terms of increased DPS in my post and if the spell can crit, it benefits from the spell crit of the caster. If triggering on-spell-hit effects is too much, let that show in actual playing, but i can not see how stats like Vampirism shouldn't be triggered, it does it for literally every other spell in the game. The reason I say to transfer 100% of the threat is to, again, bring the totems in line with the functionality of every other spell in the game.
+>
+>  I am also not saying that all classes should be equal. But it's a hard buy when you compare the shaman "balance" to the mage "balance". Check the logs post cc2 and see where shaman lands. Totems function differently from other spells in how they are executed, that is true. You can put them down and walk away. That also means though, that you have to get in range of the mob to actually have the totem do damage. That means it can be killed in a PvP setting. The spell closest in functionality to at least magma totem is consecration, and I think I outlined pretty well the stark differences between those 2.
+
+Except that shaman is not a cloth wearing caster, and these changes are not even meant for caster shaman which is clear that there has been no thought into how it would affect the other specs. The closest spell to Magma Totem would actually be Hellfire which does have 33% sp scaling, except that Warlocks:
+ 1) Have to channel for its entire duration
+ 2) Trade their own health for dmg
+ 3) Cannot crit
+
+The explosion totems exist as an extra fuck you to armored melee classes in pvp. It is not a hindrance by design, it is made to function by design along with Shaman wearing mail and shields and having WF.
+
+> **Krizpmango wrote: Sat Jul 19, 2025 8:10 pm**
+> How is making the fire totems function the same as, i say it again, literally every other spell in the game, so gamebreakingly overpowered that every single shaman needs to take the talent? I am not saying to raise the base damage, I'm saying to increase the scaling so it equals the same DPS gain as other spells. However if that turns out to be too much, simply reduce the scaling or reduce the base damage of the spells.
+
+My brother in christ, with 537sp (Naxx gear) + Call of Flame my Fire Nova is doing 600dmg per target instacast, and I can immediately follow it up with my Magma totem which does 105dmg per tick per target which is also instcast and does not require a channel. **AND** they can crit for double dmg. 1200dmg per target on a crit on Fire Nova and 210dmg per target on crit with Magma Totem.
+
+And with your talent my totem would increase Nova's dmg per target by 80 with my stats and make it crit 19% of the time unbuffed from how it is now (5%?). And for Magma Totem that would **avg** out to about 2 ticks per cast being crits giving it an **average** of 210 bonus damage. And Searing Totem would also get that crit scaling, and my totem is doing avg 155dmg per cast and out of 36 casts throughout its duration means that you are getting an avg of ~7 crits per cast totaling at 1085 dmg from crits on a avg per Searing Totem.
+
+Mind you that Call of Flames, a 3 cost talent in the 4th row of the Elemental tree only gives Searing Totem an additional 712dmg throughout its duration with Naxx gear.
+
+So yes, just taking crit scaling into consideration, this talent would be absolutely insane, and the fact that it is in the 2nd row and 2 cost would be even more insane. And again, this change wouldn't even answer any of Shaman's problems, it would just make them ridiculous.
+
+## Post 140557 by Krizpmango — 2025-07-19T23:03:00Z
+<!-- url: https://forum.turtlecraft.gg/viewtopic.php?p=140557#p140557 | page 1 | era: pre-1.18.1 -->
+
+> **Voodoochile wrote: Sat Jul 19, 2025 10:06 pm**
+> Alright, show me some logs that also include the spread of dmg by spells for shaman. Also as a side note, Mages are a dedicated dps class, Shaman are a hybrid class. A balanced classic experience would not have the avg Shaman outperforming the avg Mage.
+
+This is honestly a tired old argument that says nothing. You know that no class ever actually performs as a hybrid but always as a "pure" spec, either DPS, tank or healer. So the "hybrid tax" is for solo play, which very little of the end game consists of.
+
+> **Voodoochile wrote: Sat Jul 19, 2025 10:06 pm**
+> Except that shaman is not a cloth wearing caster, and these changes are not even meant for caster shaman which is clear that there has been no thought into how it would affect the other specs. The closest spell to Magma Totem would actually be Hellfire which does have 33% sp scaling, except that Warlocks:
+>  1) Have to channel for its entire duration
+>  2) Trade their own health for dmg
+>  3) Cannot crit
+
+Hellfire tics every second, so the dps increase from sp scaling is double that of magma totem. I point to consecration because it is an AoE ability, that is put down at a certain place and where the caster can then move freely around without disrupting the spell. If crit turns out to be a huge problem, then have them not be able to crit? I have not at any point said that the class shouldn't be balanced.
+
+> **Voodoochile wrote: Sat Jul 19, 2025 10:06 pm**
+> My brother in christ, with 537sp (Naxx gear) + Call of Flame my Fire Nova is doing 600dmg per target instacast, and I can immediately follow it up with my Magma totem which does 105dmg per tick per target which is also instcast and does not require a channel. **AND** they can crit for double dmg. 1200dmg per target on a crit on Fire Nova and 210dmg per target on crit with Magma Totem.
+>
+>  And with your talent my totem would increase Nova's dmg per target by 80 with my stats and make it crit 19% of the time unbuffed from how it is now (5%?). And for Magma Totem that would **avg** out to about 2 ticks per cast being crits giving it an **average** of 210 bonus damage. And Searing Totem would also get that crit scaling, and my totem is doing avg 155dmg per cast and out of 36 casts throughout its duration means that you are getting an avg of ~7 crits per cast totaling at 1085 dmg from crits on a avg per Searing Totem.
+>
+>  Mind you that Call of Flames, a 3 cost talent in the 4th row of the Elemental tree only gives Searing Totem an additional 712dmg throughout its duration with Naxx gear.
+>
+>  So yes, just taking crit scaling into consideration, this talent would be absolutely insane, and the fact that it is in the 2nd row and 2 cost would be even more insane. And again, this change wouldn't even answer any of Shaman's problems, it would just make them ridiculous.
+
+Again, if having an actual scaling crit turns out to be a problem, then remove it. I think you've misunderstood what it is i'm proposing. I'm in no way married to the talent idea, what i want is spells that function in the same basic ways ie scaling from the stats of the caster and impacting the threat of the caster. If it were up to me it wouldn't even be tied to a talent, but made baseline. The reason I propose to make it Totemic Alignment is because elemental already has very strong AoE in chain lightning, and enhance has nothing. They are also the ones in range of the enemies and so letting them benefit the easiest from improved fire totems would make sense, they also have the improved fire damage from Elemental Weapons. But since it also has usefulness for elemental, you could have it stay where it is. You could also move it down the tree, if it was too powerful for elemental. Resto tree has some very beneficial talents for elemental, so if they also wanted to get alignemnt, they would have to sacrifice power elsewhere. Even moreso if the talent was moved further down the tree.
+
+## Post 140564 by Voodoochile (Patch Note Conspiracy Theorist) — 2025-07-20T00:11:00Z
+<!-- url: https://forum.turtlecraft.gg/viewtopic.php?p=140564#p140564 | page 1 | era: pre-1.18.1 -->
+
+> **Krizpmango wrote: Sat Jul 19, 2025 11:03 pm**
+> This is honestly a tired old argument that says nothing. You know that no class ever actually performs as a hybrid but always as a "pure" spec, either DPS, tank or healer. So the "hybrid tax" is for solo play, which very little of the end game consists of.
+
+You fundamentally don't understand the hybrid issue. Solo and dungeon content is where hybrids thrive becuase of their diverse kits. Hybrid tax only truly applies to raid content where there an abundance of each role and having someone who can do multiple things is not as valuable as having a person who can do 1 thing exceptionally well.
+
+> **Krizpmango wrote: Sat Jul 19, 2025 11:03 pm**
+> Hellfire tics every second, so the dps increase from sp scaling is double that of magma totem. I point to consecration because it is an AoE ability, that is put down at a certain place and where the caster can then move freely around without disrupting the spell. If crit turns out to be a huge problem, then have them not be able to crit? I have not at any point said that the class shouldn't be balanced.
+
+Consecrate also has an 8 second cooldown and can't be replaced quickly if their target moves. And you want spells to function the same, but now propose no crits at all for these totems? What is wrong with how they work right now that the numbers are actually functional? You are literally just trying to homogenize these totems just for that sake, and buff Shaman's threat for its own sake as well. Why change what doesn't need to be changed to begin with? It isn't even like Shaman aoe is bad.
+
+> **Krizpmango wrote: Sat Jul 19, 2025 11:03 pm**
+> Again, if having an actual scaling crit turns out to be a problem, then remove it. I think you've misunderstood what it is i'm proposing. I'm in no way married to the talent idea, what i want is spells that function in the same basic ways ie scaling from the stats of the caster and impacting the threat of the caster. If it were up to me it wouldn't even be tied to a talent, but made baseline. **The reason I propose to make it Totemic Alignment is because elemental already has very strong AoE in chain lightning, and enhance has nothing.** They are also the ones in range of the enemies and so letting them benefit the easiest from improved fire totems would make sense, they also have the improved fire damage from Elemental Weapons. But since it also has usefulness for elemental, you could have it stay where it is. You could also move it down the tree, if it was too powerful for elemental. Resto tree has some very beneficial talents for elemental, so if they also wanted to get alignemnt, they would have to sacrifice power elsewhere. Even moreso if the talent was moved further down the tree.
+
+Ele has good 3 target aoe, but fire totems are actually the strongest for Enhance because of Elemental weapons giving a flat 30% dmg bonus to all fire totems and spells, literally double the bonus from Ele's fire totem talents and ignorant of its SP scaling and crit scaling meaning there is no lost value for enh. Not only that, but Chain Lightning also has high base damage and worse SP scaling than LB, as well. Again, only emphasizing how little gap there is in the spec's AoE damage, with the only exception being that Enh is almost always in range to benefit from these totems being off CD and them having no cast time and Magma Totem being able to be recast at any time should their targets move.
+
+And Ele can't even get any meaningful value out of Elemental Weapons without sacrificing LB and CL cast time, which would hurt their dps far more.
+
+## Post 140565 by Cosmico (Patch Note Conspiracy Theorist) — 2025-07-20T00:37:00Z
+<!-- url: https://forum.turtlecraft.gg/viewtopic.php?p=140565#p140565 | page 1 | era: pre-1.18.1 -->
+
+> **Krizpmango wrote: Sat Jul 19, 2025 7:22 pm**
+> Nowhere did I state that I think shaman shouldn’t be balanced, did I? I did even explicitly state that this idea is for pve, as threat doesn’t exist in PvP. I have also said in another reply that twow PvP right now seems way to bursty, and that I’m a proponent of balancing spells and classes to make for engaging gameplay. What I am saying, is that I think balancing should happen the same across classes and spells, and that it is fundamentally flawed design to have a system like the current fire totems that do not scale in a meaningful way, does not benefit from the stats of the caster like literally all other spells in the game, and that the talent “totemic alignment” is stillborn, it is inconsequential for the spec it was designed for and I propose a way to make it more useful for tanks as well as make totems behave the same as other aoe spells, so they can be better balanced.
+
+You want fire totems to make aoe damage instead of single target, and make it scale with your statistics instead of a plain base damage did I get it right?
+
+## Post 140566 by Cosmico (Patch Note Conspiracy Theorist) — 2025-07-20T00:42:00Z
+<!-- url: https://forum.turtlecraft.gg/viewtopic.php?p=140566#p140566 | page 1 | era: pre-1.18.1 -->
+
+> **Krizpmango wrote: Sat Jul 19, 2025 8:10 pm**
+> « ...but i can not see how stats like Vampirism shouldn't be triggered, it does it for literally every other spell in the game. The reason I say to transfer 100% of the threat is to, again, bring the totems in line with the functionality of every other spell in the game... »
+
+And you also want all your aoe spells plus a hypotetical aoe fire totem to trigger vampirism, you...  angry_turtle_hea
+
+## Post 140567 by Cosmico (Patch Note Conspiracy Theorist) — 2025-07-20T00:44:00Z
+<!-- url: https://forum.turtlecraft.gg/viewtopic.php?p=140567#p140567 | page 1 | era: pre-1.18.1 -->
+
+This is the result of not balancing classes, shamans can already destroy you with 2-3 buttons, they don't even need 3 rotations to vanish anybody in battleground, but hey! they could be even stronger than that!
+
+What you want all this upgrades dude? Are you planning to solo kel'thuzad or something?
+
+## Post 140580 by Krizpmango — 2025-07-20T08:01:00Z
+<!-- url: https://forum.turtlecraft.gg/viewtopic.php?p=140580#p140580 | page 1 | era: pre-1.18.1 -->
+
+> **Cosmico wrote: Sun Jul 20, 2025 12:37 am**
+> You want fire totems to make aoe damage instead of single target, and make it scale with your statistics instead of a plain base damage did I get it right?
+
+I am literally talking about the aoe totems, which already scale a tiny bit, but I would like them to benefit from your stats the same as literally every other spell in the game. And yes, I would like them to benefit from vampirism, like every other spell in the game. And I am still not talking about PvP? If it is unbalanced, change it? Though I don’t believe you can have balanced pve and PvP without a split system. But that is a conversation for another time.
+
+## Post 140593 by Krizpmango — 2025-07-20T10:47:00Z
+<!-- url: https://forum.turtlecraft.gg/viewtopic.php?p=140593#p140593 | page 1 | era: pre-1.18.1 -->
+
+> **Voodoochile wrote: Sun Jul 20, 2025 12:11 am**
+> You fundamentally don't understand the hybrid issue. Solo and dungeon content is where hybrids thrive becuase of their diverse kits. Hybrid tax only truly applies to raid content where there an abundance of each role and having someone who can do multiple things is not as valuable as having a person who can do 1 thing exceptionally well.
+
+I think it is you that fundamentally don't understand the hybrid issue. It's a failed design principle from origianl WoW, born out of earlier RPGs. Blizzard starting walking it back already in TBC, and tWoW obviously has divorced the idea as well, just look at cc2. Hybrid tax is part of the #nochanges mentality, which would also insist on bringing hit and crit scaling to totems. So which is it for you?
+
+> **Voodoochile wrote: Sun Jul 20, 2025 12:11 am**
+> Consecrate also has an 8 second cooldown and can't be replaced quickly if their target moves. And you want spells to function the same, but now propose no crits at all for these totems? What is wrong with how they work right now that the numbers are actually functional? You are literally just trying to homogenize these totems just for that sake, and buff Shaman's threat for its own sake as well. Why change what doesn't need to be changed to begin with? It isn't even like Shaman aoe is bad.
+
+Again, you present it as if i'm hard and fast on how it should function, and as if i'm talking about performance, which i've tried to be quite clear about. This is NOT an issue of performance, neither is it aiming to homogenize spells or class identities. It is asking for consistency in HOW spells are calculated, how they scale and what to expect when pressing a button. I said that if it turns out to be too much, reduce the scaling, reduce the base damage or remove the ability to crit from the spell. Heck, just have the talent read "your totems benefit from the spell hit of the shaman, transfer 100% of the threat to the shaman" and remove crit from the get go, if you're worried about the spells being too powerful.
+
+> **Voodoochile wrote: Sun Jul 20, 2025 12:11 am**
+> Ele has good 3 target aoe, but fire totems are actually the strongest for Enhance because of Elemental weapons giving a flat 30% dmg bonus to all fire totems and spells, literally double the bonus from Ele's fire totem talents and ignorant of its SP scaling and crit scaling meaning there is no lost value for enh. Not only that, but Chain Lightning also has high base damage and worse SP scaling than LB, as well. Again, only emphasizing how little gap there is in the spec's AoE damage, with the only exception being that Enh is almost always in range to benefit from these totems being off CD and them having no cast time and Magma Totem being able to be recast at any time should their targets move.
+>
+>  And Ele can't even get any meaningful value out of Elemental Weapons without sacrificing LB and CL cast time, which would hurt their dps far more.
+
+And that is EXACTLY why i think the talent should be placed in the enhance tree. With this talent enhance would be able to build an AoE set that had some actual scaling and reliability. But right now, enhance can't realistically improve the scaling of the fire totems, as they don't benefit from spell hit. This means that even though Elemental Devastation improves the spell hit of enhance, the only AoE option the spec has access to is not improved by it. Again, if it is too powerful that early in the tree, move it down, so ele has to sacrifice more power to get to it.
+CL has a little worse scaling than LB, but it also hits up to 3 targets. Ele has always shined on trash because CL is just that strong.
+
+I am NOT saying that the performance of shaman is bad. I am also NOT saying that this is the only way a talent like this could work. I AM saying that it is ludicrous to have only 3 spells in the game that are governed by fundamentally different rules, than literally ALL OTHER spells in the game.
+
