@@ -1,0 +1,2029 @@
+class: Shaman
+generated_from:
+- synthesis/classes/shaman/enhancement-melee-dps.md
+- synthesis/classes/shaman/enhancement-tank.md
+- synthesis/classes/shaman/elemental-ranged-dps.md
+- synthesis/classes/shaman/elemental-pvp.md
+- synthesis/classes/shaman/restoration-healer.md
+- synthesis/classes/shaman/leveling.md
+- structured/classes/shaman/*.yaml
+- https://forum.turtlecraft.gg/viewtopic.php?t=21611
+- https://forum.turtlecraft.gg/viewtopic.php?t=20825
+- https://forum.turtlecraft.gg/viewtopic.php?t=21848
+- https://forum.turtlecraft.gg/viewtopic.php?t=21713
+- https://forum.turtlecraft.gg/viewtopic.php?t=22683
+- https://forum.turtlecraft.gg/viewtopic.php?t=19969
+- structured/patches/1.18.1-changes.yaml
+caveats:
+- 'Raid tier mapping used below (per structured/glossary.jsonl): T1=Molten Core, T2=Blackwing Lair, T2.5=AQ40, T3=Naxxramas, T3.5=Karazhan 40. Kara10 (Lower Karazhan Halls, a Turtle-exclusive 10-man) sits below T1 in the sources'' own usage and is treated as pre-raid-60/raid-t1-adjacent content here.'
+- The Enhancement-tank 'Pre Raid' and 'T1 BiS' slot lists below both come from one long guide post by Mimiwarmini (2024-12-02); item IDs are exact (the post links database.turtlecraft.gg by item ID) but the post does not state where most of these items drop, so source_place is unknown-in-sources except where the entity-index or another source confirms it (Araxxna's Husk and Totem of Tides are confirmed Lower Karazhan Halls / Stormwrought Ruins drops).
+- Skegg's Shaman Leveling & Pre-BiS Guide is the single richest leveling source for all three roles (tank/DPS/heal share one build to level 33); item-by-level claims below are almost entirely from that one post plus Akos1896's reply in the same thread.
+- T2.5 (AQ40) is explicitly the only shaman tank tier set (staff); Enhancement DPS has no T2.5 set at all ('a drought when AQ comes out').
+specs:
+- spec: Enhancement
+  role: melee-dps
+  brackets:
+  - bracket: leveling-30-49
+    agreement: single
+    patch_validity:
+      written_for: pre-1.18.1
+      valid_for_1181: unknown
+      notes: Consensus leveling build/guide; not re-validated post-1.18.1.
+    slots:
+    - slot: waist
+      items:
+      - name: 'trinket slot: two Jewelcrafting +stamina trinkets (e.g. obsidian brooch)'
+        item_id: null
+        rank: 1
+        source_type: craft
+        source_place: Jewelcrafting
+        source_detail: ~5-6g each, non-unique
+        custom_turtle_item: unknown
+        notes: get at level 33
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149742#p149742
+          author: Akos1896
+          authority: player
+          date: '2025-09-01'
+    - slot: trinket1
+      items:
+      - name: Totem of Tides
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Stormwrought Ruins
+        source_detail: orc boss, level 35-41
+        custom_turtle_item: 'true'
+        notes: '"phenomenal for tanking dungeons + farming Lashers"; also used by DPS/heal specs'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+    enchants: []
+    consumables: []
+    stat_notes: 'Stats for DPS while leveling: +str = +agi (roughly on par) > +stam > +int.'
+  - bracket: leveling-50-59
+    agreement: single
+    patch_validity:
+      written_for: pre-1.18.1
+      valid_for_1181: unknown
+      notes: Consensus leveling build; not re-validated post-1.18.1.
+    slots:
+    - slot: main-hand
+      items:
+      - name: ~level-50 axe, unnamed in sources
+        item_id: 51892
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+    - slot: shoulder
+      items:
+      - name: Stormshroud shoulders
+        item_id: null
+        rank: 1
+        source_type: craft
+        source_place: Leatherworking, ~level 50
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+    - slot: hands
+      items:
+      - name: Stormshroud hands
+        item_id: null
+        rank: 1
+        source_type: craft
+        source_place: Leatherworking, ~level 50
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: '"pre-BiS for enhance"'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+      - name: Devilsaur hands
+        item_id: null
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: ~level 53
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+    - slot: legs
+      items:
+      - name: Devilsaur legs
+        item_id: null
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: ~level 55
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+    - slot: chest
+      items:
+      - name: Hateforge Armor set (itemset 615)
+        item_id: null
+        rank: 1
+        source_type: craft
+        source_place: Blacksmithing, ~level 50
+        source_detail: null
+        custom_turtle_item: 'true'
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+    - slot: head
+      items:
+      - name: Skyfury Helm
+        item_id: null
+        rank: 1
+        source_type: quest
+        source_place: Scholomance (Shaman trainer quest, Orgrimmar; quest 7667)
+        source_detail: level 58+
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+    enchants: []
+    consumables: []
+    stat_notes: Thunder Lizard's Hide (Sparkwater Port vendor, ~8g, limited stock) is named for its on-hit Nature proc but no level is given for when it becomes relevant.
+  - bracket: pre-raid-60
+    agreement: single
+    patch_validity:
+      written_for: pre-1.18.1 (2025-09)
+      valid_for_1181: unknown
+      notes: Not re-validated post-1.18.1.
+    slots:
+    - slot: head
+      items:
+      - name: Skyfury Helm
+        item_id: null
+        rank: 1
+        source_type: quest
+        source_place: Scholomance (level-58 shaman trainer quest)
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+      - name: Strat mail helm
+        item_id: null
+        rank: 2
+        source_type: drop
+        source_place: Stratholme
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+      - name: BRD eyepatch
+        item_id: null
+        rank: 2
+        source_type: drop
+        source_place: Blackrock Depths
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+      - name: UBRS eyepatch
+        item_id: null
+        rank: 2
+        source_type: drop
+        source_place: Upper Blackrock Spire
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+    - slot: chest
+      items:
+      - name: Hateforge Armor set (itemset 615)
+        item_id: null
+        rank: 1
+        source_type: craft
+        source_place: Blacksmithing
+        source_detail: null
+        custom_turtle_item: 'true'
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+      - name: chest option (quest 5166)
+        item_id: null
+        rank: 2
+        source_type: quest
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+      - name: chest option, unnamed in sources
+        item_id: 60008
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+      - name: chest option, unnamed in sources
+        item_id: 14611
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+      - name: chest option, unnamed in sources
+        item_id: 13090
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+    - slot: main-hand
+      items:
+      - name: pre-BiS mace, unnamed in sources
+        item_id: 83440
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+    - slot: two-hand
+      items:
+      - name: Arcanite Reaper
+        item_id: null
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+      - name: Bonecrusher
+        item_id: null
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+      - name: Treant's Bane
+        item_id: 18538
+        rank: 3
+        source_type: drop
+        source_place: Dire Maul North
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: '"could also try ... if you are a masochist"'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+      - name: Unstoppable Force
+        item_id: 19323
+        rank: 3
+        source_type: reputation
+        source_place: Alterac Valley, exalted
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: '"double masochist" pick'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+    - slot: shoulder
+      items:
+      - name: Battlemaster shoulders (+2% hit)
+        item_id: null
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+      - name: Kara5 shoulders
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Karazhan Crypts (Kara5)
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+    enchants: []
+    consumables:
+    - name: +5 weapon skill book
+      use: permanent weapon skill (250g + quest)
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+        author: Skegg
+        authority: player (guide writer)
+        date: '2025-09-01'
+    stat_notes: Aim for 8% hit for melee (3% from talents, 1% from the weapon skill book, 4% needed from gear/weapon skill). Once Kara10 releases, replace the Hateforge set with Towerforge Battlegear (itemset 630). "getting into kara10, zg & mc is easy often even in just questing greens. And that gear is much stronger than many dungeon items" [post-1.18.1 observation].
+  - bracket: raid-t1
+    agreement: single
+    patch_validity:
+      written_for: pre-1.18.1
+      valid_for_1181: unknown
+      notes: T1 5-set has a reported bug.
+    slots:
+    - slot: chest
+      items:
+      - name: Towerforge Battlegear (itemset 630)
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Karazhan 10 (Lower Karazhan Halls)
+        source_detail: null
+        custom_turtle_item: 'true'
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+    - slot: two-hand
+      items:
+      - name: Dreadforge Retaliator
+        item_id: null
+        rank: 2
+        source_type: drop
+        source_place: Blackrock Depths
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=151884#p151884
+          author: Toxo
+          authority: player
+          date: '2025-09-16'
+      - name: Sleeping Willow
+        item_id: null
+        rank: 2
+        source_type: drop
+        source_place: Upper Blackrock Spire
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=151884#p151884
+          author: Toxo
+          authority: player
+          date: '2025-09-16'
+      - name: Boneshatter Maul
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Karazhan Crypts
+        source_detail: null
+        custom_turtle_item: 'true'
+        notes: '"1% crit and +35 str is pretty damn good, the dps is nice and slow attack speed is also good"'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=151884#p151884
+          author: Toxo
+          authority: player
+          date: '2025-09-16'
+      - name: Spinal Reaper
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Molten Core
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: '"if you''re lucky enough to get the drop and win it"'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=151884#p151884
+          author: Toxo
+          authority: player
+          date: '2025-09-16'
+    enchants: []
+    consumables: []
+    stat_notes: T1 5-set buffs Flametongue damage against Flame Shocked targets by 45%, but was reported as bugged/negative in a 2024-11 report.
+  - bracket: raid-t2
+    agreement: single
+    patch_validity:
+      written_for: pre-1.18.1
+      valid_for_1181: unknown
+      notes: Widely called weak for Enhancement specifically.
+    slots: []
+    enchants: []
+    consumables: []
+    stat_notes: '"T2 seems quite underwhelming compared to T3 and T1".'
+  - bracket: raid-t2.5
+    agreement: single
+    patch_validity:
+      written_for: pre-1.18.1
+      valid_for_1181: unknown
+      notes: No Enhancement set exists in AQ40 at all.
+    slots: []
+    enchants: []
+    consumables: []
+    stat_notes: '"There is a drought when AQ comes out because there is no enhancer set in that phase"; the practical approach is "stick with T2 set and go for the better 2h, trinkets, rings and neck". AQ40 is generally called weak loot for every class until Naxxramas.'
+  - bracket: raid-t3
+    agreement: single
+    patch_validity:
+      written_for: pre-1.18.1
+      valid_for_1181: unknown
+      notes: Overcapped on hit per the class playbook.
+    slots: []
+    enchants: []
+    consumables: []
+    stat_notes: T3 is called overcapped on hit; T3.5 (Stormhowl) is the stated upgrade target, but no item-level T3.5 Enhancement set text is in the extracted posts (gap).
+  - bracket: pvp-60
+    agreement: single
+    patch_validity:
+      written_for: 1.18.1-announced-pre-release
+      valid_for_1181: unknown
+      notes: 'Very thin: one two-word answer to a fresh-60 question.'
+    slots: []
+    enchants: []
+    consumables: []
+    stat_notes: '"Go do Bgs and get TUF, and stam/str gear" is the only PvP gearing advice found for Enhancement in the sources.'
+- spec: Enhancement
+  role: tank
+  brackets:
+  - bracket: leveling-30-49
+    agreement: single
+    patch_validity:
+      written_for: pre-1.18.1
+      valid_for_1181: unknown
+      notes: Consensus leveling shield chain.
+    slots:
+    - slot: off-hand
+      items:
+      - name: Compendium of the Fallen (quest reward shield)
+        item_id: null
+        rank: 1
+        source_type: quest
+        source_place: Sage Truthseeker, Thunder Bluff (34.7, 47.8), level 28
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+      - name: 'Scarlet Monastery: Cathedral shield reward'
+        item_id: null
+        rank: 2
+        source_type: quest
+        source_place: Scarlet Monastery Cathedral
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+      - name: Gilneas shield
+        item_id: null
+        rank: 3
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+      - name: Maraudon goblin shield
+        item_id: null
+        rank: 3
+        source_type: drop
+        source_place: Maraudon
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+      - name: Stormwind Vault shield
+        item_id: null
+        rank: 3
+        source_type: drop
+        source_place: Stormwind Vault
+        source_detail: null
+        custom_turtle_item: 'true'
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+    - slot: trinket1
+      items:
+      - name: Jewelcrafting +stamina trinket
+        item_id: null
+        rank: 1
+        source_type: craft
+        source_place: Jewelcrafting
+        source_detail: level 33, ~5-6g, non-unique, get two
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149742#p149742
+          author: Akos1896
+          authority: player
+          date: '2025-09-01'
+    - slot: trinket2
+      items:
+      - name: Totem of Tides
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Stormwrought Ruins
+        source_detail: level 35-41
+        custom_turtle_item: 'true'
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+    enchants: []
+    consumables: []
+    stat_notes: 'A shield with the highest armor is always top priority (''10 armor is roughly equal to 1 stamina'' for EHP purposes); stat order while leveling as tank: +stam > +agi > +str > +int (at 60, +str overtakes +agi).'
+  - bracket: pre-raid-60
+    agreement: single
+    patch_validity:
+      written_for: 2024-12-02 guide post
+      valid_for_1181: unknown
+      notes: Single detailed source (Mimiwarmini); item IDs are exact, drop locations mostly unstated.
+    slots:
+    - slot: head
+      items:
+      - name: Timeloop Headguard
+        item_id: 61053
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 'threat pick: 317 armor, 20 sta, 19 str, 12 int, 5 def, 11 spell damage'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+    - slot: shoulder
+      items:
+      - name: Pauldrons of Elusiveness
+        item_id: 60792
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 286 armor, 20 sta, 8 agi, 1% dodge
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+    - slot: chest
+      items:
+      - name: Royal Decorated Armor
+        item_id: 11820
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 344 armor, 26 sta, 12 agi, 8 str
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+    - slot: wrist
+      items:
+      - name: Slashclaw Bracers
+        item_id: 13211
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 155 armor, 7 sta, 7 agi, 6 spi, 1% hit
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+    - slot: waist
+      items:
+      - name: Imbued Planar Belt
+        item_id: 61041
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 218 armor, 15 sta, 15 agi, 9 int, 11 spell damage
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+    - slot: legs
+      items:
+      - name: Leggings of Alacrity
+        item_id: 60503
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 334 armor, 16 sta, 26 agi, 1% dodge
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+    - slot: feet
+      items:
+      - name: Greaves of the Elusive
+        item_id: 61024
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 289 armor, 18 sta, 8 agi, 1% dodge, 1% hit
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+    - slot: back
+      items:
+      - name: Redoubt Cloak
+        item_id: 18495
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 45 armor, 15 sta, 7 def
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+    - slot: ring1
+      items:
+      - name: Naglering
+        item_id: 11669
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 50 armor, 10 sta, 5 def
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+    - slot: ring2
+      items:
+      - name: Ring of Authority
+        item_id: 50189
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 100 armor, 8 sta, 3 agi, 3 spi, 1% dodge, 1% block
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+    - slot: trinket1
+      items:
+      - name: Hatereaver Cog
+        item_id: 60559
+        rank: 1
+        source_type: drop
+        source_place: Hateforge Quarry
+        source_detail: Hatereaver Annihilator
+        custom_turtle_item: 'true'
+        notes: 120 armor, 12 sta, 1% haste, 5 fire resist
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+    - slot: trinket2
+      items:
+      - name: Counterattack Lodestone
+        item_id: 18537
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 34 ap, 1% parry
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+    - slot: off-hand
+      items:
+      - name: Vault's Defender
+        item_id: 40003
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: shield, 2217 armor, 10 sta, 6 agi, 1% dodge, 1% block
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+    - slot: main-hand
+      items:
+      - name: Blackthorn's Blackjack
+        item_id: 84600
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 92-171 damage, 2.80 speed, 12 str, 1% hit
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+    - slot: relic
+      items:
+      - name: Totem of the Calming River
+        item_id: 61698
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+      - name: Totem of Rage
+        item_id: 22395
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+      - name: Totem of Tides
+        item_id: 58146
+        rank: 2
+        source_type: drop
+        source_place: Stormwrought Ruins
+        source_detail: null
+        custom_turtle_item: 'true'
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+    enchants:
+    - slot: head/legs
+      enchant: Invocation of Greater Protection (2% dodge, Karazhan) or Arcanum of Protection (1% dodge)
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+        author: Mimiwarmini
+        authority: player (guide writer)
+        date: '2024-12-02'
+    - slot: shoulder
+      enchant: Fortitude of the Scourge / Zandalar Signet of Tenacity
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+        author: Mimiwarmini
+        authority: player (guide writer)
+        date: '2024-12-02'
+    - slot: chest
+      enchant: Greater Stats / Major Health / Core Armor Kit
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+        author: Mimiwarmini
+        authority: player (guide writer)
+        date: '2024-12-02'
+    - slot: wrist
+      enchant: Greater Deflection (5 def) / Superior Stamina / Greater Agility
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+        author: Mimiwarmini
+        authority: player (guide writer)
+        date: '2024-12-02'
+    - slot: hands
+      enchant: Superior Agility or +2% threat ("a must")
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=149742#p149742
+        author: Akos1896
+        authority: player
+        date: '2025-09-01'
+    - slot: waist
+      enchant: Bloody buckle (-1% crit taken) / Arcanite buckle (5 def) / Mithril buckle (6 agi)
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+        author: Mimiwarmini
+        authority: player (guide writer)
+        date: '2024-12-02'
+    - slot: feet
+      enchant: Superior Stamina (15) — never a speed enchant
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=149742#p149742
+        author: Akos1896
+        authority: player
+        date: '2025-09-01'
+    - slot: back
+      enchant: Dodge / Superior Defense
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+        author: Mimiwarmini
+        authority: player (guide writer)
+        date: '2024-12-02'
+    - slot: ring
+      enchant: 'Jewelcrafting gemstones: 1% block, 3 stats, or 6 stamina'
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+        author: Mimiwarmini
+        authority: player (guide writer)
+        date: '2024-12-02'
+    - slot: off-hand (shield)
+      enchant: Lesser Block / Greater Stamina, plus thorium spikes
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=149742#p149742
+        author: Akos1896
+        authority: player
+        date: '2025-09-01'
+    - slot: main-hand
+      enchant: Crusader / Spell Power / Icy Chill / Unholy
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+        author: Mimiwarmini
+        authority: player (guide writer)
+        date: '2024-12-02'
+    consumables:
+    - name: Major Rejuvenation Potion or Major Healing Potion
+      use: emergency self-heal
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+        author: Mimiwarmini
+        authority: player (guide writer)
+        date: '2024-12-02'
+    - name: Flask of the Titans (or Supreme Power for threat, or Chromatic Resistance)
+      use: raid flask
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+        author: Mimiwarmini
+        authority: player (guide writer)
+        date: '2024-12-02'
+    - name: Elixir of Greater Nature Power, Greater Firepower, Brute Force; Concoctions (Arcane Giant, Dreamwater, Emerald Mongoose)
+      use: buff elixirs
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+        author: Mimiwarmini
+        authority: player (guide writer)
+        date: '2024-12-02'
+    - name: Hardened Mushroom (25 sta) / Power Mushroom; Spirit of Zanza; R.O.I.D.S. / Lung Juice Cocktail; Juju Ember/Escape/Power; Rumsey Rum / Medivh's Merlot; Whipper Root Tuber
+      use: misc raid consumables
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+        author: Mimiwarmini
+        authority: player (guide writer)
+        date: '2024-12-02'
+    - name: Engineering sappers and target dummies
+      use: emergency threat/utility tools
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+        author: Mimiwarmini
+        authority: player (guide writer)
+        date: '2024-12-02'
+    stat_notes: 'Alternatives per slot are explicitly tagged Threat / Avoidance / Mitigation in the source guide (e.g. Helm of the Great Chief and Helm of Narv as head alternatives; Force Reactive Disk, Draconian Deflector, Bonewall as shield alternatives). General priority: stamina and armor first (never push defense beyond 15 at the cost of stamina/armor), then whichever of threat or mitigation the current fight needs.'
+  - bracket: raid-t1
+    agreement: single
+    patch_validity:
+      written_for: 2024-12-02 guide post ('T1 BiS')
+      valid_for_1181: unknown
+      notes: Same post as pre-raid-60, a separate labeled 'T1 Bis' section.
+    slots:
+    - slot: head
+      items:
+      - name: Blackstone Crown
+        item_id: 83565
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 473 armor, 34 sta, 15 agi, 10 str, 1% dodge
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+    - slot: shoulder
+      items:
+      - name: Shoulderpads of True Flight
+        item_id: 81264
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 413 armor, 18 sta, 18 agi, 9 int, 1% hit
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+      - name: Earthfury Pauldrons
+        item_id: 47121
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 317 armor, 15 sta, 15 agi, 8 str, 9 int, 5 shadow resist, 1% hit
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+    - slot: chest
+      items:
+      - name: Cryptbone Hauberk
+        item_id: 51786
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 592 armor, 22 sta, 10 agi, 16 str, 1% hit, 10 def
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+      - name: Earthfury Breastplate
+        item_id: 47122
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 422 armor, 20 sta, 22 agi, 14 str, 12 int, 10 fire resist, 1% crit
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+      - name: Breastplate of the Chromatic Flight
+        item_id: 83416
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 418 armor, 30 sta, 20 agi, 15 int, 15 fire resist
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+    - slot: wrist
+      items:
+      - name: Wristguards of True Flight
+        item_id: 18812
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 198 armor, 11 sta, 19 agi, 6 int, 1% hit
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+      - name: Earthfury Bracelets
+        item_id: 47123
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 185 armor, 12 sta, 12 agi, 11 str, 8 int
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+    - slot: hands
+      items:
+      - name: Rune Infused Gauntlets
+        item_id: 61266
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 264 armor, 21 sta, 17 agi, 1% haste, 1% dodge
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+    - slot: waist
+      items:
+      - name: Stoneslate Belt
+        item_id: 51785
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 340 armor, 22 sta, 14 agi, 10 int, 1% dodge
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+      - name: Earthfury Girdle
+        item_id: 47125
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 237 armor, 15 sta, 16 agi, 12 str, 9 int, 7 fire resist
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+    - slot: legs
+      items:
+      - name: Outrider's Chain Leggings
+        item_id: 22673
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 396 armor, 23 sta, 35 agi, 1% crit, 1% hit
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+    - slot: feet
+      items:
+      - name: Sabatons of the Flamewalker
+        item_id: 19144
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 298 armor, 21 sta, 10 agi, 11 int, 20 ap, 5 def
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+      - name: Greaves of the Elusive
+        item_id: 61024
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 289 armor, 18 sta, 8 agi, 1% dodge, 1% hit
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+    - slot: neck
+      items:
+      - name: Shard of Eternity
+        item_id: 61012
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 30 armor, 8 sta, 8 agi, 8 str, 8 int, 8 spi, 5 def, 8 spell damage, 11 healing
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+    - slot: back
+      items:
+      - name: Dragon's Blood Cape
+        item_id: 17107
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 106 armor, 22 sta, 9 str, 10 fire/5 shadow/5 arcane resist, 5 def
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+    - slot: ring1
+      items:
+      - name: Ring of Binding
+        item_id: 18813
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 100 armor, 16 sta, 5 all resist, 6 def
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+      - name: Heavy Dark Iron Ring
+        item_id: 18879
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 110 armor, 20 sta, 5 def
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+      - name: Ring of Authority
+        item_id: 50189
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 100 armor, 8 sta, 3 agi, 3 spi, 1% dodge, 1% block
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+    - slot: trinket1
+      items:
+      - name: Onyxia Blood Talisman
+        item_id: 18406
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 7 hp5, 15 fire resist, 2% parry, 7 def
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+      - name: Araxxna's Husk
+        item_id: 61816
+        rank: 1
+        source_type: drop
+        source_place: Lower Karazhan Halls
+        source_detail: Brood Queen Araxxna
+        custom_turtle_item: 'true'
+        notes: 140 armor, 15 sta, 1% dodge
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+      - name: Shawl of the Castellan
+        item_id: 61299
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 2% haste, 1% dodge
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+    - slot: off-hand
+      items:
+      - name: Earthen Guard
+        item_id: 20688
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: shield, 2575 armor, 19 sta, 1% block, 14 block value, 7 def
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+    - slot: main-hand
+      items:
+      - name: Deathbringer
+        item_id: 17068
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 114-213 damage, 2.90 speed
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+    - slot: relic
+      items:
+      - name: Totem of the Calming River
+        item_id: 61698
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+      - name: Totem of Rage
+        item_id: 22395
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+      - name: Totem of Tides
+        item_id: 58146
+        rank: 2
+        source_type: drop
+        source_place: Stormwrought Ruins
+        source_detail: null
+        custom_turtle_item: 'true'
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+          author: Mimiwarmini
+          authority: player (guide writer)
+          date: '2024-12-02'
+    enchants: []
+    consumables: []
+    stat_notes: Same enchant/consumable guidance as pre-raid-60 applies at T1.
+  - bracket: raid-t2.5
+    agreement: consensus
+    patch_validity:
+      written_for: staff itemization intent (2023) plus 2025 player consensus
+      valid_for_1181: unknown
+      notes: Consensus across a staff statement and a later player observation.
+    slots: []
+    enchants: []
+    consumables: []
+    stat_notes: '"Tier 2.5 is specialized for tanking builds" [staff]; "shaman tanks are not really a thing until T2,5 at raiding" [player, 2025-10-23] — i.e. AQ40 is the point Enhancement tanking becomes raid-viable, per these two sources, though no item-level T2.5 tank set list exists in the corpus (gap).'
+- spec: Elemental
+  role: ranged-dps
+  brackets:
+  - bracket: pre-raid-60
+    agreement: single
+    patch_validity:
+      written_for: pre-1.18.1 (Duids' phase spreadsheets, referenced only; the forum text itself gives item names without a full slot table)
+      valid_for_1181: unknown
+      notes: The full item-by-slot content lives in an external Google Sheet (linked, not extracted as text); the entries below are the named items discussed directly in forum replies.
+    slots:
+    - slot: hands
+      items:
+      - name: crafted cloth gloves (crit variant)
+        item_id: null
+        rank: 1
+        source_type: craft
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: one of two crafted cloth glove options named by a separate poster (Skegg's compiled list)
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+    - slot: waist
+      items:
+      - name: Tier 1 belt (Auction House)
+        item_id: null
+        rank: 2
+        source_type: vendor
+        source_place: Auction House
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+    - slot: wrist
+      items:
+      - name: Tier 1 wrist (Auction House)
+        item_id: null
+        rank: 2
+        source_type: vendor
+        source_place: Auction House
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+    - slot: trinket1
+      items:
+      - name: 2% crit quest reward trinket
+        item_id: null
+        rank: 2
+        source_type: quest
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+      - name: Dire Maul trinket
+        item_id: null
+        rank: 2
+        source_type: drop
+        source_place: Dire Maul
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+    - slot: head
+      items:
+      - name: Onyxia head piece (unnamed)
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Onyxia's Lair
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+    - slot: ring1
+      items:
+      - name: Onyxia ring (unnamed)
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Onyxia's Lair
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+    - slot: main-hand
+      items:
+      - name: Mindfang
+        item_id: null
+        rank: 1
+        source_type: reputation
+        source_place: Arathi Basin, exalted
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: '"BiS one-handed weapon up to Nefarian''s Lok''amir"'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=153069#p153069
+          author: Duids
+          authority: player
+          date: '2025-09-25'
+    enchants:
+    - slot: ring/neck
+      enchant: +5 spell power (Jewelcrafting)
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=151369#p151369
+        author: Duids
+        authority: player
+        date: '2025-09-12'
+    - slot: waist (fire build)
+      enchant: belt buckle +9 fire damage (instead of the default ring/neck spell power for a fire-focused build)
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=152504#p152504
+        author: Duids
+        authority: player
+        date: '2025-09-20'
+    consumables:
+    - name: Major Healing Potion / Potion of Quickness; Flask of Supreme Power; Elixir of Greater Nature Power (55), Greater Firepower (40), Greater Arcane Elixir (35), Dreamshard Elixir, Dreamtonic, Elixir of the Sage; Danonzo's Tel'Abim Delight; Spirit of Zanza; Cerebral Cortex Compound; Juju Ember, Juju Flurry; Rumsey Rum / Medivh's Merlot Blue; Whipper Root Tuber; Brilliant Wizard Oil
+      use: raid consumable kit for Elemental
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=167850#p167850
+        author: Mimiwarmini
+        authority: player
+        date: '2026-02-10'
+    stat_notes: 'Hit > crit > spell damage > int is the stated priority (need 15 percent spell hit). Molten Core and other early fire-immune bosses (Ragnaros and everything in Onyxia''s Lair/Blackwing Lair are fire-immune) make a fire-focused build a Nature-build fallback only for Nefarian-onward content. Post-1.18.1: "getting into kara10, zg & mc is easy often even in just questing greens. And that gear is much stronger than many dungeon items"; focus on Kara10 and ZG early — "kara has plenty of good caster items (Minds Key especially) and from zg you can get a great cloak and reputation for your shoulder enchants and zanza" [Atreidon (player), 2026-04-04](https://forum.turtlecraft.gg/viewtopic.php?p=174001#p174001). Separately: "Go kara10 every cd, alot of geared pugs and good epics. Also aq20 set is nice" [pagu (player), 2026-04-06](https://forum.turtlecraft.gg/viewtopic.php?p=174156#p174156).'
+  - bracket: raid-t1
+    agreement: single
+    patch_validity:
+      written_for: pre-1.18.1
+      valid_for_1181: unknown
+      notes: Only some Molten Core bosses resist fire; Ragnaros is fire-immune.
+    slots: []
+    enchants: []
+    consumables: []
+    stat_notes: 'Molten Core boss resistances given by a poster: Lucifron 93 fire/186 shadow, Gehennas 186 fire/93 shadow, Shazzrah 186 arcane/93 fire, Sulfuron Harbinger 93 fire, Golemagg 186 fire, Majordomo Executus 95 fire, Ragnaros fire-immune — meaning a fire-elemental build is a poor choice for most of the instance.'
+- spec: Elemental/Enhancement hybrid (31/17/0)
+  role: pvp
+  brackets:
+  - bracket: pvp-60
+    agreement: single
+    patch_validity:
+      written_for: pre-1.18.1
+      valid_for_1181: unknown
+      notes: No slot-by-slot PvP list exists for Shaman in the sources (unlike Rogue's).
+    slots: []
+    enchants: []
+    consumables: []
+    stat_notes: Full T2.5 (Stormcaller set) with stamina jewelry is named as a PvP gear target; T3 is valued "for 9k armor and a big hp pull"; Kara10 drops a reflect shield useful against casters; Blood Guard boots are named; 1.18.1 added PvP sets with resilience, but no stat values are given in the sources. The 10-59 twink spreadsheet by Brisspvp (t10430, referenced from the class file) covers Enhancement twinks only, not Elemental.
+- spec: Restoration
+  role: healer
+  brackets:
+  - bracket: pre-raid-60
+    agreement: single
+    patch_validity:
+      written_for: pre-1.18.1 (2025-09 and 2024-04 posts)
+      valid_for_1181: unknown
+      notes: Two independent lists (Skegg, Akos1896) broadly agree; not re-validated post-1.18.1.
+    slots:
+    - slot: legs
+      items:
+      - name: Dire Maul (West) legs (unnamed)
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Dire Maul West
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+    - slot: hands
+      items:
+      - name: Emperor's or Moira's gloves
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Blackrock Depths
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+    - slot: shoulder
+      items:
+      - name: Mantle of Lost Hope
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Blackrock Depths
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+    - slot: feet
+      items:
+      - name: Soot Encrusted Footwear
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Blackrock Depths
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+    - slot: main-hand
+      items:
+      - name: Guiding Stave of Wisdom
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Blackrock Depths
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+    - slot: trinket1
+      items:
+      - name: Second Wind
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Blackrock Depths
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+    - slot: chest
+      items:
+      - name: Rivendare's Robe
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Stratholme (Undead side)
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+    - slot: neck
+      items:
+      - name: Royal Seal of Eldre'Thalas
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Dire Maul
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+      - name: Memento of the Lost
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Karazhan Crypts (Kara5)
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149742#p149742
+          author: Akos1896
+          authority: player
+          date: '2025-09-01'
+      - name: Jindo's Evil Eye
+        item_id: null
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149742#p149742
+          author: Akos1896
+          authority: player
+          date: '2025-09-01'
+      - name: Amulet of the Shifting Sands
+        item_id: null
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149742#p149742
+          author: Akos1896
+          authority: player
+          date: '2025-09-01'
+    - slot: back
+      items:
+      - name: crafted cloak
+        item_id: null
+        rank: 1
+        source_type: craft
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+      - name: Shroud of Haunted Torment
+        item_id: null
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149742#p149742
+          author: Akos1896
+          authority: player
+          date: '2025-09-01'
+      - name: Hide of the Wild
+        item_id: null
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149742#p149742
+          author: Akos1896
+          authority: player
+          date: '2025-09-01'
+      - name: Created Cape
+        item_id: null
+        rank: 2
+        source_type: vendor
+        source_place: Auction House green, level 54+
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: '"you won''t need to replace it until the cape from AQ40''s final boss"'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+    - slot: chest
+      items:
+      - name: crafted chest
+        item_id: null
+        rank: 2
+        source_type: craft
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+    - slot: relic
+      items:
+      - name: Black Morass totem (unnamed)
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Black Morass (Caverns of Time)
+        source_detail: null
+        custom_turtle_item: 'true'
+        notes: '"BiS totem until Naxx"'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+    - slot: waist
+      items:
+      - name: Corehound Belt
+        item_id: null
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: called optional, costly
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+          author: Skegg
+          authority: player (guide writer)
+          date: '2025-09-01'
+    - slot: ring1
+      items:
+      - name: Loop of the Forgotten
+        item_id: null
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149742#p149742
+          author: Akos1896
+          authority: player
+          date: '2025-09-01'
+    - slot: head
+      items:
+      - name: Dreambreeze Cowl
+        item_id: null
+        rank: 2
+        source_type: reputation
+        source_place: null
+        source_detail: 150 Bright Dream Shards
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149742#p149742
+          author: Akos1896
+          authority: player
+          date: '2025-09-01'
+    - slot: chest
+      items:
+      - name: Verdant Dreamer's Breastplate
+        item_id: null
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149742#p149742
+          author: Akos1896
+          authority: player
+          date: '2025-09-01'
+    - slot: trinket2
+      items:
+      - name: Zandalarian Hero Charm
+        item_id: null
+        rank: 2
+        source_type: drop
+        source_place: Zul'Gurub
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149742#p149742
+          author: Akos1896
+          authority: player
+          date: '2025-09-01'
+      - name: Hakkar's Heart
+        item_id: null
+        rank: 2
+        source_type: drop
+        source_place: Zul'Gurub
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149742#p149742
+          author: Akos1896
+          authority: player
+          date: '2025-09-01'
+      - name: Sliver of Hope
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Karazhan 10 (Lower Karazhan Halls)
+        source_detail: null
+        custom_turtle_item: 'true'
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149742#p149742
+          author: Akos1896
+          authority: player
+          date: '2025-09-01'
+    enchants:
+    - slot: armor kits
+      enchant: +9 spell power enchanted armor kits
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=149742#p149742
+        author: Akos1896
+        authority: player
+        date: '2025-09-01'
+    - slot: shoulder
+      enchant: +2% haste
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=149742#p149742
+        author: Akos1896
+        authority: player
+        date: '2025-09-01'
+    - slot: head/legs
+      enchant: 1% haste vs +12 spell power
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=149742#p149742
+        author: Akos1896
+        authority: player
+        date: '2025-09-01'
+    - slot: ring/neck
+      enchant: +12 healing (Jewelcrafting)
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=149742#p149742
+        author: Akos1896
+        authority: player
+        date: '2025-09-01'
+    - slot: waist
+      enchant: +10 intellect belt buckle
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=149742#p149742
+        author: Akos1896
+        authority: player
+        date: '2025-09-01'
+    - slot: weapon
+      enchant: the weaker +healing enchant (not worth the strong one on pre-raid gear you'll replace)
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=149742#p149742
+        author: Akos1896
+        authority: player
+        date: '2025-09-01'
+    consumables: []
+    stat_notes: 'Get as much +healing and +int as possible; a ~4000 mana pool is recommended for a badly-geared Resto shaman, or drink more potions/tea if the guild clears quickly. Do NOT buy: Lady Maye''s (item), Remains of the Lost, or Dawnstone Hammer — explicitly called out as traps. Other named sources: Alchemists'' Discovery (AD) faction helm/trinket, Mindfang (Arathi Basin exalted), Alterac Valley offhand, Blackrock Mountain (BM) shield/totem/ring, Upper Blackrock Spire trinket paired with an AD trinket "will be BiS", and a Stratholme-vs-BM-faction chest choice called a toss-up.'
+  - bracket: raid-t1
+    agreement: single
+    patch_validity:
+      written_for: 1.18.1-announced-pre-release (2026-03)
+      valid_for_1181: 'true'
+      notes: Single detailed defense of the T1 set against a proposed 1.18.1 nerf; the set's fate after 2026-03-09 is not confirmed in the corpus.
+    slots: []
+    enchants: []
+    consumables: []
+    stat_notes: The T1 8/8 set is called "undoubtedly strong" and, unlike T2/T2.5/T3, its bonus "INTERACTS with shaman talents" rather than being replaceable by plain stats [Travoltino (player), 2026-03-09](https://forum.turtlecraft.gg/viewtopic.php?p=170395#p170395).
+  - bracket: raid-t2
+    agreement: consensus
+    patch_validity:
+      written_for: pre-1.18.1 through 1.18.1-announced-pre-release
+      valid_for_1181: unknown
+      notes: Multiple sources agree the Resto sets past T1 are weak.
+    slots: []
+    enchants: []
+    consumables: []
+    stat_notes: '"T2 T2.5 T3 - every resto shaman would replace those set bonuses with just more ''green text'' stats" — T2''s bonus is called "almost green text", T2.5''s was only "fine ish" while Spirit Link had a shorter cooldown, and T3''s 2-set/4-set bonuses are called pointless/outclassed by a single Paladin talent-book rank, though its 8-set "is good" [Travoltino (player), 2026-03-09](https://forum.turtlecraft.gg/viewtopic.php?p=170395#p170395).'
+  - bracket: raid-t3.5
+    agreement: single
+    patch_validity:
+      written_for: pre-1.18.1
+      valid_for_1181: unknown
+      notes: Single comparison to another healer class's tier.
+    slots: []
+    enchants: []
+    consumables: []
+    stat_notes: T3.5 for Resto is said to be "better than those for paladins" [Evilchocolate (player), 2025-01-22](https://forum.turtlecraft.gg/viewtopic.php?p=117487#p117487).
+gaps:
+- No item-level PvP gear list exists for any Shaman spec (unlike Rogue's Subtlety PvP list); Elemental/Enhancement hybrid PvP gearing is qualitative only (set names, no slots).
+- No item-level Elemental raid-t2/t2.5/t3/t3.5 gear list; the corpus gives Molten Core boss fire-resistance numbers and post-1.18.1 general raid-choice advice, but no slot-by-slot list past pre-raid.
+- Enhancement raid-t3.5 (Stormhowl) has no item-level list in the extracted posts, only that it is the stated upgrade target from T3.
+- Enhancement raid-t2.5 (AQ40) has no Enhancement set at all per the sources, and no alternative item list is given for that phase beyond 'stick with T2 plus better 2h/trinkets/rings/neck'.
+- Most items in the Enhancement-tank pre-raid-60 and raid-t1 lists (from Mimiwarmini's single detailed post) have no stated drop location; only Araxxna's Husk (Lower Karazhan Halls), Totem of Tides (Stormwrought Ruins) and Hatereaver Cog (Hateforge Quarry) are independently confirmed via structured/entity-index/items.json.
+- Restoration has no raid-t1 or raid-t3 item-level gear list (only the pre-raid list and general 'sets are weak, T3.5 better than paladins'' commentary).
+- Duids' Elemental pre-raid-and-BiS-by-phase spreadsheet (the single richest apparent Elemental source) is an external Google Sheet; its cell-by-cell content is not captured as text in this corpus, so only the items discussed directly in forum replies could be used here.
+- No leveling-10-29 item list beyond the generic tank shield chain notes; Skegg's guide names most items from level 28 onward.

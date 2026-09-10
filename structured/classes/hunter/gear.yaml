@@ -1,0 +1,1064 @@
+class: Hunter
+generated_from:
+- synthesis/classes/hunter/beast-mastery-ranged-dps.md
+- synthesis/classes/hunter/marksmanship-ranged-dps.md
+- synthesis/classes/hunter/survival-melee-dps.md
+- synthesis/classes/hunter/marksmanship-pvp.md
+- synthesis/classes/hunter/leveling.md
+- structured/classes/hunter/*.yaml
+- https://forum.turtlecraft.gg/viewtopic.php?t=14004
+- https://forum.turtlecraft.gg/viewtopic.php?t=16662
+- https://forum.turtlecraft.gg/viewtopic.php?t=18456
+- https://forum.turtlecraft.gg/viewtopic.php?t=21833
+- structured/patches/1.18.1-changes.yaml
+caveats:
+- No Turtle-specific pre-raid or post-raid BiS list exists as a single forum artifact for any Hunter spec; the pre-raid-60 slot list below is reconstructed from one detailed theorycrafting post (Nurincarinun, 2023) that itemizes the gear it uses, corroborated by named items in other threads. Multiple threads (t14004, t16662, t21833) confirm no such list was ever published and point players to AtlasLoot/vanilla lists instead.
+- Beast Mastery has no BM-specific pre-raid list in the sources; BM players are told to use the Marksmanship pre-raid-60 list below plus the pet-damage item bundle under raid-t1.
+- Survival has no dedicated gear-by-phase list; its 'Gear, enchants and consumables' section only names a handful of melee-only BiS pieces layered on top of the ranged lists.
+- 'Raid tier mapping used below (per structured/glossary.jsonl): T1=Molten Core, T2=Blackwing Lair, T2.5=AQ40, T3=Naxxramas, T3.5=Karazhan 40 (Kara40, also called the Trickster/Ravenstalker tier in Turtle-specific threads).'
+specs:
+- spec: Marksmanship
+  role: ranged-dps
+  brackets:
+  - bracket: pre-raid-60
+    agreement: single
+    patch_validity:
+      written_for: pre-1.18.1 (Nurincarinun's post is from the CC1-era auto-shot kit)
+      valid_for_1181: unknown
+      notes: Item names and stats are unaffected by the 1.18.1 talent rework, which changed rotation/talents, not this pre-raid gear; not independently re-validated post-1.18.1.
+    slots:
+    - slot: head
+      items:
+      - name: Beastmaster's Cap
+        item_id: null
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 22 agi, 1 hit; T0.5 Beastmaster's set piece
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=74308#p74308
+          author: Nurincarinun
+          authority: player
+          date: '2023-10-27'
+    - slot: neck
+      items:
+      - name: Onyxia Tooth Pendant
+        item_id: null
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 12 agi, 1 hit, 1 crit
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=74308#p74308
+          author: Nurincarinun
+          authority: player
+          date: '2023-10-27'
+    - slot: shoulder
+      items:
+      - name: Beastmaster's Mantle
+        item_id: null
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 1 crit, 12 agi; T0.5 set piece
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=74308#p74308
+          author: Nurincarinun
+          authority: player
+          date: '2023-10-27'
+    - slot: chest
+      items:
+      - name: Beastmaster's Tunic
+        item_id: null
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 25 agi, 1 crit; T0.5 set piece
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=74308#p74308
+          author: Nurincarinun
+          authority: player
+          date: '2023-10-27'
+    - slot: back
+      items:
+      - name: Cloak of the Black Baron
+        item_id: null
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 15 agi, 20 ap
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=74308#p74308
+          author: Nurincarinun
+          authority: player
+          date: '2023-10-27'
+    - slot: wrist
+      items:
+      - name: Beastmaster's Bindings
+        item_id: null
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 18 agi; T0.5 set piece
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=74308#p74308
+          author: Nurincarinun
+          authority: player
+          date: '2023-10-27'
+    - slot: hands
+      items:
+      - name: Beastmaster's Gloves
+        item_id: null
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 1 hit, 14 agi; T0.5 set piece
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=74308#p74308
+          author: Nurincarinun
+          authority: player
+          date: '2023-10-27'
+    - slot: waist
+      items:
+      - name: Beastmaster's Belt
+        item_id: null
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 17 agi, 1 hit; T0.5 set piece
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=74308#p74308
+          author: Nurincarinun
+          authority: player
+          date: '2023-10-27'
+    - slot: legs
+      items:
+      - name: Beastmaster's Pants
+        item_id: null
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 1 crit, 28 agi; T0.5 set piece
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=74308#p74308
+          author: Nurincarinun
+          authority: player
+          date: '2023-10-27'
+    - slot: feet
+      items:
+      - name: Beastmaster's Boots
+        item_id: null
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 24 agi; T0.5 set piece
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=74308#p74308
+          author: Nurincarinun
+          authority: player
+          date: '2023-10-27'
+    - slot: ring1
+      items:
+      - name: Tarnished Elven Ring
+        item_id: null
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 15 agi, 1 hit; Nurincarinun wears two
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=74308#p74308
+          author: Nurincarinun
+          authority: player
+          date: '2023-10-27'
+      - name: Maraudon ring (unnamed)
+        item_id: null
+        rank: 2
+        source_type: drop
+        source_place: Maraudon
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: '"is possible to solo and is quite good"'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=67958#p67958
+          author: Biohazze
+          authority: player
+          date: '2023-10-01'
+      - name: Alterac Valley ring (unnamed)
+        item_id: null
+        rank: 2
+        source_type: reputation
+        source_place: Alterac Valley quartermaster
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: called "bis"; also free AV ammo
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=115014#p115014
+          author: Baek
+          authority: player
+          date: '2024-12-31'
+    - slot: ring2
+      items:
+      - name: Tarnished Elven Ring
+        item_id: null
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: second copy
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=74308#p74308
+          author: Nurincarinun
+          authority: player
+          date: '2023-10-27'
+    - slot: trinket1
+      items:
+      - name: Shendralar Trinket
+        item_id: null
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 48 ranged AP
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=74308#p74308
+          author: Nurincarinun
+          authority: player
+          date: '2023-10-27'
+    - slot: trinket2
+      items:
+      - name: Blackhand's Breadth
+        item_id: null
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 2 crit
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=74308#p74308
+          author: Nurincarinun
+          authority: player
+          date: '2023-10-27'
+    - slot: main-hand
+      items:
+      - name: Huntsman's Harpoon
+        item_id: null
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 35 agi melee stat stick
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=74308#p74308
+          author: Nurincarinun
+          authority: player
+          date: '2023-10-27'
+    - slot: ranged
+      items:
+      - name: Revantusk Shadow Hunter's Longbow
+        item_id: null
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 22 ap; Nurincarinun's pre-raid pick
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=74308#p74308
+          author: Nurincarinun
+          authority: player
+          date: '2023-10-27'
+    enchants:
+    - slot: chest
+      enchant: +4 to all stats
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=74308#p74308
+        author: Nurincarinun
+        authority: player
+        date: '2023-10-27'
+    - slot: back
+      enchant: +3 agility
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=74308#p74308
+        author: Nurincarinun
+        authority: player
+        date: '2023-10-27'
+    - slot: waist
+      enchant: +6 agility
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=74308#p74308
+        author: Nurincarinun
+        authority: player
+        date: '2023-10-27'
+    - slot: two-hand (melee stat stick)
+      enchant: +25 agility
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=74308#p74308
+        author: Nurincarinun
+        authority: player
+        date: '2023-10-27'
+    consumables: []
+    stat_notes: 'Agility is the dominant stat pre-raid: Nurincarinun''s math (icyveins-style AP-equivalents: 1 agi=3ap, 1 crit=1 hit=32ap raidbuffed) finds 23-agility enchants beat a 3% haste enchant set at this gear level; the crossover point where haste wins is far above pre-raid gear (~1834 AP-equivalent worth of fixed stats). Hit is a secondary target the sources never quantify precisely for pre-raid (''whatever gets you to hit cap'' — no numeric pre-raid hit target given).'
+  - bracket: raid-t2
+    agreement: single
+    patch_validity:
+      written_for: pre-1.18.1 auto-shot-weave rotation
+      valid_for_1181: unknown
+      notes: Not re-validated after the 1.18.1 rework.
+    slots:
+    - slot: ranged
+      items:
+      - name: Ashjre'thul
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Blackwing Lair
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: '"arguably the second best ranged weapon in the game for Hunters"; slowest-is-best for the Steady/Multi weave'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=66478#p66478
+          author: Borefficz
+          authority: player
+          date: '2023-09-23'
+      - name: Blessed Qiraji Musket
+        item_id: null
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: '"largely interchangeable" with Ashjre''thul; racial-skill weapon (bow/gun/crossbow matching racial skill bonus) preferred when a choice exists'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=60949#p60949
+          author: Kairion
+          authority: player
+          date: '2023-09-05'
+      - name: Larvae of the Great Worm
+        item_id: null
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: musket; rated better than Blessed Qiraji Musket
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=66733#p66733
+          author: Calli
+          authority: player
+          date: '2023-09-24'
+    enchants:
+    - slot: shoulder
+      enchant: 2% haste (over 40 armor penetration)
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=117570#p117570
+        author: Bgnome
+        authority: player
+        date: '2025-01-22'
+    consumables:
+    - name: Mana flask + Lesser Mana Oil x2, Mongoose, Mageblood, Grilled Squid, Ranged bananafood, Major Mana Potion, Demonic Rune, Juju Might/Juju Power (pet)
+      use: raid buff set (MM/BM)
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=91592#p91592
+        author: Likaleo
+        authority: player
+        date: '2024-03-28'
+    - name: Agility potions (do not stack with each other); one food buff; scrolls stack
+      use: buff-stacking rule
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=91590#p91590
+        author: Bigsmerf
+        authority: player
+        date: '2024-03-28'
+    - name: Consecrated Sharpening Stone
+      use: +200 AP vs Undead (does not affect ranged per Cabum)
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=107692#p107692
+        author: Juzam
+        authority: player
+        date: '2024-11-12'
+    stat_notes: Spell power is dead weight for MM ('if you increase SP on your stuff, you'll lose RAP' — noted in the playbook); ranged weapon DPS/speed dominates over marginal enchant choices at this gear level.
+  - bracket: raid-t2.5
+    agreement: single
+    patch_validity:
+      written_for: pre-1.18.1
+      valid_for_1181: unknown
+      notes: T2.5 (AQ40) 3-set text is staff-sourced itemization notes; not re-validated post-1.18.1.
+    slots: []
+    enchants: []
+    consumables:
+    - name: Mana flask + Lesser Mana Oil x2, Mongoose, Mageblood, Grilled Squid, Ranged bananafood, Major Mana Potion, Demonic Rune, Juju Might/Juju Power (pet)
+      use: raid buff set (MM/BM)
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=91592#p91592
+        author: Likaleo
+        authority: player
+        date: '2024-03-28'
+    - name: Agility potions (do not stack with each other); one food buff; scrolls stack
+      use: buff-stacking rule
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=91590#p91590
+        author: Bigsmerf
+        authority: player
+        date: '2024-03-28'
+    - name: Consecrated Sharpening Stone
+      use: +200 AP vs Undead (does not affect ranged per Cabum)
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=107692#p107692
+        author: Juzam
+        authority: player
+        date: '2024-11-12'
+    stat_notes: 'T2.5 3-set: Serpent Sting has a 20% chance to also deal 100 Nature damage and refund 40 mana (staff itemization note, 1.17.2).'
+  - bracket: raid-t3
+    agreement: contested
+    patch_validity:
+      written_for: pre-1.18.1 (Naxx-era)
+      valid_for_1181: unknown
+      notes: 1.18.1 tier-bonus text for T1/T3 not found verbatim in the extracted posts (see gaps).
+    slots:
+    - slot: ranged
+      items:
+      - name: Soulstring
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Naxxramas
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: '"BiS in PVE due to a turtle specific steady shot rotation"'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=125914#p125914
+          author: mrkukucpuk
+          authority: player
+          date: '2025-04-07'
+    - slot: main-hand
+      items:
+      - name: The Eye of Nerub
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Naxxramas
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: BiS melee stat stick for MM/Survival after its rework to a Hunter-usable weapon (also usable by Feral Druids)
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=126982#p126982
+          author: FrankFankledank
+          authority: player
+          date: '2025-04-16'
+      - name: Kingsfall
+        item_id: null
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: beats Eye of Nerub "if you can finagle it so the hit isn't wasted"
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=126982#p126982
+          author: FrankFankledank
+          authority: player
+          date: '2025-04-16'
+      - name: Iblis, Blade of the Fallen Seraph
+        item_id: null
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: alternative to Kingsfall, same hit caveat
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=126982#p126982
+          author: FrankFankledank
+          authority: player
+          date: '2025-04-16'
+      - name: Hatchet of Sundered Bone
+        item_id: null
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: pick if the second hit isn't needed
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=126982#p126982
+          author: FrankFankledank
+          authority: player
+          date: '2025-04-16'
+    - slot: ammo
+      items:
+      - name: Doomshot
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: LBRS / Stratholme bosses
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: best ammo
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=121980#p121980
+          author: FrankFankledank
+          authority: player
+          date: '2025-03-07'
+      - name: Miniature Cannonballs
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: LBRS / Stratholme bosses
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: best ammo, tied with Doomshot
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=121980#p121980
+          author: FrankFankledank
+          authority: player
+          date: '2025-03-07'
+      - name: Alterac Valley quartermaster ammo (unnamed)
+        item_id: null
+        rank: 2
+        source_type: reputation
+        source_place: Alterac Valley quartermaster
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: second-best; free
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=121980#p121980
+          author: FrankFankledank
+          authority: player
+          date: '2025-03-07'
+      - name: Thorium-headed ammo (engineering)
+        item_id: null
+        rank: 3
+        source_type: craft
+        source_place: Engineering
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: third-best
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=121980#p121980
+          author: FrankFankledank
+          authority: player
+          date: '2025-03-07'
+    enchants:
+    - slot: head/legs
+      enchant: Zul'Gurub enchant (24 ranged AP, 1% hit) for MM; Survival uses +8 agility instead
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=134728#p134728
+        author: Cabum
+        authority: player
+        date: '2025-06-08'
+    - slot: hands
+      enchant: +15 agility
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=74308#p74308
+        author: Nurincarinun
+        authority: player
+        date: '2023-10-27'
+    - slot: wrist
+      enchant: +7 agility
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=74308#p74308
+        author: Nurincarinun
+        authority: player
+        date: '2023-10-27'
+    - slot: ranged weapon
+      enchant: damage scope, over Biznick's Alarm/other scopes if hit-capped
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=60949#p60949
+        author: Kairion
+        authority: player
+        date: '2023-09-05'
+    consumables:
+    - name: Mana flask + Lesser Mana Oil x2, Mongoose, Mageblood, Grilled Squid, Ranged bananafood, Major Mana Potion, Demonic Rune, Juju Might/Juju Power (pet)
+      use: raid buff set (MM/BM)
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=91592#p91592
+        author: Likaleo
+        authority: player
+        date: '2024-03-28'
+    - name: Agility potions (do not stack with each other); one food buff; scrolls stack
+      use: buff-stacking rule
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=91590#p91590
+        author: Bigsmerf
+        authority: player
+        date: '2024-03-28'
+    - name: Consecrated Sharpening Stone
+      use: +200 AP vs Undead (does not affect ranged per Cabum)
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=107692#p107692
+        author: Juzam
+        authority: player
+        date: '2024-11-12'
+    - name: Enchanted Thorium ammo
+      use: '"coming" per a player report, unverified in the corpus'
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=169334#p169334
+        author: Calli
+        authority: player
+        date: '2026-02-24'
+    stat_notes: 'Set bonuses (staff, 1.17.2 itemization): T3 6-set effect also usable by melee; T3 8-set reduces the mana cost of Raptor Strike/Mongoose Bite/Carve; a separate Zul''Gurub 5-set makes Serpent Sting tick 20% faster. Carrying both arrows and bullets to raid is called mandatory ("hunters kicked from raids ... for running out of bullets/arrows"); ammo quantity carried is contested (one 16-slot pouch of 3200 rounds called "easily enough" vs. another player who brings "26 stacks or more").'
+  - bracket: raid-t3.5
+    agreement: single
+    patch_validity:
+      written_for: pre-1.18.1 (Kara40-era)
+      valid_for_1181: unknown
+      notes: The Ravenstalker/Trickster T3.5 5-set is explicitly stated to be tuned for melee Survival, not ranged MM.
+    slots:
+    - slot: ranged
+      items:
+      - name: Rain of Spiders
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Karazhan 40
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: called "bis" for Kara40
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=125971#p125971
+          author: Likaleo
+          authority: player
+          date: '2025-04-08'
+    enchants: []
+    consumables:
+    - name: Mana flask + Lesser Mana Oil x2, Mongoose, Mageblood, Grilled Squid, Ranged bananafood, Major Mana Potion, Demonic Rune, Juju Might/Juju Power (pet)
+      use: raid buff set (MM/BM)
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=91592#p91592
+        author: Likaleo
+        authority: player
+        date: '2024-03-28'
+    - name: Agility potions (do not stack with each other); one food buff; scrolls stack
+      use: buff-stacking rule
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=91590#p91590
+        author: Bigsmerf
+        authority: player
+        date: '2024-03-28'
+    - name: Consecrated Sharpening Stone
+      use: +200 AP vs Undead (does not affect ranged per Cabum)
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=107692#p107692
+        author: Juzam
+        authority: player
+        date: '2024-11-12'
+    stat_notes: 'T3.5 (Ravenstalker) 5-set: +5% haste on Quick Shots and -1s cooldown on Carve/Multi-Shot, plus heavy +hit — "made for Melee hunter in mind", so it is a Survival, not MM, itemization target.'
+- spec: Beast Mastery
+  role: ranged-dps
+  brackets:
+  - bracket: raid-t1
+    agreement: single
+    patch_validity:
+      written_for: pre-1.18.1 pet-damage item bundle (2024-10)
+      valid_for_1181: unknown
+      notes: Not re-validated after the 1.18.1 BM rework (Bestial Wrath restored, Kill Command reworked, Baited Shot removed).
+    slots:
+    - slot: chest
+      items:
+      - name: Beastmaster's Tunic
+        item_id: 22060
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: part of the pet-damage bundle (T0.5 set)
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=102664#p102664
+          author: Arcanex Ota
+          authority: player
+          date: '2024-10-06'
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=102698#p102698
+          author: Radiantogryn
+          authority: player
+          date: '2024-10-07'
+    - slot: head
+      items:
+      - name: Beastmaster's Cap
+        item_id: 22013
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=102664#p102664
+          author: Arcanex Ota
+          authority: player
+          date: '2024-10-06'
+    - slot: shoulder
+      items:
+      - name: Beastmaster's Mantle
+        item_id: 22016
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=102664#p102664
+          author: Arcanex Ota
+          authority: player
+          date: '2024-10-06'
+    - slot: hands
+      items:
+      - name: Beastmaster's Gloves
+        item_id: 22015
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=102664#p102664
+          author: Arcanex Ota
+          authority: player
+          date: '2024-10-06'
+    - slot: feet
+      items:
+      - name: Beastmaster's Boots
+        item_id: 22061
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=102664#p102664
+          author: Arcanex Ota
+          authority: player
+          date: '2024-10-06'
+    - slot: waist
+      items:
+      - name: Beastmaster's Belt
+        item_id: 22010
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=102664#p102664
+          author: Arcanex Ota
+          authority: player
+          date: '2024-10-06'
+    - slot: wrist
+      items:
+      - name: Beastmaster's Bindings
+        item_id: 22011
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=102664#p102664
+          author: Arcanex Ota
+          authority: player
+          date: '2024-10-06'
+    - slot: legs
+      items:
+      - name: Beastmaster's Pants
+        item_id: 22017
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=102664#p102664
+          author: Arcanex Ota
+          authority: player
+          date: '2024-10-06'
+    - slot: main-hand
+      items:
+      - name: AQ20 Hunter's set weapon
+        item_id: 21401
+        rank: 2
+        source_type: drop
+        source_place: Ruins of Ahn'Qiraj (AQ20)
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: AQ20 Hunter's set piece
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=102664#p102664
+          author: Arcanex Ota
+          authority: player
+          date: '2024-10-06'
+    - slot: ring1
+      items:
+      - name: AQ20 Hunter's set ring
+        item_id: 21402
+        rank: 2
+        source_type: drop
+        source_place: Ruins of Ahn'Qiraj (AQ20)
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=102664#p102664
+          author: Arcanex Ota
+          authority: player
+          date: '2024-10-06'
+    - slot: back
+      items:
+      - name: AQ20 Hunter's set cloak
+        item_id: 21403
+        rank: 2
+        source_type: drop
+        source_place: Ruins of Ahn'Qiraj (AQ20)
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=102664#p102664
+          author: Arcanex Ota
+          authority: player
+          date: '2024-10-06'
+    - slot: chest
+      items:
+      - name: Breastplate of Beast Mastery
+        item_id: null
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: +3% pet damage, +5% pet health, +2% pet crit; needs line of sight to the pet
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=102678#p102678
+          author: Atreidon
+          authority: player
+          date: '2024-10-07'
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=169839#p169839
+          author: Lane13
+          authority: player
+          date: '2026-03-02'
+    - slot: trinket1
+      items:
+      - name: Ferra's Collar
+        item_id: null
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: pet-damage trinket
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=102664#p102664
+          author: Arcanex Ota
+          authority: player
+          date: '2024-10-06'
+    - slot: neck
+      items:
+      - name: (unnamed in sources)
+        item_id: 83233
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: pet-damage neck; name not given in the post, only the item ID
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=102664#p102664
+          author: Arcanex Ota
+          authority: player
+          date: '2024-10-06'
+    enchants: []
+    consumables:
+    - name: Juju Might, Juju Power, Scrolls (fed to the pet)
+      use: pet buffs; feed before every boss
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=105276#p105276
+        author: Dragunovi
+        authority: staff
+        date: '2024-10-30'
+    stat_notes: The full pet-damage bundle above totals "13% damage, 4% additional crit and 50 attack power" for the pet, but per a later, more experienced source "an item giving +9 agility is already better than that pet-damage bonus" once past Blackwing Lair — i.e. by raid-t2 the bundle is superseded by plain agility upgrades. Ranged Attack Power feeds the pet through Spirit Bond and is BM's top personal stat; items that trade AP for crit "improve the hunter's personal DPS but do almost nothing for the pet".
+  - bracket: raid-t2
+    agreement: single
+    patch_validity:
+      written_for: 1.18.1 set-bonus text (2026-03)
+      valid_for_1181: 'true'
+      notes: Explicitly reported as still working post-1.18.1.
+    slots: []
+    enchants: []
+    consumables: []
+    stat_notes: T2 5-piece set bonus does not require line of sight to the pet (unlike the Breastplate of Beast Mastery/Unseen Path bonuses, which do).
+  - bracket: raid-t3
+    agreement: single
+    patch_validity:
+      written_for: 1.18.1
+      valid_for_1181: 'true'
+      notes: Single player report; exact tier-bonus text and its source post were not reidentified during this pass (see gaps).
+    slots: []
+    enchants: []
+    consumables: []
+    stat_notes: T3 4-set reported to grant +50 attack power to the hunter and the pet (1.18.1 itemization); not independently corroborated.
+- spec: Survival
+  role: melee-dps
+  brackets:
+  - bracket: raid-t3
+    agreement: contested
+    patch_validity:
+      written_for: pre-1.18.1 and 1.18.1-announced-pre-release
+      valid_for_1181: unknown
+      notes: Survival's melee kit and Vicious Strikes were touched by 1.18.1 (Alone Against the World added, Vicious Strikes restored) but the weapon/gear picks below predate that and are not re-validated.
+    slots:
+    - slot: two-hand
+      items:
+      - name: The Eye of Nerub
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Naxxramas
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: BiS melee weapon for Survival after its Hunter-usable rework
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=126982#p126982
+          author: FrankFankledank
+          authority: player
+          date: '2025-04-16'
+      - name: Halberd of the Bronze Defender
+        item_id: null
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: '"a pre bis item [that] deals the ~same damage than Nerubian Slavemaker"'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=155899#p155899
+          author: Calli
+          authority: player
+          date: '2025-10-17'
+    enchants:
+    - slot: head/legs
+      enchant: +8 agility (not the ZG enchant MM uses)
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=134728#p134728
+        author: Cabum
+        authority: player
+        date: '2025-06-08'
+    - slot: two-hand
+      enchant: +25 agility
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=74308#p74308
+        author: Nurincarinun
+        authority: player
+        date: '2023-10-27'
+    consumables:
+    - name: Mana flask + Lesser Mana Oil x2, Mongoose, Mageblood, Grilled Squid, Ranged bananafood, Major Mana Potion, Demonic Rune, Juju Might/Juju Power (pet)
+      use: raid buff set (MM/BM)
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=91592#p91592
+        author: Likaleo
+        authority: player
+        date: '2024-03-28'
+    - name: Agility potions (do not stack with each other); one food buff; scrolls stack
+      use: buff-stacking rule
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=91590#p91590
+        author: Bigsmerf
+        authority: player
+        date: '2024-03-28'
+    - name: Consecrated Sharpening Stone
+      use: +200 AP vs Undead (does not affect ranged per Cabum)
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=107692#p107692
+        author: Juzam
+        authority: player
+        date: '2024-11-12'
+    stat_notes: 'Melee-only items usable by Survival that MM/BM cannot equip: Hand of Justice, Wrath of Cenarius ("wot cloak"), Chronobreaker — "good items that are melee only and kinda op". A ranged stat stick is still carried for pulls and Tranquilizing Shot even in a melee build.'
+  - bracket: raid-t3.5
+    agreement: single
+    patch_validity:
+      written_for: pre-1.18.1
+      valid_for_1181: unknown
+      notes: Explicitly stated to be designed for melee Survival.
+    slots: []
+    enchants: []
+    consumables: []
+    stat_notes: 'T3.5 (Ravenstalker) 5-set: +5% haste on Quick Shots and -1s Carve/Multi-Shot cooldown "was made for Melee hunter in mind". T1 8-set (+15% Carve) and T2 8-set (Detect Weakness) also apply to Survival''s melee kit (staff, 1.17.2 itemization).'
+- spec: Beast Mastery / BM-MM hybrid
+  role: pvp
+  brackets:
+  - bracket: pvp-60
+    agreement: single
+    patch_validity:
+      written_for: pre-1.18.1; PvP standing improved sharply after 1.18.1 (unconfirmed mechanism)
+      valid_for_1181: unknown
+      notes: 'Player observation only: BM pets reportedly ignore the new 1.18.1 PvP dampening, with no staff confirmation.'
+    slots:
+    - slot: ranged
+      items:
+      - name: Nerubian Slavemaker
+        item_id: null
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 57.2 DPS; still the PvP pick because "you don't get nearly as many chances to Steady in PvP" so the Naxx auto-shot weapon (Soulstring) loses its PvE edge
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=126982#p126982
+          author: FrankFankledank
+          authority: player
+          date: '2025-04-16'
+    enchants: []
+    consumables: []
+    stat_notes: No dedicated Hunter PvP gear-by-slot list exists in the sources; PvP gearing is discussed only in terms of specific weapon and racial choices.
+- spec: Marksmanship
+  role: pvp
+  brackets:
+  - bracket: pvp-60
+    agreement: single
+    patch_validity:
+      written_for: pre-1.18.1 (0/21/30 trapper build, obsolete)
+      valid_for_1181: 'false'
+      notes: The 0/21/30 trapper build is stated obsolete; deep MM PvP is called competitive only when fully BiS.
+    slots: []
+    enchants: []
+    consumables: []
+    stat_notes: No slot-by-slot PvP list exists for MM in the sources; the one advocate's claim is qualitative only.
+gaps:
+- No BM-specific pre-raid gear list (BM players are told to follow the MM pre-raid list plus the pet-damage bundle).
+- No Survival-specific gear list by phase; only a short list of melee-only items layered onto the ranged lists.
+- No slot-by-slot PvP BiS list for any Hunter spec (unlike Rogue's dagger/Subtlety PvP list). PvP gear discussion is limited to weapon picks and general racial/consumable notes.
+- No leveling-10-29 or leveling-30-49 gear lists; leveling.md gives only a few named upgrades scattered from level ~16 to 60 (Hillsbrad quest crossbow, Beastmaster's set at 60, Maraudon ring, AV ring, Rhok'delar).
+- The exact post citing the 1.18.1 'T3 4-set = +50 AP to hunter and pet' claim was not reidentified during this pass; it is carried over from synthesis/classes/hunter/beast-mastery-ranged-dps.md, which itself gives no inline URL for that specific sentence.
+- No source states where the Beastmaster's (T0.5) set, Onyxia Tooth Pendant, Shendralar Trinket, Blackhand's Breadth, Huntsman's Harpoon, Revantusk Shadow Hunter's Longbow, Tarnished Elven Ring, item 83233, Rain of Spiders, or Nerubian Slavemaker drop from or are purchased/quested from; all are marked unknown-in-sources pending the server database.
+- 1.18.1's full tier-set text (post-release) is not in the extracted posts beyond the two single-source fragments above (T2 5-set LoS confirmation and the unverified T3 4-set claim).

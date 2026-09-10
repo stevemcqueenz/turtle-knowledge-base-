@@ -1,0 +1,1443 @@
+class: Rogue
+generated_from:
+- synthesis/classes/rogue/assassination-melee-dps.md
+- synthesis/classes/rogue/assassination-pvp.md
+- synthesis/classes/rogue/combat-melee-dps.md
+- synthesis/classes/rogue/combat-tank.md
+- synthesis/classes/rogue/subtlety-melee-dps.md
+- synthesis/classes/rogue/subtlety-pvp.md
+- synthesis/classes/rogue/leveling.md
+- structured/classes/rogue/*.yaml
+- https://forum.turtlecraft.gg/viewtopic.php?t=23023
+- https://forum.turtlecraft.gg/viewtopic.php?t=13918
+- https://forum.turtlecraft.gg/viewtopic.php?t=14264
+- https://forum.turtlecraft.gg/viewtopic.php?t=16538
+- structured/patches/1.18.1-changes.yaml
+caveats:
+- 'Raid tier mapping used below (per structured/glossary.jsonl): T1=Molten Core, T2=Blackwing Lair, T2.5=AQ40, T3=Naxxramas, T3.5=Karazhan 40 (the Trickster set).'
+- The richest single item-level list in the corpus is Brisspvp's 8/9-Naxx-plus-AQ40-belt PvP BiS list (subtlety-pvp), reused here for both Subtlety and (partly) Combat PvP.
+- Assassination gear is drawn mainly from Shananagans' 2025 guide-writer posts, which explicitly frame themselves as opinion ('jmho', 'IMHO') rather than a measured BiS list; treated as single-source/guide-writer authority throughout.
+- Combat-tank gear (Ssai's 2022 avoidance list) predates Class Changes 2 (which removed Setup, Sleight of Hand and Endurance) and uses vanilla item names with no stated Turtle-specific verification; kept for reference only, flagged accordingly.
+- The 10/19 Twink Rogue PvP BiS List (t14264) and BiS list thread (t13918) point to external Google Sheets/Discord spreadsheets not captured as text in this corpus; their item-level content could not be extracted.
+specs:
+- spec: Assassination
+  role: melee-dps
+  brackets:
+  - bracket: pre-raid-60
+    agreement: single
+    patch_validity:
+      written_for: 1.18.0 (2025-08 to 2025-12 guide-writer posts)
+      valid_for_1181: 'false'
+      notes: Not re-validated after the 1.18.1 poison/Taste for Blood rework (2026-01-23, revised 2026-03-19).
+    slots:
+    - slot: main-hand
+      items:
+      - name: Julie's Dagger
+        item_id: null
+        rank: 1
+        source_type: world-drop
+        source_place: null
+        source_detail: Bind on Equip
+        custom_turtle_item: unknown
+        notes: 1.30 speed; entry pair (equip two)
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=149679#p149679
+          author: Shananagans
+          authority: player (guide writer)
+          date: '2025-09-01'
+      - name: Alcor's Sunrazor
+        item_id: 14555
+        rank: 1
+        source_type: world-drop
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: not unique — two can be equipped; +10 fire resist each (+20 stacked); on-hit fire proc (useless inside Molten Core, mobs immune)
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=162667#p162667
+          author: Shananagans
+          authority: player (guide writer)
+          date: '2025-12-13'
+      - name: Sorcerous Dagger
+        item_id: 18878
+        rank: 2
+        source_type: drop
+        source_place: Molten Core
+        source_detail: 1.3 speed
+        custom_turtle_item: unknown
+        notes: 'Equip: +1% attack and casting speed — "Highly Recommend"'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=162667#p162667
+          author: Shananagans
+          authority: player (guide writer)
+          date: '2025-12-13'
+    - slot: off-hand
+      items:
+      - name: Distracting Dagger
+        item_id: 18392
+        rank: 1
+        source_type: drop
+        source_place: Dire Maul (West)
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: +6 dagger skill; blue but very powerful; pre-raid BiS off-hand
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=162667#p162667
+          author: Shananagans
+          authority: player (guide writer)
+          date: '2025-12-13'
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=161013#p161013
+          author: Shananagans
+          authority: player (guide writer)
+          date: '2025-11-28'
+      - name: Fang of Venoxis
+        item_id: 19903
+        rank: 2
+        source_type: drop
+        source_place: Zul'Gurub
+        source_detail: High Priest Venoxis
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=162667#p162667
+          author: Shananagans
+          authority: player (guide writer)
+          date: '2025-12-13'
+      - name: Ornate Bloodstone Dagger
+        item_id: 65004
+        rank: 2
+        source_type: craft
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=162667#p162667
+          author: Shananagans
+          authority: player (guide writer)
+          date: '2025-12-13'
+      - name: The Ripper
+        item_id: 60422
+        rank: 3
+        source_type: drop
+        source_place: Damian, Booty Bay (per Sslushee) — disputed with Stormwind Vault's Damien
+        source_detail: drop location unresolved between two same-named NPCs
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=162667#p162667
+          author: Shananagans
+          authority: player (guide writer)
+          date: '2025-12-13'
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=164826#p164826
+          author: Sslushee
+          authority: player
+          date: '2026-01-10'
+    - slot: hands
+      items:
+      - name: Nightslayer Bracers
+        item_id: 16825
+        rank: 2
+        source_type: vendor
+        source_place: Auction House
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 'AH filler; note: this is a bracer despite the set name'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=161013#p161013
+          author: Shananagans
+          authority: player (guide writer)
+          date: '2025-11-28'
+    - slot: wrist
+      items:
+      - name: Nightslayer Bracers
+        item_id: 16825
+        rank: 2
+        source_type: vendor
+        source_place: Auction House
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=161013#p161013
+          author: Shananagans
+          authority: player (guide writer)
+          date: '2025-11-28'
+    - slot: feet
+      items:
+      - name: Mongoose Boots
+        item_id: 18506
+        rank: 2
+        source_type: vendor
+        source_place: Auction House
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=161013#p161013
+          author: Shananagans
+          authority: player (guide writer)
+          date: '2025-11-28'
+    - slot: waist
+      items:
+      - name: Mugger's Belt
+        item_id: 18505
+        rank: 1
+        source_type: drop
+        source_place: Dire Maul
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: +5 dagger skill
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=161013#p161013
+          author: Shananagans
+          authority: player (guide writer)
+          date: '2025-11-28'
+    - slot: ring1
+      items:
+      - name: Tarnished Elven Ring
+        item_id: 18500
+        rank: 1
+        source_type: drop
+        source_place: Dire Maul
+        source_detail: Mizzle the Crafty
+        custom_turtle_item: unknown
+        notes: 1% hit
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=153680#p153680
+          author: Shananagans
+          authority: player (guide writer)
+          date: '2025-09-29'
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=161013#p161013
+          author: Shananagans
+          authority: player (guide writer)
+          date: '2025-11-28'
+      - name: Blackstone Ring
+        item_id: 17713
+        rank: 2
+        source_type: drop
+        source_place: Maraudon
+        source_detail: Princess Theradras
+        custom_turtle_item: unknown
+        notes: 1% hit
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=153680#p153680
+          author: Shananagans
+          authority: player (guide writer)
+          date: '2025-09-29'
+    - slot: trinket1
+      items:
+      - name: Rune of the Wildhammer Clan
+        item_id: 51755
+        rank: 2
+        source_type: quest
+        source_place: Hinterlands (an "easy quest", pickable in the low 40s)
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 1% hit and 1% spell hit
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=153680#p153680
+          author: Shananagans
+          authority: player (guide writer)
+          date: '2025-09-29'
+    enchants:
+    - slot: main-hand and off-hand
+      enchant: +15 Agility, preferred over Crusader ("better synergy with assassination due to Seal Fate")
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=149679#p149679
+        author: Shananagans
+        authority: player (guide writer)
+        date: '2025-09-01'
+    consumables:
+    - name: Instant Poison VI x2 (plus spares), Dissolvent II (Elementals/Mechanicals/Giants/Undead only), Thistle Tea, Oil of Immolation, Dragonbreath Chili
+      use: raid poison/utility set
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=149679#p149679
+        author: Shananagans
+        authority: player (guide writer)
+        date: '2025-09-01'
+    - name: Mongoose, jujus, food
+      use: '"standard" per a struggling combat rogue''s self-described consumable list'
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=128007#p128007
+        author: RecenRogue
+        authority: player
+        date: '2025-04-22'
+    - name: Sweet 'N Crunchy Fruit Bread
+      use: credited with rogue burst by a hunter observer; given a 5-min shared cooldown with Poisonous Mushroom on 2026-01-20
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=164294#p164294
+        author: Vrag
+        authority: player
+        date: '2026-01-02'
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=165755#p165755
+        author: Shadowsong
+        authority: staff
+        date: '2026-01-20'
+    stat_notes: '"Speed of Daggers, + to Daggers, Critical Strike" — dagger speed dominates over raw damage/DPS rating because poison procs (not weapon damage) drive Assassination''s output; weapon skill (capped at 315) is valued for pushing misses/glances off the table, indirectly raising poison-proc uptime. Two 1.3-speed daggers are preferred over one slow high-damage dagger; Flurry Axe x2 was tested and rejected because compensating for their 0.2s-slower speed would need a 15% extra-attack proc chance that Turtle''s axes don''t have.'
+  - bracket: raid-t3
+    agreement: single
+    patch_validity:
+      written_for: 1.18.0
+      valid_for_1181: 'false'
+      notes: Bonescythe (itemset 524) is a Naxxramas set; not independently re-validated post-1.18.1.
+    slots:
+    - slot: off-hand
+      items:
+      - name: Harbinger of Doom
+        item_id: 23044
+        rank: 3
+        source_type: drop
+        source_place: Naxxramas trash
+        source_detail: 1.6 speed
+        custom_turtle_item: unknown
+        notes: '"pretty slow for an Assassination rogue"; may lose DPS versus two 1.3-speed daggers depending on haste'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=162667#p162667
+          author: Shananagans
+          authority: player (guide writer)
+          date: '2025-12-13'
+    enchants: []
+    consumables:
+    - name: Instant Poison VI x2 (plus spares), Dissolvent II (Elementals/Mechanicals/Giants/Undead only), Thistle Tea, Oil of Immolation, Dragonbreath Chili
+      use: raid poison/utility set
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=149679#p149679
+        author: Shananagans
+        authority: player (guide writer)
+        date: '2025-09-01'
+    - name: Mongoose, jujus, food
+      use: '"standard" per a struggling combat rogue''s self-described consumable list'
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=128007#p128007
+        author: RecenRogue
+        authority: player
+        date: '2025-04-22'
+    - name: Sweet 'N Crunchy Fruit Bread
+      use: credited with rogue burst by a hunter observer; given a 5-min shared cooldown with Poisonous Mushroom on 2026-01-20
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=164294#p164294
+        author: Vrag
+        authority: player
+        date: '2026-01-02'
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=165755#p165755
+        author: Shadowsong
+        authority: staff
+        date: '2026-01-20'
+    stat_notes: 'Gearing progression per the guide writer: 4-piece Darkmantle (itemset 512, energy proc) + 4-piece Stormshroud (itemset 142, crafted, energy/haste proc) first ("very hard for any set to beat 2x energy procs"), then Bonescythe (itemset 524) or Trickster (itemset 698, T3.5) — Trickster stated as the guide writer''s own preferred end target.'
+  - bracket: raid-t3.5
+    agreement: single
+    patch_validity:
+      written_for: 1.18.0
+      valid_for_1181: unknown
+      notes: Trickster (itemset 698) is the Kara40 set.
+    slots: []
+    enchants: []
+    consumables: []
+    stat_notes: Trickster (itemset 698) is the guide writer's preferred armor target ahead of Bonescythe. Separately, 1.18.1 (live 2026-03-20) added a Rogue class-weapon questline through Timbermaw Hold, in the spirit of Rhok'delar/Lok'delar (Dragunovi, staff, 2026-02-15, https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272); the starter is quest 42029, whose starter item (42307) drops from Peroth'arn (Sleeptime, staff, 2026-04-06, https://forum.turtlecraft.gg/viewtopic.php?p=174120#p174120). No weapon stats are given in the extracted posts.
+- spec: Assassination
+  role: pvp
+  brackets:
+  - bracket: pvp-60
+    agreement: contested
+    patch_validity:
+      written_for: pre-1.18.0 (Brisspvp's list) vs 1.18.0 dagger-speed doctrine (Shananagans)
+      valid_for_1181: unknown
+      notes: New 1.18.1 PvP items with DoT/crit reduction are reported to exist but are untested in the corpus.
+    slots:
+    - slot: main-hand
+      items:
+      - name: Kingsfall
+        item_id: null
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: Brisspvp's PvP BiS main-hand dagger pick (pre-1.18.0 list)
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+    - slot: off-hand
+      items:
+      - name: Harbinger of Doom
+        item_id: 23044
+        rank: 1
+        source_type: drop
+        source_place: Naxxramas trash
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: Brisspvp's PvP BiS off-hand dagger pick (pre-1.18.0 list)
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+    enchants: []
+    consumables: []
+    stat_notes: For the 1.18.0+ dagger-speed doctrine, the sources prefer 1.3-speed daggers over the slower Naxx daggers Brisspvp's list favors — i.e. Brisspvp's picks are dated by the newer speed-first Assassination consensus. Otherwise gear as pre-raid-60/raid-t3/raid-t3.5 above, plus PvP stamina pieces (unnamed in the sources).
+- spec: Combat
+  role: melee-dps
+  brackets:
+  - bracket: pre-raid-60
+    agreement: contested
+    patch_validity:
+      written_for: pre-1.18.1
+      valid_for_1181: unknown
+      notes: '"It''s basically the same, world buffs or not" — the poster treats this as unchanged vanilla-baseline BiS.'
+    slots:
+    - slot: off-hand
+      items:
+      - name: Alcor's Sunrazor
+        item_id: 14555
+        rank: 1
+        source_type: world-drop
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 'Likaleo''s fresh-60 list: "farm AV for that epic dagger + epic ring. Then buy alcor sunrazor dagger"'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=86159#p86159
+          author: Likaleo
+          authority: player
+          date: '2024-01-28'
+      - name: Distracting Dagger
+        item_id: 18392
+        rank: 1
+        source_type: drop
+        source_place: Dire Maul
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=86159#p86159
+          author: Likaleo
+          authority: player
+          date: '2024-01-28'
+    enchants: []
+    consumables: []
+    stat_notes: Fast off-hand for poison procs is the classic Combat layout; a `(vanilla baseline, not from turtlecraft.gg)` reference BiS is the Turtle Discord spreadsheet the sources point to rather than restate.
+  - bracket: raid-t3
+    agreement: single
+    patch_validity:
+      written_for: pre-1.18.1
+      valid_for_1181: unknown
+      notes: Naxx trash items 23044/23221/23226; not re-validated post-1.18.1.
+    slots:
+    - slot: main-hand
+      items:
+      - name: Harbinger of Doom
+        item_id: 23044
+        rank: 1
+        source_type: drop
+        source_place: Naxxramas trash
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: '"both are better than r14 counterparts"'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=93059#p93059
+          author: Erhog
+          authority: player
+          date: '2024-04-18'
+      - name: (unnamed in sources)
+        item_id: 23221
+        rank: 1
+        source_type: drop
+        source_place: Naxxramas trash
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=93059#p93059
+          author: Erhog
+          authority: player
+          date: '2024-04-18'
+      - name: Teebu's Blazing Longsword
+        item_id: null
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: '"if you don''t want to farm naxx trash then just get a Teebu''s"'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=93061#p93061
+          author: Gantulga
+          authority: player
+          date: '2024-04-18'
+    - slot: chest
+      items:
+      - name: (unnamed in sources)
+        item_id: 23226
+        rank: 2
+        source_type: drop
+        source_place: Naxxramas trash
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=93059#p93059
+          author: Erhog
+          authority: player
+          date: '2024-04-18'
+    enchants: []
+    consumables: []
+    stat_notes: Sandstalker's Shroud sims "a tiiiny bit higher" than the alternative for sword rogues; dagger goblins do slightly better with Claw of the Frost Wyrm instead of a second dagger `(vanilla baseline, not from turtlecraft.gg)`; crafted BoE swords (item 17015, item 65008) exist but are called "terrible".
+  - bracket: pvp-60
+    agreement: single
+    patch_validity:
+      written_for: pre-1.18.1
+      valid_for_1181: unknown
+      notes: Reputation gear is time-invariant unless itemization changed it (not reported).
+    slots:
+    - slot: main-hand
+      items:
+      - name: The Lobotomizer
+        item_id: 19324
+        rank: 1
+        source_type: reputation
+        source_place: Alterac Valley, exalted
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=92998#p92998
+          author: Xudo
+          authority: player
+          date: '2024-04-18'
+      - name: Glacial Blade
+        item_id: 19099
+        rank: 2
+        source_type: reputation
+        source_place: Alterac Valley, revered
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=92998#p92998
+          author: Xudo
+          authority: player
+          date: '2024-04-18'
+    enchants: []
+    consumables: []
+    stat_notes: Warsong Gulch revered-rank blades and swords are also named as options, without a specific item name given. Pre-1.18.0, sources describe (`vanilla baseline, not from turtlecraft.gg`) "we rock perdition's blade or maladath, with Felstriker or Thunderfury".
+- spec: Combat (Flourish + Agitating Poison)
+  role: tank
+  brackets:
+  - bracket: pre-raid-60
+    agreement: single
+    patch_validity:
+      written_for: 2022 (pre-Class-Changes-2)
+      valid_for_1181: 'false'
+      notes: Every posted build/item list predates CC2 (2024), which removed Setup, Sleight of Hand and Endurance; item names are vanilla with no stated Turtle-specific verification.
+    slots:
+    - slot: head
+      items:
+      - name: Guise of the Devourer
+        item_id: null
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: 'false'
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=24106#p24106
+          author: Ssai
+          authority: player
+          date: '2022-09-01'
+    - slot: waist
+      items:
+      - name: Taut Dragonhide Belt
+        item_id: null
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: 'false'
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=24106#p24106
+          author: Ssai
+          authority: player
+          date: '2022-09-01'
+    - slot: neck
+      items:
+      - name: Mark of C'Thun
+        item_id: null
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: 'false'
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=24106#p24106
+          author: Ssai
+          authority: player
+          date: '2022-09-01'
+    - slot: main-hand
+      items:
+      - name: Maladath, Runed Blade of the Black Flight
+        item_id: null
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: 'false'
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=24106#p24106
+          author: Ssai
+          authority: player
+          date: '2022-09-01'
+    - slot: off-hand
+      items:
+      - name: Blackguard
+        item_id: null
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: 'false'
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=24106#p24106
+          author: Ssai
+          authority: player
+          date: '2022-09-01'
+    - slot: chest
+      items:
+      - name: Bloodfang Chestpiece
+        item_id: null
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: 'false'
+        notes: Bloodfang set pieces named as a group
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=24106#p24106
+          author: Ssai
+          authority: player
+          date: '2022-09-01'
+    - slot: trinket1
+      items:
+      - name: Drake Fang Talisman
+        item_id: null
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: 'false'
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=24106#p24106
+          author: Ssai
+          authority: player
+          date: '2022-09-01'
+    - slot: trinket2
+      items:
+      - name: Onyxia Blood Talisman
+        item_id: null
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: 'false'
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=24106#p24106
+          author: Ssai
+          authority: player
+          date: '2022-09-01'
+    - slot: back
+      items:
+      - name: Cryptfiend Silk Cloak
+        item_id: null
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: 'false'
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=24106#p24106
+          author: Ssai
+          authority: player
+          date: '2022-09-01'
+    - slot: ring1
+      items:
+      - name: Hailstone Band
+        item_id: null
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: 'false'
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=24106#p24106
+          author: Ssai
+          authority: player
+          date: '2022-09-01'
+      - name: Ring of Binding
+        item_id: null
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: 'false'
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=24106#p24106
+          author: Ssai
+          authority: player
+          date: '2022-09-01'
+    - slot: wrist
+      items:
+      - name: Shadowshifter Armguards
+        item_id: null
+        rank: 2
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: 'false'
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=24106#p24106
+          author: Ssai
+          authority: player
+          date: '2022-09-01'
+    - slot: main-hand
+      items:
+      - name: Julie's Dagger
+        item_id: null
+        rank: 1
+        source_type: world-drop
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: paired with a Lifestealing enchant as a solo "drain tank" set (distinct from the avoidance list above)
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=7021#p7021
+          author: Roxanneflowers
+          authority: player
+          date: '2020-07-22'
+    enchants: []
+    consumables:
+    - name: Agitating Poison, Scorpok/agility elixirs, armor/stamina consumables
+      use: threat (Agitating Poison is the Nature-damage threat generator; poison-immune mobs cannot be tanked) and mitigation
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=49177#p49177
+        author: Derrurak
+        authority: player
+        date: '2023-06-07'
+    - name: Engineering grenades and target dummies
+      use: utility/threat tools
+      citations:
+      - url: https://forum.turtlecraft.gg/viewtopic.php?p=49177#p49177
+        author: Derrurak
+        authority: player
+        date: '2023-06-07'
+    stat_notes: Avoidance (dodge, parry, defense) first, then stamina, then threat stats (hit, agility, weapon skill for poison procs), then caster-boss resistances. This list is explicitly self-corrected by its own author as "no longer ideal" and is kept here only as the earliest documented attempt; no updated slot-by-slot list exists post-CC2.
+- spec: Subtlety
+  role: melee-dps
+  brackets:
+  - bracket: pre-raid-60
+    agreement: single
+    patch_validity:
+      written_for: pre-1.18.1
+      valid_for_1181: unknown
+      notes: 'Thin: no Subtlety-specific item list beyond one set-bonus claim.'
+    slots: []
+    enchants: []
+    consumables:
+    - name: Thistle Tea, Instant Poison/Instant Poison, Blinding Powder (for Blind), Flash Powder (for Vanish)
+      use: same consumable set as Combat
+      citations: []
+    stat_notes: '"Shadowcraft''s energy proc bonus" is called nearly required, plus generic hit/crit gear; no item names or slot list given beyond that.'
+- spec: Subtlety
+  role: pvp
+  brackets:
+  - bracket: pvp-60
+    agreement: single
+    patch_validity:
+      written_for: pre-1.18.1 (8/9 Naxx + AQ40 belt, Kara40 Trickster where listed)
+      valid_for_1181: 'false'
+      notes: Author had not played the current 1.17.2 patch at time of posting; notes new items may be missing.
+    slots:
+    - slot: head
+      items:
+      - name: Trickster Helmet
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Karazhan 40
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+      - name: Bonescythe Helmet
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Naxxramas
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: alt BiS
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+      - name: Sightless Leather Hood
+        item_id: null
+        rank: 3
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 'situational: stealth detect'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+      - name: X-52 Stealth Ocular Implants
+        item_id: null
+        rank: 3
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 'situational: increased stealth'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+      - name: Goblin Rocket Helm
+        item_id: null
+        rank: 3
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 'situational: charge stun'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+    - slot: neck
+      items:
+      - name: Trickster Choker
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Karazhan 40
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+      - name: Stormrage's Talisman of Seething
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Naxxramas
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: alt BiS
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+      - name: Zandalari Shadow Mastery Talisman
+        item_id: null
+        rank: 3
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 'situational: decreased Kick cooldown'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+    - slot: shoulder
+      items:
+      - name: Trickster Pauldrons
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Karazhan 40
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+      - name: Bonescythe Pauldrons
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Naxxramas
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: alt BiS
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+    - slot: chest
+      items:
+      - name: Trickster Breastplate
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Karazhan 40
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+      - name: Bonescythe Breastplate
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Naxxramas
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: alt BiS
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+    - slot: waist
+      items:
+      - name: Belt of Never-ending Agony
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: AQ40
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+      - name: Bonescythe Waistguard
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Naxxramas
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: secondary BiS
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+      - name: Spider Belt
+        item_id: null
+        rank: 3
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 'situational: removes snares'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+      - name: Gnomish Harm Prevention Belt
+        item_id: null
+        rank: 3
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 'situational: 500 HP bubble'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+    - slot: legs
+      items:
+      - name: Trickster Leggings
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Karazhan 40
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+      - name: Bonescythe Legplates
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Naxxramas
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: alt BiS
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+    - slot: feet
+      items:
+      - name: Trickster Sabatons
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Karazhan 40
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+      - name: Bonescythe Sabatons
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Naxxramas
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: alt BiS
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+      - name: Boots of Displacement
+        item_id: null
+        rank: 3
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 'situational: increased stealth'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+      - name: General's Leather Treads / Marshal's Leather Footguards
+        item_id: null
+        rank: 3
+        source_type: reputation
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 'situational: +3s to Sprint'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+      - name: Windwalker Boots
+        item_id: null
+        rank: 3
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 'situational: increased run speed'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+      - name: Gnomish Rocket Boots
+        item_id: null
+        rank: 3
+        source_type: craft
+        source_place: Engineering
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: situational
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+    - slot: wrist
+      items:
+      - name: Bonescythe Bracers
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Naxxramas
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+    - slot: hands
+      items:
+      - name: Bonescythe Gauntlets
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Naxxramas
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+      - name: Bloodfang Gloves
+        item_id: null
+        rank: 3
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 'situational: immune to disarms'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+    - slot: ring1
+      items:
+      - name: Bonescythe Ring
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Naxxramas
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+      - name: Master Dragonslayer's Ring
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Blackwing Lair
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+    - slot: trinket1
+      items:
+      - name: Insignia of the Horde / Insignia of the Alliance
+        item_id: null
+        rank: 1
+        source_type: pvp
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+      - name: Slayer's Crest
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Naxxramas
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: +280 AP for 20 sec on use
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+      - name: Renataki's Charm of Trickery
+        item_id: null
+        rank: 3
+        source_type: drop
+        source_place: Zul'Gurub
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 'situational: use +60 energy'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+      - name: Glimmering Mithril Insignia
+        item_id: null
+        rank: 3
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 'situational: fear immunity 30s'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+      - name: Luffa
+        item_id: null
+        rank: 3
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 'situational: removes bleeding'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+      - name: Arena Grand Master
+        item_id: null
+        rank: 3
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 'situational: bubble'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+      - name: Thornpod
+        item_id: null
+        rank: 3
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 'situational: AoE stun'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+      - name: Dark Iron Hooked Net
+        item_id: null
+        rank: 3
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 'situational: use, 10s root'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+    - slot: back
+      items:
+      - name: Shadow-Weaver's Cape
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Western Plaguelands world boss
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+      - name: Cloak of the Dark Veil
+        item_id: null
+        rank: 3
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 'situational: increased stealth'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+    - slot: ranged
+      items:
+      - name: Soulstring
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Naxxramas
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: null
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+      - name: Siege Bomber
+        item_id: null
+        rank: 3
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: 'situational: use, AoE stun'
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+    - slot: main-hand
+      items:
+      - name: Gressil, Dawn of Ruin
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Naxxramas
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: BiS sword
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+      - name: Misplaced Servo Arm
+        item_id: null
+        rank: 1
+        source_type: drop
+        source_place: Naxxramas
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: BiS mace; reported as "a bit nerfed on twow" versus Castigator (unresolved question)
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=123150#p123150
+          author: Gottabe
+          authority: player
+          date: '2025-03-20'
+      - name: Kingsfall
+        item_id: null
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: BiS dagger
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+      - name: Thunderfury, Blessed Blade of the Windseeker
+        item_id: null
+        rank: 2
+        source_type: drop
+        source_place: Molten Core
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: optional
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+    - slot: off-hand
+      items:
+      - name: Harbinger of Doom
+        item_id: 23044
+        rank: 1
+        source_type: drop
+        source_place: Naxxramas trash
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: BiS dagger
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+      - name: Claw of the Frost Wyrm
+        item_id: null
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: BiS fist weapon
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+      - name: The Hungering Cold
+        item_id: null
+        rank: 1
+        source_type: unknown-in-sources
+        source_place: null
+        source_detail: null
+        custom_turtle_item: unknown
+        notes: BiS sword
+        citations:
+        - url: https://forum.turtlecraft.gg/viewtopic.php?p=112831#p112831
+          author: Brisspvp
+          authority: player
+          date: '2024-12-16'
+    enchants: []
+    consumables:
+    - name: Free Action Potion, Insignia, Restorative Potion, Catseye Elixir, Thistle Tea, Sweet 'N Crunchy Fruit Bread, grenades
+      use: PvP consumable kit
+      citations: []
+    stat_notes: 'Alternative set-bonus mix: "5/8 T1 and 4/9 T3 ... bonus +10 energy and bonus for T3. Or bonus from D1 + T3". Fresh-60 starting gear: an Alterac Valley epic dagger plus ring, Alcor''s Sunrazor, arena reputation epics, and engineering "if you plan to play PvP seriously". Catseye Ultra Goggles give 18 points of stealth detection versus Sightless Leather Hood''s 10 (a later correction to the list above).'
+gaps:
+- No item-level leveling gear list for any Rogue spec; synthesis/classes/rogue/leveling.md covers stat priority, weapon-type choice and poison playstyle only, no named gear by level bracket.
+- No dedicated raid-t1/raid-t2/raid-t2.5 item lists for Assassination or Combat beyond the general sets progression (Darkmantle/Stormshroud -> Bonescythe/Trickster) and a handful of MC/BWL-adjacent items; the corpus jumps from pre-raid to Naxx/Kara40 gearing.
+- Subtlety PvE (melee-dps) has essentially no gear list beyond a single Shadowcraft-set claim; flagged as a gap in the source playbook itself.
+- The Combat Tank spec's only slot-by-slot list (Ssai, 2022) predates Class Changes 2 and uses unverified vanilla item names; no updated tank gear list exists post-CC2.
+- The Rogue class-weapon questline added in 1.18.1 (Timbermaw Hold, starter quest 42029, starter item 42307 from Peroth'arn) has no stated weapon stats in the extracted posts.
+- 10/19 Twink PvP BiS List (t14264) and the general 'BiS list' thread (t13918) point to external Google Sheets and a Discord-pinned spreadsheet; their contents are not text in this corpus and could not be captured.
+- A level-29 Rogue/Hunter/Druid twink PvP item list exists in the General forum (t22403) but gives almost only bare item IDs without names, so it could not be used under the 'exact item names as written' rule.
