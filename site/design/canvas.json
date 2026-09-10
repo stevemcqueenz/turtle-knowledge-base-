@@ -1,70 +1,14 @@
 {
   "artboards": [
-    {
-      "file": "Home.dc.html",
-      "x": 0,
-      "y": 0,
-      "w": 1440,
-      "h": 1320,
-      "title": "Home \u00b7 pick a class"
-    },
-    {
-      "file": "ClassPage.dc.html",
-      "x": 1560,
-      "y": 0,
-      "w": 1440,
-      "h": 1560,
-      "title": "Class page \u00b7 Warrior"
-    },
-    {
-      "file": "Main.dc.html",
-      "x": 3120,
-      "y": 0,
-      "w": 1440,
-      "h": 2720,
-      "title": "Spec guide \u00b7 Protection Warrior (tank)"
-    },
-    {
-      "file": "AltTabs.dc.html",
-      "x": 0,
-      "y": 2880,
-      "w": 1440,
-      "h": 1600,
-      "title": "Alt \u00b7 spec guide with top tabs"
-    },
-    {
-      "file": "AltLight.dc.html",
-      "x": 1560,
-      "y": 2880,
-      "w": 1440,
-      "h": 1600,
-      "title": "Alt \u00b7 light theme"
-    }
+    { "file": "Home.dc.html", "x": 0, "y": 0, "w": 1440, "h": 1240, "title": "Home · pick a class" },
+    { "file": "ClassPage.dc.html", "x": 1560, "y": 0, "w": 1440, "h": 1560, "title": "Class page · Warrior" },
+    { "file": "Main.dc.html", "x": 3120, "y": 0, "w": 1440, "h": 2960, "title": "Spec guide · Protection Warrior (tank)" },
+    { "file": "DirectionB.dc.html", "x": 0, "y": 1720, "w": 720, "h": 900, "title": "Alt B · dense data sheet" },
+    { "file": "DirectionC.dc.html", "x": 820, "y": 1720, "w": 720, "h": 900, "title": "Alt C · editorial" }
   ],
   "annotations": [
-    {
-      "id": "brief",
-      "x": 0,
-      "y": -190,
-      "w": 640,
-      "text": "Cleaner direction (v3): no boxed cards, no gradients. Near-black ground, one accent per class, hairline lists, Space Grotesk headings with Manrope body, numbered sections, a sticky left rail on guide pages. Every spec, standing, talent and number is the real repo data; nothing invented."
-    },
-    {
-      "id": "spec-notes",
-      "x": 3120,
-      "y": -190,
-      "w": 640,
-      "text": "Spec guide anatomy: verdict strip -> 01 Talents (tree split bar, one row per sourced talent, skip list, 1.18.1 note) -> 02 Leveling path -> 03 Stats with caps as big numbers -> 04 Opener, single-target priority, 2-3 and 4+ targets -> 05 Cooldowns -> 06 Don't -> 07 Sources collapsed. Prose lives one click away."
-    },
-    {
-      "id": "alternates",
-      "x": 0,
-      "y": 2690,
-      "w": 640,
-      "text": "Two alternates of the same spec guide, same data: top tabs instead of a left rail (full-width, two-column talents + caps), and a light theme (class colours darkened for contrast). Pick one; the rest of the site follows it."
-    }
+    { "id": "brief", "x": 0, "y": -170, "w": 640, "text": "Direction A (the three big frames): guide-site layout in the existing site tokens. Every number and talent on these boards is the real Protection Warrior data from the repo; nothing invented. Alternates B and C are low-fi sketches of other directions to compare against, not finished pages." },
+    { "id": "spec-notes", "x": 3120, "y": -170, "w": 640, "text": "Spec guide anatomy: hero with verdict chips -> sticky section tabs -> Talents (tree split + what each point buys + skip list + 1.18.1 note) -> Leveling path timeline -> Stat priority with caps as big numbers -> Opener + single-target priority + AoE cards -> Cooldowns -> Don'ts -> collapsed sources. Prose lives one click away, never on the main path." }
   ],
-  "launch": {
-    "view": "canvas"
-  }
+  "launch": { "view": "canvas" }
 }
