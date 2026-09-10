@@ -1727,3 +1727,584 @@ entries:
   - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=163951#p163951', author: Sleeplust, authority: player, date: '2025-12-29'}
   notes: The report is a screenshot only. Another player replies that the difference is expected if a COD
     mail was involved, so this may not be a bug at all.
+- id: ISS-0084
+  title: Rank 14 players dropped to rank 0 and lost their titles
+  symptom: Several Rank 14 players report their rank fell straight to zero after the 1.18.1 PvP system
+    change, while players at rank 12-13 were unaffected; a later report describes rank shown as 0 with the
+    title lost while 'highest rank' is still listed.
+  reproduction: Hold Rank 14 across the weekly flush after the 1.18.1 rank system change.
+  system: pvp
+  subsystem: rank / rank points
+  entities: [PvP Ranks, Rank Points, Rank 14]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: open
+  status_source: null
+  severity: blocker
+  affects: [pvp]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=173113#p173113', author: Darkconfidant, authority: player, date: '2026-03-30'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=173116#p173116', author: Mdzielak, authority: player, date: '2026-03-30'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=175607#p175607', author: Leilar, authority: player, date: '2026-04-18'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=173497#p173497', author: Xerony, authority: player, date: '2026-03-31'}
+  notes: The staff description of the new system (Jamey, 2026-03-02,
+    https://forum.turtlecraft.gg/viewtopic.php?p=169701#p169701) says rank points decay weekly but cannot drop
+    a rank, so a drop to 0 contradicts the documented design.
+- id: ISS-0085
+  title: Non-honorable kills award billions of honor and instant Rank 14
+  symptom: A player reports that non-honorable kills let a fresh character jump straight to Rank 14 and award
+    about 4.2 billion honor points.
+  reproduction: Kill grey-level/non-honorable targets and watch the honor total.
+  system: pvp
+  subsystem: honor calculation
+  entities: [honor, non-honorable kills, Rank 14]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: open
+  status_source: null
+  severity: exploit
+  affects: [pvp, economy]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=173118#p173118', author: Darkconfidant, authority: player, date: '2026-03-30'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=173143#p173143', author: Darkconfidant, authority: player, date: '2026-03-30'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=173148#p173148', author: amanagor, authority: player, date: '2026-03-30'}
+  notes: 4.2 billion is close to a 32-bit unsigned overflow (4,294,967,296), which fits a negative honor value
+    being stored unsigned. Reported by one player; another reacts with disbelief, so treat as unconfirmed but
+    high value for testing.
+- id: ISS-0086
+  title: Honor bar shrinks the more battlegrounds are played (de-ranking)
+  symptom: Players report their rank progress bar moving backwards while they keep earning honor; one player
+    at rank 11 loses about 24% per weekly flush, another at rank 5 keeps de-ranking and offers screenshots.
+  reproduction: Play battlegrounds continuously and compare the rank bar across weekly flushes.
+  system: pvp
+  subsystem: rank point decay
+  entities: [Rank Points, honor]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: open
+  status_source: null
+  severity: major
+  affects: [pvp]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=173655#p173655', author: Debelijajcevod, authority: player, date: '2026-04-01'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=173661#p173661', author: Debelijajcevod, authority: player, date: '2026-04-01'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=174497#p174497', author: Debelijajcevod, authority: player, date: '2026-04-08'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=173116#p173116', author: Mdzielak, authority: player, date: '2026-03-30'}
+  notes: Another player explains that 30% of the bar is lost on Wednesdays, so part of this may be the
+    documented weekly decay; the reporter insists it continues after a week of heavy play. Tracker id 21743
+    is quoted in the same thread for the missing rank display.
+- id: ISS-0087
+  title: PvP rank title and rank progress not displayed
+  symptom: A player has no rank title and cannot see any PvP rank progress; clearing the WDB cache and
+    removing all addons did not help.
+  reproduction: Earn honor after 1.18.1 and open the honor/PvP pane.
+  system: pvp
+  subsystem: rank display
+  entities: [PvP Ranks]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: open
+  status_source: null
+  severity: minor
+  affects: [pvp, ui]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=172955#p172955', author: Yunzh, authority: player, date: '2026-03-29'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=174528#p174528', author: Baek, authority: player, date: '2026-04-09'}
+  notes: Second player links tracker id 21743 and expects a later fix.
+- id: ISS-0088
+  title: Warsong Gulch geometry exploits (tunnel roof, graveyard jumps, wall phasing)
+  symptom: Players reach the tunnel roof, jump into or through the Horde graveyard and phase through walls,
+    which makes flag carriers unreachable - pets cannot follow and many abilities cannot be used against them.
+  reproduction: Perform the known WSG jumps at the tunnel roof and graveyard.
+  system: pvp
+  subsystem: map collision / movement
+  entities: [Warsong Gulch]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: exploit
+  affects: [pvp]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=161908#p161908', author: Thaladar, authority: player, date: '2025-12-07'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=161914#p161914', author: Francma6, authority: player, date: '2025-12-07'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=175573#p175573', author: Kobiq, authority: player, date: '2026-04-17'}
+  notes: Contested by the playerbase - some call the jumps legitimate skill, others exploits; no staff
+    statement was found either way. The 85-post thread and a follow-up in April show it persisted into 1.18.1.
+- id: ISS-0089
+  title: Player capped an Arathi Basin node while stealthed and invisible
+  symptom: An Alliance player reports a rogue capping the Gold Mine while invisible - the flag turned red
+    instantly - and a Horde hunter appearing at the graveyard right behind him.
+  reproduction: null
+  system: pvp
+  subsystem: node capture / visibility
+  entities: [Arathi Basin, Gold Mine]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: pre-1.18.1
+  status: unclear
+  status_source: null
+  severity: exploit
+  affects: [pvp]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=147142#p147142', author: Alienns, authority: player, date: '2025-08-20'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=147143#p147143', author: Pixiestixie, authority: player, date: '2025-08-20'}
+  notes: One report plus a bump; no staff answer. Capping should break stealth, so this is worth an emulator
+    test even though the report is thin.
+- id: ISS-0090
+  title: Battleground backfill sends every new joiner to the Alliance
+  symptom: For more than a month WSG and AB games start uneven because players joining after the start are
+    always placed on the Alliance side, leaving Horde one or two players short.
+  reproduction: Observe team sizes in WSG/AB with cross-faction queues after games start.
+  system: pvp
+  subsystem: battleground matchmaking
+  entities: [Warsong Gulch, Arathi Basin]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: major
+  affects: [pvp]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=164881#p164881', author: Alexandera114, authority: player, date: '2026-01-11'}
+  notes: Single, detailed report; no staff answer.
+- id: ISS-0091
+  title: Group battleground queue invites only reach the players who left the previous match first
+  symptom: When queued for two battlegrounds as a group, the instant invitation after leaving the first match
+    is sent only to the players who left first; the rest lose their queue position.
+  reproduction: Queue a group for AB and WSG at once, finish one, and leave at different times.
+  system: pvp
+  subsystem: battleground queue
+  entities: [battleground queue]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: minor
+  affects: [pvp]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=156992#p156992', author: Aristany, authority: player, date: '2025-10-25'}
+  notes: Single report, no staff answer.
+- id: ISS-0092
+  title: Alterac Valley ending early awards the win to the Alliance regardless of score
+  symptom: When AV ends because too few players remain, the Alliance is declared the winner and receives the
+    tokens even when the Horde led on bonus honor, towers and boss kills; the reporter says it happened before.
+  reproduction: Let an AV match end through the low-population timer with the Horde ahead.
+  system: pvp
+  subsystem: battleground end condition
+  entities: [Alterac Valley]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: major
+  affects: [pvp]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=156660#p156660', author: Azersforum, authority: player, date: '2025-10-23'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=156722#p156722', author: Mayson, authority: player, date: '2025-10-23'}
+  notes: A second player calls it a known edge case; no staff reply.
+- id: ISS-0093
+  title: Levitate crashes clients in battlegrounds
+  symptom: Guild members repeatedly crashed out of Arathi Basin; the reporter attributes it to Levitate being
+    cast (tracker id 8949), says other battlegrounds are affected too, and notes that crashing also gives a
+    deserter penalty.
+  reproduction: Cast Levitate inside a battleground.
+  system: pvp
+  subsystem: client crash
+  entities: [Levitate, Arathi Basin]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: crash
+  affects: [pvp, client, 'class:priest']
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=167152#p167152', author: Urthius, authority: player, date: '2026-02-01'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=167165#p167165', author: Zvyrhol, authority: player, date: '2026-02-01'}
+  notes: The reporters could not confirm Levitate was cast in every crash. A second player says the crash did
+    not exist before the Class Changes 2 patch. Tracker id 8949 is a low number, i.e. an old report.
+- id: ISS-0094
+  title: Thorn Gorge has no minimap icon and no reputation reward
+  symptom: The new battleground can only be queued at a battlemaster and has no minimap icon after the minimum
+    level change; a later report says no reputation is tied to it and calls it unfinished.
+  reproduction: Try to queue for Thorn Gorge from the minimap battleground icon.
+  system: pvp
+  subsystem: battleground integration
+  entities: [Thorn Gorge]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: open
+  status_source: null
+  severity: minor
+  affects: [pvp, ui]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=172281#p172281', author: Snkx, authority: player, date: '2026-03-25'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=175287#p175287', author: amanagor, authority: player, date: '2026-04-15'}
+  notes: Recorded in the changelog notes for Thorn Gorge; no staff answer found.
+- id: ISS-0095
+  title: PvP dampening debuff does not affect pets
+  symptom: Player reports pets are not affected by the new dampening debuff, so pet damage is not reduced in
+    PvP.
+  reproduction: Compare player and pet damage against a dampened target.
+  system: pvp
+  subsystem: dampening
+  entities: [PvP Dampening Debuff]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: major
+  affects: [pvp, 'class:hunter', 'class:warlock']
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=169733#p169733', author: Bugranger, authority: player, date: '2026-03-02'}
+  notes: Staff never published the dampening numbers (see synthesis/1.18.1-master-changelog.md), so players
+    cannot verify the intended behaviour; this is a documentation gap as much as a bug.
+- id: ISS-0096
+  title: Hardcore character died instantly with no visible damage source
+  symptom: A level 19 paladin at about 75% health fighting a level 17 boar died instantly; the health bar
+    showed 75% and then 1 hp, with no other player or creature visible.
+  reproduction: null
+  system: hardcore
+  subsystem: damage / death handling
+  entities: []
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: unclear
+  status_source: null
+  severity: blocker
+  affects: [hardcore]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=159684#p159684', author: Krandock, authority: player, date: '2025-11-15'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=159752#p159752', author: Pepesmite, authority: staff, date: '2025-11-16'}
+  notes: The player did not check the combat log. Staff replied only with the bug tracker link. Other threads
+    show hardcore characters are never restored, so unexplained deaths are the most damaging class of bug on
+    this server.
+- id: ISS-0097
+  title: Click-to-move and Follow misbehave at high frame rates
+  symptom: Click-to-move makes the character run forward instead of to the point, stop immediately or overrun
+    the target; Follow makes the character run sideways, circle the target or not stop. Capping the frame rate
+    at 59 fps made both work correctly.
+  reproduction: Enable click-to-move with an uncapped frame rate, then cap the frame rate and repeat.
+  system: ui-client
+  subsystem: movement input
+  entities: [click-to-move, Follow]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: minor
+  affects: [client]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=167605#p167605', author: Sanyazmeypew, authority: player, date: '2026-02-06'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=167662#p167662', author: Sanyazmeypew, authority: player, date: '2026-02-07'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=167669#p167669', author: Sanyazmeypew, authority: player, date: '2026-02-07'}
+  notes: Reporter says forum posts from 2024 describe the same problem and that it does not happen on other
+    servers. Frame-rate dependence points at a client-side movement timing bug.
+- id: ISS-0098
+  title: Camera starts following the mouse without a held button (Linux)
+  symptom: On the Linux client the camera sometimes begins tracking the cursor after a left or right click
+    without any button held; Escape does not help and another left click releases it.
+  reproduction: null
+  system: ui-client
+  subsystem: input handling
+  entities: []
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: minor
+  affects: [client]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=169684#p169684', author: Gramrock, authority: player, date: '2026-03-01'}
+  notes: Single report on a fresh Linux install with no changes; no staff reply.
+- id: ISS-0099
+  title: Guild bank items are invisible until hovered
+  symptom: Guild bank slots appear empty and only show items on mouseover; disabling all addons did not help
+    and the switch-tab workaround suggested by another player did not work for the reporter.
+  reproduction: Open the guild bank after 1.18.1.
+  system: ui-client
+  subsystem: guild bank UI
+  entities: [guild bank]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: open
+  status_source: null
+  severity: minor
+  affects: [ui]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=171977#p171977', author: Rastafary, authority: player, date: '2026-03-23'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=171985#p171985', author: Hctwowfan, authority: player, date: '2026-03-23'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=172125#p172125', author: Rastafary, authority: player, date: '2026-03-24'}
+  notes: The custom Turtle_GuildBankUI is also implicated in the stack-split Lua error reported in
+    https://forum.turtlecraft.gg/viewtopic.php?p=155095#p155095 (Vaedria, player, 2025-10-10).
+- id: ISS-0100
+  title: Guild chat keeps showing the previous guild's messages after switching guilds
+  symptom: After changing guilds, messages from the old and the new guild both appear in /g.
+  reproduction: Leave a guild, join another and watch the guild channel.
+  system: ui-client
+  subsystem: chat channel state
+  entities: [guild chat]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: open
+  status_source: null
+  severity: minor
+  affects: [ui]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=171824#p171824', author: Lokalpop, authority: player, date: '2026-03-22'}
+  notes: Reported in a post-patch bug list; no staff answer.
+- id: ISS-0101
+  title: Transformation items make the character oversized and increase aggro range
+  symptom: Savory Deviate Delight, Noggenfogger Elixir and other transformations keep the player's original
+    scale instead of the small model, producing giant costumes; the reporter says his aggro range increased
+    with the model size and that other players (including an undead) confirmed it.
+  reproduction: Eat a Savory Deviate Delight or drink a Noggenfogger Elixir and compare model size and pull
+    range.
+  system: ui-client
+  subsystem: model scale / aggro radius
+  entities: [Savory Deviate Delight, Noggenfogger Elixir]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: major
+  affects: [client, hardcore]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=171195#p171195', author: Gramrock, authority: player, date: '2026-03-18'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=171209#p171209', author: Pepesmite, authority: staff, date: '2026-03-18'}
+  notes: Staff reply is the bug tracker template only. If the aggro-range part is real it is a server-side
+    scale/bounding radius issue, not only cosmetic.
+- id: ISS-0102
+  title: Auto-dismount and auto-stance stopped working after the 1.18.1 client update
+  symptom: Casting no longer dismounts automatically or switches stance/travel form; the player used
+    shagutweaks for this until 1.18.1 and has not changed mounts.
+  reproduction: Cast a spell while mounted or in travel form with the shagutweaks addon after 1.18.1.
+  system: ui-client
+  subsystem: addon compatibility
+  entities: [shagutweaks, Travel Form]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: unclear
+  status_source: null
+  severity: minor
+  affects: [client, ui]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=172007#p172007', author: Evadeluxe, authority: player, date: '2026-03-23'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=172027#p172027', author: Evadeluxe, authority: player, date: '2026-03-23'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=172235#p172235', author: Evadeluxe, authority: player, date: '2026-03-24'}
+  notes: Another player states auto-dismount was never a server feature but an addon one, so this is most
+    likely an addon API break caused by the client patch, not a server bug.
+- id: ISS-0103
+  title: Spellbook throws a Lua error and loses icons
+  symptom: "Opening the spellbook produces the Lua error 'Interface\\FrameXML\\SpellBookFrame.lua:109:
+    bad argument #1 to strsub (string expected, got nil)' and some spell icons disappear."
+  reproduction: Open the spellbook on an affected character with an up-to-date client.
+  system: ui-client
+  subsystem: FrameXML
+  entities: [SpellBookFrame.lua]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: minor
+  affects: [ui, client]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=162880#p162880', author: Papier, authority: player, date: '2025-12-15'}
+  notes: Single report; the error means a spell entry has a nil name/rank string, which usually indicates a
+    server-sent spell that the client does not know.
+- id: ISS-0104
+  title: Cartographer exploration does not count some areas (Uldaman, The Master's Cellar, Anvilmar)
+  symptom: The .cartographer exploration goal keeps listing areas the player has fully visited - Uldaman in
+    the Badlands (both entrances and a full run), The Master's Cellar and Anvilmar in Dun Morogh.
+  reproduction: Explore the listed areas and check .cartographer.
+  system: ui-client
+  subsystem: exploration tracking
+  entities: [.cartographer, Uldaman, The Master's Cellar, Anvilmar]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: '1.18.1 hotfixes 2026-03-21 / 2026-03-24 for instance areas (Anvilmar still reported 2026-04-29)'
+  era: post-1.18.1
+  status: open
+  status_source: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  severity: minor
+  affects: [ui]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=160551#p160551', author: Publius, authority: player, date: '2025-11-24'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=160553#p160553', author: Wilczan, authority: player, date: '2025-11-24'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=172962#p172962', author: Zero37, authority: player, date: '2026-03-29'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=173012#p173012', author: Grizb37, authority: player, date: '2026-03-29'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=176318#p176318', author: Jianggeer, authority: player, date: '2026-04-29'}
+  notes: Players quote tracker ids 18473, 18459 (The Master's Cellar) and 19887 (Uldaman). The 2026-03-24
+    hotfix removed the requirement for areas inside instances; Anvilmar was still reported afterwards.
+- id: ISS-0105
+  title: Client crashes on login after visiting Balor Island with the German language pack
+  symptom: After arriving at Balor Island and taking quests the client crashes on every login with that
+    character ('the read operation could not be performed on the memory'); other characters are fine and
+    deleting WDB or disabling addons did not help.
+  reproduction: Play a character with the German language mod, take Balor Island quests, log out and back in.
+  system: ui-client
+  subsystem: client crash / localisation pack
+  entities: [Balor Island, German language pack]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: confirmed
+  status_source: https://forum.turtlecraft.gg/viewtopic.php?p=163957#p163957
+  severity: crash
+  affects: [client]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=163939#p163939', author: Egoli77, authority: player, date: '2025-12-28'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=163957#p163957', author: Sleeptime, authority: staff, date: '2025-12-29'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=164342#p164342', author: Thromkara, authority: player, date: '2026-01-03'}
+  notes: Staff gave the working cause and workaround (delete the German language pack/mod); two players
+    confirmed it worked. Missing localisation strings for new content crash the 1.12 client.
+- id: ISS-0106
+  title: Interface options and extra action bars reset on every logout
+  symptom: Bottom-left/right and right action bars 1 and 2 are disabled again after every logout, hearth or
+    portal; the player reinstalled and removed all addons without effect.
+  reproduction: Enable the extra action bars, log out and back in.
+  system: ui-client
+  subsystem: settings persistence
+  entities: [action bars, interface options]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: unclear
+  status_source: null
+  severity: minor
+  affects: [ui, client]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=156926#p156926', author: Frahsti, authority: player, date: '2025-10-24'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=156963#p156963', author: Atreidon, authority: player, date: '2025-10-25'}
+  notes: Other players point at a read-only Interface folder or settings only being written on a clean logout,
+    i.e. possibly a local file permission problem rather than a server bug.
+- id: ISS-0107
+  title: Release-day client update failed on patch-9.mpq
+  symptom: On 1.18.1 release day the launcher failed with 'Failed to remove wrong partial download ...
+    kl_onyxiaslair_b_003.wmo' while updating patch-9.mpq; switching the download mirror fixed it for some
+    players. Non-launcher users had no documented way to get the small client update.
+  reproduction: Update the client through the launcher on release day.
+  system: ui-client
+  subsystem: launcher / patch delivery
+  entities: [patch-9.mpq, launcher]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: open
+  status_source: null
+  severity: blocker
+  affects: [client]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=171378#p171378', author: Socniver, authority: player, date: '2026-03-20'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=171404#p171404', author: Roestilu, authority: player, date: '2026-03-20'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=171694#p171694', author: Thricew, authority: player, date: '2026-03-21'}
+  notes: Staff answered related questions about launcher delivery (Torta, 2026-03-23,
+    https://forum.turtlecraft.gg/viewtopic.php?p=171932#p171932) without addressing this failure directly.
+- id: ISS-0108
+  title: Nordanaar realm crashed repeatedly because of one item or spell
+  symptom: The Nordanaar realm crashed several times and went offline on 2026-04-06 with no forum
+    announcement.
+  reproduction: null
+  system: server
+  subsystem: realm stability
+  entities: [Nordanaar]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: '2026-04-06/07 (staff say developers fixed it once identified)'
+  era: post-1.18.1
+  status: fixed
+  status_source: https://forum.turtlecraft.gg/viewtopic.php?p=174255#p174255
+  severity: crash
+  affects: [client, raid, pvp]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=174164#p174164', author: Hansjoachim, authority: player, date: '2026-04-06'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=174255#p174255', author: Sleeptime, authority: staff, date: '2026-04-07'}
+  notes: Staff - 'There was a specific item/spell that caused crashes last night. It was fixed by our
+    developers as soon as they identified the issue.' The item/spell is never named - a gap.
+- id: ISS-0109
+  title: In-game server time runs at double speed and differs between players
+  symptom: The UI server time advances twice as fast as real time (the time from .server info is unaffected)
+    and different players see different values; a player says a staff member confirmed the differing values
+    are an unintended bug. After the 2025-12-24 maintenance that claimed a fix, a player says it is still
+    wrong and the day/night cycles are out of sync.
+  reproduction: Compare the UI clock with real time and with another player's clock.
+  system: server
+  subsystem: world clock
+  entities: [server time]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: intended
+  status_source: null
+  severity: minor
+  affects: [client, ui]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=163303#p163303', author: Pizzayo, authority: player, date: '2025-12-19'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=163713#p163713', author: Lirithiel, authority: player, date: '2025-12-25'}
+  notes: The double speed itself is reported by the player as an intentional change (his tracker report 18395
+    was closed on 2025-12-17 with that explanation, and he was told to bring it to the forum); the per-player
+    divergence is the part called a bug. No staff forum post confirms either half, so status_source is null
+    and the 'intended' mark rests on a player's account of a tracker closure.
+- id: ISS-0110
+  title: Bug tracker returned 500 Server Error
+  symptom: The official bug tracker was unreachable, showing a white page with '500 | SERVER ERROR'.
+  reproduction: null
+  system: server
+  subsystem: website / bug tracker
+  entities: [bug tracker]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: '2026-04-05'
+  era: post-1.18.1
+  status: fixed
+  status_source: https://forum.turtlecraft.gg/viewtopic.php?p=174116#p174116
+  severity: minor
+  affects: [client]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=174067#p174067', author: Sylvestro1, authority: player, date: '2026-04-05'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=174116#p174116', author: Sleeptime, authority: staff, date: '2026-04-05'}
+  notes: Not a game bug, but it matters for this list - the tracker is where staff send every bug report, so
+    downtime means missing reports for that period.
