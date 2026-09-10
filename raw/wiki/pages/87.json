@@ -1,0 +1,1 @@
+{"pageid": 87, "ns": 10, "title": "Template:Trim", "url": "https://turtle-wow.fandom.com/wiki/Template:Trim", "revid": 87, "timestamp": "2022-01-19T16:52:17Z", "user": "FANDOM", "categories": ["Category:General wiki templates"], "wikitext": "<includeonly>{{#if:{{{1|}}}|{{{1}}}|}}</includeonly><noinclude>\n{{documentation}}</noinclude>", "fetched": "2026-09-10T07:40:29Z"}

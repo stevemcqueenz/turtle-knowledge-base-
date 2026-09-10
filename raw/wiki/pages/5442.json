@@ -1,0 +1,1 @@
+{"pageid": 5442, "ns": 10, "title": "Template:Both", "url": "https://turtle-wow.fandom.com/wiki/Template:Both", "revid": 14653, "timestamp": "2025-12-04T15:32:10Z", "user": "Aeliren", "categories": [], "wikitext": "<onlyinclude>{{#ifeq:{{{sort|-}}}|-||{{sort|B}}}}[[File:Both 32.png|18px]]</onlyinclude>\n{{documentation}}", "fetched": "2026-09-10T07:40:22Z"}

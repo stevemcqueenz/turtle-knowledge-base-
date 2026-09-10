@@ -4,3 +4,4 @@ scrape/status.json.tmp
 __pycache__/
 scrape/crawl.stdout
 scrape/wiki.stdout
+behavior/_aliases.json
