@@ -69,7 +69,7 @@ Priority:
 ## Multi-target
 
 - DoT everything in range with SW:P; `Psychic Scream` when 2+ melee are on you; `Holy Nova` rank 1 spam to flush stealth ("A rank 1 spammed goes a long way to prevent being opened on" — [Itsbacon (player), 2025-08-08](https://forum.turtlecraft.gg/viewtopic.php?p=143823#p143823)) if Holy Nova is talented; `Mana Burn` on enemy healers only if Improved Mana Burn taken (3 s cast otherwise — [Thaladar (player), 2025-07-25](https://forum.turtlecraft.gg/viewtopic.php?p=141217#p141217)).
-- Dispel Magic on paladin seals/blessings and mage/druid buffs — a priest can "purge every 1,5sec ... the whole BG" — [player, 2026-03](https://forum.turtlecraft.gg/viewtopic.php?t=22214) (1.18.1 release thread; also debated in the paladin forum [t=23094](https://forum.turtlecraft.gg/viewtopic.php?t=23094)).
+- Dispel Magic on paladin seals/blessings and mage/druid buffs — "Then play a priest an you can purge every 1,5sec. You can do that the whole BG." — [Ankerdankerf (player), 2025-10-04](https://forum.turtlecraft.gg/viewtopic.php?p=154307#p154307) (1.18.1 announcement thread; also debated in the paladin forum [t=23094](https://forum.turtlecraft.gg/viewtopic.php?t=23094)).
 
 ## Cooldowns and resources
 

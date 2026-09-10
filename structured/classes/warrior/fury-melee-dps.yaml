@@ -1,0 +1,96 @@
+# Warrior / Fury / melee DPS — machine-readable companion to synthesis/classes/warrior/fury-melee-dps.md
+# Built only from repo files (forum f40, staff posts in f63, f70). spell_id is null everywhere: no source gives spell IDs.
+class: Warrior
+spec: Fury
+role: melee-dps
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102974#p102974", author: Dragunovi, authority: staff, date: "2024-10-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=105804#p105804", author: Dragunovi, authority: staff, date: "2024-11-01"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460", author: Jamey, authority: staff, date: "2024-12-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: "2025-07-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608", author: Torta, authority: staff, date: "2026-03-21"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=122609#p122609", author: "Wolf of Rage", authority: player, date: "2025-03-15"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=122809#p122809", author: Atreidon, authority: player, date: "2025-03-17"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=122819#p122819", author: "Wolf of Rage", authority: player, date: "2025-03-17"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=122923#p122923", author: "Wolf of Rage", authority: player, date: "2025-03-18"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=104303#p104303", author: Toffe, authority: player, date: "2024-10-22"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=130489#p130489", author: Berettadin, authority: player, date: "2025-05-10"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=116686#p116686", author: Xudo, authority: player, date: "2025-01-14"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=157920#p157920", author: armsgirl, authority: player, date: "2025-10-31"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=156441#p156441", author: Atreidon, authority: player, date: "2025-10-21"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=155730#p155730", author: Eyeburn, authority: player, date: "2025-10-15"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=157895#p157895", author: Hctwowfan, authority: player, date: "2025-10-31"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=73184#p73184", author: Tomberry, authority: player, date: "2023-10-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=64581#p64581", author: Reploidrocsa, authority: player, date: "2023-09-15"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=147408#p147408", author: Eyeburn, authority: player, date: "2025-08-21"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=139087#p139087", author: Ellifta, authority: player, date: "2025-07-14"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=96085#p96085", author: Bigbearimpact, authority: player, date: "2024-05-31"}
+agreement: "consensus that DW Fury is the raid DPS default (2023-2025); contested since CC3 whether Arms out-parses it in AQ40/Kara40; contested whether 2H Fury (Slam) is a real spec"
+patch_validity:
+  written_for: "CC3 / 1.18.0 kit (2025-08-15); rotation thread written for the Dec-2024 kit"
+  valid_for_1181: true
+  notes: "1.18.1 changes touching this file: Hamstring cooldown removed (filler is spammable again); Improved Whirlwind renamed Ravager (+Cleave cost -1/2/3); Flurry/Slam interaction corrected to 1.92 s (2H Fury nerf); T1 3-set rage proc; T3 4-set +4% crit damage. Hotfix 2026-03-21: Flurry properly consumed. No post-1.18.1 parse reports."
+talents:
+  build_name: "DW Fury raid (sourced points only; remaining points unassigned in sources)"
+  points:
+    - {tree: Fury, talent: Cruelty, rank: 5, spell_id: null}
+    - {tree: Fury, talent: Dual Wield Specialization, rank: 5, spell_id: null}
+    - {tree: Fury, talent: Improved Shouts, rank: 5, spell_id: null}
+    - {tree: Fury, talent: Enrage, rank: 5, spell_id: null}
+    - {tree: Fury, talent: Improved Execute, rank: 2, spell_id: null}
+    - {tree: Fury, talent: Death Wish, rank: 1, spell_id: null}
+    - {tree: Fury, talent: Flurry, rank: 5, spell_id: null}
+    - {tree: Fury, talent: Bloodthirst, rank: 1, spell_id: null}
+    - {tree: Fury, talent: Blood Craze, rank: 0, spell_id: null, note: "contested: 0 (Atreidon) vs 3 (Abiozan, leveling)"}
+    - {tree: Fury, talent: Blood Drinker, rank: 0, spell_id: null, note: "3/3 for PvP/solo only"}
+    - {tree: Fury, talent: Unbridled Wrath, rank: 0, spell_id: null, note: "5/5 in the 2H Fury variant"}
+    - {tree: Arms, talent: Tactical Mastery, rank: 2, spell_id: null, note: "2-5"}
+    - {tree: Arms, talent: Improved Rend, rank: 2, spell_id: null}
+    - {tree: Arms, talent: Deep Wounds, rank: 3, spell_id: null}
+    - {tree: Arms, talent: Impale, rank: 2, spell_id: null}
+  leveling_order: []  # see leveling.yaml-equivalent in leveling.md; no Fury-specific ordered route in sources
+  links_opaque:
+    - "https://talents.turtlecraft.gg/warrior?points=dQQACYAQ-AoFAoAAoZCFAB-"   # armsgirl DW 60 (p=157920)
+    - "https://talents.turtlecraft.gg/warrior?points=FQADCYDQB-FoAAoAAoRCF-"   # armsgirl 2H 'trash king' (p=157920)
+    - "https://talents.turtlecraft.gg/warrior?points=FQADCYDQ-FoAAoAAoRCFAB-"  # armsgirl 2H 'parse chad' (p=157920)
+stat_weights: null   # no source publishes weights; forum defers to WarriorSim (not in repo)
+stat_priority: [hit-to-cap, weapon-skill, crit, strength/attack-power, agility, stamina]
+caps:
+  hit_boss_pct: 9        # player consensus (Tomberry p=73184, Reploidrocsa p=64581); no staff confirmation
+  hit_dungeon_pct: 5
+  dw_white_miss_before_hit_pct: 24   # Eyeburn p=147408 (vanilla-baseline numbers)
+  crit: null
+  defense: null
+rotation_single:
+  - {priority: 0, action: "Charge -> Bloodrage -> Sunder Armor once -> Berserker Stance", condition: "opener; Bloodrage activates Enrage since 2024-11-01"}
+  - {priority: 1, action: Execute, condition: "target HP <= 20% and rage available; no cooldown since CC3; swing first then Execute"}
+  - {priority: 2, action: Bloodthirst, condition: "off cooldown"}
+  - {priority: 3, action: Whirlwind, condition: "off cooldown"}
+  - {priority: 4, action: Sunder Armor, condition: "boss has < 5 stacks or tank is not a warrior; also proc-fishing filler"}
+  - {priority: 5, action: Hamstring, condition: "instant filler for weapon procs; had 6 s CD 2024-11-01..2026-03-19, none after 1.18.1"}
+  - {priority: 6, action: Heroic Strike, condition: "rage >= 70 and nothing else available (queued swing gives no rage; off-hand not guaranteed)"}
+  - {priority: 7, action: Battle Shout, condition: "buff missing"}
+rotation_aoe:
+  - {targets_min: 2, priority: 1, action: Whirlwind, condition: "off cooldown"}
+  - {targets_min: 2, priority: 2, action: Cleave, condition: "instead of Heroic Strike as on-next-swing; Ravager reduces cost"}
+  - {targets_min: 2, priority: 3, action: Sunder Armor, condition: "trash only until 50% HP"}
+  - {targets_min: 4, priority: 1, action: "same as 2-3", condition: "no 4+ specific priority in sources; watch threat"}
+aoe_threshold: null   # not stated by any source
+cooldowns:
+  - {name: Death Wish, use_when: "pull or execute phase; no exact rule in sources"}
+  - {name: Recklessness, use_when: "execute phase; shares 30-min CD with Retaliation/Shield Wall"}
+  - {name: Bloodrage, use_when: "on cooldown / pre-pull; activates Enrage"}
+  - {name: Berserker Rage, use_when: "fear break"}
+resource_rules:
+  - "Stay in Berserker Stance (Wolf of Rage p=122609)"
+  - "Heroic Strike only as a dump at >= 70 rage; queued HS swings generate no rage"
+  - "Under 20% spend surplus rage on Execute instead of HS"
+  - "No rage from absorbed damage (player complaint, pre-1.18.1)"
+consumables: []   # no Turtle-specific raid consumable list in sources; vanilla baseline not included
+mistakes_to_avoid:
+  - "Dual wielding before ~9% hit"
+  - "Heroic Strike spam at low rage"
+  - "Sitting in Battle/Defensive Stance"
+  - "Skipping Sunder Armor on raid bosses"
+  - "Reading pre-Dec-2024 Bloodthirst/Enrage or pre-1.18.1 Hamstring advice as current"

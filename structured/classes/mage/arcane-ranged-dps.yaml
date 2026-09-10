@@ -1,0 +1,164 @@
+class: Mage
+spec: Arcane
+role: ranged-dps
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102968#p102968", author: Dragunovi, authority: staff, date: "2024-10-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460", author: Jamey, authority: staff, date: "2024-12-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504", author: Torta, authority: staff, date: "2025-03-30"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: "2025-07-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168", author: Torta, authority: staff, date: "2025-10-03"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=118168#p118168", author: Torta, authority: staff, date: "2025-01-28"}
+  - {url: "https://turtle-wow.fandom.com/wiki/Mage_Arcane_FAQ", author: "community wiki", authority: wiki, date: "2026-03-24"}
+  - {url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "community wiki", authority: wiki, date: "2026-09-09"}
+  - {url: "https://turtle-wow.fandom.com/wiki/Mage_Levelling_FAQ", author: "community wiki", authority: wiki, date: "2025-10-01"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=160732#p160732", author: Eluaria, authority: player, date: "2025-11-26"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=167923#p167923", author: Eluaria, authority: player, date: "2026-02-11"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=174946#p174946", author: Eluaria, authority: player, date: "2026-04-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=162161#p162161", author: Ashafares, authority: player, date: "2025-12-09"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=145255#p145255", author: Guldred, authority: player, date: "2025-08-13"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=137409#p137409", author: Avalok, authority: player, date: "2025-06-29"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=107572#p107572", author: Schoop123, authority: player, date: "2024-11-11"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=107183#p107183", author: Kibuum, authority: player, date: "2024-11-09"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=107097#p107097", author: Bahamutxd, authority: player, date: "2024-11-08"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=134745#p134745", author: Bahamutxd, authority: player, date: "2025-06-08"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=87218#p87218", author: Trismegistos, authority: player, date: "2024-02-07"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=87224#p87224", author: Gantulga, authority: player, date: "2024-02-07"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=122736#p122736", author: Bigsmerf, authority: player, date: "2025-03-16"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=158193#p158193", author: Cheruscan, authority: player, date: "2025-11-03"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=34165#p34165", author: Massie2, authority: player, date: "2023-02-06"}
+agreement: consensus
+patch_validity:
+  written_for: "1.17.2 rework (2024-11-01) as retuned in 1.18.0 (2025-08-15); wiki rotation revised 2026-03-24"
+  valid_for_1181: true
+  notes: "1.18.1 changed nothing in the Arcane tree. 1.18.1 fixed the T3.5 Mirror Magic 3-set (+10% Arcane on rewind) and wand school modifiers. Pre-2025-04-01 advice about the T3 6-set removing the Arcane Power regen penalty is superseded (bonus removed). Pre-1.17.2 'Brilliance Aura / mana battery' advice is superseded (aura removed)."
+talents:
+  build_name: "Wiki Arcane single-target path (50 points at level 59; 51st = Arcane Power at 60 with gear) — single source"
+  points:
+    - {tree: Arcane, talent: Improved Arcane Missiles, rank: 5, spell_id: null}
+    - {tree: Arcane, talent: Arcane Concentration, rank: 5, spell_id: null}
+    - {tree: Arcane, talent: Arcane Rupture, rank: 1, spell_id: null}
+    - {tree: Arcane, talent: Arcane Impact, rank: 3, spell_id: null}
+    - {tree: Arcane, talent: Arcane Focus, rank: 5, spell_id: null}
+    - {tree: Arcane, talent: Arcane Meditation, rank: 3, spell_id: null}
+    - {tree: Arcane, talent: Temporal Convergence, rank: 3, spell_id: null}
+    - {tree: Arcane, talent: Accelerated Arcana, rank: 1, spell_id: null}
+    - {tree: Arcane, talent: Arcane Instability, rank: 3, spell_id: null}
+    - {tree: Arcane, talent: Arcane Potency, rank: 2, spell_id: null}
+    - {tree: Arcane, talent: Resonance Cascade, rank: 5, spell_id: null}
+    - {tree: Arcane, talent: Presence of Mind, rank: 1, spell_id: null}
+    - {tree: Arcane, talent: Arcane Subtlety, rank: 2, spell_id: null}
+    - {tree: Arcane, talent: Magic Absorption, rank: 3, spell_id: null}
+    - {tree: Fire, talent: Improved Fireball, rank: 5, spell_id: null}
+    - {tree: Fire, talent: Improved Fire Blast, rank: 3, spell_id: null}
+    - {tree: Arcane, talent: Arcane Power, rank: 1, spell_id: null, note: "51st point at 60; wiki says not worth it until geared (raid rotations assume it)"}
+  leveling_order:
+    - {level: 10, tree: Arcane, talent: Improved Arcane Missiles 1/5}
+    - {level: 11, tree: Arcane, talent: Improved Arcane Missiles 2/5}
+    - {level: 12, tree: Arcane, talent: Improved Arcane Missiles 3/5}
+    - {level: 13, tree: Arcane, talent: Improved Arcane Missiles 4/5}
+    - {level: 14, tree: Arcane, talent: Improved Arcane Missiles 5/5}
+    - {level: 15, tree: Arcane, talent: Arcane Concentration 1/5}
+    - {level: 16, tree: Arcane, talent: Arcane Concentration 2/5}
+    - {level: 17, tree: Arcane, talent: Arcane Concentration 3/5}
+    - {level: 18, tree: Arcane, talent: Arcane Concentration 4/5}
+    - {level: 19, tree: Arcane, talent: Arcane Concentration 5/5}
+    - {level: 20, tree: Arcane, talent: Arcane Rupture}
+    - {level: 21, tree: Arcane, talent: Arcane Impact 1/3}
+    - {level: 22, tree: Arcane, talent: Arcane Impact 2/3}
+    - {level: 23, tree: Arcane, talent: Arcane Impact 3/3}
+    - {level: 24, tree: Arcane, talent: Arcane Focus 1/5}
+    - {level: 25, tree: Arcane, talent: Arcane Meditation 1/3}
+    - {level: 26, tree: Arcane, talent: Arcane Meditation 2/3}
+    - {level: 27, tree: Arcane, talent: Arcane Meditation 3/3}
+    - {level: 28, tree: Arcane, talent: Temporal Convergence 1/3}
+    - {level: 29, tree: Arcane, talent: Temporal Convergence 2/3}
+    - {level: 30, tree: Arcane, talent: Accelerated Arcana}
+    - {level: 31, tree: Arcane, talent: Arcane Instability 1/3}
+    - {level: 32, tree: Arcane, talent: Arcane Instability 2/3}
+    - {level: 33, tree: Arcane, talent: Arcane Instability 3/3}
+    - {level: 34, tree: Arcane, talent: Arcane Potency 1/2}
+    - {level: 35, tree: Arcane, talent: Arcane Potency 2/2}
+    - {level: 36, tree: Arcane, talent: Resonance Cascade 1/5}
+    - {level: 37, tree: Arcane, talent: Resonance Cascade 2/5}
+    - {level: 38, tree: Arcane, talent: Resonance Cascade 3/5}
+    - {level: 39, tree: Arcane, talent: Resonance Cascade 4/5}
+    - {level: 40, tree: Arcane, talent: Resonance Cascade 5/5}
+    - {level: 41, tree: Arcane, talent: Presence of Mind}
+    - {level: 42, tree: Arcane, talent: Temporal Convergence 3/3}
+    - {level: 43, tree: Arcane, talent: Arcane Focus 2/5}
+    - {level: 44, tree: Arcane, talent: Arcane Focus 3/5}
+    - {level: 45, tree: Arcane, talent: Arcane Focus 4/5}
+    - {level: 46, tree: Arcane, talent: Arcane Focus 5/5}
+    - {level: 47, tree: Arcane, talent: Arcane Subtlety 1/2}
+    - {level: 48, tree: Arcane, talent: Arcane Subtlety 2/2}
+    - {level: 49, tree: Arcane, talent: Magic Absorption 1/3}
+    - {level: 50, tree: Arcane, talent: Magic Absorption 2/3}
+    - {level: 51, tree: Arcane, talent: Magic Absorption 3/3}
+    - {level: 52, tree: Fire, talent: Improved Fireball 1/5}
+    - {level: 53, tree: Fire, talent: Improved Fireball 2/5}
+    - {level: 54, tree: Fire, talent: Improved Fireball 3/5}
+    - {level: 55, tree: Fire, talent: Improved Fireball 4/5}
+    - {level: 56, tree: Fire, talent: Improved Fireball 5/5}
+    - {level: 57, tree: Fire, talent: Improved Fire Blast 1/3}
+    - {level: 58, tree: Fire, talent: Improved Fire Blast 2/3}
+    - {level: 59, tree: Fire, talent: Improved Fire Blast 3/3}
+stat_weights:
+  spell_hit_1pct_in_sp: {fresh60: 10.5, endgame_low_haste: 16.7, endgame_15pct_haste: 17.5, high_haste_25pct: 22.0, source: "wiki Arcane FAQ sim"}
+  spell_haste_1pct_in_sp: {fresh60: 11.5, endgame_low_haste: 17.8, endgame_15pct_haste: 20.0, high_haste_25pct: 18.2}
+  spell_crit_1pct_in_sp: {fresh60: 9.0, endgame_low_haste: 12.9, endgame_15pct_haste: 12.0, high_haste_25pct: 13.2}
+  aoe_trash: {spell_crit_1pct_in_sp: 20, spell_hit_1pct_in_sp: 0, spell_haste_1pct_in_sp: 0}
+  player_formula_Ashafares: {sp_20: "14 DPS", haste_1: "9.1 DPS", crit_1: "9.1 DPS", hit_1: "9.1 DPS (until 16%)"}
+  priority: "hit to 16% > haste ~= spell power (1% haste ~= 17-20 SP) > crit > intellect; spirit/stamina low; spell penetration ignored in PvE"
+  leveling_priority: "Intellect > Stamina > Spirit (Bigsmerf) — contested: Schoop123 found Spirit main stat under Arcane Power drain"
+caps:
+  spell_hit: "16% (talent 10% + 6% gear per Ashafares; wiki sims use 15-16)"
+  arcane_range_yd: 30
+  arcane_missiles_haste_cap: "exists when stacking haste effects (wiki), value not given"
+  arcane_surge_haste_threshold: "~30% haste: drop Surge from the rotation (Guldred, wiki)"
+rotation_single:
+  - {priority: 0, action: "Opener with cooldowns (<17% haste): Arcane Rupture -> Mind Quickening Gem -> Arcane Power -> Arcane Missiles -> Arcane Rupture if buff about to fall off -> Arcane Missiles", condition: "fight start, all cooldowns available; with >17% haste use MQG and Arcane Power separately, AP right before MQG ends"}
+  - {priority: 1, action: "Arcane Surge", condition: "available (a spell of yours was partially/fully resisted within ~4 s) AND not under Arcane Power/MQG (>=~30% haste) AND you are not clipping a Missiles cast AND mana is spare; cancel Missiles for it only under those conditions; if Rupture buff is active delay as long as possible"}
+  - {priority: 2, action: "Arcane Rupture", condition: "off cooldown AND Rupture buff (8 s) not active; cancel Missiles for it only if buff not active; use Presence of Mind on it"}
+  - {priority: 3, action: "Arcane Missiles", condition: "default; do not re-press during the channel (clips); do not start a channel that will end after the Rupture buff expires if you cannot fit it (+20% mana, no +20% damage)"}
+  - {priority: 4, action: "Fire Blast", condition: "moving; fishes for a resist to enable Arcane Surge"}
+  - {priority: 5, action: "Arcane Missiles rank 1", condition: "low mana, to fish Clearcasting (Arcane Concentration, 8 s ICD) — leveling/emergency only"}
+rotation_aoe:
+  - {targets_min: 3, priority: 1, action: "Arcane Explosion spam (max rank)", condition: "3+ mobs per the wiki sim; Resonance Cascade rolls once per Explosion; watch threat"}
+  - {targets_min: 3, priority: 2, action: "Wear 3-piece Frost/Fire T3.5 + 3-piece Arcane T3.5 on trash", condition: "post-1.18.1 Mirror Magic fix; otherwise 5-piece T3.5"}
+  - {targets_min: 2, priority: 9, action: "no source states 2-target handling", condition: "gap"}
+aoe_threshold: 3
+cooldowns:
+  - {name: Arcane Power, use_when: "on pull with MQG if <17% haste else staggered; never below ~30% mana (dies at 10%, cannot be cancelled); +30% cast speed, drains 1% max mana/s, -50% mana gain, 20 s, 3 min"}
+  - {name: Presence of Mind, use_when: "instant Arcane Rupture; sped up by haste via Accelerated Arcana"}
+  - {name: Mind Quickening Gem, use_when: "with Arcane Power at low haste; best trinket for 1-2 min fights per sim"}
+  - {name: Evocation, use_when: "when mana low and safe to channel; cooldown shortened by haste (Accelerated Arcana)"}
+  - {name: Mana gem / mana tea / mana potion, use_when: "tea does not share the potion cooldown; use freely (Gantulga)"}
+  - {name: Counterspell, use_when: "interrupt casters; macro skips targets in Ice Block"}
+resource_rules:
+  - "Arcane Power kills you below 10% max mana and cannot be cancelled: only activate above ~30% mana and stop Mana Shield use during it."
+  - "Arcane Instability burns 2% base mana per proc; Arcane Rupture buff raises Missiles cost by 20% for 8 s."
+  - "Temporal Convergence: 5/10/15% per Missiles cast to reset Rupture and refund its base mana on the next cast (12 s buff, 15 s ICD); one Rupture consumes both Convergence and Clearcasting."
+  - "Arcane Surge consumes a Clearcasting charge; choose Surge vs Missiles for the free cast deliberately."
+  - "Arcane Meditation regen is tripled below 35% mana; Wand Specialization returns mana (150% of level) on wand hits; Magic Absorption returns 1-3% total mana on your resisted spells (2 s ICD)."
+  - "In raids a Retribution Paladin's mana-on-spell-hit debuff refills the bar (Eluaria); while leveling mana drops fast — fish Clearcasting with rank-1 Missiles/Arcane Explosion."
+  - "Blizzard ticks do not proc Clearcasting; each Missiles wave can (subject to the 8 s ICD)."
+consumables:
+  - "Mana tea (Hyjal, small dream shards; no shared cooldown with potions)"
+  - "Greater/Major Mana Potion (Alchemist's Stone +33% if using Greater)"
+  - "Conjured Mana Oranges (AQ20 quest chain; Refreshment Table)"
+  - "Brilliant Wizard Oil (wiki macro)"
+  - "Goblin Sapper Charge (engineering; 'only engineering really matters for raids')"
+  - "Trinkets by fight length (sim): MQG (1-2 min), Mark of the Champion / Sphere of Endless Gulch (3-4 min), REoS, Sigil of Ancient Accord; Hazza'rah's Charm of Magic for AoE trash"
+  - "Shoulder enchant: 2 haste (single target) or 'Saph' enchant (AoE versatility)"
+mistakes_to_avoid:
+  - "Starting max-rank Missiles on a mob about to die (wasted mana)"
+  - "Using Arcane Power under ~30% mana (instant death at 10%)"
+  - "Casting Missiles into the last second of the Rupture buff (pay +20% mana, get no bonus)"
+  - "Using Arcane Surge during Arcane Power/MQG (1.5 s GCD does not scale with haste)"
+  - "Letting the ~4 s Arcane Surge window lapse when cancelling Missiles would not clip"
+  - "Re-pressing Missiles during a channel without a channel-check macro/nampower (clips the last missile)"
+  - "Standing beyond 30 yd"
+  - "Ignoring AoE threat on trash (Arcane Subtlety helps)"
+  - "Wearing 5-piece T3.5 on trash after 1.18.1 when 3/3 is better"
+  - "Converting tier pieces at Feid Rota while enchanted (enchants are lost)"

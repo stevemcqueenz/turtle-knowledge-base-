@@ -1,0 +1,57 @@
+class: Mage
+spec: Arcane
+role: pvp
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460", author: Jamey, authority: staff, date: "2024-12-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504", author: Torta, authority: staff, date: "2025-03-30"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=122357#p122357", author: Likaleo, authority: player, date: "2025-03-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=158193#p158193", author: Cheruscan, authority: player, date: "2025-11-03"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=162458#p162458", author: Terrydavis, authority: player, date: "2025-12-11"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=167923#p167923", author: Eluaria, authority: player, date: "2026-02-11"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=107344#p107344", author: Manletow, authority: player, date: "2024-11-10"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=134850#p134850", author: Forumdweller, authority: player, date: "2025-06-09"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=134966#p134966", author: Halfgeek9, authority: player, date: "2025-06-10"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=107372#p107372", author: Kibuum, authority: player, date: "2024-11-10"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=114805#p114805", author: Bahamutxd, authority: player, date: "2024-12-30"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=135012#p135012", author: Atreidon, authority: player, date: "2025-06-10"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=114456#p114456", author: Boeuff, authority: player, date: "2024-12-27"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=134977#p134977", author: Laysson, authority: player, date: "2025-06-10"}
+agreement: consensus
+patch_validity:
+  written_for: "1.17.2 Arcane rework (2024-11) through 1.18.0; Rupture nerfed 2024-12-20 and 2025-03-30"
+  valid_for_1181: unknown
+  notes: "The PoM -> Rupture -> Missiles opener is described identically by attackers and victims (consensus that it exists). 1.18.1 PvP dampening per class is unpublished. No build or stat source."
+talents:
+  build_name: "none — gap (opaque exports: Redmagejoe p103299, Xudo p103310, Forumdweller p131096). Talents named as PvP core: Presence of Mind, Arcane Rupture, Resonance Cascade, Arcane Instability, Arcane Potency, Improved Arcane Missiles, Improved Counterspell"
+  points: []
+  leveling_order: []
+stat_weights:
+  priority: "not documented"
+caps:
+  arcane_range_yd: 30
+  pom_cooldown_min: 3
+  double_duplicate_crit_chance: "~1-2% per PoM window on a 650-700 SP / 30% crit mage (Kibuum, Bahamutxd)"
+rotation_single:
+  - {priority: 1, action: "Polymorph or open from range", condition: "target not on you"}
+  - {priority: 2, action: "Presence of Mind -> Arcane Rupture (instant) -> Arcane Missiles", condition: "PoM available (3 min); reported 3-4k typical, 5-7k with Resonance Cascade/Instability/Potency alignment"}
+  - {priority: 3, action: "Arcane Missiles", condition: "channel keeps hitting after the target breaks line of sight (players report 'around corners'); 0% pushback with Improved Arcane Missiles"}
+  - {priority: 4, action: "Blink forward then channel", condition: "target beyond 30 yd"}
+  - {priority: 5, action: "Arcane Surge", condition: "after any resist (enemy resistances feed it)"}
+  - {priority: 6, action: "Mana Shield / Blink / Ice Block if reached", condition: "defensive; PoM can stand in for Ice Block"}
+rotation_aoe:
+  - {targets_min: 3, priority: 1, action: "Arcane Explosion spam", condition: "clumped enemies"}
+aoe_threshold: 3
+cooldowns:
+  - {name: Presence of Mind, use_when: "instant Arcane Rupture opener"}
+  - {name: Arcane Power + Mind Quickening Gem, use_when: "burst; AP cannot be cancelled and kills at 10% mana — not with Mana Shield draining"}
+  - {name: Improved Counterspell, use_when: "4 s silence on casters"}
+resource_rules:
+  - "Mana Shield and Arcane Power share the mana pool; AP death at 10%."
+  - "Being silenced on Arcane removes Polymorph, Mana Shield, Blink and the damage (cross-forum player remark)."
+consumables:
+  - "none documented for Arcane PvP"
+mistakes_to_avoid:
+  - "Arcane Power while Mana Shield drains you"
+  - "Freecasting into an un-CC'd melee; channelling into a Felhunter/Intensity warlock"
+  - "Mid range vs shamans"

@@ -1,0 +1,66 @@
+class: Mage
+spec: Frost
+role: pvp
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102968#p102968", author: Dragunovi, authority: staff, date: "2024-10-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504", author: Torta, authority: staff, date: "2025-03-30"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=122357#p122357", author: Likaleo, authority: player, date: "2025-03-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=111502#p111502", author: amanagor, authority: player, date: "2024-12-05"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=167933#p167933", author: amanagor, authority: player, date: "2026-02-11"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=82156#p82156", author: Gantulga, authority: player, date: "2023-12-21"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=167923#p167923", author: Eluaria, authority: player, date: "2026-02-11"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=162458#p162458", author: Terrydavis, authority: player, date: "2025-12-11"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=101677#p101677", author: Manletow, authority: player, date: "2024-09-22"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=155433#p155433", author: Springboards, authority: player, date: "2025-10-13"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=89754#p89754", author: Gladeshadow, authority: player, date: "2024-03-09"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=89756#p89756", author: Springboards, authority: player, date: "2024-03-09"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=89764#p89764", author: Ataika, authority: player, date: "2024-03-09"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=131637#p131637", author: Forumdweller, authority: player, date: "2025-05-17"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=134628#p134628", author: Atolius, authority: player, date: "2025-06-07"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=126305#p126305", author: Atreidon, authority: player, date: "2025-04-10"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=111518#p111518", author: Jammyzz, authority: player, date: "2024-12-05"}
+agreement: contested
+patch_validity:
+  written_for: "mixed 2023-2026 opinion threads; Shatter 35% since 1.17.2; Flash Freeze not from temporary immunities since 2025-04-01"
+  valid_for_1181: unknown
+  notes: "1.18.1 makes PvP dampening class/spec-dependent with unpublished numbers; Ice Barrier grants +10% Frost on cast. Pre-1.17.2 statements assume Shatter 50% and a 65% Blizzard slow. No talent allocation exists in any source."
+talents:
+  build_name: "none — gap (only opaque talents.turtlecraft.gg exports: Xudo p103310 'Blast Wave PvP', Forumdweller p131096 Arcane/Frost)"
+  points: []
+  leveling_order: []
+stat_weights:
+  priority: "not documented for PvP (Perkamov's question unanswered); spell penetration 'useful for PvP' (Mackylol); mages sit at ~3k HP in PvP gear"
+caps:
+  blink_cooldown_s: "15 (10-12 with PvP set per Springboards)"
+  improved_counterspell_silence_s: 4
+  greater_fire_protection_potion_absorb: 2600
+rotation_single:
+  - {priority: 1, action: "Freeze (Frost Nova / Frostbite) -> max-rank Frostbolt shatter crit", condition: "target frozen; Shatter +35%; rank-switch macro casts rank 10 on a frozen target, rank 1 otherwise"}
+  - {priority: 2, action: "Rank-1 Frostbolt", condition: "cheap slow spam / peeling ('most op part about frost')"}
+  - {priority: 3, action: "Cone of Cold", condition: "melee in range, Nova on cooldown"}
+  - {priority: 4, action: "Polymorph / Counterspell (Improved: 4 s silence)", condition: "control; Counterspell macro skips Ice Block targets"}
+  - {priority: 5, action: "Blink -> Ice Block -> Cold Snap -> Ice Block", condition: "escape chain; Blink only from low height"}
+  - {priority: 6, action: "Mana Shield", condition: "absorb while mana is spare; do not drain to zero"}
+rotation_aoe:
+  - {targets_min: 3, priority: 1, action: "Blink in -> Frost Nova -> Cone of Cold -> Arcane Explosion spam", condition: "clumped low-HP enemies ('kamikaze' pattern described by Manletow)"}
+aoe_threshold: 3
+cooldowns:
+  - {name: Ice Block, use_when: "burst incoming; 'every mage is 2-block' with Cold Snap"}
+  - {name: Cold Snap, use_when: "second Ice Block / Frost Nova / Ice Barrier"}
+  - {name: Presence of Mind, use_when: "instant Frostbolt/Polymorph; 'can substitute ice block' (Forumdweller)"}
+  - {name: Blink, use_when: "break stuns/roots, gap; not through doors (2025-12-24)"}
+  - {name: Greater Fire Protection Potion, use_when: "vs Fire/PoM-Pyro mages; drinkable up to 1 h early, 2 min CD"}
+resource_rules:
+  - "Mana Shield is the second health bar; Improved Mana Shield 13/25% less mana per damage."
+  - "Icicles is not a PvP tool: roots you, no slow, 30% base HP shatter."
+consumables:
+  - "Greater Fire Protection Potion (2600 absorb)"
+  - "Zanza potion (~3g)"
+  - "Dismount / anti-polymorph consumables exist (Sharmaine)"
+mistakes_to_avoid:
+  - "Casting Icicles in PvP"
+  - "Standing at mid range vs shamans/melee (Earth Shock range)"
+  - "Blinking while high in the air (blinks in place)"
+  - "Counterspelling a target in Ice Block"
+  - "Draining Mana Shield to zero mana"

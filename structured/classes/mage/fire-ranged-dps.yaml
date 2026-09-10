@@ -1,0 +1,102 @@
+class: Mage
+spec: Fire
+role: ranged-dps
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102968#p102968", author: Dragunovi, authority: staff, date: "2024-10-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108776#p108776", author: Jamey, authority: staff, date: "2024-11-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460", author: Jamey, authority: staff, date: "2024-12-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504", author: Torta, authority: staff, date: "2025-03-30"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: "2025-07-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-26"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?t=20103", author: Dragunovi, authority: staff, date: "2025"}
+  - {url: "https://turtle-wow.fandom.com/wiki/Mage_Fire_FAQ", author: "community wiki", authority: wiki, date: "2026-03-04"}
+  - {url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "community wiki", authority: wiki, date: "2026-09-09"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=167923#p167923", author: Eluaria, authority: player, date: "2026-02-11"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=160732#p160732", author: Eluaria, authority: player, date: "2025-11-26"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=167406#p167406", author: Cheruscan, authority: player, date: "2026-02-04"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108772#p108772", author: Rethon, authority: player, date: "2024-11-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=110663#p110663", author: Bahamutxd, authority: player, date: "2024-11-30"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=91574#p91574", author: Sauceman89, authority: player, date: "2024-03-28"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171412#p171412", author: Wsta, authority: player, date: "2026-03-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=83404#p83404", author: Xudo, authority: player, date: "2024-01-02"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=76091#p76091", author: Mativh, authority: player, date: "2023-11-06"}
+agreement: contested
+patch_validity:
+  written_for: "1.18.0 Fire retune (2025-08-15) plus 1.18.1 Improved Fire Blast change; wiki rotation revised 2026-03-04"
+  valid_for_1181: true
+  notes: "1.18.1 raised Improved Fire Blast's GCD reduction to 0.3/0.6/1.0 s, which per Eluaria fixes Fire Blast dropping Ignite; the wiki rotation already uses Fire Blast on cooldown. Superseded: 1.17.2-era Ignite 6 s / Hot Streak 3-rank advice; wiki haste note written for a 6 s Ignite window (now 4 s). Unknown: Fire T3.5 5-set bug (bug report 18568) status."
+talents:
+  build_name: "Wiki Fire FAQ leveling/raid path (46 points at 55 + 5 free) — single source; full raid build is an image (gap)"
+  points:
+    - {tree: Fire, talent: Improved Fireball, rank: 5, spell_id: null}
+    - {tree: Fire, talent: Ignite, rank: 5, spell_id: null}
+    - {tree: Fire, talent: Pyroblast, rank: 1, spell_id: null}
+    - {tree: Fire, talent: Burning Soul, rank: 2, spell_id: null}
+    - {tree: Frost, talent: Elemental Precision, rank: 3, spell_id: null}
+    - {tree: Arcane, talent: Arcane Subtlety, rank: 2, spell_id: null}
+    - {tree: Arcane, talent: Magic Absorption, rank: 3, spell_id: null}
+    - {tree: Arcane, talent: Arcane Concentration, rank: 5, spell_id: null}
+    - {tree: Fire, talent: Incinerate, rank: 2, spell_id: null}
+    - {tree: Fire, talent: Master of Elements, rank: 3, spell_id: null}
+    - {tree: Fire, talent: Fire Vulnerability, rank: 3, spell_id: null}
+    - {tree: Fire, talent: Blast Wave, rank: 1, spell_id: null}
+    - {tree: Fire, talent: Critical Mass, rank: 3, spell_id: null}
+    - {tree: Fire, talent: Hot Streak, rank: 2, spell_id: null}
+    - {tree: Fire, talent: Fire Power, rank: 5, spell_id: null}
+    - {tree: Fire, talent: Combustion, rank: 1, spell_id: null}
+    - {tree: "free", talent: "5 points unassigned by the source (Improved Fire Blast 3 is the obvious 1.18.1 candidate — inference, not sourced)", rank: 5, spell_id: null}
+  leveling_order:
+    - {level: 10, tree: Fire, talent: "Improved Fireball 1-5 (10-14)"}
+    - {level: 15, tree: Fire, talent: "Ignite 1-5 (15-19)"}
+    - {level: 20, tree: Fire, talent: Pyroblast}
+    - {level: 21, tree: Fire, talent: "Burning Soul 1-2 (21-22)"}
+    - {level: 23, tree: Frost, talent: "Elemental Precision 1-3 (23-25)"}
+    - {level: 26, tree: Arcane, talent: "Arcane Subtlety 1-2 (26-27)"}
+    - {level: 28, tree: Arcane, talent: "Magic Absorption 1-3 (28-30)"}
+    - {level: 31, tree: Arcane, talent: "Arcane Concentration 1-5 (31-35)"}
+    - {level: 36, tree: Fire, talent: "Incinerate 2, Master of Elements 3, Fire Vulnerability 3, Blast Wave 1, Critical Mass 3, Hot Streak 2, Fire Power 5, Combustion 1 (36-55; exact per-level order not given)"}
+    - {level: 56, tree: "free", talent: "5 free points (56-60)"}
+stat_weights:
+  spell_crit_1pct_in_sp: {endgame: 25, fresh60: 17, source: "wiki Fire FAQ sim (1000 SP/40 crit/15 hit/5 haste; 300/18/13/3)"}
+  spell_hit_1pct_in_sp: {endgame: 23, fresh60: 15}
+  spell_haste_1pct_in_sp: {endgame: 15, fresh60: 11}
+  priority: "hit to 16% > crit > spell power > haste (2-4% haste minimum recommended by wiki for double Fireball in the Ignite window, computed for the old 6 s window)"
+caps:
+  spell_hit: "16% (generic caster figure quoted by players)"
+  hot_streak_stacks: 5
+  fire_vulnerability_stacks: 5
+rotation_single:
+  - {priority: 0, action: "Opener: Fire Blast -> Scorch x3 -> Fireball -> Fire Blast", condition: "pull; builds 5 Fire Vulnerability stacks (Fire Blast also applies them since 1.18.0)"}
+  - {priority: 1, action: "Pyroblast", condition: "Hot Streak at 5 stacks (1 s cast, 1 s GCD); cast it before another Fireball to avoid wasting crits (flight-time overlap)"}
+  - {priority: 2, action: "Fire Blast", condition: "off cooldown (post-1.18.1 GCD -1.0 s with 3/3 Improved Fire Blast); also while moving"}
+  - {priority: 3, action: "Fireball", condition: "default filler (rank 12 book, 295 mana)"}
+  - {priority: 4, action: "Scorch", condition: "to extend Ignite / refresh Fire Vulnerability when a Fireball will not land in time; low-HP finisher; while moving"}
+  - {priority: 5, action: "Frostbolt rank 1 / stop casting", condition: "about to pull threat from Ignite ticks as the sole Fire mage (pre-1.17.2 advice; threat is now split among Fire mages)"}
+rotation_aoe:
+  - {targets_min: 3, priority: 1, action: "Arcane Explosion spam", condition: "player consensus that AE is the best AoE regardless of spec; no Fire-specific raid AoE priority exists"}
+  - {targets_min: 3, priority: 2, action: "Flamestrike (2.5 s) + Blast Wave (30 s) + Flame Throwing radius", condition: "when mobs are stacked and the tank is not moving them; rotate Flamestrike ranks for overlapping ground DoTs (different ranks stack)"}
+  - {targets_min: 3, priority: 3, action: "Wear 3-piece Frost/Fire T3.5 (+20% Fire on rewind) + 3-piece Arcane", condition: "post-1.18.1"}
+  - {targets_min: 2, priority: 9, action: "no source states 2-3 target handling", condition: "gap"}
+aoe_threshold: 3
+cooldowns:
+  - {name: Combustion, use_when: "with crit-heavy burst on bosses (no timing source)"}
+  - {name: Blast Wave, use_when: "AoE, 30 s cooldown (1.18.0)"}
+  - {name: Evocation / mana gem / tea, use_when: "Fire is mana-hungry: 'Fire Mages quite struggle with mana even with Master of Elements' (staff); tea alone insufficient (Forbearance)"}
+  - {name: Trinkets, use_when: "sim: Scythe (Kara10) > Tear > Mark of the Champion > Eye of Diminution > MQG > REoS"}
+resource_rules:
+  - "Master of Elements refunds 15/30/45% base mana on crits (one refund per multi-target cast)."
+  - "Fireball/Flamestrike mana costs were reduced 2025-04-01 (Fireball R11 275, R12 295; Flamestrike R6 680)."
+  - "Arcane Concentration 5/5 in the wiki path for Clearcasting."
+  - "Ignite lasts 4 s (1.18.0); the sole Fire mage must keep it rolling with Fireball/Fire Blast/Scorch; Ignite no longer procs from grenades."
+consumables:
+  - "Mana tea / mana potions / mana gem"
+  - "Brilliant Wizard Oil"
+  - "Goblin Sapper Charge (engineering)"
+  - "BigWigs (pepopo978 fork) Scorch/Ignite monitor; Flamestriker addon for rank rotation"
+mistakes_to_avoid:
+  - "Playing Fire against fire-immune Molten Core / Blackwing Lair bosses"
+  - "Casting another Fireball at 5 Hot Streak stacks instead of Pyroblast"
+  - "Letting Fire Vulnerability drop below 5 stacks or Ignite fall off as the only Fire mage"
+  - "Flamestrike where the tank is moving the pack or in dungeons where it pulls aggro"
+  - "Skipping Fire Blast (pre-1.18.1 habit) — after 1.18.1 it is on-cooldown filler"
+  - "Relying on tea without Arcane Concentration / Master of Elements"

@@ -1,0 +1,100 @@
+# Warrior / Arms / melee DPS — companion to synthesis/classes/warrior/arms-melee-dps.md
+class: Warrior
+spec: Arms
+role: melee-dps
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102974#p102974", author: Dragunovi, authority: staff, date: "2024-10-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460", author: Jamey, authority: staff, date: "2024-12-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: "2025-07-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=122609#p122609", author: "Wolf of Rage", authority: player, date: "2025-03-15"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=122809#p122809", author: Atreidon, authority: player, date: "2025-03-17"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=122819#p122819", author: "Wolf of Rage", authority: player, date: "2025-03-17"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=122923#p122923", author: "Wolf of Rage", authority: player, date: "2025-03-18"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=125218#p125218", author: "Wolf of Rage", authority: player, date: "2025-04-03"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166667#p166667", author: Licata, authority: player, date: "2026-01-27"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171710#p171710", author: Berettadin, authority: player, date: "2026-03-22"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=156442#p156442", author: Cheruscan, authority: player, date: "2025-10-21"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=157920#p157920", author: armsgirl, authority: player, date: "2025-10-31"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=139087#p139087", author: Ellifta, authority: player, date: "2025-07-14"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=64562#p64562", author: Shaman111, authority: player, date: "2023-09-15"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=101831#p101831", author: Atreidon, authority: player, date: "2024-09-24"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=100433#p100433", author: Tacticalnelf, authority: player, date: "2024-08-30"}
+agreement: "single dedicated rotation thread (t=18005) plus scattered posts; Arms-vs-Fury raid standing contested; execute-phase math contested (Licata vs dev intent)"
+patch_validity:
+  written_for: "Dec-2024 kit (Slam continues swing timer; Precision Cut refund); execute notes updated for CC3 and 1.18.1"
+  valid_for_1181: true
+  notes: "1.18.1: Hamstring cooldown removed; Boundless Anger and Precision Cut swapped; Precision Cut 25/50/75% per extra rage; no post-release Arms parse. Master Strike replaced Counterattack at CC3."
+talents:
+  build_name: "2H Arms raid (sourced points only)"
+  points:
+    - {tree: Arms, talent: Tactical Mastery, rank: 3, spell_id: null, note: "3-5"}
+    - {tree: Arms, talent: Improved Rend, rank: 2, spell_id: null}
+    - {tree: Arms, talent: Improved Overpower, rank: 2, spell_id: null}
+    - {tree: Arms, talent: Deep Wounds, rank: 3, spell_id: null}
+    - {tree: Arms, talent: Impale, rank: 2, spell_id: null}
+    - {tree: Arms, talent: Two-Handed Weapon Specialization, rank: 3, spell_id: null}
+    - {tree: Arms, talent: Master Strike, rank: 1, spell_id: null}
+    - {tree: Arms, talent: Sweeping Strikes, rank: 1, spell_id: null}
+    - {tree: Arms, talent: Master of Arms, rank: 5, spell_id: null}
+    - {tree: Arms, talent: Improved Slam, rank: 2, spell_id: null}
+    - {tree: Arms, talent: Mortal Strike, rank: 1, spell_id: null}
+    - {tree: Arms, talent: Precision Cut, rank: 3, spell_id: null, note: "position swapped with Boundless Anger in 1.18.1"}
+    - {tree: Fury, talent: Cruelty, rank: 5, spell_id: null}
+    - {tree: Fury, talent: Unbridled Wrath, rank: 0, spell_id: null, note: "contested for 2H"}
+  leveling_order:
+    - {level: null, tree: Fury, talent: Cruelty 5/5}
+    - {level: null, tree: Arms, talent: Tactical Mastery 3/5}
+    - {level: null, tree: Arms, talent: Improved Rend 2/2}
+    - {level: null, tree: Arms, talent: Improved Thunder Clap 3/3}
+    - {level: null, tree: Arms, talent: Deflection 2/5}
+    - {level: null, tree: Arms, talent: Improved Overpower 2/2}
+    - {level: null, tree: Fury, talent: Dual Wield Specialization 3}
+    - {level: null, tree: Arms, talent: Two-Handed Weapon Specialization 3}
+    - {level: null, tree: Arms, talent: Impale 1/2}
+    - {level: null, tree: Arms, talent: Master Strike}
+    - {level: null, tree: Arms, talent: Sweeping Strikes}
+    - {level: null, tree: Arms, talent: Master of Arms 5/5}
+  leveling_order_source: "armsgirl p=157920 (order only; levels not given)"
+  links_opaque:
+    - "https://talents.turtlecraft.gg/warrior?points=FQADCYDQB-FoAAoAAoRCF-"
+    - "https://talents.turtlecraft.gg/warrior?points=FQADCYDQ-FoAAoAAoRCFAB-"
+stat_weights: null
+stat_priority: [hit-to-2H-cap, weapon-top-end-damage, strength/attack-power, crit, agility]
+caps:
+  hit_2h_pct: 8      # Cheruscan p=156442, single source ("8% max")
+  hit_boss_pct: 9    # general player consensus
+  crit: null
+  defense: null
+rotation_single:
+  - {priority: 0, action: "Charge -> Bloodrage -> Sunder Armor once -> Berserker Stance", condition: "opener on raid bosses"}
+  - {priority: 1, action: Mortal Strike, condition: "off cooldown"}
+  - {priority: 2, action: Whirlwind, condition: "off cooldown"}
+  - {priority: 3, action: Overpower, condition: "target dodged; Battle Stance only (stance dance optional)"}
+  - {priority: 4, action: Slam, condition: "MS and WW on cooldown; cast immediately after a white swing (swing timer addon)"}
+  - {priority: 5, action: Sunder Armor, condition: "< 5 stacks or non-warrior tank; trash only until 50% HP"}
+  - {priority: 6, action: Hamstring, condition: "proc-fishing instant filler; no cooldown since 1.18.1"}
+  - {priority: 7, action: Heroic Strike, condition: "rage >= 70 and nothing else; Arms generally avoids HS"}
+  - {priority: 8, action: Execute, condition: "target HP <= 20% and rage high (>= ~60); per Licata Slam/MS beat Execute per rage unless overcapping or target dying now — contested"}
+rotation_aoe:
+  - {targets_min: 2, priority: 1, action: Sweeping Strikes, condition: "start of pull (20 rage)"}
+  - {targets_min: 2, priority: 2, action: Whirlwind, condition: "under Sweeping Strikes (Berserker Stance)"}
+  - {targets_min: 2, priority: 3, action: Cleave, condition: "on-next-swing under Sweeping Strikes"}
+  - {targets_min: 4, priority: 1, action: "same as 2-3", condition: "no 4+ specific priority in sources; mind threat and CC"}
+aoe_threshold: null
+cooldowns:
+  - {name: Sweeping Strikes, use_when: "every AoE pull"}
+  - {name: Recklessness, use_when: "execute phase"}
+  - {name: Death Wish, use_when: "if taken"}
+  - {name: Master Strike, use_when: "effect of equipped weapon only; do not weapon-swap mid-combat (resets swing timer)"}
+resource_rules:
+  - "Rage comes once per white swing; do not Execute down to 0 with nothing to do (Licata)"
+  - "Bloodrage (10) is not enough for Slam/Execute"
+  - "Conserve rage between dungeon pulls"
+consumables: []
+mistakes_to_avoid:
+  - "Heroic Strike as a filler"
+  - "Slam cast mid-swing instead of right after a swing"
+  - "Execute spam at low rage after CC3 (refund era advice)"
+  - "Weapon swapping for Master Strike effects mid-fight"
+  - "Sweeping Strikes/Whirlwind near CC"
