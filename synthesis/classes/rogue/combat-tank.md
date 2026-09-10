@@ -31,15 +31,26 @@ Links only (pre-CC2 tree, `talents.turtlecraft.gg/rogue/<code>` format; opaque):
 
 Avoidance (dodge, parry, defense) → stamina → threat stats (hit, agility, weapon skill for poison procs) → resistances for caster bosses. "A 60 rogue with some mediocre gear should sit at around 70% avoidance with flourish up and talented properly, and getting some good gear should bring you close to 85-90% avoidance and evasion being up bringing them well above the 102% avoidance requirement to not be crushed" [Ssai (player), 2022-09-15](https://forum.turtlecraft.gg/viewtopic.php?p=25123#p25123) (theorycraft, pre-1.17.0 Flourish); a full-mitigation set is "about 0.8% above cap" [Derrurak (player), 2023-06-07](https://forum.turtlecraft.gg/viewtopic.php?p=49177#p49177). "There are two general situations of tanking ... You have to gear up from the blues and be viable option for chosen role all the time" [Xudo, 2022-09-17](https://forum.turtlecraft.gg/viewtopic.php?p=25346#p25346).
 
-## Rotation / threat
+## Single-target rotation / threat
 
 1. Pre-pull: Agitating Poison on the main hand (and off-hand, or Deadly Throw with TWS for a ranged pull); Slice and Dice and Flourish up from stealth if possible.
 2. "I do not expect to get more than one or two combo points before I'm swapping targets, meaning that I will be using them exclusively to refresh Slice and Dice & Flourish, or to snap a two-second Kidney Shot to stop a runner" [Trismegistos, 2023-05-11]; on bosses "juggling Flourish and Slice and Dice uptime while trying to weave in one or two 5-combo Eviscerates" [Trismegistos, 2023-08-04].
 3. Riposte on every parry (threat + disarm); Sinister Strike as builder; Ghostly Strike for +dodge windows.
 4. Evasion as the "shield wall" (unhittable by melee for 15 s; 4-min cooldown baseline since CC2, 3.5 min with the old Endurance talent).
 5. Engineering fills the gaps: "target dummies have an area taunt ... grenades are great for area threat during fights (though your parry and dodge chance drop to 0% for the duration of the cast)" [Trismegistos, 2023-05-11].
-6. Multi-target: change targets every 1–2 combo points to spread Agitating procs; Blade Flurry (baseline toggle since 1.18.0) hits a second target at −20% energy regen.
-7. Poison-immune targets: cannot hold threat; hand off. Casters: resistance gear/engineering reflectors; "it is fully within the rogue's capabilities to tank bosses like Baron Geddon and Shazzrah" (Trismegistos).
+6. Poison-immune targets: cannot hold threat; hand off. Casters: resistance gear/engineering reflectors; "it is fully within the rogue's capabilities to tank bosses like Baron Geddon and Shazzrah" (Trismegistos).
+
+## Multi-target
+
+Not viable as a crowd/pull tank: "Rogue is absolutely not viable for crowd tanking because you need to build combo points on single target. If you switch the target then you lose acquired combo points" [Xudo (player), 2022-09-16](https://forum.turtlecraft.gg/viewtopic.php?p=25185#p25185) — combo points persist per target since CC2, which softens this (Kick/Gouge on an add no longer wipes the main target's points), but a rogue tank still cannot build threat on several adds at once the way a Sunder/Consecration tank can. Practical compromise: change targets every 1–2 combo points to spread Agitating Poison procs across a pack, and toggle the baseline Blade Flurry (since 1.18.0) to hit a second target at −20% energy regeneration; do not expect to hold a full pull.
+
+## Cooldowns
+
+- **Flourish**: the core mitigation finisher, but capped at a 40-s cooldown since 1.17.0 specifically to stop permanent avoidance uptime (staff note above) — plan pulls around it, do not expect it up every fight.
+- **Evasion**: unhittable-by-melee cooldown, 4 min baseline since CC2 (3.5 min with the old Endurance talent) — use it as the "oh-shit" button on a dangerous swing, not on pull.
+- **Riposte**: not a cooldown but only usable after a parry; treat it as a bonus threat/disarm proc rather than something to plan around.
+- **Preparation**: resets Vanish/Blind/Sprint if talented, not Flourish or Evasion; of limited use to the tank build (it is a Subtlety talent competing with tank-relevant Combat/utility points).
+- **Vanish**: aggro reset only in genuine emergencies; it does not help hold threat.
 
 ## Role strategy
 

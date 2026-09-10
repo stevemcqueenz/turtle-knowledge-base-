@@ -1,0 +1,46 @@
+class: Warlock
+spec: Demonology
+role: pvp
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=94776#p94776", author: Majestik51, authority: player, date: "2024-05-13"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=94746#p94746", author: Ataika, authority: player, date: "2024-05-13"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=121838#p121838", author: Deer12w, authority: player, date: "2025-03-06"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=135863#p135863", author: Forumdweller, authority: player, date: "2025-06-15"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=121753#p121753", author: Zulnam, authority: player, date: "2025-03-05"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=137375#p137375", author: pillowed, authority: player, date: "2025-06-29"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=121777#p121777", author: Dannyp92, authority: player, date: "2025-03-05"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+agreement: contested
+patch_validity:
+  written_for: "mixed CC2/CC3; 1.18.1 durability changes applied"
+  valid_for_1181: true
+  notes: "1.18.1 explicitly nerfed Soul Link (25%->20% transfer) and shifted the healing-reduction off the Warlock onto enslaved/greater demons; no post-1.18.1 PvP re-evaluation of Soul Link exists in the sources."
+talents:
+  build_name: "Soul Link (SL/Nightfall, SL/Shadowburn, SL + greater demons); no source gives a full decoded point list, only talent-calculator links"
+  points: []
+  leveling_order: []
+stat_weights:
+  stamina: "high, first priority (Soul Link splits damage with the pet; Demonic Embrace)"
+  pet_stamina: "high via Fel Stamina (10-50% of the Warlock's own Stamina); target ~30%+ of Warlock stamina on the demon"
+  spell_power: "medium, secondary to survivability stats"
+caps: {}
+rotation_single: []
+rotation_aoe: []
+aoe_threshold: 0
+cooldowns:
+  - {name: "Inferno / Demon Gate / Ritual of Doom", use_when: "fight expected to last >30 s; pre-cast Demon Gate out of combat since it can be interrupted by damage"}
+  - {name: "Power Overwhelming", use_when: "demon CC'd, or to force 10 s of burst; costs 40% of the demon's base health"}
+  - {name: "Death Coil", use_when: "melee connects for significant damage (~2000), or to peel"}
+  - {name: "Fel Domination", use_when: "instant re-summon after a demon dies or is lost"}
+resource_rules:
+  - "Curse of Exhaustion is the class's primary PvP slow: 10% base, 40% only with 20+ Affliction points (Improved Curse of Exhaustion), 190 mana since 1.18.1"
+  - "Health Funnel the pet between engagements; Voidwalker Sacrifice when the pet is about to die or before a Fel Domination re-summon"
+  - "one curse per target: Corruption + Curse of Agony/Exhaustion/Tongues, Siphon Life if reached, Immolate only when Seduction is not needed"
+consumables: []
+mistakes_to_avoid:
+  - "Hard-casting a Voidwalker under pressure without Fel Domination up"
+  - "Using Curse of Exhaustion as if it still slowed 50% (it does not since CC3, and costs more mana since 1.18.1)"
+  - "Summoning a Felguard/Infernal in the open expecting to not be focused"
+  - "Forgetting Soul Link's damage transfer can kill a low-health pet outright"
+  - "Expecting Voidwalker Sacrifice to absorb a full burst opener (only 1-2 extra hits)"
+  - "Playing Soul Link on Alliance and relying on Fear against Undead (Will of the Forsaken)"

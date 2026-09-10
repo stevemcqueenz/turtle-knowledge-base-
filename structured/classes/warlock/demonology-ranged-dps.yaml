@@ -1,0 +1,62 @@
+class: Warlock
+spec: Demonology
+role: ranged-dps
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=126753#p126753", author: Erhog, authority: player, date: "2025-04-14"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=140572#p140572", author: Sharmaine, authority: player, date: "2025-07-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=107778#p107778", author: LastyK, authority: player, date: "2024-11-13"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=131469#p131469", author: Forumdweller, authority: player, date: "2025-05-16"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102973#p102973", author: Dragunovi, authority: staff, date: "2024-10-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460", author: Jamey, authority: staff, date: "2024-12-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504", author: Torta, authority: staff, date: "2025-03-30"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: "2025-07-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=173046#p173046", author: Milordas, authority: player, date: "2026-03-29"}
+agreement: contested
+patch_validity:
+  written_for: "mixed CC2/CC3; 1.18.1 revisions applied"
+  valid_for_1181: true
+  notes: "1.18.1 changed Enslave Demon healing, Ritual of Doom (1 summoner), Felguard/Felhunter/Infernal numbers, Sinister Pursuit, Soul Link 20%; no post-1.18.1 raid re-test of the demon-DPS build exists."
+talents:
+  build_name: "Imp spec / Unleashed Potential build (no full point list given by any source; only calculator links)"
+  points: []
+  leveling_order: []
+stat_weights:
+  hit: "high; Demonic Precision passes up to 100% of Warlock hit/crit to the demon since CC3, so gear is shared with Destruction"
+  crit: "high, same reasoning"
+  spell_power: "medium (Unleashed Potential converts up to 15%/stack of bonus SP to the demon's AP/SP)"
+  stamina: "medium-high (Power Overwhelming costs 40% of the demon's base health; feeds Soul Link)"
+caps: {}
+rotation_single:
+  - {priority: 1, action: "Curse (raid assignment)", condition: "opener"}
+  - {priority: 2, action: "Corruption / Immolate", condition: "opener, instant DoTs; Corruption does not proc Unleashed Potential"}
+  - {priority: 3, action: "direct damage (Shadow Bolt / Searing Pain / Immolate) or Health Funnel tick", condition: "Unleashed Potential below 3 stacks or about to expire (any direct-damage hit procs it since 1.18.1)"}
+  - {priority: 4, action: "Power Overwhelming", condition: "demon at 3 UP stacks and above ~60% health; also breaks CC on the demon"}
+  - {priority: 5, action: "reapply Curse/Corruption/Immolate", condition: "missing"}
+  - {priority: 6, action: "Mana Funnel", condition: "Felguard out and below ~1560 mana for Felstorm (contested value)"}
+  - {priority: 7, action: "Shadow Bolt or Searing Pain", condition: "default filler"}
+  - {priority: 8, action: "Life Tap / Health Funnel", condition: "mana low / demon below ~50% health and no AoE imminent"}
+rotation_aoe:
+  - {targets_min: 4, priority: 1, action: "Infernal (Immolation aura) + Power Overwhelming + 3-stack Unleashed Potential + Hellfire", condition: "stacked trash pack"}
+  - {targets_min: 4, priority: 2, action: "Rain of Fire", condition: "pack cleaves"}
+aoe_threshold: 4
+cooldowns:
+  - {name: "Power Overwhelming", use_when: "14-s CD, demon at 3 UP stacks with health to spare"}
+  - {name: "Inferno / Demon Gate / Ritual of Doom", use_when: "pre-pull only, never mid-fight; 10 min/30 min (halved by Master Summoner)/1 summoner since 1.18.1; kill the greater demon with Power Overwhelming before its 3-minute timer ends"}
+  - {name: "Fel Domination", use_when: "5-min CD, instant re-summon; pair with Master Summoner for -50% mana"}
+resource_rules:
+  - "every common-demon summon except Imp costs a Soul Shard; pet death in BGs costs a re-summon shard"
+  - "Soul Funnel now costs the Warlock 30% of what is transferred (CC3)"
+  - "Imp gives Master Demonologist mana-cost reduction; Life Tap otherwise"
+consumables:
+  - "Infernal Stones / Demonic Figurines (fit in Soul Bags)"
+  - "The Black Book trinket for greater demons (buff removed on unequip since 2025-03-30)"
+  - "Healthstones for the Warlock (demons cannot use player consumables since CC2)"
+mistakes_to_avoid:
+  - "Summoning a greater demon mid-fight or with under 3 minutes of boss remaining; letting it time out and turn hostile"
+  - "Using Power Overwhelming on a low-health pet during AoE"
+  - "Forgetting to re-toggle Felstorm/Legion Strike autocast after each summon"
+  - "Keeping the pet in melee on bosses with unavoidable pet damage (Four Horsemen marks, Thaddius, Sapphiron ice)"
+  - "Relying on Soul Entrapment while controlling a Greater Demon (hotfixed 2026-03-31 to give nothing)"
+  - "Walking greater demons through cities (treated as griefing)"
+  - "Attempting to use the demon as a tank: Voidwalker threat does not scale and consistently loses aggro even at higher character levels"

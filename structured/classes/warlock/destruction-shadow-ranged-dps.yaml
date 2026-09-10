@@ -1,0 +1,70 @@
+class: Warlock
+spec: "Destruction (Shadow: SM/Ruin, DS/Ruin)"
+role: ranged-dps
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=107778#p107778", author: LastyK, authority: player, date: "2024-11-13"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=107592#p107592", author: Delalama, authority: player, date: "2024-11-11"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=169207#p169207", author: Spritzbube, authority: player, date: "2026-02-22"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=168196#p168196", author: Guiltyhaomarush, authority: player, date: "2026-02-14"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102973#p102973", author: Dragunovi, authority: staff, date: "2024-10-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460", author: Jamey, authority: staff, date: "2024-12-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: "2025-07-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=81271#p81271", author: Volkyte, authority: player, date: "2023-12-15"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=94521#p94521", author: Akos1896, authority: player, date: "2024-05-10"}
+agreement: contested
+patch_validity:
+  written_for: "CC2 tree (30/0/21 SM/Ruin), unchanged by CC3 and 1.18.1 except renames"
+  valid_for_1181: true
+  notes: "1.18.1 changed nothing structural for this build (only curse GCDs, Curse of Exhaustion/Tongues cost, Master Conjuror removal); the 2026-02 dummy tests reporting SM/Ruin far behind Affliction (250 vs 450 DPS) are the most recent data and are not contradicted."
+talents:
+  build_name: "SM/Ruin 30/0/21 (explicit list from LastyK + community wiki); DS/Ruin (Demonic Sacrifice) is a contested variant"
+  points:
+    - {tree: Affliction, talent: "Improved Corruption", rank: 5, spell_id: null}
+    - {tree: Affliction, talent: "Grim Reach", rank: 2, spell_id: null}
+    - {tree: Affliction, talent: Nightfall, rank: 2, spell_id: null}
+    - {tree: Affliction, talent: "Improved Curse of Agony", rank: 3, spell_id: null}
+    - {tree: Affliction, talent: Malediction, rank: 1, spell_id: null}
+    - {tree: Affliction, talent: "Siphon Life", rank: 1, spell_id: null}
+    - {tree: Affliction, talent: "Shadow Mastery", rank: 5, spell_id: null}
+    - {tree: Destruction, talent: "Shadow Vulnerability (Improved Shadow Bolt)", rank: 5, spell_id: null}
+    - {tree: Destruction, talent: Cataclysm, rank: 5, spell_id: null}
+    - {tree: Destruction, talent: Bane, rank: 5, spell_id: null}
+    - {tree: Destruction, talent: Devastation, rank: 5, spell_id: null}
+    - {tree: Destruction, talent: "Destructive Reach", rank: 2, spell_id: null}
+    - {tree: Destruction, talent: Ruin, rank: 1, spell_id: null}
+  leveling_order: []
+stat_weights:
+  hit: "contested priority: one source says the hit cap is not mandatory (a top parser ran 7-9% hit), another says it is the one thing to bring to a first raid"
+  crit: "wanted (Ruin doubles crit damage; Shadow Vulnerability is crit-driven since 2024-12-20)"
+  spell_power: "high (Shadow Bolt scales strongly; Flask of Supreme Power adds ~128 points to an average bolt)"
+  stamina: "medium (T3 Plagueheart Raiment carries ~73 more stamina than the Affliction set)"
+caps: {}
+rotation_single:
+  - {priority: 1, action: "Shadow Bolt", condition: "Nightfall proc up (instant, cannot miss)"}
+  - {priority: 2, action: "recast assigned raid curse", condition: "missing"}
+  - {priority: 3, action: "Corruption", condition: "missing (instant with 5/5 Improved Corruption); Siphon Life is not used in this build's max-DPS rotation (threat)"}
+  - {priority: 4, action: "Shadowburn", condition: "target below Shadowburn health range, or fight ending, or moving (costs a shard)"}
+  - {priority: 5, action: "Shadow Bolt", condition: "default filler"}
+  - {priority: 6, action: "Life Tap", condition: "mana below one Shadow Bolt's cost"}
+rotation_aoe:
+  - {targets_min: 2, priority: 1, action: "Corruption (+ Curse of Agony if Malediction) on each, Shadow Bolt the kill target", condition: "2-3 targets"}
+  - {targets_min: 4, priority: 1, action: "Rain of Fire or Hellfire", condition: "4+ targets; Fire is resisted in Molten Core/Blackwing Lair"}
+aoe_threshold: 4
+cooldowns:
+  - {name: Shadowburn, use_when: "target near death or fight ending; costs a shard"}
+  - {name: "Death Coil", use_when: "defensive/emergency"}
+resource_rules:
+  - "Life Tap is the mana engine, scaled by Improved Life Tap and Shadow Mastery"
+  - "Shadowburn and Soul Fire (if used) each cost a shard; Soul Fire is not part of this rotation in any source"
+  - "track Nightfall with an addon (Necrosis or TNE_Nightfall)"
+consumables:
+  - "Flask of Supreme Power"
+  - "resist potions per raid"
+  - "Healthstone"
+mistakes_to_avoid:
+  - "Gearing for the wrong Improved Shadow Bolt mechanic after the 2024-12-20 revert back to crit-driven procs"
+  - "Skipping Malediction while also carrying a raid curse"
+  - "Summoning Infernal without Demonology talents (uncontrolled, disruptive)"
+  - "Casting Siphon Life for 'free' damage in a threat-limited raid"
+  - "Letting the Imp die to AoE and losing Blood Pact instead of parking it with Take Position or sacrificing it on unavoidable-pet-damage fights"

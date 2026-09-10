@@ -1,0 +1,60 @@
+class: Warlock
+spec: "Destruction (Conflagrate / NF-Conflagrate)"
+role: pvp
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=129967#p129967", author: Springboards, authority: player, date: "2025-05-07"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=114434#p114434", author: Trinaxyo, authority: player, date: "2024-12-26"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108889#p108889", author: Ataika, authority: player, date: "2024-11-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=118995#p118995", author: Eversongwoods, authority: player, date: "2025-02-05"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=135863#p135863", author: Forumdweller, authority: player, date: "2025-06-15"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=143162#p143162", author: Halfgeek9, authority: player, date: "2025-08-04"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: "2025-07-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168", author: Torta, authority: staff, date: "2025-10-03"}
+agreement: contested
+patch_validity:
+  written_for: "CC2-era meta (Nov 2024 - Jul 2025); CC3 and 1.18.1 numbers applied where sourced"
+  valid_for_1181: unknown
+  notes: "CC3 (2025-08-15) cut Curse of Exhaustion from 50% to a 10%/40% split, making it 'ABSURDLY' weaker than Demonology per one 2025-06 source; 1.18.1 raised its mana cost to 190 and buffed Searing Pain; no post-1.18.1 PvP thread re-ranks the three PvP builds, and the new per-spec PvP dampening values are not published."
+talents:
+  build_name: "Conflagration / NF-Conflagration (community wiki links; explicit point list not given by any player source)"
+  points: []
+  leveling_order: []
+stat_weights:
+  stamina: "first priority (PvP survivability over raw damage)"
+  spell_damage: "shadow/fire spell damage next (cheap greens named as good value)"
+  crit: "wanted for Soul Fire/Conflagrate burst"
+  hit: "lower priority than in PvE (level-60 targets)"
+caps: {}
+rotation_single:
+  - {priority: 1, action: "Succubus Lesser Invisibility opener, then Seduction on the target or healer", condition: "opener"}
+  - {priority: 2, action: "Curse of Exhaustion (if talented) or Curse of Tongues (casters) or Curse of Agony (target unlikely to be dispelled)", condition: "opener, after Seduction"}
+  - {priority: 3, action: "Soul Fire (hard-cast)", condition: "target is seduced/feared (opener)"}
+  - {priority: 4, action: "Immolate then Conflagrate then Shadowburn", condition: "opener follow-up"}
+  - {priority: 5, action: "Conflagrate", condition: "target in range, Immolate up, Conflagrate ready (Pyroclasm stun chance)"}
+  - {priority: 6, action: "Shadowburn", condition: "target below ~500 health or fleeing"}
+  - {priority: 7, action: "Shadow Bolt", condition: "Nightfall proc (NF build)"}
+  - {priority: 8, action: "Death Coil, disengage, then Fear or Curse of Exhaustion", condition: "melee connecting on you"}
+  - {priority: 9, action: "Immolate", condition: "missing (only on the kill target, breaks Seduction if that target is seduced)"}
+  - {priority: 10, action: "Soul Fire", condition: "ready and target controlled"}
+  - {priority: 11, action: "Searing Pain", condition: "filler (1-s GCD since 1.18.1, cast time raised to 2.0 s with 57% SP, then +~20% base damage revision)"}
+rotation_aoe: []
+aoe_threshold: 0
+cooldowns:
+  - {name: "Death Coil", use_when: "3-min CD, melee burst or to disengage"}
+  - {name: "Healthstone / Spellstone", use_when: "shared CD; Spellstone dispels magic on self and absorbs (level x 12)"}
+resource_rules:
+  - "Curse of Exhaustion is the primary slow tool: 30% at row 3 (CC2) -> 10% base + Improved 15/30% at row 5 (CC3, max 40% total) -> 190 mana (1.18.1)"
+  - "pet choice by matchup: Voidwalker default/versatile, Succubus for kill setup, Felhunter vs casters (Devour Magic autocast to dispel healer buffs)"
+consumables:
+  - "Holy Protection potion vs Paladins"
+  - "Engineering grenades to land casts through pushback"
+  - "Healthstone/Spellstone (shared cooldown)"
+mistakes_to_avoid:
+  - "Hard-casting Fear on a melee target (6-s cast under pushback); use Death Coil/Seduce first"
+  - "Casting Immolate on a seduced target (breaks Seduction)"
+  - "Using the class Dreadsteed mount in contested/combat zones (interruptible, silenceable)"
+  - "Running out of shards for Shadowburn/Soul Fire/pet"
+  - "Bringing the wrong pet for the matchup"
+  - "Spamming Curse of Exhaustion post-1.18.1 without tracking its mana cost (190/cast)"
+  - "Assuming Felhunter Spell Lock reliably silences for its tooltip duration (long-reported as bugged, ~1 s instead of 3 s)"

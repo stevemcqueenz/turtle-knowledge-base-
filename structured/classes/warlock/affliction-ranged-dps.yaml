@@ -1,0 +1,105 @@
+class: Warlock
+spec: Affliction
+role: ranged-dps
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166748#p166748", author: "Nuninho32 (quoting chappelles)", authority: player, date: "2026-01-28"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=159958#p159958", author: Justgreens123, authority: player, date: "2025-11-18"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=169207#p169207", author: Spritzbube, authority: player, date: "2026-02-22"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=168196#p168196", author: Guiltyhaomarush, authority: player, date: "2026-02-14"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=107778#p107778", author: LastyK, authority: player, date: "2024-11-13"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=153453#p153453", author: Akarui, authority: player, date: "2025-09-27"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=155815#p155815", author: Horcos, authority: player, date: "2025-10-16"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=174185#p174185", author: Grizb37, authority: player, date: "2026-04-06"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102973#p102973", author: Dragunovi, authority: staff, date: "2024-10-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460", author: Jamey, authority: staff, date: "2024-12-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504", author: Torta, authority: staff, date: "2025-03-30"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: "2025-07-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+agreement: contested
+patch_validity:
+  written_for: "1.18.0 (CC3) tree; two edits noted for 1.18.1 live"
+  valid_for_1181: true
+  notes: "Master Conjuror removed and Sinister Pursuit moved to Demonology in 1.18.1; otherwise the CC3 build and rotation stand. No post after 2026-03-20 re-evaluates the raid build from scratch."
+talents:
+  build_name: "Affliction Drain (chappelles / Nuninho32, endgame endpoint of the leveling build)"
+  points:
+    - {tree: Affliction, talent: "Improved Corruption", rank: 5, spell_id: null}
+    - {tree: Affliction, talent: Suppression, rank: 5, spell_id: null}
+    - {tree: Affliction, talent: "Improved Life Tap", rank: 2, spell_id: null}
+    - {tree: Affliction, talent: "Fel Concentration", rank: 2, spell_id: null}
+    - {tree: Affliction, talent: "Improved Drains", rank: 2, spell_id: null}
+    - {tree: Affliction, talent: Nightfall, rank: 2, spell_id: null}
+    - {tree: Affliction, talent: "Soul Siphon", rank: 3, spell_id: null}
+    - {tree: Affliction, talent: Malediction, rank: 1, spell_id: null}
+    - {tree: Affliction, talent: "Siphon Life", rank: 1, spell_id: null}
+    - {tree: Affliction, talent: "Rapid Deterioration", rank: 2, spell_id: null}
+    - {tree: Affliction, talent: "Grim Reach", rank: 2, spell_id: null}
+    - {tree: Affliction, talent: "Shadow Mastery", rank: 5, spell_id: null}
+    - {tree: Affliction, talent: "Dark Harvest", rank: 1, spell_id: null}
+    - {tree: Destruction, talent: "Shadow Vulnerability", rank: 5, spell_id: null}
+    - {tree: Demonology, talent: "Demonic Embrace", rank: 5, spell_id: null}
+    - {tree: Demonology, talent: "Demonic Aegis", rank: 3, spell_id: null}
+  leveling_order:
+    - {level: 10, tree: Affliction, talent: "Improved Corruption"}
+    - {level: 15, tree: Affliction, talent: Suppression}
+    - {level: 18, tree: Affliction, talent: "Improved Life Tap"}
+    - {level: 20, tree: Affliction, talent: "Fel Concentration"}
+    - {level: 22, tree: Affliction, talent: "Improved Drains"}
+    - {level: 25, tree: Affliction, talent: Nightfall}
+    - {level: 26, tree: Affliction, talent: "Soul Siphon"}
+    - {level: 30, tree: Affliction, talent: Malediction}
+    - {level: 31, tree: Affliction, talent: "Siphon Life"}
+    - {level: 32, tree: Affliction, talent: "Rapid Deterioration"}
+    - {level: 33, tree: Affliction, talent: "Grim Reach"}
+    - {level: 35, tree: Affliction, talent: "Shadow Mastery"}
+    - {level: 40, tree: Affliction, talent: "Dark Harvest"}
+    - {level: 41, tree: Destruction, talent: "Shadow Vulnerability"}
+    - {level: 46, tree: Demonology, talent: "Demonic Embrace"}
+    - {level: 51, tree: Demonology, talent: "Demonic Aegis"}
+stat_weights:
+  hit: "high (10% covered by Suppression; ~5-6% from gear reported sufficient); Shadow Bolt/Nightfall procs unaffected; Dark Harvest hit interaction unresolved"
+  haste: "high per wiki/Spritzbube; contested vs raw spell power, unanswered in sources"
+  spell_power: "medium-high, secondary to haste per some sources"
+  crit: "near-zero (DoTs do not crit on Turtle)"
+  intellect: "low, mana pool only"
+  stamina: "high (mana pool is tied to health via Life Tap; Affliction tier sets are stamina-poor)"
+  spirit: "low/dump stat (suppressed during channels per a single 2020 report, never retested)"
+caps: {}
+rotation_single:
+  - {priority: 1, action: "Shadow Bolt", condition: "Nightfall proc (Shadow Trance) is up; break a Drain Soul channel for it, not Dark Harvest"}
+  - {priority: 2, action: "recast assigned raid curse (Curse of Shadow/Elements)", condition: "missing (Malediction reapplies Curse of Agony with it)"}
+  - {priority: 3, action: "Corruption", condition: "missing or about to expire"}
+  - {priority: 4, action: "Siphon Life", condition: "missing (keeps Soul Siphon at 4-effect max)"}
+  - {priority: 5, action: "Curse of Agony", condition: "missing and not the raid curse-holder"}
+  - {priority: 6, action: "Dark Harvest", condition: "off cooldown and an uninterrupted 8-s channel is guaranteed, or target is about to die (resets cooldown on kill); contested whether to use it at all on bosses (some report it a DPS loss vs pure Drain Soul)"}
+  - {priority: 7, action: "Drain Soul (highest rank)", condition: "default filler; never hard-cast Shadow Bolt"}
+  - {priority: 8, action: "Life Tap", condition: "mana below cost of next cycle"}
+rotation_aoe:
+  - {targets_min: 2, priority: 1, action: "support curse (Malediction auto-applies Curse of Agony) on each target, then Corruption on each", condition: "2-3 trash targets, ask tank first"}
+  - {targets_min: 2, priority: 2, action: "Drain Soul on the kill target", condition: "no Shadow Bolt"}
+  - {targets_min: 4, priority: 1, action: "Rain of Fire or Hellfire (warn healer)", condition: "4+ stacked targets; Affliction has no AoE of its own"}
+aoe_threshold: 4
+cooldowns:
+  - {name: "Dark Harvest", use_when: "30-s CD; see rotation; resets on target death"}
+  - {name: "Death Coil", use_when: "self-heal / emergency, 3-min CD"}
+  - {name: "Drain Life", use_when: "niche self-heal when Death Coil and Healthstone/tea/potion are on cooldown; contested value in PvE"}
+resource_rules:
+  - "Life Tap is the mana engine; Improved Life Tap and Shadow Mastery both scale it"
+  - "Soul Shards stack to 3; Drain Soul on a killing blow yields a shard; keep a shard reserved for Soulstone/Healthstone/pet re-summon"
+  - "Felstone leech (3%) heals the Warlock and the demon; Healthstone and Tea share a cooldown, decide per fight which is the emergency button"
+  - "Ritual of Souls costs 3 shards since 1.18.1"
+consumables:
+  - "Flask of Supreme Power"
+  - "Fire/Arcane protection potions per raid"
+  - "Healthstone (Major), Felstone as personal stone (Voidstone if threat is a problem)"
+  - "Greater Holy Protection potion vs Paladins in PvP"
+mistakes_to_avoid:
+  - "Hard-casting Shadow Bolt outside Nightfall procs"
+  - "Casting Dark Harvest into a knockback/AoE and losing the 30-s cooldown"
+  - "Letting Siphon Life drop (loses a Soul Siphon stack) or refreshing DoTs too early (wastes a GCD and mana)"
+  - "Casting Curse of Agony instead of the assigned raid curse when you are the only Warlock (Malediction gives both)"
+  - "Hellfire/Inferno in dungeons without warning the group"
+  - "Pet set to aggressive near a pull"
+  - "Wearing the set-bonus tier piece (Attire) over stamina gear and dying to AoE"
+  - "Letting soul shards overflow; not keeping a shard in reserve"
+  - "Relying on Curse of Weakness as a primary slow (does not stack with other attack-speed slows)"
