@@ -1,0 +1,221 @@
+class: warlock
+generated_from:
+  - https://forum.turtlecraft.gg/viewtopic.php?t=6834    # Warlock Pre-BIS and BIS
+  - https://forum.turtlecraft.gg/viewtopic.php?t=24661   # Updated Affliction Warlock BiS List w/ K40, New Content?
+  - https://forum.turtlecraft.gg/viewtopic.php?t=20477   # preraid gearing
+  - https://forum.turtlecraft.gg/viewtopic.php?t=17950   # Affliction Raid Gear Is Off?
+  - https://forum.turtlecraft.gg/viewtopic.php?t=22994   # Warlock itemization
+  - https://forum.turtlecraft.gg/viewtopic.php?t=15091   # Gear guide for new 60?
+  - synthesis/classes/warlock/affliction-ranged-dps.md
+  - synthesis/classes/warlock/demonology-ranged-dps.md
+  - synthesis/classes/warlock/demonology-pvp.md
+  - synthesis/classes/warlock/destruction-fire-ranged-dps.md
+  - synthesis/classes/warlock/destruction-shadow-ranged-dps.md
+  - synthesis/classes/warlock/destruction-pvp.md
+  - synthesis/classes/warlock/leveling.md
+  - synthesis/1.18.1-master-changelog.md
+caveats:
+  - "No source gives a complete slot-by-slot raid-tier BiS list for any Warlock spec — only a single player's flat, unordered gear list (5mman's post, called \"dated\" by its own author), tier-set bonus text, and scattered named items. Forum threads that directly asked for a BiS list (`t6834`, `t20477`, `t15091`, `t22994`) mostly got \"there's pretty much no need\" or a dead Google-Sheets link back, not an answer."
+  - "`leveling.md` states explicitly that no Warlock-forum thread gives a leveling item list (a thread asking, `t15091`, got zero replies) — bots should fall back to general upgrade heuristics, not an invented list."
+  - "Item IDs are almost never given; where a forum post does give a database.turtlecraft.gg item link (Mustachiocat's 2023 list) the item names were not stated by the poster, only the numeric IDs and a one-word source tag."
+specs:
+  - spec: Affliction
+    role: ranged-dps
+    brackets:
+      - bracket: pre-raid-60
+        agreement: single
+        patch_validity: {written_for: "pre-1.18.1 (2023-05 to 2025-07)", valid_for_1181: unknown, notes: "Written well before 1.18.1; dungeon loot tables not reconfirmed."}
+        slots: []
+        enchants: []
+        consumables: []
+        stat_notes: >
+          Route advice (Grubi450, 2023-05-31): "Join a guild that is looking for a warlock and you will get the
+          bloodvine set free of charge if you bring the mats. Do Sunken Temple once while leveling for the Soul
+          Harvester, it's almost as good as pre raid bis but very easy to get. When you reach 60 spam Stormwind
+          Vaults since you can enslave the fire/frost imp ... get your bis trinket, wand and ring (reward from the
+          tome quest for Alliance) as well some random caster gear. Do LBRS once as a 10 man raid to get the Eye of
+          the Beast quest, start your MC/BWL/Ony attunement, finish UBRS for attunements and Eye of the Beast ...
+          Green Felcloth and 'of shadow wrath' armor is insanely good for how little it costs." —
+          [Grubi450 (player), 2023-05-31](https://forum.turtlecraft.gg/viewtopic.php?p=48162#p48162). "People sleep on
+          +Shadow Wrath Greens" — [Grizb37 (player), 2026-04-06](https://forum.turtlecraft.gg/viewtopic.php?p=174185#p174185).
+          A 2023 Discord-sourced Turtle item
+          list gives only numeric IDs with one-word source tags, no names: items 51755 (quest reward), 65003
+          (crafted), 83468 (Karazhan Crypts), 60501 (Stormwind Vault), 60551 (Hateforge Quarry), 83465 (Karazhan
+          Crypts), 60622 (Stormwind Vault quest reward, Alliance only) —
+          [Mustachiocat (player), 2023-05-09](https://forum.turtlecraft.gg/viewtopic.php?p=45182#p45182). These are
+          not listed as structured slot items because neither the item name nor the exact slot is given. "Pre-raid
+          isn't all that important ... besides hit cap, maybe some fire/arcane resist pots" —
+          [Bigsmerf (player), 2025-07-26](https://forum.turtlecraft.gg/viewtopic.php?p=141507#p141507). Bloodvine was
+          nerfed before August 2023 (thread title "Bloodvine is nerfed") —
+          [Pngu (player), 2023-08-06](https://forum.turtlecraft.gg/viewtopic.php?p=56028#p56028).
+      - bracket: raid-t3.5
+        agreement: contested
+        patch_validity: {written_for: "post-1.18.1 (2026-04-01)", valid_for_1181: true, notes: "Single player's own gear list, called \"dated\" by its author, with one corrective reply; not independently corroborated item-by-item."}
+        slots:
+          - slot: head
+            items:
+              - {name: "Nathrezim Crown", item_id: null, rank: 1, source_type: unknown-in-sources, source_place: null, custom_turtle_item: true, notes: "T3.5 alternative (haste) set piece.", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=173650#p173650", author: 5mman, authority: player, date: "2026-04-01"}]}
+          - slot: neck
+            items:
+              - {name: "Nathrezim Amulet", item_id: null, rank: 2, source_type: unknown-in-sources, source_place: null, custom_turtle_item: true, notes: "Contested: \"Atiesh better than that combo ... rag choker better as well some argue than the t3.5 neck.\"", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=173650#p173650", author: 5mman, authority: player, date: "2026-04-01"}, {url: "https://forum.turtlecraft.gg/viewtopic.php?p=173657#p173657", author: Springboards, authority: player, date: "2026-04-01"}]}
+          - slot: shoulder
+            items:
+              - {name: "Nathrezim Mantle", item_id: null, rank: 1, source_type: unknown-in-sources, source_place: null, custom_turtle_item: true, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=173650#p173650", author: 5mman, authority: player, date: "2026-04-01"}]}
+          - slot: back
+            items:
+              - {name: "Kum'isha's Tattered Drape", item_id: null, rank: 1, source_type: unknown-in-sources, source_place: null, custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=173650#p173650", author: 5mman, authority: player, date: "2026-04-01"}]}
+          - slot: chest
+            items:
+              - {name: "Nathrezim Raiments", item_id: null, rank: 1, source_type: unknown-in-sources, source_place: null, custom_turtle_item: true, notes: "Complaint: has ~73 less stamina than the T3 Plagueheart Raiment and 7% haste vs 7% crit + 1% hit.", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=173650#p173650", author: 5mman, authority: player, date: "2026-04-01"}, {url: "https://forum.turtlecraft.gg/viewtopic.php?p=156392#p156392", author: Justgreens123, authority: player, date: "2025-10-21"}]}
+          - slot: wrist
+            items:
+              - {name: "Bindings of Contained Magic", item_id: null, rank: 1, source_type: unknown-in-sources, source_place: null, custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=173650#p173650", author: 5mman, authority: player, date: "2026-04-01"}]}
+          - slot: hands
+            items:
+              - {name: "Plagueheart Handwraps", item_id: null, rank: 1, source_type: unknown-in-sources, source_place: null, custom_turtle_item: true, notes: "T3 (not T3.5) piece kept in this list.", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=173650#p173650", author: 5mman, authority: player, date: "2026-04-01"}]}
+          - slot: waist
+            items:
+              - {name: "Memory of the Last Guardian", item_id: null, rank: 1, source_type: unknown-in-sources, source_place: null, custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=173650#p173650", author: 5mman, authority: player, date: "2026-04-01"}]}
+          - slot: legs
+            items:
+              - {name: "Nathrezim Leggings", item_id: null, rank: 1, source_type: unknown-in-sources, source_place: null, custom_turtle_item: true, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=173650#p173650", author: 5mman, authority: player, date: "2026-04-01"}]}
+          - slot: feet
+            items:
+              - {name: "Nathrezim Boots", item_id: null, rank: 1, source_type: unknown-in-sources, source_place: null, custom_turtle_item: true, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=173650#p173650", author: 5mman, authority: player, date: "2026-04-01"}]}
+          - slot: ring1
+            items:
+              - {name: "Plagueheart Signet", item_id: null, rank: 1, source_type: unknown-in-sources, source_place: null, custom_turtle_item: true, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=173650#p173650", author: 5mman, authority: player, date: "2026-04-01"}]}
+          - slot: ring2
+            items:
+              - {name: "Ring of the Fallen God", item_id: null, rank: 1, source_type: unknown-in-sources, source_place: null, custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=173650#p173650", author: 5mman, authority: player, date: "2026-04-01"}]}
+          - slot: trinket1
+            items:
+              - {name: "The Restrained Essence of Sapphiron", item_id: null, rank: 1, source_type: unknown-in-sources, source_place: null, custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=173650#p173650", author: 5mman, authority: player, date: "2026-04-01"}]}
+          - slot: trinket2
+            items:
+              - {name: "Eye of Dormant Corruption", item_id: null, rank: 1, source_type: unknown-in-sources, source_place: null, custom_turtle_item: true, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=173650#p173650", author: 5mman, authority: player, date: "2026-04-01"}]}
+          - slot: main-hand
+            items:
+              - {name: Desecration, item_id: null, rank: 1, source_type: unknown-in-sources, source_place: "Tower of Karazhan (per a developer comment on hybrid-tank weapon progression alongside this item)", custom_turtle_item: true, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=173650#p173650", author: 5mman, authority: player, date: "2026-04-01"}, {url: "https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272", author: Dragunovi, authority: staff, date: "2026-02-15"}]}
+          - slot: off-hand
+            items:
+              - {name: "Master Dragonslayer's Orb", item_id: null, rank: 1, source_type: unknown-in-sources, source_place: null, custom_turtle_item: unknown, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=173650#p173650", author: 5mman, authority: player, date: "2026-04-01"}]}
+          - slot: ranged
+            items:
+              - {name: Hellflame, item_id: null, rank: 1, source_type: unknown-in-sources, source_place: null, custom_turtle_item: unknown, notes: "Wand.", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=173650#p173650", author: 5mman, authority: player, date: "2026-04-01"}]}
+        enchants:
+          - {slot: gloves, enchant: "Shadow Power (community wiki Warlock page, not official)", citations: []}
+          - {slot: legs, enchant: "Hoodoo Hex or Arcanum of Focus", citations: []}
+          - {slot: weapon, enchant: "Spell Power", citations: []}
+          - {slot: bracer, enchant: "Spell Power", citations: []}
+          - {slot: cloak, enchant: "Subtlety", citations: []}
+          - {slot: shoulder, enchant: "Zandalar Signet of Mojo", citations: []}
+          - {slot: "rings/neck", enchant: "Arcane Emerald Gemstone", citations: []}
+          - {slot: belt, enchant: "Dreamsteel Belt Buckle", citations: []}
+          - {slot: "chest/boots", enchant: "Enchanted Armor Kit", citations: []}
+          - {slot: "head/legs", enchant: "ZG enchant: 18 spell power + 10 stamina for Warlocks (Mages get 1% hit instead)", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=62052#p62052", author: Maladron, authority: player, date: "2023-09-09"}]}
+        consumables:
+          - {name: "Flask of Supreme Power", use: "raid spell power flask", citations: []}
+          - {name: "Fire/Arcane Protection Potion", use: "per-raid resistance", citations: []}
+          - {name: "Greater Holy Protection Potion", use: "\"300-500 hp buff vs paladins\" in PvP", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=78940#p78940", author: Erhog, authority: player, date: "2023-11-27"}]}
+          - {name: "Healthstone (Major)", use: "shares tea/potion cooldown", citations: []}
+          - {name: "Felstone (3% leech)", use: "default personal healthstone rank for Affliction", citations: []}
+          - {name: "Voidstone", use: "alternative if threat is a problem", citations: []}
+          - {name: "Potion of Quickness", use: "explicitly called worthless for Affliction (instant/channelled spells only)", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=107603#p107603", author: Daftpunkerlol88, authority: player, date: "2024-11-11"}]}
+        stat_notes: >
+          Affliction alternative sets exist for T1, T2, T2.5 (Doomcaller's alt), T3 (Plagueheart Attire) and T3.5
+          (Nathrezim) with haste instead of crit —
+          [Dragunovi (staff), 2023-10-15](https://forum.turtlecraft.gg/viewtopic.php?p=71030#p71030). T2.5 Affliction
+          5-set summons a Doomguard that "doesn't fight at all" and "exists 5-10 sec, deals 90 dmg," replacing your
+          existing demon — players wear 4/5 to avoid it —
+          [Aeotald (player), 2026-01-25](https://forum.turtlecraft.gg/viewtopic.php?p=166386#p166386);
+          [Lavr (player), 2025-06-28](https://forum.turtlecraft.gg/viewtopic.php?p=137318#p137318). 1.18.1: T3 4-set
+          Curse of Agony +100% first 4 ticks; T3.5 3-set 25% Siphon Life return —
+          [Dragunovi (staff), 2026-02-15](https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272). 1.18.1 added
+          a Rogue/Warlock class-weapon quest chain starting in Timbermaw Hold, "similarly to Benediction/Anathema" —
+          same post; no source describes the reward, so it is not listed as a structured item here.
+  - spec: Demonology
+    role: ranged-dps
+    brackets:
+      - bracket: pre-raid-60
+        agreement: single
+        patch_validity: {written_for: "pre-1.18.1 (2024-01-29)", valid_for_1181: unknown, notes: "No Demonology tier set exists at all, confirmed by staff; this is stable across patches."}
+        slots:
+          - slot: trinket1
+            items:
+              - {name: "Black Book", item_id: null, rank: 1, source_type: unknown-in-sources, source_place: null, custom_turtle_item: unknown, notes: "For fighting/enslaving greater demons.", citations: []}
+        enchants: []
+        consumables:
+          - {name: "Infernal Stones, Demonic Figurines, Soul Shards", use: "demon summoning materials", citations: []}
+          - {name: "Healthstone (for the player)", use: "demons cannot use player consumables", citations: []}
+        stat_notes: >
+          No Demonology tier set exists — requested by a player in the itemization thread —
+          [Krotux (player), 2024-01-29](https://forum.turtlecraft.gg/viewtopic.php?p=86261#p86261) — staff
+          acknowledged only, without committing to add one —
+          [Dragunovi (staff), 2024-01-29](https://forum.turtlecraft.gg/viewtopic.php?p=86264#p86264). Use the
+          SM/Ruin (crit/hit) gear from the Destruction (Shadow) bracket below. Hourglass Sand removes Brood
+          Affliction: Bronze from your demon since 1.18.1 —
+          [Dragunovi (staff), 2026-02-15](https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272).
+  - spec: Demonology
+    role: pvp
+    brackets: []
+  - spec: "Destruction (Fire)"
+    role: ranged-dps
+    brackets:
+      - bracket: raid-t3.5
+        agreement: single
+        patch_validity: {written_for: "pre-1.18.1 through 1.18.1 (2025-09-05 to 2026-02-15)", valid_for_1181: true, notes: "Set-bonus mechanics text is current; no per-piece armor names given."}
+        slots:
+          - slot: off-hand
+            items:
+              - {name: "Ornate Bloodstone Dagger", item_id: null, rank: 3, source_type: unknown-in-sources, source_place: null, custom_turtle_item: false, notes: "Judged \"not that good for warlocks\" (self-damage proc) and nerfed in 1.18.1 to only trigger from physical effects.", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=56401#p56401", author: Isvya, authority: player, date: "2023-08-08"}, {url: "https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272", author: Dragunovi, authority: staff, date: "2026-02-15"}]}
+        enchants:
+          - {slot: gloves, enchant: "Fire Power (community wiki, not official)", citations: []}
+        consumables:
+          - {name: "Flask of Supreme Power", use: "raid spell power flask", citations: []}
+          - {name: "goblin sappers/bombs", use: "trash AoE", citations: []}
+          - {name: "Healthstone", use: "self-heal", citations: []}
+          - {name: "Fire/Arcane resist potions per raid", use: "situational", citations: []}
+        stat_notes: >
+          T3.5 Destruction has hit instead of crit, "this gimps our ruin talent" —
+          [Daftpunkerlol88 (player), 2024-11-11](https://forum.turtlecraft.gg/viewtopic.php?p=107603#p107603); the
+          AQ20 Fire set (Immolate −0.5s cast / Conflagrate bonus) is usable well past AQ20: "AQ20 is one of the early
+          raids. Warlocks are going to be doing MC and BWL while wearing it" —
+          [Kord2998 (player), 2025-07-28](https://forum.turtlecraft.gg/viewtopic.php?p=141827#p141827). A player
+          asked about "true band of sulfuras" and fire-spell-power items/enchants for Fire Destro without a
+          definitive answer — [Akarui (player), 2025-09-05](https://forum.turtlecraft.gg/viewtopic.php?p=150338#p150338).
+          Firestone is the default personal stone for Fire. No per-piece T1-T3.5 armor names are given anywhere —
+          **gap**. Greater Fire Power potion is not mentioned in any source — **gap**.
+  - spec: "Destruction (Shadow: SM/Ruin, DS/Ruin)"
+    role: ranged-dps
+    brackets:
+      - bracket: raid-t3
+        agreement: single
+        patch_validity: {written_for: "pre-1.18.1 (2024-10-30, staff itemization)", valid_for_1181: unknown, notes: "T3 set-bonus mechanic; not reconfirmed for 1.18.1 (which is not called out as touching it)."}
+        slots:
+          - slot: chest
+            items:
+              - {name: "Plagueheart Raiment", item_id: null, rank: 1, source_type: unknown-in-sources, source_place: null, custom_turtle_item: true, notes: "T3 SM/Ruin set: 7% crit + 1% hit, more stamina than the T3.5 Nathrezim alternative.", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=156392#p156392", author: Justgreens123, authority: player, date: "2025-10-21"}]}
+        enchants: []
+        consumables:
+          - {name: "Flask of Supreme Power", use: "raid spell power flask", citations: []}
+          - {name: "resist potions per raid", use: "situational", citations: []}
+          - {name: "Healthstone", use: "self-heal", citations: []}
+        stat_notes: >
+          T3 2-set: "Shadow Bolt now has a chance to heal you for 270 to 331," extended to Searing Pain at half the
+          chance — [Dragunovi (staff), 2024-10-30](https://forum.turtlecraft.gg/viewtopic.php?p=105324#p105324); T1
+          8-set also reduces Fire spell mana; ZG 3-set makes Corruption deal 1.5s of its damage on application, 5-set
+          reduces Soul Fire cooldown —
+          [Dragunovi (staff), 2024-10-30](https://forum.turtlecraft.gg/viewtopic.php?p=105276#p105276). Pre-raid and
+          BiS pointers as in the Affliction pre-raid-60 bracket (same Grubi450/Mustachiocat/5mman sources; Bloodvine
+          nerfed 2023). No per-piece T1/T2/T2.5 armor names given — **gap**.
+  - spec: "Destruction (Conflagrate)"
+    role: pvp
+    brackets: []
+gaps:
+  - "No source gives a complete slot-by-slot raid-tier BiS list for any Warlock spec — the closest is a single player's flat, unordered, self-described-as-\"dated\" Affliction list (5mman, post-1.18.1), plus tier-set bonus text with a handful of named pieces (Plagueheart Raiment/Handwraps, Nathrezim set) and item IDs with no names (Mustachiocat's 2023 Discord-sourced list: items 51755, 65003, 83468, 60501, 60551, 83465, 60622)."
+  - "Demonology and Destruction PvP have zero gear sources at all — only pet/CC tactics."
+  - "No Warlock-forum thread gives a leveling item list (`t15091` \"Gear guide for new 60?\" got zero replies); `leveling.md` states this explicitly as a gap and tells bots to fall back to general upgrade heuristics rather than an invented list."
+  - "The 1.18.1 Rogue/Warlock class-weapon quest chain (Timbermaw Hold, described as similar to Benediction/Anathema) has no reward name or stats in any source — a genuine gap, not an oversight here."
+  - "Almost no item above has a numeric item ID; where IDs exist (Mustachiocat's list) the corresponding item names were never posted."
+  - "Enchant recommendations are drawn from the community wiki's Warlock page (authority: wiki, least reliable tier) via the citing playbook, not from a forum post — no post-level citations exist for them, hence the empty `citations` lists on several enchant rows above."

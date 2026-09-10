@@ -1,0 +1,740 @@
+class: priest
+generated_from:
+  - https://forum.turtlecraft.gg/viewtopic.php?t=21979   # Langorn, Holy Priest Guide
+  - https://forum.turtlecraft.gg/viewtopic.php?t=22648   # Tscosomaz, My Two Cents about Disco Priest
+  - https://forum.turtlecraft.gg/viewtopic.php?t=24799   # Hellyo1/Augustfenix85, Gearing advice (Holy)
+  - https://forum.turtlecraft.gg/viewtopic.php?t=5521    # Lokat0r/Mekunekud, Pre raid with turtle features
+  - https://forum.turtlecraft.gg/viewtopic.php?t=9196    # 1.17 is gonna massacre Shadow priest itemization pre-Naxx
+  - https://forum.turtlecraft.gg/viewtopic.php?t=16623   # shadow gear progression
+  - synthesis/classes/priest/holy-healer.md
+  - synthesis/classes/priest/discipline-ranged-dps.md
+  - synthesis/classes/priest/discipline-pvp.md
+  - synthesis/classes/priest/shadow-ranged-dps.md
+  - synthesis/classes/priest/shadow-pvp.md
+  - synthesis/classes/priest/leveling.md
+  - synthesis/1.18.1-master-changelog.md
+caveats:
+  - "Item IDs and drop bosses below are copied from database.turtlecraft.gg links players posted in the cited threads (mostly Langorn's Holy Priest Guide and Tscosomaz's Disco Priest post), not from a client DBC — treat them as player-reported, not staff-verified."
+  - "Only Holy healer has a full slot-by-slot pre-raid list in the sources (Langorn's guide). Discipline and Shadow pre-raid gear is fragments (a handful of named items plus general farming advice); no source gives a full raid-tier (T1-T3.5) slot-by-slot BiS list for any Priest spec — only tier-set bonus text and isolated named items. This is the single biggest gap; see `gaps`."
+  - "PvP gear guidance for Priest is thin: stat priorities (stamina first) are well sourced, but only two named PvP items (Soulseeker, Time Frozen Bow) exist across both PvP specs."
+specs:
+  - spec: Holy
+    role: healer
+    brackets:
+      - bracket: pre-raid-60
+        agreement: single
+        patch_validity:
+          written_for: "pre-1.18.1 (guide posted 2025-09-19; additions through 2025-12-10)"
+          valid_for_1181: unknown
+          notes: "No source confirms these dungeon loot tables changed in 1.18.1. Holy's raid tier sets did change in 1.18.1 (see raid-tier-notes below) but that doesn't affect pre-raid drops."
+        slots:
+          - slot: head
+            items:
+              - name: Cowl of Mivax
+                item_id: 83451
+                rank: 1
+                source_type: drop
+                source_place: "Hivaxis, Karazhan Crypts"
+                source_detail: null
+                custom_turtle_item: true
+                notes: "\"Best\" head per the guide; also called \"just awesome\" by a second player."
+                citations:
+                  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}
+                  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=152714#p152714", author: Haregijoe, authority: player, date: "2025-09-22"}
+              - name: Cassandra's Grace
+                item_id: 13102
+                rank: 2
+                source_type: world-drop
+                source_place: "BoE world drop"
+                source_detail: null
+                custom_turtle_item: false
+                notes: "\"Great\" alternative to Cowl of Mivax."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]
+              - name: Crimson Felt Hat
+                item_id: 18727
+                rank: 2
+                source_type: drop
+                source_place: "Magistrate Barthilas, Stratholme (Undead side)"
+                source_detail: null
+                custom_turtle_item: false
+                notes: "\"Great\" alternative to Cowl of Mivax."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]
+          - slot: neck
+            items:
+              - name: Animated Chain Necklace
+                item_id: 18723
+                rank: 1
+                source_type: drop
+                source_place: "Ramstein the Gorger, Stratholme (Undead)"
+                custom_turtle_item: false
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]
+              - name: Hollowbone Choker
+                item_id: 61015
+                rank: 1
+                source_type: drop
+                source_place: "Drifting Avatar of Sand, Black Morass"
+                custom_turtle_item: true
+                notes: "10 Int / 9 Spirit / 26 healing power / 3 mp5 per Langorn's own swap math."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]
+              - name: "Remains of the Lost"
+                item_id: 60809
+                rank: 3
+                source_type: drop
+                source_place: "Karazhan Crypts"
+                source_detail: "5% meditation (mp5 while casting) piece; worth swapping to only if it plus its ring pair beats Hollowbone/Rosewine by 8+ mp5 (Langorn's estimate)."
+                custom_turtle_item: true
+                notes: "Contested as an upgrade — situational, more useful with many healers/overheal than in small raids."
+                citations:
+                  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=152714#p152714", author: Haregijoe, authority: player, date: "2025-09-22"}
+                  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=152953#p152953", author: Langorn, authority: player, date: "2025-09-24"}
+          - slot: shoulder
+            items:
+              - name: Mantle of Lost Hope
+                item_id: 22234
+                rank: 1
+                source_type: drop
+                source_place: "Lord Roccor, Blackrock Depths"
+                custom_turtle_item: false
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]
+          - slot: back
+            items:
+              - name: Hide of the Wild
+                item_id: 18510
+                rank: 1
+                source_type: craft
+                source_place: "Tailoring"
+                custom_turtle_item: false
+                notes: "\"Incredibly good and pretty cheap\"; get it ASAP."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]
+              - name: Cloak of Atonement
+                item_id: 60500
+                rank: 2
+                source_type: drop
+                source_place: "Damian, Stormwind Vault"
+                custom_turtle_item: true
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]
+          - slot: chest
+            items:
+              - name: Robes of the Exalted
+                item_id: 13346
+                rank: 1
+                source_type: drop
+                source_place: "Baron Rivendare, Stratholme (Undead)"
+                custom_turtle_item: false
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]
+              - name: Robe of the Custodian
+                item_id: 61002
+                rank: 2
+                source_type: reputation
+                source_place: "Wardens of Time, Revered"
+                custom_turtle_item: true
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]
+              - name: Truefaith Vestments
+                item_id: 14154
+                rank: 3
+                source_type: craft
+                source_place: "Tailoring 300/300"
+                custom_turtle_item: false
+                notes: "\"A great chest that you will keep for a long time\"; pattern must be farmed."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]
+          - slot: wrist
+            items:
+              - name: Extremely Well Crafted Cuffs
+                item_id: 50431
+                rank: 1
+                source_type: drop
+                source_place: "Epidamu, Black Morass"
+                custom_turtle_item: true
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]
+          - slot: hands
+            items:
+              - name: Hands of the Exalted Herald
+                item_id: 12554
+                rank: 1
+                source_type: drop
+                source_place: "Princess Moira Bronzebeard, Blackrock Depths"
+                custom_turtle_item: false
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]
+              - name: Gloves of the Unknown
+                item_id: 61040
+                rank: 2
+                source_type: drop
+                source_place: "Antnormi, Black Morass"
+                custom_turtle_item: true
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=162360#p162360", author: Blubbsy, authority: player, date: "2025-12-10"}]
+              - name: Hierophant Gloves
+                item_id: 58229
+                rank: 2
+                source_type: reputation
+                source_place: "Argent Dawn, Revered"
+                custom_turtle_item: false
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=162360#p162360", author: Blubbsy, authority: player, date: "2025-12-10"}]
+          - slot: waist
+            items:
+              - name: Whipvine Cord
+                item_id: 18327
+                rank: 1
+                source_type: drop
+                source_place: "Alzzin the Wildshaper, Dire Maul East"
+                custom_turtle_item: false
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]
+          - slot: legs
+            items:
+              - name: Padre's Trousers
+                item_id: 18386
+                rank: 1
+                source_type: drop
+                source_place: "Illyanna Ravenoak, Dire Maul West"
+                custom_turtle_item: false
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]
+              - name: "Senior Designer's Pantaloons"
+                item_id: 11841
+                rank: 1
+                source_type: drop
+                source_place: "Fineous Darkvire, Blackrock Depths"
+                custom_turtle_item: false
+                notes: "\"Arguably better than Padre's, since they have some fat spirit for extra healing power from talents.\""
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=162360#p162360", author: Blubbsy, authority: player, date: "2025-12-10"}]
+          - slot: feet
+            items:
+              - name: Boots of the Holy Mentor
+                item_id: 50190
+                rank: 1
+                source_type: drop
+                source_place: "Commander Andreon, Karazhan Crypts"
+                custom_turtle_item: true
+                notes: "Reported as a very rare drop (\"ran Kara Crypts over 100 times and never saw those damn boots\")."
+                citations:
+                  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}
+                  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=162360#p162360", author: Blubbsy, authority: player, date: "2025-12-10"}
+              - name: "Mooncloth 2-piece set boots (name not given)"
+                item_id: null
+                rank: 2
+                source_type: craft
+                source_place: "Tailoring (Mooncloth set)"
+                custom_turtle_item: unknown
+                notes: "Fallback if Boots of the Holy Mentor won't drop; crafted mooncloth boots + Senior Designer's Pantaloons gave ~12 less healing power than Boots of the Holy Mentor + Padre's Trousers. Exact boot name not given in the source."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=162360#p162360", author: Blubbsy, authority: player, date: "2025-12-10"}]
+          - slot: ring1
+            items:
+              - name: Fordring's Seal
+                item_id: 16058
+                rank: 1
+                source_type: quest
+                source_place: "\"In Dreams\" questline (Tyrion Fordring), Eastern Plaguelands"
+                custom_turtle_item: false
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]
+          - slot: ring2
+            items:
+              - name: Rosewine Circle
+                item_id: 13178
+                rank: 1
+                source_type: drop
+                source_place: "Urok Doomhowl, Lower Blackrock Spire"
+                custom_turtle_item: false
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]
+              - name: Deepearth Signet
+                item_id: 83460
+                rank: 2
+                source_type: drop
+                source_place: "Corpsmuncher, Karazhan Crypts"
+                custom_turtle_item: true
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]
+              - name: Band of Mending
+                item_id: 22334
+                rank: 2
+                source_type: drop
+                source_place: "Jarien, Stratholme (Live side, summoned boss)"
+                custom_turtle_item: false
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=162360#p162360", author: Blubbsy, authority: player, date: "2025-12-10"}]
+              - name: "Loop of the Lost"
+                item_id: 60798
+                rank: 3
+                source_type: drop
+                source_place: "Karazhan Crypts"
+                source_detail: "Paired with Remains of the Lost for the 5% meditation swap; see neck slot note."
+                custom_turtle_item: true
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152714#p152714", author: Haregijoe, authority: player, date: "2025-09-22"}]
+          - slot: trinket1
+            items:
+              - name: Royal Seal of Eldre'Thalas
+                item_id: 18469
+                rank: 1
+                source_type: quest
+                source_place: "Dire Maul quest reward"
+                custom_turtle_item: false
+                notes: "\"Very easy to obtain and really good, get them.\""
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]
+              - name: Blessed Prayer Beads
+                item_id: 19990
+                rank: 1
+                source_type: quest
+                source_place: "Priest class quest, Sunken Temple"
+                custom_turtle_item: false
+                notes: "\"Very easy to obtain and really good, get them.\""
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]
+          - slot: trinket2
+            items:
+              - name: Second Wind
+                item_id: 11819
+                rank: 2
+                source_type: drop
+                source_place: "Golem Lord Argelmach, Blackrock Depths"
+                custom_turtle_item: false
+                notes: "Weaker than the Royal Seal/Prayer Beads pair, but its +300 mana proc \"can help sometimes.\""
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]
+              - name: Penchant of Humility
+                item_id: 58231
+                rank: 2
+                source_type: reputation
+                source_place: "Argent Dawn, Exalted"
+                custom_turtle_item: false
+                notes: "Easy to obtain if already farming Robes of the Exalted / Truefaith Vestments to Argent Dawn exalted."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=162360#p162360", author: Blubbsy, authority: player, date: "2025-12-10"}]
+          - slot: main-hand
+            items:
+              - name: The Hammer of Grace
+                item_id: 11923
+                rank: 1
+                source_type: drop
+                source_place: "Chest of the Seven, Blackrock Depths"
+                custom_turtle_item: false
+                notes: "Pair with either off-hand below; better than a two-hander if you get one of the two off-hands."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]
+          - slot: off-hand
+            items:
+              - name: Thaurissan's Royal Scepter
+                item_id: 11928
+                rank: 1
+                source_type: drop
+                source_place: "Emperor Dagran Thaurissan, Blackrock Depths"
+                custom_turtle_item: false
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]
+              - name: Tome of Divine Right
+                item_id: 22319
+                rank: 2
+                source_type: quest
+                source_place: "Mor Grayhoof, Lower Blackrock Spire (T0.5 questline)"
+                custom_turtle_item: false
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]
+          - slot: two-hand
+            items:
+              - name: Guiding Staff of Wisdom
+                item_id: 11932
+                rank: 1
+                source_type: drop
+                source_place: "Emperor Dagran Thaurissan, Blackrock Depths"
+                custom_turtle_item: false
+                notes: "Alternative if you never get The Hammer of Grace + an off-hand."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]
+          - slot: ranged
+            items:
+              - name: Wand of Eternal Light
+                item_id: 22254
+                rank: 1
+                source_type: drop
+                source_place: "The Vault, Blackrock Depths"
+                custom_turtle_item: false
+                notes: "\"Might be annoying to get\" — any wand with intellect, spirit or healing power is an acceptable fallback."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]
+        enchants:
+          - {slot: head, enchant: "Arcanum of Focus (+12 healing) (18330)", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]}
+          - {slot: legs, enchant: "Arcanum of Focus (+12 healing) (18330)", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]}
+          - {slot: feet, enchant: "Enchanted Armor Kit (+9 healing) (61183)", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]}
+          - {slot: chest, enchant: "Enchanted Armor Kit (+9 healing) or +4 all stats", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]}
+          - {slot: hands, enchant: "+30 healing power (minimum recommended enchant)", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]}
+          - {slot: main-hand, enchant: "+55 healing power (minimum recommended enchant)", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]}
+          - {slot: wrist, enchant: "+23 healing power (minimum recommended enchant)", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]}
+          - {slot: "ring1/ring2/neck", enchant: "Beautiful Diamond Gemstone (+12 healing) (56010)", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]}
+        consumables:
+          - {name: "Major Mana Potion (13444)", use: "mandatory raid mana cooldown", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]}
+          - {name: "Tea with Sugar (15723) / Nordanaar Herbal Tea (61675)", use: "emergency heal/mana", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]}
+          - {name: "Dark Rune (20520) / Demonic Rune (12662)", use: "shares CD with tea; health for mana", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152383#p152383", author: Sharmaine, authority: player, date: "2025-09-19"}]}
+          - {name: "Brilliant Mana Oil (20748)", use: "cheap long-duration healing power + mp5 weapon buff", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]}
+          - {name: "Empowering Herbal Salad (83309, rare) or Nightfin Soup / Sagefish Delight", use: "food buff (healing power or mp5)", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152383#p152383", author: Sharmaine, authority: player, date: "2025-09-19"}]}
+          - {name: "Flask of Distilled Wisdom (13511)", use: "+2000 mana, 2h; skip on easy raids", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]}
+          - {name: "Spirit of Zanza (20079, ZG Revered)", use: "+50 Stamina/Spirit buff", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152383#p152383", author: Sharmaine, authority: player, date: "2025-09-19"}]}
+          - {name: "Mageblood Potion (20007)", use: "cheap mp5 boost", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: player, date: "2025-09-19"}]}
+        stat_notes: >
+          Priority per Langorn (2025-09-19): Healing Power first ("every single spell scales on that"), then Spell Crit
+          (150% heal crits, +25% target armor on a crit heal), then Intellect (mana pool + crit), then Spirit (healing
+          power and mp5 via talents, mind the 5-second rule), then Mp5, with Stamina last. No numeric hit/haste cap
+          applies to Holy healing; this is single-source (one guide, corroborated only by additive comments from
+          Blubbsy/Haregijoe, not independent stat-priority confirmation).
+      - bracket: raid-t2
+        agreement: contested
+        patch_validity:
+          written_for: "mixed: pre-1.18.1 tier commentary (2025-04 to 2025-11) plus 1.18.1 exact numbers (2026-02-15)"
+          valid_for_1181: true
+          notes: "The 1.18.1 Holy T2.5 numbers below are staff itemization-changelog text (Dragunovi, 2026-02-15) and are current for 1.18.1. Older tier commentary (T1/T2/T3.5) predates 1.18.1 and its status after the patch is not confirmed by any source."
+        slots:
+          - slot: two-hand
+            items:
+              - name: "Atiesh, Greatstaff of the Guardian (Priest)"
+                item_id: null
+                rank: 1
+                source_type: quest
+                source_place: "Legendary staff quest chain (not a raid-tier drop; listed here for lack of a better bracket)"
+                source_detail: "Now grants 150 spell power on Priest per staff post."
+                custom_turtle_item: unknown
+                notes: "Referenced only in a stat-buff note, not as part of a slot-by-slot list."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=105276#p105276", author: Dragunovi, authority: staff, date: "2024-10-30"}]
+        enchants: []
+        consumables: []
+        stat_notes: >
+          No source gives a per-slot Holy raid-tier BiS list; this bracket only carries what players and staff said
+          about the tier SETS themselves. T1: "when it comes to Holy priest, T1 raid set is pretty much garbage so
+          don't bother collecting it" (Langorn, 2025-09-19, pre-1.18.1). T2: full 8-piece set was valued pre-1.18.1
+          "for the Rank 5 Renew proc on Greater Heal" combined with the Hazzrah Charm from a ZG Madness event —
+          [Hawkbutt (player), 2025-04-03](https://forum.turtlecraft.gg/viewtopic.php?p=125153#p125153). T2.5: pre-1.18.1
+          bonuses were called "decoration" — [Astrallizard (player), 2025-11-09](https://forum.turtlecraft.gg/viewtopic.php?p=156737#p156737);
+          reworked in 1.18.1: 3-set makes critical Heal/Greater Heal effects increase Spirit by 80 for 10s, 5-set gives
+          Lightwell +5 yards range and +5 charges — [Dragunovi (staff), 2026-02-15](https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272).
+          T3.5 is **contested**: "3-Piece 'Regen' Bonus: Pay 300+ mana to get 48 mana back ... 5-Piece Flash Heal
+          'Buff' ... We're forced to wear T2 3-piece + junk Naxx rings/necks" —
+          [Solaire0726 (player), 2025-08-01](https://forum.turtlecraft.gg/viewtopic.php?p=142435#p142435) vs.
+          "[the T3.5 flash-heal set is] another tool" —
+          [Maxitaxii (player), 2025-04-24](https://forum.turtlecraft.gg/viewtopic.php?p=128268#p128268). No source
+          names individual T1/T2/T2.5/T3/T3.5 pieces for Holy. Gap: full raid-tier slot list.
+  - spec: Discipline
+    role: ranged-dps
+    brackets:
+      - bracket: pre-raid-60
+        agreement: single
+        patch_validity:
+          written_for: "1.18.1-announced-pre-release (2025-10-29)"
+          valid_for_1181: unknown
+          notes: "Single player's account (Tscosomaz), written just before 1.18.1 release; not corroborated by a second gear-specific source."
+        slots:
+          - slot: head
+            items:
+              - name: "Item 22267 (name not given in source)"
+                item_id: 22267
+                rank: 1
+                source_type: unknown-in-sources
+                source_place: "Karazhan Crypts (per the citing playbook; the original forum post gives only the database.turtlecraft.gg item link, not the drop location or item name)"
+                source_detail: "\"Couple super expensive options from Jewelcrafting\" mentioned in the same breath — unclear if this specific item is one of them."
+                custom_turtle_item: unknown
+                notes: "\"Considered the pre-raid bis\" despite Discipline needing 10% spell hit from gear — implies this item does carry hit."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=157662#p157662", author: Tscosomaz, authority: player, date: "2025-10-29"}]
+              - name: "Item 22080 — Discipline T0.5 head (name not given in source)"
+                item_id: 22080
+                rank: 2
+                source_type: quest
+                source_place: "T0.5 (Onyxia-attunement-tier) class quest chain"
+                custom_turtle_item: false
+                notes: "Less spell power than item 22267; gives +crit instead of +spell hit, which the author calls a poor fit since Discipline needs hit, not crit, to reach its 10% cap."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=157662#p157662", author: Tscosomaz, authority: player, date: "2025-10-29"}]
+        enchants: []
+        consumables:
+          - {name: "Major Mana Potion", use: "raid mana cooldown", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=174655#p174655", author: Zvyrhol, authority: player, date: "2026-04-10"}]}
+          - {name: "Nordanaar Herbal Tea / Tea with Sugar", use: "emergency heal/mana, on cooldown from minute one", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=174655#p174655", author: Zvyrhol, authority: player, date: "2026-04-10"}]}
+          - {name: "Dark Rune / Demonic Rune", use: "health for mana", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=174655#p174655", author: Zvyrhol, authority: player, date: "2026-04-10"}]}
+          - {name: "Brilliant Wizard Oil", use: "weapon buff", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=174655#p174655", author: Zvyrhol, authority: player, date: "2026-04-10"}]}
+          - {name: "Flask of Supreme Power", use: "raid spell power flask", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=174655#p174655", author: Zvyrhol, authority: player, date: "2026-04-10"}]}
+          - {name: "Greater Arcane Elixir", use: "spell power elixir", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=174655#p174655", author: Zvyrhol, authority: player, date: "2026-04-10"}]}
+          - {name: "Robe of Sacrifice / Darkmoon Card: Blue Dragon", use: "mana-sustain items named for progression raiding", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=131166#p131166", author: Tess322, authority: player, date: "2025-05-15"}]}
+        stat_notes: >
+          Spell hit to 10% from gear (Piercing Light talent gives 6% more, for 16% total) is the top priority —
+          "spec needs 10% from items ... +spellhit (weight19 if undercap) vs +crit (weight7)" —
+          [Tscosomaz (player), 2025-10-29](https://forum.turtlecraft.gg/viewtopic.php?p=157662#p157662); a second
+          player independently gives up to 16% for bosses, "always 1% miss" —
+          [Zvyrhol (player), 2023-12-17](https://forum.turtlecraft.gg/viewtopic.php?p=81512#p81512). No source gives
+          a full pre-raid slot table for Discipline beyond the head-slot comparison above; T1/T2 sets are explicitly
+          called unusable for the spec ("after T0.5 there is nothing, unless offsets or T2.5" — Tscosomaz) because
+          they carry no spell hit.
+      - bracket: raid-t2.5
+        agreement: single
+        patch_validity:
+          written_for: "1.18.1-announced-pre-release / 1.18.1 (2024-10-30 pre-release conversion; 2026-02-15 exact numbers)"
+          valid_for_1181: true
+          notes: "The 1.18.1 5-set numbers are current staff text; no per-piece item names are given anywhere in the sources."
+        slots: []
+        enchants: []
+        consumables: []
+        stat_notes: >
+          The original T2.5 (Oracle) set was converted into a full Discipline/Smite set pre-1.18.1: Holy spell power
+          33/27/39/34/27 across the five pieces, +1% hit on robe and trousers, +1% crit on tiara/mantle —
+          [Dragunovi (staff), 2024-10-30](https://forum.turtlecraft.gg/viewtopic.php?p=105276#p105276). Players call it
+          weaker than BWL/AQ/Naxx off-set pieces (Leggings of Polarity, Boots of Epiphany) and object to it dealing
+          only Holy damage — "no justifiable reason for T2.5 to only be Holy damage" —
+          [Mcpewpew (player), 2024-12-19](https://forum.turtlecraft.gg/viewtopic.php?p=113348#p113348). 1.18.1 5-set
+          rework: Chastise grants 40 spell power and cuts Smite/Holy Fire mana cost 15% for 12s, doubled on a critical
+          strike — [Dragunovi (staff), 2026-02-15](https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272). No
+          source names the individual T2.5 pieces or their non-Holy-spell-power stats. Gap: per-piece stats.
+  - spec: Discipline
+    role: pvp
+    brackets:
+      - bracket: pvp-60
+        agreement: single
+        patch_validity:
+          written_for: "pre-1.18.1 (2024-07 to 2025-11)"
+          valid_for_1181: unknown
+          notes: "PvP dampening became per-class and dynamic in 1.18.1 (staff); no source restates whether the item picks below still apply."
+        slots:
+          - slot: main-hand
+            items:
+              - name: Soulseeker
+                item_id: null
+                rank: 1
+                source_type: unknown-in-sources
+                source_place: null
+                source_detail: "−25 target resistance"
+                custom_turtle_item: unknown
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=102656#p102656", author: Zvyrhol, authority: player, date: "2024-10-06"}]
+          - slot: ranged
+            items:
+              - name: Time Frozen Bow
+                item_id: null
+                rank: 1
+                source_type: unknown-in-sources
+                source_place: null
+                custom_turtle_item: unknown
+                notes: "Night Elf only: \"Time Frozen Bow is bis. Adds a lot of damage to searing shot and 1% haste.\""
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=159517#p159517", author: Blackduck4, authority: player, date: "2025-11-13"}]
+        enchants: []
+        consumables: []
+        stat_notes: >
+          Stamina first for survivability — [Springboards (player), 2024-07-07](https://forum.turtlecraft.gg/viewtopic.php?p=98805#p98805),
+          naming (without exact item names) "ragnaros str cloak," "str tanking warrior ring from AQ40," and "nefarian
+          tanking neck" as examples — then spell power ("damage and healing" over a Holy-only set) —
+          [Kobiq (player), 2024-12-01](https://forum.turtlecraft.gg/viewtopic.php?p=110850#p110850) — then crit
+          (Searing Light procs), then 3% hit, then spell penetration only against resist-stackers. T2 (healing +
+          damage) is preferred over Discipline T2.5 for PvP versatility —
+          [Kobiq (player), 2024-12-02](https://forum.turtlecraft.gg/viewtopic.php?p=110892#p110892); r12+ honor gear
+          is "about as good as t2.5/t3" — Springboards 2024-07-07. Non-Night-Elf: generic stamina bows for PvP —
+          [Thaladar (player), 2025-08-07](https://forum.turtlecraft.gg/viewtopic.php?p=143500#p143500). Vague/no-exact-name
+          item mentions above are not listed as structured items per the no-invention rule.
+  - spec: Shadow
+    role: ranged-dps
+    brackets:
+      - bracket: leveling-10-29
+        agreement: consensus
+        patch_validity:
+          written_for: "pre-1.18.1 (2022-2026, applies broadly)"
+          valid_for_1181: unknown
+          notes: "Wand talents/mechanics unaffected by 1.18.1 per sources; item availability not reconfirmed for 1.18.1."
+        slots:
+          - slot: ranged
+            items:
+              - name: Lesser Magic Wand
+                item_id: 11287
+                rank: 1
+                source_type: vendor
+                source_place: "wand merchant"
+                custom_turtle_item: false
+                notes: "\"As soon as you hit level 5, try to get\" this wand."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=24431#p24431", author: Aykhanchik, authority: player, date: "2022-09-05"}]
+              - name: Greater Magic Wand
+                item_id: null
+                rank: 2
+                source_type: vendor
+                source_place: "Auction House (player bought theirs for ~60 silver) or a wand merchant"
+                custom_turtle_item: false
+                notes: "\"Crucial to get a wand ASAP and upgrade it to Greater Magic Wand ASAP.\""
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=121113#p121113", author: Reomc1, authority: player, date: "2025-02-27"}]
+        enchants: []
+        consumables: []
+        stat_notes: >
+          "At lower levels, the Enchanting wands are insanely OP and often do more DPS than your spells" —
+          [Getplucked (player), 2023-07-14](https://forum.turtlecraft.gg/viewtopic.php?p=53458#p53458). Beyond the two
+          named wands above, no source gives a leveling item list; general stat advice is Spirit > Intellect > Stamina
+          with spell power gear once available (Aykhanchik 2022; Amyloriley 2024), plus dungeon wands and Inner Fire
+          ranks as the recurring upgrades. Gap: no bracket-specific (30-49 / 50-59) item list exists.
+      - bracket: pre-raid-60
+        agreement: contested
+        patch_validity:
+          written_for: "pre-1.18.1 (2023-2025)"
+          valid_for_1181: unknown
+          notes: "Bloodvine's hit-to-raid-gear nerf (2023) predates 1.18.1; not reconfirmed as still current."
+        slots:
+          - slot: legs
+            items:
+              - name: Nightwind Leggings
+                item_id: null
+                rank: 2
+                source_type: drop
+                source_place: "Black Morass"
+                custom_turtle_item: true
+                notes: "Contested entry point: \"if you just start out and are in greens, do not go to Black Morass. That dungeon is difficulty-wise somewhere around ZG. Get some other gear pieces from easier places before.\""
+                citations:
+                  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=98897#p98897", author: Akos1896, authority: player, date: "2024-07-08"}
+                  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=98901#p98901", author: Atreidon, authority: player, date: "2024-07-08"}
+          - slot: ring1
+            items:
+              - name: Band of Servitude
+                item_id: null
+                rank: 2
+                source_type: unknown-in-sources
+                source_place: null
+                source_detail: "Buffed to 27 spell power \"for specializations that require a lot of spell hit such as Arcane mages and Shadow priests.\""
+                custom_turtle_item: unknown
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=94666#p94666", author: Dragunovi, authority: staff, date: "2024-05-12"}]
+          - slot: chest
+            items:
+              - name: "Bloodvine Vest (Bloodvine set, exact piece names not given)"
+                item_id: null
+                rank: 3
+                source_type: unknown-in-sources
+                source_place: null
+                custom_turtle_item: false
+                notes: "\"Bloodvine set is a staple in shadow priest PvE itemization\" but its hit was moved off the set onto raid gear in a 2023 nerf — contested: \"Bloodvine Set Nerf is dumb\" (Thormenius2005) vs staff explaining the design intent (item development was being held hostage by a free pre-raid BiS)."
+                citations:
+                  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=59726#p59726", author: Noephix, authority: player, date: "2023-08-29"}
+                  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=59843#p59843", author: Redmagejoe, authority: player, date: "2023-08-30"}
+        enchants: []
+        consumables: []
+        stat_notes: >
+          "You just get 5% hit, stack spell power and more or less ignore everything else" —
+          [Caracole (player), 2024-12-20](https://forum.turtlecraft.gg/viewtopic.php?p=113536#p113536); hit percentage
+          needed dropped from Vanilla's 16% norm because Shadow only needs 5-6% from gear (self-buffs cover the rest).
+          Route advice (consensus): "farm ZG as often as possible, it has three different 2nd bis" and Kara10 "has a
+          good 29 sp blue belt" (exact item names not given) —
+          [Caracole (player), 2024-12-22](https://forum.turtlecraft.gg/viewtopic.php?p=113861#p113861); alternative:
+          buy "2 of the bloodvine, some shadow wrath, some BoE blues with good caster stats" off the Auction House to
+          skip dungeons entirely and go straight into BWL/AQ40 —
+          [amanagor (player), 2024-12-23](https://forum.turtlecraft.gg/viewtopic.php?p=113978#p113978). Post-1.18.1
+          route: "run UBRS a few times ... Black Morass, Stormwind Vaults and Kara Crypts" —
+          [Augustfenix85 (player), 2026-04-09](https://forum.turtlecraft.gg/viewtopic.php?p=174625#p174625). No
+          source gives a complete slot-by-slot pre-raid list for Shadow; ZG's "three different 2nd bis" and the Kara10
+          belt are named only by category, not by exact item name, so they are not listed as structured items here
+          (see gaps).
+      - bracket: raid-t3
+        agreement: single
+        patch_validity:
+          written_for: "1.18.1 (2026-02-15)"
+          valid_for_1181: true
+          notes: "Exact stat change from an itemization changelog post; current for 1.18.1."
+        slots:
+          - slot: head
+            items:
+              - name: Coronet of Faith
+                item_id: null
+                rank: 1
+                source_type: drop
+                source_place: "Tier 3 raid content (exact boss not given)"
+                source_detail: "44 spell power changed to 44 Shadow spell power in 1.18.1 (was generic spell power)."
+                custom_turtle_item: false
+                notes: "1.18.1 itemization change — the \"of Faith\" T3 pieces became Shadow-specific spell power."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272", author: Dragunovi, authority: staff, date: "2026-02-15"}]
+          - slot: shoulder
+            items:
+              - name: Shoulderpads of Faith
+                item_id: null
+                rank: 1
+                source_type: drop
+                source_place: "Tier 3 raid content (exact boss not given)"
+                source_detail: "29 spell power changed to 29 Shadow spell power in 1.18.1."
+                custom_turtle_item: false
+                notes: "1.18.1 itemization change."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272", author: Dragunovi, authority: staff, date: "2026-02-15"}]
+          - slot: legs
+            items:
+              - name: Pants of Faith
+                item_id: null
+                rank: 1
+                source_type: drop
+                source_place: "Tier 3 raid content (exact boss not given)"
+                source_detail: "51 spell power changed to 51 Shadow spell power in 1.18.1."
+                custom_turtle_item: false
+                notes: "1.18.1 itemization change."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272", author: Dragunovi, authority: staff, date: "2026-02-15"}]
+        enchants: []
+        consumables: []
+        stat_notes: >
+          Turtle gives Priest its own alternative Shadow tier sets since 2023-10 —
+          [Dragunovi (staff), 2023-10-15](https://forum.turtlecraft.gg/viewtopic.php?p=71030#p71030). T1 3-set −15%
+          threat is "the one valued bonus"; T2 (Mana Burn +30%, Vampiric Embrace +20s, Mind Blast crit proc) is "barely
+          any benefit" (Keds, Sharmaine, 2025-09-08); T3 6-set Shadow Weaving bonus is criticized: "locking it behind 6
+          pieces forces awful gear choices" —
+          [Solaire0726 (player), 2025-08-01](https://forum.turtlecraft.gg/viewtopic.php?p=142440#p142440); T3 4-set
+          removes the Mind Flay GCD. 1.18.1 adds a new Shadow T2.5 (crit-based) set in AQ40 —
+          [Dragunovi (staff), 2026-02-15](https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272). T3.5
+          "Vestments of Pestilence" is praised ("great job on Tier 3.5" —
+          [Uglypig (player), 2025-09-12](https://forum.turtlecraft.gg/viewtopic.php?p=151474#p151474)) but no
+          per-piece stats are given for it. Gap: T1/T2/T2.5/T3.5 piece names.
+      - bracket: raid-t1
+        agreement: single
+        patch_validity: {written_for: "pre-1.18.1 (2025-08-26)", valid_for_1181: unknown, notes: "Quest availability not reconfirmed for 1.18.1."}
+        slots:
+          - slot: two-hand
+            items:
+              - name: Benediction / Anathema
+                item_id: null
+                rank: 1
+                source_type: quest
+                source_place: "Holy-tree solo quest chain (staff, spirit of Benediction/Anathema)"
+                custom_turtle_item: unknown
+                notes: "A Shadow player reported completing this Holy-only legendary quest chain \"wearing mooncloth set,\" i.e. it is soloable well below raid-tier gear."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=148401#p148401", author: Turboman, authority: player, date: "2025-08-26"}]
+        enchants: []
+        consumables:
+          - {name: "Major Mana Potions, Demonic Runes, Brilliant Wizard Oil", use: "core raid consumables, in order of importance", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2080#p2080", author: Jcarrill0, authority: "guide writer", date: "2019-02-13"}]}
+          - {name: "Elixir of Shadow Power", use: "shadow damage elixir; duration changed to 1h in patch 1.18.0", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2080#p2080", author: Jcarrill0, authority: "guide writer", date: "2019-02-13"}]}
+          - {name: "Greater Arcane Elixir, Mageblood, Nightfin Soup, Sagefish Delight, Elixir of Greater Intellect, Scroll of Intellect IV, Crystal Force, Scroll of Spirit IV", use: "stat food/scrolls", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2080#p2080", author: Jcarrill0, authority: "guide writer", date: "2019-02-13"}]}
+          - {name: "Flask of Supreme Power", use: "\"single biggest DPS increase\"", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2080#p2080", author: Jcarrill0, authority: "guide writer", date: "2019-02-13"}]}
+          - {name: "Greater Fire/Arcane Protection Potion", use: "Ragnaros/Shazzrah resistance", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2080#p2080", author: Jcarrill0, authority: "guide writer", date: "2019-02-13"}]}
+          - {name: "Nordanaar Herbal Tea", use: "Turtle-added mana/heal item", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=98901#p98901", author: Atreidon, authority: player, date: "2024-07-08"}]}
+        stat_notes: "See raid-t3 bracket for tier-set commentary; this bracket exists only to hold the Benediction/Anathema weapon quest, which is not tied to a specific raid tier."
+  - spec: Shadow
+    role: pvp
+    brackets:
+      - bracket: pvp-60
+        agreement: single
+        patch_validity:
+          written_for: "pre-1.18.1 (2024-07 to 2025-11)"
+          valid_for_1181: unknown
+          notes: "PvP dampening became per-class and dynamic in 1.18.1 (staff, no numbers given); item picks below are not reconfirmed for 1.18.1."
+        slots:
+          - slot: ranged
+            items:
+              - name: Time Frozen Bow
+                item_id: null
+                rank: 1
+                source_type: unknown-in-sources
+                source_place: null
+                custom_turtle_item: unknown
+                notes: "Night Elf only; same item as cited for Discipline PvP."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=159517#p159517", author: Blackduck4, authority: player, date: "2025-11-13"}]
+        enchants: []
+        consumables:
+          - {name: "Nordanaar Herbal Tea", use: "mana/heal", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=98901#p98901", author: Atreidon, authority: player, date: "2024-07-08"}]}
+        stat_notes: >
+          Stack stamina heavily: "stack lots of stamina (e.g. ragnaros str cloak as stupid as it sounds, str tanking
+          warrior ring from aq40, naxx 24 stam ring, nefarian tanking neck, etc) ... Stamina is your only defence and
+          it's better to die with 0 mana than keep dying with full mana" —
+          [Springboards (player), 2024-07-07](https://forum.turtlecraft.gg/viewtopic.php?p=98805#p98805) (written for
+          Discipline PvP but reused here per the citing playbook); "spriests will never use tier sets on pvp bc [it]
+          leaves you too squishy" —
+          [Kentorianx (player), 2026-02-15](https://forum.turtlecraft.gg/viewtopic.php?p=168308#p168308). No exact
+          item names are given for the stamina pieces beyond the vague descriptions quoted, so they are not listed as
+          structured items (no-invention rule). PvP dampening is dynamic per spec in 1.18.1 per staff, but no numbers
+          are given in any source.
+gaps:
+  - "No source gives a complete slot-by-slot raid-tier (T1 through T3.5) BiS list for any Priest spec — only tier-set bonus text, a handful of isolated named items (Coronet/Shoulderpads/Pants of Faith for Shadow T3), and prose route advice. This is true across Holy, Discipline and Shadow."
+  - "No PvP itemization list beyond two named weapons (Soulseeker, Time Frozen Bow) across both Discipline-pvp and Shadow-pvp; stamina-piece recommendations name only vague descriptions (\"ragnaros str cloak\", \"str tanking warrior ring from aq40\", \"naxx 24 stam ring\", \"nefarian tanking neck\"), not exact item names, so they could not be listed as structured items without inventing names."
+  - "No leveling gear bracket exists for Holy (not a recommended leveling spec per the sources) or for level ranges 30-49/50-59 for any spec; only the level-5-29 wand progression (Lesser -> Greater Magic Wand) is concretely sourced."
+  - "The shadow-ranged-dps.md claim that a 'Karazhan set' reduces Mind Blast cooldown (attributed only to \"Zitronenhaze\") could not be traced to a specific post ID in the extracted forum data, so it was omitted here rather than cited without a resolvable URL."
+  - "Item IDs for many named items are not given in any source: Nightwind Leggings, Band of Servitude, Bloodvine set pieces, Soulseeker, Time Frozen Bow, the mooncloth fallback boots, Coronet/Shoulderpads/Pants of Faith. Marked item_id: null / source_type: unknown-in-sources above."
+  - "Discipline T2.5 and Shadow T2.5/T3.5 raid sets have known set-bonus text (itemization changelog) but no per-piece item names anywhere in the sources."
+  - "database.turtlecraft.gg item links quoted by players (mostly Langorn's guide) are player-reported, not staff-confirmed or cross-checked against a client DBC; treat item IDs and drop locations here as provisional pending local-server verification (see AGENTS.md §3-4)."

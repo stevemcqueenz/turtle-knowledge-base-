@@ -1,0 +1,309 @@
+class: mage
+generated_from:
+  - https://forum.turtlecraft.gg/viewtopic.php?t=13188   # Bis gear?
+  - https://forum.turtlecraft.gg/viewtopic.php?t=23128   # Mage stat priority / gearing
+  - https://turtle-wow.fandom.com/wiki/Mage_General_FAQ
+  - https://turtle-wow.fandom.com/wiki/Mage_Arcane_FAQ
+  - https://turtle-wow.fandom.com/wiki/Mage_Fire_FAQ
+  - https://turtle-wow.fandom.com/wiki/Mage_Frost_FAQ
+  - https://turtle-wow.fandom.com/wiki/Mage_Levelling_FAQ
+  - synthesis/classes/mage/arcane-ranged-dps.md
+  - synthesis/classes/mage/fire-ranged-dps.md
+  - synthesis/classes/mage/frost-ranged-dps.md
+  - synthesis/classes/mage/frost-pvp.md
+  - synthesis/classes/mage/arcane-pvp.md
+  - synthesis/classes/mage/leveling.md
+  - synthesis/1.18.1-master-changelog.md
+caveats:
+  - "The only itemized pre-raid list for Mage comes from the community wiki's General FAQ page (authority: wiki, the least reliable tier per AGENTS.md) — the wiki itself says \"no up-to-date pre-raid BiS, you can just jump right into raids.\" Forum threads asking for a BiS list (t13188, t18636, t22994) got no substantive answers; one reply just linked the wiki/AtlasLoot."
+  - "No raid-tier slot-by-slot BiS list exists for any Mage spec in any source; only tier-set bonus text, isolated named items, and one post naming a handful of BWL-era trinkets/weapons for Arcane (single source, post-1.18.1)."
+  - "No Mage forum post is staff-authored on gear (0 staff posts touch itemization directly in the Mage forum's 683 posts); the itemization changelog (Dragunovi, 2026-02-15) is the only staff gear source, and it only lists numeric tweaks to existing items, not slot recommendations."
+  - "No leveling gear list exists for Mage at all (explicit gap in `leveling.md`) — only generic stat priority (Int > Stam) and two named early items."
+specs:
+  - spec: Arcane
+    role: ranged-dps
+    brackets:
+      - bracket: pre-raid-60
+        agreement: single
+        patch_validity:
+          written_for: "wiki, revision 2026-09-09 (post-1.18.1); Kara10 item IDs from a 2023-05 forum post, pre-1.18.1"
+          valid_for_1181: unknown
+          notes: "Wiki says outright there is \"no up-to-date pre-raid BiS.\" Treat as a starting point, not a verified list."
+        slots:
+          - slot: head
+            items:
+              - {name: "Spellweaver's Turban", item_id: null, rank: 1, source_type: drop, source_place: "Upper Blackrock Spire (UBRS)", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "Mage General FAQ", authority: wiki, date: null}]}
+          - slot: neck
+            items:
+              - {name: "Diana's Pearl Necklace", item_id: null, rank: 1, source_type: drop, source_place: "Stratholme", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "Mage General FAQ", authority: wiki, date: null}]}
+          - slot: shoulder
+            items:
+              - {name: "Shroud of Arcane Mastery", item_id: null, rank: 1, source_type: drop, source_place: "Blackrock Depths (Theldren)", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "Mage General FAQ", authority: wiki, date: null}]}
+          - slot: chest
+            items:
+              - {name: "Figgle's Coveralls", item_id: null, rank: 1, source_type: drop, source_place: "Hateforge Quarry", custom_turtle_item: true, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "Mage General FAQ", authority: wiki, date: null}]}
+              - {name: "Sorcerer's Tunic (Sorcerer's Regalia, T0.5)", item_id: null, rank: 2, source_type: quest, source_place: "T0.5 quest set, buffed on Turtle", custom_turtle_item: false, notes: "Exact per-piece names not given; set named generically.", citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "Mage General FAQ", authority: wiki, date: null}]}
+          - slot: wrist
+            items:
+              - {name: "Sublime Wristguards", item_id: null, rank: 1, source_type: drop, source_place: "Dire Maul North", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "Mage General FAQ", authority: wiki, date: null}]}
+          - slot: hands
+            items:
+              - {name: "Hands of Power", item_id: null, rank: 1, source_type: drop, source_place: "Lower Blackrock Spire", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "Mage General FAQ", authority: wiki, date: null}]}
+          - slot: waist
+            items:
+              - {name: "Ban'thok Sash", item_id: null, rank: 1, source_type: drop, source_place: "Lower Blackrock Spire", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "Mage General FAQ", authority: wiki, date: null}]}
+              - {name: "Arcanist Belt / Bindings (T1 BoE)", item_id: null, rank: 2, source_type: world-drop, source_place: "BoE, cheap on AH", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "Mage General FAQ", authority: wiki, date: null}]}
+          - slot: legs
+            items:
+              - {name: "Skyshroud Leggings", item_id: null, rank: 1, source_type: drop, source_place: "Lower Blackrock Spire", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "Mage General FAQ", authority: wiki, date: null}]}
+              - {name: "Kara10 legs (item 61285, name not given)", item_id: 61285, rank: 2, source_type: drop, source_place: "Kara10 (Lower Karazhan Halls)", custom_turtle_item: true, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "Mage General FAQ", authority: wiki, date: null}]}
+          - slot: feet
+            items:
+              - {name: "Omnicast Boots", item_id: null, rank: 1, source_type: drop, source_place: "Blackrock Depths", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "Mage General FAQ", authority: wiki, date: null}]}
+              - {name: "Kara10 boots (item 61281, name not given)", item_id: 61281, rank: 2, source_type: drop, source_place: "Kara10 (Lower Karazhan Halls)", custom_turtle_item: true, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "Mage General FAQ", authority: wiki, date: null}]}
+          - slot: ring1
+            items:
+              - {name: "Ring of the Academy", item_id: null, rank: 1, source_type: quest, source_place: "Alliance dungeon quest", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "Mage General FAQ", authority: wiki, date: null}]}
+              - {name: "Rune Band of Wizardry", item_id: null, rank: 1, source_type: drop, source_place: "Upper Blackrock Spire", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "Mage General FAQ", authority: wiki, date: null}]}
+          - slot: ring2
+            items:
+              - {name: "Don Mauricio's Band of Domination", item_id: null, rank: 1, source_type: drop, source_place: "Scholomance", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "Mage General FAQ", authority: wiki, date: null}]}
+              - {name: "Kara10 ring (item 61251, name not given)", item_id: 61251, rank: 2, source_type: drop, source_place: "Kara10 (Lower Karazhan Halls)", custom_turtle_item: true, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "Mage General FAQ", authority: wiki, date: null}]}
+          - slot: trinket1
+            items:
+              - {name: "Kara10 trinket (item 61450, name not given)", item_id: 61450, rank: 1, source_type: drop, source_place: "Kara10 (Lower Karazhan Halls)", custom_turtle_item: true, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "Mage General FAQ", authority: wiki, date: null}]}
+          - slot: main-hand
+            items:
+              - {name: "Magus Blade", item_id: null, rank: 1, source_type: drop, source_place: "Stormwind Vault trash (~40g on AH per the wiki)", custom_turtle_item: true, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "Mage General FAQ", authority: wiki, date: null}]}
+              - {name: "Witchblade", item_id: null, rank: 2, source_type: unknown-in-sources, source_place: null, custom_turtle_item: unknown, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "Mage General FAQ", authority: wiki, date: null}]}
+          - slot: two-hand
+            items:
+              - {name: "Almanac of Savagery", item_id: null, rank: 1, source_type: drop, source_place: "Stormwind Vault", custom_turtle_item: true, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "Mage General FAQ", authority: wiki, date: null}]}
+              - {name: "Lord Valthalak's Staff of Command", item_id: null, rank: 2, source_type: unknown-in-sources, source_place: null, custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "Mage General FAQ", authority: wiki, date: null}]}
+          - slot: off-hand
+            items:
+              - {name: "Orb of Kaladoon", item_id: null, rank: 1, source_type: quest, source_place: "dungeon quest", custom_turtle_item: true, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "Mage General FAQ", authority: wiki, date: null}]}
+              - {name: "Blackfire Orb", item_id: null, rank: 1, source_type: quest, source_place: "dungeon quest", custom_turtle_item: true, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "Mage General FAQ", authority: wiki, date: null}]}
+              - {name: "Whip of Encouragement", item_id: null, rank: 2, source_type: drop, source_place: "Stormwind Vault", custom_turtle_item: true, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "Mage General FAQ", authority: wiki, date: null}]}
+          - slot: ranged
+            items:
+              - {name: "Wand of Arcane Potency", item_id: null, rank: 1, source_type: drop, source_place: "Dire Maul West", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "Mage General FAQ", authority: wiki, date: null}]}
+              - {name: "Wand of the Eclipse", item_id: null, rank: 1, source_type: drop, source_place: "Black Morass", custom_turtle_item: true, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "Mage General FAQ", authority: wiki, date: null}]}
+        enchants:
+          - {slot: shoulder, enchant: "2% haste enchant (single target) or the ZG \"Sapphiron\"-type enchant (more AoE-flexible)", citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "Mage General FAQ", authority: wiki, date: null}]}
+          - {slot: weapon, enchant: "Brilliant Wizard Oil", citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "Mage General FAQ", authority: wiki, date: null}]}
+        consumables:
+          - {name: "Mana Tea (Hyjal)", use: "mana regen", citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "Mage General FAQ", authority: wiki, date: null}]}
+          - {name: "Greater/Major Mana Potion", use: "mana burst", citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "Mage General FAQ", authority: wiki, date: null}]}
+          - {name: "Alchemist's Stone (Trismegistos)", use: "trinket for potion synergy", citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "Mage General FAQ", authority: wiki, date: null}]}
+        stat_notes: >
+          "Your BIS item list, at least where we are at South Seas phase, it's about the same as Classic, besides the
+          neck/waist" — Keds, 2025-09-11 (playbook-cited, exact post ID not preserved in the citing document; tests
+          found full T1 with Improved Mind Blast 0/5 ≈ full T2 with Improved Mind Blast 4/5). Ignore set bonuses;
+          prioritize spell power and hit. Hit to 16% (10% talent + 6% gear) is first priority; then haste ≈ spell
+          power (roughly 17-20 SP per 1% haste) per player formula "20SP = 14 DPS, 1 Haste = 9.1 DPS, 1 Crit = 9.1 DPS
+          ... I never go over 16% hit total" — [Ashafares (player), 2025-12-09](https://forum.turtlecraft.gg/viewtopic.php?p=162161#p162161);
+          then crit. Spell penetration: "you can pretty much ignore magic penetration, useful for PvP but I can't
+          think of any PvE fight where it would be worth gearing towards" — [Mackylol (player), 2024-02-21](https://forum.turtlecraft.gg/viewtopic.php?p=88341#p88341).
+      - bracket: raid-t3.5
+        agreement: single
+        patch_validity: {written_for: "post-1.18.1 (2026-04-12)", valid_for_1181: true, notes: "Single post; no independent confirmation."}
+        slots:
+          - slot: trinket1
+            items:
+              - {name: "Ring of Sulfuras", item_id: null, rank: 1, source_type: unknown-in-sources, source_place: null, custom_turtle_item: false, notes: "Named as part of \"BWL's BiS\" combo along with the T3.5 5-set.", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=174946#p174946", author: Eluaria, authority: player, date: "2026-04-12"}]}
+              - {name: "Sigil of Ancient Accord", item_id: null, rank: 1, source_type: unknown-in-sources, source_place: null, custom_turtle_item: unknown, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=174946#p174946", author: Eluaria, authority: player, date: "2026-04-12"}]}
+          - slot: off-hand
+            items:
+              - {name: "Ornate Bloodstone Dagger", item_id: null, rank: 2, source_type: unknown-in-sources, source_place: null, custom_turtle_item: false, notes: "\"For non-fire-immune bosses\" only. 1.18.1 changed it: \"Can no longer trigger from effects that deal non-Physical damage without a cast.\"", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=174946#p174946", author: Eluaria, authority: player, date: "2026-04-12"}, {url: "https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272", author: Dragunovi, authority: staff, date: "2026-02-15"}]}
+        enchants: []
+        consumables: []
+        stat_notes: >
+          "BWL's BiS is a combination of 5-Set and whatever else you can find" —
+          [Eluaria (player), 2026-04-12](https://forum.turtlecraft.gg/viewtopic.php?p=174946#p174946), replying to a
+          post noting there is "nothing like an Icyveins for TW" for mage BiS lists —
+          [Andrewd93 (player), 2026-03-30](https://forum.turtlecraft.gg/viewtopic.php?p=173144#p173144). No T3.5 armor
+          pieces are named. Arcane has its own T1/T2/T3 alternate versions (Arcanist/Netherwind/Frostfire, with Arcane
+          spell power and haste after a 2025-01-28 retune, e.g. Frostfire Vestments 41 Arcane SP + 2% haste;
+          Netherwind Epaulets 1% haste) — [Torta (staff), 2025-01-28](https://forum.turtlecraft.gg/viewtopic.php?p=118168#p118168).
+          T3 pieces come from Archmage Angela Dosantos at Light's Hope (choose regular or Arcane version); T1/T2 from
+          an NPC on the chains in Blackrock Mountain; existing pieces convert at Feid Rota in Ratchet — "SWAPPING WILL
+          REMOVE ANY ENCHANTS YOU HAD" — [Mage General FAQ (wiki)](https://turtle-wow.fandom.com/wiki/Mage_General_FAQ).
+          T3.5 "of the Guardian" 3-set Mirror Magic was fixed in 1.18.1 (+10% Arcane on rewind, per the wiki); no
+          per-piece armor stats given. Gap: full T1-T3.5 armor slot list.
+  - spec: Arcane
+    role: pvp
+    brackets: []
+  - spec: Fire
+    role: ranged-dps
+    brackets:
+      - bracket: pre-raid-60
+        agreement: single
+        patch_validity: {written_for: "wiki, revision 2026-03-04 (Fire FAQ) / 2026-09-09 (General FAQ)", valid_for_1181: unknown, notes: "Wiki-only list, not reconfirmed against 1.18.1 drop tables."}
+        slots:
+          - slot: head
+            items:
+              - {name: "Spellweaver's Turban", item_id: null, rank: 1, source_type: drop, source_place: "Upper Blackrock Spire", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Fire_FAQ", author: "Mage Fire FAQ", authority: wiki, date: null}]}
+          - slot: neck
+            items:
+              - {name: "Diana's Pearl Necklace", item_id: null, rank: 1, source_type: drop, source_place: "Stratholme", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Fire_FAQ", author: "Mage Fire FAQ", authority: wiki, date: null}]}
+          - slot: back
+            items:
+              - {name: "Shroud of the Nathrezim", item_id: null, rank: 1, source_type: drop, source_place: "Stratholme (Balnazzar)", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Fire_FAQ", author: "Mage Fire FAQ", authority: wiki, date: null}]}
+              - {name: "Heliotrope Cloak", item_id: null, rank: 2, source_type: drop, source_place: "Dire Maul North", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Fire_FAQ", author: "Mage Fire FAQ", authority: wiki, date: null}]}
+          - slot: chest
+            items:
+              - {name: "Shadowguard Robe", item_id: null, rank: 1, source_type: drop, source_place: "Stormwind Vault", custom_turtle_item: true, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Fire_FAQ", author: "Mage Fire FAQ", authority: wiki, date: null}]}
+          - slot: wrist
+            items:
+              - {name: "Sublime Wristguards", item_id: null, rank: 1, source_type: drop, source_place: "Dire Maul North", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Fire_FAQ", author: "Mage Fire FAQ", authority: wiki, date: null}]}
+          - slot: hands
+            items:
+              - {name: "Brightspark Gloves", item_id: null, rank: 1, source_type: drop, source_place: "Dire Maul West (Tsu'zee)", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Fire_FAQ", author: "Mage Fire FAQ", authority: wiki, date: null}]}
+          - slot: waist
+            items:
+              - {name: "Ban'thok Sash", item_id: null, rank: 1, source_type: drop, source_place: "Lower Blackrock Spire", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Fire_FAQ", author: "Mage Fire FAQ", authority: wiki, date: null}]}
+          - slot: legs
+            items:
+              - {name: "Skyshroud Leggings", item_id: null, rank: 1, source_type: drop, source_place: "Lower Blackrock Spire", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Fire_FAQ", author: "Mage Fire FAQ", authority: wiki, date: null}]}
+          - slot: feet
+            items:
+              - {name: "Fire Striders", item_id: null, rank: 1, source_type: drop, source_place: "Stratholme (Balnazzar)", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Fire_FAQ", author: "Mage Fire FAQ", authority: wiki, date: null}]}
+          - slot: ring1
+            items:
+              - {name: "Ring of the Academy", item_id: null, rank: 1, source_type: quest, source_place: "Alliance dungeon quest", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Fire_FAQ", author: "Mage Fire FAQ", authority: wiki, date: null}]}
+          - slot: ring2
+            items:
+              - {name: "Rune Band of Wizardry", item_id: null, rank: 1, source_type: drop, source_place: "Upper Blackrock Spire", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Fire_FAQ", author: "Mage Fire FAQ", authority: wiki, date: null}]}
+              - {name: "Don Mauricio's Band of Domination", item_id: null, rank: 1, source_type: drop, source_place: "Scholomance", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Fire_FAQ", author: "Mage Fire FAQ", authority: wiki, date: null}]}
+          - slot: main-hand
+            items:
+              - {name: "Blade of Necromancy", item_id: null, rank: 1, source_type: drop, source_place: "Scholomance (Kormok)", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Fire_FAQ", author: "Mage Fire FAQ", authority: wiki, date: null}]}
+          - slot: off-hand
+            items:
+              - {name: "Inquisitor's Orb", item_id: null, rank: 1, source_type: drop, source_place: "Stratholme (Malor)", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Fire_FAQ", author: "Mage Fire FAQ", authority: wiki, date: null}]}
+              - {name: "Pyric Caduceus", item_id: null, rank: 2, source_type: drop, source_place: "Blackrock Depths (Loregrain)", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Fire_FAQ", author: "Mage Fire FAQ", authority: wiki, date: null}]}
+              - {name: "Orb of Kaladoon / Blackfire Orb", item_id: null, rank: 2, source_type: quest, source_place: "dungeon quest", custom_turtle_item: true, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Fire_FAQ", author: "Mage Fire FAQ", authority: wiki, date: null}]}
+          - slot: two-hand
+            items:
+              - {name: "Eye of the Beast", item_id: null, rank: 1, source_type: quest, source_place: "dungeon quest, both factions", custom_turtle_item: true, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Fire_FAQ", author: "Mage Fire FAQ", authority: wiki, date: null}]}
+        enchants:
+          - {slot: hands, enchant: "Fire Power", citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Fire_FAQ", author: "Mage Fire FAQ", authority: wiki, date: null}]}
+        consumables:
+          - {name: "Mana Tea / Mana Potion / Brilliant Wizard Oil (generic caster list)", use: "mana and weapon buff", citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "Mage General FAQ", authority: wiki, date: null}]}
+        stat_notes: >
+          "You really want 2-4% haste minimum + spellpower to ensure that you can get off 2 fireballs within the 6
+          second Ignite window" — [Mage Fire FAQ (wiki)](https://turtle-wow.fandom.com/wiki/Mage_Fire_FAQ) (written
+          for the 6s Ignite; with the 4s Ignite restored in 1.18.0 the haste requirement is stricter, but no source
+          recomputed it — gap). Hit cap 16% is the figure players quote —
+          [Perkamov (player), 2025-12-04](https://forum.turtlecraft.gg/viewtopic.php?p=161504#p161504); Ashafares
+          16%. Priority: hit to cap → crit ≥ hit-under-cap → spell power → haste.
+      - bracket: raid-t3.5
+        agreement: contested
+        patch_validity: {written_for: "1.18.0 itemization (staff) through 1.18.1", valid_for_1181: unknown, notes: "Bug status after 1.18.1 is explicitly unresolved."}
+        slots: []
+        enchants: []
+        consumables: []
+        stat_notes: >
+          Regular T1/T2/T3 (Arcanist/Netherwind/Frostfire, non-Arcane variants) are used since the Arcane spell-power
+          retune only touched the Arcane version. Frost/Fire T3.5 3-set: "Proc chance increased from 10% to 35% and
+          replicated damage increased from 10% to 20%. Now has a 4 second cooldown" —
+          [1.18.0 itemization changelog (staff), t20103](https://forum.turtlecraft.gg/viewtopic.php?t=20103); players
+          reported it broken ("When will you fix Fire Mage T3.5 3/5 set bonus?", bug-report id 18568) and the 1.18.1
+          notes only say Mirror Magic "now triggers correctly" — **whether the Fire 5-set itself is fixed is
+          unknown**. Loop of Unceasing Frost's fire-damage increase stacks with Improved Scorch — changelog,
+          2024-12-11. No per-piece T1/T2/T3/T3.5 item names given anywhere — gap.
+  - spec: Frost
+    role: ranged-dps
+    brackets:
+      - bracket: pre-raid-60
+        agreement: single
+        patch_validity: {written_for: "wiki, revision 2025-10-28 (Frost FAQ) / 2026-09-09 (General FAQ)", valid_for_1181: unknown, notes: "Wiki-only list."}
+        slots:
+          - slot: head
+            items:
+              - {name: "Spellweaver's Turban", item_id: null, rank: 1, source_type: drop, source_place: "Upper Blackrock Spire", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Frost_FAQ", author: "Mage Frost FAQ", authority: wiki, date: null}]}
+          - slot: neck
+            items:
+              - {name: "Diana's Pearl Necklace", item_id: null, rank: 1, source_type: drop, source_place: "Stratholme", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Frost_FAQ", author: "Mage Frost FAQ", authority: wiki, date: null}]}
+          - slot: shoulder
+            items:
+              - {name: "Boreal Mantle", item_id: null, rank: 1, source_type: drop, source_place: "Blackrock Depths (Warder Stilgiss)", custom_turtle_item: false, notes: "Rebalanced from spell power toward raw stats in a 2023-10 patch.", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?t=10971", author: Dragunovi, authority: staff, date: "2023-10"}]}
+              - {name: "Shroud of Arcane Mastery", item_id: null, rank: 2, source_type: drop, source_place: "Blackrock Depths (Theldren)", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Frost_FAQ", author: "Mage Frost FAQ", authority: wiki, date: null}]}
+          - slot: chest
+            items:
+              - {name: "Freezing Lich Robes", item_id: null, rank: 1, source_type: drop, source_place: "Scholomance (Ras Frostwhisper)", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Frost_FAQ", author: "Mage Frost FAQ", authority: wiki, date: null}]}
+          - slot: wrist
+            items:
+              - {name: "Sublime Wristguards", item_id: null, rank: 1, source_type: drop, source_place: "Dire Maul North", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Frost_FAQ", author: "Mage Frost FAQ", authority: wiki, date: null}]}
+          - slot: hands
+            items:
+              - {name: "Hands of Power", item_id: null, rank: 1, source_type: drop, source_place: "Lower Blackrock Spire", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Frost_FAQ", author: "Mage Frost FAQ", authority: wiki, date: null}]}
+          - slot: waist
+            items:
+              - {name: "Ban'thok Sash", item_id: null, rank: 1, source_type: drop, source_place: "Lower Blackrock Spire", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Frost_FAQ", author: "Mage Frost FAQ", authority: wiki, date: null}]}
+          - slot: legs
+            items:
+              - {name: "Skyshroud Leggings", item_id: null, rank: 1, source_type: drop, source_place: "Lower Blackrock Spire", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Frost_FAQ", author: "Mage Frost FAQ", authority: wiki, date: null}]}
+          - slot: feet
+            items:
+              - {name: "Kayser's Boots of Precision", item_id: null, rank: 1, source_type: drop, source_place: "Lower Blackrock Spire", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Frost_FAQ", author: "Mage Frost FAQ", authority: wiki, date: null}]}
+          - slot: ring1
+            items:
+              - {name: "Ring of the Academy", item_id: null, rank: 1, source_type: quest, source_place: "Alliance dungeon quest", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Frost_FAQ", author: "Mage Frost FAQ", authority: wiki, date: null}]}
+          - slot: ring2
+            items:
+              - {name: "Rune Band of Wizardry", item_id: null, rank: 1, source_type: drop, source_place: "Upper Blackrock Spire", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Frost_FAQ", author: "Mage Frost FAQ", authority: wiki, date: null}]}
+              - {name: "Don Mauricio's Band of Domination", item_id: null, rank: 1, source_type: drop, source_place: "Scholomance", custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Frost_FAQ", author: "Mage Frost FAQ", authority: wiki, date: null}]}
+          - slot: main-hand
+            items:
+              - {name: "Witchblade", item_id: null, rank: 1, source_type: unknown-in-sources, source_place: null, custom_turtle_item: unknown, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Frost_FAQ", author: "Mage Frost FAQ", authority: wiki, date: null}]}
+          - slot: off-hand
+            items:
+              - {name: "Tome of Shivering Secrets", item_id: null, rank: 1, source_type: drop, source_place: "Karazhan Crypts (Archlich Enkhraz)", custom_turtle_item: true, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Frost_FAQ", author: "Mage Frost FAQ", authority: wiki, date: null}]}
+              - {name: "Bonecreeper Stylus", item_id: null, rank: 2, source_type: unknown-in-sources, source_place: null, custom_turtle_item: unknown, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Frost_FAQ", author: "Mage Frost FAQ", authority: wiki, date: null}]}
+              - {name: "Orb of Kaladoon / Blackfire Orb", item_id: null, rank: 2, source_type: quest, source_place: "dungeon quest", custom_turtle_item: true, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Frost_FAQ", author: "Mage Frost FAQ", authority: wiki, date: null}]}
+          - slot: two-hand
+            items:
+              - {name: "Lord Valthalak's Staff of Command", item_id: null, rank: 1, source_type: unknown-in-sources, source_place: null, custom_turtle_item: false, notes: null, citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Frost_FAQ", author: "Mage Frost FAQ", authority: wiki, date: null}]}
+          - slot: ranged
+            items:
+              - {name: "Fabric of Time", item_id: null, rank: 1, source_type: drop, source_place: "Black Morass (Epidamu)", custom_turtle_item: true, notes: "Listed as a Frost pre-raid item by the wiki; slot uncertain (relic/held item) — kept under ranged pending confirmation.", citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_Frost_FAQ", author: "Mage Frost FAQ", authority: wiki, date: null}]}
+        enchants: []
+        consumables:
+          - {name: "Generic caster list (mana tea, mana potions, Brilliant Wizard Oil)", use: "mana and weapon buff", citations: [{url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "Mage General FAQ", authority: wiki, date: null}]}
+          - {name: "Greater Fire Protection Potion", use: "PvP use vs Fire mages/Fire raid bosses", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=134628#p134628", author: Atolius, authority: player, date: "2025-06-07"}]}
+        stat_notes: >
+          "Frost and Fire are stuck with boni such as 'do a bit less threat' or 'increase the radius of Flamestrike
+          and Blizzard by 15%' ... Frost benefits a lot from our Second Tier Dungeon Set. A 5% chance to trigger
+          freeze whenever you take damage, which in turn causes Flash Freeze to proc" —
+          [Eluaria (player), 2025-11-26](https://forum.turtlecraft.gg/viewtopic.php?p=160732#p160732) (single
+          source; presumably Sorcerer's Regalia T0.5, "buffed on Turtle" per the wiki). T3.5 3-set: 35% proc, +20%
+          Frost replicated damage, 4s cooldown (1.18.0 itemization); wear 3 Frost/Fire + 3 Arcane pieces on trash
+          per the wiki.
+      - bracket: pvp-60
+        agreement: single
+        patch_validity: {written_for: "pre-1.18.1 (2024-11 to 2025-10)", valid_for_1181: unknown, notes: "PvP dampening became class/spec-dependent in 1.18.1 with numbers unpublished — no source restates whether stat priorities changed."}
+        slots: []
+        enchants: []
+        consumables:
+          - {name: "Greater Fire Protection Potion", use: "\"blocks 2600 dmg, and you can drink it up to an hour early\", 2-min CD; recommended for facing Fire/PoM-Pyro mages", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=134628#p134628", author: Atolius, authority: player, date: "2025-06-07"}]}
+          - {name: "Zanza potion (~3g)", use: "cheap PvP consumable", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=107470#p107470", author: Springboards, authority: player, date: "2024-11-11"}]}
+        stat_notes: >
+          No Turtle-specific PvP stat weights exist; a direct question went unanswered —
+          [Perkamov (player), 2025-12-04](https://forum.turtlecraft.gg/viewtopic.php?p=161504#p161504). Stamina is
+          valued: "USE STAMINA ... full t3+life gem+stamina enchants" (advice given to a warrior fighting mages) —
+          [Springboards (player), 2024-11-11](https://forum.turtlecraft.gg/viewtopic.php?p=107471#p107471); a
+          well-geared mage has "~3k HP in PvP gear" —
+          [Xiangyu (player), 2025-08-24](https://forum.turtlecraft.gg/viewtopic.php?p=148046#p148046). Spell
+          penetration is "useful for PvP" —
+          [Mackylol (player), 2024-02-21](https://forum.turtlecraft.gg/viewtopic.php?p=88341#p88341), but resistance
+          gear itself is rare in PvP — [Manletow (player), 2025-10-27](https://forum.turtlecraft.gg/viewtopic.php?p=157292#p157292).
+          No named armor pieces for Frost PvP exist in any source.
+gaps:
+  - "No source gives a complete slot-by-slot raid-tier (T1 through T3.5) BiS list for any Mage spec — only tier-set bonus text and, for Arcane post-1.18.1, a single post naming two trinkets and one weapon for BWL."
+  - "Arcane PvP has zero gear/stat sources — the playbook explicitly notes \"no rotation guide or stat list exists\"; only a passing unattributed remark that the alternate tier sets \"scale with haste\" exists."
+  - "Frost PvP has no named armor pieces at all — only two consumables and general stamina/spell-penetration stat advice."
+  - "No leveling gear list exists for Mage in any bracket — `leveling.md` states this as an explicit gap; only Int > Stam stat priority and two unnamed early items (Amber Rings, a battlemage staff) are given, neither concrete enough to list as structured items."
+  - "Almost every pre-raid item above has item_id: null — the forum/wiki sources give item names and (usually) a drop location, but not a database ID, except for the Kara10 items (61251-61450 range) that one 2023 forum post links directly."
+  - "Sorcerer's Regalia (T0.5) individual piece names are not given anywhere; referenced only as a set."
