@@ -2236,10 +2236,10 @@ entries:
   before: 20%
   after: Each hit now has a 25% chance.
   numbers: 25% (was 20%)
-  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=169701#p169701
-  source_author: Jamey
-  source_authority: staff
-  source_date: '2026-03-02'
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171418#p171418
+  source_author: Terrydavis
+  source_authority: player
+  source_date: '2026-03-20'
   status: unclear
   notes: 'Quoted by a player from the class changelog, not from a staff post in this repo: [Terrydavis (player), 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171418#p171418).'
 - id: class-shaman-totem-thundercall-faction
@@ -2315,9 +2315,9 @@ entries:
   before: null
   after: No staff change listed.
   numbers: null
-  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
-  source_author: Torta
-  source_authority: staff
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172199#p172199
+  source_author: Hardcorblade
+  source_authority: player
   source_date: '2026-03-24'
   status: unclear
   notes: Player reports Ironclad "still not working" (missing ~136 heal); another player tested and says it works and is only a character-sheet display issue. [Hardcorblade (player), 2026-03-24](https://forum.turtlecraft.gg/viewtopic.php?p=172199#p172199),
@@ -2331,10 +2331,10 @@ entries:
   before: null
   after: Player claims the Paladin T2 3-piece summons "the lost" ghosts triggering Ancient Accord and Feast of Hakkar.
   numbers: null
-  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
-  source_author: Torta
-  source_authority: staff
-  source_date: '2026-03-24'
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172291#p172291
+  source_author: Dyco
+  source_authority: player
+  source_date: '2026-03-25'
   status: unclear
   notes: '[Dyco (player), 2026-03-25](https://forum.turtlecraft.gg/viewtopic.php?p=172291#p172291)'
 - id: class-priest-darkness
@@ -2376,10 +2376,10 @@ entries:
   before: null
   after: Described by a player as granting casting speed, a mana reduction and 15% healing received; player calls it overpowered. Also mentions "buffed prayer of healing and the lightwell changes".
   numbers: null
-  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
-  source_author: Torta
-  source_authority: staff
-  source_date: '2025-10-03'
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172878#p172878
+  source_author: Ayesha
+  source_authority: player
+  source_date: '2026-03-28'
   status: unclear
   notes: Not in any staff post in this repo. [Ayesha (player), 2026-03-28](https://forum.turtlecraft.gg/viewtopic.php?p=172878#p172878)
 - id: class-priest-blackout-move
@@ -2391,10 +2391,10 @@ entries:
   before: null
   after: Pre-release players discuss a proposal to move Blackout deeper into the Shadow tree and Lightwell changes.
   numbers: null
-  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
-  source_author: Torta
-  source_authority: staff
-  source_date: '2025-10-03'
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=169572#p169572
+  source_author: Gerganon
+  source_authority: player
+  source_date: '2026-02-28'
   status: unclear
   notes: 'From player discussion of the external class changelog: [Gerganon (player), 2026-02-28](https://forum.turtlecraft.gg/viewtopic.php?p=169572#p169572), [Gerganon (player), 2026-03-04](https://forum.turtlecraft.gg/viewtopic.php?p=170014#p170014)'
 - id: class-druid-pollen-burst
@@ -2482,10 +2482,10 @@ entries:
   before: null
   after: Player refers to "recent changes to Starfire crit chances" and describes Eclipse windows forcing stop-casting; requests indoor use of roots/feral swiftness/PvP set bonus (not changed).
   numbers: null
-  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
-  source_author: Torta
-  source_authority: staff
-  source_date: '2025-10-03'
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172021#p172021
+  source_author: Auralys
+  source_authority: player
+  source_date: '2026-03-23'
   status: unclear
   notes: '[Auralys (player), 2026-03-23](https://forum.turtlecraft.gg/viewtopic.php?p=172021#p172021), [Fugus (player), 2026-03-24](https://forum.turtlecraft.gg/viewtopic.php?p=172179#p172179)'
 - id: class-warlock-soul-entrapment
@@ -2542,10 +2542,10 @@ entries:
   before: null
   after: Players report Affliction spell mana costs were increased in 1.18.1 and ask for a revert.
   numbers: null
-  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
-  source_author: Torta
-  source_authority: staff
-  source_date: '2025-10-03'
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171717#p171717
+  source_author: daleking0518
+  source_authority: player
+  source_date: '2026-03-22'
   status: unclear
   notes: '[daleking0518 (player), 2026-03-22](https://forum.turtlecraft.gg/viewtopic.php?p=171717#p171717)'
 - id: class-warlock-improved-stones
@@ -2557,10 +2557,10 @@ entries:
   before: null
   after: 'Player: 2 points in the improved stones talent gives 4% instead of 6%.'
   numbers: null
-  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=174367#p174367
-  source_author: Torta
-  source_authority: staff
-  source_date: '2026-04-07'
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=174409#p174409
+  source_author: Oddly
+  source_authority: player
+  source_date: '2026-04-08'
   status: unclear
   notes: '[Oddly (player), 2026-04-08](https://forum.turtlecraft.gg/viewtopic.php?p=174409#p174409)'
 - id: class-warlock-greater-demon-pathing
@@ -2572,9 +2572,9 @@ entries:
   before: null
   after: Demons cannot path through Gluth's tunnel, Thaddius platforms or into Thaurissan's room; "3 months" old, i.e. predates 1.18.1.
   numbers: null
-  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=174367#p174367
-  source_author: Torta
-  source_authority: staff
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=174389#p174389
+  source_author: Sharmaine
+  source_authority: player
   source_date: '2026-04-07'
   status: unclear
   notes: '[Sharmaine (player), 2026-04-07](https://forum.turtlecraft.gg/viewtopic.php?p=174389#p174389)'
@@ -2632,10 +2632,10 @@ entries:
   before: null
   after: Serpent Sting and the snake pet's Poison Spit overwrite each other again after 1.18.1 (same bug as a year earlier); repeatedly reported, no staff fix in the threads.
   numbers: null
-  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
-  source_author: Torta
-  source_authority: staff
-  source_date: '2026-03-21'
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171755#p171755
+  source_author: Lendvell
+  source_authority: player
+  source_date: '2026-03-22'
   status: unclear
   notes: '[Lendvell (player), 2026-03-22](https://forum.turtlecraft.gg/viewtopic.php?p=171755#p171755), [Plagues2 (player), 2026-03-21](https://forum.turtlecraft.gg/viewtopic.php?p=171632#p171632), [Lendvell
     (player), 2026-04-01](https://forum.turtlecraft.gg/viewtopic.php?p=173553#p173553), [Lendvell (player), 2026-04-08](https://forum.turtlecraft.gg/viewtopic.php?p=174477#p174477)'
@@ -2678,10 +2678,10 @@ entries:
   before: null
   after: Player says moth pet is "bugged as hell" with dozens of reports.
   numbers: null
-  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
-  source_author: Torta
-  source_authority: staff
-  source_date: '2026-03-31'
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173561#p173561
+  source_author: Brainfrost
+  source_authority: player
+  source_date: '2026-04-01'
   status: unclear
   notes: '[Brainfrost (player), 2026-04-01](https://forum.turtlecraft.gg/viewtopic.php?p=173561#p173561)'
 - id: class-hunter-bm-pets-dampening
@@ -2693,9 +2693,9 @@ entries:
   before: null
   after: Pets do not receive the dampening debuff; players ask for dampening on BM pets.
   numbers: null
-  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=169701#p169701
-  source_author: Jamey
-  source_authority: staff
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=169733#p169733
+  source_author: Bugranger
+  source_authority: player
   source_date: '2026-03-02'
   status: unclear
   notes: '[Bugranger (player), 2026-03-02](https://forum.turtlecraft.gg/viewtopic.php?p=169733#p169733), [Bazbee (player), 2026-04-14](https://forum.turtlecraft.gg/viewtopic.php?p=175237#p175237)'
@@ -2738,10 +2738,10 @@ entries:
   before: null
   after: 'Player: "Noxious assault rogues got the biggest nerf in this patch, with taste for blood no longer affecting poisons"; pre-release discussion of an Assassination nerf outline.'
   numbers: null
-  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
-  source_author: Torta
-  source_authority: staff
-  source_date: '2025-10-03'
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172282#p172282
+  source_author: Crake
+  source_authority: player
+  source_date: '2026-03-25'
   status: unclear
   notes: '[Crake (player), 2026-03-25](https://forum.turtlecraft.gg/viewtopic.php?p=172282#p172282), [Heretic1987 (player), 2026-02-05](https://forum.turtlecraft.gg/viewtopic.php?p=167504#p167504), [Badcloud
     (player), 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171469#p171469)'
@@ -2769,9 +2769,9 @@ entries:
   before: null
   after: Repeated player requests for Warrior T2.5 and T3.5 set variants; none delivered in the threads.
   numbers: null
-  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
-  source_author: Torta
-  source_authority: staff
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171654#p171654
+  source_author: Heh86
+  source_authority: player
   source_date: '2026-03-21'
   status: unclear
   notes: '[Heh86 (player), 2026-03-21](https://forum.turtlecraft.gg/viewtopic.php?p=171654#p171654)'
@@ -2919,10 +2919,10 @@ entries:
   before: null
   after: Players repeatedly ask for roots, feral swiftness and PvP set speed bonus indoors and an out-of-combat resurrection; no staff response.
   numbers: null
-  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
-  source_author: Torta
-  source_authority: staff
-  source_date: '2025-10-03'
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=168509#p168509
+  source_author: Fugus
+  source_authority: player
+  source_date: '2026-02-17'
   status: unclear
   notes: '[Fugus (player), 2026-02-17](https://forum.turtlecraft.gg/viewtopic.php?p=168509#p168509), [Fugus (player), 2026-04-15](https://forum.turtlecraft.gg/viewtopic.php?p=175357#p175357)'
 - id: item-itemization-changelog-external
@@ -4555,10 +4555,10 @@ entries:
   before: null
   after: Player notes no High Elf active racial change.
   numbers: null
-  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
-  source_author: Torta
-  source_authority: staff
-  source_date: '2025-10-03'
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171668#p171668
+  source_author: Feomatar
+  source_authority: player
+  source_date: '2026-03-21'
   status: unclear
   notes: '[Feomatar (player), 2026-03-21](https://forum.turtlecraft.gg/viewtopic.php?p=171668#p171668)'
 - id: ui-poi-icons
