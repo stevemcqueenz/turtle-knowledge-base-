@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <style>
+    body { margin: 0; background: #0f1115; color: #e6e6e6; font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+    a { color: #4dd0e1; text-decoration: none; } a:hover { color: #8be6f1; text-decoration: underline; }
+    * { box-sizing: border-box; }
+  </style>
+</helmet>
+<div style="width: 1440px; min-height: 1560px; background: #0f1115; display: flex; flex-direction: column;">
+  <div style="height: 56px; border-bottom: 1px solid rgba(255,255,255,0.10); display: flex; align-items: center; justify-content: space-between; padding: 0 40px;">
+    <div style="display: flex; align-items: center; gap: 28px;">
+      <div style="display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 15px;">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#4dd0e1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14c0-4 3.5-7 8-7s8 3 8 7c0 2-1 3-3 3H7c-2 0-3-1-3-3z"></path><path d="M9 17v2M15 17v2M12 7V5"></path></svg>
+        <span>Turtle WoW class guides</span>
+      </div>
+      <div style="display: flex; gap: 20px; font-size: 14px; color: #9ea5b0;"><span style="color: #e6e6e6;">Classes</span><span>Matrix</span><span>Glossary</span><span>About</span></div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 10px; height: 36px; padding: 0 14px; border: 1px solid rgba(255,255,255,0.12); border-radius: 10px; color: #9ea5b0; font-size: 13px; width: 300px;">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg><span>Search class, spec or term</span>
+    </div>
+  </div>
+
+  <div style="border-bottom: 1px solid rgba(255,255,255,0.10); background: linear-gradient(180deg, rgba(198,155,109,0.14) 0%, rgba(198,155,109,0) 100%);">
+    <div style="width: 1200px; margin: 0 auto; padding: 32px 0 28px; display: flex; align-items: flex-end; justify-content: space-between; gap: 40px;">
+      <div style="display: flex; align-items: center; gap: 22px;">
+        <div style="width: 88px; height: 88px; border-radius: 20px; background: rgba(198,155,109,0.16); border: 1px solid rgba(198,155,109,0.5); display: flex; align-items: center; justify-content: center;">
+          <svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="#C69B6D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 3.5l6 6-9 9-6-6 9-9z"></path><path d="M5.5 12.5l-2 2 6 6 2-2M13 5l6 6"></path></svg>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 6px;">
+          <div style="font-size: 40px; font-weight: 800; letter-spacing: -0.02em; line-height: 1;">Warrior</div>
+          <div style="font-size: 15px; color: #9ea5b0;">Sword-and-board main tank, dual-wield raid damage, the classic Arms leveler. 9 spec guides, 41 sourced threads.</div>
+        </div>
+      </div>
+      <div style="display: flex; gap: 8px;">
+        <span style="padding: 8px 12px; border-radius: 10px; background: #1e222b; font-size: 13px; font-weight: 600;">Tank</span>
+        <span style="padding: 8px 12px; border-radius: 10px; font-size: 13px; color: #9ea5b0;">Melee DPS</span>
+        <span style="padding: 8px 12px; border-radius: 10px; font-size: 13px; color: #9ea5b0;">PvP</span>
+        <span style="padding: 8px 12px; border-radius: 10px; font-size: 13px; color: #9ea5b0;">Leveling</span>
+        <span style="padding: 8px 12px; border-radius: 10px; font-size: 13px; color: #9ea5b0;">Gear</span>
+      </div>
+    </div>
+  </div>
+
+  <div style="width: 1200px; margin: 0 auto; padding: 32px 0 48px; display: flex; flex-direction: column; gap: 36px;">
+
+    <div style="display: flex; flex-direction: column; gap: 14px;">
+      <div style="display: flex; align-items: baseline; gap: 14px;"><div style="font-size: 22px; font-weight: 800;">Pick a role</div><div style="font-size: 13px; color: #9ea5b0;">Green is what the community runs; blue works with caveats; amber is a niche the sources do describe.</div></div>
+      <div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px;">
+
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <div style="display: flex; align-items: center; gap: 8px; font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: #9ea5b0;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#9ea5b0" stroke-width="2" stroke-linejoin="round"><path d="M12 3l7 3v5c0 5-3 8.5-7 10-4-1.5-7-5-7-10V6l7-3z"></path></svg>Tank</div>
+          <div style="background: #171a21; border: 1px solid rgba(61,220,132,0.45); border-radius: 12px; padding: 16px; display: flex; flex-direction: column; gap: 8px;">
+            <div style="display: flex; justify-content: space-between; align-items: center;"><div style="font-size: 17px; font-weight: 700;">Protection</div><span style="font-size: 11px; font-weight: 700; color: #3ddc84; background: rgba(61,220,132,0.14); padding: 3px 8px; border-radius: 999px;">Favored</span></div>
+            <div style="font-size: 13px; color: #9ea5b0; line-height: 1.45;">Deep Prot with a shield. Best mitigation kit; threat behind bear and paladin.</div>
+            <div style="display: flex; gap: 6px; font-size: 11px; color: #9ea5b0;"><span style="border: 1px solid rgba(255,255,255,0.14); border-radius: 999px; padding: 2px 8px;">Standing contested</span><span style="border: 1px solid rgba(77,208,225,0.4); color: #4dd0e1; border-radius: 999px; padding: 2px 8px;">1.18.1</span></div>
+          </div>
+          <div style="background: #171a21; border: 1px solid rgba(255,255,255,0.10); border-radius: 12px; padding: 16px; display: flex; flex-direction: column; gap: 8px;">
+            <div style="display: flex; justify-content: space-between; align-items: center;"><div style="font-size: 17px; font-weight: 700;">Fury / Protection</div><span style="font-size: 11px; font-weight: 700; color: #4ea1ff; background: rgba(78,161,255,0.14); padding: 3px 8px; border-radius: 999px;">Alternative</span></div>
+            <div style="font-size: 13px; color: #9ea5b0; line-height: 1.45;">Pre-CC2 meta; nerfed since. Death Wish plus Improved Shield Slam hybrid.</div>
+          </div>
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <div style="display: flex; align-items: center; gap: 8px; font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: #9ea5b0;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#9ea5b0" stroke-width="2" stroke-linecap="round"><path d="M14.5 3.5l6 6-9 9-6-6z"></path><path d="M5.5 12.5l-2 2 6 6 2-2"></path></svg>Melee DPS</div>
+          <div style="background: #171a21; border: 1px solid rgba(61,220,132,0.45); border-radius: 12px; padding: 16px; display: flex; flex-direction: column; gap: 8px;">
+            <div style="display: flex; justify-content: space-between; align-items: center;"><div style="font-size: 17px; font-weight: 700;">Fury, dual wield</div><span style="font-size: 11px; font-weight: 700; color: #3ddc84; background: rgba(61,220,132,0.14); padding: 3px 8px; border-radius: 999px;">Favored</span></div>
+            <div style="font-size: 13px; color: #9ea5b0; line-height: 1.45;">The raid default. Bloodthirst, Whirlwind, Heroic Strike queueing.</div>
+          </div>
+          <div style="background: #171a21; border: 1px solid rgba(255,255,255,0.10); border-radius: 12px; padding: 16px; display: flex; flex-direction: column; gap: 8px;">
+            <div style="display: flex; justify-content: space-between; align-items: center;"><div style="font-size: 17px; font-weight: 700;">Arms</div><span style="font-size: 11px; font-weight: 700; color: #4ea1ff; background: rgba(78,161,255,0.14); padding: 3px 8px; border-radius: 999px;">Alternative</span></div>
+            <div style="font-size: 13px; color: #9ea5b0; line-height: 1.45;">Two-hander, Mortal Strike. Contested versus Fury since CC3.</div>
+          </div>
+          <div style="background: #171a21; border: 1px solid rgba(255,255,255,0.10); border-radius: 12px; padding: 16px; display: flex; flex-direction: column; gap: 8px;">
+            <div style="display: flex; justify-content: space-between; align-items: center;"><div style="font-size: 17px; font-weight: 700;">Fury, 2H Slam</div><span style="font-size: 11px; font-weight: 700; color: #f5b942; background: rgba(245,185,66,0.14); padding: 3px 8px; border-radius: 999px;">Niche</span></div>
+            <div style="font-size: 13px; color: #9ea5b0; line-height: 1.45;">Slam build; single guide, gear dependent.</div>
+          </div>
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <div style="display: flex; align-items: center; gap: 8px; font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: #9ea5b0;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#9ea5b0" stroke-width="2" stroke-linecap="round"><path d="M5 19l14-14M5 5l14 14"></path></svg>PvP</div>
+          <div style="background: #171a21; border: 1px solid rgba(61,220,132,0.45); border-radius: 12px; padding: 16px; display: flex; flex-direction: column; gap: 8px;">
+            <div style="display: flex; justify-content: space-between; align-items: center;"><div style="font-size: 17px; font-weight: 700;">Arms</div><span style="font-size: 11px; font-weight: 700; color: #3ddc84; background: rgba(61,220,132,0.14); padding: 3px 8px; border-radius: 999px;">Favored</span></div>
+            <div style="font-size: 13px; color: #9ea5b0; line-height: 1.45;">Needs healer support and free-action potions. Stamina first.</div>
+          </div>
+          <div style="background: #171a21; border: 1px solid rgba(255,255,255,0.10); border-radius: 12px; padding: 16px; display: flex; flex-direction: column; gap: 8px;">
+            <div style="display: flex; justify-content: space-between; align-items: center;"><div style="font-size: 17px; font-weight: 700;">Fury, Blood Drinker</div><span style="font-size: 11px; font-weight: 700; color: #f5b942; background: rgba(245,185,66,0.14); padding: 3px 8px; border-radius: 999px;">Niche</span></div>
+            <div style="font-size: 13px; color: #9ea5b0; line-height: 1.45;">Dual-wield sustain build; few sources.</div>
+          </div>
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <div style="display: flex; align-items: center; gap: 8px; font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: #9ea5b0;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#9ea5b0" stroke-width="2" stroke-linecap="round"><path d="M4 18l6-6 4 4 6-8"></path></svg>Leveling</div>
+          <div style="background: #171a21; border: 1px solid rgba(61,220,132,0.45); border-radius: 12px; padding: 16px; display: flex; flex-direction: column; gap: 8px;">
+            <div style="display: flex; justify-content: space-between; align-items: center;"><div style="font-size: 17px; font-weight: 700;">Arms, two-hander</div><span style="font-size: 11px; font-weight: 700; color: #3ddc84; background: rgba(61,220,132,0.14); padding: 3px 8px; border-radius: 999px;">Favored</span></div>
+            <div style="font-size: 13px; color: #9ea5b0; line-height: 1.45;">Level-by-level talent order to 40, Whirlwind Axe at 30, respec points explained.</div>
+          </div>
+          <div style="background: #171a21; border: 1px solid rgba(255,255,255,0.10); border-radius: 12px; padding: 16px; display: flex; flex-direction: column; gap: 8px;">
+            <div style="display: flex; justify-content: space-between; align-items: center;"><div style="font-size: 17px; font-weight: 700;">Protection via dungeons</div><span style="font-size: 11px; font-weight: 700; color: #4ea1ff; background: rgba(78,161,255,0.14); padding: 3px 8px; border-radius: 999px;">Alternative</span></div>
+            <div style="font-size: 13px; color: #9ea5b0; line-height: 1.45;">Arms to 30, then shield; tank your way up.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 1.4fr 1fr; gap: 16px;">
+      <div style="background: #171a21; border: 1px solid rgba(255,255,255,0.10); border-radius: 12px; padding: 20px; display: flex; flex-direction: column; gap: 12px;">
+        <div style="font-size: 16px; font-weight: 800;">What 1.18.1 changed for Warriors</div>
+        <div style="display: flex; flex-direction: column; gap: 8px; font-size: 14px; line-height: 1.45;">
+          <div style="display: flex; gap: 10px;"><span style="color: #8dc63f; font-weight: 700;">Staff</span><span><strong>Defiance</strong> 4 / 8 / 12 / 15 / 20% threat (was 3 – 15%).</span></div>
+          <div style="display: flex; gap: 10px;"><span style="color: #8dc63f; font-weight: 700;">Staff</span><span><strong>Shield Slam</strong> now scales with 20% attack power and carries a 75% threat modifier.</span></div>
+          <div style="display: flex; gap: 10px;"><span style="color: #8dc63f; font-weight: 700;">Staff</span><span><strong>Ravager</strong> and <strong>Precision Cut</strong> added on the Arms side; Boundless Anger swapped out.</span></div>
+          <div style="display: flex; gap: 10px;"><span style="color: #8dc63f; font-weight: 700;">Staff</span><span>Tier set bonuses revised across all warrior sets.</span></div>
+        </div>
+        <div style="font-size: 12px; color: #9ea5b0;">From Jamey's class changelog of 2026-01-23 with the 19 March 2026 revision.</div>
+      </div>
+      <div style="background: #171a21; border: 1px solid rgba(255,255,255,0.10); border-radius: 12px; padding: 20px; display: flex; flex-direction: column; gap: 12px;">
+        <div style="font-size: 16px; font-weight: 800;">How solid is this?</div>
+        <div style="display: flex; flex-direction: column; gap: 8px; font-size: 13px;">
+          <div style="display: flex; justify-content: space-between;"><span>Protection tank</span><span style="color: #3ddc84; font-weight: 600;">strong</span></div>
+          <div style="display: flex; justify-content: space-between;"><span>Fury dual-wield DPS</span><span style="color: #3ddc84; font-weight: 600;">strong on rotation, weak on stat weights</span></div>
+          <div style="display: flex; justify-content: space-between;"><span>Arms DPS</span><span style="color: #f5b942; font-weight: 600;">medium</span></div>
+          <div style="display: flex; justify-content: space-between;"><span>PvP</span><span style="color: #f5b942; font-weight: 600;">medium</span></div>
+          <div style="display: flex; justify-content: space-between;"><span>Leveling</span><span style="color: #f5b942; font-weight: 600;">medium</span></div>
+        </div>
+        <div style="font-size: 12px; color: #9ea5b0;">No complete 51-point build is published for any spec; talent lists are the sourced core plus player choice.</div>
+      </div>
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>
