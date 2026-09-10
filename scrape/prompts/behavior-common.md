@@ -1,0 +1,6 @@
+## Behavior corpus rules (in addition to the working rules)
+- Write to `behavior/` only. **Pseudonymize every username**: use `scrape/pseudonymize.py` (`from pseudonymize import Aliaser; a = Aliaser(); a.alias(name)`; call `a.save()` at the end so aliases stay consistent across agents; the map file behavior/_aliases.json is git-ignored). Never write a real username in behavior/ files, including inside quotes ("X wrote" must become "Player-0042 wrote"); run `a.scrub(text)` over every quote before writing it. Staff aliases are "Staff-NN" so authority stays visible. Post URLs are allowed as citations.
+- Keep real examples with context: quote the actual wording (scrubbed), the forum, the date and the era; the bots need patterns, phrasing and tone, not summaries alone. Prefer many short real examples over long commentary.
+- Where a pattern is common, give frequency evidence (counts from a Python pass over `structured/forum/posts/*.jsonl`), not adjectives.
+- Every file ends with a "Patterns for bots" section: concrete, reusable rules or templates a bot could follow (with placeholders), and a "What not to do" list drawn from complaints.
+- Machine-readable twins: for each Markdown file write `behavior/<name>.jsonl` with one example per line: `{example (scrubbed text), pattern, category, context, forum, date, era, url, author_alias, authority}`.

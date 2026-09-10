@@ -1,0 +1,24 @@
+You are building part D of the **player-behavior corpus** for human-like Turtle WoW bots. Repo root: /home/user/turtle-knowledge-base-. Sources: the whole forum archive, `structured/forum/posts/*.jsonl` (fields: content_md, author, authority, date, era, forum_id, topic_title, url) and `extracted/forum/<forum>/*.md`; official rules pages `extracted/site/rules.md` and `extracted/site/terms-of-service.md`; staff posts (`"authority": "staff"`) about moderation and bans (Help & Support f3 ban appeals, General f4, Announcements f2); forum ids: 4 General, 3 Help & Support, 14 Suggestions, 73 PvP, 37 Hardcore, 2 Announcements, 63 Patch Notes.
+
+Deliverables:
+1. `behavior/rules-and-hard-limits.md` (+ .jsonl): chat rules, botting and automation rules (what counts as automation, multiboxing policy, AFK/anti-AFK, macro limits), gold selling/buying, real-money trading, griefing/harassment, exploiting, account sharing, naming policy, and what people actually got banned or muted for (ban-appeal threads and staff replies: reason, duration, staff wording); write these as HARD LINES bots must never cross, plus the softer community norms revealed by the same threads. Cite the official rules page sections and the staff posts.
+2. `behavior/activity-patterns.md` (+ .jsonl): peak hours and days as players and staff describe them, session lengths, weekday vs weekend, raid nights, seasonal and in-game events (Winter Veil, Mirage Raceway, Beach, Halloween, Darkmoon, anniversary, Turtle-specific events), maintenance windows, and time zones players mention (EU/NA/CN/RU/OCE) with realm associations; ALSO compute from the corpus itself: histogram of post times by UTC hour and weekday (all posts, and split by author location/realm hints when available) and include the tables; give a bot login/logout schedule recommendation derived from the evidence, with caveats.
+3. `behavior/pvp-culture.md` (+ .jsonl): world PvP hotspots (zones, levels, times), ganking and its etiquette (corpse camping, /spit, "fair fights"), battleground behavior (premades, AFK, "defend the flag" calls, Thorn Gorge/Sunnyglade/WSG/AB/AV specifics), War Mode and bounty boards, dueling culture, how people react in chat to being ganked (rants, guild retaliation), and cross-faction dynamics.
+
+Report back with example counts per file and category, the hour/weekday histogram summary, and the validator's final line.
+
+## Behavior corpus rules (in addition to the working rules)
+- Write to `behavior/` only. **Pseudonymize every username**: use `scrape/pseudonymize.py` (`from pseudonymize import Aliaser; a = Aliaser(); a.alias(name)`; call `a.save()` at the end so aliases stay consistent across agents; the map file behavior/_aliases.json is git-ignored). Never write a real username in behavior/ files, including inside quotes ("X wrote" must become "Player-0042 wrote"); run `a.scrub(text)` over every quote before writing it. Staff aliases are "Staff-NN" so authority stays visible. Post URLs are allowed as citations.
+- Keep real examples with context: quote the actual wording (scrubbed), the forum, the date and the era; the bots need patterns, phrasing and tone, not summaries alone. Prefer many short real examples over long commentary.
+- Where a pattern is common, give frequency evidence (counts from a Python pass over `structured/forum/posts/*.jsonl`), not adjectives.
+- Every file ends with a "Patterns for bots" section: concrete, reusable rules or templates a bot could follow (with placeholders), and a "What not to do" list drawn from complaints.
+- Machine-readable twins: for each Markdown file write `behavior/<name>.jsonl` with one example per line: `{example (scrubbed text), pattern, category, context, forum, date, era, url, author_alias, authority}`.
+
+## Working rules for every synthesis agent
+- Read `synthesis/CONVENTIONS.md` first. Never fetch from the network; never run git.
+- Work in steps: (1) survey sources and write a short plan to your scratch notes; (2) write each deliverable file as soon as its section is done (do not hold everything in memory until the end); (3) run `python3 scrape/validate.py <paths you wrote>` and fix every UNRESOLVED citation and parse failure before finishing; (4) report the validator's final line verbatim.
+- Citations must be exact post URLs copied from the extracted files (`<!-- url: ... -->` comments) or `structured/forum/posts/*.jsonl` `url` fields. Do not construct URLs from memory.
+- Never invent. If a fact is not in the sources, write "not found in sources" and list it in the gaps section.
+- Distinguish official (staff) from player and community-wiki claims in every sentence where it matters.
+- Keep files under ~60 KB each; split large topics into several files and link them from a README/index.
+- If the extraction is being regenerated while you read (a file vanishes), wait a minute and re-read; do not proceed with a missing source.
