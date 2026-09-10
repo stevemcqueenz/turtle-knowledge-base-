@@ -1,0 +1,3 @@
+# talent-links.jsonl
+
+Every `talents.turtlecraft.gg/<class>/<code>` build link found in forum posts, with the post, author, authority, date and the 160 characters of text preceding the link (usually the build's name or purpose). The calculator site was already offline (Cloudflare 525) during the crawl, so the codes are not decoded here. The code has three dash-separated segments, one per talent tree, each character encoding talent ranks in tree order; decode against the 1.18.1 Talent.dbc tree order once the alphabet is confirmed (the classic pairwise alphabet used by wowhead-style calculators is the first thing to try). Regenerate with the snippet in the session log or by re-running the link scan over `structured/forum/posts/*.jsonl`.
