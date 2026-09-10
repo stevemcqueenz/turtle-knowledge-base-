@@ -19,7 +19,7 @@ Purpose: (1) a reference for a local Turtle WoW 1.18.1 server (tortoise-wow core
 ## Conventions
 
 - Every claim in `synthesis/`, `structured/` and `behavior/` cites a post URL (`viewtopic.php?p=<id>#p<id>`), a site page or a wiki page. `python3 scrape/validate.py` checks that every cited post exists in the archive and that all data files parse.
-- Authority: **staff** = rank "Turtle WoW Team" (12 accounts; green username), otherwise **player**; guide writers are called out where relevant. Staff statements about intended behavior outrank player claims.
+- Authority: **staff** = rank "Turtle WoW Team" (21 accounts; green username), otherwise **player**; guide writers are called out where relevant. Staff statements about intended behavior outrank player claims.
 - Time: all dates UTC. Eras: pre-1.18.1 (before 2025-10-03), 1.18.1-announced-pre-release (2025-10-03 to 2026-03-19), post-1.18.1 (from 2026-03-20). See `structured/forum/timeline.json`.
 - Agreement: consensus / single source / contested, marked per recommendation.
 - Nothing is invented: gaps are listed as gaps. In-game IDs appear only where a source states them (the wiki gives quest IDs for 182 quests; the forum almost never gives IDs; the item/spell database subdomain was already offline).
