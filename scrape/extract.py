@@ -9,8 +9,9 @@ Writes extracted/forum/<forum-slug>/t<topic>.md         one file per topic, all 
        structured/external-links.jsonl                  every off-site link found in posts
 
 Usage: python3 scrape/extract.py [--forum 63] [--topic 22214] [--partial]
-Always a full deterministic rebuild of the outputs from raw/. Only topics whose raw pages
-are all fetched (per the manifest) are extracted unless --partial.
+Incremental by default (topics already in structured/forum/topics.jsonl are skipped; outputs are
+appended, never deleted, so readers are never disturbed). --rebuild wipes and regenerates everything.
+Only topics whose raw pages are all fetched (per the manifest) are extracted unless --partial.
 """
 import argparse
 import gzip
@@ -331,6 +332,7 @@ def main():
     ap.add_argument("--forum", type=int, action="append")
     ap.add_argument("--topic", type=int, action="append")
     ap.add_argument("--partial", action="store_true", help="extract topics even if some pages are missing")
+    ap.add_argument("--rebuild", action="store_true", help="wipe outputs and rebuild everything from raw/")
     a = ap.parse_args()
     idx = {r["forum_id"]: r for r in json.load(open(FORUM_INDEX))}
     timeline = json.load(open(TIMELINE)) if os.path.exists(TIMELINE) else {}
@@ -347,22 +349,35 @@ def main():
         topics[(r["forum"], r["t"])][r["page"]] = r
     import shutil
     authors_path = os.path.join(STRUCT, "forum", "authors.json")
-    authors = {}
     posts_dir = os.path.join(STRUCT, "forum", "posts")
-    shutil.rmtree(posts_dir, ignore_errors=True)
-    os.makedirs(posts_dir, exist_ok=True)
-    shutil.rmtree(EXTRACTED, ignore_errors=True)
     topics_out = os.path.join(STRUCT, "forum", "topics.jsonl")
-    existing_topics = {}
     links_out = os.path.join(STRUCT, "external-links.jsonl")
+    if a.rebuild:
+        shutil.rmtree(posts_dir, ignore_errors=True)
+        shutil.rmtree(EXTRACTED, ignore_errors=True)
+        for pth in (topics_out, links_out, authors_path):
+            if os.path.exists(pth):
+                os.remove(pth)
+    os.makedirs(posts_dir, exist_ok=True)
+    authors = json.load(open(authors_path)) if os.path.exists(authors_path) else {}
+    existing_topics = {}
+    if os.path.exists(topics_out):
+        for line in open(topics_out):
+            if line.strip():
+                r = json.loads(line)
+                existing_topics[r["topic_id"]] = r
     existing_links = set()
-    for pth in (topics_out, links_out):
-        if os.path.exists(pth):
-            os.remove(pth)
+    if os.path.exists(links_out):
+        for line in open(links_out):
+            if line.strip():
+                r = json.loads(line)
+                existing_links.add((r["url"], r["post_id"]))
     n_topics = n_posts = 0
     posts_fh = {}
     lf = open(links_out, "a")
     for (f, t), pages in sorted(topics.items()):
+        if t in existing_topics:
+            continue
         expected = max(r.get("pages", 1) for r in pages.values())
         have = [p for p, r in pages.items() if r["status"] == "done" and os.path.exists(os.path.join(ROOT, r["path"]))]
         if len(have) < expected and not a.partial:
