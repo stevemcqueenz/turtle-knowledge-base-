@@ -891,6 +891,16 @@
   "topics_started": 0,
   "user_id": 435404
  },
+ "Afraido23": {
+  "authority": "player",
+  "colors": [],
+  "first_seen": "2026-03-10T00:11:00Z",
+  "last_seen": "2026-03-10T00:34:00Z",
+  "posts": 2,
+  "ranks": [],
+  "topics_started": 0,
+  "user_id": 252465
+ },
  "Afreeta": {
   "authority": "player",
   "colors": [],
@@ -925,8 +935,8 @@
   "authority": "player",
   "colors": [],
   "first_seen": "2025-12-31T15:46:00Z",
-  "last_seen": "2025-12-31T15:46:00Z",
-  "posts": 1,
+  "last_seen": "2026-03-20T14:37:00Z",
+  "posts": 2,
   "ranks": [],
   "topics_started": 0,
   "user_id": 940277
@@ -955,8 +965,8 @@
   "authority": "player",
   "colors": [],
   "first_seen": "2026-03-20T10:13:00Z",
-  "last_seen": "2026-03-20T13:58:00Z",
-  "posts": 4,
+  "last_seen": "2026-03-28T14:51:00Z",
+  "posts": 9,
   "ranks": [],
   "topics_started": 0,
   "user_id": 586991
@@ -3161,10 +3171,10 @@
   "authority": "player",
   "colors": [],
   "first_seen": "2024-10-22T00:01:00Z",
-  "last_seen": "2024-10-22T00:01:00Z",
-  "posts": 1,
+  "last_seen": "2026-02-22T18:18:00Z",
+  "posts": 5,
   "ranks": [],
-  "topics_started": 0,
+  "topics_started": 1,
   "user_id": 73186
  },
  "Astrallizard": {
@@ -3216,7 +3226,7 @@
   "colors": [],
   "first_seen": "2023-11-03T20:26:00Z",
   "last_seen": "2026-04-18T18:08:00Z",
-  "posts": 232,
+  "posts": 240,
   "ranks": [
    "Grandmaster of Forum PvP"
   ],
@@ -3257,8 +3267,8 @@
   "authority": "player",
   "colors": [],
   "first_seen": "2023-12-15T07:29:00Z",
-  "last_seen": "2026-03-27T11:19:00Z",
-  "posts": 299,
+  "last_seen": "2026-04-04T16:52:00Z",
+  "posts": 309,
   "ranks": [
    "Grandmaster of Forum PvP"
   ],
@@ -3900,13 +3910,13 @@
  "Baek": {
   "authority": "player",
   "colors": [],
-  "first_seen": "2024-12-27T05:41:00Z",
-  "last_seen": "2026-03-28T05:45:00Z",
-  "posts": 37,
+  "first_seen": "2024-11-26T11:50:00Z",
+  "last_seen": "2026-04-03T02:56:00Z",
+  "posts": 101,
   "ranks": [
    "Patch Note Conspiracy Theorist"
   ],
-  "topics_started": 0,
+  "topics_started": 2,
   "user_id": 146095
  },
  "Baess": {
@@ -4280,7 +4290,7 @@
   "colors": [],
   "first_seen": "2026-04-14T21:51:00Z",
   "last_seen": "2026-04-18T16:27:00Z",
-  "posts": 2,
+  "posts": 3,
   "ranks": [],
   "topics_started": 0,
   "user_id": 1219120
@@ -4832,7 +4842,7 @@
   "colors": [],
   "first_seen": "2023-03-21T16:07:00Z",
   "last_seen": "2026-04-18T18:45:00Z",
-  "posts": 341,
+  "posts": 342,
   "ranks": [
    "Grandmaster of Forum PvP"
   ],
@@ -4956,7 +4966,7 @@
   "colors": [],
   "first_seen": "2024-01-30T23:11:00Z",
   "last_seen": "2025-07-27T22:15:00Z",
-  "posts": 49,
+  "posts": 50,
   "ranks": [
    "Barrens Chat Casualty"
   ],
@@ -5500,7 +5510,7 @@
   "colors": [],
   "first_seen": "2023-12-20T07:56:00Z",
   "last_seen": "2026-03-20T14:16:00Z",
-  "posts": 7,
+  "posts": 8,
   "ranks": [],
   "topics_started": 0,
   "user_id": 117507
@@ -6432,7 +6442,7 @@
   "colors": [],
   "first_seen": "2023-07-01T11:34:00Z",
   "last_seen": "2026-03-20T07:53:00Z",
-  "posts": 103,
+  "posts": 110,
   "ranks": [
    "Patch Note Conspiracy Theorist"
   ],
@@ -7433,10 +7443,10 @@
   "authority": "player",
   "colors": [],
   "first_seen": "2025-04-24T11:51:00Z",
-  "last_seen": "2025-08-11T13:10:00Z",
-  "posts": 3,
+  "last_seen": "2026-04-12T12:27:00Z",
+  "posts": 8,
   "ranks": [],
-  "topics_started": 1,
+  "topics_started": 3,
   "user_id": 183655
  },
  "Cirrostratus": {
@@ -8523,6 +8533,16 @@
   "topics_started": 0,
   "user_id": 12740
  },
+ "Czaro92": {
+  "authority": "player",
+  "colors": [],
+  "first_seen": "2026-03-26T14:26:00Z",
+  "last_seen": "2026-03-26T14:26:00Z",
+  "posts": 1,
+  "ranks": [],
+  "topics_started": 0,
+  "user_id": 129499
+ },
  "Czasku": {
   "authority": "player",
   "colors": [],
@@ -8998,7 +9018,7 @@
   "colors": [],
   "first_seen": "2024-10-25T17:08:00Z",
   "last_seen": "2026-05-08T01:21:00Z",
-  "posts": 16,
+  "posts": 18,
   "ranks": [],
   "topics_started": 1,
   "user_id": 737578
@@ -10992,7 +11012,7 @@
   "colors": [],
   "first_seen": "2022-08-12T15:47:00Z",
   "last_seen": "2026-04-30T18:39:00Z",
-  "posts": 277,
+  "posts": 279,
   "ranks": [
    "Grandmaster of Forum PvP"
   ],
@@ -11798,6 +11818,16 @@
   "ranks": [],
   "topics_started": 0,
   "user_id": 97176
+ },
+ "Elfje": {
+  "authority": "player",
+  "colors": [],
+  "first_seen": "2026-03-20T14:42:00Z",
+  "last_seen": "2026-03-20T17:16:00Z",
+  "posts": 3,
+  "ranks": [],
+  "topics_started": 0,
+  "user_id": 200268
  },
  "Elfmannen": {
   "authority": "player",
@@ -12627,8 +12657,8 @@
   "authority": "player",
   "colors": [],
   "first_seen": "2024-04-03T12:59:00Z",
-  "last_seen": "2025-05-13T22:55:00Z",
-  "posts": 6,
+  "last_seen": "2025-06-08T17:16:00Z",
+  "posts": 7,
   "ranks": [
    "Barrens Chat Casualty"
   ],
@@ -14050,7 +14080,7 @@
   "colors": [],
   "first_seen": "2024-11-09T14:36:00Z",
   "last_seen": "2026-04-24T16:23:00Z",
-  "posts": 64,
+  "posts": 68,
   "ranks": [
    "Patch Note Conspiracy Theorist"
   ],
@@ -14185,8 +14215,8 @@
   "authority": "player",
   "colors": [],
   "first_seen": "2024-04-09T01:34:00Z",
-  "last_seen": "2026-03-25T22:00:00Z",
-  "posts": 8,
+  "last_seen": "2026-04-13T06:49:00Z",
+  "posts": 9,
   "ranks": [
    "Barrens Chat Casualty"
   ],
@@ -14435,6 +14465,16 @@
   "topics_started": 0,
   "user_id": 163571
  },
+ "Gaap6969": {
+  "authority": "player",
+  "colors": [],
+  "first_seen": "2023-12-28T17:49:00Z",
+  "last_seen": "2023-12-28T17:49:00Z",
+  "posts": 1,
+  "ranks": [],
+  "topics_started": 1,
+  "user_id": 480119
+ },
  "Gadgeth": {
   "authority": "player",
   "colors": [],
@@ -14604,7 +14644,7 @@
   "colors": [],
   "first_seen": "2022-08-12T04:31:00Z",
   "last_seen": "2025-08-10T14:18:00Z",
-  "posts": 161,
+  "posts": 164,
   "ranks": [
    "Grandmaster of Forum PvP"
   ],
@@ -14737,8 +14777,8 @@
   "authority": "player",
   "colors": [],
   "first_seen": "2023-12-20T01:13:00Z",
-  "last_seen": "2023-12-20T01:13:00Z",
-  "posts": 1,
+  "last_seen": "2026-03-07T07:56:00Z",
+  "posts": 3,
   "ranks": [],
   "topics_started": 0,
   "user_id": 61622
@@ -15580,9 +15620,9 @@
  "Gorlocktheglock": {
   "authority": "player",
   "colors": [],
-  "first_seen": "2026-03-25T01:41:00Z",
+  "first_seen": "2026-03-20T17:53:00Z",
   "last_seen": "2026-03-28T17:51:00Z",
-  "posts": 3,
+  "posts": 5,
   "ranks": [],
   "topics_started": 0,
   "user_id": 1180907
@@ -16038,7 +16078,7 @@
   "colors": [],
   "first_seen": "2023-06-26T07:02:00Z",
   "last_seen": "2026-04-20T23:21:00Z",
-  "posts": 210,
+  "posts": 211,
   "ranks": [
    "Grandmaster of Forum PvP"
   ],
@@ -16302,7 +16342,7 @@
   "colors": [],
   "first_seen": "2024-01-31T10:38:00Z",
   "last_seen": "2024-12-09T04:38:00Z",
-  "posts": 4,
+  "posts": 5,
   "ranks": [],
   "topics_started": 0,
   "user_id": 372876
@@ -16405,8 +16445,8 @@
   "authority": "player",
   "colors": [],
   "first_seen": "2023-02-22T05:42:00Z",
-  "last_seen": "2025-08-16T11:27:00Z",
-  "posts": 76,
+  "last_seen": "2026-04-16T04:05:00Z",
+  "posts": 77,
   "ranks": [
    "Barrens Chat Casualty"
   ],
@@ -16896,7 +16936,7 @@
   "colors": [],
   "first_seen": "2023-07-12T06:05:00Z",
   "last_seen": "2026-03-21T07:55:00Z",
-  "posts": 63,
+  "posts": 64,
   "ranks": [
    "Bug Report Enthusiast"
   ],
@@ -17122,9 +17162,9 @@
  "Hemphiz": {
   "authority": "player",
   "colors": [],
-  "first_seen": "2026-03-20T14:38:00Z",
+  "first_seen": "2026-03-20T14:34:00Z",
   "last_seen": "2026-04-19T14:56:00Z",
-  "posts": 2,
+  "posts": 3,
   "ranks": [],
   "topics_started": 0,
   "user_id": 967133
@@ -17647,8 +17687,8 @@
   "authority": "player",
   "colors": [],
   "first_seen": "2026-02-15T14:30:00Z",
-  "last_seen": "2026-02-15T15:11:00Z",
-  "posts": 2,
+  "last_seen": "2026-02-16T18:15:00Z",
+  "posts": 4,
   "ranks": [],
   "topics_started": 0,
   "user_id": 1163361
@@ -17927,8 +17967,8 @@
   "authority": "player",
   "colors": [],
   "first_seen": "2023-09-11T19:47:00Z",
-  "last_seen": "2025-10-01T18:29:00Z",
-  "posts": 16,
+  "last_seen": "2026-04-02T21:54:00Z",
+  "posts": 17,
   "ranks": [
    "Barrens Chat Casualty"
   ],
@@ -18041,8 +18081,8 @@
   "authority": "player",
   "colors": [],
   "first_seen": "2023-05-17T10:16:00Z",
-  "last_seen": "2025-10-17T17:55:00Z",
-  "posts": 6,
+  "last_seen": "2026-03-25T14:04:00Z",
+  "posts": 9,
   "ranks": [
    "Barrens Chat Casualty"
   ],
@@ -18240,7 +18280,7 @@
   "colors": [],
   "first_seen": "2023-09-15T16:18:00Z",
   "last_seen": "2026-04-21T18:48:00Z",
-  "posts": 12,
+  "posts": 14,
   "ranks": [
    "Barrens Chat Casualty"
   ],
@@ -19527,8 +19567,8 @@
   "authority": "player",
   "colors": [],
   "first_seen": "2025-07-26T12:22:00Z",
-  "last_seen": "2025-09-20T08:38:00Z",
-  "posts": 15,
+  "last_seen": "2026-03-20T06:51:00Z",
+  "posts": 16,
   "ranks": [
    "Barrens Chat Casualty"
   ],
@@ -20184,9 +20224,9 @@
   "colors": [],
   "first_seen": "2023-12-09T19:48:00Z",
   "last_seen": "2025-10-26T16:37:00Z",
-  "posts": 4,
+  "posts": 10,
   "ranks": [],
-  "topics_started": 1,
+  "topics_started": 2,
   "user_id": 60525
  },
  "Justaperson": {
@@ -20242,9 +20282,9 @@
  "Juzam": {
   "authority": "player",
   "colors": [],
-  "first_seen": "2024-10-31T11:26:00Z",
+  "first_seen": "2023-12-31T02:56:00Z",
   "last_seen": "2024-10-31T11:26:00Z",
-  "posts": 1,
+  "posts": 3,
   "ranks": [],
   "topics_started": 0,
   "user_id": 613404
@@ -20546,6 +20586,16 @@
   "ranks": [],
   "topics_started": 1,
   "user_id": 666297
+ },
+ "Karakama": {
+  "authority": "player",
+  "colors": [],
+  "first_seen": "2026-03-25T01:08:00Z",
+  "last_seen": "2026-03-25T15:48:00Z",
+  "posts": 3,
+  "ranks": [],
+  "topics_started": 1,
+  "user_id": 120011
  },
  "Karfunkel": {
   "authority": "player",
@@ -20889,8 +20939,8 @@
   "authority": "player",
   "colors": [],
   "first_seen": "2025-11-03T20:46:00Z",
-  "last_seen": "2025-11-03T20:46:00Z",
-  "posts": 1,
+  "last_seen": "2026-04-06T18:15:00Z",
+  "posts": 2,
   "ranks": [],
   "topics_started": 0,
   "user_id": 649027
@@ -21020,7 +21070,7 @@
   "colors": [],
   "first_seen": "2022-08-10T00:32:00Z",
   "last_seen": "2026-04-20T11:11:00Z",
-  "posts": 85,
+  "posts": 90,
   "ranks": [
    "Patch Note Conspiracy Theorist"
   ],
@@ -22231,8 +22281,8 @@
   "authority": "player",
   "colors": [],
   "first_seen": "2023-12-13T01:26:00Z",
-  "last_seen": "2023-12-15T04:39:00Z",
-  "posts": 2,
+  "last_seen": "2024-11-10T17:51:00Z",
+  "posts": 3,
   "ranks": [],
   "topics_started": 0,
   "user_id": 615157
@@ -22762,11 +22812,11 @@
   "colors": [],
   "first_seen": "2025-12-10T05:50:00Z",
   "last_seen": "2026-04-18T16:13:00Z",
-  "posts": 20,
+  "posts": 32,
   "ranks": [
    "Barrens Chat Casualty"
   ],
-  "topics_started": 0,
+  "topics_started": 1,
   "user_id": 886966
  },
  "Lanfear618": {
@@ -22894,9 +22944,9 @@
   "colors": [],
   "first_seen": "2025-08-02T15:28:00Z",
   "last_seen": "2026-01-23T21:10:00Z",
-  "posts": 3,
+  "posts": 4,
   "ranks": [],
-  "topics_started": 0,
+  "topics_started": 1,
   "user_id": 73258
  },
  "Larrycowson": {
@@ -25732,7 +25782,7 @@
   "colors": [],
   "first_seen": "2026-01-25T08:39:00Z",
   "last_seen": "2026-04-28T14:41:00Z",
-  "posts": 43,
+  "posts": 47,
   "ranks": [
    "Barrens Chat Casualty"
   ],
@@ -26199,6 +26249,16 @@
   "topics_started": 0,
   "user_id": 130051
  },
+ "Metasploit": {
+  "authority": "player",
+  "colors": [],
+  "first_seen": "2026-02-27T19:09:00Z",
+  "last_seen": "2026-03-09T12:52:00Z",
+  "posts": 8,
+  "ranks": [],
+  "topics_started": 1,
+  "user_id": 147969
+ },
  "Metavahn": {
   "authority": "player",
   "colors": [],
@@ -26642,6 +26702,16 @@
   "ranks": [],
   "topics_started": 0,
   "user_id": 57569
+ },
+ "Moaningbyrtle1": {
+  "authority": "player",
+  "colors": [],
+  "first_seen": "2026-03-31T00:12:00Z",
+  "last_seen": "2026-03-31T00:12:00Z",
+  "posts": 1,
+  "ranks": [],
+  "topics_started": 1,
+  "user_id": 871548
  },
  "Mobbey": {
   "authority": "player",
@@ -29102,9 +29172,9 @@
   "colors": [],
   "first_seen": "2024-11-21T20:28:00Z",
   "last_seen": "2026-03-26T22:22:00Z",
-  "posts": 17,
+  "posts": 18,
   "ranks": [],
-  "topics_started": 7,
+  "topics_started": 8,
   "user_id": 750596
  },
  "Nurincarinun": {
@@ -30982,13 +31052,13 @@
  "Plagues2": {
   "authority": "player",
   "colors": [],
-  "first_seen": "2026-03-16T17:49:00Z",
-  "last_seen": "2026-03-24T18:29:00Z",
-  "posts": 6,
+  "first_seen": "2026-03-15T19:50:00Z",
+  "last_seen": "2026-03-24T18:30:00Z",
+  "posts": 17,
   "ranks": [
    "Barrens Chat Casualty"
   ],
-  "topics_started": 0,
+  "topics_started": 3,
   "user_id": 1190966
  },
  "Plainbear": {
@@ -31822,7 +31892,7 @@
   "colors": [],
   "first_seen": "2025-02-09T21:28:00Z",
   "last_seen": "2026-04-07T20:55:00Z",
-  "posts": 12,
+  "posts": 13,
   "ranks": [
    "Barrens Chat Casualty"
   ],
@@ -34768,9 +34838,9 @@
  "Sbingo": {
   "authority": "player",
   "colors": [],
-  "first_seen": "2026-03-23T20:49:00Z",
-  "last_seen": "2026-03-31T17:41:00Z",
-  "posts": 2,
+  "first_seen": "2026-03-09T19:51:00Z",
+  "last_seen": "2026-04-02T20:11:00Z",
+  "posts": 5,
   "ranks": [],
   "topics_started": 0,
   "user_id": 1186454
@@ -36632,11 +36702,11 @@
   "colors": [],
   "first_seen": "2025-07-25T06:17:00Z",
   "last_seen": "2026-04-18T16:35:00Z",
-  "posts": 5,
+  "posts": 14,
   "ranks": [
    "Barrens Chat Casualty"
   ],
-  "topics_started": 0,
+  "topics_started": 1,
   "user_id": 827669
  },
  "Skyfont": {
@@ -36736,7 +36806,7 @@
   "colors": [],
   "first_seen": "2023-07-16T09:20:00Z",
   "last_seen": "2026-04-25T01:27:00Z",
-  "posts": 28,
+  "posts": 29,
   "ranks": [
    "Patch Note Conspiracy Theorist"
   ],
@@ -37072,7 +37142,7 @@
   "colors": [],
   "first_seen": "2022-12-19T17:18:00Z",
   "last_seen": "2026-04-24T17:01:00Z",
-  "posts": 71,
+  "posts": 72,
   "ranks": [
    "Patch Note Conspiracy Theorist"
   ],
@@ -37223,10 +37293,10 @@
   "authority": "player",
   "colors": [],
   "first_seen": "2025-10-03T10:38:00Z",
-  "last_seen": "2026-01-23T20:02:00Z",
-  "posts": 9,
+  "last_seen": "2026-03-20T23:04:00Z",
+  "posts": 12,
   "ranks": [],
-  "topics_started": 0,
+  "topics_started": 2,
   "user_id": 671928
  },
  "Solwitar123": {
@@ -37268,6 +37338,16 @@
   "ranks": [],
   "topics_started": 0,
   "user_id": 757717
+ },
+ "Somersby": {
+  "authority": "player",
+  "colors": [],
+  "first_seen": "2026-01-21T13:01:00Z",
+  "last_seen": "2026-01-21T13:01:00Z",
+  "posts": 1,
+  "ranks": [],
+  "topics_started": 0,
+  "user_id": 88110
  },
  "Somni": {
   "authority": "player",
@@ -37382,11 +37462,11 @@
  "Soulforged23": {
   "authority": "player",
   "colors": [],
-  "first_seen": "2026-02-15T20:07:00Z",
+  "first_seen": "2026-01-19T11:23:00Z",
   "last_seen": "2026-02-15T20:07:00Z",
-  "posts": 1,
+  "posts": 4,
   "ranks": [],
-  "topics_started": 0,
+  "topics_started": 1,
   "user_id": 181723
  },
  "Soulitics": {
@@ -37403,8 +37483,8 @@
   "authority": "player",
   "colors": [],
   "first_seen": "2026-01-21T00:22:00Z",
-  "last_seen": "2026-01-21T00:22:00Z",
-  "posts": 1,
+  "last_seen": "2026-03-19T17:54:00Z",
+  "posts": 2,
   "ranks": [],
   "topics_started": 0,
   "user_id": 756741
@@ -37555,8 +37635,8 @@
   "authority": "player",
   "colors": [],
   "first_seen": "2023-08-10T01:08:00Z",
-  "last_seen": "2025-02-05T00:48:00Z",
-  "posts": 13,
+  "last_seen": "2026-03-12T08:20:00Z",
+  "posts": 14,
   "ranks": [
    "Barrens Chat Casualty"
   ],
@@ -37632,7 +37712,7 @@
   "colors": [],
   "first_seen": "2023-08-22T21:24:00Z",
   "last_seen": "2026-03-21T13:53:00Z",
-  "posts": 101,
+  "posts": 107,
   "ranks": [
    "Bug Report Enthusiast"
   ],
@@ -37658,6 +37738,16 @@
   "ranks": [],
   "topics_started": 0,
   "user_id": 42213
+ },
+ "Sqant": {
+  "authority": "player",
+  "colors": [],
+  "first_seen": "2026-03-24T17:42:00Z",
+  "last_seen": "2026-03-27T16:34:00Z",
+  "posts": 3,
+  "ranks": [],
+  "topics_started": 1,
+  "user_id": 262306
  },
  "Squibbledft": {
   "authority": "player",
@@ -37978,6 +38068,16 @@
   "ranks": [],
   "topics_started": 0,
   "user_id": 157543
+ },
+ "Stian": {
+  "authority": "player",
+  "colors": [],
+  "first_seen": "2025-09-21T20:42:00Z",
+  "last_seen": "2025-09-21T20:42:00Z",
+  "posts": 1,
+  "ranks": [],
+  "topics_started": 1,
+  "user_id": 154292
  },
  "Stich626": {
   "authority": "player",
@@ -38600,11 +38700,11 @@
   "colors": [],
   "first_seen": "2025-05-14T09:29:00Z",
   "last_seen": "2026-05-11T11:24:00Z",
-  "posts": 48,
+  "posts": 68,
   "ranks": [
    "Bug Report Enthusiast"
   ],
-  "topics_started": 1,
+  "topics_started": 3,
   "user_id": 753205
  },
  "Svercalirin": {
@@ -38712,7 +38812,7 @@
   "colors": [],
   "first_seen": "2025-12-31T13:21:00Z",
   "last_seen": "2026-02-13T17:25:00Z",
-  "posts": 14,
+  "posts": 15,
   "ranks": [],
   "topics_started": 3,
   "user_id": 1085910
@@ -38743,12 +38843,12 @@
   "authority": "player",
   "colors": [],
   "first_seen": "2025-10-30T14:02:00Z",
-  "last_seen": "2026-03-20T15:16:00Z",
-  "posts": 4,
+  "last_seen": "2026-04-06T23:14:00Z",
+  "posts": 7,
   "ranks": [
    "Barrens Chat Casualty"
   ],
-  "topics_started": 2,
+  "topics_started": 4,
   "user_id": 1051451
  },
  "Sympathos": {
@@ -39550,7 +39650,7 @@
   "colors": [],
   "first_seen": "2025-03-31T18:12:00Z",
   "last_seen": "2026-04-18T17:49:00Z",
-  "posts": 38,
+  "posts": 40,
   "ranks": [
    "Patch Note Conspiracy Theorist"
   ],
@@ -39596,6 +39696,16 @@
   "ranks": [],
   "topics_started": 1,
   "user_id": 80944
+ },
+ "Tesswow": {
+  "authority": "player",
+  "colors": [],
+  "first_seen": "2026-04-17T11:49:00Z",
+  "last_seen": "2026-04-17T13:53:00Z",
+  "posts": 2,
+  "ranks": [],
+  "topics_started": 1,
+  "user_id": 1219314
  },
  "Testaccount995": {
   "authority": "player",
@@ -40338,7 +40448,7 @@
   "colors": [],
   "first_seen": "2023-07-21T22:36:00Z",
   "last_seen": "2026-03-21T22:27:00Z",
-  "posts": 19,
+  "posts": 20,
   "ranks": [
    "Barrens Chat Casualty"
   ],
@@ -40802,7 +40912,7 @@
   "colors": [],
   "first_seen": "2025-07-25T19:54:00Z",
   "last_seen": "2026-04-18T17:42:00Z",
-  "posts": 3,
+  "posts": 10,
   "ranks": [],
   "topics_started": 0,
   "user_id": 768989
@@ -40968,9 +41078,9 @@
  "Tortusenjoyer": {
   "authority": "player",
   "colors": [],
-  "first_seen": "2026-03-07T22:45:00Z",
+  "first_seen": "2026-02-28T05:50:00Z",
   "last_seen": "2026-04-18T15:49:00Z",
-  "posts": 2,
+  "posts": 16,
   "ranks": [],
   "topics_started": 0,
   "user_id": 1060876
@@ -41183,6 +41293,16 @@
   "topics_started": 0,
   "user_id": 610474
  },
+ "Trickyrick": {
+  "authority": "player",
+  "colors": [],
+  "first_seen": "2026-02-23T22:40:00Z",
+  "last_seen": "2026-02-23T22:40:00Z",
+  "posts": 1,
+  "ranks": [],
+  "topics_started": 1,
+  "user_id": 1142699
+ },
  "Tridomking": {
   "authority": "player",
   "colors": [],
@@ -41272,6 +41392,16 @@
   "ranks": [],
   "topics_started": 0,
   "user_id": 1142868
+ },
+ "Trollrayzac": {
+  "authority": "player",
+  "colors": [],
+  "first_seen": "2025-02-27T14:49:00Z",
+  "last_seen": "2025-02-27T14:49:00Z",
+  "posts": 1,
+  "ranks": [],
+  "topics_started": 0,
+  "user_id": 215798
  },
  "Troubles": {
   "authority": "player",
@@ -41509,8 +41639,8 @@
   "authority": "player",
   "colors": [],
   "first_seen": "2023-09-13T17:59:00Z",
-  "last_seen": "2026-03-20T23:01:00Z",
-  "posts": 84,
+  "last_seen": "2026-03-20T23:09:00Z",
+  "posts": 85,
   "ranks": [
    "Patch Note Conspiracy Theorist"
   ],
@@ -41522,7 +41652,7 @@
   "colors": [],
   "first_seen": "2024-10-02T04:31:00Z",
   "last_seen": "2025-04-02T21:59:00Z",
-  "posts": 35,
+  "posts": 36,
   "ranks": [
    "Patch Note Conspiracy Theorist"
   ],
@@ -43378,7 +43508,7 @@
   "colors": [],
   "first_seen": "2023-06-07T03:08:00Z",
   "last_seen": "2025-08-01T18:01:00Z",
-  "posts": 49,
+  "posts": 52,
   "ranks": [
    "Patch Note Conspiracy Theorist"
   ],
@@ -43439,10 +43569,10 @@
   "authority": "player",
   "colors": [],
   "first_seen": "2025-08-08T13:43:00Z",
-  "last_seen": "2026-01-23T20:35:00Z",
-  "posts": 2,
+  "last_seen": "2026-03-15T17:55:00Z",
+  "posts": 6,
   "ranks": [],
-  "topics_started": 0,
+  "topics_started": 1,
   "user_id": 130632
  },
  "Vrerk": {
@@ -44088,7 +44218,7 @@
   "colors": [],
   "first_seen": "2023-07-26T12:35:00Z",
   "last_seen": "2026-03-11T20:41:00Z",
-  "posts": 78,
+  "posts": 79,
   "ranks": [
    "Patch Note Conspiracy Theorist"
   ],
@@ -44996,7 +45126,7 @@
   "colors": [],
   "first_seen": "2022-09-17T20:59:00Z",
   "last_seen": "2026-04-15T12:36:00Z",
-  "posts": 474,
+  "posts": 476,
   "ranks": [
    "Grandmaster of Forum PvP"
   ],
@@ -45835,10 +45965,10 @@
   "authority": "player",
   "colors": [],
   "first_seen": "2023-04-26T15:23:00Z",
-  "last_seen": "2024-11-02T12:30:00Z",
-  "posts": 4,
+  "last_seen": "2026-03-21T09:19:00Z",
+  "posts": 5,
   "ranks": [],
-  "topics_started": 1,
+  "topics_started": 2,
   "user_id": 91881
  },
  "Zengash": {
@@ -46217,10 +46347,10 @@
   "authority": "player",
   "colors": [],
   "first_seen": "2025-07-26T10:35:00Z",
-  "last_seen": "2025-07-26T10:35:00Z",
-  "posts": 1,
+  "last_seen": "2026-04-04T15:43:00Z",
+  "posts": 2,
   "ranks": [],
-  "topics_started": 0,
+  "topics_started": 1,
   "user_id": 291310
  },
  "Zogzogladin": {
@@ -46604,7 +46734,7 @@
   "colors": [],
   "first_seen": "2025-05-16T06:39:00Z",
   "last_seen": "2026-05-03T02:19:00Z",
-  "posts": 3,
+  "posts": 4,
   "ranks": [],
   "topics_started": 0,
   "user_id": 751739
@@ -46738,7 +46868,7 @@
   "colors": [],
   "first_seen": "2024-12-31T19:05:00Z",
   "last_seen": "2026-03-28T15:34:00Z",
-  "posts": 52,
+  "posts": 55,
   "ranks": [
    "Patch Note Conspiracy Theorist"
   ],
@@ -47673,8 +47803,8 @@
   "authority": "player",
   "colors": [],
   "first_seen": "2026-01-29T21:03:00Z",
-  "last_seen": "2026-01-29T21:03:00Z",
-  "posts": 1,
+  "last_seen": "2026-03-05T15:58:00Z",
+  "posts": 2,
   "ranks": [],
   "topics_started": 0,
   "user_id": 751424
@@ -48524,9 +48654,9 @@
  "somemagicc": {
   "authority": "player",
   "colors": [],
-  "first_seen": "2024-12-14T05:25:00Z",
+  "first_seen": "2024-12-05T23:24:00Z",
   "last_seen": "2025-09-04T18:19:00Z",
-  "posts": 17,
+  "posts": 21,
   "ranks": [
    "Barrens Chat Casualty"
   ],
