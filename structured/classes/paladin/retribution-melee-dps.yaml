@@ -1,0 +1,123 @@
+class: Paladin
+spec: Retribution
+role: melee-dps
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=169915#p169915", author: Scootiesana, authority: player, date: "2026-03-03"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=169921#p169921", author: Snadileoboy, authority: player, date: "2026-03-03"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=169927#p169927", author: Kerenis, authority: player, date: "2026-03-03"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=169165#p169165", author: Ellifta, authority: player, date: "2026-02-22"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=169188#p169188", author: Kord2998, authority: player, date: "2026-02-22"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=122631#p122631", author: excin, authority: player, date: "2025-03-15"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=122789#p122789", author: Cheruscan, authority: player, date: "2025-03-17"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=138117#p138117", author: Icedcream, authority: player, date: "2025-07-04"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=138939#p138939", author: Noephix, authority: player, date: "2025-07-13"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=134690#p134690", author: Gildark, authority: player, date: "2025-06-07"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=139413#p139413", author: Elisleris, authority: player, date: "2025-07-15"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=139403#p139403", author: excin, authority: player, date: "2025-07-15"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=113215#p113215", author: Aalena, authority: player, date: "2024-12-18"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=106958#p106958", author: Eulogy, authority: player, date: "2024-11-07"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=133826#p133826", author: Bigsmerf, authority: player, date: "2025-06-01"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=160800#p160800", author: Atreidon, authority: player, date: "2025-11-26"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=164504#p164504", author: Atreidon, authority: player, date: "2026-01-06"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=150776#p150776", author: Cheruscan, authority: player, date: "2025-09-08"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=27457#p27457", author: Unchallenged, authority: "player (guide writer)", date: "2024-12-04"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=118876#p118876", author: Akalix, authority: staff, date: "2025-02-04"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102969#p102969", author: Dragunovi, authority: staff, date: "2024-10-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460", author: Jamey, authority: staff, date: "2024-12-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504", author: Torta, authority: staff, date: "2025-03-30"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: "2025-07-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+agreement: contested
+patch_validity:
+  written_for: "1.17.2 / 1.18.0 talent trees; gearing thread from 2026-03 (pre-release)"
+  valid_for_1181: unknown
+  notes: "1.18.1 buffed the AP build (Seal of Command 7 -> 9 PPM, Crusader Strike rank 5 90% -> 100% WD, Repentance tick +8% AP, Ret T3.5 Crusade 4%/20 s non-stacking) and front-loaded Consecration; T2.5 3-set became +15% JoR/JoC. No post-release DPS report."
+talents:
+  build_name: "Unchallenged 11/8/30 (+2) raid Ret; variant with Precision instead of Holy filler when hit is lacking"
+  build_link: "https://talents.turtlecraft.gg/paladin?points=FAAAAAAAAAAAAAAoYAAAAAAAAAAAAoTAFKAYdIFABAA%3D"
+  points:
+    - {tree: Retribution, talent: Benediction, rank: 5, spell_id: null}
+    - {tree: Retribution, talent: Deflection, rank: 5, spell_id: null}
+    - {tree: Retribution, talent: Pursuit of Justice, rank: 2, spell_id: null}
+    - {tree: Retribution, talent: Conviction, rank: 5, spell_id: null}
+    - {tree: Retribution, talent: Improved Retribution Aura, rank: 2, spell_id: null}
+    - {tree: Retribution, talent: Blessing of Kings, rank: 1, spell_id: null}
+    - {tree: Retribution, talent: Seal of Command, rank: 1, spell_id: null}
+    - {tree: Retribution, talent: Two-Handed Weapon Specialization, rank: 3, spell_id: null}
+    - {tree: Retribution, talent: Vengeance, rank: "1-5", spell_id: null}
+    - {tree: Retribution, talent: Vengeful Strikes, rank: 5, spell_id: null}
+    - {tree: Retribution, talent: Repentance, rank: 1, spell_id: null}
+    - {tree: Protection, talent: Redoubt, rank: 5, spell_id: null}
+    - {tree: Protection, talent: Precision, rank: 3, spell_id: null}
+    - {tree: Holy, talent: Divine Strength, rank: 5, spell_id: null}
+    - {tree: Holy, talent: Spiritual Focus, rank: 2, spell_id: null}
+    - {tree: Holy, talent: Holy Judgement, rank: 3, spell_id: null}
+    - {tree: Holy, talent: "Sanctity Aura (spell build) / Improved Judgement / Guardian's Favor (leftovers)", rank: "1-2", spell_id: null}
+  leveling_order:
+    - {level: 10, tree: Retribution, talent: Benediction}
+    - {level: 15, tree: Retribution, talent: Deflection}
+    - {level: 20, tree: Retribution, talent: Pursuit of Justice}
+    - {level: 22, tree: Retribution, talent: Conviction}
+    - {level: 25, tree: Retribution, talent: Improved Retribution Aura}
+    - {level: 29, tree: Retribution, talent: Blessing of Kings}
+    - {level: 30, tree: Retribution, talent: Seal of Command}
+    - {level: 31, tree: Retribution, talent: Two-Handed Weapon Specialization}
+    - {level: 34, tree: Retribution, talent: Vengeance}
+    - {level: 35, tree: Retribution, talent: Vengeful Strikes}
+    - {level: 40, tree: Retribution, talent: Repentance}
+    - {level: 41, tree: Protection, talent: Redoubt}
+    - {level: 46, tree: Protection, talent: Precision}
+    - {level: 49, tree: Holy, talent: Divine Strength}
+    - {level: 54, tree: Holy, talent: Spiritual Focus}
+    - {level: 56, tree: Holy, talent: Holy Judgement}
+    - {level: 59, tree: Holy, talent: "Sanctity Aura / Improved Judgement / Improved Lay on Hands / Vengeance"}
+stat_weights:
+  hit: "cap first (8-9% for 2H; weapon skill 315 for glancing)"
+  strength_attack_power: "1 (AP build)"
+  crit: "high (AP build)"
+  haste: "medium (AP build, spreadsheet claim)"
+  spell_power: "1 (spell/hybrid build with Seal of Righteousness, Consecration, Exorcism)"
+  intellect: "medium (spell build: spell crit, mana)"
+  spirit: "0"
+caps:
+  melee_hit: "8% (2H, per Bigsmerf) - 9% per Snadileoboy"
+  weapon_skill: "315 recommended"
+rotation_single:
+  - {priority: 1, action: "Blessings, Sanctity (spell) or Retribution Aura, Seal up, /startattack", condition: "pre-pull"}
+  - {priority: 2, action: "Judgement (Wisdom for sustain; Command/Righteousness when mana is full)", condition: "on arrival, then on cooldown; re-seal immediately, timed so the seal is up before the next white swing"}
+  - {priority: 3, action: "Crusader Strike", condition: "Zeal < 3 stacks, or Holy Might has > 6 s left"}
+  - {priority: 4, action: "Holy Strike", condition: "Zeal at 3 and Holy Might missing or < 6 s left (AP build); spell Ret in K40 largely skips it"}
+  - {priority: 5, action: "Exorcism", condition: "Undead/Demon target, on cooldown"}
+  - {priority: 6, action: "Hammer of Wrath", condition: "target < 20% health"}
+  - {priority: 7, action: "Repentance", condition: "boss (immune) target for the repent tick, on cooldown"}
+  - {priority: 8, action: "Consecration (max rank)", condition: "spell build only, mana sustained by Wisdom and +dmg items"}
+  - {priority: 9, action: "Cleanse / Hand of Freedom / Hand of Protection", condition: "free GCD and a raid member needs it"}
+rotation_aoe:
+  - {targets_min: 2, priority: 1, action: "stay on the Wisdom-judged target; Judgement of Righteousness/Command on the secondary if it will live", condition: "mana"}
+  - {targets_min: 2, priority: 2, action: "Holy Strike for party health/mana", condition: "trash dies before Zeal ramps"}
+  - {targets_min: 4, priority: 1, action: "Consecration (max rank; lower rank when mana is short)", condition: "4+ targets; spell build on cooldown, AP build only with spare mana"}
+aoe_threshold: 4
+cooldowns:
+  - {name: Divine Shield, use_when: "threat drop or survival; keep attacking at -60% damage"}
+  - {name: Zeal (Crusader Strike x3), use_when: "maintain; ~18 s to build, 30 s duration"}
+  - {name: Holy Might (Holy Strike), use_when: "maintain, 20 s duration, refresh under 6 s"}
+  - {name: Repentance, use_when: "on cooldown on bosses; CC on players/mobs in PvP/dungeons"}
+resource_rules:
+  - "Seal/Judgement of Wisdom is the mana engine; avoid target swapping away from the judged mob"
+  - "Seal of Command rank 1 on trash / low mana (ranks only change the judgement)"
+  - "Fiery Plate Gauntlets or other +dmg items on mana-heavy fights for extra Wisdom procs"
+  - "Mana elixirs + Brilliant Mana Oil; Tel'Abim (no Windfury/mana totems) is mana-starved"
+  - "Buff-cap: track Zeal/Holy Might by timers, not buff icons, in raids"
+consumables:
+  - "Flask of Supreme Power + spell power elixirs (spell build)"
+  - "Dragonbreath Chili"
+  - "Elemental Sharpening Stone (AP) or Shadow Oil (SP) when no Windfury totem"
+  - "enchants (guide): Voracity arcanum, Zandalar Signet of Might, Subtlety cloak, Greater Stats chest, Superior Strength bracer, Greater Strength/Superior Agility/Minor Haste gloves, Greater Agility or Minor Speed boots, 2H Agility/Strength/Crusader"
+mistakes_to_avoid:
+  - "Mixing AP gear with an SP weapon or vice versa"
+  - "Raiding under hit cap / with low weapon skill"
+  - "Target swapping off the Wisdom target and running out of mana"
+  - "Spamming Consecration as AP Ret"
+  - "Letting Holy Might / Zeal expire; buff-icon macros at the raid buff cap"
+  - "Judging right before a white swing so the seal is down for the hit"
+  - "Expecting Fiery Weapon or +dmg items to proc Seal of Command"

@@ -1,0 +1,86 @@
+class: Paladin
+spec: Holy
+role: healer
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=170300#p170300", author: Ellifta, authority: player, date: "2026-03-07"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=139090#p139090", author: Ellifta, authority: player, date: "2025-07-14"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=139025#p139025", author: Soymage, authority: player, date: "2025-07-14"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=139095#p139095", author: Atreidon, authority: player, date: "2025-07-14"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=144592#p144592", author: Atreidon, authority: player, date: "2025-08-11"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=140887#p140887", author: Azcron, authority: player, date: "2025-07-22"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=150949#p150949", author: Tankmeister, authority: player, date: "2025-09-09"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=161979#p161979", author: Beardozer, authority: player, date: "2025-12-08"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=148042#p148042", author: Elisleris, authority: player, date: "2025-08-24"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=170509#p170509", author: Elisleris, authority: player, date: "2026-03-10"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=136662#p136662", author: Elisleris, authority: player, date: "2025-06-22"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=151365#p151365", author: Crake, authority: player, date: "2025-09-11"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=27457#p27457", author: Unchallenged, authority: "player (guide writer)", date: "2024-12-04"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102969#p102969", author: Dragunovi, authority: staff, date: "2024-10-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460", author: Jamey, authority: staff, date: "2024-12-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: "2025-07-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139", author: Torta, authority: staff, date: "2026-03-24"}
+agreement: contested
+patch_validity:
+  written_for: "1.18.0 (Daybreak rework, Holy Shock damage restored) with 1.18.1 announced"
+  valid_for_1181: unknown
+  notes: "1.18.1 nerfed Daybreak (289 -> 248 base, 43% -> 32% scaling) and removed the Holy T3.5 5-set extra Holy Strike targets; 2026-03-24 hotfix fixed Mending Light triggering/scaling. Raiders say the melee style remains dominant; no post-release parse posted."
+talents:
+  build_name: "Unchallenged 31/7/13 Holy (link only) + talents the raiders call mandatory"
+  build_link: "https://talents.turtlecraft.gg/paladin?points=AoaAYSVQBAYABAFACAAAAAAAAAAAFAAoAKAAAAAAAAA%3D"
+  points:
+    - {tree: Holy, talent: Blessed Strikes, rank: 5, spell_id: null}
+    - {tree: Holy, talent: Holy Judgement, rank: 3, spell_id: null}
+    - {tree: Holy, talent: Daybreak, rank: 1, spell_id: null}
+    - {tree: Holy, talent: Ironclad, rank: 2, spell_id: null}
+    - {tree: Holy, talent: Divine Favor, rank: 5, spell_id: null}
+    - {tree: Holy, talent: Holy Shock, rank: 1, spell_id: null}
+    - {tree: Holy, talent: Spiritual Focus, rank: 2, spell_id: null}
+    - {tree: Holy, talent: Illumination, rank: 5, spell_id: null}
+    - {tree: Holy, talent: Healing Light, rank: 3, spell_id: null}
+    - {tree: Holy, talent: "Holy Power / Divine Intellect / Improved Concentration Aura (fill, unspecified)", rank: null, spell_id: null}
+    - {tree: Protection, talent: "7 points (guide, unspecified)", rank: 7, spell_id: null}
+    - {tree: Retribution, talent: "13 points incl. Improved Blessings (guide, unspecified)", rank: 13, spell_id: null}
+  leveling_order: []
+stat_weights:
+  healing_power: "1"
+  item_armor_plate: "high (Ironclad 2% of item armor as healing)"
+  spell_crit: "medium (Daybreak, Illumination, Mending Light, Holy Shock)"
+  intellect: "medium"
+  mp5_spirit: "low"
+  haste: "very low (Flash of Light on the GCD)"
+  hit: "0 (heals land on miss)"
+caps: {}
+rotation_single:
+  - {priority: 1, action: "Seal of Wisdom, Blessing of Light on tanks, Concentration Aura when meleeing", condition: "setup"}
+  - {priority: 2, action: "Judgement (Wisdom/Light) on the boss", condition: "on cooldown; makes next Holy Light 1 s faster; re-seal"}
+  - {priority: 3, action: "Holy Light", condition: "big tank damage, right after a judgement (1.5-s cast)"}
+  - {priority: 4, action: "Holy Shock", condition: "instant heal needed and available"}
+  - {priority: 5, action: "Crusader Strike", condition: "in melee and Holy Shock on cooldown (Blessed Strikes reset)"}
+  - {priority: 6, action: "Holy Strike", condition: "on cooldown when 2+ allies within 10 yd are wounded, or for mana"}
+  - {priority: 7, action: "Flash of Light", condition: "filler for moderate damage"}
+  - {priority: 8, action: "Lay on Hands / Hand of Sacrifice / Hand of Protection / Divine Shield", condition: "emergencies (no thresholds in sources)"}
+rotation_aoe:
+  - {targets_min: 2, priority: 1, action: "Holy Strike on cooldown", condition: "raid AoE damage and you are in the melee clump (see allowed/forbidden boss lists)"}
+  - {targets_min: 2, priority: 2, action: "Crusader Strike -> Holy Shock reset on the lowest ally", condition: "between Holy Strikes"}
+  - {targets_min: 2, priority: 3, action: "Flash of Light fill", condition: "always"}
+aoe_threshold: 2
+cooldowns:
+  - {name: Lay on Hands, use_when: "tank about to die / self at 0 mana"}
+  - {name: Hand of Sacrifice, use_when: "tank spike (no longer breaks CC)"}
+  - {name: Divine Shield, use_when: "focused; heals continue"}
+  - {name: Hand of Freedom, use_when: "ally slowed (24-s CD)"}
+resource_rules:
+  - "Seal of Wisdom melee and Holy Strike keep mana full; Illumination refunds on crits"
+  - "Drink only with the group; Human/T2.5 regen-while-casting is a bonus, not required"
+  - "Blessing of Light on tanks also buffs Holy Shock"
+consumables:
+  - "Brilliant Mana Oil"
+  - "enchants (guide): Rumination arcanum, Zandalar Signet of Serenity, Subtlety cloak, Major Mana chest, Healing Power bracer/gloves, Healing Power weapon"
+mistakes_to_avoid:
+  - "Standing at range spamming Flash of Light in AoE fights"
+  - "Meleeing on bosses with knockback/AoE stun/silence/fear (Atreidon list)"
+  - "Forgetting to judge before Holy Light; letting Seal of Wisdom lapse"
+  - "Counting Devotion Aura or enchant armor toward Ironclad"
+  - "Stacking haste or mp5"
+  - "Trying to heal/buff warlock demons"

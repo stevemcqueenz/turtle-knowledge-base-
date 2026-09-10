@@ -1,0 +1,121 @@
+class: Paladin
+spec: Protection
+role: tank
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=52649#p52649", author: Getplucked, authority: player, date: "2023-07-08"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=27457#p27457", author: Unchallenged, authority: "player (guide writer)", date: "2024-12-04"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166176#p166176", author: Akos1896, authority: player, date: "2026-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166168#p166168", author: Reploidrocsa, authority: player, date: "2026-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=165909#p165909", author: Reploidrocsa, authority: player, date: "2026-01-22"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=165936#p165936", author: Captain4k, authority: player, date: "2026-01-22"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=143606#p143606", author: Everran, authority: player, date: "2025-08-07"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=153809#p153809", author: Azcron, authority: player, date: "2025-09-30"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=153945#p153945", author: Schlaechter, authority: player, date: "2025-10-01"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=138797#p138797", author: Atreidon, authority: player, date: "2025-07-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=147010#p147010", author: Atreidon, authority: player, date: "2025-08-19"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=123491#p123491", author: excin, authority: player, date: "2025-03-24"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=157229#p157229", author: Crake, authority: player, date: "2025-10-27"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=148436#p148436", author: Jendaille, authority: player, date: "2025-08-26"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102969#p102969", author: Dragunovi, authority: staff, date: "2024-10-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460", author: Jamey, authority: staff, date: "2024-12-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504", author: Torta, authority: staff, date: "2025-03-30"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: "2025-07-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608", author: Torta, authority: staff, date: "2026-03-21"}
+agreement: consensus
+patch_validity:
+  written_for: "1.17.2 / 1.18.0 (Class Changes 2 talent trees)"
+  valid_for_1181: unknown
+  notes: "1.18.1 changed Righteous Strikes (Zeal block chance -> Zealous Defence), Holy Strike (weapon damage component, 71% SP), Holy Shield threat 30% -> 50%, Consecration front-loaded, Prot T2.5/T3.5 set bonuses. Rotation shape unchanged; no post-1.18.1 forum re-evaluation."
+talents:
+  build_name: "Unchallenged 11/40/0 Threat Build (link only; Protection points inferred from his leveling orders)"
+  build_link: "https://talents.turtlecraft.gg/paladin?points=AoAoBAAAAAAAAAAoYFZbCAZoAoBAAAAAAAAAAAAAAAA%3D"
+  points:
+    - {tree: Protection, talent: Redoubt, rank: 5, spell_id: null}
+    - {tree: Protection, talent: Precision, rank: 3, spell_id: null}
+    - {tree: Protection, talent: Toughness, rank: 5, spell_id: null}
+    - {tree: Protection, talent: Blessing of Sanctuary, rank: 1, spell_id: null}
+    - {tree: Protection, talent: Shield Specialization, rank: 3, spell_id: null}
+    - {tree: Protection, talent: Improved Righteous Fury, rank: 3, spell_id: null}
+    - {tree: Protection, talent: Holy Shield, rank: 1, spell_id: null}
+    - {tree: Protection, talent: Reckoning, rank: 5, spell_id: null}
+    - {tree: Protection, talent: Righteous Strikes, rank: 5, spell_id: null}
+    - {tree: Protection, talent: Bulwark of the Righteous, rank: 1, spell_id: null}
+    - {tree: Protection, talent: Improved Hand of Reckoning, rank: 2, spell_id: null}
+    - {tree: Protection, talent: Righteous Defense, rank: 3, spell_id: null}
+    - {tree: Holy, talent: "unspecified (11 points; guide link not decodable from text)", rank: 11, spell_id: null}
+  leveling_order:
+    - {level: 10, tree: Protection, talent: Redoubt}
+    - {level: 15, tree: Protection, talent: Precision}
+    - {level: 18, tree: Protection, talent: Toughness}
+    - {level: 20, tree: Protection, talent: Blessing of Sanctuary}
+    - {level: 21, tree: Protection, talent: Shield Specialization}
+    - {level: 24, tree: Protection, talent: Improved Righteous Fury}
+    - {level: 27, tree: Protection, talent: Toughness}
+    - {level: 30, tree: Protection, talent: Holy Shield}
+    - {level: 31, tree: Protection, talent: Reckoning}
+    - {level: 36, tree: Protection, talent: Righteous Strikes}
+    - {level: 40, tree: Protection, talent: Bulwark of the Righteous}
+    - {level: 41, tree: Retribution, talent: Benediction}
+    - {level: 46, tree: Retribution, talent: Deflection}
+    - {level: 51, tree: Retribution, talent: Pursuit of Justice}
+    - {level: 53, tree: Retribution, talent: Improved Retribution Aura}
+    - {level: 55, tree: Retribution, talent: Blessing of Kings}
+    - {level: 56, tree: Protection, talent: "Improved Hand of Reckoning + Righteous Defense (raid) or Improved Judgement + Vindication"}
+stat_weights:
+  stamina: "1 (survival set: until you survive the tier)"
+  spell_power: "1 (threat set: Consecration, Holy Shield, Holy Strike, Seal/Judgement of Righteousness)"
+  agility: "high (18 agi ~ 1% dodge + 1% crit with Kings)"
+  defense: "medium (5 def ~ 1% mitigation)"
+  block_chance: "medium until crush cap with Holy Shield"
+  strength: "low / contested (block value -> Holy Shield damage; no other threat scaling)"
+  weapon_speed: "fast one-hander preferred (Seal of Wisdom mana)"
+caps:
+  crit_immunity_defense: "440 (420 with Anticipation 3/3) - single hedged source, vanilla baseline"
+  crush_cap: "Holy Shield 45% block + gear block; exact post-1.18.1 number unknown"
+  hit: "Precision 3/3 (+3% melee and spell hit) recommended; no numeric hit cap for tanking given"
+rotation_single:
+  - {priority: 1, action: "Righteous Fury + aura + blessings (Sanctuary/Kings self) + Seal of Wisdom", condition: "before pull; reapply Righteous Fury after death"}
+  - {priority: 2, action: "Holy Shield", condition: "while running in and whenever off cooldown"}
+  - {priority: 3, action: "Judgement (Wisdom on bosses; Righteousness for threat when mana is fine)", condition: "on cooldown; re-seal after"}
+  - {priority: 4, action: "Bulwark of the Righteous", condition: "boss pull when DPS open early, otherwise hold as -30% damage cooldown"}
+  - {priority: 5, action: "Crusader Strike", condition: "Zeal < 3 stacks, or Zeal has < 6 s left (1.18.1: also for Zealous Defence before a big hit)"}
+  - {priority: 6, action: "Holy Strike", condition: "shared strike cooldown ready and Zeal at 3 stacks with > 6 s left"}
+  - {priority: 7, action: "Consecration", condition: "single target only if mana comfortable (Judgement of Wisdom + +dmg items); otherwise skip"}
+  - {priority: 8, action: "Exorcism", condition: "Undead/Demon target; damage only (-70% threat)"}
+  - {priority: 9, action: "Hand of Reckoning (or Hand of Protection on the DPS)", condition: "target leaves you"}
+  - {priority: 10, action: "downrank Holy Strike/Consecration", condition: "mana low"}
+rotation_aoe:
+  - {targets_min: 2, priority: 1, action: "Holy Strike skull, Judgement + Seal auto-attack on the second, tab between them", condition: "no Consecration needed"}
+  - {targets_min: 3, priority: 1, action: "Consecration (max rank, then rank 1 if mana-rich)", condition: "3+ mobs or something pulled unexpectedly"}
+  - {targets_min: 3, priority: 2, action: "Holy Shield on cooldown", condition: "always"}
+  - {targets_min: 3, priority: 3, action: "Holy Strike skull, tab Judgements", condition: "shared strike cooldown"}
+  - {targets_min: 3, priority: 4, action: "Seal of Wisdom / Judgement of Wisdom on the longest-lived mob", condition: "mana"}
+aoe_threshold: 3
+cooldowns:
+  - {name: Bulwark of the Righteous, use_when: "snap threat at boss pull OR defensive for the dangerous phase (5-min CD)"}
+  - {name: Holy Shield, use_when: "on cooldown, always"}
+  - {name: Hand of Reckoning, use_when: "mob leaves you (10-s CD)"}
+  - {name: Hand of Protection, use_when: "DPS pulled aggro and taunt is down"}
+  - {name: Divine Shield, use_when: "emergency; -60% damage dealt so threat suffers"}
+resource_rules:
+  - "Seal of Wisdom + Judgement of Wisdom on the main target; re-judge when it dies"
+  - "Blocks return 2% mana (Shield Specialization, 5-s ICD): eagle (Sta/Int) gear increases the return"
+  - "Do not Consecrate single targets"
+  - "Auto-attack the last mob of a pack to refill before the next pull"
+  - "Wear one or more 'adds X damage to melee attacks' items for extra Judgement of Wisdom procs"
+  - "Drink only when the healer drinks; never pull with the healer low"
+consumables:
+  - "Brilliant Mana Oil / Lesser Mana Oil"
+  - "mana potions/teas for mana-punishing raid bosses"
+  - "Ez-Thro Dynamite / Explosive Rockets / Magic Candle for ranged pulls"
+  - "Thorium Shield Spike"
+  - "enchants (guide): Constitution/Protection arcanum, Zandalar Signet of Mojo, Superior Defense or Dodge cloak, Major Health chest, Superior Stamina bracer, Threat/Greater Strength gloves, Greater Stamina boots, Spell Power/Crusader weapon"
+mistakes_to_avoid:
+  - "Spamming Consecration on single targets and going OOM"
+  - "Tanking without Righteous Fury, without a seal, or with Holy Shield off cooldown"
+  - "Using Crusader Strike as a threat button instead of a Zeal maintainer"
+  - "Letting Zeal fall off in long fights"
+  - "Pulling while the healer drinks or is out of range"
+  - "Not marking a skull target for DPS"
+  - "Stacking Strength plate instead of Stamina/spell power"

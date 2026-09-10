@@ -1,0 +1,43 @@
+class: Paladin
+spec: Holy
+role: pvp
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=170300#p170300", author: Ellifta, authority: player, date: "2026-03-07"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=170319#p170319", author: Ellifta, authority: player, date: "2026-03-08"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=173323#p173323", author: Crake, authority: player, date: "2026-03-31"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=157515#p157515", author: Damso, authority: player, date: "2025-10-28"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=157532#p157532", author: FrankFankledank, authority: player, date: "2025-10-28"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=170314#p170314", author: Tortusenjoyer, authority: player, date: "2026-03-07"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: "2025-07-25"}
+agreement: contested
+patch_validity:
+  written_for: "1.18.0 / 1.18.1 announced"
+  valid_for_1181: unknown
+  notes: "No post-1.18.1 PvP thread; Daybreak nerf reduces sustain; Hand of Freedom 24-s CD and Divine Shield -60% damage dealt are the 1.18.0 PvP nerfs."
+talents:
+  build_name: "not posted (pieces named: Blessed Strikes 5/5, Divine Favor, Holy Judgement, Daybreak, Spiritual Focus)"
+  points: []
+  leveling_order: []
+stat_weights:
+  stamina: "high (opponents complain Holy Paladins cannot be killed by one DPS)"
+  healing_power: "high"
+caps: {}
+rotation_single:
+  - {priority: 1, action: "stay in melee with Seal of Wisdom; Holy Shock the ally in need", condition: "always"}
+  - {priority: 2, action: "Crusader Strike", condition: "Holy Shock on cooldown (Blessed Strikes reset)"}
+  - {priority: 3, action: "Hammer of Justice", condition: "enemy healer/DPS in range"}
+  - {priority: 4, action: "Hand of Freedom / Hand of Protection / Cleanse", condition: "flag carrier slowed; physical focus; debuffs"}
+  - {priority: 5, action: "Divine Shield and keep healing", condition: "focused; avoid casting into an interrupt with bubble down"}
+rotation_aoe: []
+aoe_threshold: 0
+cooldowns:
+  - {name: Divine Shield, use_when: "focused; heals unaffected"}
+  - {name: Hand of Freedom, use_when: "flag carrier / kited ally (24-s CD)"}
+  - {name: Hammer of Justice, use_when: "peel / setup kill"}
+resource_rules:
+  - "Seal of Wisdom melee for mana"
+consumables: []
+mistakes_to_avoid:
+  - "Trying to out-range casters instead of the Crusader Strike -> Holy Shock loop"
+  - "Casting with bubble on cooldown into a kick"
+  - "Chasing kiters"

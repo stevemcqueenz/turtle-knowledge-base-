@@ -1,6 +1,6 @@
 {
- "interval_s": 0.7,
- "pending": 1140,
+ "interval_s": 0.67,
+ "pending": 947,
  "sections": {
   "forum-14": {
    "claimed": 0,
@@ -46,9 +46,9 @@
   },
   "forum-28": {
    "claimed": 0,
-   "done": 0,
+   "done": 58,
    "failed": 0,
-   "queued": 3
+   "queued": 52
   },
   "forum-29": {
    "claimed": 0,
@@ -136,9 +136,9 @@
   },
   "forum-48": {
    "claimed": 0,
-   "done": 79,
+   "done": 321,
    "failed": 0,
-   "queued": 242
+   "queued": 0
   },
   "forum-50": {
    "claimed": 0,
@@ -203,9 +203,9 @@
  },
  "total": {
   "claimed": 0,
-  "done": 2673,
+  "done": 2973,
   "failed": 2,
-  "queued": 1140
+  "queued": 947
  },
- "ts": "2026-09-10T08:21:08Z"
+ "ts": "2026-09-10T08:24:54Z"
 }
