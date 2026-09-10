@@ -84,7 +84,7 @@ Staff never published a boss-by-boss mechanics changelog for the 1.18.0 rework �
 
 ## 4. Golemagg: the flashpoint
 
-**What changed (reconstructed from player reports and staff fixes).** The Core Hounds gained a **fixate** phase: "When boss hit 60 or 50 % hp dogs go 'enrage' and fixate on random people, threat doesn't matter" — [Alovander (player), 2025-08-25](https://forum.turtlecraft.gg/viewtopic.php?p=148274#p148274). Golemagg's own debuff was changed to **stack fire damage and reduce armor at the same time** — described by a player and quoted approvingly by staff — [Cheruscan (player), quoted in Lhian (staff), 2025-08-27](https://forum.turtlecraft.gg/viewtopic.php?p=148662#p148662). Golemagg also had his enrage timing changed and restored: "**Golemagg will once again enrage at 10 % health**" (2025-09-02) — [Torta (staff), 2025-09-02](https://forum.turtlecraft.gg/viewtopic.php?p=149960#p149960).
+**What changed (reconstructed from player reports and staff fixes).** The Core Hounds gained a **fixate** phase: "When boss hit 60 or 50 % hp dogs go 'enrage' and fixate on random people, threat doesn't matter" — [Alovander (player), 2025-08-25](https://forum.turtlecraft.gg/viewtopic.php?p=148274#p148274). Golemagg's own debuff was changed to **stack fire damage and reduce armor at the same time** — described by a player (Cheruscan) in a post that staff quoted approvingly when replying — [Lhian (staff), 2025-08-27](https://forum.turtlecraft.gg/viewtopic.php?p=148662#p148662). Golemagg also had his enrage timing changed and restored: "**Golemagg will once again enrage at 10 % health**" (2025-09-02) — [Torta (staff), 2025-09-02](https://forum.turtlecraft.gg/viewtopic.php?p=149960#p149960).
 
 **The tanking argument (player, contested):**
 

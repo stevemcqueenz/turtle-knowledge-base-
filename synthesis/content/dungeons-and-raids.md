@@ -217,13 +217,23 @@ Post-release fixes: summoned corpses despawn after 30 minutes (2026-03-24); rece
 
 ## 8. Gaps and unclear points
 
-**The biggest gap is numbers.** Almost no source in this extraction gives boss health, damage, cast times or debuff durations. The complete list of quantified boss abilities across all instances is:
+**The biggest gap is numbers.** Almost no *official* source in this extraction gives boss health, damage, cast times or debuff durations. The complete list of quantified encounter data across all instances is:
 
-- Engineer Figgles' **Corrosive Poison** (657–843 Nature every 5 s, −5000 armor, 30 s) — Hateforge Quarry.
-- Zel'jeb the Ancient's **Ancient Embalming** (90 % damage reduction, fire breaks it; Flame of Farrak lasts 10 minutes) — Zul'Farrak.
-- Dagar the Glutton's **Tendon Rip** (−58 % movement speed) — Stormwrought Ruins.
-- Rupturan's **Shifting Rock** (3000 armor) and Mephistroth's **Shackles of the Legion** / **Nathrezim Terror** (2.5 s cast) — Tower of Karazhan.
-- Emerald Blessing (80 yd, 10 % speed, 1 % spell hit, 5 % mana regen) — an Emerald Sanctum reward, not a boss ability.
+*From official (staff or wiki) sources:*
+
+- Engineer Figgles' **Corrosive Poison** (657–843 Nature every 5 s, −5000 armor, 30 s) — Hateforge Quarry *(wiki)*.
+- Zel'jeb the Ancient's **Ancient Embalming** (90 % damage reduction, fire breaks it; Flame of Farrak lasts 10 minutes) — Zul'Farrak *(wiki)*.
+- Dagar the Glutton's **Tendon Rip** (−58 % movement speed) — Stormwrought Ruins *(wiki)*.
+- Rupturan's **Shifting Rock** (3000 armor), Mephistroth's **Shackles of the Legion** / **Nathrezim Terror** (2.5 s cast), Ephemeral Pendant at 20 % — Tower of Karazhan *(staff)*.
+- Shazzrah's Arcane Explosion radius (20 yd), Magmadar's Lava Bomb AoE duration (20 s / 40 s), Majordomo's Teleport stun (1 s), and the 2025-08-26 Molten Core health cuts (Lucifron −20 %, Magmadar −10 %, Garr −15 %, Baron Geddon −20 %, Shazzrah −20 %, Sulfuron −20 %, Golemagg −25 %, Ragnaros −15 %) *(staff)*.
+- Emerald Blessing (80 yd, 10 % speed, 1 % spell hit, 5 % mana regen) — an Emerald Sanctum reward, not a boss ability *(staff)*.
+- Custom-dungeon rare BoE drops raised from 0.0031 %–0.01 % to **0.02 %** across Black Morass, Stormwind Vault and Karazhan Crypt *(staff)*; Scholomance final-chamber boss loot 30 % → 100 % *(staff)*; Antnormi's Eye of the Abyss at ~1 % *(staff)*.
+
+*From players reading the in-game database (not official, but specific):*
+
+- **Emerald Sanctum** is the only instance with published boss stats: Erennius **1.12 M** HP, Solnius **2.4 M** HP (npc 60748: 2,391,088 health, 1,999–2,650 damage, 4,712 armor, 50 nature / 100 shadow resistance), plus full stat blocks for all four add types in the 55–60 % sleep transition (Sanctum Scalebane at 248,622 health being 2–2.5× the others) — [Jstansberry (player), 2023-10-10](https://forum.turtlecraft.gg/viewtopic.php?p=69843#p69843), [Borefficz (player), 2024-05-14](https://forum.turtlecraft.gg/viewtopic.php?p=94829#p94829).
+- **Ley-Watcher Incantagos**: Incantagos Curse increases mana cost by **300 %**; each Affinity is put at "40k HP in 15 seconds" — [Cysthen (player), 2025-04-24](https://forum.turtlecraft.gg/viewtopic.php?p=128282#p128282), [Sirracha (player), 2025-04-13](https://forum.turtlecraft.gg/viewtopic.php?p=126634#p126634).
+- **Kara40 loot tables**: Mephistroth 14 items (5 at 6 %, 9 at 8 %), Kruul 9 items, Sanv Tas'dal and Rupturan 7 each — [Melvorforum (player), 2025-11-16](https://forum.turtlecraft.gg/viewtopic.php?p=159824#p159824).
 
 Everything else is a name, or a relative change ("slightly reduced", "increased").
 
@@ -231,13 +241,13 @@ Everything else is a name, or a relative change ("slightly reduced", "increased"
 
 1. **Lockouts are almost entirely undocumented.** Only Lower Karazhan Halls (5 days, from a player guide) is stated. No staff source gives lockout lengths for any custom instance, and the Timbermaw Hold question went unanswered.
 2. **Boss order is unknown for most instances.** Only Lower Karazhan Halls (four in any order, then Moroes), Emerald Sanctum, Black Morass (partly) and Tower of Karazhan (partly, and reconstructed) have any ordering information.
-3. **Tactics coverage is extremely uneven.** Two instances have real player write-ups — **Lower Karazhan Halls** (a full guide with trash spell IDs and boss handling) and **Emerald Sanctum** (a hard-mode positioning plan). **Molten Core** has a detailed player critique that doubles as a mechanics description, plus the Golemagg thread. Everything else has none: no tactics thread exists in this extraction for any custom 5-man dungeon, for Tower of Karazhan, for Timbermaw Hold, or for any of the vanilla dungeon extensions.
+3. **Tactics coverage is extremely uneven.** Four instances have real player material — **Lower Karazhan Halls** (a full guide with trash spell IDs, NPC IDs and per-boss handling, plus a per-boss design critique), **Emerald Sanctum** (a hard-mode positioning plan and a stat-level add-phase analysis), **Molten Core** (a detailed critique of the rework that doubles as a mechanics description, plus the Golemagg thread), and **Tower of Karazhan's Ley-Watcher Incantagos** (a raid-composition argument that staff answered directly). Everything else has none: no tactics thread exists in this extraction for any custom 5-man dungeon, for the other eight Tower of Karazhan bosses, for Timbermaw Hold, or for any of the vanilla dungeon extensions.
 4. **Onyxia's "new mechanics" and BWL's per-boss "new or updated mechanic" were announced but never listed.** These are the two largest undocumented content additions of 1.18.1.
 5. **Unnamed bosses:** 2 of 7 in Black Morass, 3 of 7 in Karazhan Crypt, 3 of 13 in Dragonmaw Retreat.
 6. **Boss counts disagree** between staff, the wiki and the community guide for Lower Karazhan Halls (5/6), Gilneas City (7/8), Frostmane Hollow (4/5), Molten Core's extension (3/4) and Stormwrought Ruins (12/13).
 7. **Level ranges disagree** between the official site, the wiki and the in-game LFT addon for most custom dungeons — every case is flagged in the per-instance files.
 8. **No NPC IDs or spell IDs** are recorded anywhere except Lower Karazhan Halls, where the community guide supplies six NPC IDs (61221–61225, 61319) and about a dozen trash spell IDs, and a handful of item IDs scattered through player posts.
 9. **The turtlecraft.gg website is stale** on the 1.17.2 Scarlet Monastery and Deadmines boss names, and on the Hateforge Quarry location. Prefer staff forum notes.
-10. **Forums not in this extraction.** At the time of writing, the AddOns (f18) and Lore (f19) sub-forums had not been extracted. Any boss-tactics addon threads or lore write-ups there are missing from this document.
+10. **Forum coverage.** All English sub-forums in the extraction were searched, including Help & Support (f3), General (f4), Suggestions (f14), AddOns (f18), Lore (f19), Modding (f29), Streams & Videos (f22) and Level One Lunatics (f72). The AddOns, Lore, Modding and Streams forums contain almost nothing about instance mechanics: the only relevant items are a request for a Kara40 enemy-castbar addon ([Trevor89 (player), 2025-11-25](https://forum.turtlecraft.gg/viewtopic.php?p=160650#p160650)), Atlas/AtlasLoot entries missing for Crescent Grove and Hateforge Quarry ([Martian (player), 2023-07-26](https://forum.turtlecraft.gg/viewtopic.php?p=54780#p54780), [Gurky (player), 2022-08-02](https://forum.turtlecraft.gg/viewtopic.php?p=20869#p20869)), a Dragonmaw Retreat lore-consistency debate about Zuluhed ([Blue Feep (player), 2025-04-14](https://forum.turtlecraft.gg/viewtopic.php?p=126684#p126684)), a Frostmane Hollow hardcore video ([Cousinsmarsh (player), 2026-03-31](https://forum.turtlecraft.gg/viewtopic.php?p=173481#p173481)), and third-party HD-patch crashes in Karazhan Crypt ([Araphel (player), 2025-05-04](https://forum.turtlecraft.gg/viewtopic.php?p=129644#p129644)). **The Suggestions forum (f14) turned out to be the single richest source of encounter mechanics outside the Raids forum** — the Emerald Sanctum add stats, the Incantagos composition argument and the Moroes phase history all come from there.
 11. **No combat logs or parses.** ShellStats (the server-side logging tool announced with Tower of Karazhan — [Akalix (staff), 2025-03-06](https://forum.turtlecraft.gg/viewtopic.php?p=121909#p121909)) is referenced but no data from it appears in the sources.
 12. **Coordinates.** No source gives in-game X/Y coordinates for any instance entrance.

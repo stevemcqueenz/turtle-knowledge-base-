@@ -97,3 +97,4 @@ The same post's complaints — short respawn timers on the entrance bats and the
 - **The graveyard bug** has two incompatible descriptions (Duskwood by a player in 2021, Redridge by staff in 2023).
 - **Whether the epic shoulder drop rate was ever raised** is not recorded.
 - **NPC and spell IDs**: not found in sources.
+- **Client-side crashes with the community HD patch:** several players report the game crashing at the same point near the start of Karazhan Crypt while using the Turtle HD Patch-A, "when the mobs used the Death…" — [Arkanae (player), 2025-04-22](https://forum.turtlecraft.gg/viewtopic.php?p=127927#p127927), [NeyMey (player), 2025-04-22](https://forum.turtlecraft.gg/viewtopic.php?p=127940#p127940), [Araphel (player), 2025-05-04](https://forum.turtlecraft.gg/viewtopic.php?p=129644#p129644). This is a **third-party texture patch**, not official Turtle content, and the underlying spell is never named.

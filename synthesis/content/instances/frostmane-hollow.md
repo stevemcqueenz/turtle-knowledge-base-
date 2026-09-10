@@ -74,9 +74,15 @@ Hailar the Frigid has a scripted 50 % line ("Let the chill overcome…"), so the
 
 ---
 
-## 5. Gaps and unclear points
+## 5. Player material
 
-- **No tactics, no player reports, no run descriptions.** Frostmane Hollow opened 2026-03-20 and generated almost no forum traffic before the shutdown announcement.
+The only player content for this dungeon in the extraction is a **hardcore healing run video**, posted eleven days after release: "If you perhaps feel a bit unsure or nervous about doing Frostmane Hollow for your first time you can watch us attempt the dungeon in this video and see the dungeon before you try it out yourself" — [Cousinsmarsh (player), 2026-03-31](https://forum.turtlecraft.gg/viewtopic.php?p=173481#p173481). The video itself is not part of this extraction, so no tactics from it are reproduced here.
+
+---
+
+## 6. Gaps and unclear points
+
+- **No written tactics, no run reports.** Frostmane Hollow opened 2026-03-20 and generated almost no forum traffic before the shutdown announcement; the only player content is the video above.
 - **Three of five bosses have no listed abilities**; the other two have one each.
 - **No health, damage or numbers of any kind.**
 - **Boss count** (4 vs 5) is unresolved; the Oboka/Tan'sha pairing above is an inference.

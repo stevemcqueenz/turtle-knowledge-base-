@@ -37,7 +37,13 @@ Custom 40-player raid in **Hyjal**, added in **patch 1.17.0**. Part of `synthesi
 
 ## 2. Layout and bosses in order
 
-The raid is short: trash → **Erennius** → **Solnius the Awakener**. Hard mode is fought as a *combined* encounter, with Erennius still active while Solnius is being killed (see the tactics below). Erennius is described by staff as the "mini boss" and Solnius as the main boss — *(official)* [Torta (staff), 2023-01-21](https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868).
+The raid is short: trash → **Erennius** → **Solnius the Awakener**. Erennius is described by staff as the "mini boss" and Solnius as the main boss — *(official)* [Torta (staff), 2023-01-21](https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868).
+
+**What normal mode and hard mode actually are (player, consistent across three threads).** In **normal mode you kill Erennius**, which is where the **Claw of Erennius** (item 61652, a guaranteed healer mace) comes from — [Elisleris (player), 2024-07-18](https://forum.turtlecraft.gg/viewtopic.php?p=99769#p99769). In **hard mode Erennius survives**: you fight Solnius with Erennius still active and, on Solnius' death, Erennius is freed from the Nightmare — which is exactly what his wiki death quote says. Because he lives, hard-mode raids get no Claw, and players have asked twice for the item to be made obtainable there anyway — [Forbearance (player), 2024-04-20](https://forum.turtlecraft.gg/viewtopic.php?p=93145#p93145), [Zvyrhol (player), 2024-04-20](https://forum.turtlecraft.gg/viewtopic.php?p=93177#p93177) ("In hard mode the Erennius survives the fight. If he survives, how could he give his claw as a reward?"), [Snoodydood (player), 2026-03-01](https://forum.turtlecraft.gg/viewtopic.php?p=169696#p169696). No staff post states the trigger, so **this is a well-corroborated player reconstruction, not an official statement**.
+
+### Health values (player, October 2023)
+
+A guild that cleared the trash and measured the two bosses reported **Erennius 1.12 million HP and Solnius 2.4 million HP** — [Jstansberry (player), 2023-10-10](https://forum.turtlecraft.gg/viewtopic.php?p=69843#p69843). A later post citing the in-game database gives **Solnius (npc 60748): 2,391,088 health, 1,999–2,650 damage, 4,712 armor, 50 nature resistance, 100 shadow resistance** — [Borefficz (player), 2024-05-14](https://forum.turtlecraft.gg/viewtopic.php?p=94829#p94829). These are the only boss health figures for any custom instance in the whole extraction.
 
 ### Boss 1 — Erennius (green dragon)
 
@@ -60,12 +66,25 @@ The raid is short: trash → **Erennius** → **Solnius the Awakener**. Hard mod
 
 | Ability / mechanic | Effect and numbers where given | Source |
 |---|---|---|
-| Add phase | Elite adds plus welps; players describe spellcasters, "scalebane" elites and welps | *(wiki, quote confirms the phase)* [Solnius](https://turtle-wow.fandom.com/wiki/Solnius); *(player, composition)* [Atreidon (player), 2025-05-09](https://forum.turtlecraft.gg/viewtopic.php?p=130281#p130281) |
+| Add phase ("sleep transition") | **At 55–60 % health Solnius becomes untargetable** and summons a few big dragonkin adds surrounded by a pack of **Sanctum Dreamers** (npc 60742). **The composition of the big adds is completely random.** | *(wiki, quote confirms the phase)* [Solnius](https://turtle-wow.fandom.com/wiki/Solnius); *(player, mechanics and numbers)* [Borefficz (player), 2024-05-14](https://forum.turtlecraft.gg/viewtopic.php?p=94829#p94829) |
 | Transformation / phase 3 | Solnius "transforms"; after that the main tank starts eating **breaths** | *(player)* [Atreidon (player), 2025-05-09](https://forum.turtlecraft.gg/viewtopic.php?p=130281#p130281) |
 | Melee AoE | A "nasty AoE" cast on random players in melee that "deals way too much damage if your melees clump" | *(player)* [Atreidon (player), 2025-05-09](https://forum.turtlecraft.gg/viewtopic.php?p=130281#p130281) |
 | Self-buff | A purgeable buff "that looks like the goblin shrink ray debuff" — keep Detect Magic on the boss and have a shaman/priest purge it | *(player)* [Atreidon (player), 2025-05-09](https://forum.turtlecraft.gg/viewtopic.php?p=130281#p130281) |
 | Immunities | Immune to horror and disorientation (2024-04-03); nature-school/poison immune, which is why **Corrosive Poison** was added for rogues | *(official)* [Torta (staff), 2024-04-03](https://forum.turtlecraft.gg/viewtopic.php?p=91958#p91958), [Dragunovi (staff), 2024-10-12](https://forum.turtlecraft.gg/viewtopic.php?p=102971#p102971) |
 | Pet behaviour | A hunter reports pets attack Solnius from minimum rather than maximum range, as on Nefarian/Ragnaros/Omen | *(player)* [Lane13 (player), 2026-03-10](https://forum.turtlecraft.gg/viewtopic.php?p=170490#p170490) |
+
+#### The add phase in numbers (player, from the in-game database)
+
+All four big adds and their stats, as reported by a player arguing the randomness is bad design — [Borefficz (player), 2024-05-14](https://forum.turtlecraft.gg/viewtopic.php?p=94829#p94829):
+
+| Add | npc id | Health | Damage | Armor | Resistances |
+|---|---|---|---|---|---|
+| Sanctum Suppressor | 61212 | 112,401 | 3,107–4,122 | 3,320 | 50 nature, 100 shadow |
+| Sanctum Wyrmkin | 60745 | 108,412 | 1,687–2,235 | 3,315 | — |
+| Sanctum Dragonkin | 60743 | 131,499 | 1,687–2,235 | 4,452 | — |
+| **Sanctum Scalebane** | 60746 | **248,622** | 3,107–4,122 | 4,890 | 50 nature, 100 shadow |
+
+His argument: "Sanctum Scalebanes have about **2–2.5× more effective HP** against an average raid group than the other adds… With good RNG (no Scalebanes) the add phase is trivial as a pug group can easily burn all big adds before the boss wakes up. However, with 2+ Scalebanes it suddenly becomes much more difficult, the only reason for that being bad luck." He asks for a fixed add set instead. **No staff response in the extraction, and no change to the randomness appears in the changelogs.** This is also the reason Atreidon's tactics tell you to "leave scalebane for last".
 
 ---
 
@@ -83,12 +102,15 @@ The fullest write-up in the extraction is a raid leader's hard-mode plan, **sing
 
 **Line of sight — contested.** Atreidon says LoS "used to matter but I think it got patched… we stopped losing since it didn't seem to help us consistently" and recommends keeping everyone in the main raid healers' range instead ([2025-05-09](https://forum.turtlecraft.gg/viewtopic.php?p=130281#p130281)). Another player answers in the same thread that his guild tanks "the flying boss" behind a tree so healers can LoS the boss and still heal the tank — [Ghen (player), 2025-08-29](https://forum.turtlecraft.gg/viewtopic.php?p=149181#p149181). The thread starter reports being slept at 80 yards from Erennius and getting conflicting advice from everyone he asked — [Maximan (player), 2025-05-09](https://forum.turtlecraft.gg/viewtopic.php?p=130280#p130280). Treat LoS strategies as **unreliable / repeatedly patched**.
 
+**Trash skip (player, reported as an exploit).** A player reports groups skipping most or all trash: "Hunter pull Solnius and let anyone cause damage to the boss, hunter feigns. The trash will NOT come to you, which means you can skip most of the trash (even all) and kill Solnius" — [Andyru (player), 2024-05-17](https://forum.turtlecraft.gg/viewtopic.php?p=95027#p95027), repeated [2024-05-27](https://forum.turtlecraft.gg/viewtopic.php?p=95765#p95765). No staff response and no matching fix appear in the extraction.
+
 **Raid size in practice — contested.** One player insists ES cannot be done with fewer than ~35 people even on normal, and that trash are "massive health sponges even in Naxx gear" ([Kharkov72 (player), 2024-01-07](https://forum.turtlecraft.gg/viewtopic.php?p=83859#p83859)); another replies that his Tel'Abim group clears it — hard mode included — **in Molten Core gear with 25–30 people** ([Typh1 (player), 2024-04-04](https://forum.turtlecraft.gg/viewtopic.php?p=92053#p92053), [2024-04-04](https://forum.turtlecraft.gg/viewtopic.php?p=92054#p92054)).
 
 ---
 
 ## 4. Loot highlights
 
+- **Claw of Erennius** (item 61652) — a **guaranteed** healer mace from Erennius, i.e. from **normal mode only** — *(player)* [Elisleris (player), 2024-07-18](https://forum.turtlecraft.gg/viewtopic.php?p=99769#p99769).
 - **Ancient Jade Leggings** (Solnius) — +8 Two-Handed Mace skill, "6 % drop chance and heavily contested" per a shaman guide writer — *(player)* [Jstansberry (player), 2023-12-12](https://forum.turtlecraft.gg/viewtopic.php?p=80796#p80796).
 - **Jade Scale of the Dreamer** (Solnius) — required for the druid Swift Travel Form questline for Keeper Remulos — *(player)* [Deeno (player), 2025-05-04](https://forum.turtlecraft.gg/viewtopic.php?p=129590#p129590).
 - **Emerald Drake** mount — added as a drop from **Solnius** on 2025-09-02 — *(official)* [Torta (staff), 2025-09-02](https://forum.turtlecraft.gg/viewtopic.php?p=149960#p149960).
@@ -130,9 +152,11 @@ The fullest write-up in the extraction is a raid leader's hard-mode plan, **sing
 
 ## 6. Gaps and unclear points
 
-- **No per-ability numbers.** No source in this extraction gives Erennius' or Solnius' health, damage values, cast times or debuff durations. Ability names beyond Dreamstate, Call of Nightmare and Breath of Solnius are not documented.
-- **Hard-mode trigger not documented.** No source explains how hard mode is started or what distinguishes it mechanically beyond "combat the influence of the Nightmare and stop Solnius from initiating the Awakening" and Erennius remaining alive.
+- **Ability values are still missing.** Health and add stats are known (from players reading the in-game database), but no source gives cast times, damage values or durations for Dreamstate, Call of Nightmare, Breath of Solnius or the melee AoE.
+- **Erennius' own stats** (damage, armor, resistances) are not published anywhere; only his 1.12 million health figure from a 2023 player report.
+- **The hard-mode trigger is still undocumented by staff.** The reconstruction in §2 — normal mode kills Erennius, hard mode leaves him alive — is consistent across three player threads and matches the wiki quote, but no staff post says how the mode is selected.
 - **Lockout period** for Emerald Sanctum is not stated anywhere in the extraction.
 - **Hard-mode-only loot** is referred to by a player ("Emerald Sanctum has an Easy and Hard mode with unique loot" — [Sivent (player), 2024-08-28](https://forum.turtlecraft.gg/viewtopic.php?p=100329#p100329)) but no item list exists in the sources.
-- **NPC/spell IDs** for Erennius, Solnius and their abilities: not found in sources.
+- **Spell IDs** for the boss abilities: not found in sources. A player datamining the spell database in March 2023 found **Curse of Erennius (spell 56505)** and a reader noted it "sounds like it's not a Warlock curse but rather belonging to a potential boss in the emerald dream raid" — [Balake (player), 2023-03-28](https://forum.turtlecraft.gg/viewtopic.php?p=39450#p39450), [Kairion (player), 2023-03-29](https://forum.turtlecraft.gg/viewtopic.php?p=39564#p39564). No later source confirms it as an in-fight ability.
 - The wiki attunement page and the staff note disagree about the Arcanite Rod (see §1); the wiki's "scales down to 30 players" claim has no staff backing.
+- **The random add composition** has never been addressed by staff despite a detailed complaint with numbers.

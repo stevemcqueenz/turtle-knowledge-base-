@@ -1,0 +1,3365 @@
+# Dungeons and raids on Turtle WoW - structured data
+#
+# Companion data for synthesis/content/dungeons-and-raids.md and synthesis/content/instances/*.md.
+# One record per custom instance and per significantly modified vanilla instance, as of patch 1.18.1
+# (released 2026-03-20) and its post-release hotfixes up to 2026-04-28.
+#
+# Field notes:
+#   id                 slug, matches the filename in synthesis/content/instances/
+#   type               dungeon | raid
+#   size               maximum group size
+#   level_min          minimum level to enter where a source states one, else the low end of the range
+#   level_range        free text, because official site, wiki and the in-game LFT addon frequently disagree
+#   patch_introduced   "vanilla" for instances Turtle did not create
+#   patches_changed    Turtle patches that changed the instance
+#   entry_requirements attunements and keys; "not found in sources" where nothing is documented
+#   lockout            almost always "not found in sources" - see the gaps section of the Markdown file
+#   custom             true if Turtle WoW created the instance
+#   bosses[].npc_id    only where a source gives it (currently only Lower Karazhan Halls)
+#   bosses[].order     only where a source states or strongly implies an order; null otherwise
+#   bosses[].abilities name + effect + numbers; numbers is null unless a source published a value
+#   sources            exact post URLs copied from the extraction, plus official site and wiki page URLs
+#
+# Source authority: forum.turtlecraft.gg posts by Turtle WoW Team members are official; other forum posts
+# are player claims; turtle-wow.fandom.com is a community wiki and is NOT an official source.
+- id: frostmane-hollow
+  name: Frostmane Hollow
+  type: dungeon
+  size: 5
+  level_min: 13
+  level_range: 13-20
+  patch_introduced: 1.18.1
+  patches_changed:
+  - 1.18.1
+  zone: Dun Morogh (eastern, south of the Ironforge Airfields)
+  entry_requirements: not found in sources
+  lockout: not found in sources
+  custom: true
+  bosses:
+  - name: Handler Oboka
+    npc_id: null
+    order: 1
+    abilities: []
+    mechanics_summary: Commands Tan'sha the Sleek ('Tan'sha, kill them all!'); likely a paired encounter with her. No abilities listed.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Handler_Oboka
+  - name: Tan'sha the Sleek
+    npc_id: null
+    order: 2
+    abilities: []
+    mechanics_summary: Snow leopard, level 16 elite. No abilities listed.
+    tactics_summary: null
+    loot:
+    - Frigid Cloak
+    - Oboka's Axe
+    - Vest of the Beastkeeper
+    - 'Flawless Leopard Pelt (quest: The Finest Pelt)'
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Tan%27sha_the_Sleek
+  - name: Battlemaster Ubukaz
+    npc_id: null
+    order: 3
+    abilities: []
+    mechanics_summary: Ice troll, level 16 elite. No abilities listed. Objective of quest 'Chieftain Ubukaz'.
+    tactics_summary: null
+    loot:
+    - Frostmane Battle Boots
+    - Tribal War Gauntlets
+    - Snowchilled Crest
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Battlemaster_Ubukaz
+  - name: Kan'za the Seer
+    npc_id: null
+    order: 4
+    abilities:
+    - name: Blizzard
+      effect: null
+      numbers: null
+    mechanics_summary: Ice troll, level 16 elite.
+    tactics_summary: null
+    loot:
+    - Frost Seet Dirk
+    - Windcrest Pants
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Kan%27za_the_Seer
+  - name: Hailar the Frigid
+    npc_id: null
+    order: 5
+    abilities:
+    - name: Frostbolt
+      effect: null
+      numbers: null
+    mechanics_summary: Ice elemental, level 16 elite, final boss. Has a scripted 50% emote, so at least one phase transition.
+    tactics_summary: null
+    loot:
+    - Rak'uhz the Coldbinder
+    - Belt of Binding
+    - Band of Hailar
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Hailar_the_Frigid
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  - https://turtle-wow.fandom.com/wiki/Frostmane_Hollow
+  - https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content
+  - https://forum.turtlecraft.gg/viewtopic.php?p=174367#p174367
+  - https://forum.turtlecraft.gg/viewtopic.php?p=176311#p176311
+  - https://forum.turtlecraft.gg/viewtopic.php?p=174963#p174963
+  - https://forum.turtlecraft.gg/viewtopic.php?p=173481#p173481
+  notes: 'Boss count contested: wiki table says 4, five boss pages exist. Level One Lunatic loot was added 2026-04-07; a player asked how a level-1 character could use a 13-20 dungeon and got no staff answer. Frostmane Cretin stopped dropping ''A Mysterious Message'' 2026-04-28. No abilities for three of five bosses; no numbers anywhere. The only player content is a hardcore healing run video posted 2026-03-31.'
+- id: windhorn-canyon
+  name: Windhorn Canyon
+  type: dungeon
+  size: 5
+  level_min: 26
+  level_range: 26-30 (staff, wiki); 25-33 (in-game LFT addon per community guide)
+  patch_introduced: 1.18.1
+  patches_changed:
+  - 1.18.1
+  zone: Thousand Needles
+  entry_requirements: not found in sources
+  lockout: not found in sources
+  custom: true
+  bosses:
+  - name: Ahgk'tos the Pure
+    npc_id: null
+    order: 1
+    abilities:
+    - name: Lightning Cloud
+      effect: null
+      numbers: null
+    - name: Wing Flap
+      effect: null
+      numbers: null
+    mechanics_summary: Wind serpent, level 24 elite.
+    tactics_summary: null
+    loot:
+    - Sacred Windhorn Gloves
+    - Windserpent Hauberk
+    - Coilscale Ring
+    - Tooth of Ahgk'tos
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Ahgk%27tos_the_Pure
+  - name: Pathun Duskhide
+    npc_id: null
+    order: 2
+    abilities:
+    - name: Hooked Net
+      effect: null
+      numbers: null
+    - name: Demoralizing Shout
+      effect: null
+      numbers: null
+    - name: Kodo Stomp
+      effect: null
+      numbers: null
+    mechanics_summary: Tauren, level 25 elite.
+    tactics_summary: null
+    loot:
+    - Blackwind Striker
+    - Sacred Windhorn Shoulders
+    - Huntsman's Halfhorn
+    - Hatchet of the Long Hunt
+    - 'Plans: Kodoheart Necklace'
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Pathun_Duskhide
+  - name: Ambassador Vortalus
+    npc_id: null
+    order: 3
+    abilities:
+    - name: Gust of Wind
+      effect: null
+      numbers: null
+    - name: Chain Lightning
+      effect: null
+      numbers: null
+    - name: Engulfing Vortex
+      effect: named only in the 2026-03-31 hotfix; not on the wiki ability list
+      numbers: null
+    mechanics_summary: Air elemental, level 26 elite. Objective of quest 'Vortalus' Edict'.
+    tactics_summary: null
+    loot:
+    - Sacred Windhorn Footwraps
+    - Knuckles of Vortalus
+    - Thunderstrike Pike
+    - Galvanized Wrists
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Ambassador_Vortalus
+    - https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  - name: Walgan Bloodcaller
+    npc_id: null
+    order: 4
+    abilities:
+    - name: Cleave
+      effect: null
+      numbers: null
+    - name: War Stomp
+      effect: null
+      numbers: null
+    mechanics_summary: Tauren, level 27 elite.
+    tactics_summary: null
+    loot:
+    - Footwraps of Perfect Form
+    - Sacred Windhorn Pants
+    - Bloodcaller's Decapitator
+    - Canyonhide Gloves
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Walgan_Bloodcaller
+  - name: Bonespeaker Narlgom
+    npc_id: null
+    order: 5
+    abilities:
+    - name: Rain of Fire
+      effect: null
+      numbers: null
+    mechanics_summary: Tauren, level 27 elite. Summons Spirit of Champion Rotag during the fight ('I have returned...').
+    tactics_summary: null
+    loot:
+    - Sacred Windhorn Robe
+    - Bonespeaker Cane
+    - Reedwoven Epaulets
+    - Cloudrender Pants
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Bonespeaker_Narlgom
+  - name: Prophet Stormhoof
+    npc_id: null
+    order: 6
+    abilities:
+    - name: Corruption
+      effect: null
+      numbers: null
+    - name: Curse of Agony
+      effect: null
+      numbers: null
+    - name: Wail of Souls
+      effect: null
+      numbers: null
+    mechanics_summary: Tauren, level 28 elite. Objective of quest 'Destroy the Deathtotem'.
+    tactics_summary: null
+    loot:
+    - Deathtotem Relic
+    - Sacred Windhorn Headdress
+    - Blackwind Facemask
+    - Elder Crone's Sigil Ring
+    - 'Plans: Ceremonial Belt Buckle'
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Prophet_Stormhoof
+  - name: Chieftain Shalk Blackwind
+    npc_id: null
+    order: 7
+    abilities:
+    - name: Berserker Charge
+      effect: null
+      numbers: null
+    - name: Flame of Shalk
+      effect: null
+      numbers: null
+    mechanics_summary: Tauren, level 29 elite, final boss. Calls a Blackwind Bloodguard at 50% health.
+    tactics_summary: null
+    loot:
+    - The Blackwind Pillar
+    - Canyon's Barricade
+    - Ar'pora, the Chieftain's Judgement
+    - Heart of Windhorn
+    - 'Pattern: Grimtotem Bracers'
+    - Hawkfeather Crown
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Chieftain_Shalk_Blackwind
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  - https://forum.turtlecraft.gg/viewtopic.php?p=163461#p163461
+  - https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  - https://turtle-wow.fandom.com/wiki/Windhorn_Canyon
+  - https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content
+  - https://forum.turtlecraft.gg/viewtopic.php?p=29739#p29739
+  - https://forum.turtlecraft.gg/viewtopic.php?p=29760#p29760
+  notes: 'Best-documented ability lists of any custom 5-man: every boss has one. Boss order inferred from level, not documented. Grimtotem have expelled the Windhorn Tauren. Associated Horde hub: Sagh''s Refuge. No tactics thread and no player reports exist. No numbers.'
+- id: dragonmaw-retreat
+  name: Dragonmaw Retreat
+  type: dungeon
+  size: 5
+  level_min: 25
+  level_range: 25-34 (wiki); 26-35 (in-game LFT addon per community guide)
+  patch_introduced: 1.18.0
+  patches_changed:
+  - 1.18.0
+  - 1.18.1
+  zone: Wetlands (entrance at the Dragonmaw Gates)
+  entry_requirements: 'Soft attunement: Lower Reserve Key (quest 41774) unlocks shortcuts and access to more bosses'
+  lockout: not found in sources
+  custom: true
+  bosses:
+  - name: Cavernweb Broodmother
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Spider, level 27 elite. No abilities listed. Made larger 2024-11-19.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Cavernweb_Broodmother
+    - https://forum.turtlecraft.gg/viewtopic.php?p=108746#p108746
+  - name: Gowlfang
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Gnoll, level 28 elite. No abilities listed. Also a quest giver inside the dungeon (Reunite Tribe-Tribe!, The One Alpha, Cursed Sagepaw!, Hidden-Hidden Reward).
+    tactics_summary: null
+    loot:
+    - Gowlfang's Vest
+    - 'Head of Gowlfang (quest: Gowlfang''s Defeat)'
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Gowlfang
+    - https://forum.turtlecraft.gg/viewtopic.php?p=34787#p34787
+  - name: Web Master Torkon
+    npc_id: null
+    order: null
+    abilities:
+    - name: Poison Cloud
+      effect: null
+      numbers: null
+    - name: Venom Sting
+      effect: null
+      numbers: null
+    - name: Web Spray
+      effect: null
+      numbers: null
+    mechanics_summary: Dragonmaw orc, level 29 elite.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Web_Master_Torkon
+  - name: Slagfist Destroyer
+    npc_id: null
+    order: null
+    abilities:
+    - name: Skin of Rock
+      effect: null
+      numbers: null
+    - name: Strength of Stone
+      effect: null
+      numbers: null
+    - name: Ground Smash
+      effect: null
+      numbers: null
+    - name: Enrage
+      effect: null
+      numbers: null
+    mechanics_summary: Stone golem, level 30 elite.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Slagfist_Destroyer
+  - name: Garlok Flamekeeper
+    npc_id: null
+    order: null
+    abilities:
+    - name: Flame Buffet
+      effect: null
+      numbers: null
+    - name: Flame Spike
+      effect: null
+      numbers: null
+    - name: Flame Lash
+      effect: null
+      numbers: null
+    mechanics_summary: Dragonmaw orc, level 31 elite.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Garlok_Flamekeeper
+  - name: Halgan Redbrand
+    npc_id: null
+    order: null
+    abilities:
+    - name: Drain Life
+      effect: null
+      numbers: null
+    - name: Curse of Agony
+      effect: null
+      numbers: null
+    - name: Mind Flay
+      effect: null
+      numbers: null
+    mechanics_summary: Dwarf ghost, level 31 elite; tied to the Redbrand questline.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Halgan_Redbrand
+  - name: Overlord Blackheart
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Dragonmaw orc, level 31 elite. No abilities listed. Objective of the Alliance quest Blackheart's Demise.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Overlord_Blackheart
+  - name: Elder Hollowblood
+    npc_id: null
+    order: null
+    abilities:
+    - name: Lightning Bolt
+      effect: null
+      numbers: null
+    - name: Scorching Totem
+      effect: null
+      numbers: null
+    - name: Lava Spot Totem
+      effect: null
+      numbers: null
+    - name: Earthbind Totem
+      effect: null
+      numbers: null
+    - name: Chain Lightning
+      effect: null
+      numbers: null
+    mechanics_summary: Dragonmaw orc, level 32 elite. The only totem-based encounter in the custom 5-man set.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Elder_Hollowblood
+  - name: Searistrasz
+    npc_id: null
+    order: null
+    abilities:
+    - name: Enchanting Flames
+      effect: null
+      numbers: null
+    - name: Fireball
+      effect: null
+      numbers: null
+    - name: Flame Breath
+      effect: null
+      numbers: null
+    - name: Wing Flap
+      effect: null
+      numbers: null
+    mechanics_summary: Red dragon, level 32 elite; the entranced dragon of the blurb.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Searistrasz
+  - name: Zuluhed the Whacked
+    npc_id: null
+    order: null
+    abilities:
+    - name: Soul Domination
+      effect: null
+      numbers: null
+    - name: Withering Soul
+      effect: applies Debilitated Soul and Empowered Soul; how the two interact is not explained in any source
+      numbers: null
+    mechanics_summary: Dragonmaw orc, level 32 elite, final boss.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Zuluhed_the_Whacked_(tactics)
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  - https://forum.turtlecraft.gg/viewtopic.php?p=148454#p148454
+  - https://forum.turtlecraft.gg/viewtopic.php?p=147116#p147116
+  - https://forum.turtlecraft.gg/viewtopic.php?p=145822#p145822
+  - https://forum.turtlecraft.gg/viewtopic.php?p=149960#p149960
+  - https://forum.turtlecraft.gg/viewtopic.php?p=152865#p152865
+  - https://forum.turtlecraft.gg/viewtopic.php?p=153822#p153822
+  - https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  - https://forum.turtlecraft.gg/viewtopic.php?p=154470#p154470
+  - https://turtle-wow.fandom.com/wiki/Dragonmaw_Retreat
+  - https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content
+  - https://forum.turtlecraft.gg/viewtopic.php?p=29739#p29739
+  - https://forum.turtlecraft.gg/viewtopic.php?p=120619#p120619
+  - https://forum.turtlecraft.gg/viewtopic.php?p=126684#p126684
+  - https://forum.turtlecraft.gg/viewtopic.php?p=126813#p126813
+  - https://forum.turtlecraft.gg/viewtopic.php?p=126944#p126944
+  notes: Wiki states 13 bosses; 10 have wiki pages, so 3 are unnamed. Briefly mis-flagged as a 40-man dungeon until 2025-08-26. Reset exploit (shared with Stormwrought Ruins) fixed 2025-08-19. Three rounds of crash/memory-leak fixes. The internal timeline places it in the Grim Reaches; the wiki and the 1.18.0 blurb say Wetlands. No tactics thread; no numbers. Players debated whether Zuluhed's presence on Azeroth is lore-consistent; the consensus in that thread is that his Outland placement comes from post-vanilla lore Turtle does not use.
+- id: crescent-grove
+  name: The Crescent Grove
+  type: dungeon
+  size: 5
+  level_min: 32
+  level_range: 32-38
+  patch_introduced: 1.16.0
+  patches_changed:
+  - 1.16.1
+  - 1.17.0
+  - 1.17.2
+  - 1.18.0
+  zone: Ashenvale, above Mystral Lake
+  entry_requirements: not found in sources
+  lockout: not found in sources
+  custom: true
+  bosses:
+  - name: Grovetender Engryss
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Furbolg leader, level 34 elite. No abilities listed.
+    tactics_summary: null
+    loot:
+    - Groveweald Tribal Necklace
+    - Thornroot Maul
+    - Groveweald Elder Cuffs
+    - Furbolg Battle Grips
+    - Horn of Engryss
+    - Fashion Coin
+    - 'Groveweald Badge (quest: The Rampant Groveweald)'
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Grovetender_Engryss
+  - name: Keeper Ranathos
+    npc_id: null
+    order: null
+    abilities:
+    - name: Wrath
+      effect: null
+      numbers: null
+    mechanics_summary: Keeper of the grove, level 35 elite. Since 1.18.0 he calls Deranged Ancients to his side as he loses health.
+    tactics_summary: null
+    loot:
+    - Bow of the Grove
+    - Bands of Ranathos
+    - Glademender's Robes
+    - Treads of the Keeper
+    - Circlet of Cenarius
+    - Fashion Coin
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Keeper_Ranathos
+    - https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  - name: Warden Liferoot
+    npc_id: null
+    order: null
+    abilities:
+    - name: Wrath
+      effect: null
+      numbers: null
+    - name: Entangling Roots
+      effect: null
+      numbers: null
+    mechanics_summary: Night elf, level 35 elite. Since 1.18.0 Liferoot and Treeshade are accompanied by two Twisted Ancients that assist them.
+    tactics_summary: null
+    loot:
+    - Warden's Vest
+    - Crescent Grove Staff
+    - Thornstrand Sash
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Warden_Liferoot
+    - https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  - name: Warden Treeshade
+    npc_id: null
+    order: null
+    abilities:
+    - name: Wrath
+      effect: null
+      numbers: null
+    - name: Entangling Roots
+      effect: null
+      numbers: null
+    mechanics_summary: Night elf, level 35 elite; paired with Warden Liferoot, same Twisted Ancients mechanic and same loot table.
+    tactics_summary: null
+    loot:
+    - Warden's Vest
+    - Crescent Grove Staff
+    - Thornstrand Sash
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Warden_Treeshade
+    - https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  - name: High Priestess A'lathea
+    npc_id: null
+    order: null
+    abilities:
+    - name: Starfire
+      effect: Since 1.18.0 cast more frequently and for increased damage
+      numbers: null
+    - name: Moonfire
+      effect: Since 1.18.0 hits all players instead of only her main target
+      numbers: null
+    mechanics_summary: Night elf, level 36 elite, in the Vilethorn Scar.
+    tactics_summary: null
+    loot:
+    - Circlet of the Crescent Moon
+    - Sentinel's Moonslicer
+    - Moontouched Shoulders
+    - Crescent Sigil
+    - Fashion Coin
+    sources:
+    - https://turtle-wow.fandom.com/wiki/High_Priestess_A%27lathea
+    - https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  - name: Fenektis the Deceiver
+    npc_id: null
+    order: null
+    abilities:
+    - name: Blade Flurry
+      effect: Since 1.18.0 used much earlier in the fight
+      numbers: null
+    mechanics_summary: Satyr, level 37 elite, in the Vilethorn Scar. Has custom voice acting.
+    tactics_summary: null
+    loot:
+    - Felflame Shard
+    - Trickster's Wraps
+    - Betrayer
+    - Blackflame Wand
+    - Fashion Coin
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Fenektis_the_Deceiver
+    - https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  - name: Master Raxxieth
+    npc_id: null
+    order: null
+    abilities:
+    - name: Flamestrike
+      effect: null
+      numbers: null
+    - name: Half-health stun
+      effect: Since 1.18.0 he stuns all players when he reaches half health
+      numbers: null
+    mechanics_summary: Doomguard, level 38 elite, final boss in the Vilethorn Scar.
+    tactics_summary: null
+    loot:
+    - Crown of Corruption
+    - Blood-Spattered Helm
+    - Ring of Demonic Fury
+    - Shadowthread Cloak
+    - Slayer's Edge
+    - Fashion Coin
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Master_Raxxieth
+    - https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+    - https://forum.turtlecraft.gg/viewtopic.php?p=129934#p129934
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  - https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  - https://forum.turtlecraft.gg/viewtopic.php?p=28269#p28269
+  - https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  - https://forum.turtlecraft.gg/viewtopic.php?p=34787#p34787
+  - https://forum.turtlecraft.gg/viewtopic.php?p=46277#p46277
+  - https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980
+  - https://forum.turtlecraft.gg/viewtopic.php?p=96352#p96352
+  - https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  - https://forum.turtlecraft.gg/viewtopic.php?p=129934#p129934
+  - https://forum.turtlecraft.gg/viewtopic.php?p=155594#p155594
+  - https://turtlecraft.gg/raids-and-dungeons
+  - https://turtle-wow.fandom.com/wiki/Crescent_Grove
+  notes: 1.18.0 reworked every boss's mechanics. Since 2025-05-06 all creature packs pull together when one is attacked, removing single-pull strategies. No tactics thread; no numbers; Grovetender Engryss has no listed abilities.
+- id: stormwrought-ruins
+  name: Stormwrought Ruins
+  type: dungeon
+  size: 5
+  level_min: 35
+  level_range: 35-42 (official site); 35-41 (wiki); 35-44 (in-game LFT addon per community guide)
+  patch_introduced: 1.18.0
+  patches_changed:
+  - 1.18.0
+  - 1.18.1
+  zone: Balor, inside Stormwrought Castle
+  entry_requirements: 'Soft attunement: Key to Stormwrought Castle (quest 41837) unlocks shortcuts and access to more bosses'
+  lockout: not found in sources
+  custom: true
+  bosses:
+  - name: Librarian Theodorus
+    npc_id: null
+    order: null
+    abilities:
+    - name: Blizzard
+      effect: null
+      numbers: null
+    - name: Cone of Cold
+      effect: null
+      numbers: null
+    - name: Frostbolt
+      effect: null
+      numbers: null
+    - name: Summon Enraged Sea Elemental
+      effect: null
+      numbers: null
+    mechanics_summary: Human ghost, level 35 elite, Stormwrought Library (Castle section).
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Librarian_Theodorus
+  - name: Dagar the Glutton
+    npc_id: null
+    order: null
+    abilities:
+    - name: Tendon Rip
+      effect: Movement speed reduced
+      numbers: 58%
+    - name: Consume Flesh
+      effect: null
+      numbers: null
+    - name: Infected Bite
+      effect: Nature damage inflicted every 10 sec; increased physical damage taken
+      numbers: null
+    mechanics_summary: Level 34 elite, Stormwrought Kitchen (Castle section).
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Dagar_the_Glutton
+  - name: Oronok Torn-Heart
+    npc_id: null
+    order: null
+    abilities:
+    - name: Death and Decay
+      effect: null
+      numbers: null
+    - name: Death Coil
+      effect: null
+      numbers: null
+    - name: Shadow Burst
+      effect: null
+      numbers: null
+    - name: Shadow Bolt
+      effect: null
+      numbers: null
+    mechanics_summary: Level 34 elite, Stormwrought Museum (Castle section).
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Oronok_Torn-Heart
+  - name: Duke Balor the IV
+    npc_id: null
+    order: null
+    abilities:
+    - name: Mind Flay
+      effect: null
+      numbers: null
+    - name: Wailing Dead
+      effect: null
+      numbers: null
+    - name: Curse of Impotence
+      effect: null
+      numbers: null
+    - name: Psychic Scream
+      effect: null
+      numbers: null
+    - name: Dark Strike
+      effect: null
+      numbers: null
+    mechanics_summary: Human ghost, level 36 elite, Stormwrought Court (Castle section).
+    tactics_summary: null
+    loot:
+    - Robes of the Dukedom
+    - Kelpie's Legacy
+    - Vander Legguards
+    - Light's Sermon
+    - 'Crown of Balor (quest: The Late Duke Balor)'
+    - 'Balor Sigil Ring (quest: Skull And Bones)'
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Duke_Balor_the_IV
+  - name: Chieftain Stormsong
+    npc_id: null
+    order: null
+    abilities:
+    - name: Enrage
+      effect: null
+      numbers: null
+    - name: Lightning Strike
+      effect: null
+      numbers: null
+    - name: Stun Bomb
+      effect: null
+      numbers: null
+    - name: Forked Lightning
+      effect: null
+      numbers: null
+    mechanics_summary: Stormreaver orc, level 36 elite. Objective of 'Assassin In Training'.
+    tactics_summary: null
+    loot:
+    - Totem of Tides
+    - Stormreaver Mantle
+    - Treads of the Unknown
+    - Band of Subservience
+    - 'Pattern: Stormreaver Gloves'
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Chieftain_Stormsong
+  - name: Mycellakos
+    npc_id: null
+    order: null
+    abilities:
+    - name: Decaying Mold
+      effect: null
+      numbers: null
+    mechanics_summary: Bog beast, level 36 elite, Fetid Lake (Descent section).
+    tactics_summary: null
+    loot:
+    - Idol of Propagation
+    - Core of Mycellakos
+    - Fungal Threads
+    - Rusted Anchor
+    - Heart of Mycellakos (quest)
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Mycellakos
+  - name: Eldermaw the Primordial
+    npc_id: null
+    order: null
+    abilities:
+    - name: Tail Slap
+      effect: null
+      numbers: null
+    mechanics_summary: Crocolisk, level 37 elite, Rotting Caverns (Descent section).
+    tactics_summary: null
+    loot:
+    - Primordial Pauldrons
+    - Jaw of the Ancient
+    - Pants of Forgotten Ages
+    - Razorskin Cape
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Eldermaw_the_Primordial
+  - name: Subjugator Halthas Shadecrest
+    npc_id: null
+    order: null
+    abilities:
+    - name: Fear
+      effect: null
+      numbers: null
+    - name: Flamestrike
+      effect: null
+      numbers: null
+    mechanics_summary: Shadow Council night elf, level 37 elite, Stormwrought Terrace (Descent section).
+    tactics_summary: null
+    loot:
+    - Rod of Subjugation
+    - Obedient Shackles
+    - Leechmist Vine
+    - Crown of Oppression
+    - 'Recipe: Elixir of Rapid Growth'
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Subjugator_Halthas_Shadecrest
+  - name: Remains of the Innocent
+    npc_id: null
+    order: null
+    abilities:
+    - name: Diseased Slime
+      effect: null
+      numbers: null
+    - name: Noxious Cloud
+      effect: null
+      numbers: null
+    mechanics_summary: Ooze, level 38 elite, Sanctum of Blood (Descent section). Objective of 'Innocence Lost'.
+    tactics_summary: null
+    loot:
+    - Tiny Bracelet
+    - Bloodied Almanac
+    - Northwind Guard Breeches
+    - Dissolved Hookblade
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Remains_of_the_Innocent
+  - name: Lady Drazare
+    npc_id: null
+    order: null
+    abilities:
+    - name: Drazare's Embrace
+      effect: null
+      numbers: null
+    - name: Dark Seduction
+      effect: null
+      numbers: null
+    mechanics_summary: Succubus, level 38 elite, Sanctum of Blood (Descent section).
+    tactics_summary: null
+    loot:
+    - Whip of Shared Secrets
+    - Vest of Dark Desires
+    - Demon Hair Bow
+    - Nethershard Sickle
+    - 'Arthur''s Soul Fragment (quest: The Will of Balor)'
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Lady_Drazare
+  - name: Deathlord Tidebane
+    npc_id: null
+    order: null
+    abilities:
+    - name: Bone Armor
+      effect: null
+      numbers: null
+    - name: Drowning Death
+      effect: null
+      numbers: null
+    - name: Dark Plague
+      effect: null
+      numbers: null
+    - name: Wail of Souls
+      effect: null
+      numbers: null
+    - name: Rain of Fire
+      effect: null
+      numbers: null
+    mechanics_summary: Shadow Council orc, level 38 elite, Deathlord's Sepulcher (Descent section).
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Deathlord_Tidebane
+  - name: Ighal'for -> Mergothid
+    npc_id: null
+    order: null
+    abilities:
+    - name: Flamestrike
+      effect: null
+      numbers: null
+    - name: Immolate
+      effect: null
+      numbers: null
+    - name: Curse of Agony
+      effect: null
+      numbers: null
+    - name: Death Coil
+      effect: null
+      numbers: null
+    - name: Bloodstone Ritual
+      effect: null
+      numbers: null
+    - name: Spawn Rifttorn Nether Imps
+      effect: null
+      numbers: null
+    - name: Curse of Mergothid
+      effect: null
+      numbers: null
+    - name: Binding of Mergothid
+      effect: null
+      numbers: null
+    mechanics_summary: 'Two-stage final encounter in the Temple of Shadows: the ogre mage Ighal''for (level 38 elite) summons the beholder Mergothid (level 40 elite), whose ability list is shared by both wiki pages. Objective of ''Heart of Darkness'' and ''It Can''t Rain All the Time''.'
+    tactics_summary: Staff fixes confirm Ighal'for must survive long enough to summon Mergothid, and that the encounter had reset problems after wipes.
+    loot:
+    - Eyes of the Beholder
+    - Mantle of the Disciple
+    - Twisted Demon Crystal
+    - Chainmail of Writhing Miasma
+    - Treads of Forgotten Empathy
+    - Spine of Dentarg
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Mergothid
+    - https://turtle-wow.fandom.com/wiki/Ighal%27for
+    - https://forum.turtlecraft.gg/viewtopic.php?p=147116#p147116
+    - https://forum.turtlecraft.gg/viewtopic.php?p=148454#p148454
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  - https://forum.turtlecraft.gg/viewtopic.php?p=145822#p145822
+  - https://forum.turtlecraft.gg/viewtopic.php?p=147116#p147116
+  - https://forum.turtlecraft.gg/viewtopic.php?p=148454#p148454
+  - https://forum.turtlecraft.gg/viewtopic.php?p=149960#p149960
+  - https://forum.turtlecraft.gg/viewtopic.php?p=152865#p152865
+  - https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  - https://forum.turtlecraft.gg/viewtopic.php?p=154470#p154470
+  - https://turtlecraft.gg/raids-and-dungeons
+  - https://turtle-wow.fandom.com/wiki/Stormwrought_Ruins
+  - https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content
+  - https://forum.turtlecraft.gg/viewtopic.php?p=29739#p29739
+  - https://forum.turtlecraft.gg/viewtopic.php?p=120619#p120619
+  - https://forum.turtlecraft.gg/viewtopic.php?p=175765#p175765
+  notes: Split into Stormwrought Castle (first five bosses) and Stormwrought Descent (last seven). Which five count as Castle is partly inferred. Longest stated clear time of any custom 5-man (2 hours, official site). Reset exploit fixed 2025-08-19; three rounds of crash and memory-leak fixes. 14 quests per the wiki. No tactics thread; only Dagar's slow is quantified.
+- id: gilneas-city
+  name: Gilneas City
+  type: dungeon
+  size: 5
+  level_min: 43
+  level_range: 43-49 (staff, site, wiki); 42-50 (in-game LFT addon per community guide)
+  patch_introduced: 1.17.0
+  patches_changed:
+  - 1.17.0
+  - 1.18.0
+  zone: Gilneas (western)
+  entry_requirements: not found in sources
+  lockout: not found in sources
+  custom: true
+  bosses:
+  - name: Matthias Holtz
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Level 44 elite human. No abilities listed.
+    tactics_summary: null
+    loot:
+    - Gilneas Shackles
+    - Darkwatch Pants
+    - Worgen Hunter Grips
+    - Worgen Hunter Musket
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Matthias_Holtz
+  - name: Packmaster Ragetooth
+    npc_id: null
+    order: null
+    abilities:
+    - name: Howl of Terror
+      effect: null
+      numbers: null
+    - name: Shadow Bolt
+      effect: null
+      numbers: null
+    mechanics_summary: Level 44 elite worgen, leader of the Duskpelt pack.
+    tactics_summary: null
+    loot:
+    - Wolfheart Necklace
+    - Shaderun Boots
+    - Packmaster Gloves
+    - Orb of Aka'thar
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Packmaster_Ragetooth
+  - name: Judge Sutherland
+    npc_id: null
+    order: null
+    abilities:
+    - name: Smite
+      effect: null
+      numbers: null
+    - name: Fireball
+      effect: null
+      numbers: null
+    - name: Mind Blast
+      effect: null
+      numbers: null
+    mechanics_summary: Level 46 elite human. Objective of 'The Judge and the Phantom'.
+    tactics_summary: null
+    loot:
+    - Sutherland's Cuffs
+    - Mantle of Law
+    - Sash of Conviction
+    - Gavel of Gilnean Justice
+    - The Black Pendant
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Judge_Sutherland
+  - name: Dustivan Blackcowl
+    npc_id: null
+    order: null
+    abilities:
+    - name: Rupture
+      effect: null
+      numbers: null
+    - name: Gouge
+      effect: null
+      numbers: null
+    mechanics_summary: Level 46 elite human, rogue-style boss.
+    tactics_summary: null
+    loot:
+    - Hookblade Cleaver
+    - Blackcowl Sash
+    - Ring of Electrical Binding
+    - Dagger of Sinister Secrets
+    - Cloak of the Dark Veil
+    - 'Ebonmere Deed (quest: Ebonmere Affairs)'
+    - Tarnished Citrine Choker (Jewelcrafting quest)
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Dustivan_Blackcowl
+  - name: Horsemaster Levvin
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Level 47 elite human, Greymane Tower. No abilities listed.
+    tactics_summary: null
+    loot:
+    - Horsemaster Belt
+    - Horse Rustler Drape
+    - Stablehand Broom
+    - Stablemaster's Nightlight
+    - Greymane Charger (mount)
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Horsemaster_Levvin
+  - name: Marshal Magnus Greystone
+    npc_id: null
+    order: null
+    abilities:
+    - name: Holy Fire
+      effect: null
+      numbers: null
+    - name: Slam
+      effect: null
+      numbers: null
+    mechanics_summary: Level 47 elite human. Had a bug where he did not always drop loot (fixed 2024-12-03).
+    tactics_summary: null
+    loot:
+    - Greymane Helmet
+    - Chainlinked Cloak
+    - Band of Piercing Shadows
+    - Marshal's Blocker
+    - Scriptures of Blood
+    - Greymane Tabard
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Marshal_Magnus_Greystone
+    - https://forum.turtlecraft.gg/viewtopic.php?p=111130#p111130
+  - name: Regent-Lords of Gilneas
+    npc_id: null
+    order: null
+    abilities:
+    - name: Immolate
+      effect: Regent-Lady Celia Harlow
+      numbers: null
+    - name: Corruption
+      effect: Regent-Lady Celia Harlow
+      numbers: null
+    - name: Holy Strike
+      effect: Regent-Lord Mortimer Harlow
+      numbers: null
+    - name: Consecration
+      effect: Regent-Lord Mortimer Harlow
+      numbers: null
+    - name: Blast Wave
+      effect: Regent-Lord Mortimer Harlow
+      numbers: null
+    mechanics_summary: A two-target encounter (Celia + Mortimer Harlow), level 47 elites, Greymane Tower. Shared script with paired aggro and death emotes.
+    tactics_summary: null
+    loot:
+    - Ashen Leggings
+    - Wildfeather Bracers
+    - Fleshslasher
+    - Regal Robes of the Regent
+    - Resurging Necklace
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Regent-Lords_of_Gilneas
+  - name: Genn Greymane
+    npc_id: null
+    order: null
+    abilities:
+    - name: Drain Life
+      effect: null
+      numbers: null
+    - name: Mortal Strike
+      effect: null
+      numbers: null
+    - name: Curse of Agony
+      effect: null
+      numbers: null
+    - name: Fear
+      effect: null
+      numbers: null
+    mechanics_summary: Level 49 elite human, final boss in Greymane Tower. Scripted 50% emote.
+    tactics_summary: null
+    loot:
+    - Regal Goldforged Breastplate
+    - Swiftcaster's Chapeau
+    - Boots of Espionage
+    - Sack of Gruesome Eminence
+    - Robe of Light's Ambassador
+    - Wolfblood
+    - Greymane Shoulders
+    - 'Formula: Enchant Bracer - Vampirism'
+    - Gilnean Raven
+    - Mark of the Worgen
+    - The Greymane Crown (quest)
+    - Genn Greymane's Head (quest)
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Genn_Greymane_(tactics)
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  - https://forum.turtlecraft.gg/viewtopic.php?p=68406#p68406
+  - https://forum.turtlecraft.gg/viewtopic.php?p=71678#p71678
+  - https://forum.turtlecraft.gg/viewtopic.php?p=76368#p76368
+  - https://forum.turtlecraft.gg/viewtopic.php?p=94874#p94874
+  - https://forum.turtlecraft.gg/viewtopic.php?p=96794#p96794
+  - https://forum.turtlecraft.gg/viewtopic.php?p=111130#p111130
+  - https://forum.turtlecraft.gg/viewtopic.php?p=132195#p132195
+  - https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177
+  - https://forum.turtlecraft.gg/viewtopic.php?p=145131#p145131
+  - https://turtlecraft.gg/raids-and-dungeons
+  - https://turtle-wow.fandom.com/wiki/Gilneas_City
+  - https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content
+  - https://forum.turtlecraft.gg/viewtopic.php?p=29739#p29739
+  - https://forum.turtlecraft.gg/viewtopic.php?p=29764#p29764
+  - https://forum.turtlecraft.gg/viewtopic.php?p=69056#p69056
+  notes: Staff say two mini-bosses and five normal bosses (7); the wiki has 8 boss pages, probably because the Regent-Lords are one encounter with two NPCs. 14 quests per the wiki. Cited by players alongside Hateforge Quarry as the team's best instance design. Boss order inferred from level. No tactics thread; no numbers.
+- id: hateforge-quarry
+  name: Hateforge Quarry
+  type: dungeon
+  size: 5
+  level_min: 48
+  level_range: 52-60 (site, wiki; wiki minimum level 48); 50-60 (in-game LFT addon per community guide)
+  patch_introduced: 1.16.1
+  patches_changed:
+  - 1.16.1
+  - 1.18.1
+  zone: Burning Steppes, Hateforge Excavation (south-eastern per staff and wiki; the official site says north-eastern)
+  entry_requirements: not found in sources
+  lockout: not found in sources
+  custom: true
+  bosses:
+  - name: Corrosis
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Water elemental, level 52 elite. No abilities listed.
+    tactics_summary: null
+    loot:
+    - Sludge-drenched Sabatons
+    - Toxic Ripper
+    - Venomsight Mask
+    - Muckwater Leggings
+    - Corrosive Core
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Corrosis
+  - name: Engineer Figgles
+    npc_id: null
+    order: null
+    abilities:
+    - name: Corrosive Poison
+      effect: Nature damage inflicted every 5 sec; armor reduced
+      numbers: 657-843 damage per 5 sec; -5000 armor; 30 second duration
+    mechanics_summary: Leper gnome, level 54 elite. Disarm immunity removed 2025-06-10. Objective of 'Hunting Engineer Figgles'.
+    tactics_summary: null
+    loot:
+    - The Creator's Goggles
+    - Electroconductive Mitts
+    - Figgle's Coveralls
+    - Wrench of Creation
+    - Techrifle X-TREME 5200
+    - Decoy Dragonling Remote
+    - Fluorescent Green Mechanostrider
+    - Fashion Coin
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Engineer_Figgles
+    - https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177
+  - name: High Foreman Bargul Blackhammer
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Dark Iron dwarf, level 54 elite. No abilities listed. Disarm immunity removed 2025-06-10. Objective of 'The True High Foreman'.
+    tactics_summary: null
+    loot:
+    - Hateforged Cleaver
+    - Visor of Command
+    - Blackhammer Pauldrons
+    - Incendosaur Skin Boots
+    - Taskmaster's Tag
+    - 'Manual: Intervene'
+    - Dark Iron Hooked Net
+    - Fashion Coin
+    sources:
+    - https://turtle-wow.fandom.com/wiki/High_Foreman_Bargul_Blackhammer
+    - https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177
+  - name: Hatereaver Annihilator
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Golem, level 55 elite. No abilities listed.
+    tactics_summary: null
+    loot:
+    - Hatereaver Cog
+    - Flameforged Lugnut
+    - Ragereaver's Helm
+    - Blackstone Stompers
+    - Empowered Power Core
+    - Steamrigged Servohammer
+    - Fashion Coin
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Hatereaver_Annihilator
+  - name: Har'gesh Doomcaller
+    npc_id: null
+    order: null
+    abilities:
+    - name: Summon Faceless Terrors
+      effect: null
+      numbers: null
+    mechanics_summary: Twilight's Hammer orc, level 57 elite, final boss. Disarm immunity removed 2025-06-10. Objective of 'Assaulting Hateforge' and 'Of New and Old IV'.
+    tactics_summary: null
+    loot:
+    - Toxic Talisman
+    - Call of Shadow
+    - Sacrosanct Epaulets
+    - The Veil of Hatred
+    - Doomcaller Staff
+    - Band of Calamity
+    - Cuffs of Dawnfall
+    - Shawl of End Times
+    - Shadowruned Girdle
+    - Fashion Coin
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Har%27gesh_Doomcaller
+    - https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  - https://forum.turtlecraft.gg/viewtopic.php?p=63377#p63377
+  - https://forum.turtlecraft.gg/viewtopic.php?p=77428#p77428
+  - https://forum.turtlecraft.gg/viewtopic.php?p=83488#p83488
+  - https://forum.turtlecraft.gg/viewtopic.php?p=96794#p96794
+  - https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177
+  - https://forum.turtlecraft.gg/viewtopic.php?p=165755#p165755
+  - https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  - https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  - https://turtlecraft.gg/raids-and-dungeons
+  - https://turtle-wow.fandom.com/wiki/Hateforge_Quarry
+  - https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content
+  - https://forum.turtlecraft.gg/viewtopic.php?p=29739#p29739
+  - https://forum.turtlecraft.gg/viewtopic.php?p=29749#p29749
+  - https://forum.turtlecraft.gg/viewtopic.php?p=69056#p69056
+  - https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715
+  notes: Drops six blacksmithing plans; the 6-piece Hateforge Armor set bonus is +20 Attack Power, +100 Armor Penetration, +2% Haste. Small Thorium Veins inside had their respawn timer made prohibitively high in 2023 because the instance was used as a thorium farm. Engineer Figgles' Corrosive Poison is one of very few published ability numbers in the whole custom set. Boss order not documented; no tactics thread.
+- id: karazhan-crypt
+  name: Karazhan Crypt
+  type: dungeon
+  size: 5
+  level_min: 58
+  level_range: 58-60
+  patch_introduced: 1.16.0
+  patches_changed:
+  - 1.17.0
+  - 1.18.0
+  zone: Deadwind Pass
+  entry_requirements: 'Soft attunement: an iron gate outside the portal requires the Karazhan Crypt Key, or a rogue with Lockpicking 300; only one player needs it. Key chains: Alliance ''The Mystery of Karazhan I-VII'' (start 40311, end 40317), Horde ''The Depths of Karazhan I-VII'' (start 40304, end 40310). Since 1.18.0 the gate behaves like a normal door and can be opened with Lockpicking.'
+  lockout: not found in sources
+  custom: true
+  bosses:
+  - name: Marrowspike
+    npc_id: null
+    order: 1
+    abilities: []
+    mechanics_summary: 'Named by a player as the first boss. Drops 6 items: five at 18% and one at 10% drop chance.'
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=31595#p31595
+  - name: Corpsemuncher
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Reached by leaving the underwater section; the approach holds 4 skeletal guards and 1 frost spectre.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=14969#p14969
+  - name: Commander Andreon
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Promoted from a normal mob to a proper boss on 2023-01-29 with new abilities, health and damage values; six new item drops arrived 2023-01-31. Abilities not named in any source.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=33498#p33498
+    - https://forum.turtlecraft.gg/viewtopic.php?p=33639#p33639
+  - name: Archlich Enkhraz
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Named by a player alongside Alarus as a boss dropping one item per kill.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=20858#p20858
+  - name: Alarus
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Final boss. Drops the Staff of Alarus. Made to stop respawning after being killed on 2025-05-20.
+    tactics_summary: null
+    loot:
+    - Staff of Alarus
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=132195#p132195
+    - https://forum.turtlecraft.gg/viewtopic.php?p=111130#p111130
+    - https://turtle-wow.fandom.com/wiki/Karazhan_Crypt
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  - https://forum.turtlecraft.gg/viewtopic.php?p=33498#p33498
+  - https://forum.turtlecraft.gg/viewtopic.php?p=33639#p33639
+  - https://forum.turtlecraft.gg/viewtopic.php?p=81778#p81778
+  - https://forum.turtlecraft.gg/viewtopic.php?p=98410#p98410
+  - https://forum.turtlecraft.gg/viewtopic.php?p=111130#p111130
+  - https://forum.turtlecraft.gg/viewtopic.php?p=120590#p120590
+  - https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  - https://forum.turtlecraft.gg/viewtopic.php?p=132195#p132195
+  - https://turtlecraft.gg/raids-and-dungeons
+  - https://turtle-wow.fandom.com/wiki/Karazhan_Crypt
+  - https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content
+  - https://forum.turtlecraft.gg/viewtopic.php?p=29739#p29739
+  - https://forum.turtlecraft.gg/viewtopic.php?p=29757#p29757
+  - https://forum.turtlecraft.gg/viewtopic.php?p=120619#p120619
+  - https://forum.turtlecraft.gg/viewtopic.php?p=119888#p119888
+  - https://forum.turtlecraft.gg/viewtopic.php?p=119889#p119889
+  - https://forum.turtlecraft.gg/viewtopic.php?p=20858#p20858
+  - https://forum.turtlecraft.gg/viewtopic.php?p=14969#p14969
+  - https://forum.turtlecraft.gg/viewtopic.php?p=76719#p76719
+  - https://forum.turtlecraft.gg/viewtopic.php?p=88012#p88012
+  - https://forum.turtlecraft.gg/viewtopic.php?p=114873#p114873
+  - https://forum.turtlecraft.gg/viewtopic.php?p=127927#p127927
+  - https://forum.turtlecraft.gg/viewtopic.php?p=129644#p129644
+  notes: Wiki says 7 bosses; only 5 are recoverable by name from any source and no wiki boss pages exist for this dungeon. Creature health nerfed 5-10% in 2023-01-29 alongside a loot pass. Endgame custom-dungeon BoE rare drops raised from 0.0031%-0.01% to 0.02% (2024-07-03, shared with Black Morass and Stormwind Vault). Epic shoulders reported by a player at 0.25%. Alliance and Horde chain trinket rewards are unequal per player reports, with no staff answer. No abilities or numbers for any boss. Players using the third-party Turtle HD patch report repeatable client crashes at the same point near the start of the dungeon.
+- id: black-morass
+  name: 'Caverns of Time: Black Morass'
+  type: dungeon
+  size: 5
+  level_min: 60
+  level_range: '60'
+  patch_introduced: 1.16.0
+  patches_changed:
+  - 1.17.0
+  zone: Caverns of Time, Tanaris (south-west portal)
+  entry_requirements: not found in sources beyond access to the Caverns of Time
+  lockout: not found in sources
+  custom: true
+  bosses:
+  - name: Drifting Avatar of Time
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Added in the 1.17.0 rework, replacing The Harbinger; 'more time related with new custom spells and effects'. The related creature Drifting Avatar of Sand cannot be stunned or frozen.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+    - https://forum.turtlecraft.gg/viewtopic.php?p=69006#p69006
+  - name: Epidamu
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Infinite whelp; added in the 1.17.0 rework, replacing Infinite Chromie and inheriting most of her loot.
+    tactics_summary: null
+    loot:
+    - Totem of the Flowing Timeways
+    - Fabric of Time
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  - name: Rotmaw
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Was a rare boss; since 1.17.0 always present in the swamp section.
+    tactics_summary: null
+    loot:
+    - Idol of Savagery
+    - Wraps of the Transmogrified
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  - name: Mossheart
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Bog beast; was a rare boss, since 1.17.0 always present in the swamp section. Race corrected 2023-10-05.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+    - https://forum.turtlecraft.gg/viewtopic.php?p=69006#p69006
+  - name: Antnormi
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Infinite dragon, final boss; has custom voice acting. Correctly marked Dragonkin only on 2025-06-10.
+    tactics_summary: null
+    loot:
+    - Eye of the Abyss (epic, around 1% drop chance)
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+    - https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177
+    - https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  - https://forum.turtlecraft.gg/viewtopic.php?p=32681#p32681
+  - https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  - https://forum.turtlecraft.gg/viewtopic.php?p=54660#p54660
+  - https://forum.turtlecraft.gg/viewtopic.php?p=69006#p69006
+  - https://forum.turtlecraft.gg/viewtopic.php?p=77428#p77428
+  - https://forum.turtlecraft.gg/viewtopic.php?p=78235#p78235
+  - https://forum.turtlecraft.gg/viewtopic.php?p=88271#p88271
+  - https://forum.turtlecraft.gg/viewtopic.php?p=96794#p96794
+  - https://forum.turtlecraft.gg/viewtopic.php?p=98410#p98410
+  - https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177
+  - https://forum.turtlecraft.gg/viewtopic.php?p=145131#p145131
+  - https://turtlecraft.gg/raids-and-dungeons
+  - https://turtle-wow.fandom.com/wiki/Black_Morass
+  - https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content
+  - https://forum.turtlecraft.gg/viewtopic.php?p=29739#p29739
+  - https://forum.turtlecraft.gg/viewtopic.php?p=29758#p29758
+  - https://forum.turtlecraft.gg/viewtopic.php?p=20858#p20858
+  - https://forum.turtlecraft.gg/viewtopic.php?p=76719#p76719
+  - https://forum.turtlecraft.gg/viewtopic.php?p=89576#p89576
+  notes: 'Reworked in 1.17.0 after being closed; boss count raised to 7 but only 5 are named in any source. Grants Wardens of Time reputation: only disguised Infinite Dragonflight agents that transform into drakonids give reputation, and it goes to the whole team (5 per kill up to Friendly). Removed from the Cartographer title requirement ''for now'' in 2023. Quest count contested (2 on the wiki, 4 in the community guide). No abilities or numbers for any boss.'
+- id: stormwind-vault
+  name: Stormwind Vault
+  type: dungeon
+  size: 5
+  level_min: 58
+  level_range: 60 (site and wiki); minimum level to enter 58
+  patch_introduced: 1.16.0
+  patches_changed:
+  - 1.16.1
+  - 1.17.0
+  - 1.17.2
+  - 1.18.1
+  zone: Stormwind City (plus an undocumented secret sewer entrance and an entrance at Mirror Lake)
+  entry_requirements: None (no key). Quests are available to both factions.
+  lockout: not found in sources
+  custom: true
+  bosses:
+  - name: Volkan Cruelblade
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Burning Blade orc, level 62 elite, Interrogation Cells. No abilities listed; a combat emote ('Behind you!') suggests a positional attack.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Volkan_Cruelblade
+  - name: Damian
+    npc_id: null
+    order: null
+    abilities:
+    - name: Vanish
+      effect: null
+      numbers: null
+    - name: Low-health execute
+      effect: Formerly an unavoidable instakill on the highest-threat player at low health; changed to spell damage 2024-01-23 and removed entirely 2024-12-03
+      numbers: null
+    mechanics_summary: Human ('Damian the Ripper'), level 62 elite, Interrogation Cells.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Damian
+    - https://forum.turtlecraft.gg/viewtopic.php?p=85725#p85725
+    - https://forum.turtlecraft.gg/viewtopic.php?p=111130#p111130
+  - name: Black Bride
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Banshee, level 62 elite, Skittering Passage. No abilities listed; her death emote ties her to Damian.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Black_Bride
+  - name: Aszosh Grimflame
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Human warlock, level 62 elite, Gloom Cellar. Emotes indicate raising skeletons, draining and mind-affecting effects; no ability names published.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Aszosh_Grimflame
+  - name: Tham'Grarr
+    npc_id: null
+    order: null
+    abilities:
+    - name: Ice Block
+      effect: null
+      numbers: null
+    mechanics_summary: Two-headed ogre mage, level 62 elite, Conflux Block. The two heads speak separately and there is a scripted 50% point.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Tham%27Grarr
+  - name: Arc'tiras
+    npc_id: null
+    order: null
+    abilities:
+    - name: Summon Frigid Guardians
+      effect: null
+      numbers: null
+    - name: Frost Nova
+      effect: Pulsed at low health; interval changed from every 4 seconds to every 6 seconds on 2022-08-16, then a 'using Frost Nova too often' fix on 2025-10-14
+      numbers: null
+    mechanics_summary: Crystal, level 62 elite, Secluded Cell, final boss. The door closes once he is engaged (2023-09-12). Objective of 'Ending Arc'Tiras'; the Core of Arc'Tiras now spawns on the ground when he dies.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://turtle-wow.fandom.com/wiki/Arc%27tiras
+    - https://forum.turtlecraft.gg/viewtopic.php?p=22582#p22582
+    - https://forum.turtlecraft.gg/viewtopic.php?p=155594#p155594
+    - https://forum.turtlecraft.gg/viewtopic.php?p=63377#p63377
+    - https://forum.turtlecraft.gg/viewtopic.php?p=140939#p140939
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  - https://forum.turtlecraft.gg/viewtopic.php?p=14667#p14667
+  - https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  - https://forum.turtlecraft.gg/viewtopic.php?p=22582#p22582
+  - https://forum.turtlecraft.gg/viewtopic.php?p=24112#p24112
+  - https://forum.turtlecraft.gg/viewtopic.php?p=26292#p26292
+  - https://forum.turtlecraft.gg/viewtopic.php?p=29057#p29057
+  - https://forum.turtlecraft.gg/viewtopic.php?p=31601#p31601
+  - https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  - https://forum.turtlecraft.gg/viewtopic.php?p=32923#p32923
+  - https://forum.turtlecraft.gg/viewtopic.php?p=33498#p33498
+  - https://forum.turtlecraft.gg/viewtopic.php?p=37124#p37124
+  - https://forum.turtlecraft.gg/viewtopic.php?p=51551#p51551
+  - https://forum.turtlecraft.gg/viewtopic.php?p=63377#p63377
+  - https://forum.turtlecraft.gg/viewtopic.php?p=66741#p66741
+  - https://forum.turtlecraft.gg/viewtopic.php?p=71678#p71678
+  - https://forum.turtlecraft.gg/viewtopic.php?p=76368#p76368
+  - https://forum.turtlecraft.gg/viewtopic.php?p=81778#p81778
+  - https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980
+  - https://forum.turtlecraft.gg/viewtopic.php?p=85725#p85725
+  - https://forum.turtlecraft.gg/viewtopic.php?p=86423#p86423
+  - https://forum.turtlecraft.gg/viewtopic.php?p=98410#p98410
+  - https://forum.turtlecraft.gg/viewtopic.php?p=111130#p111130
+  - https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177
+  - https://forum.turtlecraft.gg/viewtopic.php?p=140939#p140939
+  - https://forum.turtlecraft.gg/viewtopic.php?p=155594#p155594
+  - https://turtlecraft.gg/raids-and-dungeons
+  - https://turtle-wow.fandom.com/wiki/Stormwind_Vault
+  - https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content
+  - https://forum.turtlecraft.gg/viewtopic.php?p=29739#p29739
+  - https://forum.turtlecraft.gg/viewtopic.php?p=29759#p29759
+  notes: Contains a scripted Rat Trap that became unavoidable once triggered (2023-03-08). Deaths send players to the Elwynn Forest graveyards since 2024-01-30. Boss loot tables are empty placeholders on the wiki in this extraction. The internal timeline notes the wiki elsewhere claims patch 1.15.0; the staff changelog and the wiki's own patch section both say 1.16.0. Quest count contested (4 on the wiki, 6 in the community guide). No numbers; four of six bosses have no listed abilities.
+- id: lower-karazhan-halls
+  name: Lower Karazhan Halls
+  type: raid
+  size: 10
+  level_min: 60
+  level_range: '60'
+  patch_introduced: 1.17.0
+  patches_changed:
+  - 1.17.0
+  - 1.17.2
+  - 1.18.0
+  - 1.18.1
+  zone: Deadwind Pass (front door of the Karazhan tower)
+  entry_requirements: None. Neither the Karazhan Crypt Key nor the Upper Karazhan Tower Key is required.
+  lockout: Resets every 5 days (community guide; no staff source)
+  custom: true
+  bosses:
+  - name: Brood Queen Araxxna
+    npc_id: 61221
+    order: null
+    abilities:
+    - name: Poison spit
+      effect: Raid-wide poison that must be cleansed; Abolish Poison strongly preferred over paladin cleanse
+      numbers: null
+    - name: Summon eggs
+      effect: Egg adds that must be killed at once; Skitterweb Eggs are immune to all crowd control since 2025-02-04
+      numbers: null
+    mechanics_summary: One of four bosses that gate Moroes; they can be killed in any order.
+    tactics_summary: A shaman Poison Cleansing Totem makes the cleansing easy and two totems trivialise the fight, per players.
+    loot:
+    - Araxxna's Husk (140 armor, 15 stamina, 1% dodge)
+    - Araxxna's Hatchling (pet)
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=160087#p160087
+    - https://forum.turtlecraft.gg/viewtopic.php?p=160089#p160089
+    - https://forum.turtlecraft.gg/viewtopic.php?p=118948#p118948
+    - https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+    - https://forum.turtlecraft.gg/viewtopic.php?p=52542#p52542
+    - https://forum.turtlecraft.gg/viewtopic.php?p=160125#p160125
+  - name: Grizikil
+    npc_id: 61224
+    order: null
+    abilities:
+    - name: Flamewave
+      effect: A Baron-Geddon-style Inferno to run out of (spell 57091)
+      numbers: null
+    - name: Grellkin Rain of Fire
+      effect: Cast on the raid; move out of it (spell 57093)
+      numbers: null
+    mechanics_summary: Imp/grellkin wing. All imps in the corridor and side rooms must be cleared before the pull or they join the fight.
+    tactics_summary: null
+    loot:
+    - Totem of Crackling Thunder
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=160087#p160087
+    - https://forum.turtlecraft.gg/viewtopic.php?p=52799#p52799
+  - name: Clawlord Howlfang
+    npc_id: 61223
+    order: null
+    abilities:
+    - name: Armor and damage debuff
+      effect: Reduces armor and damage done; removable only by breaking line of sight with the boss; swap at roughly 15 stacks
+      numbers: null
+    - name: Shadowbane Curse
+      effect: Must be decursed from tanks (spell 57084)
+      numbers: null
+    mechanics_summary: Worgen wing. One of only two fights that strictly require two tanks.
+    tactics_summary: 'Contested: the community guide says drop stacks by breaking line of sight; other players describe a taunt rotation plus Tranquilizing Shot, or a paladin bubble. A reset spot exists above a nearby pillar. Open bug: heavy taunt resists, possibly because he loses his target while casting - wait for him to acquire a target before taunting.'
+    loot:
+    - Idol of the Moonfang
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=160087#p160087
+    - https://forum.turtlecraft.gg/viewtopic.php?p=160143#p160143
+    - https://forum.turtlecraft.gg/viewtopic.php?p=160173#p160173
+    - https://forum.turtlecraft.gg/viewtopic.php?p=141670#p141670
+    - https://forum.turtlecraft.gg/viewtopic.php?p=141323#p141323
+    - https://forum.turtlecraft.gg/viewtopic.php?p=162969#p162969
+    - https://forum.turtlecraft.gg/viewtopic.php?p=162983#p162983
+    - https://forum.turtlecraft.gg/viewtopic.php?p=162984#p162984
+    - https://forum.turtlecraft.gg/viewtopic.php?p=52799#p52799
+    - https://forum.turtlecraft.gg/viewtopic.php?p=52873#p52873
+    - https://forum.turtlecraft.gg/viewtopic.php?p=87278#p87278
+    - https://forum.turtlecraft.gg/viewtopic.php?p=108118#p108118
+  - name: Dark Rider Champion
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Must be killed before Lord Blackwald II can be reached; staff implemented this as a spawn condition on 2023-10-17.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=160087#p160087
+    - https://forum.turtlecraft.gg/viewtopic.php?p=71678#p71678
+  - name: Lord Blackwald II
+    npc_id: 61222
+    order: null
+    abilities:
+    - name: Summon adds
+      effect: Roughly one add every 30 seconds per a player; usually no more than 2-3 up at once
+      numbers: null
+    - name: Curse
+      effect: Tanks must be decursed
+      numbers: null
+    mechanics_summary: Reached only after Dark Rider Champion dies. A respawn exploit was closed on 2023-10-25 and loot from exploited kills was removed from players.
+    tactics_summary: Handle the adds with mage CC or a designated off-tank; decurse the tanks.
+    loot:
+    - Libram of the Faithful
+    - Scythe of the Goddess (quest 41062)
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=160087#p160087
+    - https://forum.turtlecraft.gg/viewtopic.php?p=141670#p141670
+    - https://forum.turtlecraft.gg/viewtopic.php?p=73511#p73511
+    - https://forum.turtlecraft.gg/viewtopic.php?p=52799#p52799
+  - name: Moroes
+    npc_id: 61225
+    order: null
+    abilities:
+    - name: AoE silence
+      effect: Cast on random players, small area of effect
+      numbers: null
+    - name: Tank stun
+      effect: Stuns the current main tank regularly
+      numbers: null
+    - name: '"Pocket sand"'
+      effect: Player description of the signature ability, thrown at the highest-threat player on roughly a 30 second cadence
+      numbers: null
+    mechanics_summary: 'Final boss, on the opera stage. The fight is phased and he is untargetable between phases. Player recollection: the fight originally had two phases - an arena phase with spectator benches where he blinded the tank and mind-controlled a raid member, then a teleport to the stage for a second phase where he dropped aggro onto random players. The transition bugged repeatedly and, per that player, only the second phase remains.'
+    tactics_summary: Spread out; put the two healers on opposite edges of the arena so they are never silenced at the same time. Tanks must be dispelled so they can taunt, and the fight needs a regular taunt rotation. DPS must stay below both tanks on threat.
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=160087#p160087
+    - https://forum.turtlecraft.gg/viewtopic.php?p=160165#p160165
+    - https://forum.turtlecraft.gg/viewtopic.php?p=160175#p160175
+    - https://forum.turtlecraft.gg/viewtopic.php?p=141670#p141670
+    - https://forum.turtlecraft.gg/viewtopic.php?p=81562#p81562
+    - https://forum.turtlecraft.gg/viewtopic.php?p=83531#p83531
+    - https://forum.turtlecraft.gg/viewtopic.php?p=108116#p108116
+    - https://forum.turtlecraft.gg/viewtopic.php?p=108118#p108118
+    - https://forum.turtlecraft.gg/viewtopic.php?p=108105#p108105
+    - https://forum.turtlecraft.gg/viewtopic.php?p=108117#p108117
+  - name: Master Blacksmith Rolfen
+    npc_id: 61319
+    order: null
+    abilities: []
+    mechanics_summary: Optional boss, killed only for blacksmithing plans.
+    tactics_summary: null
+    loot:
+    - 'Plans: Towerforge Demolisher (Hammersmith)'
+    - three Armorsmithing Towerforge plans (helmet, breastplate, pauldrons, two-handed mace set)
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=160087#p160087
+    - https://forum.turtlecraft.gg/viewtopic.php?p=52800#p52800
+    - https://forum.turtlecraft.gg/viewtopic.php?p=168204#p168204
+    - https://forum.turtlecraft.gg/viewtopic.php?p=168191#p168191
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  - https://forum.turtlecraft.gg/viewtopic.php?p=67821#p67821
+  - https://forum.turtlecraft.gg/viewtopic.php?p=69525#p69525
+  - https://forum.turtlecraft.gg/viewtopic.php?p=70096#p70096
+  - https://forum.turtlecraft.gg/viewtopic.php?p=71678#p71678
+  - https://forum.turtlecraft.gg/viewtopic.php?p=73511#p73511
+  - https://forum.turtlecraft.gg/viewtopic.php?p=77428#p77428
+  - https://forum.turtlecraft.gg/viewtopic.php?p=81562#p81562
+  - https://forum.turtlecraft.gg/viewtopic.php?p=83488#p83488
+  - https://forum.turtlecraft.gg/viewtopic.php?p=84147#p84147
+  - https://forum.turtlecraft.gg/viewtopic.php?p=87117#p87117
+  - https://forum.turtlecraft.gg/viewtopic.php?p=87728#p87728
+  - https://forum.turtlecraft.gg/viewtopic.php?p=88271#p88271
+  - https://forum.turtlecraft.gg/viewtopic.php?p=99696#p99696
+  - https://forum.turtlecraft.gg/viewtopic.php?p=118168#p118168
+  - https://forum.turtlecraft.gg/viewtopic.php?p=118948#p118948
+  - https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  - https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  - https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  - https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  - https://turtlecraft.gg/raids-and-dungeons
+  - https://turtle-wow.fandom.com/wiki/Lower_Karazhan_Halls
+  - https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content
+  - https://forum.turtlecraft.gg/viewtopic.php?p=160087#p160087
+  - https://forum.turtlecraft.gg/viewtopic.php?p=160174#p160174
+  - https://forum.turtlecraft.gg/viewtopic.php?p=141323#p141323
+  - https://forum.turtlecraft.gg/viewtopic.php?p=141546#p141546
+  - https://forum.turtlecraft.gg/viewtopic.php?p=141554#p141554
+  - https://forum.turtlecraft.gg/viewtopic.php?p=108105#p108105
+  - https://forum.turtlecraft.gg/viewtopic.php?p=108116#p108116
+  - https://forum.turtlecraft.gg/viewtopic.php?p=108117#p108117
+  - https://forum.turtlecraft.gg/viewtopic.php?p=108118#p108118
+  - https://forum.turtlecraft.gg/viewtopic.php?p=87278#p87278
+  - https://forum.turtlecraft.gg/viewtopic.php?p=109707#p109707
+  - https://forum.turtlecraft.gg/viewtopic.php?p=167969#p167969
+  - https://forum.turtlecraft.gg/viewtopic.php?p=88922#p88922
+  notes: 'Boss count contested: staff say six, wiki says five, the community guide describes four gating bosses plus Moroes plus one optional. Notable loot: The Scythe of Elune (item 61184, very rare, starts a legendary caster-trinket chain finished in Tower of Karazhan), Sliver of Hope (61451), Leggings of the Misty Marsh (61256), Marshtreader Slippers (61297), Rod of Resuscitation (61454), Reedwoven Tunic (61250), Fist of the Forgotten Order, Tome of Portals: Theramore/Stonard. Item level roughly iLvl 68 blues, 66-68 epics, 70-72 epics from Moroes. Bosses buffed 2025-01-28 to match rewards. Rolfen''s Towerforge plans reported at 1.44% each. Two independent players give the lockout as a 5-day reset. The Scythe of Elune drop rate is variously reported as under 1% and as 2%; no staff figure exists. Araxxna''s Husk is linked with two different item IDs by different players (61816 and 91777).'
+- id: emerald-sanctum
+  name: Emerald Sanctum
+  type: raid
+  size: 40
+  level_min: 60
+  level_range: '60'
+  patch_introduced: 1.17.0
+  patches_changed:
+  - 1.17.0
+  - 1.17.2
+  - 1.18.1
+  zone: Hyjal (through the Emerald Gateway)
+  entry_requirements: Gemstone of Ysera from the 'Into the Dream' I-VI chain in Hyjal (quests 40957-40962). The Arcanite Rod requirement was removed in 1.17.2. The gemstone must be kept in the bags to enter.
+  lockout: not found in sources
+  custom: true
+  bosses:
+  - name: Erennius
+    npc_id: null
+    order: 1
+    abilities:
+    - name: Dreamstate
+      effect: A sleep; made an actual sleep and a dispellable Magic debuff in 1.17.2
+      numbers: null
+    - name: Call of Nightmare
+      effect: Modified to ignore line of sight (2023-10-17)
+      numbers: null
+    - name: Anti-kite teleport
+      effect: Players too far away are slept and pulled to him; a player reports this also sleeps people fighting Solnius when he drops threat
+      numbers: null
+    mechanics_summary: 'Green dragon, described by staff as the mini boss. Damage increased 25% on 2023-10-17. Immune to horror and disorientation since 2024-04-03. In hard mode he stays active while Solnius is fought. Player-reported health: 1.12 million. In normal mode he is killed (dropping the Claw of Erennius, item 61652, a guaranteed healer mace); in hard mode he survives and is freed from the Nightmare when Solnius dies - a player reconstruction consistent across three threads, never stated by staff.'
+    tactics_summary: Tank him roughly 40 yards from the raid with a dedicated add tank (preferably a warrior) and three healers in their own group, with a fourth healer chaining them. Do not dispel by default. Line-of-sight strategies are contested and have been repeatedly patched.
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+    - https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980
+    - https://forum.turtlecraft.gg/viewtopic.php?p=71678#p71678
+    - https://forum.turtlecraft.gg/viewtopic.php?p=91958#p91958
+    - https://forum.turtlecraft.gg/viewtopic.php?p=83859#p83859
+    - https://forum.turtlecraft.gg/viewtopic.php?p=130281#p130281
+    - https://forum.turtlecraft.gg/viewtopic.php?p=130280#p130280
+    - https://forum.turtlecraft.gg/viewtopic.php?p=149181#p149181
+    - https://turtle-wow.fandom.com/wiki/Erennius
+    - https://forum.turtlecraft.gg/viewtopic.php?p=69843#p69843
+    - https://forum.turtlecraft.gg/viewtopic.php?p=99769#p99769
+    - https://forum.turtlecraft.gg/viewtopic.php?p=93145#p93145
+    - https://forum.turtlecraft.gg/viewtopic.php?p=93177#p93177
+    - https://forum.turtlecraft.gg/viewtopic.php?p=169696#p169696
+  - name: Solnius the Awakener
+    npc_id: 60748
+    order: 2
+    abilities:
+    - name: Melee AoE
+      effect: Cast on random players in melee; deals very high damage if melee clump
+      numbers: null
+    - name: Transformation
+      effect: He transforms in the later phase, after which the main tank takes breaths
+      numbers: null
+    - name: Purgeable self-buff
+      effect: Described by a player as looking like the goblin shrink ray debuff
+      numbers: null
+    - name: Sleep transition (add phase)
+      effect: At 55-60% health Solnius becomes untargetable and summons a few big dragonkin adds surrounded by a pack of Sanctum Dreamers (npc 60742). The composition of the big adds is completely random.
+      numbers: Sanctum Suppressor (npc 61212) 112,401 hp / 3,107-4,122 dmg / 3,320 armor; Sanctum Wyrmkin (60745) 108,412 hp / 1,687-2,235 dmg / 3,315 armor; Sanctum Dragonkin (60743) 131,499 hp / 1,687-2,235 dmg / 4,452 armor; Sanctum Scalebane (60746) 248,622 hp / 3,107-4,122 dmg / 4,890 armor
+    mechanics_summary: 'Green dragon, final boss. Immune to horror and disorientation; nature/poison immune, which is why Corrosive Poison was added for rogues. Health 2,391,088; damage 1,999-2,650; armor 4,712; 50 nature and 100 shadow resistance (player, from the in-game database). Player-measured health in 2023: 2.4 million.'
+    tactics_summary: 'Melee at maximum melee range, fanned out in the back half of the boss. Keep Detect Magic up and purge the self-buff. In the add phase let a paladin hold the welps, burn the elites, focus spellcasters first and leave the scalebane for last, and only bomb once all three elites are down. Two tanks race for threat until he transforms. Scalebanes have 2-2.5x the effective health of the other adds, so a spawn with 2+ of them is far harder purely by luck; leave them for last. A player also reports a trash skip: a hunter pulls Solnius and feigns, and the trash does not follow.'
+    loot:
+    - Ancient Jade Leggings (+8 Two-Handed Mace skill, reported at 6% drop chance)
+    - Jade Scale of the Dreamer
+    - Emerald Drake (mount, added 2025-09-02)
+    - druid glyph appearances
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+    - https://forum.turtlecraft.gg/viewtopic.php?p=130281#p130281
+    - https://forum.turtlecraft.gg/viewtopic.php?p=91958#p91958
+    - https://forum.turtlecraft.gg/viewtopic.php?p=102971#p102971
+    - https://forum.turtlecraft.gg/viewtopic.php?p=149960#p149960
+    - https://forum.turtlecraft.gg/viewtopic.php?p=80796#p80796
+    - https://forum.turtlecraft.gg/viewtopic.php?p=129590#p129590
+    - https://turtle-wow.fandom.com/wiki/Solnius
+    - https://forum.turtlecraft.gg/viewtopic.php?p=94829#p94829
+    - https://forum.turtlecraft.gg/viewtopic.php?p=95027#p95027
+    - https://forum.turtlecraft.gg/viewtopic.php?p=95765#p95765
+    - https://forum.turtlecraft.gg/viewtopic.php?p=69843#p69843
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  - https://forum.turtlecraft.gg/viewtopic.php?p=67821#p67821
+  - https://forum.turtlecraft.gg/viewtopic.php?p=69525#p69525
+  - https://forum.turtlecraft.gg/viewtopic.php?p=70087#p70087
+  - https://forum.turtlecraft.gg/viewtopic.php?p=70096#p70096
+  - https://forum.turtlecraft.gg/viewtopic.php?p=71678#p71678
+  - https://forum.turtlecraft.gg/viewtopic.php?p=73511#p73511
+  - https://forum.turtlecraft.gg/viewtopic.php?p=76368#p76368
+  - https://forum.turtlecraft.gg/viewtopic.php?p=79953#p79953
+  - https://forum.turtlecraft.gg/viewtopic.php?p=80839#p80839
+  - https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980
+  - https://forum.turtlecraft.gg/viewtopic.php?p=87117#p87117
+  - https://forum.turtlecraft.gg/viewtopic.php?p=91958#p91958
+  - https://forum.turtlecraft.gg/viewtopic.php?p=118948#p118948
+  - https://forum.turtlecraft.gg/viewtopic.php?p=120590#p120590
+  - https://forum.turtlecraft.gg/viewtopic.php?p=149960#p149960
+  - https://forum.turtlecraft.gg/viewtopic.php?p=155594#p155594
+  - https://forum.turtlecraft.gg/viewtopic.php?p=176101#p176101
+  - https://turtlecraft.gg/raids-and-dungeons
+  - https://turtle-wow.fandom.com/wiki/Emerald_Sanctum
+  - https://forum.turtlecraft.gg/viewtopic.php?p=83859#p83859
+  - https://forum.turtlecraft.gg/viewtopic.php?p=92053#p92053
+  - https://forum.turtlecraft.gg/viewtopic.php?p=92054#p92054
+  - https://forum.turtlecraft.gg/viewtopic.php?p=92063#p92063
+  - https://forum.turtlecraft.gg/viewtopic.php?p=92070#p92070
+  - https://forum.turtlecraft.gg/viewtopic.php?p=130280#p130280
+  - https://forum.turtlecraft.gg/viewtopic.php?p=130281#p130281
+  - https://forum.turtlecraft.gg/viewtopic.php?p=130283#p130283
+  - https://forum.turtlecraft.gg/viewtopic.php?p=149181#p149181
+  - https://forum.turtlecraft.gg/viewtopic.php?p=120619#p120619
+  - https://forum.turtlecraft.gg/viewtopic.php?p=69843#p69843
+  - https://forum.turtlecraft.gg/viewtopic.php?p=94829#p94829
+  - https://forum.turtlecraft.gg/viewtopic.php?p=95027#p95027
+  - https://forum.turtlecraft.gg/viewtopic.php?p=99769#p99769
+  - https://forum.turtlecraft.gg/viewtopic.php?p=93145#p93145
+  - https://forum.turtlecraft.gg/viewtopic.php?p=93177#p93177
+  - https://forum.turtlecraft.gg/viewtopic.php?p=169696#p169696
+  - https://forum.turtlecraft.gg/viewtopic.php?p=128282#p128282
+  notes: 'Optional hard mode exists; how it is started is not documented. Staff said in 2023 it would stay 40-man; the 2026-04-21 hotfix made scaling active on all raids with a 16-player minimum for 40-player raids. Five creature groups were removed in 2023-12 to make the raid less of a slog. Other rewards: Emerald Blessing druid raid buff (80 yd, 10% movement speed, 1% spell hit, 5% mana regen in combat, costs one Bright Dream Shard), Favor of Erennius chest, dream shards and dreamscale. Players complain about 4%-per-week recipe drops and the Emerald Dream frog pet, and about undocumented anti-strategy changes. Health values (player, from the in-game database): Erennius 1.12M, Solnius 2,391,088. Normal mode kills Erennius; hard mode leaves him alive, which is why hard-mode raids get no Claw of Erennius. The random add composition in the sleep transition has never been addressed by staff.'
+- id: tower-of-karazhan
+  name: Tower of Karazhan
+  type: raid
+  size: 40
+  level_min: 60
+  level_range: '60'
+  patch_introduced: 1.17.2
+  patches_changed:
+  - 1.17.2
+  - 1.18.0
+  - 1.18.1
+  zone: Deadwind Pass
+  entry_requirements: Upper Karazhan Tower Key (The Key to Karazhan I-X, quests 40817-40829) opens the first five bosses; the Scepter of Medivh opens the last four. The scepter chain includes the Gemstone of Zhan scavenger hunt and only one player in the raid needs it.
+  lockout: not found in sources
+  custom: true
+  bosses:
+  - name: Keeper Gnarlmoon
+    npc_id: null
+    order: 1
+    abilities:
+    - name: Blood Boil
+      effect: Damage slightly reduced 2025-05-13
+      numbers: null
+    - name: Phase Shift
+      effect: Damage slightly reduced 2025-05-13
+      numbers: null
+    - name: Blood Moon
+      effect: A recurring effect players heal through
+      numbers: null
+    - name: Ravens
+      effect: Adds that can only be damaged by players carrying the correct aura; pets and totems were made able to damage them if their owner has that aura
+      numbers: null
+    - name: Immunity phase
+      effect: He becomes immune and should stand still
+      numbers: null
+    mechanics_summary: Worgen, The Menagerie. One of only two Kara40 fights with a primary target plus many small adds.
+    tactics_summary: null
+    loot:
+    - Idol of Laceration
+    - Ley-Attuned Choker
+    - Torn Wings of Midnight
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=130900#p130900
+    - https://forum.turtlecraft.gg/viewtopic.php?p=126056#p126056
+    - https://forum.turtlecraft.gg/viewtopic.php?p=170300#p170300
+    - https://forum.turtlecraft.gg/viewtopic.php?p=174801#p174801
+    - https://forum.turtlecraft.gg/viewtopic.php?p=52799#p52799
+    - https://forum.turtlecraft.gg/viewtopic.php?p=128636#p128636
+    - https://turtle-wow.fandom.com/wiki/Keeper_Gnarlmoon
+  - name: Ley-Watcher Incantagos
+    npc_id: null
+    order: 2
+    abilities:
+    - name: Guided Ley Beam
+      effect: Channelled; channel time before damage increased 2025-05-13 and a text cue added
+      numbers: null
+    - name: Arcane Rain
+      effect: Raid damage effect
+      numbers: null
+    - name: Affinities
+      effect: One add per magic school (fire, frost, shadow, nature, arcane), each of which must be killed by damage of its own school inside a short window. Health varies per school, adjusted separately on PvP realms; they despawn on death.
+      numbers: player estimate of about 40,000 health per affinity in a 15 second window
+    - name: Incantagos Curse
+      effect: Increases mana cost; must be cleansed
+      numbers: 300% mana cost increase
+    mechanics_summary: Blue drakonid, Guardian's Library.
+    tactics_summary: 'A raid leader claimed the fight requires 5+ caster dps of every element. Staff answered that ''the boss has been downed with as low as 2 on some elements, and with 3 on all''. A player who killed it says healers and hybrids count toward the schools: holy priests on shadow, ferals and resto druids on nature. Contested.'
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=130900#p130900
+    - https://forum.turtlecraft.gg/viewtopic.php?p=129028#p129028
+    - https://forum.turtlecraft.gg/viewtopic.php?p=126056#p126056
+    - https://forum.turtlecraft.gg/viewtopic.php?p=128053#p128053
+    - https://forum.turtlecraft.gg/viewtopic.php?p=170300#p170300
+    - https://turtle-wow.fandom.com/wiki/Ley-Watcher_Incantigos
+    - https://forum.turtlecraft.gg/viewtopic.php?p=126572#p126572
+    - https://forum.turtlecraft.gg/viewtopic.php?p=126582#p126582
+    - https://forum.turtlecraft.gg/viewtopic.php?p=126634#p126634
+    - https://forum.turtlecraft.gg/viewtopic.php?p=126644#p126644
+    - https://forum.turtlecraft.gg/viewtopic.php?p=126648#p126648
+    - https://forum.turtlecraft.gg/viewtopic.php?p=128282#p128282
+  - name: Anomalus
+    npc_id: null
+    order: 3
+    abilities:
+    - name: Arcane Prison
+      effect: Can no longer be reflected or redirected
+      numbers: null
+    - name: Arcane Aura
+      effect: Damage; spell pushback from it was disabled
+      numbers: null
+    mechanics_summary: Arcane elemental, Guardian's Library. Bleed-immune, as is everything from him until Chess. Encounter requirements were reduced 2025-04-16. Since 2026-03-03 he cannot be fought outside his room.
+    tactics_summary: Arcane specs cannot be played on him. A player argues the fight effectively requires arcane resistance for the whole raid. Holy paladins do more than half their healing in melee range here.
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=126056#p126056
+    - https://forum.turtlecraft.gg/viewtopic.php?p=126946#p126946
+    - https://forum.turtlecraft.gg/viewtopic.php?p=169965#p169965
+    - https://forum.turtlecraft.gg/viewtopic.php?p=134911#p134911
+    - https://forum.turtlecraft.gg/viewtopic.php?p=168411#p168411
+    - https://forum.turtlecraft.gg/viewtopic.php?p=139090#p139090
+    - https://forum.turtlecraft.gg/viewtopic.php?p=132929#p132929
+    - https://turtle-wow.fandom.com/wiki/Anomalus
+  - name: Echo of Medivh
+    npc_id: null
+    order: 4
+    abilities:
+    - name: Doom of Medivh
+      effect: Dispellable; dispel damage significantly reduced 2025-05-13; fades when Echo of Medivh dies (1.18.1)
+      numbers: null
+    - name: Corruption of Medivh
+      effect: Raid warning added 2025-05-13; no longer cast on the main threat target (1.18.1)
+      numbers: null
+    mechanics_summary: Projection, The Celestial Watch. Immune to Shackle Undead.
+    tactics_summary: A warrior thread argues the fight is built around Spell Reflection.
+    loot:
+    - Libram of the Eternal Tower
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=130900#p130900
+    - https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+    - https://forum.turtlecraft.gg/viewtopic.php?p=129028#p129028
+    - https://forum.turtlecraft.gg/viewtopic.php?p=135351#p135351
+    - https://forum.turtlecraft.gg/viewtopic.php?p=52799#p52799
+    - https://turtle-wow.fandom.com/wiki/Echo_of_Medivh
+  - name: Chess Event
+    npc_id: null
+    order: 5
+    abilities:
+    - name: King's Fury
+      effect: Cleanses all players from Dark Subservience (1.18.1)
+      numbers: null
+    - name: Dark Subservience
+      effect: A charm effect on players
+      numbers: null
+    - name: Ghastly Horseman
+      effect: Damage reduced 2025-05-13
+      numbers: null
+    - name: Knight and Rook abilities
+      effect: Frequency reduced 2025-05-13
+      numbers: null
+    mechanics_summary: 'Pieces are separate NPCs: King, Queen, Rook / Broken Rook, Knight / Malfunctioning Knight, Bishop / Decaying Bishop, plus level 63 elite Withering Pawns. Gamesman''s Hall.'
+    tactics_summary: Involves switching sides. Hunter pets die to Knight cleaves regardless of Avoidance.
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+    - https://forum.turtlecraft.gg/viewtopic.php?p=128053#p128053
+    - https://forum.turtlecraft.gg/viewtopic.php?p=130900#p130900
+    - https://forum.turtlecraft.gg/viewtopic.php?p=126056#p126056
+    - https://forum.turtlecraft.gg/viewtopic.php?p=170300#p170300
+    - https://forum.turtlecraft.gg/viewtopic.php?p=170469#p170469
+    - https://forum.turtlecraft.gg/viewtopic.php?p=170517#p170517
+    - https://forum.turtlecraft.gg/viewtopic.php?p=170522#p170522
+    - https://turtle-wow.fandom.com/wiki/Chess_Event
+  - name: Sanv Tas'dal
+    npc_id: null
+    order: 6
+    abilities:
+    - name: Curse of the Rift
+      effect: No longer resistable since 2025-05-13
+      numbers: null
+    - name: Overflowing Hatred
+      effect: null
+      numbers: null
+    - name: Summoned adds
+      effect: Health slightly increased 2025-08-13
+      numbers: null
+    mechanics_summary: Draenei riftwalker, Temple of Aka'Sha (Rock of Desolation). Objective of the level 60+ quest Fate Of The Harborage. Since 2026-03-03 he cannot be fought outside his room.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=130900#p130900
+    - https://forum.turtlecraft.gg/viewtopic.php?p=145131#p145131
+    - https://forum.turtlecraft.gg/viewtopic.php?p=128053#p128053
+    - https://forum.turtlecraft.gg/viewtopic.php?p=166661#p166661
+    - https://forum.turtlecraft.gg/viewtopic.php?p=169965#p169965
+    - https://forum.turtlecraft.gg/viewtopic.php?p=132195#p132195
+    - https://turtle-wow.fandom.com/wiki/Sanv_Tas%27dal
+  - name: Rupturan the Broken
+    npc_id: null
+    order: 7
+    abilities:
+    - name: Felheart
+      effect: 'An add that must be kept alive: a mechanic rewarding keeping Felheart intact was added 2025-08-13. Earlier it was given less mana generation and made vulnerable to Viper Sting'
+      numbers: null
+    - name: Ignite Rock
+      effect: Damage modified 2025-04-22
+      numbers: null
+    - name: Shifting Rock
+      effect: Armor bonus reduced
+      numbers: 3000 armor
+    mechanics_summary: Earth elemental, The Rock of Desolation. His hitbox was increased twice in December 2025 because melee could not reach him.
+    tactics_summary: null
+    loot:
+    - Totem of Broken Earth
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=145131#p145131
+    - https://forum.turtlecraft.gg/viewtopic.php?p=130900#p130900
+    - https://forum.turtlecraft.gg/viewtopic.php?p=128053#p128053
+    - https://forum.turtlecraft.gg/viewtopic.php?p=132195#p132195
+    - https://forum.turtlecraft.gg/viewtopic.php?p=163576#p163576
+    - https://forum.turtlecraft.gg/viewtopic.php?p=164078#p164078
+    - https://forum.turtlecraft.gg/viewtopic.php?p=52799#p52799
+    - https://turtle-wow.fandom.com/wiki/Rupturan_the_Broken
+  - name: Kruul
+    npc_id: null
+    order: 8
+    abilities:
+    - name: Wings of Oblivion
+      effect: Cannot be resisted and always knocks players back (1.18.1)
+      numbers: null
+    - name: Remorseless Strikes
+      effect: If his main target is out of reach he attacks another player in range
+      numbers: null
+    - name: Mark of the Highlord
+      effect: null
+      numbers: null
+    - name: Enrage
+      effect: null
+      numbers: null
+    - name: Nether Infernals
+      effect: Adds; they despawn when Kruul dies
+      numbers: null
+    mechanics_summary: Doomguard, The Seat of Desolation. All of his spells ignore line of sight since 2025-06-24; he no longer teleports players he cannot reach.
+    tactics_summary: Survival hunters switch to Marksmanship for this fight. His cleave kills pets, which a hunter believes is intended.
+    loot:
+    - Kruul axe
+    - Desecration
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+    - https://forum.turtlecraft.gg/viewtopic.php?p=130900#p130900
+    - https://forum.turtlecraft.gg/viewtopic.php?p=136891#p136891
+    - https://forum.turtlecraft.gg/viewtopic.php?p=132195#p132195
+    - https://forum.turtlecraft.gg/viewtopic.php?p=128053#p128053
+    - https://forum.turtlecraft.gg/viewtopic.php?p=158027#p158027
+    - https://forum.turtlecraft.gg/viewtopic.php?p=170517#p170517
+    - https://forum.turtlecraft.gg/viewtopic.php?p=166667#p166667
+    - https://forum.turtlecraft.gg/viewtopic.php?p=162492#p162492
+    - https://turtle-wow.fandom.com/wiki/Kruul
+  - name: Mephistroth
+    npc_id: null
+    order: 9
+    abilities:
+    - name: Shackles of the Legion
+      effect: 2.5 second cast; raid warning on cast; grants knockback immunity; Shackle Shatter cannot crit; does not affect pets or summons; no longer triggers from jumping or falling
+      numbers: null
+    - name: Nathrezim Terror
+      effect: Cast time increased to 2.5 seconds
+      numbers: null
+    - name: Shards of Hellfury
+      effect: Summoned adds; not summoned while Rain of Outland is active
+      numbers: null
+    - name: Rain of Outland
+      effect: A phase during which Hellfury shards are suppressed
+      numbers: null
+    mechanics_summary: Nathrezim, Hand of Mephistroth, final boss. Immune to Curse of Tongues, Mind-Numbing Poison and similar cast-slowing effects. Leaving the instance removes his debuffs. Shadow specs cannot be played on him.
+    tactics_summary: null
+    loot:
+    - 'Soul of the Dreadlord (quest: Scythe of the Goddess)'
+    - Hearth of Mephistroth
+    - Pristine Ley Crystal
+    - Felforged Dreadhound
+    - Turalyon's Hope
+    - Mephistroth's Cunning
+    - two Tier 3.5 chest tokens
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=128053#p128053
+    - https://forum.turtlecraft.gg/viewtopic.php?p=129028#p129028
+    - https://forum.turtlecraft.gg/viewtopic.php?p=134147#p134147
+    - https://forum.turtlecraft.gg/viewtopic.php?p=129934#p129934
+    - https://forum.turtlecraft.gg/viewtopic.php?p=138497#p138497
+    - https://forum.turtlecraft.gg/viewtopic.php?p=136891#p136891
+    - https://forum.turtlecraft.gg/viewtopic.php?p=163576#p163576
+    - https://forum.turtlecraft.gg/viewtopic.php?p=134911#p134911
+    - https://forum.turtlecraft.gg/viewtopic.php?p=130909#p130909
+    - https://forum.turtlecraft.gg/viewtopic.php?p=131426#p131426
+    - https://forum.turtlecraft.gg/viewtopic.php?p=128749#p128749
+    - https://turtle-wow.fandom.com/wiki/Mephistroth
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980
+  - https://forum.turtlecraft.gg/viewtopic.php?p=104997#p104997
+  - https://forum.turtlecraft.gg/viewtopic.php?p=106610#p106610
+  - https://forum.turtlecraft.gg/viewtopic.php?p=111191#p111191
+  - https://forum.turtlecraft.gg/viewtopic.php?p=120531#p120531
+  - https://forum.turtlecraft.gg/viewtopic.php?p=120590#p120590
+  - https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  - https://forum.turtlecraft.gg/viewtopic.php?p=121909#p121909
+  - https://forum.turtlecraft.gg/viewtopic.php?p=122945#p122945
+  - https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504
+  - https://forum.turtlecraft.gg/viewtopic.php?p=126056#p126056
+  - https://forum.turtlecraft.gg/viewtopic.php?p=126946#p126946
+  - https://forum.turtlecraft.gg/viewtopic.php?p=128053#p128053
+  - https://forum.turtlecraft.gg/viewtopic.php?p=129028#p129028
+  - https://forum.turtlecraft.gg/viewtopic.php?p=129934#p129934
+  - https://forum.turtlecraft.gg/viewtopic.php?p=130900#p130900
+  - https://forum.turtlecraft.gg/viewtopic.php?p=132195#p132195
+  - https://forum.turtlecraft.gg/viewtopic.php?p=134147#p134147
+  - https://forum.turtlecraft.gg/viewtopic.php?p=136891#p136891
+  - https://forum.turtlecraft.gg/viewtopic.php?p=138497#p138497
+  - https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159
+  - https://forum.turtlecraft.gg/viewtopic.php?p=145131#p145131
+  - https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  - https://forum.turtlecraft.gg/viewtopic.php?p=155594#p155594
+  - https://forum.turtlecraft.gg/viewtopic.php?p=163576#p163576
+  - https://forum.turtlecraft.gg/viewtopic.php?p=164078#p164078
+  - https://forum.turtlecraft.gg/viewtopic.php?p=166661#p166661
+  - https://forum.turtlecraft.gg/viewtopic.php?p=169965#p169965
+  - https://forum.turtlecraft.gg/viewtopic.php?p=176101#p176101
+  - https://turtlecraft.gg/raids-and-dungeons
+  - https://turtle-wow.fandom.com/wiki/Tower_of_Karazhan
+  - https://turtle-wow.fandom.com/wiki/Tower_of_Karazhan_attunement
+  - https://forum.turtlecraft.gg/viewtopic.php?p=126586#p126586
+  - https://forum.turtlecraft.gg/viewtopic.php?p=168411#p168411
+  - https://forum.turtlecraft.gg/viewtopic.php?p=126572#p126572
+  - https://forum.turtlecraft.gg/viewtopic.php?p=126582#p126582
+  - https://forum.turtlecraft.gg/viewtopic.php?p=126634#p126634
+  - https://forum.turtlecraft.gg/viewtopic.php?p=126644#p126644
+  - https://forum.turtlecraft.gg/viewtopic.php?p=126648#p126648
+  - https://forum.turtlecraft.gg/viewtopic.php?p=126657#p126657
+  - https://forum.turtlecraft.gg/viewtopic.php?p=127004#p127004
+  - https://forum.turtlecraft.gg/viewtopic.php?p=127094#p127094
+  - https://forum.turtlecraft.gg/viewtopic.php?p=128282#p128282
+  - https://forum.turtlecraft.gg/viewtopic.php?p=159824#p159824
+  - https://forum.turtlecraft.gg/viewtopic.php?p=159828#p159828
+  - https://forum.turtlecraft.gg/viewtopic.php?p=128135#p128135
+  - https://forum.turtlecraft.gg/viewtopic.php?p=128287#p128287
+  - https://forum.turtlecraft.gg/viewtopic.php?p=168980#p168980
+  notes: 'Tier 3.5. Titles: realm first ''Conqueror of Desolation'', raid completion for all ''Bane of the Nathrezim''. Opened 2025-04-03 13:00 UTC after a public QA phase; ShellStats logging launched alongside. Ima''ghaol, Herald of Desolation (level 63 elite observer, Netherspace) is a non-boss encounter that also received tuning. Boss order is reconstructed - only Anomalus (3rd) and Chess (5th) are stated outright by a player. Bosses 6-9 are called the ''Outland bosses'' by staff. Ephemeral Pendant drop chance set to 20% on all encounters. Every wiki boss page is a stub; all mechanics come from staff hotfix notes. No player boss guide exists. Ley-Watcher Incantagos is the only Kara40 encounter whose requirements staff commented on directly. Loot-table sizes reported by a player from the in-game database: Mephistroth 14 items (5 at 6%, 9 at 8%), Kruul 9, Sanv Tas''dal and Rupturan 7 each.'
+- id: timbermaw-hold
+  name: Timbermaw Hold
+  type: raid
+  size: 20
+  level_min: 60
+  level_range: '60'
+  patch_introduced: 1.18.1
+  patches_changed:
+  - 1.18.1
+  zone: Western Azshara, through the Timbermaw Hold Gate (the raid lies beneath Mount Hyjal)
+  entry_requirements: 'Contested: one player says at least Neutral with the Timbermaw Hold faction is required; another says you can sneak in or be summoned to the entrance. No staff statement in the extraction.'
+  lockout: Unknown. A player asked whether the ID resets Friday per the in-game timer or Wednesday with the other 7-day raids; no staff answer.
+  custom: true
+  bosses:
+  - name: Karrsh the Sentinel
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Health slightly increased 2026-03-31.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  - name: Rotgrowl
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Health slightly increased 2026-03-31.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  - name: Kodiak
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Health slightly increased 2026-03-31.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  - name: Loktanag the Vile
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Health reduced and the damage of several abilities reduced 2026-03-31; his boss area was made slightly brighter.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  - name: Ormanos the Cracked
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: 'An add-summoning encounter: his health and the health of creatures spawned during the encounter were both reduced 2026-03-31, along with the damage of several abilities.'
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  - name: Selenaxx Foulheart
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Damage of several abilities reduced 2026-03-31.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  - name: Trioch the Devourer
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: No longer immune to bleed effects since 2026-03-31.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  - name: Archdruid Kronn
+    npc_id: null
+    order: null
+    abilities:
+    - name: Intruder of the Dream
+      effect: A debuff applied during the encounter; Emerald Dream Welcome grants immunity to it since 2026-04-21
+      numbers: null
+    mechanics_summary: Minor encounter issues fixed 2026-03-31.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+    - https://forum.turtlecraft.gg/viewtopic.php?p=176101#p176101
+  - name: Ursol
+    npc_id: null
+    order: null
+    abilities:
+    - name: Fixate
+      effect: The encounter uses fixate mechanics; a fixate issue was fixed 2026-03-31
+      numbers: null
+    mechanics_summary: null
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  - name: Peroth'arn
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Satyr. Drops Peroth'arn's Dirk of the Beast (item 42307), which starts a rogue weapon quest; the dirk's AoE component was made to ignore line of sight 2026-04-14.
+    tactics_summary: null
+    loot:
+    - Peroth'arn's Dirk of the Beast
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=174120#p174120
+    - https://forum.turtlecraft.gg/viewtopic.php?p=175230#p175230
+  - name: Secret encounter
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Confirmed to exist and 'adjusted' on 2026-03-31; no details published.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  - https://forum.turtlecraft.gg/viewtopic.php?p=169695#p169695
+  - https://forum.turtlecraft.gg/viewtopic.php?p=165064#p165064
+  - https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  - https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  - https://forum.turtlecraft.gg/viewtopic.php?p=175230#p175230
+  - https://forum.turtlecraft.gg/viewtopic.php?p=176101#p176101
+  - https://forum.turtlecraft.gg/viewtopic.php?p=174120#p174120
+  - https://turtle-wow.fandom.com/wiki/Timbermaw_Hold_raid
+  - https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content
+  - https://forum.turtlecraft.gg/viewtopic.php?p=172477#p172477
+  - https://forum.turtlecraft.gg/viewtopic.php?p=172541#p172541
+  - https://forum.turtlecraft.gg/viewtopic.php?p=173516#p173516
+  - https://forum.turtlecraft.gg/viewtopic.php?p=173564#p173564
+  - https://forum.turtlecraft.gg/viewtopic.php?p=174380#p174380
+  - https://forum.turtlecraft.gg/viewtopic.php?p=174112#p174112
+  notes: 'Designed to be harder than the existing 20-man raids. Subzones: Felheart Coven, Grotto of Dreams, Heart of the Nightmare, Seat of the Chieftain, Timbermaw Village. Grants Presence of the Wild God and Blessing of the Bear God, both removed on leaving combat or exiting since 2026-04-14. Timbermaw tier sets in light and heavy variants; several set bonuses were broken at launch. Corrupted Hide of Ursol now drops for only one player. Boss order is unknown; no ability names beyond the two raid buffs, Intruder of the Dream and the Peroth''arn dirk. A player reports the raid as WAY overtuned for the gear it drops; no staff reply.'
+- id: molten-core
+  name: Molten Core
+  type: raid
+  size: 40
+  level_min: 60
+  level_range: '60'
+  patch_introduced: vanilla
+  patches_changed:
+  - 1.18.0
+  - 1.18.1
+  zone: Blackrock Mountain
+  entry_requirements: Attunement to the Core (vanilla chain; Lothos Riftwalker access fixed 2026-03-21)
+  lockout: not found in sources
+  custom: false
+  bosses:
+  - name: Lucifron
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Health reduced 20% on 2025-08-26.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=148454#p148454
+  - name: Magmadar
+    npc_id: null
+    order: null
+    abilities:
+    - name: Lava Bomb
+      effect: Area-of-effect duration reduced
+      numbers: 20s and 40s, previously 30s and 60s
+    - name: Conflagration
+      effect: No longer damages himself with it since 2025-12-23
+      numbers: null
+    mechanics_summary: Health reduced 10% on 2025-08-26.
+    tactics_summary: A player describes the reworked fight as spawning so many fire pools over so long a fight that it becomes an attrition and mana test more suited to a later raid tier.
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=148454#p148454
+    - https://forum.turtlecraft.gg/viewtopic.php?p=163576#p163576
+    - https://forum.turtlecraft.gg/viewtopic.php?p=148757#p148757
+  - name: Gehennas
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: REMOVED from Molten Core in 1.18.0. His tier gear now drops from Incindis, his rune now requires Incindis to be killed to become dousable, and Hands of the Enemy no longer requires Hand of Gehennas.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  - name: Garr
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Health reduced 15% on 2025-08-26. Bleed immunity removed 2025-06-10. A player reports reduced initial pull damage plus a new damage-reduction mechanic.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=148454#p148454
+    - https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177
+    - https://forum.turtlecraft.gg/viewtopic.php?p=148757#p148757
+  - name: Baron Geddon
+    npc_id: null
+    order: null
+    abilities:
+    - name: Living Bomb
+      effect: Now fades on changing map (2025-10-05)
+      numbers: null
+    - name: Fire patches
+      effect: New in the rework per a player, who calls it 'the Season of Discovery mechanic'
+      numbers: null
+    mechanics_summary: Health reduced 20% on 2025-08-26. A waypoint bug where he kept pathing after entering combat was fixed 2024-08-27.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=148454#p148454
+    - https://forum.turtlecraft.gg/viewtopic.php?p=154470#p154470
+    - https://forum.turtlecraft.gg/viewtopic.php?p=148757#p148757
+    - https://forum.turtlecraft.gg/viewtopic.php?p=100299#p100299
+  - name: Shazzrah
+    npc_id: null
+    order: null
+    abilities:
+    - name: Arcane Explosion
+      effect: Radius corrected from 30 to 20 yards (2024-07-23)
+      numbers: null
+    mechanics_summary: Health reduced 20% on 2025-08-26.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=148454#p148454
+    - https://forum.turtlecraft.gg/viewtopic.php?p=100214#p100214
+  - name: Sulfuron Harbinger
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Health reduced 20% on 2025-08-26.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=148454#p148454
+  - name: Golemagg the Incinerator
+    npc_id: null
+    order: null
+    abilities:
+    - name: Core Hound fixate
+      effect: At 60% or 50% boss health the hounds enrage and fixate on random players, ignoring threat; they remain tauntable off the fixated target
+      numbers: null
+    - name: Boss debuff
+      effect: Stacks fire damage and reduces armor at the same time
+      numbers: null
+    - name: Earthquake
+      effect: At around 10% health, pushing melee out
+      numbers: null
+    - name: Enrage
+      effect: Restored to 10% health on 2025-09-02
+      numbers: null
+    mechanics_summary: Health reduced 25% on 2025-08-26; Core Hounds move 25% slower since 2025-09-02; core ragers expire with his death (2024-05-28); bleed immunity removed 2025-06-10.
+    tactics_summary: Contested. One player runs 1-2 tanks in phase 1 plus 2 pre-assigned extra tanks for phase 2 and reports 3-4 tanks total working fine; others count 5-6 tanks once the boss tank and the debuff swap are included, and call that unreasonable in a 20-person raid. A middle position is that you need bodies with a taunt button, not tank specs.
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=148454#p148454
+    - https://forum.turtlecraft.gg/viewtopic.php?p=149960#p149960
+    - https://forum.turtlecraft.gg/viewtopic.php?p=95911#p95911
+    - https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177
+    - https://forum.turtlecraft.gg/viewtopic.php?p=148274#p148274
+    - https://forum.turtlecraft.gg/viewtopic.php?p=148275#p148275
+    - https://forum.turtlecraft.gg/viewtopic.php?p=148375#p148375
+    - https://forum.turtlecraft.gg/viewtopic.php?p=148302#p148302
+    - https://forum.turtlecraft.gg/viewtopic.php?p=148306#p148306
+    - https://forum.turtlecraft.gg/viewtopic.php?p=148757#p148757
+    - https://forum.turtlecraft.gg/viewtopic.php?p=148264#p148264
+    - https://forum.turtlecraft.gg/viewtopic.php?p=148329#p148329
+    - https://forum.turtlecraft.gg/viewtopic.php?p=148662#p148662
+  - name: Majordomo Executus
+    npc_id: null
+    order: null
+    abilities:
+    - name: Teleport
+      effect: Stun duration reduced from 3 seconds to 1 second (2025-08-19)
+      numbers: null
+    - name: Hot Coals
+      effect: Given collision in 1.18.1
+      numbers: null
+    mechanics_summary: Flamewaker health reduced 10% on 2025-08-19. A duplicate add-spawn bug on wipes was fixed in 2022.
+    tactics_summary: A player argues the rework 'layers raw punishment on top of an already demanding encounter' rather than adding depth.
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=147116#p147116
+    - https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+    - https://forum.turtlecraft.gg/viewtopic.php?p=24112#p24112
+    - https://forum.turtlecraft.gg/viewtopic.php?p=148757#p148757
+  - name: Ragnaros
+    npc_id: null
+    order: null
+    abilities:
+    - name: Elemental Fire
+      effect: A double-hit bug was fixed 2025-08-19
+      numbers: null
+    - name: Periodic raid fire damage
+      effect: Massively reduced 2025-08-19
+      numbers: null
+    - name: Submerge/Emerge
+      effect: Emerge animation fixed in 1.18.0
+      numbers: null
+    mechanics_summary: Health reduced 15% on 2025-08-19. Immune to Freeze effects so Flash Freeze triggers properly. No longer blinds the raid when struck by Arcane Shot (2025-09-02).
+    tactics_summary: null
+    loot:
+    - Rare mount (added to the last bosses of MC, BWL and AQ40 in 1.17.2)
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=147116#p147116
+    - https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+    - https://forum.turtlecraft.gg/viewtopic.php?p=129028#p129028
+    - https://forum.turtlecraft.gg/viewtopic.php?p=136087#p136087
+    - https://forum.turtlecraft.gg/viewtopic.php?p=149960#p149960
+    - https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980
+  - name: Incindis
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: New boss in Incindis' Lair (1.18.0), an incendosaur hatching ground. Inherits Gehennas' tier gear and rune role. No mechanics published.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+    - https://forum.turtlecraft.gg/viewtopic.php?p=147116#p147116
+    - https://forum.turtlecraft.gg/viewtopic.php?p=148454#p148454
+  - name: Smoldaris
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: New boss in Old Shadowforge (1.18.0), treated as a pair with Basalthar in the hotfixes. No mechanics published.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=145822#p145822
+    - https://forum.turtlecraft.gg/viewtopic.php?p=147116#p147116
+  - name: Basalthar
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: New boss in Old Shadowforge (1.18.0), paired with Smoldaris. No mechanics published.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=145822#p145822
+    - https://forum.turtlecraft.gg/viewtopic.php?p=147116#p147116
+  - name: Sorcerer-Thane Thaurissan
+    npc_id: null
+    order: null
+    abilities:
+    - name: Rune of Detonation
+      effect: A debuff with a mechanic that must be executed; made less punishing when the mechanic is not done (2025-08-19) and now fades when he dies
+      numbers: null
+    - name: Rune of Combustion
+      effect: Same treatment as Rune of Detonation
+      numbers: null
+    - name: Arcane Barrage
+      effect: Knockback reduced 2025-08-19
+      numbers: null
+    mechanics_summary: 'New boss in Old Shadowforge (1.18.0). Objective of the quest Lock Blueprints: Sorcerer-Thane Thaurissan, reclassified as a raid quest 2026-04-07.'
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=147116#p147116
+    - https://forum.turtlecraft.gg/viewtopic.php?p=148454#p148454
+    - https://forum.turtlecraft.gg/viewtopic.php?p=174367#p174367
+    - https://turtle-wow.fandom.com/wiki/Sorcerer-Thane_Thaurissan
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  - https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177
+  - https://forum.turtlecraft.gg/viewtopic.php?p=145822#p145822
+  - https://forum.turtlecraft.gg/viewtopic.php?p=147116#p147116
+  - https://forum.turtlecraft.gg/viewtopic.php?p=148454#p148454
+  - https://forum.turtlecraft.gg/viewtopic.php?p=148662#p148662
+  - https://forum.turtlecraft.gg/viewtopic.php?p=149960#p149960
+  - https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  - https://forum.turtlecraft.gg/viewtopic.php?p=154470#p154470
+  - https://forum.turtlecraft.gg/viewtopic.php?p=163576#p163576
+  - https://forum.turtlecraft.gg/viewtopic.php?p=35264#p35264
+  - https://forum.turtlecraft.gg/viewtopic.php?p=24112#p24112
+  - https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980
+  - https://forum.turtlecraft.gg/viewtopic.php?p=56424#p56424
+  - https://forum.turtlecraft.gg/viewtopic.php?p=79223#p79223
+  - https://forum.turtlecraft.gg/viewtopic.php?p=115021#p115021
+  - https://forum.turtlecraft.gg/viewtopic.php?p=120590#p120590
+  - https://forum.turtlecraft.gg/viewtopic.php?p=80839#p80839
+  - https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  - https://forum.turtlecraft.gg/viewtopic.php?p=176101#p176101
+  - https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content
+  - https://forum.turtlecraft.gg/viewtopic.php?p=148757#p148757
+  - https://forum.turtlecraft.gg/viewtopic.php?p=146868#p146868
+  - https://forum.turtlecraft.gg/viewtopic.php?p=147307#p147307
+  notes: Extended in 1.18.0 with two new locations (Incindis' Lair, Old Shadowforge), 3 new boss encounters and 15+ new items; Gehennas removed. Staff say all bosses received mechanic changes but never published a per-boss list. Scales down to 20 players per the wiki; from 2026-04-21 all 40-player raids scale from 16. World buffs disabled inside since 2023-02-19. Two April Fools posts (2024-04-01, 2025-04-01) about Molten Core are jokes, not changes.
+- id: onyxias-lair
+  name: Onyxia's Lair
+  type: raid
+  size: 40
+  level_min: 60
+  level_range: '60'
+  patch_introduced: vanilla
+  patches_changed:
+  - 1.18.0
+  - 1.18.1
+  zone: Dustwallow Marsh
+  entry_requirements: Vanilla Onyxia attunement chain; the Amulet of Draconic Subversion can be re-requested from Myranda the Hag since 2026-01-13
+  lockout: not found in sources
+  custom: false
+  bosses:
+  - name: Broodcommander Axelus
+    npc_id: null
+    order: 1
+    abilities: []
+    mechanics_summary: New optional boss added in 1.18.1 in a new section that precedes Onyxia. Black dragonspawn. No ability list exists in any source; the wiki page carries only combat quotes. He has more than one loot table.
+    tactics_summary: null
+    loot:
+    - Idol of Equilibrium
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+    - https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+    - https://turtle-wow.fandom.com/wiki/Broodcommander_Axelus
+  - name: Onyxia
+    npc_id: null
+    order: 2
+    abilities:
+    - name: New mechanics (unspecified)
+      effect: Staff announced 'Added new mechanics to Onyxia' in 1.18.1 but never described them, and no player post in the extraction identifies them
+      numbers: null
+    mechanics_summary: 'New guardians accompany her: Onyxian Flamespawn and Onyxian Inciter (1.18.1), plus Onyxian Hatcher, whose health was significantly reduced on 2026-03-24 because ''Hatchers can sometimes be too tight of a DPS check''.'
+    tactics_summary: null
+    loot:
+    - Onyxian Drake (mount, added 2025-09-02)
+    - Onyxia Hide Bag (18 to 20 slots)
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+    - https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+    - https://forum.turtlecraft.gg/viewtopic.php?p=149960#p149960
+    - https://forum.turtlecraft.gg/viewtopic.php?p=129934#p129934
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  - https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  - https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  - https://forum.turtlecraft.gg/viewtopic.php?p=176101#p176101
+  - https://forum.turtlecraft.gg/viewtopic.php?p=149960#p149960
+  - https://forum.turtlecraft.gg/viewtopic.php?p=129934#p129934
+  - https://forum.turtlecraft.gg/viewtopic.php?p=145131#p145131
+  - https://forum.turtlecraft.gg/viewtopic.php?p=164078#p164078
+  - https://forum.turtlecraft.gg/viewtopic.php?p=159221#p159221
+  - https://forum.turtlecraft.gg/viewtopic.php?p=165064#p165064
+  - https://forum.turtlecraft.gg/viewtopic.php?p=59286#p59286
+  - https://forum.turtlecraft.gg/viewtopic.php?p=36265#p36265
+  - https://forum.turtlecraft.gg/viewtopic.php?p=56424#p56424
+  - https://forum.turtlecraft.gg/viewtopic.php?p=115795#p115795
+  - https://forum.turtlecraft.gg/viewtopic.php?p=79223#p79223
+  - https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980
+  - https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  - https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content
+  - https://forum.turtlecraft.gg/viewtopic.php?p=171787#p171787
+  - https://forum.turtlecraft.gg/viewtopic.php?p=174380#p174380
+  - https://forum.turtlecraft.gg/viewtopic.php?p=146851#p146851
+  - https://forum.turtlecraft.gg/viewtopic.php?p=170490#p170490
+  notes: '1.18.1 extension: a new section, the optional boss Broodcommander Axelus, new guardians, new Onyxia mechanics (undocumented) and new equipment. World buffs disabled inside since 2023-02-27. Health and damage retuned in 1.18.0 alongside MC, Kara10 and BWL. Blink works again since 2026-03-21. Open player bug: pets fall below ground when taking the tunnel after the first boss. Players report the raid as overtuned after both 1.18.0 and 1.18.1.'
+- id: blackwing-lair
+  name: Blackwing Lair
+  type: raid
+  size: 40
+  level_min: 60
+  level_range: '60'
+  patch_introduced: vanilla
+  patches_changed:
+  - 1.18.0
+  - 1.18.1
+  zone: Blackrock Mountain
+  entry_requirements: vanilla; not restated in the sources
+  lockout: not found in sources
+  custom: false
+  bosses:
+  - name: Razorgore the Untamed
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Leaving his room before completing the encounter is no longer possible (2023-11-29); all other BWL bosses only spawn after Razorgore is completed, as an anti-cheat measure. Melee attacks are enabled while mind-controlling him (2023-12-05).
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=79223#p79223
+    - https://forum.turtlecraft.gg/viewtopic.php?p=79953#p79953
+  - name: Vaelastrasz the Corrupt
+    npc_id: null
+    order: null
+    abilities:
+    - name: Burning Adrenaline
+      effect: Cannot be taken outside Blackwing Lair since 2024-05-14
+      numbers: null
+    mechanics_summary: Health autoscaling applied 2024-02-20; health increased again 2026-03-24. Also summonable in the UBRS stadium event via the Seal of Ascension.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=88271#p88271
+    - https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+    - https://forum.turtlecraft.gg/viewtopic.php?p=94874#p94874
+    - https://forum.turtlecraft.gg/viewtopic.php?p=66741#p66741
+  - name: Broodlord Lashlayer
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Defeating him now opens a shortcut that skips the Suppression Room (1.18.1).
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  - name: Firemaw
+    npc_id: null
+    order: null
+    abilities:
+    - name: Void Zones
+      effect: New in 1.18.1 per players; staff fixed them 'chasing players' on 2026-03-21, but a player reports they still spawn behind line of sight, inside walls, in the air, under hay stacks and 80+ yards away, and a week later that they are simply invisible
+      numbers: null
+    - name: Thrash
+      effect: Made more consistent and the charge 'storing' behaviour fixed 2023-10-11
+      numbers: null
+    mechanics_summary: Open bug at the end of the extraction window.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+    - https://forum.turtlecraft.gg/viewtopic.php?p=173564#p173564
+    - https://forum.turtlecraft.gg/viewtopic.php?p=174380#p174380
+    - https://forum.turtlecraft.gg/viewtopic.php?p=70096#p70096
+  - name: Ebonroc
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Only a shared loot-count fix is recorded (2022-09-11).
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=24828#p24828
+  - name: Flamegor
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Only a shared loot-count fix is recorded (2022-09-11).
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=24828#p24828
+  - name: Chromaggus
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: EXPLICITLY EXCLUDED from the 1.18.1 per-boss mechanic changes. Brood Affliction only cast on living targets (2023-02-19); cast-slowing debuffs no longer affect him (2025-02-25).
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+    - https://forum.turtlecraft.gg/viewtopic.php?p=35264#p35264
+    - https://forum.turtlecraft.gg/viewtopic.php?p=120933#p120933
+  - name: Nefarian
+    npc_id: null
+    order: null
+    abilities:
+    - name: Hunter class call
+      effect: Changed to be 'more expensive for hunters' per players; the details are not in the patch notes
+      numbers: null
+    - name: Involuntary Transformation
+      effect: Druids could switch shapeshift forms while affected; fixed 2025-05-06
+      numbers: null
+    - name: Corrupted Totems
+      effect: Now despawn when the encounter ends (2026-04-07)
+      numbers: null
+    mechanics_summary: 'Blackwing Riflemen now spawn at a random balcony (2026-03-21). Client-side: a crash spot in his room fixed and missing collision on the balcony barriers restored.'
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=171720#p171720
+    - https://forum.turtlecraft.gg/viewtopic.php?p=171722#p171722
+    - https://forum.turtlecraft.gg/viewtopic.php?p=129934#p129934
+    - https://forum.turtlecraft.gg/viewtopic.php?p=174367#p174367
+    - https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  - name: Ezzel Darkbrewer
+    npc_id: null
+    order: null
+    abilities:
+    - name: Acid Bomb
+      effect: null
+      numbers: null
+    - name: Charge
+      effect: 'Delivered by his ogre mount Ton''Raka: ''Ton''Raka begins charging <name>!'''
+      numbers: null
+    mechanics_summary: New optional boss added in 1.18.1 in a new section ('his employer's laboratory'). A goblin alchemist riding an ogre. Has a distinct 10% health emote. Health increased 2026-03-24; an exploit fixed 2026-03-31. Blackwing Alchemists are the section's trash.
+    tactics_summary: null
+    loot:
+    - Transmutation Alloy (rogue class quest)
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+    - https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+    - https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+    - https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+    - https://turtle-wow.fandom.com/wiki/Ezzel_Darkbrewer
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  - https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  - https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  - https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  - https://forum.turtlecraft.gg/viewtopic.php?p=174367#p174367
+  - https://forum.turtlecraft.gg/viewtopic.php?p=176101#p176101
+  - https://forum.turtlecraft.gg/viewtopic.php?p=35264#p35264
+  - https://forum.turtlecraft.gg/viewtopic.php?p=79223#p79223
+  - https://forum.turtlecraft.gg/viewtopic.php?p=79953#p79953
+  - https://forum.turtlecraft.gg/viewtopic.php?p=88271#p88271
+  - https://forum.turtlecraft.gg/viewtopic.php?p=94874#p94874
+  - https://forum.turtlecraft.gg/viewtopic.php?p=66741#p66741
+  - https://forum.turtlecraft.gg/viewtopic.php?p=24828#p24828
+  - https://forum.turtlecraft.gg/viewtopic.php?p=70096#p70096
+  - https://forum.turtlecraft.gg/viewtopic.php?p=120933#p120933
+  - https://forum.turtlecraft.gg/viewtopic.php?p=129934#p129934
+  - https://forum.turtlecraft.gg/viewtopic.php?p=111130#p111130
+  - https://forum.turtlecraft.gg/viewtopic.php?p=112126#p112126
+  - https://forum.turtlecraft.gg/viewtopic.php?p=115021#p115021
+  - https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980
+  - https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content
+  - https://forum.turtlecraft.gg/viewtopic.php?p=173564#p173564
+  - https://forum.turtlecraft.gg/viewtopic.php?p=174380#p174380
+  - https://forum.turtlecraft.gg/viewtopic.php?p=146911#p146911
+  - https://forum.turtlecraft.gg/viewtopic.php?p=120619#p120619
+  - https://forum.turtlecraft.gg/viewtopic.php?t=940
+  notes: 1.18.1 added a new mechanic or changed one on every boss except Chromaggus, but staff never published the per-boss list. Only Firemaw's void zones and Nefarian's class-call change are identifiable, and both only from player posts. The Key to Karazhan IX requires a book next to Nefarian's throne, so a BWL clear is part of the Tower of Karazhan attunement. Players report BWL as overtuned after both 1.18.0 and 1.18.1.
+- id: deadmines
+  name: The Deadmines
+  type: dungeon
+  size: 5
+  level_min: 17
+  level_range: 17-24
+  patch_introduced: vanilla
+  patches_changed:
+  - 1.17.2
+  - 1.18.0
+  zone: Westfall
+  entry_requirements: None; Level One Lunatic characters can bypass the level requirement (2025-05-06)
+  lockout: not found in sources
+  custom: false
+  bosses:
+  - name: Jared Voss
+    npc_id: null
+    order: 1
+    abilities:
+    - name: Poison
+      effect: null
+      numbers: null
+    - name: Poisonous Stab
+      effect: null
+      numbers: null
+    - name: Poison Cloud
+      effect: null
+      numbers: null
+    - name: Withering Poison
+      effect: null
+      numbers: null
+    mechanics_summary: 'New boss (1.17.2), level 19 elite, in the Zanzil Laboratory in the mine section before Rhah''nkzor. Staff: ''presenting a new first boss encounter for adventurers who choose the optional route.'' The staff patch post and the official site spell him ''Jared Vess''; the later hotfix and the wiki use ''Jared Voss''.'
+    tactics_summary: null
+    loot:
+    - Chemist's Shawl
+    - Corrosive Vial
+    - Mixologist
+    - Defias Longbow (added 2026-01-27)
+    - 'Voss'' Sizzling Brew (quest: Turning Off The Tap)'
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709
+    - https://forum.turtlecraft.gg/viewtopic.php?p=166661#p166661
+    - https://forum.turtlecraft.gg/viewtopic.php?p=112126#p112126
+    - https://turtle-wow.fandom.com/wiki/Jared_Voss
+    - https://turtlecraft.gg/classic-dungeons-update
+  - name: Masterpiece Harvester
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: New boss (1.17.2), level 20 elite, in the Harvest Golem Foundry (called the 'Goblin Factory' and the 'Goblin Foundry' in different staff posts). No abilities listed. Objective of the level 19 quest The Harvest Golem Mystery.
+    tactics_summary: null
+    loot:
+    - Craftsman's Pants
+    - Inventor's Mitts
+    - Slag Slugger
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709
+    - https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980
+    - https://turtle-wow.fandom.com/wiki/Masterpiece_Harvester
+  - name: Rhahk'zor
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Existing boss; loot pool adjusted for equal drop chances, his hammer raised to Uncommon with armor, Rockbiter changed to a Rare two-handed axe with armor penetration, and a new pair of Rare mail gauntlets added.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709
+  - https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980
+  - https://forum.turtlecraft.gg/viewtopic.php?p=112126#p112126
+  - https://forum.turtlecraft.gg/viewtopic.php?p=166661#p166661
+  - https://forum.turtlecraft.gg/viewtopic.php?p=34787#p34787
+  - https://forum.turtlecraft.gg/viewtopic.php?p=79953#p79953
+  - https://forum.turtlecraft.gg/viewtopic.php?p=100299#p100299
+  - https://forum.turtlecraft.gg/viewtopic.php?p=129934#p129934
+  - https://forum.turtlecraft.gg/viewtopic.php?p=130900#p130900
+  - https://forum.turtlecraft.gg/viewtopic.php?p=148454#p148454
+  - https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  - https://turtlecraft.gg/classic-dungeons-update
+  - https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content
+  - https://forum.turtlecraft.gg/viewtopic.php?p=29739#p29739
+  - https://forum.turtlecraft.gg/viewtopic.php?p=175765#p175765
+  notes: Two new optional areas with one new boss each (1.17.2). Copper Ore nodes respawn every 7 days since 2025-08-26. Flavour white and grey items added exclusively for Level One Lunatics. Turtle's stated design principle for all classic dungeon extensions is horizontal progression with optional content. No numbers or tactics for either new boss.
+- id: wailing-caverns
+  name: Wailing Caverns
+  type: dungeon
+  size: 5
+  level_min: 17
+  level_range: 17-24
+  patch_introduced: vanilla
+  patches_changed:
+  - 1.17.2
+  zone: The Barrens
+  entry_requirements: None; Level One Lunatics were given access on 2025-09-30
+  lockout: not found in sources
+  custom: false
+  bosses:
+  - name: Vangros
+    npc_id: null
+    order: null
+    abilities:
+    - name: Crush Armor
+      effect: null
+      numbers: null
+    - name: Knock Away
+      effect: null
+      numbers: null
+    mechanics_summary: New boss (1.17.2), level 22 elite diemetradon in The Overgrowth. Staff describe him as an apex predator empowered by the caverns' life magics. He did not respect threat until a fix on 2025-01-14.
+    tactics_summary: null
+    loot:
+    - Enraging Waistwraps
+    - Band of the Claw
+    - Idol of the Apex Predator
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709
+    - https://forum.turtlecraft.gg/viewtopic.php?p=116739#p116739
+    - https://turtle-wow.fandom.com/wiki/Vangros
+  - name: Zandara Windhoof
+    npc_id: null
+    order: null
+    abilities:
+    - name: Chain Lightning
+      effect: null
+      numbers: null
+    - name: Gust of Wind
+      effect: null
+      numbers: null
+    mechanics_summary: New boss (1.17.2), level 23 elite centaur at Kolkar Falls, leading a Kolkar expedition. Objective of the level 23 quest Against the Kolkar Dream.
+    tactics_summary: null
+    loot:
+    - Windborne Sash
+    - Kolkar Marauder Gauntlets
+    - Totem of Static Charge
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709
+    - https://turtle-wow.fandom.com/wiki/Zandara_Windhoof
+  - name: Lady Anacondra
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Existing boss; drops enhanced, Serpent's Shoulders raised to Rare and a new staff for bear druids added. The internal timeline records a Violet Raptor mount added to her in April 2025.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709
+  - https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980
+  - https://forum.turtlecraft.gg/viewtopic.php?p=116739#p116739
+  - https://forum.turtlecraft.gg/viewtopic.php?p=108746#p108746
+  - https://forum.turtlecraft.gg/viewtopic.php?p=153822#p153822
+  - https://forum.turtlecraft.gg/viewtopic.php?p=79953#p79953
+  - https://forum.turtlecraft.gg/viewtopic.php?p=77428#p77428
+  - https://turtlecraft.gg/classic-dungeons-update
+  - https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content
+  - https://forum.turtlecraft.gg/viewtopic.php?p=29739#p29739
+  - https://forum.turtlecraft.gg/viewtopic.php?p=29742#p29742
+  notes: Two new optional areas with one new boss each (1.17.2). Wailing Caverns was the first dungeon whose map was updated to include the new sections and bosses. Mob pathing improved 2024-11-19. Five new quests per the wiki, only one of which is named in the sources used here. No numbers or tactics for either new boss.
+- id: shadowfang-keep
+  name: Shadowfang Keep
+  type: dungeon
+  size: 5
+  level_min: 20
+  level_range: 20-28 (in-game LFT addon per community guide)
+  patch_introduced: vanilla
+  patches_changed:
+  - 1.17.2
+  - 1.18.0
+  - 1.18.1
+  zone: Silverpine Forest
+  entry_requirements: none
+  lockout: not found in sources
+  custom: false
+  bosses:
+  - name: Prelate Ironmane
+    npc_id: null
+    order: null
+    abilities:
+    - name: Smite
+      effect: null
+      numbers: null
+    - name: Curse of Agony
+      effect: null
+      numbers: null
+    - name: Drain Mana
+      effect: null
+      numbers: null
+    mechanics_summary: New boss (1.17.2), level 22 elite human ghost in the keep's church. A spectral priest of the Gilnean faith; laying him to rest purifies the keep. He and the Spectral Clerics were only correctly categorised as Undead on 2025-03-04, so undead-specific abilities did not work on the encounter before that. Objective of the level 22 quest Too Late to Prelate (41366).
+    tactics_summary: null
+    loot:
+    - Mitre of the First Light
+    - Prelate's Sigil
+    - Hilt of Radiance
+    - Signet of Faded Sermons
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709
+    - https://forum.turtlecraft.gg/viewtopic.php?p=121678#p121678
+    - https://turtle-wow.fandom.com/wiki/Prelate_Ironmane
+    - https://forum.turtlecraft.gg/viewtopic.php?p=29743#p29743
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709
+  - https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980
+  - https://forum.turtlecraft.gg/viewtopic.php?p=121678#p121678
+  - https://forum.turtlecraft.gg/viewtopic.php?p=108746#p108746
+  - https://forum.turtlecraft.gg/viewtopic.php?p=154470#p154470
+  - https://forum.turtlecraft.gg/viewtopic.php?p=79953#p79953
+  - https://turtlecraft.gg/classic-dungeons-update
+  - https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content
+  - https://forum.turtlecraft.gg/viewtopic.php?p=29739#p29739
+  - https://forum.turtlecraft.gg/viewtopic.php?p=29743#p29743
+  notes: One new optional area with one new boss (1.17.2). Six custom quests are tied to the dungeon per the community guide, including two steps of the level 60 Scythe of Elune legendary chain (Blood of Vorgendor 41378, The Wolf the Crone and the Scythe 41381). Mob pathing improved 2024-11-19; bounding issues fixed 2025-10-05. No numbers or tactics for the new boss.
+- id: scarlet-monastery
+  name: Scarlet Monastery
+  type: dungeon
+  size: 5
+  level_min: 27
+  level_range: Graveyard 27-36, Library 32-39, Armory 40-45, Cathedral 40-45 (wiki); 27-45 for the complex (community guide)
+  patch_introduced: vanilla
+  patches_changed:
+  - 1.17.2
+  - 1.18.0
+  zone: Tirisfal Glades
+  entry_requirements: none
+  lockout: not found in sources
+  custom: false
+  bosses:
+  - name: Duke Dreadmoore <Knight of Naxxramas>
+    npc_id: null
+    order: null
+    abilities:
+    - name: Dark Strike
+      effect: null
+      numbers: null
+    - name: Shadow Bolt Volley
+      effect: null
+      numbers: null
+    mechanics_summary: New boss (1.17.2), level 32 elite death knight in the Scarlet Prison below the Graveyard's torture chambers. The official website calls this boss 'The Knight of Naxxramas'; that became his title.
+    tactics_summary: null
+    loot:
+    - Introduction to the Dark Arts
+    - Harbinger Girdle
+    - Slain Sentry's Ring
+    - Ghoulskin Treads
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709
+    - https://turtlecraft.gg/classic-dungeons-update
+    - https://turtle-wow.fandom.com/wiki/Duke_Dreadmoore
+  - name: Brother Wystan
+    npc_id: null
+    order: null
+    abilities:
+    - name: Snap Kick
+      effect: null
+      numbers: null
+    - name: Uppercut
+      effect: null
+      numbers: null
+    - name: Fireball
+      effect: null
+      numbers: null
+    mechanics_summary: New boss (1.17.2), level 36 elite monk in the Sanctum of the Fist, hidden chambers of the Library. The official website calls this boss 'Brother Steelfist' with the same description.
+    tactics_summary: null
+    loot:
+    - Libram of Radiance
+    - Wystan's Steel Fist
+    - Swiftstrike Kilt
+    - Pendant of Scarlet Rage
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709
+    - https://turtlecraft.gg/classic-dungeons-update
+    - https://turtle-wow.fandom.com/wiki/Brother_Wystan
+  - name: Armory Quartermaster Daghelm
+    npc_id: null
+    order: null
+    abilities:
+    - name: Armor of Faith
+      effect: null
+      numbers: null
+    - name: Thunderclap
+      effect: null
+      numbers: null
+    - name: Sunder Armor
+      effect: null
+      numbers: null
+    mechanics_summary: New boss (1.17.2), level 38 elite in the Armory Warehouse. The official website instead announced two Armory bosses, 'The Nameless Experiment' and 'Master Smith Johana', neither of which appears in any staff forum note or on the wiki.
+    tactics_summary: null
+    loot:
+    - Cuffs of Evocation
+    - Balanced Razor Shivs
+    - Loop of Focused Magic
+    - Treads of Renewal
+    - 'Journal of Basil Frye (quest: Reminiscent of Steel)'
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709
+    - https://turtlecraft.gg/classic-dungeons-update
+    - https://turtle-wow.fandom.com/wiki/Armory_Quartermaster_Daghelm
+  - name: Scarlet Commander Mograine and High Inquisitor Whitemane
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: Existing Cathedral encounter; rescripted on 2024-01-09.
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=84147#p84147
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709
+  - https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980
+  - https://forum.turtlecraft.gg/viewtopic.php?p=84147#p84147
+  - https://forum.turtlecraft.gg/viewtopic.php?p=87728#p87728
+  - https://forum.turtlecraft.gg/viewtopic.php?p=96352#p96352
+  - https://forum.turtlecraft.gg/viewtopic.php?p=100299#p100299
+  - https://forum.turtlecraft.gg/viewtopic.php?p=108746#p108746
+  - https://forum.turtlecraft.gg/viewtopic.php?p=113782#p113782
+  - https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  - https://forum.turtlecraft.gg/viewtopic.php?p=71678#p71678
+  - https://forum.turtlecraft.gg/viewtopic.php?p=79953#p79953
+  - https://forum.turtlecraft.gg/viewtopic.php?p=36204#p36204
+  - https://turtlecraft.gg/classic-dungeons-update
+  - https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content
+  - https://forum.turtlecraft.gg/viewtopic.php?p=29739#p29739
+  - https://forum.turtlecraft.gg/viewtopic.php?p=120619#p120619
+  notes: One new optional area with one new boss in each of the Graveyard, Library and Armory (1.17.2). The official website page names three different bosses for the same wings and is treated as a stale draft. Graveyard undead keep a 15-minute respawn timer as an explicit exception to the server-wide 5-hour standard. Pathfinding made more aggressive in 2024 to kill kite exploits. A Scarlet Crusade raid attunement exists in-game with no instance behind it; staff say the Citadel is on hold. No numbers or tactics for the three new bosses.
+- id: razorfen-kraul
+  name: Razorfen Kraul
+  type: dungeon
+  size: 5
+  level_min: 29
+  level_range: 32-42 (wiki table); 29-36 (in-game LFT addon per community guide)
+  patch_introduced: vanilla
+  patches_changed:
+  - 1.18.0
+  zone: The Barrens
+  entry_requirements: none
+  lockout: not found in sources
+  custom: false
+  bosses:
+  - name: Rotthorn
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: New boss (1.18.0), level 32 elite bog beast in the new area The Brambled Grotto. No abilities listed.
+    tactics_summary: null
+    loot:
+    - Bramblethorn Girdle
+    - Thornlash Branch
+    - Seed of Writhing Growth
+    - Idol of the Thorned Grove
+    - Tainted Brambleheart (quest)
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+    - https://turtle-wow.fandom.com/wiki/Rotthorn
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  - https://forum.turtlecraft.gg/viewtopic.php?p=140939#p140939
+  - https://forum.turtlecraft.gg/viewtopic.php?p=79953#p79953
+  - https://turtle-wow.fandom.com/wiki/Razorfen_Kraul
+  - https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content
+  - https://forum.turtlecraft.gg/viewtopic.php?p=29739#p29739
+  - https://forum.turtlecraft.gg/viewtopic.php?p=29746#p29746
+  notes: 'New area: The Brambled Grotto - ''The caverns of Razorfen Kraul, wrapped in thorns, go deeper than presumed.'' Scripting fixes to various mobs 2025-07-22. No abilities, numbers or tactics for Rotthorn.'
+- id: razorfen-downs
+  name: Razorfen Downs
+  type: dungeon
+  size: 5
+  level_min: 36
+  level_range: 42-44 (wiki table); 36-46 (in-game LFT addon per community guide)
+  patch_introduced: vanilla
+  patches_changed:
+  - 1.18.0
+  zone: The Barrens
+  entry_requirements: none
+  lockout: not found in sources
+  custom: false
+  bosses:
+  - name: Death Prophet Rakameg
+    npc_id: null
+    order: null
+    abilities:
+    - name: Shadow Burst
+      effect: null
+      numbers: null
+    - name: Consuming Shadows
+      effect: null
+      numbers: null
+    mechanics_summary: 'New boss (1.18.0), level 39 elite quilboar in the new area Temple of Agamaggan, where the Death''s Head Cult has allied with the Scourge. Aggro: ''Agamaggan shall be reborn!'''
+    tactics_summary: null
+    loot:
+    - Thornspine
+    - Thorngorged Fleshgloves
+    - Totem of the Rotten Roots
+    - Blood-etched Fetish
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+    - https://turtle-wow.fandom.com/wiki/Death_Prophet_Rakameg
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  - https://forum.turtlecraft.gg/viewtopic.php?p=79953#p79953
+  - https://turtle-wow.fandom.com/wiki/Razorfen_Downs
+  - https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content
+  - https://forum.turtlecraft.gg/viewtopic.php?p=29739#p29739
+  - https://forum.turtlecraft.gg/viewtopic.php?p=29746#p29746
+  notes: 'New area: Temple of Agamaggan. No numbers or tactics for Rakameg; the one new quest is not named in the sources used here.'
+- id: blackfathom-deeps
+  name: Blackfathom Deeps
+  type: dungeon
+  size: 5
+  level_min: 22
+  level_range: 22-31
+  patch_introduced: vanilla
+  patches_changed:
+  - 1.18.0
+  zone: Ashenvale
+  entry_requirements: none
+  lockout: not found in sources
+  custom: false
+  bosses:
+  - name: Velthelaxx the Defiler
+    npc_id: null
+    order: null
+    abilities: []
+    mechanics_summary: 'New boss (1.18.0), level 31 elite satyr in the new area Temple of Elune. The wiki page is a stub: no abilities and no loot list, only emotes (''The power of Elune shall be mine!'').'
+    tactics_summary: null
+    loot: []
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+    - https://turtle-wow.fandom.com/wiki/Velthelaxx_the_Defiler
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  - https://forum.turtlecraft.gg/viewtopic.php?p=79953#p79953
+  - https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content
+  - https://forum.turtlecraft.gg/viewtopic.php?p=29739#p29739
+  - https://forum.turtlecraft.gg/viewtopic.php?p=29743#p29743
+  notes: 'New area: Temple of Elune - ''Forgotten prayers echo through the temple, honoring Elune long after their voices faded.'' One new quest: The Moonshrine Ruins (41812), both factions. Velthelaxx is the least-documented new boss of the whole extension set.'
+- id: zulfarrak
+  name: Zul'Farrak
+  type: dungeon
+  size: 5
+  level_min: 44
+  level_range: 46-56 (wiki table); 44-54 (in-game LFT addon per community guide)
+  patch_introduced: vanilla
+  patches_changed:
+  - 1.18.0
+  zone: Tanaris
+  entry_requirements: none
+  lockout: not found in sources
+  custom: false
+  bosses:
+  - name: Zel'jeb the Ancient
+    npc_id: null
+    order: null
+    abilities:
+    - name: Ancient Embalming
+      effect: Receives less damage from all sources; vulnerable to Fire spells and effects
+      numbers: 90% damage reduction
+    - name: Thunderclap
+      effect: null
+      numbers: null
+    - name: Curse of Years
+      effect: 'Cast at 50% health: ''Zel''jeb the Ancient calls upon the ancestors of Zul''Farrak!'''
+      numbers: null
+    - name: War Stomp
+      effect: null
+      numbers: null
+    mechanics_summary: New boss (1.18.0), level 46 elite dire troll in the new area Farraki Tombs, where the Sandfury are unearthing an ancient underground tomb. Has a further emote at 25% health.
+    tactics_summary: Fire damage breaks his embalming. A group with no fire damage dealer can take the Flame of Farrak from a brazier next to Chief Ukorz Sandscalp; it lasts ten minutes.
+    loot:
+    - Bloodstained Fangblade
+    - Staff of the Bloodbound
+    - Bracers of the Bloodbound
+    - Sash of Ritual Scars
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+    - https://turtle-wow.fandom.com/wiki/Zel%27jeb_the_Ancient
+  - name: Farraki Arena (Kath'zen the Brutal, Juthza the Cunning, Champion Razjal the Quick)
+    npc_id: null
+    order: null
+    abilities:
+    - name: Scorpid Ritual
+      effect: 'Champion Razjal the Quick: ''Be consumed by the sand!'''
+      numbers: null
+    - name: Hellfire
+      effect: Champion Razjal the Quick
+      numbers: null
+    mechanics_summary: 'New multi-stage gauntlet area (1.18.0). Razjal''s intro line states the structure: ''You challenge me? You''ll have to beat my best warriors first.'' Razjal was not always dropping loot until a fix on 2025-11-18.'
+    tactics_summary: null
+    loot:
+    - Champion's Sandhelm
+    - Libram of the Farraki Zealot
+    - Gilded Blade of Razjal
+    - Talisman of the Sandborn
+    sources:
+    - https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+    - https://forum.turtlecraft.gg/viewtopic.php?p=159994#p159994
+    - https://turtle-wow.fandom.com/wiki/Farraki_Arena
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  - https://forum.turtlecraft.gg/viewtopic.php?p=159994#p159994
+  - https://forum.turtlecraft.gg/viewtopic.php?p=42070#p42070
+  - https://forum.turtlecraft.gg/viewtopic.php?p=112126#p112126
+  - https://forum.turtlecraft.gg/viewtopic.php?p=79953#p79953
+  - https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  - https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content
+  - https://forum.turtlecraft.gg/viewtopic.php?p=29739#p29739
+  - https://forum.turtlecraft.gg/viewtopic.php?p=29747#p29747
+  - https://forum.turtlecraft.gg/viewtopic.php?t=10230
+  notes: 'Two new areas: Farraki Tombs and Farraki Arena. Zel''jeb''s Ancient Embalming is the only fully specified damage-immunity puzzle among Turtle''s added bosses, and the wiki even documents the Flame of Farrak fallback. Spellshock Leggings can drop from all mobs in Zul''Farrak since 2023-04-18; an infinite-zombie Shallow Graves exploit was fixed 2024-12-10. How many waves the arena has is not stated.'

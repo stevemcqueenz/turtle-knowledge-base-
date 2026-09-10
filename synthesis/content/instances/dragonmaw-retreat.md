@@ -101,6 +101,8 @@ The Redbrand family thread starts outside the dungeon at **Redbrand's Digsite** 
 
 "Both **Stormwrought** and **Retreat** actually felt epic" — [Armordillo (player), 2026-04-18](https://forum.turtlecraft.gg/viewtopic.php?p=175765#p175765). No tactics thread exists.
 
+**Lore consistency (player discussion, no staff answer).** After the 1.18.0 trailer, a player raised that Zuluhed was in Outland right after the Second War and so should not be on Azeroth during vanilla — [Blue Feep (player), 2025-04-14](https://forum.turtlecraft.gg/viewtopic.php?p=126684#p126684). Two players answer that the Outland placement comes from *World of Warcraft Chronicle Volume II* (2017) and from *Tides of Darkness* and TBC, i.e. post-vanilla lore, and that "Turtle is sticking only to what was canon up to vanilla" — [FrankFankledank (player), 2025-04-15](https://forum.turtlecraft.gg/viewtopic.php?p=126813#p126813), [Ethenil (player), 2025-04-15](https://forum.turtlecraft.gg/viewtopic.php?p=126944#p126944). **Player interpretation, not a staff statement of design intent.**
+
 ---
 
 ## 7. Gaps and unclear points

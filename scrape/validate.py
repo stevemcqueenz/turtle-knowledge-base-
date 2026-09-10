@@ -49,7 +49,7 @@ def main():
     unresolved = {}
     for f in sorted(files):
         rel = os.path.relpath(f, ROOT)
-        if "structured/forum/posts" in rel or rel.endswith("_aliases.json"):
+        if "structured/forum/posts" in rel or rel.endswith("_aliases.json") or rel.endswith("coverage-report.md"):
             continue
         try:
             text = open(f, encoding="utf-8").read()
