@@ -1838,7 +1838,7 @@ entries:
   reports:
   - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=161908#p161908', author: Thaladar, authority: player, date: '2025-12-07'}
   - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=161914#p161914', author: Francma6, authority: player, date: '2025-12-07'}
-  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=175573#p175573', author: Kobiq, authority: player, date: '2026-04-17'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=175573#p175573', author: Springboards, authority: player, date: '2026-04-17'}
   notes: Contested by the playerbase - some call the jumps legitimate skill, others exploits; no staff
     statement was found either way. The 85-post thread and a follow-up in April show it persisted into 1.18.1.
 - id: ISS-0089
@@ -2308,3 +2308,252 @@ entries:
   - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=174116#p174116', author: Sleeptime, authority: staff, date: '2026-04-05'}
   notes: Not a game bug, but it matters for this list - the tracker is where staff send every bug report, so
     downtime means missing reports for that period.
+- id: ISS-0111
+  title: Shaman Tier 1 set bonus interaction with Chain Heal is intended
+  symptom: Players call the nerfed/broken Chain Heal interaction with the Shaman T1 set a bug (tracker id
+    18234) and ask for a fix instead of a set nerf.
+  reproduction: null
+  system: classes
+  subsystem: set bonus
+  entities: [Shaman Tier 1, Chain Heal]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: intended
+  status_source: https://forum.turtlecraft.gg/viewtopic.php?p=166084#p166084
+  severity: minor
+  affects: ['class:shaman', raid]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=166084#p166084', author: Jamey, authority: staff, date: '2026-01-23'}
+  notes: Staff - 'That interaction is intended. As was said by a green name.' The emulator should reproduce
+    the interaction rather than 'fix' it. The player post is quoted inside the staff reply (Overberk).
+- id: ISS-0112
+  title: The Alt'lympics mount cannot be used at level one - not a bug
+  symptom: Players asked for the year's Alt'lympic mount to be usable at level 1 as the previous gorilla mount
+    was, and called the restriction a bug.
+  reproduction: null
+  system: items
+  subsystem: mount requirements
+  entities: [Alt'lympics mount]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: intended
+  status_source: https://forum.turtlecraft.gg/viewtopic.php?p=160068#p160068
+  severity: cosmetic
+  affects: [leveling]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=160068#p160068', author: Torta, authority: staff, date: '2025-11-19'}
+  notes: Staff - 'This isn't a bug. This year's Alt'lympic mount isn't intended to be usable at level one.'
+- id: ISS-0113
+  title: Night elf priests get Shoot Bow only from level 20 - intended
+  symptom: A night elf priest who learned the Bow skill saw no Shoot Bow ability in the spellbook and reported
+    it as a bug.
+  reproduction: Learn Bow on a night elf priest below level 20.
+  system: classes
+  subsystem: ability availability
+  entities: [Shoot Bow]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: intended
+  status_source: https://forum.turtlecraft.gg/viewtopic.php?p=165876#p165876
+  severity: cosmetic
+  affects: ['class:priest', leveling]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=165859#p165859', author: Yintalk, authority: player, date: '2026-01-21'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=165876#p165876', author: Pepesmite, authority: staff, date: '2026-01-21'}
+  notes: Staff - 'This ability is only available from level 20.'
+- id: ISS-0114
+  title: Thunderfury's chain effect damages only the primary target
+  symptom: Players report the Thunderfury proc applying its slow to nearby targets without dealing damage to
+    them and ask whether it is a bug or a Turtle nerf.
+  reproduction: Proc Thunderfury on a group of targets and read the combat log.
+  system: items
+  subsystem: weapon proc
+  entities: [Thunderfury, Blessed Blade of the Windseeker]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: intended
+  status_source: null
+  severity: minor
+  affects: [raid, 'class:warrior']
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=156883#p156883', author: Stefka12222, authority: player, date: '2025-10-24'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=156891#p156891', author: Atreidon, authority: player, date: '2025-10-24'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=156977#p156977', author: Krodhars, authority: player, date: '2025-10-25'}
+  notes: The 'intended' mark here is player consensus only ('working as intended', 'it was always like that
+    everywhere') - no staff post was found, so status_source is null. Listed so the emulator does not turn
+    the proc into an AoE.
+- id: ISS-0115
+  title: Renew rank 5 and Flash Heal rank 3 are weak for their level - deliberate class change
+  symptom: Renew rank 5 (level 32) heals only 25 more than rank 4 for 30 more mana; Flash Heal rank 3 has the
+    same problem, so priests lose a step of power in their rank progression.
+  reproduction: Compare Renew ranks 4 and 5 and Flash Heal ranks 2 and 3 at their trainer levels.
+  system: classes
+  subsystem: spell rank scaling
+  entities: [Renew, Flash Heal]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: intended
+  status_source: null
+  severity: minor
+  affects: ['class:priest', leveling]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=163754#p163754', author: Lunattic13, authority: player, date: '2025-12-25'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=163861#p163861', author: Elesion, authority: player, date: '2025-12-27'}
+  notes: A knowledgeable player says it is a deliberate Turtle change made with Class Changes 2 in patch
+    1.17.2 and links that changelog; no staff post in the thread, so this is a player-sourced 'intended'.
+- id: ISS-0116
+  title: Missing or deprecated talents and spells caused by custom files in the data folder
+  symptom: Players report talents such as 'Scent of Blood' not showing, or deprecated spells appearing.
+  reproduction: Install custom patches into the client data folder, then open the talent tree.
+  system: ui-client
+  subsystem: custom patches
+  entities: [Scent of Blood]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: intended
+  status_source: https://forum.turtlecraft.gg/viewtopic.php?p=171762#p171762
+  severity: minor
+  affects: [client, ui]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=171749#p171749', author: IseeItIdoIt, authority: player, date: '2026-03-22'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=171762#p171762', author: Pepesmite, authority: staff, date: '2026-03-22'}
+  notes: Staff - 'If you are seeing DEPRECATED spells or spells that are not working or talents that are not
+    working, please delete any custom files or mods you've added to the /data folder'. Not a server bug, but
+    it explains a whole class of reports and should be ruled out before testing anything client-visible.
+- id: ISS-0117
+  title: Quest giver cannot be talked to while the player is At War with his faction
+  symptom: A player could not interact with Warleader Temukar in Desolace, could not turn in or retake his
+    quests, and concluded he was locked out of the faction.
+  reproduction: Set the At War flag for an NPC's faction and try to open his dialog.
+  system: quests
+  subsystem: faction / At War flag
+  entities: [Warleader Temukar, Gelkis Clan, Desolace]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: intended
+  status_source: https://forum.turtlecraft.gg/viewtopic.php?p=164921#p164921
+  severity: minor
+  affects: [quest]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=164919#p164919', author: Yunk, authority: player, date: '2026-01-11'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=164921#p164921', author: Sleeptime, authority: staff, date: '2026-01-11'}
+  notes: Staff told the player to clear the At War flag in the reputation pane; the player confirmed it
+    worked. Behaviour an emulator should reproduce.
+- id: ISS-0118
+  title: Field Duty and Tier 0.5 content was reachable ahead of its phase on Ambershire and rolled back
+  symptom: Field Duty quests were available on the fresh realm Ambershire before their phase; staff rolled
+    them back and removed the Cenarion badges players had farmed, while T0.5 stayed available.
+  reproduction: null
+  system: world
+  subsystem: content phasing
+  entities: [Field Duty, Tier 0.5, Cenarion badges, Ambershire]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: '2025-11 rollback (described by players only)'
+  era: 1.18.1-announced-pre-release
+  status: unclear
+  status_source: null
+  severity: exploit
+  affects: [economy, raid]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=160729#p160729', author: Imme, authority: player, date: '2025-11-26'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=160801#p160801', author: Afokten, authority: player, date: '2025-11-26'}
+  notes: Only player accounts of the rollback were found in the extraction; no staff post announcing it. The
+    relevant lesson for a fresh-realm emulator is that phase gating of quest givers must match the realm's
+    content phase.
+- id: ISS-0119
+  title: Cross-faction Warsong Gulch flag could not be picked up before the client update
+  symptom: In the new cross-faction WSG the flag could not be taken; the fix was to download the client update
+    from the launcher, which enables picking up the enemy flag.
+  reproduction: Play cross-faction WSG with an un-updated client.
+  system: pvp
+  subsystem: client/server mismatch
+  entities: [Warsong Gulch, cross-faction battlegrounds]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: 'client update available at the time of the report'
+  era: 1.18.1-announced-pre-release
+  status: fixed
+  status_source: null
+  severity: major
+  affects: [pvp, client]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=158745#p158745', author: Wez0, authority: player, date: '2025-11-07'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=158763#p158763', author: Grizb37, authority: player, date: '2025-11-07'}
+  notes: The 'fix' is a player instruction to update the client, not a staff post; the same reporter also
+    wanted the faction-specific bank/mailbox/auction NPCs made neutral.
+- id: ISS-0120
+  title: Master Loot forces the master looter to hand out greys and whites below the threshold
+  symptom: With the loot threshold set to Uncommon, the master looter still has to distribute grey and white
+    items instead of them being free for all.
+  reproduction: Set Master Loot with an Uncommon threshold and loot trash.
+  system: raids
+  subsystem: loot rules
+  entities: [Master Loot]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: unclear
+  status_source: null
+  severity: minor
+  affects: [raid, dungeon]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=172040#p172040', author: Cysthen, authority: player, date: '2026-03-23'}
+  notes: The player states an assumption about the intended rule; the staff loot hotfix of 2026-03-31 only
+    covers chests. Vanilla baseline (not from turtlecraft.gg) is that below-threshold items are free for all.
+- id: ISS-0121
+  title: The Dreamer's Challenge (Rethevus) reported unbeatable on a fresh realm
+  symptom: Druids on Ambershire report that even best-in-phase geared characters cannot beat Rethevus for the
+    travel form quest; resto-geared druids in particular.
+  reproduction: Attempt quest 41861 on a fresh realm with phase-appropriate gear.
+  system: quests
+  subsystem: solo challenge tuning
+  entities: [The Dreamer's Challenge, Rethevus, Travel Form]
+  entity_ids: [41861]
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: unclear
+  status_source: null
+  severity: minor
+  affects: ['class:druid', quest]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=170206#p170206', author: Ayebanats, authority: player, date: '2026-03-06'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=170226#p170226', author: Galidon, authority: player, date: '2026-03-06'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=170779#p170779', author: Biggamehuntard, authority: player, date: '2026-03-14'}
+  notes: Contested - other players say they and blue-geared druids finished it and give tactics, so this looks
+    like tuning/knowledge rather than a defect. entity_ids holds the quest id from the database link.
+- id: ISS-0122
+  title: Quest 'Scouring the Desert' questioned as bugged on Ambershire
+  symptom: A player asks whether quest 9419 is bugged or doable on the Ambershire realm.
+  reproduction: null
+  system: quests
+  subsystem: realm-specific availability
+  entities: ['Scouring the Desert', Ambershire]
+  entity_ids: [9419]
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: unclear
+  status_source: null
+  severity: minor
+  affects: [quest]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=167625#p167625', author: berdal, authority: player, date: '2026-02-07'}
+  notes: Question with no answer; entity id taken from the database link in the post. Included because
+    fresh-realm phasing of Silithus content is a plausible emulator difference.
