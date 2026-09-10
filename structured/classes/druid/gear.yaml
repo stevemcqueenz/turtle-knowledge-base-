@@ -1,0 +1,341 @@
+about: >
+  Gear recommendations for Druid (Balance ranged DPS, Feral melee DPS, Feral tank,
+  Restoration healer) by spec/role and level bracket, with where-to-obtain, built from
+  the Druid forum (f42), the Itemization forum's relic list and 1.18.1 changelog, and
+  the existing class playbooks' "Gear, enchants and consumables" sections. Like every
+  other class read for this series, no maintained Turtle-specific pre-raid or raid BiS
+  list exists for any Druid spec/role; the strongest source found is a single level-49
+  "twink" gear list for Balance (leveling-30-49), which is unusually complete.
+class: druid
+generated_from:
+  - https://forum.turtlecraft.gg/viewtopic.php?t=16360
+  - https://forum.turtlecraft.gg/viewtopic.php?t=5704
+  - https://forum.turtlecraft.gg/viewtopic.php?t=9080
+  - https://forum.turtlecraft.gg/viewtopic.php?t=19402
+  - https://forum.turtlecraft.gg/viewtopic.php?t=10761
+  - https://forum.turtlecraft.gg/viewtopic.php?t=24574
+  - https://forum.turtlecraft.gg/viewtopic.php?t=4399
+  - https://forum.turtlecraft.gg/viewtopic.php?t=8229
+  - https://forum.turtlecraft.gg/viewtopic.php?t=23973
+  - synthesis/classes/druid/balance-ranged-dps.md
+  - synthesis/classes/druid/feral-melee-dps.md
+  - synthesis/classes/druid/feral-tank.md
+  - synthesis/classes/druid/restoration-healer.md
+  - synthesis/classes/druid/leveling.md
+caveats:
+  - "No pre-raid or raid BiS list exists for any Druid spec/role in the sources. \"Balance gear is nonexistent\" (t5704, 2023) is a representative thread title; the reply consensus is that leveling caster gear with actual spellpower is rare for every class, not uniquely absent for Druid, but that Balance-specific leather+spellpower gear barely exists before Molten Core/Tier 1."
+  - "Item IDs are filled only where a post links database.turtlecraft.gg/?item=N (Turtle's own item database), which is the case for nearly every item in the leveling-30-49 Balance list (t16360) and the relic list (t8229)."
+  - "The leveling-30-49 Balance list is explicitly a level-49 twink list (a character parked below 50 for a fixed PvP/dungeon bracket, not a leveling-through-49 progression list) — it names the BiS ceiling for that bracket, not a route to reach it."
+  - "Faction-mirrored items (an Alliance version and a Horde version of the same conceptual reward) are recorded as the source wrote them; only one faction's item is kept as the primary entry per slot where both exist, to control file size — the other faction's exact name is in the equivalent bracket note or omitted; see gaps."
+  - "Restoration's pvp-60 bracket below is built directly from a single General/Druid-forum thread (t19402) that is NOT reflected in synthesis/classes/druid/restoration-pvp.md (that playbook file has no Gear section at all) — flagged as a primary-source addition beyond what the existing playbooks captured."
+specs:
+  - spec: Balance
+    role: ranged-dps
+    brackets:
+      - bracket: leveling-30-49
+        agreement: single
+        patch_validity: {written_for: pre-1.18.1, valid_for_1181: unknown, notes: "A level-49 twink ceiling list, not a progression route; posted 2024-12-06."}
+        slots:
+          - slot: two-hand
+            items:
+              - name: "Batu'kar of the Second Khan"
+                item_id: 60905
+                rank: 1
+                source_type: reputation
+                source_place: "Gelkis tribe, Exalted"
+                source_detail: null
+                custom_turtle_item: true
+                notes: "Marked BiS by the poster (\"good luck!\" — hard to obtain)."
+                citations: &imonobor [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=111594#p111594", author: Imonobor, authority: player, date: "2024-12-06"}]
+              - {name: "Zum'rah's Vexing Cane", item_id: 18082, rank: 2, source_type: drop, source_place: "Zul'Farrak (Zum'rah)", source_detail: null, custom_turtle_item: false, notes: null, citations: *imonobor}
+              - {name: "Spire of Hakkar", item_id: 10844, rank: 2, source_type: drop, source_place: "Sunken Temple (Hakkar)", source_detail: null, custom_turtle_item: false, notes: null, citations: *imonobor}
+              - name: "Kindling Stave"
+                item_id: 11750
+                rank: 2
+                source_type: drop
+                source_place: "Blackrock Depths (poster wrote \"Loregrain, BRD\")"
+                source_detail: null
+                custom_turtle_item: unknown
+                notes: null
+                citations: &both [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=111594#p111594", author: Imonobor, authority: player, date: "2024-12-06"}, {url: "https://forum.turtlecraft.gg/viewtopic.php?p=111605#p111605", author: Annoying, authority: player, date: "2024-12-06"}]
+          - slot: main-hand
+            items:
+              - {name: "Blade of Eternal Darkness", item_id: 17780, rank: 1, source_type: drop, source_place: "Maraudon (poster wrote \"Princess\")", source_detail: "1% drop chance", custom_turtle_item: false, notes: "Recommended together with Spirit of Aquementas as an off-hand pairing.", citations: *both}
+              - {name: "Rubyheart Mallet", item_id: 60696, rank: 2, source_type: quest, source_place: "Hateforge Quarry quest (Alliance)", source_detail: null, custom_turtle_item: true, notes: null, citations: *both}
+          - slot: off-hand
+            items:
+              - {name: "Spirit of Aquementas", item_id: 11904, rank: 1, source_type: quest, source_place: "Un'Goro Crater quest", source_detail: null, custom_turtle_item: false, notes: null, citations: *both}
+              - {name: Drakestone, item_id: 10796, rank: 2, source_type: drop, source_place: "Sunken Temple (dragon bosses)", source_detail: "int/stam/nature/arcane variant", custom_turtle_item: false, notes: null, citations: *imonobor}
+          - slot: head
+            items:
+              - {name: "Swiftcaster's Chapeau", item_id: 61323, rank: 1, source_type: drop, source_place: "Gilneas City (Lord Walden Greymane)", source_detail: null, custom_turtle_item: true, notes: null, citations: *imonobor}
+              - {name: "Soothsayer's Headdress", item_id: 17740, rank: 2, source_type: drop, source_place: "Maraudon (Celebras the Cursed)", source_detail: null, custom_turtle_item: false, notes: null, citations: *imonobor}
+          - slot: shoulder
+            items:
+              - {name: "Ironfeather Shoulders", item_id: 15067, rank: 1, source_type: craft, source_place: Leatherworking, source_detail: null, custom_turtle_item: false, notes: "Ironfeather is the set repeatedly named as the go-to crafted Balance leveling gear across multiple threads (see pre-raid-60 below).", citations: *imonobor}
+              - {name: "Kentic Amice", item_id: 11624, rank: 2, source_type: drop, source_place: "Blackrock Depths (an Interrogator)", source_detail: null, custom_turtle_item: false, notes: null, citations: *imonobor}
+          - slot: chest
+            items:
+              - {name: "Dreamweave Vest", item_id: 10021, rank: 1, source_type: craft, source_place: Tailoring, source_detail: null, custom_turtle_item: false, notes: null, citations: *imonobor}
+              - {name: "Feathered Breastplate", item_id: 8349, rank: 2, source_type: craft, source_place: Leatherworking, source_detail: null, custom_turtle_item: false, notes: null, citations: *imonobor}
+          - slot: wrist
+            items:
+              - {name: "Wildfeather Bracers", item_id: 61321, rank: 1, source_type: drop, source_place: "Gilneas City (Harlow Nobius)", source_detail: null, custom_turtle_item: true, notes: null, citations: *imonobor}
+          - slot: hands
+            items:
+              - {name: "Ogreseer Fists", item_id: 11665, rank: 1, source_type: drop, source_place: "Blackrock Depths Arena", source_detail: null, custom_turtle_item: false, notes: null, citations: *imonobor}
+              - {name: "Elven Spirit Claws", item_id: 2564, rank: 2, source_type: world-drop, source_place: null, source_detail: "BoE", custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=111605#p111605", author: Annoying, authority: player, date: "2024-12-06"}]}
+          - slot: waist
+            items:
+              - name: "Grug'thok's Sash"
+                item_id: 81384
+                rank: 1
+                source_type: drop
+                source_place: "Feralas (rare elite)"
+                source_detail: "~2% drop chance"
+                custom_turtle_item: true
+                notes: "\"No fucking chance\" per the poster's own assessment of realistic drop odds."
+                citations: *imonobor
+              - {name: "Highlander's Lizardhide Girdle", item_id: 20103, rank: 2, source_type: reputation, source_place: "Arathor, Honored", source_detail: null, custom_turtle_item: true, notes: null, citations: *imonobor}
+          - slot: legs
+            items:
+              - {name: "Spellshock Leggings", item_id: 9484, rank: 1, source_type: world-drop, source_place: "Zul'Farrak", source_detail: "BoE", custom_turtle_item: false, notes: null, citations: *imonobor}
+              - {name: "Windscale Sarong", item_id: 10842, rank: 2, source_type: drop, source_place: "Sunken Temple (Hakkar)", source_detail: null, custom_turtle_item: false, notes: null, citations: *imonobor}
+          - slot: feet
+            items:
+              - {name: "Highlander's Cloth Boots", item_id: 20094, rank: 1, source_type: reputation, source_place: "Arathor, Revered", source_detail: null, custom_turtle_item: true, notes: null, citations: *imonobor}
+              - name: "Vinerot Sandals"
+                item_id: 17748
+                rank: 2
+                source_type: drop
+                source_place: "Maraudon (Razorlash, Orange path)"
+                source_detail: "stats were updated shortly after this post; the updated screenshot is not reproduced here"
+                custom_turtle_item: false
+                notes: null
+                citations: *both
+          - slot: back
+            items:
+              - {name: "Spritecaster Cape", item_id: 11623, rank: 1, source_type: drop, source_place: "Blackrock Depths (Houndmaster Grebmar)", source_detail: null, custom_turtle_item: false, notes: null, citations: *imonobor}
+              - {name: "Quel'dorei Hero's Drape", item_id: 80527, rank: 2, source_type: reputation, source_place: "Silvermoon, Honored", source_detail: null, custom_turtle_item: true, notes: null, citations: *imonobor}
+          - slot: neck
+            items:
+              - {name: "Pendant of the Deep Woodlands", item_id: 51756, rank: 1, source_type: quest, source_place: "Hinterlands elite quests (Alliance)", source_detail: null, custom_turtle_item: true, notes: null, citations: *imonobor}
+              - {name: "Horizon Choker", item_id: 13085, rank: 2, source_type: world-drop, source_place: null, source_detail: "BoE", custom_turtle_item: false, notes: null, citations: *imonobor}
+          - slot: ring1
+            items:
+              - {name: "Cyclopean Band", item_id: 11824, rank: 1, source_type: drop, source_place: "Blackrock Depths Arena", source_detail: null, custom_turtle_item: false, notes: null, citations: *imonobor}
+              - {name: "Lorekeeper's Ring", item_id: 19523, rank: 1, source_type: pvp, source_place: "Warsong Gulch", source_detail: null, custom_turtle_item: unknown, notes: null, citations: *imonobor}
+          - slot: ring2
+            items:
+              - {name: "Runed Ring of the Eagle (9/9) or of Intellect (14)", item_id: 862, rank: 2, source_type: world-drop, source_place: "Zul'Farrak", source_detail: "BoE", custom_turtle_item: false, notes: null, citations: *imonobor}
+          - slot: trinket1
+            items:
+              - {name: "Insignia of the Alliance", item_id: 18863, rank: 1, source_type: pvp, source_place: "PvP rank reward", source_detail: null, custom_turtle_item: false, notes: null, citations: *imonobor}
+              - {name: "Crescent Sigil", item_id: 83210, rank: 1, source_type: drop, source_place: "Crescent Grove (A'lathea)", source_detail: null, custom_turtle_item: true, notes: null, citations: *imonobor}
+          - slot: trinket2
+            items:
+              - {name: "Ancient Grove Reed", item_id: 61555, rank: 1, source_type: world-drop, source_place: "Crescent Grove", source_detail: "BoE", custom_turtle_item: true, notes: null, citations: *imonobor}
+              - {name: "Talisman of Arathor", item_id: 21117, rank: 2, source_type: reputation, source_place: "Arathor, Friendly", source_detail: null, custom_turtle_item: true, notes: null, citations: *imonobor}
+          - slot: relic
+            items:
+              - name: "Idol of Evergrowth"
+                item_id: 51802
+                rank: 3
+                source_type: drop
+                source_place: "Maraudon (Razorlash)"
+                source_detail: null
+                custom_turtle_item: true
+                notes: "Poster was unsure this is the right pick for a Balance twink (marked with \"?\" in the source) — its effect (Thorns proc) is not Balance-focused; see the staff relic list for its actual effect."
+                citations: *imonobor
+        enchants: []
+        consumables: []
+        stat_notes: "The poster self-marks BiS picks with an asterisk in the original list; not all slots have a confirmed pick (idol, several rings/trinkets left as open options). \"I'm not sure about which enchantments are best and which ones are even obtainable at level 49\" — the enchant question in the same thread got no answer beyond \"you can use pretty much everything\" and a note that Core Armor Kit requires level 45+." # Imonobor p=111594; Xudo p=111613
+      - bracket: pre-raid-60
+        agreement: contested
+        patch_validity: {written_for: pre-1.18.1, valid_for_1181: unknown, notes: null}
+        slots:
+          - slot: chest
+            items:
+              - name: "Ironfeather set (Leatherworking)"
+                item_id: null
+                rank: 1
+                source_type: craft
+                source_place: Leatherworking
+                source_detail: null
+                custom_turtle_item: false
+                notes: "A full crafted set, not one piece — named as \"excellent for the time you can pick it up\"; recorded under chest as a representative slot (see stat_notes for the full discussion)."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=35704#p35704", author: Kairion, authority: player, date: "2023-02-22"}]
+        enchants: []
+        consumables: []
+        stat_notes: "\"Balance gear is nonexistent\" — Balance-specific leather+spellpower gear barely exists before Tier 1: \"There is not a single piece in a dungeon that is leather and has +spellpower on it... you can either use X wrath pieces with no other stats off the auction house, neglecting either arcane or nature, use all cloth pieces, or wait until Molten Core and tier 1.\" Response: Leatherworking's Ironfeather set (`database.turtlecraft.gg/?itemset=144`) is called \"excellent for the time you can pick it up\"; a Scarlet Monastery trash staff drop is called \"fantastic\"; Crescent Grove drops \"a quite potent trinket\" (Crescent Sigil, see leveling-30-49 above); the Embrace of the Fang set from Wailing Caverns (`?itemset=162`) gives some early nature/spelldamage. Consensus: leveling caster spellpower gear is scarce for every class, not uniquely absent for Druid, but Balance-specific pieces are \"few and far between.\"" # Datadragon p=35702; Kairion p=35704
+      - bracket: raid-t2.5
+        agreement: single
+        patch_validity: {written_for: pre-1.18.1, valid_for_1181: true, notes: "T2.5 was reworked from AQ40's legacy set into a dedicated Balance set as part of the 1.17.2 alternative-tier-sets rollout."}
+        slots:
+          - slot: relic
+            items:
+              - {name: "Idol of the Moonfang", item_id: null, rank: 1, source_type: drop, source_place: "Lower Karazhan Halls (Clawlord Howlfang)", source_detail: "+1% crit chance from Leader of the Pack and Moonkin Aura", custom_turtle_item: true, notes: "Added 1.17.0; described elsewhere as possibly BiS for any raiding DPS spec because it's a raid-wide buff.", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=52799#p52799", author: Dragunovi, authority: staff, date: "2023-07-10"}]}
+        enchants: []
+        consumables: []
+        stat_notes: "\"In fact, tier 2.5 from AQ40 got reworked and is now a full boomkin set with lots of hit, spell power and spell penetration.\" This is corroborated by the staff announcement that alternative Tier 2.5 sets were being added in 1.17.2, with Balance's version built from the legacy Tier 2.5 set." # Reploidrocsa p=70239; Dragunovi p=71030
+      - bracket: raid-t3
+        agreement: single
+        patch_validity: {written_for: pre-1.18.1, valid_for_1181: unknown, notes: null}
+        slots: []
+        enchants: []
+        consumables: []
+        stat_notes: "Hit budget is thin: only about 4% spell hit is available across the full T3 set (see stat priority in balance-ranged-dps.md)." # Scattyau p=159149 (existing playbook)
+      - bracket: raid-t3.5
+        agreement: contested
+        patch_validity: {written_for: pre-1.18.1, valid_for_1181: unknown, notes: "Both idols are Kara40-era content (added 1.17.2)."}
+        slots:
+          - slot: relic
+            items:
+              - name: "Ebb and Flow"
+                item_id: null
+                rank: 1
+                source_type: drop
+                source_place: "Cla'ckora (summoned world boss)"
+                source_detail: "reduces Starfire cast time by 0.2 sec (staff relic-list description); a player calculation frames it as \"reduces Starfire cast time\" more broadly"
+                custom_turtle_item: true
+                notes: "Contested against a BoE idol below: \"feels great casting faster Starfires\" but calculated as weaker in practice since Starfire is \"our 4th best spell.\""
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=52799#p52799", author: Dragunovi, authority: staff, date: "2023-07-10"}, {url: "https://forum.turtlecraft.gg/viewtopic.php?p=159149#p159149", author: Scattyau, authority: player, date: "2025-11-11"}]
+              - name: "17%-Moonfire-damage BoE idol (name not given in source)"
+                item_id: null
+                rank: 1
+                source_type: world-drop
+                source_place: null
+                source_detail: "~20g market price at time of posting"
+                custom_turtle_item: unknown
+                notes: "\"17% Moonfire damage that scales with Spellpower\", calculated as roughly a 4% total-DPS gain (Moonfire being ~22% of total damage); called \"BIS forever\" despite the low price. Exact item name not given in the source (gap)."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=159149#p159149", author: Scattyau, authority: player, date: "2025-11-11"}]
+        enchants: []
+        consumables:
+          - {name: "Major Mana Potion", use: "raid mana sustain", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=134911#p134911", author: kierova, authority: player, date: "2025-06-09"}]}
+          - {name: "Nordanaar Herbal Tea", use: "raid mana sustain", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=134911#p134911", author: kierova, authority: player, date: "2025-06-09"}]}
+          - {name: "Dark Rune", use: "raid mana sustain", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=134911#p134911", author: kierova, authority: player, date: "2025-06-09"}]}
+          - {name: Innervate, use: "raid mana sustain (self/other)", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=134911#p134911", author: kierova, authority: player, date: "2025-06-09"}]}
+          - {name: "Nightfin Soup", use: "raid mana sustain", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=134911#p134911", author: kierova, authority: player, date: "2025-06-09"}]}
+          - {name: "Mageblood Potion", use: "raid mana sustain", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=134911#p134911", author: kierova, authority: player, date: "2025-06-09"}]}
+        stat_notes: "T3.5 5-piece synergy (Wrath mana refund with Balance of All Things) is sarcastically dismissed: \"increases this lacklustre effect by 50%, so you can feel so little, slightly more! Drop your Wrath down to 37 mana, 3 times!\"" # Scattyau p=159149
+  - spec: Feral
+    role: melee-dps
+    brackets:
+      - bracket: pre-raid-60
+        agreement: single
+        patch_validity: {written_for: pre-1.18.1, valid_for_1181: unknown, notes: "No item list found — gap."}
+        slots: []
+        enchants: []
+        consumables: []
+        stat_notes: "No pre-raid BiS list found in sources for Feral DPS (consistent with every other Druid role). \"Feral attack power on weapons\" is called a long-running itemization theme rather than a specific list — see raid brackets below for the named items that theme produced." # Dragunovi p=102966
+      - bracket: raid-t2
+        agreement: contested
+        patch_validity: {written_for: pre-1.18.1, valid_for_1181: true, notes: "1.18.1 hotfixed Yoxtez (+224 FAP) and made Fang of Alichos usable in shapeshift forms."}
+        slots:
+          - slot: two-hand
+            items:
+              - name: Yoxtez
+                item_id: null
+                rank: 1
+                source_type: unknown-in-sources
+                source_place: null
+                source_detail: "+224 Feral Attack Power added in a 1.18.1 hotfix"
+                custom_turtle_item: unknown
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608", author: Torta, authority: staff, date: "2026-03-21"}]
+              - name: "Fang of Alichos"
+                item_id: null
+                rank: 2
+                source_type: unknown-in-sources
+                source_place: null
+                source_detail: "became usable in shapeshift forms in a 1.18.1 hotfix"
+                custom_turtle_item: unknown
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608", author: Torta, authority: staff, date: "2026-03-21"}]
+              - name: "Herald of Woe"
+                item_id: null
+                rank: 1
+                source_type: drop
+                source_place: "Blackwing Lair"
+                source_detail: "damage raised 199-300→204-304, Feral Attack Power 210→224, +1% haste added, in 1.18.1"
+                custom_turtle_item: false
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272", author: Dragunovi, authority: staff, date: "2026-02-15"}]
+          - slot: relic
+            items:
+              - {name: "Idol of the Wildshifter", item_id: 51798, rank: 3, source_type: drop, source_place: "outside Karazhan (Dark Reaver of Karazhan)", source_detail: "reduces shapeshift mana cost by 75", custom_turtle_item: true, notes: "Niche powershifting pick; one player initially dismissed it as a joke item before recognizing its narrow use.", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=52799#p52799", author: Dragunovi, authority: staff, date: "2023-07-10"}]}
+              - {name: "Idol of the Emerald Rot", item_id: null, rank: 2, source_type: drop, source_place: "Emerald Sanctum (Solnius the Awakener)", source_detail: "finishing moves have a 20% chance per combo point to deal 150-191 Nature damage", custom_turtle_item: true, notes: "Added 1.17.0.", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=52799#p52799", author: Dragunovi, authority: staff, date: "2023-07-10"}]}
+              - {name: "Idol of Savagery", item_id: null, rank: 2, source_type: drop, source_place: "Caverns of Time: The Black Morass (Rotmaw)", source_detail: "reduces time between periodic ticks and duration of Rake and Rip by 10%", custom_turtle_item: true, notes: "Added 1.17.0.", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=52799#p52799", author: Dragunovi, authority: staff, date: "2023-07-10"}]}
+              - {name: "Idol of Laceration", item_id: null, rank: 1, source_type: drop, source_place: "Upper Karazhan (Keeper Gnarlmoon)", source_detail: "Rip has a 20% chance per combo point to make your next Shred refund 15 energy", custom_turtle_item: true, notes: "Core bleed-build idol; added 1.17.2.", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=52799#p52799", author: Dragunovi, authority: staff, date: "2023-07-10"}, {url: "https://forum.turtlecraft.gg/viewtopic.php?p=132703#p132703", author: Rmoruser, authority: player, date: "2025-05-24"}]}
+        enchants: []
+        consumables: []
+        stat_notes: "Feral Attack Power (FAP) items should be prioritized regardless of nominal weapon flavor, since forms use these as stat sticks: \"[Turtle has] added Feral Attack Power on many of the more undesirable weapons\" as a long-running itemization theme. A Kara40 armor-ignoring trinket was nerfed in 1.18.1 and is no longer a strong feral pick, per an unnamed-item player report (gap: item name not given). Wolfshead Helm / Wolfsheart enchant + Furor is the historic powershifting enabler, still functional post-1.18.1." # Dragunovi p=102966; Zvyrhol/Noephix p=172992
+  - spec: Feral
+    role: tank
+    brackets:
+      - bracket: pre-raid-60
+        agreement: single
+        patch_validity: {written_for: pre-1.18.1, valid_for_1181: unknown, notes: null}
+        slots:
+          - slot: trinket1
+            items:
+              - name: "Hateforge trinket"
+                item_id: null
+                rank: 1
+                source_type: drop
+                source_place: Hateforge Quarry
+                source_detail: "+120 armor, 12 stamina, 1% attack speed"
+                custom_turtle_item: true
+                notes: "Called out as a good early tank trinket; Smoking Heart of the Mountain questioned as still BiS in the same thread but left unanswered (gap)."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=26875#p26875", author: Geojak, authority: player, date: "2022-10-06"}]
+          - slot: relic
+            items:
+              - {name: "Idol of the Apex Predator", item_id: null, rank: 1, source_type: drop, source_place: "Wailing Caverns (Vangros)", source_detail: "reduces Demoralizing Roar rage cost by 2", custom_turtle_item: true, notes: "Added 1.17.2.", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=52799#p52799", author: Dragunovi, authority: staff, date: "2023-07-10"}]}
+              - {name: "Idol of Evergrowth", item_id: 51802, rank: 2, source_type: drop, source_place: "Maraudon (Razorlash)", source_detail: "Thorns has a 3% chance when attacked to inflict 15-20 Nature damage to nearby enemies", custom_turtle_item: true, notes: "Updated in 1.17.1; general-utility idol usable by any bear running Thorns.", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=52799#p52799", author: Dragunovi, authority: staff, date: "2023-07-10"}]}
+        enchants: []
+        consumables: []
+        stat_notes: "Herbalism/Alchemy suggested for a leveling tank (self-sufficiency, potion access)." # Geojak p=26875
+      - bracket: raid-t3
+        agreement: single
+        patch_validity: {written_for: post-1.18.1, valid_for_1181: true, notes: "Post-1.18.1 complaint; not independently corroborated."}
+        slots: []
+        enchants: []
+        consumables: []
+        stat_notes: "\"Item devs strike once again, making bear t3 choke-full of useless and low-value stats like intellect or defense (bear cant parry or block, remember?). So the best current bear set in game by far is... PvP t3. Because pvp sets are naturally made with proper stats. Yes, bears have to spend months upon months on BGs to get their pve BiS set.\" Single source, not independently corroborated with a gear list — treat as a lead, not a confirmed recommendation." # Noephix p=173102
+  - spec: Restoration
+    role: healer
+    brackets:
+      - bracket: leveling-50-59
+        agreement: single
+        patch_validity: {written_for: pre-1.18.1, valid_for_1181: unknown, notes: null}
+        slots:
+          - slot: chest
+            items:
+              - name: "Abyssal (leather PvP set, Auction House)"
+                item_id: null
+                rank: 1
+                source_type: pvp
+                source_place: "Auction House (crafted/traded PvP set pieces)"
+                source_detail: "a full set, not one piece — recorded under chest as a representative slot"
+                custom_turtle_item: unknown
+                notes: "Recommended over the early PvE blue set specifically because the blue set wastes stat points on Strength/Agility, while Abyssal gives Stamina/Intellect/spell power."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=131901#p131901", author: Halfgeek9, authority: player, date: "2025-05-19"}]
+        enchants: []
+        consumables: []
+        stat_notes: "The Moonheart PvP set was separately asked about as a starting point but not conclusively endorsed (gap)." # Krltbr p=131891
+      - bracket: pvp-60
+        agreement: single
+        patch_validity: {written_for: pre-1.18.1, valid_for_1181: unknown, notes: "Same thread as the leveling-50-59 entry above; the advice is framed for a fresh-to-PvP healer regardless of exact level."}
+        slots: []
+        enchants: []
+        consumables: []
+        stat_notes: "\"For pvp you just want a boatload of stamina as a healer; i think you can skip t.05 and jump straight to t2, druid spots should be open at bwl.\"" # Springboards p=131894
+gaps:
+  - "No pre-raid-60 gear item list exists for Feral DPS, Feral tank (beyond one trinket), or Restoration; only Balance has a rich leveling list (twink-specific, not a route to reach it) and a discussion thread naming crafted/dungeon options rather than a ranked list."
+  - "The Kara40 armor-ignoring trinket nerfed in 1.18.1 (Feral DPS) is never named in the sources that discuss it — item name unknown."
+  - "\"Smoking Heart of the Mountain\" was asked about as a possible Feral tank trinket but never confirmed or denied in the source thread."
+  - "The level-29 twink PvP gear list thread for Feral Druid, Hunter and Rogue (General forum, https://forum.turtlecraft.gg/viewtopic.php?t=22403) names every item only via raw database.turtlecraft.gg/?item=N links with no item names in the post text — unusable without a live database lookup; not included above."
+  - "\"That new Wailing Caverns idol?\" is mentioned in the leveling-30-49 Balance list as an open question with no name resolved — likely refers to a druid idol added around the same patch as the other Wailing Caverns idol (Idol of the Apex Predator, which is Feral-tank-focused, not Balance) but this is the synthesis agent's inference, not a source statement."
+  - "No enchant list exists for any Druid spec/role beyond the single \"Wolfshead Helm / Wolfsheart enchant\" mention for Feral and the leveling-30-49 Balance thread's unanswered enchant question."
+  - "No raid-t1 or raid-t3.5 gear exists for Feral tank, and no raid-tier gear at all exists for Restoration beyond the T3.5 set-bonus design complaint (not an item list — see synthesis/classes/druid/restoration-healer.md and the T3.5 thread t24574, which is a player redesign proposal, not a gear recommendation)."
+  - "Faction-mirrored item names in the leveling-30-49 Balance list (e.g. a Horde equivalent to Rubyheart Mallet, Pendant of the Deep Woodlands, Highlander's items, Quel'dorei Hero's Drape) are not reproduced in full above; see t16360 directly for both factions' exact names."

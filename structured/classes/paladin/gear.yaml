@@ -1,0 +1,701 @@
+about: >
+  Gear recommendations for Paladin (Holy healer, Protection tank, Retribution melee DPS)
+  by spec/role and level bracket, with where-to-obtain, built from the Paladin forum
+  (f41), General-forum BiS threads, the existing class playbooks' "Gear, enchants and
+  consumables" sections, and the Itemization forum's relic list and 1.18.1 changelog.
+  Every "is there a Turtle BiS list" thread in the Paladin forum gets the same answer:
+  no current one exists. The one detailed pre-raid list found (t393, Protection tank)
+  is a 2019 repost of a generic vanilla guide, explicitly declared outdated by a player
+  in 2025 — kept here only because it is the single most complete named-item list found
+  for any Paladin spec, with that caveat attached to every item in it.
+class: paladin
+generated_from:
+  - https://forum.turtlecraft.gg/viewtopic.php?t=393
+  - https://forum.turtlecraft.gg/viewtopic.php?t=8738
+  - https://forum.turtlecraft.gg/viewtopic.php?t=18785
+  - https://forum.turtlecraft.gg/viewtopic.php?t=17662
+  - https://forum.turtlecraft.gg/viewtopic.php?t=20414
+  - https://forum.turtlecraft.gg/viewtopic.php?t=21851
+  - https://forum.turtlecraft.gg/viewtopic.php?t=23183
+  - https://forum.turtlecraft.gg/viewtopic.php?t=19282
+  - https://forum.turtlecraft.gg/viewtopic.php?t=4568
+  - https://forum.turtlecraft.gg/viewtopic.php?t=14711
+  - https://forum.turtlecraft.gg/viewtopic.php?t=19669
+  - https://forum.turtlecraft.gg/viewtopic.php?t=18310
+  - https://forum.turtlecraft.gg/viewtopic.php?t=4075
+  - https://forum.turtlecraft.gg/viewtopic.php?t=8229
+  - https://forum.turtlecraft.gg/viewtopic.php?t=23973
+  - synthesis/classes/paladin/holy-healer.md
+  - synthesis/classes/paladin/protection-tank.md
+  - synthesis/classes/paladin/retribution-melee-dps.md
+  - synthesis/classes/paladin/leveling.md
+caveats:
+  - "No Turtle-specific pre-raid or raid BiS list exists for any Paladin spec. t8738, t18785, t17662 (partial), t21851, t23183 and t19282/t4568 (Holy) are all unanswered or answered with \"ask Discord\"/\"use a vanilla guide\"."
+  - "t393's pre-raid Protection tank list is a 2019 repost of a generic vanilla guide (item links go to db.vanillagaming.org, not Turtle's database) and was explicitly declared outdated: \"Its outdated. Tankpaladin works vastly different now and requires other gear as a result. Additionally turtlewow has added many new better fitting items for palatanks\" — [Atreidon (player), 2025-07-18](https://forum.turtlecraft.gg/viewtopic.php?p=140261#p140261). Every item from that thread below carries valid_for_1181: false for this reason, even where the item itself may still exist in Turtle's database."
+  - "A Retribution gearing thread (t19669) named 5 items only as raw https://database.turtlecraft.gg/?item=N links with no item name in the post text (ids 83440, 83462, 83463, 80674, 60550) — names could not be resolved without a live database/network lookup, which this guide is barred from doing. Not included below; see gaps."
+  - "Relic slot items (Librams) below are Turtle-added content per the staff relic-list post; drop locations for those are staff-stated and are Turtle-specific dungeons/bosses (Emerald Sanctum, Lower/Upper Karazhan, Scarlet Monastery trash for one, Gilneas City trash for one) added across patches 1.16-1.17.2, i.e. pre-1.18.1 content still current unless stated otherwise."
+specs:
+  - spec: Holy
+    role: healer
+    brackets:
+      - bracket: leveling-50-59
+        agreement: single
+        patch_validity: {written_for: pre-1.18.1, valid_for_1181: unknown, notes: "Dungeon-drop list, not raid-tier; drop locations are stable vanilla dungeons unlikely to have changed."}
+        slots:
+          - slot: wrist
+            items:
+              - name: "Loomguard Armbracers"
+                item_id: null
+                rank: 2
+                source_type: drop
+                source_place: "Scholomance (Kirtonos)"
+                source_detail: null
+                custom_turtle_item: false
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=100366#p100366", author: Mcnair, authority: player, date: "2024-08-29"}]
+          - slot: shoulder
+            items:
+              - name: "Royal Cap Spaulders"
+                item_id: null
+                rank: 2
+                source_type: drop
+                source_place: "Scholomance (Jandice Barov)"
+                source_detail: null
+                custom_turtle_item: false
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=100366#p100366", author: Mcnair, authority: player, date: "2024-08-29"}]
+          - slot: off-hand
+            items:
+              - name: "Rattlecage Buckler"
+                item_id: null
+                rank: 2
+                source_type: drop
+                source_place: "Scholomance (Rattlegore)"
+                source_detail: null
+                custom_turtle_item: false
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=100366#p100366", author: Mcnair, authority: player, date: "2024-08-29"}]
+          - slot: legs
+            items:
+              - name: "Maelstorm Leggings"
+                item_id: null
+                rank: 2
+                source_type: drop
+                source_place: "Scholomance (Ras Frostwhisper)"
+                source_detail: null
+                custom_turtle_item: false
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=100366#p100366", author: Mcnair, authority: player, date: "2024-08-29"}]
+              - name: "Ghoul Skin Leggings"
+                item_id: null
+                rank: 3
+                source_type: drop
+                source_place: "Scholomance (minibosses near Gandling)"
+                source_detail: null
+                custom_turtle_item: false
+                notes: "Alternative to Maelstorm Leggings."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=100366#p100366", author: Mcnair, authority: player, date: "2024-08-29"}]
+          - slot: ring1
+            items:
+              - name: "Don Mauricio's Band of Domination"
+                item_id: null
+                rank: 2
+                source_type: drop
+                source_place: "Scholomance (Darkmaster Gandling)"
+                source_detail: null
+                custom_turtle_item: false
+                notes: "\"Nice to let caster DPS get this first, but the spell crit is really good for a holy paladin.\""
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=100366#p100366", author: Mcnair, authority: player, date: "2024-08-29"}]
+          - slot: head
+            items:
+              - name: "Crimson Felt Hat"
+                item_id: null
+                rank: 2
+                source_type: drop
+                source_place: "Stratholme, undead side (Baron Rivendare's trash / Barthilas)"
+                source_detail: null
+                custom_turtle_item: false
+                notes: "\"Nice to let caster DPS get this first.\""
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=100366#p100366", author: Mcnair, authority: player, date: "2024-08-29"}]
+          - slot: neck
+            items:
+              - name: "Animated Chain Necklace"
+                item_id: null
+                rank: 2
+                source_type: drop
+                source_place: "Stratholme (Ramstein the Gorger)"
+                source_detail: null
+                custom_turtle_item: false
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=100366#p100366", author: Mcnair, authority: player, date: "2024-08-29"}]
+          - slot: chest
+            items:
+              - name: "Robes of the Exalted"
+                item_id: null
+                rank: 1
+                source_type: drop
+                source_place: "Stratholme (Baron Rivendare)"
+                source_detail: null
+                custom_turtle_item: false
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=100366#p100366", author: Mcnair, authority: player, date: "2024-08-29"}]
+          - slot: hands
+            items:
+              - name: "Gloves of Restoration"
+                item_id: null
+                rank: 2
+                source_type: drop
+                source_place: "Dire Maul East (Alzzin the Wildshaper)"
+                source_detail: null
+                custom_turtle_item: false
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=100366#p100366", author: Mcnair, authority: player, date: "2024-08-29"}]
+              - name: "Harmonious Gauntlets"
+                item_id: null
+                rank: 2
+                source_type: drop
+                source_place: "Dire Maul North (King Gordok)"
+                source_detail: null
+                custom_turtle_item: false
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=100366#p100366", author: Mcnair, authority: player, date: "2024-08-29"}]
+          - slot: waist
+            items:
+              - name: "Whipvine Cord"
+                item_id: null
+                rank: 2
+                source_type: drop
+                source_place: "Dire Maul East (Alzzin the Wildshaper)"
+                source_detail: null
+                custom_turtle_item: false
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=100366#p100366", author: Mcnair, authority: player, date: "2024-08-29"}]
+          - slot: feet
+            items:
+              - name: "Merciful Greavers"
+                item_id: null
+                rank: 2
+                source_type: drop
+                source_place: "Dire Maul East (Alzzin the Wildshaper)"
+                source_detail: null
+                custom_turtle_item: false
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=100366#p100366", author: Mcnair, authority: player, date: "2024-08-29"}]
+              - name: "Boots of the Full Moon"
+                item_id: null
+                rank: 2
+                source_type: drop
+                source_place: "Dire Maul North (Captain Kromcrush)"
+                source_detail: null
+                custom_turtle_item: false
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=100366#p100366", author: Mcnair, authority: player, date: "2024-08-29"}]
+          - slot: legs
+            items:
+              - name: "Padre's Trousers"
+                item_id: null
+                rank: 3
+                source_type: drop
+                source_place: "Dire Maul West (Illyanna Ravenoak)"
+                source_detail: null
+                custom_turtle_item: false
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=100366#p100366", author: Mcnair, authority: player, date: "2024-08-29"}]
+          - slot: back
+            items:
+              - name: "Cloak of the Cosmos"
+                item_id: null
+                rank: 2
+                source_type: drop
+                source_place: "Dire Maul West (Immol'thar)"
+                source_detail: null
+                custom_turtle_item: false
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=100366#p100366", author: Mcnair, authority: player, date: "2024-08-29"}]
+          - slot: waist
+            items:
+              - name: "Eyestalk Cord"
+                item_id: null
+                rank: 3
+                source_type: drop
+                source_place: "Dire Maul West (Immol'thar)"
+                source_detail: null
+                custom_turtle_item: false
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=100366#p100366", author: Mcnair, authority: player, date: "2024-08-29"}]
+          - slot: ring1
+            items:
+              - name: "Emerald Flame Ring"
+                item_id: null
+                rank: 2
+                source_type: drop
+                source_place: "Dire Maul West (Tortheldrin)"
+                source_detail: null
+                custom_turtle_item: false
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=100366#p100366", author: Mcnair, authority: player, date: "2024-08-29"}]
+          - slot: head
+            items:
+              - name: "Insightful Hood"
+                item_id: null
+                rank: 3
+                source_type: drop
+                source_place: "Dire Maul North (Cho'Rush the Observer)"
+                source_detail: null
+                custom_turtle_item: false
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=100366#p100366", author: Mcnair, authority: player, date: "2024-08-29"}]
+          - slot: trinket1
+            items:
+              - name: "Brightly Glowing Stone"
+                item_id: null
+                rank: 2
+                source_type: drop
+                source_place: "Dire Maul North (King Gordok)"
+                source_detail: null
+                custom_turtle_item: false
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=100366#p100366", author: Mcnair, authority: player, date: "2024-08-29"}]
+          - slot: wrist
+            items:
+              - name: "Bracers of Prosperity"
+                item_id: null
+                rank: 3
+                source_type: drop
+                source_place: "Dire Maul North (King Gordok)"
+                source_detail: null
+                custom_turtle_item: false
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=100366#p100366", author: Mcnair, authority: player, date: "2024-08-29"}]
+          - slot: relic
+            items:
+              - name: "Libram of Divinity"
+                item_id: null
+                rank: 1
+                source_type: drop
+                source_place: "Scholomance (minibosses near Gandling)"
+                source_detail: null
+                custom_turtle_item: false
+                notes: "\"Most importantly, Libram of Divinity\" — called out as the standout drop of the Scholomance run."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=100366#p100366", author: Mcnair, authority: player, date: "2024-08-29"}]
+          - slot: off-hand
+            items:
+              - name: "Second Wind"
+                item_id: null
+                rank: 3
+                source_type: drop
+                source_place: "Blackrock Depths (Emperor Dagran Thaurissan area — Argelmach the Insane's group)"
+                source_detail: null
+                custom_turtle_item: false
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=100366#p100366", author: Mcnair, authority: player, date: "2024-08-29"}]
+          - slot: main-hand
+            items:
+              - name: "The Hammer of Grace"
+                item_id: null
+                rank: 2
+                source_type: drop
+                source_place: "Blackrock Depths (Chest of The Seven)"
+                source_detail: null
+                custom_turtle_item: false
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=100366#p100366", author: Mcnair, authority: player, date: "2024-08-29"}]
+        enchants: []
+        consumables: []
+        stat_notes: "\"In vanilla holy paladins rarely wear plate gear before they get their hands on the tier (1-2-)3 pieces. Stats wise, aim for +healing, +spell crit, and +intellect.\" Tier 0 (Lightforge) is judged not worth the stats alone unless doing the upgrade questline for the hybrid set. Single source, framed as \"by no means a final word\", covering only Scholomance/Stratholme(undead)/BRD/Dire Maul." # Mcnair p=100366
+      - bracket: pre-raid-60
+        agreement: single
+        patch_validity: {written_for: pre-1.18.1, valid_for_1181: unknown, notes: "\"For a holy pally any classic guide will essentially work on Turtle WoW\" — no Turtle-specific list; two later threads (t19282 2025, t4568 2022) asking for one got no item answers."}
+        slots: []
+        enchants:
+          - {slot: "head/legs", enchant: "Lesser Arcanum of Rumination (+150 mana)", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=27457#p27457", author: Unchallenged, authority: player, date: "2022-10-18"}]}
+          - {slot: "head/legs", enchant: "Arcanum of Focus", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=27457#p27457", author: Unchallenged, authority: player, date: "2022-10-18"}]}
+          - {slot: "head/legs", enchant: "Syncretist's Sigil (+24 healing, 10 Stamina, 7 Defense)", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=27457#p27457", author: Unchallenged, authority: player, date: "2022-10-18"}]}
+          - {slot: shoulder, enchant: "Zandalar Signet of Serenity (+33 healing)", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=27457#p27457", author: Unchallenged, authority: player, date: "2022-10-18"}]}
+          - {slot: back, enchant: "Enchant Cloak - Subtlety", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=27457#p27457", author: Unchallenged, authority: player, date: "2022-10-18"}]}
+          - {slot: chest, enchant: "Enchant Chest - Major Mana", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=27457#p27457", author: Unchallenged, authority: player, date: "2022-10-18"}]}
+          - {slot: wrist, enchant: "Mana Regeneration / Healing Power / Greater Intellect", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=27457#p27457", author: Unchallenged, authority: player, date: "2022-10-18"}]}
+          - {slot: hands, enchant: "Enchant Gloves - Healing Power (+30)", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=27457#p27457", author: Unchallenged, authority: player, date: "2022-10-18"}]}
+          - {slot: feet, enchant: "Greater Stamina or Spirit", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=27457#p27457", author: Unchallenged, authority: player, date: "2022-10-18"}]}
+          - {slot: main-hand, enchant: "Healing Power or Mighty Intellect; Brilliant/Lesser Mana Oil", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=27457#p27457", author: Unchallenged, authority: player, date: "2022-10-18"}]}
+        consumables:
+          - {name: "Brilliant Mana Oil", use: "weapon oil, mana sustain", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=27457#p27457", author: Unchallenged, authority: player, date: "2022-10-18"}]}
+        stat_notes: "\"For a holy pally any classic guide will essentially work on Turtle WoW. Probably look at phase 2 for the retail classic guides since thats when they add Dire Maul.\" A 2026 raider's question about deviating from \"the standard BIS gear curve\" at 723 healing was answered only on hit rating, not itemization (gap)." # Philandros p=27361; Nwhermit p=170505
+      - bracket: raid-t1
+        agreement: contested
+        patch_validity: {written_for: pre-1.18.1, valid_for_1181: unknown, notes: null}
+        slots: []
+        enchants: []
+        consumables: []
+        stat_notes: "T1 (Lawbringer) 8-set proc chance was nerfed 30%→12% on 2024-11-27, after an early complaint that \"you are forced to use T1 for the melee healing build to actually work\" (2024-11-17)." # Raxk p=108308
+      - bracket: raid-t2
+        agreement: single
+        patch_validity: {written_for: pre-1.18.1, valid_for_1181: unknown, notes: null}
+        slots: []
+        enchants: []
+        consumables: []
+        stat_notes: "Holy T2 8-set proc is crit-only." # Torta (staff) p=106599
+      - bracket: raid-t2.5
+        agreement: single
+        patch_validity: {written_for: pre-1.18.1, valid_for_1181: unknown, notes: null}
+        slots: []
+        enchants: []
+        consumables: []
+        stat_notes: "Holy T2.5 3-set gives 15% mana regen while casting." # Crake p=151365
+      - bracket: raid-t3.5
+        agreement: single
+        patch_validity: {written_for: pre-1.18.1, valid_for_1181: true, notes: "1.18.1 removed the 5-set's extra Holy Strike targets."}
+        slots:
+          - slot: relic
+            items:
+              - name: Libram of Radiance
+                item_id: null
+                rank: 1
+                source_type: drop
+                source_place: "Scarlet Monastery: Library (Brother Wystan)"
+                source_detail: "+1% crit with Holy Light and Holy Strike"
+                custom_turtle_item: true
+                notes: "Added in 1.17.2."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=52799#p52799", author: Dragunovi, authority: staff, date: "2023-07-10"}]
+              - name: "Libram of the Eternal Tower"
+                item_id: null
+                rank: 2
+                source_type: drop
+                source_place: "Upper Karazhan (Echo of Medivh)"
+                source_detail: "reduces cooldown of Holy Strike and Crusader Strike by 0.5 sec"
+                custom_turtle_item: true
+                notes: "Added in 1.17.2."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=52799#p52799", author: Dragunovi, authority: staff, date: "2023-07-10"}]
+        enchants: []
+        consumables: []
+        stat_notes: "Holy T3.5 5-set added extra Holy Strike targets; removed in 1.18.1: \"So the 5 Set bonus is going to be borderline worthless for holy?\" (player reaction, unresolved)." # Jamey p=166071; Overberk p=166086
+  - spec: Protection
+    role: tank
+    brackets:
+      - bracket: pre-raid-60
+        agreement: contested
+        patch_validity:
+          written_for: "vanilla WoW (2019 repost)"
+          valid_for_1181: false
+          notes: "Entire list is a 2019 repost of a generic vanilla pre-raid guide (item links point to db.vanillagaming.org, not Turtle's database). Explicitly declared outdated in 2025: \"Its outdated. Tankpaladin works vastly different now and requires other gear as a result.\" Kept because no fresher alternative exists."
+        slots:
+          - slot: head
+            items:
+              - {name: "Enchanted Thorium Helm", item_id: null, rank: 1, source_type: craft, source_place: Armorsmithing, source_detail: null, custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+              - {name: "Gyth's Skull", item_id: null, rank: 2, source_type: drop, source_place: "Blackrock Spire, Upper (Gyth)", source_detail: null, custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+              - {name: "Golem Skull Helm", item_id: null, rank: 3, source_type: drop, source_place: "Blackrock Depths (Magmus)", source_detail: null, custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+              - {name: "Helm of Awareness", item_id: null, rank: 3, source_type: drop, source_place: "Dire Maul East (Zevrim Thornhoof)", source_detail: null, custom_turtle_item: false, notes: "Listed as an alternative.", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2072#p2072", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+          - slot: neck
+            items:
+              - {name: "Medallion of Grand Marshal Morris", item_id: null, rank: 2, source_type: world-drop, source_place: null, source_detail: "BoE", custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+              - {name: "Evil Eye Pendant", item_id: null, rank: 1, source_type: drop, source_place: "Dire Maul West (Immol'thar)", source_detail: null, custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+          - slot: shoulder
+            items:
+              - {name: "Stockade Pauldrons", item_id: null, rank: 2, source_type: world-drop, source_place: null, source_detail: "BoE", custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+              - {name: "Bile-etched Spaulders", item_id: null, rank: 1, source_type: drop, source_place: "Dire Maul West (Immol'thar)", source_detail: null, custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+              - {name: "Bulky Iron Spaulders", item_id: null, rank: 3, source_type: drop, source_place: "Dire Maul North (guards)", source_detail: null, custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+              - {name: "Wailing Nightbane Pauldrons", item_id: null, rank: 3, source_type: drop, source_place: "Stratholme (The Unforgiven)", source_detail: null, custom_turtle_item: false, notes: "Listed as an alternative.", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2072#p2072", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+          - slot: back
+            items:
+              - {name: "Shifting Cloak", item_id: null, rank: 1, source_type: craft, source_place: "Elemental Leatherworking", source_detail: null, custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+              - {name: "Redoubt Cloak", item_id: null, rank: 2, source_type: reputation, source_place: "Dire Maul North (Gordok Tribute)", source_detail: null, custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+              - {name: "Stoneskin Gargoyle Cape", item_id: null, rank: 3, source_type: drop, source_place: "Stratholme (Stonespine)", source_detail: null, custom_turtle_item: false, notes: "Listed as an alternative.", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2072#p2072", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+          - slot: chest
+            items:
+              - {name: "Deathbone Chestplate", item_id: null, rank: 1, source_type: drop, source_place: "Scholomance (random bosses)", source_detail: null, custom_turtle_item: false, notes: "Same \"Deathbone set from Scholomance\" mentioned unanswered as still-current pre-raid in 2025.", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}, {url: "https://forum.turtlecraft.gg/viewtopic.php?p=151424#p151424", author: Nectiusleo, authority: player, date: "2025-09-12"}]}
+              - {name: "Enchanted Thorium Breastplate", item_id: null, rank: 2, source_type: craft, source_place: Armorsmithing, source_detail: null, custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+              - {name: "Ornate Adamantium Breastplate", item_id: null, rank: 3, source_type: quest, source_place: "Quest: In Dreams", source_detail: null, custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+              - {name: "Kromcrush's Chestplate", item_id: null, rank: 3, source_type: drop, source_place: "Dire Maul North (Captain Kromcrush)", source_detail: null, custom_turtle_item: false, notes: "Listed as an alternative.", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2072#p2072", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+          - slot: wrist
+            items:
+              - {name: "Vigorsteel Vambraces", item_id: null, rank: 1, source_type: drop, source_place: "Scholomance (Darkmaster Gandling)", source_detail: null, custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+              - {name: "Sergeant Major's Plate Wristguards", item_id: null, rank: 2, source_type: pvp, source_place: null, source_detail: null, custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+              - {name: "Fel Hardened Bracers", item_id: null, rank: 3, source_type: drop, source_place: "Dire Maul West (Hel'nurath)", source_detail: null, custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+              - {name: "Magically Sealed Bracers", item_id: null, rank: 3, source_type: drop, source_place: "Dire Maul West (Magister Kalendris)", source_detail: null, custom_turtle_item: false, notes: "Listed as an alternative.", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2072#p2072", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+              - {name: "Dragonbone Wristguards", item_id: null, rank: 3, source_type: drop, source_place: null, source_detail: null, custom_turtle_item: false, notes: "Listed as a further alternative.", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2073#p2073", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+          - slot: hands
+            items:
+              - {name: "Deathbone Gauntlets", item_id: null, rank: 1, source_type: drop, source_place: "Scholomance (random bosses)", source_detail: null, custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+              - {name: "Stonegrip Gauntlets", item_id: null, rank: 2, source_type: world-drop, source_place: null, source_detail: "BoE", custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+              - {name: "Boneclenched Gauntlets", item_id: null, rank: 3, source_type: drop, source_place: "Scholomance (Ras Frostwhisper)", source_detail: null, custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+              - {name: "Force Imbued Gauntlets", item_id: null, rank: 3, source_type: drop, source_place: "Dire Maul West (Illyanna Ravenoak)", source_detail: null, custom_turtle_item: false, notes: "Listed as an alternative.", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2072#p2072", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+          - slot: waist
+            items:
+              - {name: "Deathbone Girdle", item_id: null, rank: 1, source_type: drop, source_place: "Scholomance (random bosses)", source_detail: null, custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+              - {name: "Stalwart Clutch", item_id: null, rank: 3, source_type: quest, source_place: "Quest: Incendius! (Blackrock Depths)", source_detail: null, custom_turtle_item: false, notes: "Listed as an alternative.", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2072#p2072", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+          - slot: legs
+            items:
+              - {name: "Deathbone Legguards", item_id: null, rank: 1, source_type: drop, source_place: "Scholomance (random bosses)", source_detail: null, custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+              - {name: "Legplates of Vigilance", item_id: null, rank: 2, source_type: drop, source_place: "Stratholme (Sothos and Jarien)", source_detail: null, custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+              - {name: "Enchanted Thorium Leggings", item_id: null, rank: 2, source_type: craft, source_place: Armorsmithing, source_detail: null, custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+              - {name: "Legplates of the Eternal Guardian", item_id: null, rank: 3, source_type: drop, source_place: "Blackrock Depths (Chest of The Seven)", source_detail: null, custom_turtle_item: false, notes: "Listed as an alternative.", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2072#p2072", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+          - slot: feet
+            items:
+              - {name: "Deathbone Sabatons", item_id: null, rank: 1, source_type: drop, source_place: "Scholomance (random bosses)", source_detail: null, custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+              - {name: "Boots of Avoidance", item_id: null, rank: 2, source_type: world-drop, source_place: null, source_detail: "BoE", custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+              - {name: "Shalehusk Boots", item_id: null, rank: 3, source_type: drop, source_place: "Blackrock Depths (Panzor the Invincible)", source_detail: null, custom_turtle_item: false, notes: "Listed as an alternative.", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2072#p2072", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+              - {name: "Grimy Metal Boots", item_id: null, rank: 3, source_type: drop, source_place: "Dire Maul North (King Gordok)", source_detail: null, custom_turtle_item: false, notes: "Listed as an alternative.", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2072#p2072", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+          - slot: ring1
+            items:
+              - {name: "Band of the Steadfast Hero", item_id: null, rank: 1, source_type: drop, source_place: "Scholomance (Kormok)", source_detail: null, custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+              - {name: Naglering, item_id: null, rank: 2, source_type: drop, source_place: "Blackrock Depths (Golem Lord Argelmach)", source_detail: null, custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+              - {name: "Band of Resolution", item_id: null, rank: 2, source_type: quest, source_place: "Quest: Superior Armaments of Battle (Argent Dawn reputation)", source_detail: null, custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+              - {name: "Drakeclaw Band", item_id: null, rank: 3, source_type: drop, source_place: "Sunken Temple (drake minibosses)", source_detail: null, custom_turtle_item: false, notes: "Listed as an alternative.", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2072#p2072", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+              - {name: "Hardened Stone Band", item_id: null, rank: 3, source_type: world-drop, source_place: "Elemental Invasion event", source_detail: "BoE", custom_turtle_item: false, notes: "Listed as an alternative.", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2072#p2072", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+          - slot: trinket1
+            items:
+              - {name: "Stormpike Insignia Rank 6", item_id: null, rank: 1, source_type: reputation, source_place: "Stormpike Guard, Exalted", source_detail: null, custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+              - {name: "Force of Will", item_id: null, rank: 2, source_type: drop, source_place: "Blackrock Depths (Golem Lord Angerforge)", source_detail: null, custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+              - {name: "Vigilance Charm", item_id: null, rank: 2, source_type: drop, source_place: "Dire Maul West (Immol'thar)", source_detail: null, custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+          - slot: main-hand
+            items:
+              - {name: Blackguard, item_id: null, rank: 1, source_type: craft, source_place: "Master Swordsmithing", source_detail: null, custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+              - {name: Sageblade, item_id: null, rank: 3, source_type: craft, source_place: "Master Swordsmithing", source_detail: "swap weapon for Consecrate", custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+              - {name: "Timeworn Mace", item_id: null, rank: 2, source_type: drop, source_place: "Dire Maul West (Tortheldrin)", source_detail: null, custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+          - slot: off-hand
+            items:
+              - {name: "Earthen Guard", item_id: null, rank: 1, source_type: drop, source_place: "Silithus (Baron Kazum, Abyssal High Council)", source_detail: null, custom_turtle_item: unknown, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+              - {name: "Draconian Deflector", item_id: null, rank: 2, source_type: drop, source_place: "Blackrock Spire, Upper (Drakkisath)", source_detail: null, custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+              - {name: "The Immovable Object", item_id: null, rank: 3, source_type: reputation, source_place: "Stormpike Guard, Exalted", source_detail: null, custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+          - slot: relic
+            items:
+              - {name: "Libram of Hope", item_id: null, rank: 1, source_type: drop, source_place: "Dire Maul East (Isalien)", source_detail: "reduces mana cost of Seal spells by 20", custom_turtle_item: false, notes: null, citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+              - {name: "Libram of Truth", item_id: null, rank: 2, source_type: drop, source_place: "Blackrock Depths (Magmus)", source_detail: "increases armor from Devotion Aura by 55 (pre-1.17.1)", custom_turtle_item: false, notes: "Changed in 1.17.1: Devotion Aura reduces physical damage taken by 2% instead of granting 55 extra armor.", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}, {url: "https://forum.turtlecraft.gg/viewtopic.php?p=52799#p52799", author: Dragunovi, authority: staff, date: "2023-07-10"}]}
+        enchants:
+          - {slot: "head/legs", enchant: "Lesser Arcanum of Constitution (+100 HP) or Arcanum of Protection (1% dodge) / Syncretist's Sigil", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}, {url: "https://forum.turtlecraft.gg/viewtopic.php?p=27457#p27457", author: Unchallenged, authority: player, date: "2022-10-18"}]}
+          - {slot: shoulder, enchant: "Chromatic Mantle of the Dawn (Argent Dawn) / Zandalar Signet of Mojo", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}, {url: "https://forum.turtlecraft.gg/viewtopic.php?p=27457#p27457", author: Unchallenged, authority: player, date: "2022-10-18"}]}
+          - {slot: chest, enchant: "Major Health or Greater Stats (+4 all)", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+          - {slot: wrist, enchant: "Superior Stamina (+9) or Deflection (+3 Defense)", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+          - {slot: hands, enchant: "Threat (2%), Greater Agility (+7), Minor Haste (+1%), or Strength (+5)", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+          - {slot: feet, enchant: "Greater Stamina (+7)", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+          - {slot: shield, enchant: "Greater Stamina (+7) or Lesser Block (+2%); Thorium Shield Spike (Blacksmithing, 20-30 damage)", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+          - {slot: weapon, enchant: "Crusader, Spell Power (+30), or Agility (+15)", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=2071#p2071", author: Jcarrill0, authority: player, date: "2019-02-13"}]}
+        consumables: []
+        stat_notes: "\"Black morass exalted gear and deathbone set from scholo is robust preraid\" was asked as an open question with no confirming answer; \"I saw that in Stormwind vault there is some amazing tank gear\" per a separate asker, also unconfirmed by any reply naming specific items. No dedicated Protection pre-raid stat-priority paragraph was found (see raid-t1 below for the closest thing, Everran's stat list)." # Nectiusleo p=151424, Arzong p=140858
+      - bracket: raid-t1
+        agreement: single
+        patch_validity: {written_for: pre-1.18.1, valid_for_1181: unknown, notes: null}
+        slots:
+          - slot: main-hand
+            items:
+              - name: Thunderfury, Blessed Blade of the Windseeker
+                item_id: null
+                rank: 1
+                source_type: drop
+                source_place: "Molten Core (quest chain)"
+                source_detail: null
+                custom_turtle_item: false
+                notes: "Long-term weapon goal: \"you farm Wrath of cenarius in silithus, and you go every week to MC to get your thunderfury.\""
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=143606#p143606", author: Everran, authority: player, date: "2025-08-07"}]
+          - slot: relic
+            items:
+              - name: "Libram of the Faithful"
+                item_id: null
+                rank: 1
+                source_type: drop
+                source_place: "Lower Karazhan Halls (Lord Blackwald II)"
+                source_detail: "Consecration reduces damage taken by 5% for party members inside it"
+                custom_turtle_item: true
+                notes: "Added in 1.17.0."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=52799#p52799", author: Dragunovi, authority: staff, date: "2023-07-10"}]
+              - name: "Libram of the Dreamguard"
+                item_id: null
+                rank: 1
+                source_type: drop
+                source_place: "Emerald Sanctum (Solnius the Awakener)"
+                source_detail: "increases Holy Shield charges by 1"
+                custom_turtle_item: true
+                notes: "Added in 1.17.0."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=52799#p52799", author: Dragunovi, authority: staff, date: "2023-07-10"}]
+        enchants: []
+        consumables: []
+        stat_notes: "\"Go for tier gear 1 after the other, and for some mitigation on the side like the helm of emerald sanctum for example.\" Stat priority for survival: Stamina until you can survive the tier you're in > (Defense ≈ Agility, personal preference) > block chance until crush-immune with Holy Shield. Threat priority: Spell power > Agility (crit) > Strength (worst stat, AP-only)." # Everran p=143606
+      - bracket: raid-t2
+        agreement: contested
+        patch_validity: {written_for: pre-1.18.1, valid_for_1181: unknown, notes: "Weapon choice discussion predates 1.18.1; no post-1.18.1 confirmation."}
+        slots:
+          - slot: main-hand
+            items:
+              - name: "ZG one-hand mace"
+                item_id: null
+                rank: 1
+                source_type: reputation
+                source_place: "Zul'Gurub"
+                source_detail: null
+                custom_turtle_item: false
+                notes: "Preferred over the epic sword for farming — the epic sword \"procs a inferior thunderclap\"."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=135007#p135007", author: Zulnam, authority: player, date: "2025-06-10"}]
+              - name: "Thrash Blade"
+                item_id: null
+                rank: 3
+                source_type: unknown-in-sources
+                source_place: null
+                source_detail: null
+                custom_turtle_item: unknown
+                notes: "A Reckoning synergy weapon but \"too slow for Wisdom\" (mana return)."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=138797#p138797", author: Atreidon, authority: player, date: "2025-07-12"}]
+        enchants: []
+        consumables: []
+        stat_notes: "\"You should never ever wear full T1, T2 or T3\" is not stated for Paladin (that is a Warrior-forum quote); for Paladin the parallel finding is narrower: Prot T2.5 3-set was \"our best set bonus in the game atm... pretty much our only way to somewhat scale our threat\" pre-1.18.1." # Escaton1 p=162493
+      - bracket: raid-t2.5
+        agreement: contested
+        patch_validity: {written_for: pre-1.18.1, valid_for_1181: true, notes: "1.18.1 changed the Ret/Prot T2.5 3-set bonus to \"Increases damage done by your Judgement of Righteousness and Judgement of Command by 15%.\""}
+        slots: []
+        enchants: []
+        consumables: []
+        stat_notes: "Pre-1.18.1: Prot T2.5 3-set called the spec's only real threat-scaling tool. 8/8 T3 was judged worse than T2.5 + 3 hybrid pieces before 1.18.1 (contested; no post-1.18.1 comparison found)." # Escaton1 p=162493; quetal p=162396
+      - bracket: raid-t3.5
+        agreement: single
+        patch_validity: {written_for: pre-1.18.1, valid_for_1181: true, notes: "1.18.1 moved the old 5-set bonus to 3-set and added a new 5-set: Holy Shield decreases damage taken by 4%."}
+        slots: []
+        enchants: []
+        consumables: []
+        stat_notes: "No Paladin-forum stat-priority discussion specific to raid-t3.5 Protection was found beyond the set-bonus change above (gap). (Note: a \"Kara40 T3.5 is one mixed set for both roles\" complaint exists in the corpus, but it is a Warrior-forum post about the Warrior T3.5 set, not Paladin — see synthesis/classes/warrior/gear.md — and is not carried over here.)"
+      - bracket: pvp-60
+        agreement: single
+        patch_validity: {written_for: pre-1.18.1, valid_for_1181: unknown, notes: null}
+        slots:
+          - slot: main-hand
+            items:
+              - name: Fishbringer
+                item_id: null
+                rank: 1
+                source_type: world-drop
+                source_place: "secret world boss"
+                source_detail: "hidden from the public item database; \"drops from a secret worldboss\""
+                custom_turtle_item: true
+                notes: "\"A weapon that turns its weapon damage into holy, allowing you to bypass the target's armor and generate massively more threat as paladin.\" \"Using fishbringer has improved the prot tanking experience so much because I do competitive threat by actually getting use out of strength.\""
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=24929#p24929", author: Gerdyus, authority: player, date: "2022-09-12"}, {url: "https://forum.turtlecraft.gg/viewtopic.php?p=29259#p29259", author: Kairion, authority: player, date: "2022-11-15"}]
+        enchants: []
+        consumables: []
+        stat_notes: "No PvP-specific stat list found for Protection beyond the general mitigation-vs-threat framing above (gap)."
+    professions:
+      - {profession: Engineering, note: "\"100% no debate you want force reactive disk eventually and early on you can use the bombs for pulling.\"", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=165976#p165976", author: Terrydavis, authority: player, date: "2026-01-22"}]}
+  - spec: Retribution
+    role: melee-dps
+    brackets:
+      - bracket: pre-raid-60
+        agreement: single
+        patch_validity: {written_for: pre-1.18.1, valid_for_1181: unknown, notes: null}
+        slots: []
+        enchants: []
+        consumables: []
+        stat_notes: "\"Hit gear is obviously important... for 2hander DPS it's been lowered to 8% hit rather than 9%.\" Soulforge is called \"vastly superior\" to Ret T1. A separate thread named 5 melee items only as raw database.turtlecraft.gg/?item=N links with no item names (ids 83440, 83462, 83463, 80674, 60550) from two Turtle dungeons — unusable without a live database lookup (gap); the asker was told \"I'd recommend the weapon in particular if you're human.\"" # Bigsmerf p=133826; Kerenis p=106689
+      - bracket: raid-t2.5
+        agreement: single
+        patch_validity: {written_for: "1.18.1-announced-pre-release", valid_for_1181: unknown, notes: "2026-03 kit list, close to 1.18.1's release."}
+        slots:
+          - slot: two-hand
+            items:
+              - name: Bonereaver's Edge
+                item_id: null
+                rank: 1
+                source_type: drop
+                source_place: "Blackwing Lair"
+                source_detail: "used with Enchant Weapon - Crusader"
+                custom_turtle_item: false
+                notes: "Part of a named 2026-03 AP-build raid kit."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=169915#p169915", author: Scootiesana, authority: player, date: "2026-03-03"}]
+          - slot: head
+            items:
+              - name: "Judgement Crown"
+                item_id: null
+                rank: 1
+                source_type: unknown-in-sources
+                source_place: null
+                source_detail: null
+                custom_turtle_item: unknown
+                notes: "Part of the named AP-build raid kit."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=169915#p169915", author: Scootiesana, authority: player, date: "2026-03-03"}]
+          - slot: waist
+            items:
+              - name: "Girdle of the Fallen Crusader"
+                item_id: null
+                rank: 1
+                source_type: unknown-in-sources
+                source_place: null
+                source_detail: null
+                custom_turtle_item: false
+                notes: "Part of the named AP-build raid kit."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=169915#p169915", author: Scootiesana, authority: player, date: "2026-03-03"}]
+          - slot: hands
+            items:
+              - name: "Sacrificial Gauntlets"
+                item_id: null
+                rank: 1
+                source_type: unknown-in-sources
+                source_place: null
+                source_detail: null
+                custom_turtle_item: unknown
+                notes: "Part of the named AP-build raid kit."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=169915#p169915", author: Scootiesana, authority: player, date: "2026-03-03"}]
+          - slot: trinket1
+            items:
+              - name: "Zandalarian Hero Charm"
+                item_id: null
+                rank: 1
+                source_type: reputation
+                source_place: "Zandalar Tribe"
+                source_detail: null
+                custom_turtle_item: false
+                notes: "Part of the named AP-build raid kit."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=169915#p169915", author: Scootiesana, authority: player, date: "2026-03-03"}]
+              - name: "Hand of Justice"
+                item_id: null
+                rank: 1
+                source_type: drop
+                source_place: "Blackrock Depths"
+                source_detail: null
+                custom_turtle_item: false
+                notes: "Part of the named AP-build raid kit."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=169915#p169915", author: Scootiesana, authority: player, date: "2026-03-03"}]
+        enchants: []
+        consumables:
+          - {name: "mana elixirs + Brilliant Mana Oil", use: "raid sustain", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=169915#p169915", author: Scootiesana, authority: player, date: "2026-03-03"}]}
+        stat_notes: "\"Weapon with spell scaling proc, woc [Wrath of Cenarius], 3 x tier2, at least 5 x tier2.5/0.5x4/necrodin set\" describes the separate Spell-Ret kit. T2.5 5-set gives +71 spell power; \"Zandalar Freethinker's\" also named as part of the kit but item type/slot not stated." # Snadileoboy p=169920; excin p=122812
+      - bracket: raid-t3
+        agreement: single
+        patch_validity: {written_for: pre-1.18.1, valid_for_1181: unknown, notes: "\"Ret paladins currently perform great only when you have 8/8 t3 set\" predates the T3 6-set Exorcism nerf."}
+        slots: []
+        enchants: []
+        consumables: []
+        stat_notes: "T3 8-set gives +91 spell power (Spell Ret build); AP build stat gain from T3 over T2.5: \"+55 AP, +2.46% Crit, +1% Hit, +2% Haste, +100 ArPen\", at the cost of -65 SP (-156 without the 8-piece bonus) for the Spell build — described as a side-grade at best by a guild's own testing." # excin p=122812/p=122631/p=125134
+      - bracket: raid-t3.5
+        agreement: single
+        patch_validity: {written_for: pre-1.18.1, valid_for_1181: true, notes: "1.18.1 changed Crusade (Ret T3.5 5-set): attack speed bonus 2%→4%, duration 15s→20s, no longer stacks."}
+        slots:
+          - slot: two-hand
+            items:
+              - name: Sulfuras
+                item_id: null
+                rank: 1
+                source_type: unknown-in-sources
+                source_place: null
+                source_detail: "fixed (non-spell-scaling) proc"
+                custom_turtle_item: false
+                notes: "\"Really good weapon for both styles\" (AP and Spell Ret)."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=170007#p170007", author: Snadileoboy, authority: player, date: "2026-03-04"}]
+              - name: "Neretzek the Blood Drinker"
+                item_id: null
+                rank: 1
+                source_type: unknown-in-sources
+                source_place: null
+                source_detail: "spell-power-scaling proc, unlike Sulfuras's fixed proc"
+                custom_turtle_item: unknown
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=170040#p170040", author: Snadileoboy, authority: player, date: "2026-03-04"}, {url: "https://forum.turtlecraft.gg/viewtopic.php?p=170030#p170030", author: ferundal, authority: player, date: "2026-03-04"}]
+        relic: []
+        enchants: []
+        consumables:
+          - {name: "Dragonbreath Chili", use: "extra consumable in the Spell Ret kit", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=169920#p169920", author: Snadileoboy, authority: player, date: "2026-03-03"}]}
+          - {name: "Flask of Supreme Power + spell power elixirs", use: "Spell build raid buff", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=122792#p122792", author: excin, authority: player, date: "2025-03-17"}]}
+        stat_notes: "Crusade (T3.5 5-set) buffed in 1.18.1: attack speed bonus 2%→4%, duration 15s→20s, no longer stacks." # Jamey p=166071 / Dragunovi p=168272
+gaps:
+  - "No Turtle-specific pre-raid gear list exists for Holy or Retribution; the only rich pre-raid list found (Protection tank, t393) is a 2019 vanilla repost explicitly declared outdated in 2025."
+  - "Retribution's t19669 thread named 5 melee items only by raw database.turtlecraft.gg item IDs (83440, 83462, 83463, 80674, 60550) with no item names in the post text — could not be resolved without a live database lookup, which this guide is barred from performing. A bot with database access should resolve these IDs."
+  - "\"4HM\" piece referenced in the Ret T2.5-vs-T3 stat debate (t18310) is an unexplained acronym — not resolved to an item name in the sources."
+  - "\"Zandalar Freethinker's\" is named as part of the Ret T2.5/T3.5 kit with no item type or slot given."
+  - "No leveling gear list (10-29/30-49) exists for any Paladin spec; only Holy's 50-59 dungeon list (from t14711) was found. Retribution and Protection leveling gear is entirely uncovered."
+  - "No PvP gear list exists for Holy PvP, or for Retribution/Protection PvP beyond the single Fishbringer mention under Protection."
+  - "Enchant lists exist only for Holy and Protection (from a single 2022 guide by Unchallenged, last edited 2024-12-04); no enchant list exists for Retribution beyond the fragment already in retribution-melee-dps.md, and the AP-vs-SP enchant choice per slot is explicitly unresolved there."
+  - "Several Libram relics from the staff relic-list post (Libram of Veracity, Libram of the Resolute, Libram of the Justicar, and the vanilla Libram of Fervor change) were not assigned to a specific spec/bracket above because their best-fit spec is ambiguous (general utility, PvP, or shared) — see the itemization thread (t8229) directly for the full list."

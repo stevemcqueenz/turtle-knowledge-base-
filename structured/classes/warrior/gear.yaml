@@ -1,0 +1,475 @@
+about: >
+  Gear recommendations for Warrior (Arms, Fury, Fury-Protection hybrid, Protection) by
+  spec/role and level bracket, with where-to-obtain, built from the Warrior forum (f40),
+  General forum BiS-request threads, the existing class playbooks' "Gear, enchants and
+  consumables" sections, and the 1.18.1 itemization changelog. The forum's own repeated
+  finding is that **no maintained Turtle-specific pre-raid or raid BiS list exists** for
+  any Warrior spec; every slot table below is built from named-item fragments scattered
+  across many threads, not from a single curated list. Treat ranks as directional, not a
+  simmed BiS order.
+class: warrior
+generated_from:
+  - https://forum.turtlecraft.gg/viewtopic.php?t=4804
+  - https://forum.turtlecraft.gg/viewtopic.php?t=19772
+  - https://forum.turtlecraft.gg/viewtopic.php?t=14987
+  - https://forum.turtlecraft.gg/viewtopic.php?t=21760
+  - https://forum.turtlecraft.gg/viewtopic.php?t=13556
+  - https://forum.turtlecraft.gg/viewtopic.php?t=18604
+  - https://forum.turtlecraft.gg/viewtopic.php?t=23973
+  - synthesis/classes/warrior/arms-melee-dps.md
+  - synthesis/classes/warrior/arms-pvp.md
+  - synthesis/classes/warrior/fury-melee-dps.md
+  - synthesis/classes/warrior/fury-tank.md
+  - synthesis/classes/warrior/protection-tank.md
+  - synthesis/classes/warrior/leveling.md
+caveats:
+  - "No dedicated Warrior pre-raid or raid BiS list was found anywhere in the corpus. Every 'Pre-BiS/BiS list?' thread in the Warrior forum (t4804, t19772, t14987) and in General (t13556, t18604) ends with players saying no such list exists and pointing to AtlasLoot, a third-party sim (zebouski.github.io/WarriorSim-TurtleWoW), or 'scour the database' — [Philandros (player), 2022-11-09](https://forum.turtlecraft.gg/viewtopic.php?p=28796#p28796); [Ugoboom (player), 2023-02-23](https://forum.turtlecraft.gg/viewtopic.php?p=35760#p35760)."
+  - "Warrior leveling has no itemized gear list in any source read for this guide (synthesis/classes/warrior/leveling.md covers talents and playstyle only, zero named items) — leveling-10-29/30-49/50-59 brackets are omitted entirely below; see gaps."
+  - "Raid-tier mapping used to bucket items below (inferred from repeated pairings in the sources, not stated as a table anywhere): raid-t1 = Molten Core, raid-t2 = Blackwing Lair, raid-t2.5 = Ahn'Qiraj 40, raid-t3 = Naxxramas, raid-t3.5 = Kara40 (Tower of Karazhan, Turtle-custom). This mapping is the synthesis agent's inference from context, not a direct source statement — flagged per item where it matters."
+  - "Item IDs are filled only where a source links database.turtlecraft.gg/?item=N (Turtle's own item database). Several posts link db.vanillagaming.org instead (a generic vanilla database, not Turtle's) — those IDs are NOT copied into item_id since they cannot be confirmed against Turtle's own numbering; source_type/source_place are still recorded from the post text."
+specs:
+  - spec: Arms
+    role: melee-dps
+    brackets:
+      - bracket: pre-raid-60
+        agreement: single
+        patch_validity: {written_for: pre-1.18.1, valid_for_1181: unknown, notes: "Named items are weapon-slot only; no full pre-raid list exists for Arms."}
+        slots:
+          - slot: two-hand
+            items:
+              - name: Towerforge Demolisher
+                item_id: null
+                rank: 2
+                source_type: vendor
+                source_place: null
+                source_detail: "considered as a buyable 2H weapon"
+                custom_turtle_item: unknown
+                notes: "Considered as a buyable pre-raid 2H option."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=132704#p132704", author: Boblin, authority: player, date: "2025-05-23"}]
+          - slot: waist
+            items:
+              - name: Ashkin Belt
+                item_id: null
+                rank: 2
+                source_type: unknown-in-sources
+                source_place: null
+                source_detail: null
+                custom_turtle_item: true
+                notes: "\"Almost as good as Onslaught Girdle\" — a Turtle-added weapon-skill item."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=49836#p49836", author: Syrathegreat, authority: player, date: "2023-06-12"}]
+          - slot: hands
+            items:
+              - name: Edgemaster's Handguards
+                item_id: null
+                rank: 1
+                source_type: unknown-in-sources
+                source_place: null
+                source_detail: null
+                custom_turtle_item: false
+                notes: "Named as a weapon-skill item alongside Turtle's added +skill gear."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=49836#p49836", author: Syrathegreat, authority: player, date: "2023-06-12"}, {url: "https://forum.turtlecraft.gg/viewtopic.php?p=49833#p49833", author: Ninetyone, authority: player, date: "2023-06-12"}]
+      - bracket: raid-t2
+        agreement: contested
+        patch_validity: {written_for: pre-1.18.1, valid_for_1181: true, notes: "The Untamed Blade's damage was raised in 1.18.1 (source below); its BWL location is unaffected."}
+        slots:
+          - slot: two-hand
+            items:
+              - name: The Untamed Blade
+                item_id: null
+                rank: 1
+                source_type: drop
+                source_place: "Blackwing Lair"
+                source_detail: "damage raised 192-289 → 205-302 in patch 1.18.1"
+                custom_turtle_item: unknown
+                notes: "\"Near bis and available right away from mc and the first boss in bwl.\" 1.18.1 raised its damage."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=100900#p100900", author: Econrel, authority: player, date: "2024-09-08"}, {url: "https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272", author: Dragunovi, authority: staff, date: "2026-02-15"}]
+              - name: Bonereaver's Edge
+                item_id: null
+                rank: 1
+                source_type: drop
+                source_place: null
+                source_detail: "PPM (procs per minute) reduced from 3 to 2, restoring the original vanilla value"
+                custom_turtle_item: false
+                notes: "Named with The Untamed Blade as \"near bis and available right away\"; exact boss not stated in sources."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=100900#p100900", author: Econrel, authority: player, date: "2024-09-08"}, {url: "https://forum.turtlecraft.gg/viewtopic.php?p=105276#p105276", author: Dragunovi, authority: staff, date: "2024-10-30"}]
+        enchants: []
+        consumables: []
+        stat_notes: "Not covered separately from Fury; see the Fury melee-dps raid stat notes below (2H Arms shares the same weapon pool)."
+      - bracket: raid-t3
+        agreement: single
+        patch_validity: {written_for: pre-1.18.1, valid_for_1181: unknown, notes: null}
+        slots:
+          - slot: two-hand
+            items:
+              - name: Might of Menethil
+                item_id: null
+                rank: 1
+                source_type: drop
+                source_place: null
+                source_detail: null
+                custom_turtle_item: unknown
+                notes: "\"A t3 arms warrior with might of menethil means anyone else may as well not even play\" — described as the feared PvP 2H for Arms."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=114483#p114483", author: Ninetyone, authority: player, date: "2024-12-27"}]
+      - bracket: pvp-60
+        agreement: consensus
+        patch_validity: {written_for: "1.18.1-announced-pre-release", valid_for_1181: unknown, notes: "Shared Arms/Fury/Protection PvP gear discussion; not split by spec in the sources."}
+        slots:
+          - slot: two-hand
+            items:
+              - name: C'Thun Axe
+                item_id: null
+                rank: 2
+                source_type: unknown-in-sources
+                source_place: null
+                source_detail: null
+                custom_turtle_item: unknown
+                notes: "\"A Good weapon is a CTUN AXE.\""
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=171438#p171438", author: Boeuff, authority: player, date: "2026-03-20"}]
+          - slot: trinket1
+            items:
+              - name: Lifegiving Gem
+                item_id: null
+                rank: 1
+                source_type: drop
+                source_place: "Blackwing Lair"
+                source_detail: "grants ~20% more HP on use"
+                custom_turtle_item: false
+                notes: "\"You need the bwl trinket that gives you 20% more hp\" — identified as Lifegiving Gem by a second poster."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=171279#p171279", author: Terrydavis, authority: player, date: "2026-03-19"}, {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171300#p171300", author: Magicknight, authority: player, date: "2026-03-19"}]
+        enchants: []
+        consumables:
+          - {name: "Free Action Potion", use: "PvP mobility/CC removal", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=104533#p104533", author: Springboards, authority: player, date: "2024-10-23"}]}
+          - {name: "Living Action Potion", use: "PvP mobility/CC removal", citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=104533#p104533", author: Springboards, authority: player, date: "2024-10-23"}]}
+        stat_notes: "\"Put on the tanking t3 pieces + lifegiving gem and STAMINA enchants/armor kits. That will let you get 7k hp unbuffed... 10k hp with gem buffed.\" Stamina-stacking on tier tank pieces is the one gearing rule several experienced posters agree on for PvP Warriors, over any spec." # [Springboards], p=104533/p=162626
+  - spec: Fury
+    role: melee-dps
+    brackets:
+      - bracket: pre-raid-60
+        agreement: single
+        patch_validity: {written_for: pre-1.18.1, valid_for_1181: unknown, notes: "\"To my knowledge no one has publicly posted a T-WoW pre-raid bis list\" (2022); \"There kinda isn't one\" (2025) — both cited in Sources."}
+        slots:
+          - slot: trinket1
+            items:
+              - name: Hateforge Quarry trinket
+                item_id: null
+                rank: 1
+                source_type: drop
+                source_place: Hateforge Quarry
+                source_detail: null
+                custom_turtle_item: true
+                notes: "\"One of the few pre-raid trinkets that have hit on it, on top of armor pen.\""
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=134748#p134748", author: Bigsmerf, authority: player, date: "2025-06-08"}]
+              - name: Hand of Justice
+                item_id: null
+                rank: 2
+                source_type: drop
+                source_place: "Blackrock Depths (Emperor Dagran Thaurissan)"
+                source_detail: "~level-30 Jewelcrafting-tier AP trinket"
+                custom_turtle_item: false
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=119534#p119534", author: Akos1896, authority: player, date: "2025-02-10"}]
+          - slot: hands
+            items:
+              - name: Rune of the Guard Captain
+                item_id: null
+                rank: 2
+                source_type: quest
+                source_place: "Hinterlands (elite troll quest)"
+                source_detail: "AP + hit"
+                custom_turtle_item: unknown
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=119537#p119537", author: Steakhouse, authority: player, date: "2025-02-10"}]
+          - slot: trinket2
+            items:
+              - name: Blackhand's Breadth
+                item_id: null
+                rank: 2
+                source_type: quest
+                source_place: "Upper Blackrock Spire quest"
+                source_detail: "+2% crit"
+                custom_turtle_item: false
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=119537#p119537", author: Steakhouse, authority: player, date: "2025-02-10"}]
+          - slot: main-hand
+            items:
+              - name: Flurry Axe
+                item_id: null
+                rank: 1
+                source_type: unknown-in-sources
+                source_place: null
+                source_detail: null
+                custom_turtle_item: false
+                notes: "\"Pre-raid BIS for fury warrior.\""
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=25531#p25531", author: Malvagita52, authority: player, date: "2022-09-19"}]
+          - slot: head
+            items:
+              - name: Lionheart Helm
+                item_id: null
+                rank: 1
+                source_type: craft
+                source_place: "Armorsmithing"
+                source_detail: "player-quoted post-nerf stats: 18 Stam, 32 AP, 2 crit, 1 hit"
+                custom_turtle_item: false
+                notes: "A 2023 nerf was announced; the paired Helm of Endless Rage was buffed to compensate (see raid-t2 below)."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=49836#p49836", author: Syrathegreat, authority: player, date: "2023-06-12"}]
+          - slot: legs
+            items:
+              - name: Titanic Leggings
+                item_id: null
+                rank: 2
+                source_type: craft
+                source_place: "Armorsmithing"
+                source_detail: null
+                custom_turtle_item: false
+                notes: "Part of a crafted armorsmith gearing path."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=132704#p132704", author: Boblin, authority: player, date: "2025-05-23"}]
+          - slot: chest
+            items:
+              - name: Thick Obsidian Breastplate
+                item_id: null
+                rank: 2
+                source_type: craft
+                source_place: "Armorsmithing"
+                source_detail: null
+                custom_turtle_item: false
+                notes: "Part of a crafted armorsmith gearing path."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=132704#p132704", author: Boblin, authority: player, date: "2025-05-23"}]
+          - slot: shoulder
+            items:
+              - name: Pauldrons of Deflection
+                item_id: null
+                rank: 2
+                source_type: craft
+                source_place: "Armorsmithing"
+                source_detail: null
+                custom_turtle_item: false
+                notes: "Part of a crafted armorsmith gearing path."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=132704#p132704", author: Boblin, authority: player, date: "2025-05-23"}]
+              - name: Stronghold Gauntlets
+                item_id: null
+                rank: 2
+                source_type: craft
+                source_place: "Armorsmithing"
+                source_detail: null
+                custom_turtle_item: false
+                notes: "Listed as gauntlets in the source despite being grouped with the shoulder-line armorsmith path; kept under this slot to match the source's own listing order is not possible in this schema — see gaps for the slot ambiguity."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=132704#p132704", author: Boblin, authority: player, date: "2025-05-23"}]
+        enchants: []
+        consumables: []
+        stat_notes: "No stat-priority paragraph exists specifically for pre-raid Fury; see raid-t2/t3 below and arms-pvp.md for the general \"hit > threat/damage > stamina\" ordering used across Warrior tanks and DPS alike."
+      - bracket: raid-t2
+        agreement: single
+        patch_validity: {written_for: pre-1.18.1, valid_for_1181: true, notes: "The Untamed Blade and Helm of Endless Rage were both buffed in 1.18.1; BRE's proc rate was reduced pre-1.18.1 (2024-10-30) and stayed reduced."}
+        slots:
+          - slot: two-hand
+            items:
+              - name: The Untamed Blade
+                item_id: null
+                rank: 1
+                source_type: drop
+                source_place: "Blackwing Lair"
+                source_detail: "damage raised 192-289 → 205-302 in 1.18.1"
+                custom_turtle_item: unknown
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=100900#p100900", author: Econrel, authority: player, date: "2024-09-08"}, {url: "https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272", author: Dragunovi, authority: staff, date: "2026-02-15"}]
+              - name: Bonereaver's Edge
+                item_id: null
+                rank: 1
+                source_type: drop
+                source_place: null
+                source_detail: "PPM reduced 3 → 2 (restored to original vanilla value)"
+                custom_turtle_item: false
+                notes: null
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=100900#p100900", author: Econrel, authority: player, date: "2024-09-08"}, {url: "https://forum.turtlecraft.gg/viewtopic.php?p=105276#p105276", author: Dragunovi, authority: staff, date: "2024-10-30"}]
+          - slot: head
+            items:
+              - name: Helm of Endless Rage
+                item_id: null
+                rank: 1
+                source_type: drop
+                source_place: "Blackwing Lair"
+                source_detail: "Strength 25→28, Agility 25→27, Stamina 26→28 in 1.18.1"
+                custom_turtle_item: false
+                notes: "Buffed in 1.18.1 partly to compensate for the crafted Lionheart Helm nerf (per a 2023 player report of that change)."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272", author: Dragunovi, authority: staff, date: "2026-02-15"}, {url: "https://forum.turtlecraft.gg/viewtopic.php?p=49836#p49836", author: Syrathegreat, authority: player, date: "2023-06-12"}]
+        relic_note: null
+        enchants: []
+        consumables: []
+        stat_notes: "No dedicated raid stat-priority paragraph found for Fury; the tier-set commentary below is the closest the sources get."
+      - bracket: raid-t3
+        agreement: contested
+        patch_validity: {written_for: pre-1.18.1, valid_for_1181: unknown, notes: null}
+        slots:
+          - slot: two-hand
+            items:
+              - name: Might of Menethil
+                item_id: null
+                rank: 1
+                source_type: drop
+                source_place: null
+                source_detail: null
+                custom_turtle_item: unknown
+                notes: "Named as an \"end weapon\" alongside Dark Edge of Insanity, Severance and the Kel'Thuzad mace."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=162626#p162626", author: Springboards, authority: player, date: "2025-12-12"}]
+              - name: Dark Edge of Insanity
+                item_id: null
+                rank: 1
+                source_type: unknown-in-sources
+                source_place: null
+                source_detail: null
+                custom_turtle_item: unknown
+                notes: "Named as an \"end weapon\"."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=162626#p162626", author: Springboards, authority: player, date: "2025-12-12"}]
+              - name: Severance
+                item_id: null
+                rank: 1
+                source_type: unknown-in-sources
+                source_place: null
+                source_detail: null
+                custom_turtle_item: true
+                notes: "Named as an \"end weapon\"; Turtle-custom itemization threads elsewhere reference Severance-style named weapons as post-vanilla additions (not independently confirmed as custom here — see gaps)."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=162626#p162626", author: Springboards, authority: player, date: "2025-12-12"}]
+              - name: "Kel'Thuzad mace"
+                item_id: null
+                rank: 1
+                source_type: drop
+                source_place: "Naxxramas (Kel'Thuzad)"
+                source_detail: null
+                custom_turtle_item: false
+                notes: "Named as an \"end weapon\"."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=162626#p162626", author: Springboards, authority: player, date: "2025-12-12"}]
+              - name: Thunderfury, Blessed Blade of the Windseeker
+                item_id: null
+                rank: 3
+                source_type: drop
+                source_place: "Molten Core (quest chain)"
+                source_detail: "on Turtle the proc damages only the main target; jumps apply the Nature-resistance debuff only"
+                custom_turtle_item: false
+                notes: "Named for Blood Drinker proc synergy; contested whether the jump mechanic is a meaningful DPS gain in this thread."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=156891#p156891", author: Atreidon, authority: player, date: "2025-10-24"}]
+        enchants: []
+        consumables: []
+        stat_notes: "\"Tier 2 warrior dps set is really good stuff\"; \"Tier 3 warrior dps does not need to be good, it's the far easier gearing choice to offset dps warrior pieces\" — implying T3 DPS itemization (Spirit, weak set bonuses) is treated as a fallback, not a min-max target, once players have off-tier weapon upgrades." # Atreidon p=106299
+      - bracket: raid-t3.5
+        agreement: single
+        patch_validity: {written_for: pre-1.18.1, valid_for_1181: true, notes: "Set bonus changed by 1.18.1 for T1 (3-set) and T3 (4-set), not T3.5 — see gaps."}
+        slots:
+          - slot: chest
+            items:
+              - name: "Meph leather chest"
+                item_id: null
+                rank: 1
+                source_type: drop
+                source_place: "Kara40 (Tower of Karazhan)"
+                source_detail: null
+                custom_turtle_item: true
+                notes: "Named as part of the Kara40 mixed-set BiS combo despite \"leather\" naming (as written by the source; slot/armor-type mismatch not resolved here — see gaps)."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=135310#p135310", author: Noephix, authority: player, date: "2025-06-11"}]
+        enchants: []
+        consumables: []
+        stat_notes: "\"3p t3.5+Dreadslayer set is BiS now\", single source; the T3.5 6-set/5-set bonus is separately called \"ass\" — \"that's why you wear ANOTHER kara40 set for hat and shoulders\" instead of completing the T3.5 set bonus. Dreadslayer is named as a Kara40 mini-set but no specific Dreadslayer item names/slots are given in the sources (gap)." # Noephix p=135310, p=135344
+  - spec: Fury-Protection hybrid
+    role: tank
+    brackets:
+      - bracket: raid-t2
+        agreement: single
+        patch_validity: {written_for: pre-1.18.1, valid_for_1181: unknown, notes: "\"That spec didn't use traditional warrior tier sets anyway\" — this hybrid explicitly gears outside the tier-set track."}
+        slots:
+          - slot: main-hand
+            items:
+              - name: Thunderfury, Blessed Blade of the Windseeker
+                item_id: null
+                rank: 2
+                source_type: drop
+                source_place: "Molten Core (quest chain)"
+                source_detail: null
+                custom_turtle_item: false
+                notes: "Reported on fury-prot tanks in this thread, but \"did not save their threat\" — contested value for this build."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=108957#p108957", author: Atreidon, authority: player, date: "2024-11-20"}]
+        enchants: []
+        consumables: []
+        stat_notes: "Gears in DPS plate for stamina/armor rather than traditional tank tier; uses fast/fast dual-wield weapons for hit volume rather than a single big-hit weapon. No slot-by-slot list beyond the weapon note above (gap)." # Xudo (vanilla description, unsourced specifics), Eyeburn p=170891
+  - spec: Protection
+    role: tank
+    brackets:
+      - bracket: pre-raid-60
+        agreement: contested
+        patch_validity:
+          written_for: unknown
+          valid_for_1181: unknown
+          notes: "No pre-raid gear list (item names) exists for Warrior Protection in any source read for this guide — see gaps. Only the stat-priority discussion below was found."
+        slots: []
+        enchants: []
+        consumables: []
+        stat_notes: "\"+hit is your best friend, it has to go until 9% (maybe 6% with a +weapon skill race)... After hit it's more up to you but I had more problems with threat generation than with survivability... hit chance (objectively) > threat generation (I think) > survivability.\" Contested: a second poster in the same thread wants a stat priority and gets only this one reply (single source, self-described as uncertain)." # Akos1896 p=91749
+      - bracket: raid-t1
+        agreement: single
+        patch_validity: {written_for: pre-1.18.1, valid_for_1181: true, notes: "T1 3-set bonus text changed in 1.18.1 (see below); the rage-generation theme is preserved."}
+        slots: []
+        enchants: []
+        consumables: []
+        stat_notes: "T1 tier set gives a rage-generation set bonus: \"Now that i got the set bonus from the T1 i have plenty of rage\" (pre-1.18.1 bonus); in 1.18.1 the Arms/Fury/Protection-shared T1 3-set bonus became \"Whenever you hit with an ability, you have 10% chance to gain 15 rage.\"" # Xronisf79 p=85704; Dragunovi p=168272 / Jamey p=166071
+      - bracket: raid-t2
+        agreement: contested
+        patch_validity: {written_for: pre-1.18.1, valid_for_1181: unknown, notes: null}
+        slots:
+          - slot: main-hand
+            items:
+              - name: Thunderfury, Blessed Blade of the Windseeker
+                item_id: null
+                rank: 1
+                source_type: drop
+                source_place: "Molten Core (quest chain)"
+                source_detail: "proc's attack-speed slow affects only the main target on Turtle; the Nature-damage jump mechanic is contested"
+                custom_turtle_item: false
+                notes: "Used for threat generation; also seen on deep-Protection PvP builds vs. enhancement shamans (single source)."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=168167#p168167", author: ferundal, authority: player, date: "2026-02-14"}]
+          - slot: trinket1
+            items:
+              - name: "Royal Seal of Eldre'thalas (Warrior)"
+                item_id: null
+                rank: 2
+                source_type: unknown-in-sources
+                source_place: null
+                source_detail: "grants 30 Attack Power and 8 Defense"
+                custom_turtle_item: unknown
+                notes: "Slot inferred as trinket/ring from \"Seal\" naming; not explicitly stated by the source — see gaps."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=105276#p105276", author: Dragunovi, authority: staff, date: "2024-10-30"}]
+          - slot: off-hand
+            items:
+              - name: "Thorium Shield Spike"
+                item_id: null
+                rank: 3
+                source_type: craft
+                source_place: Blacksmithing
+                source_detail: "each use blocks damage twice and damages opponent twice for only 10 rage"
+                custom_turtle_item: false
+                notes: "Pre-CC2 evaluation, from when Shield Block had 2 charges; value under the current kit is not restated (gap)."
+                citations: [{url: "https://forum.turtlecraft.gg/viewtopic.php?p=8311#p8311", author: Unangwata, authority: player, date: "2020-10-31"}]
+        enchants: []
+        consumables: []
+        stat_notes: "\"You should never ever wear full T1, T2 or T3 if you want to hold threat against people with purple gear... stick with T2 shoulders... T2 legs and boots are also strong... use off-pieces like ES helmet instead of T2 helmet or T2 DPS chest instead of T2 tank chest\" — single source (a Kara40-geared prot main); Kara40 T3.5 being one mixed set shared by tank and DPS is a repeated complaint with no staff answer." # Ellifta p=164933; Davdes1 p=133988
+      - bracket: raid-t3
+        agreement: single
+        patch_validity: {written_for: pre-1.18.1, valid_for_1181: unknown, notes: null}
+        slots: []
+        enchants: []
+        consumables: []
+        stat_notes: "\"They changed warrior tanks so that original t1, t2 and t3 are not crap anymore\" (single-source claim, no specifics given on what changed)." # Noephix p=135310
+      - bracket: pvp-60
+        agreement: single
+        patch_validity: {written_for: "1.18.1-announced-pre-release", valid_for_1181: unknown, notes: null}
+        slots: []
+        enchants: []
+        consumables: []
+        stat_notes: "\"Deep prot with tundetfury counter enh shaman\" — single-source PvP tip, no gear list beyond the main-hand Thunderfury entry above." # ferundal p=168167
+gaps:
+  - "No pre-raid-60 or raid-tier BiS list exists for Warrior Protection tank in the sources (unlike Paladin Protection, which has an old — explicitly outdated — vanilla list). This guide could not reproduce any item table for that bracket beyond the scattered mentions above."
+  - "No leveling gear (10-29/30-49/50-59) exists for any Warrior spec — synthesis/classes/warrior/leveling.md is talent/playstyle-only. Bots must fall back to \"upgrade whatever quest/dungeon plate or armor of the appropriate armor type drops\" with no Turtle-specific list to cite."
+  - "Runeblade of Baron Rivendare vs Dal'Rend's swords (a named 2H-vs-DW weapon question) got only trinket answers in the source thread (Hand of Justice, Rune of the Guard Captain, Blackhand's Breadth) — the weapon question itself is unanswered."
+  - "Item IDs referenced only as raw https://database.turtlecraft.gg/?item=N or https://database.turtlecraft.gg/?item=N links without an item name in the post text (e.g. the Ret Paladin-style pattern seen elsewhere) do not occur for Warrior in the threads read for this guide, but several Warrior threads (t4804, t19772) instead recommend third-party tools (AtlasLoot, a fan-made warrior sim) rather than naming items at all."
+  - "Kel'Thuzad mace, Dark Edge of Insanity and Severance are named only as \"end weapons\" with no slot/stat details beyond the fact they exist; Severance's custom-vs-vanilla status is not independently confirmed."
+  - "Dreadslayer (Kara40 mini-set) is named as part of a T3.5 BiS combo but no individual Dreadslayer item names or slots are given anywhere in the corpus."
+  - "\"The best gloves for fury warriors are mail\" (Balake, 2020-07-02) is a 5-year-old, one-line claim with no item name and no context on which patch/kit it describes; not usable as a current recommendation."
+  - "No enchant list exists for any Warrior spec/role in the Warrior forum; the only enchant fact found is Windfury Totem interacting with sharpening stones (\"you don't get bonus attack power for extra attack\", Xudo p=103287) and world buffs giving a 20-40% DPS increase (Abiozan p=112930), neither of which is a per-slot enchant recommendation."
+  - "No PvP-specific gear list exists for pure Fury or pure Protection; arms-pvp.md explicitly covers all three specs together because the forum does not split PvP gear discussion by spec."
