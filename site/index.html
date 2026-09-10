@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="description" content="Turtle WoW 1.18.1 class guides: specs per role, playbooks, leveling, and the forum evidence behind every claim." />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%234dd0e1' stroke-width='2' stroke-linecap='round'%3E%3Cpath d='M4.5 15.5c0-4 3.4-7 7.5-7s7.5 3 7.5 7'/%3E%3Cpath d='M4.5 15.5h15M12 8.5v7M6 15.5v2M18 15.5v2'/%3E%3C/svg%3E" />
+    <title>Turtle WoW class guides</title>
+    <script>
+      // Apply the stored theme before first paint to avoid a flash.
+      try {
+        var t = localStorage.getItem('twow-theme');
+        document.documentElement.setAttribute('data-theme', t === 'light' ? 'light' : 'dark');
+      } catch (e) { /* storage blocked: keep the dark default */ }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

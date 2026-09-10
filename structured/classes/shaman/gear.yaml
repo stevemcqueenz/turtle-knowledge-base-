@@ -30,7 +30,7 @@ specs:
       valid_for_1181: unknown
       notes: Consensus leveling build/guide; not re-validated post-1.18.1.
     slots:
-    - slot: waist
+    - slot: trinket1
       items:
       - name: 'trinket slot: two Jewelcrafting +stamina trinkets (e.g. obsidian brooch)'
         item_id: null

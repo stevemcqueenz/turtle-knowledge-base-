@@ -1,0 +1,2193 @@
+[
+  {
+    "term": "4HM / Four Horsemen",
+    "meaning": "Naxxramas encounter (the Four Horsemen: Thane Korth'azz, Lady Blaumeux, Sir Zeliek, Baron Rivendare).",
+    "category": "boss",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=26857#p26857"
+  },
+  {
+    "term": "AB",
+    "meaning": "Arathi Basin, the resource-node battleground.",
+    "category": "pvp",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=818#p818"
+  },
+  {
+    "term": "Admiral Grumbleshell",
+    "meaning": "A custom mount reward added to the Boaring Challenge/leveling reward tracks.",
+    "category": "item",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=2459#p2459"
+  },
+  {
+    "term": "affli",
+    "meaning": "Affliction, a Warlock talent spec (DoT-focused).",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=9974#p9974"
+  },
+  {
+    "term": "AFK",
+    "meaning": "Away From Keyboard.",
+    "category": "social",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=814#p814"
+  },
+  {
+    "term": "AGI",
+    "meaning": "Agility stat.",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=2629#p2629"
+  },
+  {
+    "term": "AH",
+    "meaning": "Auction House.",
+    "category": "economy",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=132#p132"
+  },
+  {
+    "term": "Akalix",
+    "meaning": "Turtle WoW's Community Manager (staff), per a player's direct attribution ('-Akalix, Community Manager of Turtle WoW').",
+    "category": "staff",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=41794#p41794"
+  },
+  {
+    "term": "AoE farm(ing)",
+    "meaning": "Pulling and killing large groups of mobs at once (typically by a Mage) for fast gold/XP, a leveling-economy staple discussed in class-balance threads.",
+    "category": "economy",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=11269#p11269"
+  },
+  {
+    "term": "AP",
+    "meaning": "Attack Power stat (melee); in some threads paired with RAP (Ranged Attack Power).",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=3815#p3815"
+  },
+  {
+    "term": "AQ20",
+    "meaning": "Ruins of Ahn'Qiraj, 20-man raid.",
+    "category": "instance",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=3438#p3438"
+  },
+  {
+    "term": "AQ40",
+    "meaning": "Temple of Ahn'Qiraj, 40-man raid.",
+    "category": "instance",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=3061#p3061"
+  },
+  {
+    "term": "Arlokk / High Priestess Arlokk",
+    "meaning": "Zul'Gurub boss with a panther-loa transformation, drops the Alliance panther-mount item.",
+    "category": "boss",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=9420#p9420"
+  },
+  {
+    "term": "Ashkandi",
+    "meaning": "Ashkandi, Greatsword of the Brotherhood — the Blackwing Lair (T2 tier) benchmark two-hand weapon used in DPS comparison tables.",
+    "category": "item",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=117867#p117867"
+  },
+  {
+    "term": "AtlasLoot",
+    "meaning": "A popular addon (and Turtle-customized fork, 'AtlasLoot TW Edition') showing dungeon/raid loot tables in-game.",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=3508#p3508"
+  },
+  {
+    "term": "AV",
+    "meaning": "Alterac Valley, the large-scale battleground.",
+    "category": "pvp",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=814#p814"
+  },
+  {
+    "term": "Azuregos",
+    "meaning": "A classic open-world dragon boss, exempt from raid-size scaling since he is not in an instance.",
+    "category": "boss",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=5028#p5028"
+  },
+  {
+    "term": "based",
+    "meaning": "Internet slang expressing approval for a (often blunt/unpopular) opinion; also literally 'located' — most Turtle-forum hits are the literal sense ('where is the server based'), so treat the slang sense as present but less common here.",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=63#p63"
+  },
+  {
+    "term": "BeanCounter",
+    "meaning": "An Auctioneer-suite addon module tracking personal AH sale history.",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=20011#p20011"
+  },
+  {
+    "term": "Benediction / Rhok'delar",
+    "meaning": "Legendary class-quest-reward weapons from official Classic (Priest healing staff / Hunter bow) cited as a model for suggested Turtle epic questlines.",
+    "category": "item",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=7103#p7103"
+  },
+  {
+    "term": "BFD",
+    "meaning": "Blackfathom Deeps, classic low-level dungeon.",
+    "category": "instance",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=1001#p1001"
+  },
+  {
+    "term": "BG",
+    "meaning": "Battleground(s), the instanced PvP game mode (AV/AB/WSG).",
+    "category": "pvp",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=14#p14"
+  },
+  {
+    "term": "BigWigs",
+    "meaning": "A raid boss-encounter addon providing timers and ability warnings.",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=3649#p3649"
+  },
+  {
+    "term": "BiS",
+    "meaning": "Best in Slot (the theoretically optimal gear choice for an item slot/build).",
+    "category": "item",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=310#p310"
+  },
+  {
+    "term": "BiS list",
+    "meaning": "A community-compiled ranked gear list per class/spec.",
+    "category": "item",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=829#p829"
+  },
+  {
+    "term": "BL",
+    "meaning": "Bloodlust, an Orc-shaman totem-line ability referenced in warlock/priest talent-copy suggestions ('please don't copy BL').",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=28960#p28960"
+  },
+  {
+    "term": "blizzlike",
+    "meaning": "Faithful to original/official Blizzard vanilla design, used as a value judgment for or against a proposed change.",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=54#p54"
+  },
+  {
+    "term": "Blood Knight",
+    "meaning": "A TBC-lore Paladin sub-theme suggested by players for Forsaken/Blood Elf paladins; not confirmed shipped in the cited threads (a suggestion, not an implemented feature).",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=17678#p17678"
+  },
+  {
+    "term": "Bloodlord Mandokir",
+    "meaning": "Zul'Gurub boss, a general loyal to Hakkar.",
+    "category": "boss",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=2581#p2581"
+  },
+  {
+    "term": "BM",
+    "meaning": "Beast Mastery, a Hunter talent spec (occasionally also loosely used for 'Black Morass' in scheduling posts — disambiguate by context).",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=4506#p4506"
+  },
+  {
+    "term": "Boaring / Boaring Challenge / Grand Boaring Adventure",
+    "meaning": "Seasonal solo challenge/holiday-style event chain with unique mount and item rewards (Sword of a Thousand Truths moved here; expanded in patch 1.17.2 as the 'Grand Boaring Adventure').",
+    "category": "system",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=2459#p2459"
+  },
+  {
+    "term": "BoE",
+    "meaning": "Bind on Equip (item is tradeable until worn), used in the same threads as BoP.",
+    "category": "item",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=553#p553"
+  },
+  {
+    "term": "boost(ed/ing)",
+    "meaning": "Power-leveling or gearing a character quickly with help from higher-level/geared players (or, in cash-shop threads, a paid level boost some players worried Turtle might add).",
+    "category": "economy",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=23201#p23201"
+  },
+  {
+    "term": "BoP",
+    "meaning": "Bind on Pickup (item becomes soulbound the moment it's looted).",
+    "category": "item",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=553#p553"
+  },
+  {
+    "term": "bot(s) / botting",
+    "meaning": "Automated (illicit) gold-farming or leveling programs; the target of anti-cheat/gold-seller-blocking efforts and addons.",
+    "category": "economy",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=95#p95"
+  },
+  {
+    "term": "Bounty Board / Bounty Boards",
+    "meaning": "Experimental PvP feature (implemented Dec 2019) posting 'wanted' targets/objectives at boards, rewarding players for hunting flagged/dishonorable players.",
+    "category": "pvp",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=4490#p4490"
+  },
+  {
+    "term": "Bowser",
+    "meaning": "A Turtle WoW Team (staff) member active in the earliest (2018) announcement/beta threads.",
+    "category": "staff",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=1310#p1310"
+  },
+  {
+    "term": "BR",
+    "meaning": "Battle for/of the (uncommon on Turtle) — in BG-population threads 'BR' refers to a battleground rotation slot alongside SGV; likely 'Battle Rounds' shorthand for a specific BG. Marked contested — exact expansion not stated in sources.",
+    "category": "pvp",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=22536#p22536"
+  },
+  {
+    "term": "BRD",
+    "meaning": "Blackrock Depths, classic dungeon.",
+    "category": "instance",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=2072#p2072"
+  },
+  {
+    "term": "BRM",
+    "meaning": "Blackrock Mountain, the classic zone containing LBRS/UBRS/BWL entrances (general vanilla abbreviation, not Turtle-specific).",
+    "category": "zone",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=17803#p17803"
+  },
+  {
+    "term": "Broodlord / Broodlord Lashlayer",
+    "meaning": "Blackwing Lair boss.",
+    "category": "boss",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=5323#p5323"
+  },
+  {
+    "term": "BWL",
+    "meaning": "Blackwing Lair, 40-man raid.",
+    "category": "instance",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=14#p14"
+  },
+  {
+    "term": "C'Thun / CT",
+    "meaning": "Ahn'Qiraj 40 final boss.",
+    "category": "boss",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=2073#p2073"
+  },
+  {
+    "term": "capstone (talent)",
+    "meaning": "The final, most powerful talent at the bottom of a talent tree, requiring the most points invested to unlock (e.g. Soul Link for Demonology).",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=7010#p7010"
+  },
+  {
+    "term": "carry",
+    "meaning": "To complete content for/with a weaker or lower-geared player largely on the strength of stronger players (raid or dungeon 'carries').",
+    "category": "social",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=188#p188"
+  },
+  {
+    "term": "Cath / Scarlet Cathedral",
+    "meaning": "Player shorthand for the Scarlet Cathedral wing/dungeon content, listed in leveling dungeon tables (40-45).",
+    "category": "instance",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=95895#p95895"
+  },
+  {
+    "term": "CC",
+    "meaning": "Crowd Control (spells like Sap, Polymorph, Sheep, Banish that incapacitate a target).",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=818#p818"
+  },
+  {
+    "term": "CD",
+    "meaning": "Cooldown (the wait time before a spell/ability can be used again).",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=553#p553"
+  },
+  {
+    "term": "Chromaggus",
+    "meaning": "Blackwing Lair boss known for breath-debuff/decursing mechanics.",
+    "category": "boss",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=3448#p3448"
+  },
+  {
+    "term": "Chronoboon",
+    "meaning": "Short form of Chronoboon Displacer.",
+    "category": "item",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=10628#p10628"
+  },
+  {
+    "term": "Chronoboon Displacer",
+    "meaning": "Custom item that lets players store an active world buff, pausing its duration timer, to reapply it later (e.g. before a raid pull) instead of losing buff time while traveling/waiting.",
+    "category": "item",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=10502#p10502"
+  },
+  {
+    "term": "class stacking",
+    "meaning": "Bringing multiple copies of the same class/spec to a raid because their buffs/debuffs don't fully stack with a counterpart faction's version, making duplicates less valuable.",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=14010#p14010"
+  },
+  {
+    "term": "CleveRoids / Roid Macros",
+    "meaning": "Modern macro-scripting addons (CleveRoidMacros / Roid-Macros) providing conditional macro syntax beyond stock SuperMacro.",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=113607#p113607"
+  },
+  {
+    "term": "Community Manager",
+    "meaning": "Staff role title held by Akalix (per direct self-identification in a forum reply), responsible for player-facing communication/announcements.",
+    "category": "staff",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=41794#p41794"
+  },
+  {
+    "term": "consumables / consumes",
+    "meaning": "Potions, flasks, elixirs, food and other single-use raid/PvP performance items.",
+    "category": "economy",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=608#p608"
+  },
+  {
+    "term": "copium",
+    "meaning": "Sarcastic internet slang ('cope' + opium) for wishful thinking/denial about an unlikely outcome.",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=28564#p28564"
+  },
+  {
+    "term": "corpse camp(ing)",
+    "meaning": "Repeatedly killing a player at their corpse/release point to deny them recovery, a common PvP-griefing complaint.",
+    "category": "pvp",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=12516#p12516"
+  },
+  {
+    "term": "CP",
+    "meaning": "In PvP threads, 'CP' means Contribution/Combat Points contributing to honor standing ('top CP earners'); elsewhere on the server it can also mean combo points (rogue/feral resource) — disambiguate by context.",
+    "category": "pvp",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=3715#p3715"
+  },
+  {
+    "term": "cringe",
+    "meaning": "Internet slang for something embarrassing to witness.",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=9485#p9485"
+  },
+  {
+    "term": "crying_turtle",
+    "meaning": "Custom forum emoticon (crying turtle face) expressing sadness/disappointment, e.g. about time-zone gaps or bad news.",
+    "category": "social",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=146#p146"
+  },
+  {
+    "term": "Dark Ranger",
+    "meaning": "An Undead Hunter sub-theme/customization referenced in class-suggestion threads (based on WC3/TTRPG lore, e.g. Nathanos), not a separate playable class.",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=7470#p7470"
+  },
+  {
+    "term": "database.turtlecraft.gg",
+    "meaning": "The official Turtle WoW item/quest/NPC database website, linked constantly in guides and patch notes for item/quest lookups.",
+    "category": "general-vanilla",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=7348#p7348"
+  },
+  {
+    "term": "DD",
+    "meaning": "Slang for 'Don't Die' (as in 'GL HF DD' = Good Luck, Have Fun, Don't Die — Hardcore-mode farewell).",
+    "category": "social",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=2106#p2106"
+  },
+  {
+    "term": "dead_turtle_head",
+    "meaning": "Custom forum emoticon (X-eyes turtle) used for exasperation, dismay, or joking 'I am dead' reactions; often repeated several times for emphasis.",
+    "category": "social",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=355#p355"
+  },
+  {
+    "term": "destro",
+    "meaning": "Destruction, a Warlock talent spec (direct-damage focused).",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=13530#p13530"
+  },
+  {
+    "term": "DKP",
+    "meaning": "Dragon Kill Points, a raid loot-priority system tracked outside the game (e.g. via the DKPMinus website, referenced for rating servers).",
+    "category": "economy",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=1441#p1441"
+  },
+  {
+    "term": "DM",
+    "meaning": "Dire Maul, classic 3-wing dungeon (also occasionally used loosely as shorthand for 'Deadmines' — disambiguate by level/context).",
+    "category": "instance",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=95#p95"
+  },
+  {
+    "term": "DMF buff",
+    "meaning": "World buff granted from the Darkmoon Faire's Sayge fortune-teller NPC (Sayge's Dark Fortune buffs), timed to the traveling fair's schedule.",
+    "category": "item",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=828#p828"
+  },
+  {
+    "term": "DMG",
+    "meaning": "Damage.",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=15008#p15008"
+  },
+  {
+    "term": "Domo",
+    "meaning": "Majordomo Executus, the penultimate Molten Core boss (fought before Ragnaros).",
+    "category": "boss",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=24373#p24373"
+  },
+  {
+    "term": "DoT",
+    "meaning": "Damage-over-Time effect (a spell that deals recurring periodic damage).",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=3556#p3556"
+  },
+  {
+    "term": "DoTs / HoTs",
+    "meaning": "DoTs = Damage-over-Time spells; HoTs = Heal-over-Time spells, both tracked with buff/debuff timer addons.",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=4720#p4720"
+  },
+  {
+    "term": "DR",
+    "meaning": "Diminishing Returns (repeated CC on the same target becomes progressively shorter); in theorycraft posts it can also abbreviate 'DPS' math shorthand — disambiguate by context.",
+    "category": "pvp",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=2083#p2083"
+  },
+  {
+    "term": "Dragunovi",
+    "meaning": "A Turtle WoW Team (staff) member who posts on item/spell design and development tools (dev.turtlecraft.gg item creator links).",
+    "category": "staff",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=9270#p9270"
+  },
+  {
+    "term": "Dragunovi (R14 model)",
+    "meaning": "Staff post confirming a custom weapon model used as a placeholder/fit for the Horde Rank 14 staff.",
+    "category": "item",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=7849#p7849"
+  },
+  {
+    "term": "Durotar Labor Union / Kontsuma",
+    "meaning": "Turtle-custom factions (Horde/Kalimdor flavor content) per the community wiki's Turtle-content tagging; not independently located in the sampled forum posts.",
+    "category": "zone",
+    "scope": "turtle-specific",
+    "citation_url": "https://turtle-wow.fandom.com/wiki/Durotar_Labor_Union"
+  },
+  {
+    "term": "DXVK",
+    "meaning": "A Direct3D-to-Vulkan translation layer some players use to improve the 1.12 client's performance/compatibility on modern GPUs or Linux.",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=5472#p5472"
+  },
+  {
+    "term": "ele",
+    "meaning": "Elemental, a Shaman talent spec.",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=822#p822"
+  },
+  {
+    "term": "elixir",
+    "meaning": "A shorter-duration (lost on death) stat-boosting consumable, often combined (battle + guardian elixir) or stacked before a flask is used.",
+    "category": "economy",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=2082#p2082"
+  },
+  {
+    "term": "EM",
+    "meaning": "Elemental Mastery, a Shaman burst-damage talent, in class-balance threads.",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=6193#p6193"
+  },
+  {
+    "term": "Emeriss",
+    "meaning": "One of the Dragons of Nightmare (Emerald Dream world-boss encounters), known for a heavy % HP corruption mechanic.",
+    "category": "boss",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=17987#p17987"
+  },
+  {
+    "term": "endgame",
+    "meaning": "The level-60 content phase of the game (raiding, PvP ranking, gearing) as opposed to the leveling phase.",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=203#p203"
+  },
+  {
+    "term": "EPL",
+    "meaning": "Eastern Plaguelands, a classic zone with PvP tower objectives and Scarlet Crusade content.",
+    "category": "zone",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=622#p622"
+  },
+  {
+    "term": "ES",
+    "meaning": "Emerald Sanctum, a Turtle-custom raid; abbreviated in a guild roster list alongside BWL/ZG/KZ ('ESHM' = Emerald Sanctum Heroic Mode).",
+    "category": "instance",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=56059#p56059"
+  },
+  {
+    "term": "Everlook Broadcasting Co.",
+    "meaning": "In-game radio feature (Oct 2023) broadcasting music/commentary from DJ NPCs across zones; players can mute it via sound options if it causes client stutter.",
+    "category": "system",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=68974#p68974"
+  },
+  {
+    "term": "Exhaustion",
+    "meaning": "The debuff applied after resting XP is consumed ('rested/exhaustion' state) that halves further XP gain from kills until it expires; also refers to the Mage/Shaman 'Curse of Exhaustion' slow effect discussed separately in class threads.",
+    "category": "system",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=3128#p3128"
+  },
+  {
+    "term": "Fashion Coin",
+    "meaning": "Currency earned via weekly quests, used to buy cosmetic outfit unlocks from the Fashion House NPCs; also given as a reward item in leveling/challenge packs.",
+    "category": "economy",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=5355#p5355"
+  },
+  {
+    "term": "Fashion House",
+    "meaning": "NPC/vendor location where Fashion Coins are spent on cosmetic appearance/clothing unlocks.",
+    "category": "economy",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=5355#p5355"
+  },
+  {
+    "term": "Firemaw",
+    "meaning": "Blackwing Lair boss (one of the drake bosses, alongside Ebonroc/Flamegor).",
+    "category": "boss",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=828#p828"
+  },
+  {
+    "term": "flask",
+    "meaning": "A long-duration (persists through death), strong stat-boosting consumable used for raid preparation.",
+    "category": "economy",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=2082#p2082"
+  },
+  {
+    "term": "FR",
+    "meaning": "Fire Resistance stat (gear), used for Molten Core/Ragnaros progression.",
+    "category": "item",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=5951#p5951"
+  },
+  {
+    "term": "fresh 60",
+    "meaning": "A character that has just reached the level cap (60) and has not yet gathered dungeon/raid gear.",
+    "category": "pvp",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=4415#p4415"
+  },
+  {
+    "term": "FuBar",
+    "meaning": "A status-bar addon framework that many small utility addons plug into.",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=4720#p4720"
+  },
+  {
+    "term": "ganking",
+    "meaning": "Killing a lower-level or unprepared player in the open world, typically with a gear/level advantage; central to World PvP complaints/praise threads.",
+    "category": "pvp",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=343#p343"
+  },
+  {
+    "term": "Gardening",
+    "meaning": "Custom profession/activity (from patch ~2020): players plant, water and grow their own crops for food and rewards; unlocked via a quest at level 20 with skill 100 in an existing profession.",
+    "category": "system",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=5840#p5840"
+  },
+  {
+    "term": "Garr",
+    "meaning": "Molten Core boss who summons Firesworn adds ('Garr elementals').",
+    "category": "boss",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=3438#p3438"
+  },
+  {
+    "term": "Gaston",
+    "meaning": "NPC 'Trash Collector Gaston' (in Ratchet) added so players can recover recently sold/destroyed valuable or higher-quality items without a GM ticket.",
+    "category": "system",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=27514#p27514"
+  },
+  {
+    "term": "GC",
+    "meaning": "Gilneas City, a Turtle-custom dungeon (listed 48-53 in leveling dungeon tables).",
+    "category": "instance",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=95895#p95895"
+  },
+  {
+    "term": "GCD",
+    "meaning": "Global Cooldown, the short (~1.5s) shared cooldown between most ability casts.",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=6957#p6957"
+  },
+  {
+    "term": "GDKP",
+    "meaning": "Gold Dragon Kill Points: an auction-based loot system where raid drops are sold to the highest bidder and gold split among participants — a practice players explicitly say is not sanctioned/should not exist on Turtle.",
+    "category": "economy",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=38041#p38041"
+  },
+  {
+    "term": "Geddon / Baron Geddon",
+    "meaning": "Molten Core boss known for his Mana Burn/Living Bomb mechanics.",
+    "category": "boss",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=3756#p3756"
+  },
+  {
+    "term": "GG",
+    "meaning": "'Good Game', said at the end of a match/event, sometimes sarcastically.",
+    "category": "social",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=1771#p1771"
+  },
+  {
+    "term": "Gheor",
+    "meaning": "A Turtle WoW Team (staff) member active in bug/support threads.",
+    "category": "staff",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=7900#p7900"
+  },
+  {
+    "term": "Gilneas / Gilneas City",
+    "meaning": "Turtle-custom Worgen/Gilneas leveling content, previewed by staff with a dedicated survival guide video ahead of release.",
+    "category": "zone",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=68974#p68974"
+  },
+  {
+    "term": "GL HF",
+    "meaning": "'Good Luck, Have Fun', a friendly send-off; extended on Turtle Hardcore threads to 'GL HF DD' (Don't Die).",
+    "category": "social",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=2106#p2106"
+  },
+  {
+    "term": "GLHF",
+    "meaning": "Concatenated form of 'Good Luck, Have Fun'.",
+    "category": "social",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=30429#p30429"
+  },
+  {
+    "term": "GM (Game Master)",
+    "meaning": "A staff member empowered to run in-game events, handle tickets, and moderate — distinct from 'GM' as a raid abbreviation for Molten Core boss Garr or generically 'good/oh my god' in chat (disambiguate by context).",
+    "category": "staff",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=14#p14"
+  },
+  {
+    "term": "Goblin Brainwashing Device / Brainwashing Device",
+    "meaning": "Dual-talent-spec item: lets a player save two talent builds (primary/secondary) and swap between them for a gold cost, without a respec trainer visit each time.",
+    "category": "system",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=11156#p11156"
+  },
+  {
+    "term": "gold seller",
+    "meaning": "A RMT vendor spamming whispers/trade chat to sell gold for real money; multiple addons exist specifically to filter their messages.",
+    "category": "economy",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=4720#p4720"
+  },
+  {
+    "term": "Golemagg",
+    "meaning": "Molten Core boss (Golemagg the Incinerator).",
+    "category": "boss",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=4338#p4338"
+  },
+  {
+    "term": "gratz",
+    "meaning": "Congratulations (chat shorthand).",
+    "category": "social",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=5723#p5723"
+  },
+  {
+    "term": "griefing / griefer",
+    "meaning": "Deliberately targeting or disrupting other players for their frustration rather than legitimate PvP/competitive reasons; used broadly for corpse-camping, ninja-looting, spawn-camping newbies, etc.",
+    "category": "social",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=935#p935"
+  },
+  {
+    "term": "Guild Quarters",
+    "meaning": "Tavern-rental feature (announced Jan 2025): guilds can rent any tavern with an innkeeper, paid in gold or tokens, as a guild hall/gathering space.",
+    "category": "system",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=117471#p117471"
+  },
+  {
+    "term": "GY",
+    "meaning": "Graveyard, the spirit-release/respawn point.",
+    "category": "pvp",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=268#p268"
+  },
+  {
+    "term": "Hakkar",
+    "meaning": "Zul'Gurub final boss (Hakkar the Soulflayer), a bleed/blood-siphon-mechanic dragon-god raid boss and namesake of the Gurubashi/Hakkari lore.",
+    "category": "boss",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=2581#p2581"
+  },
+  {
+    "term": "Hardcore mode / HC",
+    "meaning": "Permadeath challenge mode: characters that die are gone for good; the server tracks and announces hardcore deaths. Distinct from the older 'Slow & Steady' reduced-XP challenge, which was itself briefly also called 'hardcore mode' pre-2021, causing recurring confusion in threads.",
+    "category": "system",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=990#p990"
+  },
+  {
+    "term": "Healbot / Clique / Decursive",
+    "meaning": "Popular healing-assist addons: Healbot and Clique provide click-to-cast healing frames; Decursive highlights and one-click-removes curses/poisons/diseases from raid members.",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=1246#p1246"
+  },
+  {
+    "term": "Hexer",
+    "meaning": "A suggested troll caster/debuffer sub-class archetype (witch-doctor themed) discussed in a homebrew class-design thread; not confirmed as shipped content.",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=16224#p16224"
+  },
+  {
+    "term": "hiding_smth_turtle_head",
+    "meaning": "Custom forum emoticon (turtle hiding something) used when a poster is being coy or holding something back.",
+    "category": "social",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=412#p412"
+  },
+  {
+    "term": "High Elf",
+    "meaning": "A playable Alliance race added by Turtle WoW (not available in official vanilla), referenced constantly in race-lore and roleplay threads.",
+    "category": "class",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=3127#p3127"
+  },
+  {
+    "term": "HKs",
+    "meaning": "Honorable Kills, the PvP currency that (along with weekly standing) drives Honor Rank; a minimum of 25 HKs/week was needed historically to avoid rank stagnation.",
+    "category": "pvp",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=3008#p3008"
+  },
+  {
+    "term": "HQ",
+    "meaning": "Hateforge Quarry, a Turtle-custom dungeon (Blacksmithing-profession recipe/trinket drops discussed in farming complaints).",
+    "category": "instance",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=40093#p40093"
+  },
+  {
+    "term": "HS",
+    "meaning": "Hearthstone (the teleport-home item); in other threads can mean 'Holy Shock' or similar — disambiguate by context.",
+    "category": "item",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=604#p604"
+  },
+  {
+    "term": "Huhu / Princess Huhuran",
+    "meaning": "Ahn'Qiraj 40 boss (Princess Huhuran), grouped with other melee-unfriendly encounters.",
+    "category": "boss",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=828#p828"
+  },
+  {
+    "term": "hybrid tax",
+    "meaning": "The classic-WoW design pattern where hybrid classes (Paladin, Druid, Shaman) deal notably less damage than 'pure' DPS classes as a tradeoff for their utility/versatility; referenced as a deliberate design constraint in class-suggestion threads.",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=11177#p11177"
+  },
+  {
+    "term": "Hyundef",
+    "meaning": "A Turtle WoW Team (staff) member who posts around patch-release-day operations (e.g. new client availability announcements).",
+    "category": "staff",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=171425#p171425"
+  },
+  {
+    "term": "ICD",
+    "meaning": "Internal Cooldown, a hidden per-effect cooldown limiting how often a proc/trinket effect can trigger.",
+    "category": "item",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=23780#p23780"
+  },
+  {
+    "term": "IIRC",
+    "meaning": "'If I Recall Correctly'.",
+    "category": "social",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=323#p323"
+  },
+  {
+    "term": "IMO / IMHO",
+    "meaning": "'In My (Humble) Opinion'.",
+    "category": "social",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=663#p663"
+  },
+  {
+    "term": "Inferno",
+    "meaning": "Warlock spell (Inferno) referenced repeatedly in class-balance threads discussing its cooldown and Firestone/Spellstone interactions; also the name of past 'Inferno' custom realms/challenges on other private servers referenced by posters (contested — corpus hits mostly refer to the warlock spell).",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=13458#p13458"
+  },
+  {
+    "term": "insidious_turtle",
+    "meaning": "Custom forum emoticon (mischievous/sly turtle face) used for jokes or cheeky remarks.",
+    "category": "social",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=350#p350"
+  },
+  {
+    "term": "INT",
+    "meaning": "Intellect stat.",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=15743#p15743"
+  },
+  {
+    "term": "IRL",
+    "meaning": "In Real Life.",
+    "category": "social",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=814#p814"
+  },
+  {
+    "term": "Ironfoe",
+    "meaning": "A rare Blackrock Depths trinket-hammer proc weapon, prized by warriors/tanks and a recurring 'please don't nerf' subject.",
+    "category": "item",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=116#p116"
+  },
+  {
+    "term": "Ironman",
+    "meaning": "Community-coined name (borrowed from RuneScape terminology, referenced explicitly) for a proposed one-life challenge mode, distinct from the reduced-XP 'hardcore'/Slow & Steady mode; discussed by players before the server's own Hardcore/Mortal permadeath mode existed.",
+    "category": "system",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=5127#p5127"
+  },
+  {
+    "term": "ItemRack",
+    "meaning": "An outfit-switching addon letting players save and swap full gear sets quickly.",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=704#p704"
+  },
+  {
+    "term": "Jamey",
+    "meaning": "A Turtle WoW Team (staff) member who posts quest-fix and content-support updates.",
+    "category": "staff",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=114901#p114901"
+  },
+  {
+    "term": "Jin'do (the Hexxer)",
+    "meaning": "Zul'Gurub boss (a troll witch doctor).",
+    "category": "boss",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=4146#p4146"
+  },
+  {
+    "term": "Kazzak / Lord Kazzak",
+    "meaning": "A classic open-world demon boss in the Blasted Lands, targeted for organized world-boss pulls.",
+    "category": "boss",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=4426#p4426"
+  },
+  {
+    "term": "kkthxbye",
+    "meaning": "Dismissive internet sign-off ('okay, thanks, goodbye'), used sarcastically to characterize a shallow reward/interaction.",
+    "category": "social",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=23118#p23118"
+  },
+  {
+    "term": "KT / Kel'Thuzad",
+    "meaning": "Naxxramas final boss.",
+    "category": "boss",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=5312#p5312"
+  },
+  {
+    "term": "KZ",
+    "meaning": "Karazhan Crypt, a Turtle-custom 40-player raid; used in raid-roster lists alongside MC/Onyxia/ZG/ES/BWL and referenced as '40' capacity ('KZ 40').",
+    "category": "instance",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=144373#p144373"
+  },
+  {
+    "term": "LB",
+    "meaning": "Lightning Bolt, a Shaman spell.",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=4864#p4864"
+  },
+  {
+    "term": "LBRS",
+    "meaning": "Lower Blackrock Spire, classic dungeon on the way to UBRS/Onyxia attunement.",
+    "category": "instance",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=4438#p4438"
+  },
+  {
+    "term": "Lethon",
+    "meaning": "One of the Dragons of Nightmare world bosses, whose adds heal him if they reach him.",
+    "category": "boss",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=17987#p17987"
+  },
+  {
+    "term": "Letonator",
+    "meaning": "A Turtle WoW Team (staff) member who writes seasonal/lore-flavored event announcements.",
+    "category": "staff",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=119656#p119656"
+  },
+  {
+    "term": "LFG",
+    "meaning": "Looking For Group (channel/practice of advertising for a group).",
+    "category": "social",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=3701#p3701"
+  },
+  {
+    "term": "LFM",
+    "meaning": "Looking For More (advertising an existing group needs more members, e.g. 'LFM Scholo').",
+    "category": "social",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=837#p837"
+  },
+  {
+    "term": "LFT / LFT tool",
+    "meaning": "In-game 'Looking For Tank/group' dungeon-finder addon/tool bundled with the server (also the name of the third-party LFT addon used on Turtle); used to queue and match dungeon groups.",
+    "category": "system",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=8319#p8319"
+  },
+  {
+    "term": "LKH",
+    "meaning": "Lower Karazhan Halls, a Turtle-custom raid/instance tied to the Karazhan content chain; appears alongside BWL/ZG/AQ20/ONY/MC in guild raid-schedule posts.",
+    "category": "instance",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=56059#p56059"
+  },
+  {
+    "term": "Loatheb",
+    "meaning": "Naxxramas boss whose spore/heal-debuff mechanic is discussed in healer-mana threads.",
+    "category": "boss",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=4721#p4721"
+  },
+  {
+    "term": "Lone Druid",
+    "meaning": "Community lore term (from the Alliance Player's Guide) for a solitary-nature Druid archetype distinct from the more communal 'Totemic Druids', discussed in Wildhammer/Dwarf-druid lore threads.",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=122646#p122646"
+  },
+  {
+    "term": "loot council",
+    "meaning": "A raid loot-distribution system where a designated group of officers decides who receives each drop, rather than random rolls.",
+    "category": "economy",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=4676#p4676"
+  },
+  {
+    "term": "LoS",
+    "meaning": "Line of Sight, breaking a caster's targeting by moving behind an obstacle.",
+    "category": "pvp",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=7103#p7103"
+  },
+  {
+    "term": "LS",
+    "meaning": "Lightning Shield, a Shaman spell.",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=4575#p4575"
+  },
+  {
+    "term": "Lua",
+    "meaning": "The scripting language WoW addons and in-game macros are written in.",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=4611#p4611"
+  },
+  {
+    "term": "Lunatic / Level One Lunatic",
+    "meaning": "Challenge mode/title track where players stay at level 1 and earn honorable kills and other feats without leveling up, earning exclusive titles.",
+    "category": "system",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980"
+  },
+  {
+    "term": "main / alt",
+    "meaning": "'Main' = a player's primary/most-played character; 'alt' = a secondary character.",
+    "category": "social",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=79#p79"
+  },
+  {
+    "term": "maintenance_turtle",
+    "meaning": "Custom forum emoticon (a turtle with a wrench/tools) used around bug reports, downtime, and technical discussion.",
+    "category": "social",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=132#p132"
+  },
+  {
+    "term": "MB",
+    "meaning": "Mind Blast, a Priest spell used in the shadow rotation (SW:P-MF-MF-MB).",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=2080#p2080"
+  },
+  {
+    "term": "MC",
+    "meaning": "Molten Core, 40-man raid — also the server's launch raid alongside Onyxia and BWL.",
+    "category": "instance",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=14#p14"
+  },
+  {
+    "term": "meme",
+    "meaning": "An internet in-joke/image format, or loosely 'a joke/gimmick', including 'meme spec' for a build chosen for fun rather than power.",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=14500#p14500"
+  },
+  {
+    "term": "MF",
+    "meaning": "Mind Flay, a Priest channelled shadow spell.",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=2080#p2080"
+  },
+  {
+    "term": "MH",
+    "meaning": "Main-Hand (weapon slot), as opposed to OH (Off-Hand).",
+    "category": "item",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=5716#p5716"
+  },
+  {
+    "term": "Mirage Raceway",
+    "meaning": "Custom Shimmering Flats race track content (opened Nov 1 2019) with vehicle racing and cosmetic goggle rewards.",
+    "category": "zone",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=4289#p4289"
+  },
+  {
+    "term": "MM",
+    "meaning": "Marksmanship, a Hunter talent spec.",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=12944#p12944"
+  },
+  {
+    "term": "MobInfo / MobInfo2",
+    "meaning": "An addon showing extra information about targeted mobs/opponents (level, abilities, etc.).",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=4170#p4170"
+  },
+  {
+    "term": "Mortal",
+    "meaning": "Community-run (Discord-organized) permadeath roleplay-hardcore project referenced by players ('<Mortal> is a straight Roleplay Hardcore project'), predating/paralleling the server's later official Hardcore mode.",
+    "category": "system",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=7273#p7273"
+  },
+  {
+    "term": "MP5",
+    "meaning": "Mana Per 5 seconds, a regen stat found on healing gear.",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=4434#p4434"
+  },
+  {
+    "term": "MPQ",
+    "meaning": "The Blizzard archive file format (.MPQ) used to package client patches/textures; players discuss dropping custom .MPQ files into the Data folder for graphics mods.",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=3085#p3085"
+  },
+  {
+    "term": "MS roll",
+    "meaning": "'Main Spec' roll: a Need roll restricted to players whose current spec actually uses the item, as opposed to an Off-Spec (OS) roll.",
+    "category": "pvp",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=4262#p4262"
+  },
+  {
+    "term": "MSBT / MikScrollingBattleText",
+    "meaning": "A combat-text addon that replaces Blizzard's floating combat text with customizable scrolling text.",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=11344#p11344"
+  },
+  {
+    "term": "MT",
+    "meaning": "Main Tank, the primary tank in a raid encounter's threat/assignment plan.",
+    "category": "pvp",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=4146#p4146"
+  },
+  {
+    "term": "Nampower",
+    "meaning": "A third-party client patch/.dll (namreeb's nampower) that dramatically increases spellcasting responsiveness on the 1.12.1 client.",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=4721#p4721"
+  },
+  {
+    "term": "Naxx",
+    "meaning": "Naxxramas, endgame 40-man raid.",
+    "category": "instance",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=3061#p3061"
+  },
+  {
+    "term": "Nef / Nefarian",
+    "meaning": "Blackwing Lair final boss (Nefarian).",
+    "category": "boss",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=2080#p2080"
+  },
+  {
+    "term": "nerf",
+    "meaning": "To reduce the power/effectiveness of a class, spell or item via a balance change (opposite of buff).",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=116#p116"
+  },
+  {
+    "term": "ninja / ninja loot(ing)",
+    "meaning": "Taking an item via Need-roll or Master Loot that should have gone to another player by group etiquette, without consent — a recurring PuG-trust complaint.",
+    "category": "social",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=2054#p2054"
+  },
+  {
+    "term": "Nopheros",
+    "meaning": "A Turtle WoW Team (staff) member associated with seasonal/event content and lore-flavored announcements.",
+    "category": "staff",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=119656#p119656"
+  },
+  {
+    "term": "Nordanaar",
+    "meaning": "The (originally sole/primary) Turtle WoW realm name; players distinguish it from other fan servers/communities by name (e.g. 'we play on Nordanaar, not Tel'Abim').",
+    "category": "realm",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868"
+  },
+  {
+    "term": "NP",
+    "meaning": "'No Problem', a casual acknowledgement.",
+    "category": "social",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=3980#p3980"
+  },
+  {
+    "term": "NS",
+    "meaning": "Nature's Swiftness, a Shaman/Druid instant-cast talent.",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=6193#p6193"
+  },
+  {
+    "term": "Ony / Onyxia's Lair",
+    "meaning": "Onyxia's Lair, 40-man dragon raid.",
+    "category": "instance",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=4438#p4438"
+  },
+  {
+    "term": "OOC",
+    "meaning": "Out Of Character, a roleplay-etiquette term marking a comment as breaking from in-character speech.",
+    "category": "social",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=145#p145"
+  },
+  {
+    "term": "OS roll / off-spec",
+    "meaning": "'Off Spec' roll: a lower-priority Need roll for an item that benefits a player's secondary/alternate spec rather than their current main spec.",
+    "category": "pvp",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=1075#p1075"
+  },
+  {
+    "term": "OT",
+    "meaning": "Off Tank, a secondary tank handling adds/off-tanked targets.",
+    "category": "pvp",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=4146#p4146"
+  },
+  {
+    "term": "PallyPower",
+    "meaning": "A Paladin-blessing-assignment addon (community-extended on Turtle to also cover Shaman totems).",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=3660#p3660"
+  },
+  {
+    "term": "Patchwerk",
+    "meaning": "Naxxramas boss known as the archetypal pure-tank-and-spank fight with no real mechanics, used generically ('a Patchwerk fight') to describe other simple tank-and-spank encounters.",
+    "category": "boss",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=820#p820"
+  },
+  {
+    "term": "Pepesmite",
+    "meaning": "A Turtle WoW Team (staff) member who frequently answers class-balance and rules questions in the corpus.",
+    "category": "staff",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=45729#p45729"
+  },
+  {
+    "term": "pfQuest / Questie",
+    "meaning": "Two rival quest-helper/quest-tracker addons; players debate which to use for quest objectives and coordinates.",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=1067#p1067"
+  },
+  {
+    "term": "playable troll",
+    "meaning": "Refers to the Horde-loyal, voodoo/arcane-practicing troll race/culture as distinct from druidic troll lore, discussed in a race-lore thread.",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=101719#p101719"
+  },
+  {
+    "term": "PPM",
+    "meaning": "Procs Per Minute, the rate model used to tune how often weapon-proc effects trigger.",
+    "category": "item",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=9270#p9270"
+  },
+  {
+    "term": "premade",
+    "meaning": "A pre-organized, coordinated group queuing together for a Battleground (as opposed to solo-queued PuG players).",
+    "category": "pvp",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=12459#p12459"
+  },
+  {
+    "term": "prot",
+    "meaning": "Protection, the tanking talent tree for Warriors and Paladins.",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=822#p822"
+  },
+  {
+    "term": "pst",
+    "meaning": "Please Send Tell (whisper-me shorthand, common in trade/guide requests).",
+    "category": "social",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=11626#p11626"
+  },
+  {
+    "term": "PTR",
+    "meaning": "Public Test Realm, a test server for upcoming changes (referenced by analogy — Turtle does not always call its test environment this, but players and staff use the term).",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=10902#p10902"
+  },
+  {
+    "term": "PUG",
+    "meaning": "Pick-Up Group: a dungeon/raid group formed ad hoc via LFG/World chat rather than a premade guild group.",
+    "category": "pvp",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=2085#p2085"
+  },
+  {
+    "term": "PvE",
+    "meaning": "Player versus Environment content (dungeons, raids, questing).",
+    "category": "pvp",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=14#p14"
+  },
+  {
+    "term": "PvP",
+    "meaning": "Player versus Player content/combat.",
+    "category": "pvp",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=14#p14"
+  },
+  {
+    "term": "PW",
+    "meaning": "Power Word (Priest spell family prefix, e.g. PW:Shield).",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=15484#p15484"
+  },
+  {
+    "term": "QQ",
+    "meaning": "Onomatopoeic emote for crying/complaining (eyes crying), used dismissively of complaints ('QQ-class-nerfing').",
+    "category": "social",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=376#p376"
+  },
+  {
+    "term": "R12",
+    "meaning": "PvP Rank 12, cited as a practical ceiling for many players given the RP-decay economics of the honor ladder.",
+    "category": "pvp",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=3715#p3715"
+  },
+  {
+    "term": "R13",
+    "meaning": "PvP Rank 13 (one rank below top), commonly cited as the last easily-reachable rank before decay makes R14 very hard.",
+    "category": "pvp",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=12411#p12411"
+  },
+  {
+    "term": "R14",
+    "meaning": "PvP Rank 14 (Grand Marshal/High Warlord), the top rank in the honor system, and its associated gear.",
+    "category": "pvp",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=7849#p7849"
+  },
+  {
+    "term": "Rag",
+    "meaning": "Ragnaros, the final boss of Molten Core.",
+    "category": "boss",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=4434#p4434"
+  },
+  {
+    "term": "Rallying Cry (of the Dragonslayer/Ghostslayer)",
+    "meaning": "World buffs granted by slaying specific world raid bosses (Onyxia = Dragonslayer, in Turtle also 'Ghostslayer' from a kobold-king dance emote quest) providing attack power/spell damage/crit.",
+    "category": "item",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=8478#p8478"
+  },
+  {
+    "term": "RAP",
+    "meaning": "Ranged Attack Power stat.",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=23248#p23248"
+  },
+  {
+    "term": "Ravenshire",
+    "meaning": "A Turtle-custom Gilneas-area settlement per the community wiki's Turtle-content tagging, tied to the Gilneas/Gilneas City leveling content added in later patches.",
+    "category": "zone",
+    "scope": "turtle-specific",
+    "citation_url": "https://turtle-wow.fandom.com/wiki/Ravenshire"
+  },
+  {
+    "term": "Razorgore",
+    "meaning": "Blackwing Lair's first boss (Razorgore the Untamed, an egg-phase encounter).",
+    "category": "boss",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=5323#p5323"
+  },
+  {
+    "term": "Refreshment Table",
+    "meaning": "Mage-summonable custom item/ritual that conjures a table providing food/water for the party, reducing downtime between pulls.",
+    "category": "item",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=10502#p10502"
+  },
+  {
+    "term": "rekt",
+    "meaning": "Internet slang for being decisively defeated ('wrecked').",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=7389#p7389"
+  },
+  {
+    "term": "reroll",
+    "meaning": "To abandon a character and start a new one on a different class/race, usually for balance or social reasons.",
+    "category": "social",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=573#p573"
+  },
+  {
+    "term": "resto",
+    "meaning": "Restoration, the healing talent tree for Shaman and Druid.",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=816#p816"
+  },
+  {
+    "term": "RF",
+    "meaning": "Righteous Fury (Paladin threat-generation buff), in tanking-talent threads.",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=16661#p16661"
+  },
+  {
+    "term": "RFC",
+    "meaning": "Ragefire Chasm, classic low-level Horde starter dungeon.",
+    "category": "instance",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=1001#p1001"
+  },
+  {
+    "term": "RFD",
+    "meaning": "Razorfen Downs, classic dungeon.",
+    "category": "instance",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=1001#p1001"
+  },
+  {
+    "term": "RFK",
+    "meaning": "Razorfen Kraul, classic dungeon.",
+    "category": "instance",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=1001#p1001"
+  },
+  {
+    "term": "RIP",
+    "meaning": "'Rest In Peace', used both literally for character deaths (especially Hardcore mode) and jokingly.",
+    "category": "social",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=2138#p2138"
+  },
+  {
+    "term": "RMT",
+    "meaning": "Real Money Trading: buying gold/items/boosts with real currency, against the rules and repeatedly cited as a target of bot-hunting.",
+    "category": "economy",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=23201#p23201"
+  },
+  {
+    "term": "RP (rank/rating points)",
+    "meaning": "In PvP-rank threads, 'RP' means Ranking/Rating Points (honor standing), not roleplay — disambiguate from the (far more common) roleplay sense by context.",
+    "category": "pvp",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=3715#p3715"
+  },
+  {
+    "term": "S&S",
+    "meaning": "Common short form of 'Slow & Steady' challenge mode.",
+    "category": "system",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=16102#p16102"
+  },
+  {
+    "term": "Sapph / Sapphiron",
+    "meaning": "Naxxramas boss (Sapphiron), whose loot table includes Frost Resistance items ('FrostR items for Sapph').",
+    "category": "boss",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=43878#p43878"
+  },
+  {
+    "term": "satisfied_turtle_head",
+    "meaning": "Custom forum emoticon (content/satisfied turtle face), one of the most-used positive reaction shortcodes on the forum.",
+    "category": "social",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=359#p359"
+  },
+  {
+    "term": "scared_turtle_head",
+    "meaning": "Custom forum emoticon (frightened turtle face), often used self-deprecatingly (e.g. by staff joking about a mistake).",
+    "category": "social",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=858#p858"
+  },
+  {
+    "term": "self-found",
+    "meaning": "A self-imposed or ruleset-enforced restriction where a character may not trade, mail, or use the Auction House — must gear up purely from their own drops (referenced regarding another server's Hardcore ruleset as a possible model for Turtle's).",
+    "category": "system",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=30955#p30955"
+  },
+  {
+    "term": "server first",
+    "meaning": "The first guild/player on the Turtle realm to complete a piece of content (kill, level, etc.).",
+    "category": "pvp",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=942#p942"
+  },
+  {
+    "term": "SFK",
+    "meaning": "Shadowfang Keep, classic dungeon.",
+    "category": "instance",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=1001#p1001"
+  },
+  {
+    "term": "SGV",
+    "meaning": "Silverwing Grove/'Southern Gulch Valley' shorthand seen in BG population complaints alongside 'BR'; likely refers to a specific battleground or subregion. Not defined explicitly in sources.",
+    "category": "pvp",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=22536#p22536"
+  },
+  {
+    "term": "ShaguPlates",
+    "meaning": "A nameplate-replacement addon (by 'shagu') showing debuff timers on enemy nameplates.",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=4721#p4721"
+  },
+  {
+    "term": "ShaguTweaks",
+    "meaning": "A popular lightweight default-UI-improvement addon by 'shagu', bundled/recommended in many addon-pack guides.",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=4720#p4720"
+  },
+  {
+    "term": "Skeram",
+    "meaning": "Ahn'Qiraj 40's first boss (Skeram), grouped with other high-magic-damage bosses in class-balance threads.",
+    "category": "boss",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=32511#p32511"
+  },
+  {
+    "term": "skill issue",
+    "meaning": "Dismissive internet slang implying a complaint is really the result of the complaining player's own lack of skill.",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=23643#p23643"
+  },
+  {
+    "term": "Sleeptime",
+    "meaning": "A Turtle WoW Team (staff) member who answers technical/support and forum-moderation questions.",
+    "category": "staff",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=127746#p127746"
+  },
+  {
+    "term": "Slow & Steady",
+    "meaning": "Optional leveling challenge chosen at character creation (also called 'Turtle Mode'/'S&S'): reduced XP from creature kills (both open world and dungeons), tracked separately, with its own reward track. Later renamed from 'Hardcore Mode' to avoid confusion with the Mortal/Hardcore permadeath mode.",
+    "category": "system",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=2459#p2459"
+  },
+  {
+    "term": "Slow and Steady mode",
+    "meaning": "Full name variant of Slow & Steady; see 'Slow & Steady'.",
+    "category": "system",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=9664#p9664"
+  },
+  {
+    "term": "SM",
+    "meaning": "Scarlet Monastery, classic 4-wing dungeon (Graveyard/Library/Armory/Cathedral).",
+    "category": "instance",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=330#p330"
+  },
+  {
+    "term": "SM/RFD",
+    "meaning": "Shorthand pairing of Scarlet Monastery and Razorfen Downs, used when listing mid-level dungeon options together.",
+    "category": "instance",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=1001#p1001"
+  },
+  {
+    "term": "smiling_turtle_head",
+    "meaning": "The forum's most common custom emoticon shortcode (renders as a smiling turtle face); used constantly to soften statements or express light amusement.",
+    "category": "social",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=88#p88"
+  },
+  {
+    "term": "SoD",
+    "meaning": "Season of Discovery, Blizzard's official Classic variant ruleset, referenced by players comparing it to Turtle's own changes (not a Turtle feature).",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=76212#p76212"
+  },
+  {
+    "term": "soft reserve",
+    "meaning": "A pre-raid loot system where each player calls (reserves) one item in advance; when it drops, only players who reserved it roll for it — reduces loot drama versus open Need/Greed.",
+    "category": "economy",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=6125#p6125"
+  },
+  {
+    "term": "Songflower / Songflower Serenade",
+    "meaning": "A world buff obtained from the Songflower in Felwood, boosting crit and stats for raiding.",
+    "category": "item",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=2117#p2117"
+  },
+  {
+    "term": "South Seas PvE",
+    "meaning": "Turtle WoW's second realm, aimed at the South American playerbase, opened circa early 2024 with Spanish/Portuguese localization.",
+    "category": "realm",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=87297#p87297"
+  },
+  {
+    "term": "SP",
+    "meaning": "Spellpower / Spell Damage stat, or (in Priest rotation shorthand) 'Shadow Priest'/'SW:P' depending on context.",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=4069#p4069"
+  },
+  {
+    "term": "SQL",
+    "meaning": "The database query language referenced when players discuss quest/database editing or server-side content work.",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=1709#p1709"
+  },
+  {
+    "term": "SR",
+    "meaning": "Shadow Resistance stat (gear), used for Naxxramas progression; also seen abbreviated on set-bonus tooltips ('4-set: 5 Shadow Resist -> 10 SR').",
+    "category": "item",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251"
+  },
+  {
+    "term": "ST",
+    "meaning": "Sunken Temple (Shadowfang/Atal'Hakkar 'Sunken Temple'), classic dungeon.",
+    "category": "instance",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=1803#p1803"
+  },
+  {
+    "term": "STR",
+    "meaning": "Strength stat.",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=2629#p2629"
+  },
+  {
+    "term": "STV",
+    "meaning": "Stranglethorn Vale, classic contested PvP leveling zone (home of the World PvP hotspots and the fishing tournament).",
+    "category": "zone",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=1222#p1222"
+  },
+  {
+    "term": "sub",
+    "meaning": "Subtlety, a Rogue talent spec.",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=970#p970"
+  },
+  {
+    "term": "Sulfuron / Sulfuron Harbinger",
+    "meaning": "Molten Core boss whose kill unlocks a follow-up quest for upgraded trinkets.",
+    "category": "boss",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=5569#p5569"
+  },
+  {
+    "term": "SuperMacro",
+    "meaning": "The standard vanilla-client macro-extension addon enabling longer/more powerful macros than the stock UI.",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=4611#p4611"
+  },
+  {
+    "term": "SuperWoW",
+    "meaning": "A third-party client-side .dll mod adding modern convenience features (e.g. autoloot, extended macro limits) to the 1.12 client, popular on Turtle.",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=97674#p97674"
+  },
+  {
+    "term": "SW",
+    "meaning": "Shadow Word (Priest spell family prefix, e.g. SW:Pain); also separately used as 'Stormwind' city shorthand — disambiguate by context.",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=2080#p2080"
+  },
+  {
+    "term": "Sword of a Thousand Truths",
+    "meaning": "A joke/gimmick reward sword originally slated as a leveling-challenge prize, later moved specifically to the Boaring Challenge rewards after player pushback ('no epic-plz-nerf-swords').",
+    "category": "item",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=2459#p2459"
+  },
+  {
+    "term": "SWR",
+    "meaning": "Likely shorthand for Stormwrought Ruins, a Turtle-custom dungeon, used once in a dungeon-comparison post; attestation is thin (a single clear hit) so treat with caution.",
+    "category": "instance",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=161063#p161063"
+  },
+  {
+    "term": "T0",
+    "meaning": "Tier 0 dungeon set (pre-raid set, e.g. Circle of/Regalia of... items from level-60 dungeons), used loosely for the lowest tier of set gear.",
+    "category": "item",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=6394#p6394"
+  },
+  {
+    "term": "T0.5",
+    "meaning": "Turtle-custom 'Tier 0.5' quest-reward set slotted between dungeon blues and Molten Core sets, obtained via a questline (a Hardcore-mode-relevant grind, per player complaints about RNG in it).",
+    "category": "item",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=8969#p8969"
+  },
+  {
+    "term": "T1",
+    "meaning": "Tier 1 raid set (Molten Core set armor).",
+    "category": "item",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=4116#p4116"
+  },
+  {
+    "term": "T2",
+    "meaning": "Tier 2 raid set (Blackwing Lair set armor).",
+    "category": "item",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=1050#p1050"
+  },
+  {
+    "term": "T2.5",
+    "meaning": "Turtle-custom intermediate set tier between T2 and T3, referenced in gearing/loot discussions.",
+    "category": "item",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=4697#p4697"
+  },
+  {
+    "term": "T3",
+    "meaning": "Tier 3 raid set (Naxxramas set armor); also referenced regarding its class quest chains.",
+    "category": "item",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=4824#p4824"
+  },
+  {
+    "term": "T3.5",
+    "meaning": "Player-coined term for a hypothetical/Turtle-added raid tier beyond Naxxramas, difficulty-wise between T3 and a full new expansion tier — discussed as a suggestion, not confirmed shipped content in the cited posts.",
+    "category": "item",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=17082#p17082"
+  },
+  {
+    "term": "T4",
+    "meaning": "Used in this corpus for two different things: a talent-tree tier ('T4 talent') and a custom late-game 'torch' crafted item tier ('T4 torch'). Disambiguate from context — it is not attested here as a raid-tier armor set name.",
+    "category": "item",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=10263#p10263"
+  },
+  {
+    "term": "Taerar",
+    "meaning": "One of the Dragons of Nightmare world bosses, generally considered the easiest of the four.",
+    "category": "boss",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=17987#p17987"
+  },
+  {
+    "term": "TBH",
+    "meaning": "'To Be Honest'.",
+    "category": "social",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=4194#p4194"
+  },
+  {
+    "term": "Tel'Abim",
+    "meaning": "A WoW lore location name (troll island) that recurs in these forums as a joke/reference point distinguishing Turtle's actual realm (Nordanaar) from a fictional or other-server name; also cited in zone-wishlist posts as unimplemented Warcraft geography.",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=38876#p38876"
+  },
+  {
+    "term": "the entry raid",
+    "meaning": "Community shorthand for the first/easiest raid tier a fresh 60 is expected to gear up in before attempting harder content (Molten Core, in vanilla progression terms).",
+    "category": "pvp",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=45710#p45710"
+  },
+  {
+    "term": "Thrash Blade",
+    "meaning": "A pre-raid tank/DPS off-hand dagger, often mentioned as a 'trash tier until Molten Core' placeholder weapon.",
+    "category": "item",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=30333#p30333"
+  },
+  {
+    "term": "Thunderfury / TF",
+    "meaning": "Thunderfury, Blessed Blade of the Windseeker — the legendary quest-chain sword crafted from Molten Core (Thunderaan/Windseeker) materials, a benchmark 'BiS' weapon referenced throughout gearing threads.",
+    "category": "item",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=2073#p2073"
+  },
+  {
+    "term": "TL;DR / TLDR",
+    "meaning": "'Too Long; Didn't Read' — a short summary offered at the top or bottom of a long post.",
+    "category": "social",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=1673#p1673"
+  },
+  {
+    "term": "ToK",
+    "meaning": "Tower of Karazhan, the Turtle-custom Karazhan raid released in patch 1.17.2 (referenced by staff as 'the actual ToK raid').",
+    "category": "instance",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=161485#p161485"
+  },
+  {
+    "term": "Torta",
+    "meaning": "The most active member of the Turtle WoW Team (staff) in this corpus — posts nearly all major announcements, patch notes, and Q&A responses from the server's 2018 announcement onward.",
+    "category": "staff",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=14#p14"
+  },
+  {
+    "term": "Turtle Mode",
+    "meaning": "Staff's renamed label for the Slow & Steady challenge (previously called 'hardcore mode' before the separate permadeath Hardcore/Mortal mode existed), to avoid confusing the two.",
+    "category": "system",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=9664#p9664"
+  },
+  {
+    "term": "turtle_in_love_head",
+    "meaning": "Custom forum emoticon (heart-eyes turtle) expressing enthusiasm/love for an idea, class, or item.",
+    "category": "social",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=62#p62"
+  },
+  {
+    "term": "Turtlecraft launcher",
+    "meaning": "The official game-updating/patch launcher application for Turtle WoW.",
+    "category": "general-vanilla",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=17177#p17177"
+  },
+  {
+    "term": "Twin Emps",
+    "meaning": "Ahn'Qiraj 40 encounter (the Twin Emperors, Vek'lor and Vek'nilash).",
+    "category": "boss",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=13225#p13225"
+  },
+  {
+    "term": "twink",
+    "meaning": "A low-level character deliberately geared with best-in-slot low-level items (often funded by a main) to dominate a specific BG level bracket.",
+    "category": "pvp",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=553#p553"
+  },
+  {
+    "term": "twow.link",
+    "meaning": "Short-link domain used by staff in patch-note posts to point to feature pages (e.g. twow.link/towerofkarazhan).",
+    "category": "general-vanilla",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=92331#p92331"
+  },
+  {
+    "term": "TY",
+    "meaning": "'Thank You'.",
+    "category": "social",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=3980#p3980"
+  },
+  {
+    "term": "UBRS",
+    "meaning": "Upper Blackrock Spire, classic 40 (later 15/10)-man dungeon leading into raid attunements.",
+    "category": "instance",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=2001#p2001"
+  },
+  {
+    "term": "Uld",
+    "meaning": "Player shorthand for Uldaman (46-50 leveling dungeon).",
+    "category": "instance",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=95895#p95895"
+  },
+  {
+    "term": "unblizzlike",
+    "meaning": "Departing from original Blizzard vanilla design (used critically of custom features).",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=378#p378"
+  },
+  {
+    "term": "Vael / Vaelastrasz",
+    "meaning": "Blackwing Lair boss (Vaelastrasz the Corrupt), a long fight relevant to mana-management/consumable discussion.",
+    "category": "boss",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=2082#p2082"
+  },
+  {
+    "term": "Vagrant / Vagrant's Endeavor",
+    "meaning": "Leveling/gearing challenge title/mode introduced in patch notes: players agree to use only a limited pool of equippable items while leveling (self-imposed twink/gear restriction with server-tracked titles).",
+    "category": "system",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868"
+  },
+  {
+    "term": "Vagrant's Endeavor",
+    "meaning": "See 'Vagrant'.",
+    "category": "system",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868"
+  },
+  {
+    "term": "Vanilla+",
+    "meaning": "Community label for private servers/projects that keep vanilla's core but add new lore-consistent content — the design bucket Turtle WoW is usually placed in by its own players.",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=5091#p5091"
+  },
+  {
+    "term": "VanillaFixes",
+    "meaning": "A third-party client wrapper/exe patch improving stability/graphics on modern systems for the 1.12 client.",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=37681#p37681"
+  },
+  {
+    "term": "Vanth",
+    "meaning": "A Turtle WoW Team (staff) member who handles moderation/thread-closing and support matters.",
+    "category": "staff",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=41174#p41174"
+  },
+  {
+    "term": "VE",
+    "meaning": "Vampiric Embrace, a Shadow Priest talent providing party healing from the priest's shadow damage.",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=2080#p2080"
+  },
+  {
+    "term": "Venoxis / High Priest Venoxis",
+    "meaning": "Zul'Gurub boss with a snake-loa transformation.",
+    "category": "boss",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=4146#p4146"
+  },
+  {
+    "term": "Verigan's Fist",
+    "meaning": "A leveling-tier Paladin two-hand mace, cited in leveling weapon progression guides.",
+    "category": "item",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=2079#p2079"
+  },
+  {
+    "term": "Viscidus / Visc",
+    "meaning": "Ahn'Qiraj 40 boss requiring frost-damage stacking to make him brittle before he can be damaged normally.",
+    "category": "boss",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=10199#p10199"
+  },
+  {
+    "term": "VPN",
+    "meaning": "Virtual Private Network; some VPNs trigger disconnects/anti-cheat flags on Turtle, a recurring support-thread topic.",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=783#p783"
+  },
+  {
+    "term": "wary_turtle_head",
+    "meaning": "Custom forum emoticon (wary/nervous turtle face) used to express hesitation or mild worry.",
+    "category": "social",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=61#p61"
+  },
+  {
+    "term": "WC",
+    "meaning": "Wailing Caverns, classic dungeon abbreviation as used in this corpus's dungeon-completion lists (RFC, WC, SFK, BFD, RFK).",
+    "category": "instance",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=1001#p1001"
+  },
+  {
+    "term": "WDB",
+    "meaning": "The WoW client's local cache folder (World Database cache) that sometimes needs clearing/permission-locking to fix stale item/quest data.",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=2766#p2766"
+  },
+  {
+    "term": "Weakauras / WA",
+    "meaning": "A powerful custom-trigger buff/cooldown-tracking addon; players note Turtle's client historically lacked a fully working WeakAuras port, prompting custom alternatives.",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=82844#p82844"
+  },
+  {
+    "term": "WF",
+    "meaning": "Windfury (Shaman weapon-enchant/totem proc), referenced in warrior/rogue buff-stacking threads.",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=3602#p3602"
+  },
+  {
+    "term": "Wildhammer (Dwarf)",
+    "meaning": "A Dwarf sub-culture/faction referenced in Alliance lore threads (Aerie Peak Dwarves); discussed regarding playable customization options.",
+    "category": "general-vanilla",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=443#p443"
+  },
+  {
+    "term": "world boss",
+    "meaning": "A raid-strength boss that spawns in the open world (not inside an instance) and is not subject to raid-size scaling; examples cited include Azuregos, Lord Kazzak, and the Dragons of Nightmare.",
+    "category": "boss",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=3277#p3277"
+  },
+  {
+    "term": "world buff / WB",
+    "meaning": "A long-duration raid buff obtained from a world boss or event NPC (e.g. Rallying Cry of the Dragonslayer, Songflower Serenade, Spirit of Zandalar) and carried into a raid, often preserved with Hearthstone/travel-time tricks or the Chronoboon Displacer.",
+    "category": "pvp",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=828#p828"
+  },
+  {
+    "term": "world first",
+    "meaning": "The first guild/player anywhere to complete a piece of content; used both literally and sarcastically to criticize overly competitive raid attitudes.",
+    "category": "pvp",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=13076#p13076"
+  },
+  {
+    "term": "WotF",
+    "meaning": "Will of the Forsaken, the Undead racial trinket-like ability that breaks fear/charm/sleep effects.",
+    "category": "class",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=32229#p32229"
+  },
+  {
+    "term": "WPL",
+    "meaning": "Western Plaguelands, a classic zone; used interchangeably with EPL (Eastern Plaguelands) as a farming/reputation location.",
+    "category": "zone",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=2120#p2120"
+  },
+  {
+    "term": "wpvp / WPvP",
+    "meaning": "World PvP: open-world (non-instanced) player combat, a stated pillar of the server's PvE-with-optional-PvP design.",
+    "category": "pvp",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=818#p818"
+  },
+  {
+    "term": "WSG",
+    "meaning": "Warsong Gulch, the capture-the-flag battleground.",
+    "category": "pvp",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=416#p416"
+  },
+  {
+    "term": "WTB",
+    "meaning": "Want To Buy (trade-chat shorthand).",
+    "category": "economy",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=2120#p2120"
+  },
+  {
+    "term": "WTS",
+    "meaning": "Want To Sell (trade-chat shorthand).",
+    "category": "economy",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=19476#p19476"
+  },
+  {
+    "term": "Ysondre",
+    "meaning": "One of the Dragons of Nightmare world bosses, considered the hardest due to silence mechanics on shades.",
+    "category": "boss",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=17987#p17987"
+  },
+  {
+    "term": "Zappo Zapblast",
+    "meaning": "One of the Everlook Broadcasting Co. DJ NPCs (alongside Vrograg the Fishslayer and Dan 'Leto' Hahn).",
+    "category": "system",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=68974#p68974"
+  },
+  {
+    "term": "zerg / zerging",
+    "meaning": "Overwhelming an objective or enemy with sheer numbers rather than coordination/skill (BG and world PvP usage).",
+    "category": "pvp",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=5915#p5915"
+  },
+  {
+    "term": "ZF",
+    "meaning": "Zul'Farrak, classic dungeon.",
+    "category": "instance",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=330#p330"
+  },
+  {
+    "term": "ZG",
+    "meaning": "Zul'Gurub, 20-man raid.",
+    "category": "instance",
+    "scope": "general-vanilla",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=95#p95"
+  }
+]

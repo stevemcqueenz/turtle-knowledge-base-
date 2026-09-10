@@ -1,0 +1,86 @@
+[
+ {
+  "term": "4HM / Four Horsemen",
+  "meaning": "Naxxramas encounter (the Four Horsemen: Thane Korth'azz, Lady Blaumeux, Sir Zeliek, Baron Rivendare).",
+  "category": "boss",
+  "scope": "general-vanilla",
+  "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=26857#p26857"
+ },
+ {
+  "term": "AB",
+  "meaning": "Arathi Basin, the resource-node battleground.",
+  "category": "pvp",
+  "scope": "general-vanilla",
+  "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=818#p818"
+ },
+ {
+  "term": "Admiral Grumbleshell",
+  "meaning": "A custom mount reward added to the Boaring Challenge/leveling reward tracks.",
+  "category": "item",
+  "scope": "turtle-specific",
+  "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=2459#p2459"
+ },
+ {
+  "term": "affli",
+  "meaning": "Affliction, a Warlock talent spec (DoT-focused).",
+  "category": "class",
+  "scope": "general-vanilla",
+  "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=9974#p9974"
+ },
+ {
+  "term": "AFK",
+  "meaning": "Away From Keyboard.",
+  "category": "social",
+  "scope": "general-vanilla",
+  "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=814#p814"
+ },
+ {
+  "term": "AGI",
+  "meaning": "Agility stat.",
+  "category": "class",
+  "scope": "general-vanilla",
+  "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=2629#p2629"
+ },
+ {
+  "term": "AH",
+  "meaning": "Auction House.",
+  "category": "economy",
+  "scope": "general-vanilla",
+  "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=132#p132"
+ },
+ {
+  "term": "Akalix",
+  "meaning": "Turtle WoW's Community Manager (staff), per a player's direct attribution ('-Akalix, Community Manager of Turtle WoW').",
+  "category": "staff",
+  "scope": "turtle-specific",
+  "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=41794#p41794"
+ },
+ {
+  "term": "AoE farm(ing)",
+  "meaning": "Pulling and killing large groups of mobs at once (typically by a Mage) for fast gold/XP, a leveling-economy staple discussed in class-balance threads.",
+  "category": "economy",
+  "scope": "general-vanilla",
+  "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=11269#p11269"
+ },
+ {
+  "term": "AP",
+  "meaning": "Attack Power stat (melee); in some threads paired with RAP (Ranged Attack Power).",
+  "category": "class",
+  "scope": "general-vanilla",
+  "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=3815#p3815"
+ },
+ {
+  "term": "AQ20",
+  "meaning": "Ruins of Ahn'Qiraj, 20-man raid.",
+  "category": "instance",
+  "scope": "general-vanilla",
+  "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=3438#p3438"
+ },
+ {
+  "term": "AQ40",
+  "meaning": "Temple of Ahn'Qiraj, 40-man raid.",
+  "category": "instance",
+  "scope": "general-vanilla",
+  "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=3061#p3061"
+ }
+]

@@ -1,0 +1,306 @@
+{
+ "roles": [
+  "tank",
+  "healer",
+  "melee-dps",
+  "ranged-dps",
+  "pvp",
+  "leveling"
+ ],
+ "standings": [
+  "favored",
+  "alternative",
+  "niche",
+  "not-viable"
+ ],
+ "rows": [
+  {
+   "class": "Priest",
+   "spec": "Shadow",
+   "role": "tank",
+   "standing": "niche",
+   "agreement": "single source",
+   "source_quality": "weak",
+   "playbook_path": "synthesis/classes/priest/shadow-ranged-dps.md",
+   "yaml_path": "structured/classes/priest/shadow-ranged-dps.yaml",
+   "notes": "Caster-tanking Twin Emperors and 'a lot of bosses' is described by two players (2024-05, 2025-06) with a separate spec, but no build, gear or threat rotation is given. Documented as a section, not a playbook."
+  },
+  {
+   "class": "Priest",
+   "spec": "Holy",
+   "role": "healer",
+   "standing": "favored",
+   "agreement": "consensus",
+   "source_quality": "strong for rotation/gear/consumables (Langorn guide plus 10 corroborating posts); medium for talents",
+   "playbook_path": "synthesis/classes/priest/holy-healer.md",
+   "yaml_path": "structured/classes/priest/holy-healer.yaml",
+   "notes": "The standard healer spec; CC2 deliberately pushed healing power deep into Holy (one measurement: ~35% more throughput than deep Discipline). 1.18.1 raised base heal values, made Prayer of Healing castable on any party, replaced Lightwell with a passive, and added the Ascendance capstone - none of it evaluated by players after release."
+  },
+  {
+   "class": "Priest",
+   "spec": "Discipline",
+   "role": "healer",
+   "standing": "not-viable",
+   "agreement": "single source",
+   "source_quality": "weak",
+   "playbook_path": "synthesis/classes/priest/holy-healer.md",
+   "yaml_path": "structured/classes/priest/holy-healer.yaml",
+   "notes": "No 'Disc healer' archetype exists post-CC2 ('useless for healing', Sanwen 2024-11-07). Discipline is covered as the Holy healer's secondary tree. A WotLK-style shield healer was requested by players and is not supported by the sources."
+  },
+  {
+   "class": "Priest",
+   "spec": null,
+   "role": "melee-dps",
+   "standing": "not-viable",
+   "agreement": "consensus",
+   "source_quality": "none",
+   "playbook_path": "synthesis/classes/priest/README.md",
+   "yaml_path": null,
+   "notes": "The 'monk'/melee Discipline idea exists only in suggestion threads (t=4909, t=13309, t=6241). Melee weaving survives only as a levelling technique, and Inner Fire no longer grants attack power since CC2."
+  },
+  {
+   "class": "Priest",
+   "spec": "Shadow",
+   "role": "ranged-dps",
+   "standing": "alternative",
+   "agreement": "contested",
+   "source_quality": "medium: rotation/stats consensus across 2019-2025; talent allocation reconstructed; the 2019 guide is vanilla-era",
+   "playbook_path": "synthesis/classes/priest/shadow-ranged-dps.md",
+   "yaml_path": "structured/classes/priest/shadow-ranged-dps.yaml",
+   "notes": "Valued as utility (Vampiric Embrace healing, Vampiric Touch mana, Shadow Weaving for the raid's shadow users) rather than raw damage; falls behind mages and warlocks at high gear. 1.18.1 made Shadow Weaving a self-buff and moved Blackout to row 2; no numeric changes."
+  },
+  {
+   "class": "Priest",
+   "spec": "Discipline (Smite)",
+   "role": "ranged-dps",
+   "standing": "alternative",
+   "agreement": "contested",
+   "source_quality": "medium: single enumerated build (Langorn 31/13/7); rotation from staff mechanics plus four players; viability contested",
+   "playbook_path": "synthesis/classes/priest/discipline-ranged-dps.md",
+   "yaml_path": "structured/classes/priest/discipline-ranged-dps.yaml",
+   "notes": "A DPS/healer hybrid; reported at parity with Shadow on some fights and ranked 19th of 22 DPS specs on Dec-2024 Patchwerk logs. Needs 10% spell hit from gear. Staff: 'we're very happy with the flavor of our Discipline tree'."
+  },
+  {
+   "class": "Priest",
+   "spec": "Discipline (Smite)",
+   "role": "pvp",
+   "standing": "favored",
+   "agreement": "contested",
+   "source_quality": "medium for Smite; weak for the healer variant (2 posts)",
+   "playbook_path": "synthesis/classes/priest/discipline-pvp.md",
+   "yaml_path": "structured/classes/priest/discipline-pvp.yaml",
+   "notes": "Chastise -> Holy Fire -> instant Smite burst; favored among priest PvPers since CC2 over Shadow. Staff nerfed it twice for PvP ('We overshot Discipline by quite some, both in PvE and PvP')."
+  },
+  {
+   "class": "Priest",
+   "spec": "Shadow",
+   "role": "pvp",
+   "standing": "alternative",
+   "agreement": "contested",
+   "source_quality": "medium: many posts but opinion-heavy; builds are opaque links",
+   "playbook_path": "synthesis/classes/priest/shadow-pvp.md",
+   "yaml_path": "structured/classes/priest/shadow-pvp.yaml",
+   "notes": "Power timeline: overpowered pre-CC2, nerfed hard at CC2, Vampiric Embrace made instant again in 1.18.0. 1.18.1 moved Blackout to row 2 and gave Pain Spike a 30 s cooldown; reception split before release and untested after it."
+  },
+  {
+   "class": "Priest",
+   "spec": "Holy/Discipline",
+   "role": "pvp",
+   "standing": "niche",
+   "agreement": "single source",
+   "source_quality": "weak",
+   "playbook_path": "synthesis/classes/priest/discipline-pvp.md",
+   "yaml_path": "structured/classes/priest/discipline-pvp.yaml",
+   "notes": "The BG healer variant is two posts inside discipline-pvp.md; healers are reported to be one-shot in the burst meta."
+  },
+  {
+   "class": "Priest",
+   "spec": "Discipline",
+   "role": "leveling",
+   "standing": "favored",
+   "agreement": "consensus",
+   "source_quality": "strong for the Disc talent order and wand rules; weak for route and skipped ranks",
+   "playbook_path": "synthesis/classes/priest/leveling.md",
+   "yaml_path": null,
+   "notes": "Best solo spec per the class's guide writer; wand and Spirit Tap use is consensus."
+  },
+  {
+   "class": "Priest",
+   "spec": "Shadow",
+   "role": "leveling",
+   "standing": "alternative",
+   "agreement": "contested",
+   "source_quality": "medium",
+   "playbook_path": "synthesis/classes/priest/leveling.md",
+   "yaml_path": null,
+   "notes": "Efficient on mana from ~40 per its advocates, called 'hard, boring and slow' by its detractors."
+  },
+  {
+   "class": "Priest",
+   "spec": "Holy",
+   "role": "leveling",
+   "standing": "niche",
+   "agreement": "consensus",
+   "source_quality": "weak",
+   "playbook_path": "synthesis/classes/priest/leveling.md",
+   "yaml_path": null,
+   "notes": "Possible but slower. The pre-CC2 Holy/Smite hybrid (Aykhanchik) was once called the single best levelling build; Spiritual Healing changes made pure-Holy healing weaker before 30."
+  },
+  {
+   "class": "Priest",
+   "spec": "Night Elf Starshards",
+   "role": "leveling",
+   "standing": "niche",
+   "agreement": "single source",
+   "source_quality": "weak",
+   "playbook_path": "synthesis/classes/priest/leveling.md",
+   "yaml_path": null,
+   "notes": "A race-specific mana-efficient solo build with a single-source lineage (Roxanneflowers 2020 -> Amyloriley 2024-25). Whether Mental Agility affects Starshards is unconfirmed."
+  },
+  {
+   "class": "Warrior",
+   "spec": "Protection",
+   "role": "tank",
+   "standing": "favored",
+   "agreement": "consensus on mechanics; contested on standing",
+   "source_quality": "strong on mechanics (CC2 notes, Shield Slam/Defiance numbers, threat math); contested on standing",
+   "playbook_path": "synthesis/classes/warrior/protection-tank.md",
+   "yaml_path": "structured/classes/warrior/protection-tank.yaml",
+   "notes": "Best mitigation toolkit (Shield Block crit/crush immunity, Shield Wall, Last Stand, Disarm) and the go-to progression tank because tier sets are tank sets; single-target and AoE threat trail bear and paladin after CC2. 1.18.1 added Shield Slam rank 5 (20% AP, 75% threat) and Defiance help, with staff promising a fuller Protection review later."
+  },
+  {
+   "class": "Warrior",
+   "spec": "Fury/Protection",
+   "role": "tank",
+   "standing": "alternative",
+   "agreement": "consensus on the nerf; contested on whether to still play it",
+   "source_quality": "medium: pre-CC2 consensus meta; post-CC2 only one build suggestion (Death Wish + Improved Shield Slam) and contested viability",
+   "playbook_path": "synthesis/classes/warrior/fury-tank.md",
+   "yaml_path": "structured/classes/warrior/fury-tank.yaml",
+   "notes": "The pre-CC2 raid-tank meta, nerfed on purpose at CC2 so deep Protection could be viable. Still argued for on threat consistency (dual wield spreads threat over many hits, so one parry hurts less than a parried Shield Slam). No post-1.18.1 evaluation exists, and every 1.18.1 tank change favours deep Protection."
+  },
+  {
+   "class": "Warrior",
+   "spec": null,
+   "role": "healer",
+   "standing": "not-viable",
+   "agreement": "consensus",
+   "source_quality": "none",
+   "playbook_path": "synthesis/classes/warrior/README.md",
+   "yaml_path": null,
+   "notes": "Not a warrior role; no sources."
+  },
+  {
+   "class": "Warrior",
+   "spec": "Fury (dual wield)",
+   "role": "melee-dps",
+   "standing": "favored",
+   "agreement": "consensus 2023-2025; contested since CC3",
+   "source_quality": "strong on official kit and rotation; medium on talents (no full 51-point list); weak on stat weights and enchants",
+   "playbook_path": "synthesis/classes/warrior/fury-melee-dps.md",
+   "yaml_path": "structured/classes/warrior/fury-melee-dps.yaml",
+   "notes": "The class's raid-DPS spec and the best-scaling DPS in the game once geared; needs ~9% hit before dual wield works. Contested against Arms since CC3 for AQ40/Kara40."
+  },
+  {
+   "class": "Warrior",
+   "spec": "Arms",
+   "role": "melee-dps",
+   "standing": "alternative",
+   "agreement": "contested",
+   "source_quality": "medium: one dedicated rotation thread (t=18005) plus scattered posts; execute-phase mechanics changed three times",
+   "playbook_path": "synthesis/classes/warrior/arms-melee-dps.md",
+   "yaml_path": "structured/classes/warrior/arms-melee-dps.yaml",
+   "notes": "Preferred on add-heavy fights (AQ40, Kara40) and at lower gear; brings Mortal Strike and Sweeping Strikes. 1.18.1 moved Precision Cut behind Boundless Anger, which players call a nerf. Only one post-1.18.1 confirmation post exists."
+  },
+  {
+   "class": "Warrior",
+   "spec": "Fury (2H / Slam)",
+   "role": "melee-dps",
+   "standing": "niche",
+   "agreement": "contested",
+   "source_quality": "weak: existence itself is contested (Atreidon vs Xudo/Eyeburn)",
+   "playbook_path": "synthesis/classes/warrior/fury-melee-dps.md",
+   "yaml_path": "structured/classes/warrior/fury-melee-dps.yaml",
+   "notes": "Called the meta build by one player in Feb 2026 and 'not a spec anymore' by another; a 2026-03-21 hotfix made Flurry 'properly be consumed' with no player follow-up."
+  },
+  {
+   "class": "Warrior",
+   "spec": null,
+   "role": "ranged-dps",
+   "standing": "not-viable",
+   "agreement": "consensus",
+   "source_quality": "none",
+   "playbook_path": "synthesis/classes/warrior/README.md",
+   "yaml_path": null,
+   "notes": "Not a warrior role; no sources."
+  },
+  {
+   "class": "Warrior",
+   "spec": "Arms",
+   "role": "pvp",
+   "standing": "favored",
+   "agreement": "contested",
+   "source_quality": "medium: many posts but mostly rants; consistent advice only on stamina gearing, support play and consumables",
+   "playbook_path": "synthesis/classes/warrior/arms-pvp.md",
+   "yaml_path": "structured/classes/warrior/arms-pvp.yaml",
+   "notes": "The class's PvP spec because of Mortal Strike. Standing is the single most argued topic in the Warrior forum and splits on one axis - support: worthless solo, 'strongest class in PvP if they get supported well'. All Hamstring-cooldown-era advice (2024-11 to 2026-03-19) is obsolete and nobody re-evaluated PvP after the cooldown was removed."
+  },
+  {
+   "class": "Warrior",
+   "spec": "Fury",
+   "role": "pvp",
+   "standing": "niche",
+   "agreement": "single source",
+   "source_quality": "weak",
+   "playbook_path": "synthesis/classes/warrior/arms-pvp.md",
+   "yaml_path": "structured/classes/warrior/arms-pvp.yaml",
+   "notes": "The 'lone wolf' Blood Drinker dual-wield self-healing build after CC3; covered as a section inside arms-pvp.md."
+  },
+  {
+   "class": "Warrior",
+   "spec": "Protection",
+   "role": "pvp",
+   "standing": "niche",
+   "agreement": "single source",
+   "source_quality": "weak",
+   "playbook_path": "synthesis/classes/warrior/arms-pvp.md",
+   "yaml_path": "structured/classes/warrior/arms-pvp.yaml",
+   "notes": "Called a meme spec with a niche (stuns, Shield Slam dispel, 7k HP); two tools and no build."
+  },
+  {
+   "class": "Warrior",
+   "spec": "Arms (2H)",
+   "role": "leveling",
+   "standing": "favored",
+   "agreement": "consensus (majority)",
+   "source_quality": "medium: one ordered talent route (armsgirl, 2025-10-31) plus many principles; no level-by-level skill list",
+   "playbook_path": "synthesis/classes/warrior/leveling.md",
+   "yaml_path": null,
+   "notes": "The majority pick in every era: Sweeping Strikes for AoE and dungeon tanking, and Mortal Strike scales with weapon damage where Bloodthirst wants attack power you do not have while levelling."
+  },
+  {
+   "class": "Warrior",
+   "spec": "Fury (dual wield)",
+   "role": "leveling",
+   "standing": "alternative",
+   "agreement": "contested",
+   "source_quality": "medium",
+   "playbook_path": "synthesis/classes/warrior/leveling.md",
+   "yaml_path": null,
+   "notes": "Growing since CC2/CC3 on Blood Craze and Blood Drinker sustain, gated by hit: dual wield 'adds a 19% chance to miss on both hands, combined with the base 5%, that's 24%'."
+  },
+  {
+   "class": "Warrior",
+   "spec": "Protection",
+   "role": "leveling",
+   "standing": "niche",
+   "agreement": "contested (majority against)",
+   "source_quality": "medium",
+   "playbook_path": "synthesis/classes/warrior/leveling.md",
+   "yaml_path": null,
+   "notes": "Workable for dungeon-only levelling and instant queues, but the majority say Arms tanks levelling dungeons fine without any Protection points; post-1.18.1 Shield Specialization is still called insufficient for rage."
+  }
+ ],
+ "coverageMarkdown": "Companion to [`spec-role-matrix.md`](spec-role-matrix.md). Two things live here:\n\n1. a **class × role coverage table** giving the source quality of each playbook, taken from the nine class `README.md` files (not re-judged here);\n2. a **merged gaps list** across all nine classes — the things a future pass has to fill from local game data rather than the forum.\n\nSource quality is the READMEs' own vocabulary: **strong** (multiple detailed, independent, corroborating sources), **medium** (one detailed source plus agreeing fragments, or good mechanics but thin standing), **weak** (opinion fragments, a single stale build link, or a section rather than a playbook), **none** (no source treats the class as filling that role). Where a README splits its judgement by topic or era, the table keeps the split.\n\n## 1. Coverage table (class × role)\n\n| Class | Tank | Healer | Melee DPS | Ranged DPS | PvP | Leveling |\n|---|---|---|---|---|---|---|\n| **Druid** | **strong** on stats/mechanics, **medium** on the current build (link-only), **weak-medium single-source** on post-1.18.1 standing (`feral-tank.md`) | **medium** (`restoration-healer.md`); two build philosophies, no decoded point lists | **strong** on rotation and the powershift-vs-bleed evolution, **medium** on gear, **weak single-source** on post-1.18.1 items (`feral-melee-dps.md`) | **strong** on mechanics (two long write-ups + dozens of replies), **medium** on the post-1.18.1 numbers (`balance-ranged-dps.md`) | Feral **weak** (only build link is pre-CC2 and superseded); Balance **medium**; Resto **strong on the Rogue matchup, weak elsewhere** | **medium**: strong on spec framing and talent-order anchors, weak-to-none on route/rank-skips |\n| **Hunter** | **none** | **none** | **strong** (`survival-melee-dps.md`): consensus rotati",
+ "matrixMarkdown": "Cross-class index built **only** from the nine class folders in this repo (`synthesis/classes/<class>/README.md`, the 47 spec×role playbooks and the nine `leveling.md` files) plus their YAML twins in `structured/classes/`. Conventions: [`../CONVENTIONS.md`](../CONVENTIONS.md). Machine-readable twin: [`../../structured/classes/spec-role-matrix.yaml`](../../structured/classes/spec-role-matrix.yaml).\n\nNo vanilla assumptions are used to decide viability: Turtle rewrote the class kits three times inside the extraction window (Class Changes 2 = 1.17.2, staff post 2024-10-12, live 2024-11-01; Class Changes 3 = 1.18.0, staff post 2025-07-25, live 2025-08-15; 1.18.1, staff post [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071) with revision blocks 2026-01-26 and 2026-03-19, live 2026-03-20), and made several non-vanilla roles real — Enhancement Shaman tank, melee Survival Hunter, melee-weaving Holy Paladin, Subtlety support Rogue, Firelock, Smite Priest. Where sources say a role does not exist for a class, this file says **not viable** and cites the source, rather than inferring it.\n\n**Roles** are the six named in the task: tank, healer, melee DPS, ranged DPS, PvP, leveling. **Standing** is one of `favored` (the community's default pick for that class+role), `alternative` (a real, played choice with a stated reason to pick it), `niche` (a small, specific use-case or a handful of practitioners), `not viable` (sources say the class cannot fill the role). **Agreement** is `consensus` / `single source` / `contested` per `CONVENTIONS.md`.\n\n**Era labels**: **pre-1.18.1** (before 2025-10-03), **1.18.1-announced-pre-release** (2025-10-03 .. 2026-03-19), **post-1.18.1** (from 2026-03-20). The forum extractions end between 2026-04-06 and 2026-04-18; "
+}
