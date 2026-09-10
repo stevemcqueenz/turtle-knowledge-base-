@@ -77,4 +77,12 @@ From `issues-summary.md` (122 entries: 73 open, 25 unclear, 12 fixed, 8 intended
 
 ## 7. Contradictions
 
-See `contradictions.md` and `structured/contradictions.yaml` (summary appended when that pass completed; see below).
+`contradictions.md` (index) with per-system files under `contradictions/` and `structured/contradictions.yaml`: 104 entries, 94 of them checkable against local game data. By system: classes and specs 19, dungeons and raids 17, project direction (staff vs staff over time) 13, patch history and attribution (wiki vs forum) 9, loot and drop rates 9, spells and mechanics 8, PvP and honor 8, world/quests/factions 6, client/UI/server 5, professions 4, items 3, terminology 3. Status: unresolved 62, superseded 14, reconciled 6, design dispute 3, website stale 2, wiki vs staff 2, and one-off tags.
+
+Findings worth knowing before trusting any single source: staff "fixed" lines are contradicted by later observation in several cases (Master Strike disorient, Baited Shot, server time, Gadgetzan flight route, Enchanted Thorium Shells, Firemaw void zones); the community wiki and the turtlecraft.gg feature pages are the least reliable sources (stale Scarlet Monastery boss names, a Hateforge Quarry location the patch note contradicts, unbacked Emerald Sanctum scaling, disagreeing level ranges). The single highest-value local check is CON-0082, the per-class PvP dampening table that was announced but never published; the tier-1 list also includes the 3% vs 4% spell-hit constant, Sunder Armor proc flags, the rogue T3.5 proc rate and the Araxxna's Husk item id.
+
+## 8. Process notes
+
+- One crawler at about 1 request per second (raised to 1.5 after a clean first hour), descriptive user agent, robots honored, no login, exponential backoff; the site returned zero 429s and no challenge pages during 23,000 fetches. The only server-side problems were the two broken site pages and 97 phpBB "board temporarily unavailable" pages, which were detected and refetched.
+- All synthesis was produced by subagents from the extracted files only (no network), with prompts kept in `scrape/prompts/`, and every deliverable was validated by `scrape/validate.py`; the behavior corpus was additionally scanned for username leaks by `scrape/leakcheck.py`.
+- Reproducible: `scrape/manifest.jsonl` records every URL with status and timestamp; `raw/` allows re-extraction without refetching.

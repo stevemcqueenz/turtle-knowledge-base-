@@ -1,0 +1,2710 @@
+meta:
+  description: 'Contradictions between Turtle WoW sources: both sides with dates, sources and the current best assessment.'
+  companion_document: synthesis/contradictions.md
+  conventions: synthesis/CONVENTIONS.md
+  entry_count: 104
+  systems:
+  - project-direction-and-policy
+  - patch-history-and-attribution
+  - dungeons-and-raids
+  - loot-and-drop-rates
+  - classes-and-specs
+  - spells-and-mechanics
+  - pvp-and-honor
+  - professions-and-gathering
+  - items-and-itemization
+  - world-quests-and-factions
+  - client-ui-and-server
+  - terminology-and-reading-the-corpus
+  status_values:
+  - ambiguous-by-design
+  - apparent-only
+  - clarified
+  - design-dispute
+  - era-dependent
+  - likely-explained
+  - naming-collision
+  - partly-resolved
+  - player-consensus
+  - player-relayed
+  - reconciled
+  - resolved-by-release
+  - resolved-later
+  - staff-explained
+  - staff-intended
+  - staff-intended-with-open-edge-case
+  - superseded
+  - superseded-but-contested
+  - unresolved
+  - website-stale
+  - wiki-vs-staff
+  authority_levels:
+  - staff
+  - guide writer
+  - player
+  - community wiki
+  - official website
+  dates: UTC. Patch 1.18.1 released 2026-03-20; server shutdown 2026-05-15.
+  local_check_count: 94
+entries:
+- id: CON-0001
+  system: project-direction-and-policy
+  topic: 'Cross-faction battlegrounds: refused as impossible, then shipped'
+  side_a:
+    claim: Cross-faction battleground registration is refused on faction-identity grounds and is beyond reach technically;
+      only Blood Ring would ever be cross-faction.
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2020-09-20'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=7701#p7701
+    - author: Torta
+      authority: staff
+      date: '2021-09-22'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=12455#p12455
+  side_b:
+    claim: Mercenary-mode cross-faction battlegrounds enabled on every PvE realm, auto-sorting players into the
+      faction that needs them; mixed-faction premades still impossible.
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2025-10-25'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=157078#p157078
+    - author: Jamey
+      authority: staff
+      date: '2025-11-05'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=158392#p158392
+  what_would_settle_it: Check the shipped Faction.dbc client patch and the battleground queue/registration tables
+    on the 1.18.1 server for a mercenary flag.
+  assessment: 'Resolved by time: the 2025 statements supersede the 2020/2021 ones. Both were true when written.'
+  status: superseded
+  check_against_local_game_data: true
+- id: CON-0002
+  system: project-direction-and-policy
+  topic: 'PvP rank decay: kept, then de-ranking removed'
+  side_a:
+    claim: Removing rank decay is rejected — it would make an already easier ranking system easier still.
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2021-09-22'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=12455#p12455
+  side_b:
+    claim: Decay changed so rating points decay but never drop a player below the minimum for the current rank.
+    sources:
+    - author: Akalix
+      authority: staff
+      date: '2023-10-01'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=67818#p67818
+  what_would_settle_it: Read the honor/rank decay routine and its floor value in the 1.18.1 server data; compare
+    with the player reports in CON-0078.
+  assessment: The 2023 position supersedes the 2021 one, but post-1.18.1 players report rank drops to 0, which contradicts
+    the documented floor — see CON-0078.
+  status: superseded-but-contested
+  check_against_local_game_data: true
+- id: CON-0003
+  system: project-direction-and-policy
+  topic: '"No new realms" stated twice, two new realms launched'
+  side_a:
+    claim: No new realms are planned and the RPPvE identity will not change (2023-04); no new EU realms unless the
+      existing ones are heavily over capacity (2025-04).
+    sources:
+    - author: Akalix
+      authority: staff
+      date: '2023-04-23'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=42768#p42768
+    - author: Akalix
+      authority: staff
+      date: '2025-04-03'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=125151#p125151
+  side_b:
+    claim: Tel'Abim (PvP) announced with a full phase plan six months later; Ambershire announced four months later
+      for 17 August 2025.
+    sources:
+    - author: Akalix
+      authority: staff
+      date: '2023-10-24'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=73214#p73214
+    - author: Torta
+      authority: staff
+      date: '2025-08-01'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=142471#p142471
+  what_would_settle_it: Realm list / realmlist table on the local server.
+  assessment: Later statements win; the earlier ones are planning statements, not rules.
+  status: superseded
+  check_against_local_game_data: false
+- id: CON-0004
+  system: project-direction-and-policy
+  topic: 'Localization: English only, then a Chinese realm and a German client'
+  side_a:
+    claim: English is the only supported language; quality control in other languages would delay development by
+      years.
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2023-05-15'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=45970#p45970
+  side_b:
+    claim: A separate Asia-hosted Chinese realm with its own team (2023-07); patch 1.18.0 shipped a full German
+      translation.
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2023-07-15'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=53567#p53567
+    - author: Adhavar
+      authority: staff
+      date: '2025-08-01'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=142534#p142534
+  what_would_settle_it: Locale directories and locale-specific DBC/string tables in the 1.18.1 client and server.
+  assessment: Later statements win.
+  status: superseded
+  check_against_local_game_data: true
+- id: CON-0005
+  system: project-direction-and-policy
+  topic: 'Launcher: not forced, then required'
+  side_a:
+    claim: The team does not plan to force third-party software on players and prefers server-to-client updates.
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2020-12-16'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=8720#p8720
+  side_b:
+    claim: The Faction.dbc client patch for cross-faction battlegrounds is distributed through the launcher and
+      the launcher update is required.
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2025-11-04'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=158367#p158367
+    - author: Torta
+      authority: staff
+      date: '2025-11-04'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=158376#p158376
+  what_would_settle_it: Compare the client build/patch chain (patch-*.mpq, Faction.dbc) delivered by the launcher
+    against a bare 1.12 client.
+  assessment: Later statement wins.
+  status: superseded
+  check_against_local_game_data: true
+- id: CON-0006
+  system: project-direction-and-policy
+  topic: 'Paladin blessings and shaman totems stacking: "not a bug", then changed by poll'
+  side_a:
+    claim: 'The blessing/totem conflict is not a bug: retail vanilla never had shamans and paladins in the same
+      group, so the buffs were never balanced to stack.'
+    sources:
+    - author: Jamey
+      authority: staff
+      date: '2021-11-18'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=13972#p13972
+  side_b:
+    claim: Stacking put to a community poll, bundled with world-buff removal so the power swing would not be one-sided.
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2022-09-17'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=25235#p25235
+    - author: Torta
+      authority: staff
+      date: '2022-09-17'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=25243#p25243
+  what_would_settle_it: Check the aura/exclusivity group of blessings and totem auras in the 1.18.1 spell data.
+  assessment: The 2021 'working as intended' reading no longer describes the server; the poll outcome and the live
+    spell data decide it.
+  status: superseded
+  check_against_local_game_data: true
+- id: CON-0007
+  system: project-direction-and-policy
+  topic: 'Dual spec: "impossible server side", then the Goblin Brainwashing Device'
+  side_a:
+    claim: Dual specialization cannot be done server side.
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2019-07-24'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=3530#p3530
+  side_b:
+    claim: 'The Goblin Brainwashing Device shipped: two saved talent configurations switched at the normal talent-reset
+      cost.'
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2021-07-04'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=11156#p11156
+  what_would_settle_it: Check the Brainwashing Device NPC/spell and the stored talent-configuration table on the
+    local server.
+  assessment: Later statement wins.
+  status: superseded
+  check_against_local_game_data: true
+- id: CON-0008
+  system: project-direction-and-policy
+  topic: 'Guild housing: phase-out announced, then "never considered removal"'
+  side_a:
+    claim: New GM-built guild houses are discontinued (staff workload, world overcrowding, unfair advantages).
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2023-08-08'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=56333#p56333
+  side_b:
+    claim: Existing houses stay in the open world; the plan to phase them into Caverns of Time was dropped.
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2023-08-09'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=56564#p56564
+  what_would_settle_it: Look for guild-house GameObjects/teleport entries in the world data.
+  assessment: One day apart; the second post narrows the first rather than reversing it. Treat as clarification,
+    not reversal.
+  status: clarified
+  check_against_local_game_data: false
+- id: CON-0009
+  system: project-direction-and-policy
+  topic: 'Tents for hardcore: kept, then reworked in 1.18.1'
+  side_a:
+    claim: There are no plans to remove tents for hardcore players.
+    sources:
+    - author: Akalix
+      authority: staff
+      date: '2023-04-08'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=40744#p40744
+  side_b:
+    claim: 1.18.1 moved the rested bonus to taverns worldwide and left tents only a partial (25%) bonus.
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2026-02-17'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=168639#p168639
+  what_would_settle_it: Rested-XP rules and the tent item/aura cap in 1.18.1 data.
+  assessment: Later statement wins; the player-side objection to the change is CON-0084.
+  status: superseded
+  check_against_local_game_data: true
+- id: CON-0010
+  system: project-direction-and-policy
+  topic: 'Turtle WoW 2.0 (Unreal Engine 5): announced, then discontinued'
+  side_a:
+    claim: A second team is replicating the vanilla client in Unreal Engine 5 after about eighteen months of work.
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2024-07-03'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=98451#p98451
+  side_b:
+    claim: The Unreal Engine 5 client is permanently discontinued and the development agreement ended.
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2025-12-19'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=163158#p163158
+  what_would_settle_it: Nothing in the game data settles this; it is a project-history fact.
+  assessment: Later statement wins.
+  status: superseded
+  check_against_local_game_data: false
+- id: CON-0011
+  system: project-direction-and-policy
+  topic: 'Cross-faction play scope: realm-limited, then network-wide for battlegrounds'
+  side_a:
+    claim: Cross-faction play stays a Nordanaar feature; Tel'Abim is the non-cross-faction alternative.
+    sources:
+    - author: Akalix
+      authority: staff
+      date: '2025-06-26'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=137136#p137136
+  side_b:
+    claim: Cross-faction battlegrounds enabled on all PvE realms four months later.
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2025-10-25'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=157078#p157078
+  what_would_settle_it: Per-realm configuration flags for cross-faction grouping vs battleground queueing.
+  assessment: 'Later statement wins, but the two are only partly in conflict: world grouping and BG queueing are
+    separate switches.'
+  status: superseded
+  check_against_local_game_data: true
+- id: CON-0012
+  system: project-direction-and-policy
+  topic: 'Transmogrification: pulled offline as "heavily broken", then returned as an NPC service'
+  side_a:
+    claim: The transmog system is heavily broken and is taken offline.
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2020-10-22'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=8233#p8233
+  side_b:
+    claim: Transmog returns as a Fashionista NPC service, restricted to that NPC.
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2023-08-20'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=58121#p58121
+  what_would_settle_it: Fashionista NPC and transmog storage tables in 1.18.1.
+  assessment: Later statement wins; the scope changed (system-wide → NPC-gated).
+  status: superseded
+  check_against_local_game_data: true
+- id: CON-0013
+  system: project-direction-and-policy
+  topic: 'Loot culture: GDKP banned outright, personal loot refused'
+  side_a:
+    claim: GDKP is banned because it drives real-money trading.
+    sources:
+    - author: Akalix
+      authority: staff
+      date: '2024-06-25'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=97794#p97794
+  side_b:
+    claim: Personal loot is refused as a solution to hard-reserve pug culture.
+    sources:
+    - author: Akalix
+      authority: staff
+      date: '2025-07-01'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=137770#p137770
+  what_would_settle_it: Loot-method options available in the 1.18.1 client/server (is personal loot implemented
+    at all?).
+  assessment: Not a reversal — the same team treating two loot-culture problems in opposite ways, deliberately.
+    Listed because a reader seeing one post alone will misread the policy.
+  status: apparent-only
+  check_against_local_game_data: true
+- id: CON-0014
+  system: patch-history-and-attribution
+  topic: 'Contents of patch 1.15.0: wiki vs forum'
+  side_a:
+    claim: Gnome Hunter, Orc Mage, Stormwind Vault, 2v2 arena and gambling are listed under patch 1.15.0.
+    sources:
+    - author: community wiki, Patch 1.15.0
+      authority: community wiki
+      date: null
+      url: extracted/wiki/articles/Patch_1.15.0.md
+  side_b:
+    claim: The 1.15.0 forum announcement lists none of Gnome Hunter / Orc Mage; Blood Ring 2v2 and Stormwind Vault
+      are announced with 1.16.0.
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2020-10-04'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=7948#p7948
+    - author: Torta
+      authority: staff
+      date: '2021-11-22'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  what_would_settle_it: Check when the race/class combination rows and the Stormwind Vault map entry first appear
+    in the client DBCs / server map table.
+  assessment: Forum treated as authoritative in this knowledge base; the wiki entries are flagged. Unresolved as
+    to why the wiki differs.
+  status: wiki-vs-staff
+  check_against_local_game_data: true
+- id: CON-0015
+  system: patch-history-and-attribution
+  topic: Stormwind Vault patch attribution (1.15.0 vs 1.16.0)
+  side_a:
+    claim: The wiki elsewhere attributes Stormwind Vault to patch 1.15.0.
+    sources:
+    - author: Custom Turtle WoW content
+      authority: community wiki
+      date: null
+      url: https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content
+  side_b:
+    claim: The staff changelog and the wiki's own patch-changes section both say 1.16.0.
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2021-11-22'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  what_would_settle_it: First appearance of the instance map id in client MPQ/DBC data by build.
+  assessment: 1.16.0 is the better-supported date (staff post plus the wiki's own patch section).
+  status: wiki-vs-staff
+  check_against_local_game_data: true
+- id: CON-0016
+  system: patch-history-and-attribution
+  topic: Paladin 31-point Protection capstone name
+  side_a:
+    claim: The capstone is "Bulwark of the Righteous".
+    sources:
+    - author: Dragunovi
+      authority: staff
+      date: '2024-10-12'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=102969#p102969
+  side_b:
+    claim: The first balance update calls it "Shield of the Righteous".
+    sources:
+    - author: Jamey
+      authority: staff
+      date: '2024-10-21'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=104207#p104207
+  what_would_settle_it: Spell name for the 31-point Protection talent in 1.18.1 Spell.dbc / talent data.
+  assessment: Later name wins (rename), but the exact rename date is not stated in any source.
+  status: superseded
+  check_against_local_game_data: true
+- id: CON-0017
+  system: patch-history-and-attribution
+  topic: 'Rogue capstone: "Exploit Vulnerability" vs "Mark for Death"'
+  side_a:
+    claim: The class-changes post names the rogue capstone "Exploit Vulnerability".
+    sources:
+    - author: Dragunovi
+      authority: staff
+      date: '2024-10-12'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=102969#p102969
+  side_b:
+    claim: The 1.18.0 class update names "Mark for Death".
+    sources:
+    - author: Jamey
+      authority: staff
+      date: '2025-07-25'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159
+  what_would_settle_it: 'Talent tree data for Rogue in 1.18.1: is it one renamed talent or two different ones?'
+  assessment: Unresolved whether renamed or replaced.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0018
+  system: patch-history-and-attribution
+  topic: Tower of Karazhan realm-first title
+  side_a:
+    claim: The realm-first title is "Warden of the Ley Lines".
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2023-12-28'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980
+  side_b:
+    claim: The later (edited) announcement gives "Conqueror of Desolation".
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2025-02-21'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=120590#p120590
+  what_would_settle_it: Title entries in CharTitles.dbc for the 1.18.1 client.
+  assessment: Later post wins; the earlier title may never have shipped.
+  status: superseded
+  check_against_local_game_data: true
+- id: CON-0019
+  system: patch-history-and-attribution
+  topic: Patch 1.15.1 release date
+  side_a:
+    claim: Staff post of 2021-03-11 announces the 1.15.1 client update for Monday, March 15 (10:00 server time).
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2021-03-11'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=9734#p9734
+  side_b:
+    claim: The wiki dates 1.15.1 to 2021-03-11.
+    sources:
+    - author: community wiki, Patch 1.15.1
+      authority: community wiki
+      date: null
+      url: extracted/wiki/articles/Patch_1.15.1.md
+  what_would_settle_it: Client build number and its file dates.
+  assessment: 'Treated as 2021-03-11..15 in the timeline: announcement date vs roll-out date.'
+  status: reconciled
+  check_against_local_game_data: true
+- id: CON-0020
+  system: patch-history-and-attribution
+  topic: Date of patch 1.17.2 ("November 1 2023")
+  side_a:
+    claim: A 2025 staff post writes "November 1 2023 in patch 1.17.2".
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2025-12-04'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=161485#p161485
+  side_b:
+    claim: 1.17.2 was announced for release on 2024-11-01.
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2024-10-27'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=104997#p104997
+  what_would_settle_it: Build dates on the local server files.
+  assessment: Treated as a typo for 2024; the 2024 announcement wins.
+  status: reconciled
+  check_against_local_game_data: false
+- id: CON-0021
+  system: patch-history-and-attribution
+  topic: Moon's 2021 class draft vs the 1.16.1 release changelog (Bloodlust values)
+  side_a:
+    claim: 'Draft class post: "New Talent: Bloodlust (Row 7) ... Rank 1 (Talent): 10% Rank 2 (Level 60): 15%". The
+      author is indexed as a player but writes as the team.'
+    sources:
+    - author: Moon
+      authority: player
+      date: '2021-11-06'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=13458#p13458
+  side_b:
+    claim: 'The 1.16.1 release post carries the same paragraph with different numbers: "Rank 1 (Talent): 15% Rank
+      2 (Level 60): 20%".'
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2022-07-24'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  what_would_settle_it: Bloodlust rank values in the 1.18.1 spell data (only shows the end state, not the 2021 draft).
+  assessment: The release changelog is taken as truth; the draft is cited only where the release does not restate
+    an item. A worked example of why player-written team drafts must not be quoted as official values.
+  status: resolved-by-release
+  check_against_local_game_data: false
+- id: CON-0022
+  system: patch-history-and-attribution
+  topic: 'Shaman Bloodlust: two incompatible talent descriptions across patches'
+  side_a:
+    claim: '1.16.1 wording: a party-member buff increasing melee, ranged and casting speed by 15/20% for 15 seconds.'
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2022-07-24'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  side_b:
+    claim: '1.17.2-era wording: attack and casting speed granted to party members on critical strike raised from
+      5% to 8%, duration 5 to 6 seconds, caster bonus 15% to 20% — a different mechanic, not a rewording.'
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2025-03-30'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504
+  what_would_settle_it: Bloodlust spell/talent effects in 1.18.1 spell data; also note the 2025-04-01 hotfix "Fixed
+    incorrect values for Shaman's Bloodlust".
+  assessment: 'Not a contradiction but a redesign: the later description supersedes. Listed because the older wording
+    is still quoted in guides.'
+  status: superseded
+  check_against_local_game_data: true
+- id: CON-0023
+  system: dungeons-and-raids
+  topic: Emerald Sanctum raid size and scaling
+  side_a:
+    claim: '"The new raid, Emerald Sanctum will remain requiring 40-man as it''s featuring mechanics made with 40
+      players in mind"; a day earlier staff wrote "ES scaling was never intended".'
+    sources:
+    - author: Jamey
+      authority: staff
+      date: '2023-10-10'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=69844#p69844
+    - author: Torta
+      authority: staff
+      date: '2023-10-11'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=70087#p70087
+  side_b:
+    claim: The wiki says Emerald Sanctum scales "down to 30 players"; post-1.18.1 staff say raid scaling is active
+      on all raids with a 16-player minimum for 40-player raids.
+    sources:
+    - author: Custom Turtle WoW content
+      authority: community wiki
+      date: null
+      url: https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content
+    - author: Torta
+      authority: staff
+      date: '2026-04-21'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=176101#p176101
+  what_would_settle_it: Raid-scaling configuration for the Emerald Sanctum map on the 1.18.1 server (minimum player
+    threshold and per-player scaling factors).
+  assessment: The 2026-04-21 statement is the last word and supersedes 2023. The wiki's 30-player threshold has
+    no staff backing at any date.
+  status: superseded
+  check_against_local_game_data: true
+- id: CON-0024
+  system: dungeons-and-raids
+  topic: 'Timbermaw Hold raid: entry requires Timbermaw reputation?'
+  side_a:
+    claim: The raid "will have a requirement to be at least neutral with the Timbermaw faction in order to just
+      enter".
+    sources:
+    - author: Carlculathor
+      authority: player
+      date: '2026-03-26'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=172477#p172477
+  side_b:
+    claim: '"Where is it written you need at least neutral with Timbermaw to enter? You can still sneak or get summoned
+      right in front of it afaik".'
+    sources:
+    - author: Travoltino
+      authority: player
+      date: '2026-03-26'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=172541#p172541
+  what_would_settle_it: Instance entry condition (area trigger / access requirement) for the Timbermaw Hold map,
+    plus any reputation gate in the 1.18.1 data.
+  assessment: 'Unresolved — no staff answer in the extraction. Context: on 2026-03-31 staff added Blackroot Furbolg
+    kill reputation for Timbermaw.'
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0025
+  system: dungeons-and-raids
+  topic: Timbermaw Hold lockout day (Friday timer vs Wednesday reset)
+  side_a:
+    claim: A player reports the in-game timer showing Friday and asks which day the raid resets.
+    sources:
+    - author: Dingacik
+      authority: player
+      date: '2026-03-31'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=173516#p173516
+  side_b:
+    claim: No staff answer exists in the extraction; the general weekly reset is Wednesday per the honor-flush restart
+      statement.
+    sources:
+    - author: Jamey
+      authority: staff
+      date: '2023-10-11'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=70104#p70104
+  what_would_settle_it: Instance reset period for the Timbermaw Hold map id in the local database.
+  assessment: Unresolved.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0026
+  system: dungeons-and-raids
+  topic: Lower Karazhan Halls boss count (5 vs 6)
+  side_a:
+    claim: '"You will encounter six formidable bosses".'
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2023-01-21'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  side_b:
+    claim: The wiki lists 5; the community guide describes 4 required + Moroes + 1 optional (Master Blacksmith Rolfen).
+    sources:
+    - author: Custom Turtle WoW content
+      authority: community wiki
+      date: null
+      url: https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content
+    - author: Speedz1337
+      authority: guide writer
+      date: '2025-11-19'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=160087#p160087
+  what_would_settle_it: Count boss-flagged creatures on the LKH map in the local creature table.
+  assessment: 'The guide''s breakdown reconciles all three: six killable named bosses, five on the required path.'
+  status: reconciled
+  check_against_local_game_data: true
+- id: CON-0027
+  system: dungeons-and-raids
+  topic: Gilneas City boss count (7 vs 8)
+  side_a:
+    claim: '"Two mini-bosses and five normal bosses" — seven.'
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2023-01-21'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  side_b:
+    claim: The wiki has eight boss pages for the dungeon.
+    sources:
+    - author: Custom Turtle WoW content
+      authority: community wiki
+      date: null
+      url: https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content
+  what_would_settle_it: Whether the two Regent-Lords are one encounter (two creatures, one boss entry) in the local
+    data.
+  assessment: Probably reconciled by the Regent-Lords being a single two-target encounter, but no source says so.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0028
+  system: dungeons-and-raids
+  topic: Frostmane Hollow boss count (4 vs 5)
+  side_a:
+    claim: The wiki's custom-content table lists 4 bosses.
+    sources:
+    - author: Custom Turtle WoW content
+      authority: community wiki
+      date: null
+      url: https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content
+  side_b:
+    claim: Five boss pages exist on the wiki; Handler Oboka and Tan'sha the Sleek appear to be one paired encounter
+      (Oboka's axe drops from Tan'sha).
+    sources:
+    - author: Frostmane Hollow
+      authority: community wiki
+      date: null
+      url: https://turtle-wow.fandom.com/wiki/Frostmane_Hollow
+  what_would_settle_it: Boss flags and loot tables for the five Frostmane Hollow creatures.
+  assessment: Unresolved; the pairing is an inference, not stated anywhere.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0029
+  system: dungeons-and-raids
+  topic: Molten Core extension boss count (3 vs 4)
+  side_a:
+    claim: The 1.18.0 notes say the extension adds "3 new bosses and 15+ new items".
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2025-02-22'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  side_b:
+    claim: The wiki lists four names for Molten Core — Incindis, Smoldaris, Basalthar and Sorcerer-Thane Thaurissan
+      — with a separate boss page for Thaurissan.
+    sources:
+    - author: Custom Turtle WoW content
+      authority: community wiki
+      date: null
+      url: https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content
+  what_would_settle_it: Boss-flagged creatures in the Molten Core extension areas; check whether Smoldaris and Basalthar
+    are one encounter.
+  assessment: Unresolved; a paired encounter would reconcile the counts.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0030
+  system: dungeons-and-raids
+  topic: Stormwrought Ruins boss count (12 vs 13)
+  side_a:
+    claim: The wiki's custom-content table counts 12 bosses.
+    sources:
+    - author: Custom Turtle WoW content
+      authority: community wiki
+      date: null
+      url: https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content
+  side_b:
+    claim: Thirteen NPC pages exist, including Ighal'for; Ighal'for and Mergothid are one encounter.
+    sources:
+    - author: Stormwrought Ruins
+      authority: community wiki
+      date: null
+      url: https://turtle-wow.fandom.com/wiki/Stormwrought_Ruins
+  what_would_settle_it: Creature/boss entries for the map, and whether Ighal'for is a phase of Mergothid.
+  assessment: Ambiguous rather than contradictory; the paired encounter explains the difference.
+  status: reconciled
+  check_against_local_game_data: true
+- id: CON-0031
+  system: dungeons-and-raids
+  topic: 'Scarlet Monastery: boss names on the website vs the patch notes'
+  side_a:
+    claim: The official Classic Dungeons Update page names "The Knight of Naxxramas", "Brother Steelfist", "The
+      Nameless Experiment" and "Master Smith Johana".
+    sources:
+    - author: turtlecraft.gg, Classic Dungeons Update
+      authority: official website
+      date: null
+      url: https://turtlecraft.gg/classic-dungeons-update
+  side_b:
+    claim: 'Staff forum notes and the wiki give the live names: Duke Dreadmoore <Knight of Naxxramas>, Brother Wystan
+      and Armory Quartermaster Daghelm; the other two names appear nowhere.'
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2023-12-28'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980
+    - author: Akalix
+      authority: staff
+      date: '2024-03-30'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709
+  what_would_settle_it: Creature names in the Scarlet Monastery wings on the local server.
+  assessment: The website page is an earlier draft that was never updated. The clearest case of the official website
+    being stale relative to the patch notes.
+  status: website-stale
+  check_against_local_game_data: true
+- id: CON-0032
+  system: dungeons-and-raids
+  topic: Hateforge Quarry location (north-east vs south-east Burning Steppes)
+  side_a:
+    claim: The official site places the entrance at "the northeastern walls of the Burning Steppes".
+    sources:
+    - author: turtlecraft.gg, Raids and Dungeons
+      authority: official website
+      date: null
+      url: https://turtlecraft.gg/raids-and-dungeons
+  side_b:
+    claim: The staff patch note and the wiki both say south-eastern Burning Steppes, at the Hateforge Excavation.
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2022-07-24'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+    - author: Hateforge Quarry
+      authority: community wiki
+      date: null
+      url: https://turtle-wow.fandom.com/wiki/Hateforge_Quarry
+  what_would_settle_it: Instance entrance coordinates for the Hateforge Quarry map in the local world data.
+  assessment: 'Two official sources against one: treat the website as the outlier.'
+  status: website-stale
+  check_against_local_game_data: true
+- id: CON-0033
+  system: dungeons-and-raids
+  topic: 'Custom dungeon level ranges: official/wiki vs the in-game LFT addon'
+  side_a:
+    claim: Official site and wiki level bands, e.g. Hateforge Quarry 52-60 (wiki minimum 48), Windhorn Canyon 26-30.
+    sources:
+    - author: turtlecraft.gg, Raids and Dungeons
+      authority: official website
+      date: null
+      url: https://turtlecraft.gg/raids-and-dungeons
+    - author: Torta
+      authority: staff
+      date: '2025-10-03'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  side_b:
+    claim: The community guide's LFT ranges differ for most custom dungeons, e.g. Hateforge 50-60 and Windhorn 25-33;
+      Razorfen Kraul, Razorfen Downs and Zul'Farrak also disagree between wiki table and LFT data.
+    sources:
+    - author: Speedz1337
+      authority: guide writer
+      date: '2022-11-23'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=29739#p29739
+  what_would_settle_it: The LFT addon's range table vs the instance level requirements in the server data — the
+    two are different fields and can legitimately differ.
+  assessment: 'Unresolved as documentation, but likely not a real conflict: the LFT ranges are a suggestion table,
+    the site/wiki state the design band.'
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0034
+  system: dungeons-and-raids
+  topic: 'Karazhan Crypt graveyard bug: Duskwood or Redridge?'
+  side_a:
+    claim: On death the graveyard sends players to Raven Hill Cemetery in Duskwood instead of Deadwind Pass.
+    sources:
+    - author: Raukodor
+      authority: player
+      date: '2021-09-17'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=12310#p12310
+  side_b:
+    claim: '"Karazhan Crypt should no longer bug out and send the player to Redridge Mountains on death".'
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2023-12-19'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=81778#p81778
+  what_would_settle_it: Graveyard/WorldSafeLocs binding for the Karazhan Crypt map in the local data.
+  assessment: Two incompatible descriptions two years apart; they may be different bugs. Unresolved.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0035
+  system: dungeons-and-raids
+  topic: Firemaw void zones after the 2026-03-21 fix
+  side_a:
+    claim: '"Void Zones should no longer chase players" (hotfix; no boss named).'
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2026-03-21'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  side_b:
+    claim: 'After the fix: Firemaw spawns void zones behind line of sight, inside walls, in the air and 80+ yards
+      away; a week later "not LoS - simply invisible".'
+    sources:
+    - author: Travoltino
+      authority: player
+      date: '2026-04-01'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=173564#p173564
+    - author: Travoltino
+      authority: player
+      date: '2026-04-07'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=174380#p174380
+  what_would_settle_it: 'Firemaw''s void-zone spawn script: spawn position selection and visibility/aura on the
+    summoned object.'
+  assessment: Open bug at the end of the extraction window; the hotfix addressed chasing, not spawn placement.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0036
+  system: dungeons-and-raids
+  topic: 'Golemagg''s Core Hounds: fixate intended or broken?'
+  side_a:
+    claim: The Core Hounds ignore threat and cannot be held.
+    sources:
+    - author: Blackfox
+      authority: player
+      date: '2025-08-25'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=148264#p148264
+  side_b:
+    claim: Other players read it as an intended fixate/enrage at 60/50% health and disagree about whether the adds
+      can be taunted off.
+    sources:
+    - author: Alovander
+      authority: player
+      date: '2025-08-25'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=148274#p148274
+    - author: Drubarrymooer
+      authority: player
+      date: '2025-08-25'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=148301#p148301
+  what_would_settle_it: 'Golemagg''s script: threat table handling and any fixate aura on the Core Hounds in 1.18.1.'
+  assessment: Contested between players, no staff statement (issue ISS-0024).
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0037
+  system: dungeons-and-raids
+  topic: Does Lower Karazhan Halls (10-player) scale?
+  side_a:
+    claim: The wiki says the raid does not scale.
+    sources:
+    - author: Lower Karazhan Halls
+      authority: community wiki
+      date: null
+      url: https://turtle-wow.fandom.com/wiki/Lower_Karazhan_Halls
+  side_b:
+    claim: '"Raid Scaling is active on all raids. 20-player raids: minimum scaling threshold 8 players; 40-player
+      raids: 16 players" — no 10-player bracket is named.'
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2026-04-21'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=176101#p176101
+  what_would_settle_it: 'Scaling configuration per map id: is the LKH map in the scaling table at all?'
+  assessment: Unresolved — the staff statement neither includes nor excludes a 10-player raid.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0038
+  system: dungeons-and-raids
+  topic: Clawlord Howlfang's stack mechanic and taunt behaviour
+  side_a:
+    claim: The debuff reduces armor and damage done and is removable only by breaking line of sight; swap tanks
+      at roughly 15 stacks.
+    sources:
+    - author: Speedz1337
+      authority: guide writer
+      date: '2025-11-19'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=160087#p160087
+  side_b:
+    claim: Raid leaders report Howlfang resisting "like 80% of both tanks' taunts"; another player says the real
+      cause is the boss losing his target while casting, so taunts land only after he re-acquires one.
+    sources:
+    - author: Turney
+      authority: player
+      date: '2025-12-17'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=162969#p162969
+    - author: Deeno
+      authority: player
+      date: '2025-12-17'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=162983#p162983
+  what_would_settle_it: 'Howlfang''s script: taunt immunity/resist handling and target re-acquisition during casts.'
+  assessment: Unresolved; no staff explanation of either the stack removal rule or the taunt resists.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0039
+  system: dungeons-and-raids
+  topic: 'Dragonmaw Retreat: which zone is it in?'
+  side_a:
+    claim: The wiki and the 1.18.0 blurb place the dungeon in the Wetlands.
+    sources:
+    - author: Dragonmaw Retreat
+      authority: community wiki
+      date: null
+      url: https://turtle-wow.fandom.com/wiki/Dragonmaw_Retreat
+    - author: Torta
+      authority: staff
+      date: '2025-02-22'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  side_b:
+    claim: The internal timeline (B4) places it in the Grim Reaches; the lore ties the Dragonmaw to both.
+    sources:
+    - author: synthesis/turtle-vs-vanilla-timeline.md
+      authority: community wiki
+      date: null
+      url: synthesis/turtle-vs-vanilla-timeline.md
+  what_would_settle_it: Zone id of the instance entrance in the local world data.
+  assessment: Low-stakes documentation conflict; the entrance coordinate settles it immediately on a local server.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0040
+  system: loot-and-drop-rates
+  topic: Whip Lasher herb drop rate after the 2024 increase
+  side_a:
+    claim: Whip Lasher herb drops raised from ~1.7% to 4%, and Mountain Silversage / Plaguebloom / Icecap added
+      at 4%, to curb gold inflation.
+    sources:
+    - author: Akalix
+      authority: staff
+      date: '2024-03-19'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=90746#p90746
+  side_b:
+    claim: 'The next day three players report zero drops: "no drop for 400 lashers" and "10 runs of DM lashers...
+      not a single Icecap, Plaguebloom, or Silversage".'
+    sources:
+    - author: Shoc
+      authority: player
+      date: '2024-03-20'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=90885#p90885
+    - author: Drakae
+      authority: player
+      date: '2024-03-20'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=90922#p90922
+    - author: Jc473
+      authority: player
+      date: '2024-03-20'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=90965#p90965
+  what_would_settle_it: 'Read the Whip Lasher creature loot template on the 1.18.1 server: is the 4% per-herb or
+    shared, and did the change ship at all?'
+  assessment: Unresolved; no staff reply closes the loop. The most checkable drop-rate conflict in the corpus.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0041
+  system: loot-and-drop-rates
+  topic: Black Lotus drop rate differs per realm?
+  side_a:
+    claim: '"The drop rate of black lotus on ambersire is insanely high. As where on nordanaar it is 4% ... Ambershire
+      is well over 30%".'
+    sources:
+    - author: Birtha
+      authority: player
+      date: '2026-03-31'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=173493#p173493
+  side_b:
+    claim: '"Give me 100 black lotuses then if you''re getting 1 every 3 plants. I don''t get 1 per day. In 40-50
+      gathers".'
+    sources:
+    - author: Durin
+      authority: player
+      date: '2026-03-31'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=173515#p173515
+  what_would_settle_it: Compare the Black Lotus spawn/loot chance per realm configuration; a single global gameobject
+    loot template would settle it outright.
+  assessment: Unresolved; neither poster gives a tally and no staff post states a per-realm rate. Note the quoted
+    4% matches the 2024 staff value, not the later 6%.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0042
+  system: loot-and-drop-rates
+  topic: '"Sticky" boss loot tables (same drop every kill)'
+  side_a:
+    claim: A Gilneas City worgen boss dropped "the exact same loot every single kill" over 30 kills, changing only
+      after other bosses were killed first; War Master Voone "always dropped the T0 hunter's glove along with the
+      throwing axe" over 20+ kills.
+    sources:
+    - author: Danwith
+      authority: player
+      date: '2025-07-07'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=138351#p138351
+    - author: Tacticalnelf
+      authority: player
+      date: '2024-01-19'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=85387#p85387
+  side_b:
+    claim: Countered as ordinary RNG plus small sample sizes.
+    sources:
+    - author: Drubarrymooer
+      authority: player
+      date: '2024-01-14'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=84638#p84638
+  what_would_settle_it: Inspect the loot-roll implementation (per-group rolls, seeding) and the boss loot templates
+    on the local server.
+  assessment: Unresolved, no staff statement. A deterministic-seed bug would be visible immediately in emulator
+    code.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0043
+  system: loot-and-drop-rates
+  topic: 'Prospector''s Magnifying Lens: does it help Mining?'
+  side_a:
+    claim: A player at 300 Mining and Exalted with the Thorium Brotherhood reports the trinket "only works for JC",
+      not for Mining.
+    sources:
+    - author: Elesion
+      authority: player
+      date: '2026-04-03'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=173826#p173826
+  side_b:
+    claim: 'Quoted in the same post: the database implies 1.5x the drop chance and "you would need thousands of
+      veins to rule out variance on a chance this small" against a ~3% baseline.'
+    sources:
+    - author: Elesion
+      authority: player
+      date: '2026-04-03'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=173826#p173826
+  what_would_settle_it: Read the trinket's spell effect and the Rich Thorium Vein loot template on the local server.
+  assessment: Unresolved; the poster asked for an official statement and got none.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0044
+  system: loot-and-drop-rates
+  topic: 'Schematic: Enchanted Thorium Shells — fixed or still not dropping?'
+  side_a:
+    claim: Staff name Cannon Master Willey as the source and list the fix on 2026-04-07.
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2026-04-07'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=174367#p174367
+  side_b:
+    claim: A week later a player reports it still does not drop from Cannon Master Willey.
+    sources:
+    - author: Roegnvald
+      authority: player
+      date: '2026-04-14'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=175240#p175240
+  what_would_settle_it: Cannon Master Willey's loot template in the 1.18.1 data — is the schematic present, and
+    at what chance?
+  assessment: Unresolved at the end of the record; a one-line database check.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0045
+  system: loot-and-drop-rates
+  topic: Community database drop rates vs player run counts
+  side_a:
+    claim: 'Database figures quoted by players: Devout Skirt 20% (Stratholme), Devout Mantle 20% / Lightforge Spaulders
+      10% (UBRS), all Dungeon Set 1 pieces 11%.'
+    sources:
+    - author: Tossia
+      authority: player
+      date: '2024-12-31'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=115009#p115009
+    - author: Wilsonsds
+      authority: player
+      date: '2024-02-06'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=87109#p87109
+    - author: Klouther
+      authority: player
+      date: '2022-09-12'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=24939#p24939
+  side_b:
+    claim: 'Observed: 40 Stratholme runs with no Devout Skirt; 20+ UBRS runs with neither shoulder; "over 200 runs
+      of UBRS... i have only seen it drop once".'
+    sources:
+    - author: Tossia
+      authority: player
+      date: '2024-12-31'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=115009#p115009
+    - author: Wilsonsds
+      authority: player
+      date: '2024-02-07'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=87130#p87130
+    - author: Klouther
+      authority: player
+      date: '2022-09-12'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=24939#p24939
+  what_would_settle_it: Compare database.turtlecraft.gg values against the server loot templates directly — the
+    whole class of disputes collapses if the database is stale.
+  assessment: Unresolved and repeatedly unanswered. Players asked "how accurate is the drop rate from the Turtle
+    Wow Database?" and never got a reply.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0046
+  system: loot-and-drop-rates
+  topic: Falrin's Vendetta / Ogre Warbeads drop rate
+  side_a:
+    claim: '"the drop rates at least for DM North are wrong, it is way lower that what its shown in the database"
+      (2024); repeated in 2025: "3 hrs of killing ogres inside DM, 17 beads. 50% according to hp, riiight".'
+    sources:
+    - author: Thegardak
+      authority: player
+      date: '2024-01-09'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=84055#p84055
+    - author: Farbano
+      authority: player
+      date: '2025-12-04'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=161591#p161591
+  side_b:
+    claim: Staff redirect the report to the bug tracker without confirming or denying; another player says the database
+      is being misread — 50% only from bosses and mini-bosses, 25% from DM ogres, 14% in LBRS, 5% outside.
+    sources:
+    - author: Pepesmite
+      authority: staff
+      date: '2024-01-09'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=84057#p84057
+    - author: Mcnair
+      authority: player
+      date: '2025-12-05'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=161664#p161664
+  what_would_settle_it: Per-creature Ogre Warbead chances on the local server, split by boss / mini-boss / trash.
+  assessment: Probably a misread database entry rather than a bug, but nothing in the corpus confirms it.
+  status: likely-explained
+  check_against_local_game_data: true
+- id: CON-0047
+  system: loot-and-drop-rates
+  topic: Master Loot and items below the loot threshold
+  side_a:
+    claim: A player reports Master Loot forces the master looter to hand out greys and whites below the threshold.
+    sources:
+    - author: Cysthen
+      authority: player
+      date: '2026-03-23'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=172040#p172040
+  side_b:
+    claim: The staff loot hotfix of that period only covers chests; vanilla baseline (not from turtlecraft.gg) is
+      that below-threshold items are free-for-all.
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2026-03-31'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  what_would_settle_it: Loot-method handling for quality below the master-loot threshold in the server code.
+  assessment: Unresolved; the player states the intended rule as an assumption.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0048
+  system: loot-and-drop-rates
+  topic: Araxxna's Husk item id (61816 vs 91777)
+  side_a:
+    claim: One player links item 61816.
+    sources:
+    - author: Mimiwarmini
+      authority: player
+      date: '2024-12-02'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875
+  side_b:
+    claim: Another links item 91777 for the same drop.
+    sources:
+    - author: Verdict
+      authority: player
+      date: '2024-02-28'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=88922#p88922
+  what_would_settle_it: Look up both ids in the 1.18.1 item template; one is probably a display/tooltip duplicate.
+  assessment: Unresolved, trivially checkable locally.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0049
+  system: classes-and-specs
+  topic: 'Warrior: Arms vs Fury for raid DPS'
+  side_a:
+    claim: 'Fury is the raid DPS spec: "Fury takes you there, arms will not"; "Arms just doesnt work compared to
+      fury".'
+    sources:
+    - author: Akos1896
+      authority: player
+      date: '2024-05-16'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=95013#p95013
+    - author: Likaleo
+      authority: player
+      date: '2024-05-17'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=95025#p95025
+  side_b:
+    claim: 'From mid-2025: "Arms is definitely up there with fury... better than fury in AQ40 and especially Kara40";
+      "Arms warrior is already the best DPS spec in game. Check out turtlogs"; but post-1.18.1 "The spec already
+      underperforms in pve".'
+    sources:
+    - author: Ellifta
+      authority: player
+      date: '2025-07-14'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=139087#p139087
+    - author: Noephix
+      authority: player
+      date: '2025-06-11'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=135319#p135319
+    - author: Bettargh
+      authority: player
+      date: '2026-03-13'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=170733#p170733
+  what_would_settle_it: Not settleable from game data alone; needs parses. The kit changes (Class Changes 3, 1.18.1
+    Execute) are checkable in spell data.
+  assessment: 'Contested and era-dependent: Fury consensus to mid-2025, contested after Class Changes 3. No post-1.18.1
+    raid data exists in the corpus.'
+  status: unresolved
+  check_against_local_game_data: false
+- id: CON-0050
+  system: classes-and-specs
+  topic: 'Warrior: does 2H Fury exist after Class Changes 3?'
+  side_a:
+    claim: '"2h fury isnt a spec anymore. If you use twohanders go arms".'
+    sources:
+    - author: Atreidon
+      authority: player
+      date: '2025-10-21'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=156441#p156441
+  side_b:
+    claim: '"2h fury uses Slam"; "Wake up Neo! Missed CC3?"; in Feb 2026 a player calls "2h fury, in which you slam
+      a lot" the meta build.'
+    sources:
+    - author: Eyeburn
+      authority: player
+      date: '2025-10-25'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=157054#p157054
+    - author: armsgirl
+      authority: player
+      date: '2025-10-28'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=157453#p157453
+    - author: Warrior37
+      authority: player
+      date: '2026-02-15'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=168301#p168301
+  what_would_settle_it: Talent prerequisites and Slam/Flurry interaction in the 1.18.1 talent data decide whether
+    the build is mechanically supported.
+  assessment: Contested; treat 2H Fury as an accepted alternative post-CC3 rather than settled either way.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0051
+  system: classes-and-specs
+  topic: 'Warrior: is Fury/Prot tanking still viable after Class Changes 2?'
+  side_a:
+    claim: '"Furyprot was intentionally nerfed... Why not deepprot?"; "Sword and board warrior is the meta now.
+      Shieldslam runs laps around bloodthirst when it comes to threat".'
+    sources:
+    - author: Xudo
+      authority: player
+      date: '2024-12-23'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=114018#p114018
+    - author: Atreidon
+      authority: player
+      date: '2024-11-20'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=108893#p108893
+  side_b:
+    claim: '"if your healers can take it, learning how to fury tank is the way to go until you start getting toward
+      Naxx level gear"; "I play both fury and deep prot tank and both have very similar threat gen"; the consistency
+      argument (fast dual-wield spreads threat, a parry hurts less than a parried Shield Slam).'
+    sources:
+    - author: Arkaris
+      authority: player
+      date: '2025-02-01'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=118658#p118658
+    - author: Cheruscan
+      authority: player
+      date: '2026-03-16'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=170960#p170960
+    - author: Eyeburn
+      authority: player
+      date: '2026-03-15'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=170891#p170891
+  what_would_settle_it: Threat coefficients on Shield Slam / Bloodthirst and the crit-immunity (Defense) values
+    in 1.18.1 data.
+  assessment: Contested; both sides agree it was nerfed, they disagree on whether it remains playable.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0052
+  system: classes-and-specs
+  topic: 'Warrior: does Sunder Armor proc Sword Specialization?'
+  side_a:
+    claim: '"Sunder Armor ... will not trigger Sword Specialization".'
+    sources:
+    - author: Wolf of Rage
+      authority: player
+      date: '2025-03-17'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=122819#p122819
+  side_b:
+    claim: '"SA is a physical attack that can proc on hit everything any other attack can proc: OP, WF, swordspec
+      etc."'
+    sources:
+    - author: armsgirl
+      authority: player
+      date: '2025-05-05'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=129704#p129704
+  what_would_settle_it: Proc flags on Sunder Armor and on the Sword Specialization / Master of Arms talent in 1.18.1
+    spell data.
+  assessment: Unresolved between two frequently-correct players; a pure data question.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0053
+  system: classes-and-specs
+  topic: 'Warrior: is rage generated from absorbed hits?'
+  side_a:
+    claim: '"Not being able to generate rage on shields is absolutely crippling".'
+    sources:
+    - author: Snoof
+      authority: player
+      date: '2025-09-23'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=152740#p152740
+  side_b:
+    claim: '"Twow gave you ability to generate rage against aborbs and immunities".'
+    sources:
+    - author: Ataika
+      authority: player
+      date: '2025-07-20'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=140665#p140665
+  what_would_settle_it: 'Rage-on-damage-taken code path: does it use damage dealt before or after absorb?'
+  assessment: Unresolved; may be era-dependent (the two posts are two months apart).
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0054
+  system: classes-and-specs
+  topic: 'Druid: is Balance raid-viable?'
+  side_a:
+    claim: '"Balance Druid DPS is bottom of the DPS tier... literally bottom of the barrel", citing top Kara40 boomkin
+      logs ~940 DPS against top mage logs ~1200-1400.'
+    sources:
+    - author: Halfgeek9
+      authority: player
+      date: '2025-05-19'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=131905#p131905
+  side_b:
+    claim: '"the class scales incredibly well... anyone saying Boomkin is bottom of the barrel is misinformed",
+      with logs placing a boomkin 12th of 93 casters that week.'
+    sources:
+    - author: Noobikscube
+      authority: player
+      date: '2025-06-08'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=134706#p134706
+  what_would_settle_it: Not settleable from game data; both sides quote logs that are not in this corpus.
+  assessment: Contested (pre-1.18.1). Both sides are player log readings, neither reproducible here.
+  status: unresolved
+  check_against_local_game_data: false
+- id: CON-0055
+  system: classes-and-specs
+  topic: 'Druid: Intellect on feral tier sets'
+  side_a:
+    claim: '"126 stat points are wasted" on a PvE cat set with heavy Intellect.'
+    sources:
+    - author: Snkx
+      authority: player
+      date: '2025-04-24'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=128296#p128296
+    - author: Jaffcover
+      authority: player
+      date: '2024-12-25'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=114200#p114200
+  side_b:
+    claim: '"Druid gear needs to be viable for PvP too. INT is necessary for lasting in fights for shifting, healing,
+      and dots" — countered with "T2.5 and T3.5 is not a PvP set, you have the Rank gear for that".'
+    sources:
+    - author: Darter
+      authority: player
+      date: '2025-01-29'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=118313#p118313
+    - author: Grizb37
+      authority: player
+      date: '2025-01-29'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=118323#p118323
+  what_would_settle_it: Item stats on the feral tier pieces in 1.18.1 (fact), but the design question is not decidable
+    from data.
+  assessment: A design argument, not a factual conflict; kept because guides state it as fact in both directions.
+  status: design-dispute
+  check_against_local_game_data: true
+- id: CON-0056
+  system: classes-and-specs
+  topic: 'Mage: is AoE leveling still viable on Turtle?'
+  side_a:
+    claim: '"Improved blizzard is heavily nerfed... Its a bit less braindead to aoe level here. But its still entirely
+      possible"; "Mage aoe levelign just as strong here than it is in classic, if not stronger".'
+    sources:
+    - author: Atreidon
+      authority: player
+      date: '2026-02-16'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=168459#p168459
+    - author: amanagor
+      authority: player
+      date: '2026-02-25'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=169382#p169382
+  side_b:
+    claim: '"Mage''s AoE farming has been trashed to shit on TWoW"; "With the current nerfs, it''s not a good aoe
+      class anymore while leveling".'
+    sources:
+    - author: Eluaria
+      authority: player
+      date: '2026-03-20'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=171410#p171410
+    - author: Weirdyunus
+      authority: player
+      date: '2025-02-20'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=120499#p120499
+  what_would_settle_it: Improved Blizzard / Blizzard and Cone of Cold values and any mob-count damage falloff in
+    1.18.1 spell data.
+  assessment: Contested; the middle position (possible but slower, dependent on Cone of Cold) has the most support.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0057
+  system: classes-and-specs
+  topic: 'Priest: is Smite (Discipline damage) raid-viable?'
+  side_a:
+    claim: '"Smite is raid viable ... your raid won''t wipe just because you''re doing suboptimal damage"; a player
+      reports keeping top 3 in MC with a fresh smiter.'
+    sources:
+    - author: Bigsmerf
+      authority: player
+      date: '2025-06-19'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=136250#p136250
+    - author: Kerenis
+      authority: player
+      date: '2025-10-03'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=154132#p154132
+  side_b:
+    claim: '"Smite is a pure meme spec forced by redditors ... smite does not do anything for the group or raid".'
+    sources:
+    - author: Terrydavis
+      authority: player
+      date: '2025-08-06'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=143427#p143427
+  what_would_settle_it: 'Not settleable from data. Staff position on the tree''s design: "we''re very happy with
+    the flavor of our Discipline tree".'
+  assessment: Contested; staff endorse the tree's design without claiming raid parity.
+  status: unresolved
+  check_against_local_game_data: false
+- id: CON-0058
+  system: classes-and-specs
+  topic: 'Priest: spell hit / penetration target (3% vs 4%)'
+  side_a:
+    claim: Players in the same thread give 3% as the working figure.
+    sources:
+    - author: Zvyrhol
+      authority: player
+      date: '2024-10-06'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=102656#p102656
+  side_b:
+    claim: Others give 4%.
+    sources:
+    - author: Heroclastus
+      authority: player
+      date: '2024-10-08'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=102752#p102752
+    - author: Grizb37
+      authority: player
+      date: '2024-10-10'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=102861#p102861
+  what_would_settle_it: Base spell miss chance against a level-63 target in the 1.18.1 combat formulas — a single
+    constant.
+  assessment: Unresolved in the forum; one of the cheapest checks on a local server.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0059
+  system: classes-and-specs
+  topic: 'Priest: is the T3.5 healer set an upgrade?'
+  side_a:
+    claim: '"3-Piece ''Regen'' Bonus: Pay 300+ mana to get 48 mana back ... We''re forced to wear T2 3-piece + junk
+      Naxx rings/necks".'
+    sources:
+    - author: Solaire0726
+      authority: player
+      date: '2025-08-01'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=142435#p142435
+  side_b:
+    claim: Another healer defends the set as a situational "flash heal set", an extra tool rather than a replacement.
+    sources:
+    - author: Maxitaxii
+      authority: player
+      date: '2025-04-24'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=128268#p128268
+  what_would_settle_it: Set-bonus spell effects and mana numbers for priest T2 / T2.5 / T3.5 in 1.18.1 item and
+    spell data.
+  assessment: Contested; the 1.18.1 rework changed the bonuses again, so both posts are pre-rework.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0060
+  system: classes-and-specs
+  topic: 'Rogue: Combat vs Assassination as the raid spec'
+  side_a:
+    claim: '"AQ + gear Combat backstab spec"; post-1.18.1 "Go COMBAT u n00bs, and learn rotations"; "Combat is actually
+      still stronger than assass. Somehow".'
+    sources:
+    - author: Grizb37
+      authority: player
+      date: '2025-11-03'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=158295#p158295
+    - author: Mdzielak
+      authority: player
+      date: '2026-03-21'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=171653#p171653
+    - author: Bigsmerf
+      authority: player
+      date: '2025-05-11'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=130645#p130645
+  side_b:
+    claim: '"combat is not harder or more complex ... combat rogue has been overplayed for years".'
+    sources:
+    - author: Thesuperwitch
+      authority: player
+      date: '2026-03-27'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=172799#p172799
+  what_would_settle_it: Not settleable from data; depends on gear level and the 1.18.1 poison scaling cuts.
+  assessment: 'Contested, gear-dependent: Combat favoured at high gear, Assassination competitive below it.'
+  status: unresolved
+  check_against_local_game_data: false
+- id: CON-0061
+  system: classes-and-specs
+  topic: 'Rogue: are rogues overpowered in PvP after 1.18.0?'
+  side_a:
+    claim: '"Rogues are totally broken atm"; post-1.18.1 "No rogue nerf yet? ... A plain -30% damage should be ok".'
+    sources:
+    - author: Aristany
+      authority: player
+      date: '2025-10-21'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=156423#p156423
+    - author: Manolothegreat
+      authority: player
+      date: '2026-04-01'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=173527#p173527
+  side_b:
+    claim: Rogues answer that instant poison is simply the better option and that the real killers are hemo/prep
+      players, not poison rogues.
+    sources:
+    - author: Crake
+      authority: player
+      date: '2025-10-05'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=154534#p154534
+  what_would_settle_it: Poison coefficients, the 1.18.1 low-rank poison scaling cut, Noxious Assault 30% AP and
+    the PvP dampening values in 1.18.1 data.
+  assessment: Contested; staff acted on the complaint side in 1.18.1 without stating a verdict.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0062
+  system: classes-and-specs
+  topic: 'Hunter: is Beast Mastery good after Class Changes 3?'
+  side_a:
+    claim: '"BM doesn''t feel very fun to play this patch. Awkward gameplay, very mana hungry and damage is average";
+      "I dont even think the spec can match MM numbers ... with the current spirit bond scaling".'
+    sources:
+    - author: SvenS2
+      authority: player
+      date: '2025-08-22'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=147656#p147656
+    - author: Jiav
+      authority: player
+      date: '2025-08-18'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=146762#p146762
+  side_b:
+    claim: '"it is the best Hunter talent tree by far nowadays but tough to start playing decent"; "a lot of BM
+      hunters perform very badly due of them rarely using baited shot".'
+    sources:
+    - author: Skurridizo
+      authority: player
+      date: '2025-09-18'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=152203#p152203
+    - author: Nalos
+      authority: player
+      date: '2025-11-23'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=160458#p160458
+  what_would_settle_it: Pet scaling coefficients (Spirit Bond, Kill Command, Baited Shot) in 1.18.1 spell data.
+  assessment: Contested; the disagreement is partly about play skill, partly about scaling.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0063
+  system: classes-and-specs
+  topic: 'Hunter pets: Claw vs Bite'
+  side_a:
+    claim: Bite is stronger per focus with a cooldown; Claw is weak but spammable; both on a cat measured 124 ->
+      139 DPS on a dummy over one minute.
+    sources:
+    - author: Atreidon
+      authority: player
+      date: '2026-03-25'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=172305#p172305
+    - author: Glavorli
+      authority: player
+      date: '2022-11-01'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=28237#p28237
+  side_b:
+    claim: '"claw will focus-starve pet & result in possible missed/delayed poison stack applications"; "bite>claw,
+      because the focus remains on other skills with the same dps".'
+    sources:
+    - author: Daoc2001
+      authority: player
+      date: '2026-03-25'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=172391#p172391
+    - author: Ahinevich
+      authority: player
+      date: '2026-03-26'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=172621#p172621
+  what_would_settle_it: Focus costs/regeneration and the damage coefficients of Claw and Bite in 1.18.1 pet spell
+    data.
+  assessment: 'Reconcilable: Claw adds DPS only when the pet has no other focus spender. Both sides are right for
+    different pet families.'
+  status: reconciled
+  check_against_local_game_data: true
+- id: CON-0064
+  system: classes-and-specs
+  topic: 'Warlock: is Dark Harvest a DPS gain?'
+  side_a:
+    claim: Measured "with drain soul + dots dps 8-10% more than with darkharvest+dots"; "not using Dark Harvest
+      makes you deal more dmg in the long run".
+    sources:
+    - author: Akarui
+      authority: player
+      date: '2025-09-27'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=153453#p153453
+    - author: Horcos
+      authority: player
+      date: '2025-10-16'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=155815#p155815
+  side_b:
+    claim: A 2026 player reports 450 DPS "as a Dark harvest affliction warlock", and the same measurer had the opposite
+      result before Class Changes 3.
+    sources:
+    - author: Guiltyhaomarush
+      authority: player
+      date: '2026-02-14'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=168196#p168196
+  what_would_settle_it: Dark Harvest channel damage and the CC3 Destruction talent that changed the comparison,
+    in 1.18.1 spell data.
+  assessment: 'Era-dependent rather than contradictory: the answer flipped with Class Changes 3. Skip on bosses
+    unless an uninterrupted channel is guaranteed.'
+  status: era-dependent
+  check_against_local_game_data: true
+- id: CON-0065
+  system: classes-and-specs
+  topic: 'Warlock: did Class Changes 2 nerf SM/Ruin?'
+  side_a:
+    claim: Top parsers "could previously crack the top 5 in their raid's meters. Now they cannot crack the top 10".
+    sources:
+    - author: Delalama
+      authority: player
+      date: '2024-11-11'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=107592#p107592
+  side_b:
+    claim: '"Warlock changelog doesn''t have much nerfs ... Only difference that matter for SM/Ruin is rework of
+      Improved Shadowbolt".'
+    sources:
+    - author: Xudo
+      authority: player
+      date: '2024-11-13'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=107785#p107785
+  what_would_settle_it: Improved Shadowbolt's pre/post-CC2 effect in spell data (only the post state is checkable
+    locally).
+  assessment: 'By 2026 the complaint side is the consensus: "SM/Ruin ... is just in a terrible spot right now".'
+  status: resolved-later
+  check_against_local_game_data: true
+- id: CON-0066
+  system: classes-and-specs
+  topic: 'Shaman: Windfury Totem vs Grace of Air for a bear tank''s group'
+  side_a:
+    claim: Drop Grace of Air instead of Windfury for hunter/druid/tank groups.
+    sources:
+    - author: Mimiwarmini
+      authority: player
+      date: '2026-02-12'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=168008#p168008
+  side_b:
+    claim: Bears prefer Windfury for the extra rage.
+    sources:
+    - author: Elesion
+      authority: player
+      date: '2026-02-12'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=168045#p168045
+  what_would_settle_it: Rage generation per Windfury proc and the current Windfury/Grace of Air totem values in
+    1.18.1.
+  assessment: Unresolved; a small, checkable numbers question.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0067
+  system: classes-and-specs
+  topic: 'Paladin: does Holy Might apply at the raid buff cap?'
+  side_a:
+    claim: Raid buffs plus consumables plus Zeal/Holy Might/Vengeance exceed the visible 32-slot cap and Holy Might
+      does not apply.
+    sources:
+    - author: Cheruscan
+      authority: player
+      date: '2026-03-12'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=170658#p170658
+  side_b:
+    claim: The buffs work but are hidden past the cap; buff-texture macros break, timers do not.
+    sources:
+    - author: Ellifta
+      authority: player
+      date: '2026-03-12'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=170694#p170694
+  what_would_settle_it: 'Aura-slot limit handling in the 1.18.1 server: are auras past the visible cap still active?'
+  assessment: Unresolved between two well-informed players; a decisive server-side check.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0068
+  system: spells-and-mechanics
+  topic: 'Master Strike (Mace) disorient: does damage break it?'
+  side_a:
+    claim: 'Hotfix line: "Master Strike (Mace) disorient effect is now cancelled by damage as intended".'
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2025-10-14'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=155594#p155594
+  side_b:
+    claim: '"Still not canceled by damage, great"; and, testing it: "You can literally test it with your warrior...
+      the disorient still doesnt break from damage. So the ''fix'' didnt do anything".'
+    sources:
+    - author: Purecek
+      authority: player
+      date: '2025-10-18'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=156039#p156039
+    - author: Darkhann
+      authority: player
+      date: '2025-10-21'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=156401#p156401
+  side_c:
+    claim: 'A third player reports the opposite — the fix works and is now too strong: "It does. And needs revert
+      because it''s useless now. Master strike immediately breaking by own warriors bleeds".'
+    sources:
+    - author: Aristany
+      authority: player
+      date: '2025-10-21'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=156399#p156399
+  what_would_settle_it: Aura interrupt flags on the Master Strike (Mace) disorient in 1.18.1 spell data — one field
+    decides it.
+  assessment: Unresolved; the two player reports are directly incompatible, which usually means a rank/weapon-type-specific
+    spell was missed by the fix.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0069
+  system: spells-and-mechanics
+  topic: 'Baited Shot and Coordinated Assault: fixed twice, still reported broken'
+  side_a:
+    claim: '"Fixed issues when Baited Shot did not trigger from Coordinated Assault or spell crits" (2025-10-05)
+      and "Critical damage from Coordinated Assault can now enable the ability Baited Shot" (2025-10-14).'
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2025-10-05'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=154470#p154470
+    - author: Torta
+      authority: staff
+      date: '2025-10-14'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=155594#p155594
+  side_b:
+    claim: '"Still bugged. There is still 0 interaction between baited shot and coordinated assault"; "Kill Command
+      / Coordinated Assault interaction is buggy since the rework from over 2 Months ago".'
+    sources:
+    - author: Felixo1
+      authority: player
+      date: '2025-10-28'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=157596#p157596
+    - author: Kerbees
+      authority: player
+      date: '2025-10-30'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=157860#p157860
+  what_would_settle_it: 'Proc chain: does Coordinated Assault''s pet attack carry the crit flag that Baited Shot
+    listens for, in 1.18.1 spell data?'
+  assessment: Unresolved; two staff fix lines and player denial after both. High-value regression test.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0070
+  system: spells-and-mechanics
+  topic: 'Paladin talent Ironclad: missing heal or missing display?'
+  side_a:
+    claim: '"Paladin talent ''Ironclad'' still not working. Missing 136+ Heal".'
+    sources:
+    - author: Hardcorblade
+      authority: player
+      date: '2026-03-24'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=172199#p172199
+  side_b:
+    claim: '"It''s working, just not showing up on your advanced char sheet addon" — with a described unlearn/relearn
+      test.'
+    sources:
+    - author: Osmose85
+      authority: player
+      date: '2026-03-24'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=172204#p172204
+  what_would_settle_it: Ironclad's talent effect and whether it feeds the character-sheet healing field in 1.18.1.
+  assessment: Unresolved (issue ISS-0029); most likely a UI/addon reporting gap, but untested in the corpus.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0071
+  system: spells-and-mechanics
+  topic: 'Warrior One-Handed Weapon Specialization: abilities or auto-attacks only?'
+  side_a:
+    claim: The talent only increases auto-attack damage, not ability damage — reported as "still not working as
+      intended".
+    sources:
+    - author: Eyeburn
+      authority: player
+      date: '2026-02-24'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=169310#p169310
+  side_b:
+    claim: The tooltip only promises one-handed weapon damage, so the behaviour may match the text.
+    sources:
+    - author: Magicknight
+      authority: player
+      date: '2026-02-24'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=169327#p169327
+  what_would_settle_it: 'The talent''s spell modifier mask in 1.18.1: which spell families it applies to.'
+  assessment: Unresolved after a 36-post thread with no staff statement (ISS-0025).
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0072
+  system: spells-and-mechanics
+  topic: 'Thunderfury: does the chain hit damage secondary targets?'
+  side_a:
+    claim: On Turtle the proc damages the main target only; the jumps apply the debuff.
+    sources:
+    - author: Atreidon
+      authority: player
+      date: '2025-10-24'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=156891#p156891
+  side_b:
+    claim: Contested in the same thread; no staff statement exists either way.
+    sources:
+    - author: Atreidon
+      authority: player
+      date: '2025-10-24'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=156891#p156891
+  what_would_settle_it: Thunderfury's proc spell effects in 1.18.1 spell data.
+  assessment: Player consensus only (ISS-0114). Treat as intended Turtle behaviour until the spell data says otherwise.
+  status: player-consensus
+  check_against_local_game_data: true
+- id: CON-0073
+  system: spells-and-mechanics
+  topic: Holy Strike healing behaviour after the March 2026 fixes
+  side_a:
+    claim: It heals full-health targets and the party only.
+    sources:
+    - author: Andant
+      authority: player
+      date: '2026-03-28'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=172826#p172826
+  side_b:
+    claim: It heals the closest four targets, not strictly the party.
+    sources:
+    - author: Eroh
+      authority: player
+      date: '2026-04-08'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=174397#p174397
+  what_would_settle_it: Holy Strike's heal effect target selection in 1.18.1; the hotfix says "no longer heals more
+    targets than intended" without stating the intended count.
+  assessment: Unresolved — the intended target count is undocumented (ISS-0027).
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0074
+  system: spells-and-mechanics
+  topic: 'Shaman Tier 1 set bonus with Chain Heal: intended or broken?'
+  side_a:
+    claim: '"That interaction is intended. As was said by a green name."'
+    sources:
+    - author: Jamey
+      authority: staff
+      date: '2026-01-23'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=166084#p166084
+  side_b:
+    claim: A player still calls Chain Heal "broken" three weeks later in the itemization thread.
+    sources:
+    - author: Roninm
+      authority: player
+      date: '2026-02-15'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=168341#p168341
+  what_would_settle_it: Shaman T1 set-bonus spell and its Chain Heal interaction in 1.18.1 data.
+  assessment: 'Staff intent outranks the player claim: reproduce the interaction, do not ''fix'' it (ISS-0111).'
+  status: staff-intended
+  check_against_local_game_data: true
+- id: CON-0075
+  system: spells-and-mechanics
+  topic: Queued next-melee abilities cancelled by rage loss
+  side_a:
+    claim: 'Change: queued next-melee abilities are interrupted if power drops below their cost after queueing.'
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2025-11-25'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=160700#p160700
+  side_b:
+    claim: '"This is a pretty bad change that I don''t see any upside to" — including the Clearcasting case where
+      the queued ability would cost 0.'
+    sources:
+    - author: Elesion
+      authority: player
+      date: '2025-11-26'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=160845#p160845
+  what_would_settle_it: Whether the queue check re-evaluates cost modifiers (Clearcasting / Omen of Clarity) at
+    release time.
+  assessment: The design is staff-intended; the Clearcasting interaction is a plausible bug inside it and was never
+    answered.
+  status: staff-intended-with-open-edge-case
+  check_against_local_game_data: true
+- id: CON-0076
+  system: pvp-and-honor
+  topic: 'Honor cut to 10%: "purely a visual change" vs player compensation reports'
+  side_a:
+    claim: '"As some Players were gaining hundreds of thousands of Honor a week the above change is simply to keep
+      numbers in line and purely a visual change" — costs were rescaled to match.'
+    sources:
+    - author: Jamey
+      authority: staff
+      date: '2026-03-02'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=169701#p169701
+  side_b:
+    claim: Players report the one-time bonus as inadequate (R10 ~30k, R13 ~60k, R14 ~98k) against set prices of
+      T1 ~5-6k and T2 ~22k per piece, and entry weapons raised by ~10k honor without a note.
+    sources:
+    - author: Gnomeoperative
+      authority: player
+      date: '2026-03-23'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=171910#p171910
+    - author: amanagor
+      authority: player
+      date: '2026-03-23'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=171915#p171915
+    - author: Saronsen
+      authority: player
+      date: '2026-03-29'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=172996#p172996
+  what_would_settle_it: Vendor prices and honor award values in the 1.18.1 data, compared against the pre-patch
+    values.
+  assessment: 'Both can be true: the ratio may be preserved while the one-time conversion is not. Unresolved in
+    the corpus; all player numbers are unconfirmed.'
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0077
+  system: pvp-and-honor
+  topic: 'World PvP events and PvP vendors: did they go live?'
+  side_a:
+    claim: Gear vendors, Conquest Points, Redwall Keep and Southshore vs Tarren Mill events were "set to go live
+      shortly after the release".
+    sources:
+    - author: Jamey
+      authority: staff
+      date: '2026-03-02'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=169701#p169701
+  side_b:
+    claim: Players report the vendor missing on release day and are still asking for the world events on 2026-04-15.
+    sources:
+    - author: Bootwin
+      authority: player
+      date: '2026-03-21'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=171626#p171626
+    - author: amanagor
+      authority: player
+      date: '2026-03-31'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=173504#p173504
+    - author: Gramrock
+      authority: player
+      date: '2026-04-15'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=175348#p175348
+  what_would_settle_it: Presence of the event scripts/NPCs and the PvP vendor inventories in the 1.18.1 world data.
+  assessment: 'Unresolved: no staff post confirms a go-live date. The vendors appear to have arrived days after
+    release; the world events may never have shipped.'
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0078
+  system: pvp-and-honor
+  topic: Rank decay cannot drop a rank vs Rank 14 players dropped to rank 0
+  side_a:
+    claim: 'Documented design: rating points decay weekly but cannot drop a player a rank.'
+    sources:
+    - author: Akalix
+      authority: staff
+      date: '2023-10-01'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=67818#p67818
+    - author: Jamey
+      authority: staff
+      date: '2026-03-02'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=169701#p169701
+  side_b:
+    claim: 'Post-1.18.1 players report losing the rank and title outright: rank shows 0 while "highest rank" is
+      still listed; others report being de-ranked "for no reason".'
+    sources:
+    - author: Darkconfidant
+      authority: player
+      date: '2026-03-30'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=173113#p173113
+    - author: Xerony
+      authority: player
+      date: '2026-03-31'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=173497#p173497
+    - author: Leilar
+      authority: player
+      date: '2026-04-18'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=175607#p175607
+  what_would_settle_it: 'The weekly flush routine: does it clamp to the rank minimum, and how are legacy ranks migrated
+    to the new system?'
+  assessment: Contradicts the documented design (ISS-0084); most likely a migration bug at the old-to-new honor
+    system switch. Unresolved.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0079
+  system: pvp-and-honor
+  topic: 'Weekly honor decay: documented decay vs "the bar shrinks the more I play"'
+  side_a:
+    claim: A player reports the honor bar shrinking the more battlegrounds are played, over more than a week of
+      heavy play.
+    sources:
+    - author: Debelijajcevod
+      authority: player
+      date: '2026-04-01'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=173655#p173655
+  side_b:
+    claim: Another player explains that ~30% of the bar is lost on Wednesdays, i.e. the documented weekly decay.
+    sources:
+    - author: Mdzielak
+      authority: player
+      date: '2026-03-30'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=173116#p173116
+  what_would_settle_it: Decay percentage and its trigger in the 1.18.1 honor code.
+  assessment: Partly explained by the documented decay; the reporter insists it continues beyond it (ISS-0086).
+    Unresolved.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0080
+  system: pvp-and-honor
+  topic: 'Dishonorable Kills: removed, re-enabled, still disabled'
+  side_a:
+    claim: DHKs removed "pending a larger scale rework" (2023-12-10); two days later "Dishonorable kills will now
+      be given for killing players that are grey to you".
+    sources:
+    - author: Akalix
+      authority: staff
+      date: '2023-12-10'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=80586#p80586
+    - author: Torta
+      authority: staff
+      date: '2023-12-12'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=80839#p80839
+  side_b:
+    claim: '"The DHKs are still disabled" (2024-01-16).'
+    sources:
+    - author: Akalix
+      authority: staff
+      date: '2024-01-16'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=84944#p84944
+  what_would_settle_it: Is dishonorable-kill handling enabled in the 1.18.1 PvP code, and does killing a grey-level
+    player award one?
+  assessment: Contested between three staff posts inside five weeks; the state as of 1.18.x is unknown from this
+    corpus.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0081
+  system: pvp-and-honor
+  topic: Are battleground terrain exploits fixed or tolerated?
+  side_a:
+    claim: 'Players report the Warsong Gulch roof/graveyard jumps and an Alterac Valley backdoor as still abused:
+      "Still abused, still not fixed... bump!"'
+    sources:
+    - author: Zvyrhol
+      authority: player
+      date: '2026-01-24'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=166328#p166328
+  side_b:
+    claim: 'The same players doubt the patch notes: "Don''t believe in everything devs say on forum. Some patch
+      notes say that Sunnyglade Valley gives 3x or 1x marks after each game ends even though it''s not true."'
+    sources:
+    - author: Zvyrhol
+      authority: player
+      date: '2025-12-10'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=162323#p162323
+  what_would_settle_it: Collision/terrain data at the named Warsong Gulch spots and the AV entrance, plus the Sunnyglade
+    Valley mark reward values.
+  assessment: Unresolved; no staff reply in the extraction. The mark-reward claim is a direct, checkable accusation
+    that a patch note does not match the server.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0082
+  system: pvp-and-honor
+  topic: 'PvP dampening: announced per class/spec but never published'
+  side_a:
+    claim: Class-dependent dampening is described as a design tool; numbers promised "at a later date".
+    sources:
+    - author: Jamey
+      authority: staff
+      date: '2026-01-23'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+    - author: Jamey
+      authority: staff
+      date: '2026-03-02'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=169701#p169701
+  side_b:
+    claim: Players report effects they cannot verify — e.g. "BM pets aren't affected by dampening" — with no published
+      values to check against.
+    sources:
+    - author: M0thra
+      authority: player
+      date: '2026-03-20'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=171435#p171435
+  what_would_settle_it: The dampening table itself in 1.18.1 server data, per class and spec, and whether pet damage
+    is included.
+  assessment: 'Unresolved by definition: the corpus contains no numbers. The single highest-value item to dump from
+    local data.'
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0083
+  system: pvp-and-honor
+  topic: 'New PvP sets: power level'
+  side_a:
+    claim: The itemization changelog presents the 1.18.1 PvP sets as the new rank reward tier.
+    sources:
+    - author: Dragunovi
+      authority: staff
+      date: '2026-02-15'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  side_b:
+    claim: Players call the sets "utter garbage compared to PVE gear sets" and report the warlock set losing 10%
+      Soul Link and having low armor.
+    sources:
+    - author: Moomoobro
+      authority: player
+      date: '2026-03-28'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=172842#p172842
+    - author: Brandwacht
+      authority: player
+      date: '2026-04-02'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=173737#p173737
+  what_would_settle_it: Compare PvP set item levels/bonuses with the equivalent PvE tier pieces in 1.18.1 item data.
+  assessment: 'A value judgement over verifiable stats: the stats are checkable, the conclusion is not.'
+  status: design-dispute
+  check_against_local_game_data: true
+- id: CON-0084
+  system: professions-and-gathering
+  topic: 'Tents & Taverns: staff rationale vs player "it is a nerf"'
+  side_a:
+    claim: 'Rested XP moved to taverns worldwide at about the old tent pace; the kill bonus was halved "so XP rate
+      isn''t permanently doubled"; tents keep a partial bonus. Reasons given: immersion and capital-gate tent camps.'
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2026-02-17'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=168639#p168639
+    - author: Torta
+      authority: staff
+      date: '2026-02-17'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=168649#p168649
+  side_b:
+    claim: Players read the same change as a straight nerf to the rested bonus.
+    sources:
+    - author: Hctwowfan
+      authority: player
+      date: '2026-02-17'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=168644#p168644
+    - author: Saronsen
+      authority: player
+      date: '2026-03-31'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=173332#p173332
+  what_would_settle_it: Rested-XP accrual rate in taverns vs tents, the 25% tent cap and the kill-bonus multiplier
+    in 1.18.1 data.
+  assessment: 'Both descriptions are compatible: the bonus rate was halved while access was widened. The factual
+    half is checkable; the value judgement is not.'
+  status: design-dispute
+  check_against_local_game_data: true
+- id: CON-0085
+  system: professions-and-gathering
+  topic: 'Gardening: three new crops or four new seeds?'
+  side_a:
+    claim: '"Three new crops" in specific zones grant powerful buffs when fully grown.'
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2025-10-03'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  side_b:
+    claim: 'A player reads four new seed names off the item database: Wildhammer Yam Roots, Wild Grape Seeds, Ordinary
+      Cabbage Seeds, Sandswept Carrot Seeds.'
+    sources:
+    - author: Sagabal
+      authority: player
+      date: '2026-04-08'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=174505#p174505
+  what_would_settle_it: Count the gardening seed items added in the 1.18.1 item table.
+  assessment: Unresolved; no staff post reconciles the counts. One seed may pre-date 1.18.1.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0086
+  system: professions-and-gathering
+  topic: 'Jewelcrafting trainers: player guide list vs the official page'
+  side_a:
+    claim: A guide lists Apprentice trainers in Stormwind, Ironforge, Orgrimmar, Undercity, Sparkwater Port plus
+      Expert/Artisan trainers.
+    sources:
+    - author: Speedz1337
+      authority: guide writer
+      date: '2024-11-04'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=106310#p106310
+  side_b:
+    claim: The official page implies six cities including an Alliance Alah'Thalas trainer, which the guide omits;
+      no wiki NPC page in the extraction is tagged as a Jewelcrafting trainer.
+    sources:
+    - author: turtlecraft.gg, Jewelcrafting
+      authority: official website
+      date: null
+      url: https://turtlecraft.gg/jewelcrafting
+  what_would_settle_it: Trainer NPCs with the Jewelcrafting trainer flag in the 1.18.1 creature data.
+  assessment: Unresolved; the guide is the only itemized source and is known to be incomplete.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0087
+  system: professions-and-gathering
+  topic: 'Survival profession: shipped as described vs player-reported gaps'
+  side_a:
+    claim: 'Reworked Survival: 80+ new recipes, tools that slow/root/trap, gathering bags and containers.'
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2025-10-03'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  side_b:
+    claim: Players report the Survivalist Skinning Knife being useless (skinning still requires a skinning knife)
+      and Survival recipes showing as "unknown" at the trainer after clearing the cache.
+    sources:
+    - author: Dexday
+      authority: player
+      date: '2026-03-27'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=172785#p172785
+    - author: Deadcrow
+      authority: player
+      date: '2026-04-07'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=174264#p174264
+  what_would_settle_it: Survival recipe list and trainer spell lists in 1.18.1; check whether the Survivalist Skinning
+    Knife carries a skinning-tool flag.
+  assessment: Unresolved; the recipe list was never published, so the player reports cannot be checked against an
+    intended state from the corpus alone.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0088
+  system: items-and-itemization
+  topic: Rogue Tier 3.5 five-piece proc rate (15% measured vs 20% stated)
+  side_a:
+    claim: The set bonus states 20%.
+    sources:
+    - author: Dragunovi
+      authority: staff
+      date: '2026-02-15'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  side_b:
+    claim: A player measures ~15% over a long sample and asks whether it is a stealth nerf or a bug; no staff reply.
+    sources:
+    - author: Hcyd
+      authority: player
+      date: '2026-03-26'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=172499#p172499
+  what_would_settle_it: Proc chance field on the rogue T3.5 5-piece bonus spell in 1.18.1.
+  assessment: Unresolved (ISS-0052); a single field settles it.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0089
+  system: items-and-itemization
+  topic: '"Lionheart Helmet" in the 1.18.0 itemization post is not the warrior helm'
+  side_a:
+    claim: The 1.18.0 itemization changelog lists a Lionheart Helmet stamina change, read by players as the classic
+      warrior craft.
+    sources:
+    - author: Dragunovi
+      authority: staff
+      date: '2025-06-30'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=137624#p137624
+  side_b:
+    claim: In context the entry belongs to the Paladin T3.5 set, not the vanilla warrior helm.
+    sources:
+    - author: synthesis/classes/warrior/README.md
+      authority: community wiki
+      date: null
+      url: synthesis/classes/warrior/README.md
+  what_would_settle_it: 'Item ids: look up both names in the 1.18.1 item table.'
+  assessment: A naming collision, not a source conflict, but it has already produced wrong guide advice. Check the
+    id before quoting.
+  status: naming-collision
+  check_against_local_game_data: true
+- id: CON-0090
+  system: items-and-itemization
+  topic: Steel belt buckle enchant not shown on the item
+  side_a:
+    claim: A player reports the enchant is applied but appears neither on the item nor in the stat sheet.
+    sources:
+    - author: Zero37
+      authority: player
+      date: '2025-12-12'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=162542#p162542
+  side_b:
+    claim: No staff reply; the reporter plays on the SEA realm with a Chinese client, so a localization/display
+      cause is possible.
+    sources:
+    - author: structured/issues.yaml ISS-0055
+      authority: community wiki
+      date: null
+      url: structured/issues.yaml
+  what_would_settle_it: Whether the belt-buckle enchant writes a visible enchantment slot in 1.18.1, and whether
+    the stat applies.
+  assessment: Unresolved (ISS-0055); likely a display issue, untested.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0091
+  system: world-quests-and-factions
+  topic: 'Durotar Labor Union rocket cars: race-locked or open at Exalted?'
+  side_a:
+    claim: A Troll at Exalted could not buy the rocket cars; players asked for them to be opened to all Horde races
+      while keeping the shredder Goblin-only.
+    sources:
+    - author: Freshfunman
+      authority: player
+      date: '2024-02-23'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=88547#p88547
+    - author: Grizb37
+      authority: player
+      date: '2024-02-26'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=88804#p88804
+  side_b:
+    claim: The wiki says "In return for exalted reputation, non-goblin players are able to ride rocket cars".
+    sources:
+    - author: Durotar Labor Union
+      authority: community wiki
+      date: '2025-12-15'
+      url: https://turtle-wow.fandom.com/wiki/Durotar_Labor_Union
+  what_would_settle_it: Race requirement on the rocket-car mount items / vendor conditions in 1.18.1.
+  assessment: Unresolved; the player report is 2024-02 and the wiki revision 2025-12, so the wiki may describe a
+    later state.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0092
+  system: world-quests-and-factions
+  topic: 'Dalaran reputation: repeatable turn-ins exist?'
+  side_a:
+    claim: '2023 players: the Alterac grind quests "bugged and aren''t repeatable yet"; "You can''t get revered
+      with dalaran yet, no repeatable quest exists".'
+    sources:
+    - author: Aeliren
+      authority: player
+      date: '2023-02-28'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=36344#p36344
+    - author: Geojak
+      authority: player
+      date: '2023-07-26'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=54708#p54708
+  side_b:
+    claim: The wiki lists four repeatable enchanting-material turn-ins (Greater Mystic Essence 75, Small Radiant
+      Shard 100, Large Brilliant Shard 200, Nexus Crystal 500).
+    sources:
+    - author: Dalaran (faction)
+      authority: community wiki
+      date: null
+      url: https://turtle-wow.fandom.com/wiki/Dalaran_(faction)
+  what_would_settle_it: Repeatable flags on the Dalaran turn-in quests in 1.18.1 quest data.
+  assessment: Probably a time difference (2023 posts vs a later wiki state) rather than an error, but no dated staff
+    statement resolves it.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0093
+  system: world-quests-and-factions
+  topic: 'Custom zone level ranges: official site vs wiki'
+  side_a:
+    claim: 'Official ranges: Blackstone Island 1-16, Thalassian Highlands 15-20 (1-10 High Elf start), Hyjal 56-60.'
+    sources:
+    - author: turtlecraft.gg, New Locations & Maps
+      authority: official website
+      date: null
+      url: https://turtlecraft.gg/new-locations-and-maps
+  side_b:
+    claim: 'Wiki ranges for the same zones: 1-10, 1-10 and 58-60.'
+    sources:
+    - author: Blackstone Island
+      authority: community wiki
+      date: null
+      url: https://turtle-wow.fandom.com/wiki/Blackstone_Island
+    - author: Thalassian Highlands
+      authority: community wiki
+      date: null
+      url: https://turtle-wow.fandom.com/wiki/Thalassian_Highlands
+  what_would_settle_it: Zone level ranges in AreaTable.dbc plus the actual level spread of quests and creatures
+    in each zone.
+  assessment: Unresolved; both figures are reproduced in the zone document. The creature level spread on a local
+    server settles it in minutes.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0094
+  system: world-quests-and-factions
+  topic: 'Almaudrak''s Heart quest drop: bug or not reproducible?'
+  side_a:
+    claim: The elite drops no quest item, so the Desolace quest cannot be completed.
+    sources:
+    - author: Kanto123
+      authority: player
+      date: '2025-10-05'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=154515#p154515
+  side_b:
+    claim: Staff could not reproduce it — "I was able to loot Almaudrak's Heart" — and suggested addon interference
+      or a visual glitch.
+    sources:
+    - author: Sleeptime
+      authority: staff
+      date: '2025-10-06'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=154544#p154544
+  what_would_settle_it: Almaudrak's loot template and the quest-item condition in 1.18.1.
+  assessment: Unresolved (ISS-0001); staff denial versus a single player report.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0095
+  system: world-quests-and-factions
+  topic: 'Ambershire: content reachable ahead of its phase, then rolled back'
+  side_a:
+    claim: Players report Field Duty and Tier 0.5 content reachable before its phase, and a subsequent rollback.
+    sources:
+    - author: Imme
+      authority: player
+      date: '2025-11-26'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=160729#p160729
+    - author: Afokten
+      authority: player
+      date: '2025-11-26'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=160801#p160801
+  side_b:
+    claim: No staff post announcing either the availability or the rollback appears in the extraction.
+    sources:
+    - author: structured/issues.yaml ISS-0118
+      authority: community wiki
+      date: null
+      url: structured/issues.yaml
+  what_would_settle_it: Phase gating on the quest givers involved, per realm, in the 1.18.1 data.
+  assessment: Unresolved (ISS-0118); relevant to any fresh-realm setup because phase gating must match the realm's
+    content phase.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0096
+  system: world-quests-and-factions
+  topic: 'Ronae''Thalas: shipped zone with an undocumented level range'
+  side_a:
+    claim: The zone shipped with patch 1.18.0 but its questline scope was "still in progress" in the announcement.
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2025-02-22'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  side_b:
+    claim: No wiki page and no later changelog entry state its level range; it was earlier announced for 1.17.0
+      and then "in one of the upcoming patches".
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2023-01-21'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  what_would_settle_it: AreaTable entry and creature/quest level spread for Ronae'Thalas on the local server.
+  assessment: Unresolved as documentation; trivially answerable from local data.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0097
+  system: client-ui-and-server
+  topic: 'Server time: fixed on 2025-12-24 or still wrong?'
+  side_a:
+    claim: '"Server time will now be consistent for all players (except on Kalimdor where it is offset by 12 hours)
+      and won''t change when you relog".'
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2025-12-23'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=163576#p163576
+  side_b:
+    claim: 'Two days later: "Even after the December 24 maintenance, which claimed that the server time had been
+      fixed, it''s still not working as intended. Even the cycles are out of whack".'
+    sources:
+    - author: Lirithiel
+      authority: player
+      date: '2025-12-25'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=163713#p163713
+  what_would_settle_it: Time source and the per-continent offset in the 1.18.1 server; check the day/night cycle
+    driver separately from the clock.
+  assessment: Unresolved; the deliberate 12-hour Kalimdor offset makes player reports hard to read, which is itself
+    part of the problem.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0098
+  system: client-ui-and-server
+  topic: 'In-game clock running at double speed: intended or a bug?'
+  side_a:
+    claim: A player relays that his tracker report was closed as an intentional change; only the per-player divergence
+      was called a bug.
+    sources:
+    - author: Pizzayo
+      authority: player
+      date: '2025-12-19'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=163303#p163303
+  side_b:
+    claim: No staff forum post says so; players continued to report the doubled cycle as broken.
+    sources:
+    - author: Lirithiel
+      authority: player
+      date: '2025-12-25'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=163713#p163713
+  what_would_settle_it: Game-time multiplier constant on the 1.18.1 server.
+  assessment: Player-relayed staff intent only (ISS-0109). Treat the double-speed clock as intended and the per-player
+    divergence as the defect.
+  status: player-relayed
+  check_against_local_game_data: true
+- id: CON-0099
+  system: client-ui-and-server
+  topic: 'Gadgetzan / Slickwick Oil Rig flight path: fixed or still broken?'
+  side_a:
+    claim: Fix listed 2025-11-25; challenged a week later, staff answered "This was fixed two weeks ago, are you
+      sure it's still broken?"
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2025-11-25'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=160700#p160700
+    - author: Torta
+      authority: staff
+      date: '2025-12-03'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=161457#p161457
+  side_b:
+    claim: 'A player confirms that route is fixed but reports another one still clipping: Freewind Post to Camp
+      Mojache "still bumps and clips into the new Night Elf buildings at Camp E''thok".'
+    sources:
+    - author: Sagabal
+      authority: player
+      date: '2025-12-06'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=161776#p161776
+  what_would_settle_it: Taxi path node heights for both routes in 1.18.1.
+  assessment: Resolved for the reported route, open for a neighbouring one — a good example of a fix line that does
+    not cover every case.
+  status: partly-resolved
+  check_against_local_game_data: true
+- id: CON-0100
+  system: client-ui-and-server
+  topic: 'Missing or "DEPRECATED" talents and spells: server or client?'
+  side_a:
+    claim: Players report talents and spells appearing missing or marked DEPRECATED after the 1.18.1 client update.
+    sources:
+    - author: Evadeluxe
+      authority: player
+      date: '2026-03-23'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=172007#p172007
+  side_b:
+    claim: '"Talents and spells that appear missing or ''DEPRECATED'' come from custom files in the client /data
+      folder, not from the server".'
+    sources:
+    - author: Pepesmite
+      authority: staff
+      date: '2026-03-22'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=171762#p171762
+  what_would_settle_it: Compare a clean 1.18.1 client (no custom /data, no addons) against a modified one; the server-side
+    talent list is authoritative.
+  assessment: Staff explanation is the better-supported side (ISS-0116); retest client-side reports on a clean client
+    before treating them as server defects.
+  status: staff-explained
+  check_against_local_game_data: true
+- id: CON-0101
+  system: client-ui-and-server
+  topic: Troll priest Shadowguard visible through walls
+  side_a:
+    claim: '"The Troll Priest Shadowguard effect is still visible through walls and terrain... This bug was reported
+      over a year ago, but it''s still not fixed" (tracker id 10302).'
+    sources:
+    - author: Raroro
+      authority: player
+      date: '2026-01-17'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=165479#p165479
+  side_b:
+    claim: An older staff changelog shows Shadowguard being worked on ("Shadowguard can now proc when spell damage
+      is absorbed"), but nothing addresses the visual; the referenced tracker content is not part of this corpus.
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2022-09-11'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=24828#p24828
+  what_would_settle_it: Visibility/attenuation flags on the Shadowguard visual in the client's spell visual data.
+  assessment: Unresolved; client-side visual, and the bug tracker (the real status source) is outside this extraction.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0102
+  system: terminology-and-reading-the-corpus
+  topic: '"CP" means combo points or contribution points'
+  side_a:
+    claim: In PvP threads CP is contribution/combat points contributing to honor standing ("top CP earners").
+    sources:
+    - author: Xerron
+      authority: player
+      date: '2019-08-14'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=3715#p3715
+  side_b:
+    claim: Elsewhere CP is the rogue/feral combo-point resource.
+    sources:
+    - author: synthesis/glossary.md
+      authority: community wiki
+      date: null
+      url: synthesis/glossary.md
+  what_would_settle_it: Not a game-data question; disambiguate by thread context.
+  assessment: Both readings are correct in their own threads. Never resolve CP from the token alone.
+  status: ambiguous-by-design
+  check_against_local_game_data: false
+- id: CON-0103
+  system: terminology-and-reading-the-corpus
+  topic: '"T2.5" / "T3.5" — official tier names or community shorthand?'
+  side_a:
+    claim: Used as if they were shipped tier names for the intermediate sets between T2/T3 and beyond Naxxramas.
+    sources:
+    - author: Tamamo-no-Bae
+      authority: player
+      date: '2019-12-24'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=4697#p4697
+  side_b:
+    claim: Also used as a wishlist term for hypothetical content; no staff post in the corpus states them plainly
+      as official set names.
+    sources:
+    - author: Catasstrophy
+      authority: player
+      date: '2022-02-17'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=17082#p17082
+  what_would_settle_it: 'Item set names in the 1.18.1 item-set table: do the sets carry these names, or only community
+    usage?'
+  assessment: Unresolved as naming; the items themselves exist and are described in the itemization changelogs.
+  status: unresolved
+  check_against_local_game_data: true
+- id: CON-0104
+  system: terminology-and-reading-the-corpus
+  topic: '"Hardcore mode" before and after 2021'
+  side_a:
+    claim: Early posts (2018-2020) use "hardcore mode" for the reduced-XP Slow & Steady challenge.
+    sources:
+    - author: Torta
+      authority: staff
+      date: '2018-10-29'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=990#p990
+  side_b:
+    claim: Later posts use HC for the permadeath mode with its own ecosystem and rules.
+    sources:
+    - author: Akalix
+      authority: staff
+      date: '2023-05-29'
+      url: https://forum.turtlecraft.gg/viewtopic.php?p=47832#p47832
+  what_would_settle_it: Challenge/mode flags on characters in the local data.
+  assessment: 'Resolved by date: read "hardcore" before 2021 as Slow & Steady unless the post says permadeath.'
+  status: reconciled
+  check_against_local_game_data: true
