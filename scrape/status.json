@@ -1,6 +1,6 @@
 {
  "interval_s": 1.0,
- "pending": 982,
+ "pending": 959,
  "sections": {
   "forum-14": {
    "claimed": 0,
@@ -160,9 +160,9 @@
   },
   "forum-70": {
    "claimed": 0,
-   "done": 24,
+   "done": 43,
    "failed": 0,
-   "queued": 19
+   "queued": 0
   },
   "forum-72": {
    "claimed": 0,
@@ -178,15 +178,15 @@
   },
   "forum-74": {
    "claimed": 0,
-   "done": 0,
+   "done": 50,
    "failed": 0,
-   "queued": 2
+   "queued": 1
   },
   "forum-75": {
    "claimed": 0,
-   "done": 0,
+   "done": 25,
    "failed": 0,
-   "queued": 1
+   "queued": 0
   },
   "images": {
    "claimed": 0,
@@ -197,15 +197,15 @@
   "site": {
    "claimed": 0,
    "done": 34,
-   "failed": 0,
-   "queued": 2
+   "failed": 2,
+   "queued": 0
   }
  },
  "total": {
   "claimed": 0,
-  "done": 729,
-  "failed": 0,
-  "queued": 982
+  "done": 823,
+  "failed": 2,
+  "queued": 959
  },
- "ts": "2026-09-10T07:46:34Z"
+ "ts": "2026-09-10T07:51:26Z"
 }
