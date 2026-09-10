@@ -1,6 +1,6 @@
 # Final report: turtlecraft.gg knowledge base
 
-Captured 2026-09-10 (UTC). Turtle WoW's servers closed on 2026-05-15; the website and forums are announced to close on 2026-10-16. Everything below is in this repository; every claim in the synthesis documents links to its source post, page or wiki article, and `python3 scrape/validate.py` confirms all 53,468 citations resolve to archived posts.
+Captured 2026-09-10 (UTC). Turtle WoW's servers closed on 2026-05-15; the website and forums are announced to close on 2026-10-16. Everything below is in this repository; every claim in the synthesis documents links to its source post, page or wiki article, and `python3 scrape/validate.py` confirms all 53,970 citations resolve to archived posts.
 
 ## 1. What was captured
 
