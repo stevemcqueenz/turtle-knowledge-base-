@@ -1,0 +1,120 @@
+class: Shaman
+spec: Enhancement
+role: tank
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102972#p102972", author: Dragunovi, authority: staff, date: "2024-10-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: "2025-07-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139", author: Torta, authority: staff, date: "2026-03-24"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272", author: Dragunovi, authority: staff, date: "2026-02-15"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608", author: Torta, authority: staff, date: "2026-03-21"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875", author: Mimiwarmini, authority: "player (guide writer)", date: "2024-12-02"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=111972#p111972", author: Mimiwarmini, authority: "player (guide writer)", date: "2024-12-10"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=110930#p110930", author: Mimiwarmini, authority: "player (guide writer)", date: "2024-12-02"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171704#p171704", author: Mimiwarmini, authority: "player (guide writer)", date: "2026-03-22"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=107678#p107678", author: Akos1896, authority: player, date: "2024-11-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=117662#p117662", author: Akos1896, authority: player, date: "2025-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=112575#p112575", author: Akos1896, authority: player, date: "2024-12-13"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=111475#p111475", author: Akos1896, authority: player, date: "2024-12-05"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=110890#p110890", author: Akos1896, authority: player, date: "2024-12-02"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=112610#p112610", author: Akos1896, authority: player, date: "2024-12-13"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=112289#p112289", author: Akos1896, authority: player, date: "2024-12-11"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=123022#p123022", author: Akos1896, authority: player, date: "2025-03-19"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149742#p149742", author: Akos1896, authority: player, date: "2025-09-01"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=111623#p111623", author: Akos1896, authority: player, date: "2024-12-06"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715", author: Skegg, authority: "player (guide writer)", date: "2025-09-01"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=110876#p110876", author: amanagor, authority: player, date: "2024-12-02"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=112407#p112407", author: Dezhan, authority: player, date: "2024-12-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=109832#p109832", author: Dezhan, authority: player, date: "2024-11-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=156833#p156833", author: Crabsi, authority: player, date: "2025-10-24"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=113255#p113255", author: J0rsche, authority: player, date: "2024-12-18"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=130226#p130226", author: Azuredrak0, authority: player, date: "2025-05-08"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171660#p171660", author: Travoltino, authority: player, date: "2026-03-21"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=172349#p172349", author: Travoltino, authority: player, date: "2026-03-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=174380#p174380", author: Travoltino, authority: player, date: "2026-04-07"}
+agreement: contested
+patch_validity:
+  written_for: "1.17.2 / 1.18.0 (Class Changes 2 tank talents)"
+  valid_for_1181: false
+  notes: "1.18.1 replaced Elemental Weapons' Rockbiter passive -10% damage taken with Earthen Bulwark (an absorb shield); the Enh T2.5 5-set was reworked to boost it; both are reported bugged/not stacking from special attacks through 2026-04-07. No post-1.18.1 guide update was posted (Mimiwarmini's promised explanation never came). Talent point allocations and the threat rotation are unaffected."
+talents:
+  build_name: "Skegg's dungeon-tank order (24 Enhancement -> 11 Elemental -> 6 Enhancement -> respec 15, consensus with Akos1896)"
+  build_link: "https://talents.turtlecraft.gg/shaman?points=FYAYL-FAVYALFQDIAoB-"
+  points:
+    - {tree: Enhancement, talent: "Shield Specialization", rank: 5, spell_id: null}
+    - {tree: Enhancement, talent: "Totemic Alignment", rank: 2, spell_id: null}
+    - {tree: Enhancement, talent: "Stable Shields", rank: 3, spell_id: null}
+    - {tree: Enhancement, talent: "Ancestral Guardian", rank: 3, spell_id: null}
+    - {tree: Enhancement, talent: "Lightning Strike", rank: 1, spell_id: null}
+    - {tree: Enhancement, talent: "Thundering Strikes", rank: 5, spell_id: null}
+    - {tree: Enhancement, talent: "Spirit Armor", rank: 2, spell_id: null}
+    - {tree: Enhancement, talent: "Elemental Weapons", rank: 3, spell_id: null}
+    - {tree: Enhancement, talent: "Stormstrike", rank: 1, spell_id: null}
+    - {tree: Elemental, talent: Convection, rank: 5, spell_id: null}
+    - {tree: Elemental, talent: Concussion, rank: 2, spell_id: null}
+    - {tree: Elemental, talent: "Elemental Devastation", rank: 3, spell_id: null}
+    - {tree: Elemental, talent: "Elemental Focus", rank: 1, spell_id: null}
+    - {tree: Enhancement, talent: "Element's Grace", rank: 5, spell_id: null}
+    - {tree: Enhancement, talent: "Ancestral Knowledge", rank: 5, spell_id: null}
+    - {tree: Enhancement, talent: Bloodlust, rank: 1, spell_id: null}
+    - {tree: Enhancement, talent: Reverberation, rank: 3, spell_id: null}
+    - {tree: Enhancement, talent: Flurry, rank: 5, spell_id: null}
+    - {tree: Elemental, talent: Concussion, rank: 3, spell_id: null, note: "or Elemental Warding 3 for anti-magic dungeons"}
+  leveling_order:
+    - {level: 10, tree: Enhancement, talent: "Shield Specialization"}
+    - {level: 15, tree: Enhancement, talent: "Totemic Alignment"}
+    - {level: 17, tree: Enhancement, talent: "Stable Shields"}
+    - {level: 20, tree: Enhancement, talent: "Ancestral Guardian"}
+    - {level: 23, tree: Enhancement, talent: "Lightning Strike"}
+    - {level: 24, tree: Enhancement, talent: "Thundering Strikes (1 pt)"}
+    - {level: 26, tree: Enhancement, talent: "Spirit Armor"}
+    - {level: 29, tree: Enhancement, talent: "Thundering Strikes (to 4)"}
+    - {level: 33, tree: Enhancement, talent: "Elemental Weapons"}
+    - {level: 34, tree: Elemental, talent: "Convection (start)"}
+    - {level: 44, tree: Elemental, talent: "Elemental Focus"}
+    - {level: 51, tree: Enhancement, talent: "respec Shield Specialization -> Ancestral Knowledge"}
+stat_weights:
+  tankiness: "Stamina > Agility > Dodge > Defense"
+  threat: "Hit > Agility > Spell Power > Critical > Strength"
+  spell_power: "not negligible; close to AP's gain and useful with Lightning Shield rotation"
+  intellect: "important early for mana control, falls behind agi/str once ranks/downranking are learned"
+caps:
+  physical_hit: "8%"
+  spell_hit: "17% (boss level 63)"
+  weapon_skill: "5 skill = 1% hit"
+  defense: "140 above base (level 63); 1 defense = 0.04% miss/dodge/parry/block and -0.04% crit chance"
+  crush_immunity: "guide's 440 defense target is effectively unreachable (~425 in BiS per Dezhan); crush = 150% damage, 102.4% avoidance needed to push it off"
+  stat_conversions: "1 Str = 2 AP, 20 Str = 1 block value; 20 Agi = 1% crit = 1% dodge, 1 Agi = 2 armor; 1 Sta = 10 HP (10.5 Tauren)"
+rotation_single:
+  - {priority: 1, action: "Pre-pull: Rockbiter on a slow one-hander + shield, Lightning Shield (or Water Shield if mana-constrained), Mana Spring/Healing Stream, Grace of Air/Windfury, Stoneskin/Strength of Earth", condition: "before pull"}
+  - {priority: 2, action: "Pull with Lightning Bolt R1, or max-rank Lightning Bolt x2 / Chain Lightning", condition: "need maximum initial threat"}
+  - {priority: 3, action: "Stormstrike", condition: "first melee action after the pull"}
+  - {priority: 4, action: "Earth Shock (max rank)", condition: "under the Stormstrike buff; use Frost Shock instead if target resists Nature"}
+  - {priority: 5, action: "Lightning Strike", condition: "on cooldown; pick the shield that fits the moment (Lightning Shield = threat, Water Shield = mana, Earth Shield = survival)"}
+  - {priority: 6, action: "Loop Stormstrike -> Earth Shock -> Lightning Strike -> Earth Shock -> refresh shield", condition: "steady state; with Reverberation 3/3 fit a second Earth Shock every other Stormstrike cycle"}
+  - {priority: 7, action: "Downrank shocks or just auto-attack + taunt", condition: "threat is already comfortably ahead of the group"}
+  - {priority: 8, action: "Earthshaker Slam then Earth Shock", condition: "a mob is attacking someone else (taunt); has no effect if the mob is already attacking you"}
+rotation_aoe:
+  - {targets_min: 2, priority: 1, action: "Stormstrike target 1, tab Earth Shock target 2, Lightning Strike target 3, tab-swap giving each an Earth Shock + auto attack", condition: "2-3 targets, no threat totems needed"}
+  - {targets_min: 4, priority: 1, action: "Stoneclaw Totem", condition: "on pull or when in doubt; best AoE threat, 30-s CD"}
+  - {targets_min: 4, priority: 2, action: "Fire Nova Totem timed to explode as the pack arrives", condition: "not fire-resistant packs"}
+  - {targets_min: 4, priority: 3, action: "Magma Totem", condition: "sustained AoE threat; downrank when threat is safe (biggest mana burner)"}
+  - {targets_min: 4, priority: 4, action: "Drop Earthbind after Stoneclaw expires", condition: "if needed to control the pack"}
+aoe_threshold: 4
+cooldowns:
+  - {name: "Earthshaker Slam", use_when: "5-yd shield taunt, 10-s CD, 3% base mana; only when a mob is not already attacking you"}
+  - {name: "Totemic Recall", use_when: "after a pull, refunds 25% of every totem's mana (+15% with Totemic Mastery)"}
+  - {name: "Ankh", use_when: "emergency self-resurrect; nearest thing to a defensive CD besides the Hakkar trinket swap"}
+resource_rules:
+  - "Never generate more threat than needed to maintain aggro; skip the rotation and just auto-attack + taunt, or downrank shocks, once ahead"
+  - "Swap Lightning Shield to Water Shield when mana is the constraint; Water Shield generates net mana above 936 AP with Lightning Strike (18:1 ratio in 1.18.1)"
+  - "Rush toward silence-heavy mobs with Lightning Shield already up so silence does not waste mana"
+consumables:
+  - "armor kits, fortitude/armor potions and health potions before Black Morass"
+  - "Crusader enchant and hit/threat gear per Mimiwarmini's pre-raid list"
+mistakes_to_avoid:
+  - "Expecting a defensive cooldown to exist (there is none beyond the Hakkar trinket swap)"
+  - "Shield Specialization before level 33 respec into Ancestral Knowledge without the stamina trinkets first (Akos1896: mitigation is too weak early)"
+  - "Tanking a fast weapon (Rockbiter no longer gives flat per-hit threat; a slow weapon gives more TPS)"
+  - "Using Rockbiter's old -10% damage-taken assumption post-1.18.1 (it is now Earthen Bulwark, which was reported not stacking from special attacks as of 2026-04-07)"
+  - "Pulling without checking whether the mob resists Nature (use Frost Shock/Molten Blast instead)"

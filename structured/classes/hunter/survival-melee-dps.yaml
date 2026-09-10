@@ -1,0 +1,97 @@
+class: Hunter
+spec: Survival
+role: melee-dps
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=131245#p131245", author: zer0g3, authority: player, date: "2025-05-15"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=125834#p125834", author: Barwat1, authority: player, date: "2025-04-07"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=143785#p143785", author: Bigsmerf, authority: player, date: "2025-08-08"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=127584#p127584", author: Steakhouse, authority: player, date: "2025-04-19"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141781#p141781", author: Cabum, authority: player, date: "2025-07-27"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=147658#p147658", author: Sarthrethal, authority: player, date: "2025-08-22"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=153885#p153885", author: Grawerok, authority: player, date: "2025-10-01"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=173875#p173875", author: SvenS2, authority: player, date: "2026-04-03"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=158027#p158027", author: Thricew, authority: player, date: "2025-11-01"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=159405#p159405", author: Kerbees, authority: player, date: "2025-11-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102967#p102967", author: Dragunovi, authority: staff, date: "2024-10-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108776#p108776", author: Jamey, authority: staff, date: "2024-11-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460", author: Jamey, authority: staff, date: "2024-12-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504", author: Torta, authority: staff, date: "2025-03-30"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: "2025-07-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=143781#p143781", author: Vladis, authority: player, date: "2025-08-08"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=132001#p132001", author: Bigsmerf, authority: player, date: "2025-05-19"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=104588#p104588", author: Juzam, authority: player, date: "2024-10-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=134728#p134728", author: Cabum, authority: player, date: "2025-06-08"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=137032#p137032", author: Gildark, authority: player, date: "2025-06-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=172610#p172610", author: Ahinevich, authority: player, date: "2026-03-26"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=87692#p87692", author: Ihavenoclothes, authority: player, date: "2024-02-13"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=142264#p142264", author: Bigsmerf, authority: player, date: "2025-07-30"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=126982#p126982", author: FrankFankledank, authority: player, date: "2025-04-16"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=105276#p105276", author: Dragunovi, authority: staff, date: "2024-10-30"}
+agreement: contested
+patch_validity:
+  written_for: "CC2 melee rebuild (2024-11-01) through the CC3 kit (2025-08-15, Lacerate added, Rapid Strikes removed, Vicious Strikes damage nerf); 1.18.1 (2026-03-20) touched it lightly"
+  valid_for_1181: unknown
+  notes: "1.18.1 added Alone Against the World (+3/6% damage with no pet), Surefooted dual-wield hit, and restored Vicious Strikes' Raptor/Mongoose damage bonus (revision 2026-03-19) plus a small Lacerate buff (+5% AP, +15% from the side). No player re-posted a talent build or DPS numbers after 2026-03-20; the CC3 build is assumed to still stand with those buffs applied, allocation unknown."
+talents:
+  build_name: "CC3/1.18.1 standard PvE Survival build (SvenS2, opaque link)"
+  build_link: "https://talents.turtlecraft.gg/hunter?points=FQDABo--YQCYDJTAbIQoB"
+  points:
+    - {tree: Survival, talent: Resourcefulness, rank: 5, spell_id: null}
+    - {tree: Survival, talent: "Swift Reflexes", rank: 2, spell_id: null}
+    - {tree: Survival, talent: "Savage Strikes", rank: 2, spell_id: null}
+    - {tree: Survival, talent: "Trap Mastery", rank: 3, spell_id: null}
+    - {tree: Survival, talent: Carve, rank: 1, spell_id: null}
+    - {tree: Survival, talent: Deterrence, rank: 1, spell_id: null}
+    - {tree: Survival, talent: "Stinging Nettle Lacing", rank: 2, spell_id: null}
+    - {tree: Survival, talent: "Killer Instinct", rank: 3, spell_id: null}
+    - {tree: Survival, talent: Surefooted, rank: 3, spell_id: null}
+    - {tree: Survival, talent: "Improved Feign Death", rank: 2, spell_id: null}
+    - {tree: Survival, talent: Lacerate, rank: 1, spell_id: null}
+    - {tree: Survival, talent: "Vicious Strikes", rank: 2, spell_id: null}
+    - {tree: Survival, talent: "Lightning Reflexes", rank: 5, spell_id: null}
+    - {tree: Survival, talent: "Untamed Trapper", rank: 1, spell_id: null}
+    - {tree: "Beast Mastery", talent: "Endurance Training / Thick Hide / Improved Mend Pet or Coordinated Assault", rank: "remaining points", spell_id: null}
+  leveling_order: []
+stat_weights:
+  agility: "top priority - Lightning Reflexes converts 100% of agility to melee AP on top of the 1 AP/agi baseline"
+  melee_attack_power: "scales fire traps via Untamed Trapper: Explosive Trap ~1516 damage per target over 6 s for a Naxx-geared hunter [Juzam]; Immolation Trap '300+ fire' per tick deep SV"
+  hit: "melee hit cap matters; tree gives Surefooted 3% (+3% dual-wield since 1.18.1); exact 2H/DW melee hit caps not stated by a Turtle source (only a 2021 vanilla-baseline guide gives 12% DW)"
+  crit: "Savage Strikes 6% + Killer Instinct crit damage; Lacerate requires a prior crit to be usable"
+  weapon: "2H preferred pre-CC3 ('by far the better choice'); after CC3, Mongoose Bite hits with both weapons and dual-wield is 'almost on par with a 2H-er'; 1.18.1 adds a DW hit bonus - contested which is better now"
+  spell_power: "niche - helps Stinging Nettle-applied stings/chili only, not traps"
+caps: {}
+rotation_single:
+  - {priority: 1, action: "Aspect of the Wolf (rank 7), pet on target first; Serpent Sting applied for free by Mongoose Bite via Stinging Nettle Lacing", condition: "pre-pull; Hunter's Mark does not help melee (ranged-AP only)"}
+  - {priority: 2, action: "Immolation Trap under the target (in-combat via Untamed Trapper), refresh on expiry", condition: "skip entirely on fire-immune bosses"}
+  - {priority: 3, action: "Raptor Strike on cooldown", condition: "queues on the next swing"}
+  - {priority: 4, action: "Mongoose Bite on cooldown", condition: "refreshes the Stinging Nettle sting"}
+  - {priority: 5, action: "Lacerate whenever usable", condition: "after a crit, 10 s cd; from the side of the boss where possible (+15% post-1.18.1); skip when mana < 30%"}
+  - {priority: 6, action: "Wing Clip between strikes", condition: "only for a proc trigger (Windfury/HoJ/Dragonbreath Chili) and when mana allows"}
+  - {priority: 7, action: "Rapid Fire on cooldown", condition: "melee haste since CC3"}
+rotation_aoe:
+  - {targets_min: 2, priority: 1, action: "Carve on cooldown (10 s, 5 targets, 10-yd cone) plus Explosive Trap; Immolation on the main target", condition: "2-3 targets"}
+  - {targets_min: 4, priority: 1, action: "Explosive Trap first (stings everything hit), Carve on cooldown, refresh Explosive on expiry", condition: "4+ targets; fall back to Carve + Multi-Shot on fire-resistant/immune trash"}
+aoe_threshold: 4
+cooldowns:
+  - {name: Deterrence, use_when: "+25% dodge/parry for 10 s; use when threat is pulled or a big hit is coming"}
+  - {name: "Feign Death", use_when: "every 30 s if the tank is weak; Improved Feign Death 2/2"}
+  - {name: "in-combat Freezing/Frost Trap", use_when: "an add needs CC or you need to kite - unique to Survival via Untamed Trapper"}
+resource_rules:
+  - "Mana is the limiting resource: Resourcefulness 5/5, Untamed Trapper -20% (staff), T3 8-set, mana potions/tea"
+  - "Aspect of the Viper (56+, 1.18.1) out of combat only, never mid-rotation (Wolf is needed for melee AP)"
+  - "Mend Pet is pointless mid-fight; let the pet be a threat sponge (Screecher) or extra DPS (wolf/raptor)"
+consumables:
+  - "Best available 2H weapon; The Eye of Nerub (Naxx) is BiS melee for Survival"
+  - "Melee-only items open up: Hand of Justice, Wrath of Cenarius, Chronobreaker"
+  - "+8 agility head/legs enchant (not the ZG MM enchant); 2H +25 agility; melee oils/enchants proc off Wing Clip"
+  - "Strength potions, Winterfall Firewater, Elixir of Demonslaying (melee-only consumables MM cannot use)"
+  - "T3.5 Ravenstalker 5-set 'made for Melee hunter in mind' (+5% Quick Shots haste, -1 s Carve/Multi-Shot cd)"
+mistakes_to_avoid:
+  - "Trapping fire-immune bosses / wasting mana on traps in MC and BWL"
+  - "Ripping threat by standing in front instead of behind; expecting the pet to hold aggro"
+  - "Leveling as Survival before 40 and complaining - the spec is weak before Untamed Trapper"
+  - "Skipping Untamed Trapper or Lightning Reflexes"
+  - "Rolling need on every melee weapon and leather piece"
+  - "Going OOM by spamming Lacerate/traps on trash that dies in seconds; not drinking between packs"
+  - "Trying to Tranquilizing Shot from melee and losing the enrage window"

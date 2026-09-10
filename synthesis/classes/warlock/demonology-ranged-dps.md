@@ -73,7 +73,7 @@ Sources: wiki SL Demo, Jumadforum's problem list, Sharmaine (funnels), the Dec-2
 
 ## Gear and consumables
 
-- No Demonology tier set exists (requested: [Krotux (player), 2024-01-29](https://forum.turtlecraft.gg/viewtopic.php?p=86262#p86262) in the itemization thread; staff replied only to acknowledge — [Dragunovi (staff), 2024-01-29](https://forum.turtlecraft.gg/viewtopic.php?p=86264#p86264)); use the SM/Ruin (crit/hit) gear. Black Book trinket for greater demons. Hourglass Sand removes Brood Affliction: Bronze from your demon since 1.18.1 (Dragunovi 2026-02-15).
+- No Demonology tier set exists (requested: [Krotux (player), 2024-01-29](https://forum.turtlecraft.gg/viewtopic.php?p=86261#p86261) in the itemization thread; staff replied only to acknowledge — [Dragunovi (staff), 2024-01-29](https://forum.turtlecraft.gg/viewtopic.php?p=86264#p86264)); use the SM/Ruin (crit/hit) gear. Black Book trinket for greater demons. Hourglass Sand removes Brood Affliction: Bronze from your demon since 1.18.1 (Dragunovi 2026-02-15).
 - Consumables: Infernal Stones, Demonic Figurines, shards; Healthstones for you (demons cannot use player consumables).
 
 ## Common mistakes

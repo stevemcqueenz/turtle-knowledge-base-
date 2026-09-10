@@ -355,6 +355,12 @@ def run(m, rate, max_n, agent):
                 raise requests.HTTPError("HTTP %d" % code)
             if code in (403,) and looks_blocked(resp.text):
                 raise requests.HTTPError("HTTP 403 cloudflare")
+            if code in (404, 410, 403):
+                rec.update(status="failed", http=code, note="HTTP %d (permanent)" % code)
+                m.write(rec)
+                log("gone %s -> HTTP %d" % (url, code))
+                lim.success()
+                continue
             ok, note = validate(rec, resp)
             if not ok:
                 raise requests.HTTPError(note or "invalid")

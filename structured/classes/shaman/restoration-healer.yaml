@@ -1,0 +1,100 @@
+class: Shaman
+spec: Restoration
+role: healer
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102972#p102972", author: Dragunovi, authority: staff, date: "2024-10-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460", author: Jamey, authority: staff, date: "2024-12-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: "2025-07-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=161356#p161356", author: Torta, authority: staff, date: "2025-12-02"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166084#p166084", author: Jamey, authority: staff, date: "2026-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272", author: Dragunovi, authority: staff, date: "2026-02-15"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490", author: Torta, authority: staff, date: "2026-03-31"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168", author: Torta, authority: staff, date: "2025-10-03"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?t=13178", author: Torta, authority: staff, date: "2024-02-21"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=117662#p117662", author: Akos1896, authority: player, date: "2025-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=115605#p115605", author: amanagor, authority: player, date: "2025-01-06"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=94005#p94005", author: Grubi450, authority: player, date: "2024-05-03"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=117470#p117470", author: Templar85, authority: player, date: "2025-01-21"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=172162#p172162", author: Travoltino, authority: player, date: "2026-03-24"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166553#p166553", author: Atreidon, authority: player, date: "2026-01-26"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=147242#p147242", author: amanagor, authority: player, date: "2025-08-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=134240#p134240", author: Atreidon, authority: player, date: "2025-06-04"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=134265#p134265", author: Atreidon, authority: player, date: "2025-06-04"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=115603#p115603", author: Akos1896, authority: player, date: "2025-01-06"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=134190#p134190", author: Voodoochile, authority: player, date: "2025-06-04"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=134238#p134238", author: Winckler91, authority: player, date: "2025-06-04"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=142251#p142251", author: Yourik5, authority: player, date: "2025-07-30"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715", author: Skegg, authority: "player (guide writer)", date: "2025-09-01"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166121#p166121", author: Burunduk, authority: player, date: "2026-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=92081#p92081", author: Akos1896, authority: player, date: "2024-04-04"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=170395#p170395", author: Travoltino, authority: player, date: "2026-03-09"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=175219#p175219", author: Atreidon, authority: player, date: "2026-04-14"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=87618#p87618", author: Akos1896, authority: player, date: "2024-02-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=126280#p126280", author: Akos1896, authority: player, date: "2025-04-10"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=16518#p16518", author: Mcnair, authority: player, date: "2022-01-31"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=126350#p126350", author: Voodoochile, authority: player, date: "2025-04-10"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=170419#p170419", author: Kokuyoo, authority: player, date: "2026-03-09"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=82330#p82330", author: Gdawg45, authority: player, date: "2023-12-22"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=37141#p37141", author: Healingrain, authority: player, date: "2023-03-08"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=117487#p117487", author: Evilchocolate, authority: player, date: "2025-01-22"}
+agreement: consensus
+patch_validity:
+  written_for: "1.17.2 (Class Changes 2) and 1.18.0 (Chain Heal coefficient/Spirit Link/Totemic Mastery rework)"
+  valid_for_1181: true
+  notes: "'No changes for resto shamans in 1.18.1' beyond the Resto T1 8-set rework (spread-heal proc replaced by a 25% chance for a 250-damage absorb on Healing Wave/Lesser Healing Wave); talents, coefficients and the healing priority are unaffected."
+talents:
+  build_name: "Standard 0/8/43 (deep Restoration with Enhancement filler)"
+  build_link: null
+  points:
+    - {tree: Enhancement, talent: "Ancestral Knowledge", rank: 5, spell_id: null}
+    - {tree: Enhancement, talent: "Stable Shields", rank: 3, spell_id: null, note: "synergizes with Improved Water Shield"}
+    - {tree: Restoration, talent: "most of the tree", rank: 43, spell_id: null, note: "no source enumerates the exact 43 points; Improved Reincarnation and Nature's Grace are the commonly skipped fillers"}
+  leveling_order:
+    - {level: 51, tree: Restoration, talent: "respec: Improved Water Shield with Stable Shields first"}
+    - {level: 60, tree: Restoration, talent: "finish every Restoration talent except Improved Reincarnation, Healing Focus and Spirit Link (Skegg's dungeon-farming path only; raiders take Spirit Link)"}
+stat_weights:
+  contested: true
+  camp_a: "Ignore mp5/spirit/%mana-regen gear; stack Intellect and +healing; farm tea and gold for Major Mana Potions; downranking solves mana issues (Grubi450)"
+  camp_b: "Have at least +10% mana-regen-while-casting gear until T2/T2.5; keep a Spirit of Zanza on cooldown (Akos1896, partly superseded by the 2024-12-20 Water Shield regen talents)"
+  int: "as much as possible; ~4k mana pool recommended on a badly geared Resto shaman"
+  haste: "the old T1 8-set needed a full haste stack to work; with the set gone (1.18.1) no haste target exists (gap)"
+caps: {}
+rotation_single:
+  - {priority: 1, action: "Totems before pull: Windfury/Strength of Earth/Flametongue/Mana Spring in a melee group (Grace of Air for hunters/druids, Tranquil Air for casters); Water Shield on", condition: "pre-pull"}
+  - {priority: 2, action: "Spirit Link on the tank at pull or before a known burst window", condition: "instant, 35 yd, 20-s duration, 10-min CD since 1.18.0"}
+  - {priority: 3, action: "Chain Heal as the default raid heal (max rank when the raid is low, R1/R2 for mana saving once geared)", condition: "target has allies nearby for the bounce"}
+  - {priority: 4, action: "Lesser Healing Wave for quick patch-ups (downranked for mana efficiency)", condition: "life totals moving too fast for Healing Wave"}
+  - {priority: 5, action: "Healing Wave for tank healing / steady single-target damage (R1 pre-pull to trigger Healing Way and fish for the Ancestral Fortitude proc)", condition: "tank sustain"}
+  - {priority: 6, action: "Ancestral Swiftness into max-rank Healing Wave (someone about to die) or max-rank Chain Heal (big AoE damage just landed)", condition: "3-min CD emergency"}
+  - {priority: 7, action: "Berserking (Troll) on cooldown when heavy healing is expected", condition: "racial"}
+  - {priority: 8, action: "Sit back for mana regen when there is nothing to heal; interrupt your own cast if someone else's heal already landed", condition: "downtime discipline"}
+  - {priority: 9, action: "Filler damage (Flame Shock/Searing Totem) or Earth Shock R1 interrupt only if mana allows and no CC is nearby", condition: "spare GCDs"}
+rotation_aoe:
+  - {targets_min: 3, priority: 1, action: "Chain Heal is the multi-target tool", condition: "no Resto set in the sources adds bounce targets"}
+  - {targets_min: 3, priority: 2, action: "Healing Stream Totem", condition: "contested: 'most mana-efficient heal by a massive margin' per one source, 'still bad' per another"}
+  - {targets_min: 3, priority: 3, action: "Poison/Disease Cleansing Totems for the party instead of manual dispels", condition: "always in Scarlet Monastery-style poison/disease content"}
+aoe_threshold: 3
+cooldowns:
+  - {name: "Spirit Link", use_when: "10-min CD; 20 s, splits 30% of damage among 3 linked allies; use on the tank at pull or before a scripted burst"}
+  - {name: "Ancestral Swiftness", use_when: "3-min CD; instant emergency heal, on cooldown in raids unless a hard phase is imminent"}
+  - {name: Ankh, use_when: "wipe protection; do not use instantly, coordinate with the raid leader"}
+resource_rules:
+  - "Water Shield always; Mana Spring while the party drinks and stays in place"
+  - "Nordanaar tea, Major Mana Potion, Spirit of Zanza, Dark/Demonic Runes (share CD with tea)"
+  - "Biggest challenge is healing just enough while downranking as much as possible"
+  - "If another shaman in the party runs Enhancement, let them totem Windfury/Strength while you run Mana Spring (yours is better)"
+consumables:
+  - "Dreamshard Elixir, Mageblood, Spirit of Zanza, Brilliant Mana/Wizard Oil, Major Mana Potion, Nordanaar Herbal Tea, Greater Fire Protection, Flask of Distilled Wisdom, Elixir of the Sage"
+  - "Serious consumable use expected from BWL and mandatory from AQ40"
+mistakes_to_avoid:
+  - "Overhealing / not downranking"
+  - "Chain Heal on an isolated target with no allies nearby to bounce to"
+  - "Skipping Spirit Link or Improved Chain Heal"
+  - "Totem twisting in raids, or re-dropping totems every pull now that range is 30 yd"
+  - "Using Ankh immediately on a boss wipe instead of coordinating with the raid leader"
+  - "Healing Wave spam expecting the old T1 8-set spread proc (removed 2026-03-20)"
+  - "Chasing mana-regen gear over +healing once past T2/T2.5 gear (contested for fresh 60s)"
+  - "Casting Earth Shield in Ghost Wolf form (not possible since 2024-11-20)"
+  - "Using max-rank Earth Shock to interrupt as a healer (pulls the mob onto you)"
+  - "Dropping Searing Totem near CC'd mobs"

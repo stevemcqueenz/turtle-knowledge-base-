@@ -1,0 +1,103 @@
+class: Hunter
+spec: Beast Mastery
+role: ranged-dps
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=170748#p170748", author: Skurridizo, authority: "player (guide writer; four 60 hunters, two hunter YouTube channels)", date: "2026-03-13"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=170469#p170469", author: Skurridizo, authority: player, date: "2026-03-09"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=148472#p148472", author: Toxo, authority: player, date: "2025-08-26"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=106305#p106305", author: Ragetto, authority: player, date: "2024-11-04"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=173875#p173875", author: SvenS2, authority: player, date: "2026-04-03"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141850#p141850", author: Calli, authority: player, date: "2025-07-28"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=170490#p170490", author: Lane13, authority: player, date: "2026-03-10"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=111060#p111060", author: amanagor, authority: player, date: "2024-12-03"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=114199#p114199", author: Bigsmerf, authority: player, date: "2024-12-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=146762#p146762", author: Jiav, authority: player, date: "2025-08-18"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=160458#p160458", author: Nalos, authority: player, date: "2025-11-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=175410#p175410", author: Halfgeek9, authority: player, date: "2026-04-16"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102967#p102967", author: Dragunovi, authority: staff, date: "2024-10-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460", author: Jamey, authority: staff, date: "2024-12-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: "2025-07-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139", author: Torta, authority: staff, date: "2026-03-24"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=172191#p172191", author: Topmoo, authority: player, date: "2026-03-24"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=150349#p150349", author: Thule, authority: player, date: "2025-09-05"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=170980#p170980", author: Plagues2, authority: player, date: "2026-03-16"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=107692#p107692", author: Juzam, authority: player, date: "2024-11-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108662#p108662", author: Bob022, authority: player, date: "2024-11-19"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171462#p171462", author: Sylvestro1, authority: player, date: "2026-03-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171478#p171478", author: Gorlocktheglock, authority: player, date: "2026-03-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171530#p171530", author: Tomogwarrior, authority: player, date: "2026-03-21"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102664#p102664", author: "Arcanex Ota", authority: player, date: "2024-10-06"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=146300#p146300", author: kalevala206, authority: player, date: "2025-08-16"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=151184#p151184", author: Kerenis, authority: player, date: "2025-09-10"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=169581#p169581", author: Tortusenjoyer, authority: player, date: "2026-02-28"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=169590#p169590", author: Mdzielak, authority: player, date: "2026-02-28"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=143068#p143068", author: Atreidon, authority: player, date: "2025-08-04"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=174014#p174014", author: Atreidon, authority: player, date: "2026-04-04"}
+agreement: contested
+patch_validity:
+  written_for: "three kits: CC2 (Nov 2024 - Aug 2025), CC3/1.18.0 (Aug 2025 - Mar 2026), 1.18.1 (from 2026-03-20)"
+  valid_for_1181: unknown
+  notes: "1.18.1 removed Baited Shot and Kill Command's CC3 form, returned Bestial Wrath, added Scent of Blood and reworked Kill Command into a crit-gated capstone (revised 2026-03-19 to 80% pet AP). No post-1.18.1 raid DPS log exists in the sources; the post-1.18.1 rotation and talent build below are staff-derived plus early player fragments, not a validated guide."
+talents:
+  build_name: "1.18.1 bot default (derived from staff tooltips and player fragments; NOT a sourced 51-point list) — deep BM with MM filler"
+  build_link: "CC2 endgame link (SvenS2): https://talents.turtlecraft.gg/hunter?points=FQAYBoAoQCQQAAAoCoQBAoACAAAAAAAAAAAAAAAAAAA%3D ; CC3 links (opaque, not decodable from text): https://talents.turtlecraft.gg/hunter?points=FAAaRoQoBBQQB-AoEoABAg- (Illyria), https://talents.turtlecraft.gg/hunter?points=FQAYBoQoBCQQB-AoCoQBAo- (SvenS2)"
+  points:
+    - {tree: "Beast Mastery", talent: "Endurance Training / Swift Aspects", rank: "1-5", spell_id: null}
+    - {tree: "Beast Mastery", talent: "Thick Hide", rank: 3, spell_id: null}
+    - {tree: "Beast Mastery", talent: "Improved Revive Pet / Improved Mend Pet", rank: "1-2", spell_id: null}
+    - {tree: "Beast Mastery", talent: "Coordinated Assault", rank: 1, spell_id: null}
+    - {tree: "Beast Mastery", talent: "Unleashed Fury", rank: 5, spell_id: null}
+    - {tree: "Beast Mastery", talent: "Pathfinding", rank: 2, spell_id: null}
+    - {tree: "Beast Mastery", talent: "Ferocity", rank: 5, spell_id: null}
+    - {tree: "Beast Mastery", talent: "Bestial Discipline", rank: 2, spell_id: null}
+    - {tree: "Beast Mastery", talent: "Bestial Precision", rank: 2, spell_id: null}
+    - {tree: "Beast Mastery", talent: "Scent of Blood", rank: 3, spell_id: null}
+    - {tree: "Beast Mastery", talent: "Bestial Wrath", rank: 1, spell_id: null}
+    - {tree: "Beast Mastery", talent: Frenzy, rank: "2-3", spell_id: null}
+    - {tree: "Beast Mastery", talent: "Spirit Bond", rank: 2, spell_id: null}
+    - {tree: "Beast Mastery", talent: "Kill Command", rank: 1, spell_id: null}
+    - {tree: Marksmanship, talent: "Lethal Shots", rank: 5, spell_id: null}
+    - {tree: Marksmanship, talent: Efficiency, rank: 5, spell_id: null}
+    - {tree: Marksmanship, talent: "Mortal Shots / Improved Stings", rank: 5, spell_id: null}
+  leveling_order: []
+stat_weights:
+  ranged_attack_power: "top priority - feeds the pet through Spirit Bond; item RAP-for-crit trades 'improve the hunter's personal DPS but do almost nothing for the pet' [Skurridizo]"
+  hit: "same cap as MM (see marksmanship-ranged-dps.yaml)"
+  crit: "matters post-1.18.1 because Kill Command requires a hunter crit"
+  haste: "same as MM"
+  pet_damage_items: "T0.5 Beastmaster's set + AQ20 Hunter's set + Breastplate of Beast Mastery + Ferra's Collar totalled '13% damage, 4% additional crit and 50 attack power' for the pet per Arcanex Ota, but 'an item giving +9 agility is already better than that pet-damage bonus' once past BWL per Skurridizo"
+caps: {}
+rotation_single:
+  - {priority: 1, action: "Pet attack, Hunter's Mark, Bestial Wrath at the pull and on cooldown", condition: "1.18.1 kit; 18 s enrage, no GCD, 1.5 min cd"}
+  - {priority: 2, action: "Kill Command whenever usable", condition: "1.18.1 kit; after any hunter crit, 8 s cd, no GCD, 45 yd, needs line of sight to the pet"}
+  - {priority: 3, action: "Steady Shot after each Auto Shot, never clipping the auto", condition: "crit-fishes for Kill Command and procs Coordinated Assault"}
+  - {priority: 4, action: "Arcane Shot on cooldown", condition: "mana available; scales with weapon damage post-1.18.1 and also procs Coordinated Assault"}
+  - {priority: 5, action: "Multi-Shot on cooldown", condition: "always fits it in"}
+  - {priority: 6, action: "Serpent Sting", condition: "drop it first when mana is short - 'costs almost as much as 2 Steady Shots'"}
+  - {priority: 7, action: "Aspect of the Viper", condition: "mana < ~20% on a long fight and no burst planned; swap back to Hawk before damage windows"}
+rotation_aoe:
+  - {targets_min: 2, priority: 1, action: "Multi-Shot on cooldown; keep the single-target loop otherwise", condition: "2-3 targets"}
+  - {targets_min: 4, priority: 1, action: "Volley (talented, 3 s cast post-1.18.1) if available; otherwise stay single-target", condition: "no benchmarked post-1.18.1 AoE data exists"}
+aoe_threshold: 4
+cooldowns:
+  - {name: "Bestial Wrath", use_when: "on pull and on cooldown (1.18.1); offensive and defensive - pet cannot be stopped short of being killed; save for CC-breaks in PvP"}
+  - {name: "Kill Command", use_when: "every time it is usable post-crit (1.18.1); pre-1.18.1 CC3 version doubled as the 12-s pet CC-break, removed in 1.18.1"}
+  - {name: "Intimidation", use_when: "pet stun/threat spike; make the pet re-take a mob in dungeons"}
+  - {name: "Baited Shot", use_when: "CC3/1.18.0 kit only - obsolete after 2026-03-20; fire the instant it is up after Kill Command, do not Arcane Shot while waiting (shared cooldown, could block the proc)"}
+resource_rules:
+  - "Kill Command costs 5% base mana, Bestial Wrath 12%; the CC3-kit rotation was mana-hungry ('burns through mana much faster')"
+  - "Tallstrider aura, Blessing of Wisdom, mana potions/tea; Aspect of the Viper post-1.18.1 between pulls"
+  - "Improved Revive Pet lets you res mid-combat with a low-cost shot if far away, or via Scare Beast/Freeze Trap"
+consumables:
+  - "As Marksmanship, plus Juju Might/Juju Power and Scrolls for the pet"
+  - "T2 5-piece pet bonus needs no line of sight to the pet; T3 4-set +50 AP to hunter and pet (1.18.1, single source)"
+  - "Orc Command (+5% pet damage) is the PvE racial pick for BM, contested by 'most likely a skill issue' when compared to top Undead parses"
+mistakes_to_avoid:
+  - "Letting the pet die (Shadowflame, cleaves) and losing Happiness - a bigger DPS loss for BM than other specs"
+  - "Not using the capstone: sitting on Baited Shot (CC3) or Kill Command/Bestial Wrath (1.18.1) instead of pressing them"
+  - "Putting Claw on a scorpid/wind serpent and focus-starving Scorpid Poison/Lightning Breath"
+  - "Using the wrong pet for the boss - scorpid on poison-immune Kara40 bosses"
+  - "Ripping threat with Kill Command + scorpid poison on a weak tank without Blessing of Salvation on the pet"
+  - "Spending points in 5/5 Frenzy or Improved Eyes of the Beast instead of damage/hit talents"
+  - "Running Serpent Sting on every pull as BM (mana)"

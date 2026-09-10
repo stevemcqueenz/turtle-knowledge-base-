@@ -1,0 +1,120 @@
+class: Shaman
+spec: Enhancement
+role: melee-dps
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102972#p102972", author: Dragunovi, authority: staff, date: "2024-10-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=105804#p105804", author: Dragunovi, authority: staff, date: "2024-11-01"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108776#p108776", author: Jamey, authority: staff, date: "2024-11-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460", author: Jamey, authority: staff, date: "2024-12-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504", author: Torta, authority: staff, date: "2025-03-30"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: "2025-07-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608", author: Torta, authority: staff, date: "2026-03-21"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139", author: Torta, authority: staff, date: "2026-03-24"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490", author: Torta, authority: staff, date: "2026-03-31"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=169701#p169701", author: Jamey, authority: staff, date: "2026-03-02"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715", author: Skegg, authority: "player (guide writer)", date: "2025-09-01"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=121471#p121471", author: Atreidon, authority: player, date: "2025-03-03"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141835#p141835", author: Atreidon, authority: player, date: "2025-07-28"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=135891#p135891", author: Atreidon, authority: player, date: "2025-06-16"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=173712#p173712", author: Atreidon, authority: player, date: "2026-04-02"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=174801#p174801", author: Atreidon, authority: player, date: "2026-04-11"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=115650#p115650", author: Drubarrymooer, authority: player, date: "2025-01-06"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=174156#p174156", author: pagu, authority: player, date: "2026-04-06"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=173707#p173707", author: Mdzielak, authority: player, date: "2026-04-02"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=115753#p115753", author: amanagor, authority: player, date: "2025-01-07"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=173678#p173678", author: Phx, authority: player, date: "2026-04-01"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=115603#p115603", author: Akos1896, authority: player, date: "2025-01-06"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=115643#p115643", author: Akos1896, authority: player, date: "2025-01-06"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=117662#p117662", author: Akos1896, authority: player, date: "2025-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=126159#p126159", author: Taralej90, authority: player, date: "2025-04-09"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=130407#p130407", author: pagu, authority: player, date: "2025-05-10"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=121897#p121897", author: Studbucket, authority: player, date: "2025-03-06"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171655#p171655", author: Splitsec, authority: player, date: "2026-03-21"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171740#p171740", author: Volth, authority: player, date: "2026-03-22"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=172153#p172153", author: Travoltino, authority: player, date: "2026-03-24"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=124808#p124808", author: Franktank, authority: player, date: "2025-04-01"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=112575#p112575", author: Akos1896, authority: player, date: "2024-12-13"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149742#p149742", author: Akos1896, authority: player, date: "2025-09-01"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141504#p141504", author: Voodoochile, authority: player, date: "2025-07-26"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=106681#p106681", author: Dezhan, authority: player, date: "2024-11-06"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=168008#p168008", author: Mimiwarmini, authority: player, date: "2026-02-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=168045#p168045", author: Elesion, authority: player, date: "2026-02-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=129436#p129436", author: Evolve, authority: player, date: "2025-05-02"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=129441#p129441", author: Forumdweller, authority: player, date: "2025-05-02"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=130405#p130405", author: pagu, authority: player, date: "2025-05-10"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=110894#p110894", author: Staywhimsy, authority: player, date: "2024-12-02"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=131960#p131960", author: amanagor, authority: player, date: "2025-05-19"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=130038#p130038", author: Springboards, authority: player, date: "2025-05-07"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171418#p171418", author: Terrydavis, authority: player, date: "2026-03-20"}
+agreement: contested
+patch_validity:
+  written_for: "1.17.2 (Class Changes 2) and 1.18.0 (live 2025-08-15)"
+  valid_for_1181: unknown
+  notes: "1.18.1 changed Windfury Weapon (25% per hit), Flurry (any crit, 3 swings, reworked trigger), Elemental Weapons' Windfury/Flametongue effects, and the Lightning Strike Water Shield ratio to 18:1; no talent points moved. No source posts an updated build or rotation after 2026-03-20, and post-release bug reports (Flurry not triggering correctly, overwritten by Elemental Weapons' haste) were still open on 2026-04-07."
+talents:
+  build_name: "Atreidon's raid build (link only; named-core talents listed separately)"
+  build_link: "https://talents.turtlecraft.gg/shaman?points=FQAYNAAAAAAAAAFAFaAIFADIAoAAAAAAAAAAAAAAAAA="
+  points:
+    - {tree: Elemental, talent: Convection, rank: 5, spell_id: null}
+    - {tree: Elemental, talent: Concussion, rank: 2, spell_id: null, note: "or Elemental Warding"}
+    - {tree: Elemental, talent: "Elemental Devastation", rank: 3, spell_id: null}
+    - {tree: Elemental, talent: "Elemental Focus", rank: 1, spell_id: null}
+    - {tree: Enhancement, talent: "Thundering Strikes", rank: 5, spell_id: null}
+    - {tree: Enhancement, talent: "Stable Shields", rank: 3, spell_id: null}
+    - {tree: Enhancement, talent: "Lightning Strike", rank: 1, spell_id: null}
+    - {tree: Enhancement, talent: Flurry, rank: 5, spell_id: null}
+    - {tree: Enhancement, talent: "Elemental Weapons", rank: 3, spell_id: null}
+    - {tree: Enhancement, talent: Stormstrike, rank: 1, spell_id: null}
+    - {tree: Enhancement, talent: "Element's Grace", rank: 5, spell_id: null}
+    - {tree: Enhancement, talent: Bloodlust, rank: 1, spell_id: null}
+    - {tree: Enhancement, talent: "Ancestral Knowledge", rank: 5, spell_id: null}
+    - {tree: Enhancement, talent: "Calming Winds", rank: 3, spell_id: null, note: "raid threat reduction; Toxo calls it mandatory only at high gear"}
+  leveling_order: []
+stat_weights:
+  note: "No source gives an explicit DPS stat-weight list; see enhancement-tank.yaml's Turtle mechanics table for the underlying formulas (Rockbiter/Windfury/Lightning Strike scale with AP; Flametongue/fire totems scale with SP)."
+  hit: "consensus priority stat toward the physical/spell hit caps (values not stated for pure DPS; tank guide gives 8% physical / 17% spell at 63)"
+  agility: "crit and armor; feeds Elemental Focus proc rate"
+  attack_power: "primary threat/damage stat via Rockbiter/Windfury/Lightning Strike"
+caps:
+  physical_hit: "8% (vanilla-baseline figure reused from the tank guide, not DPS-specific)"
+  spell_hit: "17% (boss level 63)"
+rotation_single:
+  - {priority: 1, action: "Pre-pull: Windfury Weapon on the 2H, Lightning Shield (9 charges with Stable Shields), totems down (Strength of Earth, Windfury, Flametongue, Mana Spring)", condition: "before pull; do not pre-Bloodlust (30-s self buff)"}
+  - {priority: 2, action: "Flame Shock", condition: "running in, if the target will live > 9-15 s (always at least 3 ticks at max level); otherwise Earth Shock if target is Nature-immune"}
+  - {priority: 3, action: "Stormstrike", condition: "on cooldown (8 s); grants a 2-charge +25% Nature buff consumed by Earth Shock and Lightning Shield charges"}
+  - {priority: 4, action: "Lightning Strike", condition: "on cooldown (9 s) with Lightning Shield up"}
+  - {priority: 5, action: "Earth Shock", condition: "shock on cooldown (6 s, 5 s with Reverberation 3/3) while the Stormstrike buff is up; re-apply Flame Shock instead when it has < 3 s left or has dropped"}
+  - {priority: 6, action: "Never hold Stormstrike/Lightning Strike waiting for a Windfury window", condition: "always -- delaying costs ~0.2 auto-attacks worth of damage per Atreidon's math"}
+  - {priority: 7, action: "Re-cast Lightning Shield when charges run out; swap to Water Shield when mana is the constraint for the rest of the fight", condition: "resource management"}
+rotation_aoe:
+  - {targets_min: 2, priority: 1, action: "Keep the single-target loop on the kill target; no spread rotation given for DPS", condition: "2-3 targets"}
+  - {targets_min: 2, priority: 2, action: "Chain Lightning", condition: "worth considering even as melee, but costs a 2.5-s cast and 490 mana"}
+  - {targets_min: 4, priority: 1, action: "Run in, drop Fire Nova Totem (413-459 base, +30% Fire with Elemental Weapons Flametongue after a melee hit)", condition: "on pack arrival"}
+  - {targets_min: 4, priority: 2, action: "Follow with Magma Totem (650 mana) and Chain Lightning", condition: "sustained AoE"}
+  - {targets_min: 4, priority: 3, action: "Totemic Recall after the pack", condition: "25% refund per totem, +15% with Totemic Mastery"}
+aoe_threshold: 4
+cooldowns:
+  - {name: Bloodlust, use_when: "300-s CD; use at the start of a boss fight once Flame Shock/Stormstrike are up, and again on cooldown; +20% self haste 30 s, melee crits give party +8% for 6 s"}
+  - {name: "Feral Spirit (Orc racial)", use_when: "5-min CD; wolves scale with the shaman's damage, no longer with AP since CC2"}
+  - {name: "Blood Fury (Orc racial)", use_when: "AP/SP cooldown, -25% healing taken 25 s"}
+resource_rules:
+  - "Chug mana pots/tea on cooldown to sustain Lightning Shield longer; swap to Water Shield when low on mana"
+  - "Mana consumption drops in raids, especially with ferals around, Blessing of Kings, Mark of the Wild"
+  - "Water Shield + Lightning Strike is net mana-positive above 936 AP (18:1 ratio, written for tanks but applies to DPS with Water Shield)"
+  - "Drink between pulls in dungeons when below the mana for one full pack; in raids use Nordanaar Herbal Tea and Major Mana Potions on cooldown"
+consumables:
+  - "Elixir of the Mongoose, R.O.I.D.S., Juju Power, Dreamshard Elixir, Greater Arcane Elixir, Nordanaar Herbal Tea (starter)"
+  - "Concoction of the Emerald Mongoose, Concoction of the Arcane Giant, Concoction of the Dreamwater, Elixir of Greater Nature Power, Elixir of Greater Firepower, Flask of the Titans/Supreme Power, Spirit/Swiftness of Zanza, Mageblood, Elixir of Superior Defense, Danonzo's Tel'Abim Medley, Rumsey Rum Black Label / Medivh's Merlot, Juju Flurry, Major Mana Potion, Goblin Sapper Charge, Potion of Quickness (full raid list)"
+  - "Elixir of Brute Force, Power Mushroom, Juju Ember (Enhancement-specific additions)"
+mistakes_to_avoid:
+  - "Using Rockbiter or Earth Shock spam as DPS without Blessing of Salvation (threat)"
+  - "Holding Stormstrike/Lightning Strike for a Windfury window"
+  - "Flame Shock on targets that die in under 9 seconds"
+  - "Wearing 8/8 T3 for set bonuses while overcapping hit"
+  - "Expecting Windfury Totem to buff yourself while an imbue is active (it does not); dropping it for the party anyway"
+  - "Frostbrand on bosses (immune to Frost Shock's slow, so no guaranteed crits)"
+  - "Popping Bloodlust before Flame Shock/Stormstrike are set up or before you have crit to feed its party effect"
+  - "Chasing mp5/Int/Spirit gear instead of AP/hit/crit"
+  - "Dropping every totem every pull while soloing"
+  - "Assuming Flurry works from white-hit crits post-1.18.1, or that it is not overwritten by Elemental Weapons' Windfury haste (both reported bugged as of 2026-04-07)"

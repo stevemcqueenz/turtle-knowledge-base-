@@ -1,0 +1,87 @@
+class: Shaman
+spec: Elemental
+role: pvp
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: "2025-07-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=169701#p169701", author: Jamey, authority: staff, date: "2026-03-02"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171249#p171249", author: Zvyrhol, authority: player, date: "2026-03-18"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=130008#p130008", author: amanagor, authority: player, date: "2025-05-07"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=147963#p147963", author: Volkyte, authority: player, date: "2025-08-24"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=158461#p158461", author: Thelwald, authority: player, date: "2025-11-05"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=130102#p130102", author: ForumGentleman, authority: player, date: "2025-05-07"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=131960#p131960", author: amanagor, authority: player, date: "2025-05-19"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171242#p171242", author: Mdzielak, authority: player, date: "2026-03-18"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171236#p171236", author: Wosator, authority: player, date: "2026-03-18"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=169946#p169946", author: Grinched, authority: player, date: "2026-03-03"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=109178#p109178", author: Ataika, authority: player, date: "2024-11-21"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=137448#p137448", author: Voodoochile, authority: player, date: "2025-06-29"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=132316#p132316", author: Aluevera, authority: player, date: "2025-05-21"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=134228#p134228", author: Aluevera, authority: player, date: "2025-06-04"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=109192#p109192", author: Aluevera, authority: player, date: "2024-11"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=131896#p131896", author: Atreidon, authority: player, date: "2025-05-19"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=131910#p131910", author: Manletow, authority: player, date: "2025-05-19"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=165721#p165721", author: Sylbrosa, authority: player, date: "2026-01-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=165723#p165723", author: Kerenis, authority: player, date: "2026-01-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=174801#p174801", author: Atreidon, authority: player, date: "2026-04-11"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=109183#p109183", author: Manletow, authority: player, date: "2024-11-21"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=76808#p76808", author: Xudo, authority: player, date: "2023-11-10"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=130013#p130013", author: Gladeshadow, authority: player, date: "2025-05-07"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=130038#p130038", author: Springboards, authority: player, date: "2025-05-07"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171254#p171254", author: Turboman, authority: player, date: "2026-03-18"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108342#p108342", author: Manletow, authority: player, date: "2024-11-17"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=68018#p68018", author: Brisspvp, authority: player, date: "2023-10-02"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=120206#p120206", author: Bjorn88, authority: player, date: "2025-03"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=109484#p109484", author: Neechy, authority: player, date: "2024-11"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=107648#p107648", author: Ryken, authority: player, date: "2024-11"}
+agreement: contested
+patch_validity:
+  written_for: "pre-1.18.0 Electrify era (2024-10 .. 2025-08) and the 1.18.0 Elemental Mastery/Ancestral Swiftness rework"
+  valid_for_1181: false
+  notes: "No source describes Elemental PvP after 2026-03-20: 1.18.1 added per-class-spec PvP dampening (Shaman values not published), buffed Earthquake +15%/18-s CD, and turned Elemental Weapons' Rockbiter into Earthen Bulwark specifically to stop non-Enhancement specs using it as a passive PvP defensive layer. Aluevera's 31/17/0 build point count still roughly fits (Elemental Fury 2 pts replaced Electrify 1 pt; Reverberation 3 pts not 5), but the Electrify-specific steps in the rotation are obsolete since 2025-08-15."
+talents:
+  build_name: "Aluevera's 31/17/0 Elemental/Enhancement hybrid ('battle caster')"
+  build_link: null
+  points:
+    - {tree: Elemental, talent: "Elemental Mastery", rank: 1, spell_id: null}
+    - {tree: Elemental, talent: Reverberation, rank: 3, spell_id: null, note: "5 pts pre-1.18.0, 3 pts after"}
+    - {tree: Elemental, talent: "Elemental Fury", rank: 2, spell_id: null, note: "replaced the 1-pt Electrify talent in 1.18.0"}
+    - {tree: Enhancement, talent: "Lightning Strike", rank: 1, spell_id: null}
+    - {tree: Enhancement, talent: "Ancestral Guardian", rank: 3, spell_id: null}
+    - {tree: Enhancement, talent: "Spirit Armor", rank: 2, spell_id: null}
+    - {tree: Enhancement, talent: "Improved Ghost Wolf", rank: 0, spell_id: null}
+    - {tree: Enhancement, talent: "Stable Shields", rank: 0, spell_id: null, note: "contested: only worth it for Lightning Strike + slow weapons per Atreidon; defended for PvP by Manletow"}
+  leveling_order: []
+stat_weights:
+  spell_power: "priority ('u are still ele so u prio SP')"
+  stamina: "quest rings/necks toward ~5.4k HP in full T2.5"
+  spell_penetration: "matters against Nature-resist gear; no PvP hit target stated (gap)"
+  resilience: "1.18.1 PvP sets add it; values not stated for Shaman (gap)"
+caps: {}
+rotation_single:
+  - {priority: 1, action: "Cast Lightning Bolt/Chain Lightning at range; Flame Shock at 30 yd (Call of Flame) to open on approach", condition: "no kick/silence pressure"}
+  - {priority: 2, action: "Drop to shock range and rely on shocks + Lightning Bolt R1; keep Grounding Totem down before the enemy's key cast", condition: "vs a class with a silence/kick"}
+  - {priority: 3, action: "Swap to Earth Shield, cast 2x Lightning Bolt R1, swap to Lightning Shield, shock/Lightning Strike until the target dies or you escape", condition: "melee closes the gap before you finish casting; Lightning Strike works while silenced"}
+  - {priority: 4, action: "Earth Shock to interrupt heals/nukes (5-s CD with Reverberation); Frost Shock + Earthbind to peel/kite", condition: "on cooldown"}
+  - {priority: 5, action: "Heal with Earth Shield up (30% pushback resist, +70% with Call of Earth in 1.18.1); Water Shield when oom", condition: "sustain"}
+  - {priority: 6, action: "Elemental Mastery before a Chain Lightning + shock combo", condition: "1.18.0+; no PvP source describes exact timing (gap)"}
+rotation_aoe:
+  - {targets_min: 2, priority: 1, action: "Chain Lightning on groups, especially weakened groups", condition: "battleground group fights"}
+  - {targets_min: 2, priority: 2, action: "Earthquake for its splash/aftershock on clumps", condition: "the slow patch itself is 'entirely irrelevant' per Atreidon"}
+aoe_threshold: 2
+cooldowns:
+  - {name: "Grounding Totem", use_when: "20-s CD; breaks on the first CC it eats since 1.18.0 -- use strategically, do not waste it"}
+  - {name: "Ancestral Swiftness (Ele/Resto)", use_when: "instant max-rank heal, or a -25% instant Chain Lightning"}
+  - {name: "Ghost Wolf", use_when: "disengage/kite when melee is unwinnable"}
+resource_rules:
+  - "Water Shield while kiting; Mana Spring at a held node; potions"
+  - "Stay within 30 yd of your own totems when playing far back (Aluevera's noted downside)"
+consumables: []
+mistakes_to_avoid:
+  - "Free-casting Lightning Bolts into a kick/silence class instead of dropping to shock range"
+  - "Missing Grounding on Arcane Rupture or other big casts"
+  - "Leaving Earth Shield off when melee arrives"
+  - "Spamming Purge into its 8-s CD; wasting Grounding on a CC you could have eaten"
+  - "Outranging your own totems (30 yd) when playing far back"
+  - "Using Hex as an opener (5-min CD, only 4 s, pushback still applies)"
+  - "Trying to burst from zero without planning an Elemental Mastery/Elemental Fury window"

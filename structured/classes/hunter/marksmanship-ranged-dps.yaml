@@ -1,0 +1,105 @@
+class: Hunter
+spec: Marksmanship
+role: ranged-dps
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=83337#p83337", author: Steakhouse, authority: player, date: "2024-01-01"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=104588#p104588", author: Juzam, authority: "player (guild theorycrafter)", date: "2024-10-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=125834#p125834", author: Barwat1, authority: player, date: "2025-04-07"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141781#p141781", author: Cabum, authority: player, date: "2025-07-27"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=114199#p114199", author: Bigsmerf, authority: player, date: "2024-12-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=158027#p158027", author: Thricew, authority: player, date: "2025-11-01"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=160904#p160904", author: Skurridizo, authority: player, date: "2025-11-27"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=164321#p164321", author: Kerenis, authority: player, date: "2026-01-03"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171538#p171538", author: Baek, authority: player, date: "2026-03-21"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171649#p171649", author: SvenS2, authority: player, date: "2026-03-21"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102967#p102967", author: Dragunovi, authority: staff, date: "2024-10-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=105804#p105804", author: Dragunovi, authority: staff, date: "2024-11-01"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108776#p108776", author: Jamey, authority: staff, date: "2024-11-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460", author: Jamey, authority: staff, date: "2024-12-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: "2025-07-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149066#p149066", author: Jiav, authority: player, date: "2025-08-29"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=131377#p131377", author: SvenS2, authority: player, date: "2025-05-16"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=115058#p115058", author: ajax_808, authority: player, date: "2024-12-31"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=107692#p107692", author: Juzam, authority: player, date: "2024-11-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=117570#p117570", author: Bgnome, authority: player, date: "2025-01-22"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=140872#p140872", author: Calli, authority: player, date: "2025-07-22"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=140730#p140730", author: Atreidon, authority: player, date: "2025-07-21"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171531#p171531", author: Lane13, authority: player, date: "2026-03-21"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171502#p171502", author: Baek, authority: player, date: "2026-03-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166255#p166255", author: Atreidon, authority: player, date: "2026-01-24"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166287#p166287", author: Cheruscan, authority: player, date: "2026-01-24"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=105276#p105276", author: Dragunovi, authority: staff, date: "2024-10-30"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=91592#p91592", author: Likaleo, authority: player, date: "2024-03-28"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=119747#p119747", author: Carns, authority: player, date: "2025-02-12"}
+agreement: contested
+patch_validity:
+  written_for: "CC2/CC3 talent tree (Nov 2024 - Mar 2026), Steady Shot as a talent"
+  valid_for_1181: false
+  notes: "1.18.1 (live 2026-03-20) made Steady Shot and Trueshot Aura baseline, added Aimed Shot as the MM keystone, Experimental Ammunition and Lock and Load, and rebalanced Arcane Shot/Volley/Serpent Sting mana. Staff: 'Ranged variant of Hunter has fallen behind other damage dealers ... in raw DPS and in terms of gameplay' [Jamey, 2026-01-23]. No player posted a validated post-1.18.1 PvE build or DPS numbers before the 2026-05-15 shutdown; the post-1.18.1 rotation below is staff-tooltip-derived plus player fragments only."
+talents:
+  build_name: "Pre-1.18.1 deep MM raid build (union of named picks, no single full 51-point post exists)"
+  build_link: "https://talents.turtlecraft.gg/hunter?points=FQAYBoAoQCQQAAAoCoQBAoACAAAAAAAAAAAAAAAAAAA%3D (SvenS2's endgame link, opaque)"
+  points:
+    - {tree: Marksmanship, talent: "Lethal Shots", rank: 5, spell_id: null}
+    - {tree: Marksmanship, talent: Efficiency, rank: 5, spell_id: null}
+    - {tree: Marksmanship, talent: "Improved Stings", rank: "0-5", spell_id: null}
+    - {tree: Marksmanship, talent: "Hawk Eye", rank: 2, spell_id: null}
+    - {tree: Marksmanship, talent: "Steady Shot", rank: 1, spell_id: null}
+    - {tree: Marksmanship, talent: "Mortal Shots", rank: 5, spell_id: null}
+    - {tree: Marksmanship, talent: "Piercing Shots", rank: 2, spell_id: null}
+    - {tree: Marksmanship, talent: "Improved Steady Shot", rank: 2, spell_id: null}
+    - {tree: Marksmanship, talent: "Endless Quiver", rank: 2, spell_id: null}
+    - {tree: Marksmanship, talent: "Ranged Weapon Specialization", rank: 5, spell_id: null}
+    - {tree: Marksmanship, talent: "Trueshot Aura", rank: 1, spell_id: null}
+    - {tree: "Beast Mastery", talent: "Swift Aspects", rank: 5, spell_id: null}
+    - {tree: "Beast Mastery", talent: "Endurance Training / Thick Hide / Improved Revive Pet", rank: "filler to row 3", spell_id: null}
+  leveling_order: []
+stat_weights:
+  hit: "9% to cap at 300 weapon skill; ~6% at 305 (racial +5 bow/gun skill); ~5% at 315 (Trueaim Gauntlets + Sash of the Grand Hunt); a BiS-list author treats 7% as the practical minimum on current itemization; '1% hit is always a (slightly more than) 1% damage increase until you reach hit cap' [Juzam]; do not over-cap once T3 + Naxx hit gear is worn"
+  haste: "Turtle-specific stat: '1% haste is around 0.9% damage increase on bosses (single target) and 0.85% overall', no diminishing returns; becomes as good as crit in full Naxx gear [Juzam]; Rapid Fire cuts Steady from 1.5s to 1.1s; 1.18.1 also cuts Aimed Shot cast by 40% under Rapid Fire (staff)"
+  crit: "~0.9% damage per 1% for a raid-buffed Naxx hunter, slight diminishing returns; 53 agi = 1% crit, 1 agi = 2 RAP"
+  attack_power_agility: "measure per-item via unequip-and-read-DPS method; ~34 AP per 1% DPS at 340 base DPS per one measurement [Juzam]; spreadsheet weights: 1 agi = 3 AP-eq, 1% crit = 30 AP-eq [ajax_808]"
+  armor_penetration: "weak / largely ignored"
+  spell_power: "irrelevant for MM pre-1.18.1 (raising SP loses RAP); T2.5 spell power dead weight"
+  intellect_spirit_mp5: "matters on long fights but MM rarely goes OOM with Efficiency talented; post-1.18.1 Aspect of the Viper replaces drinking between pulls"
+caps:
+  melee_range_hit: "9% at 300 weapon skill (vanilla-baseline math; Turtle's exact linearized weapon-skill table is not published by staff)"
+rotation_single:
+  - {priority: 1, action: "Opener: pet attack (explicit key), Hunter's Mark, Aimed Shot only if the tank already has threat", condition: "pre-1.18.1 kit; post-1.18.1 Aimed Shot becomes a repeatable cooldown, not an opener-only cast"}
+  - {priority: 2, action: "Serpent Sting once", condition: "fight >= 30 s and mana allows; skip on trash and low mana"}
+  - {priority: 3, action: "Multi-Shot on cooldown (10 s), placed right after a Steady Shot so it does not delay the next Auto Shot", condition: "pre-1.18.1"}
+  - {priority: 4, action: "Steady Shot immediately after every Auto Shot", condition: "never delay the auto; with 3.2 speed and both haste buffs there is only ~29 ms of slack"}
+  - {priority: 5, action: "Arcane Shot", condition: "pre-1.18.1: only while moving or as filler with spare mana; post-1.18.1: on cooldown when mana >= 40%, now scales with weapon damage and is usable while moving"}
+  - {priority: 6, action: "Do not re-cast Aimed Shot mid-fight", condition: "pre-1.18.1 kit only"}
+  - {priority: 7, action: "Aimed Shot on cooldown (2 s cast, 20 s cd with Swiftshot 3/3; 1 s with Lock and Load)", condition: "post-1.18.1 kit; cast right after an auto like Steady"}
+  - {priority: 8, action: "Lock and Load proc: cast Aimed immediately", condition: "post-1.18.1 kit; reset from a Steady/Aimed/Arcane crit"}
+  - {priority: 9, action: "Spend the Experimental Ammunition buff before it cycles (1 min): Arcane -> Arcane Shot; Nature -> Serpent Sting; Fire -> Multi-Shot on 2+ targets", condition: "post-1.18.1 kit; staff describes the order as cycling Fire->Arcane->Nature, some players perceived it as random"}
+rotation_aoe:
+  - {targets_min: 2, priority: 1, action: "Multi-Shot on cooldown, keep the single-target loop otherwise; spread Serpent Sting only with plentiful mana", condition: "2-3 targets"}
+  - {targets_min: 4, priority: 1, action: "pre-1.18.1: skip Volley except vs large trash packs ('less than 8 targets it's actually a loss of dps' on the old channeled version); post-1.18.1: Volley (3 s cast, -2 s with Barrage) plus Fire-ammunition Multi-Shot, unbenchmarked", condition: "4+ targets"}
+aoe_threshold: 4
+cooldowns:
+  - {name: "Rapid Fire", use_when: "start of every boss and on cooldown for fights > 15 s; speeds Steady Shot casts and post-1.18.1 Aimed Shot by 40%; do not waste it while moving"}
+  - {name: "Aspect of the Viper", use_when: "post-1.18.1 only, mana < 20% with no burst planned or out of combat; swap back to Hawk before pulling (swaps cost mana and a GCD)"}
+  - {name: "Feign Death", use_when: "threat drop every 30 s; pet on follow/passive first"}
+resource_rules:
+  - "Five-second rule: bundle spells into bursts, then coast on Auto Shot to regen"
+  - "Raid regen from Blessing of Wisdom, mana totem, mana potions/tea, mana oil"
+  - "Drink out of combat below ~40% mana; hunters run '40-50% less mana' than casters"
+consumables:
+  - "Mana flask, Lesser Mana Oil x2, Mongoose, Mageblood, Grilled Squid, Ranged Bananafood, Major Mana Potion, Demonic Rune, Juju Might/Power for the pet, plus defensive consumables (raid list, Likaleo 2024-03-28)"
+  - "Elixir of Demonslaying, sharpening stones and the engineering chicken do NOT affect ranged damage"
+  - "Doomshot/Miniature Cannonballs best ammo, then AV quartermaster, then engineer Thorium; carry both arrow and bullet stacks"
+  - "Slowest ranged weapon available for the Steady/Multi weave (>= 3.2 speed); shoulder enchant Sapphiron AP/crit or 2% haste"
+mistakes_to_avoid:
+  - "Clipping Auto Shot with Steady Shot"
+  - "Casting Aimed Shot mid-fight pre-1.18.1, or standing still through an Aimed cast while a boss cleaves"
+  - "Wasting mana on Serpent Sting/Arcane Shot on trash that dies in 3 seconds"
+  - "Combined pet-attack + auto-shot macros in dungeons (pet body-pulls)"
+  - "Forgetting the pet is out during pulls, or letting it die in cleaves/Shadowflame instead of using Take Position"
+  - "Running out of ammo, or carrying only one ammo type"
+  - "Needing on melee weapons/leather"
+  - "Feigning with the pet still attacking (keeps you in combat)"
+  - "Not feeding the pet before bosses; sitting in Aspect of the Viper during a burst window"
+  - "Swapping aspects fluidly - each swap costs mana and halts regen for 5 s"

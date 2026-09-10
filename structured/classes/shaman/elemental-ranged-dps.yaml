@@ -1,0 +1,114 @@
+class: Shaman
+spec: Elemental
+role: ranged-dps
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102972#p102972", author: Dragunovi, authority: staff, date: "2024-10-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460", author: Jamey, authority: staff, date: "2024-12-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: "2025-07-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=145822#p145822", author: Torta, authority: staff, date: "2025-08-15"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=148454#p148454", author: Torta, authority: staff, date: "2025-08-26"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504", author: Torta, authority: staff, date: "2025-03-30"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168", author: Torta, authority: staff, date: "2025-10-03"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490", author: Torta, authority: staff, date: "2026-03-31"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=134625#p134625", author: Agentsmith, authority: player, date: "2025-06-07"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=117662#p117662", author: Akos1896, authority: player, date: "2025-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=174001#p174001", author: Atreidon, authority: player, date: "2026-04-04"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=172156#p172156", author: Atreidon, authority: player, date: "2026-03-24"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=174156#p174156", author: pagu, authority: player, date: "2026-04-06"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=175015#p175015", author: Mdzielak, authority: player, date: "2026-04-13"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=135886#p135886", author: Bigsmerf, authority: player, date: "2025-06-16"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=174801#p174801", author: Atreidon, authority: player, date: "2026-04-11"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=151552#p151552", author: pagu, authority: player, date: "2025-09-13"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=170416#p170416", author: Kokuyoo, authority: player, date: "2026-03-09"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171503#p171503", author: Kokuyoo, authority: player, date: "2026-03-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171699#p171699", author: Duids, authority: player, date: "2026-03-21"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=172687#p172687", author: Mdzielak, authority: player, date: "2026-03-27"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=174373#p174373", author: Mdzielak, authority: player, date: "2026-04-07"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=152498#p152498", author: Elisleris, authority: player, date: "2025-09-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=153164#p153164", author: Duids, authority: player, date: "2025-09-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166819#p166819", author: pagu, authority: player, date: "2026-01-29"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715", author: Skegg, authority: "player (guide writer)", date: "2025-09-01"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=110875#p110875", author: Mimiwarmini, authority: "player (guide writer)", date: "2024-12-02"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=175219#p175219", author: Atreidon, authority: player, date: "2026-04-14"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=153069#p153069", author: Duids, authority: player, date: "2025-09-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=136616#p136616", author: Agentsmith, authority: player, date: "2025-06-22"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=150999#p150999", author: Skegg, authority: player, date: "2025-09-09"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=175273#p175273", author: Mdzielak, authority: player, date: "2026-04-15"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=151369#p151369", author: Duids, authority: player, date: "2025-09-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=152504#p152504", author: Duids, authority: player, date: "2025-09-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=167850#p167850", author: Mimiwarmini, authority: player, date: "2026-02-10"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=168359#p168359", author: Atreidon, authority: player, date: "2026-02-15"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=159080#p159080", author: Ironbob, authority: player, date: "2025-11-10"}
+agreement: contested
+patch_validity:
+  written_for: "1.18.0 rework (Electrify -> Elemental Fury, Earthquake, Molten Blast; live 2025-08-15)"
+  valid_for_1181: false
+  notes: "1.18.1 added Call of Earth, buffed Earthquake base damage +15% and CD to 18 s, made Elemental Weapons' Flametongue conditional on a melee hit (deliberately weakening the Fire-Elemental playstyle), and added a relic-swap GCD. Players report Earthquake broken/underperforming (only 2 hits, no Elemental Fury bonus on the second) through 2026-04-07 with no staff confirmation of a nerf beyond 'fixed multiple issues'. No post-1.18.1 build or rotation update exists; treat rotation/stat priority as pre-1.18.1 with the flagged deltas applied."
+talents:
+  build_name: "Named core Elemental build (consensus; no full point-by-point 60 build posted in text)"
+  build_link: null
+  points:
+    - {tree: Elemental, talent: Convection, rank: 5, spell_id: null}
+    - {tree: Elemental, talent: Concussion, rank: 5, spell_id: null}
+    - {tree: Elemental, talent: "Elemental Devastation", rank: 3, spell_id: null}
+    - {tree: Elemental, talent: "Elemental Focus", rank: 1, spell_id: null}
+    - {tree: Elemental, talent: "Call of Thunder", rank: 5, spell_id: null}
+    - {tree: Elemental, talent: Reverberation, rank: 3, spell_id: null}
+    - {tree: Elemental, talent: "Call of Flame", rank: 3, spell_id: null}
+    - {tree: Elemental, talent: "Improved Fire Totems", rank: 2, spell_id: null}
+    - {tree: Elemental, talent: "Improved Molten Blast", rank: 2, spell_id: null}
+    - {tree: Elemental, talent: "Elemental Fury", rank: 2, spell_id: null}
+    - {tree: Elemental, talent: "Elemental Mastery", rank: 1, spell_id: null}
+    - {tree: Elemental, talent: "Lightning Mastery", rank: 5, spell_id: null}
+    - {tree: Elemental, talent: Earthquake, rank: 1, spell_id: null}
+    - {tree: Enhancement, talent: "Ancestral Knowledge", rank: 5, spell_id: null}
+    - {tree: Enhancement, talent: "Thundering Strikes / Stable Shields", rank: 0, spell_id: null, note: "filler points, as reachable"}
+  leveling_order: []
+stat_weights:
+  spell_hit: "15-17% (Skegg: hit > crit > spd > int); Elemental Devastation gives 3%, T3 4-set +3% overcaps: full T3 6% + 3% set bonus + Elemental Devastation = 12% without jewelry (Atreidon)"
+  crit: "mana engine via Elemental Focus/Clearcasting; prioritized over haste at low crit"
+  haste: "capped near 17% for single target (Lightning Mastery interaction); more haste only pushes Lightning Bolt faster than the GCD (Atreidon)"
+  spell_power_intellect: "as much as possible after hit; ~4k mana pool recommended fresh 60"
+  attack_power: "small but real for the Flame Shock DoT tick (~0.012 dps per AP, 0.02 if snapshotted)"
+  spell_penetration: "matters against Nature-resistant bosses until Lower Karazhan enchants or a Thunderfury tank are available (single source)"
+caps:
+  spell_hit: "15-17% (boss level 63)"
+  haste_softcap: "~17% for single target (Atreidon)"
+rotation_single:
+  - {priority: 1, action: "Pre-pull: Strength of Earth/Windfury/Flametongue for the melee group, Mana Spring, Searing Totem on the boss, Water Shield (mana) or Earth Shield (pushback, boosted by Call of Earth in 1.18.1), Brilliant Wizard Oil", condition: "before pull"}
+  - {priority: 2, action: "Flame Shock, snapshotted with trinkets/Elemental Mastery/procs", condition: "opener; lasts 15 s (+6 s with T2 3-set); reapplying early loses the snapshot"}
+  - {priority: 3, action: "Lightning Bolt filler, Chain Lightning on cooldown when mana allows (3-4 LB per CL depending on haste)", condition: "single-target filler; CL is marginal single-target without the T2.5 5-set"}
+  - {priority: 4, action: "Molten Blast when Flame Shock has <= 3 s left", condition: "refresh the DoT just before it expires; refreshing early is a DPS loss; skip entirely with 5/5 T3.5 (it does not refresh the set bonus)"}
+  - {priority: 5, action: "Earthquake on cooldown", condition: "only if it will not delay the T3.5 haste buff and the target will live > 4 s; post-1.18.1 sources call it worse than a Lightning Bolt"}
+  - {priority: 6, action: "Elemental Mastery on cooldown (3-min CD, 10-s +15% dmg / -20% mana)", condition: "align with the Flame Shock snapshot and the T3.5 haste proc"}
+  - {priority: 7, action: "Earth Shock (20 yd) or Flame Shock (30 yd with Call of Flame) while moving", condition: "movement-heavy fights"}
+  - {priority: 8, action: "Molten Blast spam + Flame Shock + Searing/Magma", condition: "Nature-immune targets (Dragons of Nightmare, Chromaggus/Incantagos)"}
+rotation_aoe:
+  - {targets_min: 2, priority: 1, action: "Chain Lightning on cooldown (3 targets, -30% per bounce, +1 target with T2.5 5-set)", condition: "2-3 targets"}
+  - {targets_min: 2, priority: 2, action: "Flame Shock on the longest-lived target, Lightning Bolt filler", condition: "2-3 targets"}
+  - {targets_min: 4, priority: 1, action: "Run in and drop Fire Nova Totem, then Magma Totem", condition: "4+ targets, melee range reachable"}
+  - {targets_min: 4, priority: 2, action: "Earthquake for hard packs or unreachable packs", condition: "primary target must not die early, leave the pack, or resist (0 damage on resist)"}
+aoe_threshold: 4
+cooldowns:
+  - {name: "Elemental Mastery", use_when: "3-min CD, on cooldown, aligned with Flame Shock snapshot / T3.5 haste window"}
+  - {name: "Ancestral Swiftness (if Resto points taken)", use_when: "emergency instant heal, or an instant Chain Lightning at -25% damage (mostly PvP)"}
+resource_rules:
+  - "Water Shield by default; Mana Spring, potions and tea sustain even long fights without Water Shield once geared"
+  - "Being oom after a fight is not an issue; being oom in a fight is (Atreidon)"
+  - "In low gear, use a lot of potions and tea; expect to drink heavily while leveling"
+  - "Drink after every pack in dungeons"
+consumables:
+  - "Major Healing Potion / Potion of Quickness, Flask of Supreme Power, Elixir of Greater Nature Power, Greater Firepower, Greater Arcane Elixir, Dreamshard Elixir, Dreamtonic, Elixir of the Sage, Danonzo's Tel'Abim Delight, Spirit of Zanza, Cerebral Cortex Compound, Juju Ember, Juju Flurry, Rumsey Rum/Medivh's Merlot Blue, Whipper Root Tuber, Brilliant Wizard Oil"
+  - "Nordanaar Herbal Tea + Major Mana Potion on cooldown"
+mistakes_to_avoid:
+  - "Letting Flame Shock drop and reapplying an unsnapshotted DoT, or refreshing it early with Molten Blast"
+  - "Casting Earthquake on a target that will die or move, or at all in most 1.18.1 AoE situations"
+  - "Spamming Chain Lightning in bad gear and going oom mid-fight"
+  - "Overcapping hit (8/8 T3 + Elemental Devastation) or overcapping haste past ~17% with T3.5"
+  - "Using Searing Totem near CC or patrols"
+  - "Relying on the old Eye of the Storm instead of Earth Shield / Call of Earth on pushback-heavy fights"
+  - "Playing Fire Elemental into MC/Onyxia/BWL fire-immune or fire-resistant bosses"
+  - "Casting Molten Blast while wearing 5/5 T3.5 (it does not refresh the set bonus)"
+  - "Casting from outside 20 yd on movement fights so no shock is available"
+  - "Expecting Windfury/Flametongue totems to buff yourself -- they buff the party only"

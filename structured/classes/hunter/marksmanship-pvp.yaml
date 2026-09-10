@@ -1,0 +1,80 @@
+class: Hunter
+spec: "Marksmanship / BM-MM hybrid / deep BM"
+role: pvp
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=118488#p118488", author: Angelafarehart, authority: player, date: "2025-01-30"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=118367#p118367", author: Staywhimsy, authority: player, date: "2025-01-29"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=160362#p160362", author: Insanefool, authority: player, date: "2025-11-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171638#p171638", author: Tomogwarrior, authority: player, date: "2026-03-21"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=175013#p175013", author: Froghijab420, authority: player, date: "2026-04-13"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=175482#p175482", author: Bazbee, authority: player, date: "2026-04-16"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=100665#p100665", author: Akalix, authority: staff, date: "2024-09-04"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102967#p102967", author: Dragunovi, authority: staff, date: "2024-10-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=105804#p105804", author: Dragunovi, authority: staff, date: "2024-11-01"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: "2025-07-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=169733#p169733", author: Bugranger, authority: player, date: "2026-03-02"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108124#p108124", author: Ragetto, authority: player, date: "2024-11-16"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=160904#p160904", author: Skurridizo, authority: player, date: "2025-11-27"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=173793#p173793", author: Sbingo, authority: player, date: "2026-04-02"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=103588#p103588", author: Xudo, authority: player, date: "2024-10-18"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=173363#p173363", author: Baek, authority: player, date: "2026-03-31"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=175410#p175410", author: Halfgeek9, authority: player, date: "2026-04-16"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=143068#p143068", author: Atreidon, authority: player, date: "2025-08-04"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=86718#p86718", author: Anadrol, authority: player, date: "2024-02-02"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=123657#p123657", author: Bigsmerf, authority: player, date: "2025-03-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=100702#p100702", author: Grizb37, authority: player, date: "2024-09-05"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=100699#p100699", author: Atreidon, authority: player, date: "2024-09-05"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=170657#p170657", author: Spitfire33, authority: player, date: "2026-03-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=169860#p169860", author: Springboards, authority: player, date: "2026-03-03"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=169046#p169046", author: Flexdraw, authority: player, date: "2026-02-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=142285#p142285", author: Jiav, authority: player, date: "2025-07-31"}
+agreement: contested
+patch_validity:
+  written_for: "0/21/30 MM/Survival (obsolete after CC2, 2024-11-01), 30/21/0 BM/MM hybrid (the recommended PvP build Nov 2024 - Mar 2026), deep BM (post-1.18.1)"
+  valid_for_1181: unknown
+  notes: "1.18.1 (2026-03-20) returned Bestial Wrath and reworked Kill Command to require a hunter crit; the 30/21/0 hybrid loses the Kill Command capstone under the new tree. Pets do not take PvP dampening post-1.18.1 (player reports, not a staff patch note), making deep BM the emerging PvP recommendation, but this is contested ('PvP is also not about waiting for your BM pet to kill stuff' - Insanefool) and no talent link exists for the post-1.18.1 PvP build."
+talents:
+  build_name: "30/21/0 BM/MM stun+Scatter (Ragetto) - recommended PvP build Nov 2024 - Mar 2026"
+  build_link: "https://talents.turtlecraft.gg/hunter?points=FYACBoAoJCQYAAFACoQBAoIAAAAAAAAAAAAAAAAAAAA%3D"
+  points:
+    - {tree: "Beast Mastery", talent: Intimidation, rank: 1, spell_id: null}
+    - {tree: "Beast Mastery", talent: "Swift Aspects", rank: 5, spell_id: null}
+    - {tree: "Beast Mastery", talent: "Spirit Bond", rank: 2, spell_id: null}
+    - {tree: "Beast Mastery", talent: Frenzy, rank: 3, spell_id: null}
+    - {tree: Marksmanship, talent: "Scatter Shot", rank: 1, spell_id: null}
+    - {tree: Marksmanship, talent: "Hawk Eye", rank: 2, spell_id: null}
+    - {tree: Marksmanship, talent: "Mortal Shots", rank: 5, spell_id: null}
+    - {tree: Marksmanship, talent: "Improved Stings", rank: "1+", spell_id: null}
+  leveling_order: []
+stat_weights:
+  stamina: "matters more than in PvE"
+  hit: "matters more than in PvE"
+  weapon_skill: "'has no impact for pvp' [amanagor]"
+  armor_penetration: "none available - plate/leather-druid targets are 'nearly hopeless'"
+caps: {}
+rotation_single:
+  - {priority: 1, action: "Opener: Hunter's Mark, pet attack, Concussive Shot, rank-1 Viper Sting on healers/dispellers to bait mana, then Auto Shot + Multi-Shot + Steady/Arcane while standing still briefly between kites", condition: "range control"}
+  - {priority: 2, action: "Scatter Shot -> Feign Death (pet on follow/passive first) -> Freezing Trap -> walk to range -> Viper/Aimed", condition: "melee closes the gap; place the trap first when possible since the DR fix halved post-Scatter trap duration"}
+  - {priority: 3, action: "Wing Clip, Raptor Strike + Mongoose Bite, Intimidation (pet stun), Deterrence", condition: "melee range without cooldowns"}
+  - {priority: 4, action: "Frost Trap kiting after Feign Death", condition: "sustained kite"}
+  - {priority: 5, action: "Pet on target, Bestial Wrath when the pet is CC'd or for a kill window, Kill Command after every crit, Steady/Arcane from range", condition: "deep BM post-1.18.1"}
+rotation_aoe: []
+aoe_threshold: 0
+cooldowns:
+  - {name: "Feign Death", use_when: "every 30 s; pet on follow+passive first or you stay in combat"}
+  - {name: "Rapid Fire", use_when: "only when the target is stationary/CC'd; stacks with Troll Berserking"}
+  - {name: "Scatter Shot", use_when: "opener or to walk a target into a pre-placed trap; shares DR with Freezing Trap since 2024-09-04"}
+  - {name: "Bestial Wrath / Kill Command", use_when: "hold for the pet's CC-break, not for damage, unless a kill window is open (deep BM/post-1.18.1)"}
+resource_rules:
+  - "Hunters oom faster than casters ('40-50% less mana')"
+  - "Feign Death + Aspect of the Viper between fights post-1.18.1; drink after Feign Death"
+  - "Do not spam Viper Sting on a single dispelling target"
+consumables: []
+mistakes_to_avoid:
+  - "Scatter Shot into a trap without pre-placing it (half duration since the DR fix)"
+  - "Feigning with the pet still attacking (stays in combat) or Aimed Shot on a moving target"
+  - "Burning Bestial Wrath/Kill Command for damage instead of holding it as the pet's CC-break"
+  - "Standing in the 8-yd dead zone; swapping to Aspect of the Wolf just to hit a mob twice"
+  - "Night Elf/Shadowmeld ambush builds - 'Turtle gimped that'"
+  - "Trueshot Aura or cat pets in PvP"
