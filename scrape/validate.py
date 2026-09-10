@@ -89,8 +89,15 @@ def main():
             tid = int(m.group(1))
             if tid not in topics:
                 unresolved.setdefault(rel, set()).add("t=%d" % tid)
-        if re.search(r"synthesis/classes/[a-z]+/[a-z]+-(tank|healer|melee-dps|ranged-dps|pvp)\.md$", rel):
-            missing = [h for h in PLAYBOOK_HEADINGS if not re.search(r"^#+\s*.*%s" % re.escape(h), text, re.M | re.I)]
+        mrole = re.search(r"synthesis/classes/[a-z]+/[a-z]+-(tank|healer|melee-dps|ranged-dps|pvp)\.md$", rel)
+        if mrole:
+            role = mrole.group(1)
+            need = PLAYBOOK_HEADINGS
+            if role == "healer":
+                need = [h for h in PLAYBOOK_HEADINGS if h not in ("Single-target rotation", "Multi-target")]
+            elif role == "pvp":
+                need = ["Overview", "Talent build", "Sources"]
+            missing = [h for h in need if not re.search(r"^#+\s*.*%s" % re.escape(h), text, re.M | re.I)]
             if missing:
                 print("PLAYBOOK missing headings", rel, missing)
                 bad += 1
