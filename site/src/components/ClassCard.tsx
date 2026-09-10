@@ -1,52 +1,81 @@
-import type { ClassEntry } from '../types';
+import type { ClassEntry, MatrixRow } from '../types';
 import { href } from '../lib/router';
-import { classRoles, favoredSpecs, roleLabel } from '../lib/site';
+import { standingMeta } from '../lib/site';
 import { readableColor } from '../lib/theme';
 import { useThemeValue } from '../lib/theme-context';
+import { homeSpecRows, levelingPick, playbookForRow, roleShort } from './class/data';
+
+/** Where a spec row leads: its own guide when one exists, else the class page. */
+function rowTarget(entry: ClassEntry, row: MatrixRow): string {
+  const playbook = playbookForRow(entry, row);
+  return playbook ? href.playbook(entry.slug, playbook.id) : href.class(entry.slug);
+}
 
 export function ClassCard({ entry }: { entry: ClassEntry }) {
   const theme = useThemeValue();
   const ink = readableColor(entry.color, theme);
-  const favored = favoredSpecs(entry);
-  const roles = classRoles(entry);
+  const rows = homeSpecRows(entry);
+  const leveling = levelingPick(entry);
 
   return (
-    <a
-      href={href.class(entry.slug)}
-      className="group card flex min-w-0 flex-col gap-2 overflow-hidden break-words p-0 transition-colors hover:border-[color:var(--hover-border)]"
-      style={{ ['--hover-border' as string]: `${entry.color}66` }}
+    <article
+      className="card flex min-w-0 flex-col gap-2.5 overflow-hidden break-words p-5"
+      style={{ borderTopWidth: '3px', borderTopColor: ink }}
     >
-      <span aria-hidden="true" className="h-1 w-full" style={{ backgroundColor: entry.color }} />
-      <div className="flex flex-1 flex-col gap-2 p-4">
-        <div className="flex items-baseline justify-between gap-2">
-          <h2 className="text-lg font-semibold" style={{ color: ink }}>
+      <div className="flex items-baseline justify-between gap-2">
+        <h3 className="min-w-0 text-xl font-extrabold">
+          <a href={href.class(entry.slug)} style={{ color: ink }} className="hover:underline">
             {entry.name}
-          </h2>
-          <span className="text-xs text-muted">
-            {entry.playbooks.length} playbook{entry.playbooks.length === 1 ? '' : 's'}
-          </span>
-        </div>
-        <ul className="mt-auto flex flex-wrap gap-1.5 pt-1">
-          {favored.length > 0
-            ? favored.slice(0, 4).map((row, i) => (
-                <li key={`${row.spec}-${row.role}-${i}`} className="chip hairline bg-surface2 text-xs text-muted">
-                  <span
-                    className="h-1.5 w-1.5 rounded-full"
-                    style={{ backgroundColor: readableColor('#3ddc84', theme) }}
-                    aria-hidden="true"
-                  />
-                  <span className="text-ink">{row.spec}</span>
-                  <span>{roleLabel(row.role)}</span>
-                </li>
-              ))
-            : roles.map((r) => (
-                <li key={r} className="chip hairline bg-surface2 text-xs text-muted">
-                  {roleLabel(r)}
-                </li>
-              ))}
-          {entry.leveling ? <li className="chip hairline bg-surface2 text-xs text-muted">Leveling</li> : null}
-        </ul>
+          </a>
+        </h3>
+        <span className="shrink-0 text-xs text-muted">
+          {entry.playbooks.length} guide{entry.playbooks.length === 1 ? '' : 's'}
+        </span>
       </div>
-    </a>
+
+      {rows.length === 0 ? (
+        <p className="text-sm text-muted">No spec is rated for this class yet.</p>
+      ) : (
+        <ul className="flex flex-col">
+          {rows.map((row) => (
+            <li key={row.spec}>
+              <a
+                href={rowTarget(entry, row.chips[0].row)}
+                className="-mx-1.5 flex items-center justify-between gap-2 rounded-lg px-1.5 py-1.5 transition-colors hover:bg-surface2"
+              >
+                <span className="min-w-0 truncate text-[13px] font-semibold">{row.spec}</span>
+                <span className="flex shrink-0 flex-wrap justify-end gap-1">
+                  {row.chips.map((chip) => {
+                    const meta = standingMeta(chip.standing);
+                    const color = readableColor(meta?.color ?? '#8a8f98', theme);
+                    return (
+                      <span
+                        key={chip.role}
+                        className="chip text-[11px] font-semibold"
+                        style={{ color, backgroundColor: `${color}1f`, border: `1px solid ${color}59` }}
+                        title={`${meta?.label ?? chip.standing} for ${roleShort(chip.role)}`}
+                      >
+                        <span className="sr-only">{meta?.label ?? chip.standing}: </span>
+                        {roleShort(chip.role)}
+                      </span>
+                    );
+                  })}
+                </span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      )}
+
+      <p className="mt-auto border-t pt-2.5 text-xs text-muted">
+        {leveling ? (
+          <>
+            Level as <span className="font-semibold text-ink">{leveling}</span>
+          </>
+        ) : (
+          'No leveling spec is favored in the sources.'
+        )}
+      </p>
+    </article>
   );
 }

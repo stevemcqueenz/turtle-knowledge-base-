@@ -1,68 +1,87 @@
 import type { MatrixRow, Playbook } from '../types';
-import { href } from '../lib/router';
-import { agreementMeta, patchValidityMeta, standingMeta } from '../lib/site';
-import { Badge } from './Badge';
+import { standingMeta } from '../lib/site';
+import { readableColor } from '../lib/theme';
+import { useThemeValue } from '../lib/theme-context';
+import { firstSentence } from './class/data';
 import { ChevronRightIcon } from './Icons';
 
 interface SpecCardProps {
-  slug: string;
-  playbook?: Playbook;
-  row?: MatrixRow | null;
-  accent: string;
+  row: MatrixRow;
+  playbook?: Playbook | null;
+  /** Where the card leads: a spec guide, the leveling guide, or nowhere. */
+  target?: string | null;
+  targetLabel?: string;
 }
 
-/** One spec inside a role tab: standing, agreement and patch-validity badges. */
-export function SpecCard({ slug, playbook, row, accent }: SpecCardProps) {
-  const matrixRow = playbook?.standing ?? row ?? null;
-  const standing = standingMeta(matrixRow?.standing);
-  const agreement = agreementMeta(playbook?.yaml?.agreement ?? matrixRow?.agreement ?? null);
-  const validity = patchValidityMeta(playbook?.yaml);
-    const title = playbook
-    ? `${playbook.spec} — ${playbook.roleLabel}`
-    : (row?.spec ?? 'No spec covered by the sources');
-  const target = playbook ? href.playbook(slug, playbook.id) : null;
+/** One spec inside a role column: standing, a one-line verdict and its chips. */
+export function SpecCard({ row, playbook, target, targetLabel }: SpecCardProps) {
+  const theme = useThemeValue();
+  const standing = standingMeta(row.standing);
+  const standingColor = readableColor(standing?.color ?? '#8a8f98', theme);
+  const isFavored = String(row.standing).toLowerCase() === 'favored';
+  const name = row.spec ?? playbook?.spec ?? 'Unnamed spec';
+  const note = firstSentence(row.notes);
+  const agreement = String(row.agreement ?? playbook?.yaml?.agreement ?? '');
+  const contested = /contested/i.test(agreement);
+  const validFor1181 = playbook?.yaml?.patch_validity?.valid_for_1181 === true;
+  const accentInk = readableColor('#4dd0e1', theme);
 
   const body = (
     <>
-      <div className="flex items-start justify-between gap-3">
-        <div className="min-w-0">
-          <h3 className="text-base font-semibold">{title}</h3>
-          {playbook?.title ? <p className="mt-0.5 truncate text-xs text-muted">{playbook.title}</p> : null}
+      <div className="flex items-start justify-between gap-2">
+        <h4 className="min-w-0 text-[15px] font-bold leading-snug">{name}</h4>
+        <span
+          className="chip shrink-0 text-[11px] font-bold"
+          style={{ color: standingColor, backgroundColor: `${standingColor}24` }}
+        >
+          {standing?.label ?? String(row.standing)}
+        </span>
+      </div>
+
+      {note ? <p className="text-[13px] leading-relaxed text-muted">{note}</p> : null}
+
+      {contested || validFor1181 ? (
+        <div className="flex flex-wrap gap-1.5">
+          {contested ? (
+            <span className="chip hairline text-[11px] text-muted" title={agreement}>
+              Standing contested
+            </span>
+          ) : null}
+          {validFor1181 ? (
+            <span
+              className="chip text-[11px]"
+              style={{ color: accentInk, border: `1px solid ${accentInk}66` }}
+              title="The guide has been checked against patch 1.18.1"
+            >
+              1.18.1
+            </span>
+          ) : null}
         </div>
-        {target ? (
-          <span className="mt-1 shrink-0 text-muted transition-transform group-hover:translate-x-0.5">
-            <ChevronRightIcon />
-          </span>
-        ) : null}
-      </div>
-
-      <div className="flex flex-wrap gap-1.5">
-        {standing ? <Badge label={standing.label} color={standing.color} title={standing.title} /> : null}
-        {agreement ? <Badge label={agreement.label} color={agreement.color} title={agreement.title} /> : null}
-        {validity ? <Badge label={validity.label} color={validity.color} title={validity.title} /> : null}
-      </div>
-
-      {matrixRow?.notes ? <p className="text-sm text-muted">{matrixRow.notes}</p> : null}
-      {matrixRow?.source_quality ? (
-        <p className="text-xs text-muted">
-          <span className="font-semibold uppercase tracking-wider">Source quality</span> · {matrixRow.source_quality}
-        </p>
       ) : null}
-      {!playbook ? (
-        <p className="text-xs text-muted">No dedicated playbook in the repository for this combination.</p>
-      ) : null}
+
+      {target ? (
+        <span className="mt-auto inline-flex items-center gap-1 pt-1 text-[12px] font-semibold text-muted transition-colors group-hover:text-ink">
+          {targetLabel ?? 'Open the guide'}
+          <ChevronRightIcon className="h-3.5 w-3.5" />
+        </span>
+      ) : (
+        <span className="mt-auto pt-1 text-[12px] text-muted">No separate guide for this pick.</span>
+      )}
     </>
   );
 
+  const style = isFavored ? { borderColor: `${standingColor}73` } : undefined;
+  const className = 'card flex min-w-0 flex-col gap-2 break-words p-4';
+
   if (!target) {
-    return <div className="card flex min-w-0 flex-col gap-2 break-words">{body}</div>;
+    return (
+      <div className={className} style={style}>
+        {body}
+      </div>
+    );
   }
   return (
-    <a
-      href={target}
-      className="group card flex min-w-0 flex-col gap-2 break-words transition-colors hover:border-[color:var(--hover-border)]"
-      style={{ ['--hover-border' as string]: `${accent}66` }}
-    >
+    <a href={target} className={`group ${className} transition-colors hover:border-[color:var(--hover-border)]`} style={{ ...style, ['--hover-border' as string]: `${standingColor}99` }}>
       {body}
     </a>
   );

@@ -1,16 +1,25 @@
 import { useMemo, useRef, useState } from 'react';
-import { classes, matrix, meta } from '../lib/site';
+import { classes, matrix, standingMeta } from '../lib/site';
 import { search, type SearchItem } from '../lib/search';
 import { navigate, href } from '../lib/router';
+import { readableColor } from '../lib/theme';
+import { useThemeValue } from '../lib/theme-context';
 import { ClassCard } from '../components/ClassCard';
-import { MatrixGrid, StandingLegend } from '../components/MatrixGrid';
+import { MatrixGrid } from '../components/MatrixGrid';
 import { SearchIcon, ChevronRightIcon } from '../components/Icons';
 
 interface HomeProps {
   onGlossary: (term: string) => void;
 }
 
+const LEGEND: { standing: string; text: string }[] = [
+  { standing: 'favored', text: 'Favored by the community' },
+  { standing: 'alternative', text: 'Alternative' },
+  { standing: 'niche', text: 'Niche' },
+];
+
 export function Home({ onGlossary }: HomeProps) {
+  const theme = useThemeValue();
   const [query, setQuery] = useState('');
   const [active, setActive] = useState(0);
   const [focused, setFocused] = useState(false);
@@ -41,17 +50,21 @@ export function Home({ onGlossary }: HomeProps) {
   };
 
   return (
-    <div className="mx-auto max-w-6xl px-3 py-8 sm:px-5">
-      <section className="mb-8">
-        <h1 className="text-2xl font-semibold sm:text-3xl">Turtle WoW 1.18.1 class guides, built from the archived forums</h1>
-        <p className="mt-2 max-w-prose text-muted">
-          {meta.counts?.classes ?? classes.length} classes · {meta.counts?.playbooks ?? 0} spec playbooks ·{' '}
-          {meta.counts?.matrixRows ?? 0} spec/role verdicts · {meta.counts?.glossaryTerms ?? 0} glossary terms. Every
-          line is quoted from a cited forum post.
+    <div className="mx-auto max-w-6xl px-3 py-8 sm:px-5 sm:py-12">
+      <section className="flex flex-col items-center gap-4 text-center">
+        <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-muted">
+          Turtle WoW 1.18.1 class guides
+        </p>
+        <h1 className="max-w-3xl text-[28px] font-extrabold leading-[1.08] tracking-tight sm:text-4xl lg:text-[44px]">
+          Play your class the way Turtle players actually did
+        </h1>
+        <p className="max-w-xl text-[15px] leading-relaxed text-muted">
+          Builds, leveling paths, stat caps and rotations for patch 1.18.1, distilled from the archived forums. Pick a
+          class to start.
         </p>
 
-        <div ref={boxRef} className="relative mt-5 max-w-xl">
-          <div className="flex items-center gap-2 rounded-xl bg-surface hairline px-3 py-2.5">
+        <div ref={boxRef} className="relative mt-1 w-full max-w-xl text-left">
+          <div className="flex h-12 items-center gap-2.5 rounded-xl bg-surface hairline px-4">
             <span className="text-muted">
               <SearchIcon />
             </span>
@@ -69,9 +82,9 @@ export function Home({ onGlossary }: HomeProps) {
               aria-expanded={showResults}
               aria-controls="home-search-results"
               aria-autocomplete="list"
-              placeholder="Search a class, spec, playbook or term…"
+              placeholder="Try &ldquo;enhancement tank&rdquo; or &ldquo;hit cap&rdquo;"
               aria-label="Search classes, specs, playbooks and glossary terms"
-              className="w-full bg-transparent text-sm outline-none placeholder:text-muted"
+              className="w-full bg-transparent text-[15px] outline-none placeholder:text-muted"
             />
           </div>
           {showResults ? (
@@ -104,30 +117,47 @@ export function Home({ onGlossary }: HomeProps) {
         </div>
       </section>
 
-      <section aria-labelledby="classes-heading" className="mb-10">
-        <h2 id="classes-heading" className="mb-3 text-sm font-semibold uppercase tracking-wider text-muted">
+      <section aria-labelledby="classes-heading" className="mt-10">
+        <h2 id="classes-heading" className="sr-only">
           Classes
         </h2>
-        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {classes.map((entry) => (
             <ClassCard key={entry.slug} entry={entry} />
           ))}
         </div>
       </section>
 
-      <section aria-labelledby="matrix-heading">
+      <div className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-2 text-[13px] text-muted">
+        {LEGEND.map((item) => {
+          const meta = standingMeta(item.standing)!;
+          return (
+            <span key={item.standing} className="inline-flex items-center gap-1.5">
+              <span
+                className="h-2 w-2 rounded-full"
+                style={{ backgroundColor: readableColor(meta.color, theme) }}
+                aria-hidden="true"
+              />
+              {item.text}
+            </span>
+          );
+        })}
+        <span className="sm:ml-auto">Every recommendation links to the forum post it came from.</span>
+      </div>
+
+      <section aria-labelledby="matrix-heading" className="mt-12">
         <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
           <h2 id="matrix-heading" className="text-sm font-semibold uppercase tracking-wider text-muted">
             Spec × role matrix
           </h2>
-          <a href={href.matrix()} className="inline-flex items-center gap-1 text-sm text-[rgb(var(--c-accent))] hover:underline">
+          <a
+            href={href.matrix()}
+            className="inline-flex items-center gap-1 text-sm text-[rgb(var(--c-accent))] hover:underline"
+          >
             Full matrix and coverage <ChevronRightIcon />
           </a>
         </div>
         <MatrixGrid rows={matrix.rows} roles={matrix.roles} />
-        <div className="mt-3">
-          <StandingLegend />
-        </div>
       </section>
     </div>
   );
