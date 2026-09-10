@@ -45,7 +45,7 @@ Player verdict on the new Lightwell is **contested**: healers-only design ("Now 
 
 ### (b) Reconstructed 1.18.1 raid build (17/34/0 shape), Turtle talent names
 
-Marked **[cited]** when a source names the talent for a healer, **[fill]** when it is only a path/prerequisite choice. Total 51.
+Marked **[cited]** when a source names the talent for a healer, **[fill]** when it is only a path/prerequisite choice. The Holy talents named by sources add up to 36, two more than the 34 of the 17/34/0 shape (Langorn's "6 free points"): drop Holy Reach (2) for the plain 17/34, or drop Improved Renew (Sharmaine's "trap talent") to fit Book of Prayer. Discipline 17 + Holy 34 = 51.
 
 | Tree | Talent | Points | Basis |
 |---|---|---|---|
@@ -60,7 +60,7 @@ Marked **[cited]** when a source names the talent for a healer, **[fill]** when 
 | Holy | Improved Renew | 3/3 | [cited] Hawkbutt, Ironhorse; **contested**: "trap talent ... only affects base healing" — [Sharmaine (player), 2025-10-13](https://forum.turtlecraft.gg/viewtopic.php?p=155346#p155346) |
 | Holy | Divinity | 5/5 | [cited] Langorn (5% Holy crit); crit also procs Inspiration |
 | Holy | Divine Fury | 5/5 | [cited] Hawkbutt, Langorn |
-| Holy | Holy Reach | 2/2 | [cited] Langorn 17/34 variant (optional) |
+| Holy | Holy Reach | 0-2 | [cited] Langorn 17/34 variant (optional; the 2 points that push the list to 36) |
 | Holy | Holy Nova | 1/1 | [cited] Langorn 17/34 variant (optional) |
 | Holy | Inspiration | 3/3 | [cited] Langorn: "a crit with any direct healing spell will buff our target for 25% more armor, which is huge on a tank" |
 | Holy | Improved Healing | 3/3 | [cited] Hawkbutt |

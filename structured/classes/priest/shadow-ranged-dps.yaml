@@ -85,7 +85,7 @@ cooldowns:
   - {name: Vampiric Embrace, use_when: "every boss opener; not on Nefarian; not on short trash"}
   - {name: Inner Focus, use_when: "free Mind Blast on cooldown, or emergency heal out of form"}
   - {name: Fade, use_when: "threat meter near tank (-15% total threat + Improved Fade retention in 1.18.1)"}
-  - {name: Power Word: Shield (self), use_when: "before AoE/pushback phases (castable in Shadowform)"}
+  - {name: "Power Word: Shield (self)", use_when: "before AoE/pushback phases (castable in Shadowform)"}
   - {name: Pain Spike, use_when: "execute / killing-blow fishing for Spirit Tap"}
   - {name: Berserking (Troll), use_when: "burst windows"}
 resource_rules:

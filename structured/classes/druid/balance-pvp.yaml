@@ -1,0 +1,58 @@
+class: druid
+spec: balance
+role: pvp
+playbook: synthesis/classes/druid/pvp.md
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=143254#p143254", author: Turboman, authority: "player (moonkin PvP main)", date: 2025-08-05, era: pre-1.18.1}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=172460#p172460", author: Froghijab420, authority: player, date: 2026-03-25, era: post-1.18.1}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=160309#p160309", author: Turboman, authority: player, date: 2025-11-22, era: 1.18.1-announced-pre-release}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=157409#p157409", author: Turboman, authority: player, date: 2025-10-27, era: 1.18.1-announced-pre-release}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=143211#p143211", author: Thaladar, authority: player, date: 2025-08-05, era: pre-1.18.1}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=165799#p165799", author: amanagor, authority: player, date: 2026-01-21, era: 1.18.1-announced-pre-release}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=169246#p169246", author: Fusketa, authority: player, date: 2026-02-23, era: 1.18.1-announced-pre-release}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=110263#p110263", author: Templar85, authority: player, date: 2024-11-27, era: pre-1.18.1}
+agreement: contested
+agreement_notes: "30/0/21 endorsed by Turboman and Froghijab420 (post-1.18.1); Thaladar/Maximage dissent; 'strong in AB premades / Blood Ring' vs 'bottom of hybrids in 1v1'"
+patch_validity:
+  written_for: "1.18.0 tree"
+  valid_for_1181: true
+  notes: "Froghijab420 restates 30/0/21 as best PvP balance spec after 1.18.1; Eclipse/BoAT changes affect PvE rotation more than the kite playstyle; 1.18.1 dampening values unpublished"
+talents:
+  build_name: "30/0/21 kite build"
+  build_links:
+    - {url: "https://talents.turtlecraft.gg/druid?points=pgCDYCFYBIAAAAAAAAAAAAAAAAAAAooADJDCIAAAAAA=", note: "Turboman 30-0-21; may move 4 points Nature's Grasp -> Omen"}
+    - {url: "https://talents.turtlecraft.gg/druid?points=pACbQKAAAAAAAAFACYBAAAAAAAAAAooADJDCIAAAAAA=", note: "Turboman 19-11-21 (stun, armor, charge; no Moonkin)"}
+  points:
+    - {tree: Balance, talent: Moonkin Form, rank: 1, spell_id: null, sourced: true}
+    - {tree: Balance, talent: Moonfury, rank: 3, spell_id: null, sourced: true}
+    - {tree: Balance, talent: "Nature's Grasp / Improved Nature's Grasp", rank: 5, spell_id: null, sourced: true, note: "or move 4 to Omen"}
+    - {tree: Restoration, talent: Swiftmend, rank: 1, spell_id: null, sourced: true}
+    - {tree: Restoration, talent: "Nature's Swiftness", rank: 1, spell_id: null, sourced: true}
+    - {tree: Restoration, talent: Subtlety, rank: 0, spell_id: null, sourced: true}
+  points_note: "Partial; links are opaque"
+  leveling_order: []
+stat_weights:
+  stamina: 1
+  pvp_set_bonus: "mandatory (r13 3-piece per Turboman)"
+  spell_power: "3 ('Trying to go full spd is silly'; ~450-500 Moonfire with full SP build)"
+caps: {}
+rotation_single:
+  - {priority: 1, action: "Moonfire + Insect Swarm", condition: "Dot up, keep HoTs on self"}
+  - {priority: 2, action: "Entangling Roots / Nature's Grasp", condition: "Outdoors; kite"}
+  - {priority: 3, action: "Wrath", condition: "Occasionally while kiting; never turret"}
+  - {priority: 4, action: "Bear / Travel form", condition: "Focused / escape"}
+rotation_aoe: []
+aoe_threshold: 0
+cooldowns:
+  - {name: "Nature's Swiftness + Healing Touch", use_when: "Emergency"}
+  - {name: Swiftmend, use_when: "Emergency"}
+  - {name: Barkskin, use_when: "Rogue opener sequence: LAP, FF, Nature's Grasp, Barkskin, Rejuv, Regrowth, DoTs, create distance"}
+  - {name: Innervate, use_when: "Attrition"}
+resource_rules:
+  - "T2 5-set + Idol of the Moonfang: Moonfire crits heal + shield (Fusketa)"
+consumables:
+  - "Living Action Potion, Free Action Potion, crunchy bread (Blind), Titan flask (Turboman)"
+mistakes_to_avoid:
+  - "Playing as a stationary caster"
+  - "Full spell-power gearing over stamina"
+  - "Skipping the PvP set bonus"

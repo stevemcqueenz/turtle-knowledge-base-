@@ -1,30 +1,30 @@
 {
  "interval_s": 0.67,
- "pending": 5167,
+ "pending": 357,
  "sections": {
   "forum-14": {
    "claimed": 0,
-   "done": 0,
+   "done": 8911,
    "failed": 0,
-   "queued": 240
+   "queued": 0
   },
   "forum-17": {
    "claimed": 0,
-   "done": 0,
+   "done": 163,
    "failed": 0,
-   "queued": 5
+   "queued": 0
   },
   "forum-18": {
    "claimed": 0,
-   "done": 0,
-   "failed": 0,
-   "queued": 23
+   "done": 830,
+   "failed": 1,
+   "queued": 0
   },
   "forum-19": {
    "claimed": 0,
-   "done": 0,
-   "failed": 0,
-   "queued": 4
+   "done": 135,
+   "failed": 2,
+   "queued": 0
   },
   "forum-2": {
    "claimed": 0,
@@ -34,15 +34,15 @@
   },
   "forum-22": {
    "claimed": 0,
-   "done": 0,
+   "done": 146,
    "failed": 0,
-   "queued": 5
+   "queued": 0
   },
   "forum-23": {
    "claimed": 0,
-   "done": 0,
+   "done": 327,
    "failed": 0,
-   "queued": 10
+   "queued": 0
   },
   "forum-28": {
    "claimed": 0,
@@ -52,21 +52,21 @@
   },
   "forum-29": {
    "claimed": 0,
-   "done": 0,
+   "done": 443,
    "failed": 0,
-   "queued": 9
+   "queued": 0
   },
   "forum-3": {
    "claimed": 0,
-   "done": 343,
+   "done": 4766,
    "failed": 0,
-   "queued": 4423
+   "queued": 0
   },
   "forum-32": {
    "claimed": 0,
-   "done": 0,
-   "failed": 0,
-   "queued": 5
+   "done": 157,
+   "failed": 1,
+   "queued": 0
   },
   "forum-33": {
    "claimed": 0,
@@ -82,9 +82,9 @@
   },
   "forum-4": {
    "claimed": 0,
-   "done": 0,
+   "done": 3355,
    "failed": 0,
-   "queued": 89
+   "queued": 0
   },
   "forum-40": {
    "claimed": 0,
@@ -142,15 +142,15 @@
   },
   "forum-50": {
    "claimed": 0,
-   "done": 0,
+   "done": 76,
    "failed": 0,
-   "queued": 3
+   "queued": 0
   },
   "forum-56": {
    "claimed": 0,
-   "done": 0,
+   "done": 54,
    "failed": 0,
-   "queued": 2
+   "queued": 9
   },
   "forum-63": {
    "claimed": 0,
@@ -166,9 +166,9 @@
   },
   "forum-72": {
    "claimed": 0,
-   "done": 0,
+   "done": 30,
    "failed": 0,
-   "queued": 1
+   "queued": 0
   },
   "forum-73": {
    "claimed": 0,
@@ -203,9 +203,9 @@
  },
  "total": {
   "claimed": 0,
-  "done": 4048,
-  "failed": 2,
-  "queued": 5167
+  "done": 23098,
+  "failed": 6,
+  "queued": 357
  },
- "ts": "2026-09-10T08:38:23Z"
+ "ts": "2026-09-10T12:46:52Z"
 }

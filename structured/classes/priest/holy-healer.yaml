@@ -34,7 +34,7 @@ talents:
     - {tree: Holy, talent: Improved Renew, rank: 3, spell_id: null}
     - {tree: Holy, talent: Divinity, rank: 5, spell_id: null}
     - {tree: Holy, talent: Divine Fury, rank: 5, spell_id: null}
-    - {tree: Holy, talent: Holy Reach, rank: 2, spell_id: null}
+    - {tree: Holy, talent: "Holy Reach (optional; Langorn 17/34 variant - listed Holy talents exceed 34 by 2, so drop Holy Reach or Improved Renew)", rank: 0, spell_id: null}
     - {tree: Holy, talent: Holy Nova, rank: 1, spell_id: null}
     - {tree: Holy, talent: Inspiration, rank: 3, spell_id: null}
     - {tree: Holy, talent: Improved Healing, rank: 3, spell_id: null}

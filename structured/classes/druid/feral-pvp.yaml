@@ -1,0 +1,70 @@
+class: druid
+spec: feral
+role: pvp
+playbook: synthesis/classes/druid/pvp.md
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=165799#p165799", author: amanagor, authority: player, date: 2026-01-21, era: 1.18.1-announced-pre-release}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=74040#p74040", author: Jstansberry, authority: player, date: 2023-10-26, era: pre-1.18.1}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=73796#p73796", author: Manletow, authority: player, date: 2023-10-25, era: pre-1.18.1}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=76016#p76016", author: Mackylol, authority: player, date: 2023-11-05, era: pre-1.18.1}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=75762#p75762", author: Gantulga, authority: player, date: 2023-11-03, era: pre-1.18.1}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=85018#p85018", author: Grizb37, authority: player, date: 2024-01-17, era: pre-1.18.1}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=95356#p95356", author: Grizb37, authority: player, date: 2024-05-21, era: pre-1.18.1}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=95354#p95354", author: Templar85, authority: player, date: 2024-05-21, era: pre-1.18.1}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=110263#p110263", author: Templar85, authority: player, date: 2024-11-27, era: pre-1.18.1}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=156428#p156428", author: Frantsel, authority: player, date: 2025-10-21, era: 1.18.1-announced-pre-release}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=157409#p157409", author: Turboman, authority: "player (moonkin PvP main)", date: 2025-10-27, era: 1.18.1-announced-pre-release}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=107713#p107713", author: Xfraz, authority: player, date: 2024-11-12, era: pre-1.18.1}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=36461#p36461", author: Jammyxx, authority: player, date: 2023-03-01, era: pre-1.18.1}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102966#p102966", author: Dragunovi, authority: staff, date: 2024-10-12, era: pre-1.18.1}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: 2026-01-23, era: 1.18.1-announced-pre-release}
+agreement: contested
+agreement_notes: "Consensus: best WSG flag carrier / Blood Ring pick; contested 1v1 tier (S vs C); Frenzied Regen nerf consensus"
+patch_validity:
+  written_for: "batch-2 / 1.18.0 kit (Frenzied Regen 5-min, Barkskin Feral, consumables in form)"
+  valid_for_1181: unknown
+  notes: "1.18.1 added class-dependent PvP dampening (values not published on forum) and Maul/Savage Bite threat nerfs (irrelevant to PvP). No post-1.18.1 feral PvP build posted."
+talents:
+  build_name: "Full feral with Omen of Clarity (Grizb37): HotW, Feral Swiftness, Feral Charge, Leader of the Pack, Frenzied Regen"
+  build_links:
+    - {url: "https://talents.turtlecraft.gg/druid/P23I6-U2I6-5X36JU", note: "Zahnfee 2024 outlast hybrid - rejected by Drubarrymooer/Grizb37/Holyhorrorr"}
+  points:
+    - {tree: Feral, talent: Heart of the Wild, rank: 5, spell_id: null, sourced: true}
+    - {tree: Feral, talent: Feral Swiftness, rank: 2, spell_id: null, sourced: true}
+    - {tree: Feral, talent: Feral Charge, rank: 1, spell_id: null, sourced: true}
+    - {tree: Feral, talent: Leader of the Pack, rank: 1, spell_id: null, sourced: true}
+    - {tree: Feral, talent: Sharpened Claws, rank: 3, spell_id: null, sourced: true, note: "'11% crit from talents'"}
+    - {tree: Balance, talent: Omen of Clarity, rank: 1, spell_id: null, sourced: true}
+  points_note: "Partial; the PvP feral spec is a separate spec slot per Snkx"
+  leveling_order: []
+stat_weights:
+  stamina: 1
+  pvp_set_bonus: "mandatory (3-piece r13 per Turboman; 4-piece speed per Frantsel)"
+  stealth_detection: "58 from goggles 18 + catseye elixir 10 + pvp gloves 10 + dyad 10 (Blackduck4)"
+  resilience: "does not save you (Turboman)"
+caps: {}
+rotation_single:
+  - {priority: 1, action: "Bear form + HoTs before flag pickup", condition: "Flag carrier"}
+  - {priority: 2, action: "Feral Charge", condition: "Gap close / interrupt (half Intercept CD)"}
+  - {priority: 3, action: "Shift out/in", condition: "Clear snares/roots"}
+  - {priority: 4, action: "Frenzied Regeneration", condition: "Focused; eats all rage; ~25% HP at full rage post-nerf"}
+  - {priority: 5, action: "Barkskin (Feral), Bash / War Stomp", condition: "Focused / casters"}
+  - {priority: 6, action: "Cat Ravage/Shred burst", condition: "On casters; shift to bear when focused"}
+rotation_aoe: []
+aoe_threshold: 0
+cooldowns:
+  - {name: "Frenzied Regeneration", use_when: "Emergency; 5-min CD"}
+  - {name: Berserk, use_when: "Bear HP / cat burst; 6-min"}
+  - {name: "Barkskin (Feral)", use_when: "Melee focus"}
+  - {name: "Nature's Grasp / Entangling Roots", use_when: "Outdoors kiting; stomp + roots + travel form (Jammyxx)"}
+  - {name: "PvP trinket", use_when: "Kidney Shot; expect Blind after"}
+resource_rules:
+  - "Consumables (LIP/FAP/potions) usable in forms since batch 2; jujus/bandages since 1.18.0"
+  - "Frenzied Regeneration consumes all rage"
+consumables:
+  - "Living Action Potion, Free Action Potion, Orb of Deception, crunchy bread for Blind (Turboman/Frantsel)"
+mistakes_to_avoid:
+  - "Caster form when a rogue is expected"
+  - "Sitting in bear expecting to kill"
+  - "Dropping the PvP set bonus for PvE ilvl"
+  - "Emptying rage into Frenzied Regen while needing Maul/Bash"
