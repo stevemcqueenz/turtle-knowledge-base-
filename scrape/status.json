@@ -1,6 +1,6 @@
 {
  "interval_s": 0.67,
- "pending": 1134,
+ "pending": 1084,
  "sections": {
   "forum-14": {
    "claimed": 0,
@@ -172,9 +172,9 @@
   },
   "forum-73": {
    "claimed": 0,
-   "done": 36,
+   "done": 86,
    "failed": 0,
-   "queued": 250
+   "queued": 200
   },
   "forum-74": {
    "claimed": 0,
@@ -203,9 +203,9 @@
  },
  "total": {
   "claimed": 0,
-  "done": 3198,
+  "done": 3248,
   "failed": 2,
-  "queued": 1134
+  "queued": 1084
  },
- "ts": "2026-09-10T08:27:44Z"
+ "ts": "2026-09-10T08:28:21Z"
 }
