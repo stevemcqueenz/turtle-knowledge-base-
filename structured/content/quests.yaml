@@ -1,0 +1,4099 @@
+about: Custom and Turtle-modified quests. Every field is taken verbatim from the community wiki Questbox unless noted. Not an official source. See synthesis/content/quests-and-questlines.md.
+generated_from:
+- structured/wiki/quests.jsonl
+record_count: 274
+caveats:
+- quest_id is present on 182 of 274 records; absent where the wiki gives none.
+- No source in this extraction gives quest-giver coordinates.
+- reputation/experience/rewards strings are reproduced as written on the wiki, including typos.
+quests:
+- name: Troubles From Distant Lands
+  zone_or_category: Barrens
+  level: '13'
+  faction: Neutral
+  start_npc: Aneka Konko
+  end_npc: Aneka Konko
+  reputation: +100 Kontsuma
+  experience: '900'
+  rewards: 'Music: Winds of Kamio'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Troubles_From_Distant_Lands
+- name: Translating The Unknown
+  zone_or_category: Tel'Abim
+  level: '52'
+  faction: Neutral
+  start_npc: A Strange Parchment
+  end_npc: Aneka Konko
+  next: An Exile's Regret
+  reputation: +25 Kontsuma
+  experience: '1875'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Translating_The_Unknown
+- name: An Exile's Regret
+  zone_or_category: Tel'Abim
+  level: '52'
+  faction: Neutral
+  start_npc: Aneka Konko
+  end_npc: Inconspicuous Totem
+  previous: Translating The Unknown
+  next: To Heal A Soul
+  reputation: +25 Kontsuma
+  experience: '1375'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/An_Exile%27s_Regret
+- name: To Heal A Soul
+  zone_or_category: Tel'Abim
+  level: '52'
+  faction: Neutral
+  start_npc: Inconspicuous Totem
+  end_npc: Aneka Konko
+  previous: An Exile's Regret
+  reputation: +250 Kontsuma
+  experience: '5875'
+  rewards: Kabuto of the Senshi or Kabuto of the Protector
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/To_Heal_A_Soul
+- name: An Opportunity to Dig Deep
+  zone_or_category: Tel'Abim
+  level: '57'
+  faction: Neutral
+  start_npc: Archaeologist Trixia Goldspark
+  end_npc: Archaeologist Trixia Goldspark
+  next: Azotha Gold
+  reputation: +250 Ratchet
+  experience: '4875'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/An_Opportunity_to_Dig_Deep
+- name: Azotha Gold
+  zone_or_category: Tel'Abim
+  level: '57'
+  faction: Neutral
+  start_npc: Archaeologist Trixia Goldspark
+  end_npc: Archaeologist Trixia Goldspark
+  previous: An Opportunity to Dig Deep
+  reputation: +250 Ratchet
+  experience: '4500'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Azotha_Gold
+- name: Finding Bixxle!
+  zone_or_category: Tel'Abim
+  level: '56'
+  faction: Neutral
+  start_npc: Baron Telraz
+  end_npc: Bixxle Screwfuse
+  next: A Report From Bixxle
+  experience: '650'
+  is_turtle_content: true
+  patch: 1.16.4
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Finding_Bixxle!
+- name: A Report From Bixxle
+  zone_or_category: Tel'Abim
+  level: '56'
+  faction: Neutral
+  start_npc: Bixxle Screwfuse
+  end_npc: Baron Telraz
+  previous: Finding Bixxle!
+  experience: '1400'
+  is_turtle_content: true
+  patch: 1.16.4
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/A_Report_From_Bixxle
+- name: The Mystery of Karazhan V
+  quest_id: '40315'
+  zone_or_category: Deadwind Pass
+  level: '60'
+  level_requirement: '58'
+  faction: Alliance
+  type: Group
+  start_npc: Magus Ariden Dusktower
+  end_npc: Magus Ariden Dusktower
+  previous: The Mystery of Karazhan IV
+  next: The Mystery of Karazhan VI
+  reputation: +250 Dalaran
+  experience: '6250'
+  is_turtle_content: true
+  patch: 1.16.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Mystery_of_Karazhan_V
+- name: The Rebellion
+  zone_or_category: Gilneas
+  level: '40'
+  faction: Alliance
+  start_npc: Lord Darius Ravenwood
+  end_npc: Lord Darius Ravenwood
+  experience: '450'
+  is_turtle_content: true
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Rebellion
+- name: The Balance of Power
+  zone_or_category: Durotar
+  level: '14'
+  faction: Horde
+  start_npc: Thrall
+  end_npc: Mally O'Flor
+  previous: The Warchief's Orders
+  next: A Favor for Mally
+  reputation: +75 Orgrimmar
+  experience: '220'
+  is_turtle_content: true
+  patch: 1.16.4
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Balance_of_Power
+- name: The Fall and Rise of Greymane
+  zone_or_category: Gilneas
+  level: '46'
+  faction: Alliance
+  start_npc: Lord Darius Ravenwood
+  end_npc: Lord Darius Ravenwood
+  previous: Assaulting Freyshear Keep
+  experience: '7400'
+  rewards: Ravenshire Tabard, Choice of:, Ravenwood Belt,, Signet of Gilneas, or, Ravenshire Gloves
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Fall_and_Rise_of_Greymane
+- name: Report to Livia Strongarm
+  zone_or_category: Gilneas
+  level: '45'
+  faction: Horde
+  start_npc: Blackthorn
+  end_npc: Livia Strongarm
+  previous: To Gilneas
+  next: Rendezvous with the Infiltrator
+  reputation: +85 Undercity
+  experience: '75'
+  is_turtle_content: true
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Report_to_Livia_Strongarm
+- name: To Gilneas
+  zone_or_category: Gilneas
+  level: '41'
+  faction: Horde
+  start_npc: Dark Ranger Anya
+  end_npc: Blackthorn
+  next: Report to Livia Strongarm, Report to Luke Agamand
+  reputation: +100 Undercity
+  experience: '375'
+  is_turtle_content: true
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/To_Gilneas
+- name: Report to Luke Agamand
+  zone_or_category: Gilneas
+  level: '45'
+  faction: Horde
+  start_npc: Blackthorn
+  end_npc: Luke Agamand
+  previous: To Gilneas
+  next: Heist in Dryrock Mine
+  reputation: +50 Undercity
+  experience: '75'
+  is_turtle_content: true
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Report_to_Luke_Agamand
+- name: Heist in Dryrock Mine
+  zone_or_category: Gilneas
+  level: '45'
+  faction: Horde
+  start_npc: Luke Agamand
+  end_npc: Luke Agamand
+  previous: Report to Luke Agamand
+  next: Quality Time with Blackthorn
+  reputation: +250 Undercity
+  experience: '3375'
+  is_turtle_content: true
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Heist_in_Dryrock_Mine
+- name: Rendezvous with the Infiltrator
+  zone_or_category: Gilneas
+  level: '45'
+  faction: Horde
+  start_npc: Livia Strongarm
+  end_npc: Livia Strongarm
+  previous: Report to Livia Strongarm
+  next: Quality Time with Blackthorn
+  reputation: +250 Undercity
+  experience: '1275'
+  is_turtle_content: true
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Rendezvous_with_the_Infiltrator
+- name: Quality Time with Blackthorn
+  zone_or_category: Gilneas
+  level: '46'
+  faction: Horde
+  start_npc: Blackthorn
+  end_npc: Blackthorn
+  previous: Heist in Dryrock Mine, Rendezvous with the Infiltrator
+  next: Genn Greymane Must Die!
+  reputation: +250 Undercity
+  experience: '3175'
+  is_turtle_content: true
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Quality_Time_with_Blackthorn
+- name: Genn Greymane Must Die!
+  zone_or_category: Gilneas City
+  level: '49'
+  faction: Horde
+  type: Dungeon
+  start_npc: Blackthorn
+  end_npc: Blackthorn
+  previous: Quality Time with Blackthorn
+  reputation: +500 Undercity
+  experience: '6200'
+  rewards: Choice of:, Blackthorn Gauntlets,, Banshee's Tear, or, Dark Footpad Belt
+  is_turtle_content: true
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Genn_Greymane_Must_Die!
+- name: An Audience With the Prince
+  zone_or_category: Thalassian Highlands
+  level: '9'
+  faction: Alliance
+  start_npc: Grand Magister Rommath
+  end_npc: Grand Magister Rommath
+  previous: Rommath, the Traitor
+  next: Rommath, the Saviour
+  experience: '90'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/An_Audience_With_the_Prince
+- name: The Tower of Lapidis II
+  zone_or_category: Lapidis Isle
+  level: '55'
+  faction: Alliance
+  start_npc: Hydromancer Flakereef
+  end_npc: Archmage Ansirem Runeweaver
+  previous: The Tower of Lapidis (quest)
+  next: The Tower of Lapidis III
+  reputation: +50 Kul Tiras
+  experience: '300'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Tower_of_Lapidis_II
+- name: The Tower of Lapidis III
+  zone_or_category: Lapidis Isle
+  level: '55'
+  faction: Alliance
+  start_npc: Archmage Ansirem Runeweaver
+  end_npc: Archmage Ansirem Runeweaver
+  previous: The Tower of Lapidis II
+  next: The Tower of Lapidis IV
+  reputation: +125 Kul Tiras
+  experience: '4750'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Tower_of_Lapidis_III
+- name: Fate Of The Harborage
+  zone_or_category: Swamp of Sorrows
+  level: '60'
+  faction: Neutral
+  type: Raid
+  start_npc: Kas'tal
+  end_npc: Sanv K'la
+  previous: An Echo From Beyond
+  next: Manifested Oddities
+  reputation: +1000 Draenei Exiles
+  experience: '8300'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Fate_Of_The_Harborage
+- name: The Tower of Lapidis IV
+  zone_or_category: Lapidis Isle
+  level: '55'
+  faction: Alliance
+  start_npc: Archmage Ansirem Runeweaver
+  end_npc: Archmage Ansirem Runeweaver
+  previous: The Tower of Lapidis III
+  next: The Tower of Lapidis V
+  reputation: +50 Kul Tiras
+  experience: '400'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Tower_of_Lapidis_IV
+- name: The Tower of Lapidis V
+  zone_or_category: Lapidis Isle
+  level: '55'
+  faction: Alliance
+  start_npc: Archmage Ansirem Runeweaver
+  end_npc: Hydromancer Flakereef
+  previous: The Tower of Lapidis IV
+  next: The Tower of Lapidis VI
+  reputation: +25 Kul Tiras
+  experience: '400'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Tower_of_Lapidis_V
+- name: The Tower of Lapidis
+  zone_or_category: Lapidis Isle
+  level: '55'
+  faction: Alliance
+  start_npc: Colonel Hardinus
+  end_npc: Hydromancer Flakereef
+  next: The Tower of Lapidis II
+  reputation: +10 Kul Tiras
+  experience: '300'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Tower_of_Lapidis_(quest)
+- name: The Tower of Lapidis VI
+  zone_or_category: Lapidis Isle
+  level: '55'
+  faction: Alliance
+  start_npc: Hydromancer Flakereef
+  end_npc: Magus Valgon
+  previous: The Tower of Lapidis V
+  next: The Tower of Lapidis VII
+  reputation: +25 Kul Tiras
+  experience: '400'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Tower_of_Lapidis_VI
+- name: The Tower of Lapidis VII
+  zone_or_category: Lapidis Isle
+  level: '55'
+  faction: Alliance
+  start_npc: Magus Valgon
+  end_npc: Insom'ni
+  previous: The Tower of Lapidis VI
+  next: The Tower of Lapidis VIII
+  reputation: +50 Kul Tiras
+  experience: '450'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Tower_of_Lapidis_VII
+- name: The Tower of Lapidis V
+  zone_or_category: Lapidis Isle
+  level: '55'
+  faction: Alliance
+  start_npc: Insom'ni
+  end_npc: Insom'ni
+  previous: The Tower of Lapidis VII
+  next: The Tower of Lapidis IX
+  reputation: +125 Kul Tiras
+  experience: '4750'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Tower_of_Lapidis_VIII
+- name: The Tower of Lapidis IX
+  zone_or_category: Lapidis Isle
+  level: '55'
+  faction: Alliance
+  start_npc: Insom'ni
+  end_npc: Hydromancer Flakereef
+  previous: The Tower of Lapidis VIII
+  next: The Tower of Lapidis X
+  reputation: +25 Kul Tiras
+  experience: '450'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Tower_of_Lapidis_IX
+- name: The Tower of Lapidis X
+  zone_or_category: Lapidis Isle
+  level: '55'
+  faction: Alliance
+  start_npc: Hydromancer Flakereef
+  end_npc: Colonel Hardinus
+  previous: The Tower of Lapidis IX
+  reputation: +500 Kul Tiras
+  experience: '5750'
+  rewards: Choice of:, Kul Tiras Marine Helmet,, Hydromancer's Peak, or, Sailor's Headband
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Tower_of_Lapidis_X
+- name: The Warchief's Orders
+  zone_or_category: Durotar
+  level: '10'
+  faction: Horde
+  start_npc: Warbringer Dar'nakk
+  end_npc: Thrall
+  previous: The Second Wave
+  next: The Balance of Power
+  reputation: +75 Orgrimmar
+  experience: '150'
+  is_turtle_content: true
+  patch: 1.16.4
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Warchief%27s_Orders
+- name: A Favor for Mally
+  zone_or_category: Durotar
+  level: '14'
+  faction: Horde
+  start_npc: Mally O'Flor
+  end_npc: Mally O'Flor
+  previous: The Balance of Power
+  next: Information for Thrall
+  reputation: +150 Orgrimmar
+  experience: '920'
+  is_turtle_content: true
+  patch: 1.16.4
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/A_Favor_for_Mally
+- name: Information for Thrall
+  zone_or_category: Durotar
+  level: '14'
+  faction: Horde
+  start_npc: Mally O'Flor
+  end_npc: Thrall
+  previous: A Favor for Mally
+  next: A War Worth Fighting
+  reputation: +75 Orgrimmar
+  experience: '370'
+  is_turtle_content: true
+  patch: 1.16.4
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Information_for_Thrall
+- name: A War Worth Fighting
+  zone_or_category: Durotar
+  level: '15'
+  faction: Horde
+  start_npc: Thrall
+  end_npc: Warbringer Dar'nakk
+  previous: Information for Thrall
+  next: Anchor's End, Cutting Ranks
+  reputation: +50 Orgrimmar
+  experience: '210'
+  is_turtle_content: true
+  patch: 1.16.4
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/A_War_Worth_Fighting
+- name: Anchor's End
+  zone_or_category: Durotar
+  level: '19'
+  faction: Horde
+  start_npc: Warbringer Dar'nakk
+  end_npc: Warbringer Dar'nakk
+  previous: A War Worth Fighting
+  next: Lieutenant Alverold
+  reputation: +300 Orgrimmar
+  experience: '1650'
+  is_turtle_content: true
+  patch: 1.16.4
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Cutting_Ranks
+- name: Anchor's End
+  zone_or_category: Durotar
+  level: '17'
+  faction: Horde
+  start_npc: Warbringer Dar'nakk
+  end_npc: Warbringer Dar'nakk
+  previous: A War Worth Fighting
+  next: Lieutenant Alverold
+  reputation: +250 Orgrimmar
+  experience: '1500'
+  is_turtle_content: true
+  patch: 1.16.4
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Anchor%27s_End
+- name: Lieutenant Alverold
+  zone_or_category: Durotar
+  level: '20'
+  faction: Horde
+  type: Group
+  start_npc: Warbringer Dar'nakk
+  end_npc: Warbringer Dar'nakk
+  previous: Anchor's End, Cutting Ranks
+  next: A Hero's Reward
+  reputation: +500 Orgrimmar
+  experience: '2450'
+  is_turtle_content: true
+  patch: 1.16.4
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Lieutenant_Alverold_(quest)
+- name: A Hero's Reward
+  zone_or_category: Durotar
+  level: '20'
+  faction: Horde
+  start_npc: Warbringer Dar'nakk
+  end_npc: Thrall
+  previous: Lieutenant Alverold
+  reputation: +150 Orgrimmar
+  experience: '450'
+  rewards: Band of Durotar, Signet of Durotar, Ring of Durotar
+  is_turtle_content: true
+  patch: 1.16.4
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/A_Hero%27s_Reward
+- name: A Letter from the Royalty
+  zone_or_category: Thalassian Highlands
+  level: '5'
+  faction: Alliance
+  start_npc: Feltouched Letter
+  end_npc: Commander Anarileth
+  next: Message for the Windrunner
+  experience: '560'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/A_Letter_from_the_Royalty
+- name: Smashing the Southsea!
+  zone_or_category: Lapidis Isle
+  level: '53'
+  faction: Alliance
+  start_npc: Colonel Hardinus
+  end_npc: Colonel Hardinus
+  next: Southsea Interference
+  experience: '4850'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Smashing_the_Southsea!
+- name: Southsea Interference
+  zone_or_category: Lapidis Isle
+  level: '54'
+  faction: Alliance
+  start_npc: Colonel Hardinus
+  end_npc: Colonel Hardinus
+  previous: Smashing the Southsea!
+  reputation: +125 Kul Tiras
+  experience: '6350'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Southsea_Interference
+- name: The Meeting with the Enemy
+  zone_or_category: Dustwallow Marsh
+  level: '35'
+  faction: Alliance
+  start_npc: Falgran Hastil
+  end_npc: Captain Garran Vimes
+  previous: The Troubles Ahead
+  next: The Betrayal from Within (1)
+  reputation: +100 Theramore
+  experience: '1050'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Meeting_with_the_Enemy
+- name: Recovering Vault Shackles
+  zone_or_category: Stormwind Vault
+  level: '63'
+  faction: Alliance
+  type: Dungeon
+  start_npc: Koli Steamheart
+  end_npc: Koli Steamheart
+  reputation: +350 Stormwind
+  experience: '6500'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Recovering_Vault_Shackles_(Alliance)
+- name: Ritual of Divination
+  zone_or_category: Dustwallow Marsh
+  level: '35'
+  faction: Alliance
+  start_npc: Magus Halister
+  end_npc: Magus Halister
+  previous: Preparation for Divination
+  next: To Meet Again
+  reputation: +150 Kul Tiras
+  experience: '2850'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Ritual_of_Divination
+- name: The Second Meeting
+  zone_or_category: Dustwallow Marsh
+  level: '35'
+  faction: Alliance
+  start_npc: Falgran Hastil
+  end_npc: Captain Garran Vimes
+  previous: To Meet Again
+  next: And Justice for All
+  reputation: +50 Kul Tiras
+  experience: '750'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Second_Meeting
+- name: Delivery to Alah'Thalas
+  quest_id: '41197'
+  zone_or_category: Thalassian Highlands
+  level: '5'
+  level_requirement: '4'
+  faction: Alliance
+  start_npc: Solenia Solarcrest
+  end_npc: Tiriel Brightwater
+  reputation: +25 Silvermoon Remnant
+  experience: '130'
+  is_turtle_content: true
+  patch: 1.17.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Delivery_to_Alah%27Thalas
+- name: Message for the Windrunner
+  quest_id: '41195'
+  zone_or_category: Thalassian Highlands
+  level: '5'
+  level_requirement: '3'
+  faction: Alliance
+  start_npc: Commander Anarileth
+  end_npc: Vereesa Windrunner
+  previous: A Letter from the Royalty
+  next: The Silver Covenant
+  reputation: +150 Silvermoon Remnant
+  experience: '70'
+  rewards: Thalassian Handguards
+  is_turtle_content: true
+  patch: 1.17.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Message_for_the_Windrunner
+- name: The Tidemaster
+  zone_or_category: Lapidis Isle
+  level: '51'
+  faction: Alliance
+  start_npc: Deckmaster Breachcrest
+  end_npc: Deckmaster Breachcrest
+  reputation: +100 Kul Tiras
+  experience: '4850'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Tidemaster
+- name: The Boran Family
+  zone_or_category: Lapidis Isle
+  level: '51'
+  faction: Alliance
+  start_npc: Arnold Boran
+  end_npc: Arnold Boran
+  reputation: +100 Kul Tiras
+  experience: '4650'
+  rewards: 80s
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Boran_Family
+- name: Grapes in the Hills
+  quest_id: '41218'
+  zone_or_category: Thalassian Highlands
+  level: '7'
+  level_requirement: '4'
+  faction: Alliance
+  start_npc: Fainriel Silverharp
+  end_npc: Fainriel Silverharp
+  reputation: +100 Silvermoon Remnant
+  experience: '630'
+  is_turtle_content: true
+  patch: 1.17.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Grapes_in_the_Hills
+- name: The Highland Menace
+  quest_id: '41216'
+  zone_or_category: Thalassian Highlands
+  level: '7'
+  level_requirement: '4'
+  faction: Alliance
+  start_npc: Maelor Steelguard
+  end_npc: Maelor Steelguard
+  next: A Score To Settle
+  reputation: +150 Silvermoon Remnant
+  experience: '910'
+  is_turtle_content: true
+  patch: 1.17.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Highland_Menace
+- name: A Score To Settle
+  quest_id: '41217'
+  zone_or_category: Thalassian Highlands
+  level: '7'
+  level_requirement: '4'
+  faction: Alliance
+  start_npc: Maelor Steelguard
+  end_npc: Maelor Steelguard
+  previous: The Highland Menace
+  reputation: +150 Silvermoon Remnant
+  experience: '680'
+  is_turtle_content: true
+  patch: 1.17.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/A_Score_To_Settle
+- name: Faelon's Folly
+  zone_or_category: Lapidis Isle
+  level: '51'
+  faction: Alliance
+  start_npc: Devon Harkwave
+  end_npc: Devon Harkwave
+  reputation: +125 Kul Tiras
+  experience: '4900'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Faelon%27s_Folly_(quest)
+- name: Sailors Innovation
+  zone_or_category: Lapidis Isle
+  level: '51'
+  level_requirement: '40'
+  faction: Alliance
+  start_npc: '''Slim'''
+  end_npc: '''Slim'''
+  reputation: +75 Kul Tiras
+  experience: '4850'
+  rewards: 80s
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Sailors_Innovation
+- name: Mount Hyjal In Turmoil
+  quest_id: '41338'
+  zone_or_category: Moonglade
+  level: '60'
+  level_requirement: '60'
+  start_npc: Loganaar
+  end_npc: Arch Druid Dreamwind
+  reputation: +100 Cenarion Circle
+  experience: 1,200
+  is_turtle_content: true
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Mount_Hyjal_In_Turmoil
+- name: The Water Rat
+  zone_or_category: Lapidis Isle
+  level: '54'
+  faction: Alliance
+  start_npc: Sergeant Blackwell
+  end_npc: Sergeant Blackwell
+  reputation: +150 Kul Tiras
+  experience: '4850'
+  rewards: Jorgy's Golden Ear-Ring
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Water_Rat
+- name: The Gor'dosh Ogres
+  zone_or_category: Lapidis Isle
+  level: '51'
+  faction: Alliance
+  start_npc: Sergeant Blackwell
+  end_npc: Sergeant Blackwell
+  next: The Tyrant King
+  reputation: +150 Kul Tiras
+  experience: '4900'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Gor%27dosh_Ogres
+- name: The Tyrant King
+  zone_or_category: Lapidis Isle
+  level: '53'
+  faction: Alliance
+  start_npc: Sergeant Blackwell
+  end_npc: Sergeant Blackwell
+  previous: The Gor'dosh Ogres
+  reputation: +200 Kul Tiras
+  experience: '5300'
+  rewards: Choice of:, Mantle of the Ogre Slayer, or, Tyrant Cuffs
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Tyrant_King
+- name: The Aqua Stone
+  zone_or_category: Lapidis Isle
+  level: '51'
+  faction: Alliance
+  type: Group
+  start_npc: Hydromancer Vanessa
+  end_npc: Hydromancer Vanessa
+  reputation: +150 Kul Tiras
+  experience: '5200'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Aqua_Stone
+- name: Drowning Deeptide
+  zone_or_category: Lapidis Isle
+  level: '53'
+  faction: Alliance
+  start_npc: Eliza Caldwell
+  end_npc: Eliza Caldwell
+  reputation: +150 Kul Tiras
+  experience: '5000'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Drowning_Deeptide
+- name: Southsea Reserve
+  zone_or_category: Lapidis Isle
+  level: '51'
+  faction: Alliance
+  start_npc: Sailor Larson
+  end_npc: Sailor Larson
+  reputation: +199 Kul Tiras
+  experience: '4800'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Southsea_Reserve
+- name: The Harvest Golem Mystery
+  zone_or_category: Westfall
+  level: '25'
+  faction: Alliance
+  start_npc: Commander Althea Ebonlocke
+  end_npc: Maltimor Gartside
+  experience: '2750'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Harvest_Golem_Mystery_(16)
+- name: The Harvest Golem Mystery
+  zone_or_category: Westfall
+  level: '22'
+  faction: Alliance
+  start_npc: Franklin Hamar
+  end_npc: Franklin Hamar
+  experience: '1300'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Harvest_Golem_Mystery_(13)
+- name: Letter from Maltimor
+  zone_or_category: Westfall
+  level: '25'
+  faction: Alliance
+  start_npc: Letter from Maltimor (item)
+  end_npc: Maltimor Gartside
+  experience: '1000'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Letter_from_Maltimor
+- name: Empty Houses
+  quest_id: '41643'
+  zone_or_category: Northwind
+  level: '28'
+  level_requirement: '22'
+  faction: Alliance
+  start_npc: Operative Baltimore Hawthorne
+  end_npc: Operative Baltimore Hawthorne
+  next: Defying Odds
+  reputation: +100 Stormwind
+  experience: '850'
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Empty_Houses
+- name: Deathcap And Widow's Frill
+  quest_id: '41648'
+  zone_or_category: Northwind
+  level: '34'
+  faction: Alliance
+  start_npc: The Witch of Northwind
+  end_npc: The Witch of Northwind
+  previous: Unconventional Means
+  next: Shadow's Vision
+  reputation: +100 Stormwind
+  experience: '3050'
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Deathcap_And_Widow%27s_Frill
+- name: Shadow's Vision
+  quest_id: '41684'
+  zone_or_category: Northwind
+  level: '34'
+  faction: Alliance
+  start_npc: The Witch of Northwind
+  end_npc: Operative Baltimore Hawthorne
+  previous: Deathcap And Widow's Frill
+  next: A Veiled Threat
+  reputation: +100 Stormwind
+  experience: '2100'
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Shadow%27s_Vision
+- name: To The Darkest Places
+  quest_id: '41694'
+  zone_or_category: Balor
+  level: '30'
+  faction: Alliance
+  type: Group
+  start_npc: Agent Deryl
+  end_npc: Verona Gillian
+  previous: The Last Lines
+  next: Noppsy Spickerspan
+  experience: '3400'
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/To_The_Darkest_Places
+- name: An Echo From Beyond
+  quest_id: '41325'
+  zone_or_category: Swamp of Sorrows
+  level: 56+
+  faction: Neutral
+  start_npc: Kas'tal
+  end_npc: Kas'tal
+  previous: Novice In A Barren Land
+  next: Fate Of The Harborage
+  reputation: +175 Draenei Exiles
+  experience: '8300'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/An_Echo_From_Beyond
+- name: Novice In A Barren Land
+  quest_id: '41324'
+  zone_or_category: Swamp of Sorrows
+  level: '54'
+  faction: Neutral
+  start_npc: Akh Z'ador
+  end_npc: Kas'tal
+  previous: The Riftwalker's Cane
+  next: An Echo From Beyond
+  reputation: +75 Draenei Exiles
+  experience: '2300'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Novice_In_A_Barren_Land
+- name: Sovereign of Desolation
+  quest_id: '41577'
+  zone_or_category: Karazhan
+  level: '60'
+  faction: Neutral
+  type: Raid
+  start_npc: Heart of Mephistroth
+  end_npc: Dolvan Bracewind
+  rewards: Choice of:, Felforged Nathrezan Veil,, Felforged Nathrezan Circlet, or, Felforged Nathrezan Aureole
+  is_turtle_content: true
+  patch: 1.17.2
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Sovereign_of_Desolation
+- name: Dalaran's Intentions
+  quest_id: '482'
+  zone_or_category: Silverpine Forest
+  level: '14'
+  level_requirement: '11'
+  faction: Horde
+  start_npc: Dalar Dawnweaver
+  end_npc: Shadow Priest Allister
+  previous: Dalar's Analysis
+  next: Ambermill Investigations
+  reputation: +10 Undercity
+  experience: 100 EXP (or at level 70)
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Dalaran%27s_Intentions
+- name: Hidden Enemies
+  quest_id: '5726'
+  zone_or_category: Orgrimmar
+  level: '12'
+  level_requirement: '9'
+  faction: Horde
+  start_npc: Thrall
+  end_npc: Thrall
+  next: Hidden Enemies (2)
+  reputation: +250 Orgrimmar
+  experience: '900'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Hidden_Enemies
+- name: In Dreams
+  quest_id: '5944'
+  zone_or_category: Western Plaguelands
+  level: '60'
+  level_requirement: '56'
+  type: Group
+  start_npc: Highlord Taelan Fordring
+  end_npc: Tirion Fordring
+  previous: Scarlet Subterfuge
+  experience: 9950 EXP (or at level 70)
+  rewards: Mark of Fordring, Ornate Adamantium Breastplate, Shimmering Platinum Warhammer, Shroud of the Exile or Fordring's Seal
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/In_Dreams
+- name: Mathias and the Defias
+  quest_id: '2360'
+  zone_or_category: Rogue
+  level: '20'
+  level_requirement: '20'
+  faction: Alliance
+  type: Class
+  start_npc: Master Mathias Shaw
+  end_npc: Agent Kearnen
+  next: Klaven's Tower (quest)
+  experience: 40-390 XP
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Mathias_and_the_Defias
+- name: Learn Of My Past
+  quest_id: '41320'
+  zone_or_category: Azshara
+  level: '52'
+  faction: Neutral
+  start_npc: Akh Z'ador
+  end_npc: Akh Z'ador
+  previous: Finding Akh Z'ador
+  next: 'Rift Fatigue: Mind & Rift Fatigue: Body'
+  reputation: +75 Draenei Exiles
+  experience: '2300'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Learn_Of_My_Past
+- name: Provisions for Refugees
+  quest_id: '41188'
+  zone_or_category: Thalassian Highlands
+  level: '1'
+  faction: Alliance
+  start_npc: Commander Anarileth
+  end_npc: Commander Anarileth
+  previous: Refugees no More
+  next: Safety for Refugees
+  experience: '190'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Provisions_for_Refugees
+- name: The Second Wave
+  zone_or_category: Durotar
+  level: '10'
+  faction: Horde
+  start_npc: Warbringer Dar'nakk
+  end_npc: Warbringer Dar'nakk
+  next: The Warchief's Orders
+  reputation: +150 Orgrimmar
+  experience: '900'
+  is_turtle_content: true
+  patch: 1.16.4
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Second_Wave
+- name: Young and Foolish
+  zone_or_category: Lakeshire
+  level: '60'
+  faction: Alliance
+  start_npc: Master Mathias Shaw
+  end_npc: Master Mathias Shaw
+  previous: The Elusive SI:7
+  next: Caravan Meets Caravan
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Young_and_Foolish
+- name: Caravan Meets Caravan
+  zone_or_category: Redridge Mountains
+  level: '60'
+  faction: Alliance
+  start_npc: Master Mathias Shaw
+  end_npc: Kixxle
+  previous: Young and Foolish
+  next: Thandol Span (quest)
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Caravan_Meets_Caravan
+- name: The Means of Persuading
+  zone_or_category: Menethil Harbor
+  level: '60'
+  faction: Alliance
+  start_npc: Prison Guards's Coffee Mug
+  end_npc: Incompleted Interrogation Report
+  previous: Are You True to Your Nature?
+  next: The Price Of Information
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Means_of_Persuading
+- name: Seeking Justice or Vengeance?
+  zone_or_category: Menethil Harbor
+  level: '60'
+  faction: Alliance
+  start_npc: Iron Maiden
+  end_npc: Incompleted Interrogation Report
+  previous: Are You True to Your Nature?
+  next: The Price Of Information
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Seeking_Justice_or_Vengeance%3F
+- name: Thandol Span
+  zone_or_category: Redridge Mountains
+  level: '60'
+  faction: Alliance
+  start_npc: Kixxle
+  end_npc: Captain Stoutfist
+  previous: Young and Foolish
+  next: Are You True to Your Nature?
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Thandol_Span_(quest)
+- name: Scarlet Aid
+  zone_or_category: Stormwind City
+  level: '60'
+  faction: Alliance
+  start_npc: Captain Stoutfist
+  end_npc: Brother Crowley
+  previous: The Price Of Information
+  next: Donning the Red Flag
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Scarlet_Aid
+- name: The Price Of Information
+  level: '60'
+  faction: Alliance
+  start_npc: Incompleted Interrogation Report
+  end_npc: Captain Stoutfist
+  previous: The Means of Persuading or;, Seeking Justice or Vengeance?
+  next: Scarlet Aid
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Price_Of_Information
+- name: The Silver Covenant
+  quest_id: '41236'
+  zone_or_category: Thalassian Highlands
+  level: '5'
+  level_requirement: '3'
+  faction: Alliance
+  start_npc: Vereesa Windrunner
+  end_npc: Commander Braedin
+  previous: Message for the Windrunner
+  next: Felstrider Retreat
+  reputation: +150 Silvermoon Remnant
+  experience: '120'
+  is_turtle_content: true
+  patch: 1.17.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Silver_Covenant
+- name: Felstrider Retreat
+  quest_id: '41237'
+  zone_or_category: Thalassian Highlands
+  level: '9'
+  level_requirement: '5'
+  faction: Alliance
+  start_npc: Commander Braedin
+  end_npc: Commander Braedin
+  previous: The Silver Covenant
+  next: Back to Lady Windrunner
+  reputation: +150 Silvermoon Remnant
+  experience: '850'
+  is_turtle_content: true
+  patch: 1.17.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Felstrider_Retreat_(quest)
+- name: The Deeds of Sir Danuvis
+  zone_or_category: Barrens
+  level: '15'
+  faction: Alliance
+  start_npc: Sir Danuvis
+  end_npc: Bishop Farthing
+  reputation: +300 Kul Tiras
+  experience: '850'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Deeds_of_Sir_Danuvis
+- name: The Dragonmaw Conflict
+  zone_or_category: Barrens
+  level: '28'
+  faction: Alliance
+  start_npc: Lieutenant Alverold
+  end_npc: Lieutenant Alverold
+  reputation: +300 Kul Tiras
+  experience: '2000'
+  is_turtle_content: true
+  patch: 1.16.4
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Dragonmaw_Conflict
+- name: Back to Lady Windrunner
+  quest_id: '41238'
+  zone_or_category: Thalassian Highlands
+  level: '9'
+  level_requirement: '5'
+  faction: Alliance
+  start_npc: Commander Braedin
+  end_npc: Vereesa Windrunner
+  previous: Felstrider Retreat (quest)
+  next: Rommath, the Traitor
+  reputation: +150 Silvermoon Remnant
+  experience: '350'
+  is_turtle_content: true
+  patch: 1.17.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Back_to_Lady_Windrunner
+- name: Rommath, the Traitor
+  quest_id: '41239'
+  zone_or_category: Thalassian Highlands
+  level: '9'
+  level_requirement: '5'
+  faction: Alliance
+  start_npc: Vereesa Windrunner
+  end_npc: Grand Magister Rommath
+  previous: Back to Lady Windrunner
+  next: An Audience With the Prince
+  reputation: +150 Silvermoon Remnant
+  experience: '90'
+  is_turtle_content: true
+  patch: 1.17.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Rommath,_the_Traitor
+- name: The Power of Aqua
+  zone_or_category: The Barrens
+  level: '25'
+  faction: Alliance
+  start_npc: Hydromancer Shaleborn
+  end_npc: Hydromancer Shaleborn
+  reputation: +300 Kul Tiras
+  experience: '1850'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Power_of_Aqua
+- name: 'Kul Tiran Provisions: Food'
+  zone_or_category: The Barrens
+  level: '16'
+  faction: Alliance
+  start_npc: Deckmaster Darkhollow
+  end_npc: Deckmaster Darkhollow
+  next: 'Kul Tiran Provisions: Special Goods'
+  reputation: +300 Kul Tiras
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Kul_Tiran_Provisions:_Food
+- name: 'Kul Tiran Provisions: Food'
+  zone_or_category: The Barrens
+  level: '16'
+  faction: Alliance
+  start_npc: Deckmaster Darkhollow
+  end_npc: Deckmaster Darkhollow
+  previous: 'Kul Tiran Provisions: Food'
+  reputation: +300 Kul Tiras
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Kul_Tiran_Provisions:_Special_Goods
+- name: The Skardyn
+  quest_id: '41803'
+  zone_or_category: Grim Reaches
+  level: '39'
+  faction: Neutral
+  start_npc: Sarthyss Scaleheart
+  end_npc: Sarthyss Scaleheart
+  previous: Tomb of Ancestors (quest)
+  next: Memories of Dark Iron
+  experience: '750'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Skardyn
+- name: The Dragonmaw War (3)
+  quest_id: '41864'
+  zone_or_category: Grim Reaches
+  level: '33'
+  level_requirement: '28'
+  faction: Alliance
+  start_npc: Mountaineer Steelwind
+  end_npc: Mountaineer Steelwind
+  previous: The Dragonmaw War (2)
+  next: The Dragonmaw War (4)
+  experience: '2600'
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Dragonmaw_War_(3)
+- name: The Sanv Charm
+  quest_id: '40027'
+  zone_or_category: Swamp of Sorrows
+  level: '39'
+  faction: Neutral
+  start_npc: Sanv K'la
+  end_npc: Sanv K'la
+  next: Draenic Communication
+  reputation: +175 Draenei Exiles
+  experience: '2250'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Sanv_Charm
+- name: Draenic Communication
+  quest_id: '40032'
+  zone_or_category: Swamp of Sorrows
+  level: '39'
+  faction: Neutral
+  start_npc: Sanv K'la
+  end_npc: Sanv K'la
+  previous: The Sanv Charm
+  next: Finding Akh Z'ador
+  reputation: +175 Draenei Exiles
+  experience: '2350'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Draenic_Communication
+- name: Finding Akh Z'ador
+  quest_id: '40033'
+  zone_or_category: Swamp of Sorrows
+  level: '52'
+  faction: Neutral
+  start_npc: Sanv K'la
+  end_npc: Akh Z'ador
+  previous: Draenic Communication
+  next: Learn Of My Past
+  reputation: +75 Draenei Exiles
+  experience: '5000'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Finding_Akh_Z%27ador
+- name: 'Rift Fatigue: Mind'
+  quest_id: '41321'
+  zone_or_category: Azshara
+  level: '52'
+  faction: Neutral
+  start_npc: Akh Z'ador
+  end_npc: Akh Z'ador
+  previous: Learn Of My Past
+  next: The Riftwalker's Cane
+  reputation: +175 Draenei Exiles
+  experience: '5300'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Rift_Fatigue:_Mind
+- name: 'Rift Fatigue: Body'
+  quest_id: '41322'
+  zone_or_category: Azshara
+  level: '52'
+  faction: Neutral
+  start_npc: Akh Z'ador
+  end_npc: Akh Z'ador
+  previous: Learn Of My Past
+  next: The Riftwalker's Cane
+  reputation: +175 Draenei Exiles
+  experience: '5300'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Rift_Fatigue:_Body
+- name: The Riftwalker's Cane
+  quest_id: '41323'
+  zone_or_category: Azshara
+  level: '54'
+  faction: Neutral
+  type: Dungeon
+  start_npc: Akh Z'ador
+  end_npc: Akh Z'ador
+  previous: 'Rift Fatigue: Mind & Rift Fatigue: Body'
+  next: Novice In A Barren Land
+  reputation: +450 Draenei Exiles
+  experience: '6300'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Riftwalker%27s_Cane
+- name: Manifested Oddities
+  zone_or_category: Swamp of Sorrows
+  level: '60'
+  faction: Neutral
+  start_npc: Sanv K'la
+  end_npc: Akh Z'ador
+  previous: Fate Of The Harborage
+  next: A Favor Asked
+  reputation: +75 Draenei Exiles
+  experience: '8300'
+  rewards: Pure Draenethyst Gemstone
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Manifested_Oddities
+- name: Highly Unexpected Event
+  quest_id: '41323'
+  zone_or_category: Stranglethorn Vale
+  level: '48'
+  faction: Neutral
+  start_npc: Fazgel Mechaflame
+  end_npc: Lyvdia Dawnbird
+  previous: Mechaflame's Bargain
+  next: Taking the Booty Home
+  reputation: +500 Bloodsail Buccaneers
+  experience: '1250'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Highly_Unexpected_Event
+- name: A Historian Finds You
+  quest_id: '41323'
+  zone_or_category: Stranglethorn Vale
+  level: '48'
+  faction: Neutral
+  start_npc: Arcanist Sovatir's Torn Notes
+  end_npc: Arcanist Sovatir
+  previous: Taking the Booty Home
+  reputation: +500 Bloodsail Buccaneers
+  experience: '1250'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/A_Historian_Finds_You
+- name: Errand for Quel'Danil
+  zone_or_category: Hinterlands
+  level: '41'
+  faction: Alliance
+  start_npc: Loania
+  end_npc: Voldana
+  previous: Package to Quel'Danil
+  reputation: +500 Silvermoon Remnant
+  experience: '4833'
+  rewards: Choice of:, Greatblade of Quel'Danil,, Dagger of Quel'Danil, or, Bow of Quel'Danil
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Errand_for_Quel%27Danil
+- name: An Extravagant Book
+  zone_or_category: Lapidis Isle
+  level: '52'
+  faction: Alliance
+  start_npc: Half Buried Barrel
+  end_npc: Father Benofar
+  experience: '4650'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/An_Extravagant_Book
+- name: The Rotten Renown
+  zone_or_category: Lapidis Isle
+  level: '51'
+  faction: Alliance
+  start_npc: Waterlogged Trunk
+  end_npc: Colonel Hardinus
+  experience: '4800'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Rotten_Renown
+- name: Into the Dream I
+  quest_id: '40957'
+  zone_or_category: Hyjal
+  level: '60'
+  faction: Neutral
+  start_npc: Ralathius
+  end_npc: Ralathius
+  next: Into the Dream II
+  experience: '650'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Into_the_Dream_I
+- name: Answers from Father
+  zone_or_category: Moonwhisper Coast
+  level: '56'
+  faction: Neutral
+  start_npc: Ar'lia
+  end_npc: Moro'gai K'la
+  previous: Hooves and Horns, Clad in Red
+  next: The Elder's End
+  reputation: +50 Draenei Exiles
+  experience: '850'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Answers_from_Father
+- name: Yor'thegg's Ritual
+  zone_or_category: Grim Reaches
+  level: '37'
+  faction: Horde
+  start_npc: Yor'thegg the Wise
+  end_npc: Yor'thegg the Wise
+  previous: Signs of Corruption
+  next: The Flame of Dagnoth
+  reputation: +150 Orgrimmar
+  experience: '2600'
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Yor%27thegg%27s_Ritual
+- name: Through Greater Magic
+  zone_or_category: Gilneas
+  level: '42'
+  faction: Horde
+  start_npc: Dark Bishop Mordren
+  end_npc: Dark Bishop Mordren
+  next: The Ravenwood Scepter
+  reputation: +150 Undercity
+  experience: '3750'
+  is_turtle_content: true
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Through_Greater_Magic
+- name: Endless Vigil
+  quest_id: '42062'
+  zone_or_category: Moonwhisper Coast
+  level: '54'
+  faction: Alliance
+  start_npc: Shandris Feathermoon
+  end_npc: Sentinel Commander Silverstreak
+  reputation: +300 Darnassus
+  experience: '760'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Endless_Vigil
+- name: An'she's Respite
+  quest_id: '42088'
+  zone_or_category: Moonwhisper Coast
+  level: '54'
+  faction: Alliance
+  start_npc: Sentinel Commander Silverstreak
+  end_npc: Sentinel Commander Silverstreak
+  reputation: +500 Darnassus
+  experience: '5100'
+  rewards: Boots of Krethis
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/An%27she%27s_Respite_(quest)
+- name: Scales of the Tideblade
+  quest_id: '42089'
+  zone_or_category: Moonwhisper Coast
+  level: '54'
+  faction: Alliance
+  start_npc: Sentinel Commander Silverstreak
+  end_npc: Sentinel Commander Silverstreak
+  next: Serpents Without Heads
+  reputation: +600 Darnassus
+  experience: '5500'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Scales_of_the_Tideblade
+- name: Serpents Without Heads
+  quest_id: '42090'
+  zone_or_category: Moonwhisper Coast
+  level: '56'
+  faction: Alliance
+  start_npc: Sentinel Commander Silverstreak
+  end_npc: Sentinel Commander Silverstreak
+  previous: Scales of the Tideblade
+  next: Word to the High Priestess
+  reputation: +500 Darnassus
+  experience: '5700'
+  rewards: Choice of:, Moonlit Hauberk, or, Moonstride Leggings
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Serpents_Without_Heads
+- name: Word to the High Priestess
+  quest_id: '42091'
+  zone_or_category: Moonwhisper Coast
+  level: '56'
+  faction: Alliance
+  start_npc: Sentinel Commander Silverstreak
+  end_npc: Tyrande Whisperwind
+  previous: Serpents Without Heads
+  reputation: +500 Darnassus
+  experience: '3800'
+  rewards: Hope of Nendis
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Word_to_the_High_Priestess
+- name: The Moth's Heresy
+  quest_id: '42094'
+  zone_or_category: Moonwhisper Coast
+  level: '54'
+  faction: Alliance
+  start_npc: Arch Druid Renethra Moonwater
+  end_npc: Arch Druid Renethra Moonwater
+  next: A Dryad's Counsel
+  reputation: +500 Darnassus
+  experience: '5100'
+  rewards: Starglass Monocle
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Moth%27s_Heresy
+- name: A Dryad's Counsel
+  quest_id: '42095'
+  zone_or_category: Moonwhisper Coast
+  level: '54'
+  faction: Alliance
+  start_npc: Arch Druid Renethra Moonwater
+  end_npc: Sister Mirallun
+  previous: The Moth's Heresy
+  next: The Rot of Elun'aran
+  reputation: +300 Darnassus
+  experience: '1120'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/A_Dryad%27s_Counsel
+- name: The Rot of Elun'aran
+  quest_id: '42096'
+  zone_or_category: Moonwhisper Coast
+  level: '55'
+  faction: Alliance
+  type: Group
+  start_npc: Sister Mirallun
+  end_npc: Sister Mirallun
+  previous: A Dryad's Counsel
+  next: Keeper of the Broken Grove
+  reputation: +500 Darnassus
+  experience: '7800'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Rot_of_Elun%27aran
+- name: Keeper of the Broken Grove
+  quest_id: '42097'
+  zone_or_category: Moonwhisper Coast
+  level: '56'
+  faction: Alliance
+  type: Group
+  start_npc: Sister Mirallun
+  end_npc: Sister Mirallun
+  previous: The Rot of Elun'aran
+  reputation: +600 Darnassus
+  experience: '8100'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Keeper_of_the_Broken_Grove
+- name: Led Astray
+  quest_id: '42042'
+  zone_or_category: Moonwhisper Coast
+  level: '58'
+  faction: Neutral
+  type: Group
+  start_npc: Keeper Bandalar
+  end_npc: Keeper Bandalar
+  reputation: +250 Cenarion Circle
+  experience: '8100'
+  rewards: Choice of:, Bloom of the Sun,, Keeper's Boots,, Crown of Bandalar, or, Dryadroot Necklace
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Led_Astray
+- name: Feathers on Point
+  quest_id: '42093'
+  zone_or_category: Moonwhisper Coast
+  level: '53'
+  faction: Alliance
+  start_npc: Elendon Truebough
+  end_npc: Elendon Truebough
+  reputation: +300 Darnassus
+  experience: '5100'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Feathers_on_Point
+- name: Echoes of Nendis
+  quest_id: '42086'
+  zone_or_category: Moonwhisper Coast
+  level: '54'
+  faction: Alliance
+  start_npc: Talanis Amberscribe
+  end_npc: Talanis Amberscribe
+  next: The Light of Elunaris
+  reputation: +450 Darnassus
+  experience: '5100'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Echoes_of_Nendis
+- name: The Light of Elunaris
+  quest_id: '42087'
+  zone_or_category: Moonwhisper Coast
+  level: '54'
+  faction: Alliance
+  type: Group
+  start_npc: Talanis Amberscribe
+  end_npc: Talanis Amberscribe
+  previous: Echoes of Nendis
+  reputation: +500 Darnassus
+  experience: '5600'
+  rewards: Elunarian Necklace
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Light_of_Elunaris
+- name: Sunsworn Expedition
+  quest_id: '42061'
+  zone_or_category: Moonwhisper Coast
+  level: '53'
+  faction: Alliance
+  start_npc: Astalor Sunsworn
+  end_npc: Andanil Sunsworn
+  reputation: +150 Silvermoon Remnant
+  experience: '760'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Sunsworn_Expedition
+- name: Expedition Gone Wrong
+  quest_id: '42068'
+  zone_or_category: Moonwhisper Coast
+  level: '56'
+  faction: Alliance
+  start_npc: Andanil Sunsworn
+  end_npc: Andanil Sunsworn
+  next: The Withered Den
+  reputation: +150 Silvermoon Remnant
+  experience: '450'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Expedition_Gone_Wrong
+- name: The Withered Den
+  quest_id: '42069'
+  zone_or_category: Moonwhisper Coast
+  level: '56'
+  faction: Alliance
+  start_npc: Andanil Sunsworn
+  end_npc: Andanil Sunsworn
+  previous: Expedition Gone Wrong
+  reputation: +300 Silvermoon Remnant
+  experience: '5100'
+  rewards: Choice of:, Sunsworn Glaive, or, Robes of Nox
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Withered_Den
+- name: Ghosts of Maras'ethil
+  quest_id: '42066'
+  zone_or_category: Moonwhisper Coast
+  level: '54'
+  faction: Alliance
+  start_npc: Tesania Shadewind
+  end_npc: Tesania Shadewind
+  reputation: +300 Silvermoon Remnant
+  experience: '4500'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Ghosts_of_Maras%27ethil
+- name: Blackroot Hold
+  quest_id: '42064'
+  zone_or_category: Moonwhisper Coast
+  level: '54'
+  faction: Alliance
+  start_npc: Rhys Dawnbreeze
+  end_npc: Rhys Dawnbreeze
+  reputation: +300 Silvermoon Remnant
+  experience: '4900'
+  rewards: Choice of:, Blackroot Wraps, or, Shield of Alah'thalas
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Blackroot_Hold_(quest)
+- name: Falling the Fallen
+  quest_id: '42065'
+  zone_or_category: Moonwhisper Coast
+  level: '54'
+  faction: Alliance
+  start_npc: Rhys Dawnbreeze
+  end_npc: Rhys Dawnbreeze
+  reputation: +300 Silvermoon Remnant
+  experience: '5800'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Falling_the_Fallen
+- name: Heaven Falling Down
+  quest_id: '42067'
+  zone_or_category: Moonwhisper Coast
+  level: '55'
+  faction: Alliance
+  type: Group
+  start_npc: Arcanist Cerulon
+  end_npc: Arcanist Cerulon
+  reputation: +300 Silvermoon Remnant
+  experience: '5200'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Heaven_Falling_Down
+- name: A Plea for Help
+  quest_id: '42044'
+  zone_or_category: Moonglade
+  level: '58'
+  faction: Neutral
+  start_npc: Loganaar
+  end_npc: Grovetender Sellais
+  reputation: +50 Cenarion Circle
+  experience: '1200'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/A_Plea_for_Help
+- name: Belated Preservation
+  quest_id: '42043'
+  zone_or_category: Moonwhisper Coast
+  level: '58'
+  faction: Neutral
+  type: Group
+  start_npc: Grovetender Sellais
+  end_npc: Grovetender Sellais
+  reputation: +250 Cenarion Circle
+  experience: '7600'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Belated_Preservation
+- name: A Star That Calls Back
+  quest_id: '42092'
+  zone_or_category: Moonwhisper Coast
+  level: '58'
+  faction: Alliance
+  type: Group
+  start_npc: Zarazar Sagewind
+  end_npc: Zarazar Sagewind
+  reputation: +500 Dalaran
+  experience: '7100'
+  rewards: Dragonbane
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/A_Star_That_Calls_Back
+- name: The Fantastical Farewell Faire
+  zone_or_category: Moonwhisper Coast
+  level: '1'
+  faction: Neutral
+  start_npc: Turtle Faire Barker
+  end_npc: Wiz Silverpocket
+  rewards: Turtle Coin (5)
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Fantastical_Farewell_Faire
+- name: A Unknown Letter
+  quest_id: '41795'
+  zone_or_category: Balor
+  level: '28'
+  faction: Horde
+  start_npc: Thrall
+  end_npc: Kilrogg Deadeye
+  experience: '360'
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/A_Unknown_Letter
+- name: Bugs on My Island
+  quest_id: '41828'
+  zone_or_category: Balor
+  level: '30'
+  faction: Horde
+  start_npc: Kilrogg Deadeye
+  end_npc: Kilrogg Deadeye
+  reputation: +100 Orgrimmar
+  experience: '2400'
+  rewards: Repurposed Si:7 Dagger
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Bugs_on_My_Island
+- name: Deep in the Mines
+  quest_id: '41830'
+  zone_or_category: Balor
+  level: '31'
+  faction: Horde
+  start_npc: Kilrogg Deadeye
+  end_npc: Kilrogg Deadeye
+  next: Mere Thoughts
+  reputation: +100 Orgrimmar
+  experience: '2400'
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Deep_in_the_Mines
+- name: Colony of Ants
+  quest_id: '41832'
+  zone_or_category: Balor
+  level: '35'
+  faction: Horde
+  type: Group
+  start_npc: Kilrogg Deadeye
+  end_npc: Kilrogg Deadeye
+  previous: Mere Thoughts
+  next: It Can't Rain All the Time
+  reputation: +150 Orgrimmar
+  experience: '3400'
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Colony_of_Ants
+- name: Mere Thoughts
+  quest_id: '41831'
+  zone_or_category: Balor
+  level: '33'
+  faction: Horde
+  start_npc: Kilrogg Deadeye
+  end_npc: Kilrogg Deadeye
+  previous: Deep in the Mines
+  next: Colony of Ants
+  reputation: +100 Orgrimmar
+  experience: '2800'
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Mere_Thoughts
+- name: It Can't Rain All the Time
+  quest_id: '41833'
+  zone_or_category: Balor
+  level: '38'
+  faction: Horde
+  type: Dungeon
+  start_npc: Kilrogg Deadeye
+  end_npc: Kilrogg Deadeye
+  previous: Colony of Ants
+  next: Storm's End
+  reputation: +200 Orgrimmar
+  experience: '4200'
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/It_Can%27t_Rain_All_the_Time
+- name: Storm's End
+  quest_id: '41834'
+  zone_or_category: Orgrimmar
+  level: '38'
+  faction: Horde
+  start_npc: Kilrogg Deadeye
+  end_npc: Thrall
+  previous: It Can't Rain All the Time
+  reputation: +100 Orgrimmar
+  experience: '2500'
+  rewards: Choice of:, Kor'kron Crown,, Voodoo Jerkin, or, Totemic Headdress
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Storm%27s_End
+- name: Eyes of Stormreaver
+  quest_id: '41829'
+  zone_or_category: Balor
+  level: '32'
+  faction: Horde
+  start_npc: Kilrogg Deadeye
+  end_npc: Kilrogg Deadeye
+  reputation: +100 Orgrimmar
+  experience: '2800'
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Eyes_of_Stormreaver
+- name: Entranced Magic
+  quest_id: '41727'
+  zone_or_category: Grim Reaches
+  level: '33'
+  faction: Horde
+  start_npc: Far Seer Mothang
+  end_npc: Far Seer Mothang
+  next: Natural Remedies
+  reputation: +300 Orgrimmar
+  experience: '1850'
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Entranced_Magic
+- name: Natural Remedies
+  quest_id: '41728'
+  zone_or_category: Grim Reaches
+  level: '38'
+  faction: Horde
+  start_npc: Far Seer Mothang
+  end_npc: Far Seer Mothang
+  previous: Entranced Magic
+  next: Dark Essence
+  reputation: +300 Orgrimmar
+  experience: '2250'
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Natural_Remedies
+- name: Dark Essence
+  quest_id: '41729'
+  zone_or_category: Grim Reaches
+  level: '38'
+  faction: Horde
+  start_npc: Far Seer Mothang
+  end_npc: Far Seer Mothang
+  previous: Natural Remedies
+  next: The Power of Uth'okk
+  reputation: +300 Orgrimmar
+  experience: '2400'
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Dark_Essence_(quest)
+- name: The Power of Uth'okk
+  quest_id: '41730'
+  zone_or_category: Grim Reaches
+  level: '38'
+  faction: Horde
+  type: Dungeon
+  start_npc: Far Seer Mothang
+  end_npc: Far Seer Mothang
+  previous: Dark Essence
+  next: The Ritual of Uth'okk
+  reputation: +350 Orgrimmar
+  experience: '3450'
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Power_of_Uth%27okk
+- name: The Ritual of Uth'okk
+  quest_id: '41731'
+  zone_or_category: Grim Reaches
+  level: '38'
+  faction: Horde
+  start_npc: Far Seer Mothang
+  end_npc: Far Seer Mothang
+  previous: The Power of Uth'okk
+  reputation: +300 Orgrimmar
+  experience: '300'
+  rewards: The Pendant of Uth'okk
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Ritual_of_Uth%27okk
+- name: We Take It From The Living
+  quest_id: '40880'
+  zone_or_category: Gilneas
+  level: '43'
+  faction: Horde
+  start_npc: Orvan Darkeye
+  end_npc: Orvan Darkeye
+  previous: Last of the Living Dead
+  next: The Evil Made Me Do It
+  reputation: +100 Undercity
+  experience: '3980'
+  rewards: Sash of Innocent Blood and, Wreath of Worgen Blood
+  is_turtle_content: true
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/We_Take_It_From_The_Living
+- name: Dead Until Dark
+  quest_id: '40877'
+  zone_or_category: Gilneas
+  level: '42'
+  faction: Horde
+  start_npc: Deathstalker Alynna
+  end_npc: Orvan Darkeye
+  next: All We Need is Blood
+  reputation: +100 Undercity
+  experience: '650'
+  is_turtle_content: true
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Dead_Until_Dark
+- name: All We Need is Blood
+  quest_id: '40878'
+  zone_or_category: Gilneas
+  level: '42'
+  faction: Horde
+  start_npc: Orvan Darkeye
+  end_npc: Orvan Darkeye
+  previous: Dead Until Dark
+  next: Last of the Living Dead
+  reputation: +100 Undercity
+  experience: '3750'
+  is_turtle_content: true
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/All_We_Need_is_Blood
+- name: Last of the Living Dead
+  quest_id: '40879'
+  zone_or_category: Gilneas
+  level: '42'
+  faction: Horde
+  start_npc: Orvan Darkeye
+  end_npc: Orvan Darkeye
+  previous: All We Need is Blood
+  next: We Take It From The Living
+  reputation: +100 Undercity
+  experience: '3650'
+  is_turtle_content: true
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Last_of_the_Living_Dead
+- name: The Evil Made Me Do It
+  quest_id: '40881'
+  zone_or_category: Gilneas City
+  level: '46'
+  faction: Horde
+  type: Dungeon
+  start_npc: Orvan Darkeye
+  end_npc: Orvan Darkeye
+  previous: We Take It From The Living
+  next: Blood for Blood
+  reputation: +250 Undercity
+  experience: '5150'
+  is_turtle_content: true
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Evil_Made_Me_Do_It
+- name: Blood for Blood
+  quest_id: '40882'
+  zone_or_category: Gilneas
+  level: '46'
+  faction: Horde
+  start_npc: Orvan Darkeye
+  end_npc: Master Apothecary Faranell
+  previous: The Evil Made Me Do It
+  reputation: +250 Undercity
+  experience: '950'
+  rewards: Pure Bloodvial Pendant
+  is_turtle_content: true
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Blood_for_Blood
+- name: In Memory of Franklin
+  quest_id: '40982'
+  zone_or_category: Gilneas
+  level: '45'
+  faction: Horde
+  start_npc: Harrison Blackheart
+  end_npc: Harrison Blackheart
+  previous: The Blackheart Killer
+  reputation: +250 Undercity
+  experience: '450'
+  rewards: Choice of:, Bleaktalon, or, Blackheart Boots
+  is_turtle_content: true
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/In_Memory_of_Franklin
+- name: The Blackheart Killer
+  quest_id: '40981'
+  zone_or_category: Gilneas
+  level: '45'
+  faction: Horde
+  start_npc: Harrison Blackheart
+  end_npc: Harrison Blackheart
+  previous: Greymane Hatred
+  next: In Memory of Franklin
+  reputation: +250 Undercity
+  experience: '5000'
+  is_turtle_content: true
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Blackheart_Killer
+- name: Greymane Hatred
+  quest_id: '40980'
+  zone_or_category: Gilneas
+  level: '45'
+  faction: Horde
+  start_npc: Harrison Blackheart
+  end_npc: Harrison Blackheart
+  next: The Blackheart Killer
+  reputation: +250 Undercity
+  experience: '4950'
+  is_turtle_content: true
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Greymane_Hatred
+- name: Legacy of Perenolde
+  quest_id: '41121'
+  zone_or_category: Gilneas
+  level: '44'
+  faction: Alliance
+  start_npc: Lord Ivar Pyrewood
+  end_npc: Lord Ivar Pyrewood
+  experience: '3850'
+  is_turtle_content: true
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Legacy_of_Perenolde
+- name: A Royal Heist
+  quest_id: '41113'
+  zone_or_category: Gilneas City
+  level: '45'
+  faction: Horde
+  type: Dungeon
+  start_npc: Luke Agamand
+  end_npc: Luke Agamand
+  experience: '4250'
+  is_turtle_content: true
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/A_Royal_Heist
+- name: The Greymane Stone
+  quest_id: '40996'
+  zone_or_category: Gilneas City
+  level: '47'
+  faction: Horde
+  type: Dungeon
+  start_npc: Dark Bishop Mordren
+  end_npc: Dark Bishop Mordren
+  previous: The Powers Beyond
+  reputation: +500 Undercity
+  experience: '5100'
+  is_turtle_content: true
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Greymane_Stone
+- name: Sandfury Redemption III
+  quest_id: '40524'
+  zone_or_category: Tanaris
+  level: '45'
+  faction: Horde
+  start_npc: Seer Maz'ek
+  end_npc: Vol'jin
+  previous: Sandfury Redemption II
+  next: Of the Sandfury and the Darkspear
+  experience: '850'
+  is_turtle_content: true
+  patch: 1.16.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Sandfury_Redemption_III
+- name: Meat for Viceclaw!
+  quest_id: '40528'
+  zone_or_category: Tanaris
+  level: '43'
+  faction: Horde
+  start_npc: Ekka
+  end_npc: Ekka
+  experience: '3000'
+  is_turtle_content: true
+  patch: 1.16.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Meat_for_Viceclaw!
+- name: The Maul'ogg Crisis I
+  quest_id: '40264'
+  zone_or_category: Gillijim's Isle
+  level: '53'
+  faction: Horde
+  start_npc: Haz'gorg the Great Seer
+  end_npc: Haz'gorg the Great Seer
+  next: The Maul'ogg Crisis II
+  experience: '450'
+  is_turtle_content: true
+  patch: 1.16.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Maul%27ogg_Crisis_I
+- name: A Dark Tide Will Rise
+  quest_id: '41819'
+  zone_or_category: Balor
+  level: '31'
+  faction: Horde
+  start_npc: O'jin
+  end_npc: O'jin
+  next: To My Father, Vol'jin
+  reputation: +100 Darkspear Trolls
+  experience: '2800'
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/A_Dark_Tide_Will_Rise
+- name: To My Father, Vol'jin
+  quest_id: '41820'
+  zone_or_category: Orgrimmar
+  level: '31'
+  faction: Horde
+  start_npc: O'jin
+  end_npc: Vol'jin
+  previous: A Dark Tide Will Rise
+  reputation: +100 Darkspear Trolls
+  experience: '2500'
+  rewards: Vial of Darkspear Mojo
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/To_My_Father,_Vol%27jin
+- name: Innocence Lost
+  quest_id: '41821'
+  zone_or_category: Stormwrought Ruins
+  level: '34'
+  faction: Horde
+  type: Dungeon
+  start_npc: O'jin
+  end_npc: O'jin
+  reputation: +100 Darkspear Trolls
+  experience: '3600'
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Innocence_Lost
+- name: Of New and Old
+  quest_id: '40501'
+  zone_or_category: Burning Steppes
+  level: '52'
+  faction: Horde
+  start_npc: Councilor Vargek
+  end_npc: Thrall
+  next: Of New and Old II
+  reputation: +25 Orgrimmar
+  experience: '500'
+  is_turtle_content: true
+  patch: 1.16.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Of_New_and_Old
+- name: Of New and Old II
+  quest_id: '40502'
+  zone_or_category: Burning Steppes
+  level: '52'
+  faction: Horde
+  start_npc: Thrall
+  end_npc: Eitrigg
+  previous: Of New and Old
+  next: Of New and Old III
+  reputation: +25 Orgrimmar
+  experience: '500'
+  is_turtle_content: true
+  patch: 1.16.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Of_New_and_Old_II
+- name: Of New and Old III
+  quest_id: '40503'
+  zone_or_category: Burning Steppes
+  level: '52'
+  faction: Horde
+  start_npc: Eitrigg
+  end_npc: Karfang
+  previous: Of New and Old II
+  next: Of New and Old IV
+  reputation: +100 Orgrimmar
+  experience: '1000'
+  is_turtle_content: true
+  patch: 1.16.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Of_New_and_Old_III
+- name: Of New and Old IV
+  quest_id: '40504'
+  zone_or_category: Hateforge Quarry
+  level: '57'
+  faction: Horde
+  type: Dungeon
+  start_npc: Karfang
+  end_npc: Karfang
+  previous: Of New and Old III
+  reputation: +300 Orgrimmar
+  experience: '4650'
+  rewards: Choice of:, Blade of the Warleader,, Obsidian Gem Choker, or, Battlemaster Helm
+  is_turtle_content: true
+  patch: 1.16.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Of_New_and_Old_IV
+- name: Sandfury Redemption I
+  quest_id: '40522'
+  zone_or_category: Tanaris
+  level: '45'
+  faction: Horde
+  start_npc: Seer Maz'ek
+  end_npc: Senior Surveyor Fizzledowser
+  next: Sandfury Redemption II
+  experience: '500'
+  is_turtle_content: true
+  patch: 1.16.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Sandfury_Redemption_I
+- name: Sandfury Redemption II
+  quest_id: '40523'
+  zone_or_category: Tanaris
+  level: '45'
+  faction: Horde
+  start_npc: Senior Surveyor Fizzledowser
+  end_npc: Seer Maz'ek
+  previous: Sandfury Redemption I
+  next: Sandfury Redemption III
+  experience: '500'
+  is_turtle_content: true
+  patch: 1.16.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Sandfury_Redemption_II
+- name: Of the Sandfury and the Darkspear
+  quest_id: '40525'
+  zone_or_category: Tanaris
+  level: '45'
+  faction: Horde
+  start_npc: Vol'jin
+  end_npc: Champion Taza'go
+  previous: Sandfury Redemption III
+  next: Plight of the Sandfury
+  experience: '500'
+  is_turtle_content: true
+  patch: 1.16.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Of_the_Sandfury_and_the_Darkspear
+- name: Plight of the Sandfury
+  quest_id: '40526'
+  zone_or_category: Tanaris
+  level: '48'
+  faction: Horde
+  type: Group
+  start_npc: Champion Taza'go
+  end_npc: Champion Taza'go
+  previous: Of the Sandfury and the Darkspear
+  next: End Ukorz Sandscalp
+  experience: '4150'
+  is_turtle_content: true
+  patch: 1.16.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Plight_of_the_Sandfury
+- name: End Ukorz Sandscalp
+  quest_id: '40526'
+  zone_or_category: Zul'Farrak
+  level: '48'
+  faction: Horde
+  type: Dungeon
+  start_npc: Champion Taza'go
+  end_npc: Champion Taza'go
+  previous: Plight of the Sandfury
+  experience: '6250'
+  is_turtle_content: true
+  patch: 1.16.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/End_Ukorz_Sandscalp
+- name: Goody Bag
+  quest_id: '41668'
+  zone_or_category: Northwind
+  level: '28'
+  faction: Alliance
+  start_npc: Ingvild Ellerian
+  end_npc: Ingvild Ellerian
+  next: Fit for a Prince!
+  reputation: +100 Stormwind
+  experience: '1950'
+  rewards: Shiny Red Apple
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Goody_Bag_(quest)
+- name: Fit for a Prince!
+  quest_id: '41669'
+  zone_or_category: Northwind
+  level: '28'
+  faction: Alliance
+  start_npc: Ingvild Ellerian
+  end_npc: Anduin Wrynn
+  previous: Goody Bag
+  reputation: +100 Stormwind
+  experience: '440'
+  rewards: Almanac of Prayer
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Fit_for_a_Prince!
+- name: Defying Odds
+  quest_id: '41644'
+  zone_or_category: Northwind
+  level: '32'
+  level_requirement: '22'
+  faction: Alliance
+  start_npc: Operative Baltimore Hawthorne
+  end_npc: Operative Baltimore Hawthorne
+  previous: Empty Houses
+  next: The Slavemakers
+  reputation: +100 Stormwind
+  experience: '2850'
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Defying_Odds
+- name: The Slavemakers
+  quest_id: '41645'
+  zone_or_category: Northwind
+  level: '33'
+  level_requirement: '22'
+  faction: Alliance
+  start_npc: Operative Baltimore Hawthorne
+  end_npc: Operative Baltimore Hawthorne
+  previous: Defying Odds
+  next: Covering All Possibilities
+  reputation: +100 Stormwind
+  experience: '2950'
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Slavemakers
+- name: Covering All Possibilities
+  quest_id: '41646'
+  zone_or_category: Northwind
+  level: '34'
+  level_requirement: '22'
+  faction: Alliance
+  start_npc: Operative Baltimore Hawthorne
+  end_npc: Operative Baltimore Hawthorne
+  previous: The Slavemakers
+  next: Unconventional Means
+  reputation: +100 Stormwind
+  experience: '2750'
+  rewards: Choice of:, Blackrock Cleaver, or, Ashwood Bow
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Covering_All_Possibilities
+- name: Unconventional Means
+  quest_id: '41647'
+  zone_or_category: Northwind
+  level: '34'
+  level_requirement: '22'
+  faction: Alliance
+  start_npc: Mayor Birkton
+  end_npc: The Witch of Northwind
+  previous: Covering All Possibilities
+  next: Deathcap And Widow's Frill
+  reputation: +100 Stormwind
+  experience: '850'
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Unconventional_Means
+- name: A Veiled Threat
+  quest_id: '41685'
+  zone_or_category: Northwind
+  level: '34'
+  faction: Alliance
+  start_npc: Operative Baltimore Hawthorne
+  end_npc: Master Mathias Shaw
+  previous: Shadow's Vision
+  next: Into The Tortured Past
+  reputation: +100 Stormwind
+  experience: '300'
+  rewards: Choice of:, SI:7 Honorary Medal,, Loop of the Assassin, or, Operative Cape
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/A_Veiled_Threat
+- name: Into The Tortured Past
+  quest_id: '41686'
+  zone_or_category: Balor
+  level: '34'
+  faction: Alliance
+  start_npc: Master Mathias Shaw
+  end_npc: Verona Gillian
+  previous: A Veiled Threat
+  reputation: +100 Stormwind
+  experience: '300'
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Into_The_Tortured_Past
+- name: Shade Mother
+  quest_id: '41994'
+  zone_or_category: Moonwhisper Coast
+  level: '58'
+  faction: Horde
+  start_npc: Elder Moonhoof
+  end_npc: Elder Moonhoof
+  next: Mindless Monster
+  reputation: +150 Thunder Bluff
+  experience: '6500'
+  rewards: Wilted Moonflower
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Shade_Mother
+- name: Mindless Monster
+  quest_id: '41995'
+  zone_or_category: Moonwhisper Coast
+  level: '55'
+  faction: Horde
+  start_npc: Moonhoof the Younger
+  end_npc: Moonhoof the Younger
+  previous: Shade Mother
+  next: One Heir to Another
+  reputation: +150 Thunder Bluff
+  experience: '6300'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Mindless_Monster
+- name: One Heir to Another
+  quest_id: '42070'
+  zone_or_category: Mulgore
+  level: '56'
+  faction: Horde
+  start_npc: Moonhoof the Younger
+  end_npc: Baine Bloodhoof
+  previous: Mindless Monster
+  next: Father Will Listen
+  reputation: +150 Thunder Bluff
+  experience: '500'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/One_Heir_to_Another
+- name: Father Will Listen
+  quest_id: '42071'
+  zone_or_category: Mulgore
+  level: '56'
+  faction: Horde
+  start_npc: Baine Bloodhoof
+  end_npc: Cairne Bloodhoof
+  previous: One Heir to Another
+  next: Bloodhoof Stands with Moonhoof
+  reputation: +150 Thunder Bluff
+  experience: '500'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Father_Will_Listen
+- name: Facing the Elder
+  quest_id: '42073'
+  zone_or_category: Moonwhisper Coast
+  level: '56'
+  faction: Horde
+  start_npc: Moonhoof the Younger
+  end_npc: Elder Moonhoof
+  previous: Bloodhoof Stands with Moonhoof
+  next: Seeking the Truth
+  reputation: +150 Thunder Bluff
+  experience: '500'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Facing_the_Elder
+- name: Bloodhoof Stands with Moonhoof
+  quest_id: '42072'
+  zone_or_category: Moonwhisper Coast
+  level: '56'
+  faction: Horde
+  start_npc: Cairne Bloodhoof
+  end_npc: Moonhoof the Younger
+  previous: Father Will Listen
+  next: Facing the Elder
+  reputation: +150 Thunder Bluff
+  experience: '500'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Bloodhoof_Stands_with_Moonhoof
+- name: Seeking the Truth
+  quest_id: '42074'
+  zone_or_category: Moonwhisper Coast
+  level: '57'
+  faction: Horde
+  start_npc: Elder Moonhoof
+  end_npc: Moonhoof the Younger
+  previous: Facing the Elder
+  next: Moondancer Lives?
+  reputation: +150 Thunder Bluff
+  experience: '4200'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Seeking_the_Truth
+- name: Moondancer Lives?
+  quest_id: '42080'
+  zone_or_category: Moonwhisper Coast
+  level: '57'
+  faction: Horde
+  start_npc: Moonhoof the Younger
+  end_npc: Ireth Moondancer
+  previous: Seeking the Truth
+  next: Price of Betrayal
+  reputation: +150 Thunder Bluff
+  experience: '4200'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Moondancer_Lives%3F
+- name: Price of Betrayal
+  quest_id: '42075'
+  zone_or_category: Moonwhisper Coast
+  level: '57'
+  faction: Horde
+  type: Group
+  start_npc: Ireth Moondancer
+  end_npc: Ireth Moondancer
+  previous: Moondancer Lives?
+  next: Return to the Dream
+  reputation: +300 Thunder Bluff
+  experience: '8100'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Price_of_Betrayal
+- name: Return to the Dream
+  quest_id: '42076'
+  zone_or_category: Moonwhisper Coast
+  level: '57'
+  faction: Horde
+  type: Group
+  start_npc: Ireth Moondancer
+  end_npc: Ireth Moondancer
+  previous: Price of Betrayal
+  next: Mothshroud Falls
+  reputation: +300 Thunder Bluff
+  experience: '8100'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Return_to_the_Dream
+- name: Mothshroud Falls
+  quest_id: '42077'
+  zone_or_category: Moonwhisper Coast
+  level: '59'
+  faction: Horde
+  type: Group
+  start_npc: Ireth Moondancer
+  end_npc: Moonhoof the Younger
+  previous: Return to the Dream
+  next: Moonhoof Rests
+  reputation: +300 Thunder Bluff
+  experience: '9200'
+  rewards: Choice of:, Lens of Maras'ethil,, Turquoise Signet of Lo'sho, or, Crown of An'she
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Mothshroud_Falls
+- name: Moonhoof Rests
+  quest_id: '42078'
+  zone_or_category: Moonwhisper Coast
+  level: '59'
+  faction: Horde
+  start_npc: Moonhoof the Younger
+  end_npc: Elder Moonhoof
+  previous: Mothshroud Falls
+  reputation: +150 Thunder Bluff
+  experience: '4200'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Moonhoof_Rests
+- name: Secrets of Moonwhisper
+  quest_id: '42079'
+  zone_or_category: Priest
+  level: '57'
+  faction: Horde
+  race: Tauren
+  start_npc: Half-Burnt Scroll
+  end_npc: Mhulf Nighthorn
+  reputation: +150 Thunder Bluff
+  experience: '1800'
+  rewards: Half-Burnt Scroll
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Secrets_of_Moonwhisper
+- name: Hallowed Note
+  quest_id: '42054'
+  zone_or_category: Priest
+  level: '1'
+  faction: Horde
+  race: Tauren
+  start_npc: Grull Hawkwind
+  end_npc: Nuhlok Starstrider
+  experience: '40'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Hallowed_Note_(quest)
+- name: Tainted Rune
+  quest_id: '42045'
+  zone_or_category: Warlock
+  level: '1'
+  faction: Alliance
+  race: Dwarf
+  start_npc: Sten Stoutarm
+  end_npc: Thorinn Darkgrovel
+  reputation: +50 Ironforge
+  experience: '40'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Tainted_Rune_(quest)
+- name: Glyphic Rune
+  quest_id: '3111'
+  zone_or_category: Mage
+  level: '1'
+  faction: Alliance
+  race: Dwarf
+  start_npc: Sten Stoutarm
+  end_npc: Marrek Stromnur
+  reputation: +50 Ironforge
+  experience: '40'
+  is_turtle_content: true
+  patch: 1.16.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Glyphic_Rune_(quest)
+- name: In Favor of the Three Siblings
+  quest_id: '42055'
+  zone_or_category: Priest
+  level: '5'
+  faction: Horde
+  race: Tauren
+  start_npc: Nuhlok Starstrider
+  end_npc: Pargan Starstrider
+  next: Garments of the Three Siblings
+  experience: '90'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/In_Favor_of_the_Three_Siblings
+- name: Garments of the Three Siblings
+  quest_id: '42055'
+  zone_or_category: Priest
+  level: '5'
+  faction: Horde
+  race: Tauren
+  start_npc: Pargan Starstrider
+  end_npc: Pargan Starstrider
+  previous: In Favor of the Three Siblings
+  experience: '270'
+  rewards: Celestial Garments
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Garments_of_the_Three_Siblings
+- name: Light of An'she
+  quest_id: '42058'
+  zone_or_category: Priest
+  level: '10'
+  faction: Horde
+  race: Tauren
+  start_npc: Pargan Starstrider / Aelthalyste / Tai'jin
+  end_npc: Artahla Starstrider
+  next: Light of An'she
+  experience: +50 Thunder Bluff
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Light_of_An%27she_(quest)
+- name: Light of An'she
+  quest_id: '42057'
+  zone_or_category: Priest
+  level: '10'
+  faction: Horde
+  race: Tauren
+  start_npc: Artahla Starstrider
+  end_npc: Artahla Starstrider
+  previous: Light of An'she
+  experience: +50 Thunder Bluff
+  rewards: Light of An'she
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Light_of_An%27she_(2)
+- name: Tainted Tablet
+  quest_id: '41135'
+  zone_or_category: Warlock
+  level: '1'
+  faction: Horde
+  race: Troll
+  start_npc: Gornek
+  end_npc: Zin'jashi
+  experience: '40'
+  is_turtle_content: true
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Tainted_Tablet_(quest)
+- name: Spiritwalk
+  quest_id: '42059'
+  zone_or_category: Priest
+  level: '20'
+  faction: Horde
+  race: Tauren
+  start_npc: Artahla Starstrider
+  end_npc: Artahla Starstrider
+  previous: Spiritwalk
+  experience: +50 Thunder Bluff
+  rewards: Spiritwalk
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Spiritwalk_(2)
+- name: Spiritwalk
+  quest_id: '42060'
+  zone_or_category: Priest
+  level: '20'
+  faction: Horde
+  race: Tauren
+  start_npc: Aelthalyste / Ur'kyo
+  end_npc: Artahla Starstrider
+  next: Spiritwalk
+  experience: +50 Thunder Bluff
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Spiritwalk_(quest)
+- name: A Journey for Vengeance
+  quest_id: '40691'
+  zone_or_category: Stonetalon Mountains
+  level: '20'
+  faction: Alliance
+  start_npc: Grumnir Battlebeard
+  end_npc: Grumnir Battlebeard
+  next: The Battlebeard Legacy
+  reputation: +50 Ironforge
+  experience: '450'
+  is_turtle_content: true
+  patch: 1.16.4
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/A_Journey_for_Vengeance
+- name: My Darling Wife
+  quest_id: '41798'
+  zone_or_category: Balor
+  level: '28'
+  faction: Alliance
+  start_npc: Ronald Gillian
+  end_npc: Verona Gillian
+  experience: '360'
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/My_Darling_Wife
+- name: Assessing The Situation
+  quest_id: '41692'
+  zone_or_category: Balor
+  level: '27'
+  faction: Alliance
+  start_npc: Verona Gillian
+  end_npc: Muddy Journal
+  next: The Last Lines
+  reputation: +100 Stormwind
+  experience: '1400'
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Assessing_The_Situation
+- name: The Last Lines
+  quest_id: '41693'
+  zone_or_category: Balor
+  level: '27'
+  faction: Alliance
+  start_npc: Muddy Journal
+  end_npc: Agent Deryl
+  previous: Assessing The Situation
+  next: To The Darkest Places
+  reputation: +100 Stormwind
+  experience: '1850'
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Last_Lines
+- name: Noppsy Spickerspan
+  quest_id: '41695'
+  zone_or_category: Balor
+  level: '30'
+  faction: Alliance
+  start_npc: Verona Gillian
+  end_npc: Noppsy Spickerspan
+  previous: Assessing The Situation
+  next: You May Call This Cheating..., Demons Galore, Explosives Make My Heart Go BOOM!
+  reputation: +100 Stormwind
+  experience: '400'
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Noppsy_Spickerspan_(quest)
+- name: You May Call This Cheating...
+  quest_id: '41696'
+  zone_or_category: Balor
+  level: '31'
+  faction: Alliance
+  start_npc: Noppsy Spickerspan
+  end_npc: Noppsy Spickerspan
+  previous: Noppsy Spickerspan
+  next: Harrowing News
+  reputation: +100 Stormwind
+  experience: '2600'
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/You_May_Call_This_Cheating...
+- name: Demons Galore
+  quest_id: '41697'
+  zone_or_category: Balor
+  level: '31'
+  faction: Alliance
+  start_npc: Nippsy Spickerspan
+  end_npc: Nippsy Spickerspan
+  previous: Noppsy Spickerspan
+  next: Harrowing News
+  reputation: +100 Stormwind
+  experience: '2700'
+  rewards: Harelyss' Whip
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Demons_Galore
+- name: Explosives Make My Heart Go BOOM!
+  quest_id: '41698'
+  zone_or_category: Balor
+  level: '31'
+  faction: Alliance
+  start_npc: Rufus Hammerstrike
+  end_npc: Rufus Hammerstrike
+  previous: Noppsy Spickerspan
+  next: Harrowing News
+  reputation: +100 Stormwind
+  experience: '3000'
+  rewards: Ez-Thro Dynamite
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Explosives_Make_My_Heart_Go_BOOM!
+- name: Harrowing News
+  quest_id: '41699'
+  zone_or_category: Balor
+  level: '32'
+  faction: Alliance
+  start_npc: Noppsy Spickerspan
+  end_npc: Verona Gillian
+  previous: You May Call This Cheating..., Demons Galore, Explosives Make My Heart Go BOOM!
+  next: Into The Hornet's Nest
+  reputation: +100 Stormwind
+  experience: '300'
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Harrowing_News
+- name: Into The Hornet's Nest
+  quest_id: '41761'
+  zone_or_category: Balor
+  level: '33'
+  faction: Alliance
+  type: Group
+  start_npc: Verona Gillian
+  end_npc: Verona Gillian
+  previous: Harrowing News
+  next: Heart of Darkness, Assassin In Training
+  reputation: +100 Stormwind
+  experience: '2900'
+  rewards: Choice of:, Clasps of Subterfuge, or, Seabreeze Mantle
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Into_The_Hornet%27s_Nest
+- name: Heart of Darkness
+  quest_id: '41787'
+  zone_or_category: Stormwrought Ruins
+  level: '38'
+  faction: Alliance
+  type: Dungeon
+  start_npc: Verona Gillian
+  end_npc: Verona Gillian
+  previous: Into The Hornet's Nest
+  experience: '3600'
+  rewards: Choice of:, Rufus' Trusty Tankard,, Kinrial's Scalpel,, Noppsy's Compendium, or, Nippsy's Precision Rifle
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Heart_of_Darkness
+- name: Assassin In Training
+  quest_id: '41843'
+  zone_or_category: Stormwrought Ruins
+  level: '35'
+  faction: Alliance
+  type: Dungeon
+  start_npc: Nippsy Spickerspan
+  end_npc: Nippsy Spickerspan
+  previous: Into The Hornet's Nest
+  reputation: +100 Stormwind
+  experience: '3100'
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Assassin_In_Training
+- name: Antiquities
+  quest_id: '41842'
+  zone_or_category: Stormwrought Ruins
+  level: '35'
+  faction: Alliance
+  type: Dungeon
+  start_npc: Noppsy Spickerspan
+  end_npc: Noppsy Spickerspan
+  reputation: +100 Stormwind
+  experience: '3200'
+  rewards: Choice of:, Antiquated Slasher, or, Chainmail of Many Pockets
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Antiquities
+- name: Crystal Clear Impression
+  quest_id: '41879'
+  zone_or_category: Stormwrought Ruins
+  level: '38'
+  faction: Alliance
+  type: Dungeon
+  start_npc: Grukson Slatebeard
+  end_npc: Grukson Slatebeard
+  reputation: +300 Ironforge, +300 Wildhammer Clan
+  experience: '3500'
+  rewards: Slatebeard Amulet
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Crystal_Clear_Impression
+- name: All That Is Left
+  quest_id: '41840'
+  zone_or_category: Northwind
+  level: '38'
+  faction: Alliance
+  start_npc: Etched Toy Sword
+  end_npc: Judith Flenning
+  reputation: +100 Stormwind
+  experience: '1200'
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/All_That_Is_Left
+- name: Storm, Twilight and Hammer
+  quest_id: '41837'
+  zone_or_category: Balor
+  level: '33'
+  faction: Neutral
+  start_npc: Drak'thul
+  end_npc: Drak'thul
+  previous: Lady Who?
+  experience: '2000'
+  rewards: Key to Stormwrought Castle
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Storm,_Twilight_and_Hammer
+- name: Lady Who?
+  quest_id: '41836'
+  zone_or_category: Balor
+  level: '33'
+  faction: Neutral
+  start_npc: Drak'thul
+  end_npc: Drak'thul
+  next: Storm, Twilight and Hammer
+  experience: '2800'
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Lady_Who%3F
+- name: Mycellakos
+  quest_id: '41824'
+  zone_or_category: Stormwrought Ruins
+  level: '33'
+  faction: Horde
+  type: Dungeon
+  start_npc: Uda'pe Sungrass
+  end_npc: Uda'pe Sungrass
+  previous: Living Fungus
+  next: The Matron Will Know
+  reputation: +100 Thunder Bluff
+  experience: '3600'
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Mycellakos_(quest)
+- name: The Matron Will Know
+  quest_id: '41825'
+  zone_or_category: Balor
+  level: '35'
+  faction: Horde
+  start_npc: Uda'pe Sungrass
+  end_npc: Magatha Grimtotem
+  previous: Mycellakos
+  reputation: +100 Thunder Bluff
+  experience: '2000'
+  rewards: Choice of:, Left,, Right, or, Totem of An'she
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Matron_Will_Know
+- name: Living Fungus
+  quest_id: '41823'
+  zone_or_category: Balor
+  level: '33'
+  faction: Horde
+  start_npc: Uda'pe Sungrass
+  end_npc: Uda'pe Sungrass
+  next: Mycellakos
+  reputation: +100 Thunder Bluff
+  experience: '3200'
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Living_Fungus
+- name: Grim Sunlight
+  quest_id: '41822'
+  zone_or_category: Balor
+  level: '33'
+  faction: Horde
+  start_npc: Uda'pe Sungrass
+  end_npc: Uda'pe Sungrass
+  reputation: +100 Thunder Bluff
+  experience: '2800'
+  rewards: Sunkissed Shoulderpads
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Grim_Sunlight
+- name: Artifact of the Dark Lady
+  quest_id: '41841'
+  zone_or_category: Balor
+  level: '38'
+  faction: Horde
+  start_npc: Broken Bloodstone Pendant
+  end_npc: Lady Sylvanas Windrunner
+  reputation: +100 Undercity
+  experience: '1200'
+  rewards: Choice of:, Lady Winter's Touch, or, Ring of Judgement
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Artifact_of_the_Dark_Lady
+- name: The Late Duke Balor
+  quest_id: '41814'
+  zone_or_category: Stormwrought Ruins
+  level: '34'
+  faction: Neutral
+  type: Dungeon
+  start_npc: Olmir Halfhorn
+  end_npc: Olmir Halfhorn
+  experience: '3500'
+  rewards: Choice of:, Drinking Halfhorn, or, Enchanted Glass Kopis
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Late_Duke_Balor
+- name: Skull And Bones
+  quest_id: '41760'
+  zone_or_category: Stormwrought Ruins
+  level: '34'
+  faction: Neutral
+  type: Dungeon
+  start_npc: Lord Olivert Grahan
+  end_npc: Lord Olivert Grahan
+  experience: '3600'
+  rewards: Grahan Family Seal
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Skull_And_Bones
+- name: The Dead Can’t Complain
+  quest_id: '41844'
+  zone_or_category: Stormwrought Ruins
+  level: '34'
+  faction: Neutral
+  type: Dungeon
+  start_npc: Rikki Fizmask
+  end_npc: Rikki Fizmask
+  reputation: +100 Steamwheedle Cartel
+  experience: '3600'
+  rewards: Trusty Goblin Shiv
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Dead_Can%E2%80%99t_Complain
+- name: Searching for Archaeologist Evenpike
+  quest_id: '42006'
+  zone_or_category: Frostmane Hollow
+  level: '14'
+  faction: Alliance
+  type: Dungeon
+  start_npc: Brohann Caskbelly
+  end_npc: Archaeologist Evenpike
+  next: The Shattered Disc
+  reputation: +125 Ironforge
+  experience: '1150'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Searching_for_Archaeologist_Evenpike
+- name: The Shattered Disc
+  quest_id: '42007'
+  zone_or_category: Frostmane Hollow
+  level: '14'
+  faction: Alliance
+  type: Dungeon
+  start_npc: Archaeologist Evenpike
+  end_npc: Brohann Caskbelly
+  previous: Searching for Archaeologist Evenpike
+  reputation: +125 Ironforge
+  experience: '850'
+  rewards: Archaeologist's Lantern
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Shattered_Disc
+- name: The Finest Pelt
+  quest_id: '42008'
+  zone_or_category: Frostmane Hollow
+  level: '16'
+  faction: Alliance
+  type: Dungeon
+  start_npc: Shandlar Thethis
+  end_npc: Shandlar Thethis
+  reputation: +250 Silvermoon Remnant
+  experience: '1250'
+  rewards: Thalassian Silk Cape
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Finest_Pelt
+- name: Chieftain Ubukaz
+  quest_id: '42039'
+  zone_or_category: Frostmane Hollow
+  level: '16'
+  faction: Alliance
+  type: Dungeon
+  start_npc: Mountaineer Granitebeard
+  end_npc: Mountaineer Granitebeard
+  previous: The Frostmane War
+  reputation: +300 Ironforge
+  experience: '1200'
+  rewards: Choose one:, Heavy Chain Bracers,, Sash of Illumination, or, Deep-Thread Shawl
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Chieftain_Ubukaz
+- name: The Frostmane War
+  quest_id: '42038'
+  zone_or_category: Frostmane Hollow
+  level: '13'
+  faction: Alliance
+  start_npc: Mountaineer Granitebeard
+  end_npc: Mountaineer Granitebeard
+  next: Chieftain Ubukaz
+  reputation: +200 Ironforge
+  experience: '840'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Frostmane_War
+- name: A Grave Misunderstanding!
+  quest_id: '42040'
+  zone_or_category: Frostmane Hollow
+  level: '13'
+  faction: Neutral
+  type: Dungeon
+  start_npc: Ranix Crackbolt
+  end_npc: Ranix Crackbolt
+  experience: '910'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/A_Grave_Misunderstanding!
+- name: In Search of Tauren Relics
+  quest_id: '41976'
+  zone_or_category: Windhorn Canyon
+  level: '27'
+  faction: Alliance
+  type: Dungeon
+  start_npc: Tarwegg Dustbrow
+  end_npc: Tarwegg Dustbrow
+  reputation: +350 Ironforge
+  experience: '2350'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/In_Search_of_Tauren_Relics
+- name: Relics of the Windhorn Tribe
+  quest_id: '41977'
+  zone_or_category: Windhorn Canyon
+  level: '27'
+  faction: Horde
+  type: Dungeon
+  start_npc: Sagh
+  end_npc: Sagh
+  reputation: +350 Thunder Bluff
+  experience: '2350'
+  rewards: Sagh's Pendant
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Relics_of_the_Windhorn_Tribe
+- name: The Wrath of Malgan
+  quest_id: '41978'
+  zone_or_category: Windhorn Canyon
+  level: '27'
+  faction: Horde
+  type: Dungeon
+  start_npc: Malgan Windhorn
+  end_npc: Malgan Windhorn
+  reputation: +400 Ironforge
+  experience: '2200'
+  rewards: Choice of:, Hauberk of Bloodshed, or, Cloudtotem Cloak
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Wrath_of_Malgan
+- name: Destroy the Deathtotem
+  quest_id: '41982'
+  zone_or_category: Windhorn Canyon
+  level: '28'
+  faction: Horde
+  type: Dungeon
+  start_npc: Cairne Bloodhoof
+  end_npc: Cairne Bloodhoof
+  previous: Information for Cairne
+  reputation: +500 Thunder Bluff
+  experience: '3400'
+  rewards: Choice of:, Bloodhoof Sash,, Stormhoof Shackles, or, Stonemane Boots
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Destroy_the_Deathtotem
+- name: The Wall Comes Crashing Down
+  zone_or_category: Gilneas
+  level: '38'
+  faction: Alliance
+  start_npc: Marshal Redpath
+  end_npc: Lord Darius Ravenwood
+  experience: '900'
+  is_turtle_content: true
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Wall_Comes_Crashing_Down
+- name: Scouring Greyshire
+  zone_or_category: Gilneas
+  level: '42'
+  faction: Alliance
+  start_npc: Father Oblen
+  end_npc: Father Oblen
+  experience: '3300'
+  rewards: Cuffs of Sanctitude
+  is_turtle_content: true
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Scouring_Greyshire
+- name: Legend of Dawnstone
+  zone_or_category: Gilneas
+  level: '39'
+  faction: Neutral
+  start_npc: Kurnen Oathbrace
+  end_npc: Kurnen Oathbrace
+  reputation: +250 Booty Bay
+  experience: '3850'
+  is_turtle_content: true
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Legend_of_Dawnstone
+- name: The Dawnstone Coupler
+  zone_or_category: Gilneas
+  level: '43'
+  faction: Alliance
+  start_npc: Technician Voltgear
+  end_npc: Technician Voltgear
+  reputation: +200 Gnomeregan Exiles
+  experience: '4400'
+  rewards: Servocharged Wrench
+  is_turtle_content: true
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Dawnstone_Coupler
+- name: Wyrms of the Highlands
+  zone_or_category: Thalassian Highlands
+  level: '7'
+  faction: Alliance
+  start_npc: Commander Braedin
+  end_npc: Commander Braedin
+  reputation: +150 Silvermoon Remnant
+  experience: '8200'
+  rewards: Mana Wyrm Cape
+  is_turtle_content: true
+  patch: 1.17.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Wyrms_of_the_Highlands
+- name: Magister's Letter
+  zone_or_category: Mage
+  level: '1'
+  faction: Alliance
+  start_npc: Vyrin Swiftwind
+  end_npc: Magister Ala'shor Sunblood
+  previous: Stocking Up on Wood
+  reputation: +50 Silvermoon Remnant
+  experience: '400'
+  is_turtle_content: true
+  patch: 1.17.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Magister%27s_Letter_(quest)
+- name: A Familiar Disturbance
+  zone_or_category: Azshara
+  level: '52'
+  faction: Neutral
+  start_npc: Akh Z'ador
+  end_npc: Elder Krasheen
+  previous: 'Rift Fatigue: Mind & Rift Fatigue: Body'
+  next: Homecoming
+  reputation: +100 Draenei Exiles
+  experience: '1200'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/A_Familiar_Disturbance
+- name: Homecoming
+  zone_or_category: Moonwhisper Coast
+  level: '52'
+  faction: Neutral
+  start_npc: Elder Krasheen
+  end_npc: Sanv K'la
+  previous: A Familiar Disturbance
+  reputation: +100 Draenei Exiles
+  experience: '1200'
+  is_turtle_content: true
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Homecoming
+- name: The Way of Fel
+  quest_id: '41253'
+  zone_or_category: Thalassian Highlands
+  level: '9'
+  level_requirement: '5'
+  faction: Alliance
+  start_npc: Leshandra Fintri
+  end_npc: Leshandra Fintri
+  reputation: +150 Silvermoon Remnant
+  experience: '9300'
+  is_turtle_content: true
+  patch: 1.17.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Way_of_Fel
+- name: Fel Energy Irregularities III
+  quest_id: '40440'
+  zone_or_category: Blasted Lands
+  level: '54'
+  level_requirement: '45'
+  faction: Alliance
+  start_npc: Archmage Ansirem Runeweaver
+  end_npc: Watcher Mahar Ba
+  previous: Fel Energy Irregularities II
+  next: Fel Energy Irregularities IV
+  reputation: +100 Dalaran
+  experience: '2650'
+  is_turtle_content: true
+  patch: 1.16.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Fel_Energy_Irregularities_III
+- name: Fel Energy Irregularities I
+  quest_id: '40438'
+  zone_or_category: Blasted Lands
+  level: '54'
+  level_requirement: '45'
+  faction: Alliance
+  start_npc: Adjutant Scheer
+  end_npc: Watcher Mahar Ba
+  next: Fel Energy Irregularities II
+  reputation: +25 Dalaran
+  experience: '650'
+  is_turtle_content: true
+  patch: 1.16.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Fel_Energy_Irregularities_I
+- name: Fel Energy Irregularities II
+  quest_id: '40439'
+  zone_or_category: Blasted Lands
+  level: '54'
+  level_requirement: '45'
+  faction: Alliance
+  start_npc: Watcher Mahar Ba
+  end_npc: Archmage Ansirem Runeweaver
+  previous: Fel Energy Irregularities I
+  next: Fel Energy Irregularities III
+  reputation: +100 Dalaran
+  experience: '2650'
+  is_turtle_content: true
+  patch: 1.16.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Fel_Energy_Irregularities_II
+- name: Fel Energy Irregularities IV
+  quest_id: '40441'
+  zone_or_category: Blasted Lands
+  level: '54'
+  level_requirement: '45'
+  faction: Alliance
+  start_npc: Watcher Mahar Ba
+  end_npc: Watcher Mahar Ba
+  previous: Fel Energy Irregularities III
+  next: Fel Energy Irregularities V
+  reputation: +100 Dalaran
+  experience: '4650'
+  is_turtle_content: true
+  patch: 1.16.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Fel_Energy_Irregularities_IV
+- name: Fel Energy Irregularities V
+  quest_id: '40442'
+  zone_or_category: Blasted Lands
+  level: '60'
+  level_requirement: '45'
+  faction: Alliance
+  start_npc: Watcher Mahar Ba
+  end_npc: Daio the Decrepit
+  previous: Fel Energy Irregularities IV
+  next: Fel Energy Irregularities VI
+  reputation: +100 Dalaran
+  experience: '2650'
+  is_turtle_content: true
+  patch: 1.16.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Fel_Energy_Irregularities_V
+- name: Fel Energy Irregularities VI
+  quest_id: '40443'
+  zone_or_category: Blasted Lands
+  level: '60'
+  level_requirement: '45'
+  faction: Alliance
+  type: Group
+  start_npc: Daio the Decrepit
+  end_npc: Daio the Decrepit
+  previous: Fel Energy Irregularities V
+  next: Fel Energy Irregularities VII
+  reputation: +300 Dalaran
+  experience: '6450'
+  is_turtle_content: true
+  patch: 1.16.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Fel_Energy_Irregularities_VI
+- name: Fel Energy Irregularities VII
+  quest_id: '40444'
+  zone_or_category: Blasted Lands
+  level: '60'
+  level_requirement: '45'
+  faction: Alliance
+  start_npc: Daio the Decrepit
+  end_npc: Watcher Mahar Ba
+  previous: Fel Energy Irregularities VI
+  reputation: +750 Dalaran
+  experience: '7850'
+  rewards: Choice of:, Kirin Tor Shawl of Potency,, Kirin Tor Shawl of Authority,, Kirin Tor Shawl of Persecution, or, Kirin Tor Shawl of Oppresion
+  is_turtle_content: true
+  patch: 1.16.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Fel_Energy_Irregularities_VII
+- name: Genetic Alteration Anomaly!
+  quest_id: '40435'
+  zone_or_category: Blasted Lands
+  level: '53'
+  level_requirement: '47'
+  faction: Alliance
+  start_npc: Engineer Wigglestip
+  end_npc: Engineer Wigglestip
+  reputation: +200 Dalaran
+  experience: '4650'
+  is_turtle_content: true
+  patch: 1.16.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Genetic_Alteration_Anomaly!
+- name: Controlling Sailors
+  quest_id: '40660'
+  zone_or_category: Stormwind City
+  level: '14'
+  level_requirement: '8'
+  faction: Alliance
+  start_npc: Petty Officer Milldough
+  end_npc: Petty Officer Milldough
+  reputation: +200 Kul Tiras
+  experience: '1138'
+  is_turtle_content: true
+  patch: 1.16.4
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Controlling_Sailors
+- name: Controlling Sailors
+  quest_id: '40663'
+  zone_or_category: Stormwind City
+  level: '10'
+  level_requirement: '5'
+  faction: Alliance
+  start_npc: Sailor Valia
+  end_npc: Sailor Valia
+  reputation: +75 Kul Tiras
+  experience: '2100'
+  is_turtle_content: true
+  patch: 1.16.4
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Embassy_Blues
+- name: A Sailor's Love
+  quest_id: '40661'
+  zone_or_category: Stormwind City
+  level: '10'
+  level_requirement: '5'
+  faction: Alliance
+  start_npc: Sailor Borus
+  end_npc: Charys Yserian
+  next: Charys' Response
+  reputation: +100 Kul Tiras
+  experience: '310'
+  is_turtle_content: true
+  patch: 1.16.4
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/A_Sailor%27s_Love
+- name: Charys' Response
+  quest_id: '40662'
+  zone_or_category: Stormwind City
+  level: '10'
+  level_requirement: '5'
+  faction: Alliance
+  start_npc: Charys Yserian
+  end_npc: Sailor Borus
+  previous: A Sailor's Love
+  reputation: +75 Kul Tiras
+  experience: '1100'
+  is_turtle_content: true
+  patch: 1.16.4
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Charys%27_Response
+- name: A Hydromancer's Curiosity
+  quest_id: '41799'
+  zone_or_category: Balor
+  level: '28'
+  level_requirement: '22'
+  faction: Alliance
+  start_npc: Marine Hornby
+  end_npc: Hydromancer Finnigan
+  experience: '360'
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/A_Hydromancer%27s_Curiosity
+- name: Ceaseless Storms
+  quest_id: '41709'
+  zone_or_category: Balor
+  level: '29'
+  level_requirement: '23'
+  faction: Alliance
+  start_npc: Hydromancer Finnigan
+  end_npc: Hydromancer Finnigan
+  next: Piece Of A Bigger Picture
+  reputation: +200 Kul Tiras
+  experience: '2500'
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Ceaseless_Storms
+- name: Piece Of A Bigger Picture
+  quest_id: '41710'
+  zone_or_category: Balor
+  level: '30'
+  level_requirement: '23'
+  faction: Alliance
+  start_npc: Hydromancer Finnigan
+  end_npc: Hydromancer Finnigan
+  previous: Ceaseless Storms
+  next: Calming The Tempest
+  reputation: +100 Kul Tiras
+  experience: '3000'
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Piece_Of_A_Bigger_Picture
+- name: Calming The Tempest
+  quest_id: '41711'
+  zone_or_category: Balor
+  level: '29'
+  level_requirement: '23'
+  faction: Alliance
+  start_npc: Hydromancer Finnigan
+  end_npc: Hydromancer Finnigan
+  previous: Piece Of A Bigger Picture
+  reputation: +100 Kul Tiras
+  experience: '3100'
+  rewards: Pearlescent Shard, Choice of:, Hydromancer Cowl, or, Choker of Insight
+  is_turtle_content: true
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Calming_The_Tempest
+- name: The Depths of Karazhan V
+  quest_id: '40308'
+  zone_or_category: Swamp of Sorrows
+  level: '60'
+  level_requirement: '58'
+  faction: Horde
+  type: Group
+  start_npc: Kor'gan
+  end_npc: Kor'gan
+  previous: The Depths of Karazhan IV
+  next: The Depths of Karazhan VI
+  reputation: +250 Orgrimmar
+  experience: '6150'
+  is_turtle_content: true
+  patch: 1.16.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Depths_of_Karazhan_V
+- name: Help The League?
+  zone_or_category: Wetlands
+  level: '27'
+  level_requirement: '20'
+  faction: Alliance
+  start_npc: Merrin Rockweaver
+  end_npc: Grovug Mithrilmane
+  previous: Join The League!
+  reputation: 200 with Ironforge
+  experience: '2150'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Help_The_League%3F
+- name: Join The League!
+  zone_or_category: Wetlands
+  level: '27'
+  level_requirement: '20'
+  faction: Alliance
+  start_npc: Junder Brokk
+  end_npc: Merrin Rockweaver
+  next: Help The League?
+  reputation: 50 with Ironforge
+  experience: '375'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Join_The_League!
+- name: The Scales of War
+  zone_or_category: Barrens
+  level: '30'
+  faction: Alliance
+  start_npc: Lieutenant Alverold
+  end_npc: Vice Admiral Renhoff
+  reputation: +100 Kul Tiras
+  experience: '1200'
+  is_turtle_content: true
+  patch: 1.16.4
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Scales_of_War
+- name: Your Place In The World
+  zone_or_category: Durotar
+  level: '1'
+  faction: Horde
+  start_npc: Kaltunk
+  end_npc: Gornek
+  next: Cutting Teeth
+  reputation: +50 Orgrimmar & Darkspear Trolls
+  experience: '40'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Your_Place_In_The_World
+- name: Cutting Teeth
+  zone_or_category: Durotar
+  level: '2'
+  faction: Horde
+  start_npc: Gornek
+  end_npc: Gornek
+  previous: Your Place In The World
+  next: Sting of the Scorpid
+  reputation: +100 Orgrimmar & Darkspear Trolls
+  experience: '170'
+  is_turtle_content: false
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Cutting_Teeth

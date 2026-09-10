@@ -1,0 +1,3670 @@
+about: Turtle WoW vendors, trainers and service NPCs. See synthesis/content/npcs-and-vendors.md.
+generated_from:
+- structured/wiki/npcs.jsonl
+- forum posts cited per record
+record_count: 229
+caveats:
+- 'No vendor inventory is documented anywhere in this extraction: the community wiki Sells section is a literal "..." placeholder on all four pages that have one.'
+- No source gives in-game X/Y coordinates for any NPC; hub is a named sub-zone.
+- level/faction are wiki infobox values and are not always internally consistent.
+vendors_from_wiki_roster:
+- npc: Blood Ring Gladiator
+  level: '30'
+  faction: Neutral
+  race: Human
+  coords_note: not found in sources
+  vendor_categories:
+  - Battlemasters
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Blood_Ring_Gladiator_(Alliance)
+- npc: Tezzin Skyfuse
+  role: Flight Master
+  level: '55'
+  faction: Neutral
+  race: Goblin
+  hub: Tel Co. Basecamp
+  zone: Tel'Abim
+  coords_note: not found in sources
+  vendor_categories:
+  - Flight masters
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.4
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Tezzin_Skyfuse
+- npc: Klazz
+  role: Trade Supplies
+  level: '40'
+  faction: Neutral
+  race: Goblin
+  hub: Tel Co. Basecamp
+  zone: Tel'Abim
+  coords_note: not found in sources
+  vendor_categories:
+  - Tradeskill vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.4
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Klazz
+- npc: Wazlon Headiron
+  role: Engineering Supplies
+  level: '50'
+  faction: Neutral
+  race: Goblin
+  hub: Tel Co. Basecamp
+  zone: Tel'Abim
+  coords_note: not found in sources
+  vendor_categories:
+  - Engineering vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.4
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Wazlon_Headiron
+- npc: Wezzy Coppersaw
+  role: Ammunition
+  level: '50'
+  faction: Neutral
+  race: Goblin
+  hub: Tel Co. Basecamp
+  zone: Tel'Abim
+  coords_note: not found in sources
+  vendor_categories:
+  - Ammo vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.4
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Wezzy_Coppersaw
+- npc: Chef Danonzo Laxjolt
+  role: Culinary Expert
+  level: '59'
+  faction: Neutral
+  race: Goblin
+  hub: Tel Co. Basecamp
+  zone: Tel'Abim
+  coords_note: not found in sources
+  vendor_categories:
+  - Cooks
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.4
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Chef_Danonzo_Laxjolt
+- npc: Wrex Ozzlelight
+  role: Innkeeper
+  level: '46'
+  faction: Neutral
+  race: Goblin
+  hub: Tel Co. Basecamp
+  zone: Tel'Abim
+  coords_note: not found in sources
+  vendor_categories:
+  - Innkeepers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.4
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Wrex_Ozzlelight
+- npc: Maria Galwest
+  role: Gryphon Master
+  level: '55'
+  faction: Alliance
+  race: Human
+  hub: Ravenshire
+  zone: Gilneas
+  coords_note: not found in sources
+  vendor_categories:
+  - Flight masters
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Maria_Galwest
+- npc: Alexandra
+  level: '30'
+  faction: Alliance
+  race: Human
+  hub: Ravenshire
+  zone: Gilneas
+  coords_note: not found in sources
+  vendor_categories:
+  - Stable masters
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Alexandra
+- npc: Narwick Everton
+  role: Butcher
+  level: '36'
+  faction: Alliance
+  race: Human
+  hub: Ravenshire
+  zone: Gilneas
+  coords_note: not found in sources
+  vendor_categories:
+  - Meat vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Narwick_Everton
+- npc: Todd Bolder
+  level: '40'
+  faction: Alliance
+  race: Human
+  hub: Ravenshire
+  zone: Gilneas
+  coords_note: not found in sources
+  vendor_categories:
+  - Blacksmiths
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Todd_Bolder
+- npc: Camp Chef Velden
+  role: Meat Vendor
+  level: '40'
+  faction: Alliance
+  race: Human
+  hub: Vagrant Encampment
+  zone: Gilneas
+  coords_note: not found in sources
+  vendor_categories:
+  - Cooks
+  - Meat vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Camp_Chef_Velden
+- npc: Mariette Shademore
+  level: '33'
+  faction: Alliance
+  race: Human
+  hub: Shademore Tavern
+  zone: Gilneas
+  coords_note: not found in sources
+  vendor_categories:
+  - Innkeepers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Mariette_Shademore
+- npc: Cook Harry
+  level: '35'
+  faction: Alliance
+  race: Human
+  hub: Shademore Tavern
+  zone: Gilneas
+  coords_note: not found in sources
+  vendor_categories:
+  - Cooks
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Cook_Harry
+- npc: Levandra
+  level: '44'
+  faction: Alliance
+  race: Human
+  hub: Cave above Mossgrove Farm
+  zone: Gilneas
+  coords_note: not found in sources
+  vendor_categories:
+  - Herbalism vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Levandra
+- npc: Sunnyglade Emissary
+  level: '30'
+  faction: Neutral
+  race: Blood Elf
+  coords_note: not found in sources
+  vendor_categories:
+  - Battlemasters
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Sunnyglade_Emissary
+- npc: Anati Gapper
+  role: General Goods
+  level: '35'
+  faction: Horde
+  race: Human
+  hub: Blackthorn's Camp
+  zone: Gilneas
+  coords_note: not found in sources
+  vendor_categories:
+  - Ammo vendors
+  - General goods vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Anati_Gapper
+- npc: Handon Blackhammer
+  role: Blacksmith Supplies
+  level: '35'
+  faction: Horde
+  race: Human
+  hub: Blackthorn's Camp
+  zone: Gilneas
+  coords_note: not found in sources
+  vendor_categories:
+  - Blacksmithing vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Handon_Blackhammer
+- npc: Learic Veylon
+  role: Food & Drink
+  level: '30'
+  faction: Horde
+  race: Human
+  hub: Blackthorn's Camp
+  zone: Gilneas
+  coords_note: not found in sources
+  vendor_categories:
+  - Food and drink vendor
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Learic_Veylon
+- npc: Leela the Shadow
+  role: Rogue Trainer
+  level: '8'
+  faction: Alliance
+  race: High elf
+  hub: Brinthilien
+  zone: Thalassian Highlands
+  coords_note: not found in sources
+  vendor_categories:
+  - Rogue trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Leela_the_Shadow
+- npc: Torial Dawnrise
+  role: General Goods
+  level: '3'
+  faction: Alliance
+  race: High elf
+  hub: Brinthilien
+  zone: Thalassian Highlands
+  coords_note: not found in sources
+  vendor_categories:
+  - Ammo vendors
+  - General goods vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Torial_Dawnrise
+- npc: Lor'thas the Holy
+  role: Paladin Trainer
+  level: '5'
+  faction: Alliance
+  race: High elf
+  hub: Brinthilien
+  zone: Thalassian Highlands
+  coords_note: not found in sources
+  vendor_categories:
+  - Paladin trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Lor%27thas_the_Holy
+- npc: Priestess Maelah Sunsworn
+  role: Priest Trainer
+  level: '5'
+  faction: Alliance
+  race: High elf
+  hub: Brinthilien
+  zone: Thalassian Highlands
+  coords_note: not found in sources
+  vendor_categories:
+  - Priest trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Priestess_Maelah_Sunsworn
+- npc: Ranger Rubinah Sunsworn
+  role: Hunter Trainer
+  level: '8'
+  faction: Alliance
+  race: High elf
+  hub: Brinthilien
+  zone: Thalassian Highlands
+  coords_note: not found in sources
+  vendor_categories:
+  - Hunter trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Ranger_Rubinah_Sunsworn
+- npc: Valanos Dawnfire
+  role: Warrior Trainer
+  level: '11'
+  faction: Alliance
+  race: High elf
+  hub: Brinthilien
+  zone: Thalassian Highlands
+  coords_note: not found in sources
+  vendor_categories:
+  - Warrior trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Valanos_Dawnfire
+- npc: Magister Ala'shor Sunblood
+  role: Mage Trainer
+  level: '10'
+  faction: Alliance
+  race: High elf
+  hub: Brinthilien
+  zone: Thalassian Highlands
+  coords_note: not found in sources
+  vendor_categories:
+  - Mage trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Magister_Ala%27shor_Sunblood
+- npc: Melonius Silvershine
+  role: Mail Armor Merchant
+  level: '10'
+  faction: Alliance
+  race: High elf
+  hub: Brinthilien
+  zone: Thalassian Highlands
+  coords_note: not found in sources
+  vendor_categories:
+  - Armor vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Melonius_Silvershine
+- npc: Malanius Silvershine
+  role: Food Merchant
+  level: '3'
+  faction: Alliance
+  race: High elf
+  hub: Brinthilien
+  zone: Thalassian Highlands
+  coords_note: not found in sources
+  vendor_categories:
+  - Food and drink vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Malanius_Silvershine
+- npc: Alyssia Solar
+  role: Cloth & Leather Armor Merchant
+  level: '11'
+  faction: Alliance
+  race: High elf
+  hub: Brinthilien
+  zone: Thalassian Highlands
+  coords_note: not found in sources
+  vendor_categories:
+  - Armor vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Alyssia_Solar
+- npc: Dalicia Sweetsilver
+  level: '10'
+  faction: Alliance
+  race: High elf
+  hub: Brinthilien
+  zone: Thalassian Highlands
+  coords_note: not found in sources
+  vendor_categories:
+  - Cooks
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Dalicia_Sweetsilver
+- npc: Soresh
+  role: Innkeeper
+  level: '52'
+  faction: Horde
+  race: Orc
+  hub: Karfang Hold
+  zone: Burning Steppes
+  coords_note: not found in sources
+  vendor_categories:
+  - Innkeepers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Soresh
+- npc: Blacksmith Torren
+  role: Weapons and Armor
+  level: '54'
+  faction: Horde
+  race: Orc
+  hub: Karfang Hold
+  zone: Burning Steppes
+  coords_note: not found in sources
+  vendor_categories:
+  - Blacksmiths
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Blacksmith_Torren
+- npc: Herekk
+  role: Stable Master
+  level: '48'
+  faction: Horde
+  race: Orc
+  hub: Karfang Hold
+  zone: Burning Steppes
+  coords_note: not found in sources
+  vendor_categories:
+  - Stable masters
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Herekk
+- npc: Sarkensh
+  role: Trade Supplies
+  level: '47'
+  faction: Horde
+  race: Orc
+  hub: Karfang Hold
+  zone: Burning Steppes
+  coords_note: not found in sources
+  vendor_categories:
+  - Tradeskill vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Sarkensh
+- npc: Golsh
+  role: General Goods
+  level: '50'
+  faction: Horde
+  race: Orc
+  hub: Karfang Hold
+  zone: Burning Steppes
+  coords_note: not found in sources
+  vendor_categories:
+  - Ammo vendors
+  - General goods vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Golsh
+- npc: Daron Truthkeeper
+  role: Renowned Scarlet Blacksmith
+  level: '50'
+  faction: Neutral
+  race: Human
+  hub: New Avalon
+  zone: Scarlet Enclave
+  coords_note: not found in sources
+  vendor_categories:
+  - Blacksmithing vendors
+  - Blacksmiths
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Daron_Truthkeeper
+- npc: Stablemaster Yannis
+  level: '35'
+  faction: Alliance
+  race: Human
+  hub: Caelan's Rest
+  zone: Lapidis Isle
+  coords_note: not found in sources
+  vendor_categories:
+  - Stable masters
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Stablemaster_Yannis
+- npc: Dudley
+  role: Trade Supplies
+  level: '47'
+  faction: Alliance
+  race: Human
+  hub: Caelan's Rest
+  zone: Lapidis Isle
+  coords_note: not found in sources
+  vendor_categories:
+  - Tradeskill vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Dudley
+- npc: Sean Pinerock
+  role: Blacksmith
+  level: '53'
+  faction: Alliance
+  race: Human
+  hub: Caelan's Rest
+  zone: Lapidis Isle
+  coords_note: not found in sources
+  vendor_categories:
+  - Blacksmithing vendors
+  - Blacksmiths
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Sean_Pinerock
+- npc: Chef Jenkel
+  role: Cooking Trainer
+  level: '35'
+  faction: Alliance
+  race: Human
+  hub: Caelan's Rest
+  zone: Lapidis Isle
+  coords_note: not found in sources
+  vendor_categories:
+  - Cooking trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Chef_Jenkel
+- npc: Cook Lopperson
+  role: Cooking Supplies
+  level: '30'
+  faction: Alliance
+  race: Human
+  hub: Caelan's Rest
+  zone: Lapidis Isle
+  coords_note: not found in sources
+  vendor_categories:
+  - Cooking vendors
+  - Cooks
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Cook_Lopperson
+- npc: Sailor 'Deepmug'
+  role: Rum Vendor
+  level: '48'
+  faction: Alliance
+  race: Human
+  hub: Caelan's Rest
+  zone: Lapidis Isle
+  coords_note: not found in sources
+  vendor_categories:
+  - Alcohol vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Sailor_%27Deepmug%27
+- npc: Barkeep Clemens
+  role: The Army of Lordaeron
+  level: '15'
+  faction: Alliance
+  race: Human
+  hub: Remnants Camp
+  zone: Tirisfal Glades
+  coords_note: not found in sources
+  vendor_categories:
+  - Bartenders
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Barkeep_Clemens
+- npc: Reolis Riptusk
+  role: Horde Cloth Quartermaster
+  level: '11'
+  faction: Horde
+  race: Forest troll
+  hub: Amani'Alor
+  zone: Stonetalon Mountains
+  coords_note: not found in sources
+  vendor_categories:
+  - Stable masters
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.15.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Reolis_Riptusk
+- npc: Ranor Riptusk
+  role: General Goods
+  level: '3'
+  faction: Horde
+  race: Forest troll
+  hub: Amani'Alor
+  zone: Stonetalon Mountains
+  coords_note: not found in sources
+  vendor_categories:
+  - Ammo vendors
+  - General goods vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.15.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Ranor_Riptusk
+- npc: Talkharu Riptusk
+  role: Blacksmithing Supplies
+  level: '30'
+  faction: Horde
+  race: Forest troll
+  hub: Amani'Alor
+  zone: Stonetalon Mountains
+  coords_note: not found in sources
+  vendor_categories:
+  - Blacksmithing vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.15.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Talkharu_Riptusk
+- npc: Zul'Mabe Bearclaw
+  role: Bear Merchant
+  level: '11'
+  faction: Horde
+  race: Forest troll
+  hub: Amani'Alor
+  zone: Stonetalon Mountains
+  coords_note: not found in sources
+  vendor_categories:
+  - Mount vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.15.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Zul%27Mabe_Bearclaw
+- npc: Rinja Scenttusk
+  role: Stable Master
+  level: '30'
+  faction: Horde
+  race: Forest troll
+  hub: Amani'Alor
+  zone: Stonetalon Mountains
+  coords_note: not found in sources
+  vendor_categories:
+  - Stable masters
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.15.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Rinja_Scenttusk
+- npc: Vanessa Porter
+  role: Gryphon Master
+  level: '55'
+  faction: Alliance
+  race: Human
+  hub: Caelan's Rest
+  zone: Lapidis Isle
+  coords_note: not found in sources
+  vendor_categories:
+  - Flight masters
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Vanessa_Porter
+- npc: Denia Hale
+  role: General Goods
+  level: '47'
+  faction: Alliance
+  race: Human
+  hub: Caelan's Rest
+  zone: Lapidis Isle
+  coords_note: not found in sources
+  vendor_categories:
+  - Ammo vendors
+  - General goods vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Denia_Hale
+- npc: Aira Starsworn
+  role: General Goods
+  level: '10'
+  faction: Alliance
+  race: High elf
+  hub: Thaumarium
+  zone: Thalassian Highlands
+  coords_note: not found in sources
+  vendor_categories:
+  - General goods vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Aira_Starsworn
+- npc: Calaire Solarguard
+  role: Trade Supplies
+  level: '10'
+  faction: Alliance
+  race: High elf
+  hub: Thalassian Highlands
+  zone: Thalassian Highlands
+  coords_note: not found in sources
+  vendor_categories:
+  - Tradeskill vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Calaire_Solarguard
+- npc: Samantha Stewards
+  role: General Goods
+  level: '45'
+  faction: Alliance
+  race: Human
+  hub: Ravenshire
+  zone: Gilneas
+  coords_note: not found in sources
+  vendor_categories:
+  - General goods vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Samantha_Stewards
+- npc: Jacob Stewards
+  role: Trade Goods
+  level: '45'
+  faction: Alliance
+  race: Human
+  hub: Ravenshire
+  zone: Gilneas
+  coords_note: not found in sources
+  vendor_categories:
+  - Tradeskill vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Jacob_Stewards
+- npc: Larry Bolder
+  role: Armorsmith and Shieldcrafter
+  level: '35'
+  faction: Alliance
+  race: Human
+  hub: Ravenshire
+  zone: Gilneas
+  coords_note: not found in sources
+  vendor_categories:
+  - Armor vendors
+  - Armorsmiths
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Larry_Bolder
+- npc: Nolan Tanner
+  role: Food & Drink
+  level: '30'
+  faction: Alliance
+  race: Human
+  hub: Ravenshire
+  zone: Gilneas
+  coords_note: not found in sources
+  vendor_categories:
+  - Food and drink vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Nolan_Tanner
+- npc: Adam Bonlay
+  role: Trade Supplies
+  level: '32'
+  faction: Alliance
+  race: Human
+  hub: Shademore Tavern
+  zone: Gilneas
+  coords_note: not found in sources
+  vendor_categories:
+  - Tradeskill vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Adam_Bonlay
+- npc: Zohze
+  role: Accommodations
+  level: '30'
+  faction: Horde
+  race: Orc
+  hub: Stormbreaker Point
+  zone: Balor
+  coords_note: not found in sources
+  vendor_categories:
+  - Innkeepers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Zohze
+- npc: Seer Sarno
+  role: Reagents
+  level: '55'
+  faction: Horde
+  race: Orc
+  hub: Stormbreaker Point
+  zone: Balor
+  coords_note: not found in sources
+  vendor_categories:
+  - Reagent vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Seer_Sarno
+- npc: Grexx
+  role: Weapons
+  level: '45'
+  faction: Horde
+  race: Goblin
+  hub: Stormbreaker Point
+  zone: Balor
+  coords_note: not found in sources
+  vendor_categories:
+  - Weapon vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Grexx
+- npc: Hefeni
+  role: Wind Rider Master
+  level: '55'
+  faction: Horde
+  race: Tauren
+  hub: Stormbreaker Point
+  zone: Balor
+  coords_note: not found in sources
+  vendor_categories:
+  - Flight masters
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Hefeni
+- npc: Nundir Feathersoar
+  role: Gryphon Master
+  level: '55'
+  faction: Alliance
+  race: Dwarf
+  hub: SI:7 Outpost
+  zone: Balor
+  coords_note: not found in sources
+  vendor_categories:
+  - Flight masters
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Nundir_Feathersoar
+- npc: Fanny Forgeguard
+  level: '35'
+  faction: Alliance
+  race: Dwarf
+  hub: SI:7 Outpost
+  zone: Balor
+  coords_note: not found in sources
+  vendor_categories:
+  - Weapon vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Fanny_Forgeguard
+- npc: Elindra Swiftluck
+  role: Provisions
+  level: '35'
+  faction: Alliance
+  race: High elf
+  hub: SI:7 Outpost
+  zone: Balor
+  coords_note: not found in sources
+  vendor_categories:
+  - General goods vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Elindra_Swiftluck
+- npc: Fydent Mossrage
+  role: Accommodations
+  level: '50'
+  faction: Alliance
+  race: Night elf
+  hub: SI:7 Outpost
+  zone: Balor
+  coords_note: not found in sources
+  vendor_categories:
+  - Innkeepers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Fydent_Mossrage
+- npc: Janet Hollowworth
+  role: Blacksmith
+  level: '40'
+  faction: Alliance
+  race: Human
+  hub: Sorrowguard Keep
+  zone: Swamp of Sorrows
+  coords_note: not found in sources
+  vendor_categories:
+  - Blacksmithing vendors
+  - Blacksmiths
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Janet_Hollowworth
+- npc: Howard Gray
+  role: Trade Supplies
+  level: '35'
+  faction: Alliance
+  race: Human
+  hub: Sorrowguard Keep
+  zone: Swamp of Sorrows
+  coords_note: not found in sources
+  vendor_categories:
+  - Tradeskill vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Howard_Gray
+- npc: '''Sly'' Duncan'
+  role: Mushroom Seller
+  level: '25'
+  faction: Alliance
+  race: Human
+  hub: Sorrowguard Keep
+  zone: Swamp of Sorrows
+  coords_note: not found in sources
+  vendor_categories:
+  - Fungus vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/%27Sly%27_Duncan
+- npc: Lucas
+  role: Cobbler
+  level: '40'
+  faction: Alliance
+  race: Human
+  hub: Sorrowguard Keep
+  zone: Swamp of Sorrows
+  coords_note: not found in sources
+  vendor_categories:
+  - Armor vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Lucas
+- npc: Mitchell Huckabee
+  role: Donut Vendor
+  level: '40'
+  faction: Alliance
+  race: Human
+  hub: Jousting Grounds
+  zone: Northwind
+  coords_note: not found in sources
+  vendor_categories:
+  - Food vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Mitchell_Huckabee
+- npc: Mariah Huckabee
+  role: Drinks and Refreshments
+  level: '40'
+  faction: Alliance
+  race: Human
+  hub: Jousting Grounds
+  zone: Northwind
+  coords_note: not found in sources
+  vendor_categories:
+  - Drink vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Mariah_Huckabee
+- npc: Ragnaz
+  role: Warrior Trainer
+  level: '45'
+  faction: Horde
+  race: Orc
+  hub: Shatterblade Post
+  zone: Grim Reaches
+  coords_note: not found in sources
+  vendor_categories:
+  - Warrior trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Ragnaz
+- npc: Bargolnak
+  role: Butcher
+  level: '25'
+  faction: Horde
+  race: Orc
+  hub: Shatterblade Post
+  zone: Grim Reaches
+  coords_note: not found in sources
+  vendor_categories:
+  - Meat vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Bargolnak
+- npc: Hagrekk
+  role: General Goods
+  level: '28'
+  faction: Horde
+  race: Orc
+  hub: Shatterblade Post
+  zone: Grim Reaches
+  coords_note: not found in sources
+  vendor_categories:
+  - Ammo vendors
+  - General goods vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Hagrekk
+- npc: Maktha
+  role: Ammunition
+  level: '34'
+  faction: Horde
+  race: Orc
+  hub: Shatterblade Post
+  zone: Grim Reaches
+  coords_note: not found in sources
+  vendor_categories:
+  - Ammo vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Maktha
+- npc: Razikgar
+  role: Wyvern Master
+  level: '55'
+  faction: Horde
+  race: Orc
+  hub: Shatterblade Post
+  zone: Grim Reaches
+  coords_note: not found in sources
+  vendor_categories:
+  - Flight masters
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Razikgar
+- npc: Tal'garr
+  role: Trade Supplies
+  level: '30'
+  faction: Horde
+  race: Orc
+  hub: Shatterblade Post
+  zone: Grim Reaches
+  coords_note: not found in sources
+  vendor_categories:
+  - Tradeskill vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Tal%27garr
+- npc: Targen Bladecall
+  role: Weaponsmith
+  level: '32'
+  faction: Horde
+  race: Orc
+  hub: Shatterblade Post
+  zone: Grim Reaches
+  coords_note: not found in sources
+  vendor_categories:
+  - Weapon vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Targen_Bladecall
+- npc: Tashga
+  role: Herbalism & Alchemy Supplies
+  level: '36'
+  faction: Horde
+  race: Orc
+  hub: Shatterblade Post
+  zone: Grim Reaches
+  coords_note: not found in sources
+  vendor_categories:
+  - Alchemy vendors
+  - Herbalism vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Tashga
+- npc: Torva
+  role: Innkeeper
+  level: '25'
+  faction: Horde
+  race: Orc
+  hub: Shatterblade Post
+  zone: Grim Reaches
+  coords_note: not found in sources
+  vendor_categories:
+  - Innkeepers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Torva
+- npc: Vagrog
+  role: Reagents
+  level: '30'
+  faction: Horde
+  race: Orc
+  hub: Shatterblade Post
+  zone: Grim Reaches
+  coords_note: not found in sources
+  vendor_categories:
+  - Reagent vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Vagrog
+- npc: Kazand Blundergate
+  role: Ammunition
+  level: '23'
+  faction: Alliance
+  race: Wildhammer dwarf
+  hub: Dun Kithas
+  zone: Grim Reaches
+  coords_note: not found in sources
+  vendor_categories:
+  - Ammo vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Kazand_Blundergate
+- npc: Vohand Blundergate
+  role: Gunsmith
+  level: '33'
+  faction: Alliance
+  race: Wildhammer dwarf
+  hub: Dun Kithas
+  zone: Grim Reaches
+  coords_note: not found in sources
+  vendor_categories:
+  - Ammo vendors
+  - Weapon vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Vohand_Blundergate
+- npc: Barwegg Loadstone
+  role: Mining Supplies
+  level: '28'
+  faction: Alliance
+  race: Dwarf
+  hub: Dun Kithas
+  zone: Grim Reaches
+  coords_note: not found in sources
+  vendor_categories:
+  - Mining vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Barwegg_Loadstone
+- npc: Farwyn Barleynight
+  role: Stable Master
+  level: '30'
+  faction: Alliance
+  race: Wildhammer dwarf
+  hub: Dun Kithas
+  zone: Grim Reaches
+  coords_note: not found in sources
+  vendor_categories:
+  - Stable masters
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Farwyn_Barleynight
+- npc: Gazla Blackforge
+  role: General Supplies
+  level: '28'
+  faction: Alliance
+  race: Wildhammer dwarf
+  hub: Dun Kithas
+  zone: Grim Reaches
+  coords_note: not found in sources
+  vendor_categories:
+  - General goods vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Gazla_Blackforge
+- npc: Gormand Belchbrew
+  role: Trade Supplies
+  level: '25'
+  faction: Alliance
+  race: Wildhammer dwarf
+  hub: Dun Kithas
+  zone: Grim Reaches
+  coords_note: not found in sources
+  vendor_categories:
+  - Tradeskill vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Gormand_Belchbrew
+- npc: Kargun Mightfall
+  role: Metalsmith
+  level: '25'
+  faction: Alliance
+  race: Wildhammer dwarf
+  hub: Dun Kithas
+  zone: Grim Reaches
+  coords_note: not found in sources
+  vendor_categories:
+  - Ammo vendors
+  - Armor vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Kargun_Mightfall
+- npc: Krangosh Thunderwind
+  role: Gryphon Master
+  level: '55'
+  faction: Alliance
+  race: Dwarf
+  hub: Dun Kithas
+  zone: Grim Reaches
+  coords_note: not found in sources
+  vendor_categories:
+  - Flight masters
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Krangosh_Thunderwind
+- npc: Velwin Gravelcrest
+  role: Food & Drink
+  level: '32'
+  faction: Alliance
+  race: Wildhammer dwarf
+  hub: Dun Kithas
+  zone: Grim Reaches
+  coords_note: not found in sources
+  vendor_categories:
+  - Food and drink vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Velwin_Gravelcrest
+- npc: Telga Wildward
+  role: Innkeeper
+  level: '30'
+  faction: Alliance
+  race: Wildhammer dwarf
+  hub: Dun Kithas Magistrate
+  zone: Grim Reaches
+  coords_note: not found in sources
+  vendor_categories:
+  - Innkeepers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Telga_Wildward
+- npc: Dorlegg Firegrip
+  role: Armorer
+  level: '40'
+  faction: Alliance
+  race: Wildhammer dwarf
+  hub: East Ridge Outpost
+  zone: Grim Reaches
+  coords_note: not found in sources
+  vendor_categories:
+  - Armor vendors
+  - Armorsmiths
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Dorlegg_Firegrip
+- npc: Alurzion
+  role: Sunnyglade Valley Battlemaster
+  level: '61'
+  faction: Neutral
+  race: Bronze dragon
+  hub: Caverns of Time
+  zone: Sunnyglade Valley
+  coords_note: not found in sources
+  vendor_categories:
+  - Battlemasters
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Alurzion
+- npc: Nizzle
+  role: Kezan Imports
+  level: '60'
+  faction: Neutral
+  race: Goblin
+  hub: Old Port Authority
+  zone: Stranglethorn Vale
+  coords_note: not found in sources
+  vendor_categories:
+  - Food vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Nizzle
+- npc: '''Moonshine'' Marty'
+  role: The Bootlegger
+  level: '50'
+  faction: Neutral
+  race: Human
+  hub: Distillery Island
+  zone: Gillijim's Isle
+  coords_note: not found in sources
+  vendor_categories:
+  - Alcohol vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/%27Moonshine%27_Marty
+- npc: Angela Goodwill
+  role: Barmaid
+  level: '52'
+  faction: Alliance
+  race: Human
+  hub: Caelan's Rest
+  zone: Lapidis Isle
+  coords_note: not found in sources
+  vendor_categories:
+  - Food and drink vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Angela_Goodwill
+- npc: Fellis Bander
+  role: Bartender
+  level: '47'
+  faction: Alliance
+  race: Human
+  hub: Caelan's Rest
+  zone: Lapidis Isle
+  coords_note: not found in sources
+  vendor_categories:
+  - Bartenders
+  - Food and drink vendor
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Fellis_Bander
+- npc: Kryillos
+  role: General Supplies
+  level: '50'
+  faction: Neutral
+  race: Centaur
+  hub: Kalkor Point
+  zone: Gillijim's Isle
+  coords_note: not found in sources
+  vendor_categories:
+  - Ammo vendors
+  - General goods vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Kryillos
+- npc: Isidora
+  role: Enchanting Supplies
+  level: '53'
+  faction: Neutral
+  race: Centaur
+  hub: Kalkor Point
+  zone: Gillijim's Isle
+  coords_note: not found in sources
+  vendor_categories:
+  - Enchanting vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Isidora
+- npc: Karpos
+  role: Blacksmithing Supplies
+  level: '50'
+  faction: Neutral
+  race: Centaur
+  hub: Kalkor Point
+  zone: Gillijim's Isle
+  coords_note: not found in sources
+  vendor_categories:
+  - Blacksmithing vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Karpos
+- npc: Florette DeMure
+  role: Herbs and Flowers
+  level: '30'
+  faction: Alliance
+  race: Human
+  hub: Ambershire
+  zone: Northwind
+  coords_note: not found in sources
+  vendor_categories:
+  - Flower vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Florette_DeMure
+- npc: AJ Springberry
+  role: Hunter Trainer
+  level: '12'
+  faction: Alliance
+  race: Human
+  hub: The Park
+  zone: Stormwind City
+  coords_note: not found in sources
+  vendor_categories:
+  - Hunter trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/AJ_Springberry
+- npc: Willhelm Rockdust
+  role: Hunter Trainer
+  level: '60'
+  faction: Alliance
+  race: Human
+  hub: The Park
+  zone: Stormwind City
+  coords_note: not found in sources
+  vendor_categories:
+  - Hunter trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Willhelm_Rockdust
+- npc: Marven
+  role: Pet Trainer
+  level: '35'
+  faction: Alliance
+  race: Human
+  hub: The Park
+  zone: Stormwind City
+  coords_note: not found in sources
+  vendor_categories:
+  - Pet trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Marven
+- npc: Ulrich Buckert
+  role: Baked Goods
+  level: '34'
+  faction: Alliance
+  race: Human
+  hub: Ambershire
+  zone: Northwind
+  coords_note: not found in sources
+  vendor_categories:
+  - Bakers
+  - Bread vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Ulrich_Buckert
+- npc: Herbert Kent
+  role: Weapon Merchant
+  level: '39'
+  faction: Alliance
+  race: Human
+  hub: Ambershire
+  zone: Northwind
+  coords_note: not found in sources
+  vendor_categories:
+  - Weapon vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Herbert_Kent
+- npc: Smith Martin
+  role: Expert Blacksmith
+  level: '45'
+  faction: Alliance
+  race: Human
+  hub: Ambershire
+  zone: Northwind
+  coords_note: not found in sources
+  vendor_categories:
+  - Blacksmithing trainers
+  - Blacksmiths
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Smith_Martin
+- npc: Griselda Tilley
+  role: Fishing Supplies
+  level: '46'
+  faction: Alliance
+  race: Human
+  hub: Ambershire
+  zone: Northwind
+  coords_note: not found in sources
+  vendor_categories:
+  - Fishing vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Griselda_Tilley
+- npc: Leander Hering
+  level: '45'
+  faction: Alliance
+  race: Human
+  hub: Ambershire
+  zone: Northwind
+  coords_note: not found in sources
+  vendor_categories:
+  - Stable masters
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Leander_Hering
+- npc: Leonhart Hamel
+  role: Gryphon Master
+  level: '55'
+  faction: Alliance
+  race: Human
+  hub: Ambershire
+  zone: Northwind
+  coords_note: not found in sources
+  vendor_categories:
+  - Flight masters
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Leonhart_Hamel
+- npc: Lucia Gallagher
+  role: Trade Goods
+  level: '44'
+  faction: Alliance
+  race: Human
+  hub: Ambershire
+  zone: Northwind
+  coords_note: not found in sources
+  vendor_categories:
+  - Tradeskill vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Lucia_Gallagher
+- npc: Wisteria Gallagher
+  role: General Goods
+  level: '46'
+  faction: Alliance
+  race: Human
+  hub: Ambershire
+  zone: Northwind
+  coords_note: not found in sources
+  vendor_categories:
+  - Ammo vendors
+  - General goods vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Wisteria_Gallagher
+- npc: Thomas Arello
+  role: Innkeeper
+  level: '50'
+  faction: Alliance
+  race: Human
+  hub: Ambershire
+  zone: Northwind
+  coords_note: not found in sources
+  vendor_categories:
+  - Innkeepers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Thomas_Arello
+- npc: Jarold Thorpe
+  role: Food and Drink
+  level: '46'
+  faction: Alliance
+  race: Human
+  hub: The Plump Pumpkin
+  zone: Northwind
+  coords_note: not found in sources
+  vendor_categories:
+  - Food and drink vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Jarold_Thorpe
+- npc: Beverly Gale
+  role: Barmaid
+  level: '32'
+  faction: Alliance
+  race: Human
+  hub: The Plump Pumpkin
+  zone: Northwind
+  coords_note: not found in sources
+  vendor_categories:
+  - Drink vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Beverly_Gale
+- npc: Udo Keller
+  level: '26'
+  faction: Alliance
+  race: Human
+  hub: The Plump Pumpkin
+  zone: Northwind
+  coords_note: not found in sources
+  vendor_categories:
+  - Meat vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Udo_Keller
+- npc: Nadia Geringt
+  role: Horse Breeder
+  level: '38'
+  faction: Alliance
+  race: Human
+  hub: Mildenhall Horse Farm
+  zone: Northwind
+  coords_note: not found in sources
+  vendor_categories:
+  - Mount vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Nadia_Geringt
+- npc: Horsekeeper Geringt
+  role: Riding Trainer
+  level: '45'
+  faction: Alliance
+  race: Human
+  hub: Mildenhall Horse Farm
+  zone: Northwind
+  coords_note: not found in sources
+  vendor_categories:
+  - Riding trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Horsekeeper_Geringt
+- npc: Meredith Rutland
+  role: Shoemaker
+  level: '42'
+  faction: Alliance
+  race: Human
+  hub: Amberwood Keep
+  zone: Northwind
+  coords_note: not found in sources
+  vendor_categories:
+  - Armor vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Meredith_Rutland
+- npc: Barbara Lee
+  role: Fletcher
+  level: '31'
+  faction: Alliance
+  race: Human
+  hub: Amberwood Keep
+  zone: Northwind
+  coords_note: not found in sources
+  vendor_categories:
+  - Ammo vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Barbara_Lee
+- npc: Fidel Prescott
+  role: Alchemy Supplies
+  level: '24'
+  faction: Alliance
+  race: Human
+  hub: Amberwood Keep
+  zone: Northwind
+  coords_note: not found in sources
+  vendor_categories:
+  - Alchemy vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Fidel_Prescott
+- npc: Jacqueline Marlowe
+  role: Sous Chef
+  level: '36'
+  faction: Alliance
+  race: Human
+  hub: Amberwood Keep
+  zone: Northwind
+  coords_note: not found in sources
+  vendor_categories:
+  - Cooking vendors
+  - Cooks
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Jacqueline_Marlowe
+- npc: Linus Huxley
+  role: Chef
+  level: '36'
+  faction: Alliance
+  race: Human
+  hub: Amberwood Keep
+  zone: Northwind
+  coords_note: not found in sources
+  vendor_categories:
+  - Cooking trainers
+  - Cooks
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Linus_Huxley
+- npc: Argor Smugshield
+  role: Armor Smith
+  level: '24'
+  faction: Alliance
+  race: Dwarf
+  hub: Amberwood Keep
+  zone: Northwind
+  coords_note: not found in sources
+  vendor_categories:
+  - Armor vendors
+  - Armorsmiths
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Argor_Smugshield
+- npc: Alison Swift
+  role: Tailor
+  level: '42'
+  faction: Alliance
+  race: Human
+  hub: Stillheart Port
+  zone: Northwind
+  coords_note: not found in sources
+  vendor_categories:
+  - Tailoring vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Alison_Swift
+- npc: Frederik Hewg
+  role: Blacksmithing Supplies
+  level: '38'
+  faction: Alliance
+  race: Human
+  hub: Stillheart Port
+  zone: Northwind
+  coords_note: not found in sources
+  vendor_categories:
+  - Blacksmithing vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Frederik_Hewg
+- npc: Enchantress Magilou
+  role: Expert Enchanter
+  level: '50'
+  faction: Alliance
+  race: Gnome
+  hub: Northwind
+  zone: Northwind
+  coords_note: not found in sources
+  vendor_categories:
+  - Enchanting trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Enchantress_Magilou
+- npc: Elendon Truebough
+  role: Weapons
+  level: '44'
+  faction: Alliance
+  race: Night elf
+  hub: Narvalis Point
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Weapon vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Elendon_Truebough
+- npc: Irea Dawncaller
+  role: Accommodations
+  level: '50'
+  faction: Alliance
+  race: Night elf
+  hub: Narvalis Point
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Innkeepers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Irea_Dawncaller
+- npc: Seltarii Skycloud
+  role: Reagents & Poisons
+  level: '45'
+  faction: Alliance
+  race: Night elf
+  hub: Narvalis Point
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Poison vendors
+  - Reagent vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Seltarii_Skycloud
+- npc: Badel Wildlance
+  level: '44'
+  faction: Alliance
+  race: Night elf
+  hub: Narvalis Point
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Stable masters
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Badel_Wildlance
+- npc: Merellanea
+  role: Hippogryff Master
+  level: '56'
+  faction: Alliance
+  race: Night elf
+  hub: Narvalis Point
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Flight masters
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Merellanea
+- npc: Arcanist Elmarine
+  role: Expedition Supplies
+  level: '45'
+  faction: Alliance
+  race: High elf
+  hub: Sunsworn Camp
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Reagent vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Arcanist_Elmarine
+- npc: Dhom
+  role: Tools
+  level: '50'
+  faction: Neutral
+  race: Draenei
+  hub: Moro'gai Village
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Tradeskill vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Dhom
+- npc: Z'ahk
+  role: Flightmaster
+  level: '55'
+  faction: Neutral
+  race: Draenei
+  hub: Moro'gai Village
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Flight masters
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Z%27ahk
+- npc: P'li
+  role: Innkeeper
+  level: '50'
+  faction: Neutral
+  race: Draenei
+  hub: Moro'gai Village
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Innkeepers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/P%27li
+- npc: Bogtu
+  role: Fruit Vendor
+  level: '25'
+  faction: Neutral
+  race: Draenei
+  hub: Moro'gai Village
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Fruit vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Bogtu
+- npc: Omna'kar
+  role: Trade Goods
+  level: '50'
+  faction: Neutral
+  race: Draenei
+  hub: Moro'gai Village
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Tradeskill vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Omna%27kar
+- npc: Gallitrea
+  role: Jewelcrafting Supplies
+  level: '48'
+  faction: Neutral
+  race: High elf
+  hub: Moro'gai Village
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Jewelcrafting vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Gallitrea
+- npc: Fra'phani
+  role: Exotic Creatures
+  level: '55'
+  faction: Neutral
+  race: Draenei
+  hub: Moro'gai Village
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Specialty vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Fra%27phani
+- npc: Cook Rem'sai
+  role: Village Cook
+  level: '48'
+  faction: Neutral
+  race: Draenei
+  hub: Moro'gai Village
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Cooking trainers
+  - Cooking vendors
+  - Cooks
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Cook_Rem%27sai
+- npc: Master Craftsman T'kalpa
+  role: Foreign Elemental Leatherworking
+  level: '48'
+  faction: Neutral
+  race: Draenei
+  hub: Moro'gai Village
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Leatherworking trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Master_Craftsman_T%27kalpa
+- npc: Ma'shaka
+  role: Leather Armory
+  level: '35'
+  faction: Neutral
+  race: Draenei
+  hub: Moro'gai Village
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Armor vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Ma%27shaka
+- npc: F'eesh
+  role: Fisherman
+  level: '35'
+  faction: Neutral
+  race: Draenei
+  hub: Moro'gai Village
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Fishing trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/F%27eesh
+- npc: Elder Krasheen
+  role: Mage Trainer
+  level: '48'
+  faction: Neutral
+  race: Draenei
+  hub: Moro'gai Village
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Mage trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Elder_Krasheen
+- npc: Elder Sage Azh'okar
+  level: '55'
+  faction: Neutral
+  race: Draenei
+  hub: Moro'gai Village
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Reagent vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Elder_Sage_Azh%27okar
+- npc: Yadriel Summerleaf
+  level: '50'
+  faction: Neutral
+  race: Night elf
+  hub: Grove of the Sun
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Food and drink vendors
+  - Reagent vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Yadriel_Summerleaf
+- npc: The Witch of Northwind
+  level: '50'
+  faction: Neutral
+  race: Human
+  hub: Witch Coven
+  zone: Northwind
+  coords_note: not found in sources
+  vendor_categories:
+  - Alchemy trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/The_Witch_of_Northwind
+- npc: Sol Greycloud
+  role: Flight Master
+  level: '55'
+  faction: Horde
+  race: Tauren
+  hub: Moonhoof Village
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Flight masters
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Sol_Greycloud
+- npc: Trader Brightgrass
+  role: Trade Supplies
+  level: '50'
+  faction: Horde
+  race: Tauren
+  hub: Moonhoof Village
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Tradeskill vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Trader_Brightgrass
+- npc: Innkeeper Warmbreeze
+  role: Innkeeper
+  level: '53'
+  faction: Horde
+  race: Tauren
+  hub: Moonhoof Village
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Innkeepers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Innkeeper_Warmbreeze
+- npc: Ornala
+  role: General Goods
+  level: '53'
+  faction: Horde
+  race: Tauren
+  hub: Moonhoof Village
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Ammo vendors
+  - General goods vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Ornala
+- npc: Fisher Rainstrider
+  role: Fishing Supplies
+  level: '53'
+  faction: Horde
+  race: Tauren
+  hub: Moonhoof Village
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Fishing vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Fisher_Rainstrider
+- npc: Mhulf Nighthorn
+  role: Priest Trainer
+  level: '56'
+  faction: Horde
+  race: Tauren
+  hub: Moonhoof Village
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Priest trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Mhulf_Nighthorn
+- npc: Herbalist Moka
+  role: Herbalism Trainer
+  level: '52'
+  faction: Horde
+  race: Tauren
+  hub: Moonhoof Village
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Herbalism trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Herbalist_Moka
+- npc: Ulf Stonetotem
+  role: Artisan Blacksmith
+  level: '57'
+  faction: Horde
+  race: Tauren
+  hub: Moonhoof Village
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Blacksmithing trainers
+  - Blacksmiths
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Ulf_Stonetotem
+- npc: Mhurl Coarsehoof
+  role: Blacksmithing Supplies
+  level: '56'
+  faction: Horde
+  race: Tauren
+  hub: Moonhoof Village
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Blacksmithing vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Mhurl_Coarsehoof
+- npc: Hula Swiftmane
+  level: '55'
+  faction: Horde
+  race: Tauren
+  hub: Moonhoof Village
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Stable masters
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Hula_Swiftmane
+- npc: Shanni Silkhoof
+  role: Tailoring Supplies
+  level: '50'
+  faction: Horde
+  race: Tauren
+  hub: Moonhoof Village
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Tailoring vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Shanni_Silkhoof
+- npc: Therul
+  role: Weaponsmith & Gunsmith
+  level: '52'
+  faction: Horde
+  race: Tauren
+  hub: Moonhoof Village
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Ammo vendors
+  - Weapon vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Therul
+- npc: Bhulf
+  role: Leatherworking Supplies
+  level: '53'
+  faction: Horde
+  race: Tauren
+  hub: Moonhoof Village
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Leatherworking vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Bhulf
+- npc: Ortak Runetotem
+  role: Druid Trainer
+  level: '58'
+  faction: Horde
+  race: Tauren
+  hub: Moonhoof Retreat
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Druid trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Ortak_Runetotem
+- npc: Raltok
+  role: Food & Drink
+  level: '54'
+  faction: Horde
+  race: Tauren
+  hub: Moonhoof Retreat
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Food and drink vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Raltok
+- npc: Yorla
+  role: Alchemy Supplies
+  level: '57'
+  faction: Horde
+  race: Tauren
+  hub: Moonhoof Retreat
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Alchemy vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Yorla
+- npc: Argnuhl
+  role: Trade Supplies
+  level: '53'
+  faction: Horde
+  race: Tauren
+  hub: Moonhoof Retreat
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Tradeskill vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Argnuhl
+- npc: Ornak Starstrider
+  role: Priest Trainer
+  level: '62'
+  faction: Horde
+  race: Tauren
+  hub: Moonhoof Retreat
+  zone: Moonwhisper Coast
+  coords_note: not found in sources
+  vendor_categories:
+  - Priest trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Ornak_Starstrider
+- npc: Dark Bishop Mordren
+  level: '52'
+  faction: Horde
+  race: Forsaken
+  hub: Stillward Church
+  zone: Gilneas
+  coords_note: not found in sources
+  vendor_categories:
+  - Innkeepers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Dark_Bishop_Mordren
+- npc: Balgon Slin
+  role: Blacksmith
+  level: '35'
+  faction: Horde
+  race: Forsaken
+  hub: Stillward Church
+  zone: Gilneas
+  coords_note: not found in sources
+  vendor_categories:
+  - Blacksmiths
+  - Weapon vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Balgon_Slin
+- npc: Savenna Mosscage
+  role: General Goods
+  level: '36'
+  faction: Horde
+  race: Forsaken
+  hub: Stillward Church
+  zone: Gilneas
+  coords_note: not found in sources
+  vendor_categories:
+  - General goods vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Savenna_Mosscage
+- npc: Andana
+  role: Bat Master
+  level: '55'
+  faction: Horde
+  race: Forsaken
+  hub: Stillward Church
+  zone: Gilneas
+  coords_note: not found in sources
+  vendor_categories:
+  - Flight masters
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Andana
+- npc: Esoch Steelweaver
+  role: Thorn Gorge Battlemaster
+  level: '61'
+  faction: Horde
+  race: Tauren
+  hub: Royal Quarter
+  zone: Undercity
+  coords_note: not found in sources
+  vendor_categories:
+  - Battlemasters
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Esoch_Steelweaver
+- npc: Ingwelda Wildbrand
+  role: Thorn Gorge Battlemaster
+  level: '61'
+  faction: Alliance
+  race: Dwarf
+  hub: Stormwind Keep
+  zone: Stormwind City
+  coords_note: not found in sources
+  vendor_categories:
+  - Battlemasters
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Ingwelda_Wildbrand
+- npc: Thorn Gorge Emissary
+  level: '30'
+  faction: Neutral
+  race: Blood Elf
+  coords_note: not found in sources
+  vendor_categories:
+  - Battlemasters
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Thorn_Gorge_Emissary
+- npc: Fanwyn Wildbrand
+  role: Thorn Gorge Battlemaster
+  level: '61'
+  faction: Alliance
+  race: Dwarf
+  hub: Hall of Arms
+  zone: Ironforge
+  coords_note: not found in sources
+  vendor_categories:
+  - Battlemasters
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Fanwyn_Wildbrand
+- npc: Rubertus Wildbrand
+  role: Thorn Gorge Battlemaster
+  level: '61'
+  faction: Alliance
+  race: Dwarf
+  hub: Warrior's Terrace
+  zone: Darnassus
+  coords_note: not found in sources
+  vendor_categories:
+  - Battlemasters
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Rubertus_Wildbrand
+- npc: Fahesa Steelweaver
+  role: Thorn Gorge Battlemaster
+  level: '61'
+  faction: Horde
+  race: Tauren
+  hub: Hall of the Brave
+  zone: Orgrimmar
+  coords_note: not found in sources
+  vendor_categories:
+  - Battlemasters
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Fahesa_Steelweaver
+- npc: Suda Steelweaver
+  role: Thorn Gorge Battlemaster
+  level: '61'
+  faction: Horde
+  race: Tauren
+  hub: Hunter Rise
+  zone: Thunder Bluff
+  coords_note: not found in sources
+  vendor_categories:
+  - Battlemasters
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Suda_Steelweaver
+- npc: Cynthessa Grimblood
+  role: Survival Trainer
+  level: '50'
+  faction: Horde
+  race: Forsaken
+  hub: Rogues' Quarter
+  zone: Undercity
+  coords_note: not found in sources
+  vendor_categories:
+  - Survival trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Cynthessa_Grimblood
+- npc: Mort Gallspewer
+  role: Survivalist Supplies
+  level: '39'
+  faction: Horde
+  race: Forsaken
+  hub: Rogues' Quarter
+  zone: Undercity
+  coords_note: not found in sources
+  vendor_categories:
+  - Survival vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Mort_Gallspewer
+- npc: Aganna Windhorn
+  role: Leatherworking Supplies
+  level: '25'
+  faction: Horde
+  race: Tauren
+  hub: Sagh's Refuge
+  zone: Thousand Needles
+  coords_note: not found in sources
+  vendor_categories:
+  - Leatherworking vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Aganna_Windhorn
+- npc: Brakan
+  role: Survival Trainer
+  level: '28'
+  faction: Horde
+  race: Orc
+  hub: Valley of Honor
+  zone: Orgrimmar
+  coords_note: not found in sources
+  vendor_categories:
+  - Survival trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Brakan
+- npc: Rishu
+  role: Survivalist Supplies
+  level: '33'
+  faction: Horde
+  race: Jungle troll
+  hub: Valley of Honor
+  zone: Orgrimmar
+  coords_note: not found in sources
+  vendor_categories:
+  - Survival vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Rishu
+- npc: Mezaji
+  role: Warlock Trainer
+  level: '60'
+  faction: Horde
+  race: Forest troll
+  hub: Revantusk Village
+  zone: Hinterlands
+  coords_note: not found in sources
+  vendor_categories:
+  - Warlock trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Mezaji
+- npc: Nuhlok Starstrider
+  role: Priest Trainer
+  level: '11'
+  faction: Horde
+  race: Tauren
+  hub: Camp Narache
+  zone: Mulgore
+  coords_note: not found in sources
+  vendor_categories:
+  - Priest trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Nuhlok_Starstrider
+- npc: Thorinn Darkgrovel
+  role: Warlock Trainer
+  level: '5'
+  faction: Alliance
+  race: Dwarf
+  hub: Anvilmar
+  zone: Dun Morogh
+  coords_note: not found in sources
+  vendor_categories:
+  - Warlock trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Thorinn_Darkgrovel
+- npc: Pargan Starstrider
+  role: Priest Trainer
+  level: '32'
+  faction: Horde
+  race: Tauren
+  hub: Bloodhoof Village
+  zone: Mulgore
+  coords_note: not found in sources
+  vendor_categories:
+  - Priest trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Pargan_Starstrider
+- npc: Marrek Stromnur
+  role: Mage Trainer
+  level: '5'
+  faction: Alliance
+  race: Dwarf
+  hub: Anvilmar
+  zone: Dun Morogh
+  coords_note: not found in sources
+  vendor_categories:
+  - Mage trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Marrek_Stromnur
+- npc: Ammi Summerpelt
+  role: Survivalist Supplies
+  level: '39'
+  faction: Horde
+  race: Tauren
+  hub: Bloodhoof Village
+  zone: Mulgore
+  coords_note: not found in sources
+  vendor_categories:
+  - Survival vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Ammi_Summerpelt
+- npc: Nasnan Hillcreek
+  role: Survival Trainer
+  level: '50'
+  faction: Horde
+  race: Tauren
+  hub: Bloodhoof Village
+  zone: Mulgore
+  coords_note: not found in sources
+  vendor_categories:
+  - Survival trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Nasnan_Hillcreek
+- npc: Frejwin Darkgrovel
+  role: Warlock Trainer
+  level: '50'
+  faction: Alliance
+  race: Dwarf
+  hub: Slaughtered Lamb
+  zone: Stormwind City
+  coords_note: not found in sources
+  vendor_categories:
+  - Warlock trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Frejwin_Darkgrovel
+- npc: Fulgrom Darkgrovel
+  role: Warlock Trainer
+  level: '45'
+  faction: Alliance
+  race: Dwarf
+  hub: Forlorn Cavern
+  zone: Ironforge
+  coords_note: not found in sources
+  vendor_categories:
+  - Warlock trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Fulgrom_Darkgrovel
+- npc: Rabertha Darkgrovel
+  role: Demon Trainer
+  level: '45'
+  faction: Alliance
+  race: Dwarf
+  hub: Forlorn Cavern
+  zone: Ironforge
+  coords_note: not found in sources
+  vendor_categories:
+  - Demon trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Rabertha_Darkgrovel
+- npc: Zin'jashi
+  role: Warlock Trainer
+  level: '5'
+  faction: Horde
+  race: Forest troll
+  hub: The Den
+  zone: Durotar
+  coords_note: not found in sources
+  vendor_categories:
+  - Warlock trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Zin%27jashi
+- npc: Zim'bwaba
+  role: Warlock Trainer
+  level: '60'
+  faction: Horde
+  race: Sand troll
+  hub: Cleft of Shadow
+  zone: Orgrimmar
+  coords_note: not found in sources
+  vendor_categories:
+  - Warlock trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Zim%27bwaba
+- npc: Ka'zinka
+  role: Demon Trainer
+  level: '35'
+  faction: Horde
+  race: Forest troll
+  hub: Cleft of Shadow
+  zone: Orgrimmar
+  coords_note: not found in sources
+  vendor_categories:
+  - Demon trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.17.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Ka%27zinka
+- npc: Ureda
+  role: Mage Trainer
+  level: '60'
+  faction: Horde
+  race: Orc
+  hub: Valley of Spirits
+  zone: Orgrimmar
+  coords_note: not found in sources
+  vendor_categories:
+  - Mage trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.15.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Ureda
+- npc: Artahla Starstrider
+  role: Priest Trainer
+  level: '50'
+  faction: Horde
+  race: Tauren
+  hub: Spirit Rise
+  zone: Thunder Bluff
+  coords_note: not found in sources
+  vendor_categories:
+  - Priest trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Artahla_Starstrider
+- npc: Ewe'luas
+  role: Mage Trainer
+  level: '60'
+  faction: Horde
+  race: Ogre mage
+  hub: Cleft of Shadows
+  zone: Orgrimmar
+  coords_note: not found in sources
+  vendor_categories:
+  - Mage trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.15.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Ewe%27luas
+- npc: Dugin Coalborn
+  role: Blacksmith
+  level: '18'
+  faction: Alliance
+  race: Dwarf
+  hub: Bael Hardul
+  zone: Stonetalon Mountains
+  coords_note: not found in sources
+  vendor_categories:
+  - Armor vendors
+  - Blacksmiths
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.4
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Dugin_Coalborn
+- npc: Orman Granitemantle
+  role: Trade Supplies
+  level: '20'
+  faction: Alliance
+  race: Dwarf
+  hub: Bael Hardul
+  zone: Stonetalon Mountains
+  coords_note: not found in sources
+  vendor_categories:
+  - Tradeskill vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.4
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Orman_Granitemantle
+- npc: Begwynn Blackmallet
+  role: Leatherworking Supplies
+  level: '30'
+  faction: Alliance
+  race: Dwarf
+  hub: Bael Hardul
+  zone: Stonetalon Mountains
+  coords_note: not found in sources
+  vendor_categories:
+  - Leatherworking vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.4
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Begwynn_Blackmallet
+- npc: Orrik Thunderbeard
+  role: Gryphon Master
+  level: '55'
+  faction: Alliance
+  race: Dwarf
+  hub: Bael Hardul
+  zone: Stonetalon Mountains
+  coords_note: not found in sources
+  vendor_categories:
+  - Flight masters
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.4
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Orrik_Thunderbeard
+- npc: Throki Cliffbrow
+  role: Barkeep
+  level: '20'
+  faction: Alliance
+  race: Dwarf
+  hub: Bael Hardul
+  zone: Stonetalon Mountains
+  coords_note: not found in sources
+  vendor_categories:
+  - Alcohol vendors
+  - Bartenders
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.4
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Throki_Cliffbrow
+- npc: Brundah Cliffbrow
+  role: Innkeeper
+  level: '20'
+  faction: Alliance
+  race: Dwarf
+  hub: Bael Hardul
+  zone: Stonetalon Mountains
+  coords_note: not found in sources
+  vendor_categories:
+  - Innkeepers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.4
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Brundah_Cliffbrow
+- npc: Borrin Dustshoulder
+  role: General Goods
+  level: '20'
+  faction: Alliance
+  race: Dwarf
+  hub: Bael Hardul
+  zone: Stonetalon Mountains
+  coords_note: not found in sources
+  vendor_categories:
+  - General goods vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.16.4
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Borrin_Dustshoulder
+- npc: Count Femur
+  level: '50'
+  faction: Horde
+  race: Skeleton
+  hub: Crypt
+  zone: Northwind
+  coords_note: not found in sources
+  vendor_categories:
+  - Blacksmithing vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.0
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Count_Femur
+- npc: Swampwalker Krug
+  role: Expert Survivalist
+  level: '40'
+  faction: Horde
+  race: Orc
+  hub: Stonard
+  zone: Swamp of Sorrows
+  coords_note: not found in sources
+  vendor_categories:
+  - Survival trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Swampwalker_Krug
+- npc: Nerean Stagtree
+  role: Expert Survivalist
+  level: '40'
+  faction: Alliance
+  race: Night elf
+  hub: Nijel's Point
+  zone: Desolace
+  coords_note: not found in sources
+  vendor_categories:
+  - Survival trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Nerean_Stagtree
+- npc: Karolina Cloven
+  role: Survival Trainer
+  level: '50'
+  faction: Horde
+  race: Forsaken
+  hub: Brill
+  zone: Tirisfal Glades
+  coords_note: not found in sources
+  vendor_categories:
+  - Survival trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Karolina_Cloven
+- npc: Dyrohrinn Boulderhorn
+  role: Survival Trainer
+  level: '50'
+  faction: Alliance
+  race: Dwarf
+  hub: Kharanos
+  zone: Dun Morogh
+  coords_note: not found in sources
+  vendor_categories:
+  - Survival trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Dyrohrinn_Boulderhorn
+- npc: Krennan Wildberry
+  role: Survival Trainer
+  level: '30'
+  faction: Alliance
+  race: Human
+  hub: Elwynn Forest
+  zone: Elwynn Forest
+  coords_note: not found in sources
+  vendor_categories:
+  - Survival trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Krennan_Wildberry
+- npc: Eissinn Cragbelly
+  role: Survival Trainer
+  level: '20'
+  faction: Alliance
+  race: Dwarf
+  hub: Military Ward
+  zone: Ironforge
+  coords_note: not found in sources
+  vendor_categories:
+  - Survival trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Eissinn_Cragbelly
+- npc: Feebeld
+  role: Survival Trainer
+  level: '50'
+  faction: Horde
+  race: Goblin
+  hub: Rustgate Ridge
+  zone: Blackstone Island
+  coords_note: not found in sources
+  vendor_categories:
+  - Survival trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Feebeld
+- npc: Thonk
+  role: Survival Trainer
+  level: '50'
+  faction: Horde
+  race: Orc
+  hub: Razor Hill
+  zone: Durotar
+  coords_note: not found in sources
+  vendor_categories:
+  - Survival trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Thonk
+- npc: Filadon Shieldarrow
+  role: Survival Trainer
+  level: '50'
+  faction: Alliance
+  race: Night elf
+  hub: Dolanaar
+  zone: Teldrassil
+  coords_note: not found in sources
+  vendor_categories:
+  - Survival trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Filadon_Shieldarrow
+- npc: Nallaeth
+  role: Survival Trainer
+  level: '40'
+  faction: Alliance
+  race: Night elf
+  hub: Craftsmen's Terrace
+  zone: Darnassus
+  coords_note: not found in sources
+  vendor_categories:
+  - Survival trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Nallaeth
+- npc: Tabetha Wildberry
+  role: Survivalist Supplies
+  level: '26'
+  faction: Alliance
+  race: Human
+  hub: Elwynn Forest
+  zone: Elwynn Forest
+  coords_note: not found in sources
+  vendor_categories:
+  - Survival vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Tabetha_Wildberry
+- npc: Theminn Cragbelly
+  role: Survivalist Supplies
+  level: '24'
+  faction: Alliance
+  race: Dwarf
+  hub: Military Ward
+  zone: Ironforge
+  coords_note: not found in sources
+  vendor_categories:
+  - Survival vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Theminn_Cragbelly
+- npc: Marlarin
+  role: Survivalist Supplies
+  level: '32'
+  faction: Alliance
+  race: Night elf
+  hub: Craftsmen's Terrace
+  zone: Darnassus
+  coords_note: not found in sources
+  vendor_categories:
+  - Survival vendors
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Marlarin
+- npc: Hellador Swiftluck
+  role: Survival Trainer
+  level: '50'
+  faction: Alliance
+  race: High elf
+  hub: Bazaar
+  zone: Alah'Thalas
+  coords_note: not found in sources
+  vendor_categories:
+  - Survival trainers
+  inventory: []
+  inventory_note: not found in sources - the wiki Sells section is an empty placeholder on every Turtle vendor page
+  patch: 1.18.1
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Hellador_Swiftluck
+vendors_with_stated_inventory:
+- npc: Rufus Hardwick
+  role: Survival Trainer / Survival supplies
+  hub: Nesingwary's Expedition
+  zone: Stranglethorn Vale
+  coords: null
+  coords_note: not found in sources
+  inventory:
+  - item: Flint & Tinder
+    price: null
+  - item: Unlit Poor Torch
+    price: null
+  - item: Simple Wood
+    price: null
+  - item: Traveler's Tent Blueprints
+    price: 1g 50s (2023-05); cheaper in 2019
+    requirement: Survival; sold only by Rufus
+  source_tier: player forum posts
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=3641#p3641
+  - https://forum.turtlecraft.gg/viewtopic.php?p=46021#p46021
+  - https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+- npc: Jaquilina Dramet
+  role: Superior Axecrafter
+  hub: Nesingwary's Expedition
+  zone: Stranglethorn Vale
+  coords: null
+  coords_note: not found in sources
+  inventory:
+  - item: Coil of Sturdy Rope
+    price: 35s
+  source_tier: player forum post
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=3641#p3641
+- npc: Mazk Snipeshot
+  role: Engineering Supplies
+  hub: Old Port Authority building, Booty Bay
+  zone: Stranglethorn Vale
+  coords: null
+  coords_note: not found in sources
+  inventory:
+  - item: Cheap Goblin's Oil
+    price: 40s 50c (2019); 45s (2023)
+    note: Bind on Pickup - cannot be bought on an alt
+  source_tier: player forum posts
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=3641#p3641
+  - https://forum.turtlecraft.gg/viewtopic.php?p=46021#p46021
+  - https://forum.turtlecraft.gg/viewtopic.php?p=86439#p86439
+- npc: Gardening seed vendors (names not given)
+  role: seed vendor
+  hub: null
+  zone: Mulgore / Teldrassil / Eastern Plaguelands
+  coords: null
+  coords_note: not found in sources
+  inventory:
+  - item: Magic Mushroom Spores
+    item_id: 51716
+    price: 2g 50s (2g at Honored with the 20% discount)
+  source_tier: player guide thread
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=136320#p136320
+- npc: Mortimer Stansfield
+  role: Gardening trainer (Alliance)
+  npc_id: 51530
+  hub: outside Stormwind
+  zone: Elwynn Forest
+  coords: null
+  coords_note: not found in sources
+  inventory:
+  - item: Simple Wooden Planter recipe
+    price: null
+    requirement: Survival 75
+  source_tier: player guide thread
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=136320#p136320
+- npc: Kern Mosshoof
+  role: Gardening trainer (Horde)
+  npc_id: 51532
+  hub: Bloodhoof Village
+  zone: Mulgore
+  coords: null
+  coords_note: not found in sources
+  inventory:
+  - item: Simple Wooden Planter recipe
+    price: null
+    requirement: Survival 75
+  source_tier: player guide thread
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=136320#p136320
+- npc: Dronormu
+  role: Wardens of Time quartermaster
+  hub: Caverns of Time
+  zone: Tanaris
+  coords: null
+  coords_note: not found in sources
+  inventory: []
+  inventory_note: not found in sources - players link the item database instead
+  source_tier: player forum posts
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=116560#p116560
+  - https://forum.turtlecraft.gg/viewtopic.php?p=54708#p54708
+- npc: Gizbert Eggwell
+  role: Noblegarden buy-back vendor
+  hub: Stormwind and Orgrimmar
+  zone: null
+  coords: null
+  coords_note: not found in sources
+  inventory: []
+  inventory_note: buys Noblegarden reward items below full value
+  source_tier: staff
+  sources:
+  - https://forum.turtlecraft.gg/viewtopic.php?p=91650#p91650
+- npc: Vanira Quel'Belore
+  role: Thalassian unicorn vendor
+  hub: Alah'Thalas
+  zone: Thalassian Highlands
+  coords: null
+  coords_note: not found in sources
+  inventory:
+  - item: White Thalassian Unicorn
+    price: 10g
+    requirement: Riding 75; Exalted with Silvermoon Remnant for non-High-Elf Alliance; High Elves exempt, level 40+
+  - item: Armored Thalassian Unicorn
+    price: 100g
+    requirement: Riding 150; level 60
+  - item: Ornate Thalassian Unicorn
+    price: 100g
+    requirement: Riding 150; level 60
+  source_tier: community wiki (turtle-wow.fandom.com), not an official source
+  sources:
+  - https://turtle-wow.fandom.com/wiki/Silvermoon_Remnant
