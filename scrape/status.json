@@ -1,0 +1,211 @@
+{
+ "interval_s": 0.9,
+ "pending": 1025,
+ "sections": {
+  "forum-14": {
+   "claimed": 0,
+   "done": 0,
+   "failed": 0,
+   "queued": 240
+  },
+  "forum-17": {
+   "claimed": 0,
+   "done": 0,
+   "failed": 0,
+   "queued": 5
+  },
+  "forum-18": {
+   "claimed": 0,
+   "done": 0,
+   "failed": 0,
+   "queued": 23
+  },
+  "forum-19": {
+   "claimed": 0,
+   "done": 0,
+   "failed": 0,
+   "queued": 4
+  },
+  "forum-2": {
+   "claimed": 0,
+   "done": 0,
+   "failed": 0,
+   "queued": 3
+  },
+  "forum-22": {
+   "claimed": 0,
+   "done": 0,
+   "failed": 0,
+   "queued": 5
+  },
+  "forum-23": {
+   "claimed": 0,
+   "done": 0,
+   "failed": 0,
+   "queued": 10
+  },
+  "forum-28": {
+   "claimed": 0,
+   "done": 0,
+   "failed": 0,
+   "queued": 3
+  },
+  "forum-29": {
+   "claimed": 0,
+   "done": 0,
+   "failed": 0,
+   "queued": 9
+  },
+  "forum-3": {
+   "claimed": 0,
+   "done": 0,
+   "failed": 0,
+   "queued": 133
+  },
+  "forum-32": {
+   "claimed": 0,
+   "done": 0,
+   "failed": 0,
+   "queued": 5
+  },
+  "forum-33": {
+   "claimed": 0,
+   "done": 0,
+   "failed": 0,
+   "queued": 4
+  },
+  "forum-37": {
+   "claimed": 0,
+   "done": 0,
+   "failed": 0,
+   "queued": 7
+  },
+  "forum-4": {
+   "claimed": 0,
+   "done": 0,
+   "failed": 0,
+   "queued": 89
+  },
+  "forum-40": {
+   "claimed": 0,
+   "done": 0,
+   "failed": 0,
+   "queued": 6
+  },
+  "forum-41": {
+   "claimed": 0,
+   "done": 0,
+   "failed": 0,
+   "queued": 9
+  },
+  "forum-42": {
+   "claimed": 0,
+   "done": 0,
+   "failed": 0,
+   "queued": 7
+  },
+  "forum-43": {
+   "claimed": 0,
+   "done": 0,
+   "failed": 0,
+   "queued": 3
+  },
+  "forum-44": {
+   "claimed": 0,
+   "done": 0,
+   "failed": 0,
+   "queued": 6
+  },
+  "forum-45": {
+   "claimed": 0,
+   "done": 0,
+   "failed": 0,
+   "queued": 10
+  },
+  "forum-46": {
+   "claimed": 0,
+   "done": 0,
+   "failed": 0,
+   "queued": 5
+  },
+  "forum-47": {
+   "claimed": 0,
+   "done": 0,
+   "failed": 0,
+   "queued": 5
+  },
+  "forum-48": {
+   "claimed": 0,
+   "done": 0,
+   "failed": 0,
+   "queued": 9
+  },
+  "forum-50": {
+   "claimed": 0,
+   "done": 0,
+   "failed": 0,
+   "queued": 3
+  },
+  "forum-56": {
+   "claimed": 0,
+   "done": 0,
+   "failed": 0,
+   "queued": 2
+  },
+  "forum-63": {
+   "claimed": 0,
+   "done": 354,
+   "failed": 0,
+   "queued": 58
+  },
+  "forum-70": {
+   "claimed": 0,
+   "done": 0,
+   "failed": 0,
+   "queued": 1
+  },
+  "forum-72": {
+   "claimed": 0,
+   "done": 0,
+   "failed": 0,
+   "queued": 1
+  },
+  "forum-73": {
+   "claimed": 0,
+   "done": 0,
+   "failed": 0,
+   "queued": 7
+  },
+  "forum-74": {
+   "claimed": 0,
+   "done": 0,
+   "failed": 0,
+   "queued": 2
+  },
+  "forum-75": {
+   "claimed": 0,
+   "done": 0,
+   "failed": 0,
+   "queued": 1
+  },
+  "images": {
+   "claimed": 0,
+   "done": 0,
+   "failed": 0,
+   "queued": 314
+  },
+  "site": {
+   "claimed": 0,
+   "done": 0,
+   "failed": 0,
+   "queued": 36
+  }
+ },
+ "total": {
+  "claimed": 0,
+  "done": 354,
+  "failed": 0,
+  "queued": 1025
+ },
+ "ts": "2026-09-10T07:38:22Z"
+}

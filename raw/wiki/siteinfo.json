@@ -1,0 +1,496 @@
+{
+ "batchcomplete": true,
+ "query": {
+  "statistics": {
+   "pages": 9185,
+   "articles": 4420,
+   "edits": 23445,
+   "images": 3340,
+   "users": 43313578,
+   "activeusers": 9,
+   "admins": 3,
+   "jobs": 0
+  },
+  "general": {
+   "mainpage": "Turtle WoW Wiki",
+   "base": "https://turtle-wow.fandom.com/wiki/Turtle_WoW_Wiki",
+   "sitename": "Turtle WoW Wiki",
+   "mainpageisdomainroot": false,
+   "logo": "https://images.wikia.com/turtle-wow/images/b/bc/Wiki.png",
+   "generator": "MediaWiki 1.43.9",
+   "phpversion": "8.3.33",
+   "phpsapi": "fpm-fcgi",
+   "dbtype": "mysql",
+   "dbversion": "8.0.44-35",
+   "imagewhitelistenabled": false,
+   "externalimages": [
+    "https://images.wikia.com/",
+    "https://images.wikia.com",
+    "https://static.wikia.com",
+    "https://static.wikia.nocookie.net",
+    "https://img.wikia.nocookie.net",
+    "https://img1.wikia.nocookie.net",
+    "https://img2.wikia.nocookie.net",
+    "https://img3.wikia.nocookie.net",
+    "https://img4.wikia.nocookie.net",
+    "https://img5.wikia.nocookie.net",
+    "https://images.wikia.nocookie.net",
+    "https://images1.wikia.nocookie.net",
+    "https://images2.wikia.nocookie.net",
+    "https://images3.wikia.nocookie.net",
+    "https://images4.wikia.nocookie.net",
+    "https://images5.wikia.nocookie.net",
+    "https://vignette.wikia.nocookie.net",
+    "https://vignette1.wikia.nocookie.net",
+    "https://vignette2.wikia.nocookie.net",
+    "https://vignette3.wikia.nocookie.net",
+    "https://vignette4.wikia.nocookie.net",
+    "https://vignette5.wikia.nocookie.net"
+   ],
+   "langconversion": true,
+   "linkconversion": true,
+   "titleconversion": true,
+   "linkprefixcharset": "",
+   "linkprefix": "",
+   "linktrail": "/^([a-z]+)(.*)$/sD",
+   "legaltitlechars": " %!\"$&'()*,\\-.\\/0-9:;=?@A-Z\\\\^_`a-z~\\x80-\\xFF+",
+   "invalidusernamechars": "@:>=",
+   "allunicodefixes": false,
+   "fixarabicunicode": true,
+   "fixmalayalamunicode": true,
+   "case": "first-letter",
+   "lang": "en",
+   "fallback": [],
+   "rtl": false,
+   "fallback8bitEncoding": "windows-1252",
+   "readonly": false,
+   "writeapi": true,
+   "maxarticlesize": 2097152,
+   "timezone": "UTC",
+   "timeoffset": 0,
+   "articlepath": "/wiki/$1",
+   "scriptpath": "",
+   "script": "/index.php",
+   "variantarticlepath": false,
+   "server": "https://turtle-wow.fandom.com",
+   "servername": "turtle-wow.fandom.com",
+   "wikiid": "turtlewow",
+   "time": "2026-09-10T07:37:55Z",
+   "misermode": true,
+   "uploadsenabled": true,
+   "maxuploadsize": 10485760,
+   "minuploadchunksize": 1024,
+   "galleryoptions": {
+    "imagesPerRow": 0,
+    "imageWidth": 120,
+    "imageHeight": 120,
+    "captionLength": true,
+    "showBytes": true,
+    "showDimensions": true,
+    "mode": "traditional"
+   },
+   "thumblimits": {
+    "0": 120,
+    "1": 150,
+    "2": 180,
+    "3": 200,
+    "4": 250,
+    "5": 300
+   },
+   "imagelimits": {
+    "0": {
+     "width": 320,
+     "height": 240
+    },
+    "1": {
+     "width": 640,
+     "height": 480
+    },
+    "2": {
+     "width": 800,
+     "height": 600
+    },
+    "3": {
+     "width": 1024,
+     "height": 768
+    },
+    "4": {
+     "width": 1280,
+     "height": 1024
+    },
+    "5": {
+     "width": 2560,
+     "height": 2048
+    }
+   },
+   "favicon": "https://turtle-wow.fandom.com/favicon.ico",
+   "centralidlookupprovider": "local",
+   "allcentralidlookupproviders": [
+    "local"
+   ],
+   "interwikimagic": true,
+   "magiclinks": {
+    "ISBN": true,
+    "PMID": false,
+    "RFC": false
+   },
+   "categorycollation": "uppercase",
+   "nofollowlinks": true,
+   "nofollownsexceptions": [],
+   "nofollowdomainexceptions": [
+    "fanatical.com",
+    "fandom.com",
+    "gamepedia.com",
+    "muthead.com",
+    "wikia.com",
+    "wikia.org",
+    "wowpedia.org"
+   ],
+   "externallinktarget": "_blank",
+   "citeresponsivereferences": true,
+   "anonwallpost": "false",
+   "gamepedia": "false",
+   "mobileserver": "https://turtle-wow.fandom.com"
+  },
+  "namespaces": {
+   "-2": {
+    "id": -2,
+    "case": "first-letter",
+    "name": "Media",
+    "subpages": false,
+    "canonical": "Media",
+    "content": false,
+    "nonincludable": false
+   },
+   "-1": {
+    "id": -1,
+    "case": "first-letter",
+    "name": "Special",
+    "subpages": false,
+    "canonical": "Special",
+    "content": false,
+    "nonincludable": false
+   },
+   "0": {
+    "id": 0,
+    "case": "first-letter",
+    "name": "",
+    "subpages": true,
+    "content": true,
+    "nonincludable": false
+   },
+   "1": {
+    "id": 1,
+    "case": "first-letter",
+    "name": "Talk",
+    "subpages": true,
+    "canonical": "Talk",
+    "content": false,
+    "nonincludable": false
+   },
+   "2": {
+    "id": 2,
+    "case": "first-letter",
+    "name": "User",
+    "subpages": true,
+    "canonical": "User",
+    "content": false,
+    "nonincludable": false
+   },
+   "3": {
+    "id": 3,
+    "case": "first-letter",
+    "name": "User talk",
+    "subpages": true,
+    "canonical": "User talk",
+    "content": false,
+    "nonincludable": false
+   },
+   "4": {
+    "id": 4,
+    "case": "first-letter",
+    "name": "Turtle WoW Wiki",
+    "subpages": true,
+    "canonical": "Project",
+    "content": false,
+    "nonincludable": false
+   },
+   "5": {
+    "id": 5,
+    "case": "first-letter",
+    "name": "Turtle WoW Wiki talk",
+    "subpages": true,
+    "canonical": "Project talk",
+    "content": false,
+    "nonincludable": false
+   },
+   "6": {
+    "id": 6,
+    "case": "first-letter",
+    "name": "File",
+    "subpages": true,
+    "canonical": "File",
+    "content": false,
+    "nonincludable": false
+   },
+   "7": {
+    "id": 7,
+    "case": "first-letter",
+    "name": "File talk",
+    "subpages": true,
+    "canonical": "File talk",
+    "content": false,
+    "nonincludable": false
+   },
+   "8": {
+    "id": 8,
+    "case": "first-letter",
+    "name": "MediaWiki",
+    "subpages": true,
+    "canonical": "MediaWiki",
+    "content": false,
+    "nonincludable": false,
+    "namespaceprotection": "editinterface"
+   },
+   "9": {
+    "id": 9,
+    "case": "first-letter",
+    "name": "MediaWiki talk",
+    "subpages": true,
+    "canonical": "MediaWiki talk",
+    "content": false,
+    "nonincludable": false
+   },
+   "10": {
+    "id": 10,
+    "case": "first-letter",
+    "name": "Template",
+    "subpages": true,
+    "canonical": "Template",
+    "content": false,
+    "nonincludable": false,
+    "namespaceprotection": "edittemplates"
+   },
+   "11": {
+    "id": 11,
+    "case": "first-letter",
+    "name": "Template talk",
+    "subpages": true,
+    "canonical": "Template talk",
+    "content": false,
+    "nonincludable": false
+   },
+   "12": {
+    "id": 12,
+    "case": "first-letter",
+    "name": "Help",
+    "subpages": true,
+    "canonical": "Help",
+    "content": false,
+    "nonincludable": false
+   },
+   "13": {
+    "id": 13,
+    "case": "first-letter",
+    "name": "Help talk",
+    "subpages": true,
+    "canonical": "Help talk",
+    "content": false,
+    "nonincludable": false
+   },
+   "14": {
+    "id": 14,
+    "case": "first-letter",
+    "name": "Category",
+    "subpages": true,
+    "canonical": "Category",
+    "content": false,
+    "nonincludable": false
+   },
+   "15": {
+    "id": 15,
+    "case": "first-letter",
+    "name": "Category talk",
+    "subpages": true,
+    "canonical": "Category talk",
+    "content": false,
+    "nonincludable": false
+   },
+   "110": {
+    "id": 110,
+    "case": "first-letter",
+    "name": "Forum",
+    "subpages": false,
+    "canonical": "Forum",
+    "content": false,
+    "nonincludable": false
+   },
+   "111": {
+    "id": 111,
+    "case": "first-letter",
+    "name": "Forum talk",
+    "subpages": false,
+    "canonical": "Forum talk",
+    "content": false,
+    "nonincludable": false
+   },
+   "420": {
+    "id": 420,
+    "case": "first-letter",
+    "name": "GeoJson",
+    "subpages": false,
+    "canonical": "GeoJson",
+    "content": false,
+    "nonincludable": false,
+    "defaultcontentmodel": "GeoJSON"
+   },
+   "421": {
+    "id": 421,
+    "case": "first-letter",
+    "name": "GeoJson talk",
+    "subpages": true,
+    "canonical": "GeoJson talk",
+    "content": false,
+    "nonincludable": false,
+    "defaultcontentmodel": "wikitext"
+   },
+   "500": {
+    "id": 500,
+    "case": "first-letter",
+    "name": "User blog",
+    "subpages": true,
+    "canonical": "User blog",
+    "content": false,
+    "nonincludable": false
+   },
+   "501": {
+    "id": 501,
+    "case": "first-letter",
+    "name": "User blog comment",
+    "subpages": true,
+    "canonical": "User blog comment",
+    "content": false,
+    "nonincludable": false
+   },
+   "502": {
+    "id": 502,
+    "case": "first-letter",
+    "name": "Blog",
+    "subpages": true,
+    "canonical": "Blog",
+    "content": false,
+    "nonincludable": false
+   },
+   "503": {
+    "id": 503,
+    "case": "first-letter",
+    "name": "Blog talk",
+    "subpages": true,
+    "canonical": "Blog talk",
+    "content": false,
+    "nonincludable": false
+   },
+   "828": {
+    "id": 828,
+    "case": "first-letter",
+    "name": "Module",
+    "subpages": true,
+    "canonical": "Module",
+    "content": false,
+    "nonincludable": false
+   },
+   "829": {
+    "id": 829,
+    "case": "first-letter",
+    "name": "Module talk",
+    "subpages": true,
+    "canonical": "Module talk",
+    "content": false,
+    "nonincludable": false
+   },
+   "1200": {
+    "id": 1200,
+    "case": "first-letter",
+    "name": "Message Wall",
+    "subpages": false,
+    "canonical": "Message Wall",
+    "content": false,
+    "nonincludable": false
+   },
+   "1201": {
+    "id": 1201,
+    "case": "first-letter",
+    "name": "Thread",
+    "subpages": true,
+    "canonical": "Thread",
+    "content": false,
+    "nonincludable": false
+   },
+   "1202": {
+    "id": 1202,
+    "case": "first-letter",
+    "name": "Message Wall Greeting",
+    "subpages": false,
+    "canonical": "Message Wall Greeting",
+    "content": false,
+    "nonincludable": false
+   },
+   "1203": {
+    "id": 1203,
+    "case": "first-letter",
+    "name": "Message Wall Greeting Talk",
+    "subpages": false,
+    "canonical": "Message Wall Greeting Talk",
+    "content": false,
+    "nonincludable": false
+   },
+   "2000": {
+    "id": 2000,
+    "case": "first-letter",
+    "name": "Board",
+    "subpages": false,
+    "canonical": "Board",
+    "content": false,
+    "nonincludable": false
+   },
+   "2001": {
+    "id": 2001,
+    "case": "first-letter",
+    "name": "Board Thread",
+    "subpages": false,
+    "canonical": "Board Thread",
+    "content": false,
+    "nonincludable": false
+   },
+   "2002": {
+    "id": 2002,
+    "case": "first-letter",
+    "name": "Topic",
+    "subpages": false,
+    "canonical": "Topic",
+    "content": false,
+    "nonincludable": false
+   },
+   "2900": {
+    "id": 2900,
+    "case": "first-letter",
+    "name": "Map",
+    "subpages": false,
+    "canonical": "Map",
+    "content": true,
+    "nonincludable": false,
+    "namespaceprotection": "editinteractivemap",
+    "defaultcontentmodel": "interactivemap"
+   },
+   "2901": {
+    "id": 2901,
+    "case": "first-letter",
+    "name": "Map talk",
+    "subpages": false,
+    "canonical": "Map talk",
+    "content": false,
+    "nonincludable": false
+   }
+  }
+ }
+}

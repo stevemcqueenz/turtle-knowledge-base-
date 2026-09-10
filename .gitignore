@@ -2,3 +2,5 @@ scrape/STOP
 scrape/crawl.log
 scrape/status.json.tmp
 __pycache__/
+scrape/crawl.stdout
+scrape/wiki.stdout
