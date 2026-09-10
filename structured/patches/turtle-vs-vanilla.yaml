@@ -1,0 +1,5583 @@
+# Turtle WoW vs vanilla 1.12: cumulative deviations as of patch 1.18.0 (excludes 1.18.1, t=22214).
+# Generated from synthesis/turtle-vs-vanilla-timeline.md; every entry cites one forum post (staff unless noted).
+# before_vanilla is null unless the source itself states the vanilla value or the value is basic vanilla knowledge (marked).
+# Dates are post dates (UTC). Entries dated after 2025-10-03 are pre-1.18.1 live changes ("1.18.1-announced-pre-release").
+- id: TVV-0001
+  system: races
+  subsystem: new race
+  entity: High Elf
+  entity_ids: []
+  introduced_in: 1.15.0
+  change: added
+  before_vanilla: not playable in 1.12
+  after: playable Alliance race 'Silvermoon Remnants'; starts Farstrider Lodge (Loch Modan); capital Alah'Thalas
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=7948#p7948
+  source_author: Torta
+  source_authority: staff
+  source_date: '2020-10-04'
+  notes: release 2021-01-05 per community wiki (unofficial); starting zone moved to Thalassian Highlands in 1.17.1
+- id: TVV-0002
+  system: races
+  subsystem: new race
+  entity: Goblin
+  entity_ids: []
+  introduced_in: 1.15.0
+  change: added
+  before_vanilla: not playable in 1.12
+  after: playable Horde race 'Durotar Labor Union'; starts Venture Camp (Stonetalon)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=7948#p7948
+  source_author: Torta
+  source_authority: staff
+  source_date: '2020-10-04'
+  notes: starting zone moved to Blackstone Island in 1.17.1; model revamps 1.16.0 and 1.17.1
+- id: TVV-0003
+  system: races
+  subsystem: starting zone
+  entity: Thalassian Highlands
+  entity_ids: []
+  introduced_in: 1.17.1
+  change: added
+  before_vanilla: null
+  after: High Elf 1-10 starting zone (Anasterian Park); replaces Farstrider Lodge as start
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=71005#p71005
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-10-15'
+  notes: null
+- id: TVV-0004
+  system: races
+  subsystem: starting zone
+  entity: Blackstone Island
+  entity_ids: []
+  introduced_in: 1.17.1
+  change: added
+  before_vanilla: null
+  after: Goblin 1-10 starting zone; replaces Venture Camp as start
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=71005#p71005
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-10-15'
+  notes: creature tuning 2025-02-18
+- id: TVV-0005
+  system: races
+  subsystem: racial
+  entity: 'High Elf: Quel''dorei Meditation'
+  entity_ids: []
+  introduced_in: 1.15.0
+  change: added
+  before_vanilla: null
+  after: 1.5-s cast, 10% mana / 20 Rage / 50 Energy over 5 s, 3-min cooldown (1.17.2 values); originally 'Arcane Meditation'
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102965#p102965
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: 1.15.0 version announced in p7948
+- id: TVV-0006
+  system: races
+  subsystem: racial
+  entity: 'High Elf: Swiftness of the Rangers'
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: added
+  before_vanilla: null
+  after: +2% Agility; replaces Arcane Resistance
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102965#p102965
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0007
+  system: races
+  subsystem: racial
+  entity: 'High Elf: Bow Specialization / Enchanting'
+  entity_ids: []
+  introduced_in: 1.15.0
+  change: added
+  before_vanilla: null
+  after: +3 bow skill (was +5 before 1.17.2) and +10 Enchanting
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=7948#p7948
+  source_author: Torta
+  source_authority: staff
+  source_date: '2020-10-04'
+  notes: null
+- id: TVV-0008
+  system: races
+  subsystem: racial
+  entity: 'Goblin: Exit Strategy'
+  entity_ids: []
+  introduced_in: 1.15.0
+  change: changed
+  before_vanilla: null
+  after: cooldown 5 -> 3 min, no post-sprint slow (1.17.2)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102965#p102965
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0009
+  system: races
+  subsystem: racial
+  entity: 'Goblin: Prospecting / Aggressive Negotiations / Chemical Superfreak'
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: null
+  after: Prospecting gives Mining and Jewelcrafting skill; Aggressive Negotiations +dagger/mace skill; Chemical Superfreak removed
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102965#p102965
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: 2H maces fixed 2024-11-20
+- id: TVV-0010
+  system: races
+  subsystem: racial
+  entity: 'Human: Perception / The Human Spirit'
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: 'Perception: stealth detection only (source''s own comparison)'
+  after: Perception also +2% physical and spell crit; The Human Spirit allows 5% mana regen while casting
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102965#p102965
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0011
+  system: races
+  subsystem: racial
+  entity: 'Dwarf: Stoneform'
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: +10% armor (source's own comparison)
+  after: -5% physical damage taken
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102965#p102965
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0012
+  system: races
+  subsystem: racial
+  entity: 'Dwarf Priest: Avatar'
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: added
+  before_vanilla: Fear Ward was the dwarf priest racial
+  after: new level-20 racial Avatar (+25% armor, resistances 150% of level, 15 s); cooldown 1 -> 5 min 2024-10-21; Fear Ward is baseline
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102965#p102965
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: cooldown change p104207
+- id: TVV-0013
+  system: races
+  subsystem: racial
+  entity: 'Night Elf: Quickness / Shadowmeld'
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: null
+  after: Quickness +1% attack/casting/movement speed (ranged too from 2024-11-27); Shadowmeld persists 2 s after moving, cooldown 10 s -> 3 min -> 1 min
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102965#p102965
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: ranged from p110047
+- id: TVV-0014
+  system: races
+  subsystem: racial
+  entity: 'Night Elf Priest: Searing Shot / bows'
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: added
+  before_vanilla: Elune's Grace racial (source's own comparison)
+  after: Elune's Grace removed; can wield bows with auto-shoot; Searing Shot ranks 1-4 at 20/32/44/58, rank 5 from a book; Starshards reworked with 30-s cooldown
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102965#p102965
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: 5% -> 10% base mana 2024-10-21; -10% damage / 25-yd range 2024-12-20
+- id: TVV-0015
+  system: races
+  subsystem: racial
+  entity: 'Gnome: Escape Artist / Disassembler'
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: null
+  after: Escape Artist cooldown 1 -> 1.5 min; Arcane Resistance removed; new Disassembler +5% damage vs Mechanicals
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102965#p102965
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: Disassembler fixed 2025-11-26 (p160700)
+- id: TVV-0016
+  system: races
+  subsystem: racial
+  entity: 'Orc: Blood Fury / Hardiness'
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: Hardiness 25% stun resist (source's own comparison)
+  after: Blood Fury +AP 2x level and +spell damage = level 15 s, -25% healing 25 s, off GCD; Hardiness -15% stun duration
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102965#p102965
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: AP 1x -> 2x 2024-10-21 (p104207); ranged AP 2024-11-06
+- id: TVV-0017
+  system: races
+  subsystem: racial
+  entity: 'Troll: Berserking / Regeneration'
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: Berserking 10-30% haste (source's own comparison)
+  after: Berserking 10-15% haste; Regeneration +20% health regen, 25% in combat
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102965#p102965
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0018
+  system: races
+  subsystem: racial
+  entity: 'Undead: Will of the Forsaken / Vengeance'
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: null
+  after: WotF 5 s -> 4 s -> 3 s, cooldown 2 -> 2.5 min, usable while CC'd; Shadow Resistance removed; new Vengeance +2% damage vs non-player Humanoids and Undead
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102965#p102965
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0019
+  system: races
+  subsystem: racial
+  entity: 'Tauren: War Stomp'
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: null
+  after: cast 2 s -> 1.5 s -> 2 s; cooldown 2 -> 2.5 min
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102965#p102965
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0020
+  system: races
+  subsystem: racial
+  entity: 'Tauren: Plainsrunning'
+  entity_ids: []
+  introduced_in: '2019-05-27'
+  change: added
+  before_vanilla: not in 1.12
+  after: quest chain from Harb Clawhoof (Bloodhoof Village), min level 40; ramps to mount speed over ~5 s; damage bleeds speed
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=2984#p2984
+  source_author: Pompa
+  source_authority: player
+  source_date: '2019-05-27'
+  notes: player-indexed author (Pompa) writing as team; disabled in BGs 2019-11 (p4490); author indexed as player but writes as the Turtle WoW team
+- id: TVV-0021
+  system: races
+  subsystem: racial
+  entity: 'Tauren Shaman: Spirit Link -> Totemic Slam'
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: added
+  before_vanilla: null
+  after: Spirit Link racial (1.16.1) replaced by Totemic Slam (10% AP damage, -25% attack/cast speed 8 s, 1.5-min cooldown) in 1.17.2
+  superseded_by: 1.17.2
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102972#p102972
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0022
+  system: races
+  subsystem: racial
+  entity: 'Orc Shaman: Feral Spirit'
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: added
+  before_vanilla: null
+  after: 'racial class quest at 40: two Spirit Wolves 20 s'
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: null
+- id: TVV-0023
+  system: races
+  subsystem: racial
+  entity: 'Troll Shaman: Hex'
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: added
+  before_vanilla: null
+  after: racial class quest at 40
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: null
+- id: TVV-0024
+  system: races
+  subsystem: racial
+  entity: racial weapon skill bonuses
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: +5 (source's own comparison)
+  after: '+3'
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102965#p102965
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0025
+  system: races
+  subsystem: race/class combo
+  entity: Dwarf Mage
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: added
+  before_vanilla: not available in 1.12
+  after: available
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: null
+- id: TVV-0026
+  system: races
+  subsystem: race/class combo
+  entity: Undead Hunter
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: added
+  before_vanilla: not available in 1.12
+  after: available
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: null
+- id: TVV-0027
+  system: races
+  subsystem: race/class combo
+  entity: Human Hunter
+  entity_ids: []
+  introduced_in: 1.17.0
+  change: added
+  before_vanilla: not available in 1.12
+  after: available
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-01-21'
+  notes: unintended Arcane Resistance removed 2023-12-27 (p82893)
+- id: TVV-0028
+  system: races
+  subsystem: race/class combo
+  entity: Troll Warlock
+  entity_ids: []
+  introduced_in: 1.17.0
+  change: added
+  before_vanilla: not available in 1.12
+  after: available
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-01-21'
+  notes: null
+- id: TVV-0029
+  system: races
+  subsystem: race/class combo
+  entity: Gnome Hunter
+  entity_ids: []
+  introduced_in: 1.15.0 (wiki)
+  change: added
+  before_vanilla: not available in 1.12
+  after: available
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=70096#p70096
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2023-10-11'
+  notes: 'single source: community wiki Patch_1.15.0.md lists it for 1.15.0; forum only mentions Gnome hunter quests'
+- id: TVV-0030
+  system: races
+  subsystem: race/class combo
+  entity: Orc Mage
+  entity_ids: []
+  introduced_in: 1.15.0 (wiki)
+  change: added
+  before_vanilla: not available in 1.12
+  after: available
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=7948#p7948
+  source_author: Torta
+  source_authority: staff
+  source_date: '2020-10-04'
+  notes: 'single source: community wiki; not in the forum 1.15.0 post'
+- id: TVV-0031
+  system: races
+  subsystem: race/class combo
+  entity: High Elf classes
+  entity_ids: []
+  introduced_in: 1.15.0
+  change: added
+  before_vanilla: not available in 1.12
+  after: Warrior, Hunter, Priest, Mage, Paladin, Rogue confirmed indirectly by later notes
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=121678#p121678
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-03-04'
+  notes: class list never enumerated in f63; Paladin via trainer Andalideth Suncaller, Rogue via trainer Loriel (p120347)
+- id: TVV-0032
+  system: races
+  subsystem: race/class combo
+  entity: Goblin classes
+  entity_ids: []
+  introduced_in: 1.15.0
+  change: added
+  before_vanilla: not available in 1.12
+  after: Hunter (starts with gun 1.17.0), Warlock and others confirmed indirectly
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-01-21'
+  notes: class list never enumerated in f63
+- id: TVV-0033
+  system: races
+  subsystem: stats
+  entity: custom race starter stats
+  entity_ids: []
+  introduced_in: '2025-11-26'
+  change: changed
+  before_vanilla: null
+  after: custom race/class combos use correct stat templates; High Elves and Goblins get unique starter stats
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=160700#p160700
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-11-25'
+  notes: 'era: 1.18.1-announced-pre-release'
+- id: TVV-0034
+  system: zones
+  subsystem: outdoor
+  entity: Alah'Thalas
+  entity_ids: []
+  introduced_in: 1.15.0
+  change: added
+  before_vanilla: not in 1.12
+  after: new city (High Elf capital, Quel'Thalas); level -
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=7948#p7948
+  source_author: Torta
+  source_authority: staff
+  source_date: '2020-10-04'
+  notes: merchants added 1.17.2; map rework 1.17.0
+- id: TVV-0035
+  system: zones
+  subsystem: outdoor
+  entity: Amani'Alor
+  entity_ids: []
+  introduced_in: 1.15.0
+  change: added
+  before_vanilla: not in 1.12
+  after: new hub (Revantusk/forest-troll, Hinterlands); level -
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: expanded 1.16.0; teleport quest 2023-04-05
+- id: TVV-0036
+  system: zones
+  subsystem: outdoor
+  entity: Gilijim's Isle
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: added
+  before_vanilla: not in 1.12
+  after: new zone; level 48-53
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: subzones Caelan's Rest, Maul'ogg Retreat; soft rework 2025-03/04
+- id: TVV-0037
+  system: zones
+  subsystem: outdoor
+  entity: Lapidis Isle
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: added
+  before_vanilla: not in 1.12
+  after: new zone; level 48-53
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: subzones Hazzuri Glade, Kalkor Point, Zul'Hazu
+- id: TVV-0038
+  system: zones
+  subsystem: outdoor
+  entity: Tirisfal Uplands
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: added
+  before_vanilla: not in 1.12
+  after: new zone (Glenshire, Steepcliff Port); level 14-20
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: null
+- id: TVV-0039
+  system: zones
+  subsystem: outdoor
+  entity: Sparkwater Port
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: added
+  before_vanilla: not in 1.12
+  after: new Horde city (Durotar); level all
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: null
+- id: TVV-0040
+  system: zones
+  subsystem: outdoor
+  entity: Wildtusk Village / Ruins of Zul'Rasaz / Rasaz Trails
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: changed
+  before_vanilla: null
+  after: classic edit (Arathi-Hinterlands); level -
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: null
+- id: TVV-0041
+  system: zones
+  subsystem: outdoor
+  entity: Hawk's Vigil / Dun Agrath
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: changed
+  before_vanilla: null
+  after: classic edit (mountains near Wetlands); level 20-30
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: null
+- id: TVV-0042
+  system: zones
+  subsystem: outdoor
+  entity: Jaguero Isle
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: changed
+  before_vanilla: null
+  after: classic edit (Bloodsail Buccaneers content); level -
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: null
+- id: TVV-0043
+  system: zones
+  subsystem: outdoor
+  entity: Stormwind Harbor
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: changed
+  before_vanilla: null
+  after: classic edit; level -
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: Davensburg / Kul Tiran Embassy added 1.16.4 (p26516)
+- id: TVV-0044
+  system: zones
+  subsystem: outdoor
+  entity: Icepoint Rock
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: changed
+  before_vanilla: null
+  after: classic edit (secret glacier); level -
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14667#p14667
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2021-12-20'
+  notes: boat route 1.17.2; discoverable 1.17.1
+- id: TVV-0045
+  system: zones
+  subsystem: outdoor
+  entity: The Scarlet Enclave
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: changed
+  before_vanilla: null
+  after: classic edit (Scarlet Citadel attunement); level -
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=36204#p36204
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-02-26'
+  notes: Scarlet Citadel raid on hold
+- id: TVV-0046
+  system: zones
+  subsystem: outdoor
+  entity: Azshara revamp
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: changed
+  before_vanilla: null
+  after: revamp (Rethress Sanctum, Bloodfist Point, Flaxwhisker Front, Valormok); level -
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: rewards rebalanced 2025-05-06
+- id: TVV-0047
+  system: zones
+  subsystem: outdoor
+  entity: Swamp of Sorrows revamp
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: changed
+  before_vanilla: null
+  after: revamp (Harborage, Stonard, Sorrowguard Keep); level -
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: rewards rebalanced 2025-05-06
+- id: TVV-0048
+  system: zones
+  subsystem: outdoor
+  entity: Karfang Hold
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: added
+  before_vanilla: not in 1.12
+  after: new hub (Burning Steppes); level -
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: null
+- id: TVV-0049
+  system: zones
+  subsystem: outdoor
+  entity: Sandmoon Village
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: added
+  before_vanilla: not in 1.12
+  after: new hidden hub (Tanaris); level -
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: null
+- id: TVV-0050
+  system: zones
+  subsystem: outdoor
+  entity: Redcloud Roost
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: added
+  before_vanilla: not in 1.12
+  after: new hub (Red Cloud Mesa); level -
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: null
+- id: TVV-0051
+  system: zones
+  subsystem: outdoor
+  entity: Suntail Pass
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: added
+  before_vanilla: not in 1.12
+  after: new hub (NE Mulgore); level -
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: null
+- id: TVV-0052
+  system: zones
+  subsystem: outdoor
+  entity: Livingstone Croft / Gallant Square
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: added
+  before_vanilla: not in 1.12
+  after: new hubs (Arathi / Stromgarde); level -
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: null
+- id: TVV-0053
+  system: zones
+  subsystem: outdoor
+  entity: Westfall Church
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: added
+  before_vanilla: not in 1.12
+  after: new content (lighthouse / harvest-golem chains); level -
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: null
+- id: TVV-0054
+  system: zones
+  subsystem: outdoor
+  entity: Tel'abim
+  entity_ids: []
+  introduced_in: 1.16.4
+  change: added
+  before_vanilla: not in 1.12
+  after: new zone (Tel Co. Basecamp); level 54-60
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=26516#p26516
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-09-30'
+  notes: rewards rebalanced 2025-03
+- id: TVV-0055
+  system: zones
+  subsystem: outdoor
+  entity: Powder Town / Bramblethorn Pass / Bael Hardul / Blacksand Oil Fields
+  entity_ids: []
+  introduced_in: 1.16.4
+  change: changed
+  before_vanilla: null
+  after: classic extensions (Stonetalon); level rares lvl 17 / 24
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=26516#p26516
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-09-30'
+  notes: null
+- id: TVV-0056
+  system: zones
+  subsystem: outdoor
+  entity: Anchor's Edge
+  entity_ids: []
+  introduced_in: 1.16.4
+  change: changed
+  before_vanilla: null
+  after: classic extension (island south of Echo Isles); level -
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=26516#p26516
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-09-30'
+  notes: null
+- id: TVV-0057
+  system: zones
+  subsystem: outdoor
+  entity: Bloodvenom Post / Talonbranch Glade / Shrine of the Betrayer
+  entity_ids: []
+  introduced_in: 1.16.4
+  change: changed
+  before_vanilla: null
+  after: classic extensions (Felwood); level -
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=26516#p26516
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-09-30'
+  notes: null
+- id: TVV-0058
+  system: zones
+  subsystem: outdoor
+  entity: Thalanaar expansion
+  entity_ids: []
+  introduced_in: 1.16.4
+  change: changed
+  before_vanilla: null
+  after: classic extension (Feralas/Thousand Needles); level -
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=26516#p26516
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-09-30'
+  notes: null
+- id: TVV-0059
+  system: zones
+  subsystem: outdoor
+  entity: Badlands extensions
+  entity_ids: []
+  introduced_in: 1.16.4
+  change: changed
+  before_vanilla: null
+  after: Crystalline Oasis, Redbrand's Digsite, Scalebane Ridge, Ruins of Corthan, Ruins of Zeth, Crystalline Pinnacle, Dark Iron dig site; level -
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=26516#p26516
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-09-30'
+  notes: gathering nodes 1.17.0
+- id: TVV-0060
+  system: zones
+  subsystem: outdoor
+  entity: Forest Song
+  entity_ids: []
+  introduced_in: 1.16.4
+  change: changed
+  before_vanilla: null
+  after: classic extension (Ashenvale); level -
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=38563#p38563
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-03-22'
+  notes: +17 quests 2023-03-22
+- id: TVV-0061
+  system: zones
+  subsystem: outdoor
+  entity: Dustwallow extensions
+  entity_ids: []
+  introduced_in: 1.16.4
+  change: changed
+  before_vanilla: null
+  after: Deserter's Hideout, Blackhorn Village, Westhaven Hollow, Shady Rest Inn finale; level -
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=26516#p26516
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-09-30'
+  notes: null
+- id: TVV-0062
+  system: zones
+  subsystem: outdoor
+  entity: Winter Veil Vale
+  entity_ids: []
+  introduced_in: 1.16.4
+  change: changed
+  before_vanilla: null
+  after: instanced seasonal zone (Icepaw Village); level -
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=26516#p26516
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-09-30'
+  notes: Snowball boss/mount
+- id: TVV-0063
+  system: zones
+  subsystem: outdoor
+  entity: Gilneas
+  entity_ids: []
+  introduced_in: 1.17.0
+  change: added
+  before_vanilla: not in 1.12
+  after: new zone (Ravenshire, Stillward Church, Shademore Tavern); level 39-45
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-01-21'
+  notes: null
+- id: TVV-0064
+  system: zones
+  subsystem: outdoor
+  entity: Hyjal
+  entity_ids: []
+  introduced_in: 1.17.0
+  change: added
+  before_vanilla: not in 1.12
+  after: new endgame zone (Nordanaar, Emerald Gateway, Zul'Hatha); level 58-60
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-01-21'
+  notes: 'map overhaul 1.17.2; Teleport Rune: Nordanaar 1.18.0'
+- id: TVV-0065
+  system: zones
+  subsystem: outdoor
+  entity: Gnomeregan Reclamation Facility
+  entity_ids: []
+  introduced_in: 1.17.0
+  change: added
+  before_vanilla: not in 1.12
+  after: new Alliance town (Dun Morogh; AH, bank); level -
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-01-21'
+  notes: null
+- id: TVV-0066
+  system: zones
+  subsystem: outdoor
+  entity: Ronae'Thalas
+  entity_ids: []
+  introduced_in: announced 1.17.0
+  change: added
+  before_vanilla: not in 1.12
+  after: new questing area (east of Feralas; Shen'dralar dailies); level 54
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=80455#p80455
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-12-09'
+  notes: status unclear; 'in one of the upcoming patches' 2023-12-09
+- id: TVV-0067
+  system: zones
+  subsystem: outdoor
+  entity: Chimaera Roost Vale
+  entity_ids: []
+  introduced_in: 1.17.0
+  change: changed
+  before_vanilla: null
+  after: world edit (Feralas); level -
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-01-21'
+  notes: null
+- id: TVV-0068
+  system: zones
+  subsystem: outdoor
+  entity: Forlorn Summit
+  entity_ids: []
+  introduced_in: 1.17.1
+  change: added
+  before_vanilla: not in 1.12
+  after: new subzone (EPL; Cult of the Damned); level -
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=71005#p71005
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-10-15'
+  notes: null
+- id: TVV-0069
+  system: zones
+  subsystem: outdoor
+  entity: Wildhammer Keep questline / Aerie Peak forge
+  entity_ids: []
+  introduced_in: 1.17.1
+  change: changed
+  before_vanilla: null
+  after: classic edit; level -
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=71005#p71005
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-10-15'
+  notes: null
+- id: TVV-0070
+  system: zones
+  subsystem: outdoor
+  entity: Grim Reaches
+  entity_ids: []
+  introduced_in: 1.18.0
+  change: added
+  before_vanilla: not in 1.12
+  after: new zone (Dun Kithas, Shatterblade Post, The Grim Hollows); level not stated
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-02-22'
+  notes: null
+- id: TVV-0071
+  system: zones
+  subsystem: outdoor
+  entity: Northwind
+  entity_ids: []
+  introduced_in: 1.18.0
+  change: added
+  before_vanilla: not in 1.12
+  after: new zone (Ambershire, Amberwood Keep, Sherwood Quarry); level not stated
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-02-22'
+  notes: null
+- id: TVV-0072
+  system: zones
+  subsystem: outdoor
+  entity: Balor
+  entity_ids: []
+  introduced_in: 1.18.0
+  change: added
+  before_vanilla: not in 1.12
+  after: new zone (SI:7 Outpost, Stormbreaker Point, Stormwrought Castle); level not stated
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-02-22'
+  notes: null
+- id: TVV-0073
+  system: zones
+  subsystem: outdoor
+  entity: Slickwick Oil Rig / Rugford's Mountain Rest / Earthen Ring / Ursan Heights
+  entity_ids: []
+  introduced_in: 1.18.0
+  change: changed
+  before_vanilla: null
+  after: classic updates; level -
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-02-22'
+  notes: null
+- id: TVV-0074
+  system: zones
+  subsystem: outdoor
+  entity: Elwynn Forest / Durotar intro rework
+  entity_ids: []
+  introduced_in: 1.18.0
+  change: changed
+  before_vanilla: null
+  after: classic edit (Tower of Azora quests; gryphon/wyvern and some Boar Meat quests removed); level 1-10
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-02-22'
+  notes: null
+- id: TVV-0075
+  system: zones
+  subsystem: outdoor
+  entity: Grim Batol gate path
+  entity_ids: []
+  introduced_in: 1.18.0
+  change: changed
+  before_vanilla: null
+  after: classic edit; level -
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-02-22'
+  notes: null
+- id: TVV-0076
+  system: zones
+  subsystem: outdoor
+  entity: Community Art Museum
+  entity_ids: []
+  introduced_in: 1.16.4
+  change: changed
+  before_vanilla: null
+  after: flavour (Steamwheedle Port); level -
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=26516#p26516
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-09-30'
+  notes: null
+- id: TVV-0077
+  system: dungeons_raids
+  subsystem: custom instance
+  entity: 'Caverns of Time: Black Morass'
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: added
+  before_vanilla: not in 1.12
+  after: 5-man; level 60 (Dire Maul++, 2-3.5 h)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: 'reworked 1.17.0 (7 bosses: Drifting Avatar of Time, Epidamu, Rotmaw, Mossheart, Antnormi...); Wardens of Time rep'
+- id: TVV-0078
+  system: dungeons_raids
+  subsystem: custom instance
+  entity: Karazhan Crypt
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: added
+  before_vanilla: not in 1.12
+  after: 5-man; level 58-60 (Dire Maul+, 2-3 h)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: Commander Andreon promoted to boss 2023-01-31 (p33639); gate lockpickable 1.18.0
+- id: TVV-0079
+  system: dungeons_raids
+  subsystem: custom instance
+  entity: Stormwind Vault
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: added
+  before_vanilla: not in 1.12
+  after: 5-man; level 60 (Dire Maul++, 1.5-2.5 h)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: wiki claims 1.15.0 (contested); Horde version 2023-09-25
+- id: TVV-0080
+  system: dungeons_raids
+  subsystem: custom instance
+  entity: Crescent Grove
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: added
+  before_vanilla: not in 1.12
+  after: '5-man; level 32-38 (SM: Library, 2-2.5 h)'
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: boss rework 1.18.0 (Warden Liferoot/Treeshade, A'lathea, Ranathos, Fenektis, Raxxieth)
+- id: TVV-0081
+  system: dungeons_raids
+  subsystem: custom instance
+  entity: Hateforge Quarry
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: added
+  before_vanilla: not in 1.12
+  after: 5-man; level 48-60 (early BRD, 2-2.5 h)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: Engineer Figgles, High Foreman Bargul Blackhammer, Har'gesh Doomcaller
+- id: TVV-0082
+  system: dungeons_raids
+  subsystem: custom instance
+  entity: Gilneas City
+  entity_ids: []
+  introduced_in: 1.17.0
+  change: added
+  before_vanilla: not in 1.12
+  after: 5-man; level 43-49
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-01-21'
+  notes: 2 mini + 5 bosses
+- id: TVV-0083
+  system: dungeons_raids
+  subsystem: custom instance
+  entity: Stormwrought Ruins
+  entity_ids: []
+  introduced_in: 1.18.0
+  change: added
+  before_vanilla: not in 1.12
+  after: 5-man; level not stated
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-02-22'
+  notes: Castle + Caverns sections; 15 rare BoEs 2025-09-02 (p149960)
+- id: TVV-0084
+  system: dungeons_raids
+  subsystem: custom instance
+  entity: Dragonmaw Retreat
+  entity_ids: []
+  introduced_in: 1.18.0
+  change: added
+  before_vanilla: not in 1.12
+  after: 5-man; level not stated
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-02-22'
+  notes: Ighal'for -> Mergothid; drops 1.35% (p149960)
+- id: TVV-0085
+  system: dungeons_raids
+  subsystem: custom instance
+  entity: Emerald Sanctum
+  entity_ids: []
+  introduced_in: 1.17.0
+  change: added
+  before_vanilla: not in 1.12
+  after: 40-man raid; level 60, BWL tier; hard mode
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-01-21'
+  notes: Erennius, Solnius the Awakener; attunement in Hyjal; Emerald Drake 2025-09-03
+- id: TVV-0086
+  system: dungeons_raids
+  subsystem: custom instance
+  entity: Lower Karazhan Halls
+  entity_ids: []
+  introduced_in: 1.17.0
+  change: added
+  before_vanilla: not in 1.12
+  after: 10-man raid; level 60, MC tier
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-01-21'
+  notes: 6 bosses (Moroes, Lord Blackwald II ...); no attunement; bosses buffed 2025-01-28
+- id: TVV-0087
+  system: dungeons_raids
+  subsystem: custom instance
+  entity: Tower of Karazhan
+  entity_ids: []
+  introduced_in: 1.17.2 (opened 2025-04-03)
+  change: added
+  before_vanilla: not in 1.12
+  after: 40-man raid; level 60, above Naxxramas; Tier 3.5
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=120590#p120590
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-02-21'
+  notes: Keeper Gnarlmoon, Ley-Watcher Incantagos, Anomalus, Echo of Medivh, Chess, Sanv Tas'dal, Rupturan, Kruul, Mephistroth; titles contested
+- id: TVV-0088
+  system: dungeons_raids
+  subsystem: world boss
+  entity: Nerubian Overseer
+  entity_ids: []
+  introduced_in: '2020-05-20'
+  change: added
+  before_vanilla: not in 1.12
+  after: world boss in Eastern Plaguelands (~40-person)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=6010#p6010
+  source_author: Pompa
+  source_authority: player
+  source_date: '2020-05-14'
+  notes: player-indexed author (Pompa) writing as team; author indexed as player but writes as the Turtle WoW team
+- id: TVV-0089
+  system: dungeons_raids
+  subsystem: world boss
+  entity: Ostarius of Uldum
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: added
+  before_vanilla: not in 1.12
+  after: 40-person world boss; 20-person minimum to summon (2023-12-27)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: null
+- id: TVV-0090
+  system: dungeons_raids
+  subsystem: world boss
+  entity: Concavius
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: added
+  before_vanilla: not in 1.12
+  after: 20+ world boss, Shadowbreak Ravine
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: null
+- id: TVV-0091
+  system: dungeons_raids
+  subsystem: vanilla extension
+  entity: Deadmines / Wailing Caverns / SFK / Scarlet Monastery extra bosses
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: null
+  after: new bosses Jared Vess, Masterpiece Harvester (DM), Vangros, Zandara Windhoof (WC), Prelate Ironmane (SFK), Duke Dreadmoore (SM GY), Brother Wystan (Lib), Armory Quartermaster Daghelm (Arm); loot changes
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=91709#p91709
+  source_author: Akalix
+  source_authority: staff
+  source_date: '2024-03-30'
+  notes: null
+- id: TVV-0092
+  system: dungeons_raids
+  subsystem: vanilla extension
+  entity: RFK / RFD / BFD / ZF wings
+  entity_ids: []
+  introduced_in: 1.18.0
+  change: changed
+  before_vanilla: null
+  after: RFK The Brambled Grotto, RFD Temple of Agamaggan, BFD Temple of Elune, ZF Farraki Tombs and Farraki Arena
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-02-22'
+  notes: null
+- id: TVV-0093
+  system: dungeons_raids
+  subsystem: vanilla extension
+  entity: Molten Core extension
+  entity_ids: []
+  introduced_in: 1.18.0
+  change: changed
+  before_vanilla: vanilla MC bosses incl. Gehennas
+  after: Incindis' Lair, Old Shadowforge; new bosses Incindis, Basalthar, Smoldaris, Sorcerer-Thane Thaurissan; Gehennas removed; MC retuned
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=147116#p147116
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2025-08-19'
+  notes: announcement p120615
+- id: TVV-0094
+  system: dungeons_raids
+  subsystem: tuning
+  entity: dynamic raid scaling
+  entity_ids: []
+  introduced_in: '2019-07-21'
+  change: added
+  before_vanilla: fixed raid sizes
+  after: raid encounters scale with group size (2019); scaling revert discussion 2023-10-11
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=3487#p3487
+  source_author: Torta
+  source_authority: staff
+  source_date: '2019-07-21'
+  notes: revert p70087
+- id: TVV-0095
+  system: dungeons_raids
+  subsystem: tuning
+  entity: dungeon trash respawn
+  entity_ids: []
+  introduced_in: '2023-12-05'
+  change: changed
+  before_vanilla: null
+  after: 2 h -> 5 h
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=79953#p79953
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-12-05'
+  notes: null
+- id: TVV-0096
+  system: dungeons_raids
+  subsystem: tuning
+  entity: Scholomance/Stratholme/Dire Maul player cap
+  entity_ids: []
+  introduced_in: 1.18.0
+  change: changed
+  before_vanilla: 10-player cap (vanilla knowledge)
+  after: 5 players
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=145822#p145822
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-08-15'
+  notes: null
+- id: TVV-0097
+  system: dungeons_raids
+  subsystem: tuning
+  entity: instance reset / lockout rules
+  entity_ids: []
+  introduced_in: '2024-09-11'
+  change: changed
+  before_vanilla: null
+  after: ownership/reset rules 'just like Classic'; position preserved on relog
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=101054#p101054
+  source_author: Reynolds
+  source_authority: staff
+  source_date: '2024-09-10'
+  notes: null
+- id: TVV-0098
+  system: dungeons_raids
+  subsystem: tuning
+  entity: instance-per-hour limit
+  entity_ids: []
+  introduced_in: '2025-04-22'
+  change: changed
+  before_vanilla: null
+  after: limit counted separately for dungeons and raids
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=128053#p128053
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-04-22'
+  notes: null
+- id: TVV-0099
+  system: dungeons_raids
+  subsystem: tuning
+  entity: BWL boss spawn order
+  entity_ids: []
+  introduced_in: '2023-11-29'
+  change: changed
+  before_vanilla: null
+  after: bosses only spawn after Razorgore
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=79223#p79223
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-11-29'
+  notes: null
+- id: TVV-0100
+  system: dungeons_raids
+  subsystem: tuning
+  entity: Dragons of Nightmare
+  entity_ids: []
+  introduced_in: '2023-02-22'
+  change: changed
+  before_vanilla: null
+  after: 832,750 HP and ilvl 75-76 loot
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=35487#p35487
+  source_author: Akalix
+  source_authority: staff
+  source_date: '2023-02-20'
+  notes: null
+- id: TVV-0101
+  system: dungeons_raids
+  subsystem: tuning
+  entity: all dungeon boss HP / MC, Kara10, Onyxia, BWL retune
+  entity_ids: []
+  introduced_in: 1.18.0
+  change: changed
+  before_vanilla: null
+  after: boss HP raised; raids retuned
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-02-22'
+  notes: null
+- id: TVV-0102
+  system: dungeons_raids
+  subsystem: reputation
+  entity: dungeon reputation
+  entity_ids: []
+  introduced_in: 1.18.0
+  change: added
+  before_vanilla: no dungeon rep in 1.12
+  after: Dire Maul -> Shen'dralar, Scholomance/Stratholme -> Argent Dawn etc.
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=145131#p145131
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-08-13'
+  notes: null
+- id: TVV-0103
+  system: dungeons_raids
+  subsystem: mounts
+  entity: rare mount drops from last bosses of MC, BWL, AQ40
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: added
+  before_vanilla: no such drops in 1.12
+  after: rare mounts
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-12-28'
+  notes: Onyxian Drake and Emerald Drake added 2025-09-03 (p149960)
+- id: TVV-0104
+  system: quests_factions
+  subsystem: volume
+  entity: custom quests
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: added
+  before_vanilla: null
+  after: 300+ new quests in 1.16.0; hundreds more in 1.16.1, 1.16.4, 1.17.x, 1.18.0
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: null
+- id: TVV-0105
+  system: quests_factions
+  subsystem: faction
+  entity: Wardens of Time
+  entity_ids: []
+  introduced_in: 1.17.0
+  change: added
+  before_vanilla: not in 1.12
+  after: reputation from Black Morass and Sunnyglade disguised agents
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-01-21'
+  notes: rep on kill 2023-11-15
+- id: TVV-0106
+  system: quests_factions
+  subsystem: faction
+  entity: Steamwheedle Blood Ring
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: added
+  before_vanilla: not in 1.12
+  after: reputation from arena; Exalted rings (1.17.0)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: null
+- id: TVV-0107
+  system: quests_factions
+  subsystem: faction
+  entity: Revantusk / Silvermoon Remnants / Durotar Labor Union
+  entity_ids: []
+  introduced_in: 1.15.0
+  change: added
+  before_vanilla: Revantusk exists without rewards in 1.12
+  after: reputation rewards for new races and Revantusk (temporarily restored 2022-12-27)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=31601#p31601
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-12-26'
+  notes: null
+- id: TVV-0108
+  system: quests_factions
+  subsystem: faction
+  entity: reputation gain
+  entity_ids: []
+  introduced_in: '2023-07-12'
+  change: changed
+  before_vanilla: rep reduced by level difference (vanilla knowledge)
+  after: all reputation gains 100% regardless of level difference
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=53097#p53097
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-07-11'
+  notes: null
+- id: TVV-0109
+  system: quests_factions
+  subsystem: class quest
+  entity: Rogue Disguise
+  entity_ids: []
+  introduced_in: '2018-12-14'
+  change: added
+  before_vanilla: not in 1.12
+  after: rogue Disguise skill quest
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=1562#p1562
+  source_author: Pompa
+  source_authority: player
+  source_date: '2018-12-14'
+  notes: player-indexed author; author indexed as player but writes as the Turtle WoW team
+- id: TVV-0110
+  system: quests_factions
+  subsystem: class quest
+  entity: Mage Khadgar's Unlocking
+  entity_ids: []
+  introduced_in: '2019-01-05'
+  change: added
+  before_vanilla: not in 1.12
+  after: mage lockpicking spell, cap 195
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=1759#p1759
+  source_author: Pompa
+  source_authority: player
+  source_date: '2019-01-05'
+  notes: player-indexed author; author indexed as player but writes as the Turtle WoW team
+- id: TVV-0111
+  system: quests_factions
+  subsystem: class quest
+  entity: Paladin Piercing Light (Holy Strike)
+  entity_ids: []
+  introduced_in: '2020-01-17'
+  change: added
+  before_vanilla: not in 1.12
+  after: quest grants Holy Strike; removed in 1.17.2 when Holy Strike became trainable at 4
+  superseded_by: 1.17.2
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=4894#p4894
+  source_author: Torta
+  source_authority: staff
+  source_date: '2020-01-17'
+  notes: null
+- id: TVV-0112
+  system: quests_factions
+  subsystem: class quest
+  entity: Warrior Intervene / Die by the Sword books
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: added
+  before_vanilla: not in 1.12
+  after: books at 50/58
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: Intervene trained at 20 from 1.17.2
+- id: TVV-0113
+  system: quests_factions
+  subsystem: class quest
+  entity: Warlock Demon Portal grimoire
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: added
+  before_vanilla: not in 1.12
+  after: hidden grimoire at 60
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: implemented 1.16.2; became Demon Gate 1.17.2
+- id: TVV-0114
+  system: quests_factions
+  subsystem: class quest
+  entity: Mage Teleport/Portal Theramore and Stonard
+  entity_ids: []
+  introduced_in: 1.17.0
+  change: added
+  before_vanilla: not in 1.12
+  after: teleports from level-45 class quests; portals from Lower Karazhan Halls tomes
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-01-21'
+  notes: null
+- id: TVV-0115
+  system: quests_factions
+  subsystem: class quest
+  entity: Druid Swift Travel Form (Mount Hyjal In Turmoil)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: added
+  before_vanilla: not in 1.12
+  after: questline at Loganaar grants 100%-speed travel form
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102966#p102966
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0116
+  system: quests_factions
+  subsystem: removed quest
+  entity: Kor'ghan's twin quests 810/811
+  entity_ids:
+  - quest:810
+  - quest:811
+  introduced_in: '2023-05-09'
+  change: removed
+  before_vanilla: exist in 1.12
+  after: removed
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=45215#p45215
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-05-09'
+  notes: null
+- id: TVV-0117
+  system: quests_factions
+  subsystem: removed quest
+  entity: Torble Sparksprocket quests
+  entity_ids: []
+  introduced_in: '2025-10-15'
+  change: removed
+  before_vanilla: exist in 1.12
+  after: removed
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=155594#p155594
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-14'
+  notes: null
+- id: TVV-0118
+  system: quests_factions
+  subsystem: changed quest
+  entity: Alterac Valley win quest
+  entity_ids: []
+  introduced_in: 1.16.4
+  change: changed
+  before_vanilla: 1.12 AV quests
+  after: Korrak-based pre-1.12 AV quests; AV turn-in XP removed 2024-03-27
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=27853#p27853
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-10-24'
+  notes: XP removal p90751
+- id: TVV-0119
+  system: quests_factions
+  subsystem: daily
+  entity: Call to Arms daily quests
+  entity_ids: []
+  introduced_in: '2022-11-02'
+  change: added
+  before_vanilla: weekend-only BG holidays (vanilla knowledge)
+  after: daily rotation; weekly quests from 1.18.0
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=28269#p28269
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-11-01'
+  notes: weekly p145822
+- id: TVV-0120
+  system: quests_factions
+  subsystem: daily
+  entity: WANTED daily PvP quests
+  entity_ids: []
+  introduced_in: '2023-12-10'
+  change: added
+  before_vanilla: not in 1.12
+  after: daily quests targeting top HK/DK players
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=80586#p80586
+  source_author: Akalix
+  source_authority: staff
+  source_date: '2023-12-10'
+  notes: replaces Bounty Boards
+- id: TVV-0121
+  system: quests_factions
+  subsystem: weekly
+  entity: Fashion Coin weekly quest
+  entity_ids: []
+  introduced_in: '2020-03-18'
+  change: added
+  before_vanilla: not in 1.12
+  after: weekly quest per 10-level bracket rewards Fashion Coins
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=5355#p5355
+  source_author: Torta
+  source_authority: staff
+  source_date: '2020-03-12'
+  notes: null
+- id: TVV-0122
+  system: items
+  subsystem: stat
+  entity: Meditation
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: added
+  before_vanilla: stat does not exist in 1.12
+  after: 5% of out-of-combat mana regen while casting per stack, scales with Spirit (Green Dragon Mail 3 pieces = 30%)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: null
+- id: TVV-0123
+  system: items
+  subsystem: stat
+  entity: Haste
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: added
+  before_vanilla: only a few vanilla items have haste procs
+  after: generic 1-2% haste stat on items, up to 5%
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: null
+- id: TVV-0124
+  system: items
+  subsystem: stat
+  entity: Armor Penetration / Spell Penetration / Vampirism / Resilience
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: added
+  before_vanilla: not itemised in 1.12
+  after: appear on custom items; Resilience reduces entire crit damage from 2025-12-03
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: Resilience change p161356 (1.18.1-announced-pre-release)
+- id: TVV-0125
+  system: items
+  subsystem: retune
+  entity: 95 vanilla items revamped
+  entity_ids: []
+  introduced_in: '2021-12-02'
+  change: changed
+  before_vanilla: 1.12 values
+  after: IDs listed in the synthesis document section 2021-12-02
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14274#p14274
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2021-12-02'
+  notes: null
+- id: TVV-0126
+  system: items
+  subsystem: retune
+  entity: raid items and set reworks batch
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: changed
+  before_vanilla: 1.12 values
+  after: paladin T1/T2/T2.5/T3, ZG Freethinker, AQ20 Eternal Justice, Ironweave, Shard of the Gods, sub-60 dungeon sets, raid items
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: null
+- id: TVV-0127
+  system: items
+  subsystem: retune
+  entity: T2.5 hunter/warlock/shaman Spirit removed
+  entity_ids: []
+  introduced_in: '2023-02-15'
+  change: changed
+  before_vanilla: Spirit on T2.5
+  after: Spirit replaced
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=35264#p35264
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-02-19'
+  notes: date approximate to the 2023-02 changelog
+- id: TVV-0128
+  system: items
+  subsystem: retune
+  entity: Karazhan Crypt loot buffed (20 items) and Commander Andreon drops
+  entity_ids: []
+  introduced_in: '2023-01-29'
+  change: changed
+  before_vanilla: null
+  after: Deathforge Belt, Ring of Authority, Boots of the Holy Mentor, Frostchain Gauntlets, Band of Arcane Dampening, Gravewalker Pauldrons
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=33498#p33498
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-01-29'
+  notes: null
+- id: TVV-0129
+  system: items
+  subsystem: retune
+  entity: tier set retune (mage/warlock/shaman/druid/warrior/paladin)
+  entity_ids: []
+  introduced_in: '2025-01-28'
+  change: changed
+  before_vanilla: 1.12 set bonuses
+  after: set bonuses reworked
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=118168#p118168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-01-28'
+  notes: null
+- id: TVV-0130
+  system: items
+  subsystem: retune
+  entity: Rank 14 PvP weapons
+  entity_ids: []
+  introduced_in: '2025-03-31'
+  change: changed
+  before_vanilla: ilvl 78 (vanilla knowledge)
+  after: ilvl 83
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-03-30'
+  notes: null
+- id: TVV-0131
+  system: items
+  subsystem: retune
+  entity: Sandstalker / Bramblewood / Spitfire sets, Gilijim/Lapidis and Tel'abim rewards
+  entity_ids: []
+  introduced_in: '2025-03-31'
+  change: changed
+  before_vanilla: null
+  after: retuned
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-03-30'
+  notes: null
+- id: TVV-0132
+  system: items
+  subsystem: sets
+  entity: Alternative tier sets per specialization
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: added
+  before_vanilla: one tier set per class
+  after: swap NPC Feid Rota; not unique from 2026-01-27
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-12-28'
+  notes: uniqueness change is 1.18.1-announced-pre-release
+- id: TVV-0133
+  system: items
+  subsystem: sets
+  entity: Tier 3.5 (Tower of Karazhan)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: added
+  before_vanilla: not in 1.12
+  after: sets 'of the Talon', 'Ravenstalker', 'of the Guardian', 'Lionheart' etc.
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=120590#p120590
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-02-21'
+  notes: null
+- id: TVV-0134
+  system: items
+  subsystem: sets
+  entity: Blood Ring PvP sets
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: added
+  before_vanilla: not in 1.12
+  after: 2/4/6/8 set bonuses
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: null
+- id: TVV-0135
+  system: items
+  subsystem: custom item
+  entity: Chronoboon Displacer
+  entity_ids:
+  - item:83000
+  - item:83001
+  - npc:10667
+  introduced_in: '2021-05-10'
+  change: added
+  before_vanilla: not in 1.12
+  after: 5 g from Chromie; stores world buffs into Supercharged Chronoboon Displacer (83001)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=10502#p10502
+  source_author: Xerron
+  source_authority: player
+  source_date: '2021-05-10'
+  notes: player-indexed author (Xerron) writing as team; author indexed as player but writes as the Turtle WoW team
+- id: TVV-0136
+  system: items
+  subsystem: custom item
+  entity: Refreshment Table / Soulwell / Conjured Mana Orange
+  entity_ids:
+  - item:83002
+  - item:83003
+  - item:83004
+  introduced_in: '2021-05-10'
+  change: added
+  before_vanilla: not in 1.12
+  after: mage ritual table and warlock soulwell
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=10502#p10502
+  source_author: Xerron
+  source_authority: player
+  source_date: '2021-05-10'
+  notes: author indexed as player but writes as the Turtle WoW team
+- id: TVV-0137
+  system: items
+  subsystem: custom item
+  entity: Ouro drops
+  entity_ids:
+  - item:21613
+  - item:21612
+  introduced_in: 1.16.1
+  change: changed
+  before_vanilla: null
+  after: adjusted per 1.16.1 item notes
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: null
+- id: TVV-0138
+  system: items
+  subsystem: custom item
+  entity: Hawkstrider Boots
+  entity_ids:
+  - item:41191
+  introduced_in: 1.16.4
+  change: added
+  before_vanilla: null
+  after: custom item
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=26516#p26516
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-09-30'
+  notes: null
+- id: TVV-0139
+  system: items
+  subsystem: mount
+  entity: Riding Turtle
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: changed
+  before_vanilla: TCG loot in 1.12 (vanilla knowledge)
+  after: obtained from a Darkmoon Faire quest; swims 50% faster
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: null
+- id: TVV-0140
+  system: items
+  subsystem: mount
+  entity: Immortal Champion's Charger
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: added
+  before_vanilla: null
+  after: replaces Armored Azure Drake; BoP (2025-04)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=120590#p120590
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-02-21'
+  notes: null
+- id: TVV-0141
+  system: items
+  subsystem: mount
+  entity: Snowball
+  entity_ids: []
+  introduced_in: 1.16.4
+  change: added
+  before_vanilla: not in 1.12
+  after: Winter Veil Vale mount; Apprentice Riding
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=26516#p26516
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-09-30'
+  notes: null
+- id: TVV-0142
+  system: items
+  subsystem: mount
+  entity: Violet Raptor
+  entity_ids: []
+  introduced_in: '2025-04-03'
+  change: added
+  before_vanilla: not in 1.12
+  after: from Lady Anacondra (Wailing Caverns)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=120590#p120590
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-02-21'
+  notes: null
+- id: TVV-0143
+  system: items
+  subsystem: mount
+  entity: Onyxian Drake / Emerald Drake
+  entity_ids: []
+  introduced_in: '2025-09-03'
+  change: added
+  before_vanilla: not in 1.12
+  after: Onyxia / Solnius drops
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=149960#p149960
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-09-02'
+  notes: null
+- id: TVV-0144
+  system: items
+  subsystem: bags
+  entity: endgame bag sizes
+  entity_ids: []
+  introduced_in: '2025-04-29'
+  change: changed
+  before_vanilla: Bottomless/Panther/Supply/Onyxia 18, Mooncloth 16 (vanilla knowledge)
+  after: '+2 slots: 20 / Mooncloth 18'
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=129028#p129028
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-04-29'
+  notes: null
+- id: TVV-0145
+  system: items
+  subsystem: toys
+  entity: Toy Collection Tab
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: added
+  before_vanilla: not in 1.12
+  after: Orb of Deception, Carved Ogre Idol, Everlasting Firework, Pet Rock, Music Scrolls, Goblin Radio KABOOM-Box
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-12-28'
+  notes: toys moved 2024-11-20 (p108746)
+- id: TVV-0146
+  system: items
+  subsystem: consumables
+  entity: Blasted Lands / Zanza consumables
+  entity_ids: []
+  introduced_in: '2023-07-05'
+  change: changed
+  before_vanilla: 1-h cooldown, 5-item limit, stack 5 (source's own statement)
+  after: no cooldown, no limit, stack 20
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=52323#p52323
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2023-07-05'
+  notes: cooldown/limit removed 2023-06-28 (p51551)
+- id: TVV-0147
+  system: items
+  subsystem: consumables
+  entity: Rank 6 potions stack
+  entity_ids: []
+  introduced_in: '2023-12-10'
+  change: changed
+  before_vanilla: stack 5 (vanilla knowledge)
+  after: stack 10
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=80586#p80586
+  source_author: Akalix
+  source_authority: staff
+  source_date: '2023-12-10'
+  notes: null
+- id: TVV-0148
+  system: items
+  subsystem: consumables
+  entity: elixirs persist through death in instances
+  entity_ids: []
+  introduced_in: '2024-01-31'
+  change: changed
+  before_vanilla: lost on death
+  after: persist
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=86418#p86418
+  source_author: Akalix
+  source_authority: staff
+  source_date: '2024-01-30'
+  notes: null
+- id: TVV-0149
+  system: items
+  subsystem: consumables
+  entity: Tea with Sugar / Nordanaar Herbal Tea
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: null
+  after: 525-875 HP and 810-1350 mana, stack 20
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102965#p102965
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0150
+  system: items
+  subsystem: consumables
+  entity: Corrupted Sand stack
+  entity_ids: []
+  introduced_in: '2023-11-22'
+  change: changed
+  before_vanilla: null
+  after: stacks 250
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=78235#p78235
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2023-11-22'
+  notes: null
+- id: TVV-0151
+  system: items
+  subsystem: throwing
+  entity: throwing weapons durability
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: consumed per throw
+  after: consume durability; stack 1; disenchantable; repair cost cut 2024-12-04
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102965#p102965
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0152
+  system: items
+  subsystem: currency
+  entity: Fashion Coin / Transmog Coin
+  entity_ids: []
+  introduced_in: '2020-03-18'
+  change: added
+  before_vanilla: not in 1.12
+  after: Fashion Coins from weekly quests/donation; Transmog Coins from end-game dungeon final bosses (1.16.1); stack 200 (2024-12)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=5355#p5355
+  source_author: Torta
+  source_authority: staff
+  source_date: '2020-03-12'
+  notes: null
+- id: TVV-0153
+  system: items
+  subsystem: currency
+  entity: Shellcoin
+  entity_ids: []
+  introduced_in: '2023-01-06'
+  change: added
+  before_vanilla: not in 1.12
+  after: event currency
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=32148#p32148
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-01-05'
+  notes: null
+- id: TVV-0154
+  system: items
+  subsystem: vendor
+  entity: Tabard of Kul Tiras
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: changed
+  before_vanilla: shop item
+  after: in-game reward
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: null
+- id: TVV-0155
+  system: items
+  subsystem: vendor
+  entity: 29 shop transmog items to fashion vendors
+  entity_ids: []
+  introduced_in: '2024-12-18'
+  change: changed
+  before_vanilla: donation store
+  after: fashion vendors
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=113088#p113088
+  source_author: Torta
+  source_authority: staff
+  source_date: '2024-12-17'
+  notes: null
+- id: TVV-0156
+  system: professions
+  subsystem: new profession
+  entity: Survival (secondary)
+  entity_ids: []
+  introduced_in: '2019-05-10'
+  change: added
+  before_vanilla: not in 1.12
+  after: trainer S. J. Erlgadin (STV); Dim Torch, Fishing Boat, Traveler's Tent, Bright Campfire; max 150 at launch
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=2694#p2694
+  source_author: Torta
+  source_authority: staff
+  source_date: '2019-05-06'
+  notes: placeables as unique items with cooldown (1.16.1); lanterns, Murloc's Flippers
+- id: TVV-0157
+  system: professions
+  subsystem: new profession
+  entity: Gardening
+  entity_ids: []
+  introduced_in: '2020-05-07'
+  change: added
+  before_vanilla: not in 1.12
+  after: requires Survival 100; planters, seeds, Un'Goro soil, spring water
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=5840#p5840
+  source_author: Torta
+  source_authority: staff
+  source_date: '2020-05-07'
+  notes: planters anywhere 2025-08-13; crops private 2025-12-02
+- id: TVV-0158
+  system: professions
+  subsystem: new profession
+  entity: Jewelcrafting (primary)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: added
+  before_vanilla: not in 1.12
+  after: 200+ items; specializations Goldsmith / Gemology (skill 225, level 40); gritted papers, polishing oils, Amber Topaz, Pure Moonstone, Enchanted Gemstone Oils
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-12-28'
+  notes: reagent fixes 2024-11-20
+- id: TVV-0159
+  system: professions
+  subsystem: Survival
+  entity: Traveler's Tent
+  entity_ids: []
+  introduced_in: '2019-05-10'
+  change: changed
+  before_vanilla: null
+  after: tents cannot be built close together; single-tent rested bonus x5 (2023-04-11); outdoor requirement removed later
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=41180#p41180
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-04-11'
+  notes: null
+- id: TVV-0160
+  system: professions
+  subsystem: Blacksmithing
+  entity: Forgotten Knowledge I/II plans
+  entity_ids: []
+  introduced_in: '2020-01-08'
+  change: added
+  before_vanilla: unreleased 1.12 recipes
+  after: Inlaid Thorium Hammer plan etc. made obtainable
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=10602#p10602
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2021-05-19'
+  notes: FK I p4777 (player-indexed)
+- id: TVV-0161
+  system: professions
+  subsystem: Blacksmithing
+  entity: Hateforge plans / Dream's Herald / Rune-Etched set
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: added
+  before_vanilla: null
+  after: new plans
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: Rune-Etched set bonus fixed 2025-10-15
+- id: TVV-0162
+  system: professions
+  subsystem: Blacksmithing
+  entity: Horseshoes trinket (+3% Plainsrunning speed)
+  entity_ids: []
+  introduced_in: '2023-12-10'
+  change: added
+  before_vanilla: null
+  after: announced
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=80586#p80586
+  source_author: Akalix
+  source_authority: staff
+  source_date: '2023-12-10'
+  notes: null
+- id: TVV-0163
+  system: professions
+  subsystem: Leatherworking
+  entity: Red Dragonscale Boots/Shoulders, Shadowskin Boots, Dragonscale/Stormscale Leggings, Verdant Dreamer's Breastplate
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: added
+  before_vanilla: null
+  after: new patterns
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: null
+- id: TVV-0164
+  system: professions
+  subsystem: Tailoring
+  entity: Stormcloth set, Green Woolen Robe, Boots of Darkness
+  entity_ids: []
+  introduced_in: '2021-05-19'
+  change: added
+  before_vanilla: unreleased 1.12 recipes
+  after: obtainable (drops/hidden vendors)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=10602#p10602
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2021-05-19'
+  notes: null
+- id: TVV-0165
+  system: professions
+  subsystem: Tailoring
+  entity: Truefaith/Void/Archmage robes skill requirement
+  entity_ids: []
+  introduced_in: '2023-02-20'
+  change: changed
+  before_vanilla: Tailoring skill required to equip
+  after: requirement removed
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=35264#p35264
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-02-19'
+  notes: null
+- id: TVV-0166
+  system: professions
+  subsystem: Tailoring
+  entity: Dreamthread / Dreamsteel / Dreamhide shoulders
+  entity_ids: []
+  introduced_in: '2023-10-18'
+  change: changed
+  before_vanilla: null
+  after: require 300 skill to equip
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=71678#p71678
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-10-17'
+  notes: null
+- id: TVV-0167
+  system: professions
+  subsystem: Enchanting
+  entity: gloves Holy/Nature/Arcane Power; bracer Greater Agility / Spell Power; Boots Major Intellect
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: added
+  before_vanilla: not in 1.12
+  after: new formulas
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=31601#p31601
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-12-26'
+  notes: gloves announced 1.16.0 (p14049)
+- id: TVV-0168
+  system: professions
+  subsystem: Enchanting
+  entity: 'Formula: Eternal Dreamstone Shard'
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: added
+  before_vanilla: null
+  after: 1.5% drop, 3-day cooldown
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-12-28'
+  notes: null
+- id: TVV-0169
+  system: professions
+  subsystem: Engineering
+  entity: Goblin Radio / Battery-Powered Crowd Pummeler / Portable Wormhole Generator OG-SW
+  entity_ids: []
+  introduced_in: '2021-05-19'
+  change: added
+  before_vanilla: not in 1.12
+  after: Goblin Radio (FK II); Battery-Powered Crowd Pummeler (1.16.2); wormhole generators race-locked (2025-04-29)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=10602#p10602
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2021-05-19'
+  notes: wormhole p129028
+- id: TVV-0170
+  system: professions
+  subsystem: Alchemy
+  entity: Alchemists' Stone / Smelling Salts / concoctions
+  entity_ids: []
+  introduced_in: '2023-02-20'
+  change: added
+  before_vanilla: Alchemists' Stone is TBC (vanilla knowledge)
+  after: Alchemists' Stone; Smelling Salts; Concoction of the Dreamwater / Arcane Giant / Emerald Mongoose (Imbued Vial reagent 2025-09-02)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=35264#p35264
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-02-19'
+  notes: concoctions p149960
+- id: TVV-0171
+  system: professions
+  subsystem: Cooking
+  entity: Gurubashi Gumbo, Gilneas Hot Stew, Kezan Fruitcake, Dwarven Battle Loaf, Spicy Beef Burrito
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: added
+  before_vanilla: not in 1.12
+  after: new recipes
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: null
+- id: TVV-0172
+  system: professions
+  subsystem: Fishing
+  entity: Undercity Bucket Hat
+  entity_ids: []
+  introduced_in: '2022-08-17'
+  change: added
+  before_vanilla: null
+  after: new fishing item
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=22582#p22582
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-08-16'
+  notes: null
+- id: TVV-0173
+  system: professions
+  subsystem: Fishing
+  entity: dynamic fishing pools / fish while seated / Apprentice Fishing at 1
+  entity_ids: []
+  introduced_in: '2024-03-19'
+  change: changed
+  before_vanilla: null
+  after: high-tier pools dynamic (2024-03-19); seated fishing (2025-04); Apprentice Fishing at level 1 (2025-10-01)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=90751#p90751
+  source_author: Akalix
+  source_authority: staff
+  source_date: '2024-03-19'
+  notes: p120590, p153822
+- id: TVV-0174
+  system: professions
+  subsystem: Herbalism
+  entity: Black Lotus from high-level herbs
+  entity_ids: []
+  introduced_in: '2023-10-18'
+  change: changed
+  before_vanilla: Black Lotus only from its own nodes
+  after: 0.5% -> 1% (2023-10-18) -> 2% -> 4% (2024-04-24) -> 6% (2025-10-21) chance from Dreamfoil, Mountain Silversage, Plaguebloom, Icecap
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=71678#p71678
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-10-17'
+  notes: p93361 for 4%
+- id: TVV-0175
+  system: professions
+  subsystem: Herbalism
+  entity: Plaguebloom sources
+  entity_ids: []
+  introduced_in: '2023-12-10'
+  change: changed
+  before_vanilla: null
+  after: from Arthas' Tears and in Stratholme
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=80586#p80586
+  source_author: Akalix
+  source_authority: staff
+  source_date: '2023-12-10'
+  notes: null
+- id: TVV-0176
+  system: professions
+  subsystem: Mining
+  entity: Rich Thorium shares spawns with Thorium
+  entity_ids: []
+  introduced_in: '2023-12-10'
+  change: changed
+  before_vanilla: null
+  after: shared spawn pool
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=80586#p80586
+  source_author: Akalix
+  source_authority: staff
+  source_date: '2023-12-10'
+  notes: null
+- id: TVV-0177
+  system: professions
+  subsystem: gathering
+  entity: dynamic respawn of high-level nodes
+  entity_ids: []
+  introduced_in: '2024-03-19'
+  change: changed
+  before_vanilla: static timers
+  after: dynamic respawn for Gromsblood, Icecap, Mountain Silversage, Black Lotus, Dreamfoil, Golden Sansam, Grave Moss, Arthas' Tears, Ghost Mushroom, Firebloom, Wintersbite, Small/Rich Thorium, Truesilver, Mithril (not in instances)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=90746#p90746
+  source_author: Akalix
+  source_authority: staff
+  source_date: '2024-03-19'
+  notes: custom zones first 2023-10-18
+- id: TVV-0178
+  system: professions
+  subsystem: Lockpicking
+  entity: mage lockpicking / Karazhan Crypt gate
+  entity_ids: []
+  introduced_in: '2019-01-05'
+  change: added
+  before_vanilla: rogue only
+  after: Khadgar's Unlocking for mages; Karazhan Crypt gate lockpickable (1.18.0)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=1759#p1759
+  source_author: Pompa
+  source_authority: player
+  source_date: '2019-01-05'
+  notes: author indexed as player but writes as the Turtle WoW team
+- id: TVV-0179
+  system: professions
+  subsystem: Riding
+  entity: polearm training / Riding trainers
+  entity_ids: []
+  introduced_in: '2023-05-24'
+  change: changed
+  before_vanilla: null
+  after: polearm training 10 s; Riding from Chaddus Suncarrier; Snowball Apprentice Riding
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=47173#p47173
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-05-23'
+  notes: null
+- id: TVV-0180
+  system: professions
+  subsystem: Blacksmithing
+  entity: Swordsmith specialization lost on dropping BS
+  entity_ids: []
+  introduced_in: '2025-04-22'
+  change: changed
+  before_vanilla: null
+  after: spec lost on unlearn
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=128053#p128053
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-04-22'
+  notes: null
+- id: TVV-0181
+  system: professions
+  subsystem: vendors
+  entity: recipe vendor stock limits removed
+  entity_ids: []
+  introduced_in: '2024-04-17'
+  change: changed
+  before_vanilla: limited stock
+  after: unlimited
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=92848#p92848
+  source_author: Torta
+  source_authority: staff
+  source_date: '2024-04-16'
+  notes: null
+- id: TVV-0182
+  system: classes
+  subsystem: global
+  entity: weapon skill formula
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: 1% hit suppression vs +3-level targets; 305 soft cap (source's own comparison)
+  after: 'linear: hit cap 9% -> 8%; skill 300-308 each 0.2% hit and -2% glancing; +5 skill books via quests'
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102965#p102965
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0183
+  system: classes
+  subsystem: global
+  entity: armor damage reduction cap
+  entity_ids: []
+  introduced_in: 1.18.0
+  change: changed
+  before_vanilla: hard cap 75% (source's own comparison)
+  after: no hard cap; diminishing beyond 75%
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2025-07-25'
+  notes: null
+- id: TVV-0184
+  system: classes
+  subsystem: global
+  entity: debuff limit
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: changed
+  before_vanilla: '16'
+  after: 24 (1.16.1) -> 64 (2023-02-20)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: '64: p35264'
+- id: TVV-0185
+  system: classes
+  subsystem: global
+  entity: Goblin Brainwashing Device cooldown
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: null
+  after: 10-min personal cooldown; no raid-group moves in combat
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102965#p102965
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0186
+  system: classes
+  subsystem: global
+  entity: pet Avoidance
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: added
+  before_vanilla: not in 1.12
+  after: hunter/warlock pets take 50% -> 80% (1.17.2) less AoE damage
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: null
+- id: TVV-0187
+  system: classes
+  subsystem: global
+  entity: 'Pet Command: Take Position'
+  entity_ids: []
+  introduced_in: 1.18.0
+  change: added
+  before_vanilla: not in 1.12
+  after: hunters and warlocks
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2025-07-25'
+  notes: null
+- id: TVV-0188
+  system: classes
+  subsystem: global
+  entity: level-based spell miss vs players
+  entity_ids: []
+  introduced_in: '2023-05-17'
+  change: changed
+  before_vanilla: null
+  after: capped at 10 levels (players only)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=45215#p45215
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-05-09'
+  notes: null
+- id: TVV-0189
+  system: classes
+  subsystem: global
+  entity: Holy spells level-based resist
+  entity_ids: []
+  introduced_in: '2022-10-19'
+  change: changed
+  before_vanilla: null
+  after: Holy spells lose level-based resist chance
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=27514#p27514
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-10-18'
+  notes: null
+- id: TVV-0190
+  system: classes
+  subsystem: Druid
+  entity: Claw / Frenzied Regeneration / Insect Swarm / Faerie Fire (Feral) baseline / Owlkin Frenzy / Savage Bite
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: changed
+  before_vanilla: null
+  after: Claw +100% weapon damage; Frenzied Regeneration 1% Stamina per rage; Insect Swarm baseline at 20; FF(Feral) baseline at 30; new Owlkin Frenzy (60); new Savage Bite (54, bear)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=13458#p13458
+  source_author: Moon
+  source_authority: player
+  source_date: '2021-11-06'
+  notes: draft by Moon (player-indexed); single source for baseline lines; confirmed indirectly by later changelogs; author indexed as player but writes as the Turtle WoW team
+- id: TVV-0191
+  system: classes
+  subsystem: Druid
+  entity: batch 1 talents (Natural Weapons, Blood Frenzy, Berserk, Swiftmend row 3, Thick Hide, Feral Instinct, Omen of Clarity)
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: changed
+  before_vanilla: 1.12 talent trees
+  after: new Blood Frenzy (row 4) and Berserk (row 5, 6-min); Natural Weapons 3 ranks; Primal Fury merged; Moonkin Form -20% Balance mana and can cast Innervate/Remove Curse
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: null
+- id: TVV-0192
+  system: classes
+  subsystem: Druid
+  entity: Emerald Blessing
+  entity_ids: []
+  introduced_in: 1.17.0
+  change: added
+  before_vanilla: not in 1.12
+  after: 'raid buff from Emerald Sanctum questline: +10% move, +1% spell hit, +5% mana regen in combat, 80 yd'
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-01-21'
+  notes: null
+- id: TVV-0193
+  system: classes
+  subsystem: Druid
+  entity: Swift Travel Form / Tome of the Wild Ride
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: added
+  before_vanilla: Travel Form 40% only
+  after: 100% mount-speed form from questline 'Mount Hyjal In Turmoil'; Ride of the Wild passenger ability 1.18.0
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102966#p102966
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0194
+  system: classes
+  subsystem: Druid
+  entity: Tranquility / Hurricane / Regrowth / Swipe / Frenzied Regeneration baseline (batch 2)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: null
+  after: Tranquility raid-wide 30-min cooldown; Hurricane 30 s -> 10 s cooldown (2025-04-01), 9.6% SP/tick; Regrowth -20% mana; Swipe 8% -> 6% -> 4% AP; Frenzied Regeneration 10 rage/s, 6/7/8% Stamina per rage, 5-min cooldown; combo points persist across targets; Ferocious Bite rank at 24
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102966#p102966
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0195
+  system: classes
+  subsystem: Druid
+  entity: Balance tree (batch 2)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: 1.12 Balance tree
+  after: new Sylvan Blessing, Guidance of the Dream, Balance of All Things, Gale Winds; Moonkin Form 180% armor at 30 / 360% at 40; Owlkin Frenzy talent; Moonfury/Moonglow include Hurricane and Insect Swarm
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102966#p102966
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: revisions p104207, p113460, p124504, p141159
+- id: TVV-0196
+  system: classes
+  subsystem: Druid
+  entity: Restoration tree (batch 2)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: 1.12 Restoration tree
+  after: Efflorescence passive (60, Tree form); Genesis; Aessina's Bloom; Preservation; Gift of Nature row 4 total-healing (1.18.0); Improved Rejuvenation removed
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102966#p102966
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: Nature's Swiftness swapped with Aessina's Bloom in 1.18.0 (p141159)
+- id: TVV-0197
+  system: classes
+  subsystem: Druid
+  entity: Feral tree (batch 2)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: 1.12 Feral tree
+  after: Open Wounds (row 2; per-bleed rework 2024-12-20); Feral Swiftness; Feral Adrenaline (removed 1.18.0); Ancient Brutality (row 6 -> row 5 1.18.0); Savage Bite/Berserk kept
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102966#p102966
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0198
+  system: classes
+  subsystem: Druid
+  entity: Crowd Pummeler (Manual / Battery-Powered)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: Manual Crowd Pummeler usable in forms with charges
+  after: +20% swing speed, no forms, 20-min cooldown; Battery-Powered version craftable (1.16.2)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102966#p102966
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0199
+  system: classes
+  subsystem: Druid
+  entity: form glyphs
+  entity_ids: []
+  introduced_in: '2019-12-22'
+  change: added
+  before_vanilla: not in 1.12
+  after: cosmetic form glyphs (shop), Glyph of Stars (2020), Glyph of the Penguin (2024-12-22), Glyph of the Forest Stag
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=4662#p4662
+  source_author: Torta
+  source_authority: staff
+  source_date: '2019-12-22'
+  notes: null
+- id: TVV-0200
+  system: classes
+  subsystem: Hunter
+  entity: Trueshot -> Steady Shot
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: added
+  before_vanilla: not in 1.12
+  after: Trueshot 5 ranks 36-60 (1.16.1) renamed Steady Shot (1.17.2) with rank 1 as a Marksmanship talent and ranks at 20/30/40/50/60; weapon-damage scaling 60-100% (2024-12-20)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: null
+- id: TVV-0201
+  system: classes
+  subsystem: Hunter
+  entity: Aspect of the Wolf
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: added
+  before_vanilla: not in 1.12
+  after: '+155 melee AP (30); 1.17.2: multiple ranks mirroring Aspect of the Hawk, ranged allowed, rank 7 in world'
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: null
+- id: TVV-0202
+  system: classes
+  subsystem: Hunter
+  entity: Trueshot Aura
+  entity_ids: []
+  introduced_in: 1.17.0
+  change: changed
+  before_vanilla: 30-min buff with mana cost
+  after: toggled aura (1.17.0); 30+3% / 40+4% / 55+5% AP (1.17.2)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-01-21'
+  notes: null
+- id: TVV-0203
+  system: classes
+  subsystem: Hunter
+  entity: stable slots
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: 2 stable slots
+  after: 4 slots; 3rd costs gold, 4th needs a glyph
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102967#p102967
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0204
+  system: classes
+  subsystem: Hunter
+  entity: Aimed Shot / Scorpid Sting / Viper Sting / Wing Clip / Mongoose Bite baseline (batch 2)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: null
+  after: Aimed Shot baseline at 20; Scorpid Sting single rank 10% base mana -2% physical damage / -10% attack speed; Viper Sting -15% burn 6-s cooldown; Wing Clip % weapon damage, 3-s cooldown; Mongoose Bite no dodge requirement, 60% WD + flat, strikes with both weapons (1.18.0)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102967#p102967
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: revisions p108776, p113460, p124504, p141159
+- id: TVV-0205
+  system: classes
+  subsystem: Hunter
+  entity: pet families Serpents and Foxes; pet abilities
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: added
+  before_vanilla: not tameable in 1.12
+  after: new families; Charge R4, Lightning Breath R1 in world; Dash for raptors; Furious Howl 50 focus 40 yd; Thunderstomp rank 4 from Tel'abim gorillas
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102967#p102967
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0206
+  system: classes
+  subsystem: Hunter
+  entity: Beast Mastery tree (batch 2)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: 1.12 BM tree
+  after: Improved Primal Aspects; Elusiveness; Bestial Precision; Pathfinding merged then returned (1.18.0) with keystone Coordinated Assault (pet follow-up 30% pet AP)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102967#p102967
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0207
+  system: classes
+  subsystem: Hunter
+  entity: Marksmanship tree (batch 2)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: 1.12 MM tree
+  after: Improved Stings; Steady Shot keystone; Swiftshot; Piercing Shots (bleed on crit); Improved Steady Shot; Endless Quiver (3/6% extra shot); Hawk Eye 2 pts
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102967#p102967
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0208
+  system: classes
+  subsystem: Hunter
+  entity: Survival tree (batch 2; melee rework)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: 1.12 Survival tree
+  after: Resourcefulness; Swift Reflexes; Planning Ahead; keystone Carve (cone 5 targets); Stinging Nettle Lacing; Trap Mastery merged with Clever Traps
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102967#p102967
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0209
+  system: classes
+  subsystem: Hunter
+  entity: Freezing Trap / Scatter Shot diminishing returns
+  entity_ids: []
+  introduced_in: '2024-09-04'
+  change: changed
+  before_vanilla: null
+  after: share DR
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=100559#p100559
+  source_author: Reynolds
+  source_authority: staff
+  source_date: '2024-09-03'
+  notes: null
+- id: TVV-0210
+  system: classes
+  subsystem: Hunter
+  entity: Goblin hunters start with gun and ammo pouch
+  entity_ids: []
+  introduced_in: 1.17.0
+  change: changed
+  before_vanilla: null
+  after: gun (1.17.0), ammo pouch (2023-11-15)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-01-21'
+  notes: pouch p77428
+- id: TVV-0211
+  system: classes
+  subsystem: Mage
+  entity: Arcane Missiles coefficient
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: changed
+  before_vanilla: 0.24 per missile (source's own statement)
+  after: 0.286 (1.16.1) -> 0.328 above level 20 (1.17.2)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: null
+- id: TVV-0212
+  system: classes
+  subsystem: Mage
+  entity: Arcane Impact / Arcane Potency / Brilliance Aura (batch 1)
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: added
+  before_vanilla: null
+  after: Improved Arcane Explosion -> Arcane Impact (+2/4/6% arcane crit); Arcane Potency (+arcane crit damage); Brilliance Aura (party mana regen; toggled 1.17.0; removed 1.17.2)
+  superseded_by: 1.17.2 (Brilliance Aura removed)
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: null
+- id: TVV-0213
+  system: classes
+  subsystem: Mage
+  entity: 'Teleport/Portal: Theramore, Stonard, Alah''Thalas'
+  entity_ids: []
+  introduced_in: 1.17.0
+  change: added
+  before_vanilla: not in 1.12
+  after: Theramore (Alliance) / Stonard (Horde) from level-45 class quests; portals from Lower Karazhan Halls tomes; Alah'Thalas teleport for High Elf capital
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-01-21'
+  notes: Alah'Thalas unlearned on faction change p129028
+- id: TVV-0214
+  system: classes
+  subsystem: Mage
+  entity: 'Polymorph: Cow'
+  entity_ids: []
+  introduced_in: '2023-06-14'
+  change: added
+  before_vanilla: not in 1.12
+  after: tome from the Cow King
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=49944#p49944
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2023-06-14'
+  notes: null
+- id: TVV-0215
+  system: classes
+  subsystem: Mage
+  entity: Khadgar's Unlocking
+  entity_ids: []
+  introduced_in: '2019-01-05'
+  change: added
+  before_vanilla: not in 1.12
+  after: mage lockpicking, cap 195
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=1759#p1759
+  source_author: Pompa
+  source_authority: player
+  source_date: '2019-01-05'
+  notes: player-indexed author; author indexed as player but writes as the Turtle WoW team
+- id: TVV-0216
+  system: classes
+  subsystem: Mage
+  entity: Arcane Surge / Dampen-Amplify Magic / Arcane Intellect costs (batch 2 baseline)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: null
+  after: 'new Arcane Surge (32/40/48/56: instant unresistable nuke after a resist, 65% SP); Dampen/Amplify single rank; Arcane Intellect 50/100/240/340/445; Arcane Brilliance 3400 -> 1200; Flamestrike 2.5 s (1.18.0)'
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102968#p102968
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0217
+  system: classes
+  subsystem: Mage
+  entity: Arcane tree (batch 2)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: 1.12 Arcane tree
+  after: keystone Arcane Rupture (row 3, 6 ranks); Temporal Convergence; Arcane Instability rework; Accelerated Arcana; Wand Specialization gives wand hit and mana-on-hit; Magic Attunement 1 pt
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102968#p102968
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0218
+  system: classes
+  subsystem: Mage
+  entity: Fire tree (batch 2)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: 1.12 Fire tree
+  after: Ignite over 6 s (back to 4 s 1.18.0) with threat split; Hot Streak (Pyroblast cast reduction); Fire Vulnerability from Fire Blast; Master of Elements 15/30/45%; Blast Wave 30 s (1.18.0)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102968#p102968
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0219
+  system: classes
+  subsystem: Mage
+  entity: Frost tree (batch 2)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: 1.12 Frost tree
+  after: keystone Icicles (row 5, 4 ranks, channel); Flash Freeze; Ice Barrier +15% Frost damage while active; Shatter 7-35%; Improved Blizzard 20/30/40%
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102968#p102968
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0220
+  system: classes
+  subsystem: Mage
+  entity: Living Bomb cannot crit
+  entity_ids: []
+  introduced_in: '2023-05-10'
+  change: changed
+  before_vanilla: null
+  after: no crit
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=45215#p45215
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-05-09'
+  notes: null
+- id: TVV-0221
+  system: classes
+  subsystem: Paladin
+  entity: Holy Strike
+  entity_ids: []
+  introduced_in: '2020-01-17'
+  change: added
+  before_vanilla: beta-only ability, not in 1.12
+  after: 'from quest Piercing Light, ranks via Librams; trainer from 1.16.1; 1.17.2: holy damage + restores health and mana to you and party, trained at 4'
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=4894#p4894
+  source_author: Torta
+  source_authority: staff
+  source_date: '2020-01-17'
+  notes: batch 2 p102969; heal targets 2024-12-20
+- id: TVV-0222
+  system: classes
+  subsystem: Paladin
+  entity: Consecration baseline / Crusader Strike / Holy Shock rework (batch 1)
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: changed
+  before_vanilla: Consecration Holy talent; no Crusader Strike
+  after: Consecration baseline at 20 (coef 0.042 -> 0.119); new Crusader Strike 5 ranks with holy-taken debuff; Holy Shock rework; Judgement of Righteousness coef 0.5 -> 0.728; Lasting Judgements removed; Blessing of Kings to Retribution row 3
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: null
+- id: TVV-0223
+  system: classes
+  subsystem: Paladin
+  entity: Divine Shield penalty
+  entity_ids: []
+  introduced_in: 1.17.0
+  change: changed
+  before_vanilla: -100% attack speed (source's own statement)
+  after: -50% damage dealt (1.17.0); 60% in 1.18.0
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-01-21'
+  notes: null
+- id: TVV-0224
+  system: classes
+  subsystem: Paladin
+  entity: Righteous Fury
+  entity_ids: []
+  introduced_in: 1.17.0
+  change: changed
+  before_vanilla: 30-min buff
+  after: toggled aura; undispellable 2024-03-20
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-01-21'
+  notes: null
+- id: TVV-0225
+  system: classes
+  subsystem: Paladin
+  entity: Crusader Strike / Zeal / Hand of Reckoning (batch 2 baseline)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: null
+  after: Crusader Strike % weapon damage + flat, grants Zeal (3% attack/cast speed x3), 6-s cooldown shared with Holy Strike, refreshes judgements, 20% SP (1.18.0); new Hand of Reckoning taunt (10); Flash of Light rank at 60
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102969#p102969
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0226
+  system: classes
+  subsystem: Paladin
+  entity: Holy tree (batch 2)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: 1.12 Holy tree
+  after: Holy Judgement; Ironclad; Holy Shock row 5 heal-only (damage restored 1.18.0); Divine Favor passive; Blessed Strikes; capstone Daybreak
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102969#p102969
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0227
+  system: classes
+  subsystem: Paladin
+  entity: Protection tree (batch 2)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: 1.12 Protection tree
+  after: Righteous Defense; Improved Hand of Reckoning; Reckoning rework; Righteous Strikes; Holy Shield 45% block; capstone Bulwark of the Righteous / Shield of the Righteous (name contested)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102969#p102969
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: capstone name differs between p102969 and p104207
+- id: TVV-0228
+  system: classes
+  subsystem: Paladin
+  entity: Retribution tree (batch 2)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: 1.12 Retribution tree
+  after: Improved Blessings; Vindication -3/6/9% target damage; Vengeance row 5 all damage; Crusading Strikes -> Vengeful Strikes (2024-12-20); Holy Might; Eye for an Eye capped 50% HP (2024-12-04)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102969#p102969
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0229
+  system: classes
+  subsystem: Paladin
+  entity: set bonuses (Lawbringer, Judgement, T3, T3.5)
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: changed
+  before_vanilla: 1.12 bonuses
+  after: Judgement 8-set (1.16.1); Lawbringer 8-set proc 30% -> 12% (2024-11-27); T3 6-set Exorcism cooldown only; T3.5 Retribution group-only
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: null
+- id: TVV-0230
+  system: classes
+  subsystem: Priest
+  entity: Inner Fire / Fear Ward / Divine Spirit / Lightwell baseline
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: changed
+  before_vanilla: Divine Spirit and Lightwell are talents; Fear Ward dwarf-only
+  after: Inner Fire grants AP (1.16.1) -> spell damage (1.17.2); Fear Ward Discipline spell (baseline at 20 in 1.17.2); Divine Spirit baseline at 30; Lightwell baseline at 40
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: null
+- id: TVV-0231
+  system: classes
+  subsystem: Priest
+  entity: Holy Champion (row 7) and champion spells
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: added
+  before_vanilla: not in 1.12
+  after: Proclaim Champion, Champion's Grace (40, +10% healing), Champion's Bond (44), Empower Champion; Proclaim Champion -5% damage taken and resistances 50% of level (1.18.0)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: null
+- id: TVV-0232
+  system: classes
+  subsystem: Priest
+  entity: Vampiric Embrace talent / Holy Nova / Holy Fire coefficients
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: changed
+  before_vanilla: null
+  after: Improved Vampiric Touch -> Vampiric Embrace talent; Holy Nova coef 0.107 -> 0.161; Holy Fire 0.75 -> 0.857 -> 1.0
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: null
+- id: TVV-0233
+  system: classes
+  subsystem: Priest
+  entity: buff mana costs / PW:S coefficient / healing rebalance (batch 2)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: null
+  after: PW:F 50-445, Prayer of Fortitude 900/1200 etc.; PW:S coef 10% -> 35%; healing base and scaling -15% offset by Spiritual Healing 6..30%; Mana Burn to Shadow tree
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102970#p102970
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0234
+  system: classes
+  subsystem: Priest
+  entity: Discipline tree (batch 2)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: 1.12 Discipline tree
+  after: 'holy-damage support spec: Piercing Light, Searing Light (instant Smite on crit), Wand Specialization hit/mana, Improved Inner Fire'
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102970#p102970
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0235
+  system: classes
+  subsystem: Priest
+  entity: Holy tree (batch 2)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: 1.12 Holy tree
+  after: Holy Focus, Divinity, Blessed Concentration, Swift Recovery, Reservoir of Light; Improved Prayer of Healing removed
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102970#p102970
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0236
+  system: classes
+  subsystem: Priest
+  entity: Shadow tree (batch 2)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: 1.12 Shadow tree
+  after: Mind Flay 45% -> 90% SP; Mind Blast 42.85% -> 60%; Vampiric Embrace cast then instant again 1.18.0; Holy Nova in Shadowform; Shadow Weaving debuff renamed (1.18.0)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102970#p102970
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0237
+  system: classes
+  subsystem: Priest
+  entity: Shadowmend book / new Smite ranks
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: added
+  before_vanilla: null
+  after: Shadowmend book; new Smite ranks as books
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: null
+- id: TVV-0238
+  system: classes
+  subsystem: Rogue
+  entity: Disguise
+  entity_ids: []
+  introduced_in: '2018-12-14'
+  change: added
+  before_vanilla: not in 1.12
+  after: rogue Disguise skill
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=1562#p1562
+  source_author: Pompa
+  source_authority: player
+  source_date: '2018-12-14'
+  notes: player-indexed author (Pompa); author indexed as player but writes as the Turtle WoW team
+- id: TVV-0239
+  system: classes
+  subsystem: Rogue
+  entity: Deadly Throw / Agitating Poison / Flourish / Close Quarters Combat / Throwing Weapon Specialization (batch 1)
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: added
+  before_vanilla: not in 1.12
+  after: Deadly Throw (30 energy, 8-30 yd); Agitating Poison (60, threat); Flourish (42, +20% parry; 40-s CD 1.17.0); Dagger+Fist Spec -> Close Quarters Combat; Throwing Weapon Specialization
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: draft had Surprise Attack/Detection (p13458)
+- id: TVV-0240
+  system: classes
+  subsystem: Rogue
+  entity: rogue tanking
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: changed
+  before_vanilla: null
+  after: 'explicitly supported then curbed: dodge/parry vs solo''d raid bosses disabled 2023-07-05, removed 2024-06-26'
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=52323#p52323
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2023-07-05'
+  notes: null
+- id: TVV-0241
+  system: classes
+  subsystem: Rogue
+  entity: traps disarm by right-click
+  entity_ids: []
+  introduced_in: '2022-10-19'
+  change: changed
+  before_vanilla: null
+  after: right-click disarm
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=27514#p27514
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-10-18'
+  notes: null
+- id: TVV-0242
+  system: classes
+  subsystem: Rogue
+  entity: One-Handed Axes / Ghostly Strike / Heightened Senses / Corrosive Poison / Wound Poison (batch 2 baseline)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: null
+  after: One-Handed Axes; Ghostly Strike baseline at 20; Heightened Senses baseline at 30; Sinister Strike 40 energy; Corrosive Poison (56/60 physical DoT); Wound Poison -5% healing x5; Sprint/Evasion 4 min; Deadly Throw rework 2025-04-01 (interrupt)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102971#p102971
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0243
+  system: classes
+  subsystem: Rogue
+  entity: Assassination tree (batch 2)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: 1.12 Assassination tree
+  after: Improved Blade Tactics; Taste for Blood; Efficient Poisons; Vigor 2 pts; Vile Poisons 3 pts
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102971#p102971
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0244
+  system: classes
+  subsystem: Rogue
+  entity: Combat tree (batch 2)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: 1.12 Combat tree
+  after: Swift Strikes (removed 1.18.0); Blade Flurry row 3 (baseline 1.18.0); Concussive Blows; keystone Surprise Attack; Hack and Slash
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102971#p102971
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0245
+  system: classes
+  subsystem: Rogue
+  entity: Subtlety tree (batch 2; support spec)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: 1.12 Subtlety tree
+  after: Improved Ghostly Strike; keystone Smoke Bomb; Hemorrhage row 3 single rank; Sleight of Hand removed; capstone Exploit Vulnerability / Mark for Death (contested)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102971#p102971
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: capstone name differs p102971 vs p141159
+- id: TVV-0246
+  system: classes
+  subsystem: Shaman
+  entity: Calm Elements / Water Shield / Earth Shield / Totemic Recall (batch 1)
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: added
+  before_vanilla: not in 1.12
+  after: Calm Elements (30); Water Shield (60; ranks 26-58 in 1.17.2); Earth Shield (60; ranks 40/48/56); Totemic Recall (40 -> 10, refunds totem mana)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: null
+- id: TVV-0247
+  system: classes
+  subsystem: Shaman
+  entity: per-element totem GCD / Chain Lightning LoS
+  entity_ids: []
+  introduced_in: 1.17.0
+  change: changed
+  before_vanilla: shared totem GCD
+  after: per-element totem GCDs; Chain Lightning jumps without LoS; Grounding Totem ignores LoS
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-01-21'
+  notes: CL/Grounding p30582
+- id: TVV-0248
+  system: classes
+  subsystem: Shaman
+  entity: Windfury Totem / Flametongue Totem as auras
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: totems with radius/duration
+  after: 'auras: Windfury main-hand only, single rank, 1.5-s ICD; Flametongue stacks with Windfury, no SP scaling'
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102972#p102972
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0249
+  system: classes
+  subsystem: Shaman
+  entity: Earthshaker Slam / Earth Shock threat / Chain Heal / imbues (batch 2 baseline)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: null
+  after: Earthshaker Slam shield taunt (10 s); Earth Shock threat x2 -> x1.5; Chain Heal 3-s cast (coef 61.42% 1.18.0); imbues 1 h; Spirit Wolves no AP scaling
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102972#p102972
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0250
+  system: classes
+  subsystem: Shaman
+  entity: Elemental tree (batch 2)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: 1.12 Elemental tree
+  after: Elemental Devastation rework; Call of Flame; keystone Flame Guidance (replaced 1.18.0 by Improved Molten Blast); Electrify (stacking Nature bonus)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102972#p102972
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0251
+  system: classes
+  subsystem: Shaman
+  entity: Enhancement tree (batch 2)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: 1.12 Enhancement tree
+  after: shocks scale with AP; Rockbiter +30% -> 35% threat; Totemic Alignment; Stable Shields; keystone Lightning Strike; Ancestral Knowledge 1..5% total stats
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102972#p102972
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0252
+  system: classes
+  subsystem: Shaman
+  entity: Restoration tree (batch 2)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: 1.12 Restoration tree
+  after: Improved Water Shield (-> Calming River 2025-12-02); Undertow; Healing Way row 3 incl. Chain Heal; Spirit Link capstone; Tidal Focus includes totem mana
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102972#p102972
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: Calming River is 1.18.1-announced-pre-release
+- id: TVV-0253
+  system: classes
+  subsystem: Shaman
+  entity: Feral Spirit scaling
+  entity_ids: []
+  introduced_in: '2023-05-24'
+  change: changed
+  before_vanilla: null
+  after: Spirit Wolves scale with shaman damage (2023-05-24); no AP scaling in 1.17.2
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=47173#p47173
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-05-23'
+  notes: null
+- id: TVV-0254
+  system: classes
+  subsystem: Warlock
+  entity: Soulwell Ritual
+  entity_ids:
+  - item:83003
+  introduced_in: '2021-05-10'
+  change: added
+  before_vanilla: not in 1.12 (TBC ability)
+  after: ritual soulwell
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=10502#p10502
+  source_author: Xerron
+  source_authority: player
+  source_date: '2021-05-10'
+  notes: player-indexed author; author indexed as player but writes as the Turtle WoW team
+- id: TVV-0255
+  system: classes
+  subsystem: Warlock
+  entity: Mana Funnel / Demon Portal (Demon Gate) / Voidwalker Torment damage (batch 1)
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: added
+  before_vanilla: not in 1.12
+  after: 'Mana Funnel (40/50, mana to pet); Demon Portal (hidden Grimoire 60, ritual Felguard 5 min; implemented 1.16.2) -> Demon Gate (1.17.2: 4-s cast, no ritual); Torment deals Shadow damage'
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: null
+- id: TVV-0256
+  system: classes
+  subsystem: Warlock
+  entity: Soul Shards stack / Soul Bags / Drain Soul / Soul Fire / Curse of Weakness (batch 2 baseline)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: Soul Shards do not stack
+  after: Soul Shards stack to 3; Soul Bags 5-25% chance to save reagent; Drain Soul rework (new R5, +mana); Soul Fire ranks 30-54, 30-s CD; Curse of Weakness single rank -15% attack speed; Corruption 1.5-s cast; demons can't be buffed by players
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102973#p102973
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0257
+  system: classes
+  subsystem: Warlock
+  entity: Affliction tree (batch 2)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: 1.12 Affliction tree
+  after: Improved Debilitating Curses (-> Improved Curse of Weakness 1.18.0); Resilient Shadows; Improved Drains; Dark Harvest; Curse of Exhaustion row 3
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102973#p102973
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0258
+  system: classes
+  subsystem: Warlock
+  entity: Demonology tree (batch 2)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: 1.12 Demonology tree
+  after: Soul Entrapment; Demonic Sacrifice moved up with new effects; Fel Domination 5 min; Master Summoner mana/greater-demon CDs; Soul Funnel scales with missing HP/mana
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102973#p102973
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0259
+  system: classes
+  subsystem: Warlock
+  entity: Destruction tree (batch 2)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: 1.12 Destruction tree
+  after: Improved Shadow Bolt on crit (renamed Shadow Vulnerability 1.18.0); Demonic Swiftness; Improved Soul Fire; Conflagrate no longer consumes Immolate
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102973#p102973
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0260
+  system: classes
+  subsystem: Warlock
+  entity: Soul Shard refund on dismiss
+  entity_ids: []
+  introduced_in: '2023-06-14'
+  change: changed
+  before_vanilla: null
+  after: shard refunded on manual dismiss
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=49944#p49944
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2023-06-14'
+  notes: null
+- id: TVV-0261
+  system: classes
+  subsystem: Warrior
+  entity: Intervene / Decisive Strike / Die by the Sword (batch 1)
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: added
+  before_vanilla: not in 1.12
+  after: Intervene (book 50 -> trained 20 in 1.17.2); Decisive Strike (Slam while moving; removed 2024-12-20); Die by the Sword passive (+20% parry during Retaliation); Thunder Clap in Defensive Stance
+  superseded_by: Decisive Strike removed 2024-12-20
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: null
+- id: TVV-0262
+  system: classes
+  subsystem: Warrior
+  entity: rage generation formula / Execute / Dual Wield at 10 / Pummel / Slam (batch 2 baseline)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: 1.12 rage formula; Dual Wield at 20
+  after: rage 90% gear / 10% weapon speed; Execute cooldown 5.5 s -> 4.5 s -> removed (1.18.0); Dual Wield at 10; Pummel single rank in Battle Stance at 18; Slam at 14 pausing swing; out-of-combat rage decay 2 rage/2 s
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102974#p102974
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0263
+  system: classes
+  subsystem: Warrior
+  entity: Arms tree (batch 2)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: 1.12 Arms tree
+  after: 'keystone Counterattack (removed 1.18.0 for Master Strike: per-weapon-type effects); Improved Slam; Deep Wounds 1.5-s ticks; Poleaxe Specialization removed into Master of Arms'
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102974#p102974
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0264
+  system: classes
+  subsystem: Warrior
+  entity: Fury tree (batch 2)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: 1.12 Fury tree
+  after: Improved Shouts; Reckless Execute (-> Improved Execute 1.18.0); Improved Pummel; Improved Whirlwind; Enrage 8 s unlimited swings; Unbridled Wrath doubled with 2H
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102974#p102974
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0265
+  system: classes
+  subsystem: Warrior
+  entity: Protection tree (batch 2)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: 1.12 Protection tree
+  after: Improved Shield Block removed; Improved Intervene; Gag Order (Shield Slam dispel); Shield Slam row 5; Improved Sunder Armor removed (base -5 rage); Toughness +block amount
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102974#p102974
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: null
+- id: TVV-0266
+  system: classes
+  subsystem: Warrior
+  entity: Sweeping Strikes cannot crit / charge landing
+  entity_ids: []
+  introduced_in: '2025-04-29'
+  change: changed
+  before_vanilla: null
+  after: Sweeping Strikes can't crit; charge lands at edge of combat reach (2024-09-18)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=129028#p129028
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-04-29'
+  notes: null
+- id: TVV-0267
+  system: systems
+  subsystem: hardcore
+  entity: Hardcore mode
+  entity_ids: []
+  introduced_in: pre-2019
+  change: added
+  before_vanilla: not in 1.12
+  after: permadeath characters; new rewards 2019-03-29
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=1562#p1562
+  source_author: Pompa
+  source_authority: player
+  source_date: '2018-12-14'
+  notes: player-indexed author; early Hardcore thread f2 t=482 not extracted; author indexed as player but writes as the Turtle WoW team
+- id: TVV-0268
+  system: systems
+  subsystem: hardcore
+  entity: Hardcore gravestone / login protection / LFT
+  entity_ids: []
+  introduced_in: 1.16.3
+  change: changed
+  before_vanilla: null
+  after: gravestone on death (1.16.3); login protection after crashes (2022-11-12); LFT disabled for Hardcore (2022-12-27)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=21701#p21701
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-08-10'
+  notes: p29057, p31601
+- id: TVV-0269
+  system: systems
+  subsystem: hardcore
+  entity: Inferno Mode
+  entity_ids: []
+  introduced_in: '2023-06-16'
+  change: added
+  before_vanilla: not in 1.12
+  after: opt-in attunement at 55 to stay permadeath at 60; Hardcore guild banks; [Hardcore] channel replaces <Still Alive> guild (1.17.0)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=47793#p47793
+  source_author: Akalix
+  source_authority: staff
+  source_date: '2023-05-29'
+  notes: release date p49821; questline no longer needs dungeon clears 2025-04-03
+- id: TVV-0270
+  system: systems
+  subsystem: hardcore
+  entity: Hardcore titles
+  entity_ids: []
+  introduced_in: 1.17.0
+  change: added
+  before_vanilla: not in 1.12
+  after: Still Alive; Vanquisher of the Flames/Dragons/Qiraji/Scourge; Ascended Champion
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=47793#p47793
+  source_author: Akalix
+  source_authority: staff
+  source_date: '2023-05-29'
+  notes: Still Alive live p68406; Inferno titles p76368
+- id: TVV-0271
+  system: systems
+  subsystem: hardcore
+  entity: Hardcore BG rules
+  entity_ids: []
+  introduced_in: '2025-04-03'
+  change: changed
+  before_vanilla: null
+  after: not forced into Blood Ring (2025-04); no BG XP (2025-10-15)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=120590#p120590
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-02-21'
+  notes: p155594
+- id: TVV-0272
+  system: systems
+  subsystem: challenge
+  entity: Slow & Steady (Turtle Mode)
+  entity_ids: []
+  introduced_in: '2019-04-07'
+  change: added
+  before_vanilla: not in 1.12
+  after: kill XP -50%, quest XP unchanged, lose 5% level XP on death; rewards every 10 levels; mount Admiral Grumbleshell and 200 Donation Tokens at 60 (as last edited)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=2459#p2459
+  source_author: Torta
+  source_authority: staff
+  source_date: '2019-04-07'
+  notes: renamed from Hardcore Mode to Turtle Mode 2021-03-05; post edited 2025-08-07
+- id: TVV-0273
+  system: systems
+  subsystem: challenge
+  entity: War Mode
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: added
+  before_vanilla: not in 1.12
+  after: permanent PvP flag for +XP; +20% XP / +20% honor (1.17.1); exploration XP (2022-12-13); opt-out at 60 (2023-04-11); no flag when assisting in dungeons (2023-08-27)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: p81778, p30582, p41180, p59286
+- id: TVV-0274
+  system: systems
+  subsystem: challenge
+  entity: Vagrant's Endeavor
+  entity_ids: []
+  introduced_in: '2023-05-10'
+  change: added
+  before_vanilla: not in 1.12
+  after: poor/common gear only until 60, no enchanting; title The Wanderer, mule mount; temporary enchants allowed 2023-11-08; quit option 2023-10-18
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=45235#p45235
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-05-10'
+  notes: null
+- id: TVV-0275
+  system: systems
+  subsystem: challenge
+  entity: Boaring (The Hambringer)
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: added
+  before_vanilla: not in 1.12
+  after: glyph challenge; title The Hambringer, boar mount at 60
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-12-28'
+  notes: null
+- id: TVV-0276
+  system: systems
+  subsystem: challenge
+  entity: Level One Lunatic
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: added
+  before_vanilla: not in 1.12
+  after: stay level 1; milestone titles (10,000 HKs, Exalted, Arena Master, 100 quests, Azeroth's Most Unlucky Tourist); exempt from no-multiboxing; may enter Wailing Caverns
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-12-28'
+  notes: p120590, p120615, p149960, p153822
+- id: TVV-0277
+  system: systems
+  subsystem: challenge
+  entity: Path of the Brewmaster
+  entity_ids: []
+  introduced_in: 1.18.0
+  change: added
+  before_vanilla: not in 1.12
+  after: XP only while 'completely smashed'; title Brewmaster
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-02-22'
+  notes: null
+- id: TVV-0278
+  system: systems
+  subsystem: challenge
+  entity: Artisan's Quest
+  entity_ids: []
+  introduced_in: unknown (before 2025-10)
+  change: added
+  before_vanilla: not in 1.12
+  after: self-crafted gear challenge; no BG XP (2025-10-01)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=153822#p153822
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-09-30'
+  notes: single source for the name; rules not extracted
+- id: TVV-0279
+  system: systems
+  subsystem: challenge
+  entity: Glyph of Exhaustion
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: added
+  before_vanilla: not in 1.12
+  after: no rested XP
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: null
+- id: TVV-0280
+  system: systems
+  subsystem: challenge
+  entity: Glyph of Twinking
+  entity_ids: []
+  introduced_in: pre-1.16.0
+  change: removed
+  before_vanilla: not in 1.12
+  after: 'obsolete: XP toggle by right-clicking the portrait (1.16.0)'
+  superseded_by: 1.16.0
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: null
+- id: TVV-0281
+  system: systems
+  subsystem: challenge
+  entity: challenge selection at character creation
+  entity_ids: []
+  introduced_in: '2025-04-03'
+  change: changed
+  before_vanilla: glyph-based mid-leveling selection
+  after: chosen at character creation; War Mode still toggled at battlemasters; challenge shown in target tooltip (1.18.0)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=120590#p120590
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-02-21'
+  notes: null
+- id: TVV-0282
+  system: systems
+  subsystem: challenge
+  entity: mixed-challenge group XP formulas
+  entity_ids: []
+  introduced_in: '2022-11-12'
+  change: changed
+  before_vanilla: null
+  after: XP formulas for groups mixing challenges
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=29057#p29057
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-11-12'
+  notes: null
+- id: TVV-0283
+  system: systems
+  subsystem: titles
+  entity: Cartographer
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: added
+  before_vanilla: no titles for exploration in 1.12
+  after: discover all locations on both continents; instances dropped and new zones added in 1.18.0
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: p120615
+- id: TVV-0284
+  system: systems
+  subsystem: titles
+  entity: Seeker of Knowledge
+  entity_ids: []
+  introduced_in: '2023-05-10'
+  change: added
+  before_vanilla: not in 1.12
+  after: 2,800 quests
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=45215#p45215
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-05-09'
+  notes: null
+- id: TVV-0285
+  system: systems
+  subsystem: titles
+  entity: Lord of the Frogs / Crazy Cat Lady / Diplomat / Bloodthirsty
+  entity_ids: []
+  introduced_in: 1.17.0
+  change: added
+  before_vanilla: not in 1.12
+  after: 'collection and reputation titles (Diplomat: Timbermaw + Cenarion Circle + Thorium Brotherhood)'
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-01-21'
+  notes: null
+- id: TVV-0286
+  system: systems
+  subsystem: titles
+  entity: The Itsy Bitsy Hero
+  entity_ids: []
+  introduced_in: 1.18.0
+  change: added
+  before_vanilla: not in 1.12
+  after: all spider companions
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-02-22'
+  notes: null
+- id: TVV-0287
+  system: systems
+  subsystem: titles
+  entity: Tower of Karazhan realm-first titles
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: added
+  before_vanilla: not in 1.12
+  after: Warden of the Ley Lines (announcement) / Conqueror of Desolation (opening); Bane of the Nathrezim
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=120590#p120590
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-02-21'
+  notes: contested naming
+- id: TVV-0288
+  system: systems
+  subsystem: titles
+  entity: title bar on character page
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: added
+  before_vanilla: no titles UI in 1.12
+  after: title selection UI
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: null
+- id: TVV-0289
+  system: systems
+  subsystem: glyphs
+  entity: cosmetic glyphs
+  entity_ids: []
+  introduced_in: '2019-12-22'
+  change: added
+  before_vanilla: not in 1.12
+  after: druid form glyphs (shop); Glyph of Stars; Glyph of the Ice Bear; Glyph of the Forest Stag; Glyph of the Penguin
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=4662#p4662
+  source_author: Torta
+  source_authority: staff
+  source_date: '2019-12-22'
+  notes: null
+- id: TVV-0290
+  system: systems
+  subsystem: guild
+  entity: Guild Vaults
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: added
+  before_vanilla: no guild bank in 1.12
+  after: unlocked with gold; per-tab icons, withdraw limits, rank access; 2000 g unlock, tabs 2-5 = 500/1000/1500/2000 g (2022-11-12)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: prices p29057
+- id: TVV-0291
+  system: systems
+  subsystem: guild
+  entity: Guild Quarters
+  entity_ids: []
+  introduced_in: '2025-01-22'
+  change: added
+  before_vanilla: not in 1.12
+  after: rent any innkeeper tavern with gold or tokens; tabard teleport; extra rested bonus; legacy guild bases remain; new houses Honey Drop Inn / Hardul Distillery Inn (2025-10-01)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=117471#p117471
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-01-21'
+  notes: p117638, p118168, p153822
+- id: TVV-0292
+  system: systems
+  subsystem: transmog
+  entity: Transmogrification (2020 version)
+  entity_ids: []
+  introduced_in: '2020-03-18'
+  change: added
+  before_vanilla: not in 1.12
+  after: Fashionistas Felicia (Stormwind) / Herrina (Orgrimmar); Fashion Coin; same armor type; template item consumed
+  superseded_by: 1.16.0
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=5355#p5355
+  source_author: Torta
+  source_authority: staff
+  source_date: '2020-03-12'
+  notes: null
+- id: TVV-0293
+  system: systems
+  subsystem: transmog
+  entity: Transmogrification collection system
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: changed
+  before_vanilla: not in 1.12
+  after: appearances learned by equipping; restrictions lifted and Transmog Coins (1.16.1); tabards/shirts (2025-04-03); Outfits tab, search, sort (1.18.0); quest-item appearances excluded (2025-10-15)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: p20251, p120590, p120615, p155594
+- id: TVV-0294
+  system: systems
+  subsystem: mounts
+  entity: dynamic mount speed
+  entity_ids: []
+  introduced_in: '2019-03-29'
+  change: changed
+  before_vanilla: fixed 60% / 100%
+  after: mount speed scales dynamically
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=1562#p1562
+  source_author: Pompa
+  source_authority: player
+  source_date: '2018-12-14'
+  notes: single source; player-indexed author writing as team; author indexed as player but writes as the Turtle WoW team
+- id: TVV-0295
+  system: systems
+  subsystem: mounts
+  entity: Companions and Mounts spellbook tabs
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: added
+  before_vanilla: mounts/pets are items
+  after: collection tabs; descriptions (1.17.0)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: null
+- id: TVV-0296
+  system: systems
+  subsystem: mounts
+  entity: big mounts allowed in cities
+  entity_ids: []
+  introduced_in: '2024-11-27'
+  change: changed
+  before_vanilla: null
+  after: allowed again
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=110047#p110047
+  source_author: Reynolds
+  source_authority: staff
+  source_date: '2024-11-26'
+  notes: null
+- id: TVV-0297
+  system: systems
+  subsystem: transport
+  entity: Stormwind Harbor / Orgrimmar zeppelin tower
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: added
+  before_vanilla: not in 1.12
+  after: new boat/zeppelin hubs
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: null
+- id: TVV-0298
+  system: systems
+  subsystem: transport
+  entity: custom zone routes
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: added
+  before_vanilla: not in 1.12
+  after: boats/zeppelins/flight paths to Tel'Abim, Gilijim, Lapidis, Hyjal, Gilneas, Thalassian Highlands, Blackstone Island, Icepoint Rock (1.17.2)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=26516#p26516
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-09-30'
+  notes: see B3 per zone
+- id: TVV-0299
+  system: systems
+  subsystem: transport
+  entity: Venture Camp flight path
+  entity_ids: []
+  introduced_in: '2023-01-11'
+  change: added
+  before_vanilla: null
+  after: escape route became a flight path
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=32417#p32417
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-01-10'
+  notes: null
+- id: TVV-0300
+  system: systems
+  subsystem: transport
+  entity: Flight Masters grow stronger each respawn
+  entity_ids: []
+  introduced_in: '2025-01-07'
+  change: changed
+  before_vanilla: null
+  after: anti-griefing scaling
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=115795#p115795
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2025-01-07'
+  notes: null
+- id: TVV-0301
+  system: systems
+  subsystem: transport
+  entity: mailboxes in starting areas
+  entity_ids: []
+  introduced_in: '2019-03-29'
+  change: added
+  before_vanilla: not in 1.12
+  after: mailboxes
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=1562#p1562
+  source_author: Pompa
+  source_authority: player
+  source_date: '2018-12-14'
+  notes: player-indexed author; author indexed as player but writes as the Turtle WoW team
+- id: TVV-0302
+  system: systems
+  subsystem: barbershop
+  entity: Barbershop
+  entity_ids: []
+  introduced_in: '2019-04-07'
+  change: added
+  before_vanilla: not in 1.12
+  after: barbers in Stormwind and Crossroads (dyes); style change for 3 Fashion Tokens (2025-03)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=2455#p2455
+  source_author: Torta
+  source_authority: staff
+  source_date: '2019-04-07'
+  notes: p2764, p3598, p121678
+- id: TVV-0303
+  system: systems
+  subsystem: world buffs
+  entity: Chronoboon Displacer
+  entity_ids:
+  - item:83000
+  - item:83001
+  introduced_in: '2021-05-10'
+  change: added
+  before_vanilla: not in 1.12
+  after: stores world buffs
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=10502#p10502
+  source_author: Xerron
+  source_authority: player
+  source_date: '2021-05-10'
+  notes: player-indexed author; author indexed as player but writes as the Turtle WoW team
+- id: TVV-0304
+  system: systems
+  subsystem: world buffs
+  entity: world buffs disabled in raids
+  entity_ids: []
+  introduced_in: '2023-02-20'
+  change: changed
+  before_vanilla: world buffs usable in raids
+  after: Rallying Cry, Warchief's Blessing, Spirit of Zandalar, Elune's Blessing, Songflower, DM tribute buffs, Soul Revival, Sayge's fortunes do not work in Naxx/AQ40/AQ20/ZG/BWL/MC (Onyxia 2023-02-27)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=35264#p35264
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-02-19'
+  notes: poll p25235; Onyxia p35487; consensus
+- id: TVV-0305
+  system: systems
+  subsystem: world buffs
+  entity: totem and blessing auras stack across raid
+  entity_ids: []
+  introduced_in: '2023-02-20'
+  change: changed
+  before_vanilla: null
+  after: Shaman totem and Paladin blessing auras stay across the raid
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=35264#p35264
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-02-19'
+  notes: null
+- id: TVV-0306
+  system: systems
+  subsystem: world buffs
+  entity: buffs above the 32-slot client cap still apply
+  entity_ids: []
+  introduced_in: '2024-04-03'
+  change: changed
+  before_vanilla: null
+  after: server-side buffs beyond client display
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=91958#p91958
+  source_author: Torta
+  source_authority: staff
+  source_date: '2024-04-03'
+  notes: null
+- id: TVV-0307
+  system: systems
+  subsystem: xp
+  entity: XP toggle
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: added
+  before_vanilla: no XP lock in 1.12
+  after: right-click portrait
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: null
+- id: TVV-0308
+  system: systems
+  subsystem: xp
+  entity: exploration XP in custom locations
+  entity_ids: []
+  introduced_in: 1.17.0
+  change: added
+  before_vanilla: null
+  after: all custom locations give exploration XP
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-01-21'
+  notes: null
+- id: TVV-0309
+  system: systems
+  subsystem: xp
+  entity: PvP leveling
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: added
+  before_vanilla: no BG XP in 1.12
+  after: some BGs award XP (1.16.0) -> PvP leveling with twink toggle (1.18.0); AV turn-in XP removed 2024-03-27
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-02-22'
+  notes: p14049; p90751
+- id: TVV-0310
+  system: systems
+  subsystem: xp
+  entity: Winds of Discovery XP event
+  entity_ids: []
+  introduced_in: '2023-12-20'
+  change: added
+  before_vanilla: not in 1.12
+  after: +10% Nordanaar / +20% Tel'Abim
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=82524#p82524
+  source_author: Akalix
+  source_authority: staff
+  source_date: '2023-12-24'
+  notes: null
+- id: TVV-0311
+  system: systems
+  subsystem: xp
+  entity: rested XP bonuses
+  entity_ids: []
+  introduced_in: '2019-05-10'
+  change: changed
+  before_vanilla: inns/cities only
+  after: Traveler's Tent; single-tent rested x5 (2023-04-11); guild-quarter rested bonus (2025-01)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=2694#p2694
+  source_author: Torta
+  source_authority: staff
+  source_date: '2019-05-06'
+  notes: p41180, p117471
+- id: TVV-0312
+  system: systems
+  subsystem: dual spec
+  entity: Goblin Brainwashing Device
+  entity_ids: []
+  introduced_in: '2021-07-04'
+  change: added
+  before_vanilla: no dual spec in 1.12
+  after: dual talent specialization; rework part 2 2023-11-08; quest level 30 (2023-11-22); specs reset at 1.18.0 release
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=11156#p11156
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-07-04'
+  notes: p76368, p75613, p78235, p145822
+- id: TVV-0313
+  system: systems
+  subsystem: cross-faction
+  entity: cross-faction grouping
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: added
+  before_vanilla: not in 1.12
+  after: baseline cross-faction grouping (Glyph of Diplomacy obsolete); Diplomacy chat channel (2019); Naxx loot adjusted (2022-12-27); Local/World Defense not cross-readable (2023-05-31)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: p1562, p31601, p48093
+- id: TVV-0314
+  system: systems
+  subsystem: world
+  entity: continental time zones
+  entity_ids: []
+  introduced_in: '2022-10-19'
+  change: changed
+  before_vanilla: single server time
+  after: Kalimdor and Eastern Kingdoms 8 h apart; later consistent with Kalimdor +12 h (2025-12-24)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=27514#p27514
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-10-18'
+  notes: p163576 (1.18.1-announced-pre-release)
+- id: TVV-0315
+  system: systems
+  subsystem: world
+  entity: Turtle WoW Radio
+  entity_ids: []
+  introduced_in: 1.17.0
+  change: added
+  before_vanilla: not in 1.12
+  after: Everlook Broadcasting Tower minimap button; original soundtracks
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-01-21'
+  notes: null
+- id: TVV-0316
+  system: systems
+  subsystem: chat
+  entity: language enforcement / channels
+  entity_ids: []
+  introduced_in: '2023-09-04'
+  change: changed
+  before_vanilla: null
+  after: English in General/Trade/World/yell; new players auto-join World (1.17.0); /h hardcore channel
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=60730#p60730
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-09-04'
+  notes: p32868
+- id: TVV-0317
+  system: systems
+  subsystem: login
+  entity: veteran-priority login queue
+  entity_ids: []
+  introduced_in: '2023-08-20'
+  change: added
+  before_vanilla: null
+  after: veteran priority
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=58121#p58121
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-08-20'
+  notes: null
+- id: TVV-0318
+  system: systems
+  subsystem: realm
+  entity: realm rename RPPvE -> Nordanaar
+  entity_ids: []
+  introduced_in: 1.17.1
+  change: changed
+  before_vanilla: null
+  after: Turtle WoW RPPvE renamed Nordanaar; Blood Ring realm
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=81778#p81778
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-12-19'
+  notes: p66566
+- id: TVV-0319
+  system: systems
+  subsystem: gold sink
+  entity: stable slots / brainwashing / chronoboon costs
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: added
+  before_vanilla: null
+  after: 3rd stable slot gold, 4th glyph; brainwashing device; Chronoboon 5 g
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-12-28'
+  notes: null
+- id: TVV-0320
+  system: pvp
+  subsystem: ranks
+  entity: Dishonorable Ranks
+  entity_ids: []
+  introduced_in: '2019-01-10'
+  change: added
+  before_vanilla: DHKs reduce honor, no visual ranks
+  after: visual negative ranks Dishonored, Exiled, Outlaw, Pariah
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=1810#p1810
+  source_author: Pompa
+  source_authority: player
+  source_date: '2019-01-10'
+  notes: player-indexed author; DHK status contested 2023-12/2024-01 (p80586, p80839, p84944); author indexed as player but writes as the Turtle WoW team
+- id: TVV-0321
+  system: pvp
+  subsystem: ranks
+  entity: rank decay floor
+  entity_ids: []
+  introduced_in: '2023-10-01'
+  change: changed
+  before_vanilla: weekly decay can drop ranks
+  after: decay cannot drop a rank (minimum RP per rank R2 2000 ... R14 60000)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=67818#p67818
+  source_author: Akalix
+  source_authority: staff
+  source_date: '2023-10-01'
+  notes: p67819
+- id: TVV-0322
+  system: pvp
+  subsystem: world pvp
+  entity: City Protectors
+  entity_ids: []
+  introduced_in: '2019-04-09'
+  change: added
+  before_vanilla: not in 1.12
+  after: city defense system
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=2475#p2475
+  source_author: Torta
+  source_authority: staff
+  source_date: '2019-04-09'
+  notes: null
+- id: TVV-0323
+  system: pvp
+  subsystem: world pvp
+  entity: Bounty Boards
+  entity_ids: []
+  introduced_in: '2019-12-04'
+  change: added
+  before_vanilla: not in 1.12
+  after: weekly target = previous week's top-HK enemy; 1 g + 250 rep
+  superseded_by: 2023-12-10 (WANTED quests)
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=4580#p4580
+  source_author: Torta
+  source_authority: staff
+  source_date: '2019-12-07'
+  notes: reinstated p6539
+- id: TVV-0324
+  system: pvp
+  subsystem: world pvp
+  entity: open-world honor +50%
+  entity_ids: []
+  introduced_in: '2023-12-10'
+  change: changed
+  before_vanilla: null
+  after: open-world PvP honor +50%
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=80586#p80586
+  source_author: Akalix
+  source_authority: staff
+  source_date: '2023-12-10'
+  notes: null
+- id: TVV-0325
+  system: pvp
+  subsystem: world pvp
+  entity: guard aggro vs unflagged / marking in BGs
+  entity_ids: []
+  introduced_in: '2022-08-17'
+  change: changed
+  before_vanilla: null
+  after: guard aggro range lower vs unflagged players; target marks in BGs
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=22582#p22582
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-08-16'
+  notes: null
+- id: TVV-0326
+  system: pvp
+  subsystem: arena
+  entity: Steamwheedle Blood Ring
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: added
+  before_vanilla: no arenas in 1.12
+  after: 2v2 (1.16.0); rep and set items (1.16.1); 2v2 -> 3v3 and Exalted ilvl 68 rings (1.17.0); rules 2023-12 (no pet trinkets, no world buffs, full restore)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: p20251, p32868, p80586
+- id: TVV-0327
+  system: pvp
+  subsystem: arena
+  entity: Sunstrider Court / Rated Arena Teams / PvP Dampening / Arena Points
+  entity_ids: []
+  introduced_in: 1.18.0
+  change: added
+  before_vanilla: not in 1.12
+  after: new arena in Alah'thalas; rated teams with rewards; dampening debuff; Arena Points display
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-02-22'
+  notes: p145822
+- id: TVV-0328
+  system: pvp
+  subsystem: battleground
+  entity: Sunnyglade Valley
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: added
+  before_vanilla: not in 1.12
+  after: 10v10 Domination (Vairozdormu); 400/120 honor (1.16.1); 20 players, minibosses Lady Katrin / Blademaster Axon / The Black Widow / Krucios the Soulless, sparks, 5 BG trinkets (1.17.0); per-game reset (2024-04)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: p20251, p32868, p53989, p54660, p92466
+- id: TVV-0329
+  system: pvp
+  subsystem: battleground
+  entity: Pre-1.12 Alterac Valley
+  entity_ids: []
+  introduced_in: 1.16.4
+  change: changed
+  before_vanilla: 1.12 AV
+  after: pre-1.12 AV (Korrak, old objectives); -25% honor / +25% rep and Coward debuff (2023-12)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=27853#p27853
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-10-24'
+  notes: p27857, p80586
+- id: TVV-0330
+  system: pvp
+  subsystem: battleground
+  entity: BG honor modifiers
+  entity_ids: []
+  introduced_in: '2023-12-10'
+  change: changed
+  before_vanilla: null
+  after: WSG/AB/SGV honor +25%; AV -25% honor
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=80586#p80586
+  source_author: Akalix
+  source_authority: staff
+  source_date: '2023-12-10'
+  notes: null
+- id: TVV-0331
+  system: pvp
+  subsystem: battleground
+  entity: Battleground Finder
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: added
+  before_vanilla: queue via battlemasters/tabards
+  after: minimap BG finder; tabard queue removed; queue accepted inside a dungeon (2022-08); queues paused not cancelled (2023-12)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: p22582, p80586
+- id: TVV-0332
+  system: pvp
+  subsystem: battleground
+  entity: Call to Arms rotation
+  entity_ids: []
+  introduced_in: '2022-11-02'
+  change: changed
+  before_vanilla: weekend holidays
+  after: daily rotation; Sunnyglade and Blood Ring holidays (2023-07); weekly quests (1.18.0)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=28269#p28269
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-11-01'
+  notes: p53989, p145822
+- id: TVV-0333
+  system: pvp
+  subsystem: battleground
+  entity: cross-faction battlegrounds on PvE realms
+  entity_ids: []
+  introduced_in: '2025-11-05'
+  change: added
+  before_vanilla: not in 1.12
+  after: WSG first; mercenary sorting; own-faction prioritised 2025-11-12; requires launcher client patch
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=158364#p158364
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-11-04'
+  notes: p158392, p159221; 1.18.1-announced-pre-release
+- id: TVV-0334
+  system: pvp
+  subsystem: battleground
+  entity: cross-faction teams for specific BGs / loser rewards
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: added
+  before_vanilla: not in 1.12
+  after: cross-faction teams in specific BGs; loser rewards
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: null
+- id: TVV-0335
+  system: pvp
+  subsystem: battleground
+  entity: Mark of Honor low-level rewards
+  entity_ids: []
+  introduced_in: '2022-08-17'
+  change: changed
+  before_vanilla: null
+  after: extra rewards for low-level turn-ins
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=22582#p22582
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-08-16'
+  notes: null
+- id: TVV-0336
+  system: pvp
+  subsystem: quests
+  entity: WANTED daily quests
+  entity_ids: []
+  introduced_in: '2023-12-10'
+  change: added
+  before_vanilla: not in 1.12
+  after: daily quests targeting top HK/DK players
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=80586#p80586
+  source_author: Akalix
+  source_authority: staff
+  source_date: '2023-12-10'
+  notes: null
+- id: TVV-0337
+  system: pvp
+  subsystem: mechanics
+  entity: Plainsrunning disabled in BGs
+  entity_ids: []
+  introduced_in: '2019-11-24'
+  change: changed
+  before_vanilla: null
+  after: disabled in battlegrounds
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=4490#p4490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2019-11-24'
+  notes: null
+- id: TVV-0338
+  system: pvp
+  subsystem: mechanics
+  entity: Divine Shield / spell miss cap / DR sharing
+  entity_ids: []
+  introduced_in: 1.17.0
+  change: changed
+  before_vanilla: null
+  after: Divine Shield -50% damage dealt; level-based spell miss capped at 10 levels vs players; Freezing Trap / Scatter Shot share DR
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-01-21'
+  notes: p45215, p100559
+- id: TVV-0339
+  system: pvp
+  subsystem: mechanics
+  entity: Resilience vs crit damage
+  entity_ids: []
+  introduced_in: '2025-12-03'
+  change: changed
+  before_vanilla: null
+  after: Resilience reduces entire crit damage
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=161356#p161356
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-12-02'
+  notes: 1.18.1-announced-pre-release
+- id: TVV-0340
+  system: pvp
+  subsystem: items
+  entity: Rank 14 weapons ilvl 83 / Bloody Belt Buckle
+  entity_ids: []
+  introduced_in: '2025-03-31'
+  change: changed
+  before_vanilla: ilvl 78
+  after: ilvl 83; Bloody Belt Buckle applies via trade (2023-12-19)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-03-30'
+  notes: p81778
+- id: TVV-0341
+  system: client_ui
+  subsystem: client
+  entity: custom client binaries
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: added
+  before_vanilla: 1.12.1 build 5875
+  after: alternate wider-FoV client (1.16.0); 4 GB, 40-yd nameplates, sound alt-tabbed (1.16.1; optional binary from 1.16.3/1.16.4); builds 7060/7065 (1.16.5), 7202, 7206, 7207, 7228, 7230, 7232
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: p20251, p22582, p26516, p31969, p108746, p113460, p120590, p145822, p149960, p154470
+- id: TVV-0342
+  system: client_ui
+  subsystem: client
+  entity: 1.15.1 client patch
+  entity_ids: []
+  introduced_in: 1.15.1
+  change: changed
+  before_vanilla: null
+  after: icons/textures/maps/flight paths; new race portraits and customization (Forest Troll, Wildhammer skins, faces, beards); intro camera; DiscordOverlay fix; new music
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=9734#p9734
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-03-11'
+  notes: null
+- id: TVV-0343
+  system: client_ui
+  subsystem: client
+  entity: 1.17.1 client
+  entity_ids: []
+  introduced_in: 1.17.1
+  change: changed
+  before_vanilla: null
+  after: zone discovery for custom zones; world map entries; vanilla Quel'thalas map restored; Vertex Animation Shaders mandatory
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=81778#p81778
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-12-19'
+  notes: null
+- id: TVV-0344
+  system: client_ui
+  subsystem: client
+  entity: Windowed Widescreen default / camera fix / Discord activity
+  entity_ids: []
+  introduced_in: '2025-04-03'
+  change: changed
+  before_vanilla: null
+  after: build 7207
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=120590#p120590
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-02-21'
+  notes: null
+- id: TVV-0345
+  system: client_ui
+  subsystem: launcher
+  entity: Turtle WoW Launcher
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: added
+  before_vanilla: no launcher
+  after: 'shipped with 1.17.2; 2.1.0 (2025-05-17): addon name handling, Git addon branches, offline mode, mods tab, multiMonitorFix, min camera distance 10; verification (2025-10)'
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=104615#p104615
+  source_author: Torta
+  source_authority: staff
+  source_date: '2024-10-23'
+  notes: p131492, p131681, p154470
+- id: TVV-0346
+  system: client_ui
+  subsystem: ui
+  entity: Battleground Finder / quest log / title bar / collection tabs / inspect talents / spell links (1.16.0)
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: added
+  before_vanilla: not in 1.12
+  after: minimap BG finder; bigger quest log; title bar; Companions and Mounts tabs; inspect shows talents; spell links in chat; new maps
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=14049#p14049
+  source_author: Torta
+  source_authority: staff
+  source_date: '2021-11-22'
+  notes: null
+- id: TVV-0347
+  system: client_ui
+  subsystem: ui
+  entity: custom debuff addon (24 debuffs)
+  entity_ids: []
+  introduced_in: 1.16.1
+  change: added
+  before_vanilla: 16 shown
+  after: shows 24 debuffs
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-07-24'
+  notes: null
+- id: TVV-0348
+  system: client_ui
+  subsystem: ui
+  entity: server-side keybinds/macros
+  entity_ids: []
+  introduced_in: '2022-10-04'
+  change: added
+  before_vanilla: null
+  after: saved server-side; reverted 2022-11-02
+  superseded_by: '2022-11-02'
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=26723#p26723
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-10-04'
+  notes: p28269
+- id: TVV-0349
+  system: client_ui
+  subsystem: ui
+  entity: loading tips / Sunnyglade loading screen / radio button
+  entity_ids: []
+  introduced_in: 1.17.0
+  change: added
+  before_vanilla: null
+  after: UI additions
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-01-21'
+  notes: null
+- id: TVV-0350
+  system: client_ui
+  subsystem: ui
+  entity: 1.17.2 UI batch
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: added
+  before_vanilla: not in 1.12
+  after: Toy tab; inspect on target change; larger Profession UI with search; loot-at-cursor; AH right-click sell slot; AH durations 8h/24h/72h; 2FA numpad; store overhaul; macro icon search; quest-giver markers; /dancespecial, /cower
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-12-28'
+  notes: null
+- id: TVV-0351
+  system: client_ui
+  subsystem: ui
+  entity: LFT (Looking for Turtles) tool
+  entity_ids: []
+  introduced_in: 1.16.0
+  change: added
+  before_vanilla: no LFG tool
+  after: rewritten server-side in 1.17.2 (Browse removed); group loot enforced (2024-09); Browse tab returns with timers (1.18.0); disabled for Hardcore
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-12-28'
+  notes: p100559, p120615, p31601
+- id: TVV-0352
+  system: client_ui
+  subsystem: ui
+  entity: 1.18.0 UI batch
+  entity_ids: []
+  introduced_in: 1.18.0
+  change: added
+  before_vanilla: not in 1.12
+  after: challenge in tooltip; second mana bar for druid forms; class-coloured character list; 32 buffs / 16 debuffs visible without addons; floating heal text; macro limit 255 -> 510; store search/dress-up; item right-click into AH/trade/mail; transmog Outfits
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-02-22'
+  notes: build 7232 p154470
+- id: TVV-0353
+  system: client_ui
+  subsystem: ui
+  entity: Promote to Master Looter
+  entity_ids: []
+  introduced_in: '2025-10-06'
+  change: added
+  before_vanilla: null
+  after: build 7232
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154470#p154470
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-05'
+  notes: null
+- id: TVV-0354
+  system: client_ui
+  subsystem: commands
+  entity: /played quest count, .cartographer, .hcchat
+  entity_ids: []
+  introduced_in: '2022-08-10'
+  change: added
+  before_vanilla: not in 1.12
+  after: commands
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=21701#p21701
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-08-10'
+  notes: p32148, p68406
+- id: TVV-0355
+  system: client_ui
+  subsystem: emotes
+  entity: new emotes / animations
+  entity_ids: []
+  introduced_in: 1.18.0
+  change: added
+  before_vanilla: null
+  after: Moonkin /danceSpecial, High Elf male /DanceSpecial, Doomguard animations, bear mounts
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-02-22'
+  notes: null
+- id: TVV-0356
+  system: economy
+  subsystem: auction house
+  entity: listing cap and fee
+  entity_ids: []
+  introduced_in: '2023-08-16'
+  change: changed
+  before_vanilla: unlimited listings; flat deposit
+  after: max 120 open listings per account; listing fee scales with stack size
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=57503#p57503
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-08-15'
+  notes: null
+- id: TVV-0357
+  system: economy
+  subsystem: auction house
+  entity: durations / right-click sell
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: 8h/24h/48h (vanilla knowledge)
+  after: 8h/24h/72h; right-click into sell slot; item right-click into AH search (1.18.0)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=82980#p82980
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-12-28'
+  notes: null
+- id: TVV-0358
+  system: economy
+  subsystem: auction house
+  entity: portable auctioneer pet
+  entity_ids: []
+  introduced_in: '2019-03-29'
+  change: added
+  before_vanilla: not in 1.12
+  after: donation shop companion
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=1562#p1562
+  source_author: Pompa
+  source_authority: player
+  source_date: '2018-12-14'
+  notes: player-indexed author; author indexed as player but writes as the Turtle WoW team
+- id: TVV-0359
+  system: economy
+  subsystem: vendors
+  entity: buy-back persists / Gaston the trash collector
+  entity_ids: []
+  introduced_in: '2022-10-19'
+  change: changed
+  before_vanilla: buy-back cleared on logout
+  after: buy-back persists across logout; Gaston sells back destroyed blue+ items
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=27514#p27514
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-10-18'
+  notes: null
+- id: TVV-0360
+  system: economy
+  subsystem: vendors
+  entity: recipe vendor stock limits removed
+  entity_ids: []
+  introduced_in: '2024-04-17'
+  change: changed
+  before_vanilla: limited stock
+  after: unlimited
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=92848#p92848
+  source_author: Torta
+  source_authority: staff
+  source_date: '2024-04-16'
+  notes: null
+- id: TVV-0361
+  system: economy
+  subsystem: vendors
+  entity: throwing weapon prices / repair
+  entity_ids: []
+  introduced_in: 1.17.2
+  change: changed
+  before_vanilla: null
+  after: prices up; repair cost cut (2024-12-04); buy price 1.5x sell (2025-06-17)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=102965#p102965
+  source_author: Dragunovi
+  source_authority: staff
+  source_date: '2024-10-12'
+  notes: p111130
+- id: TVV-0362
+  system: economy
+  subsystem: gold sinks
+  entity: guild bank pricing
+  entity_ids: []
+  introduced_in: '2022-11-12'
+  change: added
+  before_vanilla: no guild bank
+  after: 2000 g unlock; tabs 500/1000/1500/2000 g
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=29057#p29057
+  source_author: Torta
+  source_authority: staff
+  source_date: '2022-11-12'
+  notes: null
+- id: TVV-0363
+  system: economy
+  subsystem: gold sinks
+  entity: guild quarters rent
+  entity_ids: []
+  introduced_in: '2025-01-22'
+  change: added
+  before_vanilla: not in 1.12
+  after: rent with gold or tokens
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=117471#p117471
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-01-21'
+  notes: null
+- id: TVV-0364
+  system: economy
+  subsystem: supply
+  entity: dynamic node respawn
+  entity_ids: []
+  introduced_in: '2024-03-19'
+  change: changed
+  before_vanilla: static timers
+  after: dynamic respawn of high-tier herbs/ores; dynamic fishing pools
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=90746#p90746
+  source_author: Akalix
+  source_authority: staff
+  source_date: '2024-03-19'
+  notes: p90751; custom zones 2023-10-18
+- id: TVV-0365
+  system: economy
+  subsystem: supply
+  entity: DM East Whip Lasher herb drops
+  entity_ids: []
+  introduced_in: '2024-03-19'
+  change: changed
+  before_vanilla: 1.7% (source's own statement)
+  after: 4% (+Silversage)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=90751#p90751
+  source_author: Akalix
+  source_authority: staff
+  source_date: '2024-03-19'
+  notes: null
+- id: TVV-0366
+  system: economy
+  subsystem: supply
+  entity: ZG trash root/slow immune; Zulian Crocolisks Pierce Armor
+  entity_ids: []
+  introduced_in: '2024-03-19'
+  change: changed
+  before_vanilla: null
+  after: anti-farm tuning
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=90751#p90751
+  source_author: Akalix
+  source_authority: staff
+  source_date: '2024-03-19'
+  notes: null
+- id: TVV-0367
+  system: economy
+  subsystem: supply
+  entity: Black Lotus supply
+  entity_ids: []
+  introduced_in: '2023-10-18'
+  change: changed
+  before_vanilla: dedicated nodes only
+  after: chance from high-level herbs 0.5% -> 6%
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=71678#p71678
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-10-17'
+  notes: null
+- id: TVV-0368
+  system: economy
+  subsystem: consumables
+  entity: persistence and stacking
+  entity_ids: []
+  introduced_in: '2024-01-31'
+  change: changed
+  before_vanilla: null
+  after: elixirs persist through death in instances; Rank 6 potions stack 10; Blasted Lands/Zanza stack 20
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=86418#p86418
+  source_author: Akalix
+  source_authority: staff
+  source_date: '2024-01-30'
+  notes: p80586, p52323
+- id: TVV-0369
+  system: economy
+  subsystem: events
+  entity: Shellcoin event
+  entity_ids: []
+  introduced_in: '2023-01-06'
+  change: added
+  before_vanilla: not in 1.12
+  after: event currency
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=32148#p32148
+  source_author: Torta
+  source_authority: staff
+  source_date: '2023-01-05'
+  notes: null
+- id: TVV-0370
+  system: economy
+  subsystem: shop
+  entity: donation shop
+  entity_ids: []
+  introduced_in: '2019-03-29'
+  change: added
+  before_vanilla: not in 1.12
+  after: cosmetic mounts/pets/utility (portable mailbox, auctioneer); overhaul 1.17.2; search 1.18.0; items moved in-game (Tabard of Kul Tiras 1.16.0; 29 transmog items 2024-12-18)
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=1562#p1562
+  source_author: Pompa
+  source_authority: player
+  source_date: '2018-12-14'
+  notes: p82980, p120615, p14049, p113088; author indexed as player but writes as the Turtle WoW team
+- id: TVV-0371
+  system: economy
+  subsystem: policy
+  entity: multiboxing exemption for Level One Lunatics
+  entity_ids: []
+  introduced_in: '2025-09-03'
+  change: changed
+  before_vanilla: null
+  after: exempt
+  superseded_by: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=149960#p149960
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-09-02'
+  notes: GDKP/gold policy threads not extracted

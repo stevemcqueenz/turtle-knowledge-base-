@@ -1,0 +1,259 @@
+# Turtle WoW patch timeline (versions and dated feature drops) before 1.18.1.
+# change_count_in_doc = number of bulleted/table change lines in the matching Part A section(s) of synthesis/turtle-vs-vanilla-timeline.md.
+# Dates are UTC release dates; where the forum gives none, the community wiki date is used and noted.
+- version: 1.12.1+ Sands of Time drops
+  name: Rogue's Disguise ... Nerubian Overseer (feature drops on the 1.12.1 core)
+  date: '2018-12-14'
+  forum_topic_id: 295
+  url: https://forum.turtlecraft.gg/viewtopic.php?t=295
+  headline_features:
+  - Rogue Disguise
+  - Khadgar's Unlocking (mage lockpicking)
+  - Dishonorable Ranks
+  - 'new core: dynamic mount speed, Diplomacy channel, rebuilt shop'
+  - Barbershop
+  - Slow & Steady challenge
+  - City Protectors
+  - Survival secondary skill
+  - Tauren Plainsrunning
+  - dynamic raid scaling
+  - Mirage Raceway
+  - Bounty Boards
+  - druid form glyphs
+  - Forgotten Knowledge I
+  - Holy Strike
+  - Transmogrification (2020)
+  - Gardening
+  - Nerubian Overseer
+  change_count_in_doc: 25
+  notes: first drop 2018-12-14; last 2020-05-20; dates are per-thread post dates
+- version: 1.15.0
+  name: Goblins & High Elves
+  date: '2021-01-05'
+  forum_topic_id: 1307
+  url: https://forum.turtlecraft.gg/viewtopic.php?t=1307
+  headline_features:
+  - High Elf race (Alliance)
+  - Goblin race (Horde)
+  - Alah'Thalas
+  - Amani'Alor
+  - Farstrider Lodge / Venture Camp starts
+  change_count_in_doc: 4
+  notes: release date from community wiki (unofficial); announced 2020-10-04
+- version: 1.15.1
+  name: client fix patch
+  date: '2021-03-15'
+  forum_topic_id: 1642
+  url: https://forum.turtlecraft.gg/viewtopic.php?t=1642
+  headline_features:
+  - 'client-only: textures, maps, race customization, DiscordOverlay fix, new music'
+  change_count_in_doc: 0
+  notes: staff post 2021-03-11; maintenance 2021-03-15; wiki says 03-11
+- version: 1.12.1+ QoL drops 2021
+  name: Chronoboon / Forgotten Knowledge II / Goblin Brainwashing Device
+  date: '2021-05-10'
+  forum_topic_id: 1761
+  url: https://forum.turtlecraft.gg/viewtopic.php?t=1761
+  headline_features:
+  - Chronoboon Displacer (83000/83001)
+  - Refreshment Table / Soulwell
+  - Forgotten Knowledge II recipes
+  - Goblin Brainwashing Device (dual spec)
+  change_count_in_doc: 3
+  notes: t=1761, 1775, 1867
+- version: 1.16.0
+  name: Mysteries of Azeroth
+  date: '2021-12-27'
+  forum_topic_id: 2253
+  url: https://forum.turtlecraft.gg/viewtopic.php?t=2253
+  headline_features:
+  - Gilijim's Isle, Lapidis Isle, Tirisfal Uplands, Sparkwater Port
+  - Black Morass, Karazhan Crypt, Stormwind Vault, Crescent Grove
+  - Sunnyglade Valley BG, Steamwheedle Blood Ring 2v2
+  - Dwarf Mage, Undead Hunter
+  - Transmog collection, Guild Vaults, BG Finder
+  - Meditation and Haste stats
+  - cross-faction grouping baseline
+  - world bosses Ostarius, Concavius
+  change_count_in_doc: 14
+  notes: renamed from 1.15.2 on 2021-11-23; release date from wiki, staff 'out soon' 2021-12-19
+- version: 1.16.1
+  name: Hateforge Quarry + Class Changes batch 1
+  date: '2022-07-24'
+  forum_topic_id: 3334
+  url: https://forum.turtlecraft.gg/viewtopic.php?t=3334
+  headline_features:
+  - Hateforge Quarry dungeon
+  - class changes batch 1 (all classes)
+  - new hubs Karfang Hold, Sandmoon Village, Redcloud Roost, Suntail Pass
+  - Blood Ring sets
+  - debuff limit 24
+  - 4 GB client
+  - Cartographer title
+  - Transmog Coins
+  change_count_in_doc: 8
+  notes: ''
+- version: 1.16.2 / 1.16.3
+  name: hotfix client patches
+  date: '2022-08-10'
+  forum_topic_id: 3554
+  url: https://forum.turtlecraft.gg/viewtopic.php?t=3554
+  headline_features:
+  - Demon Portal implemented
+  - Battery-Powered Crowd Pummeler
+  - gravestones on HC death
+  - /played quest count
+  change_count_in_doc: 14
+  notes: 1.16.2 2022-08-08, 1.16.3 2022-08-10; also covers weekly notes 2022-08..12
+- version: 1.16.4
+  name: Anchor's Fall (+ Pre-1.12 Alterac Valley, Winter Veil Vale)
+  date: '2022-12-20'
+  forum_topic_id: 4442
+  url: https://forum.turtlecraft.gg/viewtopic.php?t=4442
+  headline_features:
+  - Tel'abim zone
+  - Stonetalon / Felwood / Badlands / Dustwallow extensions
+  - Davensburg, Kul Tiran Embassy
+  - Winter Veil Vale
+  - Pre-1.12 Alterac Valley
+  - optional binary reverts FoV/4GB/nameplates
+  change_count_in_doc: 6
+  notes: ''
+- version: 1.16.5
+  name: client builds 7060/7065
+  date: '2023-01-03'
+  forum_topic_id: 5264
+  url: https://forum.turtlecraft.gg/viewtopic.php?t=5264
+  headline_features:
+  - client builds 7060/7065
+  change_count_in_doc: 9
+  notes: section also covers 2022-12-27..2023-03 notes (world buffs removed, debuff 64)
+- version: 2023 interim
+  name: Vagrant's Endeavor, War Mode opt-out, Inferno Mode
+  date: '2023-06-16'
+  forum_topic_id: 7491
+  url: https://forum.turtlecraft.gg/viewtopic.php?t=7491
+  headline_features:
+  - Inferno Mode (HC60)
+  - Vagrant's Endeavor
+  - War Mode opt-out at 60
+  - AH 120 listings and stack-scaled fee
+  - reputation 100% regardless of level
+  - Seeker of Knowledge title
+  change_count_in_doc: 13
+  notes: undated feature drops between 1.16.5 and 1.17.0
+- version: 1.17.0
+  name: Beyond the Greymane Wall
+  date: '2023-10-03'
+  forum_topic_id: 5391
+  url: https://forum.turtlecraft.gg/viewtopic.php?t=5391
+  headline_features:
+  - Gilneas zone and Gilneas City dungeon
+  - Hyjal zone, Emerald Sanctum (40), Lower Karazhan Halls (10)
+  - Human Hunter, Troll Warlock
+  - Blood Ring 3v3, Sunnyglade rework
+  - 'Teleport: Theramore/Stonard'
+  - Emerald Blessing
+  - Turtle WoW Radio
+  - Still Alive and other titles
+  - rank decay floor
+  change_count_in_doc: 21
+  notes: announced as 1.16.6; changelog 2023-01-21; released 2023-10-03 EU
+- version: 1.17.1
+  name: Labor and Legacy
+  date: '2023-12-20'
+  forum_topic_id: 10910
+  url: https://forum.turtlecraft.gg/viewtopic.php?t=10910
+  headline_features:
+  - Thalassian Highlands and Blackstone Island starting zones
+  - Forlorn Summit
+  - goblin model revamp
+  - War Mode +20% XP/+20% honor
+  - realm RPPvE renamed Nordanaar
+  - Winds of Discovery XP event
+  change_count_in_doc: 7
+  notes: ''
+- version: PvP & Economy Update
+  name: parts 1-2
+  date: '2024-03-19'
+  forum_topic_id: 12138
+  url: https://forum.turtlecraft.gg/viewtopic.php?t=12138
+  headline_features:
+  - DHKs removed pending rework
+  - WANTED daily quests
+  - honor modifiers (+50% world, +25% WSG/AB/SGV, -25% AV)
+  - Blood Ring rules
+  - dynamic node respawns
+  - elixirs persist through death
+  - DM East lasher nerf
+  change_count_in_doc: 9
+  notes: f2 t=12138, 12931, 13448; 2023-12-10..2024-03-19
+- version: 1.17.2
+  name: Tower of Karazhan + Class Changes batch 2 + Jewelcrafting
+  date: '2024-11-01'
+  forum_topic_id: 12462
+  url: https://forum.turtlecraft.gg/viewtopic.php?t=12462
+  headline_features:
+  - Jewelcrafting profession
+  - class changes batch 2 (talent tree rework, racial rework)
+  - weapon skill formula
+  - Alternative tier sets
+  - Toy tab
+  - LFT rewrite
+  - launcher
+  - stable slots 4
+  - Boaring and Level One Lunatic challenges
+  - vanilla dungeon extensions
+  - rare raid mounts
+  change_count_in_doc: 17
+  notes: announced 2023-12-28; class changelog 2024-10-12 (t=15157); released 2024-11-01 EU
+- version: 1.17.2 build 7207
+  name: Tower of Karazhan raid opens + class balance round 3
+  date: '2025-04-03'
+  forum_topic_id: 17678
+  url: https://forum.turtlecraft.gg/viewtopic.php?t=17678
+  headline_features:
+  - Tower of Karazhan (40) opens
+  - Tier 3.5
+  - challenges at character creation
+  - transmog tabards/shirts
+  - Violet Raptor
+  change_count_in_doc: 4
+  notes: ''
+- version: Launcher 2.1.0
+  name: launcher update
+  date: '2025-05-17'
+  forum_topic_id: 19352
+  url: https://forum.turtlecraft.gg/viewtopic.php?t=19352
+  headline_features:
+  - launcher 2.1.0
+  change_count_in_doc: 0
+  notes: see B10
+- version: 1.18.0
+  name: Scars of the Past
+  date: '2025-08-15'
+  forum_topic_id: 17688
+  url: https://forum.turtlecraft.gg/viewtopic.php?t=17688
+  headline_features:
+  - Grim Reaches, Northwind, Balor zones
+  - Stormwrought Ruins, Dragonmaw Retreat
+  - Molten Core extension
+  - RFK/RFD/BFD/ZF wings
+  - Sunstrider Court arena, rated arena teams, PvP leveling, dampening
+  - armor cap removed
+  - class balance 1.18.0 round
+  - Path of the Brewmaster
+  - LFT Browse, 32/16 buff display, macro 510
+  - dungeon reputation
+  - Scholo/Strat/DM 5-player cap
+  change_count_in_doc: 23
+  notes: build 2778 / client 7228; section also covers post-release notes to 2025-10-01
+- version: 1.18.1
+  name: Nightmares of Ursol (out of scope)
+  date: '2026-03-20'
+  forum_topic_id: 22214
+  url: https://forum.turtlecraft.gg/viewtopic.php?t=22214
+  headline_features:
+  - excluded from this synthesis
+  change_count_in_doc: 4
+  notes: followed 1.18.0 on 2026-03-20; pre-1.18.1 live changes 2025-10..2026-03 listed in the boundary section
