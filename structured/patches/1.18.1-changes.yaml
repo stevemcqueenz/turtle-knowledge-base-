@@ -1,0 +1,5139 @@
+patch: 1.18.1
+name: Nightmares of Ursol
+announced: '2025-10-03'
+released: '2026-03-20'
+hotfix_maintenances:
+- '2026-03-21'
+- '2026-03-25'
+- '2026-04-01'
+- '2026-04-08'
+- '2026-04-15'
+- '2026-04-22'
+- '2026-04-29'
+status_legend:
+  released: listed in the official notes at release, or shipped pre-release on 1.18.0 (no per-item live verification in the sources)
+  hotfixed: introduced or changed by a dated post-release hotfix
+  announced: promised for after release; no source confirms it went live
+  unclear: player-sourced only, contradicted by player reports, or the linked source is missing from the repository
+  reverted: reverted (none found)
+missing_sources:
+- Class Changes changelog viewtopic.php?p=166071#p166071
+- Itemization Changelog viewtopic.php?f=70&t=23973
+entries:
+- id: zone-moonwhisper-coast
+  system: zones
+  subsystem: new zone
+  entity: Moonwhisper Coast
+  entity_ids: []
+  change: New late-leveling zone added.
+  before: null
+  after: Zone Level 50-56; Kaldorei coast with Highborne ruins, home of the Tauren Moonhoof tribe; reachable via the Timbermaw Hold Gate from Azshara.
+  numbers: level 50-56
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: 'Only the description, level range and screenshots/map are in the notes; no quest list or NPC IDs are given. Player reports: Black Lotus respawn timer on Ambershire realm reported unchanged after
+    the 2026-03-21 hotfix. — [Buttons (player), 2026-03-23](https://forum.turtlecraft.gg/viewtopic.php?p=171885#p171885) | Player claims Black Lotus drop rate in Moonwhisper/Ambershire is far higher than
+    on Nordanaar ("well over 30%" vs "4%"); another player disputes it. — [Birtha (player), 2026-03-31](https://forum.turtlecraft.gg/viewtopic.php?p=173493#p173493), [Durin (player), 2026-03-31](https://forum.turtlecraft.gg/viewtopic.php?p=173515#p173515)'
+- id: zone-moonwhisper-black-lotus-respawn
+  system: zones
+  subsystem: Moonwhisper Coast hotfix
+  entity: Black Lotus (Moonwhisper Coast)
+  entity_ids: []
+  change: Respawn timers adjusted.
+  before: null
+  after: Adjusted respawn timers for Black Lotus in Moonwhisper Coast (values not stated).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: zone-moonwhisper-satyr-typing
+  system: zones
+  subsystem: Moonwhisper Coast hotfix
+  entity: Moonwhisper Coast satyrs
+  entity_ids: []
+  change: Creature typing corrected.
+  before: null
+  after: Corrected creature typing for Moonwhisper Coast satyrs.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: zone-moonwhisper-map-highlight
+  system: zones
+  subsystem: Moonwhisper Coast hotfix (client)
+  entity: Moonwhisper Coast world map
+  entity_ids: []
+  change: World map highlight fixed.
+  before: null
+  after: Fixed the Moonwhisper Coast world map highlight (client-side, delivered via launcher).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: zone-moonwhisper-fishing-seasonal
+  system: zones
+  subsystem: Moonwhisper Coast hotfix
+  entity: Winter Squid / Raw Summer Bass (Moonwhisper Coast)
+  entity_ids: []
+  change: Seasonal fishing conditions restored.
+  before: null
+  after: Restored seasonal conditions for Winter Squid and Raw Summer Bass in Moonwhisper Coast.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: 'Player reports: Player asks whether year-round Winter Squid was meant for Icepoint Rock instead, since Tel''Abim has year-round Summer Bass. — [Sagabal (player), 2026-03-31](https://forum.turtlecraft.gg/viewtopic.php?p=173491#p173491)'
+- id: zone-moonwhisper-dead-catches
+  system: zones
+  subsystem: Moonwhisper Coast hotfix
+  entity: Fishing (Moonwhisper Coast)
+  entity_ids: []
+  change: Rare dead catches fixed.
+  before: null
+  after: Fixed rare dead catches while fishing in Moonwhisper Coast.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: null
+- id: zone-fishing-min-skill-areas
+  system: zones
+  subsystem: Moonwhisper Coast hotfix
+  entity: North Sea, Ruins of Nendis, Whispering Shores, Vysnagosa's Rest
+  entity_ids: []
+  change: Minimum fishing skill requirements assigned.
+  before: null
+  after: Assigned minimum fishing skill requirements to the areas North Sea, Ruins of Nendis, Whispering Shores, Vysnagosa's Rest (values not stated).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: null
+- id: zone-moonwhisper-oob-spawns
+  system: zones
+  subsystem: Moonwhisper Coast hotfix
+  entity: Moonwhisper Coast creature spawns
+  entity_ids: []
+  change: Out-of-bounds spawns corrected.
+  before: null
+  after: Corrected out-of-bounds creature spawns in Moonwhisper Coast.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: null
+- id: zone-moonwhisper-rares-respawn
+  system: zones
+  subsystem: Moonwhisper Coast hotfix
+  entity: Rotvine, Grammon the Ageless, Tidelord Rrurgaz
+  entity_ids: []
+  change: Respawn time reduced.
+  before: null
+  after: Respawn time reduced to 10 minutes.
+  numbers: 10 minutes
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: Zone not stated in the hotfix line; listed among Moonwhisper Coast fixes.
+- id: zone-moonhoof-fishing
+  system: zones
+  subsystem: Moonwhisper Coast hotfix
+  entity: Moonhoof Village fishing
+  entity_ids: []
+  change: Attempted fix for broken fishing catches.
+  before: null
+  after: Attempted a fix for broken fishing catches in Moonhoof Village.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: null
+- id: zone-talrendis-gryphon-dismount
+  system: zones
+  subsystem: Azshara hotfix
+  entity: Talrendis Point gryphon taxi
+  entity_ids: []
+  change: Dismount issue fixed.
+  before: null
+  after: Players can dismount from the gryphon taxi at Talrendis Point in Azshara again.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: zone-flightpath-ratchet-talrendis-shimmering
+  system: zones
+  subsystem: flight paths hotfix
+  entity: Ratchet / Talrendis Point / Shimmering Lake flight path
+  entity_ids: []
+  change: Flight path transition fixed.
+  before: null
+  after: Fixed an awkward flight path transition between Ratchet, Talrendis Point, and Shimmering Lake.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=174367#p174367
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-07'
+  status: hotfixed
+  notes: null
+- id: zone-inns-moonhoof-earthen-ring-rested
+  system: zones
+  subsystem: Moonwhisper Coast / Earthen Ring hotfix
+  entity: Inns in Moonhoof Village and Earthen Ring
+  entity_ids: []
+  change: Rested bonus added to the inns.
+  before: null
+  after: Added rested bonus to the inns in Moonhoof Village and Earthen Ring.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=175230#p175230
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-14'
+  status: hotfixed
+  notes: 'Player reports: Before this hotfix a player reported the Moro''gai inn did not provide rested XP. — [Berettadin (player), 2026-03-22](https://forum.turtlecraft.gg/viewtopic.php?p=171714#p171714)'
+- id: zone-highlevel-shared-spawns
+  system: zones
+  subsystem: hotfix
+  entity: High level zone mobs
+  entity_ids: []
+  change: Some mobs share spawn points.
+  before: null
+  after: Some mobs in high level zones now share spawn points (zones not named).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=176311#p176311
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-04-28'
+  status: hotfixed
+  notes: null
+- id: zone-saghs-refuge
+  system: zones
+  subsystem: classic zone edits
+  entity: Sagh's Refuge
+  entity_ids: []
+  change: New Horde quest hub added.
+  before: null
+  after: New quest hub in Thousand Needles for Horde players, located in Windhorn Canyon.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: zone-ironstone-camp
+  system: zones
+  subsystem: classic zone edits
+  entity: Ironstone Camp
+  entity_ids: []
+  change: Camp updated with more detail.
+  before: null
+  after: Updated Ironstone Camp in Thousand Needles with more details.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: zone-earthen-ring-sanctuary
+  system: zones
+  subsystem: classic zone edits
+  entity: Earthen Ring
+  entity_ids: []
+  change: Earthen Ring restored as a shaman sanctuary.
+  before: null
+  after: Earthen Ring restored as a sanctuary for shamans to train and work towards restoring balance; located in the Stonetalon Mountains (per the New Factions section).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: zone-azshara-timbermaw-gate
+  system: zones
+  subsystem: classic zone edits
+  entity: Timbermaw Hold Gate (Azshara)
+  entity_ids: []
+  change: Azshara updated with the Timbermaw Hold Gate and cliff furbolgs.
+  before: null
+  after: Azshara shows the Timbermaw Hold Gate and furbolgs on the cliffs above it; the gate transports to the new raid and between Moonwhisper Coast and Azshara.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: zone-flightpath-ambershire-thorium-point
+  system: zones
+  subsystem: flight paths
+  entity: Ambershire (Northwind) - Thorium Point (Searing Gorge)
+  entity_ids: []
+  change: New flight path.
+  before: null
+  after: Flight path added between Ambershire, Northwind and Thorium Point, Searing Gorge.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: zone-moonglade-earthen-ring-services
+  system: zones
+  subsystem: classic zone edits
+  entity: Moonglade / Earthen Ring
+  entity_ids: []
+  change: Mailboxes and innkeepers added.
+  before: null
+  after: Added mailboxes and innkeepers to Moonglade and the Earthen Ring.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: zone-moonglade-druid-flight-masters
+  system: zones
+  subsystem: Moonglade hotfix
+  entity: Druid flight masters (Moonglade)
+  entity_ids: []
+  change: Fixed.
+  before: null
+  after: Fixed Druid flight masters in Moonglade.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: zone-uldaman-cave-removed
+  system: zones
+  subsystem: classic zone edits
+  entity: Uldaman Cave (Bael Modan)
+  entity_ids: []
+  change: Removed.
+  before: null
+  after: Removed the Uldaman Cave from Bael Modan ('any remaining titan activity should be reported to Prospector Khazgorm').
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: zone-badlands-hole
+  system: zones
+  subsystem: world fixes
+  entity: Badlands
+  entity_ids: []
+  change: Ground hole fixed.
+  before: null
+  after: Fixed a ground hole in the Badlands.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: zone-searing-gorge-lava
+  system: zones
+  subsystem: world fixes
+  entity: Searing Gorge
+  entity_ids: []
+  change: Water pool changed to lava.
+  before: null
+  after: Fixed a water pool that should be a lava pool in the Searing Gorge.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: zone-isle-eternal-autumn-music
+  system: zones
+  subsystem: world fixes
+  entity: Isle of Eternal Autumn
+  entity_ids: []
+  change: Music fixed.
+  before: null
+  after: Fixed an issue that caused music to not play on the Isle of Eternal Autumn.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: zone-minimap-timbermaw-tunnels-gnomeregan
+  system: zones
+  subsystem: world fixes
+  entity: Timbermaw Tunnels / Gnomeregan Reclamation Facility
+  entity_ids: []
+  change: Minimap artifacts fixed.
+  before: null
+  after: Fixed minimap artifacts in Timbermaw Tunnels and the Gnomeregan Reclamation Facility.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: zone-noxious-glade-slaughterhouse
+  system: zones
+  subsystem: world fixes
+  entity: Noxious Glade slaughterhouse
+  entity_ids: []
+  change: Issue fixed.
+  before: null
+  after: Fixed an issue with the slaughterhouse in the Noxious Glade.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: zone-furbolg-models
+  system: zones
+  subsystem: creatures
+  entity: Vanilla and legacy furbolg creatures
+  entity_ids: []
+  change: Models updated.
+  before: null
+  after: All important vanilla and legacy furbolg creatures now use the new armored models.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: zone-satyr-gender
+  system: zones
+  subsystem: creatures
+  entity: Satyr (non-special)
+  entity_ids: []
+  change: Random gender.
+  before: null
+  after: All non-special Satyr are now male or female at random.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: zone-collision-removed
+  system: zones
+  subsystem: world fixes
+  entity: Remote Mail Terminal, Goblin Brainwashing Device, Small Winter Veil Tree
+  entity_ids: []
+  change: Collision removed.
+  before: null
+  after: Removed collision from the Remote Mail Terminal, Goblin Brainwashing Device and Small Winter Veil Tree.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: zone-baron-bloodbane
+  system: zones
+  subsystem: creatures
+  entity: Baron Bloodbane
+  entity_ids: []
+  change: Missing vanilla rare spawn added.
+  before: null
+  after: Added missing vanilla rare spawn Baron Bloodbane.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: zone-danonzo-stove
+  system: zones
+  subsystem: hotfix
+  entity: Danonzo's stove (Tel Co. Basecamp, Tel'Abim)
+  entity_ids: []
+  change: Functional again.
+  before: null
+  after: Danonzo's stove in the Tel Co. Basecamp on Tel'Abim is functional again.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: null
+- id: zone-idol-of-neptulon-respawn
+  system: zones
+  subsystem: hotfix
+  entity: Idol of Neptulon (object)
+  entity_ids: []
+  change: Respawn timer fixed.
+  before: null
+  after: Fixed respawn timer of the Idol of Neptulon object.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: null
+- id: zone-tideblade-mistress
+  system: zones
+  subsystem: hotfix
+  entity: Tideblade Mistress
+  entity_ids: []
+  change: No Frost Nova while stunned.
+  before: null
+  after: Tideblade Mistress will no longer cast Frost Nova while stunned.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: null
+- id: zone-ambassador-vortalus
+  system: zones
+  subsystem: hotfix
+  entity: Ambassador Vortalus
+  entity_ids: []
+  change: Engulfing Vortex removed when encounter ends early.
+  before: null
+  after: Ambassador Vortalus will properly lose Engulfing Vortex if the encounter ends prematurely.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: null
+- id: zone-insomni-chest-leni
+  system: zones
+  subsystem: hotfix
+  entity: Insom'ni's Chest / Leni, the Silent Blade
+  entity_ids: []
+  change: Spawn restricted to quest.
+  before: null
+  after: Insom'ni's Chest will no longer spawn Leni, the Silent Blade unless players are on the associated quest.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: null
+- id: zone-warleader-kentoza
+  system: zones
+  subsystem: hotfix
+  entity: Warleader Kentoza
+  entity_ids: []
+  change: Damage reduced.
+  before: null
+  after: Reduced the damage of Warleader Kentoza (location not stated).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=175230#p175230
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-14'
+  status: hotfixed
+  notes: null
+- id: zone-sunstrider-court-samefaction
+  system: zones
+  subsystem: hotfix
+  entity: Sunstrider Court
+  entity_ids: []
+  change: Same-faction engagement enabled.
+  before: null
+  after: Players can now engage members of the same faction in Sunstrider Court.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=174367#p174367
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-07'
+  status: hotfixed
+  notes: null
+- id: zone-deathstalker-adamant-ashcrombe
+  system: zones
+  subsystem: hotfix
+  entity: Deathstalker Adamant / Sorcerer Ashcrombe
+  entity_ids: []
+  change: Movement bug fixed.
+  before: null
+  after: Fixed a rare issue causing Deathstalker Adamant and Sorcerer Ashcrombe to not move if interacted with simultaneously.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=174367#p174367
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-07'
+  status: hotfixed
+  notes: null
+- id: zone-darlen-darkgrin-loot
+  system: zones
+  subsystem: hotfix
+  entity: Darlen Darkgrin
+  entity_ids: []
+  change: Loot fixed.
+  before: null
+  after: Fixed an issue causing Darlen Darkgrin to not always drop loot.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=174367#p174367
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-07'
+  status: hotfixed
+  notes: null
+- id: zone-devlin-caice-texts
+  system: zones
+  subsystem: hotfix
+  entity: Devlin Agamand / Caretaker Caice / Lillith Nefara
+  entity_ids: []
+  change: Missing texts added.
+  before: null
+  after: Added missing OOC texts said by Devlin Agamand and Caretaker Caice; added missing aggro text to Lillith Nefara.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=176311#p176311
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-04-28'
+  status: hotfixed
+  notes: null
+- id: dungeon-windhorn-canyon
+  system: dungeons
+  subsystem: new dungeon
+  entity: Windhorn Canyon
+  entity_ids: []
+  change: New 5-man dungeon added.
+  before: null
+  after: New 5-Man Dungeon, level 26-30, in Thousand Needles; Grimtotem have expelled the Windhorn Tauren and conquered the canyon. Trailer added 2025-12-21.
+  numbers: level 26-30
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: 'Also: Trailer added, "a new dungeon for levels 26–30" — [Torta (staff), 2025-12-21](https://forum.turtlecraft.gg/viewtopic.php?p=163461#p163461)'
+- id: dungeon-frostmane-hollow
+  system: dungeons
+  subsystem: new dungeon
+  entity: Frostmane Hollow
+  entity_ids: []
+  change: New 5-man dungeon added.
+  before: null
+  after: New 5-Man Dungeon, level 13-20 (only map, interior screenshot and trailer given).
+  numbers: level 13-20
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: dungeon-frostmane-lunatic-loot
+  system: dungeons
+  subsystem: Frostmane Hollow hotfix
+  entity: Frostmane Hollow (Level One Lunatic loot)
+  entity_ids: []
+  change: Level One Lunatic loot added.
+  before: null
+  after: Added Level One Lunatic loot to the Frostmane Hollow dungeon.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=174367#p174367
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-07'
+  status: hotfixed
+  notes: 'Player reports: Player asks how Level One Lunatic characters can use the dungeon at all; no staff answer in the thread. — [Dexday (player), 2026-04-12](https://forum.turtlecraft.gg/viewtopic.php?p=174963#p174963)'
+- id: dungeon-frostmane-cretin-message
+  system: dungeons
+  subsystem: Frostmane Hollow hotfix
+  entity: Frostmane Cretin / A Mysterious Message
+  entity_ids: []
+  change: Wrong quest drop removed.
+  before: null
+  after: Frostmane Cretin no longer drops A Mysterious Message for the Defias quests.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=176311#p176311
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-04-28'
+  status: hotfixed
+  notes: null
+- id: dungeon-karazhan-pack-linking
+  system: dungeons
+  subsystem: Tower of Karazhan
+  entity: Tower of Karazhan creature packs
+  entity_ids: []
+  change: Missing pack linking fixed.
+  before: null
+  after: Fixed missing creature pack linking in the Tower of Karazhan.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: dungeon-karazhan-alchemy-lab
+  system: dungeons
+  subsystem: Tower of Karazhan
+  entity: Alchemy Lab (Tower of Karazhan)
+  entity_ids: []
+  change: Re-added.
+  before: null
+  after: Re-added the Alchemy Lab to the Tower of Karazhan.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: dungeon-karazhan-enveloped-flames
+  system: dungeons
+  subsystem: Tower of Karazhan
+  entity: Enveloped Flames (Karazhan trash)
+  entity_ids: []
+  change: No longer cast on pets/summons.
+  before: null
+  after: Enveloped Flames will no longer be cast on pets or summons.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: dungeon-karazhan-astral-insight
+  system: dungeons
+  subsystem: Tower of Karazhan
+  entity: Astral Insight
+  entity_ids: []
+  change: Reworked with a warning.
+  before: null
+  after: Players receive a 5-second warning before the effect is cast, giving time to stop casting.
+  numbers: 5 s warning
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: dungeon-karazhan-greater-gloomwing
+  system: dungeons
+  subsystem: Tower of Karazhan
+  entity: Greater Gloomwing
+  entity_ids: []
+  change: Pathing changed.
+  before: null
+  after: Changed the pathing of the Greater Gloomwing next to the instance portal.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: dungeon-karazhan-echo-of-medivh
+  system: dungeons
+  subsystem: Tower of Karazhan
+  entity: Echo of Medivh (Doom of Medivh / Corruption of Medivh)
+  entity_ids: []
+  change: Encounter fixes.
+  before: null
+  after: Doom of Medivh fades when Echo of Medivh is defeated; Corruption of Medivh is no longer cast on the main threat target.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: dungeon-karazhan-chess
+  system: dungeons
+  subsystem: Tower of Karazhan
+  entity: Chess encounter (King's Fury / Knight)
+  entity_ids: []
+  change: Encounter fixes.
+  before: null
+  after: King's Fury now cleanses all players from Dark Subservience; the Knight no longer occasionally falls through the ground.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: dungeon-lower-karazhan-halls-separate
+  system: dungeons
+  subsystem: Lower Karazhan Halls
+  entity: Lower Karazhan Halls
+  entity_ids: []
+  change: Shown as a separate instance.
+  before: null
+  after: Appears as a separate instance instead of being grouped under the Tower of Karazhan on the social tab or map.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: dungeon-lkh-hateforge-maps
+  system: dungeons
+  subsystem: hotfix
+  entity: Lower Karazhan Halls / Hateforge Quarry maps
+  entity_ids: []
+  change: Maps open correctly.
+  before: null
+  after: Lower Karazhan Halls and Hateforge Quarry maps will now open correctly (listed in both the March 25 and April 1 hotfixes).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: 'Also: repeated — [Torta (staff), 2026-03-31](https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490)'
+- id: dungeon-caverns-of-time-decoration
+  system: dungeons
+  subsystem: Caverns of Time
+  entity: Caverns of Time decoration
+  entity_ids: []
+  change: Removed.
+  before: null
+  after: Removed a decoration that often caused players to get stuck.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: dungeon-stormwrought-dragonmaw-perf
+  system: dungeons
+  subsystem: Stormwrought Castle / Dragonmaw Retreat
+  entity: Stormwrought Castle, Dragonmaw Retreat
+  entity_ids: []
+  change: Performance optimized.
+  before: null
+  after: Optimized performance; eliminated possible memory leaks and crashes; polished the Dragonmaw Retreat entrance.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: dungeon-uldaman-cartographer
+  system: dungeons
+  subsystem: Uldaman hotfix
+  entity: Uldaman (Cartographer)
+  entity_ids: []
+  change: No longer required for the title.
+  before: null
+  after: Uldaman is no longer required for the Cartographer title.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=176101#p176101
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-21'
+  status: hotfixed
+  notes: null
+- id: dungeon-uldaman-ancient-power-module
+  system: dungeons
+  subsystem: Uldaman hotfix
+  entity: Ancient Power Module
+  entity_ids: []
+  change: Drops from Uldaman.
+  before: null
+  after: Ancient Power Module will now drop from Uldaman as intended.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=176101#p176101
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-21'
+  status: hotfixed
+  notes: null
+- id: dungeon-cannon-master-willey-schematic
+  system: dungeons
+  subsystem: Stratholme hotfix
+  entity: 'Cannon Master Willey / Schematic: Enchanted Thorium Shells'
+  entity_ids:
+  - item 53018 (schematic, per player-linked database URL)
+  change: Drop fixed.
+  before: null
+  after: 'Fixed an issue causing Cannon Master Willey to not drop Schematic: Enchanted Thorium Shells.'
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=174367#p174367
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-07'
+  status: unclear
+  notes: 'Player reports: Players report the schematic still does not drop after the April 8 fix (bug report id 21878 linked). — [Roegnvald (player), 2026-04-09](https://forum.turtlecraft.gg/viewtopic.php?p=174621#p174621),
+    [Roegnvald (player), 2026-04-14](https://forum.turtlecraft.gg/viewtopic.php?p=175240#p175240)'
+- id: dungeon-lock-blueprints-raid-quest
+  system: dungeons
+  subsystem: Blackrock Depths hotfix
+  entity: 'Lock Blueprints: Sorcerer-Thane Thaurissan'
+  entity_ids: []
+  change: Classified as raid quest.
+  before: null
+  after: The quest is now correctly classified as a raid quest.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=174367#p174367
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-07'
+  status: hotfixed
+  notes: null
+- id: raid-timbermaw-hold
+  system: raids
+  subsystem: Timbermaw Hold (new)
+  entity: Timbermaw Hold
+  entity_ids: []
+  change: New 20-man raid added.
+  before: null
+  after: New 20-Man Raid beneath Mount Hyjal, "designed to be harder than the existing 20 man raids"; furbolg home venerating Ursoc and Ursol, now corrupted. Reached via the Timbermaw Hold Gate in Azshara.
+    Gear (light/heavy), bog beast, giant, furbolg and satyr designs shown as images.
+  numbers: 20 players
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: 'Player reports: Player asks whether the Timbermaw Hold lockout resets on Friday (in-game timer) or Wednesday with the other 7-day raids; no staff answer. — [Dingacik (player), 2026-03-31](https://forum.turtlecraft.gg/viewtopic.php?p=173516#p173516)'
+- id: raid-timbermaw-entrance-map
+  system: raids
+  subsystem: Timbermaw Hold hotfix (client)
+  entity: Timbermaw Hold entrance map / minimaps
+  entity_ids: []
+  change: Fixed.
+  before: null
+  after: Fixed the Timbermaw Hold entrance map not showing correctly; updated minimaps around the Timbermaw Hold entrance and Ironforge entrance.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: raid-timbermaw-blackroot-rep
+  system: raids
+  subsystem: Timbermaw Hold hotfix
+  entity: Blackroot Furbolgs (Moonwhisper Coast)
+  entity_ids: []
+  change: Kill reputation added.
+  before: null
+  after: Added kill reputation for Timbermaw Hold to Blackroot Furbolgs in Moonwhisper Coast.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: null
+- id: raid-timbermaw-boss-health
+  system: raids
+  subsystem: Timbermaw Hold hotfix
+  entity: Karrsh the Sentinel, Rotgrowl, Kodiak
+  entity_ids: []
+  change: Health slightly increased.
+  before: null
+  after: Slightly increased the health of Karrsh the Sentinel, Rotgrowl, and Kodiak.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: 'Player reports: Player argues the raid is already overtuned for the gear it drops. — [Travoltino (player), 2026-04-01](https://forum.turtlecraft.gg/viewtopic.php?p=173564#p173564)'
+- id: raid-timbermaw-loktanag-ormanos-nerf
+  system: raids
+  subsystem: Timbermaw Hold hotfix
+  entity: Loktanag the Vile, Ormanos the Cracked, Selenaxx Foulheart
+  entity_ids: []
+  change: Health and damage reduced.
+  before: null
+  after: Reduced health of Loktanag the Vile, Ormanos the Cracked and creatures spawned during the Ormanos encounter; reduced damage of several abilities used by Loktanag the Vile, Selenaxx Foulheart and
+    Ormanos the Cracked. Loktanag's boss area made slightly brighter.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: null
+- id: raid-timbermaw-trioch-bleed
+  system: raids
+  subsystem: Timbermaw Hold hotfix
+  entity: Trioch the Devourer
+  entity_ids: []
+  change: Bleed immunity removed.
+  before: null
+  after: Trioch the Devourer is no longer immune to bleed effects.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: null
+- id: raid-timbermaw-kronn
+  system: raids
+  subsystem: Timbermaw Hold hotfix
+  entity: Archdruid Kronn
+  entity_ids: []
+  change: Minor issues fixed; Emerald Dream Welcome immunity.
+  before: null
+  after: Fixed minor issues in the Archdruid Kronn encounter (Apr 1); Emerald Dream Welcome now grants immunity to the Intruder of the Dream debuff during the Kronn encounter (Apr 22).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: 'Also: Emerald Dream Welcome — [Torta (staff), 2026-04-21](https://forum.turtlecraft.gg/viewtopic.php?p=176101#p176101)'
+- id: raid-timbermaw-ursol-fixate
+  system: raids
+  subsystem: Timbermaw Hold hotfix
+  entity: Ursol encounter
+  entity_ids: []
+  change: Fixate fixed.
+  before: null
+  after: Fixed an issue with fixate mechanics during the Ursol encounter.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: null
+- id: raid-timbermaw-secret-encounter
+  system: raids
+  subsystem: Timbermaw Hold hotfix
+  entity: Timbermaw Hold secret encounter
+  entity_ids: []
+  change: Adjusted.
+  before: null
+  after: Adjusted the secret encounter in Timbermaw Hold (no details).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: null
+- id: raid-timbermaw-set-bonuses
+  system: raids
+  subsystem: Timbermaw Hold hotfix
+  entity: Timbermaw Hold set bonuses
+  entity_ids: []
+  change: Fixed.
+  before: null
+  after: Fixed several Timbermaw Hold set bonuses not functioning correctly.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: null
+- id: raid-timbermaw-crash
+  system: raids
+  subsystem: Timbermaw Hold hotfix
+  entity: Timbermaw Hold
+  entity_ids: []
+  change: Possible crash fixed.
+  before: null
+  after: Fixed a possible crash in Timbermaw Hold.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: null
+- id: raid-timbermaw-tier-boots-visual
+  system: raids
+  subsystem: Timbermaw Hold hotfix (client)
+  entity: Timbermaw tier boots (leather, mail, plate)
+  entity_ids: []
+  change: Visuals fixed.
+  before: null
+  after: Fixed visuals of leather, mail and plate Timbermaw tier boots (listed Apr 1 and again Apr 15).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: 'Also: repeated — [Torta (staff), 2026-04-14](https://forum.turtlecraft.gg/viewtopic.php?p=175230#p175230)'
+- id: raid-timbermaw-wild-god-buffs
+  system: raids
+  subsystem: Timbermaw Hold hotfix
+  entity: Presence of the Wild God / Blessing of the Bear God
+  entity_ids: []
+  change: Removed on leaving combat or the raid.
+  before: null
+  after: Both buffs are removed upon leaving combat or exiting Timbermaw Hold.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=175230#p175230
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-14'
+  status: hotfixed
+  notes: null
+- id: raid-timbermaw-defenders-armor
+  system: raids
+  subsystem: Timbermaw Hold hotfix
+  entity: Timbermaw Defenders
+  entity_ids: []
+  change: Armor increased.
+  before: null
+  after: Increased the armor of Timbermaw Defenders.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=176101#p176101
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-21'
+  status: hotfixed
+  notes: null
+- id: raid-timbermaw-corrupted-hide
+  system: raids
+  subsystem: Timbermaw Hold hotfix
+  entity: Corrupted Hide of Ursol
+  entity_ids: []
+  change: Drops for one player only.
+  before: null
+  after: Corrupted Hide of Ursol will now drop for only one player.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=176101#p176101
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-21'
+  status: hotfixed
+  notes: null
+- id: raid-onyxia-new-creatures
+  system: raids
+  subsystem: Onyxia's Lair extension
+  entity: Onyxian Flamespawn, Onyxian Inciter
+  entity_ids: []
+  change: Two new creatures added.
+  before: null
+  after: Added two new creatures to Onyxia's Lair.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: raid-onyxia-axelus
+  system: raids
+  subsystem: Onyxia's Lair extension
+  entity: Broodcommander Axelus
+  entity_ids: []
+  change: New optional boss and section.
+  before: null
+  after: Added a new section and a new optional boss, Broodcommander Axelus ("the commander of her brood").
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: 'Player reports: Pets fall below ground when taking the tunnel after the first boss of Onyxia''s Lair. — [Lane13 (player), 2026-03-22](https://forum.turtlecraft.gg/viewtopic.php?p=171787#p171787)'
+- id: raid-onyxia-new-mechanics
+  system: raids
+  subsystem: Onyxia's Lair extension
+  entity: Onyxia
+  entity_ids: []
+  change: New mechanics.
+  before: null
+  after: Added new mechanics to Onyxia (not detailed); "new guardians" and "new equipment as rewards".
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: raid-onyxia-axelus-idol
+  system: raids
+  subsystem: Onyxia's Lair hotfix
+  entity: Idol of Equilibrium
+  entity_ids: []
+  change: Added to a missing Axelus loot table.
+  before: null
+  after: Fixed an issue where Idol of Equilibrium was missing from one of Broodcommander Axelus's loot tables.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: raid-onyxia-blink
+  system: raids
+  subsystem: Onyxia's Lair hotfix (client)
+  entity: Blink in Onyxia's Lair
+  entity_ids: []
+  change: Blink works again.
+  before: null
+  after: Players will once again be able to Blink in Onyxia's Lair.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: raid-onyxia-hatcher-health
+  system: raids
+  subsystem: Onyxia's Lair hotfix
+  entity: Onyxian Hatcher
+  entity_ids: []
+  change: Health significantly reduced.
+  before: null
+  after: Significantly reduced health of Onyxian Hatcher ("Hatchers can sometimes be too tight of a DPS check").
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: null
+- id: raid-bwl-mechanics
+  system: raids
+  subsystem: Blackwing Lair extension
+  entity: Blackwing Lair bosses (all except Chromaggus)
+  entity_ids: []
+  change: New or updated mechanic per boss.
+  before: null
+  after: Added a new mechanic or updated a mechanic for all bosses with the exception of Chromaggus.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: 'Player reports: Nefarian''s hunter class call was changed to be ''more expensive for hunters'' (details not in notes); players dislike it. — [Suspicious (player), 2026-03-22](https://forum.turtlecraft.gg/viewtopic.php?p=171720#p171720),
+    [Lane13 (player), 2026-03-22](https://forum.turtlecraft.gg/viewtopic.php?p=171722#p171722) | Firemaw void zones reported spawning out of line of sight, inside walls, in the air, under hay stacks, or
+    80+ yards away ("invisible"). — [Travoltino (player), 2026-04-01](https://forum.turtlecraft.gg/viewtopic.php?p=173564#p173564), [Travoltino (player), 2026-04-07](https://forum.turtlecraft.gg/viewtopic.php?p=174380#p174380)'
+- id: raid-bwl-ezzel
+  system: raids
+  subsystem: Blackwing Lair extension
+  entity: Ezzel Darkbrewer
+  entity_ids: []
+  change: New optional boss and section.
+  before: null
+  after: 'Added a new section and a new optional boss: Ezzel Darkbrewer, a goblin alchemist riding an ogre, in "his employer''s laboratory".'
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: raid-bwl-suppression-shortcut
+  system: raids
+  subsystem: Blackwing Lair
+  entity: Suppression Room shortcut
+  entity_ids: []
+  change: Shortcut added.
+  before: null
+  after: Added a shortcut (door image linked) to skip the Suppression Room after defeating Broodlord Lashlayer.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: raid-bwl-alchemists-respawn
+  system: raids
+  subsystem: Blackwing Lair hotfix
+  entity: Blackwing Alchemists
+  entity_ids: []
+  change: Respawn fixed.
+  before: null
+  after: Adjusted respawn timers of Blackwing Alchemists; fixed an issue where they respawned shortly after dying.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: raid-bwl-riflemen-balcony
+  system: raids
+  subsystem: Blackwing Lair hotfix
+  entity: Blackwing Riflemen
+  entity_ids: []
+  change: Random balcony spawn.
+  before: null
+  after: Blackwing Riflemen now spawn at a random balcony.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: raid-bwl-void-zones
+  system: raids
+  subsystem: Blackwing Lair hotfix
+  entity: Void Zones
+  entity_ids: []
+  change: No longer chase players.
+  before: null
+  after: Void Zones should no longer chase players.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: Boss not named; players in the thread associate void zones with Firemaw.
+- id: raid-bwl-model-fixes
+  system: raids
+  subsystem: Blackwing Lair hotfix (client)
+  entity: Blackwing Lair raid model
+  entity_ids: []
+  change: Model fixes.
+  before: null
+  after: Fixed a possible crash spot in Nefarian's room, missing collision on barriers (blocking falls from Nefarian's balcony), banner alpha and lighting errors.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: raid-bwl-vael-ezzel-health
+  system: raids
+  subsystem: Blackwing Lair hotfix
+  entity: Vaelastrasz the Corrupt, Ezzel Darkbrewer
+  entity_ids: []
+  change: Health increased.
+  before: null
+  after: Increased health of Vaelastrasz the Corrupt and of Ezzel Darkbrewer.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: null
+- id: raid-bwl-ezzel-exploit
+  system: raids
+  subsystem: Blackwing Lair hotfix
+  entity: Ezzel encounter
+  entity_ids: []
+  change: Exploit fixed.
+  before: null
+  after: Fixed an exploit in the Ezzel encounter in Blackwing Lair.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: null
+- id: raid-bwl-corrupted-totems
+  system: raids
+  subsystem: Blackwing Lair hotfix
+  entity: Corrupted Totems (Nefarian)
+  entity_ids: []
+  change: Despawn at encounter end.
+  before: null
+  after: Corrupted Totems will despawn when the Nefarian encounter ends.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=174367#p174367
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-07'
+  status: hotfixed
+  notes: null
+- id: raid-bwl-sand-breath-freedom
+  system: raids
+  subsystem: Blackwing Lair hotfix
+  entity: Sand Breath / Blessing of Freedom
+  entity_ids: []
+  change: Freedom removes Sand Breath.
+  before: null
+  after: Fixed an issue where Sand Breath was not removed by Blessing of Freedom.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=176101#p176101
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-21'
+  status: hotfixed
+  notes: null
+- id: raid-mc-hot-coals
+  system: raids
+  subsystem: Molten Core
+  entity: Hot Coals (Majordomo Executus)
+  entity_ids: []
+  change: Collision added.
+  before: null
+  after: Added collision to Hot Coals in the Molten Core Majordomo Executus encounter.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: raid-aq-mount
+  system: raids
+  subsystem: Temple of Ahn'Qiraj hotfix
+  entity: Temple of Ahn'Qiraj
+  entity_ids: []
+  change: Mounting works again.
+  before: null
+  after: You can mount in the Temple of Ahn'Qiraj raid dungeon again.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: raid-grobbulus-poison-cloud
+  system: raids
+  subsystem: Naxxramas hotfix
+  entity: Grobbulus' Poison Cloud
+  entity_ids: []
+  change: No damage to far-away players.
+  before: null
+  after: Grobbulus' Poison Cloud no longer damages far-away players.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: raid-kruul-wings
+  system: raids
+  subsystem: world bosses
+  entity: Kruul (Wings of Oblivion)
+  entity_ids: []
+  change: Cannot be resisted.
+  before: null
+  after: Kruul's Wings of Oblivion cannot be resisted anymore and will always knock players back.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: raid-world-bosses-summonable
+  system: raids
+  subsystem: world bosses
+  entity: World Bosses (summoning)
+  entity_ids: []
+  change: World bosses are now summonable.
+  before: null
+  after: Powerful artifacts hidden within raid dungeons, combined with materials found throughout the world, allow summoning a specific World Boss depending on the artifact found.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: 'Player reports: Positive report: guild ran world bosses for hours and fought bosses they had never encountered. — [Kibuum (player), 2026-04-14](https://forum.turtlecraft.gg/viewtopic.php?p=175243#p175243)'
+- id: raid-world-boss-corpse-despawn
+  system: raids
+  subsystem: world bosses hotfix
+  entity: Summoned World Boss corpses
+  entity_ids: []
+  change: Despawn after 30 minutes.
+  before: null
+  after: Summoned World Boss corpses now despawn after 30 minutes.
+  numbers: 30 min
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: null
+- id: raid-world-boss-weekly-loot-lock
+  system: raids
+  subsystem: world bosses hotfix
+  entity: World Boss loot
+  entity_ids: []
+  change: Weekly loot lock.
+  before: null
+  after: Receiving loot from a World Boss prevents further loot until the weekly reset.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: null
+- id: raid-world-boss-saved-notification
+  system: raids
+  subsystem: world bosses hotfix
+  entity: World Boss save
+  entity_ids: []
+  change: Notification fixed.
+  before: null
+  after: Fixed an issue where players could be saved to World Bosses without notification.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=175230#p175230
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-14'
+  status: hotfixed
+  notes: null
+- id: raid-grilek
+  system: raids
+  subsystem: world bosses hotfix
+  entity: Gri'lek the Wanderer
+  entity_ids: []
+  change: Issues fixed.
+  before: null
+  after: Fixed issues with Gri'lek the Wanderer (no details).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=175230#p175230
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-14'
+  status: hotfixed
+  notes: null
+- id: raid-world-boss-proximity-aggro
+  system: raids
+  subsystem: world bosses hotfix
+  entity: Summoned World Bosses
+  entity_ids: []
+  change: Proximity aggro disabled.
+  before: null
+  after: Summoned World Bosses no longer have proximity aggro enabled.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=176101#p176101
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-21'
+  status: hotfixed
+  notes: null
+- id: raid-scaling-all-raids
+  system: raids
+  subsystem: raid scaling hotfix
+  entity: Raid Scaling
+  entity_ids: []
+  change: Active on all raids; thresholds lowered.
+  before: 20-player raids scaled from 12 players; 40-player raids from 20
+  after: 'Raid Scaling is active on all raids. 20-player raids: minimum scaling threshold 8 players; 40-player raids: 16 players.'
+  numbers: 8 (was 12) / 16 (was 20)
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=176101#p176101
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-21'
+  status: hotfixed
+  notes: Posted three days after the shutdown announcement (2026-04-18).
+- id: raid-chests-group-loot
+  system: raids
+  subsystem: loot hotfix
+  entity: Chests
+  entity_ids: []
+  change: Distributed by group loot rules.
+  before: null
+  after: Chests are now distributed according to group loot rules.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: 'Player reports: Master Loot forces the master looter to distribute all greys and whites even with threshold set to Uncommon; player assumes below-threshold should be free-for-all. — [Cysthen (player),
+    2026-03-23](https://forum.turtlecraft.gg/viewtopic.php?p=172040#p172040) | Player asks whether chests still need rolls or can be opened directly; no answer. — [Zenmo (player), 2026-04-01](https://forum.turtlecraft.gg/viewtopic.php?p=173558#p173558)'
+- id: raid-loot-tradable-nonboss
+  system: raids
+  subsystem: loot (pre-release hotfix)
+  entity: Loot trading
+  entity_ids: []
+  change: Non-boss loot tradable for 10 minutes.
+  before: null
+  after: Loot is now tradable from non-boss enemies within a 10 minute period (applied to the live 1.18.0 server two days before 1.18.1).
+  numbers: 10 min
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171113#p171113
+  source_author: Shadowsong
+  source_authority: staff
+  source_date: '2026-03-17'
+  status: released
+  notes: Pre-release weekly hotfix, not part of the 1.18.1 notes.
+- id: faction-draenei-exiles
+  system: quests-factions
+  subsystem: new factions
+  entity: Draenei Exiles [Neutral]
+  entity_ids: []
+  change: New faction.
+  before: null
+  after: Draenei tribes from Outland that survived warp travel; the Sanv and the Moro'gai tribes now reside on Azeroth, brought by riftwalkers.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: 'Player reports: Pre-release question whether reputation from already completed Harborage quests would be retroactive (answered by the 2026-03-21 hotfix). — [Aeliren (player), 2025-10-09](https://forum.turtlecraft.gg/viewtopic.php?p=155010#p155010)'
+- id: faction-draenei-exiles-retro-rep
+  system: quests-factions
+  subsystem: faction hotfix
+  entity: Draenei Exiles
+  entity_ids: []
+  change: Completed quests now reward reputation.
+  before: null
+  after: Fixed an issue causing already completed quests to not reward reputation for the Draenei Exiles faction.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: faction-draenei-exiles-at-war
+  system: quests-factions
+  subsystem: faction hotfix
+  entity: Draenei Exiles
+  entity_ids: []
+  change: '''At War'' can be enabled.'
+  before: null
+  after: Players can now enable 'At War' with Draenei Exiles.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: null
+- id: faction-earthen-ring
+  system: quests-factions
+  subsystem: new factions
+  entity: Earthen Ring [Horde]
+  entity_ids: []
+  change: New faction.
+  before: null
+  after: A group of shamans united for elemental balance, based in the Stonetalon Mountains.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: faction-earthen-ring-npcs-horde
+  system: quests-factions
+  subsystem: faction hotfix
+  entity: Earthen Ring NPCs
+  entity_ids: []
+  change: Interactable for Horde.
+  before: null
+  after: Fixed an issue causing Earthen Ring-aligned NPCs to be uninteractable for Horde players.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: null
+- id: quest-payment-warning
+  system: quests-factions
+  subsystem: quest system
+  entity: Quests requiring payment
+  entity_ids: []
+  change: Pop-up warning on turn-in.
+  before: null
+  after: Quests that require payment upon completion now display a pop-up warning when turned in.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: quest-rethevus-dreamers-challenge
+  system: quests-factions
+  subsystem: quests
+  entity: Rethevus / The Dreamer's Challenge
+  entity_ids: []
+  change: Combat start and repeat fixed.
+  before: null
+  after: Rethevus immediately enters combat with the player starting The Dreamer's Challenge; players may undergo Rethevus' challenge again after completing The Dreamer's Challenge.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: quest-lothos-riftwalker
+  system: quests-factions
+  subsystem: quest hotfix
+  entity: Lothos Riftwalker / Attunement to the Core
+  entity_ids: []
+  change: Quest access fixed.
+  before: null
+  after: Lothos Riftwalker will correctly give access to the Attunement to the Core quest.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: quest-tablet-of-kazgan
+  system: quests-factions
+  subsystem: quest hotfix
+  entity: Tablet of Kaz'gan / A Grave Misunderstanding!
+  entity_ids: []
+  change: Respawn adjusted.
+  before: null
+  after: Adjusted the respawn time of Tablet of Kaz'gan for the quest A Grave Misunderstanding!
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: quest-fallen-ones-morogai
+  system: quests-factions
+  subsystem: quest hotfix
+  entity: The Fallen Ones / Moro'gai Village
+  entity_ids: []
+  change: Attack less aggressive.
+  before: null
+  after: The Fallen Ones are attacking Moro'gai Village not as aggressively anymore.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: quest-morogai-defenders-pvp
+  system: quests-factions
+  subsystem: NPC hotfix
+  entity: Moro'gai Defenders
+  entity_ids: []
+  change: Attack PvP-engaged players.
+  before: null
+  after: Moro'gai Defenders now properly attack players engaging in PvP.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: quest-relic-of-elunaris
+  system: quests-factions
+  subsystem: quest hotfix
+  entity: Relic of Elunaris / Nendis Memento
+  entity_ids: []
+  change: Loot removed.
+  before: null
+  after: Relic of Elunaris can no longer be looted from Nendis Memento.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: quest-foulheart-horn
+  system: quests-factions
+  subsystem: quest hotfix
+  entity: Foulheart Horn / Horns of their Allies
+  entity_ids: []
+  change: Drop chance increased.
+  before: null
+  after: Increased the drop chance of Foulheart Horn for the quest Horns of their Allies.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: quest-dirges-chops-turnin
+  system: quests-factions
+  subsystem: quest hotfix
+  entity: Dirge's Kickin' Chimaerok Chops (quest)
+  entity_ids: []
+  change: Turn-in fixed.
+  before: null
+  after: Fixed an issue where players could not turn in the quest Dirge's Kickin' Chimaerok Chops.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: quest-wrath-of-malgan
+  system: quests-factions
+  subsystem: quest hotfix
+  entity: The Wrath of Malgan
+  entity_ids: []
+  change: Thunder Bluff reputation.
+  before: null
+  after: The Wrath of Malgan now rewards Thunder Bluff reputation as intended.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: null
+- id: quest-rumors-of-the-deathtotem
+  system: quests-factions
+  subsystem: quest hotfix
+  entity: Rumors of the Deathtotem
+  entity_ids: []
+  change: Chaining fixed.
+  before: null
+  after: Fixed broken quest chaining for the Rumors of the Deathtotem quest chain.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: null
+- id: quest-iqaquluk-rewards
+  system: quests-factions
+  subsystem: quest hotfix
+  entity: The Great Iqa'quluk, Don't tell the Others, Restocking for Vacation
+  entity_ids: []
+  change: Re-completable for missing rewards.
+  before: null
+  after: Players who completed these quests without getting rewards can complete them again.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: null
+- id: quest-ranshalla-gossip
+  system: quests-factions
+  subsystem: NPC hotfix
+  entity: Ranshalla
+  entity_ids: []
+  change: Gossip text added.
+  before: null
+  after: Added missing gossip text for Ranshalla.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: null
+- id: quest-glowing-draenethyst-rep
+  system: quests-factions
+  subsystem: quest hotfix
+  entity: Glowing Draenethyst Cluster
+  entity_ids: []
+  change: Reputation reduced.
+  before: null
+  after: Reduced reputation gained from completing the quest to 250.
+  numbers: 250 rep
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: null
+- id: quest-core-of-the-elements-xp
+  system: quests-factions
+  subsystem: quest hotfix
+  entity: Core of the Elements
+  entity_ids: []
+  change: XP removed.
+  before: null
+  after: Removed experience gained from completing the quest.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: null
+- id: quest-orgrimmar-grunts-survival
+  system: quests-factions
+  subsystem: NPC hotfix
+  entity: Orgrimmar Grunts
+  entity_ids: []
+  change: Direct to Survival Trainer.
+  before: null
+  after: Orgrimmar Grunts correctly direct players to the Survival Trainer.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: null
+- id: quest-cairne-gossip
+  system: quests-factions
+  subsystem: NPC hotfix
+  entity: Cairne Bloodhoof
+  entity_ids: []
+  change: Gossip fixed.
+  before: null
+  after: Fixed Cairne Bloodhoof's gossip.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: null
+- id: quest-blackroot-totem-drop
+  system: quests-factions
+  subsystem: quest hotfix
+  entity: Blackroot Totem
+  entity_ids: []
+  change: Drop chance increased.
+  before: null
+  after: Increased the drop chance of Blackroot Totem.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: null
+- id: quest-basin-of-moonwater
+  system: quests-factions
+  subsystem: quest hotfix
+  entity: Basin of Moonwater / Shadowsong Orb
+  entity_ids: []
+  change: Gossip restored.
+  before: null
+  after: Restored Basin of Moonwater's gossip, allowing players to obtain the Shadowsong Orb in Moonglade when conditions are met.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=174367#p174367
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-07'
+  status: hotfixed
+  notes: null
+- id: quest-diplomacy-rep-loss
+  system: quests-factions
+  subsystem: racial hotfix
+  entity: Diplomacy (Human racial)
+  entity_ids: []
+  change: No longer affects reputation loss.
+  before: null
+  after: Diplomacy no longer incorrectly affects reputation loss.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=174367#p174367
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-07'
+  status: hotfixed
+  notes: null
+- id: quest-wpl-cauldrons
+  system: quests-factions
+  subsystem: quest hotfix
+  entity: Cauldron quests (Western Plaguelands)
+  entity_ids: []
+  change: Completion scripts added.
+  before: null
+  after: Added missing completion scripts for cauldron quests in WPL.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=176311#p176311
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-04-28'
+  status: hotfixed
+  notes: null
+- id: quest-shadow-guard-ice-guard-rep
+  system: quests-factions
+  subsystem: quest hotfix
+  entity: The Shadow Guard / The Ice Guard
+  entity_ids: []
+  change: Reputation requirements added.
+  before: null
+  after: Added missing reputation requirements for the quests.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=176311#p176311
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-04-28'
+  status: hotfixed
+  notes: null
+- id: quest-pridewing-venom-sac
+  system: quests-factions
+  subsystem: quest hotfix
+  entity: Pridewing Venom Sac
+  entity_ids: []
+  change: Drop chance increased.
+  before: null
+  after: Increased drop chance of Pridewing Venom Sac.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=176311#p176311
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-04-28'
+  status: hotfixed
+  notes: null
+- id: quest-typos
+  system: quests-factions
+  subsystem: quest hotfix
+  entity: Quest descriptions
+  entity_ids: []
+  change: Typos fixed.
+  before: null
+  after: Fixed typos in the description of some quests.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=176311#p176311
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-04-28'
+  status: hotfixed
+  notes: null
+- id: quest-day-of-remembrance
+  system: quests-factions
+  subsystem: pre-release event
+  entity: Honoring the Earthmother / Day of Remembrance
+  entity_ids: []
+  change: Event quests added until March 20.
+  before: null
+  after: Quests added for the Day of Remembrance event, available until March 20th (the 1.18.1 release day).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171113#p171113
+  source_author: Shadowsong
+  source_authority: staff
+  source_date: '2026-03-17'
+  status: released
+  notes: Pre-release event on 1.18.0; ended on release day.
+- id: class-changelog-external
+  system: classes
+  subsystem: all
+  entity: Class Changes changelog (p=166071)
+  entity_ids: []
+  change: Preliminary class changelog published separately.
+  before: null
+  after: The notes say "this is a preliminary changelog. Further changes may still be made" and link to viewtopic.php?p=166071#p166071.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: unclear
+  notes: The per-class 1.18.1 class-changes changelog was posted as viewtopic.php?p=166071 (linked from the notes) and is NOT in this repository; only changes surfaced by the general notes, hotfixes and
+    player quotes are listed.
+- id: class-shaman-earthquake-fixes
+  system: classes
+  subsystem: Shaman
+  entity: Earthquake (talent)
+  entity_ids: []
+  change: Multiple issues fixed.
+  before: null
+  after: Fixed multiple issues with the Shaman's Earthquake talent.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: 'Player reports: Elemental players say Earthquake was changed/nerfed in 1.18.1 and ask to revert to 1.18.0 behaviour; "even using new Totem of Distant Tremors, it still highly underperform". —
+    [Mdzielak (player), 2026-03-27](https://forum.turtlecraft.gg/viewtopic.php?p=172687#p172687), [Mdzielak (player), 2026-04-01](https://forum.turtlecraft.gg/viewtopic.php?p=173551#p173551), [Kokuyoo (player),
+    2026-04-07](https://forum.turtlecraft.gg/viewtopic.php?p=174373#p174373)'
+- id: class-shaman-earthquake-aftershock
+  system: classes
+  subsystem: Shaman
+  entity: Earthquake Aftershock / Elemental Fury
+  entity_ids: []
+  change: Aftershock benefits from Elemental Fury.
+  before: null
+  after: Earthquake Aftershock now benefits from Elemental Fury.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: null
+- id: class-shaman-resto-t1-3set
+  system: classes
+  subsystem: Shaman
+  entity: Restoration Shaman Tier 1 3-set bonus
+  entity_ids: []
+  change: Description clarified.
+  before: Described as setting totem range to 30 yards
+  after: Now states it increases totem range by +10 yards.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: class-shaman-enh-t25
+  system: classes
+  subsystem: Shaman
+  entity: Enhancement Tier 2.5 changes
+  entity_ids: []
+  change: Tier 2.5 changes were not applied at release; fixed.
+  before: null
+  after: Fixed Enhancement Tier 2.5 changes not being applied (content of the changes not stated here).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: Implies the external class/itemization changelog changed the Enhancement T2.5 set.
+- id: class-shaman-flurry
+  system: classes
+  subsystem: Shaman
+  entity: Flurry (Shaman)
+  entity_ids: []
+  change: Consumption and trigger conditions fixed.
+  before: null
+  after: Flurry is properly consumed when attacking (Mar 21); fixed trigger conditions for Flurry (Shaman) (Mar 25); Rushing Winds and Flurry (Shaman) now stack (Apr 1).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: 'Player reports: Enhancement Flurry "should" trigger on all offensive melee and spell crits incl. Flametongue/Frostbrand imbues but only triggered from direct spell crits, Stormstrike and Lightning
+    Strike, and was overwritten by the Windfury effect from Elemental Weapons. — [Splitsec (player), 2026-03-21](https://forum.turtlecraft.gg/viewtopic.php?p=171655#p171655), [Volth (player), 2026-03-22](https://forum.turtlecraft.gg/viewtopic.php?p=171740#p171740)
+    | After the Mar 25 fix a player asks whether Windfury from Elemental Weapons still overrides Flurry. — [Travoltino (player), 2026-03-24](https://forum.turtlecraft.gg/viewtopic.php?p=172153#p172153)
+    Also: trigger conditions — [Torta (staff), 2026-03-24](https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139) | Rushing Winds stacking — [Torta (staff), 2026-03-31](https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490)'
+- id: class-shaman-earthen-bulwark
+  system: classes
+  subsystem: Shaman
+  entity: Earthen Bulwark
+  entity_ids: []
+  change: Builds from melee abilities.
+  before: null
+  after: Earthen Bulwark will build up from melee abilities as well.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: 'Player reports: Rockbiter/earthen shield only stacked from white auto attacks, not Stormstrike or Lightning Strike; reported before and after the Mar 25 hotfix ("This still doesnt work"; "STILL
+    not stacking"). — [Travoltino (player), 2026-03-21](https://forum.turtlecraft.gg/viewtopic.php?p=171660#p171660), [Travoltino (player), 2026-03-25](https://forum.turtlecraft.gg/viewtopic.php?p=172349#p172349),
+    [Travoltino (player), 2026-04-07](https://forum.turtlecraft.gg/viewtopic.php?p=174380#p174380)'
+- id: class-shaman-lightning-strike
+  system: classes
+  subsystem: Shaman
+  entity: Lightning Strike
+  entity_ids: []
+  change: Missing ranks added to trainers.
+  before: null
+  after: Fixed Lightning Strike ranks being missing from trainers.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: 'Player reports: Lightning Strike still disappears from the talent tree after relog. — [Gottabe (player), 2026-03-25](https://forum.turtlecraft.gg/viewtopic.php?p=172467#p172467)'
+- id: class-shaman-zealous-defence
+  system: classes
+  subsystem: Shaman
+  entity: Zealous Defence
+  entity_ids: []
+  change: Fixed.
+  before: null
+  after: Fixed issue with Zealous Defence not working as intended.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: null
+- id: class-shaman-totem-calm-cascades
+  system: classes
+  subsystem: Shaman
+  entity: Totem of Calm Cascades
+  entity_ids: []
+  change: Scales with healing power.
+  before: null
+  after: Now scales with 15% of the player's Healing Power.
+  numbers: 15% healing power
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: null
+- id: class-shaman-tremor-enslave
+  system: classes
+  subsystem: Shaman
+  entity: Tremor Totem / Enslave Demon
+  entity_ids: []
+  change: Tremor no longer removes Enslave Demon.
+  before: null
+  after: Fixed an issue where Tremor Totem removed Enslave Demon effects.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=174367#p174367
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-07'
+  status: hotfixed
+  notes: null
+- id: class-shaman-windfury-25
+  system: classes
+  subsystem: Shaman
+  entity: Windfury Weapon
+  entity_ids: []
+  change: Proc chance raised (player-quoted).
+  before: 20%
+  after: Each hit now has a 25% chance.
+  numbers: 25% (was 20%)
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=169701#p169701
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-03-02'
+  status: unclear
+  notes: 'Quoted by a player from the class changelog, not from a staff post in this repo: [Terrydavis (player), 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171418#p171418).'
+- id: class-shaman-totem-thundercall-faction
+  system: classes
+  subsystem: Shaman
+  entity: Totem of Thundercall
+  entity_ids: []
+  change: No longer drops for the wrong faction.
+  before: null
+  after: Totem of Thundercall and Libram of Ardour will no longer drop for the wrong faction.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: null
+- id: class-paladin-crusader-holy-strike-miss
+  system: classes
+  subsystem: Paladin
+  entity: Crusader / Holy Strike
+  entity_ids: []
+  change: Benefits granted on miss.
+  before: null
+  after: Crusader and Holy Strike properly grant their benefits even if the attack is missed; Holy Strike no longer heals more targets than intended.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: 'Player reports: Holy Strike still does not heal when the hit is parried/dodged/missed, and has 0 scaling untalented. — [Ellifta (player), 2026-03-21](https://forum.turtlecraft.gg/viewtopic.php?p=171678#p171678),
+    [Ellifta (player), 2026-03-23](https://forum.turtlecraft.gg/viewtopic.php?p=171906#p171906), [Aleyar (player), 2026-03-24](https://forum.turtlecraft.gg/viewtopic.php?p=172110#p172110) | Reported fixed
+    after a restart on 2026-03-23 evening. — [Ellifta (player), 2026-03-24](https://forum.turtlecraft.gg/viewtopic.php?p=172112#p172112) | Holy Strike heals full-health targets next to dying players; later
+    question whether it now only heals party instead of closest 4; bug report id 21117. — [Andant (player), 2026-03-28](https://forum.turtlecraft.gg/viewtopic.php?p=172826#p172826), [Ellifta (player), 2026-03-31](https://forum.turtlecraft.gg/viewtopic.php?p=173520#p173520),
+    [Eroh (player), 2026-04-08](https://forum.turtlecraft.gg/viewtopic.php?p=174397#p174397)'
+- id: class-paladin-mending-light
+  system: classes
+  subsystem: Paladin
+  entity: Mending Light
+  entity_ids: []
+  change: Trigger and scaling fixed.
+  before: null
+  after: Fixed Holy Strike not triggering Mending Light in all cases; fixed missing bonus healing scaling for Mending Light.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: null
+- id: class-paladin-libram-of-ardour
+  system: classes
+  subsystem: Paladin
+  entity: Libram of Ardour
+  entity_ids: []
+  change: No longer drops for the wrong faction.
+  before: null
+  after: See Totem of Thundercall entry.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: null
+- id: class-paladin-ironclad
+  system: classes
+  subsystem: Paladin
+  entity: Ironclad (talent)
+  entity_ids: []
+  change: Player report only.
+  before: null
+  after: No staff change listed.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: unclear
+  notes: Player reports Ironclad "still not working" (missing ~136 heal); another player tested and says it works and is only a character-sheet display issue. [Hardcorblade (player), 2026-03-24](https://forum.turtlecraft.gg/viewtopic.php?p=172199#p172199),
+    [Osmose85 (player), 2026-03-24](https://forum.turtlecraft.gg/viewtopic.php?p=172204#p172204)
+- id: class-paladin-t2-3pc-lost
+  system: classes
+  subsystem: Paladin
+  entity: Paladin T2 3-piece / Gunfire Blast
+  entity_ids: []
+  change: Player report only.
+  before: null
+  after: Player claims the Paladin T2 3-piece summons "the lost" ghosts triggering Ancient Accord and Feast of Hakkar.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: unclear
+  notes: '[Dyco (player), 2026-03-25](https://forum.turtlecraft.gg/viewtopic.php?p=172291#p172291)'
+- id: class-priest-darkness
+  system: classes
+  subsystem: Priest
+  entity: Darkness (talent)
+  entity_ids: []
+  change: Shadow damage fix.
+  before: null
+  after: Fixed an issue causing the Priest talent Darkness to not increase shadow damage of abilities correctly.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: class-priest-lightwell-splendor
+  system: classes
+  subsystem: Priest
+  entity: Lightwell's Splendor of Light
+  entity_ids: []
+  change: Targeting fixed.
+  before: null
+  after: Fixed targeting of Lightwell's Splendor of Light being too precise.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: null
+- id: class-priest-ascendence
+  system: classes
+  subsystem: Priest
+  entity: Ascendence (new Holy capstone talent, player-described)
+  entity_ids: []
+  change: New capstone talent (player description).
+  before: null
+  after: Described by a player as granting casting speed, a mana reduction and 15% healing received; player calls it overpowered. Also mentions "buffed prayer of healing and the lightwell changes".
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: unclear
+  notes: Not in any staff post in this repo. [Ayesha (player), 2026-03-28](https://forum.turtlecraft.gg/viewtopic.php?p=172878#p172878)
+- id: class-priest-blackout-move
+  system: classes
+  subsystem: Priest
+  entity: Blackout (talent position, proposed)
+  entity_ids: []
+  change: Proposed move deeper into Shadow tree (player-described).
+  before: null
+  after: Pre-release players discuss a proposal to move Blackout deeper into the Shadow tree and Lightwell changes.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: unclear
+  notes: 'From player discussion of the external class changelog: [Gerganon (player), 2026-02-28](https://forum.turtlecraft.gg/viewtopic.php?p=169572#p169572), [Gerganon (player), 2026-03-04](https://forum.turtlecraft.gg/viewtopic.php?p=170014#p170014)'
+- id: class-druid-pollen-burst
+  system: classes
+  subsystem: Druid
+  entity: Pollen Burst
+  entity_ids: []
+  change: Healing scales with pet AP.
+  before: null
+  after: Pollen Burst healing now scales with 25% of the Pet's attack power.
+  numbers: 25% pet AP
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: Listed under hotfixes without class; "Pet" suggests a Hunter pet ability rather than Druid — unclear.
+- id: class-druid-elune-infusion
+  system: classes
+  subsystem: Druid
+  entity: Elune Infusion
+  entity_ids: []
+  change: Trigger fixed.
+  before: null
+  after: Fixed Elune Infusion not triggering.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: Class not stated in the hotfix.
+- id: class-druid-glyph-of-the-moon
+  system: classes
+  subsystem: Druid
+  entity: Glyph of the Moon
+  entity_ids: []
+  change: Visual corrected.
+  before: null
+  after: Corrected the visual effect of Glyph of the Moon.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: 'Player reports: Night elf balance druid becomes "a tiny cow" / male Tauren with female night elf texture in moonkin form with Glyph of Stars/Moon. — [Ayesha (player), 2026-03-22](https://forum.turtlecraft.gg/viewtopic.php?p=171837#p171837),
+    [Ayesha (player), 2026-03-24](https://forum.turtlecraft.gg/viewtopic.php?p=172184#p172184)'
+- id: class-druid-fang-of-alichos
+  system: classes
+  subsystem: Druid
+  entity: Fang of Alichos
+  entity_ids: []
+  change: Usable in shapeshift forms.
+  before: null
+  after: Fang of Alichos is now usable in shapeshift forms.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: class-druid-yoxtez-fap
+  system: classes
+  subsystem: Druid
+  entity: Yoxtez
+  entity_ids: []
+  change: Feral Attack Power added.
+  before: null
+  after: Added 224 Feral Attack Power to Yoxtez.
+  numbers: +224 FAP
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: class-druid-balance-reports
+  system: classes
+  subsystem: Druid
+  entity: Balance (Starfire crit / Eclipse)
+  entity_ids: []
+  change: Player report only.
+  before: null
+  after: Player refers to "recent changes to Starfire crit chances" and describes Eclipse windows forcing stop-casting; requests indoor use of roots/feral swiftness/PvP set bonus (not changed).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: unclear
+  notes: '[Auralys (player), 2026-03-23](https://forum.turtlecraft.gg/viewtopic.php?p=172021#p172021), [Fugus (player), 2026-03-24](https://forum.turtlecraft.gg/viewtopic.php?p=172179#p172179)'
+- id: class-warlock-soul-entrapment
+  system: classes
+  subsystem: Warlock
+  entity: Soul Entrapment
+  entity_ids: []
+  change: No damage increase with Greater Demon.
+  before: null
+  after: Soul Entrapment no longer increases damage when controlling a Greater Demon.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: null
+- id: class-warlock-abolish-on-demons
+  system: classes
+  subsystem: Warlock
+  entity: Abolish Poison / Abolish Disease on demon pets
+  entity_ids: []
+  change: Now castable on demon pets.
+  before: null
+  after: You can now cast Abolish Poison and Abolish Disease on demon pets.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: null
+- id: class-warlock-demonic-sacrifice-hardcore
+  system: classes
+  subsystem: Warlock
+  entity: Demonic Sacrifice (Hardcore)
+  entity_ids: []
+  change: Usable by Hardcore players.
+  before: null
+  after: Fixed an issue preventing Hardcore players from using Demonic Sacrifice.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=176101#p176101
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-21'
+  status: hotfixed
+  notes: null
+- id: class-warlock-affliction-mana
+  system: classes
+  subsystem: Warlock
+  entity: Affliction spell mana costs
+  entity_ids: []
+  change: Player report only.
+  before: null
+  after: Players report Affliction spell mana costs were increased in 1.18.1 and ask for a revert.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: unclear
+  notes: '[daleking0518 (player), 2026-03-22](https://forum.turtlecraft.gg/viewtopic.php?p=171717#p171717)'
+- id: class-warlock-improved-stones
+  system: classes
+  subsystem: Warlock
+  entity: Improved stones / Felstone
+  entity_ids: []
+  change: Player report only.
+  before: null
+  after: 'Player: 2 points in the improved stones talent gives 4% instead of 6%.'
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=174367#p174367
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-07'
+  status: unclear
+  notes: '[Oddly (player), 2026-04-08](https://forum.turtlecraft.gg/viewtopic.php?p=174409#p174409)'
+- id: class-warlock-greater-demon-pathing
+  system: classes
+  subsystem: Warlock
+  entity: Greater demon pathing in instances
+  entity_ids: []
+  change: Player report only (pre-existing).
+  before: null
+  after: Demons cannot path through Gluth's tunnel, Thaddius platforms or into Thaurissan's room; "3 months" old, i.e. predates 1.18.1.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=174367#p174367
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-07'
+  status: unclear
+  notes: '[Sharmaine (player), 2026-04-07](https://forum.turtlecraft.gg/viewtopic.php?p=174389#p174389)'
+- id: class-hunter-shots-castbar
+  system: classes
+  subsystem: Hunter
+  entity: Hunter shots cast bar
+  entity_ids: []
+  change: Cast bar added.
+  before: null
+  after: Hunter shots now have a cast bar.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: unclear
+  notes: 'Player reports: Cast bars "don''t actually seem to be working". — [Plagues2 (player), 2026-03-21](https://forum.turtlecraft.gg/viewtopic.php?p=171632#p171632)'
+- id: class-hunter-hourglass-sand-pet
+  system: classes
+  subsystem: Hunter
+  entity: 'Hourglass Sand / Brood Affliction: Bronze'
+  entity_ids: []
+  change: Also cleanses active pet.
+  before: null
+  after: 'Hourglass Sand now also removes the pet debuff Brood Affliction: Bronze from your active pet.'
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: class-hunter-scorpid-poison-calc
+  system: classes
+  subsystem: Hunter
+  entity: Scorpid Poison (pet)
+  entity_ids: []
+  change: Damage calculation fixed.
+  before: null
+  after: Fixed damage calculations for stackable spells (e.g. Scorpid Poison, Deadly Poison).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: 'Player reports: BM hunter says the fix lowered his damage 300-400 DPS relative to rogues. — [Topmoo (player), 2026-03-24](https://forum.turtlecraft.gg/viewtopic.php?p=172191#p172191)'
+- id: class-hunter-serpent-sting-poison-spit
+  system: classes
+  subsystem: Hunter
+  entity: Serpent Sting / Poison Spit (snake pet)
+  entity_ids: []
+  change: Player report only.
+  before: null
+  after: Serpent Sting and the snake pet's Poison Spit overwrite each other again after 1.18.1 (same bug as a year earlier); repeatedly reported, no staff fix in the threads.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: unclear
+  notes: '[Lendvell (player), 2026-03-22](https://forum.turtlecraft.gg/viewtopic.php?p=171755#p171755), [Plagues2 (player), 2026-03-21](https://forum.turtlecraft.gg/viewtopic.php?p=171632#p171632), [Lendvell
+    (player), 2026-04-01](https://forum.turtlecraft.gg/viewtopic.php?p=173553#p173553), [Lendvell (player), 2026-04-08](https://forum.turtlecraft.gg/viewtopic.php?p=174477#p174477)'
+- id: class-hunter-star-of-marasethil
+  system: classes
+  subsystem: Hunter
+  entity: Star of Maras'ethil
+  entity_ids: []
+  change: Range check fixed.
+  before: null
+  after: Fixed Star of Maras'ethil always saying you're out of range when attempting to shoot.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: null
+- id: class-hunter-gunfire-blast-cd
+  system: classes
+  subsystem: Hunter
+  entity: Gunfire Blast
+  entity_ids: []
+  change: 3-second cooldown added.
+  before: null
+  after: Added a 3 second cooldown to Gunfire Blast.
+  numbers: 3 s
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: Owner of the ability not stated.
+- id: class-hunter-moth-pet
+  system: classes
+  subsystem: Hunter
+  entity: Moth pet
+  entity_ids: []
+  change: Player report only.
+  before: null
+  after: Player says moth pet is "bugged as hell" with dozens of reports.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: unclear
+  notes: '[Brainfrost (player), 2026-04-01](https://forum.turtlecraft.gg/viewtopic.php?p=173561#p173561)'
+- id: class-hunter-bm-pets-dampening
+  system: classes
+  subsystem: Hunter
+  entity: Pets vs PvP Dampening
+  entity_ids: []
+  change: Player report only.
+  before: null
+  after: Pets do not receive the dampening debuff; players ask for dampening on BM pets.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=169701#p169701
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-03-02'
+  status: unclear
+  notes: '[Bugranger (player), 2026-03-02](https://forum.turtlecraft.gg/viewtopic.php?p=169733#p169733), [Bazbee (player), 2026-04-14](https://forum.turtlecraft.gg/viewtopic.php?p=175237#p175237)'
+- id: class-rogue-dissolvent-corrosive
+  system: classes
+  subsystem: Rogue
+  entity: Dissolvent Poison / Corrosive Poison
+  entity_ids: []
+  change: Target types restricted.
+  before: null
+  after: Dissolvent and Corrosive Poison now only affect Elementals, Giants, Undead, and Mechanical enemies.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: class-rogue-deadly-poison-calc
+  system: classes
+  subsystem: Rogue
+  entity: Deadly Poison
+  entity_ids: []
+  change: Damage calculation fixed.
+  before: null
+  after: Fixed damage calculations for stackable spells (e.g. Scorpid Poison, Deadly Poison).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: null
+- id: class-rogue-taste-for-blood-poisons
+  system: classes
+  subsystem: Rogue
+  entity: Taste for Blood / Noxious Assault
+  entity_ids: []
+  change: Player-described nerf.
+  before: null
+  after: 'Player: "Noxious assault rogues got the biggest nerf in this patch, with taste for blood no longer affecting poisons"; pre-release discussion of an Assassination nerf outline.'
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: unclear
+  notes: '[Crake (player), 2026-03-25](https://forum.turtlecraft.gg/viewtopic.php?p=172282#p172282), [Heretic1987 (player), 2026-02-05](https://forum.turtlecraft.gg/viewtopic.php?p=167504#p167504), [Badcloud
+    (player), 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171469#p171469)'
+- id: class-warrior-flurry-consumed
+  system: classes
+  subsystem: Warrior
+  entity: Flurry
+  entity_ids: []
+  change: Consumed when attacking.
+  before: null
+  after: Flurry will now properly be consumed when attacking (hotfix line does not name the class; a player reads it as the Warrior version).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: class-warrior-tier-variants
+  system: classes
+  subsystem: Warrior
+  entity: Warrior T2.5 / T3.5 variants
+  entity_ids: []
+  change: Player request only.
+  before: null
+  after: Repeated player requests for Warrior T2.5 and T3.5 set variants; none delivered in the threads.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: unclear
+  notes: '[Heh86 (player), 2026-03-21](https://forum.turtlecraft.gg/viewtopic.php?p=171654#p171654)'
+- id: class-mage-mirror-magic
+  system: classes
+  subsystem: Mage
+  entity: Mirror Magic (Mage T3.5 3-piece)
+  entity_ids: []
+  change: Set bonus fixed.
+  before: null
+  after: Initial hits from Flamestrike, Cone of Cold, Frost Nova, Blast Wave and Arcane Explosion can trigger a rewind effect (Arcane +10% damage, Frost/Fire +20% damage on rewind).
+  numbers: +10% Arcane / +20% Frost, Fire
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: class-mage-blink-onyxia
+  system: classes
+  subsystem: Mage
+  entity: Blink (Onyxia's Lair)
+  entity_ids: []
+  change: Works again.
+  before: null
+  after: 'See raid entry: Players will once again be able to Blink in Onyxia''s Lair.'
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: class-all-wands-school-mods
+  system: classes
+  subsystem: all
+  entity: Wands
+  entity_ids: []
+  change: School modifiers apply.
+  before: null
+  after: Fixed an issue where wands did not benefit from school-specific damage modifiers correctly.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: class-all-block-fix
+  system: classes
+  subsystem: all
+  entity: Block
+  entity_ids: []
+  change: Fixed.
+  before: null
+  after: Fixed issue with block not working as intended.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: null
+- id: class-all-spiritual-elevation-stack
+  system: classes
+  subsystem: all
+  entity: Spiritual Elevation
+  entity_ids: []
+  change: Stacks with other buffs.
+  before: null
+  after: Spiritual Elevation can now stack with other buffs.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=174367#p174367
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-07'
+  status: hotfixed
+  notes: null
+- id: class-all-enraged-roar-stack
+  system: classes
+  subsystem: all
+  entity: Enraged Roar
+  entity_ids: []
+  change: Stacks with other buffs.
+  before: null
+  after: Enraged Roar can now stack with other buffs.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=175230#p175230
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-14'
+  status: hotfixed
+  notes: null
+- id: class-all-buff-limit-visible
+  system: classes
+  subsystem: all
+  entity: Buff display limit
+  entity_ids: []
+  change: Overflow buffs become visible.
+  before: null
+  after: Buffs exceeding the limit will now become visible once space is available.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=174367#p174367
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-07'
+  status: hotfixed
+  notes: null
+- id: class-all-talent-inspect
+  system: classes
+  subsystem: all
+  entity: Talent inspect
+  entity_ids: []
+  change: Errors fixed; data updated.
+  before: null
+  after: Updated talent inspect data (client, Mar 21); fixed errors when inspecting talents (Mar 25, Apr 1).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: 'Also: errors — [Torta (staff), 2026-03-24](https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139)'
+- id: class-all-spellbook-tabs
+  system: classes
+  subsystem: all
+  entity: Spellbook tabs
+  entity_ids: []
+  change: Misplaced spells fixed (client).
+  before: null
+  after: Fixed several class & collection spells being listed under the General tab of the spell book; moved Famoust Fashionista companion back to the companion tab.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: class-all-druids-indoors
+  system: classes
+  subsystem: Druid
+  entity: Druid indoor restrictions
+  entity_ids: []
+  change: Not changed (player requests).
+  before: null
+  after: Players repeatedly ask for roots, feral swiftness and PvP set speed bonus indoors and an out-of-combat resurrection; no staff response.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: unclear
+  notes: '[Fugus (player), 2026-02-17](https://forum.turtlecraft.gg/viewtopic.php?p=168509#p168509), [Fugus (player), 2026-04-15](https://forum.turtlecraft.gg/viewtopic.php?p=175357#p175357)'
+- id: item-itemization-changelog-external
+  system: items
+  subsystem: itemization changelog
+  entity: Itemization Changelog (f=70&t=23973)
+  entity_ids: []
+  change: Published separately.
+  before: null
+  after: The notes link the itemization changelog at viewtopic.php?f=70&t=23973 ("all changes are subject to change"); that thread is not in this repository.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: unclear
+  notes: null
+- id: item-nightmare-gear-mounts
+  system: items
+  subsystem: new items
+  entity: Nightmare of Ursol gear & bear mounts
+  entity_ids: []
+  change: New weapons and bear mounts.
+  before: null
+  after: Shown only as images (nightmare_weapons.png, bear_mounts.png); no names or stats given.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: unclear
+  notes: null
+- id: item-shieldrender-talisman
+  system: items
+  subsystem: trinkets
+  entity: Shieldrender Talisman
+  entity_ids: []
+  change: Triggers from ranged physical attacks.
+  before: null
+  after: Can now be triggered by ranged physical attacks.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: item-rakashishi-proc-name
+  system: items
+  subsystem: weapons
+  entity: Raka'shishi
+  entity_ids: []
+  change: Proc renamed.
+  before: null
+  after: Proc effect name updated to "Adrift Strikes".
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: item-highlanders-intent
+  system: items
+  subsystem: sets
+  entity: The Highlander's Intent
+  entity_ids: []
+  change: Set bonus requirement corrected.
+  before: 2 pieces
+  after: 1% spell-critical-chance bonus now requires 3 pieces.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: item-grandstaff-shendralar
+  system: items
+  subsystem: weapons
+  entity: Grandstaff of the Shen'dralar Elder
+  entity_ids: []
+  change: Procs from helpful spells.
+  before: null
+  after: Fixed an issue causing it to not proc from helpful spells like Rejuvenation or Renew.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: item-scythe-of-elune-cd
+  system: items
+  subsystem: weapons
+  entity: The Scythe of Elune (Elune's Wrath)
+  entity_ids: []
+  change: Proc cooldown restored.
+  before: null
+  after: Restored the cooldown of the Elune's Wrath proc.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: item-warlords-sanctuary-textures
+  system: items
+  subsystem: sets
+  entity: Warlord's Sanctuary
+  entity_ids: []
+  change: Textures fixed.
+  before: null
+  after: Fixed the set using wrong textures for helmet and shoulders.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: item-keyring-32
+  system: items
+  subsystem: containers
+  entity: Keyring
+  entity_ids: []
+  change: Capacity raised.
+  before: null
+  after: Keyrings can now hold up to 32 keys.
+  numbers: 32 keys
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: item-simple-wood-planter
+  system: items
+  subsystem: misc
+  entity: Simple Wood Planter
+  entity_ids: []
+  change: No longer unique.
+  before: null
+  after: Simple Wood Planter is no longer unique.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: item-blossoming-bud
+  system: items
+  subsystem: misc
+  entity: Blossoming Bud
+  entity_ids: []
+  change: Duration set.
+  before: null
+  after: Blossoming Bud now has a duration of 20 seconds.
+  numbers: 20 s
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: item-hourglass-sand
+  system: items
+  subsystem: consumables
+  entity: Hourglass Sand
+  entity_ids: []
+  change: Also cleanses pet.
+  before: null
+  after: 'Also removes Brood Affliction: Bronze from your active pet.'
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: item-elixir-greater-agility-mongoose
+  system: items
+  subsystem: consumable stacking
+  entity: Elixir of Greater Agility / Concoction of the Emerald Mongoose
+  entity_ids: []
+  change: No longer stack.
+  before: null
+  after: Elixir of Greater Agility no longer stacks with Concoction of the Emerald Mongoose.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: item-juju-power-arcane-giant
+  system: items
+  subsystem: consumable stacking
+  entity: Juju Power / Concoction of the Arcane Giant
+  entity_ids: []
+  change: No longer stack.
+  before: null
+  after: Juju Power no longer stacks with Concoction of the Arcane Giant.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: item-juju-power-item-procs
+  system: items
+  subsystem: consumable stacking
+  entity: Juju Power vs item procs (The Untamed Blade, Fist of the Forgotten Order)
+  entity_ids: []
+  change: Stacking issues fixed.
+  before: null
+  after: Fixed several issues with Juju Power not stacking with item procs such as The Untamed Blade or Fist of the Forgotten Order.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: item-blackroot-brew-juju-might
+  system: items
+  subsystem: consumable stacking
+  entity: Blackroot Brew / Juju Might
+  entity_ids: []
+  change: No longer stack.
+  before: null
+  after: Blackroot Brew correctly does not stack with Juju Might.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: item-well-fed-stacking-removed
+  system: items
+  subsystem: consumable stacking
+  entity: New Well Fed buffs
+  entity_ids: []
+  change: Stackability removed.
+  before: null
+  after: Removed stackability from several new Well Fed buffs.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: 'Player reports: Player asks whether Squid Eel Skewer (+20 Agility) stacks with Mongoose yet, "cuz it wasn''t". — [Phx (player), 2026-03-31](https://forum.turtlecraft.gg/viewtopic.php?p=173513#p173513)'
+- id: item-chimera-chops-squid-stack
+  system: items
+  subsystem: consumable stacking
+  entity: Chimera Chops / Squid Eel Skewer
+  entity_ids: []
+  change: Stack with other buffs.
+  before: null
+  after: Chimera Chops and Squid Eel Skewer can now stack with other buffs.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=175230#p175230
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-14'
+  status: hotfixed
+  notes: 'Player reports: Player interpretation: Chimera Chops now stack with the Priest stamina buff (they did not before). — [Noephix (player), 2026-04-15](https://forum.turtlecraft.gg/viewtopic.php?p=175256#p175256)'
+- id: item-brute-force-juju-power
+  system: items
+  subsystem: consumable stacking
+  entity: Elixir of Brute Force / Juju Power
+  entity_ids: []
+  change: No longer stack.
+  before: null
+  after: Elixir of Brute Force and Juju Power can no longer stack.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=175230#p175230
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-14'
+  status: hotfixed
+  notes: null
+- id: item-sweet-crunchy-fruit-bread
+  system: items
+  subsystem: consumables
+  entity: Sweet 'N Crunchy Fruit Bread / Dur'angor Melon
+  entity_ids: []
+  change: Made lethal, shared cooldown, price increased.
+  before: null
+  after: Both are 'significantly more lethal when consumed'; Dur'angor Melon shares a 5-minute cooldown with Sweet 'N Crunchy Fruit Bread; prices increased. (Sweet 'N Crunchy Fruit Bread had received a
+    5 min cooldown on 2026-01-14, pre-release.)
+  numbers: 5 min shared cooldown
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: 'Player reports: Players debate the change: the bread was used in PvP as a self-kill to escape CC ("30 second of cc immunity"); some say the item now simply kills you, gear is not damaged. — [Skattberg
+    (player), 2026-04-01](https://forum.turtlecraft.gg/viewtopic.php?p=173605#p173605), [Reddguard (player), 2026-04-01](https://forum.turtlecraft.gg/viewtopic.php?p=173626#p173626), [amanagor (player),
+    2026-04-01](https://forum.turtlecraft.gg/viewtopic.php?p=173651#p173651) Also: earlier 5 min cooldown — [Shadowsong (staff), 2026-01-13](https://forum.turtlecraft.gg/viewtopic.php?p=165064#p165064)'
+- id: item-emergency-parachute-stack
+  system: items
+  subsystem: consumables
+  entity: Emergency Parachute
+  entity_ids: []
+  change: Stack size 5.
+  before: null
+  after: Emergency Parachute can now stack up to 5.
+  numbers: '5'
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: null
+- id: item-pearl-kaneqnuum-icon
+  system: items
+  subsystem: hotfix
+  entity: Pearl of Kaneq'nuum / Ice Pearl of Kaneq'nuun
+  entity_ids: []
+  change: Icons fixed.
+  before: null
+  after: Fixed Pearl of Kaneq'nuum icon (server); added missing icon for Ice Pearl of Kaneq'nuun (client).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: item-dragons-touch
+  system: items
+  subsystem: hotfix
+  entity: Dragon's Touch
+  entity_ids: []
+  change: Haste effect On Equip.
+  before: null
+  after: Fixed Dragon's Touch haste spell to be On Equip.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: item-coil-hydra-bulwark-boe
+  system: items
+  subsystem: hotfix
+  entity: The Coil of the Hydra Set / Bulwark of Unshaken Earth
+  entity_ids: []
+  change: Now Bind on Equip.
+  before: null
+  after: Correctly Bind on Equip.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: item-archaeologists-lantern
+  system: items
+  subsystem: hotfix
+  entity: Archaeologist's Lantern
+  entity_ids: []
+  change: Categorized as off-hand frill.
+  before: null
+  after: Archaeologist's Lantern is now correctly categorized as an off-hand frill.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: item-cloaks-enchantable
+  system: items
+  subsystem: hotfix
+  entity: Several cloaks
+  entity_ids: []
+  change: Made enchantable.
+  before: null
+  after: Corrected the categorization of several cloaks to make them enchantable.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: 'Player reports: New PvP cloak cannot be enchanted; game says it must be cloth armor. — [daleking0518 (player), 2026-04-09](https://forum.turtlecraft.gg/viewtopic.php?p=174524#p174524)'
+- id: item-scaleshield-obsidian-flight
+  system: items
+  subsystem: hotfix
+  entity: Scaleshield of Obsidian Flight
+  entity_ids: []
+  change: Level requirement added.
+  before: null
+  after: Added a level requirement (value not stated).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: item-find-fish-removed
+  system: items
+  subsystem: hotfix
+  entity: Find Fish
+  entity_ids: []
+  change: Wrongly assigned skill removed.
+  before: null
+  after: Removed wrongly assigned Find Fish from players that have not completed the quest.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: item-vest-of-the-beastkeeper
+  system: items
+  subsystem: hotfix
+  entity: Vest of the Beastkeeper
+  entity_ids: []
+  change: Armor added.
+  before: null
+  after: Added missing armor to Vest of the Beastkeeper.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: null
+- id: item-furbolg-medicine-meilosh
+  system: items
+  subsystem: hotfix
+  entity: Furbolg Medicine Pouch / Furbolg Medicine Totem
+  entity_ids: []
+  change: Re-added to vendor Meilosh.
+  before: null
+  after: Readded to the vendor Meilosh.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: null
+- id: item-demonbane-model
+  system: items
+  subsystem: hotfix
+  entity: Demonbane
+  entity_ids: []
+  change: Model changed.
+  before: null
+  after: Changed the model of Demonbane.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: null
+- id: item-handwraps-of-faith
+  system: items
+  subsystem: hotfix
+  entity: Handwraps of Faith
+  entity_ids: []
+  change: Binding type fixed.
+  before: null
+  after: Fixed binding type of Handwraps of Faith.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: null
+- id: item-facetted-crystal-scope
+  system: items
+  subsystem: hotfix
+  entity: Facetted Crystal Scope
+  entity_ids: []
+  change: Enchantment text fixed.
+  before: null
+  after: Fixed missing Facetted Crystal Scope enchantment text (Mar 25; repeated Apr 1).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: 'Player reports: Player still sees no updated tooltip for the crossbow scope after Apr 1. — [Snoodydood (player), 2026-04-01](https://forum.turtlecraft.gg/viewtopic.php?p=173552#p173552) Also:
+    repeated — [Torta (staff), 2026-03-31](https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490)'
+- id: item-prestors-rod-sheath
+  system: items
+  subsystem: hotfix
+  entity: Prestor's Rod of Command
+  entity_ids: []
+  change: Sheathing position fixed.
+  before: null
+  after: Fixed the sheathing position of Prestor's Rod of Command.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: null
+- id: item-ceremonial-belt-buckle
+  system: items
+  subsystem: hotfix
+  entity: Ceremonial Belt Buckle
+  entity_ids: []
+  change: Applies to belts.
+  before: null
+  after: Fixed an issue preventing Ceremonial Belt Buckle from being applied to belts.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: null
+- id: item-pattern-astronomer-raiments
+  system: items
+  subsystem: hotfix
+  entity: 'Pattern: Astronomer Raiments'
+  entity_ids: []
+  change: Consumed on use.
+  before: null
+  after: 'Pattern: Astronomer Raiments is now properly consumed on use.'
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: null
+- id: item-markali-midnight-star
+  system: items
+  subsystem: hotfix
+  entity: Mar'kali, the Midnight Star
+  entity_ids: []
+  change: Damage up, ICD down.
+  before: null
+  after: Increased the damage of Mar'kali, the Midnight Star and reduced its internal cooldown.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: null
+- id: item-rift-tear-midnight-comet
+  system: items
+  subsystem: hotfix
+  entity: Rift Tear / Midnight Comet
+  entity_ids: []
+  change: PPM up; no spell-effect triggering; trade window fix.
+  before: null
+  after: Increased the proc per minute of Rift Tear; Rift Tear and Midnight Comet can no longer trigger spell effects (Apr 1); fixed an issue with Rift Tear enchantments in the trade window (Apr 8).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: 'Also: trade window — [Torta (staff), 2026-04-07](https://forum.turtlecraft.gg/viewtopic.php?p=174367#p174367)'
+- id: item-thilphoral-omen-of-aln
+  system: items
+  subsystem: hotfix
+  entity: Thil'phoral, the Omen of Aln
+  entity_ids: []
+  change: Triggers from periodic damage.
+  before: null
+  after: Now correctly triggers from periodic damage effects.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=174367#p174367
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-07'
+  status: hotfixed
+  notes: null
+- id: item-romantic-royal-gown
+  system: items
+  subsystem: hotfix
+  entity: Romantic Royal Gown
+  entity_ids: []
+  change: Repairable.
+  before: null
+  after: Romantic Royal Gown can now be repaired; separately, fixed an issue preventing some items from being repaired.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=174367#p174367
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-07'
+  status: hotfixed
+  notes: null
+- id: item-lophanel-sheathed
+  system: items
+  subsystem: hotfix
+  entity: Lophanel, Dusk of Calamity
+  entity_ids: []
+  change: Hidden when sheathed.
+  before: null
+  after: No longer visible while sheathed.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=175230#p175230
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-14'
+  status: hotfixed
+  notes: null
+- id: item-perotharns-dirk
+  system: items
+  subsystem: hotfix
+  entity: Peroth'arn's Dirk of the Beast
+  entity_ids: []
+  change: AoE ignores LoS.
+  before: null
+  after: AoE component now ignores line of sight.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=175230#p175230
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-14'
+  status: hotfixed
+  notes: null
+- id: item-small-pearl-ring
+  system: items
+  subsystem: hotfix
+  entity: Small Pearl Ring
+  entity_ids: []
+  change: Shows in profession window (client update).
+  before: null
+  after: Fixed an issue causing Small Pearl Ring to not appear in the profession window (requires client update).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=176101#p176101
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-21'
+  status: hotfixed
+  notes: null
+- id: item-recipes-not-consumed
+  system: items
+  subsystem: hotfix
+  entity: Recipes
+  entity_ids: []
+  change: Consumed on learning.
+  before: null
+  after: Fixed an issue where some recipes were not consumed upon learning (Apr 22, again Apr 29).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=176101#p176101
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-21'
+  status: hotfixed
+  notes: 'Also: repeated — [Jamey (staff), 2026-04-28](https://forum.turtlecraft.gg/viewtopic.php?p=176311#p176311)'
+- id: item-gretchens-slippers
+  system: items
+  subsystem: hotfix
+  entity: Gretchen's Slippers
+  entity_ids: []
+  change: Now Unique.
+  before: null
+  after: Gretchen's Slippers are now Unique.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=176311#p176311
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-04-28'
+  status: hotfixed
+  notes: null
+- id: item-hairdye-high-elf
+  system: items
+  subsystem: vendors
+  entity: High Elf hair dyes
+  entity_ids: []
+  change: Added to vendors.
+  before: null
+  after: Added missing hair dyes for High Elf players to the hair-dye vendors.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: item-plump-country-pumpkin
+  system: items
+  subsystem: rename
+  entity: Plump Country Pumpkin
+  entity_ids: []
+  change: Renamed.
+  before: Plump Country Pumpkin
+  after: Renamed to Hearty Country Pumpkin to avoid confusion.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: prof-survival-overhaul
+  system: professions
+  subsystem: Survival
+  entity: Survival Skill
+  entity_ids: []
+  change: Extensive overhaul into a complementary secondary profession.
+  before: null
+  after: Reworked Survival acts as a secondary profession drawing from other primary professions; over 80 new recipes; tools that can slow, root or trap opponents; bags for the three gathering professions;
+    containers for fish and meat.
+  numbers: 80+ new recipes
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: 'Player reports: Player lists new tool requirements (woodcutting axe, "widdle") and heavy Mining requirement; says the Survivalist Skinning Knife is useless because skinning still requires a skinning
+    knife. — [Dexday (player), 2026-03-27](https://forum.turtlecraft.gg/viewtopic.php?p=172785#p172785) | Survival recipes show as "unknown" at the trainer even after clearing WDB and revalidating. — [Deadcrow
+    (player), 2026-04-07](https://forum.turtlecraft.gg/viewtopic.php?p=174264#p174264) | Player mentions a Survival slingshot usable for ranged pulling. — [Atreidon (player), 2026-03-24](https://forum.turtlecraft.gg/viewtopic.php?p=172086#p172086)'
+- id: prof-survival-woodcutting
+  system: professions
+  subsystem: Survival
+  entity: Woodcutting
+  entity_ids: []
+  change: New gathering activity.
+  before: null
+  after: Woodcutting, directly tied to Survival skill, lets players search forests for wood and other materials for the profession.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: prof-survival-gardening
+  system: professions
+  subsystem: Survival
+  entity: Gardening
+  entity_ids: []
+  change: Three new crops and critters.
+  before: null
+  after: Three new crops found in specific zones grant powerful buffs when fully grown; "unwelcome critters" infiltrate crops.
+  numbers: 3 new crops
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: prof-survival-apprentice-level1
+  system: professions
+  subsystem: Survival hotfix
+  entity: Apprentice Survival
+  entity_ids: []
+  change: Available at level 1 again.
+  before: null
+  after: Apprentice Survival is correctly available at level 1 again.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: prof-survival-dim-torch
+  system: professions
+  subsystem: Survival hotfix (client)
+  entity: Dim Torch
+  entity_ids: []
+  change: Skill-up range reduced.
+  before: null
+  after: Reduced the range of skill levels gained by crafting Dim Torch.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: prof-survival-woodcutting-tree-names
+  system: professions
+  subsystem: Survival hotfix
+  entity: Woodcutting Trees
+  entity_ids: []
+  change: Renamed.
+  before: null
+  after: Updated the names of Woodcutting Trees for better immersion.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: null
+- id: prof-survival-quest-rewards
+  system: professions
+  subsystem: Survival hotfix
+  entity: Survival quests
+  entity_ids: []
+  change: Rewards fixed.
+  before: null
+  after: Fixed some Survival quests not properly rewarding items.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: null
+- id: prof-survival-trainer-ui
+  system: professions
+  subsystem: Survival hotfix
+  entity: Survival trainer UI
+  entity_ids: []
+  change: Categorization fixed.
+  before: null
+  after: Fixed survival skills not being categorized properly in trainer UI.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: null
+- id: prof-survival-ah-filter
+  system: professions
+  subsystem: Survival hotfix
+  entity: Auction house Survival filter
+  entity_ids: []
+  change: Added.
+  before: null
+  after: Fixed Survival missing from auction house filters (Mar 25, repeated Apr 1).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: 'Also: repeated — [Torta (staff), 2026-03-31](https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490)'
+- id: prof-survival-rufus-hardwick
+  system: professions
+  subsystem: Survival hotfix
+  entity: Rufus Hardwick
+  entity_ids: []
+  change: Supplies added.
+  before: null
+  after: Added missing Survival supplies to Rufus Hardwick.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: null
+- id: prof-survival-jungle-quest-level
+  system: professions
+  subsystem: Survival hotfix
+  entity: To Survive in the Jungle (Artisan Survival quest)
+  entity_ids: []
+  change: Minimum level reduced.
+  before: null
+  after: Reduced the minimum level requirement to 35.
+  numbers: level 35
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: null
+- id: prof-tents-taverns-pace
+  system: professions
+  subsystem: Tents & Taverns
+  entity: Taverns and tents rested XP pace
+  entity_ids: []
+  change: Same pace.
+  before: null
+  after: Both taverns and tents grant the rested XP bonus at the same pace.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: 'Staff clarification: "The speed of earning rested XP in a tavern is about the same as it was under a tent before 1.18.1." Reasoning: taverns are more immersive than tents, and tent camps at the
+    Stormwind/Orgrimmar gates were "a mess". Offline tavern rested gain is unaffected. — [Torta (staff), 2026-02-17](https://forum.turtlecraft.gg/viewtopic.php?p=168639#p168639)'
+- id: prof-tents-taverns-kill-bonus-50
+  system: professions
+  subsystem: Tents & Taverns
+  entity: Rested XP bonus from kills
+  entity_ids: []
+  change: Bonus halved.
+  before: 100% bonus
+  after: Rested XP from killing creatures gives a 50% bonus.
+  numbers: 50% (was 100%)
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: 'Staff clarification: Rested bonus value was nerfed "so XP rate isn''t permanently doubled in the game" while making it accessible worldwide; removing tents outright was considered too unpopular.
+    — [Torta (staff), 2026-02-17](https://forum.turtlecraft.gg/viewtopic.php?p=168649#p168649) Player reports: Players object to the halved bonus. — [Saronsen (player), 2026-03-31](https://forum.turtlecraft.gg/viewtopic.php?p=173332#p173332),
+    [Hctwowfan (player), 2026-02-17](https://forum.turtlecraft.gg/viewtopic.php?p=168644#p168644)'
+- id: prof-tents-cap-25
+  system: professions
+  subsystem: Tents & Taverns
+  entity: Tent rested XP cap
+  entity_ids: []
+  change: Capped at 25%.
+  before: null
+  after: Tent's rested XP bonus capped at 25% of a player's rested XP; tents give no benefit above 25% rested XP.
+  numbers: 25%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: 'Staff clarification: "Tents in 1.18.1 will act like the new taverns but won''t give you the full rested bonus (can''t feel fully rested unless you''re comfortable)." — [Torta (staff), 2026-02-17](https://forum.turtlecraft.gg/viewtopic.php?p=168639#p168639)'
+- id: prof-taverns-100
+  system: professions
+  subsystem: Tents & Taverns
+  entity: Non-city taverns
+  entity_ids: []
+  change: Raise rested XP to 100%.
+  before: null
+  after: All taverns except those in cities can raise rested XP up to 100%.
+  numbers: 100%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: prof-rested-xp-dead
+  system: professions
+  subsystem: Tents & Taverns hotfix
+  entity: Rested XP while dead
+  entity_ids: []
+  change: Disabled.
+  before: null
+  after: You can no longer gain rested XP while dead.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: prof-cooking-recipe-adjustments
+  system: professions
+  subsystem: Cooking
+  entity: Hot Smoked Bass, Cooked Glossy Mightfish, Mightfish Steak, Dirge's Kickin' Chimaerok Chops
+  entity_ids: []
+  change: Recipe effects changed.
+  before: Hot Smoked Bass 10 Spirit; Cooked Glossy Mightfish 10 Stamina; Mightfish Steak 10 Stamina; Dirge's 25 Stamina
+  after: Hot Smoked Bass 30 Spirit; Cooked Glossy Mightfish 15 Spell Penetration; Mightfish Steak 20 Strength; Dirge's Kickin' Chimaerok Chops 30 Stamina + 2% Dodge.
+  numbers: 10→30 Spirit; 10 Sta→15 Spell Pen; 10 Sta→20 Str; 25 Sta→30 Sta+2% Dodge
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: prof-cooking-new-recipes
+  system: professions
+  subsystem: Cooking
+  entity: Squid Eel Skewer, Deep Sea Stew
+  entity_ids: []
+  change: Two new recipes.
+  before: null
+  after: Squid Eel Skewer grants 20 Agility; Deep Sea Stew grants 20 health/5s and 150 Armor. Yield of both increased on Apr 1.
+  numbers: 20 Agi; 20 hp/5s + 150 Armor
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: 'Player reports: Player: recipe is "insanely overpriced" with terrible ingredients; asks by how much the yield rose. — [Nazzydragon (player), 2026-03-31](https://forum.turtlecraft.gg/viewtopic.php?p=173514#p173514)
+    Also: yield increased — [Torta (staff), 2026-03-31](https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490)'
+- id: prof-fishing-aquadynamic
+  system: professions
+  subsystem: Fishing
+  entity: Aquadynamic Fish Attractor
+  entity_ids: []
+  change: Duration increased.
+  before: null
+  after: Duration increased to 10 minutes.
+  numbers: 10 min
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: prof-fishing-boats-cd
+  system: professions
+  subsystem: Fishing
+  entity: Fishing Boats
+  entity_ids: []
+  change: Craft cooldown reduced.
+  before: null
+  after: Reduced the cooldown to craft Fishing Boats by 1 hour.
+  numbers: -1 h
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: prof-fishing-loottables-azshara
+  system: professions
+  subsystem: Fishing (pre-release)
+  entity: Ursolan / Timbermaw Hold (Azshara) fishing loot tables
+  entity_ids: []
+  change: Fixed.
+  before: null
+  after: Fixed incorrect fishing loot tables for the areas Ursolan and Timbermaw Hold in Azshara (pre-release hotfix on 1.18.0).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=165064#p165064
+  source_author: Shadowsong
+  source_authority: staff
+  source_date: '2026-01-13'
+  status: released
+  notes: null
+- id: prof-engineering-thorium-shells
+  system: professions
+  subsystem: Engineering
+  entity: Enchanted Thorium Shells
+  entity_ids: []
+  change: New crafted gun ammunition.
+  before: null
+  after: Added new crafted ammunition for guns in Engineering; the schematic drops from Cannon Master Willey (per the Apr 8 hotfix).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: unclear
+  notes: 'Player reports: Notes did not say where the recipe comes from. — [Handmm (player), 2026-03-21](https://forum.turtlecraft.gg/viewtopic.php?p=171533#p171533) | Schematic reported still not dropping
+    after the Apr 8 fix. — [Roegnvald (player), 2026-04-14](https://forum.turtlecraft.gg/viewtopic.php?p=175240#p175240) Also: schematic source — [Torta (staff), 2026-04-07](https://forum.turtlecraft.gg/viewtopic.php?p=174367#p174367)'
+- id: prof-enchanted-thorium-mats
+  system: professions
+  subsystem: Blacksmithing/Mining
+  entity: Enchanted Thorium
+  entity_ids: []
+  change: Materials changed.
+  before: Dream Dust
+  after: Now requires 3 Illusion Dust.
+  numbers: 3 Illusion Dust
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: prof-mystic-wands-bright-wood
+  system: professions
+  subsystem: Enchanting
+  entity: Lesser Mystic Wand / Greater Mystic Wand
+  entity_ids: []
+  change: Materials changed.
+  before: Star Wood
+  after: Now require Bright Wood.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: prof-empowering-herbal-salad
+  system: professions
+  subsystem: Cooking
+  entity: Empowering Herbal Salad
+  entity_ids: []
+  change: Materials changed.
+  before: Sungrass and Sweet Mountain Berry
+  after: Lush Cabbage Head and Moonwhisper Berry.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: prof-sagefish-delight-visual
+  system: professions
+  subsystem: Cooking
+  entity: Sagefish Delight
+  entity_ids: []
+  change: Spell visual fixed.
+  before: null
+  after: Fixed broken spell visual for Sagefish Delight.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: pvp-dampening-dynamic
+  system: pvp
+  subsystem: dampening
+  entity: PvP Dampening Debuff
+  entity_ids: []
+  change: Dynamic per class/spec reductions.
+  before: Flat number for all classes (introduced in 1.18.0)
+  after: Dynamic reductions of Magical and Physical damage based on class/spec.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: 'Player reports: No dampening numbers published as of release day. — [M0thra (player), 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171435#p171435) | "Dynamic damage reduction for classes
+    works terribly". — [Baek (player), 2026-03-28](https://forum.turtlecraft.gg/viewtopic.php?p=172844#p172844) | Pets are not affected by the debuff. — [Bugranger (player), 2026-03-02](https://forum.turtlecraft.gg/viewtopic.php?p=169733#p169733)
+    Also: restated — [Jamey (staff), 2026-03-02](https://forum.turtlecraft.gg/viewtopic.php?p=169701#p169701) | "see the class-changes changelog" — [Torta (staff), 2026-02-17](https://forum.turtlecraft.gg/viewtopic.php?p=168532#p168532)'
+- id: pvp-thorn-gorge
+  system: pvp
+  subsystem: battlegrounds
+  entity: Thorn Gorge
+  entity_ids: []
+  change: New 15v15 battleground.
+  before: null
+  after: Eye of the Storm-style battleground; teams capture flags and bases until reaching the maximum resource points. Notes added 2025-12-02.
+  numbers: 15v15
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: 'Player reports: Only queueable at battlemasters, no minimap icon, after the min level change. — [Snkx (player), 2026-03-25](https://forum.turtlecraft.gg/viewtopic.php?p=172281#p172281) | No reputation
+    reward tied to the BG; "unfinished". — [amanagor (player), 2026-04-15](https://forum.turtlecraft.gg/viewtopic.php?p=175287#p175287) Also: notes added — [Torta (staff), 2025-12-02](https://forum.turtlecraft.gg/viewtopic.php?p=161362#p161362)'
+- id: pvp-thorn-gorge-honor-end
+  system: pvp
+  subsystem: Thorn Gorge hotfix
+  entity: Thorn Gorge end-of-match honor
+  entity_ids: []
+  change: Missing honor added.
+  before: null
+  after: Added missing Honor gains at the end of the Thorn Gorge battleground.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: pvp-thorn-gorge-gates
+  system: pvp
+  subsystem: Thorn Gorge hotfix
+  entity: Thorn Gorge gates
+  entity_ids: []
+  change: Gate fixes.
+  before: null
+  after: Fixed the orientation of the Horde gate; fixed a teleporting issue when touching the Alliance gate.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: pvp-thorn-gorge-spirit-guides
+  system: pvp
+  subsystem: Thorn Gorge hotfix
+  entity: Thorn Gorge Spirit Guides / spirit healers
+  entity_ids: []
+  change: Spawn rules fixed.
+  before: null
+  after: Both Spirit Guides no longer spawn when the capture point was controlled (Mar 21); spirit healers only spawn when the specific faction captured the point and are visible for the correct faction
+    (Mar 25).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: 'Also: Mar 25 — [Torta (staff), 2026-03-24](https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139)'
+- id: pvp-thorn-gorge-client-fixes
+  system: pvp
+  subsystem: Thorn Gorge hotfix (client)
+  entity: Thorn Gorge client fixes
+  entity_ids: []
+  change: Stuck spot, map icons, flag animation.
+  before: null
+  after: Fixed an area where players could get stuck; fixed map icons; fixed the use animation for picking up the flag.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: pvp-thorn-gorge-powerups
+  system: pvp
+  subsystem: Thorn Gorge hotfix
+  entity: Thorn Gorge power-ups
+  entity_ids: []
+  change: Added.
+  before: null
+  after: Added speed, berserker and heal power-ups.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: null
+- id: pvp-thorn-gorge-min-level-31
+  system: pvp
+  subsystem: Thorn Gorge hotfix
+  entity: Thorn Gorge minimum level
+  entity_ids: []
+  change: Reduced to 31.
+  before: null
+  after: Reduced Min Level for Thorn Gorge to 31.
+  numbers: '31'
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: 'Player reports: Requests to open it to lower brackets / level 1. — [Snkx (player), 2026-03-24](https://forum.turtlecraft.gg/viewtopic.php?p=172161#p172161), [Cysthen (player), 2026-03-25](https://forum.turtlecraft.gg/viewtopic.php?p=172285#p172285)'
+- id: pvp-minimap-finder-levels
+  system: pvp
+  subsystem: battlegrounds hotfix
+  entity: Minimap battleground finder (Arathi Basin, Thorn Gorge)
+  entity_ids: []
+  change: Level requirements fixed.
+  before: null
+  after: Fixed minimap battleground finder level requirements for Arathi Basin and Thorn Gorge.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: null
+- id: pvp-thorn-gorge-flag-haste
+  system: pvp
+  subsystem: Thorn Gorge hotfix
+  entity: Thorn Gorge flag pickup
+  entity_ids: []
+  change: Not affected by haste.
+  before: null
+  after: Picking up the Thorn Gorge flag is no longer affected by haste.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=175230#p175230
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-14'
+  status: hotfixed
+  notes: null
+- id: pvp-thorn-gorge-honor-plus50
+  system: pvp
+  subsystem: Thorn Gorge hotfix
+  entity: Thorn Gorge honor gains
+  entity_ids: []
+  change: Increased by 50%.
+  before: null
+  after: Increased honor gains from Thorn Gorge by 50%.
+  numbers: +50%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=175230#p175230
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-14'
+  status: hotfixed
+  notes: null
+- id: pvp-group-queue-skirmish-tg
+  system: pvp
+  subsystem: battlegrounds hotfix
+  entity: Group queue (Arena Skirmish, Thorn Gorge)
+  entity_ids: []
+  change: Fixed.
+  before: null
+  after: Fixed an issue preventing players from queueing as a group for Arena Skirmish and Thorn Gorge.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=175230#p175230
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-14'
+  status: hotfixed
+  notes: null
+- id: pvp-thorn-gorge-emissaries
+  system: pvp
+  subsystem: battlegrounds hotfix
+  entity: Sunnyglade Emissaries → Thorn Gorge Emissaries
+  entity_ids: []
+  change: Replaced.
+  before: null
+  after: Replaced Sunnyglade Emissaries with Thorn Gorge Emissaries.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: null
+- id: pvp-sunnyglade-disabled
+  system: pvp
+  subsystem: battlegrounds
+  entity: Sunnyglade Valley
+  entity_ids: []
+  change: Battleground disabled.
+  before: null
+  after: Patch 1.18.1 disables Sunnyglade Valley ("didn't turn out to be a pinnacle of game design"); a full rework is planned for future patches.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: 'Also: restated — [Jamey (staff), 2026-03-02](https://forum.turtlecraft.gg/viewtopic.php?p=169701#p169701)'
+- id: pvp-world-events
+  system: pvp
+  subsystem: world PvP events
+  entity: Redwall Keep / Southshore vs Tarren Mill
+  entity_ids: []
+  change: New world PvP events announced.
+  before: null
+  after: Conquer Redwall Keep (capture & hold flags); defend Tarren Mill or Southshore (assault enemy base, defend own); exclusive rewards such as off-set pieces plus Honor and Conquest Points.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: announced
+  notes: 'Player reports: Players repeatedly ask where the world PvP events are; not live as of 2026-04-15 per players. — [amanagor (player), 2026-03-31](https://forum.turtlecraft.gg/viewtopic.php?p=173504#p173504),
+    [Vorosh (player), 2026-04-01](https://forum.turtlecraft.gg/viewtopic.php?p=173598#p173598), [Gramrock (player), 2026-04-15](https://forum.turtlecraft.gg/viewtopic.php?p=175348#p175348) Also: details
+    — [Jamey (staff), 2026-03-02](https://forum.turtlecraft.gg/viewtopic.php?p=169701#p169701) | "No, it wasn''t designed for lunatics" (Redwall Keep) — [Torta (staff), 2026-02-17](https://forum.turtlecraft.gg/viewtopic.php?p=168536#p168536)
+    | map icons added for TM vs SS — [Torta (staff), 2026-03-21](https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608)'
+- id: pvp-gear-tiers
+  system: pvp
+  subsystem: PvP gear progression
+  entity: New PvP armor set rewards
+  entity_ids: []
+  change: 3-tier sets replace the old 2-tier sets.
+  before: 2-tiered PvP Armor Set Rewards
+  after: Tier 1 Rare ~ilvl 71; Tier 2 Epic ~ilvl 77; Tier 3 Epic ~ilvl 92; sets for different armor types and roles. Old 2-tiered sets sunset and no longer obtainable; owners keep them.
+  numbers: ilvl ~71 / ~77 / ~92
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=169701#p169701
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-03-02'
+  status: unclear
+  notes: 'Jamey: "All of these changes are set to go live shortly after the release." Players report set prices (T1 ~5-6k, T2 ~22k honor per piece) and that PvP sets are weaker than PvE sets. Player reports:
+    Vendor/gear not available on release day. — [Bootwin (player), 2026-03-21](https://forum.turtlecraft.gg/viewtopic.php?p=171626#p171626) | Prices reported from teaser/vendor: T1 ~5-6k, T2 ~22k, R13 gear
+    20k per piece. — [Ellifta (player), 2026-03-23](https://forum.turtlecraft.gg/viewtopic.php?p=171914#p171914), [amanagor (player), 2026-03-23](https://forum.turtlecraft.gg/viewtopic.php?p=171915#p171915)
+    | Sets called "utter garbage compared to PVE gear sets"; Warlock set lost 10% Soul Link, low armor. — [Moomoobro (player), 2026-03-28](https://forum.turtlecraft.gg/viewtopic.php?p=172842#p172842), [Brandwacht
+    (player), 2026-04-02](https://forum.turtlecraft.gg/viewtopic.php?p=173737#p173737)'
+- id: pvp-weapons-extra-tier
+  system: pvp
+  subsystem: PvP gear progression
+  entity: PvP weapons
+  entity_ids: []
+  change: Extra tier added below current ones.
+  before: null
+  after: Old PvP weapons remain the same with an extra Tier under the current ones.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=169701#p169701
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-03-02'
+  status: unclear
+  notes: 'Player reports: Entry-level PvP weapons price raised by ~10k honor without a note; only one weapon tier seen at the vendor, initially 6k. — [Saronsen (player), 2026-03-29](https://forum.turtlecraft.gg/viewtopic.php?p=172996#p172996),
+    [Mdzielak (player), 2026-04-02](https://forum.turtlecraft.gg/viewtopic.php?p=173700#p173700)'
+- id: pvp-honor-immediate
+  system: pvp
+  subsystem: honor
+  entity: Honor crediting
+  entity_ids: []
+  change: Credited immediately.
+  before: Weekly standings determined honor/RP
+  after: Honor gained is credited immediately; no more weekly standings competition.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=169701#p169701
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-03-02'
+  status: released
+  notes: 'Also: new system confirmed live by the "mid-week patch release to the new System" note — [Torta (staff), 2026-03-24](https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139)'
+- id: pvp-honor-currency
+  system: pvp
+  subsystem: honor
+  entity: Honor as currency
+  entity_ids: []
+  change: Honor buys PvP gear.
+  before: null
+  after: Honor is a currency to buy new PvP gear and miscellaneous items.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=169701#p169701
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-03-02'
+  status: released
+  notes: null
+- id: pvp-honor-10pct
+  system: pvp
+  subsystem: honor
+  entity: Honor gain values
+  entity_ids: []
+  change: Reduced to 10% of previous.
+  before: 100%
+  after: Honor gains from all activities reduced to 10% of previous values; costs reflect the new gains ("purely a visual change").
+  numbers: 10%
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=169701#p169701
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-03-02'
+  status: released
+  notes: null
+- id: pvp-honor-cap-20k
+  system: pvp
+  subsystem: honor
+  entity: Weekly honor cap
+  entity_ids: []
+  change: 20,000 per week.
+  before: null
+  after: Honor gains capped at 20 000 Honor per week, resetting every weekly maintenance.
+  numbers: 20,000/week
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=169701#p169701
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-03-02'
+  status: released
+  notes: null
+- id: pvp-ranks-rank-points
+  system: pvp
+  subsystem: ranks
+  entity: PvP Ranks / Rank Points
+  entity_ids: []
+  change: Ranks kept; RP credited immediately.
+  before: null
+  after: Every Honor gain also grants a portion as Rank Points, credited immediately; enough RP promotes immediately; RP decays weekly but cannot drop ranks; RP gains uncapped; most Honor rewards also need
+    a Rank (buying does not consume rank).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=169701#p169701
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-03-02'
+  status: released
+  notes: 'Player reports: Player says level caps on ranks were introduced with the Mar 25 update and asks for a revert. — [Snkx (player), 2026-03-25](https://forum.turtlecraft.gg/viewtopic.php?p=172468#p172468)
+    | Player rank shows as Rank 0 with title lost while "highest rank" still listed. — [Leilar (player), 2026-04-18](https://forum.turtlecraft.gg/viewtopic.php?p=175607#p175607) | Players reported being
+    de-ranked "for no reason". — [Xerony (player), 2026-03-31](https://forum.turtlecraft.gg/viewtopic.php?p=173497#p173497)'
+- id: pvp-conquest-points
+  system: pvp
+  subsystem: conquest
+  entity: Conquest Points
+  entity_ids: []
+  change: New currency for top rewards.
+  before: null
+  after: Strongest rewards need Rank + Honor + Conquest Points; CP from high Ranked Arena rating (weekly flush), World PvP events (immediate) and Call to Arms Battlegrounds (immediate); weekly maintenance
+    distributes CP for arena teams and decays inactive ones.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=169701#p169701
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-03-02'
+  status: unclear
+  notes: null
+- id: pvp-transition
+  system: pvp
+  subsystem: transition
+  entity: Old-system transition
+  entity_ids: []
+  change: Rank kept, one-time honor bonus.
+  before: null
+  after: Players keep their PvP Rank; one-time Honor bonus based on prior rank at launch; old sets unobtainable but keepable.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=169701#p169701
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-03-02'
+  status: released
+  notes: 'Player reports: Bonus amounts reported by players: R10 ≈ 30k, R13 ≈ 60k, R14 ≈ 98k honor; considered too low. — [Gnomeoperative (player), 2026-03-23](https://forum.turtlecraft.gg/viewtopic.php?p=171910#p171910),
+    [amanagor (player), 2026-03-23](https://forum.turtlecraft.gg/viewtopic.php?p=171915#p171915), [Moomoobro (player), 2026-03-23](https://forum.turtlecraft.gg/viewtopic.php?p=172015#p172015)'
+- id: pvp-rp-flush-compensation
+  system: pvp
+  subsystem: transition hotfix
+  entity: Old honor flush RP compensation
+  entity_ids: []
+  change: Half old-system RP for one final week.
+  before: null
+  after: Players still get half the old honor system flush RP from standings for that week as compensation for the mid-week release; "last and final week"; RP decay already moved to the new system.
+  numbers: 50% of old flush RP
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: null
+- id: pvp-rated-arena-restrictions
+  system: pvp
+  subsystem: arena
+  entity: Rated Arena cooldown/consume restrictions
+  entity_ids: []
+  change: Announced.
+  before: null
+  after: Some of the strongest cooldowns will be restricted in Arenas with the new system; list "in the near future". Torta also mentions "arena-consume restrictions".
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=169701#p169701
+  source_author: Jamey
+  source_authority: staff
+  source_date: '2026-03-02'
+  status: announced
+  notes: 'Player reports: Players ask for rated arena to be opened/fixed before shutdown. — [Solaire0726 (player), 2026-04-22](https://forum.turtlecraft.gg/viewtopic.php?p=176119#p176119) Also: arena-consume
+    restrictions — [Torta (staff), 2026-02-17](https://forum.turtlecraft.gg/viewtopic.php?p=168532#p168532)'
+- id: pvp-crossfaction-queue
+  system: pvp
+  subsystem: battlegrounds
+  entity: Cross-faction battleground queues
+  entity_ids: []
+  change: Balance improved.
+  before: null
+  after: Improved cross-faction battleground queues for more consistent team balance; monitoring continues.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: pvp-faction-dbc-fix
+  system: pvp
+  subsystem: client (pre-release)
+  entity: Faction.dbc fix
+  entity_ids: []
+  change: Included in the 1.18.1 client.
+  before: null
+  after: Minor Faction.dbc fix for cross-faction battlegrounds, shipped via launcher in Nov 2025 and "also included in the larger Nightmares of Ursol update".
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=158376#p158376
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-11-04'
+  status: released
+  notes: null
+- id: pvp-hardcore-bg-xp
+  system: pvp
+  subsystem: pre-release
+  entity: Hardcore XP in battlegrounds
+  entity_ids: []
+  change: Disabled (pre-release).
+  before: null
+  after: Hardcore players can no longer earn XP inside battlegrounds (2025-10-15 hotfix on 1.18.0).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=155594#p155594
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-14'
+  status: released
+  notes: Pre-release weekly hotfix, not part of the 1.18.1 notes.
+- id: pvp-arenas-minimap
+  system: pvp
+  subsystem: UI
+  entity: Arenas on minimap battleground finder
+  entity_ids: []
+  change: Restored.
+  before: null
+  after: Arenas are back on the minimap battleground finder.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: raceclass-tauren-priest
+  system: race-class
+  subsystem: new combination
+  entity: Tauren Priest
+  entity_ids: []
+  change: New race/class combination.
+  before: null
+  after: Tauren Priests worship the Three Siblings (Mu'sha, An'she, Lo'sho); added to notes 2025-10-23.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: 'Player reports: On release day creating the new combinations produced an error and they disappeared from the client until the update applied. — [Jetarc (player), 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171376#p171376)
+    Also: added — [Torta (staff), 2025-10-23](https://forum.turtlecraft.gg/viewtopic.php?p=156748#p156748)'
+- id: raceclass-tauren-priest-quests
+  system: race-class
+  subsystem: hotfix
+  entity: Garments of the Three Siblings / The Hallowed Note
+  entity_ids: []
+  change: Tauren Priest quests fixed.
+  before: null
+  after: Fixed the Tauren priest quest Garments of the Three Siblings (Mar 21); The Hallowed Note can no longer be accepted by other classes (Mar 25).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: 'Also: Hallowed Note — [Torta (staff), 2026-03-24](https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139)'
+- id: raceclass-dwarf-warlock
+  system: race-class
+  subsystem: new combination
+  entity: Dwarf Warlock
+  entity_ids: []
+  change: New race/class combination.
+  before: null
+  after: Bronzebeard dwarves practicing demonology in a secret coven within Ironforge; added to notes 2025-10-23.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: raceclass-highelf-racial
+  system: race-class
+  subsystem: player report
+  entity: High Elf active racial
+  entity_ids: []
+  change: Unchanged (player complaint).
+  before: null
+  after: Player notes no High Elf active racial change.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: unclear
+  notes: '[Feomatar (player), 2026-03-21](https://forum.turtlecraft.gg/viewtopic.php?p=171668#p171668)'
+- id: ui-poi-icons
+  system: systems-ui
+  subsystem: UI
+  entity: POI icons
+  entity_ids: []
+  change: Alignment fixed.
+  before: null
+  after: Fixed POI icons alignment and prevented spill from other icons.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: ui-fadeinfo-error
+  system: systems-ui
+  subsystem: UI
+  entity: Chat hover error
+  entity_ids: []
+  change: Fixed.
+  before: null
+  after: Resolved UI error "attempt to index local fadeInfo (a nil value)" when hovering over chat.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: ui-character-sheet-multiplier
+  system: systems-ui
+  subsystem: UI
+  entity: Character Sheet
+  entity_ids: []
+  change: Damage multiplier shown correctly.
+  before: null
+  after: Character Sheet now correctly displays the damage multiplier.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: ui-stack-split-frame
+  system: systems-ui
+  subsystem: UI
+  entity: Stack Split Frame
+  entity_ids: []
+  change: Mouse wheel and shift shortcuts.
+  before: null
+  after: Adjust split amounts with the mouse wheel; Shift + wheel snaps to min/max; Shift + click purchases vendor items in stacks > 1.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: ui-pushable-panels
+  system: systems-ui
+  subsystem: UI
+  entity: Pushable UI panels
+  entity_ids: []
+  change: More can be open.
+  before: null
+  after: Increased the number of pushable UI panels that can be opened simultaneously.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: ui-raid-assistants-groups
+  system: systems-ui
+  subsystem: raid UI
+  entity: Raid assistants
+  entity_ids: []
+  change: Can change raid member groups.
+  before: Only the raid leader could
+  after: Raid assistants can change raid member groups.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: ui-radio-station-saved
+  system: systems-ui
+  subsystem: client
+  entity: Radio station
+  entity_ids: []
+  change: Saved across relog/reload.
+  before: null
+  after: Chosen radio station is saved and resumes after relog/reload.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: ui-guild-frame-search
+  system: systems-ui
+  subsystem: UI
+  entity: Guild frame
+  entity_ids: []
+  change: Search added.
+  before: null
+  after: Added basic search functionality to the guild frame.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: ui-show-player-challenges-backend
+  system: systems-ui
+  subsystem: client
+  entity: Show Player Challenges option
+  entity_ids: []
+  change: Back-end updates.
+  before: null
+  after: Cache size reductions, automatic cache wipe on major patch releases, more responsive tooltips.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: ui-shop-undress
+  system: systems-ui
+  subsystem: shop
+  entity: Shop preview model
+  entity_ids: []
+  change: Undress button added.
+  before: null
+  after: Added a new Undress button to the shop preview model.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: ui-2fa-frame
+  system: systems-ui
+  subsystem: login
+  entity: 2FA Frame
+  entity_ids: []
+  change: Visual updates.
+  before: null
+  after: Visual updates to the 2FA Frame at the login screen.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: ui-delete-rename-dialogs
+  system: systems-ui
+  subsystem: character select
+  entity: Delete Character / Rename Character dialogs
+  entity_ids: []
+  change: Visual updates.
+  before: null
+  after: Visual updates to the Delete Character and Rename Character pop-up dialogs.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: ui-api-getiteminfo-sellprice
+  system: systems-ui
+  subsystem: API
+  entity: GetItemInfo
+  entity_ids: []
+  change: sellPrice return added.
+  before: null
+  after: Added a sellPrice return value to GetItemInfo.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: ui-api-checkinteractdistance-5
+  system: systems-ui
+  subsystem: API
+  entity: CheckInteractDistance
+  entity_ids: []
+  change: Index 5 = 40 yd.
+  before: null
+  after: CheckIneractDistance [sic] now accepts range index '5' for a 40 yd check.
+  numbers: 40 yd
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: ui-api-getlootmethod
+  system: systems-ui
+  subsystem: API
+  entity: GetLootMethod
+  entity_ids: []
+  change: Returns master looter raid index.
+  before: null
+  after: GetLootMethod additionally returns the raid index of the master looter.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: ui-api-getauctionsellitem
+  system: systems-ui
+  subsystem: API
+  entity: GetAuctionSellItemInfo
+  entity_ids: []
+  change: maxStack and itemLink returns added.
+  before: null
+  after: Added maxStack and itemLink return values.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: ui-api-macro-icons
+  system: systems-ui
+  subsystem: API
+  entity: EditMacro / CreateMacro
+  entity_ids: []
+  change: Accept file names for icons.
+  before: null
+  after: EditMacro and CreateMacro now accept file names for icon parameters.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: ui-options-unified
+  system: systems-ui
+  subsystem: options
+  entity: In-game options
+  entity_ids: []
+  change: Unified frame.
+  before: Three separate frames
+  after: Video, Sound and Interface frames merged into a single unified frame.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: 'Also: UI improvements listed 2026-03-06 — [Torta (staff), 2026-03-06](https://forum.turtlecraft.gg/viewtopic.php?p=170207#p170207)'
+- id: ui-main-menu
+  system: systems-ui
+  subsystem: options
+  entity: Main game menu
+  entity_ids: []
+  change: Obsolete buttons removed.
+  before: null
+  after: Main game menu updated, obsolete buttons removed; add-ons modifying the menu should be unaffected.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: ui-default-options
+  system: systems-ui
+  subsystem: options
+  entity: Default option values
+  entity_ids: []
+  change: Changed.
+  before: null
+  after: Several defaults changed, e.g. Show Buff Durations enabled by default.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: ui-group-frame
+  system: systems-ui
+  subsystem: options
+  entity: Group Frame
+  entity_ids: []
+  change: New customizable party/raid frame.
+  before: null
+  after: New Group Frame can replace the existing party and raid frames; fully customizable via the options menu. Teaser images posted 2026-03-06.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: 'Also: teaser — [Torta (staff), 2026-03-06](https://forum.turtlecraft.gg/viewtopic.php?p=170256#p170256)'
+- id: ui-keybindings-search
+  system: systems-ui
+  subsystem: options
+  entity: Keybindings frame
+  entity_ids: []
+  change: Search box; movable.
+  before: null
+  after: Added a search box to the Keybindings frame, which is now movable.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: ui-barber-shop
+  system: systems-ui
+  subsystem: client
+  entity: Barber Shop
+  entity_ids: []
+  change: 3.3.5 Barber Shop added.
+  before: null
+  after: Added 3.3.5 Barber Shop to the game.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: 'Player reports: Goblin barber lacks mustaches. — [Snoodydood (player), 2026-04-15](https://forum.turtlecraft.gg/viewtopic.php?p=175266#p175266)'
+- id: ui-cartographer-command
+  system: systems-ui
+  subsystem: commands
+  entity: .cartographer command
+  entity_ids: []
+  change: Zone name added; instances excluded.
+  before: null
+  after: Improved the .cartographer command to include zone name (Mar 21); Cartographer no longer requires areas inside instances (Mar 25); Cartographer Exploration command fixed (Apr 29).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: 'Player reports: Anvilmar (Dun Morogh) explored but not counted. — [Jianggeer (player), 2026-04-29](https://forum.turtlecraft.gg/viewtopic.php?p=176318#p176318) | Requests to also drop AQ20/Uldaman
+    requirements. — [Levana (player), 2026-04-07](https://forum.turtlecraft.gg/viewtopic.php?p=174381#p174381) Also: instances — [Torta (staff), 2026-03-24](https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139)
+    | exploration command — [Jamey (staff), 2026-04-28](https://forum.turtlecraft.gg/viewtopic.php?p=176311#p176311)'
+- id: ui-server-clock
+  system: systems-ui
+  subsystem: server
+  entity: Server clock
+  entity_ids: []
+  change: Reflects real time.
+  before: null
+  after: Fixed the server clock to reflect real time.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: ui-debug-output-removed
+  system: systems-ui
+  subsystem: server
+  entity: Debug chat output
+  entity_ids: []
+  change: Removed.
+  before: null
+  after: Removed debug chat output from various places.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: hotfixed
+  notes: null
+- id: ui-guild-chat-after-leaving
+  system: systems-ui
+  subsystem: chat
+  entity: Guild chat
+  entity_ids: []
+  change: Fixed.
+  before: null
+  after: Fixed an issue where players who left their guild remained in guild chat.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: null
+- id: ui-transmogrify-open
+  system: systems-ui
+  subsystem: UI
+  entity: Transmogrify UI
+  entity_ids: []
+  change: Opening fixed.
+  before: null
+  after: Fixed not being able to open the Transmogrify UI sometimes (Mar 25, repeated Apr 1).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: 'Also: repeated — [Torta (staff), 2026-03-31](https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490)'
+- id: ui-tiny-poi
+  system: systems-ui
+  subsystem: UI
+  entity: Minimap points of interest
+  entity_ids: []
+  change: Tiny POIs fixed.
+  before: null
+  after: Fixed tiny points of interest on the minimap (Mar 25, repeated Apr 1).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: null
+- id: ui-chat-docking-regression
+  system: systems-ui
+  subsystem: UI
+  entity: Chat frame docking
+  entity_ids: []
+  change: Regression fixed.
+  before: null
+  after: Fixed a regression affecting chat frame docking.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: hotfixed
+  notes: null
+- id: ui-client-update-delivery
+  system: systems-ui
+  subsystem: client delivery
+  entity: 1.18.1 client patch
+  entity_ids: []
+  change: Delivered via launcher/on-login patcher.
+  before: null
+  after: Client-side fixes delivered via the Launcher; the on-login patcher mandatory update waited "for a few more things to be fixed"; full client download "usually available a few days after the patch
+    drops".
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-21'
+  status: released
+  notes: 'Player reports: Release-day update failures: patch-9.mpq "Failed to remove wrong partial download ... kl_onyxiaslair_b_003.wmo"; switching download mirror fixed it for some. — [Socniver (player),
+    2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171378#p171378), [Roestilu (player), 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171404#p171404) | Non-launcher users ask how to
+    get the small client update. — [Thricew (player), 2026-03-21](https://forum.turtlecraft.gg/viewtopic.php?p=171694#p171694), [Zokk (player), 2026-03-23](https://forum.turtlecraft.gg/viewtopic.php?p=171854#p171854)
+    Also: launcher continuous — [Torta (staff), 2026-03-23](https://forum.turtlecraft.gg/viewtopic.php?p=171932#p171932) | full client — [Hyundef (staff), 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171425#p171425)'
+- id: challenge-trial-of-heroism
+  system: challenges
+  subsystem: new challenge
+  entity: Trial of Heroism
+  entity_ids: []
+  change: New levelling challenge.
+  before: null
+  after: Earn the Hero of Azeroth title; only orange/red-difficulty creatures or quests grant XP; the challenge ends at level 58.
+  numbers: ends at level 58
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: challenge-lunatic-frostmane
+  system: challenges
+  subsystem: Level One Lunatic
+  entity: Level One Lunatic loot (Frostmane Hollow)
+  entity_ids: []
+  change: Loot added.
+  before: null
+  after: See dungeon entry.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=174367#p174367
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-07'
+  status: hotfixed
+  notes: null
+- id: challenge-hardcore-demonic-sacrifice
+  system: challenges
+  subsystem: Hardcore
+  entity: Demonic Sacrifice (Hardcore)
+  entity_ids: []
+  change: Usable.
+  before: null
+  after: See warlock entry.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=176101#p176101
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-21'
+  status: hotfixed
+  notes: null
+- id: challenge-slow-and-steady-disable
+  system: challenges
+  subsystem: player request
+  entity: Slow & Steady challenge
+  entity_ids: []
+  change: Request only.
+  before: null
+  after: Player asks for a way to disable the Slow & Steady challenge in game.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=174367#p174367
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-04-07'
+  status: unclear
+  notes: '[Snoodydood (player), 2026-04-07](https://forum.turtlecraft.gg/viewtopic.php?p=174394#p174394)'
+- id: general-king-morogo-bash
+  system: general
+  subsystem: NPC abilities
+  entity: King Morogo Thunderfoot's Bash
+  entity_ids: []
+  change: Prevented by stun immunity.
+  before: null
+  after: Bash can now be prevented by auras that grant stun immunity.
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  source_author: Torta
+  source_authority: staff
+  source_date: '2025-10-03'
+  status: released
+  notes: null
+- id: general-stackable-spell-damage
+  system: general
+  subsystem: combat
+  entity: Stackable spell damage calculation
+  entity_ids: []
+  change: Fixed.
+  before: null
+  after: Fixed damage calculations for stackable spells (e.g. Scorpid Poison, Deadly Poison).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-24'
+  status: hotfixed
+  notes: null
+- id: general-loot-master-whites
+  system: general
+  subsystem: loot
+  entity: Master Loot vs threshold
+  entity_ids: []
+  change: Player report only.
+  before: null
+  after: See chests entry (Cysthen report).
+  numbers: null
+  source_url: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  source_author: Torta
+  source_authority: staff
+  source_date: '2026-03-31'
+  status: unclear
+  notes: null
