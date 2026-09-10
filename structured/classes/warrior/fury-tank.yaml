@@ -1,0 +1,87 @@
+# Warrior / Fury-Protection hybrid / tank — companion to synthesis/classes/warrior/fury-tank.md
+class: Warrior
+spec: Fury/Protection (fury-prot)
+role: tank
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102974#p102974", author: Dragunovi, authority: staff, date: "2024-10-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=105804#p105804", author: Dragunovi, authority: staff, date: "2024-11-01"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460", author: Jamey, authority: staff, date: "2024-12-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: "2025-07-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=11727#p11727", author: Velite, authority: player, date: "2021-08-19"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=40901#p40901", author: Xudo, authority: player, date: "2023-04-09"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=64561#p64561", author: Bigsmerf, authority: player, date: "2023-09-15"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=77951#p77951", author: Wilsonsds, authority: player, date: "2023-11-18"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=85578#p85578", author: Grizb37, authority: player, date: "2024-01-22"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=89968#p89968", author: Xronisf79, authority: player, date: "2024-03-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=89995#p89995", author: Calli, authority: player, date: "2024-03-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108893#p108893", author: Atreidon, authority: player, date: "2024-11-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108957#p108957", author: Atreidon, authority: player, date: "2024-11-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=114018#p114018", author: Xudo, authority: player, date: "2024-12-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=115882#p115882", author: Ellifta, authority: player, date: "2025-01-08"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=118658#p118658", author: Arkaris, authority: player, date: "2025-02-01"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=135727#p135727", author: Herods, authority: player, date: "2025-06-14"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=164933#p164933", author: Ellifta, authority: player, date: "2026-01-11"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=167684#p167684", author: Ellifta, authority: player, date: "2026-02-07"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=170891#p170891", author: Eyeburn, authority: player, date: "2026-03-15"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=170960#p170960", author: Cheruscan, authority: player, date: "2026-03-16"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=170985#p170985", author: Xudo, authority: player, date: "2026-03-16"}
+agreement: "consensus that it was the pre-CC2 raid-tank meta and was nerfed at CC2 (2024-11-01); contested whether it is still worth playing (Arkaris/Cheruscan yes-ish vs Xudo/Atreidon/Ellifta no)"
+patch_validity:
+  written_for: "pre-CC2 meta description + CC2/CC3 nerf notes"
+  valid_for_1181: unknown
+  notes: "No post-1.18.1 evaluation. 1.18.1 Shield Slam/Defiance buffs favour deep Protection. Enrage sit-proc removed long before 2022 (player claim); Bloodthirst no longer self-damages (2024-12-20); Improved Shield Block removed (CC2); Shield Slam and Shield Block charges cancel (player claim, 2026-02)."
+talents:
+  build_name: "post-CC2 suggestion: Death Wish + Improved Shield Slam (allocation not given)"
+  points:
+    - {tree: Fury, talent: Death Wish, rank: 1, spell_id: null}
+    - {tree: Fury, talent: Cruelty, rank: 5, spell_id: null}
+    - {tree: Fury, talent: Enrage, rank: 5, spell_id: null}
+    - {tree: Fury, talent: Flurry, rank: 5, spell_id: null}
+    - {tree: Fury, talent: Improved Execute, rank: 2, spell_id: null}
+    - {tree: Fury, talent: Dual Wield Specialization, rank: 5, spell_id: null, note: "only if actually dual wielding"}
+    - {tree: Fury, talent: Improved Cleave, rank: null, spell_id: null, note: "named as a threat talent (Xudo 2023)"}
+    - {tree: Fury, talent: Bloodthirst, rank: 1, spell_id: null, note: "if 31 Fury; Atreidon reports BT tanks failing post-CC2"}
+    - {tree: Protection, talent: Shield Slam, rank: 1, spell_id: null}
+    - {tree: Protection, talent: Improved Shield Slam, rank: 2, spell_id: null}
+    - {tree: Protection, talent: Defiance, rank: 5, spell_id: null, note: "not stated for the hybrid; assumed by no source — gap"}
+  historical:
+    - {name: "31/20 (pre-CC2)", source: "Xronisf79 p=89968", note: "tree order not stated"}
+    - {name: "vanilla classicdb LZVVzIMxoVoE00ox", source: "Xudo p=170985", note: "vanilla baseline; Improved Shield Block no longer exists"}
+  leveling_order: []
+stat_weights: null
+stat_priority: [hit, weapon-skill, crit, agility, stamina, armor, defense]
+caps:
+  hit_boss_pct: 9
+  dw_white_miss_before_hit_pct: 24
+  defense: null
+rotation_single:
+  - {priority: 0, action: "Charge/Intercept -> Bloodrage -> (Death Wish if healers agree)", condition: "opener"}
+  - {priority: 1, action: Sunder Armor, condition: "until 5 stacks"}
+  - {priority: 2, action: Bloodthirst, condition: "off cooldown (if 31 Fury)"}
+  - {priority: 3, action: Heroic Strike, condition: "on every swing as rage allows (bonus threat is the spec's engine)"}
+  - {priority: 4, action: Revenge, condition: "Defensive Stance and available"}
+  - {priority: 5, action: Execute, condition: "target <= 20%"}
+  - {priority: 6, action: "equip shield + Shield Slam/Shield Block", condition: "once threat lead is safe or boss hits hard"}
+rotation_aoe:
+  - {targets_min: 2, priority: 1, action: Cleave, condition: "with Improved Cleave"}
+  - {targets_min: 2, priority: 2, action: Sunder Armor, condition: "tab"}
+  - {targets_min: 2, priority: 3, action: Thunder Clap, condition: "usable in Defensive Stance"}
+  - {targets_min: 4, priority: 1, action: Whirlwind, condition: "Berserker Stance"}
+  - {targets_min: 4, priority: 2, action: Challenging Shout, condition: "emergency"}
+aoe_threshold: null
+cooldowns:
+  - {name: Death Wish, use_when: "with healer agreement only; +damage taken"}
+  - {name: Bloodrage, use_when: "on cooldown; activates Enrage"}
+  - {name: Berserker Rage, use_when: "fear immunity"}
+  - {name: Shield Wall, use_when: "swap shield in first; ends if shield removed"}
+resource_rules:
+  - "Rage generation higher than deep prot (pre-CC2 claims)"
+  - "Save rage between pulls"
+  - "Stance for post-CC2 fury-prot not settled in sources"
+consumables: []
+mistakes_to_avoid:
+  - "Copying a vanilla furyprot build (Improved Shield Block, sit-proc Enrage)"
+  - "Main-tanking 40-man raids in a Bloodthirst build after CC2"
+  - "Death Wish without telling healers"
+  - "Expecting Shield Slam and Shield Block charges to stack"

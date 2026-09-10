@@ -1,0 +1,110 @@
+# Warrior / Protection / tank — companion to synthesis/classes/warrior/protection-tank.md
+class: Warrior
+spec: Protection
+role: tank
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102974#p102974", author: Dragunovi, authority: staff, date: "2024-10-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=104207#p104207", author: Jamey, authority: staff, date: "2024-10-21"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=105804#p105804", author: Dragunovi, authority: staff, date: "2024-11-01"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460", author: Jamey, authority: staff, date: "2024-12-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504", author: Torta, authority: staff, date: "2025-03-30"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: "2025-07-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=115882#p115882", author: Ellifta, authority: player, date: "2025-01-08"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=156473#p156473", author: Ellifta, authority: player, date: "2025-10-21"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=164933#p164933", author: Ellifta, authority: player, date: "2026-01-11"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=167684#p167684", author: Ellifta, authority: player, date: "2026-02-07"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108893#p108893", author: Atreidon, authority: player, date: "2024-11-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108957#p108957", author: Atreidon, authority: player, date: "2024-11-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=114018#p114018", author: Xudo, authority: player, date: "2024-12-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=115711#p115711", author: Xudo, authority: player, date: "2025-01-07"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=135727#p135727", author: Herods, authority: player, date: "2025-06-14"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=146132#p146132", author: Taralej90, authority: player, date: "2025-08-16"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=146364#p146364", author: Eyeburn, authority: player, date: "2025-08-17"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=118658#p118658", author: Arkaris, authority: player, date: "2025-02-01"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=118692#p118692", author: Inovatu, authority: player, date: "2025-02-02"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=103539#p103539", author: Ademar, authority: player, date: "2024-10-18"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=40901#p40901", author: Xudo, authority: player, date: "2023-04-09"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=41025#p41025", author: Sixgun, authority: player, date: "2023-04-10"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=47322#p47322", author: Syrathegreat, authority: player, date: "2023-05-24"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=62793#p62793", author: Reploidrocsa, authority: player, date: "2023-09-11"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=170891#p170891", author: Eyeburn, authority: player, date: "2026-03-15"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=170985#p170985", author: Xudo, authority: player, date: "2026-03-16"}
+agreement: "strong consensus on mechanics and priority; contested on standing (worst raid tank vs 'sword and board is the meta') and on Defensive Tactics; contested on Shield Block value at low level"
+patch_validity:
+  written_for: "CC2 tree (2024-11-01) with Dec-2024 numbers; 1.18.1 numbers applied where staff gave them"
+  valid_for_1181: true
+  notes: "1.18.1: Defiance 4-20%, Shield Slam 20% AP scaling and 75% threat modifier; earlier: Defensive Tactics 60/120/180%, Improved Shield Slam 4.5 s, Concussion Blow 0 rage/+10 rage (CC3). No post-1.18.1 tank ranking in sources."
+talents:
+  build_name: "Deep Protection (sourced core; ~51 points not fully specified)"
+  points:
+    - {tree: Protection, talent: Shield Slam, rank: 1, spell_id: null}
+    - {tree: Protection, talent: Improved Shield Slam, rank: 2, spell_id: null}
+    - {tree: Protection, talent: Defiance, rank: 5, spell_id: null}
+    - {tree: Protection, talent: Defensive Tactics, rank: 3, spell_id: null, note: "contested"}
+    - {tree: Protection, talent: Reprisal, rank: 2, spell_id: null}
+    - {tree: Protection, talent: Improved Revenge, rank: 3, spell_id: null}
+    - {tree: Protection, talent: Concussion Blow, rank: 1, spell_id: null}
+    - {tree: Protection, talent: One-Handed Weapon Specialization, rank: 5, spell_id: null}
+    - {tree: Protection, talent: Shield Specialization, rank: 5, spell_id: null}
+    - {tree: Protection, talent: Improved Bloodrage, rank: 2, spell_id: null}
+    - {tree: Protection, talent: Anticipation, rank: 3, spell_id: null}
+    - {tree: Protection, talent: Last Stand, rank: 1, spell_id: null}
+    - {tree: Protection, talent: Toughness, rank: null, spell_id: null, note: "filler"}
+    - {tree: Protection, talent: Improved Shield Wall, rank: null, spell_id: null, note: "0-2, contested"}
+    - {tree: Arms, talent: Tactical Mastery, rank: 2, spell_id: null, note: "2-5"}
+    - {tree: Arms, talent: Improved Heroic Strike, rank: 3, spell_id: null, note: "0-3"}
+    - {tree: Arms, talent: Improved Thunder Clap, rank: 3, spell_id: null}
+    - {tree: Arms, talent: Deflection, rank: 5, spell_id: null, note: "if reaching row 3 Arms"}
+    - {tree: Fury, talent: Cruelty, rank: 0, spell_id: null, note: "5 in the Defensive Tactics + Enrage variant (Herods)"}
+  skip: [Iron Will, Improved Disarm, Improved Intervene, Gag Order, Improved Taunt]
+  leveling_order: []   # prot leveling: see leveling.md (Czasku respec at 30; Xudo pre-CC2 order obsolete)
+  links_opaque:
+    - "https://talents.turtlecraft.gg/warrior?points=aQFDAYAQAAAAAAAAAAAAAAAAAAAAVAAgIDAopSAABAA="   # Inovatu p=118692
+    - "https://talents.turtlecraft.gg/warrior?points=SQFABYAQAAAAAAAAAAAAAAAAAAAAVAAoITAoZSQABAA%3D" # Ademar p=103539
+    - "https://talents.turtlecraft.gg/warrior?points=FQFARYAQBYAAAAAAAAAAAAAAAAAAVAFoIAQABQAAAAA%3D" # Czasku p=106723 (leveling, 30+)
+stat_weights: null
+stat_priority: [defense-to-crit-immunity, hit, weapon-skill, stamina/effective-health, armor, block-value, crit]
+caps:
+  defense: null     # Turtle linearized formula; no number in sources. vanilla baseline 440 (not from turtlecraft.gg)
+  hit_boss_pct: 9
+  boss_parry_pct_player_claim: 14   # Ellifta p=167684; not staff
+  boss_dodge_pct_player_claim: 5
+rotation_single:
+  - {priority: 0, action: "Bloodrage -> pull -> Concussion Blow -> Shield Slam -> Sunder Armor -> Demoralizing Shout", condition: "opener"}
+  - {priority: 1, action: Shield Slam, condition: "off cooldown"}
+  - {priority: 2, action: Revenge, condition: "available after block/dodge/parry; Defensive Stance only"}
+  - {priority: 3, action: Shield Block, condition: "off cooldown on bosses; note Improved Shield Slam charge and Shield Block charge do not stack"}
+  - {priority: 4, action: Sunder Armor, condition: "< 5 stacks, then filler"}
+  - {priority: 5, action: Heroic Strike, condition: "rage dump at high rage"}
+  - {priority: 6, action: Concussion Blow, condition: "off cooldown (20 s, 0 rage)"}
+  - {priority: 7, action: Thunder Clap, condition: "once per pull for the attack-speed debuff; usable in Defensive Stance"}
+  - {priority: 8, action: Execute, condition: "target <= 20% and Defensive Tactics taken: swap to Battle/Berserker Stance and spam"}
+rotation_aoe:
+  - {targets_min: 2, priority: 1, action: Thunder Clap, condition: "main AoE threat (contested vs Sunder tabbing)"}
+  - {targets_min: 2, priority: 2, action: Demoralizing Shout, condition: "every pull"}
+  - {targets_min: 2, priority: 3, action: "tab Revenge / Sunder Armor", condition: "spread threat; mark skull"}
+  - {targets_min: 4, priority: 1, action: Thunder Clap, condition: "4-target cap (player claim)"}
+  - {targets_min: 4, priority: 2, action: Challenging Shout, condition: "emergency AoE taunt"}
+aoe_threshold: null
+cooldowns:
+  - {name: Taunt, use_when: "threat lost; chain Intercept -> Defensive Stance -> Taunt in one GCD"}
+  - {name: Mocking Blow, use_when: "Taunt on cooldown (Battle Stance)"}
+  - {name: Challenging Shout, use_when: "all taunts on cooldown / multiple loose mobs"}
+  - {name: Shield Wall, use_when: "emergency; ends if shield unequipped; shares 30-min CD with Recklessness/Retaliation"}
+  - {name: Last Stand, use_when: "emergency"}
+  - {name: Shield Block, use_when: "boss tanking on cooldown; optional in low-level dungeons (contested)"}
+  - {name: Berserker Rage, use_when: "fears (stance dance)"}
+  - {name: Bloodrage, use_when: "pre-pull and on cooldown"}
+resource_rules:
+  - "Conserve rage at the end of a pull for the next one"
+  - "Reprisal refunds Revenge rage"
+  - "More avoidance/tier gear = less rage; keep a dungeon/rage set"
+  - "Defensive Tactics: Battle Stance threat ~1.512x vs Defensive 1.495x with Defiance 5/5 (Ellifta math), at the cost of 10% DR and Shield Block"
+consumables: []
+mistakes_to_avoid:
+  - "Wearing full T1/T2/T3 tank sets for threat (Ellifta: use T2 shoulders/legs/boots + off-pieces)"
+  - "Letting Shield Block overwrite the Improved Shield Slam charge without noticing"
+  - "Leaving Defensive Stance without Defensive Tactics"
+  - "Spending all rage before the next pull"
+  - "Copying pre-CC2 talent lists (Improved Shield Block, Improved Sunder Armor)"

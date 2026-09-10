@@ -1,0 +1,103 @@
+# Warrior / Arms / PvP — companion to synthesis/classes/warrior/arms-pvp.md (includes Fury and Protection PvP notes)
+class: Warrior
+spec: Arms
+role: pvp
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102974#p102974", author: Dragunovi, authority: staff, date: "2024-10-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460", author: Jamey, authority: staff, date: "2024-12-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504", author: Torta, authority: staff, date: "2025-03-30"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: "2025-07-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=24464#p24464", author: Kerebrien, authority: player, date: "2022-09-06"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=47208#p47208", author: Citramate, authority: player, date: "2023-05-24"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=47724#p47724", author: Iambuck, authority: player, date: "2023-05-28"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=62559#p62559", author: Bloodline1x9, authority: player, date: "2023-09-10"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=89398#p89398", author: Chudman123, authority: player, date: "2024-03-04"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=89403#p89403", author: Gantulga, authority: player, date: "2024-03-04"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=103288#p103288", author: Xudo, authority: player, date: "2024-10-17"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=103527#p103527", author: Manletow, authority: player, date: "2024-10-18"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=104533#p104533", author: Springboards, authority: player, date: "2024-10-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=105917#p105917", author: Xudo, authority: player, date: "2024-11-02"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108331#p108331", author: Manletow, authority: player, date: "2024-11-17"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=112703#p112703", author: Manletow, authority: player, date: "2024-12-14"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=139157#p139157", author: Manletow, authority: player, date: "2025-07-14"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=140712#p140712", author: Thaladar, authority: player, date: "2025-07-21"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=144634#p144634", author: Wsta, authority: player, date: "2025-08-11"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=152740#p152740", author: Snoof, authority: player, date: "2025-09-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=152804#p152804", author: Cheruscan, authority: player, date: "2025-09-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=155525#p155525", author: Eyeburn, authority: player, date: "2025-10-14"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=155546#p155546", author: Xudo, authority: player, date: "2025-10-14"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=162626#p162626", author: Springboards, authority: player, date: "2025-12-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=162631#p162631", author: Atreidon, authority: player, date: "2025-12-13"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=164130#p164130", author: Springboards, authority: player, date: "2025-12-31"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=164520#p164520", author: Atreidon, authority: player, date: "2026-01-06"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=169850#p169850", author: Eyeburn, authority: player, date: "2026-03-02"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171300#p171300", author: Magicknight, authority: player, date: "2026-03-19"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=172120#p172120", author: Mdzielak, authority: player, date: "2026-03-24"}
+agreement: "contested overall (F-tier vs strongest-with-support); consensus on: Arms for Mortal Strike, stamina gearing, play with healers/dispellers, FAP and consumables, avoid 1v1 and enhancement shamans"
+patch_validity:
+  written_for: "CC3 / 1.18.0 kit; Hamstring-cooldown-era posts flagged"
+  valid_for_1181: true
+  notes: "1.18.1 removed the Hamstring cooldown (added at CC2) and made PvP dampening class-specific (numbers not in repo). Master Strike (CC3) replaced Counterattack (CC2). Decisive Strike builds (pre-Dec-2024) obsolete. No post-1.18.1 re-evaluation."
+talents:
+  build_name: "Arms PvP (sourced pieces only)"
+  points:
+    - {tree: Arms, talent: Mortal Strike, rank: 1, spell_id: null}
+    - {tree: Arms, talent: Improved Hamstring, rank: null, spell_id: null}
+    - {tree: Arms, talent: Sweeping Strikes, rank: 1, spell_id: null}
+    - {tree: Arms, talent: Master Strike, rank: 1, spell_id: null}
+    - {tree: Arms, talent: Master of Arms, rank: 5, spell_id: null, note: "polearm +2 yd range (Manletow, single source)"}
+    - {tree: Arms, talent: Tactical Mastery, rank: 4, spell_id: null, note: "Disarm needs 20 rage"}
+    - {tree: Arms, talent: Improved Charge, rank: 1, spell_id: null, note: "Charge gives 9 rage baseline; abilities need 10"}
+    - {tree: Fury, talent: Booming Voice, rank: null, spell_id: null, note: "level-19 build (stealth breaking)"}
+    - {tree: Fury, talent: Piercing Howl, rank: 1, spell_id: null}
+    - {tree: Protection, talent: Improved Intervene, rank: 2, spell_id: null, note: "root/snare immunity 3 s; row 3"}
+  variants:
+    - name: "Fury PvP (post-CC3)"
+      points:
+        - {tree: Fury, talent: Blood Drinker, rank: 3, spell_id: null}
+        - {tree: Fury, talent: Improved Berserker Rage, rank: 2, spell_id: null}
+        - {tree: Fury, talent: Death Wish, rank: 1, spell_id: null}
+        - {tree: Fury, talent: Enrage, rank: 5, spell_id: null}
+      note: "dual wield; Thunderfury procs trigger the heal (Eyeburn p=169850, single source)"
+    - name: "Protection PvP"
+      note: "Concussion Blow stun + Shield Slam dispel (Manletow p=112703); deep prot + Thunderfury vs enh shaman (ferundal p=168167); widely considered a meme"
+  leveling_order: []
+stat_weights: null
+stat_priority: [stamina, weapon-top-end-damage, hit, crit, attack-power]
+caps:
+  hp_unbuffed_target: "5.5k-7k (Springboards; player advice, not a cap)"
+  hit: null
+rotation_single:
+  - {priority: 0, action: "Charge (out of combat) or Intercept (Berserker Stance) -> Hamstring", condition: "opener; Bloodrage + Demoralizing Shout vs stealthed rogue"}
+  - {priority: 1, action: Mortal Strike, condition: "off cooldown"}
+  - {priority: 2, action: Overpower, condition: "target dodged (Battle Stance)"}
+  - {priority: 3, action: Execute, condition: "target <= 20%"}
+  - {priority: 4, action: Master Strike, condition: "situational CC by main-hand type: dagger silence / axe root / sword disarm / mace disorient"}
+  - {priority: 5, action: Pummel, condition: "enemy casting (Battle Stance since CC2)"}
+  - {priority: 6, action: Disarm, condition: "vs melee; keep 20 rage"}
+  - {priority: 7, action: Intimidating Shout, condition: "peel/escape; unreliable vs WotF/tremor"}
+  - {priority: 8, action: Hamstring, condition: "keep snare up; no cooldown since 1.18.1"}
+rotation_aoe:
+  - {targets_min: 2, priority: 1, action: Sweeping Strikes, condition: "then Whirlwind/Cleave"}
+  - {targets_min: 2, priority: 2, action: Piercing Howl, condition: "AoE snare, no cooldown"}
+  - {targets_min: 2, priority: 3, action: Intimidating Shout, condition: "AoE fear"}
+  - {targets_min: 4, priority: 1, action: "do not Whirlwind into the group", condition: "Manletow p=108331; use War Stomp if Tauren"}
+aoe_threshold: null
+cooldowns:
+  - {name: Free Action Potion, use_when: "on cooldown in serious fights (consensus)"}
+  - {name: Recklessness / Retaliation / Shield Wall, use_when: "shared 30-min CD; once per BG or two"}
+  - {name: Berserker Rage, use_when: "fear immunity; with Improved Berserker Rage a root/snare break every 30 s"}
+  - {name: Engineering gadgets, use_when: "as available"}
+resource_rules:
+  - "Every fight starts at 0 rage; Charge gives 9"
+  - "Absorb shields give no rage (player complaint)"
+  - "Tactical Mastery to keep Disarm rage across stances"
+consumables: [Free Action Potion, Living Action Potion, tea/sugar, Frost Reflector, Sheen of Zanza, Greater Holy Protection Potion, Crystal of Zin-Malor, Lifegiving Gem (trinket), engineering gadgets]
+mistakes_to_avoid:
+  - "Solo queue / seeking 1v1s"
+  - "Glass-cannon gearing with ~4k HP"
+  - "Whirlwind-into-the-zerg opener"
+  - "No FAP/consumables"
+  - "Melee-ing enhancement shamans"
+  - "Using 2024-11..2026-03 Hamstring-cooldown advice as current"
