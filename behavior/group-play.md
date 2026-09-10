@@ -48,7 +48,7 @@ Raid loot etiquette threads treat the main tank's gear priority as understood co
 
 Turtle WoW has no single server-wide loot system; groups negotiate need/greed, soft reserve (SR), "MS>OS" priority and hard reserve (HR) ad hoc, and disputes over these rules are the most-cited group-play friction in the corpus (136 posts mention "ninja", 76 mention "soft reserve"/"SR").
 
-**Soft reserve (SR).** A guild-run raid ([Player-0088], Thunder Ale) proposed the system that became the community default, later widely copied by other raids and PUGs:
+**Soft reserve (SR).** A guild-run raid (Player-0088, Thunder Ale) proposed the system that became the community default, later widely copied by other raids and PUGs:
 
 > "All players can have 1 (one) item soft reserved per raid and it must be declared at least 6 hours before the start of the raid... MS Roll means you should roll for items that fit your Main Spec... OS Roll will happen if nobody rolls for their Main Specs."
 > — [Player-0088 (player), 2020-05-26](https://forum.turtlecraft.gg/viewtopic.php?p=6125#p6125), Raids, *Soft Reserve*, pre-1.18.1
@@ -82,7 +82,7 @@ A raid-leader-forced SR change mid-raid produced one of the largest loot-etiquet
 
 > "I went to Hateforge Quarry 15 times yesterday. I just need the trinket and this recipe from there. [...] some liar steals it from me! [...] If the administration does not punish you, I will do so. I will tell about you in our guild so that they kick you from everywhere."
 > — [Player-0112 (player), 2023-04-03](https://forum.turtlecraft.gg/viewtopic.php?p=40093#p40093), Help & Support, *BELUGA is the LOOT STEALERS Guild*, pre-1.18.1
-> "I wrote to the Beluga Guild Master (Boravir) He replied "It's not ninja looting because Borntobetank put this recipe in the Guild Bank.""
+> "I wrote to the Beluga Guild Master. He replied "It's not ninja looting because another guild officer put this recipe in the Guild Bank.""
 > — [Player-0115 (player), 2023-04-03](https://forum.turtlecraft.gg/viewtopic.php?p=40147#p40147), Help & Support, *BELUGA is the LOOT STEALERS Guild*, pre-1.18.1
 > "That's not really a "ninja loot". If you wanted to reserve the item, it should have been clearly indicated at the start of the run and confirmed right before initiating combat. [...] If you're still salty, just add him to your tanking shit list."
 > — [Player-0125 (player), 2023-06-12](https://forum.turtlecraft.gg/viewtopic.php?p=49824#p49824), Help & Support, *Ninja loot*, pre-1.18.1
@@ -109,7 +109,7 @@ A raid-design thread on Molten Core praises the original crowd-control assignmen
 
 No thread in the sampled forums documents a formal interrupt-rotation assignment convention (**not found in sources** — Turtle's small dungeon/raid roster and lack of dedicated theorycraft subforum for interrupts means this is passed peer-to-peer, not written up). Kicking, by contrast, is well documented as a loot- and performance-enforcement tool:
 
-> "Henre hard reserved the T2 Judgement Helm... When a PUG mage, nocapskibidi, joined and SRd Formula: Enchant Chest - Greater Stats, he was kicked from the group shortly before the pulls."
+> "The raid leader hard reserved the T2 Judgement Helm... When a PUG mage joined and SRd Formula: Enchant Chest - Greater Stats, he was kicked from the group shortly before the pulls."
 > — [Player-0165 (player), 2025-03-07](https://forum.turtlecraft.gg/viewtopic.php?p=121977#p121977), General, *Accountability General*, pre-1.18.1
 > "I remember a number of hunters kicked from raids (and guilds) for running out of bullets/arrows. Quite embarrassing, especially when word gets out to the server you're on."
 > — [Player-0170 (player), 2025-06-07](https://forum.turtlecraft.gg/viewtopic.php?p=134695#p134695), Hunter, *arrows and bullets*, pre-1.18.1

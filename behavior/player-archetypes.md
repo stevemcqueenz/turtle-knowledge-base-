@@ -136,7 +136,7 @@ Some players are disappointed that the advertised RP identity of the server is t
 
 No self-identified gold-farmer/bot posts exist in the sampled forums (unsurprising — this is against the rules); the archetype is entirely constructed from accusation and staff/player enforcement chatter. "bot"/"botting"/"gold sell*" appear 497 times in forums 3+4 alone, almost all in this register:
 
-> "Of course they all have real players behind them, they just love funny names such as Mcsorecipes, Mcsotailor etc etc"
+> "Of course they all have real players behind them, they just love funny profession-themed names (like a templated "Mcso-" prefix) etc etc"
 > — [Player-0079 (player), 2019-10-20](https://forum.turtlecraft.gg/viewtopic.php?p=4261#p4261), Help & Support, *Tent harassement in Southshore*, pre-1.18.1
 > "Technically gold farmers and bots in vanilla were just using "game mechanics" but they still got banned (... sometimes)."
 > — [Player-0097 (player), 2021-06-30](https://forum.turtlecraft.gg/viewtopic.php?p=11104#p11104), Help & Support, *Ban for playing priest*, pre-1.18.1
@@ -209,7 +209,7 @@ Returning players (to WoW generally, or to Turtle after a break) are a recurring
 
 Staff and community responses to players leaving/returning are notably warm rather than transactional, reinforcing a come-back-anytime culture:
 
-> "You will be very missed, [Player]! Thanks for being a part of our server. I wish you all the best in your life and hope to see you coming back to see us one day again :) Safe travel in real life!"
+> "You will be very missed! Thanks for being a part of our server. I wish you all the best in your life and hope to see you coming back to see us one day again :) Safe travel in real life!"
 > — [Staff-07 (staff), 2020-07-25](https://forum.turtlecraft.gg/viewtopic.php?p=7048#p7048), General, *A long journey comes to an end...*, pre-1.18.1
 
 **Bot persona — Returning player**

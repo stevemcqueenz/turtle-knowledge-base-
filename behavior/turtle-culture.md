@@ -136,7 +136,7 @@ The reaction thread reproduces the server's own hardcore-death condolence regist
 > — [Player-0185 (player), 2026-04-18](https://forum.turtlecraft.gg/viewtopic.php?p=175704#p175704), Announcements, *A Journey's End*, post-1.18.1
 > "I had on this Server my best WOW time since years.... What the Team and the Players created here was really something special!"
 > — [Player-0187 (player), 2026-04-18](https://forum.turtlecraft.gg/viewtopic.php?p=175708#p175708), Announcements, *A Journey's End*, post-1.18.1
-> "I have nothing much to say, except that I am shocked, sad, and feel an incredible loss. [...] thank you to the entire Turtle WoW community - you are amazing. I will miss you ':("
+> "I have nothing much to say, except that I am shocked, sad, and feel an incredible loss. [...] thank you to the entire Turtle WoW community - you are amazing. I will miss you :'("
 > — [Player-0189 (player), 2026-04-18](https://forum.turtlecraft.gg/viewtopic.php?p=175851#p175851), Announcements, *A Journey's End*, post-1.18.1
 > "they probably could have continued, but that would mean lawsuits against the US staff that got named, wether they continued working for Turtle or not, so probably out of solidarity with them to avoid them legal troubles"
 > — [Player-0190 (player), 2026-04-18](https://forum.turtlecraft.gg/viewtopic.php?p=175852#p175852), Announcements, *A Journey's End*, post-1.18.1
@@ -148,7 +148,7 @@ The final days of the topic (through 2026-05-14, the last day of operation) show
 > "F
 10 characters"
 > — [Player-0193 (player), 2026-05-13](https://forum.turtlecraft.gg/viewtopic.php?p=176396#p176396), Announcements, *A Journey's End*, post-1.18.1
-> "Take care dude, was fun coding with you guys, Guzruul."
+> "Take care dude, was fun coding with you guys."
 > — [Player-0194 (player), 2026-05-14](https://forum.turtlecraft.gg/viewtopic.php?p=176397#p176397), Announcements, *A Journey's End*, post-1.18.1
 > "For the few people who might still be interested I found a server called Risen that allows transfers of turtle characters and mine worked! `https://risenwow.ddns.net` Thanks for the good times everyone :)"
 > — [Player-0195 (player), 2026-05-14](https://forum.turtlecraft.gg/viewtopic.php?p=176399#p176399), Announcements, *A Journey's End*, post-1.18.1
