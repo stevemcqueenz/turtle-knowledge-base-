@@ -1,0 +1,1729 @@
+# Bug and issue list for Turtle WoW around patch 1.18.1, compiled from the extracted forum,
+# the 1.18.1 changelog and the patch change table in this repository.
+# Sources: structured/forum/posts/*.jsonl, extracted/forum/**, structured/patches/1.18.1-changes.yaml,
+# synthesis/1.18.1-master-changelog.md. Every report URL is copied from those files; nothing is constructed.
+# Conventions: see synthesis/CONVENTIONS.md. Dates UTC.
+# patch_reported is derived from structured/patches/timeline.yaml: 1.18.0 was live 2025-08-15..2026-03-19,
+# 1.18.1 from 2026-03-20. Where a report predates 1.18.0 the value is the era string only.
+# status: open | confirmed (staff acknowledged it is a bug) | fixed | intended | unclear
+# status_source is the staff post that sets the status, or null when only players speak.
+meta:
+  generated_for: tortoise-wow core test checklist
+  entry_count_note: counts and groupings are summarised in synthesis/issues-summary.md
+  excluded: account, login, password, donation, character-restore and ban-appeal threads are not game
+    bugs and are excluded; 884 such topics were seen in the surveyed forums (f3 719, f4 60, f14 101,
+    f18 3, f37 1).
+  official_bug_tracker: staff repeatedly direct bug reports to https://turtlecraft.gg/bug-tracker; its
+    contents are NOT in this repository, so tracker ids quoted by players are recorded in notes only.
+entries:
+- id: ISS-0001
+  title: Almaudrak's Heart does not drop for the Desolace quest
+  symptom: Player killed the elite NPC Almaudrak in Desolace for the quest of the same name; the corpse
+    contained no Almaudrak's Heart, so the quest could not be completed.
+  reproduction: Take the Almaudrak quest in Desolace, kill Almaudrak, loot the corpse.
+  system: quests
+  subsystem: quest item drop
+  entities: [Almaudrak, Almaudrak's Heart]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: unclear
+  status_source: https://forum.turtlecraft.gg/viewtopic.php?p=154544#p154544
+  severity: major
+  affects: [quest, leveling]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=154515#p154515', author: Kanto123, authority: player, date: '2025-10-05'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=154544#p154544', author: Sleeptime, authority: staff, date: '2025-10-06'}
+  notes: Staff could not reproduce ('I was able to loot Almaudrak's Heart'), suggested addon interference
+    or a visual glitch and advised abandoning and retaking the quest. Not confirmed as a server bug.
+- id: ISS-0002
+  title: Deadwood Headdress Feather stops dropping from Deadwood furbolgs
+  symptom: Player with all Timbermaw prerequisite quests done reports Deadwood Headdress Feathers are not
+    dropping again; older threads reported the same loss from the loot tables.
+  reproduction: Complete Salfa's kill quests and the Timbermaw chain, then farm Deadwood furbolgs in Felwood.
+  system: world
+  subsystem: creature loot
+  entities: [Deadwood Headdress Feather, Deadwood furbolgs, Timbermaw Hold reputation]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: major
+  affects: [leveling, quest]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=161021#p161021', author: Erasertx, authority: player, date: '2025-11-28'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=161044#p161044', author: Pepesmite, authority: staff, date: '2025-11-29'}
+  notes: The staff reply only redirects to the bug tracker; it neither confirms nor denies the bug. Player
+    says the same loss was reported in two older threads (recurring regression).
+- id: ISS-0003
+  title: Quest item Molten Scales cannot be picked up after a group kill
+  symptom: After a group kill of the weekly quest boss for 'Molten Hearts', the player could not receive the
+    quest item Molten Scales while another quest item from a different boss dropped normally.
+  reproduction: Do the weekly Molten Heart quest in a group, kill the quest boss, check bags and bank.
+  system: quests
+  subsystem: group quest credit
+  entities: [Molten Scales, Molten Hearts (weekly quest), Insyndis]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: major
+  affects: [quest, dungeon]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=160231#p160231', author: Antonis, authority: player, date: '2025-11-21'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=160233#p160233', author: Antonis, authority: player, date: '2025-11-21'}
+  notes: Player states a GM first suspected addons; the item was still missing with all addons disabled and
+    was not in the bank. Realm named as Karazhan (Hong Kong).
+- id: ISS-0004
+  title: Kurzen's Mystery - The Second Troll Legend item cannot be taken
+  symptom: The interaction cast bar completes but The Second Troll Legend item is never received, blocking
+    the Kurzen's Mystery quest chain; reproduced by a second player in the same session.
+  reproduction: Take Kurzen's Mystery, interact with the object for The Second Troll Legend, watch the cast
+    bar complete with no item granted.
+  system: quests
+  subsystem: quest object interaction
+  entities: [Kurzen's Mystery, The Second Troll Legend]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: open
+  status_source: null
+  severity: major
+  affects: [quest, leveling]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=174040#p174040', author: Skiwallker, authority: player, date: '2026-04-05'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=174117#p174117', author: Sleeptime, authority: staff, date: '2026-04-05'}
+  notes: Staff reply only redirects to the bug tracker.
+- id: ISS-0005
+  title: Epic Armaments of Battle cannot be turned in with insignias and reputation met
+  symptom: Player holding the required insignias and reputation cannot hand in the quest Epic Armaments of
+    Battle on Nordanaar.
+  reproduction: null
+  system: quests
+  subsystem: quest turn-in
+  entities: [Epic Armaments of Battle]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: major
+  affects: [quest]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=170570#p170570', author: Ivangrozni, authority: player, date: '2026-03-11'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=170622#p170622', author: Sleeptime, authority: staff, date: '2026-03-11'}
+  notes: Staff asked the player to open an in-game ticket; no cause or fix is recorded in the thread.
+- id: ISS-0006
+  title: Quest 'In Dreams' breaks when the disguise is kept until the last step
+  symptom: Player kept the quest disguise through to the final step; the quest then could not be completed,
+    and the reporter says other players are affected too.
+  reproduction: Keep the disguise for the whole quest until the last part of In Dreams.
+  system: quests
+  subsystem: quest script
+  entities: ['In Dreams']
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: major
+  affects: [quest]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=169153#p169153', author: Gummiesqc, authority: player, date: '2026-02-21'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=169489#p169489', author: Sleeptime, authority: staff, date: '2026-02-26'}
+  notes: Report is terse and in broken English; staff redirected to an in-game ticket. Treat details as
+    unverified beyond 'quest cannot be progressed'.
+- id: ISS-0007
+  title: The Missing Diplomat ambusher cannot be attacked and kills hardcore characters
+  symptom: During The Missing Diplomat a player was attacked by three NPCs; the dwarf among them could not be
+    targeted or attacked (cursor showed a friendly target) while it kept damaging the player, who died.
+  reproduction: Start the ambush step of The Missing Diplomat and try to attack the dwarf attacker.
+  system: quests
+  subsystem: NPC faction / attackability
+  entities: [The Missing Diplomat]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: blocker
+  affects: [quest, hardcore]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=161319#p161319', author: Tapxob, authority: player, date: '2025-12-02'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=161336#p161336', author: Tapxob, authority: player, date: '2025-12-02'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=161321#p161321', author: Wsta, authority: player, date: '2025-12-02'}
+  notes: A player (not staff) calls it a known bug. No staff post in the thread; other players state hardcore
+    characters are never restored, so the death stood.
+- id: ISS-0008
+  title: Cannon Master Willey still does not drop Schematic - Enchanted Thorium Shells after the fix
+  symptom: The new Engineering ammunition schematic is reported as still not dropping from Cannon Master
+    Willey after the 2026-04-08 hotfix that claimed to fix the drop.
+  reproduction: Kill Cannon Master Willey in Stratholme repeatedly after 2026-04-08 and check the loot.
+  system: dungeons
+  subsystem: boss loot
+  entities: [Cannon Master Willey, 'Schematic: Enchanted Thorium Shells', Stratholme]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: open
+  status_source: https://forum.turtlecraft.gg/viewtopic.php?p=174367#p174367
+  severity: major
+  affects: [dungeon, profession]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=174621#p174621', author: Roegnvald, authority: player, date: '2026-04-09'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=175240#p175240', author: Roegnvald, authority: player, date: '2026-04-14'}
+  notes: The staff hotfix post (Torta, 2026-04-07) lists the drop fix; the player reports post-date it and
+    quote bug report id 21878. Status in structured/patches/1.18.1-changes.yaml for this item is 'unclear'.
+- id: ISS-0009
+  title: Cairne Bloodhoof missing from Thunder Bluff
+  symptom: Cairne Bloodhoof was absent from his tent in Thunder Bluff for at least two days, which the
+    reporter argues rules out a raid kill.
+  reproduction: null
+  system: world
+  subsystem: NPC spawn
+  entities: [Cairne Bloodhoof, Thunder Bluff]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: unclear
+  status_source: null
+  severity: minor
+  affects: [leveling]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=170876#p170876', author: Thule, authority: player, date: '2026-03-15'}
+  notes: Single report, no staff answer, no confirmation from other players in the thread.
+- id: ISS-0010
+  title: Invisible untargetable NPC attacks players in Alterac Mountains
+  symptom: A player at Dandred's Fold was attacked by a mob identified in the combat log as Trash Collector
+    Gaston (a level 50 friendly Barrens NPC per the database); it was invisible and could not be targeted
+    until it evaded.
+  reproduction: null
+  system: world
+  subsystem: creature visibility / naming
+  entities: [Trash Collector Gaston, Alterac Mountains, Dandred's Fold]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: major
+  affects: [hardcore, leveling]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=164454#p164454', author: Quorindelith, authority: player, date: '2026-01-05'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=164465#p164465', author: Wsta, authority: player, date: '2026-01-05'}
+  notes: A second player links tracker report 16592 ('When an invisible mob is attacking you, the game shows
+    a random mob name'), i.e. the displayed name is probably wrong rather than Gaston being the attacker.
+- id: ISS-0011
+  title: Silithus windstones do not respawn
+  symptom: During a two-hour farming window no normal or large windstones respawned in Silithus, with no
+    other group farming them.
+  reproduction: Farm Silithus windstones for a long session at low population hours.
+  system: world
+  subsystem: gameobject respawn
+  entities: [Silithus, windstones]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: minor
+  affects: [economy]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=153872#p153872', author: Chillingbingz, authority: player, date: '2025-10-01'}
+  notes: Single report, no staff reply.
+- id: ISS-0012
+  title: Players teleported into the lava of the Black Mountain from Balor Island
+  symptom: While playing on Balor Island a player was teleported to 'a black mountain in lava' and died there.
+  reproduction: null
+  system: world
+  subsystem: teleport / instance exit
+  entities: [Balor Island, Blackrock Mountain]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: confirmed
+  status_source: https://forum.turtlecraft.gg/viewtopic.php?p=162596#p162596
+  severity: blocker
+  affects: [leveling, hardcore]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=162584#p162584', author: Hellbolttt727, authority: player, date: '2025-12-12'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=162596#p162596', author: Pepesmite, authority: staff, date: '2025-12-12'}
+  notes: Staff - 'This bug is already being investigated by server management. We will help everyone and
+    resolve this issue.' No fix post found in the sources.
+- id: ISS-0013
+  title: Terrain and textures disappear in the new dwarf village near Gnomeregan
+  symptom: On entering the new dwarven village near Gnomeregan all textures vanished leaving only sky; the
+    player stayed alive and could chat but feared falling through the world on relog.
+  reproduction: Enter the new dwarf village near Gnomeregan.
+  system: world
+  subsystem: terrain / client map data
+  entities: [Gnomeregan (new dwarf village), Dun Morogh]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: blocker
+  affects: [client, hardcore]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=170353#p170353', author: Sandrodeja, authority: player, date: '2026-03-08'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=170369#p170369', author: Pepesmite, authority: staff, date: '2026-03-08'}
+  notes: Staff answer only explains how to reach a GM; no cause given. Relevant to emulators because a
+    map/WMO mismatch of this kind is fatal for hardcore characters.
+- id: ISS-0014
+  title: Fishing in Moonhoof Village and Moonwhisper Coast returns broken or dead catches
+  symptom: Fishing in the new zone produced broken catches (Moonhoof Village) and rare 'dead catches'.
+  reproduction: Fish in Moonhoof Village / Moonwhisper Coast.
+  system: professions
+  subsystem: fishing loot
+  entities: [Moonhoof Village, Moonwhisper Coast, Fishing]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: '1.18.1 hotfix 2026-03-24 (attempt) and 2026-03-31'
+  era: post-1.18.1
+  status: fixed
+  status_source: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  severity: minor
+  affects: [profession]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139', author: Torta, authority: staff, date: '2026-03-24'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490', author: Torta, authority: staff, date: '2026-03-31'}
+  notes: The 2026-03-24 hotfix is worded as 'attempted a fix'; the 2026-03-31 hotfix fixes rare dead catches.
+    Both are staff hotfix entries, so this is a staff-confirmed bug that should be re-tested.
+- id: ISS-0015
+  title: Gilneas fishing returns empty loot windows
+  symptom: Fishing in Gilneas repeatedly opened an empty loot window; reporter suspects missing fish loot
+    tables for the zone.
+  reproduction: Fish in Gilneas and open the catch.
+  system: professions
+  subsystem: fishing loot
+  entities: [Gilneas, Fishing]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: minor
+  affects: [profession]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=167824#p167824', author: Realdsy, authority: player, date: '2026-02-09'}
+  notes: Single report, no staff reply.
+- id: ISS-0016
+  title: Inns in the new zones granted no rested XP
+  symptom: The inn at Moro'gai did not provide rested XP after 1.18.1 release.
+  reproduction: Log out inside the Moro'gai / Moonhoof Village / Earthen Ring inns and check for rested XP.
+  system: world
+  subsystem: inn / rested area
+  entities: [Moro'gai, Moonhoof Village, Earthen Ring]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: '1.18.1 hotfix 2026-04-14'
+  era: post-1.18.1
+  status: fixed
+  status_source: https://forum.turtlecraft.gg/viewtopic.php?p=175230#p175230
+  severity: minor
+  affects: [leveling]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=171714#p171714', author: Berettadin, authority: player, date: '2026-03-22'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=175230#p175230', author: Torta, authority: staff, date: '2026-04-14'}
+  notes: Staff hotfix 'Added rested bonus to the inns in Moonhoof Village and Earthen Ring'.
+- id: ISS-0017
+  title: Gryphon taxi at Talrendis Point could not be dismounted
+  symptom: Players could not dismount from the gryphon taxi at Talrendis Point in Azshara.
+  reproduction: Take the Talrendis Point flight path and try to land.
+  system: world
+  subsystem: flight path / taxi
+  entities: [Talrendis Point, Azshara]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: '1.18.1 hotfix 2026-03-21'
+  era: post-1.18.1
+  status: fixed
+  status_source: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  severity: major
+  affects: [leveling]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608', author: Torta, authority: staff, date: '2026-03-21'}
+  notes: Only the staff hotfix line documents this; no player thread was found in the extraction.
+- id: ISS-0018
+  title: Druid flight masters in Moonglade broken
+  symptom: The Moonglade druid flight masters did not work; fixed by hotfix on release day + 1.
+  reproduction: Use a Moonglade druid flight master.
+  system: world
+  subsystem: flight path / taxi
+  entities: [Moonglade, druid flight masters]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: '1.18.1 hotfix 2026-03-21'
+  era: post-1.18.1
+  status: fixed
+  status_source: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  severity: major
+  affects: ['class:druid', leveling]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608', author: Torta, authority: staff, date: '2026-03-21'}
+  notes: Staff hotfix line only.
+- id: ISS-0019
+  title: Insom'ni's Chest spawned Leni, the Silent Blade for players without the quest
+  symptom: The chest spawned the elite Leni, the Silent Blade regardless of quest state.
+  reproduction: Open Insom'ni's Chest without holding the associated quest.
+  system: world
+  subsystem: gameobject script
+  entities: [Insom'ni's Chest, 'Leni, the Silent Blade']
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: '1.18.1 hotfix 2026-03-31'
+  era: post-1.18.1
+  status: fixed
+  status_source: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  severity: major
+  affects: [hardcore, leveling]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490', author: Torta, authority: staff, date: '2026-03-31'}
+  notes: Staff hotfix line only; dangerous for hardcore, hence listed.
+- id: ISS-0020
+  title: Pets fall below the ground in the Onyxia's Lair tunnel
+  symptom: Pets drop through the floor when the raid takes the tunnel after the first boss of the extended
+    Onyxia's Lair.
+  reproduction: Enter Onyxia's Lair with a pet class and pass the tunnel after the first boss.
+  system: raids
+  subsystem: pathing / collision
+  entities: [Onyxia's Lair, Broodcommander Axelus]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: open
+  status_source: null
+  severity: major
+  affects: [raid, 'class:hunter', 'class:warlock']
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=171787#p171787', author: Lane13, authority: player, date: '2026-03-22'}
+  notes: Recorded in the changelog notes for the Onyxia's Lair extension; no staff answer found.
+- id: ISS-0021
+  title: Firemaw void zones spawn out of line of sight or far from the fight
+  symptom: Void zones in the Firemaw encounter spawn inside walls, in the air, under hay stacks, out of line
+    of sight, or 80+ yards away, appearing invisible to the raid.
+  reproduction: Fight Firemaw in Blackwing Lair after 1.18.1 and watch void zone placement.
+  system: raids
+  subsystem: boss mechanic placement
+  entities: [Firemaw, Blackwing Lair]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: open
+  status_source: null
+  severity: major
+  affects: [raid]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=173564#p173564', author: Travoltino, authority: player, date: '2026-04-01'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=174380#p174380', author: Travoltino, authority: player, date: '2026-04-07'}
+  notes: Same reporter twice, six days apart, i.e. not fixed in between. No staff reply in the sources.
+- id: ISS-0022
+  title: Nefarian's fear pushes raiders out of the throne room into an unreachable area
+  symptom: During the Nefarian encounter several raid members were knocked off the map into an area that
+    looked like Burning Steppes; they were out of resurrection range and could not be summoned back.
+  reproduction: Fight Nefarian in Blackwing Lair; observe players leaving the throne room after a fear.
+  system: raids
+  subsystem: boss mechanic / map bounds
+  entities: [Nefarian, Blackwing Lair]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: open
+  status_source: null
+  severity: blocker
+  affects: [raid]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=171723#p171723', author: Nwhermit, authority: player, date: '2026-03-22'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=171724#p171724', author: Drubarrymooer, authority: player, date: '2026-03-22'}
+  notes: Second player says the bug is already in the tracker and that the encounter also crashed randomly
+    for his group.
+- id: ISS-0023
+  title: Warrior Intercept on Ragnaros drops the player under the floor and out of the instance
+  symptom: Using Intercept during the Ragnaros fight put the warrior under the floor into a dead zone; the
+    player was teleported out and could not re-enter the raid, losing the loot; a second warrior had the same
+    problem and it happened twice.
+  reproduction: Use Intercept on Ragnaros in Molten Core.
+  system: raids
+  subsystem: movement ability / collision
+  entities: [Ragnaros, Molten Core, Intercept]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: blocker
+  affects: [raid, 'class:warrior']
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=166460#p166460', author: Dertazzler, authority: player, date: '2026-01-25'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=167550#p167550', author: Sleeptime, authority: staff, date: '2026-02-06'}
+  notes: Staff confirmed the GM ruling (no item restoration) and redirected to the bug tracker; they did not
+    dispute that a bug occurred. Re-entry after the port-out is the second half of the bug.
+- id: ISS-0024
+  title: Golemagg's Core Hounds ignore threat and cannot be held
+  symptom: Raid reports the Golemagg adds swing between huge threat on random players and full threat resets;
+    tanks cannot hold them and the slow debuff cannot be removed with Hand of Freedom.
+  reproduction: Fight Golemagg in Molten Core and watch add threat around 60%/50% boss health.
+  system: raids
+  subsystem: threat / fixate
+  entities: [Golemagg the Incinerator, Core Rager, Molten Core]
+  entity_ids: []
+  patch_reported: '1.17.x'
+  patch_fixed: null
+  era: pre-1.18.1
+  status: unclear
+  status_source: null
+  severity: major
+  affects: [raid]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=148264#p148264', author: Blackfox, authority: player, date: '2025-08-25'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=148274#p148274', author: Alovander, authority: player, date: '2025-08-25'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=148301#p148301', author: Drubarrymooer, authority: player, date: '2025-08-25'}
+  notes: Players disagree whether the fixate is intended (enrage at 60/50% health) and whether the adds are
+    tauntable off the fixate target. No staff statement found; contested.
+- id: ISS-0025
+  title: Warrior One-Handed Weapon Specialization only increases auto-attack damage
+  symptom: The talent is described as increasing damage dealt with one-handed weapons by 2/4/6/8/10%, but
+    players report only white auto-swing damage is increased, unlike the paladin equivalent which boosts all
+    damage.
+  reproduction: Spec One-Handed Weapon Specialization and compare ability damage (Heroic Strike, Mortal
+    Strike) with and without the talent.
+  system: classes
+  subsystem: talent
+  entities: [One-Handed Weapon Specialization]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: unclear
+  status_source: null
+  severity: major
+  affects: ['class:warrior', raid, pvp]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=169310#p169310', author: Eyeburn, authority: player, date: '2026-02-24'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=169327#p169327', author: Magicknight, authority: player, date: '2026-02-24'}
+  notes: Contested - another player argues the tooltip only promises one-handed weapon damage, so the
+    behaviour may match the text. 36-post thread, no staff statement. Title says 'still not working as
+    intended', implying earlier reports.
+- id: ISS-0026
+  title: Holy Strike and Crusader give no benefit when the attack misses, is dodged or parried
+  symptom: Paladin players report Holy Strike does not heal when the swing is parried, dodged or missed, and
+    that untalented Holy Strike has no scaling.
+  reproduction: Cast Holy Strike on a target that dodges or parries and watch for the heal.
+  system: classes
+  subsystem: ability
+  entities: [Holy Strike, Crusader]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: '1.18.1 hotfix 2026-03-21 (reported still broken afterwards, then reported fixed 2026-03-23)'
+  era: post-1.18.1
+  status: fixed
+  status_source: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  severity: major
+  affects: ['class:paladin', raid, pvp]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=171678#p171678', author: Ellifta, authority: player, date: '2026-03-21'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=171906#p171906', author: Ellifta, authority: player, date: '2026-03-23'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=172110#p172110', author: Aleyar, authority: player, date: '2026-03-24'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=172112#p172112', author: Ellifta, authority: player, date: '2026-03-24'}
+  notes: The 2026-03-21 staff hotfix claims the fix; players reported it still broken for two more days and
+    then working after a restart on the evening of 2026-03-23. Retest both the miss and the parry/dodge case.
+- id: ISS-0027
+  title: Holy Strike heals the wrong targets (full-health players next to dying ones)
+  symptom: After the 'no longer heals more targets than intended' hotfix, players report Holy Strike healing
+    full-health targets standing next to dying players, and are unsure whether it now heals the party instead
+    of the closest four players.
+  reproduction: Use Holy Strike in a raid with injured and healthy players inside the heal radius.
+  system: classes
+  subsystem: ability targeting
+  entities: [Holy Strike]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: open
+  status_source: null
+  severity: minor
+  affects: ['class:paladin', raid]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=172826#p172826', author: Andant, authority: player, date: '2026-03-28'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=173520#p173520', author: Ellifta, authority: player, date: '2026-03-31'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=174397#p174397', author: Eroh, authority: player, date: '2026-04-08'}
+  notes: Players quote bug report id 21117. The intended target selection is not documented in any staff post
+    found here - a gap for the emulator.
+- id: ISS-0028
+  title: Holy Strike plays the damage flash on the caster as well as the target
+  symptom: Holy Strike shows the 'being hit' visual flash on the paladin himself in addition to the enemy,
+    unlike other strike abilities.
+  reproduction: Cast Holy Strike and watch the caster model.
+  system: classes
+  subsystem: spell visual
+  entities: [Holy Strike]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: cosmetic
+  affects: ['class:paladin', client]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=155223#p155223', author: Oldenwisp, authority: player, date: '2025-10-12'}
+  notes: Single report, no staff reply.
+- id: ISS-0029
+  title: Paladin Ironclad heal reported missing
+  symptom: A player reports the Ironclad talent does not add its heal (about 136 missing); another player
+    tested it and says it works and only the character sheet display is wrong.
+  reproduction: null
+  system: classes
+  subsystem: talent
+  entities: [Ironclad]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: unclear
+  status_source: null
+  severity: minor
+  affects: ['class:paladin']
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=172199#p172199', author: Hardcorblade, authority: player, date: '2026-03-24'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=172204#p172204', author: Osmose85, authority: player, date: '2026-03-24'}
+  notes: Contested between two players; no staff statement. structured/patches/1.18.1-changes.yaml lists this
+    as 'unclear' with no staff change.
+- id: ISS-0030
+  title: Glyph of the Moon / Glyph of Stars gives night elf druids a tauren moonkin model
+  symptom: Night elf balance druids using Glyph of the Moon or Glyph of Stars appear as a small tauren, or a
+    male tauren with a female night elf texture; one player reports a 'topless fem night elf' model.
+  reproduction: Apply Glyph of the Moon as an Alliance night elf druid and enter moonkin form.
+  system: classes
+  subsystem: model / display
+  entities: [Glyph of the Moon, Glyph of Stars, Moonkin Form]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: '1.18.1 hotfix 2026-03-31'
+  era: post-1.18.1
+  status: fixed
+  status_source: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  severity: cosmetic
+  affects: ['class:druid', client]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=171837#p171837', author: Ayesha, authority: player, date: '2026-03-22'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=172234#p172234', author: Nemesisax, authority: player, date: '2026-03-24'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=172275#p172275', author: Sleeptime, authority: staff, date: '2026-03-25'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=172405#p172405', author: Ayesha, authority: player, date: '2026-03-25'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=172607#p172607', author: Gorlocktheglock, authority: player, date: '2026-03-26'}
+  notes: Staff on 2026-03-25 - 'Our QA team is aware of the issue and is working to get it fixed'. One player
+    reported it solved the same day, two others still saw wrong models on 25 and 26 March; the changelog
+    hotfix that corrects the visual is dated 2026-03-31.
+- id: ISS-0031
+  title: Moonkin Form icon duplicated on the shapeshift bar and lost from the action bar
+  symptom: Activating Moonkin Form via the Goblin Brainwashing Device produced two identical Moonkin icons on
+    the shapeshift bar and removed the Moonkin icon from the main action bar; relogging only fixes the
+    duplicate, the action bar button must be dragged back every time.
+  reproduction: Use the Goblin Brainwashing Device to enable Moonkin Form with all addons disabled.
+  system: classes
+  subsystem: action bar / shapeshift
+  entities: [Moonkin Form, Goblin Brainwashing Device]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: minor
+  affects: ['class:druid', ui]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=155356#p155356', author: Tokai, authority: player, date: '2025-10-13'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=159514#p159514', author: Siroko, authority: player, date: '2025-11-13'}
+  notes: Reporter states all addons were disabled; a second player replied a month later, so it persisted.
+- id: ISS-0032
+  title: Balance druid DoT ticks and Hurricane do not trigger chance-on-hit items
+  symptom: With the new Fortune stat in place, a balance druid reports Moonfire and Insect Swarm ticks and
+    Hurricane never proc item effects (Scythe, Clackora, Sigil).
+  reproduction: Equip proc trinkets/weapons and channel Hurricane or keep DoTs rolling; watch for procs.
+  system: classes
+  subsystem: proc mechanics
+  entities: [Fortune, Moonfire, Insect Swarm, Hurricane]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: unclear
+  status_source: null
+  severity: minor
+  affects: ['class:druid', raid]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=172025#p172025', author: Auralys, authority: player, date: '2026-03-23'}
+  notes: Whether periodic damage should proc these items is not stated in any staff source found; the
+    itemization changelog only defines Fortune (Dragunovi, staff, 2026-02-15).
+- id: ISS-0033
+  title: Hunter talent Improved Primal Aspects grants no healing
+  symptom: The talent states it heals for 6% of melee damage done while in Aspect of the Wolf; players get no
+    healing at all.
+  reproduction: Spec Improved Primal Aspects, enter Aspect of the Wolf and melee a target.
+  system: classes
+  subsystem: talent
+  entities: [Improved Primal Aspects, Aspect of the Wolf]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: major
+  affects: ['class:hunter']
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=165469#p165469', author: Rewiel, authority: player, date: '2026-01-17'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=165475#p165475', author: Ricardin, authority: player, date: '2026-01-17'}
+  notes: Reporter says an earlier thread about the same talent died without an answer and that the tracker has
+    carried it for a long time.
+- id: ISS-0034
+  title: Hunter shots have no cast bar although the patch notes announce one
+  symptom: The 1.18.1 notes state hunter shots now have cast bars; players see no cast bars for Multi-Shot,
+    Aimed Shot, Steady Shot or Volley without addons.
+  reproduction: Cast Aimed Shot / Multi-Shot with a default UI after 1.18.1.
+  system: classes
+  subsystem: client UI / spell cast
+  entities: [Aimed Shot, Multi-Shot, Steady Shot, Volley]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: open
+  status_source: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  severity: minor
+  affects: ['class:hunter', client, ui]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=171574#p171574', author: Plagues2, authority: player, date: '2026-03-21'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=171632#p171632', author: Plagues2, authority: player, date: '2026-03-21'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=171855#p171855', author: Plagues2, authority: player, date: '2026-03-23'}
+  notes: status_source is the staff patch-note post that promises the feature; no staff reply about it
+    failing. Marked 'unclear' in structured/patches/1.18.1-changes.yaml.
+- id: ISS-0035
+  title: Volley ground preview cannot be shown while moving for some hunters
+  symptom: One hunter must stand still to get the Volley target circle ('Can't do that while moving') while
+    guildmates can place it while moving; worked before the 1.18.1 Volley changes; persists with no addons
+    and after a reinstall.
+  reproduction: Cast Volley while running after 1.18.1 with a clean client.
+  system: classes
+  subsystem: ability targeting
+  entities: [Volley]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: open
+  status_source: null
+  severity: minor
+  affects: ['class:hunter', pvp]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=172198#p172198', author: Sqant, authority: player, date: '2026-03-24'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=172209#p172209', author: Sqant, authority: player, date: '2026-03-24'}
+  notes: Inconsistent between players, which points at client state or a per-character flag rather than a
+    plain spell attribute.
+- id: ISS-0036
+  title: Feign Death / trap macros stopped working in PvP combat
+  symptom: Hunters report their Feign Death + trap macros suddenly stopped firing, or fire with extreme
+    delay, specifically while in PvP combat, after an undocumented change.
+  reproduction: Use a FD-then-trap macro while in combat against a player.
+  system: classes
+  subsystem: ability / macro timing
+  entities: [Feign Death, Freezing Trap]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: unclear
+  status_source: null
+  severity: major
+  affects: ['class:hunter', pvp]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=166415#p166415', author: Solveit, authority: player, date: '2026-01-25'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=170645#p170645', author: Baek, authority: player, date: '2026-03-12'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=170657#p170657', author: Spitfire33, authority: player, date: '2026-03-12'}
+  notes: Other hunters say the macros were always unreliable and post manual workarounds; no changelog entry
+    and no staff answer, so cause and intended behaviour are unknown.
+- id: ISS-0037
+  title: Aspect of the Viper mana regeneration generates threat
+  symptom: Hunter reports that mana ticks from Aspect of the Viper put him on the threat table, so mobs the
+    pet has not attacked come to the hunter.
+  reproduction: Send the pet into a pack of three, attack only one, stay in Aspect of the Viper.
+  system: classes
+  subsystem: threat
+  entities: [Aspect of the Viper]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: unclear
+  status_source: null
+  severity: minor
+  affects: ['class:hunter', dungeon]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=171824#p171824', author: Lokalpop, authority: player, date: '2026-03-22'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=171851#p171851', author: Huldra, authority: player, date: '2026-03-23'}
+  notes: A second player says all resource generation generates threat (mana potions included) and considers
+    it normal; no staff statement. Vanilla baseline (not from turtlecraft.gg) also has mana-gain threat, so
+    this may be correct behaviour.
+- id: ISS-0038
+  title: Serpent Sting and the pet's poison spit cancel each other
+  symptom: Hunter reports Serpent Sting and a serpent pet's poison spit overwrite one another.
+  reproduction: Apply Serpent Sting, then have a serpent pet use poison spit on the same target.
+  system: classes
+  subsystem: aura stacking
+  entities: [Serpent Sting, Poison Spit]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: open
+  status_source: null
+  severity: minor
+  affects: ['class:hunter']
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=171855#p171855', author: Plagues2, authority: player, date: '2026-03-23'}
+  notes: Reported in a post-patch bug list thread; no staff answer.
+- id: ISS-0039
+  title: Earthquake only lands two hits and the second hit ignores Elemental Fury
+  symptom: Elemental shamans report the Earthquake capstone hits twice instead of three times after 1.18.1
+    with no note in the changelog, and that the second hit does not benefit from Elemental Fury.
+  reproduction: Cast Earthquake with Elemental Fury talented and count the hits and crit multiplier.
+  system: classes
+  subsystem: talent / spell damage
+  entities: [Earthquake, Elemental Fury, Totem of Distant Tremors]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: open
+  status_source: null
+  severity: major
+  affects: ['class:shaman', raid]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=171503#p171503', author: Kokuyoo, authority: player, date: '2026-03-20'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=171699#p171699', author: Duids, authority: player, date: '2026-03-21'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=172687#p172687', author: Mdzielak, authority: player, date: '2026-03-27'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=174373#p174373', author: Kokuyoo, authority: player, date: '2026-04-07'}
+  notes: The release notes say only 'Fixed multiple issues with the Shaman Earthquake talent' (Torta, staff,
+    2025-10-03, https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168) without numbers, so players
+    cannot tell bug from nerf. Contested - one player was told it was never meant to hit three times.
+- id: ISS-0040
+  title: Earthen Bulwark does not build up from melee abilities
+  symptom: Rockbiter / Earthen Bulwark stacks only from white auto attacks and not from Stormstrike or
+    Lightning Strike; reported before and after the 2026-03-25 hotfix that was supposed to fix it.
+  reproduction: Use only Stormstrike and Lightning Strike with Rockbiter Weapon and watch the stack count.
+  system: classes
+  subsystem: talent / proc
+  entities: [Earthen Bulwark, Rockbiter Weapon, Stormstrike, Lightning Strike]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: '1.18.1 hotfix 2026-03-24 (players report it still not working on 2026-03-25 and 2026-04-07)'
+  era: post-1.18.1
+  status: open
+  status_source: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  severity: major
+  affects: ['class:shaman', pvp, raid]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=171660#p171660', author: Travoltino, authority: player, date: '2026-03-21'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=172349#p172349', author: Travoltino, authority: player, date: '2026-03-25'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=174380#p174380', author: Travoltino, authority: player, date: '2026-04-07'}
+  notes: Staff hotfix says 'Earthen Bulwark will build up from melee abilities as well'; the same reporter
+    says 'STILL not stacking' two weeks later.
+- id: ISS-0041
+  title: Lightning Strike disappears from the shaman talent tree after relogging
+  symptom: After the hotfix that restored missing Lightning Strike ranks at trainers, a player reports the
+    talent still vanishes from the tree after a relog.
+  reproduction: Learn Lightning Strike, log out and back in, open the talent tree.
+  system: classes
+  subsystem: talent persistence
+  entities: [Lightning Strike]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: open
+  status_source: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  severity: major
+  affects: ['class:shaman']
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=172467#p172467', author: Gottabe, authority: player, date: '2026-03-25'}
+  notes: status_source is the 2026-03-24 hotfix that fixed the missing trainer ranks; the relog problem is
+    separate and unanswered. Compare the 2025-11-05 changelog line 'Players can no longer learn talents
+    while dead. This resolves intermittent issues where such talents did not work until relog'.
+- id: ISS-0042
+  title: Enhancement Flurry does not trigger from imbue crits and is overwritten by Windfury
+  symptom: Flurry (Shaman) was reported to trigger only from direct spell crits, Stormstrike and Lightning
+    Strike - not from Flametongue/Frostbrand imbue crits - and to be overwritten by the Windfury effect of
+    Elemental Weapons.
+  reproduction: Melee with Flametongue Weapon and Elemental Weapons talented; watch Flurry uptime.
+  system: classes
+  subsystem: talent / proc
+  entities: [Flurry (Shaman), Elemental Weapons, Windfury Weapon, Flametongue Weapon]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: '1.18.1 hotfixes 2026-03-21, 2026-03-24 and 2026-03-31'
+  era: post-1.18.1
+  status: fixed
+  status_source: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  severity: major
+  affects: ['class:shaman', raid]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=171655#p171655', author: Splitsec, authority: player, date: '2026-03-21'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=171740#p171740', author: Volth, authority: player, date: '2026-03-22'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=172153#p172153', author: Travoltino, authority: player, date: '2026-03-24'}
+  notes: Three staff hotfixes touch it (consumption on attack, trigger conditions, Rushing Winds stacking).
+    Whether Windfury still overrides Flurry was asked by a player and not answered.
+- id: ISS-0043
+  title: Totem mana regeneration bonus (+8 mana per 5 sec) does not apply
+  symptom: Player posts screenshots showing the +8 mana every 5 seconds bonus is not applied while the totem
+    is active.
+  reproduction: Drop the totem and compare mana regeneration on the character sheet and in combat.
+  system: classes
+  subsystem: totem aura
+  entities: [Mana Spring Totem]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: major
+  affects: ['class:shaman', raid]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=165049#p165049', author: Brinelbka, authority: player, date: '2026-01-13'}
+  notes: The thread title says 'The shaman's totem does not work'; the exact totem/item granting the +8 mp5 is
+    only visible in the linked screenshots, which are not in the extraction - treat the entity as probable.
+- id: ISS-0044
+  title: Shadow Weaving is not applied by Mana Burn or Pain Spike
+  symptom: The talent grants a Shadow Weaving stack for shadow damage spells, but Mana Burn and Pain Spike -
+    both shadow school - do not apply or refresh it.
+  reproduction: Cast Mana Burn or Pain Spike on a target with no Shadow Weaving stacks and watch the debuff.
+  system: classes
+  subsystem: talent
+  entities: [Shadow Weaving, Mana Burn, Pain Spike]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: open
+  status_source: null
+  severity: minor
+  affects: ['class:priest', raid, pvp]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=172114#p172114', author: Randey, authority: player, date: '2026-03-24'}
+  notes: The reporter says he duplicated the report on the bug tracker.
+- id: ISS-0045
+  title: Troll priest Shadowguard is visible through walls and terrain
+  symptom: The Shadowguard visual is rendered through walls and terrain, revealing the priest's position in
+    PvP; the reporter says the same was reported over a year earlier (tracker id 10302).
+  reproduction: Cast Shadowguard and look at the priest from the other side of a wall.
+  system: classes
+  subsystem: spell visual
+  entities: [Shadowguard]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: minor
+  affects: ['class:priest', pvp, client]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=165479#p165479', author: Raroro, authority: player, date: '2026-01-17'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=165517#p165517', author: Terrydavis, authority: player, date: '2026-01-18'}
+  notes: A second player argues that nameplates already reveal players through walls, i.e. disputes the
+    severity, not the effect. No staff answer.
+- id: ISS-0046
+  title: Warlock Grimoire ranks do not work (Devour Magic autocast, Spell Lock silence)
+  symptom: Grimoire of Devour Magic (Rank 4) leaves the pet's auto-cast toggle without effect, and Grimoire of
+    Spell Lock (Rank 2) applies no silence - a shielded priest can keep casting after a successful lock.
+  reproduction: Teach the pet the listed grimoire ranks and use autocast / Spell Lock against a caster.
+  system: classes
+  subsystem: pet ability
+  entities: [Grimoire of Devour Magic (Rank 4), Grimoire of Spell Lock (Rank 2)]
+  entity_ids: [16383, 16389]
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: major
+  affects: ['class:warlock', pvp]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=154928#p154928', author: Cyclist, authority: player, date: '2025-10-09'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=154929#p154929', author: Hctwowfan, authority: player, date: '2025-10-09'}
+  notes: Entity ids are the spell ids quoted by the reporter. A second player adds that 'Grimoire of Patience
+    (Rank 1)' also seems not to work. Another player could not find the Devour Magic report on the tracker.
+- id: ISS-0047
+  title: Spellstone removes buffs when used
+  symptom: The Spellstone tooltip promises a threat reduction for spells; using it also removes buffs from the
+    warlock.
+  reproduction: Buff up, use the Spellstone, compare the buff bar.
+  system: classes
+  subsystem: item / ability interaction
+  entities: [Spellstone]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: unclear
+  status_source: null
+  severity: minor
+  affects: ['class:warlock']
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=160260#p160260', author: Stanzeproz, authority: player, date: '2025-11-21'}
+  notes: Reporter explicitly asks whether it is a bug or intended; no answer in the thread.
+- id: ISS-0048
+  title: Warlock Tier 2.5 set bonus doomguards do not fight
+  symptom: Doomguards summoned by the T2.5 set bonus never attack, making the bonus useless.
+  reproduction: Wear the T2.5 bonus, trigger the doomguard summon in combat.
+  system: classes
+  subsystem: set bonus / pet AI
+  entities: [Warlock Tier 2.5, Doomguard]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: major
+  affects: ['class:warlock', raid]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=166386#p166386', author: Aeotald, authority: player, date: '2026-01-25'}
+  notes: Single report; the only reply is a joke. No staff answer.
+- id: ISS-0049
+  title: Greater and enslaved demon pets lag behind, path badly and cannot cross water
+  symptom: After a change around 2026-01-08 enslaved demons and greater demon pets (infernal, felguard,
+    doomguard) hesitate for one to two seconds before following, fall far behind mounted players and get lost
+    on open terrain; a separate report says pets could no longer cross water after a patch, including
+    enslaved demons in Zul'Gurub.
+  reproduction: Summon or enslave a greater demon, mount and ride; then swim across water with the pet.
+  system: classes
+  subsystem: pet pathing
+  entities: [Enslave Demon, Infernal, Felguard, Doomguard, Voidwalker, Unleashed Potential]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: major
+  affects: ['class:warlock', raid, leveling]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=165906#p165906', author: Sharmaine, authority: player, date: '2026-01-22'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=165911#p165911', author: dioaffo1, authority: player, date: '2026-01-22'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=165110#p165110', author: Futureboy99, authority: player, date: '2026-01-14'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=165179#p165179', author: Affinity01, authority: player, date: '2026-01-14'}
+  notes: The first reporter attributes it to a server-side path check that cannot keep up with player
+    movement; Demonology's Unleashed Potential (30 yd, 20 s refresh) breaks because of it. Multiple reporters.
+- id: ISS-0050
+  title: Improved Stones gives only half the Firestone critical strike bonus
+  symptom: Player sees +2% critical strike from the Firestone on the character sheet with Improved Stones
+    talented, instead of the +4% the talent implies.
+  reproduction: Talent Improved Stones, equip a Firestone and read the character sheet.
+  system: classes
+  subsystem: talent
+  entities: [Improved Stones, Firestone]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: unclear
+  status_source: null
+  severity: minor
+  affects: ['class:warlock']
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=170140#p170140', author: Guiltyhaomarush, authority: player, date: '2026-03-05'}
+  notes: Single report; may be a character-sheet display issue rather than a real loss - untested.
+- id: ISS-0051
+  title: Stealth detection ignores stealth talent and item bonuses
+  symptom: Rogues with 5/5 Master of Deception and up to +30 stealth from items are still spotted by mobs
+    several levels below them, sometimes from far away; one player says half the talent's value is missing.
+  reproduction: Stack stealth bonuses and walk past lower-level mobs.
+  system: classes
+  subsystem: stealth detection
+  entities: [Stealth, Master of Deception, Vanish]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: major
+  affects: ['class:rogue', leveling, pvp]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=155154#p155154', author: Aks666, authority: player, date: '2025-10-11'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=157633#p157633', author: Milordas, authority: player, date: '2025-10-29'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=157946#p157946', author: SvenS2, authority: player, date: '2025-10-31'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=158348#p158348', author: Koilos33, authority: player, date: '2025-11-04'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=158351#p158351', author: Madmane, authority: player, date: '2025-11-04'}
+  notes: One player reports testing with +30 stealth and seeing no difference; another reports Vanish breaking
+    immediately in melee range with no DoTs on him. Other players blame server tick rate. No staff statement.
+- id: ISS-0052
+  title: Rogue Tier 3.5 five-piece proc rate measured at 15% instead of the stated 20%
+  symptom: Three tests of 1000 Sinister Strike/Backstab casts each gave a 15% proc rate for the 5-piece T3.5
+    buff, while the description says 20%.
+  reproduction: Log 1000 Sinister Strike or Backstab hits with the 5-piece bonus and count procs.
+  system: classes
+  subsystem: set bonus
+  entities: [Rogue Tier 3.5]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: unclear
+  status_source: null
+  severity: minor
+  affects: ['class:rogue', raid]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=172499#p172499', author: Hcyd, authority: player, date: '2026-03-26'}
+  notes: Reporter asks whether it is a stealth nerf or a bug; no staff reply.
+- id: ISS-0053
+  title: Fire mage Tier 3.5 three-piece set bonus rewinds only base damage on one target
+  symptom: The 3/5 bonus rewinds a fraction of the AoE spell's base damage only, does not scale with spell
+    power or crit, and applies to the nearest mob only, so an AoE hitting 20 targets returns about 100-175
+    damage.
+  reproduction: Cast Flamestrike/Blizzard into a large group with the 3-piece bonus and read the scrolling
+    combat text.
+  system: classes
+  subsystem: set bonus
+  entities: [Mage Tier 3.5, Flamestrike]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: major
+  affects: ['class:mage', raid]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=160138#p160138', author: R3xi3l, authority: player, date: '2025-11-20'}
+  notes: Reporter links tracker id 18568 and describes a reproducible test with dummies. Single forum report.
+- id: ISS-0054
+  title: Dwarven Gemstone enchant adds no spell damage
+  symptom: The +3 spell damage enchant does not appear on the character panel and, per the reporter, does not
+    change DoT damage; tested by enchanting a ring with no spell damage of its own.
+  reproduction: Apply the Dwarven Gemstone enchant to a plain ring and compare the character panel with the
+    item on and off.
+  system: items
+  subsystem: enchant
+  entities: [Dwarven Gemstone]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: minor
+  affects: [economy, raid]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=162649#p162649', author: Springboards, authority: player, date: '2025-12-13'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=162650#p162650', author: Springboards, authority: player, date: '2025-12-13'}
+  notes: Reporter used an addon to read the stat; a pure display bug cannot be ruled out from the thread.
+- id: ISS-0055
+  title: Steel belt buckle enchant not shown on the item or in stats
+  symptom: After applying the belt buckle the belt shows no enchant line and addons do not count the block
+    rating; re-applying offers to replace 'a new effect', suggesting an enchant is present but unnamed.
+  reproduction: Apply the steel belt buckle to a belt (self or via trade) and inspect the tooltip.
+  system: items
+  subsystem: enchant display
+  entities: [steel belt buckle]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: unclear
+  status_source: null
+  severity: minor
+  affects: [economy]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=162542#p162542', author: Zero37, authority: player, date: '2025-12-12'}
+  notes: Reporter plays on the SEA realm with a Chinese client, so a localisation issue is possible.
+- id: ISS-0056
+  title: Two different items display as the same item on the action bar
+  symptom: Two different pairs of boots on the action bar display the same item (screenshots posted).
+  reproduction: null
+  system: items
+  subsystem: item display / caching
+  entities: []
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: cosmetic
+  affects: [ui, client]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=160528#p160528', author: Wez0, authority: player, date: '2025-11-24'}
+  notes: Screenshots are external images not in the extraction; likely a client item-cache (WDB) problem.
+- id: ISS-0057
+  title: Black Silk Skirt and Krampus's Little Helper Suit render wrong textures
+  symptom: The Black Silk Skirt takes textures from the skin or boots underneath it; the Krampus's Little
+    Helper Suit renders on top of the skirt or any leg item. The other colour of the same skirt is fine and
+    the reporter's friend saw the same without the HD patch.
+  reproduction: Equip Black Silk Skirt with boots; equip Krampus's Little Helper Suit over a leg item.
+  system: items
+  subsystem: item display
+  entities: [Black Silk Skirt, Krampus's Little Helper Suit]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: cosmetic
+  affects: [client]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=163907#p163907', author: Lunarose, authority: player, date: '2025-12-28'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=163917#p163917', author: Pepesmite, authority: staff, date: '2025-12-28'}
+  notes: The staff reply quotes the report; it does not state a status in the quoted text captured here.
+- id: ISS-0058
+  title: Transmogrified weapons keep the original model's sheath position and hit sound
+  symptom: After transmogrifying a weapon the appearance changes but the sheath/carry position and the impact
+    sound still follow the original item, for example a sword transmogged to a hammer keeps sword hit sounds.
+  reproduction: Transmogrify a sword into a hammer (or into Phantom Blade) and sheathe/attack.
+  system: items
+  subsystem: transmogrification
+  entities: [Transmogrification, Phantom Blade]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: cosmetic
+  affects: [client]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=166701#p166701', author: Nimo999, authority: player, date: '2026-01-28'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=166904#p166904', author: Sleeptime, authority: staff, date: '2026-01-30'}
+  notes: Staff reply redirects to the bug tracker without confirming or denying.
+- id: ISS-0059
+  title: Mark of Nature III applies the Mark of Nature II appearance
+  symptom: A purchased Mark of Nature III cosmetic looks yellow rather than the previewed green/orange; the
+    buyer concludes it uses the Mark of Nature II appearance. The HD patch was not installed.
+  reproduction: Buy Mark of Nature III from the store and compare with the shop preview.
+  system: items
+  subsystem: cosmetic / store
+  entities: [Mark of Nature III, Mark of Nature II]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: confirmed
+  status_source: https://forum.turtlecraft.gg/viewtopic.php?p=168096#p168096
+  severity: minor
+  affects: [client]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=167896#p167896', author: Xza, authority: player, date: '2026-02-10'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=167901#p167901', author: Xza, authority: player, date: '2026-02-10'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=168096#p168096', author: Sleeptime, authority: staff, date: '2026-02-12'}
+  notes: Staff - 'Thank you for the bug report. I'll forward the information to our team... It seems the two
+    skin displays got mixed up in the store.' No fix post found.
+- id: ISS-0060
+  title: Priest Tier 2.5 shoulders missing from the set-swap NPC
+  symptom: A priest swapping his Smite set to the Holy set had every piece exchanged except the shoulders,
+    for which the NPC offered no option.
+  reproduction: Take a full T2.5 priest set to the swap NPC and try to exchange the shoulders.
+  system: items
+  subsystem: token / set exchange NPC
+  entities: [Priest Tier 2.5]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: major
+  affects: [raid]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=155307#p155307', author: Foteinos, authority: player, date: '2025-10-12'}
+  notes: Single report on Nordanaar; no staff reply.
+- id: ISS-0061
+  title: Warrior Tier 2.5 swap at Feid Rota in Ratchet does not work
+  symptom: The T2.5 warrior item swap offered by Feid Rota in Ratchet fails; the player says three GMs told
+    him to post on the forum.
+  reproduction: Bring a warrior T2.5 piece to Feid Rota in Ratchet and try the swap.
+  system: items
+  subsystem: token / set exchange NPC
+  entities: [Feid Rota, Warrior Tier 2.5, Ratchet]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: open
+  status_source: null
+  severity: major
+  affects: [raid]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=173662#p173662', author: Doogaru19, authority: player, date: '2026-04-01'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=173688#p173688', author: Sleeptime, authority: staff, date: '2026-04-02'}
+  notes: Staff reply redirects to the bug tracker. Same class of bug as ISS-0060.
+- id: ISS-0062
+  title: Eligor Dawnbringer offers no Tier 3 token turn-in after Echoes of War
+  symptom: A player who completed Echoes of War gets no quest marker or turn-in option from Eligor Dawnbringer
+    for his Tier 3 tokens.
+  reproduction: Complete Echoes of War, then talk to Eligor Dawnbringer holding T3 tokens.
+  system: items
+  subsystem: token turn-in
+  entities: [Eligor Dawnbringer, Echoes of War, Tier 3 tokens]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: unclear
+  status_source: null
+  severity: major
+  affects: [raid]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=175565#p175565', author: Captnordic, authority: player, date: '2026-04-17'}
+  notes: Single report, no reply; the player is unsure whether he is missing a prerequisite.
+- id: ISS-0063
+  title: New +2 crit scope shows no enchant on the weapon and no stat on the character sheet
+  symptom: The new +2 critical strike scope does not appear as an 'Enchant' line on the weapon tooltip and the
+    crit value is not reflected in the character stats.
+  reproduction: Apply the +2 crit scope to a ranged weapon and inspect tooltip and character sheet.
+  system: items
+  subsystem: enchant display
+  entities: [+2 crit scope]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: open
+  status_source: null
+  severity: minor
+  affects: ['class:hunter', profession]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=171824#p171824', author: Lokalpop, authority: player, date: '2026-03-22'}
+  notes: Related but distinct from the Facetted Crystal Scope tooltip hotfixes (ISS-0064).
+- id: ISS-0064
+  title: Facetted Crystal Scope enchantment text missing
+  symptom: The scope's enchantment text was missing; after two hotfixes a player still saw no updated tooltip
+    on his crossbow.
+  reproduction: Apply the Facetted Crystal Scope and read the weapon tooltip.
+  system: items
+  subsystem: enchant display
+  entities: [Facetted Crystal Scope]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: '1.18.1 hotfixes 2026-03-24 and 2026-03-31 (player still reports it 2026-04-01)'
+  era: post-1.18.1
+  status: open
+  status_source: https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490
+  severity: cosmetic
+  affects: [profession, ui]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=173552#p173552', author: Snoodydood, authority: player, date: '2026-04-01'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139', author: Torta, authority: staff, date: '2026-03-24'}
+  notes: Two staff hotfix lines claim the fix; the player report post-dates the second one.
+- id: ISS-0065
+  title: Several cloaks could not be enchanted because of wrong item categorisation
+  symptom: A new PvP cloak could not be enchanted - the client claimed it had to be cloth armour.
+  reproduction: Try to apply a cloak enchant to the affected cloaks.
+  system: items
+  subsystem: item class / subclass
+  entities: [PvP cloak, Palefur Cloak, Stoutheart Shawl, Verix' Navigator Cloak]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: '1.18.1 hotfix 2026-03-21'
+  era: post-1.18.1
+  status: fixed
+  status_source: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  severity: minor
+  affects: [profession, pvp]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=174524#p174524', author: daleking0518, authority: player, date: '2026-04-09'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608', author: Torta, authority: staff, date: '2026-03-21'}
+  notes: The same class of bug was fixed for three named cloaks in the 2025-10-15 changelog, and a player
+    reported another case in April, so it recurs whenever new cloaks are added.
+- id: ISS-0066
+  title: Vampirism gear stops working until it is re-equipped
+  symptom: A mage reports his vampirism (life-steal) gear intermittently does not work, mostly after long
+    offline periods, until he removes and re-equips the items; the effect is clearly noticeable again after
+    re-equipping.
+  reproduction: Log in after a long absence with vampirism gear equipped and compare with re-equipping it.
+  system: items
+  subsystem: equip aura persistence
+  entities: [vampirism gear]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: open
+  status_source: null
+  severity: major
+  affects: [raid, 'class:mage']
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=172665#p172665', author: Lilbubbie, authority: player, date: '2026-03-27'}
+  notes: Player says a GM attributed it to a past vampirism nerf, which he rejects. Compare the 2025-11-05
+    changelog line about item effects needing to reapply after resurrection.
+- id: ISS-0067
+  title: Spirited Precision Sickle suspected to give no herbalism benefit
+  symptom: A herbalist reports collecting 0-1 Black Lotus on two-hour runs after equipping the new Survival
+    trinket, versus 6-10 before.
+  reproduction: null
+  system: items
+  subsystem: trinket effect
+  entities: [Spirited Precision Sickle, Black Lotus]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: unclear
+  status_source: null
+  severity: minor
+  affects: [profession, economy]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=171875#p171875', author: Dude1937, authority: player, date: '2026-03-23'}
+  notes: The reporter says himself he ran no statistics; treat as a lead, not a confirmed bug.
+- id: ISS-0068
+  title: Arrows fired from the Flamestring Bow deal no fire damage
+  symptom: Player asks when the bug where arrows from the Flamestring (Flame) Bow do not deal fire damage will
+    be fixed, implying an older report.
+  reproduction: Shoot with the Flamestring Bow and check the damage school in the combat log.
+  system: items
+  subsystem: weapon proc / damage school
+  entities: [Flamestring Bow]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: minor
+  affects: ['class:hunter']
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=159271#p159271', author: Timeff, authority: player, date: '2025-11-12'}
+  notes: One-line report with no reply.
+- id: ISS-0069
+  title: Auction House does not display item suffixes ('of the Bear' etc.)
+  symptom: Many random-suffix items are listed in the auction house under their base name with no suffix; the
+    purchased item arrives in the mail with the suffix intact, so only the listing display is wrong. Other
+    players in trade chat confirmed it.
+  reproduction: Search the auction house for random-suffix items and compare a bought item with its listing.
+  system: economy
+  subsystem: auction house display
+  entities: [Auction House]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: pre-1.18.1
+  status: confirmed
+  status_source: https://forum.turtlecraft.gg/viewtopic.php?p=147250#p147250
+  severity: major
+  affects: [economy, ui]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=147215#p147215', author: Sushileaf, authority: player, date: '2025-08-20'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=147250#p147250', author: Pepesmite, authority: staff, date: '2025-08-20'}
+  notes: Staff - 'We are aware of the issue, and our developers are already working on it.' No fix post found
+    in the extraction, so the state at 1.18.1 is unknown.
+- id: ISS-0070
+  title: Unique crafted items cannot be crafted for customers while one is owned
+  symptom: A jewelcrafter who wears Grail of Forgotten Memories cannot craft another one for a customer even
+    with his own copy in the bank; players say only the vendor buy-back trick works around it.
+  reproduction: Own the unique item, then attempt to craft it again.
+  system: professions
+  subsystem: unique item rule
+  entities: [Grail of Forgotten Memories, Jewelcrafting]
+  entity_ids: [19982]
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: unclear
+  status_source: null
+  severity: minor
+  affects: [profession, economy]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=167658#p167658', author: Viralovesez, authority: player, date: '2026-02-07'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=167750#p167750', author: Hctwowfan, authority: player, date: '2026-02-08'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=167752#p167752', author: Grizb37, authority: player, date: '2026-02-08'}
+  notes: entity_ids holds the number in the thread title (#19982), which is the tracker/item reference used by
+    the reporter, not confirmed as an item id. Other players call the unique-not-unique-equipped rule normal.
+- id: ISS-0071
+  title: A chest unlocked by one player stays locked for the rest of the party
+  symptom: When a rogue, key or Khadgar's Unlocking opens a locked chest, other party members still see it as
+    locked, making rolls on chest loot impossible.
+  reproduction: Unlock a locked chest in a party and have another member try to open it.
+  system: world
+  subsystem: gameobject lock state
+  entities: [locked chests, Khadgar's Unlocking]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: minor
+  affects: [dungeon, 'class:rogue']
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=160634#p160634', author: Ares81, authority: player, date: '2025-11-25'}
+  notes: A reply suggests the same behaviour was hotfixed years ago, i.e. a possible regression.
+- id: ISS-0072
+  title: Survival skill cannot be raised past 15/75 and wood cannot be cut
+  symptom: Several players are stuck at 15 Survival - torches show as orange but count as grey, no new recipes
+    appear, the wood-cutting ability or the spell to find trees is missing.
+  reproduction: Learn the reworked Survival profession and try to pass skill 15 using torches, then try to cut
+    wood.
+  system: professions
+  subsystem: Survival rework
+  entities: [Survival, torches, woodcutting]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: open
+  status_source: null
+  severity: major
+  affects: [profession]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=171731#p171731', author: Ankerdankerf, authority: player, date: '2026-03-22'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=171743#p171743', author: Springboards, authority: player, date: '2026-03-22'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=172006#p172006', author: Chungassus, authority: player, date: '2026-03-23'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=174617#p174617', author: Evadeluxe, authority: player, date: '2026-04-09'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=174618#p174618', author: Pepesmite, authority: staff, date: '2026-04-09'}
+  notes: Staff blame custom patches/mods or a stale patch-9.mpq; other players say the 15-point torch cap is
+    by design and that trainers in the capitals (not Nesingwary) teach the rest. Mixed - part client issue,
+    part missing documentation, part reported bug ('torches show orange but are in fact grey').
+- id: ISS-0073
+  title: Survival recipes show as 'unknown' at the trainer
+  symptom: Survival recipes are listed as unknown at the trainer even after clearing WDB and revalidating the
+    client.
+  reproduction: Visit a Survival trainer after 1.18.1 with a cleared WDB folder.
+  system: professions
+  subsystem: Survival rework
+  entities: [Survival]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: open
+  status_source: null
+  severity: minor
+  affects: [profession, ui]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=174264#p174264', author: Deadcrow, authority: player, date: '2026-04-07'}
+  notes: Recorded in the changelog notes for the Survival overhaul.
+- id: ISS-0074
+  title: Simple Campfire Kit cannot be used
+  symptom: A player levelling Survival cannot use the Simple Campfire Kit; a GM told him to file a bug report.
+  reproduction: Use a Simple Campfire Kit.
+  system: professions
+  subsystem: item use
+  entities: [Simple Campfire Kit, Survival]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: minor
+  affects: [profession]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=154412#p154412', author: Vannquanis23, authority: player, date: '2025-10-05'}
+  notes: Single report; predates the 1.18.1 Survival rework.
+- id: ISS-0075
+  title: Learned jewelcrafting recipe does not appear in the crafting window
+  symptom: After using the recipe for the Small Pearl Ring the item is not listed in the jewelcrafting menu.
+  reproduction: Learn the Small Pearl Ring recipe and open jewelcrafting.
+  system: professions
+  subsystem: recipe learning
+  entities: [Small Pearl Ring, Jewelcrafting]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: open
+  status_source: null
+  severity: minor
+  affects: [profession]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=174039#p174039', author: Xhushhushx, authority: player, date: '2026-04-05'}
+  notes: Single report, no reply.
+- id: ISS-0076
+  title: Expert Alchemy is not offered by the trainers at 150 skill / level 40
+  symptom: A level 40 player with 150 Alchemy sees no option to learn Expert Alchemy at the Stormwind or
+    Ironforge trainers; UI reload, addon removal and a different computer did not help.
+  reproduction: Bring a level 40 character with 150 Alchemy to an Expert Alchemy trainer.
+  system: professions
+  subsystem: trainer offering
+  entities: [Expert Alchemy]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: major
+  affects: [profession]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=155476#p155476', author: Ladyvalora, authority: player, date: '2025-10-13'}
+  notes: No staff reply; the only response quotes the report. Vanilla baseline (not from turtlecraft.gg) puts
+    Expert Alchemy at level 20+ and skill 125, so the requirements were met.
+- id: ISS-0077
+  title: Gardening planters are destroyed by a server restart
+  symptom: A player who planted 42 planters lost all of them, and the seeds, to a server restart announced 15
+    minutes in advance; a GM said nothing could be done.
+  reproduction: Plant seeds in planters and let a server restart occur before harvest.
+  system: professions
+  subsystem: Gardening persistence
+  entities: [planters, Gardening]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: open
+  status_source: null
+  severity: major
+  affects: [profession, economy]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=173053#p173053', author: Alatro, authority: player, date: '2026-03-29'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=173064#p173064', author: Drubarrymooer, authority: player, date: '2026-03-29'}
+  notes: Whether planters are meant to survive a restart is not stated anywhere in the sources; the reporter
+    also asks for a 30-minute restart warning.
+- id: ISS-0078
+  title: Planted planters cannot be interacted with ('needs fertile soil')
+  symptom: Of seven planters placed in Elwynn Forest only three could be used; the rest stayed on 'Little
+    sproutling needs fertile soil!' although the same seed type and Un'Goro Soil were used. Relogging made
+    them usable again.
+  reproduction: Place several planters in one spot, plant the same seeds in all of them.
+  system: professions
+  subsystem: Gardening
+  entities: [planters, Striped Melon Seeds, Un'Goro Soil]
+  entity_ids: []
+  patch_reported: '1.18.1'
+  patch_fixed: null
+  era: post-1.18.1
+  status: open
+  status_source: null
+  severity: minor
+  affects: [profession]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=174503#p174503', author: Beleforum, authority: player, date: '2026-04-08'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=174506#p174506', author: Beleforum, authority: player, date: '2026-04-08'}
+  notes: Reporter filed tracker id 21725 and notes the planters unexpectedly survived a relog.
+- id: ISS-0079
+  title: No lockboxes in the pickpocket loot tables of the new zones
+  symptom: Lockboxes are missing from pickpocketing loot in Northwind; the reporter suspects all new areas.
+  reproduction: Pickpocket humanoids in Northwind.
+  system: world
+  subsystem: pickpocket loot
+  entities: [Northwind, lockboxes]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: minor
+  affects: ['class:rogue', profession]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=160223#p160223', author: Ares81, authority: player, date: '2025-11-21'}
+  notes: Single report, no reply.
+- id: ISS-0080
+  title: Fishing bobber animation is too short or does not play
+  symptom: The bobbing animation plays very fast or only jitters, often is not visible at all, and players say
+    they have roughly three seconds to click; several players confirm, and one says the tracker has carried it
+    for two years.
+  reproduction: Fish and watch the bobber animation and the reaction window.
+  system: professions
+  subsystem: fishing client animation
+  entities: [Fishing, fishing bobber]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: minor
+  affects: [profession, client]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=155075#p155075', author: galapagos, authority: player, date: '2025-10-10'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=155086#p155086', author: Toxo, authority: player, date: '2025-10-10'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=155088#p155088', author: Edwanji, authority: player, date: '2025-10-10'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=155106#p155106', author: Catyngla, authority: player, date: '2025-10-10'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=155110#p155110', author: galapagos, authority: player, date: '2025-10-10'}
+  notes: The original poster links tracker id 5638 and says it only started for him 2-3 months earlier, so it
+    may be frame-rate or client dependent rather than universal.
+- id: ISS-0081
+  title: Cross-faction mail is rejected with 'recipient not found'
+  symptom: An Alliance character could not mail crafted items to his own Horde character on Nordanaar; the
+    error appeared with the TurtleMail addon both enabled and disabled.
+  reproduction: Send mail from an Alliance character to a Horde character on the same account/realm.
+  system: economy
+  subsystem: mail
+  entities: [mail, cross-faction]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: open
+  status_source: null
+  severity: major
+  affects: [economy]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=166657#p166657', author: Shodanas, authority: player, date: '2026-01-27'}
+  notes: Whether cross-faction mail is supposed to work is not stated by any staff post found here; the same
+    thread has no reply. A gap for the emulator.
+- id: ISS-0082
+  title: Mail between one's own characters blocked by the unique-recipient cap
+  symptom: A player with four characters on Ambershire cannot mail between all of them because of 'You have
+    reached the in-game cap of unique mail recipients', forcing character hopping.
+  reproduction: Mail between four own characters repeatedly in a short period.
+  system: economy
+  subsystem: mail anti-spam limit
+  entities: [mail]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: unclear
+  status_source: null
+  severity: minor
+  affects: [economy]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=159219#p159219', author: Aikanaro, authority: player, date: '2025-11-11'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=159364#p159364', author: Ironbob, authority: player, date: '2025-11-12'}
+  notes: Another player says the cap counts pending mails and clearing them helps; the cap itself is an
+    anti-spam feature, so this may be intended behaviour with a confusing message.
+- id: ISS-0083
+  title: Mail money mismatch - notification says 5g, 3g80s arrives
+  symptom: Mail reported showing 5 gold received while only 3 gold 80 silver arrived.
+  reproduction: null
+  system: economy
+  subsystem: mail money
+  entities: [mail]
+  entity_ids: []
+  patch_reported: '1.18.0'
+  patch_fixed: null
+  era: 1.18.1-announced-pre-release
+  status: unclear
+  status_source: null
+  severity: minor
+  affects: [economy]
+  reports:
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=163942#p163942', author: Wez0, authority: player, date: '2025-12-28'}
+  - {url: 'https://forum.turtlecraft.gg/viewtopic.php?p=163951#p163951', author: Sleeplust, authority: player, date: '2025-12-29'}
+  notes: The report is a screenshot only. Another player replies that the difference is expected if a COD
+    mail was involved, so this may not be a bug at all.
