@@ -1,106 +1,60 @@
-class: druid
-spec: restoration
+class: Druid
+spec: Restoration
 role: healer
-playbook: synthesis/classes/druid/restoration-healer.md
 sources:
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=155593#p155593", author: Lynxkitten, authority: "player (resto main, Ambershire)", date: 2025-10-14, era: 1.18.1-announced-pre-release}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=155621#p155621", author: Bayanni, authority: "player (raids to Naxx as resto)", date: 2025-10-15, era: 1.18.1-announced-pre-release}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=156226#p156226", author: Bayanni, authority: player, date: 2025-10-19, era: 1.18.1-announced-pre-release}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=153732#p153732", author: Reploidrocsa, authority: player, date: 2025-09-30, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=153757#p153757", author: Reploidrocsa, authority: player, date: 2025-09-30, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=104703#p104703", author: Reploidrocsa, authority: player, date: 2024-10-24, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=71446#p71446", author: Reploidrocsa, authority: player, date: 2023-10-17, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=86164#p86164", author: Blackduck, authority: "player (raid tree)", date: 2024-01-28, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=86202#p86202", author: Blackduck, authority: player, date: 2024-01-28, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=92248#p92248", author: Treezus, authority: "player (tree main)", date: 2024-04-07, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=104735#p104735", author: Templar85, authority: "player (Naxx healer)", date: 2024-10-24, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=110097#p110097", author: Templar85, authority: player, date: 2024-11-27, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102951#p102951", author: Atreidon, authority: player, date: 2024-10-12, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=110109#p110109", author: Atreidon, authority: player, date: 2024-11-27, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149160#p149160", author: Ghen, authority: "player (bear tank, Naxx)", date: 2025-08-29, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=147489#p147489", author: Skyfont, authority: player, date: 2025-08-21, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=172460#p172460", author: Froghijab420, authority: player, date: 2026-03-25, era: post-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=173102#p173102", author: Noephix, authority: player, date: 2026-03-30, era: post-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=70924#p70924", author: Kangaraxxus, authority: player, date: 2023-10-15, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=121596#p121596", author: Synlapse, authority: player, date: 2025-03-04, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102966#p102966", author: Dragunovi, authority: staff, date: 2024-10-12, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: 2025-07-25, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: 2026-01-23, era: 1.18.1-announced-pre-release}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=153729#p153729", author: Mastrshake, authority: player, date: "2025-09-30"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=153757#p153757", author: Reploidrocsa, authority: player, date: "2025-09-30"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=155593#p155593", author: Lynxkitten, authority: player, date: "2025-10-14"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=155621#p155621", author: Bayanni, authority: player, date: "2025-10-15"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=156226#p156226", author: Bayanni, authority: player, date: "2025-10-19"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=147488#p147488", author: Skyfont, authority: player, date: "2025-08-21"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=168231#p168231", author: Bikicsunaj, authority: player, date: "2026-02-14"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102966#p102966", author: Dragunovi, authority: staff, date: "2024-10-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=105927#p105927", author: Zend, authority: player, date: "2024-11-02"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=120862#p120862", author: Syndraela, authority: player, date: "2025-02-24"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=172927#p172927", author: Froizerk, authority: player, date: "2026-03-28"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=173102#p173102", author: Noephix, authority: player, date: "2026-03-30"}
 agreement: contested
-agreement_notes: >-
-  Consensus: one resto druid per raid is valuable, two grief each other's HoTs.
-  Contested: Tree/Rejuv-spam vs Healing Touch caster vs Regrowth/Nature's Grace;
-  Improved Tranquility worth 2 points (Bayanni yes, Templar85 no); Tranquility 'OP'.
 patch_validity:
-  written_for: "1.18.0 restoration tree"
-  valid_for_1181: true
-  notes: "1.18.1 has no Restoration talent or spell changes (Jamey p166071); item fix for Grandstaff of the Shen'dralar Elder. All build links are 1.17.2/1.18.0 tree."
+  written_for: "1.17.2 / 1.18.0 (Class Changes 2 Restoration rework: Efflorescence, Genesis, Aessina's Bloom, Tranquility rework)"
+  valid_for_1181: unknown
+  notes: "No Restoration-specific 1.18.1 ability/talent change found in the master changelog beyond the T3.5 'Blooming Bud' set-bonus critique (player-reported, not confirmed as an official 1.18.1 change vs. a pre-existing itemization issue)."
 talents:
-  build_name: "Healing Touch caster (Bayanni/Froghijab420) or Tree of Life (Bayanni)"
-  build_links:
-    - {url: "https://talents.turtlecraft.gg/druid?points=BgYbAKAYAI--FAoABbFFQI", note: "Bayanni 2025-10-19 Healing Touch build"}
-    - {url: "https://talents.turtlecraft.gg/druid?points=BgAbAI--FAFABbFFALFQB", note: "Bayanni 2025-10-19 Tree build (Imp Tranq 2/2, swappable for Nature's Reach)"}
-    - {url: "https://talents.turtlecraft.gg/druid?points=oACYQKCYAI--FAoABLFDQAF", note: "Skyfont 2025-08-21 Healing Touch build"}
-    - {url: "https://talents.turtlecraft.gg/druid?points=BgCbAKBYAI--FAoABbFFQI", note: "Froghijab420 2026-03-25 Healing Touch build (post-1.18.1)"}
+  build_name: "Tree of Life/HoT build vs. Moonglow/Healing Touch build (both actively played; no decoded full 60-point list found)"
+  build_link: "https://talents.turtlecraft.gg/druid?points=BgAbAI--FAFABbFFALFQB (Tree build, Bayanni, 2025-10-19)"
   points:
-    - {tree: Restoration, talent: Swiftmend, rank: 1, spell_id: null, sourced: true}
-    - {tree: Restoration, talent: "Nature's Swiftness", rank: 1, spell_id: null, sourced: true}
-    - {tree: Restoration, talent: Genesis, rank: 3, spell_id: null, sourced: true}
-    - {tree: Restoration, talent: Gift of Nature, rank: 5, spell_id: null, sourced: true}
-    - {tree: Restoration, talent: Improved Healing Touch, rank: 5, spell_id: null, sourced: true, note: "HT build; prerequisite for Aessina's Bloom"}
-    - {tree: Restoration, talent: "Aessina's Bloom", rank: 2, spell_id: null, sourced: true, note: "HT build"}
-    - {tree: Restoration, talent: Tree of Life, rank: 1, spell_id: null, sourced: true, note: "Tree build only"}
-    - {tree: Restoration, talent: Efflorescence, rank: 1, spell_id: null, sourced: true, note: "Tree build only"}
-    - {tree: Restoration, talent: Improved Tranquility, rank: 2, spell_id: null, sourced: true, note: "contested"}
-    - {tree: Restoration, talent: Subtlety, rank: 0, spell_id: null, sourced: true}
-    - {tree: Balance, talent: Moonglow, rank: 3, spell_id: null, sourced: true, note: "HT build (Bayanni); contested by Xudo/Szarszag"}
-    - {tree: Balance, talent: Omen of Clarity, rank: 1, spell_id: null, sourced: true, note: "HT build"}
-    - {tree: Balance, talent: "Nature's Grasp", rank: 1, spell_id: null, sourced: true}
-    - {tree: Balance, talent: Natural Shapeshifter, rank: 3, spell_id: null, sourced: true}
-    - {tree: Balance, talent: Improved Wrath, rank: 0, spell_id: null, sourced: true}
-  points_note: "Partial; full allocations only as links"
+    - {tree: Restoration, talent: "Genesis", rank: 3, spell_id: null}
+    - {tree: Restoration, talent: "Aessina's Bloom", rank: 2, spell_id: null}
+    - {tree: Restoration, talent: "Preservation", rank: 3, spell_id: null}
+    - {tree: Restoration, talent: "Nature's Focus", rank: 5, spell_id: null}
+    - {tree: Restoration, talent: "Improved Tranquility or Nature's Reach", rank: 2, spell_id: null}
+    - {tree: unspecified, talent: "remainder (not individually named in sources)", rank: null, spell_id: null}
   leveling_order: []
 stat_weights:
-  healing_power: 1
-  spirit: "1 for Tree (0.2 healing per point to every party member via aura ~ 'every point of spirit is 1sp'); lower for HT build"
-  mp5_regen: "2 (balance with healing power so mana lasts the fight)"
-  intellect: "2 (HT/Regrowth builds; 'itemizing just like a paladin')"
-  spell_crit: "3 (Regrowth/Nature's Grace build only)"
-  stamina: "PvP only"
-  numeric_weights_source: "none on forum (Mondegreen's TWoW resto sheet unpublished)"
-caps:
-  regrowth_downrank_rule: "Pick the highest Regrowth rank whose full-mana spam lasts 45s-1:15 with no consumables/innervate (Reploidrocsa)"
+  spirit: "strong despite low apparent personal-log impact — 1 Spirit gives ~0.2 healing to every party member (party-wide effect), so 'every point of spirit is 1sp' for raid healing"
+  healing_power: "no numeric weight given (gap)"
+  intellect: "no numeric weight given (gap)"
+caps: {}
 rotation_single:
-  - {priority: 1, action: "Rejuvenation max rank on tank", condition: "Always up (Swiftmend target)"}
-  - {priority: 2, action: "Healing Touch (downranked; caster form)", condition: "Tank/direct healing; HT build; Aessina's Bloom refunds"}
-  - {priority: 3, action: "Swiftmend", condition: "Emergency; snipes the max-rank Rejuv"}
-  - {priority: 4, action: "Nature's Swiftness + max Healing Touch (caster) / + Regrowth (tree)", condition: "Emergency"}
-  - {priority: 5, action: "Regrowth (tree, downranked)", condition: "Tree direct heal; max rank only to top someone fast"}
-  - {priority: 6, action: "Shift out of Tree", condition: "Tank-only fights (Twins, Patchwerk) to precast Healing Touch; keep Rejuv on tanks"}
+  - {priority: 1, action: "Regrowth (downranked)", condition: "sustained tank heal, Tree build — rank chosen so mana lasts 45s-75s spamming with no external help"}
+  - {priority: 1, action: "Healing Touch (downranked)", condition: "sustained tank heal, HT build — same 45s-75s downranking rule"}
+  - {priority: 2, action: "Healing Touch (max rank) or Regrowth (max rank)", condition: "emergency top-up"}
+  - {priority: 3, action: Swiftmend, condition: "instant-cast emergency heal, consumes an existing HoT"}
 rotation_aoe:
-  - {targets_min: 3, priority: 1, action: "Rejuvenation every GCD (Tree)", condition: "Max rank on melee/tanks, rank 4 on others; never overwrite a stronger HoT (nobuff macro)"}
-  - {targets_min: 3, priority: 2, action: "Swiftmend", condition: "When needed"}
-  - {targets_min: 3, priority: 3, action: "Pre-HoT before predictable AoE", condition: "Frost tombs KT, Sapphiron, Thaddius, Vael, Magmadar"}
-  - {targets_min: 10, priority: 1, action: "Tranquility", condition: "Raid-lead call; 30-min CD; generates threat; keep prio targets topped first"}
-aoe_threshold: 3
+  - {targets_min: 5, priority: 1, action: Tranquility, condition: "raid-wide (post-CC2 rework), 30-minute cooldown, ranks last only 4/6/8/10s, use sparingly"}
+aoe_threshold: 5
 cooldowns:
-  - {name: Swiftmend, use_when: "Emergency on a Rejuv/Regrowth target"}
-  - {name: "Nature's Swiftness", use_when: "Emergency instant HT (caster) or Regrowth (tree)"}
-  - {name: Innervate, use_when: "Self in tree/Regrowth play; otherwise another healer"}
-  - {name: Tranquility, use_when: "Raid-wide damage on call; ~2-3 per raid per druid"}
-  - {name: Rebirth, use_when: "Battle res; no out-of-combat res (smelling salts/jumper cables)"}
+  - {name: Tranquility, use_when: "raid emergency only — 30-minute cooldown, doubled mana cost, no baseline threat"}
+  - {name: Swiftmend, use_when: "instant emergency heal, requires an existing HoT on the target"}
 resource_rules:
-  - "Tree of Life mana reduction benefits Rejuvenation only; Regrowth spam drains"
-  - "Balance healing power vs regen gear so mana lasts the whole fight (Reploidrocsa)"
-  - "Resto T3 2-set restores raid rage/energy/mana per Rejuv cast"
-  - "Aessina's Bloom (1.18.0): next HT -0.15/0.3s and 5/10% mana refund"
+  - "Downrank Regrowth/Healing Touch to the rank that sustains 45s-75s of spam with no external mana help; use higher ranks only for longer fights"
+  - "Reserve max-rank casts for emergency top-ups"
 consumables:
-  - "Major Mana Potion, Nordanaar Herbal Tea, runes (from balance threads)"
-  - "Healing flasks/food: vanilla baseline, not from turtlecraft.gg"
+  - "No Restoration-specific consumable list found; assume the general caster list (Major Mana Potion, Nordanaar Herbal Tea, Dark Rune, Nightfin Soup, Mageblood Potion) applies but this is inferred, not directly sourced for Restoration"
+  - "No pre-raid BiS list found in sources (gap)"
 mistakes_to_avoid:
-  - "Two uncoordinated trees overwriting HoTs"
-  - "Max-rank Rejuv blanket on everyone (OOM)"
-  - "Full-rank Regrowth spam in tree"
-  - "Staying in tree on tank-only fights"
-  - "Tranquility as meter padding; ignoring its threat"
-  - "Taking Subtlety; Improved Tranquility as a filler (contested)"
+  - "Bringing more than one or two Restoration druids to a 40-man raid without HoT-assignment coordination"
+  - "Spamming max-rank heals instead of downranking to the mana-sustainable rank"
+  - "Trying to tank-heal a dungeon in full Tree Form without a strong repeatable direct-heal backup"
+  - "Forgetting Efflorescence requires training from a class trainer and Tree of Life Form to function"
+  - "Assuming a second/third druid's weaker HoT will stack instead of overwrite"

@@ -1,126 +1,68 @@
-class: druid
-spec: balance
+class: Druid
+spec: Balance
 role: ranged-dps
-playbook: synthesis/classes/druid/balance-ranged-dps.md
 sources:
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=159149#p159149", author: Scattyau, authority: "player (9/9 K40 boomkin main)", date: 2025-11-11, era: 1.18.1-announced-pre-release}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=172261#p172261", author: Jizzus, authority: "player (BiS Ambershire boomkin)", date: 2026-03-24, era: post-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=172020#p172020", author: Auralys, authority: "player (K40, Scythe of Elune)", date: 2026-03-23, era: post-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=172523#p172523", author: Auralys, authority: player, date: 2026-03-26, era: post-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=172180#p172180", author: Froghijab420, authority: player, date: 2026-03-24, era: post-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=173102#p173102", author: Noephix, authority: player, date: 2026-03-30, era: post-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=134706#p134706", author: Noobikscube, authority: "player (top boomkin claim, Kara40 log)", date: 2025-06-08, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=118694#p118694", author: Noobikscube, authority: player, date: 2025-02-02, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=134911#p134911", author: kierova, authority: player, date: 2025-06-09, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=145279#p145279", author: Halfgeek9, authority: player, date: 2025-08-14, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=41236#p41236", author: Reploidrocsa, authority: player, date: 2023-04-12, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=67792#p67792", author: Kangaraxxus, authority: "player (calculator author, linked from wiki)", date: 2023-09-30, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=76012#p76012", author: Kangaraxxus, authority: player, date: 2023-11-05, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=83572#p83572", author: Kangaraxxus, authority: player, date: 2024-01-03, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=111507#p111507", author: Kangaraxxus, authority: player, date: 2024-12-05, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=83522#p83522", author: Bayanni, authority: "player (BiS Naxx boomkin 2024)", date: 2024-01-03, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=83512#p83512", author: Bayanni, authority: player, date: 2024-01-03, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=109551#p109551", author: Bigsmerf, authority: player, date: 2024-11-23, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=109616#p109616", author: Fornow, authority: player, date: 2024-11-24, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=169246#p169246", author: Fusketa, authority: player, date: 2026-02-23, era: 1.18.1-announced-pre-release}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141188#p141188", author: Avereth, authority: player, date: 2025-07-25, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: 2026-01-23, era: 1.18.1-announced-pre-release}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: 2025-07-25, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102966#p102966", author: Dragunovi, authority: staff, date: 2024-10-12, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504", author: Torta, authority: staff, date: 2025-03-30, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=52800#p52800", author: Dragunovi, authority: staff, date: 2023-07-10, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=137624#p137624", author: Dragunovi, authority: staff, date: 2025-06-30, era: pre-1.18.1}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=159149#p159149", author: Scattyau, authority: player, date: "2025-11-11"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=131905#p131905", author: Halfgeek9, authority: player, date: "2025-05-19"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=134706#p134706", author: Noobikscube, authority: player, date: "2025-06-08"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=134911#p134911", author: kierova, authority: player, date: "2025-06-09"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=110618#p110618", author: Dalijon, authority: player, date: "2024-11-30"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=135108#p135108", author: kierova, authority: player, date: "2025-06-10"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=172020#p172020", author: Auralys, authority: player, date: "2026-03-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=172180#p172180", author: Froghijab420, authority: player, date: "2026-03-24"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=173102#p173102", author: Noephix, authority: player, date: "2026-03-30"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=135044#p135044", author: Tarsis, authority: player, date: "2025-06-10"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=135251#p135251", author: Tarsis, authority: player, date: "2025-06-11"}
 agreement: contested
-agreement_notes: >-
-  Consensus on spell-hit cap first and crit > haste; contested on absolute standing
-  (Noobikscube 'as much damage as any caster' vs Scattyau/Jizzus/Noephix 'worst proper dps
-  spec' after 1.18.1); pre-CC2 Wrath-vs-Starfire dispute (Kangaraxxus vs Bayanni) unresolved.
 patch_validity:
-  written_for: "1.18.0 Eclipse kit with 1.18.1 changes applied (BoAT 3 pts, Moonfury 4/8/12, Eclipse 40/60%)"
+  written_for: "1.17.2 / 1.18.0 Eclipse rework (Wrath 30%/Starfire 50% proc chance, bonus = 10% + 60% of spell crit)"
   valid_for_1181: true
-  notes: >-
-    1.18.1 removed BoAT Starfire cast-time charges (now +3/6/9% Starfire crit vs Moonfire
-    target, 10/20/30% Wrath mana return vs Insect Swarm target) and raised Eclipse proc
-    chances on 2026-03-19. Post-1.18.1 players report ~15% DPS loss and a clunkier
-    rotation; no post-1.18.1 build link exists. Kangaraxxus calculator numbers are
-    pre-Eclipse (2023-2024).
+  notes: "1.18.1 changed Eclipse proc chances to Wrath 40%/Starfire 60% (revision dated 2026-03-19), reworked Balance of All Things to 3 points (Wrath mana refund 10/20/30% vs Insect-Swarm'd target, Starfire crit +3/6/9% vs Moonfire'd target, revised from +2/4/6% on 2026-01-26), and raised Moonfury to 4/8/12% (2026-01-26). Post-1.18.1 reaction: reworked Starfire cast-time component criticized as a net nerf ('lost 20% spell haste... for 9% crit that doesn't scale eclipse'); Noephix estimates ~15% DPS nerf overall (single source, uncorroborated by logs)."
 talents:
-  build_name: "38 Balance / 13 Restoration (Genesis) raid build; 2 points freed by 1.18.1 BoAT change (destination unstated)"
-  build_links:
-    - {url: "https://talents.turtlecraft.gg/druid?points=piaZYKFYZLFQBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA%3D", note: "Bigsmerf 2024-11-23 solo-grind full balance"}
-    - {url: "https://talents.turtlecraft.gg/druid?points=oCaYYKFYRLFQBAAAAAAAAAAAAAAAFAAQAAAAAAAAAAA%3D", note: "Bigsmerf 2024-11-23 solo/raid with Improved Mark"}
-    - {url: "https://talents.turtlecraft.gg/druid?points=oACYYJFYBKFABAAAAAAAAAAAAAAAFAAoDJDAAAAAAAA%3D", note: "Imonobor 2024-11-24 group spec"}
+  build_name: "Core Balance rotation build (~35-38 points Balance + ~13 Restoration for Genesis; no decoded full 60-point list found)"
+  build_link: null
   points:
-    - {tree: Balance, talent: Improved Wrath, rank: 5, spell_id: null, sourced: true}
-    - {tree: Balance, talent: "Nature's Grasp", rank: 1, spell_id: null, sourced: true}
-    - {tree: Balance, talent: Improved Moonfire, rank: 2, spell_id: null, sourced: true}
-    - {tree: Balance, talent: Natural Weapons, rank: 3, spell_id: null, sourced: true}
-    - {tree: Balance, talent: Natural Shapeshifter, rank: 2, spell_id: null, sourced: true}
-    - {tree: Balance, talent: Moonfury, rank: 3, spell_id: null, sourced: true}
-    - {tree: Balance, talent: Omen of Clarity, rank: 1, spell_id: null, sourced: true}
-    - {tree: Balance, talent: "Nature's Grace", rank: 1, spell_id: null, sourced: true}
-    - {tree: Balance, talent: Moonglow, rank: 3, spell_id: null, sourced: false}
-    - {tree: Balance, talent: "Nature's Reach", rank: 2, spell_id: null, sourced: true}
-    - {tree: Balance, talent: Vengeance, rank: 5, spell_id: null, sourced: false}
-    - {tree: Balance, talent: Guidance of the Dream, rank: 3, spell_id: null, sourced: false}
-    - {tree: Balance, talent: Moonkin Form, rank: 1, spell_id: null, sourced: true}
-    - {tree: Balance, talent: Improved Moonkin Form, rank: 1, spell_id: null, sourced: true}
-    - {tree: Balance, talent: Owlkin Frenzy, rank: 1, spell_id: null, sourced: true}
-    - {tree: Balance, talent: Balance of All Things, rank: 3, spell_id: null, sourced: true, note: "5 ranks before 1.18.1"}
-    - {tree: Balance, talent: Gale Winds, rank: 0, spell_id: null, sourced: true, note: "raid utility only"}
-    - {tree: Balance, talent: Eclipse, rank: 1, spell_id: null, sourced: true}
-    - {tree: Restoration, talent: "Improved Mark of the Wild / Furor / Nature's Focus / Sylvan Blessing (path)", rank: 10, spell_id: null, sourced: false}
-    - {tree: Restoration, talent: Genesis, rank: 3, spell_id: null, sourced: true}
-  points_note: "Scattyau: 35 core balance points + 3 flex; exact filler ranks inferred"
+    - {tree: Balance, talent: Moonfury, rank: 3, spell_id: null}
+    - {tree: Balance, talent: "Balance of All Things", rank: 3, spell_id: null}
+    - {tree: Balance, talent: Eclipse, rank: 1, spell_id: null}
+    - {tree: Balance, talent: "Moonkin Form (incl. Improved)", rank: 2, spell_id: null}
+    - {tree: Balance, talent: "Gale Winds or Guidance of the Dream", rank: "2-3 (flex, contested choice)", spell_id: null}
+    - {tree: Restoration, talent: Genesis, rank: 3, spell_id: null}
+    - {tree: unspecified, talent: "remainder (core damage/hit/crit/range/cast-time talents, not individually named in sources)", rank: null, spell_id: null}
   leveling_order: []
 stat_weights:
-  spell_hit: "1 (to 13% gear / 16% total)"
-  spell_power: 2
-  spell_crit: "2 (Crit > Hit > Haste per Noobikscube once capped; 1% crit ~ 4-5% haste per Scattyau)"
-  spell_haste: 3
-  intellect: 4
-  spell_penetration: "situational: 20 baseline, 70 set for Ouro/KT (Kangaraxxus)"
-  stamina: "PvP only"
-  exchange_rates_pre_cc2: "1% hit ~ 1.13% crit ~ 12.2-15 SP (Kangaraxxus 2023)"
+  crit: "high — 1% crit roughly equal to 4-5% haste (single detailed source); triple-dips via cast damage, Nature's Grace haste proc, and Eclipse damage multiplier"
+  haste: "low relative to crit — only benefits Starfire among the four rotation spells (partially benefits Wrath via the 1.0s/0.5s GCD floor per a thread correction)"
+  hit: "important and hard to reach from tier gear alone; full T3 set provides only ~4% spell hit"
+  spell_power: "baseline scaling stat, no numeric weight given (gap)"
 caps:
-  spell_hit_pct_total: 16
-  spell_hit_pct_from_gear: 13
-  eclipse_bonus_30pct_requires_crit_pct: 34
-  reference_bis_2024: "1028 SP / 24% crit raid-buffed (Bayanni)"
-  crit_by_tier: "T1 ~20%, T2 ~25%, T3 ~30% (Halfgeek9)"
+  spell_hit_from_t3: "~4% (full 9-piece T3 set) — cap requires specific non-set items (e.g. Loatheb's/Regalia staff)"
+  spell_penetration: "not found in sources (gap)"
 rotation_single:
-  - {priority: 1, action: "Pre-pull: Moonkin Form, Omen of Clarity, Faerie Fire", condition: "Always"}
-  - {priority: 2, action: "Insect Swarm + Moonfire", condition: "Apply both DoTs (18s); keep both up; refresh inside the matching Eclipse when possible"}
-  - {priority: 3, action: "Stop-cast and switch spell", condition: "Eclipse procs mid-cast: cancel and chain the buffed spell (Starfire in Lunar, Wrath in Solar); track with MPOWA"}
-  - {priority: 4, action: "Starfire spam", condition: "Lunar Eclipse active; Moonfire on target for +9% crit (1.18.1 BoAT); Idol of Ebb and Flow"}
-  - {priority: 5, action: "Wrath spam", condition: "Solar Eclipse active; Insect Swarm on target for 30% mana return (1.18.1 BoAT)"}
-  - {priority: 6, action: "Fish with Wrath", condition: "No Eclipse up and Curse of Shadows present (Lunar is stronger); Wrath proc is on hit (travel time)"}
-  - {priority: 7, action: "Fish with Starfire", condition: "No Eclipse up and Lunar on cooldown / no CoS"}
-  - {priority: 8, action: "Re-DoT in last seconds of Eclipse", condition: "Not enough time left for a buffed nuke to land (Jizzus)"}
+  - {priority: 1, action: Moonfire, condition: "apply/maintain, 18s duration"}
+  - {priority: 2, action: "Insect Swarm", condition: "apply/maintain, 18s duration"}
+  - {priority: 3, action: Wrath, condition: "chain-cast while fishing for Lunar Eclipse proc (40% chance per 1.18.1) or spending an active Lunar Eclipse buff"}
+  - {priority: 4, action: Starfire, condition: "chain-cast while fishing for Nature Eclipse proc (60% chance per 1.18.1) or spending an active Nature Eclipse buff"}
+  - {priority: 5, action: "cancel current cast and switch spell", condition: "an Eclipse proc lands mid-cast on the wrong spell (stopcasting is a real DPS gain despite feeling bad)"}
 rotation_aoe:
-  - {targets_min: 2, priority: 1, action: "Multi-DoT Moonfire (and Insect Swarm)", condition: "Keep MF on as many targets as possible without clipping, Wrath in remaining GCDs (Kangaraxxus, pre-CC2)"}
-  - {targets_min: 4, priority: 1, action: "Hurricane", condition: "10s CD; ticks do not proc item effects; not competitive with mage/paladin AoE"}
-  - {targets_min: 2, priority: 2, action: "Faerie Fire on trash", condition: "Raid utility"}
-aoe_threshold: 4
+  - {targets_min: 3, priority: 1, action: Hurricane, condition: "channeled AoE; weak vs fast-dying trash since setup often doesn't pay off before mobs die"}
+aoe_threshold: 3
 cooldowns:
-  - {name: Innervate, use_when: "Self if no one else needs it; healers otherwise"}
-  - {name: "Owlkin Frenzy", use_when: "Passive pushback resistance; 1 point"}
-  - {name: "Nature's Grace", use_when: "Passive on crit: -0.5s cast and GCD (Turtle custom)"}
-  - {name: "Trinkets / Scythe of Elune", use_when: "Lunar Eclipse windows; DoT ticks and Hurricane do not proc them"}
-  - {name: Tranquility, use_when: "Raid-lead call; expensive"}
-  - {name: Rebirth, use_when: "As needed; expensive"}
+  - {name: "none (structural gap)", use_when: "Balance has no on-demand burst cooldown, repeatedly cited as the spec's biggest structural weakness vs other casters"}
 resource_rules:
-  - "Omen of Clarity ~10% proc ~ 10% mana cost reduction; must be cast (30 min)"
-  - "1.18.1 BoAT: Wrath on Insect Swarm target returns 10/20/30% mana"
-  - "Consumables: Major Mana Potion, Nordanaar Herbal Tea, Dark/Demonic Rune, Nightfin Soup, Mageblood; boomkins use several times more teas/pots than other casters (Avereth)"
-  - "Use nampower.dll for 1.0s Wrath GCD latency"
+  - "Sylvan Blessing (100% mana regen while casting for 15s after a kill) helps while leveling/questing"
+  - "Innervate generally given to a healer rather than self-used in raids, per general Druid community convention (not independently sourced for Balance specifically)"
 consumables:
-  - "Flask of Supreme Power 150, Greater Arcane Elixir 35, Brilliant Wizard Oil 35, food 22, Dreamshard Elixir 15, Dream Tonic 35 = +292 SP (Kangaraxxus 2023)"
-  - "Major Mana Potion, Nordanaar Herbal Tea, Dark Rune / Demonic Rune, Nightfin Soup, Mageblood Potion"
+  - "Major Mana Potion"
+  - "Nordanaar Herbal Tea"
+  - "Dark Rune"
+  - "Innervate"
+  - "Nightfin Soup"
+  - "Mageblood Potion"
 mistakes_to_avoid:
-  - "Not hit-capped (13% gear)"
-  - "Finishing a cast after an Eclipse proc"
-  - "Fishing for Solar when Curse of Shadows favors Lunar"
-  - "Dropping DoTs or refreshing both outside Eclipse"
-  - "Arcane-only spell power; no spell penetration for Ouro/KT"
-  - "3/3 Improved Moonkin Form or 2/2 Gale Winds in a raid DPS build"
+  - "Standing still to hard-cast Starfire in PvP instead of dot-kiting"
+  - "Letting a cast finish after an Eclipse proc lands mid-cast instead of cancelling and switching"
+  - "Gearing pure spell-power/haste while ignoring the crit-over-haste relationship and thin hit budget"
+  - "Treating trash-pack Moonfire/Hurricane as free AoE"
+  - "Assuming DoT ticks or Hurricane proc on-hit trinkets (Scythe, Clackora, Sigil, Fortune-stat items) — they don't"

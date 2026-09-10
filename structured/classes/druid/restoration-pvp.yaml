@@ -1,0 +1,51 @@
+class: Druid
+spec: Restoration
+role: pvp
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=156270#p156270", author: Thaladar, authority: player, date: "2025-10-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=156346#p156346", author: Scelus12, authority: player, date: "2025-10-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=156369#p156369", author: Scelus12, authority: player, date: "2025-10-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=156423#p156423", author: Aristany, authority: player, date: "2025-10-21"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=156428#p156428", author: Frantsel, authority: player, date: "2025-10-21"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=157335#p157335", author: Thaladar, authority: player, date: "2025-10-27"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=157346#p157346", author: Blackduck4, authority: player, date: "2025-10-27"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=157381#p157381", author: Isvya, authority: player, date: "2025-10-27"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=157409#p157409", author: Turboman, authority: player, date: "2025-10-27"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=157464#p157464", author: Thaladar, authority: player, date: "2025-10-28"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171999#p171999", author: Wosator, authority: player, date: "2026-03-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=95352#p95352", author: Manletow, authority: player, date: "2024-05-21"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=156271#p156271", author: Thaladar, authority: player, date: "2025-10-20"}
+agreement: consensus
+patch_validity:
+  written_for: "1.17.2 / 1.18.0 (thread runs Oct 2025 through the 1.18.1-announced-pre-release era)"
+  valid_for_1181: unknown
+  notes: "No dedicated post-1.18.1 re-test thread found beyond a single one-line post-patch complaint (Wosator, 2026-03-23) agreeing the spec is still weak. The Blind-becomes-a-physical-debuff PvP-system change referenced in-thread is a general PvP change, not confirmed Druid-specific or dated to 1.18.1 in the master changelog."
+talents:
+  build_name: "General Restoration healer build, PvP-adjusted (no dedicated PvP point list found)"
+  build_link: null
+  points: []
+  leveling_order: []
+stat_weights:
+  stamina: "prioritized over Resilience per one detailed report ('Focus on stamina gear over anything else'); Resilience alone reported insufficient against Envenom-spec Rogues even fully stacked"
+caps: {}
+rotation_single:
+  - {priority: 1, action: "Lesser/Greater Arcane Protection Potion + Fire/Frost/Arcane/Shadow (LAP/FAP-type) potions", condition: "pre-engagement if possible"}
+  - {priority: 2, action: "Rejuvenation, Barkskin, Faerie Fire, Nature's Grasp", condition: "opening defensive sequence against an incoming Rogue"}
+  - {priority: 3, action: "save PvP trinket for Kidney Shot, not the opening stun", condition: "post-1.18.1 caveat: trinketing may let the Rogue Blind-and-reset instead, since Blind is reportedly now a physical debuff"}
+  - {priority: 4, action: "shift to Bear Form", condition: "near-mandatory once an engagement starts or is expected; survive-then-disengage, not a win condition"}
+  - {priority: 5, action: "Feral Charge or Nature's Grasp/roots", condition: "create separation once stabilized"}
+rotation_aoe: []
+aoe_threshold: null
+cooldowns:
+  - {name: "PvP trinket", use_when: "Kidney Shot, not the opening Cheap Shot/Ambush"}
+  - {name: "Bear Form", use_when: "expected or in-progress Rogue engagement"}
+resource_rules: []
+consumables:
+  - "Crunchy bread (Blind removal)"
+  - "Catseye Goggles, Catseye Elixir, Druid PvP-rank gloves, 'Dyad of Twitching Elf Ears' — stack for ~+58 stealth detection to spot Rogues before their opener"
+mistakes_to_avoid:
+  - "Fighting in caster form against a Rogue instead of shifting to Bear at the first sign of engagement"
+  - "Trinketing the opening stun instead of saving it for Kidney Shot"
+  - "Assuming Resilience alone solves Rogue burst"
+  - "Queuing solo into arena as Restoration without a coordinated peeling partner"
+  - "Skipping the 3-4 piece PvP set bonus in favor of higher-item-level PvE pieces"

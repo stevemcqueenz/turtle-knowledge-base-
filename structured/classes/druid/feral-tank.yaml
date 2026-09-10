@@ -1,121 +1,88 @@
-class: druid
-spec: feral
+class: Druid
+spec: Feral
 role: tank
-playbook: synthesis/classes/druid/feral-tank.md
 sources:
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=60018#p60018", author: Elesion, authority: "player (BWL off-tank)", date: 2023-08-30, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=64887#p64887", author: Drubarrymooer, authority: "player (feral main)", date: 2023-09-17, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=115691#p115691", author: Drubarrymooer, authority: player, date: 2025-01-07, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=115706#p115706", author: Reploidrocsa, authority: "player (has tanked every boss)", date: 2025-01-07, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=117477#p117477", author: Inovatu, authority: player, date: 2025-01-21, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=165907#p165907", author: Captain4k, authority: "player (tank main since 2008)", date: 2026-01-22, era: 1.18.1-announced-pre-release}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=28953#p28953", author: Kairion, authority: player, date: 2022-11-11, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=43434#p43434", author: Kokumuo, authority: player, date: 2023-04-27, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=43438#p43438", author: Rat2156, authority: player, date: 2023-04-27, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=43976#p43976", author: Drubarrymooer, authority: player, date: 2023-05-01, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=83639#p83639", author: Drubarrymooer, authority: player, date: 2024-01-04, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102946#p102946", author: Atreidon, authority: "player (raid tank; f40 thread)", date: 2024-10-12, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=103027#p103027", author: Zulnam, authority: player, date: 2024-10-13, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=58705#p58705", author: Elesion, authority: player, date: 2023-08-23, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=173102#p173102", author: Noephix, authority: player, date: 2026-03-30, era: post-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=173162#p173162", author: Velanyr, authority: player, date: 2026-03-30, era: post-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=121653#p121653", author: Bullsonparade20, authority: player, date: 2025-03-04, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=121720#p121720", author: Atreidon, authority: player, date: 2025-03-05, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: 2026-01-23, era: 1.18.1-announced-pre-release}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460", author: Jamey, authority: staff, date: 2024-12-20, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=105804#p105804", author: Dragunovi, authority: staff, date: 2024-11-01, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102966#p102966", author: Dragunovi, authority: staff, date: 2024-10-12, era: pre-1.18.1}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: 2025-07-25, era: pre-1.18.1}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=58705#p58705", author: Elesion, authority: player, date: "2023-08-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=58715#p58715", author: Bigsmerf, authority: player, date: "2023-08-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=64890#p64890", author: Drubarrymooer, authority: player, date: "2023-09-17"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=60018#p60018", author: Elesion, authority: player, date: "2023-08-30"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=64887#p64887", author: Drubarrymooer, authority: player, date: "2023-09-17"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=115691#p115691", author: Drubarrymooer, authority: player, date: "2025-01-07"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=115706#p115706", author: Reploidrocsa, authority: player, date: "2025-01-07"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=117477#p117477", author: Inovatu, authority: player, date: "2025-01-21"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=117585#p117585", author: Sunken, authority: player, date: "2025-01-22"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=121590#p121590", author: Inovatu, authority: player, date: "2025-03-04"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=121689#p121689", author: Eyeburn, authority: player, date: "2025-03-04"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=112876#p112876", author: Xudo, authority: player, date: "2024-12-16"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=112877#p112877", author: Jammyzz, authority: player, date: "2024-12-16"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=113723#p113723", author: Jammyzz, authority: player, date: "2024-12-21"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=165907#p165907", author: Captain4k, authority: player, date: "2026-01-22"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=173102#p173102", author: Noephix, authority: player, date: "2026-03-30"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=173162#p173162", author: Velanyr, authority: player, date: "2026-03-30"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171995#p171995", author: Grizb37, authority: player, date: "2026-03-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=26875#p26875", author: Geojak, authority: player, date: "2022-10-06"}
 agreement: contested
-agreement_notes: >-
-  Consensus that bear is viable for all content with support and best at multi-target/immunity
-  fights; contested stat ordering (armor-first vs stamina-first vs hit/agi cat-set) and
-  post-1.18.1 standing (Noephix 'no reason to bring a bear' vs Velanyr '8 of 10 fastest
-  Kara guilds use a bear MT').
 patch_validity:
-  written_for: "1.18.0 kit; 1.18.1 threat nerf applied"
+  written_for: "1.17.2 / 1.18.0 (Class Changes 2 talent trees)"
   valid_for_1181: true
-  notes: >-
-    1.18.1: Maul threat -15%, Savage Bite threat -12% (Jamey p166071). No talent changes.
-    Rotation unchanged; expect lower threat margin. MCP advice obsolete since 2024-10-12.
-    Frenzied Regeneration numbers are the batch-2 nerfed values (5-min CD).
+  notes: "Talent tree structurally unchanged by 1.18.1. 1.18.1 reduced Maul threat modifier by 15% and Savage Bite threat modifier by 12% (official). Post-1.18.1 forum reaction (single detailed author, several short agreeing replies) argues bear tanking lost its main advantage; not independently log-verified."
 talents:
-  build_name: "Meta bear tank build (Captain4k, 1.18.0 tree)"
-  build_links:
-    - {url: "https://talents.turtlecraft.gg/druid?points=BSAaAI-FAYYRaDQQIFQB-Ao", note: "Captain4k 2026-01-22; opaque encoding; names Sylvan Blessing, Omen of Clarity, Furor"}
-    - {url: "https://talents.turtlecraft.gg/druid/1O3I6-UIK8FEDV-5", note: "Kairion 2022 cookie-cutter, pre-CC2 tree, obsolete"}
+  build_name: "Meta tank build (link only, Captain4k, 2026-01-22)"
+  build_link: "https://talents.turtlecraft.gg/druid?points=BSAaAI-FAYYRaDQQIFQB-Ao"
   points:
-    - {tree: Feral, talent: Feral Instinct, rank: 3, spell_id: null, sourced: true}
-    - {tree: Feral, talent: Thick Hide, rank: 3, spell_id: null, sourced: true, note: "contested 0-5"}
-    - {tree: Feral, talent: Feral Swiftness, rank: 2, spell_id: null, sourced: true}
-    - {tree: Feral, talent: Feral Charge, rank: 1, spell_id: null, sourced: true}
-    - {tree: Feral, talent: Sharpened Claws, rank: 3, spell_id: null, sourced: true}
-    - {tree: Feral, talent: Predatory Strikes, rank: 3, spell_id: null, sourced: true}
-    - {tree: Feral, talent: Primal Fury, rank: 2, spell_id: null, sourced: true}
-    - {tree: Feral, talent: Heart of the Wild, rank: 5, spell_id: null, sourced: false}
-    - {tree: Feral, talent: Ancient Brutality, rank: 2, spell_id: null, sourced: true}
-    - {tree: Feral, talent: Leader of the Pack, rank: 1, spell_id: null, sourced: false}
-    - {tree: Feral, talent: Berserk, rank: 1, spell_id: null, sourced: true}
-    - {tree: Balance, talent: Natural Weapons, rank: 3, spell_id: null, sourced: true}
-    - {tree: Balance, talent: Omen of Clarity, rank: 1, spell_id: null, sourced: true}
-    - {tree: Balance, talent: Sylvan Blessing, rank: 1, spell_id: null, sourced: true}
-    - {tree: Balance, talent: Improved Thorns, rank: 0, spell_id: null, sourced: true, note: "optional reflect threat (Xudo, Bigsmerf)"}
-    - {tree: Restoration, talent: Furor, rank: 5, spell_id: null, sourced: true}
-  points_note: "Partial; no source lists all 51 points in text"
+    - {tree: Feral, talent: "Omen of Clarity", rank: 1, spell_id: null}
+    - {tree: Feral, talent: Furor, rank: 3, spell_id: null}
+    - {tree: Feral, talent: "Feral Instinct", rank: 3, spell_id: null}
+    - {tree: Feral, talent: "Thick Hide", rank: 3, spell_id: null}
+    - {tree: Feral, talent: "Blood Frenzy", rank: 2, spell_id: null}
+    - {tree: Feral, talent: "Primal Fury", rank: 2, spell_id: null}
+    - {tree: Feral, talent: "Sylvan Blessing", rank: 2, spell_id: null}
+    - {tree: Feral, talent: "Ancient Brutality", rank: "2-3 (contested tuning)", spell_id: null}
+    - {tree: unspecified, talent: "remainder (link not decodable from text)", rank: null, spell_id: null}
   leveling_order:
-    - {level: 20, tree: Balance, talent: "Omen of Clarity (Captain4k: by 20)"}
-    - {level: 25, tree: Restoration, talent: "Furor (Captain4k: by 25)"}
-    - {level: 30, tree: Feral, talent: "respec option at Travel Form (Turboman)"}
+    - {level: 20, tree: Feral, talent: "Feral Swiftness (cat movement speed)"}
+    - {level: 20, tree: Feral, talent: "Omen of Clarity"}
+    - {level: 25, tree: Feral, talent: Furor}
+    - {level: 30, tree: Feral, talent: "Swift Travel Form (baseline questline, not a talent)"}
 stat_weights:
-  stamina: 1
-  armor: "1-2 (to ~11-12k armor per Inovatu; 'cap' easy in pre-raid gear per Elesion)"
-  hit: "1-2 (to cap)"
-  haste: "2 (best threat stat per Elesion/Inovatu; 2% haste ~ 1% crit budget)"
-  crit: 2
-  agility: 3
-  strength: 3
-  dodge: "3 (valued for Ancient Brutality rage per Drubarrymooer; 'Dont go for Dodge' per Inovatu)"
-  defense: "4 (low value: no block/parry; matters only in Naxx / hard hitters)"
-  vampirism: "never prioritize (Atreidon)"
+  armor: "high until ~11-12k, then deprioritize (cap easy to reach)"
+  stamina: "high, always good"
+  hit: "high until cap (8%, or 5% with Natural Weapons 3/3)"
+  haste_attack_speed: "high — undervalued by new players; Maul rides the slow 2.5s auto-attack timer"
+  crit: "medium-high — threat abilities are damage multipliers, so crit doubles threat"
+  agility: "medium — wanted for Ancient Brutality dodge synergy, not worth raw itemization"
+  defense: "contested/low — 40% less effective (no parry/block); situational raise for hard-hitting/low-healing fights"
+  strength: "low priority relative to armor/stam/hit per sources read"
 caps:
-  melee_hit_pct_from_gear: "5-6 with Natural Weapons"
-  armor_target: "11000-12000 (Inovatu)"
-  defense_cap: "not stated by any druid source"
-  dodge_reference: "~25% run, 32% raid-buffed possible (Drubarrymooer 2023)"
+  hit_cap_melee: "8% (5% effective with Natural Weapons 3/3, +3% hit)"
+  armor_soft_target: "~11-12k armor before diminishing priority (single source)"
+  crit_immunity_defense: "not found in Druid sources (gap)"
 rotation_single:
-  - {priority: 1, action: "Barkskin (Feral) / pre-pull Barkskin", condition: "Before charge on hard hitters; 15 melee hits -50% for 12s (10-min CD)"}
-  - {priority: 2, action: "Feral Charge / Feral Faerie Fire R1 pull", condition: "Open; FF rank 1 suffices for pulling"}
-  - {priority: 3, action: "Maul queued every swing", condition: "Always; best threat per rage (2.5x Savage Bite per Kokumuo)"}
-  - {priority: 4, action: "Savage Bite", condition: "Omen of Clarity proc (press Escape to clear Maul queue first) or rage >= ~35 surplus; best per GCD; 'second taunt' after Growl"}
-  - {priority: 5, action: "Faerie Fire (Feral)", condition: "On cooldown / when debuff missing"}
-  - {priority: 6, action: "Demoralizing Roar", condition: "Once per pull (Idol of the Apex Predator -2 rage)"}
-  - {priority: 7, action: "Swipe", condition: "Spare rage even single-target for Primal Fury procs"}
-  - {priority: 8, action: "Enrage", condition: "Rage-starved and not taking heavy damage"}
+  - {priority: 1, action: "Faerie Fire (Feral) rank 1", condition: "pull, to apply armor debuff cheaply"}
+  - {priority: 2, action: Maul, condition: "on auto-attack timer, primary rage dump/threat"}
+  - {priority: 3, action: "Savage Bite", condition: "on cooldown (9s pre-1.18.1 baseline); snap-threat/rage dump, now lower threat modifier post-1.18.1"}
+  - {priority: 4, action: "Demoralizing Roar", condition: "physical-heavy pull, or to pull a stealthed rogue out of stealth"}
+  - {priority: 5, action: Enrage, condition: "threat secure, extra rage needed"}
 rotation_aoe:
-  - {targets_min: 2, priority: 1, action: "Swipe", condition: "On cooldown; hits 3 (+1 with AQ20 3-set); Maul queued on kill target"}
-  - {targets_min: 2, priority: 2, action: "Feral Charge", condition: "Caster in the pack"}
-  - {targets_min: 4, priority: 1, action: "Swipe every GCD + Demoralizing Roar + tab Maul", condition: "Improved Thorns adds reflect threat if taken"}
+  - {targets_min: 2, priority: 1, action: "Faerie Fire (Feral) each new add", condition: "keep armor debuff/threat on adds"}
+  - {targets_min: 2, priority: 2, action: Swipe, condition: "core AoE threat tool, scales with 4% AP (post-Nov-2024 rework)"}
+  - {targets_min: 2, priority: 3, action: "Demoralizing Roar", condition: "on pull"}
 aoe_threshold: 2
 cooldowns:
-  - {name: "Barkskin (Feral)", use_when: "Hard-hitting phases; physical only; 10-min CD"}
-  - {name: "Frenzied Regeneration", use_when: "Emergency HP; ~25% HP at full rage after batch-2 nerf; 5-min CD; empties rage"}
-  - {name: "Berserk (bear)", use_when: "20% HP for 20s, 6-min CD"}
-  - {name: "Enrage", use_when: "Rage on pull; armor penalty"}
-  - {name: "Feral Charge", use_when: "Gap close / interrupt casters"}
-  - {name: "Tranquility", use_when: "On raid-lead call even with 0 healing power"}
+  - {name: "Frenzied Regeneration", use_when: "self-heal, 6-minute cooldown pre-1.18.1 (reduced from 3-minute original CC2 value, then only trimmed to 5 min in Dec-2024, criticized as insufficient)"}
+  - {name: "Barkskin (Feral)", use_when: "emergency mitigation, 10-minute cooldown, niche panic button not part of normal rotation"}
+  - {name: "Ancient Brutality", use_when: "passive rage generator on dodge, sustained not on-demand"}
 resource_rules:
-  - "Rage from damage taken; Furor 10 on shift; Primal Fury on crit; Ancient Brutality 2/4 rage per second after a dodge (9s ICD)"
-  - "Leaving bear form drops all rage (Turboman)"
-  - "Queued Maul consumes Omen procs; clear with Escape to use Savage Bite free"
+  - "No numeric rage-pool target given by sources; keep Swipe/Maul/Savage Bite flowing"
+  - "Omen of Clarity + Furor + Blood Frenzy talented reduces rage-starvation concerns per community consensus"
 consumables:
-  - "Mighty Rage Potion in form (since 2024-10-21)"
-  - "Jujus, Gift of Arthas, bandages in form (1.18.0)"
-  - "Enchants: haste head/legs/shoulders, stamina or stats rings/neck (Bullsonparade20); +9 stam bracers / +70 armor cloak / LW armor kits while leveling"
-  - "Standard vanilla tank consumes (vanilla baseline, not from turtlecraft.gg)"
+  - "Hateforge trinket (+120 armor, 12 stam, 1% attack speed) — early tank trinket"
+  - "No pre-raid BiS list found in sources (gap)"
 mistakes_to_avoid:
-  - "Stacking Defense (no block/parry; expensive dodge)"
-  - "Icy Veins order Armor>Stam>Def>Agi>Hit without hit cap"
-  - "Letting queued Maul eat Omen procs"
-  - "Shifting out mid-fight (rage loss, no armor)"
-  - "Prioritizing vampirism"
-  - "Using MCP-era threat advice"
+  - "Itemizing hard for raw Defense rating instead of Hit/Armor/Stamina"
+  - "Chasing raw Dodge% instead of letting Agility be a side effect"
+  - "Taking Feral Adrenaline (30s ICD makes it near-useless per near-unanimous community verdict)"
+  - "Treating Savage Bite as spammable post-1.18.1 (9s cooldown, reduced threat modifier)"
+  - "Pulling without Faerie Fire armor debuff or Demoralizing Roar vs physical packs"
+  - "Assuming bear can tank every fight equally (Nefarian's druid-specific call, fear-heavy/stance-dance fights are worse for bears)"
