@@ -41,6 +41,10 @@ Kit timeline used everywhere (all dates UTC): Class Changes 2 = patch 1.17.2, st
 3. Contested markers — do not resolve them; present both sides.
 4. Gaps below — answer "the forum does not say" rather than inventing.
 
+## Official 1.18.1 Warrior changes used (Jamey p166071, 2026-01-23, revised 2026-03-19; hotfix Torta p171608)
+
+Defiance (Protection) 4/8/12/15/20% threat in Defensive Stance (was 3–15%); Shield Slam attack-power scaling 15% → 20% and threat modifier 50% → 75% (staff: Protection Warriors "falling behind other tanks", fuller review planned); Improved Whirlwind replaced by Ravager (Fury): Whirlwind cooldown −1/1.5/2 s, Cleave rage −1/2/3; Precision Cut (Arms) +25/50/75% damage per extra rage on Execute, placed behind Boundless Anger; Hamstring cooldown removed; Slam cast time with 5/5 Flurry corrected to 1.92 s (was 1.75 s); Arms/Fury Tier 1 3-set 10% chance on ability hit to gain 15 rage; Arms/Fury Tier 3 4-set +4% critical strike damage. Hotfix 2026-03-21: Flurry is now properly consumed when attacking. Sources: `synthesis/1.18.1-master-changelog.md` (Warrior section) and the staff posts it cites.
+
 ## Gaps (known unknowns — never guess these)
 
 Talents and builds
