@@ -1,0 +1,116 @@
+class: Priest
+spec: Shadow
+role: ranged-dps
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=2080#p2080", author: Jcarrill0, authority: guide writer (2019 vanilla-era), date: "2019-02-13"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=133782#p133782", author: Zitronenhaze, authority: player, date: "2025-05-31"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=151267#p151267", author: Keds, authority: player, date: "2025-09-11"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=150785#p150785", author: Keds, authority: player, date: "2025-09-08"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=113536#p113536", author: Caracole, authority: player, date: "2024-12-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=73757#p73757", author: Quidoba, authority: player, date: "2023-10-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=103227#p103227", author: Svercalirin, authority: player, date: "2024-10-16"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=151635#p151635", author: Nemetth1, authority: player, date: "2025-09-14"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=133959#p133959", author: Drubarrymooer, authority: player, date: "2025-06-02"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=98901#p98901", author: Atreidon, authority: player, date: "2024-07-08"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: "2025-07-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102970#p102970", author: Dragunovi, authority: staff, date: "2024-10-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272", author: Dragunovi, authority: staff, date: "2026-02-15"}
+agreement: contested
+patch_validity:
+  written_for: "1.17.2/1.18.0 (pre-1.18.1); 1.18.1 staff changes merged"
+  valid_for_1181: unknown
+  notes: "Rotation and stat priority are consensus and unaffected. Talent rows changed in 1.18.1 (Improved Mind Blast row 1, Blackout row 2, Improved Fade reworked row 4, Shadow Reach 2 pts, Shadow Weaving self-buff, Spirit Tap on MB crits); no post-release build posted."
+talents:
+  build_name: "Raid Shadow 36/15/0 (reconstructed for 1.18.1); variant 31/0/20 for Spiritual Guidance"
+  points:
+    - {tree: Shadow, talent: Improved Mind Blast, rank: 5, spell_id: null}
+    - {tree: Shadow, talent: "Improved Shadow Word: Pain", rank: 2, spell_id: null}
+    - {tree: Shadow, talent: Shadow Focus, rank: 5, spell_id: null}
+    - {tree: Shadow, talent: Mind Flay, rank: 1, spell_id: null}
+    - {tree: Shadow, talent: Improved Fade, rank: 2, spell_id: null}
+    - {tree: Shadow, talent: Shadow Reach, rank: 2, spell_id: null}
+    - {tree: Shadow, talent: Shadow Weaving, rank: 5, spell_id: null}
+    - {tree: Shadow, talent: Vampiric Embrace, rank: 1, spell_id: null}
+    - {tree: Shadow, talent: Vampiric Touch, rank: 2, spell_id: null}
+    - {tree: Shadow, talent: Darkness, rank: 5, spell_id: null}
+    - {tree: Shadow, talent: Shadowform, rank: 1, spell_id: null}
+    - {tree: Discipline, talent: Wand Specialization, rank: 2, spell_id: null}
+    - {tree: Discipline, talent: Silent Resolve, rank: 5, spell_id: null}
+    - {tree: Discipline, talent: "Improved Power Word: Fortitude", rank: 2, spell_id: null}
+    - {tree: Discipline, talent: Improved Inner Fire, rank: 2, spell_id: null}
+    - {tree: Discipline, talent: Meditation, rank: 3, spell_id: null}
+    - {tree: Discipline, talent: Inner Focus, rank: 1, spell_id: null}
+    - {tree: Shadow, talent: "Shadow Affinity (optional 0-3, contested; swap out Improved Fade / Imp. Fortitude)", rank: 0, spell_id: null}
+  leveling_order:
+    - {level: 10, tree: Discipline, talent: Wand Specialization}
+    - {level: 12, tree: Shadow, talent: Spirit Tap}
+    - {level: 17, tree: Shadow, talent: "Improved Shadow Word: Pain"}
+    - {level: 19, tree: Shadow, talent: "Shadow Focus (3/5)"}
+    - {level: 22, tree: Shadow, talent: Mind Flay}
+    - {level: 23, tree: Shadow, talent: Shadow Weaving}
+    - {level: 28, tree: Shadow, talent: Vampiric Embrace}
+    - {level: 29, tree: Shadow, talent: Darkness}
+    - {level: 34, tree: Shadow, talent: "Shadow Reach / Improved Fade"}
+    - {level: 40, tree: Shadow, talent: Shadowform}
+stat_weights:
+  spell_hit: "to cap (6% from gear; 5% with a druid in raid)"
+  spell_power: 1
+  shadow_power: 1
+  mp5: 2
+  intellect: 3
+  spell_crit: 4
+  spirit: 5
+caps:
+  spell_hit_boss_pct: 16
+  spell_hit_from_gear_pct: 6
+  spell_hit_talent_pct: 10
+  max_hit_chance_pct: 99
+rotation_single:
+  - {priority: 1, action: "Shadow Word: Pain", condition: "not on target or < 3 s remaining"}
+  - {priority: 2, action: "Vampiric Embrace", condition: "missing and target expected to live > 15 s (bosses); never on Nefarian"}
+  - {priority: 3, action: "Mind Blast", condition: "off cooldown AND threat below tank (hold ~10 s after pull)"}
+  - {priority: 4, action: "Mind Flay", condition: "filler; within 20-24 yd; channel to completion"}
+  - {priority: 5, action: "Pain Spike", condition: "target will die within 5 s (30 s CD)"}
+  - {priority: 6, action: "Devouring Plague (Undead)", condition: "once per boss if mana allows"}
+  - {priority: 7, action: "Shadow Word: Pain + Mind Flay only", condition: "mana low: skip Mind Blast"}
+  - {priority: 8, action: "melee swing between Mind Flays", condition: "optional; in melee range and safe (~3% DPS)"}
+rotation_aoe:
+  - {targets_min: 2, priority: 1, action: "Shadow Word: Pain on each target (tab)", condition: "targets live > 12 s; mana ok"}
+  - {targets_min: 2, priority: 2, action: "Mind Flay / Mind Blast on kill target", condition: "always"}
+  - {targets_min: 4, priority: 1, action: "single-target the skull; Power Word: Shield casters", condition: "no Holy Nova talented"}
+  - {targets_min: 4, priority: 2, action: "Holy Nova (self-damage in Shadowform)", condition: "only if 10 Holy points spent and mana to spare"}
+aoe_threshold: 3
+cooldowns:
+  - {name: Vampiric Embrace, use_when: "every boss opener; not on Nefarian; not on short trash"}
+  - {name: Inner Focus, use_when: "free Mind Blast on cooldown, or emergency heal out of form"}
+  - {name: Fade, use_when: "threat meter near tank (-15% total threat + Improved Fade retention in 1.18.1)"}
+  - {name: Power Word: Shield (self), use_when: "before AoE/pushback phases (castable in Shadowform)"}
+  - {name: Pain Spike, use_when: "execute / killing-blow fishing for Spirit Tap"}
+  - {name: Berserking (Troll), use_when: "burst windows"}
+resource_rules:
+  - "Demonic Rune at ~1500 mana below max, Major Mana Potion at ~2500 below max, then on cooldown"
+  - "Nordanaar Herbal Tea on cooldown (shares CD with runes)"
+  - "Improved Shadowform (60): -15% shadow mana, 15% regen while casting; mana stops being an issue around 350-400 shadow power"
+  - "If OOM: Mind Flay only to keep Shadow Weaving up"
+  - "Drink between pulls in dungeons; in raids rely on consumables"
+consumables:
+  - Major Mana Potion
+  - Demonic Rune / Dark Rune
+  - Nordanaar Herbal Tea (61675)
+  - Brilliant Wizard Oil
+  - Elixir of Shadow Power (1 h since 1.18.0)
+  - Greater Arcane Elixir
+  - Mageblood Elixir
+  - Nightfin Soup / Sagefish Delight
+  - Elixir of Greater Intellect
+  - Flask of Supreme Power (biggest DPS gain)
+  - Greater Fire / Arcane Protection Potion (Ragnaros / Shazzrah)
+mistakes_to_avoid:
+  - "Mind Blast on pull or with fresh tank (170% threat multiplier + VE heal threat)"
+  - "Vampiric Embrace on Nefarian or on short-lived trash"
+  - "Standing at 30+ yd (Mind Flay 20-24 yd)"
+  - "Clipping Mind Flay to Mind Blast without Improved Mind Blast"
+  - "Skipping hit gear or chasing tier set bonuses (T2 bonuses useless)"
+  - "Using Shadow Mend instead of leaving form to heal (pre-1.18.0 advice)"
+  - "Forgetting Holy Nova damages you in Shadowform"

@@ -1,0 +1,94 @@
+class: Priest
+spec: Discipline
+role: pvp
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=128453#p128453", author: Forumdweller, authority: player, date: "2025-04-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=145281#p145281", author: Halfgeek9, authority: player, date: "2025-08-14"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=103729#p103729", author: Zvyrhol, authority: player, date: "2024-10-18"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102656#p102656", author: Zvyrhol, authority: player, date: "2024-10-06"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=150297#p150297", author: Zvyrhol, authority: player, date: "2025-09-05"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=103744#p103744", author: Isvya, authority: player, date: "2024-10-19"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141227#p141227", author: Thaladar, authority: player, date: "2025-07-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141075#p141075", author: Thaladar, authority: player, date: "2025-07-24"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=111295#p111295", author: Kobiq, authority: player, date: "2024-12-04"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102616#p102616", author: Ragetto, authority: player, date: "2024-10-06"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=98805#p98805", author: Springboards, authority: player, date: "2024-07-07"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=159517#p159517", author: Blackduck4, authority: player, date: "2025-11-13"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=78962#p78962", author: Tok, authority: player, date: "2023-11-27"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=131171#p131171", author: Ataika, authority: player, date: "2025-05-15"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108776#p108776", author: Jamey, authority: staff, date: "2024-11-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504", author: Torta, authority: staff, date: "2025-03-30"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+agreement: contested
+patch_validity:
+  written_for: "1.17.2/1.18.0 (pre-1.18.1)"
+  valid_for_1181: true
+  notes: "Discipline talents unchanged in 1.18.1 except Searing Light mana 60%. Blackout (Shadow row 2 since 1.18.1) is now 5 points further for hybrids. PvP Dampening per spec introduced (values unknown). Healer variant is weakly sourced."
+talents:
+  build_name: "Smite PvP 31/20/0 (reconstructed); healer variant Disc/Holy per Tok (image only)"
+  points:
+    - {tree: Discipline, talent: Wand Specialization, rank: 2, spell_id: null}
+    - {tree: Discipline, talent: Piercing Light, rank: 3, spell_id: null}
+    - {tree: Discipline, talent: Mental Agility, rank: 3, spell_id: null}
+    - {tree: Discipline, talent: Blessed Concentration, rank: 2, spell_id: null}
+    - {tree: Discipline, talent: "Improved Power Word: Shield", rank: 3, spell_id: null}
+    - {tree: Discipline, talent: Inner Focus, rank: 1, spell_id: null}
+    - {tree: Discipline, talent: Improved Inner Fire, rank: 2, spell_id: null}
+    - {tree: Discipline, talent: Purifying Flames, rank: 2, spell_id: null}
+    - {tree: Discipline, talent: Searing Light, rank: 3, spell_id: null}
+    - {tree: Discipline, talent: Enlighten, rank: 1, spell_id: null}
+    - {tree: Discipline, talent: Mental Strength, rank: 3, spell_id: null}
+    - {tree: Discipline, talent: Force of Will, rank: 5, spell_id: null}
+    - {tree: Discipline, talent: Chastise, rank: 1, spell_id: null}
+    - {tree: Holy, talent: Divinity, rank: 5, spell_id: null}
+    - {tree: Holy, talent: Divine Fury, rank: 5, spell_id: null}
+    - {tree: Holy, talent: Holy Reach, rank: 2, spell_id: null}
+    - {tree: Holy, talent: Holy Nova, rank: 1, spell_id: null}
+    - {tree: Holy, talent: Holy Focus, rank: 2, spell_id: null}
+    - {tree: Holy, talent: Spiritual Guidance, rank: 5, spell_id: null}
+  leveling_order: []
+stat_weights:
+  stamina: 1
+  spell_power_damage_and_healing: 2
+  spell_crit: 3
+  spell_hit: "3%"
+  healing_power: "drives PW:S size (player-tested)"
+caps:
+  spell_hit_vs_players_pct: 3
+  chastise_range_yd: 25
+rotation_single:
+  - {priority: 1, action: "Smite (instant)", condition: "Searing Light proc up"}
+  - {priority: 2, action: "Chastise (enemy)", condition: "opener from range; do NOT follow with Holy Fire (DoT breaks the 2 s disorient)"}
+  - {priority: 3, action: "Holy Fire", condition: "off cooldown and target not disoriented"}
+  - {priority: 4, action: "Smite (hard cast)", condition: "filler; bait interrupts"}
+  - {priority: 5, action: "Starshards (Night Elf)", condition: "target LoS-hugging; interrupt on CD"}
+  - {priority: 6, action: "Searing Shot (Night Elf)", condition: "on cooldown, no GCD, sitting targets auto-crit"}
+  - {priority: 7, action: "Shadow Word: Pain / Mind Blast", condition: "pressure; MB on cooldown"}
+  - {priority: 8, action: "Pain Spike", condition: "finisher"}
+  - {priority: 9, action: "Power Word: Shield (self)", condition: "no Weakened Soul"}
+  - {priority: 10, action: "Psychic Scream", condition: "melee on you"}
+rotation_aoe:
+  - {targets_min: 2, priority: 1, action: "Chastise on a sapped/blinded ally", condition: "ally CC'd and above 50% HP"}
+  - {targets_min: 2, priority: 2, action: "Holy Nova rank 1", condition: "stealth suspected / moving"}
+  - {targets_min: 2, priority: 3, action: "Dispel Magic on enemy buffs (seals, blessings, mage/druid buffs)", condition: "free GCD"}
+aoe_threshold: 2
+cooldowns:
+  - {name: Chastise, use_when: "40 s: CC opener or ally sap/blind break or ally haste"}
+  - {name: Inner Focus, use_when: "free crit Holy Fire or Greater Heal; High Elf racial costs"}
+  - {name: Fear Ward, use_when: "self/ally before fear classes"}
+  - {name: Desperate Prayer / Avatar / Shadowmeld / Grace of the Sunwell, use_when: "racial"}
+  - {name: Enlighten, use_when: "self before combat"}
+resource_rules:
+  - "Tea and drinking out of combat; Searing Light -60% Smite mana (1.18.1)"
+  - "Mental Agility; Sun's Embrace (High Elf) when low"
+  - "Mana Burn only with Improved Mana Burn (Shadow row 4)"
+consumables:
+  - Nordanaar Herbal Tea (61675)
+  - Major Mana Potion
+mistakes_to_avoid:
+  - "Chastise then Holy Fire (DoT breaks the disorient)"
+  - "Hard-casting into kickers instead of baiting"
+  - "Damage tier sets instead of stamina"
+  - "Forgetting ally-Chastise on Sap/Blind"
+  - "Relying on Feedback for Blackout"
+  - "Expecting Devouring Plague to stick vs paladins/priests"

@@ -1,0 +1,102 @@
+class: Priest
+spec: Holy
+role: healer
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: guide writer, date: "2025-09-19"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=161280#p161280", author: Sharmaine, authority: player, date: "2025-12-02"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=155346#p155346", author: Sharmaine, authority: player, date: "2025-10-13"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=124792#p124792", author: Hawkbutt, authority: player, date: "2025-03-31"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=125153#p125153", author: Hawkbutt, authority: player, date: "2025-04-03"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=153172#p153172", author: Azcron, authority: player, date: "2025-09-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=153177#p153177", author: Akos1896, authority: player, date: "2025-09-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=127580#p127580", author: Akos1896, authority: player, date: "2025-04-19"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=162360#p162360", author: Blubbsy, authority: player, date: "2025-12-10"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=92978#p92978", author: Thexdylldolan, authority: player, date: "2024-04-17"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272", author: Dragunovi, authority: staff, date: "2026-02-15"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102970#p102970", author: Dragunovi, authority: staff, date: "2024-10-12"}
+agreement: consensus
+patch_validity:
+  written_for: "1.17.2/1.18.0 (pre-1.18.1); staff 1.18.1 changes merged"
+  valid_for_1181: unknown
+  notes: "Rotation and stat priority hold. Talent build is a reconstruction of the pre-1.18.1 17/34/0 shape; 1.18.1 removed Proclaim Champion (Ascendance capstone instead), added Book of Prayer, reworked Lightwell/Reservoir of Light/Prayer of Healing and raised Heal/Greater Heal/Flash Heal base values. No post-release full build was posted."
+talents:
+  build_name: "Deep Holy raid healer 17/34/0 (reconstructed for 1.18.1)"
+  points:
+    - {tree: Discipline, talent: Mental Agility, rank: 5, spell_id: null}
+    - {tree: Discipline, talent: "Improved Power Word: Fortitude", rank: 2, spell_id: null}
+    - {tree: Discipline, talent: "Improved Power Word: Shield", rank: 3, spell_id: null}
+    - {tree: Discipline, talent: Inner Focus, rank: 1, spell_id: null}
+    - {tree: Discipline, talent: Meditation, rank: 3, spell_id: null}
+    - {tree: Discipline, talent: Improved Inner Fire, rank: 2, spell_id: null}
+    - {tree: Discipline, talent: Silent Resolve, rank: 1, spell_id: null}
+    - {tree: Holy, talent: Holy Focus, rank: 2, spell_id: null}
+    - {tree: Holy, talent: Improved Renew, rank: 3, spell_id: null}
+    - {tree: Holy, talent: Divinity, rank: 5, spell_id: null}
+    - {tree: Holy, talent: Divine Fury, rank: 5, spell_id: null}
+    - {tree: Holy, talent: Holy Reach, rank: 2, spell_id: null}
+    - {tree: Holy, talent: Holy Nova, rank: 1, spell_id: null}
+    - {tree: Holy, talent: Inspiration, rank: 3, spell_id: null}
+    - {tree: Holy, talent: Improved Healing, rank: 3, spell_id: null}
+    - {tree: Holy, talent: Spiritual Guidance, rank: 5, spell_id: null}
+    - {tree: Holy, talent: Spirit of Redemption, rank: 1, spell_id: null}
+    - {tree: Holy, talent: Spiritual Healing, rank: 5, spell_id: null}
+    - {tree: Holy, talent: Ascendance, rank: 1, spell_id: null}
+    - {tree: Holy, talent: "Book of Prayer / Empowered Recovery / Reservoir of Light (unassigned flex, 0-3)", rank: 0, spell_id: null}
+  leveling_order: []
+stat_weights:
+  healing_power: 1
+  spell_crit: 2
+  intellect: 3
+  spirit: 4
+  mp5: 5
+  stamina: 6
+caps:
+  spell_hit_pvp_pct: 3
+  spell_hit_boss_pct: 16
+  note: "no healing cap; PW:S scales with healing power (player-tested); Improved Renew/Improved PW:S/Force of Will multiply base values only"
+rotation_single:
+  - {priority: 1, action: "Power Word: Shield (max rank)", condition: "target at critical HP and no time for a 2.5 s cast; NOT on warrior/bear tanks unless emergency"}
+  - {priority: 2, action: "Flash Heal (max rank)", condition: "target low and dropping fast"}
+  - {priority: 3, action: "Greater Heal (max rank)", condition: "tank losing ~50% per hit / sustained heavy damage"}
+  - {priority: 4, action: "Heal (max rank)", condition: "steady damage, no emergency"}
+  - {priority: 5, action: "Renew (max rank)", condition: "not on tank or < 3 s left"}
+  - {priority: 6, action: "Renew (rank 5) / downranked Heal R2+ / Greater Heal R1+ / Renew R3+", condition: "non-tank slightly damaged, moving, or mana below ~50%"}
+  - {priority: 7, action: "Inner Focus + Greater Heal or Prayer of Healing", condition: "Inner Focus ready and a big heal is needed or mana low"}
+  - {priority: 8, action: "alternate spell types", condition: "post-1.18.1 with Book of Prayer talented (refund only on non-repeat)"}
+rotation_aoe:
+  - {targets_min: 2, priority: 1, action: "Renew on each damaged member, Heal on lowest", condition: "2-3 damaged"}
+  - {targets_min: 4, priority: 1, action: "Prayer of Healing (max rank with Inner Focus, else rank 1)", condition: "4+ in one party damaged; post-1.18.1 target a member of the damaged party"}
+  - {targets_min: 4, priority: 2, action: "Holy Nova (max rank)", condition: "party stacked within 10 yd, mana to spare, tank has aggro (generates threat since 1.18.0)"}
+aoe_threshold: 4
+cooldowns:
+  - {name: Inner Focus, use_when: "big Greater Heal / max-rank Prayer of Healing, or mana emergency (free cast)"}
+  - {name: Ascendance, use_when: "1.18.1: burst healing phase or to break CC (5 min CD)"}
+  - {name: Fade, use_when: "pulling aggro (adds -15% total threat in 1.18.1)"}
+  - {name: Lightwell, use_when: "1.18.1: place inside stacked group before pull; passive 20% (40% talented) echo of direct heals"}
+  - {name: Desperate Prayer, use_when: "Human/Dwarf self emergency (10 min)"}
+  - {name: Avatar, use_when: "Dwarf: on the tank at pull or during heavy magic damage (5 min)"}
+  - {name: Fear Ward, use_when: "on tank before fear mechanics"}
+resource_rules:
+  - "Exploit the 5-second rule: top the group then stop casting for several seconds"
+  - "Major Mana Potion early in long fights so a second one comes off cooldown"
+  - "Tea (Tea with Sugar / Nordanaar Herbal Tea) and Dark/Demonic Runes share a cooldown; alternate with potions"
+  - "Downrank when under ~50% mana: Heal R2+, Greater Heal R1+, Renew R3+ keep full scaling"
+  - "Keep Fortitude, Divine Spirit, Shadow Protection (when shadow damage) up on the whole raid"
+consumables:
+  - Major Mana Potion (13444)
+  - Tea with Sugar (15723) / Nordanaar Herbal Tea (61675)
+  - Dark Rune (20520) / Demonic Rune (12662)
+  - Brilliant Mana Oil (20748)
+  - Empowering Herbal Salad (83309) or Nightfin Soup / Sagefish Delight
+  - Flask of Distilled Wisdom (13511)
+  - Spirit of Zanza (20079)
+  - Mageblood Potion (20007)
+mistakes_to_avoid:
+  - "Shielding warrior/bear tanks on pull (no rage from absorbed hits on Turtle's 1.12 core)"
+  - "Spamming Flash Heal instead of efficient Heal/Greater Heal and downranks"
+  - "Not using Fade when pulling aggro"
+  - "Letting Fortitude/Spirit/Shadow Protection lapse"
+  - "Psychic Scream in raids"
+  - "Casting max-rank Prayer of Healing without Inner Focus when mana is tight"
+  - "Following old advice about Proclaim Champion/Champion spells or clickable Lightwell (removed/reworked in 1.18.1)"

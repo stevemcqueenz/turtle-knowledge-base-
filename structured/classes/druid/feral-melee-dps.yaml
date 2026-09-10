@@ -1,0 +1,202 @@
+class: druid
+spec: feral
+role: melee-dps
+playbook: synthesis/classes/druid/feral-melee-dps.md
+sources:
+  - url: https://forum.turtlecraft.gg/viewtopic.php?p=173102#p173102
+    author: Noephix
+    authority: player (endgame raider, Kara40)
+    date: 2026-03-30
+    era: post-1.18.1
+  - url: https://forum.turtlecraft.gg/viewtopic.php?p=147482#p147482
+    author: Snkx
+    authority: player (Kara40 raider)
+    date: 2025-08-21
+    era: pre-1.18.1
+  - url: https://forum.turtlecraft.gg/viewtopic.php?p=133609#p133609
+    author: Noephix
+    authority: player
+    date: 2025-05-30
+    era: pre-1.18.1
+  - url: https://forum.turtlecraft.gg/viewtopic.php?p=134389#p134389
+    author: Grizb37
+    authority: player
+    date: 2025-06-05
+    era: pre-1.18.1
+  - url: https://forum.turtlecraft.gg/viewtopic.php?p=128296#p128296
+    author: Snkx
+    authority: player
+    date: 2025-04-24
+    era: pre-1.18.1
+  - url: https://forum.turtlecraft.gg/viewtopic.php?p=132929#p132929
+    author: Noephix
+    authority: player
+    date: 2025-05-25
+    era: pre-1.18.1
+  - url: https://forum.turtlecraft.gg/viewtopic.php?p=132703#p132703
+    author: Rmoruser
+    authority: player
+    date: 2025-05-23
+    era: pre-1.18.1
+  - url: https://forum.turtlecraft.gg/viewtopic.php?p=131427#p131427
+    author: Mundane
+    authority: player
+    date: 2025-05-16
+    era: pre-1.18.1
+  - url: https://forum.turtlecraft.gg/viewtopic.php?p=131669#p131669
+    author: Noephix
+    authority: player
+    date: 2025-05-17
+    era: pre-1.18.1
+  - url: https://forum.turtlecraft.gg/viewtopic.php?p=89439#p89439
+    author: Templar85
+    authority: player (druid main since 2022)
+    date: 2024-03-04
+    era: pre-1.18.1
+  - url: https://forum.turtlecraft.gg/viewtopic.php?p=121689#p121689
+    author: Eyeburn
+    authority: player
+    date: 2025-03-04
+    era: pre-1.18.1
+  - url: https://forum.turtlecraft.gg/viewtopic.php?p=121385#p121385
+    author: Atreidon
+    authority: player
+    date: 2025-03-02
+    era: pre-1.18.1
+  - url: https://forum.turtlecraft.gg/viewtopic.php?p=71953#p71953
+    author: Bigsmerf
+    authority: player
+    date: 2023-10-18
+    era: pre-1.18.1
+  - url: https://forum.turtlecraft.gg/viewtopic.php?p=124910#p124910
+    author: Drubarrymooer
+    authority: player (feral main, Naxx BiS; maintains gear sheet)
+    date: 2025-04-01
+    era: pre-1.18.1
+  - url: https://forum.turtlecraft.gg/viewtopic.php?p=38764#p38764
+    author: Portholes
+    authority: player (HC 60)
+    date: 2023-03-23
+    era: pre-1.18.1
+  - url: https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159
+    author: Jamey
+    authority: staff
+    date: 2025-07-25
+    era: pre-1.18.1
+  - url: https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460
+    author: Jamey
+    authority: staff
+    date: 2024-12-20
+    era: pre-1.18.1
+  - url: https://forum.turtlecraft.gg/viewtopic.php?p=102966#p102966
+    author: Dragunovi
+    authority: staff
+    date: 2024-10-12
+    era: pre-1.18.1
+  - url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+    author: Jamey
+    authority: staff
+    date: 2026-01-23
+    era: 1.18.1-announced-pre-release
+  - url: https://forum.turtlecraft.gg/viewtopic.php?p=52800#p52800
+    author: Dragunovi
+    authority: staff
+    date: 2023-07-10
+    era: pre-1.18.1
+  - url: https://forum.turtlecraft.gg/viewtopic.php?p=52799#p52799
+    author: Dragunovi
+    authority: staff
+    date: 2023-07-10
+    era: pre-1.18.1
+agreement: contested
+agreement_notes: >-
+  Consensus since spring 2025 that the bleed/claw build out-damages powershifting on
+  bleedable targets and that powershift Shred is mandatory on bleed-immune targets;
+  contested whether powershifting inside the bleed build is a gain (Mundane) or a loss
+  (Noephix); contested overall standing (strong at AQ40 gear, weak in Kara40 post-1.18.1).
+patch_validity:
+  written_for: "1.18.0 kit (2025-07-25 / 2025-08-14 revision); standing updated with post-1.18.1 posts"
+  valid_for_1181: true
+  notes: >-
+    1.18.1 changed no cat talent or ability (Jamey p166071 lists only Maul/Savage Bite
+    threat for bear). Item changes: idol swap GCD, Herald of Woe 224 FAP, Yoxtez +224 FAP,
+    Shieldrender rework (player-reported nerf). Advice mentioning MCP is obsolete since
+    2024-10-12 (no longer works in forms).
+talents:
+  build_name: "Bleed/claw cat (Open Wounds + Ancient Brutality) with powershift backup; two specs required"
+  build_links:
+    - url: https://talents.turtlecraft.gg/druid/1O3I6-Z029FEDV-5
+      note: "Portholes 2023 elemental/powershift 12/34/5, obsolete pre-CC2 tree"
+  points:
+    - {tree: Feral, talent: Ferocity, rank: 5, spell_id: null, sourced: false}
+    - {tree: Feral, talent: Open Wounds, rank: 3, spell_id: null, sourced: true}
+    - {tree: Feral, talent: Sharpened Claws, rank: 3, spell_id: null, sourced: false}
+    - {tree: Feral, talent: Improved Shred, rank: 2, spell_id: null, sourced: true}
+    - {tree: Feral, talent: Predatory Strikes, rank: 3, spell_id: null, sourced: true}
+    - {tree: Feral, talent: Primal Fury, rank: 2, spell_id: null, sourced: false}
+    - {tree: Feral, talent: Blood Frenzy, rank: 2, spell_id: null, sourced: true}
+    - {tree: Feral, talent: Heart of the Wild, rank: 5, spell_id: null, sourced: false}
+    - {tree: Feral, talent: Ancient Brutality, rank: 2, spell_id: null, sourced: true}
+    - {tree: Feral, talent: Leader of the Pack, rank: 1, spell_id: null, sourced: false}
+    - {tree: Feral, talent: Carnage, rank: 2, spell_id: null, sourced: true}
+    - {tree: Feral, talent: Berserk, rank: 1, spell_id: null, sourced: false}
+    - {tree: Balance, talent: Natural Weapons, rank: 3, spell_id: null, sourced: true}
+    - {tree: Balance, talent: Omen of Clarity, rank: 1, spell_id: null, sourced: true}
+    - {tree: Balance, talent: Natural Shapeshifter, rank: 3, spell_id: null, sourced: false}
+    - {tree: Restoration, talent: Furor, rank: 5, spell_id: null, sourced: true}
+  points_note: "Sum exceeds 51 by design: sources say cat 'needs to be lvl 62' for all mandatory talents (Noephix p173102); drop fillers per preference. No source posts a full list."
+  leveling_order: []
+stat_weights:
+  hit: "1 (to cap: 8% total, 5% from gear after Natural Weapons 3%; older posts say 9%/6%)"
+  crit: 2
+  agility: 2
+  strength: 3
+  attack_power: 3
+  haste: "4 (contested: bear stat per Snkx; MCP-era valued 20% swing)"
+  stamina: 5
+  intellect: 0
+  spirit: 0
+  numeric_weights_source: "not on forum; Taladril's list sheet 1wGBasFY8fFGpBtiD1TAUBB99wxboCSVh5MW_6b_z0oU, Drubarrymooer sheet 1EXmDujdlPD_s7xrLKjcFykBJIW_hmMhwRhSXZWUkKBQ, VanillaRatingBuster addon"
+caps:
+  melee_hit_pct_total: 8
+  melee_hit_pct_from_gear: 5
+  melee_hit_alt_claim_total: 9
+  weapon_skill: "not applicable (paws fixed at 300; glancing 35% on ~40% of attacks per Templar85)"
+rotation_single:
+  - {priority: 0, action: "Choose rotation", condition: "Target not bleed-immune -> bleed/claw (no shifting). Bleed-immune -> powershift Shred. Naxx: almost nothing immune; Kara40: immune from Anomalus to chess and trash until portal orb, plus Rupturan; MC: many immune."}
+  - {priority: 1, action: "Tiger's Fury", condition: "Before pull and whenever Blood Frenzy (20% AS, 18s) / +10 energy per 3s buff is down; never shift while it is up"}
+  - {priority: 2, action: "Rake", condition: "Not on target (bleed for Open Wounds +Claw dmg, Ancient Brutality energy)"}
+  - {priority: 3, action: "Rip", condition: "5 combo points and Rip not on target (10-18s by CP); Idol of Laceration refund chance"}
+  - {priority: 4, action: "Shred", condition: "Omen of Clarity proc, or Idol of Laceration refund active, and behind target"}
+  - {priority: 5, action: "Claw", condition: "Builder when both bleeds are up (contested with Shred as default builder)"}
+  - {priority: 6, action: "Ferocious Bite", condition: "5 CP, both bleeds have >= their own refresh window left, spare energy (FB +0.5% per extra energy, +3/4/5% per bleed)"}
+  - {priority: 7, action: "Powershift (fallback rotation)", condition: "Bleed-immune target only: Shred at >=60 energy, shift when energy too low (macro <=30) and no tick imminent, FB at 5 CP; Wolfsheart helm enchant + Furor required"}
+rotation_aoe:
+  - {targets_min: 2, priority: 1, action: "Stay single-target in cat", condition: "No cat cleave exists; sources call cat AoE weak"}
+  - {targets_min: 4, priority: 1, action: "Bear Swipe", condition: "Only if rage available (usually not as non-tank); AQ20 3-set adds 1 target"}
+  - {targets_min: 4, priority: 2, action: "Hurricane (caster form)", condition: "Not competitive without spell power"}
+aoe_threshold: 4
+cooldowns:
+  - {name: Berserk, use_when: "6-min CD; on boss pull or burst phase; do not shift out of cat while active"}
+  - {name: "Tiger's Fury", use_when: "Maintain Blood Frenzy and energy regen; lost on shapeshift"}
+  - {name: "Omen of Clarity", use_when: "Cast the 30-min buff; spend procs on Shred, never Ferocious Bite"}
+  - {name: "Trinkets (Earthstrike, Slayer's Crest / Blackhand's Breadth, KT trinket)", use_when: "ES + Slayer's on long fights, ES + BhB short fights, ES + Kel'Thuzad trinket in Naxx (Inovatu 2024)"}
+  - {name: Tranquility, use_when: "On raid-lead call; raid-wide, 30-min CD"}
+  - {name: Innervate, use_when: "Healer, unless powershifting mana is needed"}
+resource_rules:
+  - "Energy: Ancient Brutality 3/5 per bleed tick; Tiger's Fury +10 per 3s; Idol of Laceration 20%/CP chance to refund 15 energy on next Shred; AQ20 3-set 8%/CP chance to restore 35 energy"
+  - "Powershift gives 40 (Furor) + 20 (Wolfsheart) = 60 energy but loses autos, Tiger's Fury and a GCD (Noephix); worth it only on bleed-immune targets"
+  - "Mana only matters for powershifting; Reshift (lvl 60) costs 35% base mana; Idol of the Wildshifter -75 mana per shift"
+  - "Combo points persist through shapeshifting (staff 2024-10-12)"
+consumables:
+  - "Mighty Rage Potion (usable in form since 2024-10-21)"
+  - "Jujus, Gift of Arthas, Lucidity, bandages usable in forms (1.18.0)"
+  - "Elemental Sharpening Stone (crit works on paws; weightstones do not) - medium confidence"
+  - "Dragonbreath Chili, Battle Chicken, Tel'Abim haste food, Elixir of the Mongoose (vanilla baseline melee consumes)"
+mistakes_to_avoid:
+  - "Running only one spec; bleed cats fall off a cliff on bleed-immune bosses"
+  - "Powershifting inside the bleed build (or refusing to powershift on immunes)"
+  - "Shifting with Berserk active"
+  - "Ferocious Bite on a Clearcasting proc"
+  - "Hit above cap; intellect/spirit tier stats; weapon-skill or Windfury/chance-on-hit items (do not work in forms)"
+  - "Following MCP-era advice after 2024-10-12"

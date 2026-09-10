@@ -1,0 +1,121 @@
+class: Priest
+spec: Discipline
+role: ranged-dps
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: guide writer, date: "2025-09-19"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=131166#p131166", author: Tess322, authority: player, date: "2025-05-15"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=157662#p157662", author: Tscosomaz, authority: player, date: "2025-10-29"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=111323#p111323", author: Caracole, authority: player, date: "2024-12-04"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=174655#p174655", author: Zvyrhol, authority: player, date: "2026-04-10"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=162703#p162703", author: Quidoba, authority: player, date: "2025-12-13"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=140895#p140895", author: Darkest1024, authority: player, date: "2025-07-22"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=106433#p106433", author: Ulukay, authority: player, date: "2024-11-05"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102970#p102970", author: Dragunovi, authority: staff, date: "2024-10-12"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108776#p108776", author: Jamey, authority: staff, date: "2024-11-20"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504", author: Torta, authority: staff, date: "2025-03-30"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: "2025-07-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272", author: Dragunovi, authority: staff, date: "2026-02-15"}
+agreement: contested
+patch_validity:
+  written_for: "1.17.2/1.18.0 (pre-1.18.1)"
+  valid_for_1181: true
+  notes: "Talent tree unchanged in 1.18.1 except Searing Light mana reduction 50% -> 60%; Discipline alternative tier sets and T2.5 5-set rework added (per-piece stats not in sources). Holy Nova mana reduced again."
+talents:
+  build_name: "Langorn 31/13/7 (only fully enumerated Disc build); raid variant swaps Spirit Tap for Spiritual Guidance"
+  points:
+    - {tree: Discipline, talent: Wand Specialization, rank: 2, spell_id: null}
+    - {tree: Discipline, talent: Piercing Light, rank: 3, spell_id: null}
+    - {tree: Discipline, talent: Mental Agility, rank: 3, spell_id: null}
+    - {tree: Discipline, talent: "Improved Power Word: Fortitude", rank: 2, spell_id: null}
+    - {tree: Discipline, talent: Inner Focus, rank: 1, spell_id: null}
+    - {tree: Discipline, talent: Improved Inner Fire, rank: 2, spell_id: null}
+    - {tree: Discipline, talent: Meditation, rank: 3, spell_id: null}
+    - {tree: Discipline, talent: Purifying Flames, rank: 2, spell_id: null}
+    - {tree: Discipline, talent: Searing Light, rank: 3, spell_id: null}
+    - {tree: Discipline, talent: Enlighten, rank: 1, spell_id: null}
+    - {tree: Discipline, talent: Mental Strength, rank: 3, spell_id: null}
+    - {tree: Discipline, talent: Force of Will, rank: 5, spell_id: null}
+    - {tree: Discipline, talent: Chastise, rank: 1, spell_id: null}
+    - {tree: Holy, talent: Divinity, rank: 5, spell_id: null}
+    - {tree: Holy, talent: Divine Fury, rank: 5, spell_id: null}
+    - {tree: Holy, talent: Holy Nova, rank: 1, spell_id: null}
+    - {tree: Holy, talent: Holy Focus, rank: 2, spell_id: null}
+    - {tree: Shadow, talent: Spirit Tap, rank: 5, spell_id: null}
+    - {tree: Shadow, talent: "Improved Shadow Word: Pain", rank: 2, spell_id: null}
+  leveling_order:
+    - {level: 10, tree: Discipline, talent: Wand Specialization}
+    - {level: 12, tree: Shadow, talent: Spirit Tap}
+    - {level: 17, tree: Holy, talent: Divinity}
+    - {level: 22, tree: Holy, talent: Divine Fury}
+    - {level: 27, tree: Discipline, talent: Piercing Light}
+    - {level: 30, tree: Discipline, talent: "Improved Power Word: Fortitude"}
+    - {level: 32, tree: Discipline, talent: "Mental Agility (3/5)"}
+    - {level: 35, tree: Discipline, talent: Inner Focus}
+    - {level: 36, tree: Discipline, talent: Improved Inner Fire}
+    - {level: 38, tree: Discipline, talent: "Meditation (2/3)"}
+    - {level: 40, tree: Discipline, talent: Purifying Flames}
+    - {level: 42, tree: Discipline, talent: Searing Light}
+    - {level: 45, tree: Discipline, talent: Enlighten}
+    - {level: 46, tree: Discipline, talent: Mental Strength}
+    - {level: 49, tree: Discipline, talent: "Meditation (3/3)"}
+    - {level: 50, tree: Discipline, talent: Force of Will}
+    - {level: 55, tree: Discipline, talent: Chastise}
+    - {level: 56, tree: Holy, talent: Holy Nova}
+    - {level: 57, tree: Holy, talent: Holy Focus}
+    - {level: 59, tree: Shadow, talent: "Improved Shadow Word: Pain"}
+stat_weights:
+  spell_hit: "to 10% from gear (weight ~19 under cap per Tscosomaz)"
+  spell_power: 1
+  holy_power: 1
+  spell_crit: 2
+  intellect: 3
+  spirit: 4
+  mp5: 4
+caps:
+  spell_hit_boss_pct: 16
+  spell_hit_from_gear_pct: 10
+  spell_hit_talent_pct: 6
+  holy_resistance: "none on Turtle mobs (level-based Holy resist removed)"
+rotation_single:
+  - {priority: 1, action: "Smite (instant)", condition: "Searing Light proc active (3 s ICD); 60% cheaper in 1.18.1"}
+  - {priority: 2, action: "Holy Fire", condition: "off cooldown (keeps Purifying Flames +12% up)"}
+  - {priority: 3, action: "Shadow Word: Pain", condition: "missing and target lives > 18 s"}
+  - {priority: 4, action: "Chastise (ally)", condition: "off cooldown (40 s): tank at pull, then best DPS; ally above 50% HP"}
+  - {priority: 5, action: "Smite (hard cast)", condition: "filler"}
+  - {priority: 6, action: "Mind Blast", condition: "optional filler when mana is fine"}
+  - {priority: 7, action: "Pain Spike", condition: "target dies within 5 s"}
+  - {priority: 8, action: "Power Word: Shield (low rank, self)", condition: "Resurgent Shield talented and incoming damage will break it"}
+  - {priority: 9, action: "Holy Fire rank 1 / downranked Smite", condition: "mana below ~30%"}
+  - {priority: 10, action: "Searing Shot (Night Elf) / Sun's Embrace, Grace of the Sunwell (High Elf)", condition: "on cooldown"}
+  - {priority: 11, action: "Wand", condition: "mana low, target nearly dead"}
+rotation_aoe:
+  - {targets_min: 2, priority: 1, action: "Holy Fire + SW:P on secondary targets, Smite skull", condition: "targets live > 10 s"}
+  - {targets_min: 4, priority: 1, action: "Holy Nova spam (10 yd, self-centred)", condition: "tank has aggro (threat since 1.18.0), mana to spare"}
+aoe_threshold: 4
+cooldowns:
+  - {name: Inner Focus, use_when: "free crit-boosted Holy Fire opener, or emergency heal"}
+  - {name: Chastise, use_when: "every 40 s on an ally (haste 13/17/20% for 8-12 s)"}
+  - {name: Enlighten, use_when: "before pull on self (+15%) or best caster (+10%); re-apply after death"}
+  - {name: Fear Ward, use_when: "tank before fears"}
+  - {name: Berserking / Sun's Embrace / Grace of the Sunwell, use_when: "on cooldown"}
+resource_rules:
+  - "Major Mana Potion + tea + runes from the first minute on long fights"
+  - "Downrank Holy Fire (rank 1 ~80 mana, ~1:1 SP) and Smite when mana falls"
+  - "Wand between casts to recover mana (Wand Specialization mana on hit)"
+  - "1.18.1 T2.5 5-set: Chastise gives +40 SP and -15% Smite/Holy Fire mana for 12 s"
+consumables:
+  - Major Mana Potion
+  - Nordanaar Herbal Tea / Tea with Sugar
+  - Dark Rune / Demonic Rune
+  - Brilliant Wizard Oil
+  - Flask of Supreme Power
+  - Greater Arcane Elixir
+  - "Robe of Sacrifice / Darkmoon Card: Blue Dragon (mana items)"
+mistakes_to_avoid:
+  - "Playing without 10% spell hit from gear"
+  - "Letting Searing Light procs expire / clipping Holy Fire"
+  - "Holy Nova on trash before the tank has aggro"
+  - "Chastising an enemy in PvE (2 s disorient breaks on damage)"
+  - "Forgetting to re-apply Enlighten"
+  - "Trusting Improved PW:Shield / Force of Will tooltips (flat base only)"

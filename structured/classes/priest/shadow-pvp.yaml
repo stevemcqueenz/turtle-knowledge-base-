@@ -1,0 +1,91 @@
+class: Priest
+spec: Shadow
+role: pvp
+sources:
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=93101#p93101", author: Frantsel, authority: player, date: "2024-04-19"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=98805#p98805", author: Springboards, authority: player, date: "2024-07-07"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=160917#p160917", author: Springboards, authority: player, date: "2025-11-27"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102752#p102752", author: Heroclastus, authority: player, date: "2024-10-08"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=124839#p124839", author: Atreidon, authority: player, date: "2025-04-01"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=136768#p136768", author: Skattberg, authority: player, date: "2025-06-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=117120#p117120", author: Skattberg, authority: player, date: "2025-01-18"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=146128#p146128", author: Halfgeek9, authority: player, date: "2025-08-16"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=145204#p145204", author: Turboman, authority: player, date: "2025-08-13"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166733#p166733", author: Zvyrhol, authority: player, date: "2026-01-28"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: "2025-07-25"}
+  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504", author: Torta, authority: staff, date: "2025-03-30"}
+agreement: contested
+patch_validity:
+  written_for: "1.17.2/1.18.0 (pre-1.18.1)"
+  valid_for_1181: unknown
+  notes: "1.18.1 moved Blackout to row 2 and Improved Mind Blast to row 1, made Shadow Weaving a self-buff (players fear DoT dispel exposure), Pain Spike CD 30 s, Improved Fade -3/6 s CD. PvP Dampening now per spec (numbers unknown). Player build links are pre-1.18.1 opaque strings."
+talents:
+  build_name: "Shadow PvP 40/11/0 (reconstructed)"
+  points:
+    - {tree: Shadow, talent: "Spirit Tap or Improved Mind Blast", rank: 5, spell_id: null}
+    - {tree: Shadow, talent: Blackout, rank: 5, spell_id: null}
+    - {tree: Shadow, talent: "Improved Shadow Word: Pain", rank: 2, spell_id: null}
+    - {tree: Shadow, talent: Shadow Focus, rank: 2, spell_id: null}
+    - {tree: Shadow, talent: Improved Psychic Scream, rank: 2, spell_id: null}
+    - {tree: Shadow, talent: Mind Flay, rank: 1, spell_id: null}
+    - {tree: Shadow, talent: Shadow Reach, rank: 2, spell_id: null}
+    - {tree: Shadow, talent: Shadow Weaving, rank: 5, spell_id: null}
+    - {tree: Shadow, talent: Silence, rank: 1, spell_id: null}
+    - {tree: Shadow, talent: Vampiric Embrace, rank: 1, spell_id: null}
+    - {tree: Shadow, talent: Vampiric Touch, rank: 2, spell_id: null}
+    - {tree: Shadow, talent: Darkness, rank: 5, spell_id: null}
+    - {tree: Shadow, talent: Shadowform, rank: 1, spell_id: null}
+    - {tree: Shadow, talent: Improved Fade, rank: 2, spell_id: null}
+    - {tree: Shadow, talent: "Shadow Affinity (filler)", rank: 4, spell_id: null}
+    - {tree: Discipline, talent: Wand Specialization, rank: 2, spell_id: null}
+    - {tree: Discipline, talent: Blessed Concentration, rank: 2, spell_id: null}
+    - {tree: Discipline, talent: "Improved Power Word: Shield", rank: 3, spell_id: null}
+    - {tree: Discipline, talent: Inner Focus, rank: 1, spell_id: null}
+    - {tree: Discipline, talent: "Improved Power Word: Fortitude", rank: 2, spell_id: null}
+    - {tree: Discipline, talent: Meditation, rank: 1, spell_id: null}
+  leveling_order: []
+stat_weights:
+  stamina: 1
+  spell_power: 2
+  spell_hit: "3% (some say 4%)"
+  spell_penetration: "vs resist stackers only"
+  intellect: 4
+caps:
+  spell_hit_vs_players_pct: 3
+  spell_penetration: "1 pen = 1 resistance"
+rotation_single:
+  - {priority: 1, action: "Power Word: Shield (self)", condition: "no Weakened Soul"}
+  - {priority: 2, action: "Vampiric Embrace", condition: "before engaging (instant since 1.18.0)"}
+  - {priority: 3, action: "Shadow Word: Pain", condition: "not on target (rank 1 as dispel bait)"}
+  - {priority: 4, action: "Mind Blast", condition: "off cooldown (Inner Focus for free crit)"}
+  - {priority: 5, action: "Mind Flay", condition: "target within 20-24 yd and no freedom effect"}
+  - {priority: 6, action: "Pain Spike", condition: "target low enough to die (30 s CD)"}
+  - {priority: 7, action: "Silence", condition: "enemy healer/caster casting"}
+  - {priority: 8, action: "Psychic Scream", condition: "melee on you and target not fear-warded/WotF-ready"}
+  - {priority: 9, action: "Shadowguard / Hex of Weakness (Troll), Starshards (Night Elf), Devouring Plague (Undead)", condition: "racial availability"}
+rotation_aoe:
+  - {targets_min: 2, priority: 1, action: "Shadow Word: Pain on all", condition: "always"}
+  - {targets_min: 2, priority: 2, action: "Psychic Scream", condition: "2+ melee in range"}
+  - {targets_min: 2, priority: 3, action: "Holy Nova rank 1 spam", condition: "stealthers suspected and Holy Nova talented"}
+aoe_threshold: 2
+cooldowns:
+  - {name: Psychic Scream, use_when: "escape / casting window; assume trinket, WotF, Fear Ward"}
+  - {name: Silence, use_when: "interrupt heals"}
+  - {name: Inner Focus, use_when: "free Mind Blast or Devouring Plague"}
+  - {name: Fade, use_when: "1.18.1: shorter CD with Improved Fade; no PvP effect described"}
+  - {name: Desperate Prayer / Stoneform / Shadowmeld / WotF / Berserking, use_when: "racial: heal, cleanse poison-bleed-disease, deny openers or drink, break fear, burst"}
+resource_rules:
+  - "Drink whenever out of combat; Nordanaar Herbal Tea in combat"
+  - "Suiciding to respawn with full mana is used but rebuffing costs 40-50% mana"
+  - "Rank-1 SW:P / Hex as cheap dispel bait"
+consumables:
+  - Nordanaar Herbal Tea (61675)
+  - Major Mana Potion
+  - Greater Shadow Protection / Free Action-type PvP consumables (not detailed in sources)
+mistakes_to_avoid:
+  - "Opening with Mind Flay at max range"
+  - "Fearing into Fear Ward / WotF / trinket"
+  - "Pain Spike early (heals back)"
+  - "Tier sets over stamina pieces"
+  - "Never dispelling or shielding teammates"
