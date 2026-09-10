@@ -284,6 +284,8 @@ def validate(rec, resp):
         return (False, "cloudflare challenge")
     if "</html>" not in text[-3000:].lower():
         return (False, "truncated html")
+    if "board is temporarily unavailable" in text or "The board is currently unavailable" in text:
+        return (False, "board temporarily unavailable")
     if rec["kind"] in ("list", "topic"):
         if "The requested topic does not exist" in text or "The forum you selected does not exist" in text:
             return (True, "phpbb: does not exist")

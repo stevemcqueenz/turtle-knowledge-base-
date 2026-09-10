@@ -1,0 +1,108 @@
+---
+title: "[Being fixed]I made some more fist weapons for weapon vendors"
+url: "https://forum.turtlecraft.gg/viewtopic.php?t=2548"
+topic_id: 2548
+forum_id: 14
+forum: "Suggestions"
+author: "Jekka"
+author_authority: "player"
+posted: "2022-01-14T20:46:00Z"
+last_post: "2022-01-14T22:50:00Z"
+post_count: 3
+pages: 1
+fetched: "2026-09-10T12:36:25Z"
+era: "pre-1.18.1"
+note: bold text marks names highlighted in the source; posts are in original order; times are UTC
+---
+
+# [Being fixed]I made some more fist weapons for weapon vendors
+
+## Post 15813 by Jekka — 2022-01-14T20:46:00Z
+<!-- url: https://forum.turtlecraft.gg/viewtopic.php?p=15813#p15813 | page 1 | era: pre-1.18.1 -->
+
+Hey so I created some lv 10 claw fist weapons to match the brass knuckles. They are to be sold in vendors alongside the knuckles.  First time using the creator so let me know of any errors and I'll make the changes.
+
+Right-Handed Edge
+[https://dev.turtlecraft.gg/#!/itemcreat ... wiTlVMTCJd](https://dev.turtlecraft.gg/#!/itemcreator/WzAsMCwyLDEzLCJSaWdodC1IYW5kZWQgRWRnZSIsIiIsMTU5MDMsMSwwLDEsMjEzMCw0MjYsMjEsLTEsLTEsMTUsMTAsMCwwLDAsMCwwLDAsMCwwLDEsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMTQwMCwwLDAsNiwxMywwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLC0xLDAsLTEsMCwwLDAsMCwtMSwwLC0xLDAsMCwwLDAsLTEsMCwtMSwwLDAsMCwwLC0xLDAsLTEsMCwwLDAsMCwtMSwwLC0xLDAsMCwwLDAsMCwwLDAsMywwLDAsMzUsMCwwLDAsMCwwLDAsMCwwLDAsMSwiTlVMTCJd)
+
+Left-Handed Edge
+[https://dev.turtlecraft.gg/#!/itemcreat ... JOVUxMIl0=](https://dev.turtlecraft.gg/#!/itemcreator/WzAsMCwyLDEzLCJMZWZ0LUhhbmRlZCBFZGdlIiwiIiwxNTkwNywxLDAsMSwyMTMwLDQyNiwyMiwtMSwtMSwxNSwxMCwwLDAsMCwwLDAsMCwwLDAsMSwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwxNDAwLDAsMCw2LDEzLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsLTEsMCwtMSwwLDAsMCwwLC0xLDAsLTEsMCwwLDAsMCwtMSwwLC0xLDAsMCwwLDAsLTEsMCwtMSwwLDAsMCwwLC0xLDAsLTEsMCwwLDAsMCwwLDAsMCw2LDAsMCwzNSwwLDAsMCwwLDAsMCwwLDAsMCwxLCJOVUxMIl0=)
+
+ *edit* Here are the rest below, all are to be added to appropriate weapon vendors:
+
+CLAWS
+
+LV 40
+Right-Handed Talon
+[https://dev.turtlecraft.gg/#!/itemcreat ... wiTlVMTCJd](https://dev.turtlecraft.gg/#!/itemcreator/WzAsMCwyLDEzLCJSaWdodC1IYW5kZWQgVGFsb25zIiwiIiwxNTkwMywxLDAsMSw1ODYxMSwxMTcyMCwyMSwtMSwtMSw0NSw0MCwwLDAsMCwwLDAsMCwwLDAsMSwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwxNTAwLDAsMCwyNCw0NSwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLC0xLDAsLTEsMCwwLDAsMCwtMSwwLC0xLDAsMCwwLDAsLTEsMCwtMSwwLDAsMCwwLC0xLDAsLTEsMCwwLDAsMCwtMSwwLC0xLDAsMCwwLDAsMCwwLDAsMywwLDAsNjUsMCwwLDAsMCwwLDAsMCwwLDAsMSwiTlVMTCJd)
+
+Left-Handed Talon
+[https://dev.turtlecraft.gg/#!/itemcreat ... JOVUxMIl0=](https://dev.turtlecraft.gg/#!/itemcreator/WzAsMCwyLDEzLCJMZWZ0LUhhbmRlZCBUYWxvbnMiLCIiLDE1OTA3LDEsMCwxLDU4NjExLDExNzIwLDIyLC0xLC0xLDQ1LDQwLDAsMCwwLDAsMCwwLDAsMCwxLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDE1MDAsMCwwLDI0LDQ1LDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsLTEsMCwtMSwwLDAsMCwwLC0xLDAsLTEsMCwwLDAsMCwtMSwwLC0xLDAsMCwwLDAsLTEsMCwtMSwwLDAsMCwwLC0xLDAsLTEsMCwwLDAsMCwwLDAsMCw2LDAsMCw2NSwwLDAsMCwwLDAsMCwwLDAsMCwxLCJOVUxMIl0=)
+
+LV 50
+Right-Handed Fangs
+[https://dev.turtlecraft.gg/#!/itemcreat ... wiTlVMTCJd](https://dev.turtlecraft.gg/#!/itemcreator/WzAsMCwyLDEzLCJSaWdodC1IYW5kZWQgRmFuZ3MiLCIiLDE1OTA0LDEsMCwxLDE1ODI0OSwzMjIzMCwyMSwtMSwtMSw1NSw1MCwwLDAsMCwwLDAsMCwwLDAsMSwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwxNTAwLDAsMCwzMCw1NiwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLC0xLDAsLTEsMCwwLDAsMCwtMSwwLC0xLDAsMCwwLDAsLTEsMCwtMSwwLDAsMCwwLC0xLDAsLTEsMCwwLDAsMCwtMSwwLC0xLDAsMCwwLDAsMCwwLDAsMywwLDAsNzUsMCwwLDAsMCwwLDAsMCwwLDAsMSwiTlVMTCJd)
+
+Left-Handed Fangs
+[https://dev.turtlecraft.gg/#!/itemcreat ... JOVUxMIl0=](https://dev.turtlecraft.gg/#!/itemcreator/WzAsMCwyLDEzLCJMZWZ0LUhhbmRlZCBGYW5ncyIsIiIsMTU5MDksMSwwLDEsMTU4MjQ5LDMyMjMwLDIyLC0xLC0xLDU1LDUwLDAsMCwwLDAsMCwwLDAsMCwxLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDE1MDAsMCwwLDMwLDU2LDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsLTEsMCwtMSwwLDAsMCwwLC0xLDAsLTEsMCwwLDAsMCwtMSwwLC0xLDAsMCwwLDAsLTEsMCwtMSwwLDAsMCwwLC0xLDAsLTEsMCwwLDAsMCwwLDAsMCw2LDAsMCw3NSwwLDAsMCwwLDAsMCwwLDAsMCwxLCJOVUxMIl0=)
+
+LV 60
+Right-Handed Eviscerator
+[https://dev.turtlecraft.gg/#!/itemcreat ... wiTlVMTCJd](https://dev.turtlecraft.gg/#!/itemcreator/WzAsMCwyLDEzLCJSaWdodC1IYW5kZWQgRXZpc2NlcmF0b3IiLCIiLDIyNDA0LDEsMCwxLDQzNTE4NCw4ODYzMiwyMSwtMSwtMSw2NSw2MCwwLDAsMCwwLDAsMCwwLDAsMSwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwxNTAwLDAsMCwzNiw2NywwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLC0xLDAsLTEsMCwwLDAsMCwtMSwwLC0xLDAsMCwwLDAsLTEsMCwtMSwwLDAsMCwwLC0xLDAsLTEsMCwwLDAsMCwtMSwwLC0xLDAsMCwwLDAsMCwwLDAsMywwLDAsODUsMCwwLDAsMCwwLDAsMCwwLDAsMSwiTlVMTCJd)
+
+Left-Handed Eviscerator
+[https://dev.turtlecraft.gg/#!/itemcreat ... JOVUxMIl0=](https://dev.turtlecraft.gg/#!/itemcreator/WzAsMCwyLDEzLCJMZWZ0LUhhbmRlZCBFdmlzY2VyYXRvciIsIiIsMTU5MDcsMSwwLDEsNDM1MTg0LDg4NjMyLDIyLC0xLC0xLDY1LDYwLDAsMCwwLDAsMCwwLDAsMCwxLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDE1MDAsMCwwLDM2LDY3LDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsLTEsMCwtMSwwLDAsMCwwLC0xLDAsLTEsMCwwLDAsMCwtMSwwLC0xLDAsMCwwLDAsLTEsMCwtMSwwLDAsMCwwLC0xLDAsLTEsMCwwLDAsMCwwLDAsMCw2LDAsMCw4NSwwLDAsMCwwLDAsMCwwLDAsMCwxLCJOVUxMIl0=)
+
+FISTS
+
+LV 20
+Right-Handed Duster
+[https://dev.turtlecraft.gg/#!/itemcreat ... 5VTEwiXQ==](https://dev.turtlecraft.gg/#!/itemcreator/WzAsMCwyLDEzLCJSaWdodC1IYW5kZWQgRHVzdGVyIiwiIiwxMzE5OCwxLDAsMSw4MTE3LDE2MjMsMjEsLTEsLTEsMjUsMjAsMCwwLDAsMCwwLDAsMCwwLDEsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMTUwMCwwLDAsMTIsMjMsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwtMSwwLC0xLDAsMCwwLDAsLTEsMCwtMSwwLDAsMCwwLC0xLDAsLTEsMCwwLDAsMCwtMSwwLC0xLDAsMCwwLDAsLTEsMCwtMSwwLDAsMCwwLDAsMCwwLDMsMCwwLDQ1LDAsMCwwLDAsMCwwLDAsMCwwLDEsIk5VTEwiXQ==)
+
+Left-Handed Duster
+[https://dev.turtlecraft.gg/#!/itemcreat ... wiTlVMTCJd](https://dev.turtlecraft.gg/#!/itemcreator/WzAsMCwyLDEzLCJMZWZ0LUhhbmRlZCBEdXN0ZXIiLCIiLDEzMTk4LDEsMCwxLDgxMTcsMTYyMywyMiwtMSwtMSwyNSwyMCwwLDAsMCwwLDAsMCwwLDAsMSwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwxNTAwLDAsMCwxMiwyMywwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLC0xLDAsLTEsMCwwLDAsMCwtMSwwLC0xLDAsMCwwLDAsLTEsMCwtMSwwLDAsMCwwLC0xLDAsLTEsMCwwLDAsMCwtMSwwLC0xLDAsMCwwLDAsMCwwLDAsNiwwLDAsNDUsMCwwLDAsMCwwLDAsMCwwLDAsMSwiTlVMTCJd)
+
+LV 30
+Right-Handed Brusier
+[https://dev.turtlecraft.gg/#!/itemcreat ... JOVUxMIl0=](https://dev.turtlecraft.gg/#!/itemcreator/WzAsMCwyLDEzLCJSaWdodC1IYW5kZWQgQnJ1c2llciIsIiIsMjk0MiwxLDAsMSwyMTc4MCw0MzQxLDIxLC0xLC0xLDM1LDMwLDAsMCwwLDAsMCwwLDAsMCwxLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDE1MDAsMCwwLDE4LDM0LDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsLTEsMCwtMSwwLDAsMCwwLC0xLDAsLTEsMCwwLDAsMCwtMSwwLC0xLDAsMCwwLDAsLTEsMCwtMSwwLDAsMCwwLC0xLDAsLTEsMCwwLDAsMCwwLDAsMCwzLDAsMCw1NSwwLDAsMCwwLDAsMCwwLDAsMCwxLCJOVUxMIl0=)
+
+Left-Handed Brusier
+[https://dev.turtlecraft.gg/#!/itemcreat ... 5VTEwiXQ==](https://dev.turtlecraft.gg/#!/itemcreator/WzAsMCwyLDEzLCJMZWZ0LUhhbmRlZCBCcnVzaWVyIiwiIiwyOTQyLDEsMCwxLDIxNzgwLDQzNDEsMjIsLTEsLTEsMzUsMzAsMCwwLDAsMCwwLDAsMCwwLDEsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMTUwMCwwLDAsMTgsMzQsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwtMSwwLC0xLDAsMCwwLDAsLTEsMCwtMSwwLDAsMCwwLC0xLDAsLTEsMCwwLDAsMCwtMSwwLC0xLDAsMCwwLDAsLTEsMCwtMSwwLDAsMCwwLDAsMCwwLDYsMCwwLDU1LDAsMCwwLDAsMCwwLDAsMCwwLDEsIk5VTEwiXQ==)
+
+LV 40
+Right-Handed Smasher
+[https://dev.turtlecraft.gg/#!/itemcreat ... 5VTEwiXQ==](https://dev.turtlecraft.gg/#!/itemcreator/WzAsMCwyLDEzLCJSaWdodC1IYW5kZWQgU21hc2hlciIsIiIsMTE3NDMsMSwwLDEsNTg2MTEsMTE3MjAsMjEsLTEsLTEsNDUsNDAsMCwwLDAsMCwwLDAsMCwwLDEsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMTUwMCwwLDAsMjQsNDUsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwtMSwwLC0xLDAsMCwwLDAsLTEsMCwtMSwwLDAsMCwwLC0xLDAsLTEsMCwwLDAsMCwtMSwwLC0xLDAsMCwwLDAsLTEsMCwtMSwwLDAsMCwwLDAsMCwwLDMsMCwwLDY1LDAsMCwwLDAsMCwwLDAsMCwwLDEsIk5VTEwiXQ==)
+
+Left-Handed Smasher
+[https://dev.turtlecraft.gg/#!/itemcreat ... wiTlVMTCJd](https://dev.turtlecraft.gg/#!/itemcreator/WzAsMCwyLDEzLCJMZWZ0LUhhbmRlZCBTbWFzaGVyIiwiIiwxMTc0MywxLDAsMSw1ODYxMSwxMTcyMCwyMiwtMSwtMSw0NSw0MCwwLDAsMCwwLDAsMCwwLDAsMSwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwxNTAwLDAsMCwyNCw0NSwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLC0xLDAsLTEsMCwwLDAsMCwtMSwwLC0xLDAsMCwwLDAsLTEsMCwtMSwwLDAsMCwwLC0xLDAsLTEsMCwwLDAsMCwtMSwwLC0xLDAsMCwwLDAsMCwwLDAsNiwwLDAsNjUsMCwwLDAsMCwwLDAsMCwwLDAsMSwiTlVMTCJd)
+
+LV 50
+Right-Handed Pummeler
+[https://dev.turtlecraft.gg/#!/itemcreat ... wiTlVMTCJd](https://dev.turtlecraft.gg/#!/itemcreator/WzAsMCwyLDEzLCJSaWdodC1IYW5kZWQgUHVtbWVsZXIiLCIiLDE4NDYyLDEsMCwxLDE1ODI0OSwzMjIzMCwyMSwtMSwtMSw1NSw1MCwwLDAsMCwwLDAsMCwwLDAsMSwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwxNTAwLDAsMCwzMCw1NiwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLC0xLDAsLTEsMCwwLDAsMCwtMSwwLC0xLDAsMCwwLDAsLTEsMCwtMSwwLDAsMCwwLC0xLDAsLTEsMCwwLDAsMCwtMSwwLC0xLDAsMCwwLDAsMCwwLDAsMywwLDAsNzUsMCwwLDAsMCwwLDAsMCwwLDAsMSwiTlVMTCJd)
+
+Left-Handed Pummeler
+[https://dev.turtlecraft.gg/#!/itemcreat ... JOVUxMIl0=](https://dev.turtlecraft.gg/#!/itemcreator/WzAsMCwyLDEzLCJMZWZ0LUhhbmRlZCBQdW1tZWxlciIsIiIsMTE3NDMsMSwwLDEsMTU4MjQ5LDMyMjMwLDIyLC0xLC0xLDU1LDUwLDAsMCwwLDAsMCwwLDAsMCwxLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDE1MDAsMCwwLDMwLDU2LDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsLTEsMCwtMSwwLDAsMCwwLC0xLDAsLTEsMCwwLDAsMCwtMSwwLC0xLDAsMCwwLDAsLTEsMCwtMSwwLDAsMCwwLC0xLDAsLTEsMCwwLDAsMCwwLDAsMCw2LDAsMCw3NSwwLDAsMCwwLDAsMCwwLDAsMCwxLCJOVUxMIl0=)
+
+LV 60
+Right-Handed Brutaliser
+[https://dev.turtlecraft.gg/#!/itemcreat ... JOVUxMIl0=](https://dev.turtlecraft.gg/#!/itemcreator/WzAsMCwyLDEzLCJSaWdodC1IYW5kZWQgQnJ1dGFsaXNlciIsIiIsMTE3NDQsMSwwLDEsNDM1MTg0LDg4NjMyLDIxLC0xLC0xLDY1LDYwLDAsMCwwLDAsMCwwLDAsMCwxLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDE1MDAsMCwwLDM2LDY3LDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsLTEsMCwtMSwwLDAsMCwwLC0xLDAsLTEsMCwwLDAsMCwtMSwwLC0xLDAsMCwwLDAsLTEsMCwtMSwwLDAsMCwwLC0xLDAsLTEsMCwwLDAsMCwwLDAsMCwzLDAsMCw4NSwwLDAsMCwwLDAsMCwwLDAsMCwxLCJOVUxMIl0=)
+
+Left-Handed Brutaliser
+[https://dev.turtlecraft.gg/#!/itemcreat ... 5VTEwiXQ==](https://dev.turtlecraft.gg/#!/itemcreator/WzAsMCwyLDEzLCJMZWZ0LUhhbmRlZCBCcnV0YWxpc2VyIiwiIiwxMTc0NCwxLDAsMSw0MzUxODQsODg2MzIsMjIsLTEsLTEsNjUsNjAsMCwwLDAsMCwwLDAsMCwwLDEsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMTUwMCwwLDAsMzYsNjcsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwtMSwwLC0xLDAsMCwwLDAsLTEsMCwtMSwwLDAsMCwwLC0xLDAsLTEsMCwwLDAsMCwtMSwwLC0xLDAsMCwwLDAsLTEsMCwtMSwwLDAsMCwwLDAsMCwwLDYsMCwwLDg1LDAsMCwwLDAsMCwwLDAsMCwwLDEsIk5VTEwiXQ==)
+
+*Last edited by Jekka on Fri Jan 14, 2022 10:51 pm, edited 1 time in total.*
+
+## Post 15819 by Monmothma21 — 2022-01-14T21:46:00Z
+<!-- url: https://forum.turtlecraft.gg/viewtopic.php?p=15819#p15819 | page 1 | era: pre-1.18.1 -->
+
+Is there some kind of special way to view those links? I tried on my phone and pc, but in both cases they all look the same for me:
+
+![Image](https://i.imgur.com/OLtaFAU.png)
+
+Not sure of what to make of it.
+
+## Post 15823 by Jekka — 2022-01-14T22:50:00Z
+<!-- url: https://forum.turtlecraft.gg/viewtopic.php?p=15823#p15823 | page 1 | era: pre-1.18.1 -->
+
+Holy smokes what on earth happened? I created them a while ago and copy pasted them here, maybe the custom item maker was updated since then. Lol sorry about that I’ll have to take a look at these, thanks.
+
