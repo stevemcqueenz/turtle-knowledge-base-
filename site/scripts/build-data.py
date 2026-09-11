@@ -172,9 +172,9 @@ def make_section(heading: str, markdown: str, level: int) -> dict:
 # Leveling talent-order tables
 # ---------------------------------------------------------------------------
 
-LEVEL_COL = re.compile(r"^(levels?|lvl)\b|\breach", re.I)
+LEVEL_COL = re.compile(r"^levels?\b|\breach", re.I)
 TREE_COL = re.compile(r"^tree$", re.I)
-POINTS_COL = re.compile(r"^(points?|pts|ranks?)\b", re.I)
+POINTS_COL = re.compile(r"^points?\b", re.I)
 TALENT_COL = re.compile(r"talent", re.I)
 ORDER_COL = re.compile(r"^order$", re.I)
 TALENT_LINK = re.compile(r"https?://|\?points=")

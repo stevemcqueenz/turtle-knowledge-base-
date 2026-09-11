@@ -18,7 +18,7 @@ const text = (v: unknown): string => (v === null || v === undefined ? '' : Strin
 /** The tile keeps each cell to a glance; the full text and its citations stay in the guide's prose. */
 function clamp(source: string): string {
   const plain = source
-    .replace(/\[([^\]]*)\]\([^)]*\)/g, '')
+    .replace(/\s*\[[^\]]*\]\([^)]*\)\s*[;,·]?/g, ' ')
     .replace(/[*_`]/g, '')
     .replace(/\(\s*[·,;]*\s*\)/g, '')
     .replace(/\s+/g, ' ')

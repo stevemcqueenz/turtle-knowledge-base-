@@ -15,10 +15,9 @@ export type LevelingGroupKey =
   | 'route'
   | 'hardcore'
   | 'more'
-  | 'intro'
   | 'sources';
 
-/** Page order of the groups; "intro" is folded into Sources. */
+/** Page order of the groups; the Introduction is folded into Sources. */
 export const LEVELING_GROUPS: { key: LevelingGroupKey; label: string }[] = [
   { key: 'spec', label: 'Which spec' },
   { key: 'talents', label: 'Talent order' },
@@ -33,7 +32,7 @@ export const LEVELING_GROUPS: { key: LevelingGroupKey; label: string }[] = [
 
 // First match wins. Headings come from synthesis/classes/<class>/leveling.md.
 const RULES: [RegExp, LevelingGroupKey][] = [
-  [/^introduction$/i, 'intro'],
+  [/^introduction$/i, 'sources'],
   [/^sources?\b/i, 'sources'],
   [/mistake/i, 'dont'],
   [/which (spec|build)|spec choice|spec to level/i, 'spec'],
@@ -60,7 +59,6 @@ export function groupLevelingSections(sections: Section[]): Record<LevelingGroup
     route: [],
     hardcore: [],
     more: [],
-    intro: [],
     sources: [],
   };
   for (const s of sections) groups[levelingGroup(s.heading)].push(s);
@@ -89,12 +87,20 @@ export function levelingVerdictLine(picks: MatrixRow[]): string {
   return parts.join(' ');
 }
 
-/** The spec guide a leveling pick leads to: matched on spec name, the first non-pvp playbook. */
+/**
+ * The spec guide a leveling pick leads to: the one non-pvp playbook of that
+ * spec, narrowed by a role the pick names ("Enhancement (tank-capable)").
+ * Null when the pick names a spec several guides cover.
+ */
 export function levelingPlaybook(entry: ClassEntry, row: MatrixRow): Playbook | null {
   const spec = String(row.spec ?? '').toLowerCase();
   if (!spec) return null;
-  const matches = entry.playbooks.filter((p) => spec.startsWith(p.spec.toLowerCase().split(' ')[0]));
-  return matches.find((p) => p.role !== 'pvp') ?? matches[0] ?? null;
+  const matches = entry.playbooks.filter(
+    (p) => p.role !== 'pvp' && spec.startsWith(p.spec.toLowerCase().split(' ')[0]),
+  );
+  const named = matches.filter((p) => p.role.split('-').some((word) => spec.includes(word)));
+  const candidates = named.length > 0 ? named : matches;
+  return candidates.length === 1 ? candidates[0] : null;
 }
 
 /** The class guide's main leveling order, shown on a spec guide that has none of its own. */

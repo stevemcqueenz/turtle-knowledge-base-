@@ -75,7 +75,7 @@ export function LevelingPage({ slug }: { slug: string }) {
     route: groups.route.length > 0,
     hardcore: groups.hardcore.length > 0,
     more: groups.more.length > 0,
-    sources: groups.intro.length + groups.sources.length > 0,
+    sources: groups.sources.length > 0,
   };
   const tabs = LEVELING_GROUPS.filter((g) => present[g.key]).map((g) => ({ id: `lv-${g.key}`, label: g.label }));
 
@@ -121,7 +121,8 @@ export function LevelingPage({ slug }: { slug: string }) {
                       key={`${row.spec}-${i}`}
                       row={row}
                       playbook={playbook}
-                      target={playbook ? href.playbook(entry.slug, playbook.id) : null}
+                      target={playbook ? href.playbook(entry.slug, playbook.id) : href.class(entry.slug)}
+                      targetLabel={playbook ? undefined : `See the ${entry.name} spec guides`}
                     />
                   );
                 })}
@@ -198,7 +199,7 @@ export function LevelingPage({ slug }: { slug: string }) {
 
         {present.sources ? (
           <GuideSection id="lv-sources" title="Sources">
-            <Folded sections={[...groups.intro, ...groups.sources]} />
+            <Folded sections={groups.sources} />
           </GuideSection>
         ) : null}
       </div>

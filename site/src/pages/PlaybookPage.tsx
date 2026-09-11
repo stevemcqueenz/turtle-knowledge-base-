@@ -151,12 +151,7 @@ export function PlaybookPage({ slug, id }: { slug: string; id: string }) {
               {classOrder.subtitle ? (
                 <Markdown inline source={classOrder.subtitle} className="block text-sm text-muted" />
               ) : null}
-              <LevelingPath
-                steps={classOrder.steps.map((step) => ({ ...step, note: null }))}
-                color={ink}
-                approximate={classOrder.approximate}
-                clamped
-              />
+              <LevelingPath steps={classOrder.steps} color={ink} approximate={classOrder.approximate} />
               <p className="text-sm text-muted">
                 No level-by-level order is published for {playbook.spec} {playbook.roleLabel} itself; this is one
                 of the talent orders in the {entry.name} leveling guide.{' '}
