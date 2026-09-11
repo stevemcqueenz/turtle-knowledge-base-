@@ -112,7 +112,7 @@ function insert(hit: { node: Text; index: number; text: string }, g: GlossaryTer
   meaning.textContent = g.meaning;
   pop.append(title, meaning);
   if (g.citation_url) {
-    const convention = g.scope === 'archive-convention' && g.citation_url.startsWith('#');
+    const convention = g.scope === 'archive-convention';
     const source = document.createElement('a');
     source.href = g.citation_url;
     if (!convention) {
