@@ -54,8 +54,15 @@ function openPop(wrap: HTMLElement, pop: HTMLElement): void {
   wrap.classList.add('open');
   openWrap = wrap;
   pop.style.left = '0px';
-  const overflow = pop.getBoundingClientRect().right - (document.documentElement.clientWidth - 8);
+  pop.style.top = '';
+  const term = wrap.getBoundingClientRect();
+  const box = pop.getBoundingClientRect();
+  const overflow = box.right - (document.documentElement.clientWidth - 8);
   if (overflow > 0) pop.style.left = `${-overflow}px`;
+  const below = document.documentElement.clientHeight - term.bottom;
+  if (box.bottom > document.documentElement.clientHeight - 8 && term.top > below) {
+    pop.style.top = `${-(box.height + box.top - term.bottom)}px`;
+  }
 }
 
 if (typeof document !== 'undefined') {
