@@ -24,6 +24,8 @@ talents:
   leveling_order: []
 stat_weights:
   stamina: "prioritized over raw spell power for attrition survivability (single source, no numeric weight)"
+stat_priority: [stamina]
+stat_priority_note: "Stamina is the only stat the PvP sources rank, and they rank it first: \"Trying to go full spd is silly because you lose survivability against melee foes and never reach the dmg output of other casters ... Moonkins play best if they stack stam and certain set bonuses for attrition fights\" [Turboman p=160309]. No numeric weight for anything else is given."
 caps: {}
 rotation_single:
   - {priority: 1, action: "Moonfire + Insect Swarm", condition: "opener at range"}

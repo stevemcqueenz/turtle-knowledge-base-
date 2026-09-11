@@ -78,6 +78,8 @@ stat_weights:
   threat: "Hit > Agility > Spell Power > Critical > Strength"
   spell_power: "not negligible; close to AP's gain and useful with Lightning Shield rotation"
   intellect: "important early for mana control, falls behind agi/str once ranks/downranking are learned"
+stat_priority: [stamina, agility, dodge, defense]
+stat_priority_note: "Mimiwarmini's tanking order; the same guide gives a separate threat order of hit > agility > spell power > crit > strength. Agility versus Strength for second place is CONTESTED: Mimiwarmini prefers Agility because Rockbiter already supplies ~653 attack power and Agility adds threat and survivability, Skegg puts Strength second once you are 60 (Agility second only while leveling), and Akos1896's pre-CC2 order is stam > agi > melee crit > haste > dodge/parry > strength > int. Guide targets pre-raid: 8% physical hit, 17% spell hit, 160 stamina, 100 agility, 6,000 armor, 20 defense."
 caps:
   physical_hit: "8%"
   spell_hit: "17% (boss level 63)"

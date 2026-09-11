@@ -10,13 +10,35 @@ Built from Skegg's "Shaman Leveling & Pre-BiS Guide" (2025-09-01, compiled from 
 
 ## Talent order by level (Skegg's tank-capable Enhancement path; consensus with Akos1896)
 
-| Levels | Points | Order | Link |
-|---|---|---|---|
-| 10–33 | 24 Enhancement | Shield Specialization 5 → Totemic Alignment 2 → Stable Shields 3 → Ancestral Guardian 3 (before Lightning Strike for mitigation) → Lightning Strike (first if threat is the problem) → Thundering Strikes 1 → Spirit Armor 2 → Thundering Strikes 4 → Elemental Weapons 3 (first if squishy) → Stormstrike (first for more threat) | `https://talents.turtlecraft.gg/shaman?points=-AoUYALAQDI-` |
-| 34–44 | 11 Elemental | Convection 5 → Concussion 2 (few mobs do elemental damage) or Elemental Warding 2 (Maraudon) → Elemental Devastation 3 → Elemental Focus (44) | `...?points=FQAYI-AoUYALAQDI-` or `FACYI-AoUYALAQDI-` |
-| 44–50 | 6 Enhancement | Thundering Strikes 5 → Element's Grace 5 ("raises threat w/o necessarily spending mana") | `...?points=FQAYI-AoVYALAQDIAo-` / `FACYI-AoVYALAQDIAo-` |
-| 51–60 | respec + 15 | Respec Shield Specialization → Ancestral Knowledge 5; Bloodlust; Reverberation 3 ("before Flurry for more QoL in managing threat + more frequent spell interrupt"); Flurry 5; Concussion 3 (threat) or Elemental Warding 3 (tankier) | `...?points=FYAYL-FAVYALFQDIAoB-` / `FADYL-FAVYALFQDIAoB-`; cheaper totems: `FACYL-FAVYALBQDIAoB-Ao` |
-| 51–60 (Resto at 60) | respec | Rush Improved Water Shield with Stable Shields (`-FAAY-FoDoYIEYQC`), then every Resto talent except Improved Reincarnation, Healing Focus, Spirit Link (`-FAAY-FoDoaIFYQKFAB`) | Skegg |
+The guide spends points in brackets rather than per level, so each row carries the bracket it belongs to; the row order is the order the guide gives.
+
+| Levels | Talent | Note |
+|---|---|---|
+| 10–33 | Shield Specialization 5 | 24 Enhancement points across this bracket |
+| 10–33 | Totemic Alignment 2 | |
+| 10–33 | Stable Shields 3 | |
+| 10–33 | Ancestral Guardian 3 | before Lightning Strike, for mitigation |
+| 10–33 | Lightning Strike | take it first if threat is the problem |
+| 10–33 | Thundering Strikes 1 | |
+| 10–33 | Spirit Armor 2 | |
+| 10–33 | Thundering Strikes 4 | |
+| 10–33 | Elemental Weapons 3 | take it first if you are squishy |
+| 10–33 | Stormstrike | take it first if you want more threat |
+| 34–44 | Convection 5 | 11 Elemental points across this bracket |
+| 34–44 | Concussion 2 **or** Elemental Warding 2 | few mobs deal elemental damage; Elemental Warding is the Maraudon pick |
+| 34–44 | Elemental Devastation 3 | |
+| 34–44 | Elemental Focus | lands at 44 |
+| 44–50 | Thundering Strikes 5 | 6 Enhancement points across this bracket |
+| 44–50 | Element's Grace 5 | "raises threat w/o necessarily spending mana" |
+| 51–60 | Respec Shield Specialization → Ancestral Knowledge 5 | respec plus 15 points across this bracket |
+| 51–60 | Bloodlust | |
+| 51–60 | Reverberation 3 | "before Flurry for more QoL in managing threat + more frequent spell interrupt" |
+| 51–60 | Flurry 5 | |
+| 51–60 | Concussion 3 **or** Elemental Warding 3 | Concussion for threat, Elemental Warding to be tankier |
+| 51–60 | Restoration alternative: rush Improved Water Shield with Stable Shields | if you intend to heal at 60 |
+| 51–60 | Restoration alternative: every Restoration talent except Improved Reincarnation, Healing Focus and Spirit Link | |
+
+Skegg gives a talent-calculator link per bracket (`talents.turtlecraft.gg/shaman?points=…`, codes `-AoUYALAQDI-`, `FQAYI-AoUYALAQDI-` / `FACYI-AoUYALAQDI-`, `FQAYI-AoVYALAQDIAo-` / `FACYI-AoVYALAQDIAo-`, `FYAYL-FAVYALFQDIAoB-` / `FADYL-FAVYALFQDIAoB-`, cheaper totems `FACYL-FAVYALBQDIAoB-Ao`, Restoration `-FAAY-FoDoYIEYQC` then `-FAAY-FoDoaIFYQKFAB`). The calculator is offline and the codes are not decodable from this archive, so they are recorded here rather than per row.
 
 Sources: [Skegg (player, guide writer), 2025-09-01](https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715); wiki `Shaman guide` (revision 2026-07-03, same text). Akos1896's variant (2024-12-13): 5 Shield Spec + 2 Totemic Alignment is the minimum to tank RFC at 16; Stable Shields 3 + Lightning Strike by 20; Ancestral Guardian 3; Thundering Strikes 1; Spirit Armor 2 (26); Thundering Strikes 4 (29); Elemental Weapons 3 (33) — "the first 24 talent points have to be spent in a very strict manner if you want to tank"; after 33 "Rush bloodlust? Get tidal focus to save mana? Rush elemental focus? Personally I rushed elemental focus"; at 33 respec Shield Spec → Ancestral Knowledge "Don't do it before level 33 though" — [Akos1896 (player), 2024-12-13](https://forum.turtlecraft.gg/viewtopic.php?p=112575#p112575); his 2025-09 refinement: Convection > Concussion for leveling, Elemental Devastation 3 or Elemental Warding 2, Clearcasting asap, Element's Grace before Reverberation, then Bloodlust; "getting an early tidal focus is also an option ... Never take tidal focus when done leveling" — [Akos1896 (player), 2025-09-01](https://forum.turtlecraft.gg/viewtopic.php?p=149742#p149742) (**contested detail: Shield Spec vs Ancestral Knowledge before 33** — both authors ended up agreeing Shield Spec first).
 

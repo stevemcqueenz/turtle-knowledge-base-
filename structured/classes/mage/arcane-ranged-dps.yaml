@@ -111,6 +111,8 @@ stat_weights:
   player_formula_Ashafares: {sp_20: "14 DPS", haste_1: "9.1 DPS", crit_1: "9.1 DPS", hit_1: "9.1 DPS (until 16%)"}
   priority: "hit to 16% > haste ~= spell power (1% haste ~= 17-20 SP) > crit > intellect; spirit/stamina low; spell penetration ignored in PvE"
   leveling_priority: "Intellect > Stamina > Spirit (Bigsmerf) — contested: Schoop123 found Spirit main stat under Arcane Power drain"
+stat_priority: [hit-to-16-percent, haste, spell-power, crit]
+stat_priority_note: "Consensus of the wiki sim and player weights: hit to 16% first and never over it, then haste and spell power which trade almost evenly (~17–20 SP per 1% haste), then crit. Haste has breakpoints where an extra missile lands inside the Arcane Rupture window, and gear haste stacks multiplicatively. Spell penetration is a PvP stat only."
 caps:
   spell_hit: "16% (talent 10% + 6% gear per Ashafares; wiki sims use 15-16)"
   arcane_range_yd: 30

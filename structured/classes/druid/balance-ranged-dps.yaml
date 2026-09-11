@@ -30,12 +30,19 @@ talents:
     - {tree: Balance, talent: "Gale Winds or Guidance of the Dream", rank: "2-3 (flex, contested choice)", spell_id: null}
     - {tree: Restoration, talent: Genesis, rank: 3, spell_id: null}
     - {tree: unspecified, talent: "remainder (core damage/hit/crit/range/cast-time talents, not individually named in sources)", rank: null, spell_id: null}
-  leveling_order: []
+  leveling_order:
+    - {level: "~20", tree: Balance, talent: "Omen of Clarity", note: "approximate — \"Always go Omen of Clarity first by Lv20\"; free Wraths and, in forms, free Swipes and Claws"}
+    - {level: "~24+", tree: Balance, talent: "Sylvan Blessing 2/2 (with Owlkin Frenzy 1/3)", note: "approximate — one poster prefers this split to a full 3/3 Owlkin while leveling"}
+    - {level: "~25", tree: Feral, talent: "Furor", note: "approximate — \"then into Furor by Lv25\""}
+  leveling_order_approximate: true
+  leveling_order_source: "No druid source gives a point-by-point table for any build. These are the anchors the Balance-leveling posts actually give (Captain4k p=165907, Templar85 p=116254, Chev03 p=165791); every level is approximate. See synthesis/classes/druid/leveling.md."
 stat_weights:
   crit: "high — 1% crit roughly equal to 4-5% haste (single detailed source); triple-dips via cast damage, Nature's Grace haste proc, and Eclipse damage multiplier"
   haste: "low relative to crit — only benefits Starfire among the four rotation spells (partially benefits Wrath via the 1.0s/0.5s GCD floor per a thread correction)"
   hit: "important and hard to reach from tier gear alone; full T3 set provides only ~4% spell hit"
   spell_power: "baseline scaling stat, no numeric weight given (gap)"
+stat_priority: [crit, spell-hit, spell-power, haste]
+stat_priority_note: "Crit is rated far above haste — \"1% crit equal to around 4-5% Haste. It might even be worse\" — because crit triple-dips (damage per cast, the Nature's Grace haste proc, and the Eclipse multiplier) while haste only really helps Starfire. Hit is hard to cap from set gear alone (the nine-piece T3 set carries only 4% spell hit), and several top players deliberately trade a few percent of hit for crit. Spell power is the baseline scaling stat with no numeric weight given. Item design loads Balance gear with haste, which the source calls a mismatch."
 caps:
   spell_hit_from_t3: "~4% (full 9-piece T3 set) — cap requires specific non-set items (e.g. Loatheb's/Regalia staff)"
   spell_penetration: "not found in sources (gap)"

@@ -43,7 +43,7 @@ swap; use `readableColor()` from `src/lib/theme.ts` for class colours on text).
   `talents.leveling_order[] {level, tree, talent}` (present for some specs; the leveling path
   timeline only exists when it is non-empty — never invent levels).
 - `patch_validity {written_for, valid_for_1181, notes}` → 1.18.1 chip and callout.
-- `stat_priority[]` (5 specs) or `stat_weights {stat: "text"}` (42 specs; keep the key order, show
+- `stat_priority[]` (37 specs) or, where it is absent, `stat_weights {stat: "text"}` (keep the key order, show
   the value text as the row note) → numbered priority list. `caps {key: number|string}` → big
   number tiles (numbers with `pct` in the key get a % sign; long strings render as text).
 - `rotation_single[] {priority, action, condition}` → the entry with priority 0 or condition

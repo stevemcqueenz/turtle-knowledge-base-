@@ -60,6 +60,8 @@ stat_weights:
   crit: "Savage Strikes 6% + Killer Instinct crit damage; Lacerate requires a prior crit to be usable"
   weapon: "2H preferred pre-CC3 ('by far the better choice'); after CC3, Mongoose Bite hits with both weapons and dual-wield is 'almost on par with a 2H-er'; 1.18.1 adds a DW hit bonus - contested which is better now"
   spell_power: "niche - helps Stinging Nettle-applied stings/chili only, not traps"
+stat_priority: [agility, melee-attack-power, hit, strength]
+stat_priority_note: "Agility first because Lightning Reflexes converts 100% of agility into melee attack power on top of the baseline; melee AP also scales the fire traps through Untamed Trapper. Hit matters but the exact 2H and dual-wield melee caps on Turtle are not stated by any Turtle source (the tree gives Surefooted 3%, +3% more for dual wield since 1.18.1)."
 caps: {}
 rotation_single:
   - {priority: 1, action: "Aspect of the Wolf (rank 7), pet on target first; Serpent Sting applied for free by Mongoose Bite via Stinging Nettle Lacing", condition: "pre-pull; Hunter's Mark does not help melee (ranged-AP only)"}

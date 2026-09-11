@@ -67,6 +67,8 @@ stat_weights:
   spell_haste_1pct_in_sp: {endgame: "12-13", fresh60: 6}
   spell_crit_1pct_in_sp: {endgame: "11-12", fresh60: 7}
   priority: "hit to 16% > spell power > haste >= crit"
+stat_priority: [hit-to-cap, spell-power, haste, crit]
+stat_priority_note: "From the wiki Frost sim: hit to the cap (16% is the generic caster figure players quote), then spell power, then haste and crit — haste is rated at or slightly above crit at endgame (~12–13 SP per 1% haste versus ~11–12 per 1% crit). Damage split in that sim: Frostbolt ~57%, Icicles ~43%."
 caps:
   spell_hit: "16% (generic)"
   icicles_self_damage: "30% base health if the root is shattered by damage taken"

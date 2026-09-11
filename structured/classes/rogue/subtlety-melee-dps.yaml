@@ -38,7 +38,19 @@ talents:
     - {tree: Assassination, talent: "Relentless Strikes", rank: 1, spell_id: null}
     - {tree: Combat, talent: Precision, rank: 5, spell_id: null}
     - {tree: Combat, talent: Opportunity, rank: 5, spell_id: null}
-  leveling_order: []
+  leveling_order:
+    - {level: "10–11", tree: Assassination, talent: "Remorseless Attacks 2/2", note: "40% crit on the next Ambush/Backstab/Sinister Strike after you land a kill"}
+    - {level: "12–16", tree: Subtlety, talent: "Camouflage 5/5", note: "faster in stealth, shorter Stealth cooldown, harder to detect"}
+    - {level: "17–19", tree: Subtlety, talent: "Improved Ambush 3/3"}
+    - {level: "20–24", tree: Combat, talent: "Opportunity 5/5", note: "moved to Combat row 1 in 1.18.0; 1.18.1 cut the top value from 20% to 15%"}
+    - {level: "25–27", tree: Combat, talent: "Improved Backstab 3/3"}
+    - {level: "28–32", tree: Assassination, talent: "Malice 5/5"}
+    - {level: "33–35", tree: Assassination, talent: "Ruthlessness 3/3"}
+    - {level: "36–40", tree: Assassination, talent: "Lethality 5/5"}
+    - {level: "41", tree: Assassination, talent: "Relentless Strikes 1/1"}
+    - {level: "42–44", tree: Assassination, talent: "Vile Poisons 3/3"}
+    - {level: "58", tree: null, talent: "Respec point — commit to the level-60 build", note: "\"At level 58, you should re-spec. What you re-spec to is totally up to you\""}
+  leveling_order_source: "Shananagans' Ambush/Backstab leveling line (p=148075, reposted unchanged at p=149395 and p=161802). Many rogues instead respec to Assassination at 40 for Noxious Assault — see assassination-melee-dps.yaml and synthesis/classes/rogue/leveling.md."
 stat_weights:
   hit: "top priority (a missed Hemorrhage or finisher drops the Tricks of the Trade stack chain)"
   crit: "feeds Honor Among Thieves energy procs"

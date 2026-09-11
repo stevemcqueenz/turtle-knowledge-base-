@@ -23,6 +23,8 @@ stat_weights:
   stamina: "high, first priority (Soul Link splits damage with the pet; Demonic Embrace)"
   pet_stamina: "high via Fel Stamina (10-50% of the Warlock's own Stamina); target ~30%+ of Warlock stamina on the demon"
   spell_power: "medium, secondary to survivability stats"
+stat_priority: [stamina, shadow-spell-power]
+stat_priority_note: "Stamina first, alongside Demonic Embrace: Soul Link splits your damage with a pet whose health scales from your own through Fel Stamina (10–50%), and players aim for the demon to carry roughly 30% of the warlock's stamina. Shadow spell damage next. No fuller ordering exists; the PvP epic set is reported to have lost 10% Soul Link and to have low armor (single source)."
 caps: {}
 rotation_single: []
 rotation_aoe: []

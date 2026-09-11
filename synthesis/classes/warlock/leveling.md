@@ -22,27 +22,27 @@ No Turtle-specific leveling guide thread predates CC2 usefully: the oldest detai
 
 Build link: `https://talent-builder.haaxor1689.dev/c/1.18.0/warlock?points=EoASCASDJBFAB-AoD-F`
 
-| Levels | Talent |
-|---|---|
-| 10–14 | Improved Corruption 5/5 |
-| 15–17 | Suppression 3/5 |
-| 18–19 | Improved Life Tap 2/2 (or interleave with Suppression — author's note: "I prefer the hit chance first but you can easily do lifetap before suppression, or, 2 points suppression → 2 points life tap → 1 point suppression") |
-| 20–21 | Fel Concentration 2/2 |
-| 22–23 | Improved Drains 2/2 |
-| 24 | Suppression 4/5 **or** Improved Curse of Agony 1/3 — "if you plan to PvP I would definitely take curse of exhaustion 1/1" instead |
-| 25 | Nightfall 1/2 |
-| 26–28 | Soul Siphon 3/3 |
-| 29 | Nightfall 2/2 |
-| 30 | Malediction 1/1 ("if you plan to PvP, I would take improved curse of exhaustion around these levels" instead) |
-| 31 | Siphon Life 1/1 (interchangeable with the previous pick; author found it "overkill for most mobs" — corruption + agony + drains already kills, so Siphon Life is "mana wasteful", contested/YMMV) |
-| 32 | Rapid Deterioration 1/2 |
-| 33–34 | Grim Reach 2/2 |
-| 35–39 | Shadow Mastery 5/5 |
-| 40 | Dark Harvest 1/1 |
-| 41–45 | Shadow Vulnerability (Destruction tree) |
-| 46–50 | Demonic Embrace 5/5 (Demonology tree) |
-| 51–53 | Demonic Aegis (Demonology tree) |
-| 54–60 | Free — author's suggested options: Master Conjurer, Improved Curse of Agony, finishing Suppression, Curse of Exhaustion + Improved Curse of Exhaustion, finishing Rapid Deterioration, Shadowburn, Fel Domination, Fel Stamina |
+| Levels | Talent | Note |
+|---|---|---|
+| 10–14 | Improved Corruption 5/5 | |
+| 15–17 | Suppression 3/5 | |
+| 18–19 | Improved Life Tap 2/2 | or interleave with Suppression — "I prefer the hit chance first but you can easily do lifetap before suppression, or, 2 points suppression → 2 points life tap → 1 point suppression" |
+| 20–21 | Fel Concentration 2/2 | |
+| 22–23 | Improved Drains 2/2 | |
+| 24 | Suppression 4/5 **or** Improved Curse of Agony 1/3 | "if you plan to PvP I would definitely take curse of exhaustion 1/1" instead |
+| 25 | Nightfall 1/2 | |
+| 26–28 | Soul Siphon 3/3 | |
+| 29 | Nightfall 2/2 | |
+| 30 | Malediction 1/1 | "if you plan to PvP, I would take improved curse of exhaustion around these levels" instead |
+| 31 | Siphon Life 1/1 | interchangeable with the previous pick; the author found it "overkill for most mobs" — corruption + agony + drains already kills, so Siphon Life is "mana wasteful" (contested/YMMV) |
+| 32 | Rapid Deterioration 1/2 | |
+| 33–34 | Grim Reach 2/2 | |
+| 35–39 | Shadow Mastery 5/5 | |
+| 40 | Dark Harvest 1/1 | |
+| 41–45 | Shadow Vulnerability (Destruction tree) | |
+| 46–50 | Demonic Embrace 5/5 (Demonology tree) | |
+| 51–53 | Demonic Aegis (Demonology tree) | |
+| 54–60 | Free points | the author's suggested options: Master Conjurer, Improved Curse of Agony, finishing Suppression, Curse of Exhaustion + Improved Curse of Exhaustion, finishing Rapid Deterioration, Shadowburn, Fel Domination, Fel Stamina |
 
 Source: [Nuninho32/chappelles, 2026-01-28](https://forum.turtlecraft.gg/viewtopic.php?p=166748#p166748).
 

@@ -1,0 +1,185 @@
+# Warrior — leveling kill loop — companion to synthesis/classes/warrior/leveling.md
+# Structured answer to "what do I press while leveling". Every field cites the post it
+# came from; a field the sources do not settle is null and named in `gaps`.
+class: Warrior
+source_file: synthesis/classes/warrior/leveling.md
+patch_validity:
+  written_for: "CC2 (2024-11-01) and CC3 (2025-08-15) kits; the ordered Arms route is CC3"
+  valid_for_1181: true
+  notes: "1.18.1 removed the Hamstring cooldown, so the Hamstring-kiting argument below was held under the 6 s cooldown. Pre-CC2 posts name talents that no longer exist (Improved Shield Block, Improved Sunder Armor, weapon specializations, Counterattack, Decisive Strike)."
+spec_verdict:
+  favored:
+    spec: Arms
+    build: "2H Arms"
+    agreement: consensus
+    why: "Mortal Strike scales with weapon damage rather than attack power, Sweeping Strikes carries AoE and dungeon pulls, and a 2H sidesteps the dual-wield hit penalty."
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=16543#p16543", author: Mazeperception, authority: player, date: "2022-02-01"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=107379#p107379", author: Khagrim, authority: player, date: "2024-11-10"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=144945#p144945", author: Grizb37, authority: player, date: "2025-08-13"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149087#p149087", author: armsgirl, authority: player, date: "2025-08-29"}
+  alternatives:
+    - spec: Fury
+      build: "dual-wield Fury"
+      when: "from ~10 if you accept the miss rate, or switch at 40–50 once you have crit and hit gear"
+      agreement: contested
+      why: "Blood Craze and Blood Drinker cut downtime and dual wield feeds rage and Overpower procs; the cost is a ~24% miss chance until hit gear arrives."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=130489#p130489", author: Berettadin, authority: player, date: "2025-05-10"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149364#p149364", author: Soreb, authority: player, date: "2025-08-30"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=147408#p147408", author: Eyeburn, authority: player, date: "2025-08-21"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149483#p149483", author: Eyeburn, authority: player, date: "2025-08-31"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=173445#p173445", author: amanagor, authority: player, date: "2026-03-31"}
+    - spec: Protection
+      build: "Protection via dungeon spam"
+      when: "only if you level inside dungeons; respec around 30"
+      agreement: contested
+      why: "Instant tank queues and Shield Wall/Last Stand as a safety net, at the cost of solo quest speed."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=37690#p37690", author: Bloodline1x9, authority: player, date: "2023-03-14"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=164108#p164108", author: Drazenexe, authority: player, date: "2025-12-31"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=106723#p106723", author: Czasku, authority: player, date: "2024-11-06"}
+  avoid:
+    - what: "Deep Protection for solo questing"
+      agreement: "majority against, contested"
+      why: "Baseline abilities plus Tactical Mastery and Improved Thunder Clap already tank pre-raid content; going Prot roughly doubles quest kill time."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=37550#p37550", author: Redmagejoe, authority: player, date: "2023-03-13"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=60459#p60459", author: Kairion, authority: player, date: "2023-09-01"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=37911#p37911", author: Zhilo, authority: player, date: "2023-03-15"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=90022#p90022", author: Syrathegreat, authority: player, date: "2024-03-13"}
+    - what: "Dual wielding before you have hit gear"
+      agreement: consensus
+      why: "Dual wield adds 19% miss on both hands on top of the base 5%."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=147408#p147408", author: Eyeburn, authority: player, date: "2025-08-21"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=144945#p144945", author: Grizb37, authority: player, date: "2025-08-13"}
+opener:
+  - step: 1
+    spec: Arms
+    action: Charge
+    condition: "open every fight from range; it is also the rage you fight the first seconds on"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108095#p108095", author: Yasara, authority: player, date: "2024-11-16"}
+  - step: 2
+    spec: Arms
+    action: Sunder Armor
+    condition: "first rage spender — better than Heroic Strike at leveling rage levels"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108095#p108095", author: Yasara, authority: player, date: "2024-11-16"}
+  - step: 3
+    spec: Arms
+    action: Rend
+    condition: "on anything that will live long enough"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108095#p108095", author: Yasara, authority: player, date: "2024-11-16"}
+  - step: 4
+    spec: Arms
+    action: Sunder Armor
+    condition: "second stack once rage allows"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108095#p108095", author: Yasara, authority: player, date: "2024-11-16"}
+  - step: 1
+    spec: Fury
+    action: Rend
+    condition: "dual-wield Fury opener"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=130489#p130489", author: Berettadin, authority: player, date: "2025-05-10"}
+  - step: 2
+    spec: Fury
+    action: Demoralizing Shout
+    condition: "damage reduction for the whole fight"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=130489#p130489", author: Berettadin, authority: player, date: "2025-05-10"}
+  - step: 3
+    spec: Fury
+    action: Sunder Armor
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=130489#p130489", author: Berettadin, authority: player, date: "2025-05-10"}
+  - step: 4
+    spec: Fury
+    action: Heroic Strike
+    condition: "when you can afford the rage; HS is the Fury leveler's main rage dump"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=130489#p130489", author: Berettadin, authority: player, date: "2025-05-10"}
+priority:
+  - priority: 1
+    action: Overpower
+    condition: "whenever the target dodges — it procs often and is the cheapest hit you have"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108095#p108095", author: Yasara, authority: player, date: "2024-11-16"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=130489#p130489", author: Berettadin, authority: player, date: "2025-05-10"}
+  - priority: 2
+    action: Battle Shout
+    condition: "keep it up at all times"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108095#p108095", author: Yasara, authority: player, date: "2024-11-16"}
+  - priority: 3
+    action: Hamstring
+    condition: "on anything that runs — a runner comes back with friends"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=130489#p130489", author: Berettadin, authority: player, date: "2025-05-10"}
+  - priority: 4
+    action: "Sunder Armor / Rend"
+    condition: "maintain; Sunder is the default rage spender while leveling"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108095#p108095", author: Yasara, authority: player, date: "2024-11-16"}
+  - priority: 5
+    action: Heroic Strike
+    condition: "rage dump when nothing else is up; the primary spender for dual-wield Fury"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=130489#p130489", author: Berettadin, authority: player, date: "2025-05-10"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=115543#p115543", author: Macbetto, authority: player, date: "2025-01-05"}
+  - priority: 6
+    action: Slam
+    condition: "only with a very slow 2H, as a rage dump; skipping the training is not a big loss at low level"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=115543#p115543", author: Macbetto, authority: player, date: "2025-01-05"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=157895#p157895", author: Hctwowfan, authority: player, date: "2025-10-31"}
+  - priority: 7
+    action: Execute
+    condition: "situational only — do not finish a fight at 0 rage with Charge on cooldown"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108095#p108095", author: Yasara, authority: player, date: "2024-11-16"}
+  - priority: null
+    action: "Hamstring kiting (Charge → Hamstring → swing → strafe away → repeat)"
+    condition: "CONTESTED: presented as the core of Arms leveling (~30% less damage taken) and as unsuitable for normal mobs (triple combat time for 20% less damage). Argued under the 6 s Hamstring cooldown, removed in 1.18.1."
+    agreement: contested
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108097#p108097", author: Xudo, authority: player, date: "2024-11-16"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=60465#p60465", author: Borefficz, authority: player, date: "2023-09-01"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=113433#p113433", author: Turbosaxophonic, authority: player, date: "2024-12-19"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108106#p108106", author: Yasara, authority: player, date: "2024-11-16"}
+mob_selection:
+  rule: "Pick quests whose mobs are 2–3 levels below you and fight them one at a time; never take 2+ at once or anything 2+ levels above you. Green mobs also offset the dual-wield miss rate."
+  agreement: consensus
+  sources:
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108095#p108095", author: Yasara, authority: player, date: "2024-11-16"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=60467#p60467", author: Tacticalnelf, authority: player, date: "2023-09-01"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=15955#p15955", author: Monmothma21, authority: player, date: "2022-01-17"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=147440#p147440", author: Xudo, authority: player, date: "2025-08-21"}
+weapon_rule:
+  rule: "Weapons are everything for a leveling warrior: keep them current and as slow as possible, and carry a shield plus a fast 1H for tanking. Fury wants a main hand of 2.8 speed or slower. Staves are the most reliable 2H because dungeon quests hand them out; the Whirlwind Axe at 30 is the standing 2H target for its top-end damage."
+  agreement: consensus
+  sources:
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108095#p108095", author: Yasara, authority: player, date: "2024-11-16"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149087#p149087", author: armsgirl, authority: player, date: "2025-08-29"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=84970#p84970", author: Armet, authority: player, date: "2024-01-17"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=40276#p40276", author: Xudo, authority: player, date: "2023-04-04"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=101830#p101830", author: Hctwowfan, authority: player, date: "2024-09-24"}
+stat_priority:
+  - spec: null
+    order: [stamina, strength, crit, hit]
+    notes: "Stamina and Strength with a 2H are the only stats the sources put in an order. Crit is what gates the switch to dual-wield Fury (\"level 40 and a decent amount of crit\"), and hit only matters once you dual wield. Trolls level on Spirit instead, because Turtle buffed Troll regeneration."
+    agreement: single
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108095#p108095", author: Yasara, authority: player, date: "2024-11-16"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=84970#p84970", author: Armet, authority: player, date: "2024-01-17"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149483#p149483", author: Eyeburn, authority: player, date: "2025-08-31"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=147408#p147408", author: Eyeburn, authority: player, date: "2025-08-21"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=173980#p173980", author: SvenS2, authority: player, date: "2026-04-04"}
+gaps:
+  - "No source gives a level for each talent point; the only ordered route (armsgirl p=157920) gives order only, and the levels in the synthesis table are the reader's arithmetic."
+  - "No post-1.18.1 leveling rotation; the Hamstring-kiting debate predates the cooldown removal."
+  - "No respec gold cost is stated anywhere ('pretty cheap' is as specific as it gets)."
+  - "No ordered Fury leveling route: Berettadin gives a talent list without order, and Blood Drinker is only placed as '35+'."

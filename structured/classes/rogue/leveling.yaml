@@ -1,0 +1,167 @@
+# Rogue — leveling kill loop — companion to synthesis/classes/rogue/leveling.md
+# Structured answer to "what do I press while leveling". Every field cites the post it
+# came from; a field the sources do not settle is null and named in `gaps`.
+class: Rogue
+source_file: synthesis/classes/rogue/leveling.md
+patch_validity:
+  written_for: "the 1.18.0 tree (2025-08-15); the main ordered route was reposted unchanged from 2025-08 to 2025-12"
+  valid_for_1181: true
+  notes: "1.18.1 cut Opportunity's top value from 20% to 15% and left the rest of the leveling route intact. Noxious Assault (level 40) is a 1.18.0 addition and is what makes the Assassination respec at 40 attractive."
+spec_verdict:
+  favored:
+    spec: Subtlety
+    build: "Ambush/Backstab with daggers (Subtlety into Combat)"
+    agreement: consensus
+    why: "One Ambush takes a mob to half health, Remorseless Attacks carries the crit buff into the next pull, and Stealth's 5 s cooldown lets you chain-pull without downtime."
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=148075#p148075", author: Shananagans, authority: "player (guide writer)", date: "2025-08-24"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=157987#p157987", author: Shananagans, authority: "player (guide writer)", date: "2025-10-31"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=157947#p157947", author: SvenS2, authority: player, date: "2025-10-31"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=132954#p132954", author: Noephix, authority: player, date: "2025-05-25"}
+  alternatives:
+    - spec: Assassination
+      build: "Assassination / Noxious Assault"
+      when: "from 40, when Noxious Assault unlocks; or hold to the 50s if you want Precision with it"
+      agreement: consensus
+      why: "Noxious Assault plus Envenom melts mobs — one leveler measured roughly 75% faster kills than the Ambush build after respeccing at 40."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=152349#p152349", author: Bless18, authority: player, date: "2025-09-19"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=158547#p158547", author: Sslushee, authority: player, date: "2025-11-06"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=151001#p151001", author: Shananagans, authority: "player (guide writer)", date: "2025-09-09"}
+    - spec: Combat
+      build: "Combat Swords (Sinister Strike)"
+      when: "if you want the simplest gearing path — dungeon quests hand out blue swords"
+      agreement: contested
+      why: "Called the simplest and most reliable leveling path by some, and \"easily the weakest option\" on the post-1.18.0 tree by others."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=152024#p152024", author: Rachdingue, authority: player, date: "2025-09-17"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=123674#p123674", author: Xudo, authority: player, date: "2025-03-25"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=158547#p158547", author: Sslushee, authority: player, date: "2025-11-06"}
+  avoid:
+    - what: "Full Subtlety while solo leveling"
+      agreement: consensus
+      why: "Its big talents are party talents, and the tree is not a PvE tree."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=152174#p152174", author: Rachdingue, authority: player, date: "2025-09-18"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=157944#p157944", author: SvenS2, authority: player, date: "2025-10-31"}
+    - what: "Blade Flurry while leveling"
+      agreement: single
+      why: "\"Absolute trash until you get like 800 agility\" — it is not the AoE or energy answer at leveling gear levels."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149418#p149418", author: Exaltus, authority: player, date: "2025-08-30"}
+    - what: "DoT poisons and DoT trinkets on a mob you intend to control"
+      agreement: single
+      why: "Rupture, Deadly Poison or a DoT proc breaks Gouge and Sap; use double Instant, or Instant main hand with Crippling off hand against runners."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149402#p149402", author: Shananagans, authority: "player (guide writer)", date: "2025-08-30"}
+opener:
+  - step: 1
+    spec: Subtlety
+    action: "Stealth in from behind and Ambush"
+    condition: "approach from behind, never through the hitbox; Distract anything that may turn. Improved Ambush makes this a ~45% crit, and one Ambush takes a mob to about half health"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=148075#p148075", author: Shananagans, authority: "player (guide writer)", date: "2025-08-24"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=158352#p158352", author: Atreidon, authority: player, date: "2025-11-04"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=157947#p157947", author: SvenS2, authority: player, date: "2025-10-31"}
+  - step: 2
+    spec: Subtlety
+    action: "Sinister Strike 3–4 times"
+    condition: "the short form: on an even-level mob that is the whole fight"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=148075#p148075", author: Shananagans, authority: "player (guide writer)", date: "2025-08-24"}
+  - step: 3
+    spec: Subtlety
+    action: "Gouge, pool energy, pirouette behind the mob, Backstab"
+    condition: "the fuller loop once Gouge is trained — it puts you at 3–4 combo points"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=148075#p148075", author: Shananagans, authority: "player (guide writer)", date: "2025-08-24"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149395#p149395", author: Shananagans, authority: "player (guide writer)", date: "2025-08-30"}
+  - step: 4
+    spec: Subtlety
+    action: "Eviscerate to finish; Rupture and kite instead if the mob still has too much health"
+    condition: "then re-stealth (5 s cooldown) and take the next mob with Remorseless Attacks up"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=148075#p148075", author: Shananagans, authority: "player (guide writer)", date: "2025-08-24"}
+  - step: 1
+    spec: Assassination
+    action: "Cheap Shot (or Garrote) from stealth"
+    condition: "from 40"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=152349#p152349", author: Bless18, authority: player, date: "2025-09-19"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=158547#p158547", author: Sslushee, authority: player, date: "2025-11-06"}
+  - step: 2
+    spec: Assassination
+    action: Envenom
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=152349#p152349", author: Bless18, authority: player, date: "2025-09-19"}
+  - step: 3
+    spec: Assassination
+    action: "Slice and Dice"
+    condition: "dungeon version, off the free combo point from Ruthlessness; solo you will not find time for it"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=158547#p158547", author: Sslushee, authority: player, date: "2025-11-06"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=152349#p152349", author: Bless18, authority: player, date: "2025-09-19"}
+  - step: 4
+    spec: Assassination
+    action: "Noxious Assault, twice"
+    condition: "with Instant Poison on both weapons — that is the kill"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=152349#p152349", author: Bless18, authority: player, date: "2025-09-19"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=158547#p158547", author: Sslushee, authority: player, date: "2025-11-06"}
+priority:
+  - priority: 1
+    action: "Open every pull from stealth"
+    condition: "Stealth's cooldown is 5 s and Camouflage adds movement speed in it — with Remorseless Attacks up the next Ambush is the strongest hit you have"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=148075#p148075", author: Shananagans, authority: "player (guide writer)", date: "2025-08-24"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=145008#p145008", author: Atreidon, authority: player, date: "2025-08-13"}
+  - priority: 2
+    action: "Build combo points (Sinister Strike, or Backstab after a Gouge pirouette)"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=148075#p148075", author: Shananagans, authority: "player (guide writer)", date: "2025-08-24"}
+  - priority: 3
+    action: "Spend: Eviscerate if the mob will die, Rupture and kite if it will not"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=148075#p148075", author: Shananagans, authority: "player (guide writer)", date: "2025-08-24"}
+  - priority: 4
+    action: "Pool energy instead of mashing buttons"
+    condition: "energy regeneration is the class's leveling bottleneck; Thistle Tea is the one burst fix, and Blade Rush (Combat, 1.18.0) is the only talent that shortens the tick"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=132677#p132677", author: Laysson, authority: player, date: "2025-05-23"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=136129#p136129", author: Aulisia, authority: player, date: "2025-06-18"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=151497#p151497", author: Shananagans, authority: "player (guide writer)", date: "2025-09-12"}
+  - priority: 5
+    action: "Handle packs with control, not cleave"
+    condition: "the rogue has no baseline AoE: Gouge, Blind and Sap, then pick targets off one at a time"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=49203#p49203", author: Derrurak, authority: player, date: "2023-06-07"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=132963#p132963", author: SvenS2, authority: player, date: "2025-05-25"}
+  - priority: 6
+    action: "Keep poisons appropriate to the pull"
+    condition: "double Instant Poison while soloing (and at 40+, where Deadly's 5-stack cap hurts); Instant main hand with Crippling off hand against humanoids that flee; no DoT on anything you plan to Gouge or Sap"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149402#p149402", author: Shananagans, authority: "player (guide writer)", date: "2025-08-30"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=158547#p158547", author: Sslushee, authority: player, date: "2025-11-06"}
+mob_selection:
+  rule: "One mob at a time — the rogue has no baseline AoE, so packs are broken up with Gouge, Blind and Sap rather than fought. Turtle's faster server tick makes stealth detection harsher than vanilla: approach from behind, never cross a mob's hitbox, Distract anything that may turn, and do not linger in melee before opening. Packs of dogs and hyenas, bats, and anything with \"tracker\" in its name see through stealth and should be walked around. From 40 an Assassination rogue can take mobs at or above their own level."
+  agreement: consensus
+  sources:
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=158352#p158352", author: Atreidon, authority: player, date: "2025-11-04"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=158381#p158381", author: Crake, authority: player, date: "2025-11-04"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=158386#p158386", author: Grizb37, authority: player, date: "2025-11-05"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=49203#p49203", author: Derrurak, authority: player, date: "2023-06-07"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=152349#p152349", author: Bless18, authority: player, date: "2025-09-19"}
+weapon_rule:
+  rule: "Daggers the whole way on the Ambush/Backstab path — slow ones with the highest damage range you can find, and a caster dagger is fine if it is slow and hits harder; Deadmines and Shadowfang Keep are the named sources. On the Combat path, dungeon quest swords are the reliable supply. From 40, Instant Poison on both weapons matters more than the weapons themselves."
+  agreement: consensus
+  sources:
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=148289#p148289", author: Shananagans, authority: "player (guide writer)", date: "2025-08-25"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149296#p149296", author: Cnas, authority: player, date: "2025-08-30"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=123674#p123674", author: Xudo, authority: player, date: "2025-03-25"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=158547#p158547", author: Sslushee, authority: player, date: "2025-11-06"}
+stat_priority: null
+gaps:
+  - "No rogue source gives an ordered leveling stat priority. The only stat claims are that hit (Precision) matters eventually — contested whether to take it at 30–35 or in the high 40s/50s — and that Blade Rush's energy return scales with Agility. stat_priority is therefore left empty rather than guessed."
+  - "No zone-by-zone leveling route for rogues exists in the corpus; only Deadmines/Shadowfang Keep as dagger sources and the Hinterlands at 40."
+  - "No point-by-point Combat Swords order past ~30."
+  - "No leveling-specific weapon enchant recommendation; the Agility-versus-Crusader argument in the corpus is about endgame gear."

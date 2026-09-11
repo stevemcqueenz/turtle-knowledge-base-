@@ -17,7 +17,7 @@ All dates UTC. Eras: **pre-1.18.1** (before 2025-10-03), **1.18.1-announced-pre-
 
 Proposed order [Rukie (player), 2025-01-07](https://forum.turtlecraft.gg/viewtopic.php?p=115782#p115782) with the corrections the thread made:
 
-| Levels | Talent | Correction / note |
+| Levels | Talent | Note |
 |---|---|---|
 | 10–14 | Endurance Training 5 | **Swap with Swift Aspects**: "the are no reasons to pick endurance training over swift aspects, you are trading killing speed for what ? additional hp your pet does not need" [Ataika (player), 2025-01-07](https://forum.turtlecraft.gg/viewtopic.php?p=115799#p115799); "Just use both, tier two provides nothing so useful" [Noyland1 (player), 2024-11-15](https://forum.turtlecraft.gg/viewtopic.php?p=108059#p108059); Endurance first if you want to solo elites early [Rinarch (player), 2024-11-19](https://forum.turtlecraft.gg/viewtopic.php?p=108602#p108602) — contested |
 | 15–17 | Thick Hide 3 | |

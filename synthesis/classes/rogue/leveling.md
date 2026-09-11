@@ -19,39 +19,47 @@ No single post gives every point from 10 to 60; the table below is the union of 
 
 ### Ambush/Backstab main line, 10–58 [Shananagans (guide writer), 2025-08-24](https://forum.turtlecraft.gg/viewtopic.php?p=148075#p148075) / [2025-08-30](https://forum.turtlecraft.gg/viewtopic.php?p=149395#p149395) / [2025-12-06](https://forum.turtlecraft.gg/viewtopic.php?p=161802#p161802) (posted and reposted unchanged from Aug 2025 to Dec 2025, i.e. still current as of the 1.18.1 announcement window)
 
-| Level | Tree | Talent | Points | Why (source) |
-|---|---|---|---|---|
-| 10–11 | Assassination | Remorseless Attacks | 2/2 | "after killing a mob, 40% increase in crit to ambush, backstab or sinister strike ... Huge!" — procs only if **your** rogue lands the kill [Atreidon (player), 2025-08-13](https://forum.turtlecraft.gg/viewtopic.php?p=145008#p145008) |
-| 12–16 | Subtlety | Camouflage | 5/5 | "get back in stealth in 5 seconds and increased movement speed while in stealth ... a lot of bang for your buck in twow, since it: increase speed while stealth, reduces stealth cd, reduces chance to be detected" [Zulnam (player), 2025-03-26](https://forum.turtlecraft.gg/viewtopic.php?p=123873#p123873) |
-| 17–19 | Subtlety | Improved Ambush | 3/3 | 45% increase to crit for Ambush |
-| 20–24 | Combat | Opportunity | 5/5 | +crit damage to Ambush/Backstab (moved to Combat row 1 in the 1.18.0 revision; 1.18.1 reduced the top value from 20% to 15%, still worth taking) |
-| 25–27 | Combat | Improved Backstab | 3/3 | 30% crit chance + 45% chance of an extra combo point on Backstab |
-| 28–32 | Assassination | Malice | 5/5 | flat +5% crit |
-| 33–35 | Assassination | Ruthlessness | 3/3 | 100% chance for a bonus combo point on finishers |
-| 36–40 | Assassination | Lethality | 5/5 | crit damage on combo generators, "includes Noxious Assault since 1.18.0" (staff) |
-| 41 | Assassination | Relentless Strikes | 1/1 | 20% chance per combo point to return 20 energy |
-| 42–44 | Assassination | Vile Poisons | 3/3 | "Increases poison damage by 30%" |
-| **58** | — | **respec point** | — | "At level 58, you should re-spec. What you re-spec to is totally up to you" |
+| Levels | Talent | Note |
+|---|---|---|
+| 10–11 | Remorseless Attacks 2/2 (Assassination) | "after killing a mob, 40% increase in crit to ambush, backstab or sinister strike ... Huge!" — procs only if **your** rogue lands the kill [Atreidon (player), 2025-08-13](https://forum.turtlecraft.gg/viewtopic.php?p=145008#p145008) |
+| 12–16 | Camouflage 5/5 (Subtlety) | "get back in stealth in 5 seconds and increased movement speed while in stealth ... a lot of bang for your buck in twow, since it: increase speed while stealth, reduces stealth cd, reduces chance to be detected" [Zulnam (player), 2025-03-26](https://forum.turtlecraft.gg/viewtopic.php?p=123873#p123873) |
+| 17–19 | Improved Ambush 3/3 (Subtlety) | 45% increase to crit for Ambush |
+| 20–24 | Opportunity 5/5 (Combat) | +crit damage to Ambush/Backstab (moved to Combat row 1 in the 1.18.0 revision; 1.18.1 reduced the top value from 20% to 15%, still worth taking) |
+| 25–27 | Improved Backstab 3/3 (Combat) | 30% crit chance + 45% chance of an extra combo point on Backstab |
+| 28–32 | Malice 5/5 (Assassination) | flat +5% crit |
+| 33–35 | Ruthlessness 3/3 (Assassination) | 100% chance for a bonus combo point on finishers |
+| 36–40 | Lethality 5/5 (Assassination) | crit damage on combo generators, "includes Noxious Assault since 1.18.0" (staff) |
+| 41 | Relentless Strikes 1/1 (Assassination) | 20% chance per combo point to return 20 energy |
+| 42–44 | Vile Poisons 3/3 (Assassination) | "Increases poison damage by 30%" |
+| 58 | **Respec point** | "At level 58, you should re-spec. What you re-spec to is totally up to you" |
 
 ### Continuation for players who stay Ambush/Backstab past 44 instead of respeccing to Assassination at 40 [Shananagans, 2025-08-30 / 2025-12-06]
 
-| Level | Tree | Talent | Points |
-|---|---|---|---|
-| 45–47 | Assassination | Improved Poisons | 3/3 |
-| 48 | Assassination | Envenom | 1/1 |
-| 49–51 | Assassination | Efficient Poisons | 3/3 |
-| 52–53 | Assassination | Vigor | 2/2 |
-| 54–58 | Assassination | Seal Fate | 5/5 |
+| Levels | Talent | Note |
+|---|---|---|
+| 45–47 | Improved Poisons 3/3 (Assassination) | |
+| 48 | Envenom 1/1 (Assassination) | |
+| 49–51 | Efficient Poisons 3/3 (Assassination) | |
+| 52–53 | Vigor 2/2 (Assassination) | |
+| 54–58 | Seal Fate 5/5 (Assassination) | |
 
 By this point Camouflage and Improved Ambush are both still kept; "we don't have +5% hit from Precision and we don't have Improved Blade Tactics", which Shananagans accepts because "by now you should have picked up a few pieces of gear that has hit % on them" (Blackstone Ring, Tarnished Elven Ring, Stromshroud Armor set +2% hit, Rune of the Wildhammer Clan +1%). Alternative weave if hit feels bad: alternate 1 point Efficient Poisons / 1 point Precision from 49–54, then Vigor 55–56. **Note**: this continuation predates the level-40 "respec straight into full Noxious Assault" advice that later posters (Sslushee, Bless18) prefer — it is presented by its own author as one option among several, not the only path.
 
 ### Alternative dungeon-oriented order, 10–35 [SvenS2 (player), 2025-11-06](https://forum.turtlecraft.gg/viewtopic.php?p=158613#p158613)
 
-| Level | Talent | Points |
+This order is given in brackets rather than per level, so each row carries the bracket it belongs to.
+
+| Levels | Talent | Note |
 |---|---|---|
-| 10–19 | Camouflage 2, Improved Gouge 3, Improved Ambush 3, Remorseless Attacks 2 | 10 |
-| 20–29 | Opportunity 5, Improved Backstab 3, Camouflage (to 5/5) 2 | 10 |
-| 30–35 | Camouflage (finish) 1, Precision 5 | 6 |
+| 10–19 | Camouflage 2 | 10 points across this bracket |
+| 10–19 | Improved Gouge 3 | |
+| 10–19 | Improved Ambush 3 | |
+| 10–19 | Remorseless Attacks 2 | |
+| 20–29 | Opportunity 5 | 10 points across this bracket |
+| 20–29 | Improved Backstab 3 | |
+| 20–29 | Camouflage 2 (to 5/5) | |
+| 30–35 | Camouflage 1 (finish) | 6 points across this bracket |
+| 30–35 | Precision 5 | front-loads hit, unlike Shananagans' order |
 
 "From here on out you can experiment with other talents. I recommend specting into things that further boost your Ambush ... Malice, Murder, Lethality, Serrated Blades and Initiative. For dungeons, some extra points in Improved Blade Tactics can be quite useful." Rotation for this build: "Ambush -> Gauge -> Backstab -> Eviscerate. If the target is not dead, use Sinister Strike or repeat the Gauge -> Backstab rotation." This build front-loads **Improved Gouge** and **Precision** (hit) earlier than Shananagans' order — the two sources disagree on whether Precision belongs before or after level 44 (**contested**, gear-dependent).
 

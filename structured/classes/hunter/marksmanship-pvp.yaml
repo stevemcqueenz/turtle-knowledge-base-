@@ -52,6 +52,8 @@ stat_weights:
   hit: "matters more than in PvE"
   weapon_skill: "'has no impact for pvp' [amanagor]"
   armor_penetration: "none available - plate/leather-druid targets are 'nearly hopeless'"
+stat_priority: [stamina, hit]
+stat_priority_note: "The only stats the PvP sources rank: stamina and hit matter more than in PvE, weapon skill 'has no impact for pvp' [amanagor p=137000], and the class has no armor penetration answer to plate. No fuller PvP order exists in the corpus."
 caps: {}
 rotation_single:
   - {priority: 1, action: "Opener: Hunter's Mark, pet attack, Concussive Shot, rank-1 Viper Sting on healers/dispellers to bait mana, then Auto Shot + Multi-Shot + Steady/Arcane while standing still briefly between kites", condition: "range control"}

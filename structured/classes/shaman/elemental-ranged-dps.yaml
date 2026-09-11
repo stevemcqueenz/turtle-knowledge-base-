@@ -72,6 +72,8 @@ stat_weights:
   spell_power_intellect: "as much as possible after hit; ~4k mana pool recommended fresh 60"
   attack_power: "small but real for the Flame Shock DoT tick (~0.012 dps per AP, 0.02 if snapshotted)"
   spell_penetration: "matters against Nature-resistant bosses until Lower Karazhan enchants or a Thunderfury tank are available (single source)"
+stat_priority: [spell-hit-to-15-17-percent, crit, haste-to-17-percent, spell-power, intellect]
+stat_priority_note: "Consensus order (Skegg's \"hit > crit > spd > int\", with haste placed by Atreidon): spell hit to 15–17% against a level-63 boss — Elemental Devastation gives 3% and the T3 four-set another 3%, which can overcap — then crit, which is the mana engine, then haste up to a hard 17% (past that Lightning Bolt is faster than the global cooldown and the extra haste does nothing), then spell power and Intellect."
 caps:
   spell_hit: "15-17% (boss level 63)"
   haste_softcap: "~17% for single target (Atreidon)"

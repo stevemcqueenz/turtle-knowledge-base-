@@ -1,0 +1,186 @@
+# Priest — leveling kill loop — companion to synthesis/classes/priest/leveling.md
+# Structured answer to "what do I press while leveling". Every field cites the post it
+# came from; a field the sources do not settle is null and named in `gaps`.
+class: Priest
+source_file: synthesis/classes/priest/leveling.md
+patch_validity:
+  written_for: "post-CC2 (Langorn's 2025 Discipline guide) with the pre-CC2 Aykhanchik guide still supplying the training and stat lists"
+  valid_for_1181: true
+  notes: "Wand Specialization is 2 points on Turtle and also buffs Night Elf bows since 2024-12-20. Inner Fire grants spell damage rather than attack power since CC2, so pre-CC2 melee-weaving advice is stale. 1.18.1 made Spirit Tap also trigger on Mind Blast crits and reshuffled the first Shadow rows."
+spec_verdict:
+  favored:
+    spec: Discipline
+    build: "Discipline Smite/wand"
+    agreement: consensus
+    why: "The wand carries your damage and Discipline keeps you alive and mana-positive, which is what makes a priest able to solo quests other classes cannot."
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: "player (guide writer)", date: "2025-09-19"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=157662#p157662", author: Tscosomaz, authority: player, date: "2025-10-29"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=51822#p51822", author: Ishilu, authority: player, date: "2023-06-29"}
+  alternatives:
+    - spec: Shadow
+      build: "Shadow (wand-weave to 40, Shadowform at 40–42)"
+      when: "if you want the faster mana economy; respec for Shadowform around 40–42"
+      agreement: contested
+      why: "Called more efficient to 40 and the most sustainable mana of any priest build by some, and \"hard, boring and slow\" by others."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=76428#p76428", author: Ortogs, authority: player, date: "2023-11-08"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=132288#p132288", author: sparkcho, authority: player, date: "2025-05-21"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=162507#p162507", author: Torquemado, authority: player, date: "2025-12-11"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=164458#p164458", author: Atreidon, authority: player, date: "2026-01-05"}
+    - spec: Holy
+      build: "Night Elf Starshards (\"Arcane priest\")"
+      when: "Night Elf only; a niche mana-efficiency build with almost no downtime"
+      agreement: single
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=112368#p112368", author: Amyloriley, authority: player, date: "2024-12-12"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=6905#p6905", author: Roxanneflowers, authority: player, date: "2020-07-16"}
+  avoid:
+    - what: "Leveling pure Holy"
+      agreement: single
+      why: "\"Leveling as holy is possible, however it will be slower\"; the pre-CC2 Holy/Smite hybrid also lost ground when Spiritual Healing changed."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: "player (guide writer)", date: "2025-09-19"}
+    - what: "Mind Blast in a group"
+      agreement: single
+      why: "\"Basically a taunt and you will pull\"."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=16593#p16593", author: Nymdorl, authority: player, date: "2022-02-02"}
+    - what: "Casting damage spells other than Shadow Word: Pain before 40 as Shadow"
+      agreement: single
+      why: "\"Most of the time not worth the mana. Just wandweave\" until Shadowform."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=164458#p164458", author: Atreidon, authority: player, date: "2026-01-05"}
+opener:
+  - step: 1
+    spec: Discipline
+    action: "Power Word: Shield before the pull"
+    condition: "and again every time its cooldown is up on anything dangerous"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: "player (guide writer)", date: "2025-09-19"}
+  - step: 2
+    spec: Discipline
+    action: "Holy Fire"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: "player (guide writer)", date: "2025-09-19"}
+  - step: 3
+    spec: Discipline
+    action: Smite
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: "player (guide writer)", date: "2025-09-19"}
+  - step: 4
+    spec: Discipline
+    action: "Shadow Word: Pain"
+    condition: "contested on single non-elite mobs — see the priority list"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: "player (guide writer)", date: "2025-09-19"}
+  - step: 5
+    spec: Discipline
+    action: "Wand until the mob dies"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: "player (guide writer)", date: "2025-09-19"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=76428#p76428", author: Ortogs, authority: player, date: "2023-11-08"}
+  - step: 1
+    spec: Shadow
+    action: "Mind Blast (or Holy Fire) to open"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=76428#p76428", author: Ortogs, authority: player, date: "2023-11-08"}
+  - step: 2
+    spec: Shadow
+    action: "Shadow Word: Pain"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=76428#p76428", author: Ortogs, authority: player, date: "2023-11-08"}
+  - step: 3
+    spec: Shadow
+    action: "Mind Flay (or Smite)"
+    condition: "Power Word: Shield first — taking a hit costs you Mind Flay ticks"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=76428#p76428", author: Ortogs, authority: player, date: "2023-11-08"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=15484#p15484", author: Aykhanchik, authority: "player (guide writer)", date: "2022-01-07"}
+  - step: 4
+    spec: Shadow
+    action: "Wand"
+    condition: "wanding with SW:P ticking is what gets you out of the five-second rule"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=76428#p76428", author: Ortogs, authority: player, date: "2023-11-08"}
+  - step: 1
+    spec: "Holy (Starshards)"
+    action: "Power Word: Shield → Holy Fire → Starshards → Wand"
+    condition: "Night Elf only; add a second Holy Fire on bears, and end the fight on wand or Starshards rather than Holy Fire so Spirit Tap's tick overlaps"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=112368#p112368", author: Amyloriley, authority: player, date: "2024-12-12"}
+priority:
+  - priority: 1
+    action: "Wand"
+    condition: "the backbone of every leveling priest build — get a Lesser Magic Wand at 5, upgrade to Greater Magic Wand, and keep buying wands; enchanting wands often out-damage your spells at low level"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=24431#p24431", author: Aykhanchik, authority: "player (guide writer)", date: "2022-09-05"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=53458#p53458", author: Getplucked, authority: player, date: "2023-07-14"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=121113#p121113", author: Reomc1, authority: player, date: "2025-02-27"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=164458#p164458", author: Atreidon, authority: player, date: "2026-01-05"}
+  - priority: 2
+    action: "Power Word: Shield up before contact"
+    condition: "it is your pull button and, in Hardcore, the difference between a bad pull and a death"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: "player (guide writer)", date: "2025-09-19"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=164458#p164458", author: Atreidon, authority: player, date: "2026-01-05"}
+  - priority: 3
+    action: "Holy Fire, then Smite (Mind Flay as Shadow)"
+    condition: "your only real nukes; everything else is the wand"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: "player (guide writer)", date: "2025-09-19"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=76428#p76428", author: Ortogs, authority: player, date: "2023-11-08"}
+  - priority: 4
+    action: "Shadow Word: Pain"
+    condition: "CONTESTED on single non-elite mobs: called a DPS loss and a mana waste because the mob dies before the DoT pays off, and called simply more damage on top of an auto-wand. Uncontested on elites and multi-pulls."
+    agreement: contested
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=16593#p16593", author: Nymdorl, authority: player, date: "2022-02-02"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=16604#p16604", author: Aykhanchik, authority: "player (guide writer)", date: "2022-02-02"}
+  - priority: 5
+    action: "Psychic Scream, then focus one target"
+    condition: "on a bad multi-pull: fear, shield yourself, heal, and use the fear on cooldown to re-apply SW:P and Holy Fire"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: "player (guide writer)", date: "2025-09-19"}
+  - priority: 6
+    action: "Let Spirit Tap do the drinking"
+    condition: "kill the mob with the wand rather than a cast so the mana tick overlaps; wand the last 20–30% instead of sitting down"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=24431#p24431", author: Aykhanchik, authority: "player (guide writer)", date: "2022-09-05"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=112368#p112368", author: Amyloriley, authority: player, date: "2024-12-12"}
+  - priority: 7
+    action: "Melee weaving (optional)"
+    condition: "wand and melee use separate swing timers, but any spell cast — instant included — triggers the melee swing cooldown, so if you cast, wand. The attack-power argument for it is pre-CC2; Inner Fire now gives spell damage."
+    agreement: single
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=35235#p35235", author: Ibux, authority: player, date: "2023-02-19"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=79217#p79217", author: Cookieboy, authority: player, date: "2023-11-29"}
+mob_selection:
+  rule: "One mob at a time, pulled with Power Word: Shield already up. Against a pack, Mind Control a mob inside it and let the others kill it, then reset; elites are done with a shield on cooldown, fear on cooldown, and Renew on yourself."
+  agreement: single
+  sources:
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=15484#p15484", author: Aykhanchik, authority: "player (guide writer)", date: "2022-01-07"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: "player (guide writer)", date: "2025-09-19"}
+weapon_rule:
+  rule: "The wand is the weapon: get a Lesser Magic Wand as soon as level 5 allows, move to a Greater Magic Wand off the auction house, and replace it roughly every ten levels — enchanting-made wands are cheap and often out-damage your spells. Wand Specialization is 2 points on Turtle and also buffs Night Elf bows. Quivers do not speed up wands here. The staff slot is for spirit and intellect."
+  agreement: consensus
+  sources:
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=24431#p24431", author: Aykhanchik, authority: "player (guide writer)", date: "2022-09-05"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=121113#p121113", author: Reomc1, authority: player, date: "2025-02-27"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=53458#p53458", author: Getplucked, authority: player, date: "2023-07-14"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102970#p102970", author: Dragunovi, authority: staff, date: "2024-10-12"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460", author: Jamey, authority: staff, date: "2024-12-20"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=30952#p30952", author: Aykhanchik, authority: "player (guide writer)", date: "2022-12-18"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=48397#p48397", author: Kiersteadmo, authority: player, date: "2023-06-01"}
+stat_priority:
+  - spec: null
+    order: [spirit, intellect, stamina]
+    notes: "Spirit first because it drives both the five-second-rule regeneration and MP5; spell power, spell damage or healing on top. Prefer a piece with high plain stats over one with a small +shadow damage line."
+    agreement: consensus
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=15484#p15484", author: Aykhanchik, authority: "player (guide writer)", date: "2022-01-07"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=112368#p112368", author: Amyloriley, authority: player, date: "2024-12-12"}
+gaps:
+  - "No priest-specific leveling route exists in the corpus; the guide points at external leveling videos."
+  - "Which spell ranks to skip is never stated beyond \"only buy and upgrade specific spells\"."
+  - "Spirit Tap's value after CC2 is contested (the wand talent now returns mana on hit), and no source re-measured it after 1.18.1 made it trigger on Mind Blast crits."

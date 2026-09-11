@@ -1,0 +1,172 @@
+# Mage — leveling kill loop — companion to synthesis/classes/mage/leveling.md
+# Structured answer to "what do I press while leveling". Every field cites the post or
+# wiki page it came from; a field the sources do not settle is null and named in `gaps`.
+class: Mage
+source_file: synthesis/classes/mage/leveling.md
+patch_validity:
+  written_for: "the post-1.17.2 tree; the wiki tables were revised 2025-10-01, after 1.18.0"
+  valid_for_1181: true
+  notes: "1.18.1 changed nothing for mage leveling except Ice Barrier's damage bonus (Frost, 40+) and Improved Fire Blast's GCD. 1.17.2 is the patch that matters: Improved Blizzard's slow went 65% → 40% and Shatter 50% → 35%, so AoE-grinding advice from before 2024-11-01 is superseded."
+spec_verdict:
+  favored:
+    spec: Frost
+    build: "Frost (single target, or the Cone of Cold AoE variant from 26)"
+    agreement: consensus
+    why: "Freezing and kiting is what lets a mage solo elite quests, and it is both the fastest single-target and the fastest AoE option."
+    sources:
+      - {url: "https://turtle-wow.fandom.com/wiki/Mage_Levelling_FAQ", author: "Mage Levelling FAQ", authority: wiki, date: "2025-10-01"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=122736#p122736", author: Bigsmerf, authority: player, date: "2025-03-16"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=174948#p174948", author: Eluaria, authority: player, date: "2026-04-12"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=115611#p115611", author: amanagor, authority: player, date: "2025-01-06"}
+  alternatives:
+    - spec: Fire
+      build: "Fire (often with enough Frost points for survivability)"
+      when: "if you want faster kills and can live without Ice Block / Cold Snap"
+      agreement: contested
+      why: "Called \"hardest but still very doable\" by the wiki and the faster overall killer by Eluaria; recommended for Hardcore by players who do not want to AoE-grind."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=75350#p75350", author: Darktifa, authority: player, date: "2023-11-01"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=174948#p174948", author: Eluaria, authority: player, date: "2026-04-12"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=174149#p174149", author: Chev03, authority: player, date: "2026-04-06"}
+    - spec: Arcane
+      build: "Arcane"
+      when: "dungeon-heavy leveling, or if you intend to play Arcane at 60 and want to skip a respec"
+      agreement: contested
+      why: "Zero spell pushback, the highest talent hit and low downtime — but \"by far weaker than the other 2\" in the open world, and the tree was designed to match Fire and Frost at 60, not while leveling."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=158193#p158193", author: Cheruscan, authority: player, date: "2025-11-03"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=174948#p174948", author: Eluaria, authority: player, date: "2026-04-12"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=115608#p115608", author: Wrathweaver, authority: player, date: "2025-01-06"}
+  avoid:
+    - what: "Meleeing anything"
+      agreement: single
+      why: "A mage's melee misses roughly 20% more per level the mob is above you, and spell damage outscales melee from about 32."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=133463#p133463", author: Atolius, authority: player, date: "2025-05-29"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=134644#p134644", author: Halfgeek9, authority: player, date: "2025-06-07"}
+    - what: "AoE grinding in Hardcore"
+      agreement: consensus
+      why: "Blizzard no longer holds a pack after the 1.17.2 slow nerf, so a pull that used to be safe is now the standard way a Hardcore mage dies."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=158934#p158934", author: Soulitics, authority: player, date: "2025-11-08"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=75350#p75350", author: Darktifa, authority: player, date: "2023-11-01"}
+    - what: "Icicles while leveling"
+      agreement: single
+      why: "Its self-root can shatter you for 30% of base health — the wiki Frost FAQ says not to use it at all while leveling, and it appears in none of the leveling tables."
+      sources:
+        - {url: "https://turtle-wow.fandom.com/wiki/Mage_Frost_FAQ", author: "Mage Frost FAQ", authority: wiki, date: "2025-10-01"}
+    - what: "Learning only your own school's spells"
+      agreement: single
+      why: "\"I made the mistake of trying to go only frost and missed out on some pretty helpful spells for the first 20 levels\"."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=39827#p39827", author: Liatris, authority: player, date: "2023-04-01"}
+opener:
+  - step: 1
+    spec: Frost
+    action: "Frostbolt ×3"
+    condition: "from max range; the slow is what keeps the mob off you"
+    sources:
+      - {url: "https://turtle-wow.fandom.com/wiki/Mage_Levelling_FAQ", author: "Mage Levelling FAQ", authority: wiki, date: "2025-10-01"}
+  - step: 2
+    spec: Frost
+    action: "Frost Nova"
+    sources:
+      - {url: "https://turtle-wow.fandom.com/wiki/Mage_Levelling_FAQ", author: "Mage Levelling FAQ", authority: wiki, date: "2025-10-01"}
+  - step: 3
+    spec: Frost
+    action: "Blink or run back, then Frostbolt again"
+    condition: "Cone of Cold instead when Nova is on cooldown"
+    sources:
+      - {url: "https://turtle-wow.fandom.com/wiki/Mage_Levelling_FAQ", author: "Mage Levelling FAQ", authority: wiki, date: "2025-10-01"}
+  - step: 1
+    spec: Fire
+    action: "Fireball"
+    condition: "spam it; Fire Blast while moving"
+    sources:
+      - {url: "https://turtle-wow.fandom.com/wiki/Mage_Levelling_FAQ", author: "Mage Levelling FAQ", authority: wiki, date: "2025-10-01"}
+  - step: 2
+    spec: Fire
+    action: "Scorch to finish"
+    condition: "Frost Nova and walk away if the mob reaches you"
+    sources:
+      - {url: "https://turtle-wow.fandom.com/wiki/Mage_Levelling_FAQ", author: "Mage Levelling FAQ", authority: wiki, date: "2025-10-01"}
+  - step: 1
+    spec: Arcane
+    action: "Frostbolt to slow"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=98354#p98354", author: Toaomb, authority: player, date: "2024-07-02"}
+  - step: 2
+    spec: Arcane
+    action: "Arcane Missiles"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=98354#p98354", author: Toaomb, authority: player, date: "2024-07-02"}
+  - step: 3
+    spec: Arcane
+    action: "Cone of Cold rank 1, then reposition"
+    condition: "on multiple mobs: Arcane Explosion, Cone of Cold, Frost Nova, Fire Blast"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=98355#p98355", author: Toaomb, authority: player, date: "2024-07-02"}
+priority:
+  - priority: 1
+    action: "Keep the mob slowed or frozen and keep moving"
+    condition: "Frostbolt's slow, then Frost Nova, then Cone of Cold when Nova is down — the kite is the rotation"
+    sources:
+      - {url: "https://turtle-wow.fandom.com/wiki/Mage_Levelling_FAQ", author: "Mage Levelling FAQ", authority: wiki, date: "2025-10-01"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=174948#p174948", author: Eluaria, authority: player, date: "2026-04-12"}
+  - priority: 2
+    action: "Nuke: Frostbolt / Fireball / Arcane Missiles"
+    sources:
+      - {url: "https://turtle-wow.fandom.com/wiki/Mage_Levelling_FAQ", author: "Mage Levelling FAQ", authority: wiki, date: "2025-10-01"}
+  - priority: 3
+    action: "Instants while moving: Fire Blast, Cone of Cold rank 1"
+    condition: "keep rank 1 versions of Frostbolt, Frost Nova, Fire Blast, Cone of Cold and Arcane Explosion trained for pulling, slowing and Clearcasting fishing"
+    sources:
+      - {url: "https://turtle-wow.fandom.com/wiki/Mage_Levelling_FAQ", author: "Mage Levelling FAQ", authority: wiki, date: "2025-10-01"}
+  - priority: 4
+    action: "Wand to finish"
+    condition: "Wand Specialization returns mana on hit, so the last 20–30% costs nothing"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=106011#p106011", author: Krautsurfer, authority: player, date: "2024-11-02"}
+  - priority: 5
+    action: "Mage Armor, not Mana Shield"
+    condition: "CONTESTED: Mage Armor is the mana-conserving default, while one Hardcore Fire-AoE leveler treats Mana Shield as a second health bar and stacks only Intellect — his own post says he does not recommend it"
+    agreement: contested
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=98354#p98354", author: Toaomb, authority: player, date: "2024-07-02"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=76091#p76091", author: Mativh, authority: player, date: "2023-11-06"}
+  - priority: 6
+    action: "Eat and drink together after the fight"
+    condition: "and keep Conjure Water at the rank your level actually wants"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=6936#p6936", author: Roxanneflowers, authority: player, date: "2020-07-18"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=51518#p51518", author: Ballabulk, authority: player, date: "2023-06-27"}
+mob_selection:
+  rule: "Single mobs, kited, is the default and the only Hardcore-safe pattern. Frost is the spec that can take elite quest mobs solo, by freezing and kiting. AoE grinding becomes a real option around 50 (Dire Maul East lashers), but instance mega-pulls of the vanilla kind were deliberately patched out: the Zul'Farrak graveyard spot, Maraudon and Zul'Gurub pathing kites no longer work reliably."
+  agreement: consensus
+  sources:
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=174948#p174948", author: Eluaria, authority: player, date: "2026-04-12"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=115611#p115611", author: amanagor, authority: player, date: "2025-01-06"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=45321#p45321", author: Rogzn, authority: player, date: "2023-05-10"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=50914#p50914", author: Mac, authority: player, date: "2023-06-22"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=47099#p47099", author: Kairion, authority: player, date: "2023-05-23"}
+weapon_rule:
+  rule: "The wand is the only weapon that matters: Wand Specialization returns mana on hit, so wanding the last part of a fight is free damage and free regeneration. Never melee. Keep the rest of your gear current with quest, dungeon and profession pieces — Frost is the least gear-dependent of the three specs."
+  agreement: consensus
+  sources:
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=106011#p106011", author: Krautsurfer, authority: player, date: "2024-11-02"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=133463#p133463", author: Atolius, authority: player, date: "2025-05-29"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=174149#p174149", author: Chev03, authority: player, date: "2026-04-06"}
+stat_priority:
+  - spec: null
+    order: [intellect, stamina, spell-power]
+    notes: "Intellect over Stamina is consensus (\"of the eagle\" greens are the cheap way to buy it), with spell power taking over once gear at your level carries it, from around 20. Spirit is CONTESTED — called basically useless by Bigsmerf and the main stat by Arcane players. Trading some Intellect pieces for Stamina is explicitly recommended for survivability, and matters more for AoE grinding."
+    agreement: consensus
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=137036#p137036", author: Bigsmerf, authority: player, date: "2025-06-25"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=117053#p117053", author: Eversongwoods, authority: player, date: "2025-01-17"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=98320#p98320", author: Darktifa, authority: player, date: "2024-07-01"}
+gaps:
+  - "All four mage talent tables come from one source, the community wiki's Mage Levelling FAQ, and they stop at level 59 (50 points)."
+  - "No leveling BiS or zone-by-zone route exists for mages in the corpus."
+  - "No source gives a fixed respec level; the observed pattern is Frost to 60 and then a raid respec."
+  - "Whether Spirit is worth anything while leveling is contested and unresolved."

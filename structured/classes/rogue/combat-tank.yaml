@@ -29,6 +29,8 @@ stat_weights:
   stamina: "second priority, for the swings that do land"
   threat_stats: "hit, agility, weapon skill (drives poison procs for Agitating Poison threat)"
   resistance: "situational, for caster-capable targets"
+stat_priority: [avoidance-dodge-parry-defense, stamina, threat-stats-hit-agility-weapon-skill, resistances]
+stat_priority_note: "The practitioners' order: avoidance first — the claim is that a geared rogue tank passes the 102% avoidance requirement to avoid crushing blows — then stamina, then the threat stats (hit, agility, and weapon skill for poison procs), then resistances for caster bosses. The avoidance numbers are player theorycraft from 2022–2023 and predate 1.17.0's Flourish."
 caps:
   avoidance_target: "~102% avoidance with Evasion up to avoid crushing blows (vanilla-baseline tanking convention, not a staff number); one theorycraft post estimated 70% avoidance at mediocre gear with Flourish talented, 85-90% at good gear"
   agitating_poison_level: "60 (baseline poison, no lower ranks -- a frequently repeated player complaint)"

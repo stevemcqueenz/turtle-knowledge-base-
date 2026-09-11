@@ -63,6 +63,8 @@ stat_weights:
   armor_penetration: "weak / largely ignored"
   spell_power: "irrelevant for MM pre-1.18.1 (raising SP loses RAP); T2.5 spell power dead weight"
   intellect_spirit_mp5: "matters on long fights but MM rarely goes OOM with Efficiency talented; post-1.18.1 Aspect of the Viper replaces drinking between pulls"
+stat_priority: [hit-to-cap, haste, crit, attack-power/agility]
+stat_priority_note: "Order as the playbook's sourced bullets run: hit to the cap your weapon skill implies (9% at 300 skill, 6% at 305 with racial +5 bows/guns), then haste — the Turtle-specific stat, ~0.9% damage per 1% with no diminishing returns — then crit, then attack power and agility. Armor penetration ('generally weak') and spell power (dead weight for MM) are explicitly not stats to gear for. Whether AP enchants or haste win is contested and gear-dependent."
 caps:
   melee_range_hit: "9% at 300 weapon skill (vanilla-baseline math; Turtle's exact linearized weapon-skill table is not published by staff)"
 rotation_single:

@@ -24,7 +24,7 @@ General warning: "Maybe when you get to level 30 or 40 priests can do something.
 
 All from [Langorn (guide writer), 2025-09-19](https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325):
 
-| Levels | Talent | Reason (Langorn) |
+| Levels | Talent | Note |
 |---|---|---|
 | 10-11 | Wand Specialization 2/2 | "you will wand, A LOT" |
 | 12-16 | Spirit Tap 5/5 | "the difference between drinking every 3 pulls and almost not have to drink at all" |

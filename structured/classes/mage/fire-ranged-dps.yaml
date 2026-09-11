@@ -61,6 +61,8 @@ stat_weights:
   spell_hit_1pct_in_sp: {endgame: 23, fresh60: 15}
   spell_haste_1pct_in_sp: {endgame: 15, fresh60: 11}
   priority: "hit to 16% > crit > spell power > haste (2-4% haste minimum recommended by wiki for double Fireball in the Ignite window, computed for the old 6 s window)"
+stat_priority: [hit-to-cap, crit, spell-power, haste]
+stat_priority_note: "From the wiki Fire sim: hit to the 16% cap, then crit (crit is the top weight once hit is capped: ~25 SP per 1% at endgame versus ~23 for hit), then spell power, then haste — but keep 2–4% haste so two Fireballs fit inside the Ignite window. That haste figure was written for the 6 s Ignite; 1.18.0 restored the 4 s Ignite and no source recomputed it."
 caps:
   spell_hit: "16% (generic caster figure quoted by players)"
   hot_streak_stacks: 5

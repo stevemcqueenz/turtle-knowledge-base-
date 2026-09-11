@@ -72,6 +72,8 @@ stat_weights:
   intellect: 3
   spirit: 4
   mp5: 4
+stat_priority: [spell-hit-to-10-percent-from-gear, spell-power, spell-crit, intellect, spirit/mp5]
+stat_priority_note: "Hit first: the spec needs 10% from items on top of Piercing Light's 6% to reach the 16% boss figure, and hit is weighted far above crit while under the cap. Then spell power (general or Holy), then crit, which fuels Searing Light. Intellect and Spirit/mp5 come last but cannot be zero — stacking pure spell power at the cost of all regeneration causes mana problems on long fights. Crit versus spell power is contested after the Searing Light internal cooldown."
 caps:
   spell_hit_boss_pct: 16
   spell_hit_from_gear_pct: 10

@@ -70,6 +70,8 @@ stat_weights:
   block_chance: "medium until crush cap with Holy Shield"
   strength: "low / contested (block value -> Holy Shield damage; no other threat scaling)"
   weapon_speed: "fast one-hander preferred (Seal of Wisdom mana)"
+stat_priority: [spell-power, block-to-crush-immunity, defense, strength]
+stat_priority_note: "Spell power is the threat stat — all of a paladin tank's aggro is holy damage. Block on gear plus Holy Shield is the staff-intended route to crush immunity. Defense is wanted but the 440 (420 with Anticipation) crit cap is \"often not worth reaching when you consider what you have to sacrifice\". Strength is CONTESTED: called irrelevant to threat by Kerenis (p=153860) and defended by others. \"Adds X damage to melee attacks\" items are valued separately because they trigger Judgement of Wisdom an extra time per swing."
 caps:
   crit_immunity_defense: "440 (420 with Anticipation 3/3) - single hedged source, vanilla baseline"
   crush_cap: "Holy Shield 45% block + gear block; exact post-1.18.1 number unknown"
