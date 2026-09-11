@@ -18,10 +18,12 @@ const text = (v: unknown): string => (v === null || v === undefined ? '' : Strin
 /** The tile keeps each cell to a glance; the full text and its citations stay in the guide's prose. */
 function clamp(source: string): string {
   const plain = source
-    .replace(/\s*\[[^\]]*\]\([^)]*\)\s*[;,·]?/g, ' ')
+    .replace(/\[[^\]]*\]\([^)]*\)/g, '')
     .replace(/[*_`]/g, '')
     .replace(/\(\s*[·,;]*\s*\)/g, '')
     .replace(/\s+/g, ' ')
+    .replace(/\s+([;,·])/g, '$1')
+    .replace(/([;,·])(\s*[;,·])+/g, '$1')
     .trim()
     .replace(/^[·,;:\-\s]+|[\s·,;:]+$/g, '');
   if (plain.length <= 90) return plain;

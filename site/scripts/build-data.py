@@ -177,7 +177,7 @@ TREE_COL = re.compile(r"^tree$", re.I)
 POINTS_COL = re.compile(r"^points?\b", re.I)
 TALENT_COL = re.compile(r"talent", re.I)
 ORDER_COL = re.compile(r"^order$", re.I)
-TALENT_LINK = re.compile(r"https?://|\?points=")
+LINK_COL = re.compile(r"^link$", re.I)
 TABLE_SEPARATOR = re.compile(r"^\|?\s*:?-{3,}")
 
 
@@ -227,10 +227,6 @@ def parse_talent_orders(sections: list[dict]) -> list[dict]:
     def cell(row: list[str], i: int | None) -> str:
         return row[i].strip() if i is not None and i < len(row) else ""
 
-    def is_link_column(rows: list[list[str]], i: int) -> bool:
-        cells = [c for c in (cell(r, i) for r in rows) if c]
-        return bool(cells) and sum(bool(TALENT_LINK.search(c)) for c in cells) * 2 > len(cells)
-
     orders: list[dict] = []
     for section in sections:
         for h3, header, rows in markdown_tables(section["markdown"]):
@@ -247,7 +243,7 @@ def parse_talent_orders(sections: list[dict]) -> list[dict]:
             if talent is None:
                 talent = next((i for i, n in enumerate(names) if ORDER_COL.search(n) and i not in taken), None)
             free = [i for i in range(len(names)) if i not in taken and i != talent
-                    and not is_link_column(rows, i)]
+                    and not LINK_COL.match(names[i])]
             builds = [talent] if talent is not None else free
             notes = free if talent is not None else []
             approximate = bool(re.search(r"approx|arithmetic", names[level], re.I)) or any(
