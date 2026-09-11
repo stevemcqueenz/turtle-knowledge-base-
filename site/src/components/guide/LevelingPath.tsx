@@ -15,8 +15,8 @@ export interface LevelingStep {
 
 const text = (v: unknown): string => (v === null || v === undefined ? '' : String(v).trim());
 
-/** How much the sources agree, written at the end of a note: "… — contested". */
-const AGREEMENT = /\s*[—–-]\s*((?:contested|consensus|single source|disputed)[^—–]*)$/i;
+/** How much the sources agree: a cell saying so is never cut short. */
+const HEDGED = /contested|disputed|consensus|single source|ymmv/i;
 
 /** The tile keeps each cell to a glance; the full text and its citations stay in the guide's prose. */
 function clamp(source: string): string {
@@ -29,11 +29,8 @@ function clamp(source: string): string {
     .replace(/([;,·])(\s*[;,·])+/g, '$1')
     .trim()
     .replace(/^[·,;:\-\s]+|[\s·,;:]+$/g, '');
-  const agreement = AGREEMENT.exec(plain);
-  const body = agreement ? plain.slice(0, agreement.index).trimEnd() : plain;
-  const marker = agreement ? ` — ${agreement[1].trim()}` : '';
-  if (body.length <= 90) return `${body}${marker}`;
-  return `${body.slice(0, 90).replace(/\s+\S*$/, '')}…${marker}`;
+  if (plain.length <= 90 || HEDGED.test(plain)) return plain;
+  return `${plain.slice(0, 90).replace(/\s+\S*$/, '')}…`;
 }
 
 /** "~level 14" -> "~14": the tile already reads as a level. */

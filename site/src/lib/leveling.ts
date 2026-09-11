@@ -35,12 +35,12 @@ const RULES: [RegExp, LevelingGroupKey][] = [
   [/^introduction$/i, 'sources'],
   [/^sources?\b/i, 'sources'],
   [/mistake/i, 'dont'],
-  [/which (spec|build)|spec choice|spec to level/i, 'spec'],
+  [/which (spec|build)|spec choice/i, 'spec'],
   [/talent|\bbuild [a-d]\b/i, 'talents'],
-  [/playstyle|kill (loop|rotation)|rotation|\bpets?\b|wand/i, 'press'],
-  [/\bstats?\b|gear|upgrade/i, 'stats'],
-  [/route|profession|farming|zone/i, 'route'],
-  [/hardcore|\bhc\b/i, 'hardcore'],
+  [/playstyle|kill loop|\bpets?\b/i, 'press'],
+  [/\bstats?\b|gear/i, 'stats'],
+  [/route|profession/i, 'route'],
+  [/hardcore/i, 'hardcore'],
 ];
 
 export function levelingGroup(heading: string): LevelingGroupKey {
