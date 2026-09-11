@@ -213,7 +213,8 @@
 }
 
 /* Inline glossary tooltips (see lib/glossary-inline.ts). Opened by click, tap or
-   keyboard focus — never hover only — and closed by Escape or moving focus away. */
+   keyboard focus — never hover only — and closed by Escape, an outside tap or
+   moving focus away. */
 .gloss {
   position: relative;
 }
@@ -247,7 +248,6 @@
   color: rgb(var(--c-muted));
   line-height: 1.5;
 }
-.gloss:focus-within > .gloss-pop,
 .gloss.open > .gloss-pop {
   display: block;
 }

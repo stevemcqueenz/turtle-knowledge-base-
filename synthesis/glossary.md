@@ -10,9 +10,9 @@ Terms, abbreviations and nicknames actually used on the Turtle WoW forums (`foru
 
 Mined from the sampled forum corpus (capture of 2026-09-10): **313** — turtle-specific: **69**, general-vanilla: **244**.
 
-Added after the capture, so that the guides and the site can explain the words they use: **10**. 6 are Turtle-specific terms copied out of the leveling-guide introductions with the staff posts they were already cited to (1.18.1-announced-pre-release, CC2 / Class Changes 2, CC3 / Class Changes 3, Class Changes, post-1.18.1, pre-1.18.1); 4 are this archive's own labelling conventions (contested, opaque link, player claim, standing), of which `opaque link` cites the kind of forum post it describes and the rest are defined in `CONVENTIONS.md`. None of them is a new game fact.
+Added after the capture, so that the guides and the site can explain the words they use: **10**. 7 are Turtle-specific terms copied out of the leveling-guide introductions with the forum posts they were already cited to (1.18.1-announced-pre-release, CC2 / Class Changes 2, CC3 / Class Changes 3, Class Changes, opaque link, post-1.18.1, pre-1.18.1); 3 are this archive's own labelling conventions, defined in `CONVENTIONS.md` rather than on the forums (contested, player claim, standing). None of them is a new game fact.
 
-Total in `structured/glossary.jsonl`: **323** — turtle-specific: **75**, general-vanilla: **244**, archive-convention: **4**.
+Total in `structured/glossary.jsonl`: **323** — turtle-specific: **76**, general-vanilla: **244**, archive-convention: **3**.
 
 | Category | Count |
 |---|---|
@@ -222,7 +222,7 @@ Total in `structured/glossary.jsonl`: **323** — turtle-specific: **75**, gener
 | NS | Nature's Swiftness, a Shaman/Druid instant-cast talent. | class | vanilla | 2020-06-03 | [Heroclastus (player), 2020-06-03](https://forum.turtlecraft.gg/viewtopic.php?p=6193#p6193) |
 | Ony / Onyxia's Lair | Onyxia's Lair, 40-man dragon raid. | instance | vanilla | 2019-11-16 | [Xerron (player), 2019-11-16](https://forum.turtlecraft.gg/viewtopic.php?p=4438#p4438) |
 | OOC | Out Of Character, a roleplay-etiquette term marking a comment as breaking from in-character speech. | social | vanilla | 2018-09-18 | [Zazzi (player), 2018-09-18](https://forum.turtlecraft.gg/viewtopic.php?p=145#p145) |
-| opaque link | A talent-calculator link (talents.turtlecraft.gg/<class>?points=…) copied from a forum post whose build code this archive cannot decode: the calculator is offline, so the code cannot be turned back into a point list. The link is kept because it is what the poster actually cited, but read it as "calculator link, offline" — the talents written out in prose next to it are the sourced part of the build. | system | convention | 2025-10-31 | [armsgirl (player), 2025-10-31](https://forum.turtlecraft.gg/viewtopic.php?p=157920#p157920) |
+| opaque link | A talent-calculator link (talents.turtlecraft.gg/<class>?points=…) copied from a forum post whose build code this archive cannot decode: the calculator is offline, so the code cannot be turned back into a point list. The link is kept because it is what the poster actually cited, but read it as "calculator link, offline" — the talents written out in prose next to it are the sourced part of the build. | system | Turtle | 2025-10-31 | [armsgirl (player), 2025-10-31](https://forum.turtlecraft.gg/viewtopic.php?p=157920#p157920) |
 | OS roll / off-spec | 'Off Spec' roll: a lower-priority Need roll for an item that benefits a player's secondary/alternate spec rather than their current main spec. | pvp | vanilla | 2018-11-01 | [Pigglebee (player), 2018-11-01](https://forum.turtlecraft.gg/viewtopic.php?p=1075#p1075) |
 | OT | Off Tank, a secondary tank handling adds/off-tanked targets. | pvp | vanilla | 2019-10-06 | [Xerron (player), 2019-10-06](https://forum.turtlecraft.gg/viewtopic.php?p=4146#p4146) |
 | PallyPower | A Paladin-blessing-assignment addon (community-extended on Turtle to also cover Shaman totems). | general-vanilla | vanilla | 2019-08-05 | [Xerron (player), 2019-08-05](https://forum.turtlecraft.gg/viewtopic.php?p=3660#p3660) |

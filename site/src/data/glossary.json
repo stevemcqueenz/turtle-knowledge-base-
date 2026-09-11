@@ -1326,7 +1326,7 @@
     "term": "opaque link",
     "meaning": "A talent-calculator link (talents.turtlecraft.gg/<class>?points=…) copied from a forum post whose build code this archive cannot decode: the calculator is offline, so the code cannot be turned back into a point list. The link is kept because it is what the poster actually cited, but read it as \"calculator link, offline\" — the talents written out in prose next to it are the sourced part of the build.",
     "category": "system",
-    "scope": "archive-convention",
+    "scope": "turtle-specific",
     "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=157920#p157920"
   },
   {

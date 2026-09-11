@@ -91,13 +91,14 @@ export function GlossaryPanel({ open, onClose, initialQuery = '' }: GlossaryPane
                     </dt>
                     <dd className="mt-0.5 text-sm text-muted">
                       {g.meaning}{' '}
-                      {g.citation_url ? (
+                      {g.citation_url && !convention ? (
                         <a
                           href={g.citation_url}
-                          {...(convention ? {} : { target: '_blank', rel: 'noopener noreferrer' })}
+                          target="_blank"
+                          rel="noopener noreferrer"
                           className="text-[rgb(var(--c-accent))] hover:underline"
                         >
-                          {convention ? 'archive convention' : 'source'}
+                          source
                         </a>
                       ) : null}
                     </dd>

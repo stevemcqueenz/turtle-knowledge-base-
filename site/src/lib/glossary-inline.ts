@@ -6,7 +6,8 @@ import { glossary } from './site';
  * Changes passes, the era labels, standing/contested/player claim, opaque build
  * links — carries real meaning in the prose, so the first mention of each inside
  * a rendered Markdown block becomes a button that shows its glossary entry.
- * Click, tap or keyboard focus opens it; Escape or moving focus away closes it.
+ * Click, tap or keyboard focus opens it; Escape, an outside tap or moving
+ * focus away closes it.
  */
 interface Rule {
   /** `term` of the glossary entry that defines this wording. */
@@ -20,7 +21,6 @@ interface Rule {
 const RULES: Rule[] = [
   { term: 'CC2 / Class Changes 2', re: /\b(?:pre-CC2|CC2|Class Changes 2)\b/ },
   { term: 'CC3 / Class Changes 3', re: /\b(?:CC3|Class Changes 3)\b/ },
-  { term: 'Class Changes', re: /\bclass changes\b(?!\s?\d)/i },
   { term: '1.18.1-announced-pre-release', re: /\b1\.18\.1-announced-pre-release\b/ },
   { term: 'pre-1.18.1', re: /\bpre-1\.18\.1\b/ },
   { term: 'post-1.18.1', re: /\bpost-1\.18\.1\b/ },
@@ -47,8 +47,11 @@ function closeOpen(): void {
   }
 }
 
-/** Keeps the popup inside the viewport. Runs on every path that opens one. */
-function clamp(pop: HTMLElement): void {
+/** Shows one popup, clamped inside the viewport. Every open path lands here. */
+function openPop(wrap: HTMLElement, pop: HTMLElement): void {
+  if (openWrap !== wrap) closeOpen();
+  wrap.classList.add('open');
+  openWrap = wrap;
   pop.style.left = '0px';
   const overflow = pop.getBoundingClientRect().right - (document.documentElement.clientWidth - 8);
   if (overflow > 0) pop.style.left = `${-overflow}px`;
@@ -58,7 +61,6 @@ if (typeof document !== 'undefined') {
   document.addEventListener('pointerdown', (event) => {
     if (openWrap && !openWrap.contains(event.target as Node)) closeOpen();
   });
-  // On the click-open path the button never takes focus, so Escape lands here.
   document.addEventListener('keydown', (event) => {
     if (openWrap && event.key === 'Escape') closeOpen();
   });
@@ -111,15 +113,14 @@ function insert(hit: { node: Text; index: number; text: string }, g: GlossaryTer
   const meaning = document.createElement('span');
   meaning.textContent = g.meaning;
   pop.append(title, meaning);
-  if (g.citation_url) {
-    const convention = g.scope === 'archive-convention';
+  if (g.scope === 'archive-convention') {
+    pop.append(document.createTextNode(' archive convention'));
+  } else if (g.citation_url) {
     const source = document.createElement('a');
     source.href = g.citation_url;
-    if (!convention) {
-      source.target = '_blank';
-      source.rel = 'noopener noreferrer';
-    }
-    source.textContent = convention ? 'archive convention' : 'source';
+    source.target = '_blank';
+    source.rel = 'noopener noreferrer';
+    source.textContent = 'source';
     pop.append(document.createTextNode(' '), source);
   }
 
@@ -127,29 +128,11 @@ function insert(hit: { node: Text; index: number; text: string }, g: GlossaryTer
   tail.parentNode?.insertBefore(wrap, tail);
 
   // A tap cannot focus a button in WebKit, so open on click as well as focus.
-  button.addEventListener('click', () => {
-    const wasOpen = wrap.classList.contains('open');
-    closeOpen();
-    if (wasOpen) {
-      button.blur();
-    } else {
-      wrap.classList.add('open');
-      openWrap = wrap;
-      clamp(pop);
-    }
-  });
-
-  // The keyboard path opens the popup by CSS (`:focus-within`).
-  wrap.addEventListener('focusin', () => clamp(pop));
+  button.addEventListener('click', () => openPop(wrap, pop));
+  wrap.addEventListener('focusin', () => openPop(wrap, pop));
   wrap.addEventListener('focusout', (event) => {
     const next = (event as FocusEvent).relatedTarget as Node | null;
     if (!next || !wrap.contains(next)) closeOpen();
-  });
-  wrap.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') {
-      closeOpen();
-      (e.target as HTMLElement).blur();
-    }
   });
 }
 
