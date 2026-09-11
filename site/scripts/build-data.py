@@ -272,7 +272,6 @@ def parse_talent_orders(sections: list[dict]) -> list[dict]:
                     "id": f"{section['id']}-{len(orders) + 1}",
                     "title": section["heading"],
                     "subtitle": subtitle or None,
-                    "sectionId": section["id"],
                     "approximate": approximate,
                     "steps": steps,
                 })

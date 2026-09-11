@@ -10,6 +10,7 @@ import { SectionTabs } from '../components/guide/SectionTabs';
 import { GuideSection, ProseDetails } from '../components/guide/GuideSection';
 import { LevelingPath } from '../components/guide/LevelingPath';
 import { cleanHeading } from '../components/guide/util';
+import { playbookForRow } from '../components/class/data';
 import { FlameIcon } from '../components/Icons';
 import { LEVELING_GROUPS, groupLevelingSections, levelingPicks, levelingVerdictLine } from '../lib/leveling';
 import { NotFound } from './NotFound';
@@ -19,7 +20,7 @@ function Prose({ sections }: { sections: Section[] }) {
   return (
     <>
       {sections.map((s) => (
-        <div key={s.id} id={`lv-${s.id}`} className="card space-y-3 p-4 sm:p-5">
+        <div key={s.id} className="card space-y-3 p-4 sm:p-5">
           <h3 className="text-base font-bold">{cleanHeading(s.heading)}</h3>
           <Markdown source={s.markdown} />
         </div>
@@ -108,9 +109,18 @@ export function LevelingPage({ slug }: { slug: string }) {
           <GuideSection id="lv-spec" title="Which spec" hint="How the community rates each leveling spec">
             {picks.length > 0 ? (
               <div className={`grid gap-4 ${pickColumns(picks.length)}`}>
-                {picks.map((row, i) => (
-                  <SpecCard key={`${row.spec}-${i}`} row={row} emptyLabel={null} />
-                ))}
+                {picks.map((row, i) => {
+                  const playbook = playbookForRow(entry, row);
+                  return (
+                    <SpecCard
+                      key={`${row.spec}-${i}`}
+                      row={row}
+                      playbook={playbook}
+                      target={playbook ? href.playbook(entry.slug, playbook.id) : null}
+                      emptyLabel={null}
+                    />
+                  );
+                })}
               </div>
             ) : null}
             <Folded sections={groups.spec} />

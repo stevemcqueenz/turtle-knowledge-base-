@@ -15,6 +15,19 @@ export interface LevelingStep {
 
 const text = (v: unknown): string => (v === null || v === undefined ? '' : String(v).trim());
 
+/** The tile keeps the note to a glance; the full text and its citations stay in the guide's prose. */
+function shortNote(note: string): string {
+  const plain = note
+    .replace(/\[([^\]]*)\]\([^)]*\)/g, '')
+    .replace(/[*_`]/g, '')
+    .replace(/\(\s*[·,;]*\s*\)/g, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .replace(/^[·,;:\-\s]+|[\s·,;:]+$/g, '');
+  if (plain.length <= 90) return plain;
+  return `${plain.slice(0, 90).replace(/\s+\S*$/, '')}…`;
+}
+
 /** "~level 14" -> "~14": the tile already reads as a level. */
 function levelLabel(level: string): string {
   return level.replace(/^(~?)\s*(?:levels?|lvl)\.?\s*/i, '$1');
@@ -40,7 +53,7 @@ export function LevelingPath({ steps, color, approximate = false }: LevelingPath
           const talent = text(s?.talent);
           const tree = text(s?.tree);
           const points = text(s?.points);
-          const note = text(s?.note);
+          const note = shortNote(text(s?.note));
           return (
             <li key={i} className="flex min-w-0 items-start gap-2.5 rounded-xl bg-surface2 px-3 py-2">
               <span
@@ -55,7 +68,7 @@ export function LevelingPath({ steps, color, approximate = false }: LevelingPath
                   {points ? <span className="ml-1.5 font-mono text-xs text-muted">{points}</span> : null}
                 </span>
                 {tree ? <span className="block text-xs text-muted">{tree}</span> : null}
-                {note ? <Markdown inline source={note} className="mt-0.5 block text-xs leading-snug text-muted" /> : null}
+                {note ? <span className="mt-0.5 block text-xs leading-snug text-muted">{note}</span> : null}
               </span>
             </li>
           );

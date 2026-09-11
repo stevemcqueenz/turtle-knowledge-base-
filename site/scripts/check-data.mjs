@@ -83,7 +83,7 @@ function checkSection(s, where) {
 
 function checkTalentOrder(o, where) {
   if (!isObject(o)) return fail(`${where}: not an object`);
-  for (const k of ['id', 'title', 'sectionId']) if (!isString(o[k])) fail(`${where}: ${k} must be a string`);
+  for (const k of ['id', 'title']) if (!isString(o[k])) fail(`${where}: ${k} must be a string`);
   if (!isNullableString(o.subtitle)) fail(`${where}: subtitle must be a string or null`);
   if (typeof o.approximate !== 'boolean') fail(`${where}: approximate must be a boolean`);
   if (!isArray(o.steps) || o.steps.length === 0) return fail(`${where}: steps must be a non-empty array`);

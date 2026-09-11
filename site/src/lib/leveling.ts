@@ -3,7 +3,7 @@
  * sections, the leveling verdicts from the matrix, and the talent order a spec
  * guide borrows from the class guide when it has none of its own.
  */
-import type { ClassEntry, MatrixRow, Playbook, Section, TalentOrder } from '../types';
+import type { ClassEntry, MatrixRow, Section, TalentOrder } from '../types';
 import { joinWords, standingRank } from '../components/class/data';
 
 export type LevelingGroupKey =
@@ -89,13 +89,7 @@ export function levelingVerdictLine(picks: MatrixRow[]): string {
   return parts.join(' ');
 }
 
-/**
- * The class leveling order to show on a spec guide that has none of its own:
- * the one whose title names the spec, else the guide's main line.
- */
-export function pickTalentOrder(entry: ClassEntry, playbook: Playbook): TalentOrder | null {
-  const orders = entry.leveling?.talentOrders ?? [];
-  if (orders.length === 0) return null;
-  const word = playbook.spec.toLowerCase().split(/[\s/(]/)[0];
-  return orders.find((o) => `${o.title} ${o.subtitle ?? ''}`.toLowerCase().includes(word)) ?? orders[0];
+/** The class guide's main leveling order, shown on a spec guide that has none of its own. */
+export function pickTalentOrder(entry: ClassEntry): TalentOrder | null {
+  return entry.leveling?.talentOrders?.[0] ?? null;
 }

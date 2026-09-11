@@ -168,7 +168,6 @@ export interface TalentOrder {
   title: string;
   /** The nearest H3, or the build column's header when one table lists several builds. */
   subtitle: string | null;
-  sectionId: string;
   /** The source gives the order only; the levels are arithmetic. */
   approximate: boolean;
   steps: TalentStep[];

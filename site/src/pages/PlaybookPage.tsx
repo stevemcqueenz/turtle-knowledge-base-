@@ -60,7 +60,7 @@ export function PlaybookPage({ slug, id }: { slug: string; id: string }) {
   const patchNotes = y?.patch_validity?.notes ? String(y.patch_validity.notes) : '';
   const levelingOrder = list<YamlLevelingStep>(talents?.leveling_order);
   // No order of its own: borrow the class leveling guide's, clearly labelled.
-  const classOrder = levelingOrder.length === 0 ? pickTalentOrder(entry, playbook) : null;
+  const classOrder = levelingOrder.length === 0 ? pickTalentOrder(entry) : null;
 
   /* ---- stats ------------------------------------------------------------ */
   const rows = statRows(y?.stat_priority, y?.stat_weights ?? null);

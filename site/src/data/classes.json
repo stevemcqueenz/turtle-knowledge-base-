@@ -2726,7 +2726,6 @@
           "id": "build-a-2h-arms-default-talent-order-10-60-1",
           "title": "Build A — 2H Arms (default), talent order 10–60",
           "subtitle": null,
-          "sectionId": "build-a-2h-arms-default-talent-order-10-60",
           "approximate": true,
           "steps": [
             {
@@ -5737,7 +5736,6 @@
           "id": "talent-orders-guide-pre-1-18-1-single-source-1",
           "title": "Talent orders (guide, pre-1.18.1, single source)",
           "subtitle": "Protection 0/31/20 (dungeons variant)",
-          "sectionId": "talent-orders-guide-pre-1-18-1-single-source",
           "approximate": false,
           "steps": [
             {
@@ -5816,7 +5814,6 @@
           "id": "talent-orders-guide-pre-1-18-1-single-source-2",
           "title": "Talent orders (guide, pre-1.18.1, single source)",
           "subtitle": "Retribution 11/8/31",
-          "sectionId": "talent-orders-guide-pre-1-18-1-single-source",
           "approximate": false,
           "steps": [
             {
@@ -10467,7 +10464,6 @@
           "id": "bm-talent-order-10-60-1",
           "title": "BM talent order 10 → 60",
           "subtitle": "Written on the CC2 tree (Nov 2024 – Aug 2025) — most detailed source",
-          "sectionId": "bm-talent-order-10-60",
           "approximate": false,
           "steps": [
             {
@@ -14583,7 +14579,6 @@
           "id": "talent-orders-10-60-1",
           "title": "Talent orders (10–60)",
           "subtitle": "Ambush/Backstab main line, 10–58 [Shananagans (guide writer), 2025-08-24](https://forum.turtlecraft.gg/viewtopic.php?p=148075#p148075) / [2025-08-30](https://forum.turtlecraft.gg/viewtopic.php?p=149395#p149395) / [2025-12-06](https://forum.turtlecraft.gg/viewtopic.php?p=161802#p161802) (posted and reposted unchanged from Aug 2025 to Dec 2025, i.e. still current as of the 1.18.1 announcement window)",
-          "sectionId": "talent-orders-10-60",
           "approximate": false,
           "steps": [
             {
@@ -14669,7 +14664,6 @@
           "id": "talent-orders-10-60-2",
           "title": "Talent orders (10–60)",
           "subtitle": "Continuation for players who stay Ambush/Backstab past 44 instead of respeccing to Assassination at 40 [Shananagans, 2025-08-30 / 2025-12-06]",
-          "sectionId": "talent-orders-10-60",
           "approximate": false,
           "steps": [
             {
@@ -14713,7 +14707,6 @@
           "id": "talent-orders-10-60-3",
           "title": "Talent orders (10–60)",
           "subtitle": "Alternative dungeon-oriented order, 10–35 [SvenS2 (player), 2025-11-06](https://forum.turtlecraft.gg/viewtopic.php?p=158613#p158613)",
-          "sectionId": "talent-orders-10-60",
           "approximate": false,
           "steps": [
             {
@@ -19524,7 +19517,6 @@
           "id": "build-a-discipline-leveling-level-by-level-langorn-post-cc2-final-31-13-7-1",
           "title": "Build A — Discipline leveling, level-by-level (Langorn, post-CC2, final 31/13/7)",
           "subtitle": null,
-          "sectionId": "build-a-discipline-leveling-level-by-level-langorn-post-cc2-final-31-13-7",
           "approximate": false,
           "steps": [
             {
@@ -24162,7 +24154,6 @@
           "id": "talent-order-by-level-skegg-s-tank-capable-enhancement-path-consensus-with-akos1896-1",
           "title": "Talent order by level (Skegg's tank-capable Enhancement path; consensus with Akos1896)",
           "subtitle": null,
-          "sectionId": "talent-order-by-level-skegg-s-tank-capable-enhancement-path-consensus-with-akos1896",
           "approximate": false,
           "steps": [
             {
@@ -33529,7 +33520,6 @@
           "id": "talent-point-order-by-level-10-60-1",
           "title": "Talent point order by level 10–60",
           "subtitle": null,
-          "sectionId": "talent-point-order-by-level-10-60",
           "approximate": false,
           "steps": [
             {
