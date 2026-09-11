@@ -10,14 +10,14 @@ interface MatrixGridProps {
   roles: string[];
 }
 
-function SpecChip({ row }: { row: MatrixRow }) {
+function SpecChip({ row, label: labelOverride }: { row: MatrixRow; label?: string }) {
   const theme = useThemeValue();
   const meta = standingMeta(row.standing);
   const color = readableColor(meta?.color ?? '#8a8f98', theme);
   const target = matrixRowTarget(row);
   // Short names keep the grid inside the 1,110 px container; the label is free
   // to wrap inside the chip so no column is forced wider than its content.
-  const label = row.spec ? shortSpecName(row.spec) : (meta?.label ?? '');
+  const label = row.spec ? (labelOverride ?? shortSpecName(row.spec)) : (meta?.label ?? '');
   const title = `${row.class ?? ''} ${row.spec ?? ''} ${roleLabel(row.role)} — ${meta?.label ?? row.standing}${
     row.agreement ? ` (${row.agreement})` : ''
   }`;
@@ -50,10 +50,20 @@ function SpecChip({ row }: { row: MatrixRow }) {
 }
 
 function ChipRow({ rows }: { rows: MatrixRow[] }) {
+  const counts = new Map<string, number>();
+  rows.forEach((r) => {
+    if (!r.spec) return;
+    const short = shortSpecName(r.spec);
+    counts.set(short, (counts.get(short) ?? 0) + 1);
+  });
   return (
     <div className="flex flex-wrap gap-1">
       {rows.map((r, i) => (
-        <SpecChip key={`${r.spec}-${i}`} row={r} />
+        <SpecChip
+          key={`${r.spec}-${i}`}
+          row={r}
+          label={r.spec && (counts.get(shortSpecName(r.spec)) ?? 0) > 1 ? r.spec : undefined}
+        />
       ))}
     </div>
   );
