@@ -37,6 +37,8 @@ npm run smoke -- --fixtures
 node scripts/check-data.mjs --fixtures
 ```
 
+There is no Prettier config and Prettier is not a dependency: formatting is hand-kept at roughly a 120-column width and ESLint is the only style gate. Running Prettier over `src/` reflows the whole tree and buries a change in noise.
+
 `npm run check` is offline and needs no browser: `scripts/check-data.mjs` validates `src/data/*.json` against the contract in `PLAN.md` §2 (shapes, enums, section keys, cross-references, and `meta.counts` against the real counts) and exits non-zero on any violation. `npm run smoke` builds an SSR bundle and renders home, matrix, about, every class, leveling, gear and playbook page plus an unknown route, asserting that each produces content.
 
 ## Hosting
