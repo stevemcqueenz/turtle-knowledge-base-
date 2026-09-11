@@ -11,10 +11,18 @@ interface SpecCardProps {
   /** Where the card leads: a spec guide, the leveling guide, or nowhere. */
   target?: string | null;
   targetLabel?: string;
+  /** Footer when the card leads nowhere; null hides it. */
+  emptyLabel?: string | null;
 }
 
 /** One spec inside a role column: standing, a one-line verdict and its chips. */
-export function SpecCard({ row, playbook, target, targetLabel }: SpecCardProps) {
+export function SpecCard({
+  row,
+  playbook,
+  target,
+  targetLabel,
+  emptyLabel = 'No separate guide for this pick.',
+}: SpecCardProps) {
   const theme = useThemeValue();
   const standing = standingMeta(row.standing);
   const standingColor = readableColor(standing?.color ?? '#8a8f98', theme);
@@ -64,9 +72,9 @@ export function SpecCard({ row, playbook, target, targetLabel }: SpecCardProps) 
           {targetLabel ?? 'Open the guide'}
           <ChevronRightIcon className="h-3.5 w-3.5" />
         </span>
-      ) : (
-        <span className="mt-auto pt-1 text-[12px] text-muted">No separate guide for this pick.</span>
-      )}
+      ) : emptyLabel ? (
+        <span className="mt-auto pt-1 text-[12px] text-muted">{emptyLabel}</span>
+      ) : null}
     </>
   );
 

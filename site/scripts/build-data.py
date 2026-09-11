@@ -169,6 +169,117 @@ def make_section(heading: str, markdown: str, level: int) -> dict:
 
 
 # ---------------------------------------------------------------------------
+# Leveling talent-order tables
+# ---------------------------------------------------------------------------
+
+LEVEL_COL = re.compile(r"^(levels?|lvl)\b|\breach", re.I)
+TREE_COL = re.compile(r"^tree$", re.I)
+POINTS_COL = re.compile(r"^(points?|pts|ranks?)\b", re.I)
+TALENT_COL = re.compile(r"talent", re.I)
+ORDER_COL = re.compile(r"^order$", re.I)
+TABLE_SEPARATOR = re.compile(r"^\|?\s*:?-{3,}")
+
+
+def split_table_row(line: str) -> list[str]:
+    return [c.strip() for c in line.strip().strip("|").split("|")]
+
+
+def plain_heading(text: str) -> str:
+    """Header cell without links, emphasis or code marks."""
+    return re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", text).replace("**", "").replace("`", "").strip()
+
+
+def markdown_tables(markdown: str) -> list[tuple[str | None, list[str], list[list[str]]]]:
+    """(nearest preceding H3, header cells, body rows) for every pipe table."""
+    tables = []
+    h3 = None
+    lines = markdown.splitlines()
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        if line.startswith("### "):
+            h3 = line[4:].strip()
+        if line.startswith("|") and i + 1 < len(lines) and TABLE_SEPARATOR.match(lines[i + 1]):
+            header = split_table_row(line)
+            rows = []
+            i += 2
+            while i < len(lines) and lines[i].startswith("|"):
+                rows.append(split_table_row(lines[i]))
+                i += 1
+            tables.append((h3, header, rows))
+            continue
+        i += 1
+    return tables
+
+
+def parse_talent_orders(sections: list[dict]) -> list[dict]:
+    """Every leveling table that has a level column, as level -> talent steps.
+
+    Column roles are read from the header: a level column (Level/Levels/"Reaches
+    at"), an optional tree column, an optional points column, a talent column
+    (named "Talent", or "Order" when its cells are not plain ordinals). A table
+    whose header names builds instead of a talent column ("Levels | Protection
+    0/31/20 | Retribution 11/8/31") yields one order per build column. Remaining
+    columns become the step's note, so no cited text is dropped. Cells stay
+    verbatim Markdown.
+    """
+    def cell(row: list[str], i: int | None) -> str:
+        return row[i].strip() if i is not None and i < len(row) else ""
+
+    orders: list[dict] = []
+    for section in sections:
+        for h3, header, rows in markdown_tables(section["markdown"]):
+            names = [plain_heading(h) for h in header]
+            level = next((i for i, n in enumerate(names) if LEVEL_COL.search(n)), None)
+            if level is None or not rows:
+                continue
+            tree = next((i for i, n in enumerate(names) if TREE_COL.search(n)), None)
+            points = next((i for i, n in enumerate(names) if POINTS_COL.search(n)), None)
+            ordinal = next((i for i, n in enumerate(names)
+                            if ORDER_COL.search(n) and all(cell(r, i).isdigit() for r in rows)), None)
+            taken = {level, tree, points, ordinal}
+            talent = next((i for i, n in enumerate(names) if TALENT_COL.search(n) and i not in taken), None)
+            if talent is None:
+                talent = next((i for i, n in enumerate(names) if ORDER_COL.search(n) and i not in taken), None)
+            free = [i for i in range(len(names)) if i not in taken and i != talent]
+            if talent is None and len(free) == 1:
+                talent, free = free[0], []
+            builds = [talent] if talent is not None else free
+            notes = free if talent is not None else []
+            approximate = bool(re.search(r"approx|arithmetic", names[level], re.I)) or any(
+                "~" in cell(r, level) for r in rows)
+            for col in builds:
+                steps = []
+                for r in rows:
+                    name = cell(r, col)
+                    if not name:
+                        continue
+                    note_parts = [
+                        f"**{names[n]}:** {cell(r, n)}" if len(notes) > 1 else cell(r, n)
+                        for n in notes if cell(r, n)
+                    ]
+                    steps.append({
+                        "level": cell(r, level) or None,
+                        "talent": name,
+                        "tree": cell(r, tree) or None,
+                        "points": cell(r, points) or None,
+                        "note": " · ".join(note_parts) or None,
+                    })
+                if not steps:
+                    continue
+                subtitle = header[col].strip() if talent is None else h3
+                orders.append({
+                    "id": f"{section['id']}-{len(orders) + 1}",
+                    "title": section["heading"],
+                    "subtitle": subtitle or None,
+                    "sectionId": section["id"],
+                    "approximate": approximate,
+                    "steps": steps,
+                })
+    return orders
+
+
+# ---------------------------------------------------------------------------
 # Matrix
 # ---------------------------------------------------------------------------
 
@@ -419,6 +530,7 @@ def build_class_entry(class_slug: str, matrix_rows: list[dict]) -> dict:
         sections.extend(make_section(h, md, 2) for h, md in lvl_sections)
         leveling = {
             "sections": sections,
+            "talentOrders": parse_talent_orders(sections),
             "sourceFile": str(leveling_path.relative_to(REPO_ROOT)),
         }
 

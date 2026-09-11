@@ -10,7 +10,9 @@ the site builds without Python.
   paladin, hunter, rogue, priest, shaman, mage, warlock, druid), each with the
   class's README sections, its slice of the spec/role matrix, all of its
   playbooks (talents/stats/rotation/etc., with the matching structured YAML
-  attached), its leveling guide, and its gear guide (`gear` / `gearMarkdown`,
+  attached), its leveling guide (`leveling.sections`, plus
+  `leveling.talentOrders`: the guide's talent-order tables parsed into
+  level → talent steps), and its gear guide (`gear` / `gearMarkdown`,
   PLAN.md §7).
 - **`matrix.json`** — the full 106-row spec×role matrix
   (`structured/classes/spec-role-matrix.yaml`), plus the coverage table

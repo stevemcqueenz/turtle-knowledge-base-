@@ -96,7 +96,7 @@ site/
 | `#/` | class grid, search, matrix teaser |
 | `#/class/<slug>` | role tabs, spec cards with standing / agreement / patch-validity badges, coverage table, 1.18.1 changes, gaps |
 | `#/class/<slug>/<spec>-<role>` | full playbook with structured widgets and citations |
-| `#/class/<slug>/leveling` | leveling guide |
+| `#/class/<slug>/leveling` | leveling guide: spec verdicts, talent-order timeline, what to press, stats, route, hardcore |
 | `#/class/<slug>/gear` | gear by spec and bracket (only when gear data exists) |
 | `#/matrix` | full spec × role matrix, coverage and matrix documents |
 | `#/about` | data provenance, source tiers, counts, timeline |
