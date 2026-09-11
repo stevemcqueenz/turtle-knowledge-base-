@@ -223,8 +223,8 @@ def parse_talent_orders(sections: list[dict]) -> list[dict]:
     (named "Talent", or "Order" when its cells are not plain ordinals). A table
     whose header names builds instead of a talent column ("Levels | Protection
     0/31/20 | Retribution 11/8/31") yields one order per build column. Remaining
-    columns become the step's note, so no cited text is dropped. Cells stay
-    verbatim Markdown.
+    columns become the step's note, except a column headed "Link", whose
+    talent-calculator codes are dropped. Cells stay verbatim Markdown.
     """
     def cell(row: list[str], i: int | None) -> str:
         value = row[i].strip() if i is not None and i < len(row) else ""

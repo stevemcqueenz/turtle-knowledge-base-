@@ -35,7 +35,7 @@ Section { id: string (slug of heading), heading: string (text without #), level:
 TalentOrder { id, title: string (the H2 heading), subtitle: string|null (nearest H3, or the build column's header),
               approximate: boolean, steps: [{ level: string|null, talent: string, tree, points, note: string|null }] }
 ```
-`talentOrders` holds every pipe table in `leveling.md` that has a level column (`Level`, `Levels`, `Reaches at …`), one entry per table, or one per build column when the header names builds instead of a talent column. Cells stay verbatim Markdown; columns that are not level/tree/points/talent are joined into `note` so no cited text is dropped. `approximate` is true when the header says the levels are arithmetic or a level cell carries `~`.
+`talentOrders` holds every pipe table in `leveling.md` that has a level column (`Level`, `Levels`, `Reaches at …`), one entry per table, or one per build column when the header names builds instead of a talent column. Cells stay verbatim Markdown; columns that are not level/tree/points/talent are joined into `note`, except a column headed `Link`, which is dropped. `approximate` is true when the header says the levels are arithmetic or a level cell carries `~`.
 ```
 
 MatrixRow { spec, role, standing: "favored"|"alternative"|"niche"|"not-viable", agreement: string|null,

@@ -89,8 +89,7 @@ export function levelingVerdictLine(picks: MatrixRow[]): string {
 
 /**
  * The spec guide a leveling pick leads to: the one non-pvp playbook of that
- * spec, narrowed by a role the pick names ("Enhancement (tank-capable)").
- * Null when the pick names a spec several guides cover.
+ * spec. Null when the pick names a spec several guides cover.
  */
 export function levelingPlaybook(entry: ClassEntry, row: MatrixRow): Playbook | null {
   const spec = String(row.spec ?? '').toLowerCase();
@@ -98,9 +97,7 @@ export function levelingPlaybook(entry: ClassEntry, row: MatrixRow): Playbook | 
   const matches = entry.playbooks.filter(
     (p) => p.role !== 'pvp' && spec.startsWith(p.spec.toLowerCase().split(' ')[0]),
   );
-  const named = matches.filter((p) => p.role.split('-').some((word) => spec.includes(word)));
-  const candidates = named.length > 0 ? named : matches;
-  return candidates.length === 1 ? candidates[0] : null;
+  return matches.length === 1 ? matches[0] : null;
 }
 
 /** The class guide's main leveling order, shown on a spec guide that has none of its own. */
