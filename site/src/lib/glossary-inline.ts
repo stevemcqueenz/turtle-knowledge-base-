@@ -29,8 +29,9 @@ const RULES: Rule[] = [
   { term: 'standing', re: /\bcommunity standing\b|\bstanding\b(?=\s*[:—–])/i },
   { term: 'contested', re: /\bcontested\b/i },
   { term: 'player claim', re: /\bplayer[- ]claims?\b/i },
-  // `(opaque)` in the prose is a dead talent-calculator link; say so instead.
-  { term: 'opaque link', re: /(?<=\()opaque(?=[,)])/i, label: 'calculator link, offline' },
+  // `opaque` before a comma or a closing paren marks a dead talent-calculator
+  // link in the prose; say so instead of showing the bare word.
+  { term: 'opaque link', re: /\bopaque(?=[,)])/i, label: 'calculator link, offline' },
 ];
 
 /** Tags whose text must stay untouched: links, code and table cells. */

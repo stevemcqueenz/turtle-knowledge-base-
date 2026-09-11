@@ -417,7 +417,7 @@
     "meaning": "Agreement label on a recommendation: the sources disagree, and both sides are listed with their dates and links so you can judge which applies to you. The other two labels are consensus (several independent sources agree) and single source (only one source says it).",
     "category": "system",
     "scope": "archive-convention",
-    "citation_url": "#/about"
+    "citation_url": "synthesis/CONVENTIONS.md"
   },
   {
     "term": "copium",
@@ -1383,7 +1383,7 @@
     "meaning": "A statement sourced to a player rather than to the Turtle WoW Team: reported by players, not confirmed by staff. Source tiers in this archive are staff (rank \"Turtle WoW Team\", the authority on intent), player, and wiki (the community fandom wiki, least reliable); staff statements about intended behaviour outrank player claims.",
     "category": "system",
     "scope": "archive-convention",
-    "citation_url": "#/about"
+    "citation_url": "synthesis/CONVENTIONS.md"
   },
   {
     "term": "post-1.18.1",
@@ -1789,7 +1789,7 @@
     "meaning": "How the community rates a spec in a role in the spec x role matrix: favored (the usual pick), alternative (works, picked less often), niche (works in specific situations) or not-viable (sources advise against it). It is a community judgement read off the class guides, not a measurement, and it is stated with its agreement label.",
     "category": "system",
     "scope": "archive-convention",
-    "citation_url": "#/about"
+    "citation_url": "synthesis/CONVENTIONS.md"
   },
   {
     "term": "STR",
