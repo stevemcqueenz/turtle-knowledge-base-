@@ -26,7 +26,7 @@ Audience: an agent that has the Turtle WoW 1.18.1 client DBCs and/or a running t
 | bot: talents, stats, rotation, AoE thresholds | `structured/classes/<class>/<spec>-<role>.yaml` (47 files; see §3) |
 | bot: leveling | `synthesis/classes/<class>/leveling.md` (prose; talent order by level, ranks to skip, route) |
 | bot: chat, economy, group play, archetypes, rules, schedules, addons, PvP | `behavior/*.jsonl` (examples with `pattern`, `category`) and the matching `.md` (each ends with "Patterns for bots", "What not to do", "Gaps") |
-| vocabulary | `structured/glossary.jsonl` (313 terms, `scope` turtle/vanilla) |
+| vocabulary | `structured/glossary.jsonl` (323 terms, `scope` turtle/vanilla/archive-convention) |
 | raw evidence for any claim | follow the `url` (`viewtopic.php?p=<id>#p<id>`); the post record is in `structured/forum/posts/f<forum>*.jsonl` with `post_id`; the thread Markdown is `structured/forum/topics.jsonl` -> `extracted_path` |
 
 ## 2. Schemas

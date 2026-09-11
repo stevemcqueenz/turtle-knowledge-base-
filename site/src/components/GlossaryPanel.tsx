@@ -92,11 +92,12 @@ export function GlossaryPanel({ open, onClose, initialQuery = '' }: GlossaryPane
                     {g.citation_url ? (
                       <a
                         href={g.citation_url}
-                        target="_blank"
-                        rel="noopener noreferrer"
+                        {...(g.scope === 'archive-convention' && g.citation_url.startsWith('#')
+                          ? {}
+                          : { target: '_blank', rel: 'noopener noreferrer' })}
                         className="text-[rgb(var(--c-accent))] hover:underline"
                       >
-                        source
+                        {g.scope === 'archive-convention' && g.citation_url.startsWith('#') ? 'archive convention' : 'source'}
                       </a>
                     ) : null}
                   </dd>

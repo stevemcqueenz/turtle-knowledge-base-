@@ -92,7 +92,7 @@ def main() -> int:
     check(len(matrix["rows"]) == 106,
           f"expected 106 matrix rows, got {len(matrix['rows'])}")
 
-    check(len(glossary) == 313, f"expected 313 glossary terms, got {len(glossary)}")
+    check(len(glossary) == 323, f"expected 323 glossary terms, got {len(glossary)}")
 
     # ---- Every playbook has non-null overview + sources ------------------
     missing_overview = []

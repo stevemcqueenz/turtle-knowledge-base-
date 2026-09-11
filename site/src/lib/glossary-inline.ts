@@ -24,12 +24,11 @@ const RULES: Rule[] = [
   { term: '1.18.1-announced-pre-release', re: /\b1\.18\.1-announced-pre-release\b/ },
   { term: 'pre-1.18.1', re: /\bpre-1\.18\.1\b/ },
   { term: 'post-1.18.1', re: /\bpost-1\.18\.1\b/ },
-  // Archive usage only: `Community standing`, a `standing:` label, a heading
-  // that is just the term, or `standing` before an agreement/heading dash.
-  // Plain-English uses ("standing at range", "standing in front") must not match.
-  { term: 'standing', re: /\bcommunity standing\b|\bstanding\b(?=\s*[:—–])|^\s*standings?\s*$/i },
+  // Archive usage only: `Community standing` or a `standing:` label. Plain-English
+  // uses ("standing at range", "standing in front") must not match.
+  { term: 'standing', re: /\bcommunity standing\b|\bstanding\b(?=\s*[:—–])/i },
   { term: 'contested', re: /\bcontested\b/i },
-  { term: 'player claim', re: /\bplayer[- ](?:sourced|claims?)\b|\bplayers claim\b/i },
+  { term: 'player claim', re: /\bplayer[- ]claims?\b/i },
   // `(opaque)` in the prose is a dead talent-calculator link; say so instead.
   { term: 'opaque link', re: /(?<=\()opaque(?=[,)])/i, label: 'calculator link, offline' },
 ];
@@ -48,9 +47,20 @@ function closeOpen(): void {
   }
 }
 
+/** Keeps the popup inside the viewport. Runs on every path that opens one. */
+function clamp(pop: HTMLElement): void {
+  pop.style.left = '0px';
+  const overflow = pop.getBoundingClientRect().right - (document.documentElement.clientWidth - 8);
+  if (overflow > 0) pop.style.left = `${-overflow}px`;
+}
+
 if (typeof document !== 'undefined') {
   document.addEventListener('pointerdown', (event) => {
     if (openWrap && !openWrap.contains(event.target as Node)) closeOpen();
+  });
+  // On the click-open path the button never takes focus, so Escape lands here.
+  document.addEventListener('keydown', (event) => {
+    if (openWrap && event.key === 'Escape') closeOpen();
   });
 }
 
@@ -102,11 +112,14 @@ function insert(hit: { node: Text; index: number; text: string }, g: GlossaryTer
   meaning.textContent = g.meaning;
   pop.append(title, meaning);
   if (g.citation_url) {
+    const convention = g.scope === 'archive-convention' && g.citation_url.startsWith('#');
     const source = document.createElement('a');
     source.href = g.citation_url;
-    source.target = '_blank';
-    source.rel = 'noopener noreferrer';
-    source.textContent = 'source';
+    if (!convention) {
+      source.target = '_blank';
+      source.rel = 'noopener noreferrer';
+    }
+    source.textContent = convention ? 'archive convention' : 'source';
     pop.append(document.createTextNode(' '), source);
   }
 
@@ -122,15 +135,12 @@ function insert(hit: { node: Text; index: number; text: string }, g: GlossaryTer
     } else {
       wrap.classList.add('open');
       openWrap = wrap;
+      clamp(pop);
     }
   });
 
-  // The popup is opened by CSS (`:focus-within`); keep it inside the viewport.
-  wrap.addEventListener('focusin', () => {
-    pop.style.left = '0px';
-    const overflow = pop.getBoundingClientRect().right - (document.documentElement.clientWidth - 8);
-    if (overflow > 0) pop.style.left = `${-overflow}px`;
-  });
+  // The keyboard path opens the popup by CSS (`:focus-within`).
+  wrap.addEventListener('focusin', () => clamp(pop));
   wrap.addEventListener('focusout', (event) => {
     const next = (event as FocusEvent).relatedTarget as Node | null;
     if (!next || !wrap.contains(next)) closeOpen();
