@@ -131,7 +131,8 @@ function insert(hit: { node: Text; index: number; text: string }, g: GlossaryTer
   pop.append(title, meaning);
   if (g.scope === 'archive-convention') {
     pop.append(document.createTextNode(' archive convention'));
-  } else if (g.citation_url) {
+  }
+  if (g.citation_url) {
     const source = document.createElement('a');
     source.href = g.citation_url;
     source.target = '_blank';

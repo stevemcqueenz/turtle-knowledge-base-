@@ -80,9 +80,7 @@ export function GlossaryPanel({ open, onClose, initialQuery = '' }: GlossaryPane
             <p className="py-6 text-center text-sm text-muted">No term matches “{query}”.</p>
           ) : (
             <dl className="space-y-4">
-              {terms.map((g) => {
-                const convention = g.scope === 'archive-convention';
-                return (
+              {terms.map((g) => (
                   <div key={g.term} id={`glossary-${g.term}`}>
                     <dt className="flex flex-wrap items-baseline gap-2">
                       <span className="font-semibold">{g.term}</span>
@@ -91,7 +89,7 @@ export function GlossaryPanel({ open, onClose, initialQuery = '' }: GlossaryPane
                     </dt>
                     <dd className="mt-0.5 text-sm text-muted">
                       {g.meaning}{' '}
-                      {g.citation_url && !convention ? (
+                      {g.citation_url ? (
                         <a
                           href={g.citation_url}
                           target="_blank"
@@ -103,8 +101,7 @@ export function GlossaryPanel({ open, onClose, initialQuery = '' }: GlossaryPane
                       ) : null}
                     </dd>
                   </div>
-                );
-              })}
+              ))}
             </dl>
           )}
         </div>
