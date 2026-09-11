@@ -130,7 +130,10 @@ function insert(hit: { node: Text; index: number; text: string }, g: GlossaryTer
   meaning.textContent = g.meaning;
   pop.append(title, meaning);
   if (g.scope === 'archive-convention') {
-    pop.append(document.createTextNode(' archive convention'));
+    const scope = document.createElement('span');
+    scope.className = 'gloss-scope';
+    scope.textContent = 'archive convention';
+    pop.append(scope);
   }
   if (g.citation_url) {
     const source = document.createElement('a');

@@ -256,6 +256,11 @@
   display: block;
   margin-bottom: 0.15rem;
 }
+.gloss-scope {
+  @apply text-[10px] uppercase tracking-wider text-muted;
+  display: block;
+  margin-top: 0.35rem;
+}
 
 .scrollbar-thin {
   scrollbar-width: thin;
