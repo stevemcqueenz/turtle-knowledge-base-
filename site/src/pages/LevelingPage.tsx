@@ -33,17 +33,6 @@ function Prose({ sections }: { sections: Section[] }) {
   );
 }
 
-/** The same prose, one click away: one disclosure per section, labelled with its heading. */
-function Folded({ sections }: { sections: Section[] }) {
-  return (
-    <>
-      {sections.map((s) => (
-        <ProseDetails key={s.id} title={cleanHeading(s.heading)} sections={[s]} />
-      ))}
-    </>
-  );
-}
-
 /** Column count for the verdict cards: even rows for 1–3 picks. */
 function pickColumns(count: number): string {
   if (count <= 1) return '';
@@ -125,7 +114,9 @@ export function LevelingPage({ slug }: { slug: string }) {
                 })}
               </div>
             ) : null}
-            <Folded sections={groups.spec} />
+            {groups.spec.map((s) => (
+              <ProseDetails key={s.id} title={cleanHeading(s.heading)} sections={[s]} />
+            ))}
           </GuideSection>
         ) : null}
 
@@ -143,7 +134,9 @@ export function LevelingPage({ slug }: { slug: string }) {
               </div>
             ))}
             {orders.length > 0 ? (
-              <Folded sections={groups.talents} />
+              groups.talents.map((s) => (
+                <ProseDetails key={s.id} title={cleanHeading(s.heading)} sections={[s]} />
+              ))
             ) : (
               <Prose sections={groups.talents} />
             )}
@@ -190,13 +183,17 @@ export function LevelingPage({ slug }: { slug: string }) {
 
         {present.more ? (
           <GuideSection id="lv-more" title="More">
-            <Folded sections={groups.more} />
+            {groups.more.map((s) => (
+              <ProseDetails key={s.id} title={cleanHeading(s.heading)} sections={[s]} />
+            ))}
           </GuideSection>
         ) : null}
 
         {present.sources ? (
           <GuideSection id="lv-sources" title="Sources">
-            <Folded sections={groups.sources} />
+            {groups.sources.map((s) => (
+              <ProseDetails key={s.id} title={cleanHeading(s.heading)} sections={[s]} />
+            ))}
           </GuideSection>
         ) : null}
       </div>

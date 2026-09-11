@@ -14652,10 +14652,10 @@
               "note": "\"Increases poison damage by 30%\""
             },
             {
-              "level": "**58**",
+              "level": "58",
               "talent": "**respec point**",
-              "tree": "—",
-              "points": "—",
+              "tree": null,
+              "points": null,
               "note": "\"At level 58, you should re-spec. What you re-spec to is totally up to you\""
             }
           ]

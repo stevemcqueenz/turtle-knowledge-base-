@@ -178,6 +178,8 @@ POINTS_COL = re.compile(r"^points?\b", re.I)
 TALENT_COL = re.compile(r"talent", re.I)
 ORDER_COL = re.compile(r"^order$", re.I)
 LINK_COL = re.compile(r"^link$", re.I)
+EMPHASIS = re.compile(r"[*_]")
+PLACEHOLDER_CELL = re.compile(r"^[—–-]+$")
 TABLE_SEPARATOR = re.compile(r"^\|?\s*:?-{3,}")
 
 
@@ -225,7 +227,8 @@ def parse_talent_orders(sections: list[dict]) -> list[dict]:
     verbatim Markdown.
     """
     def cell(row: list[str], i: int | None) -> str:
-        return row[i].strip() if i is not None and i < len(row) else ""
+        value = row[i].strip() if i is not None and i < len(row) else ""
+        return "" if PLACEHOLDER_CELL.match(value) else value
 
     orders: list[dict] = []
     for section in sections:
@@ -256,7 +259,7 @@ def parse_talent_orders(sections: list[dict]) -> list[dict]:
                         continue
                     note_parts = [cell(r, n) for n in notes if cell(r, n)]
                     steps.append({
-                        "level": cell(r, level) or None,
+                        "level": EMPHASIS.sub("", cell(r, level)) or None,
                         "talent": name,
                         "tree": cell(r, tree) or None,
                         "points": cell(r, points) or None,
