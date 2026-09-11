@@ -55,14 +55,22 @@ function openPop(wrap: HTMLElement, pop: HTMLElement): void {
   openWrap = wrap;
   pop.style.left = '0px';
   pop.style.top = '';
+  pop.style.maxHeight = '';
+  const viewport = document.documentElement.clientHeight;
   const term = wrap.getBoundingClientRect();
   const box = pop.getBoundingClientRect();
+  const gap = box.top - term.bottom;
+
   const overflow = box.right - (document.documentElement.clientWidth - 8);
   if (overflow > 0) pop.style.left = `${-overflow}px`;
-  const below = document.documentElement.clientHeight - term.bottom;
-  if (box.bottom > document.documentElement.clientHeight - 8 && term.top > below) {
-    pop.style.top = `${-(box.height + box.top - term.bottom)}px`;
-  }
+
+  const roomBelow = viewport - term.bottom - gap - 8;
+  const roomAbove = term.top - gap - 8;
+  pop.style.maxHeight = `${Math.max(0, Math.min(Math.max(roomBelow, roomAbove), viewport * 0.6))}px`;
+  const height = pop.getBoundingClientRect().height;
+  const wanted = roomAbove > roomBelow ? term.top - gap - height : term.bottom + gap;
+  const top = Math.min(Math.max(wanted, 8), Math.max(8, viewport - 8 - height));
+  pop.style.top = `${top - term.top}px`;
 }
 
 if (typeof document !== 'undefined') {
