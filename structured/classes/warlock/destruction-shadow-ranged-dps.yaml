@@ -39,6 +39,8 @@ stat_weights:
   crit: "wanted (Ruin doubles crit damage; Shadow Vulnerability is crit-driven since 2024-12-20)"
   spell_power: "high (Shadow Bolt scales strongly; Flask of Supreme Power adds ~128 points to an average bolt)"
   stamina: "medium (T3 Plagueheart Raiment carries ~73 more stamina than the Affliction set)"
+stat_priority: [spell-hit, crit, spell-power]
+stat_priority_note: "Hit first but CONTESTED in degree: one camp reports top Naxx parses at 7–9% hit and says not to trade much for it, the other calls the hit cap the one thing to bring to a first raid. Crit is wanted for Ruin and the crit-driven Shadow Vulnerability — the 2024 argument for trading crit away for raw spell power predates the 2024-12-20 revert to crit-based procs. Shadow Bolt scales well with spell power (a Flask of Supreme Power is worth about 128 points on an average Shadow Bolt)."
 caps: {}
 rotation_single:
   - {priority: 1, action: "Shadow Bolt", condition: "Nightfall proc up (instant, cannot miss)"}

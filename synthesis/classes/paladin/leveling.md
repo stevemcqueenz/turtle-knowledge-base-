@@ -12,18 +12,59 @@ Sources are the Paladin forum's guide thread (Unchallenged, updated 2024-12-04 f
 
 From [Unchallenged (player), 2022-10-18 (edited 2024-12-04)](https://forum.turtlecraft.gg/viewtopic.php?p=27457#p27457); links: Prot no-dungeon `https://talents.turtlecraft.gg/paladin?points=AAAAAAAAAAAAAAAoYFBYAYBoAgBAAoQoQKAYAAAAAAA%3D`, Prot dungeon `https://talents.turtlecraft.gg/paladin?points=AAAAAAAAAAAAAAAoYFZYAAZoAgBAAoQoQKAAAAAAAAA%3D`, Ret `https://talent-builder.haaxor1689.dev/calculator/custom?t0=_pgv9YDGsH&t1=2uLmYNGgaP&t2=Sg8mfTVwpx&t=0500050001000000000000000000-0050300000000000000000000000-0050005005120020301205000100` (note: a reader points out the Ret link shows old talents — [Notemede (player), 2025-01-15](https://forum.turtlecraft.gg/viewtopic.php?p=116787#p116787)).
 
-| Levels | Protection 0/31/20 (dungeons variant) | Retribution 11/8/31 |
+The guide spends points in five-level brackets and does not assign a single level to a single talent, so each row below carries the bracket the guide gives; the row order is the order the guide lists.
+
+#### Protection 0/31/20 (dungeons variant)
+
+| Levels | Talent | Note |
 |---|---|---|
-| 10–14 | Redoubt 5 | Benediction 5 |
-| 15–19 | Precision 3, Toughness 2 | Deflection 5 |
-| 20–24 | Blessing of Sanctuary 1, Shield Specialization 3, Improved Righteous Fury 1 | Pursuit of Justice 2, Conviction 3 |
-| 25–29 | Improved Righteous Fury 2, Toughness 3 | Improved Retribution Aura 2, Conviction 2, Blessing of Kings 1 |
-| 30–34 | Holy Shield 1, Reckoning 4 | Seal of Command 1, Two-Handed Weapon Specialization 3, Vengeance 1 |
-| 35–39 | Reckoning 1, Righteous Strikes 4 | Vengeful Strikes ("Crusading Strikes") 5 |
-| 40–44 | Bulwark of the Righteous 1, Benediction 4 | Repentance 1, Redoubt 4 |
-| 45–49 | Benediction 1, Deflection 4 | Redoubt 1, Precision 3, Divine Strength 1 |
-| 50–54 | Deflection 1, Pursuit of Justice 2, Improved Retribution Aura 2 | Divine Strength 4, Spiritual Focus 1 |
-| 55–60 | Blessing of Kings 1, then raid: Improved Hand of Reckoning 2 + Righteous Defense 3, or Improved Judgement 2 + Vindication 3 | Spiritual Focus 1, Holy Judgement 3; 59–60 free: Sanctity Aura / Improved Judgement / Improved Lay on Hands / more Vengeance |
+| 10–14 | Redoubt 5 | |
+| 15–19 | Precision 3 | |
+| 15–19 | Toughness 2 | |
+| 20–24 | Blessing of Sanctuary 1 | |
+| 20–24 | Shield Specialization 3 | |
+| 20–24 | Improved Righteous Fury 1 | |
+| 25–29 | Improved Righteous Fury 2 | |
+| 25–29 | Toughness 3 | |
+| 30–34 | Holy Shield 1 | the talent most players respec into Protection for |
+| 30–34 | Reckoning 4 | |
+| 35–39 | Reckoning 1 | |
+| 35–39 | Righteous Strikes 4 | became Zealous Defence in 1.18.1 |
+| 40–44 | Bulwark of the Righteous 1 | |
+| 40–44 | Benediction 4 | |
+| 45–49 | Benediction 1 | |
+| 45–49 | Deflection 4 | |
+| 50–54 | Deflection 1 | |
+| 50–54 | Pursuit of Justice 2 | |
+| 50–54 | Improved Retribution Aura 2 | |
+| 55–60 | Blessing of Kings 1 | |
+| 55–60 | Improved Hand of Reckoning 2 + Righteous Defense 3, **or** Improved Judgement 2 + Vindication 3 | the guide's raid-facing choice for the last points |
+
+#### Retribution 11/8/31
+
+| Levels | Talent | Note |
+|---|---|---|
+| 10–14 | Benediction 5 | |
+| 15–19 | Deflection 5 | |
+| 20–24 | Pursuit of Justice 2 | |
+| 20–24 | Conviction 3 | |
+| 25–29 | Improved Retribution Aura 2 | |
+| 25–29 | Conviction 2 | |
+| 25–29 | Blessing of Kings 1 | |
+| 30–34 | Seal of Command 1 | rank 1 only, to conserve mana; for weapons 3.5 speed or slower |
+| 30–34 | Two-Handed Weapon Specialization 3 | |
+| 30–34 | Vengeance 1 | |
+| 35–39 | Vengeful Strikes ("Crusading Strikes") 5 | |
+| 40–44 | Repentance 1 | |
+| 40–44 | Redoubt 4 | |
+| 45–49 | Redoubt 1 | |
+| 45–49 | Precision 3 | |
+| 45–49 | Divine Strength 1 | |
+| 50–54 | Divine Strength 4 | |
+| 50–54 | Spiritual Focus 1 | |
+| 55–60 | Spiritual Focus 1 | |
+| 55–60 | Holy Judgement 3 | |
+| 59–60 | Free points: Sanctity Aura / Improved Judgement / Improved Lay on Hands / more Vengeance | the guide leaves the last two points open |
 
 The no-dungeon Prot variant replaces Improved Righteous Fury with Toughness/Reckoning and ends with Vindication 3 + Improved Judgement 2 ("More Armor, NO RF Threat, More Stuns, No Taunt"). Other levelling orders: Aalena's Ret at 30 `https://talents.turtlecraft.gg/paladin?points=--FoAAVCIAAI` and 50 `https://talents.turtlecraft.gg/paladin?points=F--FoAAVCYYFIF` with "Sanctity is -not- worth it until 60. Improved Retribution Aura helps you deal more damage overall" — [Aalena (player), 2025-08-20](https://forum.turtlecraft.gg/viewtopic.php?p=147231#p147231). Getplucked's 2023 Prot levelling links (20: `0-5IC1`, 40: `0-5IDL0J-5CI`) are for the pre-CC2 tree and "doesn't work anymore" — [Istavan (player), 2025-01-08](https://forum.turtlecraft.gg/viewtopic.php?p=115937#p115937). Older Holy-first advice ("Go holy until consecration, then go prot until 3/3 shield specialisation" — [Pfwg (player), 2022-03-17](https://forum.turtlecraft.gg/viewtopic.php?p=17557#p17557)) predates Consecration going baseline and is obsolete.
 

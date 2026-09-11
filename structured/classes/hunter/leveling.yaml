@@ -1,0 +1,158 @@
+# Hunter — leveling kill loop — companion to synthesis/classes/hunter/leveling.md
+# Structured answer to "what do I press while leveling". Every field cites the post it
+# came from; a field the sources do not settle is null and named in `gaps`.
+class: Hunter
+source_file: synthesis/classes/hunter/leveling.md
+patch_validity:
+  written_for: "CC2 (2024-11-01) and CC3 (2025-08-15) kits, with post-1.18.1 posts on top"
+  valid_for_1181: true
+  notes: "Steady Shot is baseline at 20 since 1.18.1 (a Marksmanship talent before), Arcane Shot now scales with weapon damage, Aspect of the Viper arrives at 56, and the CC3 nerfs to Endurance Training and Thick Hide were restored in 1.18.1."
+spec_verdict:
+  favored:
+    spec: "Beast Mastery"
+    build: "pure Beast Mastery to ~50"
+    agreement: consensus
+    why: "The pet tanks while you shoot: the first eight defensive talents roughly double its survivability, which is both faster XP per hour and safer in Hardcore."
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=106293#p106293", author: Lavrute, authority: player, date: "2024-11-04"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=106303#p106303", author: Steakhouse, authority: player, date: "2024-11-04"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=106305#p106305", author: Ragetto, authority: player, date: "2024-11-04"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=130862#p130862", author: SvenS2, authority: player, date: "2025-05-13"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171464#p171464", author: SvenS2, authority: player, date: "2026-03-20"}
+  alternatives:
+    - spec: Survival
+      build: "Survival melee"
+      when: "from 40, when Untamed Trapper lands; level as BM or MM before that"
+      agreement: consensus
+      why: "Highest Agility and Stamina of the three trees, in-combat traps, Deterrence and Improved Feign Death — but the tree gives you almost nothing before 40."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=131127#p131127", author: Laysson, authority: player, date: "2025-05-14"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=143781#p143781", author: Vladis, authority: player, date: "2025-08-08"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=131122#p131122", author: zer0g3, authority: player, date: "2025-05-14"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=131298#p131298", author: Upsetlobster, authority: player, date: "2025-05-16"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=125145#p125145", author: Terryleelolorz, authority: player, date: "2025-04-03"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171498#p171498", author: SvenS2, authority: player, date: "2026-03-20"}
+    - spec: Marksmanship
+      build: "Marksmanship (with a pet)"
+      when: "if you want the ranged burst; no source prefers it to Beast Mastery for leveling"
+      agreement: single
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=106303#p106303", author: Steakhouse, authority: player, date: "2024-11-04"}
+  avoid:
+    - what: "Leveling without a pet"
+      agreement: single
+      why: "\"During leveling, the pet (for any spec) is not just about damage, but also about tactics\" — it is the thing that holds the mob off you."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=172610#p172610", author: Ahinevich, authority: player, date: "2026-03-26"}
+    - what: "Letting the pet's Bite/Charge/Screech ranks fall behind"
+      agreement: consensus
+      why: "Threat, not pet damage, is what keeps mobs off you; current ranks are why the pet holds aggro while you shoot."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108602#p108602", author: Rinarch, authority: player, date: "2024-11-19"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=55429#p55429", author: Borefficz, authority: player, date: "2023-08-01"}
+opener:
+  - step: 1
+    spec: "Beast Mastery"
+    action: "Send the pet in (Growl on autocast)"
+    condition: "the pet pulls and tanks; you stay at range"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108602#p108602", author: Rinarch, authority: player, date: "2024-11-19"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=55429#p55429", author: Borefficz, authority: player, date: "2023-08-01"}
+  - step: 2
+    spec: "Beast Mastery"
+    action: "Auto Shot"
+    condition: "the backbone of your damage while the pet holds threat"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149103#p149103", author: SvenS2, authority: player, date: "2025-08-29"}
+  - step: 3
+    spec: "Beast Mastery"
+    action: "Arcane Shot (rank 1)"
+    condition: "cheap trigger for the pet buff (Coordinated Assault) before 1.18.1; from 1.18.1 Arcane scales with weapon damage, so train it properly"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171488#p171488", author: Plagues2, authority: player, date: "2026-03-20"}
+  - step: 4
+    spec: "Beast Mastery"
+    action: "Steady Shot"
+    condition: "from 20; only while you will not pull the mob off the pet"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171531#p171531", author: Lane13, authority: player, date: "2026-03-21"}
+  - step: 1
+    spec: Survival
+    action: "Immolation Trap or Explosive Trap, then pull with the pet onto the trap"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=41891#p41891", author: Therrius4121, authority: player, date: "2023-04-17"}
+  - step: 2
+    spec: Survival
+    action: "Raptor Strike on cooldown, Wing Clip to kite"
+    condition: "you tank the mob yourself in Aspect of the Monkey so Mongoose Bite can proc; in a group turn Growl off and open with Distracting Shot"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=41891#p41891", author: Therrius4121, authority: player, date: "2023-04-17"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=41903#p41903", author: Xudo, authority: player, date: "2023-04-17"}
+  - step: 3
+    spec: Survival
+    action: "Refresh the trap: pet to passive, Feign Death, re-lay the trap"
+    condition: "before 40; from 40 Untamed Trapper lets you drop traps in combat"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=41891#p41891", author: Therrius4121, authority: player, date: "2023-04-17"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=143781#p143781", author: Vladis, authority: player, date: "2025-08-08"}
+priority:
+  - priority: 1
+    action: "Keep the pet on the mob"
+    condition: "Growl on autocast, Bite/Charge/Screech ranks current, feed it to green"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108602#p108602", author: Rinarch, authority: player, date: "2024-11-19"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=55429#p55429", author: Borefficz, authority: player, date: "2023-08-01"}
+  - priority: 2
+    action: "Auto Shot, never clipped"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149103#p149103", author: SvenS2, authority: player, date: "2025-08-29"}
+  - priority: 3
+    action: "Steady Shot"
+    condition: "one of your main damage sources from 20, but do not spam it — you will go out of mana, and you will pull the mob off the pet"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171531#p171531", author: Lane13, authority: player, date: "2026-03-21"}
+  - priority: 4
+    action: "Arcane Shot"
+    condition: "rank 1 to trigger the pet buff; full rank while kiting"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171488#p171488", author: Plagues2, authority: player, date: "2026-03-20"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171561#p171561", author: Lane13, authority: player, date: "2026-03-21"}
+  - priority: 5
+    action: "Multi-Shot and spread Serpent Sting"
+    condition: "on the two mobs the pet is holding; Intimidation hands it the second one (\"send pet with intimidation on a baddie, and after one growl, send it to another\")"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=106303#p106303", author: Steakhouse, authority: player, date: "2024-11-04"}
+  - priority: 6
+    action: "Aspect of the Cheetah between mobs"
+    condition: "you do not need Hawk's attack power while running; Cheetah beats mounting between quest mobs, and dazes if something hits you"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171464#p171464", author: SvenS2, authority: player, date: "2026-03-20"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108602#p108602", author: Rinarch, authority: player, date: "2024-11-19"}
+  - priority: 7
+    action: "Do not stop to drink"
+    condition: "send the pet at the next mob and drink while it kills; \"of the falcon\" (intellect + agility) gear if you still run dry. Aspect of the Viper only exists from 56, so it is not a leveling answer."
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166261#p166261", author: amanagor, authority: player, date: "2026-01-24"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166247#p166247", author: Springboards, authority: player, date: "2026-01-24"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171558#p171558", author: Grizb37, authority: player, date: "2026-03-21"}
+mob_selection:
+  rule: "One mob at a time is never wrong, but with the Beast Mastery defensive talents the pet holds two while you Multi-Shot and spread Serpent Sting, and a high-damage pet makes three workable. Pull with the pet, not with a shot. Elites are kiteable in the open world but much harder than on retail."
+  agreement: consensus
+  sources:
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=106303#p106303", author: Steakhouse, authority: player, date: "2024-11-04"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171464#p171464", author: SvenS2, authority: player, date: "2026-03-20"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=26325#p26325", author: Allwynd01, authority: player, date: "2022-09-28"}
+weapon_rule:
+  rule: "Keep the ammo of your bracket trained and stocked — running a zone on last bracket's ammo is a real damage loss. Melee Survival wants a slow two-hander (a staff with spirit and intellect works) and melee-kites with Wing Clip. Pet choice is the other half of the weapon question: a bird with Screech for threat, a boar for Charge and its wide diet, or a fast cat."
+  agreement: consensus
+  sources:
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=121131#p121131", author: Trollrayzac, authority: player, date: "2025-02-27"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=41903#p41903", author: Xudo, authority: player, date: "2023-04-17"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=55429#p55429", author: Borefficz, authority: player, date: "2023-08-01"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171447#p171447", author: SvenS2, authority: player, date: "2026-03-20"}
+stat_priority: null
+gaps:
+  - "No hunter source gives a leveling stat order. The only sourced gear advice is \"of the falcon\" (intellect + agility) when you run out of mana (Springboards p=166247) and spirit gear for zero downtime (SvenS2 p=171464, which the same post then retracts in favour of Aspect of the Viper at 56). stat_priority is therefore left empty rather than guessed."
+  - "No zone-by-zone leveling route for hunters exists in the corpus."
+  - "No source states where Hunter's Mark belongs in a leveling pull; the ordered opener here is assembled from posts that each cover one step."
+  - "The Survival melee rotation is pre-CC2 in shape (Therrius4121, Xudo 2023); no post-1.18.1 Survival leveling rotation has been posted."

@@ -1,0 +1,148 @@
+# Druid — leveling kill loop — companion to synthesis/classes/druid/leveling.md
+# Structured answer to "what do I press while leveling". Every field cites the post it
+# came from; a field the sources do not settle is null and named in `gaps`.
+class: Druid
+source_file: synthesis/classes/druid/leveling.md
+patch_validity:
+  written_for: "post-CC2 threads, most of the ordered advice from 2026-01 onward"
+  valid_for_1181: true
+  notes: "Swift Travel Form comes from the level-30 'Mount Hyjal In Turmoil' questline and Barkskin gains ranks automatically at 44/52/60 (staff). No source gives a point-by-point talent table for the post-CC2 tree for any druid build."
+spec_verdict:
+  favored:
+    spec: Feral
+    build: "Feral — Cat, with Bear for elites and AoE"
+    agreement: consensus
+    why: "The forms carry you: \"feral druids dont scale with gear, much at all. Your forms will carry you level to level especially once you get cat form\", which makes open-world grinding and questing faster than any dungeon route."
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=170843#p170843", author: Biggamehuntard, authority: player, date: "2026-03-15"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=122982#p122982", author: Snkx, authority: player, date: "2025-03-19"}
+  alternatives:
+    - spec: Balance
+      build: "Balance (Moonkin)"
+      when: "if you prefer casting; slower than Cat because of mana downtime, but it can heal any dungeon on the way"
+      agreement: consensus
+      why: "\"As long as your enemy is not immune to Entangling Roots, he is dead\"."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=126107#p126107", author: Tarsis, authority: player, date: "2025-04-09"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=119155#p119155", author: Ironbob, authority: player, date: "2025-02-06"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=126323#p126323", author: Bigsmerf, authority: player, date: "2025-04-10"}
+    - spec: Feral
+      build: "Hybrid tank/heal for dungeon leveling"
+      when: "Hardcore, or if you intend to level inside groups"
+      agreement: single
+      why: "Tanks are in short supply and Restoration is very hard to solo-level."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=107212#p107212", author: Cyrin23, authority: player, date: "2024-11-09"}
+  avoid:
+    - what: "Solo leveling as Restoration"
+      agreement: single
+      why: "\"It's very hard to level as Resto\" — level as a tank if you want to be useful in groups instead."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=107212#p107212", author: Cyrin23, authority: player, date: "2024-11-09"}
+    - what: "Killing single mobs in Bear form"
+      agreement: contested
+      why: "\"You don't level in bear form unless you want to spend 5 times longer killing each mob\" — Bear is for elites, tanky quest objectives and multi-mob pulls; players who enjoy the 3-mob Swipe playstyle do it anyway."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=122982#p122982", author: Snkx, authority: player, date: "2025-03-19"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=123470#p123470", author: slak, authority: player, date: "2025-03-23"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=123476#p123476", author: "Dr Thrax", authority: player, date: "2025-03-23"}
+    - what: "Training every skill rank before 40"
+      agreement: single
+      why: "\"Before you reach lvl 40 only learn the skills you need! this is very important or you will go to 0 money\"; rank 1 Faerie Fire is enough to pull with."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=165608#p165608", author: Terrydavis, authority: player, date: "2026-01-19"}
+opener:
+  - step: 1
+    spec: Feral
+    action: "Faerie Fire (rank 1) to pull"
+    condition: "rank 1 is enough through most of leveling"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=165608#p165608", author: Terrydavis, authority: player, date: "2026-01-19"}
+  - step: 2
+    spec: Feral
+    action: "Range-pull 2–3 mobs with Moonfire or Insect Swarm"
+    condition: "the low-level AoE pattern; at higher level and better gear, single-target Cat is faster"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=165791#p165791", author: Chev03, authority: player, date: "2026-01-21"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=122982#p122982", author: Snkx, authority: player, date: "2025-03-19"}
+  - step: 3
+    spec: Feral
+    action: "Bear Form, Swipe them down"
+    condition: "on a multi-mob pull, or against anything that hits hard"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=165791#p165791", author: Chev03, authority: player, date: "2026-01-21"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=123476#p123476", author: "Dr Thrax", authority: player, date: "2025-03-23"}
+  - step: 1
+    spec: Balance
+    action: "Entangling Roots, then kite"
+    condition: "Hibernate instead against Beasts"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=126107#p126107", author: Tarsis, authority: player, date: "2025-04-09"}
+  - step: 2
+    spec: Balance
+    action: "Moonfire and Insect Swarm on the other mobs, Wrath on the rooted one"
+    condition: "Turtle gives roughly 70% pushback avoidance, so Wrath can be cast even while taking hits"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=119170#p119170", author: Xudo, authority: player, date: "2025-02-06"}
+priority:
+  - priority: 1
+    action: "Stay in Cat form for single targets"
+    condition: "Bear is for elites, hard-hitting quest objectives and packs — a single mob in Bear takes several times longer"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=122982#p122982", author: Snkx, authority: player, date: "2025-03-19"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=123476#p123476", author: "Dr Thrax", authority: player, date: "2025-03-23"}
+  - priority: 2
+    action: "Spend Omen of Clarity procs"
+    condition: "clearcasting procs constantly: free Swipes in Bear (which is most of your threat when tanking) and free Claws/Shreds in Cat"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=165907#p165907", author: Captain4k, authority: player, date: "2026-01-22"}
+  - priority: 3
+    action: "Put a heal-over-time on yourself before the pull"
+    condition: "specifically before hard packs and bosses"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=165608#p165608", author: Terrydavis, authority: player, date: "2026-01-19"}
+  - priority: 4
+    action: "Grind mobs in Cat rather than quest, if pure speed is the goal"
+    condition: "\"If you look to lvl up as quick as possible, then skip questing and go cat mob grinding\"; rested XP and tents beat dungeon runs either way"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=123476#p123476", author: "Dr Thrax", authority: player, date: "2025-03-23"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=170843#p170843", author: Biggamehuntard, authority: player, date: "2026-03-15"}
+  - priority: 5
+    action: "Use /startattack macros for every physical ability"
+    condition: "it starts the swing timer before the special; needs a helper addon such as CleveRoid Macros on the 1.12 client"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=165791#p165791", author: Chev03, authority: player, date: "2026-01-21"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=165907#p165907", author: Captain4k, authority: player, date: "2026-01-22"}
+mob_selection:
+  rule: "Pull 2–3 mobs with a ranged DoT and Swipe them in Bear at low level; once you have gear and levels, take mobs one at a time in Cat instead, which is the faster kill. Bear is what you switch to for elites and for anything that would otherwise kill you."
+  agreement: contested
+  sources:
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=165791#p165791", author: Chev03, authority: player, date: "2026-01-21"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=122982#p122982", author: Snkx, authority: player, date: "2025-03-19"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=123476#p123476", author: "Dr Thrax", authority: player, date: "2025-03-23"}
+weapon_rule:
+  rule: "Weapon choice is not a druid leveling decision: your damage comes from the form, and \"feral druids dont scale with gear, much at all\". No source names a weapon to aim for while leveling; the gear that is called out is armor (Thick Hide, a +70 armor cloak enchant, leatherworking armor kits) for the times you tank."
+  agreement: single
+  sources:
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=170843#p170843", author: Biggamehuntard, authority: player, date: "2026-03-15"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=165791#p165791", author: Chev03, authority: player, date: "2026-01-21"}
+stat_priority:
+  - spec: "Feral (solo)"
+    order: [armor]
+    notes: "Armor is the only stat the sources put first, via Thick Hide and cheap enchants; \"for solo leveling stamina is not important at all\", which is why a second, stamina-heavy set is suggested for the dungeons you tank. Nothing else is ranked."
+    agreement: single
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=165791#p165791", author: Chev03, authority: player, date: "2026-01-21"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=165608#p165608", author: Terrydavis, authority: player, date: "2026-01-19"}
+  - spec: Balance
+    order: [intellect, spirit]
+    notes: "\"Pick anything with int/spirit\" — the sources explicitly say not to hunt for precise caster leather while leveling."
+    agreement: single
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=126107#p126107", author: Tarsis, authority: player, date: "2025-04-09"}
+gaps:
+  - "No point-by-point talent table exists for any druid build on the post-CC2 tree; the order in leveling.md is a set of anchors (movement speed by ~21, Omen of Clarity by 20, Furor by 25) and is labelled approximate."
+  - "No zone-by-zone route or dungeon-per-bracket list for druids."
+  - "No skipped-rank table for skill training beyond \"rank 1 Faerie Fire is enough\"."
+  - "No Hardcore-specific druid build or pulling rule beyond \"level as a tank rather than Resto\"."
+  - "No leveling weapon or item list; feral damage comes from the form."

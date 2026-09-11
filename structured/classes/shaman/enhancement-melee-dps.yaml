@@ -70,12 +70,37 @@ talents:
     - {tree: Enhancement, talent: Bloodlust, rank: 1, spell_id: null}
     - {tree: Enhancement, talent: "Ancestral Knowledge", rank: 5, spell_id: null}
     - {tree: Enhancement, talent: "Calming Winds", rank: 3, spell_id: null, note: "raid threat reduction; Toxo calls it mandatory only at high gear"}
-  leveling_order: []
+  leveling_order:
+    - {level: "10–33", tree: Enhancement, talent: "Shield Specialization 5", note: "24 Enhancement points across this bracket; respec it into Ancestral Knowledge at 33, not before"}
+    - {level: "10–33", tree: Enhancement, talent: "Totemic Alignment 2"}
+    - {level: "10–33", tree: Enhancement, talent: "Stable Shields 3"}
+    - {level: "10–33", tree: Enhancement, talent: "Ancestral Guardian 3", note: "before Lightning Strike, for mitigation"}
+    - {level: "10–33", tree: Enhancement, talent: "Lightning Strike", note: "take it first if threat is the problem"}
+    - {level: "10–33", tree: Enhancement, talent: "Thundering Strikes 1"}
+    - {level: "10–33", tree: Enhancement, talent: "Spirit Armor 2"}
+    - {level: "10–33", tree: Enhancement, talent: "Thundering Strikes 4"}
+    - {level: "10–33", tree: Enhancement, talent: "Elemental Weapons 3", note: "take it first if you are squishy"}
+    - {level: "10–33", tree: Enhancement, talent: "Stormstrike", note: "take it first for more threat"}
+    - {level: "34–44", tree: Elemental, talent: "Convection 5", note: "11 Elemental points across this bracket"}
+    - {level: "34–44", tree: Elemental, talent: "Concussion 2 or Elemental Warding 2", note: "Elemental Warding is the Maraudon pick"}
+    - {level: "34–44", tree: Elemental, talent: "Elemental Devastation 3"}
+    - {level: "34–44", tree: Elemental, talent: "Elemental Focus", note: "lands at 44; Clearcasting procs off physical crits too"}
+    - {level: "44–50", tree: Enhancement, talent: "Thundering Strikes 5", note: "6 Enhancement points across this bracket"}
+    - {level: "44–50", tree: Enhancement, talent: "Element's Grace 5"}
+    - {level: "51–60", tree: Enhancement, talent: "Respec Shield Specialization into Ancestral Knowledge 5", note: "respec plus 15 points across this bracket"}
+    - {level: "51–60", tree: Enhancement, talent: "Bloodlust"}
+    - {level: "51–60", tree: Enhancement, talent: "Reverberation 3", note: "before Flurry, for threat management and more frequent interrupts"}
+    - {level: "51–60", tree: Enhancement, talent: "Flurry 5"}
+    - {level: "51–60", tree: Elemental, talent: "Concussion 3 or Elemental Warding 3", note: "Concussion for threat, Elemental Warding to be tankier"}
+  leveling_order_approximate: true
+  leveling_order_source: "Skegg's leveling guide (p=149715), consensus with Akos1896. The guide spends points in brackets, so each level cell is the bracket the guide gives, not a per-talent level."
 stat_weights:
   note: "No source gives an explicit DPS stat-weight list; see enhancement-tank.yaml's Turtle mechanics table for the underlying formulas (Rockbiter/Windfury/Lightning Strike scale with AP; Flametongue/fire totems scale with SP)."
   hit: "consensus priority stat toward the physical/spell hit caps (values not stated for pure DPS; tank guide gives 8% physical / 17% spell at 63)"
   agility: "crit and armor; feeds Elemental Focus proc rate"
   attack_power: "primary threat/damage stat via Rockbiter/Windfury/Lightning Strike"
+stat_priority: [weapon-skill-to-315, hit-to-8-percent, crit-to-30-35-percent, strength, haste, stamina]
+stat_priority_note: "Consensus order. Weapon skill has a hard cap of 315 on Turtle (raised from 308) and the racial bonus is +3, not +5. The melee hit cap is 8%, not 9% — the hidden 1% from vanilla was removed — of which talents give 3% and the weapon-skill book 1%. Crit to about 30–35% keeps Flurry and Clearcasting up; past that Strength (2.3 AP per point, and it scales with talents and buffs) beats Agility (~1.13 AP, plus 1% crit and 1% dodge per 20). Stamina outranks Intellect, Spirit and mp5 — \"pretend mp5 doesnt exist\" — except for levelers, where Lightning Strike's mana cost still bites."
 caps:
   physical_hit: "8% (vanilla-baseline figure reused from the tank guide, not DPS-specific)"
   spell_hit: "17% (boss level 63)"

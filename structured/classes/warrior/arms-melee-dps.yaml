@@ -43,19 +43,20 @@ talents:
     - {tree: Fury, talent: Cruelty, rank: 5, spell_id: null}
     - {tree: Fury, talent: Unbridled Wrath, rank: 0, spell_id: null, note: "contested for 2H"}
   leveling_order:
-    - {level: null, tree: Fury, talent: Cruelty 5/5}
-    - {level: null, tree: Arms, talent: Tactical Mastery 3/5}
-    - {level: null, tree: Arms, talent: Improved Rend 2/2}
-    - {level: null, tree: Arms, talent: Improved Thunder Clap 3/3}
-    - {level: null, tree: Arms, talent: Deflection 2/5}
-    - {level: null, tree: Arms, talent: Improved Overpower 2/2}
-    - {level: null, tree: Fury, talent: Dual Wield Specialization 3}
-    - {level: null, tree: Arms, talent: Two-Handed Weapon Specialization 3}
-    - {level: null, tree: Arms, talent: Impale 1/2}
-    - {level: null, tree: Arms, talent: Master Strike}
-    - {level: null, tree: Arms, talent: Sweeping Strikes}
-    - {level: null, tree: Arms, talent: Master of Arms 5/5}
-  leveling_order_source: "armsgirl p=157920 (order only; levels not given)"
+    - {level: "~14", tree: Fury, talent: Cruelty 5/5}
+    - {level: "~17", tree: Arms, talent: Tactical Mastery 3/5}
+    - {level: "~19", tree: Arms, talent: Improved Rend 2/2}
+    - {level: "~22", tree: Arms, talent: Improved Thunder Clap 3/3}
+    - {level: "~24", tree: Arms, talent: Deflection 2/5}
+    - {level: "~26", tree: Arms, talent: Improved Overpower 2/2}
+    - {level: "~29", tree: Fury, talent: Dual Wield Specialization 3}
+    - {level: "~32", tree: Arms, talent: Two-Handed Weapon Specialization 3}
+    - {level: "~33", tree: Arms, talent: Impale 1/2}
+    - {level: "~34", tree: Arms, talent: Master Strike}
+    - {level: "~35", tree: Arms, talent: Sweeping Strikes}
+    - {level: "~40", tree: Arms, talent: Master of Arms 5/5}
+  leveling_order_approximate: true
+  leveling_order_source: "armsgirl p=157920 gives the order only; every level is marked ~ because it is arithmetic at one point per level from 10, not something the post states. The route ends at 40 and switches to a 60 build."
   links_opaque:
     - "https://talents.turtlecraft.gg/warrior?points=FQADCYDQB-FoAAoAAoRCF-"
     - "https://talents.turtlecraft.gg/warrior?points=FQADCYDQ-FoAAoAAoRCFAB-"

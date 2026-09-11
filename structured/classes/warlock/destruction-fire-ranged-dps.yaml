@@ -26,6 +26,8 @@ stat_weights:
   crit: "second (Ruin, Firestone, Devastation, Improved Searing Pain); contested by one pre-live source who argued for pure spell power instead"
   spell_power: "third"
   haste: "unclear/unanswered whether it matters now that Searing Pain's GCD and cast scale with haste since 1.18.1"
+stat_priority: [spell-hit-to-16-percent, crit, spell-power, haste]
+stat_priority_note: "\"You need to get 16% hit chance as fire warlock and on top of that at least 20% crit\" — the 16% is a player restatement of the vanilla level-63 cap, not a staff number. Crit comes next because Ruin, Devastation, the Firestone and Improved Searing Pain all key off it; CONTESTED by Xudo, who argues a pure Soul Fire/Immolate/Conflagrate rotation should go straight to spell power instead. Haste became relevant when 1.18.1 gave Searing Pain a 2 s cast that scales with it; the older \"is haste useless for fire locks\" question predates that and was never answered."
 caps: {}
 rotation_single:
   - {priority: 1, action: "Soul Fire", condition: "Improved Soul Fire buff missing and Soul Fire off cooldown (buff applies on cast since 2024-12-20)"}

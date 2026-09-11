@@ -45,6 +45,8 @@ stat_weights:
   crit: "medium-high, no numeric weight given (gap)"
   haste: "contested — community argues item design overrates it; cat gets only ~20-30% of damage from autoattacks vs ~50% for other melee (single source, unconfirmed)"
   intellect: "contested dump stat on T2.5/T3.5 PvE sets; defended only as a PvP-survivability stat"
+stat_priority: [hit-to-8-percent, strength/agility, crit, haste]
+stat_priority_note: "Melee hit cap is 8%, or 5% with Natural Weapons 3/3; hit above the cap does nothing and cannot reduce dodge or parry, which key off weapon skill. Cat form is permanently stuck at 300 weapon skill, so a feral cannot buy down glancing blows the way other melee can. Strength and Agility are the scaling stats because forms convert weapon-slot items into flat Feral Attack Power. Crit is valued but no source gives it a weight. Haste is CONTESTED and the community considers it overvalued by item designers, since only about 20–30% of feral damage comes from auto-attacks. Intellect on the T2.5/T3.5 sets is contested — useful for PvP shifting, considered wasted stat points in PvE."
 caps:
   hit_cap_melee: "8% (5% effective with Natural Weapons 3/3, +3% hit)"
   weapon_skill_in_form: "fixed at 300 regardless of gear — permanent glancing-blow tax, no known fix"

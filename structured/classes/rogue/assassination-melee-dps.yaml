@@ -56,6 +56,8 @@ stat_weights:
   crit_agility: "high, feeds Seal Fate when specced; poisons themselves do not crit per player reports (unconfirmed by staff)"
   haste: "diminishing returns once under ~1.0s effective dagger speed with Slice and Dice; one player reports negligible gain from an extra 3% haste ring at that point"
   attack_power: "lowest priority per the spec's own guide-writer (\"Attack power is at the bottom of my list\")"
+stat_priority: [fast-daggers-1.3-1.4-speed, hit-to-cap, crit/agility, haste, attack-power]
+stat_priority_note: "\"Assassination isn't your combat swords mentality of piling on the attack power. It is a balance between dagger speed, armor haste and crit. Attack power is at the bottom of my list\" [Shananagans]. Weapon speed leads because Noxious Assault takes a percentage of attack power rather than weapon damage, so swings only matter for poison application, and roughly half the spec's damage is poison. Hit is 4–5% for dungeon content, more for raids. Dagger weapon skill pushes glancing blows down. One post-1.18.1 poster says to \"throw out 1.3 speed mainhands\" — single source, no numbers."
 caps:
   hit_dungeon: "4-5% (single source, non-raid content)"
   crit_seal_fate_threshold: "~40% crit before Seal Fate outperforms Dual Wield Specialization (single player estimate)"

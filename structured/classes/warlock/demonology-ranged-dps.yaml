@@ -26,6 +26,8 @@ stat_weights:
   crit: "high, same reasoning"
   spell_power: "medium (Unleashed Potential converts up to 15%/stack of bonus SP to the demon's AP/SP)"
   stamina: "medium-high (Power Overwhelming costs 40% of the demon's base health; feeds Soul Link)"
+stat_priority: [spell-hit, spell-crit, spell-power, stamina]
+stat_priority_note: "Demonic Precision passes 90% of your spell hit and crit to the demon (CC3), which is why Demonology shares gear with Destruction and why the wiki's priority is \"Hit and Crit\". Spell power then matters twice over: Unleashed Potential converts 15% of your bonus spell damage per stack (up to three) into the demon's attack and spell power. Stamina is wanted for Power Overwhelming, which costs 40% of the demon's base health, and for Soul Link."
 caps: {}
 rotation_single:
   - {priority: 1, action: "Curse (raid assignment)", condition: "opener"}

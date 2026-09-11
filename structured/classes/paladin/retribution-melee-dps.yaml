@@ -79,6 +79,8 @@ stat_weights:
   spell_power: "1 (spell/hybrid build with Seal of Righteousness, Consecration, Exorcism)"
   intellect: "medium (spell build: spell crit, mana)"
   spirit: "0"
+stat_priority: [strength, crit, hit-to-cap, haste]
+stat_priority_note: "The attack-power build's order as excin states it (p=122631). Hit cap for a two-hander is reported as 8% rather than 9% (Bigsmerf p=133826). The alternative spell build reverses this: spell power and Intellect, since Seal of Command and the strikes scale with spell power. Spirit on Retribution tier gear is treated as wasted. The +8 Strength versus +9 spell power enchant question was asked and never answered."
 caps:
   melee_hit: "8% (2H, per Bigsmerf) - 9% per Snadileoboy"
   weapon_skill: "315 recommended"

@@ -1473,67 +1473,68 @@
             ],
             "leveling_order": [
               {
-                "level": null,
+                "level": "~14",
                 "tree": "Fury",
                 "talent": "Cruelty 5/5"
               },
               {
-                "level": null,
+                "level": "~17",
                 "tree": "Arms",
                 "talent": "Tactical Mastery 3/5"
               },
               {
-                "level": null,
+                "level": "~19",
                 "tree": "Arms",
                 "talent": "Improved Rend 2/2"
               },
               {
-                "level": null,
+                "level": "~22",
                 "tree": "Arms",
                 "talent": "Improved Thunder Clap 3/3"
               },
               {
-                "level": null,
+                "level": "~24",
                 "tree": "Arms",
                 "talent": "Deflection 2/5"
               },
               {
-                "level": null,
+                "level": "~26",
                 "tree": "Arms",
                 "talent": "Improved Overpower 2/2"
               },
               {
-                "level": null,
+                "level": "~29",
                 "tree": "Fury",
                 "talent": "Dual Wield Specialization 3"
               },
               {
-                "level": null,
+                "level": "~32",
                 "tree": "Arms",
                 "talent": "Two-Handed Weapon Specialization 3"
               },
               {
-                "level": null,
+                "level": "~33",
                 "tree": "Arms",
                 "talent": "Impale 1/2"
               },
               {
-                "level": null,
+                "level": "~34",
                 "tree": "Arms",
                 "talent": "Master Strike"
               },
               {
-                "level": null,
+                "level": "~35",
                 "tree": "Arms",
                 "talent": "Sweeping Strikes"
               },
               {
-                "level": null,
+                "level": "~40",
                 "tree": "Arms",
                 "talent": "Master of Arms 5/5"
               }
             ],
-            "leveling_order_source": "armsgirl p=157920 (order only; levels not given)",
+            "leveling_order_approximate": true,
+            "leveling_order_source": "armsgirl p=157920 gives the order only; every level is marked ~ because it is arithmetic at one point per level from 10, not something the post states. The route ends at 40 and switches to a 60 build.",
             "links_opaque": [
               "https://talents.turtlecraft.gg/warrior?points=FQADCYDQB-FoAAoAAoRCF-",
               "https://talents.turtlecraft.gg/warrior?points=FQADCYDQ-FoAAoAAoRCFAB-"
@@ -2658,7 +2659,7 @@
           "id": "build-a-2h-arms-default-talent-order-10-60",
           "heading": "Build A — 2H Arms (default), talent order 10–60",
           "level": 2,
-          "markdown": "The only level-by-level route in the sources (CC3 tree, written for 1.18.0; the 1.18.1 changes do not touch these talents except the Boundless Anger/Precision Cut swap, which is a 60 concern): [armsgirl (player), 2025-10-31](https://forum.turtlecraft.gg/viewtopic.php?p=157920#p157920), build link to 40 `https://talents.turtlecraft.gg/warrior?points=DQCDKYDIp-Ao-` (opaque):\n\n| Order | Talent | Points | Reaches at (5 pts/row logic; levels are the reader's arithmetic — the post gives order only) |\n|---|---|---|---|\n| 1 | Cruelty (Fury) | 5/5 | ~level 14 |\n| 2 | Tactical Mastery (Arms) | 3/5 | ~17 |\n| 3 | Improved Rend (Arms) | 2/2 | ~19 |\n| 4 | Improved Thunder Clap (Arms) | 3/3 | ~22 |\n| 5 | Deflection (Arms) | 2/5 | ~24 |\n| 6 | Improved Overpower (Arms) | 2/2 | ~26 |\n| 7 | Dual Wield Specialization (Fury) | 3/3 as written | ~29 |\n| 8 | Two-Handed Weapon Specialization (Arms) | 3/3 as written | ~32 |\n| 9 | Impale (Arms) | 1/2 | ~33 |\n| 10 | Master Strike (Arms) | 1/1 | ~34 |\n| 11 | Sweeping Strikes (Arms) | 1/1 | ~35 |\n| 12 | Master of Arms (Arms) | 5/5 | ~40 |\n\n(The \"3/3\" for Dual Wield Specialization and Two-Handed Weapon Specialization is how the post writes it; the route mixes DW and 2H talents on purpose — \"Then if you want to go 2H you switch\" to a 60 build. Rank maxima are not restated here because the CC2 tree changed several rank counts; check the calculator.) Hctwowfan's tweak to the same build: \"0/5 in improved shouts and instead put those into 2/2 improved slam and 3/3 blood craze\" [Hctwowfan (player), 2025-10-31](https://forum.turtlecraft.gg/viewtopic.php?p=157895#p157895).\n\nOther Arms leveling links (opaque, CC2 era): Yasara's \"classic armsbuild for leveling\" `https://talents.turtlecraft.gg/warrior?points=DQFARYDQpYAABABoAoBYAoAAAAAAAAAAAAAAAAAAAAA%3D` with Overpower and Counterattack ranked up [Yasara (player), 2024-11-16](https://forum.turtlecraft.gg/viewtopic.php?p=108095#p108095) (Counterattack no longer exists — CC3); Czasku's Arms-to-30 `...?points=FQFAQYAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA%3D` [Czasku (player), 2024-11-06](https://forum.turtlecraft.gg/viewtopic.php?p=106723#p106723).\n\nTalent notes: Tactical Mastery is what makes early tanking work — \"You would start Arms if you plan to tank early because it grabs tac mastery and imp tclap. Those two talents will be 90% of your ability to tank for a good while\" [Eyeburn (player), 2025-09-13](https://forum.turtlecraft.gg/viewtopic.php?p=151619#p151619); \"TacMastery lets you do stuff like Charge -> Def stance -> ThunderClap -> Demo Shout\" [Oomentaloo (player), 2025-09-08](https://forum.turtlecraft.gg/viewtopic.php?p=150752#p150752). Axe Specialization at 30 is why the Whirlwind Axe is the pick: \"at lvl 30 you can take Axe Specialization which is additional 5% ... When you're lvl 40 you get Mortal Strike\" [Czasku (player), 2024-09-24](https://forum.turtlecraft.gg/viewtopic.php?p=101834#p101834) — note Master of Arms replaced the per-weapon specializations at CC2, so this is pre-CC2 reasoning; the axe's top-end damage argument still holds (\"the axe has the highest top dmg\" [Hctwowfan (player), 2024-09-24](https://forum.turtlecraft.gg/viewtopic.php?p=101830#p101830); damage ranges per Whirlwind weapon [Atreidon (player), 2024-09-24](https://forum.turtlecraft.gg/viewtopic.php?p=101831#p101831))."
+          "markdown": "The only level-by-level route in the sources (CC3 tree, written for 1.18.0; the 1.18.1 changes do not touch these talents except the Boundless Anger/Precision Cut swap, which is a 60 concern): [armsgirl (player), 2025-10-31](https://forum.turtlecraft.gg/viewtopic.php?p=157920#p157920), build link to 40 `https://talents.turtlecraft.gg/warrior?points=DQCDKYDIp-Ao-` (opaque):\n\n**Every level below is approximate**: the post gives the order only, and the levels are the reader's arithmetic at one point per level from 10.\n\n| Levels | Talent | Note |\n|---|---|---|\n| ~14 | Cruelty (Fury) 5/5 | approximate — order given, level derived |\n| ~17 | Tactical Mastery (Arms) 3/5 | what makes early tanking work |\n| ~19 | Improved Rend (Arms) 2/2 | |\n| ~22 | Improved Thunder Clap (Arms) 3/3 | |\n| ~24 | Deflection (Arms) 2/5 | |\n| ~26 | Improved Overpower (Arms) 2/2 | |\n| ~29 | Dual Wield Specialization (Fury) 3/3 | \"3/3\" is how the post writes it; the route mixes DW and 2H talents on purpose |\n| ~32 | Two-Handed Weapon Specialization (Arms) 3/3 | \"3/3\" is how the post writes it |\n| ~33 | Impale (Arms) 1/2 | |\n| ~34 | Master Strike (Arms) 1/1 | |\n| ~35 | Sweeping Strikes (Arms) 1/1 | |\n| ~40 | Master of Arms (Arms) 5/5 | route ends at 40; switch to a 60 build from here |\n\n(The \"3/3\" for Dual Wield Specialization and Two-Handed Weapon Specialization is how the post writes it; the route mixes DW and 2H talents on purpose — \"Then if you want to go 2H you switch\" to a 60 build. Rank maxima are not restated here because the CC2 tree changed several rank counts; check the calculator.) Hctwowfan's tweak to the same build: \"0/5 in improved shouts and instead put those into 2/2 improved slam and 3/3 blood craze\" [Hctwowfan (player), 2025-10-31](https://forum.turtlecraft.gg/viewtopic.php?p=157895#p157895).\n\nOther Arms leveling links (opaque, CC2 era): Yasara's \"classic armsbuild for leveling\" `https://talents.turtlecraft.gg/warrior?points=DQFARYDQpYAABABoAoBYAoAAAAAAAAAAAAAAAAAAAAA%3D` with Overpower and Counterattack ranked up [Yasara (player), 2024-11-16](https://forum.turtlecraft.gg/viewtopic.php?p=108095#p108095) (Counterattack no longer exists — CC3); Czasku's Arms-to-30 `...?points=FQFAQYAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA%3D` [Czasku (player), 2024-11-06](https://forum.turtlecraft.gg/viewtopic.php?p=106723#p106723).\n\nTalent notes: Tactical Mastery is what makes early tanking work — \"You would start Arms if you plan to tank early because it grabs tac mastery and imp tclap. Those two talents will be 90% of your ability to tank for a good while\" [Eyeburn (player), 2025-09-13](https://forum.turtlecraft.gg/viewtopic.php?p=151619#p151619); \"TacMastery lets you do stuff like Charge -> Def stance -> ThunderClap -> Demo Shout\" [Oomentaloo (player), 2025-09-08](https://forum.turtlecraft.gg/viewtopic.php?p=150752#p150752). Axe Specialization at 30 is why the Whirlwind Axe is the pick: \"at lvl 30 you can take Axe Specialization which is additional 5% ... When you're lvl 40 you get Mortal Strike\" [Czasku (player), 2024-09-24](https://forum.turtlecraft.gg/viewtopic.php?p=101834#p101834) — note Master of Arms replaced the per-weapon specializations at CC2, so this is pre-CC2 reasoning; the axe's top-end damage argument still holds (\"the axe has the highest top dmg\" [Hctwowfan (player), 2024-09-24](https://forum.turtlecraft.gg/viewtopic.php?p=101830#p101830); damage ranges per Whirlwind weapon [Atreidon (player), 2024-09-24](https://forum.turtlecraft.gg/viewtopic.php?p=101831#p101831))."
         },
         {
           "id": "build-b-dw-fury-from-level-10-or-switch-at-40-50",
@@ -4297,6 +4298,13 @@
             "strength": "low / contested (block value -> Holy Shield damage; no other threat scaling)",
             "weapon_speed": "fast one-hander preferred (Seal of Wisdom mana)"
           },
+          "stat_priority": [
+            "spell-power",
+            "block-to-crush-immunity",
+            "defense",
+            "strength"
+          ],
+          "stat_priority_note": "Spell power is the threat stat — all of a paladin tank's aggro is holy damage. Block on gear plus Holy Shield is the staff-intended route to crush immunity. Defense is wanted but the 440 (420 with Anticipation) crit cap is \"often not worth reaching when you consider what you have to sacrifice\". Strength is CONTESTED: called irrelevant to threat by Kerenis (p=153860) and defended by others. \"Adds X damage to melee attacks\" items are valued separately because they trigger Judgement of Wisdom an extra time per swing.",
           "caps": {
             "crit_immunity_defense": "440 (420 with Anticipation 3/3) - single hedged source, vanilla baseline",
             "crush_cap": "Holy Shield 45% block + gear block; exact post-1.18.1 number unknown",
@@ -4731,6 +4739,13 @@
             "haste": "very low (Flash of Light on the GCD)",
             "hit": "0 (heals land on miss)"
           },
+          "stat_priority": [
+            "healing-power",
+            "item-armor-on-plate",
+            "spell-crit",
+            "mp5/spirit"
+          ],
+          "stat_priority_note": "Healing power first (\"a great stat for everyone\"; Holy Strike scales with it too), then flat item armor on plate because Ironclad converts it, then spell crit (it applies Daybreak, procs Illumination and drives Mending Light, but overhealing limits its value), then mp5 and Spirit, which are low. Haste is nearly useless because Flash of Light sits on the global cooldown, and hit is not needed for heals.",
           "caps": {},
           "rotation_single": [
             {
@@ -5286,6 +5301,13 @@
             "intellect": "medium (spell build: spell crit, mana)",
             "spirit": "0"
           },
+          "stat_priority": [
+            "strength",
+            "crit",
+            "hit-to-cap",
+            "haste"
+          ],
+          "stat_priority_note": "The attack-power build's order as excin states it (p=122631). Hit cap for a two-hander is reported as 8% rather than 9% (Bigsmerf p=133826). The alternative spell build reverses this: spell power and Intellect, since Seal of Command and the strikes scale with spell power. Spirit on Retribution tier gear is treated as wasted. The +8 Strength versus +9 spell power enchant question was asked and never answered.",
           "caps": {
             "melee_hit": "8% (2H, per Bigsmerf) - 9% per Snadileoboy",
             "weapon_skill": "315 recommended"
@@ -5598,7 +5620,7 @@
           "id": "talent-orders-guide-pre-1-18-1-single-source",
           "heading": "Talent orders (guide, pre-1.18.1, single source)",
           "level": 2,
-          "markdown": "From [Unchallenged (player), 2022-10-18 (edited 2024-12-04)](https://forum.turtlecraft.gg/viewtopic.php?p=27457#p27457); links: Prot no-dungeon `https://talents.turtlecraft.gg/paladin?points=AAAAAAAAAAAAAAAoYFBYAYBoAgBAAoQoQKAYAAAAAAA%3D`, Prot dungeon `https://talents.turtlecraft.gg/paladin?points=AAAAAAAAAAAAAAAoYFZYAAZoAgBAAoQoQKAAAAAAAAA%3D`, Ret `https://talent-builder.haaxor1689.dev/calculator/custom?t0=_pgv9YDGsH&t1=2uLmYNGgaP&t2=Sg8mfTVwpx&t=0500050001000000000000000000-0050300000000000000000000000-0050005005120020301205000100` (note: a reader points out the Ret link shows old talents — [Notemede (player), 2025-01-15](https://forum.turtlecraft.gg/viewtopic.php?p=116787#p116787)).\n\n| Levels | Protection 0/31/20 (dungeons variant) | Retribution 11/8/31 |\n|---|---|---|\n| 10–14 | Redoubt 5 | Benediction 5 |\n| 15–19 | Precision 3, Toughness 2 | Deflection 5 |\n| 20–24 | Blessing of Sanctuary 1, Shield Specialization 3, Improved Righteous Fury 1 | Pursuit of Justice 2, Conviction 3 |\n| 25–29 | Improved Righteous Fury 2, Toughness 3 | Improved Retribution Aura 2, Conviction 2, Blessing of Kings 1 |\n| 30–34 | Holy Shield 1, Reckoning 4 | Seal of Command 1, Two-Handed Weapon Specialization 3, Vengeance 1 |\n| 35–39 | Reckoning 1, Righteous Strikes 4 | Vengeful Strikes (\"Crusading Strikes\") 5 |\n| 40–44 | Bulwark of the Righteous 1, Benediction 4 | Repentance 1, Redoubt 4 |\n| 45–49 | Benediction 1, Deflection 4 | Redoubt 1, Precision 3, Divine Strength 1 |\n| 50–54 | Deflection 1, Pursuit of Justice 2, Improved Retribution Aura 2 | Divine Strength 4, Spiritual Focus 1 |\n| 55–60 | Blessing of Kings 1, then raid: Improved Hand of Reckoning 2 + Righteous Defense 3, or Improved Judgement 2 + Vindication 3 | Spiritual Focus 1, Holy Judgement 3; 59–60 free: Sanctity Aura / Improved Judgement / Improved Lay on Hands / more Vengeance |\n\nThe no-dungeon Prot variant replaces Improved Righteous Fury with Toughness/Reckoning and ends with Vindication 3 + Improved Judgement 2 (\"More Armor, NO RF Threat, More Stuns, No Taunt\"). Other levelling orders: Aalena's Ret at 30 `https://talents.turtlecraft.gg/paladin?points=--FoAAVCIAAI` and 50 `https://talents.turtlecraft.gg/paladin?points=F--FoAAVCYYFIF` with \"Sanctity is -not- worth it until 60. Improved Retribution Aura helps you deal more damage overall\" — [Aalena (player), 2025-08-20](https://forum.turtlecraft.gg/viewtopic.php?p=147231#p147231). Getplucked's 2023 Prot levelling links (20: `0-5IC1`, 40: `0-5IDL0J-5CI`) are for the pre-CC2 tree and \"doesn't work anymore\" — [Istavan (player), 2025-01-08](https://forum.turtlecraft.gg/viewtopic.php?p=115937#p115937). Older Holy-first advice (\"Go holy until consecration, then go prot until 3/3 shield specialisation\" — [Pfwg (player), 2022-03-17](https://forum.turtlecraft.gg/viewtopic.php?p=17557#p17557)) predates Consecration going baseline and is obsolete.\n\nIs the 1.18.1 tree different? Talent positions are unchanged; Righteous Strikes changed effect (Zealous Defence), Crusader Strike rank 5 100% WD, Holy Strike ranks reworked (see below). No source has posted a post-1.18.1 levelling order."
+          "markdown": "From [Unchallenged (player), 2022-10-18 (edited 2024-12-04)](https://forum.turtlecraft.gg/viewtopic.php?p=27457#p27457); links: Prot no-dungeon `https://talents.turtlecraft.gg/paladin?points=AAAAAAAAAAAAAAAoYFBYAYBoAgBAAoQoQKAYAAAAAAA%3D`, Prot dungeon `https://talents.turtlecraft.gg/paladin?points=AAAAAAAAAAAAAAAoYFZYAAZoAgBAAoQoQKAAAAAAAAA%3D`, Ret `https://talent-builder.haaxor1689.dev/calculator/custom?t0=_pgv9YDGsH&t1=2uLmYNGgaP&t2=Sg8mfTVwpx&t=0500050001000000000000000000-0050300000000000000000000000-0050005005120020301205000100` (note: a reader points out the Ret link shows old talents — [Notemede (player), 2025-01-15](https://forum.turtlecraft.gg/viewtopic.php?p=116787#p116787)).\n\nThe guide spends points in five-level brackets and does not assign a single level to a single talent, so each row below carries the bracket the guide gives; the row order is the order the guide lists.\n\n#### Protection 0/31/20 (dungeons variant)\n\n| Levels | Talent | Note |\n|---|---|---|\n| 10–14 | Redoubt 5 | |\n| 15–19 | Precision 3 | |\n| 15–19 | Toughness 2 | |\n| 20–24 | Blessing of Sanctuary 1 | |\n| 20–24 | Shield Specialization 3 | |\n| 20–24 | Improved Righteous Fury 1 | |\n| 25–29 | Improved Righteous Fury 2 | |\n| 25–29 | Toughness 3 | |\n| 30–34 | Holy Shield 1 | the talent most players respec into Protection for |\n| 30–34 | Reckoning 4 | |\n| 35–39 | Reckoning 1 | |\n| 35–39 | Righteous Strikes 4 | became Zealous Defence in 1.18.1 |\n| 40–44 | Bulwark of the Righteous 1 | |\n| 40–44 | Benediction 4 | |\n| 45–49 | Benediction 1 | |\n| 45–49 | Deflection 4 | |\n| 50–54 | Deflection 1 | |\n| 50–54 | Pursuit of Justice 2 | |\n| 50–54 | Improved Retribution Aura 2 | |\n| 55–60 | Blessing of Kings 1 | |\n| 55–60 | Improved Hand of Reckoning 2 + Righteous Defense 3, **or** Improved Judgement 2 + Vindication 3 | the guide's raid-facing choice for the last points |\n\n#### Retribution 11/8/31\n\n| Levels | Talent | Note |\n|---|---|---|\n| 10–14 | Benediction 5 | |\n| 15–19 | Deflection 5 | |\n| 20–24 | Pursuit of Justice 2 | |\n| 20–24 | Conviction 3 | |\n| 25–29 | Improved Retribution Aura 2 | |\n| 25–29 | Conviction 2 | |\n| 25–29 | Blessing of Kings 1 | |\n| 30–34 | Seal of Command 1 | rank 1 only, to conserve mana; for weapons 3.5 speed or slower |\n| 30–34 | Two-Handed Weapon Specialization 3 | |\n| 30–34 | Vengeance 1 | |\n| 35–39 | Vengeful Strikes (\"Crusading Strikes\") 5 | |\n| 40–44 | Repentance 1 | |\n| 40–44 | Redoubt 4 | |\n| 45–49 | Redoubt 1 | |\n| 45–49 | Precision 3 | |\n| 45–49 | Divine Strength 1 | |\n| 50–54 | Divine Strength 4 | |\n| 50–54 | Spiritual Focus 1 | |\n| 55–60 | Spiritual Focus 1 | |\n| 55–60 | Holy Judgement 3 | |\n| 59–60 | Free points: Sanctity Aura / Improved Judgement / Improved Lay on Hands / more Vengeance | the guide leaves the last two points open |\n\nThe no-dungeon Prot variant replaces Improved Righteous Fury with Toughness/Reckoning and ends with Vindication 3 + Improved Judgement 2 (\"More Armor, NO RF Threat, More Stuns, No Taunt\"). Other levelling orders: Aalena's Ret at 30 `https://talents.turtlecraft.gg/paladin?points=--FoAAVCIAAI` and 50 `https://talents.turtlecraft.gg/paladin?points=F--FoAAVCYYFIF` with \"Sanctity is -not- worth it until 60. Improved Retribution Aura helps you deal more damage overall\" — [Aalena (player), 2025-08-20](https://forum.turtlecraft.gg/viewtopic.php?p=147231#p147231). Getplucked's 2023 Prot levelling links (20: `0-5IC1`, 40: `0-5IDL0J-5CI`) are for the pre-CC2 tree and \"doesn't work anymore\" — [Istavan (player), 2025-01-08](https://forum.turtlecraft.gg/viewtopic.php?p=115937#p115937). Older Holy-first advice (\"Go holy until consecration, then go prot until 3/3 shield specialisation\" — [Pfwg (player), 2022-03-17](https://forum.turtlecraft.gg/viewtopic.php?p=17557#p17557)) predates Consecration going baseline and is obsolete.\n\nIs the 1.18.1 tree different? Talent positions are unchanged; Righteous Strikes changed effect (Zealous Defence), Crusader Strike rank 5 100% WD, Holy Strike ranks reworked (see below). No source has posted a post-1.18.1 levelling order."
         },
         {
           "id": "skill-training-priority-guide-staff-rank-tables",
@@ -8678,6 +8700,13 @@
             "weapon": "2H preferred pre-CC3 ('by far the better choice'); after CC3, Mongoose Bite hits with both weapons and dual-wield is 'almost on par with a 2H-er'; 1.18.1 adds a DW hit bonus - contested which is better now",
             "spell_power": "niche - helps Stinging Nettle-applied stings/chili only, not traps"
           },
+          "stat_priority": [
+            "agility",
+            "melee-attack-power",
+            "hit",
+            "strength"
+          ],
+          "stat_priority_note": "Agility first because Lightning Reflexes converts 100% of agility into melee attack power on top of the baseline; melee AP also scales the fire traps through Untamed Trapper. Hit matters but the exact 2H and dual-wield melee caps on Turtle are not stated by any Turtle source (the tree gives Surefooted 3%, +3% more for dual wield since 1.18.1).",
           "caps": {},
           "rotation_single": [
             {
@@ -9167,7 +9196,104 @@
                 "spell_id": null
               }
             ],
-            "leveling_order": []
+            "leveling_order": [
+              {
+                "level": "10–14",
+                "tree": "Beast Mastery",
+                "talent": "Endurance Training 5",
+                "note": "contested: several posters take Swift Aspects first, or split between the two"
+              },
+              {
+                "level": "15–17",
+                "tree": "Beast Mastery",
+                "talent": "Thick Hide 3"
+              },
+              {
+                "level": "18–19",
+                "tree": "Beast Mastery",
+                "talent": "Improved Revive Pet 2"
+              },
+              {
+                "level": "20",
+                "tree": "Beast Mastery",
+                "talent": "Bestial Swiftness 1",
+                "note": "removed in CC3 — take Pathfinding 2 or Coordinated Assault 1 instead"
+              },
+              {
+                "level": "21–25",
+                "tree": "Beast Mastery",
+                "talent": "Unleashed Fury 5"
+              },
+              {
+                "level": "26–30",
+                "tree": "Beast Mastery",
+                "talent": "Ferocity 5",
+                "note": "take 1/2 Improved Mend Pet as soon as it is available"
+              },
+              {
+                "level": "31",
+                "tree": "Beast Mastery",
+                "talent": "Intimidation 1",
+                "note": "pseudo-taunt; hands a second mob to the pet"
+              },
+              {
+                "level": "32–33",
+                "tree": "Beast Mastery",
+                "talent": "Bestial Precision 2"
+              },
+              {
+                "level": "34",
+                "tree": "Beast Mastery",
+                "talent": "Bestial Discipline 1",
+                "note": "one point can move to Improved Mend Pet"
+              },
+              {
+                "level": "35–39",
+                "tree": "Beast Mastery",
+                "talent": "Frenzy 5",
+                "note": "2–4 points is enough with a fast pet"
+              },
+              {
+                "level": "40",
+                "tree": "Beast Mastery",
+                "talent": "Bestial Wrath 1",
+                "note": "removed in CC3, back in 1.18.1 at row 5"
+              },
+              {
+                "level": "41–45",
+                "tree": "Marksmanship",
+                "talent": "Efficiency 5",
+                "note": "Steakhouse skips it for leveling — \"Just drink more\""
+              },
+              {
+                "level": "46–50",
+                "tree": "Marksmanship",
+                "talent": "Lethal Shots 5"
+              },
+              {
+                "level": "51",
+                "tree": "Marksmanship",
+                "talent": "Steady Shot",
+                "note": "baseline at 20 since 1.18.1, so this point is free after that patch"
+              },
+              {
+                "level": "52–56",
+                "tree": "Beast Mastery",
+                "talent": "Swift Aspects 5",
+                "note": "or earlier, per Ataika"
+              },
+              {
+                "level": "57–58",
+                "tree": "Beast Mastery",
+                "talent": "Spirit Bond 2"
+              },
+              {
+                "level": "59–60",
+                "tree": "Beast Mastery",
+                "talent": "Improved Mend Pet 2"
+              }
+            ],
+            "leveling_order_source": "The CC2-tree order in synthesis/classes/hunter/leveling.md (most detailed BM source); talent names and rows changed at CC3 and 1.18.1 where the notes say so."
           },
           "stat_weights": {
             "ranged_attack_power": "top priority - feeds the pet through Spirit Bond; item RAP-for-crit trades 'improve the hunter's personal DPS but do almost nothing for the pet' [Skurridizo]",
@@ -9176,6 +9302,13 @@
             "haste": "same as MM",
             "pet_damage_items": "T0.5 Beastmaster's set + AQ20 Hunter's set + Breastplate of Beast Mastery + Ferra's Collar totalled '13% damage, 4% additional crit and 50 attack power' for the pet per Arcanex Ota, but 'an item giving +9 agility is already better than that pet-damage bonus' once past BWL per Skurridizo"
           },
+          "stat_priority": [
+            "hit-to-cap",
+            "ranged-attack-power",
+            "crit",
+            "haste"
+          ],
+          "stat_priority_note": "Same ranged stats as Marksmanship, but ranged attack power ranks above crit because RAP is what feeds the pet through Spirit Bond: Naxx/Kara40 items that trade AP for crit 'improve the hunter's personal DPS but do almost nothing for the pet' [Skurridizo p=170469]. Post-1.18.1 hunter crit still matters because Kill Command needs a hunter crit. Pet-damage set bonuses lose to +9 agility past BWL.",
           "caps": {},
           "rotation_single": [
             {
@@ -9642,6 +9775,13 @@
             "spell_power": "irrelevant for MM pre-1.18.1 (raising SP loses RAP); T2.5 spell power dead weight",
             "intellect_spirit_mp5": "matters on long fights but MM rarely goes OOM with Efficiency talented; post-1.18.1 Aspect of the Viper replaces drinking between pulls"
           },
+          "stat_priority": [
+            "hit-to-cap",
+            "haste",
+            "crit",
+            "attack-power/agility"
+          ],
+          "stat_priority_note": "Order as the playbook's sourced bullets run: hit to the cap your weapon skill implies (9% at 300 skill, 6% at 305 with racial +5 bows/guns), then haste — the Turtle-specific stat, ~0.9% damage per 1% with no diminishing returns — then crit, then attack power and agility. Armor penetration ('generally weak') and spell power (dead weight for MM) are explicitly not stats to gear for. Whether AP enchants or haste win is contested and gear-dependent.",
           "caps": {
             "melee_range_hit": "9% at 300 weapon skill (vanilla-baseline math; Turtle's exact linearized weapon-skill table is not published by staff)"
           },
@@ -10067,6 +10207,11 @@
             "weapon_skill": "'has no impact for pvp' [amanagor]",
             "armor_penetration": "none available - plate/leather-druid targets are 'nearly hopeless'"
           },
+          "stat_priority": [
+            "stamina",
+            "hit"
+          ],
+          "stat_priority_note": "The only stats the PvP sources rank: stamina and hit matter more than in PvE, weapon skill 'has no impact for pvp' [amanagor p=137000], and the class has no armor penetration answer to plate. No fuller PvP order exists in the corpus.",
           "caps": {},
           "rotation_single": [
             {
@@ -10150,7 +10295,7 @@
           "id": "bm-talent-order-10-60",
           "heading": "BM talent order 10 → 60",
           "level": 2,
-          "markdown": "### Written on the CC2 tree (Nov 2024 – Aug 2025) — most detailed source\n\nProposed order [Rukie (player), 2025-01-07](https://forum.turtlecraft.gg/viewtopic.php?p=115782#p115782) with the corrections the thread made:\n\n| Levels | Talent | Correction / note |\n|---|---|---|\n| 10–14 | Endurance Training 5 | **Swap with Swift Aspects**: \"the are no reasons to pick endurance training over swift aspects, you are trading killing speed for what ? additional hp your pet does not need\" [Ataika (player), 2025-01-07](https://forum.turtlecraft.gg/viewtopic.php?p=115799#p115799); \"Just use both, tier two provides nothing so useful\" [Noyland1 (player), 2024-11-15](https://forum.turtlecraft.gg/viewtopic.php?p=108059#p108059); Endurance first if you want to solo elites early [Rinarch (player), 2024-11-19](https://forum.turtlecraft.gg/viewtopic.php?p=108602#p108602) — contested |\n| 15–17 | Thick Hide 3 | |\n| 18–19 | Improved Revive Pet 2 | Steakhouse: in-combat revive after a Concussive Shot / Scare Beast / trap |\n| 20 | Bestial Swiftness 1 | \"a no-brainer at 1 point\" (pet haste, pet speed, +6% Cheetah/Pack) [Bob022 (player), 2024-11-19](https://forum.turtlecraft.gg/viewtopic.php?p=108662#p108662); removed in CC3 → take **Pathfinding** 2 or **Coordinated Assault** 1 instead |\n| 21–25 | Unleashed Fury 5 | |\n| 26–30 | Ferocity 5 | take 1/2 Improved Mend Pet \"as soon as it's available because you'll run into plenty of nasty shifts ... silithid pox\" [Hctwowfan (player), 2025-01-07](https://forum.turtlecraft.gg/viewtopic.php?p=115787#p115787); Bob022: Mend Pet cure > Bestial Discipline for leveling |\n| 31 | Intimidation 1 | pseudo-taunt/stun; \"Send pet with intimidation on a baddie, and after one growl, send it to another\" (Steakhouse) |\n| 32–33 | Bestial Precision 2 | |\n| 34 | Bestial Discipline 1 | Yasara: can move 1 point to Improved Mend Pet |\n| 35–39 | Frenzy 5 | 3–4 is enough: \"drop a point out of Frenzy (to 4/5) and it's alright\" (Bob022); \"2-3 points into Frenzy is generally enough\" (SvenS2, 2026) |\n| 40 | Bestial Wrath 1 | (removed CC3, back in 1.18.1 at row 5) |\n| 41–45 | Efficiency 5 (MM) | Steakhouse: skip for leveling, \"Just drink more\" |\n| 46–50 | Lethal Shots 5 (MM) | |\n| 51 | Steady Shot (MM) | \"the big choice for a leveling Beast Mastery hunter will amount to when he wants to go 11 into Marksman for Steady Shot\" (Bob022) — **baseline at 20 since 1.18.1** |\n| 52–56 | Swift Aspects 5 | (or earlier per Ataika) |\n| 57–58 | Spirit Bond 2 | |\n| 59–60 | Improved Mend Pet 2 | |\n\nTroll: add Improved Slaying 3/3 (SV row 1) first (Hctwowfan). Opaque links: first 41 points `https://talents.turtlecraft.gg/hunter?points=FAAaBoAoRBAoBAAoAoAAAAAAAAAAAAAAAAAAAAAAAAA%3D` [Yasara (player), 2024-11-17](https://forum.turtlecraft.gg/viewtopic.php?p=108359#p108359) (boar with Charge, Growl and Bite on autocast); Rinarch's mid-level `...?points=AoAaBoBoRAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA%3D`, end-of-leveling `...?points=FoAaRoBoRAQoBAAoAoABAAAAAAAAAAAAAAAAAAAAAAA%3D` and early-raid `...?points=FoAARoAoRCQgBAAoAoABAAAAAAAAYQAAAAAAAAAAAAA%3D` [Rinarch, 2024-11-19](https://forum.turtlecraft.gg/viewtopic.php?p=108602#p108602); SvenS2 leveling `...?points=BoAaRoCoRCQgBAAoAoQBAAAAAAAAAAAAAAAAAAAAAAA=` or `...?points=AoAaRoCoRCQgBAAAAAAAAAAAAAAAYQCYCJAAAAAAAAA=` and cap `...?points=FQAYBoAoQCQQAAAoCoQBAoACAAAAAAAAAAAAAAAAAAA=` [SvenS2, 2025-05-16](https://forum.turtlecraft.gg/viewtopic.php?p=131377#p131377).\n\n### CC3 tree (Aug 2025 – Mar 2026)\nLeveling `https://talents.turtlecraft.gg/hunter?points=AoAaRoSoJCQgB-AoAoQB-`, endgame BM `...?points=FYAQBoQoBCQQB-AoCoQBAo-` [SvenS2, 2025-08-30](https://forum.turtlecraft.gg/viewtopic.php?p=149392#p149392). Melee-leaning: BM first \"so your pet is tanky\", then Survival; endgame `...?points=FoAABo--YQCYDJTAbIQoB` [SvenS2, 2025-08-18](https://forum.turtlecraft.gg/viewtopic.php?p=146760#p146760).\n\n### 1.18.1 tree (from 2026-03-20)\nDrafts `...?points=FQAYAoAoZBCYB-AoAoJDAo-` (BM/MM Mortal Shots), `...?points=FQAYAoBoZBCoB-AoAoJDQ-` (BM/MM Endless Quiver), `...?points=FoAYBoCoZBSoB-AoAo-` (pure BM) [Sylvestro1 (player), 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171462#p171462); replies: pure BM, Pathfinding + Bestial Discipline over Lethal Shots (\"The more damage your pet does the harder it'll lose aggro ... Pathfinding is good if you don't have a pet with dash or charge, and switching to aspect of the cheetah is more optimal for going from mob to mob than mounting\") [SvenS2, 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171464#p171464); Bestial Discipline \"pretty much mandatory\" with a scorpid; Lethal Shots regains value because Kill Command needs a hunter crit [Gorlocktheglock (player), 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171478#p171478), [SvenS2, 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171480#p171480). Is Aimed Shot (MM keystone) worth it for leveling? Asked, not answered — **gap**."
+          "markdown": "### Written on the CC2 tree (Nov 2024 – Aug 2025) — most detailed source\n\nProposed order [Rukie (player), 2025-01-07](https://forum.turtlecraft.gg/viewtopic.php?p=115782#p115782) with the corrections the thread made:\n\n| Levels | Talent | Note |\n|---|---|---|\n| 10–14 | Endurance Training 5 | **Swap with Swift Aspects**: \"the are no reasons to pick endurance training over swift aspects, you are trading killing speed for what ? additional hp your pet does not need\" [Ataika (player), 2025-01-07](https://forum.turtlecraft.gg/viewtopic.php?p=115799#p115799); \"Just use both, tier two provides nothing so useful\" [Noyland1 (player), 2024-11-15](https://forum.turtlecraft.gg/viewtopic.php?p=108059#p108059); Endurance first if you want to solo elites early [Rinarch (player), 2024-11-19](https://forum.turtlecraft.gg/viewtopic.php?p=108602#p108602) — contested |\n| 15–17 | Thick Hide 3 | |\n| 18–19 | Improved Revive Pet 2 | Steakhouse: in-combat revive after a Concussive Shot / Scare Beast / trap |\n| 20 | Bestial Swiftness 1 | \"a no-brainer at 1 point\" (pet haste, pet speed, +6% Cheetah/Pack) [Bob022 (player), 2024-11-19](https://forum.turtlecraft.gg/viewtopic.php?p=108662#p108662); removed in CC3 → take **Pathfinding** 2 or **Coordinated Assault** 1 instead |\n| 21–25 | Unleashed Fury 5 | |\n| 26–30 | Ferocity 5 | take 1/2 Improved Mend Pet \"as soon as it's available because you'll run into plenty of nasty shifts ... silithid pox\" [Hctwowfan (player), 2025-01-07](https://forum.turtlecraft.gg/viewtopic.php?p=115787#p115787); Bob022: Mend Pet cure > Bestial Discipline for leveling |\n| 31 | Intimidation 1 | pseudo-taunt/stun; \"Send pet with intimidation on a baddie, and after one growl, send it to another\" (Steakhouse) |\n| 32–33 | Bestial Precision 2 | |\n| 34 | Bestial Discipline 1 | Yasara: can move 1 point to Improved Mend Pet |\n| 35–39 | Frenzy 5 | 3–4 is enough: \"drop a point out of Frenzy (to 4/5) and it's alright\" (Bob022); \"2-3 points into Frenzy is generally enough\" (SvenS2, 2026) |\n| 40 | Bestial Wrath 1 | (removed CC3, back in 1.18.1 at row 5) |\n| 41–45 | Efficiency 5 (MM) | Steakhouse: skip for leveling, \"Just drink more\" |\n| 46–50 | Lethal Shots 5 (MM) | |\n| 51 | Steady Shot (MM) | \"the big choice for a leveling Beast Mastery hunter will amount to when he wants to go 11 into Marksman for Steady Shot\" (Bob022) — **baseline at 20 since 1.18.1** |\n| 52–56 | Swift Aspects 5 | (or earlier per Ataika) |\n| 57–58 | Spirit Bond 2 | |\n| 59–60 | Improved Mend Pet 2 | |\n\nTroll: add Improved Slaying 3/3 (SV row 1) first (Hctwowfan). Opaque links: first 41 points `https://talents.turtlecraft.gg/hunter?points=FAAaBoAoRBAoBAAoAoAAAAAAAAAAAAAAAAAAAAAAAAA%3D` [Yasara (player), 2024-11-17](https://forum.turtlecraft.gg/viewtopic.php?p=108359#p108359) (boar with Charge, Growl and Bite on autocast); Rinarch's mid-level `...?points=AoAaBoBoRAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA%3D`, end-of-leveling `...?points=FoAaRoBoRAQoBAAoAoABAAAAAAAAAAAAAAAAAAAAAAA%3D` and early-raid `...?points=FoAARoAoRCQgBAAoAoABAAAAAAAAYQAAAAAAAAAAAAA%3D` [Rinarch, 2024-11-19](https://forum.turtlecraft.gg/viewtopic.php?p=108602#p108602); SvenS2 leveling `...?points=BoAaRoCoRCQgBAAoAoQBAAAAAAAAAAAAAAAAAAAAAAA=` or `...?points=AoAaRoCoRCQgBAAAAAAAAAAAAAAAYQCYCJAAAAAAAAA=` and cap `...?points=FQAYBoAoQCQQAAAoCoQBAoACAAAAAAAAAAAAAAAAAAA=` [SvenS2, 2025-05-16](https://forum.turtlecraft.gg/viewtopic.php?p=131377#p131377).\n\n### CC3 tree (Aug 2025 – Mar 2026)\nLeveling `https://talents.turtlecraft.gg/hunter?points=AoAaRoSoJCQgB-AoAoQB-`, endgame BM `...?points=FYAQBoQoBCQQB-AoCoQBAo-` [SvenS2, 2025-08-30](https://forum.turtlecraft.gg/viewtopic.php?p=149392#p149392). Melee-leaning: BM first \"so your pet is tanky\", then Survival; endgame `...?points=FoAABo--YQCYDJTAbIQoB` [SvenS2, 2025-08-18](https://forum.turtlecraft.gg/viewtopic.php?p=146760#p146760).\n\n### 1.18.1 tree (from 2026-03-20)\nDrafts `...?points=FQAYAoAoZBCYB-AoAoJDAo-` (BM/MM Mortal Shots), `...?points=FQAYAoBoZBCoB-AoAoJDQ-` (BM/MM Endless Quiver), `...?points=FoAYBoCoZBSoB-AoAo-` (pure BM) [Sylvestro1 (player), 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171462#p171462); replies: pure BM, Pathfinding + Bestial Discipline over Lethal Shots (\"The more damage your pet does the harder it'll lose aggro ... Pathfinding is good if you don't have a pet with dash or charge, and switching to aspect of the cheetah is more optimal for going from mob to mob than mounting\") [SvenS2, 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171464#p171464); Bestial Discipline \"pretty much mandatory\" with a scorpid; Lethal Shots regains value because Kill Command needs a hunter crit [Gorlocktheglock (player), 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171478#p171478), [SvenS2, 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171480#p171480). Is Aimed Shot (MM keystone) worth it for leveling? Asked, not answered — **gap**."
         },
         {
           "id": "survival-melee-talent-orders",
@@ -12256,6 +12401,13 @@
             "threat_stats": "hit, agility, weapon skill (drives poison procs for Agitating Poison threat)",
             "resistance": "situational, for caster-capable targets"
           },
+          "stat_priority": [
+            "avoidance-dodge-parry-defense",
+            "stamina",
+            "threat-stats-hit-agility-weapon-skill",
+            "resistances"
+          ],
+          "stat_priority_note": "The practitioners' order: avoidance first — the claim is that a geared rogue tank passes the 102% avoidance requirement to avoid crushing blows — then stamina, then the threat stats (hit, agility, and weapon skill for poison procs), then resistances for caster bosses. The avoidance numbers are player theorycraft from 2022–2023 and predate 1.17.0's Flourish.",
           "caps": {
             "avoidance_target": "~102% avoidance with Evasion up to avoid crushing blows (vanilla-baseline tanking convention, not a staff number); one theorycraft post estimated 70% avoidance at mediocre gear with Flourish talented, 85-90% at good gear",
             "agitating_poison_level": "60 (baseline poison, no lower ranks -- a frequently repeated player complaint)"
@@ -12695,6 +12847,14 @@
             "haste": "diminishing returns once under ~1.0s effective dagger speed with Slice and Dice; one player reports negligible gain from an extra 3% haste ring at that point",
             "attack_power": "lowest priority per the spec's own guide-writer (\"Attack power is at the bottom of my list\")"
           },
+          "stat_priority": [
+            "fast-daggers-1.3-1.4-speed",
+            "hit-to-cap",
+            "crit/agility",
+            "haste",
+            "attack-power"
+          ],
+          "stat_priority_note": "\"Assassination isn't your combat swords mentality of piling on the attack power. It is a balance between dagger speed, armor haste and crit. Attack power is at the bottom of my list\" [Shananagans]. Weapon speed leads because Noxious Assault takes a percentage of attack power rather than weapon damage, so swings only matter for poison application, and roughly half the spec's damage is poison. Hit is 4–5% for dungeon content, more for raids. Dagger weapon skill pushes glancing blows down. One post-1.18.1 poster says to \"throw out 1.3 speed mainhands\" — single source, no numbers.",
           "caps": {
             "hit_dungeon": "4-5% (single source, non-raid content)",
             "crit_seal_fate_threshold": "~40% crit before Seal Fate outperforms Dual Wield Specialization (single player estimate)"
@@ -13132,6 +13292,14 @@
             "haste": "low; 'equal crit outperforms equal haste' per one poster since haste only affects auto-hits and neither energy regen nor special-attack damage is haste-scaled pre-Blade-Rush",
             "armor_penetration": "very low; \"ARP is a wild card stat that doesn't even do anything in many cases\""
           },
+          "stat_priority": [
+            "hit-to-9-percent",
+            "weapon-skill",
+            "agility",
+            "crit",
+            "attack-power"
+          ],
+          "stat_priority_note": "Hit first to the 9% special-attack cap (lower with racial or item weapon skill — 305 skill makes 9% easy to reach, 308 is called the optimum). Weapon skill also pushes misses and glancing blows off the hit table. Agility now drives energy regeneration through Blade Rush as well, measured at roughly 0.1 s off the tick per 100 agility. Watch the crit cap: past it, crit and agility lose value and hit becomes the premium stat again.",
           "caps": {
             "hit_special_attacks": "9% (vanilla baseline, not a Turtle-confirmed number)",
             "weapon_skill_optimum": "308 (one player's claim, unverified) or 315 (Shananagans' claim, unverified)"
@@ -13509,7 +13677,68 @@
                 "spell_id": null
               }
             ],
-            "leveling_order": []
+            "leveling_order": [
+              {
+                "level": "10–11",
+                "tree": "Assassination",
+                "talent": "Remorseless Attacks 2/2",
+                "note": "40% crit on the next Ambush/Backstab/Sinister Strike after you land a kill"
+              },
+              {
+                "level": "12–16",
+                "tree": "Subtlety",
+                "talent": "Camouflage 5/5",
+                "note": "faster in stealth, shorter Stealth cooldown, harder to detect"
+              },
+              {
+                "level": "17–19",
+                "tree": "Subtlety",
+                "talent": "Improved Ambush 3/3"
+              },
+              {
+                "level": "20–24",
+                "tree": "Combat",
+                "talent": "Opportunity 5/5",
+                "note": "moved to Combat row 1 in 1.18.0; 1.18.1 cut the top value from 20% to 15%"
+              },
+              {
+                "level": "25–27",
+                "tree": "Combat",
+                "talent": "Improved Backstab 3/3"
+              },
+              {
+                "level": "28–32",
+                "tree": "Assassination",
+                "talent": "Malice 5/5"
+              },
+              {
+                "level": "33–35",
+                "tree": "Assassination",
+                "talent": "Ruthlessness 3/3"
+              },
+              {
+                "level": "36–40",
+                "tree": "Assassination",
+                "talent": "Lethality 5/5"
+              },
+              {
+                "level": "41",
+                "tree": "Assassination",
+                "talent": "Relentless Strikes 1/1"
+              },
+              {
+                "level": "42–44",
+                "tree": "Assassination",
+                "talent": "Vile Poisons 3/3"
+              },
+              {
+                "level": "58",
+                "tree": null,
+                "talent": "Respec point — commit to the level-60 build",
+                "note": "\"At level 58, you should re-spec. What you re-spec to is totally up to you\""
+              }
+            ],
+            "leveling_order_source": "Shananagans' Ambush/Backstab leveling line (p=148075, reposted unchanged at p=149395 and p=161802). Many rogues instead respec to Assassination at 40 for Noxious Assault — see assassination-melee-dps.yaml and synthesis/classes/rogue/leveling.md."
           },
           "stat_weights": {
             "hit": "top priority (a missed Hemorrhage or finisher drops the Tricks of the Trade stack chain)",
@@ -14148,7 +14377,7 @@
           "id": "talent-orders-10-60",
           "heading": "Talent orders (10–60)",
           "level": 2,
-          "markdown": "No single post gives every point from 10 to 60; the table below is the union of the two most detailed, mutually consistent guide posts. All levels/points are as literally stated by the sources; use with the talent calculator (`talents.turtlecraft.gg/rogue`) to confirm current prerequisites.\n\n### Ambush/Backstab main line, 10–58 [Shananagans (guide writer), 2025-08-24](https://forum.turtlecraft.gg/viewtopic.php?p=148075#p148075) / [2025-08-30](https://forum.turtlecraft.gg/viewtopic.php?p=149395#p149395) / [2025-12-06](https://forum.turtlecraft.gg/viewtopic.php?p=161802#p161802) (posted and reposted unchanged from Aug 2025 to Dec 2025, i.e. still current as of the 1.18.1 announcement window)\n\n| Level | Tree | Talent | Points | Why (source) |\n|---|---|---|---|---|\n| 10–11 | Assassination | Remorseless Attacks | 2/2 | \"after killing a mob, 40% increase in crit to ambush, backstab or sinister strike ... Huge!\" — procs only if **your** rogue lands the kill [Atreidon (player), 2025-08-13](https://forum.turtlecraft.gg/viewtopic.php?p=145008#p145008) |\n| 12–16 | Subtlety | Camouflage | 5/5 | \"get back in stealth in 5 seconds and increased movement speed while in stealth ... a lot of bang for your buck in twow, since it: increase speed while stealth, reduces stealth cd, reduces chance to be detected\" [Zulnam (player), 2025-03-26](https://forum.turtlecraft.gg/viewtopic.php?p=123873#p123873) |\n| 17–19 | Subtlety | Improved Ambush | 3/3 | 45% increase to crit for Ambush |\n| 20–24 | Combat | Opportunity | 5/5 | +crit damage to Ambush/Backstab (moved to Combat row 1 in the 1.18.0 revision; 1.18.1 reduced the top value from 20% to 15%, still worth taking) |\n| 25–27 | Combat | Improved Backstab | 3/3 | 30% crit chance + 45% chance of an extra combo point on Backstab |\n| 28–32 | Assassination | Malice | 5/5 | flat +5% crit |\n| 33–35 | Assassination | Ruthlessness | 3/3 | 100% chance for a bonus combo point on finishers |\n| 36–40 | Assassination | Lethality | 5/5 | crit damage on combo generators, \"includes Noxious Assault since 1.18.0\" (staff) |\n| 41 | Assassination | Relentless Strikes | 1/1 | 20% chance per combo point to return 20 energy |\n| 42–44 | Assassination | Vile Poisons | 3/3 | \"Increases poison damage by 30%\" |\n| **58** | — | **respec point** | — | \"At level 58, you should re-spec. What you re-spec to is totally up to you\" |\n\n### Continuation for players who stay Ambush/Backstab past 44 instead of respeccing to Assassination at 40 [Shananagans, 2025-08-30 / 2025-12-06]\n\n| Level | Tree | Talent | Points |\n|---|---|---|---|\n| 45–47 | Assassination | Improved Poisons | 3/3 |\n| 48 | Assassination | Envenom | 1/1 |\n| 49–51 | Assassination | Efficient Poisons | 3/3 |\n| 52–53 | Assassination | Vigor | 2/2 |\n| 54–58 | Assassination | Seal Fate | 5/5 |\n\nBy this point Camouflage and Improved Ambush are both still kept; \"we don't have +5% hit from Precision and we don't have Improved Blade Tactics\", which Shananagans accepts because \"by now you should have picked up a few pieces of gear that has hit % on them\" (Blackstone Ring, Tarnished Elven Ring, Stromshroud Armor set +2% hit, Rune of the Wildhammer Clan +1%). Alternative weave if hit feels bad: alternate 1 point Efficient Poisons / 1 point Precision from 49–54, then Vigor 55–56. **Note**: this continuation predates the level-40 \"respec straight into full Noxious Assault\" advice that later posters (Sslushee, Bless18) prefer — it is presented by its own author as one option among several, not the only path.\n\n### Alternative dungeon-oriented order, 10–35 [SvenS2 (player), 2025-11-06](https://forum.turtlecraft.gg/viewtopic.php?p=158613#p158613)\n\n| Level | Talent | Points |\n|---|---|---|\n| 10–19 | Camouflage 2, Improved Gouge 3, Improved Ambush 3, Remorseless Attacks 2 | 10 |\n| 20–29 | Opportunity 5, Improved Backstab 3, Camouflage (to 5/5) 2 | 10 |\n| 30–35 | Camouflage (finish) 1, Precision 5 | 6 |\n\n\"From here on out you can experiment with other talents. I recommend specting into things that further boost your Ambush ... Malice, Murder, Lethality, Serrated Blades and Initiative. For dungeons, some extra points in Improved Blade Tactics can be quite useful.\" Rotation for this build: \"Ambush -> Gauge -> Backstab -> Eviscerate. If the target is not dead, use Sinister Strike or repeat the Gauge -> Backstab rotation.\" This build front-loads **Improved Gouge** and **Precision** (hit) earlier than Shananagans' order — the two sources disagree on whether Precision belongs before or after level 44 (**contested**, gear-dependent).\n\n### Older mixed order (pre-1.18.0 wording, same shape) [Terryleelolorz (player), 2025-03-25](https://forum.turtlecraft.gg/viewtopic.php?p=123708#p123708)\n\nAssassination Remorseless Attacks 2/2 → Subtlety Opportunity 5/5, Improved Ambush 3/3 → Combat Swift Strikes 2/2 (**removed in the 1.18.0 revision** — skip), Improved Gouge 3/3 or Lightning Reflexes 3/5, Improved Backstab 3/3, Precision 3/5 → Subtlety Camouflage 5/5. Superseded where it conflicts with the two builds above (Swift Strikes talent no longer exists).\n\n### Combat Swords leveling (traditional default)\n\nNo full point-by-point order is given; sourced fragments: \"Try to get Riposte asap. It's very strong while leveling\" [Yasara (player), 2024-11-19](https://forum.turtlecraft.gg/viewtopic.php?p=108703#p108703), with a 31-point PvE sword-build link (`https://talents.turtlecraft.gg/rogue?points=AAAAAAAAAAAAAAaAoYIBAoBSCYBAAAAAAAAAAAAAAAA%3D`) predating the 1.18.0 revision; \"the shimmy dance for Frontstabbing\" (Opportunity → Improved Backstab → Lethality, grabbing Malice and Remorseless as prerequisites) is offered as a dagger-frontstab alternative \"near 40\", or \"Riposte rush with Precision after is a standard faux-warrior Combat option\" [Trymv1 (player), 2023-06-07](https://forum.turtlecraft.gg/viewtopic.php?p=49275#p49275). Full point-by-point order for Combat Swords past ~30 is a **gap**.\n\n### Respec points and why\n\n- **Level 40**: capstone Noxious Assault becomes available; multiple 2025-09..11 posts recommend switching straight to Assassination here if going that route rather than waiting (Sslushee's own account: switched at 40, \"I don't miss Precision at all... killing mobs about 75% faster\"). The true Assassination build \"doesn't really come into it's own till level 43\" (Precision) \"and better if you hold off till your 50's\" if you want Precision along with the poison talents [Shananagans (guide writer), 2025-09-09](https://forum.turtlecraft.gg/viewtopic.php?p=151001#p151001) — **contested** timing between \"respec at 40 and accept missing hit\" and \"wait to 50s for Precision\".\n- **Level 58**: the standard point across sources (\"At level 58, you should re-spec... this gives you 2 levels of practice with the new build\" [Shananagans, 2025-12-06]) to fully commit to the level-60 raid/PvP spec while still leveling.\n- Respec is assumed cheap/expected: \"Don't worry about a build so much while you're leveling as you'll most likely respec at 60\" [Devildog (player), 2025-02-15](https://forum.turtlecraft.gg/viewtopic.php?p=120087#p120087)."
+          "markdown": "No single post gives every point from 10 to 60; the table below is the union of the two most detailed, mutually consistent guide posts. All levels/points are as literally stated by the sources; use with the talent calculator (`talents.turtlecraft.gg/rogue`) to confirm current prerequisites.\n\n### Ambush/Backstab main line, 10–58 [Shananagans (guide writer), 2025-08-24](https://forum.turtlecraft.gg/viewtopic.php?p=148075#p148075) / [2025-08-30](https://forum.turtlecraft.gg/viewtopic.php?p=149395#p149395) / [2025-12-06](https://forum.turtlecraft.gg/viewtopic.php?p=161802#p161802) (posted and reposted unchanged from Aug 2025 to Dec 2025, i.e. still current as of the 1.18.1 announcement window)\n\n| Levels | Talent | Note |\n|---|---|---|\n| 10–11 | Remorseless Attacks 2/2 (Assassination) | \"after killing a mob, 40% increase in crit to ambush, backstab or sinister strike ... Huge!\" — procs only if **your** rogue lands the kill [Atreidon (player), 2025-08-13](https://forum.turtlecraft.gg/viewtopic.php?p=145008#p145008) |\n| 12–16 | Camouflage 5/5 (Subtlety) | \"get back in stealth in 5 seconds and increased movement speed while in stealth ... a lot of bang for your buck in twow, since it: increase speed while stealth, reduces stealth cd, reduces chance to be detected\" [Zulnam (player), 2025-03-26](https://forum.turtlecraft.gg/viewtopic.php?p=123873#p123873) |\n| 17–19 | Improved Ambush 3/3 (Subtlety) | 45% increase to crit for Ambush |\n| 20–24 | Opportunity 5/5 (Combat) | +crit damage to Ambush/Backstab (moved to Combat row 1 in the 1.18.0 revision; 1.18.1 reduced the top value from 20% to 15%, still worth taking) |\n| 25–27 | Improved Backstab 3/3 (Combat) | 30% crit chance + 45% chance of an extra combo point on Backstab |\n| 28–32 | Malice 5/5 (Assassination) | flat +5% crit |\n| 33–35 | Ruthlessness 3/3 (Assassination) | 100% chance for a bonus combo point on finishers |\n| 36–40 | Lethality 5/5 (Assassination) | crit damage on combo generators, \"includes Noxious Assault since 1.18.0\" (staff) |\n| 41 | Relentless Strikes 1/1 (Assassination) | 20% chance per combo point to return 20 energy |\n| 42–44 | Vile Poisons 3/3 (Assassination) | \"Increases poison damage by 30%\" |\n| 58 | **Respec point** | \"At level 58, you should re-spec. What you re-spec to is totally up to you\" |\n\n### Continuation for players who stay Ambush/Backstab past 44 instead of respeccing to Assassination at 40 [Shananagans, 2025-08-30 / 2025-12-06]\n\n| Levels | Talent | Note |\n|---|---|---|\n| 45–47 | Improved Poisons 3/3 (Assassination) | |\n| 48 | Envenom 1/1 (Assassination) | |\n| 49–51 | Efficient Poisons 3/3 (Assassination) | |\n| 52–53 | Vigor 2/2 (Assassination) | |\n| 54–58 | Seal Fate 5/5 (Assassination) | |\n\nBy this point Camouflage and Improved Ambush are both still kept; \"we don't have +5% hit from Precision and we don't have Improved Blade Tactics\", which Shananagans accepts because \"by now you should have picked up a few pieces of gear that has hit % on them\" (Blackstone Ring, Tarnished Elven Ring, Stromshroud Armor set +2% hit, Rune of the Wildhammer Clan +1%). Alternative weave if hit feels bad: alternate 1 point Efficient Poisons / 1 point Precision from 49–54, then Vigor 55–56. **Note**: this continuation predates the level-40 \"respec straight into full Noxious Assault\" advice that later posters (Sslushee, Bless18) prefer — it is presented by its own author as one option among several, not the only path.\n\n### Alternative dungeon-oriented order, 10–35 [SvenS2 (player), 2025-11-06](https://forum.turtlecraft.gg/viewtopic.php?p=158613#p158613)\n\nThis order is given in brackets rather than per level, so each row carries the bracket it belongs to.\n\n| Levels | Talent | Note |\n|---|---|---|\n| 10–19 | Camouflage 2 | 10 points across this bracket |\n| 10–19 | Improved Gouge 3 | |\n| 10–19 | Improved Ambush 3 | |\n| 10–19 | Remorseless Attacks 2 | |\n| 20–29 | Opportunity 5 | 10 points across this bracket |\n| 20–29 | Improved Backstab 3 | |\n| 20–29 | Camouflage 2 (to 5/5) | |\n| 30–35 | Camouflage 1 (finish) | 6 points across this bracket |\n| 30–35 | Precision 5 | front-loads hit, unlike Shananagans' order |\n\n\"From here on out you can experiment with other talents. I recommend specting into things that further boost your Ambush ... Malice, Murder, Lethality, Serrated Blades and Initiative. For dungeons, some extra points in Improved Blade Tactics can be quite useful.\" Rotation for this build: \"Ambush -> Gauge -> Backstab -> Eviscerate. If the target is not dead, use Sinister Strike or repeat the Gauge -> Backstab rotation.\" This build front-loads **Improved Gouge** and **Precision** (hit) earlier than Shananagans' order — the two sources disagree on whether Precision belongs before or after level 44 (**contested**, gear-dependent).\n\n### Older mixed order (pre-1.18.0 wording, same shape) [Terryleelolorz (player), 2025-03-25](https://forum.turtlecraft.gg/viewtopic.php?p=123708#p123708)\n\nAssassination Remorseless Attacks 2/2 → Subtlety Opportunity 5/5, Improved Ambush 3/3 → Combat Swift Strikes 2/2 (**removed in the 1.18.0 revision** — skip), Improved Gouge 3/3 or Lightning Reflexes 3/5, Improved Backstab 3/3, Precision 3/5 → Subtlety Camouflage 5/5. Superseded where it conflicts with the two builds above (Swift Strikes talent no longer exists).\n\n### Combat Swords leveling (traditional default)\n\nNo full point-by-point order is given; sourced fragments: \"Try to get Riposte asap. It's very strong while leveling\" [Yasara (player), 2024-11-19](https://forum.turtlecraft.gg/viewtopic.php?p=108703#p108703), with a 31-point PvE sword-build link (`https://talents.turtlecraft.gg/rogue?points=AAAAAAAAAAAAAAaAoYIBAoBSCYBAAAAAAAAAAAAAAAA%3D`) predating the 1.18.0 revision; \"the shimmy dance for Frontstabbing\" (Opportunity → Improved Backstab → Lethality, grabbing Malice and Remorseless as prerequisites) is offered as a dagger-frontstab alternative \"near 40\", or \"Riposte rush with Precision after is a standard faux-warrior Combat option\" [Trymv1 (player), 2023-06-07](https://forum.turtlecraft.gg/viewtopic.php?p=49275#p49275). Full point-by-point order for Combat Swords past ~30 is a **gap**.\n\n### Respec points and why\n\n- **Level 40**: capstone Noxious Assault becomes available; multiple 2025-09..11 posts recommend switching straight to Assassination here if going that route rather than waiting (Sslushee's own account: switched at 40, \"I don't miss Precision at all... killing mobs about 75% faster\"). The true Assassination build \"doesn't really come into it's own till level 43\" (Precision) \"and better if you hold off till your 50's\" if you want Precision along with the poison talents [Shananagans (guide writer), 2025-09-09](https://forum.turtlecraft.gg/viewtopic.php?p=151001#p151001) — **contested** timing between \"respec at 40 and accept missing hit\" and \"wait to 50s for Precision\".\n- **Level 58**: the standard point across sources (\"At level 58, you should re-spec... this gives you 2 levels of practice with the new build\" [Shananagans, 2025-12-06]) to fully commit to the level-60 raid/PvP spec while still leveling.\n- Respec is assumed cheap/expected: \"Don't worry about a build so much while you're leveling as you'll most likely respec at 60\" [Devildog (player), 2025-02-15](https://forum.turtlecraft.gg/viewtopic.php?p=120087#p120087)."
         },
         {
           "id": "skill-training-priority",
@@ -16871,6 +17100,15 @@
             "mp5": 5,
             "stamina": 6
           },
+          "stat_priority": [
+            "healing-power",
+            "spell-crit",
+            "intellect",
+            "spirit",
+            "mp5",
+            "stamina"
+          ],
+          "stat_priority_note": "Langorn's order, agreed with in the replies: healing power, then spell crit (Inspiration plus 150% crit heals), then Intellect, Spirit, mp5, Stamina. Priests convert Spirit well — it gives healing power as well as regeneration — so the five-second rule is the thing to play around; endgame BiS sits at 350–400 Spirit. There is no healing cap; hit only matters for dispels and offensive spells. Power Word: Shield scales with healing power rather than spell power per player testing.",
           "caps": {
             "spell_hit_pvp_pct": 3,
             "spell_hit_boss_pct": 16,
@@ -17411,6 +17649,14 @@
             "spirit": 4,
             "mp5": 4
           },
+          "stat_priority": [
+            "spell-hit-to-10-percent-from-gear",
+            "spell-power",
+            "spell-crit",
+            "intellect",
+            "spirit/mp5"
+          ],
+          "stat_priority_note": "Hit first: the spec needs 10% from items on top of Piercing Light's 6% to reach the 16% boss figure, and hit is weighted far above crit while under the cap. Then spell power (general or Holy), then crit, which fuels Searing Light. Intellect and Spirit/mp5 come last but cannot be zero — stacking pure spell power at the cost of all regeneration causes mana problems on long fights. Crit versus spell power is contested after the Searing Light internal cooldown.",
           "caps": {
             "spell_hit_boss_pct": 16,
             "spell_hit_from_gear_pct": 10,
@@ -17894,6 +18140,15 @@
             "spell_crit": 4,
             "spirit": 5
           },
+          "stat_priority": [
+            "spell-hit-to-6-percent-from-gear",
+            "spell-power",
+            "mp5",
+            "intellect",
+            "spell-crit",
+            "spirit"
+          ],
+          "stat_priority_note": "Consensus is \"hit to cap, stack spell power, more or less ignore everything else\": 16% total versus level-63 bosses, of which Shadow Focus gives 10%, so 6% from gear (5% if any druid is in the raid). The tail order is Jcarrill0's list. Crit is deliberately low — Mind Blast is the only crittable ability and it has a cooldown — which is why players objected to the 1.18.1 Shadow T2.5 set being built around crit.",
           "caps": {
             "spell_hit_boss_pct": 16,
             "spell_hit_from_gear_pct": 6,
@@ -18343,6 +18598,13 @@
             "spell_hit": "3%",
             "healing_power": "drives PW:S size (player-tested)"
           },
+          "stat_priority": [
+            "stamina",
+            "spell-power",
+            "spell-crit",
+            "spell-hit-3-percent"
+          ],
+          "stat_priority_note": "Stamina first for survivability, then spell power (damage and healing rather than Holy-only), crit for Searing Light procs, and 3% hit versus level-60 players. Spell penetration only against opponents who stack resistance. Power Word: Shield scales with healing power, not spell power, per post-1.18.1 player testing — a single source, but it is the one thing that would change this order.",
           "caps": {
             "spell_hit_vs_players_pct": 3,
             "chastise_range_yd": 25
@@ -18909,7 +19171,7 @@
           "id": "build-a-discipline-leveling-level-by-level-langorn-post-cc2-final-31-13-7",
           "heading": "Build A — Discipline leveling, level-by-level (Langorn, post-CC2, final 31/13/7)",
           "level": 2,
-          "markdown": "All from [Langorn (guide writer), 2025-09-19](https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325):\n\n| Levels | Talent | Reason (Langorn) |\n|---|---|---|\n| 10-11 | Wand Specialization 2/2 | \"you will wand, A LOT\" |\n| 12-16 | Spirit Tap 5/5 | \"the difference between drinking every 3 pulls and almost not have to drink at all\" |\n| 17-21 | Divinity 5/5 | \"discipline heavily scale on crits\" |\n| 22-26 | Divine Fury 5/5 | \"-0.5 casting time ... mandatory\" |\n| 27-29 | Piercing Light 3/3 | \"6% Hit\" |\n| 30-31 | Improved Power Word: Fortitude 2/2 | optional |\n| 32-34 | Mental Agility 3/5 | \"opens the new tiers\" |\n| 35 | Inner Focus | \"for holy fire when you open on a monster\" |\n| 36-37 | Improved Inner Fire 2/2 | |\n| 38-39 | Meditation 2/3 | |\n| 40-41 | Purifying Flames 2/2 | \"basically a 12% damage increase\" |\n| 42-44 | Searing Light 3/3 | \"instant big smites\" |\n| 45 | Enlighten | |\n| 46-48 | Mental Strength 3/3 | \"3% Casting speed and 10% intellect\" |\n| 49 | Meditation 3/3 | |\n| 50-54 | Force of Will 5/5 | \"5% Damage, 5% Crit and 20% upgrade on your shield\" |\n| 55 | Chastise | \"nice instant spell that gives you a bit more control\" |\n| 56 | Holy Nova | \"You could very much choose to take this WAY earlier (After Divine fury)\" |\n| 57-58 | Holy Focus 2/2 | \"cast spells more easily when face tanking mobs\" |\n| 59-60 | Improved Shadow Word: Pain 2/2 | |\n\nAlternatives: Reomc1 (classic priest veteran, 2025-02): standard level-16 build (wand + Spirit Tap), \"Until 26, I'm going 10 points into holy for the cast time reduction\", then \"Every point from now is going to go towards discipline\" — strings `talents.turtlecraft.gg/priest?points=QAAAAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAA=`, `...QAAAAAAAAAAAAAAoFAAAAAAAAAAAFAAAAAAAAAAAAAA=`, `...ToAARAAAAAAAAAAoFAAAAAAAAAAAFAAAAAAAAAAAAAA=`, `...ToAARYaABIAAAAAoFAAAAAAAAAAAFAAAAAAAAAAAAAA=` — [Reomc1 (player), 2025-02-27](https://forum.turtlecraft.gg/viewtopic.php?p=121113#p121113). Terryleelolorz (HC, level 30): skip Holy entirely until wands fall off, then respec — [Terryleelolorz (player), 2025-03-03](https://forum.turtlecraft.gg/viewtopic.php?p=121460#p121460); but if you did put 10 in Holy, \"invest an additional 10 points to unlock ... SPIRITUAL GUIDANCE\" (same author, 2025-03-04).\n\nRespec points: none required for Build A; at 60 either keep it for farming (Langorn) or respec Holy for raids."
+          "markdown": "All from [Langorn (guide writer), 2025-09-19](https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325):\n\n| Levels | Talent | Note |\n|---|---|---|\n| 10-11 | Wand Specialization 2/2 | \"you will wand, A LOT\" |\n| 12-16 | Spirit Tap 5/5 | \"the difference between drinking every 3 pulls and almost not have to drink at all\" |\n| 17-21 | Divinity 5/5 | \"discipline heavily scale on crits\" |\n| 22-26 | Divine Fury 5/5 | \"-0.5 casting time ... mandatory\" |\n| 27-29 | Piercing Light 3/3 | \"6% Hit\" |\n| 30-31 | Improved Power Word: Fortitude 2/2 | optional |\n| 32-34 | Mental Agility 3/5 | \"opens the new tiers\" |\n| 35 | Inner Focus | \"for holy fire when you open on a monster\" |\n| 36-37 | Improved Inner Fire 2/2 | |\n| 38-39 | Meditation 2/3 | |\n| 40-41 | Purifying Flames 2/2 | \"basically a 12% damage increase\" |\n| 42-44 | Searing Light 3/3 | \"instant big smites\" |\n| 45 | Enlighten | |\n| 46-48 | Mental Strength 3/3 | \"3% Casting speed and 10% intellect\" |\n| 49 | Meditation 3/3 | |\n| 50-54 | Force of Will 5/5 | \"5% Damage, 5% Crit and 20% upgrade on your shield\" |\n| 55 | Chastise | \"nice instant spell that gives you a bit more control\" |\n| 56 | Holy Nova | \"You could very much choose to take this WAY earlier (After Divine fury)\" |\n| 57-58 | Holy Focus 2/2 | \"cast spells more easily when face tanking mobs\" |\n| 59-60 | Improved Shadow Word: Pain 2/2 | |\n\nAlternatives: Reomc1 (classic priest veteran, 2025-02): standard level-16 build (wand + Spirit Tap), \"Until 26, I'm going 10 points into holy for the cast time reduction\", then \"Every point from now is going to go towards discipline\" — strings `talents.turtlecraft.gg/priest?points=QAAAAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAA=`, `...QAAAAAAAAAAAAAAoFAAAAAAAAAAAFAAAAAAAAAAAAAA=`, `...ToAARAAAAAAAAAAoFAAAAAAAAAAAFAAAAAAAAAAAAAA=`, `...ToAARYaABIAAAAAoFAAAAAAAAAAAFAAAAAAAAAAAAAA=` — [Reomc1 (player), 2025-02-27](https://forum.turtlecraft.gg/viewtopic.php?p=121113#p121113). Terryleelolorz (HC, level 30): skip Holy entirely until wands fall off, then respec — [Terryleelolorz (player), 2025-03-03](https://forum.turtlecraft.gg/viewtopic.php?p=121460#p121460); but if you did put 10 in Holy, \"invest an additional 10 points to unlock ... SPIRITUAL GUIDANCE\" (same author, 2025-03-04).\n\nRespec points: none required for Build A; at 60 either keep it for farming (Langorn) or respec Holy for raids."
         },
         {
           "id": "build-b-shadow-leveling",
@@ -21255,6 +21517,13 @@
             "spell_power": "not negligible; close to AP's gain and useful with Lightning Shield rotation",
             "intellect": "important early for mana control, falls behind agi/str once ranks/downranking are learned"
           },
+          "stat_priority": [
+            "stamina",
+            "agility",
+            "dodge",
+            "defense"
+          ],
+          "stat_priority_note": "Mimiwarmini's tanking order; the same guide gives a separate threat order of hit > agility > spell power > crit > strength. Agility versus Strength for second place is CONTESTED: Mimiwarmini prefers Agility because Rockbiter already supplies ~653 attack power and Agility adds threat and survivability, Skegg puts Strength second once you are 60 (Agility second only while leveling), and Akos1896's pre-CC2 order is stam > agi > melee crit > haste > dodge/parry > strength > int. Guide targets pre-raid: 8% physical hit, 17% spell hit, 160 stamina, 100 agility, 6,000 armor, 20 defense.",
           "caps": {
             "physical_hit": "8%",
             "spell_hit": "17% (boss level 63)",
@@ -21732,6 +22001,11 @@
             "int": "as much as possible; ~4k mana pool recommended on a badly geared Resto shaman",
             "haste": "the old T1 8-set needed a full haste stack to work; with the set gone (1.18.1) no haste target exists (gap)"
           },
+          "stat_priority": [
+            "healing-power",
+            "intellect"
+          ],
+          "stat_priority_note": "\"Get as much +healing and +int as you can\" (Skegg); on a badly geared resto shaman Intellect matters most, with about a 4k mana pool as the target. Mana regeneration is CONTESTED: one camp says ignore mp5, Spirit and percentage-regen gear entirely and solve mana with downranking, tea and potions, the other keeps at least +10% while-casting regen until T2/T2.5. No source gives numeric weights.",
           "caps": {},
           "rotation_single": [
             {
@@ -22306,7 +22580,127 @@
                 "note": "raid threat reduction; Toxo calls it mandatory only at high gear"
               }
             ],
-            "leveling_order": []
+            "leveling_order": [
+              {
+                "level": "10–33",
+                "tree": "Enhancement",
+                "talent": "Shield Specialization 5",
+                "note": "24 Enhancement points across this bracket; respec it into Ancestral Knowledge at 33, not before"
+              },
+              {
+                "level": "10–33",
+                "tree": "Enhancement",
+                "talent": "Totemic Alignment 2"
+              },
+              {
+                "level": "10–33",
+                "tree": "Enhancement",
+                "talent": "Stable Shields 3"
+              },
+              {
+                "level": "10–33",
+                "tree": "Enhancement",
+                "talent": "Ancestral Guardian 3",
+                "note": "before Lightning Strike, for mitigation"
+              },
+              {
+                "level": "10–33",
+                "tree": "Enhancement",
+                "talent": "Lightning Strike",
+                "note": "take it first if threat is the problem"
+              },
+              {
+                "level": "10–33",
+                "tree": "Enhancement",
+                "talent": "Thundering Strikes 1"
+              },
+              {
+                "level": "10–33",
+                "tree": "Enhancement",
+                "talent": "Spirit Armor 2"
+              },
+              {
+                "level": "10–33",
+                "tree": "Enhancement",
+                "talent": "Thundering Strikes 4"
+              },
+              {
+                "level": "10–33",
+                "tree": "Enhancement",
+                "talent": "Elemental Weapons 3",
+                "note": "take it first if you are squishy"
+              },
+              {
+                "level": "10–33",
+                "tree": "Enhancement",
+                "talent": "Stormstrike",
+                "note": "take it first for more threat"
+              },
+              {
+                "level": "34–44",
+                "tree": "Elemental",
+                "talent": "Convection 5",
+                "note": "11 Elemental points across this bracket"
+              },
+              {
+                "level": "34–44",
+                "tree": "Elemental",
+                "talent": "Concussion 2 or Elemental Warding 2",
+                "note": "Elemental Warding is the Maraudon pick"
+              },
+              {
+                "level": "34–44",
+                "tree": "Elemental",
+                "talent": "Elemental Devastation 3"
+              },
+              {
+                "level": "34–44",
+                "tree": "Elemental",
+                "talent": "Elemental Focus",
+                "note": "lands at 44; Clearcasting procs off physical crits too"
+              },
+              {
+                "level": "44–50",
+                "tree": "Enhancement",
+                "talent": "Thundering Strikes 5",
+                "note": "6 Enhancement points across this bracket"
+              },
+              {
+                "level": "44–50",
+                "tree": "Enhancement",
+                "talent": "Element's Grace 5"
+              },
+              {
+                "level": "51–60",
+                "tree": "Enhancement",
+                "talent": "Respec Shield Specialization into Ancestral Knowledge 5",
+                "note": "respec plus 15 points across this bracket"
+              },
+              {
+                "level": "51–60",
+                "tree": "Enhancement",
+                "talent": "Bloodlust"
+              },
+              {
+                "level": "51–60",
+                "tree": "Enhancement",
+                "talent": "Reverberation 3",
+                "note": "before Flurry, for threat management and more frequent interrupts"
+              },
+              {
+                "level": "51–60",
+                "tree": "Enhancement",
+                "talent": "Flurry 5"
+              },
+              {
+                "level": "51–60",
+                "tree": "Elemental",
+                "talent": "Concussion 3 or Elemental Warding 3",
+                "note": "Concussion for threat, Elemental Warding to be tankier"
+              }
+            ],
+            "leveling_order_approximate": true,
+            "leveling_order_source": "Skegg's leveling guide (p=149715), consensus with Akos1896. The guide spends points in brackets, so each level cell is the bracket the guide gives, not a per-talent level."
           },
           "stat_weights": {
             "note": "No source gives an explicit DPS stat-weight list; see enhancement-tank.yaml's Turtle mechanics table for the underlying formulas (Rockbiter/Windfury/Lightning Strike scale with AP; Flametongue/fire totems scale with SP).",
@@ -22314,6 +22708,15 @@
             "agility": "crit and armor; feeds Elemental Focus proc rate",
             "attack_power": "primary threat/damage stat via Rockbiter/Windfury/Lightning Strike"
           },
+          "stat_priority": [
+            "weapon-skill-to-315",
+            "hit-to-8-percent",
+            "crit-to-30-35-percent",
+            "strength",
+            "haste",
+            "stamina"
+          ],
+          "stat_priority_note": "Consensus order. Weapon skill has a hard cap of 315 on Turtle (raised from 308) and the racial bonus is +3, not +5. The melee hit cap is 8%, not 9% — the hidden 1% from vanilla was removed — of which talents give 3% and the weapon-skill book 1%. Crit to about 30–35% keeps Flurry and Clearcasting up; past that Strength (2.3 AP per point, and it scales with talents and buffs) beats Agility (~1.13 AP, plus 1% crit and 1% dodge per 20). Stamina outranks Intellect, Spirit and mp5 — \"pretend mp5 doesnt exist\" — except for levelers, where Lightning Strike's mana cost still bites.",
           "caps": {
             "physical_hit": "8% (vanilla-baseline figure reused from the tank guide, not DPS-specific)",
             "spell_hit": "17% (boss level 63)"
@@ -22861,6 +23264,14 @@
             "attack_power": "small but real for the Flame Shock DoT tick (~0.012 dps per AP, 0.02 if snapshotted)",
             "spell_penetration": "matters against Nature-resistant bosses until Lower Karazhan enchants or a Thunderfury tank are available (single source)"
           },
+          "stat_priority": [
+            "spell-hit-to-15-17-percent",
+            "crit",
+            "haste-to-17-percent",
+            "spell-power",
+            "intellect"
+          ],
+          "stat_priority_note": "Consensus order (Skegg's \"hit > crit > spd > int\", with haste placed by Atreidon): spell hit to 15–17% against a level-63 boss — Elemental Devastation gives 3% and the T3 four-set another 3%, which can overcap — then crit, which is the mana engine, then haste up to a hard 17% (past that Lightning Bolt is faster than the global cooldown and the extra haste does nothing), then spell power and Intellect.",
           "caps": {
             "spell_hit": "15-17% (boss level 63)",
             "haste_softcap": "~17% for single target (Atreidon)"
@@ -23317,6 +23728,12 @@
             "spell_penetration": "matters against Nature-resist gear; no PvP hit target stated (gap)",
             "resilience": "1.18.1 PvP sets add it; values not stated for Shaman (gap)"
           },
+          "stat_priority": [
+            "spell-power",
+            "stamina",
+            "spell-penetration"
+          ],
+          "stat_priority_note": "Single source (Aluevera 2025-05-21): \"u are still ele so u prio SP\", with stamina picked up from quest rings and necks (up to about 5.4k HP in full T2.5). Spell penetration matters against Nature-resistance gear. No PvP hit target is stated anywhere, and the 1.18.1 PvP sets' resilience values were never published for shaman.",
           "caps": {},
           "rotation_single": [
             {
@@ -23414,7 +23831,7 @@
           "id": "talent-order-by-level-skegg-s-tank-capable-enhancement-path-consensus-with-akos1896",
           "heading": "Talent order by level (Skegg's tank-capable Enhancement path; consensus with Akos1896)",
           "level": 2,
-          "markdown": "| Levels | Points | Order | Link |\n|---|---|---|---|\n| 10–33 | 24 Enhancement | Shield Specialization 5 → Totemic Alignment 2 → Stable Shields 3 → Ancestral Guardian 3 (before Lightning Strike for mitigation) → Lightning Strike (first if threat is the problem) → Thundering Strikes 1 → Spirit Armor 2 → Thundering Strikes 4 → Elemental Weapons 3 (first if squishy) → Stormstrike (first for more threat) | `https://talents.turtlecraft.gg/shaman?points=-AoUYALAQDI-` |\n| 34–44 | 11 Elemental | Convection 5 → Concussion 2 (few mobs do elemental damage) or Elemental Warding 2 (Maraudon) → Elemental Devastation 3 → Elemental Focus (44) | `...?points=FQAYI-AoUYALAQDI-` or `FACYI-AoUYALAQDI-` |\n| 44–50 | 6 Enhancement | Thundering Strikes 5 → Element's Grace 5 (\"raises threat w/o necessarily spending mana\") | `...?points=FQAYI-AoVYALAQDIAo-` / `FACYI-AoVYALAQDIAo-` |\n| 51–60 | respec + 15 | Respec Shield Specialization → Ancestral Knowledge 5; Bloodlust; Reverberation 3 (\"before Flurry for more QoL in managing threat + more frequent spell interrupt\"); Flurry 5; Concussion 3 (threat) or Elemental Warding 3 (tankier) | `...?points=FYAYL-FAVYALFQDIAoB-` / `FADYL-FAVYALFQDIAoB-`; cheaper totems: `FACYL-FAVYALBQDIAoB-Ao` |\n| 51–60 (Resto at 60) | respec | Rush Improved Water Shield with Stable Shields (`-FAAY-FoDoYIEYQC`), then every Resto talent except Improved Reincarnation, Healing Focus, Spirit Link (`-FAAY-FoDoaIFYQKFAB`) | Skegg |\n\nSources: [Skegg (player, guide writer), 2025-09-01](https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715); wiki `Shaman guide` (revision 2026-07-03, same text). Akos1896's variant (2024-12-13): 5 Shield Spec + 2 Totemic Alignment is the minimum to tank RFC at 16; Stable Shields 3 + Lightning Strike by 20; Ancestral Guardian 3; Thundering Strikes 1; Spirit Armor 2 (26); Thundering Strikes 4 (29); Elemental Weapons 3 (33) — \"the first 24 talent points have to be spent in a very strict manner if you want to tank\"; after 33 \"Rush bloodlust? Get tidal focus to save mana? Rush elemental focus? Personally I rushed elemental focus\"; at 33 respec Shield Spec → Ancestral Knowledge \"Don't do it before level 33 though\" — [Akos1896 (player), 2024-12-13](https://forum.turtlecraft.gg/viewtopic.php?p=112575#p112575); his 2025-09 refinement: Convection > Concussion for leveling, Elemental Devastation 3 or Elemental Warding 2, Clearcasting asap, Element's Grace before Reverberation, then Bloodlust; \"getting an early tidal focus is also an option ... Never take tidal focus when done leveling\" — [Akos1896 (player), 2025-09-01](https://forum.turtlecraft.gg/viewtopic.php?p=149742#p149742) (**contested detail: Shield Spec vs Ancestral Knowledge before 33** — both authors ended up agreeing Shield Spec first).\n\n**Pure DPS variant (no tank talents)**: Konstanten — 11 Elemental (Elemental Focus) first, then Enhancement; Frostbrand + Frost Shock once Elemental Weapons is in: `https://talents.turtlecraft.gg/shaman?points=FQAYIAAAAAAAAAFAFaAIFADIAAAAAAAAAAAAAAAAAAA=` — [Konstanten (player), 2025-02-03](https://forum.turtlecraft.gg/viewtopic.php?p=118793#p118793). Hyrag's world-PvP leveling: `https://talents.turtlecraft.gg/shaman/5F1-5` \"going 11/07/0 elemental focus first then Imp ghost wolf\" — [Hyrag (player), 2024-02-14](https://forum.turtlecraft.gg/viewtopic.php?p=87761#p87761) (pre-CC2 tree numbering).\n\n**Respec points**: 33 (Shield Spec → Ancestral Knowledge, once the two JC/obsidian +11 Sta trinkets exist; Akos1896) and 51 (Skegg); dual spec via the Goblin Brainwashing Device if farmed 44–48 in Badlands/Uldaman (Skegg, \"might be an unrealistic goal\")."
+          "markdown": "The guide spends points in brackets rather than per level, so each row carries the bracket it belongs to; the row order is the order the guide gives.\n\n| Levels | Talent | Note |\n|---|---|---|\n| 10–33 | Shield Specialization 5 | 24 Enhancement points across this bracket |\n| 10–33 | Totemic Alignment 2 | |\n| 10–33 | Stable Shields 3 | |\n| 10–33 | Ancestral Guardian 3 | before Lightning Strike, for mitigation |\n| 10–33 | Lightning Strike | take it first if threat is the problem |\n| 10–33 | Thundering Strikes 1 | |\n| 10–33 | Spirit Armor 2 | |\n| 10–33 | Thundering Strikes 4 | |\n| 10–33 | Elemental Weapons 3 | take it first if you are squishy |\n| 10–33 | Stormstrike | take it first if you want more threat |\n| 34–44 | Convection 5 | 11 Elemental points across this bracket |\n| 34–44 | Concussion 2 **or** Elemental Warding 2 | few mobs deal elemental damage; Elemental Warding is the Maraudon pick |\n| 34–44 | Elemental Devastation 3 | |\n| 34–44 | Elemental Focus | lands at 44 |\n| 44–50 | Thundering Strikes 5 | 6 Enhancement points across this bracket |\n| 44–50 | Element's Grace 5 | \"raises threat w/o necessarily spending mana\" |\n| 51–60 | Respec Shield Specialization → Ancestral Knowledge 5 | respec plus 15 points across this bracket |\n| 51–60 | Bloodlust | |\n| 51–60 | Reverberation 3 | \"before Flurry for more QoL in managing threat + more frequent spell interrupt\" |\n| 51–60 | Flurry 5 | |\n| 51–60 | Concussion 3 **or** Elemental Warding 3 | Concussion for threat, Elemental Warding to be tankier |\n| 51–60 | Restoration alternative: rush Improved Water Shield with Stable Shields | if you intend to heal at 60 |\n| 51–60 | Restoration alternative: every Restoration talent except Improved Reincarnation, Healing Focus and Spirit Link | |\n\nSkegg gives a talent-calculator link per bracket (`talents.turtlecraft.gg/shaman?points=…`, codes `-AoUYALAQDI-`, `FQAYI-AoUYALAQDI-` / `FACYI-AoUYALAQDI-`, `FQAYI-AoVYALAQDIAo-` / `FACYI-AoVYALAQDIAo-`, `FYAYL-FAVYALFQDIAoB-` / `FADYL-FAVYALFQDIAoB-`, cheaper totems `FACYL-FAVYALBQDIAoB-Ao`, Restoration `-FAAY-FoDoYIEYQC` then `-FAAY-FoDoaIFYQKFAB`). The calculator is offline and the codes are not decodable from this archive, so they are recorded here rather than per row.\n\nSources: [Skegg (player, guide writer), 2025-09-01](https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715); wiki `Shaman guide` (revision 2026-07-03, same text). Akos1896's variant (2024-12-13): 5 Shield Spec + 2 Totemic Alignment is the minimum to tank RFC at 16; Stable Shields 3 + Lightning Strike by 20; Ancestral Guardian 3; Thundering Strikes 1; Spirit Armor 2 (26); Thundering Strikes 4 (29); Elemental Weapons 3 (33) — \"the first 24 talent points have to be spent in a very strict manner if you want to tank\"; after 33 \"Rush bloodlust? Get tidal focus to save mana? Rush elemental focus? Personally I rushed elemental focus\"; at 33 respec Shield Spec → Ancestral Knowledge \"Don't do it before level 33 though\" — [Akos1896 (player), 2024-12-13](https://forum.turtlecraft.gg/viewtopic.php?p=112575#p112575); his 2025-09 refinement: Convection > Concussion for leveling, Elemental Devastation 3 or Elemental Warding 2, Clearcasting asap, Element's Grace before Reverberation, then Bloodlust; \"getting an early tidal focus is also an option ... Never take tidal focus when done leveling\" — [Akos1896 (player), 2025-09-01](https://forum.turtlecraft.gg/viewtopic.php?p=149742#p149742) (**contested detail: Shield Spec vs Ancestral Knowledge before 33** — both authors ended up agreeing Shield Spec first).\n\n**Pure DPS variant (no tank talents)**: Konstanten — 11 Elemental (Elemental Focus) first, then Enhancement; Frostbrand + Frost Shock once Elemental Weapons is in: `https://talents.turtlecraft.gg/shaman?points=FQAYIAAAAAAAAAFAFaAIFADIAAAAAAAAAAAAAAAAAAA=` — [Konstanten (player), 2025-02-03](https://forum.turtlecraft.gg/viewtopic.php?p=118793#p118793). Hyrag's world-PvP leveling: `https://talents.turtlecraft.gg/shaman/5F1-5` \"going 11/07/0 elemental focus first then Imp ghost wolf\" — [Hyrag (player), 2024-02-14](https://forum.turtlecraft.gg/viewtopic.php?p=87761#p87761) (pre-CC2 tree numbering).\n\n**Respec points**: 33 (Shield Spec → Ancestral Knowledge, once the two JC/obsidian +11 Sta trinkets exist; Akos1896) and 51 (Skegg); dual spec via the Goblin Brainwashing Device if farmed 44–48 in Badlands/Uldaman (Skegg, \"might be an unrealistic goal\")."
         },
         {
           "id": "skill-training-priority",
@@ -27347,6 +27764,13 @@
             "priority": "hit to 16% > haste ~= spell power (1% haste ~= 17-20 SP) > crit > intellect; spirit/stamina low; spell penetration ignored in PvE",
             "leveling_priority": "Intellect > Stamina > Spirit (Bigsmerf) — contested: Schoop123 found Spirit main stat under Arcane Power drain"
           },
+          "stat_priority": [
+            "hit-to-16-percent",
+            "haste",
+            "spell-power",
+            "crit"
+          ],
+          "stat_priority_note": "Consensus of the wiki sim and player weights: hit to 16% first and never over it, then haste and spell power which trade almost evenly (~17–20 SP per 1% haste), then crit. Haste has breakpoints where an extra missile lands inside the Arcane Rupture window, and gear haste stacks multiplicatively. Spell penetration is a PvP stat only.",
           "caps": {
             "spell_hit": "16% (talent 10% + 6% gear per Ashafares; wiki sims use 15-16)",
             "arcane_range_yd": 30,
@@ -27840,6 +28264,13 @@
             },
             "priority": "hit to 16% > crit > spell power > haste (2-4% haste minimum recommended by wiki for double Fireball in the Ignite window, computed for the old 6 s window)"
           },
+          "stat_priority": [
+            "hit-to-cap",
+            "crit",
+            "spell-power",
+            "haste"
+          ],
+          "stat_priority_note": "From the wiki Fire sim: hit to the 16% cap, then crit (crit is the top weight once hit is capped: ~25 SP per 1% at endgame versus ~23 for hit), then spell power, then haste — but keep 2–4% haste so two Fireballs fit inside the Ignite window. That haste figure was written for the 6 s Ignite; 1.18.0 restored the 4 s Ignite and no source recomputed it.",
           "caps": {
             "spell_hit": "16% (generic caster figure quoted by players)",
             "hot_streak_stacks": 5,
@@ -28349,6 +28780,13 @@
             },
             "priority": "hit to 16% > spell power > haste >= crit"
           },
+          "stat_priority": [
+            "hit-to-cap",
+            "spell-power",
+            "haste",
+            "crit"
+          ],
+          "stat_priority_note": "From the wiki Frost sim: hit to the cap (16% is the generic caster figure players quote), then spell power, then haste and crit — haste is rated at or slightly above crit at endgame (~12–13 SP per 1% haste versus ~11–12 per 1% crit). Damage split in that sim: Frostbolt ~57%, Icicles ~43%.",
           "caps": {
             "spell_hit": "16% (generic)",
             "icicles_self_damage": "30% base health if the root is shattered by damage taken",
@@ -29008,7 +29446,7 @@
           "id": "talent-order-by-level-wiki-tables-single-source",
           "heading": "Talent order by level (wiki tables, single source)",
           "level": 2,
-          "markdown": "All four tables are from [Mage Levelling FAQ (wiki), rev. 2025-10-01](https://turtle-wow.fandom.com/wiki/Mage_Levelling_FAQ) and stop at level 59 (50 points). Talent names as the wiki writes them; \"Elemental Presicion\" and \"Arcane Subltety\" are wiki typos.\n\n### Frost single target\n10–14 Improved Frostbolt 1→5 · 15–17 Frostbite 1→3 · 18–19 Improved Frost Nova 1→2 · 20–24 Ice Shards 1→5 · 25–29 Shatter 1→5 · 30 Ice Block · 31 Cold Snap · 32–34 Frost Channeling 1→3 · 35–37 Elemental Precision 1→3 · 38–39 Piercing Ice 1→2 · 40 Ice Barrier · 41 Piercing Ice 3 · 42–43 Arctic Reach 1→2 · 44–45 Arcane Subtlety 1→2 · 46–48 Arcane Focus 1→3 · 49–53 Arcane Concentration 1→5 · 54–56 Permafrost 1→3 · 57–59 Improved Cone of Cold 1→3.\n\nPlay: \"simply Frostbolt mobs. You are able to get off ~3 frost bolts before they reach you, then you can nova, run/blink away, and start casting again. You can also use Cone of Cold to slow mobs in melee range, in case your nova is on cooldown.\" Same loop from [Shamma, 2022-10-24](https://forum.turtlecraft.gg/viewtopic.php?p=27840#p27840): \"freeze the mob and then crit it for as much as possible while frozen\" (Frostbite/Shatter). Wiki Frost FAQ priorities: Improved Frostbolt > Elemental Precision > Ice Shards > Frost Channeling > Shatter > Frostbite > Ice Barrier > Arcane Concentration. Note: the Frostbite-shatter single-target spec and the AoE spec are exclusive — \"you can't have Frostbite, else it'll ruin your AoE pull if one gets frozen\" [Rudyraccoon, 2024-11-10](https://forum.turtlecraft.gg/viewtopic.php?p=107433#p107433).\n\n### Frost AoE (Cone of Cold kiting, from level 26)\n10–11 Frost Warding 1→2 · 12–14 Elemental Precision 1→3 · 15–17 Permafrost 1→3 · 18–19 Improved Frost Nova 1→2 · 20–24 Ice Shards 1→5 · 25–29 Shatter 1→5 · 30 Ice Block · 31 Cold Snap · 32–34 Improved Cone of Cold 1→3 · 35–36 Arctic Reach 1→2 · 37–39 Frost Channeling 1→3 · 40 Ice Barrier · 41–43 Piercing Ice 1→3 · 44–48 Impact 1→5 (Fire) · 49–53 Ignite 1→5 (Fire) · 54–56 Improved Flamestrike 1→3 (Fire) · 57–58 Arcane Subtlety 1→2 · 59 Burning Soul 1.\n\nPlay (wiki): gather melee mobs with wand / Counterspell / rank-1 Fire Blast / body aggro; Ice Block to stack them; rank-1 Frost Nova, move out; with ~4 s left on Nova cast Flamestrike, then Cone of Cold as it finishes (\"This allows you to get the increased shatter crit chance on both spells\"); kite in a circle or sideways (\"Backpedalling will allow the mobs to catch up\") with \"permachill cone of cold, as the slow is longer than the cooldown\"; Arcane Explosion while running when they are low; otherwise wait for Nova for another Flamestrike + Cone of Cold burst. Post-1.18.1 confirmation: \"It is better to utilize Flamestrike, Frost Nova, and Cone of Cold to kite and AoE farm, with some Arcane Explosions inbetween. For AoE farming, we don't use Blizzard at all anymore\" [Eluaria, 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171409#p171409). Blizzard starts at 20 (wiki: no longer viable), Cone of Cold is learnable at 26 ([Zulnam, 2025-03-03](https://forum.turtlecraft.gg/viewtopic.php?p=121484#p121484); Xudo wrote 30, corrected). Before 26: \"improve frost armor, spam with Arcane Explosions … use Frost nova with Fireblast\" for 3-mob pulls ([Xudo, 2025-02-20](https://forum.turtlecraft.gg/viewtopic.php?p=120513#p120513)); \"you can technically start aoe farming from level 16, with flamestrike + arcane explosion. a bit extreme\" (Zulnam). Xudo's alternative Frost/Fire \"0/24/27\" (Flamestrike crit via Nova + fire talents, Blast Wave, CoC) — export link only ([2024-12-05](https://forum.turtlecraft.gg/viewtopic.php?p=111491#p111491)).\n\nIs AoE leveling still viable? **Contested but mostly yes-with-caveats:** \"Improved blizzard is heavily nerfed for its ability to effortlessly destroy giant packs. so you have to rely more on cone of cold and frostnova on turtle. Its a bit less braindead to aoe level here. But its still entirely possible\" [Atreidon, 2026-02-16](https://forum.turtlecraft.gg/viewtopic.php?p=168459#p168459); \"yes its fine once you get cone of cold\" [amanagor, 2025-01-17](https://forum.turtlecraft.gg/viewtopic.php?p=117090#p117090); \"Mage aoe levelign just as strong here than it is in classic, if not stronger\" [amanagor, 2026-02-25](https://forum.turtlecraft.gg/viewtopic.php?p=169382#p169382) vs \"Mage's AoE farming has been trashed to shit on TWoW\" [Eluaria, 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171410#p171410); \"With the current nerfs, it's not a good aoe class anymore while leveling\" [Weirdyunus, 2025-02-20](https://forum.turtlecraft.gg/viewtopic.php?p=120499#p120499); \"At this point you're better off leveling a prot paladin or even a survival hunter if you want to aoe grind\" [Hotcoldman2, 2026-02-16](https://forum.turtlecraft.gg/viewtopic.php?p=168372#p168372). Staff reason for the nerf is only implied (Icicles comment: Frost \"already a strong contender\" in PvP); players believe it targeted farming/boosting ([Atreidon, 2025-12-11](https://forum.turtlecraft.gg/viewtopic.php?p=162407#p162407); [Zvyrhol, 2026-01-14](https://forum.turtlecraft.gg/viewtopic.php?p=165125#p165125)); \"The philosophy of the Turtle WoW server is not aoe farming everything to reach level 60 as fast as possible. While you still can do it, know that the playstyle is not actively supported.\" [Trismegistos, 2024-02-07](https://forum.turtlecraft.gg/viewtopic.php?p=87237#p87237). Expect competition on grind spots (Atreidon 2026-02-16).\n\n### Fire single target (older wiki table, pre-1.18.0 talents)\n10–14 Improved Fireball 1→5 · 15–16 Flame Throwing 1→2 · 17–19 Improved Fire Blast 1→3 · 20–22 Elemental Precision 1→3 · 23–27 Impact 1→5 · 28–30 Master of Elements 1→3 · 31 Pyroblast · 32 Burning Soul 1 · 33–35 Critical Mass 1→3 · 36–38 Hot Streak 1→3 · 39–42 Fire Power 1→4 · 43 Combustion · 44 Fire Power 5 · 45–46 Arcane Subtlety 1→2 · 47–49 Arcane Focus 1→3 · 50–54 Arcane Concentration 1→5 · 55–59 Ignite 1→5.\n\nHot Streak is now 2 ranks and Arcane Focus is no longer in row 1 (1.18.0), so prefer the newer path in [Mage Fire FAQ (wiki, rev. 2026-03-04)](https://turtle-wow.fandom.com/wiki/Mage_Fire_FAQ): Improved Fireball 5, Ignite 5, Pyroblast (level 20) → Burning Soul 2 → Elemental Precision 3 → Arcane Subtlety 2, Magic Absorption 3 (30) → Arcane Concentration 5 → Incinerate 2, Master of Elements 3, Fire Vulnerability 3, Blast Wave 1, Critical Mass 3, Hot Streak 2, Fire Power 5, Combustion 1 (55) → 5 free. Play: \"simply want to cast fireball. You can weave in fireblast if you are running, or scorch to finish off low hp mobs … if the mob gets close and your hp is low, simply frost nova and walk/blink away\" (Levelling FAQ). Rudyraccoon's HC-oriented variant takes Impact and Elemental Precision \"imagine using Pyroblast as an opener, and then it misses\" ([2023-11-02](https://forum.turtlecraft.gg/viewtopic.php?p=75490#p75490)); Darktifa played Fire to 40 then took Arcane for Arcane Concentration and Arcane Resilience at 59 (screenshots only).\n\n### Arcane single target\n10–14 Improved Arcane Missiles 1→5 · 15–19 Arcane Concentration 1→5 · 20 Arcane Rupture · 21–23 Arcane Impact 1→3 · 24 Arcane Focus 1 · 25–27 Arcane Meditation 1→3 · 28–29 Temporal Convergence 1→2 · 30 Accelerated Arcana · 31–33 Arcane Instability 1→3 · 34–35 Arcane Potency 1→2 · 36–39 Resonance Cascade 1→4 · 40 Resonance Cascade 5 · 41 Presence of Mind · 42 Temporal Convergence 3 · 43–46 Arcane Focus 2→5 · 47–48 Arcane Subtlety 1→2 · 49–51 Magic Absorption 1→3 · 52–56 Improved Fireball 1→5 · 57–59 Improved Fire Blast 1→3. Arcane Power: \"probably not even worth putting a point in … until you get more geared\" (Arcane FAQ).\n\nPlay (wiki): \"just want to cast arcane missiles. Therefore getting improved arcane missiles is really important … You can play like a drain tank warlock, however you'll run out of health much quicker … If the mob has high hp, once you get it, you can start the fight with arcane rupture, however this will make your mana management much harder.\" Toaomb's open-world loop: Frostbolt for the slow → Arcane Missiles → Cone of Cold (rank 1 to save mana) when they reach you → run → Missiles again; multi-target: Arcane Explosion / Cone of Cold / Frost Nova / Fire Blast; \"Try not to Blink, try to use Mage Armor to keep good mana, try not to use Mana Shield\" ([2024-07-02](https://forum.turtlecraft.gg/viewtopic.php?p=98354#p98354), [p98355](https://forum.turtlecraft.gg/viewtopic.php?p=98355#p98355)). Schoop123's 1–60 report: Arcane Power is unusable solo while leveling (drain kills you on elites), useful only in group boss fights; Spirit feels like the main stat; Rupture buff window awkward ([2024-11-11](https://forum.turtlecraft.gg/viewtopic.php?p=107572#p107572)). Redmagejoe's pre-rework level-by-level links (14 → 58) are obsolete tree exports ([2023-07-19](https://forum.turtlecraft.gg/viewtopic.php?p=54081#p54081))."
+          "markdown": "All four tables are from [Mage Levelling FAQ (wiki), rev. 2025-10-01](https://turtle-wow.fandom.com/wiki/Mage_Levelling_FAQ) and stop at level 59 (50 points). Talent names as the wiki writes them; \"Elemental Presicion\" and \"Arcane Subltety\" are wiki typos.\n\n### Frost single target\n\n| Levels | Talent | Note |\n|---|---|---|\n| 10–14 | Improved Frostbolt 1→5 | |\n| 15–17 | Frostbite 1→3 | exclusive with the AoE build — a frozen mob ruins an AoE pull |\n| 18–19 | Improved Frost Nova 1→2 | |\n| 20–24 | Ice Shards 1→5 | |\n| 25–29 | Shatter 1→5 | |\n| 30 | Ice Block | |\n| 31 | Cold Snap | |\n| 32–34 | Frost Channeling 1→3 | |\n| 35–37 | Elemental Precision 1→3 | |\n| 38–39 | Piercing Ice 1→2 | |\n| 40 | Ice Barrier | |\n| 41 | Piercing Ice 3 | |\n| 42–43 | Arctic Reach 1→2 | |\n| 44–45 | Arcane Subtlety 1→2 | \"Arcane Subltety\" is a wiki typo |\n| 46–48 | Arcane Focus 1→3 | |\n| 49–53 | Arcane Concentration 1→5 | |\n| 54–56 | Permafrost 1→3 | |\n| 57–59 | Improved Cone of Cold 1→3 | table stops here (50 points) |\n\nPlay: \"simply Frostbolt mobs. You are able to get off ~3 frost bolts before they reach you, then you can nova, run/blink away, and start casting again. You can also use Cone of Cold to slow mobs in melee range, in case your nova is on cooldown.\" Same loop from [Shamma, 2022-10-24](https://forum.turtlecraft.gg/viewtopic.php?p=27840#p27840): \"freeze the mob and then crit it for as much as possible while frozen\" (Frostbite/Shatter). Wiki Frost FAQ priorities: Improved Frostbolt > Elemental Precision > Ice Shards > Frost Channeling > Shatter > Frostbite > Ice Barrier > Arcane Concentration. Note: the Frostbite-shatter single-target spec and the AoE spec are exclusive — \"you can't have Frostbite, else it'll ruin your AoE pull if one gets frozen\" [Rudyraccoon, 2024-11-10](https://forum.turtlecraft.gg/viewtopic.php?p=107433#p107433).\n\n### Frost AoE (Cone of Cold kiting, from level 26)\n\n| Levels | Talent | Note |\n|---|---|---|\n| 10–11 | Frost Warding 1→2 | |\n| 12–14 | Elemental Precision 1→3 | |\n| 15–17 | Permafrost 1→3 | |\n| 18–19 | Improved Frost Nova 1→2 | |\n| 20–24 | Ice Shards 1→5 | |\n| 25–29 | Shatter 1→5 | |\n| 30 | Ice Block | |\n| 31 | Cold Snap | |\n| 32–34 | Improved Cone of Cold 1→3 | Cone of Cold is learnable at 26; this build has no Frostbite on purpose |\n| 35–36 | Arctic Reach 1→2 | |\n| 37–39 | Frost Channeling 1→3 | |\n| 40 | Ice Barrier | |\n| 41–43 | Piercing Ice 1→3 | |\n| 44–48 | Impact 1→5 (Fire) | |\n| 49–53 | Ignite 1→5 (Fire) | |\n| 54–56 | Improved Flamestrike 1→3 (Fire) | |\n| 57–58 | Arcane Subtlety 1→2 | |\n| 59 | Burning Soul 1 | table stops here (50 points) |\n\nPlay (wiki): gather melee mobs with wand / Counterspell / rank-1 Fire Blast / body aggro; Ice Block to stack them; rank-1 Frost Nova, move out; with ~4 s left on Nova cast Flamestrike, then Cone of Cold as it finishes (\"This allows you to get the increased shatter crit chance on both spells\"); kite in a circle or sideways (\"Backpedalling will allow the mobs to catch up\") with \"permachill cone of cold, as the slow is longer than the cooldown\"; Arcane Explosion while running when they are low; otherwise wait for Nova for another Flamestrike + Cone of Cold burst. Post-1.18.1 confirmation: \"It is better to utilize Flamestrike, Frost Nova, and Cone of Cold to kite and AoE farm, with some Arcane Explosions inbetween. For AoE farming, we don't use Blizzard at all anymore\" [Eluaria, 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171409#p171409). Blizzard starts at 20 (wiki: no longer viable), Cone of Cold is learnable at 26 ([Zulnam, 2025-03-03](https://forum.turtlecraft.gg/viewtopic.php?p=121484#p121484); Xudo wrote 30, corrected). Before 26: \"improve frost armor, spam with Arcane Explosions … use Frost nova with Fireblast\" for 3-mob pulls ([Xudo, 2025-02-20](https://forum.turtlecraft.gg/viewtopic.php?p=120513#p120513)); \"you can technically start aoe farming from level 16, with flamestrike + arcane explosion. a bit extreme\" (Zulnam). Xudo's alternative Frost/Fire \"0/24/27\" (Flamestrike crit via Nova + fire talents, Blast Wave, CoC) — export link only ([2024-12-05](https://forum.turtlecraft.gg/viewtopic.php?p=111491#p111491)).\n\nIs AoE leveling still viable? **Contested but mostly yes-with-caveats:** \"Improved blizzard is heavily nerfed for its ability to effortlessly destroy giant packs. so you have to rely more on cone of cold and frostnova on turtle. Its a bit less braindead to aoe level here. But its still entirely possible\" [Atreidon, 2026-02-16](https://forum.turtlecraft.gg/viewtopic.php?p=168459#p168459); \"yes its fine once you get cone of cold\" [amanagor, 2025-01-17](https://forum.turtlecraft.gg/viewtopic.php?p=117090#p117090); \"Mage aoe levelign just as strong here than it is in classic, if not stronger\" [amanagor, 2026-02-25](https://forum.turtlecraft.gg/viewtopic.php?p=169382#p169382) vs \"Mage's AoE farming has been trashed to shit on TWoW\" [Eluaria, 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171410#p171410); \"With the current nerfs, it's not a good aoe class anymore while leveling\" [Weirdyunus, 2025-02-20](https://forum.turtlecraft.gg/viewtopic.php?p=120499#p120499); \"At this point you're better off leveling a prot paladin or even a survival hunter if you want to aoe grind\" [Hotcoldman2, 2026-02-16](https://forum.turtlecraft.gg/viewtopic.php?p=168372#p168372). Staff reason for the nerf is only implied (Icicles comment: Frost \"already a strong contender\" in PvP); players believe it targeted farming/boosting ([Atreidon, 2025-12-11](https://forum.turtlecraft.gg/viewtopic.php?p=162407#p162407); [Zvyrhol, 2026-01-14](https://forum.turtlecraft.gg/viewtopic.php?p=165125#p165125)); \"The philosophy of the Turtle WoW server is not aoe farming everything to reach level 60 as fast as possible. While you still can do it, know that the playstyle is not actively supported.\" [Trismegistos, 2024-02-07](https://forum.turtlecraft.gg/viewtopic.php?p=87237#p87237). Expect competition on grind spots (Atreidon 2026-02-16).\n\n### Fire single target (older wiki table, pre-1.18.0 talents)\n\n| Levels | Talent | Note |\n|---|---|---|\n| 10–14 | Improved Fireball 1→5 | |\n| 15–16 | Flame Throwing 1→2 | |\n| 17–19 | Improved Fire Blast 1→3 | |\n| 20–22 | Elemental Precision 1→3 | |\n| 23–27 | Impact 1→5 | |\n| 28–30 | Master of Elements 1→3 | |\n| 31 | Pyroblast | |\n| 32 | Burning Soul 1 | |\n| 33–35 | Critical Mass 1→3 | |\n| 36–38 | Hot Streak 1→3 | Hot Streak is only 2 ranks since 1.18.0 |\n| 39–42 | Fire Power 1→4 | |\n| 43 | Combustion | |\n| 44 | Fire Power 5 | |\n| 45–46 | Arcane Subtlety 1→2 | |\n| 47–49 | Arcane Focus 1→3 | Arcane Focus left row 1 in 1.18.0 |\n| 50–54 | Arcane Concentration 1→5 | |\n| 55–59 | Ignite 1→5 | table stops here (50 points) |\n\nHot Streak is now 2 ranks and Arcane Focus is no longer in row 1 (1.18.0), so prefer the newer path in [Mage Fire FAQ (wiki, rev. 2026-03-04)](https://turtle-wow.fandom.com/wiki/Mage_Fire_FAQ): Improved Fireball 5, Ignite 5, Pyroblast (level 20) → Burning Soul 2 → Elemental Precision 3 → Arcane Subtlety 2, Magic Absorption 3 (30) → Arcane Concentration 5 → Incinerate 2, Master of Elements 3, Fire Vulnerability 3, Blast Wave 1, Critical Mass 3, Hot Streak 2, Fire Power 5, Combustion 1 (55) → 5 free. Play: \"simply want to cast fireball. You can weave in fireblast if you are running, or scorch to finish off low hp mobs … if the mob gets close and your hp is low, simply frost nova and walk/blink away\" (Levelling FAQ). Rudyraccoon's HC-oriented variant takes Impact and Elemental Precision \"imagine using Pyroblast as an opener, and then it misses\" ([2023-11-02](https://forum.turtlecraft.gg/viewtopic.php?p=75490#p75490)); Darktifa played Fire to 40 then took Arcane for Arcane Concentration and Arcane Resilience at 59 (screenshots only).\n\n### Arcane single target\n\n| Levels | Talent | Note |\n|---|---|---|\n| 10–14 | Improved Arcane Missiles 1→5 | the build's core: Arcane Missiles is what you cast |\n| 15–19 | Arcane Concentration 1→5 | |\n| 20 | Arcane Rupture | only open with it on high-health mobs; it makes mana management harder |\n| 21–23 | Arcane Impact 1→3 | |\n| 24 | Arcane Focus 1 | |\n| 25–27 | Arcane Meditation 1→3 | |\n| 28–29 | Temporal Convergence 1→2 | |\n| 30 | Accelerated Arcana | |\n| 31–33 | Arcane Instability 1→3 | |\n| 34–35 | Arcane Potency 1→2 | |\n| 36–39 | Resonance Cascade 1→4 | |\n| 40 | Resonance Cascade 5 | |\n| 41 | Presence of Mind | |\n| 42 | Temporal Convergence 3 | |\n| 43–46 | Arcane Focus 2→5 | |\n| 47–48 | Arcane Subtlety 1→2 | |\n| 49–51 | Magic Absorption 1→3 | |\n| 52–56 | Improved Fireball 1→5 | |\n| 57–59 | Improved Fire Blast 1→3 | table stops here (50 points) |\n\nArcane Power is not in the table: \"probably not even worth putting a point in … until you get more geared\" (Arcane FAQ).\n\nPlay (wiki): \"just want to cast arcane missiles. Therefore getting improved arcane missiles is really important … You can play like a drain tank warlock, however you'll run out of health much quicker … If the mob has high hp, once you get it, you can start the fight with arcane rupture, however this will make your mana management much harder.\" Toaomb's open-world loop: Frostbolt for the slow → Arcane Missiles → Cone of Cold (rank 1 to save mana) when they reach you → run → Missiles again; multi-target: Arcane Explosion / Cone of Cold / Frost Nova / Fire Blast; \"Try not to Blink, try to use Mage Armor to keep good mana, try not to use Mana Shield\" ([2024-07-02](https://forum.turtlecraft.gg/viewtopic.php?p=98354#p98354), [p98355](https://forum.turtlecraft.gg/viewtopic.php?p=98355#p98355)). Schoop123's 1–60 report: Arcane Power is unusable solo while leveling (drain kills you on elites), useful only in group boss fights; Spirit feels like the main stat; Rupture buff window awkward ([2024-11-11](https://forum.turtlecraft.gg/viewtopic.php?p=107572#p107572)). Redmagejoe's pre-rework level-by-level links (14 → 58) are obsolete tree exports ([2023-07-19](https://forum.turtlecraft.gg/viewtopic.php?p=54081#p54081))."
         },
         {
           "id": "respec-points",
@@ -31313,6 +31751,11 @@
             "stamina": "high (mana pool is tied to health via Life Tap; Affliction tier sets are stamina-poor)",
             "spirit": "low/dump stat (suppressed during channels per a single 2020 report, never retested)"
           },
+          "stat_priority": [
+            "spell-hit-5-6-percent-from-gear",
+            "haste-or-spell-power-unresolved"
+          ],
+          "stat_priority_note": "Suppression covers 10% of the hit a warlock needs for Affliction spells, so players run 5–6% on gear (the 16% level-63 figure is vanilla baseline, not a Turtle statement). After hit the order is genuinely unresolved: the community wiki says \"Haste and Hit\" and one geared player says \"as much haste as you can get\", but the direct question \"is Affli better with haste or full sp?\" was asked and never answered. Rapid Deterioration's 6% haste is multiplicative with gear haste, and the game rounds tick timing up to 0.04 s. Whether Dark Harvest is affected by hit at all is an open question.",
           "caps": {},
           "rotation_single": [
             {
@@ -31587,6 +32030,13 @@
             "spell_power": "medium (Unleashed Potential converts up to 15%/stack of bonus SP to the demon's AP/SP)",
             "stamina": "medium-high (Power Overwhelming costs 40% of the demon's base health; feeds Soul Link)"
           },
+          "stat_priority": [
+            "spell-hit",
+            "spell-crit",
+            "spell-power",
+            "stamina"
+          ],
+          "stat_priority_note": "Demonic Precision passes 90% of your spell hit and crit to the demon (CC3), which is why Demonology shares gear with Destruction and why the wiki's priority is \"Hit and Crit\". Spell power then matters twice over: Unleashed Potential converts 15% of your bonus spell damage per stack (up to three) into the demon's attack and spell power. Stamina is wanted for Power Overwhelming, which costs 40% of the demon's base health, and for Soul Link.",
           "caps": {},
           "rotation_single": [
             {
@@ -31851,6 +32301,13 @@
             "spell_power": "third",
             "haste": "unclear/unanswered whether it matters now that Searing Pain's GCD and cast scale with haste since 1.18.1"
           },
+          "stat_priority": [
+            "spell-hit-to-16-percent",
+            "crit",
+            "spell-power",
+            "haste"
+          ],
+          "stat_priority_note": "\"You need to get 16% hit chance as fire warlock and on top of that at least 20% crit\" — the 16% is a player restatement of the vanilla level-63 cap, not a staff number. Crit comes next because Ruin, Devastation, the Firestone and Improved Searing Pain all key off it; CONTESTED by Xudo, who argues a pure Soul Fire/Immolate/Conflagrate rotation should go straight to spell power instead. Haste became relevant when 1.18.1 gave Searing Pain a 2 s cast that scales with it; the older \"is haste useless for fire locks\" question predates that and was never answered.",
           "caps": {},
           "rotation_single": [
             {
@@ -32196,6 +32653,12 @@
             "spell_power": "high (Shadow Bolt scales strongly; Flask of Supreme Power adds ~128 points to an average bolt)",
             "stamina": "medium (T3 Plagueheart Raiment carries ~73 more stamina than the Affliction set)"
           },
+          "stat_priority": [
+            "spell-hit",
+            "crit",
+            "spell-power"
+          ],
+          "stat_priority_note": "Hit first but CONTESTED in degree: one camp reports top Naxx parses at 7–9% hit and says not to trade much for it, the other calls the hit cap the one thing to bring to a first raid. Crit is wanted for Ruin and the crit-driven Shadow Vulnerability — the 2024 argument for trading crit away for raw spell power predates the 2024-12-20 revert to crit-based procs. Shadow Bolt scales well with spell power (a Flask of Supreme Power is worth about 128 points on an average Shadow Bolt).",
           "caps": {},
           "rotation_single": [
             {
@@ -32417,6 +32880,11 @@
             "pet_stamina": "high via Fel Stamina (10-50% of the Warlock's own Stamina); target ~30%+ of Warlock stamina on the demon",
             "spell_power": "medium, secondary to survivability stats"
           },
+          "stat_priority": [
+            "stamina",
+            "shadow-spell-power"
+          ],
+          "stat_priority_note": "Stamina first, alongside Demonic Embrace: Soul Link splits your damage with a pet whose health scales from your own through Fel Stamina (10–50%), and players aim for the demon to carry roughly 30% of the warlock's stamina. Shadow spell damage next. No fuller ordering exists; the PvP epic set is reported to have lost 10% Soul Link and to have low armor (single source).",
           "caps": {},
           "rotation_single": [],
           "rotation_aoe": [],
@@ -32613,6 +33081,13 @@
             "crit": "wanted for Soul Fire/Conflagrate burst",
             "hit": "lower priority than in PvE (level-60 targets)"
           },
+          "stat_priority": [
+            "stamina",
+            "shadow/fire-spell-power",
+            "crit",
+            "spell-hit"
+          ],
+          "stat_priority_note": "\"PvP is not PvE, survivability is better than raw damage. So everyone stack on stamina until they reach some comfortable amount to not die instantly\" [Xudo p=108896]. Then Shadow or Fire spell damage — cheap \"of shadow wrath\" greens do the job — then crit for Soul Fire and Conflagrate burst. Hit matters less than in PvE because the targets are level 60. The epic Warlock PvP set has 0% crit against the blue set's 2%, and raid gear generally beats PvP gear in battlegrounds.",
           "caps": {},
           "rotation_single": [
             {
@@ -32722,7 +33197,7 @@
           "id": "talent-point-order-by-level-10-60",
           "heading": "Talent point order by level 10–60",
           "level": 2,
-          "markdown": "**Primary build — Affliction leveling (PvE), from a \"Warlock affliction leveling mini guide\" cross-posted from Reddit** — [Nuninho32 (player), quoting a guide \"made by chappelles\", 2026-01-28](https://forum.turtlecraft.gg/viewtopic.php?p=166748#p166748), 1.18.1-announced-pre-release, written against the **1.18.0 (CC3) talent tree** (link is to `talent-builder.haaxor1689.dev/c/1.18.0/warlock`). No source updates this order for 1.18.1's live curse/Searing Pain/Hellfire numbers, but those changes do not touch the talents this build takes, so it is treated as **still valid post-1.18.1** (not respecced away from by any source).\n\nBuild link: `https://talent-builder.haaxor1689.dev/c/1.18.0/warlock?points=EoASCASDJBFAB-AoD-F`\n\n| Levels | Talent |\n|---|---|\n| 10–14 | Improved Corruption 5/5 |\n| 15–17 | Suppression 3/5 |\n| 18–19 | Improved Life Tap 2/2 (or interleave with Suppression — author's note: \"I prefer the hit chance first but you can easily do lifetap before suppression, or, 2 points suppression → 2 points life tap → 1 point suppression\") |\n| 20–21 | Fel Concentration 2/2 |\n| 22–23 | Improved Drains 2/2 |\n| 24 | Suppression 4/5 **or** Improved Curse of Agony 1/3 — \"if you plan to PvP I would definitely take curse of exhaustion 1/1\" instead |\n| 25 | Nightfall 1/2 |\n| 26–28 | Soul Siphon 3/3 |\n| 29 | Nightfall 2/2 |\n| 30 | Malediction 1/1 (\"if you plan to PvP, I would take improved curse of exhaustion around these levels\" instead) |\n| 31 | Siphon Life 1/1 (interchangeable with the previous pick; author found it \"overkill for most mobs\" — corruption + agony + drains already kills, so Siphon Life is \"mana wasteful\", contested/YMMV) |\n| 32 | Rapid Deterioration 1/2 |\n| 33–34 | Grim Reach 2/2 |\n| 35–39 | Shadow Mastery 5/5 |\n| 40 | Dark Harvest 1/1 |\n| 41–45 | Shadow Vulnerability (Destruction tree) |\n| 46–50 | Demonic Embrace 5/5 (Demonology tree) |\n| 51–53 | Demonic Aegis (Demonology tree) |\n| 54–60 | Free — author's suggested options: Master Conjurer, Improved Curse of Agony, finishing Suppression, Curse of Exhaustion + Improved Curse of Exhaustion, finishing Rapid Deterioration, Shadowburn, Fel Domination, Fel Stamina |\n\nSource: [Nuninho32/chappelles, 2026-01-28](https://forum.turtlecraft.gg/viewtopic.php?p=166748#p166748).\n\n**Alternative — CC2-era Affliction \"no-Nightfall\" order**, single source: \"If you just stay affliction all the way with no pts in demo you can get siphon life, malediction and soul siphon talents followed by shadow mastery and then can just melt everything by the time you are lvl 40 ... I wouldnt bother with nightfall or ever cast a shadowbolt while leveling ... Use SL, Agony, Curse of Shadows, Corruption and either drain soul or dot up the next target.\" — [Eversongwoods (player), 2025-02-03](https://forum.turtlecraft.gg/viewtopic.php?p=118780#p118780). Opening priorities: \"5/5 corruption, 5/5 suppression, 2/2 lifetap, 2/2 improved drains\" then branch into Demonology or stay Affliction — [Eversongwoods (player), 2025-02-03](https://forum.turtlecraft.gg/viewtopic.php?p=118774#p118774).\n\n**Alternative — beginner Affliction/Destruction build**, single source, no level breakdown given (opaque talent-calculator link `https://talents.turtlecraft.gg/warlock?points=FoASFYSARIAAAAAoTAAoAbAAAAAAAAAAAAAAAAAAAAA=`), guidance: \"Start with affliction, prioritise imp corruption, imp drains and fel concentration ... The general rule is Affli/Demo mixes are best for leveling, but if you know what you're doing you can easily go 11 points into destruction as well for Shadowburn.\" Also links the original vanilla \"Drain Tanking\" build (external Google Drive PDF, not fetchable/verifiable from these sources) — [Zulnam (player), 2025-02-03](https://forum.turtlecraft.gg/viewtopic.php?p=118801#p118801).\n\n**Demonology hybrid — Demonic Sacrifice self-heal build (CC2/CC3 era, before Demonic Sacrifice moved and was reworked)**: \"the tier 3 demonology talent Demonic Sacrifice ... sacrificing the voidwalker is actually incredibly good while leveling. You get a buff that heals for 3% every 5 seconds ... I can easily pull 2 or 3 mobs at a time, dot them all up, tank all the damage while wanding them down ... if you need to solo an elite you can just summon voidwalker, have it tank until its about to die, and then sacrifice it anyway to get the hp regen buff\" — [Browntown22 (player), 2025-03-05](https://forum.turtlecraft.gg/viewtopic.php?p=121816#p121816), build link `https://talents.turtlecraft.gg/warlock?points=DoASAYBAAAAAAAAjDAABAAAAAAAAAAAAAAAAAAAAAAA=`, planning to finish the Affliction tree. Countered: \"The void sac buff is not exactly optimal for leveling but whatever works, i use it for farming sometimes. You should spec into fel concentration asap though it would make things a lot smoother.\" — [Eversongwoods (player), 2025-03-06](https://forum.turtlecraft.gg/viewtopic.php?p=121836#p121836). **Single source for the strategy, contested value**; note CC3 (2025-07-25) moved Demonic Sacrifice higher in the tree with a new prerequisite (see `synthesis/1.18.1-master-changelog.md` and the CC2/CC3 kit notes in `demonology-ranged-dps.md`), so the exact talent position in this 2025-03 link may no longer match the live tree — treat the level (row) as **outdated**, the strategy (sacrifice for HoT while leveling) as still reported workable.\n\n**Respec points**: no source gives a single canonical respec level. Inferred from the above: players who level Affliction stay Affliction to 60 (Nuninho32/chappelles build has no respec built in); players who want Demonology's survivability go \"12 pts affliction ... then go 8 into demo for the stamina and void talent\" as a permanent split rather than a respec — [Erhog quoting the older \"Get Sick or Get Demons\" thread pattern](https://forum.turtlecraft.gg/viewtopic.php?p=102794#p102794) (Eversongwoods). No source reports respeccing specifically at a named level (contrast with the Paladin guide's \"respec at 30\"); this is a **gap**."
+          "markdown": "**Primary build — Affliction leveling (PvE), from a \"Warlock affliction leveling mini guide\" cross-posted from Reddit** — [Nuninho32 (player), quoting a guide \"made by chappelles\", 2026-01-28](https://forum.turtlecraft.gg/viewtopic.php?p=166748#p166748), 1.18.1-announced-pre-release, written against the **1.18.0 (CC3) talent tree** (link is to `talent-builder.haaxor1689.dev/c/1.18.0/warlock`). No source updates this order for 1.18.1's live curse/Searing Pain/Hellfire numbers, but those changes do not touch the talents this build takes, so it is treated as **still valid post-1.18.1** (not respecced away from by any source).\n\nBuild link: `https://talent-builder.haaxor1689.dev/c/1.18.0/warlock?points=EoASCASDJBFAB-AoD-F`\n\n| Levels | Talent | Note |\n|---|---|---|\n| 10–14 | Improved Corruption 5/5 | |\n| 15–17 | Suppression 3/5 | |\n| 18–19 | Improved Life Tap 2/2 | or interleave with Suppression — \"I prefer the hit chance first but you can easily do lifetap before suppression, or, 2 points suppression → 2 points life tap → 1 point suppression\" |\n| 20–21 | Fel Concentration 2/2 | |\n| 22–23 | Improved Drains 2/2 | |\n| 24 | Suppression 4/5 **or** Improved Curse of Agony 1/3 | \"if you plan to PvP I would definitely take curse of exhaustion 1/1\" instead |\n| 25 | Nightfall 1/2 | |\n| 26–28 | Soul Siphon 3/3 | |\n| 29 | Nightfall 2/2 | |\n| 30 | Malediction 1/1 | \"if you plan to PvP, I would take improved curse of exhaustion around these levels\" instead |\n| 31 | Siphon Life 1/1 | interchangeable with the previous pick; the author found it \"overkill for most mobs\" — corruption + agony + drains already kills, so Siphon Life is \"mana wasteful\" (contested/YMMV) |\n| 32 | Rapid Deterioration 1/2 | |\n| 33–34 | Grim Reach 2/2 | |\n| 35–39 | Shadow Mastery 5/5 | |\n| 40 | Dark Harvest 1/1 | |\n| 41–45 | Shadow Vulnerability (Destruction tree) | |\n| 46–50 | Demonic Embrace 5/5 (Demonology tree) | |\n| 51–53 | Demonic Aegis (Demonology tree) | |\n| 54–60 | Free points | the author's suggested options: Master Conjurer, Improved Curse of Agony, finishing Suppression, Curse of Exhaustion + Improved Curse of Exhaustion, finishing Rapid Deterioration, Shadowburn, Fel Domination, Fel Stamina |\n\nSource: [Nuninho32/chappelles, 2026-01-28](https://forum.turtlecraft.gg/viewtopic.php?p=166748#p166748).\n\n**Alternative — CC2-era Affliction \"no-Nightfall\" order**, single source: \"If you just stay affliction all the way with no pts in demo you can get siphon life, malediction and soul siphon talents followed by shadow mastery and then can just melt everything by the time you are lvl 40 ... I wouldnt bother with nightfall or ever cast a shadowbolt while leveling ... Use SL, Agony, Curse of Shadows, Corruption and either drain soul or dot up the next target.\" — [Eversongwoods (player), 2025-02-03](https://forum.turtlecraft.gg/viewtopic.php?p=118780#p118780). Opening priorities: \"5/5 corruption, 5/5 suppression, 2/2 lifetap, 2/2 improved drains\" then branch into Demonology or stay Affliction — [Eversongwoods (player), 2025-02-03](https://forum.turtlecraft.gg/viewtopic.php?p=118774#p118774).\n\n**Alternative — beginner Affliction/Destruction build**, single source, no level breakdown given (opaque talent-calculator link `https://talents.turtlecraft.gg/warlock?points=FoASFYSARIAAAAAoTAAoAbAAAAAAAAAAAAAAAAAAAAA=`), guidance: \"Start with affliction, prioritise imp corruption, imp drains and fel concentration ... The general rule is Affli/Demo mixes are best for leveling, but if you know what you're doing you can easily go 11 points into destruction as well for Shadowburn.\" Also links the original vanilla \"Drain Tanking\" build (external Google Drive PDF, not fetchable/verifiable from these sources) — [Zulnam (player), 2025-02-03](https://forum.turtlecraft.gg/viewtopic.php?p=118801#p118801).\n\n**Demonology hybrid — Demonic Sacrifice self-heal build (CC2/CC3 era, before Demonic Sacrifice moved and was reworked)**: \"the tier 3 demonology talent Demonic Sacrifice ... sacrificing the voidwalker is actually incredibly good while leveling. You get a buff that heals for 3% every 5 seconds ... I can easily pull 2 or 3 mobs at a time, dot them all up, tank all the damage while wanding them down ... if you need to solo an elite you can just summon voidwalker, have it tank until its about to die, and then sacrifice it anyway to get the hp regen buff\" — [Browntown22 (player), 2025-03-05](https://forum.turtlecraft.gg/viewtopic.php?p=121816#p121816), build link `https://talents.turtlecraft.gg/warlock?points=DoASAYBAAAAAAAAjDAABAAAAAAAAAAAAAAAAAAAAAAA=`, planning to finish the Affliction tree. Countered: \"The void sac buff is not exactly optimal for leveling but whatever works, i use it for farming sometimes. You should spec into fel concentration asap though it would make things a lot smoother.\" — [Eversongwoods (player), 2025-03-06](https://forum.turtlecraft.gg/viewtopic.php?p=121836#p121836). **Single source for the strategy, contested value**; note CC3 (2025-07-25) moved Demonic Sacrifice higher in the tree with a new prerequisite (see `synthesis/1.18.1-master-changelog.md` and the CC2/CC3 kit notes in `demonology-ranged-dps.md`), so the exact talent position in this 2025-03 link may no longer match the live tree — treat the level (row) as **outdated**, the strategy (sacrifice for HoT while leveling) as still reported workable.\n\n**Respec points**: no source gives a single canonical respec level. Inferred from the above: players who level Affliction stay Affliction to 60 (Nuninho32/chappelles build has no respec built in); players who want Demonology's survivability go \"12 pts affliction ... then go 8 into demo for the stamina and void talent\" as a permanent split rather than a respec — [Erhog quoting the older \"Get Sick or Get Demons\" thread pattern](https://forum.turtlecraft.gg/viewtopic.php?p=102794#p102794) (Eversongwoods). No source reports respeccing specifically at a named level (contrast with the Paladin guide's \"respec at 30\"); this is a **gap**."
         },
         {
           "id": "skill-training-priority",
@@ -34674,6 +35149,13 @@
             "haste": "contested — community argues item design overrates it; cat gets only ~20-30% of damage from autoattacks vs ~50% for other melee (single source, unconfirmed)",
             "intellect": "contested dump stat on T2.5/T3.5 PvE sets; defended only as a PvP-survivability stat"
           },
+          "stat_priority": [
+            "hit-to-8-percent",
+            "strength/agility",
+            "crit",
+            "haste"
+          ],
+          "stat_priority_note": "Melee hit cap is 8%, or 5% with Natural Weapons 3/3; hit above the cap does nothing and cannot reduce dodge or parry, which key off weapon skill. Cat form is permanently stuck at 300 weapon skill, so a feral cannot buy down glancing blows the way other melee can. Strength and Agility are the scaling stats because forms convert weapon-slot items into flat Feral Attack Power. Crit is valued but no source gives it a weight. Haste is CONTESTED and the community considers it overvalued by item designers, since only about 20–30% of feral damage comes from auto-attacks. Intellect on the T2.5/T3.5 sets is contested — useful for PvP shifting, considered wasted stat points in PvE.",
           "caps": {
             "hit_cap_melee": "8% (5% effective with Natural Weapons 3/3, +3% hit)",
             "weapon_skill_in_form": "fixed at 300 regardless of gear — permanent glancing-blow tax, no known fix"
@@ -34973,7 +35455,28 @@
                 "spell_id": null
               }
             ],
-            "leveling_order": []
+            "leveling_order": [
+              {
+                "level": "~20",
+                "tree": "Balance",
+                "talent": "Omen of Clarity",
+                "note": "approximate — \"Always go Omen of Clarity first by Lv20\"; free Wraths and, in forms, free Swipes and Claws"
+              },
+              {
+                "level": "~24+",
+                "tree": "Balance",
+                "talent": "Sylvan Blessing 2/2 (with Owlkin Frenzy 1/3)",
+                "note": "approximate — one poster prefers this split to a full 3/3 Owlkin while leveling"
+              },
+              {
+                "level": "~25",
+                "tree": "Feral",
+                "talent": "Furor",
+                "note": "approximate — \"then into Furor by Lv25\""
+              }
+            ],
+            "leveling_order_approximate": true,
+            "leveling_order_source": "No druid source gives a point-by-point table for any build. These are the anchors the Balance-leveling posts actually give (Captain4k p=165907, Templar85 p=116254, Chev03 p=165791); every level is approximate. See synthesis/classes/druid/leveling.md."
           },
           "stat_weights": {
             "crit": "high — 1% crit roughly equal to 4-5% haste (single detailed source); triple-dips via cast damage, Nature's Grace haste proc, and Eclipse damage multiplier",
@@ -34981,6 +35484,13 @@
             "hit": "important and hard to reach from tier gear alone; full T3 set provides only ~4% spell hit",
             "spell_power": "baseline scaling stat, no numeric weight given (gap)"
           },
+          "stat_priority": [
+            "crit",
+            "spell-hit",
+            "spell-power",
+            "haste"
+          ],
+          "stat_priority_note": "Crit is rated far above haste — \"1% crit equal to around 4-5% Haste. It might even be worse\" — because crit triple-dips (damage per cast, the Nature's Grace haste proc, and the Eclipse multiplier) while haste only really helps Starfire. Hit is hard to cap from set gear alone (the nine-piece T3 set carries only 4% spell hit), and several top players deliberately trade a few percent of hit for crit. Spell power is the baseline scaling stat with no numeric weight given. Item design loads Balance gear with haste, which the source calls a mismatch.",
           "caps": {
             "spell_hit_from_t3": "~4% (full 9-piece T3 set) — cap requires specific non-set items (e.g. Loatheb's/Regalia staff)",
             "spell_penetration": "not found in sources (gap)"
@@ -35190,6 +35700,10 @@
           "stat_weights": {
             "stamina": "prioritized over raw spell power for attrition survivability (single source, no numeric weight)"
           },
+          "stat_priority": [
+            "stamina"
+          ],
+          "stat_priority_note": "Stamina is the only stat the PvP sources rank, and they rank it first: \"Trying to go full spd is silly because you lose survivability against melee foes and never reach the dmg output of other casters ... Moonkins play best if they stack stam and certain set bonuses for attrition fights\" [Turboman p=160309]. No numeric weight for anything else is given.",
           "caps": {},
           "rotation_single": [
             {
@@ -35607,6 +36121,10 @@
           "stat_weights": {
             "stamina": "prioritized over Resilience per one detailed report ('Focus on stamina gear over anything else'); Resilience alone reported insufficient against Envenom-spec Rogues even fully stacked"
           },
+          "stat_priority": [
+            "stamina"
+          ],
+          "stat_priority_note": "\"Focus on stamina gear over anything else\" [Frantsel p=156428]. Whether Resilience is worth anything is CONTESTED and unresolved: a fully Kara-geared, all-stamina-enchanted, titan-flasked druid still died to an Envenom rogue's opener, and the report concludes \"resilience won't save you btw\" — but the burst in question (Dissolvent Poison) was separately flagged as likely to be hotfixed. Stealth-detection items are tracked separately in the playbook; they are gear, not a combat stat.",
           "caps": {},
           "rotation_single": [
             {
@@ -35680,7 +36198,7 @@
           "id": "talent-point-order-by-level-10-60",
           "heading": "Talent point order by level, 10–60",
           "level": 2,
-          "markdown": "No source gives a single authoritative point-by-point table for the post-Class-Changes-2 talent tree; the pieces given, combined:\n\n- **~Level 10-20 (Feral leveling path)**: put points toward the Cat Form movement-speed talent (Feral Swiftness/Feline Swiftness) as early as possible — \"you wanna rush the additional movement speed in cat form talent as fast as you can, i think level 20/21ish is when you can get em\" — [Biggamehuntard (player), 2026-03-15](https://forum.turtlecraft.gg/viewtopic.php?p=170843#p170843), echoed by an older (pre-CC2, structurally still directionally valid) build: \"go feral to Feline Swiftness so you got a nice +30% cat movement speed at 21\" — [Hctwowfan (player), 2024-05-23](https://forum.turtlecraft.gg/viewtopic.php?p=95535#p95535).\n- **~Level 20-25**: pick up **Omen of Clarity** (\"Then switch to balance to get Omen of Clarity asap\" — same source) and **Furor** shortly after — \"Always go Omen of Clarity first by Lv20, then into Furor by Lv25. The clearcasting procs very often and gives you tons of threat when tanking from all the free swipes you get in bear form. It also gives you free claws/shreds in cat form\" — [Captain4k (player), 2026-01-22](https://forum.turtlecraft.gg/viewtopic.php?p=165907#p165907). A minority view delays Omen even further: \"I don't think I grabbed Omen until I could grab the bleed->energy talent both\" — [Biggamehuntard (player), 2026-03-15](https://forum.turtlecraft.gg/viewtopic.php?p=170843#p170843).\n- **~Level 24+**: consider **Sylvan Blessing** (1 point) for self-sustain between fights — [Chev03 (player), 2026-01-21](https://forum.turtlecraft.gg/viewtopic.php?p=165791#p165791); an older thread also suggests 1/3 Owlkin Frenzy plus 2/2 Sylvan Blessing over a full 3/3 Owlkin investment while leveling as Balance — [Templar85 (player), 2025-01-11](https://forum.turtlecraft.gg/viewtopic.php?p=116254#p116254).\n- **~Level 30**: Swift Travel Form becomes available via the questline 'Mount Hyjal In Turmoil' (started at Loganaar in Moonglade) — official baseline change ([Dragunovi (staff), 2024-10-12](https://forum.turtlecraft.gg/viewtopic.php?p=102966#p102966)). \"Once you receive travelform, reset and get omen\" — [Turboman (player), 2026-01-19](https://forum.turtlecraft.gg/viewtopic.php?p=165651#p165651) — i.e. some players deliberately delay a full respec until Travel Form is in hand.\n- **Beyond 30, decision point (Feral)**: choose between AoE bear farming (3/3 Improved Thorns pre-CC2 equivalent, herd-and-Swipe play) or single-target Cat front-shredding, and skip/delay Improved Shred if not front-shredding much — [Hctwowfan (player), 2024-05-23](https://forum.turtlecraft.gg/viewtopic.php?p=95535#p95535). Note Bear's own damage doesn't come online until the rage-on-crit talent (~40+) and Savage Bite (54) — [Snkx (player), 2025-03-19](https://forum.turtlecraft.gg/viewtopic.php?p=122982#p122982).\n- **Level 44/52/60**: Barkskin (Feral) is learned automatically with new ranks at these levels — official ([Dragunovi (staff), 2024-10-12](https://forum.turtlecraft.gg/viewtopic.php?p=102966#p102966)).\n- **Respeccing**: \"you will respec at 60\" is treated as a given for Balance levelers, who are told not to worry about filling out Vengeance/Nature's Reach or other endgame-only talents while leveling — [Tarsis (player), 2025-04-09](https://forum.turtlecraft.gg/viewtopic.php?p=126107#p126107).\n- **No source gives a complete point-by-point table through 60** for any build — treat the above as anchors, not an exhaustive list (**gap**, matching the paladin playbook's equivalent finding)."
+          "markdown": "No source gives a single authoritative point-by-point table for the post-Class-Changes-2 talent tree. The table below is the anchors the sources actually give, in order; **every level in it is approximate** (\"~\"), because no post assigns a talent to a level. Rows the sources do not support are not invented.\n\n| Levels | Talent | Note |\n|---|---|---|\n| ~10–21 | Feral Swiftness / Feline Swiftness (Cat movement speed) | approximate — \"you wanna rush the additional movement speed in cat form talent as fast as you can, i think level 20/21ish is when you can get em\" — [Biggamehuntard (player), 2026-03-15](https://forum.turtlecraft.gg/viewtopic.php?p=170843#p170843); older pre-CC2 echo \"go feral to Feline Swiftness so you got a nice +30% cat movement speed at 21\" — [Hctwowfan (player), 2024-05-23](https://forum.turtlecraft.gg/viewtopic.php?p=95535#p95535) |\n| ~20 | Omen of Clarity (Balance) | approximate — \"Always go Omen of Clarity first by Lv20 … The clearcasting procs very often and gives you tons of threat when tanking from all the free swipes you get in bear form. It also gives you free claws/shreds in cat form\" — [Captain4k (player), 2026-01-22](https://forum.turtlecraft.gg/viewtopic.php?p=165907#p165907). Minority view delays it: \"I don't think I grabbed Omen until I could grab the bleed->energy talent both\" — [Biggamehuntard (player), 2026-03-15](https://forum.turtlecraft.gg/viewtopic.php?p=170843#p170843) |\n| ~25 | Furor | approximate — \"then into Furor by Lv25\" — [Captain4k (player), 2026-01-22](https://forum.turtlecraft.gg/viewtopic.php?p=165907#p165907) |\n| ~24+ | Sylvan Blessing 1 | approximate — self-sustain between fights — [Chev03 (player), 2026-01-21](https://forum.turtlecraft.gg/viewtopic.php?p=165791#p165791); as Balance, 1/3 Owlkin Frenzy plus 2/2 Sylvan Blessing over a full 3/3 Owlkin — [Templar85 (player), 2025-01-11](https://forum.turtlecraft.gg/viewtopic.php?p=116254#p116254) |\n| ~30+ | Decision point: bear-AoE talents (the 3/3 Improved Thorns herd-and-Swipe style) **or** single-target Cat front-shredding | approximate — skip or delay Improved Shred if you do not front-shred much — [Hctwowfan (player), 2024-05-23](https://forum.turtlecraft.gg/viewtopic.php?p=95535#p95535) |\n| ~40+ | Rage-on-crit talent (Bear) | approximate — Bear's own damage does not come online before this, with Savage Bite at 54 — [Snkx (player), 2025-03-19](https://forum.turtlecraft.gg/viewtopic.php?p=122982#p122982) |\n\nNot talent points, but fixed by level: Swift Travel Form comes from the level-30 questline 'Mount Hyjal In Turmoil' (started at Loganaar in Moonglade) and Barkskin gains ranks automatically at 44/52/60 — official ([Dragunovi (staff), 2024-10-12](https://forum.turtlecraft.gg/viewtopic.php?p=102966#p102966)). \"Once you receive travelform, reset and get omen\" — [Turboman (player), 2026-01-19](https://forum.turtlecraft.gg/viewtopic.php?p=165651#p165651) — i.e. some players deliberately delay a full respec until Travel Form is in hand.\n\n**Respeccing**: \"you will respec at 60\" is treated as a given for Balance levelers, who are told not to worry about filling out Vengeance/Nature's Reach or other endgame-only talents while leveling — [Tarsis (player), 2025-04-09](https://forum.turtlecraft.gg/viewtopic.php?p=126107#p126107).\n\n**No source gives a complete point-by-point table through 60** for any build — treat the table above as anchors, not an exhaustive list (**gap**, matching the paladin playbook's equivalent finding)."
         },
         {
           "id": "skill-training-priority",

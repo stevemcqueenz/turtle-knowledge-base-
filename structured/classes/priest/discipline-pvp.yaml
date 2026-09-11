@@ -53,6 +53,8 @@ stat_weights:
   spell_crit: 3
   spell_hit: "3%"
   healing_power: "drives PW:S size (player-tested)"
+stat_priority: [stamina, spell-power, spell-crit, spell-hit-3-percent]
+stat_priority_note: "Stamina first for survivability, then spell power (damage and healing rather than Holy-only), crit for Searing Light procs, and 3% hit versus level-60 players. Spell penetration only against opponents who stack resistance. Power Word: Shield scales with healing power, not spell power, per post-1.18.1 player testing — a single source, but it is the one thing that would change this order."
 caps:
   spell_hit_vs_players_pct: 3
   chastise_range_yd: 25

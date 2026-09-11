@@ -64,6 +64,8 @@ stat_weights:
   intellect: "low, mana pool only"
   stamina: "high (mana pool is tied to health via Life Tap; Affliction tier sets are stamina-poor)"
   spirit: "low/dump stat (suppressed during channels per a single 2020 report, never retested)"
+stat_priority: [spell-hit-5-6-percent-from-gear, haste-or-spell-power-unresolved]
+stat_priority_note: "Suppression covers 10% of the hit a warlock needs for Affliction spells, so players run 5–6% on gear (the 16% level-63 figure is vanilla baseline, not a Turtle statement). After hit the order is genuinely unresolved: the community wiki says \"Haste and Hit\" and one geared player says \"as much haste as you can get\", but the direct question \"is Affli better with haste or full sp?\" was asked and never answered. Rapid Deterioration's 6% haste is multiplicative with gear haste, and the game rounds tick timing up to 0.04 s. Whether Dark Harvest is affected by hit at all is an open question."
 caps: {}
 rotation_single:
   - {priority: 1, action: "Shadow Bolt", condition: "Nightfall proc (Shadow Trance) is up; break a Drain Soul channel for it, not Dark Harvest"}

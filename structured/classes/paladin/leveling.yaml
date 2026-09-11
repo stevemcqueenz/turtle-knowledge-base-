@@ -1,0 +1,162 @@
+# Paladin — leveling kill loop — companion to synthesis/classes/paladin/leveling.md
+# Structured answer to "what do I press while leveling". Every field cites the post it
+# came from; a field the sources do not settle is null and named in `gaps`.
+class: Paladin
+source_file: synthesis/classes/paladin/leveling.md
+patch_validity:
+  written_for: "the Paladin guide thread (2022-10-18, edited 2024-12-04 for 1.17.2) plus 2025 leveling threads"
+  valid_for_1181: true
+  notes: "Talent positions are unchanged in 1.18.1, but Righteous Strikes became Zealous Defence, Crusader Strike rank 5 went to 100% weapon damage and Holy Strike ranks were reworked. Staff called Protection \"extremely strong during leveling and early endgame\" and said 1.18.1 slightly reduces early power. No post-1.18.1 leveling order has been posted."
+spec_verdict:
+  favored:
+    spec: Retribution
+    build: "Retribution (questing)"
+    agreement: consensus
+    why: "The sources split by play pattern rather than power: Retribution if you mainly run quests, Protection if you grind packs or run dungeons."
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=135039#p135039", author: Noephix, authority: player, date: "2025-06-10"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=144431#p144431", author: Thearturq, authority: player, date: "2025-08-11"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=140079#p140079", author: Springboards, authority: player, date: "2025-07-17"}
+  alternatives:
+    - spec: Protection
+      build: "Protection (pack grinding and dungeons)"
+      when: "from ~30, when Holy Shield comes online; weak before that"
+      agreement: consensus
+      why: "More mana-efficient than the other two trees and able to hold 3–5 mobs at once, with short dungeon queues."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=135007#p135007", author: Zulnam, authority: player, date: "2025-06-10"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=134989#p134989", author: Dissasster, authority: player, date: "2025-06-10"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=165976#p165976", author: Terrydavis, authority: player, date: "2026-01-22"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=106313#p106313", author: Steakhouse, authority: player, date: "2024-11-04"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+  avoid:
+    - what: "Leveling Holy"
+      agreement: "no post-CC2 source recommends it"
+      why: "The only Holy-first route in the corpus (\"go holy until consecration, then go prot\") predates Consecration becoming a baseline level-20 ability, which removed its reason to exist."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=17557#p17557", author: Pfwg, authority: player, date: "2022-03-17"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251", author: Torta, authority: staff, date: "2022-07-24"}
+    - what: "Trying to tank before 16, or to hold packs before 20"
+      agreement: consensus
+      why: "Righteous Fury is a level-16 ability and Consecration is baseline at 20; before those you have no threat tools and no AoE."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=17965#p17965", author: Thefishyone, authority: player, date: "2022-04-06"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251", author: Torta, authority: staff, date: "2022-07-24"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=156127#p156127", author: Catyngla, authority: player, date: "2025-10-19"}
+opener:
+  - step: 1
+    spec: null
+    action: "Seal of Righteousness (Seal of Command rank 1 from 30 if your weapon is 3.5 speed or slower)"
+    condition: "before the pull; a seal should never be down"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=27457#p27457", author: Unchallenged, authority: "player (guide writer)", date: "2022-10-18"}
+  - step: 2
+    spec: null
+    action: "Blessing of Might (Blessing of Wisdom when mana is the limit; Blessing of Sanctuary as Protection)"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=27457#p27457", author: Unchallenged, authority: "player (guide writer)", date: "2022-10-18"}
+  - step: 3
+    spec: null
+    action: "Pull and auto-attack"
+    condition: "white damage is most of your kill; the strikes ride on top of it"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=27457#p27457", author: Unchallenged, authority: "player (guide writer)", date: "2022-10-18"}
+  - step: 4
+    spec: null
+    action: "Holy Strike (max rank)"
+    condition: "the standing filler — with Judgement of Wisdom up it pays back its own mana"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=27457#p27457", author: Unchallenged, authority: "player (guide writer)", date: "2022-10-18"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=157245#p157245", author: Kerenis, authority: player, date: "2025-10-27"}
+  - step: 5
+    spec: null
+    action: "Judgement to finish the mob, then re-seal"
+    condition: "Judgement of Righteousness while leveling; Judgement of Command as Retribution from 30"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=27457#p27457", author: Unchallenged, authority: "player (guide writer)", date: "2022-10-18"}
+priority:
+  - priority: 1
+    action: "Keep a seal up"
+    condition: "Seal of Righteousness by default; Seal of Wisdom or Seal of Light instead on 3+ mobs or when mana/health is the limit"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=27457#p27457", author: Unchallenged, authority: "player (guide writer)", date: "2022-10-18"}
+  - priority: 2
+    action: "Consecration"
+    condition: "2+ targets, from level 20; highest rank on the pull, rank 1 afterwards for mana"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=27457#p27457", author: Unchallenged, authority: "player (guide writer)", date: "2022-10-18"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251", author: Torta, authority: staff, date: "2022-07-24"}
+  - priority: 3
+    action: "Holy Shield"
+    condition: "Protection, on Redoubt procs and otherwise on cooldown — blocks refund the cast"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=27457#p27457", author: Unchallenged, authority: "player (guide writer)", date: "2022-10-18"}
+  - priority: 4
+    action: "Holy Strike (max rank)"
+    condition: "the default button between autos; lower ranks while tanking if mana is tight"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=27457#p27457", author: Unchallenged, authority: "player (guide writer)", date: "2022-10-18"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=67010#p67010", author: Isvya, authority: player, date: "2023-09-26"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=165976#p165976", author: Terrydavis, authority: player, date: "2026-01-22"}
+  - priority: 5
+    action: "Judgement, then re-seal"
+    condition: "to finish a mob, or re-judge Wisdom whenever the judged mob dies; judging more often kills faster but costs mana"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=27457#p27457", author: Unchallenged, authority: "player (guide writer)", date: "2022-10-18"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=50330#p50330", author: Bryonus, authority: player, date: "2023-06-16"}
+  - priority: 6
+    action: "Crusader Strike"
+    condition: "CONTESTED (Retribution): keep 3 stacks up and fall back to Holy Strike, versus Holy Strike alone being faster overall because it has no downtime"
+    agreement: contested
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=147231#p147231", author: Aalena, authority: player, date: "2025-08-20"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=147228#p147228", author: Xqsme, authority: player, date: "2025-08-20"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=156080#p156080", author: Oldenwisp, authority: player, date: "2025-10-18"}
+  - priority: 7
+    action: "Do not sit and drink"
+    condition: "swap to Seal/Judgement of Wisdom and keep killing; Blessing of Wisdom on yourself; Divine Shield or Hand of Protection plus bandages heals for free"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=147231#p147231", author: Aalena, authority: player, date: "2025-08-20"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=8305#p8305", author: Unangwata, authority: player, date: "2020-10-30"}
+mob_selection:
+  rule: "Single mobs until 20, because you have no AoE before Consecration. From 20+ as Protection, body- or LoS-pull 3–5 mobs 2–3 levels below you, Consecrate, and self-heal around 50% health. Whether pack grinding beats questing before you have dungeon gear is contested."
+  agreement: contested
+  sources:
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=156127#p156127", author: Catyngla, authority: player, date: "2025-10-19"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=135007#p135007", author: Zulnam, authority: player, date: "2025-06-10"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=134989#p134989", author: Dissasster, authority: player, date: "2025-06-10"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=49816#p49816", author: Getplucked, authority: player, date: "2023-06-12"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=49784#p49784", author: Werefox, authority: player, date: "2023-06-12"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=50330#p50330", author: Bryonus, authority: player, date: "2023-06-16"}
+weapon_rule:
+  rule: "Weapon speed picks your seal: Seal of Righteousness on 3.4 speed or faster, Seal of Command (Retribution talent at 30, rank 1 only to save mana) on 3.5 or slower. Protection and AoE grinding want a fast weapon so Judgement of Wisdom returns mana on every swing. Retribution buys a green or blue two-hander every 5–10 levels and judges weapons by DPS and speed, not by white \"+fire damage\" lines. \"Adds X damage to melee attacks\" pieces stack extra Judgement of Wisdom procs."
+  agreement: consensus
+  sources:
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=27457#p27457", author: Unchallenged, authority: "player (guide writer)", date: "2022-10-18"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=153945#p153945", author: Schlaechter, authority: player, date: "2025-10-01"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=140080#p140080", author: Springboards, authority: player, date: "2025-07-17"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=101311#p101311", author: Bigsmerf, authority: player, date: "2024-09-15"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=101314#p101314", author: Atreidon, authority: player, date: "2024-09-15"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=52649#p52649", author: Getplucked, authority: player, date: "2023-07-08"}
+stat_priority:
+  - spec: Retribution
+    order: [strength, stamina, agility]
+    notes: "The guide's Retribution order; \"bear\" modifier gear (stamina and strength) is the cheap way to buy it."
+    agreement: single
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=27457#p27457", author: Unchallenged, authority: "player (guide writer)", date: "2022-10-18"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=140080#p140080", author: Springboards, authority: player, date: "2025-07-17"}
+  - spec: Protection
+    order: [stamina, armor, strength]
+    notes: "Stamina and armor first is agreed. Intellect is contested: the guide takes Int/Stam solo and Stam/Int in dungeons and Isvya prefers \"of the Eagle\" greens for the mana pool, while Azcron argues mana stops being the limit once Seal of Wisdom arrives at 20. Spell damage is a bonus, not a target. Strength for threat is contested at 60 as well (see protection-tank.yaml)."
+    agreement: contested
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=153775#p153775", author: Azcron, authority: player, date: "2025-09-30"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=153945#p153945", author: Schlaechter, authority: player, date: "2025-10-01"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=67010#p67010", author: Isvya, authority: player, date: "2023-09-26"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=27457#p27457", author: Unchallenged, authority: "player (guide writer)", date: "2022-10-18"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=153815#p153815", author: Idontcareatall, authority: player, date: "2025-09-30"}
+gaps:
+  - "No post-1.18.1 leveling talent order has been posted; the guide's orders are pre-1.18.1 and its Retribution calculator link shows old talents."
+  - "No source gives respec costs or an exact level for the Prot respec beyond \"around 30\"."
+  - "Whether AoE pack grinding beats questing before dungeon gear is contested and unresolved."

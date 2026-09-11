@@ -16,20 +16,22 @@ All dates UTC. Eras: **pre-1.18.1** (before 2025-10-03), **1.18.1-announced-pre-
 
 The only level-by-level route in the sources (CC3 tree, written for 1.18.0; the 1.18.1 changes do not touch these talents except the Boundless Anger/Precision Cut swap, which is a 60 concern): [armsgirl (player), 2025-10-31](https://forum.turtlecraft.gg/viewtopic.php?p=157920#p157920), build link to 40 `https://talents.turtlecraft.gg/warrior?points=DQCDKYDIp-Ao-` (opaque):
 
-| Order | Talent | Points | Reaches at (5 pts/row logic; levels are the reader's arithmetic — the post gives order only) |
-|---|---|---|---|
-| 1 | Cruelty (Fury) | 5/5 | ~level 14 |
-| 2 | Tactical Mastery (Arms) | 3/5 | ~17 |
-| 3 | Improved Rend (Arms) | 2/2 | ~19 |
-| 4 | Improved Thunder Clap (Arms) | 3/3 | ~22 |
-| 5 | Deflection (Arms) | 2/5 | ~24 |
-| 6 | Improved Overpower (Arms) | 2/2 | ~26 |
-| 7 | Dual Wield Specialization (Fury) | 3/3 as written | ~29 |
-| 8 | Two-Handed Weapon Specialization (Arms) | 3/3 as written | ~32 |
-| 9 | Impale (Arms) | 1/2 | ~33 |
-| 10 | Master Strike (Arms) | 1/1 | ~34 |
-| 11 | Sweeping Strikes (Arms) | 1/1 | ~35 |
-| 12 | Master of Arms (Arms) | 5/5 | ~40 |
+**Every level below is approximate**: the post gives the order only, and the levels are the reader's arithmetic at one point per level from 10.
+
+| Levels | Talent | Note |
+|---|---|---|
+| ~14 | Cruelty (Fury) 5/5 | approximate — order given, level derived |
+| ~17 | Tactical Mastery (Arms) 3/5 | what makes early tanking work |
+| ~19 | Improved Rend (Arms) 2/2 | |
+| ~22 | Improved Thunder Clap (Arms) 3/3 | |
+| ~24 | Deflection (Arms) 2/5 | |
+| ~26 | Improved Overpower (Arms) 2/2 | |
+| ~29 | Dual Wield Specialization (Fury) 3/3 | "3/3" is how the post writes it; the route mixes DW and 2H talents on purpose |
+| ~32 | Two-Handed Weapon Specialization (Arms) 3/3 | "3/3" is how the post writes it |
+| ~33 | Impale (Arms) 1/2 | |
+| ~34 | Master Strike (Arms) 1/1 | |
+| ~35 | Sweeping Strikes (Arms) 1/1 | |
+| ~40 | Master of Arms (Arms) 5/5 | route ends at 40; switch to a 60 build from here |
 
 (The "3/3" for Dual Wield Specialization and Two-Handed Weapon Specialization is how the post writes it; the route mixes DW and 2H talents on purpose — "Then if you want to go 2H you switch" to a 60 build. Rank maxima are not restated here because the CC2 tree changed several rank counts; check the calculator.) Hctwowfan's tweak to the same build: "0/5 in improved shouts and instead put those into 2/2 improved slam and 3/3 blood craze" [Hctwowfan (player), 2025-10-31](https://forum.turtlecraft.gg/viewtopic.php?p=157895#p157895).
 

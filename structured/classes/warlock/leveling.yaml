@@ -1,0 +1,156 @@
+# Warlock — leveling kill loop — companion to synthesis/classes/warlock/leveling.md
+# Structured answer to "what do I press while leveling". Every field cites the post it
+# came from; a field the sources do not settle is null and named in `gaps`.
+class: Warlock
+source_file: synthesis/classes/warlock/leveling.md
+patch_validity:
+  written_for: "the 1.18.0 (CC3) tree; the primary ordered build was posted 2026-01-28"
+  valid_for_1181: true
+  notes: "1.18.1 changed curse costs, Searing Pain and Hellfire, none of which the leveling build takes. CC2 reworked Drain Soul into the class's core leveling tool, cut Corruption's cast time to 1.5 s, gave Soul Fire extra early ranks and a 30 s cooldown, and reduced Curse of Weakness to a single rank."
+spec_verdict:
+  favored:
+    spec: Affliction
+    build: "Affliction (drain tanking)"
+    agreement: consensus
+    why: "\"Affliction gives you a lot of tools for leveling that will make your life easier\" — multi-DoT, fear, and drains that let you tank one mob yourself while the Voidwalker holds another."
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102810#p102810", author: Zulnam, authority: player, date: "2024-10-09"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102794#p102794", author: Eversongwoods, authority: player, date: "2024-10-09"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=121852#p121852", author: Erhog, authority: player, date: "2025-03-06"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=118801#p118801", author: Zulnam, authority: player, date: "2025-02-03"}
+  alternatives:
+    - spec: Demonology
+      build: "Affliction/Demonology split (about 12 Affliction, then 8 into Demonology)"
+      when: "Hardcore, soloing elites, or leveling with no gear behind you"
+      agreement: consensus
+      why: "Tankier and safer, and the quick demon summon is a life saver; it is treated as a survivability pick, never a damage pick."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102794#p102794", author: Eversongwoods, authority: player, date: "2024-10-09"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=121852#p121852", author: Erhog, authority: player, date: "2025-03-06"}
+    - spec: Demonology
+      build: "Demonic Sacrifice self-heal"
+      when: "a niche: sacrifice the Voidwalker for the 3%-per-5-seconds heal and wand packs down"
+      agreement: contested
+      why: "Reported as letting you pull 2–3 mobs, DoT them and tank the whole pull; countered as \"not exactly optimal for leveling\". CC3 moved Demonic Sacrifice in the tree, so the linked build's row is outdated even though the strategy still works."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=121816#p121816", author: Browntown22, authority: player, date: "2025-03-05"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=121836#p121836", author: Eversongwoods, authority: player, date: "2025-03-06"}
+  avoid:
+    - what: "Leveling Destruction"
+      agreement: consensus
+      why: "\"Destro is the worst\"; the one use named for it is 11 points for Shadowburn if you already know what you are doing."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=121852#p121852", author: Erhog, authority: player, date: "2025-03-06"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=118801#p118801", author: Zulnam, authority: player, date: "2025-02-03"}
+    - what: "Casting Shadow Bolt while leveling Affliction"
+      agreement: contested
+      why: "\"I wouldnt bother with nightfall or ever cast a shadowbolt while leveling, could save some gold and not train it\" — but the primary build uses it as the Nightfall proc filler, and one leveler at 32 casts it occasionally."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=118780#p118780", author: Eversongwoods, authority: player, date: "2025-02-03"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166748#p166748", author: Nuninho32, authority: player, date: "2026-01-28"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=119257#p119257", author: Snipesta, authority: player, date: "2025-02-07"}
+    - what: "Training more than one rank of Curse of Weakness"
+      agreement: single
+      why: "CC2 reduced it to a single rank (−15% attack speed); extra ranks do not exist."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102973#p102973", author: Dragunovi, authority: staff, date: "2024-10-12"}
+opener:
+  - step: 1
+    spec: Affliction
+    action: "Send the Voidwalker in (Torment on autocast)"
+    condition: "keep its Torment book current — its threat ability only upgrades every ten levels, so it holds badly at 17–19, 27–29 and so on"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=118780#p118780", author: Eversongwoods, authority: player, date: "2025-02-03"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166748#p166748", author: Nuninho32, authority: player, date: "2026-01-28"}
+  - step: 2
+    spec: Affliction
+    action: Corruption
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166748#p166748", author: Nuninho32, authority: player, date: "2026-01-28"}
+  - step: 3
+    spec: Affliction
+    action: "Curse of Agony"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166748#p166748", author: Nuninho32, authority: player, date: "2026-01-28"}
+  - step: 4
+    spec: Affliction
+    action: "Drain Soul / Drain Life / Dark Harvest"
+    condition: "on tougher mobs; Drain Soul finishes the kill and returns a soul shard"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166748#p166748", author: Nuninho32, authority: player, date: "2026-01-28"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102973#p102973", author: Dragunovi, authority: staff, date: "2024-10-12"}
+  - step: 5
+    spec: Affliction
+    action: "Wand (Shadow Bolt only on a Nightfall proc)"
+    condition: "below 40 the wand is your best damage per mana and takes no pushback"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102809#p102809", author: Xudo, authority: player, date: "2024-10-09"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=119257#p119257", author: Snipesta, authority: player, date: "2025-02-07"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=118779#p118779", author: funeh, authority: player, date: "2025-02-03"}
+priority:
+  - priority: 1
+    action: "Keep the Voidwalker on something"
+    condition: "Torment right-clicked to autocast; buy the new rank as soon as it exists"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=118780#p118780", author: Eversongwoods, authority: player, date: "2025-02-03"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166748#p166748", author: Nuninho32, authority: player, date: "2026-01-28"}
+  - priority: 2
+    action: "Corruption and Curse of Agony on everything"
+    condition: "the DoTs are the damage; the wand is the filler"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166748#p166748", author: Nuninho32, authority: player, date: "2026-01-28"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=119257#p119257", author: Snipesta, authority: player, date: "2025-02-07"}
+  - priority: 3
+    action: "Wand"
+    condition: "up to about 40 the wand out-damages a Shadow Bolt for free, and it does not suffer pushback"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102809#p102809", author: Xudo, authority: player, date: "2024-10-09"}
+  - priority: 4
+    action: "Drain Life / Drain Soul to tank the mob yourself"
+    condition: "drain tanking is the named Affliction leveling technique; Fel Concentration is what keeps the drains from being interrupted"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=118801#p118801", author: Zulnam, authority: player, date: "2025-02-03"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=121836#p121836", author: Eversongwoods, authority: player, date: "2025-03-06"}
+  - priority: 5
+    action: "Fear the mob you are not fighting"
+    condition: "on a 2–3 mob pull: DoT everything, fear one, tank one, the pet holds the third; Howl of Terror covers a bad pull"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166748#p166748", author: Nuninho32, authority: player, date: "2026-01-28"}
+  - priority: 6
+    action: "Drain Soul at rank 1 in PvE"
+    condition: "the mana difference is large and the shard is the point; keep the top rank trained for warmode and PvP"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=119257#p119257", author: Snipesta, authority: player, date: "2025-02-07"}
+  - priority: 7
+    action: "Life Tap rather than sitting down"
+    condition: "Improved Life Tap and Improved Drains are what the leveling builds take for mana; no source gives explicit health/mana thresholds"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=118774#p118774", author: Eversongwoods, authority: player, date: "2025-02-03"}
+mob_selection:
+  rule: "A warlock juggles 2–3 mobs rather than taking them one at a time: DoT all of them, fear one, tank the second through drains, and let the Voidwalker hold the third. Elites are killed by kiting with the slow curse."
+  agreement: consensus
+  sources:
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166748#p166748", author: Nuninho32, authority: player, date: "2026-01-28"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=121816#p121816", author: Browntown22, authority: player, date: "2025-03-05"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102809#p102809", author: Xudo, authority: player, date: "2024-10-09"}
+weapon_rule:
+  rule: "The wand is the weapon that matters: up to about 40 it is your best damaging \"spell\", costs no mana and takes no pushback from being hit, so train and upgrade it and do not spend mana on Shadow Bolts it out-damages."
+  agreement: single
+  sources:
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102809#p102809", author: Xudo, authority: player, date: "2024-10-09"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=118779#p118779", author: funeh, authority: player, date: "2025-02-03"}
+stat_priority:
+  - spec: null
+    order: [stamina, intellect, shadow-damage/spell-power]
+    notes: "\"Spirit isn't bad at low levels, under 20\". Trading Spirit for Stamina through the conversion talent is questioned when your base attributes are low, and is suspected to work only on base stats. No leveling hit or resist targets are given anywhere."
+    agreement: single
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=118806#p118806", author: Eversongwoods, authority: player, date: "2025-02-03"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102809#p102809", author: Xudo, authority: player, date: "2024-10-09"}
+gaps:
+  - "No leveling item or upgrade list exists for warlocks anywhere in the corpus; the one thread that asked got no reply."
+  - "No canonical respec level: Affliction levelers stay Affliction, and the Demonology players describe a permanent split rather than a respec."
+  - "No explicit mana or health thresholds for Life Tap and drain tanking while leveling."
+  - "No full Voidwalker/Imp/Succubus ability list with levels; only the observation that Torment's rank steps every ten levels."
+  - "No Turtle-specific leveling macro exists; the thread that asked was answered with off-site vanilla macros."
+  - "Drain tanking's exact talent list on the current tree is never given — the linked build predates CC2/CC3."

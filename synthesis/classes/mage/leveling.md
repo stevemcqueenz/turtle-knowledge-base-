@@ -18,24 +18,106 @@ Era: the wiki tables were revised 2025-10-01 (after 1.18.0). The **1.17.2** tale
 All four tables are from [Mage Levelling FAQ (wiki), rev. 2025-10-01](https://turtle-wow.fandom.com/wiki/Mage_Levelling_FAQ) and stop at level 59 (50 points). Talent names as the wiki writes them; "Elemental Presicion" and "Arcane Subltety" are wiki typos.
 
 ### Frost single target
-10–14 Improved Frostbolt 1→5 · 15–17 Frostbite 1→3 · 18–19 Improved Frost Nova 1→2 · 20–24 Ice Shards 1→5 · 25–29 Shatter 1→5 · 30 Ice Block · 31 Cold Snap · 32–34 Frost Channeling 1→3 · 35–37 Elemental Precision 1→3 · 38–39 Piercing Ice 1→2 · 40 Ice Barrier · 41 Piercing Ice 3 · 42–43 Arctic Reach 1→2 · 44–45 Arcane Subtlety 1→2 · 46–48 Arcane Focus 1→3 · 49–53 Arcane Concentration 1→5 · 54–56 Permafrost 1→3 · 57–59 Improved Cone of Cold 1→3.
+
+| Levels | Talent | Note |
+|---|---|---|
+| 10–14 | Improved Frostbolt 1→5 | |
+| 15–17 | Frostbite 1→3 | exclusive with the AoE build — a frozen mob ruins an AoE pull |
+| 18–19 | Improved Frost Nova 1→2 | |
+| 20–24 | Ice Shards 1→5 | |
+| 25–29 | Shatter 1→5 | |
+| 30 | Ice Block | |
+| 31 | Cold Snap | |
+| 32–34 | Frost Channeling 1→3 | |
+| 35–37 | Elemental Precision 1→3 | |
+| 38–39 | Piercing Ice 1→2 | |
+| 40 | Ice Barrier | |
+| 41 | Piercing Ice 3 | |
+| 42–43 | Arctic Reach 1→2 | |
+| 44–45 | Arcane Subtlety 1→2 | "Arcane Subltety" is a wiki typo |
+| 46–48 | Arcane Focus 1→3 | |
+| 49–53 | Arcane Concentration 1→5 | |
+| 54–56 | Permafrost 1→3 | |
+| 57–59 | Improved Cone of Cold 1→3 | table stops here (50 points) |
 
 Play: "simply Frostbolt mobs. You are able to get off ~3 frost bolts before they reach you, then you can nova, run/blink away, and start casting again. You can also use Cone of Cold to slow mobs in melee range, in case your nova is on cooldown." Same loop from [Shamma, 2022-10-24](https://forum.turtlecraft.gg/viewtopic.php?p=27840#p27840): "freeze the mob and then crit it for as much as possible while frozen" (Frostbite/Shatter). Wiki Frost FAQ priorities: Improved Frostbolt > Elemental Precision > Ice Shards > Frost Channeling > Shatter > Frostbite > Ice Barrier > Arcane Concentration. Note: the Frostbite-shatter single-target spec and the AoE spec are exclusive — "you can't have Frostbite, else it'll ruin your AoE pull if one gets frozen" [Rudyraccoon, 2024-11-10](https://forum.turtlecraft.gg/viewtopic.php?p=107433#p107433).
 
 ### Frost AoE (Cone of Cold kiting, from level 26)
-10–11 Frost Warding 1→2 · 12–14 Elemental Precision 1→3 · 15–17 Permafrost 1→3 · 18–19 Improved Frost Nova 1→2 · 20–24 Ice Shards 1→5 · 25–29 Shatter 1→5 · 30 Ice Block · 31 Cold Snap · 32–34 Improved Cone of Cold 1→3 · 35–36 Arctic Reach 1→2 · 37–39 Frost Channeling 1→3 · 40 Ice Barrier · 41–43 Piercing Ice 1→3 · 44–48 Impact 1→5 (Fire) · 49–53 Ignite 1→5 (Fire) · 54–56 Improved Flamestrike 1→3 (Fire) · 57–58 Arcane Subtlety 1→2 · 59 Burning Soul 1.
+
+| Levels | Talent | Note |
+|---|---|---|
+| 10–11 | Frost Warding 1→2 | |
+| 12–14 | Elemental Precision 1→3 | |
+| 15–17 | Permafrost 1→3 | |
+| 18–19 | Improved Frost Nova 1→2 | |
+| 20–24 | Ice Shards 1→5 | |
+| 25–29 | Shatter 1→5 | |
+| 30 | Ice Block | |
+| 31 | Cold Snap | |
+| 32–34 | Improved Cone of Cold 1→3 | Cone of Cold is learnable at 26; this build has no Frostbite on purpose |
+| 35–36 | Arctic Reach 1→2 | |
+| 37–39 | Frost Channeling 1→3 | |
+| 40 | Ice Barrier | |
+| 41–43 | Piercing Ice 1→3 | |
+| 44–48 | Impact 1→5 (Fire) | |
+| 49–53 | Ignite 1→5 (Fire) | |
+| 54–56 | Improved Flamestrike 1→3 (Fire) | |
+| 57–58 | Arcane Subtlety 1→2 | |
+| 59 | Burning Soul 1 | table stops here (50 points) |
 
 Play (wiki): gather melee mobs with wand / Counterspell / rank-1 Fire Blast / body aggro; Ice Block to stack them; rank-1 Frost Nova, move out; with ~4 s left on Nova cast Flamestrike, then Cone of Cold as it finishes ("This allows you to get the increased shatter crit chance on both spells"); kite in a circle or sideways ("Backpedalling will allow the mobs to catch up") with "permachill cone of cold, as the slow is longer than the cooldown"; Arcane Explosion while running when they are low; otherwise wait for Nova for another Flamestrike + Cone of Cold burst. Post-1.18.1 confirmation: "It is better to utilize Flamestrike, Frost Nova, and Cone of Cold to kite and AoE farm, with some Arcane Explosions inbetween. For AoE farming, we don't use Blizzard at all anymore" [Eluaria, 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171409#p171409). Blizzard starts at 20 (wiki: no longer viable), Cone of Cold is learnable at 26 ([Zulnam, 2025-03-03](https://forum.turtlecraft.gg/viewtopic.php?p=121484#p121484); Xudo wrote 30, corrected). Before 26: "improve frost armor, spam with Arcane Explosions … use Frost nova with Fireblast" for 3-mob pulls ([Xudo, 2025-02-20](https://forum.turtlecraft.gg/viewtopic.php?p=120513#p120513)); "you can technically start aoe farming from level 16, with flamestrike + arcane explosion. a bit extreme" (Zulnam). Xudo's alternative Frost/Fire "0/24/27" (Flamestrike crit via Nova + fire talents, Blast Wave, CoC) — export link only ([2024-12-05](https://forum.turtlecraft.gg/viewtopic.php?p=111491#p111491)).
 
 Is AoE leveling still viable? **Contested but mostly yes-with-caveats:** "Improved blizzard is heavily nerfed for its ability to effortlessly destroy giant packs. so you have to rely more on cone of cold and frostnova on turtle. Its a bit less braindead to aoe level here. But its still entirely possible" [Atreidon, 2026-02-16](https://forum.turtlecraft.gg/viewtopic.php?p=168459#p168459); "yes its fine once you get cone of cold" [amanagor, 2025-01-17](https://forum.turtlecraft.gg/viewtopic.php?p=117090#p117090); "Mage aoe levelign just as strong here than it is in classic, if not stronger" [amanagor, 2026-02-25](https://forum.turtlecraft.gg/viewtopic.php?p=169382#p169382) vs "Mage's AoE farming has been trashed to shit on TWoW" [Eluaria, 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171410#p171410); "With the current nerfs, it's not a good aoe class anymore while leveling" [Weirdyunus, 2025-02-20](https://forum.turtlecraft.gg/viewtopic.php?p=120499#p120499); "At this point you're better off leveling a prot paladin or even a survival hunter if you want to aoe grind" [Hotcoldman2, 2026-02-16](https://forum.turtlecraft.gg/viewtopic.php?p=168372#p168372). Staff reason for the nerf is only implied (Icicles comment: Frost "already a strong contender" in PvP); players believe it targeted farming/boosting ([Atreidon, 2025-12-11](https://forum.turtlecraft.gg/viewtopic.php?p=162407#p162407); [Zvyrhol, 2026-01-14](https://forum.turtlecraft.gg/viewtopic.php?p=165125#p165125)); "The philosophy of the Turtle WoW server is not aoe farming everything to reach level 60 as fast as possible. While you still can do it, know that the playstyle is not actively supported." [Trismegistos, 2024-02-07](https://forum.turtlecraft.gg/viewtopic.php?p=87237#p87237). Expect competition on grind spots (Atreidon 2026-02-16).
 
 ### Fire single target (older wiki table, pre-1.18.0 talents)
-10–14 Improved Fireball 1→5 · 15–16 Flame Throwing 1→2 · 17–19 Improved Fire Blast 1→3 · 20–22 Elemental Precision 1→3 · 23–27 Impact 1→5 · 28–30 Master of Elements 1→3 · 31 Pyroblast · 32 Burning Soul 1 · 33–35 Critical Mass 1→3 · 36–38 Hot Streak 1→3 · 39–42 Fire Power 1→4 · 43 Combustion · 44 Fire Power 5 · 45–46 Arcane Subtlety 1→2 · 47–49 Arcane Focus 1→3 · 50–54 Arcane Concentration 1→5 · 55–59 Ignite 1→5.
+
+| Levels | Talent | Note |
+|---|---|---|
+| 10–14 | Improved Fireball 1→5 | |
+| 15–16 | Flame Throwing 1→2 | |
+| 17–19 | Improved Fire Blast 1→3 | |
+| 20–22 | Elemental Precision 1→3 | |
+| 23–27 | Impact 1→5 | |
+| 28–30 | Master of Elements 1→3 | |
+| 31 | Pyroblast | |
+| 32 | Burning Soul 1 | |
+| 33–35 | Critical Mass 1→3 | |
+| 36–38 | Hot Streak 1→3 | Hot Streak is only 2 ranks since 1.18.0 |
+| 39–42 | Fire Power 1→4 | |
+| 43 | Combustion | |
+| 44 | Fire Power 5 | |
+| 45–46 | Arcane Subtlety 1→2 | |
+| 47–49 | Arcane Focus 1→3 | Arcane Focus left row 1 in 1.18.0 |
+| 50–54 | Arcane Concentration 1→5 | |
+| 55–59 | Ignite 1→5 | table stops here (50 points) |
 
 Hot Streak is now 2 ranks and Arcane Focus is no longer in row 1 (1.18.0), so prefer the newer path in [Mage Fire FAQ (wiki, rev. 2026-03-04)](https://turtle-wow.fandom.com/wiki/Mage_Fire_FAQ): Improved Fireball 5, Ignite 5, Pyroblast (level 20) → Burning Soul 2 → Elemental Precision 3 → Arcane Subtlety 2, Magic Absorption 3 (30) → Arcane Concentration 5 → Incinerate 2, Master of Elements 3, Fire Vulnerability 3, Blast Wave 1, Critical Mass 3, Hot Streak 2, Fire Power 5, Combustion 1 (55) → 5 free. Play: "simply want to cast fireball. You can weave in fireblast if you are running, or scorch to finish off low hp mobs … if the mob gets close and your hp is low, simply frost nova and walk/blink away" (Levelling FAQ). Rudyraccoon's HC-oriented variant takes Impact and Elemental Precision "imagine using Pyroblast as an opener, and then it misses" ([2023-11-02](https://forum.turtlecraft.gg/viewtopic.php?p=75490#p75490)); Darktifa played Fire to 40 then took Arcane for Arcane Concentration and Arcane Resilience at 59 (screenshots only).
 
 ### Arcane single target
-10–14 Improved Arcane Missiles 1→5 · 15–19 Arcane Concentration 1→5 · 20 Arcane Rupture · 21–23 Arcane Impact 1→3 · 24 Arcane Focus 1 · 25–27 Arcane Meditation 1→3 · 28–29 Temporal Convergence 1→2 · 30 Accelerated Arcana · 31–33 Arcane Instability 1→3 · 34–35 Arcane Potency 1→2 · 36–39 Resonance Cascade 1→4 · 40 Resonance Cascade 5 · 41 Presence of Mind · 42 Temporal Convergence 3 · 43–46 Arcane Focus 2→5 · 47–48 Arcane Subtlety 1→2 · 49–51 Magic Absorption 1→3 · 52–56 Improved Fireball 1→5 · 57–59 Improved Fire Blast 1→3. Arcane Power: "probably not even worth putting a point in … until you get more geared" (Arcane FAQ).
+
+| Levels | Talent | Note |
+|---|---|---|
+| 10–14 | Improved Arcane Missiles 1→5 | the build's core: Arcane Missiles is what you cast |
+| 15–19 | Arcane Concentration 1→5 | |
+| 20 | Arcane Rupture | only open with it on high-health mobs; it makes mana management harder |
+| 21–23 | Arcane Impact 1→3 | |
+| 24 | Arcane Focus 1 | |
+| 25–27 | Arcane Meditation 1→3 | |
+| 28–29 | Temporal Convergence 1→2 | |
+| 30 | Accelerated Arcana | |
+| 31–33 | Arcane Instability 1→3 | |
+| 34–35 | Arcane Potency 1→2 | |
+| 36–39 | Resonance Cascade 1→4 | |
+| 40 | Resonance Cascade 5 | |
+| 41 | Presence of Mind | |
+| 42 | Temporal Convergence 3 | |
+| 43–46 | Arcane Focus 2→5 | |
+| 47–48 | Arcane Subtlety 1→2 | |
+| 49–51 | Magic Absorption 1→3 | |
+| 52–56 | Improved Fireball 1→5 | |
+| 57–59 | Improved Fire Blast 1→3 | table stops here (50 points) |
+
+Arcane Power is not in the table: "probably not even worth putting a point in … until you get more geared" (Arcane FAQ).
 
 Play (wiki): "just want to cast arcane missiles. Therefore getting improved arcane missiles is really important … You can play like a drain tank warlock, however you'll run out of health much quicker … If the mob has high hp, once you get it, you can start the fight with arcane rupture, however this will make your mana management much harder." Toaomb's open-world loop: Frostbolt for the slow → Arcane Missiles → Cone of Cold (rank 1 to save mana) when they reach you → run → Missiles again; multi-target: Arcane Explosion / Cone of Cold / Frost Nova / Fire Blast; "Try not to Blink, try to use Mage Armor to keep good mana, try not to use Mana Shield" ([2024-07-02](https://forum.turtlecraft.gg/viewtopic.php?p=98354#p98354), [p98355](https://forum.turtlecraft.gg/viewtopic.php?p=98355#p98355)). Schoop123's 1–60 report: Arcane Power is unusable solo while leveling (drain kills you on elites), useful only in group boss fights; Spirit feels like the main stat; Rupture buff window awkward ([2024-11-11](https://forum.turtlecraft.gg/viewtopic.php?p=107572#p107572)). Redmagejoe's pre-rework level-by-level links (14 → 58) are obsolete tree exports ([2023-07-19](https://forum.turtlecraft.gg/viewtopic.php?p=54081#p54081)).
 

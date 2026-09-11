@@ -1,0 +1,147 @@
+# Shaman — leveling kill loop — companion to synthesis/classes/shaman/leveling.md
+# Structured answer to "what do I press while leveling". Every field cites the post it
+# came from; a field the sources do not settle is null and named in `gaps`.
+class: Shaman
+source_file: synthesis/classes/shaman/leveling.md
+patch_validity:
+  written_for: "the post-CC2 (1.17.2) tree; Skegg's guide is 2025-09-01"
+  valid_for_1181: true
+  notes: "1.18.1 touched Lightning Shield mana (−25%), Flurry, Elemental Weapons and Water Shield's Lightning Strike ratio. Elemental Weapons' always-on 10% damage reduction became Earthen Bulwark, so the \"Rockbiter is always-on mitigation\" argument no longer holds as written."
+spec_verdict:
+  favored:
+    spec: Enhancement
+    build: "Enhancement, tank-capable (Skegg's path)"
+    agreement: consensus
+    why: "It levels faster than Elemental, which \"needs a lot of drinks\", and the same points make you a usable dungeon tank; swap Shield Specialization for Ancestral Knowledge if you never intend to tank."
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715", author: Skegg, authority: "player (guide writer)", date: "2025-09-01"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=159080#p159080", author: Ironbob, authority: player, date: "2025-11-10"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=117631#p117631", author: Bigsmerf, authority: player, date: "2025-01-23"}
+  alternatives:
+    - spec: Elemental
+      build: "11 points into Elemental for Elemental Focus, then Enhancement"
+      when: "the pure-DPS variant; whether to rush Elemental Focus or Stormstrike first is the live argument"
+      agreement: contested
+      why: "Elemental Focus is called the single most impactful leveling talent — Clearcasting procs off physical crits too, so shocks become nearly free — but post-CC2 several levelers take Lightning Strike and Stormstrike first."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=57082#p57082", author: Kargal, authority: player, date: "2023-08-13"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=55561#p55561", author: Kairion, authority: player, date: "2023-08-02"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=121471#p121471", author: Atreidon, authority: player, date: "2025-03-03"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=112209#p112209", author: Mekunekud, authority: player, date: "2024-12-11"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=118793#p118793", author: Konstanten, authority: player, date: "2025-02-03"}
+  avoid:
+    - what: "Leveling pure Elemental"
+      agreement: consensus
+      why: "\"Viable but it won't feel very good\" — the mana economy forces constant drinking."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=117631#p117631", author: Bigsmerf, authority: player, date: "2025-01-23"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=159080#p159080", author: Ironbob, authority: player, date: "2025-11-10"}
+    - what: "Putting down a totem for every pull"
+      agreement: consensus
+      why: "\"Mana will be a problem, only put down totems you really wanna use\"; Searing Totem is only worth it if you stay in one spot."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=99781#p99781", author: Akos1896, authority: player, date: "2024-07-18"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715", author: Skegg, authority: "player (guide writer)", date: "2025-09-01"}
+    - what: "Respeccing Shield Specialization away before 33"
+      agreement: consensus
+      why: "It is what makes you tankable early; the swap to Ancestral Knowledge waits for the level-33 stamina trinkets."
+      sources:
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=112575#p112575", author: Akos1896, authority: player, date: "2024-12-13"}
+opener:
+  - step: 1
+    spec: Enhancement
+    action: "Rockbiter imbue + Lightning Shield"
+    condition: "the standing setup until 41–42; from ~44 swap to Frostbrand + Water Shield once Elemental Focus and Elemental Weapons are in"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715", author: Skegg, authority: "player (guide writer)", date: "2025-09-01"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=126159#p126159", author: Taralej90, authority: player, date: "2025-04-09"}
+  - step: 2
+    spec: Enhancement
+    action: "Lightning Bolt rank 1 to pull"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715", author: Skegg, authority: "player (guide writer)", date: "2025-09-01"}
+  - step: 3
+    spec: Enhancement
+    action: "Lightning Strike"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715", author: Skegg, authority: "player (guide writer)", date: "2025-09-01"}
+  - step: 4
+    spec: Enhancement
+    action: Stormstrike
+    condition: "single rank, from 30"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715", author: Skegg, authority: "player (guide writer)", date: "2025-09-01"}
+  - step: 5
+    spec: Enhancement
+    action: "Earth Shock (Frost Shock from ~44 with Frostbrand)"
+    condition: "then Lightning Strike again as it comes up"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715", author: Skegg, authority: "player (guide writer)", date: "2025-09-01"}
+priority:
+  - priority: 1
+    action: "Spend your mana at the start of the fight, then melee the mob down"
+    condition: "the point is to start mana regeneration as early as possible, not to save mana for later in the fight"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715", author: Skegg, authority: "player (guide writer)", date: "2025-09-01"}
+  - priority: 2
+    action: "Keep the imbue and the shield up"
+    condition: "Rockbiter + Lightning Shield to 41–42, then Frostbrand + Water Shield; Water Shield from 26 is what makes soloing comfortable"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715", author: Skegg, authority: "player (guide writer)", date: "2025-09-01"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=174099#p174099", author: Riiya, authority: player, date: "2026-04-05"}
+  - priority: 3
+    action: "Lightning Strike, then Stormstrike, then a shock"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715", author: Skegg, authority: "player (guide writer)", date: "2025-09-01"}
+  - priority: 4
+    action: "Keep several Earth Shock ranks on the bars (max, mid, rank 1)"
+    condition: "rank 1 is the cheap interrupt and the cheap Clearcasting trigger"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=112575#p112575", author: Akos1896, authority: player, date: "2024-12-13"}
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=117631#p117631", author: Bigsmerf, authority: player, date: "2025-01-23"}
+  - priority: 5
+    action: "Earthbind weaving to take less damage 1v1"
+    condition: "Earthbind Totem → Searing → Flame Shock, strafe out during the swing reset and step back in to swing; needs a swing timer"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715", author: Skegg, authority: "player (guide writer)", date: "2025-09-01"}
+  - priority: 6
+    action: "In a group, drop Rockbiter and Earth Shock if you pull threat"
+    condition: "both carry extra threat, which is exactly what you do not want as the DPS"
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=99781#p99781", author: Akos1896, authority: player, date: "2024-07-18"}
+mob_selection:
+  rule: "One mob at a time while solo. Gear with on-hit Nature or Fire damage feeds Clearcasting through Elemental Focus, which is what lets a shaman chain long strings of mobs between rests."
+  agreement: single
+  sources:
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=81505#p81505", author: Terryleelolorz, authority: player, date: "2023-12-17"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=69447#p69447", author: Hartmut, authority: player, date: "2023-10-07"}
+weapon_rule:
+  rule: "Until Lightning Strike a high-DPS dagger is as good as a slow two-hander; after Lightning Strike the slow two-hander wins, and keeping it current matters more than anything else on the character. A shield with high armor is always a top-priority slot for a tanking shaman (about 10 armor to 1 stamina). CONTESTED: some shamans stay on 1H + shield all the way to 60, because the extra damage does not pay for the time spent getting mana back."
+  agreement: contested
+  sources:
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715", author: Skegg, authority: "player (guide writer)", date: "2025-09-01"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=173827#p173827", author: amanagor, authority: player, date: "2026-04-03"}
+    - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=174099#p174099", author: Riiya, authority: player, date: "2026-04-05"}
+stat_priority:
+  - spec: "Enhancement (tanking while leveling)"
+    order: [stamina, agility, strength, intellect]
+    notes: "A shield with high armor outranks the stat line itself; roughly 10 armor is worth 1 stamina."
+    agreement: single
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715", author: Skegg, authority: "player (guide writer)", date: "2025-09-01"}
+  - spec: "Enhancement (damage while leveling)"
+    order: [strength, agility, stamina, intellect]
+    notes: "Skegg writes strength and agility as equal, ahead of stamina and then intellect."
+    agreement: single
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715", author: Skegg, authority: "player (guide writer)", date: "2025-09-01"}
+  - spec: "Healing in dungeons while leveling"
+    order: [intellect, stamina]
+    notes: "Skegg writes intellect and health as equal; \"for healing, all you'll need is some +int gear\"."
+    agreement: single
+    sources:
+      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715", author: Skegg, authority: "player (guide writer)", date: "2025-09-01"}
+gaps:
+  - "No zone-by-zone questing route for shamans; only the dungeon path by bracket."
+  - "Whether to rush Elemental Focus or Stormstrike first is contested and never settled."
+  - "Water Shield was nerfed slightly in 1.18.1 and no one has re-tested whether it still beats Lightning Shield for soloing (Riiya asks the reader to test it)."

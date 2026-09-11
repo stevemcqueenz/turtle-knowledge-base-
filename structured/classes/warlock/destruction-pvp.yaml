@@ -25,6 +25,8 @@ stat_weights:
   spell_damage: "shadow/fire spell damage next (cheap greens named as good value)"
   crit: "wanted for Soul Fire/Conflagrate burst"
   hit: "lower priority than in PvE (level-60 targets)"
+stat_priority: [stamina, shadow/fire-spell-power, crit, spell-hit]
+stat_priority_note: "\"PvP is not PvE, survivability is better than raw damage. So everyone stack on stamina until they reach some comfortable amount to not die instantly\" [Xudo p=108896]. Then Shadow or Fire spell damage — cheap \"of shadow wrath\" greens do the job — then crit for Soul Fire and Conflagrate burst. Hit matters less than in PvE because the targets are level 60. The epic Warlock PvP set has 0% crit against the blue set's 2%, and raid gear generally beats PvP gear in battlegrounds."
 caps: {}
 rotation_single:
   - {priority: 1, action: "Succubus Lesser Invisibility opener, then Seduction on the target or healer", condition: "opener"}
