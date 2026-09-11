@@ -247,7 +247,8 @@
   color: rgb(var(--c-muted));
   line-height: 1.5;
 }
-.gloss:focus-within > .gloss-pop {
+.gloss:focus-within > .gloss-pop,
+.gloss.open > .gloss-pop {
   display: block;
 }
 .gloss-pop > strong {

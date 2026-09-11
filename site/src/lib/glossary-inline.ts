@@ -24,19 +24,35 @@ const RULES: Rule[] = [
   { term: '1.18.1-announced-pre-release', re: /\b1\.18\.1-announced-pre-release\b/ },
   { term: 'pre-1.18.1', re: /\bpre-1\.18\.1\b/ },
   { term: 'post-1.18.1', re: /\bpost-1\.18\.1\b/ },
-  { term: 'standing', re: /\bstandings?\b(?! still)/i },
+  // Archive usage only: `Community standing`, a `standing:` label, a heading
+  // that is just the term, or `standing` before an agreement/heading dash.
+  // Plain-English uses ("standing at range", "standing in front") must not match.
+  { term: 'standing', re: /\bcommunity standing\b|\bstanding\b(?=\s*[:—–])|^\s*standings?\s*$/i },
   { term: 'contested', re: /\bcontested\b/i },
   { term: 'player claim', re: /\bplayer[- ](?:sourced|claims?)\b|\bplayers claim\b/i },
   // `(opaque)` in the prose is a dead talent-calculator link; say so instead.
   { term: 'opaque link', re: /(?<=\()opaque(?=[,)])/i, label: 'calculator link, offline' },
-  { term: 'opaque link', re: /\bopaque\b/i },
 ];
 
-/** Tags whose text must stay untouched: links and code. */
-const SKIP = new Set(['A', 'CODE', 'PRE']);
+/** Tags whose text must stay untouched: links, code and table cells. */
+const SKIP = new Set(['A', 'CODE', 'PRE', 'TD', 'TH']);
 
 let entries: Map<string, GlossaryTerm> | null = null;
 let uid = 0;
+let openWrap: HTMLElement | null = null;
+
+function closeOpen(): void {
+  if (openWrap) {
+    openWrap.classList.remove('open');
+    openWrap = null;
+  }
+}
+
+if (typeof document !== 'undefined') {
+  document.addEventListener('pointerdown', (event) => {
+    if (openWrap && !openWrap.contains(event.target as Node)) closeOpen();
+  });
+}
 
 function entry(term: string): GlossaryTerm | undefined {
   entries ??= new Map(glossary.map((g) => [g.term, g]));
@@ -97,14 +113,33 @@ function insert(hit: { node: Text; index: number; text: string }, g: GlossaryTer
   wrap.append(button, pop);
   tail.parentNode?.insertBefore(wrap, tail);
 
+  // A tap cannot focus a button in WebKit, so open on click as well as focus.
+  button.addEventListener('click', () => {
+    const wasOpen = wrap.classList.contains('open');
+    closeOpen();
+    if (wasOpen) {
+      button.blur();
+    } else {
+      wrap.classList.add('open');
+      openWrap = wrap;
+    }
+  });
+
   // The popup is opened by CSS (`:focus-within`); keep it inside the viewport.
   wrap.addEventListener('focusin', () => {
     pop.style.left = '0px';
     const overflow = pop.getBoundingClientRect().right - (document.documentElement.clientWidth - 8);
     if (overflow > 0) pop.style.left = `${-overflow}px`;
   });
+  wrap.addEventListener('focusout', (event) => {
+    const next = (event as FocusEvent).relatedTarget as Node | null;
+    if (!next || !wrap.contains(next)) closeOpen();
+  });
   wrap.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') (e.target as HTMLElement).blur();
+    if (e.key === 'Escape') {
+      closeOpen();
+      (e.target as HTMLElement).blur();
+    }
   });
 }
 
