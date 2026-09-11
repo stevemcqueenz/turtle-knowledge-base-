@@ -24161,35 +24161,35 @@
               "talent": "Shield Specialization 5 → Totemic Alignment 2 → Stable Shields 3 → Ancestral Guardian 3 (before Lightning Strike for mitigation) → Lightning Strike (first if threat is the problem) → Thundering Strikes 1 → Spirit Armor 2 → Thundering Strikes 4 → Elemental Weapons 3 (first if squishy) → Stormstrike (first for more threat)",
               "tree": null,
               "points": "24 Enhancement",
-              "note": "`https://talents.turtlecraft.gg/shaman?points=-AoUYALAQDI-`"
+              "note": null
             },
             {
               "level": "34–44",
               "talent": "Convection 5 → Concussion 2 (few mobs do elemental damage) or Elemental Warding 2 (Maraudon) → Elemental Devastation 3 → Elemental Focus (44)",
               "tree": null,
               "points": "11 Elemental",
-              "note": "`...?points=FQAYI-AoUYALAQDI-` or `FACYI-AoUYALAQDI-`"
+              "note": null
             },
             {
               "level": "44–50",
               "talent": "Thundering Strikes 5 → Element's Grace 5 (\"raises threat w/o necessarily spending mana\")",
               "tree": null,
               "points": "6 Enhancement",
-              "note": "`...?points=FQAYI-AoVYALAQDIAo-` / `FACYI-AoVYALAQDIAo-`"
+              "note": null
             },
             {
               "level": "51–60",
               "talent": "Respec Shield Specialization → Ancestral Knowledge 5; Bloodlust; Reverberation 3 (\"before Flurry for more QoL in managing threat + more frequent spell interrupt\"); Flurry 5; Concussion 3 (threat) or Elemental Warding 3 (tankier)",
               "tree": null,
               "points": "respec + 15",
-              "note": "`...?points=FYAYL-FAVYALFQDIAoB-` / `FADYL-FAVYALFQDIAoB-`; cheaper totems: `FACYL-FAVYALBQDIAoB-Ao`"
+              "note": null
             },
             {
               "level": "51–60 (Resto at 60)",
               "talent": "Rush Improved Water Shield with Stable Shields (`-FAAY-FoDoYIEYQC`), then every Resto talent except Improved Reincarnation, Healing Focus, Spirit Link (`-FAAY-FoDoaIFYQKFAB`)",
               "tree": null,
               "points": "respec",
-              "note": "Skegg"
+              "note": null
             }
           ]
         }

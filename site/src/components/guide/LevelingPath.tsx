@@ -1,5 +1,3 @@
-import { Markdown } from '../Markdown';
-
 /**
  * One pick of a leveling talent order. Comes either from playbook YAML
  * (`talents.leveling_order`) or from a table parsed out of the class leveling
@@ -15,9 +13,9 @@ export interface LevelingStep {
 
 const text = (v: unknown): string => (v === null || v === undefined ? '' : String(v).trim());
 
-/** The tile keeps the note to a glance; the full text and its citations stay in the guide's prose. */
-function shortNote(note: string): string {
-  const plain = note
+/** The tile keeps each cell to a glance; the full text and its citations stay in the guide's prose. */
+function clamp(source: string): string {
+  const plain = source
     .replace(/\[([^\]]*)\]\([^)]*\)/g, '')
     .replace(/[*_`]/g, '')
     .replace(/\(\s*[·,;]*\s*\)/g, '')
@@ -50,10 +48,10 @@ export function LevelingPath({ steps, color, approximate = false }: LevelingPath
       <ol className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
         {steps.map((s, i) => {
           const level = text(s?.level);
-          const talent = text(s?.talent);
+          const talent = clamp(text(s?.talent));
           const tree = text(s?.tree);
           const points = text(s?.points);
-          const note = shortNote(text(s?.note));
+          const note = clamp(text(s?.note));
           return (
             <li key={i} className="flex min-w-0 items-start gap-2.5 rounded-xl bg-surface2 px-3 py-2">
               <span
@@ -64,7 +62,7 @@ export function LevelingPath({ steps, color, approximate = false }: LevelingPath
               </span>
               <span className="min-w-0 flex-1">
                 <span className="block text-sm font-medium leading-snug">
-                  {talent ? <Markdown inline source={talent} /> : 'Talent not named'}
+                  {talent || 'Talent not named'}
                   {points ? <span className="ml-1.5 font-mono text-xs text-muted">{points}</span> : null}
                 </span>
                 {tree ? <span className="block text-xs text-muted">{tree}</span> : null}

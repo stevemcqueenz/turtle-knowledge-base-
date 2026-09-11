@@ -10,9 +10,14 @@ import { SectionTabs } from '../components/guide/SectionTabs';
 import { GuideSection, ProseDetails } from '../components/guide/GuideSection';
 import { LevelingPath } from '../components/guide/LevelingPath';
 import { cleanHeading } from '../components/guide/util';
-import { playbookForRow } from '../components/class/data';
 import { FlameIcon } from '../components/Icons';
-import { LEVELING_GROUPS, groupLevelingSections, levelingPicks, levelingVerdictLine } from '../lib/leveling';
+import {
+  LEVELING_GROUPS,
+  groupLevelingSections,
+  levelingPicks,
+  levelingPlaybook,
+  levelingVerdictLine,
+} from '../lib/leveling';
 import { NotFound } from './NotFound';
 
 /** The guide's own prose, one card per section, unchanged. */
@@ -110,14 +115,13 @@ export function LevelingPage({ slug }: { slug: string }) {
             {picks.length > 0 ? (
               <div className={`grid gap-4 ${pickColumns(picks.length)}`}>
                 {picks.map((row, i) => {
-                  const playbook = playbookForRow(entry, row);
+                  const playbook = levelingPlaybook(entry, row);
                   return (
                     <SpecCard
                       key={`${row.spec}-${i}`}
                       row={row}
                       playbook={playbook}
                       target={playbook ? href.playbook(entry.slug, playbook.id) : null}
-                      emptyLabel={null}
                     />
                   );
                 })}

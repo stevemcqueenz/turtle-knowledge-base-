@@ -3,7 +3,7 @@
  * sections, the leveling verdicts from the matrix, and the talent order a spec
  * guide borrows from the class guide when it has none of its own.
  */
-import type { ClassEntry, MatrixRow, Section, TalentOrder } from '../types';
+import type { ClassEntry, MatrixRow, Playbook, Section, TalentOrder } from '../types';
 import { joinWords, standingRank } from '../components/class/data';
 
 export type LevelingGroupKey =
@@ -87,6 +87,14 @@ export function levelingVerdictLine(picks: MatrixRow[]): string {
   }
   if (niche.length) parts.push(`${joinWords(niche)} ${niche.length > 1 ? 'are niche picks' : 'is a niche pick'}.`);
   return parts.join(' ');
+}
+
+/** The spec guide a leveling pick leads to: matched on spec name, the first non-pvp playbook. */
+export function levelingPlaybook(entry: ClassEntry, row: MatrixRow): Playbook | null {
+  const spec = String(row.spec ?? '').toLowerCase();
+  if (!spec) return null;
+  const matches = entry.playbooks.filter((p) => spec.startsWith(p.spec.toLowerCase().split(' ')[0]));
+  return matches.find((p) => p.role !== 'pvp') ?? matches[0] ?? null;
 }
 
 /** The class guide's main leveling order, shown on a spec guide that has none of its own. */

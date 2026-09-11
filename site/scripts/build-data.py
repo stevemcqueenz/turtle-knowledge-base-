@@ -177,6 +177,7 @@ TREE_COL = re.compile(r"^tree$", re.I)
 POINTS_COL = re.compile(r"^(points?|pts|ranks?)\b", re.I)
 TALENT_COL = re.compile(r"talent", re.I)
 ORDER_COL = re.compile(r"^order$", re.I)
+TALENT_LINK = re.compile(r"https?://|\?points=")
 TABLE_SEPARATOR = re.compile(r"^\|?\s*:?-{3,}")
 
 
@@ -226,6 +227,10 @@ def parse_talent_orders(sections: list[dict]) -> list[dict]:
     def cell(row: list[str], i: int | None) -> str:
         return row[i].strip() if i is not None and i < len(row) else ""
 
+    def is_link_column(rows: list[list[str]], i: int) -> bool:
+        cells = [c for c in (cell(r, i) for r in rows) if c]
+        return bool(cells) and sum(bool(TALENT_LINK.search(c)) for c in cells) * 2 > len(cells)
+
     orders: list[dict] = []
     for section in sections:
         for h3, header, rows in markdown_tables(section["markdown"]):
@@ -241,9 +246,8 @@ def parse_talent_orders(sections: list[dict]) -> list[dict]:
             talent = next((i for i, n in enumerate(names) if TALENT_COL.search(n) and i not in taken), None)
             if talent is None:
                 talent = next((i for i, n in enumerate(names) if ORDER_COL.search(n) and i not in taken), None)
-            free = [i for i in range(len(names)) if i not in taken and i != talent]
-            if talent is None and len(free) == 1:
-                talent, free = free[0], []
+            free = [i for i in range(len(names)) if i not in taken and i != talent
+                    and not is_link_column(rows, i)]
             builds = [talent] if talent is not None else free
             notes = free if talent is not None else []
             approximate = bool(re.search(r"approx|arithmetic", names[level], re.I)) or any(
@@ -254,10 +258,7 @@ def parse_talent_orders(sections: list[dict]) -> list[dict]:
                     name = cell(r, col)
                     if not name:
                         continue
-                    note_parts = [
-                        f"**{names[n]}:** {cell(r, n)}" if len(notes) > 1 else cell(r, n)
-                        for n in notes if cell(r, n)
-                    ]
+                    note_parts = [cell(r, n) for n in notes if cell(r, n)]
                     steps.append({
                         "level": cell(r, level) or None,
                         "talent": name,
