@@ -11,7 +11,7 @@ Captured 2026-09-10 (UTC). Turtle WoW's servers closed on 2026-05-15; the websit
 | turtle-wow.fandom.com | 5,276 pages via the MediaWiki API (4,419 articles, 1,790 flagged Turtle content; 1,463 NPC, 274 quest, 213 zone, 95 faction infoboxes) | 42 MB |
 | not captured | Russian/Chinese/Spanish/Ukrainian forums (by decision, 853 topics); `database.turtlecraft.gg` (DNS gone); `talents.turtlecraft.gg` (origin down, 195 build links cataloged undecoded); all 348 patch-note images (404); forum staff list (login-gated) | |
 
-Derived outputs: 122 synthesis documents (3.2 MB), 47 machine-readable class playbooks, 507 structured 1.18.1 changes, 371 Turtle-vs-vanilla entries, 25 instances with 140 bosses, 122 issues, 552 staff statements, 313 glossary terms, 17,738 cataloged external links, a cross-linked entity index, and a 13-part pseudonymized behavior corpus. Coverage and a 40-page spot-check (40 of 40 consistent) are in `coverage-report.md`.
+Derived outputs: 122 synthesis documents (3.2 MB), 47 machine-readable class playbooks, 507 structured 1.18.1 changes, 371 Turtle-vs-vanilla entries, 25 instances with 140 bosses, 122 issues, 552 staff statements, 323 glossary terms (313 mined from the capture, 10 added for the archive's own vocabulary), 17,738 cataloged external links, a cross-linked entity index, and a 13-part pseudonymized behavior corpus. Coverage and a 40-page spot-check (40 of 40 consistent) are in `coverage-report.md`.
 
 ## 2. The most important 1.18.1 findings
 
@@ -73,7 +73,7 @@ From `issues-summary.md` (122 entries: 73 open, 25 unclear, 12 fixed, 8 intended
 4. Use `behavior/activity-patterns.md` histograms (trough 02-05 UTC, peak 14-16 UTC, Wednesday busiest, EU/NA split) for login schedules.
 5. Use `behavior/economy.md` price tables by year and the WTS/WTB templates for trade chat; `popular-addons.md` for what a bot "has installed" (affects how it talks about threat, quests and UI).
 6. Use `synthesis/content/instances/*.md` and `structured/content/instances.yaml` for dungeon/raid tactics; note the gaps (no tactics for any custom 5-man or Timbermaw Hold).
-7. Use `glossary.md` (313 terms) for vocabulary and `player-archetypes.md` persona sheets to span the skill spectrum.
+7. Use `glossary.md` (323 terms: 313 captured, 10 added afterwards) for vocabulary and `player-archetypes.md` persona sheets to span the skill spectrum.
 
 ## 7. Contradictions
 
