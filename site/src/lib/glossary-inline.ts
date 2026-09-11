@@ -19,7 +19,7 @@ interface Rule {
 
 /** First rule to match a block wins for its term, so order is significant. */
 const RULES: Rule[] = [
-  { term: 'CC2 / Class Changes 2', re: /\b(?:pre-CC2|CC2|Class Changes 2)\b/ },
+  { term: 'CC2 / Class Changes 2', re: /\b(?:CC2|Class Changes 2)\b/ },
   { term: 'CC3 / Class Changes 3', re: /\b(?:CC3|Class Changes 3)\b/ },
   { term: '1.18.1-announced-pre-release', re: /\b1\.18\.1-announced-pre-release\b/ },
   { term: 'pre-1.18.1', re: /\bpre-1\.18\.1\b/ },
@@ -29,9 +29,9 @@ const RULES: Rule[] = [
   { term: 'standing', re: /\bcommunity standing\b|\bstanding\b(?=\s*[:—–])/i },
   { term: 'contested', re: /\bcontested\b/i },
   { term: 'player claim', re: /\bplayer[- ]claims?\b/i },
-  // `opaque` before a comma or a closing paren marks a dead talent-calculator
-  // link in the prose; say so instead of showing the bare word.
-  { term: 'opaque link', re: /\bopaque(?=[,)])/i, label: 'calculator link, offline' },
+  // `(opaque` in the prose opens a note about a dead talent-calculator link; say
+  // so instead of showing the bare word, keeping the parentheses around it.
+  { term: 'opaque link', re: /\(opaque(?=[,)])/i, label: '(calculator link, offline' },
 ];
 
 /** Tags whose text must stay untouched: links, code and table cells. */

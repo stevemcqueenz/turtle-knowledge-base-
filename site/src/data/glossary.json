@@ -1789,7 +1789,7 @@
     "meaning": "How the community rates a spec in a role in the spec x role matrix: favored (the usual pick), alternative (works, picked less often), niche (works in specific situations) or not-viable (sources advise against it). It is a community judgement read off the class guides, not a measurement, and it is stated with its agreement label.",
     "category": "system",
     "scope": "archive-convention",
-    "citation_url": "synthesis/CONVENTIONS.md"
+    "citation_url": "structured/classes/spec-role-matrix.yaml"
   },
   {
     "term": "STR",
