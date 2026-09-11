@@ -253,6 +253,17 @@ if (isArray(data.classes) && isObject(data.matrix) && isArray(data.matrix.rows))
   }
 }
 
+/* ---- inline glossary tooltips -------------------------------------------- */
+// src/lib/glossary-inline.ts explains these terms where the prose uses them; a
+// term renamed on one side only makes the tooltip disappear without a sign.
+if (chosen.kind === 'generated' && isArray(data.glossary)) {
+  const rules = readFileSync(join(root, 'src/lib/glossary-inline.ts'), 'utf8');
+  const known = new Set(data.glossary.map((g) => g.term));
+  for (const [, term] of rules.matchAll(/term: '([^']+)'/g)) {
+    if (!known.has(term)) fail(`glossary-inline.ts explains "${term}", which is not a glossary term`);
+  }
+}
+
 const label = chosen.kind === 'generated' ? 'src/data' : 'src/data/fixtures (development sample)';
 console.log(`check-data: ${label}`);
 console.log(

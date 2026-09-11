@@ -1,5 +1,6 @@
 import { marked } from 'marked';
 import DOMPurify from 'dompurify';
+import { annotateGlossaryTerms } from './glossary-inline';
 
 marked.setOptions({ gfm: true, breaks: false });
 
@@ -48,7 +49,8 @@ export function parseCitationText(text: string): CitationParts | null {
  * Post-processes rendered Markdown in place:
  * - wraps tables so they scroll horizontally on narrow screens,
  * - marks external links safe (`target`/`rel`),
- * - turns `[author (tier), date](url)` links into compact citation chips.
+ * - turns `[author (tier), date](url)` links into compact citation chips,
+ * - explains archive jargon on its first mention with a glossary tooltip.
  */
 export function enhanceMarkdownDom(root: HTMLElement): void {
   root.querySelectorAll('table').forEach((table) => {
@@ -75,6 +77,8 @@ export function enhanceMarkdownDom(root: HTMLElement): void {
     const label = [cite.author, cite.tier, cite.date].filter(Boolean).join(' · ');
     a.textContent = label;
   });
+
+  annotateGlossaryTerms(root);
 }
 
 /** Rough plain-text preview of a Markdown string (for cards and meta lines). */
