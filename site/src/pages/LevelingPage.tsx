@@ -3,7 +3,6 @@ import { getClass } from '../lib/site';
 import { href, useScrollReset } from '../lib/router';
 import { readableColor } from '../lib/theme';
 import { useThemeValue } from '../lib/theme-context';
-import { Collapsible } from '../components/Collapsible';
 import { Markdown } from '../components/Markdown';
 import { SpecCard } from '../components/SpecCard';
 import { SectionTabs } from '../components/guide/SectionTabs';
@@ -34,14 +33,12 @@ function Prose({ sections }: { sections: Section[] }) {
   );
 }
 
-/** The same prose, one click away. */
+/** The same prose, one click away: one disclosure per section, labelled with its heading. */
 function Folded({ sections }: { sections: Section[] }) {
   return (
     <>
       {sections.map((s) => (
-        <Collapsible key={s.id} title={cleanHeading(s.heading)}>
-          <Markdown source={s.markdown} />
-        </Collapsible>
+        <ProseDetails key={s.id} title={cleanHeading(s.heading)} sections={[s]} />
       ))}
     </>
   );
@@ -146,7 +143,7 @@ export function LevelingPage({ slug }: { slug: string }) {
               </div>
             ))}
             {orders.length > 0 ? (
-              <ProseDetails title="Full talent notes" sections={groups.talents} />
+              <Folded sections={groups.talents} />
             ) : (
               <Prose sections={groups.talents} />
             )}
