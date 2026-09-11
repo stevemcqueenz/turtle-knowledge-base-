@@ -88,7 +88,6 @@ export function ClassPage({ slug }: { slug: string }) {
 
   const gaps = entry.gaps;
   const otherSections = entry.readme.filter((s) => !INTERNAL_SECTION.test(s.heading) && !/gap/i.test(s.heading));
-  const hasMore = !!gaps || otherSections.length > 0;
 
   return (
     <>
@@ -169,11 +168,6 @@ export function ClassPage({ slug }: { slug: string }) {
           )}
         </section>
 
-        <div className="grid items-start gap-4 lg:grid-cols-[1.4fr_1fr]">
-          <PatchChangesCard entry={entry} />
-          <SourceQualityCard entry={entry} />
-        </div>
-
         {entry.leveling || hasGear(entry) ? (
           <div className="grid items-start gap-4 sm:grid-cols-2">
             {entry.leveling ? (
@@ -211,23 +205,25 @@ export function ClassPage({ slug }: { slug: string }) {
           </div>
         ) : null}
 
-        {hasMore ? (
-          <section aria-labelledby="more-heading" className="flex flex-col gap-2">
-            <h2 id="more-heading" className="text-xs font-semibold uppercase tracking-wider text-muted">
-              More
-            </h2>
-            {gaps ? (
-              <Collapsible title="Gaps — what the sources do not say">
-                <Markdown source={gaps} />
-              </Collapsible>
-            ) : null}
-            {otherSections.map((s) => (
-              <Collapsible key={s.id} title={s.heading}>
-                <Markdown source={s.markdown} />
-              </Collapsible>
-            ))}
-          </section>
-        ) : null}
+        {/* Provenance lives below the guide links: it is not what a player came for. */}
+        <PatchChangesCard entry={entry} />
+
+        <section aria-labelledby="more-heading" className="flex flex-col gap-2">
+          <h2 id="more-heading" className="text-xs font-semibold uppercase tracking-wider text-muted">
+            More
+          </h2>
+          <SourceQualityCard entry={entry} />
+          {gaps ? (
+            <Collapsible title="Gaps — what the sources do not say">
+              <Markdown source={gaps} />
+            </Collapsible>
+          ) : null}
+          {otherSections.map((s) => (
+            <Collapsible key={s.id} title={s.heading}>
+              <Markdown source={s.markdown} />
+            </Collapsible>
+          ))}
+        </section>
       </div>
     </>
   );

@@ -1,8 +1,12 @@
 import { matrix } from '../lib/site';
 import { useScrollReset } from '../lib/router';
-import { Card } from '../components/Card';
+import { Collapsible } from '../components/Collapsible';
 import { Markdown } from '../components/Markdown';
 import { MatrixGrid, StandingLegend } from '../components/MatrixGrid';
+
+function wordCount(source: string): string {
+  return `${source.trim().split(/\s+/).length.toLocaleString('en-US')} words`;
+}
 
 export function MatrixPage() {
   useScrollReset('matrix');
@@ -20,19 +24,26 @@ export function MatrixPage() {
 
       <MatrixGrid rows={matrix.rows} roles={matrix.roles} />
 
-      {matrix.matrixMarkdown ? (
-        <Card as="section" className="mt-6">
-          <h2 className="mb-3 text-lg font-semibold">Matrix notes</h2>
-          <Markdown source={matrix.matrixMarkdown} />
-        </Card>
-      ) : null}
+      {/* Two long documents; collapsed so the grid is not buried under 8,800 words. */}
+      <div className="mt-6 flex flex-col gap-3">
+        {matrix.matrixMarkdown ? (
+          <Collapsible
+            title="Matrix notes"
+            badge={<span className="shrink-0 text-xs text-muted">{wordCount(matrix.matrixMarkdown)}</span>}
+          >
+            <Markdown source={matrix.matrixMarkdown} />
+          </Collapsible>
+        ) : null}
 
-      {matrix.coverageMarkdown ? (
-        <Card as="section" className="mt-4">
-          <h2 className="mb-3 text-lg font-semibold">Coverage</h2>
-          <Markdown source={matrix.coverageMarkdown} />
-        </Card>
-      ) : null}
+        {matrix.coverageMarkdown ? (
+          <Collapsible
+            title="Coverage"
+            badge={<span className="shrink-0 text-xs text-muted">{wordCount(matrix.coverageMarkdown)}</span>}
+          >
+            <Markdown source={matrix.coverageMarkdown} />
+          </Collapsible>
+        ) : null}
+      </div>
     </div>
   );
 }
