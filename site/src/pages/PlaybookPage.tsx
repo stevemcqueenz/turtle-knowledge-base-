@@ -155,10 +155,11 @@ export function PlaybookPage({ slug, id }: { slug: string; id: string }) {
                 steps={classOrder.steps.map((step) => ({ ...step, note: null }))}
                 color={ink}
                 approximate={classOrder.approximate}
+                clamped
               />
               <p className="text-sm text-muted">
-                No level-by-level order is published for {playbook.spec} {playbook.roleLabel} itself; this is how{' '}
-                {entry.name}s level according to the class guide.{' '}
+                No level-by-level order is published for {playbook.spec} {playbook.roleLabel} itself; this is one
+                of the talent orders in the {entry.name} leveling guide.{' '}
                 <a href={href.leveling(entry.slug)} className="text-[rgb(var(--c-accent))] hover:underline">
                   Read the {entry.name} leveling guide →
                 </a>
