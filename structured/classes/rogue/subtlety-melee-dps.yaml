@@ -50,7 +50,7 @@ talents:
     - {level: "41", tree: Assassination, talent: "Relentless Strikes 1/1"}
     - {level: "42–44", tree: Assassination, talent: "Vile Poisons 3/3"}
     - {level: "58", tree: null, talent: "Respec point — commit to the level-60 build (\"At level 58, you should re-spec. What you re-spec to is totally up to you\")"}
-  leveling_order_source: "Shananagans' Ambush/Backstab leveling line (p=148075, reposted unchanged at p=149395 and p=161802). Many rogues instead respec to Assassination at 40 for Noxious Assault — see assassination-melee-dps.yaml and synthesis/classes/rogue/leveling.md."
+  leveling_order_source: "Shananagans' Ambush/Backstab leveling line, given across three posts rather than one: p=148075 supplies the rows to level 27, p=149395 continues the route from 28 through 44 (Malice, Ruthlessness, Lethality, Relentless Strikes, Vile Poisons) in reply to a follow-up question, and the level-58 respec row quotes p=157385. Shananagans continues past 44 at p=161802; those later picks are not recorded here. Many rogues instead respec to Assassination at 40 for Noxious Assault — see assassination-melee-dps.yaml and synthesis/classes/rogue/leveling.md."
 stat_weights:
   hit: "top priority (a missed Hemorrhage or finisher drops the Tricks of the Trade stack chain)"
   crit: "feeds Honor Among Thieves energy procs"
