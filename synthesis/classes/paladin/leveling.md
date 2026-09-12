@@ -29,7 +29,7 @@ The guide spends points in five-level brackets and does not assign a single leve
 | 30–34 | Holy Shield 1 | the talent most players respec into Protection for |
 | 30–34 | Reckoning 4 | |
 | 35–39 | Reckoning 1 | |
-| 35–39 | Righteous Strikes 4 | became Zealous Defence in 1.18.1 |
+| 35–39 | Righteous Strikes 4 |  |
 | 40–44 | Bulwark of the Righteous 1 | |
 | 40–44 | Benediction 4 | |
 | 45–49 | Benediction 1 | |
@@ -51,7 +51,7 @@ The guide spends points in five-level brackets and does not assign a single leve
 | 25–29 | Improved Retribution Aura 2 | |
 | 25–29 | Conviction 2 | |
 | 25–29 | Blessing of Kings 1 | |
-| 30–34 | Seal of Command 1 | rank 1 only, to conserve mana; for weapons 3.5 speed or slower |
+| 30–34 | Seal of Command 1 |  |
 | 30–34 | Two-Handed Weapon Specialization 3 | |
 | 30–34 | Vengeance 1 | |
 | 35–39 | Vengeful Strikes ("Crusading Strikes") 5 | |

@@ -41,8 +41,8 @@ spec_verdict:
         - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=106723#p106723", author: Czasku, authority: player, date: "2024-11-06"}
   avoid:
     - what: "Deep Protection for solo questing"
-      agreement: "majority against, contested"
-      why: "Baseline abilities plus Tactical Mastery and Improved Thunder Clap already tank pre-raid content; going Prot roughly doubles quest kill time."
+      agreement: contested
+      why: "Majority against. Baseline abilities plus Tactical Mastery and Improved Thunder Clap already tank pre-raid content; going Prot roughly doubles quest kill time."
       sources:
         - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=37550#p37550", author: Redmagejoe, authority: player, date: "2023-03-13"}
         - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=60459#p60459", author: Kairion, authority: player, date: "2023-09-01"}
@@ -141,7 +141,7 @@ priority:
     condition: "situational only — do not finish a fight at 0 rage with Charge on cooldown"
     sources:
       - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108095#p108095", author: Yasara, authority: player, date: "2024-11-16"}
-  - priority: null
+  - priority: 8
     action: "Hamstring kiting (Charge → Hamstring → swing → strafe away → repeat)"
     condition: "CONTESTED: presented as the core of Arms leveling (~30% less damage taken) and as unsuitable for normal mobs (triple combat time for 20% less damage). Argued under the 6 s Hamstring cooldown, removed in 1.18.1."
     agreement: contested

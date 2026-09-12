@@ -31,8 +31,8 @@ spec_verdict:
         - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
   avoid:
     - what: "Leveling Holy"
-      agreement: "no post-CC2 source recommends it"
-      why: "The only Holy-first route in the corpus (\"go holy until consecration, then go prot\") predates Consecration becoming a baseline level-20 ability, which removed its reason to exist."
+      agreement: single
+      why: "No post-CC2 source recommends it. The only Holy-first route in the corpus (\"go holy until consecration, then go prot\") predates Consecration becoming a baseline level-20 ability, which removed its reason to exist."
       sources:
         - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=17557#p17557", author: Pfwg, authority: player, date: "2022-03-17"}
         - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251", author: Torta, authority: staff, date: "2022-07-24"}

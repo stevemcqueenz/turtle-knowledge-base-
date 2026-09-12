@@ -21,7 +21,7 @@ The only level-by-level route in the sources (CC3 tree, written for 1.18.0; the 
 | Levels | Talent | Note |
 |---|---|---|
 | ~14 | Cruelty (Fury) 5/5 | approximate — order given, level derived |
-| ~17 | Tactical Mastery (Arms) 3/5 | what makes early tanking work |
+| ~17 | Tactical Mastery (Arms) 3/5 |  |
 | ~19 | Improved Rend (Arms) 2/2 | |
 | ~22 | Improved Thunder Clap (Arms) 3/3 | |
 | ~24 | Deflection (Arms) 2/5 | |

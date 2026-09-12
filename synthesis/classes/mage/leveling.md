@@ -38,7 +38,7 @@ All four tables are from [Mage Levelling FAQ (wiki), rev. 2025-10-01](https://tu
 | 46–48 | Arcane Focus 1→3 | |
 | 49–53 | Arcane Concentration 1→5 | |
 | 54–56 | Permafrost 1→3 | |
-| 57–59 | Improved Cone of Cold 1→3 | table stops here (50 points) |
+| 57–59 | Improved Cone of Cold 1→3 |  |
 
 Play: "simply Frostbolt mobs. You are able to get off ~3 frost bolts before they reach you, then you can nova, run/blink away, and start casting again. You can also use Cone of Cold to slow mobs in melee range, in case your nova is on cooldown." Same loop from [Shamma, 2022-10-24](https://forum.turtlecraft.gg/viewtopic.php?p=27840#p27840): "freeze the mob and then crit it for as much as possible while frozen" (Frostbite/Shatter). Wiki Frost FAQ priorities: Improved Frostbolt > Elemental Precision > Ice Shards > Frost Channeling > Shatter > Frostbite > Ice Barrier > Arcane Concentration. Note: the Frostbite-shatter single-target spec and the AoE spec are exclusive — "you can't have Frostbite, else it'll ruin your AoE pull if one gets frozen" [Rudyraccoon, 2024-11-10](https://forum.turtlecraft.gg/viewtopic.php?p=107433#p107433).
 
@@ -63,7 +63,7 @@ Play: "simply Frostbolt mobs. You are able to get off ~3 frost bolts before they
 | 49–53 | Ignite 1→5 (Fire) | |
 | 54–56 | Improved Flamestrike 1→3 (Fire) | |
 | 57–58 | Arcane Subtlety 1→2 | |
-| 59 | Burning Soul 1 | table stops here (50 points) |
+| 59 | Burning Soul 1 |  |
 
 Play (wiki): gather melee mobs with wand / Counterspell / rank-1 Fire Blast / body aggro; Ice Block to stack them; rank-1 Frost Nova, move out; with ~4 s left on Nova cast Flamestrike, then Cone of Cold as it finishes ("This allows you to get the increased shatter crit chance on both spells"); kite in a circle or sideways ("Backpedalling will allow the mobs to catch up") with "permachill cone of cold, as the slow is longer than the cooldown"; Arcane Explosion while running when they are low; otherwise wait for Nova for another Flamestrike + Cone of Cold burst. Post-1.18.1 confirmation: "It is better to utilize Flamestrike, Frost Nova, and Cone of Cold to kite and AoE farm, with some Arcane Explosions inbetween. For AoE farming, we don't use Blizzard at all anymore" [Eluaria, 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171409#p171409). Blizzard starts at 20 (wiki: no longer viable), Cone of Cold is learnable at 26 ([Zulnam, 2025-03-03](https://forum.turtlecraft.gg/viewtopic.php?p=121484#p121484); Xudo wrote 30, corrected). Before 26: "improve frost armor, spam with Arcane Explosions … use Frost nova with Fireblast" for 3-mob pulls ([Xudo, 2025-02-20](https://forum.turtlecraft.gg/viewtopic.php?p=120513#p120513)); "you can technically start aoe farming from level 16, with flamestrike + arcane explosion. a bit extreme" (Zulnam). Xudo's alternative Frost/Fire "0/24/27" (Flamestrike crit via Nova + fire talents, Blast Wave, CoC) — export link only ([2024-12-05](https://forum.turtlecraft.gg/viewtopic.php?p=111491#p111491)).
 
@@ -82,14 +82,14 @@ Is AoE leveling still viable? **Contested but mostly yes-with-caveats:** "Improv
 | 31 | Pyroblast | |
 | 32 | Burning Soul 1 | |
 | 33–35 | Critical Mass 1→3 | |
-| 36–38 | Hot Streak 1→3 | Hot Streak is only 2 ranks since 1.18.0 |
+| 36–38 | Hot Streak 1→3 |  |
 | 39–42 | Fire Power 1→4 | |
 | 43 | Combustion | |
 | 44 | Fire Power 5 | |
 | 45–46 | Arcane Subtlety 1→2 | |
-| 47–49 | Arcane Focus 1→3 | Arcane Focus left row 1 in 1.18.0 |
+| 47–49 | Arcane Focus 1→3 |  |
 | 50–54 | Arcane Concentration 1→5 | |
-| 55–59 | Ignite 1→5 | table stops here (50 points) |
+| 55–59 | Ignite 1→5 |  |
 
 Hot Streak is now 2 ranks and Arcane Focus is no longer in row 1 (1.18.0), so prefer the newer path in [Mage Fire FAQ (wiki, rev. 2026-03-04)](https://turtle-wow.fandom.com/wiki/Mage_Fire_FAQ): Improved Fireball 5, Ignite 5, Pyroblast (level 20) → Burning Soul 2 → Elemental Precision 3 → Arcane Subtlety 2, Magic Absorption 3 (30) → Arcane Concentration 5 → Incinerate 2, Master of Elements 3, Fire Vulnerability 3, Blast Wave 1, Critical Mass 3, Hot Streak 2, Fire Power 5, Combustion 1 (55) → 5 free. Play: "simply want to cast fireball. You can weave in fireblast if you are running, or scorch to finish off low hp mobs … if the mob gets close and your hp is low, simply frost nova and walk/blink away" (Levelling FAQ). Rudyraccoon's HC-oriented variant takes Impact and Elemental Precision "imagine using Pyroblast as an opener, and then it misses" ([2023-11-02](https://forum.turtlecraft.gg/viewtopic.php?p=75490#p75490)); Darktifa played Fire to 40 then took Arcane for Arcane Concentration and Arcane Resilience at 59 (screenshots only).
 
@@ -115,7 +115,7 @@ Hot Streak is now 2 ranks and Arcane Focus is no longer in row 1 (1.18.0), so pr
 | 47–48 | Arcane Subtlety 1→2 | |
 | 49–51 | Magic Absorption 1→3 | |
 | 52–56 | Improved Fireball 1→5 | |
-| 57–59 | Improved Fire Blast 1→3 | table stops here (50 points) |
+| 57–59 | Improved Fire Blast 1→3 |  |
 
 Arcane Power is not in the table: "probably not even worth putting a point in … until you get more geared" (Arcane FAQ).
 
