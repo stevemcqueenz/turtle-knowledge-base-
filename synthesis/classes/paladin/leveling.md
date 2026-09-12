@@ -26,7 +26,7 @@ The guide spends points in five-level brackets and does not assign a single leve
 | 20–24 | Improved Righteous Fury 1 | |
 | 25–29 | Improved Righteous Fury 2 | |
 | 25–29 | Toughness 3 | |
-| 30–34 | Holy Shield 1 | the talent most players respec into Protection for |
+| 30–34 | Holy Shield 1 |  |
 | 30–34 | Reckoning 4 | |
 | 35–39 | Reckoning 1 | |
 | 35–39 | Righteous Strikes 4 |  |

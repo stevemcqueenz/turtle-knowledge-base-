@@ -21,17 +21,17 @@ The only level-by-level route in the sources (CC3 tree, written for 1.18.0; the 
 | Levels | Talent | Note |
 |---|---|---|
 | ~14 | Cruelty (Fury) 5/5 | approximate — order given, level derived |
-| ~17 | Tactical Mastery (Arms) 3/5 |  |
-| ~19 | Improved Rend (Arms) 2/2 | |
-| ~22 | Improved Thunder Clap (Arms) 3/3 | |
-| ~24 | Deflection (Arms) 2/5 | |
-| ~26 | Improved Overpower (Arms) 2/2 | |
-| ~29 | Dual Wield Specialization (Fury) 3/3 | "3/3" is how the post writes it; the route mixes DW and 2H talents on purpose |
-| ~32 | Two-Handed Weapon Specialization (Arms) 3/3 | "3/3" is how the post writes it |
-| ~33 | Impale (Arms) 1/2 | |
-| ~34 | Master Strike (Arms) 1/1 | |
-| ~35 | Sweeping Strikes (Arms) 1/1 | |
-| ~40 | Master of Arms (Arms) 5/5 | route ends at 40; switch to a 60 build from here |
+| ~17 | Tactical Mastery (Arms) 3/5 | approximate — order given, level derived |
+| ~19 | Improved Rend (Arms) 2/2 | approximate — order given, level derived |
+| ~22 | Improved Thunder Clap (Arms) 3/3 | approximate — order given, level derived |
+| ~24 | Deflection (Arms) 2/5 | approximate — order given, level derived |
+| ~26 | Improved Overpower (Arms) 2/2 | approximate — order given, level derived |
+| ~29 | Dual Wield Specialization (Fury) 3/3 | approximate — order given, level derived |
+| ~32 | Two-Handed Weapon Specialization (Arms) 3/3 | approximate — order given, level derived |
+| ~33 | Impale (Arms) 1/2 | approximate — order given, level derived |
+| ~34 | Master Strike (Arms) 1/1 | approximate — order given, level derived |
+| ~35 | Sweeping Strikes (Arms) 1/1 | approximate — order given, level derived |
+| ~40 | Master of Arms (Arms) 5/5 | approximate — order given, level derived |
 
 (The "3/3" for Dual Wield Specialization and Two-Handed Weapon Specialization is how the post writes it; the route mixes DW and 2H talents on purpose — "Then if you want to go 2H you switch" to a 60 build. Rank maxima are not restated here because the CC2 tree changed several rank counts; check the calculator.) Hctwowfan's tweak to the same build: "0/5 in improved shouts and instead put those into 2/2 improved slam and 3/3 blood craze" [Hctwowfan (player), 2025-10-31](https://forum.turtlecraft.gg/viewtopic.php?p=157895#p157895).
 

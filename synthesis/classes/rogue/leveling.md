@@ -59,7 +59,7 @@ This order is given in brackets rather than per level, so each row carries the b
 | 20–29 | Improved Backstab 3 | |
 | 20–29 | Camouflage 2 (to 5/5) | |
 | 30–35 | Camouflage 1 (finish) | 6 points across this bracket |
-| 30–35 | Precision 5 | front-loads hit, unlike Shananagans' order |
+| 30–35 | Precision 5 |  |
 
 "From here on out you can experiment with other talents. I recommend specting into things that further boost your Ambush ... Malice, Murder, Lethality, Serrated Blades and Initiative. For dungeons, some extra points in Improved Blade Tactics can be quite useful." Rotation for this build: "Ambush -> Gauge -> Backstab -> Eviscerate. If the target is not dead, use Sinister Strike or repeat the Gauge -> Backstab rotation." This build front-loads **Improved Gouge** and **Precision** (hit) earlier than Shananagans' order — the two sources disagree on whether Precision belongs before or after level 44 (**contested**, gear-dependent).
 

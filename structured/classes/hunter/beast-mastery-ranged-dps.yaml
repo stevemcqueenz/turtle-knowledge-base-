@@ -70,7 +70,7 @@ talents:
     - {level: "31", tree: "Beast Mastery", talent: "Intimidation 1 (pseudo-taunt; hands a second mob to the pet)"}
     - {level: "32–33", tree: "Beast Mastery", talent: "Bestial Precision 2"}
     - {level: "34", tree: "Beast Mastery", talent: "Bestial Discipline 1 (one point can move to Improved Mend Pet)"}
-    - {level: "35–39", tree: "Beast Mastery", talent: "Frenzy 5 (2–4 points is enough with a fast pet)"}
+    - {level: "35–39", tree: "Beast Mastery", talent: "Frenzy 5 (2–4 points is enough)"}
     - {level: "40", tree: "Beast Mastery", talent: "Bestial Wrath 1 (removed in CC3, back in 1.18.1 at row 5)"}
     - {level: "41–45", tree: "Marksmanship", talent: "Efficiency 5 (Steakhouse skips it for leveling — \"Just drink more\")"}
     - {level: "46–50", tree: Marksmanship, talent: "Lethal Shots 5"}

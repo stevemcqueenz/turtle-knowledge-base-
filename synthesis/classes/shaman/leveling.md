@@ -12,6 +12,8 @@ Built from Skegg's "Shaman Leveling & Pre-BiS Guide" (2025-09-01, compiled from 
 
 The guide spends points in brackets rather than per level, so each row carries the bracket it belongs to; the row order is the order the guide gives.
 
+#### Enhancement (Skegg's tank-capable path)
+
 | Levels | Talent | Note |
 |---|---|---|
 | 10–33 | Shield Specialization 5 | 24 Enhancement points across this bracket |
@@ -35,12 +37,17 @@ The guide spends points in brackets rather than per level, so each row carries t
 | 51–60 | Reverberation 3 | "before Flurry for more QoL in managing threat + more frequent spell interrupt" |
 | 51–60 | Flurry 5 | |
 | 51–60 | Concussion 3 **or** Elemental Warding 3 | Concussion for threat, Elemental Warding to be tankier |
-| 51–60 | Restoration alternative: rush Improved Water Shield with Stable Shields | if you intend to heal at 60 |
-| 51–60 | Restoration alternative: every Restoration talent except Improved Reincarnation, Healing Focus and Spirit Link | |
+
+#### Restoration at 60 (respec)
+
+| Levels | Talent | Note |
+|---|---|---|
+| 51–60 | rush Improved Water Shield with Stable Shields | |
+| 51–60 | every Restoration talent except Improved Reincarnation, Healing Focus and Spirit Link | |
 
 Sources: [Skegg (player, guide writer), 2025-09-01](https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715); wiki `Shaman guide` (revision 2026-07-03, same text). Akos1896's variant (2024-12-13): 5 Shield Spec + 2 Totemic Alignment is the minimum to tank RFC at 16; Stable Shields 3 + Lightning Strike by 20; Ancestral Guardian 3; Thundering Strikes 1; Spirit Armor 2 (26); Thundering Strikes 4 (29); Elemental Weapons 3 (33) — "the first 24 talent points have to be spent in a very strict manner if you want to tank"; after 33 "Rush bloodlust? Get tidal focus to save mana? Rush elemental focus? Personally I rushed elemental focus"; at 33 respec Shield Spec → Ancestral Knowledge "Don't do it before level 33 though" — [Akos1896 (player), 2024-12-13](https://forum.turtlecraft.gg/viewtopic.php?p=112575#p112575); his 2025-09 refinement: Convection > Concussion for leveling, Elemental Devastation 3 or Elemental Warding 2, Clearcasting asap, Element's Grace before Reverberation, then Bloodlust; "getting an early tidal focus is also an option ... Never take tidal focus when done leveling" — [Akos1896 (player), 2025-09-01](https://forum.turtlecraft.gg/viewtopic.php?p=149742#p149742) (**contested detail: Shield Spec vs Ancestral Knowledge before 33** — both authors ended up agreeing Shield Spec first).
 
-**Pure DPS variant (no tank talents)**: Konstanten — 11 Elemental (Elemental Focus) first, then Enhancement; Frostbrand + Frost Shock once Elemental Weapons is in: `https://talents.turtlecraft.gg/shaman?points=FQAYIAAAAAAAAAFAFaAIFADIAAAAAAAAAAAAAAAAAAA=` — [Konstanten (player), 2025-02-03](https://forum.turtlecraft.gg/viewtopic.php?p=118793#p118793). Hyrag's world-PvP leveling: `https://talents.turtlecraft.gg/shaman/5F1-5` "going 11/07/0 elemental focus first then Imp ghost wolf" — [Hyrag (player), 2024-02-14](https://forum.turtlecraft.gg/viewtopic.php?p=87761#p87761) (pre-CC2 tree numbering).
+**Pure DPS variant (no tank talents)**: Konstanten — 11 Elemental (Elemental Focus) first, then Enhancement; Frostbrand + Frost Shock once Elemental Weapons is in — [Konstanten (player), 2025-02-03](https://forum.turtlecraft.gg/viewtopic.php?p=118793#p118793). Hyrag's world-PvP leveling: "going 11/07/0 elemental focus first then Imp ghost wolf" — [Hyrag (player), 2024-02-14](https://forum.turtlecraft.gg/viewtopic.php?p=87761#p87761) (pre-CC2 tree numbering).
 
 **Respec points**: 33 (Shield Spec → Ancestral Knowledge, once the two JC/obsidian +11 Sta trinkets exist; Akos1896) and 51 (Skegg); dual spec via the Goblin Brainwashing Device if farmed 44–48 in Badlands/Uldaman (Skegg, "might be an unrealistic goal").
 

@@ -22,7 +22,7 @@ All four tables are from [Mage Levelling FAQ (wiki), rev. 2025-10-01](https://tu
 | Levels | Talent | Note |
 |---|---|---|
 | 10–14 | Improved Frostbolt 1→5 | |
-| 15–17 | Frostbite 1→3 | exclusive with the AoE build — a frozen mob ruins an AoE pull |
+| 15–17 | Frostbite 1→3 |  |
 | 18–19 | Improved Frost Nova 1→2 | |
 | 20–24 | Ice Shards 1→5 | |
 | 25–29 | Shatter 1→5 | |
@@ -34,7 +34,7 @@ All four tables are from [Mage Levelling FAQ (wiki), rev. 2025-10-01](https://tu
 | 40 | Ice Barrier | |
 | 41 | Piercing Ice 3 | |
 | 42–43 | Arctic Reach 1→2 | |
-| 44–45 | Arcane Subtlety 1→2 | "Arcane Subltety" is a wiki typo |
+| 44–45 | Arcane Subtlety 1→2 |  |
 | 46–48 | Arcane Focus 1→3 | |
 | 49–53 | Arcane Concentration 1→5 | |
 | 54–56 | Permafrost 1→3 | |
@@ -54,7 +54,7 @@ Play: "simply Frostbolt mobs. You are able to get off ~3 frost bolts before they
 | 25–29 | Shatter 1→5 | |
 | 30 | Ice Block | |
 | 31 | Cold Snap | |
-| 32–34 | Improved Cone of Cold 1→3 | Cone of Cold is learnable at 26; this build has no Frostbite on purpose |
+| 32–34 | Improved Cone of Cold 1→3 |  |
 | 35–36 | Arctic Reach 1→2 | |
 | 37–39 | Frost Channeling 1→3 | |
 | 40 | Ice Barrier | |
@@ -97,9 +97,9 @@ Hot Streak is now 2 ranks and Arcane Focus is no longer in row 1 (1.18.0), so pr
 
 | Levels | Talent | Note |
 |---|---|---|
-| 10–14 | Improved Arcane Missiles 1→5 | the build's core: Arcane Missiles is what you cast |
+| 10–14 | Improved Arcane Missiles 1→5 |  |
 | 15–19 | Arcane Concentration 1→5 | |
-| 20 | Arcane Rupture | only open with it on high-health mobs; it makes mana management harder |
+| 20 | Arcane Rupture |  |
 | 21–23 | Arcane Impact 1→3 | |
 | 24 | Arcane Focus 1 | |
 | 25–27 | Arcane Meditation 1→3 | |
