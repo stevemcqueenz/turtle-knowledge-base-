@@ -25,12 +25,18 @@ ClassEntry {
   readme: Section[],                  // all H2 sections of README.md in order (coverage table, 1.18.1 changes, gaps, open questions ...)
   matrix: MatrixRow[],                // rows for this class from structured/classes/spec-role-matrix.yaml
   playbooks: Playbook[],              // one per synthesis/classes/<class>/<spec>-<role>.md, ordered: tank, healer, melee-dps, ranged-dps, pvp; then by spec name
-  leveling: { sections: Section[], sourceFile: string } | null,
+  leveling: { sections: Section[], talentOrders: TalentOrder[], sourceFile: string } | null,
   gaps: string | null,                // Markdown of the README section whose heading contains "Gap" (also present in readme[])
   patchChanges: string | null         // Markdown of the README section whose heading contains "1.18.1" (also present in readme[])
 }
 
 Section { id: string (slug of heading), heading: string (text without #), level: 2|3, markdown: string }
+
+TalentOrder { id, title: string (the H2 heading), subtitle: string|null (nearest H3, or the build column's header),
+              approximate: boolean, steps: [{ level: string|null, talent: string, tree, points, note: string|null }] }
+```
+`talentOrders` holds every pipe table in `leveling.md` that has a level column (`Level`, `Levels`, `Reaches at …`), one entry per table, or one per build column when the header names builds instead of a talent column. Cells stay verbatim Markdown; columns that are not level/tree/points/talent are joined into `note`, except a column headed `Link`, which is dropped. `approximate` is true when a level cell carries `~`. The key is absent in `src/data/fixtures/`, so consumers must tolerate it missing.
+```
 
 MatrixRow { spec, role, standing: "favored"|"alternative"|"niche"|"not-viable", agreement: string|null,
             source_quality: string|null, playbook_path: string|null, yaml_path: string|null, notes: string|null }
@@ -68,7 +74,7 @@ Array of `{term, meaning, category, scope, citation_url}` from `structured/gloss
 - **Home `#/`**: hero line ("Turtle WoW 1.18.1 class guides, built from the archived forums"), a 3×3 grid of class cards (class color accent, name, one-line summary, chips for the favored spec per role), a compact spec-role matrix teaser, search box (fuzzy over class names, spec names, playbook titles, glossary terms; keyboard navigable).
 - **Class page `#/class/<slug>`**: header in class color with name and summary; **role tabs** (Tank, Healer, Melee DPS, Ranged DPS, PvP, Leveling) showing only roles that have a playbook or a matrix row; under each role, one card per spec with a **standing badge** (favored/alternative/niche/not-viable in distinct colors), agreement badge (consensus/single source/contested) and patch-validity badge (valid for 1.18.1 / pre-1.18.1 advice / unknown); clicking opens the playbook. A "What 1.18.1 changed" panel and a "Gaps" panel from the README, collapsed by default. Coverage table from README rendered as a real table.
 - **Playbook page `#/class/<slug>/<id>`**: sticky in-page nav for the sections in template order (Overview, Talents, Stats, Single-target, AoE, Cooldowns, Role strategy, Gear, Mistakes, Sources, then extras). Each section is a card with the Markdown rendered. **Structured widgets on top of the prose when YAML data exists**: rotation as a numbered priority list with condition text in a muted column; AoE threshold callout; stat weights as horizontal bars (numeric) or an ordered chip list (priority strings); cooldowns as a two-column list; mistakes as warning callouts; talent points grouped by tree with rank pips; opaque build links listed with a "calculator offline; undecoded" note. Citations render as small superscript-style chips `[author · tier · date]` that link out; hovering shows the full text. Prev/next playbook links.
-- **Leveling `#/class/<slug>/leveling`**: sections as cards; talent-order tables rendered as tables; a "hardcore" section flagged with an icon if present.
+- **Leveling `#/class/<slug>/leveling`**: the guide layout. Hero with the class's leveling verdict from the matrix rows (`role: leveling`), sticky section tabs, and the sections grouped by heading keyword in a player-first order: Which spec (verdict cards, the argument collapsed) → Talent order (`talentOrders` as the LevelingPath timeline, prose collapsed) → What to press → Stats & gear → Don't → Route → Hardcore (flame icon) → More (collapsed) → Sources (Introduction and Sources, collapsed). Prose is never rewritten, only ordered and folded. A spec guide with no `leveling_order` of its own shows the class guide's order, labelled as such.
 - **Matrix `#/matrix`**: the full 9×6 grid, cells colored by standing, click-through to playbooks; below it the coverage table and the matrix document.
 - **About `#/about`**: what the data is, source tiers, eras, counts from `meta.json`, link to the repo, the forum-closure note, and "nothing here is invented; gaps are stated".
 - **Glossary**: a side panel opened from the header; search; also used by an optional inline tooltip on glossary terms inside rendered Markdown (implement only if it is cheap and does not break links).

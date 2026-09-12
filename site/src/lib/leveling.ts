@@ -1,0 +1,106 @@
+/**
+ * Readers for the class leveling guides: the player-first grouping of their
+ * sections, the leveling verdicts from the matrix, and the talent order a spec
+ * guide borrows from the class guide when it has none of its own.
+ */
+import type { ClassEntry, MatrixRow, Playbook, Section, TalentOrder } from '../types';
+import { joinWords, standingRank } from '../components/class/data';
+
+export type LevelingGroupKey =
+  | 'spec'
+  | 'talents'
+  | 'press'
+  | 'stats'
+  | 'dont'
+  | 'route'
+  | 'hardcore'
+  | 'more'
+  | 'sources';
+
+/** Page order of the groups; the Introduction is folded into Sources. */
+export const LEVELING_GROUPS: { key: LevelingGroupKey; label: string }[] = [
+  { key: 'spec', label: 'Which spec' },
+  { key: 'talents', label: 'Talent order' },
+  { key: 'press', label: 'What to press' },
+  { key: 'stats', label: 'Stats & gear' },
+  { key: 'dont', label: "Don't" },
+  { key: 'route', label: 'Route' },
+  { key: 'hardcore', label: 'Hardcore' },
+  { key: 'more', label: 'More' },
+  { key: 'sources', label: 'Sources' },
+];
+
+// First match wins. Headings come from synthesis/classes/<class>/leveling.md.
+const RULES: [RegExp, LevelingGroupKey][] = [
+  [/^introduction$/i, 'sources'],
+  [/^sources?\b/i, 'sources'],
+  [/mistake/i, 'dont'],
+  [/which (spec|build)|spec choice/i, 'spec'],
+  [/talent|\bbuild [a-d]\b/i, 'talents'],
+  [/playstyle|kill loop|\bpets?\b/i, 'press'],
+  [/\bstats?\b|gear/i, 'stats'],
+  [/route|profession/i, 'route'],
+  [/hardcore/i, 'hardcore'],
+];
+
+export function levelingGroup(heading: string): LevelingGroupKey {
+  const h = heading.trim();
+  for (const [re, key] of RULES) if (re.test(h)) return key;
+  return 'more';
+}
+
+export function groupLevelingSections(sections: Section[]): Record<LevelingGroupKey, Section[]> {
+  const groups: Record<LevelingGroupKey, Section[]> = {
+    spec: [],
+    talents: [],
+    press: [],
+    stats: [],
+    dont: [],
+    route: [],
+    hardcore: [],
+    more: [],
+    sources: [],
+  };
+  for (const s of sections) groups[levelingGroup(s.heading)].push(s);
+  return groups;
+}
+
+/** The matrix rows that rate this class's leveling specs, best standing first. */
+export function levelingPicks(entry: ClassEntry): MatrixRow[] {
+  return entry.matrix
+    .filter((r) => r.role === 'leveling' && !!r.spec)
+    .sort((a, b) => standingRank(a.standing) - standingRank(b.standing));
+}
+
+/** "Level as Arms (2H). Fury (dual wield) is the alternative. Protection is a niche pick." */
+export function levelingVerdictLine(picks: MatrixRow[]): string {
+  const specs = (standing: string) =>
+    picks.filter((r) => String(r.standing).toLowerCase() === standing).map((r) => String(r.spec));
+  const favored = specs('favored');
+  const alternative = specs('alternative');
+  const niche = specs('niche');
+  const parts = [favored.length ? `Level as ${joinWords(favored)}.` : 'No leveling spec is called favored by the sources.'];
+  if (alternative.length) {
+    parts.push(`${joinWords(alternative)} ${alternative.length > 1 ? 'are the alternatives' : 'is the alternative'}.`);
+  }
+  if (niche.length) parts.push(`${joinWords(niche)} ${niche.length > 1 ? 'are niche picks' : 'is a niche pick'}.`);
+  return parts.join(' ');
+}
+
+/**
+ * The spec guide a leveling pick leads to: the one non-pvp playbook of that
+ * spec. Null when the pick names a spec several guides cover.
+ */
+export function levelingPlaybook(entry: ClassEntry, row: MatrixRow): Playbook | null {
+  const spec = String(row.spec ?? '').toLowerCase();
+  if (!spec) return null;
+  const matches = entry.playbooks.filter(
+    (p) => p.role !== 'pvp' && spec.startsWith(p.spec.toLowerCase().split(' ')[0]),
+  );
+  return matches.length === 1 ? matches[0] : null;
+}
+
+/** The class guide's main leveling order, shown on a spec guide that has none of its own. */
+export function pickTalentOrder(entry: ClassEntry): TalentOrder | null {
+  return entry.leveling?.talentOrders?.[0] ?? null;
+}

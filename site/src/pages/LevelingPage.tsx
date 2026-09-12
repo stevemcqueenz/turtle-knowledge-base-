@@ -1,14 +1,44 @@
+import type { Section } from '../types';
 import { getClass } from '../lib/site';
 import { href, useScrollReset } from '../lib/router';
 import { readableColor } from '../lib/theme';
 import { useThemeValue } from '../lib/theme-context';
-import { Card } from '../components/Card';
 import { Markdown } from '../components/Markdown';
-import { SectionNav, type NavItem } from '../components/SectionNav';
+import { SpecCard } from '../components/SpecCard';
+import { SectionTabs } from '../components/guide/SectionTabs';
+import { GuideSection, ProseDetails } from '../components/guide/GuideSection';
+import { LevelingPath } from '../components/guide/LevelingPath';
+import { cleanHeading } from '../components/guide/util';
 import { FlameIcon } from '../components/Icons';
+import {
+  LEVELING_GROUPS,
+  groupLevelingSections,
+  levelingPicks,
+  levelingPlaybook,
+  levelingVerdictLine,
+} from '../lib/leveling';
 import { NotFound } from './NotFound';
 
-const HARDCORE = /hardcore|hc\b/i;
+/** The guide's own prose, one card per section, unchanged. */
+function Prose({ sections }: { sections: Section[] }) {
+  return (
+    <>
+      {sections.map((s) => (
+        <div key={s.id} className="card space-y-3 p-4 sm:p-5">
+          <h3 className="text-base font-bold">{cleanHeading(s.heading)}</h3>
+          <Markdown source={s.markdown} />
+        </div>
+      ))}
+    </>
+  );
+}
+
+/** Column count for the verdict cards: even rows for 1–3 picks. */
+function pickColumns(count: number): string {
+  if (count <= 1) return '';
+  if (count === 2 || count === 4) return 'sm:grid-cols-2';
+  return 'sm:grid-cols-2 lg:grid-cols-3';
+}
 
 export function LevelingPage({ slug }: { slug: string }) {
   const entry = getClass(slug);
@@ -18,54 +48,157 @@ export function LevelingPage({ slug }: { slug: string }) {
   if (!entry || !entry.leveling) return <NotFound path={`#/class/${slug}/leveling`} />;
 
   const ink = readableColor(entry.color, theme);
-  const sections = entry.leveling.sections;
-  const navItems: NavItem[] = sections.map((s) => ({ id: `lv-${s.id}`, label: s.heading }));
+  const groups = groupLevelingSections(entry.leveling.sections);
+  const orders = entry.leveling.talentOrders ?? [];
+  const picks = levelingPicks(entry);
+
+  const present: Record<string, boolean> = {
+    spec: picks.length > 0 || groups.spec.length > 0,
+    talents: orders.length > 0 || groups.talents.length > 0,
+    press: groups.press.length > 0,
+    stats: groups.stats.length > 0,
+    dont: groups.dont.length > 0,
+    route: groups.route.length > 0,
+    hardcore: groups.hardcore.length > 0,
+    more: groups.more.length > 0,
+    sources: groups.sources.length > 0,
+  };
+  const tabs = LEVELING_GROUPS.filter((g) => present[g.key]).map((g) => ({ id: `lv-${g.key}`, label: g.label }));
 
   return (
-    <div className="mx-auto max-w-6xl px-3 py-6 sm:px-5">
-      <nav aria-label="Breadcrumb" className="mb-3 text-sm text-muted">
-        <a href={href.home()} className="hover:underline">
-          Classes
-        </a>
-        <span className="mx-1.5" aria-hidden="true">
-          /
-        </span>
-        <a href={href.class(entry.slug)} className="hover:underline" style={{ color: ink }}>
-          {entry.name}
-        </a>
-        <span className="mx-1.5" aria-hidden="true">
-          /
-        </span>
-        <span className="text-ink">Leveling</span>
-      </nav>
-
-      <header className="mb-5 overflow-hidden rounded-xl bg-surface hairline">
-        <div className="h-1.5 w-full" style={{ backgroundColor: entry.color }} aria-hidden="true" />
-        <div className="p-4 sm:p-5">
-          <h1 className="text-xl font-semibold sm:text-2xl">{entry.name} — leveling 1–60</h1>
-          <p className="mt-1 text-xs text-muted">Source file: {entry.leveling.sourceFile}</p>
+    <div className="min-w-0">
+      <div
+        className="border-b"
+        style={{ backgroundImage: `linear-gradient(180deg, ${entry.color}22 0%, ${entry.color}00 100%)` }}
+      >
+        <div className="mx-auto max-w-6xl px-3 pb-6 pt-4 sm:px-5">
+          <nav aria-label="Breadcrumb" className="text-sm text-muted">
+            <a href={href.home()} className="rounded hover:underline">
+              Classes
+            </a>
+            <span className="mx-1.5" aria-hidden="true">
+              /
+            </span>
+            <a href={href.class(entry.slug)} className="rounded font-semibold hover:underline" style={{ color: ink }}>
+              {entry.name}
+            </a>
+            <span className="mx-1.5" aria-hidden="true">
+              /
+            </span>
+            <span className="text-ink">Leveling</span>
+          </nav>
+          <h1 className="mt-4 text-3xl font-extrabold leading-tight tracking-tight sm:text-4xl">
+            {entry.name} · Leveling 1–60
+          </h1>
+          {picks.length > 0 ? <p className="mt-2 max-w-3xl text-base text-muted">{levelingVerdictLine(picks)}</p> : null}
         </div>
-      </header>
+      </div>
+      <SectionTabs items={tabs} ariaLabel="Sections of this leveling guide" />
 
-      <div className="grid gap-6 lg:grid-cols-[13rem_minmax(0,1fr)]">
-        <div className="min-w-0 lg:pt-1">
-          <SectionNav items={navItems} ariaLabel="Sections of this leveling guide" />
-        </div>
-        <div className="min-w-0 space-y-4">
-          {sections.map((s) => (
-            <Card key={s.id} id={`lv-${s.id}`} as="section" className="scroll-mt-24">
-              <h2 className="mb-3 flex items-center gap-2 text-lg font-semibold">
-                {HARDCORE.test(s.heading) ? (
-                  <span className="text-niche" title="Hardcore">
-                    <FlameIcon />
-                  </span>
+      <div className="mx-auto max-w-6xl space-y-10 px-3 py-7 sm:px-5">
+        {present.spec ? (
+          <GuideSection id="lv-spec" title="Which spec" hint="How the community rates each leveling spec">
+            {picks.length > 0 ? (
+              <div className={`grid gap-4 ${pickColumns(picks.length)}`}>
+                {picks.map((row, i) => {
+                  const playbook = levelingPlaybook(entry, row);
+                  return (
+                    <SpecCard
+                      key={`${row.spec}-${i}`}
+                      row={row}
+                      playbook={playbook}
+                      target={playbook ? href.playbook(entry.slug, playbook.id) : href.class(entry.slug)}
+                      showPatchChip={false}
+                      targetLabel={playbook ? undefined : `See the ${entry.name} spec guides`}
+                    />
+                  );
+                })}
+              </div>
+            ) : null}
+            {groups.spec.map((s) => (
+              <ProseDetails key={s.id} title={cleanHeading(s.heading)} sections={[s]} />
+            ))}
+          </GuideSection>
+        ) : null}
+
+        {present.talents ? (
+          <GuideSection
+            id="lv-talents"
+            title="Talent order"
+            hint={orders.length > 0 ? 'The order the sources give, level by level' : undefined}
+          >
+            {orders.map((order, i) => (
+              <div key={order.id} className="space-y-2">
+                {i === 0 || orders[i - 1].title !== order.title ? (
+                  <h3 className="text-base font-bold">{cleanHeading(order.title)}</h3>
                 ) : null}
-                {s.heading}
-              </h2>
-              <Markdown source={s.markdown} />
-            </Card>
-          ))}
-        </div>
+                {order.subtitle ? <Markdown inline source={order.subtitle} className="block text-sm text-muted" /> : null}
+                <LevelingPath steps={order.steps} color={ink} approximate={order.approximate} />
+              </div>
+            ))}
+            {orders.length > 0 ? (
+              groups.talents.map((s) => (
+                <ProseDetails key={s.id} title={cleanHeading(s.heading)} sections={[s]} />
+              ))
+            ) : (
+              <Prose sections={groups.talents} />
+            )}
+          </GuideSection>
+        ) : null}
+
+        {present.press ? (
+          <GuideSection id="lv-press" title="What to press">
+            <Prose sections={groups.press} />
+          </GuideSection>
+        ) : null}
+
+        {present.stats ? (
+          <GuideSection id="lv-stats" title="Stats & gear">
+            <Prose sections={groups.stats} />
+          </GuideSection>
+        ) : null}
+
+        {present.dont ? (
+          <GuideSection id="lv-dont" title="Don't">
+            <Prose sections={groups.dont} />
+          </GuideSection>
+        ) : null}
+
+        {present.route ? (
+          <GuideSection id="lv-route" title="Route">
+            <Prose sections={groups.route} />
+          </GuideSection>
+        ) : null}
+
+        {present.hardcore ? (
+          <GuideSection
+            id="lv-hardcore"
+            title="Hardcore"
+            hint={
+              <span className="inline-flex items-center gap-1 text-niche" title="Hardcore">
+                <FlameIcon /> Hardcore mode
+              </span>
+            }
+          >
+            <Prose sections={groups.hardcore} />
+          </GuideSection>
+        ) : null}
+
+        {present.more ? (
+          <GuideSection id="lv-more" title="More">
+            {groups.more.map((s) => (
+              <ProseDetails key={s.id} title={cleanHeading(s.heading)} sections={[s]} />
+            ))}
+          </GuideSection>
+        ) : null}
+
+        {present.sources ? (
+          <GuideSection id="lv-sources" title="Sources">
+            {groups.sources.map((s) => (
+              <ProseDetails key={s.id} title={cleanHeading(s.heading)} sections={[s]} />
+            ))}
+          </GuideSection>
+        ) : null}
       </div>
     </div>
   );

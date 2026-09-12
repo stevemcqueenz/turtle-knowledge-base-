@@ -151,9 +151,33 @@ export interface Playbook {
   yaml: PlaybookYaml | null;
 }
 
+/** One row of a talent-order table in a leveling guide; cells are verbatim Markdown. */
+export interface TalentStep {
+  level: string | null;
+  talent: string;
+  tree: string | null;
+  points: string | null;
+  /** The table's other columns (reason, correction, link …), joined. */
+  note: string | null;
+}
+
+/** A talent-order table parsed out of `synthesis/classes/<class>/leveling.md`. */
+export interface TalentOrder {
+  id: string;
+  /** The H2 heading the table sits under. */
+  title: string;
+  /** The nearest H3, or the build column's header when one table lists several builds. */
+  subtitle: string | null;
+  /** The source gives the order only; the levels are arithmetic. */
+  approximate: boolean;
+  steps: TalentStep[];
+}
+
 export interface LevelingGuide {
   sections: Section[];
   sourceFile: string;
+  /** Absent in the development fixtures. */
+  talentOrders?: TalentOrder[];
 }
 
 /* ---- Gear (optional; present once the generator emits gear.yaml) --------- */

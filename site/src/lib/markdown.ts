@@ -18,6 +18,13 @@ export function renderMarkdown(md: string): string {
   return canSanitize ? DOMPurify.sanitize(html, { USE_PROFILES: { html: true } }) : html;
 }
 
+/** One line of Markdown (a table cell, a heading) -> sanitized inline HTML. */
+export function renderInlineMarkdown(md: string): string {
+  if (!md) return '';
+  const html = marked.parseInline(md, { async: false }) as string;
+  return canSanitize ? DOMPurify.sanitize(html, { USE_PROFILES: { html: true } }) : html;
+}
+
 /** `Dragunovi (staff), 2024-10-12` -> chip parts. */
 const CITE_RE = /^(.+?)\s*\((staff|player|wiki)[^)]*\)\s*,?\s*(.*)$/i;
 

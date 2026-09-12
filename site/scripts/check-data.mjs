@@ -81,6 +81,22 @@ function checkSection(s, where) {
   if (!isString(s.markdown)) fail(`${where}: section.markdown must be a string`);
 }
 
+function checkTalentOrder(o, where) {
+  if (!isObject(o)) return fail(`${where}: not an object`);
+  for (const k of ['id', 'title']) if (!isString(o[k])) fail(`${where}: ${k} must be a string`);
+  if (!isNullableString(o.subtitle)) fail(`${where}: subtitle must be a string or null`);
+  if (typeof o.approximate !== 'boolean') fail(`${where}: approximate must be a boolean`);
+  if (!isArray(o.steps) || o.steps.length === 0) return fail(`${where}: steps must be a non-empty array`);
+  o.steps.forEach((s, i) => {
+    const sw = `${where}.steps[${i}]`;
+    if (!isObject(s)) return fail(`${sw}: not an object`);
+    if (!isString(s.talent) || !s.talent.trim()) fail(`${sw}: talent must be a non-empty string`);
+    for (const k of ['level', 'tree', 'points', 'note']) {
+      if (!isNullableString(s[k])) fail(`${sw}: ${k} must be a string or null`);
+    }
+  });
+}
+
 function checkMatrixRow(r, where, { requireClass = false } = {}) {
   if (!isObject(r)) return fail(`${where}: matrix row is not an object`);
   // spec is null on "this class does not fill this role" rows
@@ -120,6 +136,10 @@ if (!isArray(data.classes)) {
         if (!isArray(c.leveling.sections)) fail(`${where}.leveling: sections must be an array`);
         else c.leveling.sections.forEach((s, i) => checkSection(s, `${where}.leveling.sections[${i}]`));
         if (!isString(c.leveling.sourceFile)) fail(`${where}.leveling: sourceFile must be a string`);
+        if (c.leveling.talentOrders !== undefined) {
+          if (!isArray(c.leveling.talentOrders)) fail(`${where}.leveling: talentOrders must be an array`);
+          else c.leveling.talentOrders.forEach((o, i) => checkTalentOrder(o, `${where}.leveling.talentOrders[${i}]`));
+        }
       }
     }
 

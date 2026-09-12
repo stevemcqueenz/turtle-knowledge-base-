@@ -1,6 +1,7 @@
 import type { YamlCooldown, YamlLevelingStep, YamlRotationStep, YamlSource, YamlTalentPoint } from '../types';
 import { getClass, isPlainObject, playbookNeighbours } from '../lib/site';
 import { href, useScrollReset } from '../lib/router';
+import { pickTalentOrder } from '../lib/leveling';
 import { readableColor } from '../lib/theme';
 import { useThemeValue } from '../lib/theme-context';
 import { Callout } from '../components/Callout';
@@ -58,6 +59,8 @@ export function PlaybookPage({ slug, id }: { slug: string; id: string }) {
   ];
   const patchNotes = y?.patch_validity?.notes ? String(y.patch_validity.notes) : '';
   const levelingOrder = list<YamlLevelingStep>(talents?.leveling_order);
+  // No order of its own: borrow the class leveling guide's, clearly labelled.
+  const classOrder = levelingOrder.length === 0 ? pickTalentOrder(entry) : null;
 
   /* ---- stats ------------------------------------------------------------ */
   const rows = statRows(y?.stat_priority, y?.stat_weights ?? null);
@@ -87,7 +90,7 @@ export function PlaybookPage({ slug, id }: { slug: string; id: string }) {
 
   const tabs = [
     { id: 'talents', label: 'Talents' },
-    ...(levelingOrder.length > 0 ? [{ id: 'leveling', label: 'Leveling path' }] : []),
+    ...(levelingOrder.length > 0 || classOrder ? [{ id: 'leveling', label: 'Leveling path' }] : []),
     { id: 'stats', label: 'Stats & caps' },
     { id: 'rotation', label: 'Rotation' },
     { id: 'cooldowns', label: 'Cooldowns' },
@@ -140,6 +143,23 @@ export function PlaybookPage({ slug, id }: { slug: string; id: string }) {
         {levelingOrder.length > 0 ? (
           <GuideSection id="leveling" title="Leveling path" hint="The sourced order the points go in">
             <LevelingPath steps={levelingOrder} color={ink} />
+          </GuideSection>
+        ) : classOrder ? (
+          <GuideSection id="leveling" title="Leveling path" hint={`From the ${entry.name} leveling guide`}>
+            <div className="space-y-2">
+              <h3 className="text-base font-bold">{cleanHeading(classOrder.title)}</h3>
+              {classOrder.subtitle ? (
+                <Markdown inline source={classOrder.subtitle} className="block text-sm text-muted" />
+              ) : null}
+              <LevelingPath steps={classOrder.steps} color={ink} approximate={classOrder.approximate} />
+              <p className="text-sm text-muted">
+                No level-by-level order is published for {playbook.spec} {playbook.roleLabel} itself; this is one
+                of the talent orders in the {entry.name} leveling guide.{' '}
+                <a href={href.leveling(entry.slug)} className="text-[rgb(var(--c-accent))] hover:underline">
+                  Read the {entry.name} leveling guide →
+                </a>
+              </p>
+            </div>
           </GuideSection>
         ) : (
           <p className="card p-4 text-sm text-muted">
