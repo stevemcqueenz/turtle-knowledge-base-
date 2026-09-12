@@ -120,3 +120,11 @@ export const TurtleIcon = (p: IconProps) => (
     <path d="M6 15.5v2M18 15.5v2M20.5 12.5c.8 0 1.5-.7 1.5-1.5s-.7-1.5-1.5-1.5" />
   </Svg>
 );
+
+export const MoreIcon = (p: IconProps) => (
+  <Svg {...p}>
+    <circle cx="5" cy="12" r="1" />
+    <circle cx="12" cy="12" r="1" />
+    <circle cx="19" cy="12" r="1" />
+  </Svg>
+);

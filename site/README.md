@@ -98,12 +98,12 @@ site/
 | `#/class/<slug>/<spec>-<role>` | full playbook with structured widgets and citations |
 | `#/class/<slug>/leveling` | leveling guide |
 | `#/class/<slug>/gear` | gear by spec and bracket (only when gear data exists) |
-| `#/matrix` | full spec × role matrix, coverage and matrix documents |
+| `#/matrix` | full spec × role matrix (one card per class on a phone), coverage and matrix documents in collapsibles |
 | `#/about` | data provenance, source tiers, counts, timeline |
 
 ## Conventions
 
 - Dark theme by default, light toggle persisted in `localStorage`; class and status colors are darkened or lightened per theme so text keeps a 4.5:1 contrast ratio.
-- Responsive to 360 px, keyboard accessible (skip link, roving tab strips, focus-trapped dialogs, visible focus), `prefers-reduced-motion` respected.
+- Responsive to 360 px — below `sm` the header collapses Matrix, About, Glossary and the theme toggle into a "More" menu so it stays one row. Keyboard accessible (skip link, roving tab strips, focus-trapped dialogs, visible focus), `prefers-reduced-motion` respected.
 - Markdown is rendered with `marked` and sanitized with DOMPurify; inline `[author (tier), date](url)` links become citation chips that keep their link.
 - YAML from `structured/classes/**` is passed through as-is; unknown shapes fall back to a compact key/value list rather than being dropped.

@@ -1,0 +1,12 @@
+# Per-repo no-mistakes overrides.
+#
+# Pin the checks this repository already has so the gate's test/lint steps run
+# them directly instead of delegating to an agent (which timed out at 30m).
+# `.github/workflows/ci.yml` is generated from these commands by
+# `no-mistakes ci-workflow` - regenerate it after editing them, never hand-edit.
+commands:
+  # scrape/validate.py: every cited post exists and all data files parse.
+  # site/scripts/test_data.py: the data generator's own assertions.
+  # site: tsc + eslint + check-data (npm run check), then the built-site smoke test.
+  test: 'python3 scrape/validate.py && python3 site/scripts/test_data.py && cd site && npm ci && npm run check && npm run smoke'
+  lint: 'cd site && npm ci && npm run check'
