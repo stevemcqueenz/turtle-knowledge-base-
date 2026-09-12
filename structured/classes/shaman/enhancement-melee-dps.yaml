@@ -89,7 +89,7 @@ talents:
     - {level: "44–50", tree: Enhancement, talent: "Element's Grace 5"}
     - {level: "51–60", tree: "Enhancement", talent: "Respec Shield Specialization into Ancestral Knowledge 5 (respec plus 15 points across this bracket)"}
     - {level: "51–60", tree: Enhancement, talent: "Bloodlust"}
-    - {level: "51–60", tree: "Enhancement", talent: "Reverberation 3 (before Flurry, for threat management and more frequent interrupts)"}
+    - {level: "51–60", tree: "Elemental", talent: "Reverberation 3 (before Flurry, for threat management and more frequent interrupts)"}
     - {level: "51–60", tree: Enhancement, talent: "Flurry 5"}
     - {level: "51–60", tree: "Elemental", talent: "Concussion 3 or Elemental Warding 3 (Concussion for threat, Elemental Warding to be tankier)"}
   leveling_order_source: "Skegg's tank-capable Enhancement path from his leveling guide (p=149715), consensus with Akos1896 — it opens with Shield Specialization and Stable Shields because it is the tank-capable route. Skegg presents it as usable for DPS too (\"you do practically the same DPS\"), which is why it sits on this playbook. The guide spends points in brackets, so each level cell is the bracket the guide gives, not a per-talent level."
