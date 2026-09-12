@@ -140,6 +140,7 @@ weapon_rule:
     - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=52649#p52649", author: Getplucked, authority: player, date: "2023-07-08"}
 stat_priority:
   - spec: Retribution
+    role: melee-dps
     order: [strength, stamina, agility]
     notes: "The guide's Retribution order; \"bear\" modifier gear (stamina and strength) is the cheap way to buy it."
     agreement: single
@@ -147,6 +148,7 @@ stat_priority:
       - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=27457#p27457", author: Unchallenged, authority: "player (guide writer)", date: "2022-10-18"}
       - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=140080#p140080", author: Springboards, authority: player, date: "2025-07-17"}
   - spec: Protection
+    role: tank
     order: [stamina, armor, strength]
     notes: "Stamina and armor first is agreed. Intellect is contested: the guide takes Int/Stam solo and Stam/Int in dungeons and Isvya prefers \"of the Eagle\" greens for the mana pool, while Azcron argues mana stops being the limit once Seal of Wisdom arrives at 20. Spell damage is a bonus, not a target. Strength for threat is contested at 60 as well (see protection-tank.yaml)."
     agreement: contested

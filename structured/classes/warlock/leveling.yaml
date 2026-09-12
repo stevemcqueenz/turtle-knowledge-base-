@@ -141,6 +141,7 @@ weapon_rule:
     - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=118779#p118779", author: funeh, authority: player, date: "2025-02-03"}
 stat_priority:
   - spec: null
+    role: null
     order: [stamina, intellect, spell-power]
     notes: "\"Spirit isn't bad at low levels, under 20\". Trading Spirit for Stamina through the conversion talent is questioned when your base attributes are low, and is suspected to work only on base stats. No leveling hit or resist targets are given anywhere."
     agreement: single

@@ -128,6 +128,7 @@ weapon_rule:
     - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=165791#p165791", author: Chev03, authority: player, date: "2026-01-21"}
 stat_priority:
   - spec: Feral
+    role: melee-dps
     order: [armor]
     notes: "Solo. Armor is the only stat the sources put first, via Thick Hide and cheap enchants; \"for solo leveling stamina is not important at all\", which is why a second, stamina-heavy set is suggested for the dungeons you tank. Nothing else is ranked."
     agreement: single
@@ -135,6 +136,7 @@ stat_priority:
       - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=165791#p165791", author: Chev03, authority: player, date: "2026-01-21"}
       - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=165608#p165608", author: Terrydavis, authority: player, date: "2026-01-19"}
   - spec: Balance
+    role: ranged-dps
     order: [intellect, spirit]
     notes: "\"Pick anything with int/spirit\" — the sources explicitly say not to hunt for precise caster leather while leveling."
     agreement: single

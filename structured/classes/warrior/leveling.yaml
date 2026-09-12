@@ -160,6 +160,7 @@ weapon_rule:
     - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=101830#p101830", author: Hctwowfan, authority: player, date: "2024-09-24"}
 stat_priority:
   - spec: null
+    role: null
     order: [stamina, strength, crit, hit]
     notes: "Stamina and Strength with a 2H are the only stats the sources put in an order. Crit is what gates the switch to dual-wield Fury (\"level 40 and a decent amount of crit\"), and hit only matters once you dual wield. Trolls level on Spirit instead, because Turtle buffed Troll regeneration."
     agreement: single
