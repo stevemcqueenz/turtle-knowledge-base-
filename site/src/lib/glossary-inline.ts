@@ -27,15 +27,16 @@ const RULES: Rule[] = [
   // Archive usage only: `Community standing` or a `standing:` label. Plain-English
   // uses ("standing at range", "standing in front") must not match.
   { term: 'standing', re: /\bcommunity standing\b|\bstanding\b(?=\s*[:—–])/i },
-  { term: 'contested', re: /\bcontested\b/i },
+  // Likewise the agreement label `contested:`, never plain-English "contested loot".
+  { term: 'contested', re: /\bcontested\b(?=\s*[:—–])/i },
   { term: 'player claim', re: /\bplayer[- ]claims?\b/i },
   // `(opaque` in the prose opens a note about a dead talent-calculator link; say
   // so instead of showing the bare word, keeping the parentheses around it.
   { term: 'opaque link', re: /\(opaque(?=[,)])/i, label: '(calculator link, offline' },
 ];
 
-/** Tags whose text must stay untouched: links, code and table cells. */
-const SKIP = new Set(['A', 'CODE', 'PRE', 'TD', 'TH']);
+/** Tags whose text must stay untouched: links, buttons, code and table cells. */
+const SKIP = new Set(['A', 'BUTTON', 'CODE', 'PRE', 'TD', 'TH']);
 
 let entries: Map<string, GlossaryTerm> | null = null;
 let uid = 0;
