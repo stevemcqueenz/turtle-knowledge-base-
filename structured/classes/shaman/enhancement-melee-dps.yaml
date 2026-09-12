@@ -71,7 +71,7 @@ talents:
     - {tree: Enhancement, talent: "Ancestral Knowledge", rank: 5, spell_id: null}
     - {tree: Enhancement, talent: "Calming Winds", rank: 3, spell_id: null, note: "raid threat reduction; Toxo calls it mandatory only at high gear"}
   leveling_order:
-    - {level: "10–33", tree: "Enhancement", talent: "Shield Specialization 5 (24 Enhancement points across this bracket; respec it into Ancestral Knowledge at 33, not before)"}
+    - {level: "10–33", tree: "Enhancement", talent: "Shield Specialization 5 (24 Enhancement points across this bracket)"}
     - {level: "10–33", tree: Enhancement, talent: "Totemic Alignment 2"}
     - {level: "10–33", tree: Enhancement, talent: "Stable Shields 3"}
     - {level: "10–33", tree: "Enhancement", talent: "Ancestral Guardian 3 (before Lightning Strike, for mitigation)"}
