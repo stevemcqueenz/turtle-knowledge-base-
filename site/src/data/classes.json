@@ -9200,8 +9200,7 @@
               {
                 "level": "10–14",
                 "tree": "Beast Mastery",
-                "talent": "Endurance Training 5",
-                "note": "contested: several posters take Swift Aspects first, or split between the two"
+                "talent": "Endurance Training 5 (contested: several posters take Swift Aspects first, or split between the two)"
               },
               {
                 "level": "15–17",
@@ -9216,8 +9215,7 @@
               {
                 "level": "20",
                 "tree": "Beast Mastery",
-                "talent": "Bestial Swiftness 1",
-                "note": "removed in CC3 — take Pathfinding 2 or Coordinated Assault 1 instead"
+                "talent": "Bestial Swiftness 1 (removed in CC3 — take Pathfinding 2 or Coordinated Assault 1 instead)"
               },
               {
                 "level": "21–25",
@@ -9227,14 +9225,12 @@
               {
                 "level": "26–30",
                 "tree": "Beast Mastery",
-                "talent": "Ferocity 5",
-                "note": "take 1/2 Improved Mend Pet as soon as it is available"
+                "talent": "Ferocity 5 (take 1/2 Improved Mend Pet as soon as it is available)"
               },
               {
                 "level": "31",
                 "tree": "Beast Mastery",
-                "talent": "Intimidation 1",
-                "note": "pseudo-taunt; hands a second mob to the pet"
+                "talent": "Intimidation 1 (pseudo-taunt; hands a second mob to the pet)"
               },
               {
                 "level": "32–33",
@@ -9244,26 +9240,22 @@
               {
                 "level": "34",
                 "tree": "Beast Mastery",
-                "talent": "Bestial Discipline 1",
-                "note": "one point can move to Improved Mend Pet"
+                "talent": "Bestial Discipline 1 (one point can move to Improved Mend Pet)"
               },
               {
                 "level": "35–39",
                 "tree": "Beast Mastery",
-                "talent": "Frenzy 5",
-                "note": "2–4 points is enough with a fast pet"
+                "talent": "Frenzy 5 (2–4 points is enough with a fast pet)"
               },
               {
                 "level": "40",
                 "tree": "Beast Mastery",
-                "talent": "Bestial Wrath 1",
-                "note": "removed in CC3, back in 1.18.1 at row 5"
+                "talent": "Bestial Wrath 1 (removed in CC3, back in 1.18.1 at row 5)"
               },
               {
                 "level": "41–45",
                 "tree": "Marksmanship",
-                "talent": "Efficiency 5",
-                "note": "Steakhouse skips it for leveling — \"Just drink more\""
+                "talent": "Efficiency 5 (Steakhouse skips it for leveling — \"Just drink more\")"
               },
               {
                 "level": "46–50",
@@ -9273,14 +9265,12 @@
               {
                 "level": "51",
                 "tree": "Marksmanship",
-                "talent": "Steady Shot",
-                "note": "baseline at 20 since 1.18.1, so this point is free after that patch"
+                "talent": "Steady Shot (baseline at 20 since 1.18.1, so this point is free after that patch)"
               },
               {
                 "level": "52–56",
                 "tree": "Beast Mastery",
-                "talent": "Swift Aspects 5",
-                "note": "or earlier, per Ataika"
+                "talent": "Swift Aspects 5 (or earlier, per Ataika)"
               },
               {
                 "level": "57–58",
@@ -12848,7 +12838,6 @@
             "attack_power": "lowest priority per the spec's own guide-writer (\"Attack power is at the bottom of my list\")"
           },
           "stat_priority": [
-            "fast-daggers-1.3-1.4-speed",
             "hit-to-cap",
             "crit/agility",
             "haste",
@@ -13681,14 +13670,12 @@
               {
                 "level": "10–11",
                 "tree": "Assassination",
-                "talent": "Remorseless Attacks 2/2",
-                "note": "40% crit on the next Ambush/Backstab/Sinister Strike after you land a kill"
+                "talent": "Remorseless Attacks 2/2 (40% crit on the next Ambush/Backstab/Sinister Strike after you land a kill)"
               },
               {
                 "level": "12–16",
                 "tree": "Subtlety",
-                "talent": "Camouflage 5/5",
-                "note": "faster in stealth, shorter Stealth cooldown, harder to detect"
+                "talent": "Camouflage 5/5 (faster in stealth, shorter Stealth cooldown, harder to detect)"
               },
               {
                 "level": "17–19",
@@ -13698,8 +13685,7 @@
               {
                 "level": "20–24",
                 "tree": "Combat",
-                "talent": "Opportunity 5/5",
-                "note": "moved to Combat row 1 in 1.18.0; 1.18.1 cut the top value from 20% to 15%"
+                "talent": "Opportunity 5/5 (moved to Combat row 1 in 1.18.0; 1.18.1 cut the top value from 20% to 15%)"
               },
               {
                 "level": "25–27",
@@ -13734,8 +13720,7 @@
               {
                 "level": "58",
                 "tree": null,
-                "talent": "Respec point — commit to the level-60 build",
-                "note": "\"At level 58, you should re-spec. What you re-spec to is totally up to you\""
+                "talent": "Respec point — commit to the level-60 build (\"At level 58, you should re-spec. What you re-spec to is totally up to you\")"
               }
             ],
             "leveling_order_source": "Shananagans' Ambush/Backstab leveling line (p=148075, reposted unchanged at p=149395 and p=161802). Many rogues instead respec to Assassination at 40 for Noxious Assault — see assassination-melee-dps.yaml and synthesis/classes/rogue/leveling.md."
@@ -22584,8 +22569,7 @@
               {
                 "level": "10–33",
                 "tree": "Enhancement",
-                "talent": "Shield Specialization 5",
-                "note": "24 Enhancement points across this bracket; respec it into Ancestral Knowledge at 33, not before"
+                "talent": "Shield Specialization 5 (24 Enhancement points across this bracket; respec it into Ancestral Knowledge at 33, not before)"
               },
               {
                 "level": "10–33",
@@ -22600,14 +22584,12 @@
               {
                 "level": "10–33",
                 "tree": "Enhancement",
-                "talent": "Ancestral Guardian 3",
-                "note": "before Lightning Strike, for mitigation"
+                "talent": "Ancestral Guardian 3 (before Lightning Strike, for mitigation)"
               },
               {
                 "level": "10–33",
                 "tree": "Enhancement",
-                "talent": "Lightning Strike",
-                "note": "take it first if threat is the problem"
+                "talent": "Lightning Strike (take it first if threat is the problem)"
               },
               {
                 "level": "10–33",
@@ -22627,26 +22609,22 @@
               {
                 "level": "10–33",
                 "tree": "Enhancement",
-                "talent": "Elemental Weapons 3",
-                "note": "take it first if you are squishy"
+                "talent": "Elemental Weapons 3 (take it first if you are squishy)"
               },
               {
                 "level": "10–33",
                 "tree": "Enhancement",
-                "talent": "Stormstrike",
-                "note": "take it first for more threat"
+                "talent": "Stormstrike (take it first for more threat)"
               },
               {
                 "level": "34–44",
                 "tree": "Elemental",
-                "talent": "Convection 5",
-                "note": "11 Elemental points across this bracket"
+                "talent": "Convection 5 (11 Elemental points across this bracket)"
               },
               {
                 "level": "34–44",
                 "tree": "Elemental",
-                "talent": "Concussion 2 or Elemental Warding 2",
-                "note": "Elemental Warding is the Maraudon pick"
+                "talent": "Concussion 2 or Elemental Warding 2 (Elemental Warding is the Maraudon pick)"
               },
               {
                 "level": "34–44",
@@ -22656,14 +22634,12 @@
               {
                 "level": "34–44",
                 "tree": "Elemental",
-                "talent": "Elemental Focus",
-                "note": "lands at 44; Clearcasting procs off physical crits too"
+                "talent": "Elemental Focus (lands at 44; Clearcasting procs off physical crits too)"
               },
               {
                 "level": "44–50",
                 "tree": "Enhancement",
-                "talent": "Thundering Strikes 5",
-                "note": "6 Enhancement points across this bracket"
+                "talent": "Thundering Strikes 5 (6 Enhancement points across this bracket)"
               },
               {
                 "level": "44–50",
@@ -22673,8 +22649,7 @@
               {
                 "level": "51–60",
                 "tree": "Enhancement",
-                "talent": "Respec Shield Specialization into Ancestral Knowledge 5",
-                "note": "respec plus 15 points across this bracket"
+                "talent": "Respec Shield Specialization into Ancestral Knowledge 5 (respec plus 15 points across this bracket)"
               },
               {
                 "level": "51–60",
@@ -22684,8 +22659,7 @@
               {
                 "level": "51–60",
                 "tree": "Enhancement",
-                "talent": "Reverberation 3",
-                "note": "before Flurry, for threat management and more frequent interrupts"
+                "talent": "Reverberation 3 (before Flurry, for threat management and more frequent interrupts)"
               },
               {
                 "level": "51–60",
@@ -22695,8 +22669,7 @@
               {
                 "level": "51–60",
                 "tree": "Elemental",
-                "talent": "Concussion 3 or Elemental Warding 3",
-                "note": "Concussion for threat, Elemental Warding to be tankier"
+                "talent": "Concussion 3 or Elemental Warding 3 (Concussion for threat, Elemental Warding to be tankier)"
               }
             ],
             "leveling_order_approximate": true,
@@ -22711,7 +22684,7 @@
           "stat_priority": [
             "weapon-skill-to-315",
             "hit-to-8-percent",
-            "crit-to-30-35-percent",
+            "crit-to-30–35-percent",
             "strength",
             "haste",
             "stamina"
@@ -23265,7 +23238,7 @@
             "spell_penetration": "matters against Nature-resistant bosses until Lower Karazhan enchants or a Thunderfury tank are available (single source)"
           },
           "stat_priority": [
-            "spell-hit-to-15-17-percent",
+            "spell-hit-to-15–17-percent",
             "crit",
             "haste-to-17-percent",
             "spell-power",
@@ -31752,8 +31725,7 @@
             "spirit": "low/dump stat (suppressed during channels per a single 2020 report, never retested)"
           },
           "stat_priority": [
-            "spell-hit-5-6-percent-from-gear",
-            "haste-or-spell-power-unresolved"
+            "spell-hit-5–6-percent-from-gear"
           ],
           "stat_priority_note": "Suppression covers 10% of the hit a warlock needs for Affliction spells, so players run 5–6% on gear (the 16% level-63 figure is vanilla baseline, not a Turtle statement). After hit the order is genuinely unresolved: the community wiki says \"Haste and Hit\" and one geared player says \"as much haste as you can get\", but the direct question \"is Affli better with haste or full sp?\" was asked and never answered. Rapid Deterioration's 6% haste is multiplicative with gear haste, and the game rounds tick timing up to 0.04 s. Whether Dark Harvest is affected by hit at all is an open question.",
           "caps": {},
@@ -35459,20 +35431,17 @@
               {
                 "level": "~20",
                 "tree": "Balance",
-                "talent": "Omen of Clarity",
-                "note": "approximate — \"Always go Omen of Clarity first by Lv20\"; free Wraths and, in forms, free Swipes and Claws"
+                "talent": "Omen of Clarity (approximate — \"Always go Omen of Clarity first by Lv20\"; free Wraths and, in forms, free Swipes and Claws)"
               },
               {
                 "level": "~24+",
                 "tree": "Balance",
-                "talent": "Sylvan Blessing 2/2 (with Owlkin Frenzy 1/3)",
-                "note": "approximate — one poster prefers this split to a full 3/3 Owlkin while leveling"
+                "talent": "Sylvan Blessing 2/2 (with Owlkin Frenzy 1/3) (approximate — one poster prefers this split to a full 3/3 Owlkin while leveling)"
               },
               {
                 "level": "~25",
                 "tree": "Feral",
-                "talent": "Furor",
-                "note": "approximate — \"then into Furor by Lv25\""
+                "talent": "Furor (approximate — \"then into Furor by Lv25\")"
               }
             ],
             "leveling_order_approximate": true,

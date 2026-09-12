@@ -31,9 +31,9 @@ talents:
     - {tree: Restoration, talent: Genesis, rank: 3, spell_id: null}
     - {tree: unspecified, talent: "remainder (core damage/hit/crit/range/cast-time talents, not individually named in sources)", rank: null, spell_id: null}
   leveling_order:
-    - {level: "~20", tree: Balance, talent: "Omen of Clarity", note: "approximate — \"Always go Omen of Clarity first by Lv20\"; free Wraths and, in forms, free Swipes and Claws"}
-    - {level: "~24+", tree: Balance, talent: "Sylvan Blessing 2/2 (with Owlkin Frenzy 1/3)", note: "approximate — one poster prefers this split to a full 3/3 Owlkin while leveling"}
-    - {level: "~25", tree: Feral, talent: "Furor", note: "approximate — \"then into Furor by Lv25\""}
+    - {level: "~20", tree: "Balance", talent: "Omen of Clarity (approximate — \"Always go Omen of Clarity first by Lv20\"; free Wraths and, in forms, free Swipes and Claws)"}
+    - {level: "~24+", tree: "Balance", talent: "Sylvan Blessing 2/2 (with Owlkin Frenzy 1/3) (approximate — one poster prefers this split to a full 3/3 Owlkin while leveling)"}
+    - {level: "~25", tree: "Feral", talent: "Furor (approximate — \"then into Furor by Lv25\")"}
   leveling_order_approximate: true
   leveling_order_source: "No druid source gives a point-by-point table for any build. These are the anchors the Balance-leveling posts actually give (Captain4k p=165907, Templar85 p=116254, Chev03 p=165791); every level is approximate. See synthesis/classes/druid/leveling.md."
 stat_weights:
