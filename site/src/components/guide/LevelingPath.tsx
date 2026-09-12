@@ -1,5 +1,6 @@
 import { useId } from 'react';
 
+import { plainText } from '../../lib/markdown';
 import { Markdown } from '../Markdown';
 
 /**
@@ -49,7 +50,7 @@ export function LevelingPath({ steps, color, approximate = false }: LevelingPath
           const points = text(s?.points);
           const note = text(s?.note);
           const id = `${uid}-${i}`;
-          const long = talent.length + note.length > 120;
+          const long = plainText(talent, Infinity).length + plainText(note, Infinity).length > 120;
           return (
             <li key={i} className="flex min-w-0 items-start gap-2.5 rounded-xl bg-surface2 px-3 py-2">
               <span
