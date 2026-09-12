@@ -22,7 +22,13 @@ export function Markdown({ source, className = '', inline = false }: MarkdownPro
 
   if (!source?.trim()) return null;
   if (inline) {
-    return <span ref={ref as RefObject<HTMLSpanElement>} className={className} dangerouslySetInnerHTML={{ __html: html }} />;
+    return (
+      <span
+        ref={ref as RefObject<HTMLSpanElement>}
+        className={`md-inline ${className}`}
+        dangerouslySetInnerHTML={{ __html: html }}
+      />
+    );
   }
   return <div ref={ref as RefObject<HTMLDivElement>} className={`prose-md ${className}`} dangerouslySetInnerHTML={{ __html: html }} />;
 }

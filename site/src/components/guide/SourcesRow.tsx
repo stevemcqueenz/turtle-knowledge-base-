@@ -17,7 +17,7 @@ export function SourcesRow({ sources, children }: SourcesRowProps) {
   const summary = summarizeSources(sources);
 
   return (
-    <div className="card overflow-hidden">
+    <div className="card">
       <div className="flex flex-wrap items-center gap-x-3 gap-y-2 p-4">
         <p className="min-w-0 flex-1 text-sm">
           {sources.length > 0 ? sourceSummaryLine(summary) : 'No posts are cited for this spec.'}

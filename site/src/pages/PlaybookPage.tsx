@@ -1,8 +1,10 @@
+import { useLayoutEffect, useRef } from 'react';
 import type { YamlCooldown, YamlLevelingStep, YamlRotationStep, YamlSource, YamlTalentPoint } from '../types';
 import { getClass, isPlainObject, playbookNeighbours } from '../lib/site';
 import { href, useScrollReset } from '../lib/router';
 import { pickTalentOrder } from '../lib/leveling';
 import { readableColor } from '../lib/theme';
+import { annotateGlossaryTerms } from '../lib/glossary-inline';
 import { useThemeValue } from '../lib/theme-context';
 import { Callout } from '../components/Callout';
 import { Collapsible } from '../components/Collapsible';
@@ -38,6 +40,12 @@ export function PlaybookPage({ slug, id }: { slug: string; id: string }) {
   const playbook = entry?.playbooks.find((p) => p.id === id);
   useScrollReset(`${slug}/${id}`);
   const theme = useThemeValue();
+  // The playbook body is React-rendered from structured data, so the Markdown
+  // annotator never sees it; explain the archive jargon here too.
+  const body = useRef<HTMLDivElement>(null);
+  useLayoutEffect(() => {
+    if (body.current) annotateGlossaryTerms(body.current);
+  }, [slug, id]);
 
   if (!entry || !playbook) return <NotFound path={`#/class/${slug}/${id}`} />;
 
@@ -103,7 +111,7 @@ export function PlaybookPage({ slug, id }: { slug: string; id: string }) {
       <GuideHero entry={entry} playbook={playbook} />
       <SectionTabs items={tabs} ariaLabel="Sections of this guide" note={sourceLine} />
 
-      <div className="mx-auto max-w-6xl space-y-10 px-3 py-7 sm:px-5">
+      <div ref={body} className="mx-auto max-w-6xl space-y-10 px-3 py-7 sm:px-5">
         {/* ---- Talents ---------------------------------------------------- */}
         <GuideSection
           id="talents"

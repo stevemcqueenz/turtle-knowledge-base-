@@ -212,6 +212,56 @@
   color: var(--cite-wiki);
 }
 
+/* Inline glossary tooltips (see lib/glossary-inline.ts). Opened by click, tap or
+   keyboard focus — never hover only — and closed by Escape, an outside tap or
+   moving focus away. */
+.gloss {
+  position: relative;
+}
+.gloss-term {
+  color: inherit;
+  font: inherit;
+  background: none;
+  padding: 0;
+  text-align: left;
+  border-bottom: 1px dashed rgb(var(--c-accent) / 0.8);
+  cursor: pointer;
+}
+.gloss-term:hover {
+  color: rgb(var(--c-accent));
+}
+.gloss-pop {
+  @apply rounded-xl bg-surface hairline p-3 text-sm shadow-xl;
+  display: none;
+  position: absolute;
+  top: calc(100% + 0.35rem);
+  left: 0;
+  z-index: 30;
+  width: max-content;
+  max-width: min(22rem, 78vw);
+  white-space: normal;
+  /* the term may sit inside bold or italic prose; the panel is neither */
+  font-weight: 400;
+  font-style: normal;
+  max-height: 60vh;
+  overflow-y: auto;
+  color: rgb(var(--c-muted));
+  line-height: 1.5;
+}
+.gloss.open > .gloss-pop {
+  display: block;
+}
+.gloss-pop > strong {
+  @apply font-semibold text-ink;
+  display: block;
+  margin-bottom: 0.15rem;
+}
+.gloss-scope {
+  @apply text-[10px] uppercase tracking-wider text-muted;
+  display: block;
+  margin-top: 0.35rem;
+}
+
 .scrollbar-thin {
   scrollbar-width: thin;
 }
