@@ -104,9 +104,9 @@ opener:
     sources:
       - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=76428#p76428", author: Ortogs, authority: player, date: "2023-11-08"}
   - step: 1
-    spec: "Holy (Starshards)"
+    spec: Holy
     action: "Power Word: Shield → Holy Fire → Starshards → Wand"
-    condition: "Night Elf only; add a second Holy Fire on bears, and end the fight on wand or Starshards rather than Holy Fire so Spirit Tap's tick overlaps"
+    condition: "Starshards opener. Night Elf only; add a second Holy Fire on bears, and end the fight on wand or Starshards rather than Holy Fire so Spirit Tap's tick overlaps"
     sources:
       - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=112368#p112368", author: Amyloriley, authority: player, date: "2024-12-12"}
 priority:

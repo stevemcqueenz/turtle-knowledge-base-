@@ -65,6 +65,7 @@ talents:
     - "https://talents.turtlecraft.gg/warrior?points=FQFARYAQBYAAAAAAAAAAAAAAAAAAVAFoIAQABQAAAAA%3D" # Czasku p=106723 (leveling, 30+)
 stat_weights: null
 stat_priority: [defense, hit, weapon-skill, stamina, armor, block-value, crit]
+stat_priority_note: "Defense is stacked to crit immunity rather than indefinitely: no Turtle source states the exact cap, 440 is the vanilla baseline, and the one practitioner report is \"With 370 defence in Naxx, in my experience this leads to 1 crit per boss fight and usually 4-5 crushing blows\" in Battle Stance without Shield Block [Ellifta p=115882]. Stamina is valued as effective health — \"reach minimum required defense cap and then invest into EH\" [Bogyone p=85806]."
 caps:
   defense: null     # Turtle linearized formula; no number in sources. vanilla baseline 440 (not from turtlecraft.gg)
   hit_boss_pct: 9

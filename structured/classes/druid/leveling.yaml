@@ -127,9 +127,9 @@ weapon_rule:
     - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=170843#p170843", author: Biggamehuntard, authority: player, date: "2026-03-15"}
     - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=165791#p165791", author: Chev03, authority: player, date: "2026-01-21"}
 stat_priority:
-  - spec: "Feral (solo)"
+  - spec: Feral
     order: [armor]
-    notes: "Armor is the only stat the sources put first, via Thick Hide and cheap enchants; \"for solo leveling stamina is not important at all\", which is why a second, stamina-heavy set is suggested for the dungeons you tank. Nothing else is ranked."
+    notes: "Solo. Armor is the only stat the sources put first, via Thick Hide and cheap enchants; \"for solo leveling stamina is not important at all\", which is why a second, stamina-heavy set is suggested for the dungeons you tank. Nothing else is ranked."
     agreement: single
     sources:
       - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=165791#p165791", author: Chev03, authority: player, date: "2026-01-21"}

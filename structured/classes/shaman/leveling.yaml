@@ -123,21 +123,21 @@ weapon_rule:
     - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=173827#p173827", author: amanagor, authority: player, date: "2026-04-03"}
     - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=174099#p174099", author: Riiya, authority: player, date: "2026-04-05"}
 stat_priority:
-  - spec: "Enhancement (tanking while leveling)"
+  - spec: Enhancement
     order: [stamina, agility, strength, intellect]
-    notes: "A shield with high armor outranks the stat line itself; roughly 10 armor is worth 1 stamina."
+    notes: "Tanking while leveling. A shield with high armor outranks the stat line itself; roughly 10 armor is worth 1 stamina."
     agreement: single
     sources:
       - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715", author: Skegg, authority: "player (guide writer)", date: "2025-09-01"}
-  - spec: "Enhancement (damage while leveling)"
+  - spec: Enhancement
     order: [strength, agility, stamina, intellect]
-    notes: "Skegg writes strength and agility as equal, ahead of stamina and then intellect."
+    notes: "Damage while leveling. Skegg writes strength and agility as equal, ahead of stamina and then intellect."
     agreement: single
     sources:
       - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715", author: Skegg, authority: "player (guide writer)", date: "2025-09-01"}
-  - spec: "Healing in dungeons while leveling"
+  - spec: Restoration
     order: [intellect, stamina]
-    notes: "Skegg writes intellect and health as equal; \"for healing, all you'll need is some +int gear\"."
+    notes: "Healing in dungeons while leveling. Skegg writes intellect and health as equal; \"for healing, all you'll need is some +int gear\"."
     agreement: single
     sources:
       - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715", author: Skegg, authority: "player (guide writer)", date: "2025-09-01"}
