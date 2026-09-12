@@ -127,9 +127,11 @@ export function LevelingPage({ slug }: { slug: string }) {
             title="Talent order"
             hint={orders.length > 0 ? 'The order the sources give, level by level' : undefined}
           >
-            {orders.map((order) => (
+            {orders.map((order, i) => (
               <div key={order.id} className="space-y-2">
-                <h3 className="text-base font-bold">{cleanHeading(order.title)}</h3>
+                {i === 0 || orders[i - 1].title !== order.title ? (
+                  <h3 className="text-base font-bold">{cleanHeading(order.title)}</h3>
+                ) : null}
                 {order.subtitle ? <Markdown inline source={order.subtitle} className="block text-sm text-muted" /> : null}
                 <LevelingPath steps={order.steps} color={ink} approximate={order.approximate} />
               </div>

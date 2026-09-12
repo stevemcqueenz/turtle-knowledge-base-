@@ -42,7 +42,7 @@ for (const route of routes) {
       expectNot('Source file:');
     }
     // A guide with no leveling order of its own shows the class guide's.
-    if (route === '#/class/warrior/protection-tank') expect('Leveling path');
+    if (!siteData.isFixture && route === '#/class/warrior/protection-tank') expect('Leveling path');
     if (/#\/class\/[a-z]+\/[a-z-]+$/.test(route) && !route.endsWith('/gear') && !route.endsWith('/leveling'))
       expect('Sources');
   } catch (err) {

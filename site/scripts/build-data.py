@@ -249,8 +249,7 @@ def parse_talent_orders(sections: list[dict]) -> list[dict]:
                     and not LINK_COL.match(names[i])]
             builds = [talent] if talent is not None else free
             notes = free if talent is not None else []
-            approximate = bool(re.search(r"approx|arithmetic", names[level], re.I)) or any(
-                "~" in cell(r, level) for r in rows)
+            approximate = any("~" in cell(r, level) for r in rows)
             for col in builds:
                 steps = []
                 for r in rows:

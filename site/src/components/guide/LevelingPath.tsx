@@ -23,7 +23,7 @@ const toggleClass =
 
 /** "~level 14" -> "~14": the tile already reads as a level. */
 function levelLabel(level: string): string {
-  return level.replace(/^(~?)\s*(?:levels?|lvl)\.?\s*/i, '$1');
+  return level.replace(/^(~?)\s*levels?\s+/i, '$1');
 }
 
 interface LevelingPathProps {
