@@ -18,7 +18,8 @@ export interface LevelingStep {
 const text = (v: unknown): string => (v === null || v === undefined ? '' : String(v).trim());
 
 const toggleClass =
-  'mt-1 inline-block cursor-pointer text-xs font-semibold text-muted underline decoration-dotted underline-offset-2 hover:text-ink';
+  'mt-1 inline-block cursor-pointer rounded text-xs font-semibold text-muted underline decoration-dotted underline-offset-2 hover:text-ink ' +
+  'peer-focus-visible:outline peer-focus-visible:outline-2 peer-focus-visible:outline-offset-2 peer-focus-visible:outline-[rgb(var(--c-accent))]';
 
 /** "~level 14" -> "~14": the tile already reads as a level. */
 function levelLabel(level: string): string {
