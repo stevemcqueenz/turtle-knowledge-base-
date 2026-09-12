@@ -26,10 +26,11 @@ const RULES: Rule[] = [
   { term: 'post-1.18.1', re: /\bpost-1\.18\.1\b/ },
   // Archive usage only: `Community standing` or a `standing:` label. Plain-English
   // uses ("standing at range", "standing in front") must not match.
-  { term: 'standing', re: /\bcommunity standing\b|\bstanding\b(?=\s*[:—–])/i },
+  { term: 'standing', re: /\bcommunity standing\b|\bstanding\b(?=\s*[:—])/i },
   // Likewise the agreement label `contested:`, never plain-English "contested loot".
-  { term: 'contested', re: /\bcontested\b(?=\s*[:—–])/i },
-  { term: 'player claim', re: /\bplayer[- ]claims?\b/i },
+  { term: 'contested', re: /\bcontested\b(?=\s*[:—])/i },
+  // And the parenthesised label `(player claim)`, never "a player claims that …".
+  { term: 'player claim', re: /\bplayer claims?\b(?=[),])/i },
   // `(opaque` in the prose opens a note about a dead talent-calculator link; say
   // so instead of showing the bare word, keeping the parentheses around it.
   { term: 'opaque link', re: /\(opaque(?=[,)])/i, label: '(calculator link, offline' },
@@ -90,8 +91,10 @@ function entry(term: string): GlossaryTerm | undefined {
 
 function skipped(node: Node, root: HTMLElement): boolean {
   for (let p = node.parentElement; p && p !== root; p = p.parentElement) {
-    // A nested Markdown block annotates itself, so a page-level pass leaves it alone.
-    if (SKIP.has(p.tagName) || p.classList.contains('gloss') || p.classList.contains('prose-md')) return true;
+    // A nested Markdown block annotates itself, so a page-level pass leaves it alone;
+    // inline Markdown is never annotated, its host may clip the popup.
+    if (SKIP.has(p.tagName) || p.classList.contains('gloss')) return true;
+    if (p.classList.contains('prose-md') || p.classList.contains('md-inline')) return true;
   }
   return false;
 }

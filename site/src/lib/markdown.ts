@@ -50,7 +50,8 @@ export function parseCitationText(text: string): CitationParts | null {
  * - wraps tables so they scroll horizontally on narrow screens,
  * - marks external links safe (`target`/`rel`),
  * - turns `[author (tier), date](url)` links into compact citation chips,
- * - explains archive jargon on its first mention with a glossary tooltip.
+ * - explains archive jargon on its first mention with a glossary tooltip, except in
+ *   inline Markdown, whose host element may clip the popup.
  */
 export function enhanceMarkdownDom(root: HTMLElement): void {
   root.querySelectorAll('table').forEach((table) => {
@@ -78,7 +79,7 @@ export function enhanceMarkdownDom(root: HTMLElement): void {
     a.textContent = label;
   });
 
-  annotateGlossaryTerms(root);
+  if (!root.classList.contains('md-inline')) annotateGlossaryTerms(root);
 }
 
 /** Rough plain-text preview of a Markdown string (for cards and meta lines). */
