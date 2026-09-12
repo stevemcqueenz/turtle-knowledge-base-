@@ -6,7 +6,7 @@ source_file: synthesis/classes/shaman/leveling.md
 patch_validity:
   written_for: "the post-CC2 (1.17.2) tree; Skegg's guide is 2025-09-01"
   valid_for_1181: true
-  notes: "1.18.1 touched Lightning Shield mana (−25%), Flurry, Elemental Weapons and Water Shield's Lightning Strike ratio. Elemental Weapons' always-on 10% damage reduction became Earthen Bulwark, so the \"Rockbiter is always-on mitigation\" argument no longer holds as written."
+  notes: "1.18.1 touched Lightning Shield mana (−25%), Flurry, Elemental Weapons and Water Shield's Lightning Strike ratio. Elemental Weapons' always-on 10% damage reduction became Earthen Bulwark, so the always-on-mitigation argument for Rockbiter no longer holds as written."
 spec_verdict:
   favored:
     spec: Enhancement
@@ -32,7 +32,7 @@ spec_verdict:
   avoid:
     - what: "Leveling pure Elemental"
       agreement: consensus
-      why: "\"Viable but it won't feel very good\" — the mana economy forces constant drinking."
+      why: "\"Elemental is *viable* but it won't feel very good\" — the mana economy forces constant drinking."
       sources:
         - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=117631#p117631", author: Bigsmerf, authority: player, date: "2025-01-23"}
         - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=159080#p159080", author: Ironbob, authority: player, date: "2025-11-10"}

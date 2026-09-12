@@ -16,22 +16,22 @@ All dates UTC. Eras: **pre-1.18.1** (before 2025-10-03), **1.18.1-announced-pre-
 
 The only level-by-level route in the sources (CC3 tree, written for 1.18.0; the 1.18.1 changes do not touch these talents except the Boundless Anger/Precision Cut swap, which is a 60 concern): [armsgirl (player), 2025-10-31](https://forum.turtlecraft.gg/viewtopic.php?p=157920#p157920), build link to 40 `https://talents.turtlecraft.gg/warrior?points=DQCDKYDIp-Ao-` (opaque):
 
-**Every level below is approximate**: the post gives the order only, and the levels are the reader's arithmetic at one point per level from 10.
+**The post gives the pick order only, with no levels**, so the first column is each pick's position in that order rather than a level.
 
 | Levels | Talent | Note |
 |---|---|---|
-| ~14 | Cruelty (Fury) 5/5 | approximate — order given, level derived |
-| ~17 | Tactical Mastery (Arms) 3/5 | approximate — order given, level derived |
-| ~19 | Improved Rend (Arms) 2/2 | approximate — order given, level derived |
-| ~22 | Improved Thunder Clap (Arms) 3/3 | approximate — order given, level derived |
-| ~24 | Deflection (Arms) 2/5 | approximate — order given, level derived |
-| ~26 | Improved Overpower (Arms) 2/2 | approximate — order given, level derived |
-| ~29 | Dual Wield Specialization (Fury) 3/3 | approximate — order given, level derived |
-| ~32 | Two-Handed Weapon Specialization (Arms) 3/3 | approximate — order given, level derived |
-| ~33 | Impale (Arms) 1/2 | approximate — order given, level derived |
-| ~34 | Master Strike (Arms) 1/1 | approximate — order given, level derived |
-| ~35 | Sweeping Strikes (Arms) 1/1 | approximate — order given, level derived |
-| ~40 | Master of Arms (Arms) 5/5 | approximate — order given, level derived |
+| 1 | Cruelty (Fury) 5/5 |  |
+| 2 | Tactical Mastery (Arms) 3/5 |  |
+| 3 | Improved Rend (Arms) 2/2 |  |
+| 4 | Improved Thunder Clap (Arms) 3/3 |  |
+| 5 | Deflection (Arms) 2/5 |  |
+| 6 | Improved Overpower (Arms) 2/2 |  |
+| 7 | Dual Wield Specialization (Fury) 3/3 |  |
+| 8 | Two-Handed Weapon Specialization (Arms) 3/3 |  |
+| 9 | Impale (Arms) 1/2 |  |
+| 10 | Master Strike (Arms) 1/1 |  |
+| 11 | Sweeping Strikes (Arms) 1/1 |  |
+| 12 | Master of Arms (Arms) 5/5 |  |
 
 (The "3/3" for Dual Wield Specialization and Two-Handed Weapon Specialization is how the post writes it; the route mixes DW and 2H talents on purpose — "Then if you want to go 2H you switch" to a 60 build. Rank maxima are not restated here because the CC2 tree changed several rank counts; check the calculator.) Hctwowfan's tweak to the same build: "0/5 in improved shouts and instead put those into 2/2 improved slam and 3/3 blood craze" [Hctwowfan (player), 2025-10-31](https://forum.turtlecraft.gg/viewtopic.php?p=157895#p157895).
 

@@ -23,11 +23,12 @@ spec_verdict:
       build: "Fire (often with enough Frost points for survivability)"
       when: "if you want faster kills and can live without Ice Block / Cold Snap"
       agreement: contested
-      why: "Called \"hardest but still very doable\" by the wiki and the faster overall killer by Eluaria; recommended for Hardcore by players who do not want to AoE-grind."
+      why: "Rated the hardest of the three to level but still very doable by the wiki Mage General FAQ (page archived by title only, so the wording is not verifiable here), and the faster overall killer by Eluaria; recommended for Hardcore by players who do not want to AoE-grind."
       sources:
         - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=75350#p75350", author: Darktifa, authority: player, date: "2023-11-01"}
         - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=174948#p174948", author: Eluaria, authority: player, date: "2026-04-12"}
         - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=174149#p174149", author: Chev03, authority: player, date: "2026-04-06"}
+        - {url: "https://turtle-wow.fandom.com/wiki/Mage_General_FAQ", author: "wiki Mage General FAQ", authority: wiki, date: null}
     - spec: Arcane
       build: "Arcane"
       when: "dungeon-heavy leveling, or if you intend to play Arcane at 60 and want to skip a respec"

@@ -43,9 +43,9 @@ spec_verdict:
         - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325", author: Langorn, authority: "player (guide writer)", date: "2025-09-19"}
     - what: "Mind Blast in a group"
       agreement: single
-      why: "\"Basically a taunt and you will pull\"."
+      why: "Mind Blast builds threat fast — \"nice for quickly building threat, but it'll never compare to an actual taunt\" — so in a group it pulls off the tank."
       sources:
-        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=16593#p16593", author: Nymdorl, authority: player, date: "2022-02-02"}
+        - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=52265#p52265", author: Lexiebean, authority: player, date: "2023-07-04"}
     - what: "Casting damage spells other than Shadow Word: Pain before 40 as Shadow"
       agreement: single
       why: "\"Most of the time not worth the mana. Just wandweave\" until Shadowform."

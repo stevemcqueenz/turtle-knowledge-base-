@@ -141,15 +141,6 @@ priority:
     condition: "situational only — do not finish a fight at 0 rage with Charge on cooldown"
     sources:
       - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108095#p108095", author: Yasara, authority: player, date: "2024-11-16"}
-  - priority: 8
-    action: "Hamstring kiting (Charge → Hamstring → swing → strafe away → repeat)"
-    condition: "CONTESTED: presented as the core of Arms leveling (~30% less damage taken) and as unsuitable for normal mobs (triple combat time for 20% less damage). Argued under the 6 s Hamstring cooldown, removed in 1.18.1."
-    agreement: contested
-    sources:
-      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108097#p108097", author: Xudo, authority: player, date: "2024-11-16"}
-      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=60465#p60465", author: Borefficz, authority: player, date: "2023-09-01"}
-      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=113433#p113433", author: Turbosaxophonic, authority: player, date: "2024-12-19"}
-      - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108106#p108106", author: Yasara, authority: player, date: "2024-11-16"}
 mob_selection:
   rule: "Pick quests whose mobs are 2–3 levels below you and fight them one at a time; never take 2+ at once or anything 2+ levels above you. Green mobs also offset the dual-wield miss rate."
   agreement: consensus
@@ -180,6 +171,6 @@ stat_priority:
       - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=173980#p173980", author: SvenS2, authority: player, date: "2026-04-04"}
 gaps:
   - "No source gives a level for each talent point; the only ordered route (armsgirl p=157920) gives order only, and the levels in the synthesis table are the reader's arithmetic."
-  - "No post-1.18.1 leveling rotation; the Hamstring-kiting debate predates the cooldown removal."
+  - "No post-1.18.1 leveling rotation, and no source ranks Hamstring kiting (Charge → Hamstring → swing → strafe away → repeat) against the abilities above, so it is recorded here rather than in the ordered priority loop. CONTESTED: presented as the core of Arms leveling (~30% less damage taken) and as unsuitable for normal mobs (triple combat time for 20% less damage). Argued under the 6 s Hamstring cooldown, removed in 1.18.1. Sources: Xudo p=108097, Borefficz p=60465, Turbosaxophonic p=113433, Yasara p=108106."
   - "No respec gold cost is stated anywhere ('pretty cheap' is as specific as it gets)."
   - "No ordered Fury leveling route: Berettadin gives a talent list without order, and Blood Drinker is only placed as '35+'."

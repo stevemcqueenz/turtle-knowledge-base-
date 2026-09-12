@@ -143,6 +143,6 @@ stat_priority:
 gaps:
   - "No point-by-point talent table exists for any druid build on the post-CC2 tree; the order in leveling.md is a set of anchors (movement speed by ~21, Omen of Clarity by 20, Furor by 25) and is labelled approximate."
   - "No zone-by-zone route or dungeon-per-bracket list for druids."
-  - "No skipped-rank table for skill training beyond \"rank 1 Faerie Fire is enough\"."
-  - "No Hardcore-specific druid build or pulling rule beyond \"level as a tank rather than Resto\"."
+  - "No skipped-rank table for skill training beyond rank 1 Faerie Fire being enough to pull with."
+  - "No Hardcore-specific druid build or pulling rule beyond levelling as a tank rather than Resto."
   - "No leveling weapon or item list; feral damage comes from the form."
