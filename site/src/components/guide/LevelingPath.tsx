@@ -59,7 +59,7 @@ export function LevelingPath({ steps, color, approximate = false }: LevelingPath
               </span>
               <span className="min-w-0 flex-1">
                 {long ? <input id={id} type="checkbox" className="peer sr-only" /> : null}
-                <span className={long ? 'block line-clamp-4 peer-checked:line-clamp-none' : 'block'}>
+                <span className={long ? 'line-clamp-4 peer-checked:line-clamp-none' : 'block'}>
                   <span className="block text-sm font-medium leading-snug">
                     {talent ? <Markdown inline source={talent} /> : 'Talent not named'}
                     {points ? <span className="ml-1.5 font-mono text-xs text-muted">{points}</span> : null}
