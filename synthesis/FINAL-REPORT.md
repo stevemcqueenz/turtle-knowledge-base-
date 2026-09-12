@@ -9,7 +9,7 @@ Captured 2026-09-10 (UTC). Turtle WoW's servers closed on 2026-05-15; the websit
 | forum.turtlecraft.gg | 30 English forums plus German: 21,301 of 21,308 topics (4 deleted topics returned 404), 22,449 topic pages, 624 listing pages, 161,896 posts, 16,173 authors, 21 staff accounts (4,127 staff posts) | raw 301 MB gz, extracted 211 MB, structured 349 MB |
 | turtlecraft.gg | 34 of 36 feature pages (`/hardcore` timed out, `/bug-tracker` returned 500 on every attempt) | |
 | turtle-wow.fandom.com | 5,276 pages via the MediaWiki API (4,419 articles, 1,790 flagged Turtle content; 1,463 NPC, 274 quest, 213 zone, 95 faction infoboxes) | 42 MB |
-| not captured | Russian/Chinese/Spanish/Ukrainian forums (by decision, 853 topics); `database.turtlecraft.gg` (DNS gone); `talents.turtlecraft.gg` (origin down, 208 build links cataloged undecoded); all 348 patch-note images (404); forum staff list (login-gated) | |
+| not captured | Russian/Chinese/Spanish/Ukrainian forums (by decision, 853 topics); `database.turtlecraft.gg` (DNS gone); `talents.turtlecraft.gg` (origin down, 195 build links cataloged undecoded); all 348 patch-note images (404); forum staff list (login-gated) | |
 
 Derived outputs: 122 synthesis documents (3.2 MB), 47 machine-readable class playbooks, 507 structured 1.18.1 changes, 371 Turtle-vs-vanilla entries, 25 instances with 140 bosses, 122 issues, 552 staff statements, 313 glossary terms, 17,738 cataloged external links, a cross-linked entity index, and a 13-part pseudonymized behavior corpus. Coverage and a 40-page spot-check (40 of 40 consistent) are in `coverage-report.md`.
 
@@ -28,7 +28,7 @@ Release timeline (all staff-sourced): preliminary notes 2025-10-03; class change
 ## 3. Claims worth verifying against the local 1.18.1 game data
 
 - Every entry in `structured/patches/1.18.1-changes.yaml` with `status: unclear` (21) and every `before -> after` number in the classes and items systems (274 entries); the YAML gives the field to compare.
-- The 208 talent-calculator build links in `structured/talent-links.jsonl`: decode against Talent.dbc tree order to turn the playbooks' opaque links into point lists (every class README names this as its top gap).
+- The 195 talent-calculator build links in `structured/talent-links.jsonl`: decode against Talent.dbc tree order to turn the playbooks' opaque links into point lists (every class README names this as its top gap).
 - Spell and item names highlighted in patch notes (bold in `extracted/`): map to IDs in the DBCs; no source gives IDs except 182 wiki quest IDs and a handful of NPC IDs in the Karazhan 10 guide.
 - Staff mechanics statements in `staff-statements.md`: level-based miss/resist caps apply to players only; rage generation formula rebuilt; Haste, Meditation and Armor Penetration stat semantics; totem and blessing stacking; 4-7% NPC buff for levels 10-57; rank decay floor; same-IP kills grant no honor; melee leeway "broken"; quest log size fixed.
 - Boss counts and level ranges that disagree between staff, wiki and the LFT addon (listed per instance in `content/dungeons-and-raids.md`), and the unnamed bosses in Black Morass, Karazhan Crypt and Dragonmaw Retreat.

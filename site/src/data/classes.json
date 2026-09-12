@@ -2660,7 +2660,7 @@
           "id": "build-a-2h-arms-default-talent-order-10-60",
           "heading": "Build A — 2H Arms (default), talent order 10–60",
           "level": 2,
-          "markdown": "The only level-by-level route in the sources (CC3 tree, written for 1.18.0; the 1.18.1 changes do not touch these talents except the Boundless Anger/Precision Cut swap, which is a 60 concern): [armsgirl (player), 2025-10-31](https://forum.turtlecraft.gg/viewtopic.php?p=157920#p157920), build link to 40 `https://talents.turtlecraft.gg/warrior?points=DQCDKYDIp-Ao-` (opaque):\n\n**The post gives the pick order only, with no levels**, so the first column is each pick's position in that order rather than a level.\n\n| Levels | Talent | Note |\n|---|---|---|\n| 1 | Cruelty (Fury) 5/5 |  |\n| 2 | Tactical Mastery (Arms) 3/5 |  |\n| 3 | Improved Rend (Arms) 2/2 |  |\n| 4 | Improved Thunder Clap (Arms) 3/3 |  |\n| 5 | Deflection (Arms) 2/5 |  |\n| 6 | Improved Overpower (Arms) 2/2 |  |\n| 7 | Dual Wield Specialization (Fury) 3/3 |  |\n| 8 | Two-Handed Weapon Specialization (Arms) 3/3 |  |\n| 9 | Impale (Arms) 1/2 |  |\n| 10 | Master Strike (Arms) 1/1 |  |\n| 11 | Sweeping Strikes (Arms) 1/1 |  |\n| 12 | Master of Arms (Arms) 5/5 |  |\n\n(The \"3/3\" for Dual Wield Specialization and Two-Handed Weapon Specialization is how the post writes it; the route mixes DW and 2H talents on purpose — \"Then if you want to go 2H you switch\" to a 60 build. Rank maxima are not restated here because the CC2 tree changed several rank counts; check the calculator.) Hctwowfan's tweak to the same build: \"0/5 in improved shouts and instead put those into 2/2 improved slam and 3/3 blood craze\" [Hctwowfan (player), 2025-10-31](https://forum.turtlecraft.gg/viewtopic.php?p=157895#p157895).\n\nOther Arms leveling links (opaque, CC2 era): Yasara's \"classic armsbuild for leveling\" `https://talents.turtlecraft.gg/warrior?points=DQFARYDQpYAABABoAoBYAoAAAAAAAAAAAAAAAAAAAAA%3D` with Overpower and Counterattack ranked up [Yasara (player), 2024-11-16](https://forum.turtlecraft.gg/viewtopic.php?p=108095#p108095) (Counterattack no longer exists — CC3); Czasku's Arms-to-30 `...?points=FQFAQYAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA%3D` [Czasku (player), 2024-11-06](https://forum.turtlecraft.gg/viewtopic.php?p=106723#p106723).\n\nTalent notes: Tactical Mastery is what makes early tanking work — \"You would start Arms if you plan to tank early because it grabs tac mastery and imp tclap. Those two talents will be 90% of your ability to tank for a good while\" [Eyeburn (player), 2025-09-13](https://forum.turtlecraft.gg/viewtopic.php?p=151619#p151619); \"TacMastery lets you do stuff like Charge -> Def stance -> ThunderClap -> Demo Shout\" [Oomentaloo (player), 2025-09-08](https://forum.turtlecraft.gg/viewtopic.php?p=150752#p150752). Axe Specialization at 30 is why the Whirlwind Axe is the pick: \"at lvl 30 you can take Axe Specialization which is additional 5% ... When you're lvl 40 you get Mortal Strike\" [Czasku (player), 2024-09-24](https://forum.turtlecraft.gg/viewtopic.php?p=101834#p101834) — note Master of Arms replaced the per-weapon specializations at CC2, so this is pre-CC2 reasoning; the axe's top-end damage argument still holds (\"the axe has the highest top dmg\" [Hctwowfan (player), 2024-09-24](https://forum.turtlecraft.gg/viewtopic.php?p=101830#p101830); damage ranges per Whirlwind weapon [Atreidon (player), 2024-09-24](https://forum.turtlecraft.gg/viewtopic.php?p=101831#p101831))."
+          "markdown": "The only level-by-level route in the sources (CC3 tree, written for 1.18.0; the 1.18.1 changes do not touch these talents except the Boundless Anger/Precision Cut swap, which is a 60 concern): [armsgirl (player), 2025-10-31](https://forum.turtlecraft.gg/viewtopic.php?p=157920#p157920), build link to 40 `https://talents.turtlecraft.gg/warrior?points=DQCDKYDIp-Ao-` (opaque):\n\n**Every level below is approximate**: the post gives the pick order only, and the levels are the reader's arithmetic at one point per level from 10.\n\n| Levels | Talent | Note |\n|---|---|---|\n| ~14 | Cruelty (Fury) 5/5 |  |\n| ~17 | Tactical Mastery (Arms) 3/5 |  |\n| ~19 | Improved Rend (Arms) 2/2 |  |\n| ~22 | Improved Thunder Clap (Arms) 3/3 |  |\n| ~24 | Deflection (Arms) 2/5 |  |\n| ~26 | Improved Overpower (Arms) 2/2 |  |\n| ~29 | Dual Wield Specialization (Fury) 3/3 |  |\n| ~32 | Two-Handed Weapon Specialization (Arms) 3/3 |  |\n| ~33 | Impale (Arms) 1/2 |  |\n| ~34 | Master Strike (Arms) 1/1 |  |\n| ~35 | Sweeping Strikes (Arms) 1/1 |  |\n| ~40 | Master of Arms (Arms) 5/5 |  |\n\n(The \"3/3\" for Dual Wield Specialization and Two-Handed Weapon Specialization is how the post writes it; the route mixes DW and 2H talents on purpose — \"Then if you want to go 2H you switch\" to a 60 build. Rank maxima are not restated here because the CC2 tree changed several rank counts; check the calculator.) Hctwowfan's tweak to the same build: \"0/5 in improved shouts and instead put those into 2/2 improved slam and 3/3 blood craze\" [Hctwowfan (player), 2025-10-31](https://forum.turtlecraft.gg/viewtopic.php?p=157895#p157895).\n\nOther Arms leveling links (opaque, CC2 era): Yasara's \"classic armsbuild for leveling\" `https://talents.turtlecraft.gg/warrior?points=DQFARYDQpYAABABoAoBYAoAAAAAAAAAAAAAAAAAAAAA%3D` with Overpower and Counterattack ranked up [Yasara (player), 2024-11-16](https://forum.turtlecraft.gg/viewtopic.php?p=108095#p108095) (Counterattack no longer exists — CC3); Czasku's Arms-to-30 `...?points=FQFAQYAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA%3D` [Czasku (player), 2024-11-06](https://forum.turtlecraft.gg/viewtopic.php?p=106723#p106723).\n\nTalent notes: Tactical Mastery is what makes early tanking work — \"You would start Arms if you plan to tank early because it grabs tac mastery and imp tclap. Those two talents will be 90% of your ability to tank for a good while\" [Eyeburn (player), 2025-09-13](https://forum.turtlecraft.gg/viewtopic.php?p=151619#p151619); \"TacMastery lets you do stuff like Charge -> Def stance -> ThunderClap -> Demo Shout\" [Oomentaloo (player), 2025-09-08](https://forum.turtlecraft.gg/viewtopic.php?p=150752#p150752). Axe Specialization at 30 is why the Whirlwind Axe is the pick: \"at lvl 30 you can take Axe Specialization which is additional 5% ... When you're lvl 40 you get Mortal Strike\" [Czasku (player), 2024-09-24](https://forum.turtlecraft.gg/viewtopic.php?p=101834#p101834) — note Master of Arms replaced the per-weapon specializations at CC2, so this is pre-CC2 reasoning; the axe's top-end damage argument still holds (\"the axe has the highest top dmg\" [Hctwowfan (player), 2024-09-24](https://forum.turtlecraft.gg/viewtopic.php?p=101830#p101830); damage ranges per Whirlwind weapon [Atreidon (player), 2024-09-24](https://forum.turtlecraft.gg/viewtopic.php?p=101831#p101831))."
         },
         {
           "id": "build-b-dw-fury-from-level-10-or-switch-at-40-50",
@@ -8941,6 +8941,12 @@
               "date": "2024-12-03"
             },
             {
+              "url": "https://forum.turtlecraft.gg/viewtopic.php?p=159542#p159542",
+              "author": "Lane13",
+              "authority": "player",
+              "date": "2025-11-13"
+            },
+            {
               "url": "https://forum.turtlecraft.gg/viewtopic.php?p=114199#p114199",
               "author": "Bigsmerf",
               "authority": "player",
@@ -9247,7 +9253,7 @@
               {
                 "level": "35–39",
                 "tree": "Beast Mastery",
-                "talent": "Frenzy 5 (3–4 points is enough)"
+                "talent": "Frenzy 5 (2–4 points is enough)"
               },
               {
                 "level": "40",
@@ -18142,7 +18148,7 @@
             "spell-crit",
             "spirit"
           ],
-          "stat_priority_note": "Consensus is \"You just get 5% hit, stack spell power and more or less ignore everything else\" [Caracole p=113536]; the 5% is the from-gear figure for a raid with a druid. The cap is 16% total versus level-63 bosses, of which Shadow Focus gives 10%, so 6% from gear (5% if any druid is in the raid). The tail order is Jcarrill0's list. Crit is deliberately low — Mind Blast is the only crittable ability and it has a cooldown — which is why players objected to the 1.18.1 Shadow T2.5 set being built around crit.",
+          "stat_priority_note": "Consensus is \"You just get 5% hit, stack spell power and more or less ignore everything else\" [Caracole p=113536]. The cap is 16% total versus level-63 bosses, of which Shadow Focus gives 10%, so 6% from gear (5% if any druid is in the raid). The tail order is Jcarrill0's list. Crit is deliberately low — Mind Blast is the only crittable ability and it has a cooldown — which is why players objected to the 1.18.1 Shadow T2.5 set being built around crit.",
           "caps": {
             "spell_hit_boss_pct": 16,
             "spell_hit_from_gear_pct": 6,
@@ -22681,7 +22687,6 @@
                 "talent": "Concussion 3 or Elemental Warding 3 (Concussion for threat, Elemental Warding to be tankier)"
               }
             ],
-            "leveling_order_approximate": true,
             "leveling_order_source": "Skegg's leveling guide (p=149715), consensus with Akos1896. The guide spends points in brackets, so each level cell is the bracket the guide gives, not a per-talent level."
           },
           "stat_weights": {
