@@ -89,7 +89,8 @@ function entry(term: string): GlossaryTerm | undefined {
 
 function skipped(node: Node, root: HTMLElement): boolean {
   for (let p = node.parentElement; p && p !== root; p = p.parentElement) {
-    if (SKIP.has(p.tagName) || p.classList.contains('gloss')) return true;
+    // A nested Markdown block annotates itself, so a page-level pass leaves it alone.
+    if (SKIP.has(p.tagName) || p.classList.contains('gloss') || p.classList.contains('prose-md')) return true;
   }
   return false;
 }
@@ -156,10 +157,17 @@ function insert(hit: { node: Text; index: number; text: string }, g: GlossaryTer
   });
 }
 
-/** Annotates the first mention of each known term inside one rendered block. */
+/**
+ * Annotates the first mention of each known term inside one rendered block or
+ * page. Text inside a nested `.prose-md` block is left to that block's own pass.
+ */
 export function annotateGlossaryTerms(root: HTMLElement): void {
   // Seeded from the DOM so a second pass over the same block adds nothing.
-  const done = new Set([...root.querySelectorAll<HTMLElement>('.gloss[data-term]')].map((el) => el.dataset.term!));
+  const done = new Set(
+    [...root.querySelectorAll<HTMLElement>('.gloss[data-term]')]
+      .filter((el) => !skipped(el, root))
+      .map((el) => el.dataset.term!),
+  );
   for (const rule of RULES) {
     if (done.has(rule.term)) continue;
     const g = entry(rule.term);
