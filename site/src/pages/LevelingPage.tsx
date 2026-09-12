@@ -108,6 +108,7 @@ export function LevelingPage({ slug }: { slug: string }) {
                       row={row}
                       playbook={playbook}
                       target={playbook ? href.playbook(entry.slug, playbook.id) : href.class(entry.slug)}
+                      showPatchChip={false}
                       targetLabel={playbook ? undefined : `See the ${entry.name} spec guides`}
                     />
                   );
@@ -130,7 +131,7 @@ export function LevelingPage({ slug }: { slug: string }) {
               <div key={order.id} className="space-y-2">
                 <h3 className="text-base font-bold">{cleanHeading(order.title)}</h3>
                 {order.subtitle ? <Markdown inline source={order.subtitle} className="block text-sm text-muted" /> : null}
-                <LevelingPath steps={order.steps} color={ink} approximate={order.approximate} clamped />
+                <LevelingPath steps={order.steps} color={ink} approximate={order.approximate} />
               </div>
             ))}
             {orders.length > 0 ? (
