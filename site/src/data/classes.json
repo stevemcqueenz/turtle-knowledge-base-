@@ -4303,11 +4303,11 @@
           },
           "stat_priority": [
             "stamina",
-            "agility",
             "defense",
+            "agility",
             "block"
           ],
-          "stat_priority_note": "Everran (p=143606) gives two separate orders, not one list. The array above is his survival order, the one a tank gears by: stamina first (\"Stam until you can survive the tier you are in\"), then agility for dodge (\"18 agi is about 1% dodge ... so i usualy go 15 agi>5def\"), then defense (\"nice but not mendatory\" [sic]), then block chance until the crush cap with Holy Shield. His THREAT order is a separate ranking from the same post, given there as a list: spell power, then agility because of crit, then strength. Spell power is the threat stat — all of a paladin tank's aggro is holy damage. Block on gear plus Holy Shield is the staff-intended route to crush immunity. Defense is wanted but the 440 (420 with Anticipation) crit cap is \"often not worth reaching when you consider what you have to sacrifice\". Strength is CONTESTED: called irrelevant to threat by Kerenis (p=153860) and defended by others. \"Adds X damage to melee attacks\" items are valued separately because they trigger Judgement of Wisdom an extra time per swing.",
+          "stat_priority_note": "Everran (p=143606) gives two separate orders, not one list. The array above is his survival order, the one a tank gears by, in the sequence he enumerates it: stamina first (\"Stam until you can survive the tier you are in\"), then defense (\"Defense is nice but not mendatory\" [sic]), then agility (\"18 agi is about 1% dodge and 1% crit in raid scenario\"), then block chance until the crush cap with Holy Shield. Agility versus defense is a per-point trade rather than a ranking, and he states his own preference the other way: \"so i usualy go 15 agi>5def but i pref the def over lower amount of agi (personnal pref)\" [sic]. His THREAT order is a separate ranking from the same post, given there as a list: spell power, then agility because of crit, then strength. Spell power is the threat stat — all of a paladin tank's aggro is holy damage. Block on gear plus Holy Shield is the staff-intended route to crush immunity. Defense is wanted but the 440 (420 with Anticipation) crit cap is \"often not worth reaching when you consider what you have to sacrifice\". Strength is CONTESTED: called irrelevant to threat by Kerenis (p=153860) and defended by others. \"Adds X damage to melee attacks\" items are valued separately because they trigger Judgement of Wisdom an extra time per swing.",
           "caps": {
             "crit_immunity_defense": "440 (420 with Anticipation 3/3) - single hedged source, vanilla baseline",
             "crush_cap": "Holy Shield 45% block + gear block; exact post-1.18.1 number unknown",
@@ -5311,7 +5311,7 @@
             "hit",
             "haste"
           ],
-          "stat_priority_note": "The attack-power build's order as excin states it (p=122631). Hit cap for a two-hander is reported as 8% rather than 9% (Bigsmerf p=133826). The alternative spell build reverses this: spell power and Intellect, since Seal of Command and the strikes scale with spell power. Spirit on Retribution tier gear is treated as wasted. The +8 Strength versus +9 spell power enchant question was asked and never answered.",
+          "stat_priority_note": "This sequence is this repository's reading of the attack-power build, not an order any source states: excin p=122631 gives only the T3-versus-T2.5 stat deltas (\"+55 AP\", \"-65 SP\", \"+2.46% Crit\", \"+1% Hit\", \"+2% Haste\", \"+100 ArPen\", \"-11 mp5\"), and the strength-and-crit head is Cheruscan p=122789 (\"Stacking Strength and crit is the strongest build for Ret atm\"). The relative ranking of the hit and haste tail is unsourced. Hit cap for a two-hander is reported as 8% rather than 9% (Bigsmerf p=133826). The alternative spell build reverses this: spell power and Intellect, since Seal of Command and the strikes scale with spell power. Spirit on Retribution tier gear is treated as wasted. The +8 Strength versus +9 spell power enchant question was asked and never answered.",
           "caps": {
             "melee_hit": "8% (2H, per Bigsmerf) - 9% per Snadileoboy",
             "weapon_skill": "315 recommended"
