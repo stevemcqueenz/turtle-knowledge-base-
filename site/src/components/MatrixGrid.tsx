@@ -1,6 +1,7 @@
 import type { MatrixRow } from '../types';
 import { href } from '../lib/router';
 import { classes, matrixRowTarget, roleLabel, standingMeta } from '../lib/site';
+import { shortSpecName } from './class/data';
 import { readableColor } from '../lib/theme';
 import { useThemeValue } from '../lib/theme-context';
 
@@ -9,20 +10,26 @@ interface MatrixGridProps {
   roles: string[];
 }
 
-function SpecChip({ row }: { row: MatrixRow }) {
+function SpecChip({ row, label: labelOverride }: { row: MatrixRow; label?: string }) {
   const theme = useThemeValue();
   const meta = standingMeta(row.standing);
   const color = readableColor(meta?.color ?? '#8a8f98', theme);
   const target = matrixRowTarget(row);
-  const label = row.spec ?? meta?.label ?? '';
+  // Short names keep the grid inside the 1,110 px container; the label is free
+  // to wrap inside the chip so no column is forced wider than its content.
+  const label = row.spec ? (labelOverride ?? shortSpecName(row.spec)) : (meta?.label ?? '');
   const title = `${row.class ?? ''} ${row.spec ?? ''} ${roleLabel(row.role)} — ${meta?.label ?? row.standing}${
     row.agreement ? ` (${row.agreement})` : ''
   }`;
 
   const content = (
     <>
-      <span className="h-1.5 w-1.5 shrink-0 rounded-full" style={{ backgroundColor: color }} aria-hidden="true" />
-      {label ? <span className="truncate">{label}</span> : null}
+      <span
+        className="mt-1 h-1.5 w-1.5 shrink-0 self-start rounded-full"
+        style={{ backgroundColor: color }}
+        aria-hidden="true"
+      />
+      {label ? <span className="min-w-0">{label}</span> : null}
     </>
   );
   const className = 'chip hairline text-xs';
@@ -42,59 +49,106 @@ function SpecChip({ row }: { row: MatrixRow }) {
   );
 }
 
+function ChipRow({ rows }: { rows: MatrixRow[] }) {
+  const counts = new Map<string, number>();
+  rows.forEach((r) => {
+    if (!r.spec) return;
+    const short = shortSpecName(r.spec);
+    counts.set(short, (counts.get(short) ?? 0) + 1);
+  });
+  return (
+    <div className="flex flex-wrap gap-1">
+      {rows.map((r, i) => (
+        <SpecChip
+          key={`${r.spec}-${i}`}
+          row={r}
+          label={r.spec && (counts.get(shortSpecName(r.spec)) ?? 0) > 1 ? r.spec : undefined}
+        />
+      ))}
+    </div>
+  );
+}
+
 /** The class × role grid; cells are colored by community standing. */
 export function MatrixGrid({ rows, roles }: MatrixGridProps) {
   const theme = useThemeValue();
   const present = roles.filter((role) => rows.some((r) => r.role === role));
+  const cellRows = (slug: string, role: string) =>
+    rows.filter((r) => (r.class ?? '').toLowerCase() === slug && r.role === role);
 
   return (
-    <div className="overflow-x-auto rounded-xl hairline">
-      <table className="w-full border-collapse text-sm">
-        <caption className="sr-only">Spec by role matrix: community standing per class, spec and role</caption>
-        <thead>
-          <tr className="bg-surface2">
-            <th scope="col" className="sticky left-0 z-10 bg-surface2 px-3 py-2 text-left font-semibold">
-              Class
-            </th>
-            {present.map((role) => (
-              <th key={role} scope="col" className="whitespace-nowrap px-3 py-2 text-left font-semibold">
-                {roleLabel(role)}
+    <>
+      <div className="hidden overflow-x-auto rounded-xl hairline sm:block">
+        <table className="w-full border-collapse text-sm">
+          <caption className="sr-only">Spec by role matrix: community standing per class, spec and role</caption>
+          <thead>
+            <tr className="bg-surface2">
+              <th scope="col" className="sticky left-0 z-10 bg-surface2 px-3 py-2 text-left font-semibold">
+                Class
               </th>
-            ))}
-          </tr>
-        </thead>
-        <tbody>
-          {classes.map((entry) => {
-            const ink = readableColor(entry.color, theme);
-            return (
-              <tr key={entry.slug} className="border-t align-top">
-                <th scope="row" className="sticky left-0 z-10 whitespace-nowrap bg-surface px-3 py-2 text-left">
-                  <a href={href.class(entry.slug)} className="font-semibold hover:underline" style={{ color: ink }}>
-                    {entry.name}
-                  </a>
+              {present.map((role) => (
+                <th key={role} scope="col" className="whitespace-nowrap px-3 py-2 text-left font-semibold">
+                  {roleLabel(role)}
                 </th>
-                {present.map((role) => {
-                  const cellRows = rows.filter((r) => (r.class ?? '').toLowerCase() === entry.slug && r.role === role);
-                  return (
-                    <td key={role} className="px-3 py-2">
-                      {cellRows.length === 0 ? (
-                        <span className="text-xs text-muted">—</span>
-                      ) : (
-                        <div className="flex flex-wrap gap-1">
-                          {cellRows.map((r, i) => (
-                            <SpecChip key={`${r.spec}-${i}`} row={r} />
-                          ))}
-                        </div>
-                      )}
-                    </td>
-                  );
-                })}
-              </tr>
-            );
-          })}
-        </tbody>
-      </table>
-    </div>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {classes.map((entry) => {
+              const ink = readableColor(entry.color, theme);
+              return (
+                <tr key={entry.slug} className="border-t align-top">
+                  <th scope="row" className="sticky left-0 z-10 whitespace-nowrap bg-surface px-3 py-2 text-left">
+                    <a href={href.class(entry.slug)} className="font-semibold hover:underline" style={{ color: ink }}>
+                      {entry.name}
+                    </a>
+                  </th>
+                  {present.map((role) => {
+                    const cells = cellRows(entry.slug, role);
+                    return (
+                      <td key={role} className="px-3 py-2">
+                        {cells.length === 0 ? <span className="text-xs text-muted">—</span> : <ChipRow rows={cells} />}
+                      </td>
+                    );
+                  })}
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+
+      {/* A seven-column table cannot be read on a phone; one card per class can. */}
+      <div className="flex flex-col gap-3 sm:hidden">
+        {classes.map((entry) => {
+          const ink = readableColor(entry.color, theme);
+          const filled = present
+            .map((role) => ({ role, cells: cellRows(entry.slug, role) }))
+            .filter((g) => g.cells.length > 0);
+          return (
+            <section key={entry.slug} className="card flex flex-col gap-2.5 p-4">
+              <h2>
+                <a href={href.class(entry.slug)} className="font-semibold hover:underline" style={{ color: ink }}>
+                  {entry.name}
+                </a>
+              </h2>
+              {filled.length === 0 ? (
+                <p className="text-xs text-muted">No rated specs.</p>
+              ) : (
+                filled.map(({ role, cells }) => (
+                  <div key={role} className="flex flex-col gap-1">
+                    <span className="text-[11px] font-semibold uppercase tracking-wider text-muted">
+                      {roleLabel(role)}
+                    </span>
+                    <ChipRow rows={cells} />
+                  </div>
+                ))
+              )}
+            </section>
+          );
+        })}
+      </div>
+    </>
   );
 }
 
