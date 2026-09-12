@@ -92,7 +92,7 @@ talents:
     - {level: "51–60", tree: "Enhancement", talent: "Reverberation 3 (before Flurry, for threat management and more frequent interrupts)"}
     - {level: "51–60", tree: Enhancement, talent: "Flurry 5"}
     - {level: "51–60", tree: "Elemental", talent: "Concussion 3 or Elemental Warding 3 (Concussion for threat, Elemental Warding to be tankier)"}
-  leveling_order_source: "Skegg's leveling guide (p=149715), consensus with Akos1896. The guide spends points in brackets, so each level cell is the bracket the guide gives, not a per-talent level."
+  leveling_order_source: "Skegg's tank-capable Enhancement path from his leveling guide (p=149715), consensus with Akos1896 — it opens with Shield Specialization and Stable Shields because it is the tank-capable route. Skegg presents it as usable for DPS too (\"you do practically the same DPS\"), which is why it sits on this playbook. The guide spends points in brackets, so each level cell is the bracket the guide gives, not a per-talent level."
 stat_weights:
   note: "No source gives an explicit DPS stat-weight list; see enhancement-tank.yaml's Turtle mechanics table for the underlying formulas (Rockbiter/Windfury/Lightning Strike scale with AP; Flametongue/fire totems scale with SP)."
   hit: "consensus priority stat toward the physical/spell hit caps (values not stated for pure DPS; tank guide gives 8% physical / 17% spell at 63)"
