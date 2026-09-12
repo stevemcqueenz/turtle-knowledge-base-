@@ -1034,10 +1034,10 @@
           },
           "stat_weights": null,
           "stat_priority": [
-            "defense-to-crit-immunity",
+            "defense",
             "hit",
             "weapon-skill",
-            "stamina/effective-health",
+            "stamina",
             "armor",
             "block-value",
             "crit"
@@ -1533,8 +1533,7 @@
                 "talent": "Master of Arms 5/5"
               }
             ],
-            "leveling_order_approximate": true,
-            "leveling_order_source": "armsgirl p=157920 gives the order only; every level is marked ~ because it is arithmetic at one point per level from 10, not something the post states. The route ends at 40 and switches to a 60 build.",
+            "leveling_order_source": "armsgirl p=157920 gives the pick order only; the post states no levels, which is why every level here is null. The route ends at 40 and switches to a 60 build.",
             "links_opaque": [
               "https://talents.turtlecraft.gg/warrior?points=FQADCYDQB-FoAAoAAoRCF-",
               "https://talents.turtlecraft.gg/warrior?points=FQADCYDQ-FoAAoAAoRCFAB-"
@@ -1542,12 +1541,13 @@
           },
           "stat_weights": null,
           "stat_priority": [
-            "hit-to-2H-cap",
-            "weapon-top-end-damage",
-            "strength/attack-power",
+            "hit",
+            "strength",
+            "attack-power",
             "crit",
             "agility"
           ],
+          "stat_priority_note": "Weapon top-end damage is not a character stat and so is not in the list, but it ranks just below hit for this spec: the slowest, highest top-end two-hander is the pick because Whirlwind, Sweeping Strikes and Cleave each use one auto-attack's worth of damage per target [Atreidon p=101831] and Mortal Strike \"will be bigger with slow weapon than with fast weapon\" [Czasku p=101834]. Slam is normalized since Dec 2024, so slow weapons lost ~18% Slam damage.",
           "caps": {
             "hit_2h_pct": 8,
             "hit_boss_pct": 9,
@@ -2000,10 +2000,11 @@
           },
           "stat_weights": null,
           "stat_priority": [
-            "hit-to-cap",
+            "hit",
             "weapon-skill",
             "crit",
-            "strength/attack-power",
+            "strength",
+            "attack-power",
             "agility",
             "stamina"
           ],
@@ -2513,11 +2514,11 @@
           "stat_weights": null,
           "stat_priority": [
             "stamina",
-            "weapon-top-end-damage",
             "hit",
             "crit",
             "attack-power"
           ],
+          "stat_priority_note": "Weapon top-end damage is not a character stat and so is not in the list, but it ranks second here: \"your base damage on weapon like BRE/MoM/DEI/severance should be more than enough\" [Springboards p=162626]; \"you need an endgame weapon\" [Terrydavis p=171279].",
           "caps": {
             "hp_unbuffed_target": "5.5k-7k (Springboards; player advice, not a cap)",
             "hit": null
@@ -4300,7 +4301,7 @@
           },
           "stat_priority": [
             "spell-power",
-            "block-to-crush-immunity",
+            "block",
             "defense",
             "strength"
           ],
@@ -4741,9 +4742,10 @@
           },
           "stat_priority": [
             "healing-power",
-            "item-armor-on-plate",
+            "armor",
             "spell-crit",
-            "mp5/spirit"
+            "mp5",
+            "spirit"
           ],
           "stat_priority_note": "Healing power first (\"a great stat for everyone\"; Holy Strike scales with it too), then flat item armor on plate because Ironclad converts it, then spell crit (it applies Daybreak, procs Illumination and drives Mending Light, but overhealing limits its value), then mp5 and Spirit, which are low. Haste is nearly useless because Flash of Light sits on the global cooldown, and hit is not needed for heals.",
           "caps": {},
@@ -5304,7 +5306,7 @@
           "stat_priority": [
             "strength",
             "crit",
-            "hit-to-cap",
+            "hit",
             "haste"
           ],
           "stat_priority_note": "The attack-power build's order as excin states it (p=122631). Hit cap for a two-hander is reported as 8% rather than 9% (Bigsmerf p=133826). The alternative spell build reverses this: spell power and Intellect, since Seal of Command and the strikes scale with spell power. Spirit on Retribution tier gear is treated as wasted. The +8 Strength versus +9 spell power enchant question was asked and never answered.",
@@ -8702,7 +8704,7 @@
           },
           "stat_priority": [
             "agility",
-            "melee-attack-power",
+            "attack-power",
             "hit",
             "strength"
           ],
@@ -9245,7 +9247,7 @@
               {
                 "level": "35–39",
                 "tree": "Beast Mastery",
-                "talent": "Frenzy 5 (2–4 points is enough)"
+                "talent": "Frenzy 5 (3–4 points is enough)"
               },
               {
                 "level": "40",
@@ -9293,7 +9295,7 @@
             "pet_damage_items": "T0.5 Beastmaster's set + AQ20 Hunter's set + Breastplate of Beast Mastery + Ferra's Collar totalled '13% damage, 4% additional crit and 50 attack power' for the pet per Arcanex Ota, but 'an item giving +9 agility is already better than that pet-damage bonus' once past BWL per Skurridizo"
           },
           "stat_priority": [
-            "hit-to-cap",
+            "hit",
             "ranged-attack-power",
             "crit",
             "haste"
@@ -9766,10 +9768,11 @@
             "intellect_spirit_mp5": "matters on long fights but MM rarely goes OOM with Efficiency talented; post-1.18.1 Aspect of the Viper replaces drinking between pulls"
           },
           "stat_priority": [
-            "hit-to-cap",
+            "hit",
             "haste",
             "crit",
-            "attack-power/agility"
+            "attack-power",
+            "agility"
           ],
           "stat_priority_note": "Order as the playbook's sourced bullets run: hit to the cap your weapon skill implies (9% at 300 skill, 6% at 305 with racial +5 bows/guns), then haste — the Turtle-specific stat, ~0.9% damage per 1% with no diminishing returns — then crit, then attack power and agility. Armor penetration ('generally weak') and spell power (dead weight for MM) are explicitly not stats to gear for. Whether AP enchants or haste win is contested and gear-dependent.",
           "caps": {
@@ -12392,10 +12395,14 @@
             "resistance": "situational, for caster-capable targets"
           },
           "stat_priority": [
-            "avoidance-dodge-parry-defense",
+            "dodge",
+            "parry",
+            "defense",
             "stamina",
-            "threat-stats-hit-agility-weapon-skill",
-            "resistances"
+            "hit",
+            "agility",
+            "weapon-skill",
+            "resistance"
           ],
           "stat_priority_note": "The practitioners' order: avoidance first — the claim is that a geared rogue tank passes the 102% avoidance requirement to avoid crushing blows — then stamina, then the threat stats (hit, agility, and weapon skill for poison procs), then resistances for caster bosses. The avoidance numbers are player theorycraft from 2022–2023 and predate 1.17.0's Flourish.",
           "caps": {
@@ -12838,8 +12845,9 @@
             "attack_power": "lowest priority per the spec's own guide-writer (\"Attack power is at the bottom of my list\")"
           },
           "stat_priority": [
-            "hit-to-cap",
-            "crit/agility",
+            "hit",
+            "crit",
+            "agility",
             "haste",
             "attack-power"
           ],
@@ -13282,7 +13290,7 @@
             "armor_penetration": "very low; \"ARP is a wild card stat that doesn't even do anything in many cases\""
           },
           "stat_priority": [
-            "hit-to-9-percent",
+            "hit",
             "weapon-skill",
             "agility",
             "crit",
@@ -17635,11 +17643,12 @@
             "mp5": 4
           },
           "stat_priority": [
-            "spell-hit-to-10-percent-from-gear",
+            "spell-hit",
             "spell-power",
             "spell-crit",
             "intellect",
-            "spirit/mp5"
+            "spirit",
+            "mp5"
           ],
           "stat_priority_note": "Hit first: the spec needs 10% from items on top of Piercing Light's 6% to reach the 16% boss figure, and hit is weighted far above crit while under the cap. Then spell power (general or Holy), then crit, which fuels Searing Light. Intellect and Spirit/mp5 come last but cannot be zero — stacking pure spell power at the cost of all regeneration causes mana problems on long fights. Crit versus spell power is contested after the Searing Light internal cooldown.",
           "caps": {
@@ -18126,7 +18135,7 @@
             "spirit": 5
           },
           "stat_priority": [
-            "spell-hit-to-6-percent-from-gear",
+            "spell-hit",
             "spell-power",
             "mp5",
             "intellect",
@@ -18587,7 +18596,7 @@
             "stamina",
             "spell-power",
             "spell-crit",
-            "spell-hit-3-percent"
+            "spell-hit"
           ],
           "stat_priority_note": "Stamina first for survivability, then spell power (damage and healing rather than Holy-only), crit for Searing Light procs, and 3% hit versus level-60 players. Spell penetration only against opponents who stack resistance. Power Word: Shield scales with healing power, not spell power, per post-1.18.1 player testing — a single source, but it is the one thing that would change this order.",
           "caps": {
@@ -22682,9 +22691,9 @@
             "attack_power": "primary threat/damage stat via Rockbiter/Windfury/Lightning Strike"
           },
           "stat_priority": [
-            "weapon-skill-to-315",
-            "hit-to-8-percent",
-            "crit-to-30–35-percent",
+            "weapon-skill",
+            "hit",
+            "crit",
             "strength",
             "haste",
             "stamina"
@@ -23238,9 +23247,9 @@
             "spell_penetration": "matters against Nature-resistant bosses until Lower Karazhan enchants or a Thunderfury tank are available (single source)"
           },
           "stat_priority": [
-            "spell-hit-to-15–17-percent",
+            "spell-hit",
             "crit",
-            "haste-to-17-percent",
+            "haste",
             "spell-power",
             "intellect"
           ],
@@ -27738,7 +27747,7 @@
             "leveling_priority": "Intellect > Stamina > Spirit (Bigsmerf) — contested: Schoop123 found Spirit main stat under Arcane Power drain"
           },
           "stat_priority": [
-            "hit-to-16-percent",
+            "hit",
             "haste",
             "spell-power",
             "crit"
@@ -28238,7 +28247,7 @@
             "priority": "hit to 16% > crit > spell power > haste (2-4% haste minimum recommended by wiki for double Fireball in the Ignite window, computed for the old 6 s window)"
           },
           "stat_priority": [
-            "hit-to-cap",
+            "hit",
             "crit",
             "spell-power",
             "haste"
@@ -28754,7 +28763,7 @@
             "priority": "hit to 16% > spell power > haste >= crit"
           },
           "stat_priority": [
-            "hit-to-cap",
+            "hit",
             "spell-power",
             "haste",
             "crit"
@@ -31725,7 +31734,7 @@
             "spirit": "low/dump stat (suppressed during channels per a single 2020 report, never retested)"
           },
           "stat_priority": [
-            "spell-hit-5–6-percent-from-gear"
+            "spell-hit"
           ],
           "stat_priority_note": "Suppression covers 10% of the hit a warlock needs for Affliction spells, so players run 5–6% on gear (the 16% level-63 figure is vanilla baseline, not a Turtle statement). After hit the order is genuinely unresolved: the community wiki says \"Haste and Hit\" and one geared player says \"as much haste as you can get\", but the direct question \"is Affli better with haste or full sp?\" was asked and never answered. Rapid Deterioration's 6% haste is multiplicative with gear haste, and the game rounds tick timing up to 0.04 s. Whether Dark Harvest is affected by hit at all is an open question.",
           "caps": {},
@@ -32274,7 +32283,7 @@
             "haste": "unclear/unanswered whether it matters now that Searing Pain's GCD and cast scale with haste since 1.18.1"
           },
           "stat_priority": [
-            "spell-hit-to-16-percent",
+            "spell-hit",
             "crit",
             "spell-power",
             "haste"
@@ -32854,7 +32863,7 @@
           },
           "stat_priority": [
             "stamina",
-            "shadow-spell-power"
+            "spell-power"
           ],
           "stat_priority_note": "Stamina first, alongside Demonic Embrace: Soul Link splits your damage with a pet whose health scales from your own through Fel Stamina (10–50%), and players aim for the demon to carry roughly 30% of the warlock's stamina. Shadow spell damage next. No fuller ordering exists; the PvP epic set is reported to have lost 10% Soul Link and to have low armor (single source).",
           "caps": {},
@@ -33055,7 +33064,7 @@
           },
           "stat_priority": [
             "stamina",
-            "shadow/fire-spell-power",
+            "spell-power",
             "crit",
             "spell-hit"
           ],
@@ -35122,8 +35131,9 @@
             "intellect": "contested dump stat on T2.5/T3.5 PvE sets; defended only as a PvP-survivability stat"
           },
           "stat_priority": [
-            "hit-to-8-percent",
-            "strength/agility",
+            "hit",
+            "strength",
+            "agility",
             "crit",
             "haste"
           ],

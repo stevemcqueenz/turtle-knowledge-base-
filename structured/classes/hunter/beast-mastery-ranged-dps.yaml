@@ -70,7 +70,7 @@ talents:
     - {level: "31", tree: "Beast Mastery", talent: "Intimidation 1 (pseudo-taunt; hands a second mob to the pet)"}
     - {level: "32–33", tree: "Beast Mastery", talent: "Bestial Precision 2"}
     - {level: "34", tree: "Beast Mastery", talent: "Bestial Discipline 1 (one point can move to Improved Mend Pet)"}
-    - {level: "35–39", tree: "Beast Mastery", talent: "Frenzy 5 (2–4 points is enough)"}
+    - {level: "35–39", tree: "Beast Mastery", talent: "Frenzy 5 (3–4 points is enough)"}
     - {level: "40", tree: "Beast Mastery", talent: "Bestial Wrath 1 (removed in CC3, back in 1.18.1 at row 5)"}
     - {level: "41–45", tree: "Marksmanship", talent: "Efficiency 5 (Steakhouse skips it for leveling — \"Just drink more\")"}
     - {level: "46–50", tree: Marksmanship, talent: "Lethal Shots 5"}
@@ -85,7 +85,7 @@ stat_weights:
   crit: "matters post-1.18.1 because Kill Command requires a hunter crit"
   haste: "same as MM"
   pet_damage_items: "T0.5 Beastmaster's set + AQ20 Hunter's set + Breastplate of Beast Mastery + Ferra's Collar totalled '13% damage, 4% additional crit and 50 attack power' for the pet per Arcanex Ota, but 'an item giving +9 agility is already better than that pet-damage bonus' once past BWL per Skurridizo"
-stat_priority: [hit-to-cap, ranged-attack-power, crit, haste]
+stat_priority: [hit, ranged-attack-power, crit, haste]
 stat_priority_note: "Same ranged stats as Marksmanship, but ranged attack power ranks above crit because RAP is what feeds the pet through Spirit Bond: Naxx/Kara40 items that trade AP for crit 'improve the hunter's personal DPS but do almost nothing for the pet' [Skurridizo p=170469]. Post-1.18.1 hunter crit still matters because Kill Command needs a hunter crit. Pet-damage set bonuses lose to +9 agility past BWL."
 caps: {}
 rotation_single:
