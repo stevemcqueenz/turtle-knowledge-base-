@@ -104,7 +104,7 @@ Troll "single handedly the best PvE choice for hunter overall. Berserking, bow s
 |---|---|---|
 | Level as BM, respec ~50–60 | consensus (Lavrute, Steakhouse, Ragetto, SvenS2 x4, Bigsmerf) | all eras |
 | Swift Aspects before Endurance Training | contested (Ataika vs Rinarch/Noyland1) | CC2 tree; 1.18.1 doubled Endurance/Thick Hide values (staff) |
-| Frenzy 2–4, Improved Mend Pet 1 early, Bestial Swiftness/Pathfinding 1–2 | consensus (Bob022, Hctwowfan, SvenS2, Gorlocktheglock, Lane13) | CC2→1.18.1 (names changed) |
+| Frenzy 2–4 (Lane13), Improved Mend Pet 1 early, Bestial Swiftness/Pathfinding 1–2 | consensus (Bob022, Hctwowfan, SvenS2, Gorlocktheglock) | CC2→1.18.1 (names changed) |
 | Survival weak until Untamed Trapper (40) | consensus (Laysson, Vladis, zer0g3, Upsetlobster, SvenS2) | CC2–1.18.1 |
 | Boar / Screech bird / fast cat for leveling | consensus with family preferences | all eras |
 | Zone route | none | gap |

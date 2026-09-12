@@ -9,7 +9,7 @@ patch_validity:
   notes: "1.18.1 cut Opportunity's top value from 20% to 15% and left the rest of the leveling route intact. Noxious Assault (level 40) is a 1.18.0 addition and is what makes the Assassination respec at 40 attractive."
 spec_verdict:
   favored:
-    spec: Subtlety
+    spec: "Ambush/Backstab hybrid (Subtlety-Combat)"
     build: "Ambush/Backstab with daggers (Subtlety into Combat)"
     agreement: consensus
     why: "One Ambush takes a mob to half health, Remorseless Attacks carries the crit buff into the next pull, and Stealth's 5 s cooldown lets you chain-pull without downtime."
@@ -38,7 +38,7 @@ spec_verdict:
         - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=123674#p123674", author: Xudo, authority: player, date: "2025-03-25"}
         - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=158547#p158547", author: Sslushee, authority: player, date: "2025-11-06"}
   avoid:
-    - what: "Full Subtlety while solo leveling"
+    - what: "Speccing deep or full Subtlety while solo leveling — the party-support build, not the early Camouflage and Improved Ambush points the favored route takes"
       agreement: consensus
       why: "Its big talents are party talents, and the tree is not a PvE tree."
       sources:
