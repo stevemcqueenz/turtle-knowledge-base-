@@ -17,7 +17,7 @@ Bracket-level roadmap combining spec with content, from an experienced PvE/PvP r
 
 No single post gives every point from 10 to 60; the table below is the union of the two most detailed, mutually consistent guide posts. All levels/points are as literally stated by the sources; use with the talent calculator (`talents.turtlecraft.gg/rogue`) to confirm current prerequisites.
 
-### Ambush/Backstab main line, 10–58 [Shananagans (guide writer), 2025-08-24](https://forum.turtlecraft.gg/viewtopic.php?p=148075#p148075) / [2025-08-30](https://forum.turtlecraft.gg/viewtopic.php?p=149395#p149395) / [2025-12-06](https://forum.turtlecraft.gg/viewtopic.php?p=161802#p161802) (posted and reposted unchanged from Aug 2025 to Dec 2025, i.e. still current as of the 1.18.1 announcement window)
+### Ambush/Backstab main line, 10–58 [Shananagans (guide writer), 2025-08-24](https://forum.turtlecraft.gg/viewtopic.php?p=148075#p148075) / [2025-08-30](https://forum.turtlecraft.gg/viewtopic.php?p=149395#p149395) / [2025-12-06](https://forum.turtlecraft.gg/viewtopic.php?p=161802#p161802) (given across three posts rather than one: p=148075 supplies the rows to level 27, p=149395 continues the route from 28 through 44, and p=161802 continues past 44; Aug 2025 to Dec 2025, i.e. still current as of the 1.18.1 announcement window)
 
 | Levels | Talent | Note |
 |---|---|---|

@@ -14,7 +14,7 @@ From [Unchallenged (player), 2022-10-18 (edited 2024-12-04)](https://forum.turtl
 
 The guide spends points in five-level brackets and does not assign a single level to a single talent, so each row below carries the bracket the guide gives; the row order is the order the guide lists.
 
-#### Protection 0/31/20 (dungeons variant)
+### Protection 0/31/20 (dungeons variant)
 
 | Levels | Talent | Note |
 |---|---|---|
@@ -40,7 +40,7 @@ The guide spends points in five-level brackets and does not assign a single leve
 | 55–60 | Blessing of Kings 1 | |
 | 55–60 | Improved Hand of Reckoning 2 + Righteous Defense 3, **or** Improved Judgement 2 + Vindication 3 | the guide's raid-facing choice for the last points |
 
-#### Retribution 11/8/31
+### Retribution 11/8/31
 
 | Levels | Talent | Note |
 |---|---|---|

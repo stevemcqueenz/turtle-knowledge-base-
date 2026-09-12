@@ -12,7 +12,7 @@ Built from Skegg's "Shaman Leveling & Pre-BiS Guide" (2025-09-01, compiled from 
 
 The guide spends points in brackets rather than per level, so each row carries the bracket it belongs to; the row order is the order the guide gives.
 
-#### Enhancement (Skegg's tank-capable path)
+### Enhancement (Skegg's tank-capable path)
 
 | Levels | Talent | Note |
 |---|---|---|
@@ -38,7 +38,7 @@ The guide spends points in brackets rather than per level, so each row carries t
 | 51–60 | Flurry 5 | |
 | 51–60 | Concussion 3 **or** Elemental Warding 3 | Concussion for threat, Elemental Warding to be tankier |
 
-#### Restoration at 60 (respec)
+### Restoration at 60 (respec)
 
 | Levels | Talent | Note |
 |---|---|---|

@@ -28,7 +28,7 @@ Proposed order [Rukie (player), 2025-01-07](https://forum.turtlecraft.gg/viewtop
 | 31 | Intimidation 1 | pseudo-taunt/stun; "Send pet with intimidation on a baddie, and after one growl, send it to another" (Steakhouse) |
 | 32–33 | Bestial Precision 2 | |
 | 34 | Bestial Discipline 1 | Yasara: can move 1 point to Improved Mend Pet |
-| 35–39 | Frenzy 5 | 3–4 is enough: "drop a point out of Frenzy (to 4/5) and it's alright" (Bob022); "2-3 points into Frenzy is generally enough" (SvenS2, 2026) |
+| 35–39 | Frenzy 5 | 2–4 is enough: "builds never put full points in Frenzy but rather 2-4" [Lane13 (player), 2025-11-13](https://forum.turtlecraft.gg/viewtopic.php?p=159542#p159542) — the range spans the individual opinions "drop a point out of Frenzy (to 4/5) and it's alright" (Bob022) and "2-3 points into Frenzy is generally enough" (SvenS2, 2026) |
 | 40 | Bestial Wrath 1 | (removed CC3, back in 1.18.1 at row 5) |
 | 41–45 | Efficiency 5 (MM) | Steakhouse: skip for leveling, "Just drink more" |
 | 46–50 | Lethal Shots 5 (MM) | |
@@ -104,7 +104,7 @@ Troll "single handedly the best PvE choice for hunter overall. Berserking, bow s
 |---|---|---|
 | Level as BM, respec ~50–60 | consensus (Lavrute, Steakhouse, Ragetto, SvenS2 x4, Bigsmerf) | all eras |
 | Swift Aspects before Endurance Training | contested (Ataika vs Rinarch/Noyland1) | CC2 tree; 1.18.1 doubled Endurance/Thick Hide values (staff) |
-| Frenzy 2–3, Improved Mend Pet 1 early, Bestial Swiftness/Pathfinding 1–2 | consensus (Bob022, Hctwowfan, SvenS2, Gorlocktheglock) | CC2→1.18.1 (names changed) |
+| Frenzy 2–4, Improved Mend Pet 1 early, Bestial Swiftness/Pathfinding 1–2 | consensus (Bob022, Hctwowfan, SvenS2, Gorlocktheglock, Lane13) | CC2→1.18.1 (names changed) |
 | Survival weak until Untamed Trapper (40) | consensus (Laysson, Vladis, zer0g3, Upsetlobster, SvenS2) | CC2–1.18.1 |
 | Boar / Screech bird / fast cat for leveling | consensus with family preferences | all eras |
 | Zone route | none | gap |
