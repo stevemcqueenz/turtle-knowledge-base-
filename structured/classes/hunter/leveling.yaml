@@ -152,7 +152,7 @@ weapon_rule:
     - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171447#p171447", author: SvenS2, authority: player, date: "2026-03-20"}
 stat_priority: null
 gaps:
-  - "No hunter source gives a leveling stat order. The only sourced gear advice is \"of the falcon\" (intellect + agility) when you run out of mana (Springboards p=166247) and spirit gear for zero downtime (SvenS2 p=171464, which the same post then retracts in favour of Aspect of the Viper at 56). stat_priority is therefore left empty rather than guessed."
+  - "synthesis/classes/hunter/leveling.md states an agility, stamina, then intellect/spirit ordering, but no post in the corpus is cited for that ordering itself, which is why stat_priority is left empty here rather than filled. The only sourced gear advice is \"of the falcon\" (intellect + agility) when you run out of mana (Springboards p=166247) and spirit gear for zero downtime (SvenS2 p=171464, which the same post then retracts in favour of Aspect of the Viper at 56). stat_priority is therefore left empty rather than guessed."
   - "No zone-by-zone leveling route for hunters exists in the corpus."
   - "No source states where Hunter's Mark belongs in a leveling pull; the ordered opener here is assembled from posts that each cover one step."
   - "The Survival melee rotation is pre-CC2 in shape (Therrius4121, Xudo 2023); no post-1.18.1 Survival leveling rotation has been posted."

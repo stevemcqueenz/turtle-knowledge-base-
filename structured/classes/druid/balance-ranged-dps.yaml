@@ -41,7 +41,7 @@ stat_weights:
   haste: "low relative to crit — only benefits Starfire among the four rotation spells (partially benefits Wrath via the 1.0s/0.5s GCD floor per a thread correction)"
   hit: "important and hard to reach from tier gear alone; full T3 set provides only ~4% spell hit"
   spell_power: "baseline scaling stat, no numeric weight given (gap)"
-stat_priority: [crit, spell-hit, spell-power, haste]
+stat_priority: [spell-crit, spell-hit, spell-power, haste]
 stat_priority_note: "Crit is rated far above haste — \"1% crit equal to around 4-5% Haste. It might even be worse\" — because crit triple-dips (damage per cast, the Nature's Grace haste proc, and the Eclipse multiplier) while haste only really helps Starfire. Hit is hard to cap from set gear alone (the nine-piece T3 set carries only 4% spell hit), and several top players deliberately trade a few percent of hit for crit. Spell power is the baseline scaling stat with no numeric weight given. Item design loads Balance gear with haste, which the source calls a mismatch."
 caps:
   spell_hit_from_t3: "~4% (full 9-piece T3 set) — cap requires specific non-set items (e.g. Loatheb's/Regalia staff)"

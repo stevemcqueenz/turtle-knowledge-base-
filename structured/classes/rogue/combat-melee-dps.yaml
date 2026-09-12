@@ -57,7 +57,7 @@ stat_weights:
   haste: "low; 'equal crit outperforms equal haste' per one poster since haste only affects auto-hits and neither energy regen nor special-attack damage is haste-scaled pre-Blade-Rush"
   armor_penetration: "very low; \"ARP is a wild card stat that doesn't even do anything in many cases\""
 stat_priority: [hit, weapon-skill, agility, crit, attack-power]
-stat_priority_note: "Hit first to the 9% special-attack cap (lower with racial or item weapon skill — 305 skill makes 9% easy to reach, 308 is called the optimum). Weapon skill also pushes misses and glancing blows off the hit table. Agility now drives energy regeneration through Blade Rush as well, measured at roughly 0.1 s off the tick per 100 agility. Watch the crit cap: past it, crit and agility lose value and hit becomes the premium stat again."
+stat_priority_note: "Hit first to the 9% special-attack cap (lower with racial or item weapon skill — 305 skill makes 9% easy to reach, 308 is called the optimum). Weapon skill also pushes misses and glancing blows off the hit table. Agility now drives energy regeneration through Blade Rush as well, measured at roughly 0.1 s off the tick per 100 agility. Watch the crit cap: past it, crit and agility lose value and hit becomes the premium stat again. Agility, crit and attack power are a tie the source does not rank; it writes them as a single \"Agility / crit / AP\" bucket, so their order in the array above carries no ranking."
 caps:
   hit_special_attacks: "9% (vanilla baseline, not a Turtle-confirmed number)"
   weapon_skill_optimum: "308 (one player's claim, unverified) or 315 (Shananagans' claim, unverified)"

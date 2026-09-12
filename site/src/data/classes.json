@@ -9302,11 +9302,12 @@
           },
           "stat_priority": [
             "hit",
+            "agility",
             "ranged-attack-power",
             "crit",
             "haste"
           ],
-          "stat_priority_note": "Same ranged stats as Marksmanship, but ranged attack power ranks above crit because RAP is what feeds the pet through Spirit Bond: Naxx/Kara40 items that trade AP for crit 'improve the hunter's personal DPS but do almost nothing for the pet' [Skurridizo p=170469]. Post-1.18.1 hunter crit still matters because Kill Command needs a hunter crit. Pet-damage set bonuses lose to +9 agility past BWL.",
+          "stat_priority_note": "Same ranged stats as Marksmanship, but ranged attack power ranks above crit because RAP is what feeds the pet through Spirit Bond: Naxx/Kara40 items that trade AP for crit 'improve the hunter's personal DPS but do almost nothing for the pet' [Skurridizo p=170469]. Post-1.18.1 hunter crit still matters because Kill Command needs a hunter crit. Pet-damage set bonuses lose to +9 agility past BWL. Agility and ranged attack power are a tie the source does not rank; it writes them as a single \"agility/AP\" bucket, so their order in the array above carries no ranking.",
           "caps": {},
           "rotation_single": [
             {
@@ -9777,7 +9778,7 @@
             "hit",
             "haste",
             "crit",
-            "attack-power",
+            "ranged-attack-power",
             "agility"
           ],
           "stat_priority_note": "Order as the playbook's sourced bullets run: hit to the cap your weapon skill implies (9% at 300 skill, 6% at 305 with racial +5 bows/guns), then haste — the Turtle-specific stat, ~0.9% damage per 1% with no diminishing returns — then crit, then attack power and agility. Armor penetration ('generally weak') and spell power (dead weight for MM) are explicitly not stats to gear for. Whether AP enchants or haste win is contested and gear-dependent. Attack power and agility are a tie the source does not rank; it writes them as a single \"Attack power / agility\" bucket, so their order in the array above carries no ranking.",
@@ -12410,7 +12411,7 @@
             "weapon-skill",
             "resistance"
           ],
-          "stat_priority_note": "The practitioners' order: avoidance first — the claim is that a geared rogue tank passes the 102% avoidance requirement to avoid crushing blows — then stamina, then the threat stats (hit, agility, and weapon skill for poison procs), then resistances for caster bosses. The avoidance numbers are player theorycraft from 2022–2023 and predate 1.17.0's Flourish.",
+          "stat_priority_note": "The practitioners' order: avoidance first — the claim is that a geared rogue tank passes the 102% avoidance requirement to avoid crushing blows — then stamina, then the threat stats (hit, agility, and weapon skill for poison procs), then resistances for caster bosses. The avoidance numbers are player theorycraft from 2022–2023 and predate 1.17.0's Flourish. The source ranks buckets, not stats: dodge, parry and defense are its unranked \"avoidance\" bucket and hit, agility and weapon skill its unranked \"threat stats\" bucket, so the order within each run above carries no ranking.",
           "caps": {
             "avoidance_target": "~102% avoidance with Evasion up to avoid crushing blows (vanilla-baseline tanking convention, not a staff number); one theorycraft post estimated 70% avoidance at mediocre gear with Flourish talented, 85-90% at good gear",
             "agitating_poison_level": "60 (baseline poison, no lower ranks -- a frequently repeated player complaint)"
@@ -13302,7 +13303,7 @@
             "crit",
             "attack-power"
           ],
-          "stat_priority_note": "Hit first to the 9% special-attack cap (lower with racial or item weapon skill — 305 skill makes 9% easy to reach, 308 is called the optimum). Weapon skill also pushes misses and glancing blows off the hit table. Agility now drives energy regeneration through Blade Rush as well, measured at roughly 0.1 s off the tick per 100 agility. Watch the crit cap: past it, crit and agility lose value and hit becomes the premium stat again.",
+          "stat_priority_note": "Hit first to the 9% special-attack cap (lower with racial or item weapon skill — 305 skill makes 9% easy to reach, 308 is called the optimum). Weapon skill also pushes misses and glancing blows off the hit table. Agility now drives energy regeneration through Blade Rush as well, measured at roughly 0.1 s off the tick per 100 agility. Watch the crit cap: past it, crit and agility lose value and hit becomes the premium stat again. Agility, crit and attack power are a tie the source does not rank; it writes them as a single \"Agility / crit / AP\" bucket, so their order in the array above carries no ranking.",
           "caps": {
             "hit_special_attacks": "9% (vanilla baseline, not a Turtle-confirmed number)",
             "weapon_skill_optimum": "308 (one player's claim, unverified) or 315 (Shananagans' claim, unverified)"
@@ -23254,7 +23255,7 @@
           },
           "stat_priority": [
             "spell-hit",
-            "crit",
+            "spell-crit",
             "haste",
             "spell-power",
             "intellect"
@@ -23819,7 +23820,7 @@
           "id": "talent-order-by-level-skegg-s-tank-capable-enhancement-path-consensus-with-akos1896",
           "heading": "Talent order by level (Skegg's tank-capable Enhancement path; consensus with Akos1896)",
           "level": 2,
-          "markdown": "The guide spends points in brackets rather than per level, so each row carries the bracket it belongs to; the row order is the order the guide gives.\n\n#### Enhancement (Skegg's tank-capable path)\n\n| Levels | Talent | Note |\n|---|---|---|\n| 10–33 | Shield Specialization 5 | 24 Enhancement points across this bracket |\n| 10–33 | Totemic Alignment 2 | |\n| 10–33 | Stable Shields 3 | |\n| 10–33 | Ancestral Guardian 3 | before Lightning Strike, for mitigation |\n| 10–33 | Lightning Strike | take it first if threat is the problem |\n| 10–33 | Thundering Strikes 1 | |\n| 10–33 | Spirit Armor 2 | |\n| 10–33 | Thundering Strikes 4 | |\n| 10–33 | Elemental Weapons 3 | take it first if you are squishy |\n| 10–33 | Stormstrike | take it first if you want more threat |\n| 34–44 | Convection 5 | 11 Elemental points across this bracket |\n| 34–44 | Concussion 2 **or** Elemental Warding 2 | few mobs deal elemental damage; Elemental Warding is the Maraudon pick |\n| 34–44 | Elemental Devastation 3 | |\n| 34–44 | Elemental Focus | lands at 44 |\n| 44–50 | Thundering Strikes 5 | 6 Enhancement points across this bracket |\n| 44–50 | Element's Grace 5 | \"raises threat w/o necessarily spending mana\" |\n| 51–60 | Respec Shield Specialization → Ancestral Knowledge 5 | respec plus 15 points across this bracket |\n| 51–60 | Bloodlust | |\n| 51–60 | Reverberation 3 | \"before Flurry for more QoL in managing threat + more frequent spell interrupt\" |\n| 51–60 | Flurry 5 | |\n| 51–60 | Concussion 3 **or** Elemental Warding 3 | Concussion for threat, Elemental Warding to be tankier |\n\n#### Restoration at 60 (respec)\n\n| Levels | Talent | Note |\n|---|---|---|\n| 51–60 | rush Improved Water Shield with Stable Shields | |\n| 51–60 | every Restoration talent except Improved Reincarnation, Healing Focus and Spirit Link | |\n\nSources: [Skegg (player, guide writer), 2025-09-01](https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715); wiki `Shaman guide` (revision 2026-07-03, same text). Akos1896's variant (2024-12-13): 5 Shield Spec + 2 Totemic Alignment is the minimum to tank RFC at 16; Stable Shields 3 + Lightning Strike by 20; Ancestral Guardian 3; Thundering Strikes 1; Spirit Armor 2 (26); Thundering Strikes 4 (29); Elemental Weapons 3 (33) — \"the first 24 talent points have to be spent in a very strict manner if you want to tank\"; after 33 \"Rush bloodlust? Get tidal focus to save mana? Rush elemental focus? Personally I rushed elemental focus\"; at 33 respec Shield Spec → Ancestral Knowledge \"Don't do it before level 33 though\" — [Akos1896 (player), 2024-12-13](https://forum.turtlecraft.gg/viewtopic.php?p=112575#p112575); his 2025-09 refinement: Convection > Concussion for leveling, Elemental Devastation 3 or Elemental Warding 2, Clearcasting asap, Element's Grace before Reverberation, then Bloodlust; \"getting an early tidal focus is also an option ... Never take tidal focus when done leveling\" — [Akos1896 (player), 2025-09-01](https://forum.turtlecraft.gg/viewtopic.php?p=149742#p149742) (**contested detail: Shield Spec vs Ancestral Knowledge before 33** — both authors ended up agreeing Shield Spec first).\n\n**Pure DPS variant (no tank talents)**: Konstanten — 11 Elemental (Elemental Focus) first, then Enhancement; Frostbrand + Frost Shock once Elemental Weapons is in — [Konstanten (player), 2025-02-03](https://forum.turtlecraft.gg/viewtopic.php?p=118793#p118793). Hyrag's world-PvP leveling: \"going 11/07/0 elemental focus first then Imp ghost wolf\" — [Hyrag (player), 2024-02-14](https://forum.turtlecraft.gg/viewtopic.php?p=87761#p87761) (pre-CC2 tree numbering).\n\n**Respec points**: 33 (Shield Spec → Ancestral Knowledge, once the two JC/obsidian +11 Sta trinkets exist; Akos1896) and 51 (Skegg); dual spec via the Goblin Brainwashing Device if farmed 44–48 in Badlands/Uldaman (Skegg, \"might be an unrealistic goal\")."
+          "markdown": "The guide spends points in brackets rather than per level, so each row carries the bracket it belongs to; the row order is the order the guide gives.\n\n#### Enhancement (Skegg's tank-capable path)\n\n| Levels | Talent | Note |\n|---|---|---|\n| 10–33 | Shield Specialization 5 | 24 Enhancement points across this bracket |\n| 10–33 | Totemic Alignment 2 | |\n| 10–33 | Stable Shields 3 | |\n| 10–33 | Ancestral Guardian 3 | before Lightning Strike, for mitigation |\n| 10–33 | Lightning Strike | take it first if threat is the problem |\n| 10–33 | Thundering Strikes 1 | |\n| 10–33 | Spirit Armor 2 | |\n| 10–33 | Thundering Strikes 4 | |\n| 10–33 | Elemental Weapons 3 | take it first if you are squishy |\n| 10–33 | Stormstrike | take it first if you want more threat |\n| 34–44 | Convection 5 | 11 Elemental points across this bracket |\n| 34–44 | Concussion 2 **or** Elemental Warding 2 | few mobs deal elemental damage; Elemental Warding is the Maraudon pick |\n| 34–44 | Elemental Devastation 3 | |\n| 34–44 | Elemental Focus | lands at 44 |\n| 44–50 | Thundering Strikes 5 | 6 Enhancement points across this bracket |\n| 44–50 | Element's Grace 5 | \"raises threat w/o necessarily spending mana\" |\n| 51–60 | Respec Shield Specialization → Ancestral Knowledge 5 | respec plus 15 points across this bracket |\n| 51–60 | Bloodlust | |\n| 51–60 | Reverberation 3 | \"before Flurry for more QoL in managing threat + more frequent spell interrupt\" |\n| 51–60 | Flurry 5 | |\n| 51–60 | Concussion 3 **or** Elemental Warding 3 | Concussion for threat, Elemental Warding to be tankier |\n\n#### Restoration at 60 (respec)\n\n| Levels | Talent | Note |\n|---|---|---|\n| 51–60 | rush Improved Water Shield with Stable Shields | |\n| 51–60 | every Restoration talent except Improved Reincarnation, Healing Focus and Spirit Link | |\n\nSources: [Skegg (player, guide writer), 2025-09-01](https://forum.turtlecraft.gg/viewtopic.php?p=149715#p149715); wiki `Shaman guide` (revision 2026-07-03, same text). Akos1896's variant (2024-12-13): 5 Shield Spec + 2 Totemic Alignment is the minimum to tank RFC at 16; Stable Shields 3 + Lightning Strike by 20; Ancestral Guardian 3; Thundering Strikes 1; Spirit Armor 2 (26); Thundering Strikes 4 (29); Elemental Weapons 3 (33) — \"the first 24 talent points have to be spent in a very strict manner if you want to tank\"; after 33 \"Rush bloodlust? Get tidal focus to save mana? Rush elemental focus? Personally I rushed elemental focus\"; at 33 respec Shield Spec → Ancestral Knowledge \"Don't do it before level 33 though\" — [Akos1896 (player), 2024-12-13](https://forum.turtlecraft.gg/viewtopic.php?p=112575#p112575); his 2025-09 refinement: Convection > Concussion for leveling, Elemental Devastation 3 or Elemental Warding 2, Clearcasting asap, Element's Grace before Reverberation, then Bloodlust; \"getting an early tidal focus is also an option ... Never take tidal focus when done leveling\" — [Akos1896 (player), 2025-09-01](https://forum.turtlecraft.gg/viewtopic.php?p=149742#p149742) (**contested detail: Shield Spec vs Ancestral Knowledge before 33** — both authors ended up agreeing Shield Spec first).\n\n**Pure DPS variant (no tank talents)**: Konstanten — 11 Elemental (Elemental Focus) first, then Enhancement; Frostbrand + Frost Shock once Elemental Weapons is in: `https://talents.turtlecraft.gg/shaman?points=FQAYIAAAAAAAAAFAFaAIFADIAAAAAAAAAAAAAAAAAAA=` — [Konstanten (player), 2025-02-03](https://forum.turtlecraft.gg/viewtopic.php?p=118793#p118793). Hyrag's world-PvP leveling: `https://talents.turtlecraft.gg/shaman/5F1-5` \"going 11/07/0 elemental focus first then Imp ghost wolf\" — [Hyrag (player), 2024-02-14](https://forum.turtlecraft.gg/viewtopic.php?p=87761#p87761) (pre-CC2 tree numbering).\n\n**Respec points**: 33 (Shield Spec → Ancestral Knowledge, once the two JC/obsidian +11 Sta trinkets exist; Akos1896) and 51 (Skegg); dual spec via the Goblin Brainwashing Device if farmed 44–48 in Badlands/Uldaman (Skegg, \"might be an unrealistic goal\")."
         },
         {
           "id": "skill-training-priority",
@@ -27753,10 +27754,10 @@
             "leveling_priority": "Intellect > Stamina > Spirit (Bigsmerf) — contested: Schoop123 found Spirit main stat under Arcane Power drain"
           },
           "stat_priority": [
-            "hit",
+            "spell-hit",
             "haste",
             "spell-power",
-            "crit"
+            "spell-crit"
           ],
           "stat_priority_note": "Consensus of the wiki sim and player weights: hit to 16% first and never over it, then haste and spell power which trade almost evenly (~17–20 SP per 1% haste), then crit. Haste has breakpoints where an extra missile lands inside the Arcane Rupture window, and gear haste stacks multiplicatively. Spell penetration is a PvP stat only.",
           "caps": {
@@ -28253,8 +28254,8 @@
             "priority": "hit to 16% > crit > spell power > haste (2-4% haste minimum recommended by wiki for double Fireball in the Ignite window, computed for the old 6 s window)"
           },
           "stat_priority": [
-            "hit",
-            "crit",
+            "spell-hit",
+            "spell-crit",
             "spell-power",
             "haste"
           ],
@@ -28769,10 +28770,10 @@
             "priority": "hit to 16% > spell power > haste >= crit"
           },
           "stat_priority": [
-            "hit",
+            "spell-hit",
             "spell-power",
             "haste",
-            "crit"
+            "spell-crit"
           ],
           "stat_priority_note": "From the wiki Frost sim: hit to the cap (16% is the generic caster figure players quote), then spell power, then haste and crit — haste is rated at or slightly above crit at endgame (~12–13 SP per 1% haste versus ~11–12 per 1% crit). Damage split in that sim: Frostbolt ~57%, Icicles ~43%.",
           "caps": {
@@ -32290,7 +32291,7 @@
           },
           "stat_priority": [
             "spell-hit",
-            "crit",
+            "spell-crit",
             "spell-power",
             "haste"
           ],
@@ -32642,7 +32643,7 @@
           },
           "stat_priority": [
             "spell-hit",
-            "crit",
+            "spell-crit",
             "spell-power"
           ],
           "stat_priority_note": "Hit first but CONTESTED in degree: one camp reports top Naxx parses at 7–9% hit and says not to trade much for it, the other calls the hit cap the one thing to bring to a first raid. Crit is wanted for Ruin and the crit-driven Shadow Vulnerability — the 2024 argument for trading crit away for raw spell power predates the 2024-12-20 revert to crit-based procs. Shadow Bolt scales well with spell power (a Flask of Supreme Power is worth about 128 points on an average Shadow Bolt).",
@@ -33071,7 +33072,7 @@
           "stat_priority": [
             "stamina",
             "spell-power",
-            "crit",
+            "spell-crit",
             "spell-hit"
           ],
           "stat_priority_note": "\"PvP is not PvE, survivability is better than raw damage. So everyone stack on stamina until they reach some comfortable amount to not die instantly\" [Xudo p=108896]. Then Shadow or Fire spell damage — cheap \"of shadow wrath\" greens do the job — then crit for Soul Fire and Conflagrate burst. Hit matters less than in PvE because the targets are level 60. The epic Warlock PvP set has 0% crit against the blue set's 2%, and raid gear generally beats PvP gear in battlegrounds.",
@@ -35470,7 +35471,7 @@
             "spell_power": "baseline scaling stat, no numeric weight given (gap)"
           },
           "stat_priority": [
-            "crit",
+            "spell-crit",
             "spell-hit",
             "spell-power",
             "haste"
