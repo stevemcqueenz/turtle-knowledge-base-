@@ -12,13 +12,13 @@ export function Collapsible({ title, children, defaultOpen = false, badge }: Col
   const [open, setOpen] = useState(defaultOpen);
   const id = useId();
   return (
-    <div className="card overflow-hidden">
+    <div className="card">
       <button
         type="button"
         aria-expanded={open}
         aria-controls={id}
         onClick={() => setOpen((v) => !v)}
-        className="flex w-full items-center gap-2 p-4 text-left hover:bg-surface2"
+        className={`flex w-full items-center gap-2 p-4 text-left hover:bg-surface2 ${open ? 'rounded-t-xl' : 'rounded-xl'}`}
       >
         <span className={`shrink-0 text-muted transition-transform ${open ? 'rotate-0' : '-rotate-90'}`}>
           <ChevronDownIcon />

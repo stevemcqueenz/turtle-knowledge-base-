@@ -2,22 +2,26 @@
 
 Terms, abbreviations and nicknames actually used on the Turtle WoW forums (`forum.turtlecraft.gg`), built from `structured/forum/posts/*.jsonl` (see counts below) and cross-referenced against `structured/wiki/pages.jsonl`. Each entry cites 1-2 posts that show the term in use; citations are exact forum post URLs from the `url` field / `<!-- url: -->` comments. Every fact is drawn from the corpus — nothing here is filled in from outside knowledge of vanilla WoW unless explicitly labeled `(vanilla baseline, not from turtlecraft.gg)`.
 
-**Turtle-specific** = a feature, system, item, zone or name added/changed by Turtle WoW (marked **Turtle** in the Scope column). **General vanilla** = standard Classic WoW terminology/slang also used here, not a Turtle invention (marked **vanilla**).
+**Turtle-specific** = a feature, system, item, zone or name added/changed by Turtle WoW (marked **Turtle** in the Scope column). **General vanilla** = standard Classic WoW terminology/slang also used here, not a Turtle invention (marked **vanilla**). **Archive convention** = a word this archive itself uses to label its own material rather than a word the forums coined (marked **convention**).
 
 'First seen' is the date of the earliest matching post found by the mining pass over the sampled corpus (not necessarily the term's true first use server-wide) — treat it as 'earliest attested in this corpus', not a definitive origin date.
 
 ## Entry counts
 
-Total entries: **313** — Turtle-specific: **69**, general vanilla: **244**
+Mined from the sampled forum corpus (capture of 2026-09-10): **313** — turtle-specific: **69**, general-vanilla: **244**.
+
+Added after the capture, so that the guides and the site can explain the words they use: **10**. 7 are Turtle-specific terms copied out of the leveling-guide introductions with the forum posts they were already cited to (1.18.1-announced-pre-release, CC2 / Class Changes 2, CC3 / Class Changes 3, Class Changes, opaque link, post-1.18.1, pre-1.18.1); 3 are this archive's own labelling conventions, defined in `CONVENTIONS.md` rather than on the forums (contested, player claim, standing). None of them is a new game fact.
+
+Total in `structured/glossary.jsonl`: **323** — turtle-specific: **76**, general-vanilla: **244**, archive-convention: **3**.
 
 | Category | Count |
 |---|---|
-| system | 20 |
+| system | 27 |
 | zone | 8 |
 | instance | 30 |
 | boss | 34 |
 | item | 33 |
-| class | 44 |
+| class | 47 |
 | pvp | 34 |
 | economy | 17 |
 | social | 35 |
@@ -29,6 +33,7 @@ Total entries: **313** — Turtle-specific: **69**, general vanilla: **244**
 
 | Term | Meaning | Category | Scope | First seen | Citation |
 |---|---|---|---|---|---|
+| 1.18.1-announced-pre-release | Era label used on every recommendation in this archive: the source was posted between 2025-10-03 and 2026-03-19 — after the preliminary patch 1.18.1 notes went up, before the patch went live. The poster knew what had been announced, not what actually shipped. | system | Turtle | 2025-10-03 | [Torta (staff), 2025-10-03](https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168) |
 | 4HM / Four Horsemen | Naxxramas encounter (the Four Horsemen: Thane Korth'azz, Lady Blaumeux, Sir Zeliek, Baron Rivendare). | boss | vanilla | 2022-10-06 | [Keegus (player), 2022-10-06](https://forum.turtlecraft.gg/viewtopic.php?p=26857#p26857) |
 | AB | Arathi Basin, the resource-node battleground. | pvp | vanilla | 2018-10-15 | [Talespinner (player), 2018-10-15](https://forum.turtlecraft.gg/viewtopic.php?p=818#p818) |
 | Admiral Grumbleshell | A custom mount reward added to the Boaring Challenge/leveling reward tracks. | item | Turtle | 2019-04-07 | [Torta (staff), 2019-04-07](https://forum.turtlecraft.gg/viewtopic.php?p=2459#p2459) |
@@ -76,14 +81,18 @@ Total entries: **313** — Turtle-specific: **69**, general vanilla: **244**
 | carry | To complete content for/with a weaker or lower-geared player largely on the strength of stronger players (raid or dungeon 'carries'). | social | vanilla | 2018-09-22 | [Leluch (player), 2018-09-22](https://forum.turtlecraft.gg/viewtopic.php?p=188#p188) |
 | Cath / Scarlet Cathedral | Player shorthand for the Scarlet Cathedral wing/dungeon content, listed in leveling dungeon tables (40-45). | instance | vanilla | 2024-05-28 | [Llenne (player), 2024-05-28](https://forum.turtlecraft.gg/viewtopic.php?p=95895#p95895) |
 | CC | Crowd Control (spells like Sap, Polymorph, Sheep, Banish that incapacitate a target). | class | vanilla | 2018-10-15 | [Talespinner (player), 2018-10-15](https://forum.turtlecraft.gg/viewtopic.php?p=818#p818) |
+| CC2 / Class Changes 2 | Class Changes 2: the class and gameplay overhaul announced in the staff thread "Patch 1.17.2 & Beyond — Class & Gameplay Changes" and shipped with patch 1.17.2 on 2024-11-01. It rebuilt the talent trees and reworked core abilities for every class — for warriors, the new rage formula, dual wield at level 10, Slam at 14 and a 6 s Hamstring cooldown. A guide marked CC2 was written for the kit as it stood from 2024-11-01 until Class Changes 3 (2025-08-15); "pre-CC2" marks advice written before 2024-11-01, when those talents and abilities were different. | class | Turtle | 2024-10-12 | [Dragunovi (staff), 2024-10-12](https://forum.turtlecraft.gg/viewtopic.php?p=102974#p102974) |
+| CC3 / Class Changes 3 | Class Changes 3: the third pass of the staff thread "Patch 1.17.2 & Beyond — Class & Gameplay Changes", shipped with patch 1.18.0 on 2025-08-15 — for warriors, Master Strike, the Blood Drinker rework and the removal of the Execute cooldown. A guide marked CC3 was written for the 2025-08-15 kit, which patch 1.18.1 (2026-03-20) then amended again. | class | Turtle | 2025-07-25 | [Jamey (staff), 2025-07-25](https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159) |
 | CD | Cooldown (the wait time before a spell/ability can be used again). | class | vanilla | 2018-10-07 | [Zest (player), 2018-10-07](https://forum.turtlecraft.gg/viewtopic.php?p=553#p553) |
 | Chromaggus | Blackwing Lair boss known for breath-debuff/decursing mechanics. | boss | vanilla | 2019-07-15 | [Lefaux (player), 2019-07-15](https://forum.turtlecraft.gg/viewtopic.php?p=3448#p3448) |
 | Chronoboon | Short form of Chronoboon Displacer. | item | Turtle | 2021-05-21 | [Ravielsk (player), 2021-05-21](https://forum.turtlecraft.gg/viewtopic.php?p=10628#p10628) |
 | Chronoboon Displacer | Custom item that lets players store an active world buff, pausing its duration timer, to reapply it later (e.g. before a raid pull) instead of losing buff time while traveling/waiting. | item | Turtle | 2021-05-10 | [Xerron (player), 2021-05-10](https://forum.turtlecraft.gg/viewtopic.php?p=10502#p10502) |
+| Class Changes | The staff programme of class reworks run in the thread "Patch 1.17.2 & Beyond — Class & Gameplay Changes", numbered by the community: Class Changes 2 (CC2, patch 1.17.2, 2024-11-01) and Class Changes 3 (CC3, patch 1.18.0, 2025-08-15), with further revisions posted in the same thread through patch 1.18.1. Because each pass moved talents and abilities, every guide in this archive says which Class Changes kit it was written for. | class | Turtle | 2024-10-12 | [Dragunovi (staff), 2024-10-12](https://forum.turtlecraft.gg/viewtopic.php?p=102974#p102974) |
 | class stacking | Bringing multiple copies of the same class/spec to a raid because their buffs/debuffs don't fully stack with a counterpart faction's version, making duplicates less valuable. | class | vanilla | 2021-11-19 | [Balake (player), 2021-11-19](https://forum.turtlecraft.gg/viewtopic.php?p=14010#p14010) |
 | CleveRoids / Roid Macros | Modern macro-scripting addons (CleveRoidMacros / Roid-Macros) providing conditional macro syntax beyond stock SuperMacro. | general-vanilla | vanilla | 2024-12-20 | [Mewtinybray (player), 2024-12-20](https://forum.turtlecraft.gg/viewtopic.php?p=113607#p113607) |
 | Community Manager | Staff role title held by Akalix (per direct self-identification in a forum reply), responsible for player-facing communication/announcements. | staff | Turtle | 2023-04-17 | [Fizzler (player), 2023-04-17](https://forum.turtlecraft.gg/viewtopic.php?p=41794#p41794) |
 | consumables / consumes | Potions, flasks, elixirs, food and other single-use raid/PvP performance items. | economy | vanilla | 2018-10-09 | [Dodge (player), 2018-10-09](https://forum.turtlecraft.gg/viewtopic.php?p=608#p608) |
+| contested | Agreement label on a recommendation: the sources disagree, and both sides are listed with their dates and links so you can judge which applies to you. The other two labels are consensus (several independent sources agree) and single source (only one source says it). | system | convention | 2026-09-10 | Archive convention; defined in `synthesis/CONVENTIONS.md (Agreement)` |
 | copium | Sarcastic internet slang ('cope' + opium) for wishful thinking/denial about an unlikely outcome. | general-vanilla | vanilla | 2022-11-06 | [Pahacsinta (player), 2022-11-06](https://forum.turtlecraft.gg/viewtopic.php?p=28564#p28564) |
 | corpse camp(ing) | Repeatedly killing a player at their corpse/release point to deny them recovery, a common PvP-griefing complaint. | pvp | vanilla | 2021-09-23 | [Xantros (player), 2021-09-23](https://forum.turtlecraft.gg/viewtopic.php?p=12516#p12516) |
 | CP | In PvP threads, 'CP' means Contribution/Combat Points contributing to honor standing ('top CP earners'); elsewhere on the server it can also mean combo points (rogue/feral resource) — disambiguate by context. _Note: Contested — combo points vs honor 'contribution points' depending on thread._ | pvp | vanilla | 2019-08-14 | [Xerron (player), 2019-08-14](https://forum.turtlecraft.gg/viewtopic.php?p=3715#p3715) |
@@ -213,6 +222,7 @@ Total entries: **313** — Turtle-specific: **69**, general vanilla: **244**
 | NS | Nature's Swiftness, a Shaman/Druid instant-cast talent. | class | vanilla | 2020-06-03 | [Heroclastus (player), 2020-06-03](https://forum.turtlecraft.gg/viewtopic.php?p=6193#p6193) |
 | Ony / Onyxia's Lair | Onyxia's Lair, 40-man dragon raid. | instance | vanilla | 2019-11-16 | [Xerron (player), 2019-11-16](https://forum.turtlecraft.gg/viewtopic.php?p=4438#p4438) |
 | OOC | Out Of Character, a roleplay-etiquette term marking a comment as breaking from in-character speech. | social | vanilla | 2018-09-18 | [Zazzi (player), 2018-09-18](https://forum.turtlecraft.gg/viewtopic.php?p=145#p145) |
+| opaque link | A talent-calculator link (talents.turtlecraft.gg/<class>?points=…) copied from a forum post whose build code this archive cannot decode: the calculator is offline, so the code cannot be turned back into a point list. The link is kept because it is what the poster actually cited, but read it as "calculator link, offline" — the talents written out in prose next to it are the sourced part of the build. | system | Turtle | 2025-10-31 | [armsgirl (player), 2025-10-31](https://forum.turtlecraft.gg/viewtopic.php?p=157920#p157920) |
 | OS roll / off-spec | 'Off Spec' roll: a lower-priority Need roll for an item that benefits a player's secondary/alternate spec rather than their current main spec. | pvp | vanilla | 2018-11-01 | [Pigglebee (player), 2018-11-01](https://forum.turtlecraft.gg/viewtopic.php?p=1075#p1075) |
 | OT | Off Tank, a secondary tank handling adds/off-tanked targets. | pvp | vanilla | 2019-10-06 | [Xerron (player), 2019-10-06](https://forum.turtlecraft.gg/viewtopic.php?p=4146#p4146) |
 | PallyPower | A Paladin-blessing-assignment addon (community-extended on Turtle to also cover Shaman totems). | general-vanilla | vanilla | 2019-08-05 | [Xerron (player), 2019-08-05](https://forum.turtlecraft.gg/viewtopic.php?p=3660#p3660) |
@@ -220,7 +230,10 @@ Total entries: **313** — Turtle-specific: **69**, general vanilla: **244**
 | Pepesmite | A Turtle WoW Team (staff) member who frequently answers class-balance and rules questions in the corpus. _Note: Cited post quotes Pepesmite; role/title beyond 'staff' not detailed in sources._ | staff | Turtle | 2023-05-13 | [Noppanoppa (player), 2023-05-13](https://forum.turtlecraft.gg/viewtopic.php?p=45729#p45729) |
 | pfQuest / Questie | Two rival quest-helper/quest-tracker addons; players debate which to use for quest objectives and coordinates. | general-vanilla | vanilla | 2018-11-01 | [Iella (player), 2018-11-01](https://forum.turtlecraft.gg/viewtopic.php?p=1067#p1067) |
 | playable troll | Refers to the Horde-loyal, voodoo/arcane-practicing troll race/culture as distinct from druidic troll lore, discussed in a race-lore thread. | general-vanilla | vanilla | 2024-09-23 | [Reploidrocsa (player), 2024-09-23](https://forum.turtlecraft.gg/viewtopic.php?p=101719#p101719) |
+| player claim | A statement sourced to a player rather than to the Turtle WoW Team: reported by players, not confirmed by staff. Source tiers in this archive are staff (rank "Turtle WoW Team", the authority on intent), guide writer (a player whose guide thread is widely referenced), player, and wiki (the community fandom wiki, least reliable); staff statements about intended behaviour outrank player claims. | system | convention | 2026-09-10 | Archive convention; defined in `synthesis/CONVENTIONS.md (Sources and citations)` |
+| post-1.18.1 | Era label used on every recommendation in this archive: the source was posted on or after 2026-03-20, the day patch 1.18.1 (Nightmares of Ursol) went live. Only these sources describe the game as it was actually played on 1.18.1, and there are few of them — the servers closed eight weeks later. | system | Turtle | 2026-03-20 | [Torta (staff), 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171512#p171512) |
 | PPM | Procs Per Minute, the rate model used to tune how often weapon-proc effects trigger. | item | vanilla | 2021-02-01 | [Dragunovi (staff), 2021-02-01](https://forum.turtlecraft.gg/viewtopic.php?p=9270#p9270) |
+| pre-1.18.1 | Era label used on every recommendation in this archive: the source was posted before 2025-10-03, when the preliminary patch 1.18.1 notes were published. The advice describes the game before anything in 1.18.1 was known, so check it against what 1.18.1 changed. | system | Turtle | 2025-10-03 | [Torta (staff), 2025-10-03](https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168) |
 | premade | A pre-organized, coordinated group queuing together for a Battleground (as opposed to solo-queued PuG players). | pvp | vanilla | 2021-09-22 | [Djijin (player), 2021-09-22](https://forum.turtlecraft.gg/viewtopic.php?p=12459#p12459) |
 | prot | Protection, the tanking talent tree for Warriors and Paladins. | class | vanilla | 2018-10-16 | [Ethismos (player), 2018-10-16](https://forum.turtlecraft.gg/viewtopic.php?p=822#p822) |
 | pst | Please Send Tell (whisper-me shorthand, common in trade/guide requests). | social | vanilla | 2021-08-12 | [Sandtusk (player), 2021-08-12](https://forum.turtlecraft.gg/viewtopic.php?p=11626#p11626) |
@@ -275,6 +288,7 @@ Total entries: **313** — Turtle-specific: **69**, general vanilla: **244**
 | SQL | The database query language referenced when players discuss quest/database editing or server-side content work. | general-vanilla | vanilla | 2018-12-30 | [Pompa (player), 2018-12-30](https://forum.turtlecraft.gg/viewtopic.php?p=1709#p1709) |
 | SR | Shadow Resistance stat (gear), used for Naxxramas progression; also seen abbreviated on set-bonus tooltips ('4-set: 5 Shadow Resist -> 10 SR'). | item | vanilla | 2022-07-24 | [Torta (staff), 2022-07-24](https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251) |
 | ST | Sunken Temple (Shadowfang/Atal'Hakkar 'Sunken Temple'), classic dungeon. | instance | vanilla | 2019-01-10 | [Pigglebee (player), 2019-01-10](https://forum.turtlecraft.gg/viewtopic.php?p=1803#p1803) |
+| standing | How the community rates a spec in a role in the spec x role matrix: favored (the usual pick), alternative (works, picked less often), niche (works in specific situations) or not-viable (sources advise against it). It is a community judgement read off the class guides, not a measurement, and it is stated with its agreement label. | system | convention | 2026-09-10 | Archive convention; defined in `structured/classes/spec-role-matrix.yaml (standing_values, notes_on_use)` |
 | STR | Strength stat. | class | vanilla | 2019-04-27 | [Lefaux (player), 2019-04-27](https://forum.turtlecraft.gg/viewtopic.php?p=2629#p2629) |
 | STV | Stranglethorn Vale, classic contested PvP leveling zone (home of the World PvP hotspots and the fishing tournament). | zone | vanilla | 2018-11-11 | [Kainnee (player), 2018-11-11](https://forum.turtlecraft.gg/viewtopic.php?p=1222#p1222) |
 | sub | Subtlety, a Rogue talent spec. _Note: 'sub' also commonly means 'Reddit subreddit' in the same corpus — disambiguate by context._ | class | vanilla | 2018-10-28 | [Dodge (player), 2018-10-28](https://forum.turtlecraft.gg/viewtopic.php?p=970#p970) |

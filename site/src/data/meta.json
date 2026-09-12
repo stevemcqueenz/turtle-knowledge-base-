@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-12T13:48:41Z",
-  "repoCommit": "cbe28cab9",
+  "generatedAt": "2026-09-12T14:00:47Z",
+  "repoCommit": "128a77ae",
   "counts": {
     "classes": 9,
     "playbooks": 47,
     "matrixRows": 106,
-    "glossaryTerms": 313
+    "glossaryTerms": 323
   },
   "timeline": {
     "patch_1181_announced": "2025-10-03",

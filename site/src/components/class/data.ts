@@ -214,7 +214,7 @@ export function favoredLine(entry: ClassEntry): string {
   return `Favored by the community: ${joinWords(parts)}${leveling ? `; level as ${leveling}` : ''}.`;
 }
 
-function joinWords(items: string[]): string {
+export function joinWords(items: string[]): string {
   if (items.length <= 1) return items[0] ?? '';
   return `${items.slice(0, -1).join(', ')} and ${items[items.length - 1]}`;
 }

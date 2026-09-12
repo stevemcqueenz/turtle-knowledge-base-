@@ -81,26 +81,26 @@ export function GlossaryPanel({ open, onClose, initialQuery = '' }: GlossaryPane
           ) : (
             <dl className="space-y-4">
               {terms.map((g) => (
-                <div key={g.term} id={`glossary-${g.term}`}>
-                  <dt className="flex flex-wrap items-baseline gap-2">
-                    <span className="font-semibold">{g.term}</span>
-                    {g.category ? <span className="chip hairline bg-surface2 text-[10px] text-muted">{g.category}</span> : null}
-                    {g.scope ? <span className="text-[10px] uppercase tracking-wider text-muted">{g.scope}</span> : null}
-                  </dt>
-                  <dd className="mt-0.5 text-sm text-muted">
-                    {g.meaning}{' '}
-                    {g.citation_url ? (
-                      <a
-                        href={g.citation_url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-[rgb(var(--c-accent))] hover:underline"
-                      >
-                        source
-                      </a>
-                    ) : null}
-                  </dd>
-                </div>
+                  <div key={g.term} id={`glossary-${g.term}`}>
+                    <dt className="flex flex-wrap items-baseline gap-2">
+                      <span className="font-semibold">{g.term}</span>
+                      {g.category ? <span className="chip hairline bg-surface2 text-[10px] text-muted">{g.category}</span> : null}
+                      {g.scope ? <span className="text-[10px] uppercase tracking-wider text-muted">{g.scope}</span> : null}
+                    </dt>
+                    <dd className="mt-0.5 text-sm text-muted">
+                      {g.meaning}{' '}
+                      {g.citation_url ? (
+                        <a
+                          href={g.citation_url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-[rgb(var(--c-accent))] hover:underline"
+                        >
+                          source
+                        </a>
+                      ) : null}
+                    </dd>
+                  </div>
               ))}
             </dl>
           )}

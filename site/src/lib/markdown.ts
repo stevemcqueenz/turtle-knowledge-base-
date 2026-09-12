@@ -1,5 +1,6 @@
 import { marked } from 'marked';
 import DOMPurify from 'dompurify';
+import { annotateGlossaryTerms } from './glossary-inline';
 
 marked.setOptions({ gfm: true, breaks: false });
 
@@ -15,6 +16,13 @@ const canSanitize = typeof (DOMPurify as { sanitize?: unknown }).sanitize === 'f
 export function renderMarkdown(md: string): string {
   if (!md) return '';
   const html = marked.parse(md, { async: false }) as string;
+  return canSanitize ? DOMPurify.sanitize(html, { USE_PROFILES: { html: true } }) : html;
+}
+
+/** One line of Markdown (a table cell, a heading) -> sanitized inline HTML. */
+export function renderInlineMarkdown(md: string): string {
+  if (!md) return '';
+  const html = marked.parseInline(md, { async: false }) as string;
   return canSanitize ? DOMPurify.sanitize(html, { USE_PROFILES: { html: true } }) : html;
 }
 
@@ -41,7 +49,9 @@ export function parseCitationText(text: string): CitationParts | null {
  * Post-processes rendered Markdown in place:
  * - wraps tables so they scroll horizontally on narrow screens,
  * - marks external links safe (`target`/`rel`),
- * - turns `[author (tier), date](url)` links into compact citation chips.
+ * - turns `[author (tier), date](url)` links into compact citation chips,
+ * - explains archive jargon on its first mention with a glossary tooltip, except in
+ *   inline Markdown, whose host element may clip the popup.
  */
 export function enhanceMarkdownDom(root: HTMLElement): void {
   root.querySelectorAll('table').forEach((table) => {
@@ -68,6 +78,8 @@ export function enhanceMarkdownDom(root: HTMLElement): void {
     const label = [cite.author, cite.tier, cite.date].filter(Boolean).join(' · ');
     a.textContent = label;
   });
+
+  if (!root.classList.contains('md-inline')) annotateGlossaryTerms(root);
 }
 
 /** Rough plain-text preview of a Markdown string (for cards and meta lines). */

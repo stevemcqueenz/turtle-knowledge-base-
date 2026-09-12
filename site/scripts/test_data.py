@@ -79,10 +79,20 @@ def main() -> int:
     leveling_count = sum(1 for c in classes if c.get("leveling") is not None)
     check(leveling_count == 9, f"expected 9 leveling guides, got {leveling_count}")
 
+    # ---- Classes whose leveling guide publishes talent-order tables -------
+    tabled_orders = {"warrior", "paladin", "hunter", "rogue", "priest", "shaman", "warlock"}
+    without_orders = sorted(
+        c["slug"] for c in classes
+        if c["slug"] in tabled_orders and not (c.get("leveling") or {}).get("talentOrders")
+    )
+    check(not without_orders,
+          f"{len(without_orders)} classes publish a talent-order table but parsed none: "
+          f"{without_orders}")
+
     check(len(matrix["rows"]) == 106,
           f"expected 106 matrix rows, got {len(matrix['rows'])}")
 
-    check(len(glossary) == 313, f"expected 313 glossary terms, got {len(glossary)}")
+    check(len(glossary) == 323, f"expected 323 glossary terms, got {len(glossary)}")
 
     # ---- Every playbook has non-null overview + sources ------------------
     missing_overview = []

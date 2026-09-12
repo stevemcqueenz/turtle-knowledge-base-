@@ -1,5 +1,9 @@
 import { useEffect, useRef, useState } from 'react';
-import type { NavItem } from '../SectionNav';
+
+export interface NavItem {
+  id: string;
+  label: string;
+}
 
 interface SectionTabsProps {
   items: NavItem[];

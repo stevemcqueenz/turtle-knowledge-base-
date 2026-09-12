@@ -10,13 +10,15 @@ the site builds without Python.
   paladin, hunter, rogue, priest, shaman, mage, warlock, druid), each with the
   class's README sections, its slice of the spec/role matrix, all of its
   playbooks (talents/stats/rotation/etc., with the matching structured YAML
-  attached), its leveling guide, and its gear guide (`gear` / `gearMarkdown`,
+  attached), its leveling guide (`leveling.sections`, plus
+  `leveling.talentOrders`: the guide's talent-order tables parsed into
+  level → talent steps), and its gear guide (`gear` / `gearMarkdown`,
   PLAN.md §7).
 - **`matrix.json`** — the full 106-row spec×role matrix
   (`structured/classes/spec-role-matrix.yaml`), plus the coverage table
   (`synthesis/classes/spec-role-coverage.md`) and the matrix document
   (`synthesis/classes/spec-role-matrix.md`) as Markdown with their H1 removed.
-- **`glossary.json`** — 313 `{term, meaning, category, scope, citation_url}`
+- **`glossary.json`** — 323 `{term, meaning, category, scope, citation_url}`
   entries from `structured/glossary.jsonl` (other fields dropped).
 - **`meta.json`** — generation timestamp, repo commit, the acceptance
   counts, the forum/patch timeline (`structured/forum/timeline.json`), and a
@@ -96,7 +98,7 @@ and shells out to `git rev-parse --short HEAD` (read-only) for
 
 `test_data.py` checks: 9 classes; 47 playbooks (matching
 `ls synthesis/classes/*/*-{tank,healer,melee-dps,ranged-dps,pvp}.md`); 9
-leveling guides; 106 matrix rows; 313 glossary terms; every playbook has
+leveling guides; 106 matrix rows; 323 glossary terms; every playbook has
 non-null `sections.overview` and `sections.sources`; every playbook that has
 a `structured/classes/<class>/<id>.yaml` file has non-null `yaml`; all 9
 classes have non-null `gear` and `gearMarkdown`, and every `gear.yaml`

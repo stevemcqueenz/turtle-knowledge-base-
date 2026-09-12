@@ -1,5 +1,12 @@
 [
   {
+    "term": "1.18.1-announced-pre-release",
+    "meaning": "Era label used on every recommendation in this archive: the source was posted between 2025-10-03 and 2026-03-19 — after the preliminary patch 1.18.1 notes went up, before the patch went live. The poster knew what had been announced, not what actually shipped.",
+    "category": "system",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168"
+  },
+  {
     "term": "4HM / Four Horsemen",
     "meaning": "Naxxramas encounter (the Four Horsemen: Thane Korth'azz, Lady Blaumeux, Sir Zeliek, Baron Rivendare).",
     "category": "boss",
@@ -329,6 +336,20 @@
     "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=818#p818"
   },
   {
+    "term": "CC2 / Class Changes 2",
+    "meaning": "Class Changes 2: the class and gameplay overhaul announced in the staff thread \"Patch 1.17.2 & Beyond — Class & Gameplay Changes\" and shipped with patch 1.17.2 on 2024-11-01. It rebuilt the talent trees and reworked core abilities for every class — for warriors, the new rage formula, dual wield at level 10, Slam at 14 and a 6 s Hamstring cooldown. A guide marked CC2 was written for the kit as it stood from 2024-11-01 until Class Changes 3 (2025-08-15); \"pre-CC2\" marks advice written before 2024-11-01, when those talents and abilities were different.",
+    "category": "class",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=102974#p102974"
+  },
+  {
+    "term": "CC3 / Class Changes 3",
+    "meaning": "Class Changes 3: the third pass of the staff thread \"Patch 1.17.2 & Beyond — Class & Gameplay Changes\", shipped with patch 1.18.0 on 2025-08-15 — for warriors, Master Strike, the Blood Drinker rework and the removal of the Execute cooldown. A guide marked CC3 was written for the 2025-08-15 kit, which patch 1.18.1 (2026-03-20) then amended again.",
+    "category": "class",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159"
+  },
+  {
     "term": "CD",
     "meaning": "Cooldown (the wait time before a spell/ability can be used again).",
     "category": "class",
@@ -357,6 +378,13 @@
     "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=10502#p10502"
   },
   {
+    "term": "Class Changes",
+    "meaning": "The staff programme of class reworks run in the thread \"Patch 1.17.2 & Beyond — Class & Gameplay Changes\", numbered by the community: Class Changes 2 (CC2, patch 1.17.2, 2024-11-01) and Class Changes 3 (CC3, patch 1.18.0, 2025-08-15), with further revisions posted in the same thread through patch 1.18.1. Because each pass moved talents and abilities, every guide in this archive says which Class Changes kit it was written for.",
+    "category": "class",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=102974#p102974"
+  },
+  {
     "term": "class stacking",
     "meaning": "Bringing multiple copies of the same class/spec to a raid because their buffs/debuffs don't fully stack with a counterpart faction's version, making duplicates less valuable.",
     "category": "class",
@@ -383,6 +411,13 @@
     "category": "economy",
     "scope": "general-vanilla",
     "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=608#p608"
+  },
+  {
+    "term": "contested",
+    "meaning": "Agreement label on a recommendation: the sources disagree, and both sides are listed with their dates and links so you can judge which applies to you. The other two labels are consensus (several independent sources agree) and single source (only one source says it).",
+    "category": "system",
+    "scope": "archive-convention",
+    "citation_url": null
   },
   {
     "term": "copium",
@@ -1288,6 +1323,13 @@
     "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=145#p145"
   },
   {
+    "term": "opaque link",
+    "meaning": "A talent-calculator link (talents.turtlecraft.gg/<class>?points=…) copied from a forum post whose build code this archive cannot decode: the calculator is offline, so the code cannot be turned back into a point list. The link is kept because it is what the poster actually cited, but read it as \"calculator link, offline\" — the talents written out in prose next to it are the sourced part of the build.",
+    "category": "system",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=157920#p157920"
+  },
+  {
     "term": "OS roll / off-spec",
     "meaning": "'Off Spec' roll: a lower-priority Need roll for an item that benefits a player's secondary/alternate spec rather than their current main spec.",
     "category": "pvp",
@@ -1337,11 +1379,32 @@
     "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=101719#p101719"
   },
   {
+    "term": "player claim",
+    "meaning": "A statement sourced to a player rather than to the Turtle WoW Team: reported by players, not confirmed by staff. Source tiers in this archive are staff (rank \"Turtle WoW Team\", the authority on intent), guide writer (a player whose guide thread is widely referenced), player, and wiki (the community fandom wiki, least reliable); staff statements about intended behaviour outrank player claims.",
+    "category": "system",
+    "scope": "archive-convention",
+    "citation_url": null
+  },
+  {
+    "term": "post-1.18.1",
+    "meaning": "Era label used on every recommendation in this archive: the source was posted on or after 2026-03-20, the day patch 1.18.1 (Nightmares of Ursol) went live. Only these sources describe the game as it was actually played on 1.18.1, and there are few of them — the servers closed eight weeks later.",
+    "category": "system",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=171512#p171512"
+  },
+  {
     "term": "PPM",
     "meaning": "Procs Per Minute, the rate model used to tune how often weapon-proc effects trigger.",
     "category": "item",
     "scope": "general-vanilla",
     "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=9270#p9270"
+  },
+  {
+    "term": "pre-1.18.1",
+    "meaning": "Era label used on every recommendation in this archive: the source was posted before 2025-10-03, when the preliminary patch 1.18.1 notes were published. The advice describes the game before anything in 1.18.1 was known, so check it against what 1.18.1 changed.",
+    "category": "system",
+    "scope": "turtle-specific",
+    "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168"
   },
   {
     "term": "premade",
@@ -1720,6 +1783,13 @@
     "category": "instance",
     "scope": "general-vanilla",
     "citation_url": "https://forum.turtlecraft.gg/viewtopic.php?p=1803#p1803"
+  },
+  {
+    "term": "standing",
+    "meaning": "How the community rates a spec in a role in the spec x role matrix: favored (the usual pick), alternative (works, picked less often), niche (works in specific situations) or not-viable (sources advise against it). It is a community judgement read off the class guides, not a measurement, and it is stated with its agreement label.",
+    "category": "system",
+    "scope": "archive-convention",
+    "citation_url": null
   },
   {
     "term": "STR",

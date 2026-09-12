@@ -11,10 +11,18 @@ interface SpecCardProps {
   /** Where the card leads: a spec guide, the leveling guide, or nowhere. */
   target?: string | null;
   targetLabel?: string;
+  /** The leveling page borrows another role's playbook, whose patch check does not cover the leveling pick. */
+  showPatchChip?: boolean;
 }
 
 /** One spec inside a role column: standing, a one-line verdict and its chips. */
-export function SpecCard({ row, playbook, target, targetLabel }: SpecCardProps) {
+export function SpecCard({
+  row,
+  playbook,
+  target,
+  targetLabel,
+  showPatchChip = true,
+}: SpecCardProps) {
   const theme = useThemeValue();
   const standing = standingMeta(row.standing);
   const standingColor = readableColor(standing?.color ?? '#8a8f98', theme);
@@ -23,7 +31,7 @@ export function SpecCard({ row, playbook, target, targetLabel }: SpecCardProps) 
   const note = firstSentence(row.notes);
   const agreement = String(row.agreement ?? playbook?.yaml?.agreement ?? '');
   const contested = /contested/i.test(agreement);
-  const validFor1181 = playbook?.yaml?.patch_validity?.valid_for_1181 === true;
+  const validFor1181 = showPatchChip && playbook?.yaml?.patch_validity?.valid_for_1181 === true;
   const accentInk = readableColor('#4dd0e1', theme);
 
   const body = (

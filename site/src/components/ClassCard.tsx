@@ -4,6 +4,7 @@ import { standingMeta } from '../lib/site';
 import { readableColor } from '../lib/theme';
 import { useThemeValue } from '../lib/theme-context';
 import { homeSpecRows, levelingPick, playbookForRow, roleShort } from './class/data';
+import { ChevronRightIcon } from './Icons';
 
 /** Where a spec row leads: its own guide when one exists, else the class page. */
 function rowTarget(entry: ClassEntry, row: MatrixRow): string {
@@ -70,7 +71,18 @@ export function ClassCard({ entry }: { entry: ClassEntry }) {
       <p className="mt-auto border-t pt-2.5 text-xs text-muted">
         {leveling ? (
           <>
-            Level as <span className="font-semibold text-ink">{leveling}</span>
+            Level as{' '}
+            {entry.leveling ? (
+              <a
+                href={href.leveling(entry.slug)}
+                className="inline-flex items-center gap-0.5 font-semibold text-ink hover:underline"
+              >
+                {leveling}
+                <ChevronRightIcon className="h-3.5 w-3.5" />
+              </a>
+            ) : (
+              <span className="font-semibold text-ink">{leveling}</span>
+            )}
           </>
         ) : (
           'No leveling spec is favored in the sources.'
