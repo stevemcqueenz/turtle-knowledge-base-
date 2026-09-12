@@ -81,7 +81,7 @@ site/
   scripts/smoke.mjs          offline route crawl (SSR)
   src/types.ts               TypeScript view of the data contract
   src/data/                  generated JSON + fixtures + loader
-  src/lib/                   router, theme, markdown, search, site helpers
+  src/lib/                   router, theme, markdown, search, leveling, site helpers
   src/components/            Card, Badge, Tabs, Callout, PriorityList, StatBars,
                              CitationChip, SearchDialog, GlossaryPanel, MatrixGrid,
                              TalentPoints, CooldownList, MistakeList, GearTable, …
