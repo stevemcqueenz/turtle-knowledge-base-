@@ -98,7 +98,7 @@ stat_weights:
   hit: "consensus priority stat toward the physical/spell hit caps (values not stated for pure DPS; tank guide gives 8% physical / 17% spell at 63)"
   agility: "crit and armor; feeds Elemental Focus proc rate"
   attack_power: "primary threat/damage stat via Rockbiter/Windfury/Lightning Strike"
-stat_priority: [weapon-skill, hit, crit, strength, haste, stamina]
+stat_priority: [weapon-skill, hit, crit, strength, agility, haste, stamina]
 stat_priority_note: "Consensus order. Weapon skill has a hard cap of 315 on Turtle (raised from 308) and the racial bonus is +3, not +5. The melee hit cap is 8%, not 9% — the hidden 1% from vanilla was removed — of which talents give 3% and the weapon-skill book 1%. Crit to about 30–35% keeps Flurry and Clearcasting up; past that Strength (2.3 AP per point, and it scales with talents and buffs) beats Agility (~1.13 AP, plus 1% crit and 1% dodge per 20). Stamina outranks Intellect, Spirit and mp5 — \"Pretend mp5 doesnt exist\" [Atreidon p=147011] — except for levelers, where Lightning Strike's mana cost still bites."
 caps:
   physical_hit: "8% (vanilla-baseline figure reused from the tank guide, not DPS-specific)"

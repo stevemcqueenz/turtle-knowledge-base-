@@ -51,7 +51,7 @@ stat_weights:
   haste: "very low (Flash of Light on the GCD)"
   hit: "0 (heals land on miss)"
 stat_priority: [healing-power, armor, spell-crit, mp5, spirit]
-stat_priority_note: "Healing power first (\"a great stat for everyone\"; Holy Strike scales with it too), then flat item armor on plate because Ironclad converts it, then spell crit (it applies Daybreak, procs Illumination and drives Mending Light, but overhealing limits its value), then mp5 and Spirit, which are low. Haste is nearly useless because Flash of Light sits on the global cooldown, and hit is not needed for heals."
+stat_priority_note: "Healing power first (\"a great stat for everyone\"; Holy Strike scales with it too), then flat item armor on plate because Ironclad converts it, then spell crit (it applies Daybreak, procs Illumination and drives Mending Light, but overhealing limits its value), then mp5 and Spirit, which are low. Haste is nearly useless because Flash of Light sits on the global cooldown, and hit is not needed for heals. mp5 and Spirit are a tie the source does not rank; it writes them as a single \"mp5/spirit\" bucket, so their order in the array above carries no ranking."
 caps: {}
 rotation_single:
   - {priority: 1, action: "Seal of Wisdom, Blessing of Light on tanks, Concentration Aura when meleeing", condition: "setup"}

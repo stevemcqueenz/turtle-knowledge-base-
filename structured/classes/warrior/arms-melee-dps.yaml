@@ -61,7 +61,7 @@ talents:
     - "https://talents.turtlecraft.gg/warrior?points=FQADCYDQ-FoAAoAAoRCFAB-"
 stat_weights: null
 stat_priority: [hit, strength, attack-power, crit, agility]
-stat_priority_note: "Weapon top-end damage is not a character stat and so is not in the list, but it ranks just below hit for this spec: the slowest, highest top-end two-hander is the pick because Whirlwind, Sweeping Strikes and Cleave each use one auto-attack's worth of damage per target [Atreidon p=101831] and Mortal Strike \"will be bigger with slow weapon than with fast weapon\" [Czasku p=101834]. Slam is normalized since Dec 2024, so slow weapons lost ~18% Slam damage."
+stat_priority_note: "Weapon top-end damage is not a character stat and so is not in the list, but it ranks just below hit for this spec: the slowest, highest top-end two-hander is the pick because Whirlwind, Sweeping Strikes and Cleave each use one auto-attack's worth of damage per target [Atreidon p=101831] and Mortal Strike \"will be bigger with slow weapon than with fast weapon\" [Czasku p=101834]. Slam is normalized since Dec 2024, so slow weapons lost ~18% Slam damage. Strength and attack power are a tie the source does not rank; it writes them as a single \"Strength/AP\" bucket, so their order in the array above carries no ranking."
 caps:
   hit_2h_pct: 8      # Cheruscan p=156442, single source ("8% max")
   hit_boss_pct: 9    # general player consensus

@@ -1547,7 +1547,7 @@
             "crit",
             "agility"
           ],
-          "stat_priority_note": "Weapon top-end damage is not a character stat and so is not in the list, but it ranks just below hit for this spec: the slowest, highest top-end two-hander is the pick because Whirlwind, Sweeping Strikes and Cleave each use one auto-attack's worth of damage per target [Atreidon p=101831] and Mortal Strike \"will be bigger with slow weapon than with fast weapon\" [Czasku p=101834]. Slam is normalized since Dec 2024, so slow weapons lost ~18% Slam damage.",
+          "stat_priority_note": "Weapon top-end damage is not a character stat and so is not in the list, but it ranks just below hit for this spec: the slowest, highest top-end two-hander is the pick because Whirlwind, Sweeping Strikes and Cleave each use one auto-attack's worth of damage per target [Atreidon p=101831] and Mortal Strike \"will be bigger with slow weapon than with fast weapon\" [Czasku p=101834]. Slam is normalized since Dec 2024, so slow weapons lost ~18% Slam damage. Strength and attack power are a tie the source does not rank; it writes them as a single \"Strength/AP\" bucket, so their order in the array above carries no ranking.",
           "caps": {
             "hit_2h_pct": 8,
             "hit_boss_pct": 9,
@@ -2003,11 +2003,12 @@
             "hit",
             "weapon-skill",
             "crit",
-            "strength",
             "attack-power",
+            "strength",
             "agility",
             "stamina"
           ],
+          "stat_priority_note": "Attack power and Strength are a tie the source does not rank; it writes them as a single \"AP/Strength\" bucket, so their order in the array above carries no ranking.",
           "caps": {
             "hit_boss_pct": 9,
             "hit_dungeon_pct": 5,
@@ -4301,11 +4302,10 @@
           },
           "stat_priority": [
             "spell-power",
-            "block",
-            "defense",
+            "agility",
             "strength"
           ],
-          "stat_priority_note": "Spell power is the threat stat — all of a paladin tank's aggro is holy damage. Block on gear plus Holy Shield is the staff-intended route to crush immunity. Defense is wanted but the 440 (420 with Anticipation) crit cap is \"often not worth reaching when you consider what you have to sacrifice\". Strength is CONTESTED: called irrelevant to threat by Kerenis (p=153860) and defended by others. \"Adds X damage to melee attacks\" items are valued separately because they trigger Judgement of Wisdom an extra time per swing.",
+          "stat_priority_note": "Everran (p=143606) gives two separate orders, not one list. The array above is his threat order \"Spell power, agi because of crit, strength\". His survival order is a different ranking from the same post: stamina first (\"Stam until you can survive the tier you are in\"), then agility for dodge (\"18 agi is about 1% dodge ... so i usualy go 15 agi>5def\"), then defense (\"nice but not mandatory\"), then block chance until the crush cap with Holy Shield. Spell power is the threat stat — all of a paladin tank's aggro is holy damage. Block on gear plus Holy Shield is the staff-intended route to crush immunity. Defense is wanted but the 440 (420 with Anticipation) crit cap is \"often not worth reaching when you consider what you have to sacrifice\". Strength is CONTESTED: called irrelevant to threat by Kerenis (p=153860) and defended by others. \"Adds X damage to melee attacks\" items are valued separately because they trigger Judgement of Wisdom an extra time per swing.",
           "caps": {
             "crit_immunity_defense": "440 (420 with Anticipation 3/3) - single hedged source, vanilla baseline",
             "crush_cap": "Holy Shield 45% block + gear block; exact post-1.18.1 number unknown",
@@ -4747,7 +4747,7 @@
             "mp5",
             "spirit"
           ],
-          "stat_priority_note": "Healing power first (\"a great stat for everyone\"; Holy Strike scales with it too), then flat item armor on plate because Ironclad converts it, then spell crit (it applies Daybreak, procs Illumination and drives Mending Light, but overhealing limits its value), then mp5 and Spirit, which are low. Haste is nearly useless because Flash of Light sits on the global cooldown, and hit is not needed for heals.",
+          "stat_priority_note": "Healing power first (\"a great stat for everyone\"; Holy Strike scales with it too), then flat item armor on plate because Ironclad converts it, then spell crit (it applies Daybreak, procs Illumination and drives Mending Light, but overhealing limits its value), then mp5 and Spirit, which are low. Haste is nearly useless because Flash of Light sits on the global cooldown, and hit is not needed for heals. mp5 and Spirit are a tie the source does not rank; it writes them as a single \"mp5/spirit\" bucket, so their order in the array above carries no ranking.",
           "caps": {},
           "rotation_single": [
             {
@@ -9780,7 +9780,7 @@
             "attack-power",
             "agility"
           ],
-          "stat_priority_note": "Order as the playbook's sourced bullets run: hit to the cap your weapon skill implies (9% at 300 skill, 6% at 305 with racial +5 bows/guns), then haste — the Turtle-specific stat, ~0.9% damage per 1% with no diminishing returns — then crit, then attack power and agility. Armor penetration ('generally weak') and spell power (dead weight for MM) are explicitly not stats to gear for. Whether AP enchants or haste win is contested and gear-dependent.",
+          "stat_priority_note": "Order as the playbook's sourced bullets run: hit to the cap your weapon skill implies (9% at 300 skill, 6% at 305 with racial +5 bows/guns), then haste — the Turtle-specific stat, ~0.9% damage per 1% with no diminishing returns — then crit, then attack power and agility. Armor penetration ('generally weak') and spell power (dead weight for MM) are explicitly not stats to gear for. Whether AP enchants or haste win is contested and gear-dependent. Attack power and agility are a tie the source does not rank; it writes them as a single \"Attack power / agility\" bucket, so their order in the array above carries no ranking.",
           "caps": {
             "melee_range_hit": "9% at 300 weapon skill (vanilla-baseline math; Turtle's exact linearized weapon-skill table is not published by staff)"
           },
@@ -12857,7 +12857,7 @@
             "haste",
             "attack-power"
           ],
-          "stat_priority_note": "\"Assassination isn't your combat swords mentality of piling on the attack power. It is a balance between dagger speed, armor haste and crit. Attack power is at the bottom of my list\" [Shananagans p=149679]. Weapon speed leads because Noxious Assault takes a percentage of attack power rather than weapon damage, so swings only matter for poison application, and roughly half the spec's damage is poison. Hit is 4–5% for dungeon content, more for raids. Dagger weapon skill pushes glancing blows down. One post-1.18.1 poster says to \"throw out 1.3 speed mainhands\" [Mdzielak p=171653] — single source, no numbers.",
+          "stat_priority_note": "\"Assassination isn't your combat swords mentality of piling on the attack power. It is a balance between dagger speed, armor haste and crit. Attack power is at the bottom of my list\" [Shananagans p=149679]. Weapon speed leads because Noxious Assault takes a percentage of attack power rather than weapon damage, so swings only matter for poison application, and roughly half the spec's damage is poison. Hit is 4–5% for dungeon content, more for raids. Dagger weapon skill pushes glancing blows down. One post-1.18.1 poster says to \"throw out 1.3 speed mainhands\" [Mdzielak p=171653] — single source, no numbers. Crit and agility are a tie the source does not rank; it writes them as a single \"crit/agility\" bucket, so their order in the array above carries no ranking.",
           "caps": {
             "hit_dungeon": "4-5% (single source, non-raid content)",
             "crit_seal_fate_threshold": "~40% crit before Seal Fate outperforms Dual Wield Specialization (single player estimate)"
@@ -17656,7 +17656,7 @@
             "spirit",
             "mp5"
           ],
-          "stat_priority_note": "Hit first: the spec needs 10% from items on top of Piercing Light's 6% to reach the 16% boss figure, and hit is weighted far above crit while under the cap. Then spell power (general or Holy), then crit, which fuels Searing Light. Intellect and Spirit/mp5 come last but cannot be zero — stacking pure spell power at the cost of all regeneration causes mana problems on long fights. Crit versus spell power is contested after the Searing Light internal cooldown.",
+          "stat_priority_note": "Hit first: the spec needs 10% from items on top of Piercing Light's 6% to reach the 16% boss figure, and hit is weighted far above crit while under the cap. Then spell power (general or Holy), then crit, which fuels Searing Light. Intellect and Spirit/mp5 come last but cannot be zero — stacking pure spell power at the cost of all regeneration causes mana problems on long fights. Crit versus spell power is contested after the Searing Light internal cooldown. Spirit and mp5 are a tie the source does not rank; it writes them as a single \"spirit/mp5\" bucket, so their order in the array above carries no ranking.",
           "caps": {
             "spell_hit_boss_pct": 16,
             "spell_hit_from_gear_pct": 10,
@@ -22700,6 +22700,7 @@
             "hit",
             "crit",
             "strength",
+            "agility",
             "haste",
             "stamina"
           ],
@@ -35142,7 +35143,7 @@
             "crit",
             "haste"
           ],
-          "stat_priority_note": "Melee hit cap is 8%, or 5% with Natural Weapons 3/3; hit above the cap does nothing and cannot reduce dodge or parry, which key off weapon skill. Cat form is permanently stuck at 300 weapon skill, so a feral cannot buy down glancing blows the way other melee can. Strength and Agility are the scaling stats because forms convert weapon-slot items into flat Feral Attack Power. Crit is valued but no source gives it a weight. Haste is CONTESTED and the community considers it overvalued by item designers, since only about 20–30% of feral damage comes from auto-attacks. Intellect on the T2.5/T3.5 sets is contested — useful for PvP shifting, considered wasted stat points in PvE.",
+          "stat_priority_note": "Melee hit cap is 8%, or 5% with Natural Weapons 3/3; hit above the cap does nothing and cannot reduce dodge or parry, which key off weapon skill. Cat form is permanently stuck at 300 weapon skill, so a feral cannot buy down glancing blows the way other melee can. Strength and Agility are the scaling stats because forms convert weapon-slot items into flat Feral Attack Power. Crit is valued but no source gives it a weight. Haste is CONTESTED and the community considers it overvalued by item designers, since only about 20–30% of feral damage comes from auto-attacks. Intellect on the T2.5/T3.5 sets is contested — useful for PvP shifting, considered wasted stat points in PvE. Strength and Agility are a tie the source does not rank; it writes them as a single \"Strength/Agility\" bucket, so their order in the array above carries no ranking.",
           "caps": {
             "hit_cap_melee": "8% (5% effective with Natural Weapons 3/3, +3% hit)",
             "weapon_skill_in_form": "fixed at 300 regardless of gear — permanent glancing-blow tax, no known fix"
