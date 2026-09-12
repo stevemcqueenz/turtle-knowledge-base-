@@ -35449,17 +35449,17 @@
             "leveling_order": [
               {
                 "level": "~20",
-                "tree": "Balance",
+                "tree": null,
                 "talent": "Omen of Clarity (approximate — \"Always go Omen of Clarity first by Lv20\"; free Wraths and, in forms, free Swipes and Claws)"
               },
               {
                 "level": "~24+",
-                "tree": "Balance",
+                "tree": null,
                 "talent": "Sylvan Blessing 2/2 (with Owlkin Frenzy 1/3) (approximate — one poster prefers this split to a full 3/3 Owlkin while leveling)"
               },
               {
                 "level": "~25",
-                "tree": "Feral",
+                "tree": null,
                 "talent": "Furor (approximate — \"then into Furor by Lv25\")"
               }
             ],
