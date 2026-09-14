@@ -9,7 +9,7 @@ patch_validity:
   notes: "1.18.1 cut Opportunity's top value from 20% to 15% and left the rest of the leveling route intact. Noxious Assault (level 40) is a 1.18.0 addition and is what makes the Assassination respec at 40 attractive."
 spec_verdict:
   favored:
-    spec: "Ambush/Backstab hybrid (Subtlety-Combat)"
+    spec: Subtlety
     build: "Ambush/Backstab with daggers (Subtlety into Combat)"
     agreement: consensus
     why: "One Ambush takes a mob to half health, Remorseless Attacks carries the crit buff into the next pull, and Stealth's 5 s cooldown lets you chain-pull without downtime."
