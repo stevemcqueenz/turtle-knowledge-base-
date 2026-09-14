@@ -30,7 +30,10 @@ ClassEntry {
   patchChanges: string | null         // Markdown of the README section whose heading contains "1.18.1" (also present in readme[])
 }
 
-Section { id: string (slug of heading), heading: string (text without #), level: 2|3, markdown: string }
+Section { id: string (slug of heading), heading: string (text without #), level: 2|3, markdown: string,
+          items?: string[] }
+
+Leveling sections also emit `items`: every unindented Markdown bullet with its list marker removed, in source order. `markdown` remains the complete, verbatim section; `items` is an additional scannable view and may be an empty array. The hand-sized development fixtures omit `items`, so consumers must fall back to `markdown` when it is absent or empty.
 
 TalentOrder { id, title: string (the H2 heading), subtitle: string|null (nearest H3, or the build column's header),
               approximate: boolean, steps: [{ level: string|null, talent: string, tree, points, note: string|null }] }

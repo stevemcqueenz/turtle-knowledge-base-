@@ -168,6 +168,27 @@ def make_section(heading: str, markdown: str, level: int) -> dict:
     }
 
 
+TOP_LEVEL_BULLET = re.compile(r"^[-*+]\s+(\S.*)$")
+
+
+def top_level_bullet_items(markdown: str) -> list[str]:
+    """Verbatim Markdown inside each unindented list item.
+
+    Leveling prose remains intact in ``markdown``; this is an additional view
+    for the UI's scannable lists. Indented nested bullets are deliberately not
+    separate items.
+    """
+    return [match.group(1) for line in markdown.splitlines()
+            if (match := TOP_LEVEL_BULLET.match(line))]
+
+
+def make_leveling_section(heading: str, markdown: str, level: int) -> dict:
+    """A leveling Section plus the top-level bullets available for card UI."""
+    section = make_section(heading, markdown, level)
+    section["items"] = top_level_bullet_items(markdown)
+    return section
+
+
 # ---------------------------------------------------------------------------
 # Leveling talent-order tables
 # ---------------------------------------------------------------------------
@@ -524,8 +545,8 @@ def build_class_entry(class_slug: str, matrix_rows: list[dict]) -> dict:
         lvl_intro, lvl_sections = split_h2_sections(lvl_body)
         sections = []
         if lvl_intro.strip():
-            sections.append(make_section("Introduction", lvl_intro, 2))
-        sections.extend(make_section(h, md, 2) for h, md in lvl_sections)
+            sections.append(make_leveling_section("Introduction", lvl_intro, 2))
+        sections.extend(make_leveling_section(h, md, 2) for h, md in lvl_sections)
         leveling = {
             "sections": sections,
             "talentOrders": parse_talent_orders(sections),

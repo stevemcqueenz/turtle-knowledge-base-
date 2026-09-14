@@ -19,16 +19,29 @@ import {
 } from '../lib/leveling';
 import { NotFound } from './NotFound';
 
-/** The guide's own prose, one card per section, unchanged. */
+/** A leveling section as its source bullets, or its full Markdown when none exist. */
 function Prose({ sections }: { sections: Section[] }) {
   return (
     <>
-      {sections.map((s) => (
-        <div key={s.id} className="card space-y-3 p-4 sm:p-5">
-          <h3 className="text-base font-bold">{cleanHeading(s.heading)}</h3>
-          <Markdown source={s.markdown} />
-        </div>
-      ))}
+      {sections.map((s) =>
+        s.items?.length ? (
+          <section key={s.id} className="space-y-3">
+            <h3 className="text-base font-bold">{cleanHeading(s.heading)}</h3>
+            <ul className="grid gap-3 sm:grid-cols-2">
+              {s.items.map((item, i) => (
+                <li key={i} className="card p-4 sm:p-5">
+                  <Markdown source={item} />
+                </li>
+              ))}
+            </ul>
+          </section>
+        ) : (
+          <div key={s.id} className="card space-y-3 p-4 sm:p-5">
+            <h3 className="text-base font-bold">{cleanHeading(s.heading)}</h3>
+            <Markdown source={s.markdown} />
+          </div>
+        ),
+      )}
     </>
   );
 }

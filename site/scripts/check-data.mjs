@@ -81,6 +81,15 @@ function checkSection(s, where) {
   if (!isString(s.markdown)) fail(`${where}: section.markdown must be a string`);
 }
 
+function checkLevelingSection(s, where) {
+  checkSection(s, where);
+  if (!('items' in s)) return fail(`${where}: leveling sections must include an items array`);
+  if (!isArray(s.items)) return fail(`${where}: items must be an array`);
+  s.items.forEach((item, i) => {
+    if (!isString(item) || !item.trim()) fail(`${where}.items[${i}]: item must be a non-empty Markdown string`);
+  });
+}
+
 function checkTalentOrder(o, where) {
   if (!isObject(o)) return fail(`${where}: not an object`);
   for (const k of ['id', 'title']) if (!isString(o[k])) fail(`${where}: ${k} must be a string`);
@@ -134,7 +143,7 @@ if (!isArray(data.classes)) {
       if (!isObject(c.leveling)) fail(`${where}: leveling must be an object or null`);
       else {
         if (!isArray(c.leveling.sections)) fail(`${where}.leveling: sections must be an array`);
-        else c.leveling.sections.forEach((s, i) => checkSection(s, `${where}.leveling.sections[${i}]`));
+        else c.leveling.sections.forEach((s, i) => checkLevelingSection(s, `${where}.leveling.sections[${i}]`));
         if (!isString(c.leveling.sourceFile)) fail(`${where}.leveling: sourceFile must be a string`);
         if (c.leveling.talentOrders !== undefined) {
           if (!isArray(c.leveling.talentOrders)) fail(`${where}.leveling: talentOrders must be an array`);
