@@ -10,7 +10,8 @@ the site builds without Python.
   paladin, hunter, rogue, priest, shaman, mage, warlock, druid), each with the
   class's README sections, its slice of the spec/role matrix, all of its
   playbooks (talents/stats/rotation/etc., with the matching structured YAML
-  attached), its leveling guide (`leveling.sections`, plus
+  attached), its leveling guide (`leveling.sections`, whose `items` arrays
+  hold each section's top-level bullets alongside its complete Markdown, plus
   `leveling.talentOrders`: the guide's talent-order tables parsed into
   level → talent steps), and its gear guide (`gear` / `gearMarkdown`,
   PLAN.md §7).
@@ -71,6 +72,12 @@ sections are not slotted — `readme` is just every H2 section in order, and
 `gaps` / `patchChanges` are copies of whichever of those sections has "gap"
 / "1.18.1" in its heading (`null` if none does, e.g. the Warrior README has
 no 1.18.1-specific section).
+
+Leveling sections add an `items` array: the Markdown inside each unindented
+bullet, in source order and with only the list marker removed. The complete
+section remains in `markdown` unchanged, including those bullets. An empty
+array means that section has no top-level bullets; development fixtures omit
+the field, so the UI must safely render `markdown` in either case.
 
 ## Regenerating
 

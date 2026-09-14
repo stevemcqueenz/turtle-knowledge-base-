@@ -19,16 +19,43 @@ import {
 } from '../lib/leveling';
 import { NotFound } from './NotFound';
 
-/** The guide's own prose, one card per section, unchanged. */
+/** The unindented list marker build-data.py strips when it emits `items`. */
+const TOP_LEVEL_BULLET = /^[-*+]\s+\S/;
+
+/** The section's framing prose: its complete Markdown minus the bullet lines. */
+function framingProse(markdown: string): string {
+  return markdown
+    .split('\n')
+    .filter((line) => !TOP_LEVEL_BULLET.test(line))
+    .join('\n')
+    .trim();
+}
+
+/** A leveling section as its source bullets, or its full Markdown when none exist. */
 function Prose({ sections }: { sections: Section[] }) {
   return (
     <>
-      {sections.map((s) => (
-        <div key={s.id} className="card space-y-3 p-4 sm:p-5">
-          <h3 className="text-base font-bold">{cleanHeading(s.heading)}</h3>
-          <Markdown source={s.markdown} />
-        </div>
-      ))}
+      {sections.map((s) => {
+        const framing = framingProse(s.markdown);
+        return s.items?.length ? (
+          <section key={s.id} className="space-y-3">
+            <h3 className="text-base font-bold">{cleanHeading(s.heading)}</h3>
+            {framing ? <Markdown source={framing} className="text-sm text-muted" /> : null}
+            <ul className="grid gap-3 sm:grid-cols-2">
+              {s.items.map((item, i) => (
+                <li key={i} className="card p-4 sm:p-5">
+                  <Markdown source={item} />
+                </li>
+              ))}
+            </ul>
+          </section>
+        ) : (
+          <div key={s.id} className="card space-y-3 p-4 sm:p-5">
+            <h3 className="text-base font-bold">{cleanHeading(s.heading)}</h3>
+            <Markdown source={s.markdown} />
+          </div>
+        );
+      })}
     </>
   );
 }

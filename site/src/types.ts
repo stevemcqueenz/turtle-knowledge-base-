@@ -35,6 +35,8 @@ export interface Section {
   heading: string;
   level: 2 | 3;
   markdown: string;
+  /** Top-level Markdown bullets, emitted for leveling sections (absent in fixtures). */
+  items?: string[];
 }
 
 export interface MatrixRow {
