@@ -51,6 +51,8 @@ stat_weights:
   spirit: 4
   mp5: 5
   stamina: 6
+stat_priority: [healing-power, spell-crit, intellect, spirit, mp5, stamina]
+stat_priority_note: "Langorn's order, agreed with in the replies: healing power, then spell crit (Inspiration plus 150% crit heals), then Intellect, Spirit, mp5, Stamina. Priests convert Spirit well — it gives healing power as well as regeneration — so the five-second rule is the thing to play around; endgame BiS sits at 350–400 Spirit. There is no healing cap; hit only matters for dispels and offensive spells. Power Word: Shield scales with healing power rather than spell power per player testing."
 caps:
   spell_hit_pvp_pct: 3
   spell_hit_boss_pct: 16

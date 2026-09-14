@@ -64,7 +64,8 @@ talents:
       note: "Concussion Blow stun + Shield Slam dispel (Manletow p=112703); deep prot + Thunderfury vs enh shaman (ferundal p=168167); widely considered a meme"
   leveling_order: []
 stat_weights: null
-stat_priority: [stamina, weapon-top-end-damage, hit, crit, attack-power]
+stat_priority: [stamina, hit, crit, attack-power]
+stat_priority_note: "Weapon top-end damage is not a character stat and so is not in the list, but it ranks second here: \"your base damage on weapon like BRE/MoM/DEI/severance should be more than enough\" [Springboards p=162626]; \"you need an endgame weapon\" [Terrydavis p=171279]."
 caps:
   hp_unbuffed_target: "5.5k-7k (Springboards; player advice, not a cap)"
   hit: null

@@ -24,7 +24,7 @@ General warning: "Maybe when you get to level 30 or 40 priests can do something.
 
 All from [Langorn (guide writer), 2025-09-19](https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325):
 
-| Levels | Talent | Reason (Langorn) |
+| Levels | Talent | Note |
 |---|---|---|
 | 10-11 | Wand Specialization 2/2 | "you will wand, A LOT" |
 | 12-16 | Spirit Tap 5/5 | "the difference between drinking every 3 pulls and almost not have to drink at all" |
@@ -76,7 +76,7 @@ Level 19 `talents.turtlecraft.gg/priest/5-0-U` (Spirit Tap 5 + Wand), 29 `5-0UU-
 - Downtime: exploit the 5-second rule (wand last 20-30% — Daoc2001 2024-10-25); "You either wand everything to death or sit and drink every 3-4 mobs" (Getplucked 2023-07-14).
 - Melee weaving (optional): "Wand and melee uses separate swing timers"; Inner Fire AP buffs melee; macros for Shoot/Attack on mouse wheel — [Ibux (player), 2023-02-19](https://forum.turtlecraft.gg/viewtopic.php?p=35235#p35235); "Spell casts will trigger melee swing CD, even if they are instant cast. If you cast a spell, use your wand" — [Cookieboy (player), 2023-11-29](https://forum.turtlecraft.gg/viewtopic.php?p=79217#p79217); Inner Fire now grants spell damage, not AP (staff CC2), so AP-based weaving advice is pre-CC2.
 - Night Elf bow: shoot does not trigger the GCD; wand/bow swap macro; bow deadzone means no shooting in melee — Thaladar 2025-08-07, Imonobor 2024-10-20; most players still wand while leveling (Steakhouse 2024-10-18).
-- Dungeons: heal in any spec (Ishilu, Hawkbutt); Renew downranked on DPS, PW:S for aggro pulls (Ironhorse 2025-04-19, Akos 2025-04-19); Mind Blast in a group "is basically a taunt and you will pull" (Nymdorl 2022-02-02).
+- Dungeons: heal in any spec (Ishilu, Hawkbutt); Renew downranked on DPS, PW:S for aggro pulls (Ironhorse 2025-04-19, Akos 2025-04-19).
 
 ## Skill training priority (Aykhanchik 2022, still the only list)
 

@@ -59,6 +59,8 @@ stat_weights:
   camp_b: "Have at least +10% mana-regen-while-casting gear until T2/T2.5; keep a Spirit of Zanza on cooldown (Akos1896, partly superseded by the 2024-12-20 Water Shield regen talents)"
   int: "as much as possible; ~4k mana pool recommended on a badly geared Resto shaman"
   haste: "the old T1 8-set needed a full haste stack to work; with the set gone (1.18.1) no haste target exists (gap)"
+stat_priority: [healing-power, intellect]
+stat_priority_note: "\"Get as much +healing and +int as you can\" (Skegg); on a badly geared resto shaman Intellect matters most, with about a 4k mana pool as the target. Mana regeneration is CONTESTED: one camp says ignore mp5, Spirit and percentage-regen gear entirely and solve mana with downranking, tea and potions, the other keeps at least +10% while-casting regen until T2/T2.5. No source gives numeric weights."
 caps: {}
 rotation_single:
   - {priority: 1, action: "Totems before pull: Windfury/Strength of Earth/Flametongue/Mana Spring in a melee group (Grace of Air for hunters/druids, Tranquil Air for casters); Water Shield on", condition: "pre-pull"}

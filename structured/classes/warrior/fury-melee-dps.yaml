@@ -55,7 +55,8 @@ talents:
     - "https://talents.turtlecraft.gg/warrior?points=FQADCYDQB-FoAAoAAoRCF-"   # armsgirl 2H 'trash king' (p=157920)
     - "https://talents.turtlecraft.gg/warrior?points=FQADCYDQ-FoAAoAAoRCFAB-"  # armsgirl 2H 'parse chad' (p=157920)
 stat_weights: null   # no source publishes weights; forum defers to WarriorSim (not in repo)
-stat_priority: [hit-to-cap, weapon-skill, crit, strength/attack-power, agility, stamina]
+stat_priority: [hit, weapon-skill, crit, attack-power, strength, agility, stamina]
+stat_priority_note: "Attack power and Strength are a tie: no cited post ranks them against each other, so their order in the array above carries no ranking. Grouping them is this repository's reading of the sources listed above."
 caps:
   hit_boss_pct: 9        # player consensus (Tomberry p=73184, Reploidrocsa p=64581); no staff confirmation
   hit_dungeon_pct: 5

@@ -27,6 +27,8 @@ talents:
   leveling_order: []
 stat_weights:
   stamina: "prioritized over Resilience per one detailed report ('Focus on stamina gear over anything else'); Resilience alone reported insufficient against Envenom-spec Rogues even fully stacked"
+stat_priority: [stamina]
+stat_priority_note: "\"Focus on stamina gear over anything else\" [Frantsel p=156428]. Whether Resilience is worth anything is CONTESTED and unresolved: a fully Kara-geared, all-stamina-enchanted, titan-flasked druid still died to an Envenom rogue's opener, and the report concludes \"resilience won't save you btw\" — but the burst in question (Dissolvent Poison) was separately flagged as likely to be hotfixed. Stealth-detection items are tracked separately in the playbook; they are gear, not a combat stat."
 caps: {}
 rotation_single:
   - {priority: 1, action: "Lesser/Greater Arcane Protection Potion + Fire/Frost/Arcane/Shadow (LAP/FAP-type) potions", condition: "pre-engagement if possible"}

@@ -57,6 +57,8 @@ stat_weights:
   stamina: "quest rings/necks toward ~5.4k HP in full T2.5"
   spell_penetration: "matters against Nature-resist gear; no PvP hit target stated (gap)"
   resilience: "1.18.1 PvP sets add it; values not stated for Shaman (gap)"
+stat_priority: [spell-power, stamina, spell-penetration]
+stat_priority_note: "Single source (Aluevera 2025-05-21): \"u are still ele so u prio SP\", with stamina picked up from quest rings and necks (up to about 5.4k HP in full T2.5). Spell penetration matters against Nature-resistance gear. No PvP hit target is stated anywhere, and the 1.18.1 PvP sets' resilience values were never published for shaman."
 caps: {}
 rotation_single:
   - {priority: 1, action: "Cast Lightning Bolt/Chain Lightning at range; Flame Shock at 30 yd (Call of Flame) to open on approach", condition: "no kick/silence pressure"}
