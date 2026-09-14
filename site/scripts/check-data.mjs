@@ -83,7 +83,10 @@ function checkSection(s, where) {
 
 function checkLevelingSection(s, where) {
   checkSection(s, where);
-  if (!('items' in s)) return fail(`${where}: leveling sections must include an items array`);
+  if (s.items === undefined) {
+    if (chosen.kind === 'generated') fail(`${where}: leveling sections must include an items array`);
+    return;
+  }
   if (!isArray(s.items)) return fail(`${where}: items must be an array`);
   s.items.forEach((item, i) => {
     if (!isString(item) || !item.trim()) fail(`${where}.items[${i}]: item must be a non-empty Markdown string`);
