@@ -4,7 +4,7 @@
 class: Rogue
 source_file: synthesis/classes/rogue/leveling.md
 patch_validity:
-  written_for: "the 1.18.0 tree (2025-08-15); the main ordered route was reposted unchanged from 2025-08 to 2025-12"
+  written_for: "the 1.18.0 tree (2025-08-15); the main ordered route was given across three posts from 2025-08 to 2025-12: p=148075 supplies the rows to level 27, p=149395 continues the route through 44, and p=161802 continues past 44"
   valid_for_1181: true
   notes: "1.18.1 cut Opportunity's top value from 20% to 15% and left the rest of the leveling route intact. Noxious Assault (level 40) is a 1.18.0 addition and is what makes the Assassination respec at 40 attractive."
 spec_verdict:
