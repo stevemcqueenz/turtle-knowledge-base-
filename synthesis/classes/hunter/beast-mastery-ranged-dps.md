@@ -45,7 +45,7 @@ Player-verified mechanics: Coordinated Assault "is calculated with the hunter's 
 
 - Post-patch leveling/raid draft links: BM/MM (Mortal Shots) `https://talents.turtlecraft.gg/hunter?points=FQAYAoAoZBCYB-AoAoJDAo-`, BM/MM (Endless Quiver) `...?points=FQAYAoBoZBCoB-AoAoJDQ-`, pure BM `...?points=FoAYBoCoZBSoB-AoAo-` [Sylvestro1 (player), 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171462#p171462) (asked, not validated). Replies: drop Lethal Shots for Pathfinding + Bestial Discipline for leveling, then "Lethal Shots may not be that bad actually, since the new Kill Command requires you to land a crit" [SvenS2, 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171480#p171480); "Bestial Discipline is pretty much mandatory especially for early tier gearing as BM (scorpid 5 stack poison is best pet damage you'll ever get)"; "5 Frenzy is overkill" [Gorlocktheglock (player), 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171478#p171478); "2-3 points into Frenzy is generally enough ... so long as you have a fast attacking pet" [SvenS2, 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171464#p171464).
 - Hybrids lose Kill Command (capstone) — [Tomogwarrior (player), 2026-03-21](https://forum.turtlecraft.gg/viewtopic.php?p=171530#p171530).
-- Bot default (**derived**, not a sourced 51-point list): BM 31+: Endurance Training / Swift Aspects (row 1), Thick Hide + Improved Revive Pet or Improved Mend Pet (row 2), Coordinated Assault 1 + Unleashed Fury 5 + Pathfinding 2 (row 3), Ferocity 5 + Bestial Discipline 2 (row 4), Bestial Precision 2 + Scent of Blood 3 + Bestial Wrath 1 + Frenzy 2–3 (rows 5–6 as reachable), Spirit Bond 2, Kill Command 1; MM: Lethal Shots 5, Efficiency 5, Mortal Shots 5 or Improved Stings filler. Validity for 1.18.1: **unknown**.
+- Bot default (**derived**, not a sourced 51-point list): BM 31+: Endurance Training / Swift Aspects (row 1), Thick Hide + Improved Revive Pet or Improved Mend Pet (row 2), Coordinated Assault 1 + Unleashed Fury 5 + Pathfinding 2 (row 3), Ferocity 5 + Bestial Discipline 2 (row 4), Bestial Precision 2 + Scent of Blood 3 + Bestial Wrath 1 + Frenzy 2–4 (rows 5–6 as reachable), Spirit Bond 2, Kill Command 1; MM: Lethal Shots 5, Efficiency 5, Mortal Shots 5 or Improved Stings filler. Validity for 1.18.1: **unknown**.
 
 ## Stat priority
 
@@ -116,7 +116,7 @@ As MM plus: T2 5-piece pet bonus needs no line of sight [Lane13, 2026-03-02](htt
 | Scorpid = best BM raid pet (poison scales with Spirit Bond SP), wind serpent second | consensus (Skurridizo, Elfje, Gorlocktheglock, Kerenis) | all kits; poison calc hotfix 2026-03-24 lowered it (Topmoo) |
 | Kill Command → Baited Shot loop; don't Arcane while waiting | consensus (Skurridizo, Nalos, kalevala206, Cnas, Kerenis) | **CC3 kit only — obsolete after 2026-03-20** |
 | Bestial Wrath on cd + Kill Command after hunter crits + Steady/Arcane filler | derived from staff; fragments (SvenS2, Lane13) | post-1.18.1, **unknown** |
-| Frenzy 2–3 points; Lethal Shots useful post-1.18.1 | consensus (Bob022, SvenS2, Gorlocktheglock) | CC2–1.18.1 |
+| Frenzy 2–4 (Lane13); Lethal Shots useful post-1.18.1 | consensus (Bob022, SvenS2, Gorlocktheglock) | CC2–1.18.1 |
 | BM raid viability | contested on every kit (amanagor/Bigsmerf/Jiav vs Steelx/Skurridizo/Nalos) | — |
 | Pet threat fixes (Salvation, wind serpent, dismiss/recall) | single thread, two authors agree | post-1.18.1 |
 
