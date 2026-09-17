@@ -5,6 +5,8 @@ Usage: python3 scrape/validate.py [paths...]   (default: synthesis/ structured/ 
 Checks
   - every forum.turtlecraft.gg viewtopic.php?p=<id> citation resolves to a post in structured/forum/posts/*.jsonl
   - every viewtopic.php?t=<id> citation resolves to a topic in structured/forum/topics.jsonl
+  - every Discord citation (https://discord.com/channels/<guild>/<channel>/<message> or discord://<channel-slug>/<message>)
+    resolves to a message in structured/discord/messages/*.jsonl (checked only when that directory exists)
   - every .yaml/.yml parses with PyYAML; every .jsonl parses line by line; every .json parses
   - playbooks contain the mandatory headings
 Exit code 1 if anything fails; prints a summary.
@@ -17,6 +19,21 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PLAYBOOK_HEADINGS = ["Overview", "Talent build", "Stat priority", "Single-target rotation", "Multi-target", "Cooldowns", "Role strategy", "Gear", "Common mistakes", "Sources"]
+
+
+def load_discord_ids():
+    """message ids and (channel_slug, message id) pairs from structured/discord/messages/*.jsonl; None if absent."""
+    d = os.path.join(ROOT, "structured", "discord", "messages")
+    if not os.path.isdir(d):
+        return None
+    ids = set()
+    for f in glob.glob(os.path.join(d, "*.jsonl")):
+        for line in open(f, encoding="utf-8"):
+            if line.strip():
+                r = json.loads(line)
+                ids.add(str(r.get("message_id")))
+                ids.add((r.get("channel_slug"), str(r.get("message_id"))))
+    return ids
 
 
 def load_ids():
@@ -36,6 +53,7 @@ def load_ids():
 def main():
     paths = sys.argv[1:] or ["synthesis", "structured", "behavior"]
     posts, topics = load_ids()
+    discord = load_discord_ids()
     files = []
     for p in paths:
         p = os.path.join(ROOT, p)
@@ -89,6 +107,15 @@ def main():
             tid = int(m.group(1))
             if tid not in topics:
                 unresolved.setdefault(rel, set()).add("t=%d" % tid)
+        if discord is not None:
+            for m in re.finditer(r"discord\.com/channels/(\d+)/(\d+)/(\d+)", text):
+                n_cites += 1
+                if m.group(3) not in discord:
+                    unresolved.setdefault(rel, set()).add("discord:%s" % m.group(3))
+            for m in re.finditer(r"discord://([a-z0-9-]+)/(\d+)", text):
+                n_cites += 1
+                if (m.group(1), m.group(2)) not in discord and m.group(2) not in discord:
+                    unresolved.setdefault(rel, set()).add("discord://%s/%s" % (m.group(1), m.group(2)))
         mrole = re.search(r"synthesis/classes/[a-z]+/[a-z]+-(tank|healer|melee-dps|ranged-dps|pvp)\.md$", rel)
         if mrole:
             role = mrole.group(1)

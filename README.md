@@ -40,3 +40,5 @@ python3 scrape/build_entity_index.py     # entity index
 python3 scrape/coverage.py               # coverage report + spot-check
 python3 scrape/validate.py               # citations and data files
 ```
+
+- `scrape/prompts/discord-local-agent.md`: the full brief for extending the knowledge base from the Discord server backup (ingester in `scrape/discord/`, talent-tree tooling in `scrape/talents/`).

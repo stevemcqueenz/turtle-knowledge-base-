@@ -7,3 +7,5 @@ scrape/wiki.stdout
 behavior/_aliases.json
 site/design/*.html
 !site/design/*.dc.html
+raw/discord/
+**/_unzipped/
