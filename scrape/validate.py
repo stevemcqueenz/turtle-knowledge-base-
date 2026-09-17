@@ -70,10 +70,13 @@ def main():
         # Evidence corpora are citation targets, not citation sources: links quoted inside a
         # post or a Discord message are user content and often point outside the archive.
         if ("structured/forum/posts" in rel or "structured/discord/messages" in rel
-                or "extracted/discord" in rel or rel.endswith("structured/discord/images.jsonl")
-                or rel.endswith("structured/external-links.jsonl")
+                or "extracted/discord" in rel
                 or rel.endswith("_aliases.json") or rel.endswith("coverage-report.md")):
             continue
+        # These two quote raw message text, so the Discord links in them are user content
+        # pointing at channels the backup does not contain - but their forum citations are
+        # curated and stay checked.
+        skip_discord_links = rel.endswith(("structured/discord/images.jsonl", "structured/external-links.jsonl"))
         try:
             text = open(f, encoding="utf-8").read()
         except Exception as e:
@@ -112,7 +115,7 @@ def main():
             tid = int(m.group(1))
             if tid not in topics:
                 unresolved.setdefault(rel, set()).add("t=%d" % tid)
-        if discord is not None:
+        if discord is not None and not skip_discord_links:
             for m in re.finditer(r"discord\.com/channels/(\d+)/(\d+)/(\d+)", text):
                 n_cites += 1
                 if m.group(3) not in discord:

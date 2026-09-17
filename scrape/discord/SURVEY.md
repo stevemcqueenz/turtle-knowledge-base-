@@ -141,13 +141,17 @@ downscaled to ≤1200 px / ~200 KB.
 ## 5. Validator
 
 `scrape/validate.py` treats evidence corpora as citation *targets*, never citation *sources* —
-`structured/forum/posts/` was already skipped, and `structured/discord/messages/`,
-`extracted/discord/`, `structured/discord/images.jsonl` and `structured/external-links.jsonl`
-now are too. Without that, every Discord link a player pasted into a message (usually pointing
-at one of the channels this backup does not contain) is read as an unresolvable citation; it
-produced 45 false failures on the three small channels alone and 72 on the repository at large.
+`structured/forum/posts/` was already skipped, and `structured/discord/messages/` and
+`extracted/discord/` now are too. Without that, every Discord link a player pasted into a
+message (usually pointing at one of the channels this backup does not contain) is read as an
+unresolvable citation; it produced 45 false failures on the three small channels alone and 72
+on the repository at large.
 
-Baseline after the change, with `pyyaml` installed (`.venv/`): `files=317 citations=37960
+`structured/discord/images.jsonl` and `structured/external-links.jsonl` are curated artifacts
+that happen to quote raw message text, so only the **Discord link patterns** are suppressed for
+those two; their forum citations stay checked.
+
+Baseline after the change, with `pyyaml` installed (`.venv/`): `files=311 citations=55698
 unresolved=0 other_failures=0`.
 
 ## 6. Extraction plan — which channels feed which repo files
