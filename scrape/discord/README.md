@@ -14,9 +14,20 @@ validated exactly like forum posts:
 
 ```
 python3 scrape/discord/ingest.py survey "<backup dir>" --work-dir <scratch>
-python3 scrape/discord/ingest.py build  "<backup dir>" --work-dir <scratch> --staff-roles "Turtle WoW Team,Admin,Developer,Game Master,Moderator" --guild-id <id>
+python3 scrape/discord/ingest.py build  "<backup dir>" --work-dir <scratch> --staff-roles "Moderator"
 python3 scrape/validate.py structured/discord synthesis   # citations resolve
 ```
+
+Only the JSON message dumps are unpacked (the Turtle backup is 105 GB of attachments against
+2.2 GB of JSON); attachments stay in the archives and an attachment's `local_path` reads
+`zip:<archive>!<member>`. Pull one out when a document cites it:
+
+```
+python3 scrape/discord/ingest.py extract-image "<backup dir>" --ref "zip:warrior.zip!warrior/_assets/x.png" --dest out.png
+```
+
+`--extract-assets` restores the old full unpack. What the Turtle backup contains, which staff
+roles it carries and which domains it cannot support: `SURVEY.md`.
 
 Citations: `https://discord.com/channels/<guild>/<channel>/<message>` when the ids are in the dump, otherwise `discord://<channel-slug>/<message-id>`; `scrape/validate.py` resolves both.
 

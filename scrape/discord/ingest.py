@@ -170,12 +170,23 @@ class AttachmentIndex:
                 if fn.startswith(".") or fn.lower().endswith((".json", ".json.gz", ".ndjson", ".jsonl")):
                     continue
                 p = os.path.join(dp, fn)
-                self.all.append(p)
-                self.by_name.setdefault(fn, p)
-                self.by_name.setdefault(fn.lower(), p)
-                for sf in re.findall(r"\d{15,22}", fn):
-                    self.by_id[sf].append(p)
+                self._add(fn, p)
+        # Assets left inside the zip (default ingest): <folder>/.assets.tsv maps basename -> zip:<archive>!<member>
+        tsv = os.path.join(folder, ".assets.tsv")
+        if os.path.exists(tsv):
+            with open(tsv, encoding="utf-8") as fh:
+                for line in fh:
+                    fn, _, ref = line.rstrip("\n").partition("\t")
+                    if fn and ref:
+                        self._add(fn, ref)
         self.used = set()
+
+    def _add(self, fn, p):
+        self.all.append(p)
+        self.by_name.setdefault(fn, p)
+        self.by_name.setdefault(fn.lower(), p)
+        for sf in re.findall(r"\d{15,22}", fn):
+            self.by_id[sf].append(p)
 
     def find(self, att_id, filename, url):
         cands = []
@@ -191,7 +202,7 @@ class AttachmentIndex:
             base = url.split("?")[0].rsplit("/", 1)[-1]
             if base in self.by_name:
                 cands.append(self.by_name[base])
-        if not cands and filename:
+        if not cands and filename and len(self.by_name) <= 20000:
             stem = os.path.splitext(filename)[0].lower()
             if len(stem) >= 6:
                 for n, p in self.by_name.items():
@@ -242,7 +253,7 @@ def norm_attachments(m, shape, index, backup_root):
             "id": a.get("id"),
             "filename": filename or None,
             "url": a.get("url") or a.get("proxy_url"),
-            "local_path": os.path.relpath(local, backup_root) if local else None,
+            "local_path": (local if local.startswith("zip:") else os.path.relpath(local, backup_root)) if local else None,
             "content_type": a.get("content_type") or a.get("contentType"),
             "size": a.get("fileSizeBytes") or a.get("size"),
             "width": a.get("width"),
@@ -374,8 +385,15 @@ def iter_channel_files(folder):
     return sorted(files)
 
 
-def channel_folders(backup, work_dir):
-    """Yield one folder per channel; .zip archives are unpacked into work_dir first (idempotent)."""
+def channel_folders(backup, work_dir, extract_assets=False):
+    """Yield one folder per channel; .zip archives are unpacked into work_dir first (idempotent).
+
+    Only the JSON message dumps are extracted by default: the Turtle backup is ~105 GB of
+    attachments against ~2 GB of JSON, so unpacking everything needs disk nobody has. The
+    asset members are recorded in <dest>/.assets.tsv instead, which AttachmentIndex reads, so
+    `local_path` becomes `zip:<archive>!<member>` and `extract-image` pulls one out on demand.
+    Pass --extract-assets to get the old full unpack.
+    """
     work_dir = work_dir or os.path.join(backup, "_unzipped")
     out = []
     for entry in sorted(os.listdir(backup)):
@@ -391,7 +409,19 @@ def channel_folders(backup, work_dir):
                 os.makedirs(dest, exist_ok=True)
                 try:
                     with zipfile.ZipFile(p) as z:
-                        z.extractall(dest)
+                        if extract_assets:
+                            z.extractall(dest)
+                        else:
+                            names = [n for n in z.namelist()
+                                     if n.lower().endswith((".json", ".json.gz", ".ndjson", ".jsonl"))
+                                     and "/_assets/" not in n]
+                            for n in names:
+                                z.extract(n, dest)
+                            with open(os.path.join(dest, ".assets.tsv"), "w", encoding="utf-8") as fh:
+                                for n in z.namelist():
+                                    if n.endswith("/") or n in names:
+                                        continue
+                                    fh.write("%s\t%s\n" % (n.rsplit("/", 1)[-1], "zip:%s!%s" % (entry, n)))
                     open(marker, "w").write(iso(dt.datetime.now(dt.timezone.utc)) or "")
                 except zipfile.BadZipFile as e:
                     print("BAD ZIP", entry, e, file=sys.stderr)
@@ -400,10 +430,10 @@ def channel_folders(backup, work_dir):
     return out
 
 
-def survey(backup, work_dir=None):
+def survey(backup, work_dir=None, extract_assets=False):
     total = 0
     rows = []
-    for folder in channel_folders(backup, work_dir):
+    for folder in channel_folders(backup, work_dir, extract_assets):
         files = iter_channel_files(folder)
         idx = AttachmentIndex(folder)
         n = 0
@@ -465,13 +495,13 @@ def md_escape(s):
     return (s or "").replace("\r", "")
 
 
-def build(backup, staff_roles, guild_id, only, work_dir=None):
+def build(backup, staff_roles, guild_id, only, work_dir=None, extract_assets=False):
     os.makedirs(os.path.join(OUT_STRUCT, "messages"), exist_ok=True)
     os.makedirs(OUT_EXTR, exist_ok=True)
     channels = []
     authors = {}
     images = open(os.path.join(OUT_STRUCT, "images.jsonl"), "w", encoding="utf-8")
-    for folder in channel_folders(backup, work_dir):
+    for folder in channel_folders(backup, work_dir, extract_assets):
         base = os.path.basename(folder)
         if only and base not in only and slugify(base) not in only:
             continue
@@ -581,21 +611,40 @@ def build(backup, staff_roles, guild_id, only, work_dir=None):
     print("channels=%d messages=%d authors=%d" % (len(channels), sum(c["messages"] for c in channels), len(authors)))
 
 
+def extract_image(backup, ref, dest):
+    """Copy one `zip:<archive>!<member>` (or a plain backup-relative path) out to dest."""
+    if ref.startswith("zip:"):
+        archive, _, member = ref[4:].partition("!")
+        with zipfile.ZipFile(os.path.join(backup, archive)) as z, open(dest, "wb") as out:
+            out.write(z.read(member))
+    else:
+        with open(os.path.join(backup, ref), "rb") as fh, open(dest, "wb") as out:
+            out.write(fh.read())
+    print(dest)
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("mode", choices=["survey", "build"])
+    ap.add_argument("mode", choices=["survey", "build", "extract-image"])
     ap.add_argument("backup", help="root folder of the Discord backup (one folder per channel)")
     ap.add_argument("--staff-roles", default=",".join(DEFAULT_STAFF_ROLES), help="comma-separated role names (case-insensitive substring match) that mark staff")
     ap.add_argument("--guild-id", default=None, help="guild id to use when dumps do not carry one (needed for canonical discord.com links)")
     ap.add_argument("--only", default=None, help="comma-separated channel folder names or slugs to process")
     ap.add_argument("--work-dir", default=None, help="where .zip channels are unpacked (default <backup>/_unzipped)")
+    ap.add_argument("--extract-assets", action="store_true", help="also unpack attachments (needs as much disk as the backup); default leaves them in the zips")
+    ap.add_argument("--ref", default=None, help="extract-image: the attachment local_path, e.g. zip:warrior.zip!warrior/_assets/x.png")
+    ap.add_argument("--dest", default=None, help="extract-image: output file")
     a = ap.parse_args()
     staff = [s.strip().lower() for s in a.staff_roles.split(",") if s.strip()]
     only = {s.strip() for s in a.only.split(",")} if a.only else None
     if a.mode == "survey":
-        survey(a.backup, a.work_dir)
+        survey(a.backup, a.work_dir, a.extract_assets)
+    elif a.mode == "extract-image":
+        if not a.ref or not a.dest:
+            ap.error("extract-image needs --ref and --dest")
+        extract_image(a.backup, a.ref, a.dest)
     else:
-        build(a.backup, staff, a.guild_id, only, a.work_dir)
+        build(a.backup, staff, a.guild_id, only, a.work_dir, a.extract_assets)
 
 
 if __name__ == "__main__":

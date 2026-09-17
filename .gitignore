@@ -9,3 +9,4 @@ site/design/*.html
 !site/design/*.dc.html
 raw/discord/
 **/_unzipped/
+.venv/

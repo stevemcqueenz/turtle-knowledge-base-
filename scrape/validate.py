@@ -67,7 +67,12 @@ def main():
     unresolved = {}
     for f in sorted(files):
         rel = os.path.relpath(f, ROOT)
-        if "structured/forum/posts" in rel or rel.endswith("_aliases.json") or rel.endswith("coverage-report.md"):
+        # Evidence corpora are citation targets, not citation sources: links quoted inside a
+        # post or a Discord message are user content and often point outside the archive.
+        if ("structured/forum/posts" in rel or "structured/discord/messages" in rel
+                or "extracted/discord" in rel or rel.endswith("structured/discord/images.jsonl")
+                or rel.endswith("structured/external-links.jsonl")
+                or rel.endswith("_aliases.json") or rel.endswith("coverage-report.md")):
             continue
         try:
             text = open(f, encoding="utf-8").read()

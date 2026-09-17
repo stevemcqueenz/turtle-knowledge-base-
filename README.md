@@ -42,3 +42,4 @@ python3 scrape/validate.py               # citations and data files
 ```
 
 - `scrape/prompts/discord-local-agent.md`: the full brief for extending the knowledge base from the Discord server backup (ingester in `scrape/discord/`, talent-tree tooling in `scrape/talents/`).
+- `scrape/discord/SURVEY.md`: what the backup actually holds — 14 channels (the nine class channels, `pvp-general`, `code-corner`, `turtle-wiki`, `twinking`, `level-one-lunatic`), 3,004,388 messages, 73,446 images, guild `466622455805378571` — which staff roles exist in it (only `Moderator`, 469 messages), the size policy, and which domains the backup cannot support.
