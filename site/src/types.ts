@@ -93,6 +93,8 @@ export interface YamlLevelingStep {
 export interface YamlTalents {
   build_name?: string | null;
   build_link?: string | null;
+  build_link_tortoise?: string | null;
+  build_link_tortoise_note?: string | null;
   points?: YamlTalentPoint[] | null;
   skip?: unknown[] | null;
   leveling_order?: YamlLevelingStep[] | null;

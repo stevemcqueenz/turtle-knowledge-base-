@@ -62,6 +62,7 @@ export function PlaybookPage({ slug, id }: { slug: string; id: string }) {
     .map((s) => describeValue(s))
     .filter(Boolean);
   const buildLinks = [
+    ...(typeof talents?.build_link_tortoise === 'string' && talents.build_link_tortoise ? [talents.build_link_tortoise] : []),
     ...(typeof talents?.build_link === 'string' && talents.build_link ? [talents.build_link] : []),
     ...list<unknown>(talents?.links_opaque).filter((l): l is string => typeof l === 'string' && l.startsWith('http')),
   ];

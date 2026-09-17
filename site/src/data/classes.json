@@ -433,38 +433,44 @@
                 "tree": "Fury",
                 "talent": "Death Wish",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 12328,
+                "talent_id": 104
               },
               {
                 "tree": "Fury",
                 "talent": "Cruelty",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 12856,
+                "talent_id": 94
               },
               {
                 "tree": "Fury",
                 "talent": "Enrage",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 13048,
+                "talent_id": 101
               },
               {
                 "tree": "Fury",
                 "talent": "Flurry",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 12974,
+                "talent_id": 107
               },
               {
                 "tree": "Fury",
                 "talent": "Improved Execute",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 20503,
+                "talent_id": 105
               },
               {
                 "tree": "Fury",
                 "talent": "Dual Wield Specialization",
                 "rank": 5,
-                "spell_id": null,
-                "note": "only if actually dual wielding"
+                "spell_id": 23588,
+                "note": "only if actually dual wielding",
+                "talent_id": 95
               },
               {
                 "tree": "Fury",
@@ -477,27 +483,31 @@
                 "tree": "Fury",
                 "talent": "Bloodthirst",
                 "rank": 1,
-                "spell_id": null,
-                "note": "if 31 Fury; Atreidon reports BT tanks failing post-CC2"
+                "spell_id": 23881,
+                "note": "if 31 Fury; Atreidon reports BT tanks failing post-CC2",
+                "talent_id": 109
               },
               {
                 "tree": "Protection",
                 "talent": "Shield Slam",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 23922,
+                "talent_id": 87
               },
               {
                 "tree": "Protection",
                 "talent": "Improved Shield Slam",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 51599,
+                "talent_id": 88
               },
               {
                 "tree": "Protection",
                 "talent": "Defiance",
                 "rank": 5,
-                "spell_id": null,
-                "note": "not stated for the hybrid; assumed by no source — gap"
+                "spell_id": 12792,
+                "note": "not stated for the hybrid; assumed by no source — gap",
+                "talent_id": 85
               }
             ],
             "historical": [
@@ -512,7 +522,9 @@
                 "note": "vanilla baseline; Improved Shield Block no longer exists"
               }
             ],
-            "leveling_order": []
+            "leveling_order": [],
+            "build_link_tortoise": "https://xian55.github.io/tortoise-db-viewer/?talents=warrior&t=-05500000500120501-000000000005012",
+            "build_link_tortoise_note": "Generated from the sourced points list (32 points: Fury 24, Protection 8); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator."
           },
           "stat_weights": null,
           "stat_priority": [
@@ -900,122 +912,141 @@
                 "tree": "Protection",
                 "talent": "Shield Slam",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 23922,
+                "talent_id": 87
               },
               {
                 "tree": "Protection",
                 "talent": "Improved Shield Slam",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 51599,
+                "talent_id": 88
               },
               {
                 "tree": "Protection",
                 "talent": "Defiance",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 12792,
+                "talent_id": 85
               },
               {
                 "tree": "Protection",
                 "talent": "Defensive Tactics",
                 "rank": 3,
-                "spell_id": null,
-                "note": "contested"
+                "spell_id": 51608,
+                "note": "contested",
+                "talent_id": 91
               },
               {
                 "tree": "Protection",
                 "talent": "Reprisal",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 51594,
+                "talent_id": 89
               },
               {
                 "tree": "Protection",
                 "talent": "Improved Revenge",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 12800,
+                "talent_id": 82
               },
               {
                 "tree": "Protection",
                 "talent": "Concussion Blow",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 12809,
+                "talent_id": 92
               },
               {
                 "tree": "Protection",
                 "talent": "One-Handed Weapon Specialization",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 16542,
+                "talent_id": 86
               },
               {
                 "tree": "Protection",
                 "talent": "Shield Specialization",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 12727,
+                "talent_id": 75
               },
               {
                 "tree": "Protection",
                 "talent": "Improved Bloodrage",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 12818,
+                "talent_id": 74
               },
               {
                 "tree": "Protection",
                 "talent": "Anticipation",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 12751,
+                "talent_id": 76
               },
               {
                 "tree": "Protection",
                 "talent": "Last Stand",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 12975,
+                "talent_id": 79
               },
               {
                 "tree": "Protection",
                 "talent": "Toughness",
                 "rank": null,
-                "spell_id": null,
-                "note": "filler"
+                "spell_id": 12299,
+                "note": "filler",
+                "talent_id": 78
               },
               {
                 "tree": "Protection",
                 "talent": "Improved Shield Wall",
                 "rank": null,
-                "spell_id": null,
-                "note": "0-2, contested"
+                "spell_id": 12312,
+                "note": "0-2, contested",
+                "talent_id": 90
               },
               {
                 "tree": "Arms",
                 "talent": "Tactical Mastery",
                 "rank": 2,
-                "spell_id": null,
-                "note": "2-5"
+                "spell_id": 12676,
+                "note": "2-5",
+                "talent_id": 57
               },
               {
                 "tree": "Arms",
                 "talent": "Improved Heroic Strike",
                 "rank": 3,
-                "spell_id": null,
-                "note": "0-3"
+                "spell_id": 12664,
+                "note": "0-3",
+                "talent_id": 56
               },
               {
                 "tree": "Arms",
                 "talent": "Improved Thunder Clap",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 12666,
+                "talent_id": 61
               },
               {
                 "tree": "Arms",
                 "talent": "Deflection",
                 "rank": 5,
-                "spell_id": null,
-                "note": "if reaching row 3 Arms"
+                "spell_id": 16466,
+                "note": "if reaching row 3 Arms",
+                "talent_id": 60
               },
               {
                 "tree": "Fury",
                 "talent": "Cruelty",
                 "rank": 0,
-                "spell_id": null,
-                "note": "5 in the Defensive Tactics + Enrage variant (Herods)"
+                "spell_id": 12320,
+                "note": "5 in the Defensive Tactics + Enrage variant (Herods)",
+                "talent_id": 94
               }
             ],
             "skip": [
@@ -1030,7 +1061,9 @@
               "https://talents.turtlecraft.gg/warrior?points=aQFDAYAQAAAAAAAAAAAAAAAAAAAAVAAgIDAopSAABAA=",
               "https://talents.turtlecraft.gg/warrior?points=SQFABYAQAAAAAAAAAAAAAAAAAAAAVAAoITAoZSQABAA%3D",
               "https://talents.turtlecraft.gg/warrior?points=FQFARYAQBYAAAAAAAAAAAAAAAAAAVAFoIAQABQAAAAA%3D"
-            ]
+            ],
+            "build_link_tortoise": "https://xian55.github.io/tortoise-db-viewer/?talents=warrior&t=320053--2530010030055122031",
+            "build_link_tortoise_note": "Generated from the sourced points list (46 points: Arms 13, Protection 33); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator."
           },
           "stat_weights": null,
           "stat_priority": [
@@ -1388,88 +1421,102 @@
                 "tree": "Arms",
                 "talent": "Tactical Mastery",
                 "rank": 3,
-                "spell_id": null,
-                "note": "3-5"
+                "spell_id": 12677,
+                "note": "3-5",
+                "talent_id": 57
               },
               {
                 "tree": "Arms",
                 "talent": "Improved Rend",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 12658,
+                "talent_id": 58
               },
               {
                 "tree": "Arms",
                 "talent": "Improved Overpower",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 12963,
+                "talent_id": 63
               },
               {
                 "tree": "Arms",
                 "talent": "Deep Wounds",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 12867,
+                "talent_id": 64
               },
               {
                 "tree": "Arms",
                 "talent": "Impale",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 16494,
+                "talent_id": 66
               },
               {
                 "tree": "Arms",
                 "talent": "Two-Handed Weapon Specialization",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 12712,
+                "talent_id": 65
               },
               {
                 "tree": "Arms",
                 "talent": "Master Strike",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 54023,
+                "talent_id": 62
               },
               {
                 "tree": "Arms",
                 "talent": "Sweeping Strikes",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 12292,
+                "talent_id": 68
               },
               {
                 "tree": "Arms",
                 "talent": "Master of Arms",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 51658,
+                "talent_id": 67
               },
               {
                 "tree": "Arms",
                 "talent": "Improved Slam",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 12330,
+                "talent_id": 71
               },
               {
                 "tree": "Arms",
                 "talent": "Mortal Strike",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 12294,
+                "talent_id": 73
               },
               {
                 "tree": "Arms",
                 "talent": "Precision Cut",
                 "rank": 3,
-                "spell_id": null,
-                "note": "position swapped with Boundless Anger in 1.18.1"
+                "spell_id": 51643,
+                "note": "position swapped with Boundless Anger in 1.18.1",
+                "talent_id": 72
               },
               {
                 "tree": "Fury",
                 "talent": "Cruelty",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 12856,
+                "talent_id": 94
               },
               {
                 "tree": "Fury",
                 "talent": "Unbridled Wrath",
                 "rank": 0,
-                "spell_id": null,
-                "note": "contested for 2H"
+                "spell_id": 12322,
+                "note": "contested for 2H",
+                "talent_id": 96
               }
             ],
             "leveling_order": [
@@ -1538,7 +1585,9 @@
             "links_opaque": [
               "https://talents.turtlecraft.gg/warrior?points=FQADCYDQB-FoAAoAAoRCF-",
               "https://talents.turtlecraft.gg/warrior?points=FQADCYDQ-FoAAoAAoRCFAB-"
-            ]
+            ],
+            "build_link_tortoise": "https://xian55.github.io/tortoise-db-viewer/?talents=warrior&t=032000123325100231-05",
+            "build_link_tortoise_note": "Generated from the sourced points list (33 points: Arms 28, Fury 5); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator."
           },
           "stat_weights": null,
           "stat_priority": [
@@ -1901,95 +1950,110 @@
                 "tree": "Fury",
                 "talent": "Cruelty",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 12856,
+                "talent_id": 94
               },
               {
                 "tree": "Fury",
                 "talent": "Dual Wield Specialization",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 23588,
+                "talent_id": 95
               },
               {
                 "tree": "Fury",
                 "talent": "Improved Shouts",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 51613,
+                "talent_id": 97
               },
               {
                 "tree": "Fury",
                 "talent": "Enrage",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 13048,
+                "talent_id": 101
               },
               {
                 "tree": "Fury",
                 "talent": "Improved Execute",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 20503,
+                "talent_id": 105
               },
               {
                 "tree": "Fury",
                 "talent": "Death Wish",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 12328,
+                "talent_id": 104
               },
               {
                 "tree": "Fury",
                 "talent": "Flurry",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 12974,
+                "talent_id": 107
               },
               {
                 "tree": "Fury",
                 "talent": "Bloodthirst",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 23881,
+                "talent_id": 109
               },
               {
                 "tree": "Fury",
                 "talent": "Blood Craze",
                 "rank": 0,
-                "spell_id": null,
-                "note": "contested: 0 (Atreidon) vs 3 (Abiozan, leveling)"
+                "spell_id": 16487,
+                "note": "contested: 0 (Atreidon) vs 3 (Abiozan, leveling)",
+                "talent_id": 99
               },
               {
                 "tree": "Fury",
                 "talent": "Blood Drinker",
                 "rank": 0,
-                "spell_id": null,
-                "note": "3/3 for PvP/solo only"
+                "spell_id": 51623,
+                "note": "3/3 for PvP/solo only",
+                "talent_id": 108
               },
               {
                 "tree": "Fury",
                 "talent": "Unbridled Wrath",
                 "rank": 0,
-                "spell_id": null,
-                "note": "5/5 in the 2H Fury variant"
+                "spell_id": 12322,
+                "note": "5/5 in the 2H Fury variant",
+                "talent_id": 96
               },
               {
                 "tree": "Arms",
                 "talent": "Tactical Mastery",
                 "rank": 2,
-                "spell_id": null,
-                "note": "2-5"
+                "spell_id": 12676,
+                "note": "2-5",
+                "talent_id": 57
               },
               {
                 "tree": "Arms",
                 "talent": "Improved Rend",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 12658,
+                "talent_id": 58
               },
               {
                 "tree": "Arms",
                 "talent": "Deep Wounds",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 12867,
+                "talent_id": 64
               },
               {
                 "tree": "Arms",
                 "talent": "Impale",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 16494,
+                "talent_id": 66
               }
             ],
             "leveling_order": [],
@@ -1997,7 +2061,9 @@
               "https://talents.turtlecraft.gg/warrior?points=dQQACYAQ-AoFAoAAoZCFAB-",
               "https://talents.turtlecraft.gg/warrior?points=FQADCYDQB-FoAAoAAoRCF-",
               "https://talents.turtlecraft.gg/warrior?points=FQADCYDQ-FoAAoAAoRCFAB-"
-            ]
+            ],
+            "build_link_tortoise": "https://xian55.github.io/tortoise-db-viewer/?talents=warrior&t=02200000302-05505000500120501",
+            "build_link_tortoise_note": "Generated from the sourced points list (38 points: Arms 9, Fury 29); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator."
           },
           "stat_weights": null,
           "stat_priority": [
@@ -2413,7 +2479,8 @@
                 "tree": "Arms",
                 "talent": "Mortal Strike",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 12294,
+                "talent_id": 73
               },
               {
                 "tree": "Arms",
@@ -2425,54 +2492,62 @@
                 "tree": "Arms",
                 "talent": "Sweeping Strikes",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 12292,
+                "talent_id": 68
               },
               {
                 "tree": "Arms",
                 "talent": "Master Strike",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 54023,
+                "talent_id": 62
               },
               {
                 "tree": "Arms",
                 "talent": "Master of Arms",
                 "rank": 5,
-                "spell_id": null,
-                "note": "polearm +2 yd range (Manletow, single source)"
+                "spell_id": 51658,
+                "note": "polearm +2 yd range (Manletow, single source)",
+                "talent_id": 67
               },
               {
                 "tree": "Arms",
                 "talent": "Tactical Mastery",
                 "rank": 4,
-                "spell_id": null,
-                "note": "Disarm needs 20 rage"
+                "spell_id": 12678,
+                "note": "Disarm needs 20 rage",
+                "talent_id": 57
               },
               {
                 "tree": "Arms",
                 "talent": "Improved Charge",
                 "rank": 1,
-                "spell_id": null,
-                "note": "Charge gives 9 rage baseline; abilities need 10"
+                "spell_id": 12285,
+                "note": "Charge gives 9 rage baseline; abilities need 10",
+                "talent_id": 59
               },
               {
                 "tree": "Fury",
                 "talent": "Booming Voice",
                 "rank": null,
-                "spell_id": null,
-                "note": "level-19 build (stealth breaking)"
+                "spell_id": 12321,
+                "note": "level-19 build (stealth breaking)",
+                "talent_id": 93
               },
               {
                 "tree": "Fury",
                 "talent": "Piercing Howl",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 12323,
+                "talent_id": 98
               },
               {
                 "tree": "Protection",
                 "talent": "Improved Intervene",
                 "rank": 2,
-                "spell_id": null,
-                "note": "root/snare immunity 3 s; row 3"
+                "spell_id": 51592,
+                "note": "root/snare immunity 3 s; row 3",
+                "talent_id": 80
               }
             ],
             "variants": [
@@ -2511,7 +2586,9 @@
                 "note": "Concussion Blow stun + Shield Slam dispel (Manletow p=112703); deep prot + Thunderfury vs enh shaman (ferundal p=168167); widely considered a meme"
               }
             ],
-            "leveling_order": []
+            "leveling_order": [],
+            "build_link_tortoise": "https://xian55.github.io/tortoise-db-viewer/?talents=warrior&t=040100100005100001-000001-0000002",
+            "build_link_tortoise_note": "Generated from the sourced points list (16 points: Arms 13, Fury 1, Protection 2); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator."
           },
           "stat_weights": null,
           "stat_priority": [
@@ -4287,73 +4364,85 @@
                 "tree": "Protection",
                 "talent": "Redoubt",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 45822,
+                "talent_id": 462
               },
               {
                 "tree": "Protection",
                 "talent": "Precision",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 20193,
+                "talent_id": 463
               },
               {
                 "tree": "Protection",
                 "talent": "Toughness",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 20147,
+                "talent_id": 465
               },
               {
                 "tree": "Protection",
                 "talent": "Blessing of Sanctuary",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 20911,
+                "talent_id": 467
               },
               {
                 "tree": "Protection",
                 "talent": "Shield Specialization",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 20150,
+                "talent_id": 468
               },
               {
                 "tree": "Protection",
                 "talent": "Improved Righteous Fury",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 20470,
+                "talent_id": 466
               },
               {
                 "tree": "Protection",
                 "talent": "Holy Shield",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 20925,
+                "talent_id": 473
               },
               {
                 "tree": "Protection",
                 "talent": "Reckoning",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 45837,
+                "talent_id": 474
               },
               {
                 "tree": "Protection",
                 "talent": "Righteous Strikes",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 51345,
+                "talent_id": 475
               },
               {
                 "tree": "Protection",
                 "talent": "Bulwark of the Righteous",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 51346,
+                "talent_id": 476
               },
               {
                 "tree": "Protection",
                 "talent": "Improved Hand of Reckoning",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 51335,
+                "talent_id": 470
               },
               {
                 "tree": "Protection",
                 "talent": "Righteous Defense",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 51330,
+                "talent_id": 472
               },
               {
                 "tree": "Holy",
@@ -4448,7 +4537,9 @@
                 "tree": "Protection",
                 "talent": "Improved Hand of Reckoning + Righteous Defense (raid) or Improved Judgement + Vindication"
               }
-            ]
+            ],
+            "build_link_tortoise": "https://xian55.github.io/tortoise-db-viewer/?talents=paladin&t=-0530531302031551",
+            "build_link_tortoise_note": "Generated from the sourced points list (37 points: Protection 37); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator."
           },
           "stat_weights": {
             "stamina": "1 (survival set: until you survive the tier)",
@@ -4820,61 +4911,71 @@
                 "tree": "Holy",
                 "talent": "Blessed Strikes",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 51321,
+                "talent_id": 459
               },
               {
                 "tree": "Holy",
                 "talent": "Holy Judgement",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 51308,
+                "talent_id": 446
               },
               {
                 "tree": "Holy",
                 "talent": "Daybreak",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 51323,
+                "talent_id": 460
               },
               {
                 "tree": "Holy",
                 "talent": "Ironclad",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 51311,
+                "talent_id": 455
               },
               {
                 "tree": "Holy",
                 "talent": "Divine Favor",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 51316,
+                "talent_id": 456
               },
               {
                 "tree": "Holy",
                 "talent": "Holy Shock",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 20473,
+                "talent_id": 457
               },
               {
                 "tree": "Holy",
                 "talent": "Spiritual Focus",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 20206,
+                "talent_id": 447
               },
               {
                 "tree": "Holy",
                 "talent": "Illumination",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 20215,
+                "talent_id": 454
               },
               {
                 "tree": "Holy",
                 "talent": "Healing Light",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 20239,
+                "talent_id": 449
               },
               {
                 "tree": "Holy",
                 "talent": "Holy Power / Divine Intellect / Improved Concentration Aura (fill, unspecified)",
                 "rank": null,
-                "spell_id": null
+                "spell_id": 5923,
+                "talent_id": 458
               },
               {
                 "tree": "Protection",
@@ -4889,7 +4990,9 @@
                 "spell_id": null
               }
             ],
-            "leveling_order": []
+            "leveling_order": [],
+            "build_link_tortoise": "https://xian55.github.io/tortoise-db-viewer/?talents=paladin&t=00320300005251051",
+            "build_link_tortoise_note": "Generated from the sourced points list (27 points: Holy 27); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator."
           },
           "stat_weights": {
             "healing_power": "1",
@@ -5267,103 +5370,120 @@
                 "tree": "Retribution",
                 "talent": "Benediction",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 20105,
+                "talent_id": 429
               },
               {
                 "tree": "Retribution",
                 "talent": "Deflection",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 20064,
+                "talent_id": 432
               },
               {
                 "tree": "Retribution",
                 "talent": "Pursuit of Justice",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 26023,
+                "talent_id": 436
               },
               {
                 "tree": "Retribution",
                 "talent": "Conviction",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 20121,
+                "talent_id": 434
               },
               {
                 "tree": "Retribution",
                 "talent": "Improved Retribution Aura",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 20092,
+                "talent_id": 433
               },
               {
                 "tree": "Retribution",
                 "talent": "Blessing of Kings",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 20217,
+                "talent_id": 435
               },
               {
                 "tree": "Retribution",
                 "talent": "Seal of Command",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 20375,
+                "talent_id": 441
               },
               {
                 "tree": "Retribution",
                 "talent": "Two-Handed Weapon Specialization",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 20113,
+                "talent_id": 437
               },
               {
                 "tree": "Retribution",
                 "talent": "Vengeance",
                 "rank": "1-5",
-                "spell_id": null
+                "spell_id": 20049,
+                "talent_id": 440
               },
               {
                 "tree": "Retribution",
                 "talent": "Vengeful Strikes",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 51359,
+                "talent_id": 442
               },
               {
                 "tree": "Retribution",
                 "talent": "Repentance",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 20066,
+                "talent_id": 443
               },
               {
                 "tree": "Protection",
                 "talent": "Redoubt",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 45822,
+                "talent_id": 462
               },
               {
                 "tree": "Protection",
                 "talent": "Precision",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 20193,
+                "talent_id": 463
               },
               {
                 "tree": "Holy",
                 "talent": "Divine Strength",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 20266,
+                "talent_id": 444
               },
               {
                 "tree": "Holy",
                 "talent": "Spiritual Focus",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 20206,
+                "talent_id": 447
               },
               {
                 "tree": "Holy",
                 "talent": "Holy Judgement",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 51308,
+                "talent_id": 446
               },
               {
                 "tree": "Holy",
                 "talent": "Sanctity Aura (spell build) / Improved Judgement / Guardian's Favor (leftovers)",
                 "rank": "1-2",
-                "spell_id": null
+                "spell_id": 20218,
+                "talent_id": 450
               }
             ],
             "leveling_order": [
@@ -5452,7 +5572,9 @@
                 "tree": "Holy",
                 "talent": "Sanctity Aura / Improved Judgement / Improved Lay on Hands / Vengeance"
               }
-            ]
+            ],
+            "build_link_tortoise": "https://xian55.github.io/tortoise-db-viewer/?talents=paladin&t=5032001-053-0500525123001151",
+            "build_link_tortoise_note": "Generated from the sourced points list (50 points: Holy 11, Protection 8, Retribution 31); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator."
           },
           "stat_weights": {
             "hit": "cap first (8-9% for 2H; weapon skill 315 for glancing)",
@@ -9113,37 +9235,43 @@
                 "tree": "Survival",
                 "talent": "Resourcefulness",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 51574,
+                "talent_id": 393
               },
               {
                 "tree": "Survival",
                 "talent": "Swift Reflexes",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 19297,
+                "talent_id": 394
               },
               {
                 "tree": "Survival",
                 "talent": "Savage Strikes",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 19160,
+                "talent_id": 396
               },
               {
                 "tree": "Survival",
                 "talent": "Trap Mastery",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 51581,
+                "talent_id": 407
               },
               {
                 "tree": "Survival",
                 "talent": "Carve",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 51575,
+                "talent_id": 401
               },
               {
                 "tree": "Survival",
                 "talent": "Deterrence",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 19263,
+                "talent_id": 402
               },
               {
                 "tree": "Survival",
@@ -9155,52 +9283,62 @@
                 "tree": "Survival",
                 "talent": "Killer Instinct",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 19373,
+                "talent_id": 406
               },
               {
                 "tree": "Survival",
                 "talent": "Surefooted",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 24283,
+                "talent_id": 404
               },
               {
                 "tree": "Survival",
                 "talent": "Improved Feign Death",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 19287,
+                "talent_id": 405
               },
               {
                 "tree": "Survival",
                 "talent": "Lacerate",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 48049,
+                "talent_id": 408
               },
               {
                 "tree": "Survival",
                 "talent": "Vicious Strikes",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 51585,
+                "talent_id": 409
               },
               {
                 "tree": "Survival",
                 "talent": "Lightning Reflexes",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 24297,
+                "talent_id": 410
               },
               {
                 "tree": "Survival",
                 "talent": "Untamed Trapper",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 51586,
+                "talent_id": 411
               },
               {
                 "tree": "Beast Mastery",
                 "talent": "Endurance Training / Thick Hide / Improved Mend Pet or Coordinated Assault",
                 "rank": "remaining points",
-                "spell_id": null
+                "spell_id": 19583,
+                "talent_id": 374
               }
             ],
-            "leveling_order": []
+            "leveling_order": [],
+            "build_link_tortoise": "https://xian55.github.io/tortoise-db-viewer/?talents=hunter&t=--05202000011032331251",
+            "build_link_tortoise_note": "Generated from the sourced points list (31 points: Survival 31); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator."
           },
           "stat_weights": {
             "agility": "top priority - Lightning Reflexes converts 100% of agility to melee AP on top of the 1 AP/agi baseline",
@@ -9613,103 +9751,120 @@
                 "tree": "Beast Mastery",
                 "talent": "Endurance Training / Swift Aspects",
                 "rank": "1-5",
-                "spell_id": null
+                "spell_id": 19583,
+                "talent_id": 374
               },
               {
                 "tree": "Beast Mastery",
                 "talent": "Thick Hide",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 19612,
+                "talent_id": 377
               },
               {
                 "tree": "Beast Mastery",
                 "talent": "Improved Revive Pet / Improved Mend Pet",
                 "rank": "1-2",
-                "spell_id": null
+                "spell_id": 24443,
+                "talent_id": 378
               },
               {
                 "tree": "Beast Mastery",
                 "talent": "Coordinated Assault",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 49559,
+                "talent_id": 380
               },
               {
                 "tree": "Beast Mastery",
                 "talent": "Unleashed Fury",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 19620,
+                "talent_id": 381
               },
               {
                 "tree": "Beast Mastery",
                 "talent": "Pathfinding",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 19560,
+                "talent_id": 379
               },
               {
                 "tree": "Beast Mastery",
                 "talent": "Ferocity",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 19602,
+                "talent_id": 384
               },
               {
                 "tree": "Beast Mastery",
                 "talent": "Bestial Discipline",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 19592,
+                "talent_id": 382
               },
               {
                 "tree": "Beast Mastery",
                 "talent": "Bestial Precision",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 51555,
+                "talent_id": 388
               },
               {
                 "tree": "Beast Mastery",
                 "talent": "Scent of Blood",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 52997,
+                "talent_id": 385
               },
               {
                 "tree": "Beast Mastery",
                 "talent": "Bestial Wrath",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 19574,
+                "talent_id": 386
               },
               {
                 "tree": "Beast Mastery",
                 "talent": "Frenzy",
                 "rank": "2-4",
-                "spell_id": null
+                "spell_id": 19622,
+                "talent_id": 390
               },
               {
                 "tree": "Beast Mastery",
                 "talent": "Spirit Bond",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 20895,
+                "talent_id": 389
               },
               {
                 "tree": "Beast Mastery",
                 "talent": "Kill Command",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 41827,
+                "talent_id": 391
               },
               {
                 "tree": "Marksmanship",
                 "talent": "Lethal Shots",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 19431,
+                "talent_id": 415
               },
               {
                 "tree": "Marksmanship",
                 "talent": "Efficiency",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 19420,
+                "talent_id": 413
               },
               {
                 "tree": "Marksmanship",
                 "talent": "Mortal Shots / Improved Stings",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 19490,
+                "talent_id": 420
               }
             ],
             "leveling_order": [
@@ -9799,7 +9954,9 @@
                 "talent": "Improved Mend Pet 2"
               }
             ],
-            "leveling_order_source": "The CC2-tree order in synthesis/classes/hunter/leveling.md (most detailed BM source); talent names and rows changed at CC3 and 1.18.1 where the notes say so. The Frenzy range given here and in talents.points is Lane13's: \"builds never put full points in Frenzy but rather 2-4\" [Lane13 p=159542]."
+            "leveling_order_source": "The CC2-tree order in synthesis/classes/hunter/leveling.md (most detailed BM source); talent names and rows changed at CC3 and 1.18.1 where the notes say so. The Frenzy range given here and in talents.points is Lane13's: \"builds never put full points in Frenzy but rather 2-4\" [Lane13 p=159542].",
+            "build_link_tortoise": "https://xian55.github.io/tortoise-db-viewer/?talents=hunter&t=0100312152053102221-050500005",
+            "build_link_tortoise_note": "Generated from the sourced points list (46 points: Beast Mastery 31, Marksmanship 15); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator."
           },
           "stat_weights": {
             "ranged_attack_power": "top priority - feeds the pet through Spirit Bond; item RAP-for-crit trades 'improve the hunter's personal DPS but do almost nothing for the pet' [Skurridizo]",
@@ -10196,25 +10353,29 @@
                 "tree": "Marksmanship",
                 "talent": "Lethal Shots",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 19431,
+                "talent_id": 415
               },
               {
                 "tree": "Marksmanship",
                 "talent": "Efficiency",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 19420,
+                "talent_id": 413
               },
               {
                 "tree": "Marksmanship",
                 "talent": "Improved Stings",
                 "rank": "0-5",
-                "spell_id": null
+                "spell_id": 19464,
+                "talent_id": 414
               },
               {
                 "tree": "Marksmanship",
                 "talent": "Hawk Eye",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 19499,
+                "talent_id": 416
               },
               {
                 "tree": "Marksmanship",
@@ -10226,13 +10387,15 @@
                 "tree": "Marksmanship",
                 "talent": "Mortal Shots",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 19490,
+                "talent_id": 420
               },
               {
                 "tree": "Marksmanship",
                 "talent": "Piercing Shots",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 51513,
+                "talent_id": 423
               },
               {
                 "tree": "Marksmanship",
@@ -10244,13 +10407,15 @@
                 "tree": "Marksmanship",
                 "talent": "Endless Quiver",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 51518,
+                "talent_id": 419
               },
               {
                 "tree": "Marksmanship",
                 "talent": "Ranged Weapon Specialization",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 19511,
+                "talent_id": 426
               },
               {
                 "tree": "Marksmanship",
@@ -10262,16 +10427,20 @@
                 "tree": "Beast Mastery",
                 "talent": "Swift Aspects",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 19556,
+                "talent_id": 373
               },
               {
                 "tree": "Beast Mastery",
                 "talent": "Endurance Training / Thick Hide / Improved Revive Pet",
                 "rank": "filler to row 3",
-                "spell_id": null
+                "spell_id": 19583,
+                "talent_id": 374
               }
             ],
-            "leveling_order": []
+            "leveling_order": [],
+            "build_link_tortoise": "https://xian55.github.io/tortoise-db-viewer/?talents=hunter&t=5-050520025002005",
+            "build_link_tortoise_note": "Generated from the sourced points list (31 points: Beast Mastery 5, Marksmanship 26); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator."
           },
           "stat_weights": {
             "hit": "9% to cap at 300 weapon skill; ~6% at 305 (racial +5 bow/gun skill); ~5% at 315 (Trueaim Gauntlets + Sash of the Grand Hunt); a BiS-list author treats 7% as the practical minimum on current itemization; '1% hit is always a (slightly more than) 1% damage increase until you reach hit cap' [Juzam]; do not over-cap once T3 + Naxx hit gear is worn",
@@ -10662,52 +10831,62 @@
                 "tree": "Beast Mastery",
                 "talent": "Intimidation",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 19577,
+                "talent_id": 387
               },
               {
                 "tree": "Beast Mastery",
                 "talent": "Swift Aspects",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 19556,
+                "talent_id": 373
               },
               {
                 "tree": "Beast Mastery",
                 "talent": "Spirit Bond",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 20895,
+                "talent_id": 389
               },
               {
                 "tree": "Beast Mastery",
                 "talent": "Frenzy",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 19623,
+                "talent_id": 390
               },
               {
                 "tree": "Marksmanship",
                 "talent": "Scatter Shot",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 19503,
+                "talent_id": 421
               },
               {
                 "tree": "Marksmanship",
                 "talent": "Hawk Eye",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 19499,
+                "talent_id": 416
               },
               {
                 "tree": "Marksmanship",
                 "talent": "Mortal Shots",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 19490,
+                "talent_id": 420
               },
               {
                 "tree": "Marksmanship",
                 "talent": "Improved Stings",
                 "rank": "1+",
-                "spell_id": null
+                "spell_id": 19464,
+                "talent_id": 414
               }
             ],
-            "leveling_order": []
+            "leveling_order": [],
+            "build_link_tortoise": "https://xian55.github.io/tortoise-db-viewer/?talents=hunter&t=500000000000001023-0000200051",
+            "build_link_tortoise_note": "Generated from the sourced points list (19 points: Beast Mastery 11, Marksmanship 8); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator."
           },
           "stat_weights": {
             "stamina": "matters more than in PvE",
@@ -13406,103 +13585,120 @@
                 "tree": "Assassination",
                 "talent": "Malice",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 14142,
+                "talent_id": 130
               },
               {
                 "tree": "Assassination",
                 "talent": "Ruthlessness",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 14161,
+                "talent_id": 131
               },
               {
                 "tree": "Assassination",
                 "talent": "Improved Blade Tactics",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 14167,
+                "talent_id": 133
               },
               {
                 "tree": "Assassination",
                 "talent": "Relentless Strikes",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 14179,
+                "talent_id": 134
               },
               {
                 "tree": "Assassination",
                 "talent": "Lethality",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 14137,
+                "talent_id": 136
               },
               {
                 "tree": "Assassination",
                 "talent": "Vile Poisons",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 16515,
+                "talent_id": 138
               },
               {
                 "tree": "Assassination",
                 "talent": "Improved Poisons",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 14115,
+                "talent_id": 139
               },
               {
                 "tree": "Assassination",
                 "talent": "Efficient Poisons",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 52520,
+                "talent_id": 140
               },
               {
                 "tree": "Assassination",
                 "talent": "Envenom",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 52531,
+                "talent_id": 141
               },
               {
                 "tree": "Assassination",
                 "talent": "Vigor",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 52527,
+                "talent_id": 143
               },
               {
                 "tree": "Assassination",
                 "talent": "Noxious Assault",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 52714,
+                "talent_id": 145
               },
               {
                 "tree": "Assassination",
                 "talent": "Taste for Blood (contested; 0 in the main build, taken in the Rupture variant; post-1.18.1 is a 2-point talent)",
                 "rank": 0,
-                "spell_id": null
+                "spell_id": 14174,
+                "talent_id": 137
               },
               {
                 "tree": "Assassination",
                 "talent": "Seal Fate (contested by gear: 5/5 low-crit, 0/5 and Dual Wield Specialization instead once ~40% crit)",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 14195,
+                "talent_id": 144
               },
               {
                 "tree": "Combat",
                 "talent": "Precision",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 13845,
+                "talent_id": 114
               },
               {
                 "tree": "Combat",
                 "talent": "Dual Wield Specialization (alternative to Seal Fate at high crit)",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 13852,
+                "talent_id": 120
               },
               {
                 "tree": "Combat",
                 "talent": "Improved Sprint",
                 "rank": 0,
-                "spell_id": null
+                "spell_id": 13743,
+                "talent_id": 116
               },
               {
                 "tree": "Subtlety",
                 "talent": "Improved Expose Armor (only if no warrior is sundering)",
                 "rank": 0,
-                "spell_id": null
+                "spell_id": 14168,
+                "talent_id": 147
               }
             ],
             "leveling_order": [
@@ -13531,7 +13727,9 @@
                 "tree": "Assassination",
                 "talent": "Seal Fate (respec target for many posters)"
               }
-            ]
+            ],
+            "build_link_tortoise": "https://xian55.github.io/tortoise-db-viewer/?talents=rogue&t=005303105033310251-00005000005",
+            "build_link_tortoise_note": "Generated from the sourced points list (45 points: Assassination 35, Combat 10); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator."
           },
           "stat_weights": {
             "weapon_speed": "top priority: 1.3-1.4 speed daggers on both hands; Noxious Assault deals flat % of Attack Power regardless of weapon speed/damage, so faster weapons only add more auto-attack poison procs, not less damage",
@@ -13870,37 +14068,43 @@
                 "tree": "Assassination",
                 "talent": "Malice",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 14142,
+                "talent_id": 130
               },
               {
                 "tree": "Assassination",
                 "talent": "Ruthlessness",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 14161,
+                "talent_id": 131
               },
               {
                 "tree": "Assassination",
                 "talent": "Improved Blade Tactics",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 14167,
+                "talent_id": 133
               },
               {
                 "tree": "Assassination",
                 "talent": "Relentless Strikes",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 14179,
+                "talent_id": 134
               },
               {
                 "tree": "Assassination",
                 "talent": "Lethality",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 14137,
+                "talent_id": 136
               },
               {
                 "tree": "Assassination",
                 "talent": "Remorseless Attacks",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 14148,
+                "talent_id": 129
               },
               {
                 "tree": "Assassination",
@@ -13912,70 +14116,83 @@
                 "tree": "Combat",
                 "talent": "Opportunity",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 14075,
+                "talent_id": 110
               },
               {
                 "tree": "Combat",
                 "talent": "Improved Backstab",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 13866,
+                "talent_id": 113
               },
               {
                 "tree": "Combat",
                 "talent": "Precision",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 13845,
+                "talent_id": 114
               },
               {
                 "tree": "Combat",
                 "talent": "Dual Wield Specialization",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 13852,
+                "talent_id": 120
               },
               {
                 "tree": "Combat",
                 "talent": "Close Quarters Combat",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 13804,
+                "talent_id": 121
               },
               {
                 "tree": "Combat",
                 "talent": "Blade Rush",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 52508,
+                "talent_id": 125
               },
               {
                 "tree": "Combat",
                 "talent": "Weapon Expertise",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 30920,
+                "talent_id": 124
               },
               {
                 "tree": "Combat",
                 "talent": "Aggression",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 18429,
+                "talent_id": 126
               },
               {
                 "tree": "Combat",
                 "talent": "Adrenaline Rush",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 13750,
+                "talent_id": 127
               },
               {
                 "tree": "Combat",
                 "talent": "Surprise Attack",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 52511,
+                "talent_id": 122
               },
               {
                 "tree": "Combat",
                 "talent": "Improved Sprint (or filler: Deflection/Riposte/Lightning Reflexes/Combat Expertise)",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 13875,
+                "talent_id": 116
               }
             ],
-            "leveling_order": []
+            "leveling_order": [],
+            "build_link_tortoise": "https://xian55.github.io/tortoise-db-viewer/?talents=rogue&t=025303105-500350200052102231",
+            "build_link_tortoise_note": "Generated from the sourced points list (50 points: Assassination 19, Combat 31); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator."
           },
           "stat_weights": {
             "hit": "top priority to the 9% special-attack cap (vanilla baseline convention used by posters, not a staff number)",
@@ -14283,91 +14500,106 @@
                 "tree": "Subtlety",
                 "talent": "Hemorrhage",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 16511,
+                "talent_id": 155
               },
               {
                 "tree": "Subtlety",
                 "talent": "Bloody Mess",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 51975,
+                "talent_id": 162
               },
               {
                 "tree": "Subtlety",
                 "talent": "Improved Expose Armor",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 14169,
+                "talent_id": 147
               },
               {
                 "tree": "Subtlety",
                 "talent": "Tricks of the Trade",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 52545,
+                "talent_id": 164
               },
               {
                 "tree": "Subtlety",
                 "talent": "Honor Among Thieves",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 52514,
+                "talent_id": 163
               },
               {
                 "tree": "Subtlety",
                 "talent": "Mark for Death",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 52538,
+                "talent_id": 165
               },
               {
                 "tree": "Subtlety",
                 "talent": "Shadow of Death",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 52710,
+                "talent_id": 161
               },
               {
                 "tree": "Subtlety",
                 "talent": "Cloaked in Shadows",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 52709,
+                "talent_id": 156
               },
               {
                 "tree": "Subtlety",
                 "talent": "Blackjack",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 14094,
+                "talent_id": 157
               },
               {
                 "tree": "Subtlety",
                 "talent": "Serrated Blades",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 14173,
+                "talent_id": 151
               },
               {
                 "tree": "Assassination",
                 "talent": "Malice",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 14142,
+                "talent_id": 130
               },
               {
                 "tree": "Assassination",
                 "talent": "Ruthlessness",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 14161,
+                "talent_id": 131
               },
               {
                 "tree": "Assassination",
                 "talent": "Relentless Strikes",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 14179,
+                "talent_id": 134
               },
               {
                 "tree": "Combat",
                 "talent": "Precision",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 13845,
+                "talent_id": 114
               },
               {
                 "tree": "Combat",
                 "talent": "Opportunity",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 14075,
+                "talent_id": 110
               }
             ],
             "leveling_order": [
@@ -14427,7 +14659,9 @@
                 "talent": "Respec point — commit to the level-60 build (\"At level 58, you should re-spec. What you re-spec to is totally up to you\")"
               }
             ],
-            "leveling_order_source": "Shananagans' Ambush/Backstab leveling line, given across three posts rather than one: p=148075 supplies the rows to level 27, p=149395 continues the route from 28 through 44 (Malice, Ruthlessness, Lethality, Relentless Strikes, Vile Poisons) in reply to a follow-up question, and the level-58 respec row quotes p=157385. Shananagans continues past 44 at p=161802; those later picks are not recorded here. Many rogues instead respec to Assassination at 40 for Noxious Assault — see assassination-melee-dps.yaml and synthesis/classes/rogue/leveling.md."
+            "leveling_order_source": "Shananagans' Ambush/Backstab leveling line, given across three posts rather than one: p=148075 supplies the rows to level 27, p=149395 continues the route from 28 through 44 (Malice, Ruthlessness, Lethality, Relentless Strikes, Vile Poisons) in reply to a follow-up question, and the level-58 respec row quotes p=157385. Shananagans continues past 44 at p=161802; those later picks are not recorded here. Many rogues instead respec to Assassination at 40 for Noxious Assault — see assassination-melee-dps.yaml and synthesis/classes/rogue/leveling.md.",
+            "build_link_tortoise": "https://xian55.github.io/tortoise-db-viewer/?talents=rogue&t=0053001-50005-02000300012200012251",
+            "build_link_tortoise_note": "Generated from the sourced points list (40 points: Assassination 9, Combat 10, Subtlety 21); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator."
           },
           "stat_weights": {
             "hit": "top priority (a missed Hemorrhage or finisher drops the Tricks of the Trade stack chain)",
@@ -14665,19 +14899,22 @@
                 "tree": "Assassination",
                 "talent": "Noxious Assault",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 52714,
+                "talent_id": 145
               },
               {
                 "tree": "Assassination",
                 "talent": "Envenom",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 52531,
+                "talent_id": 141
               },
               {
                 "tree": "Assassination",
                 "talent": "Seal Fate",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 14195,
+                "talent_id": 144
               },
               {
                 "tree": "Assassination",
@@ -14686,7 +14923,9 @@
                 "spell_id": null
               }
             ],
-            "leveling_order": []
+            "leveling_order": [],
+            "build_link_tortoise": "https://xian55.github.io/tortoise-db-viewer/?talents=rogue&t=000000000000010051",
+            "build_link_tortoise_note": "Generated from the sourced points list (7 points: Assassination 7); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator."
           },
           "stat_weights": {
             "weapon_speed": "1.3-speed daggers preferred, same reasoning as the PvE build",
@@ -14913,52 +15152,62 @@
                 "tree": "Subtlety",
                 "talent": "Hemorrhage",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 16511,
+                "talent_id": 155
               },
               {
                 "tree": "Subtlety",
                 "talent": "Bloody Mess",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 51975,
+                "talent_id": 162
               },
               {
                 "tree": "Subtlety",
                 "talent": "Dirty Deeds",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 14082,
+                "talent_id": 159
               },
               {
                 "tree": "Subtlety",
                 "talent": "Initiative",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 13980,
+                "talent_id": 152
               },
               {
                 "tree": "Subtlety",
                 "talent": "Blackjack / Improved Sap",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 14094,
+                "talent_id": 157
               },
               {
                 "tree": "Subtlety",
                 "talent": "Preparation",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 14185,
+                "talent_id": 160
               },
               {
                 "tree": "Combat",
                 "talent": "Improved Sprint",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 13875,
+                "talent_id": 116
               },
               {
                 "tree": "Subtlety",
                 "talent": "Elusiveness",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 14066,
+                "talent_id": 150
               }
             ],
-            "leveling_order": []
+            "leveling_order": [],
+            "build_link_tortoise": "https://xian55.github.io/tortoise-db-viewer/?talents=rogue&t=-0000002-00002030010201102",
+            "build_link_tortoise_note": "Generated from the sourced points list (14 points: Combat 2, Subtlety 12); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator."
           },
           "talents_alt": {
             "build_name": "Ambush/Backstab dagger PvP build",
@@ -17909,124 +18158,146 @@
                 "tree": "Discipline",
                 "talent": "Mental Agility",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 14783,
+                "talent_id": 168
               },
               {
                 "tree": "Discipline",
                 "talent": "Improved Power Word: Fortitude",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 14767,
+                "talent_id": 172
               },
               {
                 "tree": "Discipline",
                 "talent": "Improved Power Word: Shield",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 14769,
+                "talent_id": 175
               },
               {
                 "tree": "Discipline",
                 "talent": "Inner Focus",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 14751,
+                "talent_id": 174
               },
               {
                 "tree": "Discipline",
                 "talent": "Meditation",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 14777,
+                "talent_id": 176
               },
               {
                 "tree": "Discipline",
                 "talent": "Improved Inner Fire",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 14770,
+                "talent_id": 173
               },
               {
                 "tree": "Discipline",
                 "talent": "Silent Resolve",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 14523,
+                "talent_id": 169
               },
               {
                 "tree": "Holy",
                 "talent": "Holy Focus",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 15012,
+                "talent_id": 185
               },
               {
                 "tree": "Holy",
                 "talent": "Improved Renew",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 17191,
+                "talent_id": 184
               },
               {
                 "tree": "Holy",
                 "talent": "Divinity",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 15011,
+                "talent_id": 186
               },
               {
                 "tree": "Holy",
                 "talent": "Divine Fury",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 18535,
+                "talent_id": 187
               },
               {
                 "tree": "Holy",
                 "talent": "Holy Reach (optional; Langorn 17/34 variant - listed Holy talents exceed 34 by 2, so drop Holy Reach or Improved Renew)",
                 "rank": 0,
-                "spell_id": null
+                "spell_id": 27789,
+                "talent_id": 189
               },
               {
                 "tree": "Holy",
                 "talent": "Holy Nova",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 15237,
+                "talent_id": 192
               },
               {
                 "tree": "Holy",
                 "talent": "Inspiration",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 15363,
+                "talent_id": 191
               },
               {
                 "tree": "Holy",
                 "talent": "Improved Healing",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 15014,
+                "talent_id": 194
               },
               {
                 "tree": "Holy",
                 "talent": "Spiritual Guidance",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 15031,
+                "talent_id": 195
               },
               {
                 "tree": "Holy",
                 "talent": "Spirit of Redemption",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 20711,
+                "talent_id": 197
               },
               {
                 "tree": "Holy",
                 "talent": "Spiritual Healing",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 15356,
+                "talent_id": 199
               },
               {
                 "tree": "Holy",
                 "talent": "Ascendance",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 52962,
+                "talent_id": 200
               },
               {
                 "tree": "Holy",
                 "talent": "Book of Prayer / Empowered Recovery / Reservoir of Light (unassigned flex, 0-3)",
                 "rank": 0,
-                "spell_id": null
+                "spell_id": 52943,
+                "talent_id": 196
               }
             ],
-            "leveling_order": []
+            "leveling_order": [],
+            "build_link_tortoise": "https://xian55.github.io/tortoise-db-viewer/?talents=priest&t=00510022133-32550003103501051",
+            "build_link_tortoise_note": "Generated from the sourced points list (51 points: Discipline 17, Holy 34); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator."
           },
           "stat_weights": {
             "healing_power": 1,
@@ -18362,115 +18633,134 @@
                 "tree": "Discipline",
                 "talent": "Wand Specialization",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 14525,
+                "talent_id": 166
               },
               {
                 "tree": "Discipline",
                 "talent": "Piercing Light",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 51464,
+                "talent_id": 167
               },
               {
                 "tree": "Discipline",
                 "talent": "Mental Agility",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 14781,
+                "talent_id": 168
               },
               {
                 "tree": "Discipline",
                 "talent": "Improved Power Word: Fortitude",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 14767,
+                "talent_id": 172
               },
               {
                 "tree": "Discipline",
                 "talent": "Inner Focus",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 14751,
+                "talent_id": 174
               },
               {
                 "tree": "Discipline",
                 "talent": "Improved Inner Fire",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 14770,
+                "talent_id": 173
               },
               {
                 "tree": "Discipline",
                 "talent": "Meditation",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 14777,
+                "talent_id": 176
               },
               {
                 "tree": "Discipline",
                 "talent": "Purifying Flames",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 51471,
+                "talent_id": 178
               },
               {
                 "tree": "Discipline",
                 "talent": "Searing Light",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 51468,
+                "talent_id": 177
               },
               {
                 "tree": "Discipline",
                 "talent": "Enlighten",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 51476,
+                "talent_id": 180
               },
               {
                 "tree": "Discipline",
                 "talent": "Mental Strength",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 18553,
+                "talent_id": 179
               },
               {
                 "tree": "Discipline",
                 "talent": "Force of Will",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 18550,
+                "talent_id": 182
               },
               {
                 "tree": "Discipline",
                 "talent": "Chastise",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 51478,
+                "talent_id": 183
               },
               {
                 "tree": "Holy",
                 "talent": "Divinity",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 15011,
+                "talent_id": 186
               },
               {
                 "tree": "Holy",
                 "talent": "Divine Fury",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 18535,
+                "talent_id": 187
               },
               {
                 "tree": "Holy",
                 "talent": "Holy Nova",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 15237,
+                "talent_id": 192
               },
               {
                 "tree": "Holy",
                 "talent": "Holy Focus",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 15012,
+                "talent_id": 185
               },
               {
                 "tree": "Shadow",
                 "talent": "Spirit Tap",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 15338,
+                "talent_id": 201
               },
               {
                 "tree": "Shadow",
                 "talent": "Improved Shadow Word: Pain",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 15317,
+                "talent_id": 204
               }
             ],
             "leveling_order": [
@@ -18574,7 +18864,9 @@
                 "tree": "Shadow",
                 "talent": "Improved Shadow Word: Pain"
               }
-            ]
+            ],
+            "build_link_tortoise": "https://xian55.github.io/tortoise-db-viewer/?talents=priest&t=233000221033231051-025500001-5002",
+            "build_link_tortoise_note": "Generated from the sourced points list (51 points: Discipline 31, Holy 13, Shadow 7); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator."
           },
           "stat_weights": {
             "spell_hit": "to 10% from gear (weight ~19 under cap per Tscosomaz)",
@@ -18910,109 +19202,127 @@
                 "tree": "Shadow",
                 "talent": "Improved Mind Blast",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 15316,
+                "talent_id": 202
               },
               {
                 "tree": "Shadow",
                 "talent": "Improved Shadow Word: Pain",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 15317,
+                "talent_id": 204
               },
               {
                 "tree": "Shadow",
                 "talent": "Shadow Focus",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 15330,
+                "talent_id": 205
               },
               {
                 "tree": "Shadow",
                 "talent": "Mind Flay",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 15407,
+                "talent_id": 209
               },
               {
                 "tree": "Shadow",
                 "talent": "Improved Fade",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 15311,
+                "talent_id": 208
               },
               {
                 "tree": "Shadow",
                 "talent": "Shadow Reach",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 17323,
+                "talent_id": 211
               },
               {
                 "tree": "Shadow",
                 "talent": "Shadow Weaving",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 15334,
+                "talent_id": 212
               },
               {
                 "tree": "Shadow",
                 "talent": "Vampiric Embrace",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 15286,
+                "talent_id": 214
               },
               {
                 "tree": "Shadow",
                 "talent": "Vampiric Touch",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 45558,
+                "talent_id": 215
               },
               {
                 "tree": "Shadow",
                 "talent": "Darkness",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 15310,
+                "talent_id": 216
               },
               {
                 "tree": "Shadow",
                 "talent": "Shadowform",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 15473,
+                "talent_id": 217
               },
               {
                 "tree": "Discipline",
                 "talent": "Wand Specialization",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 14525,
+                "talent_id": 166
               },
               {
                 "tree": "Discipline",
                 "talent": "Silent Resolve",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 14787,
+                "talent_id": 169
               },
               {
                 "tree": "Discipline",
                 "talent": "Improved Power Word: Fortitude",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 14767,
+                "talent_id": 172
               },
               {
                 "tree": "Discipline",
                 "talent": "Improved Inner Fire",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 14770,
+                "talent_id": 173
               },
               {
                 "tree": "Discipline",
                 "talent": "Meditation",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 14777,
+                "talent_id": 176
               },
               {
                 "tree": "Discipline",
                 "talent": "Inner Focus",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 14751,
+                "talent_id": 174
               },
               {
                 "tree": "Shadow",
                 "talent": "Shadow Affinity (optional 0-3, contested; swap out Improved Fade / Imp. Fortitude)",
                 "rank": 0,
-                "spell_id": null
+                "spell_id": 15318,
+                "talent_id": 203
               }
             ],
             "leveling_order": [
@@ -19066,7 +19376,9 @@
                 "tree": "Shadow",
                 "talent": "Shadowform"
               }
-            ]
+            ],
+            "build_link_tortoise": "https://xian55.github.io/tortoise-db-viewer/?talents=priest&t=20050022103--05025002102501251",
+            "build_link_tortoise_note": "Generated from the sourced points list (46 points: Discipline 15, Shadow 31); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator."
           },
           "stat_weights": {
             "spell_hit": "to cap (6% from gear; 5% with a druid in raid)",
@@ -19415,118 +19727,139 @@
                 "tree": "Discipline",
                 "talent": "Wand Specialization",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 14525,
+                "talent_id": 166
               },
               {
                 "tree": "Discipline",
                 "talent": "Piercing Light",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 51464,
+                "talent_id": 167
               },
               {
                 "tree": "Discipline",
                 "talent": "Mental Agility",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 14781,
+                "talent_id": 168
               },
               {
                 "tree": "Discipline",
                 "talent": "Blessed Concentration",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 14774,
+                "talent_id": 171
               },
               {
                 "tree": "Discipline",
                 "talent": "Improved Power Word: Shield",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 14769,
+                "talent_id": 175
               },
               {
                 "tree": "Discipline",
                 "talent": "Inner Focus",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 14751,
+                "talent_id": 174
               },
               {
                 "tree": "Discipline",
                 "talent": "Improved Inner Fire",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 14770,
+                "talent_id": 173
               },
               {
                 "tree": "Discipline",
                 "talent": "Purifying Flames",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 51471,
+                "talent_id": 178
               },
               {
                 "tree": "Discipline",
                 "talent": "Searing Light",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 51468,
+                "talent_id": 177
               },
               {
                 "tree": "Discipline",
                 "talent": "Enlighten",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 51476,
+                "talent_id": 180
               },
               {
                 "tree": "Discipline",
                 "talent": "Mental Strength",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 18553,
+                "talent_id": 179
               },
               {
                 "tree": "Discipline",
                 "talent": "Force of Will",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 18550,
+                "talent_id": 182
               },
               {
                 "tree": "Discipline",
                 "talent": "Chastise",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 51478,
+                "talent_id": 183
               },
               {
                 "tree": "Holy",
                 "talent": "Divinity",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 15011,
+                "talent_id": 186
               },
               {
                 "tree": "Holy",
                 "talent": "Divine Fury",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 18535,
+                "talent_id": 187
               },
               {
                 "tree": "Holy",
                 "talent": "Holy Reach",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 27790,
+                "talent_id": 189
               },
               {
                 "tree": "Holy",
                 "talent": "Holy Nova",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 15237,
+                "talent_id": 192
               },
               {
                 "tree": "Holy",
                 "talent": "Holy Focus",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 15012,
+                "talent_id": 185
               },
               {
                 "tree": "Holy",
                 "talent": "Spiritual Guidance",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 15031,
+                "talent_id": 195
               }
             ],
-            "leveling_order": []
+            "leveling_order": [],
+            "build_link_tortoise": "https://xian55.github.io/tortoise-db-viewer/?talents=priest&t=233002021303231051-025502001005",
+            "build_link_tortoise_note": "Generated from the sourced points list (51 points: Discipline 31, Holy 20); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator."
           },
           "stat_weights": {
             "stamina": 1,
@@ -19838,130 +20171,153 @@
                 "tree": "Shadow",
                 "talent": "Spirit Tap or Improved Mind Blast",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 15338,
+                "talent_id": 201
               },
               {
                 "tree": "Shadow",
                 "talent": "Blackout",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 15326,
+                "talent_id": 206
               },
               {
                 "tree": "Shadow",
                 "talent": "Improved Shadow Word: Pain",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 15317,
+                "talent_id": 204
               },
               {
                 "tree": "Shadow",
                 "talent": "Shadow Focus",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 15327,
+                "talent_id": 205
               },
               {
                 "tree": "Shadow",
                 "talent": "Improved Psychic Scream",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 15448,
+                "talent_id": 207
               },
               {
                 "tree": "Shadow",
                 "talent": "Mind Flay",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 15407,
+                "talent_id": 209
               },
               {
                 "tree": "Shadow",
                 "talent": "Shadow Reach",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 17323,
+                "talent_id": 211
               },
               {
                 "tree": "Shadow",
                 "talent": "Shadow Weaving",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 15334,
+                "talent_id": 212
               },
               {
                 "tree": "Shadow",
                 "talent": "Silence",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 15487,
+                "talent_id": 213
               },
               {
                 "tree": "Shadow",
                 "talent": "Vampiric Embrace",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 15286,
+                "talent_id": 214
               },
               {
                 "tree": "Shadow",
                 "talent": "Vampiric Touch",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 45558,
+                "talent_id": 215
               },
               {
                 "tree": "Shadow",
                 "talent": "Darkness",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 15310,
+                "talent_id": 216
               },
               {
                 "tree": "Shadow",
                 "talent": "Shadowform",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 15473,
+                "talent_id": 217
               },
               {
                 "tree": "Shadow",
                 "talent": "Improved Fade",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 15311,
+                "talent_id": 208
               },
               {
                 "tree": "Shadow",
                 "talent": "Shadow Affinity (filler)",
                 "rank": 4,
-                "spell_id": null
+                "spell_id": 15320,
+                "talent_id": 203
               },
               {
                 "tree": "Discipline",
                 "talent": "Wand Specialization",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 14525,
+                "talent_id": 166
               },
               {
                 "tree": "Discipline",
                 "talent": "Blessed Concentration",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 14774,
+                "talent_id": 171
               },
               {
                 "tree": "Discipline",
                 "talent": "Improved Power Word: Shield",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 14769,
+                "talent_id": 175
               },
               {
                 "tree": "Discipline",
                 "talent": "Inner Focus",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 14751,
+                "talent_id": 174
               },
               {
                 "tree": "Discipline",
                 "talent": "Improved Power Word: Fortitude",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 14767,
+                "talent_id": 172
               },
               {
                 "tree": "Discipline",
                 "talent": "Meditation",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 14521,
+                "talent_id": 176
               }
             ],
-            "leveling_order": []
+            "leveling_order": [],
+            "build_link_tortoise": "https://xian55.github.io/tortoise-db-viewer/?talents=priest&t=20000220131--50322522102511251",
+            "build_link_tortoise_note": "Generated from the sourced points list (50 points: Discipline 11, Shadow 39); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator."
           },
           "stat_weights": {
             "stamina": 1,
@@ -22468,116 +22824,135 @@
                 "tree": "Enhancement",
                 "talent": "Shield Specialization",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 16301,
+                "talent_id": 252
               },
               {
                 "tree": "Enhancement",
                 "talent": "Totemic Alignment",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 51382,
+                "talent_id": 253
               },
               {
                 "tree": "Enhancement",
                 "talent": "Stable Shields",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 16291,
+                "talent_id": 255
               },
               {
                 "tree": "Enhancement",
                 "talent": "Ancestral Guardian",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 45547,
+                "talent_id": 259
               },
               {
                 "tree": "Enhancement",
                 "talent": "Lightning Strike",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 51387,
+                "talent_id": 258
               },
               {
                 "tree": "Enhancement",
                 "talent": "Thundering Strikes",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 16305,
+                "talent_id": 254
               },
               {
                 "tree": "Enhancement",
                 "talent": "Spirit Armor",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 45952,
+                "talent_id": 261
               },
               {
                 "tree": "Enhancement",
                 "talent": "Elemental Weapons",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 29080,
+                "talent_id": 263
               },
               {
                 "tree": "Enhancement",
                 "talent": "Stormstrike",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 17364,
+                "talent_id": 264
               },
               {
                 "tree": "Elemental",
                 "talent": "Convection",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 16112,
+                "talent_id": 218
               },
               {
                 "tree": "Elemental",
                 "talent": "Concussion",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 16105,
+                "talent_id": 219
               },
               {
                 "tree": "Elemental",
                 "talent": "Elemental Devastation",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 29180,
+                "talent_id": 222
               },
               {
                 "tree": "Elemental",
                 "talent": "Elemental Focus",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 45541,
+                "talent_id": 223
               },
               {
                 "tree": "Enhancement",
                 "talent": "Element's Grace",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 29088,
+                "talent_id": 265
               },
               {
                 "tree": "Enhancement",
                 "talent": "Ancestral Knowledge",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 17489,
+                "talent_id": 251
               },
               {
                 "tree": "Enhancement",
                 "talent": "Bloodlust",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 45509,
+                "talent_id": 266
               },
               {
                 "tree": "Enhancement",
                 "talent": "Reverberation",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 16114,
+                "talent_id": 224
               },
               {
                 "tree": "Enhancement",
                 "talent": "Flurry",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 16284,
+                "talent_id": 260
               },
               {
                 "tree": "Elemental",
                 "talent": "Concussion",
                 "rank": 3,
-                "spell_id": null,
-                "note": "or Elemental Warding 3 for anti-magic dungeons"
+                "spell_id": 16106,
+                "note": "or Elemental Warding 3 for anti-magic dungeons",
+                "talent_id": 219
               }
             ],
             "leveling_order": [
@@ -22641,7 +23016,9 @@
                 "tree": "Enhancement",
                 "talent": "respec Shield Specialization -> Ancestral Knowledge"
               }
-            ]
+            ],
+            "build_link_tortoise": "https://xian55.github.io/tortoise-db-viewer/?talents=shaman&t=5300313-5525300135203151",
+            "build_link_tortoise_note": "Generated from the sourced points list (56 points: Elemental 15, Enhancement 41); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator."
           },
           "stat_weights": {
             "tankiness": "Stamina > Agility > Dodge > Defense",
@@ -23096,14 +23473,16 @@
                 "tree": "Enhancement",
                 "talent": "Ancestral Knowledge",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 17489,
+                "talent_id": 251
               },
               {
                 "tree": "Enhancement",
                 "talent": "Stable Shields",
                 "rank": 3,
-                "spell_id": null,
-                "note": "synergizes with Improved Water Shield"
+                "spell_id": 16291,
+                "note": "synergizes with Improved Water Shield",
+                "talent_id": 255
               },
               {
                 "tree": "Restoration",
@@ -23124,7 +23503,9 @@
                 "tree": "Restoration",
                 "talent": "finish every Restoration talent except Improved Reincarnation, Healing Focus and Spirit Link (Skegg's dungeon-farming path only; raiders take Spirit Link)"
               }
-            ]
+            ],
+            "build_link_tortoise": "https://xian55.github.io/tortoise-db-viewer/?talents=shaman&t=-50003",
+            "build_link_tortoise_note": "Generated from the sourced points list (8 points: Enhancement 8); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator."
           },
           "stat_weights": {
             "contested": true,
@@ -23629,87 +24010,101 @@
                 "tree": "Elemental",
                 "talent": "Convection",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 16112,
+                "talent_id": 218
               },
               {
                 "tree": "Elemental",
                 "talent": "Concussion",
                 "rank": 2,
-                "spell_id": null,
-                "note": "or Elemental Warding"
+                "spell_id": 16105,
+                "note": "or Elemental Warding",
+                "talent_id": 219
               },
               {
                 "tree": "Elemental",
                 "talent": "Elemental Devastation",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 29180,
+                "talent_id": 222
               },
               {
                 "tree": "Elemental",
                 "talent": "Elemental Focus",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 45541,
+                "talent_id": 223
               },
               {
                 "tree": "Enhancement",
                 "talent": "Thundering Strikes",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 16305,
+                "talent_id": 254
               },
               {
                 "tree": "Enhancement",
                 "talent": "Stable Shields",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 16291,
+                "talent_id": 255
               },
               {
                 "tree": "Enhancement",
                 "talent": "Lightning Strike",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 51387,
+                "talent_id": 258
               },
               {
                 "tree": "Enhancement",
                 "talent": "Flurry",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 16284,
+                "talent_id": 260
               },
               {
                 "tree": "Enhancement",
                 "talent": "Elemental Weapons",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 29080,
+                "talent_id": 263
               },
               {
                 "tree": "Enhancement",
                 "talent": "Stormstrike",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 17364,
+                "talent_id": 264
               },
               {
                 "tree": "Enhancement",
                 "talent": "Element's Grace",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 29088,
+                "talent_id": 265
               },
               {
                 "tree": "Enhancement",
                 "talent": "Bloodlust",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 45509,
+                "talent_id": 266
               },
               {
                 "tree": "Enhancement",
                 "talent": "Ancestral Knowledge",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 17489,
+                "talent_id": 251
               },
               {
                 "tree": "Enhancement",
                 "talent": "Calming Winds",
                 "rank": 3,
-                "spell_id": null,
-                "note": "raid threat reduction; Toxo calls it mandatory only at high gear"
+                "spell_id": 51385,
+                "note": "raid threat reduction; Toxo calls it mandatory only at high gear",
+                "talent_id": 257
               }
             ],
             "leveling_order": [
@@ -23819,7 +24214,9 @@
                 "talent": "Concussion 3 or Elemental Warding 3 (Concussion for threat, Elemental Warding to be tankier)"
               }
             ],
-            "leveling_order_source": "Skegg's tank-capable Enhancement path from his leveling guide (p=149715), consensus with Akos1896 — it opens with Shield Specialization and Stable Shields because it is the tank-capable route. Skegg presents it as usable for DPS too (\"you do practically the same DPS\"), which is why it sits on this playbook. The guide spends points in brackets, so each level cell is the bracket the guide gives, not a per-talent level."
+            "leveling_order_source": "Skegg's tank-capable Enhancement path from his leveling guide (p=149715), consensus with Akos1896 — it opens with Shield Specialization and Stable Shields because it is the tank-capable route. Skegg presents it as usable for DPS too (\"you do practically the same DPS\"), which is why it sits on this playbook. The guide spends points in brackets, so each level cell is the bracket the guide gives, not a per-talent level.",
+            "build_link_tortoise": "https://xian55.github.io/tortoise-db-viewer/?talents=shaman&t=520031-5005303105003151",
+            "build_link_tortoise_note": "Generated from the sourced points list (43 points: Elemental 11, Enhancement 32); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator."
           },
           "stat_weights": {
             "note": "No source gives an explicit DPS stat-weight list; see enhancement-tank.yaml's Turtle mechanics table for the underlying formulas (Rockbiter/Windfury/Lightning Strike scale with AP; Flametongue/fire totems scale with SP).",
@@ -24286,95 +24683,112 @@
                 "tree": "Elemental",
                 "talent": "Convection",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 16112,
+                "talent_id": 218
               },
               {
                 "tree": "Elemental",
                 "talent": "Concussion",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 16108,
+                "talent_id": 219
               },
               {
                 "tree": "Elemental",
                 "talent": "Elemental Devastation",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 29180,
+                "talent_id": 222
               },
               {
                 "tree": "Elemental",
                 "talent": "Elemental Focus",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 45541,
+                "talent_id": 223
               },
               {
                 "tree": "Elemental",
                 "talent": "Call of Thunder",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 16120,
+                "talent_id": 225
               },
               {
                 "tree": "Elemental",
                 "talent": "Reverberation",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 16114,
+                "talent_id": 224
               },
               {
                 "tree": "Elemental",
                 "talent": "Call of Flame",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 16161,
+                "talent_id": 229
               },
               {
                 "tree": "Elemental",
                 "talent": "Improved Fire Totems",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 16544,
+                "talent_id": 227
               },
               {
                 "tree": "Elemental",
                 "talent": "Improved Molten Blast",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 46108,
+                "talent_id": 226
               },
               {
                 "tree": "Elemental",
                 "talent": "Elemental Fury",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 56557,
+                "talent_id": 232
               },
               {
                 "tree": "Elemental",
                 "talent": "Elemental Mastery",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 16166,
+                "talent_id": 231
               },
               {
                 "tree": "Elemental",
                 "talent": "Lightning Mastery",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 16582,
+                "talent_id": 233
               },
               {
                 "tree": "Elemental",
                 "talent": "Earthquake",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 48306,
+                "talent_id": 234
               },
               {
                 "tree": "Enhancement",
                 "talent": "Ancestral Knowledge",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 17489,
+                "talent_id": 251
               },
               {
                 "tree": "Enhancement",
                 "talent": "Thundering Strikes / Stable Shields",
                 "rank": 0,
-                "spell_id": null,
-                "note": "filler points, as reachable"
+                "spell_id": 16255,
+                "note": "filler points, as reachable",
+                "talent_id": 254
               }
             ],
-            "leveling_order": []
+            "leveling_order": [],
+            "build_link_tortoise": "https://xian55.github.io/tortoise-db-viewer/?talents=shaman&t=55003135220301251-5",
+            "build_link_tortoise_note": "Generated from the sourced points list (43 points: Elemental 38, Enhancement 5); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator."
           },
           "stat_weights": {
             "spell_hit": "15-17% (Skegg: hit > crit > spd > int); Elemental Devastation gives 3%, T3 4-set +3% overcaps: full T3 6% + 3% set bonus + Elemental Devastation = 12% without jewelry (Atreidon)",
@@ -24792,55 +25206,65 @@
                 "tree": "Elemental",
                 "talent": "Elemental Mastery",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 16166,
+                "talent_id": 231
               },
               {
                 "tree": "Elemental",
                 "talent": "Reverberation",
                 "rank": 3,
-                "spell_id": null,
-                "note": "5 pts pre-1.18.0, 3 pts after"
+                "spell_id": 16114,
+                "note": "5 pts pre-1.18.0, 3 pts after",
+                "talent_id": 224
               },
               {
                 "tree": "Elemental",
                 "talent": "Elemental Fury",
                 "rank": 2,
-                "spell_id": null,
-                "note": "replaced the 1-pt Electrify talent in 1.18.0"
+                "spell_id": 56557,
+                "note": "replaced the 1-pt Electrify talent in 1.18.0",
+                "talent_id": 232
               },
               {
                 "tree": "Enhancement",
                 "talent": "Lightning Strike",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 51387,
+                "talent_id": 258
               },
               {
                 "tree": "Enhancement",
                 "talent": "Ancestral Guardian",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 45547,
+                "talent_id": 259
               },
               {
                 "tree": "Enhancement",
                 "talent": "Spirit Armor",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 45952,
+                "talent_id": 261
               },
               {
                 "tree": "Enhancement",
                 "talent": "Improved Ghost Wolf",
                 "rank": 0,
-                "spell_id": null
+                "spell_id": 16262,
+                "talent_id": 256
               },
               {
                 "tree": "Enhancement",
                 "talent": "Stable Shields",
                 "rank": 0,
-                "spell_id": null,
-                "note": "contested: only worth it for Lightning Strike + slow weapons per Atreidon; defended for PvP by Manletow"
+                "spell_id": 16261,
+                "note": "contested: only worth it for Lightning Strike + slow weapons per Atreidon; defended for PvP by Manletow",
+                "talent_id": 255
               }
             ],
-            "leveling_order": []
+            "leveling_order": [],
+            "build_link_tortoise": "https://xian55.github.io/tortoise-db-viewer/?talents=shaman&t=000000300000012-00000001302",
+            "build_link_tortoise_note": "Generated from the sourced points list (12 points: Elemental 6, Enhancement 6); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator."
           },
           "stat_weights": {
             "spell_power": "priority ('u are still ele so u prio SP')",
@@ -28706,104 +29130,121 @@
                 "tree": "Arcane",
                 "talent": "Improved Arcane Missiles",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 16770,
+                "talent_id": 39
               },
               {
                 "tree": "Arcane",
                 "talent": "Arcane Concentration",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 12577,
+                "talent_id": 42
               },
               {
                 "tree": "Arcane",
                 "talent": "Arcane Rupture",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 51949,
+                "talent_id": 45
               },
               {
                 "tree": "Arcane",
                 "talent": "Arcane Impact",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 12469,
+                "talent_id": 44
               },
               {
                 "tree": "Arcane",
                 "talent": "Arcane Focus",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 12842,
+                "talent_id": 41
               },
               {
                 "tree": "Arcane",
                 "talent": "Arcane Meditation",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 18464,
+                "talent_id": 49
               },
               {
                 "tree": "Arcane",
                 "talent": "Temporal Convergence",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 51965,
+                "talent_id": 48
               },
               {
                 "tree": "Arcane",
                 "talent": "Accelerated Arcana",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 51981,
+                "talent_id": 52
               },
               {
                 "tree": "Arcane",
                 "talent": "Arcane Instability",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 15060,
+                "talent_id": 50
               },
               {
                 "tree": "Arcane",
                 "talent": "Arcane Potency",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 45404,
+                "talent_id": 53
               },
               {
                 "tree": "Arcane",
                 "talent": "Resonance Cascade",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 51990,
+                "talent_id": 54
               },
               {
                 "tree": "Arcane",
                 "talent": "Presence of Mind",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 12043,
+                "talent_id": 51
               },
               {
                 "tree": "Arcane",
                 "talent": "Arcane Subtlety",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 12592,
+                "talent_id": 37
               },
               {
                 "tree": "Arcane",
                 "talent": "Magic Absorption",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 29445,
+                "talent_id": 38
               },
               {
                 "tree": "Fire",
                 "talent": "Improved Fireball",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 12341,
+                "talent_id": 1
               },
               {
                 "tree": "Fire",
                 "talent": "Improved Fire Blast",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 12342,
+                "talent_id": 5
               },
               {
                 "tree": "Arcane",
                 "talent": "Arcane Power",
                 "rank": 1,
-                "spell_id": null,
-                "note": "51st point at 60; wiki says not worth it until geared (raid rotations assume it)"
+                "spell_id": 12042,
+                "note": "51st point at 60; wiki says not worth it until geared (raid rotations assume it)",
+                "talent_id": 55
               }
             ],
             "leveling_order": [
@@ -29057,7 +29498,9 @@
                 "tree": "Fire",
                 "talent": "Improved Fire Blast 3/3"
               }
-            ]
+            ],
+            "build_link_tortoise": "https://xian55.github.io/tortoise-db-viewer/?talents=mage&t=2350550310033311251-50003",
+            "build_link_tortoise_note": "Generated from the sourced points list (51 points: Arcane 43, Fire 8); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator."
           },
           "stat_weights": {
             "spell_hit_1pct_in_sp": {
@@ -29425,97 +29868,113 @@
                 "tree": "Fire",
                 "talent": "Improved Fireball",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 12341,
+                "talent_id": 1
               },
               {
                 "tree": "Fire",
                 "talent": "Ignite",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 12848,
+                "talent_id": 3
               },
               {
                 "tree": "Fire",
                 "talent": "Pyroblast",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 11366,
+                "talent_id": 8
               },
               {
                 "tree": "Fire",
                 "talent": "Burning Soul",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 12351,
+                "talent_id": 9
               },
               {
                 "tree": "Frost",
                 "talent": "Elemental Precision",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 29440,
+                "talent_id": 20
               },
               {
                 "tree": "Arcane",
                 "talent": "Arcane Subtlety",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 12592,
+                "talent_id": 37
               },
               {
                 "tree": "Arcane",
                 "talent": "Magic Absorption",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 29445,
+                "talent_id": 38
               },
               {
                 "tree": "Arcane",
                 "talent": "Arcane Concentration",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 12577,
+                "talent_id": 42
               },
               {
                 "tree": "Fire",
                 "talent": "Incinerate",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 18460,
+                "talent_id": 6
               },
               {
                 "tree": "Fire",
                 "talent": "Master of Elements",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 29076,
+                "talent_id": 12
               },
               {
                 "tree": "Fire",
                 "talent": "Fire Vulnerability",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 12873,
+                "talent_id": 10
               },
               {
                 "tree": "Fire",
                 "talent": "Blast Wave",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 11113,
+                "talent_id": 13
               },
               {
                 "tree": "Fire",
                 "talent": "Critical Mass",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 11368,
+                "talent_id": 14
               },
               {
                 "tree": "Fire",
                 "talent": "Hot Streak",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 51928,
+                "talent_id": 15
               },
               {
                 "tree": "Fire",
                 "talent": "Fire Power",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 12400,
+                "talent_id": 16
               },
               {
                 "tree": "Fire",
                 "talent": "Combustion",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 11129,
+                "talent_id": 17
               },
               {
                 "tree": "free",
@@ -29575,7 +30034,9 @@
                 "tree": "free",
                 "talent": "5 free points (56-60)"
               }
-            ]
+            ],
+            "build_link_tortoise": "https://xian55.github.io/tortoise-db-viewer/?talents=mage&t=230005-50500201230313251-003",
+            "build_link_tortoise_note": "Generated from the sourced points list (46 points: Arcane 10, Fire 33, Frost 3); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator."
           },
           "stat_weights": {
             "spell_crit_1pct_in_sp": {
@@ -29912,86 +30373,100 @@
                 "tree": "Frost",
                 "talent": "Icicles",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 52516,
+                "talent_id": 32
               },
               {
                 "tree": "Frost",
                 "talent": "Flash Freeze",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 52501,
+                "talent_id": 35
               },
               {
                 "tree": "Frost",
                 "talent": "Frostbite",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 12497,
+                "talent_id": 22
               },
               {
                 "tree": "Frost",
                 "talent": "Ice Barrier",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 11426,
+                "talent_id": 36
               },
               {
                 "tree": "Frost",
                 "talent": "Winter's Chill",
                 "rank": 2,
-                "spell_id": null,
-                "note": "2-3 per wiki sim; 5 is overkill"
+                "spell_id": 28592,
+                "note": "2-3 per wiki sim; 5 is overkill",
+                "talent_id": 34
               },
               {
                 "tree": "Frost",
                 "talent": "Improved Frostbolt",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 16766,
+                "talent_id": 19
               },
               {
                 "tree": "Frost",
                 "talent": "Elemental Precision",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 29440,
+                "talent_id": 20
               },
               {
                 "tree": "Frost",
                 "talent": "Ice Shards",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 15053,
+                "talent_id": 25
               },
               {
                 "tree": "Frost",
                 "talent": "Frost Channeling",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 12519,
+                "talent_id": 29
               },
               {
                 "tree": "Frost",
                 "talent": "Shatter",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 12985,
+                "talent_id": 30
               },
               {
                 "tree": "Frost",
                 "talent": "Piercing Ice",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 12953,
+                "talent_id": 21
               },
               {
                 "tree": "Frost",
                 "talent": "Ice Block",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 11958,
+                "talent_id": 31
               },
               {
                 "tree": "Frost",
                 "talent": "Cold Snap",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 12472,
+                "talent_id": 26
               },
               {
                 "tree": "Arcane",
                 "talent": "Arcane Concentration",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 12577,
+                "talent_id": 42
               },
               {
                 "tree": "unassigned",
@@ -30091,7 +30566,9 @@
                 "tree": "Frost",
                 "talent": "Improved Cone of Cold 1-3 (57-59)"
               }
-            ]
+            ],
+            "build_link_tortoise": "https://xian55.github.io/tortoise-db-viewer/?talents=mage&t=000005--0533300510035110221",
+            "build_link_tortoise_note": "Generated from the sourced points list (40 points: Arcane 5, Frost 35); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator."
           },
           "stat_weights": {
             "spell_hit_1pct_in_sp": {
@@ -33475,97 +33952,113 @@
                 "tree": "Affliction",
                 "talent": "Improved Corruption",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 17814,
+                "talent_id": 338
               },
               {
                 "tree": "Affliction",
                 "talent": "Suppression",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 18178,
+                "talent_id": 337
               },
               {
                 "tree": "Affliction",
                 "talent": "Improved Life Tap",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 18183,
+                "talent_id": 341
               },
               {
                 "tree": "Affliction",
                 "talent": "Fel Concentration",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 17784,
+                "talent_id": 344
               },
               {
                 "tree": "Affliction",
                 "talent": "Improved Drains",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 45914,
+                "talent_id": 342
               },
               {
                 "tree": "Affliction",
                 "talent": "Nightfall",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 18095,
+                "talent_id": 347
               },
               {
                 "tree": "Affliction",
                 "talent": "Soul Siphon",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 52560,
+                "talent_id": 348
               },
               {
                 "tree": "Affliction",
                 "talent": "Malediction",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 52546,
+                "talent_id": 352
               },
               {
                 "tree": "Affliction",
                 "talent": "Siphon Life",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 18265,
+                "talent_id": 350
               },
               {
                 "tree": "Affliction",
                 "talent": "Rapid Deterioration",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 52556,
+                "talent_id": 349
               },
               {
                 "tree": "Affliction",
                 "talent": "Grim Reach",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 18219,
+                "talent_id": 346
               },
               {
                 "tree": "Affliction",
                 "talent": "Shadow Mastery",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 18275,
+                "talent_id": 353
               },
               {
                 "tree": "Affliction",
                 "talent": "Dark Harvest",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 52550,
+                "talent_id": 354
               },
               {
                 "tree": "Destruction",
                 "talent": "Shadow Vulnerability",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 17803,
+                "talent_id": 321
               },
               {
                 "tree": "Demonology",
                 "talent": "Demonic Embrace",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 18701,
+                "talent_id": 356
               },
               {
                 "tree": "Demonology",
                 "talent": "Demonic Aegis",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 45923,
+                "talent_id": 359
               }
             ],
             "leveling_order": [
@@ -33649,7 +34142,9 @@
                 "tree": "Demonology",
                 "talent": "Demonic Aegis"
               }
-            ]
+            ],
+            "build_link_tortoise": "https://xian55.github.io/tortoise-db-viewer/?talents=warlock&t=550022020223210151-05003-5",
+            "build_link_tortoise_note": "Generated from the sourced points list (46 points: Affliction 33, Demonology 8, Destruction 5); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator."
           },
           "stat_weights": {
             "hit": "high (10% covered by Suppression; ~5-6% from gear reported sufficient); Shadow Bolt/Nightfall procs unaffected; Dark Harvest hit interaction unresolved",
@@ -34478,82 +34973,97 @@
                 "tree": "Affliction",
                 "talent": "Improved Corruption",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 17814,
+                "talent_id": 338
               },
               {
                 "tree": "Affliction",
                 "talent": "Grim Reach",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 18219,
+                "talent_id": 346
               },
               {
                 "tree": "Affliction",
                 "talent": "Nightfall",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 18095,
+                "talent_id": 347
               },
               {
                 "tree": "Affliction",
                 "talent": "Improved Curse of Agony",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 18830,
+                "talent_id": 343
               },
               {
                 "tree": "Affliction",
                 "talent": "Malediction",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 52546,
+                "talent_id": 352
               },
               {
                 "tree": "Affliction",
                 "talent": "Siphon Life",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 18265,
+                "talent_id": 350
               },
               {
                 "tree": "Affliction",
                 "talent": "Shadow Mastery",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 18275,
+                "talent_id": 353
               },
               {
                 "tree": "Destruction",
                 "talent": "Shadow Vulnerability (Improved Shadow Bolt)",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 17803,
+                "talent_id": 321
               },
               {
                 "tree": "Destruction",
                 "talent": "Cataclysm",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 17782,
+                "talent_id": 322
               },
               {
                 "tree": "Destruction",
                 "talent": "Bane",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 17792,
+                "talent_id": 324
               },
               {
                 "tree": "Destruction",
                 "talent": "Devastation",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 18134,
+                "talent_id": 328
               },
               {
                 "tree": "Destruction",
                 "talent": "Destructive Reach",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 17918,
+                "talent_id": 330
               },
               {
                 "tree": "Destruction",
                 "talent": "Ruin",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 17959,
+                "talent_id": 334
               }
             ],
-            "leveling_order": []
+            "leveling_order": [],
+            "build_link_tortoise": "https://xian55.github.io/tortoise-db-viewer/?talents=warlock&t=05000030022001015--55050005020001",
+            "build_link_tortoise_note": "Generated from the sourced points list (42 points: Affliction 19, Destruction 23); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator."
           },
           "stat_weights": {
             "hit": "contested priority: one source says the hit cap is not mandatory (a top parser ran 7-9% hit), another says it is the one thing to bring to a first raid",
@@ -36550,49 +37060,57 @@
                 "tree": "Feral",
                 "talent": "Omen of Clarity",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 16864,
+                "talent_id": 310
               },
               {
                 "tree": "Feral",
                 "talent": "Furor",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 17059,
+                "talent_id": 286
               },
               {
                 "tree": "Feral",
                 "talent": "Feral Instinct",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 16949,
+                "talent_id": 269
               },
               {
                 "tree": "Feral",
                 "talent": "Thick Hide",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 16931,
+                "talent_id": 271
               },
               {
                 "tree": "Feral",
                 "talent": "Blood Frenzy",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 45722,
+                "talent_id": 278
               },
               {
                 "tree": "Feral",
                 "talent": "Primal Fury",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 45720,
+                "talent_id": 276
               },
               {
                 "tree": "Feral",
                 "talent": "Sylvan Blessing",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 51422,
+                "talent_id": 304
               },
               {
                 "tree": "Feral",
                 "talent": "Ancient Brutality",
                 "rank": "2-3 (contested tuning)",
-                "spell_id": null
+                "spell_id": 51416,
+                "talent_id": 280
               },
               {
                 "tree": "unspecified",
@@ -36622,7 +37140,9 @@
                 "tree": "Feral",
                 "talent": "Swift Travel Form (baseline questline, not a talent)"
               }
-            ]
+            ],
+            "build_link_tortoise": "https://xian55.github.io/tortoise-db-viewer/?talents=druid&t=0002000001-00303000020202-03",
+            "build_link_tortoise_note": "Generated from the sourced points list (18 points: Balance 3, Feral Combat 12, Restoration 3); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator."
           },
           "stat_weights": {
             "armor": "high until ~11-12k, then deprioritize (cap easy to reach)",
@@ -36892,31 +37412,36 @@
                 "tree": "Restoration",
                 "talent": "Genesis",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 17113,
+                "talent_id": 291
               },
               {
                 "tree": "Restoration",
                 "talent": "Aessina's Bloom",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 51447,
+                "talent_id": 295
               },
               {
                 "tree": "Restoration",
                 "talent": "Preservation",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 51450,
+                "talent_id": 297
               },
               {
                 "tree": "Restoration",
                 "talent": "Nature's Focus",
                 "rank": 5,
-                "spell_id": null
+                "spell_id": 17068,
+                "talent_id": 288
               },
               {
                 "tree": "Restoration",
                 "talent": "Improved Tranquility or Nature's Reach",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 17124,
+                "talent_id": 299
               },
               {
                 "tree": "unspecified",
@@ -36925,7 +37450,9 @@
                 "spell_id": null
               }
             ],
-            "leveling_order": []
+            "leveling_order": [],
+            "build_link_tortoise": "https://xian55.github.io/tortoise-db-viewer/?talents=druid&t=--000500300020302",
+            "build_link_tortoise_note": "Generated from the sourced points list (15 points: Restoration 15); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator."
           },
           "stat_weights": {
             "spirit": "strong despite low apparent personal-log impact — 1 Spirit gives ~0.2 healing to every party member (party-wide effect), so 'every point of spirit is 1sp' for raid healing",
@@ -37188,43 +37715,50 @@
                 "tree": "Feral",
                 "talent": "Omen of Clarity",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 16864,
+                "talent_id": 310
               },
               {
                 "tree": "Feral",
                 "talent": "Furor",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 17059,
+                "talent_id": 286
               },
               {
                 "tree": "Feral",
                 "talent": "Blood Frenzy",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 45722,
+                "talent_id": 278
               },
               {
                 "tree": "Feral",
                 "talent": "Primal Fury",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 45720,
+                "talent_id": 276
               },
               {
                 "tree": "Feral",
                 "talent": "Improved Shred",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 16968,
+                "talent_id": 279
               },
               {
                 "tree": "Feral",
                 "talent": "Open Wounds (bleed build only)",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 51404,
+                "talent_id": 272
               },
               {
                 "tree": "Feral",
                 "talent": "Ancient Brutality (bleed build: cat-form bleed-tick energy)",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 51416,
+                "talent_id": 280
               },
               {
                 "tree": "unspecified",
@@ -37249,7 +37783,9 @@
                 "tree": "Feral",
                 "talent": "Furor"
               }
-            ]
+            ],
+            "build_link_tortoise": "https://xian55.github.io/tortoise-db-viewer/?talents=druid&t=0000000001-00000300020222-03",
+            "build_link_tortoise_note": "Generated from the sourced points list (15 points: Balance 1, Feral Combat 11, Restoration 3); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator."
           },
           "stat_weights": {
             "strength_agility": "primary — forms convert weapon-slot items into flat Feral Attack Power/weapon damage ('stat-stick' scaling)",
@@ -37526,37 +38062,43 @@
                 "tree": "Balance",
                 "talent": "Moonfury",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 16899,
+                "talent_id": 309
               },
               {
                 "tree": "Balance",
                 "talent": "Balance of All Things",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 51435,
+                "talent_id": 318
               },
               {
                 "tree": "Balance",
                 "talent": "Eclipse",
                 "rank": 1,
-                "spell_id": null
+                "spell_id": 51444,
+                "talent_id": 320
               },
               {
                 "tree": "Balance",
                 "talent": "Moonkin Form (incl. Improved)",
                 "rank": 2,
-                "spell_id": null
+                "spell_id": 24858,
+                "talent_id": 315
               },
               {
                 "tree": "Balance",
                 "talent": "Gale Winds or Guidance of the Dream",
                 "rank": "2-3 (flex, contested choice)",
-                "spell_id": null
+                "spell_id": 51441,
+                "talent_id": 319
               },
               {
                 "tree": "Restoration",
                 "talent": "Genesis",
                 "rank": 3,
-                "spell_id": null
+                "spell_id": 17113,
+                "talent_id": 291
               },
               {
                 "tree": "unspecified",
@@ -37565,7 +38107,9 @@
                 "spell_id": null
               }
             ],
-            "leveling_order": []
+            "leveling_order": [],
+            "build_link_tortoise": "https://xian55.github.io/tortoise-db-viewer/?talents=druid&t=00000000300000100321--0000003",
+            "build_link_tortoise_note": "Generated from the sourced points list (13 points: Balance 10, Restoration 3); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator."
           },
           "stat_weights": {
             "crit": "high — 1% crit roughly equal to 4-5% haste (single detailed source); triple-dips via cast damage, Nature's Grace haste proc, and Eclipse damage multiplier",

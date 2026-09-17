@@ -2,69 +2,166 @@ class: Druid
 spec: Balance
 role: ranged-dps
 sources:
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=159149#p159149", author: Scattyau, authority: player, date: "2025-11-11"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=131905#p131905", author: Halfgeek9, authority: player, date: "2025-05-19"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=134706#p134706", author: Noobikscube, authority: player, date: "2025-06-08"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=134911#p134911", author: kierova, authority: player, date: "2025-06-09"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=110618#p110618", author: Dalijon, authority: player, date: "2024-11-30"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=135108#p135108", author: kierova, authority: player, date: "2025-06-10"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=172020#p172020", author: Auralys, authority: player, date: "2026-03-23"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=172180#p172180", author: Froghijab420, authority: player, date: "2026-03-24"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=173102#p173102", author: Noephix, authority: player, date: "2026-03-30"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=135044#p135044", author: Tarsis, authority: player, date: "2025-06-10"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=135251#p135251", author: Tarsis, authority: player, date: "2025-06-11"}
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=159149#p159149
+  author: Scattyau
+  authority: player
+  date: '2025-11-11'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=131905#p131905
+  author: Halfgeek9
+  authority: player
+  date: '2025-05-19'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=134706#p134706
+  author: Noobikscube
+  authority: player
+  date: '2025-06-08'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=134911#p134911
+  author: kierova
+  authority: player
+  date: '2025-06-09'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=110618#p110618
+  author: Dalijon
+  authority: player
+  date: '2024-11-30'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=135108#p135108
+  author: kierova
+  authority: player
+  date: '2025-06-10'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  author: Jamey
+  authority: staff
+  date: '2026-01-23'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=172020#p172020
+  author: Auralys
+  authority: player
+  date: '2026-03-23'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=172180#p172180
+  author: Froghijab420
+  authority: player
+  date: '2026-03-24'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=173102#p173102
+  author: Noephix
+  authority: player
+  date: '2026-03-30'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=135044#p135044
+  author: Tarsis
+  authority: player
+  date: '2025-06-10'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=135251#p135251
+  author: Tarsis
+  authority: player
+  date: '2025-06-11'
 agreement: contested
 patch_validity:
-  written_for: "1.17.2 / 1.18.0 Eclipse rework (Wrath 30%/Starfire 50% proc chance, bonus = 10% + 60% of spell crit)"
+  written_for: 1.17.2 / 1.18.0 Eclipse rework (Wrath 30%/Starfire 50% proc chance, bonus = 10% + 60% of spell crit)
   valid_for_1181: true
-  notes: "1.18.1 changed Eclipse proc chances to Wrath 40%/Starfire 60% (revision dated 2026-03-19), reworked Balance of All Things to 3 points (Wrath mana refund 10/20/30% vs Insect-Swarm'd target, Starfire crit +3/6/9% vs Moonfire'd target, revised from +2/4/6% on 2026-01-26), and raised Moonfury to 4/8/12% (2026-01-26). Post-1.18.1 reaction: reworked Starfire cast-time component criticized as a net nerf ('lost 20% spell haste... for 9% crit that doesn't scale eclipse'); Noephix estimates ~15% DPS nerf overall (single source, uncorroborated by logs)."
+  notes: '1.18.1 changed Eclipse proc chances to Wrath 40%/Starfire 60% (revision dated 2026-03-19), reworked Balance of All
+    Things to 3 points (Wrath mana refund 10/20/30% vs Insect-Swarm''d target, Starfire crit +3/6/9% vs Moonfire''d target,
+    revised from +2/4/6% on 2026-01-26), and raised Moonfury to 4/8/12% (2026-01-26). Post-1.18.1 reaction: reworked Starfire
+    cast-time component criticized as a net nerf (''lost 20% spell haste... for 9% crit that doesn''t scale eclipse''); Noephix
+    estimates ~15% DPS nerf overall (single source, uncorroborated by logs).'
 talents:
-  build_name: "Core Balance rotation build (~35-38 points Balance + ~13 Restoration for Genesis; no decoded full 60-point list found)"
+  build_name: Core Balance rotation build (~35-38 points Balance + ~13 Restoration for Genesis; no decoded full 60-point list
+    found)
   build_link: null
   points:
-    - {tree: Balance, talent: Moonfury, rank: 3, spell_id: null}
-    - {tree: Balance, talent: "Balance of All Things", rank: 3, spell_id: null}
-    - {tree: Balance, talent: Eclipse, rank: 1, spell_id: null}
-    - {tree: Balance, talent: "Moonkin Form (incl. Improved)", rank: 2, spell_id: null}
-    - {tree: Balance, talent: "Gale Winds or Guidance of the Dream", rank: "2-3 (flex, contested choice)", spell_id: null}
-    - {tree: Restoration, talent: Genesis, rank: 3, spell_id: null}
-    - {tree: unspecified, talent: "remainder (core damage/hit/crit/range/cast-time talents, not individually named in sources)", rank: null, spell_id: null}
+  - tree: Balance
+    talent: Moonfury
+    rank: 3
+    spell_id: 16899
+    talent_id: 309
+  - tree: Balance
+    talent: Balance of All Things
+    rank: 3
+    spell_id: 51435
+    talent_id: 318
+  - tree: Balance
+    talent: Eclipse
+    rank: 1
+    spell_id: 51444
+    talent_id: 320
+  - tree: Balance
+    talent: Moonkin Form (incl. Improved)
+    rank: 2
+    spell_id: 24858
+    talent_id: 315
+  - tree: Balance
+    talent: Gale Winds or Guidance of the Dream
+    rank: 2-3 (flex, contested choice)
+    spell_id: 51441
+    talent_id: 319
+  - tree: Restoration
+    talent: Genesis
+    rank: 3
+    spell_id: 17113
+    talent_id: 291
+  - tree: unspecified
+    talent: remainder (core damage/hit/crit/range/cast-time talents, not individually named in sources)
+    rank: null
+    spell_id: null
   leveling_order: []
+  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=druid&t=00000000300000100321--0000003
+  build_link_tortoise_note: 'Generated from the sourced points list (13 points: Balance 10, Restoration 3); the calculator
+    shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
 stat_weights:
-  crit: "high — 1% crit roughly equal to 4-5% haste (single detailed source); triple-dips via cast damage, Nature's Grace haste proc, and Eclipse damage multiplier"
-  haste: "low relative to crit — only benefits Starfire among the four rotation spells (partially benefits Wrath via the 1.0s/0.5s GCD floor per a thread correction)"
-  hit: "important and hard to reach from tier gear alone; full T3 set provides only ~4% spell hit"
-  spell_power: "baseline scaling stat, no numeric weight given (gap)"
-stat_priority: [spell-crit, spell-hit, spell-power, haste]
-stat_priority_note: "Crit is rated far above haste — \"1% crit equal to around 4-5% Haste. It might even be worse\" — because crit triple-dips (damage per cast, the Nature's Grace haste proc, and the Eclipse multiplier) while haste only really helps Starfire. Hit is hard to cap from set gear alone (the nine-piece T3 set carries only 4% spell hit), and several top players deliberately trade a few percent of hit for crit. Spell power is the baseline scaling stat with no numeric weight given. Item design loads Balance gear with haste, which the source calls a mismatch."
+  crit: high — 1% crit roughly equal to 4-5% haste (single detailed source); triple-dips via cast damage, Nature's Grace haste
+    proc, and Eclipse damage multiplier
+  haste: low relative to crit — only benefits Starfire among the four rotation spells (partially benefits Wrath via the 1.0s/0.5s
+    GCD floor per a thread correction)
+  hit: important and hard to reach from tier gear alone; full T3 set provides only ~4% spell hit
+  spell_power: baseline scaling stat, no numeric weight given (gap)
+stat_priority:
+- spell-crit
+- spell-hit
+- spell-power
+- haste
+stat_priority_note: Crit is rated far above haste — "1% crit equal to around 4-5% Haste. It might even be worse" — because
+  crit triple-dips (damage per cast, the Nature's Grace haste proc, and the Eclipse multiplier) while haste only really helps
+  Starfire. Hit is hard to cap from set gear alone (the nine-piece T3 set carries only 4% spell hit), and several top players
+  deliberately trade a few percent of hit for crit. Spell power is the baseline scaling stat with no numeric weight given.
+  Item design loads Balance gear with haste, which the source calls a mismatch.
 caps:
-  spell_hit_from_t3: "~4% (full 9-piece T3 set) — cap requires specific non-set items (e.g. Loatheb's/Regalia staff)"
-  spell_penetration: "not found in sources (gap)"
+  spell_hit_from_t3: ~4% (full 9-piece T3 set) — cap requires specific non-set items (e.g. Loatheb's/Regalia staff)
+  spell_penetration: not found in sources (gap)
 rotation_single:
-  - {priority: 1, action: Moonfire, condition: "apply/maintain, 18s duration"}
-  - {priority: 2, action: "Insect Swarm", condition: "apply/maintain, 18s duration"}
-  - {priority: 3, action: Wrath, condition: "chain-cast while fishing for Lunar Eclipse proc (40% chance per 1.18.1) or spending an active Lunar Eclipse buff"}
-  - {priority: 4, action: Starfire, condition: "chain-cast while fishing for Nature Eclipse proc (60% chance per 1.18.1) or spending an active Nature Eclipse buff"}
-  - {priority: 5, action: "cancel current cast and switch spell", condition: "an Eclipse proc lands mid-cast on the wrong spell (stopcasting is a real DPS gain despite feeling bad)"}
+- priority: 1
+  action: Moonfire
+  condition: apply/maintain, 18s duration
+- priority: 2
+  action: Insect Swarm
+  condition: apply/maintain, 18s duration
+- priority: 3
+  action: Wrath
+  condition: chain-cast while fishing for Lunar Eclipse proc (40% chance per 1.18.1) or spending an active Lunar Eclipse buff
+- priority: 4
+  action: Starfire
+  condition: chain-cast while fishing for Nature Eclipse proc (60% chance per 1.18.1) or spending an active Nature Eclipse
+    buff
+- priority: 5
+  action: cancel current cast and switch spell
+  condition: an Eclipse proc lands mid-cast on the wrong spell (stopcasting is a real DPS gain despite feeling bad)
 rotation_aoe:
-  - {targets_min: 3, priority: 1, action: Hurricane, condition: "channeled AoE; weak vs fast-dying trash since setup often doesn't pay off before mobs die"}
+- targets_min: 3
+  priority: 1
+  action: Hurricane
+  condition: channeled AoE; weak vs fast-dying trash since setup often doesn't pay off before mobs die
 aoe_threshold: 3
 cooldowns:
-  - {name: "none (structural gap)", use_when: "Balance has no on-demand burst cooldown, repeatedly cited as the spec's biggest structural weakness vs other casters"}
+- name: none (structural gap)
+  use_when: Balance has no on-demand burst cooldown, repeatedly cited as the spec's biggest structural weakness vs other casters
 resource_rules:
-  - "Sylvan Blessing (100% mana regen while casting for 15s after a kill) helps while leveling/questing"
-  - "Innervate generally given to a healer rather than self-used in raids, per general Druid community convention (not independently sourced for Balance specifically)"
+- Sylvan Blessing (100% mana regen while casting for 15s after a kill) helps while leveling/questing
+- Innervate generally given to a healer rather than self-used in raids, per general Druid community convention (not independently
+  sourced for Balance specifically)
 consumables:
-  - "Major Mana Potion"
-  - "Nordanaar Herbal Tea"
-  - "Dark Rune"
-  - "Innervate"
-  - "Nightfin Soup"
-  - "Mageblood Potion"
+- Major Mana Potion
+- Nordanaar Herbal Tea
+- Dark Rune
+- Innervate
+- Nightfin Soup
+- Mageblood Potion
 mistakes_to_avoid:
-  - "Standing still to hard-cast Starfire in PvP instead of dot-kiting"
-  - "Letting a cast finish after an Eclipse proc lands mid-cast instead of cancelling and switching"
-  - "Gearing pure spell-power/haste while ignoring the crit-over-haste relationship and thin hit budget"
-  - "Treating trash-pack Moonfire/Hurricane as free AoE"
-  - "Assuming DoT ticks or Hurricane proc on-hit trinkets (Scythe, Clackora, Sigil, Fortune-stat items) — they don't"
+- Standing still to hard-cast Starfire in PvP instead of dot-kiting
+- Letting a cast finish after an Eclipse proc lands mid-cast instead of cancelling and switching
+- Gearing pure spell-power/haste while ignoring the crit-over-haste relationship and thin hit budget
+- Treating trash-pack Moonfire/Hurricane as free AoE
+- Assuming DoT ticks or Hurricane proc on-hit trinkets (Scythe, Clackora, Sigil, Fortune-stat items) — they don't

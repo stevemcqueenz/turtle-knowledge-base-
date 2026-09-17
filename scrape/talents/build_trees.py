@@ -72,6 +72,8 @@ def load_trees():
 
 def find_talent(cls_trees, name, tree_hint=None):
     """Return (tab_index, talent_index, talent) for a talent name; tree_hint narrows ties."""
+    # drop qualifiers the sources append: "Shadow Affinity (filler)", "Stinging Nettle Lacing" stays as typed
+    name = re.split(r"\s+\(|\s+/\s+|\s+or\s+", name or "", 1)[0]
     key = norm(name)
     hits = []
     for ti, tab in enumerate(cls_trees["tabs"]):

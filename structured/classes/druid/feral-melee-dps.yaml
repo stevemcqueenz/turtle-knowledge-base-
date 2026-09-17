@@ -2,83 +2,210 @@ class: Druid
 spec: Feral
 role: melee-dps
 sources:
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=172912#p172912", author: Gorlocktheglock, authority: player, date: "2026-03-28"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=123857#p123857", author: Slade1994, authority: player, date: "2025-03-26"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=120217#p120217", author: Zulnam, authority: player, date: "2025-02-17"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=128297#p128297", author: Noephix, authority: player, date: "2025-04-24"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=134389#p134389", author: Grizb37, authority: player, date: "2025-06-05"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=172923#p172923", author: Noephix, authority: player, date: "2026-03-28"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=173102#p173102", author: Noephix, authority: player, date: "2026-03-30"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=121590#p121590", author: Inovatu, authority: player, date: "2025-03-04"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=121689#p121689", author: Eyeburn, authority: player, date: "2025-03-04"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=121385#p121385", author: Atreidon, authority: player, date: "2025-03-02"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=172655#p172655", author: Noephix, authority: player, date: "2026-03-27"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=132929#p132929", author: Noephix, authority: player, date: "2025-05-25"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=128296#p128296", author: Snkx, authority: player, date: "2025-04-24"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=132703#p132703", author: Rmoruser, authority: player, date: "2025-05-24"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=132807#p132807", author: Inovatu, authority: player, date: "2025-05-24"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608", author: Torta, authority: staff, date: "2026-03-21"}
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=172912#p172912
+  author: Gorlocktheglock
+  authority: player
+  date: '2026-03-28'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=123857#p123857
+  author: Slade1994
+  authority: player
+  date: '2025-03-26'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=120217#p120217
+  author: Zulnam
+  authority: player
+  date: '2025-02-17'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=128297#p128297
+  author: Noephix
+  authority: player
+  date: '2025-04-24'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=134389#p134389
+  author: Grizb37
+  authority: player
+  date: '2025-06-05'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=172923#p172923
+  author: Noephix
+  authority: player
+  date: '2026-03-28'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=173102#p173102
+  author: Noephix
+  authority: player
+  date: '2026-03-30'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=121590#p121590
+  author: Inovatu
+  authority: player
+  date: '2025-03-04'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=121689#p121689
+  author: Eyeburn
+  authority: player
+  date: '2025-03-04'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=121385#p121385
+  author: Atreidon
+  authority: player
+  date: '2025-03-02'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=172655#p172655
+  author: Noephix
+  authority: player
+  date: '2026-03-27'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=132929#p132929
+  author: Noephix
+  authority: player
+  date: '2025-05-25'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=128296#p128296
+  author: Snkx
+  authority: player
+  date: '2025-04-24'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=132703#p132703
+  author: Rmoruser
+  authority: player
+  date: '2025-05-24'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=132807#p132807
+  author: Inovatu
+  authority: player
+  date: '2025-05-24'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608
+  author: Torta
+  authority: staff
+  date: '2026-03-21'
 agreement: contested
 patch_validity:
-  written_for: "1.17.2 / 1.18.0 (Class Changes 2 talent trees, bleed build introduced Oct 2024, became meta ~April-June 2025)"
+  written_for: 1.17.2 / 1.18.0 (Class Changes 2 talent trees, bleed build introduced Oct 2024, became meta ~April-June 2025)
   valid_for_1181: true
-  notes: "1.18.1 shipped no direct Feral DPS talent/ability changes; only a tank-threat nerf (irrelevant to DPS), two item hotfixes (Yoxtez +224 FAP, Fang of Alichos usable in forms) and a Kara40 armor-ignore trinket nerf that hurt cat itemization. Post-1.18.1 community view: cat is 'no longer the worst DPS spec — moonkin is' (still near-bottom)."
+  notes: '1.18.1 shipped no direct Feral DPS talent/ability changes; only a tank-threat nerf (irrelevant to DPS), two item
+    hotfixes (Yoxtez +224 FAP, Fang of Alichos usable in forms) and a Kara40 armor-ignore trinket nerf that hurt cat itemization.
+    Post-1.18.1 community view: cat is ''no longer the worst DPS spec — moonkin is'' (still near-bottom).'
 talents:
-  build_name: "Bleed/Claw build vs. Powershift build (both actively played; no decoded full 60-point list found)"
-  build_link: "https://talents.turtlecraft.gg/druid?points=BSAaAIAAAAAAAAFAYQRYTSAKEQBAAoAAAAAAAAAAAAA%3D (Bigsmerf, 2024-11-03, structurally still valid)"
+  build_name: Bleed/Claw build vs. Powershift build (both actively played; no decoded full 60-point list found)
+  build_link: https://talents.turtlecraft.gg/druid?points=BSAaAIAAAAAAAAFAYQRYTSAKEQBAAoAAAAAAAAAAAAA%3D (Bigsmerf, 2024-11-03,
+    structurally still valid)
   points:
-    - {tree: Feral, talent: "Omen of Clarity", rank: 1, spell_id: null}
-    - {tree: Feral, talent: Furor, rank: 3, spell_id: null}
-    - {tree: Feral, talent: "Blood Frenzy", rank: 2, spell_id: null}
-    - {tree: Feral, talent: "Primal Fury", rank: 2, spell_id: null}
-    - {tree: Feral, talent: "Improved Shred", rank: 2, spell_id: null}
-    - {tree: Feral, talent: "Open Wounds (bleed build only)", rank: 3, spell_id: null}
-    - {tree: Feral, talent: "Ancient Brutality (bleed build: cat-form bleed-tick energy)", rank: 3, spell_id: null}
-    - {tree: unspecified, talent: "remainder (link not decodable from text)", rank: null, spell_id: null}
+  - tree: Feral
+    talent: Omen of Clarity
+    rank: 1
+    spell_id: 16864
+    talent_id: 310
+  - tree: Feral
+    talent: Furor
+    rank: 3
+    spell_id: 17059
+    talent_id: 286
+  - tree: Feral
+    talent: Blood Frenzy
+    rank: 2
+    spell_id: 45722
+    talent_id: 278
+  - tree: Feral
+    talent: Primal Fury
+    rank: 2
+    spell_id: 45720
+    talent_id: 276
+  - tree: Feral
+    talent: Improved Shred
+    rank: 2
+    spell_id: 16968
+    talent_id: 279
+  - tree: Feral
+    talent: Open Wounds (bleed build only)
+    rank: 3
+    spell_id: 51404
+    talent_id: 272
+  - tree: Feral
+    talent: 'Ancient Brutality (bleed build: cat-form bleed-tick energy)'
+    rank: 3
+    spell_id: 51416
+    talent_id: 280
+  - tree: unspecified
+    talent: remainder (link not decodable from text)
+    rank: null
+    spell_id: null
   leveling_order:
-    - {level: 20, tree: Feral, talent: "Feral Swiftness (cat movement speed)"}
-    - {level: 20, tree: Feral, talent: "Omen of Clarity"}
-    - {level: 25, tree: Feral, talent: Furor}
+  - level: 20
+    tree: Feral
+    talent: Feral Swiftness (cat movement speed)
+  - level: 20
+    tree: Feral
+    talent: Omen of Clarity
+  - level: 25
+    tree: Feral
+    talent: Furor
+  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=druid&t=0000000001-00000300020222-03
+  build_link_tortoise_note: 'Generated from the sourced points list (15 points: Balance 1, Feral Combat 11, Restoration 3);
+    the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
 stat_weights:
-  strength_agility: "primary — forms convert weapon-slot items into flat Feral Attack Power/weapon damage ('stat-stick' scaling)"
-  hit: "high until cap (8%, or 5% with Natural Weapons 3/3); above-cap hit does nothing and cannot offset dodge/parry (weapon-skill-governed)"
-  crit: "medium-high, no numeric weight given (gap)"
-  haste: "contested — community argues item design overrates it; cat gets only ~20-30% of damage from autoattacks vs ~50% for other melee (single source, unconfirmed)"
-  intellect: "contested dump stat on T2.5/T3.5 PvE sets; defended only as a PvP-survivability stat"
-stat_priority: [hit, strength, agility, crit, haste]
-stat_priority_note: "Melee hit cap is 8%, or 5% with Natural Weapons 3/3; hit above the cap does nothing and cannot reduce dodge or parry, which key off weapon skill. Cat form is permanently stuck at 300 weapon skill, so a feral cannot buy down glancing blows the way other melee can. Strength and Agility are the scaling stats because forms convert weapon-slot items into flat Feral Attack Power. Crit is valued but no source gives it a weight. Haste is CONTESTED and the community considers it overvalued by item designers, since only about 20–30% of feral damage comes from auto-attacks. Intellect on the T2.5/T3.5 sets is contested — useful for PvP shifting, considered wasted stat points in PvE. Strength and Agility are a tie: no cited post ranks them against each other, so their order in the array above carries no ranking. Grouping them is this repository's reading of the sources listed above."
+  strength_agility: primary — forms convert weapon-slot items into flat Feral Attack Power/weapon damage ('stat-stick' scaling)
+  hit: high until cap (8%, or 5% with Natural Weapons 3/3); above-cap hit does nothing and cannot offset dodge/parry (weapon-skill-governed)
+  crit: medium-high, no numeric weight given (gap)
+  haste: contested — community argues item design overrates it; cat gets only ~20-30% of damage from autoattacks vs ~50% for
+    other melee (single source, unconfirmed)
+  intellect: contested dump stat on T2.5/T3.5 PvE sets; defended only as a PvP-survivability stat
+stat_priority:
+- hit
+- strength
+- agility
+- crit
+- haste
+stat_priority_note: 'Melee hit cap is 8%, or 5% with Natural Weapons 3/3; hit above the cap does nothing and cannot reduce
+  dodge or parry, which key off weapon skill. Cat form is permanently stuck at 300 weapon skill, so a feral cannot buy down
+  glancing blows the way other melee can. Strength and Agility are the scaling stats because forms convert weapon-slot items
+  into flat Feral Attack Power. Crit is valued but no source gives it a weight. Haste is CONTESTED and the community considers
+  it overvalued by item designers, since only about 20–30% of feral damage comes from auto-attacks. Intellect on the T2.5/T3.5
+  sets is contested — useful for PvP shifting, considered wasted stat points in PvE. Strength and Agility are a tie: no cited
+  post ranks them against each other, so their order in the array above carries no ranking. Grouping them is this repository''s
+  reading of the sources listed above.'
 caps:
-  hit_cap_melee: "8% (5% effective with Natural Weapons 3/3, +3% hit)"
-  weapon_skill_in_form: "fixed at 300 regardless of gear — permanent glancing-blow tax, no known fix"
+  hit_cap_melee: 8% (5% effective with Natural Weapons 3/3, +3% hit)
+  weapon_skill_in_form: fixed at 300 regardless of gear — permanent glancing-blow tax, no known fix
 rotation_single:
-  - {priority: 1, action: "Rake", condition: "bleed/claw build opener, non-bleed-immune target"}
-  - {priority: 2, action: Claw, condition: "bleed/claw build: build combo points while Rake is up (Open Wounds buff)"}
-  - {priority: 3, action: Rip, condition: "bleed/claw build: apply at 5 combo points, keep rolling"}
-  - {priority: 4, action: "Tiger's Fury", condition: "on cooldown; drops on shapeshift, watch timing"}
-  - {priority: 5, action: "Ferocious Bite", condition: "only if it won't clip a bleed refresh"}
-  - {priority: 6, action: "switch to powershift/Shred rotation", condition: "target is bleed-immune (large DPS loss to stay in bleed mode)"}
-  - {priority: 1, action: Shred, condition: "powershift build: spam to build combo points, powershift when energy near-capped"}
-  - {priority: 2, action: "Ferocious Bite", condition: "powershift build: at 5 combo points"}
+- priority: 1
+  action: Rake
+  condition: bleed/claw build opener, non-bleed-immune target
+- priority: 2
+  action: Claw
+  condition: 'bleed/claw build: build combo points while Rake is up (Open Wounds buff)'
+- priority: 3
+  action: Rip
+  condition: 'bleed/claw build: apply at 5 combo points, keep rolling'
+- priority: 4
+  action: Tiger's Fury
+  condition: on cooldown; drops on shapeshift, watch timing
+- priority: 5
+  action: Ferocious Bite
+  condition: only if it won't clip a bleed refresh
+- priority: 6
+  action: switch to powershift/Shred rotation
+  condition: target is bleed-immune (large DPS loss to stay in bleed mode)
+- priority: 1
+  action: Shred
+  condition: 'powershift build: spam to build combo points, powershift when energy near-capped'
+- priority: 2
+  action: Ferocious Bite
+  condition: 'powershift build: at 5 combo points'
 rotation_aoe:
-  - {targets_min: 2, priority: 1, action: "shift to Bear Form and Swipe", condition: "2-3 add packs — cat has no dedicated AoE tool"}
+- targets_min: 2
+  priority: 1
+  action: shift to Bear Form and Swipe
+  condition: 2-3 add packs — cat has no dedicated AoE tool
 aoe_threshold: 2
 cooldowns:
-  - {name: "Tiger's Fury", use_when: "on cooldown; grants attack-speed buff and (1.18.0) baseline energy return, drops on shapeshift"}
-  - {name: Berserk, use_when: "6-minute cooldown, criticized as too long for reliable raid DPS windows (+100% energy regen in Cat)"}
+- name: Tiger's Fury
+  use_when: on cooldown; grants attack-speed buff and (1.18.0) baseline energy return, drops on shapeshift
+- name: Berserk
+  use_when: 6-minute cooldown, criticized as too long for reliable raid DPS windows (+100% energy regen in Cat)
 resource_rules:
-  - "Bleed build: sustain energy via Ancient Brutality bleed-tick return and Idol of Laceration procs (20% per combo point to refund 15 energy on next Shred, also procs off Ferocious Bite)"
-  - "Powershift build: sustain energy via Furor + Wolfshead/Wolfsheart-enchanted helm converting mana to energy on shapeshift"
-  - "Track bleed durations with an addon (Cursive, DoTimer, or SuperWoW-based tracker) — native UI cannot reliably show more than 32 buffs/16 debuffs"
+- 'Bleed build: sustain energy via Ancient Brutality bleed-tick return and Idol of Laceration procs (20% per combo point to
+  refund 15 energy on next Shred, also procs off Ferocious Bite)'
+- 'Powershift build: sustain energy via Furor + Wolfshead/Wolfsheart-enchanted helm converting mana to energy on shapeshift'
+- Track bleed durations with an addon (Cursive, DoTimer, or SuperWoW-based tracker) — native UI cannot reliably show more
+  than 32 buffs/16 debuffs
 consumables:
-  - "Idol of Laceration — core bleed-build idol"
-  - "Feral Attack Power (FAP) items prioritized regardless of nominal weapon slot"
-  - "Yoxtez (+224 FAP, 1.18.1 hotfix), Fang of Alichos (usable in forms, 1.18.1 hotfix)"
-  - "A Kara40 armor-ignoring trinket was nerfed in 1.18.1 and is no longer a strong feral pick (name not given in sources — gap)"
-  - "No pre-raid BiS list found in sources (gap)"
+- Idol of Laceration — core bleed-build idol
+- Feral Attack Power (FAP) items prioritized regardless of nominal weapon slot
+- Yoxtez (+224 FAP, 1.18.1 hotfix), Fang of Alichos (usable in forms, 1.18.1 hotfix)
+- A Kara40 armor-ignoring trinket was nerfed in 1.18.1 and is no longer a strong feral pick (name not given in sources — gap)
+- No pre-raid BiS list found in sources (gap)
 mistakes_to_avoid:
-  - "Playing bleed rotation on a bleed-immune target instead of switching to powershift/Shred"
-  - "Ignoring Idol of Laceration and other energy-return tools, over-relying on powershifting"
-  - "Rolling on/wearing high-Intellect T2.5/T3.5 pieces as if Intellect were a real DPS stat in PvE"
-  - "Letting Tiger's Fury drop mid-fight by shifting carelessly"
-  - "Not tracking bleed durations with an addon and clipping Rake/Rip early"
-  - "Expecting cat to carry AoE pulls instead of switching to Bear/Swipe"
+- Playing bleed rotation on a bleed-immune target instead of switching to powershift/Shred
+- Ignoring Idol of Laceration and other energy-return tools, over-relying on powershifting
+- Rolling on/wearing high-Intellect T2.5/T3.5 pieces as if Intellect were a real DPS stat in PvE
+- Letting Tiger's Fury drop mid-fight by shifting carelessly
+- Not tracking bleed durations with an addon and clipping Rake/Rip early
+- Expecting cat to carry AoE pulls instead of switching to Bear/Swipe

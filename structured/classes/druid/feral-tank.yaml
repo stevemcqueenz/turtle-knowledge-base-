@@ -2,87 +2,219 @@ class: Druid
 spec: Feral
 role: tank
 sources:
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=58705#p58705", author: Elesion, authority: player, date: "2023-08-23"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=58715#p58715", author: Bigsmerf, authority: player, date: "2023-08-23"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=64890#p64890", author: Drubarrymooer, authority: player, date: "2023-09-17"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=60018#p60018", author: Elesion, authority: player, date: "2023-08-30"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=64887#p64887", author: Drubarrymooer, authority: player, date: "2023-09-17"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=115691#p115691", author: Drubarrymooer, authority: player, date: "2025-01-07"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=115706#p115706", author: Reploidrocsa, authority: player, date: "2025-01-07"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=117477#p117477", author: Inovatu, authority: player, date: "2025-01-21"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=117585#p117585", author: Sunken, authority: player, date: "2025-01-22"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=121590#p121590", author: Inovatu, authority: player, date: "2025-03-04"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=121689#p121689", author: Eyeburn, authority: player, date: "2025-03-04"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=112876#p112876", author: Xudo, authority: player, date: "2024-12-16"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=112877#p112877", author: Jammyzz, authority: player, date: "2024-12-16"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=113723#p113723", author: Jammyzz, authority: player, date: "2024-12-21"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=165907#p165907", author: Captain4k, authority: player, date: "2026-01-22"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=173102#p173102", author: Noephix, authority: player, date: "2026-03-30"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=173162#p173162", author: Velanyr, authority: player, date: "2026-03-30"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171995#p171995", author: Grizb37, authority: player, date: "2026-03-23"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=26875#p26875", author: Geojak, authority: player, date: "2022-10-06"}
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=58705#p58705
+  author: Elesion
+  authority: player
+  date: '2023-08-23'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=58715#p58715
+  author: Bigsmerf
+  authority: player
+  date: '2023-08-23'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=64890#p64890
+  author: Drubarrymooer
+  authority: player
+  date: '2023-09-17'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=60018#p60018
+  author: Elesion
+  authority: player
+  date: '2023-08-30'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=64887#p64887
+  author: Drubarrymooer
+  authority: player
+  date: '2023-09-17'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=115691#p115691
+  author: Drubarrymooer
+  authority: player
+  date: '2025-01-07'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=115706#p115706
+  author: Reploidrocsa
+  authority: player
+  date: '2025-01-07'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=117477#p117477
+  author: Inovatu
+  authority: player
+  date: '2025-01-21'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=117585#p117585
+  author: Sunken
+  authority: player
+  date: '2025-01-22'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=121590#p121590
+  author: Inovatu
+  authority: player
+  date: '2025-03-04'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=121689#p121689
+  author: Eyeburn
+  authority: player
+  date: '2025-03-04'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=112876#p112876
+  author: Xudo
+  authority: player
+  date: '2024-12-16'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=112877#p112877
+  author: Jammyzz
+  authority: player
+  date: '2024-12-16'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=113723#p113723
+  author: Jammyzz
+  authority: player
+  date: '2024-12-21'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=165907#p165907
+  author: Captain4k
+  authority: player
+  date: '2026-01-22'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  author: Jamey
+  authority: staff
+  date: '2026-01-23'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=173102#p173102
+  author: Noephix
+  authority: player
+  date: '2026-03-30'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=173162#p173162
+  author: Velanyr
+  authority: player
+  date: '2026-03-30'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=171995#p171995
+  author: Grizb37
+  authority: player
+  date: '2026-03-23'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=26875#p26875
+  author: Geojak
+  authority: player
+  date: '2022-10-06'
 agreement: contested
 patch_validity:
-  written_for: "1.17.2 / 1.18.0 (Class Changes 2 talent trees)"
+  written_for: 1.17.2 / 1.18.0 (Class Changes 2 talent trees)
   valid_for_1181: true
-  notes: "Talent tree structurally unchanged by 1.18.1. 1.18.1 reduced Maul threat modifier by 15% and Savage Bite threat modifier by 12% (official). Post-1.18.1 forum reaction (single detailed author, several short agreeing replies) argues bear tanking lost its main advantage; not independently log-verified."
+  notes: Talent tree structurally unchanged by 1.18.1. 1.18.1 reduced Maul threat modifier by 15% and Savage Bite threat modifier
+    by 12% (official). Post-1.18.1 forum reaction (single detailed author, several short agreeing replies) argues bear tanking
+    lost its main advantage; not independently log-verified.
 talents:
-  build_name: "Meta tank build (link only, Captain4k, 2026-01-22)"
-  build_link: "https://talents.turtlecraft.gg/druid?points=BSAaAI-FAYYRaDQQIFQB-Ao"
+  build_name: Meta tank build (link only, Captain4k, 2026-01-22)
+  build_link: https://talents.turtlecraft.gg/druid?points=BSAaAI-FAYYRaDQQIFQB-Ao
   points:
-    - {tree: Feral, talent: "Omen of Clarity", rank: 1, spell_id: null}
-    - {tree: Feral, talent: Furor, rank: 3, spell_id: null}
-    - {tree: Feral, talent: "Feral Instinct", rank: 3, spell_id: null}
-    - {tree: Feral, talent: "Thick Hide", rank: 3, spell_id: null}
-    - {tree: Feral, talent: "Blood Frenzy", rank: 2, spell_id: null}
-    - {tree: Feral, talent: "Primal Fury", rank: 2, spell_id: null}
-    - {tree: Feral, talent: "Sylvan Blessing", rank: 2, spell_id: null}
-    - {tree: Feral, talent: "Ancient Brutality", rank: "2-3 (contested tuning)", spell_id: null}
-    - {tree: unspecified, talent: "remainder (link not decodable from text)", rank: null, spell_id: null}
+  - tree: Feral
+    talent: Omen of Clarity
+    rank: 1
+    spell_id: 16864
+    talent_id: 310
+  - tree: Feral
+    talent: Furor
+    rank: 3
+    spell_id: 17059
+    talent_id: 286
+  - tree: Feral
+    talent: Feral Instinct
+    rank: 3
+    spell_id: 16949
+    talent_id: 269
+  - tree: Feral
+    talent: Thick Hide
+    rank: 3
+    spell_id: 16931
+    talent_id: 271
+  - tree: Feral
+    talent: Blood Frenzy
+    rank: 2
+    spell_id: 45722
+    talent_id: 278
+  - tree: Feral
+    talent: Primal Fury
+    rank: 2
+    spell_id: 45720
+    talent_id: 276
+  - tree: Feral
+    talent: Sylvan Blessing
+    rank: 2
+    spell_id: 51422
+    talent_id: 304
+  - tree: Feral
+    talent: Ancient Brutality
+    rank: 2-3 (contested tuning)
+    spell_id: 51416
+    talent_id: 280
+  - tree: unspecified
+    talent: remainder (link not decodable from text)
+    rank: null
+    spell_id: null
   leveling_order:
-    - {level: 20, tree: Feral, talent: "Feral Swiftness (cat movement speed)"}
-    - {level: 20, tree: Feral, talent: "Omen of Clarity"}
-    - {level: 25, tree: Feral, talent: Furor}
-    - {level: 30, tree: Feral, talent: "Swift Travel Form (baseline questline, not a talent)"}
+  - level: 20
+    tree: Feral
+    talent: Feral Swiftness (cat movement speed)
+  - level: 20
+    tree: Feral
+    talent: Omen of Clarity
+  - level: 25
+    tree: Feral
+    talent: Furor
+  - level: 30
+    tree: Feral
+    talent: Swift Travel Form (baseline questline, not a talent)
+  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=druid&t=0002000001-00303000020202-03
+  build_link_tortoise_note: 'Generated from the sourced points list (18 points: Balance 3, Feral Combat 12, Restoration 3);
+    the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
 stat_weights:
-  armor: "high until ~11-12k, then deprioritize (cap easy to reach)"
-  stamina: "high, always good"
-  hit: "high until cap (8%, or 5% with Natural Weapons 3/3)"
-  haste_attack_speed: "high — undervalued by new players; Maul rides the slow 2.5s auto-attack timer"
-  crit: "medium-high — threat abilities are damage multipliers, so crit doubles threat"
-  agility: "medium — wanted for Ancient Brutality dodge synergy, not worth raw itemization"
-  defense: "contested/low — 40% less effective (no parry/block); situational raise for hard-hitting/low-healing fights"
-  strength: "low priority relative to armor/stam/hit per sources read"
+  armor: high until ~11-12k, then deprioritize (cap easy to reach)
+  stamina: high, always good
+  hit: high until cap (8%, or 5% with Natural Weapons 3/3)
+  haste_attack_speed: high — undervalued by new players; Maul rides the slow 2.5s auto-attack timer
+  crit: medium-high — threat abilities are damage multipliers, so crit doubles threat
+  agility: medium — wanted for Ancient Brutality dodge synergy, not worth raw itemization
+  defense: contested/low — 40% less effective (no parry/block); situational raise for hard-hitting/low-healing fights
+  strength: low priority relative to armor/stam/hit per sources read
 caps:
-  hit_cap_melee: "8% (5% effective with Natural Weapons 3/3, +3% hit)"
-  armor_soft_target: "~11-12k armor before diminishing priority (single source)"
-  crit_immunity_defense: "not found in Druid sources (gap)"
+  hit_cap_melee: 8% (5% effective with Natural Weapons 3/3, +3% hit)
+  armor_soft_target: ~11-12k armor before diminishing priority (single source)
+  crit_immunity_defense: not found in Druid sources (gap)
 rotation_single:
-  - {priority: 1, action: "Faerie Fire (Feral) rank 1", condition: "pull, to apply armor debuff cheaply"}
-  - {priority: 2, action: Maul, condition: "on auto-attack timer, primary rage dump/threat"}
-  - {priority: 3, action: "Savage Bite", condition: "on cooldown (9s pre-1.18.1 baseline); snap-threat/rage dump, now lower threat modifier post-1.18.1"}
-  - {priority: 4, action: "Demoralizing Roar", condition: "physical-heavy pull, or to pull a stealthed rogue out of stealth"}
-  - {priority: 5, action: Enrage, condition: "threat secure, extra rage needed"}
+- priority: 1
+  action: Faerie Fire (Feral) rank 1
+  condition: pull, to apply armor debuff cheaply
+- priority: 2
+  action: Maul
+  condition: on auto-attack timer, primary rage dump/threat
+- priority: 3
+  action: Savage Bite
+  condition: on cooldown (9s pre-1.18.1 baseline); snap-threat/rage dump, now lower threat modifier post-1.18.1
+- priority: 4
+  action: Demoralizing Roar
+  condition: physical-heavy pull, or to pull a stealthed rogue out of stealth
+- priority: 5
+  action: Enrage
+  condition: threat secure, extra rage needed
 rotation_aoe:
-  - {targets_min: 2, priority: 1, action: "Faerie Fire (Feral) each new add", condition: "keep armor debuff/threat on adds"}
-  - {targets_min: 2, priority: 2, action: Swipe, condition: "core AoE threat tool, scales with 4% AP (post-Nov-2024 rework)"}
-  - {targets_min: 2, priority: 3, action: "Demoralizing Roar", condition: "on pull"}
+- targets_min: 2
+  priority: 1
+  action: Faerie Fire (Feral) each new add
+  condition: keep armor debuff/threat on adds
+- targets_min: 2
+  priority: 2
+  action: Swipe
+  condition: core AoE threat tool, scales with 4% AP (post-Nov-2024 rework)
+- targets_min: 2
+  priority: 3
+  action: Demoralizing Roar
+  condition: on pull
 aoe_threshold: 2
 cooldowns:
-  - {name: "Frenzied Regeneration", use_when: "self-heal, 6-minute cooldown pre-1.18.1 (reduced from 3-minute original CC2 value, then only trimmed to 5 min in Dec-2024, criticized as insufficient)"}
-  - {name: "Barkskin (Feral)", use_when: "emergency mitigation, 10-minute cooldown, niche panic button not part of normal rotation"}
-  - {name: "Ancient Brutality", use_when: "passive rage generator on dodge, sustained not on-demand"}
+- name: Frenzied Regeneration
+  use_when: self-heal, 6-minute cooldown pre-1.18.1 (reduced from 3-minute original CC2 value, then only trimmed to 5 min
+    in Dec-2024, criticized as insufficient)
+- name: Barkskin (Feral)
+  use_when: emergency mitigation, 10-minute cooldown, niche panic button not part of normal rotation
+- name: Ancient Brutality
+  use_when: passive rage generator on dodge, sustained not on-demand
 resource_rules:
-  - "No numeric rage-pool target given by sources; keep Swipe/Maul/Savage Bite flowing"
-  - "Omen of Clarity + Furor + Blood Frenzy talented reduces rage-starvation concerns per community consensus"
+- No numeric rage-pool target given by sources; keep Swipe/Maul/Savage Bite flowing
+- Omen of Clarity + Furor + Blood Frenzy talented reduces rage-starvation concerns per community consensus
 consumables:
-  - "Hateforge trinket (+120 armor, 12 stam, 1% attack speed) — early tank trinket"
-  - "No pre-raid BiS list found in sources (gap)"
+- Hateforge trinket (+120 armor, 12 stam, 1% attack speed) — early tank trinket
+- No pre-raid BiS list found in sources (gap)
 mistakes_to_avoid:
-  - "Itemizing hard for raw Defense rating instead of Hit/Armor/Stamina"
-  - "Chasing raw Dodge% instead of letting Agility be a side effect"
-  - "Taking Feral Adrenaline (30s ICD makes it near-useless per near-unanimous community verdict)"
-  - "Treating Savage Bite as spammable post-1.18.1 (9s cooldown, reduced threat modifier)"
-  - "Pulling without Faerie Fire armor debuff or Demoralizing Roar vs physical packs"
-  - "Assuming bear can tank every fight equally (Nefarian's druid-specific call, fear-heavy/stance-dance fights are worse for bears)"
+- Itemizing hard for raw Defense rating instead of Hit/Armor/Stamina
+- Chasing raw Dodge% instead of letting Agility be a side effect
+- Taking Feral Adrenaline (30s ICD makes it near-useless per near-unanimous community verdict)
+- Treating Savage Bite as spammable post-1.18.1 (9s cooldown, reduced threat modifier)
+- Pulling without Faerie Fire armor debuff or Demoralizing Roar vs physical packs
+- Assuming bear can tank every fight equally (Nefarian's druid-specific call, fear-heavy/stance-dance fights are worse for
+  bears)
