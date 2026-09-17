@@ -59,9 +59,12 @@ every other archive the message JSON is written **after** `_assets/`, so it sat 
 The 25.9 GB of recoverable images carry no message context, author, date or link, so they
 cannot be cited and are unusable under this repository's rules.
 
-**Action required: re-copy `theorycrafting.zip` from the NAS source.** On the evidence of the
-other channels this is likely the single most valuable channel for talent builds, rotations
-and stat priorities, so it is worth re-copying before Phase D runs.
+**Decision (2026-09-17, repo owner): proceed without it.** The channel is a permanent gap for
+this pass. On the evidence of the other channels it was likely the richest source of talent
+builds, rotations and stat priorities, so every document that would have drawn on it says so:
+"not found in sources — `#theorycrafting` is absent from the Discord backup (truncated archive,
+`scrape/discord/SURVEY.md` §2)". If the zip is ever re-copied from the NAS source, re-run the
+ingest and the class agents; nothing else needs redoing.
 
 ## 3. Staff roles: the export carries community roles, not the Turtle WoW Team
 
@@ -194,9 +197,9 @@ sources — the Discord backup covers only the 14 channels listed in
 
 ## 7. Open items before Phase B
 
-1. Re-copy `theorycrafting.zip` (§2).
-2. Run the full ingest (`--staff-roles "Moderator"`, guild id is in the dumps).
-3. Cross-check `structured/discord/authors.json` against the forum's 21 staff accounts in
+1. Run the full ingest (`--staff-roles "Moderator"`, guild id is in the dumps). `theorycrafting`
+   is out of scope by decision (§2).
+2. Cross-check `structured/discord/authors.json` against the forum's 21 staff accounts in
    `structured/forum/authors.json`: a Discord author whose name matches a known staff account
    is worth flagging, but a name match alone is **not** proof of identity and must not silently
    upgrade an author's authority tier. Record matches here, decide per account.
