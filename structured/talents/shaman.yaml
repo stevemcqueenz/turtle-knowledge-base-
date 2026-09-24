@@ -1,0 +1,602 @@
+class: shaman
+name: Shaman
+turtle: true
+source: refs/tortoise-db-viewer/scripts/data/talents.json (client-derived, 1.18.1) + server/data/dbc/Spell.dbc field 120 for names
+max_points: 51
+tabs:
+- id: 261
+  name: Elemental
+  order: 0
+  talents:
+  - id: 218
+    name: Convection
+    row: 0
+    col: 1
+    max_rank: 5
+    ranks:
+    - 16039
+    - 16109
+    - 16110
+    - 16111
+    - 16112
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 219
+    name: Concussion
+    row: 0
+    col: 2
+    max_rank: 5
+    ranks:
+    - 16035
+    - 16105
+    - 16106
+    - 16107
+    - 16108
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 220
+    name: Earth's Grasp
+    row: 1
+    col: 0
+    max_rank: 2
+    ranks:
+    - 16043
+    - 16130
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 221
+    name: Elemental Warding
+    row: 1
+    col: 1
+    max_rank: 3
+    ranks:
+    - 28996
+    - 28997
+    - 28998
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 222
+    name: Elemental Devastation
+    row: 1
+    col: 2
+    max_rank: 3
+    ranks:
+    - 30160
+    - 29179
+    - 29180
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 223
+    name: Elemental Focus
+    row: 2
+    col: 0
+    max_rank: 1
+    ranks:
+    - 45541
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 224
+    name: Reverberation
+    row: 2
+    col: 1
+    max_rank: 3
+    ranks:
+    - 16040
+    - 16113
+    - 16114
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 225
+    name: Call of Thunder
+    row: 2
+    col: 2
+    max_rank: 5
+    ranks:
+    - 16041
+    - 16117
+    - 16118
+    - 16119
+    - 16120
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 226
+    name: Improved Molten Blast
+    row: 2
+    col: 3
+    max_rank: 2
+    ranks:
+    - 46107
+    - 46108
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 227
+    name: Improved Fire Totems
+    row: 3
+    col: 0
+    max_rank: 2
+    ranks:
+    - 16086
+    - 16544
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 228
+    name: Call of Earth
+    row: 3
+    col: 1
+    max_rank: 2
+    ranks:
+    - 58238
+    - 58239
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 229
+    name: Call of Flame
+    row: 3
+    col: 3
+    max_rank: 3
+    ranks:
+    - 16038
+    - 16160
+    - 16161
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 230
+    name: Storm Reach
+    row: 4
+    col: 0
+    max_rank: 2
+    ranks:
+    - 28999
+    - 29000
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 231
+    name: Elemental Mastery
+    row: 4
+    col: 1
+    max_rank: 1
+    ranks:
+    - 16166
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 232
+    name: Elemental Fury
+    row: 4
+    col: 3
+    max_rank: 2
+    ranks:
+    - 56556
+    - 56557
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 233
+    name: Lightning Mastery
+    row: 5
+    col: 2
+    max_rank: 5
+    ranks:
+    - 16578
+    - 16579
+    - 16580
+    - 16581
+    - 16582
+    req: 225
+    req_rank: 5
+    points_per_rank: 1
+  - id: 234
+    name: Earthquake
+    row: 6
+    col: 1
+    max_rank: 1
+    ranks:
+    - 48306
+    req: 231
+    req_rank: 1
+    points_per_rank: 1
+- id: 263
+  name: Enhancement
+  order: 1
+  talents:
+  - id: 251
+    name: Ancestral Knowledge
+    row: 0
+    col: 1
+    max_rank: 5
+    ranks:
+    - 17485
+    - 17486
+    - 17487
+    - 17488
+    - 17489
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 252
+    name: Shield Specialization
+    row: 0
+    col: 2
+    max_rank: 5
+    ranks:
+    - 16253
+    - 16298
+    - 16299
+    - 16300
+    - 16301
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 253
+    name: Totemic Alignment
+    row: 1
+    col: 0
+    max_rank: 2
+    ranks:
+    - 51381
+    - 51382
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 254
+    name: Thundering Strikes
+    row: 1
+    col: 1
+    max_rank: 5
+    ranks:
+    - 16255
+    - 16302
+    - 16303
+    - 16304
+    - 16305
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 255
+    name: Stable Shields
+    row: 1
+    col: 2
+    max_rank: 3
+    ranks:
+    - 16261
+    - 16290
+    - 16291
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 256
+    name: Improved Ghost Wolf
+    row: 1
+    col: 3
+    max_rank: 2
+    ranks:
+    - 16262
+    - 16287
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 257
+    name: Calming Winds
+    row: 2
+    col: 0
+    max_rank: 3
+    ranks:
+    - 51383
+    - 51384
+    - 51385
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 258
+    name: Lightning Strike
+    row: 2
+    col: 2
+    max_rank: 1
+    ranks:
+    - 51387
+    req: 255
+    req_rank: 3
+    points_per_rank: 1
+  - id: 259
+    name: Ancestral Guardian
+    row: 2
+    col: 3
+    max_rank: 3
+    ranks:
+    - 45545
+    - 45546
+    - 45547
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 260
+    name: Flurry
+    row: 3
+    col: 1
+    max_rank: 5
+    ranks:
+    - 16256
+    - 16281
+    - 16282
+    - 16283
+    - 16284
+    req: 254
+    req_rank: 5
+    points_per_rank: 1
+  - id: 261
+    name: Spirit Armor
+    row: 3
+    col: 2
+    max_rank: 2
+    ranks:
+    - 45951
+    - 45952
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 262
+    name: Enhancing Totems
+    row: 4
+    col: 0
+    max_rank: 2
+    ranks:
+    - 16259
+    - 16295
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 263
+    name: Elemental Weapons
+    row: 4
+    col: 1
+    max_rank: 3
+    ranks:
+    - 16266
+    - 29079
+    - 29080
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 264
+    name: Stormstrike
+    row: 4
+    col: 2
+    max_rank: 1
+    ranks:
+    - 17364
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 265
+    name: Element's Grace
+    row: 5
+    col: 2
+    max_rank: 5
+    ranks:
+    - 29082
+    - 29084
+    - 29086
+    - 29087
+    - 29088
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 266
+    name: Bloodlust
+    row: 6
+    col: 1
+    max_rank: 1
+    ranks:
+    - 45509
+    req: 263
+    req_rank: 3
+    points_per_rank: 1
+- id: 262
+  name: Restoration
+  order: 2
+  talents:
+  - id: 235
+    name: Improved Healing Wave
+    row: 0
+    col: 1
+    max_rank: 5
+    ranks:
+    - 16182
+    - 16226
+    - 16227
+    - 16228
+    - 16229
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 236
+    name: Tidal Focus
+    row: 0
+    col: 2
+    max_rank: 5
+    ranks:
+    - 16179
+    - 16214
+    - 16215
+    - 16216
+    - 16217
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 237
+    name: Improved Reincarnation
+    row: 1
+    col: 0
+    max_rank: 2
+    ranks:
+    - 16184
+    - 16209
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 238
+    name: Ancestral Healing
+    row: 1
+    col: 1
+    max_rank: 3
+    ranks:
+    - 16176
+    - 16235
+    - 16240
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 239
+    name: Tidal Mastery
+    row: 1
+    col: 2
+    max_rank: 5
+    ranks:
+    - 16194
+    - 16218
+    - 16219
+    - 16220
+    - 16221
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 240
+    name: Healing Way
+    row: 2
+    col: 0
+    max_rank: 3
+    ranks:
+    - 29206
+    - 29205
+    - 29202
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 241
+    name: Healing Focus
+    row: 2
+    col: 1
+    max_rank: 2
+    ranks:
+    - 16181
+    - 16230
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 242
+    name: Totemic Mastery
+    row: 2
+    col: 2
+    max_rank: 1
+    ranks:
+    - 16189
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 243
+    name: Nature's Grace
+    row: 2
+    col: 3
+    max_rank: 3
+    ranks:
+    - 29187
+    - 29189
+    - 29191
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 244
+    name: Restorative Totems
+    row: 3
+    col: 1
+    max_rank: 5
+    ranks:
+    - 16187
+    - 16205
+    - 16206
+    - 16207
+    - 16208
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 245
+    name: Improved Water Shield
+    row: 3
+    col: 2
+    max_rank: 3
+    ranks:
+    - 51369
+    - 51370
+    - 51371
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 246
+    name: Tidal Surge
+    row: 4
+    col: 0
+    max_rank: 2
+    ranks:
+    - 51491
+    - 51492
+    req: 240
+    req_rank: 3
+    points_per_rank: 1
+  - id: 247
+    name: Ancestral Swiftness
+    row: 4
+    col: 2
+    max_rank: 1
+    ranks:
+    - 16188
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 248
+    name: Undertow
+    row: 4
+    col: 3
+    max_rank: 2
+    ranks:
+    - 51372
+    - 51373
+    req: 245
+    req_rank: 3
+    points_per_rank: 1
+  - id: 249
+    name: Improved Chain Heal
+    row: 5
+    col: 1
+    max_rank: 5
+    ranks:
+    - 51374
+    - 51375
+    - 51376
+    - 51377
+    - 51378
+    req: 244
+    req_rank: 5
+    points_per_rank: 1
+  - id: 250
+    name: Spirit Link
+    row: 6
+    col: 1
+    max_rank: 1
+    ranks:
+    - 51363
+    req: 249
+    req_rank: 5
+    points_per_rank: 1

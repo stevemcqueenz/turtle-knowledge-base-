@@ -1,0 +1,633 @@
+class: priest
+name: Priest
+turtle: true
+source: refs/tortoise-db-viewer/scripts/data/talents.json (client-derived, 1.18.1) + server/data/dbc/Spell.dbc field 120 for names
+max_points: 51
+tabs:
+- id: 201
+  name: Discipline
+  order: 0
+  talents:
+  - id: 166
+    name: Wand Specialization
+    row: 0
+    col: 0
+    max_rank: 2
+    ranks:
+    - 14524
+    - 14525
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 167
+    name: Piercing Light
+    row: 0
+    col: 1
+    max_rank: 3
+    ranks:
+    - 51462
+    - 51463
+    - 51464
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 168
+    name: Mental Agility
+    row: 0
+    col: 2
+    max_rank: 5
+    ranks:
+    - 14520
+    - 14780
+    - 14781
+    - 14782
+    - 14783
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 169
+    name: Silent Resolve
+    row: 1
+    col: 0
+    max_rank: 5
+    ranks:
+    - 14523
+    - 14784
+    - 14785
+    - 14786
+    - 14787
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 170
+    name: Unbreakable Will
+    row: 1
+    col: 1
+    max_rank: 5
+    ranks:
+    - 14522
+    - 14788
+    - 14789
+    - 14790
+    - 14791
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 171
+    name: Blessed Concentration
+    row: 1
+    col: 2
+    max_rank: 2
+    ranks:
+    - 14531
+    - 14774
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 172
+    name: 'Improved Power Word: Fortitude'
+    row: 1
+    col: 3
+    max_rank: 2
+    ranks:
+    - 14749
+    - 14767
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 173
+    name: Improved Inner Fire
+    row: 2
+    col: 0
+    max_rank: 2
+    ranks:
+    - 14747
+    - 14770
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 174
+    name: Inner Focus
+    row: 2
+    col: 1
+    max_rank: 1
+    ranks:
+    - 14751
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 175
+    name: 'Improved Power Word: Shield'
+    row: 2
+    col: 2
+    max_rank: 3
+    ranks:
+    - 14748
+    - 14768
+    - 14769
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 176
+    name: Meditation
+    row: 2
+    col: 3
+    max_rank: 3
+    ranks:
+    - 14521
+    - 14776
+    - 14777
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 177
+    name: Searing Light
+    row: 3
+    col: 0
+    max_rank: 3
+    ranks:
+    - 51466
+    - 51467
+    - 51468
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 178
+    name: Purifying Flames
+    row: 3
+    col: 1
+    max_rank: 2
+    ranks:
+    - 51470
+    - 51471
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 179
+    name: Mental Strength
+    row: 4
+    col: 0
+    max_rank: 3
+    ranks:
+    - 18551
+    - 18552
+    - 18553
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 180
+    name: Enlighten
+    row: 4
+    col: 1
+    max_rank: 1
+    ranks:
+    - 51476
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 181
+    name: Resurgent Shield
+    row: 4
+    col: 2
+    max_rank: 1
+    ranks:
+    - 45560
+    req: 175
+    req_rank: 3
+    points_per_rank: 1
+  - id: 182
+    name: Force of Will
+    row: 5
+    col: 2
+    max_rank: 5
+    ranks:
+    - 18544
+    - 18547
+    - 18548
+    - 18549
+    - 18550
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 183
+    name: Chastise
+    row: 6
+    col: 1
+    max_rank: 1
+    ranks:
+    - 51478
+    req: 180
+    req_rank: 1
+    points_per_rank: 1
+- id: 202
+  name: Holy
+  order: 1
+  talents:
+  - id: 184
+    name: Improved Renew
+    row: 0
+    col: 0
+    max_rank: 3
+    ranks:
+    - 14908
+    - 15020
+    - 17191
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 185
+    name: Holy Focus
+    row: 0
+    col: 1
+    max_rank: 2
+    ranks:
+    - 14913
+    - 15012
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 186
+    name: Divinity
+    row: 0
+    col: 2
+    max_rank: 5
+    ranks:
+    - 14889
+    - 15008
+    - 15009
+    - 15010
+    - 15011
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 187
+    name: Divine Fury
+    row: 1
+    col: 1
+    max_rank: 5
+    ranks:
+    - 18530
+    - 18531
+    - 18533
+    - 18534
+    - 18535
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 188
+    name: Spell Warding
+    row: 1
+    col: 2
+    max_rank: 3
+    ranks:
+    - 27900
+    - 27901
+    - 27902
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 189
+    name: Holy Reach
+    row: 1
+    col: 3
+    max_rank: 2
+    ranks:
+    - 27789
+    - 27790
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 190
+    name: Blessed Recovery
+    row: 2
+    col: 1
+    max_rank: 3
+    ranks:
+    - 27811
+    - 27815
+    - 27816
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 191
+    name: Inspiration
+    row: 2
+    col: 2
+    max_rank: 3
+    ranks:
+    - 14892
+    - 15362
+    - 15363
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 192
+    name: Holy Nova
+    row: 2
+    col: 3
+    max_rank: 1
+    ranks:
+    - 15237
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 193
+    name: Empowered Recovery
+    row: 3
+    col: 0
+    max_rank: 2
+    ranks:
+    - 51484
+    - 51485
+    req: 184
+    req_rank: 3
+    points_per_rank: 1
+  - id: 194
+    name: Improved Healing
+    row: 3
+    col: 1
+    max_rank: 3
+    ranks:
+    - 14912
+    - 15013
+    - 15014
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 195
+    name: Spiritual Guidance
+    row: 3
+    col: 2
+    max_rank: 5
+    ranks:
+    - 14901
+    - 15028
+    - 15029
+    - 15030
+    - 15031
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 196
+    name: Book of Prayer
+    row: 4
+    col: 0
+    max_rank: 2
+    ranks:
+    - 52943
+    - 52944
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 197
+    name: Spirit of Redemption
+    row: 4
+    col: 1
+    max_rank: 1
+    ranks:
+    - 20711
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 198
+    name: Reservoir of Light
+    row: 4
+    col: 2
+    max_rank: 3
+    ranks:
+    - 51486
+    - 51487
+    - 51488
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 199
+    name: Spiritual Healing
+    row: 5
+    col: 2
+    max_rank: 5
+    ranks:
+    - 14898
+    - 15349
+    - 15354
+    - 15355
+    - 15356
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 200
+    name: Ascendance
+    row: 6
+    col: 1
+    max_rank: 1
+    ranks:
+    - 52962
+    req: 197
+    req_rank: 1
+    points_per_rank: 1
+- id: 203
+  name: Shadow
+  order: 2
+  talents:
+  - id: 201
+    name: Spirit Tap
+    row: 0
+    col: 1
+    max_rank: 5
+    ranks:
+    - 15270
+    - 15335
+    - 15336
+    - 15337
+    - 15338
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 202
+    name: Improved Mind Blast
+    row: 0
+    col: 2
+    max_rank: 5
+    ranks:
+    - 15273
+    - 15312
+    - 15313
+    - 15314
+    - 15316
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 203
+    name: Shadow Affinity
+    row: 1
+    col: 0
+    max_rank: 3
+    ranks:
+    - 15318
+    - 15272
+    - 15320
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 204
+    name: 'Improved Shadow Word: Pain'
+    row: 1
+    col: 1
+    max_rank: 2
+    ranks:
+    - 15275
+    - 15317
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 205
+    name: Shadow Focus
+    row: 1
+    col: 2
+    max_rank: 5
+    ranks:
+    - 15260
+    - 15327
+    - 15328
+    - 15329
+    - 15330
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 206
+    name: Blackout
+    row: 1
+    col: 3
+    max_rank: 5
+    ranks:
+    - 15268
+    - 15323
+    - 15324
+    - 15325
+    - 15326
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 207
+    name: Improved Psychic Scream
+    row: 2
+    col: 0
+    max_rank: 2
+    ranks:
+    - 15392
+    - 15448
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 208
+    name: Improved Fade
+    row: 2
+    col: 1
+    max_rank: 2
+    ranks:
+    - 15274
+    - 15311
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 209
+    name: Mind Flay
+    row: 2
+    col: 2
+    max_rank: 1
+    ranks:
+    - 15407
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 210
+    name: Improved Mana Burn
+    row: 3
+    col: 1
+    max_rank: 2
+    ranks:
+    - 14750
+    - 14772
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 211
+    name: Shadow Reach
+    row: 3
+    col: 2
+    max_rank: 2
+    ranks:
+    - 17322
+    - 17323
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 212
+    name: Shadow Weaving
+    row: 3
+    col: 3
+    max_rank: 5
+    ranks:
+    - 15257
+    - 15331
+    - 15332
+    - 15333
+    - 15334
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 213
+    name: Silence
+    row: 4
+    col: 0
+    max_rank: 1
+    ranks:
+    - 15487
+    req: 207
+    req_rank: 2
+    points_per_rank: 1
+  - id: 214
+    name: Vampiric Embrace
+    row: 4
+    col: 1
+    max_rank: 1
+    ranks:
+    - 15286
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 215
+    name: Vampiric Touch
+    row: 4
+    col: 2
+    max_rank: 2
+    ranks:
+    - 45557
+    - 45558
+    req: 214
+    req_rank: 1
+    points_per_rank: 1
+  - id: 216
+    name: Darkness
+    row: 5
+    col: 2
+    max_rank: 5
+    ranks:
+    - 15259
+    - 15307
+    - 15308
+    - 15309
+    - 15310
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 217
+    name: Shadowform
+    row: 6
+    col: 1
+    max_rank: 1
+    ranks:
+    - 15473
+    req: 214
+    req_rank: 1
+    points_per_rank: 1

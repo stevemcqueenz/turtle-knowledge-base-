@@ -1,0 +1,612 @@
+class: paladin
+name: Paladin
+turtle: true
+source: refs/tortoise-db-viewer/scripts/data/talents.json (client-derived, 1.18.1) + server/data/dbc/Spell.dbc field 120 for names
+max_points: 51
+tabs:
+- id: 382
+  name: Holy
+  order: 0
+  talents:
+  - id: 444
+    name: Divine Strength
+    row: 0
+    col: 1
+    max_rank: 5
+    ranks:
+    - 20262
+    - 20263
+    - 20264
+    - 20265
+    - 20266
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 445
+    name: Divine Intellect
+    row: 0
+    col: 2
+    max_rank: 5
+    ranks:
+    - 20257
+    - 20258
+    - 20259
+    - 20260
+    - 20261
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 446
+    name: Holy Judgement
+    row: 1
+    col: 0
+    max_rank: 3
+    ranks:
+    - 51304
+    - 51306
+    - 51308
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 447
+    name: Spiritual Focus
+    row: 1
+    col: 1
+    max_rank: 2
+    ranks:
+    - 20205
+    - 20206
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 448
+    name: Improved Seal of Righteousness
+    row: 1
+    col: 2
+    max_rank: 5
+    ranks:
+    - 20224
+    - 20225
+    - 20330
+    - 20331
+    - 20332
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 449
+    name: Healing Light
+    row: 2
+    col: 0
+    max_rank: 3
+    ranks:
+    - 20237
+    - 20238
+    - 20239
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 450
+    name: Sanctity Aura
+    row: 2
+    col: 1
+    max_rank: 1
+    ranks:
+    - 20218
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 451
+    name: Improved Lay on Hands
+    row: 2
+    col: 2
+    max_rank: 2
+    ranks:
+    - 20234
+    - 20235
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 452
+    name: Unyielding Faith
+    row: 2
+    col: 3
+    max_rank: 2
+    ranks:
+    - 9453
+    - 25836
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 453
+    name: Improved Concentration Aura
+    row: 3
+    col: 0
+    max_rank: 3
+    ranks:
+    - 20254
+    - 20255
+    - 20256
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 454
+    name: Illumination
+    row: 3
+    col: 1
+    max_rank: 5
+    ranks:
+    - 20210
+    - 20212
+    - 20213
+    - 20214
+    - 20215
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 455
+    name: Ironclad
+    row: 3
+    col: 2
+    max_rank: 2
+    ranks:
+    - 51310
+    - 51311
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 456
+    name: Divine Favor
+    row: 4
+    col: 0
+    max_rank: 5
+    ranks:
+    - 51312
+    - 51313
+    - 51314
+    - 51315
+    - 51316
+    req: 457
+    req_rank: 1
+    points_per_rank: 1
+  - id: 457
+    name: Holy Shock
+    row: 4
+    col: 1
+    max_rank: 1
+    ranks:
+    - 20473
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 458
+    name: Holy Power
+    row: 5
+    col: 0
+    max_rank: 3
+    ranks:
+    - 5923
+    - 5924
+    - 5925
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 459
+    name: Blessed Strikes
+    row: 5
+    col: 2
+    max_rank: 5
+    ranks:
+    - 51317
+    - 51318
+    - 51319
+    - 51320
+    - 51321
+    req: 457
+    req_rank: 1
+    points_per_rank: 1
+  - id: 460
+    name: Daybreak
+    row: 6
+    col: 1
+    max_rank: 1
+    ranks:
+    - 51323
+    req: 457
+    req_rank: 1
+    points_per_rank: 1
+- id: 383
+  name: Protection
+  order: 1
+  talents:
+  - id: 461
+    name: Improved Devotion Aura
+    row: 0
+    col: 1
+    max_rank: 5
+    ranks:
+    - 20138
+    - 20139
+    - 20140
+    - 20141
+    - 20142
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 462
+    name: Redoubt
+    row: 0
+    col: 2
+    max_rank: 5
+    ranks:
+    - 45818
+    - 45819
+    - 45820
+    - 45821
+    - 45822
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 463
+    name: Precision
+    row: 1
+    col: 0
+    max_rank: 3
+    ranks:
+    - 20189
+    - 20192
+    - 20193
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 464
+    name: Guardian's Favor
+    row: 1
+    col: 1
+    max_rank: 2
+    ranks:
+    - 20174
+    - 20175
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 465
+    name: Toughness
+    row: 1
+    col: 3
+    max_rank: 5
+    ranks:
+    - 20143
+    - 20144
+    - 20145
+    - 20146
+    - 20147
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 466
+    name: Improved Righteous Fury
+    row: 2
+    col: 0
+    max_rank: 3
+    ranks:
+    - 20468
+    - 20469
+    - 20470
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 467
+    name: Blessing of Sanctuary
+    row: 2
+    col: 1
+    max_rank: 1
+    ranks:
+    - 20911
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 468
+    name: Shield Specialization
+    row: 2
+    col: 2
+    max_rank: 3
+    ranks:
+    - 20148
+    - 20149
+    - 20150
+    req: 462
+    req_rank: 5
+    points_per_rank: 1
+  - id: 469
+    name: Anticipation
+    row: 2
+    col: 3
+    max_rank: 3
+    ranks:
+    - 20096
+    - 20097
+    - 20098
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 470
+    name: Improved Hand of Reckoning
+    row: 3
+    col: 1
+    max_rank: 2
+    ranks:
+    - 51334
+    - 51335
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 471
+    name: Improved Hammer of Justice
+    row: 3
+    col: 2
+    max_rank: 3
+    ranks:
+    - 20487
+    - 20488
+    - 20489
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 472
+    name: Righteous Defense
+    row: 4
+    col: 0
+    max_rank: 3
+    ranks:
+    - 51328
+    - 51329
+    - 51330
+    req: 466
+    req_rank: 3
+    points_per_rank: 1
+  - id: 473
+    name: Holy Shield
+    row: 4
+    col: 1
+    max_rank: 1
+    ranks:
+    - 20925
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 474
+    name: Reckoning
+    row: 4
+    col: 2
+    max_rank: 5
+    ranks:
+    - 45823
+    - 45824
+    - 45825
+    - 45826
+    - 45837
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 475
+    name: Righteous Strikes
+    row: 5
+    col: 2
+    max_rank: 5
+    ranks:
+    - 51341
+    - 51342
+    - 51343
+    - 51344
+    - 51345
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 476
+    name: Bulwark of the Righteous
+    row: 6
+    col: 1
+    max_rank: 1
+    ranks:
+    - 51346
+    req: 473
+    req_rank: 1
+    points_per_rank: 1
+- id: 381
+  name: Retribution
+  order: 2
+  talents:
+  - id: 428
+    name: Improved Blessings
+    row: 0
+    col: 1
+    max_rank: 5
+    ranks:
+    - 20042
+    - 20045
+    - 20046
+    - 20047
+    - 20048
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 429
+    name: Benediction
+    row: 0
+    col: 2
+    max_rank: 5
+    ranks:
+    - 20101
+    - 20102
+    - 20103
+    - 20104
+    - 20105
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 430
+    name: Improved Judgement
+    row: 1
+    col: 0
+    max_rank: 2
+    ranks:
+    - 25956
+    - 25957
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 431
+    name: Improved Seal of the Crusader
+    row: 1
+    col: 1
+    max_rank: 3
+    ranks:
+    - 20335
+    - 20336
+    - 20337
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 432
+    name: Deflection
+    row: 1
+    col: 2
+    max_rank: 5
+    ranks:
+    - 20060
+    - 20061
+    - 20062
+    - 20063
+    - 20064
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 433
+    name: Improved Retribution Aura
+    row: 2
+    col: 0
+    max_rank: 2
+    ranks:
+    - 20091
+    - 20092
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 434
+    name: Conviction
+    row: 2
+    col: 1
+    max_rank: 5
+    ranks:
+    - 20117
+    - 20118
+    - 20119
+    - 20120
+    - 20121
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 435
+    name: Blessing of Kings
+    row: 2
+    col: 2
+    max_rank: 1
+    ranks:
+    - 20217
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 436
+    name: Pursuit of Justice
+    row: 2
+    col: 3
+    max_rank: 2
+    ranks:
+    - 26022
+    - 26023
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 437
+    name: Two-Handed Weapon Specialization
+    row: 3
+    col: 0
+    max_rank: 3
+    ranks:
+    - 20111
+    - 20112
+    - 20113
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 438
+    name: Vindication
+    row: 3
+    col: 2
+    max_rank: 3
+    ranks:
+    - 9452
+    - 26016
+    - 26021
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 439
+    name: Eye for an Eye
+    row: 4
+    col: 0
+    max_rank: 2
+    ranks:
+    - 9799
+    - 25988
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 440
+    name: Vengeance
+    row: 4
+    col: 1
+    max_rank: 5
+    ranks:
+    - 20049
+    - 20056
+    - 20057
+    - 20058
+    - 20059
+    req: 434
+    req_rank: 5
+    points_per_rank: 1
+  - id: 441
+    name: Seal of Command
+    row: 4
+    col: 2
+    max_rank: 1
+    ranks:
+    - 20375
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 442
+    name: Vengeful Strikes
+    row: 5
+    col: 1
+    max_rank: 5
+    ranks:
+    - 51355
+    - 51356
+    - 51357
+    - 51358
+    - 51359
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 443
+    name: Repentance
+    row: 6
+    col: 1
+    max_rank: 1
+    ranks:
+    - 20066
+    req: null
+    req_rank: null
+    points_per_rank: 1

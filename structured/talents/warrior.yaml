@@ -1,0 +1,661 @@
+class: warrior
+name: Warrior
+turtle: true
+source: refs/tortoise-db-viewer/scripts/data/talents.json (client-derived, 1.18.1) + server/data/dbc/Spell.dbc field 120 for names
+max_points: 51
+tabs:
+- id: 161
+  name: Arms
+  order: 0
+  talents:
+  - id: 56
+    name: Improved Heroic Strike
+    row: 0
+    col: 0
+    max_rank: 3
+    ranks:
+    - 12282
+    - 12663
+    - 12664
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 57
+    name: Tactical Mastery
+    row: 0
+    col: 1
+    max_rank: 5
+    ranks:
+    - 12295
+    - 12676
+    - 12677
+    - 12678
+    - 12679
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 58
+    name: Improved Rend
+    row: 0
+    col: 2
+    max_rank: 2
+    ranks:
+    - 12286
+    - 12658
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 59
+    name: Improved Charge
+    row: 1
+    col: 0
+    max_rank: 2
+    ranks:
+    - 12285
+    - 12697
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 60
+    name: Deflection
+    row: 1
+    col: 1
+    max_rank: 5
+    ranks:
+    - 16462
+    - 16463
+    - 16464
+    - 16465
+    - 16466
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 61
+    name: Improved Thunder Clap
+    row: 1
+    col: 3
+    max_rank: 3
+    ranks:
+    - 12287
+    - 12665
+    - 12666
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 62
+    name: Master Strike
+    row: 2
+    col: 0
+    max_rank: 1
+    ranks:
+    - 54023
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 63
+    name: Improved Overpower
+    row: 2
+    col: 1
+    max_rank: 2
+    ranks:
+    - 12290
+    - 12963
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 64
+    name: Deep Wounds
+    row: 2
+    col: 2
+    max_rank: 3
+    ranks:
+    - 12834
+    - 12849
+    - 12867
+    req: 58
+    req_rank: 2
+    points_per_rank: 1
+  - id: 65
+    name: Two-Handed Weapon Specialization
+    row: 3
+    col: 1
+    max_rank: 3
+    ranks:
+    - 12163
+    - 12711
+    - 12712
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 66
+    name: Impale
+    row: 3
+    col: 2
+    max_rank: 2
+    ranks:
+    - 16493
+    - 16494
+    req: 64
+    req_rank: 3
+    points_per_rank: 1
+  - id: 67
+    name: Master of Arms
+    row: 4
+    col: 0
+    max_rank: 5
+    ranks:
+    - 51644
+    - 51655
+    - 51656
+    - 51657
+    - 51658
+    req: 62
+    req_rank: 1
+    points_per_rank: 1
+  - id: 68
+    name: Sweeping Strikes
+    row: 4
+    col: 1
+    max_rank: 1
+    ranks:
+    - 12292
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 69
+    name: Boundless Anger
+    row: 4
+    col: 2
+    max_rank: 3
+    ranks:
+    - 57709
+    - 57710
+    - 57711
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 70
+    name: Improved Disciplines
+    row: 4
+    col: 3
+    max_rank: 3
+    ranks:
+    - 45576
+    - 45577
+    - 45578
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 71
+    name: Improved Slam
+    row: 5
+    col: 0
+    max_rank: 2
+    ranks:
+    - 12862
+    - 12330
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 72
+    name: Precision Cut
+    row: 5
+    col: 2
+    max_rank: 3
+    ranks:
+    - 51641
+    - 51642
+    - 51643
+    req: 69
+    req_rank: 3
+    points_per_rank: 1
+  - id: 73
+    name: Mortal Strike
+    row: 6
+    col: 1
+    max_rank: 1
+    ranks:
+    - 12294
+    req: 68
+    req_rank: 1
+    points_per_rank: 1
+- id: 164
+  name: Fury
+  order: 1
+  talents:
+  - id: 93
+    name: Booming Voice
+    row: 0
+    col: 1
+    max_rank: 5
+    ranks:
+    - 12321
+    - 12835
+    - 12836
+    - 12837
+    - 12838
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 94
+    name: Cruelty
+    row: 0
+    col: 2
+    max_rank: 5
+    ranks:
+    - 12320
+    - 12852
+    - 12853
+    - 12855
+    - 12856
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 95
+    name: Dual Wield Specialization
+    row: 1
+    col: 1
+    max_rank: 5
+    ranks:
+    - 23584
+    - 23585
+    - 23586
+    - 23587
+    - 23588
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 96
+    name: Unbridled Wrath
+    row: 1
+    col: 2
+    max_rank: 5
+    ranks:
+    - 12322
+    - 12999
+    - 13000
+    - 13001
+    - 13002
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 97
+    name: Improved Shouts
+    row: 2
+    col: 0
+    max_rank: 5
+    ranks:
+    - 51609
+    - 51610
+    - 51611
+    - 51612
+    - 51613
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 98
+    name: Piercing Howl
+    row: 2
+    col: 1
+    max_rank: 1
+    ranks:
+    - 12323
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 99
+    name: Blood Craze
+    row: 2
+    col: 2
+    max_rank: 3
+    ranks:
+    - 16487
+    - 16489
+    - 16492
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 100
+    name: Battlefield Mobility
+    row: 3
+    col: 1
+    max_rank: 2
+    ranks:
+    - 20504
+    - 20505
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 101
+    name: Enrage
+    row: 3
+    col: 2
+    max_rank: 5
+    ranks:
+    - 12317
+    - 13045
+    - 13046
+    - 13047
+    - 13048
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 102
+    name: Improved Pummel
+    row: 3
+    col: 3
+    max_rank: 2
+    ranks:
+    - 51614
+    - 51615
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 103
+    name: Ravager
+    row: 4
+    col: 0
+    max_rank: 3
+    ranks:
+    - 51616
+    - 51617
+    - 51618
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 104
+    name: Death Wish
+    row: 4
+    col: 1
+    max_rank: 1
+    ranks:
+    - 12328
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 105
+    name: Improved Execute
+    row: 4
+    col: 3
+    max_rank: 2
+    ranks:
+    - 20502
+    - 20503
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 106
+    name: Improved Berserker Rage
+    row: 5
+    col: 0
+    max_rank: 2
+    ranks:
+    - 20500
+    - 20501
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 107
+    name: Flurry
+    row: 5
+    col: 1
+    max_rank: 5
+    ranks:
+    - 12319
+    - 12971
+    - 12972
+    - 12973
+    - 12974
+    req: 104
+    req_rank: 1
+    points_per_rank: 1
+  - id: 108
+    name: Blood Drinker
+    row: 5
+    col: 2
+    max_rank: 3
+    ranks:
+    - 51623
+    - 51624
+    - 51625
+    req: 101
+    req_rank: 5
+    points_per_rank: 1
+  - id: 109
+    name: Bloodthirst
+    row: 6
+    col: 1
+    max_rank: 1
+    ranks:
+    - 23881
+    req: null
+    req_rank: null
+    points_per_rank: 1
+- id: 163
+  name: Protection
+  order: 2
+  talents:
+  - id: 74
+    name: Improved Bloodrage
+    row: 0
+    col: 0
+    max_rank: 2
+    ranks:
+    - 12301
+    - 12818
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 75
+    name: Shield Specialization
+    row: 0
+    col: 1
+    max_rank: 5
+    ranks:
+    - 12298
+    - 12724
+    - 12725
+    - 12726
+    - 12727
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 76
+    name: Anticipation
+    row: 0
+    col: 2
+    max_rank: 3
+    ranks:
+    - 12297
+    - 12750
+    - 12751
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 77
+    name: Iron Will
+    row: 1
+    col: 1
+    max_rank: 5
+    ranks:
+    - 12300
+    - 12959
+    - 12960
+    - 12961
+    - 12962
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 78
+    name: Toughness
+    row: 1
+    col: 2
+    max_rank: 5
+    ranks:
+    - 12299
+    - 12761
+    - 12762
+    - 12763
+    - 12764
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 79
+    name: Last Stand
+    row: 2
+    col: 0
+    max_rank: 1
+    ranks:
+    - 12975
+    req: 74
+    req_rank: 2
+    points_per_rank: 1
+  - id: 80
+    name: Improved Intervene
+    row: 2
+    col: 1
+    max_rank: 2
+    ranks:
+    - 51591
+    - 51592
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 81
+    name: Improved Taunt
+    row: 2
+    col: 2
+    max_rank: 2
+    ranks:
+    - 12302
+    - 12765
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 82
+    name: Improved Revenge
+    row: 2
+    col: 3
+    max_rank: 3
+    ranks:
+    - 12797
+    - 12799
+    - 12800
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 83
+    name: Gag Order
+    row: 3
+    col: 0
+    max_rank: 2
+    ranks:
+    - 12311
+    - 12958
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 84
+    name: Improved Disarm
+    row: 3
+    col: 1
+    max_rank: 2
+    ranks:
+    - 12313
+    - 12804
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 85
+    name: Defiance
+    row: 3
+    col: 2
+    max_rank: 5
+    ranks:
+    - 12303
+    - 12788
+    - 12789
+    - 12791
+    - 12792
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 86
+    name: One-Handed Weapon Specialization
+    row: 4
+    col: 0
+    max_rank: 5
+    ranks:
+    - 16538
+    - 16539
+    - 16540
+    - 16541
+    - 16542
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 87
+    name: Shield Slam
+    row: 4
+    col: 1
+    max_rank: 1
+    ranks:
+    - 23922
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 88
+    name: Improved Shield Slam
+    row: 4
+    col: 2
+    max_rank: 2
+    ranks:
+    - 51598
+    - 51599
+    req: 87
+    req_rank: 1
+    points_per_rank: 1
+  - id: 89
+    name: Reprisal
+    row: 4
+    col: 3
+    max_rank: 2
+    ranks:
+    - 51593
+    - 51594
+    req: 82
+    req_rank: 3
+    points_per_rank: 1
+  - id: 90
+    name: Improved Shield Wall
+    row: 5
+    col: 0
+    max_rank: 2
+    ranks:
+    - 12312
+    - 12803
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 91
+    name: Defensive Tactics
+    row: 5
+    col: 2
+    max_rank: 3
+    ranks:
+    - 51606
+    - 51607
+    - 51608
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 92
+    name: Concussion Blow
+    row: 6
+    col: 1
+    max_rank: 1
+    ranks:
+    - 12809
+    req: 87
+    req_rank: 1
+    points_per_rank: 1

@@ -1,0 +1,670 @@
+class: rogue
+name: Rogue
+turtle: true
+source: refs/tortoise-db-viewer/scripts/data/talents.json (client-derived, 1.18.1) + server/data/dbc/Spell.dbc field 120 for names
+max_points: 51
+tabs:
+- id: 182
+  name: Assassination
+  order: 0
+  talents:
+  - id: 128
+    name: Improved Eviscerate
+    row: 0
+    col: 0
+    max_rank: 3
+    ranks:
+    - 14162
+    - 14163
+    - 14164
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 129
+    name: Remorseless Attacks
+    row: 0
+    col: 1
+    max_rank: 2
+    ranks:
+    - 14144
+    - 14148
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 130
+    name: Malice
+    row: 0
+    col: 2
+    max_rank: 5
+    ranks:
+    - 14138
+    - 14139
+    - 14140
+    - 14141
+    - 14142
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 131
+    name: Ruthlessness
+    row: 1
+    col: 0
+    max_rank: 3
+    ranks:
+    - 14156
+    - 14160
+    - 14161
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 132
+    name: Murder
+    row: 1
+    col: 1
+    max_rank: 2
+    ranks:
+    - 14158
+    - 14159
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 133
+    name: Improved Blade Tactics
+    row: 1
+    col: 3
+    max_rank: 3
+    ranks:
+    - 14165
+    - 14166
+    - 14167
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 134
+    name: Relentless Strikes
+    row: 2
+    col: 0
+    max_rank: 1
+    ranks:
+    - 14179
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 135
+    name: Throwing Weapon Specialization
+    row: 2
+    col: 1
+    max_rank: 2
+    ranks:
+    - 13710
+    - 13859
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 136
+    name: Lethality
+    row: 2
+    col: 2
+    max_rank: 5
+    ranks:
+    - 14128
+    - 14132
+    - 14135
+    - 14136
+    - 14137
+    req: 130
+    req_rank: 5
+    points_per_rank: 1
+  - id: 137
+    name: Taste for Blood
+    row: 3
+    col: 0
+    max_rank: 2
+    ranks:
+    - 14174
+    - 14175
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 138
+    name: Vile Poisons
+    row: 3
+    col: 1
+    max_rank: 3
+    ranks:
+    - 16513
+    - 16514
+    - 16515
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 139
+    name: Improved Poisons
+    row: 3
+    col: 2
+    max_rank: 3
+    ranks:
+    - 14113
+    - 14114
+    - 14115
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 140
+    name: Efficient Poisons
+    row: 4
+    col: 0
+    max_rank: 3
+    ranks:
+    - 52518
+    - 52519
+    - 52520
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 141
+    name: Envenom
+    row: 4
+    col: 1
+    max_rank: 1
+    ranks:
+    - 52531
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 142
+    name: Cold Blood
+    row: 4
+    col: 2
+    max_rank: 1
+    ranks:
+    - 14177
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 143
+    name: Vigor
+    row: 5
+    col: 0
+    max_rank: 2
+    ranks:
+    - 14983
+    - 52527
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 144
+    name: Seal Fate
+    row: 5
+    col: 2
+    max_rank: 5
+    ranks:
+    - 14186
+    - 14190
+    - 14193
+    - 14194
+    - 14195
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 145
+    name: Noxious Assault
+    row: 6
+    col: 1
+    max_rank: 1
+    ranks:
+    - 52714
+    req: 141
+    req_rank: 1
+    points_per_rank: 1
+- id: 181
+  name: Combat
+  order: 1
+  talents:
+  - id: 110
+    name: Opportunity
+    row: 0
+    col: 1
+    max_rank: 5
+    ranks:
+    - 14057
+    - 14072
+    - 14073
+    - 14074
+    - 14075
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 111
+    name: Lightning Reflexes
+    row: 0
+    col: 2
+    max_rank: 5
+    ranks:
+    - 13712
+    - 13788
+    - 13789
+    - 13790
+    - 13791
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 112
+    name: Deflection
+    row: 1
+    col: 0
+    max_rank: 5
+    ranks:
+    - 13713
+    - 13853
+    - 13854
+    - 13855
+    - 13856
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 113
+    name: Improved Backstab
+    row: 1
+    col: 1
+    max_rank: 3
+    ranks:
+    - 13733
+    - 13865
+    - 13866
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 114
+    name: Precision
+    row: 1
+    col: 2
+    max_rank: 5
+    ranks:
+    - 13705
+    - 13832
+    - 13843
+    - 13844
+    - 13845
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 115
+    name: Riposte
+    row: 2
+    col: 0
+    max_rank: 1
+    ranks:
+    - 14251
+    req: 112
+    req_rank: 5
+    points_per_rank: 1
+  - id: 116
+    name: Improved Sprint
+    row: 2
+    col: 1
+    max_rank: 2
+    ranks:
+    - 13743
+    - 13875
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 117
+    name: Setup
+    row: 2
+    col: 3
+    max_rank: 3
+    ranks:
+    - 13983
+    - 14070
+    - 14071
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 118
+    name: Improved Kick
+    row: 3
+    col: 0
+    max_rank: 2
+    ranks:
+    - 13754
+    - 13867
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 119
+    name: Concussive Blows
+    row: 3
+    col: 1
+    max_rank: 5
+    ranks:
+    - 13709
+    - 13800
+    - 13801
+    - 13802
+    - 13803
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 120
+    name: Dual Wield Specialization
+    row: 3
+    col: 2
+    max_rank: 5
+    ranks:
+    - 13715
+    - 13848
+    - 13849
+    - 13851
+    - 13852
+    req: 114
+    req_rank: 5
+    points_per_rank: 1
+  - id: 121
+    name: Close Quarters Combat
+    row: 4
+    col: 0
+    max_rank: 2
+    ranks:
+    - 13706
+    - 13804
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 122
+    name: Surprise Attack
+    row: 4
+    col: 1
+    max_rank: 1
+    ranks:
+    - 52511
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 123
+    name: Hack and Slash
+    row: 4
+    col: 2
+    max_rank: 2
+    ranks:
+    - 13960
+    - 13961
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 124
+    name: Weapon Expertise
+    row: 4
+    col: 3
+    max_rank: 2
+    ranks:
+    - 30919
+    - 30920
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 125
+    name: Blade Rush
+    row: 5
+    col: 1
+    max_rank: 2
+    ranks:
+    - 52507
+    - 52508
+    req: 122
+    req_rank: 1
+    points_per_rank: 1
+  - id: 126
+    name: Aggression
+    row: 5
+    col: 2
+    max_rank: 3
+    ranks:
+    - 18427
+    - 18428
+    - 18429
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 127
+    name: Adrenaline Rush
+    row: 6
+    col: 1
+    max_rank: 1
+    ranks:
+    - 13750
+    req: null
+    req_rank: null
+    points_per_rank: 1
+- id: 183
+  name: Subtlety
+  order: 2
+  talents:
+  - id: 146
+    name: Camouflage
+    row: 0
+    col: 1
+    max_rank: 5
+    ranks:
+    - 13975
+    - 14062
+    - 14063
+    - 14064
+    - 14065
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 147
+    name: Improved Expose Armor
+    row: 0
+    col: 2
+    max_rank: 2
+    ranks:
+    - 14168
+    - 14169
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 148
+    name: Improved Gouge
+    row: 0
+    col: 3
+    max_rank: 3
+    ranks:
+    - 13741
+    - 13793
+    - 13792
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 149
+    name: Improved Ambush
+    row: 1
+    col: 0
+    max_rank: 3
+    ranks:
+    - 14079
+    - 14080
+    - 14081
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 150
+    name: Elusiveness
+    row: 1
+    col: 1
+    max_rank: 2
+    ranks:
+    - 13981
+    - 14066
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 151
+    name: Serrated Blades
+    row: 1
+    col: 2
+    max_rank: 3
+    ranks:
+    - 14171
+    - 14172
+    - 14173
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 152
+    name: Initiative
+    row: 2
+    col: 0
+    max_rank: 3
+    ranks:
+    - 13976
+    - 13979
+    - 13980
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 153
+    name: Improved Ghostly Strike
+    row: 2
+    col: 1
+    max_rank: 3
+    ranks:
+    - 51970
+    - 51971
+    - 51972
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 154
+    name: Smoke Bomb
+    row: 2
+    col: 2
+    max_rank: 1
+    ranks:
+    - 51969
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 155
+    name: Hemorrhage
+    row: 2
+    col: 3
+    max_rank: 1
+    ranks:
+    - 16511
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 156
+    name: Cloaked in Shadows
+    row: 3
+    col: 0
+    max_rank: 2
+    ranks:
+    - 52707
+    - 52709
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 157
+    name: Blackjack
+    row: 3
+    col: 1
+    max_rank: 2
+    ranks:
+    - 14076
+    - 14094
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 158
+    name: Blinding Haze
+    row: 3
+    col: 2
+    max_rank: 3
+    ranks:
+    - 51680
+    - 51681
+    - 51682
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 159
+    name: Dirty Deeds
+    row: 4
+    col: 0
+    max_rank: 2
+    ranks:
+    - 14082
+    - 14083
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 160
+    name: Preparation
+    row: 4
+    col: 1
+    max_rank: 1
+    ranks:
+    - 14185
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 161
+    name: Shadow of Death
+    row: 4
+    col: 2
+    max_rank: 1
+    ranks:
+    - 52710
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 162
+    name: Bloody Mess
+    row: 4
+    col: 3
+    max_rank: 2
+    ranks:
+    - 51974
+    - 51975
+    req: 155
+    req_rank: 1
+    points_per_rank: 1
+  - id: 163
+    name: Honor Among Thieves
+    row: 5
+    col: 0
+    max_rank: 2
+    ranks:
+    - 52512
+    - 52514
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 164
+    name: Tricks of the Trade
+    row: 5
+    col: 2
+    max_rank: 5
+    ranks:
+    - 52541
+    - 52542
+    - 52543
+    - 52544
+    - 52545
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 165
+    name: Mark for Death
+    row: 6
+    col: 1
+    max_rank: 1
+    ranks:
+    - 52538
+    req: 160
+    req_rank: 1
+    points_per_rank: 1
