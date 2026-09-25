@@ -1,5 +1,5 @@
-import type { ClassEntry, MatrixRow, Playbook, PlaybookYaml } from '../types';
-import { siteData } from '../data';
+import type { ClassEntry, ClassSummary, MatrixRow, Playbook, PlaybookYaml } from '../types';
+import { coreData } from '../data';
 
 export const ROLE_ORDER = ['tank', 'healer', 'melee-dps', 'ranged-dps', 'pvp'] as const;
 
@@ -21,19 +21,15 @@ export function roleRank(role: string): number {
   return i === -1 ? ROLE_ORDER.length : i;
 }
 
-export const classes = siteData.classes;
-export const matrix = siteData.matrix;
-export const glossary = siteData.glossary;
-export const meta = siteData.meta;
+export const core = coreData;
+export const classes: ClassSummary[] = coreData.classes;
+export const glossary = coreData.glossary;
+export const meta = coreData.meta;
 
 const classIndex = new Map(classes.map((c) => [c.slug, c]));
 
-export function getClass(slug: string): ClassEntry | undefined {
+export function getClassSummary(slug: string): ClassSummary | undefined {
   return classIndex.get(slug);
-}
-
-export function getPlaybook(slug: string, id: string): Playbook | undefined {
-  return getClass(slug)?.playbooks.find((p) => p.id === id);
 }
 
 export function playbookNeighbours(entry: ClassEntry, id: string): { prev: Playbook | null; next: Playbook | null } {
@@ -42,16 +38,6 @@ export function playbookNeighbours(entry: ClassEntry, id: string): { prev: Playb
     prev: i > 0 ? entry.playbooks[i - 1] : null,
     next: i >= 0 && i < entry.playbooks.length - 1 ? entry.playbooks[i + 1] : null,
   };
-}
-
-/** Roles that have either a playbook or a matrix row, in template order. */
-export function classRoles(entry: ClassEntry): string[] {
-  const found = new Set<string>();
-  entry.playbooks.forEach((p) => found.add(p.role));
-  entry.matrix.forEach((r) => {
-    if (r.role && r.role !== 'leveling') found.add(r.role);
-  });
-  return [...found].sort((a, b) => roleRank(a) - roleRank(b));
 }
 
 /* ---- badges ------------------------------------------------------------- */
@@ -114,10 +100,6 @@ export function patchValidityMeta(yaml: PlaybookYaml | null | undefined): BadgeM
   return { label: 'Validity unknown', color: '#8a8f98', title: details };
 }
 
-export function favoredSpecs(entry: ClassEntry): MatrixRow[] {
-  return entry.matrix.filter((r) => r.standing === 'favored' && r.role !== 'leveling');
-}
-
 /* ---- YAML shape helpers -------------------------------------------------- */
 
 export function isPlainObject(v: unknown): v is Record<string, unknown> {
@@ -151,17 +133,19 @@ export function routeFromPlaybookPath(path: string | null | undefined): { slug: 
   return { slug: m[1].toLowerCase(), id: m[2] };
 }
 
-/** True when a matrix row points at a playbook this site actually has. */
+/** The spec page a forum-era matrix row points at, when this site has it. */
 export function matrixRowTarget(row: MatrixRow, fallbackClass?: string): { slug: string; id: string } | null {
   const target = routeFromPlaybookPath(row.playbook_path);
-  if (target && getPlaybook(target.slug, target.id)) return target;
+  if (target && getClassSummary(target.slug)?.playbooks.some((p) => p.id === target.id)) return target;
   const slug = (row.class ?? fallbackClass ?? '').toLowerCase();
-  if (!slug) return null;
-  const entry = getClass(slug);
+  const entry = getClassSummary(slug);
   if (!entry) return null;
   const specKey = String(row.spec ?? '').toLowerCase();
-  const match = entry.playbooks.find(
-    (p) => p.role === row.role && specKey.startsWith(p.spec.toLowerCase().split(' ')[0]),
-  );
+  const match = entry.playbooks.find((p) => p.role === row.role && specKey.startsWith(p.spec.toLowerCase().split(' ')[0]));
   return match ? { slug, id: match.id } : null;
+}
+
+/** A playbook's spec name for display: "Fury/Protection (fury-prot)" -> "Fury/Protection". */
+export function specLabel(spec: string): string {
+  return spec.replace(/\s*\([^)]*\)\s*$/, '').trim() || spec;
 }

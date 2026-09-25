@@ -12,9 +12,11 @@ interface SearchDialogProps {
 
 const KIND_LABEL: Record<SearchItem['kind'], string> = {
   class: 'Class',
-  playbook: 'Playbook',
+  spec: 'Guide',
+  section: 'Section',
   leveling: 'Leveling',
   instance: 'Instance',
+  boss: 'Boss',
   glossary: 'Glossary',
   page: 'Page',
 };
@@ -69,16 +71,16 @@ export function SearchDialog({ open, onClose, onGlossary }: SearchDialogProps) {
 
   return (
     <div className="fixed inset-0 z-50 flex items-start justify-center px-3 pt-[8vh]" role="presentation">
-      <div className="absolute inset-0 bg-black/60" onClick={onClose} aria-hidden="true" />
+      <div className="absolute inset-0 bg-black/55 backdrop-blur-[2px]" onClick={onClose} aria-hidden="true" />
       <div
         ref={dialogRef}
         role="dialog"
         aria-modal="true"
         aria-label="Search"
-        className="relative w-full max-w-xl overflow-hidden rounded-xl bg-surface hairline shadow-xl"
+        className="relative w-full max-w-2xl overflow-hidden rounded-2xl bg-surface hairline shadow-2xl"
         onKeyDown={onKeyDown}
       >
-        <div className="flex items-center gap-2 border-b px-3 py-2.5">
+        <div className="flex items-center gap-3 border-b px-4 py-3">
           <span className="text-muted">
             <SearchIcon />
           </span>
@@ -87,16 +89,16 @@ export function SearchDialog({ open, onClose, onGlossary }: SearchDialogProps) {
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             type="search"
-            placeholder="Search classes, specs, playbooks, glossary…"
-            aria-label="Search classes, specs, playbooks and glossary terms"
+            placeholder="Classes, specs, sections, bosses, terms…"
+            aria-label="Search classes, specs, guide sections, bosses and glossary terms"
             aria-controls="search-results"
-            className="w-full bg-transparent py-1 text-sm outline-none placeholder:text-muted"
+            className="w-full bg-transparent py-1 text-base outline-none placeholder:text-muted"
           />
           <kbd className="hidden rounded border px-1.5 py-0.5 font-mono text-[10px] text-muted sm:block">Esc</kbd>
         </div>
         <ul id="search-results" ref={listRef} className="max-h-[60vh] overflow-y-auto scrollbar-thin" role="listbox">
           {results.length === 0 ? (
-            <li className="px-4 py-6 text-center text-sm text-muted">No matches in the guides or the glossary.</li>
+            <li className="px-4 py-8 text-center text-sm text-muted">No matches in the guides or the glossary.</li>
           ) : (
             results.map((item, i) => (
               <li
@@ -105,7 +107,7 @@ export function SearchDialog({ open, onClose, onGlossary }: SearchDialogProps) {
                 aria-selected={i === active}
                 onMouseEnter={() => setActive(i)}
                 onClick={() => choose(item)}
-                className={`flex cursor-pointer items-center gap-3 px-4 py-2 ${i === active ? 'bg-surface2' : ''}`}
+                className={`flex cursor-pointer items-center gap-3 px-4 py-2.5 ${i === active ? 'bg-surface2' : ''}`}
               >
                 <span
                   className="h-2 w-2 shrink-0 rounded-full"

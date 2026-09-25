@@ -1,9 +1,10 @@
 import type { GuideDoc } from '../types';
-import { getClass } from '../lib/site';
-import { href, useScrollReset } from '../lib/router';
-import { readableColor } from '../lib/theme';
-import { useThemeValue } from '../lib/theme-context';
+import { getClassSummary } from '../lib/site';
+import { href, useScrollReset, useSectionScroll } from '../lib/router';
+import { useClassEntry } from '../data';
 import { DocLayout } from '../components/DocLayout';
+import { Loading } from '../components/layout/Page';
+import { useClassInk } from '../components/ui/ClassMark';
 import { NotFound } from './NotFound';
 
 interface GuideDocPageProps {
@@ -15,37 +16,39 @@ interface GuideDocPageProps {
 /**
  * A standalone page of a class guide: the sources page (what informed the
  * guide, the experts relied on, the gaps) or a page no spec guide claims (a
- * niche role). Prose only, one card per section, in document order.
+ * niche role). Prose in document order with a table of contents.
  */
 export function GuideDocPage({ slug, page }: GuideDocPageProps) {
-  const entry = getClass(slug);
+  const cls = getClassSummary(slug);
+  const entry = useClassEntry(slug);
   useScrollReset(`${slug}/${page}`);
-  const theme = useThemeValue();
+  useSectionScroll(!!entry);
+  const { rgb } = useClassInk(cls?.color ?? '#cccccc');
+  const path = page === 'sources' ? href.sources(slug) : href.guidePage(slug, page);
+  if (!cls || entry === null) return <NotFound path={path} />;
+  if (!entry) return <Loading />;
 
   const doc: GuideDoc | null | undefined =
-    page === 'sources' ? entry?.sources : entry?.guidePages?.find((d) => d.slug === page);
-  const path = page === 'sources' ? href.sources(slug) : href.guidePage(slug, page);
-  if (!entry || !doc) return <NotFound path={path} />;
-
-  const ink = readableColor(entry.color, theme);
-  const crumb = page === 'sources' ? 'Sources' : doc.title;
+    page === 'sources' ? entry.sources : entry.guidePages?.find((d) => d.slug === page);
+  if (!doc) return <NotFound path={path} />;
 
   return (
     <DocLayout
       crumbs={[
         { label: 'Classes', href: href.home() },
-        { label: entry.name, href: href.class(entry.slug), color: ink },
-        { label: crumb },
+        { label: cls.name, href: href.class(slug) },
+        { label: page === 'sources' ? 'Sources' : doc.title },
       ]}
-      background={`linear-gradient(180deg, ${entry.color}22 0%, ${entry.color}00 100%)`}
+      rgb={rgb}
+      eyebrow={page === 'sources' ? `${cls.name} · what the guides are built on` : `${cls.name} · guide page`}
       title={doc.title}
       intro={doc.intro}
       sections={doc.sections}
       footer={
         page === 'sources' ? (
-          <p className="text-xs text-muted">
-            Discord citations link to the verbatim message in the repository&apos;s evidence files; hover a chip to
-            read the message.
+          <p className="border-t pt-6 text-sm text-muted">
+            Discord citations link to the verbatim message in the repository&rsquo;s evidence files. Hover a
+            marker to read the message.
           </p>
         ) : null
       }

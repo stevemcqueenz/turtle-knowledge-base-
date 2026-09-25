@@ -2,7 +2,8 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 import { useRoute } from './lib/router';
 import { useTheme } from './lib/theme';
 import { ThemeContext } from './lib/theme-context';
-import { siteData } from './data';
+import { coreData } from './data';
+import { installCitePopover } from './lib/cite-popover';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { SearchDialog } from './components/SearchDialog';
@@ -17,6 +18,7 @@ import { InstancesPage } from './pages/InstancesPage';
 import { InstancePage } from './pages/InstancePage';
 import { MatrixPage } from './pages/MatrixPage';
 import { AboutPage } from './pages/AboutPage';
+import { ArchivePage } from './pages/ArchivePage';
 import { NotFound } from './pages/NotFound';
 
 export default function App() {
@@ -31,6 +33,8 @@ export default function App() {
     setGlossaryQuery(term);
     setGlossaryOpen(true);
   }, []);
+
+  useEffect(() => installCitePopover(), []);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -48,7 +52,7 @@ export default function App() {
   let page: React.ReactNode;
   switch (route.name) {
     case 'home':
-      page = <Home onGlossary={openGlossary} />;
+      page = <Home onSearch={() => setSearchOpen(true)} />;
       break;
     case 'class':
       page = <ClassPage key={route.slug} slug={route.slug} />;
@@ -80,6 +84,9 @@ export default function App() {
     case 'about':
       page = <AboutPage />;
       break;
+    case 'archive':
+      page = <ArchivePage />;
+      break;
     default:
       page = <NotFound path={route.path} />;
   }
@@ -93,7 +100,7 @@ export default function App() {
         Skip to content
       </a>
       <Header onOpenSearch={() => setSearchOpen(true)} onOpenGlossary={() => openGlossary('')} active={route.name} />
-      {siteData.isFixture ? (
+      {coreData.isFixture ? (
         <p className="bg-niche/15 px-3 py-1.5 text-center text-xs text-niche">
           Development fixtures: src/data/*.json has not been generated yet.
         </p>

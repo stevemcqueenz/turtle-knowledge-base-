@@ -13,6 +13,7 @@ export default {
         muted: 'rgb(var(--c-muted) / <alpha-value>)',
         line: 'rgb(var(--c-line) / <alpha-value>)',
         accent: 'rgb(var(--c-accent) / <alpha-value>)',
+        jade: 'rgb(var(--c-jade) / <alpha-value>)',
         // Fixed semantic colors (identical in both themes, per PLAN §4).
         favored: '#3ddc84',
         alternative: '#4ea1ff',
@@ -31,9 +32,11 @@ export default {
         warlock: '#8788EE',
         druid: '#FF7C0A',
       },
-      borderRadius: { xl: '12px', '2xl': '16px' },
+      borderRadius: { xl: '12px', '2xl': '18px' },
       fontFamily: {
         sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
+        // Book faces that ship with the major systems; no web fonts are loaded.
+        serif: ['"Iowan Old Style"', '"Palatino Linotype"', 'Palatino', '"Book Antiqua"', '"URW Palladio L"', 'P052', 'Charter', '"Bitstream Charter"', 'Georgia', '"Noto Serif"', '"DejaVu Serif"', 'serif'],
         mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Consolas', 'monospace'],
       },
       maxWidth: { prose: '72ch' },

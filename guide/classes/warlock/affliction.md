@@ -41,7 +41,7 @@ Afraido pinned this build on release day [[d:warlock#1484228321708478635]]. The 
 | Destruction | Shadow Vulnerability | 5/5 |
 
 Split **35/11/5**, validated with `talent_tool.py` (VALID). Calculator codes:
-`talents.turtlecraft.gg/warlock?points=FoAKaASDRBFAB-ArCAAB-F` · `talents.turtlecraft.gg/warlock/Z08K2FD1V-5IC06-U`
+`talents.turtlecraft.gg/warlock?points=FoAKaASDRBFAB-ArCAAB-F` ([Open in talent calculator](https://xian55.github.io/tortoise-db-viewer/?talents=warlock&t=550012320223210151-053020001-5)) · `talents.turtlecraft.gg/warlock/Z08K2FD1V-5IC06-U`
 
 Why these points:
 
@@ -57,7 +57,7 @@ Why these points:
 
 | Variant | What changes | Code (VALID) | Source |
 |---|---|---|---|
-| **Threat / Improved Stones (31/17/3)** | Adds Improved Stones 2/2 (Voidstone goes from 10% to 15% threat reduction [[d:warlock#1491435318732132393]]), Fel Domination and Curse of Exhaustion; drops instant Corruption and 2 points of Shadow Vulnerability. The 2 Sinister Pursuit points are only a row filler. | `FAISaICDRBFAB-CrDABBQ-D` | Summonjutsu: take it when you pull threat; drop it for more Shadow Vulnerability and instant Corruption if you are the only warlock in the raid [[d:warlock#1427532174705295360]], [[d:warlock#1428239572709408909]] |
+| **Threat / Improved Stones (31/17/3)** | Adds Improved Stones 2/2 (Voidstone goes from 10% to 15% threat reduction [[d:warlock#1491435318732132393]]), Fel Domination and Curse of Exhaustion; drops instant Corruption and 2 points of Shadow Vulnerability. The 2 Sinister Pursuit points are only a row filler. | `FAISaICDRBFAB-CrDABBQ-D` ([calculator](https://xian55.github.io/tortoise-db-viewer/?talents=warlock&t=501022321023210151-2530301012-3)) | Summonjutsu: take it when you pull threat; drop it for more Shadow Vulnerability and instant Corruption if you are the only warlock in the raid [[d:warlock#1427532174705295360]], [[d:warlock#1428239572709408909]] |
 | **Hit-capped, no Nightfall** | Once gear covers hit, move points from Suppression and Nightfall into range (Grim Reach) or other talents | no full code posted | Lynathel [[d:warlock#1492563860291326090]] (single source) |
 | **Keep the pet** | Skip Soul Entrapment/Demonic Sacrifice and run an unsacrificed Succubus for extra damage | none | **Contested:** Bigdots estimates about 10% extra DPS; Gilnean and Wells argue that uptime, positioning and the Succubus's fragility make it worse, and nobody posted test numbers [[d:warlock#1430128305222193213]], [[d:warlock#1430136134310301789]], [[d:warlock#1430162019314831380]] |
 

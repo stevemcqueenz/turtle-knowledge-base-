@@ -98,7 +98,67 @@ export function enhanceMarkdownDom(root: HTMLElement): void {
     a.textContent = label;
   });
 
+  groupCitations(root);
   if (!root.classList.contains('md-inline')) annotateGlossaryTerms(root);
+}
+
+const isCite = (n: Node | null): n is HTMLElement =>
+  !!n && n.nodeType === 1 && (n as HTMLElement).classList.contains('cite');
+
+/**
+ * Evidence stays one hover away but out of the reading line: every run of
+ * adjacent citation chips ("[[d:a]], [[d:b]]" or forum links) becomes one small
+ * superscript marker. Hovering or focusing it shows the quoted messages (see
+ * cite-popover.ts); clicking it unfolds the original chips inline, each still
+ * linking to its evidence line.
+ */
+export function groupCitations(root: HTMLElement): void {
+  const chips = [...root.querySelectorAll<HTMLElement>('a.cite, span.cite')];
+  for (const chip of chips) {
+    if (chip.closest('.cite-group')) continue;
+    const run: HTMLElement[] = [chip];
+    let node: ChildNode | null = chip.nextSibling;
+    while (node) {
+      if (isCite(node)) {
+        run.push(node);
+        node = node.nextSibling;
+        continue;
+      }
+      if (node.nodeType === 3 && /^[\s,;]*$/.test(node.textContent ?? '') && isCite(node.nextSibling)) {
+        const next: ChildNode | null = node.nextSibling;
+        node.remove();
+        node = next;
+        continue;
+      }
+      break;
+    }
+    const doc = chip.ownerDocument;
+    const group = doc.createElement('span');
+    group.className = 'cite-group';
+    const mark = doc.createElement('button');
+    mark.type = 'button';
+    mark.className = 'cite-mark';
+    mark.setAttribute('aria-expanded', 'false');
+    const who = run.map((c) => c.textContent?.trim()).filter(Boolean);
+    mark.setAttribute('aria-label', `${run.length === 1 ? 'Source' : `${run.length} sources`}: ${who.join('; ')}`);
+    mark.textContent = run.length > 1 ? String(run.length) : '';
+    const list = doc.createElement('span');
+    list.className = 'cite-list';
+    chip.before(group);
+    group.append(mark, list);
+    for (const c of run) {
+      if (c.title) {
+        c.dataset.quote = c.title;
+        c.removeAttribute('title');
+      }
+      list.append(c);
+    }
+    // Hug the word it supports: drop the space before the marker.
+    const prev = group.previousSibling;
+    if (prev && prev.nodeType === 3 && /\s$/.test(prev.textContent ?? '') && !/[(\u2014-]\s*$/.test(prev.textContent ?? '')) {
+      prev.textContent = (prev.textContent ?? '').replace(/\s+$/, '');
+    }
+  }
 }
 
 /** Rough plain-text preview of a Markdown string (for cards and meta lines). */

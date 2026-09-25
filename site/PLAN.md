@@ -126,3 +126,14 @@ Rules for all agents: read `AGENTS.md` and this plan first; do not run git; do n
 ## 9. Addendum: dungeon and raid pages
 
 `guide/instances/*.md` (an `index.md` with the dungeon and raid tables, 39 instance pages) is built into the optional `src/data/instances.json` (`{title, intro, sourceFile, groups[], pages[]}`; shape in `src/types.ts` `InstancesData` and `site/README.md` "Dungeon and raid pages") with the class guides' citation and link transform, so links between instances, instance → class and class → instance pages are site routes. New routes: `#/instances` (the index, grouped Dungeons / Raids) and `#/instances/<slug>` (the page, with section tabs); a "Dungeons & Raids" header entry; instance pages in search (their H3 boss names included). Class guide standalone pages and instance pages share `components/DocLayout.tsx`.
+
+## 10. Redesign: the guide drives the summaries (2026-09)
+
+The site was redesigned as a "field manual" for the archived server (full description in `site/README.md`, "Design" and "Guide summaries"). What changed in the contract and the plan above:
+
+- **Source of truth.** Everything summarised (home class cards, the goal rankings, the class viability matrix, the spec and leveling "short answer", ratings, builds) now comes from `guide/classes/**` and `structured/talents/talent-trees.json`. The forum-era `spec-role-matrix.yaml` and `synthesis/**` feed only the research archive (`#/archive`, the gear lists) and the fallback for a class with no guide. §3's standing/agreement/patch-validity badges and the §5 matrix acceptance screenshots are retired.
+- **New data fields** (all optional, absent in the fixtures): `ClassEntry.recommendation`, `.viability`, `.talentTree`; `Playbook.builds`, `.glance`, `.sectionOrder`, `.yamlPath`; `LevelingGuide.recommendation`, `.paths`. Shapes in `src/types.ts`; validated by `test_data.py` (`check_summaries`) and `check-data.mjs`.
+- **Talent builds** are decoded from the tortoise-db-viewer calculator links (`?talents=<class>&t=<digits per talent, per tree>`, the order of `talent-trees.json`), so the native talent grid and the "Open in talent calculator" button always show the same build. The YAML's `build_link_tortoise` is the published build; the guide's other calculator links are the switchable variants.
+- **Code splitting.** `scripts/data-plugin.mjs` serves `src/data/*.json` as a small core module plus one lazy chunk per class, one for instances and one for the archive matrix (first load ~180 kB gzipped instead of ~2 MB). The smoke test preloads all chunks before rendering.
+- **Routes.** `#/matrix` is now the viability board (`?by=<activity>`); `#/archive` holds the old matrix; any route takes `?s=<section id>` to scroll to a section.
+- **Citations** render as one quiet marker per run of chips, with a hover/focus popover of the verbatim messages and click-to-expand chips; the chips' HTML from `build-data.py` is unchanged.

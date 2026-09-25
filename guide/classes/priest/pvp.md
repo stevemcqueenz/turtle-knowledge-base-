@@ -22,7 +22,7 @@ All four were posted after 1.18.1 and pass the 1.18.1 tree check (`talent_tool.p
 
 ### Shadow PvP 7/13/31 (irotos)
 
-`talents.turtlecraft.gg/priest?points=AoAQ-CoAYD-AoCFQIAUJQAoB` · `talents.turtlecraft.gg/priest/0U2-2UII-525C6G7H6` [[d:priest#1487814720428834826]]
+`talents.turtlecraft.gg/priest?points=AoAQ-CoAYD-AoCFQIAUJQAoB` ([Open in talent calculator](https://xian55.github.io/tortoise-db-viewer/?talents=priest&t=005002-0250303-05020520102411251)) · `talents.turtlecraft.gg/priest/0U2-2UII-525C6G7H6` [[d:priest#1487814720428834826]]
 
 | Tree | Talents |
 |---|---|
@@ -34,13 +34,13 @@ All four were posted after 1.18.1 and pass the 1.18.1 tree check (`talent_tool.p
 
 ### Shadow PvP 19/0/32 (Bluefear, defensive)
 
-`talents.turtlecraft.gg/priest?points=AoFRRY--AoCFQICVJAAoB` · `talents.turtlecraft.gg/priest/0UW89--525C8H756` [[d:priest#1487631348079526082]]
+`talents.turtlecraft.gg/priest?points=AoFRRY--AoCFQICVJAAoB` ([Open in talent calculator](https://xian55.github.io/tortoise-db-viewer/?talents=priest&t=0050521213--05020520122511051)) · `talents.turtlecraft.gg/priest/0UW89--525C8H756` [[d:priest#1487631348079526082]]
 
 Adds **Unbreakable Will 5, Improved PW:Shield 3, Improved Inner Fire 2, Inner Focus 1** and **Improved Mana Burn 2**. Drops the Holy tree and Vampiric Touch.
 
 ### Disc PvP 32/19/0 (Bluefear)
 
-`talents.turtlecraft.gg/priest?points=DQFQRYYAZIAoB-CoFKDB-` · `talents.turtlecraft.gg/priest/3CW29337V-2Z8I6` [[d:priest#1487630788479680675]]
+`talents.turtlecraft.gg/priest?points=DQFQRYYAZIAoB-CoFKDB-` ([Open in talent calculator](https://xian55.github.io/tortoise-db-viewer/?talents=priest&t=032052021303031151-025512301)) · `talents.turtlecraft.gg/priest/3CW29337V-2Z8I6` [[d:priest#1487630788479680675]]
 
 | Tree | Talents |
 |---|---|
@@ -51,7 +51,7 @@ Bluefear: "bummer you cant reach holy nova + blackout / torn on blessed conc vs 
 
 ### Disc PvP tri-spec 31/14/6 (Illithris, offensive)
 
-`talents.turtlecraft.gg/priest?points=BoASRDaAZAAoB-CYFYAB-AoB` [[d:priest#1493738200147955824]]
+`talents.turtlecraft.gg/priest?points=BoASRDaAZAAoB-CYFYAB-AoB` ([Open in talent calculator](https://xian55.github.io/tortoise-db-viewer/?talents=priest&t=015002221033231051-023530001-0501)) [[d:priest#1493738200147955824]]
 
 Drops Spiritual Guidance and the shield talents for Force of Will plus **Improved Mind Blast 5**. Illithris's reasoning: "Pw:s is expensive and annoying to use as a damage dealer … It scales with +heal and the talents that effect it are bad. Pvp disc isn't fundamentally different from pve disc" (same source). You can also take the PvE [Smite 31/20/0](discipline.md) build and play it more mana-consciously.
 

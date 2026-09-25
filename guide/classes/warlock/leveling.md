@@ -14,7 +14,7 @@
 
 ## Talent order 10 → 60 (Affliction, ends on the raid build)
 
-This follows the community's leveling priorities: Improved Corruption first, then Suppression, Life Tap and drains, damage talents before utility [[d:warlock#1315778311959351417]], [[d:warlock#1455535425555922997]]. It then walks into the pinned 35/11/5 raid build ([Affliction](affliction.md#raid-35115-recommended)). Validated with `talent_tool.py level` (VALID). Final code: `talents.turtlecraft.gg/warlock?points=FoAKaASDRBFAB-ArCAAB-F` · `talents.turtlecraft.gg/warlock/Z08K2FD1V-5IC06-U`.
+This follows the community's leveling priorities: Improved Corruption first, then Suppression, Life Tap and drains, damage talents before utility [[d:warlock#1315778311959351417]], [[d:warlock#1455535425555922997]]. It then walks into the pinned 35/11/5 raid build ([Affliction](affliction.md#raid-35115-recommended)). Validated with `talent_tool.py level` (VALID). Final code: `talents.turtlecraft.gg/warlock?points=FoAKaASDRBFAB-ArCAAB-F` ([Open in talent calculator](https://xian55.github.io/tortoise-db-viewer/?talents=warlock&t=550012320223210151-053020001-5)) · `talents.turtlecraft.gg/warlock/Z08K2FD1V-5IC06-U`.
 
 | Level | Tree | Talent | Rank |
 |---|---|---|---|
@@ -83,7 +83,7 @@ Notes on the order:
 
 ### Alternative: Demonology order (sailorVEVO), respec at 60
 
-sailorVEVO's post-1.18.1 order [[d:warlock#1482503137041584229]]. Take the first choice at each "OR", and use Soul Siphon for the last two points (his lean). It ends at 17/34/0; at 60, respec to the raid [0/34/17](demonology.md#raid-03417-recommended) or to Affliction. Validated with `talent_tool.py level` (VALID). Final code: `talents.turtlecraft.gg/warlock?points=BoASaAAC-AoQYBoCbBAFYB-`.
+sailorVEVO's post-1.18.1 order [[d:warlock#1482503137041584229]]. Take the first choice at each "OR", and use Soul Siphon for the last two points (his lean). It ends at 17/34/0; at 60, respec to the raid [0/34/17](demonology.md#raid-03417-recommended) or to Affliction. Validated with `talent_tool.py level` (VALID). Final code: `talents.turtlecraft.gg/warlock?points=BoASaAAC-AoQYBoCbBAFYB-` ([Open in talent calculator](https://xian55.github.io/tortoise-db-viewer/?talents=warlock&t=150022320002-050203150023310531)).
 
 | Level | Tree | Talent | Rank |
 |---|---|---|---|

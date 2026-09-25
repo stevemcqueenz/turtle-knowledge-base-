@@ -40,7 +40,7 @@ Afraido pinned this on release day [[d:warlock#1484229282854342789]]. It takes *
 | Destruction | Conflagrate | 1/1 |
 
 Split **0/11/40**, validated with `talent_tool.py` (VALID). Calculator codes:
-`talents.turtlecraft.gg/warlock?points=-ArCAAB-AoFYRoAFVIAoB` · `talents.turtlecraft.gg/warlock/-5IC06-55KB0WVV`
+`talents.turtlecraft.gg/warlock?points=-ArCAAB-AoFYRoAFVIAoB` ([Open in talent calculator](https://xian55.github.io/tortoise-db-viewer/?talents=warlock&t=-053020001-0505321500525151)) · `talents.turtlecraft.gg/warlock/-5IC06-55KB0WVV`
 
 Why these points:
 
@@ -56,7 +56,7 @@ Why these points:
 |---|---|---|---|
 | **Range (wiki / Summonjutsu)** | Destructive Reach 2/2 instead of Intensity 2/2. More range, less threat, and a bigger Hellfire radius; no pushback protection | `-ArCAAB-AoFYBoCFVIAoB` | Summonjutsu's Searing Pain build [[d:warlock#1465115051655434394]]; Afraido prefers Intensity [[d:warlock#1484231145712517141]] |
 | **Fel Domination** | Drop Shadowburn for Fel Domination for faster re-sacrifices after wipes | swap in the calculator | Summonjutsu [[d:warlock#1465115051655434394]] |
-| **Shadow Bolt Destro (17/3/31)** | Affliction to Nightfall (Suppression 5, Improved Corruption 5, Improved Life Tap 2, Improved Curse of Agony 3, Nightfall 2), Soul Entrapment 3, Shadow Vulnerability instead of Cataclysm, Emberstorm only 2/5 | `FoAQYAC-AD-FAFYAoCAVIAQB` | Summonjutsu: "this one runs shadow bolt" [[d:warlock#1465115051655434394]] |
+| **Shadow Bolt Destro (17/3/31)** | Affliction to Nightfall (Suppression 5, Improved Corruption 5, Improved Life Tap 2, Improved Curse of Agony 3, Nightfall 2), Soul Entrapment 3, Shadow Vulnerability instead of Cataclysm, Emberstorm only 2/5 | `FoAQYAC-AD-FAFYAoCAVIAQB` ([calculator](https://xian55.github.io/tortoise-db-viewer/?talents=warlock&t=55002030002-003-5005300502025121)) | Summonjutsu: "this one runs shadow bolt" [[d:warlock#1465115051655434394]] |
 | **Demo-Fire hybrid** | 0/34/17 Demonology with Cataclysm instead of Shadow Vulnerability, Searing Pain as filler | see [Demonology](demonology.md#variants) | [[d:warlock#1493328003537567986]], [[d:warlock#1494150250393370656]] |
 
 ### SM/Ruin 30/0/21 (Shadow Bolt)
@@ -85,7 +85,7 @@ TowelDruid's post-release link [[d:warlock#1486103119220838540]]. SM/Ruin keeps 
 | Destruction | Ruin | 1/1 |
 
 Split **30/0/21**, validated with `talent_tool.py` (VALID). Calculator codes:
-`talents.turtlecraft.gg/warlock?points=FoAQYASCRBF--FAVABoCAAI` · `talents.turtlecraft.gg/warlock/Z0CI2ED1U--UH0B201`
+`talents.turtlecraft.gg/warlock?points=FoAQYASCRBF--FAVABoCAAI` ([Open in talent calculator](https://xian55.github.io/tortoise-db-viewer/?talents=warlock&t=55002030022221015--50250015020001)) · `talents.turtlecraft.gg/warlock/Z0CI2ED1U--UH0B201`
 
 You can take points out of Suppression if gear covers your hit, "though none of the talents you can put the points in instead are that good" [[d:warlock#1486103257641123952]]. Suppression covers only Affliction spells, not Shadow Bolt [[d:warlock#1491843936715542548]].
 

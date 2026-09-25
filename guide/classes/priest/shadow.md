@@ -37,7 +37,7 @@ irotos's endgame build ("I'm at endgame bis (I have hitcap with 3/5 focus)") [[d
 | Shadow | Darkness | 5/5 |
 | Shadow | Shadowform | 1/1 |
 
-Split **0/20/31**, VALID. Codes: `talents.turtlecraft.gg/priest?points=-BoAaDBAo-FoCYCIAEBQAoB` · `talents.turtlecraft.gg/priest/-1UKI65-Z2I2641H6`
+Split **0/20/31**, VALID. Codes: `talents.turtlecraft.gg/priest?points=-BoAaDBAo-FoCYCIAEBQAoB` ([Open in talent calculator](https://xian55.github.io/tortoise-db-viewer/?talents=priest&t=-015032301005-55023002100401251)) · `talents.turtlecraft.gg/priest/-1UKI65-Z2I2641H6`
 
 Why:
 
@@ -51,7 +51,7 @@ Why:
 
 | Variant | What changes | Code (VALID) | Source |
 |---|---|---|---|
-| **Progression 16/0/35** | Discipline secondary: Mental Agility 5, Silent Resolve 3, Improved Fortitude 2, Improved Inner Fire 2, Inner Focus 1, Meditation 3. Shadow: Shadow Focus 5/5, Improved Mind Blast 4/5, Shadow Reach 2/2. Swap Improved Fade 2/2 for Shadow Affinity 2/3 if you prefer | `AoYCRD--FgCoCIAVBQAoB` | "what I see a lot of shadow priests in progression use (you can go either shadow affinity 2/3 or fade 2/2)" [[d:priest#1487798526288334898]] |
+| **Progression 16/0/35** | Discipline secondary: Mental Agility 5, Silent Resolve 3, Improved Fortitude 2, Improved Inner Fire 2, Inner Focus 1, Meditation 3. Shadow: Shadow Focus 5/5, Improved Mind Blast 4/5, Shadow Reach 2/2. Swap Improved Fade 2/2 for Shadow Affinity 2/3 if you prefer | `AoYCRD--FgCoCIAVBQAoB` ([calculator](https://xian55.github.io/tortoise-db-viewer/?talents=priest&t=00530022103--54025002102501251)) | "what I see a lot of shadow priests in progression use (you can go either shadow affinity 2/3 or fade 2/2)" [[d:priest#1487798526288334898]] |
 | **Holy row 2** | Divine Fury 3 instead of Spell Warding 3 (Zitronenhaze's screenshot) | screenshot only | [[d:priest#1484671489260388393]] |
 
 Shadow Reach: extra Mind Flay range matters on essentially one fight (Heigan), so 1 point covers it if you need it [[d:priest#1489094882952876162]], [[d:priest#1454802940958347295]].

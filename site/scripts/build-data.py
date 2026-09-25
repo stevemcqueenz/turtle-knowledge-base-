@@ -446,6 +446,7 @@ def map_sections(h2_sections: list[tuple[str, str]], rules: list) -> tuple[dict,
     skipped); everything else goes to extraSections in document order."""
     sections = {key: None for key in SECTION_KEYS}
     extra_sections: list[dict] = []
+    order: list[str] = []
     for heading, section_md in h2_sections:
         low = heading.lower()
         matched_key = None
@@ -457,8 +458,12 @@ def map_sections(h2_sections: list[tuple[str, str]], rules: list) -> tuple[dict,
                 break
         if matched_key is not None:
             sections[matched_key] = make_section(heading, section_md, 2)
+            order.append(matched_key)
         else:
-            extra_sections.append(make_section(heading, section_md, 2))
+            extra = make_section(heading, section_md, 2)
+            extra_sections.append(extra)
+            order.append(f"extra:{extra['id']}")
+    map_sections.last_order = order  # type: ignore[attr-defined]
     return sections, extra_sections
 
 
@@ -496,16 +501,23 @@ def build_playbook(class_slug: str, class_name: str, md_path: Path,
         page = guide.page(guide_path)
         title, intro_md, h2_sections = page["title"], page["intro"], page["sections"]
         sections, extra_sections = map_sections(h2_sections, GUIDE_SECTION_KEYWORDS)
+        section_order = list(map_sections.last_order)  # type: ignore[attr-defined]
         # Guide pages open with their recommendation instead of an "Overview"
         # heading; that opening is the overview.
         if sections["overview"] is None and intro_md.strip():
             sections["overview"] = make_section("Overview", intro_md, 2)
+            section_order.insert(0, "overview")
+        recommendation, rest = recommendation_block(intro_md)
+        facts, rest = kv_table(rest)
+        glance = {"recommendation": recommendation, "facts": facts, "rest": rest.strip() or None}
         source_file = guide.repo_rel(guide_path)
     else:
         text = read_md(md_path)
         title, body = split_h1_and_body(text)
         intro_md, h2_sections = split_h2_sections(body)
         sections, extra_sections = map_sections(h2_sections, SECTION_KEYWORDS)
+        section_order = list(map_sections.last_order)  # type: ignore[attr-defined]
+        glance = None
         source_file = str(md_path.relative_to(REPO_ROOT))
 
     spec_name = None
@@ -527,8 +539,12 @@ def build_playbook(class_slug: str, class_name: str, md_path: Path,
         "extraSections": extra_sections,
         "standing": standing,
         "yaml": yaml_data,
+        "yamlPath": f"structured/classes/{class_slug}/{playbook_id}.yaml" if yaml_data is not None else None,
         "sourceFile": source_file,
         "guidePath": source_file if guide_path is not None else None,
+        "sectionOrder": section_order,
+        "glance": glance,
+        "builds": playbook_builds(yaml_data, class_slug, guide_path),
         "_spec_slug": spec_slug,  # used only for ordering, stripped before write
     }
 
@@ -826,8 +842,11 @@ def register_guide_routes(guide: GuideContext) -> None:
             guide.routes[base + "leveling.md"] = f"#/class/{slug}/leveling"
         if (cdir / "sources.md").is_file():
             guide.routes[base + "sources.md"] = f"#/class/{slug}/sources"
+        # A page several playbooks share (protection.md: fury-tank and
+        # protection-tank) routes to the playbook named after the page.
         claims = sorted(guide_playbook_claims(slug, guide),
-                        key=lambda c: (ROLE_ORDER.index(parse_playbook_filename(c[0] + ".md")[1]), c[0]))
+                        key=lambda c: (not c[0].startswith(c[1].stem + "-"),
+                                       ROLE_ORDER.index(parse_playbook_filename(c[0] + ".md")[1]), c[0]))
         for pid, page in claims:
             guide.routes.setdefault(guide.repo_rel(page), f"#/class/{slug}/{pid}")
         for page in sorted(cdir.glob("*.md")):
@@ -953,6 +972,438 @@ def build_instances(guide: GuideContext | None) -> dict | None:
 
 
 # ---------------------------------------------------------------------------
+# Guide summaries: viability matrix, talent trees and builds, leveling paths
+# ---------------------------------------------------------------------------
+#
+# The at-a-glance UI (home cards, the class viability matrix, the spec page's
+# "At a glance" block, the leveling timeline) is driven by the player-facing
+# guide pages, not by the forum-era synthesis. Everything here is parsed from
+# guide/classes/<class>/*.md and structured/talents/talent-trees.json; nothing
+# is written by hand.
+
+TALENT_TREES_PATH = REPO_ROOT / "structured" / "talents" / "talent-trees.json"
+TORTOISE_LINK = re.compile(r"https://xian55\.github\.io/tortoise-db-viewer/\?talents=([a-z]+)&t=([0-9-]*)")
+GRADE = re.compile(r"^([SABCDF])(?:([+-])(?![SABCDF]))?(?:\s*[-–/]\s*([SABCDF][+-]?))?(?![a-z])")
+NOT_A_ROLE = re.compile(r"^(n/?a|[-—–]+|not an? .*|none)$", re.I)
+CHIP_HTML = re.compile(r"<(a|span) class=\"cite[^\"]*\"[^>]*>.*?</\1>")
+_TREES_CACHE: dict | None = None
+
+
+def talent_trees() -> dict:
+    global _TREES_CACHE
+    if _TREES_CACHE is None:
+        _TREES_CACHE = json.loads(TALENT_TREES_PATH.read_text(encoding="utf-8"))["classes"] \
+            if TALENT_TREES_PATH.exists() else {}
+    return _TREES_CACHE
+
+
+def compact_talent_tree(class_slug: str) -> dict | None:
+    """{tabs: [{name, talents: [{name, row, col, max, req}]}]} in the calculator's
+    talent order (the order its link digits use); `req` is the index of the
+    prerequisite talent in the same tab."""
+    tree = talent_trees().get(class_slug)
+    if not tree:
+        return None
+    tabs = []
+    for tab in tree["tabs"]:
+        ids = [t["talent_id"] for t in tab["talents"]]
+        tabs.append({
+            "name": tab["name"],
+            "talents": [{
+                "name": t["name"] or f"Talent {t['talent_id']}",
+                "row": t["row"],
+                "col": t["col"],
+                "max": t["max_rank"],
+                "req": ids.index(t["requires_talent_id"]) if t.get("requires_talent_id") in ids else None,
+            } for t in tab["talents"]],
+        })
+    return {"tabs": tabs}
+
+
+def decode_tortoise(url: str, class_slug: str) -> dict | None:
+    """A tortoise-db-viewer link -> {url, ranks: [[per talent]], totals, split},
+    or None when it is not a valid build for this class's 1.18.1 trees."""
+    m = TORTOISE_LINK.search(url or "")
+    tree = talent_trees().get(class_slug)
+    if not m or m.group(1) != class_slug or not tree:
+        return None
+    segs = m.group(2).split("-")
+    tabs = tree["tabs"]
+    if len(segs) > len(tabs):
+        return None
+    ranks = []
+    for i, tab in enumerate(tabs):
+        seg = segs[i] if i < len(segs) else ""
+        if len(seg) > len(tab["talents"]):
+            return None
+        row = [int(ch) for ch in seg] + [0] * (len(tab["talents"]) - len(seg))
+        if any(r > t["max_rank"] for r, t in zip(row, tab["talents"])):
+            return None
+        ranks.append(row)
+    totals = [sum(r) for r in ranks]
+    if not 0 < sum(totals) <= 51:
+        return None
+    return {"url": m.group(0), "ranks": ranks, "totals": totals, "split": "/".join(str(t) for t in totals)}
+
+
+def plain_md(text: str) -> str:
+    """Markdown/HTML cell -> plain words (chips and citations removed)."""
+    text = CHIP_HTML.sub("", text)
+    text = DISCORD_CITE.sub("", text)
+    text = re.sub(r"<[^>]+>", "", text)
+    text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)
+    text = text.replace("**", "").replace("`", "").replace("__", "")
+    text = html.unescape(text)
+    return re.sub(r"\s+", " ", text).strip(" ,;")
+
+
+def md_blocks(markdown: str) -> list[str]:
+    return [b.strip("\n") for b in re.split(r"\n\s*\n", markdown) if b.strip()]
+
+
+def recommendation_block(intro: str, fallback: bool = False) -> tuple[str | None, str]:
+    """(the opening **Recommendation:** paragraph plus the list right after it,
+    with the label removed; the rest of the intro)."""
+    blocks = md_blocks(intro)
+    if not blocks:
+        return None, intro
+    first = blocks[0]
+    if not re.match(r"^\*\*(Recommendation|Summary)s?:?\*\*:?", first):
+        if not fallback or first.startswith("|"):
+            return None, intro
+    taken = [re.sub(r"^\*\*(Recommendation|Summary)s?:?\*\*:?\s*", "", first)]
+    i = 1
+    while i < len(blocks) and re.match(r"^\s*[-*]\s", blocks[i]):
+        taken.append(blocks[i])
+        i += 1
+    rest = "\n\n".join(blocks[i:])
+    rec = "\n\n".join(taken).strip()
+    return (rec[:1].upper() + rec[1:]) if rec else None, rest
+
+
+def kv_table(markdown: str) -> tuple[list[dict], str]:
+    """The first `| | |` key/value table (Role, Difficulty, Strengths ...) as
+    facts, and the markdown without it."""
+    lines = markdown.splitlines()
+    for i, line in enumerate(lines):
+        if re.match(r"^\|\s*\|\s*\|\s*$", line) and i + 1 < len(lines) and TABLE_SEPARATOR.match(lines[i + 1]):
+            facts = []
+            j = i + 2
+            while j < len(lines) and lines[j].startswith("|"):
+                cells = split_table_row(lines[j])
+                if len(cells) >= 2 and cells[0]:
+                    facts.append({"label": plain_md(cells[0]), "markdown": " | ".join(cells[1:]).strip()})
+                j += 1
+            rest = "\n".join(lines[:i] + lines[j:]).strip("\n")
+            return facts, re.sub(r"\n{3,}", "\n\n", rest)
+    return [], markdown
+
+
+def parse_grade(cell_md: str) -> dict:
+    """`**S**: the meta ...` -> {grade: "S", label: "S", note: "the meta ...", contested}."""
+    plain = plain_md(cell_md)
+    contested = "contested" in plain.lower()
+    if not plain or re.match(r"^[—–-]+$", plain) or plain.lower() in ("n/a", "na", "none"):
+        return {"grade": None, "label": "—", "note": "", "contested": False}
+    if re.match(r"^(not an? |n/a\b)", plain, re.I):
+        return {"grade": None, "label": "—", "note": plain, "contested": False}
+    m = GRADE.match(plain)
+    if not m:
+        word = re.match(r"^\**\s*([—–-]+|niche|contested)(?![A-Za-z])\s*\**\s*[:.]?\s*", cell_md.strip(), re.I)
+        if word:
+            label = "—" if word.group(1)[0] in "—–-" else word.group(1).capitalize()
+            return {"grade": None, "label": label, "note": cell_md.strip()[word.end():].strip(),
+                    "contested": contested}
+        return {"grade": None, "label": "", "note": cell_md.strip(), "contested": contested}
+    label = m.group(1) + (m.group(2) or "") + (f"–{m.group(3)}" if m.group(3) else "")
+    # Remove the leading grade (bold or not) from the Markdown, then its punctuation.
+    note = re.sub(r"^\s*\**\s*[SABCDF](?:[+-])?(?:\s*[-–/]\s*[SABCDF][+-]?)?\s*\**\s*[.:]?\s*", "", cell_md, count=1)
+    note = re.sub(r"^\*\*\s*", "", note) if note.startswith("**") and note.count("**") % 2 == 1 else note
+    note = re.sub(r"^[:.,;]\s*", "", note.strip())
+    return {"grade": m.group(1) + (m.group(2) or ""), "label": label, "note": note, "contested": contested}
+
+
+VIABILITY_COLUMNS = {"raid": "raid", "dungeon": "dungeon", "pvp": "pvp", "leveling": "leveling",
+                     "levelling": "leveling", "open world": "farming", "farming": "farming"}
+
+
+def viability_column_key(header: str) -> str:
+    low = plain_md(header).lower()
+    for word, key in VIABILITY_COLUMNS.items():
+        if word in low:
+            return key
+    return slugify(low)
+
+
+def resolve_spec_route(label_md: str, class_slug: str, guide: "GuideContext") -> str | None:
+    """The site route a viability row's spec cell points at: its own link, else
+    the guide page whose file name matches the spec's name."""
+    m = re.search(r"\]\((#/class/[^)\s]+)\)", label_md)
+    if m:
+        return m.group(1)
+    name = slugify(plain_md(label_md))
+    stems = [p.stem for p in sorted(guide.class_dir(class_slug).glob("*.md"))
+             if p.name not in RESERVED_GUIDE_PAGES and p.stem != "pvp"]
+    pick = next((s for s in stems if s == name), None) \
+        or next((s for s in stems if name.startswith(s + "-") or name.startswith(s)), None) \
+        or next((s for s in stems if s.split("-")[0] == name.split("-")[0]), None)
+    if pick is None:
+        return None
+    return guide.routes.get(f"guide/classes/{class_slug}/{pick}.md")
+
+
+def parse_viability(index_sections: list[tuple[str, str]], class_slug: str,
+                    guide: "GuideContext", playbooks: list[dict]) -> dict | None:
+    """The spec viability table of guide/classes/<class>/index.md."""
+    by_id = {pb["id"]: pb for pb in playbooks}
+    for heading, md in index_sections:
+        for _h3, header, rows in markdown_tables(md):
+            names = [plain_md(h).lower() for h in header]
+            if not any("raid" in n for n in names) or not any("level" in n for n in names):
+                continue
+            columns = [{"key": viability_column_key(h), "label": plain_md(h)} for h in header[1:]]
+            out_rows = []
+            for r in rows:
+                if not r or not r[0].strip():
+                    continue
+                label_md = r[0]
+                link_text = re.search(r"\[([^\]]+)\]\(", label_md)
+                bold = re.search(r"\*\*([^*]+)\*\*", label_md)
+                name = plain_md(link_text.group(1) if link_text else (bold.group(1) if bold else label_md))
+                full = plain_md(label_md)
+                detail = full[len(name):].strip(" ,") if full.startswith(name) else None
+                route = resolve_spec_route(label_md, class_slug, guide)
+                pid = route.rsplit("/", 1)[1] if route and route.count("/") == 3 else None
+                pb = by_id.get(pid) if pid else None
+                cells = []
+                for i, col in enumerate(columns):
+                    cell = r[i + 1] if i + 1 < len(r) else ""
+                    g = parse_grade(cell)
+                    g["key"] = col["key"]
+                    cells.append(g)
+                if not route and all(c["grade"] is None and c["label"] in ("—", "") and not c["note"] for c in cells):
+                    continue  # "Healer | — | — ..." : the class has no such spec
+                out_rows.append({
+                    "spec": name,
+                    "detail": detail or None,
+                    "route": route,
+                    "playbookId": pb["id"] if pb else None,
+                    "role": pb["role"] if pb else None,
+                    "cells": cells,
+                })
+            # Prose around the table: a legend line before it, notes after it
+            # (the "Pages:" line is the site's own navigation).
+            lines = md.splitlines()
+            start = next(i for i, l in enumerate(lines) if l.startswith("|"))
+            end = start
+            while end < len(lines) and lines[end].startswith("|"):
+                end += 1
+            before = "\n".join(lines[:start]).strip()
+            after = "\n".join(l for l in lines[end:] if not l.startswith("Pages:")).strip()
+            return {
+                "heading": heading,
+                "columns": columns,
+                "rows": out_rows,
+                "legend": before or None,
+                "notes": re.sub(r"\n{3,}", "\n\n", after) or None,
+            }
+    return None
+
+
+def short_heading(h3: str) -> str:
+    """`DefTac Impale, 17/3/31 (recommended MT build)` -> `DefTac Impale`."""
+    s = re.split(r",\s*\d+/\d+/\d+|\s\d+/\d+/\d+", h3)[0]
+    return re.sub(r"\s*\([^)]*\)\s*$", "", s).strip(" ,:") or h3
+
+
+def guide_builds(page: Path, class_slug: str) -> list[dict]:
+    """Every talent-calculator link in a guide page's talent/build sections, labelled
+    by the table row, bullet or H3 it sits in, decoded into per-talent ranks."""
+    builds: list[dict] = []
+    seen: set[str] = set()
+    h2 = h3 = ""
+    in_builds = False
+    for line in page.read_text(encoding="utf-8").splitlines():
+        if line.startswith("## "):
+            h2, h3 = line[3:].strip(), ""
+            in_builds = bool(re.search(r"talent|build", h2, re.I)) and "leveling" not in h2.lower()
+            continue
+        if line.startswith("### "):
+            h3 = plain_md(line[4:])
+            continue
+        if not in_builds:
+            continue
+        for m in TORTOISE_LINK.finditer(line):
+            decoded = decode_tortoise(m.group(0), class_slug)
+            if not decoded or decoded["url"] in seen:
+                continue
+            seen.add(decoded["url"])
+            label = None
+            recommended = False
+            if line.startswith("|"):
+                label = plain_md(split_table_row(line)[0])
+            else:
+                bullet = re.match(r"^\s*[-*]\s+\*\*([^*]+)\*\*", line)
+                if bullet and len(plain_md(bullet.group(1))) <= 34 and not bullet.group(1).strip().endswith(".") \
+                        and not re.search(r"\d+/\d+:?$", bullet.group(1).strip()):
+                    label = f"{short_heading(h3)}: {plain_md(bullet.group(1)).rstrip(':')}" if h3 and h3.lower() != "variants" else plain_md(bullet.group(1)).rstrip(":")
+                elif h3 and h3.lower() != "variants":
+                    first_of_h3 = not any(b.get("_h3") == h3 for b in builds)
+                    label = h3 if first_of_h3 else f"{short_heading(h3)} variant"
+                    recommended = first_of_h3 and "recommended" in h3.lower()
+            builds.append({"label": label or f"Build {decoded['split']}", "recommended": recommended,
+                           "_h3": h3, **decoded})
+    for b in builds:
+        b.pop("_h3", None)
+    return builds
+
+
+def tidy_build_label(build: dict) -> dict:
+    """`Raid 43/8/0 (recommended)` -> label `Raid 43/8/0`, tag `recommended`."""
+    m = re.search(r"\s*\(([^()]*recommended[^()]*)\)", build["label"], re.I)
+    if m:
+        build["label"] = (build["label"][:m.start()] + build["label"][m.end():]).strip()
+        build["tag"] = m.group(1)
+        build["recommended"] = True
+    else:
+        build.setdefault("tag", None)
+    return build
+
+
+def playbook_builds(yaml_data: dict | None, class_slug: str, guide_path: Path | None) -> list[dict]:
+    """The published build (the YAML's working calculator link) first, then every
+    other build the guide page links, deduplicated."""
+    talents = (yaml_data or {}).get("talents") or {}
+    primary = None
+    for key in ("build_link_tortoise", "calculator", "build_link"):
+        link = talents.get(key)
+        if isinstance(link, str):
+            primary = decode_tortoise(link, class_slug)
+            if primary:
+                break
+    from_guide = guide_builds(guide_path, class_slug) if guide_path else []
+    out: list[dict] = []
+    if primary:
+        match = next((b for b in from_guide if b["url"] == primary["url"]), None)
+        name = plain_md(str(talents.get("build_name") or "")) or None
+        out.append({**primary, "label": match["label"] if match else (name or f"Build {primary['split']}"),
+                    "recommended": True, "source": "playbook"})
+    spec_word = str((yaml_data or {}).get("spec") or "").split(" ")[0].lower()
+    for b in from_guide:
+        if primary and b["url"] == primary["url"]:
+            continue
+        # With no published build of its own, only builds named for the spec
+        # (a shared PvP page lists every spec's builds).
+        if not primary and spec_word and spec_word not in b["label"].lower():
+            continue
+        out.append({**b, "source": "guide"})
+    return [tidy_build_label(b) for b in out]
+
+
+LEVEL_RANGE = re.compile(r"(\d+)\s*(?:[-–]\s*(\d+))?")
+RANK_RANGE = re.compile(r"(\d+)\s*(?:(?:→|->|[-–])\s*(\d+))?")
+
+
+def find_talent(class_slug: str, name: str) -> tuple[str, dict] | None:
+    tree = talent_trees().get(class_slug)
+    if not tree:
+        return None
+    key = re.sub(r"[^a-z0-9]+", " ", name.lower()).strip()
+    for tab in tree["tabs"]:
+        for t in tab["talents"]:
+            if t["name"] and re.sub(r"[^a-z0-9]+", " ", t["name"].lower()).strip() == key:
+                return tab["name"], t
+    return None
+
+
+def steps_end_state(class_slug: str, steps: list[dict]) -> dict | None:
+    """The build a fully resolved talent order ends on, as a calculator link."""
+    tree = talent_trees().get(class_slug)
+    if not tree or any(not st["talent"] or not st["rankTo"] for st in steps):
+        return None
+    digits = [[0] * len(tab["talents"]) for tab in tree["tabs"]]
+    for st in steps:
+        for ti, tab in enumerate(tree["tabs"]):
+            if tab["name"] != st["tree"]:
+                continue
+            for i, t in enumerate(tab["talents"]):
+                if t["name"] == st["talent"]:
+                    digits[ti][i] = max(digits[ti][i], min(st["rankTo"], t["max_rank"]))
+    segs = ["".join(str(d) for d in row).rstrip("0") for row in digits]
+    while segs and segs[-1] == "":
+        segs.pop()
+    url = f"https://xian55.github.io/tortoise-db-viewer/?talents={class_slug}&t={'-'.join(segs)}"
+    return decode_tortoise(url, class_slug)
+
+
+def leveling_paths(class_slug: str, orders: list[dict], raw_leveling: str) -> list[dict]:
+    """The talent-order tables of a leveling guide as level-by-level paths:
+    each step resolved to its tree and rank range, respec levels marked, and
+    the section's calculator link decoded as the end state."""
+    # calculator links per (H2, H3) of the raw leveling page
+    links: dict[tuple[str, str], list[str]] = {}
+    h2 = h3 = ""
+    for line in raw_leveling.splitlines():
+        if line.startswith("## "):
+            h2, h3 = plain_md(line[3:]), ""
+        elif line.startswith("### "):
+            h3 = plain_md(line[4:])
+        for m in TORTOISE_LINK.finditer(line):
+            links.setdefault((h2, h3), []).append(m.group(0))
+    paths = []
+    for order in orders:
+        steps = []
+        resolved = 0
+        for s in order["steps"]:
+            text = plain_md(s["talent"])
+            base = re.sub(r"\s*\(.*?\)\s*", " ", text).strip()
+            base = re.sub(r"\s+\d+/\d+$", "", base)
+            m_inline = re.match(r"^(.*?)\s+(\d+)\s*/\s*(\d+)$", text)
+            hit = find_talent(class_slug, base) or (find_talent(class_slug, m_inline.group(1)) if m_inline else None)
+            lv_text = plain_md(s["level"] or "")
+            lv = LEVEL_RANGE.search(lv_text)
+            pts = RANK_RANGE.search(plain_md(s["points"] or "")) if s.get("points") else None
+            if hit:
+                resolved += 1
+            r_from = int(pts.group(1)) if pts else None
+            r_to = int(pts.group(2)) if pts and pts.group(2) else r_from
+            steps.append({
+                "from": int(lv.group(1)) if lv else None,
+                "to": int(lv.group(2) or lv.group(1)) if lv else None,
+                "levelText": lv_text or None,
+                "talent": hit[1]["name"] if hit else None,
+                "tree": hit[0] if hit else (plain_md(s["tree"]) if s.get("tree") else None),
+                "max": hit[1]["max_rank"] if hit else None,
+                "rankFrom": r_from,
+                "rankTo": r_to,
+                "markdown": s["talent"],
+                "note": s.get("note"),
+                "respec": "respec" in (lv_text + " " + text).lower(),
+            })
+        if not steps or resolved < max(3, len(steps) // 2):
+            continue  # a gear / dungeon / ability table, not a talent order
+        title = plain_md(order["title"])
+        subtitle = plain_md(order["subtitle"]) if order.get("subtitle") else None
+        label = f"{title} {subtitle or ''}"
+        respec_at = re.search(r"respec(?:\s+at)?\s+(\d+)", label, re.I)
+        cands = links.get((title, subtitle or ""), []) or ([] if subtitle else links.get((title, ""), []))
+        end = next((d for d in (decode_tortoise(u, class_slug) for u in cands) if d), None)
+        if end is None and not any(st["respec"] for st in steps):
+            end = steps_end_state(class_slug, steps)
+        paths.append({
+            "id": order["id"],
+            "title": title,
+            "subtitle": subtitle,
+            "approximate": order.get("approximate", False),
+            "respecAt": int(respec_at.group(1)) if respec_at else None,
+            "noRespec": bool(re.search(r"no respec", label, re.I)),
+            "steps": steps,
+            "end": end,
+        })
+    return paths
+
+
+# ---------------------------------------------------------------------------
 # Classes
 # ---------------------------------------------------------------------------
 
@@ -999,9 +1450,11 @@ def build_class_entry(class_slug: str, matrix_rows: list[dict],
     overview = None
     sources_doc = None
     guide_pages: list[dict] = []
+    recommendation = None
     if use_guide:
         index = guide.page(gdir / "index.md")
         summary = first_paragraph(index["intro"]) or first_paragraph(syn_intro)
+        recommendation, _ = recommendation_block(index["intro"], fallback=True)
         overview = index["intro"] or None
         h2 = [(h, md) for h, md in index["sections"] if h.strip().lower() != "pages"]
         readme_sections = [make_section(h, md, 2) for h, md in h2]
@@ -1043,10 +1496,15 @@ def build_class_entry(class_slug: str, matrix_rows: list[dict],
     for pb in playbooks:
         pb.pop("_spec_slug", None)
 
+    viability = parse_viability(index["sections"], class_slug, guide, playbooks) if use_guide else None
+
     leveling = None
     if use_guide and (gdir / "leveling.md").is_file():
         page = guide.page(gdir / "leveling.md")
         leveling = build_leveling((page["intro"], page["sections"]), page["sourceFile"])
+        leveling["recommendation"], _ = recommendation_block(page["intro"])
+        leveling["paths"] = leveling_paths(class_slug, leveling["talentOrders"],
+                                           (gdir / "leveling.md").read_text(encoding="utf-8"))
     else:
         leveling_path = class_dir / "leveling.md"
         if leveling_path.exists():
@@ -1070,7 +1528,10 @@ def build_class_entry(class_slug: str, matrix_rows: list[dict],
         "name": class_name,
         "color": CLASS_COLORS[class_slug],
         "summary": summary,
+        "recommendation": recommendation,
         "overview": overview,
+        "viability": viability,
+        "talentTree": compact_talent_tree(class_slug),
         "readme": readme_sections,
         "matrix": class_matrix_rows,
         "playbooks": playbooks,
@@ -1132,16 +1593,16 @@ def build_meta(counts: dict) -> dict:
     with open(TIMELINE_PATH, encoding="utf-8") as f:
         timeline = json.load(f)
     notes = (
-        "Content is sourced only from this repository's synthesis/ and structured/ "
-        "trees, which in turn cite the archived Turtle WoW forum. Every claim is "
-        "labelled with a source tier: staff (Turtle WoW Team, the authority on intent), "
-        "player, or wiki (community Fandom wiki, least reliable) — staff is preferred "
-        "over player over wiki, and synthesis/contradictions.md lists where sources "
-        "disagree. Forum links (viewtopic.php?...) stop resolving after the forum "
-        "closes on 2026-10-16; the archived post ids and quoted text remain valid in "
-        "this repository regardless. Nothing on this site is invented: where sources "
-        "are silent, the relevant playbook or class README says so explicitly under "
-        "its gaps section rather than guessing."
+        "The class guides (guide/classes/**) are distilled from a full read of the archived "
+        "Turtle WoW Discord in the 1.18.1 era (every class channel, from the patch announcement "
+        "to the shutdown), with the forum and the community wiki as secondary sources. Every "
+        "recommendation carries its citation: a Discord message ([[d:<channel>#<id>]], the "
+        "verbatim text in structured/discord/evidence-<channel>.jsonl) or a forum or wiki link "
+        "labelled staff, player or wiki. Where the sources disagree the guide says 'contested'; "
+        "where they are silent it says so in its gaps. Forum links stop resolving after the "
+        "forum closes on 2026-10-16; the archived post ids and quoted text remain in the "
+        "repository. The earlier forum-era synthesis (synthesis/classes/**, the spec-role "
+        "matrix) is kept as a research archive."
     )
     return {
         "generatedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),

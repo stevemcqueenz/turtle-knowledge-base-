@@ -1,90 +1,44 @@
 import type { ReactNode } from 'react';
-import type { Section } from '../types';
+import type { Section as SectionData } from '../types';
 import { Markdown } from './Markdown';
-import { SectionTabs } from './guide/SectionTabs';
-
-export interface Crumb {
-  label: string;
-  href?: string;
-  /** Text color for a linked crumb (the class color on class pages). */
-  color?: string;
-}
+import { PageHero, Section, WithToc, type Crumb } from './layout/Page';
+import { cleanHeading } from './guide/util';
 
 interface DocLayoutProps {
   crumbs: Crumb[];
-  /** CSS background of the header band (a vertical tint gradient). */
-  background: string;
-  title: string;
-  /** Badges or a short line above the title. */
+  /** "r g b" of the hero tint (the class color), or the archive accent when absent. */
+  rgb?: string;
+  title: ReactNode;
   eyebrow?: ReactNode;
   intro: string;
-  sections: Section[];
-  /** Sticky in-page section tabs under the header. */
-  navLabel?: string;
-  /** Anything after the section cards (a note, prev/next links). */
+  sections: SectionData[];
+  /** Anything after the sections (a note, prev/next links). */
   footer?: ReactNode;
 }
 
 /**
- * A prose page built from one Markdown document: breadcrumb, title and
- * opening in a tinted header band, then one card per H2 section in document
- * order. Used by the class guide's standalone pages and the dungeon and raid
- * pages.
+ * A prose page built from one Markdown document: breadcrumb, title and opening
+ * in the hero band, then the H2 sections in document order with a table of
+ * contents. Used by the class guide's standalone pages (sources, niche roles).
  */
-export function DocLayout({ crumbs, background, title, eyebrow, intro, sections, navLabel, footer }: DocLayoutProps) {
-  const tabs = navLabel ? sections.map((s) => ({ id: s.id, label: s.heading })) : [];
+export function DocLayout({ crumbs, rgb, title, eyebrow, intro, sections, footer }: DocLayoutProps) {
   return (
-    <div className="min-w-0">
-      <div className="border-b" style={{ backgroundImage: background }}>
-        <div className="mx-auto max-w-6xl px-3 pb-6 pt-4 sm:px-5">
-          <nav aria-label="Breadcrumb" className="text-sm text-muted">
-            {crumbs.map((c, i) => (
-              <span key={`${c.label}-${i}`}>
-                {i > 0 ? (
-                  <span className="mx-1.5" aria-hidden="true">
-                    /
-                  </span>
-                ) : null}
-                {c.href ? (
-                  <a
-                    href={c.href}
-                    className={`rounded hover:underline ${c.color ? 'font-semibold' : ''}`}
-                    style={c.color ? { color: c.color } : undefined}
-                  >
-                    {c.label}
-                  </a>
-                ) : (
-                  <span className="text-ink">{c.label}</span>
-                )}
-              </span>
-            ))}
-          </nav>
-          {eyebrow ? <div className="mt-4 flex flex-wrap items-center gap-2">{eyebrow}</div> : null}
-          <h1 className={`${eyebrow ? 'mt-2' : 'mt-4'} text-3xl font-extrabold leading-tight tracking-tight sm:text-4xl`}>
-            {title}
-          </h1>
-          {intro.trim() ? <Markdown source={intro} className="mt-3" /> : null}
+    <div>
+      <PageHero rgb={rgb} crumbs={crumbs}>
+        {eyebrow ? <p className="eyebrow mb-2">{eyebrow}</p> : null}
+        <h1 className="display text-[2rem] leading-tight sm:text-[2.6rem]">{title}</h1>
+        {intro.trim() ? <Markdown source={intro} className="mt-4 max-w-3xl" /> : null}
+      </PageHero>
+      <WithToc toc={sections.map((s) => ({ id: s.id, label: cleanHeading(s.heading).replace(/\s*\([^)]*\)\s*$/, '') }))}>
+        <div className="space-y-12">
+          {sections.map((s) => (
+            <Section key={s.id} id={s.id} title={cleanHeading(s.heading)}>
+              <Markdown source={s.markdown} />
+            </Section>
+          ))}
+          {footer}
         </div>
-      </div>
-
-      {tabs.length > 1 ? <SectionTabs items={tabs} ariaLabel={navLabel!} /> : null}
-
-      <div className="mx-auto flex max-w-6xl flex-col gap-4 px-3 py-7 sm:px-5">
-        {sections.map((s) => (
-          <section
-            key={s.id}
-            id={s.id}
-            aria-labelledby={`${s.id}-h`}
-            className={`card p-4 sm:p-5 ${tabs.length > 1 ? 'scroll-mt-32' : 'scroll-mt-24'}`}
-          >
-            <h2 id={`${s.id}-h`} className="mb-3 text-lg font-bold">
-              {s.heading}
-            </h2>
-            <Markdown source={s.markdown} />
-          </section>
-        ))}
-        {footer}
-      </div>
+      </WithToc>
     </div>
   );
 }

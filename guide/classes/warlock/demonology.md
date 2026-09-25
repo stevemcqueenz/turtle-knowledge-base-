@@ -39,7 +39,7 @@ Before 1.18.1, Unleashed Potential only procced from crits, and Demonology was a
 | Destruction | Devastation | 4/5 |
 
 Split **0/34/17**, validated with `talent_tool.py` (VALID). Calculator codes:
-`talents.turtlecraft.gg/warlock?points=-AoQYBoCDBYFYB-FAVABg` · `talents.turtlecraft.gg/warlock/-523B0CJNJ-UH0A`
+`talents.turtlecraft.gg/warlock?points=-AoQYBoCDBYFYB-FAVABg` ([Open in talent calculator](https://xian55.github.io/tortoise-db-viewer/?talents=warlock&t=-050203150020313531-50250014)) · `talents.turtlecraft.gg/warlock/-523B0CJNJ-UH0A`
 
 Why these points:
 

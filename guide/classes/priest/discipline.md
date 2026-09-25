@@ -37,7 +37,7 @@ This is the "standard cookie-cutter Disc DPS build" (DemonBoyJr) [[d:priest#1354
 | Holy | Holy Nova | 1/1 |
 | Holy | Spiritual Guidance | 5/5 |
 
-Split **31/20/0**, VALID. Codes: `talents.turtlecraft.gg/priest?points=DoACRDaAZAAoB-CoFCABAo-` · `talents.turtlecraft.gg/priest/3U0E6LF6V-2Z2065`
+Split **31/20/0**, VALID. Codes: `talents.turtlecraft.gg/priest?points=DoACRDaAZAAoB-CoFCABAo-` ([Open in talent calculator](https://xian55.github.io/tortoise-db-viewer/?talents=priest&t=035000221033231051-025502001005)) · `talents.turtlecraft.gg/priest/3U0E6LF6V-2Z2065`
 
 Key talents:
 
@@ -50,9 +50,9 @@ Key talents:
 
 | Variant | What changes | Code (VALID) | Source |
 |---|---|---|---|
-| **Threat** | Silent Resolve 5/5 instead of Improved Fortitude 2 + Meditation 3 | `DooARAaAZAAoB-CoFCABAo-` | Pinned video "Discipline" build [[d:priest#1389476140011491378]]. Snackz runs 3/5 threat reduction in Kara40 to give the tank time [[d:priest#1484603417325211890]], [[d:priest#1484604272925737120]]. With enough hit from T3.5 you can move Piercing Light points into Resolve [[d:priest#1476339013307731968]]. |
-| **Full T3 (8-piece)** 32/19/0 | Adds Improved PW:Shield 3 + Resurgent Shield 1 and drops Meditation and one Spiritual Guidance point | `DoACRYaAZIAoB-CoFCABAg-` | HolyScheiss: "Ressurgent Shield really became a viable option with T3 6-set bonus" [[d:priest#1504764793372803122]] |
-| **Farming / solo 31/15/5** | Spirit Tap 5, Wand Spec 2; no Spiritual Guidance | `RoACRDaAZAAoB-CoFCAB-F` | Lirya's 60 grinding spec (Chastise interrupt, Force of Will) [[d:priest#1492796559509819492]]; the pinned leveling build [[d:priest#1389476140011491378]] |
+| **Threat** | Silent Resolve 5/5 instead of Improved Fortitude 2 + Meditation 3 | `DooARAaAZAAoB-CoFCABAo-` ([calculator](https://xian55.github.io/tortoise-db-viewer/?talents=priest&t=035500021003231051-025502001005)) | Pinned video "Discipline" build [[d:priest#1389476140011491378]]. Snackz runs 3/5 threat reduction in Kara40 to give the tank time [[d:priest#1484603417325211890]], [[d:priest#1484604272925737120]]. With enough hit from T3.5 you can move Piercing Light points into Resolve [[d:priest#1476339013307731968]]. |
+| **Full T3 (8-piece)** 32/19/0 | Adds Improved PW:Shield 3 + Resurgent Shield 1 and drops Meditation and one Spiritual Guidance point | `DoACRYaAZIAoB-CoFCABAg-` ([calculator](https://xian55.github.io/tortoise-db-viewer/?talents=priest&t=035000221303231151-025502001004)) | HolyScheiss: "Ressurgent Shield really became a viable option with T3 6-set bonus" [[d:priest#1504764793372803122]] |
+| **Farming / solo 31/15/5** | Spirit Tap 5, Wand Spec 2; no Spiritual Guidance | `RoACRDaAZAAoB-CoFCAB-F` ([calculator](https://xian55.github.io/tortoise-db-viewer/?talents=priest&t=215000221033231051-025502001-5)) | Lirya's 60 grinding spec (Chastise interrupt, Force of Will) [[d:priest#1492796559509819492]]; the pinned leveling build [[d:priest#1389476140011491378]] |
 
 Without the T3 6-piece, skip the shield talents. After the latest patch "I don't think there's a world where anyone should take the shield talents" [[d:priest#1494640175521730744]].
 

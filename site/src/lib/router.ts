@@ -11,6 +11,7 @@ export type Route =
   | { name: 'instances' }
   | { name: 'instance'; slug: string }
   | { name: 'matrix' }
+  | { name: 'archive' }
   | { name: 'about' }
   | { name: 'not-found'; path: string };
 
@@ -21,6 +22,7 @@ export function parseHash(hash: string): Route {
   if (parts.length === 0) return { name: 'home' };
   if (parts[0] === 'matrix' && parts.length === 1) return { name: 'matrix' };
   if (parts[0] === 'about' && parts.length === 1) return { name: 'about' };
+  if (parts[0] === 'archive' && parts.length === 1) return { name: 'archive' };
   if (parts[0] === 'instances' && parts.length === 1) return { name: 'instances' };
   if (parts[0] === 'instances' && parts.length === 2) return { name: 'instance', slug: parts[1] };
   if (parts[0] === 'class' && parts.length === 2) return { name: 'class', slug: parts[1] };
@@ -69,9 +71,42 @@ export const href = {
   guidePage: (slug: string, page: string) => `#/class/${slug}/guide/${page}`,
   instances: () => '#/instances',
   instance: (slug: string) => `#/instances/${slug}`,
-  matrix: () => '#/matrix',
+  matrix: (column?: string) => (column ? `#/matrix?by=${column}` : '#/matrix'),
+  archive: () => '#/archive',
   about: () => '#/about',
+  /** Any route plus `?s=<section id>`: the page scrolls to that section once it has rendered. */
+  section: (route: string, id: string) => `${route}${route.includes('?') ? '&' : '?'}s=${encodeURIComponent(id)}`,
 };
+
+/** A query parameter of the current hash route (`#/matrix?by=raid`). */
+export function hashParam(name: string): string | null {
+  if (typeof window === 'undefined') return null;
+  const q = window.location.hash.split('?')[1];
+  return q ? new URLSearchParams(q).get(name) : null;
+}
+
+/**
+ * Scroll to the `?s=` section once the page's content is on screen (`ready`),
+ * then again whenever the hash changes to another section of the same page.
+ */
+export function useSectionScroll(ready: boolean): void {
+  useEffect(() => {
+    if (!ready) return;
+    const go = () => {
+      const id = hashParam('s');
+      if (!id) return;
+      window.setTimeout(() => {
+        const el = document.getElementById(id);
+        if (!el) return;
+        if (el.tagName === 'DETAILS') (el as HTMLDetailsElement).open = true;
+        el.scrollIntoView({ block: 'start' });
+      }, 30);
+    };
+    go();
+    window.addEventListener('hashchange', go);
+    return () => window.removeEventListener('hashchange', go);
+  }, [ready]);
+}
 
 export function navigate(to: string): void {
   if (window.location.hash === to) return;
@@ -81,6 +116,6 @@ export function navigate(to: string): void {
 /** Scroll to the top on every route change (hash anchors handle themselves). */
 export function useScrollReset(key: string): void {
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: 'auto' });
+    if (!hashParam('s')) window.scrollTo({ top: 0, behavior: 'auto' });
   }, [key]);
 }

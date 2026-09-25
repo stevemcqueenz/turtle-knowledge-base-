@@ -1,6 +1,8 @@
 import { useMemo, useState } from 'react';
 import type { GearSpec } from '../types';
-import { agreementMeta, getClass, humanizeKey, isEmptyValue, patchValidityMeta, roleLabel } from '../lib/site';
+import { agreementMeta, humanizeKey, isEmptyValue, patchValidityMeta, roleLabel } from '../lib/site';
+import { useClassEntry } from '../data';
+import { Loading } from '../components/layout/Page';
 import { href, useScrollReset } from '../lib/router';
 import { readableColor } from '../lib/theme';
 import { useThemeValue } from '../lib/theme-context';
@@ -28,13 +30,15 @@ function bracketLabel(id: string): string {
 }
 
 export function GearPage({ slug, spec, bracket }: { slug: string; spec?: string; bracket?: string }) {
-  const entry = getClass(slug);
+  const loaded = useClassEntry(slug);
+  const entry = loaded ?? undefined;
   useScrollReset(`${slug}/gear`);
   const theme = useThemeValue();
   const specs = useMemo(() => (entry?.gear?.specs ?? []).filter(Boolean), [entry]);
   const [specSel, setSpecSel] = useState<string>(spec ?? '');
   const [bracketSel, setBracketSel] = useState<string>(bracket ?? '');
 
+  if (loaded === undefined) return <Loading />;
   if (!entry) return <NotFound path={`#/class/${slug}/gear`} />;
   const gearMarkdown = entry.gearMarkdown ?? [];
   if (specs.length === 0 && gearMarkdown.length === 0) return <NotFound path={`#/class/${slug}/gear`} />;
@@ -69,7 +73,12 @@ export function GearPage({ slug, spec, bracket }: { slug: string; spec?: string;
       <header className="mb-5 overflow-hidden rounded-xl bg-surface hairline">
         <div className="h-1.5 w-full" style={{ backgroundColor: entry.color }} aria-hidden="true" />
         <div className="p-4 sm:p-5">
-          <h1 className="text-xl font-semibold sm:text-2xl">{entry.name} — gear by spec and bracket</h1>
+          <p className="eyebrow">Research archive · forum-era gear lists</p>
+          <h1 className="display mt-1 text-2xl sm:text-3xl">{entry.name} gear by spec and bracket</h1>
+          <p className="mt-2 max-w-3xl text-sm text-muted">
+            Compiled from the forum&rsquo;s best-in-slot and gearing threads before the Discord read. Each spec
+            guide&rsquo;s Gear section has the current 1.18.1 advice.
+          </p>
         </div>
       </header>
 

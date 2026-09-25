@@ -42,7 +42,7 @@ Afraido's PvP recommendation [[d:warlock#1485611980990447658]]. It is identical 
 | Destruction | Bane | 5/5 |
 | Destruction | Shadowburn | 1/1 |
 
-Codes: `talents.turtlecraft.gg/warlock?points=AoDCaISDRRFAB-Ao-FAFAB` · `talents.turtlecraft.gg/warlock/532K8FDDV-5-U506`
+Codes: `talents.turtlecraft.gg/warlock?points=AoDCaISDRRFAB-Ao-FAFAB` ([Open in talent calculator](https://xian55.github.io/tortoise-db-viewer/?talents=warlock&t=050302321223212151-05-5005001)) · `talents.turtlecraft.gg/warlock/532K8FDDV-5-U506`
 
 - **No Suppression:** a player target needs only 3% hit (level 60), 4% (61) or 5% (62) [[d:warlock#1478734333920415787]].
 - **Resilient Shadows 3/3** for dispel resistance. **Contested:** some players report dispels still succeed every time even at 3/3 [[d:warlock#1461246464209453196]].
@@ -52,19 +52,19 @@ Codes: `talents.turtlecraft.gg/warlock?points=AoDCaISDRRFAB-Ao-FAFAB` · `talent
 ### Destruction 5/5/39 (+2 free points)
 
 Afraido's level-58 test build [[d:warlock#1487474501812752626]]: Improved Corruption 5; Demonic Embrace 5; Cataclysm 5, Bane 5, Intensity 2, Shadowburn 1, Devastation 5, Pyroclasm 2, Destructive Reach 2, Improved Searing Pain 5, Improved Immolate 5, Ruin 1, Emberstorm 5, Conflagrate 1. The last 2 points are "whatever you like"; Aftermath and Pyroclasm are "nice but very unreliable" [[d:warlock#1487474862615433247]].
-Code (49 points): `talents.turtlecraft.gg/warlock?points=Ao-Ao-AoFARoSFFIAoB` · `talents.turtlecraft.gg/warlock/5-5-552BEUVV`
+Code (49 points): `talents.turtlecraft.gg/warlock?points=Ao-Ao-AoFARoSFFIAoB` ([Open in talent calculator](https://xian55.github.io/tortoise-db-viewer/?talents=warlock&t=05-05-0505021522505151)) · `talents.turtlecraft.gg/warlock/5-5-552BEUVV`
 
 Qazdur, a Tel'Abim Destruction PvP player for 4-5 months, keeps Aftermath, Pyroclasm and Improved Soul Fire, and moves points from instant Corruption into demon speed and Fel Intellect for Succubus sustain [[d:warlock#1487531377367711785]].
 
 ### SM/Ruin with Curse of Exhaustion 30/0/21
 
 Summonjutsu's open-world and battleground pick from 1.18.0: "the most versatile effective pvp spec we have for open world or BGs" [[d:warlock#1436410692520644791]], [[d:warlock#1450365899885248552]]. It takes Shadow Mastery 4/5 so the last point can max Improved Curse of Exhaustion, and runs the Imp.
-Code: `talents.turtlecraft.gg/warlock?points=AoDQaISARRE--FAFQBoCAAI` (VALID on the 1.18.1 tree)
+Code: `talents.turtlecraft.gg/warlock?points=AoDQaISARRE--FAFQBoCAAI` ([Open in talent calculator](https://xian55.github.io/tortoise-db-viewer/?talents=warlock&t=05032032122021214--50052015020001)) (VALID on the 1.18.1 tree)
 
 ### Soul Link Demonology 5/34/12
 
 Aulbath's 1.18.0 PvP build ("1.18 is all about maximizing pet damage, even in pvp") [[d:warlock#1409163562169139322]]: Improved Corruption 5; the raid Demonology tree (Demonic Embrace 5, Soul Funnel 2, Fel Intellect 3, Fel Domination 1, Fel Stamina 5, Master Summoner 2, Unholy Power 3, Power Overwhelming 1, Demonic Precision 3, Master Demonologist 5, Unleashed Potential 3, Soul Link 1); Shadow Vulnerability 5, Demonic Swiftness 2, Bane 5.
-Code: `talents.turtlecraft.gg/warlock?points=Ao-AoQYBoCDBYFYB-FAV` · `talents.turtlecraft.gg/warlock/5-523B0CJNJ-UH`
+Code: `talents.turtlecraft.gg/warlock?points=Ao-AoQYBoCDBYFYB-FAV` ([Open in talent calculator](https://xian55.github.io/tortoise-db-viewer/?talents=warlock&t=05-050203150020313531-5025)) · `talents.turtlecraft.gg/warlock/5-523B0CJNJ-UH`
 
 The older 20/31/0 and 17/31/3 Soul Link/Nightfall shapes still work, but "you aren't going to outlast long enough with no pushback on non shadow spells", and the demon gets clobbered in group PvP unless it is the Imp at range [[d:warlock#1465082548748288010]]. L-star: Demonology "isn't very good for pvp" outside level 50 with a fresh Infernal [[d:warlock#1461931073293521128]].
 

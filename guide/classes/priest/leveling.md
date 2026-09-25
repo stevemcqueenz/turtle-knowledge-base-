@@ -39,7 +39,7 @@ Order from Lirya, Greendam and Zitronenhaze: Wand Spec → Spirit Tap → Holy F
 | 59 | Discipline | Meditation | 3 |
 | 60 | Discipline | Force of Will | 1 |
 
-Validated with `talent_tool.py level` (VALID, 51 points). The final 26/20/5 build is `talents.turtlecraft.gg/priest?points=ToAARDaAZAAI-CoFCABAo-F` · `talents.turtlecraft.gg/priest/FU026LF66-2Z2065-U`.
+Validated with `talent_tool.py level` (VALID, 51 points). The final 26/20/5 build is `talents.turtlecraft.gg/priest?points=ToAARDaAZAAI-CoFCABAo-F` ([Open in talent calculator](https://xian55.github.io/tortoise-db-viewer/?talents=priest&t=23500002103323101-025502001005-5)) · `talents.turtlecraft.gg/priest/FU026LF66-2Z2065-U`.
 
 Optional changes:
 
@@ -69,7 +69,7 @@ Follow the table above to 41, then respec at **42**. Respeccing at 40 costs you 
 | 58-59 | Shadow | Improved Fade | 1 → 2 |
 | 60 | Shadow | Shadow Focus | 4 |
 
-VALID (16/0/35 at 60): `talents.turtlecraft.gg/priest?points=QoICRD--FoCgCIAVBQAoB` · `talents.turtlecraft.gg/priest/CV0E6I--Z2O26H1H6`.
+VALID (16/0/35 at 60): `talents.turtlecraft.gg/priest?points=QoICRD--FoCgCIAVBQAoB` ([Open in talent calculator](https://xian55.github.io/tortoise-db-viewer/?talents=priest&t=20510022103--55024002102501251)) · `talents.turtlecraft.gg/priest/CV0E6I--Z2O26H1H6`.
 
 ## Spells to train (and skip)
 

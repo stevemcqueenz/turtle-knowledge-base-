@@ -54,7 +54,7 @@ You tank **Vek'lor**, the caster, whose Shadow Bolts need shadow resistance.
 | Destruction | Conflagrate | 1/1 |
 
 Split **0/17/34**, validated with `talent_tool.py` (VALID). Calculator codes:
-`talents.turtlecraft.gg/warlock?points=-CrDABBQ-AoFAQoADVIAoB` · `talents.turtlecraft.gg/warlock/-HII68-55250KVV`
+`talents.turtlecraft.gg/warlock?points=-CrDABBQ-AoFAQoADVIAoB` ([Open in talent calculator](https://xian55.github.io/tortoise-db-viewer/?talents=warlock&t=-2530301012-0505020500325151)) · `talents.turtlecraft.gg/warlock/-HII68-55250KVV`
 
 - **Improved Stones** takes Wrathstone's fire threat bonus from 40% to 60% [[d:warlock#1410823324090503289]].
 - **Demonic Aegis 3/3** raises Demon Armor, which also gives shadow resistance [[d:warlock#1413054952183693343]]. After you add points, click Demon Armor off and recast it, or you keep the old values [[d:warlock#1407105337042931794]].
@@ -108,7 +108,7 @@ Summonjutsu's "what I normally run for tanking 5 man's" [[d:warlock#145565714463
 | Destruction | Pyroclasm | 2/2 |
 
 Split **0/33/18**, validated with `talent_tool.py` (VALID). Calculator codes:
-`talents.turtlecraft.gg/warlock?points=-AoTIBoSYBQFAB-AoFYRAQ` · `talents.turtlecraft.gg/warlock/-52JB2F1H1-55K6C`
+`talents.turtlecraft.gg/warlock?points=-AoTIBoSYBQFAB-AoFYRAQ` ([Open in talent calculator](https://xian55.github.io/tortoise-db-viewer/?talents=warlock&t=-050231150223012501-050532102)) · `talents.turtlecraft.gg/warlock/-52JB2F1H1-55K6C`
 
 - You "really can't do it until you get Wrathstone, Bane and Soul Link" [[d:warlock#1489010489030606961]]. Wrathstone comes at level 44 [[d:warlock#1379816702786801864]].
 - **Soul Link** (20% of damage to the demon) plus Master Demonologist's Voidwalker 10% physical reduction "gets you on regular tank level, about 50% damage reduction together with armor" [[d:warlock#1486370117850763284]].

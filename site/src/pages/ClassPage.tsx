@@ -1,292 +1,220 @@
-import { useMemo, useState } from 'react';
-import type { ClassEntry, MatrixRow } from '../types';
-import { getClass, roleLabel } from '../lib/site';
-import { href, useScrollReset } from '../lib/router';
-import { readableColor } from '../lib/theme';
-import { useThemeValue } from '../lib/theme-context';
+import { getClassSummary } from '../lib/site';
+import { href, useScrollReset, useSectionScroll } from '../lib/router';
+import { cellFor } from '../lib/grades';
+import { useClassEntry } from '../data';
+import type { ClassSummary, PlaybookSummary, Section as SectionData } from '../types';
 import { Markdown } from '../components/Markdown';
-import { SpecCard } from '../components/SpecCard';
-import { Collapsible } from '../components/Collapsible';
-import { ChevronRightIcon } from '../components/Icons';
+import { PageHero, Section, WithToc } from '../components/layout/Page';
+import type { TocItem } from '../components/layout/Toc';
+import { ClassMark, useClassInk } from '../components/ui/ClassMark';
+import { Grade } from '../components/ui/Grade';
+import { ViabilityMatrix } from '../components/class/ViabilityMatrix';
 import { RoleIcon } from '../components/class/RoleIcon';
-import { RoleTabs, type RoleTabItem } from '../components/class/RoleTabs';
-import { PatchChangesCard } from '../components/class/PatchChangesCard';
-import { SourceQualityCard } from '../components/class/SourceQualityCard';
-import { classOneLiner, playbookForRow, standingRank, viableRoles, viableRows } from '../components/class/data';
+import { ArrowRightIcon, CompassIcon } from '../components/Icons';
+import { cleanHeading } from '../components/guide/util';
 import { NotFound } from './NotFound';
+import { specLabel } from '../lib/site';
 
-function hasGear(entry: ClassEntry): boolean {
-  const specs = entry.gear?.specs;
-  return (Array.isArray(specs) && specs.length > 0) || (Array.isArray(entry.gearMarkdown) && entry.gearMarkdown.length > 0);
+function specRow(cls: ClassSummary, p: PlaybookSummary) {
+  const rows = cls.viability?.rows ?? [];
+  return (
+    rows.find((r) => r.playbookId === p.id) ??
+    rows.find((r) => r.spec.toLowerCase().startsWith(p.spec.toLowerCase().split(' ')[0])) ??
+    null
+  );
 }
 
-/** Column count for the role grid: keep the wrapped rows as even as possible. */
-function roleColumns(count: number): string {
-  if (count <= 2) return '';
-  if (count === 4) return 'lg:grid-cols-4';
-  return 'lg:grid-cols-3';
+function SpecCard({ cls, p }: { cls: ClassSummary; p: PlaybookSummary }) {
+  const row = specRow(cls, p);
+  const keys = p.role === 'pvp' ? ['pvp'] : ['raid', 'dungeon'];
+  return (
+    <a href={href.playbook(cls.slug, p.id)} className="card group flex min-w-0 flex-col gap-3 p-4 transition-colors hover:border-accent/50">
+      <span className="flex items-start gap-3">
+        <span className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-surface2 text-muted">
+          <RoleIcon role={p.role} />
+        </span>
+        <span className="min-w-0 flex-1">
+          <span className="block font-serif text-[1.1rem] font-semibold leading-snug group-hover:text-accent">{specLabel(p.spec)}</span>
+          <span className="block text-xs text-muted">
+            {p.roleLabel}
+            {p.recommended ? ` · ${p.recommended}` : ''}
+          </span>
+        </span>
+        <ArrowRightIcon className="mt-1.5 h-4 w-4 shrink-0 text-muted" />
+      </span>
+      {row ? (
+        <span className="flex flex-wrap gap-3 border-t pt-3">
+          {keys.map((k) => {
+            const cell = cellFor(row, k);
+            return cell ? (
+              <span key={k} className="flex items-center gap-1.5 text-xs text-muted">
+                <Grade cell={cell} column={k} size="sm" />
+                {k === 'pvp' ? 'PvP' : k[0].toUpperCase() + k.slice(1)}
+              </span>
+            ) : null;
+          })}
+        </span>
+      ) : null}
+    </a>
+  );
 }
-
-/** Readme sections that are about the source files, not about playing the class. */
-const INTERNAL_SECTION = /files|bot\b|orchestrator|conventions|open questions|1\.18\.1/i;
 
 export function ClassPage({ slug }: { slug: string }) {
-  const entry = getClass(slug);
+  const cls = getClassSummary(slug);
+  const entry = useClassEntry(slug);
   useScrollReset(slug);
-  const theme = useThemeValue();
+  useSectionScroll(!!entry);
+  const { ink, rgb } = useClassInk(cls?.color ?? '#cccccc');
+  if (!cls || entry === null) return <NotFound path={`#/class/${slug}`} />;
 
-  const roles = useMemo(() => (entry ? viableRoles(entry) : []), [entry]);
-  const tabs = useMemo<RoleTabItem[]>(() => {
-    if (!entry) return [];
-    const items: RoleTabItem[] = roles
-      .filter((r) => r !== 'leveling')
-      .map((r) => ({ id: r, label: roleLabel(r), target: `role-${r}` }));
-    if (roles.includes('leveling') || entry.leveling) {
-      items.push({
-        id: 'leveling',
-        label: 'Leveling',
-        target: roles.includes('leveling') ? 'role-leveling' : 'leveling',
-      });
-    }
-    if (hasGear(entry)) items.push({ id: 'gear', label: 'Gear', target: 'gear' });
-    if (entry.sources) items.push({ id: 'sources', label: 'Sources', target: 'sources' });
-    return items;
-  }, [entry, roles]);
+  const pve = cls.playbooks.filter((p) => p.role !== 'pvp');
+  const pvp = cls.playbooks.filter((p) => p.role === 'pvp');
+  const skip = new Set(['pages']);
+  const viabilityHeading = cls.viability?.heading;
+  const sections: SectionData[] = (entry?.readme ?? []).filter(
+    (s) => !skip.has(s.heading.trim().toLowerCase()) && s.heading !== viabilityHeading,
+  );
+  const patchId = sections.find((s) => /1\.18\.1/.test(s.heading) && /chang/i.test(s.heading))?.id;
 
-  const [activeTab, setActiveTab] = useState<string>('');
-
-  if (!entry) return <NotFound path={`#/class/${slug}`} />;
-
-  const ink = readableColor(entry.color, theme);
-  const current = activeTab || tabs[0]?.id || '';
-
-  const select = (item: RoleTabItem) => {
-    setActiveTab(item.id);
-    document.getElementById(item.target)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  };
-
-  const cardFor = (row: MatrixRow, i: number) => {
-    if (row.role === 'leveling') {
-      return (
-        <SpecCard
-          key={`${row.spec}-${i}`}
-          row={row}
-          target={entry.leveling ? href.leveling(entry.slug) : null}
-          targetLabel="Open the leveling guide"
-        />
-      );
-    }
-    const playbook = playbookForRow(entry, row);
-    return (
-      <SpecCard
-        key={`${row.spec}-${i}`}
-        row={row}
-        playbook={playbook}
-        target={playbook ? href.playbook(entry.slug, playbook.id) : null}
-      />
-    );
-  };
-
-  const gaps = entry.gaps;
-  const fromGuide = !!entry.guidePath;
-  // A guide index is all player-facing; only the sections shown in their own
-  // panels (1.18.1 changes, gaps) are left out. A synthesis README also carries
-  // notes about its source files, which stay off the page.
-  const guideSections = fromGuide
-    ? entry.readme.filter((s) => s.markdown !== entry.patchChanges && s.markdown !== gaps)
-    : [];
-  const otherSections = fromGuide
-    ? []
-    : entry.readme.filter((s) => !INTERNAL_SECTION.test(s.heading) && !/gap/i.test(s.heading));
-  const guidePages = entry.guidePages ?? [];
-  const cardCount = (entry.leveling ? 1 : 0) + (hasGear(entry) ? 1 : 0) + (entry.sources ? 1 : 0);
+  const toc: TocItem[] = [
+    ...(cls.viability ? [{ id: 'viability', label: 'Viability' }] : []),
+    { id: 'guides', label: 'Spec guides' },
+    ...sections.map((s) => ({ id: s.id, label: cleanHeading(s.heading).replace(/\s*\(.*\)$/, '') })),
+  ];
 
   return (
-    <>
-      <div
-        className="border-b"
-        style={{ backgroundImage: `linear-gradient(180deg, ${ink}26 0%, ${ink}00 100%)` }}
-      >
-        <div className="mx-auto max-w-6xl px-3 pb-6 pt-3 sm:px-5 sm:pb-7 sm:pt-4">
-          <nav aria-label="Breadcrumb" className="mb-4 text-sm text-muted">
-            <a href={href.home()} className="hover:underline">
-              Classes
-            </a>
-            <span className="mx-1.5" aria-hidden="true">
-              /
-            </span>
-            <span className="text-ink">{entry.name}</span>
+    <div>
+      <PageHero rgb={rgb} crumbs={[{ label: 'Classes', href: href.home() }, { label: cls.name }]}>
+        <div className="flex flex-col gap-6 lg:flex-row lg:items-start lg:gap-12">
+          <div className="min-w-0 flex-1">
+            <div className="flex items-center gap-4">
+              <ClassMark name={cls.name} color={cls.color} size="xl" />
+              <div>
+                <p className="eyebrow">Class guide · patch 1.18.1</p>
+                <h1 className="display text-4xl sm:text-5xl" style={{ color: ink }}>
+                  {cls.name}
+                </h1>
+              </div>
+            </div>
+            {cls.recommendation ? (
+              <div className="mt-6 max-w-3xl">
+                <p className="eyebrow mb-2 text-accent">The short answer</p>
+                <Markdown source={cls.recommendation} className="text-[1.05rem] sm:text-[1.1rem]" />
+              </div>
+            ) : (
+              <Markdown source={cls.summary} className="mt-6 max-w-3xl text-[1.05rem]" />
+            )}
+          </div>
+          <nav aria-label={`${cls.name} guides`} className="w-full shrink-0 lg:w-72">
+            <p className="eyebrow mb-2">Go to</p>
+            <ul className="card divide-y overflow-hidden text-sm">
+              {pve.map((p) => (
+                <li key={p.id}>
+                  <a href={href.playbook(slug, p.id)} className="flex items-center gap-2.5 px-3.5 py-2.5 hover:bg-surface2/70">
+                    <RoleIcon role={p.role} className="h-4 w-4 text-muted" />
+                    <span className="flex-1 font-medium">{specLabel(p.spec)}</span>
+                    <span className="text-xs text-muted">{p.roleLabel}</span>
+                  </a>
+                </li>
+              ))}
+              {cls.leveling ? (
+                <li>
+                  <a href={href.leveling(slug)} className="flex items-center gap-2.5 px-3.5 py-2.5 hover:bg-surface2/70">
+                    <CompassIcon className="h-4 w-4 text-muted" />
+                    <span className="flex-1 font-medium">Leveling 10–60</span>
+                  </a>
+                </li>
+              ) : null}
+              {pvp.length ? (
+                <li>
+                  <a href={href.playbook(slug, pvp[0].id)} className="flex items-center gap-2.5 px-3.5 py-2.5 hover:bg-surface2/70">
+                    <RoleIcon role="pvp" className="h-4 w-4 text-muted" />
+                    <span className="flex-1 font-medium">PvP</span>
+                    <span className="text-xs text-muted">
+                      {pvp.length} {pvp.length === 1 ? 'guide' : 'guides'}
+                    </span>
+                  </a>
+                </li>
+              ) : null}
+            </ul>
           </nav>
-
-          <div className="flex flex-wrap items-end justify-between gap-x-8 gap-y-5">
-            <div className="flex min-w-0 items-center gap-4 sm:gap-5">
-              <div
-                className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl text-[28px] font-extrabold sm:h-20 sm:w-20 sm:text-4xl"
-                style={{ backgroundColor: `${ink}29`, border: `1px solid ${ink}80`, color: ink }}
-                aria-hidden="true"
-              >
-                {entry.name.charAt(0)}
-              </div>
-              <div className="flex min-w-0 flex-col gap-1.5">
-                <h1 className="text-3xl font-extrabold leading-none tracking-tight sm:text-[40px]">{entry.name}</h1>
-                <p className="text-[15px] leading-relaxed text-muted">{classOneLiner(entry)}</p>
-                <p className="text-[13px] text-muted">
-                  {entry.playbooks.length > 0
-                    ? `${entry.playbooks.length} spec guide${entry.playbooks.length === 1 ? '' : 's'}`
-                    : 'No spec guide is published for this class yet'}
-                </p>
-              </div>
-            </div>
-            {tabs.length > 0 ? (
-              <RoleTabs items={tabs} active={current} onSelect={select} accent={entry.color} ariaLabel="Sections" />
-            ) : null}
-          </div>
         </div>
-      </div>
+      </PageHero>
 
-      <div className="mx-auto flex max-w-6xl flex-col gap-10 px-3 py-8 sm:px-5">
-        {entry.overview ? (
-          <section aria-labelledby="class-overview" className="card p-5">
-            <h2 id="class-overview" className="sr-only">
-              Overview
-            </h2>
-            <Markdown source={entry.overview} />
-          </section>
-        ) : null}
-
-        <section aria-labelledby="pick-a-role">
-          <div className="mb-4 flex flex-wrap items-baseline gap-x-3.5 gap-y-1">
-            <h2 id="pick-a-role" className="text-xl font-extrabold sm:text-[22px]">
-              Pick a role
-            </h2>
-            <p className="text-[13px] text-muted">
-              Green is what the community runs; blue works with caveats; amber is a niche the sources do describe.
-            </p>
-          </div>
-
-          {roles.length === 0 ? (
-            <p className="text-sm text-muted">No spec of this class is rated playable by the sources yet.</p>
-          ) : (
-            <div className={`grid gap-4 sm:grid-cols-2 ${roleColumns(roles.length)}`}>
-              {roles.map((role) => {
-                const rows = [...viableRows(entry, role)].sort(
-                  (a, b) => standingRank(a.standing) - standingRank(b.standing),
-                );
-                return (
-                  <div key={role} id={`role-${role}`} className="flex scroll-mt-24 flex-col gap-2.5">
-                    <h3
-                      className="flex items-center gap-2 text-[12px] font-semibold uppercase tracking-[0.08em]"
-                      style={{ color: current === role ? ink : 'rgb(var(--c-muted))' }}
-                    >
-                      <RoleIcon role={role} />
-                      {roleLabel(role)}
-                    </h3>
-                    {rows.map(cardFor)}
-                  </div>
-                );
-              })}
-            </div>
-          )}
-        </section>
-
-        {guideSections.length > 0 || guidePages.length > 0 ? (
-          <section aria-labelledby="class-guide" className="flex flex-col gap-2">
-            <h2 id="class-guide" className="text-xl font-extrabold sm:text-[22px]">
-              The {entry.name} guide
-            </h2>
-            {guideSections.map((s) => (
-              <Collapsible key={s.id} title={s.heading}>
-                <Markdown source={s.markdown} />
-              </Collapsible>
-            ))}
-            {guidePages.map((doc) => (
-              <a
-                key={doc.slug}
-                href={href.guidePage(entry.slug, doc.slug)}
-                className="card flex items-center gap-2 p-4 font-semibold hover:border-[color:rgb(var(--c-accent)/0.5)]"
-              >
-                <span className="flex-1">{doc.title}</span>
-                <ChevronRightIcon />
-              </a>
-            ))}
-          </section>
-        ) : null}
-
-        {cardCount > 0 ? (
-          <div className={`grid items-start gap-4 sm:grid-cols-2 ${cardCount === 3 ? 'lg:grid-cols-3' : ''}`}>
-            {entry.leveling ? (
-              <section id="leveling" className="card flex scroll-mt-24 flex-col gap-3 p-5">
-                <h2 className="text-base font-bold">Leveling 1–60</h2>
-                <ul className="flex flex-wrap gap-1.5">
-                  {entry.leveling.sections.slice(0, 8).map((s) => (
-                    <li key={s.id} className="chip hairline bg-surface2 text-xs text-muted">
-                      {s.heading}
-                    </li>
-                  ))}
-                </ul>
-                <a
-                  href={href.leveling(entry.slug)}
-                  className="mt-auto inline-flex items-center gap-1 self-start text-sm font-semibold text-[rgb(var(--c-accent))] hover:underline"
-                >
-                  Open the leveling guide <ChevronRightIcon />
-                </a>
-              </section>
-            ) : null}
-            {hasGear(entry) ? (
-              <section id="gear" className="card flex scroll-mt-24 flex-col gap-3 p-5">
-                <h2 className="text-base font-bold">Gear by spec and bracket</h2>
-                <p className="text-sm text-muted">
-                  Slot-by-slot picks with where each item drops, per spec, role and level bracket.
-                </p>
-                <a
-                  href={href.gear(entry.slug)}
-                  className="mt-auto inline-flex items-center gap-1 self-start text-sm font-semibold text-[rgb(var(--c-accent))] hover:underline"
-                >
-                  Open the gear guide <ChevronRightIcon />
-                </a>
-              </section>
-            ) : null}
-            {entry.sources ? (
-              <section id="sources" className="card flex scroll-mt-24 flex-col gap-3 p-5">
-                <h2 className="text-base font-bold">Sources</h2>
-                <ul className="flex flex-wrap gap-1.5">
-                  {entry.sources.sections.map((s) => (
-                    <li key={s.id} className="chip hairline bg-surface2 text-xs text-muted">
-                      {s.heading}
-                    </li>
-                  ))}
-                </ul>
-                <a
-                  href={href.sources(entry.slug)}
-                  className="mt-auto inline-flex items-center gap-1 self-start text-sm font-semibold text-[rgb(var(--c-accent))] hover:underline"
-                >
-                  What these guides are built on <ChevronRightIcon />
-                </a>
-              </section>
-            ) : null}
-          </div>
-        ) : null}
-
-        {/* Provenance lives below the guide links: it is not what a player came for. */}
-        <PatchChangesCard entry={entry} />
-
-        <section aria-labelledby="more-heading" className="flex flex-col gap-2">
-          <h2 id="more-heading" className="text-xs font-semibold uppercase tracking-wider text-muted">
-            More
-          </h2>
-          <SourceQualityCard entry={entry} />
-          {gaps ? (
-            <Collapsible title="Gaps — what the sources do not say">
-              <Markdown source={gaps} />
-            </Collapsible>
+      <WithToc toc={toc}>
+        <div className="space-y-14">
+          {cls.viability ? (
+            <Section
+              id="viability"
+              eyebrow="As the community rated it in 1.18.1"
+              title="Which spec for what"
+            >
+              <ViabilityMatrix cls={cls} viability={cls.viability} />
+            </Section>
           ) : null}
-          {otherSections.map((s) => (
-            <Collapsible key={s.id} title={s.heading}>
-              <Markdown source={s.markdown} />
-            </Collapsible>
-          ))}
-        </section>
-      </div>
-    </>
+
+          <Section id="guides" eyebrow="Full guides" title="Spec guides">
+            <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
+              {pve.map((p) => (
+                <SpecCard key={p.id} cls={cls} p={p} />
+              ))}
+            </div>
+            {pvp.length ? (
+              <>
+                <p className="eyebrow mb-2 mt-6">PvP builds</p>
+                <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
+                  {pvp.map((p) => (
+                    <SpecCard key={p.id} cls={cls} p={p} />
+                  ))}
+                </div>
+              </>
+            ) : null}
+            <div className="mt-6 flex flex-wrap gap-2 text-sm">
+              {cls.leveling ? (
+                <a href={href.leveling(slug)} className="btn btn-ghost">
+                  <CompassIcon /> Leveling 10–60
+                </a>
+              ) : null}
+              {cls.guidePages.map((d) => (
+                <a key={d.slug} href={href.guidePage(slug, d.slug)} className="btn btn-ghost">
+                  {d.title}
+                </a>
+              ))}
+              {cls.sources ? (
+                <a href={href.sources(slug)} className="btn btn-ghost">
+                  Sources and gaps
+                </a>
+              ) : null}
+              {cls.hasGear ? (
+                <a href={href.gear(slug)} className="btn btn-ghost">
+                  Gear lists (research archive)
+                </a>
+              ) : null}
+            </div>
+          </Section>
+
+          {entry === undefined ? (
+            <div className="h-40 animate-pulse rounded-2xl bg-surface2/60" role="status" aria-label="Loading" />
+          ) : (
+            sections.map((s) => (
+              <Section
+                key={s.id}
+                id={s.id}
+                eyebrow={s.id === patchId ? 'The final patch' : undefined}
+                title={cleanHeading(s.heading)}
+              >
+                {s.id === patchId ? (
+                  <div className="card p-5 sm:p-6">
+                    <Markdown source={s.markdown} />
+                  </div>
+                ) : (
+                  <Markdown source={s.markdown} />
+                )}
+              </Section>
+            ))
+          )}
+        </div>
+      </WithToc>
+    </div>
   );
 }

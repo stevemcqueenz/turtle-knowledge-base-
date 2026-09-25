@@ -160,6 +160,109 @@ export interface Playbook {
   sourceFile?: string;
   /** `guide/classes/<class>/<page>.md` when built from a guide page, else null. */
   guidePath?: string | null;
+  /** `structured/classes/<class>/<id>.yaml`, the machine-readable playbook. */
+  yamlPath?: string | null;
+  /** Section keys (`overview`, `talents` ...) and `extra:<id>` in the guide page's own order. */
+  sectionOrder?: string[];
+  /** The guide page's opening, split into its recommendation and its fact table. */
+  glance?: PlaybookGlance | null;
+  /** Talent builds: the published one first, then every other build the guide links. */
+  builds?: TalentBuild[];
+}
+
+export interface PlaybookGlance {
+  /** The **Recommendation:** paragraph (label removed), Markdown. */
+  recommendation: string | null;
+  /** The key/value table under it (Role, Difficulty, Strengths, Weaknesses ...). */
+  facts: { label: string; markdown: string }[];
+  /** Whatever else the opening says. */
+  rest: string | null;
+}
+
+/** A talent build decoded from its tortoise-db-viewer calculator link. */
+export interface TalentBuild {
+  label: string;
+  /** Parenthetical from the guide heading ("recommended MT build"). */
+  tag?: string | null;
+  recommended: boolean;
+  /** `playbook`: the build the YAML publishes; `guide`: another build the guide page links. */
+  source: 'playbook' | 'guide';
+  url: string;
+  /** Ranks per talent, per tree, in the calculator's talent order (`ClassEntry.talentTree`). */
+  ranks: number[][];
+  totals: number[];
+  split: string;
+}
+
+export interface TalentTreeTalent {
+  name: string;
+  row: number;
+  col: number;
+  max: number;
+  /** Index (same tab) of the prerequisite talent. */
+  req: number | null;
+}
+
+export interface TalentTree {
+  tabs: { name: string; talents: TalentTreeTalent[] }[];
+}
+
+/** One cell of the guide's spec viability table. */
+export interface ViabilityCell {
+  key: string;
+  /** S, A, A-, B ... ; null when the cell rates nothing ("—", "Niche", "Not a PvP spec"). */
+  grade: string | null;
+  /** How the guide writes the rating ("B–C", "—", "Niche"). */
+  label: string;
+  /** The rest of the cell, Markdown with citation chips. */
+  note: string;
+  contested: boolean;
+}
+
+export interface ViabilityRow {
+  spec: string;
+  /** Text after the spec name in the cell ("(24/27/0)"). */
+  detail: string | null;
+  route: string | null;
+  playbookId: string | null;
+  role: string | null;
+  cells: ViabilityCell[];
+}
+
+export interface Viability {
+  heading: string;
+  columns: { key: string; label: string }[];
+  rows: ViabilityRow[];
+  legend: string | null;
+  notes: string | null;
+}
+
+export interface LevelingPathStep {
+  from: number | null;
+  to: number | null;
+  levelText: string | null;
+  /** Canonical talent name when the row names one talent. */
+  talent: string | null;
+  tree: string | null;
+  max: number | null;
+  rankFrom: number | null;
+  rankTo: number | null;
+  /** The table's talent cell, verbatim. */
+  markdown: string;
+  note: string | null;
+  respec: boolean;
+}
+
+export interface LevelingPath {
+  id: string;
+  title: string;
+  subtitle: string | null;
+  approximate: boolean;
+  respecAt: number | null;
+  noRespec: boolean;
+  steps: LevelingPathStep[];
+  /** The build the order ends on (its calculator link, decoded). */
+  end: Omit<TalentBuild, 'label' | 'recommended' | 'source'> | null;
 }
 
 /** A standalone guide page: the class sources page, or a page no playbook claims. */
@@ -196,6 +299,10 @@ export interface TalentOrder {
 export interface LevelingGuide {
   sections: Section[];
   sourceFile: string;
+  /** The leveling page's **Recommendation:** paragraph. */
+  recommendation?: string | null;
+  /** The talent-order tables as resolved level-by-level paths. */
+  paths?: LevelingPath[];
   /** Absent in the development fixtures. */
   talentOrders?: TalentOrder[];
 }
@@ -300,6 +407,64 @@ export interface ClassEntry {
   guidePages?: GuideDoc[];
   /** `channel#id` -> chip data for the `[[d:channel#id]]` citations inside this class's YAML. */
   citations?: Record<string, DiscordCitation>;
+  /** The guide index's **Recommendation:** (or opening) paragraph. */
+  recommendation?: string | null;
+  /** The guide index's spec viability table. */
+  viability?: Viability | null;
+  /** The class's 1.18.1 talent trees (calculator order). */
+  talentTree?: TalentTree | null;
+}
+
+/* ---- the code-split core (scripts/data-plugin.mjs) ------------------------ */
+
+export interface HeadingRef {
+  id: string;
+  heading: string;
+}
+
+export interface PlaybookSummary {
+  id: string;
+  spec: string;
+  role: string;
+  roleLabel: string;
+  title: string;
+  /** Split of the published build ("43/8/0"). */
+  recommended: string | null;
+  headings: HeadingRef[];
+}
+
+export interface ClassSummary {
+  slug: string;
+  name: string;
+  color: string;
+  summary: string;
+  recommendation: string | null;
+  viability: Viability | null;
+  guidePath: string | null;
+  playbooks: PlaybookSummary[];
+  leveling: { recommendation: string | null; headings: HeadingRef[] } | null;
+  sources: { title: string } | null;
+  guidePages: { slug: string; title: string }[];
+  hasGear: boolean;
+  readmeHeadings: HeadingRef[];
+}
+
+export interface InstanceSummary {
+  slug: string;
+  title: string;
+  kind: InstanceKind | null;
+  group: string | null;
+  blurb: string;
+  sections: HeadingRef[];
+  bosses: string[];
+}
+
+export interface CoreData {
+  classes: ClassSummary[];
+  glossary: GlossaryTerm[];
+  meta: Meta;
+  instances: (Omit<InstancesData, 'pages'> & { pages: InstanceSummary[] }) | null;
+  isFixture: boolean;
 }
 
 /** One Discord message as a citation chip: `url` is null when it is not in the evidence files. */
@@ -379,15 +544,4 @@ export interface InstancesData {
   sourceFile: string;
   groups: InstanceGroup[];
   pages: InstancePage[];
-}
-
-export interface SiteData {
-  classes: ClassEntry[];
-  matrix: MatrixData;
-  glossary: GlossaryTerm[];
-  meta: Meta;
-  /** Dungeon and raid guide pages; null when `instances.json` is absent (fixtures). */
-  instances: InstancesData | null;
-  /** true when the app fell back to src/data/fixtures (development only). */
-  isFixture: boolean;
 }

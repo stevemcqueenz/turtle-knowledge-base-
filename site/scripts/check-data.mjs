@@ -403,6 +403,43 @@ if (isArray(data.classes) && isObject(data.matrix) && isArray(data.matrix.rows))
   }
 }
 
+// ---- Guide summaries (optional fields; the fixtures have none) -------------
+// viability (the class guide's spec table), talentTree, playbook builds/glance
+// and leveling paths drive the at-a-glance UI; see PLAN.md §10.
+for (const c of isArray(data.classes) ? data.classes : []) {
+  const v = c.viability;
+  if (v !== undefined && v !== null) {
+    if (!isArray(v.columns) || !isArray(v.rows)) fail(`${c.slug}: viability needs columns[] and rows[]`);
+    for (const row of v.rows ?? []) {
+      if (!isString(row.spec)) fail(`${c.slug}: viability row without a spec`);
+      if (!isArray(row.cells) || row.cells.length !== (v.columns ?? []).length)
+        fail(`${c.slug}/${row.spec}: viability cells do not match the columns`);
+      for (const cell of row.cells ?? [])
+        if (!(cell.grade === null || /^[SABCDF][+-]?$/.test(cell.grade)) || !isString(cell.note))
+          fail(`${c.slug}/${row.spec}: bad viability cell ${JSON.stringify(cell).slice(0, 80)}`);
+      if (row.playbookId && !(c.playbooks ?? []).some((p) => p.id === row.playbookId))
+        fail(`${c.slug}/${row.spec}: viability row points at missing playbook ${row.playbookId}`);
+    }
+  }
+  const tabs = c.talentTree?.tabs;
+  if (c.talentTree && (!isArray(tabs) || tabs.length !== 3)) fail(`${c.slug}: talentTree must have 3 tabs`);
+  const checkBuild = (b, where) => {
+    if (!isString(b.url) || !isArray(b.ranks) || !isArray(b.totals)) return fail(`${where}: build needs url, ranks, totals`);
+    if (tabs)
+      b.ranks.forEach((ranks, ti) => {
+        if (!tabs[ti] || ranks.length !== tabs[ti].talents.length) fail(`${where}: ranks do not match tree ${ti}`);
+      });
+  };
+  for (const p of c.playbooks ?? []) {
+    for (const b of p.builds ?? []) checkBuild(b, `${c.slug}/${p.id}`);
+    if (p.sectionOrder !== undefined && !isArray(p.sectionOrder)) fail(`${c.slug}/${p.id}: sectionOrder must be an array`);
+  }
+  for (const path of c.leveling?.paths ?? []) {
+    if (!isArray(path.steps) || path.steps.length === 0) fail(`${c.slug}/${path.id}: leveling path without steps`);
+    if (path.end) checkBuild(path.end, `${c.slug}/${path.id}`);
+  }
+}
+
 const label = chosen.kind === 'generated' ? 'src/data' : 'src/data/fixtures (development sample)';
 console.log(`check-data: ${label}`);
 console.log(

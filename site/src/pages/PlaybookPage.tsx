@@ -1,382 +1,247 @@
-import { useLayoutEffect, useRef } from 'react';
-import type { YamlCooldown, YamlLevelingStep, YamlRotationStep, YamlSource, YamlTalentPoint } from '../types';
-import { getClass, isPlainObject, playbookNeighbours } from '../lib/site';
-import { href, useScrollReset } from '../lib/router';
-import { pickTalentOrder } from '../lib/leveling';
-import { readableColor } from '../lib/theme';
-import { annotateGlossaryTerms } from '../lib/glossary-inline';
-import { useThemeValue } from '../lib/theme-context';
-import { Callout } from '../components/Callout';
-import { Collapsible } from '../components/Collapsible';
+import type { Playbook, Section as SectionData } from '../types';
+import { getClassSummary, playbookNeighbours, specLabel } from '../lib/site';
+import { href, useScrollReset, useSectionScroll } from '../lib/router';
+import { ACTIVITY_LABELS } from '../lib/grades';
+import { useClassEntry } from '../data';
 import { Markdown } from '../components/Markdown';
-import { SectionTabs } from '../components/guide/SectionTabs';
-import { GuideHero } from '../components/guide/GuideHero';
-import { CardLabel, EmptyLine, GuideSection, ProseDetails } from '../components/guide/GuideSection';
-import { BuildLinks, SkipChips, TalentSplit, treeSplits } from '../components/guide/TalentSplit';
-import { TalentRows } from '../components/guide/TalentRows';
-import { LevelingPath } from '../components/guide/LevelingPath';
-import { StatPriority, statRows } from '../components/guide/StatPriority';
-import { CapTiles } from '../components/guide/CapTiles';
-import { OpenerChain } from '../components/guide/OpenerChain';
-import { ResourceRules, RotationList } from '../components/guide/RotationList';
-import { AoeCards, aoeGroups } from '../components/guide/AoeCards';
-import { CooldownGrid } from '../components/guide/CooldownGrid';
-import { DontList } from '../components/guide/DontList';
-import { SourcesRow } from '../components/guide/SourcesRow';
-import { cleanHeading, describeValue, sourceSummaryLine, splitOpener, summarizeSources } from '../components/guide/util';
-import { ChevronLeftIcon, ChevronRightIcon } from '../components/Icons';
+import { Loading, PageHero, Section, WithToc } from '../components/layout/Page';
+import type { TocItem } from '../components/layout/Toc';
+import { useClassInk } from '../components/ui/ClassMark';
+import { Grade } from '../components/ui/Grade';
+import { BuildCard, ConsumablesCard, PriorityCard, StatsCard } from '../components/playbook/Glance';
+import { BotPanel } from '../components/playbook/BotPanel';
+import { RoleIcon } from '../components/class/RoleIcon';
+import { ArrowRightIcon, ChevronLeftIcon, ChevronRightIcon, CodeIcon, CompassIcon } from '../components/Icons';
+import { cleanHeading } from '../components/guide/util';
 import { NotFound } from './NotFound';
-import { CitedText } from '../components/CitedText';
 
-function list<T>(value: unknown): T[] {
-  return Array.isArray(value) ? (value as T[]) : [];
+const TEMPLATE = [
+  'overview',
+  'talents',
+  'stats',
+  'rotationSingle',
+  'rotationAoe',
+  'cooldowns',
+  'roleStrategy',
+  'gear',
+  'enchants',
+  'consumables',
+  'mistakes',
+  'sources',
+] as const;
+
+/** The guide page's sections in its own order (template order for older data). */
+function orderedSections(p: Playbook): SectionData[] {
+  const slots = p.sections as unknown as Record<string, SectionData | null | undefined>;
+  const extras = new Map((p.extraSections ?? []).map((s) => [s.id, s]));
+  const keys = p.sectionOrder?.length
+    ? p.sectionOrder
+    : [...TEMPLATE.filter((k) => slots[k]), ...(p.extraSections ?? []).map((s) => `extra:${s.id}`)];
+  const out: SectionData[] = [];
+  const seen = new Set<string>();
+  for (const k of keys) {
+    const s = k.startsWith('extra:') ? extras.get(k.slice(6)) : slots[k];
+    if (s && !seen.has(s.id)) {
+      seen.add(s.id);
+      out.push(s);
+    }
+  }
+  return out;
 }
 
-function isOpener(step: YamlRotationStep): boolean {
-  return step?.priority === 0 || String(step?.condition ?? '').trim().toLowerCase() === 'opener';
-}
+const tocLabel = (h: string) =>
+  cleanHeading(h)
+    .replace(/\s*\([^)]*\)\s*$/, '')
+    .replace(/^What (1\.18\.1 )?changed.*$/i, 'What 1.18.1 changed');
 
 export function PlaybookPage({ slug, id }: { slug: string; id: string }) {
-  const entry = getClass(slug);
+  const cls = getClassSummary(slug);
+  const entry = useClassEntry(slug);
   const playbook = entry?.playbooks.find((p) => p.id === id);
   useScrollReset(`${slug}/${id}`);
-  const theme = useThemeValue();
-  // The playbook body is React-rendered from structured data, so the Markdown
-  // annotator never sees it; explain the archive jargon here too.
-  const body = useRef<HTMLDivElement>(null);
-  useLayoutEffect(() => {
-    if (body.current) annotateGlossaryTerms(body.current);
-  }, [slug, id]);
+  useSectionScroll(!!playbook);
+  const { ink, rgb } = useClassInk(cls?.color ?? '#cccccc');
 
-  if (!entry || !playbook) return <NotFound path={`#/class/${slug}/${id}`} />;
+  if (!cls || entry === null || (entry && !playbook) || !cls.playbooks.some((p) => p.id === id))
+    return <NotFound path={`#/class/${slug}/${id}`} />;
+  if (!entry || !playbook) return <Loading label={`Loading the ${cls.name} guide`} />;
 
   const y = playbook.yaml;
-  const sections = playbook.sections;
-  const ink = readableColor(entry.color, theme);
-  const { prev, next } = playbookNeighbours(entry, playbook.id);
+  const glance = playbook.glance;
+  const builds = playbook.builds ?? [];
+  const tree = entry.talentTree;
+  const row =
+    cls.viability?.rows.find((r) => r.playbookId === id) ??
+    cls.viability?.rows.find((r) => r.spec.toLowerCase().startsWith(playbook.spec.toLowerCase().split(' ')[0])) ??
+    null;
+  const sections = orderedSections(playbook).filter((s) => !(glance && s.id === 'overview' && s.heading === 'Overview'));
+  const { prev, next } = playbookNeighbours(entry, id);
+  const cited = new Set(
+    [...orderedSections(playbook).map((s) => s.markdown), playbook.intro]
+      .join('\n')
+      .match(/evidence-[a-z0-9_-]+\.jsonl#L\d+/g) ?? [],
+  ).size;
+  const hasGlance = builds.length > 0 || !!y?.stat_priority || !!y?.rotation_single || !!y?.consumables;
 
-  /* ---- talents ---------------------------------------------------------- */
-  const talents = y?.talents ?? null;
-  const points = list<YamlTalentPoint>(talents?.points);
-  const splits = treeSplits(points);
-  const skip = list<unknown>(talents?.skip)
-    .map((s) => describeValue(s))
-    .filter(Boolean);
-  const buildLinks = [
-    ...(typeof talents?.build_link_tortoise === 'string' && talents.build_link_tortoise ? [talents.build_link_tortoise] : []),
-    ...(typeof talents?.build_link === 'string' && talents.build_link ? [talents.build_link] : []),
-    ...list<unknown>(talents?.links_opaque).filter((l): l is string => typeof l === 'string' && l.startsWith('http')),
-  ];
-  const patchNotes = y?.patch_validity?.notes ? String(y.patch_validity.notes) : '';
-  const levelingOrder = list<YamlLevelingStep>(talents?.leveling_order);
-  // No order of its own: borrow the class leveling guide's, clearly labelled.
-  const classOrder = levelingOrder.length === 0 ? pickTalentOrder(entry) : null;
-
-  /* ---- stats ------------------------------------------------------------ */
-  const rows = statRows(y?.stat_priority, y?.stat_weights ?? null);
-  const onlyOrder = !isPlainObject(y?.stat_weights) && rows.length > 0;
-  const capsValue = isPlainObject(y?.caps) ? (y!.caps as Record<string, unknown>) : null;
-  const caps = capsValue && Object.keys(capsValue).length > 0 ? capsValue : null;
-
-  /* ---- rotation --------------------------------------------------------- */
-  const rotationSingle = list<YamlRotationStep>(y?.rotation_single);
-  const opener = rotationSingle.find(isOpener) ?? null;
-  const openerSteps = opener ? splitOpener(opener.action) : [];
-  const priority = rotationSingle.filter((s) => s !== opener);
-  const groups = aoeGroups(list<YamlRotationStep>(y?.rotation_aoe), y?.aoe_threshold);
-  const resourceRules = list<unknown>(y?.resource_rules);
-
-  /* ---- the rest --------------------------------------------------------- */
-  const cooldowns = list<YamlCooldown>(y?.cooldowns);
-  const mistakes = list<unknown>(y?.mistakes_to_avoid);
-  const consumables = list<unknown>(y?.consumables)
-    .map((c) => describeValue(c))
-    .filter(Boolean);
-  const sources = list<YamlSource>(y?.sources);
-  const sourceLine = sources.length > 0 ? sourceSummaryLine(summarizeSources(sources)) : '';
-  const hasGearData =
-    (Array.isArray(entry.gear?.specs) && entry.gear!.specs!.length > 0) ||
-    (Array.isArray(entry.gearMarkdown) && entry.gearMarkdown.length > 0);
-
-  const fromGuide = !!playbook.guidePath;
-  const extras = playbook.extraSections ?? [];
-  const tabs = [
-    ...(fromGuide && sections?.overview ? [{ id: 'overview', label: 'Overview' }] : []),
-    { id: 'talents', label: 'Talents' },
-    ...(levelingOrder.length > 0 || classOrder ? [{ id: 'leveling', label: 'Leveling path' }] : []),
-    { id: 'stats', label: 'Stats & caps' },
-    { id: 'rotation', label: 'Rotation' },
-    { id: 'cooldowns', label: 'Cooldowns' },
-    { id: 'dont', label: "Don't" },
-    ...(fromGuide ? [{ id: 'gear', label: 'Gear' }] : []),
-    ...(fromGuide && extras.length > 0 ? [{ id: 'more', label: 'More' }] : []),
-    { id: 'sources', label: 'Sources' },
+  const toc: TocItem[] = [
+    { id: 'overview', label: 'At a glance' },
+    ...sections.map((s) => ({ id: s.id, label: tocLabel(s.heading) })),
+    ...(y ? [{ id: 'for-bots', label: 'For bots' }] : []),
   ];
 
   return (
-    <div className="min-w-0">
-      <GuideHero entry={entry} playbook={playbook} />
-      <SectionTabs items={tabs} ariaLabel="Sections of this guide" note={sourceLine} />
-
-      <div ref={body} className="mx-auto max-w-6xl space-y-10 px-3 py-7 sm:px-5">
-        {/* ---- Overview (guide pages open with their recommendation) ------ */}
-        {fromGuide && sections?.overview ? (
-          <GuideSection id="overview" title="Overview">
-            <div className="card p-4 sm:p-5">
-              <Markdown source={sections.overview.markdown} />
-            </div>
-          </GuideSection>
-        ) : null}
-
-        {/* ---- Talents ---------------------------------------------------- */}
-        <GuideSection
-          id="talents"
-          title="Talents"
-          hint={talents?.build_name ? <CitedText text={String(talents.build_name)} /> : undefined}
-        >
-          {points.length > 0 || skip.length > 0 || buildLinks.length > 0 ? (
-            <div className="grid gap-4 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,2fr)]">
-              <div className="card flex flex-col gap-5 p-4 sm:p-5">
-                <TalentSplit splits={splits} color={ink} />
-                <SkipChips skip={skip} />
-                <BuildLinks links={buildLinks} color={ink} />
-                {patchNotes ? (
-                  <div className="mt-auto">
-                    <Callout tone="warning" title="1.18.1">
-                      <CitedText text={patchNotes} />
-                    </Callout>
-                  </div>
-                ) : null}
-              </div>
-              <div className="card space-y-3 p-4 sm:p-5">
-                <CardLabel>What each point buys</CardLabel>
-                {points.length > 0 ? (
-                  <TalentRows points={points} color={ink} />
-                ) : (
-                  <p className="text-sm text-muted">No point-by-point build is published for this spec.</p>
-                )}
-              </div>
-            </div>
-          ) : (
-            <EmptyLine>No talent build is published for this spec.</EmptyLine>
-          )}
-          <ProseDetails title="Full talent notes" sections={[sections?.talents]} />
-        </GuideSection>
-
-        {/* ---- Leveling path ---------------------------------------------- */}
-        {levelingOrder.length > 0 ? (
-          <GuideSection id="leveling" title="Leveling path" hint="The sourced order the points go in">
-            <LevelingPath steps={levelingOrder} color={ink} />
-          </GuideSection>
-        ) : classOrder ? (
-          <GuideSection id="leveling" title="Leveling path" hint={`From the ${entry.name} leveling guide`}>
-            <div className="space-y-2">
-              <h3 className="text-base font-bold">{cleanHeading(classOrder.title)}</h3>
-              {classOrder.subtitle ? (
-                <Markdown inline source={classOrder.subtitle} className="block text-sm text-muted" />
-              ) : null}
-              <LevelingPath steps={classOrder.steps} color={ink} approximate={classOrder.approximate} />
-              <p className="text-sm text-muted">
-                No level-by-level order is published for {playbook.spec} {playbook.roleLabel} itself; this is one
-                of the talent orders in the {entry.name} leveling guide.{' '}
-                <a href={href.leveling(entry.slug)} className="text-[rgb(var(--c-accent))] hover:underline">
-                  Read the {entry.name} leveling guide →
-                </a>
-              </p>
-            </div>
-          </GuideSection>
-        ) : (
-          <p className="card p-4 text-sm text-muted">
-            No level-by-level talent order is published for this spec.{' '}
-            {entry.leveling ? (
-              <a href={href.leveling(entry.slug)} className="text-[rgb(var(--c-accent))] hover:underline">
-                Read the {entry.name} leveling guide →
-              </a>
-            ) : null}
-          </p>
-        )}
-
-        {/* ---- Stats & caps ------------------------------------------------ */}
-        <GuideSection id="stats" title="Stats & caps">
-          <div className="grid gap-4 lg:grid-cols-[minmax(0,2fr)_minmax(0,1.05fr)]">
-            {rows.length > 0 ? (
-              <StatPriority
-                rows={rows}
-                color={ink}
-                footnote={
-                  onlyOrder
-                    ? "No numeric stat weights are published; the order is the players' consensus."
-                    : undefined
-                }
-              />
-            ) : (
-              <EmptyLine>No stat priority is published for this spec.</EmptyLine>
-            )}
-            {caps ? <CapTiles caps={caps} color={ink} /> : <EmptyLine>No hard caps are published for this spec.</EmptyLine>}
-          </div>
-          <ProseDetails title="Full stat notes" sections={[sections?.stats]} />
-        </GuideSection>
-
-        {/* ---- Rotation ---------------------------------------------------- */}
-        <GuideSection id="rotation" title="Rotation">
-          {openerSteps.length > 0 ? (
-            <OpenerChain
-              steps={openerSteps}
-              color={ink}
-              condition={opener && String(opener.condition ?? '').toLowerCase() !== 'opener' ? describeValue(opener.condition) : undefined}
-            />
-          ) : null}
-
-          {priority.length > 0 || groups.length > 0 ? (
-            <div className="grid gap-4 lg:grid-cols-[minmax(0,1.6fr)_minmax(0,1fr)]">
-              {priority.length > 0 ? (
-                <RotationList steps={priority} color={ink} />
-              ) : (
-                <EmptyLine>No single-target priority is published for this spec.</EmptyLine>
-              )}
-              <div className="space-y-3">
-                {groups.length > 0 ? (
-                  <AoeCards groups={groups} color={ink} />
-                ) : (
-                  <EmptyLine>No multi-target rotation is published for this spec.</EmptyLine>
-                )}
-                {resourceRules.length > 0 ? <ResourceRules rules={resourceRules} /> : null}
-              </div>
-            </div>
-          ) : (
-            <EmptyLine>No rotation is published for this spec.</EmptyLine>
-          )}
-          <ProseDetails title="Full rotation notes" sections={[sections?.rotationSingle, sections?.rotationAoe]} />
-        </GuideSection>
-
-        {/* ---- Cooldowns ---------------------------------------------------- */}
-        <GuideSection id="cooldowns" title="Cooldowns">
-          {cooldowns.length > 0 ? (
-            <CooldownGrid cooldowns={cooldowns} />
-          ) : (
-            <EmptyLine>No cooldown list is published for this spec.</EmptyLine>
-          )}
-          <ProseDetails title="Cooldowns and role strategy in full" sections={[sections?.cooldowns, sections?.roleStrategy]} />
-        </GuideSection>
-
-        {/* ---- Don't -------------------------------------------------------- */}
-        <GuideSection id="dont" title="Don't">
-          {mistakes.length > 0 ? (
-            <DontList mistakes={mistakes} />
-          ) : (
-            <EmptyLine>No common mistakes are called out in the sources.</EmptyLine>
-          )}
-          <ProseDetails title="Full notes on mistakes" sections={[sections?.mistakes]} />
-        </GuideSection>
-
-        {/* ---- Gear --------------------------------------------------------- */}
-        <GuideSection id="gear" title="Gear">
-          <div className="card space-y-3 p-4 sm:p-5">
-            <p className="text-sm">
-              {hasGearData ? (
-                <a
-                  href={href.gear(entry.slug, `${playbook.spec}|${playbook.role}`)}
-                  className="font-semibold text-[rgb(var(--c-accent))] hover:underline"
-                >
-                  Slot-by-slot gear for {playbook.spec} {playbook.roleLabel} →
-                </a>
-              ) : (
-                <span className="text-muted">No slot-by-slot gear list is published for this spec.</span>
-              )}
+    <div>
+      <PageHero
+        rgb={rgb}
+        crumbs={[
+          { label: 'Classes', href: href.home() },
+          { label: cls.name, href: href.class(slug) },
+          { label: playbook.role === 'pvp' ? `PvP · ${specLabel(playbook.spec)}` : playbook.spec },
+        ]}
+      >
+        <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_20rem] lg:gap-12">
+          <div className="min-w-0">
+            <p className="eyebrow flex items-center gap-2">
+              <RoleIcon role={playbook.role} className="h-3.5 w-3.5" /> {playbook.roleLabel} guide · patch 1.18.1
             </p>
-            {consumables.length > 0 ? (
-              <div className="space-y-2">
-                <CardLabel>Consumables</CardLabel>
-                <ul className="flex flex-wrap gap-1.5">
-                  {consumables.map((c, i) => (
-                    <li key={i} className="chip hairline bg-surface2 text-xs text-muted">
-                      <CitedText text={c} />
+            <h1 className="display mt-2 text-[2.1rem] leading-[1.1] sm:text-5xl">
+              <span style={{ color: ink }}>{specLabel(playbook.spec)}</span> {playbook.role === 'pvp' ? `${cls.name} in PvP` : cls.name}
+            </h1>
+            {glance?.recommendation ? (
+              <div className="mt-5 max-w-3xl">
+                <p className="eyebrow mb-2 text-accent">The short answer</p>
+                <Markdown source={glance.recommendation} className="text-[1.03rem] sm:text-[1.08rem]" />
+              </div>
+            ) : playbook.intro ? (
+              <Markdown source={playbook.intro} className="mt-5 max-w-3xl" />
+            ) : null}
+          </div>
+          <aside className="space-y-4">
+            {row ? (
+              <div className="card p-4">
+                <p className="eyebrow mb-3">Rated in 1.18.1</p>
+                <ul className="grid grid-cols-5 gap-1.5 lg:grid-cols-1 lg:gap-2">
+                  {row.cells.map((cell) => (
+                    <li key={cell.key} className="flex flex-col items-center gap-1 lg:flex-row lg:gap-3">
+                      <Grade cell={cell} column={ACTIVITY_LABELS[cell.key] ?? cell.key} size="sm" />
+                      <span className="text-center text-[10px] uppercase tracking-wide text-muted lg:text-left lg:text-sm lg:normal-case lg:tracking-normal lg:text-ink">
+                        {ACTIVITY_LABELS[cell.key] ?? cell.key}
+                      </span>
                     </li>
                   ))}
                 </ul>
+                <a href={href.section(href.class(slug), 'viability')} className="link mt-3 block text-xs font-medium">
+                  Compare {cls.name} specs
+                </a>
               </div>
             ) : null}
-          </div>
-          <ProseDetails
-            title={sections?.enchants || sections?.consumables ? 'Gear, enchants and consumables in full' : 'Full gear notes'}
-            sections={[sections?.gear, sections?.enchants, sections?.consumables]}
-          />
-        </GuideSection>
-
-        {/* ---- More (guide sections outside the template) ----------------- */}
-        {fromGuide && extras.length > 0 ? (
-          <GuideSection id="more" title="More from this guide">
-            <div className="space-y-2">
-              {extras.map((extra) => (
-                <Collapsible key={extra.id} title={cleanHeading(extra.heading)}>
-                  <Markdown source={extra.markdown} />
-                </Collapsible>
-              ))}
-            </div>
-          </GuideSection>
-        ) : null}
-
-        {/* ---- Sources ------------------------------------------------------ */}
-        <GuideSection id="sources" title="Sources">
-          <SourcesRow sources={sources}>
-            {sections?.sources ? <Markdown source={sections.sources.markdown} /> : null}
-          </SourcesRow>
-          {fromGuide ? (
-            <p className="card p-4 text-sm text-muted">
-              Every claim in this guide carries its citation inline: forum posts and Discord messages (hover a chip to
-              read the message).{' '}
-              {entry.sources ? (
-                <a href={href.sources(entry.slug)} className="text-[rgb(var(--c-accent))] hover:underline">
-                  What the {entry.name} guides are built on →
-                </a>
-              ) : null}
+            <p className="text-xs leading-relaxed text-muted">
+              {cited ? `Distilled from ${cited} cited Discord messages` : 'Distilled from the archived community'}
+              {' '}plus the forum and wiki. Hover a <span className="cite-mark pointer-events-none !top-0" aria-hidden="true" /> to read
+              the source.
             </p>
-          ) : null}
-          {!fromGuide && sections?.overview ? (
-            <ProseDetails title="Overview in full" sections={[sections.overview]} />
-          ) : null}
-          {fromGuide
-            ? null
-            : extras.map((extra) => (
-                <Collapsible key={extra.id} title={cleanHeading(extra.heading)}>
-                  <Markdown source={extra.markdown} />
-                </Collapsible>
-              ))}
-        </GuideSection>
+          </aside>
+        </div>
+      </PageHero>
 
-        <nav aria-label="Other playbooks" className="grid gap-3 sm:grid-cols-2">
-          {prev ? (
-            <a
-              href={href.playbook(entry.slug, prev.id)}
-              className="card flex min-w-0 items-center gap-2 p-4 text-sm hover:border-[color:rgb(var(--c-accent)/0.5)]"
-            >
-              <ChevronLeftIcon />
-              <span className="min-w-0">
-                <span className="block text-xs text-muted">Previous</span>
-                <span className="block truncate font-medium">
-                  {prev.spec} {prev.roleLabel}
-                </span>
-              </span>
-            </a>
-          ) : (
-            <span />
-          )}
-          {next ? (
-            <a
-              href={href.playbook(entry.slug, next.id)}
-              className="card flex min-w-0 items-center justify-end gap-2 p-4 text-right text-sm hover:border-[color:rgb(var(--c-accent)/0.5)]"
-            >
-              <span className="min-w-0">
-                <span className="block text-xs text-muted">Next</span>
-                <span className="block truncate font-medium">
-                  {next.spec} {next.roleLabel}
-                </span>
-              </span>
-              <ChevronRightIcon />
-            </a>
+      <WithToc toc={toc}>
+        <div className="space-y-14">
+          <Section
+            id="overview"
+            eyebrow="Fast answers"
+            title="At a glance"
+            actions={
+              y ? (
+                <a href="#for-bots" onClick={(e) => { e.preventDefault(); document.getElementById('for-bots')?.scrollIntoView(); }} className="inline-flex items-center gap-1.5 text-sm font-medium text-muted hover:text-ink">
+                  <CodeIcon className="h-4 w-4" /> Playbook for bots
+                </a>
+              ) : null
+            }
+          >
+            <div className="space-y-4">
+              {glance?.facts?.length ? (
+                <dl className="card grid divide-y overflow-hidden text-sm sm:grid-cols-2 sm:divide-y-0">
+                  {glance.facts
+                    .filter((f) => !/^viability/i.test(f.label))
+                    .map((f) => (
+                      <div key={f.label} className="border-b p-4 last:border-b-0 sm:[&:nth-last-child(-n+2)]:border-b-0 sm:odd:border-r">
+                        <dt className="eyebrow mb-1">{f.label}</dt>
+                        <dd>
+                          <Markdown inline source={f.markdown} className="leading-relaxed" />
+                        </dd>
+                      </div>
+                    ))}
+                </dl>
+              ) : null}
+              {builds.length && tree ? <BuildCard builds={builds} tree={tree} rgb={rgb} /> : null}
+              {y ? (
+                <div className="grid gap-4 xl:grid-cols-2">
+                  <StatsCard yaml={y} />
+                  <PriorityCard yaml={y} />
+                </div>
+              ) : null}
+              {y ? <ConsumablesCard yaml={y} /> : null}
+              {!hasGlance ? (
+                <p className="text-sm text-muted">No structured build or priority list is published for this spec; the full guide follows.</p>
+              ) : null}
+              {glance?.rest ? <Markdown source={glance.rest} /> : null}
+              <div className="flex flex-wrap gap-2 pt-1">
+                {entry.leveling ? (
+                  <a href={href.leveling(slug)} className="btn btn-ghost">
+                    <CompassIcon /> Leveling a {cls.name}
+                  </a>
+                ) : null}
+                <a href={href.class(slug)} className="btn btn-ghost">
+                  All {cls.name} specs <ArrowRightIcon />
+                </a>
+              </div>
+            </div>
+          </Section>
+
+          <div className="rule text-xs uppercase tracking-[0.2em]" aria-hidden="true">
+            The full guide
+          </div>
+
+          {sections.map((s) => (
+            <Section key={s.id} id={s.id} title={cleanHeading(s.heading)}>
+              <Markdown source={s.markdown} />
+            </Section>
+          ))}
+
+          {y ? (
+            <Section id="for-bots" eyebrow="Machine-readable" title="For bots">
+              <BotPanel playbook={playbook} classSlug={slug} />
+            </Section>
           ) : null}
-        </nav>
-      </div>
+
+          <nav aria-label="Other guides for this class" className="grid gap-3 border-t pt-8 sm:grid-cols-2">
+            {prev ? (
+              <a href={href.playbook(slug, prev.id)} className="card flex min-w-0 items-center gap-3 p-4 hover:border-accent/50">
+                <ChevronLeftIcon />
+                <span className="min-w-0">
+                  <span className="block text-xs text-muted">Previous</span>
+                  <span className="block truncate font-serif font-semibold">
+                    {specLabel(prev.spec)} · {prev.roleLabel}
+                  </span>
+                </span>
+              </a>
+            ) : (
+              <span />
+            )}
+            {next ? (
+              <a href={href.playbook(slug, next.id)} className="card flex min-w-0 items-center justify-end gap-3 p-4 text-right hover:border-accent/50">
+                <span className="min-w-0">
+                  <span className="block text-xs text-muted">Next</span>
+                  <span className="block truncate font-serif font-semibold">
+                    {specLabel(next.spec)} · {next.roleLabel}
+                  </span>
+                </span>
+                <ChevronRightIcon />
+              </a>
+            ) : null}
+          </nav>
+        </div>
+      </WithToc>
     </div>
   );
 }

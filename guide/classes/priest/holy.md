@@ -41,7 +41,7 @@ This is Bluefear's build ("what im running") [[d:priest#1488039697971281981]]. I
 | Holy | Ascendance | 1/1 |
 
 Split **14/37/0**, validated with `talent_tool.py` (VALID). Calculator codes:
-`talents.turtlecraft.gg/priest?points=AoDCBD-aAFCAZLoRYAoB-` · `talents.turtlecraft.gg/priest/0UIC6I-K5237NDN6`
+`talents.turtlecraft.gg/priest?points=AoDCBD-aAFCAZLoRYAoB-` ([Open in talent calculator](https://xian55.github.io/tortoise-db-viewer/?talents=priest&t=00503020103-32050203113521351)) · `talents.turtlecraft.gg/priest/0UIC6I-K5237NDN6`
 
 Why these points:
 
@@ -55,8 +55,8 @@ Why these points:
 
 | Variant | What changes | Code (VALID) | Source |
 |---|---|---|---|
-| **More crit** | Move Holy Reach 2 + Holy Nova 1 into Divinity 3 | `AoDCBD-aYFAAYLoRYAoB-` | Bluefear: "if you like more crit you can probably move points from holy reach/holy nova" [[d:priest#1488039697971281981]] |
-| **Low Spiritual Guidance** (Kabooble) | Spiritual Guidance 2/5 and Holy Reach 1/2; Divinity 5/5 and Empowered Recovery 1/2 instead of Holy Nova | `AoDCBD-aoFBAYLQRYAoB-` | Saw only ~30 healing difference between ranks 2 and 4 in full Kara40 gear (single source) [[d:priest#1484588714758770728]] |
+| **More crit** | Move Holy Reach 2 + Holy Nova 1 into Divinity 3 | `AoDCBD-aYFAAYLoRYAoB-` ([calculator](https://xian55.github.io/tortoise-db-viewer/?talents=priest&t=00503020103-32350003013521351)) | Bluefear: "if you like more crit you can probably move points from holy reach/holy nova" [[d:priest#1488039697971281981]] |
+| **Low Spiritual Guidance** (Kabooble) | Spiritual Guidance 2/5 and Holy Reach 1/2; Divinity 5/5 and Empowered Recovery 1/2 instead of Holy Nova | `AoDCBD-aoFBAYLQRYAoB-` ([calculator](https://xian55.github.io/tortoise-db-viewer/?talents=priest&t=00503020103-32550103013221351)) | Saw only ~30 healing difference between ranks 2 and 4 in full Kara40 gear (single source) [[d:priest#1484588714758770728]] |
 | **21/30 hybrid** | Disc Enlighten points in exchange for some Holy throughput | no post-1.18.1 code posted | Lirya: "will make you lose out on some healing numbers but my guess is it will become quite popular" [[d:priest#1487035175626997761]] |
 
 !!! warning "Pre-1.18.1 builds"

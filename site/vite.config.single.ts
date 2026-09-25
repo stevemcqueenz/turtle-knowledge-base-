@@ -1,11 +1,12 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { viteSingleFile } from 'vite-plugin-singlefile';
+import { twowData } from './scripts/data-plugin.mjs';
 
 // Self-contained single HTML file: all JS/CSS/JSON inlined, no external requests.
 export default defineConfig({
   base: './',
-  plugins: [react(), viteSingleFile({ removeViteModuleLoader: true })],
+  plugins: [react(), twowData(), viteSingleFile({ removeViteModuleLoader: true })],
   build: {
     outDir: 'dist-single',
     target: 'es2020',

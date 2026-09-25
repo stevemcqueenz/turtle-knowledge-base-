@@ -1,22 +1,18 @@
 import type { DiscordCitation } from '../types';
 import { classes } from './site';
+import { cachedClass } from '../data';
 
 /** `[[d:<channel>#<message id>]]`, the knowledge base's Discord citation. */
 export const DISCORD_CITE = /\[\[d:([a-z0-9_-]+)#(\d+)\]\]/g;
 
-const index = new Map<string, DiscordCitation>();
-for (const c of classes) {
-  for (const [key, value] of Object.entries(c.citations ?? {})) if (!index.has(key)) index.set(key, value);
-}
-
+/** Chip data for one `[[d:channel#id]]`, from the citation maps of the classes loaded so far. */
 export function discordCitation(channel: string, id: string): DiscordCitation {
-  return (
-    index.get(`${channel}#${id}`) ?? {
-      label: `#${channel}`,
-      title: `Discord #${channel}, message ${id}`,
-      url: null,
-    }
-  );
+  const key = `${channel}#${id}`;
+  for (const c of classes) {
+    const hit = cachedClass(c.slug)?.citations?.[key];
+    if (hit) return hit;
+  }
+  return { label: `#${channel}`, title: `Discord #${channel}, message ${id}`, url: null };
 }
 
 export type CitedPart = { text: string } | { cite: DiscordCitation };

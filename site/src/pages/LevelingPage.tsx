@@ -1,232 +1,180 @@
-import type { Section } from '../types';
-import { getClass } from '../lib/site';
-import { href, useScrollReset } from '../lib/router';
-import { readableColor } from '../lib/theme';
-import { useThemeValue } from '../lib/theme-context';
+import { useState } from 'react';
+import type { Section as SectionData } from '../types';
+import { getClassSummary } from '../lib/site';
+import { href, useScrollReset, useSectionScroll } from '../lib/router';
+import { cellFor, gradeScore } from '../lib/grades';
+import { pathName, sectionOfPath } from '../lib/leveling';
+import { useClassEntry } from '../data';
 import { Markdown } from '../components/Markdown';
-import { SpecCard } from '../components/SpecCard';
-import { SectionTabs } from '../components/guide/SectionTabs';
-import { GuideSection, ProseDetails } from '../components/guide/GuideSection';
-import { LevelingPath } from '../components/guide/LevelingPath';
+import { Loading, PageHero, Section, WithToc } from '../components/layout/Page';
+import type { TocItem } from '../components/layout/Toc';
+import { useClassInk } from '../components/ui/ClassMark';
+import { Grade } from '../components/ui/Grade';
+import { LevelingTimeline } from '../components/leveling/LevelingTimeline';
 import { cleanHeading } from '../components/guide/util';
-import { FlameIcon } from '../components/Icons';
-import {
-  LEVELING_GROUPS,
-  groupLevelingSections,
-  levelingPicks,
-  levelingPlaybook,
-  levelingVerdictLine,
-} from '../lib/leveling';
 import { NotFound } from './NotFound';
 
-/** The unindented list marker build-data.py strips when it emits `items`. */
-const TOP_LEVEL_BULLET = /^[-*+]\s+\S/;
-
-/** The section's framing prose: its complete Markdown minus the bullet lines. */
-function framingProse(markdown: string): string {
-  return markdown
-    .split('\n')
-    .filter((line) => !TOP_LEVEL_BULLET.test(line))
-    .join('\n')
-    .trim();
-}
-
-/** A leveling section as its source bullets, or its full Markdown when none exist. */
-function Prose({ sections }: { sections: Section[] }) {
-  return (
-    <>
-      {sections.map((s) => {
-        const framing = framingProse(s.markdown);
-        return s.items?.length ? (
-          <section key={s.id} className="space-y-3">
-            <h3 className="text-base font-bold">{cleanHeading(s.heading)}</h3>
-            {framing ? <Markdown source={framing} className="text-sm text-muted" /> : null}
-            <ul className="grid gap-3 sm:grid-cols-2">
-              {s.items.map((item, i) => (
-                <li key={i} className="card p-4 sm:p-5">
-                  <Markdown source={item} />
-                </li>
-              ))}
-            </ul>
-          </section>
-        ) : (
-          <div key={s.id} className="card space-y-3 p-4 sm:p-5">
-            <h3 className="text-base font-bold">{cleanHeading(s.heading)}</h3>
-            <Markdown source={s.markdown} />
-          </div>
-        );
-      })}
-    </>
-  );
-}
-
-/** Column count for the verdict cards: even rows for 1–3 picks. */
-function pickColumns(count: number): string {
-  if (count <= 1) return '';
-  if (count === 2 || count === 4) return 'sm:grid-cols-2';
-  return 'sm:grid-cols-2 lg:grid-cols-3';
-}
+const tocLabel = (h: string) => cleanHeading(h).replace(/\s*\([^)]*\)\s*$/, '');
 
 export function LevelingPage({ slug }: { slug: string }) {
-  const entry = getClass(slug);
+  const cls = getClassSummary(slug);
+  const entry = useClassEntry(slug);
   useScrollReset(`${slug}/leveling`);
-  const theme = useThemeValue();
+  useSectionScroll(!!entry);
+  const { ink, rgb } = useClassInk(cls?.color ?? '#cccccc');
+  const [pathIndex, setPathIndex] = useState(0);
 
-  if (!entry || !entry.leveling) return <NotFound path={`#/class/${slug}/leveling`} />;
+  if (!cls || entry === null || (entry && !entry.leveling)) return <NotFound path={`#/class/${slug}/leveling`} />;
+  if (!entry) return <Loading label={`Loading the ${cls.name} leveling guide`} />;
 
-  const ink = readableColor(entry.color, theme);
-  const groups = groupLevelingSections(entry.leveling.sections);
-  const orders = entry.leveling.talentOrders ?? [];
-  const picks = levelingPicks(entry);
+  const leveling = entry.leveling!;
+  const paths = leveling.paths ?? [];
+  const tree = entry.talentTree;
+  const pathSections = new Set(paths.map((p) => sectionOfPath(leveling.sections, p)?.id).filter(Boolean) as string[]);
+  const firstPathSection = leveling.sections.findIndex((s) => pathSections.has(s.id));
+  const intro = leveling.sections.find((s) => s.heading === 'Introduction');
+  const rest: SectionData[] = leveling.sections.filter((s) => s !== intro);
+  const picks = (cls.viability?.rows ?? [])
+    .map((row) => ({ row, cell: cellFor(row, 'leveling') }))
+    .filter((p) => p.cell?.grade)
+    .sort((a, b) => gradeScore(b.cell!.grade) - gradeScore(a.cell!.grade));
 
-  const present: Record<string, boolean> = {
-    spec: picks.length > 0 || groups.spec.length > 0,
-    talents: orders.length > 0 || groups.talents.length > 0,
-    press: groups.press.length > 0,
-    stats: groups.stats.length > 0,
-    dont: groups.dont.length > 0,
-    route: groups.route.length > 0,
-    hardcore: groups.hardcore.length > 0,
-    more: groups.more.length > 0,
-    sources: groups.sources.length > 0,
-  };
-  const tabs = LEVELING_GROUPS.filter((g) => present[g.key]).map((g) => ({ id: `lv-${g.key}`, label: g.label }));
+  // The talent-order sections collapse into one "Talent path" block where the first of them stood.
+  const blocks: ({ kind: 'path' } | { kind: 'section'; s: SectionData })[] = [];
+  rest.forEach((s) => {
+    if (pathSections.has(s.id)) {
+      if (leveling.sections.indexOf(s) === firstPathSection && tree && paths.length) blocks.push({ kind: 'path' });
+      else if (!tree || !paths.length) blocks.push({ kind: 'section', s });
+      return;
+    }
+    blocks.push({ kind: 'section', s });
+  });
+
+  const toc: TocItem[] = blocks.map((b) =>
+    b.kind === 'path' ? { id: 'talent-path', label: 'Talent path 10–60' } : { id: b.s.id, label: tocLabel(b.s.heading) },
+  );
+  const path = paths[Math.min(pathIndex, paths.length - 1)];
+  const pathSection = path ? sectionOfPath(leveling.sections, path) : undefined;
 
   return (
-    <div className="min-w-0">
-      <div
-        className="border-b"
-        style={{ backgroundImage: `linear-gradient(180deg, ${entry.color}22 0%, ${entry.color}00 100%)` }}
+    <div>
+      <PageHero
+        rgb={rgb}
+        crumbs={[{ label: 'Classes', href: href.home() }, { label: cls.name, href: href.class(slug) }, { label: 'Leveling' }]}
       >
-        <div className="mx-auto max-w-6xl px-3 pb-6 pt-4 sm:px-5">
-          <nav aria-label="Breadcrumb" className="text-sm text-muted">
-            <a href={href.home()} className="rounded hover:underline">
-              Classes
-            </a>
-            <span className="mx-1.5" aria-hidden="true">
-              /
-            </span>
-            <a href={href.class(entry.slug)} className="rounded font-semibold hover:underline" style={{ color: ink }}>
-              {entry.name}
-            </a>
-            <span className="mx-1.5" aria-hidden="true">
-              /
-            </span>
-            <span className="text-ink">Leveling</span>
-          </nav>
-          <h1 className="mt-4 text-3xl font-extrabold leading-tight tracking-tight sm:text-4xl">
-            {entry.name} · Leveling 1–60
-          </h1>
-          {picks.length > 0 ? <p className="mt-2 max-w-3xl text-base text-muted">{levelingVerdictLine(picks)}</p> : null}
-        </div>
-      </div>
-      <SectionTabs items={tabs} ariaLabel="Sections of this leveling guide" />
-
-      <div className="mx-auto max-w-6xl space-y-10 px-3 py-7 sm:px-5">
-        {present.spec ? (
-          <GuideSection id="lv-spec" title="Which spec" hint="How the community rates each leveling spec">
-            {picks.length > 0 ? (
-              <div className={`grid gap-4 ${pickColumns(picks.length)}`}>
-                {picks.map((row, i) => {
-                  const playbook = levelingPlaybook(entry, row);
-                  return (
-                    <SpecCard
-                      key={`${row.spec}-${i}`}
-                      row={row}
-                      playbook={playbook}
-                      target={playbook ? href.playbook(entry.slug, playbook.id) : href.class(entry.slug)}
-                      showPatchChip={false}
-                      targetLabel={playbook ? undefined : `See the ${entry.name} spec guides`}
-                    />
-                  );
-                })}
+        <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_20rem] lg:gap-12">
+          <div className="min-w-0">
+            <p className="eyebrow">Leveling guide · 1 to 60 · patch 1.18.1</p>
+            <h1 className="display mt-2 text-[2.1rem] leading-[1.1] sm:text-5xl">
+              Leveling a <span style={{ color: ink }}>{cls.name}</span>
+            </h1>
+            {leveling.recommendation ? (
+              <div className="mt-5 max-w-3xl">
+                <p className="eyebrow mb-2 text-accent">The short answer</p>
+                <Markdown source={leveling.recommendation} className="text-[1.03rem] sm:text-[1.08rem]" />
               </div>
+            ) : intro ? (
+              <Markdown source={intro.markdown} className="mt-5 max-w-3xl" />
             ) : null}
-            {groups.spec.map((s) => (
-              <ProseDetails key={s.id} title={cleanHeading(s.heading)} sections={[s]} />
-            ))}
-          </GuideSection>
-        ) : null}
+          </div>
+          {picks.length ? (
+            <aside className="card self-start p-4">
+              <p className="eyebrow mb-3">Leveling ratings</p>
+              <ul className="space-y-2">
+                {picks.map(({ row, cell }) => (
+                  <li key={row.spec} className="flex items-center gap-3 text-sm">
+                    <Grade cell={cell!} column="Leveling" size="sm" />
+                    <span className="font-medium">{row.spec}</span>
+                  </li>
+                ))}
+              </ul>
+            </aside>
+          ) : null}
+        </div>
+      </PageHero>
 
-        {present.talents ? (
-          <GuideSection
-            id="lv-talents"
-            title="Talent order"
-            hint={orders.length > 0 ? 'The order the sources give, level by level' : undefined}
-          >
-            {orders.map((order, i) => (
-              <div key={order.id} className="space-y-2">
-                {i === 0 || orders[i - 1].title !== order.title ? (
-                  <h3 className="text-base font-bold">{cleanHeading(order.title)}</h3>
+      <WithToc toc={toc}>
+        <div className="space-y-14">
+          {blocks.map((b) =>
+            b.kind === 'path' && path && tree ? (
+              <Section
+                key="talent-path"
+                id="talent-path"
+                eyebrow="Talent points, level by level"
+                title="Talent path 10–60"
+              >
+                {paths.length > 1 ? (
+                  <div role="tablist" aria-label="Leveling paths" className="no-scrollbar -mx-4 mb-5 flex gap-2 overflow-x-auto px-4 sm:mx-0 sm:flex-wrap sm:px-0">
+                    {paths.map((p, i) => (
+                      <button
+                        key={p.id}
+                        role="tab"
+                        type="button"
+                        aria-selected={i === pathIndex}
+                        onClick={() => setPathIndex(i)}
+                        className={`shrink-0 rounded-full px-4 py-1.5 text-sm font-semibold transition-colors ${
+                          i === pathIndex ? 'bg-accent text-[rgb(var(--c-accent-ink))]' : 'hairline bg-surface text-muted hover:text-ink'
+                        }`}
+                      >
+                        {pathName(p)}
+                        {p.respecAt ? <span className="ml-1.5 text-xs opacity-75">respec {p.respecAt}</span> : null}
+                        {p.end ? <span className="ml-1.5 text-xs tabular-nums opacity-75">{p.end.split}</span> : null}
+                      </button>
+                    ))}
+                  </div>
                 ) : null}
-                {order.subtitle ? <Markdown inline source={order.subtitle} className="block text-sm text-muted" /> : null}
-                <LevelingPath steps={order.steps} color={ink} approximate={order.approximate} />
+                <h3 className="mb-4 font-serif text-lg font-semibold">
+                  {path.title}
+                  {path.subtitle ? <span className="text-muted"> · {path.subtitle}</span> : null}
+                </h3>
+                <LevelingTimeline key={path.id} path={path} tree={tree} rgb={rgb} />
+                {pathSection ? (
+                  <details className="group mt-6 rounded-2xl hairline">
+                    <summary className="cursor-pointer list-none px-4 py-3 text-sm font-semibold text-accent sm:px-5">
+                      <span className="group-open:hidden">The guide&rsquo;s table and notes for this path</span>
+                      <span className="hidden group-open:inline">Hide the table and notes</span>
+                    </summary>
+                    <div className="border-t px-4 py-4 sm:px-5">
+                      <Markdown source={pathSection.markdown} />
+                    </div>
+                  </details>
+                ) : null}
+                {/* every talent-order section stays reachable, including paths not selected */}
+                {[...pathSections]
+                  .filter((id) => id !== pathSection?.id)
+                  .map((id) => {
+                    const s = leveling.sections.find((x) => x.id === id)!;
+                    return (
+                      <details key={id} id={id} className="group mt-3 rounded-2xl hairline">
+                        <summary className="cursor-pointer list-none px-4 py-3 text-sm font-semibold text-muted hover:text-ink sm:px-5">
+                          {cleanHeading(s.heading)}
+                        </summary>
+                        <div className="border-t px-4 py-4 sm:px-5">
+                          <Markdown source={s.markdown} />
+                        </div>
+                      </details>
+                    );
+                  })}
+                {pathSection ? <span id={pathSection.id} className="block" aria-hidden="true" /> : null}
+              </Section>
+            ) : b.kind === 'section' ? (
+              <Section key={b.s.id} id={b.s.id} title={cleanHeading(b.s.heading)}>
+                <Markdown source={b.s.markdown} />
+              </Section>
+            ) : null,
+          )}
+          {intro && leveling.recommendation ? (
+            <details className="rounded-2xl hairline">
+              <summary className="cursor-pointer list-none px-4 py-3 text-sm font-semibold text-muted hover:text-ink sm:px-5">
+                The guide&rsquo;s full introduction
+              </summary>
+              <div className="border-t px-4 py-4 sm:px-5">
+                <Markdown source={intro.markdown} />
               </div>
-            ))}
-            {orders.length > 0 ? (
-              groups.talents.map((s) => (
-                <ProseDetails key={s.id} title={cleanHeading(s.heading)} sections={[s]} />
-              ))
-            ) : (
-              <Prose sections={groups.talents} />
-            )}
-          </GuideSection>
-        ) : null}
-
-        {present.press ? (
-          <GuideSection id="lv-press" title="What to press">
-            <Prose sections={groups.press} />
-          </GuideSection>
-        ) : null}
-
-        {present.stats ? (
-          <GuideSection id="lv-stats" title="Stats & gear">
-            <Prose sections={groups.stats} />
-          </GuideSection>
-        ) : null}
-
-        {present.dont ? (
-          <GuideSection id="lv-dont" title="Don't">
-            <Prose sections={groups.dont} />
-          </GuideSection>
-        ) : null}
-
-        {present.route ? (
-          <GuideSection id="lv-route" title="Route">
-            <Prose sections={groups.route} />
-          </GuideSection>
-        ) : null}
-
-        {present.hardcore ? (
-          <GuideSection
-            id="lv-hardcore"
-            title="Hardcore"
-            hint={
-              <span className="inline-flex items-center gap-1 text-niche" title="Hardcore">
-                <FlameIcon /> Hardcore mode
-              </span>
-            }
-          >
-            <Prose sections={groups.hardcore} />
-          </GuideSection>
-        ) : null}
-
-        {present.more ? (
-          <GuideSection id="lv-more" title="More">
-            {groups.more.map((s) => (
-              <ProseDetails key={s.id} title={cleanHeading(s.heading)} sections={[s]} />
-            ))}
-          </GuideSection>
-        ) : null}
-
-        {present.sources ? (
-          <GuideSection id="lv-sources" title="Sources">
-            {groups.sources.map((s) => (
-              <ProseDetails key={s.id} title={cleanHeading(s.heading)} sections={[s]} />
-            ))}
-          </GuideSection>
-        ) : null}
-      </div>
+            </details>
+          ) : null}
+        </div>
+      </WithToc>
     </div>
   );
 }

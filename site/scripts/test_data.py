@@ -200,6 +200,86 @@ def check_instances(classes: list, meta: dict) -> None:
     check(not dangling, f"instance links kept as text (target missing): {dangling[:5]}")
 
 
+GRADES = {"S", "A", "B", "C", "D", "F"}
+
+
+def check_summaries(classes: list) -> None:
+    """The guide-driven summary data: viability tables, talent trees, decoded
+    builds and leveling paths (build-data.py "Guide summaries")."""
+    for c in classes:
+        if not c.get("guidePath"):
+            continue
+        slug = c["slug"]
+        index_md = (REPO_ROOT / c["guidePath"]).read_text(encoding="utf-8")
+        v = c.get("viability")
+        check(v is not None, f"{slug}: no viability table parsed from {c['guidePath']}")
+        if v:
+            keys = [col["key"] for col in v["columns"]]
+            check(keys == ["raid", "dungeon", "pvp", "leveling", "farming"],
+                  f"{slug}: viability columns {keys}")
+            check(len(v["rows"]) >= 3, f"{slug}: only {len(v['rows'])} viability rows")
+            for row in v["rows"]:
+                check(len(row["cells"]) == len(keys), f"{slug}/{row['spec']}: {len(row['cells'])} cells")
+                check(row["spec"] in index_md, f"{slug}: viability spec {row['spec']!r} not in index.md")
+                for cell in row["cells"]:
+                    check(cell["grade"] is None or cell["grade"][0] in GRADES,
+                          f"{slug}/{row['spec']}: bad grade {cell['grade']!r}")
+                    check("[[d:" not in cell["note"], f"{slug}/{row['spec']}: raw citation in a note")
+                if row["playbookId"]:
+                    check(any(p["id"] == row["playbookId"] for p in c["playbooks"]),
+                          f"{slug}/{row['spec']}: playbook {row['playbookId']} does not exist")
+            graded = sum(1 for r in v["rows"] for cell in r["cells"] if cell["grade"])
+            check(graded >= 3 * len(v["rows"]), f"{slug}: only {graded} graded viability cells")
+        check(bool(c.get("recommendation")), f"{slug}: no recommendation from index.md")
+
+        tree = c.get("talentTree")
+        check(tree is not None and len(tree["tabs"]) == 3, f"{slug}: talent tree missing or not 3 tabs")
+        if not tree:
+            continue
+        sizes = [len(t["talents"]) for t in tree["tabs"]]
+        for t in tree["tabs"]:
+            for tal in t["talents"]:
+                check(0 <= tal["row"] < 7 and 0 <= tal["col"] < 4, f"{slug}/{tal['name']}: off-grid")
+
+        def valid(build: dict, where: str) -> None:
+            check(len(build["ranks"]) == 3, f"{where}: ranks for {len(build['ranks'])} trees")
+            for ti, ranks in enumerate(build["ranks"]):
+                check(len(ranks) == sizes[ti], f"{where}: tree {ti} has {len(ranks)} ranks, not {sizes[ti]}")
+                for r, tal in zip(ranks, tree["tabs"][ti]["talents"]):
+                    check(0 <= r <= tal["max"], f"{where}: {tal['name']} rank {r}/{tal['max']}")
+            check(0 < sum(build["totals"]) <= 51, f"{where}: {sum(build['totals'])} points")
+            check(build["url"].startswith("https://xian55.github.io/tortoise-db-viewer/?talents=" + slug),
+                  f"{where}: calculator url {build['url']}")
+
+        for pb in c["playbooks"]:
+            where = f"{slug}/{pb['id']}"
+            talents = (pb.get("yaml") or {}).get("talents") or {}
+            builds = pb.get("builds") or []
+            for b in builds:
+                valid(b, where)
+            link = talents.get("build_link_tortoise")
+            if isinstance(link, str) and "xian55" in link:
+                check(bool(builds) and builds[0]["source"] == "playbook" and builds[0]["url"] == link,
+                      f"{where}: the published build_link_tortoise is not the first build")
+            if pb.get("guidePath"):
+                check(pb.get("glance") is not None, f"{where}: no glance")
+                check(bool(pb.get("sectionOrder")), f"{where}: no sectionOrder")
+                ids = {s["id"] for s in pb["extraSections"]}
+                for key in pb.get("sectionOrder") or []:
+                    if key.startswith("extra:"):
+                        check(key[6:] in ids, f"{where}: sectionOrder names a missing extra {key}")
+                    else:
+                        check(pb["sections"].get(key) is not None, f"{where}: sectionOrder names empty slot {key}")
+
+        paths = (c.get("leveling") or {}).get("paths") or []
+        check(len(paths) >= 1, f"{slug}: no leveling talent path parsed")
+        for path in paths:
+            resolved = sum(1 for st in path["steps"] if st["talent"])
+            check(resolved >= len(path["steps"]) // 2, f"{slug}/{path['id']}: only {resolved} steps resolve")
+            if path.get("end"):
+                valid(path["end"], f"{slug}/{path['id']} end")
+
+
 def main() -> int:
     # ---- All JSON files parse -------------------------------------------
     classes = load_json("classes.json")
@@ -343,6 +423,8 @@ def main() -> int:
             print(f"  - {m}")
     check(hit_rate >= 0.90,
           f"standing lookup hit rate {hit_rate:.1%} is below the required 90%")
+
+    check_summaries(classes)
 
     # ---- Report -----------------------------------------------------------
     if failures:
