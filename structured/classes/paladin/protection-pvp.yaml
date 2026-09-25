@@ -1,0 +1,240 @@
+class: Paladin
+spec: Protection
+role: pvp
+guide: guide/classes/paladin/pvp.md
+sources:
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  author: Jamey
+  authority: staff
+  date: '2026-01-23'
+- cite: '[[d:paladin#1490469775988494518]]'
+  author: Silverhand
+  authority: player
+  date: '2026-04-06'
+  era: post-1.18.1
+  agreement: contested
+agreement: contested
+patch_validity:
+  written_for: 1.18.1 (live 2026-03-20), post-release state through 2026-04
+  valid_for_1181: true
+  notes: Deep Prot with Thunderfury in PvE tank gear tops BG leaderboards; a nerf/dampening change is expected. Dissolvent
+    poison ignores Block.
+discord:
+  channel: paladin
+  scope: Protection PvP (flag carrier / anti-melee bruiser), pre-1.18.1 .. post-1.18.1
+  sources:
+  - id: '1482102558729441460'
+    era: post-1.18.1
+    agreement: consensus
+    claim: '''Fury wars and cat druids I encounter in PvP certainly still feel Reckoning''s existence'''
+  - id: '1296316172165451890'
+    era: pre-1.18.1
+    agreement: single source
+    claim: '''might even just do Prot for PvP to make Rogues and Warriors cry. Reckoning block triggers will be funny'''
+  - id: '1449087673586286592'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    claim: '''my first spec for pvp was Reckoning, as it always was in Classic'''
+  - id: '1441078917015404699'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    claim: '''They took away reckoning for pvp, that was very iconic'' (old Reckoning reworked to the block-trigger version)'
+  - id: '1490469775988494518'
+    era: post-1.18.1
+    agreement: contested
+    claim: '''running as deep prot with TF and I''m top of the leaderboards 9/10 matches with 0 consumes and no dedicated
+      PvP gear'''
+  - id: '1490466272973029558'
+    era: post-1.18.1
+    agreement: contested
+    claim: 'Opposite: ''currently just trolling as deep prot with TF in arathi, but doesnt seem really useful'''
+  - id: '1490253553183363175'
+    era: post-1.18.1
+    agreement: single source
+    claim: '''ngl, t1 pvp is prob super prebis for prot pally'''
+  - id: '1490382851429109760'
+    era: post-1.18.1
+    agreement: single source
+    claim: '''bis prot gear is honestly the epic pvp gear great stats and sp'''
+  - id: '1481357663798558852'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    claim: Prot as a WSG/new-BG flag carrier
+  - id: '1484653064366325761'
+    era: post-1.18.1
+    agreement: consensus
+    claim: Hammer of Justice ~30 s with Imp HoJ 3/3 + old PvP set
+  - id: '1489674002254528573'
+    era: post-1.18.1
+    agreement: consensus
+    claim: Hand of Sacrifice no longer breaks CC
+  - id: '1490470082948632746'
+    era: post-1.18.1
+    agreement: single source
+    claim: '"With PvE tanking gear you just win 1v4 against physical classes by default"'
+  - id: '1435717695189422100'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: Dissolvent poison is only mitigated by dodge/parry, not Block
+  cross_channel:
+  - channel: pvp-general
+    id: '1315720921260101725'
+    era: pre-1.18.1
+    agreement: single source
+    claim: 'Prot paladin: 7k hp, ~60% physical DR, holy damage ignores armour, 12 s immunity + full heal; beats all melee
+      and most casters, loses to Soul Link'
+talents:
+  build_name: Deep Prot 11/33/7 (the raid tank tree, Mithreon) - AoAoB-AoYDZYCAZYAoB-AoQ
+  build_link: https://xian55.github.io/tortoise-db-viewer/?talents=paladin&t=0500501-0530331302031351-052
+  build_link_note: Validated (VALID). Silverhand plays "deep prot with TF" [[d:paladin#1490469775988494518]]; his exact talents
+    were not posted, so the reference deep-Prot tree [[d:paladin#1491936698689388746]] is used.
+  points:
+  - tree: Holy
+    talent: Divine Intellect
+    rank: 5
+    spell_id: 20261
+  - tree: Holy
+    talent: Improved Seal of Righteousness
+    rank: 5
+    spell_id: 20332
+  - tree: Holy
+    talent: Sanctity Aura
+    rank: 1
+    spell_id: 20218
+  - tree: Protection
+    talent: Redoubt
+    rank: 5
+    spell_id: 45822
+  - tree: Protection
+    talent: Precision
+    rank: 3
+    spell_id: 20193
+  - tree: Protection
+    talent: Toughness
+    rank: 3
+    spell_id: 20145
+  - tree: Protection
+    talent: Improved Righteous Fury
+    rank: 3
+    spell_id: 20470
+  - tree: Protection
+    talent: Blessing of Sanctuary
+    rank: 1
+    spell_id: 20911
+  - tree: Protection
+    talent: Shield Specialization
+    rank: 3
+    spell_id: 20150
+  - tree: Protection
+    talent: Improved Hand of Reckoning
+    rank: 2
+    spell_id: 51335
+  - tree: Protection
+    talent: Righteous Defense
+    rank: 3
+    spell_id: 51330
+  - tree: Protection
+    talent: Holy Shield
+    rank: 1
+    spell_id: 20925
+  - tree: Protection
+    talent: Reckoning
+    rank: 3
+    spell_id: 45825
+  - tree: Protection
+    talent: Righteous Strikes
+    rank: 5
+    spell_id: 51345
+  - tree: Protection
+    talent: Bulwark of the Righteous
+    rank: 1
+    spell_id: 51346
+  - tree: Retribution
+    talent: Benediction
+    rank: 5
+    spell_id: 20105
+  - tree: Retribution
+    talent: Improved Judgement
+    rank: 2
+    spell_id: 25957
+  variants:
+  - Improved Hammer of Justice 3/3 for a 30 s HoJ [[d:paladin#1484653064366325761]]
+  - Vengeance Prot 0/26/25 [[d:paladin#1491414001979228363]]
+  leveling_order: []
+  leveling_note: See protection-tank.yaml / guide/classes/paladin/leveling.md
+  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=paladin&t=0500501-0530331302031351-052
+  build_link_tortoise_note: 'Generated from the sourced points list (51 points: Holy 11, Protection 33, Retribution 7); the
+    calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
+stat_weights:
+  stamina: primary
+  spell_power: high (Holy damage is your damage)
+  armor_block: from PvE tank gear; Block does not stop Dissolvent [[d:paladin#1435717695189422100]]
+  dodge_parry: the only mitigation vs Dissolvent
+caps: {}
+rotation_single:
+- priority: 1
+  action: Righteous Fury, Sanctity/Retribution Aura, Seal of Righteousness
+  condition: always
+- priority: 2
+  action: Holy Shield on cooldown; Reckoning punishes melee
+  condition: vs melee [[d:paladin#1482102558729441460]]
+- priority: 3
+  action: Holy Strike and Judgement on cooldown
+  condition: damage
+- priority: 4
+  action: Hammer of Justice then burst; Libram of Final Judgement to execute below 35%
+  condition: kill window [[d:paladin#1481665621958725803]]
+- priority: 5
+  action: Hand of Freedom / BoP / Cleanse
+  condition: support the team
+rotation_aoe: []
+aoe_threshold: 0
+cooldowns:
+- name: Divine Shield
+  use_when: disengage or eat a Kidney Shot to save the trinket; 12 s; halves healing done/taken (50-60% contested); off in
+    rated arena [[d:paladin#1429823453028155465]] [[d:paladin#1467173434726547698]] [[d:paladin#1489382932161495110]]
+- name: Blessing of Protection
+  use_when: physical burst, Blind (not a poison on Turtle) [[d:paladin#1424408436044595280]]
+- name: Hammer of Justice
+  use_when: kill window or healer peel; 30 s with Improved HoJ [[d:paladin#1484653064366325761]]
+- name: Repentance
+  use_when: breaks on damage; into HoJ [[d:paladin#1426800158305419428]] [[d:pvp-general#1429284370241552527]]
+- name: Hand of Freedom
+  use_when: slows/roots on you or the flag carrier; purgeable; longer CD since the nerf [[d:paladin#1441760867635953716]]
+    [[d:paladin#1487223373317542039]]
+- name: Lay on Hands
+  use_when: emergency; disabled in arena [[d:paladin#1441426127284473877]]
+resource_rules:
+- Seal/Judgement of Wisdom for mana; blocks return mana (Shield Specialization)
+consumables:
+- Frost Oil ("they cost nothing") and Icy Chill on the weapon [[d:paladin#1483206998899163288]] [[d:pvp-general#1430556900088610846]]
+- Engineering grenades and sappers; Free Action Potion; teas and mana potions
+- Stronghold Gauntlets vs disarms [[d:pvp-general#1430582780810494034]]
+mistakes_to_avoid:
+- Relying on Block vs rogues (Dissolvent) [[d:paladin#1435717695189422100]]
+- Chasing kiters; Prot has one stun and is easy to kite 1v1 [[d:paladin#1423413036584276019]]
+matchups:
+  warrior: favourable; 2H warrior out-damages 2H ret; vs DW Bloodrinker use 1H+shield, JoL, SoR; Berserker Rage breaks Repentance;
+    disarm-immune gloves [[d:paladin#1467839220105347072]] [[d:paladin#1439841216589070369]] [[d:pvp-general#1433888687392817154]]
+  rogue: hard since Dissolvent; ~50% base dodge; BoP for Blind; Lost wolves vs stealth; Sanctuary [[d:paladin#1423730871537504488]]
+    [[d:paladin#1424397329435328674]] [[d:paladin#1424408436044595280]] [[d:paladin#1440228045406605444]]
+  mage: 'contested: good if you reach melee unnoticed; kited otherwise; "sheep and ignore" [[d:paladin#1441764012780945488]]
+    [[d:paladin#1441764762571640945]] [[d:pvp-general#1423692207071952996]]'
+  warlock: kill the pet; cannot fear demons; repented Voidwalker can still be sacrificed [[d:paladin#1484645314639171688]]
+    [[d:pvp-general#1430550221477122200]]
+  shaman: unfavourable; Purge strips seals and Freedom [[d:pvp-general#1424861028696723568]] [[d:paladin#1319672073685172315]]
+    [[d:paladin#1472659024351592731]]
+  hunter: manageable; shield + LoS, Swiftness Potion, Frost Oil; Holy Shield no longer blocks ranged [[d:paladin#1477997240814534807]]
+    [[d:paladin#1478005878736294043]] [[d:paladin#1478007043435663440]] [[d:paladin#1428745621673738280]]
+  priest: no current data (gap)
+  druid: no current data (gap)
+  paladin: no current data (gap)
+next_patch_announced:
+  announced: '2026-04-01'
+  status: NOT REAL - April Fools joke by the paladin developer
+  author: Lhian (developer/staff)
+  sources:
+  - '[[d:paladin#1488852869212798987]]'
+  - '[[d:paladin#1488856415010291794]]'
+  items: []
+  note: Not a patch; nothing in this file assumes it.

@@ -1,6 +1,7 @@
 class: Druid
 spec: Feral
 role: tank
+guide: guide/classes/druid/feral-bear.md
 sources:
 - url: https://forum.turtlecraft.gg/viewtopic.php?p=58705#p58705
   author: Elesion
@@ -82,139 +83,820 @@ sources:
   author: Geojak
   authority: player
   date: '2022-10-06'
+- cite: '[[d:druid#1444972730033377300]]'
+  author: Micro Jackson
+  authority: player
+  date: '2025-12-01'
+  era: 1.18.1-announced-pre-release
+  agreement: consensus
+- cite: '[[d:druid#1450944888266035321]]'
+  author: TowelDruid
+  authority: player
+  date: '2025-12-18'
+  era: 1.18.1-announced-pre-release
+  agreement: consensus
+- cite: '[[d:druid#1491404394812407858]]'
+  author: Micro Jackson
+  authority: player
+  date: '2026-04-08'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:druid#1472870879418646640]]'
+  author: Micro Jackson
+  authority: player
+  date: '2026-02-15'
+  era: 1.18.1-announced-pre-release
+  agreement: consensus
+- cite: '[[d:druid#1484585026158067752]]'
+  author: Holydruid
+  authority: player (main tank)
+  date: '2026-03-20'
+  era: post-1.18.1
+  agreement: contested
 agreement: contested
 patch_validity:
   written_for: 1.17.2 / 1.18.0 (Class Changes 2 talent trees)
   valid_for_1181: true
-  notes: Talent tree structurally unchanged by 1.18.1. 1.18.1 reduced Maul threat modifier by 15% and Savage Bite threat modifier
-    by 12% (official). Post-1.18.1 forum reaction (single detailed author, several short agreeing replies) argues bear tanking
-    lost its main advantage; not independently log-verified.
+  notes: 'Talent tree structurally unchanged by 1.18.1. 1.18.1 reduced Maul threat modifier by 15% and Savage Bite threat
+    modifier by 12% (official, eff. 2026-03-20). Discord''s community math converts that to ~9% Maul, ~5.6% Savage Bite, ~7-8%
+    total bear threat. Post-1.18.1 standing is contested: the pre-release view was ''bear is the best tank in raids, a little
+    overturned'', the post-release view is that bears lose their main advantage [[d:druid#1483016079209926688]] [[d:druid#1484733781331021875]].
+    Bear threat has no log-verified post-nerf number (gap).'
+discord:
+  channel: druid
+  scope: bear threat/rotation/gear math and the 1.18.1 threat nerf
+  sources:
+  - id: '1470128951165718528'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: 'Official 1.18.1 note: Maul threat modifier -15%, Savage Bite threat modifier -12%; developer comment ''Feral Bears
+      have been overly prominent in their threat output, leaving little room for other tanks to shine'''
+  - id: '1464351740957823007'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: 'Community math: Maul 175% - 15% ~= 9% threat reduction'
+  - id: '1481530798686470226'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: Savage Bite 225% - 12% ~= 5.6% nerf; Maul 'around 9%'. Not total threat (haste/staff enchant also matter)
+  - id: '1482094347028664371'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: 'Tephus: ''~8% threat nerf'' for Maul'
+  - id: '1482094399813849241'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: 'Tephus: ''between it and bite, bear is looking at like a total 7% threat nerf'''
+  - id: '1482095800686346431'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    claim: '''prot does really bad threat right now, bear is literally 1.5-2x the threat that prot does (assuming naxx/kara
+      gear)'''
+  - id: '1483016079209926688'
+    era: 1.18.1-announced-pre-release
+    agreement: contested
+    claim: Pre-release consensus was 'bear is best tank in raids, a little overturned' for threat
+  - id: '1484733781331021875'
+    era: post-1.18.1
+    agreement: contested
+    claim: 'Post-release: ''Savage Bite dodge/Parry is very noticeable in early threat gain'' - a dodged/parried Savage Bite
+      leaves bear with no fallback threat button [[d:druid#1484741482169499689]]'
+  - id: '1464736055151562924'
+    era: 1.18.1-announced-pre-release
+    agreement: contested
+    claim: Players report losing threat to warriors with Salvation; 'no reason to bring a bear over warrior/paladin' is contested,
+      not settled
+  - id: '1474473590043836720'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: 'Bear rotation: Tiger''s Fury from Cat before the pull (~20% haste, 18s), always queue Maul, Savage Bite at >35
+      rage or Clearcasting, FF on a spare GCD, Swipe as rage dump'
+  - id: '1480481555263787149'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: 'Rage-threshold macro: 0<Rage<100 Maul; 20<Rage<100 Maul+Swipe; 50<Rage<100 Maul+Savage Bite+Swipe'
+  - id: '1412021581693059226'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: With T3 8-piece, use Savage Bite every cooldown to refresh the damage-reduction buff
+  - id: '1474500952965906515'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: Rage potion on pull is the best snap-threat opener
+  - id: '1292121947412627498'
+    era: pre-1.18.1
+    agreement: consensus
+    claim: '''haste is by far the best stat for bear in term of threat generation'' - Maul rides the swing timer, ''like heroic
+      strike for fury prot but even more powerful'''
+  - id: '1473795292779516119'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    claim: '''Agi is bait. like triple the threat gains from 3 Haste over 25 Agi'''
+  - id: '1482102222077825224'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    claim: Rage-pot opener ~132 AP equivalent vs 5% haste ~133 AP equivalent for a 20s window; haste scales better with gear
+  - id: '1479530552850907227'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    claim: 'Bear idol list 2026-03-06: Idol of the Ironfur, Idol of Crushing Maul, Idol of Ursoc''s Resolve, Idol of the Unyielding
+      Bear, Idol of the Savage Counter, Idol of the Protector'
+  - id: '1386988179898499093'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    claim: '''The best idol is Idol of Brutality... It reduces your 2 main spells by 30% and 20% cost, Maul and Swipe'''
+  - id: '1474483802976948254'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    claim: 'Enchants for bear: counterweight on weapon, haste on shoulder, threat on gloves are ''really strong'''
+  - id: '1475757404493713469'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: 'Bear consumables: Juju Power, Elixir of the Mongoose, R.O.I.D.S., Elixir of Firewater, Elixir of Superior Defense,
+      2% haste or +20 Str food, crystal ward; STR/AP buffs do not stack'
+  - id: '1479712614409048095'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: Bear AoE = Swipe + FF per add; Demoralizing Roar groups mobs but is not sustained threat
+  - id: '1301990218085306369'
+    era: pre-1.18.1
+    agreement: consensus
+    claim: 'Twin Emperors: bear cannot tank the caster emperor - historically bear''s weakest fight'
+  - id: '1296452879154020443'
+    era: pre-1.18.1
+    agreement: single source
+    claim: 'Vael: bear is strong (fight timer); rage potion + Bite/Maul opener'
+  - id: '1321165760151949322'
+    era: pre-1.18.1
+    agreement: single source
+    claim: 'Chromaggus: Savage Bite every 6s matters ''after patch'' vs a 10s swing timer'
+  - id: '1293715946489516052'
+    era: pre-1.18.1
+    agreement: single source
+    claim: Bear killed Sapphiron with 0 frost resist in full AQ40 gear
+  - id: '1325964834889793596'
+    era: pre-1.18.1
+    agreement: consensus
+    claim: Pure bear differs from pure cat by taking threat/armor/stealth (Feral Instinct, Thick Hide, Brutal Impact, Feral
+      Charge, Savage Fury) instead of Feral Aggression
+  - id: '1330854853135827025'
+    era: pre-1.18.1
+    agreement: consensus
+    claim: '''As Feral Bear tank there are not that many talents to spend on except balance (Omen of Clarity) + feral tree''
+      - no dedicated optimal bear tree was ever settled'
 talents:
-  build_name: Meta tank build (link only, Captain4k, 2026-01-22)
-  build_link: https://talents.turtlecraft.gg/druid?points=BSAaAI-FAYYRaDQQIFQB-Ao
+  build_name: Tank 11/35/5 (Micro Jackson "base tanking build"; TowelDruid tank answer)
+  build_link: https://talents.turtlecraft.gg/druid?points=BSAaAI-FAYYBaDSQIFQB-Ao
+  build_link_note: Micro Jackson's screenshot [[d:druid#1444972730033377300]]; TowelDruid posts the same Feral/Resto points
+    (ING 4/4 filler) whenever a tank build is asked for [[d:druid#1450944888266035321]] [[d:druid#1480401905632022610]]. Feral
+    Instinct is a must after the 1.18.1 threat nerf [[d:druid#1464363900014170358]]. Validated with talent_tool.py.
   points:
-  - tree: Feral
-    talent: Omen of Clarity
+  - tree: Balance
+    talent: Nature's Grasp
     rank: 1
-    spell_id: 16864
-    talent_id: 310
-  - tree: Feral
-    talent: Furor
-    rank: 3
-    spell_id: 17059
-    talent_id: 286
-  - tree: Feral
-    talent: Feral Instinct
-    rank: 3
-    spell_id: 16949
-    talent_id: 269
-  - tree: Feral
-    talent: Thick Hide
-    rank: 3
-    spell_id: 16931
-    talent_id: 271
-  - tree: Feral
-    talent: Blood Frenzy
+    spell_id: 16689
+  - tree: Balance
+    talent: Improved Nature's Grasp
     rank: 2
-    spell_id: 45722
-    talent_id: 278
-  - tree: Feral
-    talent: Primal Fury
-    rank: 2
-    spell_id: 45720
-    talent_id: 276
-  - tree: Feral
+    spell_id: 17247
+  - tree: Balance
     talent: Sylvan Blessing
     rank: 2
     spell_id: 51422
-    talent_id: 304
-  - tree: Feral
-    talent: Ancient Brutality
-    rank: 2-3 (contested tuning)
-    spell_id: 51416
-    talent_id: 280
-  - tree: unspecified
-    talent: remainder (link not decodable from text)
-    rank: null
-    spell_id: null
-  leveling_order:
-  - level: 20
-    tree: Feral
-    talent: Feral Swiftness (cat movement speed)
-  - level: 20
-    tree: Feral
+  - tree: Balance
+    talent: Natural Weapons
+    rank: 3
+    spell_id: 45717
+  - tree: Balance
+    talent: Natural Shapeshifter
+    rank: 2
+    spell_id: 16834
+  - tree: Balance
     talent: Omen of Clarity
-  - level: 25
-    tree: Feral
+    rank: 1
+    spell_id: 16864
+  - tree: Feral Combat
+    talent: Ferocity
+    rank: 5
+    spell_id: 16938
+  - tree: Feral Combat
+    talent: Feral Instinct
+    rank: 3
+    spell_id: 16949
+  - tree: Feral Combat
+    talent: Thick Hide
+    rank: 3
+    spell_id: 16931
+  - tree: Feral Combat
+    talent: Feral Charge
+    rank: 1
+    spell_id: 16979
+  - tree: Feral Combat
+    talent: Sharpened Claws
+    rank: 3
+    spell_id: 16944
+  - tree: Feral Combat
+    talent: Primal Fury
+    rank: 2
+    spell_id: 45720
+  - tree: Feral Combat
+    talent: Predatory Strikes
+    rank: 3
+    spell_id: 16975
+  - tree: Feral Combat
+    talent: Blood Frenzy
+    rank: 2
+    spell_id: 45722
+  - tree: Feral Combat
+    talent: Improved Shred
+    rank: 2
+    spell_id: 16968
+  - tree: Feral Combat
+    talent: Ancient Brutality
+    rank: 2
+    spell_id: 51416
+  - tree: Feral Combat
+    talent: Berserk
+    rank: 1
+    spell_id: 45708
+  - tree: Feral Combat
+    talent: Heart of the Wild
+    rank: 5
+    spell_id: 24894
+  - tree: Feral Combat
+    talent: Carnage
+    rank: 2
+    spell_id: 16999
+  - tree: Feral Combat
+    talent: Leader of the Pack
+    rank: 1
+    spell_id: 17007
+  - tree: Restoration
     talent: Furor
+    rank: 5
+    spell_id: 17061
+  variants:
+  - 'Bear buys Brutal Impact 2 for longer Bash stuns and Feral Adrenaline only if the raid demands it (community verdict on
+    Feral Adrenaline: near-useless 30s ICD)'
+  - 'PvP-oriented offshoot: skip some Feral Aggression for Thick Hide / Feral Instinct / Feral Charge / Savage Fury (Savage
+    Fury removed in 1.18.1)'
+  leveling_order:
+  - level: 10
+    tree: Feral Combat
+    talent: Ferocity
+    rank: 1
+  - level: 11
+    tree: Feral Combat
+    talent: Ferocity
+    rank: 2
+  - level: 12
+    tree: Feral Combat
+    talent: Ferocity
+    rank: 3
+  - level: 13
+    tree: Feral Combat
+    talent: Ferocity
+    rank: 4
+  - level: 14
+    tree: Feral Combat
+    talent: Ferocity
+    rank: 5
+  - level: 15
+    tree: Feral Combat
+    talent: Open Wounds
+    rank: 1
+  - level: 16
+    tree: Feral Combat
+    talent: Open Wounds
+    rank: 2
+  - level: 17
+    tree: Feral Combat
+    talent: Open Wounds
+    rank: 3
+  - level: 18
+    tree: Feral Combat
+    talent: Feral Instinct
+    rank: 1
+  - level: 19
+    tree: Feral Combat
+    talent: Feral Instinct
+    rank: 2
+  - level: 20
+    tree: Feral Combat
+    talent: Feral Swiftness
+    rank: 1
+  - level: 21
+    tree: Feral Combat
+    talent: Feral Swiftness
+    rank: 2
+  - level: 22
+    tree: Feral Combat
+    talent: Feral Charge
+    rank: 1
+  - level: 23
+    tree: Feral Combat
+    talent: Sharpened Claws
+    rank: 1
+  - level: 24
+    tree: Feral Combat
+    talent: Sharpened Claws
+    rank: 2
+  - level: 25
+    tree: Feral Combat
+    talent: Sharpened Claws
+    rank: 3
+  - level: 26
+    tree: Feral Combat
+    talent: Blood Frenzy
+    rank: 1
+  - level: 27
+    tree: Feral Combat
+    talent: Blood Frenzy
+    rank: 2
+  - level: 28
+    tree: Feral Combat
+    talent: Predatory Strikes
+    rank: 1
+  - level: 29
+    tree: Feral Combat
+    talent: Predatory Strikes
+    rank: 2
   - level: 30
-    tree: Feral
-    talent: Swift Travel Form (baseline questline, not a talent)
-  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=druid&t=0002000001-00303000020202-03
-  build_link_tortoise_note: 'Generated from the sourced points list (18 points: Balance 3, Feral Combat 12, Restoration 3);
+    respec: true
+    talent: RESPEC (reset all talents)
+    tree: '-'
+  - level: 30
+    tree: Balance
+    talent: Nature's Grasp
+    rank: 1
+  - level: 30
+    tree: Balance
+    talent: Improved Nature's Grasp
+    rank: 2
+  - level: 30
+    tree: Balance
+    talent: Sylvan Blessing
+    rank: 2
+  - level: 30
+    tree: Balance
+    talent: Natural Weapons
+    rank: 3
+  - level: 30
+    tree: Balance
+    talent: Natural Shapeshifter
+    rank: 2
+  - level: 30
+    tree: Balance
+    talent: Omen of Clarity
+    rank: 1
+  - level: 30
+    tree: Feral Combat
+    talent: Ferocity
+    rank: 5
+  - level: 30
+    tree: Feral Combat
+    talent: Open Wounds
+    rank: 3
+  - level: 30
+    tree: Feral Combat
+    talent: Feral Instinct
+    rank: 2
+  - level: 31
+    tree: Feral Combat
+    talent: Feral Instinct
+    rank: 3
+  - level: 32
+    tree: Feral Combat
+    talent: Feral Charge
+    rank: 1
+  - level: 33
+    tree: Feral Combat
+    talent: Sharpened Claws
+    rank: 1
+  - level: 34
+    tree: Feral Combat
+    talent: Sharpened Claws
+    rank: 2
+  - level: 35
+    tree: Feral Combat
+    talent: Sharpened Claws
+    rank: 3
+  - level: 36
+    tree: Feral Combat
+    talent: Blood Frenzy
+    rank: 1
+  - level: 37
+    tree: Feral Combat
+    talent: Blood Frenzy
+    rank: 2
+  - level: 38
+    tree: Feral Combat
+    talent: Predatory Strikes
+    rank: 1
+  - level: 39
+    tree: Feral Combat
+    talent: Predatory Strikes
+    rank: 2
+  - level: 40
+    tree: Feral Combat
+    talent: Predatory Strikes
+    rank: 3
+  - level: 41
+    tree: Feral Combat
+    talent: Ancient Brutality
+    rank: 1
+  - level: 42
+    tree: Feral Combat
+    talent: Ancient Brutality
+    rank: 2
+  - level: 43
+    tree: Feral Combat
+    talent: Primal Fury
+    rank: 1
+  - level: 44
+    tree: Feral Combat
+    talent: Primal Fury
+    rank: 2
+  - level: 45
+    tree: Feral Combat
+    talent: Berserk
+    rank: 1
+  - level: 46
+    tree: Feral Combat
+    talent: Heart of the Wild
+    rank: 1
+  - level: 47
+    tree: Feral Combat
+    talent: Heart of the Wild
+    rank: 2
+  - level: 48
+    tree: Feral Combat
+    talent: Heart of the Wild
+    rank: 3
+  - level: 49
+    tree: Feral Combat
+    talent: Heart of the Wild
+    rank: 4
+  - level: 50
+    tree: Feral Combat
+    talent: Heart of the Wild
+    rank: 5
+  - level: 51
+    tree: Feral Combat
+    talent: Carnage
+    rank: 1
+  - level: 52
+    tree: Feral Combat
+    talent: Carnage
+    rank: 2
+  - level: 53
+    tree: Feral Combat
+    talent: Leader of the Pack
+    rank: 1
+  - level: 54
+    tree: Feral Combat
+    talent: Feral Swiftness
+    rank: 1
+  - level: 55
+    tree: Feral Combat
+    talent: Feral Swiftness
+    rank: 2
+  - level: 56
+    tree: Restoration
+    talent: Furor
+    rank: 1
+  - level: 57
+    tree: Restoration
+    talent: Furor
+    rank: 2
+  - level: 58
+    tree: Restoration
+    talent: Furor
+    rank: 3
+  - level: 59
+    tree: Restoration
+    talent: Furor
+    rank: 4
+  - level: 60
+    tree: Restoration
+    talent: Furor
+    rank: 5
+  build_code_b36: 1E0K1-UII1KKEBD-5
+  split: 11/35/5
+  alternative_points:
+  - build_name: ING 4/4 filler (TowelDruid)
+    note: '[[d:druid#1450944888266035321]]'
+    code: BgAaAI-FAYYBaDSQIFQB-Ao
+    split: 11/35/5
+    points:
+    - tree: Balance
+      talent: Nature's Grasp
+      rank: 1
+      spell_id: 16689
+    - tree: Balance
+      talent: Improved Nature's Grasp
+      rank: 4
+      spell_id: 17249
+    - tree: Balance
+      talent: Natural Weapons
+      rank: 3
+      spell_id: 45717
+    - tree: Balance
+      talent: Natural Shapeshifter
+      rank: 2
+      spell_id: 16834
+    - tree: Balance
+      talent: Omen of Clarity
+      rank: 1
+      spell_id: 16864
+    - tree: Feral Combat
+      talent: Ferocity
+      rank: 5
+      spell_id: 16938
+    - tree: Feral Combat
+      talent: Feral Instinct
+      rank: 3
+      spell_id: 16949
+    - tree: Feral Combat
+      talent: Thick Hide
+      rank: 3
+      spell_id: 16931
+    - tree: Feral Combat
+      talent: Feral Charge
+      rank: 1
+      spell_id: 16979
+    - tree: Feral Combat
+      talent: Sharpened Claws
+      rank: 3
+      spell_id: 16944
+    - tree: Feral Combat
+      talent: Primal Fury
+      rank: 2
+      spell_id: 45720
+    - tree: Feral Combat
+      talent: Predatory Strikes
+      rank: 3
+      spell_id: 16975
+    - tree: Feral Combat
+      talent: Blood Frenzy
+      rank: 2
+      spell_id: 45722
+    - tree: Feral Combat
+      talent: Improved Shred
+      rank: 2
+      spell_id: 16968
+    - tree: Feral Combat
+      talent: Ancient Brutality
+      rank: 2
+      spell_id: 51416
+    - tree: Feral Combat
+      talent: Berserk
+      rank: 1
+      spell_id: 45708
+    - tree: Feral Combat
+      talent: Heart of the Wild
+      rank: 5
+      spell_id: 24894
+    - tree: Feral Combat
+      talent: Carnage
+      rank: 2
+      spell_id: 16999
+    - tree: Feral Combat
+      talent: Leader of the Pack
+      rank: 1
+      spell_id: 17007
+    - tree: Restoration
+      talent: Furor
+      rank: 5
+      spell_id: 17061
+  - build_name: Pure bear 11/40/0 (Shardphoenix)
+    note: no Furor/Carnage/Improved Shred; "you do a lot of threat but take lots of damage" [[d:druid#1492943869061369896]]
+    code: BgAaAI-FoaYRaDQQIFAB-
+    split: 11/40/0
+    points:
+    - tree: Balance
+      talent: Nature's Grasp
+      rank: 1
+      spell_id: 16689
+    - tree: Balance
+      talent: Improved Nature's Grasp
+      rank: 4
+      spell_id: 17249
+    - tree: Balance
+      talent: Natural Weapons
+      rank: 3
+      spell_id: 45717
+    - tree: Balance
+      talent: Natural Shapeshifter
+      rank: 2
+      spell_id: 16834
+    - tree: Balance
+      talent: Omen of Clarity
+      rank: 1
+      spell_id: 16864
+    - tree: Feral Combat
+      talent: Ferocity
+      rank: 5
+      spell_id: 16938
+    - tree: Feral Combat
+      talent: Feral Aggression
+      rank: 5
+      spell_id: 16862
+    - tree: Feral Combat
+      talent: Feral Instinct
+      rank: 3
+      spell_id: 16949
+    - tree: Feral Combat
+      talent: Brutal Impact
+      rank: 2
+      spell_id: 16941
+    - tree: Feral Combat
+      talent: Thick Hide
+      rank: 3
+      spell_id: 16931
+    - tree: Feral Combat
+      talent: Feral Swiftness
+      rank: 2
+      spell_id: 24866
+    - tree: Feral Combat
+      talent: Feral Charge
+      rank: 1
+      spell_id: 16979
+    - tree: Feral Combat
+      talent: Sharpened Claws
+      rank: 3
+      spell_id: 16944
+    - tree: Feral Combat
+      talent: Primal Fury
+      rank: 2
+      spell_id: 45720
+    - tree: Feral Combat
+      talent: Predatory Strikes
+      rank: 3
+      spell_id: 16975
+    - tree: Feral Combat
+      talent: Blood Frenzy
+      rank: 2
+      spell_id: 45722
+    - tree: Feral Combat
+      talent: Ancient Brutality
+      rank: 2
+      spell_id: 51416
+    - tree: Feral Combat
+      talent: Berserk
+      rank: 1
+      spell_id: 45708
+    - tree: Feral Combat
+      talent: Heart of the Wild
+      rank: 5
+      spell_id: 24894
+    - tree: Feral Combat
+      talent: Leader of the Pack
+      rank: 1
+      spell_id: 17007
+  - build_name: Main tank without Furor (Midoko)
+    note: Thick Hide + Brutal Impact instead of Furor; keeps Open Wounds/TF/Ancient Brutality for cat DPS on bleedable trash;
+      no list posted [[d:druid#1411187673644929034]]
+  leveling_order_note: Level with the Feral order (tank every dungeon); respec at 60 into this build; delay tank talents until
+    you own a Brainwashing Device [[d:druid#1427226985826091091]]
+  leveling_order_code_tree_b64: BSAaAI-FAYDRaDQQIFQB-Ao
+  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=druid&t=0122003201-503030013232221521-05
+  build_link_tortoise_note: 'Generated from the sourced points list (51 points: Balance 11, Feral Combat 35, Restoration 5);
     the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
 stat_weights:
-  armor: high until ~11-12k, then deprioritize (cap easy to reach)
-  stamina: high, always good
-  hit: high until cap (8%, or 5% with Natural Weapons 3/3)
-  haste_attack_speed: high — undervalued by new players; Maul rides the slow 2.5s auto-attack timer
-  crit: medium-high — threat abilities are damage multipliers, so crit doubles threat
-  agility: medium — wanted for Ancient Brutality dodge synergy, not worth raw itemization
-  defense: contested/low — 40% less effective (no parry/block); situational raise for hard-hitting/low-healing fights
-  strength: low priority relative to armor/stam/hit per sources read
+  priority: 'hit to 8% > threat set: haste > Strength > crit > Agility (contested) | mitigation set: Stamina > armor (esp.
+    armor on rings/neck/trinkets/weapon) >> defense/dodge'
+  hit: 36
+  haste_pct: 26
+  crit_pct: 25
+  strength: 2.2
+  agility: 1.5
+  attack_power: 1
+  armor_pen: 0.5
+  weights_source: Ash [[d:druid#1467897618876334284]]; 1% haste ~ 12 Str [[d:druid#1432273778221518868]]; haste "best stat
+    by FAR for threat" [[d:druid#1415743918603243622]]
+  agility_note: 'contested: "Agi is bait" [[d:druid#1473795292779516119]] vs better if not crit capped for Kara [[d:druid#1474744918055587900]]'
+  armor: multiplied ~3.6x by Dire Bear Form from gear only; not from enchants/kits/food [[d:druid#1444350531312029988]] [[d:druid#1473392118826537100]]
+  defense: low; 440 def is a trap [[d:druid#1454812937444393186]]
+  dodge: contested ~0 to low [[d:druid#1432306133560725606]] [[d:druid#1445422497188155503]]; never enchant dodge
 caps:
-  hit_cap_melee: 8% (5% effective with Natural Weapons 3/3, +3% hit)
-  armor_soft_target: ~11-12k armor before diminishing priority (single source)
-  crit_immunity_defense: not found in Druid sources (gap)
+  hit_cap_melee: 8% (5% gear with Natural Weapons); Taunt uses spell hit (16% base miss) - Nat Pagle's Broken Reel on Four
+    Horsemen [[d:druid#1463111448652677150]]
+  armor: no hard cap; linear to ~16.6-17.3k, worth it to ~22-23k [[d:druid#1470162624392986675]] [[d:druid#1438986407376060446]]
+  white_crit_cap: ~52.5% at 8% hit [[d:druid#1474765599858229310]]
+  crit_immunity_defense: not reachable in practice (no parry/block) [[d:druid#1454812937444393186]]
 rotation_single:
+- priority: 0
+  action: 'Pre-pull (~10 s): Regrowth -> Rejuvenation -> Cat Form -> Tiger''s Fury -> Bear Form (Furor + head enchant ~15
+    rage)'
+  source: '[[d:druid#1472398513760637101]] [[d:druid#1472410728739770508]]'
+- priority: 0
+  action: 'Pull: Faerie Fire (Feral) or ranged pull, Mighty Rage Potion, Maul + Savage Bite; Enrage/Berserk when TF Blood
+    Frenzy ends; never open with Growl or Feral Charge'
+  source: '[[d:druid#1473036752146006037]] [[d:druid#1488823880549273600]] [[d:druid#1432722952813543505]]'
 - priority: 1
-  action: Faerie Fire (Feral) rank 1
-  condition: pull, to apply armor debuff cheaply
-- priority: 2
   action: Maul
-  condition: on auto-attack timer, primary rage dump/threat
-- priority: 3
+  condition: always queued
+  source: '[[d:druid#1491404394812407858]]'
+- priority: 2
   action: Savage Bite
-  condition: on cooldown (9s pre-1.18.1 baseline); snap-threat/rage dump, now lower threat modifier post-1.18.1
+  condition: Clearcasting OR rage > 50 (some 35); with T3 8-piece on every cooldown
+  source: '[[d:druid#1491404394812407858]] [[d:druid#1491140379490390106]] [[d:druid#1480481555263787149]]'
+- priority: 3
+  action: Swipe
+  condition: 2+ mobs OR rage full (>75)
+  source: '[[d:druid#1491404394812407858]] [[d:druid#1491140379490390106]]'
 - priority: 4
-  action: Demoralizing Roar
-  condition: physical-heavy pull, or to pull a stealthed rogue out of stealth
+  action: Faerie Fire (Feral)
+  condition: no other GCD needed
+  source: '[[d:druid#1474473590043836720]]'
 - priority: 5
-  action: Enrage
-  condition: threat secure, extra rage needed
+  action: Growl
+  condition: mob loose or double dodge/parry at pull; off GCD
+  source: '[[d:druid#1473036752146006037]]'
+- priority: 6
+  action: Reshift (Bear)
+  condition: rage-starved; not overused
+  source: '[[d:druid#1462441542953210112]]'
 rotation_aoe:
 - targets_min: 2
   priority: 1
-  action: Faerie Fire (Feral) each new add
-  condition: keep armor debuff/threat on adds
-- targets_min: 2
+  action: Maul kill target, tab + Swipe others, FF (Feral) loose adds; pre-HoT self for healing threat
+  condition: Swipe caps at 3 targets [[d:druid#1432288944313077811]]
+- targets_min: 4
   priority: 2
-  action: Swipe
-  condition: core AoE threat tool, scales with 4% AP (post-Nov-2024 rework)
-- targets_min: 2
+  action: split 2-3 mobs per tank; pre-cast Hurricane on front mob
+  condition: '[[d:druid#1465725918617145405]] [[d:druid#1473069183431610428]]'
+- targets_min: 10
   priority: 3
-  action: Demoralizing Roar
-  condition: on pull
+  action: Idol of Evergrowth + Demoralizing Roar spam with T1+T2 Thorns (44)
+  condition: only beats Swipe at ~15 mobs (Naxx skitterers, ES whelps) [[d:druid#1448823173322768597]] [[d:druid#1473218279764922368]]
 aoe_threshold: 2
 cooldowns:
-- name: Frenzied Regeneration
-  use_when: self-heal, 6-minute cooldown pre-1.18.1 (reduced from 3-minute original CC2 value, then only trimmed to 5 min
-    in Dec-2024, criticized as insufficient)
+- name: Barkskin
+  use_when: 60 s; cast in caster form before shifting, persists in Bear [[d:druid#1488905914017906758]]
 - name: Barkskin (Feral)
-  use_when: emergency mitigation, 10-minute cooldown, niche panic button not part of normal rotation
-- name: Ancient Brutality
-  use_when: passive rage generator on dodge, sustained not on-demand
+  use_when: 10-minute cooldown panic button [[d:druid#1465653427081187378]]
+- name: Enrage
+  use_when: after Tiger's Fury Blood Frenzy ends; not when healers struggle [[d:druid#1477368423267696690]]
+- name: Berserk
+  use_when: fear break or second haste window [[d:druid#1462684604111519827]]
+- name: Mighty Rage Potion / Kiss of the Spider / Juju Flurry
+  use_when: boss pull [[d:druid#1472409131196616948]]
 resource_rules:
-- No numeric rage-pool target given by sources; keep Swipe/Maul/Savage Bite flowing
-- Omen of Clarity + Furor + Blood Frenzy talented reduces rage-starvation concerns per community consensus
+- Keep Maul queued every swing [[d:druid#1474473590043836720]]
+- Tiger's Fury Blood Frenzy persists through the Cat->Bear shift [[d:druid#1444967001121357986]]
+- 'Do not let healers shield you: it removes rage from damage taken [[d:druid#1491140379490390106]]'
+- Maul/Swipe/Savage Bite do not share a GCD [[d:druid#1436445990809899018]]
+- Sappers/dynamite cancel Bear Form [[d:druid#1473126693303615643]]
 consumables:
-- Hateforge trinket (+120 armor, 12 stam, 1% attack speed) — early tank trinket
-- No pre-raid BiS list found in sources (gap)
+- Mighty Rage Potion (~132 AP 20 s) or Quickness Potion (~133 AP 30 s) [[d:druid#1482102898094768321]]
+- Juju Power, Elixir of the Mongoose, R.O.I.D.S., Juju Might/Firewater, Elixir of Superior Defense [[d:druid#1475819828953743372]]
+- Danonzo's 2% haste food > Power Mushroom for threat [[d:druid#1475836397528289542]]; Hardened Mushroom + Gurubashi Gumbo
+  stack [[d:druid#1467924402665558118]]
+- Greater Stoneshield Potion, LIP, Free Action [[d:druid#1441393322869395496]]
+- Idol of Brutality BiS (Stratholme UD) [[d:druid#1386988179898499093]]; Iron Counterweight weapon (now on staves) [[d:druid#1484615359334973663]];
+  +10 Str buckle [[d:druid#1443537453796561096]]
 mistakes_to_avoid:
-- Itemizing hard for raw Defense rating instead of Hit/Armor/Stamina
-- Chasing raw Dodge% instead of letting Agility be a side effect
-- Taking Feral Adrenaline (30s ICD makes it near-useless per near-unanimous community verdict)
-- Treating Savage Bite as spammable post-1.18.1 (9s cooldown, reduced threat modifier)
-- Pulling without Faerie Fire armor debuff or Demoralizing Roar vs physical packs
-- Assuming bear can tank every fight equally (Nefarian's druid-specific call, fear-heavy/stance-dance fights are worse for
-  bears)
+- Opening with Growl or Feral Charge [[d:druid#1432722952813543505]] [[d:druid#1433148306586075292]]
+- Demoralizing Roar with a warrior in group [[d:druid#1415743918603243622]]
+- Dodge/defense enchants or armor kits [[d:druid#1415743918603243622]]
+- Throwing sappers in Bear Form [[d:druid#1473126693303615643]]
+- Enraging while healers struggle [[d:druid#1477368423267696690]]
+- Dropping below hit cap [[d:druid#1491029884397424720]]
+boss_notes:
+- boss: Patchwerk (Naxx)
+  note: threat-sensitive tank-and-spank; watch the meter, do not Maul 100% of the time; some bears cut stamina consumes on
+    Patchwerk
+  era: pre-1.18.1
+- boss: Twin Emperors (AQ40)
+  note: bear cannot tank the caster emperor - historically bear's weakest fight [[d:druid#1301990218085306369]]
+  era: pre-1.18.1
+- boss: Vael (BWL)
+  note: bear is strong because of the fight timer; rage potion + Bite/Maul opener [[d:druid#1296452879154020443]]
+  era: pre-1.18.1
+- boss: Chromaggus (BWL)
+  note: Savage Bite every 6s matters vs a 10s swing timer [[d:druid#1321165760151949322]]
+  era: pre-1.18.1
+- boss: Sapphiron (Naxx)
+  note: killed with 0 frost resist in full AQ40 gear [[d:druid#1293715946489516052]]
+  era: pre-1.18.1
+supersedes:
+- claim: Bear has no threat problem (pre-1.18.1 forum framing)
+  verdict: 1.18.1 cut Maul threat -15% and Savage Bite -12%; community math ~7-9% total; post-release standing contested
+  sources:
+  - '[[d:druid#1470128951165718528]]'
+  - '[[d:druid#1482094399813849241]]'
+  - '[[d:druid#1484733781331021875]]'
+- claim: Agility is a bear threat stat
+  verdict: Haste >> Agility for threat; 'Agi is bait'
+  sources:
+  - '[[d:druid#1473795292779516119]]'
+- claim: Swipe is a single-target threat tool
+  verdict: '''Swipe is just for excess rage dump on single target and do shit threat'''
+  sources:
+  - '[[d:druid#1484741482169499689]]'
+gaps:
+- No conclusive post-1.18.1 bear-vs-warrior threat answer (contested)
+- No bear crit-immunity/crush-cap Defense value for Turtle
+- No pre-raid BiS list

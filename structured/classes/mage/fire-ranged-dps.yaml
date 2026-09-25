@@ -1,6 +1,7 @@
 class: Mage
 spec: Fire
 role: ranged-dps
+guide: guide/classes/mage/fire.md
 sources:
 - url: https://forum.turtlecraft.gg/viewtopic.php?p=102968#p102968
   author: Dragunovi
@@ -74,148 +75,664 @@ sources:
   author: Mativh
   authority: player
   date: '2023-11-06'
+- cite: '[[d:mage#1417820555004088411]]'
+  author: Supermongo
+  authority: player
+  date: '2025-09-17'
+  era: pre-1.18.1
+  agreement: single source
+- cite: '[[d:mage#1487204103632191600]]'
+  author: Luden TA
+  authority: player
+  date: '2026-03-28'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:mage#1478705573376819295]]'
+  author: biloen
+  authority: player
+  date: '2026-03-04'
+  era: 1.18.1-announced-pre-release
+  agreement: consensus
 agreement: contested
 patch_validity:
   written_for: 1.18.0 Fire retune (2025-08-15) plus 1.18.1 Improved Fire Blast change; wiki rotation revised 2026-03-04
   valid_for_1181: true
   notes: '1.18.1 raised Improved Fire Blast''s GCD reduction to 0.3/0.6/1.0 s, which per Eluaria fixes Fire Blast dropping
     Ignite; the wiki rotation already uses Fire Blast on cooldown. Superseded: 1.17.2-era Ignite 6 s / Hot Streak 3-rank advice;
-    wiki haste note written for a 6 s Ignite window (now 4 s). Unknown: Fire T3.5 5-set bug (bug report 18568) status.'
+    wiki haste note written for a 6 s Ignite window (now 4 s). Discord (post-1.18.1, consensus) supersedes the 6 s window
+    explicitly: Ignite is 4 s since 1.18.0 [[d:mage#1433239410652086395]], [[d:mage#1488094426352980008]]. Unknown: Fire T3.5
+    5-set bug (bug report 18568) status — Discord has no confirmation either way, only that the 3-set rewind does not proc
+    Ignite [[d:mage#1433242806238969877]].'
 talents:
-  build_name: Wiki Fire FAQ leveling/raid path (46 points at 55 + 5 free) — single source; full raid build is an image (gap)
+  build_name: Fire raid 10/38/3 (Supermongo; Improved Fire Blast is the post-1.18.1 core)
+  split: 10/38/3
+  code:
+    tree_b64: TAAo-FAqYQKYDLQAoB-AY
+    b36_pair: F05-UWK1F39H6-0I
+  sources:
+  - '[[d:mage#1417820555004088411]]'
+  - '[[d:mage#1429800402307518584]]'
   points:
-  - tree: Fire
-    talent: Improved Fireball
-    rank: 5
-    spell_id: 12341
-    talent_id: 1
-  - tree: Fire
-    talent: Ignite
-    rank: 5
-    spell_id: 12848
-    talent_id: 3
-  - tree: Fire
-    talent: Pyroblast
-    rank: 1
-    spell_id: 11366
-    talent_id: 8
-  - tree: Fire
-    talent: Burning Soul
-    rank: 2
-    spell_id: 12351
-    talent_id: 9
-  - tree: Frost
-    talent: Elemental Precision
-    rank: 3
-    spell_id: 29440
-    talent_id: 20
   - tree: Arcane
     talent: Arcane Subtlety
     rank: 2
     spell_id: 12592
-    talent_id: 37
   - tree: Arcane
     talent: Magic Absorption
     rank: 3
     spell_id: 29445
-    talent_id: 38
   - tree: Arcane
     talent: Arcane Concentration
     rank: 5
     spell_id: 12577
-    talent_id: 42
+  - tree: Fire
+    talent: Improved Fireball
+    rank: 5
+    spell_id: 12341
+  - tree: Fire
+    talent: Ignite
+    rank: 5
+    spell_id: 12848
+  - tree: Fire
+    talent: Flame Throwing
+    rank: 2
+    spell_id: 12353
+  - tree: Fire
+    talent: Improved Fire Blast
+    rank: 3
+    spell_id: 12342
   - tree: Fire
     talent: Incinerate
     rank: 2
     spell_id: 18460
-    talent_id: 6
   - tree: Fire
-    talent: Master of Elements
-    rank: 3
-    spell_id: 29076
-    talent_id: 12
+    talent: Pyroblast
+    rank: 1
+    spell_id: 11366
+  - tree: Fire
+    talent: Burning Soul
+    rank: 2
+    spell_id: 12351
   - tree: Fire
     talent: Fire Vulnerability
     rank: 3
     spell_id: 12873
-    talent_id: 10
+  - tree: Fire
+    talent: Master of Elements
+    rank: 3
+    spell_id: 29076
   - tree: Fire
     talent: Blast Wave
     rank: 1
     spell_id: 11113
-    talent_id: 13
   - tree: Fire
     talent: Critical Mass
     rank: 3
     spell_id: 11368
-    talent_id: 14
   - tree: Fire
     talent: Hot Streak
     rank: 2
     spell_id: 51928
-    talent_id: 15
   - tree: Fire
     talent: Fire Power
     rank: 5
     spell_id: 12400
-    talent_id: 16
   - tree: Fire
     talent: Combustion
     rank: 1
     spell_id: 11129
-    talent_id: 17
-  - tree: free
-    talent: 5 points unassigned by the source (Improved Fire Blast 3 is the obvious 1.18.1 candidate — inference, not sourced)
-    rank: 5
-    spell_id: null
+  - tree: Frost
+    talent: Elemental Precision
+    rank: 3
+    spell_id: 29440
+  variants:
+  - name: AoE
+    code: TAAo-FAqATKYDLQAoB-AY
+    change: Improved Flamestrike 3 instead of Improved Fire Blast 3
+    sources:
+    - '[[d:mage#1429800402307518584]]'
+  - name: No Hot Streak 13/35/3
+    code: TAAoD-FApYQKYDLAAoB-AY
+    change: drops Hot Streak and Flame Throwing 1; adds Arcane Impact 3 (screenshot Arcane Focus 3 mapped to Magic Absorption
+      for the 1.18.1 tree)
+    sources:
+    - '[[d:mage#1467615825954340866]]'
+    agreement: single source
   leveling_order:
   - level: 10
     tree: Fire
-    talent: Improved Fireball 1-5 (10-14)
+    talent: Improved Fireball 1/5
+  - level: 11
+    tree: Fire
+    talent: Improved Fireball 2/5
+  - level: 12
+    tree: Fire
+    talent: Improved Fireball 3/5
+  - level: 13
+    tree: Fire
+    talent: Improved Fireball 4/5
+  - level: 14
+    tree: Fire
+    talent: Improved Fireball 5/5
   - level: 15
     tree: Fire
-    talent: Ignite 1-5 (15-19)
+    talent: Ignite 1/5
+  - level: 16
+    tree: Fire
+    talent: Ignite 2/5
+  - level: 17
+    tree: Fire
+    talent: Ignite 3/5
+  - level: 18
+    tree: Fire
+    talent: Ignite 4/5
+  - level: 19
+    tree: Fire
+    talent: Ignite 5/5
   - level: 20
     tree: Fire
-    talent: Pyroblast
+    talent: Pyroblast 1/1
   - level: 21
     tree: Fire
-    talent: Burning Soul 1-2 (21-22)
+    talent: Burning Soul 1/2
+  - level: 22
+    tree: Fire
+    talent: Burning Soul 2/2
   - level: 23
     tree: Frost
-    talent: Elemental Precision 1-3 (23-25)
+    talent: Elemental Precision 1/3
+  - level: 24
+    tree: Frost
+    talent: Elemental Precision 2/3
+  - level: 25
+    tree: Frost
+    talent: Elemental Precision 3/3
   - level: 26
     tree: Arcane
-    talent: Arcane Subtlety 1-2 (26-27)
+    talent: Arcane Subtlety 1/2
+  - level: 27
+    tree: Arcane
+    talent: Arcane Subtlety 2/2
   - level: 28
     tree: Arcane
-    talent: Magic Absorption 1-3 (28-30)
+    talent: Magic Absorption 1/3
+  - level: 29
+    tree: Arcane
+    talent: Magic Absorption 2/3
+  - level: 30
+    tree: Arcane
+    talent: Magic Absorption 3/3
   - level: 31
     tree: Arcane
-    talent: Arcane Concentration 1-5 (31-35)
+    talent: Arcane Concentration 1/5
+  - level: 32
+    tree: Arcane
+    talent: Arcane Concentration 2/5
+  - level: 33
+    tree: Arcane
+    talent: Arcane Concentration 3/5
+  - level: 34
+    tree: Arcane
+    talent: Arcane Concentration 4/5
+  - level: 35
+    tree: Arcane
+    talent: Arcane Concentration 5/5
   - level: 36
     tree: Fire
-    talent: Incinerate 2, Master of Elements 3, Fire Vulnerability 3, Blast Wave 1, Critical Mass 3, Hot Streak 2, Fire Power
-      5, Combustion 1 (36-55; exact per-level order not given)
+    talent: Incinerate 1/2
+  - level: 37
+    tree: Fire
+    talent: Incinerate 2/2
+  - level: 38
+    tree: Fire
+    talent: Master of Elements 1/3
+  - level: 39
+    tree: Fire
+    talent: Master of Elements 2/3
+  - level: 40
+    tree: Fire
+    talent: Master of Elements 3/3
+  - level: 41
+    tree: Fire
+    talent: Fire Vulnerability 1/3
+  - level: 42
+    tree: Fire
+    talent: Fire Vulnerability 2/3
+  - level: 43
+    tree: Fire
+    talent: Fire Vulnerability 3/3
+  - level: 44
+    tree: Fire
+    talent: Blast Wave 1/1
+  - level: 45
+    tree: Fire
+    talent: Critical Mass 1/3
+  - level: 46
+    tree: Fire
+    talent: Critical Mass 2/3
+  - level: 47
+    tree: Fire
+    talent: Critical Mass 3/3
+  - level: 48
+    tree: Fire
+    talent: Hot Streak 1/2
+  - level: 49
+    tree: Fire
+    talent: Hot Streak 2/2
+  - level: 50
+    tree: Fire
+    talent: Fire Power 1/5
+  - level: 51
+    tree: Fire
+    talent: Fire Power 2/5
+  - level: 52
+    tree: Fire
+    talent: Fire Power 3/5
+  - level: 53
+    tree: Fire
+    talent: Fire Power 4/5
+  - level: 54
+    tree: Fire
+    talent: Fire Power 5/5
+  - level: 55
+    tree: Fire
+    talent: Combustion 1/1
   - level: 56
-    tree: free
-    talent: 5 free points (56-60)
-  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=mage&t=230005-50500201230313251-003
-  build_link_tortoise_note: 'Generated from the sourced points list (46 points: Arcane 10, Fire 33, Frost 3); the calculator
+    tree: Fire
+    talent: Improved Fire Blast 1/3
+  - level: 57
+    tree: Fire
+    talent: Improved Fire Blast 2/3
+  - level: 58
+    tree: Fire
+    talent: Improved Fire Blast 3/3
+  - level: 59
+    tree: Fire
+    talent: Flame Throwing 1/2
+  - level: 60
+    tree: Fire
+    talent: Flame Throwing 2/2
+  leveling_note: Wiki Fire FAQ order; the 5 free points finish the raid build (Improved Fire Blast 3, Flame Throwing 2).
+  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=mage&t=230005-50523201230313251-003
+  build_link_tortoise_note: 'Generated from the sourced points list (51 points: Arcane 10, Fire 38, Frost 3); the calculator
     shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
 stat_weights:
-  spell_crit_1pct_in_sp:
-    endgame: 25
-    fresh60: 17
-    source: wiki Fire FAQ sim (1000 SP/40 crit/15 hit/5 haste; 300/18/13/3)
-  spell_hit_1pct_in_sp:
-    endgame: 23
-    fresh60: 15
-  spell_haste_1pct_in_sp:
-    endgame: 15
-    fresh60: 11
-  priority: hit to 16% > crit > spell power > haste (2-4% haste minimum recommended by wiki for double Fireball in the Ignite
-    window, computed for the old 6 s window)
+  priority: 'spell hit to 16% (6% Elemental Precision + 2% ZG enchants + 1% Emerald Blessing -> ~7% gear) > crit (~25 SP per
+    1%, aim ~40%) > spell power > haste (contested: small haste breaks the 2-Fireball weave)'
+  crit_1pct_in_sp:
+    kara40_bis: ~25+
+    sources:
+    - '[[d:mage#1493652965158944868]]'
+    - '[[d:mage#1479598294987440392]]'
+  haste: small amounts sim 0.5-1% lower (weave desync); ~47-50% total haste gives clean 3-Fireball weaves [[d:mage#1489266514749034536]],
+    [[d:mage#1489285264332296362]]
+  solo_ignite_crit: ~50% Fireball crit keeps Ignite rolling solo [[d:mage#1487094005933019226]]
+caps:
+  spell_hit: 16% vs bosses; Fire gets 6% from talents [[d:mage#1484935527709806603]]
+  ignite: 4 s window, stores 40% of first 5 crits, any crit refreshes; Fireball->Fire Blast needs ~50% crit, Scorch->Scorch->Fire
+    Blast ~33% [[d:mage#1478705573376819295]], [[d:mage#1478707474113757357]]
+  fire_mages_per_raid: 2 is the sweet spot, 3 can work post-fix [[d:mage#1465737132768231517]], [[d:mage#1468713916501852311]]
+  ignite_visible_stack_cap: 48 (display only) [[d:mage#1484285532308771007]]
+rotation_single:
+- priority: 0
+  action: 'Opener: Fire Blast -> Scorch x3 -> Fireball -> Fire Blast (Fire Blast while a Fireball is in flight banks a Fire
+    Vulnerability stack)'
+  condition: pull
+  sources:
+  - '[[d:mage#1478881200079769690]]'
+  - '[[d:mage#1466186378617290815]]'
+- priority: 1
+  action: Pyroblast
+  condition: 5 Hot Streak stacks (4 only if the boss is about to die)
+  sources:
+  - '[[d:mage#1479141574372757517]]'
+- priority: 2
+  action: Fire Blast
+  condition: 'off cooldown: after 2 Fireballs with no haste, after a 3rd Fireball with small haste'
+  sources:
+  - '[[d:mage#1487204103632191600]]'
+  - '[[d:mage#1487203302314606722]]'
+- priority: 3
+  action: Scorch
+  condition: Fire Vulnerability below 5 stacks AND target lives > ~1 min; never extra Scorches to "extend" Ignite
+  sources:
+  - '[[d:mage#1485659693857902663]]'
+  - '[[d:mage#1478881200079769690]]'
+- priority: 4
+  action: Fireball
+  condition: default
+- priority: 5
+  action: Let a weak (partially resisted) Ignite drop and rebuild; signal other Fire mages via /bw extra magetools ignitedroptrigger
+  condition: weak Ignite rolling
+  sources:
+  - '[[d:mage#1487206596852449382]]'
+  - '[[d:mage#1478706351755759742]]'
+rotation_aoe:
+- targets_min: 3
+  priority: 1
+  action: Rank-1 Arcane Explosion (pre-proc trinkets, low threat)
+  condition: pack pulled
+  sources:
+  - '[[d:mage#1479603921264836630]]'
+- targets_min: 3
+  priority: 2
+  action: Flamestrike rank 6 -> Flamestrike rank 5 (two DoTs tick)
+  condition: mobs stay grouped and alive for a while; skip if the raid melts trash
+  sources:
+  - '[[d:mage#1479770070598291608]]'
+  - '[[d:mage#1468725989961109605]]'
+- targets_min: 3
+  priority: 3
+  action: Blast Wave
+  condition: off cooldown
+  sources:
+  - '[[d:mage#1479603921264836630]]'
+- targets_min: 3
+  priority: 4
+  action: Arcane Explosion (max rank) spam
+  condition: default AoE
+  sources:
+  - '[[d:mage#1479603921264836630]]'
+- targets_min: 10
+  priority: 5
+  action: Flarecore 6-piece Flamestrike play
+  condition: 10+ mobs only (quadratic scaling, ~50% of damage at 40-60 mobs)
+  sources:
+  - '[[d:mage#1468412814086508635]]'
+aoe_threshold: 3
+cooldowns:
+- name: Combustion
+  use_when: after Fire Vulnerability is stacked, into Fireball/Pyroblast
+  sources:
+  - '[[d:mage#1478734312135331881]]'
+- name: Mind Quickening Gem
+  use_when: save for chosen fights (Medivh, Faerlina, Heigan) or pre-proc windows (hard-mode KT)
+  sources:
+  - '[[d:mage#1470890829055787194]]'
+  - '[[d:mage#1472414395211583659]]'
+- name: Blast Wave
+  use_when: AoE, 30 s cooldown
+resource_rules:
+- Arcane Concentration + Master of Elements are Fire's in-fight mana [[d:mage#1321259296654098523]].
+- Ignite damage and threat are split among the Fire mages who crit into it; you must have a Hot Streak or Combustion buff
+  to qualify [[d:mage#1486342319245496382]].
+consumables:
+- Flask of Supreme Power, Elixir of Greater Fire Power, Greater Arcane Elixir, Dreamshard Elixir, Dreamtonic, Mageblood, Medivh's
+  Merlot Blue, Spirit of Zanza, Tel'Abim food, Potion of Quickness, Cerebral Cortex Compound [[d:mage#1354993754649399397]]
+- Brilliant Wizard Oil; Oil of Immolation does not scale with SP [[d:mage#1494373493976993853]]
+- 'Enchants: Presence of Sight head/legs, Power of the Scourge shoulders, +20 SP gloves, Enchanted Armor Kit, +30 SP weapon;
+  belt Fire Power/Fire Damage (contested)'
+mistakes_to_avoid:
+- Bringing Fire to MC/BWL (fire-immune bosses) [[d:mage#1493927839274373200]]
+- Holding Fire Blast after 1.18.1 [[d:mage#1487204103632191600]]
+- Fireball at 5 Hot Streak stacks instead of Pyroblast [[d:mage#1479141574372757517]]
+- Building Ignite before Fire Vulnerability [[d:mage#1466212364125999157]]
+- Nursing a weak Ignite / extra Scorches to extend Ignite [[d:mage#1487206596852449382]], [[d:mage#1478881200079769690]]
+- Stacking small haste that breaks the weave (contested) [[d:mage#1489266514749034536]]
+discord:
+  channel: mage
+  scope: 'Fire additions from the archived #mage Discord. Every claim carries a [[d:mage#<id>]] citation, an era (pre-1.18.1
+    | 1.18.1-announced-pre-release | post-1.18.1) and agreement (consensus | single source | contested).'
+  builds:
+  - name: 1.18.1-announced-pre-release Fire raid (screenshot transcription) — 13/35/3, Hot Streak skipped
+    split:
+      Arcane: 13
+      Fire: 35
+      Frost: 3
+    source: '[[d:mage#1467615825954340866]]'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    note: Screenshot header 'MAGE 13 / 35 / 3', level 60 (2026-02-02, 'ultratronger'). Resolves the forum README's 'Fire 51-point
+      build is an image' gap. Hot Streak is deliberately not taken and Improved Flamestrike is skipped.
+    allocation:
+    - tree: Fire
+      talent: Improved Fireball
+      rank: 5
+      spell_id: 12341
+    - tree: Fire
+      talent: Ignite
+      rank: 5
+      spell_id: 12848
+    - tree: Fire
+      talent: Flame Throwing
+      rank: 1
+      spell_id: 11100
+    - tree: Fire
+      talent: Improved Fire Blast
+      rank: 3
+      spell_id: 12342
+    - tree: Fire
+      talent: Incinerate
+      rank: 2
+      spell_id: 18460
+    - tree: Fire
+      talent: Pyroblast
+      rank: 1
+      spell_id: 11366
+    - tree: Fire
+      talent: Burning Soul
+      rank: 2
+      spell_id: 12351
+    - tree: Fire
+      talent: Fire Vulnerability
+      rank: 3
+      spell_id: 12873
+    - tree: Fire
+      talent: Master of Elements
+      rank: 3
+      spell_id: 29076
+    - tree: Fire
+      talent: Blast Wave
+      rank: 1
+      spell_id: 11113
+    - tree: Fire
+      talent: Critical Mass
+      rank: 3
+      spell_id: 11368
+    - tree: Fire
+      talent: Fire Power
+      rank: 5
+      spell_id: 12400
+    - tree: Fire
+      talent: Combustion
+      rank: 1
+      spell_id: 11129
+    - tree: Arcane
+      talent: Arcane Subtlety
+      rank: 2
+      spell_id: 12592
+    - tree: Arcane
+      talent: Arcane Focus
+      rank: 3
+      spell_id: 12840
+    - tree: Arcane
+      talent: Arcane Concentration
+      rank: 5
+      spell_id: 12577
+    - tree: Arcane
+      talent: Arcane Impact
+      rank: 3
+      spell_id: 12469
+    - tree: Frost
+      talent: Elemental Precision
+      rank: 3
+      spell_id: 29440
+    caveat: Screenshot column alignment does not always match the 1.18.1 client tree, so the Arcane 13 columns are marked
+      '≈' by the transcribers; the Fire 35 tree was transcribed exactly from visible ranks and the header/rank totals are
+      reliable.
+  - name: Decoded pre-1.18.1 Fire 13/35/3 (long-form code)
+    split:
+      Arcane: 13
+      Fire: 35
+      Frost: 3
+    source: '[[d:mage#1337428646981271614]]'
+    era: pre-1.18.1
+    agreement: single source
+    note: m4ge's decoded Fire build; one of 49 legal 51-point builds in kb/structured/talents/builds-mage.yaml. Earlier Fire
+      3-rank Hot Streak codes come from the pre-1.18.0 calculator revision (display artefact; the 1.18.1 client tree has 2
+      ranks) [[d:mage#1300810656915783710]].
+  rotation_single:
+  - action: Open by building 5 Fire Vulnerability stacks with Scorch; Fire Blast also applies a stack (since 1.18.0).
+    condition: pull
+    sources:
+    - '[[d:mage#1436842451150176307]]'
+    - '[[d:mage#1485659693857902663]]'
+    era: mixed
+    agreement: consensus
+  - action: Cast Fire Blast on/near cooldown — post-1.18.1 it is the highest-DPS spell (Improved Fire Blast GCD reduction
+      0.3/0.6/1.0 s). Weave it after 2 Fireballs at zero haste; with any haste cast a 3rd Fireball to avoid losing uptime.
+    condition: off cooldown
+    sources:
+    - '[[d:mage#1484462342086590464]]'
+    - '[[d:mage#1487204103632191600]]'
+    - '[[d:mage#1487203302314606722]]'
+    era: post-1.18.1
+    agreement: consensus
+  - action: Pyroblast at 4/5 Hot Streak stacks; Fireball is the default filler and Scorch refreshes Fire Vulnerability / extends
+      Ignite and fills movement.
+    sources:
+    - '[[d:mage#1485659693857902663]]'
+    era: post-1.18.1
+    agreement: consensus
+  - action: A solo Fire mage can hold Ignite only with ~50% Fireball crit; otherwise run 2-3 Fire mages and split the Ignite.
+      Only players flagged as Fire (Hot Streak/Combustion buff) qualify for the split.
+    condition: solo vs multi-mage
+    sources:
+    - '[[d:mage#1487094005933019226]]'
+    - '[[d:mage#1430521459318718547]]'
+    - '[[d:mage#1486342319245496382]]'
+    era: mixed
+    agreement: consensus
+  - action: Drop and rebuild a weakly-built Ignite (partial resists make the stored ignite weak).
+    sources:
+    - '[[d:mage#1487206596852449382]]'
+    - '[[d:mage#1487205700340941033]]'
+    era: post-1.18.1
+    agreement: consensus
+  - action: Small amounts of extra haste hurt the current Fire rotation unless it is enough to reach the ~47% MQG+consumes
+      window.
+    condition: haste stacking
+    sources:
+    - '[[d:mage#1489266514749034536]]'
+    - '[[d:mage#1489285264332296362]]'
+    - '[[d:mage#1487204103632191600]]'
+    era: post-1.18.1
+    agreement: contested
+  ignite_mechanics:
+  - Ignite stores 40% of the first five crits; the tick does not grow afterwards [[d:mage#1235700216292835441]], [[d:mage#1487205700340941033]]
+    (pre-1.18.1/post-1.18.1, consensus).
+  - Ignite is 4 s since 1.18.0; the wiki Fire FAQ still computes a 6 s window — superseded [[d:mage#1433239410652086395]],
+    [[d:mage#1488094426352980008]] (post-1.18.1, consensus).
+  - 'Loatheb: 100% crit from spores makes one giant ignite; a good ignite ~250k with 5 mages, tracked past the 48-debuff visual
+    cap with the BigWigs ''MageTools V2'' plugin [[d:mage#900490010200002620]], [[d:mage#1229314969414402108]], [[d:mage#1484297069148770464]]
+    (pre-1.18.1, consensus).'
+  stat_weights:
+    priority: hit to 16% > crit > spell power > haste (crit > 20-25 SP at Kara BiS)
+    spell_crit_1pct_in_sp:
+      endgame: '>25'
+      fresh60: 17
+      sources:
+      - '[[d:mage#1493652965158944868]]'
+      - '[[d:mage#1493648203491442718]]'
+      era: post-1.18.1
+      agreement: consensus
+    spell_hit_1pct_in_sp:
+      endgame: 23
+      fresh60: 15
+    spell_haste_1pct_in_sp:
+      endgame: 15
+      fresh60: 11
+    note: 'The wiki sim values (crit 25/hit 23/haste 15 at 1000 SP) are corroborated by Discord field numbers: crit is ''well
+      over 20 SP'' and >25 SP at Kara BiS.'
+  caps:
+    fire_vulnerability_stacks: 5
+    hot_streak_stacks: 5
+    ignite_duration_s: 4
+    spell_hit: 16% (6% from Elemental Precision + Improved Fire Blast path)
+    haste_window: ~47% haste (MQG + Juju Flurry + Potion of Quickness + food) makes haste good again; below it extra haste
+      can be a DPS loss [[d:mage#1489285264332296362]] (post-1.18.1, contested)
+  gear:
+  - Fire wants crit over haste and Curse of Elements; needs 2-3 fire mages to keep Ignite [[d:mage#1487193676726669554]],
+    [[d:mage#1486774121537994903]] (post-1.18.1, consensus)
+  - Ring of Burning Talons (Onyxia) is intended for Fire AoE but is more useful on Arcane [[d:mage#1488775375545700484]] (post-1.18.1,
+    single source)
+  - Fire is AQ40+; MC/BWL/Onyxia bosses are fire-immune [[d:mage#1484554859473670175]], [[d:mage#1279087141598662687]] (post-1.18.1/pre-1.18.1,
+    consensus)
+  consumables:
+  - 'Full endgame consume list and stacking rules: Flask of Supreme Power + Elixir of Greater Arcane Power + Dreamshard Elixir
+    + Dreamtonic + oil + Tel''Abim food; Mageblood, Spirit of Zanza; Juju Flurry + Potion of Quickness + Berserking + Elune''s
+    Courage stack; Nordanaar Tea from Hyjal; engineering is the only profession that adds raid damage (Sapper) [[d:mage#1438508962843463692]],
+    [[d:mage#1427637200375382099]], [[d:mage#1438550709686501427]], [[d:mage#1488098864048115845]] (1.18.1-announced-pre-release/post-1.18.1,
+    consensus)'
+  mistakes_to_avoid:
+  - Skipping Fire Blast after 1.18.1, or adding small haste without shifting to 3 Fireballs per Fire Blast [[d:mage#1487204103632191600]],
+    [[d:mage#1489266514749034536]]
+  - Casting another Fireball at 5 Hot Streak stacks; letting a weak Ignite ride [[d:mage#1487206596852449382]]
+  boss_notes:
+  - boss: Ragnaros / Golemagg / Baron Geddon / MC fire elementals
+    note: Fire-immune; use Frost/Arcane.
+    sources:
+    - '[[d:mage#908118232249024534]]'
+  - boss: BWL drakes + Onyxia
+    note: Fire-immune; Frostbolt/Arcane needed.
+    sources:
+    - '[[d:mage#1079771651232768131]]'
+    - '[[d:mage#1279087141598662687]]'
+  - boss: Patchwerk
+    note: Solo Fire 2k DPS post-1.18.1.
+    sources:
+    - '[[d:mage#1487093190426366004]]'
+  - boss: Chromaggus
+    note: Swap schools as vulnerabilities rotate; a fire mage swaps after 6 stacks.
+    sources:
+    - '[[d:mage#1257243086845640704]]'
+    - '[[d:mage#1494000313575936041]]'
+  - boss: Nefarian
+    note: Ice Block while he casts the class call, not after; Blink does not break the shackle.
+    sources:
+    - '[[d:mage#1494650524639825992]]'
+    - '[[d:mage#1494656562172526847]]'
+  sources:
+  - id: '[[d:mage#1467615825954340866]]'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    used_for: 13/35/3 raid build screenshot
+  - id: '[[d:mage#1484462342086590464]]'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: 1.18.1 Improved Fire Blast rotation change
+  - id: '[[d:mage#1487204103632191600]]'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: Fire Blast highest-DPS cadence
+  - id: '[[d:mage#1489266514749034536]]'
+    era: post-1.18.1
+    agreement: contested
+    used_for: small haste is a DPS loss
+  - id: '[[d:mage#1235700216292835441]]'
+    era: pre-1.18.1
+    agreement: consensus
+    used_for: Ignite first-five-crits mechanic
+  - id: '[[d:mage#1487205700340941033]]'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: drop and rebuild weak ignite
+  - id: '[[d:mage#1486342319245496382]]'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: split-ignite eligibility
+  - id: '[[d:mage#1436842451150176307]]'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    used_for: Fire Blast applies Fire Vulnerability
+  - id: '[[d:mage#1493652965158944868]]'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: crit >20-25 SP
+  - id: '[[d:mage#1484554859473670175]]'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: Fire locked out until after BWL
 stat_priority:
 - spell-hit
 - spell-crit
@@ -225,75 +742,3 @@ stat_priority_note: 'From the wiki Fire sim: hit to the 16% cap, then crit (crit
   SP per 1% at endgame versus ~23 for hit), then spell power, then haste — but keep 2–4% haste so two Fireballs fit inside
   the Ignite window. That haste figure was written for the 6 s Ignite; 1.18.0 restored the 4 s Ignite and no source recomputed
   it.'
-caps:
-  spell_hit: 16% (generic caster figure quoted by players)
-  hot_streak_stacks: 5
-  fire_vulnerability_stacks: 5
-rotation_single:
-- priority: 0
-  action: 'Opener: Fire Blast -> Scorch x3 -> Fireball -> Fire Blast'
-  condition: pull; builds 5 Fire Vulnerability stacks (Fire Blast also applies them since 1.18.0)
-- priority: 1
-  action: Pyroblast
-  condition: Hot Streak at 5 stacks (1 s cast, 1 s GCD); cast it before another Fireball to avoid wasting crits (flight-time
-    overlap)
-- priority: 2
-  action: Fire Blast
-  condition: off cooldown (post-1.18.1 GCD -1.0 s with 3/3 Improved Fire Blast); also while moving
-- priority: 3
-  action: Fireball
-  condition: default filler (rank 12 book, 295 mana)
-- priority: 4
-  action: Scorch
-  condition: to extend Ignite / refresh Fire Vulnerability when a Fireball will not land in time; low-HP finisher; while moving
-- priority: 5
-  action: Frostbolt rank 1 / stop casting
-  condition: about to pull threat from Ignite ticks as the sole Fire mage (pre-1.17.2 advice; threat is now split among Fire
-    mages)
-rotation_aoe:
-- targets_min: 3
-  priority: 1
-  action: Arcane Explosion spam
-  condition: player consensus that AE is the best AoE regardless of spec; no Fire-specific raid AoE priority exists
-- targets_min: 3
-  priority: 2
-  action: Flamestrike (2.5 s) + Blast Wave (30 s) + Flame Throwing radius
-  condition: when mobs are stacked and the tank is not moving them; rotate Flamestrike ranks for overlapping ground DoTs (different
-    ranks stack)
-- targets_min: 3
-  priority: 3
-  action: Wear 3-piece Frost/Fire T3.5 (+20% Fire on rewind) + 3-piece Arcane
-  condition: post-1.18.1
-- targets_min: 2
-  priority: 9
-  action: no source states 2-3 target handling
-  condition: gap
-aoe_threshold: 3
-cooldowns:
-- name: Combustion
-  use_when: with crit-heavy burst on bosses (no timing source)
-- name: Blast Wave
-  use_when: AoE, 30 s cooldown (1.18.0)
-- name: Evocation / mana gem / tea
-  use_when: 'Fire is mana-hungry: ''Fire Mages quite struggle with mana even with Master of Elements'' (staff); tea alone
-    insufficient (Forbearance)'
-- name: Trinkets
-  use_when: 'sim: Scythe (Kara10) > Tear > Mark of the Champion > Eye of Diminution > MQG > REoS'
-resource_rules:
-- Master of Elements refunds 15/30/45% base mana on crits (one refund per multi-target cast).
-- Fireball/Flamestrike mana costs were reduced 2025-04-01 (Fireball R11 275, R12 295; Flamestrike R6 680).
-- Arcane Concentration 5/5 in the wiki path for Clearcasting.
-- Ignite lasts 4 s (1.18.0); the sole Fire mage must keep it rolling with Fireball/Fire Blast/Scorch; Ignite no longer procs
-  from grenades.
-consumables:
-- Mana tea / mana potions / mana gem
-- Brilliant Wizard Oil
-- Goblin Sapper Charge (engineering)
-- BigWigs (pepopo978 fork) Scorch/Ignite monitor; Flamestriker addon for rank rotation
-mistakes_to_avoid:
-- Playing Fire against fire-immune Molten Core / Blackwing Lair bosses
-- Casting another Fireball at 5 Hot Streak stacks instead of Pyroblast
-- Letting Fire Vulnerability drop below 5 stacks or Ignite fall off as the only Fire mage
-- Flamestrike where the tank is moving the pack or in dungeons where it pulls aggro
-- Skipping Fire Blast (pre-1.18.1 habit) — after 1.18.1 it is on-cooldown filler
-- Relying on tea without Arcane Concentration / Master of Elements

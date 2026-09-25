@@ -3,6 +3,7 @@ import { readableColor } from '../../lib/theme';
 import { useThemeValue } from '../../lib/theme-context';
 import { CardLabel } from './GuideSection';
 import { describeValue, isContested } from './util';
+import { CitedText } from '../CitedText';
 
 interface AoeGroup {
   key: string;
@@ -72,10 +73,14 @@ export function AoeCards({ groups, color }: { groups: AoeGroup[]; color: string 
                     {number}
                   </span>
                   <span className="min-w-0">
-                    <span className="font-semibold">{describeValue(step?.action)}</span>
+                    <span className="font-semibold">
+                      <CitedText text={describeValue(step?.action)} />
+                    </span>
                     {condition ? (
                       <span className="ml-1.5" style={contested ? { color: amber } : undefined}>
-                        <span className={contested ? '' : 'text-muted'}>{condition}</span>
+                        <span className={contested ? '' : 'text-muted'}>
+                          <CitedText text={condition} />
+                        </span>
                       </span>
                     ) : null}
                   </span>

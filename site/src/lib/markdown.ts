@@ -1,6 +1,7 @@
 import { marked } from 'marked';
 import DOMPurify from 'dompurify';
 import { annotateGlossaryTerms } from './glossary-inline';
+import { DISCORD_CITE, discordCitation } from './citations';
 
 marked.setOptions({ gfm: true, breaks: false });
 
@@ -12,17 +13,35 @@ marked.setOptions({ gfm: true, breaks: false });
  */
 const canSanitize = typeof (DOMPurify as { sanitize?: unknown }).sanitize === 'function';
 
+const escapeHtml = (text: string) =>
+  text.replace(/[&<>"'|*_`[\]~\\]/g, (ch) => `&#${ch.charCodeAt(0)};`);
+
+/**
+ * build-data.py renders the Discord citations of every Markdown document it
+ * reads; a `[[d:channel#id]]` that still reaches the renderer (YAML notes shown
+ * as inline Markdown) gets the same chip from the class citation maps.
+ */
+function citeChips(md: string): string {
+  if (!md.includes('[[d:')) return md;
+  return md.replace(DISCORD_CITE, (_all, channel: string, id: string) => {
+    const cite = discordCitation(channel, id);
+    return cite.url
+      ? `<a class="cite cite-discord" href="${escapeHtml(cite.url)}" title="${escapeHtml(cite.title)}">${escapeHtml(cite.label)}</a>`
+      : `<span class="cite cite-discord cite-unknown" title="${escapeHtml(cite.title)}">${escapeHtml(cite.label)}</span>`;
+  });
+}
+
 /** Markdown -> sanitized HTML. No network, no raw HTML passthrough surprises. */
 export function renderMarkdown(md: string): string {
   if (!md) return '';
-  const html = marked.parse(md, { async: false }) as string;
+  const html = marked.parse(citeChips(md), { async: false }) as string;
   return canSanitize ? DOMPurify.sanitize(html, { USE_PROFILES: { html: true } }) : html;
 }
 
 /** One line of Markdown (a table cell, a heading) -> sanitized inline HTML. */
 export function renderInlineMarkdown(md: string): string {
   if (!md) return '';
-  const html = marked.parseInline(md, { async: false }) as string;
+  const html = marked.parseInline(citeChips(md), { async: false }) as string;
   return canSanitize ? DOMPurify.sanitize(html, { USE_PROFILES: { html: true } }) : html;
 }
 
@@ -86,6 +105,10 @@ export function enhanceMarkdownDom(root: HTMLElement): void {
 export function plainText(md: string, maxLength = 220): string {
   let text = md
     .replace(/```[\s\S]*?```/g, ' ')
+    // inline HTML: the Discord citation chips are dropped, other tags unwrapped
+    .replace(/<(a|span) class="cite[^"]*"[^>]*>[^<]*<\/\1>/g, '')
+    .replace(/<[^>]+>/g, '')
+    .replace(/\s+([,.;:])/g, '$1')
     .replace(/!\[[^\]]*\]\([^)]*\)/g, ' ')
     .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
     .replace(/[*_`>#]/g, '')

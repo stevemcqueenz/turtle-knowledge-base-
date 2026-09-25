@@ -1,6 +1,7 @@
 class: Shaman
 spec: Enhancement
 role: melee-dps
+guide: guide/classes/shaman/enhancement.md
 sources:
 - url: https://forum.turtlecraft.gg/viewtopic.php?p=102972#p102972
   author: Dragunovi
@@ -182,168 +183,738 @@ sources:
   author: Terrydavis
   authority: player
   date: '2026-03-20'
+- cite: '[[d:shaman#1493306457784062084]]'
+  author: Not Normal
+  authority: player
+  date: '2026-04-13'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:shaman#1484630553742544987]]'
+  author: Serow
+  authority: player
+  date: '2026-03-20'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:shaman#1450924897978023976]]'
+  author: Not Normal
+  authority: player
+  date: '2025-12-17'
+  era: pre-1.18.1
+  agreement: consensus
+- cite: '[[d:shaman#1489381819735605390]]'
+  author: Not Normal
+  authority: player
+  date: '2026-04-03'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:shaman#1461356189739778211]]'
+  author: Not Normal
+  authority: player
+  date: '2026-01-15'
+  era: 1.18.1-announced-pre-release
+  agreement: consensus
+- cite: '[[d:shaman#1482104891295141980]]'
+  author: Zeruel
+  authority: player
+  date: '2026-03-13'
+  era: 1.18.1-announced-pre-release
+  agreement: consensus
+- cite: '[[d:shaman#1485631905352253480]]'
+  author: Not Normal
+  authority: player
+  date: '2026-03-23'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:shaman#1491208166766284860]]'
+  author: Not Normal
+  authority: player
+  date: '2026-04-08'
+  era: post-1.18.1
+  agreement: single source
 agreement: contested
 patch_validity:
   written_for: 1.17.2 (Class Changes 2) and 1.18.0 (live 2025-08-15)
   valid_for_1181: unknown
-  notes: 1.18.1 changed Windfury Weapon (25% per hit), Flurry (any crit, 3 swings, reworked trigger), Elemental Weapons' Windfury/Flametongue
-    effects, and the Lightning Strike Water Shield ratio to 18:1; no talent points moved. No source posts an updated build
-    or rotation after 2026-03-20, and post-release bug reports (Flurry not triggering correctly, overwritten by Elemental
-    Weapons' haste) were still open on 2026-04-07.
+  notes: '1.18.1 changed Windfury Weapon (25% per hit), Flurry (any crit, 3 swings, reworked trigger), Elemental Weapons''
+    Windfury/Flametongue effects, and the Lightning Strike Water Shield ratio to 18:1; no talent points moved. The forum file''s
+    ''no source posts an updated build or rotation after 2026-03-20'' is closed by Discord: the post-1.18.1 17/34/0 build
+    and the confirmed rotation are in `discord:` below ([[d:shaman#1493306457784062084]], [[d:shaman#1486024479951032474]]).
+    Post-release Flurry/Bulwark bugs were hotfixed in stages.'
 talents:
-  build_name: Atreidon's raid build (link only; named-core talents listed separately)
-  build_link: https://talents.turtlecraft.gg/shaman?points=FQAYNAAAAAAAAAFAFaAIFADIAoAAAAAAAAAAAAAAAAA=
+  build_name: 'Raid 17/34/0 (Not Normal: "at level 60 the standard pve dps build") -- validated with pipeline2/talent_tool.py'
+  build_link: https://talents.turtlecraft.gg/shaman?points=DoAYLAAC-FAFYYIFATIAoB-
   points:
   - tree: Elemental
     talent: Convection
-    rank: 5
-    spell_id: 16112
-    talent_id: 218
+    rank: 3
+    spell_id: 16110
   - tree: Elemental
     talent: Concussion
-    rank: 2
-    spell_id: 16105
-    note: or Elemental Warding
-    talent_id: 219
+    rank: 5
+    spell_id: 16108
   - tree: Elemental
     talent: Elemental Devastation
     rank: 3
     spell_id: 29180
-    talent_id: 222
   - tree: Elemental
     talent: Elemental Focus
     rank: 1
     spell_id: 45541
-    talent_id: 223
-  - tree: Enhancement
-    talent: Thundering Strikes
-    rank: 5
-    spell_id: 16305
-    talent_id: 254
-  - tree: Enhancement
-    talent: Stable Shields
+  - tree: Elemental
+    talent: Reverberation
     rank: 3
-    spell_id: 16291
-    talent_id: 255
-  - tree: Enhancement
-    talent: Lightning Strike
-    rank: 1
-    spell_id: 51387
-    talent_id: 258
-  - tree: Enhancement
-    talent: Flurry
-    rank: 5
-    spell_id: 16284
-    talent_id: 260
-  - tree: Enhancement
-    talent: Elemental Weapons
-    rank: 3
-    spell_id: 29080
-    talent_id: 263
-  - tree: Enhancement
-    talent: Stormstrike
-    rank: 1
-    spell_id: 17364
-    talent_id: 264
-  - tree: Enhancement
-    talent: Element's Grace
-    rank: 5
-    spell_id: 29088
-    talent_id: 265
-  - tree: Enhancement
-    talent: Bloodlust
-    rank: 1
-    spell_id: 45509
-    talent_id: 266
+    spell_id: 16114
+  - tree: Elemental
+    talent: Call of Flame
+    rank: 2
+    spell_id: 16160
   - tree: Enhancement
     talent: Ancestral Knowledge
     rank: 5
     spell_id: 17489
-    talent_id: 251
+  - tree: Enhancement
+    talent: Thundering Strikes
+    rank: 5
+    spell_id: 16305
+  - tree: Enhancement
+    talent: Stable Shields
+    rank: 3
+    spell_id: 16291
   - tree: Enhancement
     talent: Calming Winds
     rank: 3
     spell_id: 51385
-    note: raid threat reduction; Toxo calls it mandatory only at high gear
-    talent_id: 257
+  - tree: Enhancement
+    talent: Lightning Strike
+    rank: 1
+    spell_id: 51387
+  - tree: Enhancement
+    talent: Flurry
+    rank: 5
+    spell_id: 16284
+  - tree: Enhancement
+    talent: Enhancing Totems
+    rank: 2
+    spell_id: 16295
+  - tree: Enhancement
+    talent: Elemental Weapons
+    rank: 3
+    spell_id: 29080
+  - tree: Enhancement
+    talent: Stormstrike
+    rank: 1
+    spell_id: 17364
+  - tree: Enhancement
+    talent: Element's Grace
+    rank: 5
+    spell_id: 29088
+  - tree: Enhancement
+    talent: Bloodlust
+    rank: 1
+    spell_id: 45509
   leveling_order:
-  - level: 10–33
+  - level: 10
     tree: Enhancement
-    talent: Shield Specialization 5 (24 Enhancement points across this bracket)
-  - level: 10–33
+    talent: Ancestral Knowledge
+    rank: 1
+  - level: 11
     tree: Enhancement
-    talent: Totemic Alignment 2
-  - level: 10–33
+    talent: Ancestral Knowledge
+    rank: 2
+  - level: 12
     tree: Enhancement
-    talent: Stable Shields 3
-  - level: 10–33
+    talent: Ancestral Knowledge
+    rank: 3
+  - level: 13
     tree: Enhancement
-    talent: Ancestral Guardian 3 (before Lightning Strike, for mitigation)
-  - level: 10–33
+    talent: Ancestral Knowledge
+    rank: 4
+  - level: 14
     tree: Enhancement
-    talent: Lightning Strike (take it first if threat is the problem)
-  - level: 10–33
+    talent: Ancestral Knowledge
+    rank: 5
+  - level: 15
     tree: Enhancement
-    talent: Thundering Strikes 1
-  - level: 10–33
+    talent: Stable Shields
+    rank: 1
+  - level: 16
     tree: Enhancement
-    talent: Spirit Armor 2
-  - level: 10–33
+    talent: Stable Shields
+    rank: 2
+  - level: 17
     tree: Enhancement
-    talent: Thundering Strikes 4
-  - level: 10–33
+    talent: Stable Shields
+    rank: 3
+  - level: 18
     tree: Enhancement
-    talent: Elemental Weapons 3 (take it first if you are squishy)
-  - level: 10–33
+    talent: Thundering Strikes
+    rank: 1
+  - level: 19
     tree: Enhancement
-    talent: Stormstrike (take it first for more threat)
-  - level: 34–44
+    talent: Thundering Strikes
+    rank: 2
+  - level: 20
+    tree: Enhancement
+    talent: Lightning Strike
+    rank: 1
+  - level: 21
+    tree: Enhancement
+    talent: Ancestral Guardian
+    rank: 1
+  - level: 22
+    tree: Enhancement
+    talent: Ancestral Guardian
+    rank: 2
+  - level: 23
+    tree: Enhancement
+    talent: Ancestral Guardian
+    rank: 3
+  - level: 24
+    tree: Enhancement
+    talent: Thundering Strikes
+    rank: 3
+  - level: 25
+    tree: Enhancement
+    talent: Spirit Armor
+    rank: 1
+  - level: 26
+    tree: Enhancement
+    talent: Spirit Armor
+    rank: 2
+  - level: 27
+    tree: Enhancement
+    talent: Thundering Strikes
+    rank: 4
+  - level: 28
+    tree: Enhancement
+    talent: Thundering Strikes
+    rank: 5
+  - level: 29
+    tree: Enhancement
+    talent: Totemic Alignment
+    rank: 1
+  - level: 30
+    tree: Enhancement
+    talent: Elemental Weapons
+    rank: 1
+  - level: 31
+    tree: Enhancement
+    talent: Stormstrike
+    rank: 1
+  - level: 32
+    tree: Enhancement
+    talent: Elemental Weapons
+    rank: 2
+  - level: 33
+    tree: Enhancement
+    talent: Elemental Weapons
+    rank: 3
+  - level: 34
     tree: Elemental
-    talent: Convection 5 (11 Elemental points across this bracket)
-  - level: 34–44
+    talent: Convection
+    rank: 1
+  - level: 35
     tree: Elemental
-    talent: Concussion 2 or Elemental Warding 2 (Elemental Warding is the Maraudon pick)
-  - level: 34–44
+    talent: Convection
+    rank: 2
+  - level: 36
     tree: Elemental
-    talent: Elemental Devastation 3
-  - level: 34–44
+    talent: Convection
+    rank: 3
+  - level: 37
     tree: Elemental
-    talent: Elemental Focus (lands at 44; Clearcasting procs off physical crits too)
-  - level: 44–50
+    talent: Convection
+    rank: 4
+  - level: 38
+    tree: Elemental
+    talent: Convection
+    rank: 5
+  - level: 39
+    tree: Elemental
+    talent: Elemental Warding
+    rank: 1
+  - level: 40
+    tree: Elemental
+    talent: Elemental Warding
+    rank: 2
+  - level: 41
+    tree: Elemental
+    talent: Elemental Devastation
+    rank: 1
+  - level: 42
+    tree: Elemental
+    talent: Elemental Devastation
+    rank: 2
+  - level: 43
+    tree: Elemental
+    talent: Elemental Devastation
+    rank: 3
+  - level: 44
+    tree: Elemental
+    talent: Elemental Focus
+    rank: 1
+  - level: 45
     tree: Enhancement
-    talent: Thundering Strikes 5 (6 Enhancement points across this bracket)
-  - level: 44–50
+    talent: Totemic Alignment
+    rank: 2
+  - level: 46
     tree: Enhancement
-    talent: Element's Grace 5
-  - level: 51–60
+    talent: Element's Grace
+    rank: 1
+  - level: 47
     tree: Enhancement
-    talent: Respec Shield Specialization into Ancestral Knowledge 5 (respec plus 15 points across this bracket)
-  - level: 51–60
+    talent: Element's Grace
+    rank: 2
+  - level: 48
+    tree: Enhancement
+    talent: Element's Grace
+    rank: 3
+  - level: 49
+    tree: Enhancement
+    talent: Element's Grace
+    rank: 4
+  - level: 50
+    tree: Enhancement
+    talent: Element's Grace
+    rank: 5
+  - level: 51
+    tree: Enhancement
+    talent: Flurry
+    rank: 1
+  - level: 52
+    tree: Enhancement
+    talent: Flurry
+    rank: 2
+  - level: 53
+    tree: Enhancement
+    talent: Flurry
+    rank: 3
+  - level: 54
+    tree: Enhancement
+    talent: Flurry
+    rank: 4
+  - level: 55
+    tree: Enhancement
+    talent: Flurry
+    rank: 5
+  - level: 56
     tree: Enhancement
     talent: Bloodlust
-  - level: 51–60
+    rank: 1
+  - level: 57
     tree: Elemental
-    talent: Reverberation 3 (before Flurry, for threat management and more frequent interrupts)
-  - level: 51–60
-    tree: Enhancement
-    talent: Flurry 5
-  - level: 51–60
+    talent: Reverberation
+    rank: 1
+  - level: 58
     tree: Elemental
-    talent: Concussion 3 or Elemental Warding 3 (Concussion for threat, Elemental Warding to be tankier)
-  leveling_order_source: Skegg's tank-capable Enhancement path from his leveling guide (p=149715), consensus with Akos1896
-    — it opens with Shield Specialization and Stable Shields because it is the tank-capable route. Skegg presents it as usable
-    for DPS too ("you do practically the same DPS"), which is why it sits on this playbook. The guide spends points in brackets,
-    so each level cell is the bracket the guide gives, not a per-talent level.
-  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=shaman&t=520031-5005303105003151
-  build_link_tortoise_note: 'Generated from the sourced points list (43 points: Elemental 11, Enhancement 32); the calculator
+    talent: Reverberation
+    rank: 2
+  - level: 59
+    tree: Elemental
+    talent: Reverberation
+    rank: 3
+  - level: 60
+    tree: Elemental
+    talent: Elemental Warding
+    rank: 3
+  variants:
+  - 'Dungeon/cleave: Call of Flame 2 -> Improved Fire Totems 2 (DoAYLAQ-FAFYYIFATIAoB-) [[d:shaman#1449124148411498560]]'
+  - Spellhance 22/29/0 with Flametongue (CoAYLBQDAC-FAFYQIFADIAg-) [[d:shaman#1485045691481985095]]
+  - Tank-capable 15/36/0 (FADYL-FAVYALFQDIAoB-), see enhancement-tank.yaml
+  leveling_order_note: Enhancement to Elemental Weapons + Stormstrike, then 11 Elemental to Elemental Focus, then finish Enhancement;
+    ends at 15/36/0 (tank-capable); respec at 60 to 17/34/0 (guide/classes/shaman/leveling.md). Validated with talent_tool.py.
+  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=shaman&t=350031300002-5005303105023151
+  build_link_tortoise_note: 'Generated from the sourced points list (51 points: Elemental 17, Enhancement 34); the calculator
     shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
 stat_weights:
-  note: No source gives an explicit DPS stat-weight list; see enhancement-tank.yaml's Turtle mechanics table for the underlying
-    formulas (Rockbiter/Windfury/Lightning Strike scale with AP; Flametongue/fire totems scale with SP).
-  hit: consensus priority stat toward the physical/spell hit caps (values not stated for pure DPS; tank guide gives 8% physical
-    / 17% spell at 63)
-  agility: crit and armor; feeds Elemental Focus proc rate
-  attack_power: primary threat/damage stat via Rockbiter/Windfury/Lightning Strike
+  priority: melee hit to 8% > weapon skill to 315 > Strength > crit (~30% unbuffed is enough for Flurry) > haste > AP; spell
+    hit, armor pen, Int, Spirit low [[d:shaman#1453511632058712145]]
+  crit: 1% ~ 20-25 AP [[d:shaman#1453511632058712145]]
+  hit: 1% ~ 35-45 AP until capped [[d:shaman#1453511632058712145]]
+  haste: 1% ~ 17-18 AP pre-Naxx, more with Kiss of the Spider / T3.5 [[d:shaman#1488973642187411602]]
+  strength: 1 Str ~ 2.3 AP ~ 2 Agi [[d:shaman#1461356189739778211]] [[d:shaman#1487779517429710899]]
+  agility: crit only (no AP for shamans), ~1.3 AP [[d:shaman#1453511632058712145]]
+  weapon_skill: ~14-15 AP per point below 315 [[d:shaman#1491837172561739907]]
+  spell_hit: ~6-8 AP [[d:shaman#1450934429567549531]]
+  armor_penetration: 1 Str ~ 5 ArP [[d:shaman#1494082990370721939]]
+  weapon_speed: slowest weapon always better at similar quality (Stormstrike/Lightning Strike not normalized) [[d:shaman#1469420065966264392]]
+caps:
+  physical_hit: 8% = 3% talents + 1% (5 weapon skill book) + 4% gear [[d:shaman#1482104891295141980]]
+  weapon_skill: 315 (glancing cap); 5 skill = 1% hit [[d:shaman#1428121232133591171]]
+  crit_cap: ~54-55% for a hit-capped 2H, irrelevant in practice [[d:shaman#1461360955022901321]]
+  spell_hit: 'not a target (spellhance: <=3% from gear) [[d:shaman#1445940501084901427]]'
+rotation_single:
+- priority: 1
+  action: 'Pre-pull: Windfury Weapon, Lightning Shield, totems Strength of Earth / Windfury / Flametongue / Mana Spring'
+  condition: before pull
+- priority: 2
+  action: Let the first white swing land before the first Stormstrike
+  condition: opener [[d:shaman#1434594354118524958]]
+- priority: 3
+  action: Stormstrike
+  condition: on cooldown [[d:shaman#1450924897978023976]]
+- priority: 4
+  action: Lightning Strike (Rank 3)
+  condition: on cooldown with Lightning Shield up; macros must call Rank 3 [[d:shaman#1484940392347734207]]
+- priority: 5
+  action: 'Shock loop: Flame Shock -> Earth Shock -> Earth Shock'
+  condition: shock off cooldown; Stormstrike before Earth Shock; skip Flame Shock on fire-immune or short-lived targets [[d:shaman#1489381819735605390]]
+- priority: 6
+  action: Auto-attack (/startattack)
+  condition: always
+- priority: 7
+  action: Lightning Shield; Water Shield when mana is short
+  condition: charges 0 or mana low [[d:shaman#1457507332471783485]]
+rotation_aoe:
+- targets_min: 2
+  priority: 1
+  action: Single-target rotation on the kill target
+  condition: 2 targets
+- targets_min: 3
+  priority: 1
+  action: Fire Nova Totem (Flametongue raises fire totem damage 30%)
+  condition: 3+ grouped targets [[d:shaman#1375916876336599050]]
+- targets_min: 3
+  priority: 2
+  action: Chain Lightning
+  condition: Clearcasting up
+- targets_min: 5
+  priority: 1
+  action: Fire Nova again when Chain Lightning is on cooldown; Magma only if mana allows
+  condition: large trash packs [[d:shaman#1444776794799734784]]
+aoe_threshold: 3
+cooldowns:
+- name: Bloodlust
+  use_when: 5-min CD; at fight start once Stormstrike and a shock are rolling, stacked with Juju Flurry / Potion of Quickness
+    / Kiss of the Spider
+- name: Blood Fury (Orc)
+  use_when: with Bloodlust; 120 AP + 60 SP, lowers healing received [[d:shaman#1439185343772360704]]
+- name: Limited Invulnerability Potion
+  use_when: emergency threat escape [[d:shaman#1489323335161614478]]
+resource_rules:
+- Judgement of Wisdom from a paladin is the main mana plan; cut AoE totem use when mana is short [[d:shaman#1445241671645397115]]
+- Water Shield returns mana only when it procs (hit or Lightning Strike), 2-s ICD [[d:shaman#1492179516481601537]]
+- Tea and mana potion on cooldown on long fights
+consumables:
+- 'Starter: Elixir of the Mongoose, R.O.I.D.S., Juju Power, Dreamshard Elixir, Elixir of Greater Nature Power, Nordanaar Herbal
+  Tea [[d:shaman#1416975393554174043]]'
+- 'Full: Concoctions (Emerald Mongoose, Arcane Giant, Dreamwater), Greater Nature Power, Greater Firepower, R.O.I.D.S., Flask
+  of the Titans/Supreme Power, Zanza, Mageblood, Superior Defense, Power Mushroom, Rumsey Rum/Medivh''s Merlot, Juju Flurry,
+  tea, Major Mana Potion, Sapper, Quickness [[d:shaman#1416980701667922021]]'
+- Juju Power over Elixir of the Giants / Arcane Giant (no stack) [[d:shaman#1447632275750781099]]
+mistakes_to_avoid:
+- Rockbiter as a DPS imbue (blocks Windfury, adds threat) [[d:shaman#1493233571391864983]]
+- Fast weapons; slower is always better [[d:shaman#1469420065966264392]]
+- Agility over Strength [[d:shaman#1461356189739778211]]
+- Building around the T2 5-piece (eats Stormstrike charges) [[d:shaman#1482368324456284210]]
+- Old Lightning Strike macros casting rank 1 after 1.18.1 [[d:shaman#1484940392347734207]]
+- Expecting own Windfury Totem to buff you with an imbue on [[d:shaman#1476947395794436319]]
+- Frostbrand on bosses [[d:shaman#1481227004442443927]]
+- Spellhance in MC/BWL [[d:shaman#1482286791753994342]]
+discord:
+  channel: shaman
+  scope: 'Enhancement additions from the archived #shaman Discord (2021-02-15 -> 2026-05). Every claim carries a [[d:shaman#<id>]]
+    citation, an era (pre-1.18.1 | 1.18.1-announced-pre-release | post-1.18.1) and agreement (consensus | single source |
+    contested).'
+  builds:
+  - name: Post-1.18.1 standard PvE DPS build -- 17/34/0 (Not Normal)
+    split:
+      Elemental: 17
+      Enhancement: 34
+      Restoration: 0
+    code: DoAYLAAC-FAFYYIFATIAoB-
+    source: '[[d:shaman#1493306457784062084]]'
+    also_cited:
+    - '[[d:shaman#1488303963198455820]]'
+    - '[[d:shaman#1493306544392241343]]'
+    - '[[d:shaman#1493306593318535169]]'
+    era: post-1.18.1
+    agreement: consensus
+    note: The channel's answer to 'what build for Enh PvE' post-1.18.1; the last 2 points are optional (Improved Fire Totems
+      preferred by Not Normal). Full decode in kb/structured/talents/builds-shaman.yaml.
+    allocation:
+    - tree: Elemental
+      talent: Convection
+      rank: 3
+      spell_id: 16110
+    - tree: Elemental
+      talent: Concussion
+      rank: 5
+      spell_id: 16108
+    - tree: Elemental
+      talent: Elemental Devastation
+      rank: 3
+      spell_id: 29180
+    - tree: Elemental
+      talent: Elemental Focus
+      rank: 1
+      spell_id: 45541
+    - tree: Elemental
+      talent: Reverberation
+      rank: 3
+      spell_id: 16114
+    - tree: Elemental
+      talent: Call of Flame
+      rank: 2
+      spell_id: 16160
+    - tree: Enhancement
+      talent: Ancestral Knowledge
+      rank: 5
+      spell_id: 17489
+    - tree: Enhancement
+      talent: Thundering Strikes
+      rank: 5
+      spell_id: 16305
+    - tree: Enhancement
+      talent: Stable Shields
+      rank: 3
+      spell_id: 16291
+    - tree: Enhancement
+      talent: Calming Winds
+      rank: 3
+      spell_id: 51385
+    - tree: Enhancement
+      talent: Lightning Strike
+      rank: 1
+      spell_id: 51387
+    - tree: Enhancement
+      talent: Flurry
+      rank: 5
+      spell_id: 16284
+    - tree: Enhancement
+      talent: Enhancing Totems
+      rank: 2
+      spell_id: 16295
+    - tree: Enhancement
+      talent: Elemental Weapons
+      rank: 3
+      spell_id: 29080
+    - tree: Enhancement
+      talent: Stormstrike
+      rank: 1
+      spell_id: 17364
+    - tree: Enhancement
+      talent: Element's Grace
+      rank: 5
+      spell_id: 29088
+    - tree: Enhancement
+      talent: Bloodlust
+      rank: 1
+      spell_id: 45509
+  - name: Enhancement split spectrum (channel scan, 1.18.1-valid)
+    variants:
+    - split: 22/29/0
+      code: AoDYLAQDAC-FAVYALBQDIAY-
+      occurrences: 6
+      note: spellhance / higher-Elemental shape; Ordinary Joe's max-threat variant is DoAYLAQDAC-FAVYALAQDIAg-
+      source: '[[d:shaman#1487038299544748173]]'
+      also_cited:
+      - '[[d:shaman#1485848758791966846]]'
+    - split: 23/28/0
+      code: AoDYLAQDBC-FAVYALAQDIAY-
+      occurrences: 3
+      note: post-1.18.1 Ele/Enh mitigation-tank hybrid
+      source: '[[d:shaman#1485648863430836266]]'
+      also_cited:
+      - '[[d:shaman#1489511855788392469]]'
+    - split: 15/36/0
+      code: FADYL-FAVYALFQDIAoB-
+      occurrences: 15
+      note: tankier melee+mitigation variant (Ancestral Guardian 3, Spirit Armor 2, Totemic Alignment 2)
+      source: '[[d:shaman#1408569517189103616]]'
+    - split: 21/30/0
+      code: FoAYLAADAB-FAFYYIFAQIAo-
+      occurrences: 2
+      note: transitional Ele Fury 1/Ele Weapons 3 shape
+      era: mixed
+    era: mixed
+    agreement: consensus
+  - name: Atreidon's pre-1.18.1 raid build (link only)
+    code: FQAYNAAAAAAAAAFAFaAIFADIAoAAAAAAAAAAAAAAAAA=
+    source: '[[d:shaman#1493306457784062084]]'
+    era: post-1.18.1
+    agreement: single source
+    note: The forum KB's named-core list; superseded by the decoded 17/34/0 for post-1.18.1 play.
+  spellhance_variant:
+    definition: Flametongue imbue, 22/29/0 Elemental Fury split, hybrid spellpower gear and a fire-totem emphasis (Fire Nova/Searing
+      weave single-target).
+    power_delta: pre-1.18.1 10-15% behind physhance single-target (but better AoE); post-1.18.1 after the fixes ~5-8% behind.
+    scaling: spellhance scales shocks/Lightning Shield/fire totems; physhance scales Stormstrike/Lightning Strike/autos/Windfury;
+      physical crit ~= spell crit for spellhance via Elemental Devastation uptime.
+    sources:
+    - '[[d:shaman#1486379110036013087]]'
+    - '[[d:shaman#1485046277111812196]]'
+    - '[[d:shaman#1485047380679069746]]'
+    - '[[d:shaman#1427353354346172588]]'
+    - '[[d:shaman#1485584249364152431]]'
+    - '[[d:shaman#1424256298899345479]]'
+    era: mixed
+    agreement: single source (Not Normal)
+  fire_elemental_era:
+    summary: The 2025-10 pre-release fire-elemental (Molten Blast spam, double-dipping Elemental Weapons Flametongue) was
+      'nuts single target dps, braindead easy'; 1.18.1's melee-hit requirement for the +30% Fire killed it.
+    sources:
+    - '[[d:shaman#1423506245045850194]]'
+    - '[[d:shaman#1424157142599991517]]'
+    - '[[d:shaman#1422913275967967286]]'
+    - '[[d:shaman#1484621315741712596]]'
+    - '[[d:shaman#1484823161403867196]]'
+    era: mixed
+    agreement: consensus (superseded)
+  rotation_single:
+  - action: Flame Shock to open (skip on fire-immune or sub-9-s targets), Stormstrike on cooldown (+25% next 2 Nature), Earth
+      Shock while the Stormstrike buff is up, Lightning Strike on cooldown with Lightning Shield, keep the shield refreshed
+      and swap to Water Shield when mana-limited.
+    condition: post-1.18.1 consensus
+    sources:
+    - '[[d:shaman#1486024479951032474]]'
+    - '[[d:shaman#1486721868789584004]]'
+    - '[[d:shaman#1457756350342758472]]'
+    - '[[d:shaman#1485707818081194104]]'
+    - '[[d:shaman#1486136709375725759]]'
+    era: mixed
+    agreement: consensus
+  - action: Some shamans now skip Flame Shock entirely on short-lived targets; the channel notes it as an observation, not
+      advice.
+    condition: trash / very short fights
+    sources:
+    - '[[d:shaman#1494026002748145664]]'
+    era: post-1.18.1
+    agreement: single source
+  - action: Stormstrike can no longer roll Windfury twice (1.18.1); do not hold strikes waiting for a Windfury window.
+    condition: always
+    sources:
+    - '[[d:shaman#1486024479951032474]]'
+    era: post-1.18.1
+    agreement: consensus
+  rotation_aoe:
+  - action: Keep the single-target loop on the kill target; Chain Lightning is an option even as melee.
+    targets_min: 2
+    sources:
+    - '[[d:shaman#1486024479951032474]]'
+    era: post-1.18.1
+    agreement: consensus
+  - action: Fire Nova Totem then Magma Totem (+ Chain Lightning); Fire Nova is preferred for up-front damage, and Elemental
+      Weapons' Flametongue +30% Fire now requires a melee hit first.
+    targets_min: 4
+    sources:
+    - '[[d:shaman#1486561660150747156]]'
+    - '[[d:shaman#1494697839996047441]]'
+    - '[[d:shaman#1484492563611123743]]'
+    era: post-1.18.1
+    agreement: consensus
+  stat_weights:
+    weapon_skill: glancing cap 315; ~313 from Ancient Jade Leggings is 'fine' post-1.18.1, and further hit/WS overcaps are
+      worth only ~0.4x.
+    physical_hit: 8% including 3% talents (+0.2% per weapon skill above 300).
+    crit: ~30-35% then stack AP/haste; physical crit ~= spell crit value for spellhance via Elemental Devastation uptime.
+    haste: after crit; budget example 2% haste ~= 1.5% crit.
+    spell_hit_shocks: comes from Elemental Devastation procs; take only as much pure physical gear as the physical hit cap
+      needs.
+    sources:
+    - '[[d:shaman#1443272112771960965]]'
+    - '[[d:shaman#1462146703665660158]]'
+    - '[[d:shaman#1491836949063929958]]'
+    - '[[d:shaman#1467795868198375495]]'
+    - '[[d:shaman#1483167267842818272]]'
+    - '[[d:shaman#1424256298899345479]]'
+    - '[[d:shaman#1484577067184947200]]'
+    - '[[d:shaman#1489336780141625554]]'
+    - '[[d:shaman#1491554624778272868]]'
+    era: mixed
+    agreement: consensus on caps; single source on equivalences
+    note: No channel consensus on a crit/haste:AP ratio; a question was asked and unanswered [[d:shaman#1484665748612976680]].
+      Keep the forum KB's Skegg equivalence table as single-source.
+  caps:
+    physical_hit: 8% (incl. 3% talents + 0.2%/weapon skill above 300)
+    weapon_skill: 315 glancing cap; 313 practically fine via Ancient Jade Leggings
+    spell_hit_shocks: benefits from the Elemental Devastation buff
+    sources:
+    - '[[d:shaman#1443272112771960965]]'
+    - '[[d:shaman#1491836949063929958]]'
+    - '[[d:shaman#1467795868198375495]]'
+  totems:
+  - Windfury / Flametongue Totems buff the party only, never the shaman [[d:shaman#1494624498870386748]].
+  - Elemental Weapons' Flametongue +30% Fire requires a melee hit first (1.18.1) [[d:shaman#1484492563611123743]].
+  - Searing Totem updates in place, no re-drop needed [[d:shaman#1494090499475247184]].
+  consumables:
+  - Concoction of the Arcane Giant and Juju Power no longer stack post-1.18.1 -- the forum KB's list implies they do [[d:shaman#1485348172426510379]],
+    [[d:shaman#1480931235931881594]].
+  boss_notes:
+  - boss: Sapphiron (Enh/tank fire-totem twisting)
+    note: a post-1.18.1 report of unexpectedly low DPS despite near-perfect fire-totem twisting and 100% uptime; unexplained,
+      possibly the FT-totem/bulwark bugs
+    agreement: single source
+    sources:
+    - '[[d:shaman#1491147488865030254]]'
+  - boss: fire-immune bosses (MC/Ony/BWL)
+    note: fire-totem / Flame Shock value is lost
+    sources:
+    - '[[d:shaman#1406978821315498004]]'
+  gear:
+  - Greybull's pinned Leveling & Pre-BiS guide [[d:shaman#1411592058119913492]]; Squid's Enh consumables + pre-raid draft
+    [[d:shaman#1416980701667922021]], [[d:shaman#1418103287202451560]].
+  - Ancient Jade Leggings hybrid weapon-skill [[d:shaman#1491836338562007223]].
+  bugs:
+  - id: BUG-FLURRY
+    entity:
+    - Flurry
+    - Elemental Weapons
+    - Windfury Weapon
+    summary: Flurry shipped triggering only from direct spell crits and Stormstrike/Lightning Strike, not melee swings or
+      imbues, and was overwritten by Elemental Weapons' Windfury haste. Hotfixed in stages 2026-03-21/24/31.
+    sources:
+    - '[[d:shaman#1484583137232290024]]'
+    - '[[d:shaman#1484583463859392573]]'
+    - '[[d:shaman#1484584257501270037]]'
+    - '[[d:shaman#1485245225055162368]]'
+    era: post-1.18.1
+    agreement: consensus
+  - id: BUG-BULWARK
+    entity:
+    - Earthen Bulwark
+    - Rockbiter Weapon
+    - Stormstrike
+    - Lightning Strike
+    summary: Earthen Bulwark built only from white auto attacks, not from Stormstrike/Lightning Strike, through the 2026-03-25
+      hotfix and still reported on 2026-04-07.
+    sources:
+    - '[[d:shaman#1484954736342995116]]'
+    - '[[d:shaman#1485640385857454291]]'
+    - '[[d:shaman#1485245225055162368]]'
+    era: post-1.18.1
+    agreement: consensus
+  mistakes_to_avoid:
+  - Skipping Flame Shock entirely [[d:shaman#1494026002748145664]]
+  - Holding Stormstrike / Lightning Strike for a Windfury window [[d:shaman#1486024479951032474]]
+  - Expecting Windfury / Flametongue Totem to buff yourself [[d:shaman#1494624498870386748]]
+  - Stacking Concoction of the Arcane Giant + Juju Power (no longer stack) [[d:shaman#1485348172426510379]]
+  - Relying on Flurry before the hotfixes [[d:shaman#1484583137232290024]]
+  sources:
+  - id: '[[d:shaman#1493306457784062084]]'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: 17/34/0 standard build
+  - id: '[[d:shaman#1486024479951032474]]'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: post-1.18.1 rotation
+  - id: '[[d:shaman#1486379110036013087]]'
+    era: post-1.18.1
+    agreement: single source
+    used_for: spellhance delta
+  - id: '[[d:shaman#1491836949063929958]]'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: 313 weapon skill fine
+  - id: '[[d:shaman#1484583137232290024]]'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: Flurry bug/hotfix
+  - id: '[[d:shaman#1485348172426510379]]'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: consumable non-stacking
 stat_priority:
 - weapon-skill
 - hit
@@ -358,88 +929,3 @@ stat_priority_note: Consensus order. Weapon skill has a hard cap of 315 on Turtl
   scales with talents and buffs) beats Agility (~1.13 AP, plus 1% crit and 1% dodge per 20). Stamina outranks Intellect, Spirit
   and mp5 — "Pretend mp5 doesnt exist" [Atreidon p=147011] — except for levelers, where Lightning Strike's mana cost still
   bites.
-caps:
-  physical_hit: 8% (vanilla-baseline figure reused from the tank guide, not DPS-specific)
-  spell_hit: 17% (boss level 63)
-rotation_single:
-- priority: 1
-  action: 'Pre-pull: Windfury Weapon on the 2H, Lightning Shield (9 charges with Stable Shields), totems down (Strength of
-    Earth, Windfury, Flametongue, Mana Spring)'
-  condition: before pull; do not pre-Bloodlust (30-s self buff)
-- priority: 2
-  action: Flame Shock
-  condition: running in, if the target will live > 9-15 s (always at least 3 ticks at max level); otherwise Earth Shock if
-    target is Nature-immune
-- priority: 3
-  action: Stormstrike
-  condition: on cooldown (8 s); grants a 2-charge +25% Nature buff consumed by Earth Shock and Lightning Shield charges
-- priority: 4
-  action: Lightning Strike
-  condition: on cooldown (9 s) with Lightning Shield up
-- priority: 5
-  action: Earth Shock
-  condition: shock on cooldown (6 s, 5 s with Reverberation 3/3) while the Stormstrike buff is up; re-apply Flame Shock instead
-    when it has < 3 s left or has dropped
-- priority: 6
-  action: Never hold Stormstrike/Lightning Strike waiting for a Windfury window
-  condition: always -- delaying costs ~0.2 auto-attacks worth of damage per Atreidon's math
-- priority: 7
-  action: Re-cast Lightning Shield when charges run out; swap to Water Shield when mana is the constraint for the rest of
-    the fight
-  condition: resource management
-rotation_aoe:
-- targets_min: 2
-  priority: 1
-  action: Keep the single-target loop on the kill target; no spread rotation given for DPS
-  condition: 2-3 targets
-- targets_min: 2
-  priority: 2
-  action: Chain Lightning
-  condition: worth considering even as melee, but costs a 2.5-s cast and 490 mana
-- targets_min: 4
-  priority: 1
-  action: Run in, drop Fire Nova Totem (413-459 base, +30% Fire with Elemental Weapons Flametongue after a melee hit)
-  condition: on pack arrival
-- targets_min: 4
-  priority: 2
-  action: Follow with Magma Totem (650 mana) and Chain Lightning
-  condition: sustained AoE
-- targets_min: 4
-  priority: 3
-  action: Totemic Recall after the pack
-  condition: 25% refund per totem, +15% with Totemic Mastery
-aoe_threshold: 4
-cooldowns:
-- name: Bloodlust
-  use_when: 300-s CD; use at the start of a boss fight once Flame Shock/Stormstrike are up, and again on cooldown; +20% self
-    haste 30 s, melee crits give party +8% for 6 s
-- name: Feral Spirit (Orc racial)
-  use_when: 5-min CD; wolves scale with the shaman's damage, no longer with AP since CC2
-- name: Blood Fury (Orc racial)
-  use_when: AP/SP cooldown, -25% healing taken 25 s
-resource_rules:
-- Chug mana pots/tea on cooldown to sustain Lightning Shield longer; swap to Water Shield when low on mana
-- Mana consumption drops in raids, especially with ferals around, Blessing of Kings, Mark of the Wild
-- Water Shield + Lightning Strike is net mana-positive above 936 AP (18:1 ratio, written for tanks but applies to DPS with
-  Water Shield)
-- Drink between pulls in dungeons when below the mana for one full pack; in raids use Nordanaar Herbal Tea and Major Mana
-  Potions on cooldown
-consumables:
-- Elixir of the Mongoose, R.O.I.D.S., Juju Power, Dreamshard Elixir, Greater Arcane Elixir, Nordanaar Herbal Tea (starter)
-- Concoction of the Emerald Mongoose, Concoction of the Arcane Giant, Concoction of the Dreamwater, Elixir of Greater Nature
-  Power, Elixir of Greater Firepower, Flask of the Titans/Supreme Power, Spirit/Swiftness of Zanza, Mageblood, Elixir of Superior
-  Defense, Danonzo's Tel'Abim Medley, Rumsey Rum Black Label / Medivh's Merlot, Juju Flurry, Major Mana Potion, Goblin Sapper
-  Charge, Potion of Quickness (full raid list)
-- Elixir of Brute Force, Power Mushroom, Juju Ember (Enhancement-specific additions)
-mistakes_to_avoid:
-- Using Rockbiter or Earth Shock spam as DPS without Blessing of Salvation (threat)
-- Holding Stormstrike/Lightning Strike for a Windfury window
-- Flame Shock on targets that die in under 9 seconds
-- Wearing 8/8 T3 for set bonuses while overcapping hit
-- Expecting Windfury Totem to buff yourself while an imbue is active (it does not); dropping it for the party anyway
-- Frostbrand on bosses (immune to Frost Shock's slow, so no guaranteed crits)
-- Popping Bloodlust before Flame Shock/Stormstrike are set up or before you have crit to feed its party effect
-- Chasing mp5/Int/Spirit gear instead of AP/hit/crit
-- Dropping every totem every pull while soloing
-- Assuming Flurry works from white-hit crits post-1.18.1, or that it is not overwritten by Elemental Weapons' Windfury haste
-  (both reported bugged as of 2026-04-07)

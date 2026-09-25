@@ -67,6 +67,62 @@ Full T2.5 (Stormcaller) with stamina jewelry (Aluevera); T3 for "9k armor and a 
 6. Using Hex as a CC opener (5-min CD, 4 s, pushback still applies — Grinched).
 7. Trying to burst from zero as pure Ele without Elemental Mastery/Fury planning (Bjorn88: "Electrify effectively means you start every combat at 50-66% of your power level" — obsolete but the burst-window logic remains).
 
+## Discord additions (pre- and post-1.18.1)
+
+The archived `#shaman` Discord (cross-read with `#pvp-general`) adds the concrete tactical layer the forum file lacked: per-matchup totems, the late-2025 meta builds, a Restoration PvP spec where the forum had a gap, and the player read on 1.18.1 dampening. Era tags: `pre-1.18.1` < 2025-10-03, `1.18.1-announced-pre-release` 2025-10-03..2026-03-19, `post-1.18.1` >= 2026-03-20.
+
+### Builds
+
+| Build | Split | Code | Era | Agreement | Note |
+|---|---|---|---|---|---|
+| Tanky shocker (late-2025 ele go-to) | 22/29/0 | `AoDYLAQDAC-FAVYALBQDIAY-` | pre-1.18.1 | single source | "tanky ele focusing on fat shock crits"; post-1.18.1 23/28/0 variant `AoDYLAQDBC-FAVYALAQDIAY-` [[d:shaman#1446984872693469244]], [[d:shaman#1427686974835134484]], [[d:shaman#1485648863430836266]] |
+| Restoration PvP | 13/17/21 | `FACYDA-FIAaALAQ-FQDoaAAAAIA` | 1.18.1-announced-pre-release | single source | the forum file's Resto PvP gap; shock-support hybrid using shocks on cooldown as the interrupt (13/17/31 pre-release) [[d:shaman#1476645726711713803]], [[d:shaman#1476111806589173791]], [[d:shaman#1473208657322836059]] |
+| Spellhance (ele-geared 1H + shield) | 30/21/0 | — | pre-1.18.1 | single source | melee for Stormstrike +20% Earth Shock and Lightning Strike/Shield while abusing armour talents + Rockbiter DR [[d:shaman#1419270788871098410]], [[d:shaman#1419209613064011859]] |
+| HealHance max-survivability | — | — | 1.18.1-announced-pre-release | single source | LS -> instant Earth Shock, 25% armour on crits, 10% Rockbiter DR, 2/2 Grounding CD; "Shield Block is garbage for pvp" [[d:shaman#1474076606757601582]], [[d:shaman#1474078978146041889]] |
+| Fire Elemental PvP | — | — | 1.18.1-announced-pre-release | single source | Flame Shock -> Molten Blast with Elemental Weapons + Elemental Fury fire stacking; superseded by 1.18.1 [[d:shaman#1457716316776431698]] |
+
+Pre-CC2 the classic meta was 30/0/21 or 31/0/20; post-CC2, 30/21/0 or 30/0/21 [[d:shaman#919625047449141310]], [[d:shaman#906377943226388480]], [[d:shaman#1421170543113011200]]. The forum's single concrete 31/17/0 still "roughly fits" but the community converged elsewhere.
+
+### Per-matchup totem map (the most concrete tactical addition)
+
+| Opponent | Totems | Source |
+|---|---|---|
+| Warlock / priest | Grounding + Tremor | [[d:shaman#1135388704274403358]] |
+| Mage | Grounding + Frost Resistance | [[d:shaman#1135388704274403358]] |
+| Rogue | Magma/Searing + Poison Cleansing | [[d:shaman#1135388704274403358]] |
+
+Only Grounding/Tremor/Poison Cleansing are reactive; Earthbind is the main offensive snare; the rest are situational [[d:shaman#1135425193754513459]].
+
+### Matchups (cross-read `#pvp-general`)
+
+- **Warrior** favoured (Frost Shock + Earthbind + Earth Shock every 5-6 s); **Protection warrior** is the one warrior spec claimed to counter shaman [[d:pvp-general#1067844135320559616]], [[d:pvp-general#1418626701457625119]].
+- **Rogue** contested: shaman tools bully rogues, but an equally geared rogue bursts a 6k-armour/4k-HP shaman in a cheap shot + kidney if the trinket is down [[d:shaman#1401123087209992254]], [[d:pvp-general#1419603728960458762]].
+- **Mage** losing/hard: Counterspell locks the shaman out of damage *and* healing since everything is Nature [[d:pvp-general#1081905593008259082]], [[d:shaman#1403451583622021192]].
+- **Warlock** losing: Curse of Tongues hard-counters the kit; warlock and rogue are the two most cited counters [[d:pvp-general#1292034196495138889]], [[d:pvp-general#1138134954014933022]].
+- **Hunter** contested; **priest** favoured (Purge, then burst); **druid** strong; **paladin** hard-countered by design at consensus but contested at the top end [[d:pvp-general#1082820346035576913]], [[d:pvp-general#1366083256025485352]], [[d:shaman#1341319733600976896]], [[d:pvp-general#1112115354303475752]], [[d:pvp-general#1371851334738907257]].
+
+### Racials, engineering and gear
+
+- **Tauren** War Stomp is the best PvP utility and combos with an Iron Grenade for a 4-s stun [[d:shaman#1188211554357887036]]; **Orc** Hardiness is the anti-paladin/anti-engineering pick [[d:shaman#1246590462454796299]]; **Troll** Berserking + Hex (castable moving and while Nature-locked) is called the best shaman PvP racial by some — race ranking stays **contested** [[d:shaman#1404506212363665439]].
+- **Engineering is the only profession giving player power**; grenades fix the no-hard-CC problem (Gnomish/HFQ net), alongside Insignia, Rocket Helm, Magic Dust, Shard of Nightmare, Hyjal Pipe, Tidal Charm, Nifty Stopwatch; FAPs/LIPs decide fights [[d:shaman#1277660705008386109]], [[d:shaman#1280180094823825481]], [[d:shaman#1406779021345423465]].
+- **Spell penetration** is high value vs nature-resist gear (~20 resistance -> +5.2% damage, ~75 SP equivalent) [[d:shaman#1282723201184432140]]. **8/8 T3's shock buff** is what made ele infamous pre-1.18.1 [[d:shaman#1359859058848432269]].
+
+### Post-1.18.1 state
+
+- **Resilience is observed to blunt burst**: "in full PvP gear you basically just take normal hits"; NS 75% x dampening 0.8 = **60%** damage [[d:shaman#1491924441113038908]], [[d:shaman#1491921578483646464]], [[d:shaman#1467127442731958463]].
+- **Rockbiter -> Earthen Bulwark** was explicitly intended to stop non-Enhancement specs using passive PvP DR; players report it did not stop resto tankiness [[d:shaman#1485997307144048690]], [[d:shaman#1487726640682369034]].
+- **Still contested and unresolved**: Ele standing ("top 2 pvp spec" vs "losing ~80% of 1v1s" vs "really meh, no pushback resistance") [[d:shaman#1373661275296632934]], [[d:shaman#1054026335502221322]], [[d:shaman#1454796130146586747]]; Resto PvP mostly negative with one positive 2023 claim plus the 13/17/21 spec [[d:shaman#920766236185493524]], [[d:shaman#1405903764476657758]], [[d:shaman#1155156739201699981]]; the Enh attrition minority is stronger here than the forum file's flat "weak" [[d:shaman#1204951203620986921]], [[d:pvp-general#1353324094954934314]]. No post-2026-03-20 re-tested build, rotation or stat priority exists, and shaman dampening/resilience numbers were never published [[d:shaman#1474075242195583087]], [[d:shaman#1477242197513601168]].
+
+| Discord source | Era | Agreement | Used for |
+|---|---|---|---|
+| [[d:shaman#1446984872693469244]] | pre-1.18.1 | single source | tanky shocker spec |
+| [[d:shaman#1476645726711713803]] | 1.18.1-announced-pre-release | single source | Resto PvP 13/17/21 |
+| [[d:shaman#1135388704274403358]] | pre-1.18.1 | single source | per-matchup totem map |
+| [[d:pvp-general#1081905593008259082]] | pre-1.18.1 | consensus | single-school weakness |
+| [[d:pvp-general#1292034196495138889]] | pre-1.18.1 | consensus | warlock counter |
+| [[d:pvp-general#1353324094954934314]] | pre-1.18.1 | single source | mtnd tier list |
+| [[d:shaman#1491924441113038908]] | post-1.18.1 | consensus | resilience blunts burst |
+
 ## Sources
 
 | Source | Authority | Date | Era | Used for | Agreement |

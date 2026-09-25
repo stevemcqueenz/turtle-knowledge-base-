@@ -5,12 +5,15 @@ import { readableColor } from '../../lib/theme';
 import { useThemeValue } from '../../lib/theme-context';
 import { Badge } from '../Badge';
 import { firstSentence, sourceSummaryLine, summarizeSources } from './util';
+import { CitedText } from '../CitedText';
 
 function FactTile({ label, value }: { label: string; value: string }) {
   return (
     <div className="min-w-0 rounded-xl bg-surface hairline p-3">
       <div className="text-[11px] font-semibold uppercase tracking-[0.08em] text-muted">{label}</div>
-      <div className="mt-1 line-clamp-5 text-[13px] font-medium leading-snug">{value}</div>
+      <div className="mt-1 line-clamp-5 text-[13px] font-medium leading-snug">
+        <CitedText text={value} />
+      </div>
     </div>
   );
 }

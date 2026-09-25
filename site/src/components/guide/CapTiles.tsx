@@ -1,4 +1,6 @@
 import { capLabel, describeValue } from './util';
+import { CitedText } from '../CitedText';
+import { withoutCitations } from '../../lib/citations';
 
 const LONG_VALUE = 24;
 
@@ -20,7 +22,7 @@ export function CapTiles({ caps, color }: { caps: Record<string, unknown>; color
         const text = describeValue(value);
         const isNumber = typeof value === 'number';
         const headline = empty ? 'not published' : isNumber && percent ? `${value}%` : text;
-        const long = !empty && headline.length > LONG_VALUE;
+        const long = !empty && withoutCitations(headline).length > LONG_VALUE;
         return (
           <div
             key={key}
@@ -41,14 +43,14 @@ export function CapTiles({ caps, color }: { caps: Record<string, unknown>; color
               }
               style={long || empty ? undefined : { color }}
             >
-              {headline}
+              <CitedText text={headline} />
             </div>
           </div>
         );
       })}
       {footnotes.map((f, i) => (
         <p key={i} className="text-xs text-muted">
-          {f}
+          <CitedText text={f} />
         </p>
       ))}
     </div>

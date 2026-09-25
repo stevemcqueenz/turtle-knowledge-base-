@@ -105,6 +105,38 @@ Which strike when: for Ret, "Crusader Strike is your go-to choice for damage ...
 - Judging right before a white swing so the seal is not back up for the hit — [Unangwata (player), 2020-10-30](https://forum.turtlecraft.gg/viewtopic.php?p=8305#p8305) (pre-CC2 but the seal/judgement mechanic is unchanged).
 - Expecting Fiery Weapon or +damage items to proc Seal of Command — [Atreidon (player), 2026-01-06](https://forum.turtlecraft.gg/viewtopic.php?p=164504#p164504).
 
+## Discord additions (post-1.18.1, `#paladin`)
+
+The forum threads stop at the unanswered "So how does the SoC work out?"; Discord answers it and supplies the decoded builds. The two persistent builds are **AP/SoC** (strength/crit/agility) and **spell/hybrid SoR**; 1.18.1 narrowed the gap and the new libram flipped some SoR users to SoC.
+
+### Standing
+
+- **SoC/AP Ret is back**: 1.18.1 buffed the AP side (Seal of Command 7 -> 9 PPM, Crusader Strike rank 5 90% -> 100% WD, Repentance +8% AP tick, Ret T3.5 Crusade 4%/20 s) [[d:paladin#1485468559441137884]]. "Spellret definitely is still very good, but there's a variety of specs that look playable now" [[d:paladin#1486237473179697205]].
+- Both are "largely viable in raid ... difference ... like 100 dps more or less"; top spell-ret still edges top AP-ret [[d:paladin#1488506685990506506]] [[d:paladin#1487604808247545886]].
+- **The new Libram of Ardour (+1 PPM SoC)** makes SoC chain ("SoC is now a choochoo train" [[d:paladin#1484704085096534187]]). **Dummy test (Aljeron): full pre-K40 spell-ret BIS (CAB, WoC, SoAA), SoC + Libram of Ardour beat SoR + Libram of the Eternal Tower by ~30-40 DPS** (self-buffed only, JoW + Imp JotC) [[d:paladin#1486723603952046090]] [[d:paladin#1486545504736379091]]. **This closes the forum's missing post-release number.**
+- Post-1.18.1 reported scale: ~1.8k single-target typical, best Patchwerk ret log ~2.3k [[d:paladin#1487136530983293162]] [[d:paladin#1487136588252184679]]. K40 (cleave-heavy) remains the weak spot.
+
+### Rotation and gearing deltas
+
+- **Opener** (repeated): Repentance -> Judgement of the Crusader -> re-seal SoR -> Holy Strike -> Consecration; do not judge Seal of the Crusader on trash that dies in 2 GCDs [[d:paladin#1484613138564387026]] [[d:paladin#1484607328765476966]] [[d:paladin#1484613629444624405]].
+- **Seal of Righteousness is the primary damage priority for the spell build**, then CS/HS [[d:paladin#1485694221653512292]]; **post-1.18.1 Holy Strike can out-damage CS for spell ret on raid bosses**, so some hybrids "maintain zeal stacks and spam Holy Strike" [[d:paladin#1486002061677039879]] [[d:paladin#1485776026297696420]] (contested against the forum's "spell ret in K40 wouldn't touch HS"). The CS-vs-HS opener is genuinely contested [[d:paladin#1490749513504133121]] [[d:paladin#1486741660082638858]].
+- **Seals**: judge Seal of the Crusader for the ~130 SP bonus; Seal of Righteousness with SP gear, Seal of Command with strength gear [[d:paladin#1486727985540104303]].
+- **Stat order (AP/SoC)**: 8% hit > crit = AP > haste [[d:paladin#1487251547690631323]]; AP ret still uses a lot of SP and should be fully SP-consumed [[d:paladin#1488100986261078067]] [[d:paladin#1485005502738858075]]. Targets: ~33% crit unbuffed, ~11-12% gear haste [[d:paladin#1491996354736685057]].
+- **Weapon skill**: 310 plenty for SoR/hybrid, 315 good for SoC but not needed, >315 wasted [[d:paladin#1488219693293633586]] [[d:paladin#1488232104671051877]].
+- **T2 3-set spellstrike counts as a separate spell instance** and gives SoR 4 attempts per auto [[d:paladin#1485049652511244298]] [[d:paladin#1484697044043042919]]. **Neretzek (21856)** is competitive for SoR [[d:paladin#1486203744113786910]].
+- **Physical/on-hit procs and spellstrikes do not proc Seal of Command** [[d:paladin#1484756149596061707]] [[d:paladin#1485773011477856266]].
+- Consumables (Jesse Potter's full list): Flask of Supreme Power; Concoction of the Emerald Mongoose / Arcane Giant / Dreamwater; R.O.I.D.S./Scorpok if <33% crit; 20 Str / haste / SP food or 32 AP; Dragonbreath Chili; Elemental/Consecrated Sharpening Stone; Elixir of Fortitude, Medivh's Merlot, Zanza [[d:paladin#1488924216333041848]] [[d:paladin#1494325796440113223]].
+
+### Decoded builds (fill the forum's "links only" gap)
+
+- **11/8/32 spellret** (30 posts, 2025-05-20 -> 2026-04-10): Holy Divine Strength 5, Improved Seal of Righteousness 5, Sanctity Aura 1; Prot Improved Devotion Aura 5, Precision 3; Ret Benediction 5, Improved Judgement 2, Improved Seal of the Crusader 3, Conviction 5, Blessing of Kings 1, Pursuit of Justice 2, Two-Handed Weapon Specialization 3, Vengeance 5, Vengeful Strikes 5, Repentance 1 [[d:paladin#1407454061623513088]] [[d:paladin#1374441440603799662]]. Talents in the structured file carry `spell_id`s.
+- **11/8/32 AP/SoC variant**: the same tree with **Seal of Command 1 instead of Improved Seal of Righteousness** (Pursuit of Justice 1) [[d:paladin#1419020172257263646]].
+- **Correction**: the forum's Ret link labelled 11/8/30 (+2) actually decodes to **5/8/36** on the old tree with Eye for an Eye 3>2, confirming the forum note that it "shows old talents" [[d:paladin#1407454061623513088]].
+
+### Next patch: announced 2026-04-01, NOT shipped
+
+Developer **Lhian** announced [[d:paladin#1488852869212798987]]: **spellstrikes no longer proc anything** (kills the T2 3-set / Necrodin proc engine); **Crusader Strike loses its cooldown and its damage is drastically reduced, now stacking a holy-damage debuff**; **Holy Strike becomes a next-attack ability like Heroic Strike** and its healing is removed; casting Holy Strike in Consecration cleaves an additional enemy. Announced, not shipped in the archived window.
+
 ## Sources
 
 | Thread | Authors (authority) | Date | Era | Used for | Agreement |
@@ -123,5 +155,6 @@ Which strike when: for Ret, "Crusader Strike is your go-to choice for damage ...
 | [Paladin Guide 1.17.2 p27457](https://forum.turtlecraft.gg/viewtopic.php?p=27457#p27457) | Unchallenged (player, guide writer) | edited 2024-12-04 | pre-1.18.1 | builds, enchants, rank-1 SoC | single |
 | PvP threads [t7641](https://forum.turtlecraft.gg/viewtopic.php?t=7641), [t22625](https://forum.turtlecraft.gg/viewtopic.php?t=22625), [t23094](https://forum.turtlecraft.gg/viewtopic.php?t=23094) | Tibrintz, Damso, excin, Crake, Maxe71, Kerenis (players) | 2023-06 → 2025-12 | pre-1.18.1 / announced | PvP standing | contested |
 | Staff posts [p102969](https://forum.turtlecraft.gg/viewtopic.php?p=102969#p102969), [p108776](https://forum.turtlecraft.gg/viewtopic.php?p=108776#p108776), [p113460](https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460), [p124504](https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504), [p141159](https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159), [p166071](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071), [p171608](https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608) | Dragunovi, Jamey, Torta (staff) | 2024-10 → 2026-03 | all | mechanics | staff |
+| Discord `#paladin` post-1.18.1 (see "Discord additions") | Grey, Aljeron, Mithreon, Istenneveben, Jesse Potter, Lhian (dev, staff) and others | 2026-03-20 → 2026-04-16 | post-1.18.1 | SoC-vs-SoR numbers, decoded builds, caps, next-patch announcement | consensus on caps/rotation shape; contested on HS-vs-CS and AP-vs-SP; staff on the rework |
 
-Flags: all rotation/gear advice predates 1.18.1 except the March-2026 gearing thread. 1.18.1 raised the AP build (SoC 9 PPM, CS rank 5 100% WD, Repentance AP tick, Ret T3.5 Crusade 4%/20 s) and Consecration's early ticks; nobody has posted post-release numbers (the only post-release post asks "So how does the SoC work out?" — [Scootiesana (player), 2026-03-24](https://forum.turtlecraft.gg/viewtopic.php?p=172108#p172108), unanswered).
+Flags: all rotation/gear advice predates 1.18.1 except the March-2026 gearing thread. 1.18.1 raised the AP build (SoC 9 PPM, CS rank 5 100% WD, Repentance AP tick, Ret T3.5 Crusade 4%/20 s) and Consecration's early ticks; the forum's post-release question ("So how does the SoC work out?" — [Scootiesana (player), 2026-03-24](https://forum.turtlecraft.gg/viewtopic.php?p=172108#p172108)) is answered by the Discord section above (SoC + Libram of Ardour ~30-40 DPS ahead of SoR in spell-ret gear). The 2026-04-01 announced rework (not shipped) will supersede the spellstrike/CS model when it lands.

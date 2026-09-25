@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import glob
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -36,6 +37,167 @@ def load_json(name: str):
     except Exception as e:
         failures.append(f"{name} failed to parse: {e}")
         return None
+
+
+SECTION_KEYS = ["overview", "talents", "stats", "rotationSingle", "rotationAoe", "cooldowns",
+                "roleStrategy", "gear", "enchants", "consumables", "mistakes", "sources"]
+CHIP = re.compile(r'<a class="cite cite-discord" href="(https://github\.com/[^"]+/structured/discord/'
+                  r'evidence-[a-z0-9_-]+\.jsonl#L\d+)" title="[^"<>|]*">[^<|]*</a>')
+UNKNOWN_CHIP = re.compile(r'<span class="cite cite-discord cite-unknown" title="[^"<>|]*">[^<|]*</span>')
+
+
+def all_markdown(entry: dict):
+    """(where, markdown) for every Markdown string of a class entry."""
+    yield "summary", entry.get("summary") or ""
+    yield "overview", entry.get("overview") or ""
+    for s in entry.get("readme") or []:
+        yield f"readme/{s['id']}", s["markdown"]
+    for doc in [entry.get("sources")] + list(entry.get("guidePages") or []):
+        if doc:
+            yield f"{doc['slug']}/intro", doc["intro"]
+            for s in doc["sections"]:
+                yield f"{doc['slug']}/{s['id']}", s["markdown"]
+    for s in (entry.get("leveling") or {}).get("sections") or []:
+        yield f"leveling/{s['id']}", s["markdown"]
+    for pb in entry.get("playbooks") or []:
+        yield f"{pb['id']}/intro", pb["intro"]
+        for key, s in pb["sections"].items():
+            if s:
+                yield f"{pb['id']}/{key}", s["markdown"]
+        for s in pb["extraSections"]:
+            yield f"{pb['id']}/{s['id']}", s["markdown"]
+
+
+def check_guides(classes: list, meta: dict) -> None:
+    guide_classes = [c["slug"] for c in classes if c.get("guidePath")]
+    check(meta.get("guideClasses") == guide_classes,
+          f"meta.guideClasses {meta.get('guideClasses')} != classes with guidePath {guide_classes}")
+    for c in classes:
+        for pb in c["playbooks"]:
+            missing = [k for k in SECTION_KEYS if k not in pb["sections"]]
+            check(not missing, f"{c['slug']}/{pb['id']}: sections lacks keys {missing}")
+            check("guidePath" in pb and "sourceFile" in pb,
+                  f"{c['slug']}/{pb['id']}: guidePath/sourceFile missing")
+            if pb.get("guidePath"):
+                check(c.get("guidePath") is not None,
+                      f"{c['slug']}/{pb['id']}: guide playbook in a class without a guide index")
+                check(pb["guidePath"].startswith(f"guide/classes/{c['slug']}/"),
+                      f"{c['slug']}/{pb['id']}: guidePath {pb['guidePath']} outside the class guide")
+                want = (pb.get("yaml") or {}).get("guide")
+                check(want == pb["guidePath"],
+                      f"{c['slug']}/{pb['id']}: guidePath {pb['guidePath']} != yaml guide {want}")
+        if not c.get("guidePath"):
+            check(c.get("sources") is None and not c.get("guidePages"),
+                  f"{c['slug']}: a synthesis-built class carries guide sources/pages")
+            continue
+        check(c.get("leveling") is not None and c["leveling"]["sourceFile"].startswith("guide/"),
+              f"{c['slug']}: guide class leveling is not read from its guide leveling.md")
+        check(c.get("sources") is not None and len(c["sources"]["sections"]) > 0,
+              f"{c['slug']}: guide class has no sources page")
+        check(c.get("overview"), f"{c['slug']}: guide class has no overview")
+
+        for where, md in all_markdown(c):
+            label = f"{c['slug']}/{where}"
+            check("[[d:" not in md, f"{label}: unrendered [[d:...]] citation")
+            # every emitted chip has the exact shape the sanitizer and CSS expect
+            leftovers = re.sub(CHIP, "", re.sub(UNKNOWN_CHIP, "", md))
+            check("cite-discord" not in leftovers, f"{label}: malformed Discord citation chip")
+            # talents.turtlecraft.gg is offline: its URLs may appear only as code
+            # (GFM would autolink a bare URL; the host named in prose, or quoted
+            # in a chip's hover title, is not a link)
+            no_code = re.sub(r"`[^`]*`", "", leftovers)
+            check(not re.search(r"(?:https?://|www\.)talents\.turtlecraft\.gg", no_code),
+                  f"{label}: a talents.turtlecraft.gg URL outside a code span")
+            check(not re.search(r"href=\"https?://talents\.turtlecraft\.gg", md)
+                  and not re.search(r"\]\(https?://talents\.turtlecraft\.gg", md),
+                  f"{label}: a link to the offline talents.turtlecraft.gg")
+            # relative links to guide .md files must have become routes or URLs
+            bad = re.findall(r"\]\((?!https?:|#/|mailto:)[^)]*\.md(?:#[^)]*)?\)", md)
+            check(not bad, f"{label}: unrewritten relative links {bad[:3]}")
+
+
+INSTANCE_ROUTE = re.compile(r"\]\(#/instances/([^)\s#]+)\)|href=\"#/instances/([^\"#]+)\"")
+CLASS_ROUTE = re.compile(r"\]\(#/class/([a-z]+)[^)]*\)")
+
+
+def check_markdown_common(label: str, md: str) -> None:
+    """No raw citations, well-formed chips, no dangling relative .md links."""
+    check("[[d:" not in md, f"{label}: unrendered [[d:...]] citation")
+    leftovers = re.sub(CHIP, "", re.sub(UNKNOWN_CHIP, "", md))
+    check("cite-discord" not in leftovers, f"{label}: malformed Discord citation chip")
+    bad = re.findall(r"\]\((?!https?:|#/|mailto:)[^)]*\.md(?:#[^)]*)?\)", md)
+    check(not bad, f"{label}: unrewritten relative links {bad[:3]}")
+
+
+def check_instances(classes: list, meta: dict) -> None:
+    """guide/instances/** -> instances.json (dungeon and raid pages)."""
+    idir = REPO_ROOT / "guide" / "instances"
+    path = DATA_DIR / "instances.json"
+    if not (idir / "index.md").is_file():
+        check(not path.exists(), "instances.json exists but guide/instances/index.md does not")
+        return
+    data = load_json("instances.json")
+    if data is None:
+        return
+    on_disk = sorted(p.stem for p in idir.glob("*.md") if p.name != "index.md")
+    pages = data.get("pages") or []
+    slugs = [p["slug"] for p in pages]
+    check(sorted(slugs) == on_disk,
+          f"instances.json pages {len(slugs)} != guide/instances pages on disk {len(on_disk)}")
+    check(len(set(slugs)) == len(slugs), "instances.json has duplicate page slugs")
+    by_slug = {p["slug"]: p for p in pages}
+    kinds = {k: sum(1 for p in pages if p["kind"] == k) for k in ("dungeon", "raid")}
+    check(meta.get("instanceCounts") == {"pages": len(pages), "dungeons": kinds["dungeon"],
+                                         "raids": kinds["raid"]},
+          f"meta.instanceCounts {meta.get('instanceCounts')} does not match instances.json")
+
+    # Index: two groups (Dungeons, Raids); every link resolves; every page listed.
+    groups = data.get("groups") or []
+    check([g["kind"] for g in groups] == ["dungeon", "raid"],
+          f"index groups {[g['heading'] for g in groups]} are not Dungeons, Raids")
+    listed = [s for g in groups for s in g["slugs"]]
+    check(sorted(set(listed)) == on_disk,
+          f"index lists {len(set(listed))} of {len(on_disk)} pages; unlisted "
+          f"{sorted(set(on_disk) - set(listed))}")
+    raw_index = (idir / "index.md").read_text(encoding="utf-8")
+    raw_links = set(re.findall(r"\]\(([a-z0-9-]+)\.md\)", raw_index))
+    missing = sorted(raw_links - set(on_disk))
+    check(not missing, f"index.md links to missing instance pages {missing}")
+    for g in groups:
+        routed = {a or b for a, b in INSTANCE_ROUTE.findall(g["markdown"])}
+        check(set(g["slugs"]) <= routed, f"index/{g['id']}: slugs without a #/instances route link")
+        for slug in g["slugs"]:
+            page = by_slug.get(slug)
+            check(page is not None and page["kind"] == g["kind"],
+                  f"index/{g['id']}: {slug} is not a {g['kind']} page")
+
+    class_slugs = {c["slug"] for c in classes}
+    docs = [("index/intro", data.get("intro") or "")] + [(f"index/{g['id']}", g["markdown"]) for g in groups]
+    for p in pages:
+        check(p["title"].strip() != "", f"instances/{p['slug']}: empty title")
+        check(p["sourceFile"] == f"guide/instances/{p['slug']}.md",
+              f"instances/{p['slug']}: sourceFile {p['sourceFile']}")
+        check(len(p["sections"]) > 0, f"instances/{p['slug']}: no sections")
+        ids = [s["id"] for s in p["sections"]]
+        check(len(set(ids)) == len(ids), f"instances/{p['slug']}: duplicate section ids")
+        docs.append((f"instances/{p['slug']}/intro", p["intro"]))
+        docs.extend((f"instances/{p['slug']}/{s['id']}", s["markdown"]) for s in p["sections"])
+    for label, md in docs:
+        check_markdown_common(label, md)
+        for a, b in INSTANCE_ROUTE.findall(md):
+            check((a or b) in by_slug, f"{label}: link to unknown instance page {a or b}")
+        for cls in CLASS_ROUTE.findall(md):
+            check(cls in class_slugs, f"{label}: link to unknown class {cls}")
+        check("/guide/instances/" not in md, f"{label}: instance link left as a repository URL")
+
+    # Class guide pages link to instances as site routes, never GitHub or text.
+    classes_text = (DATA_DIR / "classes.json").read_text(encoding="utf-8")
+    check("/guide/instances/" not in classes_text, "classes.json links to guide/instances/ on GitHub")
+    for a, b in INSTANCE_ROUTE.findall(classes_text.replace('\\"', '"')):
+        check((a or b) in by_slug, f"classes.json: link to unknown instance page {a or b}")
+    dangling = [u for u in meta.get("unwrappedLinks") or []
+                if u.startswith("guide/instances/") or "instances/" in u.split(" -> ", 1)[-1]]
+    check(not dangling, f"instance links kept as text (target missing): {dangling[:5]}")
 
 
 def main() -> int:
@@ -66,15 +228,16 @@ def main() -> int:
     ) + glob.glob(
         str(REPO_ROOT / "synthesis" / "classes" / "*" / "*-pvp.md")
     )
+    # 47 when the site was first built; the Discord enrichment added two
+    # Paladin PvP playbooks. The playbook list is the files on disk.
     expected_playbook_count = len(expected_playbook_files)
-    check(expected_playbook_count == 47,
-          f"expected 47 files matching synthesis/classes/*/*-{{tank,healer,melee-dps,"
+    check(expected_playbook_count >= 47,
+          f"expected at least 47 files matching synthesis/classes/*/*-{{tank,healer,melee-dps,"
           f"ranged-dps,pvp}}.md on disk, found {expected_playbook_count}")
 
     total_playbooks = sum(len(c["playbooks"]) for c in classes)
     check(total_playbooks == expected_playbook_count,
           f"expected {expected_playbook_count} playbooks in classes.json, got {total_playbooks}")
-    check(total_playbooks == 47, f"expected 47 playbooks, got {total_playbooks}")
 
     leveling_count = sum(1 for c in classes if c.get("leveling") is not None)
     check(leveling_count == 9, f"expected 9 leveling guides, got {leveling_count}")
@@ -102,12 +265,21 @@ def main() -> int:
             pid = f"{c['slug']}/{pb['id']}"
             if pb["sections"].get("overview") is None:
                 missing_overview.append(pid)
-            if pb["sections"].get("sources") is None:
+            # A guide page has no per-spec "Sources" heading: its citations are
+            # inline and the class-wide sources page (ClassEntry.sources) lists
+            # what informed it.
+            if pb["sections"].get("sources") is None and not pb.get("guidePath"):
                 missing_sources.append(pid)
     check(not missing_overview,
           f"{len(missing_overview)} playbooks missing sections.overview: {missing_overview}")
     check(not missing_sources,
           f"{len(missing_sources)} playbooks missing sections.sources: {missing_sources}")
+
+    # ---- Guide pages (guide/classes/**) ---------------------------------
+    check_guides(classes, meta)
+
+    # ---- Dungeon and raid pages (guide/instances/**) ---------------------
+    check_instances(classes, meta)
 
     # ---- Every playbook with a YAML file has yaml non-null ----------------
     missing_yaml = []
@@ -183,6 +355,8 @@ def main() -> int:
     print(f"  classes={len(classes)} playbooks={total_playbooks} "
           f"leveling={leveling_count} matrixRows={len(matrix['rows'])} "
           f"glossaryTerms={len(glossary)}")
+    ic = meta.get("instanceCounts") or {}
+    print(f"  instances={ic.get('pages', 0)} (dungeons={ic.get('dungeons', 0)} raids={ic.get('raids', 0)})")
     print(f"  standing lookups: {total_playbooks - len(misses)}/{total_playbooks} matched "
           f"({hit_rate:.1%})")
     return 0

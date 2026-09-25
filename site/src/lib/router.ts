@@ -6,6 +6,10 @@ export type Route =
   | { name: 'playbook'; slug: string; id: string }
   | { name: 'leveling'; slug: string }
   | { name: 'gear'; slug: string; spec?: string; bracket?: string }
+  | { name: 'sources'; slug: string }
+  | { name: 'guide-page'; slug: string; page: string }
+  | { name: 'instances' }
+  | { name: 'instance'; slug: string }
   | { name: 'matrix' }
   | { name: 'about' }
   | { name: 'not-found'; path: string };
@@ -17,9 +21,12 @@ export function parseHash(hash: string): Route {
   if (parts.length === 0) return { name: 'home' };
   if (parts[0] === 'matrix' && parts.length === 1) return { name: 'matrix' };
   if (parts[0] === 'about' && parts.length === 1) return { name: 'about' };
+  if (parts[0] === 'instances' && parts.length === 1) return { name: 'instances' };
+  if (parts[0] === 'instances' && parts.length === 2) return { name: 'instance', slug: parts[1] };
   if (parts[0] === 'class' && parts.length === 2) return { name: 'class', slug: parts[1] };
   if (parts[0] === 'class' && parts.length === 3) {
     if (parts[2] === 'leveling') return { name: 'leveling', slug: parts[1] };
+    if (parts[2] === 'sources') return { name: 'sources', slug: parts[1] };
     if (parts[2] === 'gear') {
       const params = new URLSearchParams(hash.split('?')[1] ?? '');
       return {
@@ -31,6 +38,8 @@ export function parseHash(hash: string): Route {
     }
     return { name: 'playbook', slug: parts[1], id: parts[2] };
   }
+  if (parts[0] === 'class' && parts.length === 4 && parts[2] === 'guide')
+    return { name: 'guide-page', slug: parts[1], page: parts[3] };
   return { name: 'not-found', path: pathPart };
 }
 
@@ -56,6 +65,10 @@ export const href = {
     const qs = params.toString();
     return `#/class/${slug}/gear${qs ? `?${qs}` : ''}`;
   },
+  sources: (slug: string) => `#/class/${slug}/sources`,
+  guidePage: (slug: string, page: string) => `#/class/${slug}/guide/${page}`,
+  instances: () => '#/instances',
+  instance: (slug: string) => `#/instances/${slug}`,
   matrix: () => '#/matrix',
   about: () => '#/about',
 };

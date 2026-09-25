@@ -110,6 +110,78 @@ Chain Heal is the multi-target tool (3 targets, +1 with 1.18.0 T2.5-style bonuse
 9. Max-rank Earth Shock to interrupt as a healer ("you are basically taunting a mob onto you" — Gdawg45).
 10. Searing Totem near CC (Akos1896).
 
+## Discord additions: ranks, stats, totems and encounters
+
+The archived `#shaman` Discord closes the forum file's "no source enumerates the exact 43 points" and "no haste target" gaps. Era tags: `cc2` (1.17.2, 2024-11), `1180` (2025-08-15..2025-10-02), `1.18.1-announced-pre-release` (2025-10-03..2026-03-19), `post-1.18.1` (>= 2026-03-20).
+
+### The 0/8/43, enumerated
+
+Enhancement **Ancestral Knowledge 5 + Stable Shields 3**; Restoration **Improved Healing Wave 5, Tidal Focus 5, Ancestral Healing 3, Tidal Mastery 5, Healing Way 3, Healing Focus 2, Totemic Mastery 1, Restorative Totems 5, Improved Water Shield 3, Tidal Surge 2, Ancestral Swiftness 1, Undertow 2, Improved Chain Heal 5, Spirit Link 1**. The same allocation decodes from a 2024-10 grid code and a 2026-04 dash code, so it was stable for ~18 months; skipped fillers are Improved Reincarnation and Nature's Grace [[d:shaman#1296270828614193172]], [[d:shaman#1492915776087134350]], [[d:shaman#1484894131515035779]]. A **Chain-Heal-free 0/22/29 Healing-Wave build** also existed pre-1.18.1 (r3/r6-10 HW, 7-13 haste, mana engine via Healing Way/Tidal Surge) but only worked with the old T1 8-set [[d:shaman#1445177080668229713]], [[d:shaman#1465798907492827137]].
+
+### Rank-level healing priority (post-1.18.1)
+
+- **Chain Heal rank 1 is the default raid heal** (max rank when heavy raidwide damage lands); the forum file's priority list omitted this [[d:shaman#1380694277461512214]], [[d:shaman#1489450604236509245]], [[d:shaman#1490120632711516312]].
+- **Healing Wave rank 3 is most mana-efficient, rank 4 near-max scaling**; uprank on the tank as damage rises [[d:shaman#1489450669936218213]], [[d:shaman#1487131827796836525]].
+- **Lesser Healing Wave is emergency-only** (giga mana inefficient, never a routine raid heal) [[d:shaman#1489450784704823316]], [[d:shaman#1457846645872918700]].
+- **Rank-1 Healing Wave pre-pull** to set Healing Way and fish the Ancestral Fortitude (+armor) proc [[d:shaman#1410288522526457928]].
+- **R1 -> R2 Chain Heal base-heal gap ~92.5, i.e. ~149 +healing** [[d:shaman#1425200401577152583]].
+
+### Earth Shield correction
+
+Earth Shield is **self-cast only** — players asked twice for a talent to cast it on allies and it was never added [[d:shaman#1296809224386379880]], [[d:shaman#1474496084549177599]]. Its healing use is **30% pushback reduction stacking with Healing Focus's 70% to 100%** [[d:shaman#1416160312729796809]]; it scales with **healing power** and can **crit and proc Ancestral Healing** [[d:shaman#1435024400545091725]], [[d:shaman#1406331865610190978]].
+
+### Stat weights (fills the haste gap)
+
+| Stat | Discord value | Era / agreement |
+|---|---|---|
+| Haste | 1% haste ~= **15 +healing** (Not Normal); ~**20 +healing** at 1200 healing / 20% crit (peter_hammer); **soft cap = the 1.5 s GCD** | 1180-1.18.1-announced-pre-release; single source [[d:shaman#1454137300031246456]], [[d:shaman#1425115694739095632]], [[d:shaman#1477569610671853578]] |
+| Crit | 1% crit ~= **12 +healing**, but only **5-8 +healing** on HW/CH ranks; "does literally nothing useful for resto" (converts to overheal) | 1.18.1-announced-pre-release; single source/consensus [[d:shaman#1454137300031246456]], [[d:shaman#1457846645872918700]], [[d:shaman#1457838505907454105]] |
+| mp5 | largely dead post-1.18.0; cross-faction Blessing of Wisdom + Mana Spring devalue it, "all mp5 is now mp2" | 1.18.1-announced-pre-release; consensus [[d:shaman#1404579043088793791]], [[d:shaman#1378303011834691645]], [[d:shaman#1424163612141948928]] |
+| Water Shield | 9 orbs with Stable Shields; Improved Water Shield = 3% regen/orb + 6% ~= **~33% meditation** | cc2; consensus [[d:shaman#1296623038556541039]], [[d:shaman#1402621429559853098]] |
+
+This **supersedes `camp_b`** (`mp5 until T2/T2.5`): the post-1.18.0 channel consensus is that haste is the throughput stat and mp5 is de-prioritised.
+
+### Totems for healers
+
+- Totems are **off-GCD auras**, four droppable at once, stacking with oils/poisons; **totem twisting is dead** [[d:shaman#1361235720567525467]], [[d:shaman#1482118867835687032]].
+- **Cleansing totems are the best water totems** — instant/off-GCD, cover the whole party instead of Decursive, and **Healing Stream does not trigger Loatheb** [[d:shaman#1377134664648757300]], [[d:shaman#1380690300531380234]], [[d:shaman#1376906060614467704]].
+- **Mana Spring is weaker than Blessing of Wisdom**; **Healing Stream** is the useful dungeon/raidwide option (contested as "still bad") [[d:shaman#1374677881292197938]], [[d:shaman#1374680418707574838]], [[d:shaman#1429871523447050396]].
+- **Totem of Calming River is the Resto BiS totem until Naxx**; Totem of Flowing Water grants party effects on water totems [[d:shaman#1440622702930169946]], [[d:shaman#1416210028657901588]], [[d:shaman#1424838222546210907]].
+
+### The T1 8-set, operational detail
+
+**Pre-1.18.1**: the bounces were full Healing-Wave events, so **Undertow could proc multiple times per cast and Healing Way applied at 100%**, yielding **~36% mana returned per cast**; the set ran through Naxx on ~126-154 total healing power [[d:shaman#1305074980530290710]], [[d:shaman#1311208584058503218]], [[d:shaman#1429875953844355234]], [[d:shaman#1429862467693056151]]. **Post-1.18.1** the 25%/250-absorb replacement is called a dead bonus and a nerf by the same players [[d:shaman#1465314216352288791]], [[d:shaman#1464641964132663409]]. The forum file's "another one button spam" framing understates what the old set actually did.
+
+### Dungeon practice and overheal benchmark
+
+- "Don't spam chain heal in dungeons, you'll go oom for basically no benefit"; get **Ancestral Swiftness + Healing Focus** for dungeon healing [[d:shaman#1470095703727411342]], [[d:shaman#1438519559446466580]].
+- **Normal Resto overheal is ~half of effective healing done**; more than that points to gear, tank-only healing or being slower than peers [[d:shaman#1377402427463958528]].
+
+### Encounter calls (new)
+
+| Encounter | Call | Source |
+|---|---|---|
+| Loatheb | Spirit Link is usable during the silence; rotate it between Resto shamans; Healing Stream does not trigger the debuff | [[d:shaman#1303893673603502080]], [[d:shaman#1376906060614467704]] |
+| Maexxna | Spirit Link the tank before web wrap | [[d:shaman#1379431123049779222]] |
+| Sapphiron | super mana-intensive; Healing Stream matters on raidwide damage | [[d:shaman#1301580915637747787]], [[d:shaman#1410229297482043403]] |
+| Kel'Thuzad | the one fight where Chain Heal's harder melee bounces (Frost Blast) matter | [[d:shaman#1311168018633592913]] |
+| Kara40 | Chain Heal is ~99% of Resto output; healing-power builds beat haste there | [[d:shaman#1399898074272239617]] |
+| Naxx (composition) | typical 7-10 healers, so "too many healers" is a bad reason to stack haste | [[d:shaman#1379388780783341609]] |
+
+### Contradictions carried forward
+
+haste-vs-HP BiS, Spirit Link value, crit-vs-haste ordering, post-1.18.1 Resto strength, Healing Stream value, and the player-only claim that 1.18.0 silently removed Chain Heal's lowest-HP targeting and 30% bounce range — all still **contested**.
+
+| Discord source | Era | Agreement | Used for |
+|---|---|---|---|
+| [[d:shaman#1492915776087134350]] | post-1.18.1 | consensus | 0/8/43 enumerated |
+| [[d:shaman#1487131827796836525]] | post-1.18.1 | consensus | rank guide |
+| [[d:shaman#1489450784704823316]] | post-1.18.1 | consensus | LHW emergency-only |
+| [[d:shaman#1454137300031246456]] | 1.18.1-announced-pre-release | single source | haste/crit +healing equivalences |
+| [[d:shaman#1477569610671853578]] | 1.18.1-announced-pre-release | consensus | haste soft cap 1.5 s GCD |
+| [[d:shaman#1296809224386379880]] | cc2 | consensus | Earth Shield self-only |
+| [[d:shaman#1445177080668229713]] | 1.18.1-announced-pre-release | single source | 0/22/29 Healing-Wave build |
+
 ## Sources
 
 | Source | Authority | Date | Era | Used for | Agreement |

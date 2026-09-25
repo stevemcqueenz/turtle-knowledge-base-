@@ -86,6 +86,51 @@ Sources: wiki SL Demo, Jumadforum's problem list, Sharmaine (funnels), the Dec-2
 - Relying on Soul Entrapment while controlling a greater demon (hotfixed 2026-03-31 to give nothing).
 - Walking greater demons through cities.
 
+## Discord findings (2025–2026)
+
+### Talent build — the 0/34/17 pinned shape (forum gap closed)
+
+The forum file had no point list at all. The channel's pinned Demonology screenshot is **0/34/17**, decoded as `-AoQYBoCDBYFYB-FAVABg` and repeated 15× (2025-08-28 → 2026-04-13) [[d:warlock#1484228436888391690]], [[d:warlock#1493328003537567986]]:
+
+| Tree | Allocation |
+|---|---|
+| Demonology 34 | Demonic Embrace 5, Soul Funnel 2, Fel Intellect 3, Fel Domination 1, Fel Stamina 5, Master Summoner 2, Unholy Power 3, Power Overwhelming 1, Demonic Precision 3, Master Demonologist 5, Unleashed Potential 3, Soul Link 1 |
+| Destruction 17 | Shadow Vulnerability 5, Demonic Swiftness 2, Bane 5, Shadowburn 1, Devastation 4 |
+
+**No Soul Entrapment and no Demonic Sacrifice** — this is a pet-keeping spec, not the sacrifice-hybrid the forum text implies (that correction supersedes the forum wording) [[d:warlock#1484228436888391690]]. Fauxnetic's rationale: “Shadowburn is just too good for only one point to pass up… Improved funnel will keep your demons alive when the healers ignore them. You'll need master summoner otherwise you'll be waiting way too long between greater demons.” [[d:warlock#1493328003537567986]]
+
+### Pet scaling — the table no forum file had
+
+Pets gain spell power from their **Intellect**, and Unleashed Potential adds AP/SP directly. AP→weapon damage: Voidwalker 20% / Succubus 40% / Felhunter 30% / greater demons 60%. Max-rank SP coefficients: Imp Firebolt 40%, VW Torment 60% / Sacrifice 120%, Succubus Lash of Pain 60%, Infernal Immolation 25%/tick, Felguard Legion Strike 60% / Felstorm 25%/tick, Doomguard Infernal Blade 5%/tick [[d:warlock#1488156105111633930]], corroborated at [[d:warlock#1488142100146028665]], [[d:warlock#1491200356942614630]]. Demon buffs scale on the Warlock's **fire and shadow** spell power [[d:warlock#1432489734239944796]].
+
+### Stats and the threat ceiling
+
+- **6% gear hit suffices** because Demonic Precision passes hit/crit to the pet and pet melee uses the 8% special-attack table [[d:warlock#1428816200212680816]] (single source).
+- **~30% crit is the Demonology diminishing point** — a point past it is worth ~0.9 to the demon [[d:warlock#1432797623600812093]] (single source).
+- **Pet threat is the new ceiling**: “we have no way of reducing their threat. No talent, no button to press, nothing… Our options are: withdraw the demon and just stop attacking. Or let it die.” [[d:warlock#1485689509197774958]], [[d:warlock#1485724425365229831]] (post-1.18.1, consensus).
+- **Unleashed Potential** procs on any direct damage since 1.18.1 and gained a tracking buff; funnel ticks refresh it; snapshot SP on the 1st stack and AP on the 3rd, later-refresh unresolved [[d:warlock#1424161054623137964]], [[d:warlock#1424161635798487214]], [[d:warlock#1428336835280502885]].
+
+### Standing and encounters
+
+- **Short-fight king**: Demo is best on short fights (Black Book + greater demons + UP + PO); Affliction is better as fights lengthen, and on Gnarlmoon/Rupturan/Kruul [[d:warlock#1483576857428361257]], [[d:warlock#1435300266822996021]], [[d:warlock#1437657894060425236]] (consensus).
+- **Pet-fragile fights**: Gluth/Thaddius/Sapphiron/KT/Loatheb; the Gluth fear is cleared with Power Overwhelming + follow/attack [[d:warlock#1422952692740915302]]. Greater demons cannot path through Gluth's tunnel, the Thaddius platforms or Thaurissan's room (Sharmaine, forum p=174389, 2026-04-07).
+- **Greater-demon bugs** persist post-release (instant despawn / bad pathing) [[d:warlock#1486367004469235773]]; devs acknowledged pets were undertuned [[d:warlock#1385022534373609513]].
+- **Pet AI bug list** (devs solicited it): Imp walks into melee/LoS, Succubus Lash interrupts Seduce, Felstorm stops when the target dies, pets stay passive after a kill, Take Position walks [[d:warlock#1465198561955418367]], [[d:warlock#1465183597102370959]].
+
+### Supersessions
+
+- **“Demonology is just filler talents” (forum, 2024) is superseded**: by 1.18.1 the 0/34/17 pinned build makes Demonology a primary raid spec, and the live ranking puts demo on top [[d:warlock#1484228436888391690]], [[d:warlock#1484828741267095563]].
+- **Pre-CC3 Master Demonologist Voidwalker +healing-taken advice is obsolete** [[d:warlock#1424309039910883380]].
+- LastyK's 2024 “they don't survive” and Forumdweller's 2025 “trash tree you pick for Soul Link” remain the counter-view; the pet-management load is still the standing weakness.
+
+| Discord claim | Sources | Agreement | Era |
+|---|---|---|---|
+| Pinned 0/34/17 pet-keeping build | Afraido screenshot (1.18.1-announced-pre-release) + 15 matching codes | consensus | 1.18.1-announced-pre-release (screenshot); post-1.18.1 (codes) |
+| Pet AP/SP scaling table | W's sheet + two corroborations | consensus | post-1.18.1 |
+| Pet threat is the ceiling | Szalor, W | consensus | post-1.18.1 |
+| 6% gear hit / ~30% crit point | single answers | single source | 1.18.1-announced-pre-release |
+| Demo best on short fights | Tatica, channel | consensus | post-1.18.1 |
+
 ## Sources
 
 | Recommendation | Sources | Agreement | 1.18.1 note |

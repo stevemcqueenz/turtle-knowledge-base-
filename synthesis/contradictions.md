@@ -1,6 +1,8 @@
 # Contradictions in the Turtle WoW sources
 
 Where the sources of this knowledge base disagree with each other: 104 entries across 12 systems, each with both sides, dates and sources, what would settle it, and — where later evidence exists — which side it supports.
+
+> **Scope note.** This index and the per-system files under `contradictions/` document the pre-Discord 104 entries. The machine-readable [`structured/contradictions.yaml`](../structured/contradictions.yaml) was later enriched with 80 Discord-sourced entries (`CON-0105` … `CON-0184`), now 184 in total, 139 checkable against local game data; only the YAML carries those additions.
 Full entries live in [`contradictions/`](contradictions/), one file per system, indexed below. Machine-readable copy of every entry: [`../structured/contradictions.yaml`](../structured/contradictions.yaml). Conventions: [`CONVENTIONS.md`](CONVENTIONS.md). All dates UTC.
 
 **How to read an entry.** Each names the two (occasionally three) sides with author, authority and date, says what piece of

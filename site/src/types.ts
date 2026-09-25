@@ -64,6 +64,9 @@ export interface PlaybookSections {
   gear: Section | null;
   mistakes: Section | null;
   sources: Section | null;
+  /** Guide pages split enchants and consumables out of the gear section (absent in older data). */
+  enchants?: Section | null;
+  consumables?: Section | null;
 }
 
 export interface YamlSource {
@@ -153,6 +156,19 @@ export interface Playbook {
   extraSections: Section[];
   standing: MatrixRow | null;
   yaml: PlaybookYaml | null;
+  /** Repo path of the Markdown the playbook was built from (absent in older data). */
+  sourceFile?: string;
+  /** `guide/classes/<class>/<page>.md` when built from a guide page, else null. */
+  guidePath?: string | null;
+}
+
+/** A standalone guide page: the class sources page, or a page no playbook claims. */
+export interface GuideDoc {
+  slug: string;
+  title: string;
+  intro: string;
+  sections: Section[];
+  sourceFile: string;
 }
 
 /** One row of a talent-order table in a leveling guide; cells are verbatim Markdown. */
@@ -274,6 +290,23 @@ export interface ClassEntry {
   gear?: GearYaml | null;
   /** Optional: sections of synthesis/classes/<class>/gear*.md. */
   gearMarkdown?: Section[] | null;
+  /** `guide/classes/<class>/index.md` when the class is built from its guide pages. */
+  guidePath?: string | null;
+  /** The guide index's opening (everything before its first H2); null without a guide. */
+  overview?: string | null;
+  /** The guide's sources page (`sources.md`); null without a guide. */
+  sources?: GuideDoc | null;
+  /** Guide pages that no playbook YAML points at (e.g. a niche role page). */
+  guidePages?: GuideDoc[];
+  /** `channel#id` -> chip data for the `[[d:channel#id]]` citations inside this class's YAML. */
+  citations?: Record<string, DiscordCitation>;
+}
+
+/** One Discord message as a citation chip: `url` is null when it is not in the evidence files. */
+export interface DiscordCitation {
+  label: string;
+  title: string;
+  url: string | null;
 }
 
 export interface MatrixData {
@@ -304,6 +337,48 @@ export interface Meta {
   };
   timeline: unknown;
   notes: string;
+  /** Classes built from guide/classes/** (absent in older data). */
+  guideClasses?: string[];
+  discordCitations?: { resolved: number; unresolved: number };
+  /** Dungeon and raid page counts (absent in older data). */
+  instanceCounts?: { pages: number; dungeons: number; raids: number };
+  /** Relative links whose target is not in the repository (kept as text). */
+  unwrappedLinks?: string[];
+}
+
+export type InstanceKind = 'dungeon' | 'raid';
+
+/** One H2 group of `guide/instances/index.md` ("Dungeons", "Raids"). */
+export interface InstanceGroup {
+  id: string;
+  heading: string;
+  kind: InstanceKind | null;
+  /** The group's Markdown (its H3 sub-groups and tables), links already site routes. */
+  markdown: string;
+  /** Instance page slugs the group links to, in index order. */
+  slugs: string[];
+}
+
+/** One dungeon or raid page, `guide/instances/<slug>.md`. */
+export interface InstancePage {
+  slug: string;
+  title: string;
+  /** From the index group that links it; null when the index does not list it. */
+  kind: InstanceKind | null;
+  /** The index H3 it is listed under ("Turtle-custom dungeons" …). */
+  group: string | null;
+  intro: string;
+  sections: Section[];
+  sourceFile: string;
+}
+
+/** `src/data/instances.json`. */
+export interface InstancesData {
+  title: string;
+  intro: string;
+  sourceFile: string;
+  groups: InstanceGroup[];
+  pages: InstancePage[];
 }
 
 export interface SiteData {
@@ -311,6 +386,8 @@ export interface SiteData {
   matrix: MatrixData;
   glossary: GlossaryTerm[];
   meta: Meta;
+  /** Dungeon and raid guide pages; null when `instances.json` is absent (fixtures). */
+  instances: InstancesData | null;
   /** true when the app fell back to src/data/fixtures (development only). */
   isFixture: boolean;
 }

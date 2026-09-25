@@ -120,6 +120,60 @@ Spell ranks: Lightning Bolt R1 for pulls/threat control; downrank Lightning Bolt
 9. Casting from outside 20 yd on movement fights so no shock is available (Atreidon).
 10. Expecting Windfury/Flametongue totems to help you — they buff the party only (Kokuyoo, pagu).
 
+## Discord additions (post-1.18.1)
+
+The archived `#shaman` Discord closes the two forum gaps this file carried: the post-1.18.1 point-by-point build and the cleaned single-target rotation. Every claim below is `[[d:shaman#<id>]]`-cited, era-tagged (`pre-1.18.1` < 2025-10-03, `1.18.1-announced-pre-release` 2025-10-03..2026-03-19, `post-1.18.1` >= 2026-03-20) and agreement-tagged.
+
+### Builds
+
+| Build | Split | Code | Era | Agreement | Note |
+|---|---|---|---|---|---|
+| Post-1.18.1 Elemental raid (Not Normal) | 34/3/14 | `CoAYIqSDBCAoB-D-AoAoAL` | post-1.18.1 | consensus | Convection 5 -> 2, Storm Reach 2 gone, Call of Earth 2 + Ancestral Knowledge 3 added; full decode in `builds-shaman.yaml` [[d:shaman#1488646101081788556]] |
+| Pre-1.18.1 Elemental raid (Rinzu) | 37/0/14 | `FoAYIqQDRCAoB--AoAoAL` | pre-1.18.1 | single source | 31 channel occurrences; retired when 1.18.1 added Call of Earth [[d:shaman#1405793281954283541]] |
+
+974 distinct `#shaman` talent links were scanned; **458 decode to complete 51-point builds (446 distinct)** across Turtle's three disjoint link codecs (base-36 path, whole-grid base64, per-tree base64). Canonical codec: `staging/talents/talent_codec.py`.
+
+### Single-target rotation (post-1.18.1 consensus)
+
+1. **Flame Shock** on the boss, renewed with **Molten Blast** before it expires, **Lightning Bolt** filler with **Chain Lightning** on cooldown (or on Clearcasting at low gear) — "thats currently the ideal rotation, yeah. used to be earthquake was also worth using in single target but its bugged and maybe partly intentionally changed so that at least for now its not worth using single target" [[d:shaman#1485686024334999692]], [[d:shaman#1485686440070479892]] (2026-03-23).
+2. **Molten Blast remains core** in a Nature build [[d:shaman#1484651546926121022]]; the only claimed exception (5/5 T3.5) is called unproven "feelscraft" by the channel's Elemental reference [[d:shaman#1484602583149580349]].
+3. **Earthquake is removed from the single-target rotation** (see the bug below). The 1.18.0-era "EQ on cooldown even single-target" advice is **superseded** [[d:shaman#1423339091201753272]].
+4. AoE: **Chain Lightning** on cooldown + Flame Shock at 2+ targets [[d:shaman#1485240088047652894]]; at 4+ run in for **Fire Nova then Magma** — "fire nova totem is generally considered the more standard option over magma since its more up-front damage" [[d:shaman#1486561660150747156]]. Fire totems/Molten Blast become comfortable from BWL onward, once fire-immune mobs are gone [[d:shaman#1484650140437450814]].
+
+### Stat weights and caps
+
+| Stat | Discord value | Era / agreement |
+|---|---|---|
+| Spell hit | best per point until capped; sheet soft cap ~12-13% (Elemental Devastation's 3% hidden), "~7% with buffs"; overcapping not mandatory | post-1.18.1; consensus [[d:shaman#1487834054907920385]], [[d:shaman#1486434725848416427]], [[d:shaman#1480348860923777256]] |
+| Spell crit | 1 crit ~= 9-12 spellpower; 1% spell hit ~= 1.5% spell crit | post-1.18.1; single source [[d:shaman#1458549320616902818]], [[d:shaman#1480349135218544810]] |
+| Haste | roughly equal to crit until the ~17% single-target softcap | post-1.18.1; consensus [[d:shaman#1458549208826122527]] |
+| Turning point | crit turns up after ~12-13% hit and ~500 spellpower | post-1.18.1; single source [[d:shaman#1480349166218510400]] |
+
+### Totems, consumables and gear
+
+- Fire totems inherit the shaman's **spell hit/crit** and scale with **spell power**; Searing Totem needs you within ~30 yd of the boss (also Flame Shock range), and Molten Blast re-targets it [[d:shaman#1485260337539317860]], [[d:shaman#1437407581181186079]].
+- **Searing Totem beats Flametongue Totem between ~300 and 350 total spellpower**, and its threat is real [[d:shaman#1462633460689539290]], [[d:shaman#1420041846075297901]]; **Improved Stoneskin can beat Elemental Weapons on big AoE pulls** [[d:shaman#1484956039773294762]].
+- Windfury / Flametongue Totems **buff the party only** [[d:shaman#1494624498870386748]].
+- **Concoction of the Arcane Giant and Juju Power no longer stack** post-1.18.1 — do not build a list that assumes they do [[d:shaman#1485348172426510379]], [[d:shaman#1480931235931881594]].
+- Community gear resources: **Dwi's** Elemental pre-raid/BiS-by-phase sheet (same one the forum KB cites) [[d:shaman#1415847279855665204]], **Ash's** all-class gear/haste sheet [[d:shaman#1395076937558392832]], post-1.18.1 craftable hit/crit gloves and trinket swaps [[d:shaman#1484947857185181877]], and **Ancient Jade Leggings** as a cheaper weapon-skill source [[d:shaman#1491836338562007223]].
+
+### Known bugs (post-1.18.1)
+
+**Flametongue Totem spellpower-scaling bug (party buff).** The 1.18.1 changelog announced only that Flametongue/Frostbrand **Weapon** SP scaling now varies with the weapon's base attack speed [[d:shaman#1484375513194561568]]. Release-day testers found no FT/FB coefficient change [[d:shaman#1484631308582912020]], [[d:shaman#1484612212902330378]]; on 2026-04-08 the **weapon** was measured as shadow-fixed (1.8-speed weapon ~+155 dmg at 464 SP; 3.5-speed ~+203) [[d:shaman#1491207938642280571]], and the same day the **totem** was named as bugged — "flametongue totem is bugged and doing way more damage" [[d:shaman#1491212453290315776]], still bugged the next day [[d:shaman#1491834900951732395]], absent from the weekly changelog on 2026-04-15 [[d:shaman#1493732358913003640]], and clarified as the **totem, not the weapon** [[d:shaman#1493741881442570381]]. Impact: the totem is a party aura, so the shaman gains nothing from it directly (imbue priority) but the raid group's DPS is inflated and fire/spellhance builds are stronger than intended [[d:shaman#1491486359125496139]]. Still drop it for the party. This supersedes the forum KB's single Atreidon "undocumented re-add of SP scaling" claim.
+
+**Earthquake hits twice and ignores Elemental Fury (post-1.18.1).** Earthquake hits only twice instead of three times and its AoE/Aftershock portion crits at **1.5x** with no Elemental Fury [[d:shaman#1484634982600409128]], [[d:shaman#1484585846073200661]], [[d:shaman#1485247956998422560]]; it is "less DPS than a Lightning Bolt" single-target [[d:shaman#1485912170666397768]], [[d:shaman#1485285996022202509]], and "all top elemental shamans were celebrating that earthquake was an addition to the rotation and it got trashed" [[d:shaman#1485321778967613593]]. A dev said it was "getting looked at" [[d:shaman#1485637469356429372]]; players were still asking "is earthquake fixed yet?" on 2026-03-27 [[d:shaman#1487167028820447493]]. **Verdict: keep Earthquake for hard/unreachable packs only; never single-target.** This confirms and details the KB's existing (staff-unconfirmed) note and the forum's ISS-0039.
+
+| Discord source | Era | Agreement | Used for |
+|---|---|---|---|
+| [[d:shaman#1488646101081788556]] | post-1.18.1 | consensus | 34/3/14 build |
+| [[d:shaman#1405793281954283541]] | pre-1.18.1 | single source | 37/0/14 build |
+| [[d:shaman#1485686024334999692]], [[d:shaman#1485686440070479892]] | post-1.18.1 | consensus | post-1.18.1 rotation; EQ out of ST |
+| [[d:shaman#1484585846073200661]] | post-1.18.1 | consensus | EQ 1.5x crit, no Elemental Fury |
+| [[d:shaman#1458549320616902818]] | post-1.18.1 | single source | crit/hit stat equivalences |
+| [[d:shaman#1487834054907920385]] | post-1.18.1 | consensus | soft hit cap |
+| [[d:shaman#1491212453290315776]], [[d:shaman#1491207938642280571]], [[d:shaman#1493741881442570381]] | post-1.18.1 | consensus | Flametongue Totem SP-scaling bug |
+| [[d:shaman#1485348172426510379]] | post-1.18.1 | consensus | consumable non-stacking |
+
 ## Sources
 
 | Source | Authority | Date | Era | Used for | Agreement |

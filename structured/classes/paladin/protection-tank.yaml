@@ -1,6 +1,7 @@
 class: Paladin
 spec: Protection
 role: tank
+guide: guide/classes/paladin/protection.md
 sources:
 - url: https://forum.turtlecraft.gg/viewtopic.php?p=52649#p52649
   author: Getplucked
@@ -82,89 +83,316 @@ sources:
   author: Torta
   authority: staff
   date: '2026-03-21'
+- cite: '[[d:paladin#1491936698689388746]]'
+  author: Mithreon
+  authority: player (channel expert)
+  date: '2026-04-10'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:paladin#1479624488675971323]]'
+  author: Grey
+  authority: player (MT, theorycrafter)
+  date: '2026-03-07'
+  era: 1.18.1-announced-pre-release
+  agreement: consensus
+- cite: '[[d:paladin#1485399760964817139]]'
+  author: Grey
+  authority: player (MT, theorycrafter)
+  date: '2026-03-23'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:paladin#1485399707063685261]]'
+  author: Proph
+  authority: player (threat-sim author)
+  date: '2026-03-23'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:paladin#1484192158121594982]]'
+  author: Grey
+  authority: player (MT, theorycrafter)
+  date: '2026-03-19'
+  era: 1.18.1-announced-pre-release
+  agreement: single source
+- cite: '[[d:paladin#1492549184010715346]]'
+  author: Istenneveben
+  authority: player
+  date: '2026-04-11'
+  era: post-1.18.1
+  agreement: consensus
 agreement: consensus
 patch_validity:
-  written_for: 1.17.2 / 1.18.0 (Class Changes 2 talent trees)
-  valid_for_1181: unknown
-  notes: 1.18.1 changed Righteous Strikes (Zeal block chance -> Zealous Defence), Holy Strike (weapon damage component, 71%
-    SP), Holy Shield threat 30% -> 50%, Consecration front-loaded, Prot T2.5/T3.5 set bonuses. Rotation shape unchanged; no
-    post-1.18.1 forum re-evaluation.
+  written_for: 1.18.1 (live 2026-03-20), post-release state through 2026-04-21
+  valid_for_1181: true
+  notes: '1.18.1: Holy Strike = 40% normalized weapon damage + 129-146 Holy, SP 43% -> 71%, all Holy school; Righteous Strikes
+    +25% HS dmg/threat and CS -> Zealous Defence (next blocked hit -6..30%); Holy Shield threat 30% -> 50%; Consecration front-loaded
+    per mob entry; T2.5 3p -> +15% JoR; T3.5 3p = +40% Holy Shield threat, 5p = DR while Holy Shield up (3% live). Launch
+    bugs fixed: Improved RF snapshot (toggle RF after respec), inverted block value on autos. The 2026-04-01 ''next patch''
+    post (HS next-swing, CS no CD, TF threat nerf) was an APRIL FOOLS joke.'
+discord:
+  channel: paladin
+  scope: 'post-1.18.1 Protection: build, rotation, caps, gear, raid notes'
+  sources:
+  - id: '1485399760964817139'
+    era: post-1.18.1
+    agreement: consensus
+    claim: Patchwerk TPS breakdown ~2085 (HS 599 = 28.7%, SoR 367, JoR 354, auto 212, Holy Shield 200, Cons 194)
+  - id: '1485400460897685634'
+    era: post-1.18.1
+    agreement: consensus
+    claim: Holy Strike ~60% of the opener threat
+  - id: '1479624488675971323'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: 'Rotation: precast Holy Shield; HS on CD never delayed; JoR ~2 s after HS during another GCD; reseal SoR; Consecration
+      r5 until threat, then r1'
+  - id: '1485641256586444910'
+    era: post-1.18.1
+    agreement: consensus
+    claim: HS on CD, JoR on CD, Consecration on more than 2 mobs, Holy Shield when mana permits
+  - id: '1487459563707044021'
+    era: post-1.18.1
+    agreement: consensus
+    claim: 'Crusader Strike: HS does ~10x the threat; never use CS for threat'
+  - id: '1484833025177944206'
+    era: post-1.18.1
+    agreement: single source
+    claim: 'Zealous Defence tank-swap pattern: Holy Shield, taunt, CS, hit, Bulwark, CS'
+  - id: '1484776924046692372'
+    era: post-1.18.1
+    agreement: consensus
+    claim: Consecration front-load starts when the mob enters it, not on cast
+  - id: '1485368911712092332'
+    era: post-1.18.1
+    agreement: consensus
+    claim: ~600 threat first Consecration tick, ~475 second
+  - id: '1465243231678763155'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: 'Improved RF: +75% of the 60% base = +105% Holy threat'
+  - id: '1485055210605772800'
+    era: post-1.18.1
+    agreement: consensus
+    claim: RF snapshots talents when cast; toggle after respec
+  - id: '1485647701126152293'
+    era: post-1.18.1
+    agreement: staff
+    claim: 'Lhian: inverted block-value bug fixed'
+  - id: '1491228429847363704'
+    era: post-1.18.1
+    agreement: consensus
+    claim: Avoidance cap 102.4% with Holy Shield up
+  - id: '1465416367967572164'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: 'Twins melee: Unbalancing Strike -100 Defense -> 118.4% needed'
+  - id: '1465172802326761748'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    claim: 'Kara40: Knight and Rupturan require crush immunity; Rook and Mephistroth strongly encourage it'
+  - id: '1471632460998770943'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: 'Hit: 8% at 300 skill, 7% at 305/308; Precision 3% -> 4% from gear'
+  - id: '1486300603683700891'
+    era: post-1.18.1
+    agreement: consensus
+    claim: Most bosses global a tank between 7000 and 8000 HP
+  - id: '1484146949824450641'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: Threat set 3 T2.5 + 3 T3.5; mitigation 5 T3.5 + 4 T3
+  - id: '1485399707063685261'
+    era: post-1.18.1
+    agreement: consensus
+    claim: Thunderfury ~0.5% behind Desecration for ST threat
+  - id: '1489188911124320256'
+    era: post-1.18.1
+    agreement: single source
+    claim: 2H tanking BiS on Incantagos/Medivh; elemental fights
+  - id: '1488852869212798987'
+    era: post-1.18.1
+    agreement: joke (April Fools)
+    claim: 2026-04-01 'next patch' post was an April Fools joke - NOT a change [[d:paladin#1488794904246091876]]
 talents:
-  build_name: Unchallenged 11/40/0 Threat Build (link only; Protection points inferred from his leveling orders)
-  build_link: https://talents.turtlecraft.gg/paladin?points=AoAoBAAAAAAAAAAoYFZbCAZoAoBAAAAAAAAAAAAAAAA%3D
+  build_name: Main tank 11/33/7 ('general raid prot', Mithreon, post-1.18.1)
+  build_link: https://xian55.github.io/tortoise-db-viewer/?talents=paladin&t=0500501-0530331302031351-052
+  build_link_note: Validated with pipeline2/talent_tool.py (VALID). tree_b64 AoAoB-AoYDZYCAZYAoB-AoQ. Posted 1485253367369564231,
+    1491887571226071141, 1491936698689388746.
   points:
+  - tree: Holy
+    talent: Divine Intellect
+    rank: 5
+    spell_id: 20261
+  - tree: Holy
+    talent: Improved Seal of Righteousness
+    rank: 5
+    spell_id: 20332
+  - tree: Holy
+    talent: Sanctity Aura
+    rank: 1
+    spell_id: 20218
   - tree: Protection
     talent: Redoubt
     rank: 5
     spell_id: 45822
-    talent_id: 462
   - tree: Protection
     talent: Precision
     rank: 3
     spell_id: 20193
-    talent_id: 463
   - tree: Protection
     talent: Toughness
-    rank: 5
-    spell_id: 20147
-    talent_id: 465
-  - tree: Protection
-    talent: Blessing of Sanctuary
-    rank: 1
-    spell_id: 20911
-    talent_id: 467
-  - tree: Protection
-    talent: Shield Specialization
     rank: 3
-    spell_id: 20150
-    talent_id: 468
+    spell_id: 20145
   - tree: Protection
     talent: Improved Righteous Fury
     rank: 3
     spell_id: 20470
-    talent_id: 466
   - tree: Protection
-    talent: Holy Shield
+    talent: Blessing of Sanctuary
     rank: 1
-    spell_id: 20925
-    talent_id: 473
+    spell_id: 20911
   - tree: Protection
-    talent: Reckoning
-    rank: 5
-    spell_id: 45837
-    talent_id: 474
-  - tree: Protection
-    talent: Righteous Strikes
-    rank: 5
-    spell_id: 51345
-    talent_id: 475
-  - tree: Protection
-    talent: Bulwark of the Righteous
-    rank: 1
-    spell_id: 51346
-    talent_id: 476
+    talent: Shield Specialization
+    rank: 3
+    spell_id: 20150
   - tree: Protection
     talent: Improved Hand of Reckoning
     rank: 2
     spell_id: 51335
-    talent_id: 470
   - tree: Protection
     talent: Righteous Defense
     rank: 3
     spell_id: 51330
-    talent_id: 472
-  - tree: Holy
-    talent: unspecified (11 points; guide link not decodable from text)
-    rank: 11
-    spell_id: null
+  - tree: Protection
+    talent: Holy Shield
+    rank: 1
+    spell_id: 20925
+  - tree: Protection
+    talent: Reckoning
+    rank: 3
+    spell_id: 45825
+  - tree: Protection
+    talent: Righteous Strikes
+    rank: 5
+    spell_id: 51345
+  - tree: Protection
+    talent: Bulwark of the Righteous
+    rank: 1
+    spell_id: 51346
+  - tree: Retribution
+    talent: Benediction
+    rank: 5
+    spell_id: 20105
+  - tree: Retribution
+    talent: Improved Judgement
+    rank: 2
+    spell_id: 25957
+  alternative_points:
+    build_name: Vengeprot off-tank 0/26/25 (angels1m 'maximise threat')
+    build_link: https://xian55.github.io/tortoise-db-viewer/?talents=paladin&t=-053043030203111-0520405103005
+    points:
+    - tree: Protection
+      talent: Redoubt
+      rank: 5
+      spell_id: 45822
+    - tree: Protection
+      talent: Precision
+      rank: 3
+      spell_id: 20193
+    - tree: Protection
+      talent: Toughness
+      rank: 4
+      spell_id: 20146
+    - tree: Protection
+      talent: Improved Righteous Fury
+      rank: 3
+      spell_id: 20470
+    - tree: Protection
+      talent: Shield Specialization
+      rank: 3
+      spell_id: 20150
+    - tree: Protection
+      talent: Improved Hand of Reckoning
+      rank: 2
+      spell_id: 51335
+    - tree: Protection
+      talent: Righteous Defense
+      rank: 3
+      spell_id: 51330
+    - tree: Protection
+      talent: Holy Shield
+      rank: 1
+      spell_id: 20925
+    - tree: Protection
+      talent: Reckoning
+      rank: 1
+      spell_id: 45823
+    - tree: Protection
+      talent: Righteous Strikes
+      rank: 1
+      spell_id: 51341
+    - tree: Retribution
+      talent: Benediction
+      rank: 5
+      spell_id: 20105
+    - tree: Retribution
+      talent: Improved Judgement
+      rank: 2
+      spell_id: 25957
+    - tree: Retribution
+      talent: Deflection
+      rank: 4
+      spell_id: 20063
+    - tree: Retribution
+      talent: Conviction
+      rank: 5
+      spell_id: 20121
+    - tree: Retribution
+      talent: Blessing of Kings
+      rank: 1
+      spell_id: 20217
+    - tree: Retribution
+      talent: Two-Handed Weapon Specialization
+      rank: 3
+      spell_id: 20113
+    - tree: Retribution
+      talent: Vengeance
+      rank: 5
+      spell_id: 20059
+    variants:
+    - 'Imp Blessings MT (AoAoB-AoYDZYCAZYAoB-FAQ): Improved Blessings 5 instead of Benediction [[d:paladin#1459442077220733080]]
+      [[d:paladin#1460803899345600523]]'
+    - 'Max Toughness (AoAoB-AoYFZYAAZYAoB-AoQ): Toughness 5, no Improved Hand of Reckoning [[d:paladin#1488123732537901087]]'
+    - 'Contested: 2/5 Toughness + 3/3 Anticipation [[d:paladin#1485468999541325916]] vs ''Defense is a noob trap'' [[d:paladin#1492791414046724116]]'
   leveling_order:
   - level: 10
+    tree: Protection
+    talent: Redoubt
+  - level: 11
+    tree: Protection
+    talent: Redoubt
+  - level: 12
+    tree: Protection
+    talent: Redoubt
+  - level: 13
+    tree: Protection
+    talent: Redoubt
+  - level: 14
     tree: Protection
     talent: Redoubt
   - level: 15
     tree: Protection
     talent: Precision
+  - level: 16
+    tree: Protection
+    talent: Precision
+  - level: 17
+    tree: Protection
+    talent: Precision
   - level: 18
+    tree: Protection
+    talent: Toughness
+  - level: 19
     tree: Protection
     talent: Toughness
   - level: 20
@@ -172,11 +400,29 @@ talents:
     talent: Blessing of Sanctuary
   - level: 21
     tree: Protection
-    talent: Shield Specialization
-  - level: 24
+    talent: Improved Righteous Fury
+  - level: 22
     tree: Protection
     talent: Improved Righteous Fury
+  - level: 23
+    tree: Protection
+    talent: Improved Righteous Fury
+  - level: 24
+    tree: Protection
+    talent: Shield Specialization
+  - level: 25
+    tree: Protection
+    talent: Shield Specialization
+  - level: 26
+    tree: Protection
+    talent: Shield Specialization
   - level: 27
+    tree: Protection
+    talent: Improved Hand of Reckoning
+  - level: 28
+    tree: Protection
+    talent: Improved Hand of Reckoning
+  - level: 29
     tree: Protection
     talent: Toughness
   - level: 30
@@ -184,42 +430,300 @@ talents:
     talent: Holy Shield
   - level: 31
     tree: Protection
+    talent: Righteous Defense
+  - level: 32
+    tree: Protection
+    talent: Righteous Defense
+  - level: 33
+    tree: Protection
+    talent: Righteous Defense
+  - level: 34
+    tree: Protection
+    talent: Reckoning
+  - level: 35
+    tree: Protection
     talent: Reckoning
   - level: 36
+    tree: Protection
+    talent: Reckoning
+  - level: 37
+    tree: Protection
+    talent: Righteous Strikes
+  - level: 38
+    tree: Protection
+    talent: Righteous Strikes
+  - level: 39
     tree: Protection
     talent: Righteous Strikes
   - level: 40
     tree: Protection
-    talent: Bulwark of the Righteous
+    talent: Righteous Strikes
   - level: 41
+    tree: Protection
+    talent: Righteous Strikes
+  - level: 42
+    tree: Protection
+    talent: Bulwark of the Righteous
+  - level: 43
+    tree: Holy
+    talent: Divine Intellect
+  - level: 44
+    tree: Holy
+    talent: Divine Intellect
+  - level: 45
+    tree: Holy
+    talent: Divine Intellect
+  - level: 46
+    tree: Holy
+    talent: Divine Intellect
+  - level: 47
+    tree: Holy
+    talent: Divine Intellect
+  - level: 48
+    tree: Holy
+    talent: Improved Seal of Righteousness
+  - level: 49
+    tree: Holy
+    talent: Improved Seal of Righteousness
+  - level: 50
+    tree: Holy
+    talent: Improved Seal of Righteousness
+  - level: 51
+    tree: Holy
+    talent: Improved Seal of Righteousness
+  - level: 52
+    tree: Holy
+    talent: Improved Seal of Righteousness
+  - level: 53
+    tree: Holy
+    talent: Sanctity Aura
+  - level: 54
     tree: Retribution
     talent: Benediction
-  - level: 46
-    tree: Retribution
-    talent: Deflection
-  - level: 51
-    tree: Retribution
-    talent: Pursuit of Justice
-  - level: 53
-    tree: Retribution
-    talent: Improved Retribution Aura
   - level: 55
     tree: Retribution
-    talent: Blessing of Kings
+    talent: Benediction
   - level: 56
-    tree: Protection
-    talent: Improved Hand of Reckoning + Righteous Defense (raid) or Improved Judgement + Vindication
-  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=paladin&t=-0530531302031551
-  build_link_tortoise_note: 'Generated from the sourced points list (37 points: Protection 37); the calculator shows the remaining
-    points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
+    tree: Retribution
+    talent: Benediction
+  - level: 57
+    tree: Retribution
+    talent: Benediction
+  - level: 58
+    tree: Retribution
+    talent: Benediction
+  - level: 59
+    tree: Retribution
+    talent: Improved Judgement
+  - level: 60
+    tree: Retribution
+    talent: Improved Judgement
+  leveling_order_note: 'Tank-path order ending in the published 11/33/7; validated with talent_tool.py level (VALID). Ordering
+    follows: go at least 21 Prot before spreading points [[d:paladin#1444580918953115721]]; Redoubt -> Precision first [[d:paladin#1457377214864822356]];
+    Improved Righteous Fury early if tanking ASAP [[d:paladin#1457388445524557914]]; Righteous Strikes early (HC advice) [[d:paladin#1444482585731530772]].
+    The full leveling page (and the recommended leveling spec) is guide/classes/paladin/leveling.md (writer B) - that page
+    takes precedence.'
+  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=paladin&t=0500501-0530331302031351-052
+  build_link_tortoise_note: 'Generated from the sourced points list (51 points: Holy 11, Protection 33, Retribution 7); the
+    calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
 stat_weights:
-  stamina: '1 (survival set: until you survive the tier)'
-  spell_power: '1 (threat set: Consecration, Holy Shield, Holy Strike, Seal/Judgement of Righteousness)'
-  agility: high (18 agi ~ 1% dodge + 1% crit with Kings)
-  defense: medium (5 def ~ 1% mitigation)
-  block_chance: medium until crush cap with Holy Shield
-  strength: low / contested (block value -> Holy Shield damage; no other threat scaling)
-  weapon_speed: fast one-hander preferred (Seal of Wisdom mana)
+  spell_power: 1 (the threat stat); 1 SP ~ 1-1.2 TPS [[d:paladin#1490114115052769341]]; still dominant after the HS weapon
+    change [[d:paladin#1485887132974190693]]
+  stamina: ~1 up to the 7,500-8,000 HP boss floor [[d:paladin#1479149805857931274]] [[d:paladin#1486300603683700891]]
+  hit: to 7-8% melee (see caps) [[d:paladin#1482717762697564242]]
+  crit: 1% ~ 8 SP at ~1000 SP [[d:paladin#1480245364299927552]]
+  intellect: good - max mana is mp5 via Shield Specialization [[d:paladin#1484482699644108901]]
+  agility: 'cheap filler: 6 agi = 12 armor, 0.3% crit, 0.3% dodge [[d:paladin#1492667984320270528]]'
+  strength: weak (no longer zero via Holy Strike weapon damage) [[d:paladin#1492667984320270528]] [[d:paladin#1487951069383495861]]
+  defense: only as part of total avoidance (0.04% each per point) [[d:paladin#1460803234695479420]]; never chase 440 [[d:paladin#1491228491344121866]]
+caps:
+  hit_melee: 8% at 300 weapon skill, 7% at 305/308; 3% Precision + 4% gear [[d:paladin#1471632460998770943]]; MT must be capped,
+    OT/dungeon 1-2% under ok [[d:paladin#1450132467347623956]] [[d:paladin#1450132383419338932]]
+  spell_hit: not geared for [[d:paladin#1488770847803052143]]
+  taunt: 3/3 Precision + 2/2 Improved Hand of Reckoning -> 5% miss; never guaranteed vs raid bosses [[d:paladin#1448985792675315752]]
+    [[d:paladin#1463559685050335424]]
+  avoidance_cap: 102.4% combined dodge+parry+block+miss with Holy Shield up vs level 63 [[d:paladin#1491228429847363704]];
+    ~90% 'basically the same' [[d:paladin#1488125629583851582]]; only from AQ40 [[d:paladin#1477378940875047116]]
+  twins_melee: 118.4% under Unbalancing Strike [[d:paladin#1465416367967572164]]
+  kara40: Knight and Rupturan require crush immunity [[d:paladin#1465172802326761748]]
+  hp_floor: 7,500 BWL minimum, 8,000 preferred [[d:paladin#1455534204690366578]]
+rotation_single:
+- priority: 1
+  action: Righteous Fury (re-apply after death; toggle after respec), Sanctity Aura (Retribution Aura if someone else has
+    Sanctity), blessing, Seal of Righteousness
+  condition: pre-pull [[d:paladin#1487898897144877108]] [[d:paladin#1469723489400262698]]
+- priority: 2
+  action: Pre-cast Holy Shield, run in, active SP trinket, Judgement of Righteousness, Holy Strike, reseal SoR
+  condition: opener [[d:paladin#1479624488675971323]] [[d:paladin#1474054737547497583]]
+- priority: 3
+  action: Holy Strike
+  condition: the moment it is off cooldown; never delay [[d:paladin#1479624488675971323]]
+- priority: 4
+  action: Judgement (of Righteousness)
+  condition: on cooldown, ~2 s after Holy Strike, woven into another GCD (off-GCD) [[d:paladin#1479624488675971323]] [[d:paladin#1463240147930841219]]
+- priority: 5
+  action: Seal of Righteousness
+  condition: next GCD after judging; never another seal on a boss [[d:paladin#1475773657925161033]]
+- priority: 6
+  action: Holy Shield (rank 1 on long fights)
+  condition: when mana permits [[d:paladin#1485641256586444910]] [[d:paladin#1450898726074847345]]
+- priority: 7
+  action: Consecration rank 5, then rank 1 once threat is established or mana < 30%
+  condition: remaining GCDs [[d:paladin#1479624488675971323]] [[d:paladin#1470119581581312222]]
+- priority: 8
+  action: Exorcism
+  condition: Undead/Demon, nothing else ready; Consecration first if both ready [[d:paladin#1462761249325711431]]
+- priority: 9
+  action: Hand of Reckoning
+  condition: mob not targeting you
+- priority: 10
+  action: Crusader Strike (Zealous Defence)
+  condition: ONLY before a planned big hit / tank swap (Patchwerk, Twins, Knight); never for threat [[d:paladin#1484833025177944206]]
+    [[d:paladin#1487459563707044021]]
+rotation_aoe:
+- targets_min: 2
+  priority: 1
+  action: No Consecration; Holy Strike skull, Judgement the second, tab
+  condition: 2 mobs [[d:paladin#1485641256586444910]]
+- targets_min: 3
+  priority: 1
+  action: Pre-cast Consecration where mobs meet you (front-load triggers on mob entry)
+  condition: 3+ mobs [[d:paladin#1484776924046692372]] [[d:paladin#1461408170533589197]]
+- targets_min: 3
+  priority: 2
+  action: Single-target priority on skull; tab Judgement/Holy Strike/taunt onto others; lock mobs one by one
+  condition: Consecration is only 30-40% of AoE threat [[d:paladin#1469946685776990285]] [[d:paladin#1457081838437929141]]
+- targets_min: 3
+  priority: 3
+  action: Rank-5 Consecration at most 1-2 casts per pack
+  condition: mana [[d:paladin#1469947262431133819]]
+- targets_min: 3
+  priority: 4
+  action: Goblin Sapper Charge on the pull
+  condition: raids; doubles opening AoE threat [[d:paladin#1489946008426250290]]
+- targets_min: 3
+  priority: 5
+  action: Greater Blessing spam (not Wisdom)
+  condition: adds that must look at you instantly (Incantagos pull, Faerlina trash, Noth adds) [[d:paladin#1449767594717610005]]
+    [[d:paladin#1464060242735399034]]
+- targets_min: 3
+  priority: 6
+  action: Seal of Wisdom + Consecration
+  condition: mana-heavy multi-target trash [[d:paladin#1467497544488718404]]
+aoe_threshold: 3
+cooldowns:
+- name: Bulwark of the Righteous
+  use_when: Maexxna, Gothik; Anomalus at 30+ stacks with a GAPP [[d:paladin#1462761249325711431]] [[d:paladin#1446932033933934622]]
+- name: Holy Shield
+  use_when: pre-cast before every pull; needed for the avoidance cap
+- name: Greater Stoneshield Potion
+  use_when: Patchwerk, Kel'Thuzad, Sapphiron, Loatheb, Faerlina [[d:paladin#1462761249325711431]]
+- name: Active SP trinket
+  use_when: on pull before the first Holy Strike (Draconic Infused Emblem / ToEP / Essence of Sapphiron) [[d:paladin#1450071115706794114]]
+- name: Divine Shield
+  use_when: mechanics (Firemaw stacks) or imminent death; drops threat
+- name: Blessing of Protection
+  use_when: on the other tank to take the boss back; on a DPS with aggro [[d:paladin#1448374029227528273]]
+resource_rules:
+- 'Boss tanking: Blessing of Wisdom + JoW (other paladin) + Shield Specialization + free Holy Strike = mana goes up; avoid
+  max-rank Holy Shield/Consecration spam [[d:paladin#1469939857630695569]]'
+- Keep rank-1 Consecration on the bar; below ~30% mana use it until 50% [[d:paladin#1469935800379506953]] [[d:paladin#1470119581581312222]]
+- 'Trash: Nordanaar Herbal Tea + Major Mana Potions; mostly Holy Strike + JoR [[d:paladin#1469940162711654472]]'
+- Seal of Wisdom costs ~30% of your threat [[d:paladin#1485641549508251782]]
+- Spellstrike items not needed as prot (contested) [[d:paladin#1494728313246191766]] [[d:paladin#1494728846308802612]]
+consumables:
+- Brilliant Wizard Oil; Undead oil in Naxx after the Spider Wing [[d:paladin#1462761249325711431]]
+- Flask of the Titans vs Flask of Supreme Power (contested; the Titans slot costs a paladin 150 SP) [[d:paladin#1482746530099363966]]
+- Elixir of Fortitude, Greater Arcane Elixir, Dreamshard Elixir, Elixir of Superior Defense, Mongoose, GAPP/GFPP, Greater
+  Stoneshield [[d:paladin#1424184540204765316]] [[d:paladin#1450477576383500401]]
+- Spirit of Zanza, Hardened Mushroom, Medivh's Merlot [[d:paladin#1462114622655168645]]
+- SP food on most bosses, Stamina food on bosses whose crits kill [[d:paladin#1487116931306750082]]
+- Goblin Sapper Charge; Dynamite over Holy Water in progression [[d:paladin#1462761591672934442]]
+- Nordanaar Herbal Tea (~1100 mana, separate CD) [[d:paladin#1485441517744029717]]
+- 'enchants: ZG helm/legs, Sapphiron stam shoulders, +100 HP chest, 1% dodge cloak, 9 stam bracers, 15 agi gloves, 5 def belt,
+  15 stam boots, 6 stam rings/neck, +30 SP weapon, +2% block shield [[d:paladin#1484202614123008081]]'
+mistakes_to_avoid:
+- Not re-applying Righteous Fury after death / not toggling it after a respec [[d:paladin#1485066092085907519]]
+- Pressing Crusader Strike for threat [[d:paladin#1487459563707044021]]
+- Delaying Holy Strike [[d:paladin#1479624488675971323]]
+- Consecrating single targets [[d:paladin#1485641256586444910]]
+- Chasing 440 Defense or Strength [[d:paladin#1491228491344121866]]
+- Raid tanking below ~7,000 HP [[d:paladin#1486300603683700891]]
+- Wearing Ret T2 for spellstrike procs [[d:paladin#1483516161353056407]]
+- Using a threat meter that ignores Improved Righteous Fury (KTM) [[d:paladin#1408467978994843658]]
+supersedes:
+- claim: 'Next patch: Holy Strike becomes a next-swing attack, CS loses its cooldown, TF threat nerfed (2026-04-01)'
+  verdict: April Fools joke, not a patch
+  sources:
+  - '[[d:paladin#1488852869212798987]]'
+  - '[[d:paladin#1488794904246091876]]'
+- claim: Prot scaled poorly / threat bottom-tier in high-end raids (pre-1.18.1)
+  verdict: post-1.18.1 threat comfortable; ~10% better at high end
+  sources:
+  - '[[d:paladin#1485350693312397362]]'
+  - '[[d:paladin#1492549184010715346]]'
+- claim: Crit immunity = 440 defense
+  verdict: 102.4% avoidance with Holy Shield; 118.4% vs Twins melee
+  sources:
+  - '[[d:paladin#1491228491344121866]]'
+  - '[[d:paladin#1465416367967572164]]'
+- claim: CS maintains Zeal block value
+  verdict: '1.18.1: CS -> Zealous Defence (next blocked hit); defensive-only'
+  sources:
+  - '[[d:paladin#1465833695175901347]]'
+- claim: Holy Strike weapon-agnostic; fast weapon for SoW
+  verdict: weapon damage now matters a little; SP still dominant; Desecration >= TF > Comet Signaller
+  sources:
+  - '[[d:paladin#1485887132974190693]]'
+  - '[[d:paladin#1485399707063685261]]'
+- claim: 'Previous yaml: 11/40/0 consensus build'
+  verdict: current raid build is 11/33/7 (Sanctity + Imp SoR + Imp Judgement)
+  sources:
+  - '[[d:paladin#1491936698689388746]]'
+next_patch_announced:
+  announced: '2026-04-01'
+  status: NOT REAL - April Fools joke by the paladin developer
+  author: Lhian (developer/staff)
+  sources:
+  - '[[d:paladin#1488852869212798987]]'
+  - '[[d:paladin#1488794904246091876]]'
+  items: []
+  note: Kept only so older copies of this file that treated it as real are visibly corrected.
+boss_notes:
+- boss: Molten Core - Ragnaros
+  note: 250-315 fire resist to reduce knockbacks; threat resets after knockback [[d:paladin#1451158265353211914]]
+  era: 1.18.1-announced-pre-release
+- boss: BWL - Broodlord
+  note: Mortal Strike 5.5-6k + auto [[d:paladin#1482006928174481488]]
+  era: 1.18.1-announced-pre-release
+- boss: BWL - Firemaw
+  note: Shadowflame ~5k armor-ignoring, no swing reset; FR cloak; strong snap threat; count Wing Buffet [[d:paladin#1487101376021401810]]
+    [[d:paladin#1487103351844765806]]
+  era: post-1.18.1
+- boss: AQ40 - Twin Emperors
+  note: melee twin 118.4% avoidance; caster twin ~180 AR / 180 SR / 8k HP, magic-damage weapon, Black Morass shield [[d:paladin#1465416367967572164]]
+    [[d:paladin#1457840761834963151]]
+  era: 1.18.1-announced-pre-release
+- boss: Naxx - Loatheb
+  note: 227k threat vs 115.6k damage [[d:paladin#1484742645593931967]]
+  era: post-1.18.1
+- boss: Naxx - Four Horsemen
+  note: do not pull with Thunderfury (chain proc) [[d:paladin#1459273068395630593]]
+  era: 1.18.1-announced-pre-release
+- boss: Kara40 - Incantagos / Medivh
+  note: 2H tanking outright BiS; Greater Blessing spam on the Incantagos pull [[d:paladin#1489188911124320256]] [[d:paladin#1449767594717610005]]
+  era: post-1.18.1
+- boss: Kara40 - Anomalus
+  note: front-load threat first 30 s; stamina + arcane resist; Bulwark + GAPP at 30+ stacks [[d:paladin#1446931087908405433]]
+    [[d:paladin#1446932033933934622]] [[d:paladin#1453294569700724848]]
+  era: 1.18.1-announced-pre-release
+- boss: Kara40 - Rupturan
+  note: crush immunity; stand >20 yd from the boss for the aggro mechanic [[d:paladin#1465172802326761748]] [[d:paladin#1453324999011078288]]
+  era: 1.18.1-announced-pre-release
+- boss: Kara40 - per-boss sets
+  note: T3 Ravens, T2.5 Gnarlmoon/Medivh/Rook/Sanv, AR Incantagos/Anomalus, T3+full mit Knight/Rupturan, T3+SP Mephistroth
+    [[d:paladin#1483532816535912468]]
+  era: 1.18.1-announced-pre-release
 stat_priority:
 - stamina
 - defense
@@ -236,93 +740,3 @@ stat_priority_note: 'Everran (p=143606) gives two separate orders, not one list.
   crit cap is "often not worth reaching when you consider what you have to sacrifice". Strength is CONTESTED: called irrelevant
   to threat by Kerenis (p=153860) and defended by others. "Adds X damage to melee attacks" items are valued separately because
   they trigger Judgement of Wisdom an extra time per swing.'
-caps:
-  crit_immunity_defense: 440 (420 with Anticipation 3/3) - single hedged source, vanilla baseline
-  crush_cap: Holy Shield 45% block + gear block; exact post-1.18.1 number unknown
-  hit: Precision 3/3 (+3% melee and spell hit) recommended; no numeric hit cap for tanking given
-rotation_single:
-- priority: 1
-  action: Righteous Fury + aura + blessings (Sanctuary/Kings self) + Seal of Wisdom
-  condition: before pull; reapply Righteous Fury after death
-- priority: 2
-  action: Holy Shield
-  condition: while running in and whenever off cooldown
-- priority: 3
-  action: Judgement (Wisdom on bosses; Righteousness for threat when mana is fine)
-  condition: on cooldown; re-seal after
-- priority: 4
-  action: Bulwark of the Righteous
-  condition: boss pull when DPS open early, otherwise hold as -30% damage cooldown
-- priority: 5
-  action: Crusader Strike
-  condition: 'Zeal < 3 stacks, or Zeal has < 6 s left (1.18.1: also for Zealous Defence before a big hit)'
-- priority: 6
-  action: Holy Strike
-  condition: shared strike cooldown ready and Zeal at 3 stacks with > 6 s left
-- priority: 7
-  action: Consecration
-  condition: single target only if mana comfortable (Judgement of Wisdom + +dmg items); otherwise skip
-- priority: 8
-  action: Exorcism
-  condition: Undead/Demon target; damage only (-70% threat)
-- priority: 9
-  action: Hand of Reckoning (or Hand of Protection on the DPS)
-  condition: target leaves you
-- priority: 10
-  action: downrank Holy Strike/Consecration
-  condition: mana low
-rotation_aoe:
-- targets_min: 2
-  priority: 1
-  action: Holy Strike skull, Judgement + Seal auto-attack on the second, tab between them
-  condition: no Consecration needed
-- targets_min: 3
-  priority: 1
-  action: Consecration (max rank, then rank 1 if mana-rich)
-  condition: 3+ mobs or something pulled unexpectedly
-- targets_min: 3
-  priority: 2
-  action: Holy Shield on cooldown
-  condition: always
-- targets_min: 3
-  priority: 3
-  action: Holy Strike skull, tab Judgements
-  condition: shared strike cooldown
-- targets_min: 3
-  priority: 4
-  action: Seal of Wisdom / Judgement of Wisdom on the longest-lived mob
-  condition: mana
-aoe_threshold: 3
-cooldowns:
-- name: Bulwark of the Righteous
-  use_when: snap threat at boss pull OR defensive for the dangerous phase (5-min CD)
-- name: Holy Shield
-  use_when: on cooldown, always
-- name: Hand of Reckoning
-  use_when: mob leaves you (10-s CD)
-- name: Hand of Protection
-  use_when: DPS pulled aggro and taunt is down
-- name: Divine Shield
-  use_when: emergency; -60% damage dealt so threat suffers
-resource_rules:
-- Seal of Wisdom + Judgement of Wisdom on the main target; re-judge when it dies
-- 'Blocks return 2% mana (Shield Specialization, 5-s ICD): eagle (Sta/Int) gear increases the return'
-- Do not Consecrate single targets
-- Auto-attack the last mob of a pack to refill before the next pull
-- Wear one or more 'adds X damage to melee attacks' items for extra Judgement of Wisdom procs
-- Drink only when the healer drinks; never pull with the healer low
-consumables:
-- Brilliant Mana Oil / Lesser Mana Oil
-- mana potions/teas for mana-punishing raid bosses
-- Ez-Thro Dynamite / Explosive Rockets / Magic Candle for ranged pulls
-- Thorium Shield Spike
-- 'enchants (guide): Constitution/Protection arcanum, Zandalar Signet of Mojo, Superior Defense or Dodge cloak, Major Health
-  chest, Superior Stamina bracer, Threat/Greater Strength gloves, Greater Stamina boots, Spell Power/Crusader weapon'
-mistakes_to_avoid:
-- Spamming Consecration on single targets and going OOM
-- Tanking without Righteous Fury, without a seal, or with Holy Shield off cooldown
-- Using Crusader Strike as a threat button instead of a Zeal maintainer
-- Letting Zeal fall off in long fights
-- Pulling while the healer drinks or is out of range
-- Not marking a skull target for DPS
-- Stacking Strength plate instead of Stamina/spell power

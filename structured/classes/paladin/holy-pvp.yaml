@@ -1,43 +1,377 @@
 class: Paladin
 spec: Holy
 role: pvp
+guide: guide/classes/paladin/pvp.md
 sources:
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=170300#p170300", author: Ellifta, authority: player, date: "2026-03-07"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=170319#p170319", author: Ellifta, authority: player, date: "2026-03-08"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=173323#p173323", author: Crake, authority: player, date: "2026-03-31"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=157515#p157515", author: Damso, authority: player, date: "2025-10-28"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=157532#p157532", author: FrankFankledank, authority: player, date: "2025-10-28"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=170314#p170314", author: Tortusenjoyer, authority: player, date: "2026-03-07"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: "2025-07-25"}
-agreement: contested
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=170300#p170300
+  author: Ellifta
+  authority: player
+  date: '2026-03-07'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=170319#p170319
+  author: Ellifta
+  authority: player
+  date: '2026-03-08'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=173323#p173323
+  author: Crake
+  authority: player
+  date: '2026-03-31'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=157515#p157515
+  author: Damso
+  authority: player
+  date: '2025-10-28'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=157532#p157532
+  author: FrankFankledank
+  authority: player
+  date: '2025-10-28'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=170314#p170314
+  author: Tortusenjoyer
+  authority: player
+  date: '2026-03-07'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159
+  author: Jamey
+  authority: staff
+  date: '2025-07-25'
+- cite: '[[d:paladin#1443973737056698448]]'
+  author: Mithreon
+  authority: player
+  date: '2025-11-28'
+  era: 1.18.1-announced-pre-release
+  agreement: consensus
+- cite: '[[d:paladin#1481664712130166965]]'
+  author: Mithreon
+  authority: player
+  date: '2026-03-12'
+  era: 1.18.1-announced-pre-release
+  agreement: consensus
+agreement: consensus
 patch_validity:
-  written_for: "1.18.0 / 1.18.1 announced"
-  valid_for_1181: unknown
-  notes: "No post-1.18.1 PvP thread; Daybreak nerf reduces sustain; Hand of Freedom 24-s CD and Divine Shield -60% damage dealt are the 1.18.0 PvP nerfs."
+  written_for: 1.18.1 (live 2026-03-20), post-release state through 2026-04
+  valid_for_1181: true
+  notes: Holy is the safest Paladin PvP spec; Daybreak nerf reduced sustain; Lay on Hands disabled in arena, Divine Shield
+    off in rated arena; Divine Shield healing penalty contested (50% vs 60%).
+discord:
+  channel: paladin
+  scope: post-1.18.1 Holy paladin PvP (BGs, world, arena)
+  sources:
+  - id: '1487416064835846296'
+    era: post-1.18.1
+    agreement: single source
+    claim: Posted 'mainly for pvp' Holy 35-point core
+  - id: '1489299128310693929'
+    era: post-1.18.1
+    agreement: consensus
+    claim: Standard full hpal tree Holy 38 / Ret 13 with Blessed Strikes 5; also the PvP-favoured build
+  - id: '1483861915020169378'
+    era: post-1.18.1
+    agreement: consensus
+    claim: '''Holy pvp healer is pretty easy PVP super tanky with insane heals and so many survival tools'''
+  - id: '1487443771523203184'
+    era: post-1.18.1
+    agreement: consensus
+    claim: '''I don''t see how pvp differs from pve for holy except for stam requirements'''
+  - id: '1493010360322621630'
+    era: post-1.18.1
+    agreement: consensus
+    claim: 1h + shield beats 2h for hpal PvP (armour, healing power, stats, seal procs)
+  - id: '1484823910041260132'
+    era: post-1.18.1
+    agreement: consensus
+    claim: CS for hpal is for PvP or resetting Shock while on the move
+  - id: '1487435841679786094'
+    era: post-1.18.1
+    agreement: consensus
+    claim: Healer PvP set 5/8 grants immunity to silence/interrupt
+  - id: '1487339526719406091'
+    era: post-1.18.1
+    agreement: consensus
+    claim: 'Standout PvP piece: healer/ret gloves 30 sta / 20 int / 2% spell crit / +40 healing'
+  - id: '1489382932161495110'
+    era: post-1.18.1
+    agreement: contested
+    claim: Bubble switched off in rated arena
+  - id: '1441426127284473877'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    claim: Lay on Hands is disabled in arena
+  - id: '1489674002254528573'
+    era: post-1.18.1
+    agreement: consensus
+    claim: Hand of Sacrifice damage no longer breaks CC (1.18.0 change in anticipation of arenas)
+  - id: '1490581333637070860'
+    era: post-1.18.1
+    agreement: contested
+    claim: 'Divine Shield penalty disputed: ''another 10% penalty on bubble'' (-70%)'
+  - id: '1467173434726547698'
+    era: post-1.18.1
+    agreement: contested
+    claim: Divine Shield 'reduces healing taken and done by 50%' - separate contested report
+  - id: '1434479918317703300'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: Free Action Potion substitutes for Hand of Freedom for the WSG flag carrier
+  - id: '1450987301416075294'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: Hand of Freedom is countered by simply turning and running; it is also dispellable
+  - id: '1443973737056698448'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: '"Rets are ass, hpally is where paladin pvp is at"'
+  - id: '1448556717636980866'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: 'Rank 14 grind: "the answer is holy"'
+  - id: '1487616709295603844'
+    era: post-1.18.1
+    agreement: single source
+    claim: 'Shokisan shockadin: deep Holy + Redoubt/Precision, shield, strong in PvP and solo (38/8/5, 1474454905497452717)'
+  - id: '1488212884839469197'
+    era: post-1.18.1
+    agreement: contested
+    claim: '"just heal in PvP and let actual good classes do dmg"'
+  cross_channel:
+  - channel: pvp-general
+    id: '1370761645491748996'
+    era: pre-1.18.1
+    agreement: consensus
+    claim: '''Holy pala and restohance shaman a/s tier'''
+  - channel: pvp-general
+    id: '1315720921260101725'
+    era: pre-1.18.1
+    agreement: single source
+    claim: 'Prot paladin: 7k hp, ~60% physical DR, loses to Soul Link'
 talents:
-  build_name: "not posted (pieces named: Blessed Strikes 5/5, Divine Favor, Holy Judgement, Daybreak, Spiritual Focus)"
-  points: []
+  build_name: Holy Blessed Strikes 38/0/13 (Mithreon) - AoaAZQFQpAYoB--FATAAK
+  build_link: https://xian55.github.io/tortoise-db-viewer/?talents=paladin&t=05320312005251351--502300012
+  build_link_note: Validated (VALID). [[d:paladin#1489299128310693929]]; "pvp will still favor the Blessed Strikes build for
+    hpal" [[d:paladin#1431256800099045406]]
+  points:
+  - tree: Holy
+    talent: Divine Intellect
+    rank: 5
+    spell_id: 20261
+  - tree: Holy
+    talent: Holy Judgement
+    rank: 3
+    spell_id: 51308
+  - tree: Holy
+    talent: Spiritual Focus
+    rank: 2
+    spell_id: 20206
+  - tree: Holy
+    talent: Healing Light
+    rank: 3
+    spell_id: 20239
+  - tree: Holy
+    talent: Sanctity Aura
+    rank: 1
+    spell_id: 20218
+  - tree: Holy
+    talent: Improved Lay on Hands
+    rank: 2
+    spell_id: 20235
+  - tree: Holy
+    talent: Illumination
+    rank: 5
+    spell_id: 20215
+  - tree: Holy
+    talent: Ironclad
+    rank: 2
+    spell_id: 51311
+  - tree: Holy
+    talent: Divine Favor
+    rank: 5
+    spell_id: 51316
+  - tree: Holy
+    talent: Holy Shock
+    rank: 1
+    spell_id: 20473
+  - tree: Holy
+    talent: Holy Power
+    rank: 3
+    spell_id: 5925
+  - tree: Holy
+    talent: Blessed Strikes
+    rank: 5
+    spell_id: 51321
+  - tree: Holy
+    talent: Daybreak
+    rank: 1
+    spell_id: 51323
+  - tree: Retribution
+    talent: Improved Blessings
+    rank: 5
+    spell_id: 20048
+  - tree: Retribution
+    talent: Improved Judgement
+    rank: 2
+    spell_id: 25957
+  - tree: Retribution
+    talent: Improved Seal of the Crusader
+    rank: 3
+    spell_id: 20337
+  - tree: Retribution
+    talent: Blessing of Kings
+    rank: 1
+    spell_id: 20217
+  - tree: Retribution
+    talent: Pursuit of Justice
+    rank: 2
+    spell_id: 26023
+  alternative_points:
+    build_name: Shockadin 38/8/5 (Holy 38 as above + Redoubt 5 + Precision 3; Ret 5 Improved Blessings is a fill) - AoaAZQFQpAYoB-AoY-F
+    build_link: https://xian55.github.io/tortoise-db-viewer/?talents=paladin&t=05320312005251351-053-5
+    points:
+    - tree: Holy
+      talent: Divine Intellect
+      rank: 5
+      spell_id: 20261
+    - tree: Holy
+      talent: Holy Judgement
+      rank: 3
+      spell_id: 51308
+    - tree: Holy
+      talent: Spiritual Focus
+      rank: 2
+      spell_id: 20206
+    - tree: Holy
+      talent: Healing Light
+      rank: 3
+      spell_id: 20239
+    - tree: Holy
+      talent: Sanctity Aura
+      rank: 1
+      spell_id: 20218
+    - tree: Holy
+      talent: Improved Lay on Hands
+      rank: 2
+      spell_id: 20235
+    - tree: Holy
+      talent: Illumination
+      rank: 5
+      spell_id: 20215
+    - tree: Holy
+      talent: Ironclad
+      rank: 2
+      spell_id: 51311
+    - tree: Holy
+      talent: Divine Favor
+      rank: 5
+      spell_id: 51316
+    - tree: Holy
+      talent: Holy Shock
+      rank: 1
+      spell_id: 20473
+    - tree: Holy
+      talent: Holy Power
+      rank: 3
+      spell_id: 5925
+    - tree: Holy
+      talent: Blessed Strikes
+      rank: 5
+      spell_id: 51321
+    - tree: Holy
+      talent: Daybreak
+      rank: 1
+      spell_id: 51323
+    - tree: Protection
+      talent: Redoubt
+      rank: 5
+      spell_id: 45822
+    - tree: Protection
+      talent: Precision
+      rank: 3
+      spell_id: 20193
+    - tree: Retribution
+      talent: Improved Blessings
+      rank: 5
+      spell_id: 20048
+    sources:
+    - '[[d:paladin#1487616709295603844]]'
+    - '[[d:paladin#1474454905497452717]]'
+  variants:
+  - PvP Holy 35 core with Improved Concentration Aura 3 and Unyielding Faith 2 (16 points left open) [[d:paladin#1487416064835846296]]
   leveling_order: []
+  leveling_note: Do not level as Holy; see guide/classes/paladin/leveling.md
+  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=paladin&t=05320312005251351--502300012
+  build_link_tortoise_note: 'Generated from the sourced points list (51 points: Holy 38, Retribution 13); the calculator shows
+    the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
 stat_weights:
-  stamina: "high (opponents complain Holy Paladins cannot be killed by one DPS)"
-  healing_power: "high"
+  stamina: high; 6k+ HP [[d:paladin#1481664712130166965]]
+  healing_power: high
+  intellect: medium
+  spell_crit: medium (Holy Shock crits)
+  pushback: Spiritual Focus + Concentration Aura = 105% [[d:pvp-general#1430590994587586620]]
 caps: {}
 rotation_single:
-  - {priority: 1, action: "stay in melee with Seal of Wisdom; Holy Shock the ally in need", condition: "always"}
-  - {priority: 2, action: "Crusader Strike", condition: "Holy Shock on cooldown (Blessed Strikes reset)"}
-  - {priority: 3, action: "Hammer of Justice", condition: "enemy healer/DPS in range"}
-  - {priority: 4, action: "Hand of Freedom / Hand of Protection / Cleanse", condition: "flag carrier slowed; physical focus; debuffs"}
-  - {priority: 5, action: "Divine Shield and keep healing", condition: "focused; avoid casting into an interrupt with bubble down"}
+- priority: 1
+  action: Holy Shock the ally about to die
+  condition: always first
+- priority: 2
+  action: Judgement -> 1.5 s Holy Light (Holy Judgement)
+  condition: bigger heal needed; bait a Shock/interrupt first [[d:pvp-general#1427671149428342906]]
+- priority: 3
+  action: Crusader Strike
+  condition: in melee, Holy Shock on cooldown (reset) [[d:paladin#1484823910041260132]]
+- priority: 4
+  action: Flash of Light
+  condition: at range / kiting
+- priority: 5
+  action: Cleanse / Hand of Freedom / BoP
+  condition: as needed
+- priority: 6
+  action: Hammer of Justice
+  condition: peel or stop an enemy healer
 rotation_aoe: []
 aoe_threshold: 0
 cooldowns:
-  - {name: Divine Shield, use_when: "focused; heals unaffected"}
-  - {name: Hand of Freedom, use_when: "flag carrier / kited ally (24-s CD)"}
-  - {name: Hammer of Justice, use_when: "peel / setup kill"}
+- name: Divine Shield
+  use_when: disengage or eat a Kidney Shot to save the trinket; 12 s; halves healing done/taken (50-60% contested); off in
+    rated arena [[d:paladin#1429823453028155465]] [[d:paladin#1467173434726547698]] [[d:paladin#1489382932161495110]]
+- name: Blessing of Protection
+  use_when: physical burst, Blind (not a poison on Turtle) [[d:paladin#1424408436044595280]]
+- name: Hammer of Justice
+  use_when: kill window or healer peel; 30 s with Improved HoJ [[d:paladin#1484653064366325761]]
+- name: Repentance
+  use_when: breaks on damage; into HoJ [[d:paladin#1426800158305419428]] [[d:pvp-general#1429284370241552527]]
+- name: Hand of Freedom
+  use_when: slows/roots on you or the flag carrier; purgeable; longer CD since the nerf [[d:paladin#1441760867635953716]]
+    [[d:paladin#1487223373317542039]]
+- name: Lay on Hands
+  use_when: emergency; disabled in arena [[d:paladin#1441426127284473877]]
 resource_rules:
-  - "Seal of Wisdom melee for mana"
-consumables: []
+- Seal/Judgement of Wisdom in melee for mana
+- 'Prioritise targets: you cannot heal through all the burst [[d:paladin#1481664792728174644]]'
+consumables:
+- Frost Oil ("they cost nothing") and Icy Chill on the weapon [[d:paladin#1483206998899163288]] [[d:pvp-general#1430556900088610846]]
+- Engineering grenades and sappers; Free Action Potion; teas and mana potions
+- Stronghold Gauntlets vs disarms [[d:pvp-general#1430582780810494034]]
 mistakes_to_avoid:
-  - "Trying to out-range casters instead of the Crusader Strike -> Holy Shock loop"
-  - "Casting with bubble on cooldown into a kick"
-  - "Chasing kiters"
+- Trying to out-heal everything instead of prioritising [[d:paladin#1481664792728174644]]
+- 2H instead of 1H + shield [[d:paladin#1493010360322621630]]
+- Casting into an interrupt with bubble on cooldown
+matchups:
+  warrior: favourable; 2H warrior out-damages 2H ret; vs DW Bloodrinker use 1H+shield, JoL, SoR; Berserker Rage breaks Repentance;
+    disarm-immune gloves [[d:paladin#1467839220105347072]] [[d:paladin#1439841216589070369]] [[d:pvp-general#1433888687392817154]]
+  rogue: hard since Dissolvent; ~50% base dodge; BoP for Blind; Lost wolves vs stealth; Sanctuary [[d:paladin#1423730871537504488]]
+    [[d:paladin#1424397329435328674]] [[d:paladin#1424408436044595280]] [[d:paladin#1440228045406605444]]
+  mage: 'contested: good if you reach melee unnoticed; kited otherwise; "sheep and ignore" [[d:paladin#1441764012780945488]]
+    [[d:paladin#1441764762571640945]] [[d:pvp-general#1423692207071952996]]'
+  warlock: kill the pet; cannot fear demons; repented Voidwalker can still be sacrificed [[d:paladin#1484645314639171688]]
+    [[d:pvp-general#1430550221477122200]]
+  shaman: unfavourable; Purge strips seals and Freedom [[d:pvp-general#1424861028696723568]] [[d:paladin#1319672073685172315]]
+    [[d:paladin#1472659024351592731]]
+  hunter: manageable; shield + LoS, Swiftness Potion, Frost Oil; Holy Shield no longer blocks ranged [[d:paladin#1477997240814534807]]
+    [[d:paladin#1478005878736294043]] [[d:paladin#1478007043435663440]] [[d:paladin#1428745621673738280]]
+  priest: no current data (gap)
+  druid: no current data (gap)
+  paladin: no current data (gap)
+next_patch_announced:
+  announced: '2026-04-01'
+  status: NOT REAL - April Fools joke by the paladin developer
+  author: Lhian (developer/staff)
+  sources:
+  - '[[d:paladin#1488852869212798987]]'
+  - '[[d:paladin#1488856415010291794]]'
+  items: []
+  note: Not a patch; nothing in this file assumes it.

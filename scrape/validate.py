@@ -7,6 +7,7 @@ Checks
   - every viewtopic.php?t=<id> citation resolves to a topic in structured/forum/topics.jsonl
   - every Discord citation (https://discord.com/channels/<guild>/<channel>/<message> or discord://<channel-slug>/<message>)
     resolves to a message in structured/discord/messages/*.jsonl (checked only when that directory exists)
+  - every [[d:<channel>#<message_id>]] Discord citation resolves to a record in structured/discord/evidence-<channel>.jsonl
   - every .yaml/.yml parses with PyYAML; every .jsonl parses line by line; every .json parses
   - playbooks contain the mandatory headings
 Exit code 1 if anything fails; prints a summary.
@@ -18,10 +19,11 @@ import re
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DISCORD_CITE = re.compile(r"\[\[d:([A-Za-z0-9_.-]+)#(\d+)\]\]")
 PLAYBOOK_HEADINGS = ["Overview", "Talent build", "Stat priority", "Single-target rotation", "Multi-target", "Cooldowns", "Role strategy", "Gear", "Common mistakes", "Sources"]
 
 
-def load_discord_ids():
+def load_discord_msg_ids():
     """message ids and (channel_slug, message id) pairs from structured/discord/messages/*.jsonl; None if absent."""
     d = os.path.join(ROOT, "structured", "discord", "messages")
     if not os.path.isdir(d):
@@ -50,10 +52,23 @@ def load_ids():
     return posts, topics
 
 
+def load_discord_ids():
+    """channel -> set of message ids present in structured/discord/evidence-<channel>.jsonl."""
+    ids = {}
+    for f in glob.glob(os.path.join(ROOT, "structured", "discord", "evidence-*.jsonl")):
+        ch = os.path.basename(f)[len("evidence-"):-len(".jsonl")]
+        bucket = ids.setdefault(ch, set())
+        for line in open(f):
+            if line.strip():
+                bucket.add(str(json.loads(line)["id"]))
+    return ids
+
+
 def main():
     paths = sys.argv[1:] or ["synthesis", "structured", "behavior"]
     posts, topics = load_ids()
-    discord = load_discord_ids()
+    discord_ids = load_discord_ids()
+    discord = load_discord_msg_ids()
     files = []
     for p in paths:
         p = os.path.join(ROOT, p)
@@ -69,7 +84,7 @@ def main():
         rel = os.path.relpath(f, ROOT)
         # Evidence corpora are citation targets, not citation sources: links quoted inside a
         # post or a Discord message are user content and often point outside the archive.
-        if ("structured/forum/posts" in rel or "structured/discord/messages" in rel
+        if ("structured/forum/posts" in rel or "structured/discord/messages" in rel or "structured/discord/evidence-" in rel
                 or "extracted/discord" in rel
                 or rel.endswith("_aliases.json") or rel.endswith("coverage-report.md")):
             continue
@@ -115,6 +130,11 @@ def main():
             tid = int(m.group(1))
             if tid not in topics:
                 unresolved.setdefault(rel, set()).add("t=%d" % tid)
+        for m in DISCORD_CITE.finditer(text):
+            n_cites += 1
+            ch, mid = m.group(1), m.group(2)
+            if mid not in discord_ids.get(ch, ()):
+                unresolved.setdefault(rel, set()).add("d:%s#%s" % (ch, mid))
         if discord is not None and not skip_discord_links:
             for m in re.finditer(r"discord\.com/channels/(\d+)/(\d+)/(\d+)", text):
                 n_cites += 1

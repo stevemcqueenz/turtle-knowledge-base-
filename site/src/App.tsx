@@ -12,6 +12,9 @@ import { ClassPage } from './pages/ClassPage';
 import { PlaybookPage } from './pages/PlaybookPage';
 import { LevelingPage } from './pages/LevelingPage';
 import { GearPage } from './pages/GearPage';
+import { GuideDocPage } from './pages/GuideDocPage';
+import { InstancesPage } from './pages/InstancesPage';
+import { InstancePage } from './pages/InstancePage';
 import { MatrixPage } from './pages/MatrixPage';
 import { AboutPage } from './pages/AboutPage';
 import { NotFound } from './pages/NotFound';
@@ -58,6 +61,18 @@ export default function App() {
       break;
     case 'gear':
       page = <GearPage key={route.slug} slug={route.slug} spec={route.spec} bracket={route.bracket} />;
+      break;
+    case 'sources':
+      page = <GuideDocPage key={`${route.slug}/sources`} slug={route.slug} page="sources" />;
+      break;
+    case 'guide-page':
+      page = <GuideDocPage key={`${route.slug}/${route.page}`} slug={route.slug} page={route.page} />;
+      break;
+    case 'instances':
+      page = <InstancesPage />;
+      break;
+    case 'instance':
+      page = <InstancePage key={route.slug} slug={route.slug} />;
       break;
     case 'matrix':
       page = <MatrixPage />;

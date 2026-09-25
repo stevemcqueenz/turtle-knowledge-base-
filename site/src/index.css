@@ -15,6 +15,7 @@
   --c-accent: 77 208 225;
   --cite-staff: #8dc63f;
   --cite-wiki: #b07cf0;
+  --cite-discord: #9aa4ff;
 }
 
 :root[data-theme='light'] {
@@ -28,6 +29,7 @@
   --c-accent: 11 95 109;
   --cite-staff: #4b6b16;
   --cite-wiki: #5b3591;
+  --cite-discord: #3a45b8;
 }
 
 @layer base {
@@ -183,12 +185,20 @@
 .prose-md tr:last-child td {
   border-bottom: none;
 }
+/* key/value fact tables (`| | |` header) have nothing to show in their head */
+.prose-md thead:not(:has(th:not(:empty))) {
+  display: none;
+}
 .prose-md img {
   max-width: 100%;
 }
 
-/* Inline citation chips created from `[author (tier), date](url)` links. */
-.prose-md a.cite {
+/* Inline citation chips created from `[author (tier), date](url)` links, and the
+   Discord chips build-data.py emits for `[[d:<channel>#<id>]]` (an <a>, or a
+   <span> when the message is not in the evidence files). */
+.prose-md .cite,
+.md-inline .cite,
+.cited .cite {
   @apply chip hairline bg-surface2 align-baseline;
   color: rgb(var(--c-muted));
   font-size: 0.7rem;
@@ -200,7 +210,9 @@
   overflow-wrap: anywhere;
   text-decoration: none;
 }
-.prose-md a.cite:hover {
+.prose-md a.cite:hover,
+.md-inline a.cite:hover,
+.cited a.cite:hover {
   color: rgb(var(--c-text));
   border-color: rgb(var(--c-accent) / 0.6);
   text-decoration: none;
@@ -210,6 +222,18 @@
 }
 .prose-md a.cite-wiki {
   color: var(--cite-wiki);
+}
+.prose-md .cite-discord,
+.md-inline .cite-discord,
+.cited .cite-discord {
+  color: var(--cite-discord);
+}
+.prose-md .cite-unknown,
+.md-inline .cite-unknown,
+.cited .cite-unknown {
+  color: rgb(var(--c-muted));
+  border-style: dashed;
+  cursor: help;
 }
 
 /* Inline glossary tooltips (see lib/glossary-inline.ts). Opened by click, tap or

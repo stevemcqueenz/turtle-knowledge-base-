@@ -1,5 +1,5 @@
 class: Hunter
-spec: Marksmanship / BM-MM hybrid / deep BM
+spec: Marksmanship / BM-MM hybrid / deep BM / Survival (post-1.18.1)
 role: pvp
 sources:
 - url: https://forum.turtlecraft.gg/viewtopic.php?p=118488#p118488
@@ -110,109 +110,175 @@ sources:
   author: Jiav
   authority: player
   date: '2025-07-31'
+- cite: '[[d:hunter#1492277533855711302]]'
+  author: The J
+  authority: player
+  date: '2026-04-11'
+  era: post-1.18.1
+  agreement: single source
+- cite: '[[d:hunter#1494186537129218099]]'
+  author: Moonshow
+  authority: player
+  date: '2026-04-16'
+  era: post-1.18.1
+  agreement: contested
 agreement: contested
 patch_validity:
   written_for: 0/21/30 MM/Survival (obsolete after CC2, 2024-11-01), 30/21/0 BM/MM hybrid (the recommended PvP build Nov 2024
-    - Mar 2026), deep BM (post-1.18.1)
-  valid_for_1181: unknown
-  notes: 1.18.1 (2026-03-20) returned Bestial Wrath and reworked Kill Command to require a hunter crit; the 30/21/0 hybrid
-    loses the Kill Command capstone under the new tree. Pets do not take PvP dampening post-1.18.1 (player reports, not a
-    staff patch note), making deep BM the emerging PvP recommendation, but this is contested ('PvP is also not about waiting
-    for your BM pet to kill stuff' - Insanefool) and no talent link exists for the post-1.18.1 PvP build.
+    - Mar 2026), deep BM (post-1.18.1), and the newly-decoded post-1.18.1 MM and Survival PvP builds
+  valid_for_1181: true
+  notes: '1.18.1 (2026-03-20) returned Bestial Wrath and reworked Kill Command to require a hunter crit; the 30/21/0 hybrid
+    loses the Kill Command capstone under the new tree and is now a fallback. Pets do not take PvP dampening post-1.18.1 (player
+    reports, not a staff patch note), making deep BM the emerging PvP recommendation, contested by ''if u dont have the BW
+    CD you are a bit of a deadweight''. Discord decoded two post-1.18.1 PvP build links the forum KB lacked: Survival 8/5/38
+    and Marksmanship 0/35/16.'
 talents:
-  build_name: 30/21/0 BM/MM stun+Scatter (Ragetto) - recommended PvP build Nov 2024 - Mar 2026
-  build_link: https://talents.turtlecraft.gg/hunter?points=FYACBoAoJCQYAAFACoQBAoIAAAAAAAAAAAAAAAAAAAA%3D
+  build_name: 'PvP MM 0/34/17 (The J: MM to Lock and Load, Survival to Survivalist; guide build)'
+  build_link: https://talents.turtlecraft.gg/hunter?points=-FAAoRCQoJQQoB-YQYYFB ; https://talents.turtlecraft.gg/hunter/-U5DEV82V-IF30U6
+    ; variants 0/35/16 -FAAoRDQoJDQgB-YQYYF, Survival 8/5/38 FAD-F-YQaYDJTAbIQoB
   points:
-  - tree: Beast Mastery
-    talent: Intimidation
-    rank: 1
-    spell_id: 19577
-    talent_id: 387
-  - tree: Beast Mastery
-    talent: Swift Aspects
-    rank: 5
-    spell_id: 19556
-    talent_id: 373
-  - tree: Beast Mastery
-    talent: Spirit Bond
-    rank: 2
-    spell_id: 20895
-    talent_id: 389
-  - tree: Beast Mastery
-    talent: Frenzy
-    rank: 3
-    spell_id: 19623
-    talent_id: 390
   - tree: Marksmanship
-    talent: Scatter Shot
-    rank: 1
-    spell_id: 19503
-    talent_id: 421
+    talent: Improved Concussive Shot
+    rank: 5
+    spell_id: 19415
+  - tree: Marksmanship
+    talent: Lethal Shots
+    rank: 5
+    spell_id: 19431
   - tree: Marksmanship
     talent: Hawk Eye
     rank: 2
     spell_id: 19499
-    talent_id: 416
+  - tree: Marksmanship
+    talent: Aimed Shot
+    rank: 1
+    spell_id: 19434
+  - tree: Marksmanship
+    talent: Swiftshot
+    rank: 2
+    spell_id: 19455
+  - tree: Marksmanship
+    talent: Endless Quiver
+    rank: 2
+    spell_id: 51518
   - tree: Marksmanship
     talent: Mortal Shots
     rank: 5
     spell_id: 19490
-    talent_id: 420
   - tree: Marksmanship
-    talent: Improved Stings
-    rank: 1+
-    spell_id: 19464
-    talent_id: 414
+    talent: Scatter Shot
+    rank: 1
+    spell_id: 19503
+  - tree: Marksmanship
+    talent: Experimental Ammunition
+    rank: 1
+    spell_id: 58108
+  - tree: Marksmanship
+    talent: Piercing Shots
+    rank: 2
+    spell_id: 51513
+  - tree: Marksmanship
+    talent: Improved Marksmanship
+    rank: 2
+    spell_id: 51516
+  - tree: Marksmanship
+    talent: Ranged Weapon Specialization
+    rank: 5
+    spell_id: 19511
+  - tree: Marksmanship
+    talent: Lock and Load
+    rank: 1
+    spell_id: 52920
+  - tree: Survival
+    talent: Improved Slaying
+    rank: 3
+    spell_id: 45979
+  - tree: Survival
+    talent: Swift Reflexes
+    rank: 2
+    spell_id: 19297
+  - tree: Survival
+    talent: Entrapment
+    rank: 3
+    spell_id: 19388
+  - tree: Survival
+    talent: Improved Wing Clip
+    rank: 3
+    spell_id: 19233
+  - tree: Survival
+    talent: Survivalist
+    rank: 5
+    spell_id: 19259
+  - tree: Survival
+    talent: Deterrence
+    rank: 1
+    spell_id: 19263
   leveling_order: []
-  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=hunter&t=500000000000001023-0000200051
-  build_link_tortoise_note: 'Generated from the sourced points list (19 points: Beast Mastery 11, Marksmanship 8); the calculator
+  code: -FAAoRCQoJQQoB-YQYYFB
+  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=hunter&t=-5005212251120251-30230300501
+  build_link_tortoise_note: 'Generated from the sourced points list (51 points: Marksmanship 34, Survival 17); the calculator
     shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
 stat_weights:
-  stamina: matters more than in PvE
-  hit: matters more than in PvE
-  weapon_skill: '''has no impact for pvp'' [amanagor]'
+  stamina: matters more than in PvE; post-1.18.1 Survival PvP itemises stamina + resilience (not agility) - 'stam + resilience
+    is the way to go for BM hunter' - while noting the pet gains no resilience [single source, [[d:hunter#1492801526450884838]]]
+  hit: ranged hit cap is 8.0% at 300 weapon skill on Turtle (forum KB's 9% corrected); +3 weapon skill is ~0.6% hit and +5
+    is the useful threshold [single source, [[d:hunter#1491594913136115732]]]
+  weapon_skill: 'refines the forum KB''s ''has no impact for pvp'': weapon skill is partly hit (+3 ~= 0.6%, cap 8.0%); these
+    are compatible only if ''no glancing/parry effect'' is the intended meaning [single source, [[d:hunter#1491594913136115732]]]'
+  resilience: resilience + stamina is the post-1.18.1 BM/SV PvP itemisation; the pet gains nothing from it [single source,
+    [[d:hunter#1492801526450884838]]]
   armor_penetration: none available - plate/leather-druid targets are 'nearly hopeless'
-stat_priority:
-- stamina
-- hit
-stat_priority_note: 'The only stats the PvP sources rank: stamina and hit matter more than in PvE, weapon skill ''has no impact
-  for pvp'' [amanagor p=137000], and the class has no armor penetration answer to plate. No fuller PvP order exists in the
-  corpus.'
-caps: {}
+  note_1181: 'Guide: 8% ranged hit, then agility/crit for burst; BM wants stamina + resilience because the pet gets no resilience
+    [[d:hunter#1492801526450884838]]'
+caps:
+  ranged_hit: 8.0% at 300 weapon skill (corrected from the forum KB's 9%) [single source, [[d:hunter#1491594913136115732]]]
 rotation_single:
 - priority: 1
-  action: 'Opener: Hunter''s Mark, pet attack, Concussive Shot, rank-1 Viper Sting on healers/dispellers to bait mana, then
-    Auto Shot + Multi-Shot + Steady/Arcane while standing still briefly between kites'
-  condition: range control
+  action: Aimed Shot then Arcane Shot (Enchanted Ammunition) from max range
+  condition: opener/burst; 2000+ vs armor [[d:hunter#1485349629468999740]]
 - priority: 2
-  action: Scatter Shot -> Feign Death (pet on follow/passive first) -> Freezing Trap -> walk to range -> Viper/Aimed
-  condition: melee closes the gap; place the trap first when possible since the DR fix halved post-Scatter trap duration
+  action: Scatter Shot -> step back -> Freezing Trap (6 s after Scatter, shared DR) or Frost Trap + Entrapment
+  condition: melee closing [[d:hunter#1470137121443549435]]
 - priority: 3
-  action: Wing Clip, Raptor Strike + Mongoose Bite, Intimidation (pet stun), Deterrence
-  condition: melee range without cooldowns
+  action: Concussive Shot kite, Steady/Arcane between autos; Arcane while moving
+  condition: target at range
 - priority: 4
-  action: Frost Trap kiting after Feign Death
-  condition: sustained kite
+  action: Wing Clip in melee (3 s cd), Deterrence/Feign Death as last resort
+  condition: target in dead zone [[d:hunter#1483806089668460695]]
 - priority: 5
-  action: Pet on target, Bestial Wrath when the pet is CC'd or for a kill window, Kill Command after every crit, Steady/Arcane
-    from range
-  condition: deep BM post-1.18.1
+  action: Multi-Shot as opener/finisher
+  condition: low-HP target [[d:hunter#1492280220827385956]]
 rotation_aoe: []
 aoe_threshold: 0
 cooldowns:
 - name: Feign Death
-  use_when: every 30 s; pet on follow+passive first or you stay in combat
+  use_when: every 30 s; pet on follow+passive first or you stay in combat. Not required for trinket swaps [single source,
+    [[d:hunter#1488026421480914985]]]
 - name: Rapid Fire
   use_when: only when the target is stationary/CC'd; stacks with Troll Berserking
 - name: Scatter Shot
   use_when: opener or to walk a target into a pre-placed trap; shares DR with Freezing Trap since 2024-09-04
 - name: Bestial Wrath / Kill Command
-  use_when: hold for the pet's CC-break, not for damage, unless a kill window is open (deep BM/post-1.18.1)
+  use_when: hold for the pet's CC-break, not for damage, unless a kill window is open (deep BM/post-1.18.1). Killing the pet
+    ends Bestial Wrath; BW cooldown dependence is the deep-BM counter-argument [contested, [[d:hunter#1494186537129218099]]]
+- name: PvP trinket
+  use_when: the ~2025-04 change made the trinket remove all CC on a 3-min CD, including Freezing Trap - the single biggest
+    hunter PvP nerf of the era [consensus, [[d:pvp-general#1370452815889174538]], [[d:pvp-general#1370726144814616629]], [[d:hunter#1476452767802593330]]]
+- name: Entrapment (Frost Trap)
+  use_when: root can proc on any tick but once per trap [[d:hunter#1486483467830300702]]
 resource_rules:
 - Hunters oom faster than casters ('40-50% less mana')
 - Feign Death + Aspect of the Viper between fights post-1.18.1; drink after Feign Death
 - Do not spam Viper Sting on a single dispelling target
-consumables: []
+consumables:
+- 'Engineering is the concrete PvP kit: Iron Grenade as a universal CC, thorium grenade to break melee range, sapper charges
+  for AoE; ''Engineer is a must for any serious PvP'' [consensus, [[d:hunter#1359785441813069986]], [[d:hunter#1011330049057767544]],
+  [[d:hunter#1362480243134304408]], [[d:hunter#1045527107918372884]]]'
+- PvP trinket + Limited Invulnerability Potion + Feign Death to reset; Free Action Potion vs rogue/warrior openers; flasks
+  are rare in PvP [single source, [[d:hunter#1491813464706912308]], [[d:hunter#1301973930600435826]]]
+- 'Post-1.18.1 PvP reward sets: Partisan is T2-equivalent, the third tier is T3/T3.5-equivalent, the T2 PvP set is ''garbage''
+  vs T1, WSG-exalted bracers beat T1 for BM; full PvP T3 is ~6.5 months of honour cap [consensus, [[d:hunter#1487247287905288242]],
+  [[d:hunter#1490738219749474304]], [[d:hunter#1487484988633907260]]]'
 mistakes_to_avoid:
 - Scatter Shot into a trap without pre-placing it (half duration since the DR fix)
 - Feigning with the pet still attacking (stays in combat) or Aimed Shot on a moving target
@@ -220,3 +286,393 @@ mistakes_to_avoid:
 - Standing in the 8-yd dead zone; swapping to Aspect of the Wolf just to hit a mob twice
 - Night Elf/Shadowmeld ambush builds - 'Turtle gimped that'
 - Trueshot Aura or cat pets in PvP
+- Relying on BM when the enemy can CC your pet and Bestial Wrath is down [[d:hunter#1494186537129218099]]
+matchups:
+- opponent: warrior
+  hunter_view: Favourable with cooldowns (Wing Clip -> Scatter -> Freezing Trap -> Aimed); Deterrence + Monkey gives ~90%
+    avoidance then the hunter is a free kill for ~5 min; FAP or a trap trinket flips it.
+  sources:
+  - '[[d:hunter#1484432155768524800]]'
+  - '[[d:pvp-general#1430283039140741252]]'
+  agreement: consensus
+  era: mixed
+- opponent: rogue
+  hunter_view: Worst melee matchup; Flare is the only reliable opener-beater; a rogue trinkets the trap, pops Evasion+Sprint
+    and closes; post-1.18.1 the 0/35/16 MM build (Imp Concussive + Entrapment + Imp Wing Clip + Survivalist) is the answer
+    and FAP is the counter.
+  sources:
+  - '[[d:hunter#1470093864181432481]]'
+  - '[[d:hunter#1326222040298160231]]'
+  agreement: consensus
+  era: mixed
+- opponent: mage
+  hunter_view: 'Historic hunter win line: pre-place Freezing Trap to deny the deadzone, unload at range, scatter for space,
+    FD/Scatter to deny Polymorph; post-1.18.1 MM burst is ''a lot of burst in PvP''.'
+  sources:
+  - '[[d:hunter#1091322585456852992]]'
+  - '[[d:hunter#1466515448756699301]]'
+  agreement: consensus
+  era: mixed
+- opponent: warlock
+  hunter_view: 'Losing matchup for most; DoTs ignore kiting and Soul Link tanks the damage. Counterplay: Scatter/FD/Intimidation
+    to break the Drain, Frost Reflector, wind-serpent pressure, save the trinket for Seduce/Fear.'
+  sources:
+  - '[[d:hunter#1458532977729339402]]'
+  - '[[d:hunter#1300134126527058014]]'
+  agreement: consensus
+  era: mixed
+- opponent: priest
+  hunter_view: Shadow priest is 'nearly impossible' for many (DoTs + PW:Shield + fear); a burst build can delete them before
+    fear lands or a melee SV/BM pressure build beats under-geared priests.
+  sources:
+  - '[[d:hunter#1458532977729339402]]'
+  - '[[d:hunter#1113375997530734623]]'
+  agreement: contested
+  era: mixed
+- opponent: paladin
+  hunter_view: 'The ''how do I kill it'' matchup: Freedom negates the kite, bubble eats burst, plate blunts ranged, instant
+    Viper dispel. Full duel plan exists (stamina, deep-MM, don''t Scatter into trap, Cheetah-kite, Deterrence during bubble);
+    post-2025 buffed hybrids made it worse and Survival is the anti-paladin answer.'
+  sources:
+  - '[[d:pvp-general#1120255181372796948]]'
+  - '[[d:pvp-general#1370735231186899026]]'
+  - '[[d:hunter#1373425084433432749]]'
+  agreement: contested
+  era: pre-1.18.1
+- opponent: shaman
+  hunter_view: 'Contested: early ''shaman is real kiteable'' vs later enhancement too tanky (Frost Shock + Earthbind drags
+    the hunter into the deadzone, ''if windfury procs you die'') and elemental a burst race needing nature resist.'
+  sources:
+  - '[[d:hunter#1425284868094562335]]'
+  - '[[d:hunter#1458532977729339402]]'
+  agreement: contested
+  era: 1.18.1-announced-pre-release
+- opponent: druid
+  hunter_view: 'Form-dependent and mostly unfavourable: bear ''unkillable and unslowable'', boomkin out-ranges, cat most manageable
+    but bleeds + run speed hurt; the WSG job is stopping the druid flag carrier; post-1.18.1 the BM pet is the liability.'
+  sources:
+  - '[[d:hunter#1368546452514672731]]'
+  - '[[d:hunter#1302063672138403880]]'
+  agreement: consensus
+  era: pre-1.18.1
+- opponent: hunter_mirror
+  hunter_view: The one matchup the low-geared 2025 poster felt confident in; whoever controls the deadzone and lands Scatter/Entrapment
+    first wins, and a fast-attack pet keeps pushback on the other hunter.
+  sources:
+  - '[[d:hunter#1425287154505875497]]'
+  - '[[d:hunter#949500178526777406]]'
+  agreement: single source
+  era: mixed
+discord:
+  channel: hunter
+  scope: 'PvP additions from the archived #hunter Discord cross-read with #pvp-general. Every claim carries [[d:hunter#<id>]]
+    or [[d:pvp-general#<id>]], an era (pre-1.18.1 | 1.18.1-announced-pre-release | post-1.18.1) and agreement (consensus |
+    single source | contested).'
+  builds:
+  - name: Post-1.18.1 Survival PvP 8/5/38 — the forum KB's Survival-PvP gap, closed
+    split:
+      Beast Mastery: 8
+      Marksmanship: 5
+      Survival: 38
+    code: FAD-F-YQaYDJTAbIQoB
+    total_points: 51
+    source: '[[d:hunter#1489610500349231196]]'
+    era: post-1.18.1
+    agreement: single source
+    note: 'Asked in-channel ''PVP SURVIVAL spec?'', undecided between Improved Concussive 5 vs 5 BM points and between Entrapment
+      / Improved Wing Clip weights [single source, [[d:hunter#1489645781106294905]]]. The forum KB flagged Survival PvP as
+      gap #3; this is the first post-1.18.1 SV PvP build link found.'
+    allocation:
+    - tree: Beast Mastery
+      talent: Swift Aspects
+      rank: 5
+      talent_id: 373
+      spell_id: 19556
+    - tree: Beast Mastery
+      talent: Improved Primal Aspects
+      rank: 3
+      talent_id: 376
+      spell_id: 19551
+    - tree: Marksmanship
+      talent: Improved Concussive Shot
+      rank: 5
+      talent_id: 412
+      spell_id: 19415
+    - tree: Survival
+      talent: Improved Slaying
+      rank: 3
+      talent_id: 392
+      spell_id: 45979
+    - tree: Survival
+      talent: Swift Reflexes
+      rank: 2
+      talent_id: 394
+      spell_id: 19297
+    - tree: Survival
+      talent: Entrapment
+      rank: 3
+      talent_id: 395
+      spell_id: 19388
+    - tree: Survival
+      talent: Savage Strikes
+      rank: 2
+      talent_id: 396
+      spell_id: 19160
+    - tree: Survival
+      talent: Improved Wing Clip
+      rank: 3
+      talent_id: 397
+      spell_id: 19233
+    - tree: Survival
+      talent: Survivalist
+      rank: 3
+      talent_id: 400
+      spell_id: 19257
+    - tree: Survival
+      talent: Carve
+      rank: 1
+      talent_id: 401
+      spell_id: 51575
+    - tree: Survival
+      talent: Deterrence
+      rank: 1
+      talent_id: 402
+      spell_id: 19263
+    - tree: Survival
+      talent: Stinging Nettle
+      rank: 2
+      talent_id: 403
+      spell_id: 51580
+    - tree: Survival
+      talent: Surefooted
+      rank: 3
+      talent_id: 404
+      spell_id: 24283
+    - tree: Survival
+      talent: Killer Instinct
+      rank: 3
+      talent_id: 406
+      spell_id: 19373
+    - tree: Survival
+      talent: Trap Mastery
+      rank: 3
+      talent_id: 407
+      spell_id: 51581
+    - tree: Survival
+      talent: Lacerate
+      rank: 1
+      talent_id: 408
+      spell_id: 48049
+    - tree: Survival
+      talent: Vicious Strikes
+      rank: 2
+      talent_id: 409
+      spell_id: 51585
+    - tree: Survival
+      talent: Lightning Reflexes
+      rank: 5
+      talent_id: 410
+      spell_id: 24297
+    - tree: Survival
+      talent: Untamed Trapper
+      rank: 1
+      talent_id: 411
+      spell_id: 51586
+  - name: Post-1.18.1 Marksmanship PvP 0/35/16
+    split:
+      Marksmanship: 35
+      Survival: 16
+    code: -FAAoRDQoJDQgB-YQYYF
+    total_points: 51
+    source: '[[d:hunter#1492279311280115932]], [[d:hunter#1484432155768524800]]'
+    era: post-1.18.1
+    agreement: single source
+    note: 'Author (yaboikeenser) describes it as ''MM pvp with survival entrapment talents + carve + deterrence''. The decoded
+      link has neither Carve nor Deterrence (16 SV: Improved Slaying 3, Swift Reflexes 2, Entrapment 3, Improved Wing Clip
+      3, Survivalist 5), so the quote and the code disagree on the SV points - flagged, code retained as authoritative.'
+    allocation:
+    - tree: Marksmanship
+      talent: Improved Concussive Shot
+      rank: 5
+      talent_id: 412
+      spell_id: 19415
+    - tree: Marksmanship
+      talent: Lethal Shots
+      rank: 5
+      talent_id: 415
+      spell_id: 19431
+    - tree: Marksmanship
+      talent: Hawk Eye
+      rank: 2
+      talent_id: 416
+      spell_id: 19499
+    - tree: Marksmanship
+      talent: Aimed Shot
+      rank: 1
+      talent_id: 417
+      spell_id: 19434
+    - tree: Marksmanship
+      talent: Swiftshot
+      rank: 3
+      talent_id: 418
+      spell_id: 19456
+    - tree: Marksmanship
+      talent: Endless Quiver
+      rank: 2
+      talent_id: 419
+      spell_id: 51518
+    - tree: Marksmanship
+      talent: Mortal Shots
+      rank: 5
+      talent_id: 420
+      spell_id: 19490
+    - tree: Marksmanship
+      talent: Scatter Shot
+      rank: 1
+      talent_id: 421
+      spell_id: 19503
+    - tree: Marksmanship
+      talent: Experimental Ammunition
+      rank: 1
+      talent_id: 422
+      spell_id: 58108
+    - tree: Marksmanship
+      talent: Barrage
+      rank: 3
+      talent_id: 424
+      spell_id: 24691
+    - tree: Marksmanship
+      talent: Improved Marksmanship
+      rank: 2
+      talent_id: 425
+      spell_id: 51516
+    - tree: Marksmanship
+      talent: Ranged Weapon Specialization
+      rank: 4
+      talent_id: 426
+      spell_id: 19510
+    - tree: Marksmanship
+      talent: Lock and Load
+      rank: 1
+      talent_id: 427
+      spell_id: 52920
+    - tree: Survival
+      talent: Improved Slaying
+      rank: 3
+      talent_id: 392
+      spell_id: 45979
+    - tree: Survival
+      talent: Swift Reflexes
+      rank: 2
+      talent_id: 394
+      spell_id: 19297
+    - tree: Survival
+      talent: Entrapment
+      rank: 3
+      talent_id: 395
+      spell_id: 19388
+    - tree: Survival
+      talent: Improved Wing Clip
+      rank: 3
+      talent_id: 397
+      spell_id: 19233
+    - tree: Survival
+      talent: Survivalist
+      rank: 5
+      talent_id: 400
+      spell_id: 19259
+  - name: 'Deep-Marksmanship PvP (pre-1.18.1): 0/31/20 (BG) and 0/24/27 (duels)'
+    source: '[[d:hunter#1171102722871799931]], [[d:pvp-general#1120255181372796948]]'
+    era: pre-1.18.1
+    agreement: single source
+    note: '''In battle grounds I would go 0/31/20. for dueling 0/24/27 or 0/21/30. The only thing non-negotiable is having
+      scatter shot.'' The forum KB only discussed 0/21/30 and 30/21/0; a #pvp-general plan also runs 0/31/20 or 5/31/15.'
+  - name: Post-1.18.1 BM PvP sketch (no link posted)
+    source: '[[d:hunter#1485052986911883385]]'
+    era: post-1.18.1
+    agreement: single source
+    note: '''MM down to scatter, then BM down to 2 points in spirit bond (and intimidation) has to be the move right? 2 stuns,
+      20% stun chance from conc too, bestial wrath, just missing frenzy and kill command?'' - asked, no posted link. BM PvP
+      pet must have a sprint/dash [single source, [[d:hunter#1492651231305273414]]].'
+  corrections:
+  - claim: '30/21/0 timeline: already the recommended shape before Nov 2024 (''the best pvp spec is going to be some kind
+      of scatter shot / intimidation build'' [2022, [[d:hunter#979448951113670756]]]); many hunters moved to 0/21/30 after
+      the 2024-09-04 shared-DR fix; post-1.18.1 it is explicitly a fallback, not the recommendation [consensus, [[d:hunter#1280900374596812912]],
+      [[d:hunter#1484432155768524800]]].'
+    era: mixed
+    agreement: consensus
+  - claim: PvP dampening applies to all PvP including duels [single source, [[d:hunter#1485349738449469510]]]; post-1.18.1
+      pets reportedly receive no dampened damage, which is the reason deep BM works [single source, [[d:hunter#1490803074963476650]]];
+      a later undated 'stealth dampening change' was felt by MM [single source, [[d:hunter#1487217168977498152]]]. No staff
+      confirmation.
+    era: post-1.18.1
+    agreement: contested
+  - claim: 'Racial advice: keeps Gnome best Alliance but adds a competing camp (''meld is bis for pvp'', nelf for AB defence
+      [ [[d:hunter#1166672654351212566]], [[d:hunter#1090547916235604079]] ]) and a strong Tauren camp (''warstomp is best
+      hunter racial, being able to stun someone in your deadzone/melee range, and then cheetah away'' [ [[d:hunter#1453792390098714936]]
+      ]); undead is for fear/Seduce vs locks [single source, [[d:hunter#1456421765013049395]]].'
+    era: mixed
+    agreement: contested
+  - claim: 'Pet training-point priority for PvP: BiS DPS skill > needed resist > rank 8/9 Greater Stamina > leftovers into
+      other resists/armor/dash/bite/claw [single source (guide writer), [[d:hunter#1438241842159423529]]].'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+  pets:
+  - claim: Attack speed matters in PvP for spell pushback vs casters ('faster pet attack speed is fucking amazing... it causes
+      spell pushback'); ZG bats and Broken Tooth at 1.0 speed were BiS for that [consensus, [[d:hunter#949500178526777406]],
+      [[d:hunter#979087162496647189]]].
+    era: pre-1.18.1
+    agreement: consensus
+  - claim: 'Post-1.18.1 BM PvP pet is the wind serpent, but only with a sprint: ''I dont think id use any pet for bm pvp that
+      didnt have sprint'' [single source, [[d:hunter#1492651231305273414]]]; the spider is the most annoying PvP pet [single
+      source, [[d:hunter#1491084492012654592]]].'
+    era: post-1.18.1
+    agreement: single source
+  - claim: For Survival PvP the spider is 'a must' for the web/root; scorpid + raptor are also solid depending on target immunities
+      (nature vs bleed) [consensus, [[d:hunter#1454765734562496595]], [[d:hunter#1487807112577941564]]].
+    era: mixed
+    agreement: consensus
+  bg_role:
+  - claim: 'The hunter''s BG value is defensive/utility, not frontline: traps (with Shadowmeld for Alliance) hold positions
+      while warlocks do the offensive FC work [single source, [[d:pvp-general#1427354322395463682]]].'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+  - claim: Entrapment locks down chokepoints ('amazing for pvp, AV especially'); concrete BG play is pet on aggro + explosive
+      trap + Flare, Eagle Eye other bases, call rotations, don't try to solo nodes [consensus, [[d:hunter#1489619404449779883]],
+      [[d:hunter#1491490030517092362]]].
+    era: post-1.18.1
+    agreement: consensus
+  - claim: Night Elf/Shadowmeld stealth + pet prowl ambush on cappers; for AV the recommendation was MM/BM with an owl or
+      stealthed cat [single source, [[d:hunter#1166672654351212566]], [[d:hunter#1043898429346168832]]].
+    era: pre-1.18.1
+    agreement: single source
+  standing:
+  - claim: 'Pre-1.18.1: ''hunter kind of loses every 1v1 in pvp'' - the class-by-class losing wall (gear-dependent) [single
+      source, [[d:hunter#1425287154505875497]], [[d:hunter#1425274763416174624]]] - vs ''the first time in twows history that
+      bm is really viable in pvp'' and a BM/marks hybrid as ''the best control'' [contested, [[d:hunter#1453645768895234148]],
+      [[d:hunter#1470128511980142696]]].'
+    era: 1.18.1-announced-pre-release
+    agreement: contested
+  - claim: 'Post-1.18.1 the class is noticeably better: ''MM hunter has good burst in pvp now'' and ''mm and bm hunters are
+      good in pvp now'' [consensus, [[d:hunter#1485350312440107078]], [[d:hunter#1489572362868359298]]]; but ''if u dont have
+      the BW CD you are a bit of a deadweight as soon as there is a mage/druid smart enough to cc ur pet'' [single source,
+      [[d:hunter#1494186537129218099]]].'
+    era: post-1.18.1
+    agreement: contested
+  - claim: 'Deadzone debate (2026-03): remove/reduce it (loss of Counterattack/Wing Clip/DR counterplay [ [[d:hunter#1483805909397274785]]
+      ]) vs ''Dead zone is part of the vanilla hunter'' [ [[d:hunter#1483806089668460695]] ]; a feared post-release ''5 yards
+      deadzone + Aimed Shot healing reduction'' change [ [[d:hunter#1485331067664601261]] ]. Unresolved.'
+    era: mixed
+    agreement: contested
+  sources:
+  - '[[d:hunter#1412681801339764817]] - Dresche pinned Hunter FAQ (PvP pet training)'
+  - '[[d:hunter#1490682120815775965]] - Vellasta TWoW Hunter Simulator'
+  - '[[d:hunter#1488624322686746945]] - MetaHunt 1.18.1 tooling'
+leveling_order_note: Level as Beast Mastery (guide/classes/hunter/leveling.md).
+guide: guide/classes/hunter/pvp.md
+stat_priority:
+- stamina
+- hit
+stat_priority_note: 'The only stats the PvP sources rank: stamina and hit matter more than in PvE, weapon skill ''has no impact
+  for pvp'' [amanagor p=137000], and the class has no armor penetration answer to plate. No fuller PvP order exists in the
+  corpus.'

@@ -81,6 +81,22 @@ function checkSection(s, where) {
   if (!isString(s.markdown)) fail(`${where}: section.markdown must be a string`);
 }
 
+function checkGuideDoc(d, where) {
+  if (!isObject(d)) return fail(`${where}: guide page is not an object`);
+  for (const k of ['slug', 'title', 'intro', 'sourceFile']) if (!isString(d[k])) fail(`${where}: ${k} must be a string`);
+  if (!isArray(d.sections)) return fail(`${where}: sections must be an array`);
+  d.sections.forEach((s, i) => checkSection(s, `${where}.sections[${i}]`));
+}
+
+/** Guide Markdown: no raw [[d:…]] left, and every Discord chip in the shape the sanitizer keeps. */
+const DISCORD_CHIP =
+  /<a class="cite cite-discord" href="https:\/\/github\.com\/[^"]+\/structured\/discord\/evidence-[a-z0-9_-]+\.jsonl#L\d+" title="[^"<>|]*">[^<|]*<\/a>|<span class="cite cite-discord cite-unknown" title="[^"<>|]*">[^<|]*<\/span>/g;
+function checkGuideMarkdown(md, where) {
+  if (!isString(md)) return;
+  if (md.includes('[[d:')) fail(`${where}: unrendered [[d:…]] citation`);
+  if (md.replace(DISCORD_CHIP, '').includes('cite-discord')) fail(`${where}: malformed Discord citation chip`);
+}
+
 function checkLevelingSection(s, where) {
   checkSection(s, where);
   if (s.items === undefined) {
@@ -140,6 +156,26 @@ if (!isArray(data.classes)) {
     else c.matrix.forEach((r, i) => checkMatrixRow(r, `${where}.matrix[${i}]`));
     if (!isNullableString(c.gaps)) fail(`${where}: gaps must be a string or null`);
     if (!isNullableString(c.patchChanges)) fail(`${where}: patchChanges must be a string or null`);
+    if (c.guidePath !== undefined && !isNullableString(c.guidePath)) fail(`${where}: guidePath must be a string or null`);
+    if (c.overview !== undefined && !isNullableString(c.overview)) fail(`${where}: overview must be a string or null`);
+    if (c.sources !== undefined && c.sources !== null) checkGuideDoc(c.sources, `${where}.sources`);
+    if (c.guidePages !== undefined) {
+      if (!isArray(c.guidePages)) fail(`${where}: guidePages must be an array`);
+      else c.guidePages.forEach((d, i) => checkGuideDoc(d, `${where}.guidePages[${i}]`));
+    }
+    if (chosen.kind === 'generated') {
+      for (const k of ['guidePath', 'overview', 'sources', 'guidePages'])
+        if (!(k in c)) fail(`${where}: missing key "${k}" (use null / [] when absent)`);
+    }
+    if (c.guidePath) {
+      if (!c.sources) warn(`${where}: guide class without a sources page`);
+      checkGuideMarkdown(c.overview, `${where}.overview`);
+      checkGuideMarkdown(c.patchChanges, `${where}.patchChanges`);
+      (c.readme ?? []).forEach((s, i) => checkGuideMarkdown(s?.markdown, `${where}.readme[${i}]`));
+      [c.sources, ...(c.guidePages ?? [])].filter(Boolean).forEach((d) =>
+        (d.sections ?? []).forEach((s, i) => checkGuideMarkdown(s?.markdown, `${where}.${d.slug}[${i}]`)),
+      );
+    }
 
     if (c.leveling !== null && c.leveling !== undefined) {
       levelingCount += 1;
@@ -170,13 +206,23 @@ if (!isArray(data.classes)) {
           if (!(key in p.sections)) fail(`${pw}.sections: missing key "${key}" (use null when absent)`);
           else if (p.sections[key] !== null) checkSection(p.sections[key], `${pw}.sections.${key}`);
         }
+        for (const key of ['enchants', 'consumables']) {
+          if (key in p.sections && p.sections[key] !== null) checkSection(p.sections[key], `${pw}.sections.${key}`);
+        }
         if (p.sections.overview === null) warn(`${pw}: sections.overview is null`);
-        if (p.sections.sources === null) warn(`${pw}: sections.sources is null`);
+        // guide pages cite inline and share the class sources page
+        if (p.sections.sources === null && !p.guidePath) warn(`${pw}: sections.sources is null`);
+        if (p.guidePath) {
+          Object.entries(p.sections).forEach(([k, s]) => checkGuideMarkdown(s?.markdown, `${pw}.sections.${k}`));
+          (p.extraSections ?? []).forEach((s, i) => checkGuideMarkdown(s?.markdown, `${pw}.extraSections[${i}]`));
+        }
       }
       if (!isArray(p.extraSections)) fail(`${pw}: extraSections must be an array`);
       else p.extraSections.forEach((s, i) => checkSection(s, `${pw}.extraSections[${i}]`));
       if (p.standing !== null && p.standing !== undefined) checkMatrixRow(p.standing, `${pw}.standing`);
       if (p.yaml !== null && p.yaml !== undefined && !isObject(p.yaml)) fail(`${pw}: yaml must be an object or null`);
+      if (p.guidePath !== undefined && !isNullableString(p.guidePath)) fail(`${pw}: guidePath must be a string or null`);
+      if (p.guidePath && !c.guidePath) fail(`${pw}: guide playbook in a class that is not built from its guide`);
     });
 
     /* optional gear data (rendered only when present) */
@@ -250,6 +296,98 @@ if (!isObject(data.meta)) {
   }
 }
 
+/* ---- instances.json (optional: dungeon and raid pages) ------------------- */
+let instanceCount = 0;
+const instancesPath = join(chosen.dir, 'instances.json');
+if (existsSync(instancesPath)) {
+  let inst = null;
+  try {
+    inst = JSON.parse(readFileSync(instancesPath, 'utf8'));
+  } catch (err) {
+    fail(`instances.json does not parse: ${err.message}`);
+  }
+  if (inst !== null && !isObject(inst)) fail('instances.json must be an object');
+  else if (inst) {
+    for (const k of ['title', 'intro', 'sourceFile']) if (!isString(inst[k])) fail(`instances.${k} must be a string`);
+    const KINDS = new Set(['dungeon', 'raid']);
+    const pages = isArray(inst.pages) ? inst.pages : (fail('instances.pages must be an array'), []);
+    const groups = isArray(inst.groups) ? inst.groups : (fail('instances.groups must be an array'), []);
+    instanceCount = pages.length;
+    const slugs = new Set();
+    const classSlugs = new Set(isArray(data.classes) ? data.classes.map((c) => c.slug) : []);
+    /** Relative .md links must have become routes; routes must resolve. */
+    const checkLinks = (md, where) => {
+      if (!isString(md)) return;
+      checkGuideMarkdown(md, where);
+      const rel = md.match(/\]\((?!https?:|#\/|mailto:)[^)]*\.md(?:#[^)]*)?\)/g);
+      if (rel) fail(`${where}: unrewritten relative links ${rel.slice(0, 3).join(' ')}`);
+      if (md.includes('/guide/instances/')) fail(`${where}: instance link left as a repository URL`);
+      for (const m of md.matchAll(/\]\(#\/instances\/([^)\s#]+)\)/g))
+        if (!pageSlugs.has(m[1])) fail(`${where}: link to unknown instance page "${m[1]}"`);
+      for (const m of md.matchAll(/\]\(#\/class\/([a-z]+)/g))
+        if (!classSlugs.has(m[1])) fail(`${where}: link to unknown class "${m[1]}"`);
+    };
+    const pageSlugs = new Set(pages.map((p) => p?.slug));
+    pages.forEach((p, i) => {
+      const where = `instances.pages[${i}] (${p?.slug ?? '?'})`;
+      if (!isObject(p)) return fail(`${where}: not an object`);
+      for (const k of ['slug', 'title', 'intro', 'sourceFile']) if (!isString(p[k])) fail(`${where}: ${k} must be a string`);
+      if (slugs.has(p.slug)) fail(`${where}: duplicate slug`);
+      slugs.add(p.slug);
+      if (p.kind !== null && !KINDS.has(p.kind)) fail(`${where}: kind "${p.kind}" is not dungeon|raid|null`);
+      if (p.kind === null) warn(`${where}: not listed in the instance index`);
+      if (!isNullableString(p.group)) fail(`${where}: group must be a string or null`);
+      if (!isArray(p.sections)) return fail(`${where}: sections must be an array`);
+      const ids = new Set();
+      p.sections.forEach((s, j) => {
+        checkSection(s, `${where}.sections[${j}]`);
+        if (ids.has(s?.id)) fail(`${where}.sections[${j}]: duplicate section id "${s?.id}"`);
+        ids.add(s?.id);
+        checkLinks(s?.markdown, `${where}.sections[${j}]`);
+      });
+      checkLinks(p.intro, `${where}.intro`);
+    });
+    checkLinks(inst.intro, 'instances.intro');
+    const listed = new Set();
+    groups.forEach((g, i) => {
+      const where = `instances.groups[${i}] (${g?.id ?? '?'})`;
+      if (!isObject(g)) return fail(`${where}: not an object`);
+      for (const k of ['id', 'heading', 'markdown']) if (!isString(g[k])) fail(`${where}: ${k} must be a string`);
+      if (g.kind !== null && !KINDS.has(g.kind)) fail(`${where}: kind "${g.kind}" is not dungeon|raid|null`);
+      if (!isArray(g.slugs)) return fail(`${where}: slugs must be an array`);
+      for (const slug of g.slugs) {
+        listed.add(slug);
+        if (!pageSlugs.has(slug)) fail(`${where}: index links to unknown page "${slug}"`);
+        else if (!g.markdown.includes(`](#/instances/${slug})`)) fail(`${where}: "${slug}" has no route link`);
+      }
+      checkLinks(g.markdown, where);
+    });
+    for (const slug of pageSlugs) if (!listed.has(slug)) warn(`instances: page "${slug}" is not linked from the index`);
+    const counts = data.meta?.instanceCounts;
+    if (chosen.kind === 'generated') {
+      if (!isObject(counts)) fail('meta.instanceCounts must be an object when instances.json exists');
+      else {
+        const actual = {
+          pages: pages.length,
+          dungeons: pages.filter((p) => p.kind === 'dungeon').length,
+          raids: pages.filter((p) => p.kind === 'raid').length,
+        };
+        for (const [k, v] of Object.entries(actual))
+          if (counts[k] !== v) fail(`meta.instanceCounts.${k} is ${counts[k]} but instances.json holds ${v}`);
+      }
+    }
+    // class guide pages link to instances as routes that resolve
+    for (const c of isArray(data.classes) ? data.classes : []) {
+      const text = JSON.stringify(c);
+      if (text.includes('/guide/instances/')) fail(`classes (${c.slug}): links to guide/instances/ on GitHub`);
+      for (const m of text.matchAll(/\]\(#\/instances\/([^)\s#]+)\)/g))
+        if (!pageSlugs.has(m[1])) fail(`classes (${c.slug}): link to unknown instance page "${m[1]}"`);
+    }
+  }
+} else if (chosen.kind === 'generated' && data.meta?.instanceCounts?.pages) {
+  fail('meta.instanceCounts.pages is set but instances.json is missing');
+}
+
 /* ---- cross-references ---------------------------------------------------- */
 if (isArray(data.classes) && isObject(data.matrix) && isArray(data.matrix.rows)) {
   const slugs = new Set(data.classes.map((c) => String(c.slug).toLowerCase()));
@@ -269,7 +407,7 @@ const label = chosen.kind === 'generated' ? 'src/data' : 'src/data/fixtures (dev
 console.log(`check-data: ${label}`);
 console.log(
   `  ${isArray(data.classes) ? data.classes.length : 0} classes, ${playbookCount} playbooks, ${levelingCount} leveling guides, ` +
-    `${isArray(data.matrix?.rows) ? data.matrix.rows.length : 0} matrix rows, ${isArray(data.glossary) ? data.glossary.length : 0} glossary terms`,
+    `${isArray(data.matrix?.rows) ? data.matrix.rows.length : 0} matrix rows, ${isArray(data.glossary) ? data.glossary.length : 0} glossary terms, ${instanceCount} instance pages`,
 );
 warnings.slice(0, 20).forEach((w) => console.log(`  ! ${w}`));
 if (warnings.length > 20) console.log(`  ! …and ${warnings.length - 20} more warnings`);

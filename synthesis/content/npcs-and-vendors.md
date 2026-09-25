@@ -553,9 +553,23 @@ Outdoor **world bosses** (Nerubian Overseer, Ostarius of Uldum, Concavius) are c
 
 ---
 
+## 4a. Discord additions (archived `#turtle-wiki`)
+
+The archived `#turtle-wiki` channel names two service NPCs/items the wiki does not, and flags the practical loot-lookup source. Era: `pre-1.18.1` (<2025-10-03), `1.18.1-announced-pre-release` (2025-10-03 → 2026-03-19), `post-1.18.1` (≥2026-03-20).
+
+| NPC / item | Detail | Era | Agreement | Cite |
+|---|---|---|---|---|
+| **Magistrix Ishalah** (Alah'Thalas) | the mage **portal trainer**, reached via the Translocator Orb above the hunter trainers | 1.18.1-announced-pre-release | single source (player) | [[d:turtle-wiki#1305945437571907656]] |
+| Gilneas boot-enchant vendor (name not given) | sells the **Vampirism** boot enchant, which also drops from the **last boss of Gilneas City** | pre-1.18.1 | single source (guide writer) | [[d:turtle-wiki#1166800531885400134]] |
+| AtlasLoot Turtle fork | Valaen points players at the **AtlasLoot Turtle fork** as the practical source for gemstone/custom-boss loot, rather than the wiki or database; custom Scarlet Monastery bosses were missing from both the database and AtlasLoot | 1.18.1-announced-pre-release | single source (player) | [[d:turtle-wiki#1385243025638297731]], [[d:turtle-wiki#1351907901970841721]] |
+
+The channel also corroborates two roster facts already documented above: **Feebeld** the Survival trainer at Rustgate Ridge (Blackstone Island), and that high elves/goblins have unicorn/rocket-car mounts with no dedicated wiki pages at the time — [Aeliren (guide writer), 2024-12-24](https://discord.com/channels/466622455805378571/976193120809123881/1321196482417660008).
+
+---
+
 ## 5. Gaps and unclear points
 
-1. **No vendor inventories anywhere.** This is the defining gap. Everything a vendor sells is known only through the item database, which is not extracted. The only stocked items with a price in this whole corpus are the eight rows in §2.
+1. **No vendor inventories anywhere.** This is the defining gap. Everything a vendor sells is known only through the item database, which is not extracted. The only stocked items with a price in this whole corpus are the eight rows in §2; Discord adds one **named** inventory item (**Vampirism**, Gilneas, §4a) with no price, and one trainer name (**Magistrix Ishalah**).
 2. **Essentially no coordinates.** One X/Y pair exists in the whole corpus (Stickypaws, Gilneas ~50,39). The wiki `location` field is a sub-zone name and never a coordinate.
 3. **Faction quartermasters for six custom reputations are unnamed** — see `factions.md` §4.
 4. **The Jewelcrafting trainers are named only in a player guide**, not by staff or the wiki: Brandon Fencer and Kalvan Fencer (Stormwind), Farbus Barleymantle and Mayva Togview (Ironforge), Asoran and Kalnag (Orgrimmar), Edgar Tullson and Mayvelle Tonberg (Undercity), Gelpan Rizspark and Tacknazz Copperfire (Sparkwater Port), Gulmire Fartower (Undercity, Expert), Fanzy Sparkspring (Steamwheedle Port, Artisan) — [Speedz1337 (guide writer), 2024-11-04](https://forum.turtlecraft.gg/viewtopic.php?p=106310#p106310). No wiki NPC page in this extraction is tagged as a Jewelcrafting trainer, and the guide's list omits the Alah'Thalas trainer the official page implies.

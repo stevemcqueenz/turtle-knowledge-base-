@@ -1,6 +1,7 @@
 class: Warrior
 spec: Arms
 role: pvp
+guide: guide/classes/warrior/pvp.md
 sources:
 - url: https://forum.turtlecraft.gg/viewtopic.php?p=102974#p102974
   author: Dragunovi
@@ -126,137 +127,424 @@ sources:
   author: Mdzielak
   authority: player
   date: '2026-03-24'
-agreement: 'contested overall (F-tier vs strongest-with-support); consensus on: Arms for Mortal Strike, stamina gearing, play
-  with healers/dispellers, FAP and consumables, avoid 1v1 and enhancement shamans'
+agreement: 'contested overall (F-tier vs strongest-with-support); consensus on: stamina gearing, play with healers/dispellers,
+  FAP and consumables, avoid 1v1 and enhancement shamans. Post-CC3 the spec default flipped to Fury — ''2h fury is the best
+  2h pvp spec'' — so ''Arms is the PvP spec (Mortal Strike)'' is now contested [[d:warrior#1486355885612863549]], [[d:warrior#1488507175885082747]].
+  Post-1.18.1: warrior widely rated the weakest PvP class [[d:warrior#1488839076193894411]]; Arms only for organized teams
+  needing Mortal Strike [[d:warrior#1492893464516362280]]'
 patch_validity:
   written_for: CC3 / 1.18.0 kit; Hamstring-cooldown-era posts flagged
   valid_for_1181: true
-  notes: 1.18.1 removed the Hamstring cooldown (added at CC2) and made PvP dampening class-specific (numbers not in repo).
-    Master Strike (CC3) replaced Counterattack (CC2). Decisive Strike builds (pre-Dec-2024) obsolete. No post-1.18.1 re-evaluation.
+  notes: '1.18.1 removed the Hamstring cooldown (added at CC2) and made PvP dampening class-specific (numbers not in repo).
+    Master Strike (CC3) replaced Counterattack (CC2). Decisive Strike builds (pre-Dec-2024) obsolete. Discord post-CC3/1.18.1:
+    the default PvP spec flipped from Arms to Fury (Improved Berserker Rage root break); at live launch a player reports class-specific
+    dampening was NOT added [[d:warrior#1485326960132493414]] (contested).'
 talents:
-  build_name: Arms PvP (sourced pieces only)
+  build_name: Arms PvP 31/20 (casey-tweaked)
+  split: 31/20/0
+  code_tree_b64: FQSAKYDQpAQAB-FoAAJYCY-
+  calculator: https://xian55.github.io/tortoise-db-viewer/?talents=warrior&t=052220123325100201-550011323
   points:
   - tree: Arms
-    talent: Mortal Strike
-    rank: 1
-    spell_id: 12294
-    talent_id: 73
+    talent: Tactical Mastery
+    rank: 5
+    spell_id: 12679
   - tree: Arms
-    talent: Improved Hamstring
-    rank: null
-    spell_id: null
+    talent: Improved Rend
+    rank: 2
+    spell_id: 12658
   - tree: Arms
-    talent: Sweeping Strikes
-    rank: 1
-    spell_id: 12292
-    talent_id: 68
+    talent: Improved Charge
+    rank: 2
+    spell_id: 12697
+  - tree: Arms
+    talent: Deflection
+    rank: 2
+    spell_id: 16463
   - tree: Arms
     talent: Master Strike
     rank: 1
     spell_id: 54023
-    talent_id: 62
+  - tree: Arms
+    talent: Improved Overpower
+    rank: 2
+    spell_id: 12963
+  - tree: Arms
+    talent: Deep Wounds
+    rank: 3
+    spell_id: 12867
+  - tree: Arms
+    talent: Two-Handed Weapon Specialization
+    rank: 3
+    spell_id: 12712
+  - tree: Arms
+    talent: Impale
+    rank: 2
+    spell_id: 16494
   - tree: Arms
     talent: Master of Arms
     rank: 5
     spell_id: 51658
-    note: polearm +2 yd range (Manletow, single source)
-    talent_id: 67
   - tree: Arms
-    talent: Tactical Mastery
-    rank: 4
-    spell_id: 12678
-    note: Disarm needs 20 rage
-    talent_id: 57
-  - tree: Arms
-    talent: Improved Charge
+    talent: Sweeping Strikes
     rank: 1
-    spell_id: 12285
-    note: Charge gives 9 rage baseline; abilities need 10
-    talent_id: 59
+    spell_id: 12292
+  - tree: Arms
+    talent: Improved Slam
+    rank: 2
+    spell_id: 12330
+  - tree: Arms
+    talent: Mortal Strike
+    rank: 1
+    spell_id: 12294
   - tree: Fury
     talent: Booming Voice
-    rank: null
-    spell_id: 12321
-    note: level-19 build (stealth breaking)
-    talent_id: 93
+    rank: 5
+    spell_id: 12838
+  - tree: Fury
+    talent: Cruelty
+    rank: 5
+    spell_id: 12856
+  - tree: Fury
+    talent: Improved Shouts
+    rank: 1
+    spell_id: 51609
   - tree: Fury
     talent: Piercing Howl
     rank: 1
     spell_id: 12323
-    talent_id: 98
-  - tree: Protection
-    talent: Improved Intervene
+  - tree: Fury
+    talent: Blood Craze
+    rank: 3
+    spell_id: 16492
+  - tree: Fury
+    talent: Battlefield Mobility
     rank: 2
-    spell_id: 51592
-    note: root/snare immunity 3 s; row 3
-    talent_id: 80
+    spell_id: 20505
+  - tree: Fury
+    talent: Enrage
+    rank: 3
+    spell_id: 13046
   variants:
-  - name: Fury PvP (post-CC3)
-    points:
-    - tree: Fury
-      talent: Blood Drinker
-      rank: 3
-      spell_id: null
-    - tree: Fury
-      talent: Improved Berserker Rage
-      rank: 2
-      spell_id: null
-    - tree: Fury
-      talent: Death Wish
-      rank: 1
-      spell_id: null
-    - tree: Fury
-      talent: Enrage
-      rank: 5
-      spell_id: null
-    note: dual wield; Thunderfury procs trigger the heal (Eyeburn p=169850, single source)
-  - name: Protection PvP
-    note: Concussion Blow stun + Shield Slam dispel (Manletow p=112703); deep prot + Thunderfury vs enh shaman (ferundal p=168167);
-      widely considered a meme
-  leveling_order: []
-  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=warrior&t=040100100005100001-000001-0000002
-  build_link_tortoise_note: 'Generated from the sourced points list (16 points: Arms 13, Fury 1, Protection 2); the calculator
-    shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
-stat_weights: null
+  - name: Original post (Deflection 3, Improved Charge 1)
+    split: 31/20/0
+    code_tree_b64: FQLAKYDQpAQABA-FoAAJYCY-
+    calculator: https://xian55.github.io/tortoise-db-viewer/?talents=warrior&t=052130123325100201-550011323
+    source: '[[d:warrior#1491008034946682940]]'
+  - name: Thegodofdmg Arms PvP
+    split: 31/20/0
+    code_tree_b64: FQRAKYDQpDAAB-FoAAJYAo-
+    calculator: https://xian55.github.io/tortoise-db-viewer/?talents=warrior&t=052210123325103001-550011305
+    source: '[[d:warrior#1495515224004886678]]'
+  - name: DW Fury Blood Drinker PvP (solo)
+    split: 15/36/0
+    code_tree_b64: dQAAJY-DoFABYCoBAVYB-
+    calculator: https://xian55.github.io/tortoise-db-viewer/?talents=warrior&t=352000113-35500132500102531
+    source: '[[d:warrior#1423586624029069332]]'
+  leveling_order:
+  - level: 10
+    tree: Fury
+    talent: Cruelty
+    rank: 1
+  - level: 11
+    tree: Fury
+    talent: Cruelty
+    rank: 2
+  - level: 12
+    tree: Fury
+    talent: Cruelty
+    rank: 3
+  - level: 13
+    tree: Fury
+    talent: Cruelty
+    rank: 4
+  - level: 14
+    tree: Fury
+    talent: Cruelty
+    rank: 5
+  - level: 15
+    tree: Arms
+    talent: Improved Rend
+    rank: 1
+  - level: 16
+    tree: Arms
+    talent: Improved Rend
+    rank: 2
+  - level: 17
+    tree: Arms
+    talent: Tactical Mastery
+    rank: 1
+  - level: 18
+    tree: Arms
+    talent: Tactical Mastery
+    rank: 2
+  - level: 19
+    tree: Arms
+    talent: Tactical Mastery
+    rank: 3
+  - level: 20
+    tree: Arms
+    talent: Improved Thunder Clap
+    rank: 1
+  - level: 21
+    tree: Arms
+    talent: Improved Charge
+    rank: 1
+  - level: 22
+    tree: Arms
+    talent: Improved Charge
+    rank: 2
+  - level: 23
+    tree: Arms
+    talent: Tactical Mastery
+    rank: 4
+  - level: 24
+    tree: Arms
+    talent: Tactical Mastery
+    rank: 5
+  - level: 25
+    tree: Arms
+    talent: Improved Overpower
+    rank: 1
+  - level: 26
+    tree: Arms
+    talent: Improved Overpower
+    rank: 2
+  - level: 27
+    tree: Arms
+    talent: Deep Wounds
+    rank: 1
+  - level: 28
+    tree: Arms
+    talent: Deep Wounds
+    rank: 2
+  - level: 29
+    tree: Arms
+    talent: Deep Wounds
+    rank: 3
+  - level: 30
+    tree: Arms
+    talent: Two-Handed Weapon Specialization
+    rank: 1
+  - level: 31
+    tree: Arms
+    talent: Two-Handed Weapon Specialization
+    rank: 2
+  - level: 32
+    tree: Arms
+    talent: Two-Handed Weapon Specialization
+    rank: 3
+  - level: 33
+    tree: Arms
+    talent: Impale
+    rank: 1
+  - level: 34
+    tree: Arms
+    talent: Impale
+    rank: 2
+  - level: 35
+    tree: Arms
+    talent: Sweeping Strikes
+    rank: 1
+  - level: 36
+    tree: Arms
+    talent: Master Strike
+    rank: 1
+  - level: 37
+    tree: Arms
+    talent: Master of Arms
+    rank: 1
+  - level: 38
+    tree: Arms
+    talent: Master of Arms
+    rank: 2
+  - level: 39
+    tree: Arms
+    talent: Master of Arms
+    rank: 3
+  - level: 40
+    tree: Arms
+    talent: Master of Arms
+    rank: 4
+  - level: 41
+    tree: Arms
+    talent: Master of Arms
+    rank: 5
+  - level: 42
+    tree: Arms
+    talent: Improved Slam
+    rank: 1
+  - level: 43
+    tree: Arms
+    talent: Improved Slam
+    rank: 2
+  - level: 44
+    tree: Arms
+    talent: Improved Thunder Clap
+    rank: 2
+  - level: 45
+    tree: Arms
+    talent: Mortal Strike
+    rank: 1
+  - level: 46
+    tree: Fury
+    talent: Unbridled Wrath
+    rank: 1
+  - level: 47
+    tree: Fury
+    talent: Unbridled Wrath
+    rank: 2
+  - level: 48
+    tree: Fury
+    talent: Unbridled Wrath
+    rank: 3
+  - level: 49
+    tree: Fury
+    talent: Unbridled Wrath
+    rank: 4
+  - level: 50
+    tree: Fury
+    talent: Unbridled Wrath
+    rank: 5
+  - level: 51
+    tree: Fury
+    talent: Improved Shouts
+    rank: 1
+  - level: 52
+    tree: Fury
+    talent: Improved Shouts
+    rank: 2
+  - level: 53
+    tree: Fury
+    talent: Improved Shouts
+    rank: 3
+  - level: 54
+    tree: Fury
+    talent: Improved Shouts
+    rank: 4
+  - level: 55
+    tree: Fury
+    talent: Improved Shouts
+    rank: 5
+  - level: 56
+    tree: Fury
+    talent: Enrage
+    rank: 1
+  - level: 57
+    tree: Fury
+    talent: Enrage
+    rank: 2
+  - level: 58
+    tree: Fury
+    talent: Enrage
+    rank: 3
+  - level: 59
+    tree: Fury
+    talent: Enrage
+    rank: 4
+  - level: 60
+    tree: Fury
+    talent: Enrage
+    rank: 5
+  leveling_order_note: Virasan's pinned Arms no-respec order [[d:warrior#1364931945624240191]], validated 31/20/0 at 60 (code
+    FQQCKYDQpAQAB-AoAooAAo-)
+  leveling_order_code_tree_b64: FQQCKYDQpAQAB-AoAooAAo-
+  build_source: '[[d:warrior#1491011428860170341]]'
+  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=warrior&t=052220123325100201-550011323
+  build_link_tortoise_note: 'Generated from the sourced points list (51 points: Arms 31, Fury 20); the calculator shows the
+    remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
+stat_weights:
+- stat: stamina
+  verdict: first; glass-cannon (~4k HP) is the classic mistake
+  sources:
+  - '[[d:warrior#1452728250563297290]]'
+  agreement: consensus
+  era: 1.18.1-announced-pre-release
+- stat: armor
+  verdict: 'the real gate post-1.18.1: ''warrior can pvp when people got 0 armor''; proposed fixes are an armor cap at 5k,
+    remove crit/DoT reduction, real dampening'
+  sources:
+  - '[[d:warrior#1488851645558292670]]'
+  - '[[d:warrior#1488858716970160149]]'
+  - '[[d:warrior#1486057650713002115]]'
+  agreement: single source each
+  era: post-1.18.1
+- stat: weapon-top-end-damage
+  verdict: slow/high top-end 2H; post-1.18.1 Elementium Axe is the named PvP weapon, BRE the PvE one
+  sources:
+  - '[[d:warrior#1485934279493156884]]'
+  - '[[d:warrior#1491753844777160745]]'
+  agreement: single source
+  era: post-1.18.1
+- stat: hit
+  verdict: same cap logic as PvE; no PvP-specific number in sources
+- stat: crit/attack-power
+  verdict: after stamina/armor; set bonuses now carry huge str/crit/hit/stam/armor and reduce DoT/crit damage taken
+  sources:
+  - '[[d:warrior#1492257144588865787]]'
+  agreement: consensus
+  era: post-1.18.1
 stat_priority:
 - stamina
+- weapon-top-end-damage
 - hit
 - crit
 - attack-power
-stat_priority_note: 'Weapon top-end damage is not a character stat and so is not in the list, but it ranks second here: "your
-  base damage on weapon like BRE/MoM/DEI/severance should be more than enough" [Springboards p=162626]; "you need an endgame
-  weapon" [Terrydavis p=171279].'
 caps:
-  hp_unbuffed_target: 5.5k-7k (Springboards; player advice, not a cap)
-  hit: null
+  hit_pvp_pct:
+    value: 5
+    note: vs targets without defense; a bit over helps vs tank-geared players
+    sources:
+    - '[[d:warrior#1465822947771154716]]'
+    era: post-1.18.1
+  weapon_skill:
+    value: no effect in PvP (normalized to level*5; no glancing)
+    sources:
+    - '[[d:warrior#1474129063000936571]]'
+    - '[[d:warrior#1442161692598337691]]'
+    era: post-1.18.1
+  health_bg_min:
+    value: 6500
+    sources:
+    - '[[d:warrior#1465396531766231042]]'
+    era: post-1.18.1
 rotation_single:
 - priority: 0
-  action: Charge (out of combat) or Intercept (Berserker Stance) -> Hamstring
-  condition: opener; Bloodrage + Demoralizing Shout vs stealthed rogue
+  action: Charge -> auto -> Slam + Mortal Strike
+  condition: opener
+  sources:
+  - '[[d:warrior#1496077451577528390]]'
 - priority: 1
-  action: Mortal Strike
-  condition: off cooldown
-- priority: 2
-  action: Overpower
-  condition: target dodged (Battle Stance)
-- priority: 3
-  action: Execute
-  condition: target <= 20%
-- priority: 4
-  action: Master Strike
-  condition: 'situational CC by main-hand type: dagger silence / axe root / sword disarm / mace disorient'
-- priority: 5
-  action: Pummel
-  condition: enemy casting (Battle Stance since CC2)
-- priority: 6
-  action: Disarm
-  condition: vs melee; keep 20 rage
-- priority: 7
-  action: Intimidating Shout
-  condition: peel/escape; unreliable vs WotF/tremor
-- priority: 8
   action: Hamstring
-  condition: keep snare up; no cooldown since 1.18.1
+  condition: keep up (no cooldown)
+- priority: 2
+  action: Mortal Strike
+  condition: on cooldown, especially on healed targets
+- priority: 3
+  action: Bloodrage + Death Wish -> Execute
+  condition: target under 20%
+  sources:
+  - '[[d:warrior#1490662215882375268]]'
+- priority: 4
+  action: Overpower
+  condition: on dodge (strong vs rogues)
+  sources:
+  - '[[d:warrior#1435065004071194836]]'
+- priority: 5
+  action: Rend
+  condition: on plate/tanks; bleeds ignore armor
+  sources:
+  - '[[d:warrior#1461331450237423836]]'
+- priority: 6
+  action: Piercing Howl
+  condition: multiple kiting targets (Booming Voice range)
+  sources:
+  - '[[d:warrior#1457022734948241438]]'
+- priority: 7
+  action: Disarm
+  condition: melee with weapon (not fists / Weapon Chain)
+  sources:
+  - '[[d:warrior#1446923546918916287]]'
 rotation_aoe:
 - targets_min: 2
   priority: 1
@@ -276,14 +564,25 @@ rotation_aoe:
   condition: Manletow p=108331; use War Stomp if Tauren
 aoe_threshold: null
 cooldowns:
-- name: Free Action Potion
-  use_when: on cooldown in serious fights (consensus)
-- name: Recklessness / Retaliation / Shield Wall
-  use_when: shared 30-min CD; once per BG or two
+- name: Intercept
+  use_when: not within 5 s of Charge (shared stun DR); shares CD with Intervene
+  sources:
+  - '[[d:warrior#1465395209444524246]]'
+  - '[[d:warrior#1465395113869049946]]'
 - name: Berserker Rage
-  use_when: fear immunity; with Improved Berserker Rage a root/snare break every 30 s
-- name: Engineering gadgets
-  use_when: as available
+  use_when: break Fear / Repentance; baited by Fear -> Net
+  sources:
+  - '[[d:pvp-general#1433888687392817154]]'
+  - '[[d:pvp-general#1432168724714229770]]'
+- name: Shield Wall
+  use_when: needs shield; unequipping loses buff; shares CD with Recklessness
+  sources:
+  - '[[d:warrior#1460673521142333613]]'
+  - '[[d:warrior#1462506610068029502]]'
+- name: Pummel / Shield Bash
+  use_when: shared cooldown; one interrupt
+  sources:
+  - '[[d:warrior#1454776559570518109]]'
 resource_rules:
 - Every fight starts at 0 rage; Charge gives 9
 - Absorb shields give no rage (player complaint)
@@ -305,3 +604,142 @@ mistakes_to_avoid:
 - No FAP/consumables
 - Melee-ing enhancement shamans
 - Using 2024-11..2026-03 Hamstring-cooldown advice as current
+- 'Treating Arms as the default PvP spec post-CC3 without checking: ''Arms is also the worse choice outside of 3v3 arena or
+  hard premate'' [[d:warrior#1488506997602127883]]'
+- 'No FAP/engineering: ''there is skill expression in pvp with warrior but it''s usually smart usage of combat potions or
+  engineering items/trinkets'' [[d:warrior#1409975234857275402]]'
+- Expecting the PvP trinket to break sheep/trap/seduce (it cannot) [[d:pvp-general#1216689050057048134]]
+- Charge then Intercept within 5 s (target immune) [[d:warrior#1465395209444524246]]
+- Stacking weapon skill for PvP [[d:warrior#1474129063000936571]]
+- Trying to stack Sunder in PvP [[d:warrior#1489647195371077812]]
+discord_builds:
+  note: decoded from 1.18.x talent-builder links/screenshots via staging/talents/talent_codec.py; all legal 51/51 unless noted
+  arms_pvp_1181:
+    split: Arms 31 / Fury 20
+    code: FQLAKYDQpAQABA-FoAAJYCY-
+    source: '[[d:warrior#1491008034946682940]]'
+    era: post-1.18.1
+  dw_fury_pvp_1180:
+    split: Arms 14 / Fury 37
+    code: NQQAKI-AoFApACoBCVYB-
+    source: '[[d:warrior#1437891956914262147]]'
+    era: 1.18.1-announced-pre-release
+  fury_pvp_community_1181:
+    split: Fury 35 / Prot 11 / Arms 5
+    code: FA-AoFgBACqBCVABA-TAFAIA
+    source: '[[d:warrior#1492063894464761937]]'
+    era: post-1.18.1
+  twink_49_fury:
+    points: 40
+    code: -AoAoJYCoBCQQ-QYFAIA
+    source: '[[d:warrior#1490383799958372482]]'
+    era: post-1.18.1
+  kyrsie_1180_screenshot:
+    split: Arms 17 / Fury 34
+    source: '[[d:warrior#1401373128533479435]]'
+    era: pre-1.18.1
+pvp_gear:
+  sets_post_1181: new PvP sets carry huge str/crit/hit/stam/armor and reduce DoT/crit damage taken; T3 PvP 'outstams k40 bis
+    by 80~ stamina and has way better threat' [[d:warrior#1492257144588865787]], [[d:warrior#1488606329005146245]]
+  costs: 20k honor/week cap; T1 24,000; T2 144,000 + T1; T3 520,000 + T2 and 21,000 Conquest -> ~33 weeks / 8+ months [[d:warrior#1487427534772764682]],
+    [[d:warrior#1492266218629890271]]; T1 is fresh-60-viable [[d:warrior#1491052658637934704]]
+  enchants: Helm +7 Def/+10 Stam, Neck +6 Stam, Cape +3 Agi, Chest +100 hp or +4 all stats, Wrist +9 Stam, Legs +7 Def/+10
+    Stam, Feet Minor Speed, rings +Stam, weapon Crusader / Weapon Chain [[d:warrior#1384786996848754728]]; Weapon Chain mandatory
+    vs disarm spam [[d:pvp-general#1290571835859275818]]
+  weapons: Elementium Axe is the named post-1.18.1 PvP weapon, BRE stays the PvE weapon [[d:warrior#1485934279493156884]]
+pvp_race: Gnome / Escape Artist is the consensus warrior PvP race [[d:warrior#995410602115735654]], [[d:warrior#1494450420385320961]];
+  Human Perception a minority pick [[d:warrior#995409805797752903]]
+pvp_matchups:
+  summary: warrior is the consensus group-PvP DPS but a weak solo duelist; kiting + CC is the whole counter [[d:pvp-general#1310884374819901450]],
+    [[d:pvp-general#1387001790829957131]]
+  lines:
+  - vs: mage
+    advice: hard counter unless FAP; post-CC3 Improved Berserker Rage root break is the advertised answer
+    sources:
+    - '[[d:pvp-general#1387001790829957131]]'
+    - '[[d:warrior#1485893615937916949]]'
+    agreement: consensus
+  - vs: paladin
+    advice: losing; MS is 'pointless damage-wise vs a heal paladin' (-80% dmg)
+    sources:
+    - '[[d:pvp-general#1198322883143938078]]'
+    - '[[d:warrior#1474054341106073610]]'
+    agreement: consensus
+  - vs: hunter
+    advice: slight hunter favour; entrap/concussive beats improved Hamstring; deep prot claimed counter
+    sources:
+    - '[[d:pvp-general#1126849924491919420]]'
+    - '[[d:warrior#1302028129719816287]]'
+    agreement: contested
+  - vs: rogue
+    advice: the one matchup warrior is not disadvantaged in; sit Defensive Stance, Blood Craze, 2h for Overpower
+    sources:
+    - '[[d:warrior#1146692339931291679]]'
+    - '[[d:warrior#1176592574924988547]]'
+    agreement: consensus
+  - vs: warlock
+    advice: succubus Seduce -> burst is the loss; deny the pet
+    sources:
+    - '[[d:pvp-general#1216944373036613633]]'
+    - '[[d:pvp-general#1351160314342936608]]'
+    agreement: consensus
+  - vs: druid
+    advice: stop hitting into Frenzied Regen
+    sources:
+    - '[[d:warrior#1138784880495427596]]'
+    agreement: consensus
+  - vs: shaman
+    advice: losing; '-80% dmg vs shamans or heal paladins'; prot+stun is the single-source counter
+    sources:
+    - '[[d:warrior#1474054341106073610]]'
+    - '[[d:pvp-general#1418626701457625119]]'
+    agreement: consensus
+discord:
+  channels:
+  - warrior
+  - pvp-general
+  agreement: contested overall; the post-CC3 Arms->Fury spec flip and the PvP set economy are the key additions
+  eras:
+  - pre-1.18.1
+  - 1.18.1-announced-pre-release
+  - post-1.18.1
+  sources:
+  - cite: '[[d:warrior#1486355885612863549]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: '''2h fury is the best 2h pvp spec'''
+  - cite: '[[d:warrior#1485893615937916949]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: Improved Berserker Rage root break -> Fury best PvP spec
+  - cite: '[[d:warrior#1485862406440882286]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: '1k AP test: MS/BT/Shield Slam deal the same damage'
+  - cite: '[[d:warrior#1491008034946682940]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: full Arms 31/20 PvP build
+  - cite: '[[d:warrior#1437891956914262147]]'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    topic: DW Fury 14/37 PvP build
+  - cite: '[[d:warrior#1492063894464761937]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: community 1.18.1 Fury 35/Prot 11 PvP build
+  - cite: '[[d:warrior#1384786996848754728]]'
+    era: pre-1.18.1
+    agreement: single source
+    topic: slot-by-slot PvP enchant list
+  - cite: '[[d:warrior#1494450420385320961]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: Gnome/Escape Artist is the PvP race
+  - cite: '[[d:pvp-general#1216689050057048134]]'
+    era: pre-1.18.1
+    agreement: single source
+    topic: trinket cannot break sheep/trap/seduce
+stat_priority_note: 'Weapon top-end damage is not a character stat and so is not in the list, but it ranks second here: "your
+  base damage on weapon like BRE/MoM/DEI/severance should be more than enough" [Springboards p=162626]; "you need an endgame
+  weapon" [Terrydavis p=171279].'

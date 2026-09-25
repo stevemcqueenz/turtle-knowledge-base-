@@ -15,7 +15,7 @@ Playbook for Cat-form DPS on Turtle WoW. This spec has the most forum churn of a
 
 ## Talent build
 
-No source decodes a full post-1.18.1 point list (only talents.turtlecraft.gg calculator links, same gap as every other Druid role and the paladin playbook). Named mandatory talents by build:
+**The forum gap is closed: the calculator links decode.** The dominant endgame Cat build is a decoded **Balance 11 / Feral 35 / Restoration 5** [[d:druid#1413144334336790652]] (full allocation in `feral-melee-dps.yaml`); the bleed-vs-powershift split is a *rotation* choice inside that one tree, and only **11/40/0** (dropping Furor) is a genuinely different allocation [[d:druid#1405998373844291658]]. Named mandatory talents by build:
 
 - **Both builds**: Omen of Clarity, Furor, Blood Frenzy + Primal Fury, Improved Shred (unconditional Shred buff after entering Cat Form as of the 1.18.0 rework per `synthesis/turtle-vs-vanilla-timeline.md`).
 - **Powershift build**: prioritizes Furor/Wolfshead synergy; skip Open Wounds and the bleed-energy side of Ancient Brutality.
@@ -95,6 +95,44 @@ Feral DPS has **weak AoE and no dedicated Cat-form AoE tool** — a repeated com
 - Expecting cat to carry AoE pulls — switch to Bear/Swipe or let another class lead on 3+ targets.
 - Under-gearing weapon skill/hit thinking it matters for form combat the same way it does for weapon users — it doesn't (form weapon skill is fixed at 300).
 
+## Discord additions (post-1.18.1)
+
+Decoded builds, numeric weights, the April-2026 Claw verdict and the bleed-immunity map, from the `#druid` Discord.
+
+### Talent build decoded
+
+| Build | Split | Notes | Source |
+|---|---|---|---|
+| Dominant Cat (bleed/Claw) | **11/35/5** | Balance 11 / Feral 35 / Resto 5; the most-cited build 2022–2026; Open Wounds 3, Imp Shred 2, Ancient Brutality 2 | [[d:druid#1413144334336790652]] |
+| Pure-DPS Cat | **11/40/0** | Drops Furor entirely; buys Thick Hide 3 / Feral Swiftness 2 / Feral Charge 1 / Feral Instinct 3 | [[d:druid#1405998373844291658]] |
+| Bear-hybrid Cat | 11/35/5 | Same spine, buys Feral Instinct 3 / Thick Hide 3 / Feral Swiftness 2 / Feral Charge 1, no Open Wounds | [[d:druid#1406396818987941969]] |
+
+The post-1.18 tree is point-starved: with Furor and Omen mandatory and Open Wounds at 3 points, cats are one point short of a full DPS build [[d:druid#1401730050738487519]] [[d:druid#1401014319004516384]].
+
+### Statistics (Discord numbers, mostly 1.18.1-era)
+
+- **Hit** is the best stat until the effective cap, then exactly zero: "you lose all your energy regardless of whether you hit or not… by far the best stat till you get 5% from it + 3% from talents. And then it has 0 value" [[d:druid#1474083543985684691]].
+- **1% crit ≈ 31 AP** [[d:druid#1379019592516636734]].
+- **Intellect is dead on T3.5** after the Ancient Brutality rework — "126 Int worth of stats is basically lost" [[d:druid#1356892169587392522]].
+- **Scaling is one-dimensional**: crit cap, very low hit cap, no weapon skill, low haste value, AP-only; the new **Fortune** stat is unusable because chance-on-hit does not proc in form [[d:druid#1473623513289199667]] [[d:druid#1474308606412329023]].
+
+### Rotation and mechanics
+
+- **Bleeds exist to empower Claw**: "bleeds are there to **empower your claw**, not to deal damage"; apply a 1-CP Rip as soon as possible for the Ancient Brutality ticks [[d:druid#1379110362720505948]] [[d:druid#1379245993777828001]].
+- **April 2026 verdict**: "if the boss is not bleed immune Claw will always out dps Shred if played well… all top [1.18.1] parses are using claw"; Idol of Ferocity remains BIS [[d:druid#1492276296808661174]].
+- **Energy-tick powershift rule**: "ps when energy<20 or 15, no energy-tick check; ps for claw when 35<energy<40 with energy tick at the 1.7s mark, otherwise cast rake" [[d:druid#1378786659751034930]].
+- **Reshift** is a Turtle custom spell (one button to drop and re-enter the current form) — the modern powershift button [[d:druid#1459798383756840972]]. The Wolfshead effect is now a repeatable helm enchant (Wolfsheart), so the helm is no longer required [[d:druid#1379915071475548191]].
+- **MCP is dead**: "it does not work in form and has a 30 minute cd" [[d:druid#1412860092692299806]].
+- **Bleed-immunity map**: Geddon can be Raked but not Ripped [[d:druid#1379632585579302923]]; Kara40 >50% of mobs immune, worgen adds and Anomalus immune [[d:druid#1357078255156596956]] [[d:druid#1357383852103831572]] [[d:druid#1360632960835125368]]; Naxx all bleedable except KT and Saph, AQ40 too fast to bleed [[d:druid#1357888923397001407]].
+- **No AoE needed**: "they obviously can't aoe, but there rly is no boss or trash in the game where you need aoe" [[d:druid#1475223670724231231]].
+- **TF + reshift era change**: 1.18.0 added baseline TF energy return and reshift; top September-2025 Patchwerk logs stopped reshifting [[d:druid#1414582129525915749]].
+
+### Gear, leveling and consumes
+
+- **Idol of Ferocity** BIS for most cat slots; the bleed-duration (Gnarlmoon/Black Morass) idol only for bleed immunes; T2.5 3-piece + Ferocity idol is strong [[d:druid#1492276296808661174]] [[d:druid#1387698224281817241]].
+- **Leveling weapon stat-stick progression** (Micro Jackson): Smite's Mighty Hammer 18 → Manual Crowd Pummeler 28 → Thornroot Maul 32 → Grimlock's Charge 42 → Ice Barbed Spear 51 → gear sheet [[d:druid#1484464772115206204]].
+- **Melee consume list** (shared with bear): Juju Power, Elixir of the Mongoose, R.O.I.D.S., Elixir of Firewater, Elixir of Superior Defense, Str/haste food, crystal ward; STR/AP buffs do not stack, R.O.I.D.S. stacks with Elixir of Giants [[d:druid#1475757404493713469]].
+
 ## Sources
 
 | Post | Author (authority) | Date | Era | Agreement |
@@ -111,4 +149,5 @@ Feral DPS has **weak AoE and no dedicated Cat-form AoE tool** — a repeated com
 | [p147482](https://forum.turtlecraft.gg/viewtopic.php?p=147482#p147482), [p149611](https://forum.turtlecraft.gg/viewtopic.php?p=149611#p149611), [p172000](https://forum.turtlecraft.gg/viewtopic.php?p=172000#p172000), [p172923](https://forum.turtlecraft.gg/viewtopic.php?p=172923#p172923), [p172925](https://forum.turtlecraft.gg/viewtopic.php?p=172925#p172925) | Snkx, Noephix, Wosator (players) | 2025-08-21/2026-03-28 | pre/post-1.18.1 | single source — post-patch feral standing |
 | [p171608](https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608) | Torta (staff) | 2026-03-21 | post-1.18.1 | official — Yoxtez/Fang of Alichos hotfixes |
 | [p172655](https://forum.turtlecraft.gg/viewtopic.php?p=172655#p172655), [p172912](https://forum.turtlecraft.gg/viewtopic.php?p=172912#p172912), [p172917](https://forum.turtlecraft.gg/viewtopic.php?p=172917#p172917), [p172919](https://forum.turtlecraft.gg/viewtopic.php?p=172919#p172919), [p172992](https://forum.turtlecraft.gg/viewtopic.php?p=172992#p172992)–[p173098](https://forum.turtlecraft.gg/viewtopic.php?p=173098#p173098) | Noephix, Daoc2001, Gorlocktheglock, Fugus, Zvyrhol (players) | 2026-03-27/30 | post-1.18.1 | single source — item-dev communication complaint |
+| `#druid` Discord — decoded builds, Claw/bleed verdict, stat weights, bleed map | Bapi, Angrycat/Powershift, Micro Jackson, Hotverdomme-Nord, Ash, Krokat, Noephix (players/staff) | 2025-06 → 2026-04 | 1.18.1-announced-pre-release / post-1.18.1 | consensus on Claw meta, single-source on numeric weights |
 | `synthesis/1.18.1-master-changelog.md` §Druid, `synthesis/turtle-vs-vanilla-timeline.md` §Druid | — (compiled from staff posts) | — | — | official changelog compilation |

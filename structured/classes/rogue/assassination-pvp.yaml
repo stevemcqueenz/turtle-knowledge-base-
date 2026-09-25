@@ -50,55 +50,326 @@ patch_validity:
     creature-type restriction; Dissolvent-vs-plate advice is superseded since players are not Elementals/Mechanicals/Giants/Undead.
     No PvP-dampening numbers for Rogue are given by staff in this corpus.
 talents:
-  build_name: Noxious Assault PvP burst ("zug") build
-  build_link: same tree shape as assassination-melee-dps.yaml's Noxious Assault build; no PvP-specific link is given
+  build_name: Noxious Assault PvP 33/0/18 (Suade) [[d:rogue#1492374240245059605]]
+  build_link: https://xian55.github.io/tortoise-db-viewer/?talents=rogue&t=005323120033111251--503220300012
   points:
   - tree: Assassination
-    talent: Noxious Assault
+    talent: Malice
+    rank: 5
+    spell_id: 14142
+  - tree: Assassination
+    talent: Ruthlessness
+    rank: 3
+    spell_id: 14161
+  - tree: Assassination
+    talent: Murder
+    rank: 2
+    spell_id: 14159
+  - tree: Assassination
+    talent: Improved Blade Tactics
+    rank: 3
+    spell_id: 14167
+  - tree: Assassination
+    talent: Relentless Strikes
     rank: 1
-    spell_id: 52714
-    talent_id: 145
+    spell_id: 14179
+  - tree: Assassination
+    talent: Throwing Weapon Specialization
+    rank: 2
+    spell_id: 13859
+  - tree: Assassination
+    talent: Vile Poisons
+    rank: 3
+    spell_id: 16515
+  - tree: Assassination
+    talent: Improved Poisons
+    rank: 3
+    spell_id: 14115
+  - tree: Assassination
+    talent: Efficient Poisons
+    rank: 1
+    spell_id: 52518
   - tree: Assassination
     talent: Envenom
     rank: 1
     spell_id: 52531
-    talent_id: 141
+  - tree: Assassination
+    talent: Cold Blood
+    rank: 1
+    spell_id: 14177
+  - tree: Assassination
+    talent: Vigor
+    rank: 2
+    spell_id: 52527
   - tree: Assassination
     talent: Seal Fate
     rank: 5
     spell_id: 14195
-    talent_id: 144
   - tree: Assassination
-    talent: no Dirty Deeds, no Preparation (structural weakness of this build)
-    rank: 0
-    spell_id: null
+    talent: Noxious Assault
+    rank: 1
+    spell_id: 52714
+  - tree: Subtlety
+    talent: Camouflage
+    rank: 5
+    spell_id: 14065
+  - tree: Subtlety
+    talent: Improved Gouge
+    rank: 3
+    spell_id: 13792
+  - tree: Subtlety
+    talent: Improved Ambush
+    rank: 2
+    spell_id: 14080
+  - tree: Subtlety
+    talent: Elusiveness
+    rank: 2
+    spell_id: 14066
+  - tree: Subtlety
+    talent: Initiative
+    rank: 3
+    spell_id: 13980
+  - tree: Subtlety
+    talent: Cloaked in Shadows
+    rank: 1
+    spell_id: 52707
+  - tree: Subtlety
+    talent: Blackjack
+    rank: 2
+    spell_id: 14094
+  decoded_builds:
+  - build_name: Noxious Assault PvP burst ('zug') — 34/0/17
+    split:
+      Assassination: 34
+      Subtlety: 17
+      Combat: 0
+    code: YoYAIoDYJIQoB--FCaAYAC
+    sources:
+    - '[[d:rogue#1471530033066807332]]'
+    agreement: single source
+    era: 1.18.1-announced-pre-release
+    points:
+    - tree: Assassination
+      talent: Improved Eviscerate
+      rank: 3
+      spell_id: 14164
+    - tree: Assassination
+      talent: Malice
+      rank: 5
+      spell_id: 14142
+    - tree: Assassination
+      talent: Ruthlessness
+      rank: 3
+      spell_id: 14161
+    - tree: Assassination
+      talent: Relentless Strikes
+      rank: 1
+      spell_id: 14179
+    - tree: Assassination
+      talent: Lethality
+      rank: 5
+      spell_id: 14137
+    - tree: Assassination
+      talent: Vile Poisons
+      rank: 3
+      spell_id: 16515
+    - tree: Assassination
+      talent: Improved Poisons
+      rank: 3
+      spell_id: 14115
+    - tree: Assassination
+      talent: Efficient Poisons
+      rank: 1
+      spell_id: 52518
+    - tree: Assassination
+      talent: Envenom
+      rank: 1
+      spell_id: 52531
+    - tree: Assassination
+      talent: Cold Blood
+      rank: 1
+      spell_id: 14177
+    - tree: Assassination
+      talent: Vigor
+      rank: 2
+      spell_id: 52527
+    - tree: Assassination
+      talent: Seal Fate
+      rank: 5
+      spell_id: 14195
+    - tree: Assassination
+      talent: Noxious Assault
+      rank: 1
+      spell_id: 52714
+    - tree: Subtlety
+      talent: Camouflage
+      rank: 5
+      spell_id: 14065
+    - tree: Subtlety
+      talent: Improved Gouge
+      rank: 2
+      spell_id: 13793
+    - tree: Subtlety
+      talent: Improved Ambush
+      rank: 3
+      spell_id: 14081
+    - tree: Subtlety
+      talent: Elusiveness
+      rank: 2
+      spell_id: 14066
+    - tree: Subtlety
+      talent: Initiative
+      rank: 3
+      spell_id: 13980
+    - tree: Subtlety
+      talent: Blackjack
+      rank: 2
+      spell_id: 14094
+  - build_name: Assa/Sub fast-weapon poison PvP — 23/0/28
+    split:
+      Assassination: 23
+      Subtlety: 28
+      Combat: 0
+    code: YoYAKIDYBI--FDCYYJCARKQ
+    sources:
+    - '[[d:rogue#1493351003238694942]]'
+    agreement: single source
+    era: post-1.18.1
+    note: fast weapons both hands; Hemo only to generate combo points and proc main-hand Instant; poison over crit because
+      PvP gear reduces critical hits
+    points:
+    - tree: Assassination
+      talent: Improved Eviscerate
+      rank: 3
+      spell_id: 14164
+    - tree: Assassination
+      talent: Malice
+      rank: 5
+      spell_id: 14142
+    - tree: Assassination
+      talent: Ruthlessness
+      rank: 3
+      spell_id: 14161
+    - tree: Assassination
+      talent: Relentless Strikes
+      rank: 1
+      spell_id: 14179
+    - tree: Assassination
+      talent: Throwing Weapon Specialization
+      rank: 2
+      spell_id: 13859
+    - tree: Assassination
+      talent: Lethality
+      rank: 1
+      spell_id: 14128
+    - tree: Assassination
+      talent: Vile Poisons
+      rank: 3
+      spell_id: 16515
+    - tree: Assassination
+      talent: Improved Poisons
+      rank: 3
+      spell_id: 14115
+    - tree: Assassination
+      talent: Envenom
+      rank: 1
+      spell_id: 52531
+    - tree: Assassination
+      talent: Cold Blood
+      rank: 1
+      spell_id: 14177
+    - tree: Subtlety
+      talent: Camouflage
+      rank: 5
+      spell_id: 14065
+    - tree: Subtlety
+      talent: Improved Gouge
+      rank: 3
+      spell_id: 13792
+    - tree: Subtlety
+      talent: Elusiveness
+      rank: 2
+      spell_id: 14066
+    - tree: Subtlety
+      talent: Serrated Blades
+      rank: 3
+      spell_id: 14173
+    - tree: Subtlety
+      talent: Initiative
+      rank: 3
+      spell_id: 13980
+    - tree: Subtlety
+      talent: Smoke Bomb
+      rank: 1
+      spell_id: 51969
+    - tree: Subtlety
+      talent: Hemorrhage
+      rank: 1
+      spell_id: 16511
+    - tree: Subtlety
+      talent: Blackjack
+      rank: 2
+      spell_id: 14094
+    - tree: Subtlety
+      talent: Dirty Deeds
+      rank: 2
+      spell_id: 14083
+    - tree: Subtlety
+      talent: Preparation
+      rank: 1
+      spell_id: 14185
+    - tree: Subtlety
+      talent: Shadow of Death
+      rank: 1
+      spell_id: 52710
+    - tree: Subtlety
+      talent: Bloody Mess
+      rank: 2
+      spell_id: 51975
+    - tree: Subtlety
+      talent: Honor Among Thieves
+      rank: 2
+      spell_id: 52514
   leveling_order: []
-  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=rogue&t=000000000000010051
-  build_link_tortoise_note: 'Generated from the sourced points list (7 points: Assassination 7); the calculator shows the
-    remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
+  build_code: AoaDKADYJIQoB--FDSAYAK
+  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=rogue&t=005323120033111251--503220300012
+  build_link_tortoise_note: 'Generated from the sourced points list (51 points: Assassination 33, Subtlety 18); the calculator
+    shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
 stat_weights:
   weapon_speed: 1.3-speed daggers preferred, same reasoning as the PvE build
-  hit_crit_agility: same qualitative priority as PvE; no PvP-specific numeric weights given (gap)
-caps: {}
+  hit_crit_agility: same qualitative priority as PvE; no PvP-specific numeric weights given (gap); post-1.18.1 Discord adds
+    that PvP gear reduces crit, so poison overtakes crit [[d:rogue#1493332911406055564]]
+  discord_note: 'gear/weapon-dependent spec choice post-1.18.1: fast weapon + low gear -> Assassination poison (Noxious);
+    slow weapon -> old-school Backstab/Sinister Strike or Hemo with Preparation [[d:rogue#1491270099066425475]], [[d:rogue#1491270486402011287]]
+    (consensus)'
+caps:
+  hit_special_attacks_pvp: 5% [[d:rogue#1447086285087969351]]
 rotation_single:
 - priority: 1
-  action: Cheap Shot from stealth
-  condition: 60 energy without Dirty Deeds (this build cannot afford Dirty Deeds/Preparation)
+  action: Cheap Shot
+  condition: from stealth
 - priority: 2
-  action: Envenom at 1-2 combo points immediately
-  condition: trades combo points away from a full Kidney Shot -- damage vs control choice
+  action: Envenom (1 point)
+  condition: after Cheap Shot; Cheap Shot > Envenom > Slice and Dice on big health pools
+  sources:
+  - '[[d:rogue#1492308177818095657]]'
+  - '[[d:rogue#1492308239507918908]]'
 - priority: 3
-  action: Noxious Assault x2, then Kidney Shot at 4 points (4s duration, not 6s)
-  condition: during the Cheap Shot stun
+  action: Noxious Assault spam
+  condition: until dead or Kidney Shot available
+  sources:
+  - '[[d:rogue#1492308177818095657]]'
 - priority: 4
-  action: Noxious Assault x2 more, then Blind if trinketed
-  condition: no Preparation to redo Blind
+  action: Kidney Shot
+  condition: 5 points (Nandieb; Seal Fate can get you there within Cheap Shot), or whatever you have before Cheap Shot ends
+  sources:
+  - '[[d:rogue#1492645046049046699]]'
+  - '[[d:rogue#1461754013061222613]]'
 - priority: 5
-  action: Thistle Tea
-  condition: for one more Noxious Assault inside the stun
-- priority: 6
-  action: Sprint/Vanish out if the target survives at 0 energy
-  condition: the build has no follow-up control once energy is spent
+  action: Thistle Tea / Cold Blood + Noxious Assault
+  condition: burst
+  sources:
+  - '[[d:rogue#1461753771838406667]]'
 rotation_aoe: []
 aoe_threshold: 999
 cooldowns:
@@ -113,12 +384,146 @@ resource_rules:
 - Fast auto-attacks that get fully blocked/parried do not proc poisons, and this build has no way around thorns/high-avoidance
   targets
 consumables:
-- Instant Poison x2 (the only damage poison against player targets post-1.18.1, since Dissolvent/Corrosive no longer apply
-  to players)
+- Instant Poison both hands; swap an off hand to Crippling when needed; no Deadly (breaks Blind) [[d:rogue#1492308267395715185]],
+  [[d:rogue#1486568837498273956]]
+- Free Action Potion and healing potion on cooldown vs Frost Mage / Shaman [[d:rogue#1475178793286242365]]
 - Thistle Tea
 mistakes_to_avoid:
-- Spending combo points on Envenom then expecting a full-length Kidney Shot
-- Using Dissolvent or Corrosive Poison on players post-1.18.1 (it no longer applies to them)
-- Fighting a target stacking Thorns, Retribution Aura, or Blessing of Sanctuary with fast 1.3-speed weapons
-- Staying in melee range at 0 energy instead of resetting with Sprint/Vanish
-- Expecting this build to provide control comparable to the Subtlety Hemo/Prep build (see subtlety-pvp.yaml)
+- Dissolvent/Corrosive on players (Humanoid; they do nothing) [[d:rogue#1488216301460783246]]
+- Deadly Poison when you plan to Blind [[d:rogue#1486568837498273956]]
+- Resilience over damage stats [[d:rogue#1458858931781767320]]
+pvp_context:
+  post_1181_standing: contested — one poster says the patch barely touched Noxious ('quite negligible' damage-wise) and it
+    still kills in a stunlock [[d:rogue#1490686616086384782]], [[d:rogue#1491378008232034364]], while another says rogue 'is
+    not really playable in pvp' post-patch [[d:rogue#1494436247249354773]]
+  bg_role: '''my main utility is to sap a healer pre-fight and interrupt another with cheap shot. Vanish, cheap shot again
+    and die. Hard to find any BG leaderbord with a rogue and a positive KD-ratio.'' [[d:rogue#1490678912118948052]] (single
+    source, contested)'
+  race_order: 'Discord''s channel-local PvP race order: Alliance Dwarf 5/5 (Stoneform clears a rival rogue''s Blind because
+    Blind is a poison) and Gnome 5/5 (Escape Artist), Night Elf/Human 3/5, High Elf 0/5; Horde Orc 4/5, Undead 4/5, Goblin
+    4/5, Troll 2/5 [[d:rogue#1360971069737140415]], [[d:rogue#1360971823780462692]], [[d:rogue#1361181395459899634]] (single
+    source, pre-1.18.1)'
+discord:
+  channels:
+  - rogue
+  - pvp-general
+  agreement: contested — the poison nerf is read as 'barely changed' by one side and 'unplayable' by the other; race order
+    single-source
+  eras:
+  - pre-1.18.1
+  - 1.18.1-announced-pre-release
+  - post-1.18.1
+  sources:
+  - cite: '[[d:rogue#1488216301460783246]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: Dissolvent/Corrosive removed from PvP; Instant is the only damage poison
+  - cite: '[[d:rogue#1488217700206641192]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: '''youre boned except against clothies'''
+  - cite: '[[d:rogue#1487419470443057284]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: new PvP set carries ~30 nature resistance (Instant counter)
+  - cite: '[[d:rogue#1487459320093212812]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: nature-resistance counter
+  - cite: '[[d:rogue#1465337336270426224]]'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    topic: 21% crit reduction set (AB 3/3 + 2-piece Arena + Arena ring + Belt Buckle)
+  - cite: '[[d:rogue#1491338903439937608]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: new PvP sets have no agility (STR+stam only)
+  - cite: '[[d:rogue#1484489992918139020]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: Greater/elemental Nature Protection potions as the poison answer
+  - cite: '[[d:rogue#1487857538194997330]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: 1.8-speed PvP sword claimed BiS for Subtlety
+  - cite: '[[d:rogue#1487314461302984735]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: 2.0-speed PvP dagger called poison-unfriendly
+  - cite: '[[d:rogue#1487820844712591674]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: Alcor's off-hand as the plate answer for hemo/Prep
+  - cite: '[[d:rogue#1484635445781598238]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: new rewards are K40 ilvl and stronger than old PvP items
+  - cite: '[[d:rogue#1360971069737140415]]'
+    era: pre-1.18.1
+    agreement: single source
+    topic: race ranking (Alliance)
+  - cite: '[[d:rogue#1360971823780462692]]'
+    era: pre-1.18.1
+    agreement: single source
+    topic: race ranking (Horde)
+  - cite: '[[d:rogue#1361181395459899634]]'
+    era: pre-1.18.1
+    agreement: single source
+    topic: race order detail
+  - cite: '[[d:rogue#1479856314137186385]]'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    topic: Vanish = 1 s spell immunity + '+54 real levels of stealth' (theory)
+  - cite: '[[d:rogue#1401580440078389329]]'
+    era: pre-1.18.1
+    agreement: single source
+    topic: Night Elf in +stealth gear ~ level-65.5 stealth
+  - cite: '[[d:rogue#1443806889287618723]]'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    topic: Improved Sap overrated in BGs (65 energy, telegraphs you)
+  - cite: '[[d:rogue#1438212303572172870]]'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    topic: Sap -> regen-gear swap -> Cannibalize reset
+  - cite: '[[d:rogue#1491339462997708932]]'
+    era: post-1.18.1
+    agreement: contested
+    topic: warrior matchup flips losing at full PvP gear
+  - cite: '[[d:rogue#1417742111683645543]]'
+    era: pre-1.18.1
+    agreement: consensus
+    topic: feral is the 'cannot win without Assassination' matchup
+  - cite: '[[d:rogue#1417785062346330112]]'
+    era: pre-1.18.1
+    agreement: consensus
+    topic: priest free food for Undead via WotF
+  - cite: '[[d:rogue#1470780105117667512]]'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    topic: Engineering for PvP; gnomish chicken is the only offensive DPS gadget
+  - cite: '[[d:rogue#1491083968676761630]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: PvP dampening formula never published
+  - cite: '[[d:rogue#1496294795495211098]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: 1.18.0 'broken' retrospective
+  - cite: '[[d:rogue#1485669583720415455]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: post-1.18.1 'garbage now'
+  - cite: '[[d:rogue#1492374240245059605]]'
+    author: Suade
+    authority: player
+    date: '2026-04-11'
+    era: post-1.18.1
+    agreement: single source
+  - cite: '[[d:rogue#1492308177818095657]]'
+    author: Zaszz
+    authority: player
+    date: '2026-04-11'
+    era: post-1.18.1
+    agreement: consensus
+guide: guide/classes/rogue/pvp.md

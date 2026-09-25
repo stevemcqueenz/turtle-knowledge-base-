@@ -1,62 +1,355 @@
 class: Warlock
-spec: "Destruction (Conflagrate / NF-Conflagrate)"
+spec: Destruction (Conflagrate / NF-Conflagrate)
 role: pvp
 sources:
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=129967#p129967", author: Springboards, authority: player, date: "2025-05-07"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=114434#p114434", author: Trinaxyo, authority: player, date: "2024-12-26"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108889#p108889", author: Ataika, authority: player, date: "2024-11-20"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=118995#p118995", author: Eversongwoods, authority: player, date: "2025-02-05"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=135863#p135863", author: Forumdweller, authority: player, date: "2025-06-15"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=143162#p143162", author: Halfgeek9, authority: player, date: "2025-08-04"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: "2025-07-25"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168", author: Torta, authority: staff, date: "2025-10-03"}
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=129967#p129967
+  author: Springboards
+  authority: player
+  date: '2025-05-07'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=114434#p114434
+  author: Trinaxyo
+  authority: player
+  date: '2024-12-26'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=108889#p108889
+  author: Ataika
+  authority: player
+  date: '2024-11-20'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=118995#p118995
+  author: Eversongwoods
+  authority: player
+  date: '2025-02-05'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=135863#p135863
+  author: Forumdweller
+  authority: player
+  date: '2025-06-15'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=143162#p143162
+  author: Halfgeek9
+  authority: player
+  date: '2025-08-04'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159
+  author: Jamey
+  authority: staff
+  date: '2025-07-25'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  author: Jamey
+  authority: staff
+  date: '2026-01-23'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168
+  author: Torta
+  authority: staff
+  date: '2025-10-03'
+- cite: '[[d:warlock#1487474501812752626]]'
+  author: Afraido
+  authority: player
+  date: '2026-03-28'
+  era: post-1.18.1
+  agreement: single source
+- cite: '[[d:warlock#1485611980990447658]]'
+  author: Afraido
+  authority: player
+  date: '2026-03-23'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:warlock#1491191968494256168]]'
+  author: Afraido
+  authority: player
+  date: '2026-04-08'
+  era: post-1.18.1
+  agreement: single source
 agreement: contested
 patch_validity:
-  written_for: "CC2-era meta (Nov 2024 - Jul 2025); CC3 and 1.18.1 numbers applied where sourced"
-  valid_for_1181: unknown
-  notes: "CC3 (2025-08-15) cut Curse of Exhaustion from 50% to a 10%/40% split, making it 'ABSURDLY' weaker than Demonology per one 2025-06 source; 1.18.1 raised its mana cost to 190 and buffed Searing Pain; no post-1.18.1 PvP thread re-ranks the three PvP builds, and the new per-spec PvP dampening values are not published."
+  written_for: 1.18.1 live (2026-03-20)
+  valid_for_1181: true
+  notes: Destruction PvP is contested post-1.18.1 ("wheelchair spec" vs "very underrated"); Affliction is the recommended
+    PvP spec [[d:warlock#1487499992615882772]], [[d:warlock#1487531377367711785]], [[d:warlock#1489224572174602251]].
 talents:
-  build_name: "Conflagration / NF-Conflagration (community wiki links; explicit point list not given by any player source)"
-  points: []
+  build_name: Destruction PvP 5/5/39 + 2 free points (Afraido, 2026-03-28)
+  points:
+  - tree: Affliction
+    talent: Improved Corruption
+    rank: 5
+    spell_id: 17814
+  - tree: Demonology
+    talent: Demonic Embrace
+    rank: 5
+    spell_id: 18701
+  - tree: Destruction
+    talent: Cataclysm
+    rank: 5
+    spell_id: 17782
+  - tree: Destruction
+    talent: Bane
+    rank: 5
+    spell_id: 17792
+  - tree: Destruction
+    talent: Intensity
+    rank: 2
+    spell_id: 18136
+  - tree: Destruction
+    talent: Shadowburn
+    rank: 1
+    spell_id: 17877
+  - tree: Destruction
+    talent: Devastation
+    rank: 5
+    spell_id: 18134
+  - tree: Destruction
+    talent: Pyroclasm
+    rank: 2
+    spell_id: 18073
+  - tree: Destruction
+    talent: Destructive Reach
+    rank: 2
+    spell_id: 17918
+  - tree: Destruction
+    talent: Improved Searing Pain
+    rank: 5
+    spell_id: 17932
+  - tree: Destruction
+    talent: Improved Immolate
+    rank: 5
+    spell_id: 17836
+  - tree: Destruction
+    talent: Ruin
+    rank: 1
+    spell_id: 17959
+  - tree: Destruction
+    talent: Emberstorm
+    rank: 5
+    spell_id: 17958
+  - tree: Destruction
+    talent: Conflagrate
+    rank: 1
+    spell_id: 17962
+  build_note: 'Validated with talent_tool.py (VALID, 49 points; the last 2 are free choice) [[d:warlock#1487474501812752626]].
+    Recommended PvP spec overall: Affliction 35/5/11 AoDCaISDRRFAB-Ao-FAFAB [[d:warlock#1485611980990447658]].'
   leveling_order: []
+  code: Ao-Ao-AoFARoSFFIAoB
+  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=warlock&t=05-05-0505021522505151
+  build_link_tortoise_note: 'Generated from the sourced points list (49 points: Affliction 5, Demonology 5, Destruction 39);
+    the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
+discord_builds:
+- name: Affliction 35/5/11 (deep Affliction + Shadow Vulnerability/Bane/Shadowburn)
+  code: AoDCaISDRRFAB-Ao-FAFAB
+  source_author: Summonjutsu (Warlock Shift Lead)
+  cites:
+  - '[[d:warlock#1436492032876085399]]'
+  era: 1.18.1-announced-pre-release
+  agreement: single source
+  note: '''most versatile effective pvp spec we have for open world or BG ... on amber'''
+- name: Affliction + Shadowburn 35/5/11
+  code: CoDISISDRRFAB-Ao-FQAYB
+  source_author: Deaddlnside
+  cites:
+  - '[[d:warlock#1476314060005048532]]'
+  era: 1.18.1-announced-pre-release
+  agreement: single source
+  note: Suppression dropped once gear hit >6%
+- name: SM/Ruin PvP 30/0/21
+  code: AoDQaISARRE--FAFQBoCAAI
+  source_author: Summonjutsu (Warlock Shift Lead)
+  cites:
+  - '[[d:warlock#1450365899885248552]]'
+  era: 1.18.1-announced-pre-release
+  agreement: single source
+  note: Shadow Mastery 4/5 is the CoE tax
+- name: Conflag/NF 19/0/32 (post-CC3)
+  code: DoDQCAS--FAFARoSAFIAYB
+  source_author: Suade
+  cites:
+  - '[[d:warlock#1406658417032167464]]'
+  era: pre-1.18.1
+  agreement: single source
+- name: SL 5/34/12 Succubus build
+  code: Ao-AoQYBoCDBYFYB-FAV
+  source_author: Aulbath
+  cites:
+  - '[[d:warlock#1409163562169139322]]'
+  era: pre-1.18.1
+  agreement: single source
+  note: see demonology-pvp.yaml for the SL playbook
 stat_weights:
-  stamina: "first priority (PvP survivability over raw damage)"
-  spell_damage: "shadow/fire spell damage next (cheap greens named as good value)"
-  crit: "wanted for Soul Fire/Conflagrate burst"
-  hit: "lower priority than in PvE (level-60 targets)"
-stat_priority: [stamina, spell-power, spell-crit, spell-hit]
-stat_priority_note: "\"PvP is not PvE, survivability is better than raw damage. So everyone stack on stamina until they reach some comfortable amount to not die instantly\" [Xudo p=108896]. Then Shadow or Fire spell damage — cheap \"of shadow wrath\" greens do the job — then crit for Soul Fire and Conflagrate burst. Hit matters less than in PvE because the targets are level 60. The epic Warlock PvP set has 0% crit against the blue set's 2%, and raid gear generally beats PvP gear in battlegrounds."
-caps: {}
+  stamina: first [[d:warlock#1469318540598317140]]
+  spell_damage: second
+  crit: high for Destruction burst
+  hit: 3/4/5% for level 60/61/62 targets [[d:warlock#1478734333920415787]]
+caps:
+  stamina_benchmark: ~6-6.8k HP full PvP BiS; ~8k with Voidwalker/Fel Stamina shenanigans [[d:warlock#1378813710327615568]]
+    (single source)
 rotation_single:
-  - {priority: 1, action: "Succubus Lesser Invisibility opener, then Seduction on the target or healer", condition: "opener"}
-  - {priority: 2, action: "Curse of Exhaustion (if talented) or Curse of Tongues (casters) or Curse of Agony (target unlikely to be dispelled)", condition: "opener, after Seduction"}
-  - {priority: 3, action: "Soul Fire (hard-cast)", condition: "target is seduced/feared (opener)"}
-  - {priority: 4, action: "Immolate then Conflagrate then Shadowburn", condition: "opener follow-up"}
-  - {priority: 5, action: "Conflagrate", condition: "target in range, Immolate up, Conflagrate ready (Pyroclasm stun chance)"}
-  - {priority: 6, action: "Shadowburn", condition: "target below ~500 health or fleeing"}
-  - {priority: 7, action: "Shadow Bolt", condition: "Nightfall proc (NF build)"}
-  - {priority: 8, action: "Death Coil, disengage, then Fear or Curse of Exhaustion", condition: "melee connecting on you"}
-  - {priority: 9, action: "Immolate", condition: "missing (only on the kill target, breaks Seduction if that target is seduced)"}
-  - {priority: 10, action: "Soul Fire", condition: "ready and target controlled"}
-  - {priority: 11, action: "Searing Pain", condition: "filler (1-s GCD since 1.18.1, cast time raised to 2.0 s with 57% SP, then +~20% base damage revision)"}
+- priority: 1
+  action: Seduction (Succubus) to force the trinket
+  condition: opener [[d:warlock#1450370894307524801]]
+- priority: 2
+  action: Soul Fire
+  condition: target CC'd (4 s cast needs CC) [[d:warlock#1491162205931044994]]
+- priority: 3
+  action: Immolate -> Conflagrate
+  condition: after Soul Fire
+- priority: 4
+  action: Shadowburn
+  condition: target low
+- priority: 5
+  action: Death Coil
+  condition: melee on you
+- priority: 6
+  action: Fear / Curse of Recklessness fear-juggle
+  condition: peel; CoR stops a feared target fleeing [[d:warlock#1490124423288717403]]
+- priority: 7
+  action: Searing Pain
+  condition: filler
 rotation_aoe: []
 aoe_threshold: 0
 cooldowns:
-  - {name: "Death Coil", use_when: "3-min CD, melee burst or to disengage"}
-  - {name: "Healthstone / Spellstone", use_when: "shared CD; Spellstone dispels magic on self and absorbs (level x 12)"}
+- name: Death Coil
+  use_when: melee reaches you; 2-min peel [[d:warlock#1399432909311574158]]
+- name: PvP trinket
+  use_when: rogue opener, then Death Coil [[d:pvp-general#1358235113535574017]]
 resource_rules:
-  - "Curse of Exhaustion is the primary slow tool: 30% at row 3 (CC2) -> 10% base + Improved 15/30% at row 5 (CC3, max 40% total) -> 190 mana (1.18.1)"
-  - "pet choice by matchup: Voidwalker default/versatile, Succubus for kill setup, Felhunter vs casters (Devour Magic autocast to dispel healer buffs)"
+- Spellstone removes magic silences/debuffs (shares Healthstone CD) [[d:warlock#1454095765600473179]]
+- PvP damping and resilience both reduce DoT damage [[d:warlock#1490175529209430066]]
+- Fire reflectors and the fire-immunity trinket counter Destruction [[d:warlock#1469458947969909015]]
 consumables:
-  - "Holy Protection potion vs Paladins"
-  - "Engineering grenades to land casts through pushback"
-  - "Healthstone/Spellstone (shared cooldown)"
+- Free Action Potion, Flask of the Titans, arcane bombs [[d:warlock#1394677049758584832]]
+- Limited Invulnerability Potion (deny rage) [[d:warlock#1411574992134738042]]
+- 'Engineering: grenades, reflectors, rocket boots/helmet [[d:warlock#1285479733110509580]]'
+pvp_matchups:
+- vs: warrior
+  verdict: 'favoured: Voidwalker Sacrifice denies rage; CoE before Charge then Death Coil'
+  sources:
+  - '[[d:warlock#1331017705658122240]]'
+  - '[[d:warlock#1416231530354708601]]'
+  - '[[d:pvp-general#1351160314342936608]]'
+  agreement: consensus (warrior side), contested after CC3 CoE cut
+- vs: rogue
+  verdict: hard/losing; trinket + Death Coil -> Immolate/Conflag -> kite; pet choice (Felhunter/Succubus) decides it
+  sources:
+  - '[[d:pvp-general#1358235113535574017]]'
+  - '[[d:warlock#1312397951850512457]]'
+  - '[[d:warlock#1412421339352137758]]'
+  agreement: consensus
+- vs: paladin
+  verdict: Felhunter eats HoJ with Devour Magic then Spell Lock; contested because Spell Lock silence is bugged (~1 s)
+  sources:
+  - '[[d:warlock#1140091225660198972]]'
+  - '[[d:pvp-general#1126789007439822858]]'
+  - '[[d:warlock#1392300020958625803]]'
+  agreement: contested (silence duration)
+- vs: hunter
+  verdict: favoured except BM (kill the pet first); smart hunters stack shadow/arcane resist on the pet
+  sources:
+  - '[[d:warlock#1331017705658122240]]'
+  - '[[d:warlock#1418322782692966520]]'
+  agreement: contested
+- vs: priest
+  verdict: 'control war: Spell Lock + CoT or Seduce + CoT; Spellstone removes silences; Shadow Priest is the harder dispel
+    matchup'
+  sources:
+  - '[[d:pvp-general#1382720814482329600]]'
+  - '[[d:warlock#1209940014520336435]]'
+  agreement: consensus
+- vs: shaman
+  verdict: wins on paper (CoT cripples the nature kit, CoE kites) but grouped shamans hard-counter fear/seduce (Tremor/Grounding/Earth
+    Shock)
+  sources:
+  - '[[d:pvp-general#1138134954014933022]]'
+  - '[[d:warlock#1299347161649250408]]'
+  - '[[d:warlock#1482345452148887715]]'
+  agreement: contested
+- vs: druid
+  verdict: favoured; Paranoia counters stealth openers; a good druid decurses DoTs quickly
+  sources:
+  - '[[d:pvp-general#1134586904780746795]]'
+  - '[[d:warlock#1385903296031752212]]'
+  agreement: consensus
+- vs: mage
+  verdict: mage-favoured vs Affliction (dispels + Counterspell); Destro closer; Spellstone removes Polymorph/silence
+  sources:
+  - '[[d:pvp-general#1430022003674447904]]'
+  - '[[d:warlock#1146454951002902700]]'
+  agreement: single source
+- vs: warlock mirror
+  verdict: Felhunter primary; decided by landing Seduce/Death Coil and pet survival; Soul Link banned in duels
+  sources:
+  - '[[d:warlock#1348439442708496435]]'
+  - '[[d:warlock#1427998109861941421]]'
+  - '[[d:pvp-general#1113087406359449671]]'
+  agreement: single source / contested
+- vs: melee cleave
+  verdict: default loss when trained by 2+ melee; Soul Link + VW Sacrifice + Death Coil (2 min) is the only peel
+  sources:
+  - '[[d:pvp-general#1278958230449426478]]'
+  - '[[d:warlock#1399432909311574158]]'
+  agreement: consensus
+pvp_race:
+- 'Post-1.18.1: Undead for PvP (WotF), Orc for Demo/Destro, Troll for Affliction; Orc Hardiness ''nerfed into the ground''
+  makes WotF the superior PvP racial [[d:warlock#1488436339962548264]], [[d:warlock#1491111022877216972]], [[d:warlock#1488865404519583745]]
+  (consensus, post-1.18.1)'
+- Dwarf Warlock (new 1.18.1 Alliance combination) has no PvP evaluation in either corpus — gap
 mistakes_to_avoid:
-  - "Hard-casting Fear on a melee target (6-s cast under pushback); use Death Coil/Seduce first"
-  - "Casting Immolate on a seduced target (breaks Seduction)"
-  - "Using the class Dreadsteed mount in contested/combat zones (interruptible, silenceable)"
-  - "Running out of shards for Shadowburn/Soul Fire/pet"
-  - "Bringing the wrong pet for the matchup"
-  - "Spamming Curse of Exhaustion post-1.18.1 without tracking its mana cost (190/cast)"
-  - "Assuming Felhunter Spell Lock reliably silences for its tooltip duration (long-reported as bugged, ~1 s instead of 3 s)"
+- Hard-casting at melee range
+- Fear on Undead before Will of the Forsaken is used
+- Lash of Pain autocast cancels Seduction [[d:warlock#1465198561955418367]]
+- Destruction into fire reflector/immunity [[d:warlock#1469458947969909015]]
+- Burning Death Coil early
+discord:
+  channels:
+  - warlock
+  - pvp-general
+  agreement: mixed — consensus on the CC2-era Conflag/CoE meta; contested after CC3/1.18.1 (Affliction tilts ahead, Destro
+    called a wheelchair spec)
+  eras:
+  - pre-1.18.1
+  - 1.18.1-announced-pre-release
+  - post-1.18.1
+  sources:
+  - cite: '[[d:warlock#1406658417032167464]]'
+    era: pre-1.18.1
+    agreement: single source
+    topic: decoded post-CC3 Conflag/NF 19/0/32
+  - cite: '[[d:warlock#1436492032876085399]]'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    topic: decoded Affliction 35/5/11 PvP
+  - cite: '[[d:warlock#1450365899885248552]]'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    topic: decoded SM/Ruin PvP 30/0/21
+  - cite: '[[d:warlock#1489224572174602251]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: '''the only good pvp spec is affliction'''
+  - cite: '[[d:warlock#1491191968494256168]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: 'post-1.18.1 tier list: Affliction S / Fire A / Demo B'
+  - cite: '[[d:warlock#1487499992615882772]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: post-1.18.1 Destro 'wheelchair spec'
+  - cite: '[[d:warlock#1209940014520336435]]'
+    era: pre-1.18.1
+    agreement: consensus
+    topic: Spellstone preferred PvP stone, shares Healthstone CD
+  - cite: '[[d:warlock#1432864279626911900]]'
+    era: 1.18.1-announced-pre-release
+    agreement: contested
+    topic: dynamic per-spec PvP dampening
+  - cite: '[[d:warlock#1487426760005124097]]'
+    era: post-1.18.1
+    agreement: contested
+    topic: new 3-tier PvP set bonuses and player complaints
+  - cite: '[[d:warlock#1488436339962548264]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: PvP race advice post-1.18.1
+guide: guide/classes/warlock/pvp.md
+stat_priority:
+- stamina
+- spell-power
+- spell-crit
+- spell-hit
+stat_priority_note: '"PvP is not PvE, survivability is better than raw damage. So everyone stack on stamina until they reach
+  some comfortable amount to not die instantly" [Xudo p=108896]. Then Shadow or Fire spell damage — cheap "of shadow wrath"
+  greens do the job — then crit for Soul Fire and Conflagrate burst. Hit matters less than in PvE because the targets are
+  level 60. The epic Warlock PvP set has 0% crit against the blue set''s 2%, and raid gear generally beats PvP gear in battlegrounds.'

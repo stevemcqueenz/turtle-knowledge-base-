@@ -2,47 +2,237 @@ class: Warlock
 spec: Demonology
 role: pvp
 sources:
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=94776#p94776", author: Majestik51, authority: player, date: "2024-05-13"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=94746#p94746", author: Ataika, authority: player, date: "2024-05-13"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=121838#p121838", author: Deer12w, authority: player, date: "2025-03-06"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=135863#p135863", author: Forumdweller, authority: player, date: "2025-06-15"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=121753#p121753", author: Zulnam, authority: player, date: "2025-03-05"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=137375#p137375", author: pillowed, authority: player, date: "2025-06-29"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=121777#p121777", author: Dannyp92, authority: player, date: "2025-03-05"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=94776#p94776
+  author: Majestik51
+  authority: player
+  date: '2024-05-13'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=94746#p94746
+  author: Ataika
+  authority: player
+  date: '2024-05-13'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=121838#p121838
+  author: Deer12w
+  authority: player
+  date: '2025-03-06'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=135863#p135863
+  author: Forumdweller
+  authority: player
+  date: '2025-06-15'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=121753#p121753
+  author: Zulnam
+  authority: player
+  date: '2025-03-05'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=137375#p137375
+  author: pillowed
+  authority: player
+  date: '2025-06-29'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=121777#p121777
+  author: Dannyp92
+  authority: player
+  date: '2025-03-05'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  author: Jamey
+  authority: staff
+  date: '2026-01-23'
+- cite: '[[d:warlock#1409163562169139322]]'
+  author: Aulbath
+  authority: player
+  date: '2025-08-24'
+  era: pre-1.18.1
+  agreement: single source
+- cite: '[[d:warlock#1447378022100635658]]'
+  author: Ghost9626
+  authority: player
+  date: '2025-12-08'
+  era: 1.18.1-announced-pre-release
+  agreement: single source
 agreement: contested
 patch_validity:
-  written_for: "mixed CC2/CC3; 1.18.1 durability changes applied"
+  written_for: 1.18.0 tree, valid on 1.18.1
   valid_for_1181: true
-  notes: "1.18.1 explicitly nerfed Soul Link (25%->20% transfer) and shifted the healing-reduction off the Warlock onto enslaved/greater demons; no post-1.18.1 PvP re-evaluation of Soul Link exists in the sources."
+  notes: Soul Link cut to 20% for PvP; Demonology is B-tier PvP (duels/arenas) [[d:warlock#1491191968494256168]], [[d:warlock#1461931073293521128]].
 talents:
-  build_name: "Soul Link (SL/Nightfall, SL/Shadowburn, SL + greater demons); no source gives a full decoded point list, only talent-calculator links"
-  points: []
+  build_name: Soul Link Demonology PvP 5/34/12 (Aulbath, 1.18.0)
+  points:
+  - tree: Affliction
+    talent: Improved Corruption
+    rank: 5
+    spell_id: 17814
+  - tree: Demonology
+    talent: Demonic Embrace
+    rank: 5
+    spell_id: 18701
+  - tree: Demonology
+    talent: Soul Funnel
+    rank: 2
+    spell_id: 18704
+  - tree: Demonology
+    talent: Fel Intellect
+    rank: 3
+    spell_id: 18744
+  - tree: Demonology
+    talent: Fel Domination
+    rank: 1
+    spell_id: 18708
+  - tree: Demonology
+    talent: Fel Stamina
+    rank: 5
+    spell_id: 18752
+  - tree: Demonology
+    talent: Master Summoner
+    rank: 2
+    spell_id: 18710
+  - tree: Demonology
+    talent: Unholy Power
+    rank: 3
+    spell_id: 18771
+  - tree: Demonology
+    talent: Power Overwhelming
+    rank: 1
+    spell_id: 51714
+  - tree: Demonology
+    talent: Demonic Precision
+    rank: 3
+    spell_id: 51717
+  - tree: Demonology
+    talent: Master Demonologist
+    rank: 5
+    spell_id: 23825
+  - tree: Demonology
+    talent: Unleashed Potential
+    rank: 3
+    spell_id: 51723
+  - tree: Demonology
+    talent: Soul Link
+    rank: 1
+    spell_id: 19028
+  - tree: Destruction
+    talent: Shadow Vulnerability
+    rank: 5
+    spell_id: 17803
+  - tree: Destruction
+    talent: Demonic Swiftness
+    rank: 2
+    spell_id: 57731
+  - tree: Destruction
+    talent: Bane
+    rank: 5
+    spell_id: 17792
+  build_note: Validated with talent_tool.py (VALID) [[d:warlock#1409163562169139322]]. 20/31/0 and 17/31/3 SL/NF shapes lack
+    pushback protection on non-shadow spells [[d:warlock#1465082548748288010]].
   leveling_order: []
+  code: Ao-AoQYBoCDBYFYB-FAV
+  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=warlock&t=05-050203150020313531-5025
+  build_link_tortoise_note: 'Generated from the sourced points list (51 points: Affliction 5, Demonology 34, Destruction 12);
+    the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
+discord_builds:
+- name: Soul Link 5/34/12 (Succubus/UP)
+  code: Ao-AoQYBoCDBYFYB-FAV
+  source_author: Aulbath
+  cite: '[[d:warlock#1409163562169139322]]'
+  era: pre-1.18.1
+  agreement: single source
+- name: SL variants 20/31/0, 17/31/3
+  cite: '[[d:warlock#1465082548748288010]]'
+  era: 1.18.1-announced-pre-release
+  agreement: contested
+- name: Deep Demo + greater demons (arena / duels)
+  cite: '[[d:warlock#1436498300542128168]]'
+  era: 1.18.1-announced-pre-release
+  agreement: consensus in arena / contested outside
 stat_weights:
-  stamina: "high, first priority (Soul Link splits damage with the pet; Demonic Embrace)"
-  pet_stamina: "high via Fel Stamina (10-50% of the Warlock's own Stamina); target ~30%+ of Warlock stamina on the demon"
-  spell_power: "medium, secondary to survivability stats"
-stat_priority: [stamina, spell-power]
-stat_priority_note: "Stamina first, alongside Demonic Embrace: Soul Link splits your damage with a pet whose health scales from your own through Fel Stamina (10–50%), and players aim for the demon to carry roughly 30% of the warlock's stamina. Shadow spell damage next. No fuller ordering exists; the PvP epic set is reported to have lost 10% Soul Link and to have low armor (single source)."
+  stamina: 'high, first priority (Soul Link splits damage with the pet; Demonic Embrace). Discord: practical full-PvP-BiS
+    HP pool ~6-6.8k, Voidwalker nearer 8k [[d:warlock#1378813710327615568]]'
+  pet_stamina: high via Fel Stamina (10-50% of the Warlock's own Stamina); a forum source targets ~30%+ of Warlock stamina
+    on the demon (Akarui, forum p=142148, 2025-07-30)
+  spell_power: medium, secondary to survivability stats
 caps: {}
 rotation_single: []
 rotation_aoe: []
 aoe_threshold: 0
 cooldowns:
-  - {name: "Inferno / Demon Gate / Ritual of Doom", use_when: "fight expected to last >30 s; pre-cast Demon Gate out of combat since it can be interrupted by damage"}
-  - {name: "Power Overwhelming", use_when: "demon CC'd, or to force 10 s of burst; costs 40% of the demon's base health"}
-  - {name: "Death Coil", use_when: "melee connects for significant damage (~2000), or to peel"}
-  - {name: "Fel Domination", use_when: "instant re-summon after a demon dies or is lost"}
+- name: Voidwalker Sacrifice -> Felguard
+  use_when: duel opener; countered by experienced players [[d:warlock#1465083424107790549]]
+- name: Inferno / Demon Gate
+  use_when: 'arena: cooldowns reset each match [[d:warlock#1436498300542128168]]'
+- name: Power Overwhelming
+  use_when: burst; removes CC from the demon
+- name: Death Coil
+  use_when: peel
 resource_rules:
-  - "Curse of Exhaustion is the class's primary PvP slow: 10% base, 40% only with 20+ Affliction points (Improved Curse of Exhaustion), 190 mana since 1.18.1"
-  - "Health Funnel the pet between engagements; Voidwalker Sacrifice when the pet is about to die or before a Fel Domination re-summon"
-  - "one curse per target: Corruption + Curse of Agony/Exhaustion/Tongues, Siphon Life if reached, Immolate only when Seduction is not needed"
-consumables: []
+- 'Curse of Exhaustion is the class''s primary PvP slow: 10% base, 40% only with 20+ Affliction points (Improved Curse of
+  Exhaustion), 190 mana since 1.18.1'
+- Health Funnel the pet between engagements; Voidwalker Sacrifice when the pet is about to die or before a Fel Domination
+  re-summon
+- 'one curse per target: Corruption + Curse of Agony/Exhaustion/Tongues, Siphon Life if reached, Immolate only when Seduction
+  is not needed'
+- 'Soul Link strength is contested on record: banned in duelling tournaments vs ''soul link is simply not playable anymore
+  in pvp'' post-CC3 [[d:pvp-general#1113087406359449671]], [[d:warlock#1423810612437450832]]'
+- Felguard is bad on Blades Edge (pillars/rope) and vs geared teams who kill it; greater demons cannot be brought into BGs
+  unless summoned inside [[d:warlock#1424134340052520980]], [[d:warlock#1436498300542128168]]
+consumables:
+- Spellstone (on-use magic dispel + absorb, level x12) shares the Healthstone cooldown and is the preferred PvP stone for
+  many players — 'giga strong against sp, warlocks and mages' [[d:warlock#1209940014520336435]]
+- Free Action Potion, Limited Invulnerability Potion (denies warrior rage), Flask of the Titans / Supreme Power, protection
+  potions (Holy vs Paladin), heal/mana pots, bandages [[d:warlock#1411574992134738042]], [[d:warlock#1394677049758584832]],
+  [[d:warlock#1300912243424100423]]
+- 'Engineering: grenades, sapper charges, reflectors, rocket boots/helmet, target dummy [[d:warlock#1285479733110509580]],
+  [[d:warlock#1419960348370534450]]'
 mistakes_to_avoid:
-  - "Hard-casting a Voidwalker under pressure without Fel Domination up"
-  - "Using Curse of Exhaustion as if it still slowed 50% (it does not since CC3, and costs more mana since 1.18.1)"
-  - "Summoning a Felguard/Infernal in the open expecting to not be focused"
-  - "Forgetting Soul Link's damage transfer can kill a low-health pet outright"
-  - "Expecting Voidwalker Sacrifice to absorb a full burst opener (only 1-2 extra hits)"
-  - "Playing Soul Link on Alliance and relying on Fear against Undead (Will of the Forsaken)"
+- Relying on a greater demon in battlegrounds (one Fear/Banish wastes it) [[d:warlock#1469459298722775227]]
+- Leaving Lash of Pain on autocast
+- Taking Demonic Sacrifice with Soul Link
+pvp_race:
+- 'Post-1.18.1 advice: Undead for PvP (WotF), Orc for Demo/Destro, Troll for Affliction; Orc Hardiness was ''nerfed into the
+  ground'', making WotF the superior PvP racial [[d:warlock#1488436339962548264]], [[d:warlock#1491111022877216972]] (consensus,
+  post-1.18.1)'
+discord:
+  channels:
+  - warlock
+  - pvp-general
+  agreement: mixed — consensus that it is durable; contested that it is strong (banned in duels vs 'mid'/'not playable')
+  eras:
+  - pre-1.18.1
+  - 1.18.1-announced-pre-release
+  - post-1.18.1
+  sources:
+  - cite: '[[d:warlock#1409163562169139322]]'
+    era: pre-1.18.1
+    agreement: single source
+    topic: decoded SL 5/34/12 build
+  - cite: '[[d:pvp-general#1113087406359449671]]'
+    era: pre-1.18.1
+    agreement: contested
+    topic: Soul Link banned in duelling tournaments
+  - cite: '[[d:warlock#1423810612437450832]]'
+    era: 1.18.1-announced-pre-release
+    agreement: contested
+    topic: '''soul link is not playable anymore in pvp'''
+  - cite: '[[d:warlock#1436498300542128168]]'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    topic: 'arena: greater-demon cooldowns reset each match'
+  - cite: '[[d:warlock#1424134340052520980]]'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    topic: Felguard bad on Blades Edge
+  - cite: '[[d:warlock#1409163562169139322]]'
+    era: pre-1.18.1
+    agreement: single source
+    topic: Sinister Pursuit / pet-speed value post-1.18.1
+  - cite: '[[d:warlock#1488436339962548264]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: PvP race advice
+  - cite: '[[d:warlock#1464911531757015155]]'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    topic: request to stop balancing around Blood Ring win-rate
+guide: guide/classes/warlock/pvp.md
+stat_priority:
+- stamina
+- spell-power
+stat_priority_note: 'Stamina first, alongside Demonic Embrace: Soul Link splits your damage with a pet whose health scales
+  from your own through Fel Stamina (10–50%), and players aim for the demon to carry roughly 30% of the warlock''s stamina.
+  Shadow spell damage next. No fuller ordering exists; the PvP epic set is reported to have lost 10% Soul Link and to have
+  low armor (single source).'

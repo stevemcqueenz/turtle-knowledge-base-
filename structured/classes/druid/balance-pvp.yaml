@@ -1,43 +1,332 @@
 class: Druid
 spec: Balance
 role: pvp
+guide: guide/classes/druid/pvp.md
 sources:
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=143254#p143254", author: Turboman, authority: player, date: "2025-08-05"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=143211#p143211", author: Thaladar, authority: player, date: "2025-08-05"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=143201#p143201", author: Maximage, authority: player, date: "2025-08-05"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=150002#p150002", author: Reekharh, authority: player, date: "2025-09-03"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=160309#p160309", author: Turboman, authority: player, date: "2025-11-22"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=160430#p160430", author: Springboards, authority: player, date: "2025-11-23"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=126009#p126009", author: Tarsis, authority: player, date: "2025-04-08"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=172568#p172568", author: Mistikkk, authority: player, date: "2026-03-26"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=172460#p172460", author: Froghijab420, authority: player, date: "2026-03-25"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=95354#p95354", author: Templar85, authority: player, date: "2024-05-21"}
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=143254#p143254
+  author: Turboman
+  authority: player
+  date: '2025-08-05'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=143211#p143211
+  author: Thaladar
+  authority: player
+  date: '2025-08-05'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=143201#p143201
+  author: Maximage
+  authority: player
+  date: '2025-08-05'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=150002#p150002
+  author: Reekharh
+  authority: player
+  date: '2025-09-03'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=160309#p160309
+  author: Turboman
+  authority: player
+  date: '2025-11-22'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=160430#p160430
+  author: Springboards
+  authority: player
+  date: '2025-11-23'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=126009#p126009
+  author: Tarsis
+  authority: player
+  date: '2025-04-08'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=172568#p172568
+  author: Mistikkk
+  authority: player
+  date: '2026-03-26'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=172460#p172460
+  author: Froghijab420
+  authority: player
+  date: '2026-03-25'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=95354#p95354
+  author: Templar85
+  authority: player
+  date: '2024-05-21'
 agreement: contested
 patch_validity:
-  written_for: "1.17.2 / 1.18.0 talent tree (structurally unchanged by 1.18.1)"
+  written_for: 1.17.2 / 1.18.0 talent tree (structurally unchanged by 1.18.1)
   valid_for_1181: unknown
-  notes: "No post-1.18.1 PvP-specific re-test found; the general Eclipse/Balance-of-All-Things rework covered in balance-ranged-dps.yaml applies but its PvP impact is not separately confirmed."
+  notes: '1.18.1 reworked Eclipse/BoAT (see balance-ranged-dps.yaml); its PvP impact is not separately confirmed. Post-1.18.1
+    Starfire PvP value is CONTESTED: one player says the patch made it ''WAY more worth it in pvp'', another calls the ~3.0s
+    base cast (worse under Barkskin) unusable [[d:druid#1484972121343004833]] [[d:druid#1493695899954839552]] [[d:druid#1485036908596957374]].
+    Dispel protection remains the spec''s defining PvP weakness.'
+discord:
+  channel: druid
+  scope: Balance PvP build direction, dispel weakness, stamina itemisation, 1.18.1 Starfire fight
+  sources:
+  - id: '974507902301773824'
+    era: pre-1.18.1
+    agreement: consensus
+    claim: The classic 30/0/21 dot-kite build remains the Balance PvP reference from 2022 to 2025
+  - id: '1425436220485533788'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    claim: PvP prefers Nature's Swiftness over BoAT/Eclipse because there is rarely time to hardcast; concrete build link
+      talents.turtle-wow.org/druid?points=BgCaYKFYAL--AoFABbADAI (Mikodo, 2025-10-08) [[d:druid#1433561904009183338]]
+  - id: '1390604344830853162'
+    era: pre-1.18.1
+    agreement: single source
+    claim: 'A 33/0/18 deep-Balance PvE spec is rejected for PvP: the points skip exactly the range/Nature''s Grasp/knockback/Owlkin
+      Frenzy tools PvP needs; ''PVP loves spikey damage not DOT damage'' [[d:druid#1390616149762379827]]'
+  - id: '1307688609767227474'
+    era: pre-1.18.1
+    agreement: single source
+    claim: Moonkin PvP itemisation is Stamina-first with leather armor where possible ('avoid cloth'); mp5/mana regen is wasted
+      in short bursty fights; glass-cannon spellpower is rejected
+  - id: '1492151406159859824'
+    era: mixed
+    agreement: consensus
+    claim: 'No dispel protection: a Priest removes all Balance DoTs in one GCD (a Paladin takes longer), deleting the crit
+      pressure; community repeatedly asked for 15-20% dispel protection [[d:druid#1487866288763179088]] [[d:druid#1296951349094780983]]'
+  - id: '1427685365220769933'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    claim: Moonkin form can be Sapped (not an animal form), so a Rogue can open on a Moonkin; player asks if intended, no
+      staff answer in-channel
+  - id: '1356583755254468678'
+    era: pre-1.18.1
+    agreement: contested
+    claim: 'Whether a committed stand-and-cast Moonkin works is contested: ''turret'' view vs ''full Balance PvP should not
+      work against any good player'' [[d:druid#1356585041253367928]]'
+  - id: '1489734670512951386'
+    era: post-1.18.1
+    agreement: single source
+    claim: Barkskin's increased cast time is a named boomkin PvP grievance ('god that is awful') [[d:druid#1487866288763179088]]
+  - id: '1482116247696183336'
+    era: post-1.18.1
+    agreement: consensus
+    claim: Tauren is the PvP-minmax race (War Stomp + stamina); War Stomp into Entangling Roots is the named play
 talents:
-  build_name: "Classic 30-0-21 dot-kite build"
-  build_link: "https://talents.turtlecraft.gg/druid?points=pgCDYCFYBIAAAAAAAAAAAAAAAAAAAooADJDCIAAAAAA="
-  points: []
+  build_name: Balance PvP 30/0/21 (Nature's Swiftness; Midoko)
+  build_link: https://talents.turtlecraft.gg/druid?points=BgCaYKFYAL--AoFABbADAI
+  build_link_note: 'Midoko: BoAT and Eclipse are not worth it for PvP; Moonfire spam and Nature''s Grace Starfires [[d:druid#1425436220485533788]].
+    Validated with talent_tool.py.'
+  points:
+  - tree: Balance
+    talent: Nature's Grasp
+    rank: 1
+    spell_id: 16689
+  - tree: Balance
+    talent: Improved Nature's Grasp
+    rank: 4
+    spell_id: 17249
+  - tree: Balance
+    talent: Improved Moonfire
+    rank: 2
+    spell_id: 16822
+  - tree: Balance
+    talent: Natural Weapons
+    rank: 3
+    spell_id: 45717
+  - tree: Balance
+    talent: Natural Shapeshifter
+    rank: 2
+    spell_id: 16834
+  - tree: Balance
+    talent: Moonfury
+    rank: 3
+    spell_id: 16899
+  - tree: Balance
+    talent: Omen of Clarity
+    rank: 1
+    spell_id: 16864
+  - tree: Balance
+    talent: Nature's Reach
+    rank: 2
+    spell_id: 16820
+  - tree: Balance
+    talent: Vengeance
+    rank: 5
+    spell_id: 16913
+  - tree: Balance
+    talent: Moonglow
+    rank: 3
+    spell_id: 16847
+  - tree: Balance
+    talent: Nature's Grace
+    rank: 1
+    spell_id: 16880
+  - tree: Balance
+    talent: Improved Starfire
+    rank: 3
+    spell_id: 16924
+  - tree: Restoration
+    talent: Furor
+    rank: 5
+    spell_id: 17061
+  - tree: Restoration
+    talent: Nature's Focus
+    rank: 5
+    spell_id: 17068
+  - tree: Restoration
+    talent: Swiftmend
+    rank: 1
+    spell_id: 18562
+  - tree: Restoration
+    talent: Genesis
+    rank: 3
+    spell_id: 17113
+  - tree: Restoration
+    talent: Reflection
+    rank: 3
+    spell_id: 17108
+  - tree: Restoration
+    talent: Tranquil Spirit
+    rank: 3
+    spell_id: 24970
+  - tree: Restoration
+    talent: Nature's Swiftness
+    rank: 1
+    spell_id: 17116
   leveling_order: []
+  build_code_b36: 1O2KJHI1I--551L31
+  split: 30/0/21
+  alternative_points:
+  - build_name: Hybrid 26/11/14 (Modwolf; Moonkin + Feral Charge)
+    note: '[[d:druid#1481682966907453581]]'
+    code: BgCbYKAYJIB-AoaAB-AoFABY
+    split: 26/11/14
+    points:
+    - tree: Balance
+      talent: Nature's Grasp
+      rank: 1
+      spell_id: 16689
+    - tree: Balance
+      talent: Improved Nature's Grasp
+      rank: 4
+      spell_id: 17249
+    - tree: Balance
+      talent: Improved Moonfire
+      rank: 2
+      spell_id: 16822
+    - tree: Balance
+      talent: Natural Weapons
+      rank: 3
+      spell_id: 45717
+    - tree: Balance
+      talent: Natural Shapeshifter
+      rank: 3
+      spell_id: 16835
+    - tree: Balance
+      talent: Moonfury
+      rank: 3
+      spell_id: 16899
+    - tree: Balance
+      talent: Omen of Clarity
+      rank: 1
+      spell_id: 16864
+    - tree: Balance
+      talent: Nature's Reach
+      rank: 2
+      spell_id: 16820
+    - tree: Balance
+      talent: Moonglow
+      rank: 3
+      spell_id: 16847
+    - tree: Balance
+      talent: Owlkin Frenzy
+      rank: 1
+      spell_id: 45734
+    - tree: Balance
+      talent: Moonkin Form
+      rank: 1
+      spell_id: 24858
+    - tree: Balance
+      talent: Nature's Grace
+      rank: 1
+      spell_id: 16880
+    - tree: Balance
+      talent: Balance of All Things
+      rank: 1
+      spell_id: 51433
+    - tree: Feral Combat
+      talent: Feral Aggression
+      rank: 5
+      spell_id: 16862
+    - tree: Feral Combat
+      talent: Feral Instinct
+      rank: 3
+      spell_id: 16949
+    - tree: Feral Combat
+      talent: Brutal Impact
+      rank: 2
+      spell_id: 16941
+    - tree: Feral Combat
+      talent: Feral Charge
+      rank: 1
+      spell_id: 16979
+    - tree: Restoration
+      talent: Furor
+      rank: 5
+      spell_id: 17061
+    - tree: Restoration
+      talent: Nature's Focus
+      rank: 5
+      spell_id: 17068
+    - tree: Restoration
+      talent: Swiftmend
+      rank: 1
+      spell_id: 18562
+    - tree: Restoration
+      talent: Genesis
+      rank: 3
+      spell_id: 17113
+  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=druid&t=01400232312530013--050501330301
+  build_link_tortoise_note: 'Generated from the sourced points list (51 points: Balance 30, Restoration 21); the calculator
+    shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
 stat_weights:
-  stamina: "prioritized over raw spell power for attrition survivability (single source, no numeric weight)"
-stat_priority: [stamina]
-stat_priority_note: "Stamina is the only stat the PvP sources rank, and they rank it first: \"Trying to go full spd is silly because you lose survivability against melee foes and never reach the dmg output of other casters ... Moonkins play best if they stack stam and certain set bonuses for attrition fights\" [Turboman p=160309]. No numeric weight for anything else is given."
-caps: {}
+  stamina: 'prioritized over raw spell power for attrition survivability (forum single source), corroborated by Discord: Stamina-first
+    with leather armor where possible, avoid cloth [[d:druid#1307688609767227474]]'
+  spell_power: not the priority; mp5/mana regen is explicitly wasted in short PvP fights [[d:druid#1307688609767227474]]
+  pvp_hit: contested - melee 5%, spell 3%, or 'Natural Weapons covers it' (all three positions exist; see restoration-pvp.yaml
+    for the full contested list)
+caps:
+  spell_hit_pvp: 3% for the PvP spell cap (excess above cap is wasted) [[d:druid#1482736105634791637]]; with Natural Weapons,
+    base 4% resist / 1% unremovable means effectively no gear spell hit needed [[d:druid#1283031488895647767]]
 rotation_single:
-  - {priority: 1, action: "Moonfire + Insect Swarm", condition: "opener at range"}
-  - {priority: 2, action: "Entangling Roots", condition: "root and kite; reapply as it breaks"}
-  - {priority: 3, action: Wrath, condition: "opportunistic cast when safe, not a committed stand-and-cast pattern"}
-  - {priority: 4, action: "Rejuvenation/Regrowth", condition: "off-heal between DoT applications"}
+- priority: 1
+  action: Moonfire + Insect Swarm
+  condition: opener at range; but expect a Priest to strip them in one GCD for lack of dispel protection [[d:druid#1492151406159859824]]
+- priority: 2
+  action: Entangling Roots
+  condition: root and kite; reapply as it breaks
+- priority: 3
+  action: Wrath
+  condition: opportunistic cast when safe, not a committed stand-and-cast pattern
+- priority: 4
+  action: Rejuvenation/Regrowth
+  condition: off-heal between DoT applications
+- priority: 5
+  action: Starfire
+  condition: post-1.18.1 CONTESTED - worthwhile on a Moonfire'd target if you have a safe window vs unusable ~3.0s base cast
+    (worse under Barkskin) [[d:druid#1484972121343004833]] [[d:druid#1493695899954839552]]
 rotation_aoe: []
 aoe_threshold: null
-cooldowns: []
-resource_rules: []
+cooldowns:
+- name: Nature's Swiftness
+  use_when: instant Healing Touch/Regrowth emergency; also the reason PvP takes 21 Restoration points [[d:druid#1425436220485533788]]
+- name: Barkskin
+  use_when: defensive, but the cast-time penalty is a named grievance - use it for mitigation, not while trying to cast [[d:druid#1489734670512951386]]
+resource_rules:
+- 'Never stand and hardcast in the open: ''I tried to play as a caster mage and deep balance... I was targeted and depopped''
+  [[d:druid#1433561904009183338]]'
 consumables: []
 mistakes_to_avoid:
-  - "Standing and hard-casting like a Mage/Warlock instead of dot-kiting"
-  - "Itemizing for maximum spell power instead of Stamina/attrition survival"
-  - "Committing to the 30-0-21 build's PvE-flavored capstones as if reliable in open-field PvP"
+- Standing and hard-casting like a Mage/Warlock instead of dot-kiting
+- Itemizing for maximum spell power instead of Stamina/attrition survival [[d:druid#1307688609767227474]]
+- Committing to the 30-0-21 build's PvE-flavored capstones as if reliable in open-field PvP
+- Bringing a DoT build into a Priest/Paladin without accounting for dispels [[d:druid#1492151406159859824]]
+- Forgetting Moonkin Form is itself Sapple - a Rogue opener is not preventable [[d:druid#1427685365220769933]]
+supersedes:
+- claim: BoAT/Eclipse is the default Balance capstone (PvE)
+  verdict: For PvP the channel prefers Nature's Swiftness and skips BoAT/Eclipse; PvP wants spike damage over DoT ramp [[d:druid#1425436220485533788]]
+gaps:
+- No post-1.18.1 PvP-specific re-test of the Eclipse/BoAT rework
+- No agreed Balance PvP gear set beyond 'Stamina + armor, avoid cloth'
+stat_priority:
+- stamina
+stat_priority_note: 'Stamina is the only stat the PvP sources rank, and they rank it first: "Trying to go full spd is silly
+  because you lose survivability against melee foes and never reach the dmg output of other casters ... Moonkins play best
+  if they stack stam and certain set bonuses for attrition fights" [Turboman p=160309]. No numeric weight for anything else
+  is given.'

@@ -1,6 +1,7 @@
 class: Mage
 spec: Arcane
 role: ranged-dps
+guide: guide/classes/mage/arcane.md
 sources:
 - url: https://forum.turtlecraft.gg/viewtopic.php?p=102968#p102968
   author: Dragunovi
@@ -102,102 +103,136 @@ sources:
   author: Massie2
   authority: player
   date: '2023-02-06'
+- cite: '[[d:mage#1484816855662071930]]'
+  author: Bruh
+  authority: player
+  date: '2026-03-21'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:mage#1486115820668190761]]'
+  author: Luden TA
+  authority: player
+  date: '2026-03-25'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:mage#1486059691699343402]]'
+  author: Jûun Amelie
+  authority: player
+  date: '2026-03-24'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:mage#1470553379427188847]]'
+  author: Pepopo
+  authority: player
+  date: '2026-02-09'
+  era: 1.18.1-announced-pre-release
+  agreement: consensus
 agreement: consensus
 patch_validity:
   written_for: 1.17.2 rework (2024-11-01) as retuned in 1.18.0 (2025-08-15); wiki rotation revised 2026-03-24
   valid_for_1181: true
-  notes: 1.18.1 changed nothing in the Arcane tree. 1.18.1 fixed the T3.5 Mirror Magic 3-set (+10% Arcane on rewind) and wand
-    school modifiers. Pre-2025-04-01 advice about the T3 6-set removing the Arcane Power regen penalty is superseded (bonus
-    removed). Pre-1.17.2 'Brilliance Aura / mana battery' advice is superseded (aura removed).
+  notes: '1.18.1 fixed the T3.5 Mirror Magic 3-set (+10% Arcane on rewind) and wand school modifiers. The earlier flat statement
+    that 1.18.1 ''changed nothing in the Arcane tree'' is softened: a patch-day raider reported Resonance Cascade hitting
+    25% where they remembered 20% [[d:mage#1484585695422058496]] (post-1.18.1, single source, unconfirmed) and Arcane Rupture/Surge
+    damage-drop reports appeared on patch day [[d:mage#1484629998882128057]], [[d:mage#1486855899971719238]] (post-1.18.1,
+    contested/unconfirmed). Pre-2025-04-01 advice about the T3 6-set removing the Arcane Power regen penalty is superseded
+    (bonus removed). Pre-1.17.2 ''Brilliance Aura / mana battery'' advice is superseded (aura removed).'
 talents:
-  build_name: Wiki Arcane single-target path (50 points at level 59; 51st = Arcane Power at 60 with gear) — single source
+  build_name: Arcane raid 43/8/0 (standard post-1.18.1 raid build; same build for AoE)
+  split: 43/8/0
+  code:
+    tree_b64: ToFoDIAbZKAoB-FAAY-
+    b36_pair: FUZ363L7H6-U0I
+  sources:
+  - '[[d:mage#1484816855662071930]]'
+  - '[[d:mage#1486115820668190761]]'
   points:
-  - tree: Arcane
-    talent: Improved Arcane Missiles
-    rank: 5
-    spell_id: 16770
-    talent_id: 39
-  - tree: Arcane
-    talent: Arcane Concentration
-    rank: 5
-    spell_id: 12577
-    talent_id: 42
-  - tree: Arcane
-    talent: Arcane Rupture
-    rank: 1
-    spell_id: 51949
-    talent_id: 45
-  - tree: Arcane
-    talent: Arcane Impact
-    rank: 3
-    spell_id: 12469
-    talent_id: 44
-  - tree: Arcane
-    talent: Arcane Focus
-    rank: 5
-    spell_id: 12842
-    talent_id: 41
-  - tree: Arcane
-    talent: Arcane Meditation
-    rank: 3
-    spell_id: 18464
-    talent_id: 49
-  - tree: Arcane
-    talent: Temporal Convergence
-    rank: 3
-    spell_id: 51965
-    talent_id: 48
-  - tree: Arcane
-    talent: Accelerated Arcana
-    rank: 1
-    spell_id: 51981
-    talent_id: 52
-  - tree: Arcane
-    talent: Arcane Instability
-    rank: 3
-    spell_id: 15060
-    talent_id: 50
-  - tree: Arcane
-    talent: Arcane Potency
-    rank: 2
-    spell_id: 45404
-    talent_id: 53
-  - tree: Arcane
-    talent: Resonance Cascade
-    rank: 5
-    spell_id: 51990
-    talent_id: 54
-  - tree: Arcane
-    talent: Presence of Mind
-    rank: 1
-    spell_id: 12043
-    talent_id: 51
   - tree: Arcane
     talent: Arcane Subtlety
     rank: 2
     spell_id: 12592
-    talent_id: 37
   - tree: Arcane
     talent: Magic Absorption
     rank: 3
     spell_id: 29445
-    talent_id: 38
-  - tree: Fire
-    talent: Improved Fireball
+  - tree: Arcane
+    talent: Improved Arcane Missiles
     rank: 5
-    spell_id: 12341
-    talent_id: 1
-  - tree: Fire
-    talent: Improved Fire Blast
+    spell_id: 16770
+  - tree: Arcane
+    talent: Arcane Focus
+    rank: 5
+    spell_id: 12842
+  - tree: Arcane
+    talent: Arcane Concentration
+    rank: 5
+    spell_id: 12577
+  - tree: Arcane
+    talent: Arcane Impact
     rank: 3
-    spell_id: 12342
-    talent_id: 5
+    spell_id: 12469
+  - tree: Arcane
+    talent: Arcane Rupture
+    rank: 1
+    spell_id: 51949
+  - tree: Arcane
+    talent: Temporal Convergence
+    rank: 3
+    spell_id: 51965
+  - tree: Arcane
+    talent: Arcane Meditation
+    rank: 3
+    spell_id: 18464
+  - tree: Arcane
+    talent: Arcane Instability
+    rank: 3
+    spell_id: 15060
+  - tree: Arcane
+    talent: Presence of Mind
+    rank: 1
+    spell_id: 12043
+  - tree: Arcane
+    talent: Accelerated Arcana
+    rank: 1
+    spell_id: 51981
+  - tree: Arcane
+    talent: Arcane Potency
+    rank: 2
+    spell_id: 45404
+  - tree: Arcane
+    talent: Resonance Cascade
+    rank: 5
+    spell_id: 51990
   - tree: Arcane
     talent: Arcane Power
     rank: 1
     spell_id: 12042
-    note: 51st point at 60; wiki says not worth it until geared (raid rotations assume it)
-    talent_id: 55
+  - tree: Fire
+    talent: Improved Fireball
+    rank: 5
+    spell_id: 12341
+  - tree: Fire
+    talent: Improved Fire Blast
+    rank: 3
+    spell_id: 12342
+  variants:
+  - name: Frost flex
+    change: 8 flex points into Frost to reach Permafrost for CoC on trash (row-1 filler unspecified by sources)
+    sources:
+    - '[[d:mage#1492228459403939871]]'
+    - '[[d:mage#1486325537646575778]]'
+  - name: Dungeon/AoE 38/0/13
+    code: AoFoDIAbZKAoB--QYATAD
+    change: no Arcane Subtlety/Magic Absorption/Fire; Frost Warding 2, Elemental Precision 3, Improved Frost Nova 2, Permafrost
+      3, Improved Blizzard 3
+    sources:
+    - '[[d:mage#1486165133188403240]]'
+    agreement: single source
+  - name: Mage tank (Twin Emperors)
+    change: raid build minus Arcane Subtlety (threat reduction) and without Arcane Power; must be Arcane (no pushback)
+    sources:
+    - '[[d:mage#1480932674142077039]]'
+    - '[[d:mage#1442604213749416036]]'
   leveling_order:
   - level: 10
     tree: Arcane
@@ -231,37 +266,37 @@ talents:
     talent: Arcane Concentration 5/5
   - level: 20
     tree: Arcane
-    talent: Arcane Rupture
+    talent: Arcane Rupture 1/1
   - level: 21
     tree: Arcane
-    talent: Arcane Impact 1/3
+    talent: Arcane Focus 1/5
   - level: 22
     tree: Arcane
-    talent: Arcane Impact 2/3
+    talent: Arcane Focus 2/5
   - level: 23
     tree: Arcane
-    talent: Arcane Impact 3/3
+    talent: Arcane Subtlety 1/2
   - level: 24
     tree: Arcane
-    talent: Arcane Focus 1/5
+    talent: Arcane Subtlety 2/2
   - level: 25
     tree: Arcane
-    talent: Arcane Meditation 1/3
+    talent: Temporal Convergence 1/3
   - level: 26
     tree: Arcane
-    talent: Arcane Meditation 2/3
+    talent: Temporal Convergence 2/3
   - level: 27
     tree: Arcane
-    talent: Arcane Meditation 3/3
+    talent: Temporal Convergence 3/3
   - level: 28
     tree: Arcane
-    talent: Temporal Convergence 1/3
+    talent: Arcane Meditation 1/3
   - level: 29
     tree: Arcane
-    talent: Temporal Convergence 2/3
+    talent: Arcane Meditation 2/3
   - level: 30
     tree: Arcane
-    talent: Accelerated Arcana
+    talent: Accelerated Arcana 1/1
   - level: 31
     tree: Arcane
     talent: Arcane Instability 1/3
@@ -294,37 +329,37 @@ talents:
     talent: Resonance Cascade 5/5
   - level: 41
     tree: Arcane
-    talent: Presence of Mind
+    talent: Presence of Mind 1/1
   - level: 42
     tree: Arcane
-    talent: Temporal Convergence 3/3
+    talent: Arcane Meditation 3/3
   - level: 43
     tree: Arcane
-    talent: Arcane Focus 2/5
+    talent: Arcane Impact 1/3
   - level: 44
     tree: Arcane
-    talent: Arcane Focus 3/5
+    talent: Arcane Impact 2/3
   - level: 45
     tree: Arcane
-    talent: Arcane Focus 4/5
+    talent: Arcane Impact 3/3
   - level: 46
     tree: Arcane
-    talent: Arcane Focus 5/5
+    talent: Magic Absorption 1/3
   - level: 47
     tree: Arcane
-    talent: Arcane Subtlety 1/2
+    talent: Magic Absorption 2/3
   - level: 48
     tree: Arcane
-    talent: Arcane Subtlety 2/2
+    talent: Magic Absorption 3/3
   - level: 49
     tree: Arcane
-    talent: Magic Absorption 1/3
+    talent: Arcane Focus 3/5
   - level: 50
     tree: Arcane
-    talent: Magic Absorption 2/3
+    talent: Arcane Focus 4/5
   - level: 51
     tree: Arcane
-    talent: Magic Absorption 3/3
+    talent: Arcane Focus 5/5
   - level: 52
     tree: Fire
     talent: Improved Fireball 1/5
@@ -349,39 +384,510 @@ talents:
   - level: 59
     tree: Fire
     talent: Improved Fire Blast 3/3
+  - level: 60
+    tree: Arcane
+    talent: Arcane Power 1/1
+  leveling_note: 'Arcane path 10-60 ending in 43/8/0 (wiki order adjusted: Accelerated Arcana at 30, Instability/Potency before
+    Impact, Arcane Power last). Most players level Frost and respec; Arcane is weak before 24 (Arcane Missiles rank 3).'
   build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=mage&t=2350550310033311251-50003
   build_link_tortoise_note: 'Generated from the sourced points list (51 points: Arcane 43, Fire 8); the calculator shows the
     remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
 stat_weights:
-  spell_hit_1pct_in_sp:
-    fresh60: 10.5
-    endgame_low_haste: 16.7
-    endgame_15pct_haste: 17.5
-    high_haste_25pct: 22.0
-    source: wiki Arcane FAQ sim
-  spell_haste_1pct_in_sp:
-    fresh60: 11.5
-    endgame_low_haste: 17.8
-    endgame_15pct_haste: 20.0
-    high_haste_25pct: 18.2
-  spell_crit_1pct_in_sp:
-    fresh60: 9.0
-    endgame_low_haste: 12.9
-    endgame_15pct_haste: 12.0
-    high_haste_25pct: 13.2
-  aoe_trash:
-    spell_crit_1pct_in_sp: 20
-    spell_hit_1pct_in_sp: 0
-    spell_haste_1pct_in_sp: 0
-  player_formula_Ashafares:
-    sp_20: 14 DPS
-    haste_1: 9.1 DPS
-    crit_1: 9.1 DPS
-    hit_1: 9.1 DPS (until 16%)
-  priority: hit to 16% > haste ~= spell power (1% haste ~= 17-20 SP) > crit > intellect; spirit/stamina low; spell penetration
+  priority: spell hit to 16% (10% from Arcane Focus, ~6% from gear/buffs; only ~3% from gear with Emerald Blessing + 2 ZG
+    enchants) > haste ~= spell power > crit > intellect (to 4500-5000 unbuffed mana); spirit/mp5 not chased; spell penetration
     ignored in PvE
-  leveling_priority: 'Intellect > Stamina > Spirit (Bigsmerf) — contested: Schoop123 found Spirit main stat under Arcane Power
-    drain'
+  haste_1pct_in_sp:
+    pre_raid: 10
+    near_bis: 15-20
+    k40_naxx_sim_Ocra: 16.84
+    fresh60_ambershire: 12
+    sources:
+    - '[[d:mage#1466052950182072431]]'
+    - '[[d:mage#1469497305261539368]]'
+    - '[[d:mage#1455643319211135210]]'
+    - '[[d:mage#1450435312131117117]]'
+  crit_1pct_in_sp:
+    general: 10
+    k40_naxx_sim_Ocra: 13.64
+    sources:
+    - '[[d:mage#1479596305633513554]]'
+    - '[[d:mage#1455643319211135210]]'
+  hit_1pct_in_sp:
+    fresh60_ambershire: 12
+    aoe_trash: 0
+    sources:
+    - '[[d:mage#1450435312131117117]]'
+    - '[[d:mage#1463263470022823976]]'
+  aoe_trash:
+    best_stat: crit
+    haste: ~0 (Arcane Explosion is instant)
+    hit: ~0 (sub-boss mobs)
+    sources:
+    - '[[d:mage#1465056521728823319]]'
+    - '[[d:mage#1463263470022823976]]'
+  breakpoints: 6% haste is the single biggest breakpoint; past it 1% crit or haste ~= 14 SP [[d:mage#1491470885104910406]]
+  fight_length: 'haste value rises with fight length: 30 s 13 SP, 1 min 14.3, 3 min 16.3 (Ocra) [[d:mage#1459917390610694440]]'
+  haste_stacking: multiplicative per source [[d:mage#1489407016483946638]]
+caps:
+  spell_hit: 16% vs level-63 (miss table 3/4/5/16% for +0/+1/+2/+3); max 99% hit [[d:mage#1425882367599443998]], [[d:mage#1475293772999954594]]
+  arcane_missiles_tick_floor: 0.475 s per missile with Accelerated Arcana (100% haste cap); 0.470 s measured once (rounding)
+    [[d:mage#1434891188720373840]], [[d:mage#1455648566583234765]]
+  missiles_channel_softcap: 2.82 s with a T2/T3 +1 s belt, 2.35 s otherwise [[d:mage#1484613204335264025]]
+  rupture_gcd_floor: 58.3% haste (in-game test); earlier sim ~66.6% (contested) [[d:mage#1470553379427188847]], [[d:mage#1436147009815052299]]
+  arcane_surge_haste_cutoff: 'contested 22% (sim) / 25% / 30%: stop Surge above it [[d:mage#1490368335962050703]], [[d:mage#1486024900563959981]],
+    [[d:mage#1486021253289476206]]'
+  gcd: haste does not reduce the GCD [[d:mage#1470104251031093320]]
+  arcane_range_yd: 30
+rotation_single:
+- priority: 0
+  action: 'Opener: on-use SP trinket -> Arcane Rupture -> Arcane Missiles -> (Surge proc: Arcane Surge + Presence of Mind
+    in its GCD) -> Missiles -> Rupture -> Mind Quickening Gem + Arcane Power during the GCD -> Missiles'
+  condition: pull, full mana
+  sources:
+  - '[[d:mage#1468008389048008928]]'
+- priority: 1
+  action: Arcane Rupture
+  condition: Arcane Power (or big haste window) active AND Rupture debuff not on target
+  sources:
+  - '[[d:mage#1486059691699343402]]'
+- priority: 2
+  action: Arcane Missiles
+  condition: Arcane Power active; never Surge or PoM inside AP/MQG
+  sources:
+  - '[[d:mage#1486059691699343402]]'
+  - '[[d:mage#1432389709166018630]]'
+- priority: 3
+  action: Arcane Missiles
+  condition: 'outside AP: Clearcasting active'
+  sources:
+  - '[[d:mage#1486059691699343402]]'
+- priority: 4
+  action: Arcane Rupture
+  condition: Rupture debuff not active (cancel Missiles right after a tick)
+  sources:
+  - '[[d:mage#1486059691699343402]]'
+  - '[[d:mage#1486010713355849778]]'
+- priority: 5
+  action: Arcane Surge
+  condition: usable (a spell of yours was resisted) AND total haste below the Surge cutoff; cast in the last second of the
+    Rupture debuff or with no debuff; >50% mana cancel Missiles at once, <50% wait until the last moment
+  sources:
+  - '[[d:mage#1486059691699343402]]'
+  - '[[d:mage#1467199924109312040]]'
+- priority: 6
+  action: Arcane Missiles
+  condition: default filler; never re-press mid-channel without Nampower
+  sources:
+  - '[[d:mage#1425224352827314196]]'
+- priority: 7
+  action: Fire Blast (reactive Surge macro)
+  condition: moving
+  sources:
+  - '[[d:mage#1454567964413264118]]'
+rotation_aoe:
+- targets_min: 3
+  priority: 1
+  action: Pre-stack Sigil of Ancient Accord with rank-1 Arcane Explosion before the pull
+  condition: Sigil equipped; 1 proc per 2 s ICD
+  sources:
+  - '[[d:mage#1481285443809968250]]'
+  - '[[d:mage#1481332376515772436]]'
+- targets_min: 3
+  priority: 2
+  action: Arcane Explosion (max rank) spam
+  condition: 3+ mobs; same raid build
+  sources:
+  - '[[d:mage#1429280359190761542]]'
+- targets_min: 3
+  priority: 3
+  action: Downrank Arcane Explosion / Eye of Diminution / Fetish of the Sand Reaver / LIP
+  condition: about to pull threat off a weak tank
+  sources:
+  - '[[d:mage#1488097566582378546]]'
+  - '[[d:mage#1488102164122439780]]'
+- targets_min: 3
+  priority: 4
+  action: Goblin Sapper Charge + Arcane Jewel of Wild Magics + Arcane Explosion
+  condition: big stacked trash pack (burst ~50k in one GCD)
+  sources:
+  - '[[d:mage#1438566091365552378]]'
+- targets_min: 2
+  priority: 9
+  action: no source states 2-target handling
+  condition: gap
+aoe_threshold: 3
+cooldowns:
+- name: Arcane Power
+  use_when: at full mana only; +30% cast speed, drains 1% max mana/s, dies below 10% mana, 20 s, uncancellable; weak gear
+    dies to it, +1 s Missiles belts help
+  sources:
+  - '[[d:mage#1439011377133129900]]'
+  - '[[d:mage#1424365348836212796]]'
+- name: Mind Quickening Gem
+  use_when: 'first; Arcane Power near the end of MQG (snapshots haste, shortens AP cooldown); low gear haste (~7%): both together
+    is fine; stack everything only on <30 s fights'
+  sources:
+  - '[[d:mage#1484204264791216199]]'
+  - '[[d:mage#1484233383541477518]]'
+  - '[[d:mage#1457546495405326430]]'
+- name: Juju Flurry / Potion of Quickness
+  use_when: during Arcane Power unless at a hard cap; Juju up to ~12% gear haste, Quickness ~10%, both ~7%
+  sources:
+  - '[[d:mage#1472006152014270646]]'
+  - '[[d:mage#1457504190761930835]]'
+- name: Presence of Mind
+  use_when: instant Arcane Rupture; cast standalone (macro bug); not in AP
+  sources:
+  - '[[d:mage#1460643726241042527]]'
+  - '[[d:mage#1479120357645619211]]'
+- name: Evocation
+  use_when: start just before a server mana tick, cancel after the 4th tick
+  sources:
+  - '[[d:mage#1452736983209083033]]'
+- name: Berserking (Troll)
+  use_when: haste cooldown, same spread/stack rules
+  sources:
+  - '[[d:mage#1436113705480884345]]'
+resource_rules:
+- 'Arcane Power kills you below 10% mana: only pop at full mana; stop Mana Shield.'
+- 'Mana regen while casting: 14% base, 30% with Mage Armor, 37-38% with T2 3pc; server cap 100% [[d:mage#1438912530411163748]],
+  [[d:mage#1438238977558577287]].'
+- Unbuffed mana pool of 4500-5000 makes Arcane Power safe [[d:mage#1491890195384242276]].
+- +1 s Missiles belts and T3 6-piece improve mana economy and allow two Arcane Powers on some fights [[d:mage#1475835751114739865]],
+  [[d:mage#1457729590523985951]].
+- Threat reductions multiply (40% talent x 25% Salvation x 3% cloak ~= 57%) [[d:mage#1427356537147363509]]; Ice Block does
+  not drop threat [[d:mage#1475235315546591466]].
+- Night Dragon's Breath shares a cooldown with mana gems and runes [[d:mage#1470460393116799188]].
+consumables:
+- Flask of Supreme Power, Elixir of Greater Arcane Power, Greater Arcane Elixir, Dreamshard Elixir (all elixirs stack), Dreamtonic,
+  Cerebral Cortex Compound, Medivh's Merlot Blue, Brilliant Wizard Oil [[d:mage#1481694558218616953]], [[d:mage#1452290109851570352]]
+- 'Food: Tel''Abim Delight (SP) on trash, Medley (2% haste) on bosses above ~300-500 buffed SP (contested) [[d:mage#1438496524815568987]],
+  [[d:mage#1464385661678391366]]'
+- Juju Flurry, Potion of Quickness (5%), Spirit of Zanza, Mageblood Potion, Nordanaar Tea [[d:mage#1450233916266119258]],
+  [[d:mage#1457731688846331925]]
+- Goblin Sapper Charge (engineering) for trash [[d:mage#1438550709686501427]]
+- 'Enchants: head/legs Presence of Sight, shoulders Sigil of Quickness (ST) or SP (AoE), gloves +20 Arcane Power, chest/boots
+  Enchanted Armor Kit, weapon +30 SP, ring/neck +6 Arcane SP (JC)'
+mistakes_to_avoid:
+- Arcane Power below full mana (death at 10%) [[d:mage#1439011377133129900]]
+- Surge/PoM during Arcane Power/MQG or above the haste cutoff [[d:mage#1432389709166018630]]
+- Re-pressing Missiles mid-channel or cancelling mid-tick [[d:mage#1486010713355849778]]
+- Recasting Rupture while its debuff is still up [[d:mage#1448429040108044340]]
+- Wasting haste consumables past the 0.475 s / 58.3% caps [[d:mage#1435069155135983779]]
+- Gearing hit for trash [[d:mage#1426251077547855962]]
+- Staying Arcane for Anomalus (arcane-immune) [[d:mage#1484538774741586031]]
+- Buying the "decreases casting speed" trinket or Dreamthread as pre-raid BiS [[d:mage#1437718071656714391]], [[d:mage#1433108399591002163]]
+discord:
+  channel: mage
+  scope: 'Arcane additions from the archived #mage Discord (2021-02-15 → 2026-05-23). Every claim carries a [[d:mage#<id>]]
+    citation, an era (pre-1.18.1 | 1.18.1-announced-pre-release | post-1.18.1) and agreement (consensus | single source |
+    contested).'
+  builds:
+  - name: Post-1.18.1 Arcane raid (screenshot transcription) — 43/8/0
+    split:
+      Arcane: 43
+      Fire: 8
+      Frost: 0
+    source: '[[d:mage#1484816855662071930]]'
+    era: post-1.18.1
+    agreement: single source
+    note: Screenshot header reads 'MAGE 43 / 8 / 0' (2026-03-21, 'Bruh'). Confirms the forum KB's 43-Arcane path and supplies
+      the 8 Fire points the forum left as an inference (Improved Fireball 5 + Improved Fire Blast 3, the 1.18.1 'Fire Blast
+      back in the rotation' concession). Screenshot transcribers mark the icon→talent names '≈' but trust the header and rank
+      totals.
+    allocation:
+    - tree: Arcane
+      talent: Arcane Subtlety
+      rank: 2
+      spell_id: 12592
+    - tree: Arcane
+      talent: Magic Absorption
+      rank: 3
+      spell_id: 29445
+    - tree: Arcane
+      talent: Improved Arcane Missiles
+      rank: 5
+      spell_id: 16770
+    - tree: Arcane
+      talent: Arcane Focus
+      rank: 5
+      spell_id: 12842
+    - tree: Arcane
+      talent: Arcane Concentration
+      rank: 5
+      spell_id: 12577
+    - tree: Arcane
+      talent: Arcane Impact
+      rank: 3
+      spell_id: 12469
+    - tree: Arcane
+      talent: Arcane Rupture
+      rank: 1
+      spell_id: 51949
+    - tree: Arcane
+      talent: Temporal Convergence
+      rank: 3
+      spell_id: 51965
+    - tree: Arcane
+      talent: Arcane Meditation
+      rank: 3
+      spell_id: 18464
+    - tree: Arcane
+      talent: Arcane Instability
+      rank: 3
+      spell_id: 15060
+    - tree: Arcane
+      talent: Presence of Mind
+      rank: 1
+      spell_id: 12043
+    - tree: Arcane
+      talent: Accelerated Arcana
+      rank: 1
+      spell_id: 51981
+    - tree: Arcane
+      talent: Arcane Potency
+      rank: 2
+      spell_id: 45404
+    - tree: Arcane
+      talent: Resonance Cascade
+      rank: 5
+      spell_id: 51990
+    - tree: Arcane
+      talent: Arcane Power
+      rank: 1
+      spell_id: 12042
+    - tree: Fire
+      talent: Improved Fireball
+      rank: 5
+      spell_id: 12341
+    - tree: Fire
+      talent: Improved Fire Blast
+      rank: 3
+      spell_id: 12342
+  - name: 'Decoded 1.17.2 → 1.18.0 long-form builds (forum-README gap #1)'
+    count_complete: 49
+    count_distinct: 48
+    source: '[[d:mage#1296327408013545472]], [[d:mage#1301954095950594118]], [[d:mage#1304743772424245321]], [[d:mage#1401395542013116549]]'
+    era: pre-1.18.1
+    agreement: single source
+    note: '112 old-format ?points= codes were found; 49 decode to legal 51-point builds (client Talent.dbc validated). The
+      canonical codec now lives in staging/talents/talent_codec.py and the validated distinct builds in kb/structured/talents/builds-mage.yaml.
+      Examples: full Arcane through Arcane Power [[d:mage#1304743772424245321]]; Arcane+Frost shatter/farm [[d:mage#1301954095950594118]];
+      Fire 13/35/3 with Hot Streak skipped [[d:mage#1401395542013116549]]. Short post-1.18.0 codes remain undecodable (gap).'
+  - name: Arcane leveling/questing at 57 (screenshot) — 44/2/2
+    split:
+      Arcane: 44
+      Fire: 2
+      Frost: 2
+    source: '[[d:mage#1479212556571640001]]'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    note: Header 'MAGE 44 / 2 / 2', LEVEL 57, 3 POINTS LEFT. Raid build plus Wand Specialization and Magic Absorption, minus
+      the 8 Fire points — a leveling/questing variant.
+  rotation_single:
+  - action: 'In Arcane Power: cast Arcane Rupture whenever the Rupture debuff is down, otherwise channel Arcane Missiles.'
+    condition: Arcane Power active
+    sources:
+    - '[[d:mage#1486058965300412416]]'
+    - '[[d:mage#1486059691699343402]]'
+    era: post-1.18.1
+    agreement: single source
+  - action: 'Outside Arcane Power: Missiles while Clearcasting -> Rupture when its debuff is down -> Surge at the last second
+      of the Rupture debuff (or outside it) -> Missiles.'
+    condition: no Arcane Power / MQG
+    sources:
+    - '[[d:mage#1486058965300412416]]'
+    - '[[d:mage#1486059691699343402]]'
+    - '[[d:mage#1486332027736297683]]'
+    era: post-1.18.1
+    agreement: consensus
+  - action: Keep the Rupture debuff up; wait for it to fall before re-casting Rupture and cancel the Missiles channel right
+      after a tick without clipping a missile.
+    condition: Rupture off cooldown
+    sources:
+    - '[[d:mage#1448429040108044340]]'
+    - '[[d:mage#1450105782422212681]]'
+    - '[[d:mage#1486010713355849778]]'
+    era: mixed
+    agreement: consensus
+  - action: Do not press Arcane Surge during Arcane Power/MQG/other big haste; above ~25-30% effective haste drop Surge from
+      the rotation entirely (Surge's wait does not scale with haste).
+    condition: effective haste > ~25-30%, or a haste cooldown is up
+    sources:
+    - '[[d:mage#1448429040108044340]]'
+    - '[[d:mage#1432389709166018630]]'
+    - '[[d:mage#1486021322340565163]]'
+    - '[[d:mage#1486024900563959981]]'
+    era: mixed
+    agreement: consensus
+  - action: Never re-press Arcane Missiles mid-channel without a channel-check (clips the last missile); use /script ChannelStopCastingNextTick()
+      or the nampower double-tap interrupt to cancel cleanly.
+    condition: channel in progress
+    sources:
+    - '[[d:mage#1486008770353037312]]'
+    - '[[d:mage#1486008678262771782]]'
+    - '[[d:mage#1485666719111446620]]'
+    era: post-1.18.1
+    agreement: consensus
+  - action: When ooming, finish the Missiles channel and then Rupture/Surge for better mana efficiency (lower DPS).
+    condition: low mana / dungeon pacing
+    sources:
+    - '[[d:mage#1486015533433225266]]'
+    era: post-1.18.1
+    agreement: single source
+  - action: 8-piece T3 'direct damaging Arcane spells' benefits only Surge and Rupture, not Missiles.
+    condition: 8pc T3 equipped
+    sources:
+    - '[[d:mage#1484609770936729720]]'
+    - '[[d:mage#1484697825676754974]]'
+    era: post-1.18.1
+    agreement: single source
+  stat_weights:
+    priority: hit to 16% > haste ~= spell power > crit > intellect; spirit/stamina low (Discord field numbers corroborate
+      the wiki sim)
+    spell_hit_1pct_gearing: Arcane gets 10% hit from talents (vs 6% for Fire/Frost) [[d:mage#1425934816251220068]]; +1% druid
+      buff, +2% ZG head/legs enchants, so ~3% is needed from gear [[d:mage#1487588079907770580]] (1.18.1-announced-pre-release,
+      consensus)
+    miss_table: 3% same level, 4% +1, 5% +2, 16% +3 [[d:mage#1425882367599443998]] (1.18.1-announced-pre-release, single source)
+    haste_1pct_in_sp:
+      pre_raid: <13
+      mixed: 13
+      naxx: ~15
+      sources:
+      - '[[d:mage#1430520539532754955]]'
+      - '[[d:mage#1430528874068050022]]'
+      - '[[d:mage#1432714419451854858]]'
+      era: 1.18.1-announced-pre-release
+      agreement: consensus
+    spellpower_20_in_dps: 14
+    haste_1pct_in_dps: 9.1
+    crit_1pct_in_dps: 9.1
+    haste_breakpoint: 6% haste is the largest single-step DPS gain breakpoint [[d:mage#1491470885104910406]] (post-1.18.1,
+      single source)
+    int_mana_target: 4500-5000 mana unbuffed so Arcane Power does not throttle [[d:mage#1491890195384242276]] (post-1.18.1,
+      single source)
+    sim_effort: 'Mondalv 5k-iteration sim, base 950 SP/16 hit/35 crit/19 haste, 90 s undead with MQG+AP: +0 eff haste 1590
+      DPS, +1 1603, +2 1616, +3 1628, +4 1642; +1 crit 1590->1602->1614->1626->1633; +20 SP 1589->1607->1625->1648->1662 [[d:mage#1432730506293936248]],
+      [[d:mage#1423428377989087243]] (1.18.1-announced-pre-release, consensus)'
+  caps:
+    spell_hit: 16% vs bosses (10% from Arcane talents) [[d:mage#1487588079907770580]]
+    missiles_channel_softcap: 2.82 s with a T2/T3 belt, 2.35 s with any other belt; Accelerated Arcana is cast-time reduction,
+      not haste [[d:mage#1484613204335264025]], [[d:mage#1484613633404305640]] (post-1.18.1, consensus)
+    haste_hardcap: '100% = 0.475 s per missile (contested: one player measured 0.470 s) [[d:mage#1427636535460888576]], [[d:mage#1435061990551982291]]'
+    surge_haste_cutoff: ~25-30% effective haste [[d:mage#1486021322340565163]], [[d:mage#1486024900563959981]]
+    haste_multiplicative: new = old/(1+h); tooltip rounding can hide a 1% step [[d:mage#1427670777116753922]], [[d:mage#1427639218913546280]]
+      (1.18.1-announced-pre-release, consensus)
+  rotation_aoe:
+  - action: Arcane Explosion spam.
+    targets_min: 3
+    condition: 3+ mobs; Resonance Cascade rolls once per Explosion and duplicates do not trigger on-hit effects
+    sources:
+    - '[[d:mage#1431347127828873318]]'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+  - action: Wear 3 Frost/Fire T3.5 + 3 Arcane T3.5 for the Mirror Magic rewind on trash (the rewind does not proc Ignite).
+    targets_min: 2
+    sources:
+    - '[[d:mage#1433242806238969877]]'
+    - '[[d:mage#1486745748493045851]]'
+    era: mixed
+    agreement: consensus
+  gear:
+  - Arcane T2 5-piece (haste-on-crit proc, plus a +1 s Missiles channel) stays until ~4% permanent haste from Arcane T3 [[d:mage#1488775375545700484]],
+    [[d:mage#1484514817438908476]], [[d:mage#1489407016483946638]] (post-1.18.1, consensus)
+  - 'Trinket priority MQG > ToEP > Sigil of Ancient Accord > Endless Gulch > Shard/Tear > Kara crypts orb > Whip > ZHC; fight-length
+    sim: 2 min MQG/Tear 1215 DPS, 3 min+ Sigil/Gulch 1221 DPS [[d:mage#1487067808771735693]], [[d:mage#1487093045777268797]],
+    [[d:mage#1494477500871610509]] (post-1.18.1, consensus)'
+  - Gloves of Unwinding Mystery nerfed 22 SP -> 9 SP (bug 18049, applied around 1.18.1); replacement Gloves of Spell Mastery
+    [[d:mage#1427776479936254052]], [[d:mage#1431234432450433135]], [[d:mage#1484607421321187388]], [[d:mage#1484608704958431252]]
+    (post-1.18.1, consensus)
+  - Spellwoven Nobility Drape is ST BiS until Naxx (~50% uptime, ~+1.25% crit) [[d:mage#1490791627307090022]] (post-1.18.1,
+    single source)
+  - Whip of Encouragement = 3% haste; True Band of Sulfuras + Wrath of Cenarius are the endgame ring pair [[d:mage#1484772463752515685]],
+    [[d:mage#1486495562441166858]] (post-1.18.1, single source)
+  - Ring of Burning Talons procs scale 0.22x SP and work with Arcane Explosion on trash [[d:mage#1488765322541666364]] (post-1.18.1,
+    single source)
+  - Prestor's Rod of Command whelp ~120-150 DPS during ~40% uptime [[d:mage#1486490987852337164]] (post-1.18.1, single source)
+  - Blade of Eternal Darkness at 800 SP equals a 555-SP weapon but its proc damages the wielder [[d:mage#1279094951619203177]]
+    (pre-1.18.1, single source)
+  - +9 Arcane damage jewelcrafting ring/amulet enchant confirmed live post-1.18.1; recipe source unknown [[d:mage#1490456423170183369]],
+    [[d:mage#1492564557342703716]] (post-1.18.1, single source)
+  - Scythe of Elune internal cooldown restored in 1.18.1 (2026-03-20), a large arcane power loss [[d:mage#1484542176338772069]],
+    [[d:mage#1484543213976031343]] (post-1.18.1, consensus)
+  - 'Enchants: ZG Presence of Sight +18 SP/1% hit on head, Enchanted Armor Kit +9 SP on feet, gloves 20 arcane or 1% haste
+    [[d:mage#1491271778432192535]], [[d:mage#1484609579206836335]] (post-1.18.1, single source)'
+  consumables:
+  - 'Endgame list: Flask of Supreme Power + Elixir of Greater Arcane Power + Dreamshard Elixir + Dreamtonic + oil + Tel''Abim
+    food; Mageblood; Spirit of Zanza [[d:mage#1438508962843463692]], [[d:mage#1487151321558810655]] (1.18.1-announced-pre-release,
+    consensus)'
+  - Juju Flurry + Potion of Quickness + Berserking + Elune's Courage stack; Nordanaar Tea from the Hyjal inn (no shared potion
+    cooldown) [[d:mage#1427637200375382099]], [[d:mage#1488098864048115845]] (1.18.1-announced-pre-release/post-1.18.1, consensus)
+  - Engineering is the only profession that adds raid damage (Goblin Sapper Charge) [[d:mage#1438550709686501427]] (1.18.1-announced-pre-release,
+    consensus)
+  mistakes_to_avoid:
+  - Expecting Missiles to benefit from the 8-piece T3 direct-damage bonus (only Surge/Rupture do) [[d:mage#1484609770936729720]]
+  - Building AoE threat as Arcane with no Ice Block; watch tank threat or wait ~3 s [[d:mage#1488127271700009040]], [[d:mage#1488129724491501752]]
+  sources:
+  - id: '[[d:mage#1484816855662071930]]'
+    era: post-1.18.1
+    agreement: single source
+    used_for: 43/8/0 raid build screenshot
+  - id: '[[d:mage#1486058965300412416]]'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: post-1.18.1 rotation
+  - id: '[[d:mage#1484613204335264025]]'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: Missiles channel softcap
+  - id: '[[d:mage#1484613633404305640]]'
+    era: post-1.18.1
+    agreement: single source
+    used_for: Accelerated Arcana = cast-time reduction
+  - id: '[[d:mage#1427636535460888576]]'
+    era: 1.18.1-announced-pre-release
+    agreement: contested
+    used_for: haste hard cap 0.475 s
+  - id: '[[d:mage#1435061990551982291]]'
+    era: 1.18.1-announced-pre-release
+    agreement: contested
+    used_for: measured 0.470 s
+  - id: '[[d:mage#1486024900563959981]]'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: Surge haste cutoff
+  - id: '[[d:mage#1431347127828873318]]'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    used_for: Resonance Cascade mechanics
+  - id: '[[d:mage#1487588079907770580]]'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: arcane hit sources
+  - id: '[[d:mage#1425934816251220068]]'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    used_for: 10% arcane hit from talents
+  - id: '[[d:mage#1430520539532754955]]'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    used_for: 1% haste ~=13 SP
+  - id: '[[d:mage#1432730506293936248]]'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    used_for: haste/crit/SP sim table
+  - id: '[[d:mage#1484607421321187388]]'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: Gloves of Unwinding Mystery nerf
+  - id: '[[d:mage#1484542176338772069]]'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: Scythe of Elune ICD restored
+  - id: '[[d:mage#1484585695422058496]]'
+    era: post-1.18.1
+    agreement: single source
+    used_for: possible Resonance Cascade 20->25%
 stat_priority:
 - spell-hit
 - haste
@@ -390,93 +896,3 @@ stat_priority:
 stat_priority_note: 'Consensus of the wiki sim and player weights: hit to 16% first and never over it, then haste and spell
   power which trade almost evenly (~17–20 SP per 1% haste), then crit. Haste has breakpoints where an extra missile lands
   inside the Arcane Rupture window, and gear haste stacks multiplicatively. Spell penetration is a PvP stat only.'
-caps:
-  spell_hit: 16% (talent 10% + 6% gear per Ashafares; wiki sims use 15-16)
-  arcane_range_yd: 30
-  arcane_missiles_haste_cap: exists when stacking haste effects (wiki), value not given
-  arcane_surge_haste_threshold: '~30% haste: drop Surge from the rotation (Guldred, wiki)'
-rotation_single:
-- priority: 0
-  action: 'Opener with cooldowns (<17% haste): Arcane Rupture -> Mind Quickening Gem -> Arcane Power -> Arcane Missiles ->
-    Arcane Rupture if buff about to fall off -> Arcane Missiles'
-  condition: fight start, all cooldowns available; with >17% haste use MQG and Arcane Power separately, AP right before MQG
-    ends
-- priority: 1
-  action: Arcane Surge
-  condition: available (a spell of yours was partially/fully resisted within ~4 s) AND not under Arcane Power/MQG (>=~30%
-    haste) AND you are not clipping a Missiles cast AND mana is spare; cancel Missiles for it only under those conditions;
-    if Rupture buff is active delay as long as possible
-- priority: 2
-  action: Arcane Rupture
-  condition: off cooldown AND Rupture buff (8 s) not active; cancel Missiles for it only if buff not active; use Presence
-    of Mind on it
-- priority: 3
-  action: Arcane Missiles
-  condition: default; do not re-press during the channel (clips); do not start a channel that will end after the Rupture buff
-    expires if you cannot fit it (+20% mana, no +20% damage)
-- priority: 4
-  action: Fire Blast
-  condition: moving; fishes for a resist to enable Arcane Surge
-- priority: 5
-  action: Arcane Missiles rank 1
-  condition: low mana, to fish Clearcasting (Arcane Concentration, 8 s ICD) — leveling/emergency only
-rotation_aoe:
-- targets_min: 3
-  priority: 1
-  action: Arcane Explosion spam (max rank)
-  condition: 3+ mobs per the wiki sim; Resonance Cascade rolls once per Explosion; watch threat
-- targets_min: 3
-  priority: 2
-  action: Wear 3-piece Frost/Fire T3.5 + 3-piece Arcane T3.5 on trash
-  condition: post-1.18.1 Mirror Magic fix; otherwise 5-piece T3.5
-- targets_min: 2
-  priority: 9
-  action: no source states 2-target handling
-  condition: gap
-aoe_threshold: 3
-cooldowns:
-- name: Arcane Power
-  use_when: on pull with MQG if <17% haste else staggered; never below ~30% mana (dies at 10%, cannot be cancelled); +30%
-    cast speed, drains 1% max mana/s, -50% mana gain, 20 s, 3 min
-- name: Presence of Mind
-  use_when: instant Arcane Rupture; sped up by haste via Accelerated Arcana
-- name: Mind Quickening Gem
-  use_when: with Arcane Power at low haste; best trinket for 1-2 min fights per sim
-- name: Evocation
-  use_when: when mana low and safe to channel; cooldown shortened by haste (Accelerated Arcana)
-- name: Mana gem / mana tea / mana potion
-  use_when: tea does not share the potion cooldown; use freely (Gantulga)
-- name: Counterspell
-  use_when: interrupt casters; macro skips targets in Ice Block
-resource_rules:
-- 'Arcane Power kills you below 10% max mana and cannot be cancelled: only activate above ~30% mana and stop Mana Shield use
-  during it.'
-- Arcane Instability burns 2% base mana per proc; Arcane Rupture buff raises Missiles cost by 20% for 8 s.
-- 'Temporal Convergence: 5/10/15% per Missiles cast to reset Rupture and refund its base mana on the next cast (12 s buff,
-  15 s ICD); one Rupture consumes both Convergence and Clearcasting.'
-- Arcane Surge consumes a Clearcasting charge; choose Surge vs Missiles for the free cast deliberately.
-- Arcane Meditation regen is tripled below 35% mana; Wand Specialization returns mana (150% of level) on wand hits; Magic
-  Absorption returns 1-3% total mana on your resisted spells (2 s ICD).
-- In raids a Retribution Paladin's mana-on-spell-hit debuff refills the bar (Eluaria); while leveling mana drops fast — fish
-  Clearcasting with rank-1 Missiles/Arcane Explosion.
-- Blizzard ticks do not proc Clearcasting; each Missiles wave can (subject to the 8 s ICD).
-consumables:
-- Mana tea (Hyjal, small dream shards; no shared cooldown with potions)
-- Greater/Major Mana Potion (Alchemist's Stone +33% if using Greater)
-- Conjured Mana Oranges (AQ20 quest chain; Refreshment Table)
-- Brilliant Wizard Oil (wiki macro)
-- Goblin Sapper Charge (engineering; 'only engineering really matters for raids')
-- 'Trinkets by fight length (sim): MQG (1-2 min), Mark of the Champion / Sphere of Endless Gulch (3-4 min), REoS, Sigil of
-  Ancient Accord; Hazza''rah''s Charm of Magic for AoE trash'
-- 'Shoulder enchant: 2 haste (single target) or ''Saph'' enchant (AoE versatility)'
-mistakes_to_avoid:
-- Starting max-rank Missiles on a mob about to die (wasted mana)
-- Using Arcane Power under ~30% mana (instant death at 10%)
-- Casting Missiles into the last second of the Rupture buff (pay +20% mana, get no bonus)
-- Using Arcane Surge during Arcane Power/MQG (1.5 s GCD does not scale with haste)
-- Letting the ~4 s Arcane Surge window lapse when cancelling Missiles would not clip
-- Re-pressing Missiles during a channel without a channel-check macro/nampower (clips the last missile)
-- Standing beyond 30 yd
-- Ignoring AoE threat on trash (Arcane Subtlety helps)
-- Wearing 5-piece T3.5 on trash after 1.18.1 when 3/3 is better
-- Converting tier pieces at Feid Rota while enchanted (enchants are lost)

@@ -2,6 +2,7 @@ import type { YamlTalents, YamlTalentPoint } from '../types';
 import { isPlainObject, scalarToString } from '../lib/site';
 import { Callout } from './Callout';
 import { YamlValue } from './YamlValue';
+import { CitedText } from './CitedText';
 
 function rankNumber(rank: unknown): number | null {
   if (typeof rank === 'number') return rank;
@@ -86,7 +87,7 @@ export function TalentPoints({ talents }: { talents: YamlTalents }) {
       {talents.build_name ? (
         <div className="text-sm">
           <span className="mr-2 text-xs font-semibold uppercase tracking-wider text-muted">Build</span>
-          {String(talents.build_name)}
+          <CitedText text={String(talents.build_name)} />
         </div>
       ) : null}
 

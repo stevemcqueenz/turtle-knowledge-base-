@@ -16,6 +16,7 @@ export function Header({ onOpenSearch, onOpenGlossary, active }: HeaderProps) {
   // Phone header must stay one row (18% of a 844 px screen was sticky chrome
   // when it wrapped), so everything but search hides behind this menu.
   const [menuOpen, setMenuOpen] = useState(false);
+  const inInstances = active === 'instances' || active === 'instance';
 
   const navLink = (target: string, label: string, isActive: boolean, icon?: React.ReactNode, extra = '') => (
     <a
@@ -41,6 +42,7 @@ export function Header({ onOpenSearch, onOpenGlossary, active }: HeaderProps) {
           <span className="truncate sm:hidden">Class guides</span>
         </a>
         <nav className="ml-auto hidden shrink-0 items-center gap-0.5 sm:flex" aria-label="Main">
+          {navLink(href.instances(), 'Dungeons & Raids', inInstances)}
           {navLink(href.matrix(), 'Matrix', active === 'matrix', <GridIcon />)}
           {navLink(href.about(), 'About', active === 'about')}
         </nav>
@@ -93,6 +95,13 @@ export function Header({ onOpenSearch, onOpenGlossary, active }: HeaderProps) {
               className="card absolute right-0 top-full z-40 mt-1.5 flex w-48 flex-col gap-1 p-2 shadow-lg"
               onClick={() => setMenuOpen(false)}
             >
+              {navLink(
+                href.instances(),
+                'Dungeons & Raids',
+                inInstances,
+                <span className="h-4 w-4" aria-hidden="true" />,
+                'w-full',
+              )}
               {navLink(href.matrix(), 'Matrix', active === 'matrix', <GridIcon />, 'w-full')}
               {navLink(
                 href.about(),

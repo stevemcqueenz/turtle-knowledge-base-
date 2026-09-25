@@ -6,6 +6,96 @@ caveats:
 - quest_id is present on 182 of 274 records; absent where the wiki gives none.
 - No source in this extraction gives quest-giver coordinates.
 - reputation/experience/rewards strings are reproduced as written on the wiki, including typos.
+discord_enrichment:
+  channel: turtle-wiki
+  note: >-
+    Quest corrections and chain details from the archived #turtle-wiki Discord, which the
+    wiki and database miss. Era: pre-1.18.1 | 1.18.1-announced-pre-release | post-1.18.1; agreement: consensus |
+    single source | contested. These are additive; the wiki-verbatim records above are
+    unchanged.
+  quest_corrections:
+  - quest: Wolves Across the Border -> Bounty on Garrick Padfoot
+    claim: >-
+      'Wolves Across the Border' is a (hidden) prerequisite for 'Bounty on Garrick
+      Padfoot'; the wiki did not say so.
+    authority: player
+    agreement: single source
+    era: pre-1.18.1
+    sources:
+    - '[[d:turtle-wiki#1332803393823047852]]'
+  - quest: A Blaze Unending / Eternal Flame (Dragonmaw Retreat)
+    claim: >-
+      The quest item resolves at an interactable map object near Flamekeeper Garlok -- not
+      documented on the wiki.
+    authority: guide writer
+    agreement: single source
+    era: 1.18.1-announced-pre-release
+    sources:
+    - '[[d:turtle-wiki#1425566233365057589]]'
+    - '[[d:turtle-wiki#1425673746764791909]]'
+    - '[[d:turtle-wiki#1425673949831762041]]'
+  - quest: Hallowed Cross
+    claim: The quest item drops off Tyr's Hand mobs (Eastern Plaguelands).
+    authority: player
+    agreement: single source
+    era: post-1.18.1
+    sources:
+    - '[[d:turtle-wiki#1485491783499780116]]'
+  - quest: Suspicious Hoofprints / Report From Falgran (Dustwallow Marsh)
+    claim: >-
+      Really has three prerequisites (the badge and shield Shady Rest Inn follow-ups)
+      though the database lists one -- a known quirk of the classic quest system, not a
+      database bug.
+    authority: player
+    agreement: single source
+    era: pre-1.18.1
+    sources:
+    - '[[d:turtle-wiki#1187564255063576608]]'
+  - quest: Torta's Egg (Darkmoon Faire)
+    claim: >-
+      The Darkmoon Faire alternates between Alliance and Horde ground, so a character may
+      need to reach the opposite faction's faire to finish the quest.
+    authority: player
+    agreement: single source
+    era: pre-1.18.1
+    sources:
+    - '[[d:turtle-wiki#1410195137241284720]]'
+  - quest: Stormwrought Ruins key (Horde)
+    claim: >-
+      Chain is 'Old Friend' (Undead NPC in a cave at Stormbreaker Point) -> find an Orc in
+      a Turtle's Shell -> 'Lady Who?' -> 'Storm, Twilight and Hammer' -> Key to
+      Stormwrought Castle.
+    authority: player
+    agreement: single source
+    era: pre-1.18.1
+    sources:
+    - '[[d:turtle-wiki#1406998363294924942]]'
+  reputation_turn_ins:
+  - quest: Dalaran fortification turn-ins
+    claim: >-
+      The wiki's advertised Nexus Crystal repeatable (500 rep) could not be found at
+      Dalaran by a 2025-08 player, who found only the three other 'fortification' quests
+      (CON-0092).
+    authority: player
+    agreement: single source
+    era: pre-1.18.1
+    sources:
+    - '[[d:turtle-wiki#1406665734934888518]]'
+  documentation_gaps:
+  - quest: Crescent Grove
+    claim: The channel repeatedly asks for the Crescent Grove loot table and Horde quest list and never gets one.
+    authority: player
+    agreement: single source
+    era: pre-1.18.1
+    sources:
+    - '[[d:turtle-wiki#1085588940435771412]]'
+  - quest: New level-60 dungeons (Karazhan Crypts, Black Morass, Stormwind Vaults)
+    claim: Loot information for the new level-60 dungeons is on neither the wiki nor the database.
+    authority: player
+    agreement: single source
+    era: pre-1.18.1
+    sources:
+    - '[[d:turtle-wiki#1411965494155546705]]'
 quests:
 - name: Troubles From Distant Lands
   zone_or_category: Barrens

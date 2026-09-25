@@ -3,6 +3,7 @@ import { readableColor } from '../../lib/theme';
 import { useThemeValue } from '../../lib/theme-context';
 import { CardLabel } from './GuideSection';
 import { describeValue, isContested } from './util';
+import { CitedText } from '../CitedText';
 
 /** Single-target priority: use the first line that applies. */
 export function RotationList({ steps, color }: { steps: YamlRotationStep[]; color: string }) {
@@ -28,10 +29,12 @@ export function RotationList({ steps, color }: { steps: YamlRotationStep[]; colo
                 {number}
               </span>
               <span className="grid min-w-0 flex-1 gap-x-4 gap-y-0.5 sm:grid-cols-[minmax(0,13rem)_minmax(0,1fr)]">
-                <span className="min-w-0 text-[15px] font-bold leading-snug">{describeValue(step?.action)}</span>
+                <span className="min-w-0 text-[15px] font-bold leading-snug"><CitedText text={describeValue(step?.action)} /></span>
                 {condition ? (
                   <span className="min-w-0 text-sm" style={contested ? { color: amber } : undefined}>
-                    <span className={contested ? '' : 'text-muted'}>{condition}</span>
+                    <span className={contested ? '' : 'text-muted'}>
+                      <CitedText text={condition} />
+                    </span>
                   </span>
                 ) : null}
               </span>
@@ -55,7 +58,9 @@ export function ResourceRules({ rules }: { rules: unknown[] }) {
             <span className="text-muted" aria-hidden="true">
               ·
             </span>
-            <span className="min-w-0">{describeValue(rule)}</span>
+            <span className="min-w-0">
+              <CitedText text={describeValue(rule)} />
+            </span>
           </li>
         ))}
       </ul>

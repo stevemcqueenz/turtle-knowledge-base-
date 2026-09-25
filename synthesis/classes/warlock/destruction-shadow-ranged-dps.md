@@ -113,6 +113,29 @@ Sources: wiki ("Curse, Corruption, Shadow Bolt. Refresh as needed"), [Volkyte (p
 - Letting the Imp die to AoE and losing Blood Pact — park it with Take Position; if the fight has unavoidable pet damage (Four Horsemen marks, Thaddius, Sapphiron) sacrifice it instead [Erhog (player), 2025-04-14](https://forum.turtlecraft.gg/viewtopic.php?p=126753#p126753).
 - Bragging about parses in a raid full of warriors — Warlock is under-represented and the class forum is defensive about meters (Delalama vs Grizb37 thread).
 
+## Discord findings (2025–2026)
+
+### Build — a decoded post-1.18.1 SM/Ruin 30/0/21
+
+The forum file had only LastyK's CC2 list and wiki links. Discord decodes a **post-1.18.1 SM/Ruin 30/0/21** from code `FoAQYASCRBF--FAVABoCAAI` (2026-03-25) [[d:warlock#1486103119220838540]], 51/51 legal: Affliction 30 (Suppression 5, Imp. Corruption 5, Imp. Life Tap 2, Imp. Curse of Agony 3, Grim Reach 2, Nightfall 2, Soul Siphon 2, Rapid Deterioration 2, Siphon Life 1, Malediction 1, Shadow Mastery 5) + Destruction 21 (Shadow Vulnerability 5, Demonic Swiftness 2, Bane 5, Shadowburn 1, Devastation 5, Destructive Reach 2, Ruin 1). Single source. (This corrects the earlier summary that listed Dark Harvest instead of the Soul Siphon 2 / Malediction / Rapid Deterioration points.)
+
+### Standing — SM/Ruin superseded by Affliction/Demonology
+
+- “SM/ruin has only 55–60% damage coming from shadow bolt, you don't NEED hit and crit all that much, affliction t3 and affliction t3.5 with some hit offpieces are better choice” [[d:warlock#1490901049777721516]].
+- “poor man's Affliction in 1.18”; far behind Affliction on dummies (250 vs 450 DPS) [[d:warlock#1434152217736118352]].
+- The 2026 consensus ranks Affliction default and Demonology the short-fight king, with SM/Ruin behind [[d:warlock#1439237831410188408]], [[d:warlock#1483576857428361257]] (consensus, post-1.18.1).
+- Demon buffs scale on both schools: fire spell power boosts fire pet damage, shadow power boosts shadow pet damage [[d:warlock#1432489734239944796]].
+
+### Stats
+
+- **11–12% gear hit, 15–16% cap** for SM/Ruin/Demo/Fire [[d:warlock#1388995453873553489]], [[d:warlock#1387659949374443561]] (consensus); Discord's point is that the build needs it less than assumed because Shadow Bolt is only ~55–60% of damage [[d:warlock#1490901049777721516]].
+
+| Discord claim | Sources | Agreement | Era |
+|---|---|---|---|
+| Decoded post-1.18.1 SM/Ruin 30/0/21 | one code | single source | post-1.18.1 |
+| SM/Ruin trails Affliction | Guiltyhaomarush, Tatica, L-star | consensus | post-1.18.1 |
+| 11–12% gear hit | two answers | consensus | 1.18.1-announced-pre-release |
+
 ## Sources
 
 | Recommendation | Sources | Agreement | 1.18.1 note |

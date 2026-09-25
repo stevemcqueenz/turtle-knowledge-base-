@@ -2,7 +2,7 @@
 
 The class's "traditional" ranged spec. Covers the deep-MM raid build and the BM/MM hybrid that raids used before 1.18.1. Beast Mastery raid DPS is in `beast-mastery-ranged-dps.md`, melee Survival in `survival-melee-dps.md`, PvP in `marksmanship-pvp.md`, pets in `pets.md`.
 
-All dates UTC. Eras: **pre-1.18.1** (before 2025-10-03), **1.18.1-announced-pre-release** (2025-10-03 .. 2026-03-19), **post-1.18.1** (from 2026-03-20). The ranged kit changed at Class Changes 2 ("CC2", 1.17.2, live 2024-11-01: Trueshot renamed Steady Shot and moved into the MM tree), was left alone in Class Changes 3 ("CC3", 1.18.0, live 2025-08-15: "We believe Marksmanship is in a good spot"), and was rebuilt in 1.18.1 (live 2026-03-20: Steady Shot and Trueshot Aura baseline, Aimed Shot keystone, Experimental Ammunition, Lock and Load). **Every pre-2026-03-20 build and rotation below is for the old tree; the post-1.18.1 section is thin because the server closed 2026-05-15 and few players wrote guides in the eight weeks between.**
+All dates UTC. Eras: **pre-1.18.1** (before 2025-10-03), **1.18.1-announced-pre-release** (2025-10-03 .. 2026-03-19), **post-1.18.1** (from 2026-03-20). The ranged kit changed at Class Changes 2 ("CC2", 1.17.2, live 2024-11-01: Trueshot renamed Steady Shot and moved into the MM tree), was left alone in Class Changes 3 ("CC3", 1.18.0, live 2025-08-15: "We believe Marksmanship is in a good spot"), and was rebuilt in 1.18.1 (live 2026-03-20: Steady Shot and Trueshot Aura baseline, Aimed Shot keystone, Experimental Ammunition, Lock and Load). **Every pre-2026-03-20 build and rotation below is for the old tree; the post-1.18.1 section is thin because the server closed 2026-05-15 and few forum players wrote guides in the eight weeks between.** The archived `#hunter` Discord did capture the channel's post-1.18.1 **5/39/7** build and the working release-day loop — see §Discord additions before Sources.
 
 ## Overview
 
@@ -58,9 +58,9 @@ No post lists a 51-point allocation talent by talent; the union of explicit stat
 
 Other named pre-1.18.1 configurations: "if you want solo farm and dungeons better go 27/24/0. later for raids you can buy a brainwashing machine and have different builds" [Foteinos (player), 2025-05-28](https://forum.turtlecraft.gg/viewtopic.php?p=133252#p133252) (single source); the **29/22 BM/MM** build reaching Spirit Bond + Improved Steady Shot [Skurridizo, 2026-03-10](https://forum.turtlecraft.gg/viewtopic.php?p=170517#p170517) (see BM playbook); opaque MM links posted for review: `https://talents.turtlecraft.gg/hunter?points=DoAAAAAAAAAAAAAoCoQBboLSAoBAYAAAAAAAAAAAAAA=` [Kayframe (player), 2025-03-27](https://forum.turtlecraft.gg/viewtopic.php?p=124109#p124109) and `...?points=FQAYBoAAAAAAAAAoCoQBAoDSQoBAAAAAAAAAAAAAAAA=` [ggotz (player), 2025-05-25](https://forum.turtlecraft.gg/viewtopic.php?p=132898#p132898) (judged "ok" for PvE by Foteinos).
 
-### Post-1.18.1 MM raid build — **gap, partially derived**
+### Post-1.18.1 MM raid build — **decoded by Discord**
 
-No player posted a validated 1.18.1 PvE MM build ("have someone figured out good marksman pve talents?" got no reply [Ciroasav17, 2026-03-21](https://forum.turtlecraft.gg/viewtopic.php?p=171570#p171570)). What the sources do say about the new tree:
+No *forum* player posted a validated 1.18.1 PvE MM build ("have someone figured out good marksman pve talents?" got no reply [Ciroasav17, 2026-03-21](https://forum.turtlecraft.gg/viewtopic.php?p=171570#p171570)), but the archived `#hunter` Discord did: the channel's post-1.18.1 MM raid build is **5/39/7** — Swift Aspects 5 in BM; the whole MM tree through Aimed Shot + Experimental Ammunition + Lock and Load + Ranged Weapon Specialization; Alone Against the World 2 + Improved Slaying 3 + Swift Reflexes 2 in SV (recurring shape x3, code `F-AoCoRDQoBTQoB-YQAC`) [consensus, [[d:hunter#1484212683426365450]], [[d:hunter#1484306420932411423]], [[d:hunter#1485189121210056724]]]. Variants: 5/41/5, 2/42/7, 13/36/2, 0/33/18 (petless). Full allocation in §Discord additions and `structured/classes/hunter/marksmanship-ranged-dps.yaml`. What the forum sources say about the new tree:
 
 - The tree is "5 required for 5 required for 5 into another layer of the same and then it actually has the gall to ask me how i want to spend 5 points across 7 raw damage talents stacked into the same late tier"; to keep the 20% Scorpid slow you must fill Improved Stings 5/5 ("no MM hunters will ever have 20% slow again") [Solveit (player), 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171518#p171518).
 - Steady Shot is baseline and Trueshot Aura is baseline (staff), so the 1.18.1 tree spends points on Aimed Shot (keystone), Experimental Ammunition (row 5), Lock and Load (row 7), Improved Marksmanship (+5/10% Steady/Aimed), Swiftshot (−6 s Aimed cd at 3/3 → 20 s), Ranged Weapon Specialization (now 2–10%), Barrage (Volley cast).
@@ -70,7 +70,7 @@ Bot default (labelled **derived from staff tooltips**, not a sourced build): MM 
 
 ## Stat priority (60)
 
-- **Hit**: 9% to cap on level-63 bosses at 300 weapon skill; **6% at 305 skill** (racial +5 bows/guns: Troll/High Elf bows, Dwarf guns) [Reptilewow (player), 2023-06-06](https://forum.turtlecraft.gg/viewtopic.php?p=49072#p49072); 305 → 6%, 313 → ~5.5%, 315 → 5% (Trueaim Gauntlets +8 skill, Sash of the Grand Hunt +2) [Condor22 (player), 2023-05-17](https://forum.turtlecraft.gg/viewtopic.php?p=46292#p46292) (posed as a question, vanilla-baseline math; staff never published Turtle's linearized weapon-skill table); a BiS-list author uses 7% as the practical minimum "with the weapon skill book and changes to hit chance calculations on Turtle" [ajax_808 (player), 2024-12-31](https://forum.turtlecraft.gg/viewtopic.php?p=115058#p115058). "1% hit is always a (slightly more than) 1% damage increase until you reach hit cap" [Juzam (player), 2024-11-12](https://forum.turtlecraft.gg/viewtopic.php?p=107692#p107692). Do not over-cap: T3 set + Naxx hit gear already caps a High Elf bow user ("2hit + 4hit +5 Bows ... restricting me to never add any Ring, Neck or Trinket that gives +hit") [Alfonso (player), 2023-08-11](https://forum.turtlecraft.gg/viewtopic.php?p=56809#p56809) (1.17.0 itemization thread).
+- **Hit** — **CORRECTED by Discord: the cap is 8% at 300 ranged weapon skill, not 9%** (level-63 hit suppression was removed with the CC2 weapon-skill change), and weapon skill is linearized at **1% hit per 5 points up to 315** (305 → 7%, 310 → 6%, 315 → 5%) [consensus, [[d:hunter#1298063246254932059]], [[d:hunter#1485763124253425858]], [[d:hunter#1463846948200124426]]]. The forum-baseline arithmetic below (9% at 300, 6% at 305, 5% at 315) is kept for history and is **superseded**; +3 racial skill is only 0.6% hit and +5 is the useful threshold [[d:hunter#1491594913136115732]]. Forum sources: 9% at 300, **6% at 305 skill** (racial +5 bows/guns: Troll/High Elf bows, Dwarf guns) [Reptilewow (player), 2023-06-06](https://forum.turtlecraft.gg/viewtopic.php?p=49072#p49072); 305 → 6%, 313 → ~5.5%, 315 → 5% (Trueaim Gauntlets +8 skill, Sash of the Grand Hunt +2) [Condor22 (player), 2023-05-17](https://forum.turtlecraft.gg/viewtopic.php?p=46292#p46292) (posed as a question, vanilla-baseline math; staff never published Turtle's linearized weapon-skill table); a BiS-list author uses 7% as the practical minimum "with the weapon skill book and changes to hit chance calculations on Turtle" [ajax_808 (player), 2024-12-31](https://forum.turtlecraft.gg/viewtopic.php?p=115058#p115058). "1% hit is always a (slightly more than) 1% damage increase until you reach hit cap" [Juzam (player), 2024-11-12](https://forum.turtlecraft.gg/viewtopic.php?p=107692#p107692). Do not over-cap: T3 set + Naxx hit gear already caps a High Elf bow user ("2hit + 4hit +5 Bows ... restricting me to never add any Ring, Neck or Trinket that gives +hit") [Alfonso (player), 2023-08-11](https://forum.turtlecraft.gg/viewtopic.php?p=56809#p56809) (1.17.0 itemization thread).
 - **Haste** (the Turtle-specific stat): "1% haste is around 0.9% damage increase on bosses (single target) and 0.85% damage increase overall"; no diminishing returns; "once you're in full naxx gear, because of your very high crit rate, 1% haste will become as good as 1% crit" [Juzam, 2024-10-23](https://forum.turtlecraft.gg/viewtopic.php?p=104588#p104588). Quiver/pouch haste and Swift Aspects procs count [Skurridizo, 2025-11-26](https://forum.turtlecraft.gg/viewtopic.php?p=160791#p160791). Rapid Fire cuts Steady Shot cast "from 1.5 to 1.1" (same post). Haste does **not** shorten Aimed Shot from quiver haste (Juzam) — 1.18.1 explicitly made Rapid Fire cut Aimed/Steady cast by 40% (staff).
 - **Crit**: ~0.9% damage per 1% for a raid-buffed Naxx hunter; slight diminishing returns as crit rises, "there is no such things as 'soft crit cap'" (Juzam, above). 53 agi = 1% crit, 1 agi = 2 RAP (same).
 - **Attack power / agility**: measure your own AP-per-1%: unequip an AP item, read ranged DPS in the character panel, add hidden AP buffs (110 Hunter's Mark, 200 vs undead from stones); Juzam needed ~34 AP per 1% at 340 DPS [Juzam, 2024-11-12](https://forum.turtlecraft.gg/viewtopic.php?p=107692#p107692). Spreadsheet weights used by a BiS-list builder: 1 agi = 3 AP-eq, 1% crit = 30 AP-eq, 1 AP = 1 [ajax_808, 2024-12-31](https://forum.turtlecraft.gg/viewtopic.php?p=115058#p115058).
@@ -158,14 +158,66 @@ Derived priority for bots (each line's basis in brackets):
 9. Not feeding before bosses; sitting in Aspect of the Viper during burst.
 10. Swapping aspects fluidly (each swap costs mana and stops regen for 5 s) [Solveit (player), 2026-01-24](https://forum.turtlecraft.gg/viewtopic.php?p=166243#p166243).
 
+## Discord additions (post-1.18.1)
+
+Folded from the archived `#hunter` Discord (`staging/hunter-pve/`). Era tags: **pre-1.18.1** (<2025-10-03), **1.18.1-announced-pre-release** (2025-10-03 → 2026-03-19), **post-1.18.1** (≥2026-03-20). Every claim carries `[[d:hunter#<id>]]`, an era and an agreement tag.
+
+### The working post-1.18.1 loop
+
+The forum KB called the post-1.18.1 rotation "staff-tooltip-derived". The Discord channel's release-day players fixed the actual loop:
+
+1. Keep Auto Shot going and **never clip it** (the dominant failure).
+2. **Aimed Shot on cooldown** (2 s cast; 20 s cd with Swiftshot 3/3; 1 s with Lock and Load), cast right after an auto. Measured casts: 0.81 s (Rapid Fire + Imp Aspects + LnL), 1.22 s (Imp Aspects + LnL), 1.94 s (Imp Aspects alone), 2.15 s (no proc), 2.5 s unhasted [single source, [[d:hunter#1489733155719217306]]].
+3. **Lock and Load proc → cast Aimed immediately.** Proc is 100% on crit; a "proc did not reset Aimed CD" bug was reported day one [single source, [[d:hunter#1484523895498215485]], [[d:hunter#1484641146033668208]]]; its line cleave is a strict line (1 yd behind the primary misses) [[d:hunter#1484829044494172222]].
+4. **Arcane Shot on cooldown** — the highest-priority instant filler and the Lock-and-Load/ammo trigger; "only shoot Steady when there's nothing else to do" [consensus, [[d:hunter#1486255776367382598]], [[d:hunter#1485478994525818951]]].
+5. **Steady Shot as the filler after every auto.** The FAQ baseline loop is Auto → Aimed → Ammunition-filler → Steady, with Auto always in between [single source (guide writer), [[d:hunter#1484616991951032550]]]; the most-cited practical weave is to start Steady the instant Auto looses and spam Arcane during the Steady cast so it fires straight after [consensus, [[d:hunter#1489708299913003218]], [[d:hunter#1489709233007235133]]].
+6. **Experimental Ammunition** buff (1 min, cycles Fire → Arcane → Nature per staff; some players perceived it as random [contested, [[d:hunter#1484528608927027270]], [[d:hunter#1484580912355348591]]]): Fire → Multi-Shot on 2+; Arcane → Arcane Shot; Nature → Serpent Sting. The mini-game is widely treated as **skippable** — forcing all three hurt several players' dps [consensus, [[d:hunter#1485091452701900902]], [[d:hunter#1486285247866998784]]]; the Fire Multi component is "a flat 50 dmg every time" [single source, [[d:hunter#1484664003497300118]]].
+7. **Serpent Sting is a personal dps loss and a mana drain** post-1.18.1; take it only for the Nature-ammunition −240 armor raid debuff [single source (guide writer), [[d:hunter#1485384949455392868]]] — this **supersedes** the pre-1.18.1 "long-fight DoT" use.
+8. One-button macro: cast Steady unless the Lock and Load buff is up, then Aimed [consensus, [[d:hunter#1485087170451603508]], [[d:hunter#1488624322686746945]]].
+
+### Build, stats, caps and gear the forum lacked
+
+- **Build**: 5/39/7 decoded (above). The MM/BM hybrid with Mortal Shots is only worth it at high crit — "Mortal Shots is a 8.5% damage increase with 40% crit rate, but only for hunter damage who will be around half of the total damage" [Focus, [[d:hunter#1484421105543548940]]].
+- **Hit cap 8%** at 300 skill, corrected (see Stat priority); weapon-skill linearization 1%/5 pts to 315 [consensus, [[d:hunter#1298063246254932059]], [[d:hunter#1485763124253425858]]]. Dual-wielding melee white autos miss ~20%+ while yellow specials use the normal cap [single source, [[d:hunter#1485760027976400966]]].
+- **Community EP weights** (private sheet, explicitly unverifiable): 1 Agi = 3 eAP; 1% crit = 50+ eAP; 1% haste = 12–14 eAP for MM; 100 ArP = 60 eAP; 1 AP = 1 eAP [contested, [[d:hunter#1488075516060766330]], [[d:hunter#1488442215729594449]]]. Crit eAP rose from 32 (BWL phase) because 1.18.1 added MM crit scaling; **the pre-1.18.1 "1% crit = 30 AP-eq" is superseded for 1.18.1** [single source, [[d:hunter#1486693663084904448]]].
+- **Spell power is nearly worthless** for MM post-1.18.1: full SP consumes (~300 SP) translate to ~1–2% dps [single source, [[d:hunter#1490854183237324840]]].
+- **Weapon speed rule loosened**: "2.6 speed or slower" is now enough because Aimed/Arcane fill the gaps [consensus, [[d:hunter#1489320174745288867]]], superseding the old ≥3.2 rule.
+- **Ammo overhaul**: any stack can be enchanted +3 dps (1 Large Brilliant Shard + 5 Arcane Dust per 200) → Thorium 20.5, Doomshot 23; new Bright Wood / Shade Wood / Smooth Ironfeather / Starfeather arrows and Enchanted Thorium Shells; a 19-damage blue arrow drops from the DM West hunter boss [consensus, [[d:hunter#1485358374832046221]], [[d:hunter#1485738412853170369]], [[d:hunter#1486414327211884574]]].
+- **Facetted Crystal Scope** (+2% ranged crit, Draenei rep) is the BiS scope; initially bugged/not displayed but a 1000-shot test confirmed it works [consensus, [[d:hunter#1485281837176586401]], [[d:hunter#1486672868036317204]]].
+- Stat sticks: **Kingsfall + Scythe of the Unseen Path** even in full Kara40 BiS [single source, [[d:hunter#1489311954748178682]]]; T3 4/8 with a pet, 6/8 without [single source, [[d:hunter#1485684117256405168]]].
+- MM spec standing post-1.18.1: personal dps up "at least 15%" on a bad-rotation run, 20–25% expected with practice [single source, [[d:hunter#1484606051881062511]]]; on BWL MM out-dpsed a Survival hunter on every single-target boss but lost trash [single source, [[d:hunter#1484692203434414130]]]. Still contested against BM, which "may now be the top single-target hunter spec" [contested, [[d:hunter#1490807845078434054]], [[d:hunter#1486419920332787763]]].
+- Haste's net value for MM (clipping vs more autos) was **never resolved** [contested, [[d:hunter#1491111488214007951]]].
+
+### Encounter notes
+
+- **Kara40** has no humanoids/beasts/giants/dragonkin (Improved Slaying worthless); MM boss fights great / trash awful, and the ammo mini-game was a dps loss there [single source (guide writer), [[d:hunter#1485384949455392868]], [[d:hunter#1486333622796550184]]].
+- **AQ40 anubisath shadowflame** is avoidable at the deadzone line [single source, [[d:hunter#1491059182638727278]]]; **1.18.1 traps work on the new Onyxia and adds** [[d:hunter#1484656535996207226]].
+- **Tranquilizing Shot must be hit-capped** — an uncapped tranq on the BWL dogs can wipe the raid [single source, [[d:hunter#1491414293143621824]]].
+- The new burst rips threat without cooldowns, so Feign Death is spent on threat instead of trinket swaps [single source, [[d:hunter#1486314061606944911]]].
+
+### Discord sources used
+
+| Source | What it adds | Era | Agreement |
+|---|---|---|---|
+| [[d:hunter#1484616991951032550]] | FAQ baseline post-1.18.1 loop (Auto → Aimed → Ammo → Steady) | post-1.18.1 | single source (guide writer) |
+| [[d:hunter#1489708299913003218]] | practical Steady + Arcane weave | post-1.18.1 | consensus |
+| [[d:hunter#1485087170451603508]] | one-button Lock-and-Load macro | post-1.18.1 | consensus |
+| [[d:hunter#1484212683426365450]] | 5/39/7 decoded MM build | post-1.18.1 | consensus |
+| [[d:hunter#1485384949455392868]] | Serpent Sting is a personal dps loss; ammo mini-game skippable | post-1.18.1 | single source (guide writer) |
+| [[d:hunter#1298063246254932059]] | 8% ranged hit cap (not 9%) | pre-1.18.1 mechanic | consensus |
+| [[d:hunter#1486693663084904448]] | crit eAP 30 → 50+ post-1.18.1 | post-1.18.1 | single source |
+| [[d:hunter#1489733155719217306]] | Aimed Shot cast times under haste | post-1.18.1 | single source |
+| [[d:hunter#1489320174745288867]] | slow = 2.6 speed or slower post-1.18.1 | post-1.18.1 | consensus |
+| [[d:hunter#1490682120815775965]] | Vellasta TWoW Hunter Simulator | post-1.18.1 | tool |
+
 ## Sources and validity
 
 | Recommendation | Agreement | Era / validity |
 |---|---|---|
-| AA→Steady→AA loop, Multi on cd, no Aimed mid-fight | consensus (Calli, Atreidon, Bigsmerf, SvenS2, Juzam, Thricew) | pre-1.18.1; still the filler loop post-1.18.1 but Aimed Shot is now a cooldown to press (staff) — **partly superseded** |
+| AA→Steady→AA loop, Multi on cd, no Aimed mid-fight | consensus (Calli, Atreidon, Bigsmerf, SvenS2, Juzam, Thricew) | pre-1.18.1; still the filler loop post-1.18.1 but Aimed Shot is now a cooldown to press (staff) — **superseded by the Discord loop in §Discord additions** |
 | Slowest weapon ≥ 3.2 for weaving | consensus (Vimgreen, Borefficz, Calli, Slicplaya) vs "fast 2.0–3.0 weapons outperform when DPS is close" [Juzam, 2023-12-31](https://forum.turtlecraft.gg/viewtopic.php?p=83254#p83254) — contested | pre-1.18.1 |
 | Haste ≈ 0.85–0.9% dmg per 1%, no DR | single source, detailed (Juzam) | CC2 kit; unchanged by 1.18.1 for autos/Steady |
-| Hit 9%/6%/5% by weapon skill | consensus on 9→6 with +5 skill; 5% at 315 single source | vanilla baseline; Turtle linearization not published |
+| Hit 8% at 300 skill; 1%/5 pts to 315 | consensus (Discord), supersedes the forum's 9%/6%/5% vanilla-baseline math | CC2 weapon-skill change onward |
 | Sapphiron shoulder enchant BiS; 2% haste vs 30 AP gear-dependent | consensus (Gildark, Bgnome) | pre-1.18.1 |
 | Endless Quiver good; Imp Hunter's Mark, Swiftshot bad; Serpent Sting falls off | single source (Steakhouse) with corroboration on Serpent from Vrag/Jinxes | pre-1.18.1; 1.18.1 changed Swiftshot (now Aimed cd) and Serpent (Nature ammo) — **superseded** |
 | MM top-5 DPS in Naxx (Dec 2024) vs bottom of charts (Jan 2026) | contested by date | pre-1.18.1 |

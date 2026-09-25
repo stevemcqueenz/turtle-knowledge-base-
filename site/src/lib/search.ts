@@ -1,7 +1,8 @@
 import { classes, glossary, roleLabel } from './site';
 import { href } from './router';
+import { INSTANCE_KIND_LABEL, instances, instanceSubheadings } from './instances';
 
-export type SearchKind = 'class' | 'playbook' | 'leveling' | 'glossary' | 'page';
+export type SearchKind = 'class' | 'playbook' | 'leveling' | 'instance' | 'glossary' | 'page';
 
 export interface SearchItem {
   kind: SearchKind;
@@ -43,6 +44,46 @@ export const searchItems: SearchItem[] = (() => {
         href: href.leveling(c.slug),
         haystack: `${c.name} leveling levelling 1-60`.toLowerCase(),
         color: c.color,
+      });
+    }
+    if (c.sources) {
+      items.push({
+        kind: 'page',
+        label: `${c.name} — Sources`,
+        detail: c.sources.title,
+        href: href.sources(c.slug),
+        haystack: `${c.name} sources experts gaps evidence`.toLowerCase(),
+        color: c.color,
+      });
+    }
+    for (const d of c.guidePages ?? []) {
+      items.push({
+        kind: 'page',
+        label: `${c.name} — ${d.title}`,
+        detail: 'Guide page',
+        href: href.guidePage(c.slug, d.slug),
+        haystack: `${c.name} ${d.title} ${d.slug}`.toLowerCase(),
+        color: c.color,
+      });
+    }
+  }
+  if (instances) {
+    items.push({
+      kind: 'page',
+      label: 'Dungeons & Raids',
+      detail: 'Every dungeon and raid page',
+      href: href.instances(),
+      haystack: 'dungeons raids instances index world bosses',
+    });
+    for (const p of instances.pages) {
+      const kind = p.kind ? INSTANCE_KIND_LABEL[p.kind] : 'Instance';
+      items.push({
+        kind: 'instance',
+        label: p.title,
+        detail: p.group ? `${kind} · ${p.group}` : kind,
+        href: href.instance(p.slug),
+        // boss and wing names (the pages' H3 headings) find their page too
+        haystack: `${p.title} ${p.slug} ${kind} ${p.group ?? ''} ${instanceSubheadings(p).join(' ')}`.toLowerCase(),
       });
     }
   }
@@ -99,6 +140,7 @@ const KIND_WEIGHT: Record<SearchKind, number> = {
   class: 140,
   playbook: 120,
   leveling: 100,
+  instance: 90,
   page: 40,
   glossary: -150,
 };
@@ -120,8 +162,9 @@ const KIND_RANK: Record<SearchKind, number> = {
   class: 0,
   playbook: 1,
   leveling: 2,
-  page: 3,
-  glossary: 4,
+  instance: 3,
+  page: 4,
+  glossary: 5,
 };
 
 export function search(query: string, limit = 20): SearchItem[] {

@@ -82,114 +82,1143 @@ agreement: contested
 patch_validity:
   written_for: 1.18.0 (live 2025-08-15), 1.18.1-lowered Opportunity
   valid_for_1181: true
-  notes: 1.18.1 only reduced Opportunity (4/8/12/16/20% -> 3/6/9/12/15%) and cut Blade Flurry's energy penalty (30% -> 20%,
-    a buff). No source posts a full build after 2026-01-23; the 2025-09-29 'Bayanni' link predates the announcement. Rotation
-    and gearing logic are otherwise unchanged.
+  notes: '1.18.1 (2026-03-20): Opportunity 4-20% -> 3-15%, Blade Flurry energy penalty 30% -> 20%, Taste for Blood 2 ranks
+    and no longer boosts Corrosive/Dissolvent, Corrosive/Dissolvent restricted to Elementals/Mechanicals/Giants/Undead. Post-patch
+    default is Combat Envenom 24/27/0 (no Rupture/Taste for Blood) [[d:rogue#1486812371602243695]], [[d:rogue#1486815192690987191]];
+    Adrenaline Rush 20/31/0 kept as the short-fight/cleave variant (contested) [[d:rogue#1491107146111127693]], [[d:rogue#1490362194477449276]].'
+  discord_era: post-1.18.1
 talents:
-  build_name: Combat Daggers / Backstab raid build, "20/31/0"
-  build_link: https://talents.turtlecraft.gg/rogue?points=AoYDIoY-FADoCAAoRCCYB-
+  build_name: Combat Envenom daggers 24/27/0 (Nandieb, highest-simming BWL build) [[d:rogue#1485184986716831786]]
+  build_link: https://xian55.github.io/tortoise-db-viewer/?talents=rogue&t=00532310103321-0503502000521022
   points:
   - tree: Assassination
     talent: Malice
     rank: 5
     spell_id: 14142
-    talent_id: 130
   - tree: Assassination
     talent: Ruthlessness
     rank: 3
     spell_id: 14161
-    talent_id: 131
+  - tree: Assassination
+    talent: Murder
+    rank: 2
+    spell_id: 14159
   - tree: Assassination
     talent: Improved Blade Tactics
     rank: 3
     spell_id: 14167
-    talent_id: 133
   - tree: Assassination
     talent: Relentless Strikes
     rank: 1
     spell_id: 14179
-    talent_id: 134
   - tree: Assassination
     talent: Lethality
-    rank: 5
-    spell_id: 14137
-    talent_id: 136
-  - tree: Assassination
-    talent: Remorseless Attacks
-    rank: 2
-    spell_id: 14148
-    talent_id: 129
-  - tree: Assassination
-    talent: unspecified (last 2-3 points; gap)
     rank: 1
-    spell_id: null
+    spell_id: 14128
+  - tree: Assassination
+    talent: Vile Poisons
+    rank: 3
+    spell_id: 16515
+  - tree: Assassination
+    talent: Improved Poisons
+    rank: 3
+    spell_id: 14115
+  - tree: Assassination
+    talent: Efficient Poisons
+    rank: 2
+    spell_id: 52519
+  - tree: Assassination
+    talent: Envenom
+    rank: 1
+    spell_id: 52531
   - tree: Combat
-    talent: Opportunity
+    talent: Lightning Reflexes
     rank: 5
-    spell_id: 14075
-    talent_id: 110
+    spell_id: 13791
   - tree: Combat
     talent: Improved Backstab
     rank: 3
     spell_id: 13866
-    talent_id: 113
   - tree: Combat
     talent: Precision
     rank: 5
     spell_id: 13845
-    talent_id: 114
+  - tree: Combat
+    talent: Improved Sprint
+    rank: 2
+    spell_id: 13875
   - tree: Combat
     talent: Dual Wield Specialization
     rank: 5
     spell_id: 13852
-    talent_id: 120
   - tree: Combat
     talent: Close Quarters Combat
     rank: 2
     spell_id: 13804
-    talent_id: 121
-  - tree: Combat
-    talent: Blade Rush
-    rank: 2
-    spell_id: 52508
-    talent_id: 125
-  - tree: Combat
-    talent: Weapon Expertise
-    rank: 2
-    spell_id: 30920
-    talent_id: 124
-  - tree: Combat
-    talent: Aggression
-    rank: 3
-    spell_id: 18429
-    talent_id: 126
-  - tree: Combat
-    talent: Adrenaline Rush
-    rank: 1
-    spell_id: 13750
-    talent_id: 127
   - tree: Combat
     talent: Surprise Attack
     rank: 1
     spell_id: 52511
-    talent_id: 122
   - tree: Combat
-    talent: 'Improved Sprint (or filler: Deflection/Riposte/Lightning Reflexes/Combat Expertise)'
+    talent: Weapon Expertise
     rank: 2
-    spell_id: 13875
-    talent_id: 116
-  leveling_order: []
-  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=rogue&t=025303105-500350200052102231
-  build_link_tortoise_note: 'Generated from the sourced points list (50 points: Assassination 19, Combat 31); the calculator
+    spell_id: 30920
+  - tree: Combat
+    talent: Blade Rush
+    rank: 2
+    spell_id: 52508
+  leveling_order:
+  - level: 10
+    tree: Combat
+    talent: Lightning Reflexes
+    rank: 1
+  - level: 11
+    tree: Combat
+    talent: Lightning Reflexes
+    rank: 2
+  - level: 12
+    tree: Combat
+    talent: Lightning Reflexes
+    rank: 3
+  - level: 13
+    tree: Combat
+    talent: Lightning Reflexes
+    rank: 4
+  - level: 14
+    tree: Combat
+    talent: Lightning Reflexes
+    rank: 5
+  - level: 15
+    tree: Combat
+    talent: Deflection
+    rank: 1
+  - level: 16
+    tree: Combat
+    talent: Deflection
+    rank: 2
+  - level: 17
+    tree: Combat
+    talent: Deflection
+    rank: 3
+  - level: 18
+    tree: Combat
+    talent: Deflection
+    rank: 4
+  - level: 19
+    tree: Combat
+    talent: Deflection
+    rank: 5
+  - level: 20
+    tree: Combat
+    talent: Riposte
+    rank: 1
+  - level: 21
+    tree: Combat
+    talent: Precision
+    rank: 1
+  - level: 22
+    tree: Combat
+    talent: Precision
+    rank: 2
+  - level: 23
+    tree: Combat
+    talent: Precision
+    rank: 3
+  - level: 24
+    tree: Combat
+    talent: Precision
+    rank: 4
+  - level: 25
+    tree: Combat
+    talent: Precision
+    rank: 5
+  - level: 26
+    tree: Combat
+    talent: Dual Wield Specialization
+    rank: 1
+  - level: 27
+    tree: Combat
+    talent: Dual Wield Specialization
+    rank: 2
+  - level: 28
+    tree: Combat
+    talent: Dual Wield Specialization
+    rank: 3
+  - level: 29
+    tree: Combat
+    talent: Dual Wield Specialization
+    rank: 4
+  - level: 30
+    tree: Combat
+    talent: Dual Wield Specialization
+    rank: 5
+  - level: 31
+    tree: Combat
+    talent: Hack and Slash
+    rank: 1
+  - level: 32
+    tree: Combat
+    talent: Hack and Slash
+    rank: 2
+  - level: 33
+    tree: Combat
+    talent: Weapon Expertise
+    rank: 1
+  - level: 34
+    tree: Combat
+    talent: Weapon Expertise
+    rank: 2
+  - level: 35
+    tree: Combat
+    talent: Surprise Attack
+    rank: 1
+  - level: 36
+    tree: Combat
+    talent: Improved Sprint
+    rank: 1
+  - level: 37
+    tree: Combat
+    talent: Improved Sprint
+    rank: 2
+  - level: 38
+    tree: Combat
+    talent: Setup
+    rank: 1
+  - level: 39
+    tree: Combat
+    talent: Setup
+    rank: 2
+  - level: 40
+    talent: RESPEC (reset all points)
+    tree: null
+    rank: 0
+  - level: 40
+    tree: Assassination
+    talent: Malice
+    rank: 5
+    points: 5
+  - level: 40
+    tree: Assassination
+    talent: Ruthlessness
+    rank: 3
+    points: 3
+  - level: 40
+    tree: Assassination
+    talent: Improved Blade Tactics
+    rank: 3
+    points: 3
+  - level: 40
+    tree: Assassination
+    talent: Relentless Strikes
+    rank: 1
+    points: 1
+  - level: 40
+    tree: Assassination
+    talent: Lethality
+    rank: 5
+    points: 5
+  - level: 40
+    tree: Assassination
+    talent: Improved Poisons
+    rank: 3
+    points: 3
+  - level: 40
+    tree: Assassination
+    talent: Vile Poisons
+    rank: 3
+    points: 3
+  - level: 40
+    tree: Assassination
+    talent: Envenom
+    rank: 1
+    points: 1
+  - level: 40
+    tree: Assassination
+    talent: Efficient Poisons
+    rank: 3
+    points: 3
+  - level: 40
+    tree: Assassination
+    talent: Vigor
+    rank: 2
+    points: 2
+  - level: 40
+    tree: Assassination
+    talent: Murder
+    rank: 1
+    points: 1
+  - level: 40
+    tree: Assassination
+    talent: Noxious Assault
+    rank: 1
+    points: 1
+  - level: 41
+    tree: Combat
+    talent: Precision
+    rank: 1
+  - level: 42
+    tree: Combat
+    talent: Precision
+    rank: 2
+  - level: 43
+    tree: Combat
+    talent: Precision
+    rank: 3
+  - level: 44
+    tree: Combat
+    talent: Precision
+    rank: 4
+  - level: 45
+    tree: Combat
+    talent: Precision
+    rank: 5
+  - level: 46
+    tree: Assassination
+    talent: Seal Fate
+    rank: 1
+  - level: 47
+    tree: Assassination
+    talent: Seal Fate
+    rank: 2
+  - level: 48
+    tree: Assassination
+    talent: Seal Fate
+    rank: 3
+  - level: 49
+    tree: Assassination
+    talent: Seal Fate
+    rank: 4
+  - level: 50
+    tree: Assassination
+    talent: Seal Fate
+    rank: 5
+  - level: 51
+    tree: Assassination
+    talent: Cold Blood
+    rank: 1
+  - level: 52
+    tree: Assassination
+    talent: Murder
+    rank: 2
+  - level: 53
+    tree: Assassination
+    talent: Improved Eviscerate
+    rank: 1
+  - level: 54
+    tree: Assassination
+    talent: Improved Eviscerate
+    rank: 2
+  - level: 55
+    tree: Assassination
+    talent: Improved Eviscerate
+    rank: 3
+  - level: 56
+    tree: Combat
+    talent: Lightning Reflexes
+    rank: 1
+  - level: 57
+    tree: Combat
+    talent: Lightning Reflexes
+    rank: 2
+  - level: 58
+    tree: Combat
+    talent: Lightning Reflexes
+    rank: 3
+  - level: 59
+    tree: Combat
+    talent: Lightning Reflexes
+    rank: 4
+  - level: 60
+    tree: Combat
+    talent: Lightning Reflexes
+    rank: 5
+  decoded_builds:
+  - build_name: Combat daggers / Envenom hybrid — post-1.18.1 default (24/27/0)
+    split:
+      Assassination: 24
+      Combat: 27
+      Subtlety: 0
+    code: AoZDIoQAZ-FADoCAAoRCC-
+    sources:
+    - '[[d:rogue#1484598973456187393]]'
+    - '[[d:rogue#1487852486554292355]]'
+    - '[[d:rogue#1485940082325323889]]'
+    agreement: contested
+    era: post-1.18.1
+    note: no Noxious Assault, Vigor or Seal Fate; Envenom holds the poison stack
+    points:
+    - tree: Assassination
+      talent: Malice
+      rank: 5
+      spell_id: 14142
+    - tree: Assassination
+      talent: Ruthlessness
+      rank: 3
+      spell_id: 14161
+    - tree: Assassination
+      talent: Murder
+      rank: 1
+      spell_id: 14158
+    - tree: Assassination
+      talent: Improved Blade Tactics
+      rank: 3
+      spell_id: 14167
+    - tree: Assassination
+      talent: Relentless Strikes
+      rank: 1
+      spell_id: 14179
+    - tree: Assassination
+      talent: Lethality
+      rank: 5
+      spell_id: 14137
+    - tree: Assassination
+      talent: Taste for Blood
+      rank: 2
+      spell_id: 14175
+    - tree: Assassination
+      talent: Efficient Poisons
+      rank: 3
+      spell_id: 52520
+    - tree: Assassination
+      talent: Envenom
+      rank: 1
+      spell_id: 52531
+    - tree: Combat
+      talent: Opportunity
+      rank: 5
+      spell_id: 14075
+    - tree: Combat
+      talent: Improved Backstab
+      rank: 3
+      spell_id: 13866
+    - tree: Combat
+      talent: Precision
+      rank: 5
+      spell_id: 13845
+    - tree: Combat
+      talent: Improved Sprint
+      rank: 2
+      spell_id: 13875
+    - tree: Combat
+      talent: Dual Wield Specialization
+      rank: 5
+      spell_id: 13852
+    - tree: Combat
+      talent: Close Quarters Combat
+      rank: 2
+      spell_id: 13804
+    - tree: Combat
+      talent: Surprise Attack
+      rank: 1
+      spell_id: 52511
+    - tree: Combat
+      talent: Weapon Expertise
+      rank: 2
+      spell_id: 30920
+    - tree: Combat
+      talent: Blade Rush
+      rank: 2
+      spell_id: 52508
+  - build_name: Combat daggers with Adrenaline Rush — pre- and post-1.18.1 variant (20/31/0)
+    split:
+      Assassination: 20
+      Combat: 31
+      Subtlety: 0
+    code: AoYCIoS-FADoCAAoRCCYB-
+    sources:
+    - '[[d:rogue#1453493987561443430]]'
+    - '[[d:rogue#1487577948323188846]]'
+    agreement: consensus
+    era: mixed
+    note: the forum's 2025 '20/31/0' now fully enumerated; pre-1.18.1 IBT 3 + no Vile/TfB, or IBT 2 + Vile Poisons 2
+    points:
+    - tree: Assassination
+      talent: Malice
+      rank: 5
+      spell_id: 14142
+    - tree: Assassination
+      talent: Ruthlessness
+      rank: 3
+      spell_id: 14161
+    - tree: Assassination
+      talent: Improved Blade Tactics
+      rank: 2
+      spell_id: 14166
+    - tree: Assassination
+      talent: Relentless Strikes
+      rank: 1
+      spell_id: 14179
+    - tree: Assassination
+      talent: Lethality
+      rank: 5
+      spell_id: 14137
+    - tree: Assassination
+      talent: Taste for Blood
+      rank: 2
+      spell_id: 14175
+    - tree: Assassination
+      talent: Vile Poisons
+      rank: 2
+      spell_id: 16514
+    - tree: Combat
+      talent: Opportunity
+      rank: 5
+      spell_id: 14075
+    - tree: Combat
+      talent: Improved Backstab
+      rank: 3
+      spell_id: 13866
+    - tree: Combat
+      talent: Precision
+      rank: 5
+      spell_id: 13845
+    - tree: Combat
+      talent: Improved Sprint
+      rank: 2
+      spell_id: 13875
+    - tree: Combat
+      talent: Dual Wield Specialization
+      rank: 5
+      spell_id: 13852
+    - tree: Combat
+      talent: Close Quarters Combat
+      rank: 2
+      spell_id: 13804
+    - tree: Combat
+      talent: Surprise Attack
+      rank: 1
+      spell_id: 52511
+    - tree: Combat
+      talent: Weapon Expertise
+      rank: 2
+      spell_id: 30920
+    - tree: Combat
+      talent: Blade Rush
+      rank: 2
+      spell_id: 52508
+    - tree: Combat
+      talent: Aggression
+      rank: 3
+      spell_id: 18429
+    - tree: Combat
+      talent: Adrenaline Rush
+      rank: 1
+      spell_id: 13750
+  build_code: AoaDIIDYR-AoDoCAAoRCC-
+  leveling_note: 'Route B: Combat (parry/Riposte) 10-39, respec at 40 into the Assassination 31/0/0 checkpoint, then as route
+    A (see assassination-melee-dps.yaml); validated with talent_tool.py'
+  variants:
+  - build_name: Combat Envenom swords 24/27/0 (Nuian)
+    code: AoaDIIDYR-AoAoCDAoBSC-
+    link: https://xian55.github.io/tortoise-db-viewer/?talents=rogue&t=00532310103321-0500502300501222
+    sources:
+    - '[[d:rogue#1488612728888229978]]'
+    - '[[d:rogue#1488612444333932725]]'
+    points:
+    - tree: Assassination
+      talent: Malice
+      rank: 5
+      spell_id: 14142
+    - tree: Assassination
+      talent: Ruthlessness
+      rank: 3
+      spell_id: 14161
+    - tree: Assassination
+      talent: Murder
+      rank: 2
+      spell_id: 14159
+    - tree: Assassination
+      talent: Improved Blade Tactics
+      rank: 3
+      spell_id: 14167
+    - tree: Assassination
+      talent: Relentless Strikes
+      rank: 1
+      spell_id: 14179
+    - tree: Assassination
+      talent: Lethality
+      rank: 1
+      spell_id: 14128
+    - tree: Assassination
+      talent: Vile Poisons
+      rank: 3
+      spell_id: 16515
+    - tree: Assassination
+      talent: Improved Poisons
+      rank: 3
+      spell_id: 14115
+    - tree: Assassination
+      talent: Efficient Poisons
+      rank: 2
+      spell_id: 52519
+    - tree: Assassination
+      talent: Envenom
+      rank: 1
+      spell_id: 52531
+    - tree: Combat
+      talent: Lightning Reflexes
+      rank: 5
+      spell_id: 13791
+    - tree: Combat
+      talent: Precision
+      rank: 5
+      spell_id: 13845
+    - tree: Combat
+      talent: Improved Sprint
+      rank: 2
+      spell_id: 13875
+    - tree: Combat
+      talent: Setup
+      rank: 3
+      spell_id: 14071
+    - tree: Combat
+      talent: Dual Wield Specialization
+      rank: 5
+      spell_id: 13852
+    - tree: Combat
+      talent: Surprise Attack
+      rank: 1
+      spell_id: 52511
+    - tree: Combat
+      talent: Hack and Slash
+      rank: 2
+      spell_id: 13961
+    - tree: Combat
+      talent: Weapon Expertise
+      rank: 2
+      spell_id: 30920
+    - tree: Combat
+      talent: Blade Rush
+      rank: 2
+      spell_id: 52508
+  - build_name: Adrenaline Rush daggers 20/31/0
+    code: AoYDIoR-FADoCAAoRCCYB-
+    link: https://xian55.github.io/tortoise-db-viewer/?talents=rogue&t=00530310521-500350200052102231
+    sources:
+    - '[[d:rogue#1487788282862506014]]'
+    - '[[d:rogue#1491170507259904040]]'
+    points:
+    - tree: Assassination
+      talent: Malice
+      rank: 5
+      spell_id: 14142
+    - tree: Assassination
+      talent: Ruthlessness
+      rank: 3
+      spell_id: 14161
+    - tree: Assassination
+      talent: Improved Blade Tactics
+      rank: 3
+      spell_id: 14167
+    - tree: Assassination
+      talent: Relentless Strikes
+      rank: 1
+      spell_id: 14179
+    - tree: Assassination
+      talent: Lethality
+      rank: 5
+      spell_id: 14137
+    - tree: Assassination
+      talent: Taste for Blood
+      rank: 2
+      spell_id: 14175
+    - tree: Assassination
+      talent: Vile Poisons
+      rank: 1
+      spell_id: 16513
+    - tree: Combat
+      talent: Opportunity
+      rank: 5
+      spell_id: 14075
+    - tree: Combat
+      talent: Improved Backstab
+      rank: 3
+      spell_id: 13866
+    - tree: Combat
+      talent: Precision
+      rank: 5
+      spell_id: 13845
+    - tree: Combat
+      talent: Improved Sprint
+      rank: 2
+      spell_id: 13875
+    - tree: Combat
+      talent: Dual Wield Specialization
+      rank: 5
+      spell_id: 13852
+    - tree: Combat
+      talent: Close Quarters Combat
+      rank: 2
+      spell_id: 13804
+    - tree: Combat
+      talent: Surprise Attack
+      rank: 1
+      spell_id: 52511
+    - tree: Combat
+      talent: Weapon Expertise
+      rank: 2
+      spell_id: 30920
+    - tree: Combat
+      talent: Blade Rush
+      rank: 2
+      spell_id: 52508
+    - tree: Combat
+      talent: Aggression
+      rank: 3
+      spell_id: 18429
+    - tree: Combat
+      talent: Adrenaline Rush
+      rank: 1
+      spell_id: 13750
+  - build_name: Adrenaline Rush + Improved Expose Armor 18/31/2
+    code: AoYDIgQ-FADoCAAoRCCYB-AQ
+    link: https://xian55.github.io/tortoise-db-viewer/?talents=rogue&t=0053031042-500350200052102231-02
+    sources:
+    - '[[d:rogue#1492308592991273042]]'
+    - '[[d:rogue#1486001023486001373]]'
+    points:
+    - tree: Assassination
+      talent: Malice
+      rank: 5
+      spell_id: 14142
+    - tree: Assassination
+      talent: Ruthlessness
+      rank: 3
+      spell_id: 14161
+    - tree: Assassination
+      talent: Improved Blade Tactics
+      rank: 3
+      spell_id: 14167
+    - tree: Assassination
+      talent: Relentless Strikes
+      rank: 1
+      spell_id: 14179
+    - tree: Assassination
+      talent: Lethality
+      rank: 4
+      spell_id: 14136
+    - tree: Assassination
+      talent: Taste for Blood
+      rank: 2
+      spell_id: 14175
+    - tree: Combat
+      talent: Opportunity
+      rank: 5
+      spell_id: 14075
+    - tree: Combat
+      talent: Improved Backstab
+      rank: 3
+      spell_id: 13866
+    - tree: Combat
+      talent: Precision
+      rank: 5
+      spell_id: 13845
+    - tree: Combat
+      talent: Improved Sprint
+      rank: 2
+      spell_id: 13875
+    - tree: Combat
+      talent: Dual Wield Specialization
+      rank: 5
+      spell_id: 13852
+    - tree: Combat
+      talent: Close Quarters Combat
+      rank: 2
+      spell_id: 13804
+    - tree: Combat
+      talent: Surprise Attack
+      rank: 1
+      spell_id: 52511
+    - tree: Combat
+      talent: Weapon Expertise
+      rank: 2
+      spell_id: 30920
+    - tree: Combat
+      talent: Blade Rush
+      rank: 2
+      spell_id: 52508
+    - tree: Combat
+      talent: Aggression
+      rank: 3
+      spell_id: 18429
+    - tree: Combat
+      talent: Adrenaline Rush
+      rank: 1
+      spell_id: 13750
+    - tree: Subtlety
+      talent: Improved Expose Armor
+      rank: 2
+      spell_id: 14169
+  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=rogue&t=00532310103321-0503502000521022
+  build_link_tortoise_note: 'Generated from the sourced points list (51 points: Assassination 24, Combat 27); the calculator
     shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
 stat_weights:
-  hit: top priority to the 9% special-attack cap (vanilla baseline convention used by posters, not a staff number)
-  weapon_skill: 305-315; pushes misses/glancing blows off the hit table
-  agility: high; also reduces time between energy ticks via Blade Rush (measured ~100 agi = 0.1s reduction, single measurement)
-  crit: high once hit-capped; watch the crit cap (~28% unbuffed reported at level 57 in dungeon gear, single player figure)
-  haste: low; 'equal crit outperforms equal haste' per one poster since haste only affects auto-hits and neither energy regen
-    nor special-attack damage is haste-scaled pre-Blade-Rush
+  hit: 8% for abilities vs level-63 bosses (+0.2% per weapon skill point over 300, not shown on the sheet); 15-16% practical
+    target; 25% caps dual-wield autos [[d:rogue#1461126609196023922]], [[d:rogue#1462102234874511605]], [[d:rogue#1467164411058983042]]
+  weapon_skill: 310 minimum, 313 good, 315 optimal; glancing reduction stops at 315, hit from skill keeps counting [[d:rogue#1484908242193875065]],
+    [[d:rogue#1470964213743620261]]
+  agility: 'top secondary: AP + crit (1% per ~29) + Blade Rush energy (-0.0012 s tick per point); ~1.7 AP baseline, ~2 AP
+    for Combat [[d:rogue#1445046771288899736]], [[d:rogue#1474384784255094998]], [[d:rogue#1492522664852586516]]'
+  crit: ~25 AP per 1% until the ~55% crit cap; worth more for Combat than Assassination [[d:rogue#1492516625650417695]], [[d:rogue#1465627335121309697]]
+  haste: multiplicative with Slice and Dice [[d:rogue#1387271666970787983]]
   armor_penetration: very low; "ARP is a wild card stat that doesn't even do anything in many cases"
+  weapon_speed: 'Combat Envenom: main-hand speed barely matters in single target (slow MH helps Blade Flurry); off hand as
+    fast as possible [[d:rogue#1487049641517383680]], [[d:rogue#1486738916844503212]]'
+  attack_power: below Agility; AP enchants beat Agility on ~60 s fights in one unconfirmed test [[d:rogue#1491100440224338002]]
+  discord_note: Sim everything on combatgum.app [[d:rogue#1484243895675129986]]
+caps:
+  hit_special_attacks: 8% vs +3-level boss (5% vs same level) [[d:rogue#1461126609196023922]]
+  hit_white_dual_wield: 25% [[d:rogue#1462102234874511605]]
+  crit_cap_white: ~55% at 25% hit; bosses suppress 3% crit [[d:rogue#1493026633861566725]], [[d:rogue#1483660333305561127]]
+  weapon_skill_optimum: 315 [[d:rogue#1484908242193875065]]
+  agility_energy: energy tick = 2 s - 0.0012 s per Agility (500 agi -> 1.4 s); ~400 buffed agi to feel it, ~800 for ~1 s ticks
+    [[d:rogue#1474384784255094998]], [[d:rogue#1462569850768724213]], [[d:rogue#1462133009389195521]]
+rotation_single:
+- priority: 1
+  action: Envenom (1 combo point)
+  condition: Envenom missing or about to expire; cast Envenom before Slice and Dice (~50 DPS)
+  sources:
+  - '[[d:rogue#1484581432889442335]]'
+  - '[[d:rogue#1488169648573907026]]'
+- priority: 2
+  action: Slice and Dice (1 combo point)
+  condition: Slice and Dice missing or about to expire
+  sources:
+  - '[[d:rogue#1488169648573907026]]'
+- priority: 3
+  action: Eviscerate
+  condition: 'combo points == 5 (not 1-point spam); optional: 2-4 point Eviscerate when a buff is about to drop and points
+    > 1'
+  sources:
+  - '[[d:rogue#1488169648573907026]]'
+  - '[[d:rogue#1492048302794080369]]'
+  - '[[d:rogue#1486749401731825879]]'
+- priority: 4
+  action: Surprise Attack
+  condition: usable (after a dodge) AND energy <= 80
+  sources:
+  - '[[d:rogue#1492170434672595226]]'
+- priority: 5
+  action: Backstab
+  condition: main hand is a dagger AND behind target
+  sources:
+  - '[[d:rogue#1487600151974641806]]'
+- priority: 6
+  action: Sinister Strike
+  condition: main hand is a sword/axe/mace/fist; never with a dagger main hand (swap weapons instead when you cannot be behind)
+  sources:
+  - '[[d:rogue#1489272040014745860]]'
+  - '[[d:rogue#1447254729154494575]]'
+- priority: 7
+  action: 'Adrenaline Rush build only: keep Slice and Dice + 5-point Rupture (Taste for Blood); Adrenaline Rush right after
+    a 5-point Rupture; Eviscerate only if both buffs have 20+ s left'
+  condition: talents include Adrenaline Rush; no Envenom
+  sources:
+  - '[[d:rogue#1462618589298168065]]'
+  - '[[d:rogue#1424148190663278846]]'
+  - '[[d:rogue#1462637371756384276]]'
+- priority: 0
+  action: 'Opener: pre-load a combo point on a critter and carry it with Slice and Dice; open with Backstab/Sinister Strike,
+    not stealth'
+  condition: pull
+  sources:
+  - '[[d:rogue#1480688682787667988]]'
+  - '[[d:rogue#1468327294430085130]]'
+rotation_aoe:
+- targets_min: 2
+  priority: 1
+  action: toggle Blade Flurry on (hits exactly one extra target; -20% energy regen)
+  condition: 2+ enemies in melee range; slow main hand
+  sources:
+  - '[[d:rogue#1468684315079479351]]'
+  - '[[d:rogue#1491477144294002869]]'
+- targets_min: 1
+  priority: 1
+  action: toggle Blade Flurry off
+  condition: only one target left; poisons/procs/bleeds never hit the second target
+  sources:
+  - '[[d:rogue#1473731055390298133]]'
+  - '[[d:rogue#1475398289737388193]]'
+- targets_min: 2
+  priority: 2
+  action: keep Instant Poison on both weapons through mixed trash instead of swapping
+  condition: MC-style mixed packs
+  sources:
+  - '[[d:rogue#1491477644133531930]]'
+aoe_threshold: 2
+cooldowns:
+- name: Adrenaline Rush (AR build)
+  use_when: after a 5-point Rupture; once at pull if kill < ~3 min, twice if longer [[d:rogue#1424148190663278846]], [[d:rogue#1446573952553058305]]
+- name: Blade Flurry
+  use_when: toggle on at 2+ targets, off at 1
+- name: Vanish
+  use_when: threat reset when approaching the tank; swap active trinket to passive (new active needs 30 s before use) [[d:rogue#1465825152125374744]],
+    [[d:rogue#1465825846521626935]], [[d:rogue#1494011328833261689]]
+- name: Thistle Tea
+  use_when: energy starved, e.g. in burst windows
+- name: Active trinkets / Badge of the Swarmguard
+  use_when: boss burst (with AR); passives such as DFT on trash [[d:rogue#1487230426148765727]]
+resource_rules:
+- Base energy 20 per 2 s; Blade Rush removes 0.0012 s from the tick per Agility [[d:rogue#1489263649020182698]], [[d:rogue#1474384784255094998]]
+- 'Ruthlessness always refunds 1 combo point after a finisher: use it for the 1-point buff refreshes [[d:rogue#1451736486822154462]]'
+- A dodged/parried builder costs only ~7 energy [[d:rogue#1480274083160789204]]
+- Combo points persist on a living target; a new combo point on another target resets them [[d:rogue#1465788380661944452]],
+  [[d:rogue#1482311939945267351]]
+- 'Do not double-press finishers: a 1-point cast can overwrite a 5-point one [[d:rogue#1479064018260856862]]'
+- 'Threat: delay burst until the tank has threat; Feint lowers generation only; Vanish resets [[d:rogue#1490058561286443039]],
+  [[d:rogue#1455361248580468992]]'
+consumables:
+- Elixir of the Mongoose, Ground Scorpok Assay, Elixir of Giants or Juju Power [[d:rogue#1487503305411133572]], [[d:rogue#1490366630889525258]]
+- Juju Might or Winterfall Firewater; they do not stack [[d:rogue#1487503517114695731]], [[d:rogue#1479004139613589674]]
+- 'Food: Danonzo''s Tel''Abim Medley (haste) > new 20-Agility food > Sour Mountain Berries; 20-Agility food does not stack
+  with Mongoose (bug) [[d:rogue#1487502956340449493]], [[d:rogue#1490660870735269889]]'
+- Spirit of Zanza (persists through death), Elixir of Fortitude, Rumsey Rum Black Label [[d:rogue#1468626095870968022]]
+- 'Thistle Tea, Potion of Quickness, Juju Flurry; macro: /cast Potion of Quickness /cast Juju Flurry /cast Perception /use
+  13 /use 14 [[d:rogue#1488940969112899817]]'
+- Greater Fire Protection Potions on the MC fights that need them; no FR gear [[d:rogue#1466871272490139770]], [[d:rogue#1463441701543870587]]
+- Goblin Sapper Charges and Gnomish Battle Chicken (Engineering) [[d:rogue#1463477543666581601]]
+- 'Poisons: Instant both hands by default; a second weapon pair with Dissolvent for Elementals/Mechanicals/Giants/Undead [[d:rogue#1484557710065406146]],
+  [[d:rogue#1484513053876949133]]'
+- 'Stacking: same-stat consumables do not stack (Mongoose/Agility potion, Firewater/Black Juju, Giants/Juju Power); Blasted
+  Lands buff and Agility food stack with everything; a concoction does not stack with its components [[d:rogue#1479004361744056492]],
+  [[d:rogue#1488825686587215956]]'
+mistakes_to_avoid:
+- Running Rupture + Taste for Blood with Envenom [[d:rogue#1486815192690987191]]
+- Sinister Strike with a dagger main hand [[d:rogue#1489272040014745860]]
+- Blade Flurry left on in single target, or with a fast main hand [[d:rogue#1473731055390298133]], [[d:rogue#1487361136171941889]]
+- 1-point Eviscerate spam instead of 5-point Eviscerates [[d:rogue#1488169648573907026]]
+- Dissolvent/Corrosive on Humanoids, Beasts, Dragonkin or Demons (they no longer apply) [[d:rogue#1484513053876949133]]
+- Stormshroud into BWL (no Agility) [[d:rogue#1488910311829278750]]
+- Taking Improved Expose Armor in Combat Envenom (costs Efficient Poisons) [[d:rogue#1489309057008537871]]
+- Assuming pre-1.18.1 builds with Taste for Blood 3/3 are valid (2 ranks now)
+leveling_by_bracket:
+  source_note: 'Discord #rogue; citations resolve in structured/discord/evidence-rogue.jsonl'
+  brackets:
+  - bracket: 1-10
+    advice: Quest on Sinister Strike/Eviscerate or Backstab/Ambush; dual wield unlocks at 10; start lockpicking/poison skill
+    sources:
+    - '[[d:rogue#1355443254015033394]]'
+    - '[[d:rogue#1355443795524587603]]'
+    era: pre-1.18.1
+    agreement: single source
+  - bracket: 10-19
+    advice: Combat swords (smoothest) or Ambush/Backstab daggers (Remorseless -> Imp Backstab -> Imp Ambush); Imp Gouge is
+      a lifesaver; Deadmines/SFK daggers
+    sources:
+    - '[[d:rogue#1310955868933586985]]'
+    - '[[d:rogue#1312496085784072232]]'
+    - '[[d:rogue#1286056902975029313]]'
+    era: pre-1.18.1
+    agreement: consensus
+  - bracket: 20-29
+    advice: Poison class quest at 20 (dangerous); learn frontstab; pickpocket lockboxes 20-30 are level-1 boxes
+    sources:
+    - '[[d:rogue#1003729345174569090]]'
+    - '[[d:rogue#1131138509588140062]]'
+    era: pre-1.18.1
+    agreement: consensus
+  - bracket: 30-39
+    advice: Vanquisher's Sword + Sword of Omen/Serenity at ~40; Gut Ripper ~40; frontstab costs more damage taken
+    sources:
+    - '[[d:rogue#1165510276062384150]]'
+    - '[[d:rogue#1136264023206268989]]'
+    era: pre-1.18.1
+    agreement: consensus
+  - bracket: 40-49
+    advice: Respec Assassination for Noxious Assault; Envenom single-target; double Instant Poison; Coldrage/Ghaz'rilla daggers;
+      1.30 daggers wanted
+    sources:
+    - '[[d:rogue#1425614628385325138]]'
+    - '[[d:rogue#1455712360433189117]]'
+    - '[[d:rogue#1324107314747408587]]'
+    era: mixed
+    agreement: consensus
+  - bracket: 50-60
+    advice: Finish Assassination or frontstab line; respec to endgame at 58-60; Barman Shanker/Gut Ripper carry to 60
+    sources:
+    - '[[d:rogue#1458113459639156888]]'
+    - '[[d:rogue#1431531176333541396]]'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+  - bracket: general
+    advice: 'Rested XP via survival tents at Crossroads lets you skip bad quests; stealth detection worsens with level; hardcore:
+      Precision + Remorseless near-mandatory, Riposte/Imp Sprint for survival'
+    sources:
+    - '[[d:rogue#1047182469792800849]]'
+    - '[[d:rogue#1012791496841383997]]'
+    - '[[d:rogue#1360325720752001295]]'
+    era: pre-1.18.1
+    agreement: consensus
+  route: Combat/dagger to 40 -> respec Assassination (Noxious Assault) at 40 -> respec to the raid spec at 58-60
+  route_sources:
+  - '[[d:rogue#1425614628385325138]]'
+  - '[[d:rogue#1455712360433189117]]'
+  - '[[d:rogue#1458113459639156888]]'
+discord:
+  channels:
+  - rogue
+  agreement: mixed — consensus on the post-1.18.1 24/27/0 default and on mechanics; the ranking vs Assassination/Sub stays
+    contested
+  eras:
+  - pre-1.18.1
+  - 1.18.1-announced-pre-release
+  - post-1.18.1
+  sources:
+  - cite: '[[d:rogue#1484598973456187393]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: decoded 24/27/0 Combat-dagger core (closes the forum build gap)
+  - cite: '[[d:rogue#1487852486554292355]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: 24/27/0 repeated 15+ times post-patch
+  - cite: '[[d:rogue#1485940082325323889]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: Combat-envenom as the post-1.18.1 alternative to nerfed Noxious
+  - cite: '[[d:rogue#1495060694121320558]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: 'spec standing: Combat daggers good, SS underperforms, Combat Envenom popular'
+  - cite: '[[d:rogue#1484976580479418600]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: Deadly sims better than Instant in Combat-dagger Envenom
+  - cite: '[[d:rogue#1409388958319644767]]'
+    era: pre-1.18.1
+    agreement: consensus
+    topic: Blade Rush 0.0012 s/agi energy-tick formula
+  - cite: '[[d:rogue#1415843605075066951]]'
+    era: pre-1.18.1
+    agreement: consensus
+    topic: 600 agi = one tick per 1.28 s
+  - cite: '[[d:rogue#1449907721582280765]]'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    topic: stat cheat-sheet (15 agi = 1 haste, 1 hit = 25 AP)
+  - cite: '[[d:rogue#1407624625059270699]]'
+    era: pre-1.18.1
+    agreement: consensus
+    topic: 8% yellow hit cap; ~55% white crit cap at high hit
+  - cite: '[[d:rogue#1411032364095639644]]'
+    era: pre-1.18.1
+    agreement: single source
+    topic: ~50.5% effective boss crit cap on Naxx-BiS
+  - cite: '[[d:rogue#1407887326088003625]]'
+    era: pre-1.18.1
+    agreement: consensus
+    topic: agility is the Combat stat; AP gear devalued by Blade Rush
+  - cite: '[[d:rogue#1410185117019672626]]'
+    era: pre-1.18.1
+    agreement: single source
+    topic: post-rework devaluation of pre-patch BiS AP gear
+  - cite: '[[d:rogue#1446546660032385118]]'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    topic: ~1.3-speed daggers for poison procs; 1.8 spellstrike exception
+  - cite: '[[d:rogue#1488169766530318456]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: 'Combat-envenom rotation: no Adrenaline Rush, Envenom replaces Rupture'
+  - cite: '[[d:rogue#1486038172336001174]]'
+    era: post-1.18.1
+    agreement: contested
+    topic: SS evis-spam 24/27/0 form
+  - cite: '[[d:rogue#1424148190663278846]]'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    topic: never Sinister Strike with daggers
+  - cite: '[[d:rogue#1411665605706252380]]'
+    era: pre-1.18.1
+    agreement: single source
+    topic: Murder is a beginner trap
+  - cite: '[[d:rogue#1426272445949546630]]'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    topic: do not blindly stack agility on sword Combat
+  - cite: '[[d:rogue#1410790635442671830]]'
+    era: pre-1.18.1
+    agreement: consensus
+    topic: Concoction of the Emerald Mongoose for poison + physical crit
+  - cite: '[[d:rogue#1342009613259903067]]'
+    era: pre-1.18.1
+    agreement: consensus
+    topic: Thistle Tea at exactly 0 energy
+  - cite: '[[d:rogue#1421159028498759741]]'
+    era: pre-1.18.1
+    agreement: consensus
+    topic: consumable cooldown sharing
+  - cite: '[[d:rogue#1484754354433953915]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: per-pack poison-swap rule
+  - cite: '[[d:rogue#1406322984389443594]]'
+    era: pre-1.18.1
+    agreement: single source
+    topic: Noxious Assault procs off-hand weapon effects (contested)
+  - cite: '[[d:rogue#1425614628385325138]]'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    topic: 'leveling route: Combat to 40 then Assassination'
+  - cite: '[[d:rogue#1458113459639156888]]'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    topic: MistAssassin step-by-step leveling route
+  - cite: '[[d:rogue#1485184986716831786]]'
+    author: Nandieb
+    authority: player
+    date: '2026-03-22'
+    era: post-1.18.1
+    agreement: single source
+  - cite: '[[d:rogue#1486812371602243695]]'
+    author: Nandieb
+    authority: player
+    date: '2026-03-26'
+    era: post-1.18.1
+    agreement: consensus
+  - cite: '[[d:rogue#1486815192690987191]]'
+    author: Nandieb
+    authority: player
+    date: '2026-03-26'
+    era: post-1.18.1
+    agreement: consensus
+  - cite: '[[d:rogue#1488169648573907026]]'
+    author: Nandieb
+    authority: player
+    date: '2026-03-30'
+    era: post-1.18.1
+    agreement: consensus
+  - cite: '[[d:rogue#1484581432889442335]]'
+    author: GumGuzz
+    authority: player
+    date: '2026-03-20'
+    era: post-1.18.1
+    agreement: consensus
+  - cite: '[[d:rogue#1488612728888229978]]'
+    author: Nuian
+    authority: player
+    date: '2026-03-31'
+    era: post-1.18.1
+    agreement: single source
+  - cite: '[[d:rogue#1490358021107486763]]'
+    author: Drox
+    authority: player
+    date: '2026-04-05'
+    era: post-1.18.1
+    agreement: contested
+  - cite: '[[d:rogue#1491107146111127693]]'
+    author: Rheinwg
+    authority: player
+    date: '2026-04-07'
+    era: post-1.18.1
+    agreement: contested
+  - cite: '[[d:rogue#1494300985609158848]]'
+    author: Nandieb
+    authority: player
+    date: '2026-04-16'
+    era: post-1.18.1
+    agreement: single source
+guide: guide/classes/rogue/combat.md
 stat_priority:
 - hit
 - weapon-skill
@@ -202,77 +1231,3 @@ stat_priority_note: 'Hit first to the 9% special-attack cap (lower with racial o
   crit cap: past it, crit and agility lose value and hit becomes the premium stat again. Agility, crit and attack power are
   a tie: no cited post ranks them against each other, so their order in the array above carries no ranking. Grouping them
   is this repository''s reading of the sources listed above.'
-caps:
-  hit_special_attacks: 9% (vanilla baseline, not a Turtle-confirmed number)
-  weapon_skill_optimum: 308 (one player's claim, unverified) or 315 (Shananagans' claim, unverified)
-rotation_single:
-- priority: 1
-  action: Garrote or Ambush/Cheap Shot opener from stealth
-  condition: if the pull allows stealth; raids usually do not
-- priority: 2
-  action: Backstab
-  condition: the only filler for the dagger build; stay behind the target
-- priority: 3
-  action: Slice and Dice
-  condition: keep up at all times, 2-5 combo points
-- priority: 4
-  action: Improved Expose Armor
-  condition: only if no warrior is maintaining Sunder Armor
-- priority: 5
-  action: Rupture
-  condition: 5 combo points, long fights
-- priority: 6
-  action: Eviscerate
-  condition: 5 combo points, target will die before Rupture pays off or target is bleed-immune
-- priority: 7
-  action: Surprise Attack
-  condition: whenever available (after a dodge); macro it ahead of the builder
-- priority: 8
-  action: Sinister Strike (Swords/Axes/Maces variant)
-  condition: replaces Backstab 1:1 for the non-dagger build
-rotation_aoe:
-- targets_min: 2
-  priority: 1
-  action: toggle Blade Flurry on
-  condition: 2+ targets; it is the class's only cleave
-- targets_min: 2
-  priority: 2
-  action: toggle Blade Flurry off
-  condition: as soon as only one target remains (-20% damage, -20% energy regen while active)
-- targets_min: 4
-  priority: 1
-  action: same as 2-3 targets; no additional tools
-  condition: rogue has no true AoE; accept low parses
-aoe_threshold: 2
-cooldowns:
-- name: Adrenaline Rush
-  use_when: on pull once Slice and Dice/Expose Armor are up, and on every cleave pack with Blade Flurry (3-min cooldown)
-- name: Blade Flurry
-  use_when: a toggle, not a cooldown; on for 2+ targets, off for single target
-- name: Vanish
-  use_when: second trinket-proc window in raids, or aggro reset
-- name: Evasion / Sprint
-  use_when: 4-min baseline cooldown each since Class Changes 2; defensive/repositioning
-resource_rules:
-- 'Baseline energy: 20 per 2 seconds'
-- Relentless Strikes returns 20 energy on 5-point finishers
-- Blade Rush (Combat row 6) reduces time between energy ticks by an amount tied to Agility (unverified formula, ~100 agi =
-  0.1s per one measurement)
-- Darkmantle 4-piece set bonus procs bonus energy on melee hits
-- Do not apply a combo-point builder to an add; it wipes the boss's combo points (combo points persist per target since CC2,
-  but only within a single target's pool)
-consumables:
-- Instant Poison x2 (or weapon stones for Naxx undead content -- unresolved, see gaps)
-- Thistle Tea
-- Mongoose / jujus / food buffs
-- Oil of Immolation or Dragonbreath Chili for pack padding
-- Free Action Potion / Restorative Potion for mechanics
-mistakes_to_avoid:
-- Using Sinister Strike or Ghostly Strike with daggers instead of Backstab
-- Forgetting to keep Slice and Dice up
-- Leaving Blade Flurry on during single target, or toggling it with a single spam macro instead of separate on/off macros
-- Applying a combo-point builder to an add, wiping the boss's combo points
-- Stacking crit before reaching the hit cap
-- Using Blade Flurry while leveling/under-geared (energy starvation until roughly 800 agility)
-- Expecting to out-parse well-played Warriors pre-1.18.0 (an ~18% gap was reported in March 2025) or bragging about parses
-  that exclude Warriors

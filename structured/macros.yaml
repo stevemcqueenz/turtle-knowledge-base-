@@ -1,0 +1,530 @@
+# Verbatim macros posted in the archived #code-corner Discord (Turtle WoW Europe).
+# Source channel: code-corner, 2022-06-21 .. 2026-05-30.
+# Text is reproduced exactly from the Discord message and is NOT tested by the KB; some are
+# asked-about snippets and a few are known-broken (noted in `purpose`).
+# Citations: [[d:code-corner#<message_id>]] (resolve in structured/discord/evidence-code-corner.jsonl).
+# era: pre-1.18.1 (<2025-10-03) | 1.18.1-announced-pre-release (2025-10-03..2026-03-19) | post-1.18.1 (>=2026-03-20).
+# agreement: consensus | single source | contested.
+schema: code-corner-macros/v1
+channel: code-corner
+
+macro_rules:
+- rule: >-
+    #showtooltip, /startattack, /stopcasting, /castsequence, /equip, /use <name> and
+    /petattack (as a slash command) are not native to the 1.12 client; they come from macro
+    addons (SuperMacro / Roid / CleveRoid / SuperCleveRoid / GMacro / pfUI macro-tweaks) or
+    from /run CastSpellByName(...).
+  sources:
+  - '[[d:code-corner#1310741319546830890]]'
+  - '[[d:code-corner#1354103471305134102]]'
+  - '[[d:code-corner#1317084201396207746]]'
+- rule: '#showtooltip prints into chat and raises a /help error if no macro addon provides it.'
+  sources:
+  - '[[d:code-corner#1317084201396207746]]'
+  - '[[d:code-corner#1412074266844987506]]'
+  - '[[d:code-corner#1354096592390717584]]'
+- rule: >-
+    Macro length is 255 chars by default and 511 with SuperWoW; a single line over ~255 chars
+    crashes the client when placed on an action bar.
+  sources:
+  - '[[d:code-corner#1238364213143928842]]'
+  - '[[d:code-corner#1407692196882288641]]'
+  - '[[d:code-corner#1443930190743994369]]'
+- rule: 'One action = one player input; Wait and ExecuteCommand do not exist; loops freeze or crash.'
+  sources:
+  - '[[d:code-corner#1460046663375655056]]'
+- rule: >-
+    Mouseover is not native to 1.12; provided by pfUI (/pfcast), Luna (/lunamo), NotGrid
+    (/ngcast) or Roid/CleveRoid target modifiers. @cursor did not exist before Legion.
+  sources:
+  - '[[d:code-corner#1278504904503201876]]'
+  - '[[d:code-corner#1435297892922294474]]'
+- rule: 'Two spells cannot be cast from one button without Nampower queuing.'
+  sources:
+  - '[[d:code-corner#1428695809997672528]]'
+- rule: 'Weapon swapping in combat incurs a GCD per swap and resets the attack timer.'
+  sources:
+  - '[[d:code-corner#1489027328683278418]]'
+- rule: >-
+    SuperCleveRoidMacros conditional operator semantics changed with the Dec-2025 update:
+    "/" = OR and "&" = AND for no-buff conditionals.
+  sources:
+  - '[[d:code-corner#1447624406150025226]]'
+  - '[[d:code-corner#1447211480314282026]]'
+  - '[[d:code-corner#1448341959746912440]]'
+
+classes:
+  general:
+  - name: Mouseover heal/cast (CleveRoidMacros)
+    text: |
+      #showtooltip
+      /cast [@mouseover]Healing Touch(Rank 3);Healing Touch(Rank 3)
+    purpose: Cast on mouseover, else target; Druid example, generic form below.
+    sources: ['[[d:code-corner#1432192662886158346]]']
+  - name: Generic mouseover cast (CleveRoidMacros)
+    text: |
+      /cast [@mouseover help alive]Spellname;[@player]Spellname
+    purpose: Generic mouseover, else player form.
+    sources: ['[[d:code-corner#1433579920730099894]]']
+  - name: Heal with buff/debuff guard (SuperCleveRoidMacros)
+    text: |
+      #showtooltip
+      /cast [nomybuff:"Power Word: Shield" nomydebuff:"Weakened Soul"]Power Word: Shield;Smite
+    purpose: >-
+      Cast only if the target lacks the buff and does not have the debuff. "nomybuff:X/Y"
+      means neither up; "nomybuff:X&Y" means either not up.
+    sources: ['[[d:code-corner#1447211480314282026]]']
+  - name: Stance priority (CleveRoid)
+    text: |
+      /cast [known stance:3]Bloodthirst;[known stance:2]Shield Slam
+    purpose: Bloodthirst in Berserker, Shield Slam in Defensive.
+    sources: ['[[d:code-corner#1436389943818850476]]']
+  - name: Trinket with dynamic tooltip (SCRM)
+    text: |
+      #showtooltip
+      /use 13
+    purpose: Use trinket slot 13; #showtooltip follows the equipped item.
+    sources: ['[[d:code-corner#1422262069885014016]]']
+  - name: Trinket + spell (SCRM)
+    text: |
+      #showtooltip
+      /use 14
+      /cast Arcane Rupture
+    purpose: Use trinket slot 14 then cast; required a Nampower/SCRM fix.
+    sources: ['[[d:code-corner#1442118064656224450]]']
+  - name: Trinket only when off cooldown and equipped
+    text: |
+      #showtooltip
+      /use [nocooldown equipped]Eye of Moam
+      /cast Starfire
+    purpose: Fire an on-use trinket before a cast only when usable.
+    sources: ['[[d:code-corner#1444331118399852657]]']
+  - name: Use item by name via bag scan (vanilla)
+    text: |
+      /run for b=0,4 do for s=1,GetContainerNumSlots(b,s)do local n=GetContainerItemLink(b,s)if n and (strfind(n,"Major Mana Potion"))then UseContainerItem(b,s)end end end
+    purpose: UseItemByName is unavailable to macros in 1.12; scan bags and use the item.
+    sources: ['[[d:code-corner#1353358000990982185]]']
+  - name: Item cascade / healthstone fallback (CleveRoid)
+    text: |
+      #showtooltip
+      /use 19013
+      /use 9421
+      /use 19011
+      /use 13446
+    purpose: Try each item until one is usable.
+    sources: ['[[d:code-corner#1430694844074033336]]']
+  - name: Equip item from bags by name (vanilla loop)
+    text: |
+      /run for b=0,4 do for s=1,GetContainerNumSlots(b,s)do local n=GetContainerItemLink(b,s)if n and strfind(n,"Whip of Encouragement")then PickupContainerItem(b,s)EquipCursorItem(13)break end end end
+      /cast Riding Turtle
+    purpose: Equip a named item (idol/offhand) from bags.
+    sources: ['[[d:code-corner#1353056462779318422]]']
+  - name: Mouseover + range check on a heal (vanilla /run)
+    text: |
+      /run i=(GetMouseFocus().unit) if i then CastSpellByName("Cure Disease"); SpellTargetUnit(i) else Dcr_Clean(); end
+    purpose: Cast only if the mouseover unit is available (Decursive fallback).
+    sources: ['[[d:code-corner#1351923108021407766]]']
+  - name: Pet attack with spell (Roid-Macros)
+    text: |
+      #showtooltip Immolate(Rank 3)
+      /cast Immolate(Rank 3)
+      /script PetAttack(target)
+    purpose: Pet attacks the current target while casting.
+    sources: ['[[d:code-corner#1317018025752264724]]']
+  - name: Toggle Find Herbs / Find Minerals (vanilla)
+    text: |
+      /run s={"Find Minerals","Find Herbs"} if q==nil then q=0 end q=q+1 if q>getn(s)then q=1 end CastSpellByName(s[q])
+    purpose: One button cycles tracking spells; reported to glitch out and get stuck.
+    sources: ['[[d:code-corner#1483228489313419466]]']
+  - name: Toggle minimap / meters (vanilla /run)
+    text: |
+      /run local m = Minimap if m:IsShown() then m:Hide() else m:Show() end
+      /run local n = ShaguDPSWindow if n:IsShown() then n:Hide() else n:Show() end
+    purpose: Clean UI toggles.
+    sources:
+    - '[[d:code-corner#1366794295385915504]]'
+    - '[[d:code-corner#1366802072824975484]]'
+  - name: Target a Mind-Controlled unit (SCRM)
+    text: |
+      /target [help debuff:Mind_Control]
+    purpose: /target with conditionals; selects the nearest matching unit.
+    sources:
+    - '[[d:code-corner#1433151012725723176]]'
+    - '[[d:code-corner#1433133002304651512]]'
+    - '[[d:code-corner#1433147723972087929]]'
+  - name: Cast if either of two debuffs is up (SCRM)
+    text: |
+      /cast [debuff:Adebuff/Bdebuff]Wrath
+    purpose: OR-condition on debuffs.
+    sources: ['[[d:code-corner#1432193321253470239]]']
+
+  warrior:
+  - name: Stance + Shield Bash
+    text: |
+      /cast [stance:1/3] Defensive Stance
+      /cast Shield Bash
+      /startattack
+    purpose: 'Reported not to work ("another action is in progress").'
+    sources: ['[[d:code-corner#1161011664037093486]]']
+  - name: Charge / stance-change shield swap
+    text: |
+      #showtooltip
+      /cast Defensive Stance
+      /equip Dawnstone Bludgeon
+      /equip Hyperchromatic Deflector
+      /cast Shield bash
+    purpose: User reported only the stance part executes after login.
+    sources:
+    - '[[d:code-corner#1385694714447270009]]'
+    - '[[d:code-corner#1385964518194286835]]'
+  - name: Shield swap with /equipoff (ShaguTweaksExtra edit)
+    text: |
+      #showtooltip
+      /cast Defensive Stance
+      /equip MainHandName
+      /equipoff OffHandName
+    purpose: Requires a modified ShaguTweaks-extras macro-tweaks.lua to equip both hands.
+    sources: ['[[d:code-corner#1400756774470025246]]']
+  - name: Slam on swing timer (vanilla /run)
+    text: |
+      #showtooltip Slam
+      /run if false then CastSpellByName"Slam()" end
+      /run if not _a then for i=1,72 do if IsAttackAction(i) then _a=i end end end if not IsCurrentAction(_a)then UseAction(_a)end if (st_timer or 0)>(UnitAttackSpeed"player" or 0)*0.9 then CastSpellByName"Slam()" end
+    purpose: Cast Slam only late enough in the swing that it will not be clipped.
+    sources: ['[[d:code-corner#1447667901816639643]]']
+  - name: Slam conditional (SCRM)
+    text: |
+      /cast [stimer:<10]Slam
+    purpose: Cast if less than 10% of the swing timer has elapsed.
+    sources: ['[[d:code-corner#1447668679612305519]]']
+  - name: Overpower when reactive (SCRM)
+    text: |
+      /cast [reactive]Overpower
+    purpose: Cast Overpower only when the reactive condition is true.
+    sources: ['[[d:code-corner#1445152969485058069]]']
+  - name: Rage-gated Heroic Strike (vanilla /run)
+    text: |
+      /cast Bloodthirst
+      /run if UnitMana("player") >=40 then CastSpellByName("Heroic Strike") end;
+    purpose: Reportedly does not work.
+    sources: ['[[d:code-corner#1436967301973807274]]']
+  - name: Start attack + priority (SCRM)
+    text: |
+      #showtooltip
+      /startattack
+      /cast [combo:>0]Eviscerate
+    purpose: Rogue form; warrior starter form is /startattack + Bloodthirst + Heroic Strike.
+    sources:
+    - '[[d:code-corner#1475173471435886723]]'
+    - '[[d:code-corner#1469354151036063861]]'
+
+  paladin:
+  - name: Judgement + seal priority (SCRM)
+    text: |
+      #showtooltip
+      /startattack
+      /cast [nomybuff] Seal of Righteousness
+      /cast Judgement
+    purpose: Refresh the seal then judge.
+    sources:
+    - '[[d:code-corner#1467987025633480913]]'
+    - '[[d:code-corner#1467985446335283255]]'
+  - name: Libram swap by target HP
+    text: |
+      /script if UnitHealth("target") / UnitHealthMax("target") < 0.35 then UseItemByName("Libram of Final Judgement") end;
+      /script if UnitHealth("target") / UnitHealthMax("target") > 0.35 then UseItemByName("Libram of Radiance") end;
+      /cast Judgement
+    purpose: Swap libram above/below 35% target HP.
+    sources: ['[[d:code-corner#1422679676937175070]]']
+  - name: Holy Strike + auto-refresh Seal of Wisdom (vanilla /run)
+    text: |
+      /cast Holy Strike
+      /run cN=CastSpellByName;if not IsCurrentAction(36)then UseAction(36)end;local b;for i=0,31 do local t=GetPlayerBuffTexture(i)if t and strfind(t,"y_Righte")then b=1 break end end;if b then cN("Holy Strike")else cN("Seal of Wisdom")end
+    purpose: Judgement and Righteousness variants are in the same message.
+    sources: ['[[d:code-corner#1441223342106611753]]']
+
+  druid:
+  - name: Travel / aquatic / mount all-in-one (retail port attempt)
+    text: |
+      /unshift
+      /cast [swimming]Aquatic Form
+      /run if UnitAffectingCombat("player") then CastSpellByName("Travel Form") return end
+      /cast [nocombat] Striped Nightsaber
+      /run UIErrorsFrame:UnregisterEvent"UI_ERROR_MESSAGE" for i = 2, GetNumShapeshiftForms(), 2 do local _, _, active = GetShapeshiftFormInfo(i) if not active then CastShapeshiftForm(i) end if i == 2 then UIErrorsFrame:RegisterEvent"UI_ERROR_MESSAGE" end end
+      /run UIErrorsFrame:Hide()
+    purpose: Author notes he is a first-time macro writer.
+    sources: ['[[d:code-corner#1422739586345603153]]']
+  - name: Retail-style modifier travel macro (does not work in 1.12)
+    text: |
+      #showtooltip Travel Form
+      /use [swimming] Aquatic Form; [indoors] Cat Form; [combat] Travel Form; [nocombat] Riding Turtle; Travel Form
+      /dismount [mounted]
+    purpose: Posted precisely because Roid-Macros lacks these conditions.
+    sources: ['[[d:code-corner#1291498110400467155]]']
+  - name: Boomkin idol-swap priority (Donker's addon)
+    text: |
+      /retarget
+      /startattack
+      /cast [mybuff:"Nature Eclipse"] {WrathSwap}
+      /castsequence [mybuff:"Arcane Eclipse"] Starfire, {StarfireSwap}
+      /cast [mydebuff:"Arcane Solstice",nomydebuff:"Natural Solstice"] {WrathSwap}
+      /cast [mydebuff:"Natural Solstice",nomydebuff:"Arcane Solstice"] {StarfireSwap}
+      /cast [nomydebuff:"Natural Solstice",nomydebuff:"Arcane Solstice"] {WrathSwap}
+    purpose: Requires SuperWoW + Nampower + CleveRoidMacros + VanillaFixes + SuperMacro.
+    sources: ['[[d:code-corner#1359852668146815018]]']
+  - name: '"Lazy cat" rotation with behind/combo/reshift (SCRM)'
+    text: |
+      #showtooltip
+      /startattack
+      /firstaction
+      /cast [nomybuff:"Blood Frenzy"] Tiger's Fury
+      /firstaction
+      /cast [level:>62, nodebuff:"Rip", noimmune:bleed, combo:>=4] Rip; [level:<=62, nodebuff:"Rip", noimmune:bleed, combo:>=1] Rip; [level:>62, combo:=5] Ferocious Bite; [level:<+62, combo:>=3] Ferocious Bite
+      /firstaction
+      /cast [nodebuff:"Rake", noimmune:bleed] Rake; [behind, mybuff:"Clearcasting"] Shred; Claw
+      /firstaction
+      /cast [mypower:<32, druidmana:>=1350] Reshift
+    purpose: Multi-condition feral priority.
+    sources: ['[[d:code-corner#1472281049802473586]]']
+  - name: Faerie Fire on a spammable Claw (SCRM)
+    text: |
+      #showtooltip Claw
+      /startattack
+      /cast [nodebuff:"Faerie Fire (Feral)"/"Faerie Fire"]Faerie Fire (Feral)(Rank 4)
+      /cast [mybuff:Clearcasting] Shred; Claw
+    purpose: Feral Faerie Fire then Claw/Shred.
+    sources: ['[[d:code-corner#1445032775513280675]]']
+
+  rogue:
+  - name: Priority with finisher (SCRM)
+    text: |
+      #showtooltip
+      /startattack
+      /cast [reactive]Surprise Attack
+      /cast [combo:>0]Eviscerate
+      /cast [combo:=0]Sinister Strike
+    purpose: Reactive attack, then finisher at any combo, else builder.
+    sources: ['[[d:code-corner#1475173471435886723]]']
+  - name: Cold Blood only before Eviscerate (SCRM)
+    text: |
+      #showtooltip Noxious Assault
+      /retarget
+      /startattack
+      /cast [myhp:<80] Ghostly Strike
+      /cast [combo:>4 nomybuff] Cold Blood
+      /cast [combo:>4 mybuff:Cold_Blood] Eviscerate
+      /cast [mybuff:"Slice and Dice"<2] Slice and Dice
+      /cast [mybuff:"Envenom"<2] Envenom
+      /cast [cdgcd:"Envenom"<0]Noxious Assault
+    purpose: Cold Blood is cast only when the finisher buff is not already up.
+    sources: ['[[d:code-corner#1475581236536807535]]']
+  - name: Riposte / Backstab / Sinister Strike chain (vanilla)
+    text: |
+      /cast Riposte
+      /cast Backstab
+      /cast Sinister Strike
+    purpose: Fall-through chain.
+    sources: ['[[d:code-corner#1358800287057580256]]']
+  - name: Poison swap on off-hand (SCRM)
+    text: |
+      #showtooltip Noxious Assault
+      /startattack
+      /equipoh [debuff:"Crippling Poison"] Perdition's Blade
+      /equipoh [nodebuff:"Crippling Poison"] Dragonfang Blade
+      /cast Noxious Assault
+    purpose: Swap off-hand based on whether the target already has Crippling Poison.
+    sources: ['[[d:code-corner#1407236335470907453]]']
+
+  priest:
+  - name: Power Word Shield with Weakened Soul guard (SCRM)
+    text: |
+      #showtooltip
+      /stopcasting [@player,nomybuff:"Power Word: Shield",nomydebuff:"Weakened Soul"]
+      /cast [@player,nomybuff:"Power Word: Shield",nomydebuff:"Weakened Soul"] Power Word: Shield
+      /cast Smite
+    purpose: Shield the player only if not already shielded and no Weakened Soul.
+    sources: ['[[d:code-corner#1447120507529859114]]']
+  - name: Searing Light / Holy Fire / SW:P priority (SCRM)
+    text: |
+      #showtooltip
+      /cast [mybuff:"Searing Light"] Smite
+      /cast [nobuff:"Searing Light", mybuff:"Purifying Flames"<2] Holy Fire
+      /cast [@target mydebuff:"Holy Fire"<1] Holy Fire
+      /cast [@target mydebuff:"Shadow Word: Pain"<1] Shadow Word: Pain
+    purpose: Posted while asking for fixes.
+    sources: ['[[d:code-corner#1485314161893445813]]']
+  - name: Mind Flay-safe SW:P (problem report)
+    text: |
+      /cursive curse Shadow Word: Pain|target
+    purpose: >-
+      Without Nampower, casting SW:P interrupts Mind Flay; Cursive's curse command and a
+      nochanneled guard were discussed.
+    sources: ['[[d:code-corner#1350284900585967778]]']
+
+  mage:
+  - name: Conjure + eat/drink one button (SCRM)
+    text: |
+      #showtooltip Conjure Water
+      /use [nomod] Conjured Fresh Water
+      /use [nomod] Conjured Bread
+      /cast [mod:ctrl]Conjure Food;[mod:shift]Conjure Water
+    purpose: Conjure with modifiers, eat/drink otherwise.
+    sources: ['[[d:code-corner#1354467932079394928]]']
+  - name: Conjure + eat/drink by item ID (SCRM)
+    text: |
+      #showtooltip
+      /use [nomod] 2136
+      /use [nomod] 1114
+      /cast [mod:ctrl]Conjure Water;  [mod:alt]Conjure Food
+    purpose: Same author's working item-ID version.
+    sources: ['[[d:code-corner#1354442466325168198]]']
+  - name: Arcane Missiles without clipping the channel (SCRM)
+    text: |
+      #showtooltip
+      /cast [channeltime:<0.5] Arcane Missiles; [noselfcasting] Arcane Missiles
+    purpose: >-
+      Spammable when not casting; the three-condition form is
+      /cast [checkchanneled]Arcane Missiles / /cast [noselfcasting]Arcane Missiles /
+      /cast [channeltime:<0.5]Arcane Missiles. Author notes haste (Arcane Power) can
+      desync the channeltime check.
+    sources:
+    - '[[d:code-corner#1443746386712596510]]'
+    - '[[d:code-corner#1443858361257951294]]'
+    - '[[d:code-corner#1445511239521407147]]'
+    - '[[d:code-corner#1448380302241304597]]'
+  - name: One-button Arcane priority (SCRM)
+    text: |
+      #showtooltip
+      /cast [reactive, nocooldown, nomybuff:"Mind Quickening"/"Arcane Power"] Arcane Surge; [cooldown:"Arcane Rupture"] Arcane Missiles; [@player casting:"Arcane Rupture"] Arcane Missiles; [mydebuff:"Arcane Rupture">=1] Arcane Missiles; Arcane Rupture
+    purpose: Cast priority is top-down, left-to-right.
+    sources:
+    - '[[d:code-corner#1448686517018034327]]'
+    - '[[d:code-corner#1443744472537239755]]'
+  - name: Flamestrike at cursor / quickcast
+    text: |
+      /run CastSpellByName("Flamestrike", "Click")
+    purpose: >-
+      Old implementation used CameraOrSelectOrMoveStart/Stop; Nampower quickcast replaces it.
+    sources:
+    - '[[d:code-corner#1379534710518055195]]'
+    - '[[d:code-corner#1360062989419675832]]'
+
+  hunter:
+  - name: Pet attack on pull (vanilla /run)
+    text: |
+      /run if not GetUnitName("pettarget") then PetAttack() end
+      /cast Serpent Sting
+    purpose: Send the pet at the target only if it has no current target.
+    sources: ['[[d:code-corner#1373031050967519332]]']
+  - name: Multi-Shot + Auto Shot without clipping
+    text: |
+      /cast multi-shot
+      /run if not IsAutoRepeatAction(1) then CastSpellByName("Auto Shot"); end
+    purpose: Ensure Auto Shot is running after the spell; no tooltip/castbar feedback.
+    sources: ['[[d:code-corner#1492552567580921907]]']
+  - name: Feign Death then Freezing Trap (Classic port, asked)
+    text: |
+      #showtooltip Freezing Trap
+      /cast Feign Death
+      /petpassive
+      /cast Freezing Trap
+    purpose: Posted as a question, not confirmed working.
+    sources: ['[[d:code-corner#1319325075329257534]]']
+  - name: Aspect by distance (vanilla /run)
+    text: |
+      /run if UnitExists("target") then if CheckInteractDistance("target", 3) then CastSpellByName("Aspect of the Wolf") else CastSpellByName("Aspect of the Hawk") end else CastSpellByName("Aspect of the Cheetah") end
+    purpose: Choose aspect from target distance.
+    sources: ['[[d:code-corner#1353818020954509426]]']
+  - name: 'Hunter: cast + start auto-shot without clipping (vanilla /run)'
+    text: |
+      /cast Serpent Sting
+      /run if CheckInteractDistance("target", 3) and (not PlayerFrame.inCombat) then AttackTarget() elseif not IsAutoRepeatAction(2) then CastSpellByName("Auto Shot") end
+    purpose: Ensure Auto Shot is running after a spell.
+    sources:
+    - '[[d:code-corner#1356569067242393700]]'
+    - '[[d:code-corner#1348770994134716536]]'
+
+  warlock:
+  - name: Pet Devour Magic on friend/self (asked; not confirmed)
+    text: |
+      #showtooltip Devour Magic(Rank 4)
+      /cast [help] Devour Magic; [target=player] Devour Magic
+    purpose: Felhunter dispel on a friendly target or self.
+    sources: ['[[d:code-corner#1446117200342552649]]']
+  - name: Buff + create stone macro (vanilla /run)
+    text: |
+      /run if not buffed("Demon Armor") then cast("Demon Armor") end
+      /run for b=0,4 do for s=1,GetContainerNumSlots(b,s)do local n=GetContainerItemLink(b,s)if n and (strfind(n,"Healthstone"))then return end end end
+      /cast Create Healthstone (Lesser)()
+      /run if not buffed("Firestone") then for b=0,4 do for s=1,GetContainerNumSlots(b,s)do local n=GetContainerItemLink(b,s)if n and (strfind(n,"Firestone"))then UseContainerItem(b,s,1)end end end end
+      /cast Create Firestone
+      /run for b=0,4 do for s=1,GetContainerNumSlots(b,s)do local n=GetContainerItemLink(b,s)if n and (strfind(n,"Soulstone"))then UseContainerItem(b,s,1)end end end
+      /cast Create Soulstone (Lesser)
+    purpose: Buff, then create/use stones only if missing.
+    sources: ['[[d:code-corner#1461898264134811740]]']
+  - name: Cast-sequence CC helper (SCRM)
+    text: |
+      #showtooltip
+      /cast [mod:shift] Fear
+      /castsequence [nomod] reset=target/combat Curse of Agony, Fear, Shadow Bolt
+    purpose: Shift casts Fear; otherwise a reset-on-target/combat sequence.
+    sources: ['[[d:code-corner#1468674458548961292]]']
+  - name: Curse if target lacks it (SCRM)
+    text: |
+      /cast [debuff:"Serpent Sting"]Arcane Shot;Serpent Sting
+    purpose: >-
+      Hunter example demonstrating the limitation that SCRM debuff checks do not
+      distinguish your debuff from someone else's; Warlock equivalent uses
+      [nodebuff:"Curse of Agony"].
+    sources: ['[[d:code-corner#1448856701934637159]]']
+  - name: Create Soulstone spelling quirk
+    text: |
+      /cast Create Soulstone (Minor)()
+    purpose: >-
+      /cast Create Soulstone (Minor) fails; the extra () works but breaks #showtooltip.
+    sources: ['[[d:code-corner#1485233323084091492]]']
+
+  shaman:
+  - name: Totem priority one button (SCRM)
+    text: |
+      #showtooltip
+      /cast [nocooldown] Totemic Recall; [nocooldown] Windfury totem; [nocooldown] searing totem
+    purpose: Case matters in spell names.
+    sources:
+    - '[[d:code-corner#1447997557451264224]]'
+    - '[[d:code-corner#1447993794514391160]]'
+  - name: Fire totem / Lightning Shield conditionals
+    text: |
+      /cast [mybuff:"Lightning Shield"] Lightning Strike;
+      /cast [nomybuff:"Lightning Shield"] Lightning Shield
+    purpose: Refresh Lightning Shield when missing, else Lightning Strike.
+    sources: ['[[d:code-corner#1437864791648501811]]']
+  - name: Totemic Slam vs Lightning Strike
+    text: |
+      #showtooltip Lightning Strike
+      /cast [ready:Totemic Slam] Totemic Slam; Lightning Strike
+    purpose: Use Totemic Slam when ready.
+    sources: ['[[d:code-corner#1476294357312209017]]']
+
+reference_idioms:
+- idiom: Read your auto-attack action slot
+  text: |
+    /run for i=1,172 do if IsAttackAction(i) then DEFAULT_CHAT_FRAME:AddMessage(i)break end end
+  sources: ['[[d:code-corner#1439947328239698053]]']
+- idiom: Range test before Nampower IsSpellInRange
+  text: |
+    CheckInteractDistance("unit", n)
+  purpose: 'n=1..5; 3 is roughly melee/auto-shot range, 4 is roughly ~27 yd dispel range.'
+  sources:
+  - '[[d:code-corner#1228671058085806140]]'
+  - '[[d:code-corner#1228664837823791125]]'
+- idiom: Chain two instant casts
+  text: |
+    /run SpellStopCasting()
+  purpose: '\"/stopcasting\" is an addon command; chaining instants triggers \"Another action is in progress\" because of the GCD.'
+  sources: ['[[d:code-corner#1330573104052830292]]']
+- idiom: GetSpellCooldown CTD warning
+  text: |
+    GetSpellCooldown
+  purpose: Calling GetSpellCooldown with a nil id while Nampower is loaded can cause a CTD.
+  sources: ['[[d:code-corner#1469074192241524982]]']

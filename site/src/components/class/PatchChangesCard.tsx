@@ -1,11 +1,31 @@
 import { useState } from 'react';
 import type { ClassEntry } from '../../types';
+import { Markdown } from '../Markdown';
 import { patchItems, patchSource } from './data';
 
 const VISIBLE = 6;
 
 /** Staff-sourced 1.18.1 changes for the whole class, one line per item. */
 export function PatchChangesCard({ entry }: { entry: ClassEntry }) {
+  if (entry.guidePath && entry.patchChanges) return <GuidePatchChanges entry={entry} />;
+  return <StaffPatchChanges entry={entry} />;
+}
+
+/**
+ * A guide index's "What changed in 1.18.1" section: player-facing prose with
+ * its own citations (staff and Discord), so it is rendered as written rather
+ * than split into staff-labelled lines.
+ */
+function GuidePatchChanges({ entry }: { entry: ClassEntry }) {
+  return (
+    <section className="card flex flex-col gap-3 p-5">
+      <h2 className="text-base font-bold">What 1.18.1 changed for {entry.name}s</h2>
+      <Markdown source={entry.patchChanges ?? ''} />
+    </section>
+  );
+}
+
+function StaffPatchChanges({ entry }: { entry: ClassEntry }) {
   const items = patchItems(entry.patchChanges);
   const [showAll, setShowAll] = useState(false);
   const shown = showAll ? items : items.slice(0, VISIBLE);

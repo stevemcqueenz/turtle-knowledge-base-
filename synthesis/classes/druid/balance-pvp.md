@@ -43,6 +43,16 @@ Two named PvP variants, both pre-1.18.1 (talent tree structurally unchanged by 1
 - Itemizing for maximum spell power/damage instead of Stamina and attrition-survival stats.
 - Committing to the 30-0-21 build's PvE-flavored capstones as if they were reliable in open-field PvP.
 
+## Discord additions (2025-2026)
+
+- **The PvP build link decodes**: Mikodo's `BG...` link is a **30/0/21** with Nature's Swiftness instead of BoAT/Eclipse (full list in `balance-pvp.yaml`) — "PvP has rarely time to stop and hardcast" [[d:druid#1425436220485533788]] [[d:druid#1433561904009183338]]. A **33/0/18** deep-Balance PvE spec is rejected for PvP because the skipped points are exactly the range/Nature's Grasp/knockback/Owlkin Frenzy tools PvP needs — "PVP loves spikey damage not DOT damage" [[d:druid#1390604344830853162]] [[d:druid#1390616149762379827]].
+- **Dispel is the hard counter to the whole spec**: with no dispel protection, a Priest strips every Balance DoT in one GCD, deleting the crit pressure the spec relies on; the community has repeatedly asked for 15–20% dispel protection without a staff commitment [[d:druid#1492151406159859824]] [[d:druid#1487866288763179088]] [[d:druid#1296951349094780983]].
+- **Moonkin can be Sapped** — Moonkin Form is not an animal form, so a Rogue can open on it (a player question with no authoritative answer) [[d:druid#1427685365220769933]].
+- **Stamina-first, leather where possible**: "avoid cloth pieces"; mp5/mana regen is wasted because PvP fights are short and bursty; glass-cannon spellpower is explicitly rejected [[d:druid#1307688609767227474]]. This corroborates the forum's single-source claim.
+- **Post-1.18.1 Starfire is contested**: one player says the patch made Starfire "WAY more worth it in pvp" (previously only Wrath spam), another calls the ~3.0 s base cast (worse under Barkskin) unusable and "incredibly garbage" because nobody stands still, a third calls 3 s "absurd long" [[d:druid#1484972121343004833]] [[d:druid#1493695899954839552]] [[d:druid#1485036908596957374]]. **Barkskin's cast-time/pushback penalty** is a named boomkin PvP grievance [[d:druid#1489734670512951386]] [[d:druid#1487866288763179088]].
+- **Racials**: Tauren is the PvP-minmax race; War Stomp → Entangling Roots → Travel Form is the named play [[d:druid#1482116247696183336]].
+- **Still no post-1.18.1 PvP-specific re-test** of the Eclipse/BoAT rework (gap).
+
 ## Sources
 
 | Post | Author (authority) | Date | Era | Agreement |
@@ -54,4 +64,5 @@ Two named PvP variants, both pre-1.18.1 (talent tree structurally unchanged by 1
 | [p172460](https://forum.turtlecraft.gg/viewtopic.php?p=172460#p172460) | Froghijab420 (player) | 2026-03-25 | post-1.18.1 | single source — post-1.18.1 build confirmation |
 | [p95354](https://forum.turtlecraft.gg/viewtopic.php?p=95354#p95354) | Templar85 (player) | 2024-05-21 | pre-1.18.1 | single source — numeric tier estimate |
 | [p36461](https://forum.turtlecraft.gg/viewtopic.php?p=36461#p36461) | Jammyxx (player) | 2023-03-01 | pre-1.18.1 | single source — race/racial tactic |
+| `#druid` Discord — NS build, dispel weakness, stamina itemisation, Starfire dispute | Mikodo, Kangaraxxus, Hotverdomme-Nord, Valarya, Golgotha | 2024-2026 | pre-1.18.1 / 1.18.1-announced-pre-release / post-1.18.1 | consensus on dispel weakness, contested on Starfire PvP value |
 | `synthesis/1.18.1-master-changelog.md` §Druid | — (compiled from staff posts) | — | — | official changelog compilation (no PvP-specific Balance change in 1.18.1 beyond the general Eclipse/BoAT rework covered in `balance-ranged-dps.md`; class-dependent PvP Dampening also shipped in 1.18.1, see `feral-pvp.md`) |

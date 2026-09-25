@@ -1,6 +1,7 @@
 import { readableColor } from '../../lib/theme';
 import { useThemeValue } from '../../lib/theme-context';
 import { describeValue } from './util';
+import { CitedText } from '../CitedText';
 
 /** The mistakes the sources call out, each behind an amber dash. */
 export function DontList({ mistakes }: { mistakes: unknown[] }) {
@@ -14,7 +15,9 @@ export function DontList({ mistakes }: { mistakes: unknown[] }) {
           <span className="shrink-0 font-bold" style={{ color: amber }} aria-hidden="true">
             —
           </span>
-          <span className="min-w-0">{describeValue(m)}</span>
+          <span className="min-w-0">
+            <CitedText text={describeValue(m)} />
+          </span>
         </li>
       ))}
     </ul>

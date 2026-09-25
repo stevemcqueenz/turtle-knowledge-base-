@@ -37,7 +37,7 @@ npm run smoke -- --fixtures
 node scripts/check-data.mjs --fixtures
 ```
 
-`npm run check` is offline and needs no browser: `scripts/check-data.mjs` validates `src/data/*.json` against the contract in `PLAN.md` §2 (shapes, enums, section keys, cross-references, and `meta.counts` against the real counts) and exits non-zero on any violation. `npm run smoke` builds an SSR bundle and renders home, matrix, about, every class, leveling, gear and playbook page plus an unknown route, asserting that each produces content.
+`npm run check` is offline and needs no browser: `scripts/check-data.mjs` validates `src/data/*.json` against the contract in `PLAN.md` §2 (shapes, enums, section keys, cross-references, and `meta.counts` against the real counts) and exits non-zero on any violation. `npm run smoke` builds an SSR bundle and renders home, matrix, about, every class, leveling, gear, playbook and guide page, the dungeon and raid index and every instance page, plus unknown routes, asserting that each produces content (instance pages: every section anchor, no raw `[[d:`, no `.md` hrefs; the index links every page). `scripts/test_data.py` and `check-data.mjs` also check `instances.json`: pages match `guide/instances/*.md`, every index link resolves, no raw citations or dangling relative `.md` links, and no class guide links to an instance page on GitHub.
 
 ## Hosting
 
@@ -50,13 +50,44 @@ node scripts/check-data.mjs --fixtures
 `src/data/*.json` is generated from the repository and committed, so the site builds without Python:
 
 ```sh
-cd site
-python3 scripts/build-data.py     # rewrites src/data/{classes,matrix,glossary,meta}.json
-python3 scripts/test_data.py      # the generator's own count/shape assertions
-npm run check                     # re-validates the contract from the app side
+python3 site/scripts/build-data.py   # rewrites site/src/data/{classes,matrix,glossary,meta,instances}.json
+python3 site/scripts/test_data.py    # the generator's own count/shape assertions
+cd site && npm run check             # re-validates the contract from the app side
 ```
 
-Sources: `synthesis/classes/**` (Markdown playbooks, class READMEs, leveling guides), `structured/classes/**` (per-spec YAML and the spec-role matrix), `structured/glossary.jsonl`. The generator strips the H1, keeps H3 content inside its H2 section, and never rewrites prose.
+Sources: `guide/classes/<class>/*.md` (the player-facing class guides), `guide/instances/*.md` (dungeon and raid pages), `synthesis/classes/**` (Markdown playbooks, class READMEs, leveling guides, gear), `structured/classes/**` (per-spec YAML and the spec-role matrix), `structured/discord/evidence-<channel>.jsonl` (the verbatim Discord messages behind citations), `structured/glossary.jsonl`. The generator strips the H1, keeps H3 content inside its H2 section, and never rewrites prose.
+
+### Guide pages
+
+A class that has `guide/classes/<class>/index.md` is built from its guide; every other class falls back to `synthesis/classes/<class>/`, so the site builds at every stage of the guide work:
+
+| Site data | Guide source | Fallback |
+|---|---|---|
+| class summary / overview / sections | `index.md` (opening, then its H2 sections; a "Pages" section is dropped) | synthesis `README.md` |
+| "What 1.18.1 changed" panel | the `index.md` H2 with "1.18.1" and "changed" | README section with "1.18.1" |
+| Gaps panel | an `index.md` H2 with "gap", else the `sources.md` "Gaps" section | README "Gaps" |
+| each playbook `<spec>-<role>` | the page named by `structured/classes/<class>/<spec>-<role>.yaml` → `guide:` (PvP playbooks share `pvp.md`) | `synthesis/classes/<class>/<spec>-<role>.md` |
+| leveling | `leveling.md` (talent-order tables parsed as before) | synthesis `leveling.md` |
+| Sources page `#/class/<slug>/sources` | `sources.md` | — |
+| extra pages `#/class/<slug>/guide/<page>` | any other page no YAML points at (e.g. `warlock-tank.md`) | — |
+
+Guide headings are slotted with their own keyword list (`GUIDE_SECTION_KEYWORDS` in `build-data.py`: "Talent build"/"Builds" → talents, "Stat priority and caps" → stats, "Single-target rotation"/"Burst and control sequences" → single target, "AoE …" → AoE, "Enchants" and "Consumables" → their own `enchants` / `consumables` slots, "Raid notes"/"Matchups"/"Role duties" → role strategy, "Common mistakes" → mistakes); the opening before the first H2 becomes `overview`. Everything else lands in `extraSections` ("More from this guide"), so nothing is dropped. Relative links between guide pages become site routes; links to files that exist elsewhere in the repository go to GitHub; links to pages not in the repository yet keep only their text.
+
+Discord citations `[[d:<channel>#<id>]]` (in guide pages, synthesis Markdown and YAML) become chips showing `author · date`, with the first 300 characters of the message as the hover title, linking to `https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-<channel>.jsonl#L<line>`. An id that is not in the evidence file renders as a neutral dashed `#channel` chip and is counted in the build output. `talents.turtlecraft.gg` is offline: its codes stay code, never links.
+
+### Dungeon and raid pages
+
+`guide/instances/index.md` and the pages it links become `src/data/instances.json`: `{title, intro, sourceFile, groups, pages}`. `groups` are the index's H2 sections (Dungeons, Raids) as Markdown plus the page slugs each links to; each page is `{slug, title, kind: "dungeon"|"raid"|null, group (the index H3 it is listed under), intro, sections, sourceFile}`, with section ids made unique per page. Kind and group come from where the index links the page. Citations and links go through the same transform as the class guides: `[[d:…]]` become chips, links between instance pages, from instance pages to class pages and from class pages (`../../instances/<slug>.md`) to instances become site routes. `meta.json` gains `instanceCounts` and `unwrappedLinks` (relative links whose target is missing, kept as text). The file is optional: without `guide/instances/index.md` it is not written and the app shows no instance pages (the fixtures have none).
+
+During development, before the guide pages are copied into this checkout, point the generator at another checkout:
+
+```sh
+python3 site/scripts/build-data.py \
+  --guide-dir ../kb/guide --structured-dir ../kb/structured
+# or: TKB_GUIDE_DIR=../kb/guide TKB_STRUCTURED_DIR=../kb/structured python3 site/scripts/build-data.py
+```
+
+`--structured-dir` overrides only `structured/classes/**` and `structured/discord/**`, file by file (anything it lacks, e.g. `gear.yaml`, comes from this repository). Rerun the plain command once `guide/` and the final evidence files are committed: the evidence line numbers in the chip links must match the committed files. YAML with unresolved merge-conflict markers stops the build with a message naming the file.
 
 ### Fixtures
 
@@ -87,7 +118,8 @@ site/
                              CitationChip, SearchDialog, GlossaryPanel, MatrixGrid,
                              TalentPoints, CooldownList, MistakeList, GearTable, …
   src/pages/                 Home, ClassPage, PlaybookPage, LevelingPage,
-                             GearPage, MatrixPage, AboutPage, NotFound
+                             GearPage, GuideDocPage, InstancesPage, InstancePage,
+                             MatrixPage, AboutPage, NotFound
 ```
 
 ## Routes
@@ -99,13 +131,17 @@ site/
 | `#/class/<slug>/<spec>-<role>` | full playbook with structured widgets and citations |
 | `#/class/<slug>/leveling` | leveling guide: spec verdicts, talent-order timeline, what to press, stats, route, hardcore |
 | `#/class/<slug>/gear` | gear by spec and bracket (only when gear data exists) |
+| `#/class/<slug>/sources` | the class guide's sources page (guide classes only) |
+| `#/class/<slug>/guide/<page>` | a guide page no spec playbook claims (e.g. warlock tanking) |
+| `#/instances` | Dungeons & Raids: the instance index, one card per group (Dungeons, Raids) with its tables |
+| `#/instances/<slug>` | one dungeon or raid page, with sticky section tabs and previous/next within its kind |
 | `#/matrix` | full spec × role matrix (one card per class on a phone), coverage and matrix documents in collapsibles |
 | `#/about` | data provenance, source tiers, counts, timeline |
 
 ## Conventions
 
 - Dark theme by default, light toggle persisted in `localStorage`; class and status colors are darkened or lightened per theme so text keeps a 4.5:1 contrast ratio.
-- Responsive to 360 px — below `sm` the header collapses Matrix, About, Glossary and the theme toggle into a "More" menu so it stays one row. Keyboard accessible (skip link, roving tab strips, focus-trapped dialogs, visible focus), `prefers-reduced-motion` respected.
-- Markdown is rendered with `marked` and sanitized with DOMPurify; inline `[author (tier), date](url)` links become citation chips that keep their link.
+- Responsive to 360 px — below `sm` the header collapses Dungeons & Raids, Matrix, About, Glossary and the theme toggle into a "More" menu so it stays one row. Keyboard accessible (skip link, roving tab strips, focus-trapped dialogs, visible focus), `prefers-reduced-motion` respected.
+- Markdown is rendered with `marked` and sanitized with DOMPurify; inline `[author (tier), date](url)` links become citation chips that keep their link, and the Discord chips emitted by `build-data.py` (`<a class="cite cite-discord">`) pass the sanitizer unchanged. YAML text shown in widgets renders its `[[d:…]]` citations through `CitedText` using each class's `citations` map.
 - Archive jargon (the Class Changes passes, the era labels, standing / contested / player claim, opaque build links) gets a glossary tooltip on its first mention in a guide's block prose, opened by click, tap or keyboard focus. The rules live in `src/lib/glossary-inline.ts`; the wording comes from `structured/glossary.jsonl` like the rest of the prose.
 - YAML from `structured/classes/**` is passed through as-is; unknown shapes fall back to a compact key/value list rather than being dropped.

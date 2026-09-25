@@ -1,5 +1,6 @@
 import { readableColor } from '../lib/theme';
 import { useThemeValue } from '../lib/theme-context';
+import { withoutCitations } from '../lib/citations';
 
 interface BadgeProps {
   label: string;
@@ -19,7 +20,8 @@ export function Badge({ label, color, title, variant = 'solid', className = '' }
   return (
     <span
       className={`chip hairline ${className}`}
-      title={title}
+      // tooltips are plain text: the Discord citation tokens are left out
+      title={title ? withoutCitations(title) : title}
       style={
         variant === 'solid'
           ? {

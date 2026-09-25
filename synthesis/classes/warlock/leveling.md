@@ -62,7 +62,7 @@ Source: [Nuninho32/chappelles, 2026-01-28](https://forum.turtlecraft.gg/viewtopi
 - **Curse of Weakness**: reworked to a single rank, −15% attack speed instead of a flat damage reduction — same source; do not waste gold on multiple ranks (only one exists).
 - **Searing Pain**: lost its threat-generation penalty in CC2 ("compensated by the new Wrathstone") and later (1.18.1) had its cast time raised to 2.0 s / 57% SP scaling / +20% base damage (see `synthesis/1.18.1-master-changelog.md` and `destruction-fire-ranged-dps.md`); no leveling source names it as a core leveling spell — used mainly by Fire/Destruction-leaning levelers.
 - **Wand**: "up to lvl 40, your best damaging spell is wand. You don't need to spend mana on shadowbolts if your wand has better DPS and don't suffer pushback from mobs." — [Xudo (player), 2024-10-09](https://forum.turtlecraft.gg/viewtopic.php?p=102809#p102809). Train and upgrade it; the affliction leveling guide explicitly slots "wand" into the kill sequence for essential-spell newcomers — [funeh (player), 2025-02-03](https://forum.turtlecraft.gg/viewtopic.php?p=118779#p118779).
-- **Shadow Bolt**: skippable while leveling Affliction per Eversongwoods above ("I wouldnt bother with nightfall or ever cast a shadowbolt while leveling, could save some gold and not train it"), but used as a Nightfall-proc filler in the primary 1.18.1-announced build and by at least one player at 32 ("I usually start my rotation with agony, immolation, corruption, wand, sometimes shadowbolt" — [Snipesta (player), 2025-02-07](https://forum.turtlecraft.gg/viewtopic.php?p=119257#p119257)). **Contested** whether to train it early.
+- **Shadow Bolt**: skippable while leveling Affliction per Eversongwoods above ("I wouldnt bother with nightfall or ever cast a shadowbolt while leveling, could save some gold and not train it"), but used as a Nightfall-proc filler in the primary 1.18.1-announced-pre-release build and by at least one player at 32 ("I usually start my rotation with agony, immolation, corruption, wand, sometimes shadowbolt" — [Snipesta (player), 2025-02-07](https://forum.turtlecraft.gg/viewtopic.php?p=119257#p119257)). **Contested** whether to train it early.
 - **Drain Soul rank choice**: "I've just been using rank 1 DS because of the mana difference compared to rank 2 ... I also have warmode enabled so, when im versing the opposite faction I always use rank 2 because it does a shitload of damage." — [Snipesta (player), 2025-02-07](https://forum.turtlecraft.gg/viewtopic.php?p=119257#p119257) — rank-down for mana efficiency in pure PvE, keep the top rank trained for PvP/warmode.
 - **Voidwalker abilities**: "The most important vw ability is torment, make sure to get the new books when available and have it right-clicked so he auto uses it." — [Eversongwoods (player), 2025-02-03](https://forum.turtlecraft.gg/viewtopic.php?p=118780#p118780). Voidwalker threat scaling is stepped: "the voidwalker threat ability upgrades every ten levels (10, 20, etc) so it might be decent at holding threat when it gets a new rank and terrible at levels 17-19, 27-29, etc" — [chappelles/Nuninho32, 2026-01-28](https://forum.turtlecraft.gg/viewtopic.php?p=166748#p166748) (compared to Hunter pet Growl by the same author). No source gives a full Voidwalker/Imp/Succubus ability list with levels — **gap**.
 
@@ -115,6 +115,51 @@ No Warlock-forum source gives a zone-by-zone leveling route, a dungeon-per-brack
 - Profession pairing for Hardcore: Alchemy over Engineering or Tailoring/Enchanting, argued from survivability and solo self-sufficiency — see Professions section above (Gladeshadow/Shamma, `t4856`, Hardcore Lounge forum). Engineering is dismissed for Warlock specifically because "Engineering bombs would take time away from casting ... Target dummies are ok, but warlocks already have pets to help manage agro as needed" — [Gladeshadow (player), 2022-11-15](https://forum.turtlecraft.gg/viewtopic.php?p=29282#p29282).
 - Demonic Sacrifice's self-heal loop (Browntown22, above) is framed for general safety/tankiness while leveling, not Hardcore explicitly, but its "being pretty much immortal" framing (his words) makes it a plausible Hardcore pick — not confirmed by any Hardcore-specific post; treat as **inference, not sourced for Hardcore**.
 - No source discusses Hardcore-specific Warlock risks (e.g., demon control loss, Ritual of Doom's revision history, Enslave Demon resist chains) or names avoid-lists for Hardcore Warlocks. **Gap.**
+
+## Discord findings (2025–2026) — leveling per bracket
+
+The archived `#warlock` Discord closes several of the gaps this file lists (route, per-bracket play, per-bracket build codes, profession consensus). Era tags: pre-1.18.1 (<2025-10-03), 1.18.1-announced-pre-release (2025-10-03 .. 2026-03-19), post-1.18.1 (≥2026-03-20).
+
+### Spec choice (consensus)
+
+“You can run any spec here while leveling and do fine. Demo is the safest but not the fastest. Affliction is prob the fastest… Destro is the way if you are just dungeon bashing your way through.” — Summonjutsu [[d:warlock#1464038483671912530]]; “All specs are viable here” [[d:warlock#1488950152789233904]]; “you could level talentless if you wanted” [[d:warlock#1490107431429210183]].
+
+### Per-bracket play (was a gap)
+
+| Bracket | Play and grind advice |
+|---|---|
+| 1–10 | Imp from the level-1 class quest; buy the best wand (no spells compare early) [[d:warlock#1114842876820590613]], [[d:warlock#1404885885564092487]]; Voidwalker quest ~8–10 [[d:warlock#1399133734053216417]]. |
+| 10–19 | Voidwalker tanks; Corruption + Curse of Agony then wand — “don't immediately open with immolate… keep your wand upgraded” [[d:warlock#902303194112217158]]; first 7 talents Imp. Corruption + Imp. Life Tap [[d:warlock#1139910345176129576]]. |
+| 20–29 | Succubus at 20 [[d:warlock#1367169475941498922]]; **drain tanking is not online** — “25 is too early for drain tanking… You need the rank of drain life that comes in the late 30's” [[d:warlock#1410017237124780195]]. |
+| 30–39 | **Shadoweave tailoring set** is the power spike (buy from AH if not a tailor) [[d:warlock#1371345124067639296]], [[d:warlock#1302082714135953448]]; “buy + shadow damage gear at 30+ and skip immolate” [[d:warlock#1419778210949890108]]; big Drain Life rank at 38 [[d:warlock#1078628023617716234]]; Scarlet Monastery for gear [[d:warlock#1373989374672244838]]. |
+| 40–49 | Voidwalker loses aggro to Shadoweave spell power; “you become the tank — dots + Drain Life + Life Tap” [[d:warlock#1080893294822817872]], [[d:warlock#1490117148272496680]]; Shadoweave lasts to 60 [[d:warlock#1097948220895793212]]. |
+| 50–60 | Infernal quest at 50 [[d:warlock#1485033334907076718]]; Doomguard + Soulwell at 60 [[d:warlock#1367169475941498922]]; dot 3–4 mobs and kite with Curse of Exhaustion [[d:warlock#1464039321358176387]]; Dire Maul East lashers is the classic end farm [[d:warlock#1464610780526673920]]. |
+
+### Per-bracket build codes (ordered builds — the forum called these a gap)
+
+- **Post-1.18.1 Affliction route** (Crash.Rush): `BoASY--` at 22 (Suppression 1, Imp. Corruption 5, Imp. Life Tap 2, Imp. Drains 2, Imp. Curse of Agony 3 = 13 pts); `BoASaAQDRB--` at 33 (+ Fel Concentration 2, Grim Reach 2, Soul Siphon 3, Rapid Deterioration 2, Siphon Life 1, Malediction 1 = 24 pts) [[d:warlock#1487115677218115665]]. “lvl 33 when I get siphon life stopped to use immolate.”
+- **Post-1.18.1 Demonology order** (sailorVEVO): Demonic Embrace 5 → Fel Intellect 3 → Soul Funnel 1 → Imp. Corruption 5 → Imp. Drains 2 → Imp. Life Tap 2 (or Suppression 3, always 1 in Suppression) → Fel Concentration 2 → Soul Funnel 2 → Fel Domination 1 → Fel Stamina 4 → Nether Studies 3 → Master Summoner 2 → Power Overwhelming 1 → Unholy Power 3 (or Demonic Precision 3) → Fel Stamina 5 → Master Demonologist 5 → Soul Link 1 → Unleashed Potential 3 → Imp. Curse of Agony 3 + a pick of Soul Siphon/Nightfall/Imp. Life Tap [[d:warlock#1482503137041584229]].
+- **Classic drain-tank progression** (Buddy Rabbit, pre-CC2): codes `N0C` (10) → `N0C58C` (20) → `Z0E58D0V` (31) → `Z0E58D0V-CU-O` (42) → `Z0E58D0V-CU-UU21` (51). **Superseded** — the 2023 tree names (Dark Pact, Amplify Curse, Improved Voidwalker, Master Conjurer) no longer exist on 1.18.1 [[d:warlock#1265023859556483113]].
+- **First points are always Affliction** (consensus): 5–7 into Imp. Corruption + Imp. Life Tap [[d:warlock#1305221420577460235]], [[d:warlock#1139910345176129576]], [[d:warlock#1131500204479217745]].
+
+### Stats, professions, Hardcore
+
+- **Leveling stats**: Int/Stam (“of the Eagle”) + shadow spell damage — “our mana comes from our green bar so we need a chunky green bar… It also directly buffs the Demons stats if you go Demonology” [[d:warlock#1464038483671912530]]; “of shadow wrath” greens are the cheap damage stat [[d:warlock#1374509047750983812]].
+- **Professions (the forum file's partial gap)**: Engineering is the raid/perf prof, Tailoring the class-fit (Shadoweave + Bloodvine 2% crit), Alchemy+Herb the money pair, Tailoring+Enchanting the first-character pair [[d:warlock#928808982846517248]], [[d:warlock#1055966043614490715]], [[d:warlock#1104592642152607764]], [[d:warlock#1055939038542041098]].
+- **Hardcore**: Demo is the safe pick [[d:warlock#1379671059929759906]]; Affliction drain-tanking is reported strong — “I've been leveling as Affliction on Hardcore… level 45… just cruising” [[d:warlock#1447865234243977277]]; a **rank-1 Curse of Recklessness (35 mana)** is the cheap anti-run tool [[d:warlock#1379716876761825330]], [[d:warlock#1447865234243977277]].
+
+### Supersession and gaps still open
+
+- The pre-CC2 “drain tank + Dark Pact” order is superseded by the 1.18.1 routes above [[d:warlock#1265023859556483113]].
+- Still open: **no zone-by-zone route**, **no leveling item list**, **no explicit HP/mana thresholds**, and **respec timing** remains unsourced (unchanged gaps). Note also that Discord says the level-1 VW/Felhunter quests give free soul-shard bags [[d:warlock#1137327953139748934]].
+
+| Discord claim | Sources | Agreement | Era |
+|---|---|---|---|
+| Demo safest / Affliction fastest / Destro dungeon | Summonjutsu, channel | consensus | mixed |
+| Per-bracket play + build codes | Crash.Rush, sailorVEVO | single source each | post-1.18.1 / 1.18.1-announced-pre-release |
+| First 5–7 points Affliction | three players | consensus | mixed |
+| Rank-1 CoR anti-run for HC | Vladizlav | consensus | mixed |
+| Professions quartet | multiple | consensus | mixed |
 
 ## Sources
 

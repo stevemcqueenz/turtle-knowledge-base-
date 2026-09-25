@@ -73,6 +73,49 @@ Sources: Tbcb (Blood Ring), Twospooky, Trinaxyo, Delalama (vs Paladin), Springbo
 - Spamming Curse of Exhaustion after 1.18.1 without watching mana (190 per cast; daleking0518's post-release complaint).
 - Fighting Undead with Fear/Seduce as your only plan; assuming Spell Lock silences.
 
+## Discord findings (2025–2026)
+
+### Decoded PvP builds (the forum file had none)
+
+| Build | Split | Code | Source | Agreement |
+|---|---|---|---|---|
+| Affliction deep PvP | 35/5/11 | `AoDCaISDRRFAB-Ao-FAFAB` | Summonjutsu [[d:warlock#1436492032876085399]] | single source |
+| Affliction + Shadowburn | 35/5/11 | `CoDISISDRRFAB-Ao-FQAYB` | Deaddlnside [[d:warlock#1476314060005048532]] | single source |
+| SM/Ruin PvP | 30/0/21 | `AoDQaISARRE--FAFQBoCAAI` | Summonjutsu [[d:warlock#1450365899885248552]] | single source |
+| Conflag/NF post-CC3 | 19/0/32 | `DoDQCAS--FAFARoSAFIAYB` | Suade [[d:warlock#1406658417032167464]] | single source |
+| SL Succubus | 5/34/12 | `Ao-AoQYBoCDBYFYB-FAV` | Aulbath [[d:warlock#1409163562169139322]] | single source |
+
+### Post-1.18.1 meta — the forum's “no re-ranking” is corrected
+
+- **Player tier list: Affliction S / Fire A / Demo B** [[d:warlock#1491191968494256168]] and “the only good pvp spec is affliction” [[d:warlock#1489224572174602251]] — both **single-source player opinion, not staff**.
+- Destro post-1.18.1 is called a **“wheelchair spec”**: no CoE on the build, everything hard-cast, and by the time Immolate lands the warrior is in charge range [[d:warlock#1487499992615882772]].
+- The class-wide weakness everyone agrees on: low mobility, no instant Howl for Affliction, 2-min Death Coil as the only peel, and fear/seduce negated by WotF/Fear Ward/Tremor/dispels [[d:warlock#1399432909311574158]], [[d:pvp-general#1278958230449426478]].
+
+### Trinkets, stones, consumables, races
+
+- **Spellstone** (on-use magic dispel + absorb, level × 12) shares the Healthstone cooldown and is the preferred PvP stone for many — “giga strong against sp, warlocks and mages” [[d:warlock#1209940014520336435]].
+- **Top trinkets**: Zandalarian Hero Charm / Restrained Essence of Sapphiron, Tidal Charm, Neltharion's Tear, Reflectors [[d:warlock#1062445024341655644]], [[d:warlock#1312397951850512457]], [[d:warlock#1329378303659737193]].
+- **Consumables**: Free Action Potion, LIP (denies warrior rage), flasks, protection potions, bandages; **engineering** (grenades, sappers, reflectors, rocket boots/helmet, target dummy) [[d:warlock#1411574992134738042]], [[d:warlock#1394677049758584832]], [[d:warlock#1285479733110509580]], [[d:warlock#1419960348370534450]].
+- **Dynamic per-spec PvP dampening** (1.18.1): players report ~20% reduction and Affliction DoTs hitting ~50/tick — **contested** (“not much changed”) and the per-spec values are not published [[d:warlock#1432864279626911900]], [[d:warlock#1490165945266606280]], [[d:warlock#1491186428787560668]].
+- **Race (post-1.18.1)**: Undead > Orc/Troll after Hardiness was nerfed [[d:warlock#1488436339962548264]], [[d:warlock#1491111022877216972]], [[d:warlock#1488865404519583745]] (consensus).
+
+### Match-ups (cross-read with `#pvp-general`)
+
+| Opponent | Verdict | Sources | Agreement |
+|---|---|---|---|
+| Warrior | favoured — VW Sacrifice denies rage; CoE before Charge then Coil | [[d:warlock#1331017705658122240]], [[d:pvp-general#1351160314342936608]] | consensus (contested after CC3 CoE cut) |
+| Rogue | hard/losing — trinket + Coil + kite; pet choice decides | [[d:pvp-general#1358235113535574017]], [[d:warlock#1312397951850512457]] | consensus |
+| Paladin | Felhunter Devour Magic eats HoJ then Spell Lock; contested (silence bug ~1 s) | [[d:warlock#1140091225660198972]], [[d:warlock#1392300020958625803]] | contested |
+| Hunter | favoured except BM (kill the pet first) | [[d:warlock#1331017705658122240]], [[d:warlock#1418322782692966520]] | contested |
+| Priest | Spell Lock + CoT / Seduce + CoT; Spellstone removes silences | [[d:pvp-general#1382720814482329600]], [[d:warlock#1209940014520336435]] | consensus |
+| Shaman | wins on paper; grouped shaman hard-counter fear/seduce | [[d:pvp-general#1138134954014933022]], [[d:warlock#1299347161649250408]] | contested |
+| Druid | favoured; Paranoia counters stealth | [[d:pvp-general#1134586904780746795]], [[d:warlock#1385903296031752212]] | consensus |
+| Mage | mage-favoured vs Affliction; Destro closer | [[d:pvp-general#1430022003674447904]] | single source |
+| Mirror | Felhunter; decided by Seduce/Coil and pet survival | [[d:warlock#1348439442708496435]], [[d:pvp-general#1113087406359449671]] | single source |
+| Melee cleave | default loss when trained; SL + VW Sac + Coil is the peel | [[d:pvp-general#1278958230449426478]], [[d:warlock#1399432909311574158]] | consensus |
+
+A `#pvp-general` counter matrix rates Warlock “> almost everything” in vanilla 1v1, while the most recent Turtle-wide (1.18 preview) list drops it to **C tier** [[d:pvp-general#1130633126205468744]], [[d:pvp-general#1405599106486767717]] (contested).
+
 ## Sources
 
 | Recommendation | Sources | Agreement | 1.18.1 note |

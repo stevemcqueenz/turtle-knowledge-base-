@@ -1,6 +1,7 @@
 class: Warrior
 spec: Fury
 role: melee-dps
+guide: guide/classes/warrior/fury.md
 sources:
 - url: https://forum.turtlecraft.gg/viewtopic.php?p=102974#p102974
   author: Dragunovi
@@ -97,175 +98,608 @@ patch_validity:
   valid_for_1181: true
   notes: '1.18.1 changes touching this file: Hamstring cooldown removed (filler is spammable again); Improved Whirlwind renamed
     Ravager (+Cleave cost -1/2/3); Flurry/Slam interaction corrected to 1.92 s (2H Fury nerf); T1 3-set rage proc; T3 4-set
-    +4% crit damage. Hotfix 2026-03-21: Flurry properly consumed. No post-1.18.1 parse reports.'
+    +4% crit damage. Hotfix 2026-03-21: Flurry properly consumed. No post-1.18.1 parse reports. Guide refresh (2026-09): builds
+    and rotations updated to the post-2026-03-20 state from #warrior.'
 talents:
-  build_name: DW Fury raid (sourced points only; remaining points unassigned in sources)
+  build_name: 2H Fury, Bloodthirst (recommended once geared)
+  split: 20/31/0
+  code_tree_b64: dQQAAYDQ-AoAooAAoZBFAB-
+  calculator: https://xian55.github.io/tortoise-db-viewer/?talents=warrior&t=35220000332-05055000503110501
   points:
-  - tree: Fury
-    talent: Cruelty
-    rank: 5
-    spell_id: 12856
-    talent_id: 94
-  - tree: Fury
-    talent: Dual Wield Specialization
-    rank: 5
-    spell_id: 23588
-    talent_id: 95
-  - tree: Fury
-    talent: Improved Shouts
-    rank: 5
-    spell_id: 51613
-    talent_id: 97
-  - tree: Fury
-    talent: Enrage
-    rank: 5
-    spell_id: 13048
-    talent_id: 101
-  - tree: Fury
-    talent: Improved Execute
-    rank: 2
-    spell_id: 20503
-    talent_id: 105
-  - tree: Fury
-    talent: Death Wish
-    rank: 1
-    spell_id: 12328
-    talent_id: 104
-  - tree: Fury
-    talent: Flurry
-    rank: 5
-    spell_id: 12974
-    talent_id: 107
-  - tree: Fury
-    talent: Bloodthirst
-    rank: 1
-    spell_id: 23881
-    talent_id: 109
-  - tree: Fury
-    talent: Blood Craze
-    rank: 0
-    spell_id: 16487
-    note: 'contested: 0 (Atreidon) vs 3 (Abiozan, leveling)'
-    talent_id: 99
-  - tree: Fury
-    talent: Blood Drinker
-    rank: 0
-    spell_id: 51623
-    note: 3/3 for PvP/solo only
-    talent_id: 108
-  - tree: Fury
-    talent: Unbridled Wrath
-    rank: 0
-    spell_id: 12322
-    note: 5/5 in the 2H Fury variant
-    talent_id: 96
+  - tree: Arms
+    talent: Improved Heroic Strike
+    rank: 3
+    spell_id: 12664
   - tree: Arms
     talent: Tactical Mastery
-    rank: 2
-    spell_id: 12676
-    note: 2-5
-    talent_id: 57
+    rank: 5
+    spell_id: 12679
   - tree: Arms
     talent: Improved Rend
     rank: 2
     spell_id: 12658
-    talent_id: 58
+  - tree: Arms
+    talent: Improved Charge
+    rank: 2
+    spell_id: 12697
   - tree: Arms
     talent: Deep Wounds
     rank: 3
     spell_id: 12867
-    talent_id: 64
+  - tree: Arms
+    talent: Two-Handed Weapon Specialization
+    rank: 3
+    spell_id: 12712
   - tree: Arms
     talent: Impale
     rank: 2
     spell_id: 16494
-    talent_id: 66
-  leveling_order: []
+  - tree: Fury
+    talent: Cruelty
+    rank: 5
+    spell_id: 12856
+  - tree: Fury
+    talent: Unbridled Wrath
+    rank: 5
+    spell_id: 13002
+  - tree: Fury
+    talent: Improved Shouts
+    rank: 5
+    spell_id: 51613
+  - tree: Fury
+    talent: Enrage
+    rank: 5
+    spell_id: 13048
+  - tree: Fury
+    talent: Ravager
+    rank: 3
+    spell_id: 51618
+  - tree: Fury
+    talent: Death Wish
+    rank: 1
+    spell_id: 12328
+  - tree: Fury
+    talent: Improved Execute
+    rank: 1
+    spell_id: 20502
+  - tree: Fury
+    talent: Flurry
+    rank: 5
+    spell_id: 12974
+  - tree: Fury
+    talent: Bloodthirst
+    rank: 1
+    spell_id: 23881
+  variants:
+  - name: Lawnmower (2H Fury, Sweeping Strikes instead of Bloodthirst)
+    split: 21/30/0
+    code_tree_b64: dQQAAYDQB-AoAooAAoZBF-
+    calculator: https://xian55.github.io/tortoise-db-viewer/?talents=warrior&t=3522000033201-050550005031105
+    source: '[[d:warrior#1487834407795691582]]'
+  - name: DW Fury
+    split: 17/34/0
+    code_tree_b64: dQIAIYAQ-AoFAoAAoZCVAB-
+    calculator: https://xian55.github.io/tortoise-db-viewer/?talents=warrior&t=35210010302-05505000503122501
+    source: '[[d:warrior#1441921379682357381]], [[d:warrior#1494057933342769315]]'
+  - name: DW Fury, Improved Overpower
+    split: 17/34/0
+    code_tree_b64: dQAACYAQ-AoFAoAAoZCVAB-
+    calculator: https://xian55.github.io/tortoise-db-viewer/?talents=warrior&t=35200002302-05505000503122501
+    source: guide/classes/warrior/fury.md
+  leveling_order:
+  - level: 10
+    tree: Fury
+    talent: Cruelty
+    rank: 1
+  - level: 11
+    tree: Fury
+    talent: Cruelty
+    rank: 2
+  - level: 12
+    tree: Fury
+    talent: Cruelty
+    rank: 3
+  - level: 13
+    tree: Fury
+    talent: Cruelty
+    rank: 4
+  - level: 14
+    tree: Fury
+    talent: Cruelty
+    rank: 5
+  - level: 15
+    tree: Fury
+    talent: Dual Wield Specialization
+    rank: 1
+  - level: 16
+    tree: Fury
+    talent: Dual Wield Specialization
+    rank: 2
+  - level: 17
+    tree: Fury
+    talent: Dual Wield Specialization
+    rank: 3
+  - level: 18
+    tree: Fury
+    talent: Dual Wield Specialization
+    rank: 4
+  - level: 19
+    tree: Fury
+    talent: Dual Wield Specialization
+    rank: 5
+  - level: 20
+    tree: Fury
+    talent: Improved Shouts
+    rank: 1
+  - level: 21
+    tree: Fury
+    talent: Improved Shouts
+    rank: 2
+  - level: 22
+    tree: Fury
+    talent: Improved Shouts
+    rank: 3
+  - level: 23
+    tree: Fury
+    talent: Improved Shouts
+    rank: 4
+  - level: 24
+    tree: Fury
+    talent: Improved Shouts
+    rank: 5
+  - level: 25
+    tree: Fury
+    talent: Enrage
+    rank: 1
+  - level: 26
+    tree: Fury
+    talent: Enrage
+    rank: 2
+  - level: 27
+    tree: Fury
+    talent: Enrage
+    rank: 3
+  - level: 28
+    tree: Fury
+    talent: Enrage
+    rank: 4
+  - level: 29
+    tree: Fury
+    talent: Enrage
+    rank: 5
+  - level: 30
+    tree: Fury
+    talent: Death Wish
+    rank: 1
+  - level: 31
+    tree: Fury
+    talent: Blood Craze
+    rank: 1
+  - level: 32
+    tree: Fury
+    talent: Blood Craze
+    rank: 2
+  - level: 33
+    tree: Fury
+    talent: Blood Craze
+    rank: 3
+  - level: 34
+    tree: Fury
+    talent: Piercing Howl
+    rank: 1
+  - level: 35
+    tree: Fury
+    talent: Blood Drinker
+    rank: 1
+  - level: 36
+    tree: Fury
+    talent: Flurry
+    rank: 1
+  - level: 37
+    tree: Fury
+    talent: Flurry
+    rank: 2
+  - level: 38
+    tree: Fury
+    talent: Flurry
+    rank: 3
+  - level: 39
+    tree: Fury
+    talent: Flurry
+    rank: 4
+  - level: 40
+    tree: Fury
+    talent: Bloodthirst
+    rank: 1
+  - level: 41
+    tree: Fury
+    talent: Flurry
+    rank: 5
+  - level: 42
+    tree: Fury
+    talent: Improved Berserker Rage
+    rank: 1
+  - level: 43
+    tree: Fury
+    talent: Improved Berserker Rage
+    rank: 2
+  - level: 44
+    tree: Arms
+    talent: Tactical Mastery
+    rank: 1
+  - level: 45
+    tree: Arms
+    talent: Tactical Mastery
+    rank: 2
+  - level: 46
+    tree: Arms
+    talent: Tactical Mastery
+    rank: 3
+  - level: 47
+    tree: Arms
+    talent: Tactical Mastery
+    rank: 4
+  - level: 48
+    tree: Arms
+    talent: Tactical Mastery
+    rank: 5
+  - level: 49
+    tree: Arms
+    talent: Improved Rend
+    rank: 1
+  - level: 50
+    tree: Arms
+    talent: Improved Rend
+    rank: 2
+  - level: 51
+    tree: Arms
+    talent: Improved Heroic Strike
+    rank: 1
+  - level: 52
+    tree: Arms
+    talent: Improved Heroic Strike
+    rank: 2
+  - level: 53
+    tree: Arms
+    talent: Improved Heroic Strike
+    rank: 3
+  - level: 54
+    tree: Arms
+    talent: Deep Wounds
+    rank: 1
+  - level: 55
+    tree: Arms
+    talent: Deep Wounds
+    rank: 2
+  - level: 56
+    tree: Arms
+    talent: Deep Wounds
+    rank: 3
+  - level: 57
+    tree: Arms
+    talent: Improved Charge
+    rank: 1
+  - level: 58
+    tree: Arms
+    talent: Improved Charge
+    rank: 2
+  - level: 59
+    tree: Arms
+    talent: Impale
+    rank: 1
+  - level: 60
+    tree: Arms
+    talent: Impale
+    rank: 2
+  leveling_order_note: DW Fury / Blood Drinker leveling order from guide/classes/warrior/leveling.md (built from several cited
+    players, validated 17/34/0 at 60, code dQQAAYAQ-AoFApYAoBAVIB-); respec to the raid build at 60
+  leveling_order_code_tree_b64: dQQAAYAQ-AoFApYAoBAVIB-
   links_opaque:
   - https://talents.turtlecraft.gg/warrior?points=dQQACYAQ-AoFAoAAoZCFAB-
   - https://talents.turtlecraft.gg/warrior?points=FQADCYDQB-FoAAoAAoRCF-
   - https://talents.turtlecraft.gg/warrior?points=FQADCYDQ-FoAAoAAoRCFAB-
-  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=warrior&t=02200000302-05505000500120501
-  build_link_tortoise_note: 'Generated from the sourced points list (38 points: Arms 9, Fury 29); the calculator shows the
+  build_source: '[[d:warrior#1484972395130519612]]'
+  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=warrior&t=35220000332-05055000503110501
+  build_link_tortoise_note: 'Generated from the sourced points list (51 points: Arms 20, Fury 31); the calculator shows the
     remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
-stat_weights: null
+stat_weights:
+- stat: hit
+  verdict: cap yellow hit first (8% at 300 skill -> 5% at 315); do not trade crit for hit once capped
+  sources:
+  - '[[d:warrior#1457402842074714285]]'
+  - '[[d:warrior#1466151329427886171]]'
+  agreement: consensus
+  era: post-1.18.1
+- stat: weapon-skill
+  verdict: 310-315; each point +0.2% hit, +2% glancing damage, +0.1% crit; never 316+
+  sources:
+  - '[[d:warrior#1468345044703645923]]'
+  - '[[d:warrior#1479840926296838307]]'
+  agreement: consensus
+  era: post-1.18.1
+- stat: crit_vs_ap
+  verdict: 1% crit ~ 30-40 AP; ~92 AP + 2 crit beats 33 AP + 3.7 crit most of the time
+  sources:
+  - '[[d:warrior#1467046048987090944]]'
+  - '[[d:warrior#1467046773691383980]]'
+  agreement: single source
+  era: post-1.18.1
+- stat: strength
+  verdict: 1 Str = 2 AP (2.2 with Kings); 20 Agi = 1% crit
+  sources:
+  - '[[d:warrior#1492015033591402516]]'
+  agreement: consensus
+  era: post-1.18.1
+- stat: haste
+  verdict: multiplicative, better the more AP/crit you have; Str vs haste for 2H contested
+  sources:
+  - '[[d:warrior#1447411553728200797]]'
+  - '[[d:warrior#1482884212791971952]]'
+  - '[[d:warrior#1483102293048955073]]'
+  agreement: contested
+  era: post-1.18.1
+- stat: armor-penetration
+  verdict: weak on debuffed bosses (near 0 armor); ok on trash
+  sources:
+  - '[[d:warrior#1488197833382170635]]'
+  agreement: consensus
+  era: post-1.18.1
 stat_priority:
-- hit
-- weapon-skill
+- hit-to-yellow-cap
+- weapon-skill-310-315
+- strength/attack-power
 - crit
-- attack-power
-- strength
-- agility
-- stamina
-stat_priority_note: 'Attack power and Strength are a tie: no cited post ranks them against each other, so their order in the
-  array above carries no ranking. Grouping them is this repository''s reading of the sources listed above.'
+- haste
+- armor-penetration
 caps:
-  hit_boss_pct: 9
-  hit_dungeon_pct: 5
-  dw_white_miss_before_hit_pct: 24
-  crit: null
+  hit_boss_yellow_pct:
+    value: 8 at 300 weapon skill, -0.2 per skill point, 5 at 315
+    sources:
+    - '[[d:warrior#1451430729769680999]]'
+    - '[[d:warrior#1457402842074714285]]'
+    era: post-1.18.1
+    agreement: consensus
+  weapon_skill_cap:
+    value: 315
+    note: 316+ loses ~0.6% crit (bug)
+    sources:
+    - '[[d:warrior#1479840926296838307]]'
+    - '[[d:warrior#1479860943105036409]]'
+    era: post-1.18.1
+    agreement: consensus
+  glancing:
+    value: 40% of white hits vs bosses glance; damage 65% at 300 skill -> 95% at 315
+    sources:
+    - '[[d:warrior#1443319985345921047]]'
+    era: post-1.18.1
+    agreement: single source
+  dw_white_hit_cap_pct:
+    value: 27
+    note: 26.4 at 303 skill; not worth chasing
+    sources:
+    - '[[d:warrior#1480482079492804608]]'
+    - '[[d:warrior#1457400938598760528]]'
+    era: post-1.18.1
+    agreement: consensus
+  crit_before_2h_fury_pct:
+    value: '~23 unbuffed (below: play Arms)'
+    sources:
+    - '[[d:warrior#1469009070210941099]]'
+    era: post-1.18.1
+    agreement: single source
+  crit_flurry_value_drop_pct:
+    value: 34
+    sources:
+    - '[[d:warrior#1467622383731867730]]'
+    era: post-1.18.1
+    agreement: single source
+  crit_2h:
+    value: above 52; not worth thinking about
+    sources:
+    - '[[d:warrior#1492227782426628268]]'
+    era: post-1.18.1
+    agreement: single source
   defense: null
 rotation_single:
 - priority: 0
-  action: Charge -> Bloodrage -> Sunder Armor once -> Berserker Stance
-  condition: opener; Bloodrage activates Enrage since 2024-11-01
+  action: Charge -> Sunder Armor -> Bloodrage (Enrage)
+  condition: 'opener; DW: Bloodrage just before Bloodthirst so two BTs fit in Enrage'
+  sources:
+  - '[[d:warrior#1459198336731975701]]'
+  - '[[d:warrior#1430101399722659933]]'
 - priority: 1
   action: Execute
-  condition: target HP <= 20% and rage available; no cooldown since CC3; swing first then Execute
+  condition: target <= 20%; bank rage before 20%; costs 10 rage
+  sources:
+  - '[[d:warrior#1494705955731013692]]'
+  - '[[d:warrior#1467491606910472306]]'
 - priority: 2
   action: Bloodthirst
-  condition: off cooldown
+  condition: off cooldown; never delay it for Slam
+  sources:
+  - '[[d:warrior#1485723095900618782]]'
 - priority: 3
   action: Whirlwind
-  condition: off cooldown
+  condition: off cooldown, also on single target; press instead of Slam if next auto < ~1 s
+  sources:
+  - '[[d:warrior#1478767553613529244]]'
+  - '[[d:warrior#1491955711876399265]]'
 - priority: 4
-  action: Sunder Armor
-  condition: boss has < 5 stacks or tank is not a warrior; also proc-fishing filler
+  action: Slam
+  condition: '2H only: Flurry up and the cast lands before the next auto (5/5 Flurry: 1.92 s cast)'
+  sources:
+  - '[[d:warrior#1485723095900618782]]'
+  - '[[d:warrior#1485731806379639005]]'
 - priority: 5
-  action: Hamstring
-  condition: instant filler for weapon procs; had 6 s CD 2024-11-01..2026-03-19, none after 1.18.1
+  action: Heroic Strike (queue)
+  condition: rage >= ~70; queued swing generates no rage; skip during Execute phase
+  sources:
+  - '[[d:warrior#1489434203748696215]]'
+  - '[[d:warrior#1431724717789679626]]'
 - priority: 6
-  action: Heroic Strike
-  condition: rage >= 70 and nothing else available (queued swing gives no rage; off-hand not guaranteed)
+  action: 'Filler: Master Strike > Pummel > Hamstring > Sunder Armor'
+  condition: DW, when BT and WW are on cooldown (fish Windfury/Crusader)
+  sources:
+  - '[[d:warrior#1429836696479989844]]'
 - priority: 7
+  action: 'Lawnmower: Whirlwind > Slam, HS/Cleave dump'
+  condition: Lawnmower build (no Bloodthirst)
+  sources:
+  - '[[d:warrior#1472301913780257053]]'
+- priority: 8
   action: Battle Shout
   condition: buff missing
 rotation_aoe:
 - targets_min: 2
   priority: 1
-  action: Whirlwind
-  condition: off cooldown
+  action: Sweeping Strikes
+  condition: Lawnmower; with Whirlwind on first GCD
+  sources:
+  - '[[d:warrior#1490378739639517226]]'
 - targets_min: 2
   priority: 2
-  action: Cleave
-  condition: instead of Heroic Strike as on-next-swing; Ravager reduces cost
+  action: Whirlwind
+  condition: off cooldown
+  sources:
+  - '[[d:warrior#1426297528571265036]]'
 - targets_min: 2
   priority: 3
-  action: Sunder Armor
-  condition: trash only until 50% HP
-- targets_min: 4
-  priority: 1
-  action: same as 2-3
-  condition: no 4+ specific priority in sources; watch threat
-aoe_threshold: null
+  action: Cleave
+  condition: replaces Heroic Strike as the rage dump (Ravager reduces cost)
+  sources:
+  - '[[d:warrior#1484033434824216647]]'
+- targets_min: 2
+  priority: 4
+  action: Bloodthirst / Slam
+  condition: between Whirlwinds
+- targets_min: 2
+  priority: 5
+  action: Execute low mobs
+  condition: only on slow pulls where rage would decay anyway
+  sources:
+  - '[[d:warrior#1441906156040622121]]'
+aoe_threshold:
+  value: 2
+  note: Whirlwind/Cleave from 2 targets (Whirlwind hits up to 4); no measured crossover number exists
 cooldowns:
 - name: Death Wish
-  use_when: pull or execute phase; no exact rule in sources
+  use_when: last ~30 s of fight or Execute phase; twice on long fights
+  sources:
+  - '[[d:warrior#1482492282388091114]]'
+  - '[[d:warrior#1431726255010480278]]'
 - name: Recklessness
-  use_when: execute phase; shares 30-min CD with Retaliation/Shield Wall
+  use_when: almost any time; on pull in DPS races; shares 30-min CD with Shield Wall/Retaliation
+  sources:
+  - '[[d:warrior#1431726048051069100]]'
+  - '[[d:warrior#1462506610068029502]]'
 - name: Bloodrage
-  use_when: on cooldown / pre-pull; activates Enrage
-- name: Berserker Rage
-  use_when: fear break
+  use_when: pull, again into Execute on fights >= 1:15 (procs Enrage)
+  sources:
+  - '[[d:warrior#1433266387962560572]]'
+- name: Juju Flurry + Mighty Rage Potion + Bloodrage
+  use_when: one off-GCD macro in Execute phase
+  sources:
+  - '[[d:warrior#1494010684982296686]]'
+- name: Berserker Rage (Improved)
+  use_when: break roots/slows (Kara40 curses, Noth, Gothik); NEVER in Sanv Tas'dal add phase
+  sources:
+  - '[[d:warrior#1421142174874996736]]'
+  - '[[d:warrior#1468022689401929761]]'
+- name: Perception (Human)
+  use_when: pre-pull, not Execute phase
+  sources:
+  - '[[d:warrior#1493965706062987575]]'
 resource_rules:
-- Stay in Berserker Stance (Wolf of Rage p=122609)
-- Heroic Strike only as a dump at >= 70 rage; queued HS swings generate no rage
-- Under 20% spend surplus rage on Execute instead of HS
-- No rage from absorbed damage (player complaint, pre-1.18.1)
-consumables: []
+- Rage per hit = (dmg*7.5/230.6)/1.075 + base_swing*3.5/2.25 (7.5 on crit) [[d:warrior#1494491071366037607]]
+- Heroic Strike swings generate no rage; Slam does not replace the auto [[d:warrior#1474975775479562512]]
+- 'A queued HS unqueues when rage drops below its cost: bind to mouse wheel [[d:warrior#1443033417167016138]]'
+- Stance swaps keep at most 25 rage with Tactical Mastery [[d:warrior#1472637583208222984]]
+- Stay in Berserker Stance; DW never stance-dances for Overpower [[d:warrior#1470401675914117132]]
+consumables:
+- 'Core: Juju Power, Juju Flurry, Elixir of the Mongoose, R.O.I.D.S./Scorpok, Mighty Rage Potion, Spirit of Zanza, Goblin
+  Sapper Charge (Engineering) [[d:warrior#1450216814180307005]]'
+- Flask mandatory in Naxx [[d:warrior#1466476942969540660]]; no world buffs on Turtle raids [[d:warrior#1419751583184457878]]
+- Juju Power does not stack with Elixir of the Giants [[d:warrior#1433923153813573694]]; Mongoose does not stack with Emerald
+  Mongoose [[d:warrior#1486113106873679943]]
+- Diamond Flask = 75 Strength, second Death Wish [[d:warrior#1485804733242544260]]
+- 'Kara40: Elixir of Demonslaying, resistance potions, Restorative Potion (Echo), LIPs for Kruul [[d:warrior#1465807734892138659]]'
 mistakes_to_avoid:
-- Dual wielding before ~9% hit
-- Heroic Strike spam at low rage
-- Sitting in Battle/Defensive Stance
-- Skipping Sunder Armor on raid bosses
-- Reading pre-Dec-2024 Bloodthirst/Enrage or pre-1.18.1 Hamstring advice as current
+- 2H Fury in fresh-60 gear below ~23% unbuffed crit [[d:warrior#1469009070210941099]]
+- Delaying Bloodthirst/Whirlwind to fit Slam [[d:warrior#1485723095900618782]]
+- Fast main hand as DPS [[d:warrior#1494053824065704156]]
+- Weapon skill 316+ [[d:warrior#1479840926296838307]]
+- Heroic Strike at low rage or during Execute phase [[d:warrior#1431724717789679626]]
+- Stance-dancing for Overpower as DW [[d:warrior#1470401675914117132]]
+- Treating the 2026-01-15 "Bard spec" developer statement as real [[d:warrior#1461118596322431241]]
+leveling:
+  spec_consensus: Fury is the best solo leveling spec post-1.18.1; Arms if you have a healer [[d:warrior#1484971008153747569]]
+    (consensus); no-respec route Fury (Cruelty) to ~30 then Arms with a 2H, DW when Blood Drinker is reachable [[d:warrior#1486645720646942790]]
+    (single source)
+  hc_fury_build:
+    code: FQLAIYD-FoAAJYAoZBVAB-
+    points_source: '[[d:warrior#1469876907020652688]]'
+    era: 1.18.1-announced-pre-release
+  early_60: Level Fury first (Cruelty is the one must-have), use a 2-hander the whole time, go DW once Blood Drinker is reachable;
+    stack agility until rage-capped while spamming HS, then fish with Hamstring
+  early_60_sources:
+  - '[[d:warrior#1486645720646942790]]'
+  - '[[d:warrior#1487172105962524866]]'
+  - '[[d:warrior#1491097877127106590]]'
+  brackets: see leveling_by_bracket in arms-melee-dps.yaml (same channel findings)
+discord:
+  channels:
+  - warrior
+  agreement: mixed — consensus on rotation and Enrage-as-cooldown; contested 2H-vs-DW and the 2H Fury sim
+  eras:
+  - pre-1.18.1
+  - 1.18.1-announced-pre-release
+  - post-1.18.1
+  sources:
+  - cite: '[[d:warrior#1484569477088547039]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: DW Fury still the record single-target spec
+  - cite: '[[d:warrior#1488735194394525738]]'
+    era: post-1.18.1
+    agreement: contested
+    topic: '''2H fury outperforms DW'''
+  - cite: '[[d:warrior#1484972395130519612]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: canonical 2H Fury 20/31 build
+  - cite: '[[d:warrior#1429836696479989844]]'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    topic: DW filler priority MS > Pummel > Hamstring > Sunder
+  - cite: '[[d:warrior#1485723095900618782]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: 2H Slam only while Flurry up
+  - cite: '[[d:warrior#1487574272217186355]]'
+    era: post-1.18.1
+    agreement: contested
+    topic: pure-Slam sim vs practice
+  - cite: '[[d:warrior#1485731806379639005]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: Flurry->Slam 1.92 s, flat weapon-speed reduction
+  - cite: '[[d:warrior#1486524065144373248]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: unshipped Kyrsie rework proposal
+  - cite: '[[d:warrior#1489363464605663365]]'
+    author: Shardphoenix
+    authority: player
+    date: '2026-04-01'
+    era: post-1.18.1
+    agreement: consensus
+    topic: 2H Fury leads DW and Arms on most fights
+  - cite: '[[d:warrior#1494847565156454461]]'
+    author: Lans
+    authority: player
+    date: '2026-04-18'
+    era: post-1.18.1
+    agreement: contested
+    topic: DW server records
+stat_priority_note: 'Attack power and Strength are a tie: no cited post ranks them against each other, so their order in the
+  array above carries no ranking. Grouping them is this repository''s reading of the sources listed above.'

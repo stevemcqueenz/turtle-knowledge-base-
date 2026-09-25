@@ -103,6 +103,39 @@ Setup: Seal of Wisdom (mana on every swing/strike), Blessing of Light on the tan
 - Stacking haste or mp5 gear.
 - Trying to heal or buff warlock demons — it does not work (player report above).
 
+## Discord additions (post-1.18.1, `#paladin`)
+
+The forum has the melee-healing method and boss lists; Discord adds the coefficients, the downranking package, the mana/crit math, the post-release bug picture and the announced rework that ends the melee-heal identity.
+
+### Coefficients, ranks and downranking
+
+- **Pinned spell-coefficient sheet** (Mithreon, 2025-07-04): Holy Light 0.71 SP, Flash of Light 0.43 SP, Holy Shock 0.43 SP, Daybreak 0.32 SP, **Mending Light 0.05 SP** [[d:paladin#1390647300568911932]] (1.18.1-announced-pre-release, single source / pinned sheet). Holy Light r9 ~1680 base, Flash r7 428 base [[d:paladin#1425088237315162206]].
+- **Illumination** post-CC2 ranks are **12/24/36/48/60%** (5 ranks); the proposed 3-rank version never shipped [[d:paladin#1304067941611999282]] (pre-1.18.1, consensus). 40 FoL/min = 7,200 mana; old Illumination at 40% crit returned 4,300 mana/min, new 5,400 (+1,100) [[d:paladin#1302283883433299988]].
+- **Downranking**: the +heal coefficient is the same on all ranks except Holy Light 1-3; at ~1200 +heal, rank-1 Flash of Light (35 mana) heals ~630 and crits ~945; Holy Light downranks to ~r6 [[d:paladin#1426451644501065738]] [[d:paladin#1187066327324692511]].
+- **Blessing of Light** was made to scale with the cast coefficient in CC2 (flat +400/+115 became ~285/~50; observed +365 on a rank-1 Holy Light = (400+115)*2.5/3.5) and adds almost nothing to Flash of Light [[d:paladin#1303466058191081545]] [[d:paladin#1327974569470070838]] (pre/announced, consensus).
+- **Healing threat**: paladin heals generate **25%** of the heal as threat (other healers 50%); Lay on Hands 95% [[d:paladin#1039609588305117214]] (pre-1.18.1, consensus).
+
+### Stats, mana and consumables
+
+- **1% crit ~ 40 healing power, 1% haste ~ 20 healing power** after 1200 +heal (Mithreon) [[d:paladin#1429167222923984966]]; the forum's "medium" crit rating is era-dependent (pre-CC2 LHK gave 10-13 HP).
+- **54 Int = 1% spell crit at 60** (client formula 53.77) [[d:paladin#1288672302166315113]] [[d:paladin#1371908590188757144]].
+- 3/5 Illumination + 30% crit keeps you above 30% mana outside Kara40 [[d:paladin#1451675254115274915]].
+- **Tea with Sugar / Herbal Tea does not share the potion cooldown** (it uses the healthstone/rune CD); alternate with Major Mana Potions [[d:paladin#1187065631812628552]]. Wizard Oil and the other healer consumables are listed in the structured file.
+- **Red Dragonscale 4-set Lifebinding** proc measured at 12.5% (25/200 rank-1 FoL casts), worth ~+60-80 healing power post-nerf [[d:paladin#1199099143432458251]] [[d:paladin#1199109732636577823]].
+- **Weapon/ranged variants**: a 1.5 s rank-4 Holy Light build with haste + Blessing of Light is used during Scrolls of Blinding Light / Breath of Solnius ("Holy Light rank 4 becomes the most powerful healing spell you have") [[d:paladin#1349700733225926709]]; a pure **ranged FoL-spam** variant keeps Blessing of Light on the tank and spams Flash from 20 yd, where "Judgement into HL is not in the rotation" [[d:paladin#1296295301967122500]] (contested vs the melee-weave camp).
+- **Encounters**: full BWL healer walkthrough - Vael 3 FoL + 1 HS, Chromaggus dispel-all with ~3 Hourglass Sand, Nefarian fear-bubble [[d:paladin#1465429349154160784]].
+
+### Post-1.18.1: bugs and the announced rework
+
+- **Mending Light shipped bugged**: missing 5% base scaling ("the base 5% ... is missing") [[d:paladin#1484940046892007474]] [[d:paladin#1485156480305860801]], no target cap [[d:paladin#1484619599319142623]], and no heal on miss/parry/dodge [[d:paladin#1485376665772228618]] (post-1.18.1, consensus; hotfixed 2026-03-24).
+- Combined **Daybreak + T3.5 + Holy Strike healing nerf = 10-25% effective-healing loss** [[d:paladin#1484924634599264276]]; crit value dropped ~30% [[d:paladin#1486635309947949197]].
+- **Ironclad** reported losing ~100 bonus healing post-1.18.1 [[d:paladin#1485251611784773732]] (single source; issue list).
+- **NEXT PATCH (announced 2026-04-01, NOT shipped)**: developer Lhian - "**melee holy paladin didn't work out - healing component on holy strike will be removed**"; Holy Strike becomes a next-attack ability, Crusader Strike loses its cooldown and its damage is slashed, and spellstrikes no longer proc anything [[d:paladin#1488852869212798987]]. **This supersedes the forum's 2026 "melee style remains dominant" position** and returns Holy to a caster/healer (FoL/HL/Holy Shock and Blessing of Light).
+
+### Decoded talent build
+
+The forum's 31/7/13 link is now decoded (Holy 31: Divine Intellect 5, Holy Judgement 3, Spiritual Focus 2, Healing Light 3, Improved Lay on Hands 2, Unyielding Faith 2, Improved Concentration Aura 2, Illumination 5, Ironclad 2, Holy Shock 1, Holy Power 3, Daybreak 1; Prot 7: Improved Devotion Aura 5, Guardian's Favor 2; Ret 13: Improved Blessings 5, Deflection 5, Blessing of Kings 1, Pursuit of Justice 2) [[d:paladin#1413908908749094962]]. Discord's repeated consensus tree is **38/0/13** (Blessed Strikes 5, Divine Favor 5), 21 posts [[d:paladin#1413908908749094962]]. All points carry `spell_id`s in `structured/classes/paladin/holy-healer.yaml`.
+
 ## Sources
 
 | Thread | Authors (authority) | Date | Era | Used for | Agreement |
@@ -118,5 +151,6 @@ Setup: Seal of Wisdom (mana on every swing/strike), Blessing of Light on the tan
 | [Stages of balance in Kara p106897](https://forum.turtlecraft.gg/viewtopic.php?p=106897#p106897) | Rramage (player) | 2024-11-07 | pre-1.18.1 | early critique of the melee design | single, superseded by 2025–26 results |
 | [Paladin Guide 1.17.2 p27457](https://forum.turtlecraft.gg/viewtopic.php?p=27457#p27457) | Unchallenged (player, guide writer) | edited 2024-12-04 | pre-1.18.1 | build link, enchants | single |
 | Staff posts [p102969](https://forum.turtlecraft.gg/viewtopic.php?p=102969#p102969), [p113460](https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460), [p141159](https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159), [p145249](https://forum.turtlecraft.gg/viewtopic.php?p=145249#p145249), [p166071](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071), [p171608](https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608), [p172139](https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139) | Dragunovi, Jamey, Torta (staff) | 2024-10 → 2026-03 | all | mechanics | staff |
+| Discord `#paladin` (see "Discord additions") | Mithreon, Iseut, Theodore, Destroses, Lhian (dev, staff) and others | 2023-04 → 2026-04-07 | pre-1.18.1 → post-1.18.1 | coefficients, Illumination ranks, downranking, bugs, next-patch announcement | consensus on coefficients/downranking/mana; single source on many numbers; staff on the announced rework |
 
-Flags: Soymage's July-2025 numbers predate the 1.18.0 Daybreak/Holy Shock rework and the 1.18.1 Daybreak nerf; the 2026 posts by Ellifta/Beardozer/Crake are the current picture. The 1.18.1 Daybreak nerf and T3.5 5-set change lower raid HPS but no post-release parse has been posted.
+Flags: Soymage's July-2025 numbers predate the 1.18.0 Daybreak/Holy Shock rework and the 1.18.1 Daybreak nerf; the 2026 posts by Ellifta/Beardozer/Crake are the current picture. The 1.18.1 Daybreak nerf and T3.5 5-set change lower raid HPS but no post-release parse has been posted; the Discord section above adds the bug detail and the 2026-04-01 announced removal of the melee-heal identity (not shipped).

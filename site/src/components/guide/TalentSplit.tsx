@@ -1,6 +1,7 @@
 import type { YamlTalentPoint } from '../../types';
 import { CardLabel } from './GuideSection';
 import { rankNumber } from './util';
+import { CitedText } from '../CitedText';
 
 export interface TreeSplit {
   tree: string;
@@ -84,7 +85,7 @@ export function SkipChips({ skip }: { skip: string[] }) {
       <ul className="flex flex-wrap gap-1.5">
         {skip.map((s, i) => (
           <li key={`${s}-${i}`} className="chip hairline text-xs text-muted line-through">
-            {s}
+            <CitedText text={s} />
           </li>
         ))}
       </ul>
@@ -93,29 +94,49 @@ export function SkipChips({ skip }: { skip: string[] }) {
 }
 
 /** Talent-calculator links copied from the source posts. */
+/** talents.turtlecraft.gg is offline: its build codes are shown, not linked. */
+function isOfflineCalculator(url: string): boolean {
+  return /^https?:\/\/talents\.turtlecraft\.gg\//i.test(url);
+}
+
 export function BuildLinks({ links, color }: { links: string[]; color: string }) {
   if (links.length === 0) return null;
+  const live = links.filter((url) => !isOfflineCalculator(url));
+  const offline = links.filter(isOfflineCalculator);
   return (
     <div className="space-y-2">
       <CardLabel>Talent calculator</CardLabel>
-      <div className="flex flex-wrap gap-2">
-        {links.map((url, i) => (
-          <a
-            key={url}
-            href={url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="chip hairline bg-surface2 px-3 py-1.5 text-xs font-semibold hover:border-[color:rgb(var(--c-accent)/0.6)]"
-            style={{ color }}
-          >
-            {links.length > 1 ? `Open build ${i + 1}` : 'Open this build'}
-          </a>
-        ))}
-      </div>
+      {live.length > 0 ? (
+        <div className="flex flex-wrap gap-2">
+          {live.map((url, i) => (
+            <a
+              key={url}
+              href={url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="chip hairline bg-surface2 px-3 py-1.5 text-xs font-semibold hover:border-[color:rgb(var(--c-accent)/0.6)]"
+              style={{ color }}
+            >
+              {live.length > 1 ? `Open build ${i + 1}` : 'Open this build'}
+            </a>
+          ))}
+        </div>
+      ) : null}
+      {offline.length > 0 ? (
+        <ul className="flex flex-col gap-1">
+          {offline.map((url) => (
+            <li key={url} className="min-w-0">
+              <code className="break-all font-mono text-xs text-muted">{url.replace(/^https?:\/\//, '')}</code>
+            </li>
+          ))}
+        </ul>
+      ) : null}
       <p className="text-xs text-muted">
-        {links.length > 1
-          ? 'Two calculator links are cited for this spec; the point list is the sourced part.'
-          : 'Calculator link copied from the source post; the point list is the sourced part.'}
+        {offline.length > 0
+          ? 'talents.turtlecraft.gg is offline, so its build codes are listed as text; the point list is the sourced part.'
+          : live.length > 1
+            ? 'Two calculator links are cited for this spec; the point list is the sourced part.'
+            : 'Calculator link copied from the source post; the point list is the sourced part.'}
       </p>
     </div>
   );

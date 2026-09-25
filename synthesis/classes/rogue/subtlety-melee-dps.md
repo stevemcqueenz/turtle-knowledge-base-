@@ -90,6 +90,44 @@ No Subtlety-specific gear source beyond "shadowcraft's energy proc bonus" being 
 - Smoke Bomb on top of the raid's melee: it reduces the hit chance of everyone inside, enemies and allies.
 - Reapplying Mark for Death from a second rogue expecting stacking (it only refreshes; staff CC2 note on Exploit Vulnerability).
 
+## Discord findings (2025–2026)
+
+The `#rogue` Discord (2021-02 .. 2026-05) supplies decoded Subtlety builds and rotations the forum file names as gaps. Citations are `[[d:rogue#id]]` and resolve in `structured/discord/evidence-rogue.jsonl`. Eras: **pre-1.18.1** (< 2025-10-03), **1.18.1-announced-pre-release** (2025-10-03 .. 2026-03-19), **post-1.18.1** (≥ 2026-03-20).
+
+### Corrections and supersessions
+
+- **The forum's "only one player (self-declared as inexperienced) supplies a build" gap is closed.** Discord decodes **11/8/32** (Ionnatra; the cheapest support variant) [[d:rogue#1478313765450551338]], [[d:rogue#1485287876210982973]], [[d:rogue#1485341242630865048]], **11/5/35** (deeper Sub, posted as PvP talents but carrying WSG flag well) [[d:rogue#1484641315361915042]], [[d:rogue#1485017443687465140]], and **17/0/34** ("dps sub") [[d:rogue#1466401496483758235]], [[d:rogue#1493894882543013888]].
+- **What the support rogue actually provides** (1.18.0/1.18.1): maintain **Improved Expose Armor** on the boss, **Tricks of the Trade** on your group and spam **Hemorrhage** for the physical-damage debuff, plus **Mark for Death** + **Shadow of Death** party buffs [[d:rogue#1421734520306270310]]. **Hemorrhage and Improved Expose Armor are whole-raid; Tricks of the Trade and Mark for Death are party-only** [[d:rogue#1389957217905672305]]. A guide writer estimated one hemo/IEA support rogue equals the raid benefit of ~3 Combat rogues [[d:rogue#1366086113277640734]] (single source).
+- **1.18.1 changed no Subtlety talent**; the standstill is explicit in the channel.
+
+### Concrete rotations
+
+- **Standard sub flow**: Garrote opener → Hemo builder → IEA → SnD → Rupture/Shadow of Death/SnD/IEA before TotT drops; Mark + Shadow while TfB is active; Vanish to re-Garrote; Prep to reset party buffs [[d:rogue#1409664512944115793]].
+- **Exact CP flow**: 1-CP SnD → 5-CP Expose → 1-CP SnD → 5-CP Rupture → 1-CP SnD → 5-CP Mark+Shadow (or Evis); never let SnD/Expose drop, Rupture may [[d:rogue#1431660105157443679]].
+- **iEA-rogue**: Garrote opener, 1-CP SnD, Hemo to 5 for IEA, 1-CP SnD, Hemo to 3 → Mark → Shadow of Death; on Medivh/Sanv use double Mind-numbing Poison [[d:rogue#1483262942748086434]].
+- **30-second burst**: Garrote/Ambush → Hemo → Ghostly Strike → 5-CP Rupture → SnD → Shadow of Death → Prep → Vanish → re-Garrote [[d:rogue#1458612868193714450]].
+- **Weapon rule**: **The Ripper (SWV) is the BiS off-hand**; **Annihilator and Shart'ateth Axe share a debuff slot and overwrite each other** — do not run both [[d:rogue#1483262942748086434]].
+- The forum's energy accounting (140 in vs 160–170 out) stands; a missed Hemo/finisher drops the TotT stack chain, so hit comes first [[d:rogue#1431660105157443679]].
+
+### Mechanics the forum lacked
+
+- **Shadow of Death does not crit** [[d:rogue#1406940418075004999]]; a post-1.18.1 player says it "makes the rotation clunky" and advises against taking it [[d:rogue#1490397927598854295]] (contested — the forum's one tester said it "does OK numbers").
+- **Bloody Mess/Bloodsplatter was bugged in 1.18.0** at 2% instead of 4% [[d:rogue#1406364787566186527]] (single source).
+- **Do not go deep Subtlety support without a melee party**: the buffs are party-wide and the personal dps loss is large [[d:rogue#1486006448520691852]] (consensus).
+
+### Discord sources
+
+| Topic | Citation | Era | Agreement |
+|---|---|---|---|
+| Decoded 11/8/32 support build | [[d:rogue#1478313765450551338]] | post-1.18.1 | consensus |
+| Decoded 11/5/35 | [[d:rogue#1484641315361915042]] | post-1.18.1 | single source |
+| Decoded 17/0/34 dps sub | [[d:rogue#1466401496483758235]] | post-1.18.1 | single source |
+| Support job (IEA+Hemo whole-raid) | [[d:rogue#1421734520306270310]], [[d:rogue#1389957217905672305]] | pre-1.18.1 | consensus |
+| Exact CP flow | [[d:rogue#1431660105157443679]] | 1.18.1-announced-pre-release | single source |
+| iEA weapon rule | [[d:rogue#1483262942748086434]] | 1.18.1-announced-pre-release | single source |
+| Shadow of Death (no crit) | [[d:rogue#1406940418075004999]] | pre-1.18.1 | single source |
+| Bloody Mess/Bloodsplatter bug | [[d:rogue#1406364787566186527]] | pre-1.18.1 | single source |
+
 ## Sources
 
 | Source | Authority | Date / era | Used for | Agreement |

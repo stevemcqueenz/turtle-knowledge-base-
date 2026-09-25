@@ -1,0 +1,664 @@
+class: mage
+name: Mage
+turtle: true
+source: refs/tortoise-db-viewer/scripts/data/talents.json (client-derived, 1.18.1) + server/data/dbc/Spell.dbc field 120 for names
+max_points: 51
+tabs:
+- id: 81
+  name: Arcane
+  order: 0
+  talents:
+  - id: 37
+    name: Arcane Subtlety
+    row: 0
+    col: 0
+    max_rank: 2
+    ranks:
+    - 11210
+    - 12592
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 38
+    name: Magic Absorption
+    row: 0
+    col: 1
+    max_rank: 3
+    ranks:
+    - 29441
+    - 29444
+    - 29445
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 39
+    name: Improved Arcane Missiles
+    row: 0
+    col: 2
+    max_rank: 5
+    ranks:
+    - 11237
+    - 12463
+    - 12464
+    - 16769
+    - 16770
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 40
+    name: Wand Specialization
+    row: 1
+    col: 0
+    max_rank: 2
+    ranks:
+    - 6057
+    - 6085
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 41
+    name: Arcane Focus
+    row: 1
+    col: 1
+    max_rank: 5
+    ranks:
+    - 11222
+    - 12839
+    - 12840
+    - 12841
+    - 12842
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 42
+    name: Arcane Concentration
+    row: 1
+    col: 2
+    max_rank: 5
+    ranks:
+    - 11213
+    - 12574
+    - 12575
+    - 12576
+    - 12577
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 43
+    name: Magic Attunement
+    row: 2
+    col: 0
+    max_rank: 1
+    ranks:
+    - 11247
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 44
+    name: Arcane Impact
+    row: 2
+    col: 1
+    max_rank: 3
+    ranks:
+    - 11242
+    - 12467
+    - 12469
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 45
+    name: Arcane Rupture
+    row: 2
+    col: 2
+    max_rank: 1
+    ranks:
+    - 51949
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 46
+    name: Improved Mana Shield
+    row: 3
+    col: 0
+    max_rank: 2
+    ranks:
+    - 11252
+    - 12605
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 47
+    name: Improved Counterspell
+    row: 3
+    col: 1
+    max_rank: 2
+    ranks:
+    - 11255
+    - 12598
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 48
+    name: Temporal Convergence
+    row: 3
+    col: 2
+    max_rank: 3
+    ranks:
+    - 51963
+    - 51964
+    - 51965
+    req: 45
+    req_rank: 1
+    points_per_rank: 1
+  - id: 49
+    name: Arcane Meditation
+    row: 3
+    col: 3
+    max_rank: 3
+    ranks:
+    - 18462
+    - 18463
+    - 18464
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 50
+    name: Arcane Instability
+    row: 4
+    col: 0
+    max_rank: 3
+    ranks:
+    - 15058
+    - 15059
+    - 15060
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 51
+    name: Presence of Mind
+    row: 4
+    col: 1
+    max_rank: 1
+    ranks:
+    - 12043
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 52
+    name: Accelerated Arcana
+    row: 4
+    col: 2
+    max_rank: 1
+    ranks:
+    - 51981
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 53
+    name: Arcane Potency
+    row: 4
+    col: 3
+    max_rank: 2
+    ranks:
+    - 45403
+    - 45404
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 54
+    name: Resonance Cascade
+    row: 5
+    col: 2
+    max_rank: 5
+    ranks:
+    - 51262
+    - 51987
+    - 51988
+    - 51989
+    - 51990
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 55
+    name: Arcane Power
+    row: 6
+    col: 1
+    max_rank: 1
+    ranks:
+    - 12042
+    req: 51
+    req_rank: 1
+    points_per_rank: 1
+- id: 41
+  name: Fire
+  order: 1
+  talents:
+  - id: 1
+    name: Improved Fireball
+    row: 0
+    col: 1
+    max_rank: 5
+    ranks:
+    - 11069
+    - 12338
+    - 12339
+    - 12340
+    - 12341
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 2
+    name: Impact
+    row: 0
+    col: 2
+    max_rank: 5
+    ranks:
+    - 11103
+    - 12357
+    - 12358
+    - 12359
+    - 12360
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 3
+    name: Ignite
+    row: 1
+    col: 0
+    max_rank: 5
+    ranks:
+    - 11119
+    - 11120
+    - 12846
+    - 12847
+    - 12848
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 4
+    name: Flame Throwing
+    row: 1
+    col: 1
+    max_rank: 2
+    ranks:
+    - 11100
+    - 12353
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 5
+    name: Improved Fire Blast
+    row: 1
+    col: 2
+    max_rank: 3
+    ranks:
+    - 11078
+    - 11080
+    - 12342
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 6
+    name: Incinerate
+    row: 2
+    col: 0
+    max_rank: 2
+    ranks:
+    - 18459
+    - 18460
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 7
+    name: Improved Flamestrike
+    row: 2
+    col: 1
+    max_rank: 3
+    ranks:
+    - 11108
+    - 12349
+    - 12350
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 8
+    name: Pyroblast
+    row: 2
+    col: 2
+    max_rank: 1
+    ranks:
+    - 11366
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 9
+    name: Burning Soul
+    row: 2
+    col: 3
+    max_rank: 2
+    ranks:
+    - 11083
+    - 12351
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 10
+    name: Fire Vulnerability
+    row: 3
+    col: 0
+    max_rank: 3
+    ranks:
+    - 11095
+    - 12872
+    - 12873
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 11
+    name: Improved Fire Ward
+    row: 3
+    col: 1
+    max_rank: 2
+    ranks:
+    - 11094
+    - 13043
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 12
+    name: Master of Elements
+    row: 3
+    col: 3
+    max_rank: 3
+    ranks:
+    - 29074
+    - 29075
+    - 29076
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 13
+    name: Blast Wave
+    row: 4
+    col: 0
+    max_rank: 1
+    ranks:
+    - 11113
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 14
+    name: Critical Mass
+    row: 4
+    col: 1
+    max_rank: 3
+    ranks:
+    - 11115
+    - 11367
+    - 11368
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 15
+    name: Hot Streak
+    row: 4
+    col: 2
+    max_rank: 2
+    ranks:
+    - 51927
+    - 51928
+    req: 8
+    req_rank: 1
+    points_per_rank: 1
+  - id: 16
+    name: Fire Power
+    row: 5
+    col: 2
+    max_rank: 5
+    ranks:
+    - 11124
+    - 12378
+    - 12398
+    - 12399
+    - 12400
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 17
+    name: Combustion
+    row: 6
+    col: 1
+    max_rank: 1
+    ranks:
+    - 11129
+    req: 14
+    req_rank: 3
+    points_per_rank: 1
+- id: 61
+  name: Frost
+  order: 2
+  talents:
+  - id: 18
+    name: Frost Warding
+    row: 0
+    col: 0
+    max_rank: 2
+    ranks:
+    - 11189
+    - 28332
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 19
+    name: Improved Frostbolt
+    row: 0
+    col: 1
+    max_rank: 5
+    ranks:
+    - 11070
+    - 12473
+    - 16763
+    - 16765
+    - 16766
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 20
+    name: Elemental Precision
+    row: 0
+    col: 2
+    max_rank: 3
+    ranks:
+    - 29438
+    - 29439
+    - 29440
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 21
+    name: Piercing Ice
+    row: 1
+    col: 0
+    max_rank: 3
+    ranks:
+    - 11151
+    - 12952
+    - 12953
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 22
+    name: Frostbite
+    row: 1
+    col: 1
+    max_rank: 3
+    ranks:
+    - 11071
+    - 12496
+    - 12497
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 23
+    name: Improved Frost Nova
+    row: 1
+    col: 2
+    max_rank: 2
+    ranks:
+    - 11165
+    - 12475
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 24
+    name: Permafrost
+    row: 1
+    col: 3
+    max_rank: 3
+    ranks:
+    - 11175
+    - 12569
+    - 12571
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 25
+    name: Ice Shards
+    row: 2
+    col: 0
+    max_rank: 5
+    ranks:
+    - 11207
+    - 12672
+    - 15047
+    - 15052
+    - 15053
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 26
+    name: Cold Snap
+    row: 2
+    col: 1
+    max_rank: 1
+    ranks:
+    - 12472
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 27
+    name: Improved Blizzard
+    row: 2
+    col: 3
+    max_rank: 3
+    ranks:
+    - 11185
+    - 12487
+    - 12488
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 28
+    name: Arctic Reach
+    row: 3
+    col: 0
+    max_rank: 2
+    ranks:
+    - 16757
+    - 16758
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 29
+    name: Frost Channeling
+    row: 3
+    col: 1
+    max_rank: 3
+    ranks:
+    - 11160
+    - 12518
+    - 12519
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 30
+    name: Shatter
+    row: 3
+    col: 2
+    max_rank: 5
+    ranks:
+    - 11170
+    - 12982
+    - 12983
+    - 12984
+    - 12985
+    req: 23
+    req_rank: 2
+    points_per_rank: 1
+  - id: 31
+    name: Ice Block
+    row: 4
+    col: 1
+    max_rank: 1
+    ranks:
+    - 11958
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 32
+    name: Icicles
+    row: 4
+    col: 2
+    max_rank: 1
+    ranks:
+    - 52516
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 33
+    name: Improved Cone of Cold
+    row: 4
+    col: 3
+    max_rank: 3
+    ranks:
+    - 11190
+    - 12489
+    - 12490
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 34
+    name: Winter's Chill
+    row: 5
+    col: 0
+    max_rank: 5
+    ranks:
+    - 11180
+    - 28592
+    - 28593
+    - 28594
+    - 28595
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 35
+    name: Flash Freeze
+    row: 5
+    col: 2
+    max_rank: 2
+    ranks:
+    - 51999
+    - 52501
+    req: 32
+    req_rank: 1
+    points_per_rank: 1
+  - id: 36
+    name: Ice Barrier
+    row: 6
+    col: 1
+    max_rank: 1
+    ranks:
+    - 11426
+    req: 31
+    req_rank: 1
+    points_per_rank: 1

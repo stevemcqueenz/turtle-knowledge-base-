@@ -1,6 +1,7 @@
 class: Paladin
 spec: Retribution
 role: melee-dps
+guide: guide/classes/paladin/retribution.md
 sources:
 - url: https://forum.turtlecraft.gg/viewtopic.php?p=169915#p169915
   author: Scootiesana
@@ -102,236 +103,651 @@ sources:
   author: Jamey
   authority: staff
   date: '2026-01-23'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272
+  author: Dragunovi
+  authority: staff
+  date: '2026-02-15'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+  author: Torta
+  authority: staff
+  date: '2026-03-24'
+- cite: '[[d:paladin#1491936698689388746]]'
+  author: Mithreon
+  authority: player (build curator)
+  date: '2026-04-10'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:paladin#1486723603952046090]]'
+  author: Aljeron
+  authority: player (dummy test)
+  date: '2026-03-26'
+  era: post-1.18.1
+  agreement: single source
+- cite: '[[d:paladin#1493184429906989217]]'
+  author: Jesse Potter
+  authority: player (top SoC Ret)
+  date: '2026-04-13'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:paladin#1487136530983293162]]'
+  author: Grey
+  authority: player (theorycrafter)
+  date: '2026-03-27'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:paladin#1485694401534496800]]'
+  author: Beldrin
+  authority: player
+  date: '2026-03-23'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:paladin#1483022433265913865]]'
+  author: Grey
+  authority: player (theorycrafter)
+  date: '2026-03-16'
+  era: 1.18.1-announced-pre-release
+  agreement: consensus
+- cite: '[[d:paladin#1494325796440113223]]'
+  author: Jesse Potter
+  authority: player
+  date: '2026-04-16'
+  era: post-1.18.1
+  agreement: single source
 agreement: contested
 patch_validity:
-  written_for: 1.17.2 / 1.18.0 talent trees; gearing thread from 2026-03 (pre-release)
-  valid_for_1181: unknown
-  notes: 1.18.1 buffed the AP build (Seal of Command 7 -> 9 PPM, Crusader Strike rank 5 90% -> 100% WD, Repentance tick +8%
-    AP, Ret T3.5 Crusade 4%/20 s non-stacking) and front-loaded Consecration; T2.5 3-set became +15% JoR/JoC. No post-release
-    DPS report.
+  written_for: 1.18.1 (live 2026-03-20), post-release state through 2026-04-21
+  valid_for_1181: true
+  notes: '1.18.1: Seal of Command 7 -> 9 PPM, Crusader Strike rank 5 100% WD, Holy Strike 40% WD + Holy with 71% SP, Repentance
+    8% AP tick, Consecration front-loaded, T2.5 3pc +15% JoR/JoC, Ret T3.5 5pc 4% non-stacking haste, libram swaps cost a
+    GCD, new Libram of Ardour (+1 SoC PPM), Fortune stat. The 2026-04-01 developer "next patch" post (spellstrikes stop proccing,
+    Holy Strike next-swing, CS no cooldown) was an APRIL FOOLS joke, not a patch.'
+discord:
+  channel: paladin
+  scope: 'post-1.18.1 Retribution PvE: SoR spellret vs SoC vs Necrodin, rotation, stats, gear, librams'
+  sources:
+  - id: '1491936698689388746'
+    era: post-1.18.1
+    agreement: consensus
+    claim: 'Mithreon: SoR ret FAAoBA-FAY-AoTAFKYAFAFABA and SoC ret FoAABA-FAY-AoTAFJYAFIFABA (both 11/8/32)'
+  - id: '1458178443630874675'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: 11/8/32 is the standard on MC/BWL gear regardless of seal
+  - id: '1486727985540104303'
+    era: post-1.18.1
+    agreement: consensus
+    claim: Judge SotC only for the ~130 SP bonus; SP gear -> SoR, Strength gear -> SoC
+  - id: '1486723603952046090'
+    era: post-1.18.1
+    agreement: single source
+    claim: 'Dummy test, same pre-K40 spell-ret gear: SoC + Libram of Ardour ~30 DPS ahead of SoR + Eternal Tower (self-buffed)'
+  - id: '1493184429906989217'
+    era: post-1.18.1
+    agreement: consensus
+    claim: Top 4/5 in K40 are SoR, 3rd is SoC since the patch
+  - id: '1492067525352099920'
+    era: post-1.18.1
+    agreement: consensus
+    claim: SoC is better than last patch but still beaten by SoR
+  - id: '1488506685990506506'
+    era: post-1.18.1
+    agreement: consensus
+    claim: Both largely viable; difference ~100 DPS
+  - id: '1487136530983293162'
+    era: post-1.18.1
+    agreement: consensus
+    claim: Ret paladins do about 1.8k DPS; best Patchwerk log 2.3k (1487136588252184679)
+  - id: '1489508110749139024'
+    era: post-1.18.1
+    agreement: consensus
+    claim: 'K40: ~1k overall boss DPS is good; ramp-up gap from pull is the main weakness'
+  - id: '1426854001051435189'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    claim: SoR <-> Windfury Totem proc loop raises effective WFT chance from ~25% to 40%+
+  - id: '1464116936093859983'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: On Tel'Abim (no WF) spellret wins; SoC suffers without Windfury
+  - id: '1490218179593764997'
+    era: post-1.18.1
+    agreement: consensus
+    claim: Both T2 3pc + SoR = 4 spellstrike rolls per swing (Necrodin engine)
+  - id: '1486109344486653954'
+    era: post-1.18.1
+    agreement: staff
+    claim: 'Lhian on the T2 3pc: "i really dont want to [change it], it enables so much stuff"'
+  - id: '1488578018640134224'
+    era: post-1.18.1
+    agreement: single source
+    claim: Necrodin is the weakest ret build and needs to charge up; SoC is strong from the first second
+  - id: '1489221331936612474'
+    era: post-1.18.1
+    agreement: consensus
+    claim: Fortune does not raise set-bonus trigger rates (T1 8pc, T2 3pc) but raises item procs they trigger
+  - id: '1488852869212798987'
+    era: post-1.18.1
+    agreement: staff
+    claim: 'APRIL FOOLS: the 2026-04-01 "next patch" post was a joke (1488856415010291794), not a real change'
 talents:
-  build_name: Unchallenged 11/8/30 (+2) raid Ret; variant with Precision instead of Holy filler when hit is lacking
-  build_link: https://talents.turtlecraft.gg/paladin?points=FAAAAAAAAAAAAAAoYAAAAAAAAAAAAoTAFKAYdIFABAA%3D
+  build_name: SoR spellret 11/8/32 (Mithreon, post-1.18.1)
+  build_link: https://xian55.github.io/tortoise-db-viewer/?talents=paladin&t=5000501-503-0523005123005051
+  build_link_note: Validated with pipeline2/talent_tool.py (VALID). tree_b64 FAAoB-FAY-AoTAFKYAFAFAB. Posted [[d:paladin#1491936698689388746]],
+    [[d:paladin#1440085972103594096]].
   points:
-  - tree: Retribution
-    talent: Benediction
-    rank: 5
-    spell_id: 20105
-    talent_id: 429
-  - tree: Retribution
-    talent: Deflection
-    rank: 5
-    spell_id: 20064
-    talent_id: 432
-  - tree: Retribution
-    talent: Pursuit of Justice
-    rank: 2
-    spell_id: 26023
-    talent_id: 436
-  - tree: Retribution
-    talent: Conviction
-    rank: 5
-    spell_id: 20121
-    talent_id: 434
-  - tree: Retribution
-    talent: Improved Retribution Aura
-    rank: 2
-    spell_id: 20092
-    talent_id: 433
-  - tree: Retribution
-    talent: Blessing of Kings
-    rank: 1
-    spell_id: 20217
-    talent_id: 435
-  - tree: Retribution
-    talent: Seal of Command
-    rank: 1
-    spell_id: 20375
-    talent_id: 441
-  - tree: Retribution
-    talent: Two-Handed Weapon Specialization
-    rank: 3
-    spell_id: 20113
-    talent_id: 437
-  - tree: Retribution
-    talent: Vengeance
-    rank: 1-5
-    spell_id: 20049
-    talent_id: 440
-  - tree: Retribution
-    talent: Vengeful Strikes
-    rank: 5
-    spell_id: 51359
-    talent_id: 442
-  - tree: Retribution
-    talent: Repentance
-    rank: 1
-    spell_id: 20066
-    talent_id: 443
-  - tree: Protection
-    talent: Redoubt
-    rank: 5
-    spell_id: 45822
-    talent_id: 462
-  - tree: Protection
-    talent: Precision
-    rank: 3
-    spell_id: 20193
-    talent_id: 463
   - tree: Holy
     talent: Divine Strength
     rank: 5
     spell_id: 20266
-    talent_id: 444
   - tree: Holy
-    talent: Spiritual Focus
-    rank: 2
-    spell_id: 20206
-    talent_id: 447
+    talent: Improved Seal of Righteousness
+    rank: 5
+    spell_id: 20332
   - tree: Holy
-    talent: Holy Judgement
-    rank: 3
-    spell_id: 51308
-    talent_id: 446
-  - tree: Holy
-    talent: Sanctity Aura (spell build) / Improved Judgement / Guardian's Favor (leftovers)
-    rank: 1-2
+    talent: Sanctity Aura
+    rank: 1
     spell_id: 20218
-    talent_id: 450
+  - tree: Protection
+    talent: Improved Devotion Aura
+    rank: 5
+    spell_id: 20142
+  - tree: Protection
+    talent: Precision
+    rank: 3
+    spell_id: 20193
+  - tree: Retribution
+    talent: Benediction
+    rank: 5
+    spell_id: 20105
+  - tree: Retribution
+    talent: Improved Judgement
+    rank: 2
+    spell_id: 25957
+  - tree: Retribution
+    talent: Improved Seal of the Crusader
+    rank: 3
+    spell_id: 20337
+  - tree: Retribution
+    talent: Conviction
+    rank: 5
+    spell_id: 20121
+  - tree: Retribution
+    talent: Blessing of Kings
+    rank: 1
+    spell_id: 20217
+  - tree: Retribution
+    talent: Pursuit of Justice
+    rank: 2
+    spell_id: 26023
+  - tree: Retribution
+    talent: Two-Handed Weapon Specialization
+    rank: 3
+    spell_id: 20113
+  - tree: Retribution
+    talent: Vengeance
+    rank: 5
+    spell_id: 20059
+  - tree: Retribution
+    talent: Vengeful Strikes
+    rank: 5
+    spell_id: 51359
+  - tree: Retribution
+    talent: Repentance
+    rank: 1
+    spell_id: 20066
+  alternative_points:
+    build_name: SoC AP Ret 11/8/32 (Divine Intellect instead of Imp SoR, Seal of Command 1, Pursuit of Justice 1) - FoAAB-FAY-AoTAFJYAFIFAB
+    build_link: https://xian55.github.io/tortoise-db-viewer/?talents=paladin&t=5500001-503-0523005113005151
+    points:
+    - tree: Holy
+      talent: Divine Strength
+      rank: 5
+      spell_id: 20266
+    - tree: Holy
+      talent: Divine Intellect
+      rank: 5
+      spell_id: 20261
+    - tree: Holy
+      talent: Sanctity Aura
+      rank: 1
+      spell_id: 20218
+    - tree: Protection
+      talent: Improved Devotion Aura
+      rank: 5
+      spell_id: 20142
+    - tree: Protection
+      talent: Precision
+      rank: 3
+      spell_id: 20193
+    - tree: Retribution
+      talent: Benediction
+      rank: 5
+      spell_id: 20105
+    - tree: Retribution
+      talent: Improved Judgement
+      rank: 2
+      spell_id: 25957
+    - tree: Retribution
+      talent: Improved Seal of the Crusader
+      rank: 3
+      spell_id: 20337
+    - tree: Retribution
+      talent: Conviction
+      rank: 5
+      spell_id: 20121
+    - tree: Retribution
+      talent: Blessing of Kings
+      rank: 1
+      spell_id: 20217
+    - tree: Retribution
+      talent: Pursuit of Justice
+      rank: 1
+      spell_id: 26022
+    - tree: Retribution
+      talent: Two-Handed Weapon Specialization
+      rank: 3
+      spell_id: 20113
+    - tree: Retribution
+      talent: Vengeance
+      rank: 5
+      spell_id: 20059
+    - tree: Retribution
+      talent: Seal of Command
+      rank: 1
+      spell_id: 20375
+    - tree: Retribution
+      talent: Vengeful Strikes
+      rank: 5
+      spell_id: 51359
+    - tree: Retribution
+      talent: Repentance
+      rank: 1
+      spell_id: 20066
+  variants:
+  - Necrodin runs the same 11/8/32 split [[d:paladin#1482388807482605599]] [[d:paladin#1491160087232778311]]
+  - Drop Precision for Improved SoR/other points once gear covers 8% hit (SoR); SoC keeps Precision until T3 [[d:paladin#1458178660438773955]]
+    [[d:paladin#1458178883974074631]]
+  - Jesse Potter SoC 13/0/38 with Improved Blessings 5 + Unyielding Faith 2 instead of the Protection points [[d:paladin#1455494544207380624]]
+  - AoE farming 0/26/25 (Reckoning, Holy Shield, Imp Ret Aura, Vengeance) [[d:paladin#1491414001979228363]]
   leveling_order:
   - level: 10
+    tree: Retribution
+    talent: Benediction
+  - level: 11
+    tree: Retribution
+    talent: Benediction
+  - level: 12
+    tree: Retribution
+    talent: Benediction
+  - level: 13
+    tree: Retribution
+    talent: Benediction
+  - level: 14
     tree: Retribution
     talent: Benediction
   - level: 15
     tree: Retribution
     talent: Deflection
+  - level: 16
+    tree: Retribution
+    talent: Deflection
+  - level: 17
+    tree: Retribution
+    talent: Deflection
+  - level: 18
+    tree: Retribution
+    talent: Improved Judgement
+  - level: 19
+    tree: Retribution
+    talent: Improved Judgement
   - level: 20
+    tree: Retribution
+    talent: Pursuit of Justice
+  - level: 21
     tree: Retribution
     talent: Pursuit of Justice
   - level: 22
     tree: Retribution
     talent: Conviction
+  - level: 23
+    tree: Retribution
+    talent: Conviction
+  - level: 24
+    tree: Retribution
+    talent: Conviction
   - level: 25
     tree: Retribution
     talent: Improved Retribution Aura
+  - level: 26
+    tree: Retribution
+    talent: Improved Retribution Aura
+  - level: 27
+    tree: Retribution
+    talent: Two-Handed Weapon Specialization
+  - level: 28
+    tree: Retribution
+    talent: Two-Handed Weapon Specialization
   - level: 29
     tree: Retribution
-    talent: Blessing of Kings
+    talent: Two-Handed Weapon Specialization
   - level: 30
     tree: Retribution
     talent: Seal of Command
   - level: 31
     tree: Retribution
-    talent: Two-Handed Weapon Specialization
+    talent: Conviction
+  - level: 32
+    tree: Retribution
+    talent: Conviction
+  - level: 33
+    tree: Retribution
+    talent: Vengeance
   - level: 34
     tree: Retribution
     talent: Vengeance
   - level: 35
     tree: Retribution
+    talent: Vengeance
+  - level: 36
+    tree: Retribution
+    talent: Vengeance
+  - level: 37
+    tree: Retribution
+    talent: Vengeance
+  - level: 38
+    tree: Retribution
+    talent: Vengeful Strikes
+  - level: 39
+    tree: Retribution
     talent: Vengeful Strikes
   - level: 40
     tree: Retribution
-    talent: Repentance
+    talent: Vengeful Strikes
   - level: 41
+    tree: Retribution
+    talent: Vengeful Strikes
+  - level: 42
+    tree: Retribution
+    talent: Vengeful Strikes
+  - level: 43
+    tree: Protection
+    talent: Redoubt
+  - level: 44
+    tree: Protection
+    talent: Redoubt
+  - level: 45
     tree: Protection
     talent: Redoubt
   - level: 46
     tree: Protection
+    talent: Redoubt
+  - level: 47
+    tree: Protection
+    talent: Redoubt
+  - level: 48
+    tree: Protection
     talent: Precision
   - level: 49
+    tree: Protection
+    talent: Precision
+  - level: 50
+    tree: Protection
+    talent: Precision
+  - level: 51
+    tree: Retribution
+    talent: Deflection
+  - level: 52
+    tree: Retribution
+    talent: Deflection
+  - level: 53
     tree: Holy
     talent: Divine Strength
   - level: 54
     tree: Holy
-    talent: Spiritual Focus
+    talent: Divine Strength
+  - level: 55
+    tree: Holy
+    talent: Divine Strength
   - level: 56
     tree: Holy
-    talent: Holy Judgement
+    talent: Divine Strength
+  - level: 57
+    tree: Holy
+    talent: Divine Strength
+  - level: 58
+    tree: Holy
+    talent: Divine Intellect
   - level: 59
     tree: Holy
-    talent: Sanctity Aura / Improved Judgement / Improved Lay on Hands / Vengeance
-  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=paladin&t=5032001-053-0500525123001151
-  build_link_tortoise_note: 'Generated from the sourced points list (50 points: Holy 11, Protection 8, Retribution 31); the
+    talent: Divine Intellect
+  - level: 60
+    tree: Retribution
+    talent: Repentance
+  leveling_note: 'Ret questing order 10-60 (VALID, ends 7/8/36; respec to 11/8/32 at 60). Checkpoints match Mithreon: 30 =
+    --AoQYTCYAAI [[d:paladin#1440662105140236349]], 50 = -AoY-AoQYVCYAFIF [[d:paladin#1440662371684192306]]. Guide: guide/classes/paladin/leveling.md'
+  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=paladin&t=5000501-503-0523005123005051
+  build_link_tortoise_note: 'Generated from the sourced points list (51 points: Holy 11, Protection 8, Retribution 32); the
     calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
+leveling_by_bracket:
+- bracket: 10-29
+  advice: Ret talents (Benediction, Deflection, Imp Judgement, PoJ, Conviction, Imp Ret Aura, 2H spec); Seal of Righteousness;
+    Holy Strike for Holy Might, Crusader Strike filler; judge only to execute
+  sources:
+  - '[[d:paladin#1491887233761017987]]'
+  - '[[d:paladin#1473978111036100679]]'
+  - '[[d:paladin#1458518892631822591]]'
+  era: post-1.18.1
+  agreement: consensus
+- bracket: '30'
+  advice: Seal of Command talent at 30 (20 in Classic); rank 1 SoC as main seal from here
+  sources:
+  - '[[d:paladin#1440662105140236349]]'
+  - '[[d:paladin#1459751386014027960]]'
+  - '[[d:paladin#1458518731494789295]]'
+  era: post-1.18.1
+  agreement: consensus
+- bracket: 31-50
+  advice: Conviction 5, Vengeance 5, Vengeful Strikes 5, then Redoubt 5 + Precision 3
+  sources:
+  - '[[d:paladin#1440662371684192306]]'
+  - '[[d:paladin#1456918732579279054]]'
+  era: 1.18.1-announced-pre-release
+  agreement: consensus
+- bracket: 51-60
+  advice: Anything; Repentance and Sanctity last; respec to 11/8/32 at 60
+  sources:
+  - '[[d:paladin#1440662571471605780]]'
+  - '[[d:paladin#1456920821196001355]]'
+  era: 1.18.1-announced-pre-release
+  agreement: consensus
 stat_weights:
-  hit: cap first (8-9% for 2H; weapon skill 315 for glancing)
-  strength_attack_power: 1 (AP build)
-  crit: high (AP build)
-  haste: medium (AP build, spreadsheet claim)
-  spell_power: 1 (spell/hybrid build with Seal of Righteousness, Consecration, Exorcism)
-  intellect: 'medium (spell build: spell crit, mana)'
+  hit: 8% melee hit first (1H and 2H) [[d:paladin#1436561953936904222]] [[d:paladin#1487251547690631323]]
+  spell_power: 'SoR: top stat after hit; SP enchants beat 1% haste (except with Nightfall) [[d:paladin#1492380383113777264]]
+    [[d:paladin#1459081396164235478]]'
+  strength_attack_power: 'SoC: Strength scales linearly; 300 Str ~ 1200 AP [[d:paladin#1489018254000132147]] [[d:paladin#1493595800100671668]];
+    for SoR Str is worth < 1/5 of SP [[d:paladin#1471986527763697664]]'
+  crit: 'SoC: crit to ~33% unbuffed (or ~51% with rogue + feral buffs) [[d:paladin#1463424900730720481]] [[d:paladin#1491996354736685057]];
+    SoR: 20-30% buffed is enough [[d:paladin#1430031868757147749]]'
+  haste: good for both; multiplicative; ~1:1 damage for SoC; only counts in whole extra swings [[d:paladin#1469423761663987895]]
+    [[d:paladin#1459215039964778649]] [[d:paladin#1482266634373824594]]
+  agility: 'SoC: agility enchants until the crit target, then Strength [[d:paladin#1490760393474179112]]'
+  weapon_skill: 310 plenty (SoR), 315 good (SoC), >315 wasted [[d:paladin#1488219693293633586]]
+  spell_hit_spell_crit: 'near zero: only Exorcism/Holy Wrath/Consecration use spell hit; spell crit only Ashbringer proc/Exorcism/Holy
+    Wrath [[d:paladin#1469407077146300591]] [[d:paladin#1482263530567635096]]'
+  fortune: weak; take only on otherwise-good items [[d:paladin#1483896373240926438]] [[d:paladin#1483896631094022194]]
   spirit: '0'
 caps:
-  melee_hit: 8% (2H, per Bigsmerf) - 9% per Snadileoboy
-  weapon_skill: 315 recommended
+  melee_hit: 8% vs raid bosses [[d:paladin#1436561953936904222]]
+  weapon_skill: 0.2% hit per point above 300 up to 315; 5 skill = 1% hit [[d:paladin#1455656068913958912]] [[d:paladin#1488982232482840768]]
+  glancing: ~40% glance chance fixed; 95% damage at 315 [[d:paladin#1468298257485529184]]
+  soc_crit_breakpoints: 33% / 42% / 52% (contested) [[d:paladin#1468068189547139164]] vs [[d:paladin#1468074643964432495]]
 rotation_single:
 - priority: 1
-  action: Blessings, Sanctity (spell) or Retribution Aura, Seal up, /startattack
-  condition: pre-pull
+  action: 'Seal of Righteousness (SoC build: Seal of Command)'
+  condition: seal missing and an auto will land within the GCD; never auto-attack without a seal [[d:paladin#1485694401534496800]]
 - priority: 2
-  action: Judgement (Wisdom for sustain; Command/Righteousness when mana is full)
-  condition: on arrival, then on cooldown; re-seal immediately, timed so the seal is up before the next white swing
+  action: Holy Strike
+  condition: Zeal 3 stacks and Holy Might <= 6 s or missing; also the opener (no Sunders yet) [[d:paladin#1483566674870534344]]
+    [[d:paladin#1483567863577968650]]
 - priority: 3
   action: Crusader Strike
-  condition: Zeal < 3 stacks, or Holy Might has > 6 s left
+  condition: Zeal < 3 stacks or expiring within 4 s [[d:paladin#1483566674870534344]]
 - priority: 4
-  action: Holy Strike
-  condition: Zeal at 3 and Holy Might missing or < 6 s left (AP build); spell Ret in K40 largely skips it
+  action: Judgement (Righteousness/Command, or assigned Crusader/Wisdom) then re-seal
+  condition: right after an auto lands and no strike is about to come off cooldown [[d:paladin#1485694441124659462]] [[d:paladin#1471558463229526216]]
 - priority: 5
   action: Exorcism
-  condition: Undead/Demon target, on cooldown
+  condition: target is Undead or Demon
 - priority: 6
   action: Hammer of Wrath
-  condition: target < 20% health
+  condition: target < 20% and no strike delayed; optional (low value) [[d:paladin#1441422778774454365]]
 - priority: 7
-  action: Repentance
-  condition: boss (immune) target for the repent tick, on cooldown
+  action: Crusader Strike or Holy Strike (whichever hits harder)
+  condition: keep both Zeal and Holy Might up; CS usually wins vs sundered bosses, HS on unsundered trash; SoC prioritises
+    Holy Might, SoR prioritises Zeal [[d:paladin#1494198526383751270]] [[d:paladin#1482302289338433606]]
 - priority: 8
-  action: Consecration (max rank)
-  condition: spell build only, mana sustained by Wisdom and +dmg items
+  action: Repentance
+  condition: on cooldown on stun-immune bosses (free damage) [[d:paladin#1438268353134465074]]
 - priority: 9
-  action: Cleanse / Hand of Freedom / Hand of Protection
-  condition: free GCD and a raid member needs it
+  action: Consecration
+  condition: 2+ targets or spare mana; single target only in high-tier gear [[d:paladin#1492066318159970314]]
+- priority: 10
+  action: Wait ~2 s after a Windfury proc before the next strike/Judgement
+  condition: Windfury Totem present [[d:paladin#1483022433265913865]]
+opener:
+- 'Pre-pull: Blessings, Sanctity Aura (Ret Aura until you have it), seal, /startattack [[d:paladin#1485640207486419077]]'
+- Exorcism at 30 yd (Undead/Demon), Repentance at 20 yd, Judgement at 10 yd [[d:paladin#1431384317849894992]]
+- Judge Seal of the Crusader if you are the Crusader judge (bosses only), re-seal [[d:paladin#1484613629444624405]]
+- Holy Strike first, then Crusader Strike for Zeal; trinkets/Juju/haste potion a few GCDs in [[d:paladin#1455493072661250152]]
 rotation_aoe:
 - targets_min: 2
   priority: 1
-  action: stay on the Wisdom-judged target; Judgement of Righteousness/Command on the secondary if it will live
-  condition: mana
-- targets_min: 2
-  priority: 2
-  action: Holy Strike for party health/mana
-  condition: trash dies before Zeal ramps
+  action: single-target loop on the Judgement of Wisdom target; Consecration if mana allows
+  condition: 2-3 targets [[d:paladin#1462893175369764917]]
 - targets_min: 4
   priority: 1
-  action: Consecration (max rank; lower rank when mana is short)
-  condition: 4+ targets; spell build on cooldown, AP build only with spare mana
+  action: Consecration on cooldown (rank 1 when mana is short)
+  condition: 4+ targets; SoR scales it with spell power [[d:paladin#1428535994558185594]] [[d:paladin#1489847158504165416]]
+- targets_min: 4
+  priority: 2
+  action: Goblin Sapper Charge
+  condition: non-immune packs [[d:paladin#1428687306520395776]]
+- targets_min: 2
+  priority: 3
+  action: Holy Wrath
+  condition: Undead packs only [[d:paladin#1483203053690814634]]
 aoe_threshold: 4
 cooldowns:
-- name: Divine Shield
-  use_when: threat drop or survival; keep attacking at -60% damage
-- name: Zeal (Crusader Strike x3)
-  use_when: maintain; ~18 s to build, 30 s duration
-- name: Holy Might (Holy Strike)
-  use_when: maintain, 20 s duration, refresh under 6 s
+- name: Trinkets / Juju Flurry / Potion of Quickness
+  use_when: 2-3 GCDs into the fight with Zeal and Vengeance up [[d:paladin#1455493072661250152]] [[d:paladin#1484608557075660910]]
+- name: Perception (Human)
+  use_when: with the other cooldowns
 - name: Repentance
-  use_when: on cooldown on bosses; CC on players/mobs in PvP/dungeons
+  use_when: 60 s cooldown; free damage on immune bosses, CC on others
+- name: Divine Shield
+  use_when: survival or threat drop only; halves healing done and taken [[d:paladin#1467173434726547698]]
+- name: Zeal / Holy Might upkeep
+  use_when: always; Zeal is 3 x 5% haste stacks for 30 s, Holy Might +20% Strength [[d:paladin#1436340559315734589]] [[d:paladin#1436321352041627648]]
 resource_rules:
-- Seal/Judgement of Wisdom is the mana engine; avoid target swapping away from the judged mob
-- Seal of Command rank 1 on trash / low mana (ranks only change the judgement)
-- Fiery Plate Gauntlets or other +dmg items on mana-heavy fights for extra Wisdom procs
-- Mana elixirs + Brilliant Mana Oil; Tel'Abim (no Windfury/mana totems) is mana-starved
-- 'Buff-cap: track Zeal/Holy Might by timers, not buff icons, in raids'
+- Judgement of Wisdom is the mana engine; SoR needs 1-2 spellstrike items with a 1H, 2-3 with a 2H when no WF/FTT [[d:paladin#1489845996233031700]]
+- 'Out of mana, in order: more teas/mana pots -> Consecration rank 1 -> Holy Strike as filler -> stop JoR -> stop Consecration
+  [[d:paladin#1489847158504165416]]'
+- 'Last 1-2 mobs of a pack: Seal of Wisdom for 1-2 swings [[d:paladin#1485702321647124602]]'
+- If another paladin keeps JoW up, judge Crusader/Righteousness instead [[d:paladin#1485694548406440087]]
+- 'Buff cap: cancel low-value buffs (Blessing of Light/Sanctuary, Thorns, Healing Way, Inspiration); buffs past the cap still
+  work but break buff-checking macros [[d:paladin#1469539640288608298]] [[d:paladin#1469534733242339359]]'
+- 'One libram per fight: every in-combat swap costs a GCD (1.18.1)'
+librams:
+- name: Libram of Ardour
+  effect: +1 Seal of Command PPM
+  use: SoC default, also short fights [[d:paladin#1488558737147957258]] [[d:paladin#1493046992148893806]]
+- name: Libram of the Eternal Tower
+  effect: shorter strike cooldown (~1 extra strike/min)
+  use: fights > ~60 s; SoR bosses [[d:paladin#1488594571410804847]] [[d:paladin#1485886655469457459]]
+- name: Libram of Fervor
+  effect: improves Judgement of the Crusader
+  use: best pre-raid DPS libram [[d:paladin#1470305106711805994]]
+- name: Libram of Final Judgement
+  effect: bonus below 35% HP; 8% SP since 1.18.1
+  use: execute
 consumables:
-- Flask of Supreme Power + spell power elixirs (spell build)
-- Dragonbreath Chili
-- Elemental Sharpening Stone (AP) or Shadow Oil (SP) when no Windfury totem
-- 'enchants (guide): Voracity arcanum, Zandalar Signet of Might, Subtlety cloak, Greater Stats chest, Superior Strength bracer,
-  Greater Strength/Superior Agility/Minor Haste gloves, Greater Agility or Minor Speed boots, 2H Agility/Strength/Crusader'
+- Flask of Supreme Power; Concoction of the Emerald Mongoose, Arcane Giant, Dreamwater; R.O.I.D.S. or Scorpok; 20 Str/haste/SP
+  food or Dragonbreath Chili; Elemental Sharpening Stone (SoC) or Wizard Oil (SoR); Consecrated stone/oil vs Undead [[d:paladin#1494325796440113223]]
+  [[d:paladin#1483869100772950066]]
+- Juju Flurry, Potion of Quickness (haste = more SoR hits) [[d:paladin#1484608557075660910]]
+- Goblin Sapper Charges on AoE [[d:paladin#1428687306520395776]]; mana potions and teas
+- 'Enchants: weapon Crusader [[d:paladin#1444192866480951437]] (+30 SP only on low-proc fast weapons [[d:paladin#1446469126242566216]]);
+  head/legs +12 SP (SoR) or Agility/Strength (SoC); gloves +9 SP; rings +3 stats or +5 SP [[d:paladin#1460637356473454633]];
+  Naxx shoulder enchant [[d:paladin#1490760393474179112]]'
+- 'Windfury Totem is an aura: an oil or stone goes on top [[d:paladin#1466355155216633919]]'
+gear:
+  weapons_sor: Demonsbane (AD exalted) / Tempered Runeblade / Shadowstrike -> Untamed Blade (BWL) -> Pysan's New Greatsword
+    (TMH20) -> Corrupted Ashbringer [[d:paladin#1494007306545791147]] [[d:paladin#1489550904184143953]] [[d:paladin#1466910887225852207]]
+  weapons_soc: Demonsbane -> Obsidian Edged Blade -> UTB -> Might of Menethil / Shar'tateth [[d:paladin#1427586215435309056]]
+    [[d:paladin#1464120221412626466]]
+  sets: Soulforge 4pc until BWL; T2 3pc required for SoR; T2.5 5pc BiS through Naxx; T3.5 5pc in K40 [[d:paladin#1441901013807272118]]
+    [[d:paladin#1434497262985154671]] [[d:paladin#1464113164659589288]] [[d:paladin#1469230019279589396]]
+  necrodin: 3x Ret T2 + 3x Prot T2 + 3pc The Lost + Sunken Temple chest or Insomnius + fast weapon; swap to normal set on
+    trash [[d:paladin#1458887772537491599]] [[d:paladin#1465238562109919346]] [[d:paladin#1472800680434598134]]
+  key_items: Wrath of Cenarius, Sigil of Ancient Accord (T2 3pc only), Ring of Burning Talons, Kiss of the Spider [[d:paladin#1450304223454691438]]
+    [[d:paladin#1475109939650363394]] [[d:paladin#1492194694179066080]] [[d:paladin#1430248290200457346]]
 mistakes_to_avoid:
-- Mixing AP gear with an SP weapon or vice versa
-- Raiding under hit cap / with low weapon skill
-- Target swapping off the Wisdom target and running out of mana
-- Spamming Consecration as AP Ret
-- Letting Holy Might / Zeal expire; buff-icon macros at the raid buff cap
-- Judging right before a white swing so the seal is down for the hit
-- Expecting Fiery Weapon or +dmg items to proc Seal of Command
+- Auto-attacking without a seal (judging right before a swing) [[d:paladin#1431381602033733664]]
+- Clipping strike cooldowns by over-prioritising Judgement/reseal [[d:paladin#1485691856963506186]]
+- 'Mixing gear types: Strength gear with SoR or SP weapon with SoC [[d:paladin#1445836991899111456]]'
+- Letting Zeal/Holy Might drop at pull or between packs [[d:paladin#1481935203877388298]]
+- Binding several seals + Judgement into one macro (>20% downtime) [[d:paladin#1431384577359745167]]
+- Raiding under 8% hit or above 315 weapon skill [[d:paladin#1488219693293633586]]
+- Improved Blessings on SoR; Vindication in PvE [[d:paladin#1458179706682736732]] [[d:paladin#1431510211994058812]]
+- Libram swapping mid-fight (costs a GCD since 1.18.1)
+- Necrodin with only one T2 3pc, or on trash [[d:paladin#1470319054094073979]] [[d:paladin#1472800680434598134]]
+- Treating the 2026-04-01 "next patch" post as real (April Fools) [[d:paladin#1488852869212798987]]
+supersedes:
+- claim: Forum gap "So how does the SoC work out?" after 1.18.1
+  verdict: 'Dummy test: SoC + Libram of Ardour ~30 DPS ahead of SoR in the same gear; raid logs still favour SoR at the top'
+  sources:
+  - '[[d:paladin#1486723603952046090]]'
+  - '[[d:paladin#1493184429906989217]]'
+- claim: Forum build link labelled 11/8/30 (+2)
+  verdict: Decodes to an old-tree build; the current 11/8/32 SoR/SoC trees are the pinned Mithreon builds
+  sources:
+  - '[[d:paladin#1491936698689388746]]'
+- claim: 'Earlier copy of this file: "next patch announced 2026-04-01" (spellstrikes stop proccing etc.)'
+  verdict: April Fools joke, not a patch
+  sources:
+  - '[[d:paladin#1488852869212798987]]'
+  - '[[d:paladin#1488856415010291794]]'
+next_patch_announced:
+  announced: '2026-04-01'
+  status: NOT REAL - April Fools joke by the paladin developer
+  author: Lhian (developer/staff)
+  sources:
+  - '[[d:paladin#1488852869212798987]]'
+  - '[[d:paladin#1488856415010291794]]'
+  items: []
+  note: Kept only so older copies of this file that treated it as real are visibly corrected.
+boss_notes:
+- boss: Fire-immune bosses (Ragnaros, Firemaw, Ebonroc, Flamegor, Nefarian, Onyxia)
+  note: fire procs do nothing; swap Chili for other food in MC/BWL [[d:paladin#1467471277177704519]] [[d:paladin#1490048032719372551]]
+  era: post-1.18.1
+- boss: Chromaggus / Firemaw (BWL)
+  note: Rets rip threat with damage-taken debuffs up [[d:paladin#1493214523694256268]] [[d:paladin#1493491932410679426]]
+  era: post-1.18.1
+- boss: Nefarian (BWL)
+  note: paladin class call is cleared by any paladin's BoP or Divine Shield [[d:paladin#1471659438925549761]]
+  era: 1.18.1-announced-pre-release
+- boss: Feugen & Stalagg (Naxx)
+  note: Ret goes to the left miniboss [[d:paladin#1493293616855257250]]
+  era: post-1.18.1
+- boss: Twin Emperors (AQ40)
+  note: leave with ~4 s after a fresh Consecration + Repentance [[d:paladin#1431390436940972043]]
+  era: 1.18.1-announced-pre-release
+- boss: Kruul (K40)
+  note: drag each new Infernal out of the melee stack with Exorcism + Judgement in fire resist gear [[d:paladin#1457970802442899541]]
+  era: 1.18.1-announced-pre-release
+- boss: Onyxia's Lair new boss
+  note: trash fire debuff on melee must be dispelled; drops Libram of Ardour [[d:paladin#1484605320193114394]]
+  era: post-1.18.1
+- boss: Flametongue Totem bug (April 2026)
+  note: FTT scaled with SP and inflated SoR/Necrodin parses [[d:paladin#1493259558431494244]]
+  era: post-1.18.1

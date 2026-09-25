@@ -37,6 +37,21 @@ Not documented for PvP. See `arcane-ranged-dps.md` for PvE weights; a warrior-fo
 3. Starting the PoM-Rupture opener without Polymorph or range — "Maybe dont let arcane mage freecast on you" is the counter-advice; the mirror is that a bot should not freecast into an un-CC'd melee.
 4. Fighting shamans at mid range (Earth Shock range; amanagor's duel claim).
 
+## Discord additions (post-1.18.1; some claims 1.18.1-announced-pre-release)
+
+The archived `#mage` Discord adds PvP reports from the **1.18.1-announced-pre-release** (2025-10-03 .. 2026-03-19) and **post-1.18.1** windows, plus a stat priority. Era tags: **pre-1.18.1**, **1.18.1-announced-pre-release**, **post-1.18.1**.
+
+- **Damage dampening is real and reported as severe:** "cone of cold is supposed to hit for ~350 … i hit someone for 71 … with 700 spellpower" [[d:mage#1485311972139335833]]; "you need at least 13–15 frostbolts to kill the average pvp geared melee" [[d:mage#1491110087388037304]] (**post-1.18.1, consensus** that the reports exist; the dampening values were never published).
+- **Arcane PoM → Rupture → Missiles is the kill pattern:** "PoM+Trinket+Arcane Rupture one shots when it crits, doubles and instability keep you going" [[d:mage#1491794197773156493]]; Missiles follow the Rupture because "the range/LoS is all sorts of broken" [[d:mage#1491794484428537888]]; it surprises warlocks [[d:mage#1485360017107451977]] (**post-1.18.1, consensus**).
+- **Deep Frost is weak post-nerf** — the "better to play deep arcane with iceblock" recommendation is **1.18.1-announced-pre-release** (2025-12-06): "frost sucks in pvp now … better to play deep arcane with iceblock" [[d:mage#1446952036661723289]]; the Icicles complaint is **post-1.18.1** (2026-04-08): "there's no point playing deep frost anymore unless you fc icicles nerf hit too hard" [[d:mage#1491498337088573571]]. Mages still play Frost for control in team fights [[d:mage#1491543407754219811]].
+- **Stat priority PvP: crit > spell power > haste, plus solid stamina** [[d:mage#1446156953347686441]] (**1.18.1-announced-pre-release**, single source).
+- **Free Action Potion is the standard melee counter to mage** [[d:mage#1446915765461581934]].
+- **Matchups/races:** paladins/shamans dominate team fights [[d:mage#1491110398357798913]]; rogues/shamans top the meta [[d:mage#1430916238699397321]]; vs warriors use Dampen Magic + deadzone Intercept [[d:mage#1491500856984600709]]; warlocks can one-shot [[d:mage#1485360017107451977]]. Gnome Escape Artist [[d:mage#1043563538557448302]], Undead WotF [[d:mage#1493740921232031906]], Orc/Troll damage [[d:mage#1447253910875017238]], High Elf speedrun mana [[d:mage#1494293691227963503]]. "PomBlock" (PoM + Ice Block) remains the recommended annoying-BG build [[d:mage#1491779826992939130]].
+
+Open after Discord: no published 1.18.1 per-class dampening numbers for mage; no current Arcane PvP talent allocation in text.
+
 ## Sources
 
 Staff: [Jamey p113460 (2024-12-20)](https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460); [Torta p124504 (2025-03-30)](https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504); [Jamey p166071 (2026-01-23)](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071). Players: Likaleo p122357, p114472; Cheruscan p158193; Terrydavis p162458; Eluaria p167923; Manletow p107344, p114495, p154523, p157292; Forumdweller p131096, p131107, p132087, p132193, p134850; Kibuum p107372; Bahamutxd p114805; Halfgeek9 p134966, p134982; Laysson p134977; Atreidon p135012; Boeuff p114456; Schoop123 p107572; Redmagejoe p103299; Xudo p103310. Agreement: the PoM → Rupture → Missiles opener — consensus (described identically by attacker and victims); everything else single source.
+
+Discord sources (archived `#mage`, post-1.18.1 unless noted): [[d:mage#1491794197773156493]], [[d:mage#1485360017107451977]], [[d:mage#1491794484428537888]], [[d:mage#1446952036661723289]], [[d:mage#1491498337088573571]], [[d:mage#1491543407754219811]], [[d:mage#1485311972139335833]], [[d:mage#1491110087388037304]], [[d:mage#1446156953347686441]], [[d:mage#1446915765461581934]], [[d:mage#1491110398357798913]], [[d:mage#1430916238699397321]], [[d:mage#1491500856984600709]], [[d:mage#1043563538557448302]], [[d:mage#1493740921232031906]], [[d:mage#1447253910875017238]], [[d:mage#1494293691227963503]], [[d:mage#1491779826992939130]].

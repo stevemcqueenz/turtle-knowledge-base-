@@ -1,6 +1,7 @@
 class: Priest
 spec: Holy
 role: healer
+guide: guide/classes/priest/holy.md
 sources:
 - url: https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325
   author: Langorn
@@ -54,128 +55,590 @@ sources:
   author: Dragunovi
   authority: staff
   date: '2024-10-12'
+- cite: '[[d:priest#1488039697971281981]]'
+  author: Bluefear
+  authority: player (Holy raider)
+  date: '2026-03-30'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:priest#1492115676935229451]]'
+  author: Istrefi
+  authority: player (Holy raider)
+  date: '2026-04-10'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:priest#1487035175626997761]]'
+  author: Lirya
+  authority: player (Holy raider)
+  date: '2026-03-27'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:priest#1484561705487958016]]'
+  author: Bluefear
+  authority: player (tested)
+  date: '2026-03-20'
+  era: post-1.18.1
+  agreement: consensus
 agreement: consensus
 patch_validity:
-  written_for: 1.17.2/1.18.0 (pre-1.18.1); staff 1.18.1 changes merged
-  valid_for_1181: unknown
-  notes: Rotation and stat priority hold. Talent build is a reconstruction of the pre-1.18.1 17/34/0 shape; 1.18.1 removed
+  written_for: 1.17.2/1.18.0 (pre-1.18.1); staff 1.18.1 changes merged; post-1.18.1 build added from Discord
+  valid_for_1181: true
+  notes: Rotation and stat priority hold. The 1.18.1 raid allocation is now the Discord-documented 14/37/0 (Spiritual Guidance
+    cut to 1-2/5, points into Holy Reach + Reservoir of Light), not the pre-1.18.1 17/34/0 reconstruction. 1.18.1 removed
     Proclaim Champion (Ascendance capstone instead), added Book of Prayer, reworked Lightwell/Reservoir of Light/Prayer of
-    Healing and raised Heal/Greater Heal/Flash Heal base values. No post-release full build was posted.
+    Healing and raised Heal/Greater Heal/Flash Heal base values.
+discord:
+  channel: priest
+  era_legend: pre-1.18.1 <2025-10-03 | 1.18.1-announced-pre-release 2025-10-03..2026-03-19 | post-1.18.1 >=2026-03-20 | mixed
+    spans more than one era
+  sources:
+  - id: '1484246385447403711'
+    author: Snackz
+    date: '2026-03-19'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    used_for: post-1.18.1 Holy raid build 14/37/0 screenshot; Book of Prayer + Lightwell evaluation
+    cite: '[[d:priest#1484246385447403711]]'
+  - id: '1484637943099424838'
+    author: Kabooble
+    date: '2026-03-20'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: independent 14/37/0 screenshot (drop Spiritual Guidance for utility)
+    cite: '[[d:priest#1484637943099424838]]'
+  - id: '1484950685589045288'
+    author: Kabooble
+    date: '2026-03-21'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: Holy Reach investment to support PoH usage
+    cite: '[[d:priest#1484950685589045288]]'
+  - id: '1484561705487958016'
+    author: Bluefear
+    era: post-1.18.1
+    agreement: consensus
+    used_for: Book of Prayer refunds across spell *types*, not ranks
+    cite: '[[d:priest#1484561705487958016]]'
+  - id: '1484570386963103745'
+    author: Bluefear
+    era: post-1.18.1
+    agreement: consensus
+    used_for: Reservoir of Light 3/3 ~ 4000 healing per boss fight, better than 3% crit
+    cite: '[[d:priest#1484570386963103745]]'
+  - id: '1484570397427892455'
+    author: Greendam
+    era: post-1.18.1
+    agreement: consensus
+    used_for: 'Empowered Recovery: 1 point enough for the extra Renew tick'
+    cite: '[[d:priest#1484570397427892455]]'
+  - id: '1484247243883286711'
+    author: Bluefear
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    used_for: Lightwell does not trigger from Prayer of Healing
+    cite: '[[d:priest#1484247243883286711]]'
+  - id: '1484527718639861891'
+    author: tomscorer
+    era: post-1.18.1
+    agreement: contested
+    used_for: Lightwell value contested (10 charges / 5-min CD not worth 3 points)
+    cite: '[[d:priest#1484527718639861891]]'
+  - id: '1428292872272089098'
+    author: SlekkeLekke
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    used_for: assignment-based priority (tank Renew + GH rank 1 pre-heal; group Renews/Shields/GH rank 1); parse-max flash-sniping
+      alternative
+    cite: '[[d:priest#1428292872272089098]]'
+  - id: '1484516862879465614'
+    author: Istrefi
+    era: post-1.18.1
+    agreement: single source
+    used_for: 'post-1.18.1 end-of-line example: Heal R3 then Renew'
+    cite: '[[d:priest#1484516862879465614]]'
+  - id: '1484205771913826304'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    used_for: post-1.18.1 PoH 40 yd initial / 30 yd chain; increased-range talent optional
+    cite: '[[d:priest#1484205771913826304]]'
+  - id: '1324338857688436816'
+    era: pre-1.18.1
+    agreement: consensus
+    used_for: 'fresh-60 stat line: healing power first, then mana regen (mp5/int/spirit)'
+    cite: '[[d:priest#1324338857688436816]]'
+  post_1181_mechanics:
+  - Book of Prayer refunds 15/30% mana only when the previous heal was a DIFFERENT spell type (Heal vs Greater Heal), NOT
+    a different rank of the same spell [[d:priest#1484561705487958016]].
+  - Reservoir of Light 3/3 ~ 4000 healing per boss fight, better than 3% crit [[d:priest#1484570386963103745]].
+  - 'Empowered Recovery: 1 point is enough (extra Renew tick); the 3% does not affect Renew itself [[d:priest#1484570397427892455]].'
+  - Lightwell does NOT trigger from Prayer of Healing [[d:priest#1484247243883286711]].
+  - 'Lightwell value contested: Snackz positive (great raid heal after bursts) vs tomscorer (10 charges / 5-min CD not worth
+    3 points) [[d:priest#1484246385447403711]], [[d:priest#1484527718639861891]].'
+  gear:
+    pre_raid_substitutions: 'over the classic WoWhead priest-healing list: Cowl of Mivax, Robes of the Exalted, Boots of the
+      Holy Mentor, Extremely Well Crafted Cuffs, Deepearth Signet, Consecrated Caduceus, Redemption staff [[d:priest#1388961040250703903]]'
+    raid_bis: 3pc T2 (bracers/gloves/boots) + 4pc T3 (head/shoulders/chest/ring) + Grasp of the Old God + Empowered Leggings
+      + Eye of the Dead/Rejuv/Breath + KT mace/Saph offhand/Raz wand; 'when you bring 10 healers just go 8T3 and spam flash'
+      [[d:priest#1325212797596078254]], [[d:priest#1325215890974969968]]
+    weapon: Staff of the Dreamer > Benediction / Rod of Resuscitation / AQ20 exalted (HolyScheiss) [[d:priest#1380839856040837210]]
+    warning: Vanilla/classic pre-raid BiS lists are 'almost completely wrong for Turtle' (Turtle adds +hit to leveling gear,
+      e.g. Robes of the Lich RFD +1% hit) [[d:priest#1324445705611378792]]; pre-raid farming is not worth over-investing because
+      the server is fully progressed [[d:priest#1330954147075199027]], [[d:priest#1335954787279175690]]
+    era: pre-1.18.1
+    agreement: consensus
 talents:
-  build_name: Deep Holy raid healer 17/34/0 (reconstructed for 1.18.1)
+  build_name: Post-1.18.1 Holy raid healer 14/37/0 (Bluefear)
+  build_source: '[[d:priest#1488039697971281981]], [[d:priest#1484569837060489267]], [[d:priest#1484588714758770728]]'
+  era: post-1.18.1
+  agreement: consensus (several independent 14/37/0 posts share the core)
+  code_tree_b64: AoDCBD-aAFCAZLoRYAoB-
+  code_b36_pair: 0UIC6I-K5237NDN6
+  validated: 'talent_tool.py build: VALID'
   points:
   - tree: Discipline
     talent: Mental Agility
     rank: 5
     spell_id: 14783
-    talent_id: 168
+  - tree: Discipline
+    talent: Unbreakable Will
+    rank: 3
+    spell_id: 14789
   - tree: Discipline
     talent: 'Improved Power Word: Fortitude'
     rank: 2
     spell_id: 14767
-    talent_id: 172
-  - tree: Discipline
-    talent: 'Improved Power Word: Shield'
-    rank: 3
-    spell_id: 14769
-    talent_id: 175
   - tree: Discipline
     talent: Inner Focus
     rank: 1
     spell_id: 14751
-    talent_id: 174
   - tree: Discipline
     talent: Meditation
     rank: 3
     spell_id: 14777
-    talent_id: 176
-  - tree: Discipline
-    talent: Improved Inner Fire
-    rank: 2
-    spell_id: 14770
-    talent_id: 173
-  - tree: Discipline
-    talent: Silent Resolve
-    rank: 1
-    spell_id: 14523
-    talent_id: 169
-  - tree: Holy
-    talent: Holy Focus
-    rank: 2
-    spell_id: 15012
-    talent_id: 185
   - tree: Holy
     talent: Improved Renew
     rank: 3
     spell_id: 17191
-    talent_id: 184
   - tree: Holy
-    talent: Divinity
-    rank: 5
-    spell_id: 15011
-    talent_id: 186
+    talent: Holy Focus
+    rank: 2
+    spell_id: 15012
   - tree: Holy
     talent: Divine Fury
     rank: 5
     spell_id: 18535
-    talent_id: 187
   - tree: Holy
-    talent: Holy Reach (optional; Langorn 17/34 variant - listed Holy talents exceed 34 by 2, so drop Holy Reach or Improved
-      Renew)
-    rank: 0
-    spell_id: 27789
-    talent_id: 189
-  - tree: Holy
-    talent: Holy Nova
-    rank: 1
-    spell_id: 15237
-    talent_id: 192
+    talent: Holy Reach
+    rank: 2
+    spell_id: 27790
   - tree: Holy
     talent: Inspiration
     rank: 3
     spell_id: 15363
-    talent_id: 191
+  - tree: Holy
+    talent: Holy Nova
+    rank: 1
+    spell_id: 15237
+  - tree: Holy
+    talent: Empowered Recovery
+    rank: 1
+    spell_id: 51484
   - tree: Holy
     talent: Improved Healing
     rank: 3
     spell_id: 15014
-    talent_id: 194
   - tree: Holy
     talent: Spiritual Guidance
     rank: 5
     spell_id: 15031
-    talent_id: 195
+  - tree: Holy
+    talent: Book of Prayer
+    rank: 2
+    spell_id: 52944
   - tree: Holy
     talent: Spirit of Redemption
     rank: 1
     spell_id: 20711
-    talent_id: 197
+  - tree: Holy
+    talent: Reservoir of Light
+    rank: 3
+    spell_id: 51488
   - tree: Holy
     talent: Spiritual Healing
     rank: 5
     spell_id: 15356
-    talent_id: 199
   - tree: Holy
     talent: Ascendance
     rank: 1
     spell_id: 52962
-    talent_id: 200
-  - tree: Holy
-    talent: Book of Prayer / Empowered Recovery / Reservoir of Light (unassigned flex, 0-3)
-    rank: 0
-    spell_id: 52943
-    talent_id: 196
-  leveling_order: []
-  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=priest&t=00510022133-32550003103501051
-  build_link_tortoise_note: 'Generated from the sourced points list (51 points: Discipline 17, Holy 34); the calculator shows
+  variants:
+  - name: 'More crit: Holy Reach 2 + Holy Nova 1 -> Divinity 3'
+    code_tree_b64: AoDCBD-aYFAAYLoRYAoB-
+    cite: '[[d:priest#1488039697971281981]]'
+    status: VALID
+  - name: Kabooble low Spiritual Guidance (2/5), Holy Reach 1, Divinity 5
+    code_tree_b64: AoDCBD-aoFBAYLQRYAoB-
+    cite: '[[d:priest#1484588714758770728]]'
+    status: VALID; single source
+  - name: Pre-1.18.1 17/34/0 and 21/30/0 Enlighten
+    status: obsolete (Proclaim Champion removed, Enlighten heal-proc nerfed)
+    cite: '[[d:priest#1478095132254277843]]'
+  talent_notes:
+  - 'Empowered Recovery: only the first point adds the extra Renew tick [[d:priest#1490554883042967562]]'
+  - 'Book of Prayer: refund only when the heal is a different spell (not a different rank); PW:S and Holy Nova do not count
+    [[d:priest#1484561705487958016]], [[d:priest#1484259678643945764]], [[d:priest#1485623406207434894]]'
+  - Reservoir of Light 3/3 ~ 4000 healing per boss fight via Lightwell, preferred over 3% crit [[d:priest#1489274146826227752]]
+  leveling_order_note: Priests level as Smite/Holy regardless of endgame spec; respec at 60 into this build (see guide/classes/priest/leveling.md)
+  leveling_order:
+  - level: 10
+    tree: Discipline
+    talent: Wand Specialization
+    rank: 1
+  - level: 11
+    tree: Discipline
+    talent: Wand Specialization
+    rank: 2
+  - level: 12
+    tree: Shadow
+    talent: Spirit Tap
+    rank: 1
+  - level: 13
+    tree: Shadow
+    talent: Spirit Tap
+    rank: 2
+  - level: 14
+    tree: Shadow
+    talent: Spirit Tap
+    rank: 3
+  - level: 15
+    tree: Shadow
+    talent: Spirit Tap
+    rank: 4
+  - level: 16
+    tree: Shadow
+    talent: Spirit Tap
+    rank: 5
+  - level: 17
+    tree: Holy
+    talent: Holy Focus
+    rank: 1
+  - level: 18
+    tree: Holy
+    talent: Holy Focus
+    rank: 2
+  - level: 19
+    tree: Holy
+    talent: Divinity
+    rank: 1
+  - level: 20
+    tree: Holy
+    talent: Divinity
+    rank: 2
+  - level: 21
+    tree: Holy
+    talent: Divinity
+    rank: 3
+  - level: 22
+    tree: Holy
+    talent: Divine Fury
+    rank: 1
+  - level: 23
+    tree: Holy
+    talent: Divine Fury
+    rank: 2
+  - level: 24
+    tree: Holy
+    talent: Divine Fury
+    rank: 3
+  - level: 25
+    tree: Holy
+    talent: Divine Fury
+    rank: 4
+  - level: 26
+    tree: Holy
+    talent: Divine Fury
+    rank: 5
+  - level: 27
+    tree: Holy
+    talent: Divinity
+    rank: 4
+  - level: 28
+    tree: Holy
+    talent: Divinity
+    rank: 5
+  - level: 29
+    tree: Holy
+    talent: Holy Reach
+    rank: 1
+  - level: 30
+    tree: Holy
+    talent: Holy Reach
+    rank: 2
+  - level: 31
+    tree: Holy
+    talent: Holy Nova
+    rank: 1
+  - level: 32
+    tree: Holy
+    talent: Spiritual Guidance
+    rank: 1
+  - level: 33
+    tree: Holy
+    talent: Spiritual Guidance
+    rank: 2
+  - level: 34
+    tree: Holy
+    talent: Spiritual Guidance
+    rank: 3
+  - level: 35
+    tree: Holy
+    talent: Spiritual Guidance
+    rank: 4
+  - level: 36
+    tree: Holy
+    talent: Spiritual Guidance
+    rank: 5
+  - level: 37
+    tree: Discipline
+    talent: Piercing Light
+    rank: 1
+  - level: 38
+    tree: Discipline
+    talent: Piercing Light
+    rank: 2
+  - level: 39
+    tree: Discipline
+    talent: Piercing Light
+    rank: 3
+  - level: 40
+    tree: Discipline
+    talent: Mental Agility
+    rank: 1
+  - level: 41
+    tree: Discipline
+    talent: Mental Agility
+    rank: 2
+  - level: 42
+    tree: Discipline
+    talent: Mental Agility
+    rank: 3
+  - level: 43
+    tree: Discipline
+    talent: Mental Agility
+    rank: 4
+  - level: 44
+    tree: Discipline
+    talent: Mental Agility
+    rank: 5
+  - level: 45
+    tree: Discipline
+    talent: Improved Inner Fire
+    rank: 1
+  - level: 46
+    tree: Discipline
+    talent: Improved Inner Fire
+    rank: 2
+  - level: 47
+    tree: Discipline
+    talent: Inner Focus
+    rank: 1
+  - level: 48
+    tree: Discipline
+    talent: Meditation
+    rank: 1
+  - level: 49
+    tree: Discipline
+    talent: Meditation
+    rank: 2
+  - level: 50
+    tree: Discipline
+    talent: Purifying Flames
+    rank: 1
+  - level: 51
+    tree: Discipline
+    talent: Purifying Flames
+    rank: 2
+  - level: 52
+    tree: Discipline
+    talent: Searing Light
+    rank: 1
+  - level: 53
+    tree: Discipline
+    talent: Searing Light
+    rank: 2
+  - level: 54
+    tree: Discipline
+    talent: Searing Light
+    rank: 3
+  - level: 55
+    tree: Discipline
+    talent: Mental Strength
+    rank: 1
+  - level: 56
+    tree: Discipline
+    talent: Mental Strength
+    rank: 2
+  - level: 57
+    tree: Discipline
+    talent: Mental Strength
+    rank: 3
+  - level: 58
+    tree: Discipline
+    talent: Enlighten
+    rank: 1
+  - level: 59
+    tree: Discipline
+    talent: Meditation
+    rank: 3
+  - level: 60
+    tree: Discipline
+    talent: Force of Will
+    rank: 1
+  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=priest&t=00503020103-32050203113521351
+  build_link_tortoise_note: 'Generated from the sourced points list (51 points: Discipline 14, Holy 37); the calculator shows
     the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
 stat_weights:
+  priority: healing power (to ~1000) > spell crit > intellect > spirit > mp5 > stamina; cheap haste (food, juju) helps heals
+    land; haste below the 1.5 s GCD is wasted
   healing_power: 1
   spell_crit: 2
   intellect: 3
   spirit: 4
   mp5: 5
   stamina: 6
+  notes:
+  - +30 Spirit food beats mp5 food (Spiritual Guidance + Meditation) [[d:priest#1486700633032626417]]
+  - haste sources multiply; anything below 1.5 s GCD is wasted [[d:priest#1476373295271116850]], [[d:priest#1476377172339064873]]
+  - ~1k healing power is enough for Flash/Renew/PoH play [[d:priest#1493919533281312859]]
+  sources:
+  - '[Langorn, 2025-09-19](https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325)'
+  - '[[d:priest#1471624985767444500]]'
+  era: post-1.18.1
+  agreement: consensus
+caps:
+  spell_hit_pvp_pct: 3
+  spell_hit_boss_pct: 16
+  gcd_floor_s: 1.5
+  note: no healing cap; PW:S = 942*(1+0.15 IPWS+0.2 FoW) + healing_power*0.35; Improved Renew/IPWS/FoW raise base values only
+    [[d:priest#1427126126756630529]]
+  coefficients: Renew 0.857 (1.12 with 5/5 Spiritual Healing), Heal 0.857, Greater Heal 1.0, Flash Heal 0.433, PoH 0.433,
+    PW:S 0.35 [[d:priest#1465272044705939650]], [[d:priest#1476694995363823717]]
+rotation_single:
+- priority: 1
+  action: 'Power Word: Shield'
+  condition: target about to die and no time to cast; NOT on warrior/bear tanks except pre-pull or true emergency (~12 rage
+    lost per 1k absorbed)
+  source: '[[d:priest#1426238485303394435]]'
+- priority: 2
+  action: Flash Heal (rank 7)
+  condition: tank taking heavy damage or anyone near 50% HP
+  source: '[[d:priest#1493870884375629836]]'
+- priority: 3
+  action: Greater Heal (rank 1) precast
+  condition: known big damage incoming (tank buster, enrage); with 8/8 T2 also for steady raid damage
+  source: '[[d:priest#1492115676935229451]]'
+- priority: 4
+  action: Renew (max rank)
+  condition: tank without Renew or <3 s left
+  source: '[[d:priest#1492115676935229451]]'
+- priority: 5
+  action: Flash Heal (rank 1)
+  condition: anyone missing a small amount of HP
+  source: '[[d:priest#1493870884375629836]]'
+- priority: 6
+  action: Renew (rank 1)
+  condition: weave between every other heal so the next cast is a different spell (Book of Prayer refund); on self if nobody
+    needs it
+  source: '[[d:priest#1492115676935229451]]'
+- priority: 7
+  action: cancel cast
+  condition: precast heal on tank no longer needed at ~2/3 cast bar (preserve 5-second-rule regen)
+  source: '[[d:priest#1490473551717728317]]'
+- priority: 8
+  action: stop casting
+  condition: all targets at 80-90% HP (do not top to 100%)
+  source: '[[d:priest#1428691896514908271]]'
+assignment_priority:
+  note: 'Discord''s assignment-based model: healing assignments beat raw HPS; ''the optimal way to heal is to get assignments
+    in your guild'' [[d:priest#1428292872272089098]].'
+  tank: keep Renew up; pre-heal with Greater Heal rank 1; Flash and max-rank Greater Heal as needed
+  group: Renew on ticking fights; Shield to save/precast on casters for pushback; Greater Heal rank 1 to steady-heal; Flash
+    if needed
+  parse_max: snipe all heals with Flash Heal if your guild downs bosses before you run OOM
+  sources:
+  - '[[d:priest#1428292872272089098]]'
+  era: 1.18.1-announced-pre-release
+  agreement: consensus
+rotation_aoe:
+- targets_min: 3
+  priority: 1
+  action: Prayer of Healing rank 2 on a member of the damaged party (any party since 1.18.1)
+  condition: 3+ in one party damaged
+  source: '[[d:priest#1492115676935229451]], [[d:priest#1484217772614615302]]'
+- targets_min: 3
+  priority: 2
+  action: Prayer of Healing rank 4 (Inner Focus if available)
+  condition: party needs to be full fast
+  source: '[[d:priest#1492115676935229451]]'
+- targets_min: 3
+  priority: 3
+  action: Lightwell
+  condition: repeated raid damage; place at cursor where raid stacks; 10 charges / 1 min; not triggered by PoH
+  source: '[[d:priest#1464386661973622835]], [[d:priest#1464513512071233628]]'
+- targets_min: 2
+  priority: 4
+  action: Renew each + Flash Heal the lower
+  condition: 2 targets
+aoe_threshold: 3
+cooldowns:
+- name: Ascendance
+  use_when: 'just before boss enrage / burst window (30 s: -33% cost, +20% cast speed, +15% healing taken on targets); also
+    to break CC'
+  source: '[[d:priest#1492116211587088486]], [[d:priest#1464351944230436874]]'
+- name: Inner Focus
+  use_when: free max-rank Prayer of Healing or Greater Heal
+- name: Lightwell
+  use_when: before pull / burst phase (5 min); /cast Lightwell + CameraOrSelectOrMoveStart/Stop macro places it at cursor
+  source: '[[d:priest#1487150323654197319]]'
+- name: Fade
+  use_when: on aggro; 1.18.1 -15% threat while active, threat returns
+  source: '[[d:priest#1484604133200891944]]'
+- name: Fear Ward
+  use_when: tank before fear mechanics (baseline all races)
+- name: Desperate Prayer
+  use_when: Human/Dwarf self emergency (needs GCD, not while silenced)
+  source: '[[d:priest#1425357263790407743]]'
+- name: Avatar
+  use_when: 'Dwarf: on tank for heavy physical/magic damage (5 min)'
+resource_rules:
+- Heal in bursts then stop casting to regen under the 5-second rule [[d:priest#1378653877729099889]]
+- Precast big heals on the tank and cancel at ~2/3 if not needed [[d:priest#1490473551717728317]]
+- Weave rank-1 Renew between heals for Book of Prayer refunds; do not warp play to chase them [[d:priest#1486824507040862208]]
+- Major Mana Potion early in long fights; tea and Dark/Demonic Runes share a cooldown
+- 'Downranking: mostly max ranks at endgame; if downranking, Heal R2+, Greater Heal R1+, Renew R3+ keep full scaling [[d:priest#1494888479052533902]]'
+- 'Long Kara40 fights: swap in Pendant of Forgotten Names + Ring of Spiritual Fervor (+20% regen while casting) [[d:priest#1488477999262339093]]'
+- Keep Fortitude, Divine Spirit, Shadow Protection up; avoid over-buffing melee/tanks near the 32 visible buff cap [[d:priest#1435581154953662527]]
+consumables:
+- Major Mana Potion (13444)
+- Tea with Sugar (15723) / Nordanaar Herbal Tea (61675)
+- Dark Rune (20520) / Demonic Rune (12662)
+- Brilliant Mana Oil (20748)
+- +30 Spirit food (better than Nightfin Soup mp5) [[d:priest#1486698026301915317]]
+- Empowering Herbal Salad (83309, +24 healing) [[d:priest#1486701507825897482]]
+- Haste food + Juju (help heals land) [[d:priest#1471624985767444500]]
+- Spirit of Zanza (20079)
+- Mageblood Potion (20007)
+- Flask of Distilled Wisdom (13511) for Kara40 / undergeared [[d:priest#1441772036820172901]]
+mistakes_to_avoid:
+- Shielding warrior/bear tanks on pull (rage denial) [[d:priest#1426238485303394435]]
+- Taking 2/2 Empowered Recovery (second point adds nothing) [[d:priest#1490554883042967562]]
+- Alternating ranks of one spell for Book of Prayer (only different spells count) [[d:priest#1484561705487958016]]
+- Expecting PW:S or Holy Nova to trigger Book of Prayer [[d:priest#1484259678643945764]], [[d:priest#1485623406207434894]]
+- Casting Holy Nova during the Nefarian priest class call (only Renew and PW:S are safe) [[d:priest#1484524057155211406]],
+  [[d:priest#1493278987101671544]]
+- Topping everyone to 100% HP [[d:priest#1428691896514908271]]
+- Following Proclaim Champion / clickable Lightwell advice (removed/reworked in 1.18.1) [[d:priest#1464351944230436874]]
+- Relying on Lightwell smart-targeting (post-release bug healed full-HP players) [[d:priest#1489176818719391795]]
 stat_priority:
 - healing-power
 - spell-crit
@@ -188,85 +651,3 @@ stat_priority_note: 'Langorn''s order, agreed with in the replies: healing power
   — so the five-second rule is the thing to play around; endgame BiS sits at 350–400 Spirit. There is no healing cap; hit
   only matters for dispels and offensive spells. Power Word: Shield scales with healing power rather than spell power per
   player testing.'
-caps:
-  spell_hit_pvp_pct: 3
-  spell_hit_boss_pct: 16
-  note: no healing cap; PW:S scales with healing power (player-tested); Improved Renew/Improved PW:S/Force of Will multiply
-    base values only
-rotation_single:
-- priority: 1
-  action: 'Power Word: Shield (max rank)'
-  condition: target at critical HP and no time for a 2.5 s cast; NOT on warrior/bear tanks unless emergency
-- priority: 2
-  action: Flash Heal (max rank)
-  condition: target low and dropping fast
-- priority: 3
-  action: Greater Heal (max rank)
-  condition: tank losing ~50% per hit / sustained heavy damage
-- priority: 4
-  action: Heal (max rank)
-  condition: steady damage, no emergency
-- priority: 5
-  action: Renew (max rank)
-  condition: not on tank or < 3 s left
-- priority: 6
-  action: Renew (rank 5) / downranked Heal R2+ / Greater Heal R1+ / Renew R3+
-  condition: non-tank slightly damaged, moving, or mana below ~50%
-- priority: 7
-  action: Inner Focus + Greater Heal or Prayer of Healing
-  condition: Inner Focus ready and a big heal is needed or mana low
-- priority: 8
-  action: alternate spell types
-  condition: post-1.18.1 with Book of Prayer talented (refund only on non-repeat)
-rotation_aoe:
-- targets_min: 2
-  priority: 1
-  action: Renew on each damaged member, Heal on lowest
-  condition: 2-3 damaged
-- targets_min: 4
-  priority: 1
-  action: Prayer of Healing (max rank with Inner Focus, else rank 1)
-  condition: 4+ in one party damaged; post-1.18.1 target a member of the damaged party
-- targets_min: 4
-  priority: 2
-  action: Holy Nova (max rank)
-  condition: party stacked within 10 yd, mana to spare, tank has aggro (generates threat since 1.18.0)
-aoe_threshold: 4
-cooldowns:
-- name: Inner Focus
-  use_when: big Greater Heal / max-rank Prayer of Healing, or mana emergency (free cast)
-- name: Ascendance
-  use_when: '1.18.1: burst healing phase or to break CC (5 min CD)'
-- name: Fade
-  use_when: pulling aggro (adds -15% total threat in 1.18.1)
-- name: Lightwell
-  use_when: '1.18.1: place inside stacked group before pull; passive 20% (40% talented) echo of direct heals'
-- name: Desperate Prayer
-  use_when: Human/Dwarf self emergency (10 min)
-- name: Avatar
-  use_when: 'Dwarf: on the tank at pull or during heavy magic damage (5 min)'
-- name: Fear Ward
-  use_when: on tank before fear mechanics
-resource_rules:
-- 'Exploit the 5-second rule: top the group then stop casting for several seconds'
-- Major Mana Potion early in long fights so a second one comes off cooldown
-- Tea (Tea with Sugar / Nordanaar Herbal Tea) and Dark/Demonic Runes share a cooldown; alternate with potions
-- 'Downrank when under ~50% mana: Heal R2+, Greater Heal R1+, Renew R3+ keep full scaling'
-- Keep Fortitude, Divine Spirit, Shadow Protection (when shadow damage) up on the whole raid
-consumables:
-- Major Mana Potion (13444)
-- Tea with Sugar (15723) / Nordanaar Herbal Tea (61675)
-- Dark Rune (20520) / Demonic Rune (12662)
-- Brilliant Mana Oil (20748)
-- Empowering Herbal Salad (83309) or Nightfin Soup / Sagefish Delight
-- Flask of Distilled Wisdom (13511)
-- Spirit of Zanza (20079)
-- Mageblood Potion (20007)
-mistakes_to_avoid:
-- Shielding warrior/bear tanks on pull (no rage from absorbed hits on Turtle's 1.12 core)
-- Spamming Flash Heal instead of efficient Heal/Greater Heal and downranks
-- Not using Fade when pulling aggro
-- Letting Fortitude/Spirit/Shadow Protection lapse
-- Psychic Scream in raids
-- Casting max-rank Prayer of Healing without Inner Focus when mana is tight
-- Following old advice about Proclaim Champion/Champion spells or clickable Lightwell (removed/reworked in 1.18.1)

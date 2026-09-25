@@ -2,20 +2,40 @@
 """Build site/src/data/*.json from the repository's synthesis/ and structured/ trees.
 
 Reads (repo root, three levels above this file):
+  guide/classes/<class>/*.md      player-facing class guides (index, one page per
+                                  spec, leveling, pvp, sources). A class with a
+                                  guide index.md is built from its guide pages;
+                                  every other class falls back to synthesis/.
   synthesis/classes/**            class READMEs, playbooks, leveling guides, gear.md
-  structured/classes/**           spec-role-matrix.yaml, per-playbook YAML companions, gear.yaml
+  structured/classes/**           spec-role-matrix.yaml, per-playbook YAML companions
+                                  (their `guide:` key names the playbook's guide page), gear.yaml
+  structured/discord/evidence-<channel>.jsonl
+                                  verbatim Discord messages behind `[[d:<channel>#<id>]]`
   structured/glossary.jsonl       glossary terms
   structured/forum/timeline.json  forum/patch timeline
 
+Development overrides (for guide pages that live in another checkout):
+  --guide-dir DIR       or TKB_GUIDE_DIR       the `guide/` directory to read
+  --structured-dir DIR  or TKB_STRUCTURED_DIR  a `structured/` directory whose
+                        classes/** and discord/** files win over the repo's
+                        (anything missing there falls back to the repo)
+
+  guide/instances/*.md            dungeon and raid pages (index.md lists them)
+
 Writes (site/src/data/):
-  classes.json, matrix.json, glossary.json, meta.json
+  classes.json, matrix.json, glossary.json, meta.json,
+  instances.json (only when guide/instances/index.md exists)
 
 Only dependency: PyYAML. See site/PLAN.md §2 for the exact data contract and
 site/src/data/README.md for a description of the output files.
 """
 from __future__ import annotations
 
+import argparse
+import html
 import json
+import os
+import posixpath
 import re
 import subprocess
 import sys
@@ -34,12 +54,44 @@ REPO_ROOT = SITE_DIR.parent
 DATA_DIR = SITE_DIR / "src" / "data"
 
 SYN_CLASSES = REPO_ROOT / "synthesis" / "classes"
-STRUCT_CLASSES = REPO_ROOT / "structured" / "classes"
+STRUCTURED_DIR = REPO_ROOT / "structured"
 GLOSSARY_PATH = REPO_ROOT / "structured" / "glossary.jsonl"
 TIMELINE_PATH = REPO_ROOT / "structured" / "forum" / "timeline.json"
-MATRIX_YAML_PATH = STRUCT_CLASSES / "spec-role-matrix.yaml"
 COVERAGE_MD_PATH = SYN_CLASSES / "spec-role-coverage.md"
 MATRIX_MD_PATH = SYN_CLASSES / "spec-role-matrix.md"
+
+# Set from the command line / environment in main().
+GUIDE_DIR = REPO_ROOT / "guide"
+STRUCTURED_OVERRIDE: Path | None = None
+# Only these sub-trees of structured/ are taken from the override: the guide
+# work touches the class YAML and the Discord evidence, not the glossary etc.
+OVERRIDABLE = ("classes", "discord")
+
+# Where the published copy of the repository lives: Discord citations link to
+# the verbatim evidence record there.
+GITHUB_BLOB = "https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main"
+CITE_PREVIEW_CHARS = 300
+
+
+def structured_path(*parts: str) -> Path:
+    """structured/<parts>, preferring the development override when it has the file."""
+    if STRUCTURED_OVERRIDE is not None and parts and parts[0] in OVERRIDABLE:
+        candidate = STRUCTURED_OVERRIDE.joinpath(*parts)
+        if candidate.exists():
+            return candidate
+    return STRUCTURED_DIR.joinpath(*parts)
+
+
+def load_yaml_file(path: Path):
+    """yaml.safe_load with a clear error (e.g. unresolved merge-conflict markers)."""
+    text = path.read_text(encoding="utf-8")
+    if re.search(r"^<<<<<<< ", text, re.M):
+        raise SystemExit(f"build-data: {path} contains merge-conflict markers; resolve it "
+                         f"or pass --structured-dir pointing at a clean structured/ tree")
+    try:
+        return yaml.safe_load(text)
+    except yaml.YAMLError as e:
+        raise SystemExit(f"build-data: {path} does not parse as YAML: {e}")
 
 # Class order per PLAN.md §4 (design system class-color ordering).
 CLASS_ORDER = [
@@ -86,7 +138,28 @@ SECTION_KEYWORDS = [
     ("mistakes", ["mistake"]),
     ("sources", ["source"]),
 ]
-SECTION_KEYS = [key for key, _ in SECTION_KEYWORDS]
+# Guide pages (guide/classes/**) use the player-facing headings ("Talent
+# build", "Stat priority and caps", "Enchants", "Consumables", "Raid notes",
+# "Burst and control sequences", "Matchups" ...). Same first-match-wins rule; a
+# key may appear twice so that the specific words win over the generic ones
+# ("AoE rotation" is AoE, "Healing rotation" is the single-target slot).
+GUIDE_SECTION_KEYWORDS = [
+    ("overview", ["overview"]),
+    ("talents", ["talent", "build"]),
+    ("stats", ["stat"]),
+    ("rotationSingle", ["single-target", "single target"]),
+    ("rotationAoe", ["multi-target", "multi target", "aoe"]),
+    ("rotationSingle", ["rotation", "burst", "sequence", "priority list"]),
+    ("cooldowns", ["cooldown", "resource", "mana"]),
+    ("roleStrategy", ["role strategy", "strategy", "triage", "threat", "tactics",
+                      "matchup", "role duties", "duties", "raid"]),
+    ("gear", ["gear", "best-in-slot", "bis"]),
+    ("enchants", ["enchant"]),
+    ("consumables", ["consumable", "oil", "imbue", "world buff"]),
+    ("mistakes", ["mistake"]),
+    ("sources", ["source"]),
+]
+SECTION_KEYS = [key for key, _ in SECTION_KEYWORDS] + ["enchants", "consumables"]
 
 
 # ---------------------------------------------------------------------------
@@ -195,7 +268,7 @@ def make_leveling_section(heading: str, markdown: str, level: int) -> dict:
 
 LEVEL_COL = re.compile(r"^levels?\b|\breach", re.I)
 TREE_COL = re.compile(r"^tree$", re.I)
-POINTS_COL = re.compile(r"^points?\b", re.I)
+POINTS_COL = re.compile(r"^(points?|(new )?ranks?)\b", re.I)
 TALENT_COL = re.compile(r"talent", re.I)
 ORDER_COL = re.compile(r"^order$", re.I)
 LINK_COL = re.compile(r"^link$", re.I)
@@ -303,8 +376,7 @@ def parse_talent_orders(sections: list[dict]) -> list[dict]:
 # ---------------------------------------------------------------------------
 
 def load_matrix() -> dict:
-    with open(MATRIX_YAML_PATH, encoding="utf-8") as f:
-        doc = yaml.safe_load(f)
+    doc = load_yaml_file(structured_path("classes", "spec-role-matrix.yaml"))
     rows = []
     for r in doc["rows"]:
         rows.append({
@@ -369,25 +441,15 @@ def title_case_spec(spec_slug: str) -> str:
     return " ".join(w.capitalize() for w in words)
 
 
-def build_playbook(class_slug: str, class_name: str, md_path: Path,
-                    matrix_rows: list[dict]) -> dict | None:
-    parsed = parse_playbook_filename(md_path.name)
-    if parsed is None:
-        return None
-    spec_slug, role = parsed
-    playbook_id = f"{spec_slug}-{role}"
-
-    text = md_path.read_text(encoding="utf-8")
-    title, body = split_h1_and_body(text)
-    intro_md, h2_sections = split_h2_sections(body)
-
+def map_sections(h2_sections: list[tuple[str, str]], rules: list) -> tuple[dict, list[dict]]:
+    """Slot H2 sections by heading keyword (first match wins, filled slots are
+    skipped); everything else goes to extraSections in document order."""
     sections = {key: None for key in SECTION_KEYS}
     extra_sections: list[dict] = []
-
     for heading, section_md in h2_sections:
         low = heading.lower()
         matched_key = None
-        for key, kws in SECTION_KEYWORDS:
+        for key, kws in rules:
             if sections[key] is not None:
                 continue  # already filled; a repeat heading falls to extras
             if any(kw in low for kw in kws):
@@ -397,13 +459,54 @@ def build_playbook(class_slug: str, class_name: str, md_path: Path,
             sections[matched_key] = make_section(heading, section_md, 2)
         else:
             extra_sections.append(make_section(heading, section_md, 2))
+    return sections, extra_sections
 
-    # YAML companion.
-    yaml_path = STRUCT_CLASSES / class_slug / f"{playbook_id}.yaml"
-    yaml_data = None
-    if yaml_path.exists():
-        with open(yaml_path, encoding="utf-8") as f:
-            yaml_data = yaml.safe_load(f)
+
+def load_playbook_yaml(class_slug: str, playbook_id: str) -> dict | None:
+    yaml_path = structured_path("classes", class_slug, f"{playbook_id}.yaml")
+    if not yaml_path.exists():
+        return None
+    return load_yaml_file(yaml_path)
+
+
+def guide_page_for(yaml_data: dict | None) -> Path | None:
+    """The guide page a playbook YAML's `guide:` key names, if it exists."""
+    rel = (yaml_data or {}).get("guide")
+    if not isinstance(rel, str) or not rel.strip():
+        return None
+    rel = rel.strip().lstrip("./")
+    if rel.startswith("guide/"):
+        rel = rel[len("guide/"):]
+    path = GUIDE_DIR / rel
+    return path if path.is_file() else None
+
+
+def build_playbook(class_slug: str, class_name: str, md_path: Path,
+                    matrix_rows: list[dict], guide: "GuideContext | None" = None) -> dict | None:
+    parsed = parse_playbook_filename(md_path.name)
+    if parsed is None:
+        return None
+    spec_slug, role = parsed
+    playbook_id = f"{spec_slug}-{role}"
+
+    yaml_data = load_playbook_yaml(class_slug, playbook_id)
+    guide_path = guide_page_for(yaml_data) if guide is not None else None
+
+    if guide_path is not None:
+        page = guide.page(guide_path)
+        title, intro_md, h2_sections = page["title"], page["intro"], page["sections"]
+        sections, extra_sections = map_sections(h2_sections, GUIDE_SECTION_KEYWORDS)
+        # Guide pages open with their recommendation instead of an "Overview"
+        # heading; that opening is the overview.
+        if sections["overview"] is None and intro_md.strip():
+            sections["overview"] = make_section("Overview", intro_md, 2)
+        source_file = guide.repo_rel(guide_path)
+    else:
+        text = read_md(md_path)
+        title, body = split_h1_and_body(text)
+        intro_md, h2_sections = split_h2_sections(body)
+        sections, extra_sections = map_sections(h2_sections, SECTION_KEYWORDS)
+        source_file = str(md_path.relative_to(REPO_ROOT))
 
     spec_name = None
     if yaml_data and yaml_data.get("spec"):
@@ -424,6 +527,8 @@ def build_playbook(class_slug: str, class_name: str, md_path: Path,
         "extraSections": extra_sections,
         "standing": standing,
         "yaml": yaml_data,
+        "sourceFile": source_file,
+        "guidePath": source_file if guide_path is not None else None,
         "_spec_slug": spec_slug,  # used only for ordering, stripped before write
     }
 
@@ -441,11 +546,10 @@ def playbook_sort_key(pb: dict) -> tuple:
 def load_gear_yaml(class_slug: str) -> dict | None:
     """Parsed structured/classes/<class>/gear.yaml, passed through as-is, or
     None if the file doesn't exist."""
-    path = STRUCT_CLASSES / class_slug / "gear.yaml"
+    path = structured_path("classes", class_slug, "gear.yaml")
     if not path.exists():
         return None
-    with open(path, encoding="utf-8") as f:
-        return yaml.safe_load(f)
+    return load_yaml_file(path)
 
 
 def build_gear_markdown(class_slug: str) -> list[dict] | None:
@@ -462,7 +566,7 @@ def build_gear_markdown(class_slug: str) -> list[dict] | None:
 
     sections: list[dict] = []
     for path in files:
-        text = path.read_text(encoding="utf-8")
+        text = read_md(path)
         _, body = split_h1_and_body(text)
         _intro_md, h2_sections = split_h2_sections(body)
         sections.extend(make_section(h, md, 2) for h, md in h2_sections)
@@ -489,32 +593,439 @@ def count_gear_stats(gear: dict | None) -> tuple[int, int, int]:
 
 
 # ---------------------------------------------------------------------------
+# Guide pages (guide/classes/**): links and Discord citations
+# ---------------------------------------------------------------------------
+
+DISCORD_CITE = re.compile(r"\[\[d:([a-z0-9_-]+)#(\d+)\]\]")
+MD_LINK = re.compile(r"(!?)\[([^\]\n]*)\]\(([^)\s]+)((?:\s+\"[^\"\n]*\")?)\)")
+# The only reserved Markdown characters that could reach the chip: escaped as
+# entities so marked neither splits a table cell on them nor reads emphasis.
+_CHIP_ESCAPES = {"|": "&#124;", "*": "&#42;", "_": "&#95;", "`": "&#96;", "[": "&#91;",
+                 "]": "&#93;", "~": "&#126;", "\\": "&#92;"}
+
+
+def chip_escape(text: str) -> str:
+    out = html.escape(text, quote=True)
+    return "".join(_CHIP_ESCAPES.get(ch, ch) for ch in out)
+
+
+class EvidenceIndex:
+    """message id -> (1-based line, record) for structured/discord/evidence-<ch>.jsonl."""
+
+    def __init__(self) -> None:
+        self._channels: dict[str, dict[str, tuple[int, dict]]] = {}
+        self.resolved = 0
+        self.unresolved: list[str] = []
+
+    def lookup(self, channel: str, msg_id: str) -> tuple[int, dict] | None:
+        if channel not in self._channels:
+            index: dict[str, tuple[int, dict]] = {}
+            path = structured_path("discord", f"evidence-{channel}.jsonl")
+            if path.exists():
+                with open(path, encoding="utf-8") as f:
+                    for n, line in enumerate(f, start=1):
+                        line = line.strip()
+                        if not line:
+                            continue
+                        try:
+                            rec = json.loads(line)
+                        except json.JSONDecodeError:
+                            continue
+                        if rec.get("id") is not None:
+                            index.setdefault(str(rec["id"]), (n, rec))
+            self._channels[channel] = index
+        return self._channels[channel].get(msg_id)
+
+    def record(self, channel: str, msg_id: str) -> dict:
+        """{label, title, url} for the UI's own chips (YAML text is not Markdown);
+        url is null when the message is not in the evidence files."""
+        found = self.lookup(channel, msg_id)
+        if found is None:
+            return {"label": f"#{channel}", "url": None,
+                    "title": f"Discord #{channel}, message {msg_id} (not in the archived evidence)"}
+        line, rec = found
+        author, date, title = self._describe(channel, rec)
+        return {"label": " · ".join(x for x in (author, date) if x),
+                "url": f"{GITHUB_BLOB}/structured/discord/evidence-{channel}.jsonl#L{line}",
+                "title": title}
+
+    @staticmethod
+    def _describe(channel: str, rec: dict) -> tuple[str, str, str]:
+        author = str(rec.get("author") or "unknown")
+        date = str(rec.get("ts") or "")[:10]
+        content = re.sub(r"\s+", " ", str(rec.get("content") or "")).strip()
+        if len(content) > CITE_PREVIEW_CHARS:
+            content = content[:CITE_PREVIEW_CHARS].rstrip() + "…"
+        head = f"{author}, {date}, Discord #{channel}" if date else f"{author}, Discord #{channel}"
+        return author, date, (f"{head}: {content}" if content else head)
+
+    def collect(self, value, into: dict) -> None:
+        """Every `[[d:...]]` inside a YAML value -> into["channel#id"] = record."""
+        if isinstance(value, str):
+            for m in DISCORD_CITE.finditer(value):
+                key = f"{m.group(1)}#{m.group(2)}"
+                if key not in into:
+                    into[key] = self.record(m.group(1), m.group(2))
+        elif isinstance(value, dict):
+            for v in value.values():
+                self.collect(v, into)
+        elif isinstance(value, list):
+            for v in value:
+                self.collect(v, into)
+
+    def chip(self, channel: str, msg_id: str) -> str:
+        """Inline HTML chip for one `[[d:channel#id]]` citation."""
+        found = self.lookup(channel, msg_id)
+        if found is None:
+            self.unresolved.append(f"{channel}#{msg_id}")
+            title = f"Discord #{channel}, message {msg_id} (not in the archived evidence)"
+            return (f'<span class="cite cite-discord cite-unknown" title="{chip_escape(title)}">'
+                    f'{chip_escape("#" + channel)}</span>')
+        self.resolved += 1
+        line, rec = found
+        author, date, title = self._describe(channel, rec)
+        label = " · ".join(x for x in (author, date) if x)
+        url = f"{GITHUB_BLOB}/structured/discord/evidence-{channel}.jsonl#L{line}"
+        return (f'<a class="cite cite-discord" href="{chip_escape(url)}" title="{chip_escape(title)}">'
+                f'{chip_escape(label)}</a>')
+
+
+EVIDENCE = EvidenceIndex()
+
+
+def transform_markdown(markdown: str, link=None) -> str:
+    """Discord citations -> chips (and, for guide pages, relative links ->
+    site routes via `link`), outside fenced code and code spans. H1/H2 lines
+    lose their citations: they become plain heading strings."""
+    out_lines = []
+    in_fence = False
+    for line in markdown.splitlines():
+        if line.lstrip().startswith("```"):
+            in_fence = not in_fence
+            out_lines.append(line)
+            continue
+        if in_fence:
+            out_lines.append(line)
+            continue
+        if re.match(r"^#{1,2} ", line):
+            line = re.sub(r"\s*\[\[d:[^\]]*\]\]", "", line).rstrip()
+        # Code spans stay verbatim (build codes like `talents.turtlecraft.gg/...`).
+        parts = re.split(r"(`[^`]*`)", line)
+        for i in range(0, len(parts), 2):
+            seg = MD_LINK.sub(link, parts[i]) if link else parts[i]
+            parts[i] = DISCORD_CITE.sub(lambda m: EVIDENCE.chip(m.group(1), m.group(2)), seg)
+        out_lines.append("".join(parts))
+    return "\n".join(out_lines)
+
+
+def read_md(path: Path) -> str:
+    """A repository Markdown file with its Discord citations rendered as chips."""
+    return transform_markdown(path.read_text(encoding="utf-8"))
+
+
+class GuideContext:
+    """Everything the guide-page build shares across classes: the evidence
+    index, the page -> site route map used to rewrite relative links, and a
+    cache of parsed pages."""
+
+    def __init__(self, guide_dir: Path) -> None:
+        self.dir = guide_dir
+        self.evidence = EVIDENCE
+        self.routes: dict[str, str] = {}  # "guide/classes/mage/arcane.md" -> "#/class/mage/arcane-ranged-dps"
+        self._pages: dict[Path, dict] = {}
+        self.unwrapped_links: list[str] = []
+
+    def repo_rel(self, path: Path) -> str:
+        """guide/... path as it will sit in the repository."""
+        return "guide/" + path.resolve().relative_to(self.dir.resolve()).as_posix()
+
+    def class_dir(self, class_slug: str) -> Path:
+        return self.dir / "classes" / class_slug
+
+    def has_class(self, class_slug: str) -> bool:
+        return (self.class_dir(class_slug) / "index.md").is_file()
+
+    # ---- text transforms --------------------------------------------------
+
+    def rewrite_link(self, page_rel: str, match: re.Match) -> str:
+        bang, text, target, title = match.groups()
+        if bang or re.match(r"^[a-z][a-z0-9+.-]*:", target, re.I) or target.startswith("#/"):
+            return match.group(0)
+        path_part, _, anchor = target.partition("#")
+        if not path_part:  # same-page anchor: the page itself (the router has no anchors)
+            route = self.routes.get(page_rel)
+            return f"[{text}]({route}{title})" if route else text
+        resolved = posixpath.normpath(posixpath.join(posixpath.dirname(page_rel), path_part))
+        route = self.routes.get(resolved)
+        if route:
+            return f"[{text}]({route}{title})"
+        on_disk = (self.dir / resolved[len("guide/"):]) if resolved.startswith("guide/") \
+            else (REPO_ROOT / resolved)
+        if not resolved.startswith("..") and on_disk.exists():
+            url = f"{GITHUB_BLOB}/{resolved}" + (f"#{anchor}" if anchor else "")
+            return f"[{text}]({url}{title})"
+        # A page that is not in the repository (yet): keep the words, drop the link.
+        self.unwrapped_links.append(f"{page_rel} -> {target}")
+        return text
+
+    def transform(self, markdown: str, page_rel: str) -> str:
+        return transform_markdown(markdown, lambda m: self.rewrite_link(page_rel, m))
+
+    # ---- pages ------------------------------------------------------------
+
+    def page(self, path: Path) -> dict:
+        """{title, intro, sections: [(heading, markdown)], sourceFile} for one guide page."""
+        if path not in self._pages:
+            rel = self.repo_rel(path)
+            text = self.transform(path.read_text(encoding="utf-8"), rel)
+            title, body = split_h1_and_body(text)
+            intro, sections = split_h2_sections(body)
+            self._pages[path] = {"title": title, "intro": intro, "sections": sections, "sourceFile": rel}
+        return self._pages[path]
+
+    def doc(self, path: Path, slug: str) -> dict:
+        """A standalone guide page (sources, a niche page) as a GuideDoc."""
+        page = self.page(path)
+        return {
+            "slug": slug,
+            "title": page["title"],
+            "intro": page["intro"],
+            "sections": [make_section(h, md, 2) for h, md in page["sections"]],
+            "sourceFile": page["sourceFile"],
+        }
+
+
+def guide_playbook_claims(class_slug: str, guide: GuideContext) -> list[tuple[str, Path]]:
+    """(playbook id, guide page) for every playbook YAML of the class whose
+    `guide:` key names an existing page, in playbook order."""
+    claims = []
+    for md_path in playbook_files(class_slug):
+        parsed = parse_playbook_filename(md_path.name)
+        if parsed is None:
+            continue
+        pid = f"{parsed[0]}-{parsed[1]}"
+        page = guide_page_for(load_playbook_yaml(class_slug, pid))
+        if page is not None:
+            claims.append((pid, page))
+    return claims
+
+
+RESERVED_GUIDE_PAGES = {"index.md", "leveling.md", "sources.md"}
+
+
+def register_guide_routes(guide: GuideContext) -> None:
+    """Fill guide.routes before any page is transformed, so links between
+    pages (and between classes) resolve to site routes."""
+    for slug in CLASS_ORDER:
+        cdir = guide.class_dir(slug)
+        if not guide.has_class(slug):
+            continue
+        base = f"guide/classes/{slug}/"
+        guide.routes[base + "index.md"] = f"#/class/{slug}"
+        if (cdir / "leveling.md").is_file():
+            guide.routes[base + "leveling.md"] = f"#/class/{slug}/leveling"
+        if (cdir / "sources.md").is_file():
+            guide.routes[base + "sources.md"] = f"#/class/{slug}/sources"
+        claims = sorted(guide_playbook_claims(slug, guide),
+                        key=lambda c: (ROLE_ORDER.index(parse_playbook_filename(c[0] + ".md")[1]), c[0]))
+        for pid, page in claims:
+            guide.routes.setdefault(guide.repo_rel(page), f"#/class/{slug}/{pid}")
+        for page in sorted(cdir.glob("*.md")):
+            rel = guide.repo_rel(page)
+            if page.name not in RESERVED_GUIDE_PAGES and rel not in guide.routes:
+                guide.routes[rel] = f"#/class/{slug}/guide/{page.stem}"
+
+
+# ---------------------------------------------------------------------------
+# Dungeon and raid pages (guide/instances/**)
+# ---------------------------------------------------------------------------
+
+INSTANCE_INDEX_LINK = re.compile(r"\]\(([a-z0-9][a-z0-9-]*)\.md(?:#[^)\s]*)?\)")
+
+
+def instance_dir(guide: GuideContext) -> Path:
+    return guide.dir / "instances"
+
+
+def has_instances(guide: GuideContext) -> bool:
+    return (instance_dir(guide) / "index.md").is_file()
+
+
+def register_instance_routes(guide: GuideContext) -> None:
+    """guide/instances/index.md -> #/instances, <slug>.md -> #/instances/<slug>,
+    registered before any page is transformed so class pages link to them."""
+    if not has_instances(guide):
+        return
+    idir = instance_dir(guide)
+    guide.routes[guide.repo_rel(idir / "index.md")] = "#/instances"
+    for page in sorted(idir.glob("*.md")):
+        if page.name != "index.md":
+            guide.routes[guide.repo_rel(page)] = f"#/instances/{page.stem}"
+
+
+def instance_kind(heading: str) -> str | None:
+    low = heading.lower()
+    if "raid" in low:
+        return "raid"
+    if "dungeon" in low:
+        return "dungeon"
+    return None
+
+
+def unique_sections(h2_sections: list[tuple[str, str]]) -> list[dict]:
+    """Sections with ids made unique within the page (they are anchor targets)."""
+    seen: dict[str, int] = {}
+    out = []
+    for heading, md in h2_sections:
+        section = make_section(heading, md, 2)
+        n = seen.get(section["id"], 0)
+        seen[section["id"]] = n + 1
+        if n:
+            section["id"] = f"{section['id']}-{n + 1}"
+        out.append(section)
+    return out
+
+
+def build_instances(guide: GuideContext | None) -> dict | None:
+    """instances.json: the index (its H2 groups as Markdown, the pages each
+    group links to) and every instance page as title / intro / H2 sections.
+    A page's kind (dungeon | raid) and group (the H3 it is listed under) come
+    from where the index links it; pages the index does not link follow in
+    filename order with kind null."""
+    if guide is None or not has_instances(guide):
+        return None
+    idir = instance_dir(guide)
+    index_path = idir / "index.md"
+
+    # Membership is read from the untransformed index (its relative links).
+    _, raw_body = split_h1_and_body(index_path.read_text(encoding="utf-8"))
+    _, raw_h2 = split_h2_sections(raw_body)
+    listed: dict[str, dict] = {}
+    group_slugs: list[list[str]] = []
+    for heading, md in raw_h2:
+        kind = instance_kind(heading)
+        sub = heading
+        slugs: list[str] = []
+        for line in md.splitlines():
+            if line.startswith("### "):
+                sub = line[4:].strip()
+            for m in INSTANCE_INDEX_LINK.finditer(line):
+                slug = m.group(1)
+                if not (idir / f"{slug}.md").is_file() or slug in slugs:
+                    continue
+                slugs.append(slug)
+                listed.setdefault(slug, {"kind": kind, "group": sub})
+        group_slugs.append(slugs)
+
+    index = guide.page(index_path)
+    groups = []
+    for (heading, md), slugs in zip(index["sections"], group_slugs):
+        groups.append({
+            "id": slugify(heading),
+            "heading": heading,
+            "kind": instance_kind(heading),
+            "markdown": md,
+            "slugs": slugs,
+        })
+
+    unlisted = sorted(p.stem for p in idir.glob("*.md") if p.name != "index.md" and p.stem not in listed)
+    pages = []
+    for slug in list(listed) + unlisted:
+        page = guide.page(idir / f"{slug}.md")
+        info = listed.get(slug, {"kind": None, "group": None})
+        pages.append({
+            "slug": slug,
+            "title": page["title"],
+            "kind": info["kind"],
+            "group": info["group"],
+            "intro": page["intro"],
+            "sections": unique_sections(page["sections"]),
+            "sourceFile": page["sourceFile"],
+        })
+
+    return {
+        "title": index["title"],
+        "intro": index["intro"],
+        "sourceFile": index["sourceFile"],
+        "groups": groups,
+        "pages": pages,
+    }
+
+
+# ---------------------------------------------------------------------------
 # Classes
 # ---------------------------------------------------------------------------
 
-def build_class_entry(class_slug: str, matrix_rows: list[dict]) -> dict:
+def playbook_files(class_slug: str) -> list[Path]:
+    """synthesis/classes/<class>/<spec>-<role>.md, the list of playbooks (the
+    guide pages are joined to them through the YAML `guide:` key)."""
+    class_dir = SYN_CLASSES / class_slug
+    return [p for p in sorted(class_dir.glob("*.md"))
+            if p.name not in ("README.md", "leveling.md") and parse_playbook_filename(p.name)]
+
+
+def build_leveling(sections_src: tuple[str, list[tuple[str, str]]], source_file: str) -> dict:
+    lvl_intro, lvl_sections = sections_src
+    sections = []
+    if lvl_intro.strip():
+        sections.append(make_leveling_section("Introduction", lvl_intro, 2))
+    sections.extend(make_leveling_section(h, md, 2) for h, md in lvl_sections)
+    return {
+        "sections": sections,
+        "talentOrders": parse_talent_orders(sections),
+        "sourceFile": source_file,
+    }
+
+
+def build_class_entry(class_slug: str, matrix_rows: list[dict],
+                      guide: GuideContext | None = None) -> dict:
     class_dir = SYN_CLASSES / class_slug
     class_name = CLASS_NAMES[class_slug]
+    use_guide = guide is not None and guide.has_class(class_slug)
+    gdir = guide.class_dir(class_slug) if use_guide else None
 
-    readme_path = class_dir / "README.md"
-    readme_text = readme_path.read_text(encoding="utf-8")
+    # Synthesis README: the class overview, or the fallback for whatever the
+    # guide does not cover.
+    readme_text = read_md(class_dir / "README.md")
     _, readme_body = split_h1_and_body(readme_text)
-    intro_md, h2_sections = split_h2_sections(readme_body)
-    summary = first_paragraph(intro_md)
+    syn_intro, syn_h2 = split_h2_sections(readme_body)
 
-    readme_sections = [make_section(h, md, 2) for h, md in h2_sections]
+    def find(h2: list[tuple[str, str]], test) -> str | None:
+        return next((md for h, md in h2 if test(h)), None)
 
-    gaps = None
-    for h, md in h2_sections:
-        if "gap" in h.lower():
-            gaps = md
-            break
+    syn_gaps = find(syn_h2, lambda h: "gap" in h.lower())
+    syn_patch = find(syn_h2, lambda h: "1.18.1" in h)
 
-    patch_changes = None
-    for h, md in h2_sections:
-        if "1.18.1" in h:
-            patch_changes = md
-            break
+    overview = None
+    sources_doc = None
+    guide_pages: list[dict] = []
+    if use_guide:
+        index = guide.page(gdir / "index.md")
+        summary = first_paragraph(index["intro"]) or first_paragraph(syn_intro)
+        overview = index["intro"] or None
+        h2 = [(h, md) for h, md in index["sections"] if h.strip().lower() != "pages"]
+        readme_sections = [make_section(h, md, 2) for h, md in h2]
+        patch_changes = (find(h2, lambda h: "1.18.1" in h and "chang" in h.lower())
+                         or find(h2, lambda h: "1.18.1" in h and "viab" not in h.lower())
+                         or syn_patch)
+        gaps = find(h2, lambda h: "gap" in h.lower())
+        if (gdir / "sources.md").is_file():
+            sources_doc = guide.doc(gdir / "sources.md", "sources")
+            if gaps is None:
+                gaps = next((s["markdown"] for s in sources_doc["sections"]
+                             if "gap" in s["heading"].lower()), None)
+        if gaps is None:
+            gaps = syn_gaps
+        claimed = {guide.repo_rel(page) for _, page in guide_playbook_claims(class_slug, guide)}
+        for page in sorted(gdir.glob("*.md")):
+            if page.name in RESERVED_GUIDE_PAGES or guide.repo_rel(page) in claimed:
+                continue
+            guide_pages.append(guide.doc(page, page.stem))
+    else:
+        summary = first_paragraph(syn_intro)
+        readme_sections = [make_section(h, md, 2) for h, md in syn_h2]
+        gaps = syn_gaps
+        patch_changes = syn_patch
 
     class_matrix_rows = [
         {k: v for k, v in r.items()}
@@ -522,15 +1033,10 @@ def build_class_entry(class_slug: str, matrix_rows: list[dict]) -> dict:
         if r["class"] and r["class"].lower() == class_slug.lower()
     ]
 
-    playbook_files = sorted(class_dir.glob("*.md"))
-    playbook_files = [
-        p for p in playbook_files
-        if p.name not in ("README.md", "leveling.md")
-    ]
     playbooks = [
         pb for pb in (
-            build_playbook(class_slug, class_name, p, matrix_rows)
-            for p in playbook_files
+            build_playbook(class_slug, class_name, p, matrix_rows, guide if use_guide else None)
+            for p in playbook_files(class_slug)
         ) if pb is not None
     ]
     playbooks.sort(key=playbook_sort_key)
@@ -538,29 +1044,33 @@ def build_class_entry(class_slug: str, matrix_rows: list[dict]) -> dict:
         pb.pop("_spec_slug", None)
 
     leveling = None
-    leveling_path = class_dir / "leveling.md"
-    if leveling_path.exists():
-        lvl_text = leveling_path.read_text(encoding="utf-8")
-        _, lvl_body = split_h1_and_body(lvl_text)
-        lvl_intro, lvl_sections = split_h2_sections(lvl_body)
-        sections = []
-        if lvl_intro.strip():
-            sections.append(make_leveling_section("Introduction", lvl_intro, 2))
-        sections.extend(make_leveling_section(h, md, 2) for h, md in lvl_sections)
-        leveling = {
-            "sections": sections,
-            "talentOrders": parse_talent_orders(sections),
-            "sourceFile": str(leveling_path.relative_to(REPO_ROOT)),
-        }
+    if use_guide and (gdir / "leveling.md").is_file():
+        page = guide.page(gdir / "leveling.md")
+        leveling = build_leveling((page["intro"], page["sections"]), page["sourceFile"])
+    else:
+        leveling_path = class_dir / "leveling.md"
+        if leveling_path.exists():
+            _, lvl_body = split_h1_and_body(read_md(leveling_path))
+            leveling = build_leveling(split_h2_sections(lvl_body),
+                                      str(leveling_path.relative_to(REPO_ROOT)))
 
     gear = load_gear_yaml(class_slug)
     gear_markdown = build_gear_markdown(class_slug)
+
+    # YAML text is rendered by the UI as plain text, not Markdown: the chips
+    # for its `[[d:...]]` citations are looked up in this map instead.
+    citations: dict = {}
+    for pb in playbooks:
+        EVIDENCE.collect(pb["yaml"], citations)
+    EVIDENCE.collect(gear, citations)
+    EVIDENCE.collect(class_matrix_rows, citations)
 
     return {
         "slug": class_slug,
         "name": class_name,
         "color": CLASS_COLORS[class_slug],
         "summary": summary,
+        "overview": overview,
         "readme": readme_sections,
         "matrix": class_matrix_rows,
         "playbooks": playbooks,
@@ -569,6 +1079,10 @@ def build_class_entry(class_slug: str, matrix_rows: list[dict]) -> dict:
         "patchChanges": patch_changes,
         "gear": gear,
         "gearMarkdown": gear_markdown,
+        "guidePath": f"guide/classes/{class_slug}/index.md" if use_guide else None,
+        "sources": sources_doc,
+        "guidePages": guide_pages,
+        "citations": dict(sorted(citations.items())),
     }
 
 
@@ -642,20 +1156,49 @@ def build_meta(counts: dict) -> dict:
 # Main
 # ---------------------------------------------------------------------------
 
-def main() -> int:
+def parse_args(argv: list[str]) -> argparse.Namespace:
+    ap = argparse.ArgumentParser(description="Build site/src/data/*.json from the repository.")
+    ap.add_argument("--guide-dir", default=os.environ.get("TKB_GUIDE_DIR"),
+                    help="guide/ directory to read (default: <repo>/guide; env TKB_GUIDE_DIR)")
+    ap.add_argument("--structured-dir", default=os.environ.get("TKB_STRUCTURED_DIR"),
+                    help="structured/ directory whose classes/** and discord/** files override "
+                         "the repo's (env TKB_STRUCTURED_DIR)")
+    return ap.parse_args(argv)
+
+
+def main(argv: list[str] | None = None) -> int:
+    global GUIDE_DIR, STRUCTURED_OVERRIDE
+    args = parse_args(sys.argv[1:] if argv is None else argv)
+    if args.guide_dir:
+        GUIDE_DIR = Path(args.guide_dir).expanduser().resolve()
+        if not GUIDE_DIR.is_dir():
+            raise SystemExit(f"build-data: --guide-dir {GUIDE_DIR} is not a directory")
+    if args.structured_dir:
+        STRUCTURED_OVERRIDE = Path(args.structured_dir).expanduser().resolve()
+        if not STRUCTURED_OVERRIDE.is_dir():
+            raise SystemExit(f"build-data: --structured-dir {STRUCTURED_OVERRIDE} is not a directory")
+
     DATA_DIR.mkdir(parents=True, exist_ok=True)
 
     matrix_data = load_matrix()
     matrix_rows = matrix_data["rows"]
 
-    classes = [build_class_entry(slug, matrix_rows) for slug in CLASS_ORDER]
+    has_guide = (GUIDE_DIR / "classes").is_dir() or (GUIDE_DIR / "instances").is_dir()
+    guide = GuideContext(GUIDE_DIR) if has_guide else None
+    if guide is not None:
+        register_guide_routes(guide)
+        register_instance_routes(guide)
+
+    classes = [build_class_entry(slug, matrix_rows, guide) for slug in CLASS_ORDER]
+    instances = build_instances(guide)
+    guide_classes = [c["slug"] for c in classes if c["guidePath"]]
 
     matrix_json = {
         "roles": matrix_data["roles"],
         "standings": matrix_data["standings"],
         "rows": matrix_rows,
-        "coverageMarkdown": strip_h1(COVERAGE_MD_PATH.read_text(encoding="utf-8")),
-        "matrixMarkdown": strip_h1(MATRIX_MD_PATH.read_text(encoding="utf-8")),
+        "coverageMarkdown": strip_h1(read_md(COVERAGE_MD_PATH)),
+        "matrixMarkdown": strip_h1(read_md(MATRIX_MD_PATH)),
     }
 
     glossary_json = load_glossary()
@@ -668,7 +1211,26 @@ def main() -> int:
         "glossaryTerms": len(glossary_json),
     }
     meta_json = build_meta(counts)
+    meta_json["guideClasses"] = guide_classes
+    meta_json["discordCitations"] = {
+        "resolved": EVIDENCE.resolved,
+        "unresolved": len(EVIDENCE.unresolved),
+    }
 
+    meta_json["instanceCounts"] = {
+        "pages": len(instances["pages"]) if instances else 0,
+        "dungeons": sum(1 for p in instances["pages"] if p["kind"] == "dungeon") if instances else 0,
+        "raids": sum(1 for p in instances["pages"] if p["kind"] == "raid") if instances else 0,
+    }
+    # Relative links whose target is not in the repository (rendered as text).
+    meta_json["unwrappedLinks"] = sorted(set(guide.unwrapped_links)) if guide else []
+
+    instances_path = DATA_DIR / "instances.json"
+    if instances is not None:
+        instances_path.write_text(
+            json.dumps(instances, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    elif instances_path.exists():
+        instances_path.unlink()
     (DATA_DIR / "classes.json").write_text(
         json.dumps(classes, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     (DATA_DIR / "matrix.json").write_text(
@@ -680,6 +1242,21 @@ def main() -> int:
 
     print(f"Wrote {DATA_DIR}: classes={counts['classes']} playbooks={counts['playbooks']} "
           f"matrixRows={counts['matrixRows']} glossaryTerms={counts['glossaryTerms']}")
+    print(f"Discord citations in Markdown: {EVIDENCE.resolved} resolved, "
+          f"{len(EVIDENCE.unresolved)} not in the evidence files (rendered as neutral chips)")
+    for miss in sorted(set(EVIDENCE.unresolved))[:5]:
+        print(f"  e.g. unresolved: {miss}")
+    if instances is not None:
+        ic = meta_json["instanceCounts"]
+        print(f"Instances: {ic['pages']} pages ({ic['dungeons']} dungeons, {ic['raids']} raids)")
+    if guide is None:
+        print(f"No guide directory at {GUIDE_DIR / 'classes'}; every class built from synthesis/")
+    else:
+        from_guide = sum(1 for c in classes for p in c["playbooks"] if p["guidePath"])
+        print(f"Guide classes ({len(guide_classes)}): {', '.join(guide_classes) or 'none'}; "
+              f"{from_guide} playbooks from guide pages")
+        if guide.unwrapped_links:
+            print(f"Links to pages not in the repository (kept as text): {len(guide.unwrapped_links)}")
     return 0
 
 

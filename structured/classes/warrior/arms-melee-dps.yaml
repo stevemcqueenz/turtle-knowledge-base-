@@ -1,6 +1,7 @@
 class: Warrior
 spec: Arms
 role: melee-dps
+guide: guide/classes/warrior/arms.md
 sources:
 - url: https://forum.turtlecraft.gg/viewtopic.php?p=102974#p102974
   author: Dragunovi
@@ -76,210 +77,614 @@ patch_validity:
   written_for: Dec-2024 kit (Slam continues swing timer; Precision Cut refund); execute notes updated for CC3 and 1.18.1
   valid_for_1181: true
   notes: '1.18.1: Hamstring cooldown removed; Boundless Anger and Precision Cut swapped; Precision Cut 25/50/75% per extra
-    rage; no post-release Arms parse. Master Strike replaced Counterattack at CC3.'
+    rage; no post-release Arms parse. Master Strike replaced Counterattack at CC3. Guide refresh (2026-09): Precision Cut
+    now after Boundless Anger 3; Execute 10 rage; builds updated from #warrior.'
 talents:
-  build_name: 2H Arms raid (sourced points only)
+  build_name: MS Arms (recommended Arms build)
+  split: 35/16/0
+  code_tree_b64: NQQAJYDQpYQYB-AoAooAAI-
+  calculator: https://xian55.github.io/tortoise-db-viewer/?talents=warrior&t=152200113325130231-050550001
   points:
   - tree: Arms
+    talent: Improved Heroic Strike
+    rank: 1
+    spell_id: 12282
+  - tree: Arms
     talent: Tactical Mastery
-    rank: 3
-    spell_id: 12677
-    note: 3-5
-    talent_id: 57
+    rank: 5
+    spell_id: 12679
   - tree: Arms
     talent: Improved Rend
     rank: 2
     spell_id: 12658
-    talent_id: 58
   - tree: Arms
-    talent: Improved Overpower
+    talent: Improved Charge
     rank: 2
-    spell_id: 12963
-    talent_id: 63
-  - tree: Arms
-    talent: Deep Wounds
-    rank: 3
-    spell_id: 12867
-    talent_id: 64
-  - tree: Arms
-    talent: Impale
-    rank: 2
-    spell_id: 16494
-    talent_id: 66
-  - tree: Arms
-    talent: Two-Handed Weapon Specialization
-    rank: 3
-    spell_id: 12712
-    talent_id: 65
+    spell_id: 12697
   - tree: Arms
     talent: Master Strike
     rank: 1
     spell_id: 54023
-    talent_id: 62
   - tree: Arms
-    talent: Sweeping Strikes
+    talent: Improved Overpower
     rank: 1
-    spell_id: 12292
-    talent_id: 68
+    spell_id: 12290
+  - tree: Arms
+    talent: Deep Wounds
+    rank: 3
+    spell_id: 12867
+  - tree: Arms
+    talent: Two-Handed Weapon Specialization
+    rank: 3
+    spell_id: 12712
+  - tree: Arms
+    talent: Impale
+    rank: 2
+    spell_id: 16494
   - tree: Arms
     talent: Master of Arms
     rank: 5
     spell_id: 51658
-    talent_id: 67
+  - tree: Arms
+    talent: Sweeping Strikes
+    rank: 1
+    spell_id: 12292
+  - tree: Arms
+    talent: Boundless Anger
+    rank: 3
+    spell_id: 57711
   - tree: Arms
     talent: Improved Slam
     rank: 2
     spell_id: 12330
-    talent_id: 71
-  - tree: Arms
-    talent: Mortal Strike
-    rank: 1
-    spell_id: 12294
-    talent_id: 73
   - tree: Arms
     talent: Precision Cut
     rank: 3
     spell_id: 51643
-    note: position swapped with Boundless Anger in 1.18.1
-    talent_id: 72
+  - tree: Arms
+    talent: Mortal Strike
+    rank: 1
+    spell_id: 12294
   - tree: Fury
     talent: Cruelty
     rank: 5
     spell_id: 12856
-    talent_id: 94
   - tree: Fury
     talent: Unbridled Wrath
-    rank: 0
-    spell_id: 12322
-    note: contested for 2H
-    talent_id: 96
+    rank: 5
+    spell_id: 13002
+  - tree: Fury
+    talent: Improved Shouts
+    rank: 5
+    spell_id: 51613
+  - tree: Fury
+    talent: Enrage
+    rank: 1
+    spell_id: 12317
+  variants:
+  - name: Classic MS Arms 31/20
+    split: 31/20/0
+    code_tree_b64: VQQAIYDQpCQAB-AoAooAAo-
+    calculator: https://xian55.github.io/tortoise-db-viewer/?talents=warrior&t=252200103325102201-050550005
+    source: guide/classes/warrior/arms.md
+  - name: Death Wish Arms "Deathcute"
+    split: 30/21/0
+    code_tree_b64: dQAACYDQBZQY-AoAooAAoB-
+    calculator: https://xian55.github.io/tortoise-db-viewer/?talents=warrior&t=35200002332013123-050550005001
+    source: '[[d:warrior#1485079015931773020]]'
+  - name: Deathcute, Guts variant
+    split: 30/21/0
+    code_tree_b64: NQQAJYDQJYQY-AoAooAAoB-
+    calculator: https://xian55.github.io/tortoise-db-viewer/?talents=warrior&t=15220011332113023-050550005001
+    source: guide/classes/warrior/arms.md
   leveling_order:
-  - level: null
+  - level: 10
     tree: Fury
-    talent: Cruelty 5/5
-  - level: null
-    tree: Arms
-    talent: Tactical Mastery 3/5
-  - level: null
-    tree: Arms
-    talent: Improved Rend 2/2
-  - level: null
-    tree: Arms
-    talent: Improved Thunder Clap 3/3
-  - level: null
-    tree: Arms
-    talent: Deflection 2/5
-  - level: null
-    tree: Arms
-    talent: Improved Overpower 2/2
-  - level: null
+    talent: Cruelty
+    rank: 1
+  - level: 11
     tree: Fury
-    talent: Dual Wield Specialization 3
-  - level: null
+    talent: Cruelty
+    rank: 2
+  - level: 12
+    tree: Fury
+    talent: Cruelty
+    rank: 3
+  - level: 13
+    tree: Fury
+    talent: Cruelty
+    rank: 4
+  - level: 14
+    tree: Fury
+    talent: Cruelty
+    rank: 5
+  - level: 15
     tree: Arms
-    talent: Two-Handed Weapon Specialization 3
-  - level: null
+    talent: Improved Rend
+    rank: 1
+  - level: 16
     tree: Arms
-    talent: Impale 1/2
-  - level: null
+    talent: Improved Rend
+    rank: 2
+  - level: 17
     tree: Arms
-    talent: Master Strike
-  - level: null
+    talent: Tactical Mastery
+    rank: 1
+  - level: 18
+    tree: Arms
+    talent: Tactical Mastery
+    rank: 2
+  - level: 19
+    tree: Arms
+    talent: Tactical Mastery
+    rank: 3
+  - level: 20
+    tree: Arms
+    talent: Improved Thunder Clap
+    rank: 1
+  - level: 21
+    tree: Arms
+    talent: Improved Charge
+    rank: 1
+  - level: 22
+    tree: Arms
+    talent: Improved Charge
+    rank: 2
+  - level: 23
+    tree: Arms
+    talent: Tactical Mastery
+    rank: 4
+  - level: 24
+    tree: Arms
+    talent: Tactical Mastery
+    rank: 5
+  - level: 25
+    tree: Arms
+    talent: Improved Overpower
+    rank: 1
+  - level: 26
+    tree: Arms
+    talent: Improved Overpower
+    rank: 2
+  - level: 27
+    tree: Arms
+    talent: Deep Wounds
+    rank: 1
+  - level: 28
+    tree: Arms
+    talent: Deep Wounds
+    rank: 2
+  - level: 29
+    tree: Arms
+    talent: Deep Wounds
+    rank: 3
+  - level: 30
+    tree: Arms
+    talent: Two-Handed Weapon Specialization
+    rank: 1
+  - level: 31
+    tree: Arms
+    talent: Two-Handed Weapon Specialization
+    rank: 2
+  - level: 32
+    tree: Arms
+    talent: Two-Handed Weapon Specialization
+    rank: 3
+  - level: 33
+    tree: Arms
+    talent: Impale
+    rank: 1
+  - level: 34
+    tree: Arms
+    talent: Impale
+    rank: 2
+  - level: 35
     tree: Arms
     talent: Sweeping Strikes
-  - level: null
+    rank: 1
+  - level: 36
     tree: Arms
-    talent: Master of Arms 5/5
-  leveling_order_source: armsgirl p=157920 gives the pick order only; the post states no levels, which is why every level
-    here is null. The route ends at 40 and switches to a 60 build.
+    talent: Master Strike
+    rank: 1
+  - level: 37
+    tree: Arms
+    talent: Master of Arms
+    rank: 1
+  - level: 38
+    tree: Arms
+    talent: Master of Arms
+    rank: 2
+  - level: 39
+    tree: Arms
+    talent: Master of Arms
+    rank: 3
+  - level: 40
+    tree: Arms
+    talent: Master of Arms
+    rank: 4
+  - level: 41
+    tree: Arms
+    talent: Master of Arms
+    rank: 5
+  - level: 42
+    tree: Arms
+    talent: Improved Slam
+    rank: 1
+  - level: 43
+    tree: Arms
+    talent: Improved Slam
+    rank: 2
+  - level: 44
+    tree: Arms
+    talent: Improved Thunder Clap
+    rank: 2
+  - level: 45
+    tree: Arms
+    talent: Mortal Strike
+    rank: 1
+  - level: 46
+    tree: Fury
+    talent: Unbridled Wrath
+    rank: 1
+  - level: 47
+    tree: Fury
+    talent: Unbridled Wrath
+    rank: 2
+  - level: 48
+    tree: Fury
+    talent: Unbridled Wrath
+    rank: 3
+  - level: 49
+    tree: Fury
+    talent: Unbridled Wrath
+    rank: 4
+  - level: 50
+    tree: Fury
+    talent: Unbridled Wrath
+    rank: 5
+  - level: 51
+    tree: Fury
+    talent: Improved Shouts
+    rank: 1
+  - level: 52
+    tree: Fury
+    talent: Improved Shouts
+    rank: 2
+  - level: 53
+    tree: Fury
+    talent: Improved Shouts
+    rank: 3
+  - level: 54
+    tree: Fury
+    talent: Improved Shouts
+    rank: 4
+  - level: 55
+    tree: Fury
+    talent: Improved Shouts
+    rank: 5
+  - level: 56
+    tree: Fury
+    talent: Enrage
+    rank: 1
+  - level: 57
+    tree: Fury
+    talent: Enrage
+    rank: 2
+  - level: 58
+    tree: Fury
+    talent: Enrage
+    rank: 3
+  - level: 59
+    tree: Fury
+    talent: Enrage
+    rank: 4
+  - level: 60
+    tree: Fury
+    talent: Enrage
+    rank: 5
+  leveling_order_note: Virasan's pinned Arms no-respec order [[d:warrior#1364931945624240191]], validated 31/20/0 at 60 (code
+    FQQCKYDQpAQAB-AoAooAAo-)
+  leveling_order_code_tree_b64: FQQCKYDQpAQAB-AoAooAAo-
   links_opaque:
   - https://talents.turtlecraft.gg/warrior?points=FQADCYDQB-FoAAoAAoRCF-
   - https://talents.turtlecraft.gg/warrior?points=FQADCYDQ-FoAAoAAoRCFAB-
-  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=warrior&t=032000123325100231-05
-  build_link_tortoise_note: 'Generated from the sourced points list (33 points: Arms 28, Fury 5); the calculator shows the
+  build_source: '[[d:warrior#1485950209631588372]]'
+  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=warrior&t=152200113325130231-050550001
+  build_link_tortoise_note: 'Generated from the sourced points list (51 points: Arms 35, Fury 16); the calculator shows the
     remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
-stat_weights: null
+stat_weights:
+- stat: hit
+  verdict: yellow cap 8% at 300 skill -> 5% at 315
+  sources:
+  - '[[d:warrior#1457402842074714285]]'
+  agreement: consensus
+  era: post-1.18.1
+- stat: weapon-skill
+  verdict: 310-315; 2H Weapon Spec gives +3
+  sources:
+  - '[[d:warrior#1493323470170488984]]'
+  agreement: consensus
+  era: post-1.18.1
+- stat: agility/crit
+  verdict: keeps value above 34% crit (unlike Fury); axe for +5% crit early
+  sources:
+  - '[[d:warrior#1467622383731867730]]'
+  - '[[d:warrior#1470334841907056703]]'
+  agreement: single source
+  era: post-1.18.1
+- stat: armor-penetration
+  verdict: best case on Arms because Execute scales with it; weak vs debuffed bosses
+  sources:
+  - '[[d:warrior#1485080360978092143]]'
+  - '[[d:warrior#1488197833382170635]]'
+  agreement: consensus
+  era: post-1.18.1
+- stat: haste
+  verdict: no value on Whirlwind/Sweeping Strikes damage
+  sources:
+  - '[[d:warrior#1479852699406041250]]'
+  agreement: single source
+  era: post-1.18.1
 stat_priority:
-- hit
-- strength
-- attack-power
-- crit
-- agility
+- hit-to-yellow-cap
+- weapon-skill-310-315
+- crit/agility
+- strength/attack-power
+- armor-penetration
+- haste
+caps:
+  hit_boss_yellow_pct:
+    value: 8 at 300 weapon skill, -0.2 per skill point, 5 at 315
+    sources:
+    - '[[d:warrior#1451430729769680999]]'
+    - '[[d:warrior#1457402842074714285]]'
+    era: post-1.18.1
+    agreement: consensus
+  weapon_skill_cap:
+    value: 315
+    note: 316+ loses ~0.6% crit (bug)
+    sources:
+    - '[[d:warrior#1479840926296838307]]'
+    - '[[d:warrior#1479860943105036409]]'
+    era: post-1.18.1
+    agreement: consensus
+  glancing:
+    value: 40% of white hits vs bosses glance; damage 65% at 300 skill -> 95% at 315
+    sources:
+    - '[[d:warrior#1443319985345921047]]'
+    era: post-1.18.1
+    agreement: single source
+  crit_arms_first_below_pct:
+    value: 23
+    note: unbuffed; above this 2H Fury beats Arms
+    sources:
+    - '[[d:warrior#1469008830225580132]]'
+    era: post-1.18.1
+    agreement: single source
+  defense: null
+rotation_single:
+- priority: 0
+  action: Charge -> Sunder Armor -> Bloodrage (Enrage)
+  condition: opener
+  sources:
+  - '[[d:warrior#1487841821928198335]]'
+- priority: 1
+  action: Execute
+  condition: 'target <= 20%; bank rage first; Precision Cut adds 25/50/75% per extra rage; Deathcute: Death Wish + Bloodrage
+    then spam Execute'
+  sources:
+  - '[[d:warrior#1494705955731013692]]'
+  - '[[d:warrior#1485948147040649348]]'
+- priority: 2
+  action: Mortal Strike
+  condition: off cooldown (MS build)
+- priority: 3
+  action: Slam
+  condition: right after each auto lands; 3.6-3.8 speed weapon
+  sources:
+  - '[[d:warrior#1485948346420953218]]'
+  - '[[d:warrior#1454938660276408574]]'
+- priority: 4
+  action: Whirlwind
+  condition: off cooldown
+  sources:
+  - '[[d:warrior#1477507600320041145]]'
+- priority: 5
+  action: Overpower
+  condition: on proc; avoid stance swaps that waste 50+ rage
+  sources:
+  - '[[d:warrior#1493216441845940356]]'
+  - '[[d:warrior#1486211683738456225]]'
+- priority: 6
+  action: Hamstring
+  condition: cheap filler GCD (no cooldown)
+  sources:
+  - '[[d:warrior#1485948346420953218]]'
+- priority: 7
+  action: Heroic Strike
+  condition: only when rage would cap
+rotation_aoe:
+- targets_min: 2
+  priority: 1
+  action: Sweeping Strikes
+  condition: first on any 2+ target pull; not on Hamstring/Pummel
+  sources:
+  - '[[d:warrior#1486384393625927822]]'
+  - '[[d:warrior#1358900982875947129]]'
+- targets_min: 2
+  priority: 2
+  action: Mortal Strike / Whirlwind
+  condition: while SS charges remain
+- targets_min: 2
+  priority: 3
+  action: Cleave
+  condition: rage dump instead of Heroic Strike
+aoe_threshold:
+  value: 2
+  note: Sweeping Strikes from 2 targets; Lawnmower (fury.md) beats Arms on pure trash
+cooldowns:
+- name: Death Wish
+  use_when: 'Deathcute only: Execute phase'
+  sources:
+  - '[[d:warrior#1482492282388091114]]'
+- name: Recklessness
+  use_when: Execute phase; shared 30-min CD with Shield Wall/Retaliation
+  sources:
+  - '[[d:warrior#1462506610068029502]]'
+- name: Bloodrage
+  use_when: pull, and into Execute on fights >= 1:15
+  sources:
+  - '[[d:warrior#1433266387962560572]]'
+- name: Kiss of the Spider
+  use_when: when the Execute phase matters most
+  sources:
+  - '[[d:warrior#1468275155242586275]]'
+resource_rules:
+- Bank rage before 20% so Execute takes the target from 20% to 0 [[d:warrior#1494705955731013692]]
+- Heroic Strike swings generate no rage [[d:warrior#1473745241159762074]]
+- 'Deathcute: expect 0-rage dead time between Executes [[d:warrior#1486834452662456451]]'
+consumables:
+- Same kit as Fury (see fury-melee-dps.yaml / guide/classes/warrior/fury.md#consumables-and-buffs)
+- 'Gloves: +9 Strength common, Agility stays good above 34% crit [[d:warrior#1467622383731867730]]'
+mistakes_to_avoid:
+- Master of Arms over Enrage in a Precision Cut build [[d:warrior#1484972916595757106]]
+- Stance-swapping for Overpower with lots of rage [[d:warrior#1486211683738456225]]
+- Deathcute in raids that kill too fast for Execute to matter [[d:warrior#1486834175318425761]]
+- Pre-1.18 guides assuming an Execute cooldown [[d:warrior#1398137181406498906]]
+leveling_by_bracket:
+  spec_consensus:
+  - claim: Fury is the best solo leveling spec post-1.18.1; Arms if you have a healer
+    sources:
+    - '[[d:warrior#1484971008153747569]]'
+    agreement: consensus
+    era: post-1.18.1
+  - claim: Arms 10-60 is still 'standard'; Fury only needs Cruelty pre-30
+    sources:
+    - '[[d:warrior#1492166484498190438]]'
+    - '[[d:warrior#1486086625799835798]]'
+    agreement: consensus
+    era: post-1.18.1
+  - claim: 'No-respec route: Fury (Cruelty) to ~30, then Arms with a 2H; go DW when Blood Drinker is reachable'
+    sources:
+    - '[[d:warrior#1486645720646942790]]'
+    agreement: single source
+    era: post-1.18.1
+  brackets:
+  - bracket: 1-10
+    advice: Hardest stretch; on max-difficulty HC 1-10 is near-impossible and becomes manageable at 10
+    sources:
+    - '[[d:warrior#1485774955764383857]]'
+    - '[[d:warrior#1484456303463239790]]'
+    era: post-1.18.1
+  - bracket: 10-19
+    advice: Opener Demo Shout -> Sunder -> Execute; stam/spirit gear; hamstring kiting; one mob at a time
+    sources:
+    - '[[d:warrior#1493937763802677289]]'
+    - '[[d:warrior#1464992683176230932]]'
+    era: mixed
+  - bracket: 20-29
+    advice: Fury to 30; DW off-hand gets +10% hit from the talent but off-hand misses still hurt rage gen, so 2H is smoother
+    sources:
+    - '[[d:warrior#1428321174961524737]]'
+    - '[[d:warrior#1430007342480490506]]'
+    era: 1.18.1-announced-pre-release
+  - bracket: 30-39
+    advice: Arms respec at 30 (Sweeping Strikes); Whirlwind Axe at 30; Prot picks up at Shield Slam; Sweeping+WW is the dungeon
+      pull
+    sources:
+    - '[[d:warrior#1427988056673095852]]'
+    - '[[d:warrior#1493939126385246208]]'
+    era: mixed
+  - bracket: 40-49
+    advice: 'Mortal Strike/Bloodthirst at 40; weapons to chase: Whirlwind Axe, Diamond Flask'
+    sources:
+    - '[[d:warrior#1485977686001188864]]'
+    - '[[d:warrior#1493937763802677289]]'
+    era: post-1.18.1
+  - bracket: 50-60
+    advice: Prot respec if dungeon-spamming; past 40 Arms tanking in a shield takes too much damage
+    sources:
+    - '[[d:warrior#1429822325510897794]]'
+    era: 1.18.1-announced-pre-release
+  leveling_stat_priority: stam > str >= spirit > agi (single source) [[d:warrior#1459283546194575496]]
+  ordered_arms_route:
+    author: Virasan
+    source: '[[d:warrior#1364931945624240191]]'
+    note: order only; listed ranks sum to 52 vs 51 (one stale line)
+    order:
+    - Cruelty 5
+    - Improved Rend 2
+    - Tactical Mastery 3
+    - Improved Thunder Clap 1
+    - Improved Charge 2
+    - Tactical Mastery 5
+    - Improved Overpower 2
+    - Deep Wounds 3
+    - Two-Handed Weapon Specialization 3
+    - Impale 2
+    - Sweeping Strikes 1
+    - Master Strike 1
+    - Master of Arms 5
+    - Improved Slam 2
+    - Improved Thunder Clap 2
+    - Mortal Strike 1
+    - Unbridled Wrath 5
+    - Improved Shouts 5
+    - Enrage 5
+  hc_fury_build:
+    code: FQLAIYD-FoAAJYAoZBVAB-
+    source: '[[d:warrior#1469876907020652688]]'
+discord:
+  channels:
+  - warrior
+  agreement: mixed — consensus on mechanics/priority; contested on Arms-vs-2H-Fury strength and on the 2H Fury rotation sim
+  eras:
+  - pre-1.18.1
+  - 1.18.1-announced-pre-release
+  - post-1.18.1
+  sources:
+  - cite: '[[d:warrior#1488521089893142660]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: Arms = AoE/cleave pick, mid-pack ST
+  - cite: '[[d:warrior#1487590647996350464]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: only Arms 1.18.1 change is the BA/PC swap
+  - cite: '[[d:warrior#1488713744682057889]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: Arms dips Fury for Enrage
+  - cite: '[[d:warrior#1485576434079629414]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: 'BWL execute: slam-exe-swing'
+  - cite: '[[d:warrior#1484563441808183316]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: deathcute 30/21 top parsing at launch
+  - cite: '[[d:warrior#1485500872829177918]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: weapon-skill 315 cap
+  - cite: '[[d:warrior#1494491071366037607]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: post-1.18.1 rage formula (guide writer 30/Khoni)
+  - cite: '[[d:warrior#1486524065144373248]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: unshipped Kyrsie rework proposal
+  - cite: '[[d:warrior#1489363464605663365]]'
+    author: Shardphoenix
+    authority: player
+    date: '2026-04-01'
+    era: post-1.18.1
+    agreement: consensus
+    topic: Arms trails 2H Fury on most fights
 stat_priority_note: 'Weapon top-end damage is not a character stat and so is not in the list, but it ranks just below hit
   for this spec: the slowest, highest top-end two-hander is the pick because Whirlwind, Sweeping Strikes and Cleave each use
   one auto-attack''s worth of damage per target [Atreidon p=101831] and Mortal Strike "will be bigger with slow weapon than
   with fast weapon" [Czasku p=101834]. Slam is normalized since Dec 2024, so slow weapons lost ~18% Slam damage. Strength
   and attack power are a tie: no cited post ranks them against each other, so their order in the array above carries no ranking.
   Grouping them is this repository''s reading of the sources listed above.'
-caps:
-  hit_2h_pct: 8
-  hit_boss_pct: 9
-  crit: null
-  defense: null
-rotation_single:
-- priority: 0
-  action: Charge -> Bloodrage -> Sunder Armor once -> Berserker Stance
-  condition: opener on raid bosses
-- priority: 1
-  action: Mortal Strike
-  condition: off cooldown
-- priority: 2
-  action: Whirlwind
-  condition: off cooldown
-- priority: 3
-  action: Overpower
-  condition: target dodged; Battle Stance only (stance dance optional)
-- priority: 4
-  action: Slam
-  condition: MS and WW on cooldown; cast immediately after a white swing (swing timer addon)
-- priority: 5
-  action: Sunder Armor
-  condition: < 5 stacks or non-warrior tank; trash only until 50% HP
-- priority: 6
-  action: Hamstring
-  condition: proc-fishing instant filler; no cooldown since 1.18.1
-- priority: 7
-  action: Heroic Strike
-  condition: rage >= 70 and nothing else; Arms generally avoids HS
-- priority: 8
-  action: Execute
-  condition: target HP <= 20% and rage high (>= ~60); per Licata Slam/MS beat Execute per rage unless overcapping or target
-    dying now — contested
-rotation_aoe:
-- targets_min: 2
-  priority: 1
-  action: Sweeping Strikes
-  condition: start of pull (20 rage)
-- targets_min: 2
-  priority: 2
-  action: Whirlwind
-  condition: under Sweeping Strikes (Berserker Stance)
-- targets_min: 2
-  priority: 3
-  action: Cleave
-  condition: on-next-swing under Sweeping Strikes
-- targets_min: 4
-  priority: 1
-  action: same as 2-3
-  condition: no 4+ specific priority in sources; mind threat and CC
-aoe_threshold: null
-cooldowns:
-- name: Sweeping Strikes
-  use_when: every AoE pull
-- name: Recklessness
-  use_when: execute phase
-- name: Death Wish
-  use_when: if taken
-- name: Master Strike
-  use_when: effect of equipped weapon only; do not weapon-swap mid-combat (resets swing timer)
-resource_rules:
-- Rage comes once per white swing; do not Execute down to 0 with nothing to do (Licata)
-- Bloodrage (10) is not enough for Slam/Execute
-- Conserve rage between dungeon pulls
-consumables: []
-mistakes_to_avoid:
-- Heroic Strike as a filler
-- Slam cast mid-swing instead of right after a swing
-- Execute spam at low rage after CC3 (refund era advice)
-- Weapon swapping for Master Strike effects mid-fight
-- Sweeping Strikes/Whirlwind near CC

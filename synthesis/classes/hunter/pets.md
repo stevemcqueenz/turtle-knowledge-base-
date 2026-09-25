@@ -79,3 +79,27 @@ Family/skin lists: community spreadsheet (Destrose) `https://docs.google.com/spr
 - Lightning Breath higher ranks untrainable (see above); Moth pet "bugged as hell" [Brainfrost (player), 2026-04-01](https://forum.turtlecraft.gg/viewtopic.php?p=173561#p173561).
 - Ferra's Collar + Beastmaster's Boots pet-damage bonuses do not stack (bug report 10031) [Kpt (player), 2024-11-23](https://forum.turtlecraft.gg/viewtopic.php?p=109542#p109542).
 - Cheetah/Pack no longer stacks with boot speed enchant — players disagree whether it ever did [Solveit (player), 2026-02-20](https://forum.turtlecraft.gg/viewtopic.php?p=168998#p168998) vs [Flexdraw (player), 2026-02-20](https://forum.turtlecraft.gg/viewtopic.php?p=169046#p169046).
+
+## Discord additions (pet practice)
+
+Folded from the archived `#hunter` Discord (`staging/hunter-core/`, `staging/hunter-pve/`, `staging/hunter-pvp/`). Era tags: **pre-1.18.1** (<2025-10-03), **1.18.1-announced-pre-release** (2025-10-03 → 2026-03-19), **post-1.18.1** (≥2026-03-20). Every claim carries `[[d:hunter#<id>]]`, an era and an agreement tag.
+
+- **Taming**: a pet tamed at your own level **gains no loyalty because it cannot earn XP** — it will not gain loyalty until it can XP again, and it burns stacks of food in the meantime. Stock food first; ask a tank/healer to hold threat while taming a beast that hits hard. [consensus, [[d:hunter#1460629863223525600]], [[d:hunter#1479701360189509906]], [[d:hunter#1459816355095384107]]]
+- **Pet-family value is situational, not "one BiS pet"**: scorpid (sustained / poison), wind serpent & cobra (burst / nuke), raptor (bleed-capable melee), wolf (bad for BM, 0% damage scaling); cat vs raptor is a wash. Attack speed is normalised in output terms — the differentiators are the **family damage multiplier and the special ability**. [consensus, [[d:hunter#1416508072712605826]], [[d:hunter#1413458255715242015]], [[d:hunter#1420565170035359877]], [[d:hunter#1432288984200904765]], [[d:hunter#1424807661324734545]]]
+- **Post-1.18.1 BM pet choice is fight-length dependent**: MC scorpid for long fights with an Eyes-of-the-Beast snapshot (4 stacks, pop Bestial Wrath/AP trinkets, 5th stack via Eyes of the Beast); ZG snake for short fights / Kill Command; ZG raptor the all-rounder that works in Naxx; cat fell behind (no damaging special). Kill Command is multiplied by the **family damage modifier** but Coordinated Assault is not. [consensus, [[d:hunter#1490837960583549270]], [[d:hunter#1490794224499822733]], [[d:hunter#1486454996177260656]], [[d:hunter#1485789832759349258]]]
+- **Pets do not scale with hunter crit**: BM only needs enough crit to keep Kill Command on cooldown, then stacks RAP through Spirit Bond. [consensus, [[d:hunter#1488161325879267450]], [[d:hunter#1486502917342232787]]]
+- **1.18.1 added pet cleave avoidance (~40% less physical cleave damage)** [single source, [[d:hunter#1485121037426495529]]]; prefer **2.0 attack-speed pets** for Windfury (the proc has an internal cooldown and a 1.0 pet splits the proc damage) [single source, [[d:hunter#1489955871776702616]]].
+- **Scorpid Poison bug**: a stacking-scaling bug pushed scorpion damage far above the other families; hotfixed **2026-03-24**, after which the guide author called scorpion "probably middle of the pack" [consensus, [[d:hunter#1487448189387931749]], [[d:hunter#1484745831117623356]], [[d:hunter#1484923184246689858]]].
+- **Pet consumables stack** (Juju Power, Juju Might, Scroll of Strength, Scroll of Agility) and are what push BM Kill Command crits to 7–9k [consensus, [[d:hunter#1491073655382212830]], [[d:hunter#1490806608312406098]]].
+- **PvP pet training-point priority**: BiS DPS skill > needed elemental resist(s) > rank 8/9 Greater Stamina > leftovers into other resists / armor / dash-dive / bite / claw [single source (guide writer), [[d:hunter#1438241842159423529]]]; older advice max stamina + a resist [single source, [[d:hunter#1059889358540386366]], [[d:hunter#1336163259002130442]]]. Post-1.18.1 BM PvP needs a **sprint/dash** pet [single source, [[d:hunter#1492651231305273414]]]; the spider is the most annoying PvP pet [single source, [[d:hunter#1491084492012654592]]].
+- **Community resources the forum KB never listed**: Destroses' custom-beast spreadsheets [[d:hunter#1299178457112252457]]; MetaHunt ships a Turtle beast/ability/vendor datastore and Feed-O-Matic [[d:hunter#1485752587289493554]], [[d:hunter#1488624322686746945]]; Vellasta's simulator [[d:hunter#1490682120815775965]].
+
+| Source | What it adds | Era | Agreement |
+|---|---|---|---|
+| [[d:hunter#1460629863223525600]] | same-level tame gains no loyalty | mixed | consensus |
+| [[d:hunter#1490837960583549270]] | BM pet choice by fight length | post-1.18.1 | consensus |
+| [[d:hunter#1485789832759349258]] | KC × family modifier; Coordinated Assault not | post-1.18.1 | single source |
+| [[d:hunter#1487448189387931749]] | Scorpid Poison hotfix 2026-03-24 | post-1.18.1 | consensus |
+| [[d:hunter#1485121037426495529]] | 1.18.1 pet cleave avoidance | post-1.18.1 | single source |
+| [[d:hunter#1438241842159423529]] | PvP pet training-point priority | 1.18.1-announced-pre-release | single source |
+| [[d:hunter#1490682120815775965]] | Vellasta TWoW Hunter Simulator | post-1.18.1 | tool |

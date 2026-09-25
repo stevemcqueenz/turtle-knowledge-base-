@@ -1,6 +1,8 @@
 # Priest playbooks (Turtle WoW, written 2026-09 from forum f44-priest + staff changelogs)
 
-Follows `synthesis/CONVENTIONS.md`. Every claim is cited to a forum post (`viewtopic.php?p=<id>#p<id>`), a wiki page, or a staff changelog. Machine-readable twins live in `structured/classes/priest/`.
+Follows `synthesis/CONVENTIONS.md`. Every claim is cited to a forum post (`viewtopic.php?p=<id>#p<id>`), a wiki page, a staff changelog, or a Discord message (`[[d:priest#<id>]]`). Machine-readable twins live in `structured/classes/priest/`.
+
+**Discord merge (2026-06):** the archived `#priest` channel was folded in. It closes the biggest gaps below: the long-form `?points=` links decode (211 legal builds, 157 distinct), and post-1.18.1 builds exist for all three specs (Holy 14/37/0, Shadow 0/20/31, Disc 31/20/0). Each `structured/classes/priest/*.yaml` now carries a `discord` block with `era`/`agreement` per source.
 
 ## Files written
 
@@ -30,8 +32,8 @@ Released 2026-03-20; announced 2026-01-23 with revisions 2026-01-26 and 2026-03-
 
 ## Gaps (not covered by the sources — do not guess)
 
-1. **No post-1.18.1 talent build for any spec.** All player builds predate 2026-03-20; the Holy capstone (Ascendance), Book of Prayer, Empowered Recovery, Improved Fade rework and the Blackout/Improved Mind Blast rows have no player evaluation. Per-talent splits of the popular 17/34/0 Holy build exist only as images.
-2. **Talent-link strings** (talents.turtlecraft.gg / talent-builder.haaxor1689.dev / classicdb) could not be decoded offline; they are recorded verbatim.
+1. ~~**No post-1.18.1 talent build for any spec.**~~ **Closed by the Discord merge:** the channel documents the post-1.18.1 Holy raid build **14/37/0** [[d:priest#1484246385447403711]], the Shadow raid build **0/20/31** [[d:priest#1484671489260388393]] and confirms Disc-DPS **31/20/0** [[d:priest#1490793158249021610]]. Ascendance still has no player evaluation beyond "take it".
+2. **Talent-link strings:** the **long-form** `talents.turtle-wow.org/priest?points=` links DO decode (333 extracted; **211 legal 51-point builds, 157 distinct**) — this closed the pre-1.18.1 build gap. The **short-form** `talents.turtlecraft.gg` codes (2025-08 onward, incl. all post-1.18.1 links) do not decode offline and are recorded verbatim.
 3. **Tauren Priest racial spells**: Light of An'she (level 10) and Spiritwalk (level 20) — quest chain, NPCs and ids are known from the wiki, but the spells' effects, cooldowns and mana costs are not described anywhere in the extracted data (only that Light of An'she is Holy school and unusable in Shadowform — Itsbacon 2026-03-21). No Tauren-specific playstyle advice exists.
 4. **1.18.1 Discipline tier sets and Shadow T2.5**: announced by staff; per-piece stats and the T1/T2/T3(.5) Disc set bonuses are not in the extracted sources. Same for T3.5 "Vestments of Pestilence" bonuses (only complaints/praise).
 5. **Priest tank (caster tank)**: two anecdotes, no build/gear/threat rotation.
@@ -46,7 +48,9 @@ Released 2026-03-20; announced 2026-01-23 with revisions 2026-01-26 and 2026-03-
 14. Hardcore forum and Help & Support forum are not in the extracted set; HC advice comes from three priest-forum posts only.
 
 ## Top open questions for a future pass
-- A decoded post-1.18.1 Holy build (does anyone take Reservoir of Light / Book of Prayer?) and whether Ascendance changed tank-healing assignments.
+- ~~A decoded post-1.18.1 Holy build~~ **answered:** 14/37/0 with Reservoir of Light 3/3 and Book of Prayer 2/2 (Snackz/Kabooble); whether Ascendance changed tank-healing assignments is still untested.
 - Real numbers for Light of An'she and Spiritwalk.
 - Disc tier set bonuses (T1/T2/T3/T3.5) added in 1.18.1.
-- Whether Improved Mind Blast in row 1 replaced Spirit Tap for raiding Shadow priests.
+- Post-1.18.1 Shadow DPS standing (no parse table posted in-channel).
+- Shadow Weaving duration 9 s vs 15 s; Lightwell's real throughput value (contested).
+- ~~Whether Improved Mind Blast in row 1 replaced Spirit Tap for raiding Shadow priests~~ **answered:** the post-1.18.1 Shadow build takes both Spirit Tap 5 and Improved Mind Blast 5.

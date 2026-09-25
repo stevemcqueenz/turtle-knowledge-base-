@@ -6,6 +6,67 @@ caveats:
 - The complete list of the 80+ Survival recipes and the 200+ Jewelcrafting items is not published anywhere in this extraction.
 - Forgotten Knowledge I vendor locations are player-found, single-source and six years old.
 - Both leveling guides are player-authored; the Jewelcrafting one is explicitly a work in progress and has had two reagent corrections applied by readers.
+discord_enrichment:
+  channel: turtle-wiki
+  note: >-
+    Profession mechanics from the archived #turtle-wiki Discord (2022-05 -> 2026-05).
+    Era: pre-1.18.1 | 1.18.1-announced-pre-release | post-1.18.1; agreement: consensus | single source | contested.
+    The wiki-verbatim records below are unchanged.
+  survival:
+  - era: pre-1.18.1
+    authority: player
+    agreement: single source
+    claim: >-
+      Skill 76-150 unlocks automatically at ~75. Bright Campfire grants a guaranteed
+      Survival point per cast all the way to 150; costs 1 Simple Wood (consumed) + Flint
+      and Tinder (not consumed); 5-minute cooldown shared with Basic Campfire; +8 Spirit
+      versus the Basic's +4; usable for cooking; cheapest route to 150 (slow). A 2022
+      player levelled Survival to 90 with fires and tents and never saw a 75 cap.
+    sources:
+    - '[[d:turtle-wiki#1354620357222469813]]'
+    - '[[d:turtle-wiki#1050940155705430097]]'
+  - era: post-1.18.1
+    authority: player
+    agreement: consensus
+    claim: >-
+      Reworked Survival: the old trainer no longer sells wood, the new trainer is in
+      Stormwind/Orgrimmar, and torches grey out at skill 15 with nothing further offered
+      by the trainer (matches CON-0087 / ISS-0072 / ISS-0073).
+    sources:
+    - '[[d:turtle-wiki#1484735725424476311]]'
+    - '[[d:turtle-wiki#1485506514327441489]]'
+    - '[[d:turtle-wiki#1485536549629071372]]'
+  gardening:
+  - era: 1.18.1-announced-pre-release
+    authority: guide writer
+    agreement: single source
+    claim: >-
+      'Striped melons' are in the database; the community gardening guide lives on the
+      forums (Speedz); endgame crops are valued as cheap raiding food. Adds a named crop
+      but does not settle the crop/seed count (CON-0085).
+    sources:
+    - '[[d:turtle-wiki#1425126275311206440]]'
+    - '[[d:turtle-wiki#1425126721983742002]]'
+  jewelcrafting:
+  - era: pre-1.18.1
+    authority: staff
+    agreement: single source
+    claim: >-
+      Akalix (staff): enchanted gemstones 'are like enchants' - applied to gear, with no
+      Goldsmith-spec requirement to benefit.
+    sources:
+    - '[[d:turtle-wiki#1385337387206578301]]'
+  - era: pre-1.18.1
+    authority: player
+    agreement: single source
+    claim: >-
+      Trainer-location questions ('where above 150?', 'where is the Expert/Artisan
+      trainer?') go unanswered; Valaen points players to the AtlasLoot Turtle fork as the
+      practical source. CON-0086 stays open.
+    sources:
+    - '[[d:turtle-wiki#1385243025638297731]]'
+    - '[[d:turtle-wiki#1401281072318251110]]'
+    - '[[d:turtle-wiki#1413577667210645556]]'
 recipes:
 - profession: Survival
   recipe: Dim Torch

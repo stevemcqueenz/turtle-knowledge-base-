@@ -1,6 +1,7 @@
 class: Paladin
 spec: Holy
 role: healer
+guide: guide/classes/paladin/holy.md
 sources:
 - url: https://forum.turtlecraft.gg/viewtopic.php?p=170300#p170300
   author: Ellifta
@@ -74,87 +75,446 @@ sources:
   author: Torta
   authority: staff
   date: '2026-03-24'
-agreement: contested
+- cite: '[[d:paladin#1494438173819015238]]'
+  author: Mithreon
+  authority: player (Holy raider, channel expert)
+  date: '2026-04-17'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:paladin#1489753323253923850]]'
+  author: Grey
+  authority: player (theorycrafter)
+  date: '2026-04-04'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:paladin#1492813841057448060]]'
+  author: PraylorSwift
+  authority: player
+  date: '2026-04-12'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:paladin#1485021368675336192]]'
+  author: Lhian
+  authority: staff (paladin developer)
+  date: '2026-03-22'
+  era: post-1.18.1
+  agreement: staff
+- cite: '[[d:paladin#1492956867545010276]]'
+  author: Mithreon
+  authority: player
+  date: '2026-04-12'
+  era: post-1.18.1
+  agreement: single source
+- cite: '[[d:paladin#1491681710780452874]]'
+  author: Mithreon
+  authority: player
+  date: '2026-04-09'
+  era: post-1.18.1
+  agreement: consensus
+agreement: consensus
 patch_validity:
-  written_for: 1.18.0 (Daybreak rework, Holy Shock damage restored) with 1.18.1 announced
-  valid_for_1181: unknown
-  notes: 1.18.1 nerfed Daybreak (289 -> 248 base, 43% -> 32% scaling) and removed the Holy T3.5 5-set extra Holy Strike targets;
-    2026-03-24 hotfix fixed Mending Light triggering/scaling. Raiders say the melee style remains dominant; no post-release
-    parse posted.
+  written_for: 1.18.1 (live 2026-03-20), post-release state through 2026-04-21
+  valid_for_1181: true
+  notes: 'Talent tree layout unchanged by 1.18.1. 1.18.1 nerfed Daybreak (base 289 -> 248; ~16% base / ~26% scaling) and removed
+    the Holy T3.5 5-set extra Holy Strike targets/+40% -> about -10% healing in Kara40 [[d:paladin#1486468604290535595]].
+    Launch bugs: Mending Light missing its 5% base scaling and not healing on miss (fixed ~2026-03-23/24); ~3 h with no Holy
+    Strike target cap; Holy Strike healing full-HP players (fixed by ~2026-04-09/12, now a semi-smart heal: wounded, not most-wounded);
+    Holy Shock ~20% lower since the 2026-04-07 reset (unfixed as of 2026-04-19). The 2026-04-01 ''melee holy removed'' developer
+    post was an APRIL FOOLS joke, not a patch.'
+discord:
+  channel: paladin
+  scope: post-1.18.1 Holy healer state, rotation, stats, gear, launch bugs
+  sources:
+  - id: '1475180097261797396'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: Mithreon's 38/0/13 build 'I'm ready for you, 1.18.1' (reposted post-release 1489299128310693929, 1494438173819015238)
+  - id: '1494438590489428079'
+    era: post-1.18.1
+    agreement: single source
+    claim: Improved Seal of the Crusader is for seal duty; Sanctity Aura for a Smite priest in the party
+  - id: '1440253873276194857'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: 'Kit: FoL 1.5 s, Holy Light 2.5 s (1.5 s after a Judgement), Holy Shock 20 s CD, Holy Strike 5-target smart heal
+      6 s CD; Daybreak aftershock; Illumination mana return'
+  - id: '1449766577917395067'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: 'Holy Strike tooltip: heals you and 4 allies within 10 yd, self-heal halved'
+  - id: '1478361089740902608'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    claim: Mending Light real range ~7.6 yd from the paladin (addon-measured)
+  - id: '1479415903203491956'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: Mending Light only heals damaged players
+  - id: '1492019095888199791'
+    era: post-1.18.1
+    agreement: consensus
+    claim: Holy Strike damage crit = melee crit; its heal rolls spell crit
+  - id: '1484924634599264276'
+    era: post-1.18.1
+    agreement: consensus
+    claim: Daybreak base -16%, scaling -26%; T3.5 lost +40% Holy Strike/Daybreak healing
+  - id: '1485021368675336192'
+    era: post-1.18.1
+    agreement: staff
+    claim: 'Lhian: Mending Light base scaling is missing (launch bug, fixed 2026-03-23/24)'
+  - id: '1487476203613851832'
+    era: post-1.18.1
+    agreement: staff
+    claim: 'Lhian: Holy Strike healing full-HP targets ''will be fixed'''
+  - id: '1489073543751925951'
+    era: post-1.18.1
+    agreement: consensus
+    claim: 'Intended Holy Strike targeting: wounded party members, not most-wounded'
+  - id: '1492956867545010276'
+    era: post-1.18.1
+    agreement: single source
+    claim: Holy Strike targeting fixed (2026-04-12)
+  - id: '1491841017123438716'
+    era: post-1.18.1
+    agreement: consensus
+    claim: Holy Shock base healing ~20% lower since the 2026-04-07 reset (bug, unfixed)
+  - id: '1486480191315382303'
+    era: post-1.18.1
+    agreement: consensus
+    claim: Ironclad was never bugged; update BetterCharacterStats
+  - id: '1493729928125087845'
+    era: post-1.18.1
+    agreement: single source
+    claim: Do not exceed ~3-4% haste (FoL cast = GCD)
+  - id: '1487359832318148680'
+    era: post-1.18.1
+    agreement: consensus
+    claim: 'SoW>JoW>SoW, Holy Strike, Illumination, mana pots + tea: never OOM; stats INT, spell crit, healing power'
+  - id: '1489558047897686076'
+    era: post-1.18.1
+    agreement: single source
+    claim: 'Heavy-damage fights (Vael): 3 FoL + 1 Holy Strike'
+  - id: '1488534279020482730'
+    era: post-1.18.1
+    agreement: consensus
+    claim: Rather 2 FoL + 1 Holy Shock than 2 Shock + 1 Crusader Strike
+  - id: '1488852869212798987'
+    era: post-1.18.1
+    agreement: joke (April Fools)
+    claim: 2026-04-01 'next patch' post (Holy Strike heal removed etc.) was an April Fools joke - NOT a change [[d:paladin#1488856415010291794]]
 talents:
-  build_name: Unchallenged 31/7/13 Holy (link only) + talents the raiders call mandatory
-  build_link: https://talents.turtlecraft.gg/paladin?points=AoaAYSVQBAYABAFACAAAAAAAAAAAFAAoAKAAAAAAAAA%3D
+  build_name: Raid healer 38/0/13 (Mithreon, posted 2026-02-22 and reposted post-1.18.1)
+  build_link: https://xian55.github.io/tortoise-db-viewer/?talents=paladin&t=05320312005251351--502300012
+  build_link_note: Validated with pipeline2/talent_tool.py (VALID). tree_b64 code AoaAZQFQpAYoB--FATAAK. talents.turtlecraft.gg
+    is offline.
   points:
   - tree: Holy
-    talent: Blessed Strikes
+    talent: Divine Intellect
     rank: 5
-    spell_id: 51321
-    talent_id: 459
+    spell_id: 20261
   - tree: Holy
     talent: Holy Judgement
     rank: 3
     spell_id: 51308
-    talent_id: 446
-  - tree: Holy
-    talent: Daybreak
-    rank: 1
-    spell_id: 51323
-    talent_id: 460
-  - tree: Holy
-    talent: Ironclad
-    rank: 2
-    spell_id: 51311
-    talent_id: 455
-  - tree: Holy
-    talent: Divine Favor
-    rank: 5
-    spell_id: 51316
-    talent_id: 456
-  - tree: Holy
-    talent: Holy Shock
-    rank: 1
-    spell_id: 20473
-    talent_id: 457
   - tree: Holy
     talent: Spiritual Focus
     rank: 2
     spell_id: 20206
-    talent_id: 447
-  - tree: Holy
-    talent: Illumination
-    rank: 5
-    spell_id: 20215
-    talent_id: 454
   - tree: Holy
     talent: Healing Light
     rank: 3
     spell_id: 20239
-    talent_id: 449
   - tree: Holy
-    talent: Holy Power / Divine Intellect / Improved Concentration Aura (fill, unspecified)
-    rank: null
-    spell_id: 5923
-    talent_id: 458
-  - tree: Protection
-    talent: 7 points (guide, unspecified)
-    rank: 7
-    spell_id: null
+    talent: Sanctity Aura
+    rank: 1
+    spell_id: 20218
+  - tree: Holy
+    talent: Improved Lay on Hands
+    rank: 2
+    spell_id: 20235
+  - tree: Holy
+    talent: Illumination
+    rank: 5
+    spell_id: 20215
+  - tree: Holy
+    talent: Ironclad
+    rank: 2
+    spell_id: 51311
+  - tree: Holy
+    talent: Divine Favor
+    rank: 5
+    spell_id: 51316
+  - tree: Holy
+    talent: Holy Shock
+    rank: 1
+    spell_id: 20473
+  - tree: Holy
+    talent: Holy Power
+    rank: 3
+    spell_id: 5925
+  - tree: Holy
+    talent: Blessed Strikes
+    rank: 5
+    spell_id: 51321
+  - tree: Holy
+    talent: Daybreak
+    rank: 1
+    spell_id: 51323
   - tree: Retribution
-    talent: 13 points incl. Improved Blessings (guide, unspecified)
-    rank: 13
-    spell_id: null
+    talent: Improved Blessings
+    rank: 5
+    spell_id: 20048
+  - tree: Retribution
+    talent: Improved Judgement
+    rank: 2
+    spell_id: 25957
+  - tree: Retribution
+    talent: Improved Seal of the Crusader
+    rank: 3
+    spell_id: 20337
+  - tree: Retribution
+    talent: Blessing of Kings
+    rank: 1
+    spell_id: 20217
+  - tree: Retribution
+    talent: Pursuit of Justice
+    rank: 2
+    spell_id: 26023
+  consensus_points:
+    build_name: 38/0/13 Benediction variant (most-posted pre-release; 21 posts)
+    build_link: https://xian55.github.io/tortoise-db-viewer/?talents=paladin&t=05320302105251351--55200001
+    points:
+    - tree: Holy
+      talent: Divine Intellect
+      rank: 5
+      spell_id: 20261
+    - tree: Holy
+      talent: Holy Judgement
+      rank: 3
+      spell_id: 51308
+    - tree: Holy
+      talent: Spiritual Focus
+      rank: 2
+      spell_id: 20206
+    - tree: Holy
+      talent: Healing Light
+      rank: 3
+      spell_id: 20239
+    - tree: Holy
+      talent: Improved Lay on Hands
+      rank: 2
+      spell_id: 20235
+    - tree: Holy
+      talent: Unyielding Faith
+      rank: 1
+      spell_id: 9453
+    - tree: Holy
+      talent: Illumination
+      rank: 5
+      spell_id: 20215
+    - tree: Holy
+      talent: Ironclad
+      rank: 2
+      spell_id: 51311
+    - tree: Holy
+      talent: Divine Favor
+      rank: 5
+      spell_id: 51316
+    - tree: Holy
+      talent: Holy Shock
+      rank: 1
+      spell_id: 20473
+    - tree: Holy
+      talent: Holy Power
+      rank: 3
+      spell_id: 5925
+    - tree: Holy
+      talent: Blessed Strikes
+      rank: 5
+      spell_id: 51321
+    - tree: Holy
+      talent: Daybreak
+      rank: 1
+      spell_id: 51323
+    - tree: Retribution
+      talent: Improved Blessings
+      rank: 5
+      spell_id: 20048
+    - tree: Retribution
+      talent: Benediction
+      rank: 5
+      spell_id: 20105
+    - tree: Retribution
+      talent: Improved Judgement
+      rank: 2
+      spell_id: 25957
+    - tree: Retribution
+      talent: Blessing of Kings
+      rank: 1
+      spell_id: 20217
+    variants:
+    - '37/0/14 (AoaAYQFQpAYoB--FoQAAJ): Benediction 5 + Pursuit of Justice 1, no Unyielding Faith [[d:paladin#1456969222470242470]]'
+    - 'Grey''s rule: 31 Holy for Blessed Strikes/Holy Shock + Improved Blessings, Guardian''s Favor, Kings; rest by preference
+      [[d:paladin#1485374258082218037]]'
   leveling_order: []
-  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=paladin&t=00320300005251051
-  build_link_tortoise_note: 'Generated from the sourced points list (27 points: Holy 27); the calculator shows the remaining
-    points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
+  leveling_order_note: Holy leveling is covered by guide/classes/paladin/leveling.md (writer B); Holy is a dungeon-heal spec,
+    weak for solo questing before Holy Shock/Blessed Strikes [[d:paladin#1452051332470145065]].
+  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=paladin&t=05320312005251351--502300012
+  build_link_tortoise_note: 'Generated from the sourced points list (51 points: Holy 38, Retribution 13); the calculator shows
+    the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
 stat_weights:
-  healing_power: '1'
-  item_armor_plate: high (Ironclad 2% of item armor as healing)
-  spell_crit: medium (Daybreak, Illumination, Mending Light, Holy Shock)
-  intellect: medium
-  mp5_spirit: low
-  haste: very low (Flash of Light on the GCD)
-  hit: 0 (heals land on miss)
+  healing_power: 1 until ~1000; primary [[d:paladin#1461533285275668622]]
+  spell_crit: 1% ~ 30-40 healing power at ~1200 +heal [[d:paladin#1429167222923984966]] [[d:paladin#1457971407039234274]];
+    somewhat lower after the Daybreak nerf [[d:paladin#1486635309947949197]]
+  intellect: high (core stat with crit and healing power) [[d:paladin#1487359832318148680]]
+  item_armor_plate: 'Ironclad: 2% of item armor (only items) = healing power; ~50 armor = 1 HP; ~110-180 total [[d:paladin#1471286458932527104]]
+    [[d:paladin#1440985549208031232]]'
+  haste: only to ~3-4%; beyond that wasted on FoL [[d:paladin#1493729928125087845]]
+  mp5_spirit: low [[d:paladin#1454169086941728808]] [[d:paladin#1461069979565686815]]
+  hit: 0 (heals land on miss) [[d:paladin#1439760087060316180]]
+caps:
+  spell_hit_for_heals: none; Mending Light and the Holy Shock reset fire on a miss
+  haste_soft_cap: ~3-4% [[d:paladin#1493729928125087845]]
+  illumination_sufficiency: 3/5 Illumination + 30% crit -> never below 30% mana outside Kara40 [[d:paladin#1451675254115274915]]
+  holy_strike_range: ~7.6 yd real (tooltip 10 yd) [[d:paladin#1478361089740902608]]
+rotation_single:
+- priority: 1
+  action: 'Setup: Seal of Wisdom on self, Judgement of Wisdom on the boss/pack, Concentration Aura when meleeing'
+  condition: pre-pull [[d:paladin#1492813841057448060]]
+- priority: 2
+  action: Holy Shock
+  condition: target about to die and cannot wait for a Flash of Light [[d:paladin#1489753379583557704]]
+- priority: 3
+  action: Holy Light (1.5 s with the Holy Judgement buff)
+  condition: tank just took a big hit (1.5-2k) or haste window; buff up [[d:paladin#1446996276322369546]] [[d:paladin#1425074584926949426]]
+- priority: 4
+  action: Holy Strike on a melee target
+  condition: in melee, off cooldown, 3+ injured allies within ~7 yd, none about to die [[d:paladin#1399695295524110427]]
+- priority: 5
+  action: Flash of Light (max rank) on the tank/lowest
+  condition: default filler - most of your casts [[d:paladin#1489753323253923850]]
+- priority: 6
+  action: Judgement + re-seal Wisdom
+  condition: after using the 1.5 s Holy Light or when the judgement is about to drop [[d:paladin#1446997676200820840]]
+- priority: 7
+  action: Crusader Strike -> Holy Shock
+  condition: only while moving and a single-target burst is needed; never during raid AoE [[d:paladin#1488534279020482730]]
+- priority: 8
+  action: Rank-1 Flash of Light on the tank
+  condition: trash downtime, to leave Daybreak via crits [[d:paladin#1425107644166701136]]
+- priority: 9
+  action: Cleanse
+  condition: magic/poison/disease on an ally; pre-cast before Naxx spider-wing poison [[d:paladin#1461076668021211320]]
+rotation_aoe:
+- targets_min: 3
+  priority: 1
+  action: Holy Strike on cooldown in melee range (heals you + 4 wounded allies, semi-smart)
+  condition: 3+ injured within ~7 yd [[d:paladin#1399695295524110427]] [[d:paladin#1478361089740902608]]
+- targets_min: 3
+  priority: 2
+  action: Flash of Light between Holy Strikes, max 3 per Holy Strike
+  condition: always [[d:paladin#1399695295524110427]]
+- targets_min: 3
+  priority: 3
+  action: 3 FoL + 1 Holy Strike loop
+  condition: heavy constant raid damage (Vaelastrasz) [[d:paladin#1489558047897686076]]
+- targets_min: 3
+  priority: 4
+  action: Rank-1 Consecration (Kara10 libram) + keep a Judgement up
+  condition: easy raids, known fight [[d:paladin#1489557484732682260]]
+aoe_threshold: 3
+cooldowns:
+- name: Lay on Hands
+  use_when: tank emergency; with Improved LoH on Maexxna just before Web Wrap for +30% armor through Web/Enrage [[d:paladin#1466097719415410709]]
+- name: Divine Intervention
+  use_when: 'Maexxna: pre-DI a healer for each Web Wrap [[d:paladin#1466097683629342991]]'
+- name: Divine Shield
+  use_when: Nefarian fear, Razorgore stun; heals continue; does NOT stop Vael Adrenaline [[d:paladin#1465429349154160784]]
+- name: Blessing of Protection
+  use_when: DPS pulled aggro; bubble casters during AoE [[d:paladin#1484938782292840551]]
+- name: Divine Favor
+  use_when: passive (+10..50% Holy Shock crit), not a button
+resource_rules:
+- Seal of Wisdom -> Judgement of Wisdom -> Seal of Wisdom; Holy Strike refunds its own mana [[d:paladin#1487359832318148680]]
+- 'Few long-lived targets (MC): keep JoW on one target; many short trash (Kara10): just keep SoW up [[d:paladin#1452727170827943976]]'
+- Nordanaar Herbal Tea (~600 HP / 1100 mana, 2-min CD) separate from Major Mana Potion [[d:paladin#1485441517744029717]]
+- Never spam max-rank Holy Light (~20 casts to OOM in BiS) [[d:paladin#1430556664322588823]]
+- Set spell ranks manually in healing addons after the patch [[d:paladin#1485237459456622644]]
+consumables:
+- Wizard Oil (raises healing power; Dream Tonic does not) [[d:paladin#1449816904784150528]]
+- Major Mana Potion + Nordanaar Herbal Tea [[d:paladin#1432035429934436393]]
+- Dreamshard Elixir, Mageblood Potion, Cerebral Cortex Compound, Elixir of Fortitude [[d:paladin#1470529934270136330]]
+- Flask of Distilled Wisdom, or Flask of the Titans in Kara40 (mana is not the bottleneck) [[d:paladin#1432435765123616890]]
+- 'enchants (forum guide): Rumination/Focus arcanum or ZG Syncretist''s Sigil, Zandalar Signet of Serenity, Subtlety cloak,
+  Major Mana chest, Healing Power bracer/gloves/weapon, Greater Stamina boots'
+mistakes_to_avoid:
+- Spamming max-rank Holy Light [[d:paladin#1436013333919830126]]
+- Using Crusader Strike for Holy Shock resets during raid damage [[d:paladin#1488530603669454990]]
+- Holy Striking from more than ~7 yd away [[d:paladin#1478361089740902608]]
+- Meleeing fights with melee stuns/silences/knockbacks (Rupturan, Kruul, Atreidon's list)
+- Haste above 3-4%; stacking mp5/Spirit over Int and crit
+- Counting Devotion Aura/Toughness/enchants toward Ironclad (items only) [[d:paladin#1459771471294627891]]
+- Trusting outdated BetterCharacterStats or launch-bug-week logs [[d:paladin#1485591086952091690]]
+- Blessing of Light with only 1-2 Holy paladins [[d:paladin#1490560751939620984]]
+- Believing the 2026-04-01 April Fools 'melee holy removed' post [[d:paladin#1488856415010291794]]
+supersedes:
+- claim: Next patch removes Holy Strike healing (2026-04-01 developer post)
+  verdict: April Fools joke, not a patch; ignore
+  sources:
+  - '[[d:paladin#1488852869212798987]]'
+  - '[[d:paladin#1488856415010291794]]'
+- claim: Holy Strike heals up to 7 targets (T3.5) / is a full smart heal
+  verdict: '1.18.1: T3.5 extra targets removed; after the targeting fix Holy Strike heals wounded (not most-wounded) players
+    - semi-smart'
+  sources:
+  - '[[d:paladin#1484924634599264276]]'
+  - '[[d:paladin#1489073543751925951]]'
+- claim: Mending Light bugged/no scaling (patch week)
+  verdict: fixed ~2026-03-23/24
+  sources:
+  - '[[d:paladin#1485645164494983330]]'
+  - https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139
+- claim: Ironclad bugged after 1.18.1
+  verdict: never bugged; outdated BetterCharacterStats addon
+  sources:
+  - '[[d:paladin#1486480191315382303]]'
+- claim: Forum 31/7/13 guide build
+  verdict: replaced by the 38/0/13 Blessed Strikes build used by current raiders
+  sources:
+  - '[[d:paladin#1494438173819015238]]'
+next_patch_announced:
+  announced: '2026-04-01'
+  status: NOT REAL - April Fools joke by the paladin developer; confirmed by readers the same minute
+  author: Lhian (developer/staff)
+  sources:
+  - '[[d:paladin#1488852869212798987]]'
+  - '[[d:paladin#1488856415010291794]]'
+  items: []
+  note: Kept only so older copies of this file that treated it as real are visibly corrected.
+boss_notes:
+- boss: BWL (all)
+  note: Razorgore stun in melee (FAP/bubble); Vael 3 FoL + 1 HS, hide behind the left column on Adrenaline (bubble does not
+    help); suppression room mana gauntlet; Firemaw Holy Shock the tank on breath; Chromaggus dispel all, ~3 Hourglass Sand,
+    bubble a bronze debuff to save one; Nefarian bubble the fear [[d:paladin#1465429349154160784]] [[d:paladin#1465430385386193027]]
+  era: 1.18.1-announced-pre-release
+- boss: Loatheb (Naxx)
+  note: Holy Strike still heals through the lockout; Daybreak does not fire while silenced [[d:paladin#1462816619020554404]]
+  era: 1.18.1-announced-pre-release
+- boss: Maexxna (Naxx)
+  note: DI strat + Improved Lay on Hands on the tank before Web Wrap [[d:paladin#1466097683629342991]] [[d:paladin#1466097719415410709]]
+  era: 1.18.1-announced-pre-release
+- boss: Heigan / Patchwerk (Naxx)
+  note: melee-heal ('100% do it on heigan') [[d:paladin#1482319532700991570]]
+  era: 1.18.1-announced-pre-release
+- boss: Kara40 - Mephistroth
+  note: safe for full melee healing [[d:paladin#1373985305526538301]]
+  era: pre-1.18.1
+- boss: Kara40 - Anomalus
+  note: raid stacks; arcane-resist mail pieces keep healing power [[d:paladin#1393979859998343178]]
+  era: pre-1.18.1
+- boss: Kara40 - Kruul / Rupturan
+  note: heal from range [[d:paladin#1422311244660080702]] [[d:paladin#1382265813800714351]]
+  era: pre-1.18.1
 stat_priority:
 - healing-power
 - armor
@@ -167,67 +527,3 @@ stat_priority_note: 'Healing power first ("a great stat for everyone"; Holy Stri
   on the global cooldown, and hit is not needed for heals. mp5 and Spirit are a tie: no cited post ranks them against each
   other, so their order in the array above carries no ranking. Grouping them is this repository''s reading of the sources
   listed above.'
-caps: {}
-rotation_single:
-- priority: 1
-  action: Seal of Wisdom, Blessing of Light on tanks, Concentration Aura when meleeing
-  condition: setup
-- priority: 2
-  action: Judgement (Wisdom/Light) on the boss
-  condition: on cooldown; makes next Holy Light 1 s faster; re-seal
-- priority: 3
-  action: Holy Light
-  condition: big tank damage, right after a judgement (1.5-s cast)
-- priority: 4
-  action: Holy Shock
-  condition: instant heal needed and available
-- priority: 5
-  action: Crusader Strike
-  condition: in melee and Holy Shock on cooldown (Blessed Strikes reset)
-- priority: 6
-  action: Holy Strike
-  condition: on cooldown when 2+ allies within 10 yd are wounded, or for mana
-- priority: 7
-  action: Flash of Light
-  condition: filler for moderate damage
-- priority: 8
-  action: Lay on Hands / Hand of Sacrifice / Hand of Protection / Divine Shield
-  condition: emergencies (no thresholds in sources)
-rotation_aoe:
-- targets_min: 2
-  priority: 1
-  action: Holy Strike on cooldown
-  condition: raid AoE damage and you are in the melee clump (see allowed/forbidden boss lists)
-- targets_min: 2
-  priority: 2
-  action: Crusader Strike -> Holy Shock reset on the lowest ally
-  condition: between Holy Strikes
-- targets_min: 2
-  priority: 3
-  action: Flash of Light fill
-  condition: always
-aoe_threshold: 2
-cooldowns:
-- name: Lay on Hands
-  use_when: tank about to die / self at 0 mana
-- name: Hand of Sacrifice
-  use_when: tank spike (no longer breaks CC)
-- name: Divine Shield
-  use_when: focused; heals continue
-- name: Hand of Freedom
-  use_when: ally slowed (24-s CD)
-resource_rules:
-- Seal of Wisdom melee and Holy Strike keep mana full; Illumination refunds on crits
-- Drink only with the group; Human/T2.5 regen-while-casting is a bonus, not required
-- Blessing of Light on tanks also buffs Holy Shock
-consumables:
-- Brilliant Mana Oil
-- 'enchants (guide): Rumination arcanum, Zandalar Signet of Serenity, Subtlety cloak, Major Mana chest, Healing Power bracer/gloves,
-  Healing Power weapon'
-mistakes_to_avoid:
-- Standing at range spamming Flash of Light in AoE fights
-- Meleeing on bosses with knockback/AoE stun/silence/fear (Atreidon list)
-- Forgetting to judge before Holy Light; letting Seal of Wisdom lapse
-- Counting Devotion Aura or enchant armor toward Ironclad
-- Stacking haste or mp5
-- Trying to heal/buff warlock demons

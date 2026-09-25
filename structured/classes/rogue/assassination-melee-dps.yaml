@@ -70,126 +70,924 @@ agreement: contested
 patch_validity:
   written_for: 1.18.0 (live 2025-08-15)
   valid_for_1181: false
-  notes: 1.18.1 (2026-01-23, revised 2026-03-19) cut poison AP scaling at low ranks, weakened and reworked Taste for Blood
-    (no longer buffs Corrosive/Dissolvent, now a 2-point talent), cut Noxious Assault AP scaling 35%->30%, and restricted
-    Corrosive/Dissolvent Poison to Elementals/Mechanicals/Giants/Undead only. No post-1.18.1 build or rotation revision exists
-    in the corpus; the thread 'Assa build is dead 4 raiding in patch 1.18.1?' is unresolved argument, not a fix.
+  notes: '1.18.1: Noxious Assault AP 35% -> 30%, Taste for Blood 2 ranks and no poison boost, Corrosive/Dissolvent restricted
+    to Elementals/Mechanicals/Giants/Undead; deep Assassination fell ~10% and now fits leveling, fresh 60s, solo and PvP;
+    Combat Envenom overtakes it at full Darkmantle [[d:rogue#1485568535215476746]], [[d:rogue#1486425755779989514]], [[d:rogue#1487781074191913032]].'
+  discord_era: post-1.18.1
 talents:
-  build_name: Noxious Assault raid/dungeon build (main variant, Eviscerate filler)
-  build_link: https://talents.turtlecraft.gg/rogue?points=YoYDIoDYZIQoB-AoAoC-
+  build_name: Noxious Assault 41/10/0, no Taste for Blood/Rupture (assembled from sourced post-patch rules; see guide) [[d:rogue#1485191077827842271]],
+    [[d:rogue#1474085300530712799]]
+  build_link: https://xian55.github.io/tortoise-db-viewer/?talents=rogue&t=305323105033311251-05005
   points:
+  - tree: Assassination
+    talent: Improved Eviscerate
+    rank: 3
+    spell_id: 14164
   - tree: Assassination
     talent: Malice
     rank: 5
     spell_id: 14142
-    talent_id: 130
   - tree: Assassination
     talent: Ruthlessness
     rank: 3
     spell_id: 14161
-    talent_id: 131
+  - tree: Assassination
+    talent: Murder
+    rank: 2
+    spell_id: 14159
   - tree: Assassination
     talent: Improved Blade Tactics
     rank: 3
     spell_id: 14167
-    talent_id: 133
   - tree: Assassination
     talent: Relentless Strikes
     rank: 1
     spell_id: 14179
-    talent_id: 134
   - tree: Assassination
     talent: Lethality
     rank: 5
     spell_id: 14137
-    talent_id: 136
   - tree: Assassination
     talent: Vile Poisons
     rank: 3
     spell_id: 16515
-    talent_id: 138
   - tree: Assassination
     talent: Improved Poisons
     rank: 3
     spell_id: 14115
-    talent_id: 139
   - tree: Assassination
     talent: Efficient Poisons
     rank: 3
     spell_id: 52520
-    talent_id: 140
   - tree: Assassination
     talent: Envenom
     rank: 1
     spell_id: 52531
-    talent_id: 141
+  - tree: Assassination
+    talent: Cold Blood
+    rank: 1
+    spell_id: 14177
   - tree: Assassination
     talent: Vigor
     rank: 2
     spell_id: 52527
-    talent_id: 143
+  - tree: Assassination
+    talent: Seal Fate
+    rank: 5
+    spell_id: 14195
   - tree: Assassination
     talent: Noxious Assault
     rank: 1
     spell_id: 52714
-    talent_id: 145
-  - tree: Assassination
-    talent: Taste for Blood (contested; 0 in the main build, taken in the Rupture variant; post-1.18.1 is a 2-point talent)
-    rank: 0
-    spell_id: 14174
-    talent_id: 137
-  - tree: Assassination
-    talent: 'Seal Fate (contested by gear: 5/5 low-crit, 0/5 and Dual Wield Specialization instead once ~40% crit)'
+  - tree: Combat
+    talent: Lightning Reflexes
     rank: 5
-    spell_id: 14195
-    talent_id: 144
+    spell_id: 13791
   - tree: Combat
     talent: Precision
     rank: 5
     spell_id: 13845
-    talent_id: 114
-  - tree: Combat
-    talent: Dual Wield Specialization (alternative to Seal Fate at high crit)
-    rank: 5
-    spell_id: 13852
-    talent_id: 120
-  - tree: Combat
-    talent: Improved Sprint
-    rank: 0
-    spell_id: 13743
-    talent_id: 116
-  - tree: Subtlety
-    talent: Improved Expose Armor (only if no warrior is sundering)
-    rank: 0
-    spell_id: 14168
-    talent_id: 147
   leveling_order:
-  - level: 40
+  - level: 10
     tree: Assassination
-    talent: Noxious Assault (respec point; earliest viable full send into this spec)
-  - level: 43
-    tree: Combat
-    talent: Precision available; some posters wait to the 50s instead
-  - level: 48
+    talent: Malice
+    rank: 1
+  - level: 11
+    tree: Assassination
+    talent: Malice
+    rank: 2
+  - level: 12
+    tree: Assassination
+    talent: Malice
+    rank: 3
+  - level: 13
+    tree: Assassination
+    talent: Malice
+    rank: 4
+  - level: 14
+    tree: Assassination
+    talent: Malice
+    rank: 5
+  - level: 15
+    tree: Assassination
+    talent: Ruthlessness
+    rank: 1
+  - level: 16
+    tree: Assassination
+    talent: Ruthlessness
+    rank: 2
+  - level: 17
+    tree: Assassination
+    talent: Ruthlessness
+    rank: 3
+  - level: 18
+    tree: Assassination
+    talent: Improved Blade Tactics
+    rank: 1
+  - level: 19
+    tree: Assassination
+    talent: Improved Blade Tactics
+    rank: 2
+  - level: 20
+    tree: Assassination
+    talent: Relentless Strikes
+    rank: 1
+  - level: 21
+    tree: Assassination
+    talent: Improved Blade Tactics
+    rank: 3
+  - level: 22
+    tree: Assassination
+    talent: Lethality
+    rank: 1
+  - level: 23
+    tree: Assassination
+    talent: Lethality
+    rank: 2
+  - level: 24
+    tree: Assassination
+    talent: Lethality
+    rank: 3
+  - level: 25
+    tree: Assassination
+    talent: Improved Poisons
+    rank: 1
+  - level: 26
+    tree: Assassination
+    talent: Improved Poisons
+    rank: 2
+  - level: 27
+    tree: Assassination
+    talent: Improved Poisons
+    rank: 3
+  - level: 28
+    tree: Assassination
+    talent: Vile Poisons
+    rank: 1
+  - level: 29
+    tree: Assassination
+    talent: Vile Poisons
+    rank: 2
+  - level: 30
     tree: Assassination
     talent: Envenom
-  - level: 52
+    rank: 1
+  - level: 31
+    tree: Assassination
+    talent: Efficient Poisons
+    rank: 1
+  - level: 32
+    tree: Assassination
+    talent: Efficient Poisons
+    rank: 2
+  - level: 33
+    tree: Assassination
+    talent: Efficient Poisons
+    rank: 3
+  - level: 34
+    tree: Assassination
+    talent: Vile Poisons
+    rank: 3
+  - level: 35
     tree: Assassination
     talent: Vigor
-  - level: 58
+    rank: 1
+  - level: 36
     tree: Assassination
-    talent: Seal Fate (respec target for many posters)
-  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=rogue&t=005303105033310251-00005000005
-  build_link_tortoise_note: 'Generated from the sourced points list (45 points: Assassination 35, Combat 10); the calculator
+    talent: Vigor
+    rank: 2
+  - level: 37
+    tree: Assassination
+    talent: Lethality
+    rank: 4
+  - level: 38
+    tree: Assassination
+    talent: Lethality
+    rank: 5
+  - level: 39
+    tree: Assassination
+    talent: Murder
+    rank: 1
+  - level: 40
+    tree: Assassination
+    talent: Noxious Assault
+    rank: 1
+  - level: 41
+    tree: Combat
+    talent: Precision
+    rank: 1
+  - level: 42
+    tree: Combat
+    talent: Precision
+    rank: 2
+  - level: 43
+    tree: Combat
+    talent: Precision
+    rank: 3
+  - level: 44
+    tree: Combat
+    talent: Precision
+    rank: 4
+  - level: 45
+    tree: Combat
+    talent: Precision
+    rank: 5
+  - level: 46
+    tree: Assassination
+    talent: Seal Fate
+    rank: 1
+  - level: 47
+    tree: Assassination
+    talent: Seal Fate
+    rank: 2
+  - level: 48
+    tree: Assassination
+    talent: Seal Fate
+    rank: 3
+  - level: 49
+    tree: Assassination
+    talent: Seal Fate
+    rank: 4
+  - level: 50
+    tree: Assassination
+    talent: Seal Fate
+    rank: 5
+  - level: 51
+    tree: Assassination
+    talent: Cold Blood
+    rank: 1
+  - level: 52
+    tree: Assassination
+    talent: Murder
+    rank: 2
+  - level: 53
+    tree: Assassination
+    talent: Improved Eviscerate
+    rank: 1
+  - level: 54
+    tree: Assassination
+    talent: Improved Eviscerate
+    rank: 2
+  - level: 55
+    tree: Assassination
+    talent: Improved Eviscerate
+    rank: 3
+  - level: 56
+    tree: Combat
+    talent: Lightning Reflexes
+    rank: 1
+  - level: 57
+    tree: Combat
+    talent: Lightning Reflexes
+    rank: 2
+  - level: 58
+    tree: Combat
+    talent: Lightning Reflexes
+    rank: 3
+  - level: 59
+    tree: Combat
+    talent: Lightning Reflexes
+    rank: 4
+  - level: 60
+    tree: Combat
+    talent: Lightning Reflexes
+    rank: 5
+  decoded_builds:
+  - build_name: Noxious Assault raid/dungeon — post-1.18.1 variant (31/20/0)
+    split:
+      Assassination: 31
+      Combat: 20
+      Subtlety: 0
+    code: YoYDIYDYZAQAB-AoAoCDAo-
+    sources:
+    - '[[d:rogue#1459846399783997451]]'
+    - '[[d:rogue#1459858269764849798]]'
+    agreement: single source
+    era: 1.18.1-announced-pre-release
+    note: the easier 'passive like combat' alternative to 41/10/0 (Mcx benchmark); no Vigor/Seal Fate
+    points:
+    - tree: Assassination
+      talent: Improved Eviscerate
+      rank: 3
+      spell_id: 14164
+    - tree: Assassination
+      talent: Malice
+      rank: 5
+      spell_id: 14142
+    - tree: Assassination
+      talent: Ruthlessness
+      rank: 3
+      spell_id: 14161
+    - tree: Assassination
+      talent: Improved Blade Tactics
+      rank: 3
+      spell_id: 14167
+    - tree: Assassination
+      talent: Relentless Strikes
+      rank: 1
+      spell_id: 14179
+    - tree: Assassination
+      talent: Lethality
+      rank: 3
+      spell_id: 14135
+    - tree: Assassination
+      talent: Vile Poisons
+      rank: 3
+      spell_id: 16515
+    - tree: Assassination
+      talent: Improved Poisons
+      rank: 3
+      spell_id: 14115
+    - tree: Assassination
+      talent: Efficient Poisons
+      rank: 3
+      spell_id: 52520
+    - tree: Assassination
+      talent: Envenom
+      rank: 1
+      spell_id: 52531
+    - tree: Assassination
+      talent: Vigor
+      rank: 2
+      spell_id: 52527
+    - tree: Assassination
+      talent: Noxious Assault
+      rank: 1
+      spell_id: 52714
+    - tree: Combat
+      talent: Lightning Reflexes
+      rank: 5
+      spell_id: 13791
+    - tree: Combat
+      talent: Precision
+      rank: 5
+      spell_id: 13845
+    - tree: Combat
+      talent: Improved Sprint
+      rank: 2
+      spell_id: 13875
+    - tree: Combat
+      talent: Setup
+      rank: 3
+      spell_id: 14071
+    - tree: Combat
+      talent: Dual Wield Specialization
+      rank: 5
+      spell_id: 13852
+  - build_name: Noxious Assault Assassination — 1.18.0 raid core (41/10/0)
+    split:
+      Assassination: 41
+      Combat: 10
+      Subtlety: 0
+    sources:
+    - '[[d:rogue#1479786066910117992]]'
+    - '[[d:rogue#1452238955113086997]]'
+    - '[[d:rogue#1456676944459468927]]'
+    agreement: contested
+    era: 1.18.1-announced-pre-release
+    note: Taste for Blood was 3 ranks in 1.18.0 and is 2 in 1.18.1, so the enumerated points sum to 50 + 1 drift point; the
+      38/10/0 variant drops Improved Eviscerate
+    points:
+    - tree: Assassination
+      talent: Malice
+      rank: 5
+      spell_id: 14142
+    - tree: Assassination
+      talent: Ruthlessness
+      rank: 3
+      spell_id: 14161
+    - tree: Assassination
+      talent: Improved Blade Tactics
+      rank: 3
+      spell_id: 14167
+    - tree: Assassination
+      talent: Relentless Strikes
+      rank: 1
+      spell_id: 14179
+    - tree: Assassination
+      talent: Lethality
+      rank: 5
+      spell_id: 14137
+    - tree: Assassination
+      talent: Taste for Blood
+      rank: 2
+      spell_id: 14175
+      note: was rank 3 in 1.18.0 (drift point)
+    - tree: Assassination
+      talent: Murder
+      rank: 2
+      spell_id: 14159
+    - tree: Assassination
+      talent: Vile Poisons
+      rank: 3
+      spell_id: 16515
+    - tree: Assassination
+      talent: Improved Poisons
+      rank: 3
+      spell_id: 14115
+    - tree: Assassination
+      talent: Efficient Poisons
+      rank: 3
+      spell_id: 52520
+    - tree: Assassination
+      talent: Envenom
+      rank: 1
+      spell_id: 52531
+    - tree: Assassination
+      talent: Noxious Assault
+      rank: 1
+      spell_id: 52714
+    - tree: Assassination
+      talent: Vigor
+      rank: 2
+      spell_id: 52527
+    - tree: Assassination
+      talent: Seal Fate
+      rank: 5
+      spell_id: 14195
+    - tree: Assassination
+      talent: Cold Blood
+      rank: 1
+      spell_id: 14177
+    - tree: Combat
+      talent: Lightning Reflexes
+      rank: 5
+      spell_id: 13791
+    - tree: Combat
+      talent: Precision
+      rank: 5
+      spell_id: 13845
+  - build_name: Noxious Assault PvP burst ('zug') — 34/0/17
+    split:
+      Assassination: 34
+      Subtlety: 17
+      Combat: 0
+    code: YoYAIoDYJIQoB--FCaAYAC
+    sources:
+    - '[[d:rogue#1471530033066807332]]'
+    agreement: single source
+    era: 1.18.1-announced-pre-release
+    note: 1 point Efficient Poisons for the PvP spell-hit cap; 3 Improved Ambush for Perdition's Blade; no Preparation/Dirty
+      Deeds
+    points:
+    - tree: Assassination
+      talent: Improved Eviscerate
+      rank: 3
+      spell_id: 14164
+    - tree: Assassination
+      talent: Malice
+      rank: 5
+      spell_id: 14142
+    - tree: Assassination
+      talent: Ruthlessness
+      rank: 3
+      spell_id: 14161
+    - tree: Assassination
+      talent: Relentless Strikes
+      rank: 1
+      spell_id: 14179
+    - tree: Assassination
+      talent: Lethality
+      rank: 5
+      spell_id: 14137
+    - tree: Assassination
+      talent: Vile Poisons
+      rank: 3
+      spell_id: 16515
+    - tree: Assassination
+      talent: Improved Poisons
+      rank: 3
+      spell_id: 14115
+    - tree: Assassination
+      talent: Efficient Poisons
+      rank: 1
+      spell_id: 52518
+    - tree: Assassination
+      talent: Envenom
+      rank: 1
+      spell_id: 52531
+    - tree: Assassination
+      talent: Cold Blood
+      rank: 1
+      spell_id: 14177
+    - tree: Assassination
+      talent: Vigor
+      rank: 2
+      spell_id: 52527
+    - tree: Assassination
+      talent: Seal Fate
+      rank: 5
+      spell_id: 14195
+    - tree: Assassination
+      talent: Noxious Assault
+      rank: 1
+      spell_id: 52714
+    - tree: Subtlety
+      talent: Camouflage
+      rank: 5
+      spell_id: 14065
+    - tree: Subtlety
+      talent: Improved Gouge
+      rank: 2
+      spell_id: 13793
+    - tree: Subtlety
+      talent: Improved Ambush
+      rank: 3
+      spell_id: 14081
+    - tree: Subtlety
+      talent: Elusiveness
+      rank: 2
+      spell_id: 14066
+    - tree: Subtlety
+      talent: Initiative
+      rank: 3
+      spell_id: 13980
+    - tree: Subtlety
+      talent: Blackjack
+      rank: 2
+      spell_id: 14094
+  build_code: YoaDIoDYZIQoB-AoAo-
+  leveling_note: 'Route A: Assassination 10-60 without respec (Envenom at 30, Noxious Assault at 40); validated with talent_tool.py'
+  variants:
+  - build_name: Passive 31/20/0
+    code: YoYDIYDYZAQAB-AoAoCDAo-
+    link: https://xian55.github.io/tortoise-db-viewer/?talents=rogue&t=305303103033310201-05005023005
+    sources:
+    - '[[d:rogue#1484973752776392744]]'
+    - '[[d:rogue#1459858269764849798]]'
+    points:
+    - tree: Assassination
+      talent: Improved Eviscerate
+      rank: 3
+      spell_id: 14164
+    - tree: Assassination
+      talent: Malice
+      rank: 5
+      spell_id: 14142
+    - tree: Assassination
+      talent: Ruthlessness
+      rank: 3
+      spell_id: 14161
+    - tree: Assassination
+      talent: Improved Blade Tactics
+      rank: 3
+      spell_id: 14167
+    - tree: Assassination
+      talent: Relentless Strikes
+      rank: 1
+      spell_id: 14179
+    - tree: Assassination
+      talent: Lethality
+      rank: 3
+      spell_id: 14135
+    - tree: Assassination
+      talent: Vile Poisons
+      rank: 3
+      spell_id: 16515
+    - tree: Assassination
+      talent: Improved Poisons
+      rank: 3
+      spell_id: 14115
+    - tree: Assassination
+      talent: Efficient Poisons
+      rank: 3
+      spell_id: 52520
+    - tree: Assassination
+      talent: Envenom
+      rank: 1
+      spell_id: 52531
+    - tree: Assassination
+      talent: Vigor
+      rank: 2
+      spell_id: 52527
+    - tree: Assassination
+      talent: Noxious Assault
+      rank: 1
+      spell_id: 52714
+    - tree: Combat
+      talent: Lightning Reflexes
+      rank: 5
+      spell_id: 13791
+    - tree: Combat
+      talent: Precision
+      rank: 5
+      spell_id: 13845
+    - tree: Combat
+      talent: Improved Sprint
+      rank: 2
+      spell_id: 13875
+    - tree: Combat
+      talent: Setup
+      rank: 3
+      spell_id: 14071
+    - tree: Combat
+      talent: Dual Wield Specialization
+      rank: 5
+      spell_id: 13852
+  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=rogue&t=305323105033311251-05005
+  build_link_tortoise_note: 'Generated from the sourced points list (51 points: Assassination 41, Combat 10); the calculator
     shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
 stat_weights:
-  weapon_speed: 'top priority: 1.3-1.4 speed daggers on both hands; Noxious Assault deals flat % of Attack Power regardless
-    of weapon speed/damage, so faster weapons only add more auto-attack poison procs, not less damage'
-  hit: to the content's cap; ~4-5% for dungeons, ~9% (vanilla-baseline convention) implied for raids
-  crit_agility: high, feeds Seal Fate when specced; poisons themselves do not crit per player reports (unconfirmed by staff)
-  haste: diminishing returns once under ~1.0s effective dagger speed with Slice and Dice; one player reports negligible gain
-    from an extra 3% haste ring at that point
-  attack_power: lowest priority per the spec's own guide-writer ("Attack power is at the bottom of my list")
+  weapon_speed: 'dominant: fastest weapons in both hands; ~6 poison DPS per 0.1 s; off hand needs ~2x the DPS to offset 0.1
+    s [[d:rogue#1445034228231438409]], [[d:rogue#1461712872068612106]], [[d:rogue#1464609074015502528]]'
+  hit: 8% strictly necessary, 12-14% comfortable; only landed hits apply poison [[d:rogue#1460107144035696710]], [[d:rogue#1433557308897497219]]
+  haste: ~25-28 AP per 1%; no diminishing returns; above crit [[d:rogue#1479182385210855576]], [[d:rogue#1483699455831314525]]
+  crit_agility: crit ~18-20 AP (poisons only crit from spell crit), Agility ~1.6-1.7 AP [[d:rogue#1479182385210855576]], [[d:rogue#1462562836973879307]]
+  attack_power: poisons, Noxious Assault and Eviscerate scale with AP only [[d:rogue#1485319521324765194]]
+  discord_cheatsheet: 15 agi = 1 haste; 1 haste = 1 crit = 1 hit = 25 AP; agi ~1.5 AP with energy regen, ~1.2 AP without [[d:rogue#1449907721582280765]]
+    (single source)
+caps:
+  hit_dungeon: 4-5% (single source, non-raid content)
+  crit_seal_fate_threshold: ~40% crit before Seal Fate outperforms Dual Wield Specialization (single player estimate)
+  hit_special_attacks_discord: 8% [[d:rogue#1461126609196023922]]
+  weapon_skill_discord: for Assassination 'weapon skill matters very little' post-1.18.1; Noxious uses AP, so only autos benefit
+    [[d:rogue#1407120295483019406]], [[d:rogue#1406925028288761956]] (contested)
+  poison_ap_scaling: Instant ~5% AP, Dissolvent 4.75%, Deadly/Corrosive ~8% over full duration (max ranks) [[d:rogue#1481460731823128607]],
+    [[d:rogue#1462220214295859220]]
+rotation_single:
+- priority: 0
+  action: 'Opener: pre-loaded combo point carried with Slice and Dice, or Noxious Assault'
+  condition: pull
+  sources:
+  - '[[d:rogue#1480688682787667988]]'
+- priority: 1
+  action: Envenom (1 combo point), then Slice and Dice (1 combo point)
+  condition: buff missing or about to expire; Envenom first
+  sources:
+  - '[[d:rogue#1484581432889442335]]'
+- priority: 2
+  action: Eviscerate (Cold Blood first if ready)
+  condition: combo points == 5
+  sources:
+  - '[[d:rogue#1485191077827842271]]'
+  - '[[d:rogue#1480513960317943900]]'
+- priority: 3
+  action: Noxious Assault
+  condition: always the builder; never Backstab or Sinister Strike
+  sources:
+  - '[[d:rogue#1436359116774838312]]'
+- priority: 9
+  action: Do not cast Rupture
+  condition: '1.18.1: skipping Rupture/Taste for Blood sims ~20 DPS higher'
+  sources:
+  - '[[d:rogue#1485191077827842271]]'
+rotation_aoe:
+- targets_min: 2
+  priority: 1
+  action: stay single target; Blade Flurry only if your sim shows a gain (contested)
+  condition: poisons do not reach the second target
+  sources:
+  - '[[d:rogue#1456462381906657310]]'
+  - '[[d:rogue#1484686771382915153]]'
+aoe_threshold: 999
+cooldowns:
+- name: Cold Blood
+  use_when: on a 5-point Eviscerate, or on Noxious Assault to reach 5 faster with Seal Fate [[d:rogue#1480513960317943900]]
+- name: Vanish
+  use_when: threat reset and trinket swap [[d:rogue#1465825846521626935]]
+- name: Thistle Tea
+  use_when: opener burst or energy starvation
+resource_rules:
+- Ruthlessness point after each finisher pays the 1-point Envenom/Slice and Dice refresh [[d:rogue#1478779997878485167]]
+- 'Efficient Poisons: -25/50/75% poison application time and fewer charges used; keep it [[d:rogue#1484425282109837392]],
+  [[d:rogue#1488765913862770802]]'
+- Poison charges last ~20 minutes of fighting [[d:rogue#1471162658550972653]]
+- Weapon swaps cost a GCD in combat [[d:rogue#1445469130453942475]]
+- Carry a second poisoned weapon pair for the other creature-type group [[d:rogue#1484557710065406146]]
+consumables:
+- Elixir of the Mongoose, Ground Scorpok Assay, Elixir of Giants or Juju Power [[d:rogue#1487503305411133572]], [[d:rogue#1490366630889525258]]
+- Juju Might ('always take it') or Winterfall Firewater; they do not stack [[d:rogue#1487503517114695731]], [[d:rogue#1479004139613589674]]
+- 'Food: Danonzo''s Tel''Abim Medley (haste) > new 20-Agility food > Sour Mountain Berries; 20-Agility food does not stack
+  with Mongoose (bug) [[d:rogue#1487502956340449493]], [[d:rogue#1490660870735269889]]'
+- Spirit of Zanza (persists through death), Elixir of Fortitude, Rumsey Rum Black Label [[d:rogue#1468626095870968022]]
+- 'Thistle Tea, Potion of Quickness, Juju Flurry; macro: /cast Potion of Quickness /cast Juju Flurry /cast Perception /use
+  13 /use 14 [[d:rogue#1488940969112899817]]'
+- Greater Fire/Arcane Protection Potions on the fights that need them; no FR gear [[d:rogue#1466871272490139770]], [[d:rogue#1463441701543870587]]
+- Goblin Sapper Charges and Gnomish Battle Chicken (Engineering) [[d:rogue#1463477543666581601]]
+- 'Poisons: Instant both hands by default; a second weapon pair with Dissolvent for Elementals/Mechanicals/Giants/Undead [[d:rogue#1484557710065406146]],
+  [[d:rogue#1484513053876949133]]'
+- 'Stacking: same-stat consumables do not stack (Mongoose/Agility potion, Firewater/Black Juju, Giants/Juju Power); Blasted
+  Lands buff and Agility food stack with everything; a concoction does not stack with its components [[d:rogue#1479004361744056492]],
+  [[d:rogue#1488825686587215956]]'
+- Juju Flurry is worth more for Assassination ("more hits = more poison") [[d:rogue#1487504051154456796]]
+mistakes_to_avoid:
+- Rupture + Taste for Blood with Envenom in 1.18.1 [[d:rogue#1486815192690987191]]
+- Double Dissolvent everywhere (pre-1.18.1 habit) [[d:rogue#1484513053876949133]]
+- Slow "upgrade" weapons such as Gut Ripper [[d:rogue#1472127122071093311]]
+- Backstab or Sinister Strike instead of Noxious Assault [[d:rogue#1436359116774838312]]
+- Dropping Efficient Poisons [[d:rogue#1488765913862770802]]
+- Staying Assassination after full Darkmantle without simming Combat Envenom [[d:rogue#1486733280710492383]]
+poisons_by_raid:
+  source_note: per-raid poison-swap tables; citations resolve in structured/discord/evidence-rogue.jsonl
+  general_rule: Envenom specs use Dissolvent/Instant; Combat and Subtlety use DoT poisons (Deadly/Corrosive) on fights over
+    ~40 s and Instant/Dissolvent on shorter ones [[d:rogue#1484754354433953915]] (consensus, post-1.18.1)
+  molten_core: Dissolvent/Corrosive only on Garr, Geddon, the two Golems and the Undead Dwarf; Instant/Deadly only on Lucifron's
+    Salamander, Magmadar's Core Hound, Sulfuron, Shazzrah and Majordomo; Golemagg accepts either [[d:rogue#1484754354433953915]]
+    (single source, post-1.18.1)
+  blackwing_lair: 'all enemies take only Instant/Deadly; Spellbinders immune to all poisons; Drakonid Nature vulnerability;
+    Chromaggus alternates Nature resistance/vulnerability. Assassination: Instant all raid; Combat: Instant trash, max-rank
+    Deadly on bosses [[d:rogue#1484755632237187213]] (single source, post-1.18.1)'
+  aq40: all enemies take only Instant/Deadly; Twin Emperors immune to all poisons; Frost Oils on Viscidus [[d:rogue#1484756192734478396]],
+    [[d:rogue#1485803638549905508]] (consensus, post-1.18.1)
+  naxxramas: mostly Undead (both work) but trash includes Humanoids/Beasts so Instant is the safe default; Faerlina/Maexxna
+    -> Deadly 5+4 (combat/sub), Gothik -> Dissolvent only [[d:rogue#1484757612271501332]] (single source, post-1.18.1)
+  kara40: Anomalus, Rupturan, Chess -> Dissolvent/Corrosive 2+1; Medivh -> any (Combat uses Mind-numbing); all other bosses
+    -> Deadly/Instant (combat/sub Deadly 5+4, Assa Instant) [[d:rogue#1484759095419474041]] (single source, post-1.18.1);
+    worgen/demon trash immunity later removed [[d:rogue#1487466805852373134]]
+  emerald_sanctum: mobs highly Nature-resistant; Instant still works [[d:rogue#1485366249260060782]], [[d:rogue#1485998161238560969]]
+  type_rule: Corrosive and Dissolvent only apply to Elementals, Mechanicals, Giants and Undead; Instant/Deadly apply to everything
+    except nature-immune targets [[d:rogue#1484513053876949133]], [[d:rogue#1475842408158593137]]
+leveling_by_bracket:
+  route: Combat/dagger to 40 -> respec Assassination (Noxious Assault) at 40 -> respec to the raid spec at 58-60
+  route_sources:
+  - '[[d:rogue#1425614628385325138]]'
+  - '[[d:rogue#1455712360433189117]]'
+  - '[[d:rogue#1458113459639156888]]'
+  respec_40:
+    split: 31/0/0
+    allocation: Remorseless 2, Malice 5, Ruthlessness 3, Murder 2, Relentless 1, Lethality 5, Vile Poisons 3, Imp Poisons
+      3, Efficient Poisons 3, Envenom 1, Vigor 2, Noxious Assault 1
+    sources:
+    - '[[d:rogue#1475759154089033738]]'
+    - '[[d:rogue#1452327807320592507]]'
+  brackets:
+  - bracket: 40-49
+    advice: Respec Assassination for Noxious Assault; Envenom single-target; double Instant Poison; Coldrage/Ghaz'rilla daggers;
+      1.30 daggers wanted
+    sources:
+    - '[[d:rogue#1425614628385325138]]'
+    - '[[d:rogue#1455712360433189117]]'
+    - '[[d:rogue#1324107314747408587]]'
+    era: mixed
+    agreement: consensus
+  - bracket: 50-60
+    advice: Finish Assassination or frontstab line; respec to endgame at 58-60; Barman Shanker/Gut Ripper carry to 60
+    sources:
+    - '[[d:rogue#1458113459639156888]]'
+    - '[[d:rogue#1431531176333541396]]'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+  pinned_build:
+    code: Aoa... AoYDIoY-F-FQaYbBCAAC
+    split: 20/5/26
+    source: '[[d:rogue#1431531176333541396]]'
+discord:
+  channels:
+  - rogue
+  agreement: mixed — consensus on poison mechanics/rotation plumbing and the per-raid tables; contested on the post-1.18.1
+    spec ranking
+  eras:
+  - pre-1.18.1
+  - 1.18.1-announced-pre-release
+  - post-1.18.1
+  sources:
+  - cite: '[[d:rogue#1489503815010095134]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: Noxious nerf is three stacked nerfs (AP, TfB, poison TfB)
+  - cite: '[[d:rogue#1486884013452034148]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: Noxious triple-nerf detail
+  - cite: '[[d:rogue#1486733880323997867]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: '''it really made the ability useless'''
+  - cite: '[[d:rogue#1487032299324309614]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: 'proposed fix: nerf Envenom, buff Noxious'
+  - cite: '[[d:rogue#1485940082325323889]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: 24/27/0 Combat-envenom alternative (decoded)
+  - cite: '[[d:rogue#1487852486554292355]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: 24/27/0 repeated post-patch
+  - cite: '[[d:rogue#1495060694121320558]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: spec standing after 1.18.1
+  - cite: '[[d:rogue#1484243895675129986]]'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    topic: Combat Gum simulator (combatgum.app) released 2026-03-19
+  - cite: '[[d:rogue#1490790679381672037]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: 'spell crit makes poisons crit (closes forum gap #10)'
+  - cite: '[[d:rogue#1405589226585853973]]'
+    era: pre-1.18.1
+    agreement: single source
+    topic: poison AP scaling 8%/5%
+  - cite: '[[d:rogue#1458132484637065343]]'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    topic: Taste for Blood refresh at any combo-point value
+  - cite: '[[d:rogue#1432424536262967338]]'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    topic: Taste for Blood buffs Dissolvent
+  - cite: '[[d:rogue#1461858045247225907]]'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    topic: TfB from a bleed-immune target
+  - cite: '[[d:rogue#1406322984389443594]]'
+    era: pre-1.18.1
+    agreement: single source
+    topic: Noxious procs off-hand weapon effects (contested)
+  - cite: '[[d:rogue#1484557265733419091]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: Noxious does not proc poisons
+  - cite: '[[d:rogue#1324452398273400996]]'
+    era: pre-1.18.1
+    agreement: consensus
+    topic: Envenom weapon-swap setup (secondary Deadly/Corrosive then primary Instant)
+  - cite: '[[d:rogue#1485762675714691072]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: weapon swaps cost a GCD
+  - cite: '[[d:rogue#872201163557195858]]'
+    era: pre-1.18.1
+    agreement: consensus
+    topic: poisons proc from weapon hits only
+  - cite: '[[d:rogue#1324752410052395121]]'
+    era: pre-1.18.1
+    agreement: consensus
+    topic: glancing blows proc poisons, misses do not
+  - cite: '[[d:rogue#1405569716176814090]]'
+    era: pre-1.18.1
+    agreement: single source
+    topic: 1-CP Eviscerate farms Relentless Strikes
+  - cite: '[[d:rogue#1342009613259903067]]'
+    era: pre-1.18.1
+    agreement: consensus
+    topic: Thistle Tea at exactly 0 energy
+  - cite: '[[d:rogue#1415123962169393345]]'
+    era: pre-1.18.1
+    agreement: single source
+    topic: full multiplicative haste-source list
+  - cite: '[[d:rogue#1484754354433953915]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: general poison rule + MC table
+  - cite: '[[d:rogue#1484757612271501332]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: Naxx per-boss poison table
+  - cite: '[[d:rogue#1484759095419474041]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: Kara40 per-boss poison table
+  - cite: '[[d:rogue#1484137121903022233]]'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    topic: BWL/AQ pre-patch poison tables
+  - cite: '[[d:rogue#1484473855312396318]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: AQ Twin Emperors -> Corrosive
+  - cite: '[[d:rogue#1486869810053775370]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: Fang of Venoxis buffed to 1.3 speed
+  - cite: '[[d:rogue#1488910311829278750]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: combat-envenom 6/8 Darkmantle + 2/8 T2
+  - cite: '[[d:rogue#1446546660032385118]]'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    topic: ~1.3-speed daggers for poison volume
+  - cite: '[[d:rogue#1475759154089033738]]'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    topic: level-40 Assassination respec (31/0/0)
+  - cite: '[[d:rogue#1425614628385325138]]'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    topic: leveling route
+  - cite: '[[d:rogue#1485191077827842271]]'
+    author: Nandieb
+    authority: player
+    date: '2026-03-22'
+    era: post-1.18.1
+    agreement: single source
+  - cite: '[[d:rogue#1483699804520583288]]'
+    author: Nandieb
+    authority: player
+    date: '2026-03-18'
+    era: post-1.18.1
+    agreement: consensus
+  - cite: '[[d:rogue#1486733280710492383]]'
+    author: Nandieb
+    authority: player
+    date: '2026-03-26'
+    era: post-1.18.1
+    agreement: consensus
+guide: guide/classes/rogue/assassination.md
 stat_priority:
 - hit
 - crit
@@ -203,72 +1001,3 @@ stat_priority_note: '"Assassination isn''t your combat swords mentality of pilin
   glancing blows down. One post-1.18.1 poster says to "throw out 1.3 speed mainhands" [Mdzielak p=171653] — single source,
   no numbers. Crit and agility are a tie: no cited post ranks them against each other, so their order in the array above carries
   no ranking. Grouping them is this repository''s reading of the sources listed above.'
-caps:
-  hit_dungeon: 4-5% (single source, non-raid content)
-  crit_seal_fate_threshold: ~40% crit before Seal Fate outperforms Dual Wield Specialization (single player estimate)
-rotation_single:
-- priority: 1
-  action: Opener (any combo-point generator; Cheap Shot in dungeons/solo, Garrote/Ambush on bosses)
-  condition: skip stun openers on stun-immune bosses; skip Garrote on non-bleeding targets
-- priority: 2
-  action: Envenom at 1 combo point
-  condition: pop immediately once you have 1+ combo points; do not wait for 5
-- priority: 3
-  action: Slice and Dice at 1 point
-  condition: off the Ruthlessness-granted point after Envenom
-- priority: 4
-  action: Noxious Assault
-  condition: the only combo-point builder used; ~10-12s to reach 5 points from empty
-- priority: 5
-  action: Refresh whichever of Envenom/Slice and Dice has 1-2s left
-  condition: keep the two buffs desynchronised by roughly 10-12s so they never expire together
-- priority: 6
-  action: Rupture or Eviscerate at 3-5 points
-  condition: only when both Envenom and Slice and Dice have more than 10s remaining
-- priority: 7
-  action: Pool energy; do not dump at low energy
-  condition: always
-rotation_aoe:
-- targets_min: 2
-  priority: 1
-  action: do not toggle Blade Flurry in this spec by default
-  condition: costs 20% energy regen (30% pre-1.18.1) and 20% damage, starving Vigor/Noxious Assault
-- targets_min: 2
-  priority: 2
-  action: tab Noxious Assault between two targets
-  condition: only if both targets will live long enough to keep poisons ticking
-- targets_min: 4
-  priority: 1
-  action: no rogue AoE exists; pad with consumables (Oil of Immolation, Dragonbreath Chili)
-  condition: staff has said true AoE will not be added
-aoe_threshold: 999
-cooldowns:
-- name: Vanish
-  use_when: offensive re-opener / trinket swap; never use offensively while solo (resets the mob to full health)
-- name: Thistle Tea
-  use_when: burst energy when both buffs need refreshing at once
-resource_rules:
-- 'Baseline energy: 20 per 2 seconds'
-- 'Vigor: 100% chance to gain 2 energy per poison application (no internal cooldown since 1.18.0)'
-- Relentless Strikes returns 20 energy on 5-point finishers
-- Darkmantle 4-piece and Stormshroud 4-piece set procs both restore energy; stacking both is the guide-writer's stated gearing
-  goal
-- Fast daggers burn poison charges quickly; carry spare poisoned weapons and a weapon-swap macro, or reapply between pulls
-consumables:
-- Instant Poison x2 (default vs any target that is not Elemental/Mechanical/Giant/Undead)
-- Dissolvent Poison x2 (or Dissolvent+Corrosive) vs Elementals/Mechanicals/Giants/Undead only, post-1.18.1
-- Deadly Poison on bosses / Instant on trash (pre-1.18.0 advice, superseded by the double-Instant consensus for the Noxious
-  Assault build)
-- Thistle Tea
-- Oil of Immolation, Dragonbreath Chili for AoE padding
-mistakes_to_avoid:
-- Using slow, high-damage-range daggers out of Combat-spec habit instead of the fastest available
-- Letting Envenom or Slice and Dice drop, or refreshing both at the same time so they expire together
-- Waiting for 5 combo points before the first Envenom
-- Running Deadly/Corrosive with fast daggers (the 5-stack cap on Deadly wastes procs)
-- Running Dissolvent/Corrosive on anything but Elemental/Mechanical/Giant/Undead post-1.18.1 (they do not apply)
-- Toggling Blade Flurry on and forgetting about the energy drain
-- Running out of poison charges mid-fight without spares
-- Using DoT poisons or Rupture on a target you intend to Gouge/Blind/Sap
-- Ignoring hit chance (missing negates poison-application chances)
-- Spamming abilities at low energy instead of pooling

@@ -2,63 +2,523 @@ class: Warlock
 spec: Demonology
 role: ranged-dps
 sources:
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=126753#p126753", author: Erhog, authority: player, date: "2025-04-14"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=140572#p140572", author: Sharmaine, authority: player, date: "2025-07-20"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=107778#p107778", author: LastyK, authority: player, date: "2024-11-13"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=131469#p131469", author: Forumdweller, authority: player, date: "2025-05-16"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102973#p102973", author: Dragunovi, authority: staff, date: "2024-10-12"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460", author: Jamey, authority: staff, date: "2024-12-20"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504", author: Torta, authority: staff, date: "2025-03-30"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: "2025-07-25"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=173046#p173046", author: Milordas, authority: player, date: "2026-03-29"}
-agreement: contested
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=126753#p126753
+  author: Erhog
+  authority: player
+  date: '2025-04-14'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=140572#p140572
+  author: Sharmaine
+  authority: player
+  date: '2025-07-20'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=107778#p107778
+  author: LastyK
+  authority: player
+  date: '2024-11-13'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=131469#p131469
+  author: Forumdweller
+  authority: player
+  date: '2025-05-16'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=102973#p102973
+  author: Dragunovi
+  authority: staff
+  date: '2024-10-12'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460
+  author: Jamey
+  authority: staff
+  date: '2024-12-20'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504
+  author: Torta
+  authority: staff
+  date: '2025-03-30'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159
+  author: Jamey
+  authority: staff
+  date: '2025-07-25'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  author: Jamey
+  authority: staff
+  date: '2026-01-23'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=173046#p173046
+  author: Milordas
+  authority: player
+  date: '2026-03-29'
+- cite: '[[d:warlock#1458909437807956143]]'
+  author: Summonjutsu
+  authority: player
+  date: '2026-01-08'
+  era: 1.18.1-announced-pre-release
+  agreement: consensus
+- cite: '[[d:warlock#1493328003537567986]]'
+  author: Fauxnetic
+  authority: player
+  date: '2026-04-13'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:warlock#1485512658433343609]]'
+  author: L-star
+  authority: player
+  date: '2026-03-23'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:warlock#1482836194642362511]]'
+  author: Afraido
+  authority: player
+  date: '2026-03-16'
+  era: 1.18.1-announced-pre-release
+  agreement: single source
+- cite: '[[d:warlock#1488156105111633930]]'
+  author: W
+  authority: developer
+  date: '2026-03-30'
+  era: post-1.18.1
+  agreement: consensus
+agreement: consensus (build, UP/greater-demon usage); contested (raid standing in pugs, Devastation->pet crit, UP AP school)
 patch_validity:
-  written_for: "mixed CC2/CC3; 1.18.1 revisions applied"
+  written_for: 1.18.1 live (2026-03-20)
   valid_for_1181: true
-  notes: "1.18.1 changed Enslave Demon healing, Ritual of Doom (1 summoner), Felguard/Felhunter/Infernal numbers, Sinister Pursuit, Soul Link 20%; no post-1.18.1 raid re-test of the demon-DPS build exists."
+  notes: Unleashed Potential procs on any direct damage since 1.18.1, making Demonology the top boss spec in organised raids
+    [[d:warlock#1484828741267095563]], [[d:warlock#1485512658433343609]]. Greater-demon pathing bug never fixed [[d:warlock#1495335572145836152]].
 talents:
-  build_name: "Imp spec / Unleashed Potential build (no full point list given by any source; only calculator links)"
-  points: []
-  leveling_order: []
+  build_name: Demonology 0/34/17 raid (the standard; Summonjutsu/Fauxnetic)
+  points:
+  - tree: Demonology
+    talent: Demonic Embrace
+    rank: 5
+    spell_id: 18701
+  - tree: Demonology
+    talent: Soul Funnel
+    rank: 2
+    spell_id: 18704
+  - tree: Demonology
+    talent: Fel Intellect
+    rank: 3
+    spell_id: 18744
+  - tree: Demonology
+    talent: Fel Domination
+    rank: 1
+    spell_id: 18708
+  - tree: Demonology
+    talent: Fel Stamina
+    rank: 5
+    spell_id: 18752
+  - tree: Demonology
+    talent: Master Summoner
+    rank: 2
+    spell_id: 18710
+  - tree: Demonology
+    talent: Unholy Power
+    rank: 3
+    spell_id: 18771
+  - tree: Demonology
+    talent: Power Overwhelming
+    rank: 1
+    spell_id: 51714
+  - tree: Demonology
+    talent: Demonic Precision
+    rank: 3
+    spell_id: 51717
+  - tree: Demonology
+    talent: Master Demonologist
+    rank: 5
+    spell_id: 23825
+  - tree: Demonology
+    talent: Unleashed Potential
+    rank: 3
+    spell_id: 51723
+  - tree: Demonology
+    talent: Soul Link
+    rank: 1
+    spell_id: 19028
+  - tree: Destruction
+    talent: Shadow Vulnerability
+    rank: 5
+    spell_id: 17803
+  - tree: Destruction
+    talent: Demonic Swiftness
+    rank: 2
+    spell_id: 57731
+  - tree: Destruction
+    talent: Bane
+    rank: 5
+    spell_id: 17792
+  - tree: Destruction
+    talent: Shadowburn
+    rank: 1
+    spell_id: 17877
+  - tree: Destruction
+    talent: Devastation
+    rank: 4
+    spell_id: 18133
+  build_note: 'Validated with talent_tool.py (VALID). Afraido''s pin swaps 1 Demonic Swiftness for Devastation 5/5 (-AoQYBoCDBYFYB-FANABo)
+    [[d:warlock#1484228436888391690]]; fire variant: Shadow Vulnerability -> Cataclysm [[d:warlock#1493328003537567986]];
+    minimum-hit variant F-AoQYBoCDBYFYB-FAV (5/34/12) [[d:warlock#1466915530299412655]].'
+  leveling_order:
+  - level: 10
+    tree: Demonology
+    talent: Demonic Embrace
+    rank: 1
+  - level: 11
+    tree: Demonology
+    talent: Demonic Embrace
+    rank: 2
+  - level: 12
+    tree: Demonology
+    talent: Demonic Embrace
+    rank: 3
+  - level: 13
+    tree: Demonology
+    talent: Demonic Embrace
+    rank: 4
+  - level: 14
+    tree: Demonology
+    talent: Demonic Embrace
+    rank: 5
+  - level: 15
+    tree: Demonology
+    talent: Fel Intellect
+    rank: 1
+  - level: 16
+    tree: Demonology
+    talent: Fel Intellect
+    rank: 2
+  - level: 17
+    tree: Demonology
+    talent: Fel Intellect
+    rank: 3
+  - level: 18
+    tree: Demonology
+    talent: Soul Funnel
+    rank: 1
+  - level: 19
+    tree: Affliction
+    talent: Improved Corruption
+    rank: 1
+  - level: 20
+    tree: Affliction
+    talent: Improved Corruption
+    rank: 2
+  - level: 21
+    tree: Affliction
+    talent: Improved Corruption
+    rank: 3
+  - level: 22
+    tree: Affliction
+    talent: Improved Corruption
+    rank: 4
+  - level: 23
+    tree: Affliction
+    talent: Improved Corruption
+    rank: 5
+  - level: 24
+    tree: Affliction
+    talent: Improved Drains
+    rank: 1
+  - level: 25
+    tree: Affliction
+    talent: Improved Drains
+    rank: 2
+  - level: 26
+    tree: Affliction
+    talent: Improved Life Tap
+    rank: 1
+  - level: 27
+    tree: Affliction
+    talent: Improved Life Tap
+    rank: 2
+  - level: 28
+    tree: Affliction
+    talent: Suppression
+    rank: 1
+  - level: 29
+    tree: Affliction
+    talent: Fel Concentration
+    rank: 1
+  - level: 30
+    tree: Affliction
+    talent: Fel Concentration
+    rank: 2
+  - level: 31
+    tree: Demonology
+    talent: Soul Funnel
+    rank: 2
+  - level: 32
+    tree: Demonology
+    talent: Fel Domination
+    rank: 1
+  - level: 33
+    tree: Demonology
+    talent: Fel Stamina
+    rank: 1
+  - level: 34
+    tree: Demonology
+    talent: Fel Stamina
+    rank: 2
+  - level: 35
+    tree: Demonology
+    talent: Fel Stamina
+    rank: 3
+  - level: 36
+    tree: Demonology
+    talent: Fel Stamina
+    rank: 4
+  - level: 37
+    tree: Demonology
+    talent: Nether Studies
+    rank: 1
+  - level: 38
+    tree: Demonology
+    talent: Nether Studies
+    rank: 2
+  - level: 39
+    tree: Demonology
+    talent: Nether Studies
+    rank: 3
+  - level: 40
+    tree: Demonology
+    talent: Master Summoner
+    rank: 1
+  - level: 41
+    tree: Demonology
+    talent: Master Summoner
+    rank: 2
+  - level: 42
+    tree: Demonology
+    talent: Power Overwhelming
+    rank: 1
+  - level: 43
+    tree: Demonology
+    talent: Unholy Power
+    rank: 1
+  - level: 44
+    tree: Demonology
+    talent: Unholy Power
+    rank: 2
+  - level: 45
+    tree: Demonology
+    talent: Unholy Power
+    rank: 3
+  - level: 46
+    tree: Demonology
+    talent: Fel Stamina
+    rank: 5
+  - level: 47
+    tree: Demonology
+    talent: Master Demonologist
+    rank: 1
+  - level: 48
+    tree: Demonology
+    talent: Master Demonologist
+    rank: 2
+  - level: 49
+    tree: Demonology
+    talent: Master Demonologist
+    rank: 3
+  - level: 50
+    tree: Demonology
+    talent: Master Demonologist
+    rank: 4
+  - level: 51
+    tree: Demonology
+    talent: Master Demonologist
+    rank: 5
+  - level: 52
+    tree: Demonology
+    talent: Soul Link
+    rank: 1
+  - level: 53
+    tree: Demonology
+    talent: Unleashed Potential
+    rank: 1
+  - level: 54
+    tree: Demonology
+    talent: Unleashed Potential
+    rank: 2
+  - level: 55
+    tree: Demonology
+    talent: Unleashed Potential
+    rank: 3
+  - level: 56
+    tree: Affliction
+    talent: Improved Curse of Agony
+    rank: 1
+  - level: 57
+    tree: Affliction
+    talent: Improved Curse of Agony
+    rank: 2
+  - level: 58
+    tree: Affliction
+    talent: Improved Curse of Agony
+    rank: 3
+  - level: 59
+    tree: Affliction
+    talent: Soul Siphon
+    rank: 1
+  - level: 60
+    tree: Affliction
+    talent: Soul Siphon
+    rank: 2
+  code: -AoQYBoCDBYFYB-FAVABg
+  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=warlock&t=-050203150020313531-50250014
+  build_link_tortoise_note: 'Generated from the sourced points list (51 points: Demonology 34, Destruction 17); the calculator
+    shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
+leveling_order_source: sailorVEVO Demonology leveling order [[d:warlock#1482503137041584229]], ends 17/34/0; respec to 0/34/17
+  at 60 (guide/classes/warlock/leveling.md)
 stat_weights:
-  hit: "high; Demonic Precision passes up to 100% of Warlock hit/crit to the demon since CC3, so gear is shared with Destruction"
-  crit: "high, same reasoning"
-  spell_power: "medium (Unleashed Potential converts up to 15%/stack of bonus SP to the demon's AP/SP)"
-  stamina: "medium-high (Power Overwhelming costs 40% of the demon's base health; feeds Soul Link)"
-stat_priority: [spell-hit, spell-crit, spell-power, stamina]
-stat_priority_note: "Demonic Precision passes 90% of your spell hit and crit to the demon (CC3), which is why Demonology shares gear with Destruction and why the wiki's priority is \"Hit and Crit\". Spell power then matters twice over: Unleashed Potential converts 15% of your bonus spell damage per stack (up to three) into the demon's attack and spell power. Stamina is wanted for Power Overwhelming, which costs 40% of the demon's base health, and for Soul Link."
-caps: {}
+  hit: to ~6% (demon melee cap via Demonic Precision 90% + 3%), target 11-12%, 16% ideal for demon spells [[d:warlock#1486868497693937906]],
+    [[d:warlock#1486868596096241805]], [[d:warlock#1494313197874970705]]
+  crit: high past 6% hit; crit is shared with the demon (pet melee crits 200%) [[d:warlock#1447742557114077307]], [[d:warlock#1488619415791734956]];
+    ~1.6-1.8x normal value [[d:warlock#1428821206009643039]]
+  spell_power: high; UP gives the demon up to 45% of your SP as SP/AP [[d:warlock#1464540604250722397]]; AP school contested
+    (highest vs shadow only) [[d:warlock#1432720871461617757]], [[d:warlock#1491200463385792663]]
+  haste: zero for the demon (only UP stacks slightly faster) [[d:warlock#1488467880667381891]]
+  intellect: 'medium: Fel Intellect gives the demon 30% of your Int as its SP [[d:warlock#1484214562004930621]]'
+  stamina: 'medium: Fel Stamina, Power Overwhelming base-health cost, Soul Link'
+caps:
+  gear_hit: 6% minimum (demon melee), 11-12% target [[d:warlock#1486868497693937906]], [[d:warlock#1486868596096241805]];
+    8-10% "just fine" [[d:warlock#1494849835294134284]]
+  crit_diminishing: above ~30% caster crit the demon falls slightly behind 1:1 [[d:warlock#1432796175735455885]]
 rotation_single:
-  - {priority: 1, action: "Curse (raid assignment)", condition: "opener"}
-  - {priority: 2, action: "Corruption / Immolate", condition: "opener, instant DoTs; Corruption does not proc Unleashed Potential"}
-  - {priority: 3, action: "direct damage (Shadow Bolt / Searing Pain / Immolate) or Health Funnel tick", condition: "Unleashed Potential below 3 stacks or about to expire (any direct-damage hit procs it since 1.18.1)"}
-  - {priority: 4, action: "Power Overwhelming", condition: "demon at 3 UP stacks and above ~60% health; also breaks CC on the demon"}
-  - {priority: 5, action: "reapply Curse/Corruption/Immolate", condition: "missing"}
-  - {priority: 6, action: "Mana Funnel", condition: "Felguard out and below ~1560 mana for Felstorm (contested value)"}
-  - {priority: 7, action: "Shadow Bolt or Searing Pain", condition: "default filler"}
-  - {priority: 8, action: "Life Tap / Health Funnel", condition: "mana low / demon below ~50% health and no AoE imminent"}
+- priority: 0
+  action: summon the boss greater demon pre-pull; set Felguard Cleave autocast, Felstorm manual; Doomguard Infernal Blade
+    on
+  condition: pre-pull [[d:warlock#1491048996846698547]]
+- priority: 1
+  action: pet attack (/script PetAttack())
+  condition: pet idle; re-issue after Take Position [[d:warlock#1465463647894765712]]
+- priority: 2
+  action: on-use trinket (Black Book) + Power Overwhelming + Felstorm
+  condition: on the 3rd Unleashed Potential stack [[d:warlock#1473595062918185033]]
+- priority: 3
+  action: Power Overwhelming (no GCD)
+  condition: off cooldown and demon can afford 40% of base health; tell healers [[d:warlock#1491048996846698547]], [[d:warlock#1442919256663789711]]
+- priority: 4
+  action: direct-damage spell or rank-1 Health/Mana Funnel tick
+  condition: Unleashed Potential about to expire [[d:warlock#1458913059501506673]]
+- priority: 5
+  action: curse (Curse of Recklessness if free choice)
+  condition: missing [[d:warlock#1487040479907287240]]
+- priority: 6
+  action: Corruption
+  condition: only if it will last full duration; on trash only if mobs live >18 s [[d:warlock#1483907298123448390]]
+- priority: 7
+  action: Shadow Bolt
+  condition: 'default filler; short fights: 2x Searing Pain + Shadowburn or 3x Searing Pain [[d:warlock#1491048996846698547]]'
+- priority: 8
+  action: Health Funnel
+  condition: demon below ~50% and no AoE imminent [[d:warlock#1448706339974025398]]
+- priority: 9
+  action: finish the greater demon with Power Overwhelming before its 3-minute timer ends
+  condition: timer near end [[d:warlock#1475217712006434837]]
 rotation_aoe:
-  - {targets_min: 4, priority: 1, action: "Infernal (Immolation aura) + Power Overwhelming + 3-stack Unleashed Potential + Hellfire", condition: "stacked trash pack"}
-  - {targets_min: 4, priority: 2, action: "Rain of Fire", condition: "pack cleaves"}
-aoe_threshold: 4
+- targets_min: 3
+  priority: 1
+  action: Felstorm (after tank AoE threat), then Hellfire
+  condition: stacked trash [[d:warlock#1474540725000470660]], [[d:warlock#1464960947918733333]]
+- targets_min: 3
+  priority: 2
+  action: Infernal + Power Overwhelming + 3-stack UP + Hellfire
+  condition: stacked trash, Infernal available
+- targets_min: 1
+  priority: 3
+  action: curse of Recklessness then Shadow Bolt; add Immolate/Corruption only if mobs live >18 s
+  condition: fast trash [[d:warlock#1483907298123448390]]
+aoe_threshold: 3
 cooldowns:
-  - {name: "Power Overwhelming", use_when: "14-s CD, demon at 3 UP stacks with health to spare"}
-  - {name: "Inferno / Demon Gate / Ritual of Doom", use_when: "pre-pull only, never mid-fight; 10 min/30 min (halved by Master Summoner)/1 summoner since 1.18.1; kill the greater demon with Power Overwhelming before its 3-minute timer ends"}
-  - {name: "Fel Domination", use_when: "5-min CD, instant re-summon; pair with Master Summoner for -50% mana"}
+- name: Inferno (Infernal)
+  use_when: 5 min with Master Summoner; lowest CD, fire immune, physical punches [[d:warlock#1464562452476723223]], [[d:warlock#1424158415739027640]]
+- name: Demon Gate (Felguard)
+  use_when: 15 min; AoE and single-target burst; Felguard spawns 4 s after cast [[d:warlock#1485736529501491250]]
+- name: Ritual of Doom (Doomguard)
+  use_when: 30 min; 3 s cast, 1 helper since 1.18.1; single-target [[d:warlock#1491589394480627833]], [[d:warlock#1485736529501491250]]
+- name: Power Overwhelming
+  use_when: on cooldown when demon health allows; removes CC from the demon [[d:warlock#1440858777116086273]]
+- name: Fel Domination
+  use_when: instant re-summon when the pet dies mid-combat [[d:warlock#1475587639188000959]]
+- name: The Black Book
+  use_when: on the 3rd UP stack with PO/greater demon [[d:warlock#1446169503003185325]]
 resource_rules:
-  - "every common-demon summon except Imp costs a Soul Shard; pet death in BGs costs a re-summon shard"
-  - "Soul Funnel now costs the Warlock 30% of what is transferred (CC3)"
-  - "Imp gives Master Demonologist mana-cost reduction; Life Tap otherwise"
+- Health Funnel is your pet healer (healers get -50% on greater/enslaved demons) [[d:warlock#1448706339974025398]], [[d:warlock#1464989010383605901]]
+- 'Greater demons: 3 minutes under control with Soul Link; die if they aggro another player; deleted if the raid heals ~600
+  near a broken-loose demon [[d:warlock#1490963345967419542]], [[d:warlock#1442922075617493094]], [[d:warlock#1489971548717580419]]'
+- No pet threat reduction exists (no Salvation/totem/Voidstone on greater demons) [[d:warlock#1485689509197774958]]
+- Demonology has the weakest mana economy; Potion of Quickness is a luxury [[d:warlock#1440503674555334688]], [[d:warlock#1465503280460333178]]
+- Battle Shout on a lesser demon blocks Unleashed Potential stacks (bug, Jan 2026) [[d:warlock#1464813724891091156]]
 consumables:
-  - "Infernal Stones / Demonic Figurines (fit in Soul Bags)"
-  - "The Black Book trinket for greater demons (buff removed on unequip since 2025-03-30)"
-  - "Healthstones for the Warlock (demons cannot use player consumables since CC2)"
+- Flask of Supreme Power, Greater Arcane Elixir, Elixir of Shadow Power / Greater Firepower, Dreamshard Elixir, Dreamtonic,
+  wizard oil, spell-damage food [[d:warlock#1452170616206790758]], [[d:warlock#1464517853670539376]]
+- Infernal Stones and Demonic Figurines (soul bags hold/refund them) [[d:warlock#1434554125634502677]]
+- Fire Protection Potion + Frozen Rune before summoning the Doomguard [[d:warlock#1466194002767249498]]
+- Healthstones for the Warlock
 mistakes_to_avoid:
-  - "Summoning a greater demon mid-fight or with under 3 minutes of boss remaining; letting it time out and turn hostile"
-  - "Using Power Overwhelming on a low-health pet during AoE"
-  - "Forgetting to re-toggle Felstorm/Legion Strike autocast after each summon"
-  - "Keeping the pet in melee on bosses with unavoidable pet damage (Four Horsemen marks, Thaddius, Sapphiron ice)"
-  - "Relying on Soul Entrapment while controlling a Greater Demon (hotfixed 2026-03-31 to give nothing)"
-  - "Walking greater demons through cities (treated as griefing)"
-  - "Attempting to use the demon as a tank: Voidwalker threat does not scale and consistently loses aggro even at higher character levels"
+- Summoning a greater demon mid-fight or with <3 min of boss left; letting it time out
+- Popping trinkets before the 3rd Unleashed Potential stack [[d:warlock#1473595062918185033]]
+- Power Overwhelming on a low-health pet during AoE; not telling healers
+- Forgetting to reset Felstorm manual / Cleave autocast after each summon (pet bars reset) [[d:warlock#1423835529673445436]]
+- Letting Felstorm run before the tank has AoE threat [[d:warlock#1474540725000470660]]
+- 'Pet in unavoidable damage: Four Horsemen marks, Thaddius, Sapphiron, Heigan [[d:warlock#1400326250769289267]]'
+- Taking Demonic Sacrifice with Soul Link [[d:warlock#1443683130627330332]]
+- Stacking haste as Demonology
+discord:
+  channels:
+  - warlock
+  agreement: mixed — consensus on the 0/34/17 pet-keeping allocation, pet scaling and PO/UP mechanics; contested on raid standing
+    (short-fight king vs pet-management liability)
+  eras:
+  - pre-1.18.1
+  - 1.18.1-announced-pre-release
+  - post-1.18.1
+  sources:
+  - cite: '[[d:warlock#1484228436888391690]]'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    topic: pinned Demonology 0/34/17 screenshot (pet-keeping, no sac)
+  - cite: '[[d:warlock#1493328003537567986]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: exact 0/34/17 code + rationale (15x repeat)
+  - cite: '[[d:warlock#1488156105111633930]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: pet AP->WD and SP coefficient table
+  - cite: '[[d:warlock#1485689509197774958]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: pet threat is the new Demonology ceiling
+  - cite: '[[d:warlock#1428816200212680816]]'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    topic: 6% gear hit suffices; pet melee uses the special-attack table
+  - cite: '[[d:warlock#1432797623600812093]]'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    topic: ~30% crit diminishing point for the demon
+  - cite: '[[d:warlock#1424161054623137964]]'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    topic: 'Unleashed Potential snapshot: SP on stack 1, AP on stack 3'
+  - cite: '[[d:warlock#1432489734239944796]]'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    topic: demon buffs scale on fire and shadow spell power
+  - cite: '[[d:warlock#1483576857428361257]]'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    topic: Demo best on short fights; Affliction as fights lengthen
+  - cite: '[[d:warlock#1405349574465290354]]'
+    era: pre-1.18.1
+    agreement: consensus
+    topic: Demo keeps the pet; never take Demonic Sacrifice in Demonology
+  - cite: '[[d:warlock#1486367004469235773]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: post-1.18.1 greater-demon pathing/instant-despawn bugs
+guide: guide/classes/warlock/demonology.md
+stat_priority:
+- spell-hit
+- spell-crit
+- spell-power
+- stamina
+stat_priority_note: 'Demonic Precision passes 90% of your spell hit and crit to the demon (CC3), which is why Demonology shares
+  gear with Destruction and why the wiki''s priority is "Hit and Crit". Spell power then matters twice over: Unleashed Potential
+  converts 15% of your bonus spell damage per stack (up to three) into the demon''s attack and spell power. Stamina is wanted
+  for Power Overwhelming, which costs 40% of the demon''s base health, and for Soul Link.'

@@ -1,6 +1,7 @@
 class: Shaman
 spec: Elemental
 role: ranged-dps
+guide: guide/classes/shaman/elemental.md
 sources:
 - url: https://forum.turtlecraft.gg/viewtopic.php?p=102972#p102972
   author: Dragunovi
@@ -154,109 +155,504 @@ sources:
   author: Ironbob
   authority: player
   date: '2025-11-10'
+- cite: '[[d:shaman#1488646101081788556]]'
+  author: Not Normal
+  authority: player
+  date: '2026-04-01'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:shaman#1485686440070479892]]'
+  author: Not Normal
+  authority: player
+  date: '2026-03-23'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:shaman#1490703901098250300]]'
+  author: Ordinary Joe
+  authority: player
+  date: '2026-04-06'
+  era: post-1.18.1
+  agreement: single source
+- cite: '[[d:shaman#1486439926412087380]]'
+  author: Ordinary Joe
+  authority: player
+  date: '2026-03-25'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:shaman#1481698281204482068]]'
+  author: Not Normal
+  authority: player
+  date: '2026-03-12'
+  era: 1.18.1-announced-pre-release
+  agreement: consensus
+- cite: '[[d:shaman#1485240088047652894]]'
+  author: Aest
+  authority: player
+  date: '2026-03-22'
+  era: post-1.18.1
+  agreement: consensus
 agreement: contested
 patch_validity:
   written_for: 1.18.0 rework (Electrify -> Elemental Fury, Earthquake, Molten Blast; live 2025-08-15)
   valid_for_1181: false
-  notes: 1.18.1 added Call of Earth, buffed Earthquake base damage +15% and CD to 18 s, made Elemental Weapons' Flametongue
+  notes: '1.18.1 added Call of Earth, buffed Earthquake base damage +15% and CD to 18 s, made Elemental Weapons'' Flametongue
     conditional on a melee hit (deliberately weakening the Fire-Elemental playstyle), and added a relic-swap GCD. Players
     report Earthquake broken/underperforming (only 2 hits, no Elemental Fury bonus on the second) through 2026-04-07 with
-    no staff confirmation of a nerf beyond 'fixed multiple issues'. No post-1.18.1 build or rotation update exists; treat
-    rotation/stat priority as pre-1.18.1 with the flagged deltas applied.
+    no staff confirmation of a nerf beyond ''fixed multiple issues''. The forum file''s ''no post-1.18.1 build or rotation
+    update'' is closed by Discord: the post-1.18.1 34/3/14 build and the cleaned rotation are in `discord:` below ([[d:shaman#1488646101081788556]],
+    [[d:shaman#1485686440070479892]]). Earthquake is removed from the single-target rotation post-1.18.1.'
 talents:
-  build_name: Named core Elemental build (consensus; no full point-by-point 60 build posted in text)
-  build_link: null
+  build_name: Raid 34/3/14 (Not Normal, post-1.18.1) -- validated with pipeline2/talent_tool.py
+  build_link: https://talents.turtlecraft.gg/shaman?points=CoAYIqSDBCAoB-D-AoAoAL
   points:
   - tree: Elemental
     talent: Convection
-    rank: 5
-    spell_id: 16112
-    talent_id: 218
+    rank: 2
+    spell_id: 16109
   - tree: Elemental
     talent: Concussion
     rank: 5
     spell_id: 16108
-    talent_id: 219
   - tree: Elemental
     talent: Elemental Devastation
     rank: 3
     spell_id: 29180
-    talent_id: 222
   - tree: Elemental
     talent: Elemental Focus
     rank: 1
     spell_id: 45541
-    talent_id: 223
   - tree: Elemental
     talent: Call of Thunder
     rank: 5
     spell_id: 16120
-    talent_id: 225
-  - tree: Elemental
-    talent: Reverberation
-    rank: 3
-    spell_id: 16114
-    talent_id: 224
-  - tree: Elemental
-    talent: Call of Flame
-    rank: 3
-    spell_id: 16161
-    talent_id: 229
-  - tree: Elemental
-    talent: Improved Fire Totems
-    rank: 2
-    spell_id: 16544
-    talent_id: 227
   - tree: Elemental
     talent: Improved Molten Blast
     rank: 2
     spell_id: 46108
-    talent_id: 226
   - tree: Elemental
-    talent: Elemental Fury
+    talent: Improved Fire Totems
     rank: 2
-    spell_id: 56557
-    talent_id: 232
+    spell_id: 16544
+  - tree: Elemental
+    talent: Call of Earth
+    rank: 2
+    spell_id: 58239
+  - tree: Elemental
+    talent: Call of Flame
+    rank: 3
+    spell_id: 16161
   - tree: Elemental
     talent: Elemental Mastery
     rank: 1
     spell_id: 16166
-    talent_id: 231
+  - tree: Elemental
+    talent: Elemental Fury
+    rank: 2
+    spell_id: 56557
   - tree: Elemental
     talent: Lightning Mastery
     rank: 5
     spell_id: 16582
-    talent_id: 233
   - tree: Elemental
     talent: Earthquake
     rank: 1
     spell_id: 48306
-    talent_id: 234
   - tree: Enhancement
     talent: Ancestral Knowledge
+    rank: 3
+    spell_id: 17487
+  - tree: Restoration
+    talent: Tidal Focus
     rank: 5
-    spell_id: 17489
-    talent_id: 251
-  - tree: Enhancement
-    talent: Thundering Strikes / Stable Shields
-    rank: 0
-    spell_id: 16255
-    note: filler points, as reachable
-    talent_id: 254
+    spell_id: 16217
+  - tree: Restoration
+    talent: Tidal Mastery
+    rank: 5
+    spell_id: 16221
+  - tree: Restoration
+    talent: Totemic Mastery
+    rank: 1
+    spell_id: 16189
+  - tree: Restoration
+    talent: Nature's Grace
+    rank: 3
+    spell_id: 29191
   leveling_order: []
-  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=shaman&t=55003135220301251-5
-  build_link_tortoise_note: 'Generated from the sourced points list (43 points: Elemental 38, Enhancement 5); the calculator
-    shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
+  variants:
+  - Pre-1.18.1 37/0/14 (FoAYIqQDRCAoB--AoAoAL), outdated after Call of Earth [[d:shaman#1458548763831304272]]
+  - 'MC/BWL: skip Improved Fire Totems / Improved Molten Blast / Call of Flame for Ancestral Knowledge or Improved Water Shield
+    [[d:shaman#1460689747013013594]]'
+  leveling_order_note: Level as Enhancement (guide/classes/shaman/leveling.md); Elemental leveling is painful before ~40 [[d:shaman#1455351699295437043]].
+  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=shaman&t=25003105222301251-3-050050013
+  build_link_tortoise_note: 'Generated from the sourced points list (51 points: Elemental 34, Enhancement 3, Restoration 14);
+    the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
 stat_weights:
-  spell_hit: '15-17% (Skegg: hit > crit > spd > int); Elemental Devastation gives 3%, T3 4-set +3% overcaps: full T3 6% +
-    3% set bonus + Elemental Devastation = 12% without jewelry (Atreidon)'
-  crit: mana engine via Elemental Focus/Clearcasting; prioritized over haste at low crit
-  haste: capped near 17% for single target (Lightning Mastery interaction); more haste only pushes Lightning Bolt faster than
-    the GCD (Atreidon)
-  spell_power_intellect: as much as possible after hit; ~4k mana pool recommended fresh 60
-  attack_power: small but real for the Flame Shock DoT tick (~0.012 dps per AP, 0.02 if snapshotted)
-  spell_penetration: matters against Nature-resistant bosses until Lower Karazhan enchants or a Thunderfury tank are available
-    (single source)
+  priority: spell hit to 16% total (12% gear) > crit (mana via Clearcasting) > spell power > haste; spell pen to 15 without
+    Thunderfury
+  relative: hit ~15 SP, crit ~10 SP, haste ~8 SP [[d:shaman#1481698281204482068]]
+  crit_vs_hit: past ~12-13% hit and ~500 SP crit becomes more valuable [[d:shaman#1480349166218510400]]
+  spell_penetration: 15 = biggest stat gain, nothing after 15 [[d:shaman#1452198375448645742]]
+  spirit: dead [[d:shaman#1434512577865715814]]
+caps:
+  spell_hit: '16% total vs level 63: 3% talent + 1% Emerald Blessing + 12% gear [[d:shaman#1486439926412087380]]; 11-14% fine
+    in MC/BWL gear [[d:shaman#1452197667781345322]]'
+  spell_penetration: 15 (boss Nature resistance) [[d:shaman#1452198375448645742]]
+rotation_single:
+- priority: 1
+  action: Searing Totem (Flametongue Totem in a melee group); other totems
+  condition: before pull
+- priority: 2
+  action: Elemental Mastery / trinkets, then Flame Shock
+  condition: target not fire-immune; Flame Shock snapshots [[d:shaman#1420830381762154628]]
+- priority: 3
+  action: Molten Blast
+  condition: Flame Shock about to expire (~every 10-12 s); refreshes to full [[d:shaman#1482850420484210790]] [[d:shaman#1492517323838460035]]
+- priority: 4
+  action: Chain Lightning
+  condition: Clearcasting up, or on cooldown when mana allows [[d:shaman#1484941909620428922]]
+- priority: 5
+  action: Lightning Bolt
+  condition: filler [[d:shaman#1485686440070479892]]
+- priority: 6
+  action: Earthquake
+  condition: only with 2+ targets while bugged (DPS-neutral single target) [[d:shaman#1490703968576471180]]
+- priority: 7
+  action: Earth Shock
+  condition: moving, interrupt, or target about to die; never as filler [[d:shaman#1459503774186999850]]
+rotation_aoe:
+- targets_min: 2
+  priority: 1
+  action: Earthquake and Chain Lightning on cooldown, Lightning Bolt filler
+  condition: 2+ targets
+- targets_min: 2
+  priority: 2
+  action: Flame Shock several targets and refresh with Molten Blast
+  condition: cleave [[d:shaman#1438195226631082028]]
+- targets_min: 4
+  priority: 3
+  action: Fire Nova Totem when Earthquake and Chain Lightning are on cooldown
+  condition: big packs [[d:shaman#1444776794799734784]]
+- targets_min: 4
+  priority: 4
+  action: Oil of Immolation
+  condition: double pulls [[d:shaman#1489306615118172341]]
+aoe_threshold: 2
+cooldowns:
+- name: Elemental Mastery
+  use_when: right before a fresh Flame Shock (snapshot); weak otherwise [[d:shaman#1485731517710860439]]
+- name: Blood Fury (Orc)
+  use_when: with Elemental Mastery; beats Berserking [[d:shaman#1471895235184295960]]
+resource_rules:
+- Tea or mana potion every boss pull while gearing [[d:shaman#1469228322410991740]]
+- Avoid downranking; gear for Clearcasting [[d:shaman#1485333169057042605]]; downrank if mana % < boss HP % [[d:shaman#1471574271343067246]]
+- No Chain Lightning without Clearcasting when mana is tight [[d:shaman#1484941909620428922]]
+consumables:
+- Mana potions, Nordanaar/Hyjal tea, Dreamshard Elixir, crit oils, Dark/Demonic Rune [[d:shaman#1484941909620428922]]
+- Concoctions + Greater Firepower + Greater Nature Power + Flask of Supreme Power all stack [[d:shaman#1456029276452421683]]
+- Weapon oil instead of Flametongue [[d:shaman#1470506986113077521]]
+mistakes_to_avoid:
+- Old Molten Blast spam spec [[d:shaman#1485240088047652894]]
+- Flametongue Weapon as a caster [[d:shaman#1470506986113077521]]
+- Chasing 16% hit in MC/BWL gear [[d:shaman#1452149363148062811]]
+- Shock filler [[d:shaman#1459503774186999850]]
+- Earthquake single target while bugged [[d:shaman#1485686440070479892]]
+- Elemental Mastery after Flame Shock [[d:shaman#1420830381762154628]]
+discord:
+  channel: shaman
+  scope: 'Elemental additions from the archived #shaman Discord (2021-02-15 -> 2026-05). Every claim carries a [[d:shaman#<id>]]
+    citation, an era (pre-1.18.1 | 1.18.1-announced-pre-release | post-1.18.1) and agreement (consensus | single source |
+    contested).'
+  builds:
+  - name: Post-1.18.1 Elemental raid build -- 34/3/14 (Not Normal)
+    split:
+      Elemental: 34
+      Enhancement: 3
+      Restoration: 14
+    code: CoAYIqSDBCAoB-D-AoAoAL
+    source: '[[d:shaman#1488646101081788556]]'
+    also_cited:
+    - '[[d:shaman#1484581769213903008]]'
+    - '[[d:shaman#1484585519370338428]]'
+    - '[[d:shaman#1484603602315120933]]'
+    era: post-1.18.1
+    agreement: consensus
+    note: 'Full 51-point decode in kb/structured/talents/builds-shaman.yaml (tree_variants 1.18.1). Replaces the pre-1.18.1
+      37/0/14: Convection drops 5->2, Storm Reach 2 is gone and Call of Earth 2 plus Ancestral Knowledge 3 are added; Earthquake
+      and Elemental Mastery coexist on the 1.18.1 grid.'
+    allocation:
+    - tree: Elemental
+      talent: Convection
+      rank: 2
+      spell_id: 16109
+    - tree: Elemental
+      talent: Concussion
+      rank: 5
+      spell_id: 16108
+    - tree: Elemental
+      talent: Elemental Devastation
+      rank: 3
+      spell_id: 29180
+    - tree: Elemental
+      talent: Elemental Focus
+      rank: 1
+      spell_id: 45541
+    - tree: Elemental
+      talent: Call of Thunder
+      rank: 5
+      spell_id: 16120
+    - tree: Elemental
+      talent: Improved Molten Blast
+      rank: 2
+      spell_id: 46108
+    - tree: Elemental
+      talent: Improved Fire Totems
+      rank: 2
+      spell_id: 16544
+    - tree: Elemental
+      talent: Call of Earth
+      rank: 2
+      spell_id: 58239
+    - tree: Elemental
+      talent: Call of Flame
+      rank: 3
+      spell_id: 16161
+    - tree: Elemental
+      talent: Elemental Mastery
+      rank: 1
+      spell_id: 16166
+    - tree: Elemental
+      talent: Elemental Fury
+      rank: 2
+      spell_id: 56557
+    - tree: Elemental
+      talent: Lightning Mastery
+      rank: 5
+      spell_id: 16582
+    - tree: Elemental
+      talent: Earthquake
+      rank: 1
+      spell_id: 48306
+    - tree: Enhancement
+      talent: Ancestral Knowledge
+      rank: 3
+      spell_id: 17487
+    - tree: Restoration
+      talent: Tidal Focus
+      rank: 5
+      spell_id: 16217
+    - tree: Restoration
+      talent: Tidal Mastery
+      rank: 5
+      spell_id: 16221
+    - tree: Restoration
+      talent: Totemic Mastery
+      rank: 1
+      spell_id: 16189
+    - tree: Restoration
+      talent: Nature's Grace
+      rank: 3
+      spell_id: 29191
+  - name: Pre-1.18.1 Elemental raid build -- 37/0/14 (Rinzu)
+    split:
+      Elemental: 37
+      Enhancement: 0
+      Restoration: 14
+    code: FoAYIqQDRCAoB--AoAoAL
+    source: '[[d:shaman#1405793281954283541]]'
+    era: pre-1.18.1
+    agreement: single source
+    note: Occurs 31 times in the channel scan; the shape retired when 1.18.1 added Call of Earth. Allocation in kb/structured/talents/builds-shaman.yaml.
+  - name: Decoded Elemental build corpus
+    count_codes: 974
+    count_complete_51pt: 458
+    note: 'Across all three Turtle link codecs (base-36 path, whole-grid base64, per-tree base64); the per-tree base64 codec
+      uses lowercase letters, which the older base-36 decoder rejects. Canonical codec: staging/talents/talent_codec.py; validated
+      builds: kb/structured/talents/builds-shaman.yaml.'
+    era: mixed
+    agreement: consensus
+  rotation_single:
+  - action: Flame Shock on the boss, then Molten Blast to renew it before it expires, Lightning Bolt filler with Chain Lightning
+      on cooldown (or on Clearcasting at low gear).
+    condition: post-1.18.1 consensus
+    sources:
+    - '[[d:shaman#1485686024334999692]]'
+    - '[[d:shaman#1485686440070479892]]'
+    era: post-1.18.1
+    agreement: consensus
+  - action: Molten Blast stays core in a Nature build; the only claimed exception (5/5 T3.5) is called unproven 'feelscraft'
+      by the channel's Elemental reference.
+    condition: Nature Elemental
+    sources:
+    - '[[d:shaman#1484651546926121022]]'
+    - '[[d:shaman#1484602583149580349]]'
+    era: post-1.18.1
+    agreement: consensus
+  - action: 'Do NOT cast Earthquake single-target post-1.18.1: it hits only twice, its AoE portion crits at 1.5x (ignoring
+      Elemental Fury) and it is less DPS than a Lightning Bolt. The 1.18.0 ''EQ on cooldown even single-target'' advice is
+      superseded.'
+    condition: post-1.18.1
+    sources:
+    - '[[d:shaman#1485686440070479892]]'
+    - '[[d:shaman#1485247956998422560]]'
+    - '[[d:shaman#1485912170666397768]]'
+    - '[[d:shaman#1485285996022202509]]'
+    - '[[d:shaman#1423339091201753272]]'
+    era: mixed
+    agreement: consensus
+  rotation_aoe:
+  - action: Chain Lightning on cooldown with Flame Shock on the longest-lived target.
+    targets_min: 2
+    sources:
+    - '[[d:shaman#1485240088047652894]]'
+    era: post-1.18.1
+    agreement: consensus
+  - action: Run in, drop Fire Nova Totem then Magma Totem; Earthquake only for hard or unreachable packs (and only once the
+      two-hit bug is fixed). Fire Nova is preferred over Magma for up-front damage.
+    targets_min: 4
+    sources:
+    - '[[d:shaman#1486561660150747156]]'
+    - '[[d:shaman#1485321778967613593]]'
+    - '[[d:shaman#1484634982600409128]]'
+    era: post-1.18.1
+    agreement: consensus
+  - action: Fire totems and Molten Blast become comfortable from BWL onward, once fire-immune raid mobs are gone.
+    targets_min: 1
+    sources:
+    - '[[d:shaman#1484650140437450814]]'
+    era: post-1.18.1
+    agreement: single source
+  stat_weights:
+    spell_hit: best per point until capped; the sheet soft cap is ~12-13% because Elemental Devastation's 3% is hidden, '~7%
+      with buffs' per the channel; overcapping is not mandatory (take the better-stat piece).
+    spell_crit: 1 spell crit ~= 9-12 spellpower; 1% spell hit ~= 1.5% spell crit.
+    haste: roughly equal to spell crit until the ~17% single-target softcap.
+    turning_point: after ~12-13% hit and ~500 spellpower, crit turns up in value.
+    budget: pre-raid budget line '1 spell hit / 1 spell crit / 9 sp'.
+    sources:
+    - '[[d:shaman#1458549208826122527]]'
+    - '[[d:shaman#1458549320616902818]]'
+    - '[[d:shaman#1480349135218544810]]'
+    - '[[d:shaman#1480349166218510400]]'
+    - '[[d:shaman#1487834054907920385]]'
+    - '[[d:shaman#1486434725848416427]]'
+    - '[[d:shaman#1480348860923777256]]'
+    - '[[d:shaman#1473908078352138292]]'
+    era: mixed
+    agreement: consensus (equivalences single source)
+  caps:
+    spell_hit_hard: 16-17% (boss level 63)
+    spell_hit_soft: ~12-13% sheet / ~7% with Elemental Devastation buffs; the opener does not benefit from the buff.
+    sources:
+    - '[[d:shaman#1487834054907920385]]'
+    - '[[d:shaman#1486434725848416427]]'
+    - '[[d:shaman#1487877670871236749]]'
+  cooldowns:
+  - name: Elemental Mastery
+    use: 10 s +15% damage / -20% mana, 3-min CD; the community calls it weak (part of the Elemental standing complaints).
+    sources:
+    - '[[d:shaman#1491951590968525032]]'
+    - '[[d:shaman#1485239761512697936]]'
+    era: post-1.18.1
+    agreement: consensus
+  totems:
+  - Fire totems inherit the shaman's spell hit/crit and scale with spell power; Searing Totem requires standing within ~30
+    yd of the boss (also needed for Flame Shock), and Molten Blast re-targets it [[d:shaman#1485260337539317860]], [[d:shaman#1437407581181186079]].
+  - Windfury / Flametongue Totems buff the party only, never the shaman [[d:shaman#1494624498870386748]].
+  - Searing Totem beats Flametongue Totem somewhere between ~300 and 350 total spellpower, and its threat is real [[d:shaman#1462633460689539290]],
+    [[d:shaman#1420041846075297901]].
+  - Improved Stoneskin can beat Elemental Weapons on big AoE pulls [[d:shaman#1484956039773294762]].
+  - 'Elemental BiS relic note: a blue BoE is still the pick post-1.18.1; Totem of the Storm or Totem of Rage over Eruption/Crackling
+    Thunder [[d:shaman#1484917277215293541]], [[d:shaman#1490691308283494580]], [[d:shaman#1488268003257749585]].'
+  consumables:
+  - Concoction of the Arcane Giant and Juju Power no longer stack post-1.18.1 -- do not build a list that assumes they do
+    [[d:shaman#1485348172426510379]], [[d:shaman#1480931235931881594]].
+  gear:
+  - 'Dwi''s Elemental pre-raid / BiS-by-phase sheet (enchants + consumables): https://docs.google.com/spreadsheets/d/10ZknXEpNUiMorP3ZP7o694bLSeXlLpdYLh0D0Ni2UKU/
+    [[d:shaman#1415847279855665204]] (the same sheet the forum KB cites).'
+  - Ash's all-class gear/haste spreadsheet [[d:shaman#1395076937558392832]]; post-1.18.1 craftable hit/crit gloves and trinket
+    swaps [[d:shaman#1484947857185181877]].
+  - Ancient Jade Leggings are a more efficient weapon-skill source than Towerforge [[d:shaman#1491836338562007223]].
+  bugs:
+  - id: BUG-FTTOTEM-SP
+    entity: Flametongue Totem
+    summary: Post-1.18.1 the Flametongue TOTEM (not the weapon) is observed doing far more damage than intended -- the re-added
+      spellpower scaling on the totem aura. Three independent testers; absent from the weekly changelog on 2026-04-15.
+    impact: Party aura only -- the shaman gains nothing from their own FT Totem (imbue priority), but raid group DPS is inflated
+      and fire/spellhance builds are stronger than intended. Still drop it for the party.
+    sources:
+    - '[[d:shaman#1491212453290315776]]'
+    - '[[d:shaman#1491834900951732395]]'
+    - '[[d:shaman#1491207938642280571]]'
+    - '[[d:shaman#1493732358913003640]]'
+    - '[[d:shaman#1493741881442570381]]'
+    - '[[d:shaman#1491486359125496139]]'
+    era: post-1.18.1
+    agreement: consensus
+  - id: BUG-EQ
+    entity:
+    - Earthquake
+    - Elemental Fury
+    summary: Earthquake hits only twice instead of three times and the AoE/Aftershock portion crits at 1.5x (no Elemental
+      Fury). A dev said it was 'getting looked at' but it was unfixed at the 2026-04-15 cutoff.
+    impact: Remove Earthquake from the single-target rotation; keep it only for hard/unreachable packs.
+    sources:
+    - '[[d:shaman#1484634982600409128]]'
+    - '[[d:shaman#1484585846073200661]]'
+    - '[[d:shaman#1485247956998422560]]'
+    - '[[d:shaman#1485637469356429372]]'
+    - '[[d:shaman#1487167028820447493]]'
+    era: post-1.18.1
+    agreement: consensus
+  mistakes_to_avoid:
+  - Casting Earthquake single-target post-1.18.1 [[d:shaman#1485686440070479892]]
+  - Overcapping hit instead of taking a better-stat piece [[d:shaman#1480348860923777256]]
+  - Expecting Windfury/Flametongue Totems to buff yourself [[d:shaman#1494624498870386748]]
+  - Bringing a fire build into MC/Onyxia/BWL fire-immune bosses [[d:shaman#1406978821315498004]]
+  sources:
+  - id: '[[d:shaman#1488646101081788556]]'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: 34/3/14 build
+  - id: '[[d:shaman#1405793281954283541]]'
+    era: pre-1.18.1
+    agreement: single source
+    used_for: 37/0/14 build
+  - id: '[[d:shaman#1485686024334999692]]'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: post-1.18.1 rotation
+  - id: '[[d:shaman#1485686440070479892]]'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: Earthquake removed from ST
+  - id: '[[d:shaman#1484585846073200661]]'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: EQ 1.5x crit
+  - id: '[[d:shaman#1458549320616902818]]'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    used_for: crit/hit stat equivalences
+  - id: '[[d:shaman#1487834054907920385]]'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: soft hit cap
+  - id: '[[d:shaman#1491212453290315776]]'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: Flametongue Totem SP bug
+  - id: '[[d:shaman#1491207938642280571]]'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: FT weapon SP coefficient measurements
+  - id: '[[d:shaman#1493741881442570381]]'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: bug target is the totem
+  - id: '[[d:shaman#1485348172426510379]]'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: consumable non-stacking
 stat_priority:
 - spell-hit
 - spell-crit
@@ -267,78 +663,3 @@ stat_priority_note: 'Consensus order (Skegg''s "hit > crit > spd > int", with ha
   against a level-63 boss — Elemental Devastation gives 3% and the T3 four-set another 3%, which can overcap — then crit,
   which is the mana engine, then haste up to a hard 17% (past that Lightning Bolt is faster than the global cooldown and the
   extra haste does nothing), then spell power and Intellect.'
-caps:
-  spell_hit: 15-17% (boss level 63)
-  haste_softcap: ~17% for single target (Atreidon)
-rotation_single:
-- priority: 1
-  action: 'Pre-pull: Strength of Earth/Windfury/Flametongue for the melee group, Mana Spring, Searing Totem on the boss, Water
-    Shield (mana) or Earth Shield (pushback, boosted by Call of Earth in 1.18.1), Brilliant Wizard Oil'
-  condition: before pull
-- priority: 2
-  action: Flame Shock, snapshotted with trinkets/Elemental Mastery/procs
-  condition: opener; lasts 15 s (+6 s with T2 3-set); reapplying early loses the snapshot
-- priority: 3
-  action: Lightning Bolt filler, Chain Lightning on cooldown when mana allows (3-4 LB per CL depending on haste)
-  condition: single-target filler; CL is marginal single-target without the T2.5 5-set
-- priority: 4
-  action: Molten Blast when Flame Shock has <= 3 s left
-  condition: refresh the DoT just before it expires; refreshing early is a DPS loss; skip entirely with 5/5 T3.5 (it does
-    not refresh the set bonus)
-- priority: 5
-  action: Earthquake on cooldown
-  condition: only if it will not delay the T3.5 haste buff and the target will live > 4 s; post-1.18.1 sources call it worse
-    than a Lightning Bolt
-- priority: 6
-  action: Elemental Mastery on cooldown (3-min CD, 10-s +15% dmg / -20% mana)
-  condition: align with the Flame Shock snapshot and the T3.5 haste proc
-- priority: 7
-  action: Earth Shock (20 yd) or Flame Shock (30 yd with Call of Flame) while moving
-  condition: movement-heavy fights
-- priority: 8
-  action: Molten Blast spam + Flame Shock + Searing/Magma
-  condition: Nature-immune targets (Dragons of Nightmare, Chromaggus/Incantagos)
-rotation_aoe:
-- targets_min: 2
-  priority: 1
-  action: Chain Lightning on cooldown (3 targets, -30% per bounce, +1 target with T2.5 5-set)
-  condition: 2-3 targets
-- targets_min: 2
-  priority: 2
-  action: Flame Shock on the longest-lived target, Lightning Bolt filler
-  condition: 2-3 targets
-- targets_min: 4
-  priority: 1
-  action: Run in and drop Fire Nova Totem, then Magma Totem
-  condition: 4+ targets, melee range reachable
-- targets_min: 4
-  priority: 2
-  action: Earthquake for hard packs or unreachable packs
-  condition: primary target must not die early, leave the pack, or resist (0 damage on resist)
-aoe_threshold: 4
-cooldowns:
-- name: Elemental Mastery
-  use_when: 3-min CD, on cooldown, aligned with Flame Shock snapshot / T3.5 haste window
-- name: Ancestral Swiftness (if Resto points taken)
-  use_when: emergency instant heal, or an instant Chain Lightning at -25% damage (mostly PvP)
-resource_rules:
-- Water Shield by default; Mana Spring, potions and tea sustain even long fights without Water Shield once geared
-- Being oom after a fight is not an issue; being oom in a fight is (Atreidon)
-- In low gear, use a lot of potions and tea; expect to drink heavily while leveling
-- Drink after every pack in dungeons
-consumables:
-- Major Healing Potion / Potion of Quickness, Flask of Supreme Power, Elixir of Greater Nature Power, Greater Firepower, Greater
-  Arcane Elixir, Dreamshard Elixir, Dreamtonic, Elixir of the Sage, Danonzo's Tel'Abim Delight, Spirit of Zanza, Cerebral
-  Cortex Compound, Juju Ember, Juju Flurry, Rumsey Rum/Medivh's Merlot Blue, Whipper Root Tuber, Brilliant Wizard Oil
-- Nordanaar Herbal Tea + Major Mana Potion on cooldown
-mistakes_to_avoid:
-- Letting Flame Shock drop and reapplying an unsnapshotted DoT, or refreshing it early with Molten Blast
-- Casting Earthquake on a target that will die or move, or at all in most 1.18.1 AoE situations
-- Spamming Chain Lightning in bad gear and going oom mid-fight
-- Overcapping hit (8/8 T3 + Elemental Devastation) or overcapping haste past ~17% with T3.5
-- Using Searing Totem near CC or patrols
-- Relying on the old Eye of the Storm instead of Earth Shield / Call of Earth on pushback-heavy fights
-- Playing Fire Elemental into MC/Onyxia/BWL fire-immune or fire-resistant bosses
-- Casting Molten Blast while wearing 5/5 T3.5 (it does not refresh the set bonus)
-- Casting from outside 20 yd on movement fights so no shock is available
-- Expecting Windfury/Flametongue totems to buff yourself -- they buff the party only

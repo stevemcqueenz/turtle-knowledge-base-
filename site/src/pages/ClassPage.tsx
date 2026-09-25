@@ -49,6 +49,7 @@ export function ClassPage({ slug }: { slug: string }) {
       });
     }
     if (hasGear(entry)) items.push({ id: 'gear', label: 'Gear', target: 'gear' });
+    if (entry.sources) items.push({ id: 'sources', label: 'Sources', target: 'sources' });
     return items;
   }, [entry, roles]);
 
@@ -87,7 +88,18 @@ export function ClassPage({ slug }: { slug: string }) {
   };
 
   const gaps = entry.gaps;
-  const otherSections = entry.readme.filter((s) => !INTERNAL_SECTION.test(s.heading) && !/gap/i.test(s.heading));
+  const fromGuide = !!entry.guidePath;
+  // A guide index is all player-facing; only the sections shown in their own
+  // panels (1.18.1 changes, gaps) are left out. A synthesis README also carries
+  // notes about its source files, which stay off the page.
+  const guideSections = fromGuide
+    ? entry.readme.filter((s) => s.markdown !== entry.patchChanges && s.markdown !== gaps)
+    : [];
+  const otherSections = fromGuide
+    ? []
+    : entry.readme.filter((s) => !INTERNAL_SECTION.test(s.heading) && !/gap/i.test(s.heading));
+  const guidePages = entry.guidePages ?? [];
+  const cardCount = (entry.leveling ? 1 : 0) + (hasGear(entry) ? 1 : 0) + (entry.sources ? 1 : 0);
 
   return (
     <>
@@ -133,6 +145,15 @@ export function ClassPage({ slug }: { slug: string }) {
       </div>
 
       <div className="mx-auto flex max-w-6xl flex-col gap-10 px-3 py-8 sm:px-5">
+        {entry.overview ? (
+          <section aria-labelledby="class-overview" className="card p-5">
+            <h2 id="class-overview" className="sr-only">
+              Overview
+            </h2>
+            <Markdown source={entry.overview} />
+          </section>
+        ) : null}
+
         <section aria-labelledby="pick-a-role">
           <div className="mb-4 flex flex-wrap items-baseline gap-x-3.5 gap-y-1">
             <h2 id="pick-a-role" className="text-xl font-extrabold sm:text-[22px]">
@@ -168,8 +189,31 @@ export function ClassPage({ slug }: { slug: string }) {
           )}
         </section>
 
-        {entry.leveling || hasGear(entry) ? (
-          <div className="grid items-start gap-4 sm:grid-cols-2">
+        {guideSections.length > 0 || guidePages.length > 0 ? (
+          <section aria-labelledby="class-guide" className="flex flex-col gap-2">
+            <h2 id="class-guide" className="text-xl font-extrabold sm:text-[22px]">
+              The {entry.name} guide
+            </h2>
+            {guideSections.map((s) => (
+              <Collapsible key={s.id} title={s.heading}>
+                <Markdown source={s.markdown} />
+              </Collapsible>
+            ))}
+            {guidePages.map((doc) => (
+              <a
+                key={doc.slug}
+                href={href.guidePage(entry.slug, doc.slug)}
+                className="card flex items-center gap-2 p-4 font-semibold hover:border-[color:rgb(var(--c-accent)/0.5)]"
+              >
+                <span className="flex-1">{doc.title}</span>
+                <ChevronRightIcon />
+              </a>
+            ))}
+          </section>
+        ) : null}
+
+        {cardCount > 0 ? (
+          <div className={`grid items-start gap-4 sm:grid-cols-2 ${cardCount === 3 ? 'lg:grid-cols-3' : ''}`}>
             {entry.leveling ? (
               <section id="leveling" className="card flex scroll-mt-24 flex-col gap-3 p-5">
                 <h2 className="text-base font-bold">Leveling 1–60</h2>
@@ -199,6 +243,24 @@ export function ClassPage({ slug }: { slug: string }) {
                   className="mt-auto inline-flex items-center gap-1 self-start text-sm font-semibold text-[rgb(var(--c-accent))] hover:underline"
                 >
                   Open the gear guide <ChevronRightIcon />
+                </a>
+              </section>
+            ) : null}
+            {entry.sources ? (
+              <section id="sources" className="card flex scroll-mt-24 flex-col gap-3 p-5">
+                <h2 className="text-base font-bold">Sources</h2>
+                <ul className="flex flex-wrap gap-1.5">
+                  {entry.sources.sections.map((s) => (
+                    <li key={s.id} className="chip hairline bg-surface2 text-xs text-muted">
+                      {s.heading}
+                    </li>
+                  ))}
+                </ul>
+                <a
+                  href={href.sources(entry.slug)}
+                  className="mt-auto inline-flex items-center gap-1 self-start text-sm font-semibold text-[rgb(var(--c-accent))] hover:underline"
+                >
+                  What these guides are built on <ChevronRightIcon />
                 </a>
               </section>
             ) : null}

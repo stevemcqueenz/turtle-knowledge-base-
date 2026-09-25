@@ -37,6 +37,10 @@ export function standingRank(standing: string | null | undefined): number {
 /** Markdown to plain text: link text without the target, no emphasis marks. */
 export function stripMarkdown(text: string): string {
   return String(text)
+    // Discord citation chips are inline HTML: dropped from plain one-liners
+    .replace(/<(a|span) class="cite[^"]*"[^>]*>[^<]*<\/\1>/g, '')
+    .replace(/<[^>]+>/g, '')
+    .replace(/\s+([,.;:])/g, '$1')
     .replace(/!\[([^\]]*)\]\([^)]*\)/g, '$1')
     .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
     .replace(/`([^`]*)`/g, '$1')
@@ -182,6 +186,11 @@ const PROVENANCE =
  * provenance — the favoured picks straight from the matrix.
  */
 export function classOneLiner(entry: ClassEntry): string {
+  // A guide index opens with its player-facing recommendation: no provenance to skip.
+  if (entry.guidePath && entry.summary) {
+    const line = firstSentence(entry.summary, 240);
+    if (line.length > 24) return line;
+  }
   const sentences = stripMarkdown(entry.summary ?? '')
     .split(/(?<=[.!?])\s+(?=[A-Z(“"])/)
     .map((s) => s.trim())

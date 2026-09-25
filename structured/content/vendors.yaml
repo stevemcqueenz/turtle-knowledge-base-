@@ -8,6 +8,43 @@ caveats:
 - One in-game coordinate pair exists in the entire extraction (Stickypaws, Gilneas ~50,39); every other location is a named sub-zone.
 - level/faction in the wiki roster are infobox values and are not always internally consistent.
 - Several recipe vendors carry limited stock and are reported as camped around the clock, so the item may not be on the shelf.
+discord_enrichment:
+  channel: turtle-wiki
+  note: >-
+    Vendor/trainer findings from the archived #turtle-wiki Discord. Era: pre-1.18.1 |
+    1.18.1-announced-pre-release | post-1.18.1; agreement: consensus | single source | contested.
+  service_npcs:
+  - npc: Magistrix Ishalah
+    role: Mage portal trainer
+    hub: Alah'Thalas (via the Translocator Orb above the hunter trainers)
+    zone: Thalassian Highlands
+    era: pre-1.18.1
+    authority: player
+    agreement: single source
+    sources:
+    - '[[d:turtle-wiki#1305945437571907656]]'
+  vendors_with_stated_inventory:
+  - npc: Gilneas boot-enchant vendor (name not given)
+    role: enchant vendor
+    hub: Gilneas
+    inventory:
+    - item: Vampirism (boot enchant)
+      note: the enchant he sells also drops from the last boss of Gilneas City
+    era: pre-1.18.1
+    authority: guide writer
+    agreement: single source
+    sources:
+    - '[[d:turtle-wiki#1166800531885400134]]'
+  tooling_notes:
+  - claim: >-
+      For loot look-ups (Jewelcrafting gemstones, custom boss drops) players point at the
+      AtlasLoot Turtle fork as the practical source, not the wiki or database.
+    era: pre-1.18.1
+    authority: player
+    agreement: single source
+    sources:
+    - '[[d:turtle-wiki#1385243025638297731]]'
+    - '[[d:turtle-wiki#1351907901970841721]]'
 vendors_from_wiki_roster:
 - npc: Blood Ring Gladiator
   level: '30'

@@ -1,55 +1,450 @@
 class: Druid
 spec: Feral
 role: pvp
+guide: guide/classes/druid/pvp.md
 sources:
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=74040#p74040", author: Jstansberry, authority: player, date: "2023-10-26"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=75762#p75762", author: Gantulga, authority: player, date: "2023-11-03"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=73796#p73796", author: Manletow, authority: player, date: "2023-10-25"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=76016#p76016", author: Mackylol, authority: player, date: "2023-11-05"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=95356#p95356", author: Grizb37, authority: player, date: "2024-05-21"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=107713#p107713", author: Xfraz, authority: player, date: "2024-11-12"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=165799#p165799", author: amanagor, authority: player, date: "2026-01-21"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=84932#p84932", author: Zahnfee, authority: player, date: "2024-01-16"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=84979#p84979", author: Holyhorrorr, authority: player, date: "2024-01-17"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=84993#p84993", author: Springboards, authority: player, date: "2024-01-17"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=85018#p85018", author: Grizb37, authority: player, date: "2024-01-17"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171992#p171992", author: Wosator, authority: player, date: "2026-03-23"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171995#p171995", author: Grizb37, authority: player, date: "2026-03-23"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=172071#p172071", author: shadowchaos, authority: player, date: "2026-03-24"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=74040#p74040
+  author: Jstansberry
+  authority: player
+  date: '2023-10-26'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=75762#p75762
+  author: Gantulga
+  authority: player
+  date: '2023-11-03'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=73796#p73796
+  author: Manletow
+  authority: player
+  date: '2023-10-25'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=76016#p76016
+  author: Mackylol
+  authority: player
+  date: '2023-11-05'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=95356#p95356
+  author: Grizb37
+  authority: player
+  date: '2024-05-21'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=107713#p107713
+  author: Xfraz
+  authority: player
+  date: '2024-11-12'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=165799#p165799
+  author: amanagor
+  authority: player
+  date: '2026-01-21'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=84932#p84932
+  author: Zahnfee
+  authority: player
+  date: '2024-01-16'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=84979#p84979
+  author: Holyhorrorr
+  authority: player
+  date: '2024-01-17'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=84993#p84993
+  author: Springboards
+  authority: player
+  date: '2024-01-17'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=85018#p85018
+  author: Grizb37
+  authority: player
+  date: '2024-01-17'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=171992#p171992
+  author: Wosator
+  authority: player
+  date: '2026-03-23'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=171995#p171995
+  author: Grizb37
+  authority: player
+  date: '2026-03-23'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=172071#p172071
+  author: shadowchaos
+  authority: player
+  date: '2026-03-24'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  author: Jamey
+  authority: staff
+  date: '2026-01-23'
+- cite: '[[d:druid#1484166780493758544]]'
+  author: Ecly
+  authority: player (PvP)
+  date: '2026-03-19'
+  era: 1.18.1-announced-pre-release
+  agreement: single source
+- cite: '[[d:druid#1473021901327827187]]'
+  author: GolgothaTheGreen
+  authority: player
+  date: '2026-02-16'
+  era: 1.18.1-announced-pre-release
+  agreement: single source
+- cite: '[[d:druid#1487165021715697816]]'
+  author: Shardphoenix
+  authority: player
+  date: '2026-03-28'
+  era: post-1.18.1
+  agreement: consensus
 agreement: contested
 patch_validity:
-  written_for: "2024-01 talent build (pre-Class-Changes-2, superseded); tactical toolkit description assumed durable through 1.18.1"
+  written_for: 2024-01 talent build (pre-Class-Changes-2, superseded); tactical toolkit description assumed durable through
+    1.18.1
   valid_for_1181: unknown
-  notes: "The one full talent build link uses the pre-CC2 talents.turtlecraft.gg URL format and is explicitly superseded. Post-1.18.1, Bear-form offense is reported gutted by cumulative Savage Bite nerfs; no post-1.18.1 Cat-PvP-specific build found."
+  notes: 'The forum''s one full build link uses the pre-CC2 URL format and is superseded; Discord supplies two 2025-era feral
+    PvP links (Zotnar 11/33/5, Moreg 15/13/23) but NO endorsed post-1.18.1 point list. Bear-form offense is reported gutted
+    by cumulative Savage Bite/Frenzied Regeneration nerfs; the new 1.18.1 PvP set became PvE threat BiS, which is contested.
+    Feral power level is contested: pre-CC2 strong/outlast, 2025-2026 complaints dominate, one post-1.18.1 voice still calls
+    it ''strong if played right'' [[d:druid#1473021122361692334]].'
+discord:
+  channel: druid
+  scope: feral PvP builds, whole-kit loop, shapeshift/consumable rules, flag carrying, matchups, 1.18.1 PvP gear
+  sources:
+  - id: '1336006691992371221'
+    era: pre-1.18.1
+    agreement: consensus
+    claim: 'Feral PvP is not a pure-cat spec: use the whole toolkit (cat opener, Bear under burst, caster heals); ''pure cat
+      gets obliterated, next to worthless'' [[d:druid#1357153915191296031]] [[d:druid#1349843423158341736]] [[d:druid#1402312193797652563]]'
+  - id: '1397940565500231690'
+    era: pre-1.18.1
+    agreement: single source
+    claim: Zotnar's open-world/BG build decodes to Balance 11 / Feral 33 / Restoration 5 (Brutal Impact 2, Feral Instinct
+      3, Feral Charge 1)
+  - id: '1406003536923332760'
+    era: pre-1.18.1
+    agreement: single source
+    claim: Moreg's 1.18.0 '14/14/23 equivalent' PvP build decodes to Balance 15 / Feral 13 / Restoration 23 (Furor 5, Improved
+      Healing Touch 5, Gift of Nature 5, Swiftmend/NS) [[d:druid#1406004729624006797]]
+  - id: '1406166500393484289'
+    era: pre-1.18.1
+    agreement: contested
+    claim: 'Nature''s Grasp removed from Bear Form: players call it a gutting (''I have to shift out of bear and let the warrior
+      smack me to root him''); staff (Jamey) defends it for ''parity of forms'' and calls it ''incredibly potent in PvP''
+      [[d:druid#1408273595691565117]] [[d:druid#1380593130079781028]] [[d:druid#1380595895686529095]]'
+  - id: '1388277425971921008'
+    era: pre-1.18.1
+    agreement: consensus
+    claim: Grenades/Sappers cannot be used in Cat/Bear even after 1.17.2 enabled consumables in forms; reflectors/nets/Insignia
+      trinkets DO work in form, so shift out (or open caster) to bomb [[d:druid#1388298378588324012]] [[d:druid#1399852314168393790]]
+  - id: '1304850966314618922'
+    era: pre-1.18.1
+    agreement: consensus
+    claim: Druid PvP trinket forced the druid out of form post-CC2 (reported fixed 2025-03-19) [[d:druid#1351679886565183528]]
+  - id: '1402317105650733229'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    claim: Flash Bomb (10s fear, 1min CD, does not break on damage) is a feral-specific hard counter when the trinket is down;
+      'bear is a punching bag that does no damage'
+  - id: '1328807349040975996'
+    era: pre-1.18.1
+    agreement: consensus
+    claim: Swift Travel Form cannot carry the WSG flag and takes no PvP-set/mount-speed bonus; carriers must use normal Travel
+      Form [[d:druid#1313448266460954686]]
+  - id: '1199447134626394173'
+    era: mixed
+    agreement: consensus
+    claim: Druid is 'by far the best WSG flag carrier'; flag-shifting clears roots/slows and keeps the carrier moving [[d:druid#1099079358058078319]]
+      [[d:druid#1473021122361692334]]
+  - id: '1345072608282017823'
+    era: pre-1.18.1
+    agreement: contested
+    claim: 'Speed stacking contested: ''form speed not stacks with anything except the pvp speed bonus'' vs the PvP set bonus
+      stacking with everything; practical consensus is 3/4-piece PvP set + minor boot speed [[d:druid#1316795367366590474]]
+      [[d:druid#1344247088527052820]]'
+  - id: '1391083161106120946'
+    era: pre-1.18.1
+    agreement: consensus
+    claim: Engineering is 'bis for pvp' / 'the meta for pvp'; War Stomp into grenade while creating distance; First Aid for
+      oom moments [[d:druid#1416799210728067268]]
+  - id: '1487165021715697816'
+    era: pre-1.18.1
+    agreement: contested
+    claim: 'Feral is weakest vs plate/healer hybrids and burst casters: Paladins and Shamans ''near impossible to kill'' /
+      ''eat druids for breakfast'' [[d:druid#1402317105650733229]]; Cat is strong vs light-armor casters if it stays on them'
+  - id: '1487935338197291078'
+    era: post-1.18.1
+    agreement: contested
+    claim: The new 1.18.1 feral PvP set became PvE threat BiS ('only costs 85k honor and 3.5k conquest'); called 'unhealthy
+      to have pve bis come from pvp' [[d:druid#1487969266769727612]]
+  - id: '1482116247696183336'
+    era: post-1.18.1
+    agreement: consensus
+    claim: Tauren is the PvP-minmax race (War Stomp + stamina); War Stomp -> Entangling Roots -> Travel Form is the named
+      play
+  - id: '1491538510492995816'
+    era: post-1.18.1
+    agreement: consensus
+    claim: PvP Dampening became class/spec-dependent in 1.18.1 (staff confirm); exact druid values unpublished [[d:druid#1487907149618348213]]
+  - id: '1482736105634791637'
+    era: pre-1.18.1
+    agreement: contested
+    claim: 'PvP hit caps stated inconsistently: melee 5% [[d:druid#1350792370085564456]] vs spell 3% vs ''Natural Weapons
+      covers it'' [[d:druid#1283031488895647767]]; keep all three labelled'
 talents:
-  build_name: "Zahnfee's 'unkillable' build (2024, pre-CC2, superseded — do not use as-is)"
-  build_link: "https://talents.turtlecraft.gg/druid/P23I6-U2I6-5X36JU"
-  points: []
+  build_name: Feral PvP 11/35/5 (Feral Charge, Feral Swiftness, Open Wounds, Carnage for arena)
+  build_link: https://talents.turtlecraft.gg/druid?points=BSAaAI-FAYDRaDQQIFQB-Ao
+  build_link_note: 'Assembled from posted advice, no endorsed list: Carnage for arena / Improved Shred for BGs [[d:druid#1484166780493758544]],
+    Open Wounds because you cannot always Shred [[d:druid#1489996394122055802]], Heart of the Wild + Feral Swiftness essentials
+    (forum Grizb37 p85018). Same allocation as Hassle''s leveling build [[d:druid#1491170592823709807]]. Validated with talent_tool.py.'
+  points:
+  - tree: Balance
+    talent: Nature's Grasp
+    rank: 1
+    spell_id: 16689
+  - tree: Balance
+    talent: Improved Nature's Grasp
+    rank: 2
+    spell_id: 17247
+  - tree: Balance
+    talent: Sylvan Blessing
+    rank: 2
+    spell_id: 51422
+  - tree: Balance
+    talent: Natural Weapons
+    rank: 3
+    spell_id: 45717
+  - tree: Balance
+    talent: Natural Shapeshifter
+    rank: 2
+    spell_id: 16834
+  - tree: Balance
+    talent: Omen of Clarity
+    rank: 1
+    spell_id: 16864
+  - tree: Feral Combat
+    talent: Ferocity
+    rank: 5
+    spell_id: 16938
+  - tree: Feral Combat
+    talent: Feral Instinct
+    rank: 3
+    spell_id: 16949
+  - tree: Feral Combat
+    talent: Open Wounds
+    rank: 3
+    spell_id: 51404
+  - tree: Feral Combat
+    talent: Feral Swiftness
+    rank: 2
+    spell_id: 24866
+  - tree: Feral Combat
+    talent: Feral Charge
+    rank: 1
+    spell_id: 16979
+  - tree: Feral Combat
+    talent: Sharpened Claws
+    rank: 3
+    spell_id: 16944
+  - tree: Feral Combat
+    talent: Primal Fury
+    rank: 2
+    spell_id: 45720
+  - tree: Feral Combat
+    talent: Predatory Strikes
+    rank: 3
+    spell_id: 16975
+  - tree: Feral Combat
+    talent: Blood Frenzy
+    rank: 2
+    spell_id: 45722
+  - tree: Feral Combat
+    talent: Ancient Brutality
+    rank: 2
+    spell_id: 51416
+  - tree: Feral Combat
+    talent: Berserk
+    rank: 1
+    spell_id: 45708
+  - tree: Feral Combat
+    talent: Heart of the Wild
+    rank: 5
+    spell_id: 24894
+  - tree: Feral Combat
+    talent: Carnage
+    rank: 2
+    spell_id: 16999
+  - tree: Feral Combat
+    talent: Leader of the Pack
+    rank: 1
+    spell_id: 17007
+  - tree: Restoration
+    talent: Furor
+    rank: 5
+    spell_id: 17061
+  alternative_points:
+  - build_name: 'BG: Improved Shred instead of Carnage'
+    note: '[[d:druid#1484166780493758544]]'
+    code: BSAaAI-FAYDRaDSQIFAB-Ao
+    split: 11/35/5
+    points:
+    - tree: Balance
+      talent: Nature's Grasp
+      rank: 1
+      spell_id: 16689
+    - tree: Balance
+      talent: Improved Nature's Grasp
+      rank: 2
+      spell_id: 17247
+    - tree: Balance
+      talent: Sylvan Blessing
+      rank: 2
+      spell_id: 51422
+    - tree: Balance
+      talent: Natural Weapons
+      rank: 3
+      spell_id: 45717
+    - tree: Balance
+      talent: Natural Shapeshifter
+      rank: 2
+      spell_id: 16834
+    - tree: Balance
+      talent: Omen of Clarity
+      rank: 1
+      spell_id: 16864
+    - tree: Feral Combat
+      talent: Ferocity
+      rank: 5
+      spell_id: 16938
+    - tree: Feral Combat
+      talent: Feral Instinct
+      rank: 3
+      spell_id: 16949
+    - tree: Feral Combat
+      talent: Open Wounds
+      rank: 3
+      spell_id: 51404
+    - tree: Feral Combat
+      talent: Feral Swiftness
+      rank: 2
+      spell_id: 24866
+    - tree: Feral Combat
+      talent: Feral Charge
+      rank: 1
+      spell_id: 16979
+    - tree: Feral Combat
+      talent: Sharpened Claws
+      rank: 3
+      spell_id: 16944
+    - tree: Feral Combat
+      talent: Primal Fury
+      rank: 2
+      spell_id: 45720
+    - tree: Feral Combat
+      talent: Predatory Strikes
+      rank: 3
+      spell_id: 16975
+    - tree: Feral Combat
+      talent: Blood Frenzy
+      rank: 2
+      spell_id: 45722
+    - tree: Feral Combat
+      talent: Improved Shred
+      rank: 2
+      spell_id: 16968
+    - tree: Feral Combat
+      talent: Ancient Brutality
+      rank: 2
+      spell_id: 51416
+    - tree: Feral Combat
+      talent: Berserk
+      rank: 1
+      spell_id: 45708
+    - tree: Feral Combat
+      talent: Heart of the Wild
+      rank: 5
+      spell_id: 24894
+    - tree: Feral Combat
+      talent: Leader of the Pack
+      rank: 1
+      spell_id: 17007
+    - tree: Restoration
+      talent: Furor
+      rank: 5
+      spell_id: 17061
   leveling_order: []
+  build_code_b36: 1E0K1-UI3DKK2BD-5
+  split: 11/35/5
+  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=druid&t=0122003201-503003213232021521-05
+  build_link_tortoise_note: 'Generated from the sourced points list (51 points: Balance 11, Feral Combat 35, Restoration 5);
+    the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
 stat_weights:
-  heart_of_the_wild: "treated as essential for PvP HP/mana pool (single source)"
-  feral_swiftness: "treated as essential for PvP cat-form mobility (single source)"
-caps: {}
+  heart_of_the_wild: treated as essential for PvP HP/mana pool (single source); present in both 2025 Discord links
+  feral_swiftness: treated as essential for PvP cat-form mobility (single source)
+  agility: valued partly for dodge on top of damage/crit (vs Strength's raw damage); heavy-Agility builds still report sitting
+    in Bear ~90% of fights in the burst meta [[d:druid#1397239446323073077]]
+  pvp_hit: contested - melee 5%, spell 3%, or Natural Weapons covers it (list all three) [[d:druid#1350792370085564456]] [[d:druid#1482736105634791637]]
+    [[d:druid#1283031488895647767]]
+caps:
+  pvp_hit_melee: 5% is the safer melee number; the PvE-to-8% change only removed boss hit suppression [[d:druid#1350792370085564456]]
+  pvp_spell_hit: 3% PvP spell cap [[d:druid#1482736105634791637]]; with Natural Weapons, effectively 0 needed [[d:druid#1283031488895647767]]
+  speed_breakpoint: 3/4-piece PvP set bonus lifts Travel Form ~30% -> ~55-60%; treated as mandatory for flag carrying [[d:druid#1348208499779178497]]
 rotation_single:
-  - {priority: 1, action: "Pounce or Ravage from stealth", condition: "opener"}
-  - {priority: 2, action: "HoTs (Rejuvenation/Regrowth) + Innervate", condition: "sustain loop against non-burst opponents"}
-  - {priority: 3, action: "Feral Charge", condition: "interrupt a casting opponent, proactively not just defensively"}
-  - {priority: 4, action: "shift to Bear Form", condition: "surviving burst; apply Demoralizing Roar, re-engage once healed"}
-rotation_aoe: []
-aoe_threshold: null
+- priority: 0
+  action: 'Opener: Prowl -> Pounce -> Rake -> Rip (bleeds ignore armor); never Pounce a mage'
+  source: '[[d:druid#1428755592671137895]] [[d:pvp-general#1380875640907235431]]'
+- priority: 1
+  action: get target past 50% before stun ends, then Bear to finish, or Bash and return to Cat to Shred
+  condition: stun window
+  source: '[[d:druid#1473021901327827187]]'
+- priority: 2
+  action: Bear Form
+  condition: stunned/focused by melee; vs rogue opener
+  source: '[[d:druid#1428742043164872824]]'
+- priority: 3
+  action: Bash -> Omen Regrowth + Rejuvenation
+  condition: need heals
+  source: '[[d:druid#1248739088060907644]]'
+- priority: 4
+  action: Reshift / shift
+  condition: rooted or snared
+  source: '[[d:druid#1459797275575587023]]'
+- priority: 5
+  action: PvP trinket
+  condition: Kidney Shot, not the opener
+  source: '[[d:druid#1402317105650733229]]'
+rotation_aoe:
+- targets_min: 2
+  priority: 1
+  action: Bear Form Swipe
+  condition: add packs; cat has no AoE
+aoe_threshold: 2
 cooldowns:
-  - {name: "Feral Charge", use_when: "interrupt/gap-close against casters, ~15s cooldown pre-CC2"}
-  - {name: "Bear Form", use_when: "panic-button survival and objective holding (flag carrying/point defense), not offense post-1.18.1 per sources"}
-  - {name: "Frenzied Regeneration", use_when: "when focused; reported healing ~25% health with full rage post-Class-Changes-2; manage rage carefully so Maul/Bash aren't starved"}
+- name: Feral Charge
+  use_when: interrupt/gap-close against casters, ~15s cooldown pre-CC2
+- name: Bash
+  use_when: stun to set up burst or interrupt; Brutal Impact 2 extends it
+- name: Frenzied Regeneration
+  use_when: when focused; ~25% health with full rage post-CC2 (heavily reduced from the old deep-feral survival tool) [[d:druid#1337148085423444059]]
+- name: Berserk
+  use_when: burst window after the Bear stun is trinketed; returns to Cat
+- name: PvP trinket (Insignia)
+  use_when: universal all-CC break on a 3-min CD; must be used in form (post-2025 bugfix) [[d:druid#1248739088060907644]]
 resource_rules:
-  - "Shift form to clear poisons/curses/magic debuffs (form-shift dispel)"
-  - "Shift in and out of forms specifically to shake movement-impairing snares while flag-carrying"
-consumables: []
+- Shift form to clear poisons/curses/magic debuffs (form-shift dispel)
+- Shift in and out of forms specifically to shake movement-impairing snares while flag-carrying
+- Use the same 'Reshift' button as PvE for snare-breaks and powershifting [[d:druid#1412742288324563064]]
+consumables:
+- 'Engineering: grenades/Sapper require shifting out (or opening caster); reflectors, nets, Insignia work in form [[d:druid#1388277425971921008]]'
+- 'Defensive list: Greater <element> Protection Potions, Free Action Potion, Limited Invulnerability Potion, Magic Resistance
+  Potion, Elixir of Fortitude, Juju Chill/Ember, Spirit of Zanza; bears add Greater Stoneshield, Elixir of Superior Defense,
+  Hardened Mushroom'
+- 'Stealth detection to spot Rogues: Catseye Ultra Goggles +18, Catseye Elixir +10, PvP gloves +10, plus a friendly Warlock''s
+  Paranoia +30 [[d:druid#1082697299085512795]]'
 mistakes_to_avoid:
-  - "Relying on the pre-CC2 build/power-level expectations"
-  - "Trying to out-damage burst classes instead of using the CC-break/heal/disengage loop"
-  - "Neglecting Heart of the Wild and Feral Swiftness in a PvP build"
-  - "Expecting Bear Form to carry offense post-1.18.1"
-  - "Sitting in Bear Form expecting to kill an opponent rather than survive/hold an objective"
-  - "Dumping all rage into Frenzied Regeneration when Maul/Bash still need it"
+- Pouncing a mage [[d:pvp-general#1380875640907235431]]
+- Staying in Cat vs melee [[d:druid#1428742043164872824]]
+- Expecting burst; druids win by attrition [[d:druid#1491929130952954148]]
+- Carrying the WSG flag in Swift Travel Form (not allowed) [[d:druid#1328807349040975996]]
+- Dropping the 4-piece PvP set speed bonus [[d:druid#1477449069327810591]]
+supersedes:
+- claim: Zahnfee's 'unkillable' 2024 build is usable (forum)
+  verdict: Pre-CC2 and superseded; use the 2025 Zotnar/Moreg links instead (still no post-1.18.1 endorsed build)
+  sources:
+  - '[[d:druid#1397940565500231690]]'
+- claim: Nature's Grasp works in Bear Form
+  verdict: Removed (players contest, staff defend for 'parity of forms'); must shift out to root
+  sources:
+  - '[[d:druid#1406166500393484289]]'
+- claim: Druid PvP trinket leaves you in form
+  verdict: Post-CC2 it shifted you out (bug), reported fixed 2025-03-19
+  sources:
+  - '[[d:druid#1304850966314618922]]'
+gaps:
+- No endorsed post-1.18.1 feral PvP point list
+- 'No Hunter matchup tactic found (gap in both #druid and #pvp-general)'
+- No working feral counterplay vs Shaman/Paladin

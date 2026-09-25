@@ -1,4 +1,5 @@
 import { CardLabel } from './GuideSection';
+import { CitedText } from '../CitedText';
 
 /** The opener as an arrow chain of button presses. */
 export function OpenerChain({ steps, condition, color }: { steps: string[]; condition?: string; color: string }) {
@@ -18,12 +19,16 @@ export function OpenerChain({ steps, condition, color }: { steps: string[]; cond
               className="rounded-xl px-3 py-2 text-sm font-semibold"
               style={{ backgroundColor: `${color}26`, border: `1px solid ${color}66` }}
             >
-              {step}
+              <CitedText text={step} />
             </span>
           </li>
         ))}
       </ol>
-      {condition ? <p className="text-xs text-muted">{condition}</p> : null}
+      {condition ? (
+        <p className="text-xs text-muted">
+          <CitedText text={condition} />
+        </p>
+      ) : null}
     </div>
   );
 }

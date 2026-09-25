@@ -1,57 +1,320 @@
 class: Mage
 spec: Arcane
 role: pvp
+guide: guide/classes/mage/pvp.md
 sources:
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460", author: Jamey, authority: staff, date: "2024-12-20"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504", author: Torta, authority: staff, date: "2025-03-30"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=122357#p122357", author: Likaleo, authority: player, date: "2025-03-12"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=158193#p158193", author: Cheruscan, authority: player, date: "2025-11-03"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=162458#p162458", author: Terrydavis, authority: player, date: "2025-12-11"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=167923#p167923", author: Eluaria, authority: player, date: "2026-02-11"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=107344#p107344", author: Manletow, authority: player, date: "2024-11-10"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=134850#p134850", author: Forumdweller, authority: player, date: "2025-06-09"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=134966#p134966", author: Halfgeek9, authority: player, date: "2025-06-10"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=107372#p107372", author: Kibuum, authority: player, date: "2024-11-10"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=114805#p114805", author: Bahamutxd, authority: player, date: "2024-12-30"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=135012#p135012", author: Atreidon, authority: player, date: "2025-06-10"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=114456#p114456", author: Boeuff, authority: player, date: "2024-12-27"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=134977#p134977", author: Laysson, authority: player, date: "2025-06-10"}
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460
+  author: Jamey
+  authority: staff
+  date: '2024-12-20'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504
+  author: Torta
+  authority: staff
+  date: '2025-03-30'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  author: Jamey
+  authority: staff
+  date: '2026-01-23'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=122357#p122357
+  author: Likaleo
+  authority: player
+  date: '2025-03-12'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=158193#p158193
+  author: Cheruscan
+  authority: player
+  date: '2025-11-03'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=162458#p162458
+  author: Terrydavis
+  authority: player
+  date: '2025-12-11'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=167923#p167923
+  author: Eluaria
+  authority: player
+  date: '2026-02-11'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=107344#p107344
+  author: Manletow
+  authority: player
+  date: '2024-11-10'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=134850#p134850
+  author: Forumdweller
+  authority: player
+  date: '2025-06-09'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=134966#p134966
+  author: Halfgeek9
+  authority: player
+  date: '2025-06-10'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=107372#p107372
+  author: Kibuum
+  authority: player
+  date: '2024-11-10'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=114805#p114805
+  author: Bahamutxd
+  authority: player
+  date: '2024-12-30'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=135012#p135012
+  author: Atreidon
+  authority: player
+  date: '2025-06-10'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=114456#p114456
+  author: Boeuff
+  authority: player
+  date: '2024-12-27'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=134977#p134977
+  author: Laysson
+  authority: player
+  date: '2025-06-10'
+- cite: '[[d:mage#1446958520300994600]]'
+  author: Nobo
+  authority: player
+  date: '2025-12-07'
+  era: 1.18.1-announced-pre-release
+  agreement: single source
+- cite: '[[d:mage#1491118029134626997]]'
+  author: Gees
+  authority: player
+  date: '2026-04-07'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:mage#1491794197773156493]]'
+  author: doja
+  authority: player
+  date: '2026-04-09'
+  era: post-1.18.1
+  agreement: single source
 agreement: consensus
 patch_validity:
-  written_for: "1.17.2 Arcane rework (2024-11) through 1.18.0; Rupture nerfed 2024-12-20 and 2025-03-30"
+  written_for: 1.17.2 Arcane rework (2024-11) through 1.18.0; Rupture nerfed 2024-12-20 and 2025-03-30
   valid_for_1181: unknown
-  notes: "The PoM -> Rupture -> Missiles opener is described identically by attackers and victims (consensus that it exists). 1.18.1 PvP dampening per class is unpublished. No build or stat source."
+  notes: The PoM -> Rupture -> Missiles opener is described identically by attackers and victims (consensus that it exists).
+    1.18.1 PvP dampening per class is unpublished. No build or stat source.
 talents:
-  build_name: "none — gap (opaque exports: Redmagejoe p103299, Xudo p103310, Forumdweller p131096). Talents named as PvP core: Presence of Mind, Arcane Rupture, Resonance Cascade, Arcane Instability, Arcane Potency, Improved Arcane Missiles, Improved Counterspell"
-  points: []
+  build_name: Arcane + Ice Block "PoM Block" 30/0/21 (BG build)
+  split: 30/0/21
+  code:
+    tree_b64: QoAoLISABKAo--QYBTBDAoB
+    b36_pair: CU598C07H--CI8I90V
+  sources:
+  - '[[d:mage#1446958520300994600]]'
+  - '[[d:mage#1446959289393614868]]'
+  - '[[d:mage#1491118029134626997]]'
+  - '[[d:mage#1491779826992939130]]'
+  points:
+  - tree: Arcane
+    talent: Arcane Subtlety
+    rank: 2
+    spell_id: 12592
+  - tree: Arcane
+    talent: Improved Arcane Missiles
+    rank: 5
+    spell_id: 16770
+  - tree: Arcane
+    talent: Arcane Concentration
+    rank: 5
+    spell_id: 12577
+  - tree: Arcane
+    talent: Magic Attunement
+    rank: 1
+    spell_id: 11247
+  - tree: Arcane
+    talent: Arcane Impact
+    rank: 3
+    spell_id: 12469
+  - tree: Arcane
+    talent: Arcane Rupture
+    rank: 1
+    spell_id: 51949
+  - tree: Arcane
+    talent: Improved Mana Shield
+    rank: 2
+    spell_id: 12605
+  - tree: Arcane
+    talent: Improved Counterspell
+    rank: 2
+    spell_id: 12598
+  - tree: Arcane
+    talent: Presence of Mind
+    rank: 1
+    spell_id: 12043
+  - tree: Arcane
+    talent: Accelerated Arcana
+    rank: 1
+    spell_id: 51981
+  - tree: Arcane
+    talent: Arcane Potency
+    rank: 2
+    spell_id: 45404
+  - tree: Arcane
+    talent: Resonance Cascade
+    rank: 5
+    spell_id: 51990
+  - tree: Frost
+    talent: Frost Warding
+    rank: 2
+    spell_id: 28332
+  - tree: Frost
+    talent: Elemental Precision
+    rank: 3
+    spell_id: 29440
+  - tree: Frost
+    talent: Frostbite
+    rank: 1
+    spell_id: 11071
+  - tree: Frost
+    talent: Improved Frost Nova
+    rank: 2
+    spell_id: 12475
+  - tree: Frost
+    talent: Permafrost
+    rank: 3
+    spell_id: 12571
+  - tree: Frost
+    talent: Cold Snap
+    rank: 1
+    spell_id: 12472
+  - tree: Frost
+    talent: Improved Blizzard
+    rank: 3
+    spell_id: 12488
+  - tree: Frost
+    talent: Shatter
+    rank: 5
+    spell_id: 12985
+  - tree: Frost
+    talent: Ice Block
+    rank: 1
+    spell_id: 11958
   leveling_order: []
+  leveling_note: No PvP-specific leveling order; level Frost (guide/classes/mage/leveling.md).
+  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=mage&t=205005131220001125--20301230130051
+  build_link_tortoise_note: 'Generated from the sourced points list (51 points: Arcane 30, Frost 21); the calculator shows
+    the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
 stat_weights:
-  priority: "not documented"
+  priority: stamina first, then crit > spell power > haste; spirit useless; ~3% hit vs level-60 players
+  sources:
+  - '[[d:mage#1446156953347686441]]'
+  - '[[d:pvp-general#1423705880704319609]]'
+  - '[[d:mage#1446911998725193920]]'
 caps:
-  arcane_range_yd: 30
-  pom_cooldown_min: 3
-  double_duplicate_crit_chance: "~1-2% per PoM window on a 650-700 SP / 30% crit mage (Kibuum, Bahamutxd)"
+  spell_hit_vs_players: ~3% [[d:mage#1446911998725193920]]
+  resilience: reduces spell crit damage; bugged to reduce only the crit portion [[d:mage#1491486174777184346]], [[d:pvp-general#1428416707600449596]]
+  dampening: class/spec-dependent in 1.18.1, numbers unpublished
 rotation_single:
-  - {priority: 1, action: "Polymorph or open from range", condition: "target not on you"}
-  - {priority: 2, action: "Presence of Mind -> Arcane Rupture (instant) -> Arcane Missiles", condition: "PoM available (3 min); reported 3-4k typical, 5-7k with Resonance Cascade/Instability/Potency alignment"}
-  - {priority: 3, action: "Arcane Missiles", condition: "channel keeps hitting after the target breaks line of sight (players report 'around corners'); 0% pushback with Improved Arcane Missiles"}
-  - {priority: 4, action: "Blink forward then channel", condition: "target beyond 30 yd"}
-  - {priority: 5, action: "Arcane Surge", condition: "after any resist (enemy resistances feed it)"}
-  - {priority: 6, action: "Mana Shield / Blink / Ice Block if reached", condition: "defensive; PoM can stand in for Ice Block"}
+- priority: 1
+  action: Presence of Mind + trinket (ZHC/ToEP) -> hard-cast Arcane Rupture
+  condition: target in range, PoM ready
+  sources:
+  - '[[d:mage#1491794197773156493]]'
+  - '[[d:mage#1491794733486571620]]'
+- priority: 2
+  action: Arcane Missiles spam
+  condition: after Rupture; channel continues through LoS once started
+  sources:
+  - '[[d:mage#1491794484428537888]]'
+  - '[[d:pvp-general#1423403435470098504]]'
+- priority: 3
+  action: Amplify Magic on enemy -> rank-1 Frostbolt -> Arcane Rupture -> Arcane Missiles
+  condition: opener without PoM; Amplify blocks a warrior Charge
+  sources:
+  - '[[d:mage#1446916002456797397]]'
+  - '[[d:mage#1446915962497531912]]'
+- priority: 4
+  action: Polymorph / Frost Nova / Counterspell / Cone of Cold, Blink + Ice Block to reset
+  condition: between burst windows
+  sources:
+  - '[[d:mage#1491494895574323224]]'
 rotation_aoe:
-  - {targets_min: 3, priority: 1, action: "Arcane Explosion spam", condition: "clumped enemies"}
+- targets_min: 3
+  priority: 1
+  action: Frost Nova -> Cone of Cold -> Arcane Explosion
+  condition: group of melee on you
 aoe_threshold: 3
 cooldowns:
-  - {name: Presence of Mind, use_when: "instant Arcane Rupture opener"}
-  - {name: Arcane Power + Mind Quickening Gem, use_when: "burst; AP cannot be cancelled and kills at 10% mana — not with Mana Shield draining"}
-  - {name: Improved Counterspell, use_when: "4 s silence on casters"}
+- name: Presence of Mind
+  use_when: instant Rupture burst; cast standalone
+  sources:
+  - '[[d:mage#1479120357645619211]]'
+- name: Ice Block / Cold Snap
+  use_when: stun chains, Spell Lock windows; Ice Block/Cold Snap toggle macro
+  sources:
+  - '[[d:mage#1384150519450304604]]'
+  - '[[d:pvp-general#1430030401585287208]]'
+- name: Blink
+  use_when: break stuns/roots; save vs druid Bash
+  sources:
+  - '[[d:pvp-general#1380875640907235431]]'
 resource_rules:
-  - "Mana Shield and Arcane Power share the mana pool; AP death at 10%."
-  - "Being silenced on Arcane removes Polymorph, Mana Shield, Blink and the damage (cross-forum player remark)."
+- 'Arcane Power in PvP: the 10% mana death rule still applies; Mana Shield drains the same pool.'
 consumables:
-  - "none documented for Arcane PvP"
+- Free Action Potion is the enemy melee counter to mage [[d:mage#1435053691676790784]]
+- Greater Fire/Frost Protection Potions against casters
 mistakes_to_avoid:
-  - "Arcane Power while Mana Shield drains you"
-  - "Freecasting into an un-CC'd melee; channelling into a Felhunter/Intensity warlock"
-  - "Mid range vs shamans"
+- Frostbolt-turret play into dampening [[d:mage#1491494895574323224]]
+- Bursting into your own Polymorph (heals to full) [[d:mage#1444727256906731660]]
+- Trading ranged damage with hunters [[d:pvp-general#1120391121005195286]]
+- Letting a warrior Charge (Counterspell/Amplify first) [[d:mage#1446915962497531912]]
+discord:
+  channel: mage
+  scope: 'Arcane PvP additions from the archived #mage Discord (post-1.18.1 sections). Every claim carries a [[d:mage#<id>]]
+    citation, an era and agreement.'
+  patch_validity_extra: Post-1.18.1 PvP damage is heavily dampened class/spec-wide; players report needing 13-15 Frostbolts
+    to kill a geared melee and a Cone of Cold hitting for 71 at 700 SP [[d:mage#1485311972139335833]], [[d:mage#1491110087388037304]]
+    (post-1.18.1, consensus on the reports; the dampening numbers were never published).
+  rotation_single:
+  - action: 'Kill pattern: Presence of Mind -> Arcane Rupture (instant) -> Arcane Missiles; PoM+trinket Rupture one-shots
+      when it crits, and double-duplicate + Instability keep it going.'
+    condition: PoM off cooldown
+    sources:
+    - '[[d:mage#1491794197773156493]]'
+    - '[[d:mage#1485360017107451977]]'
+    - '[[d:mage#1491794484428537888]]'
+    era: post-1.18.1
+    agreement: consensus
+  - action: Do not turret Frostbolt / freecast into an un-CC'd melee; use Polymorph, Cone of Cold, Counterspell, trinkets,
+      Ice Block + Blink for control.
+    sources:
+    - '[[d:mage#1491494895574323224]]'
+    era: post-1.18.1
+    agreement: single source
+  stat_weights:
+    priority: crit > spell power > haste, plus solid stamina [[d:mage#1446156953347686441]] (post-1.18.1, single source)
+  caps:
+    double_duplicate_crit_chance: ~1-2% per PoM window on a 650-700 SP / 30% crit mage (Kibuum, Bahamutxd) — unchanged by
+      Discord
+    dampening_reports: CoC 71 at 700 SP; 13-15 Frostbolts to kill a geared melee [[d:mage#1485311972139335833]], [[d:mage#1491110087388037304]]
+  consumables:
+  - Free Action Potion is the standard melee counter to mage ('tryhards in pvp use them') [[d:mage#1446915765461581934]] (post-1.18.1,
+    single source).
+  race_choice:
+  - Gnome Escape Artist (rogue/warrior snares) [[d:mage#1043563538557448302]]; Undead Will of the Forsaken for forced-fear
+    fights [[d:mage#1493740921232031906]]; Orc/Troll are the PvE damage races (Troll Berserking macroed with trinkets for
+    burst) [[d:mage#1447253910875017238]]; High Elf for speedrun mana [[d:mage#1494293691227963503]] (post-1.18.1, single
+    source each).
+  matchups:
+  - Paladins shrug off CC and dominate team fights; rogues/shamans top the meta [[d:mage#1491110398357798913]], [[d:mage#1430916238699397321]]
+    (post-1.18.1, consensus).
+  - 'Vs warriors: Dampen Magic + deadzone their Intercept [[d:mage#1491500856984600709]] (post-1.18.1, single source).'
+  - Warlocks can one-shot and are the worst 1v1; answer with nova, blink, disengage [[d:mage#1485360017107451977]] (post-1.18.1,
+    single source).
+  mistakes_to_avoid:
+  - '''PomBlock'' (PoM + Ice Block) remains the recommended annoying-BG build even after the damage nerfs [[d:mage#1491779826992939130]]'
+  sources:
+  - id: '[[d:mage#1491794197773156493]]'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: PoM Rupture kill pattern
+  - id: '[[d:mage#1446952036661723289]]'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    used_for: deep frost weak, deep arcane with iceblock
+  - id: '[[d:mage#1446156953347686441]]'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    used_for: PvP stat priority
+  - id: '[[d:mage#1491110087388037304]]'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: dampening reports
+  - id: '[[d:mage#1446915765461581934]]'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    used_for: Free Action Potion counter

@@ -1,6 +1,7 @@
 class: Shaman
 spec: Enhancement
 role: tank
+guide: guide/classes/shaman/tank.md
 sources:
 - url: https://forum.turtlecraft.gg/viewtopic.php?p=102972#p102972
   author: Dragunovi
@@ -122,159 +123,538 @@ sources:
   author: Travoltino
   authority: player
   date: '2026-04-07'
+- cite: '[[d:shaman#1472679669974175745]]'
+  author: Holidae
+  authority: player
+  date: '2026-02-15'
+  era: 1.18.1-announced-pre-release
+  agreement: consensus
+- cite: '[[d:shaman#1487037910577451029]]'
+  author: Ordinary Joe
+  authority: player
+  date: '2026-03-27'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:shaman#1493309560428171430]]'
+  author: Not Normal
+  authority: player
+  date: '2026-04-13'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:shaman#1492243908304830534]]'
+  author: Not Normal
+  authority: player
+  date: '2026-04-10'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:shaman#1474649022043263029]]'
+  author: poto
+  authority: player
+  date: '2026-02-21'
+  era: 1.18.1-announced-pre-release
+  agreement: consensus
+- cite: '[[d:shaman#1486559128083103835]]'
+  author: Not Normal
+  authority: player
+  date: '2026-03-26'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:shaman#1480698413153517800]]'
+  author: Frost
+  authority: player
+  date: '2026-03-10'
+  era: 1.18.1-announced-pre-release
+  agreement: single source
 agreement: contested
 patch_validity:
   written_for: 1.17.2 / 1.18.0 (Class Changes 2 tank talents)
-  valid_for_1181: false
-  notes: 1.18.1 replaced Elemental Weapons' Rockbiter passive -10% damage taken with Earthen Bulwark (an absorb shield); the
-    Enh T2.5 5-set was reworked to boost it; both are reported bugged/not stacking from special attacks through 2026-04-07.
-    No post-1.18.1 guide update was posted (Mimiwarmini's promised explanation never came). Talent point allocations and the
-    threat rotation are unaffected.
+  valid_for_1181: true
+  notes: '1.18.1 replaced Elemental Weapons'' Rockbiter passive -10% damage taken with Earthen Bulwark (an absorb shield);
+    the Enh T2.5 5-set was reworked to boost it; both are reported bugged/not stacking from special attacks through 2026-04-07.
+    No post-1.18.1 guide update was posted (Mimiwarmini''s promised explanation never came). Talent point allocations and
+    the threat rotation are unaffected. Discord adds the post-1.18.1 AoE-threat priority and the Chromaggus/Nefarian/drakonid
+    notes in `discord:` below. Guide rewrite (guide/classes/shaman/tank.md): talents/rotation/stats refreshed to the post-1.18.1
+    15/36/0 standard; Earthen Bulwark still reported building only from auto-attacks through 2026-04-14 [[d:shaman#1493387191328571602]].'
 talents:
-  build_name: Skegg's dungeon-tank order (24 Enhancement -> 11 Elemental -> 6 Enhancement -> respec 15, consensus with Akos1896)
-  build_link: https://talents.turtlecraft.gg/shaman?points=FYAYL-FAVYALFQDIAoB-
+  build_name: Standard tank 15/36/0 (Ordinary Joe "the more standard 15/36"; Holidae "basic 60 build") -- validated with pipeline2/talent_tool.py
+  build_link: https://talents.turtlecraft.gg/shaman?points=FADYL-FAVYALFQDIAoB-
   points:
-  - tree: Enhancement
-    talent: Shield Specialization
-    rank: 5
-    spell_id: 16301
-    talent_id: 252
-  - tree: Enhancement
-    talent: Totemic Alignment
-    rank: 2
-    spell_id: 51382
-    talent_id: 253
-  - tree: Enhancement
-    talent: Stable Shields
-    rank: 3
-    spell_id: 16291
-    talent_id: 255
-  - tree: Enhancement
-    talent: Ancestral Guardian
-    rank: 3
-    spell_id: 45547
-    talent_id: 259
-  - tree: Enhancement
-    talent: Lightning Strike
-    rank: 1
-    spell_id: 51387
-    talent_id: 258
-  - tree: Enhancement
-    talent: Thundering Strikes
-    rank: 5
-    spell_id: 16305
-    talent_id: 254
-  - tree: Enhancement
-    talent: Spirit Armor
-    rank: 2
-    spell_id: 45952
-    talent_id: 261
-  - tree: Enhancement
-    talent: Elemental Weapons
-    rank: 3
-    spell_id: 29080
-    talent_id: 263
-  - tree: Enhancement
-    talent: Stormstrike
-    rank: 1
-    spell_id: 17364
-    talent_id: 264
   - tree: Elemental
     talent: Convection
     rank: 5
     spell_id: 16112
-    talent_id: 218
   - tree: Elemental
-    talent: Concussion
-    rank: 2
-    spell_id: 16105
-    talent_id: 219
+    talent: Elemental Warding
+    rank: 3
+    spell_id: 28998
   - tree: Elemental
     talent: Elemental Devastation
     rank: 3
     spell_id: 29180
-    talent_id: 222
   - tree: Elemental
     talent: Elemental Focus
     rank: 1
     spell_id: 45541
-    talent_id: 223
-  - tree: Enhancement
-    talent: Element's Grace
-    rank: 5
-    spell_id: 29088
-    talent_id: 265
+  - tree: Elemental
+    talent: Reverberation
+    rank: 3
+    spell_id: 16114
   - tree: Enhancement
     talent: Ancestral Knowledge
     rank: 5
     spell_id: 17489
-    talent_id: 251
   - tree: Enhancement
-    talent: Bloodlust
-    rank: 1
-    spell_id: 45509
-    talent_id: 266
+    talent: Totemic Alignment
+    rank: 2
+    spell_id: 51382
   - tree: Enhancement
-    talent: Reverberation
+    talent: Thundering Strikes
+    rank: 5
+    spell_id: 16305
+  - tree: Enhancement
+    talent: Stable Shields
     rank: 3
-    spell_id: 16114
-    talent_id: 224
+    spell_id: 16291
+  - tree: Enhancement
+    talent: Lightning Strike
+    rank: 1
+    spell_id: 51387
+  - tree: Enhancement
+    talent: Ancestral Guardian
+    rank: 3
+    spell_id: 45547
   - tree: Enhancement
     talent: Flurry
     rank: 5
     spell_id: 16284
-    talent_id: 260
-  - tree: Elemental
-    talent: Concussion
+  - tree: Enhancement
+    talent: Spirit Armor
+    rank: 2
+    spell_id: 45952
+  - tree: Enhancement
+    talent: Elemental Weapons
     rank: 3
-    spell_id: 16106
-    note: or Elemental Warding 3 for anti-magic dungeons
-    talent_id: 219
+    spell_id: 29080
+  - tree: Enhancement
+    talent: Stormstrike
+    rank: 1
+    spell_id: 17364
+  - tree: Enhancement
+    talent: Element's Grace
+    rank: 5
+    spell_id: 29088
+  - tree: Enhancement
+    talent: Bloodlust
+    rank: 1
+    spell_id: 45509
   leveling_order:
   - level: 10
     tree: Enhancement
-    talent: Shield Specialization
+    talent: Ancestral Knowledge
+    rank: 1
+  - level: 11
+    tree: Enhancement
+    talent: Ancestral Knowledge
+    rank: 2
+  - level: 12
+    tree: Enhancement
+    talent: Ancestral Knowledge
+    rank: 3
+  - level: 13
+    tree: Enhancement
+    talent: Ancestral Knowledge
+    rank: 4
+  - level: 14
+    tree: Enhancement
+    talent: Ancestral Knowledge
+    rank: 5
   - level: 15
     tree: Enhancement
-    talent: Totemic Alignment
+    talent: Stable Shields
+    rank: 1
+  - level: 16
+    tree: Enhancement
+    talent: Stable Shields
+    rank: 2
   - level: 17
     tree: Enhancement
     talent: Stable Shields
+    rank: 3
+  - level: 18
+    tree: Enhancement
+    talent: Thundering Strikes
+    rank: 1
+  - level: 19
+    tree: Enhancement
+    talent: Thundering Strikes
+    rank: 2
   - level: 20
     tree: Enhancement
+    talent: Lightning Strike
+    rank: 1
+  - level: 21
+    tree: Enhancement
     talent: Ancestral Guardian
+    rank: 1
+  - level: 22
+    tree: Enhancement
+    talent: Ancestral Guardian
+    rank: 2
   - level: 23
     tree: Enhancement
-    talent: Lightning Strike
+    talent: Ancestral Guardian
+    rank: 3
   - level: 24
     tree: Enhancement
-    talent: Thundering Strikes (1 pt)
+    talent: Thundering Strikes
+    rank: 3
+  - level: 25
+    tree: Enhancement
+    talent: Spirit Armor
+    rank: 1
   - level: 26
     tree: Enhancement
     talent: Spirit Armor
+    rank: 2
+  - level: 27
+    tree: Enhancement
+    talent: Thundering Strikes
+    rank: 4
+  - level: 28
+    tree: Enhancement
+    talent: Thundering Strikes
+    rank: 5
   - level: 29
     tree: Enhancement
-    talent: Thundering Strikes (to 4)
+    talent: Totemic Alignment
+    rank: 1
+  - level: 30
+    tree: Enhancement
+    talent: Elemental Weapons
+    rank: 1
+  - level: 31
+    tree: Enhancement
+    talent: Stormstrike
+    rank: 1
+  - level: 32
+    tree: Enhancement
+    talent: Elemental Weapons
+    rank: 2
   - level: 33
     tree: Enhancement
     talent: Elemental Weapons
+    rank: 3
   - level: 34
     tree: Elemental
-    talent: Convection (start)
+    talent: Convection
+    rank: 1
+  - level: 35
+    tree: Elemental
+    talent: Convection
+    rank: 2
+  - level: 36
+    tree: Elemental
+    talent: Convection
+    rank: 3
+  - level: 37
+    tree: Elemental
+    talent: Convection
+    rank: 4
+  - level: 38
+    tree: Elemental
+    talent: Convection
+    rank: 5
+  - level: 39
+    tree: Elemental
+    talent: Elemental Warding
+    rank: 1
+  - level: 40
+    tree: Elemental
+    talent: Elemental Warding
+    rank: 2
+  - level: 41
+    tree: Elemental
+    talent: Elemental Devastation
+    rank: 1
+  - level: 42
+    tree: Elemental
+    talent: Elemental Devastation
+    rank: 2
+  - level: 43
+    tree: Elemental
+    talent: Elemental Devastation
+    rank: 3
   - level: 44
     tree: Elemental
     talent: Elemental Focus
+    rank: 1
+  - level: 45
+    tree: Enhancement
+    talent: Totemic Alignment
+    rank: 2
+  - level: 46
+    tree: Enhancement
+    talent: Element's Grace
+    rank: 1
+  - level: 47
+    tree: Enhancement
+    talent: Element's Grace
+    rank: 2
+  - level: 48
+    tree: Enhancement
+    talent: Element's Grace
+    rank: 3
+  - level: 49
+    tree: Enhancement
+    talent: Element's Grace
+    rank: 4
+  - level: 50
+    tree: Enhancement
+    talent: Element's Grace
+    rank: 5
   - level: 51
     tree: Enhancement
-    talent: respec Shield Specialization -> Ancestral Knowledge
-  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=shaman&t=5300313-5525300135203151
-  build_link_tortoise_note: 'Generated from the sourced points list (56 points: Elemental 15, Enhancement 41); the calculator
+    talent: Flurry
+    rank: 1
+  - level: 52
+    tree: Enhancement
+    talent: Flurry
+    rank: 2
+  - level: 53
+    tree: Enhancement
+    talent: Flurry
+    rank: 3
+  - level: 54
+    tree: Enhancement
+    talent: Flurry
+    rank: 4
+  - level: 55
+    tree: Enhancement
+    talent: Flurry
+    rank: 5
+  - level: 56
+    tree: Enhancement
+    talent: Bloodlust
+    rank: 1
+  - level: 57
+    tree: Elemental
+    talent: Reverberation
+    rank: 1
+  - level: 58
+    tree: Elemental
+    talent: Reverberation
+    rank: 2
+  - level: 59
+    tree: Elemental
+    talent: Reverberation
+    rank: 3
+  - level: 60
+    tree: Elemental
+    talent: Elemental Warding
+    rank: 3
+  variants:
+  - 'Spell tank 22/29/0 (AoDYLAQDAC-FAVYALBQDIAY-): better AoE threat, no Bloodlust [[d:shaman#1451913361653633118]] [[d:shaman#1458132861260660827]]'
+  - 23/28/0 post-1.18.1 (AoDYLAQDBC-FAVYALAQDIAY-) [[d:shaman#1485648863430836266]]
+  - 13/38/0 MT raw threat with Enhancing Totems (AoCYK-FAVYALFQTIAoB-) [[d:shaman#1480698413153517800]]
+  leveling_order_note: Same order as enhancement-melee-dps.yaml; ends at this build. Tanking dungeons is rough before 26 (Water
+    Shield, Magma) and fully online at 44 [[d:shaman#1459182669022887979]].
+  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=shaman&t=5003313-5025300135203151
+  build_link_tortoise_note: 'Generated from the sourced points list (51 points: Elemental 15, Enhancement 36); the calculator
     shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
 stat_weights:
-  tankiness: Stamina > Agility > Dodge > Defense
-  threat: Hit > Agility > Spell Power > Critical > Strength
-  spell_power: not negligible; close to AP's gain and useful with Lightning Shield rotation
-  intellect: important early for mana control, falls behind agi/str once ranks/downranking are learned
+  priority: Armor = Stamina > Agility; Defense a bonus, never a focus [[d:shaman#1474649022043263029]]; shield armor is the
+    single most important stat [[d:shaman#1486559128083103835]]
+  threat: Strength > spell power > Agility [[d:shaman#1486559128083103835]]; weapon skill to 315
+  defense: only worth it if it reaches 440; otherwise armor/health [[d:shaman#1466115983541538979]]
+  block: useless below the avoidance needed to push crushes off [[d:shaman#1485012544820089056]]
+  weapon_speed: slow one-hander (Stormstrike/Lightning Strike not normalized) [[d:shaman#1486361985439498340]]; while Bulwark
+    builds only from autos some tanks prefer faster weapons [[d:shaman#1493257991397572819]]
+caps:
+  physical_hit: 8% (4% from gear with weapon-skill book) [[d:shaman#1487191048840020049]]
+  weapon_skill: 315 (MC gloves + Orc racial + book) [[d:shaman#1486861889248952521]]
+  defense: 440 crit immunity unreachable in practice [[d:shaman#1490407432403419336]]
+  crush: 15% regardless of Defense [[d:shaman#1478722202269384705]]
+  earthen_bulwark: 20% of physical damage (x3 with shield) -> absorbs 5/10/15% for 8 s, capped at 20% max HP; builds only
+    from autos at release (bug) [[d:shaman#1480077263381860416]] [[d:shaman#1493309560428171430]]
+rotation_single:
+- priority: 1
+  action: Rockbiter on a slow one-hander + shield; Lightning Shield for the pull
+  condition: before pull
+- priority: 2
+  action: Pull with Chain Lightning (or Molten Blast -> Chain Lightning)
+  condition: pull [[d:shaman#1486563067511963648]] [[d:shaman#1438950665572450448]]
+- priority: 3
+  action: Earth Shock
+  condition: on cooldown (~40% of threat) [[d:shaman#1453500008375521330]]
+- priority: 4
+  action: Stormstrike
+  condition: on cooldown
+- priority: 5
+  action: Lightning Strike (Rank 3)
+  condition: on cooldown [[d:shaman#1489000281315475559]]
+- priority: 6
+  action: Auto-attack
+  condition: always (builds Earthen Bulwark)
+- priority: 7
+  action: Swap to Water Shield
+  condition: mana below ~66% [[d:shaman#1457483435806294106]]
+- priority: 8
+  action: Earthshaker Slam (taunt)
+  condition: target not on you; call out resists [[d:shaman#1481752700486942720]]
+- priority: 9
+  action: Never hard-cast while being hit
+  condition: always [[d:shaman#1445658999881207950]]
+rotation_aoe:
+- targets_min: 2
+  priority: 1
+  action: Chain Lightning pull + Stoneclaw Totem + Totem of the Tides (Water Shield up); tab Earth Shock and strikes
+  condition: normal pack [[d:shaman#1492243908304830534]]
+- targets_min: 3
+  priority: 2
+  action: Fire Nova Totem
+  condition: party AoEs hard [[d:shaman#1486561660150747156]]
+- targets_min: 3
+  priority: 3
+  action: Magma Totem after Nova
+  condition: last resort, mobs live long [[d:shaman#1492243972607705210]]
+- targets_min: 4
+  priority: 4
+  action: Fire Nova + Goblin Sapper Charge + Stoneclaw
+  condition: emergency snap threat [[d:shaman#1438960736440156210]]
+aoe_threshold: 2
+cooldowns:
+- name: Earthshaker Slam
+  use_when: taunt; can be resisted with no backup
+- name: Bloodlust
+  use_when: pull, with haste potion / Kiss / Juju for a threat lead [[d:shaman#1453829313412468816]]
+- name: Stoneshield Potion / healthstone / tea
+  use_when: no defensive cooldown exists [[d:shaman#1480080749754450022]]
+- name: Zandalari Hero Badge
+  use_when: longest-lasting defensive trinket [[d:shaman#1465051820907958425]]
+resource_rules:
+- Tea + mana potion on cooldown [[d:shaman#1471201338535711015]]
+- Water Shield most of the fight; Lightning Shield at pull
+- Stoneclaw + Totem of the Tides is the cheap default; Magma destroys mana [[d:shaman#1492243972607705210]]
+- Rank 1 Earth Shock only for interrupts when oom [[d:shaman#1424427249884463326]]
+consumables:
+- Flask of the Titans + Stoneshield Potion [[d:shaman#1465328508577251380]]
+- Flask of Supreme Power once uncrittable/uncrushable [[d:shaman#1467978670797754630]]
+- Stoneskin Potion on hard hitters after 1.18.1 [[d:shaman#1488991783861092482]]
+- Fire resistance gear/potions for Ragnaros (~250 FR) [[d:shaman#1480121471106945105]]
+mistakes_to_avoid:
+- Shield Specialization [[d:shaman#1487222143841337405]]
+- Chasing Defense/block over Stamina/Armor [[d:shaman#1474649022043263029]]
+- Fast daggers [[d:shaman#1467598647158902935]]
+- Two-hand tanking hard bosses [[d:shaman#1487039557395546222]]
+- Stoneclaw without Totemic Alignment [[d:shaman#1455604717332992041]]
+- Stoneskin Totem on bosses [[d:shaman#1458137175219769549]]
+- Hard-casting under melee [[d:shaman#1445658999881207950]]
+- Magma every pull
+discord:
+  channel: shaman
+  scope: 'Enhancement-tank additions from the archived #shaman Discord (2021-02-15 -> 2026-05). Every claim carries a [[d:shaman#<id>]]
+    citation, an era (pre-1.18.1 | 1.18.1-announced-pre-release | post-1.18.1) and agreement (consensus | single source |
+    contested).'
+  rotation_single:
+  - action: Rockbiter + shield; Lightning/Water Shield; pull with Lightning Bolt or Chain Lightning; then Stormstrike -> Earth
+      Shock (consume the buff) -> Lightning Strike -> Earth Shock -> refresh shield.
+    condition: post-1.18.1
+    sources:
+    - '[[d:shaman#1488136124617724004]]'
+    era: post-1.18.1
+    agreement: consensus
+  rotation_aoe:
+  - action: 'Max-threat AoE order: Chain Lightning > Stoneclaw Totem > Fire Nova > Magma. Totem of the Tides often lets you
+      skip Magma.'
+    targets_min: 4
+    sources:
+    - '[[d:shaman#1492243384734060714]]'
+    - '[[d:shaman#1491520161885192413]]'
+    era: post-1.18.1
+    agreement: consensus
+  totems:
+  - Totem of the Tides (Stormwrought Keep) is the key early AoE/threat relic (Water Shield procs); Totemic Alignment plus
+    Nova/Magma gives strong AoE threat [[d:shaman#1492243384734060714]].
+  stat_weights:
+    agility_vs_strength: contested as in the forum KB; the channel adds that the Earthen Bulwark build wants melee crit/stats
+      [[d:shaman#1485708569264521287]].
+  boss_notes:
+  - boss: Chromaggus
+    note: the bronze affliction runs to the end of the Bulwark buff; the tank cannot sustain Bulwark under the bug (~420 physical
+      DPS needed); without the defense cap it is a rough fight
+    sources:
+    - '[[d:shaman#1485788704407683103]]'
+    - '[[d:shaman#1493253058350547106]]'
+    - '[[d:shaman#1493314575897071878]]'
+    era: post-1.18.1
+    agreement: consensus
+  - boss: Nefarian
+    note: tankable in T1-grade gear once Bulwark is fixed; the Bulwark bug currently blocks it
+    sources:
+    - '[[d:shaman#1488914722706161714]]'
+    - '[[d:shaman#1493253058350547106]]'
+    era: post-1.18.1
+    agreement: single source
+  - boss: big drakonids (BWL)
+    note: attack-speed slows make the Bulwark build ineffective; no absorb during stun/whirlwind
+    sources:
+    - '[[d:shaman#1486538158861713468]]'
+    era: post-1.18.1
+    agreement: single source
+  gear:
+  - Ancient Jade Leggings for weapon skill / hybrid [[d:shaman#1491836338562007223]].
+  - Totem of the Tides is mandatory early [[d:shaman#1492243384734060714]].
+  bugs:
+  - id: BUG-BULWARK
+    entity:
+    - Earthen Bulwark
+    - Rockbiter Weapon
+    - Stormstrike
+    - Lightning Strike
+    summary: Earthen Bulwark builds only from white auto attacks, not Stormstrike/Lightning Strike, through the 2026-03-25
+      hotfix and still reported on 2026-04-07; caps at 20% of maximum health with a 100-stack durability debuff, and was not
+      in the patch notes.
+    impact: Tank shamans call themselves 'crippled ... the least sturdiest tank of all in the current meta'; the old Rockbiter
+      -10% damage-taken assumption is gone.
+    sources:
+    - '[[d:shaman#1484954736342995116]]'
+    - '[[d:shaman#1485640385857454291]]'
+    - '[[d:shaman#1486164601929338900]]'
+    - '[[d:shaman#1488669160585166949]]'
+    - '[[d:shaman#1487726640682369034]]'
+    era: post-1.18.1
+    agreement: consensus
+  mistakes_to_avoid:
+  - Relying on Earthen Bulwark from strikes (bugged) [[d:shaman#1484954736342995116]]
+  - Swapping to Frost Shock as the main DPS shock without rethinking Stormstrike charge consumption -- a design pitfall no
+    channel source recommends [[d:shaman#1486410446872383558]]
+  sources:
+  - id: '[[d:shaman#1488136124617724004]]'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: tank rotation
+  - id: '[[d:shaman#1492243384734060714]]'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: AoE threat order / Totem of the Tides
+  - id: '[[d:shaman#1485788704407683103]]'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: Chromaggus
+  - id: '[[d:shaman#1486538158861713468]]'
+    era: post-1.18.1
+    agreement: single source
+    used_for: drakonid attack-speed slow
+  - id: '[[d:shaman#1487726640682369034]]'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: Bulwark cripples tanks
+boss_notes:
+- 'Shazzrah: shaman assignment, shock through teleports [[d:shaman#1449144707102937282]]'
+- 'Chromaggus: bronze affliction vs Bulwark timer [[d:shaman#1485788704407683103]]'
+- 'Twin Emperors: melee twin magic-immune [[d:shaman#1462200380053000193]]'
+- 'Heigan: cannot tank [[d:shaman#1426710448459218944]]'
+- 'Anomalus: worst Bulwark fight [[d:shaman#1487169402481807451]]'
 stat_priority:
 - stamina
 - agility
@@ -285,86 +665,3 @@ stat_priority_note: 'Mimiwarmini''s tanking order; the same guide gives a separa
   already supplies ~653 attack power and Agility adds threat and survivability, Skegg puts Strength second once you are 60
   (Agility second only while leveling), and Akos1896''s pre-CC2 order is stam > agi > melee crit > haste > dodge/parry > strength
   > int. Guide targets pre-raid: 8% physical hit, 17% spell hit, 160 stamina, 100 agility, 6,000 armor, 20 defense.'
-caps:
-  physical_hit: 8%
-  spell_hit: 17% (boss level 63)
-  weapon_skill: 5 skill = 1% hit
-  defense: 140 above base (level 63); 1 defense = 0.04% miss/dodge/parry/block and -0.04% crit chance
-  crush_immunity: guide's 440 defense target is effectively unreachable (~425 in BiS per Dezhan); crush = 150% damage, 102.4%
-    avoidance needed to push it off
-  stat_conversions: 1 Str = 2 AP, 20 Str = 1 block value; 20 Agi = 1% crit = 1% dodge, 1 Agi = 2 armor; 1 Sta = 10 HP (10.5
-    Tauren)
-rotation_single:
-- priority: 1
-  action: 'Pre-pull: Rockbiter on a slow one-hander + shield, Lightning Shield (or Water Shield if mana-constrained), Mana
-    Spring/Healing Stream, Grace of Air/Windfury, Stoneskin/Strength of Earth'
-  condition: before pull
-- priority: 2
-  action: Pull with Lightning Bolt R1, or max-rank Lightning Bolt x2 / Chain Lightning
-  condition: need maximum initial threat
-- priority: 3
-  action: Stormstrike
-  condition: first melee action after the pull
-- priority: 4
-  action: Earth Shock (max rank)
-  condition: under the Stormstrike buff; use Frost Shock instead if target resists Nature
-- priority: 5
-  action: Lightning Strike
-  condition: on cooldown; pick the shield that fits the moment (Lightning Shield = threat, Water Shield = mana, Earth Shield
-    = survival)
-- priority: 6
-  action: Loop Stormstrike -> Earth Shock -> Lightning Strike -> Earth Shock -> refresh shield
-  condition: steady state; with Reverberation 3/3 fit a second Earth Shock every other Stormstrike cycle
-- priority: 7
-  action: Downrank shocks or just auto-attack + taunt
-  condition: threat is already comfortably ahead of the group
-- priority: 8
-  action: Earthshaker Slam then Earth Shock
-  condition: a mob is attacking someone else (taunt); has no effect if the mob is already attacking you
-rotation_aoe:
-- targets_min: 2
-  priority: 1
-  action: Stormstrike target 1, tab Earth Shock target 2, Lightning Strike target 3, tab-swap giving each an Earth Shock +
-    auto attack
-  condition: 2-3 targets, no threat totems needed
-- targets_min: 4
-  priority: 1
-  action: Stoneclaw Totem
-  condition: on pull or when in doubt; best AoE threat, 30-s CD
-- targets_min: 4
-  priority: 2
-  action: Fire Nova Totem timed to explode as the pack arrives
-  condition: not fire-resistant packs
-- targets_min: 4
-  priority: 3
-  action: Magma Totem
-  condition: sustained AoE threat; downrank when threat is safe (biggest mana burner)
-- targets_min: 4
-  priority: 4
-  action: Drop Earthbind after Stoneclaw expires
-  condition: if needed to control the pack
-aoe_threshold: 4
-cooldowns:
-- name: Earthshaker Slam
-  use_when: 5-yd shield taunt, 10-s CD, 3% base mana; only when a mob is not already attacking you
-- name: Totemic Recall
-  use_when: after a pull, refunds 25% of every totem's mana (+15% with Totemic Mastery)
-- name: Ankh
-  use_when: emergency self-resurrect; nearest thing to a defensive CD besides the Hakkar trinket swap
-resource_rules:
-- Never generate more threat than needed to maintain aggro; skip the rotation and just auto-attack + taunt, or downrank shocks,
-  once ahead
-- Swap Lightning Shield to Water Shield when mana is the constraint; Water Shield generates net mana above 936 AP with Lightning
-  Strike (18:1 ratio in 1.18.1)
-- Rush toward silence-heavy mobs with Lightning Shield already up so silence does not waste mana
-consumables:
-- armor kits, fortitude/armor potions and health potions before Black Morass
-- Crusader enchant and hit/threat gear per Mimiwarmini's pre-raid list
-mistakes_to_avoid:
-- Expecting a defensive cooldown to exist (there is none beyond the Hakkar trinket swap)
-- 'Shield Specialization before level 33 respec into Ancestral Knowledge without the stamina trinkets first (Akos1896: mitigation
-  is too weak early)'
-- Tanking a fast weapon (Rockbiter no longer gives flat per-hit threat; a slow weapon gives more TPS)
-- Using Rockbiter's old -10% damage-taken assumption post-1.18.1 (it is now Earthen Bulwark, which was reported not stacking
-  from special attacks as of 2026-04-07)
-- Pulling without checking whether the mob resists Nature (use Frost Shock/Molten Blast instead)

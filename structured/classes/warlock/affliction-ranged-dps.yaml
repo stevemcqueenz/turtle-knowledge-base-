@@ -54,230 +54,671 @@ sources:
   author: Jamey
   authority: staff
   date: '2026-01-23'
-agreement: contested
+- cite: '[[d:warlock#1484228321708478635]]'
+  author: Afraido
+  authority: player
+  date: '2026-03-19'
+  era: 1.18.1-announced-pre-release
+  agreement: consensus
+- cite: '[[d:warlock#1484607150868136087]]'
+  author: Sehnsucht
+  authority: player
+  date: '2026-03-20'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:warlock#1495057484266606745]]'
+  author: biloen
+  authority: player
+  date: '2026-04-18'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:warlock#1473678492687270104]]'
+  author: biloen
+  authority: player
+  date: '2026-02-18'
+  era: 1.18.1-announced-pre-release
+  agreement: single source
+- cite: '[[d:warlock#1489759140824748163]]'
+  author: Taffy
+  authority: player
+  date: '2026-04-04'
+  era: post-1.18.1
+  agreement: single source
+- cite: '[[d:warlock#1483947828341637150]]'
+  author: Nezu/Papaverine/Mooncrazed
+  authority: player
+  date: '2026-03-19'
+  era: 1.18.1-announced-pre-release
+  agreement: contested
+agreement: consensus (build, rotation); contested (Dark Harvest usage, haste value, T2.5 vs T3)
 patch_validity:
-  written_for: 1.18.0 (CC3) tree; two edits noted for 1.18.1 live
+  written_for: 1.18.1 live (2026-03-20)
   valid_for_1181: true
-  notes: Master Conjuror removed and Sinister Pursuit moved to Demonology in 1.18.1; otherwise the CC3 build and rotation
-    stand. No post after 2026-03-20 re-evaluates the raid build from scratch.
+  notes: Pinned release-day 35/11/5 build (Afraido) with 2/3 Demonic Aegis instead of Sinister Pursuit (Sinister Pursuit became
+    a pet-speed talent in 1.18.1). Post-1.18.1 top parsers use Drain Soul as the constant filler and rarely cast Dark Harvest
+    [[d:warlock#1495057373352693852]], [[d:warlock#1488508223748177991]].
 talents:
-  build_name: Affliction Drain (chappelles / Nuninho32, endgame endpoint of the leveling build)
+  build_name: Affliction 35/11/5 raid (Afraido pinned, 2026-03-19; 2/3 Demonic Aegis)
   points:
-  - tree: Affliction
-    talent: Improved Corruption
-    rank: 5
-    spell_id: 17814
-    talent_id: 338
   - tree: Affliction
     talent: Suppression
     rank: 5
     spell_id: 18178
-    talent_id: 337
+  - tree: Affliction
+    talent: Improved Corruption
+    rank: 5
+    spell_id: 17814
   - tree: Affliction
     talent: Improved Life Tap
-    rank: 2
-    spell_id: 18183
-    talent_id: 341
-  - tree: Affliction
-    talent: Fel Concentration
-    rank: 2
-    spell_id: 17784
-    talent_id: 344
+    rank: 1
+    spell_id: 18182
   - tree: Affliction
     talent: Improved Drains
     rank: 2
     spell_id: 45914
-    talent_id: 342
   - tree: Affliction
-    talent: Nightfall
-    rank: 2
-    spell_id: 18095
-    talent_id: 347
-  - tree: Affliction
-    talent: Soul Siphon
+    talent: Improved Curse of Agony
     rank: 3
-    spell_id: 52560
-    talent_id: 348
+    spell_id: 18830
   - tree: Affliction
-    talent: Malediction
-    rank: 1
-    spell_id: 52546
-    talent_id: 352
-  - tree: Affliction
-    talent: Siphon Life
-    rank: 1
-    spell_id: 18265
-    talent_id: 350
-  - tree: Affliction
-    talent: Rapid Deterioration
+    talent: Fel Concentration
     rank: 2
-    spell_id: 52556
-    talent_id: 349
+    spell_id: 17784
   - tree: Affliction
     talent: Grim Reach
     rank: 2
     spell_id: 18219
-    talent_id: 346
+  - tree: Affliction
+    talent: Nightfall
+    rank: 2
+    spell_id: 18095
+  - tree: Affliction
+    talent: Soul Siphon
+    rank: 3
+    spell_id: 52560
+  - tree: Affliction
+    talent: Rapid Deterioration
+    rank: 2
+    spell_id: 52556
+  - tree: Affliction
+    talent: Siphon Life
+    rank: 1
+    spell_id: 18265
+  - tree: Affliction
+    talent: Malediction
+    rank: 1
+    spell_id: 52546
   - tree: Affliction
     talent: Shadow Mastery
     rank: 5
     spell_id: 18275
-    talent_id: 353
   - tree: Affliction
     talent: Dark Harvest
     rank: 1
     spell_id: 52550
-    talent_id: 354
-  - tree: Destruction
-    talent: Shadow Vulnerability
-    rank: 5
-    spell_id: 17803
-    talent_id: 321
   - tree: Demonology
     talent: Demonic Embrace
     rank: 5
     spell_id: 18701
-    talent_id: 356
+  - tree: Demonology
+    talent: Soul Entrapment
+    rank: 3
+    spell_id: 51708
   - tree: Demonology
     talent: Demonic Aegis
-    rank: 3
-    spell_id: 45923
-    talent_id: 359
+    rank: 2
+    spell_id: 45922
+  - tree: Demonology
+    talent: Demonic Sacrifice
+    rank: 1
+    spell_id: 18788
+  - tree: Destruction
+    talent: Shadow Vulnerability
+    rank: 5
+    spell_id: 17803
+  post_1181_pinned_points:
+    label: Affliction 35/11/5 DH/DS (Afraido pinned screenshot, 1.18.1-announced-pre-release, + matching per-tree codes through
+      2026-04-02)
+    split: 35 / 11 / 5
+    points:
+    - tree: Affliction
+      talent: Suppression
+      rank: 5
+      spell_id: 18178
+    - tree: Affliction
+      talent: Improved Corruption
+      rank: 5
+      spell_id: 17814
+    - tree: Affliction
+      talent: Improved Life Tap
+      rank: 1
+      spell_id: 18182
+      note: 'the 35/11/5 variants swap the free point: Imp. Life Tap 1 / Grim Reach 2 (pinned) vs Imp. Life Tap 2 / Grim Reach
+        1'
+    - tree: Affliction
+      talent: Improved Drains
+      rank: 2
+      spell_id: 45914
+    - tree: Affliction
+      talent: Improved Curse of Agony
+      rank: 3
+      spell_id: 18830
+    - tree: Affliction
+      talent: Fel Concentration
+      rank: 2
+      spell_id: 17784
+    - tree: Affliction
+      talent: Grim Reach
+      rank: 2
+      spell_id: 18219
+    - tree: Affliction
+      talent: Nightfall
+      rank: 2
+      spell_id: 18095
+    - tree: Affliction
+      talent: Soul Siphon
+      rank: 3
+      spell_id: 52560
+    - tree: Affliction
+      talent: Rapid Deterioration
+      rank: 2
+      spell_id: 52556
+    - tree: Affliction
+      talent: Siphon Life
+      rank: 1
+      spell_id: 18265
+    - tree: Affliction
+      talent: Malediction
+      rank: 1
+      spell_id: 52546
+    - tree: Affliction
+      talent: Shadow Mastery
+      rank: 5
+      spell_id: 18275
+    - tree: Affliction
+      talent: Dark Harvest
+      rank: 1
+      spell_id: 52550
+    - tree: Demonology
+      talent: Demonic Aegis
+      rank: 2
+      spell_id: 45922
+      note: 'alternative: Sinister Pursuit 2/2 (spell_id 52739); both are the 2-pointer in the 11-point dip'
+    - tree: Demonology
+      talent: Demonic Embrace
+      rank: 5
+      spell_id: 18701
+    - tree: Demonology
+      talent: Soul Entrapment
+      rank: 3
+      spell_id: 51708
+    - tree: Demonology
+      talent: Demonic Sacrifice
+      rank: 1
+      spell_id: 18788
+    - tree: Destruction
+      talent: Shadow Vulnerability
+      rank: 5
+      spell_id: 17803
+    sources:
+    - '[[d:warlock#1484228321708478635]]'
+    - '[[d:warlock#1489118494866935868]]'
+    - '[[d:warlock#1484605293135663197]]'
+    era: mixed
+    agreement: consensus
   leveling_order:
   - level: 10
     tree: Affliction
     talent: Improved Corruption
+    rank: 1
+  - level: 11
+    tree: Affliction
+    talent: Improved Corruption
+    rank: 2
+  - level: 12
+    tree: Affliction
+    talent: Improved Corruption
+    rank: 3
+  - level: 13
+    tree: Affliction
+    talent: Improved Corruption
+    rank: 4
+  - level: 14
+    tree: Affliction
+    talent: Improved Corruption
+    rank: 5
   - level: 15
     tree: Affliction
     talent: Suppression
+    rank: 1
+  - level: 16
+    tree: Affliction
+    talent: Suppression
+    rank: 2
+  - level: 17
+    tree: Affliction
+    talent: Suppression
+    rank: 3
   - level: 18
     tree: Affliction
     talent: Improved Life Tap
-  - level: 20
-    tree: Affliction
-    talent: Fel Concentration
-  - level: 22
+    rank: 1
+  - level: 19
     tree: Affliction
     talent: Improved Drains
+    rank: 1
+  - level: 20
+    tree: Affliction
+    talent: Improved Drains
+    rank: 2
+  - level: 21
+    tree: Affliction
+    talent: Fel Concentration
+    rank: 1
+  - level: 22
+    tree: Affliction
+    talent: Fel Concentration
+    rank: 2
+  - level: 23
+    tree: Affliction
+    talent: Improved Curse of Agony
+    rank: 1
+  - level: 24
+    tree: Affliction
+    talent: Improved Curse of Agony
+    rank: 2
   - level: 25
     tree: Affliction
-    talent: Nightfall
+    talent: Improved Curse of Agony
+    rank: 3
   - level: 26
     tree: Affliction
     talent: Soul Siphon
+    rank: 1
+  - level: 27
+    tree: Affliction
+    talent: Soul Siphon
+    rank: 2
+  - level: 28
+    tree: Affliction
+    talent: Soul Siphon
+    rank: 3
+  - level: 29
+    tree: Affliction
+    talent: Nightfall
+    rank: 1
   - level: 30
     tree: Affliction
-    talent: Malediction
+    talent: Siphon Life
+    rank: 1
   - level: 31
     tree: Affliction
-    talent: Siphon Life
+    talent: Malediction
+    rank: 1
   - level: 32
     tree: Affliction
-    talent: Rapid Deterioration
+    talent: Nightfall
+    rank: 2
   - level: 33
     tree: Affliction
-    talent: Grim Reach
+    talent: Rapid Deterioration
+    rank: 1
+  - level: 34
+    tree: Affliction
+    talent: Rapid Deterioration
+    rank: 2
   - level: 35
     tree: Affliction
     talent: Shadow Mastery
+    rank: 1
+  - level: 36
+    tree: Affliction
+    talent: Shadow Mastery
+    rank: 2
+  - level: 37
+    tree: Affliction
+    talent: Shadow Mastery
+    rank: 3
+  - level: 38
+    tree: Affliction
+    talent: Shadow Mastery
+    rank: 4
+  - level: 39
+    tree: Affliction
+    talent: Shadow Mastery
+    rank: 5
   - level: 40
     tree: Affliction
     talent: Dark Harvest
+    rank: 1
   - level: 41
+    tree: Affliction
+    talent: Grim Reach
+    rank: 1
+  - level: 42
+    tree: Affliction
+    talent: Grim Reach
+    rank: 2
+  - level: 43
+    tree: Affliction
+    talent: Suppression
+    rank: 4
+  - level: 44
+    tree: Affliction
+    talent: Suppression
+    rank: 5
+  - level: 45
     tree: Destruction
     talent: Shadow Vulnerability
+    rank: 1
   - level: 46
+    tree: Destruction
+    talent: Shadow Vulnerability
+    rank: 2
+  - level: 47
+    tree: Destruction
+    talent: Shadow Vulnerability
+    rank: 3
+  - level: 48
+    tree: Destruction
+    talent: Shadow Vulnerability
+    rank: 4
+  - level: 49
+    tree: Destruction
+    talent: Shadow Vulnerability
+    rank: 5
+  - level: 50
     tree: Demonology
     talent: Demonic Embrace
+    rank: 1
   - level: 51
     tree: Demonology
+    talent: Demonic Embrace
+    rank: 2
+  - level: 52
+    tree: Demonology
+    talent: Demonic Embrace
+    rank: 3
+  - level: 53
+    tree: Demonology
+    talent: Demonic Embrace
+    rank: 4
+  - level: 54
+    tree: Demonology
+    talent: Demonic Embrace
+    rank: 5
+  - level: 55
+    tree: Demonology
+    talent: Soul Entrapment
+    rank: 1
+  - level: 56
+    tree: Demonology
+    talent: Soul Entrapment
+    rank: 2
+  - level: 57
+    tree: Demonology
+    talent: Soul Entrapment
+    rank: 3
+  - level: 58
+    tree: Demonology
     talent: Demonic Aegis
-  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=warlock&t=550022020223210151-05003-5
-  build_link_tortoise_note: 'Generated from the sourced points list (46 points: Affliction 33, Demonology 8, Destruction 5);
-    the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
+    rank: 1
+  - level: 59
+    tree: Demonology
+    talent: Demonic Aegis
+    rank: 2
+  - level: 60
+    tree: Demonology
+    talent: Demonic Sacrifice
+    rank: 1
+  code: FoAKaASDRBFAB-ArCAAB-F
+  build_note: 'Validated with talent_tool.py (VALID). Variant: threat build FAISaICDRBFAB-CrDABBQ-D (31/17/3, Improved Stones)
+    [[d:warlock#1427532174705295360]].'
+  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=warlock&t=550012320223210151-053020001-5
+  build_link_tortoise_note: 'Generated from the sourced points list (51 points: Affliction 35, Demonology 11, Destruction
+    5); the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the
+    calculator.'
 stat_weights:
-  hit: high (10% covered by Suppression; ~5-6% from gear reported sufficient); Shadow Bolt/Nightfall procs unaffected; Dark
-    Harvest hit interaction unresolved
-  haste: high per wiki/Spritzbube; contested vs raw spell power, unanswered in sources
-  spell_power: medium-high, secondary to haste per some sources
-  crit: near-zero (DoTs do not crit on Turtle)
-  intellect: low, mana pool only
-  stamina: high (mana pool is tied to health via Life Tap; Affliction tier sets are stamina-poor)
-  spirit: low/dump stat (suppressed during channels per a single 2020 report, never retested)
+  hit: 'highest until 16% total: Suppression gives 10% to Affliction spells, so 6% from gear (5% with Emerald Blessing) [[d:warlock#1432224779875778711]],
+    [[d:warlock#1436885169142370437]]; Malediction Curse of Agony does not benefit from Suppression (bug) [[d:warlock#1468756435428180183]]'
+  haste: 1% haste ~ 13.2 SP at 500 SP/0% haste, ~14.7 SP at 500 SP/10% [[d:warlock#1489759140824748163]]; ~18 SP at 700 SP
+    [[d:warlock#1456417176297934992]]; ~20 SP at 1000 SP [[d:warlock#1492214613410844753]]; contested vs raw SP [[d:warlock#1492213319711588462]]
+  spell_power: high (shadow or generic); DoTs other than Immolate scale 100% with SP; ZG head/leg 18 SP beats the 1% haste
+    enchant [[d:warlock#1471426216606306376]], [[d:warlock#1477971651240132709]]
+  crit: 'zero: DoTs and channels cannot crit [[d:warlock#1492250052742217868]]'
+  intellect: zero for damage [[d:warlock#1492250052742217868]]
+  stamina: 'medium: Life Tap converts health to mana; Affliction sets are stamina-poor'
+  spirit: none
+  spell_penetration: 'only vs high-resist bosses (Mephistroth ~200 SR: CoS 75 + 2 pen enchants 50 + ~75 gear) [[d:warlock#1466803445838119124]],
+    [[d:warlock#1483224035738390630]]'
 stat_priority:
-- spell-hit
+- hit-to-16-total (6 gear)
+- spell-power
+- haste
+- stamina
+caps:
+  gear_hit: 6% from gear (16% total with Suppression 5/5); 5% with Emerald Blessing [[d:warlock#1432224779875778711]], [[d:warlock#1436885169142370437]]
+  haste_breakpoints: 'contested/not real: extensive tests found no DPS cliffs [[d:warlock#1483947828341637150]], [[d:warlock#1483237141013074162]]
+    vs chart-based breakpoints at ~13% and 22-23% [[d:warlock#1483234390489432064]]; Corruption needs 15% haste for a 7th
+    tick [[d:warlock#1492252383856824461]]'
+  crit: not a target; DoTs do not crit
+rotation_single:
+- priority: 0
+  action: pop haste/SP cooldowns (Potion of Quickness, Juju Flurry, racial, trinket) then apply DoTs
+  condition: opener or when a trinket comes up; DoTs keep the buffs they were cast with [[d:warlock#1450450192775123024]],
+    [[d:warlock#1433432574406955119]]
+- priority: 1
+  action: Shadow Bolt
+  condition: Nightfall (Shadow Trance) proc up; break Drain Soul for it, never break Dark Harvest [[d:warlock#1443543987255251007]],
+    [[d:warlock#1489735044296736778]]
+- priority: 2
+  action: assigned curse (Shadows/Elements/Recklessness, 1 s GCD)
+  condition: missing; Malediction also applies Curse of Agony
+- priority: 3
+  action: Curse of Agony
+  condition: missing (Malediction does not refresh a fallen Curse of Agony; intended) [[d:warlock#1465281355674947646]]
+- priority: 4
+  action: Corruption
+  condition: missing; never clip early [[d:warlock#1433432659555647498]]
+- priority: 5
+  action: Siphon Life
+  condition: missing and target lives its full duration [[d:warlock#1471139622703726806]]
+- priority: 6
+  action: Dark Harvest
+  condition: Shadow Vulnerability up AND every DoT has >=~10 s left AND no interruption, or as a finisher; with T2.5 5-piece
+    use it more freely [[d:warlock#1495058358875590898]], [[d:warlock#1480626773212397658]], [[d:warlock#1480617902515425378]]
+- priority: 7
+  action: Drain Soul
+  condition: default filler; cancel only right after a tick (Nampower) [[d:warlock#1433442818235564052]]
+- priority: 8
+  action: Life Tap (or Demonic/Dark Rune)
+  condition: mana below next cycle [[d:warlock#1437144597846425671]]
+- priority: 9
+  action: never Immolate, never hard-cast Shadow Bolt
+  condition: always [[d:warlock#1478873883200323767]]
+- priority: 10
+  action: 'threat-safe opener: Siphon Life > Corruption > Curse > Drain Soul'
+  condition: tank struggling on threat [[d:warlock#1483664616130347188]]
+rotation_aoe:
+- targets_min: 2
+  priority: 1
+  action: curse (+Malediction Curse of Agony) on each, Corruption on 2-3, Drain Soul/Dark Harvest the kill target
+  condition: mobs live >~10 s [[d:warlock#1434677140795949287]], [[d:warlock#1491879604653129878]]
+- targets_min: 2
+  priority: 2
+  action: one Corruption + Drain Soul, or just the raid curse
+  condition: 'trash dies in <~10 s; melee-heavy raid: Curse of Recklessness and chill [[d:warlock#1426240600117739610]], [[d:warlock#1442597326177828874]]'
+- targets_min: 4
+  priority: 3
+  action: stop multi-dotting beyond 3 targets
+  condition: always [[d:warlock#1442927152696786994]]
+- targets_min: 5
+  priority: 4
+  action: spread Siphon Life, then Hellfire or Rain of Fire (warn tank/healers)
+  condition: 5+ stacked mobs [[d:warlock#1476324592841789571]]
+aoe_threshold: 5
+cooldowns:
+- name: Dark Harvest
+  use_when: 30 s CD; only with Shadow Vulnerability up and >=10 s on all DoTs, or as a finisher; reset-on-kill reported not
+    working [[d:warlock#1463553707974332500]]
+- name: Potion of Quickness / Juju Flurry / racial / on-use trinket
+  use_when: right before (re)applying DoTs so they snapshot the buff [[d:warlock#1450474907686273055]]
+- name: Death Coil
+  use_when: emergency self-heal
+- name: Demonic Sacrifice
+  use_when: 'pre-pull: Imp (+4% spell damage) by default; Succubus (-10% threat) if threat-capped [[d:warlock#1404709089526677505]];
+    resummon and re-sacrifice after any greater demon/enslave [[d:warlock#1489967871290380401]]'
+- name: Limited Invulnerability Potion
+  use_when: threat emergency [[d:warlock#1437144597846425671]]
+resource_rules:
+- Life Tap is the mana engine; rarely drink at 60
+- Drain Soul costs mana per tick, so cancelling it wastes nothing [[d:warlock#1481381182863052983]]
+- Stop at ~80-85% of tank threat [[d:warlock#1388662907415564491]]; Voidstone -10% (15% with Improved Stones) [[d:warlock#1491435318732132393]]
+- Healthstone is a single 1,200 HP stone; Soulwell costs 3 shards [[d:warlock#1464359558309740597]], [[d:warlock#1464417092869554227]]
+- Soul shards stack to 3 per slot; ShardCapPlus counts slots, not shards [[d:warlock#1439148601224859680]]
+consumables:
+- Potion of Quickness, Juju Flurry, haste food (Danzo), Greater Arcane Elixir, Elixir of Greater Shadow Power, Dreamshard
+  Elixir, Dreamtonic, wizard oil [[d:warlock#1437144597846425671]]
+- Brilliant Wizard Oil (Blessed vs undead) [[d:warlock#1427210967053373501]]
+- Haste food over MP5 food [[d:warlock#1429951129843794083]]
+- Felstone default stone (heal generates threat) [[d:warlock#1490122874357551236]]; Voidstone if threat-limited
+- Limited Invulnerability Potion as a threat drop
+mistakes_to_avoid:
+- Hard-casting Shadow Bolt or Immolate
+- Casting Dark Harvest on cooldown, into a knockback, or with <5 s left on DoTs [[d:warlock#1432456413111914699]]
+- Clipping DoTs early; letting Siphon Life drop (loses a Soul Siphon stack)
+- Assuming Malediction refreshes a fallen Curse of Agony [[d:warlock#1465281355674947646]]
+- Stacking crit or Intellect
+- Skipping the 6% gear hit
+- Taking Sinister Pursuit in a sacrifice build (use 2/3 Demonic Aegis) [[d:warlock#1484607150868136087]]
+- Pet on aggressive near a boss pull
+- Using one-button castsequence macros that clip DoTs [[d:warlock#1426230149959127154]]
+- Letting soul shards overflow or run out
+leveling_by_bracket:
+- bracket: 1-10
+  advice: Imp from the level-1 class quest; buy the best wand available (no spells compare early); Voidwalker quest ~8-10.
+  sources:
+  - '[[d:warlock#1114842876820590613]]'
+  - '[[d:warlock#1404885885564092487]]'
+  - '[[d:warlock#1399133734053216417]]'
+  era: pre-1.18.1
+  agreement: consensus
+- bracket: 10-19
+  advice: Voidwalker tanks; Corruption + Curse of Agony then wand; first 7 talents Imp Corruption + Imp Life Tap.
+  sources:
+  - '[[d:warlock#902303194112217158]]'
+  - '[[d:warlock#1139910345176129576]]'
+  era: pre-1.18.1
+  agreement: consensus
+- bracket: 20-29
+  advice: Succubus at 20; drain tanking is NOT online yet — wand out-damages and out-efficiencies early Drain Life until the
+    late-30s rank.
+  sources:
+  - '[[d:warlock#1410017237124780195]]'
+  - '[[d:warlock#1367169475941498922]]'
+  era: pre-1.18.1
+  agreement: consensus
+- bracket: 30-39
+  advice: Shadoweave tailoring set is the leveling power spike (buy from AH if not a tailor); +shadow damage gear and skip
+    Immolate; big Drain Life rank at 38; Scarlet Monastery for gear.
+  sources:
+  - '[[d:warlock#1371345124067639296]]'
+  - '[[d:warlock#1302082714135953448]]'
+  - '[[d:warlock#1419778210949890108]]'
+  - '[[d:warlock#1078628023617716234]]'
+  - '[[d:warlock#1373989374672244838]]'
+  era: pre-1.18.1
+  agreement: consensus
+- bracket: 40-49
+  advice: Voidwalker loses aggro to Shadoweave spell power; the Warlock becomes the tank (DoTs + Drain Life + Life Tap).
+  sources:
+  - '[[d:warlock#1080893294822817872]]'
+  - '[[d:warlock#1490117148272496680]]'
+  - '[[d:warlock#1097948220895793212]]'
+  era: mixed
+  agreement: consensus
+- bracket: 50-60
+  advice: Infernal quest at 50; Doomguard + Soulwell at 60; Affliction AoE-farms by dotting 3-4 mobs and kiting with Curse
+    of Exhaustion; Dire Maul East lashers is the classic end farm.
+  sources:
+  - '[[d:warlock#1485033334907076718]]'
+  - '[[d:warlock#1367169475941498922]]'
+  - '[[d:warlock#1464039321358176387]]'
+  - '[[d:warlock#1464610780526673920]]'
+  era: mixed
+  agreement: consensus
+- bracket: hardcore
+  advice: Demo is the safe HC pick; Affliction drain-tanking + rank-1 Curse of Recklessness (35 mana, with Malediction) is
+    reported strong through the 40s.
+  sources:
+  - '[[d:warlock#1379671059929759906]]'
+  - '[[d:warlock#1447865234243977277]]'
+  - '[[d:warlock#1379716876761825330]]'
+  era: mixed
+  agreement: consensus
+leveling_order_source: guide/classes/warlock/leveling.md (Affliction 10-60 order ending on the raid build; validated with
+  talent_tool.py)
+discord:
+  channels:
+  - warlock
+  agreement: mixed — consensus on the pinned 35/11/5 DH/DS build, Drain-Soul filler and pet sacrifice; contested on Dark Harvest
+    at 60 and on snapshotting
+  eras:
+  - pre-1.18.1
+  - 1.18.1-announced-pre-release
+  - post-1.18.1
+  sources:
+  - cite: '[[d:warlock#1484228321708478635]]'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    topic: pinned Affliction 35/11/5 DH/DS screenshot
+  - cite: '[[d:warlock#1489118494866935868]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: exact-match per-tree code for the pinned Affliction build
+  - cite: '[[d:warlock#1487115677218115665]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: post-1.18.1 per-bracket leveling codes (22/33)
+  - cite: '[[d:warlock#1440433738415870039]]'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    topic: 19%/23% Affliction haste breakpoints
+  - cite: '[[d:warlock#1424081673691070486]]'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    topic: Dark Harvest multi-target cleave removed
+  - cite: '[[d:warlock#1432327385155637340]]'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    topic: do not clip DoTs; DH shortens duration
+  - cite: '[[d:warlock#1405349574465290354]]'
+    era: pre-1.18.1
+    agreement: consensus
+    topic: Demo keeps the pet; Affliction/Destro sacrifice
+  - cite: '[[d:warlock#1488156105111633930]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: pet spell-power scaling table
+  - cite: '[[d:warlock#1485689509197774958]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: Demonology threat ceiling post-1.18.1
+  - cite: '[[d:warlock#1465198561955418367]]'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    topic: pet AI bug list (Imp melee, Lash interrupts Seduce)
+  - cite: '[[d:warlock#1484828741267095563]]'
+    era: post-1.18.1
+    agreement: contested
+    topic: 'live spec ranking: demo > affli > destro/fire'
+  - cite: '[[d:warlock#1484606459810545809]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: class weapon from ~T2.5 Timbermaw Hold raid, Exalted
+guide: guide/classes/warlock/affliction.md
 stat_priority_note: 'Suppression covers 10% of the hit a warlock needs for Affliction spells, so players run 5–6% on gear
   (the 16% level-63 figure is vanilla baseline, not a Turtle statement). After hit the order is genuinely unresolved: the
   community wiki says "Haste and Hit" and one geared player says "as much haste as you can get", but the direct question "is
   Affli better with haste or full sp?" was asked and never answered. Rapid Deterioration''s 6% haste is multiplicative with
   gear haste, and the game rounds tick timing up to 0.04 s. Whether Dark Harvest is affected by hit at all is an open question.'
-caps: {}
-rotation_single:
-- priority: 1
-  action: Shadow Bolt
-  condition: Nightfall proc (Shadow Trance) is up; break a Drain Soul channel for it, not Dark Harvest
-- priority: 2
-  action: recast assigned raid curse (Curse of Shadow/Elements)
-  condition: missing (Malediction reapplies Curse of Agony with it)
-- priority: 3
-  action: Corruption
-  condition: missing or about to expire
-- priority: 4
-  action: Siphon Life
-  condition: missing (keeps Soul Siphon at 4-effect max)
-- priority: 5
-  action: Curse of Agony
-  condition: missing and not the raid curse-holder
-- priority: 6
-  action: Dark Harvest
-  condition: off cooldown and an uninterrupted 8-s channel is guaranteed, or target is about to die (resets cooldown on kill);
-    contested whether to use it at all on bosses (some report it a DPS loss vs pure Drain Soul)
-- priority: 7
-  action: Drain Soul (highest rank)
-  condition: default filler; never hard-cast Shadow Bolt
-- priority: 8
-  action: Life Tap
-  condition: mana below cost of next cycle
-rotation_aoe:
-- targets_min: 2
-  priority: 1
-  action: support curse (Malediction auto-applies Curse of Agony) on each target, then Corruption on each
-  condition: 2-3 trash targets, ask tank first
-- targets_min: 2
-  priority: 2
-  action: Drain Soul on the kill target
-  condition: no Shadow Bolt
-- targets_min: 4
-  priority: 1
-  action: Rain of Fire or Hellfire (warn healer)
-  condition: 4+ stacked targets; Affliction has no AoE of its own
-aoe_threshold: 4
-cooldowns:
-- name: Dark Harvest
-  use_when: 30-s CD; see rotation; resets on target death
-- name: Death Coil
-  use_when: self-heal / emergency, 3-min CD
-- name: Drain Life
-  use_when: niche self-heal when Death Coil and Healthstone/tea/potion are on cooldown; contested value in PvE
-resource_rules:
-- Life Tap is the mana engine; Improved Life Tap and Shadow Mastery both scale it
-- Soul Shards stack to 3; Drain Soul on a killing blow yields a shard; keep a shard reserved for Soulstone/Healthstone/pet
-  re-summon
-- Felstone leech (3%) heals the Warlock and the demon; Healthstone and Tea share a cooldown, decide per fight which is the
-  emergency button
-- Ritual of Souls costs 3 shards since 1.18.1
-consumables:
-- Flask of Supreme Power
-- Fire/Arcane protection potions per raid
-- Healthstone (Major), Felstone as personal stone (Voidstone if threat is a problem)
-- Greater Holy Protection potion vs Paladins in PvP
-mistakes_to_avoid:
-- Hard-casting Shadow Bolt outside Nightfall procs
-- Casting Dark Harvest into a knockback/AoE and losing the 30-s cooldown
-- Letting Siphon Life drop (loses a Soul Siphon stack) or refreshing DoTs too early (wastes a GCD and mana)
-- Casting Curse of Agony instead of the assigned raid curse when you are the only Warlock (Malediction gives both)
-- Hellfire/Inferno in dungeons without warning the group
-- Pet set to aggressive near a pull
-- Wearing the set-bonus tier piece (Attire) over stamina gear and dying to AoE
-- Letting soul shards overflow; not keeping a shard in reserve
-- Relying on Curse of Weakness as a primary slow (does not stack with other attack-speed slows)

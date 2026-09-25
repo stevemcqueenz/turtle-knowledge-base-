@@ -1,0 +1,441 @@
+# Machine-readable, class-agnostic PvP systems knowledge for Turtle WoW 1.18.1.
+# Source: archived Turtle WoW Europe Discord channel `pvp-general` (266,785 messages,
+# 2021-05-24 .. 2025-11-01), scope staging/pvp-general-a. Citations [[d:pvp-general#<id>]]
+# resolve in structured/discord/evidence-pvp-general.jsonl.
+# Era key (KB convention): pre-1.18.1 (< 2025-10-03) | 1.18.1-announced-pre-release
+# (2025-10-03 .. 2026-03-19) | post-1.18.1 (>= 2026-03-20). The channel ends 2025-11-01,
+# so it holds NO post-1.18.1 material: every 1.18.1 statement here is pre-release.
+# Agreement key: consensus | single source | contested.
+# Authority key (Discord has no green-name signal): staff > beta tester > recognised player > player.
+schema: pvp-systems/v1
+scope: pvp-general
+channel: pvp-general
+source_archive: norm/pvp-general/messages.jsonl
+corpus_span: "2021-05-24 .. 2025-11-01"
+eras:
+  pre-1.18.1: "< 2025-10-03"
+  1.18.1-announced-pre-release: "2025-10-03 .. 2026-03-19"
+  post-1.18.1: ">= 2026-03-20 (absent from this channel)"
+authority_note: >-
+  Discord has no green name. Akalix and Jamey answer in the staff register and are treated as
+  staff; Chidi <beta tester> is a beta tester; everyone else is a player unless stated.
+  `Deleted User` posts are mixed (some staff-register) and are marked individually.
+
+honor_rank:
+  model:
+    value: "vanilla weekly-standings honour system with a weekly flush"
+    detail: >-
+      Honour earned in a week determined bracket placement and Rank Points (RP); RP was flushed
+      weekly. A multi-R14 player still defends it ("3x r14(lock/priest/warr) 6x r13 ... I love
+      the ranking system"), so "everyone hates ranking" is not universal.
+    era: pre-1.18.1
+    agreement: contested
+    sources: ["[[d:pvp-general#1116048119692529774]]"]
+  rp_cap_per_week:
+    value: 13000
+    unit: RP
+    note: "perfect top-bracket week; the same player says R14 is 60,000 RP, so R14 needs ~5-6 perfect weeks"
+    era: pre-1.18.1
+    agreement: single source
+    sources: ["[[d:pvp-general#1115908001480572938]]"]
+  rp_floors:
+    # Forum staff figure list (Akalix, 2023-10-01, p=67819) is the KB-side authority; this is the
+    # Discord working version of the same numbers.
+    R1: 15
+    R2: 2000
+    R3: 5000
+    R4: 10000
+    R14: 60000
+    unit: RP (R1 is 15 honorable kills)
+    note: "forum staff: R1 15HK, R2 2000, then +5000 per rank up to R14 60000"
+    forum_source: "https://forum.turtlecraft.gg/viewtopic.php?p=67819#p67819"
+    era: pre-1.18.1
+    agreement: consensus (staff forum + Discord players)
+  decay:
+    detail: >-
+      Decay, not the raw honour requirement, was the binding constraint for casual rankers:
+      "Currently 50k/week you are stuck r9 forever"; "increasing the decay would literally make
+      R14 impossible". The 2023-10-01 staff change stopped decay from de-ranking (RP floors).
+    era: pre-1.18.1
+    agreement: consensus
+    sources: ["[[d:pvp-general#1116050834250289262]]", "[[d:pvp-general#1116040045258883155]]"]
+  per_faction_brackets: true
+  per_faction_brackets_detail: "each faction has its own bracket ladder (vanilla per-faction standing pool, not one shared pool)"
+  per_faction_brackets_sources: ["[[d:pvp-general#1017095976487505920]]"]
+  pool_boosting:
+    detail: >-
+      Low brackets were padded with "dummy rankers" (inactive/ghost accounts counted in the
+      pool). A single HK per week was enough to enter the pool; ~800 dummy rankers sat in the
+      lower brackets in 2022 ("1 hk to get above the 800 dummy rankers"). KB staff policy allows
+      pool boosting (only enlarges brackets) but bans honor boosting.
+    era: pre-1.18.1
+    agreement: consensus
+    sources: ["[[d:pvp-general#998635211430567966]]", "[[d:pvp-general#1033363878735786114]]", "[[d:pvp-general#1028662404265037824]]"]
+  rank_level_cap:
+    value: "rank 3"
+    detail: "below some (unspecified) level a player is capped at rank 3"
+    era: pre-1.18.1
+    agreement: single source
+    sources: ["[[d:pvp-general#1422945827495870554]]"]
+  no_honor_glyph:
+    detail: >-
+      A glyph reducing honour gain to 1-5% was introduced so already-ranked players could keep
+      queueing without distorting other players' rankings. Posted in the staff register; matches
+      the later KB "honour glyph" policy.
+    era: pre-1.18.1
+    agreement: single source
+    authority: staff (staff-register post)
+    sources: ["[[d:pvp-general#921800202749370379]]"]
+  staff_policy:
+    detail: >-
+      Staff call the grind degenerate: "the optimal way to rank up is not improving your
+      gameplay, it's increasing how much time you spend grinding honour ... it gatekeeps some
+      good players with less time, and allows bad players with lots of time". Planned fix:
+      "a few requirements of participation to not receive diminished honor from a match".
+    era: pre-1.18.1
+    agreement: consensus (staff)
+    authority: staff (Akalix)
+    sources: ["[[d:pvp-general#1381887128253763644]]", "[[d:pvp-general#1381882090638934106]]", "[[d:pvp-general#1252020200337834046]]"]
+  tools:
+    detail: "players used HonorSpyTurtle (later withdrawn) or the published ranking formula"
+    era: pre-1.18.1
+    agreement: single source
+    sources: ["[[d:pvp-general#1422746608734306314]]"]
+
+hk_formula:
+  # The KB lists the per-kill honour formula as a gap; Discord has one concrete player reconstruction.
+  modifiers:
+    - "your level compared to the victim's"
+    - "the victim's rank"
+    - "how many people are in your group/raid nearby"
+    - "24h diminishing return for repeated kills of the same player"
+  detail: >-
+    "Honour granted for each kill is only affected by - your level compared to his - his rank -
+    how many people are in your group/raid nearby - how often you've already killed him in the
+    past 24h as you get 25% diminishing return".
+  dr_24h_percent: 25
+  falloff: "100% for the first kill, 75% for the second, and lower thereafter ('in AV divided by 40 the DR really fucks you')"
+  shared_among_nearby: true
+  shared_detail: "HK honour diminishes and is shared among all nearby players"
+  requested_change: "players repeatedly asked to cut the 24h honour DR (to ~1h) so open-world kills matter; no change confirmed in-corpus"
+  observed_values:
+    wsg_flag_capture: "~455 honour"
+    open_world_warmode_kill: "~400-500 honour"
+  era: pre-1.18.1
+  agreement: "consensus that the 24h DR exists and HK is shared; the exact coefficients are single source"
+  sources: ["[[d:pvp-general#1212658441215287326]]", "[[d:pvp-general#1119777672583708753]]", "[[d:pvp-general#1106205535763714178]]", "[[d:pvp-general#1057555748554559518]]", "[[d:pvp-general#1059641996056203347]]", "[[d:pvp-general#1260222976465305642]]"]
+
+battlegrounds:
+  - name: Warsong Gulch
+    role: "capture-the-flag BG; the jump/parkour meta"
+    flag_carrier_slow_percent: 30
+    detail: >-
+      Flag carrier is slowed 30% to force contact; this is the same anti-stall mechanism as the
+      1.18.0 stacking FC debuff. Jump/parkour spots were the core skill expression and grievance.
+      Staff kept the spots but added out-of-bounds discouragement: a majority does not want
+      "a glorified parkour gym" and hour-long stalls, while removing every spot makes the map
+      stale for veterans.
+    era: pre-1.18.1
+    agreement: "consensus (player) / consensus (staff rationale)"
+    authority: "player + staff"
+    sources: ["[[d:pvp-general#1006068996988215387]]", "[[d:pvp-general#1381882667485888514]]", "[[d:pvp-general#1381891955088166912]]"]
+  - name: Arathi Basin
+    role: "resource-control BG; pops on its daily"
+    detail: "when it is AB day it almost always pops; a levelling-AB snapshot showed '4 warrior 4 paladin 2 hunter in WSG and that is the normal alliance team'"
+    era: mixed
+    agreement: consensus
+    sources: ["[[d:pvp-general#1380460999785578498]]", "[[d:pvp-general#1433040062240526501]]"]
+  - name: Alterac Valley
+    role: "large-scale BG, historically the honour-efficiency outlier"
+    map_knowledge:
+      - "IBGY (Iceblood Graveyard) is far more defensible than SH (Stonehearth)"
+      - "Horde warmasters AoE much harder than the Alliance NPC equivalents"
+      - "Alliance bunkers could be capped from the second-floor weapon rack without clearing the archers (exploit-ish geometry, early-vanilla AV era)"
+      - "Aid-station safespot: hug the mountainside and bypass IWB to safespot on the aid tent or SPGY"
+    honor_note: >-
+      AV was repeatedly nerfed to push players into WSG/AB; players expected further cuts
+      ("the devs will continue nerfing AV's honor").
+    era: pre-1.18.1
+    agreement: consensus
+    sources: ["[[d:pvp-general#1015344576342523935]]", "[[d:pvp-general#1015391947927588935]]", "[[d:pvp-general#1015315873084493935]]", "[[d:pvp-general#1119713704854945983]]", "[[d:pvp-general#1059889524404129945]]"]
+  - name: Sunnyglade Valley
+    role: "custom BG, chronically underplayed"
+    detail: >-
+      "I honestly like Sunnyglade. Too bad almost nobody queues for it". Akalix polled the
+      channel "AV revert? Like or Dislike Sunnyglade removal?" before the 1.18.1 notes disabled
+      it. It is the KB's go-to example of a dead BG.
+    era: pre-1.18.1
+    agreement: consensus
+    authority: "player + staff (Akalix poll)"
+    sources: ["[[d:pvp-general#1381904693474758696]]", "[[d:pvp-general#1381904006032658533]]"]
+  - name: Blood Ring
+    role: "Turtle's arena (see arena section)"
+    era: pre-1.18.1
+    agreement: consensus
+    sources: ["[[d:pvp-general#1381294933796978769]]"]
+
+battleground_queue:
+  call_to_arms:
+    detail: >-
+      Daily Call to Arms rotation doubles win honour; on WSG/Blood Ring days the losing side also
+      gets some honour. All BGs except Sunnyglade Valley ran regularly by mid-2025. Players
+      tracked the rotation with the third-party `turtle-timer` site.
+    era: pre-1.18.1
+    agreement: consensus
+    sources: ["[[d:pvp-general#1383395973497094226]]", "[[d:pvp-general#1380460999785578498]]"]
+  queue_asymmetry:
+    detail: "generally Alliance has faster queues but less coordination (staff)"
+    era: pre-1.18.1
+    agreement: single source
+    authority: staff
+    sources: ["[[d:pvp-general#1381889760037179444]]"]
+
+dampening:
+  # 1.18.0 universal BG/arena buff-debuff; KB forum staff (Jamey 2025-06-10, p=134968) is the
+  # authoritative value list; Discord adds scope clarification and player reception.
+  introduced: "1.18.0"
+  scope: "battlegrounds and arenas only; NOT open world"
+  class_specific_1180: false
+  effects:
+    physical_damage_taken: "-15%"
+    magical_damage_taken: "-20%"
+    healing_taken: "-20%"
+    absorb_shields: "-15%"
+    mana_costs: "-20% in arenas/BGs"
+  handles_absorbs: "yes - 'Shields'/'Absorbs' means shielding abilities (PW:S etc.), not shield items"
+  rationale: >-
+    Anti-burst: "make it so PvP isn't entirely 'who can explode the other person instantly
+    first' - but then classes which are built around bursting become significantly worse, and
+    classes with good sustain get significantly better". Numbers were not known to staff when
+    announced.
+  player_quote_of_notes: >-
+    "Beginning with Patch 1.18.0, every player who enters a Battleground or Arena will
+    automatically receive a universal buff/debuff that: Reduces incoming Physical Damage by x%.
+    Reduces incoming Magical Damage by x%. Reduces incoming Healing by x%. Reduces incoming
+    Shields by x%."
+  reception: >-
+    strongly negative; no visible buff/debuff so players doubted it was active; a bug report
+    asked for the missing -20% healing dampening; players worried about casters OOMing, the
+    interaction with consumes, and the DoT double-nerf with Resilience. It stacks with Resilience.
+  era: pre-1.18.1
+  agreement: consensus
+  authority: "staff (Akalix/Jamey) + player-quoted notes"
+  sources: ["[[d:pvp-general#1396098240633638942]]", "[[d:pvp-general#1381838614748594248]]", "[[d:pvp-general#1381837473058914445]]", "[[d:pvp-general#1381887792241578014]]", "[[d:pvp-general#1381890754753859654]]", "[[d:pvp-general#1381890266377621575]]", "[[d:pvp-general#1406266691415183391]]", "[[d:pvp-general#1406311150207107165]]", "[[d:pvp-general#1381903114717761598]]", "[[d:pvp-general#1381913452435734651]]", "[[d:pvp-general#1382015304271396914]]", "[[d:pvp-general#1406279520146690179]]"]
+  superseded_by: >-
+    1.18.1 makes the reductions dynamic per class/spec instead of a flat number (forum staff
+    Jamey, 2026-01-23, p=166071) - the exact completion of what the channel predicted.
+    THE DISCORD CORPUS CONTAINS NO post-1.18.1 NUMBERS.
+
+resilience_history:
+  original: "crit-avoidance, mostly a PvE tank stat to remove crits from bosses"
+  rework_2024:
+    detail: >-
+      "Resilience is seeing a complete rework. Instead of reducing your chance to be critically
+      struck, it will instead reduce the damage of critical strikes and damage over time effects
+      on you, making it much more oriented for PvP combat, as it was mostly utilized by PvE
+      tanks to get rid of critical strikes from bosses". Corroborated: "When Resilience changes
+      from crit reduction to DoT + Crit Damage...".
+    era: pre-1.18.1
+    agreement: consensus
+    authority: "player quoting the forum change + corroboration"
+    sources: ["[[d:pvp-general#1235510685275000842]]", "[[d:pvp-general#1278439488493977741]]"]
+  shipped_values:
+    per_item: "3%"
+    example: "every AB armor piece (shoulder, belt, boots, cloak) ~12% + set bonus; ~15% typical total"
+    verdict: "generally judged too weak ('15% resilience isn't that great')"
+    era: pre-1.18.1
+    agreement: consensus
+    sources: ["[[d:pvp-general#1283057585733369906]]", "[[d:pvp-general#1301115279228670014]]", "[[d:pvp-general#1304464263405899839]]"]
+  player_verdict_2024:
+    detail: >-
+      "the last change they provided was the resilience one which had predictable results -
+      useless in PvP and picked up for cheese in PvE"; some asked whether it still worked in PvE
+      at all. Others feared it would make sustain specs unkillable and double-nerf DoTs with
+      dampening.
+    era: pre-1.18.1
+    agreement: "consensus on the verdict; contested on the predictions"
+    sources: ["[[d:pvp-general#1301548197700833280]]", "[[d:pvp-general#1296604348440248393]]", "[[d:pvp-general#1243988391159136286]]", "[[d:pvp-general#1301103905538834432]]"]
+  supersession: >-
+    The Discord description is the ~May 2024 crit-damage+DoT version. The later forum staff
+    statement (Torta, 2025-12-02, p=161356) - "Resilience now reduces the entire critical damage
+    taken, not just the bonus critical damage" - SUPERSEDES it. Do not present the 2024
+    description as current.
+
+cc_diminishing:
+  status: contested
+  summary: >-
+    The reliable summary: fear/charm/polymorph-style CC and snare DR behave vanilla-ly; stuns
+    sit on a small number of categories (Kidney Shot separate); Turtle did NOT ship a
+    TBC/WotLK-style unified DR ruleset in this corpus.
+  stun_categories:
+    detail: >-
+      Beta tester: "Kidney Shot does not share diminishing returns with anything. All other
+      stuns are on another diminishing returns timer." This implies at most two stun categories.
+    authority: beta tester
+    era: pre-1.18.1
+    agreement: "single authority, corroborated by separate player claims that HoJ has a DR separate from rogue stuns"
+    sources: ["[[d:pvp-general#1298323517976219660]]", "[[d:pvp-general#1119216134558863440]]", "[[d:pvp-general#1117823407543824404]]"]
+  snare_dr:
+    detail: "vanilla '3 applications then immune' rule (e.g. frost shock 'snare immune after 3')"
+    era: pre-1.18.1
+    agreement: single source
+    sources: ["[[d:pvp-general#1112057125301125240]]"]
+  contested_no_dr:
+    detail: >-
+      A blunt player claim that "diminishing returns on CC effects isn't a thing" and that
+      trinkets/consumables/racials are the real counterplay. Contradicted by the stun/snare DR
+      statements above; best read as "no TBC-style shared category for all CC", not "no DR".
+    era: pre-1.18.1
+    agreement: contested
+    sources: ["[[d:pvp-general#1142229826846064772]]"]
+  tactical_note:
+    detail: "chaining cheap short stuns can consume the stun DR category and grant the target effective immunity to the next big stun (blackout chain example)"
+    era: pre-1.18.1
+    agreement: single source
+    sources: ["[[d:pvp-general#1128459322834296902]]"]
+
+consumables:
+  engineering:
+    detail: >-
+      near-mandatory for serious PvP: "grenades and reflectors are the meat and potatoes for any
+      pvper"; grenades are valued as a skillful ranged interrupt. Named toolbelt: net, rocket
+      helm, rocket boots, gnomish boots, tidal charm, grenade, mind-control cap. Hateforge is the
+      non-engineering net trinket.
+    era: pre-1.18.1
+    agreement: consensus
+    sources: ["[[d:pvp-general#1098200936477888524]]", "[[d:pvp-general#1090867020880429156]]", "[[d:pvp-general#1112055482480336987]]", "[[d:pvp-general#1035765902857207828]]"]
+  free_action_potion:
+    detail: >-
+      FAP prevents slows/roots but does NOT break existing ones, so it must be pre-popped
+      ("Can't get hamstringed if u prepop a fap"); the same thread distinguishes LAP (Limited
+      Action Potion) from FAP. LIP is the physical-damage/anti-melee potion.
+    era: pre-1.18.1
+    agreement: consensus
+    sources: ["[[d:pvp-general#1030433235940937738]]", "[[d:pvp-general#1030433592771362846]]"]
+  protection_potions:
+    detail: >-
+      resistance/protection potions are the standard counter to specific damage: shadow
+      protection potion vs locks/spriests, holy vs paladins, poison-res elixirs vs rogues/hunters.
+      "Whole vanilla feels like it's built around trinkets and pots".
+    era: pre-1.18.1
+    agreement: consensus
+    sources: ["[[d:pvp-general#1114083883709911041]]"]
+  reflector_level_requirements:
+    detail: "frost 47, fire 53, shadow 55 (2022); a petition asked to bring all to 47 for the 49 bracket"
+    era: pre-1.18.1
+    agreement: single source
+    sources: ["[[d:pvp-general#1016849412451991652]]"]
+  arena_consume_ban:
+    detail: >-
+      Concrete player proposals: ban FAP/LIP and replace 3v3 with 2v2; an assertion that "rated
+      arena will not allow consums" is UNCONFIRMED. KB staff confirm only that arena
+      consume/cooldown restrictions were planned.
+    era: pre-1.18.1
+    agreement: contested
+    sources: ["[[d:pvp-general#1268689704341999656]]", "[[d:pvp-general#1380953202484056115]]"]
+  bg_death_persistence:
+    detail: "consumables are not expected to carry between BG deaths (KB staff 2024-02-01) - Discord supports the 'consuming is not a barrier to entry' framing"
+    era: pre-1.18.1
+    agreement: consensus
+
+world_pvp:
+  war_mode:
+    detail: >-
+      Opt-in via glyph/NPC, primarily taken for the XP bonus. Toggle could be disabled once
+      before level 60. KB's 2025-08 staff redesign (toggle at Battlemaster, ends at 60) is the
+      later authoritative version.
+    era: pre-1.18.1
+    agreement: consensus
+    sources: ["[[d:pvp-general#1301687319933227109]]"]
+  population_reality:
+    detail: >-
+      "90% of people that use it don't even fight back - it's used mostly for the experience
+      boost"; "the amount of organic pvp encounters is absolutely miniscule compared to an actual
+      PvP server"; "80-90% ish of other players you will encounter are hardcore or PvE".
+    era: pre-1.18.1
+    agreement: consensus
+    sources: ["[[d:pvp-general#1288438284854497351]]", "[[d:pvp-general#1288438002334306314]]"]
+  asymmetric_flagging:
+    detail: "un-flagged PvE players can attack flag-holders (charge a pyroblast from 'safe pve mode') with no reciprocal risk; matches KB staff 2023-03-02"
+    era: pre-1.18.1
+    agreement: single source
+    sources: ["[[d:pvp-general#1260222777483333712]]"]
+  dishonorable_kills:
+    detail: >-
+      Under the early rule DHKs came from civilian NPCs, not low-level players ("Killing low
+      level players does not grant any dhk penalty"); any HK bumped a player positive, so
+      negative-rank titles required civilian grinding and avoiding PvP. The KB staff redefinition
+      (Torta, 2023-12-12, p=80839: DHKs for killing grey-level players) SUPERSEDES this.
+    era: pre-1.18.1
+    agreement: consensus
+    sources: ["[[d:pvp-general#1042784841055354930]]", "[[d:pvp-general#1042785048404967424]]"]
+    superseded_by: "https://forum.turtlecraft.gg/viewtopic.php?p=80839#p80839"
+  bounty_boards:
+    detail: "existed but were unmaintained; Alliance bounty quests pointed at the same inactive player for ~6 months"
+    era: pre-1.18.1
+    agreement: single source
+    sources: ["[[d:pvp-general#1095357463202643968]]"]
+
+premade_queue:
+  status: contested
+  detail: >-
+    Reports conflict within the same year: "Premades are disabled on BGs on Turtle" (2023-04-06)
+    vs "Premades are not disabled" (2023-07-27); players still described "semi premades in AB and
+    WSG" and a persistent Alliance premade into 2025. Likely a group-queue size/matching change,
+    not a clean hard disable. Group queueing was real ("you can group queue bgs ez").
+  era: pre-1.18.1
+  agreement: contested
+  sources: ["[[d:pvp-general#1093569073578770566]]", "[[d:pvp-general#1134177832835240007]]", "[[d:pvp-general#1089541071136112793]]", "[[d:pvp-general#1341466559645745223]]", "[[d:pvp-general#1091769380863483985]]"]
+
+arena:
+  blood_ring:
+    detail: >-
+      Turtle's arena: historically 2v2, later 3v3 on the Blade's Edge map (only one map in 2025).
+      It often failed to pop because rewards were thin (~3 HKs/game). Players asked for 2v2 back
+      and for a rated 2v2 arena.
+    era: pre-1.18.1
+    agreement: consensus
+    sources: ["[[d:pvp-general#1381294933796978769]]", "[[d:pvp-general#1224429862211682434]]", "[[d:pvp-general#1249389435485819054]]", "[[d:pvp-general#1281287328178114570]]", "[[d:pvp-general#1212527345353887795]]"]
+  rules:
+    detail: "KB forum staff rules (pet trinkets banned, world buffs stripped on entry, soul shards refunded, unlimited prep mana) are authoritative; Discord adds player-suggested extensions (ban FAP/LIP, new map)"
+    sources: ["[[d:pvp-general#1268689704341999656]]"]
+  cross_faction:
+    detail: "Akalix pushed x-faction Blood Ring internally: 'X-Faction Blood Ring is a big thing I've been saying needs in, but man vanilla hates crossfaction PvP lol'. KB records Blood Ring going cross-faction."
+    era: pre-1.18.1
+    agreement: single authority (staff)
+    sources: ["[[d:pvp-general#1252023586114375731]]"]
+  rated_arena:
+    detail: "rated arena was the headline 1.18.0/1.18.1 promise; consume/cooldown restrictions came later in the KB"
+    era: pre-1.18.1
+    agreement: consensus
+    sources: ["[[d:pvp-general#1403706029795180635]]", "[[d:pvp-general#1401628696846008361]]"]
+
+world_pvp_events:
+  detail: >-
+    In-corpus the Tarren Mill vs Southshore world event was still a player wish ("turtle wow
+    should make their own version of tarren mill vs southshore tho"); it later appears in the
+    1.18.1 notes as the Redwall Keep / TM-vs-SS events (KB). KB staff (2025-12-02) say open-world
+    PvP will not return in its old form because of cinematic-kill abuse.
+  era: pre-1.18.1
+  agreement: consensus
+  sources: ["[[d:pvp-general#1385397180298170524]]"]
+
+cross_faction_bg:
+  detail: >-
+    Announced for 1.18.0 or 1.18.1 ("Crossfaction BGs are likely 1.18.0, if not, 1.18.1", staff)
+    and shipped (live 2025-11-04 per KB); mixed-faction premades remain impossible (KB staff).
+    Players argued both sides.
+  era: pre-1.18.1
+  agreement: consensus
+  authority: "staff + player"
+  sources: ["[[d:pvp-general#1393688963285254175]]", "[[d:pvp-general#1333932558303367198]]"]
+
+sources:
+  scope: "staging/pvp-general-a (dossier.md, findings.yaml, delta.md, evidence-pvp-general.jsonl)"
+  evidence_file: "structured/discord/evidence-pvp-general.jsonl"
+  resolvable: true
+  note: >-
+    Every [[d:pvp-general#<id>]] above resolves in the canonical evidence file. Forum staff
+    statements referenced inline (p=67819, p=134968, p=161356, p=80839, p=166071) are the KB's
+    forum-sourced authority and outrank the Discord-era descriptions where they conflict
+    (resilience, dishonorable kills, final dampening).

@@ -1,6 +1,7 @@
 class: Druid
 spec: Feral
 role: melee-dps
+guide: guide/classes/druid/feral-cat.md
 sources:
 - url: https://forum.turtlecraft.gg/viewtopic.php?p=172912#p172912
   author: Gorlocktheglock
@@ -66,77 +67,905 @@ sources:
   author: Torta
   authority: staff
   date: '2026-03-21'
+- cite: '[[d:druid#1460992604417032421]]'
+  author: Micro Jackson
+  authority: player (most prolific answerer)
+  date: '2026-01-14'
+  era: 1.18.1-announced-pre-release
+  agreement: consensus
+- cite: '[[d:druid#1469085187966111776]]'
+  author: Gustafssonz
+  authority: player
+  date: '2026-02-06'
+  era: 1.18.1-announced-pre-release
+  agreement: single source
+- cite: '[[d:druid#1492276296808661174]]'
+  author: Ash
+  authority: player (veteran raider)
+  date: '2026-04-11'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:druid#1480881704733511861]]'
+  author: 'Discord #druid'
+  authority: players
+  date: '2026-03-12'
+  era: 1.18.1-announced-pre-release
+  agreement: consensus
+- cite: '[[d:druid#1469613082983530559]]'
+  author: Fat Pibble with Air Pods
+  authority: staff (class designer)
+  date: '2026-02-07'
+  era: 1.18.1-announced-pre-release
+  agreement: consensus
 agreement: contested
 patch_validity:
   written_for: 1.17.2 / 1.18.0 (Class Changes 2 talent trees, bleed build introduced Oct 2024, became meta ~April-June 2025)
   valid_for_1181: true
   notes: '1.18.1 shipped no direct Feral DPS talent/ability changes; only a tank-threat nerf (irrelevant to DPS), two item
     hotfixes (Yoxtez +224 FAP, Fang of Alichos usable in forms) and a Kara40 armor-ignore trinket nerf that hurt cat itemization.
-    Post-1.18.1 community view: cat is ''no longer the worst DPS spec — moonkin is'' (still near-bottom).'
+    Post-1.18.1 community view (consensus): Claw still beats Shred on every non-bleed-immune boss; cat is ''no longer the
+    worst DPS spec - moonkin is'' [[d:druid#1492276296808661174]] [[d:druid#1486095894875996311]]. The forum KB''s ''builds
+    cannot be decoded from text'' gap is now CLOSED by staging/talents: the dominant build is a decoded 11/35/5 [[d:druid#1413144334336790652]].'
+discord:
+  channel: druid
+  scope: feral cat rotation/stat/gear detail, mostly 1.18.0-1.18.1 era; forum baseline retained
+  sources:
+  - id: '1413144334336790652'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: Pinned feral leveling/endgame build decodes to Balance 11 / Feral 35 / Restoration 5 (dominant cat build 2022-2026);
+      'go Feral Swiftness first, at 30 respec into Omen, then continue down feral'
+  - id: '1492276296808661174'
+    era: post-1.18.1
+    agreement: consensus
+    claim: '''if the boss is not bleed immune Claw will always out dps Shred if played well... all top [1.18.1] parses are
+      using claw''; Idol of Ferocity remains BIS, the bleed-duration idol only for bleed immunes'
+  - id: '1379110362720505948'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: '''bleeds are there to empower your claw, not to deal damage'' - Claw is the damage, bleeds are energy/Opening-Wounds
+      setup'
+  - id: '1379245993777828001'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: '''get bleeds asap including 1 combo point rip'' - a 1-CP Rip is correct for Ancient Brutality ticks'
+  - id: '1465494310060425328'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    claim: Bleeds+Shred with the Gnarlmoon idol vs pure Claw with Idol of Ferocity are close, Claw usually ahead; 'they both
+      shit on simply shred, no bleed, powershift'
+  - id: '1474083543985684691'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: Hit is the best stat until 5% gear + 3% Natural Weapons = 8%, then exactly zero value ('every point of hit has
+      the same value till 5%')
+  - id: '1379019592516636734'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    claim: 1% melee crit is worth ~31 attack power for cat
+  - id: '1356892169587392522'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    claim: 'After the Ancient Brutality rework Int/Mana is dead weight for feral: ''126 Int worth of stats is basically lost''
+      on T3.5'
+  - id: '1473623513289199667'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: 'Cat scaling is one-dimensional: hitting crit cap, very low hit cap, no weapon skill, low haste value, AP the only
+      scaling; Fortune cannot be used'
+  - id: '1474308606412329023'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: 'Fortune / chance-on-hit is dead for feral: ''10% proc chance on 0% proc chance remains 0''; chance-on-equip still
+      works [[d:druid#1474308602901692426]]'
+  - id: '1378786659751034930'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    claim: 'Energy-tick powershift rule: ''dot -> claw/shred/fb. Ps when energy<20 or 15, no energy-tick check. Ps for claw
+      when 35<energy<40 with energy tick at the 1.7s mark, otherwise cast rake'''
+  - id: '1379632585579302923'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    claim: 'Bleed-immunity map: Baron Geddon can be Raked but not Ripped'
+  - id: '1357078255156596956'
+    era: pre-1.18.1
+    agreement: single source
+    claim: 'Kara40: >50% of mobs immune to bleeds; worgen adds immune [[d:druid#1357383852103831572]]; Anomalus immune [[d:druid#1360632960835125368]]'
+  - id: '1357888923397001407'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    claim: 'Naxx: every boss bleedable except KT and Saph; ''AQ40 gets to a point where it''s so fast you better not bleed'''
+  - id: '1379915071475548191'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: Wolfshead Helm effect moved to a repeatable helm enchant (Wolfsheart, 20 energy) - a helm is no longer required
+  - id: '1412860092692299806'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: 'Pinned FAQ: MCP works no more (30-min CD, not in form); weapon is a stat stick; chance-on-hit does not work in
+      form; melee hit cap 8%'
+  - id: '1401730050738487519'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: 'Post-1.18 tree is point-starved: with Furor+Omen locked in and Open Wounds at 3 points, cats are one point short
+      of a full DPS build'
+  - id: '1484464772115206204'
+    era: post-1.18.1
+    agreement: single source
+    claim: 'Leveling weapon stat-stick progression: Smite''s Mighty Hammer 18 -> Manual Crowd Pummeler 28 -> Thornroot Maul
+      32 -> Grimlock''s Charge 42 -> Ice Barbed Spear 51 -> gear sheet'
+  - id: '1475223670724231231'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: Cat has no real AoE and does not need one; raid value is Innervate/CR, Faerie Fire and crit aura
 talents:
-  build_name: Bleed/Claw build vs. Powershift build (both actively played; no decoded full 60-point list found)
-  build_link: https://talents.turtlecraft.gg/druid?points=BSAaAIAAAAAAAAFAYQRYTSAKEQBAAoAAAAAAAAAAAAA%3D (Bigsmerf, 2024-11-03,
-    structurally still valid)
+  build_name: Raid cat 11/35/5 (bleed/Claw; Micro Jackson "normal is 11/35/5", top-parser build)
+  build_link: https://talents.turtlecraft.gg/druid?points=BSAaAI-FgADAaDSQIFQB-Ao
+  build_link_note: Exact allocation of Micro Jackson's screenshot [[d:druid#1460992604417032421]] and the top-parsing cat
+    build [[d:druid#1469085187966111776]]. Bleed-vs-powershift is a rotation choice inside this build. Validated with talent_tool.py
+    against the 1.18.1 tree.
   points:
-  - tree: Feral
+  - tree: Balance
+    talent: Nature's Grasp
+    rank: 1
+    spell_id: 16689
+  - tree: Balance
+    talent: Improved Nature's Grasp
+    rank: 2
+    spell_id: 17247
+  - tree: Balance
+    talent: Sylvan Blessing
+    rank: 2
+    spell_id: 51422
+  - tree: Balance
+    talent: Natural Weapons
+    rank: 3
+    spell_id: 45717
+  - tree: Balance
+    talent: Natural Shapeshifter
+    rank: 2
+    spell_id: 16834
+  - tree: Balance
     talent: Omen of Clarity
     rank: 1
     spell_id: 16864
-    talent_id: 310
-  - tree: Feral
-    talent: Furor
+  - tree: Feral Combat
+    talent: Ferocity
+    rank: 5
+    spell_id: 16938
+  - tree: Feral Combat
+    talent: Feral Aggression
+    rank: 4
+    spell_id: 16861
+  - tree: Feral Combat
+    talent: Open Wounds
     rank: 3
-    spell_id: 17059
-    talent_id: 286
-  - tree: Feral
-    talent: Blood Frenzy
-    rank: 2
-    spell_id: 45722
-    talent_id: 278
-  - tree: Feral
+    spell_id: 51404
+  - tree: Feral Combat
+    talent: Sharpened Claws
+    rank: 3
+    spell_id: 16944
+  - tree: Feral Combat
     talent: Primal Fury
     rank: 2
     spell_id: 45720
-    talent_id: 276
-  - tree: Feral
+  - tree: Feral Combat
+    talent: Predatory Strikes
+    rank: 3
+    spell_id: 16975
+  - tree: Feral Combat
+    talent: Blood Frenzy
+    rank: 2
+    spell_id: 45722
+  - tree: Feral Combat
     talent: Improved Shred
     rank: 2
     spell_id: 16968
-    talent_id: 279
-  - tree: Feral
-    talent: Open Wounds (bleed build only)
-    rank: 3
-    spell_id: 51404
-    talent_id: 272
-  - tree: Feral
-    talent: 'Ancient Brutality (bleed build: cat-form bleed-tick energy)'
-    rank: 3
+  - tree: Feral Combat
+    talent: Ancient Brutality
+    rank: 2
     spell_id: 51416
-    talent_id: 280
-  - tree: unspecified
-    talent: remainder (link not decodable from text)
-    rank: null
-    spell_id: null
-  leveling_order:
-  - level: 20
-    tree: Feral
-    talent: Feral Swiftness (cat movement speed)
-  - level: 20
-    tree: Feral
-    talent: Omen of Clarity
-  - level: 25
-    tree: Feral
+  - tree: Feral Combat
+    talent: Berserk
+    rank: 1
+    spell_id: 45708
+  - tree: Feral Combat
+    talent: Heart of the Wild
+    rank: 5
+    spell_id: 24894
+  - tree: Feral Combat
+    talent: Carnage
+    rank: 2
+    spell_id: 16999
+  - tree: Feral Combat
+    talent: Leader of the Pack
+    rank: 1
+    spell_id: 17007
+  - tree: Restoration
     talent: Furor
-  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=druid&t=0000000001-00000300020222-03
-  build_link_tortoise_note: 'Generated from the sourced points list (15 points: Balance 1, Feral Combat 11, Restoration 3);
+    rank: 5
+    spell_id: 17061
+  alternative_points:
+  - build_name: Improved Nature's Grasp 4/4 filler (TowelDruid raid build)
+    note: Same Feral/Resto points; no Sylvan Blessing [[d:druid#1472736983225995436]]
+    code: BgAaAI-FgADAaDSQIFQB-Ao
+    split: 11/35/5
+    points:
+    - tree: Balance
+      talent: Nature's Grasp
+      rank: 1
+      spell_id: 16689
+    - tree: Balance
+      talent: Improved Nature's Grasp
+      rank: 4
+      spell_id: 17249
+    - tree: Balance
+      talent: Natural Weapons
+      rank: 3
+      spell_id: 45717
+    - tree: Balance
+      talent: Natural Shapeshifter
+      rank: 2
+      spell_id: 16834
+    - tree: Balance
+      talent: Omen of Clarity
+      rank: 1
+      spell_id: 16864
+    - tree: Feral Combat
+      talent: Ferocity
+      rank: 5
+      spell_id: 16938
+    - tree: Feral Combat
+      talent: Feral Aggression
+      rank: 4
+      spell_id: 16861
+    - tree: Feral Combat
+      talent: Open Wounds
+      rank: 3
+      spell_id: 51404
+    - tree: Feral Combat
+      talent: Sharpened Claws
+      rank: 3
+      spell_id: 16944
+    - tree: Feral Combat
+      talent: Primal Fury
+      rank: 2
+      spell_id: 45720
+    - tree: Feral Combat
+      talent: Predatory Strikes
+      rank: 3
+      spell_id: 16975
+    - tree: Feral Combat
+      talent: Blood Frenzy
+      rank: 2
+      spell_id: 45722
+    - tree: Feral Combat
+      talent: Improved Shred
+      rank: 2
+      spell_id: 16968
+    - tree: Feral Combat
+      talent: Ancient Brutality
+      rank: 2
+      spell_id: 51416
+    - tree: Feral Combat
+      talent: Berserk
+      rank: 1
+      spell_id: 45708
+    - tree: Feral Combat
+      talent: Heart of the Wild
+      rank: 5
+      spell_id: 24894
+    - tree: Feral Combat
+      talent: Carnage
+      rank: 2
+      spell_id: 16999
+    - tree: Feral Combat
+      talent: Leader of the Pack
+      rank: 1
+      spell_id: 17007
+    - tree: Restoration
+      talent: Furor
+      rank: 5
+      spell_id: 17061
+  - build_name: Shred-heavy Ferocity 4 / Feral Aggression 5 (Alfras)
+    note: More Ferocious Bite damage for Shred-heavy raids [[d:druid#1458706720804307136]]
+    code: BSAaAI-EoADAaDSQIFQB-Ao
+    split: 11/35/5
+    points:
+    - tree: Balance
+      talent: Nature's Grasp
+      rank: 1
+      spell_id: 16689
+    - tree: Balance
+      talent: Improved Nature's Grasp
+      rank: 2
+      spell_id: 17247
+    - tree: Balance
+      talent: Sylvan Blessing
+      rank: 2
+      spell_id: 51422
+    - tree: Balance
+      talent: Natural Weapons
+      rank: 3
+      spell_id: 45717
+    - tree: Balance
+      talent: Natural Shapeshifter
+      rank: 2
+      spell_id: 16834
+    - tree: Balance
+      talent: Omen of Clarity
+      rank: 1
+      spell_id: 16864
+    - tree: Feral Combat
+      talent: Ferocity
+      rank: 4
+      spell_id: 16937
+    - tree: Feral Combat
+      talent: Feral Aggression
+      rank: 5
+      spell_id: 16862
+    - tree: Feral Combat
+      talent: Open Wounds
+      rank: 3
+      spell_id: 51404
+    - tree: Feral Combat
+      talent: Sharpened Claws
+      rank: 3
+      spell_id: 16944
+    - tree: Feral Combat
+      talent: Primal Fury
+      rank: 2
+      spell_id: 45720
+    - tree: Feral Combat
+      talent: Predatory Strikes
+      rank: 3
+      spell_id: 16975
+    - tree: Feral Combat
+      talent: Blood Frenzy
+      rank: 2
+      spell_id: 45722
+    - tree: Feral Combat
+      talent: Improved Shred
+      rank: 2
+      spell_id: 16968
+    - tree: Feral Combat
+      talent: Ancient Brutality
+      rank: 2
+      spell_id: 51416
+    - tree: Feral Combat
+      talent: Berserk
+      rank: 1
+      spell_id: 45708
+    - tree: Feral Combat
+      talent: Heart of the Wild
+      rank: 5
+      spell_id: 24894
+    - tree: Feral Combat
+      talent: Carnage
+      rank: 2
+      spell_id: 16999
+    - tree: Feral Combat
+      talent: Leader of the Pack
+      rank: 1
+      spell_id: 17007
+    - tree: Restoration
+      talent: Furor
+      rank: 5
+      spell_id: 17061
+  - build_name: Off-tank cat = the bear build
+    note: See feral-tank.yaml [[d:druid#1444972730033377300]]
+    code: BSAaAI-FAYYBaDSQIFQB-Ao
+    split: 11/35/5
+    points:
+    - tree: Balance
+      talent: Nature's Grasp
+      rank: 1
+      spell_id: 16689
+    - tree: Balance
+      talent: Improved Nature's Grasp
+      rank: 2
+      spell_id: 17247
+    - tree: Balance
+      talent: Sylvan Blessing
+      rank: 2
+      spell_id: 51422
+    - tree: Balance
+      talent: Natural Weapons
+      rank: 3
+      spell_id: 45717
+    - tree: Balance
+      talent: Natural Shapeshifter
+      rank: 2
+      spell_id: 16834
+    - tree: Balance
+      talent: Omen of Clarity
+      rank: 1
+      spell_id: 16864
+    - tree: Feral Combat
+      talent: Ferocity
+      rank: 5
+      spell_id: 16938
+    - tree: Feral Combat
+      talent: Feral Instinct
+      rank: 3
+      spell_id: 16949
+    - tree: Feral Combat
+      talent: Thick Hide
+      rank: 3
+      spell_id: 16931
+    - tree: Feral Combat
+      talent: Feral Charge
+      rank: 1
+      spell_id: 16979
+    - tree: Feral Combat
+      talent: Sharpened Claws
+      rank: 3
+      spell_id: 16944
+    - tree: Feral Combat
+      talent: Primal Fury
+      rank: 2
+      spell_id: 45720
+    - tree: Feral Combat
+      talent: Predatory Strikes
+      rank: 3
+      spell_id: 16975
+    - tree: Feral Combat
+      talent: Blood Frenzy
+      rank: 2
+      spell_id: 45722
+    - tree: Feral Combat
+      talent: Improved Shred
+      rank: 2
+      spell_id: 16968
+    - tree: Feral Combat
+      talent: Ancient Brutality
+      rank: 2
+      spell_id: 51416
+    - tree: Feral Combat
+      talent: Berserk
+      rank: 1
+      spell_id: 45708
+    - tree: Feral Combat
+      talent: Heart of the Wild
+      rank: 5
+      spell_id: 24894
+    - tree: Feral Combat
+      talent: Carnage
+      rank: 2
+      spell_id: 16999
+    - tree: Feral Combat
+      talent: Leader of the Pack
+      rank: 1
+      spell_id: 17007
+    - tree: Restoration
+      talent: Furor
+      rank: 5
+      spell_id: 17061
+  leveling_order:
+  - level: 10
+    tree: Feral Combat
+    talent: Ferocity
+    rank: 1
+  - level: 11
+    tree: Feral Combat
+    talent: Ferocity
+    rank: 2
+  - level: 12
+    tree: Feral Combat
+    talent: Ferocity
+    rank: 3
+  - level: 13
+    tree: Feral Combat
+    talent: Ferocity
+    rank: 4
+  - level: 14
+    tree: Feral Combat
+    talent: Ferocity
+    rank: 5
+  - level: 15
+    tree: Feral Combat
+    talent: Open Wounds
+    rank: 1
+  - level: 16
+    tree: Feral Combat
+    talent: Open Wounds
+    rank: 2
+  - level: 17
+    tree: Feral Combat
+    talent: Open Wounds
+    rank: 3
+  - level: 18
+    tree: Feral Combat
+    talent: Feral Instinct
+    rank: 1
+  - level: 19
+    tree: Feral Combat
+    talent: Feral Instinct
+    rank: 2
+  - level: 20
+    tree: Feral Combat
+    talent: Feral Swiftness
+    rank: 1
+  - level: 21
+    tree: Feral Combat
+    talent: Feral Swiftness
+    rank: 2
+  - level: 22
+    tree: Feral Combat
+    talent: Feral Charge
+    rank: 1
+  - level: 23
+    tree: Feral Combat
+    talent: Sharpened Claws
+    rank: 1
+  - level: 24
+    tree: Feral Combat
+    talent: Sharpened Claws
+    rank: 2
+  - level: 25
+    tree: Feral Combat
+    talent: Sharpened Claws
+    rank: 3
+  - level: 26
+    tree: Feral Combat
+    talent: Blood Frenzy
+    rank: 1
+  - level: 27
+    tree: Feral Combat
+    talent: Blood Frenzy
+    rank: 2
+  - level: 28
+    tree: Feral Combat
+    talent: Predatory Strikes
+    rank: 1
+  - level: 29
+    tree: Feral Combat
+    talent: Predatory Strikes
+    rank: 2
+  - level: 30
+    respec: true
+    talent: RESPEC (reset all talents)
+    tree: '-'
+  - level: 30
+    tree: Balance
+    talent: Nature's Grasp
+    rank: 1
+  - level: 30
+    tree: Balance
+    talent: Improved Nature's Grasp
+    rank: 2
+  - level: 30
+    tree: Balance
+    talent: Sylvan Blessing
+    rank: 2
+  - level: 30
+    tree: Balance
+    talent: Natural Weapons
+    rank: 3
+  - level: 30
+    tree: Balance
+    talent: Natural Shapeshifter
+    rank: 2
+  - level: 30
+    tree: Balance
+    talent: Omen of Clarity
+    rank: 1
+  - level: 30
+    tree: Feral Combat
+    talent: Ferocity
+    rank: 5
+  - level: 30
+    tree: Feral Combat
+    talent: Open Wounds
+    rank: 3
+  - level: 30
+    tree: Feral Combat
+    talent: Feral Instinct
+    rank: 2
+  - level: 31
+    tree: Feral Combat
+    talent: Feral Instinct
+    rank: 3
+  - level: 32
+    tree: Feral Combat
+    talent: Feral Charge
+    rank: 1
+  - level: 33
+    tree: Feral Combat
+    talent: Sharpened Claws
+    rank: 1
+  - level: 34
+    tree: Feral Combat
+    talent: Sharpened Claws
+    rank: 2
+  - level: 35
+    tree: Feral Combat
+    talent: Sharpened Claws
+    rank: 3
+  - level: 36
+    tree: Feral Combat
+    talent: Blood Frenzy
+    rank: 1
+  - level: 37
+    tree: Feral Combat
+    talent: Blood Frenzy
+    rank: 2
+  - level: 38
+    tree: Feral Combat
+    talent: Predatory Strikes
+    rank: 1
+  - level: 39
+    tree: Feral Combat
+    talent: Predatory Strikes
+    rank: 2
+  - level: 40
+    tree: Feral Combat
+    talent: Predatory Strikes
+    rank: 3
+  - level: 41
+    tree: Feral Combat
+    talent: Ancient Brutality
+    rank: 1
+  - level: 42
+    tree: Feral Combat
+    talent: Ancient Brutality
+    rank: 2
+  - level: 43
+    tree: Feral Combat
+    talent: Primal Fury
+    rank: 1
+  - level: 44
+    tree: Feral Combat
+    talent: Primal Fury
+    rank: 2
+  - level: 45
+    tree: Feral Combat
+    talent: Berserk
+    rank: 1
+  - level: 46
+    tree: Feral Combat
+    talent: Heart of the Wild
+    rank: 1
+  - level: 47
+    tree: Feral Combat
+    talent: Heart of the Wild
+    rank: 2
+  - level: 48
+    tree: Feral Combat
+    talent: Heart of the Wild
+    rank: 3
+  - level: 49
+    tree: Feral Combat
+    talent: Heart of the Wild
+    rank: 4
+  - level: 50
+    tree: Feral Combat
+    talent: Heart of the Wild
+    rank: 5
+  - level: 51
+    tree: Feral Combat
+    talent: Carnage
+    rank: 1
+  - level: 52
+    tree: Feral Combat
+    talent: Carnage
+    rank: 2
+  - level: 53
+    tree: Feral Combat
+    talent: Leader of the Pack
+    rank: 1
+  - level: 54
+    tree: Feral Combat
+    talent: Feral Swiftness
+    rank: 1
+  - level: 55
+    tree: Feral Combat
+    talent: Feral Swiftness
+    rank: 2
+  - level: 56
+    tree: Restoration
+    talent: Furor
+    rank: 1
+  - level: 57
+    tree: Restoration
+    talent: Furor
+    rank: 2
+  - level: 58
+    tree: Restoration
+    talent: Furor
+    rank: 3
+  - level: 59
+    tree: Restoration
+    talent: Furor
+    rank: 4
+  - level: 60
+    tree: Restoration
+    talent: Furor
+    rank: 5
+  build_code_b36: 1E0K1-Y030KKEBD-5
+  split: 11/35/5
+  leveling_order_note: Feral Swiftness first, respec into Omen of Clarity at 30, Furor last; validated 11/35/5 at 60 (Hassle
+    leveling build); respec at 60 into the raid build (guide/classes/druid/leveling.md)
+  leveling_order_code_tree_b64: BSAaAI-FAYDRaDQQIFQB-Ao
+  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=druid&t=0122003201-540003003232221521-05
+  build_link_tortoise_note: 'Generated from the sourced points list (51 points: Balance 11, Feral Combat 35, Restoration 5);
     the calculator shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
+leveling_by_bracket:
+- bracket: 1-10
+  advice: Caster/melee only - no Bear Form until 10. '1-10 wrath spam'.
+  sources:
+  - '[[d:druid#1359148907841458309]]'
+  - '[[d:druid#1304615970706558986]]'
+  era: pre-1.18.1
+  agreement: consensus
+- bracket: 10-19
+  advice: '''10-22 bear'' - Bear Form + Swipe cleave is the fast early pattern; pull 2-3 with Moonfire/Insect Swarm then Bear-Swipe.'
+  sources:
+  - '[[d:druid#1359148907841458309]]'
+  era: pre-1.18.1
+  agreement: consensus
+- bracket: 20-29
+  advice: Cat Form at 20 makes Feral dominant ('23+ cat'); single-target Cat is faster than Bear AoE once geared.
+  sources:
+  - '[[d:druid#1359148907841458309]]'
+  - '[[d:druid#1294200479781355572]]'
+  - '[[d:druid#1294200215435219027]]'
+  era: pre-1.18.1
+  agreement: consensus
+- bracket: 30-39
+  advice: Respec into Omen of Clarity at 30 when Travel Form arrives; Swift Travel Form is a baseline questline from Loganaar,
+    Moonglade.
+  sources:
+  - '[[d:druid#1413144334336790652]]'
+  - '[[d:druid#1325097793362071574]]'
+  era: pre-1.18.1
+  agreement: consensus
+- bracket: 40-49
+  advice: Fill Feral (Predatory Strikes, Blood Frenzy, Improved Shred, Heart of the Wild); Feral Barkskin ranks at 44/52/60.
+  sources:
+  - '[[d:druid#1304615970706558986]]'
+  era: pre-1.18.1
+  agreement: single source
+- bracket: 50-60
+  advice: Berserk, Heart of the Wild 5, Leader of the Pack, Carnage.
+  sources:
+  - '[[d:druid#1304615970706558986]]'
+  era: pre-1.18.1
+  agreement: single source
+- bracket: weapons
+  advice: 'Stat-stick weapon progression (Micro Jackson): Smite''s Mighty Hammer 18, Manual Crowd Pummeler 28, Thornroot Maul
+    32, Grimlock''s Charge 42, Ice Barbed Spear 51, then the gear sheet at 60.'
+  sources:
+  - '[[d:druid#1484464772115206204]]'
+  era: post-1.18.1
+  agreement: single source
 stat_weights:
-  strength_agility: primary — forms convert weapon-slot items into flat Feral Attack Power/weapon damage ('stat-stick' scaling)
-  hit: high until cap (8%, or 5% with Natural Weapons 3/3); above-cap hit does nothing and cannot offset dodge/parry (weapon-skill-governed)
-  crit: medium-high, no numeric weight given (gap)
-  haste: contested — community argues item design overrates it; cat gets only ~20-30% of damage from autoattacks vs ~50% for
-    other melee (single source, unconfirmed)
-  intellect: contested dump stat on T2.5/T3.5 PvE sets; defended only as a PvP-survivability stat
+  priority: hit to 8% (5% gear) > Strength ~= Agility > Attack Power > crit (to soft cap 53.5%) > haste (contested) ; Int,
+    weapon skill, weapon DPS, Fortune, armor pen ~0
+  hit: every point equal to 5% from gear (+3% Natural Weapons = 8%), then zero [[d:druid#1474083543985684691]] [[d:druid#1491668912226435324]]
+  strength: 1 Str = 2.4 feral AP with Heart of the Wild [[d:druid#1491356797762797638]]
+  agility: 1 Agi = 1 AP + 0.05% crit (20 Agi = 1% crit) [[d:druid#1463132050713477163]]; Str vs Agi contested, very close
+    [[d:druid#1474744918055587900]]
+  attack_power: 1
+  crit: ~31 AP per 1% (single source) [[d:druid#1379019592516636734]]; soft cap 53.5% when hit-capped [[d:druid#1472205479097794595]]
+  haste: 'contested: vanilla sims call it worst; Turtle players value 1% ~26 AP due to permanent Tiger''s Fury and Omen procs
+    [[d:druid#1443944690142412931]]; good with T3.5 set'
+  intellect: 0
+  fortune: 0
+  weapon_skill: 0
+  weapon_dps: 0
+  note: No Turtle-correct stat weights exist; use Krokat feral-sim [[d:druid#1443940954225770580]] [[d:druid#1461294464055115799]]
+caps:
+  hit_cap_melee: 8% vs level-63 (5% from gear with Natural Weapons 3/3); ~5% vs level 61-62 trash [[d:druid#1447726944626938069]]
+  crit_soft_cap: 53.5% white-hit (hit capped); hard cap 93.5% [[d:druid#1472205479097794595]]
+  weapon_skill_in_form: fixed, no benefit from weapon skill; more glancing blows than other melee [[d:druid#1470810086275420367]]
+rotation_single:
+- priority: 0
+  action: 'Opener: Prowl -> Tiger''s Fury (before an energy tick) -> Pounce -> Rake -> Rip -> Claw to 5 -> Ferocious Bite;
+    no stealth: Faerie Fire (Feral)'
+  source: '[[d:druid#1426703699757105283]] [[d:druid#1381546501913972766]]'
+- priority: 1
+  action: Tiger's Fury
+  condition: buff (Blood Frenzy/TF) missing; off GCD
+  source: '[[d:druid#1463118416008183876]]'
+- priority: 2
+  action: Rip
+  condition: 'target bleedable AND Rip missing AND combo_points==5 (fight <30s: Rip at 1-3 CP)'
+  source: '[[d:druid#1437413011580256336]] [[d:druid#1482762940250718291]]'
+- priority: 3
+  action: Ferocious Bite
+  condition: combo_points==5 AND Rip up (Carnage refreshes Rip+Rake); on fast trash 4 CP ok; never <5 on bosses
+  source: '[[d:druid#1450153022339547290]] [[d:druid#1450167466859958433]]'
+- priority: 4
+  action: Rake
+  condition: target bleedable AND Rake missing
+  source: '[[d:druid#1462552241461268501]]'
+- priority: 5
+  action: Shred
+  condition: Clearcasting AND behind target
+  source: '[[d:druid#1427967004635037858]]'
+- priority: 6
+  action: Claw
+  condition: filler on bleedable targets
+  source: '[[d:druid#1492276296808661174]]'
+- priority: 7
+  action: Reshift
+  condition: energy < 28-32 AND Tiger's Fury < 3 s left AND no energy tick imminent; recast TF after (Reshift drops TF)
+  source: '[[d:druid#1480881704733511861]] [[d:druid#1482843960857722960]]'
+- priority: 8
+  action: 'Bleed-immune target: Tiger''s Fury; Ferocious Bite at 5 CP; Shred from behind; Reshift below 28 energy'
+  condition: target bleed-immune (Kara40 Anomalus/Medivh/Chess/Rupturan, Kruul P2, some MC bosses)
+  source: '[[d:druid#1469613082983530559]] [[d:druid#1476991316775931974]]'
+rotation_aoe:
+- targets_min: 3
+  priority: 1
+  action: keep single-target rotation on kill target
+  condition: cat has no AoE by design [[d:druid#1472862240754372713]]
+- targets_min: 3
+  priority: 2
+  action: shift to Bear and Swipe (3-target cap)
+  condition: only if the tank needs help [[d:druid#1460831352915103879]]
+- targets_min: 5
+  priority: 3
+  action: Hurricane from caster form
+  condition: only with a spell-power set or Atiesh [[d:druid#1470733797904617472]]
+aoe_threshold: 3
+cooldowns:
+- name: Tiger's Fury
+  use_when: keep 100% uptime; off GCD; 18 s, +attack speed, 10 energy/3 s [[d:druid#1468957031791591573]]
+- name: Berserk
+  use_when: 6-minute cooldown; long bleedable bosses [[d:druid#1465511791173042258]]
+- name: Reshift
+  use_when: 'level-60 spell: re-enter Cat Form for up to 60 energy with Furor + Wolfshead enchant; only when TF is about to
+    expire [[d:druid#1459798058324725914]]'
+- name: On-use trinkets (ZHC, ToEP, KotS)
+  use_when: pull and last 20% of the fight [[d:druid#1426991920953036942]]
+resource_rules:
+- Energy comes from Ancient Brutality bleed ticks and Tiger's Fury; powershift only when TF is about to expire, since Reshift
+  drops TF [[d:druid#1431630116252942337]]
+- Reshift at 28+ energy only if a tick would waste; 28 = 1 tick from Shred [[d:druid#1482840263985725440]]
+- Wolfshead head enchant needed for bleed-immune powershifting [[d:druid#1434217422692421763]]
+- Idol swaps cost a GCD since 1.18.1; macro swaps have a ~30 s ICD [[d:druid#1488420223047696424]]
+- Track bleeds with Cursive (handles Carnage refresh) [[d:druid#1440573427277631562]]
+consumables:
+- Juju Power > Elixir of Giants; Elixir of the Mongoose; Juju Might > Winterfall Firewater; Ground Scorpok Assay > R.O.I.D.S.;
+  Power Mushroom = Smoked Desert Dumplings; Consecrated (Undead) > Elemental Sharpening Stone; Mighty Rage Potion > Quickness
+  Potion; Juju Flurry; Elixir of Demonslaying; Swiftness of Zanza [[d:druid#1461753276017152021]]
+- One item per bucket (Juju Might/Firewater; Juju Power/Giants); scrolls do not stack with elixirs [[d:druid#1475814371534835852]]
+  [[d:druid#1433887910083428544]]
+- +damage sharpening stones do nothing in form; crit stones work [[d:druid#1464013524178309190]]
+- Idol of Ferocity BiS; Idol of Laceration for bleed-immune [[d:druid#1492276296808661174]] [[d:druid#1453678172548759619]]
+- Weapon enchant +25 Agility [[d:druid#1469280847407349878]]; head Wolfshead (Moonglade repeatable quest) [[d:druid#1493535288524275722]]
+mistakes_to_avoid:
+- Bleed rotation on a bleed-immune boss [[d:druid#1476991316775931974]]
+- Ferocious Bite below 5 CP on bosses (loses the Carnage refresh) [[d:druid#1450153022339547290]]
+- Reshifting every time energy is low (drops Tiger's Fury) [[d:druid#1431630116252942337]]
+- Spending Clearcasting on Claw instead of Shred [[d:druid#1427967004635037858]]
+- Hit above 8% [[d:druid#1474083543985684691]]
+- Farming the Manual Crowd Pummeler for its effect [[d:druid#1462512365827260602]]
+- Gearing by weapon DPS or chance-on-hit procs [[d:druid#1444040448451678338]]
+- Taking DFT/Accuria from rogues or warriors when hit-capped [[d:druid#1444178527732891678]]
+supersedes:
+- claim: The forum README's 'every druid build link cannot be decoded from text'
+  verdict: FALSE - the links decode; the consensus cat tree is a decoded 11/35/5
+  sources:
+  - '[[d:druid#1413144334336790652]]'
+- claim: MCP is a feral requirement (pre-CC2 forums)
+  verdict: 'MCP is dead: ''it does not work in form and has a 30 minute cd'''
+  sources:
+  - '[[d:druid#1412860092692299806]]'
+- claim: Powershifting is the main energy engine (pre-1.18.0)
+  verdict: 1.18.0 added baseline Tiger's Fury energy return + Reshift; top Patchwerk logs stopped reshifting
+  sources:
+  - '[[d:druid#1414582129525915749]]'
+- claim: Bleed/Claw is a leveling alternative only (early 2025)
+  verdict: By mid-2025 and in 1.18.1 Claw/bleed is the single-target meta on non-immune bosses
+  sources:
+  - '[[d:druid#1492276296808661174]]'
+gaps:
+- No pre-raid BiS list (channel defers to external Google Sheets) [[d:druid#1412860092692299806]]
+- No named post-1.18.1 cat armor-ignoring trinket replacement beyond 'Shieldrender's Talisman was nerfed'
+- No single resolved cat tree after the Open Wounds move (the 11/35/5 variants differ only in bleed-vs-bear points)
 stat_priority:
 - hit
 - strength
@@ -151,61 +980,3 @@ stat_priority_note: 'Melee hit cap is 8%, or 5% with Natural Weapons 3/3; hit ab
   sets is contested — useful for PvP shifting, considered wasted stat points in PvE. Strength and Agility are a tie: no cited
   post ranks them against each other, so their order in the array above carries no ranking. Grouping them is this repository''s
   reading of the sources listed above.'
-caps:
-  hit_cap_melee: 8% (5% effective with Natural Weapons 3/3, +3% hit)
-  weapon_skill_in_form: fixed at 300 regardless of gear — permanent glancing-blow tax, no known fix
-rotation_single:
-- priority: 1
-  action: Rake
-  condition: bleed/claw build opener, non-bleed-immune target
-- priority: 2
-  action: Claw
-  condition: 'bleed/claw build: build combo points while Rake is up (Open Wounds buff)'
-- priority: 3
-  action: Rip
-  condition: 'bleed/claw build: apply at 5 combo points, keep rolling'
-- priority: 4
-  action: Tiger's Fury
-  condition: on cooldown; drops on shapeshift, watch timing
-- priority: 5
-  action: Ferocious Bite
-  condition: only if it won't clip a bleed refresh
-- priority: 6
-  action: switch to powershift/Shred rotation
-  condition: target is bleed-immune (large DPS loss to stay in bleed mode)
-- priority: 1
-  action: Shred
-  condition: 'powershift build: spam to build combo points, powershift when energy near-capped'
-- priority: 2
-  action: Ferocious Bite
-  condition: 'powershift build: at 5 combo points'
-rotation_aoe:
-- targets_min: 2
-  priority: 1
-  action: shift to Bear Form and Swipe
-  condition: 2-3 add packs — cat has no dedicated AoE tool
-aoe_threshold: 2
-cooldowns:
-- name: Tiger's Fury
-  use_when: on cooldown; grants attack-speed buff and (1.18.0) baseline energy return, drops on shapeshift
-- name: Berserk
-  use_when: 6-minute cooldown, criticized as too long for reliable raid DPS windows (+100% energy regen in Cat)
-resource_rules:
-- 'Bleed build: sustain energy via Ancient Brutality bleed-tick return and Idol of Laceration procs (20% per combo point to
-  refund 15 energy on next Shred, also procs off Ferocious Bite)'
-- 'Powershift build: sustain energy via Furor + Wolfshead/Wolfsheart-enchanted helm converting mana to energy on shapeshift'
-- Track bleed durations with an addon (Cursive, DoTimer, or SuperWoW-based tracker) — native UI cannot reliably show more
-  than 32 buffs/16 debuffs
-consumables:
-- Idol of Laceration — core bleed-build idol
-- Feral Attack Power (FAP) items prioritized regardless of nominal weapon slot
-- Yoxtez (+224 FAP, 1.18.1 hotfix), Fang of Alichos (usable in forms, 1.18.1 hotfix)
-- A Kara40 armor-ignoring trinket was nerfed in 1.18.1 and is no longer a strong feral pick (name not given in sources — gap)
-- No pre-raid BiS list found in sources (gap)
-mistakes_to_avoid:
-- Playing bleed rotation on a bleed-immune target instead of switching to powershift/Shred
-- Ignoring Idol of Laceration and other energy-return tools, over-relying on powershifting
-- Rolling on/wearing high-Intellect T2.5/T3.5 pieces as if Intellect were a real DPS stat in PvE
-- Letting Tiger's Fury drop mid-fight by shifting carelessly
-- Not tracking bleed durations with an addon and clipping Rake/Rip early
-- Expecting cat to carry AoE pulls instead of switching to Bear/Swipe

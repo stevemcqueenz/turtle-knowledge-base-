@@ -1,6 +1,7 @@
 class: Warrior
 spec: Protection
 role: tank
+guide: guide/classes/warrior/protection.md
 sources:
 - url: https://forum.turtlecraft.gg/viewtopic.php?p=102974#p102974
   author: Dragunovi
@@ -116,221 +117,585 @@ patch_validity:
   written_for: CC2 tree (2024-11-01) with Dec-2024 numbers; 1.18.1 numbers applied where staff gave them
   valid_for_1181: true
   notes: '1.18.1: Defiance 4-20%, Shield Slam 20% AP scaling and 75% threat modifier; earlier: Defensive Tactics 60/120/180%,
-    Improved Shield Slam 4.5 s, Concussion Blow 0 rage/+10 rage (CC3). No post-1.18.1 tank ranking in sources.'
+    Improved Shield Slam 4.5 s, Concussion Blow 0 rage/+10 rage (CC3). No post-1.18.1 tank ranking in sources. Guide refresh
+    (2026-09): DefTac is the recommended MT after the 2026-01 Defiance 20% / Shield Slam buffs, confirmed live on 2026-03-20.'
 talents:
-  build_name: Deep Protection (sourced core; ~51 points not fully specified)
+  build_name: DefTac Impale 17/3/31 (recommended MT)
+  split: 17/3/31
+  code_tree_b64: dQAACYAQ-AY-VAAoIQAohQAYB
+  calculator: https://xian55.github.io/tortoise-db-viewer/?talents=warrior&t=35200002302-03-2500510200054120031
   points:
-  - tree: Protection
-    talent: Shield Slam
-    rank: 1
-    spell_id: 23922
-    talent_id: 87
-  - tree: Protection
-    talent: Improved Shield Slam
-    rank: 2
-    spell_id: 51599
-    talent_id: 88
-  - tree: Protection
-    talent: Defiance
-    rank: 5
-    spell_id: 12792
-    talent_id: 85
-  - tree: Protection
-    talent: Defensive Tactics
-    rank: 3
-    spell_id: 51608
-    note: contested
-    talent_id: 91
-  - tree: Protection
-    talent: Reprisal
-    rank: 2
-    spell_id: 51594
-    talent_id: 89
-  - tree: Protection
-    talent: Improved Revenge
-    rank: 3
-    spell_id: 12800
-    talent_id: 82
-  - tree: Protection
-    talent: Concussion Blow
-    rank: 1
-    spell_id: 12809
-    talent_id: 92
-  - tree: Protection
-    talent: One-Handed Weapon Specialization
-    rank: 5
-    spell_id: 16542
-    talent_id: 86
-  - tree: Protection
-    talent: Shield Specialization
-    rank: 5
-    spell_id: 12727
-    talent_id: 75
-  - tree: Protection
-    talent: Improved Bloodrage
-    rank: 2
-    spell_id: 12818
-    talent_id: 74
-  - tree: Protection
-    talent: Anticipation
-    rank: 3
-    spell_id: 12751
-    talent_id: 76
-  - tree: Protection
-    talent: Last Stand
-    rank: 1
-    spell_id: 12975
-    talent_id: 79
-  - tree: Protection
-    talent: Toughness
-    rank: null
-    spell_id: 12299
-    note: filler
-    talent_id: 78
-  - tree: Protection
-    talent: Improved Shield Wall
-    rank: null
-    spell_id: 12312
-    note: 0-2, contested
-    talent_id: 90
-  - tree: Arms
-    talent: Tactical Mastery
-    rank: 2
-    spell_id: 12676
-    note: 2-5
-    talent_id: 57
   - tree: Arms
     talent: Improved Heroic Strike
     rank: 3
     spell_id: 12664
-    note: 0-3
-    talent_id: 56
   - tree: Arms
-    talent: Improved Thunder Clap
-    rank: 3
-    spell_id: 12666
-    talent_id: 61
-  - tree: Arms
-    talent: Deflection
+    talent: Tactical Mastery
     rank: 5
-    spell_id: 16466
-    note: if reaching row 3 Arms
-    talent_id: 60
+    spell_id: 12679
+  - tree: Arms
+    talent: Improved Rend
+    rank: 2
+    spell_id: 12658
+  - tree: Arms
+    talent: Improved Overpower
+    rank: 2
+    spell_id: 12963
+  - tree: Arms
+    talent: Deep Wounds
+    rank: 3
+    spell_id: 12867
+  - tree: Arms
+    talent: Impale
+    rank: 2
+    spell_id: 16494
   - tree: Fury
     talent: Cruelty
-    rank: 0
-    spell_id: 12320
-    note: 5 in the Defensive Tactics + Enrage variant (Herods)
-    talent_id: 94
+    rank: 3
+    spell_id: 12853
+  - tree: Protection
+    talent: Improved Bloodrage
+    rank: 2
+    spell_id: 12818
+  - tree: Protection
+    talent: Shield Specialization
+    rank: 5
+    spell_id: 12727
+  - tree: Protection
+    talent: Toughness
+    rank: 5
+    spell_id: 12764
+  - tree: Protection
+    talent: Last Stand
+    rank: 1
+    spell_id: 12975
+  - tree: Protection
+    talent: Improved Taunt
+    rank: 2
+    spell_id: 12765
+  - tree: Protection
+    talent: Defiance
+    rank: 5
+    spell_id: 12792
+  - tree: Protection
+    talent: One-Handed Weapon Specialization
+    rank: 4
+    spell_id: 16541
+  - tree: Protection
+    talent: Shield Slam
+    rank: 1
+    spell_id: 23922
+  - tree: Protection
+    talent: Improved Shield Slam
+    rank: 2
+    spell_id: 51599
+  - tree: Protection
+    talent: Defensive Tactics
+    rank: 3
+    spell_id: 51608
+  - tree: Protection
+    talent: Concussion Blow
+    rank: 1
+    spell_id: 12809
+  variants:
+  - name: DefTac Cruelty
+    split: 14/5/32
+    code_tree_b64: dAEAC-Ao-VAAoIQAopQAYB
+    calculator: https://xian55.github.io/tortoise-db-viewer/?talents=warrior&t=35004002-05-2500510200055120031
+    source: guide/classes/warrior/protection.md
+  - name: DefTac Deflection (Lipibidy)
+    split: 17/3/31
+    code_tree_b64: dQCAAYAQ-AY-VAAoIQAohQAYB
+    calculator: https://xian55.github.io/tortoise-db-viewer/?talents=warrior&t=35202000302-03-2500510200054120031
+    source: guide/classes/warrior/protection.md
+  - name: DefTac Enrage "shouts" 0/20/31
+    split: 0/20/31
+    code_tree_b64: -AoAooAAo-VAAoIQAohQAYB
+    calculator: https://xian55.github.io/tortoise-db-viewer/?talents=warrior&t=-050550005-2500510200054120031
+    source: '[[d:warrior#1483134510714458183]]'
+  - name: Death Wish Prot 0/21/30
+    split: 0/21/30
+    code_tree_b64: -AoAooAAoB-QYAoILAohQAY
+    calculator: https://xian55.github.io/tortoise-db-viewer/?talents=warrior&t=-050550005001-203051013005412003
+    source: '[[d:warrior#1494358776797462558]]'
+  - name: Revenge deep prot (dungeons)
+    split: 13/5/33
+    code_tree_b64: FAFD-Ao-VAAoIDIopSAAB
+    calculator: https://xian55.github.io/tortoise-db-viewer/?talents=warrior&t=050053-05-2500510031055122001
+    source: '[[d:warrior#1485337755646165135]]'
+  - name: Revenge deep prot (fresh raiding)
+    split: 17/3/31
+    code_tree_b64: aQFAAYAQ-AY-UAAoIDAopSAAB
+    calculator: https://xian55.github.io/tortoise-db-viewer/?talents=warrior&t=32205000302-03-2400510030055122001
+    source: guide/classes/warrior/protection.md
+  leveling_order:
+  - level: 10
+    tree: Fury
+    talent: Cruelty
+    rank: 1
+  - level: 11
+    tree: Fury
+    talent: Cruelty
+    rank: 2
+  - level: 12
+    tree: Fury
+    talent: Cruelty
+    rank: 3
+  - level: 13
+    tree: Fury
+    talent: Cruelty
+    rank: 4
+  - level: 14
+    tree: Fury
+    talent: Cruelty
+    rank: 5
+  - level: 15
+    tree: Arms
+    talent: Improved Rend
+    rank: 1
+  - level: 16
+    tree: Arms
+    talent: Improved Rend
+    rank: 2
+  - level: 17
+    tree: Arms
+    talent: Tactical Mastery
+    rank: 1
+  - level: 18
+    tree: Arms
+    talent: Tactical Mastery
+    rank: 2
+  - level: 19
+    tree: Arms
+    talent: Tactical Mastery
+    rank: 3
+  - level: 20
+    tree: Arms
+    talent: Improved Thunder Clap
+    rank: 1
+  - level: 21
+    tree: Arms
+    talent: Improved Charge
+    rank: 1
+  - level: 22
+    tree: Arms
+    talent: Improved Charge
+    rank: 2
+  - level: 23
+    tree: Arms
+    talent: Tactical Mastery
+    rank: 4
+  - level: 24
+    tree: Arms
+    talent: Tactical Mastery
+    rank: 5
+  - level: 25
+    tree: Arms
+    talent: Improved Overpower
+    rank: 1
+  - level: 26
+    tree: Arms
+    talent: Improved Overpower
+    rank: 2
+  - level: 27
+    tree: Arms
+    talent: Deep Wounds
+    rank: 1
+  - level: 28
+    tree: Arms
+    talent: Deep Wounds
+    rank: 2
+  - level: 29
+    tree: Arms
+    talent: Deep Wounds
+    rank: 3
+  - level: 30
+    tree: Arms
+    talent: Two-Handed Weapon Specialization
+    rank: 1
+  - level: 31
+    tree: Arms
+    talent: Two-Handed Weapon Specialization
+    rank: 2
+  - level: 32
+    tree: Arms
+    talent: Two-Handed Weapon Specialization
+    rank: 3
+  - level: 33
+    tree: Arms
+    talent: Impale
+    rank: 1
+  - level: 34
+    tree: Arms
+    talent: Impale
+    rank: 2
+  - level: 35
+    tree: Arms
+    talent: Sweeping Strikes
+    rank: 1
+  - level: 36
+    tree: Arms
+    talent: Master Strike
+    rank: 1
+  - level: 37
+    tree: Arms
+    talent: Master of Arms
+    rank: 1
+  - level: 38
+    tree: Arms
+    talent: Master of Arms
+    rank: 2
+  - level: 39
+    tree: Arms
+    talent: Master of Arms
+    rank: 3
+  - level: 40
+    tree: Arms
+    talent: Master of Arms
+    rank: 4
+  - level: 41
+    tree: Arms
+    talent: Master of Arms
+    rank: 5
+  - level: 42
+    tree: Arms
+    talent: Improved Slam
+    rank: 1
+  - level: 43
+    tree: Arms
+    talent: Improved Slam
+    rank: 2
+  - level: 44
+    tree: Arms
+    talent: Improved Thunder Clap
+    rank: 2
+  - level: 45
+    tree: Arms
+    talent: Mortal Strike
+    rank: 1
+  - level: 46
+    tree: Fury
+    talent: Unbridled Wrath
+    rank: 1
+  - level: 47
+    tree: Fury
+    talent: Unbridled Wrath
+    rank: 2
+  - level: 48
+    tree: Fury
+    talent: Unbridled Wrath
+    rank: 3
+  - level: 49
+    tree: Fury
+    talent: Unbridled Wrath
+    rank: 4
+  - level: 50
+    tree: Fury
+    talent: Unbridled Wrath
+    rank: 5
+  - level: 51
+    tree: Fury
+    talent: Improved Shouts
+    rank: 1
+  - level: 52
+    tree: Fury
+    talent: Improved Shouts
+    rank: 2
+  - level: 53
+    tree: Fury
+    talent: Improved Shouts
+    rank: 3
+  - level: 54
+    tree: Fury
+    talent: Improved Shouts
+    rank: 4
+  - level: 55
+    tree: Fury
+    talent: Improved Shouts
+    rank: 5
+  - level: 56
+    tree: Fury
+    talent: Enrage
+    rank: 1
+  - level: 57
+    tree: Fury
+    talent: Enrage
+    rank: 2
+  - level: 58
+    tree: Fury
+    talent: Enrage
+    rank: 3
+  - level: 59
+    tree: Fury
+    talent: Enrage
+    rank: 4
+  - level: 60
+    tree: Fury
+    talent: Enrage
+    rank: 5
+  leveling_order_note: Virasan's pinned Arms no-respec order [[d:warrior#1364931945624240191]], validated 31/20/0 at 60 (code
+    FQQCKYDQpAQAB-AoAooAAo-); go Protection only once Shield Slam is available (30+)
+  leveling_order_code_tree_b64: FQQCKYDQpAQAB-AoAooAAo-
+  links_opaque:
+  - https://talents.turtlecraft.gg/warrior?points=aQFDAYAQAAAAAAAAAAAAAAAAAAAAVAAgIDAopSAABAA=
+  - https://talents.turtlecraft.gg/warrior?points=SQFABYAQAAAAAAAAAAAAAAAAAAAAVAAoITAoZSQABAA%3D
+  - https://talents.turtlecraft.gg/warrior?points=FQFARYAQBYAAAAAAAAAAAAAAAAAAVAFoIAQABQAAAAA%3D
   skip:
   - Iron Will
   - Improved Disarm
   - Improved Intervene
   - Gag Order
   - Improved Taunt
-  leveling_order: []
-  links_opaque:
-  - https://talents.turtlecraft.gg/warrior?points=aQFDAYAQAAAAAAAAAAAAAAAAAAAAVAAgIDAopSAABAA=
-  - https://talents.turtlecraft.gg/warrior?points=SQFABYAQAAAAAAAAAAAAAAAAAAAAVAAoITAoZSQABAA%3D
-  - https://talents.turtlecraft.gg/warrior?points=FQFARYAQBYAAAAAAAAAAAAAAAAAAVAFoIAQABQAAAAA%3D
-  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=warrior&t=320053--2530010030055122031
-  build_link_tortoise_note: 'Generated from the sourced points list (46 points: Arms 13, Protection 33); the calculator shows
-    the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
-stat_weights: null
+  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=warrior&t=35200002302-03-2500510200054120031
+  build_link_tortoise_note: 'Generated from the sourced points list (51 points: Arms 17, Fury 3, Protection 31); the calculator
+    shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
+stat_weights:
+- stat: agility/crit
+  verdict: 'top threat stat for DefTac: Agi/crit >> Str/AP > SBV'
+  sources:
+  - '[[d:warrior#1440130599955468308]]'
+  - '[[d:warrior#1433037675350200380]]'
+  agreement: consensus
+  era: post-1.18.1
+- stat: stamina/armor
+  verdict: the mitigation stats when survival matters
+  sources:
+  - '[[d:warrior#1440130599955468308]]'
+  agreement: consensus
+  era: post-1.18.1
+- stat: hit
+  verdict: to yellow cap for Shield Slam; nothing above
+  sources:
+  - '[[d:warrior#1483151759164833832]]'
+  agreement: consensus
+  era: post-1.18.1
+- stat: weapon-skill
+  verdict: 'barely matters: Heroic Strike cannot glance'
+  sources:
+  - '[[d:warrior#1485315738053902458]]'
+  agreement: single source
+  era: post-1.18.1
+- stat: block-value
+  verdict: weak; Glyph of Deflection the exception
+  sources:
+  - '[[d:warrior#1482190391049719959]]'
+  agreement: single source
+  era: post-1.18.1
+stat_weights_equivalence: '1% crit = ~18.8 str = ~5.2 shield block value of Shield-Slam threat at 1k AP (0 AP: ~12 str / ~3.7
+  BV); overall 1% crit ~= 17.3 BV [[d:warrior#1428796660321882112]], [[d:warrior#1428800565785395230]] (single source, pre-1.18.1)'
 stat_priority:
-- defense
-- hit
-- weapon-skill
-- stamina
-- armor
+- hit-to-yellow-cap
+- agility/crit
+- strength
+- attack-power
+- stamina (mitigation fights)
 - block-value
-- crit
+- haste
+caps:
+  hit_boss_yellow_pct:
+    value: 8 at 300 weapon skill, -0.2 per skill point, 5 at 315
+    sources:
+    - '[[d:warrior#1451430729769680999]]'
+    - '[[d:warrior#1457402842074714285]]'
+    era: post-1.18.1
+    agreement: consensus
+  defense_mt:
+    value: ~370-400; much higher costs TPS
+    sources:
+    - '[[d:warrior#1476092913783017605]]'
+    era: post-1.18.1
+    agreement: single source
+  daze_immunity_defense:
+    value: 400 vs lvl 60, 415 vs 63 (another poster 420)
+    sources:
+    - '[[d:warrior#1426208539575320656]]'
+    - '[[d:warrior#1425674099702890588]]'
+    era: pre-1.18.1
+    agreement: contested
+  avoidance_total_pct:
+    value: 50-60 block+dodge+parry is a good place
+    sources:
+    - '[[d:warrior#1466416470845296779]]'
+    era: post-1.18.1
+  trash_crit_defense:
+    value: ~360-380 stops most trash crits; Chromaggus/Twins can crit below ~400
+    sources:
+    - '[[d:warrior#1433173779508494527]]'
+  hp_four_horsemen:
+    value: 6500
+    sources:
+    - '[[d:warrior#1440845928193069119]]'
+  crit_crush: sequence Shield Slam buff and Shield Block (they overwrite) instead of stacking defense [[d:warrior#1476093703821983804]]
+  threat_mod_deftac: 160.64% in Battle/Berserker vs 156% in Defensive (dev math) [[d:warrior#1464422567145115699]]
+rotation_single:
+- priority: 0
+  action: Pre-pull Battle Shout + Bloodrage; Mighty Rage Potion on pull
+  condition: opener
+  sources:
+  - '[[d:warrior#1429243795848953866]]'
+  - '[[d:warrior#1447700245839478945]]'
+- priority: 1
+  action: Tank in Battle Stance
+  condition: DefTac, every pull you safely can; Defensive to taunt/block-dance
+  sources:
+  - '[[d:warrior#1488520429432864768]]'
+  - '[[d:warrior#1488520746740224050]]'
+- priority: 2
+  action: Shield Slam
+  condition: on cooldown; opener with Shield Slam or Concussion Blow
+  sources:
+  - '[[d:warrior#1483588317709598801]]'
+- priority: 3
+  action: Overpower
+  condition: on dodge
+- priority: 4
+  action: Concussion Blow
+  condition: on cooldown (generates rage)
+  sources:
+  - '[[d:warrior#1460410582208479334]]'
+- priority: 5
+  action: Heroic Strike
+  condition: rage dump every affordable swing
+- priority: 6
+  action: Sunder Armor
+  condition: filler (10 rage)
+  sources:
+  - '[[d:warrior#1478712046215364619]]'
+- priority: 7
+  action: Shield Block
+  condition: after a hit consumed the Shield Slam buff (they overwrite)
+  sources:
+  - '[[d:warrior#1476093703821983804]]'
+- priority: 8
+  action: Revenge
+  condition: Revenge builds only
+rotation_aoe:
+- targets_min: 2
+  priority: 1
+  action: Mark kill order
+  sources:
+  - '[[d:warrior#1469884937959243838]]'
+- targets_min: 2
+  priority: 2
+  action: Demoralizing Shout (spam; uncapped)
+  sources:
+  - '[[d:warrior#1485307725683495074]]'
+- targets_min: 2
+  priority: 3
+  action: Tab-Cleave
+  sources:
+  - '[[d:warrior#1484622368537186324]]'
+- targets_min: 2
+  priority: 4
+  action: Thunder Clap (max 4 targets, spell, no AP scaling)
+  sources:
+  - '[[d:warrior#1465413064990920898]]'
+- targets_min: 3
+  priority: 5
+  action: 'Berserker Stance Whirlwind: tclap whirlwind tclap'
+  sources:
+  - '[[d:warrior#1473484685412794591]]'
+- targets_min: 3
+  priority: 6
+  action: Sappers / Dense Dynamite / Oil of Immolation / Force Reactive Disk; Challenging Shout emergency
+  sources:
+  - '[[d:warrior#1486781276953251931]]'
+  - '[[d:warrior#1484621943150739467]]'
+  - '[[d:warrior#1473015814440358053]]'
+aoe_threshold:
+  value: 2
+  note: warrior has no dedicated AoE threat tool; leave big AoE pulls to paladin/bear [[d:warrior#1484622112340840649]], [[d:warrior#1489290168446746885]]
+cooldowns:
+- name: Shield Wall
+  use_when: needs shield; shared 30-min CD with Recklessness/Retaliation
+  sources:
+  - '[[d:warrior#1474052002467152103]]'
+  - '[[d:warrior#1462506610068029502]]'
+- name: Last Stand + healthstone + Nordanaar Herbal Tea
+  use_when: low HP
+  sources:
+  - '[[d:warrior#1425928073638969394]]'
+- name: Improved Berserker Rage
+  use_when: roots/slows; never in Sanv Tas'dal add phase
+  sources:
+  - '[[d:warrior#1421142174874996736]]'
+  - '[[d:warrior#1468022689401929761]]'
+- name: Recklessness + Enrage + Death Wish + Mighty Rage Potion
+  use_when: burst pull threat
+  sources:
+  - '[[d:warrior#1478456885467414592]]'
+resource_rules:
+- Avoidance and PW:Shield cost rage (rage from being hit) [[d:warrior#1463291642588041217]]
+- 'Pre-pull rage: ZG trinket pop-and-swap, Dig Rats [[d:warrior#1447702089789870202]]'
+- On-use items share a 30 s cooldown [[d:warrior#1492231959814865087]]
+consumables:
+- Mighty Rage Potion on pull [[d:warrior#1475256676981542923]]
+- Power Mushroom (threat) or Hardened Mushroom + Gurubashi Gumbo (mitigation) [[d:warrior#1463293431962140714]]
+- 'Naxx: Shadow prot (4HM, Loatheb), Frost prot (Sapph, KT) [[d:warrior#1459717421219975312]]'
+- 'Kara40: Magic Resistance Potion on Anomalus; Frost/Arcane Reflector before Incantagos [[d:warrior#1458982047979671613]],
+  [[d:warrior#1465828169826439208]]'
+mistakes_to_avoid:
+- Revenge talents in DefTac or DefTac in Revenge build [[d:warrior#1484903007748362241]]
+- DefTac in Defensive Stance all fight [[d:warrior#1484538309416845352]]
+- Slow weapon on a tank [[d:warrior#1465472984121868298]]
+- Over-stacking defense/avoidance [[d:warrior#1476092913783017605]]
+- Thunder Clap/Demo Shout in single-target opener [[d:warrior#1475256639379734619]]
+- Taunting a CC'd target [[d:warrior#1430903627610062879]]
+leveling:
+  spec_consensus: Prot is a viable dungeon-leveling tank from 30 (Shield Slam) but slower solo (contested) [[d:warrior#1429822325510897794]],
+    [[d:warrior#1450677084732129410]]; no shield/spec is needed to tank leveling dungeons — swap to shield+1H when damage
+    spikes (consensus) [[d:warrior#1457458781205168320]], [[d:warrior#1455910106918158506]]
+  brackets: see leveling_by_bracket in arms-melee-dps.yaml
+discord:
+  channels:
+  - warrior
+  agreement: mixed — Discord corroborates the forum KB (1.18.1 prot changes were buffs, not a nerf) and adds the threat maths;
+    contested on the Defiance constant and the Shield Slam threat model
+  eras:
+  - pre-1.18.1
+  - 1.18.1-announced-pre-release
+  - post-1.18.1
+  sources:
+  - cite: '[[d:warrior#1481378107037323354]]'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    topic: 1.18.1 Defiance 4-20%, Shield Slam 20% AP / 75% threat (no prot nerf, no new ability)
+  - cite: '[[d:warrior#1433435759158886501]]'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    topic: DTactics threat formula ~1.5128
+  - cite: '[[d:warrior#1400823950228848670]]'
+    era: pre-1.18.1
+    agreement: contested
+    topic: pinned 1.6064 variant
+  - cite: '[[d:warrior#1428801642077229220]]'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    topic: agi/crit is the tank threat stat
+  - cite: '[[d:warrior#1259889236119785482]]'
+    era: pre-1.18.1
+    agreement: consensus
+    topic: 102.4% uncrushable recipe
+  - cite: '[[d:warrior#1487143734452949093]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: four-build prot menu (Dtac/Revenge x Enrage/Impale)
+  - cite: '[[d:warrior#1484900996613279845]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: 1.18.1 closed the furyprot-vs-deep-prot TPS gap
+  - cite: '[[d:warrior#1481016354009125054]]'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    topic: community threat sim (30-thirty.github.io)
+  - cite: '[[d:warrior#1485222514119671829]]'
+    author: Weirdthing
+    authority: player
+    date: '2026-03-21'
+    era: post-1.18.1
+    agreement: consensus
+    topic: DefTac better in 99.9% of cases
 stat_priority_note: 'Defense is stacked to crit immunity rather than indefinitely: no Turtle source states the exact cap,
   440 is the vanilla baseline, and the one practitioner report is "With 370 defence in Naxx, in my experience this leads to
   1 crit per boss fight and usually 4-5 crushing blows" in Battle Stance without Shield Block [Ellifta p=115882]. Stamina
   is valued as effective health — "reach minimum required defense cap and then invest into EH" [Bogyone p=85806].'
-caps:
-  defense: null
-  hit_boss_pct: 9
-  boss_parry_pct_player_claim: 14
-  boss_dodge_pct_player_claim: 5
-rotation_single:
-- priority: 0
-  action: Bloodrage -> pull -> Concussion Blow -> Shield Slam -> Sunder Armor -> Demoralizing Shout
-  condition: opener
-- priority: 1
-  action: Shield Slam
-  condition: off cooldown
-- priority: 2
-  action: Revenge
-  condition: available after block/dodge/parry; Defensive Stance only
-- priority: 3
-  action: Shield Block
-  condition: off cooldown on bosses; note Improved Shield Slam charge and Shield Block charge do not stack
-- priority: 4
-  action: Sunder Armor
-  condition: < 5 stacks, then filler
-- priority: 5
-  action: Heroic Strike
-  condition: rage dump at high rage
-- priority: 6
-  action: Concussion Blow
-  condition: off cooldown (20 s, 0 rage)
-- priority: 7
-  action: Thunder Clap
-  condition: once per pull for the attack-speed debuff; usable in Defensive Stance
-- priority: 8
-  action: Execute
-  condition: 'target <= 20% and Defensive Tactics taken: swap to Battle/Berserker Stance and spam'
-rotation_aoe:
-- targets_min: 2
-  priority: 1
-  action: Thunder Clap
-  condition: main AoE threat (contested vs Sunder tabbing)
-- targets_min: 2
-  priority: 2
-  action: Demoralizing Shout
-  condition: every pull
-- targets_min: 2
-  priority: 3
-  action: tab Revenge / Sunder Armor
-  condition: spread threat; mark skull
-- targets_min: 4
-  priority: 1
-  action: Thunder Clap
-  condition: 4-target cap (player claim)
-- targets_min: 4
-  priority: 2
-  action: Challenging Shout
-  condition: emergency AoE taunt
-aoe_threshold: null
-cooldowns:
-- name: Taunt
-  use_when: threat lost; chain Intercept -> Defensive Stance -> Taunt in one GCD
-- name: Mocking Blow
-  use_when: Taunt on cooldown (Battle Stance)
-- name: Challenging Shout
-  use_when: all taunts on cooldown / multiple loose mobs
-- name: Shield Wall
-  use_when: emergency; ends if shield unequipped; shares 30-min CD with Recklessness/Retaliation
-- name: Last Stand
-  use_when: emergency
-- name: Shield Block
-  use_when: boss tanking on cooldown; optional in low-level dungeons (contested)
-- name: Berserker Rage
-  use_when: fears (stance dance)
-- name: Bloodrage
-  use_when: pre-pull and on cooldown
-resource_rules:
-- Conserve rage at the end of a pull for the next one
-- Reprisal refunds Revenge rage
-- More avoidance/tier gear = less rage; keep a dungeon/rage set
-- 'Defensive Tactics: Battle Stance threat ~1.512x vs Defensive 1.495x with Defiance 5/5 (Ellifta math), at the cost of 10%
-  DR and Shield Block'
-consumables: []
-mistakes_to_avoid:
-- 'Wearing full T1/T2/T3 tank sets for threat (Ellifta: use T2 shoulders/legs/boots + off-pieces)'
-- Letting Shield Block overwrite the Improved Shield Slam charge without noticing
-- Leaving Defensive Stance without Defensive Tactics
-- Spending all rage before the next pull
-- Copying pre-CC2 talent lists (Improved Shield Block, Improved Sunder Armor)

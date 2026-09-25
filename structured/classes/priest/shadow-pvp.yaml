@@ -1,6 +1,7 @@
 class: Priest
 spec: Shadow
 role: pvp
+guide: guide/classes/priest/pvp.md
 sources:
 - url: https://forum.turtlecraft.gg/viewtopic.php?p=93101#p93101
   author: Frantsel
@@ -54,175 +55,516 @@ sources:
   author: Torta
   authority: staff
   date: '2025-03-30'
+- cite: '[[d:priest#1487814720428834826]]'
+  author: irotos
+  authority: player
+  date: '2026-03-29'
+  era: post-1.18.1
+  agreement: single source
+- cite: '[[d:priest#1487631348079526082]]'
+  author: Bluefear
+  authority: player
+  date: '2026-03-29'
+  era: post-1.18.1
+  agreement: single source
+- cite: '[[d:priest#1485255007283581048]]'
+  author: Zvyrhol
+  authority: player
+  date: '2026-03-22'
+  era: post-1.18.1
+  agreement: consensus
 agreement: contested
 patch_validity:
   written_for: 1.17.2/1.18.0 (pre-1.18.1)
   valid_for_1181: unknown
-  notes: 1.18.1 moved Blackout to row 2 and Improved Mind Blast to row 1, made Shadow Weaving a self-buff (players fear DoT
+  notes: '1.18.1 moved Blackout to row 2 and Improved Mind Blast to row 1, made Shadow Weaving a self-buff (players fear DoT
     dispel exposure), Pain Spike CD 30 s, Improved Fade -3/6 s CD. PvP Dampening now per spec (numbers unknown). Player build
-    links are pre-1.18.1 opaque strings.
+    links are pre-1.18.1 opaque strings. Discord adds: CC2 removed the old survivability spec; the strongest BG priest is
+    a healer dipping Shadow for Silence + Inner Focus; Tauren is the post-1.18.1 PvP healer race.'
+discord:
+  channel: priest
+  era_legend: pre-1.18.1 <2025-10-03 | 1.18.1-announced-pre-release 2025-10-03..2026-03-19 | post-1.18.1 >=2026-03-20 | mixed
+    spans more than one era
+  sources:
+  - id: '1296267877036589056'
+    author: Mortifer
+    era: pre-1.18.1
+    agreement: consensus
+    used_for: Shadow PvP was a survivability spec (dots + VE off multiple opponents), not a damage spec
+    cite: '[[d:priest#1296267877036589056]]'
+  - id: '1296272979868647525'
+    author: Hellkite
+    era: pre-1.18.1
+    agreement: consensus
+    used_for: CC2 turned Shadow into a 'bad glass cannon'
+    cite: '[[d:priest#1296272979868647525]]'
+  - id: '1296223825146413156'
+    era: pre-1.18.1
+    agreement: consensus
+    used_for: 'CC2: Blackout stun 3 s -> 2 s'
+    cite: '[[d:priest#1296223825146413156]]'
+  - id: '1296246500200026164'
+    era: pre-1.18.1
+    agreement: consensus
+    used_for: 'CC2: VE gained a 2 s cast; Shadowform briefly lost PW:Shield (reverted)'
+    cite: '[[d:priest#1296246500200026164]]'
+  - id: '1294337426105569342'
+    author: cryft
+    era: pre-1.18.1
+    agreement: consensus
+    used_for: 'strongest BG priest: healer dipping Shadow for Silence + Inner Focus (free Devouring Plague); can 1v1 rogues/warriors'
+    cite: '[[d:priest#1294337426105569342]]'
+  - id: '1294312429882310726'
+    era: pre-1.18.1
+    agreement: consensus
+    used_for: Shadowguard can proc Blackout and Shadow Weaving
+    cite: '[[d:priest#1294312429882310726]]'
+  - id: '1294341720233742398'
+    era: pre-1.18.1
+    agreement: consensus
+    used_for: a rogue opening on you can stun itself on Shadowguard
+    cite: '[[d:priest#1294341720233742398]]'
+  - id: '1484362246951010305'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: post-1.18.1 Tauren racials are healing/disc oriented -> Tauren is the PvP healer race
+    cite: '[[d:priest#1484362246951010305]]'
+  - id: '1484570889642180670'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: Tauren priest racials (Light of An'she etc.)
+    cite: '[[d:priest#1484570889642180670]]'
+  - id: '1484898033597546539'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: Light of An'she is Holy, unusable in Shadowform
+    cite: '[[d:priest#1484898033597546539]]'
+  - id: '1484428895246745670'
+    era: post-1.18.1
+    agreement: single source
+    used_for: Mana Burn moved to row 4 breaks PvP builds
+    cite: '[[d:priest#1484428895246745670]]'
+  - id: '1291325933202047037'
+    era: pre-1.18.1
+    agreement: consensus
+    used_for: Psychic Scream bug vs mind-controlled targets (KT/Skeram; bug 8053)
+    cite: '[[d:priest#1291325933202047037]]'
+  hybrid_healer:
+    role: A healer dipping Shadow for Silence + Inner Focus is the strongest BG priest play; the damage is enough to kill
+      rogues/warriors in 1v1 who do not expect you to fight back.
+    cite: '[[d:priest#1294337426105569342]]'
+    era: pre-1.18.1
+    agreement: consensus
+  tauren_pvp:
+    note: Post-1.18.1 Tauren racials are healing/disc oriented (Light of An'she), making Tauren the PvP healer race; Light
+      of An'she is Holy school so unusable in Shadowform.
+    cite: '[[d:priest#1484362246951010305]], [[d:priest#1484898033597546539]]'
+    era: post-1.18.1
+    agreement: consensus
+  open_question:
+  - Mana Burn moved to row 4 makes some PvP builds impossible [[d:priest#1484428895246745670]].
+  - Psychic Scream is buggy vs mind-controlled targets (bug 8053) [[d:priest#1291325933202047037]].
 talents:
-  build_name: Shadow PvP 40/11/0 (reconstructed)
+  build_name: Shadow PvP 7/13/31 (irotos, post-1.18.1)
+  build_source: '[[d:priest#1487814720428834826]]'
+  era: post-1.18.1
+  agreement: single source
+  code_tree_b64: AoAQ-CoAYD-AoCFQIAUJQAoB
+  code_b36_pair: 0U2-2UII-525C6G7H6
+  validated: 'talent_tool.py decode: VALID'
   points:
-  - tree: Shadow
-    talent: Spirit Tap or Improved Mind Blast
-    rank: 5
-    spell_id: 15338
-    talent_id: 201
-  - tree: Shadow
-    talent: Blackout
-    rank: 5
-    spell_id: 15326
-    talent_id: 206
-  - tree: Shadow
-    talent: 'Improved Shadow Word: Pain'
-    rank: 2
-    spell_id: 15317
-    talent_id: 204
-  - tree: Shadow
-    talent: Shadow Focus
-    rank: 2
-    spell_id: 15327
-    talent_id: 205
-  - tree: Shadow
-    talent: Improved Psychic Scream
-    rank: 2
-    spell_id: 15448
-    talent_id: 207
-  - tree: Shadow
-    talent: Mind Flay
-    rank: 1
-    spell_id: 15407
-    talent_id: 209
-  - tree: Shadow
-    talent: Shadow Reach
-    rank: 2
-    spell_id: 17323
-    talent_id: 211
-  - tree: Shadow
-    talent: Shadow Weaving
-    rank: 5
-    spell_id: 15334
-    talent_id: 212
-  - tree: Shadow
-    talent: Silence
-    rank: 1
-    spell_id: 15487
-    talent_id: 213
-  - tree: Shadow
-    talent: Vampiric Embrace
-    rank: 1
-    spell_id: 15286
-    talent_id: 214
-  - tree: Shadow
-    talent: Vampiric Touch
-    rank: 2
-    spell_id: 45558
-    talent_id: 215
-  - tree: Shadow
-    talent: Darkness
-    rank: 5
-    spell_id: 15310
-    talent_id: 216
-  - tree: Shadow
-    talent: Shadowform
-    rank: 1
-    spell_id: 15473
-    talent_id: 217
-  - tree: Shadow
-    talent: Improved Fade
-    rank: 2
-    spell_id: 15311
-    talent_id: 208
-  - tree: Shadow
-    talent: Shadow Affinity (filler)
-    rank: 4
-    spell_id: 15320
-    talent_id: 203
   - tree: Discipline
-    talent: Wand Specialization
-    rank: 2
-    spell_id: 14525
-    talent_id: 166
+    talent: Mental Agility
+    rank: 5
+    spell_id: 14783
   - tree: Discipline
     talent: Blessed Concentration
     rank: 2
     spell_id: 14774
-    talent_id: 171
-  - tree: Discipline
-    talent: 'Improved Power Word: Shield'
+  - tree: Holy
+    talent: Holy Focus
+    rank: 2
+    spell_id: 15012
+  - tree: Holy
+    talent: Divinity
+    rank: 5
+    spell_id: 15011
+  - tree: Holy
+    talent: Spell Warding
     rank: 3
-    spell_id: 14769
-    talent_id: 175
-  - tree: Discipline
-    talent: Inner Focus
+    spell_id: 27902
+  - tree: Holy
+    talent: Blessed Recovery
+    rank: 3
+    spell_id: 27816
+  - tree: Shadow
+    talent: Improved Mind Blast
+    rank: 5
+    spell_id: 15316
+  - tree: Shadow
+    talent: 'Improved Shadow Word: Pain'
+    rank: 2
+    spell_id: 15317
+  - tree: Shadow
+    talent: Blackout
+    rank: 5
+    spell_id: 15326
+  - tree: Shadow
+    talent: Improved Psychic Scream
+    rank: 2
+    spell_id: 15448
+  - tree: Shadow
+    talent: Mind Flay
     rank: 1
-    spell_id: 14751
-    talent_id: 174
-  - tree: Discipline
+    spell_id: 15407
+  - tree: Shadow
+    talent: Shadow Reach
+    rank: 2
+    spell_id: 17323
+  - tree: Shadow
+    talent: Shadow Weaving
+    rank: 4
+    spell_id: 15333
+  - tree: Shadow
+    talent: Silence
+    rank: 1
+    spell_id: 15487
+  - tree: Shadow
+    talent: Vampiric Embrace
+    rank: 1
+    spell_id: 15286
+  - tree: Shadow
+    talent: Vampiric Touch
+    rank: 2
+    spell_id: 45558
+  - tree: Shadow
+    talent: Darkness
+    rank: 5
+    spell_id: 15310
+  - tree: Shadow
+    talent: Shadowform
+    rank: 1
+    spell_id: 15473
+  variants:
+  - name: 'Defensive 19/0/32 (Bluefear): Unbreakable Will 5, Improved PW:S 3, Improved Mana Burn 2, no Holy'
+    code_tree_b64: AoFRRY--AoCFQICVJAAoB
+    cite: '[[d:priest#1487631348079526082]]'
+    status: VALID
+  - name: Shadow Weaving 4/5 -> Shadow Focus 4/5 vs high-resist targets
+    cite: '[[d:priest#1487814720428834826]]'
+    status: swap
+  leveling_order_note: see shadow-ranged-dps.yaml (respec at 42)
+  leveling_order:
+  - level: 10
+    tree: Discipline
+    talent: Wand Specialization
+    rank: 1
+  - level: 11
+    tree: Discipline
+    talent: Wand Specialization
+    rank: 2
+  - level: 12
+    tree: Shadow
+    talent: Spirit Tap
+    rank: 1
+  - level: 13
+    tree: Shadow
+    talent: Spirit Tap
+    rank: 2
+  - level: 14
+    tree: Shadow
+    talent: Spirit Tap
+    rank: 3
+  - level: 15
+    tree: Shadow
+    talent: Spirit Tap
+    rank: 4
+  - level: 16
+    tree: Shadow
+    talent: Spirit Tap
+    rank: 5
+  - level: 17
+    tree: Holy
+    talent: Holy Focus
+    rank: 1
+  - level: 18
+    tree: Holy
+    talent: Holy Focus
+    rank: 2
+  - level: 19
+    tree: Holy
+    talent: Divinity
+    rank: 1
+  - level: 20
+    tree: Holy
+    talent: Divinity
+    rank: 2
+  - level: 21
+    tree: Holy
+    talent: Divinity
+    rank: 3
+  - level: 22
+    tree: Holy
+    talent: Divine Fury
+    rank: 1
+  - level: 23
+    tree: Holy
+    talent: Divine Fury
+    rank: 2
+  - level: 24
+    tree: Holy
+    talent: Divine Fury
+    rank: 3
+  - level: 25
+    tree: Holy
+    talent: Divine Fury
+    rank: 4
+  - level: 26
+    tree: Holy
+    talent: Divine Fury
+    rank: 5
+  - level: 27
+    tree: Holy
+    talent: Divinity
+    rank: 4
+  - level: 28
+    tree: Holy
+    talent: Divinity
+    rank: 5
+  - level: 29
+    tree: Holy
+    talent: Holy Reach
+    rank: 1
+  - level: 30
+    tree: Holy
+    talent: Holy Reach
+    rank: 2
+  - level: 31
+    tree: Holy
+    talent: Holy Nova
+    rank: 1
+  - level: 32
+    tree: Holy
+    talent: Spiritual Guidance
+    rank: 1
+  - level: 33
+    tree: Holy
+    talent: Spiritual Guidance
+    rank: 2
+  - level: 34
+    tree: Holy
+    talent: Spiritual Guidance
+    rank: 3
+  - level: 35
+    tree: Holy
+    talent: Spiritual Guidance
+    rank: 4
+  - level: 36
+    tree: Holy
+    talent: Spiritual Guidance
+    rank: 5
+  - level: 37
+    tree: Discipline
+    talent: Piercing Light
+    rank: 1
+  - level: 38
+    tree: Discipline
+    talent: Piercing Light
+    rank: 2
+  - level: 39
+    tree: Discipline
+    talent: Piercing Light
+    rank: 3
+  - level: 40
+    tree: Discipline
+    talent: Mental Agility
+    rank: 1
+  - level: 41
+    tree: Discipline
+    talent: Mental Agility
+    rank: 2
+  - level: 42
+    respec: true
+    talent: RESPEC (reset all talents)
+    tree: '-'
+  - level: 42
+    tree: Discipline
+    talent: Wand Specialization
+    rank: 2
+  - level: 42
+    tree: Shadow
+    talent: Spirit Tap
+    rank: 5
+  - level: 42
+    tree: Shadow
+    talent: Improved Mind Blast
+    rank: 5
+  - level: 42
+    tree: Shadow
+    talent: 'Improved Shadow Word: Pain'
+    rank: 2
+  - level: 42
+    tree: Shadow
+    talent: Shadow Focus
+    rank: 3
+  - level: 42
+    tree: Shadow
+    talent: Mind Flay
+    rank: 1
+  - level: 42
+    tree: Shadow
+    talent: Shadow Weaving
+    rank: 5
+  - level: 42
+    tree: Shadow
+    talent: Vampiric Embrace
+    rank: 1
+  - level: 42
+    tree: Shadow
+    talent: Vampiric Touch
+    rank: 2
+  - level: 42
+    tree: Shadow
+    talent: Shadow Reach
+    rank: 1
+  - level: 42
+    tree: Shadow
+    talent: Darkness
+    rank: 5
+  - level: 42
+    tree: Shadow
+    talent: Shadowform
+    rank: 1
+  - level: 43
+    tree: Discipline
+    talent: Mental Agility
+    rank: 1
+  - level: 44
+    tree: Discipline
+    talent: Mental Agility
+    rank: 2
+  - level: 45
+    tree: Discipline
+    talent: Mental Agility
+    rank: 3
+  - level: 46
+    tree: Discipline
+    talent: Mental Agility
+    rank: 4
+  - level: 47
+    tree: Discipline
+    talent: Mental Agility
+    rank: 5
+  - level: 48
+    tree: Discipline
+    talent: 'Improved Power Word: Fortitude'
+    rank: 1
+  - level: 49
+    tree: Discipline
     talent: 'Improved Power Word: Fortitude'
     rank: 2
-    spell_id: 14767
-    talent_id: 172
-  - tree: Discipline
+  - level: 50
+    tree: Discipline
+    talent: Silent Resolve
+    rank: 1
+  - level: 51
+    tree: Discipline
+    talent: Improved Inner Fire
+    rank: 1
+  - level: 52
+    tree: Discipline
+    talent: Improved Inner Fire
+    rank: 2
+  - level: 53
+    tree: Discipline
+    talent: Inner Focus
+    rank: 1
+  - level: 54
+    tree: Discipline
     talent: Meditation
     rank: 1
-    spell_id: 14521
-    talent_id: 176
-  leveling_order: []
-  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=priest&t=20000220131--50322522102511251
-  build_link_tortoise_note: 'Generated from the sourced points list (50 points: Discipline 11, Shadow 39); the calculator
+  - level: 55
+    tree: Discipline
+    talent: Meditation
+    rank: 2
+  - level: 56
+    tree: Discipline
+    talent: Meditation
+    rank: 3
+  - level: 57
+    tree: Shadow
+    talent: Shadow Reach
+    rank: 2
+  - level: 58
+    tree: Shadow
+    talent: Improved Fade
+    rank: 1
+  - level: 59
+    tree: Shadow
+    talent: Improved Fade
+    rank: 2
+  - level: 60
+    tree: Shadow
+    talent: Shadow Focus
+    rank: 4
+  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=priest&t=005002-0250303-05020520102411251
+  build_link_tortoise_note: 'Generated from the sourced points list (51 points: Discipline 7, Holy 13, Shadow 31); the calculator
     shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
 stat_weights:
   stamina: 1
+  intellect: 2
+  spirit: 3
   spell_power: 2
-  spell_hit: 3% (some say 4%)
-  spell_penetration: vs resist stackers only
-  intellect: 4
+  spell_hit: 3% vs level-60 players (4% contested)
+  healing_power: drives PW:S size
+  sources:
+  - '[[d:priest#1472313528693035219]]'
+  - '[[d:priest#1400568275561087046]]'
+  - '[[d:priest#1493738200147955824]]'
+  era: post-1.18.1
+  agreement: consensus
 caps:
   spell_hit_vs_players_pct: 3
-  spell_penetration: 1 pen = 1 resistance
+  mind_flay_range_yd: 20
 rotation_single:
 - priority: 1
-  action: 'Power Word: Shield (self)'
-  condition: no Weakened Soul
+  action: 'PW:S self -> Vampiric Embrace -> Shadow Word: Pain (with Shadow Weaving lands as 6 debuffs, hard to dispel)'
+  source: '[[d:priest#1485255007283581048]]'
 - priority: 2
-  action: Vampiric Embrace
-  condition: before engaging (instant since 1.18.0)
-- priority: 3
-  action: 'Shadow Word: Pain'
-  condition: not on target (rank 1 as dispel bait)
-- priority: 4
   action: Mind Blast
-  condition: off cooldown (Inner Focus for free crit)
-- priority: 5
+  condition: on cooldown; not vs warriors unless it kills
+  source: '[[d:priest#1485369919938887893]]'
+- priority: 3
   action: Mind Flay
-  condition: target within 20-24 yd and no freedom effect
-- priority: 6
+  condition: within 20 yd
+- priority: 4
   action: Pain Spike
-  condition: target low enough to die (30 s CD)
-- priority: 7
-  action: Silence
-  condition: enemy healer/caster casting
-- priority: 8
+  condition: finisher
+  source: '[Atreidon, 2025-04-01](https://forum.turtlecraft.gg/viewtopic.php?p=124839#p124839)'
+- priority: 5
   action: Psychic Scream
-  condition: melee on you and target not fear-warded/WotF-ready
-- priority: 9
-  action: Shadowguard / Hex of Weakness (Troll), Starshards (Night Elf), Devouring Plague (Undead)
-  condition: racial availability
+  condition: melee on you; not into trinket/WotF/Fear Ward
+- priority: 6
+  action: Silence
+  condition: aggressive caster (frost mage nova/AE on a node)
+  source: '[[d:pvp-general#1360941242695028736]]'
+- priority: 7
+  action: Shadowguard (Troll)
+  condition: always up
 rotation_aoe:
 - targets_min: 2
   priority: 1
-  action: 'Shadow Word: Pain on all'
-  condition: always
+  action: 'SW:P every enemy in range (flag carriers: near-undispellable)'
+  condition: group fights
+  source: '[[d:priest#1485287934339977258]]'
 - targets_min: 2
   priority: 2
   action: Psychic Scream
-  condition: 2+ melee in range
+  condition: 2+ melee on you
 - targets_min: 2
   priority: 3
-  action: Holy Nova rank 1 spam
-  condition: stealthers suspected and Holy Nova talented
+  action: Dispel Magic enemy buffs
+  condition: free GCD
 aoe_threshold: 2
 cooldowns:
 - name: Psychic Scream
@@ -249,3 +591,8 @@ mistakes_to_avoid:
 - Pain Spike early (heals back)
 - Tier sets over stamina pieces
 - Never dispelling or shielding teammates
+- 'Expecting post-CC2 Shadow PvP to be a survivability spec: CC2 made it a ''bad glass cannon'' (Blackout 3 -> 2 s, VE cast,
+  Shadowform shield scare) [[d:priest#1296267877036589056]], [[d:priest#1296272979868647525]]'
+- Expecting Light of An'she in Shadowform (it is a Holy spell) [[d:priest#1484898033597546539]]
+- Mind Blast crits on warriors [[d:priest#1485369919938887893]]
+- Ignoring Shadow Reflector on rogues (hard counter) [[d:priest#1485553306876252212]]

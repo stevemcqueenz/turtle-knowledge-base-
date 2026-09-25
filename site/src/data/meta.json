@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-17T19:08:07Z",
-  "repoCommit": "9de9a83",
+  "generatedAt": "2026-09-25T13:12:49Z",
+  "repoCommit": "d653c7ee",
   "counts": {
     "classes": 9,
-    "playbooks": 47,
+    "playbooks": 49,
     "matrixRows": 106,
     "glossaryTerms": 323
   },
@@ -19,5 +19,26 @@
     "shutdown_source": "https://forum.turtlecraft.gg/viewtopic.php?t=24891 (Torta, Turtle WoW Team)",
     "note": "All dates UTC. Posts dated 2025-10-03..2026-03-19 discuss 1.18.1 as announced but unreleased; posts from 2026-03-20 on are post-release."
   },
-  "notes": "Content is sourced only from this repository's synthesis/ and structured/ trees, which in turn cite the archived Turtle WoW forum. Every claim is labelled with a source tier: staff (Turtle WoW Team, the authority on intent), player, or wiki (community Fandom wiki, least reliable) — staff is preferred over player over wiki, and synthesis/contradictions.md lists where sources disagree. Forum links (viewtopic.php?...) stop resolving after the forum closes on 2026-10-16; the archived post ids and quoted text remain valid in this repository regardless. Nothing on this site is invented: where sources are silent, the relevant playbook or class README says so explicitly under its gaps section rather than guessing."
+  "notes": "Content is sourced only from this repository's synthesis/ and structured/ trees, which in turn cite the archived Turtle WoW forum. Every claim is labelled with a source tier: staff (Turtle WoW Team, the authority on intent), player, or wiki (community Fandom wiki, least reliable) — staff is preferred over player over wiki, and synthesis/contradictions.md lists where sources disagree. Forum links (viewtopic.php?...) stop resolving after the forum closes on 2026-10-16; the archived post ids and quoted text remain valid in this repository regardless. Nothing on this site is invented: where sources are silent, the relevant playbook or class README says so explicitly under its gaps section rather than guessing.",
+  "guideClasses": [
+    "warrior",
+    "paladin",
+    "hunter",
+    "rogue",
+    "priest",
+    "shaman",
+    "mage",
+    "warlock",
+    "druid"
+  ],
+  "discordCitations": {
+    "resolved": 10852,
+    "unresolved": 0
+  },
+  "instanceCounts": {
+    "pages": 39,
+    "dungeons": 27,
+    "raids": 12
+  },
+  "unwrappedLinks": []
 }

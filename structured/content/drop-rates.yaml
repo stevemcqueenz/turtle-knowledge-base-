@@ -5,6 +5,102 @@ caveats:
 - Player records are anecdotes, not measurements. No player in this extraction publishes successes over trials for a custom item.
 - Rates attributed to database.turtlecraft.gg are marked; that database is not part of this extraction and players repeatedly questioned its accuracy without an answer.
 - The 2019-2021 "Online Quest & Item Creator" thread contains many percentages that are design proposals, not live values; they are excluded here.
+discord_enrichment:
+  channel: turtle-wiki
+  note: >-
+    #turtle-wiki drop-rate findings. Era: pre-1.18.1 | 1.18.1-announced-pre-release | post-1.18.1;
+    agreement: consensus | single source | contested.
+  mechanics:
+  - claim: >-
+      Database loot 'group' semantics: each group can only drop one item. A group summing
+      to 100% guarantees exactly one item from it; if the mob also has an item in a second
+      group (e.g. 10%), that second item rolls independently and can drop additionally.
+      This is the common cause of 'the database drop rates are wrong' reports (CON-0045).
+    authority: guide writer
+    agreement: single source
+    era: pre-1.18.1
+    sources:
+    - '[[d:turtle-wiki#1402264191645253733]]'
+  staff_answers:
+  - item: Pendant of Myzrael
+    detail: >-
+      Dragunovi (staff): the necklace is only a breadcrumb for the questline and the quest
+      can be started without it; he 'saw it drop the most from scarlet monaster
+      lib/armory'. A staff override of a database-rate complaint (CON-0045).
+    authority: staff
+    agreement: single source
+    era: pre-1.18.1
+    sources:
+    - '[[d:turtle-wiki#1169995453069283508]]'
+    - '[[d:turtle-wiki#1169996605697577020]]'
+  drop_sources:
+  - item: Supercharged Arcane Resomation
+    detail: >-
+      Drops from any arcane elemental in Dire Maul West, including the patrolling
+      elementals around Immol'thar and the 'Arcane Torrent' mobs.
+    authority: guide writer
+    agreement: single source
+    era: pre-1.18.1
+    sources:
+    - '[[d:turtle-wiki#1163320502446718977]]'
+  - item: Blackened Defias Mask (transmog)
+    detail: >-
+      Item level 16, drops only from Mr Smite at ~20%. Ravenholdt and Syndicate
+      reputation masks (black/orange) require level 25 plus Friendly reputation.
+    authority: guide writer
+    agreement: single source
+    era: pre-1.18.1
+    sources:
+    - '[[d:turtle-wiki#1396892164222357565]]'
+  - item: Gemstone of Naraz (Grim Reaches quest)
+    detail: 5% drop rate; reward unknown. Community report.
+    authority: player
+    agreement: single source
+    era: pre-1.18.1
+    sources:
+    - '[[d:turtle-wiki#1408810752218763284]]'
+  - item: Ancient Dwarven Gemstone (recipe)
+    detail: Rarely drops from the orc Halgan Redbrand in Dragonmaw Retreat.
+    authority: guide writer
+    agreement: single source
+    era: 1.18.1-announced-pre-release
+    sources:
+    - '[[d:turtle-wiki#1434045944256532651]]'
+  - item: Black Lotus alongside ordinary herbs
+    detail: >-
+      A Black Lotus can spawn alongside high-level herbs (a player got one from Mountain
+      Silversage). Whether the chance depends on zone or herb type was asked but never
+      answered; does NOT settle the per-realm-rate question (CON-0041).
+    authority: player
+    agreement: single source
+    era: mixed
+    sources:
+    - '[[d:turtle-wiki#1113806439027331203]]'
+    - '[[d:turtle-wiki#1149254563736596480]]'
+    - '[[d:turtle-wiki#1446108919826088046]]'
+  contested:
+  - item: Bunny-ears event (all colours)
+    detail: >-
+      Database shows 1.8% for all colours, but a player saw 0 whites in ~600 eggs; whites
+      were also the only BoP variant - a concrete database-vs-run mismatch for CON-0045.
+    authority: player
+    agreement: single source
+    era: pre-1.18.1
+    sources:
+    - '[[d:turtle-wiki#1367284362999238779]]'
+  wiki_gaps:
+  - claim: 'New level-60 dungeon loot (Karazhan Crypts, Black Morass, Stormwind Vaults) was undocumented in both the wiki and the database.'
+    authority: player
+    agreement: single source
+    era: pre-1.18.1
+    sources:
+    - '[[d:turtle-wiki#1411965494155546705]]'
+  - claim: 'Custom Scarlet Monastery bosses were absent from both the database and AtlasLoot.'
+    authority: player
+    agreement: single source
+    era: pre-1.18.1
+    sources:
+    - '[[d:turtle-wiki#1351907901970841721]]'
 staff_stated:
 - item: Black Lotus (additional chance from high-level herbs)
   source: Dreamfoil / Mountain Silversage / Plaguebloom / Icecap

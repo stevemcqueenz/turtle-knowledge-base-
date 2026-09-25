@@ -26,6 +26,7 @@ import { SourcesRow } from '../components/guide/SourcesRow';
 import { cleanHeading, describeValue, sourceSummaryLine, splitOpener, summarizeSources } from '../components/guide/util';
 import { ChevronLeftIcon, ChevronRightIcon } from '../components/Icons';
 import { NotFound } from './NotFound';
+import { CitedText } from '../components/CitedText';
 
 function list<T>(value: unknown): T[] {
   return Array.isArray(value) ? (value as T[]) : [];
@@ -97,13 +98,18 @@ export function PlaybookPage({ slug, id }: { slug: string; id: string }) {
     (Array.isArray(entry.gear?.specs) && entry.gear!.specs!.length > 0) ||
     (Array.isArray(entry.gearMarkdown) && entry.gearMarkdown.length > 0);
 
+  const fromGuide = !!playbook.guidePath;
+  const extras = playbook.extraSections ?? [];
   const tabs = [
+    ...(fromGuide && sections?.overview ? [{ id: 'overview', label: 'Overview' }] : []),
     { id: 'talents', label: 'Talents' },
     ...(levelingOrder.length > 0 || classOrder ? [{ id: 'leveling', label: 'Leveling path' }] : []),
     { id: 'stats', label: 'Stats & caps' },
     { id: 'rotation', label: 'Rotation' },
     { id: 'cooldowns', label: 'Cooldowns' },
     { id: 'dont', label: "Don't" },
+    ...(fromGuide ? [{ id: 'gear', label: 'Gear' }] : []),
+    ...(fromGuide && extras.length > 0 ? [{ id: 'more', label: 'More' }] : []),
     { id: 'sources', label: 'Sources' },
   ];
 
@@ -113,11 +119,20 @@ export function PlaybookPage({ slug, id }: { slug: string; id: string }) {
       <SectionTabs items={tabs} ariaLabel="Sections of this guide" note={sourceLine} />
 
       <div ref={body} className="mx-auto max-w-6xl space-y-10 px-3 py-7 sm:px-5">
+        {/* ---- Overview (guide pages open with their recommendation) ------ */}
+        {fromGuide && sections?.overview ? (
+          <GuideSection id="overview" title="Overview">
+            <div className="card p-4 sm:p-5">
+              <Markdown source={sections.overview.markdown} />
+            </div>
+          </GuideSection>
+        ) : null}
+
         {/* ---- Talents ---------------------------------------------------- */}
         <GuideSection
           id="talents"
           title="Talents"
-          hint={talents?.build_name ? String(talents.build_name) : undefined}
+          hint={talents?.build_name ? <CitedText text={String(talents.build_name)} /> : undefined}
         >
           {points.length > 0 || skip.length > 0 || buildLinks.length > 0 ? (
             <div className="grid gap-4 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,2fr)]">
@@ -128,7 +143,7 @@ export function PlaybookPage({ slug, id }: { slug: string; id: string }) {
                 {patchNotes ? (
                   <div className="mt-auto">
                     <Callout tone="warning" title="1.18.1">
-                      {patchNotes}
+                      <CitedText text={patchNotes} />
                     </Callout>
                   </div>
                 ) : null}
@@ -275,27 +290,58 @@ export function PlaybookPage({ slug, id }: { slug: string; id: string }) {
                 <ul className="flex flex-wrap gap-1.5">
                   {consumables.map((c, i) => (
                     <li key={i} className="chip hairline bg-surface2 text-xs text-muted">
-                      {c}
+                      <CitedText text={c} />
                     </li>
                   ))}
                 </ul>
               </div>
             ) : null}
           </div>
-          <ProseDetails title="Full gear notes" sections={[sections?.gear]} />
+          <ProseDetails
+            title={sections?.enchants || sections?.consumables ? 'Gear, enchants and consumables in full' : 'Full gear notes'}
+            sections={[sections?.gear, sections?.enchants, sections?.consumables]}
+          />
         </GuideSection>
+
+        {/* ---- More (guide sections outside the template) ----------------- */}
+        {fromGuide && extras.length > 0 ? (
+          <GuideSection id="more" title="More from this guide">
+            <div className="space-y-2">
+              {extras.map((extra) => (
+                <Collapsible key={extra.id} title={cleanHeading(extra.heading)}>
+                  <Markdown source={extra.markdown} />
+                </Collapsible>
+              ))}
+            </div>
+          </GuideSection>
+        ) : null}
 
         {/* ---- Sources ------------------------------------------------------ */}
         <GuideSection id="sources" title="Sources">
           <SourcesRow sources={sources}>
             {sections?.sources ? <Markdown source={sections.sources.markdown} /> : null}
           </SourcesRow>
-          {sections?.overview ? <ProseDetails title="Overview in full" sections={[sections.overview]} /> : null}
-          {(playbook.extraSections ?? []).map((extra) => (
-            <Collapsible key={extra.id} title={cleanHeading(extra.heading)}>
-              <Markdown source={extra.markdown} />
-            </Collapsible>
-          ))}
+          {fromGuide ? (
+            <p className="card p-4 text-sm text-muted">
+              Every claim in this guide carries its citation inline: forum posts and Discord messages (hover a chip to
+              read the message).{' '}
+              {entry.sources ? (
+                <a href={href.sources(entry.slug)} className="text-[rgb(var(--c-accent))] hover:underline">
+                  What the {entry.name} guides are built on →
+                </a>
+              ) : null}
+            </p>
+          ) : null}
+          {!fromGuide && sections?.overview ? (
+            <ProseDetails title="Overview in full" sections={[sections.overview]} />
+          ) : null}
+          {fromGuide
+            ? null
+            : extras.map((extra) => (
+                <Collapsible key={extra.id} title={cleanHeading(extra.heading)}>
+                  <Markdown source={extra.markdown} />
+                </Collapsible>
+              ))}
         </GuideSection>
 
         <nav aria-label="Other playbooks" className="grid gap-3 sm:grid-cols-2">

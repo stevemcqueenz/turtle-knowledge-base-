@@ -1,6 +1,8 @@
 # Mage — Arcane — Ranged DPS (raids and dungeons)
 
-Era coverage: the Arcane rework shipped with patch 1.17.2 (2024-11-01; staff notes 2024-10-12), was retuned on 2024-12-20, 2025-04-01 and in 1.18.0 (2025-08-15). **Patch 1.18.1 (2026-03-20) changed nothing in the Arcane tree**; the only 1.18.1 items touching an Arcane mage are the T3.5 "Mirror Magic" 3-set fix and the wand school-modifier fix (see §Gear). Everything below that predates 2025-08-15 is flagged where a later change affects it.
+Era coverage: the Arcane rework shipped with patch 1.17.2 (2024-11-01; staff notes 2024-10-12), was retuned on 2024-12-20, 2025-04-01 and in 1.18.0 (2025-08-15). **Patch 1.18.1 (2026-03-20) made no *documented* Arcane-tree change**; the only 1.18.1 items touching an Arcane mage are the T3.5 "Mirror Magic" 3-set fix and the wand school-modifier fix (see §Gear). The earlier flat "changed nothing" line is softened by Discord patch-day reports that Resonance Cascade may have been hot-buffed 20% → 25% and that Rupture/Surge damage dropped — both unconfirmed (see §Discord additions). Everything below that predates 2025-08-15 is flagged where a later change affects it.
+
+> A **Discord-sourced section** at the end of this file (before Sources) carries the measured numbers, the transcribed 43/8/0 raid build and the field stat weights from the archived `#mage` Discord. Every such claim is tagged `[[d:mage#<id>]]` with an era and agreement tag.
 
 ## Overview
 
@@ -171,6 +173,62 @@ Channel-queueing: repeated Missiles casts clip; use nampower (wiki, by the sim a
 9. Wearing the 5-piece T3.5 on trash when a 3/3 split is better (wiki, post-1.18.1).
 10. Converting tier pieces at Feid Rota with enchants on them (wiki).
 
+## Discord additions (post-1.18.1)
+
+The archived `#mage` Discord (101,438 messages, 2021-02-15 → 2026-05-23) supplies the measured numbers, the transcribed raid build and field stat weights the forum only listed as gaps. Era tags: **pre-1.18.1** (<2025-10-03), **1.18.1-announced-pre-release** (2025-10-03 → 2026-03-19), **post-1.18.1** (≥2026-03-20).
+
+### Talent build — the 43/8/0 raid build (confirmed)
+
+A screenshot labelled `MAGE 43 / 8 / 0` (2026-03-21) is the community's de-facto post-1.18.1 arcane raid build [[d:mage#1484816855662071930]] (**post-1.18.1, single source**). It reproduces the wiki's 43-Arcane path (Improved Arcane Missiles 5, Arcane Concentration 5, Arcane Rupture 1, Arcane Impact 3, Arcane Focus 5, Arcane Meditation 3, Temporal Convergence 3, Accelerated Arcana 1, Arcane Instability 3, Arcane Potency 2, Resonance Cascade 5, Presence of Mind 1, Arcane Subtlety 2, Magic Absorption 3, Arcane Power 1) and fills the forum's inferred 5 free points with **8 Fire points: Improved Fireball 5 + Improved Fire Blast 3** — the 1.18.1 "Fire Blast is back in the rotation" concession. Screenshot transcribers mark the icon→name mapping "≈" but trust the header and rank totals. A 44/2/2 at level 57 leveling/questing variant (raid path minus the 8 Fire points, plus Wand Specialization/Magic Absorption) is at [[d:mage#1479212556571640001]].
+
+Discord also **decoded the previously-opaque long-form `?points=` build codes**: 112 codes exist, 49 decode to legal 51-point builds (1.17.2 → 1.18.0 trees), now canonicalised in `kb/structured/talents/builds-mage.yaml` (codec: `staging/talents/talent_codec.py`). This closes the forum README's gap #1. Examples: full Arcane through Arcane Power [[d:mage#1304743772424245321]], Arcane+Frost shatter/farm [[d:mage#1301954095950594118]]. The **current short-form codes (post-2025-08-28) remain undecodable** — totals come out 70–77 against a 51 budget (gap).
+
+### Rotation — measured rules
+
+The post-1.18.1 priority described by top players (**consensus, post-1.18.1**):
+
+- **In Arcane Power:** Rupture whenever the Rupture debuff is down, otherwise Missiles [[d:mage#1486058965300412416]], [[d:mage#1486059691699343402]].
+- **Outside Arcane Power:** Missiles while Clearcasting → Rupture when its debuff is down → Surge at the last second of the Rupture debuff (or outside it) → Missiles [[d:mage#1486058965300412416]], [[d:mage#1486332027736297683]].
+- **Never Surge during a big haste cooldown** (AP/MQG): "don't surge during big haste cooldowns" [[d:mage#1448429040108044340]], [[d:mage#1432389709166018630]]. Surge's wait does not scale with haste [[d:mage#1486021322340565163]]; the community cutoff is **~25–30% effective haste** [[d:mage#1486024900563959981]] (the sim uses ~22% [[d:mage#1490368335962050703]]). The forum's "~30%" figure is that consensus rounded up.
+- **Keep Rupture debuff uptime** — wait for it to fall before recasting, and cancel the Missiles channel for Rupture/Surge only right after a tick. Macro: `/script ChannelStopCastingNextTick(); /cast Arcane Rupture` [[d:mage#1486008678262771782]]; nampower double-tap interrupt [[d:mage#1485666719111446620]]. If ooming, finish the channel instead [[d:mage#1486015533433225266]] (single source).
+- **Never re-press Missiles mid-channel without a channel-check** — it clips the last missile [[d:mage#1486008770353037312]].
+- **8-piece T3 caveat:** the "direct damaging Arcane spells" language benefits only Surge and Rupture, not Missiles [[d:mage#1484609770936729720]], [[d:mage#1484697825676754974]] (single source).
+
+### Haste caps and the channel
+
+- **Channel softcap: 2.82 s with a T2/T3 belt, 2.35 s with any other belt** [[d:mage#1484613204335264025]] — beyond that, temporary haste during cooldowns does nothing (**post-1.18.1, consensus**). This is the number the wiki left blank.
+- **Accelerated Arcana is a cast-time reduction, not haste**, which is why those base channels exist [[d:mage#1484613633404305640]] (post-1.18.1, single source).
+- **Hard cap 100% haste = 0.475 s/missile** [[d:mage#1427636535460888576]]. One player measured **0.470 s** under full consume stacking, so the floor is **contested 0.470–0.475 s** [[d:mage#1435061990551982291]].
+- Haste is multiplicative, `new = old/(1+h)`; tooltip rounding can hide a 1% step [[d:mage#1427670777116753922]], [[d:mage#1427639218913546280]].
+
+### Stat weights (field numbers)
+
+- **1% haste ≈ 13 SP** in mixed gear ("a good bit lower in pre-raid"), **~15 SP at Naxx** [[d:mage#1430520539532754955]], [[d:mage#1430528874068050022]], [[d:mage#1432714419451854858]] (1.18.1-announced-pre-release, consensus).
+- **20 SP ≈ 14 DPS; 1% haste ≈ 9.1 DPS; 1% crit ≈ 9.1 DPS** [[d:mage#1423428377989087243]] (1.18.1-announced-pre-release, single source) — independently matching the forum's Ashafares formula.
+- Mondalv's 5k-iteration sim (950 SP/16 hit/35 crit/19 haste, 90 s undead, MQG+AP): +0 eff haste 1590 DPS, +1 1603, +2 1616, +3 1628, +4 1642 [[d:mage#1432730506293936248]]. **6% haste is the largest single-step DPS breakpoint** [[d:mage#1491470885104910406]].
+- **Arcane gets 10% hit from talents** (vs 6% Fire/Frost) [[d:mage#1425934816251220068]]; with +1% druid buff and +2% ZG head/legs enchants only **~3% from gear** is needed [[d:mage#1487588079907770580]]. Miss table 3/4/5/16% [[d:mage#1425882367599443998]] (1.18.1-announced-pre-release, consensus).
+- Intellect only to **~4500–5000 mana** unbuffed so Arcane Power does not throttle [[d:mage#1491890195384242276]].
+
+### Gear and consumables (Discord)
+
+- **Gloves of Unwinding Mystery were nerfed 22 SP → 9 SP** (bug 18049, applied around 1.18.1) and are no longer BiS; replacement **Gloves of Spell Mastery** [[d:mage#1427776479936254052]], [[d:mage#1431234432450433135]], [[d:mage#1484607421321187388]], [[d:mage#1484608704958431252]] — this **supersedes** the forum's BiS-arcane-craft entry (**post-1.18.1, consensus**).
+- **Scythe of Elune internal cooldown restored in 1.18.1** (2026-03-20), a large arcane power loss [[d:mage#1484542176338772069]], [[d:mage#1484543213976031343]] — supersedes pre-1.18.1 uptime advice.
+- **Arcane T2 5-piece quantified**: ~5% haste on crits plus a **+1 s Missiles channel** and spirit regen, worth more than ~33 SP of raw stats, and multiplicative with other haste; keep it until ~4% permanent haste from Arcane T3 [[d:mage#1484514817438908476]], [[d:mage#1489407016483946638]], [[d:mage#1488775375545700484]] (post-1.18.1, consensus).
+- **Trinket priority MQG > ToEP > Sigil of Ancient Accord > Endless Gulch > Shard/Tear > Kara crypts orb > Whip > ZHC**; fight-length sim 2 min MQG/Tear 1215 DPS, 3 min+ Sigil/Gulch 1221 DPS [[d:mage#1487067808771735693]], [[d:mage#1487093045777268797]], [[d:mage#1494477500871610509]] (post-1.18.1, consensus).
+- **Spellwoven Nobility Drape** ST BiS until Naxx (~50% uptime, ~+1.25% crit) [[d:mage#1490791627307090022]]. **Whip of Encouragement** = 3% haste [[d:mage#1484772463752515685]]. True Band of Sulfuras + Wrath of Cenarius endgame rings [[d:mage#1486495562441166858]].
+- **Ring of Burning Talons** procs scale 0.22×SP and work with Arcane Explosion on trash [[d:mage#1488765322541666364]]. **Prestor's Rod of Command** whelp ≈120–150 DPS at ~40% uptime [[d:mage#1486490987852337164]]. **Blade of Eternal Darkness** at 800 SP ≈ a 555-SP weapon but its proc damages the wielder [[d:mage#1279094951619203177]].
+- **+9 Arcane damage jewelcrafting ring/amulet enchant confirmed live** post-1.18.1; recipe source unknown (gap) [[d:mage#1490456423170183369]], [[d:mage#1492564557342703716]].
+- Enchants: ZG **Presence of Sight** +18 SP/1% hit head, **Enchanted Armor Kit** +9 SP feet, gloves 20 arcane or 1% haste [[d:mage#1491271778432192535]], [[d:mage#1484609579206836335]].
+- Consumes: full list and stacking (Flask of Supreme Power + Elixir of Greater Arcane Power + Dreamshard Elixir + Dreamtonic + oil + Tel'Abim; Mageblood; Spirit of Zanza; **Juju Flurry + Potion of Quickness + Berserking + Elune's Courage stack**; **Nordanaar Tea** from Hyjal) [[d:mage#1438508962843463692]], [[d:mage#1427637200375382099]], [[d:mage#1488098864048115845]]; **engineering is the only profession that adds raid damage** (Sapper) [[d:mage#1438550709686501427]] (consensus).
+
+### Corrections and open items
+
+- **"1.18.1 changed nothing in the Arcane tree" — softened.** On patch day a raider asked "Did Resonance Cascade always do 25%!? I could've sworn it was only 20%" [[d:mage#1484585695422058496]] (post-1.18.1, single source); Rupture/Surge damage-drop reports also appeared [[d:mage#1484629998882128057]], [[d:mage#1486855899971719238]] (contested/unconfirmed). No staff confirmation either way.
+- **Resonance Cascade duplicate mechanics:** duplicates never trigger on-hit effects, and only one Arcane Explosion target rolls for duplication [[d:mage#1431347127828873318]] — enriches the talent table above.
+- **Arcane is ~80–90% of the mage population** in raids [[d:mage#1488090240580190382]] (single source).
+
+Open after Discord: short `?points=` codes; the 0.470 vs 0.475 s floor; Vaelastrasz Burning Adrenaline rotation [[d:mage#1489847647895556107]]; the JC recipe source; the Resonance Cascade / Rupture-Surge questions.
+
 ## Sources
 
 | Source | Authority | Date | Era | Used for |
@@ -179,21 +237,35 @@ Channel-queueing: repeated Missiles casts clip; use nampower (wiki, by the sim a
 | [Jamey p113460](https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460) | staff | 2024-12-20 | pre-1.18.1 | Rupture 90% SP |
 | [Torta p124504](https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504) | staff | 2025-03-30 | pre-1.18.1 | AP 30/1/50, T3 6-set, Rupture rank damage, Dampen/Amplify |
 | [Jamey p141159](https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159) | staff | 2025-07-25 (rev. 2025-08-14) | pre-1.18.1 | Rupture 20%, Arcane Focus swap |
-| [Jamey p166071](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071) | staff | 2026-01-23 (rev. 01-26, 03-19) | 1.18.1-announced | no Arcane changes in 1.18.1 |
-| [Torta p154168](https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168), 1.18.1 notes | staff | 2025-10-03 | 1.18.1-announced | Mirror Magic, wands |
+| [Jamey p166071](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071) | staff | 2026-01-23 (rev. 01-26, 03-19) | 1.18.1-announced-pre-release | no Arcane changes in 1.18.1 |
+| [Torta p154168](https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168), 1.18.1 notes | staff | 2025-10-03 | 1.18.1-announced-pre-release | Mirror Magic, wands |
 | [Torta p118168](https://forum.turtlecraft.gg/viewtopic.php?p=118168#p118168) | staff | 2025-01-28 | pre-1.18.1 | tier retune |
-| [Mage Arcane FAQ](https://turtle-wow.fandom.com/wiki/Mage_Arcane_FAQ) | wiki (community, rev. 2026-03-24) | — | 1.18.1-announced | rotation, sims, gear, macros |
+| [Mage Arcane FAQ](https://turtle-wow.fandom.com/wiki/Mage_Arcane_FAQ) | wiki (community, rev. 2026-03-24) | — | 1.18.1-announced-pre-release | rotation, sims, gear, macros |
 | [Mage General FAQ](https://turtle-wow.fandom.com/wiki/Mage_General_FAQ) | wiki (rev. 2026-09-09) | — | post-1.18.1 | spec comparison, pre-raid, sets, haste formula |
-| [Mage Levelling FAQ](https://turtle-wow.fandom.com/wiki/Mage_Levelling_FAQ) | wiki (rev. 2025-10-01) | — | 1.18.1-announced | point allocation |
+| [Mage Levelling FAQ](https://turtle-wow.fandom.com/wiki/Mage_Levelling_FAQ) | wiki (rev. 2025-10-01) | — | 1.18.1-announced-pre-release | point allocation |
 | Eluaria (p160732, p165084, p167923, p171409, p174946, p174948) | player (self-described mage main; Nordanaar raid data) | 2025-11 → 2026-04 | both | standing, stats, BiS |
 | Schoop123 p107572 | player (leveled 1-60 Arcane) | 2024-11-11 | pre-1.18.1 | AP, burst maths, Rupture window |
 | Kibuum p105841/p106073/p107661/p107183 | player | 2024-11 | pre-1.18.1 | builds, Rupture window, AP use |
 | Trismegistos p87212/p87218/p87222/p87228, p98962 | player (self-described raid arcanist) | 2024-02, 2024-07 | pre-1.18.1 (pre-rework) | AP macro, mana, AoE standing — partly superseded |
 | Guldred p145255 | player | 2025-08-13 | pre-1.18.1 | Surge/haste threshold |
-| Ashafares p162161 | player | 2025-12-09 | 1.18.1-announced | stat formula |
+| Ashafares p162161 | player | 2025-12-09 | 1.18.1-announced-pre-release | stat formula |
 | Bahamutxd p107097, p134745 | player | 2024-11, 2025-06 | pre-1.18.1 | range, AP risk, AE |
-| Cheruscan p158193, p167503 | player | 2025-11, 2026-02 | 1.18.1-announced | standing |
+| Cheruscan p158193, p167503 | player | 2025-11, 2026-02 | 1.18.1-announced-pre-release | standing |
 | Bigsmerf p122736, p137036 | player | 2025-03, 2025-06 | pre-1.18.1 | standing, leveling stats |
 | Krautsurfer p106011; Avalok p137409; Massie2 p34165; Gantulga p87219/p87224; Mokkori p112682; Zvyrhol p106034; Mackylol p88341; Ibux p57048; Jc473 p94533/p91762; Fince p91626; Koseku p86785; Gladeshadow p100044; Redmagejoe p54081; Akos1896 p97235; Hoo p93714; Jombo p43821; Forbearance p107208; Darkhann p170344; Chev03 p174149; Spartan57 p126878 | players | 2023–2026 | as dated | details cited inline |
+
+### Discord sources (archived `#mage`)
+
+| Source | Era | Agreement | Used for |
+|---|---|---|---|
+| [[d:mage#1484816855662071930]] | post-1.18.1 | single source | 43/8/0 raid build screenshot |
+| [[d:mage#1486058965300412416]], [[d:mage#1486332027736297683]] | post-1.18.1 | consensus | post-1.18.1 rotation |
+| [[d:mage#1486024900563959981]], [[d:mage#1490368335962050703]] | post-1.18.1 | consensus | Surge haste cutoff ~25–30% |
+| [[d:mage#1484613204335264025]], [[d:mage#1484613633404305640]] | post-1.18.1 | consensus | Missiles channel softcap 2.82/2.35 s |
+| [[d:mage#1427636535460888576]], [[d:mage#1435061990551982291]] | 1.18.1-announced-pre-release | contested | haste floor 0.475 vs 0.470 s |
+| [[d:mage#1430520539532754955]], [[d:mage#1432730506293936248]] | 1.18.1-announced-pre-release | consensus | field stat weights / sim table |
+| [[d:mage#1487588079907770580]], [[d:mage#1425934816251220068]] | 1.18.1-announced-pre-release | consensus | arcane hit sources |
+| [[d:mage#1484607421321187388]], [[d:mage#1484542176338772069]] | post-1.18.1 | consensus | gear corrections |
+| [[d:mage#1484585695422058496]] | post-1.18.1 | single source | possible Resonance Cascade 20→25% |
 
 Agreement summary: spec standing — consensus; rotation — single source (wiki) corroborated by Guldred/Avalok details; stat weights — single source (wiki sims) with independent player formula (Ashafares) agreeing on hit-first and haste ≈ crit; talent allocation — single source (wiki); gear — single source per item. No staff post exists in the Mage forum (0 of 683 posts).

@@ -1,0 +1,664 @@
+class: hunter
+name: Hunter
+turtle: true
+source: refs/tortoise-db-viewer/scripts/data/talents.json (client-derived, 1.18.1) + server/data/dbc/Spell.dbc field 120 for names
+max_points: 51
+tabs:
+- id: 361
+  name: Beast Mastery
+  order: 0
+  talents:
+  - id: 373
+    name: Swift Aspects
+    row: 0
+    col: 1
+    max_rank: 5
+    ranks:
+    - 19552
+    - 19553
+    - 19554
+    - 19555
+    - 19556
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 374
+    name: Endurance Training
+    row: 0
+    col: 2
+    max_rank: 5
+    ranks:
+    - 19583
+    - 19584
+    - 19585
+    - 19586
+    - 19587
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 375
+    name: Improved Eyes of the Beast
+    row: 1
+    col: 0
+    max_rank: 2
+    ranks:
+    - 19557
+    - 19558
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 376
+    name: Improved Primal Aspects
+    row: 1
+    col: 1
+    max_rank: 3
+    ranks:
+    - 19549
+    - 19550
+    - 19551
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 377
+    name: Thick Hide
+    row: 1
+    col: 2
+    max_rank: 3
+    ranks:
+    - 19609
+    - 19610
+    - 19612
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 378
+    name: Improved Revive Pet
+    row: 1
+    col: 3
+    max_rank: 2
+    ranks:
+    - 24443
+    - 19575
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 379
+    name: Pathfinding
+    row: 2
+    col: 0
+    max_rank: 2
+    ranks:
+    - 19559
+    - 19560
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 380
+    name: Coordinated Assault
+    row: 2
+    col: 1
+    max_rank: 1
+    ranks:
+    - 49559
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 381
+    name: Unleashed Fury
+    row: 2
+    col: 2
+    max_rank: 5
+    ranks:
+    - 19616
+    - 19617
+    - 19618
+    - 19619
+    - 19620
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 382
+    name: Bestial Discipline
+    row: 3
+    col: 0
+    max_rank: 2
+    ranks:
+    - 19590
+    - 19592
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 383
+    name: Improved Mend Pet
+    row: 3
+    col: 1
+    max_rank: 2
+    ranks:
+    - 19572
+    - 19573
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 384
+    name: Ferocity
+    row: 3
+    col: 2
+    max_rank: 5
+    ranks:
+    - 19598
+    - 19599
+    - 19600
+    - 19601
+    - 19602
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 385
+    name: Scent of Blood
+    row: 4
+    col: 0
+    max_rank: 3
+    ranks:
+    - 52994
+    - 52996
+    - 52997
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 386
+    name: Bestial Wrath
+    row: 4
+    col: 1
+    max_rank: 1
+    ranks:
+    - 19574
+    req: 385
+    req_rank: 3
+    points_per_rank: 1
+  - id: 387
+    name: Intimidation
+    row: 4
+    col: 3
+    max_rank: 1
+    ranks:
+    - 19577
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 388
+    name: Bestial Precision
+    row: 5
+    col: 0
+    max_rank: 2
+    ranks:
+    - 51554
+    - 51555
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 389
+    name: Spirit Bond
+    row: 5
+    col: 1
+    max_rank: 2
+    ranks:
+    - 19578
+    - 20895
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 390
+    name: Frenzy
+    row: 5
+    col: 2
+    max_rank: 5
+    ranks:
+    - 19621
+    - 19622
+    - 19623
+    - 19624
+    - 19625
+    req: 384
+    req_rank: 5
+    points_per_rank: 1
+  - id: 391
+    name: Kill Command
+    row: 6
+    col: 1
+    max_rank: 1
+    ranks:
+    - 41827
+    req: 389
+    req_rank: 2
+    points_per_rank: 1
+- id: 363
+  name: Marksmanship
+  order: 1
+  talents:
+  - id: 412
+    name: Improved Concussive Shot
+    row: 0
+    col: 1
+    max_rank: 5
+    ranks:
+    - 19407
+    - 19412
+    - 19413
+    - 19414
+    - 19415
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 413
+    name: Efficiency
+    row: 0
+    col: 2
+    max_rank: 5
+    ranks:
+    - 19416
+    - 19417
+    - 19418
+    - 19419
+    - 19420
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 414
+    name: Improved Stings
+    row: 1
+    col: 1
+    max_rank: 5
+    ranks:
+    - 19464
+    - 19465
+    - 19466
+    - 19467
+    - 19468
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 415
+    name: Lethal Shots
+    row: 1
+    col: 2
+    max_rank: 5
+    ranks:
+    - 19426
+    - 19427
+    - 19429
+    - 19430
+    - 19431
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 416
+    name: Hawk Eye
+    row: 2
+    col: 0
+    max_rank: 2
+    ranks:
+    - 19498
+    - 19499
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 417
+    name: Aimed Shot
+    row: 2
+    col: 1
+    max_rank: 1
+    ranks:
+    - 19434
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 418
+    name: Swiftshot
+    row: 2
+    col: 3
+    max_rank: 3
+    ranks:
+    - 19454
+    - 19455
+    - 19456
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 419
+    name: Endless Quiver
+    row: 3
+    col: 0
+    max_rank: 2
+    ranks:
+    - 51517
+    - 51518
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 420
+    name: Mortal Shots
+    row: 3
+    col: 2
+    max_rank: 5
+    ranks:
+    - 19485
+    - 19487
+    - 19488
+    - 19489
+    - 19490
+    req: 415
+    req_rank: 5
+    points_per_rank: 1
+  - id: 421
+    name: Scatter Shot
+    row: 4
+    col: 0
+    max_rank: 1
+    ranks:
+    - 19503
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 422
+    name: Experimental Ammunition
+    row: 4
+    col: 1
+    max_rank: 1
+    ranks:
+    - 58108
+    req: 417
+    req_rank: 1
+    points_per_rank: 1
+  - id: 423
+    name: Piercing Shots
+    row: 4
+    col: 2
+    max_rank: 2
+    ranks:
+    - 51512
+    - 51513
+    req: 420
+    req_rank: 5
+    points_per_rank: 1
+  - id: 424
+    name: Barrage
+    row: 4
+    col: 3
+    max_rank: 3
+    ranks:
+    - 19461
+    - 19462
+    - 24691
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 425
+    name: Improved Marksmanship
+    row: 5
+    col: 0
+    max_rank: 2
+    ranks:
+    - 51515
+    - 51516
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 426
+    name: Ranged Weapon Specialization
+    row: 5
+    col: 2
+    max_rank: 5
+    ranks:
+    - 19507
+    - 19508
+    - 19509
+    - 19510
+    - 19511
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 427
+    name: Lock and Load
+    row: 6
+    col: 1
+    max_rank: 1
+    ranks:
+    - 52920
+    req: 422
+    req_rank: 1
+    points_per_rank: 1
+- id: 362
+  name: Survival
+  order: 2
+  talents:
+  - id: 392
+    name: Improved Slaying
+    row: 0
+    col: 0
+    max_rank: 3
+    ranks:
+    - 45977
+    - 45978
+    - 45979
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 393
+    name: Resourcefulness
+    row: 0
+    col: 1
+    max_rank: 5
+    ranks:
+    - 51570
+    - 51571
+    - 51572
+    - 51573
+    - 51574
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 394
+    name: Swift Reflexes
+    row: 0
+    col: 2
+    max_rank: 2
+    ranks:
+    - 19295
+    - 19297
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 395
+    name: Entrapment
+    row: 1
+    col: 0
+    max_rank: 3
+    ranks:
+    - 19184
+    - 19387
+    - 19388
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 396
+    name: Savage Strikes
+    row: 1
+    col: 1
+    max_rank: 2
+    ranks:
+    - 19159
+    - 19160
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 397
+    name: Improved Wing Clip
+    row: 1
+    col: 2
+    max_rank: 3
+    ranks:
+    - 19228
+    - 19232
+    - 19233
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 398
+    name: Alone Against the World
+    row: 1
+    col: 3
+    max_rank: 2
+    ranks:
+    - 52891
+    - 52892
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 399
+    name: Planning Ahead
+    row: 2
+    col: 0
+    max_rank: 2
+    ranks:
+    - 51576
+    - 51577
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 400
+    name: Survivalist
+    row: 2
+    col: 1
+    max_rank: 5
+    ranks:
+    - 19255
+    - 19256
+    - 19257
+    - 19258
+    - 19259
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 401
+    name: Carve
+    row: 2
+    col: 2
+    max_rank: 1
+    ranks:
+    - 51575
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 402
+    name: Deterrence
+    row: 2
+    col: 3
+    max_rank: 1
+    ranks:
+    - 19263
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 403
+    name: Stinging Nettle
+    row: 3
+    col: 0
+    max_rank: 2
+    ranks:
+    - 51579
+    - 51580
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 404
+    name: Surefooted
+    row: 3
+    col: 1
+    max_rank: 3
+    ranks:
+    - 19290
+    - 19294
+    - 24283
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 405
+    name: Improved Feign Death
+    row: 3
+    col: 3
+    max_rank: 2
+    ranks:
+    - 19286
+    - 19287
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 406
+    name: Killer Instinct
+    row: 4
+    col: 0
+    max_rank: 3
+    ranks:
+    - 19370
+    - 19371
+    - 19373
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 407
+    name: Trap Mastery
+    row: 4
+    col: 1
+    max_rank: 3
+    ranks:
+    - 19376
+    - 19377
+    - 51581
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 408
+    name: Lacerate
+    row: 4
+    col: 2
+    max_rank: 1
+    ranks:
+    - 48049
+    req: 401
+    req_rank: 1
+    points_per_rank: 1
+  - id: 409
+    name: Vicious Strikes
+    row: 5
+    col: 0
+    max_rank: 2
+    ranks:
+    - 51584
+    - 51585
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 410
+    name: Lightning Reflexes
+    row: 5
+    col: 2
+    max_rank: 5
+    ranks:
+    - 19168
+    - 19180
+    - 19181
+    - 24296
+    - 24297
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 411
+    name: Untamed Trapper
+    row: 6
+    col: 1
+    max_rank: 1
+    ranks:
+    - 51586
+    req: 407
+    req_rank: 3
+    points_per_rank: 1

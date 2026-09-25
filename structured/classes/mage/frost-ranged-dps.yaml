@@ -1,6 +1,7 @@
 class: Mage
 spec: Frost
 role: ranged-dps
+guide: guide/classes/mage/frost.md
 sources:
 - url: https://forum.turtlecraft.gg/viewtopic.php?p=102968#p102968
   author: Dragunovi
@@ -74,6 +75,24 @@ sources:
   author: Mcnair
   authority: player
   date: '2023-07-05'
+- cite: '[[d:mage#1425935263019958373]]'
+  author: Luden TA
+  authority: player
+  date: '2025-10-09'
+  era: 1.18.1-announced-pre-release
+  agreement: single source
+- cite: '[[d:mage#1432792185249464370]]'
+  author: Pepopo
+  authority: player
+  date: '2025-10-28'
+  era: 1.18.1-announced-pre-release
+  agreement: single source
+- cite: '[[d:mage#1491959578827559113]]'
+  author: Pepopo
+  authority: player
+  date: '2026-04-10'
+  era: post-1.18.1
+  agreement: consensus
 agreement: contested
 patch_validity:
   written_for: 1.17.2 Frost rework with hotfixes through 2025-10-22; wiki rotation revised 2025-10-28
@@ -83,155 +102,478 @@ patch_validity:
     (2025-04-30). Wiki ''mana issues as of April 7th 2025'' unexplained. Raid-standing claims (weakest spec) are player opinion;
     staff never commented after 2024-12.'
 talents:
-  build_name: Required raid talents from sources (no complete 51-point build in text; wiki 'Pepo frost' is an image) + wiki
-    single-target leveling table
+  build_name: Frost raid 12/0/39 (Luden TA)
+  split: 12/0/39
+  code:
+    tree_b64: TAAoC--FYbQpBTABLYQB
+    b36_pair: F052--5LK57F19K6
+  sources:
+  - '[[d:mage#1425935263019958373]]'
   points:
-  - tree: Frost
-    talent: Icicles
-    rank: 1
-    spell_id: 52516
-    talent_id: 32
-  - tree: Frost
-    talent: Flash Freeze
+  - tree: Arcane
+    talent: Arcane Subtlety
     rank: 2
-    spell_id: 52501
-    talent_id: 35
-  - tree: Frost
-    talent: Frostbite
+    spell_id: 12592
+  - tree: Arcane
+    talent: Magic Absorption
     rank: 3
-    spell_id: 12497
-    talent_id: 22
-  - tree: Frost
-    talent: Ice Barrier
-    rank: 1
-    spell_id: 11426
-    talent_id: 36
-  - tree: Frost
-    talent: Winter's Chill
-    rank: 2
-    spell_id: 28592
-    note: 2-3 per wiki sim; 5 is overkill
-    talent_id: 34
-  - tree: Frost
-    talent: Improved Frostbolt
-    rank: 5
-    spell_id: 16766
-    talent_id: 19
-  - tree: Frost
-    talent: Elemental Precision
-    rank: 3
-    spell_id: 29440
-    talent_id: 20
-  - tree: Frost
-    talent: Ice Shards
-    rank: 5
-    spell_id: 15053
-    talent_id: 25
-  - tree: Frost
-    talent: Frost Channeling
-    rank: 3
-    spell_id: 12519
-    talent_id: 29
-  - tree: Frost
-    talent: Shatter
-    rank: 5
-    spell_id: 12985
-    talent_id: 30
-  - tree: Frost
-    talent: Piercing Ice
-    rank: 3
-    spell_id: 12953
-    talent_id: 21
-  - tree: Frost
-    talent: Ice Block
-    rank: 1
-    spell_id: 11958
-    talent_id: 31
-  - tree: Frost
-    talent: Cold Snap
-    rank: 1
-    spell_id: 12472
-    talent_id: 26
+    spell_id: 29445
   - tree: Arcane
     talent: Arcane Concentration
     rank: 5
     spell_id: 12577
-    talent_id: 42
-  - tree: unassigned
-    talent: remaining points not specified by any source (leveling table uses Arcane Subtlety 2, Arcane Focus 3, Arctic Reach
-      2, Permafrost 3, Improved Cone of Cold 3, Improved Frost Nova 2)
-    rank: 0
-    spell_id: null
+  - tree: Arcane
+    talent: Arcane Impact
+    rank: 2
+    spell_id: 12467
+  - tree: Frost
+    talent: Improved Frostbolt
+    rank: 5
+    spell_id: 16766
+  - tree: Frost
+    talent: Elemental Precision
+    rank: 3
+    spell_id: 29440
+  - tree: Frost
+    talent: Piercing Ice
+    rank: 3
+    spell_id: 12953
+  - tree: Frost
+    talent: Frostbite
+    rank: 3
+    spell_id: 12497
+  - tree: Frost
+    talent: Improved Frost Nova
+    rank: 2
+    spell_id: 12475
+  - tree: Frost
+    talent: Ice Shards
+    rank: 5
+    spell_id: 15053
+  - tree: Frost
+    talent: Cold Snap
+    rank: 1
+    spell_id: 12472
+  - tree: Frost
+    talent: Improved Blizzard
+    rank: 1
+    spell_id: 11185
+  - tree: Frost
+    talent: Arctic Reach
+    rank: 2
+    spell_id: 16758
+  - tree: Frost
+    talent: Frost Channeling
+    rank: 3
+    spell_id: 12519
+  - tree: Frost
+    talent: Ice Block
+    rank: 1
+    spell_id: 11958
+  - tree: Frost
+    talent: Icicles
+    rank: 1
+    spell_id: 52516
+  - tree: Frost
+    talent: Improved Cone of Cold
+    rank: 3
+    spell_id: 12490
+  - tree: Frost
+    talent: Winter's Chill
+    rank: 3
+    spell_id: 28593
+  - tree: Frost
+    talent: Flash Freeze
+    rank: 2
+    spell_id: 52501
+  - tree: Frost
+    talent: Ice Barrier
+    rank: 1
+    spell_id: 11426
+  variants:
+  - name: 13/0/38 (Pepopo)
+    code: TAAoD--FYbQpBTABLQQB
+    change: Arcane Impact 3, Winter's Chill 2; move the Improved Blizzard point to Winter's Chill if you never fish with Blizzard
+    sources:
+    - '[[d:mage#1432792185249464370]]'
+  - name: 13/0/38 (oh)
+    code: TAAoD--FYbQpATABLYQB
+    change: Arcane Impact 3, Winter's Chill 3, no Improved Blizzard
+    sources:
+    - '[[d:mage#1466905175942893822]]'
+  - name: Open world/solo 10/0/41
+    code: TAAo--FYYTpADoBLoAB
+    change: no Frostbite/Flash Freeze; Shatter 5, Permafrost 3, Winter's Chill 5
+    sources:
+    - '[[d:mage#1484590514455056566]]'
+    agreement: single source
   leveling_order:
   - level: 10
     tree: Frost
-    talent: Improved Frostbolt 1-5 (10-14)
+    talent: Improved Frostbolt 1/5
+  - level: 11
+    tree: Frost
+    talent: Improved Frostbolt 2/5
+  - level: 12
+    tree: Frost
+    talent: Improved Frostbolt 3/5
+  - level: 13
+    tree: Frost
+    talent: Improved Frostbolt 4/5
+  - level: 14
+    tree: Frost
+    talent: Improved Frostbolt 5/5
   - level: 15
     tree: Frost
-    talent: Frostbite 1-3 (15-17)
+    talent: Frostbite 1/3
+  - level: 16
+    tree: Frost
+    talent: Frostbite 2/3
+  - level: 17
+    tree: Frost
+    talent: Frostbite 3/3
   - level: 18
     tree: Frost
-    talent: Improved Frost Nova 1-2 (18-19)
+    talent: Permafrost 1/3
+  - level: 19
+    tree: Frost
+    talent: Permafrost 2/3
   - level: 20
     tree: Frost
-    talent: Ice Shards 1-5 (20-24)
+    talent: Permafrost 3/3
+  - level: 21
+    tree: Frost
+    talent: Improved Frost Nova 1/2
+  - level: 22
+    tree: Frost
+    talent: Improved Frost Nova 2/2
+  - level: 23
+    tree: Frost
+    talent: Ice Shards 1/5
+  - level: 24
+    tree: Frost
+    talent: Ice Shards 2/5
   - level: 25
     tree: Frost
-    talent: Shatter 1-5 (25-29)
+    talent: Ice Shards 3/5
+  - level: 26
+    tree: Frost
+    talent: Ice Shards 4/5
+  - level: 27
+    tree: Frost
+    talent: Ice Shards 5/5
+  - level: 28
+    tree: Frost
+    talent: Shatter 1/5
+  - level: 29
+    tree: Frost
+    talent: Shatter 2/5
   - level: 30
     tree: Frost
-    talent: Ice Block
+    talent: Ice Block 1/1
   - level: 31
     tree: Frost
-    talent: Cold Snap
+    talent: Cold Snap 1/1
   - level: 32
     tree: Frost
-    talent: Frost Channeling 1-3 (32-34)
+    talent: Shatter 3/5
+  - level: 33
+    tree: Frost
+    talent: Shatter 4/5
+  - level: 34
+    tree: Frost
+    talent: Shatter 5/5
   - level: 35
     tree: Frost
-    talent: Elemental Precision 1-3 (35-37)
+    talent: Frost Channeling 1/3
+  - level: 36
+    tree: Frost
+    talent: Frost Channeling 2/3
+  - level: 37
+    tree: Frost
+    talent: Frost Channeling 3/3
   - level: 38
     tree: Frost
-    talent: Piercing Ice 1-2 (38-39)
+    talent: Elemental Precision 1/3
+  - level: 39
+    tree: Frost
+    talent: Elemental Precision 2/3
   - level: 40
     tree: Frost
-    talent: Ice Barrier
+    talent: Ice Barrier 1/1
   - level: 41
     tree: Frost
-    talent: Piercing Ice 3
+    talent: Elemental Precision 3/3
   - level: 42
     tree: Frost
-    talent: Arctic Reach 1-2 (42-43)
+    talent: Arctic Reach 1/2
+  - level: 43
+    tree: Frost
+    talent: Arctic Reach 2/2
   - level: 44
-    tree: Arcane
-    talent: Arcane Subtlety 1-2 (44-45)
+    tree: Frost
+    talent: Piercing Ice 1/3
+  - level: 45
+    tree: Frost
+    talent: Piercing Ice 2/3
   - level: 46
-    tree: Arcane
-    talent: Arcane Focus 1-3 (46-48)
+    tree: Frost
+    talent: Piercing Ice 3/3
+  - level: 47
+    tree: Frost
+    talent: Improved Cone of Cold 1/3
+  - level: 48
+    tree: Frost
+    talent: Improved Cone of Cold 2/3
   - level: 49
+    tree: Frost
+    talent: Improved Cone of Cold 3/3
+  - level: 50
     tree: Arcane
-    talent: Arcane Concentration 1-5 (49-53)
+    talent: Arcane Subtlety 1/2
+  - level: 51
+    tree: Arcane
+    talent: Arcane Subtlety 2/2
+  - level: 52
+    tree: Arcane
+    talent: Magic Absorption 1/3
+  - level: 53
+    tree: Arcane
+    talent: Magic Absorption 2/3
   - level: 54
-    tree: Frost
-    talent: Permafrost 1-3 (54-56)
+    tree: Arcane
+    talent: Magic Absorption 3/3
+  - level: 55
+    tree: Arcane
+    talent: Arcane Concentration 1/5
+  - level: 56
+    tree: Arcane
+    talent: Arcane Concentration 2/5
   - level: 57
+    tree: Arcane
+    talent: Arcane Concentration 3/5
+  - level: 58
+    tree: Arcane
+    talent: Arcane Concentration 4/5
+  - level: 59
+    tree: Arcane
+    talent: Arcane Concentration 5/5
+  - level: 60
     tree: Frost
-    talent: Improved Cone of Cold 1-3 (57-59)
-  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=mage&t=000005--0533300510035110221
-  build_link_tortoise_note: 'Generated from the sourced points list (40 points: Arcane 5, Frost 35); the calculator shows
+    talent: Improved Blizzard 1/3
+  leveling_note: Frost leveling 10-60 (default leveling spec), ends 10/0/41 (code TAAo--FYbTpBToBDAAB); Frostbite + Permafrost
+    by 20, Ice Block 30, Ice Barrier 40; skips Flash Freeze/Icicles/Winter's Chill.
+  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=mage&t=23000502--0533320511230113321
+  build_link_tortoise_note: 'Generated from the sourced points list (51 points: Arcane 12, Frost 39); the calculator shows
     the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
 stat_weights:
-  spell_hit_1pct_in_sp:
-    endgame: 18-19
-    fresh60: 11-12
-    source: wiki Frost FAQ sim (1000 SP/40 crit/15 hit/0 haste; 300/18/13/0)
-  spell_haste_1pct_in_sp:
-    endgame: 12-13
-    fresh60: 6
-  spell_crit_1pct_in_sp:
-    endgame: 11-12
-    fresh60: 7
-  priority: hit to 16% > spell power > haste >= crit
+  priority: spell hit to 16% (6% Elemental Precision; ~7% from gear with ZG enchants + Emerald Blessing) > spell power > haste
+    ~= crit
+  wiki_sim_endgame:
+    hit_1pct_in_sp: 18-19
+    haste_1pct_in_sp: 12-13
+    crit_1pct_in_sp: 11-12
+    source: https://turtle-wow.fandom.com/wiki/Mage_Frost_FAQ
+  haste_food: not recommended for Frost [[d:mage#1464383668574224529]]
+caps:
+  spell_hit: 16% vs bosses [[d:mage#1484935527709806603]]
+  winters_chill: 2-3 points (wiki sim 80-90% uptime)
+  kel_thuzad_frost_resist: 200; everything else needs no penetration with Curse of Shadows/Elements [[d:mage#1450392648216088629]],
+    [[d:mage#1450392717476630539]]
+  sapphiron: frost-immune [[d:mage#1494089881943543971]]
+rotation_single:
+- priority: 0
+  action: Pre-pull Ice Barrier; opener Frostbolt -> Icicles -> Frost Nova -> Icicles (or Frostbolt -> Cone of Cold -> Icicles
+    -> Frost Nova -> Icicles)
+  condition: freeze-immune boss
+  sources:
+  - '[[d:mage#1466891208532955228]]'
+  - '[[d:mage#1448401911437988012]]'
+- priority: 1
+  action: Icicles
+  condition: Flash Freeze active ONLY (never raw)
+  sources:
+  - '[[d:mage#1491959578827559113]]'
+  - '[[d:mage#1430291530333028524]]'
+- priority: 2
+  action: Ice Barrier
+  condition: off cooldown (+10% Frost damage for 60 s on cast)
+  sources:
+  - '[[d:mage#1466881324055920836]]'
+- priority: 3
+  action: Frost Nova
+  condition: off cooldown AND in melee range of a freeze-immune boss
+  sources:
+  - '[[d:mage#1430637056815796386]]'
+- priority: 4
+  action: Cone of Cold
+  condition: in range (Frostbite can proc Flash Freeze)
+  sources:
+  - '[[d:mage#1430637056815796386]]'
+- priority: 5
+  action: Cold Snap
+  condition: Nova on cooldown and a burst window is wanted
+  sources:
+  - '[[d:mage#1466899456141299763]]'
+- priority: 6
+  action: Frostbolt
+  condition: default; macro /cast [mybuff:Flash_Freeze] Icicles; Frostbolt
+  sources:
+  - '[[d:mage#1454246436718776330]]'
+rotation_aoe:
+- targets_min: 2
+  priority: 1
+  action: Cone of Cold -> Icicles (if proc) -> Frost Nova -> Icicles -> Arcane Explosion
+  condition: up to 5 freeze-immune mobs (wiki)
+- targets_min: 6
+  priority: 1
+  action: Cone of Cold -> Arcane Explosion spam -> Icicles on a survivor
+  condition: more than 5 freeze-immune mobs (wiki)
+- targets_min: 3
+  priority: 2
+  action: Alternate rank-1 Blizzard (fish Flash Freeze) with Icicles on skull
+  condition: medium packs of freeze-immune mobs (e.g. Garr adds)
+  sources:
+  - '[[d:mage#1443219267058139311]]'
+  - '[[d:mage#1467928499997245481]]'
+- targets_min: 2
+  priority: 9
+  action: Never Nova/CoC freezable raid mobs (roots them off the tank)
+  condition: freezable pack
+aoe_threshold: 2
+cooldowns:
+- name: Ice Barrier
+  use_when: on cooldown for the on-cast damage buff
+- name: Ice Block / Cold Snap
+  use_when: survival; Cold Snap also resets Nova for another Icicles pair; Ice Block keeps threat
+  sources:
+  - '[[d:mage#1475235315546591466]]'
+resource_rules:
+- Frost mana is weak on fast fights (under ~1:20) [[d:mage#1429249488408805417]]; 1.18.1 did not fix it [[d:mage#1464428023045427210]].
+- Icicles roots you for the full channel even if cancelled; only Blink frees you [[d:mage#1430673305886658611]].
+consumables:
+- Flask of Supreme Power, Elixir of Greater Frost Power, Greater Arcane Elixir, Dreamshard Elixir, Dreamtonic, Mageblood,
+  Spirit of Zanza, SP food, Brilliant Wizard Oil [[d:mage#1354993754649399397]]
+- Frost wand for Viscidus [[d:mage#1483584847107588217]]
+mistakes_to_avoid:
+- Icicles without Flash Freeze [[d:mage#1491959578827559113]]
+- Nova/CoC on freezable raid mobs
+- Icicling in AoE / cancelling without Blink [[d:mage#1430673305886658611]]
+- Raid build without Frostbite [[d:mage#1430637056815796386]]
+- Leaving Ice Barrier on cooldown [[d:mage#1466881324055920836]]
+- '"buff" instead of "mybuff" in the Icicles macro [[d:mage#1454246436718776330]]'
+- Expecting Flash Freeze from FAP/Freedom targets [[d:mage#1486095084108779655]]
+discord:
+  channel: mage
+  scope: 'Frost additions from the archived #mage Discord. Every claim carries a [[d:mage#<id>]] citation, an era (pre-1.18.1
+    | 1.18.1-announced-pre-release | post-1.18.1) and agreement (consensus | single source | contested).'
+  rotation_single:
+  - action: 'Ice Barrier on cooldown: 1.18.1 moved the bonus to the cast (+10% Frost for 1 min on cast, +5% while active).
+      A pfUI display bug made players think the buff vanished when the shield broke; it does not.'
+    condition: off cooldown
+    sources:
+    - '[[d:mage#1484361204200902697]]'
+    - '[[d:mage#1484696403149193316]]'
+    - '[[d:mage#1484866761202602075]]'
+    era: post-1.18.1
+    agreement: consensus
+  - action: Use Frost Nova on freeze-immune bosses to force a Flash Freeze proc; cast Icicles immediately during the proc.
+      Never cast Icicles raw (self-root, 30% base-HP shatter).
+    condition: Flash Freeze proc active
+    sources:
+    - '[[d:mage#1491935288551932055]]'
+    - '[[d:mage#1491959578827559113]]'
+    era: post-1.18.1
+    agreement: consensus
+  - action: Flash Freeze no longer procs from Free Action Potion / Blessing of Freedom (removed 2025-04-01).
+    sources:
+    - '[[d:mage#1486095084108779655]]'
+    era: post-1.18.1
+    agreement: single source
+  - action: Frostbolt is the filler; keep Winter's Chill up (2-3 points for ~80-90% uptime solo).
+    sources:
+    - '[[d:mage#1486342319245496382]]'
+    era: post-1.18.1
+    agreement: consensus
+  rotation_aoe:
+  - action: Cone of Cold -> Frost Nova -> Flamestrike -> Arcane Explosion; Blizzard is only a cheap Flash-Freeze fisher (40%
+      slow / 1.5 s; 'we don't use Blizzard at all anymore').
+    targets_min: 2
+    sources:
+    - '[[d:mage#1489762019908260061]]'
+    - '[[d:mage#1486165941325660180]]'
+    - '[[d:mage#1431797472346247359]]'
+    era: mixed
+    agreement: consensus
+  caps:
+    spell_hit: 16% (Frost gets 6% from Elemental Precision)
+    icicles_self_damage: 30% base health if the root is shattered by damage taken
+    improved_blizzard_slow: '40% and 1.5 s duration (the slow also lost duration: 2.0 s -> 1.5 s) [[d:mage#1430717972997214329]]
+      (1.18.1-announced-pre-release, single source)'
+  stat_weights:
+    priority: hit to 16% > spell power > haste >= crit
+    spell_hit_1pct_in_sp:
+      endgame: 18-19
+      fresh60: 11-12
+    spell_haste_1pct_in_sp:
+      endgame: 12-13
+      fresh60: 6
+    spell_crit_1pct_in_sp:
+      endgame: 11-12
+      fresh60: 7
+    sources:
+    - '[[d:mage#1487588079907770580]]'
+    era: post-1.18.1
+    agreement: single source
+  gear:
+  - Frost has no mana-return talent in-tree (only low-tier Arcane); reports it needs pushback protection at Icicles range
+    [[d:mage#1484630072374726736]] (post-1.18.1, single source).
+  - Frost PvP gear should prioritise stamina over raw frost damage at low levels [[d:mage#1443285596842758205]] (post-1.18.1,
+    single source).
+  leveling:
+  - Frost remains the default leveling spec because of control and elite-quest soloing; use Flamestrike/CoC/Nova AoE, not
+    Blizzard [[d:mage#1484551865285869688]], [[d:mage#1486136677134106724]], [[d:mage#1489762019908260061]] (post-1.18.1,
+    consensus).
+  mistakes_to_avoid:
+  - Casting Icicles without a Flash Freeze proc or while standing in AoE [[d:mage#1491959578827559113]]
+  - Casting Blizzard for AoE farming (40% slow, worst endgame AoE) [[d:mage#1431797472346247359]]
+  - Expecting Flash Freeze from Free Action Potion / Blessing of Freedom [[d:mage#1486095084108779655]]
+  boss_notes:
+  - boss: Sapphiron / Kel'Thuzad
+    note: Sapphiron frost-immune, KT highly frost-resistant.
+    sources:
+    - '[[d:mage#1281848179108876331]]'
+    - '[[d:mage#1493951049113800975]]'
+  - boss: Anomalus
+    note: Kara40 Anomalus is arcane-immune; arcane gear is pure arcane damage.
+    sources:
+    - '[[d:mage#1493996129291997244]]'
+    - '[[d:mage#1493928300589092874]]'
+  sources:
+  - id: '[[d:mage#1484361204200902697]]'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: Ice Barrier cast bonus
+  - id: '[[d:mage#1484696403149193316]]'
+    era: post-1.18.1
+    agreement: single source
+    used_for: pfUI buff-display caveat
+  - id: '[[d:mage#1491935288551932055]]'
+    era: post-1.18.1
+    agreement: consensus
+    used_for: Icicles only with Flash Freeze
+  - id: '[[d:mage#1486095084108779655]]'
+    era: post-1.18.1
+    agreement: single source
+    used_for: Flash Freeze removed from FAP/BoF
+  - id: '[[d:mage#1484630072374726736]]'
+    era: post-1.18.1
+    agreement: single source
+    used_for: Frost raid weaknesses
+  - id: '[[d:mage#1430717972997214329]]'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    used_for: Improved Blizzard slow duration
 stat_priority:
 - spell-hit
 - spell-power
@@ -240,80 +582,3 @@ stat_priority:
 stat_priority_note: 'From the wiki Frost sim: hit to the cap (16% is the generic caster figure players quote), then spell
   power, then haste and crit — haste is rated at or slightly above crit at endgame (~12–13 SP per 1% haste versus ~11–12 per
   1% crit). Damage split in that sim: Frostbolt ~57%, Icicles ~43%.'
-caps:
-  spell_hit: 16% (generic)
-  icicles_self_damage: 30% base health if the root is shattered by damage taken
-  icicles_range_yd: 30
-rotation_single:
-- priority: 0
-  action: Ice Barrier
-  condition: 'before the pull, then on cooldown (1.18.1: +10% Frost for 60 s on cast); Crake: recast when <=10 s remain or
-    if down'
-- priority: 1
-  action: Frost Nova on the boss
-  condition: boss is freeze-immune (most raid bosses; Ragnaros since 2025-04-30) and you can stand in melee range; on cooldown;
-    do NOT press it with a Frostbolt in flight (use Fire Blast first or wait) or the Frostbite proc wastes the Nova proc
-- priority: 2
-  action: Icicles
-  condition: 'Flash Freeze proc active (400% faster channel, ~1 s) — cast immediately; never while standing in AoE (30% base
-    HP shatter); contested: Crake casts it whenever available, wiki/raider only with a proc'
-- priority: 3
-  action: Arcane Surge
-  condition: available (Crake priority); its 1.5 s GCD ignores haste
-- priority: 4
-  action: Frostbolt
-  condition: default; Frostbite procs on immune targets trigger Flash Freeze
-- priority: 5
-  action: Winter's Chill upkeep
-  condition: 2-3 points give 80-90% 5-stack uptime solo; with 2 Frost mages 2 points each
-rotation_aoe:
-- targets_min: 2
-  priority: 1
-  action: Cone of Cold -> Icicles if proc -> Frost Nova -> Icicles -> Arcane Explosion
-  condition: up to 5 freeze-immune mobs (wiki)
-- targets_min: 6
-  priority: 1
-  action: Cone of Cold -> Arcane Explosion spam -> Icicles on a survivor near the end
-  condition: more than 5 mobs (wiki)
-- targets_min: 2
-  priority: 2
-  action: never Frost Nova / Cone of Cold on freezable raid mobs
-  condition: they root away from the tank (wiki spreadsheet of freezable raid mobs)
-- targets_min: 2
-  priority: 3
-  action: Wear 3 Frost/Fire T3.5 + 3 Arcane T3.5
-  condition: post-1.18.1 trash
-aoe_threshold: 2
-cooldowns:
-- name: Ice Barrier
-  use_when: on cooldown (damage bonus on cast in 1.18.1)
-- name: Frost Nova
-  use_when: on cooldown vs freeze-immune bosses for a Flash Freeze proc
-- name: Icicles
-  use_when: with Flash Freeze proc; 30 s cooldown reset by the proc
-- name: Ice Block / Cold Snap
-  use_when: survival; Cold Snap for a second Block/Nova/Barrier
-- name: Blink
-  use_when: breaks the Icicles self-root; not from >20 m height
-- name: Trinkets
-  use_when: 'sim: Tear > Mark of the Champion > MQG > REoS > Shard of the Nightmare > Gulch'
-resource_rules:
-- Frost Channeling -15% Frost mana / -30% threat; Arcane Concentration Clearcasting; Icicles refunds via Master of Elements
-  only if talented.
-- Wiki reports Frost mana issues since 2025-04-07 (cause unknown, not addressed in 1.18.1).
-- Improved Blizzard chill (40%) and Cone of Cold (60%) do not coexist; the stronger overwrites (vanilla behaviour); Blizzard
-  ticks do not proc Clearcasting.
-consumables:
-- Mana tea / mana potions / mana gem
-- Greater Fire Protection Potion (PvP vs Fire mages)
-- MageHud addon to track Ice Barrier absorb
-mistakes_to_avoid:
-- Frost Nova / Cone of Cold on raid mobs that are not freeze-immune
-- Icicles without a Flash Freeze proc (5 s self-root for little damage)
-- Icicling while standing in AoE (30% base HP self-damage)
-- Ignoring Flash Freeze procs
-- Pressing Frost Nova with a Frostbolt in flight (wastes a proc)
-- Kiting packs with Blizzard as in Classic (slow is 40% now) — use Cone of Cold / Frost Nova / Flamestrike / Arcane Explosion
-- Taking 5/5 Winter's Chill
-- Expecting Flash Freeze from Free Action Potion / Blessing of Freedom
-- Letting Ice Barrier lapse

@@ -1,6 +1,7 @@
 class: Warrior
 spec: Fury/Protection (fury-prot)
 role: tank
+guide: guide/classes/warrior/protection.md
 sources:
 - url: https://forum.turtlecraft.gg/viewtopic.php?p=102974#p102974
   author: Dragunovi
@@ -94,8 +95,9 @@ sources:
   author: Xudo
   authority: player
   date: '2026-03-16'
-agreement: consensus that it was the pre-CC2 raid-tank meta and was nerfed at CC2 (2024-11-01); contested whether it is still
-  worth playing (Arkaris/Cheruscan yes-ish vs Xudo/Atreidon/Ellifta no)
+agreement: 'consensus that it was the pre-CC2 raid-tank meta and was nerfed at CC2 (2024-11-01); contested whether it is still
+  worth playing (Arkaris/Cheruscan yes-ish vs Xudo/Atreidon/Ellifta no). Post-1.18.1: best off-tank; MT only for extra ~150
+  TPS, DefTac better in 99.9% of cases [[d:warrior#1485222628016001024]], [[d:warrior#1485222514119671829]]'
 patch_validity:
   written_for: pre-CC2 meta description + CC2/CC3 nerf notes
   valid_for_1181: unknown
@@ -103,112 +105,390 @@ patch_validity:
     before 2022 (player claim); Bloodthirst no longer self-damages (2024-12-20); Improved Shield Block removed (CC2); Shield
     Slam and Shield Block charges cancel (player claim, 2026-02).
 talents:
-  build_name: 'post-CC2 suggestion: Death Wish + Improved Shield Slam (allocation not given)'
+  build_name: FuryProt MT 0/31/20
+  split: 0/31/20
+  code_tree_b64: -AoFgoAAoBAFAB-VAAoIQAo
+  calculator: https://xian55.github.io/tortoise-db-viewer/?talents=warrior&t=-05545000500100501-250051020005
   points:
-  - tree: Fury
-    talent: Death Wish
-    rank: 1
-    spell_id: 12328
-    talent_id: 104
   - tree: Fury
     talent: Cruelty
     rank: 5
     spell_id: 12856
-    talent_id: 94
-  - tree: Fury
-    talent: Enrage
-    rank: 5
-    spell_id: 13048
-    talent_id: 101
-  - tree: Fury
-    talent: Flurry
-    rank: 5
-    spell_id: 12974
-    talent_id: 107
-  - tree: Fury
-    talent: Improved Execute
-    rank: 2
-    spell_id: 20503
-    talent_id: 105
   - tree: Fury
     talent: Dual Wield Specialization
     rank: 5
     spell_id: 23588
-    note: only if actually dual wielding
-    talent_id: 95
   - tree: Fury
-    talent: Improved Cleave
-    rank: null
-    spell_id: null
-    note: named as a threat talent (Xudo 2023)
+    talent: Unbridled Wrath
+    rank: 4
+    spell_id: 13001
+  - tree: Fury
+    talent: Improved Shouts
+    rank: 5
+    spell_id: 51613
+  - tree: Fury
+    talent: Enrage
+    rank: 5
+    spell_id: 13048
+  - tree: Fury
+    talent: Death Wish
+    rank: 1
+    spell_id: 12328
+  - tree: Fury
+    talent: Flurry
+    rank: 5
+    spell_id: 12974
   - tree: Fury
     talent: Bloodthirst
     rank: 1
     spell_id: 23881
-    note: if 31 Fury; Atreidon reports BT tanks failing post-CC2
-    talent_id: 109
   - tree: Protection
-    talent: Shield Slam
-    rank: 1
-    spell_id: 23922
-    talent_id: 87
-  - tree: Protection
-    talent: Improved Shield Slam
+    talent: Improved Bloodrage
     rank: 2
-    spell_id: 51599
-    talent_id: 88
+    spell_id: 12818
+  - tree: Protection
+    talent: Shield Specialization
+    rank: 5
+    spell_id: 12727
+  - tree: Protection
+    talent: Toughness
+    rank: 5
+    spell_id: 12764
+  - tree: Protection
+    talent: Last Stand
+    rank: 1
+    spell_id: 12975
+  - tree: Protection
+    talent: Improved Taunt
+    rank: 2
+    spell_id: 12765
   - tree: Protection
     talent: Defiance
     rank: 5
     spell_id: 12792
-    note: not stated for the hybrid; assumed by no source — gap
-    talent_id: 85
-  historical:
-  - name: 31/20 (pre-CC2)
-    source: Xronisf79 p=89968
-    note: tree order not stated
-  - name: vanilla classicdb LZVVzIMxoVoE00ox
-    source: Xudo p=170985
-    note: vanilla baseline; Improved Shield Block no longer exists
-  leveling_order: []
-  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=warrior&t=-05500000500120501-000000000005012
-  build_link_tortoise_note: 'Generated from the sourced points list (32 points: Fury 24, Protection 8); the calculator shows
+  variants:
+  - name: FuryProt OT
+    split: 0/31/20
+    code_tree_b64: -AoFAoAAoRCFAB-VAAoIQAo
+    calculator: https://xian55.github.io/tortoise-db-viewer/?talents=warrior&t=-05505000502120501-250051020005
+    source: guide/classes/warrior/protection.md
+  leveling_order:
+  - level: 10
+    tree: Fury
+    talent: Cruelty
+    rank: 1
+  - level: 11
+    tree: Fury
+    talent: Cruelty
+    rank: 2
+  - level: 12
+    tree: Fury
+    talent: Cruelty
+    rank: 3
+  - level: 13
+    tree: Fury
+    talent: Cruelty
+    rank: 4
+  - level: 14
+    tree: Fury
+    talent: Cruelty
+    rank: 5
+  - level: 15
+    tree: Fury
+    talent: Dual Wield Specialization
+    rank: 1
+  - level: 16
+    tree: Fury
+    talent: Dual Wield Specialization
+    rank: 2
+  - level: 17
+    tree: Fury
+    talent: Dual Wield Specialization
+    rank: 3
+  - level: 18
+    tree: Fury
+    talent: Dual Wield Specialization
+    rank: 4
+  - level: 19
+    tree: Fury
+    talent: Dual Wield Specialization
+    rank: 5
+  - level: 20
+    tree: Fury
+    talent: Improved Shouts
+    rank: 1
+  - level: 21
+    tree: Fury
+    talent: Improved Shouts
+    rank: 2
+  - level: 22
+    tree: Fury
+    talent: Improved Shouts
+    rank: 3
+  - level: 23
+    tree: Fury
+    talent: Improved Shouts
+    rank: 4
+  - level: 24
+    tree: Fury
+    talent: Improved Shouts
+    rank: 5
+  - level: 25
+    tree: Fury
+    talent: Enrage
+    rank: 1
+  - level: 26
+    tree: Fury
+    talent: Enrage
+    rank: 2
+  - level: 27
+    tree: Fury
+    talent: Enrage
+    rank: 3
+  - level: 28
+    tree: Fury
+    talent: Enrage
+    rank: 4
+  - level: 29
+    tree: Fury
+    talent: Enrage
+    rank: 5
+  - level: 30
+    tree: Fury
+    talent: Death Wish
+    rank: 1
+  - level: 31
+    tree: Fury
+    talent: Blood Craze
+    rank: 1
+  - level: 32
+    tree: Fury
+    talent: Blood Craze
+    rank: 2
+  - level: 33
+    tree: Fury
+    talent: Blood Craze
+    rank: 3
+  - level: 34
+    tree: Fury
+    talent: Piercing Howl
+    rank: 1
+  - level: 35
+    tree: Fury
+    talent: Blood Drinker
+    rank: 1
+  - level: 36
+    tree: Fury
+    talent: Flurry
+    rank: 1
+  - level: 37
+    tree: Fury
+    talent: Flurry
+    rank: 2
+  - level: 38
+    tree: Fury
+    talent: Flurry
+    rank: 3
+  - level: 39
+    tree: Fury
+    talent: Flurry
+    rank: 4
+  - level: 40
+    tree: Fury
+    talent: Bloodthirst
+    rank: 1
+  - level: 41
+    tree: Fury
+    talent: Flurry
+    rank: 5
+  - level: 42
+    tree: Fury
+    talent: Improved Berserker Rage
+    rank: 1
+  - level: 43
+    tree: Fury
+    talent: Improved Berserker Rage
+    rank: 2
+  - level: 44
+    tree: Arms
+    talent: Tactical Mastery
+    rank: 1
+  - level: 45
+    tree: Arms
+    talent: Tactical Mastery
+    rank: 2
+  - level: 46
+    tree: Arms
+    talent: Tactical Mastery
+    rank: 3
+  - level: 47
+    tree: Arms
+    talent: Tactical Mastery
+    rank: 4
+  - level: 48
+    tree: Arms
+    talent: Tactical Mastery
+    rank: 5
+  - level: 49
+    tree: Arms
+    talent: Improved Rend
+    rank: 1
+  - level: 50
+    tree: Arms
+    talent: Improved Rend
+    rank: 2
+  - level: 51
+    tree: Arms
+    talent: Improved Heroic Strike
+    rank: 1
+  - level: 52
+    tree: Arms
+    talent: Improved Heroic Strike
+    rank: 2
+  - level: 53
+    tree: Arms
+    talent: Improved Heroic Strike
+    rank: 3
+  - level: 54
+    tree: Arms
+    talent: Deep Wounds
+    rank: 1
+  - level: 55
+    tree: Arms
+    talent: Deep Wounds
+    rank: 2
+  - level: 56
+    tree: Arms
+    talent: Deep Wounds
+    rank: 3
+  - level: 57
+    tree: Arms
+    talent: Improved Charge
+    rank: 1
+  - level: 58
+    tree: Arms
+    talent: Improved Charge
+    rank: 2
+  - level: 59
+    tree: Arms
+    talent: Impale
+    rank: 1
+  - level: 60
+    tree: Arms
+    talent: Impale
+    rank: 2
+  leveling_order_note: DW Fury / Blood Drinker leveling order from guide/classes/warrior/leveling.md (built from several cited
+    players, validated 17/34/0 at 60, code dQQAAYAQ-AoFApYAoBAVIB-); respec to the raid build at 60; FuryProt is not a leveling
+    spec, respec at 60
+  leveling_order_code_tree_b64: dQQAAYAQ-AoFApYAoBAVIB-
+  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=warrior&t=-05545000500100501-250051020005
+  build_link_tortoise_note: 'Generated from the sourced points list (51 points: Fury 31, Protection 20); the calculator shows
     the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
-stat_weights: null
+stat_weights:
+- stat: hit
+  verdict: fury-prot 'basically just want 1h hit cap'; never miss the opener
+  sources:
+  - '[[d:warrior#1441252441004703905]]'
+  - '[[d:warrior#1484717088315670750]]'
+  agreement: consensus
+  era: mixed
+- stat: crit/agility
+  verdict: threat stat; agi also gives armor/dodge
+  sources:
+  - '[[d:warrior#1428801642077229220]]'
+  - '[[d:warrior#1433037675350200380]]'
+  agreement: consensus
+  era: 1.18.1-announced-pre-release
+- stat: strength/attack-power
+  verdict: second; more valuable with existing crit
+  sources:
+  - '[[d:warrior#1428796660321882112]]'
+  agreement: consensus
+  era: 1.18.1-announced-pre-release
+- stat: stamina
+  verdict: the survival stat for a shieldless build
+  sources:
+  - '[[d:warrior#1440378255743123558]]'
+  agreement: consensus
+  era: 1.18.1-announced-pre-release
+- stat: defense
+  verdict: avoided on threat gear; Shield Block imitates the crit cap
+  sources:
+  - '[[d:warrior#1492251922600558612]]'
+  agreement: consensus
+  era: post-1.18.1
 stat_priority:
+- stamina
+- agility
+- strength
 - hit
 - weapon-skill
 - crit
-- agility
-- stamina
-- armor
-- defense
 caps:
-  hit_boss_pct: 9
-  dw_white_miss_before_hit_pct: 24
-  defense: null
+  hit_boss_yellow_pct:
+    value: 8 at 300 weapon skill, -0.2 per skill point, 5 at 315
+    sources:
+    - '[[d:warrior#1451430729769680999]]'
+    - '[[d:warrior#1457402842074714285]]'
+    era: post-1.18.1
+    agreement: consensus
+  defense_mt:
+    value: ~370-400; much higher costs TPS
+    sources:
+    - '[[d:warrior#1476092913783017605]]'
+    era: post-1.18.1
+    agreement: single source
+  daze_immunity_defense:
+    value: 400 vs lvl 60, 415 vs 63 (another poster 420)
+    sources:
+    - '[[d:warrior#1426208539575320656]]'
+    - '[[d:warrior#1425674099702890588]]'
+    era: pre-1.18.1
+    agreement: contested
+  avoidance_total_pct:
+    value: 50-60 block+dodge+parry is a good place
+    sources:
+    - '[[d:warrior#1466416470845296779]]'
+    era: post-1.18.1
+  trash_crit_defense:
+    value: ~360-380 stops most trash crits; Chromaggus/Twins can crit below ~400
+    sources:
+    - '[[d:warrior#1433173779508494527]]'
+  hp_four_horsemen:
+    value: 6500
+    sources:
+    - '[[d:warrior#1440845928193069119]]'
+  crit_crush: sequence Shield Slam buff and Shield Block (they overwrite) instead of stacking defense [[d:warrior#1476093703821983804]]
+  threat_mod_deftac: 160.64% in Battle/Berserker vs 156% in Defensive (dev math) [[d:warrior#1464422567145115699]]
 rotation_single:
 - priority: 0
-  action: Charge/Intercept -> Bloodrage -> (Death Wish if healers agree)
-  condition: opener
+  action: Defensive Stance, max rage, Bloodrage, Bloodthirst + Heroic Strike first GCD; Death Wish just before bosses
+  condition: pull
+  sources:
+  - '[[d:warrior#1475249627337986211]]'
+  - '[[d:warrior#1475249694681600101]]'
 - priority: 1
-  action: Sunder Armor
-  condition: until 5 stacks
-- priority: 2
   action: Bloodthirst
-  condition: off cooldown (if 31 Fury)
+  condition: on cooldown; above Revenge
+  sources:
+  - '[[d:warrior#1487798975640764467]]'
+- priority: 2
+  action: Revenge
+  condition: on proc
 - priority: 3
   action: Heroic Strike
-  condition: on every swing as rage allows (bonus threat is the spec's engine)
+  condition: keep rage ~50-60
+  sources:
+  - '[[d:warrior#1487799048063942657]]'
 - priority: 4
-  action: Revenge
-  condition: Defensive Stance and available
+  action: Sunder Armor
+  condition: when rage-capped
+  sources:
+  - '[[d:warrior#1487799261621129268]]'
 - priority: 5
-  action: Execute
-  condition: target <= 20%
-- priority: 6
-  action: equip shield + Shield Slam/Shield Block
-  condition: once threat lead is safe or boss hits hard
+  action: Stay in Defensive Stance in Execute phase
+  sources:
+  - '[[d:warrior#1472681264820781318]]'
 rotation_aoe:
 - targets_min: 2
   priority: 1
@@ -233,20 +513,73 @@ rotation_aoe:
 aoe_threshold: null
 cooldowns:
 - name: Death Wish
-  use_when: with healer agreement only; +damage taken
-- name: Bloodrage
-  use_when: on cooldown; activates Enrage
-- name: Berserker Rage
-  use_when: fear immunity
+  use_when: before the pull
+  sources:
+  - '[[d:warrior#1475249694681600101]]'
 - name: Shield Wall
-  use_when: swap shield in first; ends if shield removed
+  use_when: unavailable without shield; annoying on ~4 fights
+  sources:
+  - '[[d:warrior#1480289467846754446]]'
 resource_rules:
 - Rage generation higher than deep prot (pre-CC2 claims)
 - Save rage between pulls
 - Stance for post-CC2 fury-prot not settled in sources
-consumables: []
+consumables:
+- Mighty Rage Potion on the pull inside Bloodrage + Berserker Rage [[d:warrior#1425928245374877760]]
+- Stoneshield Potion — repeatedly named as the reason fury-prot (no shield) survives [[d:warrior#1445929336514412584]], [[d:warrior#1463182833848684554]]
+- Diamond Flask on-use; swap to HoJ/Blackhand's Breadth while the buff/CD runs [[d:warrior#1427402284995706991]], [[d:warrior#1440805963803132015]]
+- Limited Invulnerability Potion macro'd into Challenging Shout [[d:warrior#1437846916946857995]]
+- Flask of Titans + stamina enchant as the offset when mixing DPS pieces into a tank set [[d:warrior#1446701925838885036]]
 mistakes_to_avoid:
 - Copying a vanilla furyprot build (Improved Shield Block, sit-proc Enrage)
 - Main-tanking 40-man raids in a Bloodthirst build after CC2
 - Death Wish without telling healers
 - Expecting Shield Slam and Shield Block charges to stack
+- 'Whiffing the opener: missing the first Shield Slam(s) means ''your threat doesn''t exist'' [[d:warrior#1488266577995370547]],
+  [[d:warrior#1485223080249917522]]'
+- Gearing full mitigation; 'if it's not crit/hit then it's useless for tanks' [[d:warrior#1437139082185539894]], [[d:warrior#1492112928109891644]]
+- Relying on Thunder Clap for AoE (4-target cap, no crit, often resisted) [[d:warrior#1476086839499558922]]
+- FuryProt with a shield or before healers/gear can carry it [[d:warrior#1478473227272454178]], [[d:warrior#1463067390098018540]]
+- Thunder Clap/Demo Shout early in the opener [[d:warrior#1475256639379734619]]
+discord:
+  channels:
+  - warrior
+  agreement: contested — the pre-CC2 meta is consensus, but whether fury-prot is still worth playing post-1.18.1 is not; post-1.18.1
+    tanks skip BT/Flurry for Defensive Tactics + Shield Slam
+  eras:
+  - pre-1.18.1
+  - 1.18.1-announced-pre-release
+  - post-1.18.1
+  sources:
+  - cite: '[[d:warrior#1484586303562579978]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: post-1.18.1 tanks drop BT/Flurry for Dtac + Shield Slam
+  - cite: '[[d:warrior#1487143734452949093]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: four-build prot menu
+  - cite: '[[d:warrior#1484900996613279845]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: 1.18.1 closed the furyprot-vs-deep-prot TPS gap
+  - cite: '[[d:warrior#1471915854898663667]]'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    topic: Death Wish/Deftac sims ~10% below Furyprot on openers
+  - cite: '[[d:warrior#1442826146063323240]]'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    topic: protection stays bottom-for-threat
+  - cite: '[[d:warrior#1481378107037323354]]'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    topic: 1.18.1 prot changes were buffs only
+  - cite: '[[d:warrior#1476093163650416716]]'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    topic: Shield Block / Improved Shield Slam buffs do not stack
+  - cite: '[[d:warrior#1490529592883023903]]'
+    era: post-1.18.1
+    agreement: consensus
+    topic: BWL built around warrior tanks; taunt chain

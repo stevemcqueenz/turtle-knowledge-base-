@@ -42,147 +42,276 @@ sources:
   author: Akos1896
   authority: player
   date: '2024-05-10'
-agreement: contested
+- cite: '[[d:warlock#1486103119220838540]]'
+  author: TowelDruid
+  authority: player
+  date: '2026-03-25'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:warlock#1464692479289983060]]'
+  author: biloen
+  authority: player
+  date: '2026-01-24'
+  era: 1.18.1-announced-pre-release
+  agreement: single source
+agreement: consensus that SM/Ruin trails Affliction; contested how much gear it needs
 patch_validity:
-  written_for: CC2 tree (30/0/21 SM/Ruin), unchanged by CC3 and 1.18.1 except renames
+  written_for: 1.18.1 live (2026-03-20)
   valid_for_1181: true
-  notes: 1.18.1 changed nothing structural for this build (only curse GCDs, Curse of Exhaustion/Tongues cost, Master Conjuror
-    removal); the 2026-02 dummy tests reporting SM/Ruin far behind Affliction (250 vs 450 DPS) are the most recent data and
-    are not contradicted.
+  notes: SM/Ruin "largely untouched" by 1.18.1 [[d:warlock#1484476187211333662]]; sims put it below Affliction at matched
+    gear [[d:warlock#1464692479289983060]].
 talents:
-  build_name: SM/Ruin 30/0/21 (explicit list from LastyK + community wiki); DS/Ruin (Demonic Sacrifice) is a contested variant
+  build_name: SM/Ruin 30/0/21 (TowelDruid, post-1.18.1)
   points:
+  - tree: Affliction
+    talent: Suppression
+    rank: 5
+    spell_id: 18178
   - tree: Affliction
     talent: Improved Corruption
     rank: 5
     spell_id: 17814
-    talent_id: 338
   - tree: Affliction
-    talent: Grim Reach
+    talent: Improved Life Tap
     rank: 2
-    spell_id: 18219
-    talent_id: 346
-  - tree: Affliction
-    talent: Nightfall
-    rank: 2
-    spell_id: 18095
-    talent_id: 347
+    spell_id: 18183
   - tree: Affliction
     talent: Improved Curse of Agony
     rank: 3
     spell_id: 18830
-    talent_id: 343
   - tree: Affliction
-    talent: Malediction
-    rank: 1
-    spell_id: 52546
-    talent_id: 352
+    talent: Grim Reach
+    rank: 2
+    spell_id: 18219
+  - tree: Affliction
+    talent: Nightfall
+    rank: 2
+    spell_id: 18095
+  - tree: Affliction
+    talent: Soul Siphon
+    rank: 2
+    spell_id: 52559
+  - tree: Affliction
+    talent: Rapid Deterioration
+    rank: 2
+    spell_id: 52556
   - tree: Affliction
     talent: Siphon Life
     rank: 1
     spell_id: 18265
-    talent_id: 350
+  - tree: Affliction
+    talent: Malediction
+    rank: 1
+    spell_id: 52546
   - tree: Affliction
     talent: Shadow Mastery
     rank: 5
     spell_id: 18275
-    talent_id: 353
   - tree: Destruction
-    talent: Shadow Vulnerability (Improved Shadow Bolt)
+    talent: Shadow Vulnerability
     rank: 5
     spell_id: 17803
-    talent_id: 321
   - tree: Destruction
-    talent: Cataclysm
-    rank: 5
-    spell_id: 17782
-    talent_id: 322
+    talent: Demonic Swiftness
+    rank: 2
+    spell_id: 57731
   - tree: Destruction
     talent: Bane
     rank: 5
     spell_id: 17792
-    talent_id: 324
+  - tree: Destruction
+    talent: Shadowburn
+    rank: 1
+    spell_id: 17877
   - tree: Destruction
     talent: Devastation
     rank: 5
     spell_id: 18134
-    talent_id: 328
   - tree: Destruction
     talent: Destructive Reach
     rank: 2
     spell_id: 17918
-    talent_id: 330
   - tree: Destruction
     talent: Ruin
     rank: 1
     spell_id: 17959
-    talent_id: 334
+  post_1181_pinned_points:
+    label: Post-1.18.1 SM/Ruin 30/0/21 (decoded per-tree code FoAQYASCRBF--FAVABoCAAI, 51/51 legal)
+    split: 30 / 0 / 21
+    points:
+    - tree: Affliction
+      talent: Suppression
+      rank: 5
+      spell_id: 18178
+    - tree: Affliction
+      talent: Improved Corruption
+      rank: 5
+      spell_id: 17814
+    - tree: Affliction
+      talent: Improved Life Tap
+      rank: 2
+      spell_id: 18183
+    - tree: Affliction
+      talent: Improved Curse of Agony
+      rank: 3
+      spell_id: 18830
+    - tree: Affliction
+      talent: Grim Reach
+      rank: 2
+      spell_id: 18219
+    - tree: Affliction
+      talent: Nightfall
+      rank: 2
+      spell_id: 18095
+    - tree: Affliction
+      talent: Soul Siphon
+      rank: 2
+      spell_id: 52559
+      note: this post-1.18.1 code runs Soul Siphon 2, not the talents.md summary's full set; it also takes Malediction
+    - tree: Affliction
+      talent: Rapid Deterioration
+      rank: 2
+      spell_id: 52556
+    - tree: Affliction
+      talent: Siphon Life
+      rank: 1
+      spell_id: 18265
+    - tree: Affliction
+      talent: Malediction
+      rank: 1
+      spell_id: 52546
+    - tree: Affliction
+      talent: Shadow Mastery
+      rank: 5
+      spell_id: 18275
+    - tree: Destruction
+      talent: Shadow Vulnerability
+      rank: 5
+      spell_id: 17803
+    - tree: Destruction
+      talent: Demonic Swiftness
+      rank: 2
+      spell_id: 57731
+    - tree: Destruction
+      talent: Bane
+      rank: 5
+      spell_id: 17792
+    - tree: Destruction
+      talent: Shadowburn
+      rank: 1
+      spell_id: 17877
+    - tree: Destruction
+      talent: Devastation
+      rank: 5
+      spell_id: 18134
+    - tree: Destruction
+      talent: Destructive Reach
+      rank: 2
+      spell_id: 17918
+    - tree: Destruction
+      talent: Ruin
+      rank: 1
+      spell_id: 17959
+    sources:
+    - '[[d:warlock#1486103119220838540]]'
+    era: post-1.18.1
+    agreement: single source
   leveling_order: []
-  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=warlock&t=05000030022001015--55050005020001
-  build_link_tortoise_note: 'Generated from the sourced points list (42 points: Affliction 19, Destruction 23); the calculator
+  code: FoAQYASCRBF--FAVABoCAAI
+  leveling_order_note: Level Affliction (guide/classes/warlock/leveling.md) and respec at 60.
+  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=warlock&t=55002030022221015--50250015020001
+  build_link_tortoise_note: 'Generated from the sourced points list (51 points: Affliction 30, Destruction 21); the calculator
     shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
 stat_weights:
-  hit: 'contested priority: one source says the hit cap is not mandatory (a top parser ran 7-9% hit), another says it is the
-    one thing to bring to a first raid'
-  crit: wanted (Ruin doubles crit damage; Shadow Vulnerability is crit-driven since 2024-12-20)
-  spell_power: high (Shadow Bolt scales strongly; Flask of Supreme Power adds ~128 points to an average bolt)
-  stamina: medium (T3 Plagueheart Raiment carries ~73 more stamina than the Affliction set)
+  hit: 'highest: Suppression covers only DoTs; Shadow Bolt needs 16% from gear [[d:warlock#1491843936715542548]]'
+  crit: high; contested vs haste (SB only ~55-65% of SM/Ruin damage) [[d:warlock#1464549618611126272]], [[d:warlock#1464549874644156568]],
+    [[d:warlock#1490901049777721516]]
+  spell_power: high
+  stamina: medium (Life Tap)
 stat_priority:
-- spell-hit
-- spell-crit
+- hit-to-16
+- crit
 - spell-power
+- haste
+- stamina
+caps:
+  gear_hit: 16% for Shadow Bolt from gear [[d:warlock#1491843936715542548]]
+rotation_single:
+- priority: 1
+  action: assigned curse (+Malediction Curse of Agony)
+  condition: missing [[d:warlock#1476505618654302291]]
+- priority: 2
+  action: Corruption
+  condition: missing
+- priority: 3
+  action: Shadow Bolt (instant on Nightfall)
+  condition: filler
+- priority: 4
+  action: Shadowburn
+  condition: target low and no time for a Shadow Bolt [[d:warlock#1476505618654302291]]
+- priority: 5
+  action: Siphon Life
+  condition: long fights (Patchwerk)
+- priority: 6
+  action: Drain Soul
+  condition: long-lived target while Shadowburn on cooldown
+- priority: 7
+  action: skip DoTs, pure Shadow Bolt
+  condition: 5-man dungeons [[d:warlock#1486106500270395473]]
+rotation_aoe:
+- targets_min: 5
+  priority: 1
+  action: Hellfire or Rain of Fire
+  condition: 5+ stacked mobs
+aoe_threshold: 5
+cooldowns:
+- name: Shadowburn
+  use_when: finisher
+- name: on-use trinkets
+  use_when: with DoT reapplication
+resource_rules:
+- Life Tap; crits are more mana-efficient than haste [[d:warlock#1464549874644156568]]
+- Keep the Imp out for Blood Pact (no Demonology points)
+- Atiesh holders often play SM/Ruin for the raid buff [[d:warlock#1431641229728419955]]
+consumables:
+- Flask of Supreme Power, Greater Arcane Elixir, Elixir of Shadow Power, Brilliant Wizard Oil
+- Healthstone
+mistakes_to_avoid:
+- Playing SM/Ruin below T2.5 hit levels
+- Relying on Suppression for Shadow Bolt hit [[d:warlock#1491843936715542548]]
+- Dotting in 5-mans [[d:warlock#1486106500270395473]]
+discord:
+  channels:
+  - warlock
+  agreement: mixed — consensus that SM/Ruin trails Affliction/Demonology post-1.18.1; single-source 30/0/21 post-release code
+  eras:
+  - pre-1.18.1
+  - 1.18.1-announced-pre-release
+  - post-1.18.1
+  sources:
+  - cite: '[[d:warlock#1486103119220838540]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: decoded post-1.18.1 SM/Ruin 30/0/21
+  - cite: '[[d:warlock#1490901049777721516]]'
+    era: post-1.18.1
+    agreement: single source
+    topic: only 55-60% of SM/Ruin damage is Shadow Bolt; don't over-value hit/crit
+  - cite: '[[d:warlock#1434152217736118352]]'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    topic: '''poor man''s Affliction in 1.18''; 250 vs 450 dummy DPS'
+  - cite: '[[d:warlock#1439237831410188408]]'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    topic: Affliction is the default; SM/Ruin superseded
+  - cite: '[[d:warlock#1432489734239944796]]'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    topic: demon buffs scale on fire and shadow spell power
+guide: guide/classes/warlock/destruction.md
 stat_priority_note: 'Hit first but CONTESTED in degree: one camp reports top Naxx parses at 7–9% hit and says not to trade
   much for it, the other calls the hit cap the one thing to bring to a first raid. Crit is wanted for Ruin and the crit-driven
   Shadow Vulnerability — the 2024 argument for trading crit away for raw spell power predates the 2024-12-20 revert to crit-based
   procs. Shadow Bolt scales well with spell power (a Flask of Supreme Power is worth about 128 points on an average Shadow
   Bolt).'
-caps: {}
-rotation_single:
-- priority: 1
-  action: Shadow Bolt
-  condition: Nightfall proc up (instant, cannot miss)
-- priority: 2
-  action: recast assigned raid curse
-  condition: missing
-- priority: 3
-  action: Corruption
-  condition: missing (instant with 5/5 Improved Corruption); Siphon Life is not used in this build's max-DPS rotation (threat)
-- priority: 4
-  action: Shadowburn
-  condition: target below Shadowburn health range, or fight ending, or moving (costs a shard)
-- priority: 5
-  action: Shadow Bolt
-  condition: default filler
-- priority: 6
-  action: Life Tap
-  condition: mana below one Shadow Bolt's cost
-rotation_aoe:
-- targets_min: 2
-  priority: 1
-  action: Corruption (+ Curse of Agony if Malediction) on each, Shadow Bolt the kill target
-  condition: 2-3 targets
-- targets_min: 4
-  priority: 1
-  action: Rain of Fire or Hellfire
-  condition: 4+ targets; Fire is resisted in Molten Core/Blackwing Lair
-aoe_threshold: 4
-cooldowns:
-- name: Shadowburn
-  use_when: target near death or fight ending; costs a shard
-- name: Death Coil
-  use_when: defensive/emergency
-resource_rules:
-- Life Tap is the mana engine, scaled by Improved Life Tap and Shadow Mastery
-- Shadowburn and Soul Fire (if used) each cost a shard; Soul Fire is not part of this rotation in any source
-- track Nightfall with an addon (Necrosis or TNE_Nightfall)
-consumables:
-- Flask of Supreme Power
-- resist potions per raid
-- Healthstone
-mistakes_to_avoid:
-- Gearing for the wrong Improved Shadow Bolt mechanic after the 2024-12-20 revert back to crit-driven procs
-- Skipping Malediction while also carrying a raid curse
-- Summoning Infernal without Demonology talents (uncontrolled, disruptive)
-- Casting Siphon Life for 'free' damage in a threat-limited raid
-- Letting the Imp die to AoE and losing Blood Pact instead of parking it with Take Position or sacrificing it on unavoidable-pet-damage
-  fights

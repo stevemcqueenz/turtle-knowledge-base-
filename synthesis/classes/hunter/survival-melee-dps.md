@@ -32,6 +32,7 @@ All dates UTC. Eras: **pre-1.18.1** (before 2025-10-03), **1.18.1-announced-pre-
 - Standard PvE build (CC3 kit, opaque link): `https://talents.turtlecraft.gg/hunter?points=FQDABo--YQCYDJTAbIQoB` [SvenS2, 2025-08-25](https://forum.turtlecraft.gg/viewtopic.php?p=148272#p148272); endgame melee/BM hybrid `...?points=FoAABo--YQCYDJTAbIQoB` ("Start off with the Beast Mastery talents, so your pet is tanky ... After that start building the Survival tree") [SvenS2, 2025-08-18](https://forum.turtlecraft.gg/viewtopic.php?p=146760#p146760); pre-CC3 build `...?points=FoAAAoAIAAAAAAAAAAAAAAAAAAAAFQCYBJTAbIQoBAA=` with BM pet-survival talents instead of MM Improved Stings — "your pet living longer and doing more damage will see more use than ranged abilities" [Bigsmerf, 2025-08-08](https://forum.turtlecraft.gg/viewtopic.php?p=143785#p143785); CC2-era build with 5 MM points `...?points=FABAAAAAAAAAAAAoFAAAAAAAAAAAdQKAAJTAbIQoBAA%3D` — "5 points in mm could be transferred to bm and so we spend 5 unnecessary points in mm" (to reach Improved Stings) [Billymenager (player), 2024-11-10](https://forum.turtlecraft.gg/viewtopic.php?p=107437#p107437). Where the extra points go (BM pet talents vs MM Improved Stings) is **contested**.
 - Named SV talents in these builds (union): Resourcefulness 5, Swift Reflexes 2, Savage Strikes 2, Improved Wing Clip 0–3 (leveling/PvP), Trap Mastery 3, Carve 1, Deterrence 1, Stinging Nettle Lacing 2, Killer Instinct 3, Surefooted 3 (PvE), Improved Feign Death 2, Lacerate 1 (CC3+), Vicious Strikes 2, Lightning Reflexes 5, Untamed Trapper 1 = 32; remaining points to BM rows 1–3 (Endurance Training/Thick Hide/Improved Mend Pet or Coordinated Assault) or MM Improved Stings. **Alone Against the World** (1.18.1): "It's a completely useless talent for leveling for any spec. It's only required in instances where the pet dies first" [Ahinevich (player), 2026-03-26](https://forum.turtlecraft.gg/viewtopic.php?p=172610#p172610); "The Alone Against the World talent does not belong in the survival tree" [SvenS2, 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171498#p171498).
 - 1.18.1 changed nothing structural: Vicious Strikes got its damage back (staff), Lacerate got +5% AP and side bonus; no player re-posted a build after 2026-03-20. Validity for 1.18.1: the CC3 build stands with those buffs (**unknown** whether allocations moved).
+- **Discord decoded the recurring PvE Survival allocation: 16/0/35** (code `FADCBo--dQCABJTAbIQoB`, 8+ posts Aug 2025 – Mar 2026) and filled the previously-null `spell_id`s; variants 8/0/43, 17/0/34 and the post-1.18.1 PvP 8/5/38. Full allocation in §Discord additions.
 
 ## Stat priority
 
@@ -96,6 +97,39 @@ The old dodge-based rotation (Mongoose only after a dodge, Counterattack after a
 6. Going oom by spamming Lacerate/traps on trash that dies in seconds; not drinking between packs (Rd: "I have to drink after every pack").
 7. Trying to Tranq from melee and losing the enrage window (Barwat1).
 
+## Discord additions (post-1.18.1)
+
+Folded from the archived `#hunter` Discord (`staging/hunter-pve/`). Era tags: **pre-1.18.1** (<2025-10-03), **1.18.1-announced-pre-release** (2025-10-03 → 2026-03-19), **post-1.18.1** (≥2026-03-20). Every claim carries `[[d:hunter#<id>]]`, an era and an agreement tag.
+
+### The decoded 16/0/35 build
+
+Recurring shape (8+ posts, Aug 2025 – Mar 2026), code `FADCBo--dQCABJTAbIQoB`: **BM 16** — Swift Aspects 5, Improved Primal Aspects 3, Improved Revive Pet 2, Coordinated Assault 1, Unleashed Fury 5; **SV 35** — Improved Slaying 3, Resourcefulness 5, Swift Reflexes 2, Savage Strikes 2, Survivalist 1, Carve 1, Deterrence 1, Stinging Nettle 2, Surefooted 3, Killer Instinct 3, Trap Mastery 3, Lacerate 1, Vicious Strikes 2, Lightning Reflexes 5, Untamed Trapper 1. This decodes the forum KB's own opaque link (`FQDABo--YQCYDJTAbIQoB`) to the same shape. Sources: [[d:hunter#1409566381254381608]], [[d:hunter#1420985846861135955]], [[d:hunter#1461555138748481628]]. Variants: 8/0/43 (adds Alone Against the World 2, Improved Feign Death 2, Planning Ahead 2), 17/0/34 (Bestial Discipline/Endurance Training filler).
+
+### 2H vs dual-wield, sharpened
+
+The forum KB called DW "almost on par" post-CC3. Discord sharpens it: **DW parses slightly higher single-target** (double stats + Swift Aspects procs), **2H is better multi-target** (higher weapon-damage ceiling for Carve), and you should **pick by what you own** [single source (guide writer), [[d:hunter#1493259706570117261]]]. It is server-dependent — "2H king on fully progressed, DW tops Ambershire" [contested/server-dependent, [[d:hunter#1486498375489556661]]]. For DW, use a **slow weapon in the main hand and a weapon-skill weapon in the off hand** [single source, [[d:hunter#1487660367856537711]]]. **1.18.1 added +3% DW hit via Surefooted** [consensus, [[d:hunter#1485682104217112606]]]; DW white autos miss ~20%+ while yellow specials use the normal cap [single source, [[d:hunter#1485760027976400966]]].
+
+### Rotation, pets and encounters
+
+- **Button order (post-1.18.1)** matches the forum loop: single target Raptor Strike → Immolation Trap → Mongoose Bite → Lacerate → Carve → Wing Clip; AoE Explosive Trap → Carve → Raptor Strike → Mongoose Bite → Lacerate → Wing Clip [single source, [[d:hunter#1485147064102031453]]].
+- **Alone Against the World** (petless +3/6%) is a **net ~10.4% damage loss** where the pet + procs contribute ~15.4%; take it only on pet-hostile bosses [single source, [[d:hunter#1484443857402724372]]].
+- **Kara40** has no humanoids/beasts/giants/dragonkin, so Improved Slaying is worthless there [consensus, [[d:hunter#1486333622796550184]]]; pet uptime is the challenge [[d:hunter#1485915598004158527]]. **MC**: wolves can be brought for the party buff because MC mobs are bleed-immune [single source, [[d:hunter#1490428315524272329]]].
+- **Melee consumable checklist**: mongoose, Ground Scorpok Assay, Elixir of Giants, firewater/juju, Sour Mountain Berry, elemental sharpening stone, Str+Agi scrolls [single source, [[d:hunter#1463846948200124426]]].
+- **Survival PvP** is no longer a gap: Discord decoded a post-1.18.1 **8/5/38** SV PvP build — see `marksmanship-pvp.md`.
+
+### Discord sources used
+
+| Source | What it adds | Era | Agreement |
+|---|---|---|---|
+| [[d:hunter#1409566381254381608]] | 16/0/35 decoded recurring SV build | 1.18.1-announced-pre-release | consensus |
+| [[d:hunter#1493259706570117261]] | DW single-target vs 2H multi-target, by ownership | post-1.18.1 | single source (guide writer) |
+| [[d:hunter#1485682104217112606]] | Surefooted +3% DW hit (1.18.1) | post-1.18.1 | consensus (staff) |
+| [[d:hunter#1486498375489556661]] | server-dependent 2H/DW king | post-1.18.1 | contested |
+| [[d:hunter#1485147064102031453]] | post-1.18.1 button order | post-1.18.1 | single source |
+| [[d:hunter#1484443857402724372]] | Alone Against the World = net −10.4% | post-1.18.1 | single source |
+| [[d:hunter#1463846948200124426]] | melee consumable checklist | post-1.18.1 | single source |
+| [[d:hunter#1417950297417978098]] | level-40 melee-SV breakpoint | pre-1.18.1 | consensus |
+
 ## Sources and validity
 
 | Recommendation | Agreement | Validity |
@@ -107,5 +141,7 @@ The old dodge-based rotation (Mongoose only after a dodge, Counterattack after a
 | Stinging Nettle worth 2 points | contested (Bigsmerf/zer0g3/SvenS2 yes; Laysson/Atreidon partial) | CC2+ |
 | Survival = top hunter raid DPS | consensus Apr–Nov 2025 (Barwat1, Grizb37, Kerbees, FrankFankledank); post-CC3 nerf claim −25% (Sarthrethal) contested by Thricew | pre-1.18.1; post-1.18.1 unknown (Skurridizo still raiding SV in Mar 2026) |
 | Mana is the bottleneck | consensus (Sarthrethal, Grawerok, Rd, zer0g3) | CC3+; Viper (1.18.1) helps out of combat only |
+| 16/0/35 standard allocation | consensus (Discord, 8+ posts) | decoded; names are 1.18.1 slot labels |
+| DW single-target / 2H AoE, pick by ownership | single source (guide writer) | post-1.18.1; server-dependent |
 
 Threads used: t2117, t1197, t20733, t20734, t18162, t15754, t18346, t18315, t19302, t21286, t19396, t17262, t21059, t19420, t18961, t16124, t15877, t15316, t22842, t20522, t11709, t6648, t4098, t17423, t22460, t18456 (`extracted/forum/f45-hunter/`); staff posts in `extracted/forum/f63-patch-notes-changelog/t15157-*.md`; `extracted/forum/f70-itemization/t15404-*.md`.

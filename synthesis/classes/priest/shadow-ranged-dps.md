@@ -33,9 +33,16 @@ Player reception of the 1.18.1 Shadow changes was negative but PvP-focused ("sha
 
 ## Talent build
 
-No post-CC2 poster gives a full text allocation; they give talents.turtlecraft.gg links (opaque strings) and talent-by-talent arguments. Reconstruction below uses Turtle names; **[cited]** = named by a source for raiding, **[fill]** = prerequisite/path.
+**The post-1.18.1 raid allocation is 0/20/31** — "Full Kara40 BiS Talents" (Zitronenhaze): spreadsheet [[d:priest#1465020522923294730]] and matching in-client screenshot [[d:priest#1484671489260388393]]. Holy 20 is the **Spiritual Guidance secondary**, not Discipline. With full BiS or Scythe you have enough hit to drop Shadow Focus to 3/5 (or lower) and take **Improved Fade 2/2** so you can Fade before every SW:P; with Scythe drop another Shadow Focus point for 5/5 Improved Mind Blast. Era: post-1.18.1. Agreement: single source (spreadsheet + matching screenshot).
 
-### Raid build, 1.18.1 (Shadow 36 / Discipline 15 / Holy 0)
+| Tree | Talent | Points |
+|---|---|---|
+| Shadow (31) | Spirit Tap 5, Improved Mind Blast 5, Improved SW:P 2, Shadow Focus 3, Improved Fade 2, Mind Flay 1, Shadow Weaving 4, Vampiric Embrace 1, Vampiric Touch 2, Darkness 5, Shadowform 1 | 31 |
+| Holy (20) | Holy Focus 1, Divinity 5, Divine Fury 3, Holy Reach 2, Blessed Recovery 3, Holy Nova 1, Spiritual Guidance 5 | 20 |
+
+The most-repeated **decoded pre-1.18.1** shape was **14/0/37** (Disc secondary) and **16/0/35**; the pinned guide set (wily/HolyScheiss/Narghul) lists **14/0/37** [[d:priest#1389476140011491378]]. The 36/15/0 reconstruction below is kept for reference and is **superseded for 1.18.1**.
+
+### Raid build, pre-1.18.1 reconstruction (Shadow 36 / Discipline 15 / Holy 0)
 
 | Tree | Talent | Pts | Basis |
 |---|---|---|---|
@@ -80,6 +87,7 @@ Patch validity: shape pre-1.18.1; row-1/row-2 changes (Imp MB, Blackout, Imp Fad
 - Mp5/Spirit: acceptable once hit is capped — "you can itemize for some mp5 and even spirit (you can get 30% regen while casting due to improved shadow form + talents)" — Quidoba 2023-10-25.
 - Spell power → DPS (2019 math, coefficients since changed): 0.41–0.57 DPS per SP — [Jcarrill0, 2019-02-13](https://forum.turtlecraft.gg/viewtopic.php?p=2083#p2083) (vanilla-era, outdated coefficients).
 - Resistance: KT has 100 shadow resistance; spell penetration pieces were valued for him — [Blackduck3 (player), 2024-10-30](https://forum.turtlecraft.gg/viewtopic.php?p=105284#p105284).
+- **Discord (1.18.1-announced-pre-release, consensus):** "SP >> Crit >>> Cast Speed (useless). Your only spells that can crit are Mind Blast and technically Pain Spike, so just stack big SP pieces. Nothing benefits from Cast Speed. Also get 6% Hit" — DemonBoyJr [[d:priest#1370517379498512614]]; Mind Flay cannot crit and **ignores haste** [[d:priest#1350488074957623348]]; crit is worth ~3 spell power without the T3 6-set proc [[d:priest#1325853261898584124]]. The **T3 6-set Mind Flay bonus-proc can crit and is logged as Mind Flay crits** (why players think Flay crits) [[d:priest#1361268486277693481]], [[d:priest#1361325241108004945]]. At hit cap a level-63 target still has ~6.7% level-based shadow resist on top of the 1% miss [[d:priest#1302758862214008925]].
 
 ## Single-target rotation
 
@@ -96,6 +104,10 @@ Priority (consensus, Jcarrill0 2019 + Keds 2025 + Nemetth1 2025):
 8. Melee weaving between Mind Flays (optional, contested): "Mind Flay lasts 3 seconds and after it stops casting, you are able to automatically deal melee dmg ... top shadow priests use this technique" plus Seal of Wisdom procs — [Zvyrhol (player), 2023-12-02](https://forum.turtlecraft.gg/viewtopic.php?p=79666#p79666); measured at a dummy as ~3% DPS, "doesnt seem to be worth it" — [Chyk (player), 2023-12-02](https://forum.turtlecraft.gg/viewtopic.php?p=79668#p79668).
 
 Keep 5 stacks of Shadow Weaving on the boss (pre-1.18.1: on the target; post-1.18.1: on yourself, applied on hit).
+
+Discord cadence (consensus, 2025-2026): opener Shadowform + Inner Fire + PW:S -> VE -> SW:P -> MB -> Mind Flays [[d:priest#1430465373366648873]]; filler **1 Mind Blast : 2 Mind Flays** (6 s MB CD = 4 GCDs = 2 Flays) [[d:priest#1427180667724103781]], [[d:priest#1427288804783554610]]; refresh SW:P as it drops and **clip Mind Flay at the 2-second mark** when a refresh is due [[d:priest#1362782979625193572]]. Era: 1.18.1-announced-pre-release. Agreement: consensus.
+
+**Shadow Weaving self-stack (1.18.1):** stacks now live on the **priest** and apply to every target hit — "with 5/5 shadow weaving before the patch, each shadow spell applied one stack of this debuff, now you apply your own amount of stacks on you. in long fights you apply 6 debuffs at once" — Zvyrhol [[d:priest#1485255007283581048]]. Stacks carry between targets but fall off between open-world packs; a 9 s vs 15 s duration was reported as unresolved [[d:priest#1484726495568986112]]. **Spirit Tap now also procs on Mind Blast crits** (1.18.1) [[d:priest#1484646351974174741]], giving it raid value beyond add fights (KT/Nefarian). Era: post-1.18.1. Agreement: consensus on mechanics; contested on duration.
 
 ## Multi-target / AoE
 
@@ -115,7 +127,7 @@ Keep 5 stacks of Shadow Weaving on the boss (pre-1.18.1: on the target; post-1.1
 
 ## Role strategy
 
-- **Threat is the defining constraint.** "Mind Blast has a 200% Threat Multiplier [170% since 1.18.0] ... 100% of the dmg dealt + 150% of the dmg dealt in healing + 10% of dmg in mana reg = 260% per dmg ... Like i am in half Blues ... and full t3 tanks with thunderfury struggle to stay above me" — [Zitronenhaze (player), 2025-05-31](https://forum.turtlecraft.gg/viewtopic.php?p=133782#p133782); "Fade is a temporary reduction in threat. After fade fades away, the threat immediately comes back" (pre-1.18.1) — [Drubarrymooer (player), 2025-06-02](https://forum.turtlecraft.gg/viewtopic.php?p=133959#p133959). Rules: delay Mind Blast on pull; run a threat meter; Silent Resolve + T1 3-set −15% threat; take Improved Fade post-1.18.1.
+- **Threat is the defining constraint.** "Mind Blast has a 200% Threat Multiplier [170% since 1.18.0] ... 100% of the dmg dealt + 150% of the dmg dealt in healing + 10% of dmg in mana reg = 260% per dmg ... Like i am in half Blues ... and full t3 tanks with thunderfury struggle to stay above me" — [Zitronenhaze (player), 2025-05-31](https://forum.turtlecraft.gg/viewtopic.php?p=133782#p133782); Discord threat math: a 3.5k Mind Blast crit ≈ **7 699 threat** after Salvation [[d:priest#1381443790979469312]].
 - "Even if your raid leader says 'hold dps at the start,' they generally aren't referring to you unless you way outgear your tank or you aren't specced into threat reduction" (Jcarrill0 2019) — **superseded** by the 2025 threat complaints above; bots should hold Mind Blast for the first ~10 s.
 - Mind Flay 20-yd base range (24 with 2/2 Shadow Reach post-1.18.1): stand at 20 yd, not max range; some bosses force Mind Blast/SW:P only (basednoob). Mind Flay can misfire on friendly totems (basednoob).
 - Pushback: shield yourself before AoE phases ("as shadow you've got to cast PW:S and burn your mana just to have pushback protection" — Grizb37 2026-03-27); Blessed Concentration is reachable in Disc row 2 since 2025-04-01 (staff).
@@ -129,6 +141,7 @@ Keep 5 stacks of Shadow Weaving on the boss (pre-1.18.1: on the target; post-1.1
 - Philosophy: SP + hit, ignore set bonuses. "your BIS item list, at least where we are at South Seas phase, it's about the same as Classic, besides the neck/waist" — Keds 2025-09-11 (tests: full T1 with Imp MB 0/5 ≈ full T2 with Imp MB 4/5; Bracers of Arcane Accuracy + Sash of Whispered Secrets + rest T2 +1-20 DPS).
 - Pre-raid: "farm ZG as often as possible, it has three different 2nd bis" and Kara10 "has a good 29 sp blue belt" — [Caracole (player), 2024-12-22](https://forum.turtlecraft.gg/viewtopic.php?p=113861#p113861); Black Morass Nightwind Leggings — [Akos1896 (player), 2024-07-08](https://forum.turtlecraft.gg/viewtopic.php?p=98897#p98897) (but "do not go to black morass" in greens — Atreidon 2024-07-08); AH route: "2 of the bloodvine, some shadow wrath, some boe blues with good caster stats, and you have more than enough to get into bwl and even AQ40... assuming you flask" — [amanagor (player), 2024-12-23](https://forum.turtlecraft.gg/viewtopic.php?p=113978#p113978). Bloodvine set was nerfed in 1.17 (hit moved to raid gear) — [Noephix (player), 2023-08-29](https://forum.turtlecraft.gg/viewtopic.php?p=59726#p59726) vs staff intent explained by [Redmagejoe (player), 2023-08-30](https://forum.turtlecraft.gg/viewtopic.php?p=59843#p59843). Band of Servitude buffed to 27 SP "for specializations that require a lot of spell hit such as Arcane mages and Shadow priests" — [Dragunovi (staff), 2024-05-12](https://forum.turtlecraft.gg/viewtopic.php?p=94666#p94666).
 - Tier sets (Shadow T1/T2/T3 alternative sets since 2023-10 — [Dragunovi (staff), 2023-10-15](https://forum.turtlecraft.gg/viewtopic.php?p=71030#p71030)): T1 3-set −15% threat is the one valued bonus; T2 (Mana Burn +30%, VE +20 s, MB crit proc) "barely any benefit" — Keds 2025-09-08, Sharmaine 2025-09-08; T3 6-set Shadow Weaving bonus "locking it behind 6 pieces forces awful gear choices" — [Solaire0726 (player), 2025-08-01](https://forum.turtlecraft.gg/viewtopic.php?p=142440#p142440); T3 4-set no GCD (2024-11-12, timeline). 1.18.1: new Shadow T2.5 (crit-based) in AQ40 — [Dragunovi (staff), 2026-02-15](https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272); "of Faith" T3 pieces changed to Shadow Spellpower (Coronet 44, Shoulderpads 29, Pants 51) — same post. Karazhan set reduces Mind Blast CD (Zitronenhaze). T3.5 "Vestments of Pestilence" praised ("great job on Tier 3.5" — [Uglypig (player), 2025-09-12](https://forum.turtlecraft.gg/viewtopic.php?p=151474#p151474)); details not in the extracted sources.
+- **Discord gear (1.18.1-announced-pre-release/post-1.18.1):** 6-set T3 is the core; weapons **Soulseeker** or **End of Dreams/Midnight Haze + AV/Saph offhand**, wand **Doomfinger**; rough BiS list [[d:priest#1330315247281508432]]. **T3.5 shadow pieces carry shadow power, not general SP**, on most slots [[d:priest#1378060113117712454]]; 1.18.1 warnings that insufficient hit for SW:P "is gonna make your rotation miserable" [[d:priest#1484592947763744908]]. Era: 1.18.1-announced-pre-release/post-1.18.1. Agreement: consensus.
 - Weapons: Benediction/Anathema requires the Holy solo quest; "I did this quest wearing mooncloth set" — [Turboman (player), 2025-08-26](https://forum.turtlecraft.gg/viewtopic.php?p=148401#p148401).
 - Consumables in order of importance (Jcarrill0 2019, still available): Major Mana Potions, Demonic Runes, Brilliant Wizard Oil, Elixir of Shadow Power (1 h since 1.18.0 — [Jamey/Dragunovi itemization 1.18.0]), Greater Arcane Elixir, Mageblood, Nightfin Soup, Sagefish Delight, Elixir of Greater Intellect, Scroll of Intellect IV, Crystal Force, Scroll of Spirit IV; Flask of Supreme Power "single biggest DPS increase"; Greater Fire/Arcane Protection for Ragnaros/Shazzrah. Turtle additions: Nordanaar Herbal Tea (Atreidon). Melee-weaving extras: Shadow Oil (56% SP scaling, 10 s ICD) — [Ibux (player), 2023-02-19](https://forum.turtlecraft.gg/viewtopic.php?p=35235#p35235).
 
@@ -157,5 +170,18 @@ Keep 5 stacks of Shadow Weaving on the boss (pre-1.18.1: on the target; post-1.1
 | [Jamey](https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159) | staff | 2025-07-25 | pre-1.18.1 | 1.18.0 (VE instant, MB threat, Shadow Mend) | authoritative |
 | [Dragunovi](https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272) | staff | 2026-02-15 | announced | 1.18.1 sets | authoritative |
 | PvE AoE debate: [Kairion](https://forum.turtlecraft.gg/viewtopic.php?p=36140#p36140), [Keds](https://forum.turtlecraft.gg/viewtopic.php?p=138358#p138358), [Ashton007](https://forum.turtlecraft.gg/viewtopic.php?p=138360#p138360), [Atreidon](https://forum.turtlecraft.gg/viewtopic.php?p=138356#p138356) | player | 2023-2025 | pre-1.18.1 | multi-target | contested |
+| Discord `#priest` (Zitronenhaze, Greendam, DemonBoyJr, limbless, Zvyrhol) | players | 2024-2026 | 1.18.1-announced-pre-release/post-1.18.1 | 0/20/31 build, 1 MB : 2 MF cadence, Shadow Weaving self-stack, Spirit Tap on MB crit, SP >> crit >>> haste, threat math, T3 6-set Flay proc, boss notes | consensus (build single source) |
+
+### Boss notes (Discord)
+
+| Boss | Note | Era | Agreement |
+|---|---|---|---|
+| Loatheb | Shadow priests are strong; raid shadow damage shines. [[d:priest#1296461377011191870]] | pre-1.18.1 | consensus |
+| Patchwerk | Geared Shadow priest reported 851 DPS. [[d:priest#1301815728730804254]] | pre-1.18.1 | single source |
+| Loatheb / Sapphiron / Anomalus (Kara40) | Fights where shadow damage type shines. [[d:priest#1302190464266534942]] | pre-1.18.1 | single source |
+| Nefarian / Kel'Thuzad (adds) | Spirit Tap is valuable on add fights; VE on Nefarian can kill your group during the priest class call. [[d:priest#1290678653562126479]] | pre-1.18.1 | consensus |
+| Viscidus | Good shadow damage-type fight. [[d:priest#1302260101272436899]] | pre-1.18.1 | consensus |
+| Four Horsemen | Shadow priests are expected to off-heal. [[d:priest#1382588545641746482]] | 1.18.1-announced-pre-release | single source |
+| Zeliek / Heigan / Kel'Thuzad | Mind Flay 20-24 yd range forces Shadow off max range. [[d:priest#1398261511931302059]] | 1.18.1-announced-pre-release | single source |
 
 Pre-1.18.1 advice affected by 1.18.1: Shadow Weaving as a per-target debuff (now self-buff), Blackout/Imp MB positions, Improved Fade being "unused", Fade being flat only, Shadow Reach 3 pts, Spirit Tap only on kills.

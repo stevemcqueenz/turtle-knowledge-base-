@@ -491,3 +491,81 @@ Clarifies: Redwall Keep, the low-level world PvP area in Redridge, was not desig
 Clarifies: 1.18.1 PvP overhaul: the two-tier PvP set rewards are sunset for a three-tier structure (~ilvl 71 rare, ~77 epic, ~92 epic); honor is credited immediately and becomes a currency, ending the weekly-standings competition for rank points.
 
 [Jamey (staff), 2026-03-02](https://forum.turtlecraft.gg/viewtopic.php?p=169701#p169701) · kind: `intent` · era: **1.18.1-announced-pre-release** · topic: "PvP in 1.18.1"
+
+---
+
+## Discord staff statements (`#pvp-general`)
+
+The forum statements above come from `structured/forum/posts/*.jsonl` and are mirrored in `structured/staff-statements.jsonl`. The archived Turtle WoW Europe Discord channel **`#pvp-general`** (266,785 messages, 2021-05-24 → 2025-11-01) contains a further, small set of staff-register posts. They are **not** part of the 60 forum statements above and are not in `structured/staff-statements.jsonl`; citations are `[[d:pvp-general#<id>]]` and resolve in `structured/discord/evidence-pvp-general.jsonl`. In Discord there is no green-name signal: **Akalix** and **Jamey** answer in the staff register and are treated as staff; a `Deleted User` post is marked where it reads as staff-intent (it matches later forum policy). Era key: `pre-1.18.1` (< 2025-10-03) and `1.18.1-announced-pre-release` (2025-10-03 .. 2026-03-19); `post-1.18.1` is absent (channel ends 2025-11-01).
+
+#### 2021-12-18 — Honour glyph for already-ranked players
+
+> I'm not sure if it'll help in a long-term but we will soon introduce a special glyph which will down honor gains to 1-5% for already ranked people, so they won't mess up with other's rankings. I know many of you dislike Er, but it was his idea and he was the first to volunteer to use this glyph to continue playing on BG for enjoyment, not for the honor, yet still remain in the pool with a minimal honor value to help others to rank up.
+
+Clarifies: A no-honour glyph (1–5% honour gain) let already-ranked players keep queueing without distorting other players' rankings.
+
+[Deleted User (staff-register), 2021-12-18] · kind: `intent` · era: **pre-1.18.1** · source: `[[d:pvp-general#921800202749370379]]`
+
+#### 2024-06-17 — Participation requirements to stop diminished honour
+
+> My current plans for solving it would be imposing a few requirements of participation to not receive diminished honor from a match.
+
+Clarifies: Planned fix for AFK/under-contributing BG players: participation requirements so they do not receive full (diminished) honour.
+
+[Akalix (staff), 2024-06-17] · kind: `roadmap` · era: **pre-1.18.1** · source: `[[d:pvp-general#1252020200337834046]]`
+
+#### 2024-06-17 — Cross-faction Blood Ring
+
+> X-Faction blood ring is a big thing I've been saying needs in but man vanilla hates crossfaction PvP lol
+
+Clarifies: Staff actively pushed for cross-faction Blood Ring; KB records Blood Ring going cross-faction.
+
+[Akalix (staff), 2024-06-17] · kind: `intent` · era: **pre-1.18.1** · source: `[[d:pvp-general#1252023586114375731]]`
+
+#### 2025-06-10 — WSG jump/parkour spots: discourage, do not remove
+
+> It's a hard balance -- if you keep and encourage these sort of features, you get a much higher barrier of entry. For every 5 players, you'll get one looking up a guide, one trying to learn, and three who decide they don't want to play WSG again. ... Okay, remove those spots entirely. Then we design the mode for "hopefully people start playing" -- and make it something some veterans dislike. That also sucks. Best middleground is discouraging those spots, but not making them entirely impossible, in my opinion.
+
+Clarifies: Design rationale for WSG terrain spots: keep them possible (veteran skill expression) but discourage them (newcomer barrier), rather than remove them.
+
+[Akalix (staff), 2025-06-10] · kind: `reasoning` · era: **pre-1.18.1** · source: `[[d:pvp-general#1381882667485888514]]`
+
+#### 2025-06-10 — WSG stall is the real problem
+
+> Main issue is that a majority of people don't want to sit in a BG for ages where the "PvP" is determined by which team's druid can go the longest without messing up their funny parkour -> dash away combo. People like games where they can kill things.
+
+Clarifies: The anti-stall motivation behind the WSG FC/parkour changes: a majority does not want hour-long BGs decided by druid parkour.
+
+[Akalix (staff), 2025-06-10] · kind: `reasoning` · era: **pre-1.18.1** · source: `[[d:pvp-general#1381891955088166912]]`
+
+#### 2025-06-10 — Dampening scope: not class-specific; BGs/arenas only
+
+> No, yes
+
+Clarifies: Answering "are these reductions going to be class specific? and ... exclusive for bgs and arenas?" — no (not class-specific in 1.18.0), yes (BGs/arenas only, not open world). Companion post: "Shields"/"Absorbs" means **shielding abilities** (PW:S etc.), not shield items.
+
+[Jamey (staff), 2025-06-10] · kind: `working-as-intended` · era: **pre-1.18.1** · sources: `[[d:pvp-general#1381838614748594248]]`, `[[d:pvp-general#1381837473058914445]]`
+
+#### 2025-06-10 — Dampening rationale: anti-burst, but do not hand it to sustain
+
+> It's something which I can see being both good and bad as a PvPer. The goal being to make it so PvP isn't entirely "who can explode the other person instantly first" -- but then classes which are built around bursting become significantly worse, and classes with good sustain get significantly better. So the key is to find the spot where a naxx geared ret isn't roleplaying as god if they pop a flask, but a fresh 60 druid isn't unkillable because they have sustain.
+
+Clarifies: Staff rationale for the 1.18.0 universal dampening; the values were not yet fixed when announced. Confirmed live in **Patch 1.18.0** ("Patch 1.18.0").
+
+[Akalix (staff), 2025-06-10] · kind: `reasoning` · era: **pre-1.18.1** · sources: `[[d:pvp-general#1381890754753859654]]`, `[[d:pvp-general#1381887792241578014]]`
+
+#### 2025-06-10 — Faction queue asymmetry
+
+> Generally alliance is faster queues but less cordination.
+
+Clarifies: Staff framing of the Alliance queue-time advantage as traded against coordination.
+
+[Akalix (staff), 2025-06-10] · kind: `observation` · era: **pre-1.18.1** · source: `[[d:pvp-general#1381889760037179444]]`
+
+#### 2025-07-13 — Cross-faction BGs roadmap
+
+> Crossfaction BGs are likely 1.18.0, if not, 1.18.1
+
+Clarifies: Cross-faction (mercenary) battlegrounds were announced for 1.18.0 or 1.18.1 and shipped on 4 November 2025 (KB); mixed-faction premades remain impossible (KB staff, 2025-11-05).
+
+[Akalix (staff), 2025-07-13] · kind: `roadmap` · era: **1.18.1-announced-pre-release** · source: `[[d:pvp-general#1393688963285254175]]`

@@ -1,6 +1,7 @@
 class: Druid
 spec: Balance
 role: ranged-dps
+guide: guide/classes/druid/balance.md
 sources:
 - url: https://forum.turtlecraft.gg/viewtopic.php?p=159149#p159149
   author: Scattyau
@@ -50,65 +51,756 @@ sources:
   author: Tarsis
   authority: player
   date: '2025-06-11'
+- cite: '[[d:druid#1485212531613241375]]'
+  author: Kangaraxxus
+  authority: player (sim author)
+  date: '2026-03-22'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:druid#1489737410362343484]]'
+  author: Micro Jackson
+  authority: player
+  date: '2026-04-04'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:druid#1493886936643928205]]'
+  author: Habu
+  authority: player (top boomkin)
+  date: '2026-04-15'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:druid#1488415746592604160]]'
+  author: Krokat
+  authority: player (sim author)
+  date: '2026-03-31'
+  era: post-1.18.1
+  agreement: consensus
+- cite: '[[d:druid#1492151406159859824]]'
+  author: Hotverdomme-Nord
+  authority: player (top boomkin)
+  date: '2026-04-10'
+  era: post-1.18.1
+  agreement: consensus
 agreement: contested
 patch_validity:
   written_for: 1.17.2 / 1.18.0 Eclipse rework (Wrath 30%/Starfire 50% proc chance, bonus = 10% + 60% of spell crit)
   valid_for_1181: true
-  notes: '1.18.1 changed Eclipse proc chances to Wrath 40%/Starfire 60% (revision dated 2026-03-19), reworked Balance of All
-    Things to 3 points (Wrath mana refund 10/20/30% vs Insect-Swarm''d target, Starfire crit +3/6/9% vs Moonfire''d target,
-    revised from +2/4/6% on 2026-01-26), and raised Moonfury to 4/8/12% (2026-01-26). Post-1.18.1 reaction: reworked Starfire
-    cast-time component criticized as a net nerf (''lost 20% spell haste... for 9% crit that doesn''t scale eclipse''); Noephix
-    estimates ~15% DPS nerf overall (single source, uncorroborated by logs).'
+  notes: '1.18.1 changed Eclipse proc chances to Wrath 40%/Starfire 60% (2026-03-19 revision) and raised Moonfury to 4/8/12%
+    (2026-01-26). Balance of All Things was reduced 5 -> 3 points and reworked TWICE: the 2026-01-26 revision gave Starfire
+    -0.2/0.4/0.6 s cast time vs Moonfire''d targets [[d:druid#1465349903348924598]]; the 2026-03-19 revision REPLACED that
+    with +3/6/9% crit, which players read as a net nerf. Any pre-release note quoting the cast-time version is stale. Post-1.18.1:
+    community calls Balance the worst ''proper'' DPS spec, sims show 1.18 peak 1549.2 vs 1.18.1 1454.0 DPS [[d:druid#1464380870935969944]];
+    the numeric magnitude is still not log-verified.'
+discord:
+  channel: druid
+  scope: Balance stat weights, exact Eclipse rotation, T3/T3.5 gear calls, consumables, post-1.18.1 reaction
+  sources:
+  - id: '1465349903348924598'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: '2026-01-26 revised BoAT note: 5->3 points, Wrath on Insect-Swarm''d target refunds 10/20/30% mana, Starfire has
+      0.2/0.4/0.6 s reduced cast time vs Moonfire''d targets'
+  - id: '1484368183593799711'
+    era: post-1.18.1
+    agreement: consensus
+    claim: '1.18.1 Eclipse: Wrath 40% / Starfire 60% chance to proc their beneficial effects (was 30%/50%)'
+  - id: '1386036047225290873'
+    era: pre-1.18.1
+    agreement: consensus
+    claim: 'Numeric Balance stat weights: hit worth ~40 spell power, crit ~20, haste ~16; ''get 12-15 spell hit, stack as
+      much spell crit as you can. Hit>crit>sp'' [[d:druid#1380884597826392074]] [[d:druid#1387146935336697998]]'
+  - id: '1380629211223691294'
+    era: pre-1.18.1
+    agreement: consensus
+    claim: 'Crit-cap pressure near T3.5: ''39.5 crit is what bis will look like with scythe, while also being crit capped'''
+  - id: '1382205752961269830'
+    era: pre-1.18.1
+    agreement: consensus
+    claim: 'Exact rotation: Moonfire+Insect Swarm -> Wrath until Arcane Eclipse -> Starfire the whole window -> refresh Moonfire
+      then Insect Swarm in the last second of Arcane Eclipse -> Starfire until Nature Eclipse -> Wrath the window, refreshing
+      only in its last second; do not re-DoT mid-window'
+  - id: '1382166180663529532'
+    era: pre-1.18.1
+    agreement: single source
+    claim: Solstice only blocks re-entering the SAME Eclipse, so after Arcane ends keep casting Starfire to fish Nature
+  - id: '1381396350142251149'
+    era: pre-1.18.1
+    agreement: consensus
+    claim: T3.5 3-set summons a second Hurricane cloud at exactly 50% of your ticks that keeps going after channelling and
+      is affected by Eclipse/Enlighten - 'very very strong' for trash
+  - id: '1388439061844328528'
+    era: pre-1.18.1
+    agreement: consensus
+    claim: T3.5 5-set bonus is widely called bad ('5t3.5 set bonus sucks af'); 3-set is the chase
+  - id: '1380178763412799568'
+    era: pre-1.18.1
+    agreement: consensus
+    claim: Ebb and Flow idol (Starfire cast time) called 'like a 60 dps increase'; 8/8 T3 + Starfire boon + Ebb and Flow +
+      Bloodlust gives 1.35 s Starfires [[d:druid#1380642728140079134]]
+  - id: '1380178703555887235'
+    era: pre-1.18.1
+    agreement: single source
+    claim: Snapshot the crit idol before swapping to Ebb and Flow
+  - id: '1382526320789033011'
+    era: pre-1.18.1
+    agreement: single source
+    claim: 8/8 T3 grants 10% haste on entering Eclipse; Improved Wrath lowers the Wrath GCD to 1.0 s [[d:druid#1383503369485815959]]
+  - id: '1379631498847715390'
+    era: pre-1.18.1
+    agreement: single source
+    claim: 'Balance consumable list: Flask of Supreme Power / Chromatic Flask, Brilliant Wizard Oil, Nightfin Soup, Mageblood
+      Potion, Major Mana Potion, Nordanaar Herbal Tea, Limited Invulnerability Potion, Zanza, Greater Arcane Elixir, Elixir
+      of Greater Nature Power, Dreamshard Elixir, Cerebral Cortex Compound, Juicy Stripped Melon, Medivh''s Merlot Blue, Bright
+      Dream Shards'
+  - id: '1381556479252762735'
+    era: pre-1.18.1
+    agreement: single source
+    claim: Chromatic Flask is the best early-Kara40 flask; Wisdom flask only worth it on Chess [[d:druid#1383027715111653388]]
+  - id: '1464377731033862308'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: 'Krokat''s 1.18 vs 1.18.1 Balance sims: 1549.2 -> 1454.0 peak DPS [[d:druid#1464380870935969944]]; 1.18.1 Ebb and
+      Flow 1225.8 vs Moon 1199.5 [[d:druid#1464386394410713444]]'
+  - id: '1484680824552161360'
+    era: post-1.18.1
+    agreement: contested
+    claim: 'Post-patch: Starfire damage ''horribly low''; pure Wrath spam reportedly out-damages Starfire inside Arcane Eclipse
+      [[d:druid#1484694699364319326]]'
+  - id: '1484945523889803354'
+    era: post-1.18.1
+    agreement: single source
+    claim: 'The ''Starfire crit is broken'' theory was later retracted: ''crit seems fine... the starfire dmg is way too low''
+      [[d:druid#1489726742280011827]]'
+  - id: '1486095894875996311'
+    era: post-1.18.1
+    agreement: contested
+    claim: Balance called the worst 'proper' DPS spec by late March/April 2026 [[d:druid#1487183732384469062]]
+  - id: '1464541190186602538'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: 'Designer rationale: the rework streamlines BoAT/Owlkin Frenzy/Eclipse randomness to reduce the spec''s RNG dependence'
+  - id: '1471143844178301001'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: Moonfury buffed to 4/8/12% (+2% damage, +3% Starfire crit in the revised notes) [[d:druid#1473167948553388125]]
+  - id: '1484464772115206204'
+    era: post-1.18.1
+    agreement: single source
+    claim: Leveling weapon progression is melee-oriented; Balance levelers keep any int/spirit gear
+  - id: '1412860092692299806'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: 'Moonkin raid value is not only damage: Moonkin Aura (crit), decurse, Innervate and battle rez'
+  - id: '1356852934725472369'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    claim: Pinned 1.18.0 Balance raid build decodes to Balance 35 / Restoration 13 + 3 flex (Guidance of the Dream or Reflection);
+      the 1.18.0 BoAT 5/5 clips to 3/3 in 1.18.1
+  - id: '1485212531613241375'
+    era: post-1.18.1
+    agreement: single source
+    claim: Post-1.18.1 Balance build decodes to 37/0/14 with BoAT 3/3 and Owlkin Frenzy 1/3 [[d:druid#1489737410362343484]]
+  - id: '1473297976796381358'
+    era: post-1.18.1
+    agreement: single source
+    claim: 'Post-1.18.1 leveling pick order: Imp Wrath -> Sylvan Blessing -> Natural Weapons -> Imp Moonfire -> Omen -> Moonfury
+      -> Moonglow -> 1/5 Vengeance -> Moonkin Form -> Imp Starfire -> Nature''s Grace -> BoAT -> Eclipse'
 talents:
-  build_name: Core Balance rotation build (~35-38 points Balance + ~13 Restoration for Genesis; no decoded full 60-point list
-    found)
-  build_link: null
+  build_name: Raid Balance 37/0/14 (post-1.18.1; Kangaraxxus, Micro Jackson)
+  build_link: https://talents.turtlecraft.gg/druid?points=oAaYYKFYJLDAB--FAAoAZ
+  build_link_note: Posted by Kangaraxxus [[d:druid#1485212531613241375]] and run by Micro Jackson [[d:druid#1489737410362343484]].
+    BoAT 3/3, Guidance 3/3, Owlkin 1, Reflection 1. The pinned 1.18.0 build is superseded. Validated with talent_tool.py.
   points:
+  - tree: Balance
+    talent: Improved Wrath
+    rank: 5
+    spell_id: 16818
+  - tree: Balance
+    talent: Guidance of the Dream
+    rank: 3
+    spell_id: 51425
+  - tree: Balance
+    talent: Improved Moonfire
+    rank: 2
+    spell_id: 16822
+  - tree: Balance
+    talent: Natural Weapons
+    rank: 3
+    spell_id: 45717
   - tree: Balance
     talent: Moonfury
     rank: 3
     spell_id: 16899
-    talent_id: 309
+  - tree: Balance
+    talent: Omen of Clarity
+    rank: 1
+    spell_id: 16864
+  - tree: Balance
+    talent: Nature's Reach
+    rank: 2
+    spell_id: 16820
+  - tree: Balance
+    talent: Vengeance
+    rank: 5
+    spell_id: 16913
+  - tree: Balance
+    talent: Moonglow
+    rank: 3
+    spell_id: 16847
+  - tree: Balance
+    talent: Owlkin Frenzy
+    rank: 1
+    spell_id: 45734
+  - tree: Balance
+    talent: Moonkin Form
+    rank: 1
+    spell_id: 24858
+  - tree: Balance
+    talent: Nature's Grace
+    rank: 1
+    spell_id: 16880
+  - tree: Balance
+    talent: Improved Starfire
+    rank: 3
+    spell_id: 16924
   - tree: Balance
     talent: Balance of All Things
     rank: 3
     spell_id: 51435
-    talent_id: 318
   - tree: Balance
     talent: Eclipse
     rank: 1
     spell_id: 51444
-    talent_id: 320
-  - tree: Balance
-    talent: Moonkin Form (incl. Improved)
-    rank: 2
-    spell_id: 24858
-    talent_id: 315
-  - tree: Balance
-    talent: Gale Winds or Guidance of the Dream
-    rank: 2-3 (flex, contested choice)
-    spell_id: 51441
-    talent_id: 319
+  - tree: Restoration
+    talent: Improved Mark of the Wild
+    rank: 5
+    spell_id: 17055
+  - tree: Restoration
+    talent: Subtlety
+    rank: 5
+    spell_id: 17122
   - tree: Restoration
     talent: Genesis
     rank: 3
     spell_id: 17113
-    talent_id: 291
-  - tree: unspecified
-    talent: remainder (core damage/hit/crit/range/cast-time talents, not individually named in sources)
-    rank: null
-    spell_id: null
-  leveling_order: []
-  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=druid&t=00000000300000100321--0000003
-  build_link_tortoise_note: 'Generated from the sourced points list (13 points: Balance 10, Restoration 3); the calculator
+  - tree: Restoration
+    talent: Reflection
+    rank: 1
+    spell_id: 17106
+  flex_points:
+  - Last 3 points into Guidance of the Dream or Reflection if mana sustain is an issue [[d:druid#1356852934725472369]]
+  post_1181_points:
+    build_name: Post-1.18.1 37/0/14 (BoAT 3/3, Owlkin Frenzy 1/3)
+    points:
+    - tree: Balance
+      talent: Improved Wrath
+      rank: 5
+      spell_id: 16818
+    - tree: Balance
+      talent: Guidance of the Dream
+      rank: 3
+      spell_id: 51425
+    - tree: Balance
+      talent: Improved Moonfire
+      rank: 2
+      spell_id: 16822
+    - tree: Balance
+      talent: Natural Weapons
+      rank: 3
+      spell_id: 45717
+    - tree: Balance
+      talent: Moonfury
+      rank: 3
+      spell_id: 16899
+    - tree: Balance
+      talent: Omen of Clarity
+      rank: 1
+      spell_id: 16864
+    - tree: Balance
+      talent: Nature's Reach
+      rank: 2
+      spell_id: 16820
+    - tree: Balance
+      talent: Vengeance
+      rank: 5
+      spell_id: 16913
+    - tree: Balance
+      talent: Moonglow
+      rank: 3
+      spell_id: 16847
+    - tree: Balance
+      talent: Owlkin Frenzy
+      rank: 1
+      spell_id: 45734
+    - tree: Balance
+      talent: Moonkin Form
+      rank: 1
+      spell_id: 24858
+    - tree: Balance
+      talent: Nature's Grace
+      rank: 1
+      spell_id: 16880
+    - tree: Balance
+      talent: Improved Starfire
+      rank: 3
+      spell_id: 16924
+    - tree: Balance
+      talent: Balance of All Things
+      rank: 3
+      spell_id: 51435
+    - tree: Balance
+      talent: Eclipse
+      rank: 1
+      spell_id: 51444
+    - tree: Restoration
+      talent: Improved Mark of the Wild
+      rank: 5
+      spell_id: 17055
+    - tree: Restoration
+      talent: Subtlety
+      rank: 5
+      spell_id: 17122
+    - tree: Restoration
+      talent: Genesis
+      rank: 3
+      spell_id: 17113
+    - tree: Restoration
+      talent: Reflection
+      rank: 1
+      spell_id: 17106
+  leveling_order:
+  - level: 10
+    tree: Balance
+    talent: Improved Wrath
+    rank: 1
+  - level: 11
+    tree: Balance
+    talent: Improved Wrath
+    rank: 2
+  - level: 12
+    tree: Balance
+    talent: Improved Wrath
+    rank: 3
+  - level: 13
+    tree: Balance
+    talent: Improved Wrath
+    rank: 4
+  - level: 14
+    tree: Balance
+    talent: Improved Wrath
+    rank: 5
+  - level: 15
+    tree: Balance
+    talent: Sylvan Blessing
+    rank: 1
+  - level: 16
+    tree: Balance
+    talent: Sylvan Blessing
+    rank: 2
+  - level: 17
+    tree: Balance
+    talent: Natural Weapons
+    rank: 1
+  - level: 18
+    tree: Balance
+    talent: Natural Weapons
+    rank: 2
+  - level: 19
+    tree: Balance
+    talent: Natural Weapons
+    rank: 3
+  - level: 20
+    tree: Balance
+    talent: Improved Moonfire
+    rank: 1
+  - level: 21
+    tree: Balance
+    talent: Improved Moonfire
+    rank: 2
+  - level: 22
+    tree: Balance
+    talent: Omen of Clarity
+    rank: 1
+  - level: 23
+    tree: Balance
+    talent: Moonfury
+    rank: 1
+  - level: 24
+    tree: Balance
+    talent: Moonfury
+    rank: 2
+  - level: 25
+    tree: Balance
+    talent: Moonfury
+    rank: 3
+  - level: 26
+    tree: Balance
+    talent: Moonglow
+    rank: 1
+  - level: 27
+    tree: Balance
+    talent: Moonglow
+    rank: 2
+  - level: 28
+    tree: Balance
+    talent: Moonglow
+    rank: 3
+  - level: 29
+    tree: Balance
+    talent: Vengeance
+    rank: 1
+  - level: 30
+    tree: Balance
+    talent: Moonkin Form
+    rank: 1
+  - level: 31
+    tree: Balance
+    talent: Owlkin Frenzy
+    rank: 1
+  - level: 32
+    tree: Balance
+    talent: Improved Starfire
+    rank: 1
+  - level: 33
+    tree: Balance
+    talent: Improved Starfire
+    rank: 2
+  - level: 34
+    tree: Balance
+    talent: Improved Starfire
+    rank: 3
+  - level: 35
+    tree: Balance
+    talent: Nature's Grace
+    rank: 1
+  - level: 36
+    tree: Balance
+    talent: Balance of All Things
+    rank: 1
+  - level: 37
+    tree: Balance
+    talent: Balance of All Things
+    rank: 2
+  - level: 38
+    tree: Balance
+    talent: Balance of All Things
+    rank: 3
+  - level: 39
+    tree: Balance
+    talent: Vengeance
+    rank: 2
+  - level: 40
+    tree: Balance
+    talent: Eclipse
+    rank: 1
+  - level: 41
+    tree: Balance
+    talent: Vengeance
+    rank: 3
+  - level: 42
+    tree: Balance
+    talent: Vengeance
+    rank: 4
+  - level: 43
+    tree: Balance
+    talent: Vengeance
+    rank: 5
+  - level: 44
+    tree: Balance
+    talent: Guidance of the Dream
+    rank: 1
+  - level: 45
+    tree: Balance
+    talent: Guidance of the Dream
+    rank: 2
+  - level: 46
+    tree: Balance
+    talent: Guidance of the Dream
+    rank: 3
+  - level: 47
+    tree: Balance
+    talent: Nature's Reach
+    rank: 1
+  - level: 48
+    tree: Balance
+    talent: Nature's Reach
+    rank: 2
+  - level: 49
+    tree: Restoration
+    talent: Improved Mark of the Wild
+    rank: 1
+  - level: 50
+    tree: Restoration
+    talent: Improved Mark of the Wild
+    rank: 2
+  - level: 51
+    tree: Restoration
+    talent: Improved Mark of the Wild
+    rank: 3
+  - level: 52
+    tree: Restoration
+    talent: Improved Mark of the Wild
+    rank: 4
+  - level: 53
+    tree: Restoration
+    talent: Improved Mark of the Wild
+    rank: 5
+  - level: 54
+    tree: Restoration
+    talent: Subtlety
+    rank: 1
+  - level: 55
+    tree: Restoration
+    talent: Subtlety
+    rank: 2
+  - level: 56
+    tree: Restoration
+    talent: Subtlety
+    rank: 3
+  - level: 57
+    tree: Restoration
+    talent: Subtlety
+    rank: 4
+  - level: 58
+    tree: Restoration
+    talent: Subtlety
+    rank: 5
+  - level: 59
+    tree: Restoration
+    talent: Genesis
+    rank: 1
+  - level: 60
+    tree: Restoration
+    talent: Genesis
+    rank: 2
+  build_code_b36: U0KIJHJ7L1--U0UJ
+  split: 37/0/14
+  alternative_points:
+  - build_name: 36/0/15 no Owlkin, Reflection 2 (Hotverdomme-Nord); add Owlkin 1 for Anomalus/Chess
+    note: '[[d:druid#1489737036477890580]]'
+    code: oAaYYKFYBLDAB--FAAoAa
+    split: 36/0/15
+    points:
+    - tree: Balance
+      talent: Improved Wrath
+      rank: 5
+      spell_id: 16818
+    - tree: Balance
+      talent: Guidance of the Dream
+      rank: 3
+      spell_id: 51425
+    - tree: Balance
+      talent: Improved Moonfire
+      rank: 2
+      spell_id: 16822
+    - tree: Balance
+      talent: Natural Weapons
+      rank: 3
+      spell_id: 45717
+    - tree: Balance
+      talent: Moonfury
+      rank: 3
+      spell_id: 16899
+    - tree: Balance
+      talent: Omen of Clarity
+      rank: 1
+      spell_id: 16864
+    - tree: Balance
+      talent: Nature's Reach
+      rank: 2
+      spell_id: 16820
+    - tree: Balance
+      talent: Vengeance
+      rank: 5
+      spell_id: 16913
+    - tree: Balance
+      talent: Moonglow
+      rank: 3
+      spell_id: 16847
+    - tree: Balance
+      talent: Moonkin Form
+      rank: 1
+      spell_id: 24858
+    - tree: Balance
+      talent: Nature's Grace
+      rank: 1
+      spell_id: 16880
+    - tree: Balance
+      talent: Improved Starfire
+      rank: 3
+      spell_id: 16924
+    - tree: Balance
+      talent: Balance of All Things
+      rank: 3
+      spell_id: 51435
+    - tree: Balance
+      talent: Eclipse
+      rank: 1
+      spell_id: 51444
+    - tree: Restoration
+      talent: Improved Mark of the Wild
+      rank: 5
+      spell_id: 17055
+    - tree: Restoration
+      talent: Subtlety
+      rank: 5
+      spell_id: 17122
+    - tree: Restoration
+      talent: Genesis
+      rank: 3
+      spell_id: 17113
+    - tree: Restoration
+      talent: Reflection
+      rank: 2
+      spell_id: 17107
+  leveling_order_note: Hotverdomme-Nord's order + 1 Owlkin (Micro Jackson), Eclipse at 40, Resto from 49; validated 39/0/12
+    at 60; respec to the raid build
+  leveling_order_code_tree_b64: oCaYYKFYJLDAB--FAAoAQ
+  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=druid&t=50003230312531113301--50005031
+  build_link_tortoise_note: 'Generated from the sourced points list (51 points: Balance 37, Restoration 14); the calculator
     shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
+leveling_by_bracket:
+- bracket: 1-10
+  advice: '''1-10 wrath spam''; no Bear Form until 10. Balance opens Sylvan Blessing 2/2 then Improved Wrath.'
+  sources:
+  - '[[d:druid#1359148907841458309]]'
+  - '[[d:druid#1473297976796381358]]'
+  era: mixed
+  agreement: consensus
+- bracket: 10-29
+  advice: 'Balance can hot-self and root-kite: Hibernate vs Beasts instead of roots, DoT the adds, Turtle''s pushback avoidance
+    lets you cast Wrath while hit.'
+  sources:
+  - '[[d:druid#1473297976796381358]]'
+  - '[[d:druid#1304615970706558986]]'
+  era: mixed
+  agreement: single source
+- bracket: 30-39
+  advice: Moonkin Form at 30 (20% mana cost reduction); respec at 60 is expected, so do not chase endgame talents early.
+  sources:
+  - '[[d:druid#1302038881763594301]]'
+  - '[[d:druid#1379911302243418293]]'
+  era: pre-1.18.1
+  agreement: consensus
+- bracket: 40-60
+  advice: Eclipse -> Improved Starfire -> Guidance -> Vengeance; post-1.18.1 order is Imp Wrath -> Sylvan Blessing -> Natural
+    Weapons -> Imp Moonfire -> Omen -> Moonfury -> Moonglow -> 1/5 Vengeance -> Moonkin Form -> Imp Starfire -> Nature's Grace
+    -> BoAT -> Eclipse.
+  sources:
+  - '[[d:druid#1304615970706558986]]'
+  - '[[d:druid#1473297976796381358]]'
+  era: mixed
+  agreement: single source
 stat_weights:
-  crit: high — 1% crit roughly equal to 4-5% haste (single detailed source); triple-dips via cast damage, Nature's Grace haste
-    proc, and Eclipse damage multiplier
-  haste: low relative to crit — only benefits Starfire among the four rotation spells (partially benefits Wrath via the 1.0s/0.5s
-    GCD floor per a thread correction)
-  hit: important and hard to reach from tier gear alone; full T3 set provides only ~4% spell hit
-  spell_power: baseline scaling stat, no numeric weight given (gap)
+  priority: spell hit to 16% (12-14% realistic pre-K40) > spell power (Arcane > Nature) > crit > haste (breakpoints only)
+    > Int/MP5
+  spell_power: 1
+  arcane_power: 0.53
+  nature_power: 0.47
+  spell_hit_pct: 21.45
+  spell_crit_pct: 17.52
+  haste_pct: 12.81
+  spell_penetration: 1.56
+  weights_source: Kangaraxxus sim [[d:druid#1448306290878316658]]; haste ~11 SP per 1% only at breakpoints [[d:druid#1487040847919710208]]
+  hit_note: resisted spells cannot crit or proc Eclipse [[d:druid#1487529447895732316]]
+caps:
+  spell_hit: 16% vs level-63 (Natural Weapons 3% + Emerald Blessing 1% + 12% gear) [[d:druid#1445536225845973142]] [[d:druid#1491494858106339378]]
+  practical_spell_hit: 12-14% pre-Kara40; 16% at Kara40 BiS [[d:druid#1488036287507337326]] [[d:druid#1491496511215767809]]
+  starfire_haste_breakpoint: 8% haste for a 2.5 s Starfire (from 2.6 s) [[d:druid#1486871668566790354]]
+  spell_pen: 15 (new food) matches a boss's base resistance [[d:druid#1485369517214535700]]
+rotation_single:
+- priority: 0
+  action: 'Opener: pre-cast Starfire on kill target; if Nature Eclipse -> Wrath; else Insect Swarm (fresh tank: first) ->
+    Moonfire'
+  source: '[[d:druid#1489761397007978748]] [[d:druid#1487039187285840043]]'
+- priority: 1
+  action: Moonfire
+  condition: missing on current target (BoAT Starfire crit needs it on that target)
+  source: '[[d:druid#1493631596773769358]]'
+- priority: 2
+  action: Insect Swarm
+  condition: missing on current target (Wrath mana refund)
+  source: '[[d:druid#1493631596773769358]]'
+- priority: 3
+  action: Starfire
+  condition: Arcane Eclipse active; if remaining Eclipse < Starfire cast, reapply Moonfire instead
+  source: '[[d:druid#1493886936643928205]]'
+- priority: 4
+  action: Wrath
+  condition: Nature Eclipse active; refresh Insect Swarm only in its last GCD
+  source: '[[d:druid#1493886936643928205]] [[d:druid#1455291442250387527]]'
+- priority: 5
+  action: alternate Starfire/Wrath (cast the spell that can proc the Eclipse not on cooldown)
+  condition: no Eclipse active
+  source: '[[d:druid#1487016024359436339]] [[d:druid#1403828822347878630]]'
+- priority: 6
+  action: let an in-progress cast finish
+  condition: Eclipse procs mid-cast of opposing spell
+  source: '[[d:druid#1448664156336164885]]'
+- priority: 7
+  action: Moonfire
+  condition: target ~1% HP or moving
+  source: '[[d:druid#1440382414370373714]]'
+rotation_aoe:
+- targets_min: 1
+  priority: 1
+  action: Moonfire only
+  condition: trash that dies too fast for hard casts [[d:druid#1473384082850189332]]
+- targets_min: 2
+  priority: 2
+  action: DoT targets that will live the DoT duration; Eclipse spells on them
+  condition: '[[d:druid#1490103667850874970]]'
+- targets_min: 4
+  priority: 3
+  action: pre-cast Starfire (fish Nature Eclipse) then Hurricane
+  condition: 3+ (Breaddy) / 4+ on trash (Yoshi); T3.5 3-set makes it strong [[d:druid#1456765270025834648]] [[d:druid#1493633929742123009]]
+aoe_threshold: 4
+cooldowns:
+- name: none (structural gap)
+  use_when: no burst cooldown; use trinkets on the first crit of a window [[d:druid#1369235779762655325]]
+- name: Innervate
+  use_when: self when mana is low; T3 2-piece strengthens it on others [[d:druid#1455354717159948338]]
+- name: Hurricane
+  use_when: interrupted channels still trigger the 10 s cooldown [[d:druid#1482975539810533446]]
+resource_rules:
+- Nordanaar Herbal Tea + Major Mana Potion on cooldown, Mageblood [[d:druid#1482409277535682570]]
+- 'Owlkin Frenzy: never more than 1 point [[d:druid#1483803183284355132]]'
+- Mana regen while casting caps at 100% [[d:druid#1489714380949160180]]
+- Idol swaps cost a GCD; macro swaps a ~30 s ICD [[d:druid#1488420223047696424]]
+consumables:
+- 'Elixirs stacking: Greater Nature Power, Dreamshard, Greater Arcane Elixir, Greater Arcane Power, Dreamtonic [[d:druid#1426348084497092618]]'
+- Brilliant Wizard Oil; spell-penetration food [[d:druid#1485369517214535700]]
+- Juju Flurry + Quickness Potion for the 2.5 s Starfire breakpoint [[d:druid#1486872217001394266]]
+- Idol of Ebb and Flow BiS (+2.9-3.4%) > Moon > Equilibrium > Acidity [[d:druid#1488415746592604160]]
+- Scythe of Elune BiS by far [[d:druid#1467953501370978476]]; else ToEP, ZHC, Neltharion's Tear [[d:druid#1487159142929010870]]
+mistakes_to_avoid:
+- More than 1 point in Owlkin Frenzy [[d:druid#1483803183284355132]]
+- Re-DoTing mid-Eclipse instead of its last GCD [[d:druid#1455291442250387527]]
+- Letting Moonfire drop off the current target [[d:druid#1485023364883022046]]
+- Interrupting a cast when an Eclipse procs mid-cast [[d:druid#1448664156336164885]]
+- Starfire crit on a fresh tank [[d:druid#1341104557455052900]]
+- DoTing fast trash; Hurricane on 2 mobs [[d:druid#1490102392148983931]]
+- Haste between breakpoints [[d:druid#1486872217001394266]]
+- Casting the 180% armor Moonkin Form after a respec [[d:druid#1491493737711276162]]
+supersedes:
+- claim: Balance of All Things gives Starfire -0.2/0.4/0.6 s cast time (2026-01-26 revision)
+  verdict: SUPERSEDED 2026-03-19 by +3/6/9% crit vs Moonfire'd targets; the cast-time version is stale
+  sources:
+  - '[[d:druid#1465349903348924598]]'
+- claim: 1.18.0 Eclipse proc chances 30%/50%
+  verdict: '1.18.1: Wrath 40% / Starfire 60%'
+  sources:
+  - '[[d:druid#1484368183593799711]]'
+- claim: Balance ~15% DPS nerf (forum single source, uncorroborated)
+  verdict: Sims support a real loss (1549 -> 1454 peak) and 'worst proper DPS spec' sentiment, but the numeric magnitude is
+    still not log-verified and stays contested
+  sources:
+  - '[[d:druid#1464380870935969944]]'
+  - '[[d:druid#1486095894875996311]]'
+gaps:
+- No numeric Balance spell-power stat weight (only the hit/crit/haste ordering)
+- No pre-raid BiS text list (external sheets only)
+- Exact post-1.18.1 Eclipse damage-bonus formula not restated
 stat_priority:
 - spell-crit
 - spell-hit
@@ -119,49 +811,3 @@ stat_priority_note: Crit is rated far above haste — "1% crit equal to around 4
   Starfire. Hit is hard to cap from set gear alone (the nine-piece T3 set carries only 4% spell hit), and several top players
   deliberately trade a few percent of hit for crit. Spell power is the baseline scaling stat with no numeric weight given.
   Item design loads Balance gear with haste, which the source calls a mismatch.
-caps:
-  spell_hit_from_t3: ~4% (full 9-piece T3 set) — cap requires specific non-set items (e.g. Loatheb's/Regalia staff)
-  spell_penetration: not found in sources (gap)
-rotation_single:
-- priority: 1
-  action: Moonfire
-  condition: apply/maintain, 18s duration
-- priority: 2
-  action: Insect Swarm
-  condition: apply/maintain, 18s duration
-- priority: 3
-  action: Wrath
-  condition: chain-cast while fishing for Lunar Eclipse proc (40% chance per 1.18.1) or spending an active Lunar Eclipse buff
-- priority: 4
-  action: Starfire
-  condition: chain-cast while fishing for Nature Eclipse proc (60% chance per 1.18.1) or spending an active Nature Eclipse
-    buff
-- priority: 5
-  action: cancel current cast and switch spell
-  condition: an Eclipse proc lands mid-cast on the wrong spell (stopcasting is a real DPS gain despite feeling bad)
-rotation_aoe:
-- targets_min: 3
-  priority: 1
-  action: Hurricane
-  condition: channeled AoE; weak vs fast-dying trash since setup often doesn't pay off before mobs die
-aoe_threshold: 3
-cooldowns:
-- name: none (structural gap)
-  use_when: Balance has no on-demand burst cooldown, repeatedly cited as the spec's biggest structural weakness vs other casters
-resource_rules:
-- Sylvan Blessing (100% mana regen while casting for 15s after a kill) helps while leveling/questing
-- Innervate generally given to a healer rather than self-used in raids, per general Druid community convention (not independently
-  sourced for Balance specifically)
-consumables:
-- Major Mana Potion
-- Nordanaar Herbal Tea
-- Dark Rune
-- Innervate
-- Nightfin Soup
-- Mageblood Potion
-mistakes_to_avoid:
-- Standing still to hard-cast Starfire in PvP instead of dot-kiting
-- Letting a cast finish after an Eclipse proc lands mid-cast instead of cancelling and switching
-- Gearing pure spell-power/haste while ignoring the crit-over-haste relationship and thin hit budget
-- Treating trash-pack Moonfire/Hurricane as free AoE
-- Assuming DoT ticks or Hurricane proc on-hit trinkets (Scythe, Clackora, Sigil, Fortune-stat items) — they don't

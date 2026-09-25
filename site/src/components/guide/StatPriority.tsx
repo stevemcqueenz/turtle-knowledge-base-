@@ -1,5 +1,6 @@
 import { humanizeKey, isPlainObject } from '../../lib/site';
 import { describeValue, sentenceCase } from './util';
+import { CitedText } from '../CitedText';
 
 export interface StatRow {
   name: string;
@@ -46,7 +47,11 @@ export function StatPriority({ rows, color, footnote }: { rows: StatRow[]; color
             </span>
             <span className="min-w-0 flex-1">
               <span className="block text-[15px] font-bold leading-snug">{row.name}</span>
-              {row.note ? <span className="mt-0.5 block text-sm text-muted">{row.note}</span> : null}
+              {row.note ? (
+                <span className="mt-0.5 block text-sm text-muted">
+                  <CitedText text={row.note} />
+                </span>
+              ) : null}
             </span>
           </li>
         ))}

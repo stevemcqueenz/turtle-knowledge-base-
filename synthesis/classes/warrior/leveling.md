@@ -106,6 +106,39 @@ Weapons: "main hand weapons of 2.8+ speed" [armsgirl (player), 2025-08-29](https
 - Copying pre-CC2 talent lists (Xudo p=28808, Kobemaru, Wilsonsds) into the CC2/CC3 tree.
 - Forgetting Hamstring on runners ("besides forgetting to Hamstring things that run off and come back with friends there's not a lot to go wrong" [Berettadin (player), 2025-05-10](https://forum.turtlecraft.gg/viewtopic.php?p=130489#p130489)).
 
+## Discord findings (2025–2026) — leveling per bracket
+
+`#warrior` leveling slices (2021-02 .. 2026-05). Citations `[[d:warrior#id]]` resolve in `structured/discord/evidence-warrior.jsonl`. Eras: **pre-1.18.1** (< 2025-10-03), **1.18.1-announced-pre-release** (2025-10-03 .. 2026-03-19), **post-1.18.1** (≥ 2026-03-20).
+
+### Spec consensus
+
+- **Fury is the best solo leveling spec post-1.18.1; Arms if you have a healer** [[d:warrior#1484971008153747569]] (consensus). "Fury→Arms swap at 30" is the no-respec route [[d:warrior#1486086625799835798]]; a slightly different shape is "Fury (Cruelty) to ~30, then Arms with a 2H, DW when Blood Drinker is reachable" [[d:warrior#1486645720646942790]].
+- **Arms 10-60 is still "standard"; Fury only needs Cruelty pre-30** [[d:warrior#1492166484498190438]] (consensus). This is the same argument as the forum file, now re-stated post-1.18.1.
+- **Prot is a viable dungeon-leveling tank from 30 (Shield Slam) but slower solo**, and **no shield/spec is needed to tank leveling dungeons** — swap to shield + 1H when damage spikes [[d:warrior#1429822325510897794]], [[d:warrior#1450677084732129410]], [[d:warrior#1457458781205168320]], [[d:warrior#1455910106918158506]].
+
+### Per-bracket advice
+
+| Bracket | Advice | Citation | Era | Agreement |
+|---|---|---|---|---|
+| 1-10 | Hardest stretch; on max-difficulty Hardcore 1-10 is near-impossible and becomes manageable at 10 | [[d:warrior#1485774955764383857]], [[d:warrior#1484456303463239790]] | post-1.18.1 | consensus |
+| 10-19 | Opener **Demo Shout → Sunder → Execute**; Demo Shout cuts mob damage ~25%; stam/spirit gear; Hamstring kiting; one mob at a time | [[d:warrior#1493937763802677289]], [[d:warrior#1464992683176230932]] | post-1.18.1 | single/consensus |
+| 20-29 | Fury to 30; DW off-hand gets **+10% hit** from Dual Wield Specialization but off-hand misses still hurt rage gen "heavily", so 2H is smoother | [[d:warrior#1428321174961524737]], [[d:warrior#1430007342480490506]] | post-1.18.1 | single source |
+| 30-39 | **Arms respec at 30 (Sweeping Strikes)**; Whirlwind Axe at 30; Prot picks up at Shield Slam; Sweeping + WW is the dungeon pull | [[d:warrior#1427988056673095852]], [[d:warrior#1493939126385246208]] | 1.18.1-announced-pre-release | single source |
+| 40-49 | Mortal Strike/Bloodthirst at 40; weapons to chase: Whirlwind Axe, Diamond Flask | [[d:warrior#1485977686001188864]], [[d:warrior#1493937763802677289]] | post-1.18.1 | single source |
+| 50-60 | Prot respec if dungeon-spamming; past 40 Arms tanking in a shield takes too much damage | [[d:warrior#1429822325510897794]] | 1.18.1-announced-pre-release | single source |
+
+### Leveling stat priority and builds
+
+- **Leveling stat priority: `stam > str >= spirit > agi`** (single source, post-1.18.1) [[d:warrior#1459283546194575496]]; Stamina + Spirit to reduce downtime [[d:warrior#1464992683176230932]]. This supports the forum's stamina/strength/spirit framing.
+- **Virasan's pinned, ordered Arms leveling build** (2025-04-24): Cruelty 5, Improved Rend 2, Tactical Mastery 3, Improved Thunder Clap 1, Improved Charge 2, Tactical Mastery 5, Improved Overpower 2, Deep Wounds 3, Two-Handed Weapon Specialization 3, Impale 2, Sweeping Strikes 1, Master Strike 1, Master of Arms 5, Improved Slam 2, Improved Thunder Clap 2, Mortal Strike 1, Unbridled Wrath 5, Improved Shouts 5, Enrage 5 [[d:warrior#1364931945624240191]] (single source; ranks sum to 52 vs 51, one stale line). A second full route alongside the forum's armsgirl p=157920 route.
+- **VeganCourage's Hardcore Fury-to-60 build** `FQLAIYD-FoAAJYAoZBVAB-` [[d:warrior#1469876907020652688]] and casey's early/questing build [[d:warrior#1493937763802677289]].
+- **DW leveling hit**: off-hand gets +10% hit from DW Spec [[d:warrior#1428321174961524737]] but off-hand misses still hurt rage generation "heavily" [[d:warrior#1430007342480490506]].
+- **Leveling professions (consensus, 1.18.1-announced-pre-release)**: Engineering best (dummies + craftable helms, especially Hardcore); Mining→Eng route; Blacksmithing + Mining second combat pick (sharpening stones); Alchemy/Herbalism for money; **First Aid and Cooking near-mandatory** [[d:warrior#1459283546194575496]], [[d:warrior#1433096959123783680]], [[d:warrior#1425089807780151359]], [[d:warrior#1442813423657423002]], [[d:warrior#1442813275652755457]].
+
+### Still unresolved
+
+No source gives respec gold costs or exact levels per talent (same gap as the forum file). The Virasan route rank-total mismatch (52 vs 51) is flagged, not silently corrected. The 1.18.2 rework list (if it ever ships) invalidates these routes [[d:warrior#1486524065144373248]].
+
 ## Sources
 
 | Source | Authority | Date | Kit | Mark |

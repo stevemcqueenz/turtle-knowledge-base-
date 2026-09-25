@@ -14,6 +14,7 @@ const KIND_LABEL: Record<SearchItem['kind'], string> = {
   class: 'Class',
   playbook: 'Playbook',
   leveling: 'Leveling',
+  instance: 'Instance',
   glossary: 'Glossary',
   page: 'Page',
 };

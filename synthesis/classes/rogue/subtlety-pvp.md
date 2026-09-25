@@ -76,6 +76,57 @@ Consumables: Free Action Potion, Insignia, Restorative Potion, Catseye Elixir, T
 - Playing a Noxious/zug build and expecting control: "They're super predictable, they have no means of locking me down" [Crake (player), 2025-10-07](https://forum.turtlecraft.gg/viewtopic.php?p=154788#p154788).
 - Assuming stealth hides you at short range (detection jank).
 
+## Discord findings (2025–2026)
+
+`#rogue` supplies full decoded PvP allocations (the forum YAML had only named talents), the post-1.18.1 PvP gear economy, the channel-local race order and fresh matchup verdicts. `#pvp-general` is cross-read but ends 2025-11-01, so all cross-channel matchup material is pre-1.18.1. Citations `[[d:rogue#id]]` / `[[d:pvp-general#id]]` resolve in `structured/discord/evidence-rogue.jsonl` / `evidence-pvp-general.jsonl`. Eras: **pre-1.18.1** (< 2025-10-03), **1.18.1-announced-pre-release** (2025-10-03 .. 2026-03-19), **post-1.18.1** (≥ 2026-03-20).
+
+### Decoded builds and the third build family
+
+- **Hemo/Prep 11/5/35** (1.18.0-era, "My PvP talents") [[d:rogue#1484641315361915042]], **Hemo/Cold Blood 21/8/22** (post-1.18.1, rank-14 swords) [[d:rogue#1489700090208583730]], **Assa/Sub fast-weapon poison 23/0/28** (post-1.18.1, Envenom + Prep) [[d:rogue#1493351003238694942]], **Noxious poison 34/0/17** [[d:rogue#1471530033066807332]], [[d:rogue#1456677515480268964]], **Mace PvP 0/20/31** (unendorsed) [[d:rogue#1485084316349497555]] and the no-Noxious **30/0/21** [[d:rogue#1484537921900908738]]. The **poison-hybrid family is the third leg of the post-1.18.1 meta** and has no forum equivalent.
+- Nelson's **hemo/Prep HaT** description: HaT > Vigor, **Serrated Blades useless in PvP**, Ghostly Strike a cheaper/stronger Hemo, Dirty Deeds + faster Vanish/Blind, Alcor's Sunrazor off-hand for plate [[d:rogue#1487820844712591674]], [[d:rogue#1487827015338954802]].
+- **Post-1.18.1 opener rule**: always open **Cheap Shot**, not Ambush, even on dagger rogues; crit-reduction gear is everywhere and Backstab needs perfect position plus energy [[d:rogue#1493332911406055564]], [[d:rogue#1484650626221867089]], [[d:rogue#1491378008232034364]]. **Backstab is not a PvP spec** [[d:rogue#1487345645902893119]].
+
+### Post-1.18.1 PvP gear economy and races
+
+- **Crit reduction ("resilience")**: AB 3/3 (12%) + 2-piece Arena (3%) + Arena ring (3%) + Belt Buckle (3%) = **21% crit reduction**, dropping 4-piece Darkmantle [[d:rogue#1465337336270426224]]; it reduces DoT damage [[d:rogue#1491654819138633758]]. **~30 nature resistance** on the new PvP set counters Instant Poison [[d:rogue#1487419470443057284]], [[d:rogue#1487459320093212812]]; the sets have **no agility** (STR+stam) [[d:rogue#1491338903439937608]]; new rewards are K40 ilvl [[d:rogue#1484635445781598238]].
+- **Weapons**: 1.8-speed PvP sword called sub-BiS for Subtlety [[d:rogue#1487857538194997330]]; the 2.0-speed PvP dagger is poison-unfriendly [[d:rogue#1487314461302984735]]; Alcor's is the plate off-hand for hemo/Prep [[d:rogue#1487820844712591674]].
+- **Race order**: Alliance Dwarf 5/5 (Stoneform clears a rival rogue's Blind — Blind is a poison) and Gnome 5/5 (Escape Artist), Night Elf/Human 3/5, High Elf 0/5; Horde Orc 4/5, Undead 4/5, Goblin 4/5, Troll 2/5 [[d:rogue#1360971069737140415]], [[d:rogue#1360971823780462692]], [[d:rogue#1361181395459899634]] (single source; corroborated [[d:rogue#1376712398202998886]], [[d:rogue#1435632812345524244]]). Human Perception is on the GCD, a recurring complaint [[d:rogue#1450514651313082689]].
+- **Vanish/stealth tech**: Vanish = 1 s spell immunity + "+54 real levels of stealth" [[d:rogue#1479856314137186385]]; Night Elf in full +stealth gear is effectively level-65.5 [[d:rogue#1401580440078389329]], [[d:rogue#1413550321296212028]]; Improved Sap is overrated in BGs (65 energy, telegraphs you) [[d:rogue#1443806889287618723]]; Sap → regen-gear swap → Cannibalize reset [[d:rogue#1438212303572172870]].
+- **Consumables/engineering**: FAPs + Crunchwrap Supremes [[d:rogue#1464363487374606487]]; Engineering recommended, gnomish chicken the only offensive DPS gadget [[d:rogue#1465020246170669089]], [[d:rogue#1470780105117667512]].
+
+### Post-1.18.1 matchup verdicts (forum matchups are mostly pre-1.18.1)
+
+| Matchup | Verdict | Citation |
+|---|---|---|
+| Warrior | flips to contested/losing at full PvP gear | [[d:rogue#1491339462997708932]], [[d:rogue#1491646337018499214]] |
+| Feral druid | "cannot win without Assassination" | [[d:rogue#1417742111683645543]], [[d:rogue#1417181852879290558]] |
+| Paladin | post-1.18.1 Sub claims to "easily control" them with cooldowns up (contested) | [[d:rogue#1489352355693592637]] |
+| Shaman | contested; full Cheap Shot/Nox/Gouge/Kidney/Tea/Blind/Vanish chain documented | [[d:rogue#1492644310234038463]], [[d:rogue#1492634440856375468]] |
+| Hunter | losing; naxx survival hunters among the hardest | [[d:rogue#1419668962408661117]], [[d:pvp-general#1336091851278520433]] |
+| Warlock | losing, worse with gear; Soul Link hard counter | [[d:rogue#1436599924669153381]], [[d:pvp-general#1138484964078399500]] |
+| Priest | Undead wins hard via WotF; without it, shield+DoTs break Vanish | [[d:rogue#1417785062346330112]], [[d:pvp-general#1389608692554535093]] |
+| Mage | contested (historically losing, but dagger rogues expected to "smoke") | [[d:rogue#1403976474817462482]], [[d:pvp-general#1278955218364530803]] |
+
+**Post-1.18.1 BG role**: "my main utility is to sap a healer pre-fight and interrupt another with cheap shot. Vanish, cheap shot again and die. Hard to find any BG leaderbord with a rogue and a positive KD-ratio" [[d:rogue#1490678912118948052]] (single source, contested by the "nox barely changed" camp). AV/WSG objective roles are unchanged and re-stated [[d:rogue#1441309314051735603]], [[d:rogue#1434482676592803971]], [[d:rogue#1447082390802661386]].
+
+### Contested / flags
+
+- The forum's Supremacy question gets the Discord arc: "broken" during 1.18.0 [[d:rogue#1496294795495211098]], "garbage now" after 1.18.1 [[d:rogue#1485669583720415455]] — keep contested.
+- The pre-1.18.1 Dissolvent-vs-Instant argument is moot (Instant-only post-patch) but worth keeping as the reason the change landed [[d:rogue#1484489992918139020]], [[d:rogue#1484495024509943980]].
+- Two-build Subtlety split pre-1.18 (Hemo/Cold Blood for duels, Ambush/Backstab for BGs) is confirmed unchanged [[d:rogue#1087146797102792764]], [[d:rogue#1093022275034431568]].
+
+| Topic | Citation | Era | Agreement |
+|---|---|---|---|
+| Decoded Hemo/Prep 11/5/35 | [[d:rogue#1484641315361915042]] | post-1.18.1 | single source |
+| Decoded Hemo/Cold Blood 21/8/22 | [[d:rogue#1489700090208583730]] | post-1.18.1 | single source |
+| Decoded Assa/Sub 23/0/28 | [[d:rogue#1493351003238694942]] | post-1.18.1 | single source |
+| Always open Cheap Shot | [[d:rogue#1493332911406055564]] | post-1.18.1 | consensus |
+| 21% crit-reduction set | [[d:rogue#1465337336270426224]] | post-1.18.1 | single source |
+| ~30 nature-resistance set | [[d:rogue#1487419470443057284]] | post-1.18.1 | consensus |
+| Race order | [[d:rogue#1360971069737140415]] | pre-1.18.1 | single source |
+| Post-1.18.1 matchup verdicts | [[d:rogue#1491339462997708932]], [[d:rogue#1417742111683645543]] | post-1.18.1 | contested |
+| BG role post-patch | [[d:rogue#1490678912118948052]] | post-1.18.1 | contested |
+
 ## Sources
 
 | Source | Authority | Date / era | Used for | Agreement |

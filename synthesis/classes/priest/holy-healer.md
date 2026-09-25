@@ -34,7 +34,7 @@ Player verdict on the new Lightwell is **contested**: healers-only design ("Now 
 
 ## Talent build
 
-**No post-1.18.1 source publishes a full Holy healing allocation.** The last complete descriptions are pre-1.18.1 and reference Proclaim Champion (removed). Below: (a) the pre-1.18.1 consensus shape, (b) a reconstruction for 1.18.1 built only from talents the sources name, with the unassigned points flagged.
+**The post-1.18.1 raid allocation is 14/37/0** (Discord, two independent screenshots): Spiritual Guidance cut to 1-2/5 and the points moved into Holy Reach + Reservoir of Light, keeping Ascendance. The pre-1.18.1 consensus shape (17/34/0) is kept below for reference and is **superseded for 1.18.1**. Below: (a) the pre-1.18.1 builds, (b) the 17/34/0 reconstruction (superseded), (c) the post-1.18.1 Discord build.
 
 ### (a) Pre-1.18.1 builds (Langorn, Hawkbutt, Sharmaine)
 
@@ -70,7 +70,31 @@ Marked **[cited]** when a source names the talent for a healer, **[fill]** when 
 | Holy | Ascendance | 1/1 | [fill] replaces Proclaim Champion (staff 1.18.1); no player evaluation found |
 | Holy | Book of Prayer / Empowered Recovery / Reservoir of Light | 0-3 | [fill] new/changed in 1.18.1; no player allocation found. Use the Holy Reach / Holy Nova / Silent Resolve points here if you commit to Lightwell |
 
-Build links: Langorn's images only; no talents.turtlecraft.gg export for a Holy raid build exists in the forum. **Patch validity**: the shape is pre-1.18.1; the capstone and row 4-5 changed in 1.18.1 → `valid_for_1181: unknown`.
+### (c) Post-1.18.1 raid build — 14/37/0 (Discord)
+
+Two independent screenshots of the same shape, both after the 1.18.1 notes landed — [[d:priest#1484246385447403711]] (Snackz, header reads `PRIEST 14 / 37 / 0`), [[d:priest#1484637943099424838]] and [[d:priest#1484950685589045288]] (Kabooble, "holy talents for raiding - worth dropping some points from spirit guidance to get utility elsewhere" / "I'm all in on Holy Reach to support PoH usage").
+
+| Tree | Talent | Points |
+|---|---|---|
+| Discipline (14) | Mental Agility 5/5, Unbreakable Will 3/5, Imp. PW:Fortitude 2/2, Inner Focus 1/1, Meditation 3/3 | 14 |
+| Holy (37) | Imp. Renew 3/3, Holy Focus 2/2, Divinity 5/5, Divine Fury 5/5, Holy Reach 1-2/2, Inspiration 3/3, Empowered Recovery 1/2, Imp. Healing 3/3, Spiritual Guidance 1-2/5, Book of Prayer 2/2, Spirit of Redemption 1/1, Reservoir of Light 3/3, Spiritual Healing 5/5, Ascendance 1/1 | 37 |
+
+Snackz: "With the book of prayer addition, it makes cycling between renew and other heals a significantly better option ... with people not having to click lightwell anymore, I think it will get exponentially better; becomes a great raid heal ability after large bursts of damage." Era: post-1.18.1. Agreement: single source (two screenshots, same shape). Machine-readable twin: `structured/classes/priest/holy-healer.yaml`.
+
+### Tested post-1.18.1 healer mechanics (Discord)
+
+Era: post-1.18.1 unless a line says otherwise. Agreement: consensus on mechanics; contested on Lightwell value.
+
+- **Book of Prayer refunds across spell *types*, not ranks:** "does NOT work with different ranks of the same spell, but DOES work with Heal vs Greater Heal" — Bluefear [[d:priest#1484561705487958016]]. Cycle Renew -> Heal -> Flash Heal / PoH, not GH -> GH.
+- **Reservoir of Light 3/3 ≈ 4 000 healing per boss fight, "much better than 3% crit"** — Bluefear [[d:priest#1484570386963103745]].
+- **Empowered Recovery: 1 point is enough** (the extra Renew tick); the 3% does not affect Renew itself — Greendam [[d:priest#1484570397427892455]].
+- **Lightwell does not trigger from Prayer of Healing** — Bluefear [[d:priest#1484247243883286711]].
+- **Lightwell value is contested:** Snackz positive [[d:priest#1484246385447403711]] vs tomscorer "not worth 3 talent points" [[d:priest#1484527718639861891]].
+- **Assignment-based priority** (tank: Renew up + Greater Heal rank 1 pre-heal; group: Renews/Shields/GH rank 1) and the parse-max "snipe all heals with Flash Heal" alternative — SlekkeLekke [[d:priest#1428292872272089098]].
+- **Post-1.18.1 downrank example:** "Just use Heal R3, and follow up with a Renew" — Istrefi [[d:priest#1484516862879465614]].
+- **Fresh-60 stat line:** healing power first, then mana regen (mp5, int, spirit, regen while casting) — [[d:priest#1324338857688436816]].
+
+Build links: Langorn's images only; no talents.turtlecraft.gg export for a Holy raid build exists in the forum. **Patch validity**: the (b) shape is pre-1.18.1; the capstone and row 4-5 changed in 1.18.1 and the post-release build is (c) above.
 
 Dungeon variant: not distinct; "Mostly it doesn't matter. You can be fully specced into the Shadow tree and still heal fine in dungeons" — [Hawkbutt (player), 2025-03-31](https://forum.turtlecraft.gg/viewtopic.php?p=124792#p124792) (consensus with Ishilu 2023).
 
@@ -87,6 +111,8 @@ Dungeon variant: not distinct; "Mostly it doesn't matter. You can be fully specc
 ## Single-target healing priority (Langorn; downrank rules from Sharmaine)
 
 Target priority: "You ... The tank ... The other heals ... DPS" — [Langorn (guide writer), 2025-09-19](https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325).
+
+Discord's assignment model (SlekkeLekke, [[d:priest#1428292872272089098]]): heal your **assigned tank** (keep Renew up, pre-heal with Greater Heal rank 1) or your **assigned group** (Renew on ticking fights, Shield to save/precast on casters for pushback, Greater Heal rank 1 to steady-heal, Flash if needed). "The optimal way to heal is to get assignments in your guild."
 
 Spell selection, ordered:
 1. **Target about to die (critical HP, no time for a 2.5 s cast)** → `Power Word: Shield` (max rank) first, then heal. "don't bother trying to hard cast a healing spell. Start with a shield to prevent him from dying and then you can heal safely" (Langorn). Exception: warrior/bear tanks (see Role strategy).
@@ -153,6 +179,8 @@ Also: "Remains of the Lost (60809), Loop of the Lost (60798)" 5%-meditation piec
 
 Raid sets: T2 8/8 "for the Rank 5 Renew proc on Greater Heal and with the Hazzrah Charm from ZG Madness event our greatest throughput with trinket up is Greater Heal" — [Hawkbutt (player), 2025-04-03](https://forum.turtlecraft.gg/viewtopic.php?p=125153#p125153). T3.5 healer set is **contested**: "3-Piece 'Regen' Bonus: Pay 300+ mana to get 48 mana back ... 5-Piece Flash Heal 'Buff' ... We're forced to wear T2 3-piece + junk Naxx rings/necks" — [Solaire0726 (player), 2025-08-01](https://forum.turtlecraft.gg/viewtopic.php?p=142435#p142435) vs Maxitaxii (above). Holy T2.5 pre-1.18.1 bonuses were called decoration ([Astrallizard (player), 2025-11-09](https://forum.turtlecraft.gg/viewtopic.php?p=156737#p156737)); reworked in 1.18.1 (see above). Atiesh (Priest) now 150 spellpower — [Dragunovi (staff), 2024-10-30](https://forum.turtlecraft.gg/viewtopic.php?p=105276#p105276).
 
+**Discord pre-raid substitutions** over the classic WoWhead list (IllegallyParkedFrog): Cowl of Mivax, Robes of the Exalted, Boots of the Holy Mentor, Extremely Well Crafted Cuffs, Deepearth Signet, Consecrated Caduceus, **Redemption** staff [[d:priest#1388961040250703903]]. **Healer raid BiS** (30): 3pc T2 (bracers/gloves/boots) + 4pc T3 (head/shoulders/chest/ring) + Grasp of the Old God + Empowered Leggings + Eye of the Dead/Rejuv/Breath + KT mace/Saph offhand/Raz wand; "when you bring 10 healers just go 8T3 and spam flash" [[d:priest#1325212797596078254]], [[d:priest#1325215890974969968]]. **Staff of the Dreamer > Benediction / Rod of Resuscitation / AQ20 exalted** — HolyScheiss [[d:priest#1380839856040837210]]. Vanilla/classic pre-raid BiS lists are "almost completely wrong for Turtle" (Turtle adds +hit to leveling gear), and pre-raid farming is not worth over-investing on a fully-progressed server [[d:priest#1324445705611378792]], [[d:priest#1330954147075199027]], [[d:priest#1335954787279175690]].
+
 Enchants (Langorn): head/legs Arcanum of Focus (+12 healing, 18330); feet Enchanted Armor Kit (+9 healing, 61183); chest +4 stats or armor kit; hands +30 healing; weapon +55 healing; bracers +23 healing; rings/neck Beautiful Diamond Gemstone (+12 healing, 56010). Minimum: weapon, hands, bracers.
 
 Consumables (Langorn + Sharmaine): Major Mana Potion (13444) mandatory; Tea with Sugar (15723) / Nordanaar Herbal Tea (61675); Dark Rune (20520) / Demonic Rune (12662) share CD with tea; Brilliant Mana Oil (20748); Empowering Herbal Salad (83309, rare) or Nightfin/Sagefish; Flask of Distilled Wisdom (13511); Spirit of Zanza (20079, ZG revered); Mageblood Potion (20007).
@@ -180,6 +208,7 @@ Consumables (Langorn + Sharmaine): Major Mana Potion (13444) mandatory; Tea with
 | [Jamey](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071) | staff | 2026-01-23 (+2026-01-26, 2026-03-19 revisions) | announced | 1.18.1 changes | authoritative |
 | [Dragunovi](https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272) | staff | 2026-02-15 | announced | T2.5 set bonuses | authoritative |
 | [Dragunovi](https://forum.turtlecraft.gg/viewtopic.php?p=102970#p102970) | staff | 2024-10-12 | pre-1.18.1 | CC2 Holy/Disc redesign | authoritative |
+| Discord `#priest` post-1.18.1 tests (Snackz, Kabooble, Bluefear, Greendam, SlekkeLekke, Istrefi) | players | 2026-01..04 | post-1.18.1 | 14/37/0 build, Book of Prayer, Reservoir of Light, Empowered Recovery, Lightwell, assignment healing | consensus on mechanics; single source on the build; contested on Lightwell value |
 | Lightwell critics: [Zvyrhol](https://forum.turtlecraft.gg/viewtopic.php?p=166149#p166149), [Fizuzfil](https://forum.turtlecraft.gg/viewtopic.php?p=172701#p172701), [Ayesha](https://forum.turtlecraft.gg/viewtopic.php?p=172700#p172700) | player | 2026-01..04 | announced/post | 1.18.1 reception | contested |
 | Addons: [Evilko](https://forum.turtlecraft.gg/viewtopic.php?p=125873#p125873), [SvenS2](https://forum.turtlecraft.gg/viewtopic.php?p=134832#p134832), [Thol](https://forum.turtlecraft.gg/viewtopic.php?p=26033#p26033) | player | 2022-2025 | pre-1.18.1 | UI | consensus (several options) |
 

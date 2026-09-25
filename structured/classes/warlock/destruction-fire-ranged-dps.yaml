@@ -1,65 +1,268 @@
 class: Warlock
-spec: "Destruction (Fire)"
+spec: Destruction (Fire)
 role: ranged-dps
 sources:
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=107778#p107778", author: LastyK, authority: player, date: "2024-11-13"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=174180#p174180", author: Momohomo, authority: player, date: "2026-04-06"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=108198#p108198", author: Jervy, authority: player, date: "2024-11-16"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=169207#p169207", author: Spritzbube, authority: player, date: "2026-02-22"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=105313#p105313", author: Xudo, authority: player, date: "2024-10-30"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=102973#p102973", author: Dragunovi, authority: staff, date: "2024-10-12"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460", author: Jamey, authority: staff, date: "2024-12-20"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159", author: Jamey, authority: staff, date: "2025-07-25"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071", author: Jamey, authority: staff, date: "2026-01-23"}
-  - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=141827#p141827", author: Kord2998, authority: player, date: "2025-07-28"}
-agreement: contested
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=107778#p107778
+  author: LastyK
+  authority: player
+  date: '2024-11-13'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=174180#p174180
+  author: Momohomo
+  authority: player
+  date: '2026-04-06'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=108198#p108198
+  author: Jervy
+  authority: player
+  date: '2024-11-16'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=169207#p169207
+  author: Spritzbube
+  authority: player
+  date: '2026-02-22'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=105313#p105313
+  author: Xudo
+  authority: player
+  date: '2024-10-30'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=102973#p102973
+  author: Dragunovi
+  authority: staff
+  date: '2024-10-12'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460
+  author: Jamey
+  authority: staff
+  date: '2024-12-20'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159
+  author: Jamey
+  authority: staff
+  date: '2025-07-25'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071
+  author: Jamey
+  authority: staff
+  date: '2026-01-23'
+- url: https://forum.turtlecraft.gg/viewtopic.php?p=141827#p141827
+  author: Kord2998
+  authority: player
+  date: '2025-07-28'
+- cite: '[[d:warlock#1484229282854342789]]'
+  author: Afraido
+  authority: player
+  date: '2026-03-19'
+  era: 1.18.1-announced-pre-release
+  agreement: consensus
+- cite: '[[d:warlock#1493286788775805198]]'
+  author: Fauxnetic
+  authority: player
+  date: '2026-04-13'
+  era: post-1.18.1
+  agreement: contested
+- cite: '[[d:warlock#1496147940673196062]]'
+  author: Twospooky
+  authority: player
+  date: '2026-04-21'
+  era: post-1.18.1
+  agreement: single source
+agreement: contested (raid standing); consensus (rotation, fire-immune exclusions)
 patch_validity:
-  written_for: "CC2/CC3; 1.18.1 Searing Pain and Hellfire revisions applied"
+  written_for: 1.18.1 live (2026-03-20)
   valid_for_1181: true
-  notes: "1.18.1 buffed Searing Pain (2.0-s cast, 57% SP, +~20% base dmg by 2026-03-19) and Hellfire (6.66% SP/tick, cheap per-second mana); no post-1.18.1 raid re-test exists to confirm whether this closed the gap to Affliction."
+  notes: Searing Pain 2.0 s base (1.5 s with Bane), 57% SP, 1 s GCD, +20% base damage; Hellfire 6.66% SP per tick. Fire is
+    fine after BWL but behind Affliction/Demonology [[d:warlock#1493286788775805198]].
 talents:
-  build_name: "Firelock (no full 51-point list given by any source; only talent-calculator links, one pre-CC2-live)"
-  points: []
+  build_name: Fire 0/11/40 (Afraido pinned, 2026-03-19; Intensity over Destructive Reach)
+  points:
+  - tree: Demonology
+    talent: Demonic Embrace
+    rank: 5
+    spell_id: 18701
+  - tree: Demonology
+    talent: Soul Entrapment
+    rank: 3
+    spell_id: 51708
+  - tree: Demonology
+    talent: Demonic Aegis
+    rank: 2
+    spell_id: 45922
+  - tree: Demonology
+    talent: Demonic Sacrifice
+    rank: 1
+    spell_id: 18788
+  - tree: Destruction
+    talent: Cataclysm
+    rank: 5
+    spell_id: 17782
+  - tree: Destruction
+    talent: Bane
+    rank: 5
+    spell_id: 17792
+  - tree: Destruction
+    talent: Aftermath
+    rank: 3
+    spell_id: 18121
+  - tree: Destruction
+    talent: Intensity
+    rank: 2
+    spell_id: 18136
+  - tree: Destruction
+    talent: Shadowburn
+    rank: 1
+    spell_id: 17877
+  - tree: Destruction
+    talent: Devastation
+    rank: 5
+    spell_id: 18134
+  - tree: Destruction
+    talent: Improved Searing Pain
+    rank: 5
+    spell_id: 17932
+  - tree: Destruction
+    talent: Improved Soul Fire
+    rank: 2
+    spell_id: 51737
+  - tree: Destruction
+    talent: Improved Immolate
+    rank: 5
+    spell_id: 17836
+  - tree: Destruction
+    talent: Ruin
+    rank: 1
+    spell_id: 17959
+  - tree: Destruction
+    talent: Emberstorm
+    rank: 5
+    spell_id: 17958
+  - tree: Destruction
+    talent: Conflagrate
+    rank: 1
+    spell_id: 17962
+  build_note: Validated with talent_tool.py (VALID). Range variant -ArCAAB-AoFYBoCFVIAoB (Destructive Reach) [[d:warlock#1465115051655434394]];
+    Afraido prefers Intensity [[d:warlock#1484231145712517141]]; Shadow Bolt Destro 17/3/31 FoAQYAC-AD-FAFYAoCAVIAQB.
   leveling_order: []
+  code: -ArCAAB-AoFYRoAFVIAoB
+  leveling_order_note: No Fire leveling order is published; level Affliction (guide/classes/warlock/leveling.md) and respec
+    at 60.
+  build_link_tortoise: https://xian55.github.io/tortoise-db-viewer/?talents=warlock&t=-053020001-0505321500525151
+  build_link_tortoise_note: 'Generated from the sourced points list (51 points: Demonology 11, Destruction 40); the calculator
+    shows the remaining points unassigned. Prerequisite rows the sources skipped may be flagged by the calculator.'
 stat_weights:
-  hit: "highest priority (~16% vanilla level-63 cap cited by a player; Fire has no talent hit)"
-  crit: "second (Ruin, Firestone, Devastation, Improved Searing Pain); contested by one pre-live source who argued for pure spell power instead"
-  spell_power: "third"
-  haste: "unclear/unanswered whether it matters now that Searing Pain's GCD and cast scale with haste since 1.18.1"
-stat_priority: [spell-hit, spell-crit, spell-power, haste]
-stat_priority_note: "Guiltyhaomarush [p=168196]: \"you need to get 16% hit chance as fire warlock and on top of that at least 20% crit\" — the 16% is a player restatement of the vanilla level-63 cap, not a staff number. Crit comes next because Ruin, Devastation, the Firestone and Improved Searing Pain all key off it; CONTESTED by Xudo, who argues a pure Soul Fire/Immolate/Conflagrate rotation should go straight to spell power instead. Haste became relevant when 1.18.1 gave Searing Pain a 2 s cast that scales with it; the older thread asking whether haste does anything for fire warlocks [p=120182] predates that and was never answered."
-caps: {}
+  hit: 'highest: 16% all from gear (no talent hit) [[d:warlock#1490499753312518144]]'
+  crit: high (Ruin, Devastation, Improved Searing Pain, Firestone 2%/4%) [[d:warlock#1424167378262036572]]; ~13 SP per 1%
+    at 1000 SP [[d:warlock#1482828212525469856]]
+  spell_power: high; Fire/SM-Ruin/Demo gear the same (SP + crit) [[d:warlock#1464550328367317067]]
+  haste: 'moderate: Searing Pain has a real cast time since 1.18.1; use haste potions/Juju [[d:warlock#1486559373244370974]]'
+stat_priority:
+- hit-to-16
+- crit
+- spell-power
+- haste
+- stamina
+caps:
+  gear_hit: 16% from gear [[d:warlock#1490499753312518144]]; a Destro planner reached cap on Ambershire with ~15% [[d:warlock#1488934843235569815]]
+  crit: no cap sourced
 rotation_single:
-  - {priority: 1, action: "Soul Fire", condition: "Improved Soul Fire buff missing and Soul Fire off cooldown (buff applies on cast since 2024-12-20)"}
-  - {priority: 2, action: "Immolate", condition: "missing (Conflagrate consumes 3 s of it without removing it)"}
-  - {priority: 3, action: "Conflagrate", condition: "off cooldown (10-s CD, 1-s GCD) and Immolate is up"}
-  - {priority: 4, action: "Curse of the Elements", condition: "missing"}
-  - {priority: 5, action: "Corruption", condition: "Improved Soul Fire buff has <=5 s left and Soul Fire is not ready (bridge filler)"}
-  - {priority: 6, action: "Searing Pain", condition: "default filler (2.0-s cast base, 1.5 s with 5/5 Bane, 1-s GCD, +~20% base dmg since 2026-03-19); never Shadow Bolt"}
-  - {priority: 7, action: "Life Tap", condition: "mana below Soul Fire + Immolate cost"}
+- priority: 0
+  action: pre-cast Soul Fire -> Immolate -> Conflagrate
+  condition: opener [[d:warlock#1496147940673196062]], [[d:warlock#1496031075112062996]]
+- priority: 1
+  action: Soul Fire
+  condition: Improved Soul Fire buff missing and Soul Fire ready [[d:warlock#1485580656120565841]]
+- priority: 2
+  action: Immolate
+  condition: missing and target lives >9 s [[d:warlock#1465226534221512756]]
+- priority: 3
+  action: Conflagrate
+  condition: ready and Immolate up
+- priority: 4
+  action: Shadowburn
+  condition: ready and mana allows [[d:warlock#1496147940673196062]]
+- priority: 5
+  action: assigned curse
+  condition: missing (1 s GCD)
+- priority: 6
+  action: Searing Pain
+  condition: filler (~151 mana at 60 with 5/5 Cataclysm) [[d:warlock#1465226771694616801]]
+- priority: 7
+  action: Corruption
+  condition: 'contested: L-star keeps it as a filler [[d:warlock#1467326093831704861]], Twospooky drops it [[d:warlock#1496147940673196062]]'
+- priority: 8
+  action: Life Tap / mana potion / tea
+  condition: mana low
 rotation_aoe:
-  - {targets_min: 2, priority: 1, action: "Immolate each target, Conflagrate the main target, Searing Pain filler", condition: "2-3 targets"}
-  - {targets_min: 4, priority: 1, action: "Hellfire (with Wrathstone) on a tanked, non-cleaving stack", condition: "4+ targets"}
-  - {targets_min: 4, priority: 2, action: "Rain of Fire", condition: "melee cleave or fire-reflect makes standing in melee unsafe"}
-aoe_threshold: 4
+- targets_min: 2
+  priority: 1
+  action: Immolate each, kill in mark order with Searing Pain
+  condition: 1-3 targets [[d:warlock#1381052743828897965]]
+- targets_min: 5
+  priority: 2
+  action: Hellfire (Wrathstone; warn healers)
+  condition: 5+ stacked on tank [[d:warlock#1465521145162895546]]
+- targets_min: 5
+  priority: 3
+  action: Rain of Fire
+  condition: pack cleaves or needs range [[d:warlock#1452757128652525578]]
+aoe_threshold: 5
 cooldowns:
-  - {name: "Soul Fire", use_when: "30-s CD, core rotation piece, costs a shard unless Improved Soul Fire refunds it"}
-  - {name: "Conflagrate", use_when: "10-s CD, whenever Immolate is up"}
-  - {name: "Inferno", use_when: "10-min CD (halved by Master Summoner), trash-only cooldown for demo/destro hybrids"}
+- name: Soul Fire
+  use_when: 30 s CD, keep the Improved Soul Fire buff up
+- name: Conflagrate
+  use_when: on cooldown with Immolate up; on Thaddius only with a Polarity Charge stack [[d:warlock#1496149965825904764]]
+- name: Shadowburn
+  use_when: on cooldown unless mana-limited [[d:warlock#1496147940673196062]]
 resource_rules:
-  - "Life Tap for mana; Cataclysm reduces Fire spell cost; Fire has no Improved Life Tap reachable without Affliction points"
-  - "keep 3+ Soul Shards for Soul Fire"
-  - "swap Firestone/Wrathstone/Voidstone depending on whether crit, Hellfire threat, or spell threat reduction is needed"
+- Sacrifice the Felhunter (mana) to Life Tap less; bring mana potions and tea [[d:warlock#1496147940673196062]]
+- 'Burst on pull has no threat reduction: need a good tank [[d:warlock#1490499753312518144]]'
+- Firestone proc scales only with level (~64 dmg at 60) [[d:warlock#1445825910098886688]]
 consumables:
-  - "Flask of Supreme Power"
-  - "Fire/Arcane resist potions per raid"
-  - "Goblin sappers/bombs on trash (benefit from Fire damage bonuses)"
-  - "Healthstone"
+- Mana potions, tea [[d:warlock#1496147940673196062]]
+- Potion of Quickness, Juju Flurry [[d:warlock#1486559373244370974]]
+- Greater Firepower, Flask of Supreme Power, Brilliant Wizard Oil
+- Goblin Sapper Charges on Naxx spider trash [[d:warlock#1459945548084674623]]
 mistakes_to_avoid:
-  - "Bringing Fire to Molten Core / Blackwing Lair (fire-immune content)"
-  - "Letting the Improved Soul Fire buff drop before refreshing it"
-  - "Hellfire without Wrathstone or a healer warning, or into a cleaving pack"
-  - "Inferno on every trash pack in a 5-man dungeon"
-  - "Casting Shadow Bolt as a Fire lock"
-  - "Expecting frequent Pyroclasm stuns from Hellfire (the 26% chance is per full channel, not per tick, ~1.7%/tick)"
-  - "Taking Aftermath for its slow (both value and proc rate criticized)"
+- Fire on fire-immune bosses (MC Ragnaros/Geddon, BWL Vael/drakes/Nefarian, Onyxia) [[d:warlock#1432406269402026124]], [[d:warlock#1488208031111188640]]
+- Casting Shadow Bolt in a Fire spec
+- Full burst before the tank has threat
+- Hellfire into a cleaving pack or without warning healers
+- Chaining instants back to back [[d:warlock#1496147940673196062]]
+- Expecting Pyroclasm stuns from Hellfire (rolls once per channel) [[d:warlock#1458587593389113659]]
+discord:
+  channels:
+  - warlock
+  agreement: mixed — consensus on the 0/11/40 allocation and rotation; contested whether Fire is viable at all post-1.18.1
+  eras:
+  - pre-1.18.1
+  - 1.18.1-announced-pre-release
+  - post-1.18.1
+  sources:
+  - cite: '[[d:warlock#1484229282854342789]]'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    topic: pinned Firelock 0/11/40 screenshot
+  - cite: '[[d:warlock#1465115051655434394]]'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    topic: searing-pain and shadow-bolt Firelock codes
+  - cite: '[[d:warlock#1486355435609919620]]'
+    era: post-1.18.1
+    agreement: contested
+    topic: '''no meme Firelock anymore'''
+  - cite: '[[d:warlock#1493286788775805198]]'
+    era: post-1.18.1
+    agreement: contested
+    topic: fire cannot compete with drain/demo; slightly better than SM/Ruin if hit-capped
+  - cite: '[[d:warlock#1388995453873553489]]'
+    era: pre-1.18.1
+    agreement: consensus
+    topic: 11-12% gear hit for SM/Ruin, Demo and Fire
+  - cite: '[[d:warlock#1484228321708478635]]'
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    topic: the 11-point demonless dip reaches Demonic Sacrifice via Soul Entrapment
+  - cite: '[[d:warlock#1483576857428361257]]'
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    topic: Fire still the weakest overall post-1.18.1
+guide: guide/classes/warlock/destruction.md
+stat_priority_note: 'Guiltyhaomarush [p=168196]: "you need to get 16% hit chance as fire warlock and on top of that at least
+  20% crit" — the 16% is a player restatement of the vanilla level-63 cap, not a staff number. Crit comes next because Ruin,
+  Devastation, the Firestone and Improved Searing Pain all key off it; CONTESTED by Xudo, who argues a pure Soul Fire/Immolate/Conflagrate
+  rotation should go straight to spell power instead. Haste became relevant when 1.18.1 gave Searing Pain a 2 s cast that
+  scales with it; the older thread asking whether haste does anything for fire warlocks [p=120182] predates that and was never
+  answered.'

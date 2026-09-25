@@ -1,0 +1,629 @@
+class: warlock
+name: Warlock
+turtle: true
+source: refs/tortoise-db-viewer/scripts/data/talents.json (client-derived, 1.18.1) + server/data/dbc/Spell.dbc field 120 for names
+max_points: 51
+tabs:
+- id: 302
+  name: Affliction
+  order: 0
+  talents:
+  - id: 337
+    name: Suppression
+    row: 0
+    col: 1
+    max_rank: 5
+    ranks:
+    - 18174
+    - 18175
+    - 18176
+    - 18177
+    - 18178
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 338
+    name: Improved Corruption
+    row: 0
+    col: 2
+    max_rank: 5
+    ranks:
+    - 17810
+    - 17811
+    - 17812
+    - 17813
+    - 17814
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 339
+    name: Improved Curse of Weakness
+    row: 1
+    col: 0
+    max_rank: 2
+    ranks:
+    - 18179
+    - 18180
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 340
+    name: Resilient Shadows
+    row: 1
+    col: 1
+    max_rank: 3
+    ranks:
+    - 52547
+    - 52548
+    - 52549
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 341
+    name: Improved Life Tap
+    row: 1
+    col: 2
+    max_rank: 2
+    ranks:
+    - 18182
+    - 18183
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 342
+    name: Improved Drains
+    row: 1
+    col: 3
+    max_rank: 2
+    ranks:
+    - 45913
+    - 45914
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 343
+    name: Improved Curse of Agony
+    row: 2
+    col: 0
+    max_rank: 3
+    ranks:
+    - 18827
+    - 18829
+    - 18830
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 344
+    name: Fel Concentration
+    row: 2
+    col: 1
+    max_rank: 2
+    ranks:
+    - 17783
+    - 17784
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 345
+    name: Curse of Exhaustion
+    row: 2
+    col: 2
+    max_rank: 1
+    ranks:
+    - 18223
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 346
+    name: Grim Reach
+    row: 3
+    col: 0
+    max_rank: 2
+    ranks:
+    - 18218
+    - 18219
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 347
+    name: Nightfall
+    row: 3
+    col: 1
+    max_rank: 2
+    ranks:
+    - 18094
+    - 18095
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 348
+    name: Soul Siphon
+    row: 3
+    col: 3
+    max_rank: 3
+    ranks:
+    - 52558
+    - 52559
+    - 52560
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 349
+    name: Rapid Deterioration
+    row: 4
+    col: 0
+    max_rank: 2
+    ranks:
+    - 52555
+    - 52556
+    req: 350
+    req_rank: 1
+    points_per_rank: 1
+  - id: 350
+    name: Siphon Life
+    row: 4
+    col: 1
+    max_rank: 1
+    ranks:
+    - 18265
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 351
+    name: Improved Curse of Exhaustion
+    row: 4
+    col: 2
+    max_rank: 2
+    ranks:
+    - 18310
+    - 18311
+    req: 345
+    req_rank: 1
+    points_per_rank: 1
+  - id: 352
+    name: Malediction
+    row: 4
+    col: 3
+    max_rank: 1
+    ranks:
+    - 52546
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 353
+    name: Shadow Mastery
+    row: 5
+    col: 1
+    max_rank: 5
+    ranks:
+    - 18271
+    - 18272
+    - 18273
+    - 18274
+    - 18275
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 354
+    name: Dark Harvest
+    row: 6
+    col: 1
+    max_rank: 1
+    ranks:
+    - 52550
+    req: 353
+    req_rank: 5
+    points_per_rank: 1
+- id: 303
+  name: Demonology
+  order: 1
+  talents:
+  - id: 355
+    name: Sinister Pursuit
+    row: 0
+    col: 1
+    max_rank: 2
+    ranks:
+    - 52737
+    - 52739
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 356
+    name: Demonic Embrace
+    row: 0
+    col: 2
+    max_rank: 5
+    ranks:
+    - 18697
+    - 18698
+    - 18699
+    - 18700
+    - 18701
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 357
+    name: Soul Entrapment
+    row: 0
+    col: 3
+    max_rank: 3
+    ranks:
+    - 51706
+    - 51707
+    - 51708
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 358
+    name: Soul Funnel
+    row: 1
+    col: 0
+    max_rank: 2
+    ranks:
+    - 18703
+    - 18704
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 359
+    name: Demonic Aegis
+    row: 1
+    col: 1
+    max_rank: 3
+    ranks:
+    - 45921
+    - 45922
+    - 45923
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 360
+    name: Fel Intellect
+    row: 1
+    col: 2
+    max_rank: 3
+    ranks:
+    - 18731
+    - 18743
+    - 18744
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 361
+    name: Fel Domination
+    row: 2
+    col: 1
+    max_rank: 1
+    ranks:
+    - 18708
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 362
+    name: Fel Stamina
+    row: 2
+    col: 2
+    max_rank: 5
+    ranks:
+    - 18748
+    - 18749
+    - 18750
+    - 18751
+    - 18752
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 363
+    name: Demonic Sacrifice
+    row: 2
+    col: 3
+    max_rank: 1
+    ranks:
+    - 18788
+    req: 357
+    req_rank: 3
+    points_per_rank: 1
+  - id: 364
+    name: Improved Stones
+    row: 3
+    col: 0
+    max_rank: 2
+    ranks:
+    - 51712
+    - 51713
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 365
+    name: Master Summoner
+    row: 3
+    col: 1
+    max_rank: 2
+    ranks:
+    - 18709
+    - 18710
+    req: 361
+    req_rank: 1
+    points_per_rank: 1
+  - id: 366
+    name: Nether Studies
+    row: 3
+    col: 2
+    max_rank: 3
+    ranks:
+    - 51709
+    - 51710
+    - 51711
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 367
+    name: Unholy Power
+    row: 3
+    col: 3
+    max_rank: 3
+    ranks:
+    - 18769
+    - 18770
+    - 18771
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 368
+    name: Power Overwhelming
+    row: 4
+    col: 1
+    max_rank: 1
+    ranks:
+    - 51714
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 369
+    name: Demonic Precision
+    row: 4
+    col: 2
+    max_rank: 3
+    ranks:
+    - 51715
+    - 51716
+    - 51717
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 370
+    name: Master Demonologist
+    row: 5
+    col: 1
+    max_rank: 5
+    ranks:
+    - 23785
+    - 23822
+    - 23823
+    - 23824
+    - 23825
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 371
+    name: Unleashed Potential
+    row: 5
+    col: 2
+    max_rank: 3
+    ranks:
+    - 51721
+    - 51722
+    - 51723
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 372
+    name: Soul Link
+    row: 6
+    col: 1
+    max_rank: 1
+    ranks:
+    - 19028
+    req: 370
+    req_rank: 5
+    points_per_rank: 1
+- id: 301
+  name: Destruction
+  order: 2
+  talents:
+  - id: 321
+    name: Shadow Vulnerability
+    row: 0
+    col: 1
+    max_rank: 5
+    ranks:
+    - 17793
+    - 17796
+    - 17801
+    - 17802
+    - 17803
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 322
+    name: Cataclysm
+    row: 0
+    col: 2
+    max_rank: 5
+    ranks:
+    - 17778
+    - 17779
+    - 17780
+    - 17781
+    - 17782
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 323
+    name: Demonic Swiftness
+    row: 1
+    col: 0
+    max_rank: 2
+    ranks:
+    - 57730
+    - 57731
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 324
+    name: Bane
+    row: 1
+    col: 1
+    max_rank: 5
+    ranks:
+    - 17788
+    - 17789
+    - 17790
+    - 17791
+    - 17792
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 325
+    name: Aftermath
+    row: 1
+    col: 2
+    max_rank: 3
+    ranks:
+    - 18119
+    - 18120
+    - 18121
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 326
+    name: Intensity
+    row: 2
+    col: 0
+    max_rank: 2
+    ranks:
+    - 18135
+    - 18136
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 327
+    name: Shadowburn
+    row: 2
+    col: 1
+    max_rank: 1
+    ranks:
+    - 17877
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 328
+    name: Devastation
+    row: 2
+    col: 2
+    max_rank: 5
+    ranks:
+    - 18130
+    - 18131
+    - 18132
+    - 18133
+    - 18134
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 329
+    name: Pyroclasm
+    row: 3
+    col: 0
+    max_rank: 2
+    ranks:
+    - 18096
+    - 18073
+    req: 326
+    req_rank: 2
+    points_per_rank: 1
+  - id: 330
+    name: Destructive Reach
+    row: 3
+    col: 1
+    max_rank: 2
+    ranks:
+    - 17917
+    - 17918
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 331
+    name: Improved Searing Pain
+    row: 3
+    col: 3
+    max_rank: 5
+    ranks:
+    - 17927
+    - 17929
+    - 17930
+    - 17931
+    - 17932
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 332
+    name: Improved Soul Fire
+    row: 4
+    col: 0
+    max_rank: 2
+    ranks:
+    - 51736
+    - 51737
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 333
+    name: Improved Immolate
+    row: 4
+    col: 1
+    max_rank: 5
+    ranks:
+    - 17815
+    - 17833
+    - 17834
+    - 17835
+    - 17836
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 334
+    name: Ruin
+    row: 4
+    col: 2
+    max_rank: 1
+    ranks:
+    - 17959
+    req: 328
+    req_rank: 5
+    points_per_rank: 1
+  - id: 335
+    name: 'Emberstorm '
+    row: 5
+    col: 2
+    max_rank: 5
+    ranks:
+    - 17954
+    - 17955
+    - 17956
+    - 17957
+    - 17958
+    req: null
+    req_rank: null
+    points_per_rank: 1
+  - id: 336
+    name: Conflagrate
+    row: 6
+    col: 1
+    max_rank: 1
+    ranks:
+    - 17962
+    req: 333
+    req_rank: 5
+    points_per_rank: 1

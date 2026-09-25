@@ -118,3 +118,11 @@ Rules for all agents: read `AGENTS.md` and this plan first; do not run git; do n
 ## 7. Addendum: gear guide (added after the first build started)
 
 `ClassEntry` gains two optional fields, populated by `build-data.py` when the files exist: `gear` (parsed `structured/classes/<class>/gear.yaml`; shape in `scrape/prompts/gear.md`) and `gearMarkdown` (sections of `synthesis/classes/<class>/gear*.md`). The class page shows a Gear tab (route `#/class/<slug>/gear`) with spec-role and bracket selectors, a slot table with rank, source type/place/detail, custom-item flag and citations, enchants, consumables and stat notes. Playbook pages link to the matching gear bracket. Gear data comes from the forum's BiS/pre-raid/gearing threads and the playbooks' gear sections; where no repo source states an item's origin the value is `unknown-in-sources`, to be filled from the local server database later.
+
+## 8. Addendum: player-facing guide pages
+
+`guide/classes/<class>/*.md` (index, one page per spec, leveling, pvp, sources) replaces the synthesis playbooks for every class that has a guide `index.md`; the synthesis path stays as the fallback. Each playbook uses the page its YAML's `guide:` key names. New data fields and the heading and citation rules are documented in `site/README.md` ("Guide pages") and `src/data/README.md`. New routes: `#/class/<slug>/sources`, `#/class/<slug>/guide/<page>`.
+
+## 9. Addendum: dungeon and raid pages
+
+`guide/instances/*.md` (an `index.md` with the dungeon and raid tables, 39 instance pages) is built into the optional `src/data/instances.json` (`{title, intro, sourceFile, groups[], pages[]}`; shape in `src/types.ts` `InstancesData` and `site/README.md` "Dungeon and raid pages") with the class guides' citation and link transform, so links between instances, instance → class and class → instance pages are site routes. New routes: `#/instances` (the index, grouped Dungeons / Raids) and `#/instances/<slug>` (the page, with section tabs); a "Dungeons & Raids" header entry; instance pages in search (their H3 boss names included). Class guide standalone pages and instance pages share `components/DocLayout.tsx`.

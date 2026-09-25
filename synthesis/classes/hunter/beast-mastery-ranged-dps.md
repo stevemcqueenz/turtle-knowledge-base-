@@ -41,7 +41,9 @@ Player-verified mechanics: Coordinated Assault "is calculated with the hunter's 
 - Links: `https://talents.turtlecraft.gg/hunter?points=FAAaRoQoBBQQB-AoEoABAg-` [Illyria (player), 2025-08-22](https://forum.turtlecraft.gg/viewtopic.php?p=147624#p147624); `https://talents.turtlecraft.gg/hunter?points=FQAYBoQoBCQQB-AoCoQBAo-` [SvenS2, 2025-08-22](https://forum.turtlecraft.gg/viewtopic.php?p=147656#p147656) and `...?points=FYAQBoQoBCQQB-AoCoQBAo-` [SvenS2, 2025-08-30](https://forum.turtlecraft.gg/viewtopic.php?p=149392#p149392). Image-only builds in [Dezhan (player), 2025-08-13](https://forum.turtlecraft.gg/viewtopic.php?p=145015#p145015) ("you're forced into building it like this") and [SvenS2, 2025-08-13](https://forum.turtlecraft.gg/viewtopic.php?p=145025#p145025). Contents of the links are not decodable from the forum text — treat as opaque.
 - Frenzy: "With Kill Command you can also safely stay at 2 value points in Frenzy" [SvenS2, 2025-08-04](https://forum.turtlecraft.gg/viewtopic.php?p=143123#p143123).
 
-### 1.18.1 kit (Mar 2026 onward) — thin
+### 1.18.1 kit (Mar 2026 onward) — decoded by Discord
+
+The archived `#hunter` Discord decoded the channel's actual post-1.18.1 BM raid build, closing the forum README's gap #2: **34/17/0** through Kill Command + Bestial Wrath with MM filler (recurring shape x3), plus 33/18/0, 41/10/0, 39/12/0 and 36/12/3 variants. Full allocation and citations in §Discord additions and `structured/classes/hunter/beast-mastery-ranged-dps.yaml`.
 
 - Post-patch leveling/raid draft links: BM/MM (Mortal Shots) `https://talents.turtlecraft.gg/hunter?points=FQAYAoAoZBCYB-AoAoJDAo-`, BM/MM (Endless Quiver) `...?points=FQAYAoBoZBCoB-AoAoJDQ-`, pure BM `...?points=FoAYBoCoZBSoB-AoAo-` [Sylvestro1 (player), 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171462#p171462) (asked, not validated). Replies: drop Lethal Shots for Pathfinding + Bestial Discipline for leveling, then "Lethal Shots may not be that bad actually, since the new Kill Command requires you to land a crit" [SvenS2, 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171480#p171480); "Bestial Discipline is pretty much mandatory especially for early tier gearing as BM (scorpid 5 stack poison is best pet damage you'll ever get)"; "5 Frenzy is overkill" [Gorlocktheglock (player), 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171478#p171478); "2-3 points into Frenzy is generally enough ... so long as you have a fast attacking pet" [SvenS2, 2026-03-20](https://forum.turtlecraft.gg/viewtopic.php?p=171464#p171464).
 - Hybrids lose Kill Command (capstone) — [Tomogwarrior (player), 2026-03-21](https://forum.turtlecraft.gg/viewtopic.php?p=171530#p171530).
@@ -109,6 +111,50 @@ As MM plus: T2 5-piece pet bonus needs no line of sight [Lane13, 2026-03-02](htt
 7. Spending points in 5/5 Frenzy or Improved Eyes of the Beast instead of damage/hit talents (Bob022, Gorlocktheglock).
 8. Running Serpent Sting every pull as BM (mana).
 
+## Discord additions (post-1.18.1)
+
+Folded from the archived `#hunter` Discord (`staging/hunter-core/`, `staging/hunter-pve/`). Era tags: **pre-1.18.1** (<2025-10-03), **1.18.1-announced-pre-release** (2025-10-03 → 2026-03-19), **post-1.18.1** (≥2026-03-20). Every claim carries `[[d:hunter#<id>]]`, an era and an agreement tag.
+
+### The decoded 34/17/0 post-1.18.1 build
+
+Recurring shape x3 through Kill Command + Bestial Wrath, MM filler (`FYACBoIoZASYB-AoAoQDQ-`): BM — Swift Aspects 5, Endurance Training 3, Improved Revive Pet 2, Coordinated Assault 1, Unleashed Fury 5, Bestial Discipline 1, Ferocity 5, Scent of Blood 3, Bestial Wrath 1, Bestial Precision 2, Spirit Bond 2, Frenzy 3, Kill Command 1; MM — Efficiency 5, Lethal Shots 5, Hawk Eye 2, Swiftshot 3, Endless Quiver 2. Sources: [[d:hunter#1484537323629580359]] (Ṣ U Ṅ, "most optimal for BM"), [[d:hunter#1486069229819138169]] (Wuuc), [[d:hunter#1486067074555187392]] (Hakuna, 33/16/2). Build logic: Lethal Shots regained value because Kill Command needs a hunter crit; Bestial Discipline is "pretty much mandatory" with a scorpid, though several builds skip it because the focus regen is small [[d:hunter#1484537665566015568]]. The sim's no-pet BM Kara40 BiS readout was **1014.02 DPS (±32)** [[d:hunter#1492436284168212531]].
+
+### Corrections the Discord work pins down
+
+- **Ranged hit cap is 8% at 300 weapon skill, not 9%** [consensus, [[d:hunter#1298063246254932059]]]. Level-63 hit suppression was removed with the CC2 weapon-skill change; weapon skill is linearized at 1% hit per 5 points up to 315 (305 → 7%, 310 → 6%, 315 → 5%) [consensus, [[d:hunter#1485763124253425858]], [[d:hunter#1463846948200124426]]]. **This supersedes the `9%` arithmetic used elsewhere in the hunter files (a forum post already flagged it as vanilla-baseline math).** +3 racial skill is only 0.6% hit and effectively worthless; +5 is the useful threshold [single source x2, [[d:hunter#1491594913136115732]]]. Above 315 has historically been buggy (316 gave bonus crit, 317/318 nothing) [[d:hunter#1486496701177921701]].
+- **Aspect of the Viper is an out-of-combat tool post-1.18.1**, not a rotation aspect — "Aspect of the Viper loses to much dmg imo" [Valkory, [[d:hunter#1485684679708246016]]]. This supersedes the pre-1.18.1 "aspect swapping" advice.
+- **Stat weights for 1.18.1** (private sheet, explicitly unverifiable): 1 agi = 3 eAP; 1% crit = 50+ eAP (up from 32 in BWL phase, because of MM crit scaling); 1% haste = 12–14 eAP (MM); 53 agi = 1% crit [contested, [[d:hunter#1488075516060766330]], [[d:hunter#1486693663084904448]], [[d:hunter#1488074387918688336]]].
+
+### Rotation and mechanics verified in-channel
+
+- Kill Command is off the GCD and **stays usable ~4 s into its 8 s cooldown**, so a hunter crit roughly every 4 s keeps it near 100% uptime (measured 99.93% at 33% crit) [single source, [[d:hunter#1490812124006711457]], [[d:hunter#1490826259817562155]]]. Same-gear dummy dps was **700 (BM) vs 750 (MM)**; in Naxx a raptor BM ranked 1 over MM rank 2 on boss fights with the pet ~50% of total damage and KC crits of 7,153 [[d:hunter#1486419920332787763]].
+- **Kill Command is multiplied by the pet family damage modifier; Coordinated Assault is not** (raptor 1.1 → 802 vs scorpion 0.94 → 685 on a boss dummy) [single source, [[d:hunter#1485789832759349258]]].
+- Pet choice is fight-length dependent: **MC scorpid for long fights with an Eyes-of-the-Beast snapshot** (4 stacks, pop Bestial Wrath/AP trinkets, 5th stack via Eyes of the Beast); **ZG snake for short fights/Kill Command**; **ZG raptor the all-rounder that works in Naxx**; cat fell behind (no damaging special); wolf is bad for BM (0% damage scaling) [consensus, [[d:hunter#1490837960583549270]], [[d:hunter#1490794224499822733]], [[d:hunter#1486454996177260656]], [[d:hunter#1439002895591805049]]]. BM is the only spec whose pet can hold open-world threat at all [consensus, [[d:hunter#1484476051936510073]]].
+- **Pets do not scale with hunter crit**; BM only needs enough crit to keep Kill Command on cooldown, then stacks RAP (Spirit Bond) [consensus, [[d:hunter#1488161325879267450]], [[d:hunter#1486502917342232787]]].
+- **1.18.1 added pet cleave avoidance (~40% less physical cleave damage)** [single source, [[d:hunter#1485121037426495529]]]; prefer 2.0 attack-speed pets for Windfury (the proc has an internal cooldown) [single source, [[d:hunter#1489955871776702616]]].
+- Scorpid Poison's stacking-scaling bug pushed scorpion far above the others; hotfixed **2026-03-24**, after which the guide author called scorpion "probably middle of the pack" [consensus, [[d:hunter#1487448189387931749]], [[d:hunter#1484745831117623356]]].
+
+### Encounter and consumable notes
+
+- **Nefarian's hunter class call destroys melee weapons** [[d:hunter#1485009781281390593]]; **Naxx 4H / Sapphiron / Kel'Thuzad are "not BM fights"** [[d:hunter#1485920686055886930]], though raptors "work in Naxx, mostly" [[d:hunter#1486454996177260656]].
+- **Kara40 has no humanoids/beasts/giants/dragonkin**, so Improved Slaying is worthless there; scorpid is unusable on 6 of 9 bosses [[d:hunter#1486333622796550184]], [[d:hunter#1485915598004158527]].
+- **Pet consumables stack** (Juju Power, Juju Might, Scroll of Strength/Agility) and are what push BM Kill Command crits to 7–9k [consensus, [[d:hunter#1491073655382212830]], [[d:hunter#1490806608312406098]]]. T3 4/8 (pet-AP set bonus) is BiS with a pet, otherwise 6/8 for mana [[d:hunter#1485684117256405168]].
+
+### Discord sources used
+
+| Source | What it adds | Era | Agreement |
+|---|---|---|---|
+| [[d:hunter#1484537323629580359]] | 34/17/0 decoded BM raid build | post-1.18.1 | consensus |
+| [[d:hunter#1490812124006711457]] | Kill Command off-GCD / ~4 s linger / ~100% uptime | post-1.18.1 | single source |
+| [[d:hunter#1485789832759349258]] | KC × family modifier, Coordinated Assault not | post-1.18.1 | single source |
+| [[d:hunter#1486419920332787763]] | BM rank 1 / MM rank 2 in Naxx, pet ~50% | post-1.18.1 | single source |
+| [[d:hunter#1492436284168212531]] | Sim: no-pet BM Kara40 BiS 1014.02 DPS | post-1.18.1 | single source |
+| [[d:hunter#1298063246254932059]] | 8% ranged hit cap at 300 skill (not 9%) | pre-1.18.1 mechanic | consensus |
+| [[d:hunter#1485763124253425858]] | weapon-skill linearization (1%/5 pts to 315) | post-1.18.1 | consensus |
+| [[d:hunter#1487448189387931749]] | Scorpid Poison hotfix 2026-03-24 | post-1.18.1 | consensus |
+| [[d:hunter#1488624322686746945]] | MetaHunt 1.18.1 one-button rotation tooling | post-1.18.1 | consensus |
+| [[d:hunter#1412681801339764817]] | Dresche pinned Hunter FAQ (1.18.1) | post-1.18.1 | guide writer |
+
 ## Sources and validity
 
 | Recommendation | Agreement | Validity |
@@ -119,5 +165,8 @@ As MM plus: T2 5-piece pet bonus needs no line of sight [Lane13, 2026-03-02](htt
 | Frenzy 2–4 (Lane13); Lethal Shots useful post-1.18.1 | consensus (Bob022, SvenS2, Gorlocktheglock) | CC2–1.18.1 |
 | BM raid viability | contested on every kit (amanagor/Bigsmerf/Jiav vs Steelx/Skurridizo/Nalos) | — |
 | Pet threat fixes (Salvation, wind serpent, dismiss/recall) | single thread, two authors agree | post-1.18.1 |
+| BM 34/17/0 post-1.18.1 build | consensus (3 posts + screenshots) | post-1.18.1 — decoded by Discord; no full-tier parse |
+| Ranged hit cap 8% at 300 skill | consensus (Discord), supersedes the forum's 9% | CC2 weapon-skill change onward |
+| Pet choice fight-length dependent (scorpid/snake/raptor) | consensus | post-1.18.1; scorpid ranking unsettled after the 2026-03-24 hotfix |
 
 Threads used: t18724, t21282, t20870, t15105, t5763, t19167, t24302, t23291, t22787, t24360, t24369, t21259, t20981, t21702, t24427, t21831, t20667, t24239, t16284, t17698, t22842, t24713, t24349, t24389, t23657 (`extracted/forum/f45-hunter/`); staff posts in `extracted/forum/f63-patch-notes-changelog/t15157-*.md`.

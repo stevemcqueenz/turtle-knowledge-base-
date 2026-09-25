@@ -70,6 +70,24 @@ Ssai's initial avoidance list (2022, self-corrected as "no longer ideal"): Guise
 - Relying on Flourish uptime: it has a 40-s cooldown; plan Evasion/Ghostly Strike around it.
 - Believing the April-Fools "50% baseline threat" note.
 
+## Discord findings (2025–2026)
+
+`#rogue` still discusses the rogue tank post-1.18.1; Discord corroborates some practitioner claims and adds avoidance figures. Citations `[[d:rogue#id]]` resolve in `structured/discord/evidence-rogue.jsonl`. Eras: **pre-1.18.1** (< 2025-10-03), **1.18.1-announced-pre-release** (2025-10-03 .. 2026-03-19), **post-1.18.1** (≥ 2026-03-20).
+
+- **The build shape is unchanged**: Assassination for threat (**Agitating Poison**) + Combat for avoidance, exactly as the forum's pre-CC2 lists imply [[d:rogue#1460907162426671238]] (contested). This gently answers the forum's "no post-CC2 tank build" gap without giving a full point list — Discord posts screenshots rather than codes: an **18/33/0 combat tank leveling** build [[d:rogue#1346540267414749337]] and a **31/20/0 L60 Agitating+Envenom threat** build [[d:rogue#1346542096923754549]] (both RUTHINAS screenshots, pre-1.18.1).
+- **Avoidance is no longer the bottleneck — poison immunity is.** Discord reports **79.5% baseline avoidance, 91% buffed, ~96–97% max** [[d:rogue#1460907162426671238]], [[d:rogue#1418639656043679935]] (contested), which supports the forum's practitioner numbers and shifts the problem to poison-immune mobs (the forum's own Lomikare1 point).
+- **Mitigation loop**: Flourish → Evasion → Flourish, pre-planned around the 40-s Flourish cooldown [[d:rogue#1428661874920128522]] (single source).
+- **Agitating Poison's bonus threat is not AP- or Vile-Poisons-scaled** (only its damage is): Vile Poisons raises Agitating's damage, not its threat [[d:rogue#1346542096923754549]] — a mechanic worth modelling for any tank-threat bot.
+- The wider channel still treats the role as a meme; the role remains contested in the Discord as in the forum. Engineering remains the tank's gap-filler (target dummies as an area taunt) [[d:rogue#1211963153521446912]].
+
+| Topic | Citation | Era | Agreement |
+|---|---|---|---|
+| Assa-threat + Combat-avoidance; poison immunity is the bottleneck | [[d:rogue#1460907162426671238]] | post-1.18.1 | contested |
+| Avoidance 79.5/91/~96–97% | [[d:rogue#1418639656043679935]] | pre-1.18.1 | single source |
+| Flourish → Evasion → Flourish loop | [[d:rogue#1428661874920128522]] | pre-1.18.1 | single source |
+| Agitating threat not AP/Vile-scaled | [[d:rogue#1346542096923754549]] | pre-1.18.1 | single source |
+| Tank screenshot builds (18/33/0, 31/20/0) | [[d:rogue#1346540267414749337]] | pre-1.18.1 | single source |
+
 ## Sources
 
 | Source | Authority | Date / era | Used for | Agreement |

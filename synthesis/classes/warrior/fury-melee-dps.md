@@ -140,6 +140,62 @@ The forum has no maintained Turtle pre-raid/BiS list ("To my knowledge no one ha
 - Swapping weapons mid-fight for Master Strike effects (resets swing timer — Licata, above).
 - Being loud about meters: "Make warriors do less dmg to be more in line with EVERYBODY else" [Shamma (player), 2022-11-18](https://forum.turtlecraft.gg/viewtopic.php?p=29437#p29437) — the community is sensitive about warrior stacking.
 
+## Discord findings (2025–2026)
+
+`#warrior` post-1.18.1 (2021-02 .. 2026-05). Citations `[[d:warrior#id]]` resolve in `structured/discord/evidence-warrior.jsonl`. Eras as in the Arms file.
+
+### Corrections and supersessions
+
+- **"2H Fury's existence is contested"** (forum) → the channel has **12 distinct 2H Fury 51-point builds** and a live rotation debate by 2024-11..2026-04: 2H Fury **exists and is played** [[d:warrior#1484972395130519612]], [[d:warrior#1485715700071928080]]. Its **strength vs DW remains contested** — "2h fury outperforms dual wield anyway" [[d:warrior#1488735194394525738]], [[d:warrior#1488745770168483982]] vs the DW-record crowd [[d:warrior#1484569477088547039]].
+- **Three named 2H Fury flavours post-1.18.1**: standard 2H Fury (Bloodthirst), **"deathcute"** (30/21, Death Wish + Execute), **"lawnmower"** (Sweeping-Strikes cleave) [[d:warrior#1484563441808183316]], [[d:warrior#1486335640856694826]], [[d:warrior#1491888988250702074]].
+- **"Flurry/Slam post-hotfix behaviour"** (forum gap) → resolved: 5/5 Flurry gives a **1.92 s Slam**, and Flurry is a **flat weapon-speed reduction, not haste**, hard-coded to affect Slam [[d:warrior#1485731806379639005]], [[d:warrior#1485732424653476001]], [[d:warrior#1485732852539723878]] (consensus, post-1.18.1). The forum's "15% attack speed" restatement (Bigsmerf) is superseded.
+- **Enrage framing**: Bloodrage procs Enrage (self-crit), so post-1.18.1 Enrage is nearly a **baseline 1-minute 20% cooldown** for all specs, "a 2nd deathwish in uptime" [[d:warrior#1423736226187317358]], [[d:warrior#1485964140072796200]], [[d:warrior#1488713744682057889]].
+
+### Talent builds (decoded, 1.18.1)
+
+| Build | Points | Code | Source |
+|---|---|---|---|
+| DW Fury raid (canonical, 24-code majority) | 17/34/0 | `dQAAJYAQ-AoFAoAAoZCVAB-` | [[d:warrior#1458686762325905418]] |
+| DW Fury raid | 20/31/0 | `dQQAAYDQ-AoFAoAAoZBFAB-` | [[d:warrior#1488735194394525738]] |
+| 2H Fury / Slam | 20/31/0 | `dQQAAYDQ-AoAooAAoZBFAB-` | [[d:warrior#1484972395130519612]] |
+| HC Fury-to-60 | — | `FQLAIYD-FoAAJYAoZBVAB-` | [[d:warrior#1469876907020652688]] |
+
+Key talents: Cruelty 5, Dual Wield Specialization 5, Improved Shouts 5, Enrage 5, Ravager 3 (renamed Improved Whirlwind), Death Wish 1, Flurry 5, Bloodthirst 1.
+
+### Rotation practice
+
+- **DW filler priority on every GCD where BT/WW are down: `Master Strike > Pummel > Hamstring > Sunder`**; Heroic Strike only on rage surplus [[d:warrior#1429836696479989844]], [[d:warrior#1427824735957418127]] (consensus, pre..post-1.18.1).
+- **2H Fury**: Slam only while Flurry is up; instant strikes otherwise; **do not clip autos or delay BT/WW** [[d:warrior#1485723095900618782]]. **Contested** by a sim result claiming the best 2H rotation "becomes just slam" and BT/WW always lower sim DPS [[d:warrior#1487574272217186355]] — sim-vs-practice, unresolved.
+- Death Wish popped on pull (30 s) with a **ttk-conditional macro** to avoid wasting it on trash [[d:warrior#1454878083579642078]], [[d:warrior#1471695135665553430]].
+- Execute phase: "deathcute" spends surplus rage on Execute; standard 2H Fury keeps BT/WW and uses `slam-exe-swing` [[d:warrior#1485451461239378063]], [[d:warrior#1485576434079629414]]; one sim says Slamming during the execute phase on 2H Fury at MC/BWL gear is a DPS loss [[d:warrior#1491715292546465852]].
+
+### Numbers
+
+- Same post-1.18.1 rage formula and caps as the Arms file [[d:warrior#1494491071366037607]], [[d:warrior#1485500872829177918]]. **DW is a steady rage stream; 2H is spiky** (a big crit ~70 rage, one dodge/glance hurts) [[d:warrior#1492029740448743524]].
+- **Spec hierarchy is contested**: DW Fury records [[d:warrior#1484569477088547039]] vs "2h fury outperforms dual wield" [[d:warrior#1488735194394525738]] vs Arms AoE/mid-ST [[d:warrior#1488521089893142660]] vs "MS is near superfluous when Slam exists" [[d:warrior#1492945449219395846]].
+- **DW best weapon contested**: Ironfoe/Modrag set [[d:warrior#1487852395512725554]] vs CTS simming above it [[d:warrior#1484515022850756659]]. **2H best weapon contested**: Reaper "especially for cleave" [[d:warrior#1487942059120787627]] vs BRE/UTB [[d:warrior#1491536751473332284]].
+
+### Gear, consumables, professions
+
+Identical to the Arms file (shared channel findings): the embedded pre-raid planner [[d:warrior#1494031704220893234]]; Diamond Flask 75 Str [[d:warrior#1485804733242544260]]; Flask of Petrified Gold +25% proc chance [[d:warrior#1485751182386397295]]; 30 s shared trinket CD [[d:warrior#1489336452205645954]]; execute pop order + no-GCD macro [[d:warrior#1493946168646828064]], [[d:warrior#1494010684982296686]]; professions Engineering > BS/Mining, First Aid + Cooking [[d:warrior#1459283546194575496]].
+
+### Leveling
+
+Post-1.18.1 consensus: **Fury is the best solo leveler; Arms if you have a healer** [[d:warrior#1484971008153747569]]; Arms 10-60 is still "standard" [[d:warrior#1492166484498190438]]; no-respec route Fury (Cruelty) to ~30 then Arms, DW when Blood Drinker is reachable [[d:warrior#1486086625799835798]], [[d:warrior#1486645720646942790]]. Off-hand gets +10% hit from DW Spec but off-hand misses still hurt rage generation "heavily" [[d:warrior#1428321174961524737]], [[d:warrior#1430007342480490506]]. Leveling stat priority `stam > str >= spirit > agi` [[d:warrior#1459283546194575496]].
+
+### Discord sources
+
+| Topic | Citation | Era | Agreement |
+|---|---|---|---|
+| DW Fury still record single-target | [[d:warrior#1484569477088547039]] | post-1.18.1 | consensus |
+| "2H fury outperforms DW" | [[d:warrior#1488735194394525738]] | post-1.18.1 | contested |
+| Canonical 2H Fury 20/31 | [[d:warrior#1484972395130519612]] | post-1.18.1 | single source |
+| DW filler priority | [[d:warrior#1429836696479989844]] | pre-1.18.1 | consensus |
+| 2H Slam only with Flurry | [[d:warrior#1485723095900618782]] | post-1.18.1 | consensus (2H posters) |
+| Pure-Slam sim | [[d:warrior#1487574272217186355]] | post-1.18.1 | contested |
+| Flurry→Slam 1.92 s | [[d:warrior#1485731806379639005]] | post-1.18.1 | consensus |
+| Kyrsie rework proposal | [[d:warrior#1486524065144373248]] | post-1.18.1 | single source / unshipped |
+
 ## Sources
 
 | Thread / post | Author (authority) | Date | Era | Used for | Agreement |

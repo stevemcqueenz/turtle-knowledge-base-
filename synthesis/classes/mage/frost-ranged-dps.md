@@ -116,6 +116,33 @@ Wiki Frost FAQ (raid trash):
 8. Expecting Flash Freeze from a Free Action Potion or Blessing of Freedom (removed 2025-04-01).
 9. Letting Ice Barrier lapse / not recasting it on cooldown for the 1.18.1 cast bonus.
 
+## Discord additions (post-1.18.1)
+
+The archived `#mage` Discord confirms the forum's Ice Barrier change, adds the mechanism behind Frost's weakness, and hardens the proc-only Icicles rule. Era tags: **pre-1.18.1**, **1.18.1-announced-pre-release**, **post-1.18.1**.
+
+### Rotation and procs
+
+- **Ice Barrier is cast on cooldown** for the 1.18.1 +10% Frost-on-cast bonus, not only defensively [[d:mage#1484361204200902697]]. Players initially thought the buff vanished when the shield broke — it does not, it was a pfUI display issue [[d:mage#1484696403149193316]], [[d:mage#1484866761202602075]] (**post-1.18.1, consensus**).
+- **Icicles must be cast under a Flash Freeze proc.** Casting it raw "roots you in place and causes you to potentially lose a ton of health \[and\] is worse than frostbolt" [[d:mage#1491959578827559113]]; "not using the fast version is a dps loss" [[d:mage#1491935288551932055]] (consensus). This resolves the forum's contested Crake-vs-wiki Icicles question in the wiki's favour.
+- **Flash Freeze no longer procs from Free Action Potion / Blessing of Freedom** — removed because "you could just delete people" [[d:mage#1486095084108779655]]. The design complaint is that FF depends entirely on the target being freeze-immune: "It either procs 100% with nova, or 0%" [[d:mage#1491938710412071152]], [[d:mage#1491939934926405762]] (post-1.18.1, single source).
+- **Winter's Chill**: keep 2–3 points for 80–90% uptime solo [[d:mage#1486342319245496382]].
+- **Improved Blizzard slow also lost duration**, 2.0 s → 1.5 s (the forum KB only noted 65% → 40%) [[d:mage#1430717972997214329]] (1.18.1-announced-pre-release, single source).
+
+### AoE and leveling
+
+- **Cone of Cold → Frost Nova → Flamestrike → Arcane Explosion**, no Blizzard: "for AoE farming, we don't use Blizzard at all anymore" [[d:mage#1489762019908260061]], [[d:mage#1486165941325660180]]; Blizzard "is the worst aoe spell for a mage end game" [[d:mage#1431797472346247359]]. Blizzard is only a cheap Flash-Freeze fisher (single source/consensus).
+- **Frost stays the default leveling spec** because of control and elite-quest soloing [[d:mage#1484551865285869688]], [[d:mage#1486136677134106724]] (consensus).
+
+### Weaknesses (post-1.18.1)
+
+A raider's concrete list [[d:mage#1484630072374726736]]: forced close range for Icicles, no pushback protection, no movement filler, and no mana-return talent in-tree (only low-tier Arcane). Combined with the reported mana issues and Flash Freeze RNG, this is the Discord explanation for the forum's "weakest raid spec" majority (**single source, post-1.18.1**).
+
+### Bosses
+
+Sapphiron is frost-immune and Kel'Thuzad highly frost-resistant [[d:mage#1281848179108876331]], [[d:mage#1493951049113800975]]; Kara40's Anomalus is arcane-immune [[d:mage#1493996129291997244]].
+
+Open after Discord: no complete Frost raid build in text (the wiki "Pepo frost" is still an image); the "Frost mana issues" cause is still unexplained.
+
 ## Sources
 
 | Source | Authority | Date | Era |
@@ -123,7 +150,7 @@ Wiki Frost FAQ (raid trash):
 | [Dragunovi p102968](https://forum.turtlecraft.gg/viewtopic.php?p=102968#p102968) | staff | 2024-10-12 | pre-1.18.1 |
 | [Jamey p113460](https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460) | staff | 2024-12-20 | pre-1.18.1 |
 | [Torta p124504](https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504) | staff | 2025-03-30 | pre-1.18.1 |
-| [Jamey p166071](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071) | staff | 2026-01-23 | 1.18.1-announced |
+| [Jamey p166071](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071) | staff | 2026-01-23 | 1.18.1-announced-pre-release |
 | Weekly changelogs 2024-06-26, 2024-11-20, 2024-12-04, 2024-12-11, 2025-02-19, 2025-03-19, 2025-04-30, 2025-10-22 | staff | as dated | pre-1.18.1 |
 | [Mage Frost FAQ](https://turtle-wow.fandom.com/wiki/Mage_Frost_FAQ) (rev. 2025-10-28), [Mage General FAQ](https://turtle-wow.fandom.com/wiki/Mage_General_FAQ) (rev. 2026-09-09), [Mage Levelling FAQ](https://turtle-wow.fandom.com/wiki/Mage_Levelling_FAQ) | wiki (community) | — | — |
 | Crake p152031 | player | 2025-09-17 | pre-1.18.1 |
@@ -131,4 +158,16 @@ Wiki Frost FAQ (raid trash):
 | Karazhan balance thread Frost raider ([t15610](https://forum.turtlecraft.gg/viewtopic.php?t=15610), page 3 area) | player | 2024-11 | pre-1.18.1 |
 | Gattare p111489; Bigsmerf p111490/p134584; Xudo p111491; Bahamutxd p111494/p110620; amanagor p111502/p167933; Atreidon p111516/p137216/p168459; Jammyzz p111518; Bayanni p111549; Mokkori p112682/p137198; Stron2003 p151926; Sharmaine p155528; Darkhann p170344; Alienns p174699; Captain4k p167387; Cheruscan p167405; Imonobor p82194; Mcnair p52391; Avalok p52335/p53392; Nett p86786; Ibux p101160; Darktifa p75350; Laysson p134573 | players | 2023–2026 | as dated |
 
-Agreement: raid standing — contested (majority: weakest; wiki/minority: viable but high variance); rotation — single source (wiki) with Crake partially agreeing; Winter's Chill points — consensus (sim + player); build — no complete source.
+Agreement: raid standing — contested (majority: weakest; wiki/minority: viable but high variance); rotation — single source (wiki) with Crake partially agreeing; Winter's Chill points — consensus (sim + player); build — no complete source (Discord confirms no full build but supplies the proc rules).
+
+### Discord sources (archived `#mage`)
+
+| Source | Era | Agreement | Used for |
+|---|---|---|---|
+| [[d:mage#1484361204200902697]], [[d:mage#1484696403149193316]] | post-1.18.1 | consensus | Ice Barrier cast bonus / pfUI caveat |
+| [[d:mage#1491935288551932055]], [[d:mage#1491959578827559113]] | post-1.18.1 | consensus | Icicles only with Flash Freeze |
+| [[d:mage#1491938710412071152]] | post-1.18.1 | single source | Flash Freeze design complaint |
+| [[d:mage#1486095084108779655]] | post-1.18.1 | single source | Flash Freeze removed from FAP/BoF |
+| [[d:mage#1430717972997214329]] | 1.18.1-announced-pre-release | single source | Improved Blizzard duration nerf |
+| [[d:mage#1489762019908260061]] | post-1.18.1 | consensus | AoE without Blizzard |
+| [[d:mage#1484630072374726736]] | post-1.18.1 | single source | Frost raid weaknesses |

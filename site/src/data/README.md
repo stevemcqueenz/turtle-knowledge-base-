@@ -21,6 +21,10 @@ the site builds without Python.
   (`synthesis/classes/spec-role-matrix.md`) as Markdown with their H1 removed.
 - **`glossary.json`** — 323 `{term, meaning, category, scope, citation_url}`
   entries from `structured/glossary.jsonl` (other fields dropped).
+- **`instances.json`** — the dungeon and raid pages from `guide/instances/`
+  (written only when `guide/instances/index.md` exists): the index's intro
+  and its two groups (Dungeons, Raids) as Markdown with the page slugs each
+  lists, and each page's title, kind, index group, intro and H2 sections.
 - **`meta.json`** — generation timestamp, repo commit, the acceptance
   counts, the forum/patch timeline (`structured/forum/timeline.json`), and a
   short note on source tiers and forum-link rot.
@@ -56,6 +60,21 @@ Two more optional fields on each `ClassEntry`:
   in use yet).
 
 Both are currently non-null for all 9 classes.
+
+### Guide pages (`guide/classes/**`)
+
+Classes with a `guide/classes/<class>/index.md` are built from their guide
+(see `site/README.md`, "Guide pages"). New `ClassEntry` keys: `guidePath`
+(the index path or `null`), `overview` (the index opening), `sources` (a
+`GuideDoc` `{slug, title, intro, sections, sourceFile}` from `sources.md`),
+`guidePages` (`GuideDoc[]` for pages no playbook claims) and `citations`
+(`"channel#id" -> {label, title, url|null}` for the Discord citations inside
+the class's YAML). Playbooks gain `sourceFile`, `guidePath` and the section
+slots `enchants` / `consumables`; a guide playbook's `overview` is the page's
+opening and its `sources` slot is `null` (citations are inline; the class
+sources page lists what informed it). `meta.guideClasses` lists the guide
+classes and `meta.discordCitations` counts resolved / unresolved citations.
+In all Markdown, `[[d:channel#id]]` is replaced by an inline HTML chip.
 
 ## How sections are split
 

@@ -113,6 +113,60 @@ The overwhelming majority of addon mentions in f18 are this exact shape: someone
 - Don't conflate Nampower (a client `.dll` performance patch) with a Lua addon in dialogue meant to sound informed — players who mention it know the distinction.
 - Don't invent a "no addon-ban list" — no staff post banning or blanket-restricting specific addons was found in this archive (one player asked "Is iMorph bannable like on the live servers?" in 2022 and the thread has no reply on record) — treat addon legality as an open question, not settled either way, unless a specific staff statement is found.
 
+## The client mod stack (`#code-corner`, Discord)
+
+A second, later body of addon evidence comes from the archived Turtle WoW Europe
+**`#code-corner`** Discord (29,909 messages, 2022-06-21 → 2026-05-30), Turtle's
+addon/tooling/technical channel. It is developer-influenced (addon authors post under
+their project names) and complements the forum census above. Authors are pseudonymized
+here per `synthesis/CONVENTIONS.md`; citations `[[d:code-corner#id]]` resolve in
+`structured/discord/evidence-code-corner.jsonl`. Era tags: `pre-1.18.1` (< 2025-10-03),
+`1.18.1-announced-pre-release` (2025-10-03 .. 2026-03-19), `post-1.18.1` (≥ 2026-03-20).
+
+**Turtle players run a patched executable plus DLL mods, not just Lua addons.** The
+in-channel "standard stack" is VanillaTweaks (one-time `wow.exe` patch) → VanillaFixes
+(launcher run every session, loads the DLLs) → Nampower (spell queuing, `IsSpellInRange`)
++ SuperWoW (hidden buffs, autoloot, 511-char macros, combat logging)
+[[d:code-corner#1064300156645818379]], [[d:code-corner#1088225716589568111]],
+[[d:code-corner#1289175514422055003]], [[d:code-corner#1228455937757417473]]. UnitXP_SP3
+adds line-of-sight/distance APIs, and DXVK/dxvk-async translates DX9 to Vulkan for large
+FPS gains [[d:code-corner#1283399432422817803]],
+[[d:code-corner#1033859949123600404]]. Several addons **require** this stack:
+SuperCleveRoidMacros needs SuperWoW + Nampower + UnitXP
+[[d:code-corner#1433579920730099894]].
+
+**Turtle-specific forks are the norm.** pfQuest-turtle adds Turtle quests and was
+re-forked post-1.18.1 to fix markers; Instance Journal rebuilds the Encounter Journal with
+custom bosses; ShaguTweaks-more-mods and GoggleMaps Turtle fill the same role
+[[d:code-corner#1086762502483890287]], [[d:code-corner#1481496088622928073]],
+[[d:code-corner#1484657806635171921]], [[d:code-corner#1165793054964334682]]). Turtle's
+own launcher gained an Addons tab before 1.18.1 [[d:code-corner#1488927179453501470]].
+
+**Macro addons replace native macro features the 1.12 client lacks.** `#showtooltip`,
+`/startattack`, `/stopcasting`, `/castsequence`, `/equip` and `/use <name>` are not
+native; they come from SuperMacro, Roid-Macros, CleveRoid/SuperCleveRoidMacros or GMacro,
+or are scripted with `/run` [[d:code-corner#1310741319546830890]],
+[[d:code-corner#1354103471305134102]]. A single macro line over ~255 characters crashes
+the client, and 511 chars needs SuperWoW [[d:code-corner#1443930190743994369]],
+[[d:code-corner#1238364213143928842]]. Mouseover is not native either
+[[d:code-corner#1278504904503201876]].
+
+**The class-macro culture is emote-driven and conditional-heavy.** Players post full
+priority one-button rotations using SuperCleveRoidMacros conditionals
+(`[combo:>0]`, `[reactive]Overpower`, `[stimer:<10]Slam`, `[channeltime:<0.5]`), and ask
+for fixes in-channel rather than testing [[d:code-corner#1472281049802473586]],
+[[d:code-corner#1445152969485058069]], [[d:code-corner#1447668679612305519]]. Beware:
+many posted snippets are known-broken or unanswered questions (see
+`synthesis/guides/addons-and-macros.md`).
+
+**Community tooling reveals the mechanics the client hides.** BigWigs is the de-facto
+boss timer (its `farclip` default caused Maexxna portal failures, staff-confirmed)
+[[d:code-corner#1270523199691427911]]; TWThreat decodes an undocumented server threat
+API and breaks when mobs share a name [[d:code-corner#1263168205556547765]],
+[[d:code-corner#1374701093157732415]]; ShaguDPS/SW_Stats cannot attribute totem damage
+without SuperWoW combat logs [[d:code-corner#1241358757431345222]]; Cursive is the
+community DoT tracker [[d:code-corner#1417392442206064712]].
+
 ## Gaps (not found in sources)
 
 - No staff post enumerating banned or disallowed addons was found; one relevant question (iMorph model-changer, 2022) went unanswered in the archive.

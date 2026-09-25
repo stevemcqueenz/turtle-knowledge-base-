@@ -2,6 +2,7 @@ import type { YamlTalentPoint } from '../../types';
 import { readableColor } from '../../lib/theme';
 import { useThemeValue } from '../../lib/theme-context';
 import { describeValue, isContested, rankNumber } from './util';
+import { CitedText } from '../CitedText';
 
 const MAX_PIPS = 5;
 
@@ -60,7 +61,9 @@ export function TalentRows({ points, color }: { points: YamlTalentPoint[]; color
               </span>
               {note ? (
                 <span className="mt-0.5 block text-xs" style={contested ? { color: amber } : undefined}>
-                  <span className={contested ? '' : 'text-muted'}>{note}</span>
+                  <span className={contested ? '' : 'text-muted'}>
+                    <CitedText text={note} />
+                  </span>
                 </span>
               ) : rank === null && !p?.rank ? (
                 <span className="mt-0.5 block text-xs text-muted">rank not fixed by the sources</span>

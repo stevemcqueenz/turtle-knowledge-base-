@@ -34,7 +34,7 @@ Era coverage: Fire was changed in 1.17.2 (Ignite 6 s, Hot Streak, Improved Fire 
 
 ### Allocation
 
-No source posts a complete 51-point raid build in text ("Pepo raid" on the wiki is an image — **gap**). The wiki Fire FAQ (rev. 2026-03-04, i.e. after 1.18.0 and after the 1.18.1 preview) gives a full levelling path that is 46 points at 55 "and have 5 points to play with however you would like":
+No source posts a complete 51-point raid build in text ("Pepo raid" on the wiki is an image). **Discord closes this gap:** a level-60 screenshot labelled `MAGE 13 / 35 / 3` was transcribed, with **Hot Streak deliberately skipped** and Improved Flamestrike skipped [[d:mage#1467615825954340866]] (**1.18.1-announced-pre-release**, single source). The Fire 35 tree: Improved Fireball 5, Ignite 5, Flame Throwing 1, Improved Fire Blast 3, Incinerate 2, Pyroblast 1, Burning Soul 2, Fire Vulnerability 3, Master of Elements 3, Blast Wave 1, Critical Mass 3, Fire Power 5, Combustion 1; Arcane 13 ≈ Subtlety 2, Focus 3, Concentration 5, Impact 3; Frost 3 = Elemental Precision. A pre-1.18.1 decoded 13/35/3 also exists [[d:mage#1337428646981271614]]. The wiki Fire FAQ (rev. 2026-03-04, i.e. after 1.18.0 and after the 1.18.1 preview) gives a full levelling path that is 46 points at 55 "and have 5 points to play with however you would like":
 
 | Order | Tree | Talent | Points | Cumulative |
 |---|---|---|---|---|
@@ -124,6 +124,35 @@ Wiki Fire FAQ (rev. 2026-03-04):
 6. Skipping Hot Streak because it "felt like garbage" in Nov 2024 — that was the 3-point/0.5 s/9-stack version, since buffed twice.
 7. Relying on tea alone for mana without Arcane Concentration / Master of Elements (Forbearance).
 
+## Discord additions (post-1.18.1; the transcribed 13/35/3 raid build is 1.18.1-announced-pre-release)
+
+The archived `#mage` Discord supplies the transcribed raid build, the Ignite mechanics and the haste warning. Era tags: **pre-1.18.1**, **1.18.1-announced-pre-release**, **post-1.18.1**.
+
+### The 1.18.1 rotation change — Fire Blast is the highest-DPS button
+
+Improved Fire Blast's GCD reduction (0.3/0.6/1.0 s) "literally changes your rotation" [[d:mage#1484462342086590464]] and makes Fire Blast the highest-DPS spell: "not pressing fireblast as soon as it is up feels bad as it is your highest dps spell by a good margin" [[d:mage#1487204103632191600]] (**post-1.18.1, consensus**).
+
+- **Cadence:** with **no haste** weave a Fire Blast after exactly 2 Fireballs; with any haste cast a 3rd Fireball first (Fire Blast is not back after 2) [[d:mage#1487203302314606722]], [[d:mage#1487204103632191600]].
+- **Small amounts of haste are a DPS loss** in the current rotation — "potion of quickness/juju flurry/atiesh actually sim about 0.5–1% DPS lower … due to the haste throwing the rotation into 3× fireball > fireblast" [[d:mage#1489266514749034536]]; it is good again at the **~47% MQG+consumes window** [[d:mage#1489285264332296362]] (**contested, post-1.18.1**).
+- Bha!'s opener summary: build 5 Scorch stacks (Fire Blast also applies a stack since 1.18.0 [[d:mage#1436842451150176307]]); "fire blast all you can (should be every 2/3 fireballs) … pyroblast at 4/5 \[Hot Streak\] stacks and scorch for fire vulnerability if target is alive for 1 min" [[d:mage#1485659693857902663]].
+
+### Ignite mechanics
+
+- Ignite stores **40% of the first five crits**; the tick does not grow afterwards, so a **weakly-built/partial-resisted ignite should be dropped and rebuilt** [[d:mage#1235700216292835441]], [[d:mage#1487205700340941033]], [[d:mage#1487206596852449382]] (consensus).
+- Ignite is **4 s since 1.18.0**; the wiki Fire FAQ's 6 s haste computation is **superseded** — Discord's cadence advice is for 4 s [[d:mage#1433239410652086395]], [[d:mage#1488094426352980008]].
+- **Split-ignite eligibility requires a Hot Streak or Combustion buff** (you must be flagged as Fire) [[d:mage#1486342319245496382]]; a solo mage can hold Ignite only at ~50% Fireball crit, else run 2–3 Fire mages [[d:mage#1487094005933019226]], [[d:mage#1430521459318718547]].
+
+### Stats, gear and bosses
+
+- **Fire crit is worth >20–25 SP** at endgame [[d:mage#1493652965158944868]], [[d:mage#1493648203491442718]] — corroborates the wiki sim (crit ≈25/hit ≈23/haste ≈15 SP at 1000 SP).
+- **Fire is a solo-viable spec** at ~50% Fireball crit; otherwise 2–3 fire mages [[d:mage#1487094005933019226]], [[d:mage#1430521459318718547]].
+- Fire-immune bosses: Ragnaros/Golemagg/Geddon/MC elementals [[d:mage#908118232249024534]]; BWL drakes + Onyxia [[d:mage#1079771651232768131]], [[d:mage#1279087141598662687]]. Fire is an **AQ40+ spec** — "you are forced to not play it until you finish BWL" [[d:mage#1484554859473670175]].
+- **Loatheb** is the Fire showcase (100% crit from spores; a good Ignite ~250k with 5 mages), tracked past the 48-debuff visual cap with the BigWigs **MageTools V2** plugin [[d:mage#900490010200002620]], [[d:mage#1229314969414402108]], [[d:mage#1484297069148770464]]. **Patchwerk: solo Fire 2k DPS** post-1.18.1 [[d:mage#1487093190426366004]]. **Chromaggus**: swap schools as vulnerabilities rotate, a fire mage after 6 stacks [[d:mage#1257243086845640704]], [[d:mage#1494000313575936041]]. **Nefarian**: Ice Block while he casts the class call, not after; Blink does not break the shackle [[d:mage#1494650524639825992]], [[d:mage#1494656562172526847]].
+- Consumes: full list and stacking rules (Flask of Supreme Power + Elixir of Greater Arcane Power + Dreamshard Elixir + Dreamtonic; Mageblood, Spirit of Zanza; Juju Flurry + Potion of Quickness + Berserking + Elune's Courage stack; Nordanaar Tea) [[d:mage#1438508962843463692]], [[d:mage#1427637200375382099]], [[d:mage#1488098864048115845]]; **engineering is the only profession that adds raid damage** (Sapper) [[d:mage#1438550709686501427]].
+- **Fire T3.5 5-set bug (bug 18568): no Discord confirmation either way.** The only related Discord note is that the 3-set rewind does **not** proc Ignite [[d:mage#1433242806238969877]].
+
+Open after Discord: no clean 2–3 target Fire threshold (gap); Vaelastrasz Burning Adrenaline rotation unanswered [[d:mage#1489847647895556107]].
+
 ## Sources
 
 | Source | Authority | Date | Era |
@@ -133,12 +162,26 @@ Wiki Fire FAQ (rev. 2026-03-04):
 | [Jamey p113460](https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460) | staff | 2024-12-20 | pre-1.18.1 |
 | [Torta p124504](https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504) | staff | 2025-03-30 | pre-1.18.1 |
 | [Jamey p141159](https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159) | staff | 2025-07-25 / rev. 2025-08-14 | pre-1.18.1 |
-| [Jamey p166071](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071) | staff | 2026-01-23 / rev. 2026-01-26 | 1.18.1-announced |
+| [Jamey p166071](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071) | staff | 2026-01-23 / rev. 2026-01-26 | 1.18.1-announced-pre-release |
 | 1.18.0 itemization [t20103](https://forum.turtlecraft.gg/viewtopic.php?t=20103); 1.18.1 notes [p154168](https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168) | staff | 2025 | pre/announced |
 | Weekly changelogs (2024-03-06, 2024-09-04, 2024-12-04, 2024-12-11, 2025-02-19, 2025-10-22) | staff | as dated | pre-1.18.1 |
 | [Mage Fire FAQ](https://turtle-wow.fandom.com/wiki/Mage_Fire_FAQ), [Mage General FAQ](https://turtle-wow.fandom.com/wiki/Mage_General_FAQ), [Mage Levelling FAQ](https://turtle-wow.fandom.com/wiki/Mage_Levelling_FAQ) | wiki (community) | rev. 2026-03-04 / 2026-09-09 / 2025-10-01 | — |
 | Eluaria p160732, p167347, p167923, p171409 | player | 2025-11 → 2026-03 | both |
-| Cheruscan p158193, p167406 | player | 2025-11, 2026-02 | 1.18.1-announced |
+| Cheruscan p158193, p167406 | player | 2025-11, 2026-02 | 1.18.1-announced-pre-release |
 | Bahamutxd p107097/p107181/p110663/p134745; Forbearance p107195/p107208; Xudo p107199/p83404; Rethon p108772; Trojjie1 p107088; Darktifa p107081/p75350; Sauceman89 p91574; Akos1896 p91576; Erhog p82178; Bigsmerf p122817; Zvyrhol p90741; Wsta p171412/p158984; Joras333 p83397; Mativh p76091; Atolius p134628; Rudyraccoon p75490; Perkamov p161504 | players | 2023–2026 | as dated |
 
-Agreement: standing — contested (viable/competitive vs. needs coordination); rotation — single source (wiki) with corroborating player remarks; stat weights — single source (wiki sim); build — single source (wiki), raid build image not extractable.
+Agreement: standing — contested (viable/competitive vs. needs coordination); rotation — single source (wiki) with corroborating player remarks; stat weights — single source (wiki sim); build — single source (wiki), raid build image now transcribed from Discord (**single source**).
+
+### Discord sources (archived `#mage`)
+
+| Source | Era | Agreement | Used for |
+|---|---|---|---|
+| [[d:mage#1467615825954340866]] | 1.18.1-announced-pre-release | single source | 13/35/3 raid build screenshot |
+| [[d:mage#1484462342086590464]], [[d:mage#1487204103632191600]] | post-1.18.1 | consensus | Fire Blast highest-DPS cadence |
+| [[d:mage#1489266514749034536]], [[d:mage#1489285264332296362]] | post-1.18.1 | contested | small haste is a DPS loss |
+| [[d:mage#1235700216292835441]], [[d:mage#1487205700340941033]] | pre-1.18.1/post-1.18.1 | consensus | Ignite mechanics |
+| [[d:mage#1433239410652086395]], [[d:mage#1488094426352980008]] | post-1.18.1 | consensus | Ignite 4 s supersedes 6 s |
+| [[d:mage#1486342319245496382]] | post-1.18.1 | consensus | split-ignite eligibility |
+| [[d:mage#1493652965158944868]] | post-1.18.1 | consensus | crit >20–25 SP |
+| [[d:mage#1484554859473670175]] | post-1.18.1 | consensus | Fire locked out until after BWL |
+| [[d:mage#1487093190426366004]] | post-1.18.1 | single source | Patchwerk 2k DPS |
