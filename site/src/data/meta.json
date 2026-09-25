@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-25T21:04:10Z",
-  "repoCommit": "5c61dfcd",
+  "generatedAt": "2026-09-25T22:15:03Z",
+  "repoCommit": "226c1bc3",
   "counts": {
     "classes": 9,
     "playbooks": 49,
@@ -32,7 +32,7 @@
     "druid"
   ],
   "discordCitations": {
-    "resolved": 13133,
+    "resolved": 13769,
     "unresolved": 0
   },
   "instanceCounts": {

@@ -140,6 +140,6 @@ only thing that would regress this); and all four JSON files parse.
 during development before real data exists — it is not written or read by
 `build-data.py`.
 
-## professions.json (optional)
+## guides.json (optional)
 
-`guide/professions.md`, the professions overview for every class, as a GuideDoc (`{slug: "professions", title, intro, sections[], sourceFile}`) plus `recommendation` (its **Recommendation:** paragraph, label removed). Written only when the page exists. Links to the class pages are `#/class/<slug>/professions` routes; the class professions pages themselves stay in `classes.json` under `guidePages` (slug `professions`). Shape in `src/types.ts` `ProfessionsData`.
+The general guides: every top-level `guide/<name>.md` (`professions.md`, `pvp.md`, `client-setup.md`, `server-mechanics.md`, ...) as `{guides: [...]}`, each a GuideDoc (`{slug, title, intro, sections[], sourceFile}`) plus `route` (`#/<slug>`) and `recommendation` (its **Recommendation:** paragraph, label removed). `slug` is the route slug: the file name, except `server-mechanics.md` → `mechanics`. Order: professions, pvp, client-setup, server-mechanics, then any other page alphabetically. Written only when at least one page exists (it replaces the older `professions.json`). Relative links in and to these pages are site routes; the professions overview links the class pages as `#/class/<slug>/professions`, and the class professions pages themselves stay in `classes.json` under `guidePages` (slug `professions`). Shape in `src/types.ts` `GeneralGuideData` / `GeneralGuidesFile`.

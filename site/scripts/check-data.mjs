@@ -420,33 +420,57 @@ if (existsSync(instancesPath)) {
   fail('meta.instanceCounts.pages is set but instances.json is missing');
 }
 
-/* ---- professions.json (optional: the professions overview) --------------- */
+/* ---- guides.json (optional: the general guides, guide/*.md) -------------- */
 let professionSections = 0;
-const professionsPath = join(chosen.dir, 'professions.json');
-if (existsSync(professionsPath)) {
-  let doc = null;
+let generalGuides = 0;
+const guidesPath = join(chosen.dir, 'guides.json');
+if (existsSync(join(chosen.dir, 'professions.json')))
+  fail('professions.json is stale: the professions overview lives in guides.json now (re-run build-data.py)');
+if (existsSync(guidesPath)) {
+  let file = null;
   try {
-    doc = JSON.parse(readFileSync(professionsPath, 'utf8'));
+    file = JSON.parse(readFileSync(guidesPath, 'utf8'));
   } catch (err) {
-    fail(`professions.json does not parse: ${err.message}`);
+    fail(`guides.json does not parse: ${err.message}`);
   }
-  if (doc !== null) {
-    checkGuideDoc(doc, 'professions');
-    if (doc.recommendation !== undefined && !isNullableString(doc.recommendation))
-      fail('professions.recommendation must be a string or null');
-    professionSections = isArray(doc.sections) ? doc.sections.length : 0;
-    const withPage = new Set(
-      (isArray(data.classes) ? data.classes : [])
-        .filter((c) => (c.guidePages ?? []).some((d) => d.slug === 'professions'))
-        .map((c) => c.slug),
+  if (file !== null && !isArray(file?.guides)) fail('guides.json: guides must be an array');
+  else if (file !== null) {
+    const allClasses = isArray(data.classes) ? data.classes : [];
+    const classSlugs = new Set(allClasses.map((c) => c.slug));
+    const withProfessions = new Set(
+      allClasses.filter((c) => (c.guidePages ?? []).some((d) => d.slug === 'professions')).map((c) => c.slug),
     );
-    const texts = [['professions.intro', doc.intro], ...(doc.sections ?? []).map((s) => [`professions.${s.id}`, s.markdown])];
-    for (const [where, md] of texts) {
-      checkGuideMarkdown(md, where);
-      if (!isString(md)) continue;
-      if (/\]\((?!https?:|#\/|mailto:)[^)]*\.md(?:#[^)]*)?\)/.test(md)) fail(`${where}: unrewritten relative .md link`);
-      for (const m of md.matchAll(/\]\(#\/class\/([a-z]+)\/professions\)/g))
-        if (!withPage.has(m[1])) fail(`${where}: #/class/${m[1]}/professions has no class professions page`);
+    const RESERVED = new Set(['class', 'instances', 'matrix', 'archive', 'about', 'glossary']);
+    const seen = new Set();
+    const routes = new Set(file.guides.map((g) => g?.route));
+    generalGuides = file.guides.length;
+    for (const [i, doc] of file.guides.entries()) {
+      const where = `guides[${i}]${isObject(doc) && isString(doc.slug) ? ` (${doc.slug})` : ''}`;
+      checkGuideDoc(doc, where);
+      if (!isObject(doc)) continue;
+      if (!isString(doc.slug) || !/^[a-z0-9][a-z0-9-]*$/.test(doc.slug)) fail(`${where}: slug must be a route slug`);
+      else if (RESERVED.has(doc.slug)) fail(`${where}: slug collides with a site route`);
+      if (seen.has(doc.slug)) fail(`${where}: duplicate slug`);
+      seen.add(doc.slug);
+      if (doc.route !== `#/${doc.slug}`) fail(`${where}: route must be "#/${doc.slug}"`);
+      if (isString(doc.sourceFile) && !/^guide\/[^/]+\.md$/.test(doc.sourceFile)) fail(`${where}: sourceFile must be a top-level guide/*.md`);
+      if (doc.recommendation !== undefined && !isNullableString(doc.recommendation))
+        fail(`${where}: recommendation must be a string or null`);
+      if (doc.slug === 'professions') professionSections = isArray(doc.sections) ? doc.sections.length : 0;
+      const texts = [[`${doc.slug}.intro`, doc.intro], ...(doc.sections ?? []).map((s) => [`${doc.slug}.${s.id}`, s.markdown])];
+      for (const [w, md] of texts) {
+        checkGuideMarkdown(md, w);
+        if (!isString(md)) continue;
+        if (/\]\((?!https?:|#\/|mailto:)[^)]*\.md(?:#[^)]*)?\)/.test(md)) fail(`${w}: unrewritten relative .md link`);
+        for (const m of md.matchAll(/\]\(#\/class\/([a-z]+)\/professions\)/g))
+          if (!withProfessions.has(m[1])) fail(`${w}: #/class/${m[1]}/professions has no class professions page`);
+        for (const m of md.matchAll(/\]\(#\/class\/([a-z]+)[)/?]/g))
+          if (!classSlugs.has(m[1])) fail(`${w}: link to unknown class "${m[1]}"`);
+        // links between general guides point at a guide that exists
+        for (const m of md.matchAll(/\]\((#\/[a-z0-9-]+)\)/g))
+          if (!['#/instances', '#/matrix', '#/archive', '#/about', '#/glossary'].includes(m[1]) && !routes.has(m[1]))
+            fail(`${w}: link to unknown page ${m[1]}`);
+      }
     }
   }
 }
@@ -507,7 +531,7 @@ const label = chosen.kind === 'generated' ? 'src/data' : 'src/data/fixtures (dev
 console.log(`check-data: ${label}`);
 console.log(
   `  ${isArray(data.classes) ? data.classes.length : 0} classes, ${playbookCount} playbooks, ${levelingCount} leveling guides, ` +
-    `${isArray(data.matrix?.rows) ? data.matrix.rows.length : 0} matrix rows, ${isArray(data.glossary) ? data.glossary.length : 0} glossary terms, ${instanceCount} instance pages, ${professionSections} professions sections`,
+    `${isArray(data.matrix?.rows) ? data.matrix.rows.length : 0} matrix rows, ${isArray(data.glossary) ? data.glossary.length : 0} glossary terms, ${instanceCount} instance pages, ${generalGuides} general guides (${professionSections} professions sections)`,
 );
 warnings.slice(0, 20).forEach((w) => console.log(`  ! ${w}`));
 if (warnings.length > 20) console.log(`  ! …and ${warnings.length - 20} more warnings`);

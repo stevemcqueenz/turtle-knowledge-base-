@@ -7,11 +7,12 @@
  *                           of spec pages and their section headings), the instance
  *                           index, glossary, meta. Enough for home, search, the
  *                           viability board and every header.
- *   virtual:twow-loaders    `loadClass(slug)`, `loadInstances()`, `loadMatrix()`:
+ *   virtual:twow-loaders    `classLoaders`, `guideLoaders`, `loadInstances()`, `loadMatrix()`:
  *                           dynamic imports of the heavy per-class / instance /
  *                           archive modules below, each its own chunk.
  *   virtual:twow-class/<slug>, virtual:twow-instances, virtual:twow-matrix,
- *   virtual:twow-professions (the professions overview, guide/professions.md)
+ *   virtual:twow-guide/<slug> (one general guide, guide/<name>.md: professions,
+ *                           PvP, client setup, server mechanics, ...)
  *
  * The JSON files stay the single, tested data contract (build-data.py,
  * test_data.py and check-data.mjs read them unchanged); this plugin only
@@ -110,6 +111,16 @@ function summarizeInstances(inst) {
   };
 }
 
+/** A general guide as the core module lists it: enough for the sidebar, home and search. */
+function summarizeGuide(g) {
+  return {
+    slug: g.slug,
+    route: g.route,
+    title: g.title,
+    headings: (g.sections ?? []).map((s) => ({ id: s.id, heading: stripTags(s.heading) })),
+  };
+}
+
 export function twowData() {
   let cache = null;
   const data = () => {
@@ -127,7 +138,7 @@ export function twowData() {
       glossary: read('glossary'),
       meta: read('meta'),
       instances: read('instances'),
-      professions: read('professions'),
+      guides: read('guides')?.guides ?? [],
     };
     return cache;
   };
@@ -142,7 +153,7 @@ export function twowData() {
       if (!id.startsWith(`\0${PREFIX}`)) return null;
       const name = id.slice(PREFIX.length + 1);
       const d = data();
-      for (const n of [...REQUIRED, 'instances', 'professions']) {
+      for (const n of [...REQUIRED, 'instances', 'guides']) {
         const path = join(d.dir, `${n}.json`);
         if (existsSync(path)) this.addWatchFile(path);
       }
@@ -153,24 +164,22 @@ export function twowData() {
           glossary: d.glossary,
           meta: d.meta,
           instances: summarizeInstances(d.instances),
-          professions: d.professions
-            ? {
-                title: d.professions.title,
-                headings: d.professions.sections.map((s) => ({ id: s.id, heading: stripTags(s.heading) })),
-              }
-            : null,
+          guides: d.guides.map(summarizeGuide),
           isFixture: d.isFixture,
         });
       }
       if (name === 'loaders') {
         const lines = d.classes.map((c) => `  ${JSON.stringify(c.slug)}: () => import(${JSON.stringify(`${PREFIX}class/${c.slug}`)}),`);
+        const guideLines = d.guides.map((g) => `  ${JSON.stringify(g.slug)}: () => import(${JSON.stringify(`${PREFIX}guide/${g.slug}`)}),`);
         return [
           'export const classLoaders = {',
           ...lines,
           '};',
+          'export const guideLoaders = {',
+          ...guideLines,
+          '};',
           `export const loadInstances = ${d.instances ? `() => import('${PREFIX}instances')` : 'null'};`,
           `export const loadMatrix = () => import('${PREFIX}matrix');`,
-          `export const loadProfessions = ${d.professions ? `() => import('${PREFIX}professions')` : 'null'};`,
         ].join('\n');
       }
       if (name.startsWith('class/')) {
@@ -181,7 +190,12 @@ export function twowData() {
       }
       if (name === 'instances') return json(d.instances);
       if (name === 'matrix') return json(d.matrix);
-      if (name === 'professions') return json(d.professions);
+      if (name.startsWith('guide/')) {
+        const slug = name.slice('guide/'.length);
+        const entry = d.guides.find((g) => g.slug === slug);
+        if (!entry) throw new Error(`twow-data: no guide ${slug}`);
+        return json(entry);
+      }
       throw new Error(`twow-data: unknown module ${id}`);
     },
     handleHotUpdate(ctx) {
@@ -191,4 +205,4 @@ export function twowData() {
 }
 
 // Exposed for the smoke test and the data checks.
-export { summarize, summarizeInstances };
+export { summarize, summarizeInstances, summarizeGuide };

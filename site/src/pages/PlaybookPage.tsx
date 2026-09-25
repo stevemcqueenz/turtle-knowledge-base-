@@ -17,6 +17,7 @@ import { RoleIcon } from '../components/class/RoleIcon';
 import { ClassNav } from '../components/class/ClassNav';
 import { RatingTooltip } from '../components/class/ViabilityMatrix';
 import { cleanHeading } from '../components/guide/util';
+import { specIcon } from '../lib/icons';
 import { NotFound } from './NotFound';
 
 const TEMPLATE = [
@@ -108,7 +109,7 @@ export function PlaybookPage({ slug, id }: { slug: string; id: string }) {
             { label: cls.name, href: href.class(slug) },
             { label: pvp ? `PvP · ${specLabel(playbook.spec)}` : specLabel(playbook.spec) },
           ]}
-          icon={<ClassMark name={cls.name} color={cls.color} size="xl" />}
+          icon={<ClassMark name={cls.name} color={cls.color} size="xl" badge={specIcon(slug, playbook.spec)} />}
           title={
             <>
               <span style={{ color: ink }}>{specLabel(playbook.spec)}</span> {pvp ? `${cls.name} PvP` : cls.name}
@@ -185,24 +186,24 @@ export function PlaybookPage({ slug, id }: { slug: string; id: string }) {
                 ))}
               </dl>
             ) : null}
-            {builds.length && tree ? <BuildCard builds={builds} tree={tree} rgb={rgb} /> : null}
+            {builds.length && tree ? <BuildCard builds={builds} tree={tree} rgb={rgb} cls={slug} /> : null}
             {!builds.length && !hasQuick ? (
               <p className="text-sm text-muted-foreground">No structured build or priority list is published for this spec; the full guide follows.</p>
             ) : null}
-            {glance?.rest ? <Markdown source={glance.rest} /> : null}
+            {glance?.rest ? <Markdown source={glance.rest} spells={slug} /> : null}
           </div>
         </Section>
 
         {howTo ? (
           <Section key={howTo.id} id={howTo.id} title="How to play">
-            <HowToPlay markdown={howTo.markdown} />
+            <HowToPlay markdown={howTo.markdown} spells={slug} />
           </Section>
         ) : null}
 
         {hasQuick && y ? (
           <Section id="quick-reference" title="Priorities and stats">
             <div className="grid gap-4 xl:grid-cols-2">
-              <PriorityCard yaml={y} />
+              <PriorityCard yaml={y} cls={slug} />
               <StatsCard yaml={y} />
             </div>
             <div className="mt-4">
@@ -213,7 +214,7 @@ export function PlaybookPage({ slug, id }: { slug: string; id: string }) {
 
         {sections.map((s) => (
           <Section key={s.id} id={s.id} title={cleanHeading(s.heading)}>
-            <Markdown source={s.markdown} />
+            <Markdown source={s.markdown} spells={slug} />
           </Section>
         ))}
 

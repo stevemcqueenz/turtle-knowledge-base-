@@ -9,7 +9,8 @@ export type Route =
   | { name: 'sources'; slug: string }
   | { name: 'guide-page'; slug: string; page: string }
   | { name: 'class-professions'; slug: string }
-  | { name: 'professions' }
+  /** A general guide, `guide/<name>.md` at `#/<slug>` (`#/professions`, `#/pvp`, `#/mechanics`, ...). */
+  | { name: 'general-guide'; slug: string }
   | { name: 'glossary' }
   | { name: 'instances' }
   | { name: 'instance'; slug: string }
@@ -26,7 +27,6 @@ export function parseHash(hash: string): Route {
   if (parts[0] === 'matrix' && parts.length === 1) return { name: 'matrix' };
   if (parts[0] === 'about' && parts.length === 1) return { name: 'about' };
   if (parts[0] === 'archive' && parts.length === 1) return { name: 'archive' };
-  if (parts[0] === 'professions' && parts.length === 1) return { name: 'professions' };
   if (parts[0] === 'glossary' && parts.length === 1) return { name: 'glossary' };
   if (parts[0] === 'instances' && parts.length === 1) return { name: 'instances' };
   if (parts[0] === 'instances' && parts.length === 2) return { name: 'instance', slug: parts[1] };
@@ -48,6 +48,9 @@ export function parseHash(hash: string): Route {
   }
   if (parts[0] === 'class' && parts.length === 4 && parts[2] === 'guide')
     return { name: 'guide-page', slug: parts[1], page: parts[3] };
+  // Any other one-segment path is a general guide; the page shows "not found"
+  // for a slug the data does not have.
+  if (parts.length === 1 && /^[a-z0-9][a-z0-9-]*$/.test(parts[0])) return { name: 'general-guide', slug: parts[0] };
   return { name: 'not-found', path: pathPart };
 }
 
@@ -78,6 +81,8 @@ export const href = {
     page === 'professions' ? `#/class/${slug}/professions` : `#/class/${slug}/guide/${page}`,
   classProfessions: (slug: string) => `#/class/${slug}/professions`,
   professions: () => '#/professions',
+  /** A general guide by its route slug. */
+  guide: (slug: string) => `#/${slug}`,
   glossary: () => '#/glossary',
   instances: () => '#/instances',
   instance: (slug: string) => `#/instances/${slug}`,

@@ -26,7 +26,7 @@ interface DocLayoutProps {
  * A prose page built from one Markdown document: header, then the H2
  * sections in document order with the "On this page" list. Used by the class
  * guides' standalone pages (sources, professions, niche roles) and the
- * professions overview.
+ * general guides (#/professions, #/pvp, #/client-setup, #/mechanics).
  */
 export function DocLayout({ crumbs, title, titleStyle, icon, meta, nav, lead, intro, sections, before, footer, style }: DocLayoutProps) {
   return (

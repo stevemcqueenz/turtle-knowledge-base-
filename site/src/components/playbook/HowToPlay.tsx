@@ -30,13 +30,13 @@ export function parseLoop(markdown: string): { intro: string; steps: Step[]; out
  * The spec's level-60 play loop as a numbered track: each step's title in
  * bold, its detail (and citations) under it, a "repeat" cap at the end.
  */
-export function HowToPlay({ markdown }: { markdown: string }) {
+export function HowToPlay({ markdown, spells }: { markdown: string; spells?: string }) {
   const loop = useMemo(() => parseLoop(markdown), [markdown]);
-  if (!loop) return <Markdown source={markdown} />;
+  if (!loop) return <Markdown source={markdown} spells={spells} />;
   const back = loop.steps.length > 2 && /open|pull|before|buff/i.test(loop.steps[0].label ?? '') ? 2 : 1;
   return (
     <div className="space-y-3">
-      {loop.intro ? <Markdown source={loop.intro} className="text-[13.5px] text-muted-foreground" /> : null}
+      {loop.intro ? <Markdown source={loop.intro} spells={spells} className="text-[13.5px] text-muted-foreground" /> : null}
       <div className="relative overflow-hidden rounded-lg border bg-card">
         <span aria-hidden="true" className="absolute inset-y-0 left-0 z-10 w-[2px] bg-[rgb(var(--cc-raw))]" />
         <ol>
@@ -50,7 +50,7 @@ export function HowToPlay({ markdown }: { markdown: string }) {
             </span>
             <div className="min-w-0">
               {s.label ? <p className="text-[14px] font-semibold leading-6">{s.label}</p> : null}
-              {s.body.trim() ? <Markdown source={s.body} className="text-[14px] leading-relaxed [&>p]:mb-1.5" /> : null}
+              {s.body.trim() ? <Markdown source={s.body} spells={spells} className="text-[14px] leading-relaxed [&>p]:mb-1.5" /> : null}
             </div>
           </li>
         ))}
@@ -59,7 +59,7 @@ export function HowToPlay({ markdown }: { markdown: string }) {
           <Repeat className="h-3.5 w-3.5" aria-hidden="true" /> Back to step {back}
         </p>
       </div>
-      {loop.outro ? <Markdown source={loop.outro} /> : null}
+      {loop.outro ? <Markdown source={loop.outro} spells={spells} /> : null}
     </div>
   );
 }

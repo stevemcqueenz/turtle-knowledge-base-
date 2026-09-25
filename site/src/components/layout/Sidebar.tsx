@@ -1,12 +1,15 @@
 import { useEffect, useState, type ReactNode } from 'react';
-import { BookA, Castle, ChevronRight, FlaskConical, Home, Info, LayoutGrid } from 'lucide-react';
+import { BookA, Castle, ChevronRight, Home, Info, LayoutGrid } from 'lucide-react';
 import type { Route } from '../../lib/router';
 import { href } from '../../lib/router';
 import { classes, distinctSpecLabel, specLabel } from '../../lib/site';
 import { instanceIndex } from '../../lib/instances';
+import { generalGuides } from '../../lib/guides';
 import { prefetchClass } from '../../data';
 import { cn } from '../../lib/utils';
 import { ClassMark, useClassInk } from '../ui/ClassMark';
+import { GameIcon } from '../ui/GameIcon';
+import { specIcon } from '../../lib/icons';
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '../ui/collapsible';
 import { Separator } from '../ui/separator';
 import { RoleIcon } from '../class/RoleIcon';
@@ -31,8 +34,8 @@ export function routePath(route: Route): string {
       return href.guidePage(route.slug, route.page);
     case 'class-professions':
       return href.classProfessions(route.slug);
-    case 'professions':
-      return href.professions();
+    case 'general-guide':
+      return href.guide(route.slug);
     case 'instances':
       return href.instances();
     case 'instance':
@@ -51,7 +54,7 @@ export function routePath(route: Route): string {
 }
 
 function routeClass(route: Route): string | null {
-  return 'slug' in route && route.name !== 'instance' ? route.slug : null;
+  return 'slug' in route && route.name !== 'instance' && route.name !== 'general-guide' ? route.slug : null;
 }
 
 function NavLink({
@@ -132,7 +135,7 @@ function ClassGroup({
           className="flex min-h-[1.9rem] min-w-0 flex-1 items-center gap-2 rounded-md pl-2 text-[13.5px] font-medium"
           style={{ color: ink }}
         >
-          <ClassMark name={cls.name} color={cls.color} size="xs" />
+          <ClassMark name={cls.name} color={cls.color} size="sm" />
           <span className="truncate">{cls.name}</span>
         </a>
         <CollapsibleTrigger
@@ -149,8 +152,9 @@ function ClassGroup({
           </NavLink>
           {pve.map((p) => (
             <NavLink key={p.id} to={href.playbook(cls.slug, p.id)} current={current} depth={1} onNavigate={onNavigate}>
-              <span className="flex items-center justify-between gap-2">
-                <span className="truncate">{distinctSpecLabel(p, pve)}</span>
+              <span className="flex w-full min-w-0 items-center gap-2">
+                <GameIcon icon={specIcon(cls.slug, p.spec)} size={16} className="rounded-[3px]" />
+                <span className="flex-1 truncate">{distinctSpecLabel(p, pve)}</span>
                 <RoleIcon role={p.role} className="h-3.5 w-3.5 shrink-0 text-muted-foreground" />
               </span>
             </NavLink>
@@ -231,9 +235,10 @@ function InstanceGroup({ current, onNavigate }: { current: string; onNavigate?: 
 }
 
 /**
- * The left-hand navigator: site pages, then every class with its spec guides,
- * leveling, PvP, professions and sources, then the dungeons and raids. The
- * current class opens by itself.
+ * The left-hand navigator: site pages with the dungeons and raids, the general
+ * guides (professions, PvP, client setup, server mechanics: every guide/*.md),
+ * then every class with its spec guides, leveling, PvP, professions and
+ * sources. The current class opens by itself.
  */
 export function SidebarNav({ route, onNavigate }: { route: Route; onNavigate?: () => void }) {
   const current = routePath(route);
@@ -252,11 +257,20 @@ export function SidebarNav({ route, onNavigate }: { route: Route; onNavigate?: (
         <NavLink to={href.matrix()} current={current} icon={<LayoutGrid />} onNavigate={onNavigate}>
           Viability board
         </NavLink>
-        <NavLink to={href.professions()} current={current} icon={<FlaskConical />} onNavigate={onNavigate}>
-          Professions
-        </NavLink>
         <InstanceGroup current={current} onNavigate={onNavigate} />
       </div>
+      {generalGuides.length ? (
+        <>
+          <GroupLabel>General</GroupLabel>
+          <div className="space-y-px">
+            {generalGuides.map((g) => (
+              <NavLink key={g.slug} to={g.route} current={current} icon={<g.icon />} onNavigate={onNavigate}>
+                {g.label}
+              </NavLink>
+            ))}
+          </div>
+        </>
+      ) : null}
       <GroupLabel>Classes</GroupLabel>
       <div className="space-y-px">
         {classes.map((c) => (

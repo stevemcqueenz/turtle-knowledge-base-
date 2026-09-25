@@ -21,12 +21,13 @@ Development overrides (for guide pages that live in another checkout):
                         (anything missing there falls back to the repo)
 
   guide/instances/*.md            dungeon and raid pages (index.md lists them)
-  guide/professions.md            the professions overview (every class)
+  guide/*.md                      general guides (professions, pvp, client-setup,
+                                  server-mechanics, ...): one page each, #/<name>
 
 Writes (site/src/data/):
   classes.json, matrix.json, glossary.json, meta.json,
   instances.json (only when guide/instances/index.md exists)
-  professions.json (only when guide/professions.md exists)
+  guides.json (only when a top-level guide/*.md exists)
 
 Only dependency: PyYAML. See site/PLAN.md §2 for the exact data contract and
 site/src/data/README.md for a description of the output files.
@@ -857,18 +858,57 @@ def register_guide_routes(guide: GuideContext) -> None:
                 # the class professions page has its own route (#/class/<slug>/professions)
                 guide.routes[rel] = (f"#/class/{slug}/professions" if page.stem == "professions"
                                      else f"#/class/{slug}/guide/{page.stem}")
-    if (guide.dir / "professions.md").is_file():
-        guide.routes[guide.repo_rel(guide.dir / "professions.md")] = "#/professions"
+    register_general_guide_routes(guide)
 
 
-def build_professions(guide: GuideContext | None) -> dict | None:
-    """professions.json: guide/professions.md (the overview for every class) as a
-    GuideDoc plus its **Recommendation:** paragraph."""
-    if guide is None or not (guide.dir / "professions.md").is_file():
+# ---------------------------------------------------------------------------
+# General guides (guide/*.md): professions, PvP, client setup, server mechanics
+# ---------------------------------------------------------------------------
+
+# Every top-level guide/<name>.md is a "general guide" with a route of its own,
+# #/<route slug>. The route slug is the file name, except where a shorter one
+# reads better in the address bar.
+GENERAL_GUIDE_ROUTE_SLUGS = {"server-mechanics": "mechanics"}
+# Reading order (sidebar, home, search); any other page follows alphabetically.
+GENERAL_GUIDE_ORDER = ["professions", "pvp", "client-setup", "server-mechanics"]
+# Top-level files that are not pages, and route slugs the site already uses.
+GENERAL_GUIDE_SKIP = {"index.md", "readme.md"}
+RESERVED_ROUTE_SLUGS = {"class", "instances", "matrix", "archive", "about", "glossary"}
+
+
+def general_guide_files(guide: GuideContext) -> list[tuple[str, Path]]:
+    """(route slug, path) for every top-level guide/*.md, in reading order."""
+    files = [p for p in guide.dir.glob("*.md") if p.is_file() and p.name.lower() not in GENERAL_GUIDE_SKIP]
+    files.sort(key=lambda p: (GENERAL_GUIDE_ORDER.index(p.stem) if p.stem in GENERAL_GUIDE_ORDER
+                              else len(GENERAL_GUIDE_ORDER), p.stem))
+    out = []
+    for path in files:
+        slug = GENERAL_GUIDE_ROUTE_SLUGS.get(path.stem, path.stem)
+        if not re.fullmatch(r"[a-z0-9][a-z0-9-]*", slug) or slug in RESERVED_ROUTE_SLUGS:
+            print(f"build-data: skipping guide/{path.name}: #/{slug} is not a usable route", file=sys.stderr)
+            continue
+        out.append((slug, path))
+    return out
+
+
+def register_general_guide_routes(guide: GuideContext) -> None:
+    """guide/<name>.md -> #/<route slug>, before any page is transformed."""
+    for slug, path in general_guide_files(guide):
+        guide.routes[guide.repo_rel(path)] = f"#/{slug}"
+
+
+def build_general_guides(guide: GuideContext | None) -> dict | None:
+    """guides.json: every top-level guide/*.md as a GuideDoc plus its route and
+    its **Recommendation:** paragraph; None when there is none."""
+    if guide is None:
         return None
-    doc = guide.doc(guide.dir / "professions.md", "professions")
-    doc["recommendation"], _ = recommendation_block(doc["intro"])
-    return doc
+    pages = []
+    for slug, path in general_guide_files(guide):
+        doc = guide.doc(path, slug)
+        doc["route"] = f"#/{slug}"
+        doc["recommendation"], _ = recommendation_block(doc["intro"])
+        pages.append(doc)
+    return {"guides": pages} if pages else None
 
 
 # ---------------------------------------------------------------------------
@@ -1127,9 +1167,10 @@ def talent_trees() -> dict:
 
 
 def compact_talent_tree(class_slug: str) -> dict | None:
-    """{tabs: [{name, talents: [{name, row, col, max, req}]}]} in the calculator's
-    talent order (the order its link digits use); `req` is the index of the
-    prerequisite talent in the same tab."""
+    """{tabs: [{id, name, talents: [{id, name, row, col, max, req}]}]} in the
+    calculator's talent order (the order its link digits use); `req` is the index
+    of the prerequisite talent in the same tab. `id` is the client's TalentTab /
+    Talent id, the key of the icon manifest (site/public/icons/manifest.json)."""
     tree = talent_trees().get(class_slug)
     if not tree:
         return None
@@ -1137,8 +1178,10 @@ def compact_talent_tree(class_slug: str) -> dict | None:
     for tab in tree["tabs"]:
         ids = [t["talent_id"] for t in tab["talents"]]
         tabs.append({
+            "id": tab["tab_id"],
             "name": tab["name"],
             "talents": [{
+                "id": t["talent_id"],
                 "name": t["name"] or f"Talent {t['talent_id']}",
                 "row": t["row"],
                 "col": t["col"],
@@ -1773,7 +1816,8 @@ def main(argv: list[str] | None = None) -> int:
     matrix_data = load_matrix()
     matrix_rows = matrix_data["rows"]
 
-    has_guide = (GUIDE_DIR / "classes").is_dir() or (GUIDE_DIR / "instances").is_dir()
+    has_guide = ((GUIDE_DIR / "classes").is_dir() or (GUIDE_DIR / "instances").is_dir()
+                 or any(GUIDE_DIR.glob("*.md")))
     guide = GuideContext(GUIDE_DIR) if has_guide else None
     if guide is not None:
         register_guide_routes(guide)
@@ -1781,7 +1825,7 @@ def main(argv: list[str] | None = None) -> int:
 
     classes = [build_class_entry(slug, matrix_rows, guide) for slug in CLASS_ORDER]
     instances = build_instances(guide)
-    professions = build_professions(guide)
+    general = build_general_guides(guide)
     map_pages = attach_maps(instances)
     guide_classes = [c["slug"] for c in classes if c["guidePath"]]
 
@@ -1817,12 +1861,14 @@ def main(argv: list[str] | None = None) -> int:
     # Relative links whose target is not in the repository (rendered as text).
     meta_json["unwrappedLinks"] = sorted(set(guide.unwrapped_links)) if guide else []
 
-    professions_path = DATA_DIR / "professions.json"
-    if professions is not None:
-        professions_path.write_text(
-            json.dumps(professions, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    elif professions_path.exists():
-        professions_path.unlink()
+    guides_path = DATA_DIR / "guides.json"
+    if general is not None:
+        guides_path.write_text(
+            json.dumps(general, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    elif guides_path.exists():
+        guides_path.unlink()
+    # professions.json (the overview before guides.json carried it) is gone
+    (DATA_DIR / "professions.json").unlink(missing_ok=True)
     instances_path = DATA_DIR / "instances.json"
     if instances is not None:
         instances_path.write_text(
@@ -1848,8 +1894,9 @@ def main(argv: list[str] | None = None) -> int:
         ic = meta_json["instanceCounts"]
         print(f"Instances: {ic['pages']} pages ({ic['dungeons']} dungeons, {ic['raids']} raids), "
               f"{map_pages} with maps")
-    if professions is not None:
-        print(f"Professions overview: {len(professions['sections'])} sections")
+    if general is not None:
+        print("General guides: " + ", ".join(
+            f"{g['route']} ({len(g['sections'])} sections)" for g in general["guides"]))
     if guide is None:
         print(f"No guide directory at {GUIDE_DIR / 'classes'}; every class built from synthesis/")
     else:

@@ -1,7 +1,8 @@
 import { useMemo, useState } from 'react';
-import { ArrowRight, Castle, Coins, FlaskConical, HeartPulse, LayoutGrid, Shield, Swords, TrendingUp, Crosshair } from 'lucide-react';
+import { ArrowRight, Castle, Coins, HeartPulse, LayoutGrid, Shield, Swords, TrendingUp, Crosshair } from 'lucide-react';
 import { classes, core } from '../lib/site';
 import { href, useScrollReset } from '../lib/router';
+import { generalGuides, quickLabel } from '../lib/guides';
 import { plainText } from '../lib/markdown';
 import { INTENTS, bestFor, rankFor, type Intent } from '../lib/grades';
 import { prefetchClass } from '../data';
@@ -11,6 +12,8 @@ import { Grade } from '../components/ui/Grade';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '../components/ui/tabs';
 import { Button } from '../components/ui/button';
 import { RoleIcon } from '../components/class/RoleIcon';
+import { GameIcon } from '../components/ui/GameIcon';
+import { specIcon } from '../lib/icons';
 import { distinctSpecLabel } from '../lib/site';
 import { cn } from '../lib/utils';
 
@@ -84,7 +87,12 @@ function ClassTile({ cls }: { cls: ClassSummary }) {
               onMouseEnter={() => prefetchClass(cls.slug)}
               className="inline-flex items-center gap-1 rounded-[4px] border bg-background/60 px-1.5 py-0.5 text-xs text-muted-foreground transition-colors hover:border-[rgb(var(--cc)/0.6)] hover:text-foreground"
             >
-              <RoleIcon role={p.role} className="h-3 w-3" />
+              <GameIcon
+                icon={specIcon(cls.slug, p.spec)}
+                size={14}
+                className="rounded-[2px]"
+                fallback={<RoleIcon role={p.role} className="h-3 w-3" />}
+              />
               {distinctSpecLabel(p, specs, true)}
             </a>
           </li>
@@ -141,9 +149,10 @@ function RankedList({ intent }: { intent: Intent }) {
   );
 }
 
+/** "By goal" quick links: dungeons and raids, the general guides that exist (professions, PvP, client setup, mechanics), the board. */
 const QUICK = [
   { to: href.instances(), label: 'Dungeons & raids', icon: Castle },
-  { to: href.professions(), label: 'Professions', icon: FlaskConical },
+  ...generalGuides.filter((g) => g.quick).map((g) => ({ to: g.route, label: quickLabel(g), icon: g.icon })),
   { to: href.matrix(), label: 'Viability board', icon: LayoutGrid },
 ];
 

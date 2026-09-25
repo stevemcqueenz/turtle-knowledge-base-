@@ -195,6 +195,8 @@ export interface TalentBuild {
 }
 
 export interface TalentTreeTalent {
+  /** Client Talent.dbc id: the key of the icon manifest. */
+  id?: number;
   name: string;
   row: number;
   col: number;
@@ -204,7 +206,8 @@ export interface TalentTreeTalent {
 }
 
 export interface TalentTree {
-  tabs: { name: string; talents: TalentTreeTalent[] }[];
+  /** `id`: client TalentTab.dbc id (icon manifest key). */
+  tabs: { id?: number; name: string; talents: TalentTreeTalent[] }[];
 }
 
 /** One cell of the guide's spec viability table. */
@@ -466,8 +469,8 @@ export interface CoreData {
   glossary: GlossaryTerm[];
   meta: Meta;
   instances: (Omit<InstancesData, 'pages'> & { pages: InstanceSummary[] }) | null;
-  /** The professions overview's title and section headings (absent in older data). */
-  professions?: { title: string; headings: HeadingRef[] } | null;
+  /** The general guides (guide/*.md) in reading order: route, title, section headings. */
+  guides: GeneralGuideSummary[];
   isFixture: boolean;
 }
 
@@ -517,10 +520,28 @@ export interface Meta {
 
 export type InstanceKind = 'dungeon' | 'raid';
 
-/** `src/data/professions.json`: guide/professions.md, the overview for every class. */
-export interface ProfessionsData extends GuideDoc {
+/**
+ * One entry of `src/data/guides.json`: a top-level `guide/<name>.md` page
+ * (professions, PvP, client setup, server mechanics, ...). `slug` is the route
+ * slug (`server-mechanics.md` is `mechanics`), `route` its hash route.
+ */
+export interface GeneralGuideData extends GuideDoc {
+  route: string;
   /** The page's **Recommendation:** paragraph (label removed). */
   recommendation?: string | null;
+}
+
+/** `src/data/guides.json`. */
+export interface GeneralGuidesFile {
+  guides: GeneralGuideData[];
+}
+
+/** A general guide as the core module carries it. */
+export interface GeneralGuideSummary {
+  slug: string;
+  route: string;
+  title: string;
+  headings: HeadingRef[];
 }
 
 /** One H2 group of `guide/instances/index.md` ("Dungeons", "Raids"). */

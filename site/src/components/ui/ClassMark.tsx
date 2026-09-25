@@ -3,6 +3,8 @@ import { Crosshair, Hammer, PawPrint, Skull, Sun, Swords, VenetianMask, WandSpar
 import { inkOn, readableColor } from '../../lib/theme';
 import { useThemeValue } from '../../lib/theme-context';
 import { cn } from '../../lib/utils';
+import { classIcon, type IconRef } from '../../lib/icons';
+import { GameIcon } from './GameIcon';
 
 /** Hex -> "r g b" for CSS custom properties (`rgb(var(--cc) / 0.2)`). */
 export function rgbTriplet(hex: string): string {
@@ -53,33 +55,51 @@ const SIZES = {
 } as const;
 
 /**
- * A class emblem drawn like an action-bar button: a dark bevelled square, a
- * rim in the official class color and a glyph for the class. No game artwork.
+ * A class emblem: the class's in-game icon (the character-create atlas) in a
+ * rim of the official class color, like an action-bar button. Falls back to a
+ * lucide glyph on a dark bevel when the icon is missing. `badge` puts a small
+ * second icon (the spec's talent tree) in the bottom-right corner.
  */
 export function ClassMark({
   name,
   color,
   size = 'md',
+  badge,
   className,
 }: {
   name: string;
   color: string;
   size?: keyof typeof SIZES;
+  badge?: IconRef | null;
   className?: string;
 }) {
   const Glyph = GLYPHS[name.toLowerCase()] ?? Swords;
   const raw = rgbTriplet(color);
+  const glyph = (
+    <span
+      className="absolute inset-0 inline-flex items-center justify-center rounded-[inherit]"
+      style={{ background: `radial-gradient(120% 120% at 30% 20%, rgb(${raw} / 0.28), rgb(${raw} / 0.06) 55%, #0c0e13 100%), #0c0e13` }}
+    >
+      <Glyph strokeWidth={2.2} />
+    </span>
+  );
   return (
     <span
       aria-hidden="true"
       className={cn('relative inline-flex shrink-0 items-center justify-center', SIZES[size], className)}
-      style={{
-        color: `rgb(${raw})`,
-        background: `radial-gradient(120% 120% at 30% 20%, rgb(${raw} / 0.28), rgb(${raw} / 0.06) 55%, #0c0e13 100%), #0c0e13`,
-        boxShadow: `inset 0 0 0 1px rgb(${raw} / 0.55), inset 0 1px 0 rgb(255 255 255 / 0.08), 0 1px 2px rgb(0 0 0 / 0.5)`,
-      }}
+      style={{ color: `rgb(${raw})`, background: '#0c0e13' }}
     >
-      <Glyph strokeWidth={2.2} />
+      <GameIcon icon={classIcon(name)} className="absolute inset-0 h-full w-full rounded-[inherit]" fallback={glyph} />
+      <span
+        className="pointer-events-none absolute inset-0 rounded-[inherit]"
+        style={{ boxShadow: `inset 0 0 0 1px rgb(${raw} / 0.7), inset 0 0 0 2px rgb(0 0 0 / 0.35), 0 1px 2px rgb(0 0 0 / 0.5)` }}
+      />
+      {badge ? (
+        <GameIcon
+          icon={badge}
+          className="absolute -bottom-1 -right-1 h-[45%] w-[45%] rounded-[3px] ring-2 ring-background"
+        />
+      ) : null}
     </span>
   );
 }

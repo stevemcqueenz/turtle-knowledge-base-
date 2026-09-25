@@ -130,36 +130,89 @@ def check_markdown_common(label: str, md: str) -> None:
 
 
 PROFESSIONS_ROUTE = re.compile(r"\]\(#/class/([a-z]+)/professions\)")
+# one-segment routes in Markdown links: #/professions, #/pvp, #/mechanics, #/matrix ...
+TOP_ROUTE = re.compile(r"\]\(#/([a-z0-9-]+)(?:\?[^)\s]*)?\)")
+SITE_TOP_ROUTES = {"instances", "matrix", "archive", "about", "glossary"}
+# Keep in step with build-data.py GENERAL_GUIDE_ROUTE_SLUGS / GENERAL_GUIDE_SKIP.
+GENERAL_GUIDE_ROUTE_SLUGS = {"server-mechanics": "mechanics"}
+GENERAL_GUIDE_SKIP = {"index.md", "readme.md"}
 
 
-def check_professions(classes: list) -> None:
-    """guide/professions.md -> professions.json; class professions pages have
-    their own route and link back to the overview as #/professions."""
-    src = REPO_ROOT / "guide" / "professions.md"
-    path = DATA_DIR / "professions.json"
-    if not src.is_file():
-        check(not path.exists(), "professions.json exists but guide/professions.md does not")
-        return
-    check(path.exists(), "guide/professions.md exists but professions.json is missing")
+def general_guides_on_disk() -> dict[str, str]:
+    """route slug -> guide/<name>.md for every top-level guide page."""
+    out = {}
+    for p in sorted((REPO_ROOT / "guide").glob("*.md")):
+        if p.is_file() and p.name.lower() not in GENERAL_GUIDE_SKIP:
+            out[GENERAL_GUIDE_ROUTE_SLUGS.get(p.stem, p.stem)] = f"guide/{p.name}"
+    return out
+
+
+def check_general_guides(classes: list) -> list:
+    """guide/*.md -> guides.json: one entry per page at #/<slug> (the route
+    appears only when its file exists), links resolved both ways. Returns the
+    parsed guide entries."""
+    on_disk = general_guides_on_disk()
+    path = DATA_DIR / "guides.json"
+    check(not (DATA_DIR / "professions.json").exists(),
+          "professions.json is stale (the overview lives in guides.json)")
+    if not on_disk:
+        check(not path.exists(), "guides.json exists but guide/ has no top-level page")
+        return []
+    check(path.exists(), f"guide/ has {sorted(on_disk.values())} but guides.json is missing")
     if not path.exists():
-        return
-    doc = load_json("professions.json")
+        return []
+    data = load_json("guides.json")
+    guides = (data or {}).get("guides") or []
+    got = {g.get("slug"): g.get("sourceFile") for g in guides}
+    check(got == on_disk, f"guides.json pages {got} != guide/*.md on disk {on_disk}")
+    class_slugs = {c["slug"] for c in classes}
+    inst = load_json("instances.json") if (DATA_DIR / "instances.json").exists() else None
+    inst_slugs = {p["slug"] for p in (inst or {}).get("pages") or []}
+    top_routes = SITE_TOP_ROUTES | set(on_disk)
+    for g in guides:
+        slug = g.get("slug")
+        check(g.get("route") == f"#/{slug}", f"guides.json {slug}: route {g.get('route')!r}")
+        check(isinstance(g.get("title"), str) and g["title"].strip() != "", f"guides.json {slug}: no title")
+        sections = g.get("sections") or []
+        check(len(sections) > 0, f"guides.json {slug}: no sections")
+        ids = [s["id"] for s in sections]
+        check(len(set(ids)) == len(ids), f"guides.json {slug}: duplicate section ids")
+        check(isinstance(g.get("recommendation"), (str, type(None))),
+              f"guides.json {slug}: recommendation must be a string or null")
+        for label, md in [(f"{slug}/intro", g.get("intro") or "")] + [(f"{slug}/{s['id']}", s["markdown"]) for s in sections]:
+            check_markdown_common(label, md)
+            for m in CLASS_ROUTE.finditer(md):
+                check(m.group(1) in class_slugs, f"{label}: link to unknown class {m.group(1)}")
+            for m in INSTANCE_ROUTE.finditer(md):
+                check((m.group(1) or m.group(2)) in inst_slugs, f"{label}: link to unknown instance page {m.group(0)}")
+            for m in TOP_ROUTE.finditer(md):
+                check(m.group(1) in top_routes, f"{label}: link to unknown page #/{m.group(1)}")
+    # nothing links a general guide as a GitHub URL, and every #/<slug> link resolves
+    texts = [("classes.json", json.dumps(classes, ensure_ascii=False))]
+    if inst is not None:
+        texts.append(("instances.json", json.dumps(inst, ensure_ascii=False)))
+    texts.append(("guides.json", json.dumps(guides, ensure_ascii=False)))
+    for where, text in texts:
+        for src in on_disk.values():
+            check(f"/{src}" not in text, f"{where} links to {src} on GitHub (use its #/ route)")
+        for m in TOP_ROUTE.finditer(text):
+            check(m.group(1) in top_routes, f"{where}: link to unknown page #/{m.group(1)}")
+    return guides
+
+
+def check_professions(classes: list, guides: list) -> None:
+    """The professions overview (guides.json slug "professions"); class
+    professions pages have their own route and link back to it as #/professions."""
+    doc = next((g for g in guides if g.get("slug") == "professions"), None)
     if doc is None:
+        check(not (REPO_ROOT / "guide" / "professions.md").is_file(),
+              "guide/professions.md exists but guides.json has no professions entry")
         return
-    check(doc.get("slug") == "professions", f"professions.json slug {doc.get('slug')!r}")
-    check(doc.get("sourceFile") == "guide/professions.md", f"professions.json sourceFile {doc.get('sourceFile')!r}")
-    check(isinstance(doc.get("title"), str) and doc["title"].strip() != "", "professions.json has no title")
     sections = doc.get("sections") or []
-    check(len(sections) > 0, "professions.json has no sections")
-    ids = [s["id"] for s in sections]
-    check(len(set(ids)) == len(ids), "professions.json has duplicate section ids")
-    check(isinstance(doc.get("recommendation"), (str, type(None))), "professions.recommendation must be a string or null")
     texts = [("professions/intro", doc.get("intro") or "")] + [(f"professions/{s['id']}", s["markdown"]) for s in sections]
     slugs = {c["slug"] for c in classes}
     with_page = {c["slug"] for c in classes if any(d["slug"] == "professions" for d in c.get("guidePages") or [])}
     for label, md in texts:
-        check_markdown_common(label, md)
-        check("/guide/professions.md" not in md, f"{label}: professions overview linked as a repository URL")
         for m in PROFESSIONS_ROUTE.finditer(md):
             check(m.group(1) in with_page, f"{label}: #/class/{m.group(1)}/professions has no class professions page")
     # every class professions page on disk is in the data and reachable from the overview
@@ -169,7 +222,6 @@ def check_professions(classes: list) -> None:
     check(with_page <= linked, f"professions overview does not link {sorted(with_page - linked)}")
     check(slugs >= with_page, "professions pages for unknown classes")
     text = json.dumps(classes, ensure_ascii=False)
-    check("/guide/professions.md" not in text, "classes.json links to guide/professions.md on GitHub")
     check("/guide/professions)" not in text, "classes.json links to #/class/<slug>/guide/professions (use /professions)")
 
 
@@ -398,6 +450,60 @@ def check_summaries(classes: list) -> None:
                 valid(path["end"], f"{slug}/{path['id']} end")
 
 
+ICONS_DIR = SITE_DIR / "public" / "icons"
+SPELL_CODE = re.compile(r"<code>([A-Z0-9][A-Za-z0-9'’:\- ]{1,44})</code>|`([A-Z0-9][A-Za-z0-9'’:\- ]{1,44})`")
+
+
+def check_icons(classes: list) -> tuple[int, int, int, int, int]:
+    """public/icons/manifest.json (tools/icons/extract_icons.py) has an icon for
+    every talent, talent tree and class, on sheets that exist. Returns (talents
+    with an icon, talents, rotation spell names with an icon, rotation spell
+    names, bytes on disk)."""
+    path = ICONS_DIR / "manifest.json"
+    check(path.exists(), "public/icons/manifest.json missing: run tools/icons/extract_icons.py")
+    if not path.exists():
+        return 0, 0, 0, 0, 0
+    m = json.loads(path.read_text(encoding="utf-8"))
+    sheets = m.get("sheets", {})
+    for key, sh in sheets.items():
+        f = ICONS_DIR / sh["file"]
+        check(f.exists(), f"icons: sheet {sh['file']} missing")
+        check(sh["count"] <= sh["cols"] * sh["rows"], f"icons: sheet {key} has more cells than its grid")
+
+    def ok(sheet: str, cell) -> bool:
+        return isinstance(cell, int) and sheet in sheets and 0 <= cell < sheets[sheet]["count"]
+
+    have = total = 0
+    spell_have = spell_total = 0
+    for c in classes:
+        slug = c["slug"]
+        check(ok("common", m.get("classes", {}).get(slug)), f"icons: no class icon for {slug}")
+        tree = c.get("talentTree") or {"tabs": []}
+        for tab in tree["tabs"]:
+            check(ok("common", m.get("tabs", {}).get(slug, {}).get(str(tab.get("id")))),
+                  f"icons: no tree icon for {slug}/{tab['name']}")
+            for tal in tab["talents"]:
+                total += 1
+                if ok(slug, m.get("talents", {}).get(slug, {}).get(str(tal.get("id")))):
+                    have += 1
+                else:
+                    failures.append(f"icons: no icon for talent {slug}/{tab['name']}/{tal['name']} (id {tal.get('id')})")
+        spells = {k.lower() for k in m.get("spells", {}).get(slug, {})}
+        names = set()
+        for pb in c["playbooks"]:
+            for key in ("rotationSingle", "rotationAoe"):
+                sec = (pb.get("sections") or {}).get(key)
+                for g in SPELL_CODE.findall((sec or {}).get("markdown", "")):
+                    names.add((g[0] or g[1]).strip())
+        spell_total += len(names)
+        # exact name, or a name followed by lower-case words ("Stormstrike if ready"), as lib/icons.ts matches
+        spell_have += sum(1 for n in names if n.lower() in spells or any(
+            n.lower().startswith(k + " ") and re.match(r" [a-z(]", n[len(k):]) for k in spells))
+    size = sum(f.stat().st_size for f in ICONS_DIR.iterdir() if f.is_file())
+    check(size < 3 * 1024 * 1024, f"icons: {size / 1048576:.1f} MB on disk, over the 3 MB budget")
+    return have, total, spell_have, spell_total, size
+
+
 def main() -> int:
     # ---- All JSON files parse -------------------------------------------
     classes = load_json("classes.json")
@@ -476,8 +582,9 @@ def main() -> int:
     # ---- Guide pages (guide/classes/**) ---------------------------------
     check_guides(classes, meta)
 
-    # ---- Professions (guide/professions.md, guide/classes/*/professions.md)
-    check_professions(classes)
+    # ---- General guides (guide/*.md) and professions (guide/classes/*/professions.md)
+    general = check_general_guides(classes)
+    check_professions(classes, general)
 
     # ---- Dungeon and raid pages (guide/instances/**) ---------------------
     check_instances(classes, meta)
@@ -547,6 +654,7 @@ def main() -> int:
           f"standing lookup hit rate {hit_rate:.1%} is below the required 90%")
 
     check_summaries(classes)
+    icon_counts = check_icons(classes)
 
     # ---- Report -----------------------------------------------------------
     if failures:
@@ -564,6 +672,9 @@ def main() -> int:
     print(f"  maps: {map_counts[0]} pages, {map_counts[1]} floors, {map_counts[2]} boss markers")
     print(f"  standing lookups: {total_playbooks - len(misses)}/{total_playbooks} matched "
           f"({hit_rate:.1%})")
+    th, tt, sh, st, size = icon_counts
+    print(f"  icons: talents {th}/{tt} ({th / max(tt, 1):.1%}), rotation spell names {sh}/{st} "
+          f"({sh / max(st, 1):.1%}), {size / 1024:.0f} KiB in public/icons")
     return 0
 
 

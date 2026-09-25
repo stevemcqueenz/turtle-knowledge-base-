@@ -1,6 +1,8 @@
 import { useMemo, useState } from 'react';
 import type { TalentTree, TalentTreeTalent } from '../../types';
 import { cn } from '../../lib/utils';
+import { tabIcon, talentIcon, type IconRef } from '../../lib/icons';
+import { GameIcon } from '../ui/GameIcon';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '../ui/tabs';
 import { Tooltip, TooltipContent, TooltipTrigger } from '../ui/tooltip';
 
@@ -10,6 +12,8 @@ interface TalentGridProps {
   ranks: number[][];
   /** Class color as an "r g b" triplet (theme-adjusted). */
   rgb: string;
+  /** Class slug: picks the class's icon sheet. Without it the slots show initials. */
+  cls?: string;
   /** Talent names to outline (a leveling step "just learned"). */
   highlight?: Set<string>;
   compact?: boolean;
@@ -26,7 +30,7 @@ const GAP_COMPACT = 0.4;
 
 const SMALL = new Set(['of', 'the', 'and', 'to', 'a', 'in', 'for']);
 
-/** "Improved Arcane Missiles" -> "IAM": the slot's lettering, since the site carries no icon art. */
+/** "Improved Arcane Missiles" -> "IAM": the slot's lettering when its icon is missing. */
 export function talentGlyph(name: string): string {
   const words = name
     .replace(/[’']/g, '')
@@ -46,8 +50,9 @@ function state(rank: number, max: number): 'none' | 'partial' | 'max' {
 }
 
 /** The talent tooltip, as the game draws it: name, rank, tier and prerequisite lines. */
-function TalentTip({ t, rank, tabName, req, reqRank, spent }: {
+function TalentTip({ t, icon, rank, tabName, req, reqRank, spent }: {
   t: TalentTreeTalent;
+  icon: IconRef | null;
   rank: number;
   tabName: string;
   req: TalentTreeTalent | null;
@@ -57,10 +62,15 @@ function TalentTip({ t, rank, tabName, req, reqRank, spent }: {
   const tierNeed = t.row * 5;
   return (
     <div className="space-y-0.5">
-      <p className="wow-tt-title">{t.name}</p>
-      <p>
-        Rank {rank}/{t.max}
-      </p>
+      <div className="flex items-center gap-2.5 pb-0.5">
+        <GameIcon icon={icon} size={36} grey={rank === 0} className="rounded-[4px]" />
+        <div className="min-w-0">
+          <p className="wow-tt-title">{t.name}</p>
+          <p>
+            Rank {rank}/{t.max}
+          </p>
+        </div>
+      </div>
       {tierNeed > 0 ? (
         <p className={spent >= tierNeed ? 'wow-tt-meta' : 'text-[#ff4040]'}>
           Requires {tierNeed} points in {tabName} Talents
@@ -114,18 +124,23 @@ function Tree({
   ranks,
   highlight,
   compact,
+  cls,
 }: {
   tab: TalentTree['tabs'][number];
   ranks: number[];
   highlight?: Set<string>;
   compact?: boolean;
+  cls?: string;
 }) {
   const spent = ranks.reduce((a, b) => a + b, 0);
   const gap = compact ? GAP_COMPACT : GAP;
   return (
     <div className="talent-frame p-3">
-      <div className="mb-3 flex items-baseline justify-between gap-2 px-0.5">
-        <span className="truncate text-[13px] font-semibold text-[#ffd100]">{tab.name}</span>
+      <div className="mb-3 flex items-center justify-between gap-2 px-0.5">
+        <span className="flex min-w-0 items-center gap-2">
+          <GameIcon icon={cls ? tabIcon(cls, tab.id) : null} size={20} />
+          <span className="truncate text-[13px] font-semibold text-[#ffd100]">{tab.name}</span>
+        </span>
         <span className="text-[13px] font-bold tabular text-white">{spent}</span>
       </div>
       <div className="grid" style={{ gridTemplateColumns: `repeat(${COLS}, minmax(0, 1fr))`, gridTemplateRows: `repeat(${ROWS}, auto)`, gap: `${gap}rem` }}>
@@ -135,26 +150,28 @@ function Tree({
           const reqRank = t.req !== null ? (ranks[t.req] ?? 0) : 0;
           const s = state(rank, t.max);
           const locked = rank === 0 && t.row * 5 > spent;
+          const icon = cls ? talentIcon(cls, t.id) : null;
+          const glyph = <span aria-hidden="true">{talentGlyph(t.name)}</span>;
           return (
             <Tooltip key={t.name + i} delayDuration={80}>
               <TooltipTrigger asChild>
                 <button
                   type="button"
-                  className={cn('talent-slot', compact ? 'text-[10px]' : 'text-[12px] sm:text-[13px]', locked && 'opacity-45')}
+                  className={cn('talent-slot', compact ? 'text-[10px]' : 'text-[12px] sm:text-[13px]', locked && (icon ? 'opacity-60' : 'opacity-45'))}
                   style={{ gridRow: t.row + 1, gridColumn: t.col + 1 }}
                   data-state-rank={s}
                   data-hl={highlight?.has(t.name) ? 'true' : undefined}
                   aria-label={`${t.name}: rank ${rank} of ${t.max}${req ? `, requires ${req.name}` : ''}`}
                 >
                   {req ? <Arrow t={t} req={req} on={reqRank >= req.max} gap={gap} /> : null}
-                  <span aria-hidden="true">{talentGlyph(t.name)}</span>
+                  {icon ? <GameIcon icon={icon} grey={rank === 0} className="talent-icon" fallback={glyph} /> : glyph}
                   <span className="talent-rank" aria-hidden="true">
                     {rank}/{t.max}
                   </span>
                 </button>
               </TooltipTrigger>
               <TooltipContent side="top">
-                <TalentTip t={t} rank={rank} tabName={tab.name} req={req} reqRank={reqRank} spent={spent} />
+                <TalentTip t={t} icon={icon} rank={rank} tabName={tab.name} req={req} reqRank={reqRank} spent={spent} />
               </TooltipContent>
             </Tooltip>
           );
@@ -168,11 +185,12 @@ function Tree({
  * The three 1.18.1 talent trees drawn like the in-game talent frame: square
  * slots on the 4 × 7 grid, the rank in the corner (green while partly spent,
  * gold when maxed, grey at 0), gold prerequisite arrows, tree totals in the
- * tab headers and the talent tooltip on hover or focus. Talents are lettered
- * with their initials; the site carries no game art. On phones (or `single`)
+ * tab headers and the talent tooltip on hover or focus. Slots show the
+ * talent's in-game icon (greyed at 0 points), or its initials when the icon is
+ * missing. On phones (or `single`)
  * one tree shows at a time, opening on the deepest.
  */
-export function TalentGrid({ tree, ranks, rgb, highlight, compact = false, single = false, label }: TalentGridProps) {
+export function TalentGrid({ tree, ranks, rgb, cls, highlight, compact = false, single = false, label }: TalentGridProps) {
   const totals = useMemo(() => ranks.map((r) => r.reduce((a, b) => a + b, 0)), [ranks]);
   const deepest = String(totals.indexOf(Math.max(...totals)));
   const [picked, setPicked] = useState<string | null>(null);
@@ -184,6 +202,7 @@ export function TalentGrid({ tree, ranks, rgb, highlight, compact = false, singl
         <TabsList variant="segmented" aria-label="Talent trees" className={cn('mb-3 grid w-full grid-cols-3', !single && 'md:hidden')}>
           {tree.tabs.map((t, i) => (
             <TabsTrigger key={t.name} value={String(i)} variant="segmented" className="min-w-0">
+              <GameIcon icon={cls ? tabIcon(cls, t.id) : null} size={16} className="max-[420px]:hidden" />
               <span className="truncate">{t.name}</span>
               <span className="tabular text-muted-foreground">{totals[i]}</span>
             </TabsTrigger>
@@ -192,7 +211,7 @@ export function TalentGrid({ tree, ranks, rgb, highlight, compact = false, singl
         <div className={cn(!single && 'md:grid md:grid-cols-3 md:gap-3')}>
           {tree.tabs.map((t, i) => (
             <TabsContent key={t.name} value={String(i)} forceMount className={cn(!single && 'md:data-[state=inactive]:block')}>
-              <Tree tab={t} ranks={ranks[i] ?? []} highlight={highlight} compact={compact} />
+              <Tree tab={t} ranks={ranks[i] ?? []} highlight={highlight} compact={compact} cls={cls} />
             </TabsContent>
           ))}
         </div>

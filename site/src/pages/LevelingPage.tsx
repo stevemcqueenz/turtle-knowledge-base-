@@ -5,7 +5,7 @@ import { href, useScrollReset, useSectionScroll } from '../lib/router';
 import { cellFor, gradeScore } from '../lib/grades';
 import { pathName, sectionOfPath } from '../lib/leveling';
 import { useClassEntry } from '../data';
-import { Markdown } from '../components/Markdown';
+import { Markdown, SpellClass } from '../components/Markdown';
 import { Loading, Page, PageHeader, Section, Sections } from '../components/layout/Page';
 import type { TocItem } from '../components/layout/Toc';
 import { ClassMark, useClassInk, useClassVars } from '../components/ui/ClassMark';
@@ -103,7 +103,9 @@ export function LevelingPage({ slug }: { slug: string }) {
         {blocks.map((b) =>
           b.kind === 'gameplay' ? (
             <Section key={b.s.id} id={b.s.id} title="Gameplay by level">
-              <GameplayByLevel markdown={b.s.markdown} />
+              <SpellClass.Provider value={slug}>
+                <GameplayByLevel markdown={b.s.markdown} />
+              </SpellClass.Provider>
             </Section>
           ) : b.kind === 'path' && path && tree ? (
             <Section key="talent-path" id="talent-path" title="Talent path 10–60">
@@ -124,7 +126,7 @@ export function LevelingPage({ slug }: { slug: string }) {
                 {path.title}
                 {path.subtitle ? ` · ${path.subtitle}` : ''}
               </p>
-              <LevelingTimeline key={path.id} path={path} tree={tree} rgb={rgb} />
+              <LevelingTimeline key={path.id} path={path} tree={tree} rgb={rgb} cls={slug} />
               {pathSection ? (
                 <details className="group mt-5 rounded-lg border">
                   <summary className="cursor-pointer list-none px-4 py-2.5 text-[13.5px] font-medium text-link">

@@ -1,6 +1,7 @@
 import { classes, core, glossary, specLabel } from './site';
 import { href } from './router';
 import { INSTANCE_KIND_LABEL, bossAnchor } from './instances';
+import { generalGuides } from './guides';
 
 export type SearchKind = 'class' | 'spec' | 'section' | 'leveling' | 'instance' | 'boss' | 'glossary' | 'page';
 
@@ -135,21 +136,21 @@ export const searchItems: SearchItem[] = (() => {
       }
     }
   }
-  if (core.professions) {
+  for (const g of generalGuides) {
     items.push({
       kind: 'page',
-      label: 'Professions',
-      detail: core.professions.title,
-      href: href.professions(),
-      haystack: 'professions engineering alchemy herbalism mining skinning survival gardening jewelcrafting gold crafting',
+      label: g.label,
+      detail: g.title,
+      href: g.route,
+      haystack: `${g.label} ${g.title} ${g.slug} ${g.keywords}`.toLowerCase(),
     });
-    for (const h of core.professions.headings) {
+    for (const h of g.headings) {
       items.push({
         kind: 'section',
         label: clean(h.heading),
-        detail: 'Professions overview',
-        href: href.section(href.professions(), h.id),
-        haystack: `${h.heading} professions`.toLowerCase(),
+        detail: g.label,
+        href: href.section(g.route, h.id),
+        haystack: `${h.heading} ${g.label}`.toLowerCase(),
       });
     }
   }

@@ -20,7 +20,7 @@ import { PlaybookPage } from './pages/PlaybookPage';
 import { LevelingPage } from './pages/LevelingPage';
 import { GearPage } from './pages/GearPage';
 import { GuideDocPage } from './pages/GuideDocPage';
-import { ProfessionsPage } from './pages/ProfessionsPage';
+import { GeneralGuidePage } from './pages/GeneralGuidePage';
 import { InstancesPage } from './pages/InstancesPage';
 import { InstancePage } from './pages/InstancePage';
 import { MatrixPage } from './pages/MatrixPage';
@@ -114,8 +114,8 @@ export default function App() {
     case 'class-professions':
       page = <GuideDocPage key={`${route.slug}/professions`} slug={route.slug} page="professions" />;
       break;
-    case 'professions':
-      page = <ProfessionsPage />;
+    case 'general-guide':
+      page = <GeneralGuidePage key={route.slug} slug={route.slug} />;
       break;
     case 'instances':
       page = <InstancesPage />;

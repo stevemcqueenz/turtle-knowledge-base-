@@ -13,6 +13,8 @@ import { ViabilityMatrix } from '../components/class/ViabilityMatrix';
 import { RoleIcon } from '../components/class/RoleIcon';
 import { ClassNav } from '../components/class/ClassNav';
 import { cleanHeading } from '../components/guide/util';
+import { GameIcon } from '../components/ui/GameIcon';
+import { specIcon } from '../lib/icons';
 import { NotFound } from './NotFound';
 
 export function specRow(cls: ClassSummary, p: PlaybookSummary) {
@@ -31,12 +33,20 @@ function SpecRow({ cls, p }: { cls: ClassSummary; p: PlaybookSummary }) {
     <li>
       <a
         href={href.playbook(cls.slug, p.id)}
-        className="grid grid-cols-[1.25rem_minmax(0,1fr)_auto] items-center gap-3 px-4 py-3 transition-colors hover:bg-accent/50 sm:grid-cols-[1.25rem_minmax(0,1fr)_auto_auto_1rem]"
+        className="grid grid-cols-[2rem_minmax(0,1fr)_auto] items-center gap-3 px-4 py-3 transition-colors hover:bg-accent/50 sm:grid-cols-[2rem_minmax(0,1fr)_auto_auto_1rem]"
       >
-        <RoleIcon role={p.role} className="h-4 w-4 text-muted-foreground" />
+        <GameIcon
+          icon={specIcon(cls.slug, p.spec)}
+          size={32}
+          className="rounded-[5px]"
+          fallback={<RoleIcon role={p.role} className="mx-auto h-4 w-4 text-muted-foreground" />}
+        />
         <span className="min-w-0">
           <span className="block truncate font-medium">{distinctSpecLabel(p, cls.playbooks)}</span>
-          <span className="block text-xs text-muted-foreground">{p.roleLabel}</span>
+          <span className="flex items-center gap-1 text-xs text-muted-foreground">
+            <RoleIcon role={p.role} className="h-3 w-3 shrink-0" />
+            {p.roleLabel}
+          </span>
         </span>
         <span className="hidden text-xs tabular text-muted-foreground sm:block">{p.recommended ?? ''}</span>
         <span className="flex items-center gap-1.5">

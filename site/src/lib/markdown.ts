@@ -2,6 +2,7 @@ import { marked } from 'marked';
 import DOMPurify from 'dompurify';
 import { annotateGlossaryTerms } from './glossary-inline';
 import { DISCORD_CITE, discordCitation } from './citations';
+import { cellStyle, sheetState, spellAtStart, subscribeSheets } from './icons';
 
 marked.setOptions({ gfm: true, breaks: false });
 
@@ -72,7 +73,7 @@ export function parseCitationText(text: string): CitationParts | null {
  * - explains archive jargon on its first mention with a glossary tooltip, except in
  *   inline Markdown, whose host element may clip the popup.
  */
-export function enhanceMarkdownDom(root: HTMLElement): void {
+export function enhanceMarkdownDom(root: HTMLElement, opts: { spellClass?: string } = {}): void {
   root.querySelectorAll('table').forEach((table) => {
     const parent = table.parentElement;
     if (parent && parent.classList.contains('table-scroll')) return;
@@ -101,11 +102,38 @@ export function enhanceMarkdownDom(root: HTMLElement): void {
   // Ability names written as `code` read like spell links in the game's chat.
   root.querySelectorAll('code').forEach((code) => {
     if (code.closest('pre')) return;
-    if (SPELL_NAME.test(code.textContent ?? '')) code.classList.add('spell');
+    if (!SPELL_NAME.test(code.textContent ?? '')) return;
+    code.classList.add('spell');
+    // ... with the spell's icon in front when the class knows a spell of that name
+    if (opts.spellClass && !code.querySelector('.spell-icon')) addSpellIcon(code, opts.spellClass);
   });
 
   groupCitations(root);
   if (!root.classList.contains('md-inline')) annotateGlossaryTerms(root);
+}
+
+/** Icons whose sheet failed to load are taken out again (the name stays). */
+let pruning = false;
+function pruneBrokenIcons(): void {
+  document.querySelectorAll<HTMLElement>('.spell-icon[data-sheet]').forEach((el) => {
+    if (sheetState(el.dataset.sheet ?? '') === 'error') el.remove();
+  });
+}
+
+function addSpellIcon(code: HTMLElement, slug: string): void {
+  const hit = spellAtStart(slug, (code.textContent ?? '').replace(/^rank[- ]?\d+\s+/i, ''));
+  if (!hit || sheetState(hit.sheet.url) === 'error') return;
+  if (!pruning) {
+    pruning = true;
+    subscribeSheets(pruneBrokenIcons);
+  }
+  const icon = document.createElement('span');
+  icon.className = 'game-icon spell-icon';
+  icon.dataset.sheet = hit.sheet.url;
+  icon.setAttribute('role', 'img');
+  icon.setAttribute('aria-label', hit.name);
+  Object.assign(icon.style, cellStyle(hit));
+  code.prepend(icon);
 }
 
 /** "Arcane Missiles", "Power Word: Shield", "Rank-1 Arcane Explosion"; not paths, macros or URLs. */

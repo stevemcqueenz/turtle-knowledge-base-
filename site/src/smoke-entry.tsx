@@ -1,7 +1,12 @@
 import { renderToString } from 'react-dom/server';
 import App from './App';
-import { cachedClass, cachedInstances, cachedProfessions, coreData, preloadAll } from './data';
+import { cachedClass, cachedGuide, cachedInstances, coreData, preloadAll } from './data';
+import { generalGuides, quickLabel } from './lib/guides';
 import { bossAnchor } from './lib/instances';
+import { classIcon } from './lib/icons';
+
+/** public/icons/manifest.json is present (tools/icons/extract_icons.py). */
+const hasIcons = classIcon('mage') !== null;
 
 /** React's text escaping, to find a title in the rendered HTML. */
 const escapeText = (text: string) =>
@@ -13,8 +18,10 @@ await preloadAll();
 
 const classes = coreData.classes.map((c) => cachedClass(c.slug)!);
 const routes = ['#/', '#/matrix', '#/matrix?by=pvp', '#/archive', '#/about', '#/glossary', '#/nope'];
-const professions = cachedProfessions();
-if (professions) routes.push('#/professions');
+// every general guide (guide/*.md) at its own route: only the ones the data has
+const guides = generalGuides.map((g) => ({ meta: g, doc: cachedGuide(g.slug)! }));
+const professions = guides.find((g) => g.meta.slug === 'professions')?.doc ?? null;
+for (const g of guides) routes.push(g.meta.route);
 for (const c of classes) {
   routes.push(`#/class/${c.slug}`);
   if (c.leveling) routes.push(`#/class/${c.slug}/leveling`);
@@ -69,16 +76,27 @@ for (const route of routes) {
       for (const c of classes) expect(`href="#/class/${c.slug}"`);
       if (!coreData.isFixture) expect('href="#/class/mage/leveling"'); // the leveling intent links the leveling guide
       if (professions) expect('href="#/professions"');
+      // the "By goal" quick links and the sidebar's General group
+      for (const g of guides) expect(`href="${g.meta.route}"`);
+      for (const g of guides) if (g.meta.quick) expect(`${escapeText(quickLabel(g.meta))}</a>`);
+      if (guides.length) expect('>General</p>');
     }
     if (route === '#/glossary') {
       expect('>Glossary</h1>');
       for (const g of coreData.glossary.slice(0, 20)) expect(escapeText(g.term));
     }
+    const general = guides.find((g) => route === g.meta.route);
+    if (general) {
+      expect(`>${escapeText(general.meta.label)}</h1>`);
+      for (const s of general.doc.sections) expect(`id="${s.id}"`);
+      if (general.doc.sections.length > 1) expect('aria-label="On this page"'); // the TOC
+      expect(`aria-current="page"`); // its sidebar entry
+      if (/cite-discord/.test(general.doc.sections.map((s) => s.markdown).join('') + general.doc.intro)) expect('cite-discord');
+      expectNot('.md"');
+    }
     if (route === '#/professions' && professions) {
       expect('>Professions</h1>');
-      for (const s of professions.sections) expect(`id="${s.id}"`);
       for (const c of classes) if ((c.guidePages ?? []).some((d) => d.slug === 'professions')) expect(`href="#/class/${c.slug}/professions"`);
-      expectNot('.md"');
     }
     const profCls = classes.find((c) => route === `#/class/${c.slug}/professions` || route === `#/class/${c.slug}/guide/professions`);
     if (profCls) {
@@ -105,6 +123,7 @@ for (const route of routes) {
       for (const s of cls.readme) if (s.heading !== cls.viability?.heading && s.heading.toLowerCase() !== 'pages') expect(`id="${s.id}"`);
       if ((cls.guidePages ?? []).some((d) => d.slug === 'professions')) expect(`href="#/class/${cls.slug}/professions"`);
       if (cls.viability) expect('data-q="S"'); // ratings drawn as item-quality badges
+      if (hasIcons) expect('class="game-icon'); // class emblem and spec tree icons
     }
     if (route.endsWith('/leveling')) {
       const c = classes.find((x) => route === `#/class/${x.slug}/leveling`)!;
@@ -168,6 +187,7 @@ for (const route of routes) {
         expect('Open in talent calculator');
         expect(escapeText(pb.builds[0].url).replace(/&amp;/g, '&amp;'));
         expect('role="group"'); // the talent grid
+        if (hasIcons) expect('game-icon talent-icon'); // talent slots draw their in-game icons
       }
       if (pb.yaml) expect('id="for-bots"');
       const how = pb.extraSections.find((x) => /^how to play/i.test(x.heading));

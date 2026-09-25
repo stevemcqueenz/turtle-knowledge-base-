@@ -122,6 +122,10 @@ export function AboutPage() {
             </a>
             .
           </p>
+          <p className="mt-3 text-sm text-muted-foreground">
+            Class, talent and spell icons and the dungeon maps are Blizzard Entertainment assets extracted from the game client, used for a
+            non-commercial fan guide.
+          </p>
         </Section>
       </Sections>
     </Page>

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { ArrowUpRight } from 'lucide-react';
 import type { PlaybookYaml, TalentBuild, TalentTree, YamlRotationStep } from '../../types';
 import { isPlainObject } from '../../lib/site';
@@ -10,6 +10,8 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '.
 import { ToggleGroup, ToggleGroupItem } from '../ui/toggle-group';
 import { SplitLine, TalentGrid } from '../talents/TalentGrid';
 import { capLabel, describeValue } from '../guide/util';
+import { GameIcon } from '../ui/GameIcon';
+import { spellsIn } from '../../lib/icons';
 
 /* ---- build ----------------------------------------------------------------- */
 
@@ -22,7 +24,7 @@ function shortLabel(b: TalentBuild): string {
 }
 
 /** The recommended build in the talent frame, the calculator link, and a switcher over the guide's other builds. */
-export function BuildCard({ builds, tree, rgb }: { builds: TalentBuild[]; tree: TalentTree; rgb: string }) {
+export function BuildCard({ builds, tree, rgb, cls }: { builds: TalentBuild[]; tree: TalentTree; rgb: string; cls?: string }) {
   const [index, setIndex] = useState(0);
   const build = builds[index] ?? builds[0];
   if (!build) return null;
@@ -84,7 +86,7 @@ export function BuildCard({ builds, tree, rgb }: { builds: TalentBuild[]; tree: 
         </div>
       ) : null}
       <div className="p-3 sm:p-4">
-        <TalentGrid tree={tree} ranks={build.ranks} rgb={rgb} label={`Talent points of ${stripCites(build.label)}`} />
+        <TalentGrid tree={tree} ranks={build.ranks} rgb={rgb} cls={cls} label={`Talent points of ${stripCites(build.label)}`} />
       </div>
     </div>
   );
@@ -185,6 +187,19 @@ export function StatsCard({ yaml }: { yaml: PlaybookYaml }) {
 
 /* ---- priority list ----------------------------------------------------------- */
 
+/** The in-game icons of the spells a step names, in front of its text. */
+function SpellIcons({ cls, text }: { cls?: string; text: string }) {
+  const hits = useMemo(() => (cls ? spellsIn(cls, stripCites(text), 3) : []), [cls, text]);
+  if (!hits.length) return null;
+  return (
+    <span className="mr-1.5 inline-flex gap-0.5 align-[-0.3em]">
+      {hits.map((h) => (
+        <GameIcon key={h.name} icon={h} label={h.name} size={19} />
+      ))}
+    </span>
+  );
+}
+
 const isOpener = (s: YamlRotationStep) => s?.priority === 0 || String(s?.condition ?? '').trim().toLowerCase() === 'opener';
 
 const arrows = (t: string) => t.replace(/\s*->\s*/g, ' → ');
@@ -198,7 +213,7 @@ function stepText(s: YamlRotationStep): { action: string; condition: string; sou
   };
 }
 
-export function PriorityCard({ yaml, title = 'Single-target priority' }: { yaml: PlaybookYaml; title?: string }) {
+export function PriorityCard({ yaml, cls, title = 'Single-target priority' }: { yaml: PlaybookYaml; cls?: string; title?: string }) {
   const steps = Array.isArray(yaml.rotation_single) ? yaml.rotation_single : [];
   if (!steps.length) return null;
   const opener = steps.find(isOpener) ?? null;
@@ -227,6 +242,7 @@ export function PriorityCard({ yaml, title = 'Single-target priority' }: { yaml:
               <span className="pt-px text-[13px] font-semibold tabular text-muted-foreground">{i + 1}</span>
               <span className="min-w-0 text-[13.5px]">
                 <span className="block font-medium">
+                  <SpellIcons cls={cls} text={t.action} />
                   <CitedText text={`${t.action}${t.sources ? ` ${t.sources}` : ''}`} />
                 </span>
                 {t.condition ? (

@@ -64,7 +64,7 @@ function RankBar({ s }: { s: LevelingPathStep }) {
  * any respec called out. When the whole order resolves to known talents a level
  * slider replays it on the talent grid; otherwise the grid shows where it ends.
  */
-export function LevelingTimeline({ path, tree, rgb }: { path: LevelingPath; tree: TalentTree; rgb: string }) {
+export function LevelingTimeline({ path, tree, rgb, cls }: { path: LevelingPath; tree: TalentTree; rgb: string; cls?: string }) {
   const canReplay = useMemo(() => replayable(path), [path]);
   const maxLevel = Math.max(10, ...path.steps.map((s) => s.to ?? s.from ?? 10));
   const [level, setLevel] = useState(maxLevel);
@@ -177,7 +177,7 @@ export function LevelingTimeline({ path, tree, rgb }: { path: LevelingPath; tree
               </div>
             ) : null}
             <div className="mt-4">
-              <TalentGrid tree={tree} ranks={gridRanks} rgb={rgb} single highlight={state?.learned} label={`Talents: ${path.title}`} />
+              <TalentGrid tree={tree} ranks={gridRanks} rgb={rgb} cls={cls} single highlight={state?.learned} label={`Talents: ${path.title}`} />
             </div>
           </div>
         </div>
