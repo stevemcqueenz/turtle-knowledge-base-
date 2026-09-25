@@ -15,7 +15,7 @@ Current = 1.18.1 (live 2026-03-20). Post-release evidence is preferred over the 
 
 ## Experts relied on, and why
 
-- **Lhian** (developer): posted and explained the 1.18.1 paladin changes in-channel and confirms or denies rumours directly [[d:paladin#1486109344486653954]], [[d:paladin#1481428000867356684]]. His 2026-04-01 "next patch" post was an April Fools joke [[d:paladin#1488852869212798987]].
+- **Lhian** (developer): posted and explained the 1.18.1 paladin changes in-channel and confirms or denies rumours directly [[d:paladin#1486109344486653954]], [[d:paladin#1481428000867356684]]. His 2026-04-01 "next patch" post was an April Fools joke [[d:paladin#1488852869212798987]], [[d:paladin#1488856415010291794]].
 - **Mithreon**: the channel's build curator; posts the pinned talent codes (the SoR, SoC, Prot and Holy builds used here [[d:paladin#1491936698689388746]], [[d:paladin#1440085972103594096]]), the spell coefficient sheet [[d:paladin#1390647300568911932]] and the leveling checkpoints [[d:paladin#1440662105140236349]].
 - **Jesse Potter (Lightbourne)**: one of the top Seal of Command Rets on the server; detailed openers, gear and consumable lists, PvP [[d:paladin#1455491776248025123]], [[d:paladin#1494325796440113223]]. Others note he is prolific and sometimes wrong [[d:paladin#1459965639593562155]]; his claims were cross-checked.
 - **Istenneveben (Spelladin)**: long-time top SoR parser and author of the community spellret gear guide [[d:paladin#1427653402598441070]]; weapon skill and rotation summaries [[d:paladin#1488219693293633586]], [[d:paladin#1495906695132483664]].
@@ -39,6 +39,6 @@ What the sources do not settle:
 9. **Consecration's spell power coefficient** (~0.66 claimed) was never confirmed [[d:paladin#1468302112587911199]].
 10. **Flametongue Totem bug (April 2026)** inflated SoR and Necrodin parses; whether and when it was fully fixed is not in the sources [[d:paladin#1493259558431494244]].
 11. **Divine Shield's healing penalty**: 50% or 60% [[d:paladin#1467173434726547698]], [[d:paladin#1454939206445957152]].
-12. **PvP**: no posted, complete 51-point Ret or Holy PvP build; the self-heal Ret and Shockadin trees on the PvP page are reconstructed from descriptions and marked as such. Nobody answered requests for a PvP template [[d:paladin#1471710411983163514]]. No arena comp or rating data; no current data for the Priest, Druid and Paladin matchups.
+12. **PvP**: no posted, complete 51-point Ret or Holy PvP build; the self-heal Ret and Shockadin trees on the PvP page are reconstructed from descriptions and marked as such. Nobody answered requests for a PvP template [[d:paladin#1471690881894584341]]. No arena comp or rating data; no current data for the Priest, Druid and Paladin matchups.
 13. **Leveling**: no full zone route; the Ret leveling order is Mithreon's checkpoints with the in-between order chosen for this guide; no post-1.18.1 leveling order was posted in full.
 14. **After May 2026**: any later hotfix or balance patch is not covered.

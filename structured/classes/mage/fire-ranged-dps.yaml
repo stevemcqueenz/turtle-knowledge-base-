@@ -446,10 +446,12 @@ cooldowns:
   sources:
   - '[[d:mage#1478734312135331881]]'
 - name: Mind Quickening Gem
-  use_when: save for chosen fights (Medivh, Faerlina, Heigan) or pre-proc windows (hard-mode KT)
+  use_when: save for chosen fights (Medivh, Faerlina, Heigan); best on short fights given its ~5 min cooldown, or pre-summon
+    and swap to it right before the pull for a longer fight
   sources:
   - '[[d:mage#1470890829055787194]]'
-  - '[[d:mage#1472414395211583659]]'
+  - '[[d:mage#1494477500871610509]]'
+  - '[[d:mage#1476594037602516993]]'
 - name: Blast Wave
   use_when: AoE, 30 s cooldown
 resource_rules:

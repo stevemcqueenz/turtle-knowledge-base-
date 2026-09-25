@@ -60,7 +60,7 @@ Why:
 - **Ancient Brutality** returns energy on your bleed ticks, which is why the bleed rotation needs little powershifting [[d:druid#1483241636598386778]], [[d:druid#1486578769077473405]].
 - **Carnage 2/2**: a 5-combo-point Ferocious Bite refreshes Rip and Rake [[d:druid#1425289376962838642]], [[d:druid#1476991316775931974]]. The refresh does not show on training dummies, but it happens [[d:druid#1479856112659333153]].
 - **Blood Frenzy** makes Tiger's Fury a permanent haste/energy buff; one player calls it "the enabler for feral not to suck" [[d:druid#1446514695883460640]].
-- **Furor + Improved Shred** keep the powershift/Shred rotation available for bleed-immune bosses [[d:druid#1434171768851009708]].
+- **Furor + Improved Shred** keep the powershift/Shred rotation available for bleed-immune bosses [[d:druid#1434171609425383505]].
 - The 4 filler points in row 1 of Balance can be Improved Nature's Grasp 4/4 instead of 2 + Sylvan Blessing 2 (next table).
 
 ### Variants
@@ -71,7 +71,7 @@ Why:
 | **Shred-heavy (Ferocity 4 / Feral Aggression 5)** | Ferocity 4/5, Feral Aggression 5/5: more Ferocious Bite damage, dearer Claw. For raids where you Shred most of the time | `BSAaAI-EoADAaDSQIFQB-Ao` ([Open in talent calculator](https://xian55.github.io/tortoise-db-viewer/?talents=druid&t=0122003201-450003003232221521-05)) | "Ferocious Bite has a very high usage rate, so ... Feral Aggression increasing Ferocious Bite damage is more valuable" [[d:druid#1458706720804307136]] |
 | **Cat who off-tanks** | Use the [Feral Bear](feral-bear.md) build (Feral Instinct 3, Thick Hide 3, Feral Charge 1, no Open Wounds/Feral Aggression) | `BSAaAI-FAYYBaDSQIFQB-Ao` ([Open in talent calculator](https://xian55.github.io/tortoise-db-viewer/?talents=druid&t=0122003201-503030013232221521-05)) | Micro Jackson: tanks "can still shred as cat when your target dies" [[d:druid#1444972918290383024]] |
 
-**Contested:** Open Wounds as a raid talent. Some call it "mostly a leveling talent" because raids Shred more [[d:druid#1460028294341722304]]; the post-1.18.1 top parses use Claw, so Open Wounds stays [[d:druid#1492276296808661174]]. Points are tight: "points are very tight for feral (especially cat)", so keep two builds in your Brainwashing Device [[d:druid#1493279951695384626]]. Since 1.18.1 you can no longer run cat and bear talents in one build, so swapping roles needs a respec [[d:druid#1492164894408052736]].
+**Contested:** Open Wounds as a raid talent. Some call it "mostly a leveling talent" because raids Shred more [[d:druid#1460028294341722304]]; the post-1.18.1 top parses use Claw, so Open Wounds stays [[d:druid#1492276296808661174]]. Points are tight: "points are very tight for feral (especially cat)", so keep two builds in your Brainwashing Device [[d:druid#1493281252285874250]]. Since 1.18.1 you can no longer run cat and bear talents in one build, so swapping roles needs a respec [[d:druid#1492164894408052736]].
 
 ## Stat priority and caps
 
@@ -99,7 +99,7 @@ Priority (bot-ready):
 4. **`Rake`** if missing [[d:druid#1462552241461268501]].
 5. **`Shred`** if you have **Clearcasting** and are behind the target. Clearcasting always goes into Shred, even at 5 combo points, unless Rip is about to expire [[d:druid#1427967004635037858]].
 6. **`Claw`** as the filler. "If the boss is not bleed immune Claw will always out dps Shred if played well"; all top 1.18.1 parses use Claw [[d:druid#1492276296808661174]].
-7. **`Reshift`** when energy is below about 28-32, Tiger's Fury has under 3 s left and no energy tick is about to land. It refunds up to 60 energy with Furor and the Wolfshead enchant [[d:druid#1480881704733511861]], [[d:druid#1459798058324725914]]. At 28 energy you are one tick from another Shred, so use it; at 27 you are two ticks away [[d:druid#1482840263985725440]].
+7. **`Reshift`** when energy is below about 28-32, Tiger's Fury has under 3 s left and no energy tick is about to land. It refunds up to 60 energy with Furor and the Wolfshead enchant [[d:druid#1480881470171254826]], [[d:druid#1459798058324725914]]. At 28 energy you are one tick from another Shred, so use it; at 27 you are two ticks away [[d:druid#1482840263985725440]].
 
 Notes:
 
@@ -143,7 +143,7 @@ Cat has **no AoE and no cleave**, which the class designer confirmed as intent: 
 ## Cooldowns and utility
 
 - **Tiger's Fury:** keep it up 100% of the time; it is off the GCD [[d:druid#1463118416008183876]].
-- **Berserk:** 6-minute cooldown, too long to use on every boss; save it for the long bleedable bosses [[d:druid#1465511791173042258]].
+- **Berserk:** 6-minute cooldown, too long to use on every boss; save it for the long bleedable bosses [[d:druid#1465561498465206425]].
 - **Trinkets** with on-use effects: use at the pull and in the last 20% of the fight (ZHC, ToEP) [[d:druid#1426991920953036942]].
 - **Idol swapping** costs a GCD since 1.18.1 [[d:druid#1477688732374138960]], and a macro swap triggers a ~30 s internal cooldown; cats are energy-capped, so this matters less than for Balance [[d:druid#1488420223047696424]]. The one swap still discussed is Idol of Savagery for the opening Rip, then Idol of Ferocity [[d:druid#1449865381530566807]]. Non-Claw idols are "not worth using now that idol-swapping is disabled", but keep them in the bank [[d:druid#1491291677975908453]].
 - **Utility:** Leader of the Pack (3% crit aura), Innervate, Rebirth (only out of form) [[d:druid#1472320012265066739]], [[d:druid#1460640945753165854]]. Innervate a healer; one player jokes that it buys a feral's survival [[d:druid#1491219737940721724]].
@@ -176,20 +176,20 @@ Skip the Devilsaur set; better pieces replace it quickly [[d:druid#1418651437164
 
 ### Raid progression
 
-- **MC / Onyxia:** Rod of the Churning Hourglass over Finkle's; MC gauntlets are BiS gloves for a long time [[d:druid#1433399158621999105]], [[d:druid#1486388526135115947]]. The **T1 8-piece** bonus tested well on shred bosses in a split MC run [[d:druid#1483435023595208744]].
+- **MC / Onyxia:** Rod of the Churning Hourglass over Finkle's; MC gauntlets are BiS gloves for a long time [[d:druid#1436885520323182736]], [[d:druid#1486388526135115947]]. The **T1 8-piece** bonus tested well on shred bosses in a split MC run [[d:druid#1483435023595208744]].
 - **BWL / [Kara10](../../instances/lower-karazhan-halls.md):** Herald of Woe (BiS weapon until AQ40), Prestor's Talisman, Circle of Applied Force ("forever BiS"), Leggings of the Inferno and the Kara10 venom trinket [[d:druid#1441039821538725899]], [[d:druid#1486931301901664377]]. Never-Ending Agony is BiS only if you still need hit; give it to the cat before the bear [[d:druid#1444179695011762187]].
-- **AQ40:** C'Thun belt [[d:druid#1486388526135115947]]. Keep the **T2.5** set bonus until you can complete 5 pieces of T3.5 [[d:druid#1442674279408865362]]. The T2.5 3-piece favours Claw, the 5-piece Shred [[d:druid#1451314956363632730]].
+- **AQ40:** C'Thun belt [[d:druid#1486388526135115947]]. Keep the **T2.5** set bonus until you can complete 5 pieces of T3.5 [[d:druid#1442721447083511951]]. The T2.5 3-piece favours Claw, the 5-piece Shred [[d:druid#1451314956363632730]].
 - **Naxx:** cat gear "almost disappears"; your AQ40 pieces carry you [[d:druid#1491228727374516265]], [[d:druid#1491817394287411230]].
 - **Kara40:** Tunic of Demonic Deception and Choker of the Talon are the big upgrades; Talon helm, boots and shoulders, Felforged Nathrezim Veil, Mephistroth's Cunning come next [[d:druid#1362819920089317427]]. Only the T3.5 boots, pauldrons and neck are good [[d:druid#1486782537551581216]]. Kara40 gloves are worse than T1 gloves [[d:druid#1487117780435206395]]. At full Kara BiS, the Mephistroth belt beats the C'Thun belt because you no longer need hit [[d:druid#1492175341261815930]]. The Mephistroth ring (32 Agility, 1% haste) is worth prioritising [[d:druid#1474084071444451600]].
 - **Contested:** the T3.5 5-piece. Shardphoenix swaps it out on movement-heavy fights; others say full boss uptime makes it mandatory [[d:druid#1492176857980731494]].
-- **Timbermaw Hold set:** probably better than T2.5 (similar stats, much better bonus); best as 5 pieces with non-set boots [[d:druid#1492897923938123786]]. Its 5-piece may not stack with Tiger's Fury (bug report 21747; possibly visual) [[d:druid#1491800617629258019]].
-- **Weapons:** Atiesh is BiS for feral, the only DPS spec that keeps it in Kara40 [[d:druid#1486729477026349248]]. Order: Atiesh > MoM > Spear > Eye of Nerub [[d:druid#1487247462719684689]]. Raka'shishi gives +448 AP in forms, but its extra-attack proc is disabled while shapeshifted [[d:druid#1482118717872672940]]. 1.18.1 hotfix: Yoxtez gained 224 Feral Attack Power ([Torta, 2026-03-21](https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608)).
+- **Timbermaw Hold set:** probably better than T2.5 (similar stats, much better bonus); best as 5 pieces with non-set boots [[d:druid#1492898837994672209]]. Its 5-piece may not stack with Tiger's Fury (bug report 21747; possibly visual) [[d:druid#1491800617629258019]].
+- **Weapons:** Atiesh is BiS for feral, the only DPS spec that keeps it in Kara40 [[d:druid#1486729477026349248]]. Order: Atiesh > MoM > Spear > Eye of Nerub [[d:druid#1487247462719684689]]. Raka'shishi gives large AP in forms, but its extra-attack proc is disabled while shapeshifted [[d:druid#1464367016478507018]]. 1.18.1 hotfix: Yoxtez gained 224 Feral Attack Power ([Torta, 2026-03-21](https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608)).
 - **Crafted:** Convergence of the Elements leggings (Elemental Leatherworking) are "extra good" [[d:druid#1491826525689872485]].
 
 ### Trinkets
 
 - Early: Zandalarian Hero Charm and Talisman of Ephemeral Power [[d:druid#1426983485024763966]]; Blackhand's Breadth [[d:druid#1418651437164007614]].
-- Progression: Earthstrike / Heart of Dreams → **Kiss of the Spider + Heart of Dreams** → Slayer's Crest or the KT trinket in Naxx [[d:druid#1440469937737957488]], [[d:druid#1440478360064102473]]. Molten Emberstone is about 20 free DPS on use [[d:druid#1465266580555432101]]. Vial of Potent Venoms and Blackhand's Breadth beat Draenei Exile's Trinket, whose real proc rate is below its tooltip [[d:druid#1490450923103981648]].
+- Progression: Earthstrike / Heart of Dreams → **Kiss of the Spider + Heart of Dreams** → Slayer's Crest or the KT trinket in Naxx [[d:druid#1440471793633857658]], [[d:druid#1440478360064102473]]. Molten Emberstone is about 20 free DPS on use [[d:druid#1465266580555432101]]. Vial of Potent Venoms and Blackhand's Breadth beat Draenei Exile's Trinket, whose real proc rate is below its tooltip (about 3.7%, tested, not the ~10%) [[d:druid#1488298605948309687]], [[d:druid#1490445182762619063]].
 - **Shieldrender Talisman** (Kara40) was nerfed in 1.18.1: its 4 armor-ignoring attacks get burned by low-value autos [[d:druid#1472699412005523538]], [[d:druid#1474303149903970336]].
 - Low value for cat: DFT and Accuria (you are hit-capped by AQ40; give them to a rogue or warrior) [[d:druid#1444178527732891678]]; Hand of Justice (it resets the swing timer, worth about half a real extra attack) [[d:druid#1447922912051855370]]; Chromie's quest trinket (a near-permanent −10% haste debuff) [[d:druid#1439701828936929481]].
 
@@ -202,7 +202,7 @@ Skip the Devilsaur set; better pieces replace it quickly [[d:druid#1418651437164
 | Slot | Enchant | Source |
 |---|---|---|
 | Head | **Wolfshead** enchant (the old helm effect, now a repeatable Moonglade quest; energy/rage on shift) if you ever powershift; otherwise the 1% haste enchant | [[d:druid#1426547464323993703]], [[d:druid#1493535288524275722]], [[d:druid#1434217422692421763]] |
-| Shoulders | 2% haste (Hyjal quest reward, NPC in a house in Nordanaar) | [[d:druid#1486295829471035472]], [[d:druid#1490199987756470394]] |
+| Shoulders | 2% haste (Hyjal quest reward, NPC in a house in Nordanaar) | [[d:druid#1486295829471035472]], [[d:druid#1490201212497428523]] |
 | Cloak | +3 Agility (over Subtlety) | [[d:druid#1448449452317741086]] |
 | Chest | +3 all stats | [[d:druid#1490199987756470394]] |
 | Wrists | Strength | [[d:druid#1490199987756470394]] |
@@ -237,7 +237,7 @@ Medvedev's raid list [[d:druid#1461753276017152021]]:
 - Only one item per bucket applies: Juju Might and Firewater share one; Juju Power and Giants share another [[d:druid#1475814371534835852]].
 - Scrolls of Agility and Strength do not stack with the elixirs, even though both show on the buff bar [[d:druid#1433887910083428544]].
 - Jujus drop on death [[d:druid#1475832792372740218]].
-- Defensive kit: Greater Protection Potions, Free Action Potion, Limited Invulnerability Potion, Magic Resistance Potion, Juju Chill/Ember [[d:druid#1461753276017152021]].
+- Defensive kit: Greater Protection Potions, Free Action Potion, Limited Invulnerability Potion, Magic Resistance Potion, Juju Chill/Ember [[d:druid#1461754694274912499]].
 - If you hit the buff cap (32 visible, 48 total), Elixir of Fortitude is the one to drop [[d:druid#1471781046063206541]], [[d:druid#1461764766174413013]].
 
 ## Macros and addons

@@ -37,7 +37,7 @@ The sources contain no player tactics for any of these bosses.
 
 ## Loot highlights
 
-- **Greymane plate set** (vampirism on some pieces [[d:paladin#1372460233489907732]]): shoulders and helm come from atlas-listed sources, and the other 2 pieces drop from trash [[d:paladin#1433544338339659837]].
+- **Greymane plate set** (vampirism on some pieces [[d:paladin#1372460233489907732]]): shoulders and helm come from atlas-listed sources, and the rest drop from trash [[d:paladin#1433545174872756417]].
 - **Wolfblood** for hunters [[d:hunter#1432359990273904680]]; Ring of Electrical Binding [[d:paladin#1392754455791014010]]; spell-hit shoulders for boomkins [[d:druid#1367619573259698308]]; a tank shield [[d:paladin#1395409005022547968]].
 - **Mage:** the Tome of Teleportation: Theramore quest chain sends you here for its item [[d:mage#1327193424788590592]], [[d:mage#1486467684559355985]].
 

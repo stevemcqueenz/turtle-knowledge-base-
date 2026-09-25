@@ -15,7 +15,7 @@ Short notes for vanilla dungeons where the Turtle sources say little: Ragefire C
 
 ## Gnomeregan
 
-- **Manual Crowd Pummeler** (about 28) for leveling ferals: only its stats matter now, since its effect no longer works in form [[d:druid#1484464772115206204]], [[d:druid#1462513205434650823]].
+- **Manual Crowd Pummeler** (about 28) for leveling ferals: only its stats matter now, since its effect no longer works in form [[d:druid#1484464772115206204]], [[d:druid#1462513205434650823]], [[d:druid#1462513287345209394]].
 - **Toxic Revenger** (dagger) [[d:rogue#1324107314747408587]] and an early-30s gun [[d:hunter#1311230041606062111]].
 
 ## Uldaman

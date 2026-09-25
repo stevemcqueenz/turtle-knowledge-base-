@@ -124,7 +124,7 @@ You can take points out of Suppression if gear covers your hit, "though none of 
 
 1. **Hit to 16%, all from gear** [[d:warlock#1490499753312518144]]. One Destro planner reached cap on Ambershire with about 15% from gear [[d:warlock#1488934843235569815]].
 2. **Crit and spell power.** Fire, SM/Ruin and Demonology gear the same way: spell power and crit [[d:warlock#1464550328367317067]], [[d:warlock#1464548870137577472]]. Afraido's values at ~1,000 SP: 1% hit ≈ 18 SP, 1% crit ≈ 13 SP [[d:warlock#1482828212525469856]].
-3. **Haste:** helps Searing Pain now that it has a real cast time. Use haste potions and Juju Flurry as Destruction too [[d:warlock#1486559373244370974]].
+3. **Haste:** helps Searing Pain now that it has a real cast time. Use haste potions and Juju Flurry as Destruction too [[d:warlock#1486559622839013456]].
 4. **Stamina** for the shards and Life Taps.
 
 **SM/Ruin:** hit to 16% (Suppression covers only your DoTs), then crit and spell power. **Contested:** rqo argues haste beats crit because Shadow Bolt is only ~65% of SM/Ruin damage [[d:warlock#1464549618611126272]]. Summonjutsu counters that crits are more mana-efficient, and haste makes you Life Tap more [[d:warlock#1464549874644156568]]. L-star puts Shadow Bolt at 55-60% of SM/Ruin damage [[d:warlock#1490901049777721516]].
@@ -186,10 +186,10 @@ Warlock AoE is still called weak overall [[d:warlock#1470342211731329045]]. "If 
 ## Gear
 
 - **No dedicated Destruction tier set.** Destro uses the Demonology T1/T2 sets by default [[d:warlock#1484147919224307813]]; Lightemgee calls them "atrocious for destro" [[d:warlock#1440504874939973672]].
-- **AQ40 Implements of Unspoken Names** (ring, kris, shroud): the ring gives +1% crit, +1% hit and +14 spell damage; the 2-piece gives +5% pet damage; the **3-piece** cuts Immolate's cast by 0.5 s and makes Conflagrate deal 3 s of Immolate damage without consuming it [[d:warlock#1489351729274159245]].
+- **AQ40 Implements of Unspoken Names** (ring, kris, shroud): the ring gives +1% crit, +1% hit and +14 spell damage; the 2-piece gives +5% pet damage; the **3-piece** cuts Immolate's cast by 0.5 s and makes Conflagrate deal 3 s of Immolate damage without consuming it [[d:warlock#1399209176898474077]].
 - **T3.5 Destruction 5-piece** is close to worthless. It does about half its apparent intended value, and two bug reports were closed as "working as intended" [[d:warlock#1471875253280968900]]. Its Felfire Punishment was about 1% of total damage in real Kara40 logs [[d:warlock#1476890832744349848]].
 - **Timbermaw Hold 3-piece** for Fire: legs and shoulders are the best slots to replace T3 [[d:warlock#1492154763943612556]]. The TMH hit trinket is best for Fire locks [[d:warlock#1494078222810349641]].
-- **True Band of Sulfuras** becomes attractive for Fire, because its proc needs direct-damage casts [[d:warlock#1487030897843765328]].
+- **True Band of Sulfuras** becomes attractive for Fire, because its proc needs direct-damage casts [[d:warlock#1487032356346007612]].
 - **Ornate Bloodstone Dagger:** about a 5% spell-power coefficient on its proc, poor value [[d:warlock#1458487445132935363]]. W's "Fire & Shadow" style uses it: alternate Shadow Bolt and Searing Pain so the fire-school proc lands while you cast Searing Pain and does not push you back [[d:warlock#1505173675656216728]].
 - **Class weapon Thil'phoral** ([Timbermaw Hold](../../instances/timbermaw-hold.md)): on a heroic dummy, a Demo-Fire lock did slightly more with Thil'phoral plus the Onyxia offhand than with the Kirel Narak offhand [[d:warlock#1494150250393370656]].
 - **SM/Ruin example** (L-star): full T2.5, Wraith Blade, the Naxx negative-resistance offhand, Bindings of Contained Magic, Affliction T3 ring, Kara10 Medivh ring, the Naxx resistance-shred pendant, Remains of Overwhelming Power, Neltharion's Tear, later the Scythe [[d:warlock#1464689850321207377]].

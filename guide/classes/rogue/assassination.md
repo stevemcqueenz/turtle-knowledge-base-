@@ -90,7 +90,7 @@ Damage profile (pre-patch logs): roughly half poison, 10-20% Noxious Assault, th
 1. **Opener:** a combo point pre-loaded on the boss (carry it over with Slice and Dice on a critter), or a Noxious Assault [[d:rogue#1480688682787667988]].
 2. **Envenom** at 1 combo point, **then Slice and Dice** at 1 combo point. Envenom first is worth about 50 DPS [[d:rogue#1484581432889442335]], [[d:rogue#1484584436648644618]].
 3. **Noxious Assault** to build combo points; never Backstab or Sinister Strike in this spec [[d:rogue#1436359116774838312]], [[d:rogue#1456036053197783113]].
-4. **Eviscerate** at 5 combo points; **Cold Blood** on a 5-point Eviscerate, or on a Noxious Assault when a Seal Fate crit gets you to 5 faster [[d:rogue#1485191077827842271]], [[d:rogue#1480513960317943900]].
+4. **Eviscerate** at 5 combo points; **Cold Blood** on a 5-point Eviscerate, or on a Noxious Assault when a Seal Fate crit gets you to 5 faster [[d:rogue#1480513960317943900]].
 5. Refresh Envenom and Slice and Dice at 1 point with the Ruthlessness point after a finisher [[d:rogue#1478779997878485167]].
 
 - **Do not use Rupture.** With Taste for Blood gone from poisons, skipping Rupture sims about 20 DPS higher [[d:rogue#1485191077827842271]].

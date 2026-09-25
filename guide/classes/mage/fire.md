@@ -88,8 +88,8 @@ Why:
 
 - A crit applies **Ignite**, which deals 40% of that crit's damage again over **4 s**. Ignite stores up to 5 crits. Any later crit, even at 5 stacks, resets the 4 s timer; if no crit lands within 4 s, Ignite drops [[d:mage#1478705573376819295]]. It stores 40% of the first 5 crits until it drops, then restarts [[d:mage#1487205700340941033]].
 - **Crit needed to keep it rolling:** about 50% for a Fireball → Fire Blast cadence, about 33% for Scorch → Scorch → Fire Blast [[d:mage#1478707474113757357]].
-- **Ignite is shared.** There is one Ignite per target. Every contributing mage refreshes it, and damage and threat are split among the mages who crit into it [[d:mage#1486342319245496382]], [[d:mage#1408703016089026683]]. The sweet spot is **2 Fire mages**; 3 can work after the Fire Blast fix but may be overkill [[d:mage#1465737132768231517]], [[d:mage#1468713916501852311]].
-- **Apply Fire Vulnerability before the crit that builds Ignite.** The debuff modifies the stored Ignite value when the crit lands, and Ignite ticks benefit again ("double dip") [[d:mage#1466212364125999157]], [[d:mage#1466213805527797860]], [[d:mage#1466210151127187660]].
+- **Ignite is shared.** There is one Ignite per target. Every contributing mage refreshes it, and damage and threat are split among the mages who crit into it [[d:mage#1486342319245496382]], [[d:mage#1408703016089026683]]. The sweet spot is **2 Fire mages**; 3 can work after the Fire Blast fix but may be overkill [[d:mage#1465754189761085440]], [[d:mage#1465754221864423620]].
+- **Apply Fire Vulnerability before the crit that builds Ignite.** The debuff modifies the stored Ignite value when the crit lands, and Ignite ticks benefit again ("double dip") [[d:mage#1466214293728137430]], [[d:mage#1466213805527797860]], [[d:mage#1466210151127187660]].
 - **Drop a weak Ignite.** If partial resists built a weak Ignite, let it drop and rebuild quickly [[d:mage#1487206596852449382]]. With several Fire mages, one player deliberately drops a weak opening Ignite so the group can build a stronger one [[d:mage#1466198674735497530]]. The BigWigs MageTools module has a shared alert for this: `/bw extra magetools ignitedroptrigger` [[d:mage#1478706351755759742]].
 - The Ignite debuff has a visible stack cap (48), so addons may show "no gain" when there was one. Use Nampower + BigWigs MageTools V2 to track past it [[d:mage#1484285532308771007]], [[d:mage#1484297069148770464]].
 
@@ -119,7 +119,7 @@ Fire's AoE lags behind Arcane's. Fire is "forced to choose between single-target
 
 - **When to Flamestrike:** only if the mobs stay grouped and alive for a while (e.g. the mage/conjurer packs before Gnarlmoon and after Anomalus in Kara40). If the raid melts trash, just Arcane Explosion + Blast Wave [[d:mage#1465749962976657460]], [[d:mage#1468725989961109605]]. Chained Flamestrike ranks lose value in short fights [[d:mage#1479770070598291608]].
 - Blast Wave reportedly rolls crit once, not per target (single source) [[d:mage#1465281368929075272]].
-- **Flarecore (ZG) 6-piece** is a big-pull set. Skip it under 10 mobs; it is about 8% of damage at 10 mobs and up to ~50% at 40-60-mob duo pulls (e.g. Dragonmaw Retreat, Stormwrought Ruins). It causes client lag; the Perfboost mod can hide the effects [[d:mage#1468412814086508635]], [[d:mage#1463993710915354696]], [[d:mage#1463994282372239537]]. The ZG 5-piece Flamestrike bonus is worth building around only for trash [[d:mage#1465749804515594340]].
+- **Flarecore (ZG) 6-piece** is a big-pull set. Skip it under 10 mobs; it is about 8% of damage at 10 mobs and up to ~50% at 40-60-mob duo pulls (e.g. Dragonmaw Retreat, Stormwrought Ruins) [[d:mage#1468412814086508635]], [[d:mage#1463993710915354696]]. It causes client lag; the Perfboost mod can hide the effects [[d:mage#1463994135064084564]], [[d:mage#1463994282372239537]]. The ZG 5-piece Flamestrike bonus is worth building around only for trash [[d:mage#1465749804515594340]].
 - Wear 3 Frost/Fire T3.5 + 3 Arcane T3.5 on trash for the Mirror Magic rewind (+20% for Fire) [[d:mage#1481363007782129816]]. The rewind does not proc Ignite [[d:mage#1433242806238969877]].
 
 ## Cooldowns and mana
@@ -127,7 +127,7 @@ Fire's AoE lags behind Arcane's. Fire is "forced to choose between single-target
 | Cooldown | Use |
 |---|---|
 | **Combustion** | After Fire Vulnerability is up, into Fireball/Pyroblast (see the Incantagos opener) [[d:mage#1478734312135331881]] |
-| **Mind Quickening Gem** | Save it for fights where it matters (Medivh in Kara40, Faerlina/Heigan in Naxx) rather than every pull [[d:mage#1470890829055787194]]. Best on long fights or ones with a pre-pull window to pre-proc it (Hard-mode KT) [[d:mage#1472414395211583659]], [[d:mage#1472414583082979492]] |
+| **Mind Quickening Gem** | Save it for fights where it matters (Medivh in Kara40, Faerlina/Heigan in Naxx) rather than every pull [[d:mage#1470890829055787194]]. Its ~5 min cooldown makes it best on short fights; pre-summon and swap to it right before the pull to still get value on a longer fight [[d:mage#1494477500871610509]], [[d:mage#1476594037602516993]] |
 | **Blast Wave** | 30 s cooldown; AoE |
 | **Evocation / gems / tea** | As for any mage. Master of Elements and Arcane Concentration are your in-fight mana |
 
@@ -180,8 +180,8 @@ Flask of Supreme Power, Elixir of Greater Fire Power, Greater Arcane Elixir, Dre
 1. Bringing Fire to MC/BWL [[d:mage#1493927839274373200]].
 2. Holding Fire Blast. After 1.18.1 it is your highest-DPS spell, so press it on cooldown [[d:mage#1487204103632191600]].
 3. Casting another Fireball at 5 Hot Streak stacks instead of Pyroblast [[d:mage#1479141574372757517]].
-4. Building Ignite before Fire Vulnerability is stacked [[d:mage#1466212364125999157]].
+4. Building Ignite before Fire Vulnerability is stacked [[d:mage#1466214293728137430]].
 5. Nursing a weak or partially resisted Ignite instead of dropping and rebuilding it [[d:mage#1487206596852449382]].
 6. Adding extra Scorches to "extend" a big Ignite [[d:mage#1478881200079769690]].
 7. Stacking small haste sources that break the 2-Fireball weave (contested) [[d:mage#1489266514749034536]].
-8. Running 4+ Fire mages without coordination; Ignite is shared, so too many hurt individual DPS [[d:mage#1465737132768231517]].
+8. Running 4+ Fire mages without coordination; Ignite is shared, so too many hurt individual DPS [[d:mage#1465729874361716944]].

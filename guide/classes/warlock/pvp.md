@@ -10,7 +10,7 @@
 
 **Contested standing overall.** The devs said warlocks had the highest PvP win rate on the server, and used that to justify the 1.18.1 nerfs [[d:warlock#1464984130612760800]]. Players on Ambershire called warlocks "very squishy, and relatively harmless" [[d:warlock#1464427304821456897]]. #pvp-general's pre-release tier list put Warlock in C, "getting heavily nerfed after being dominant" [[d:pvp-general#1405599106486767717]]. Post-release, #pvp-general opinion split by build: Bipst calls locks "very good... oppressive damage and can be quite tanky if they go double shield [Soul Link]" and annoying to casters via the Felhunter's dispel and silence [[d:pvp-general#1429937695412719678]]; Kyrsie counters that the average lock is Fire-specced without Soul Link and is "one shot or go home" [[d:pvp-general#1429941391181742255]].
 
-**1.18.1 PvP damping and resilience:** both hit warlocks twice, because most of their damage is DoTs [[d:warlock#1490175529209430066]]. One player felt he hit "like a wet noodle" [[d:warlock#1490165945266606280]]. **Contested:** Afraido says "your target dies 1 or 2 seconds later than before, not a big deal". Curse of Agony still ramps: 3 ticks of 50, 3 of 100, 3 of 150 [[d:warlock#1491187985486581912]], [[d:warlock#1491186750977085470]]. Curse of Exhaustion is now "hard to use if you aren't affli" [[d:warlock#1492351199847120906]]. Soul Link was cut to 20% for PvP reasons [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071).
+**1.18.1 PvP damping and resilience:** both hit warlocks twice, because most of their damage is DoTs [[d:warlock#1490175529209430066]]. One player felt he hit "like a wet noodle" [[d:warlock#1490165945266606280]]. **Contested:** Afraido says "your target dies 1 or 2 seconds later than before, not a big deal" [[d:warlock#1491187985486581912]]. Curse of Agony still ramps: 3 ticks of 50, 3 of 100, 3 of 150 [[d:warlock#1491186750977085470]]. Curse of Exhaustion is now "hard to use if you aren't affli" [[d:warlock#1492351199847120906]]. Soul Link was cut to 20% for PvP reasons [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071).
 
 ## How to play
 
@@ -20,7 +20,7 @@ The level-60 PvP decision loop for each build. The details are in [Control and b
 
 - **Pet:** "succubus is great vs rogues, felhunter vs casters", the Voidwalker against warriors [[d:warlock#1412421339352137758]]. Turn off Lash of Pain autocast and run the Felhunter manually ([Pets](#pets)).
 - **Position:** sit at max range and do your rotation from there [[d:warlock#1451420578169753755]].
-- **Reset:** Healthstone or Spellstone; they share a cooldown [[d:warlock#1454095765600473179]]. Fel Domination (5-min cooldown) brings a re-summon down to 1.5 s after your pet dies [[d:pvp-general#1425009815138340914]]. Life Tap, then drink back to full mana out of combat (vanilla baseline).
+- **Reset:** Healthstone or Spellstone; they share a cooldown [[d:warlock#1404918798531690587]]. Fel Domination (5-min cooldown) brings a re-summon down to 1.5 s after your pet dies [[d:pvp-general#1425009815138340914]]. Life Tap, then drink back to full mana out of combat (vanilla baseline).
 
 **Affliction 35/5/11 (default):**
 
@@ -40,7 +40,7 @@ The level-60 PvP decision loop for each build. The details are in [Control and b
 **Destruction 5/5/39 (burst when your group peels):**
 
 1. **Opener:** Seduction to force the trinket [[d:warlock#1450370894307524801]].
-2. **Burst:** Soul Fire (30 s cooldown; it needs CC to land) → re-Seduce → Immolate → Conflagrate (10 s cooldown) → Shadowburn [[d:pvp-general#1431769867446390886]], [[d:pvp-general#1431772306203742272]].
+2. **Burst:** Soul Fire (30 s cooldown; it needs CC to land) → re-Seduce → Immolate → Conflagrate (10 s cooldown) → Shadowburn [[d:pvp-general#1431772306203742272]].
 3. **Control and defence:** you have no Curse of Exhaustion, so rely on Fear, the Curse of Recklessness juggle and Death Coil. The slows, stuns and crits are what secure kills on kiters such as warriors [[d:warlock#1494966922104537178]].
 4. **Avoid:** fire-reflector and fire-immunity-trinket targets. Swap to your DoTs or to a different target [[d:warlock#1469458947969909015]].
 
@@ -116,7 +116,7 @@ Code: `talents.turtlecraft.gg/warlock?points=AoDQaISARRE--FAFQBoCAAI` ([Open in 
 
 ### Soul Link Demonology 5/34/12
 
-Aulbath's 1.18.0 PvP build ("1.18 is all about maximizing pet damage, even in pvp") [[d:warlock#1409163562169139322]]: Improved Corruption 5; the raid Demonology tree (Demonic Embrace 5, Soul Funnel 2, Fel Intellect 3, Fel Domination 1, Fel Stamina 5, Master Summoner 2, Unholy Power 3, Power Overwhelming 1, Demonic Precision 3, Master Demonologist 5, Unleashed Potential 3, Soul Link 1); Shadow Vulnerability 5, Demonic Swiftness 2, Bane 5.
+Aulbath's 1.18.0 PvP build ("1.18 is all about maximizing pet damage, even in pvp") [[d:warlock#1409163562169139322]], [[d:warlock#1409192217079316611]]: Improved Corruption 5; the raid Demonology tree (Demonic Embrace 5, Soul Funnel 2, Fel Intellect 3, Fel Domination 1, Fel Stamina 5, Master Summoner 2, Unholy Power 3, Power Overwhelming 1, Demonic Precision 3, Master Demonologist 5, Unleashed Potential 3, Soul Link 1); Shadow Vulnerability 5, Demonic Swiftness 2, Bane 5.
 Code: `talents.turtlecraft.gg/warlock?points=Ao-AoQYBoCDBYFYB-FAV` ([Open in talent calculator](https://xian55.github.io/tortoise-db-viewer/?talents=warlock&t=05-050203150020313531-5025)) · `talents.turtlecraft.gg/warlock/5-523B0CJNJ-UH`
 
 The older 20/31/0 and 17/31/3 Soul Link/Nightfall shapes still work, but "you aren't going to outlast long enough with no pushback on non shadow spells", and the demon gets clobbered in group PvP unless it is the Imp at range [[d:warlock#1465082548748288010]]. L-star: Demonology "isn't very good for pvp" outside level 50 with a fresh Infernal [[d:warlock#1461931073293521128]].
@@ -124,7 +124,7 @@ The older 20/31/0 and 17/31/3 Soul Link/Nightfall shapes still work, but "you ar
 ## Stats and gear
 
 - **Stamina first, then spell power.** Haste is worth less than in PvE [[d:warlock#1469318540598317140]]. Crit for Destruction.
-- **Hit:** 3% for level-60 targets [[d:warlock#1478734333920415787]]. There is always about 1% miss left over [[d:warlock#1461813750683402536]].
+- **Hit:** 3% for level-60 targets [[d:warlock#1478734333920415787]]. There is always about 1% miss left over [[d:warlock#1461814469830119708]].
 - **Best PvP gear is PvE gear** [[d:warlock#1399389192110346310]]: 2 pieces of the PvP set for the stamina bonus, the rest raid pieces [[d:warlock#1162340108356296744]]. A full-PvP-geared warlock reaches about 6.8k health, the Voidwalker about 8k [[d:warlock#1378813710327615568]].
 - **The 1.18.1 PvP set** bonuses favour Destruction while most PvP warlocks play Affliction [[d:warlock#1491319532810272909]]; L-star wished he had bought the old gloves [[d:warlock#1487290804941885572]].
 - **The Rank 12 (AB) PvP set 2-piece** is called an underrated stat stick, a solid option specifically for locks, similar to some other classes' cheap 2-piece PvP set bonuses [[d:pvp-general#1426641812269039776]], [[d:pvp-general#1426641971581161604]].
@@ -180,7 +180,7 @@ Summonjutsu: "Corruption, CoA, Siphon life, Shadowburn" can kill a fresh-60 targ
 | **Paladin** | Contested | The Felhunter eats Hammer of Justice and Repentance and silences; the Voidwalker in paladin-heavy battlegrounds. Bubble makes them "a nightmare"; heavy paladin dispels strip Affliction. Paladins cannot Fear demon pets on Turtle (no Turn Evil). A good paladin interrupts or survives your Dark Harvest channel (30 s cooldown, cannot be dispelled, only blocked by Divine Shield), and can bubble immediately after breaking a Fear via Death Coil to push your next Fear onto a short diminishing-returns window (about 4-5 s). **Bug:** using Divine Shield against a Succubus's Seduce can leave the paladin stuck seduced | [[d:warlock#1140091225660198972]], [[d:warlock#1436446153649557505]], [[d:warlock#1469635117919244410]], [[d:pvp-general#1430550221477122200]], [[d:pvp-general#1430556625617289407]], [[d:pvp-general#1430551242396012544]], [[d:pvp-general#1430551869213769778]], [[d:pvp-general#1430552194243100702]] |
 | **Hunter** | Favoured, except against Beast Mastery | Kill the pet first; smart hunters max the pet's shadow and arcane resistance | [[d:warlock#1331017705658122240]], [[d:warlock#1418335686414827661]] |
 | **Priest** | Favoured | Spell Lock + Curse of Tongues, or Seduce + Curse of Tongues. Spellstone clears shadow silences | [[d:pvp-general#1382720814482329600]], [[d:warlock#1454095765600473179]] |
-| **Shaman** | Warlock on paper, shaman in practice | Curse of Exhaustion is "a must vs shamans". Curse of Tongues counters the kit, but Tremor and Grounding make Fear unreliable | [[d:warlock#1469458712434311229]], [[d:pvp-general#1138134954014933022]], [[d:warlock#1418322782692966520]] |
+| **Shaman** | Warlock on paper, shaman in practice | Curse of Exhaustion is "a must vs shamans". Curse of Tongues counters the kit, but Tremor and Grounding make Fear unreliable | [[d:warlock#1469458712434311229]], [[d:pvp-general#1138134954014933022]], [[d:warlock#1324932216287002716]] |
 | **Druid** | Favoured | "Any decent warlock is a nightmare for a druid" | [[d:pvp-general#1134586904780746795]] |
 | **Feral Druid** | The one near-unwinnable matchup | "The only instant loss as a warlock is a fucking feral druid." Their stealth-detection cone means they get the opener even with the Felhunter out, unless you constantly turn 360°; Grillbe reports dying "100 to 0 in 3 seconds" as an Alliance lock. Thorn's Pod trinket (removes Fear, 1-hour cooldown) is the recommended counter, alongside Death Coil for the reflector | [[d:pvp-general#1427356757348454441]], [[d:pvp-general#1427357294449922222]], [[d:pvp-general#1427531411421794354]], [[d:pvp-general#1427356846087340153]] |
 | **Mage** | Mage-favoured against Affliction | Decursive mages strip your curses. Destruction is closer, but fire reflectors and the fire-immunity trinket counter it. **Formulaic at T3+:** their opening Arcane Missiles/Arcane Rupture is answered by Spell Lock (risky if it resists); they Ice Block through the lockout; answer a second Arcane Missiles with Death Coil if it's up. A second answer on your side wins it; with a Scythe of Elune at T3+, one completed Arcane Missiles channel can win it outright for the mage | [[d:warlock#1469802622390239435]], [[d:warlock#1469458947969909015]], [[d:pvp-general#1430022003674447904]], [[d:pvp-general#1430030401585287208]], [[d:pvp-general#1430024181017219153]] |
@@ -194,7 +194,7 @@ Summonjutsu: "Corruption, CoA, Siphon life, Shadowburn" can kill a fresh-60 targ
 - **Alterac Valley:** mass-DoT the front line [[d:warlock#1394126160761323641]].
 - **Do not spread DoTs on everything** in premades; they break your team's CC. Keep the Felhunter on passive next to you, or the Succubus stealthed in position, and never send the pet into five enemies [[d:pvp-general#1427354322395463682]].
 - **Warsong Gulch:** Felhunter on the enemy healer. Devour Magic the enemy flag carrier's buffs while you spam Curse of Exhaustion on him [[d:warlock#1348439442708496435]].
-- Affliction is "by far the best spec" for solo-queue battlegrounds [[d:warlock#1469600246190571701]]. Against organised teams with two decursing mages or druids, "ur curses done" [[d:warlock#1469802622390239435]]. **Contested:** a #pvp-general voice says "don't go affliction... burst is everything in pvp" [[d:pvp-general#1427354322395463682]].
+- Affliction is "by far the best spec" for solo-queue battlegrounds [[d:warlock#1469600246190571701]]. Against organised teams with two decursing mages or druids, "ur curses done" [[d:warlock#1469802622390239435]]. **Contested:** other voices call Affliction the weakest PvP spec and say you have to respec Destruction-Fire to be competitive [[d:pvp-general#1333951828789956730]].
 
 ## Races
 

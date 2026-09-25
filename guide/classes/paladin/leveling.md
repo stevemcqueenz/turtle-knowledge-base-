@@ -182,7 +182,7 @@ Triage: tank first, then yourself, then DPS who pulled aggro. Blessing of Protec
 
 **Ret, single target:**
 
-1. **Seal of Command rank 1** replaces Seal of Righteousness as your seal. Ranks only change the Judgement, so rank 1 is enough [[d:paladin#1458518731494789295]].
+1. **Seal of Command rank 1** replaces Seal of Righteousness as your seal. Ranks only change the Judgement, so rank 1 is enough [[d:paladin#878187962712596490]].
 2. Holy Strike on cooldown to keep Holy Might up. Crusader Strike on the shared cooldown for Zeal while your mana allows [[d:paladin#1491895229068873849]]. Crusader Strike starts to pull ahead "as you get better weapons and vengeful strikes (so after lvl 35)" [[d:paladin#1467556599877996627]].
 3. Judgement only to finish a mob.
 4. Exorcism on Undead and Demons.
@@ -246,7 +246,7 @@ Triage: tank first, then yourself, then DPS who pulled aggro. Blessing of Protec
 | 40 | Warhorse | Free mount and riding from a Cathedral quest [[d:paladin#1446220359878836254]] |
 | 60 | Charger | Quest chain from the Cathedral, about 400g [[d:paladin#1446220359878836254]] (another player says about 600g [[d:paladin#1439222399932301332]]) |
 
-Rank advice: use Seal of Command rank 1 while leveling (ranks only change the Judgement) [[d:paladin#1458518731494789295]]; downrank Consecration to what your mana allows [[d:paladin#1456698639991701740]]. Skip Seal of the Crusader as an active seal ("never use Seal of the Crusader") [[d:paladin#1474136994195046481]]; Seal of Righteousness is too expensive for its benefit at very low levels [[d:paladin#1426356288169836595]].
+Rank advice: use Seal of Command rank 1 while leveling (ranks only change the Judgement) [[d:paladin#878187962712596490]]; downrank Consecration to what your mana allows [[d:paladin#1456698639991701740]]. Skip Seal of the Crusader as an active seal ("never use Seal of the Crusader") [[d:paladin#1474136994195046481]]; Seal of Righteousness is too expensive for its benefit at very low levels [[d:paladin#1426356288169836595]].
 
 ## The kill loop
 
@@ -310,7 +310,7 @@ A common boost route: Deadmines to 20, Stockades to 30, Razorfen Kraul and Downs
 | 25-40 | Stockades, [Razorfen Kraul](../../instances/razorfen-kraul.md), [Razorfen Downs](../../instances/razorfen-downs.md), [Scarlet Monastery](../../instances/scarlet-monastery.md), [Crescent Grove](../../instances/crescent-grove.md) | Crescent Grove quest chest [[d:paladin#1468377911940616222]] |
 | 40-50 | [Gilneas City](../../instances/gilneas-city.md), [Zul'Farrak](../../instances/zulfarrak.md) | Gilneas City ring at 43-44 [[d:paladin#1424711943343706183]] |
 | 50-60 | [Hateforge Quarry](../../instances/hateforge-quarry.md), BRD, LBRS, Stratholme | HFQ/BRD spam plus Searing Gorge and Burning Steppes elites is a fast route [[d:paladin#1482112443407929355]] |
-| Fresh 60 | [Black Morass](../../instances/black-morass.md), [Lower Karazhan Halls](../../instances/lower-karazhan-halls.md) | Black Morass has good items and fast reputation [[d:paladin#1483370820964454430]]; do not tank Black Morass in fresh gear [[d:paladin#1479128357588304065]]. Black Morass and [Stormwind Vault](../../instances/stormwind-vault.md) are the two fresh-60 dungeons that need real damage reduction such as Blessing of Sanctuary [[d:paladin#1446437041347887265]] |
+| Fresh 60 | [Black Morass](../../instances/black-morass.md), [Lower Karazhan Halls](../../instances/lower-karazhan-halls.md) | Black Morass has good items and fast reputation [[d:paladin#1483370820964454430]]; do not tank Black Morass in fresh gear [[d:paladin#1479128320514982019]], [[d:paladin#1479128357588304065]]. Black Morass and [Stormwind Vault](../../instances/stormwind-vault.md) are the two fresh-60 dungeons that need real damage reduction such as Blessing of Sanctuary [[d:paladin#1446437041347887265]] |
 
 ## Gold farming and AoE
 

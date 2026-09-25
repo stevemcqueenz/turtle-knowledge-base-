@@ -57,7 +57,7 @@ Split **11/35/5**, VALID. Codes: `talents.turtlecraft.gg/druid?points=BSAaAI-FAY
 Why:
 
 - **Feral Instinct** (bear threat 130% → 145% [[d:druid#1455708290997686473]]) became a "must have" after the 1.18.1 threat nerf [[d:druid#1464363900014170358]].
-- **Thick Hide** is now 3 points and much stronger [[d:druid#1453305363356057736]]. Its armor bonus is multiplied by Dire Bear Form: 100 armor on gear adds about 506 bear armor [[d:druid#1486121788604940519]], [[d:druid#1444864663656333475]]. It does not multiply armor from kits or enchants [[d:druid#1415743918603243622]].
+- **Thick Hide** is now 3 points and much stronger [[d:druid#1453346244671045704]]. Its armor bonus is multiplied by Dire Bear Form: 100 armor on gear adds about 506 bear armor [[d:druid#1486121788604940519]], [[d:druid#1444864663656333475]]. It does not multiply armor from kits or enchants [[d:druid#1415743918603243622]].
 - **Blood Frenzy** gives two 36 s haste windows: Tiger's Fury before the pull, then Enrage [[d:druid#1444972730033377300]].
 - **Carnage + Improved Shred** let you deal the best DPS a tank can when your target dies, bleedable or not [[d:druid#1432106087326158961]], [[d:druid#1444972918290383024]].
 - **Furor** gives rage on the Cat → Bear pre-pull shift and keeps Reshift useful. "All tank guides/spec suggestions take Furor over Feral Aggression" [[d:druid#1489571705772048576]], [[d:druid#1489572016884416562]].
@@ -99,7 +99,7 @@ Priority (bot-ready):
 2. **`Savage Bite`** (6 s cooldown) when you have **Clearcasting** or **rage > 50** (some use 35) [[d:druid#1491404394812407858]], [[d:druid#1491140379490390106]], [[d:druid#1474473590043836720]]. With **T3 8-piece**, use it on every cooldown to keep the damage-reduction stacks [[d:druid#1480481555263787149]].
 3. **`Swipe`** if **2+ mobs** or **rage is full** (Sagesse: above 75 rage) [[d:druid#1491404394812407858]], [[d:druid#1491140379490390106]]. On a single target it is only a rage dump with poor threat [[d:druid#1484741482169499689]].
 4. **`Faerie Fire (Feral)`** when no other GCD is needed [[d:druid#1474473590043836720]].
-5. **`Growl`** only to take back a mob or to answer a double dodge/parry at the pull. Taunt is off the GCD, so you can let a caster open first and taunt past them [[d:druid#1473036752146006037]], [[d:druid#1432367846968655993]].
+5. **`Growl`** only to take back a mob or to answer a double dodge/parry at the pull. Taunt is off the GCD, so you can let a caster open first and taunt past them [[d:druid#1432367846968655993]].
 6. **`Reshift`** (Bear → Bear) for a burst of rage when rage-starved, timed around the swing; do not overdo it, since it costs Maul uptime [[d:druid#1462441542953210112]], [[d:druid#1491141840211021884]].
 
 Maul, Swipe and Savage Bite do not share a GCD [[d:druid#1436445990809899018]]. **Enrage** increases damage taken; skip it when your healers struggle [[d:druid#1477368423267696690]]. While leveling (rage-starved), do not open with Maul; use autos and Swipe after the first Roar [[d:druid#1438127035804291083]].
@@ -113,7 +113,7 @@ Maul, Swipe and Savage Bite do not share a GCD [[d:druid#1436445990809899018]]. 
 
 The official note subtracted percentage points, not a relative 15%/12% [[d:druid#1472870879418646640]], [[d:druid#1470128951165718528]]. In practice players measured about 10-20% total loss, worst in the first ~10 s ("the first 10 seconds are a nightmare now") [[d:druid#1484585026158067752]], [[d:druid#1485730370954592399]]. Over a long fight bear still out-threats a warrior once its lead is built [[d:druid#1485732568736337981]]. On Ambershire, some tanks barely noticed it [[d:druid#1485296567123710134]], and dungeon tanking is unaffected [[d:druid#1486190492780728481]].
 
-**Threat help:** Kiss of the Spider (near-essential) and Atiesh [[d:druid#1485732399189987398]]; Salvation on the highest-threat non-tank [[d:druid#1474483202373714137]]. Horde on Tel'Abim has no Salvation and relies on bear threat most [[d:druid#1445011444260274354]].
+**Threat help:** Kiss of the Spider (near-essential) and Atiesh [[d:druid#1485732399189987398]]; Salvation on the highest-threat non-tank [[d:druid#1474495679660294380]]. Horde on Tel'Abim has no Salvation and relies on bear threat most [[d:druid#1445011444260274354]].
 
 ## AoE threat
 
@@ -164,7 +164,7 @@ Black Morass is the fresh-60 gear check: "if you can survive pulls in there, you
 - **Weapon:** Blessed Qiraji War Hammer (AQ40) is BiS even against Kara40 weapons, except for pure-mitigation setups [[d:druid#1432998166176989215]]. Herald of Woe (mace) takes Iron Counterweight [[d:druid#1469260607684350132]]. **Atiesh** now takes Counterweight too (staves were allowed in 1.18.1) [[d:druid#1484615359334973663]]. Forgotten Raven's Mallet is the best Kara40 threat/mitigation weapon without Atiesh [[d:druid#1362819924690604032]].
 - **Chest / belt:** T2 chest and belt are "meh"; take the T2.5 chest and the C'Thun belt, with the Dragonhide belt as a stepping stone [[d:druid#1472364814096662731]]. The T2.5 2-piece is strong [[d:druid#1458768233460142122]].
 - **AQ40:** Gloves of the Hidden Temple, Ring of Emperor Vek'lor; AQ40 hits harder physically than BWL [[d:druid#1433383761432678400]], [[d:druid#1433385110178103380]].
-- **T3:** a mitigation set; 8-piece gives about 8% damage reduction, mainly worth it on high-damage fights like Patchwerk or Loatheb. It does not make you crit-immune [[d:druid#1445014560443727984]], [[d:druid#1492173100714954823]]. The T3 6-piece bonus is weak [[d:druid#1471344095631900837]]. Swap in stamina off-pieces (Four Horsemen legs, C'Thun belt) for the hardest fights [[d:druid#1445014335733633076]].
+- **T3:** a mitigation set; 8-piece gives about 8% damage reduction, mainly worth it on high-damage fights like Patchwerk or Loatheb. It does not make you crit-immune, unlike a paladin tank [[d:druid#1492164894408052736]], [[d:druid#1492173100714954823]]. The T3 6-piece bonus is weak [[d:druid#1471344095631900837]]. Swap in stamina off-pieces (Four Horsemen legs, C'Thun belt) for the hardest fights [[d:druid#1445014335733633076]].
 - **Kara40:** Forgotten Hide Helm ("best threat AND mitigation helm in the game"), Tunic of Demonic Deception (threat), Felforged Nathrezim Veil, Branch of Resolute Defense, Handwraps of Dead Winds (best threat gloves), Loop of Hardened Slate (best mitigation ring) [[d:druid#1362819924690604032]].
 - **PvP shoulders:** Veteran's Dragonhide Epaulets out-stat the T2.5 shoulders for threat and need only 6 pieces for the set bonus (85k honor + 3.5k conquest for the set) [[d:druid#1487935338197291078]].
 - **Timbermaw Hold:** its 3-piece bonus is "broken" for a threat set [[d:druid#1487247519087071262]].
@@ -183,7 +183,7 @@ Black Morass is the fresh-60 gear check: "if you can survive pulls in there, you
 
 ### Idols
 
-**Idol of Brutality** (Stratholme Undead; Maul −30% and Swipe −20% rage cost) has "no alternative anywhere" and stays BiS [[d:druid#1386988179898499093]], [[d:druid#1429803941805162576]], [[d:druid#1488876400474722395]]. To farm it without the Magistrate fleeing: enter the main gate, open the right-side gate, clear along the wall and sneak up (bring a disease dispel or Jungle Remedy) [[d:druid#1478694735546945598]]. **Idol of Evergrowth** is the AoE option (see above). The new-raid bear idol is judged poor [[d:druid#1489596493059985468]].
+**Idol of Brutality** (Stratholme Undead; Maul −30% and Swipe −20% rage cost) has "no alternative anywhere" and stays BiS [[d:druid#1386988179898499093]], [[d:druid#1429803941805162576]], [[d:druid#1488876400474722395]]. To farm it without the Magistrate fleeing: enter the main gate, open the right-side gate, clear along the wall and sneak up (bring a disease dispel or Jungle Remedy) [[d:druid#1478692236697927732]]. **Idol of Evergrowth** is the AoE option (see above). The new-raid bear idol is judged poor [[d:druid#1489596493059985468]].
 
 ## Enchants
 

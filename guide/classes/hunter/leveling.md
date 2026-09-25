@@ -82,7 +82,7 @@ Notes:
 
 - **Coordinated Assault** adds damage, but its threat lands on you, not the pet, which makes pulls "clunkier". It is still commonly taken [[d:hunter#1491784533551353896]], [[d:hunter#1491784691357843567]].
 - **At 60** respec to the raid build of your choice: [BM 34/17/0](beast-mastery.md), [MM 12/37/2](marksmanship.md), or [Survival 16/0/35](survival.md).
-- Do **not** take Aimed Shot as a BM leveler ("useless" for BM) [[d:hunter#1486063417503645787]]. Hit does not matter while leveling [[d:hunter#1486068038028759122]].
+- Do **not** take Aimed Shot as a BM leveler ("useless" for BM) [[d:hunter#1486066194099339374]]. Hit does not matter while leveling [[d:hunter#1486068038028759122]].
 
 ### Survival path: respec at 40
 
@@ -151,7 +151,7 @@ What to press in each bracket on the recommended **Beast Mastery** path. The **S
 
 ### Levels 20–29
 
-- **New now:** L20 **Steady Shot R1** (1 s cast; baseline), **Aspect of the Cheetah**, Disengage R1, Freezing Trap R1, Mend Pet R2, Arcane Shot R3, Distracting Shot R2. Talent: Coordinated Assault (20). L22 Hunter's Mark R2, Scorpid Sting. L24 Raptor Strike R4, Beast Lore. L26 **Rapid Fire** (5 min cooldown), Immolation Trap R2, Serpent Sting R4. L28 Frost Trap, Arcane Shot R4, Aspect of the Hawk R3, Mend Pet R3. Talents: Pathfinding (21–22), Thick Hide (23–25), Unleashed Fury (26–30). Aimed Shot (a Marksmanship talent) is not on this path, and it is "useless" for BM [[d:hunter#1486063417503645787]].
+- **New now:** L20 **Steady Shot R1** (1 s cast; baseline), **Aspect of the Cheetah**, Disengage R1, Freezing Trap R1, Mend Pet R2, Arcane Shot R3, Distracting Shot R2. Talent: Coordinated Assault (20). L22 Hunter's Mark R2, Scorpid Sting. L24 Raptor Strike R4, Beast Lore. L26 **Rapid Fire** (5 min cooldown), Immolation Trap R2, Serpent Sting R4. L28 Frost Trap, Arcane Shot R4, Aspect of the Hawk R3, Mend Pet R3. Talents: Pathfinding (21–22), Thick Hide (23–25), Unleashed Fury (26–30). Aimed Shot (a Marksmanship talent) is not on this path, and it is "useless" for BM [[d:hunter#1486066194099339374]].
 - **Pet milestones:**
     - Train the new Growl rank at 20 from the pet trainer. It is the only skill learned there, every 10 levels [[d:hunter#1428016626455937097]].
     - Do not let the pet fall far behind your level [[d:hunter#1451187541930807449]].
@@ -199,7 +199,7 @@ What to press in each bracket on the recommended **Beast Mastery** path. The **S
 - **Pet milestones:**
     - New Growl rank at 40.
     - A **Wolf** if you want to solo dungeons to 60 [[d:hunter#1460556031796183122]].
-    - Improved Mend Pet is "useless unless soloing dungeons" (Hakuna); **Contested:** Elmgren finds it useful for elite quests too [[d:hunter#1486063417503645787]].
+    - Improved Mend Pet is "useless unless soloing dungeons" (Hakuna) [[d:hunter#1486066194099339374]]; **Contested:** Elmgren finds it useful for elite quests too [[d:hunter#1486067089545494558]].
 - **Single target:**
     1. Send the pet, wait until 75–80%, then Hunter's Mark on long fights.
     2. **Kill Command** whenever it lights up, only while the pet is in melee range [[d:hunter#1484783149413171350]].

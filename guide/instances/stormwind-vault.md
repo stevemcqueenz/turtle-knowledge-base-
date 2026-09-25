@@ -16,7 +16,7 @@ Turtle-custom level-60 5-man beneath Stormwind City. It is short, has no key, an
 - **Fresh-60 gear is enough with a good healer**, but you "will get hit like truck", so CC as much as you can [[d:druid#1454114933808697564]].
 - **Rogues:** some mobs are immune to all poisons [[d:rogue#1486679697776578620]].
 - **Warlocks:** some demon trash can be enslaved and is "super strong" [[d:warlock#1428855496525480128]].
-- **Pull trick:** you can send a pet at the first four bosses and pull them without the connecting trash [[d:warlock#1428858028009979924]]. The old Succubus pull may be patched. Two players in 2026-01 could not get it to work [[d:warlock#1457515601089007677]], [[d:warlock#1458086834751148144]].
+- **Pull trick:** you can send a pet at the first four bosses and pull them without the connecting trash [[d:warlock#1428858028009979924]]. The old Succubus pull may be patched. One player in 2026-01 could not get it to work [[d:warlock#1458086834751148144]].
 - **You must kill every boss.** A door was added, so you can no longer stealth straight to the end. The chest room stays blocked until the last boss dies [[d:rogue#1448338435998744829]], [[d:rogue#1448338744863363234]], [[d:rogue#1446183157014728845]]. A stealth group (for example 2 rogues + 1 druid) can still skip most trash [[d:rogue#1448338860106055833]], [[d:rogue#1448338954968367144]].
 - **The Rat Trap** is a scripted trap. It cannot be avoided once triggered ([Jamey (staff), 2023-03-08](https://forum.turtlecraft.gg/viewtopic.php?p=37124#p37124)).
 

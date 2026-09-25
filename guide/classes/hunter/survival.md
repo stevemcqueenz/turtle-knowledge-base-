@@ -140,7 +140,7 @@ Setup: send the pet as the tank hits [[d:hunter#1484689822005067816]]. For a Rap
 | 2 | Add Explosive Trap to the single-target macro [[d:hunter#1448541614208192602]] |
 | 3+ | **Explosive Trap → Carve → Raptor Strike → Mongoose Bite → Lacerate → Wing Clip** [[d:hunter#1485147064102031453]] |
 
-- Most of Survival's AoE damage comes from Explosive Trap, not Carve [[d:hunter#1466765084671082496]]. Carve hits up to 5 targets [[d:hunter#1449085389343166525]].
+- Most of Survival's AoE damage comes from Explosive Trap, not Carve [[d:hunter#1466765084671082496]]. Carve hits up to 5 targets [[d:hunter#1308700408952131634]].
 - Carve uses only your main-hand weapon, so a two-hander hits harder in AoE [[d:hunter#1426288674412167249]], [[d:hunter#1460280510730469490]].
 - Do not trap packs that are already almost dead, or that are fire-immune [[d:hunter#1451997607705444677]].
 - Do not macro Carve into careless pulls: it breaks crowd control [[d:hunter#1430199806076129431]].
@@ -149,7 +149,7 @@ Setup: send the pet as the tank hits [[d:hunter#1484689822005067816]]. For a Rap
 
 **Recommendation: dual-wield for single-target bosses, a two-hander for cleave and trash.** "I use dw for single target bosses and 2h for aoe. both are good" [[d:hunter#1486020316697464993]].
 
-- **DW wins on single target.** You get two weapons' worth of stats and more Swift Aspects procs [[d:hunter#1493259706570117261]]. Mongoose Bite hits with both weapons [[d:hunter#1428305905749065850]]. With good weapons "DW always beats 2H" [[d:hunter#1494446524417966200]]. One tester saw DW pull 10–15% ahead of 2H [[d:hunter#1486020316697464993]].
+- **DW wins on single target.** You get two weapons' worth of stats and more Swift Aspects procs [[d:hunter#1493259706570117261]]. Mongoose Bite hits with both weapons [[d:hunter#1428305905749065850]]. With good weapons "DW always beats 2H" [[d:hunter#1494446524417966200]]. One tester (Sofie) ran matched gear on a dummy and found DW clearly ahead of 2H [[d:hunter#1465688438832369887]].
 - **2H wins on packs.** A two-hander's higher damage ceiling makes Carve spikes bigger [[d:hunter#1493259706570117261]].
 - **Your weapons decide.** "If you have a Naxx 2H and only dual wield from BWL, I would definitely take the 2H" [[d:hunter#1493259706570117261]]. Dresche runs DW for Anomalus, Medivh and maybe Kruul in Kara40, and a two-hander (Rak'ishi spear) elsewhere [[d:hunter#1486704971306237963]].
 - **Weapon speed:** slow weapons are better, because Raptor Strike, Mongoose Bite and Carve use the weapon damage roll [[d:hunter#1440666315416404058]], [[d:hunter#1440669671085838466]]. Put the slowest weapon in the main hand for Raptor Strike [[d:hunter#1476054305961279580]]. Daggers are too fast [[d:hunter#1465653967290630290]]. Gressil (slow) + Kingsfall (fast) is a top-parser pairing [[d:hunter#1472418682331336714]].
@@ -196,11 +196,11 @@ Setup: send the pet as the tank hits [[d:hunter#1484689822005067816]]. For a Rap
 | Naxx | Gressil + Hungering Cold [[d:hunter#1461476514590625917]]; Hatchet of the Sundered Bone + Crul'shorukh with Ouro gloves (+6 skill) [[d:hunter#1463559439222050837]] | |
 | Kara40 | Gressil + Bloodmoon, Sickle of the Murderous Flight / Riftcarver's Implement [[d:hunter#1421933433663524975]] | |
 
-Weapon-skill items by type: ZG gloves (axe), AQ20 gloves (sword), MC boots (2H sword), MC gloves (2H axe), Edgemaster's Handguards [[d:hunter#1430134398925279242]], [[d:hunter#1430134013191782451]]. The +5 weapon skill quest (island south of Ratchet, 250g plus an ancient text) covers both one- and two-handers of a type [[d:hunter#1461492019221368894]], [[d:hunter#1461492808459223082]].
+Weapon-skill items by type: ZG gloves (axe), AQ20 gloves (sword), MC boots (2H sword), MC gloves (2H axe), Edgemaster's Handguards [[d:hunter#1430134609634398229]]. The +5 weapon skill quest (island south of Ratchet, 250g plus an ancient text) covers both one- and two-handers of a type [[d:hunter#1461492019221368894]], [[d:hunter#1461492808459223082]].
 
 ### Armor
 
-- **Tier:** use full T2 until you have 4 pieces of T3 [[d:hunter#1476139298322514056]]. T3 is far better than T2: 300–350+ AP more in raw stats alone [[d:hunter#1469940735078830225]].
+- **Tier:** use full T2 until you have 4 pieces of T3 [[d:hunter#1476138962983714898]]. T3 is far better than T2: 300–350+ AP more in raw stats alone [[d:hunter#1469940735078830225]].
 - **Neck:** Nefarian's (30 Agility) beats Onyxia's [[d:hunter#1481968493883559936]]. Prestor's Talisman is also strong [[d:hunter#1486209562263556156]].
 - **Cloak:** Ragnaros's cloak (Turtle-buffed, 26 Agility, 1% haste) [[d:hunter#1441209567777390602]].
 - **Rings:** Band of Accuria is "#1 ring till naxx"; its hit also helps DW [[d:hunter#1470163715868332093]], [[d:hunter#1448205998883082402]].

@@ -144,7 +144,7 @@ Wiki raid-trash rules ([Mage Frost FAQ (wiki)](https://turtle-wow.fandom.com/wik
 
 ## Raid notes
 
-- **[Molten Core](../../instances/molten-core.md):** Frost is at its best here. Many trash mobs are weak to frost, and between packs Nova forces procs [[d:mage#1448401911437988012]]. On Garr, fish procs off the adds [[d:mage#1467928499997245481]].
+- **[Molten Core](../../instances/molten-core.md):** Frost is at its best here. Many trash mobs are weak to frost, and between packs Nova forces procs [[d:mage#1448401911437988012]]. On Garr, fish procs off the adds [[d:mage#1467928581001973840]].
 - **AQ40, Viscidus:** Icicles "completely destroy" Viscidus [[d:mage#1474089800805122089]].
 - **[Tower of Karazhan](../../instances/tower-of-karazhan.md), Anomalus** (arcane-immune): as Frost "you'll die less... due to ice barrier but do less damage than fire" [[d:mage#1454850922089021500]].
 - **Naxx:** Sapphiron is immune to frost [[d:mage#1494089881943543971]]. On Kel'Thuzad (200 frost resistance) Frost needs spell penetration [[d:mage#1450392648216088629]], [[d:mage#1450392717476630539]]. Constant raid damage (Thaddius) breaks Ice Barrier and hurts Frost [[d:mage#1357116456890011739]].

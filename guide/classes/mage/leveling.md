@@ -12,7 +12,7 @@
 
 A simple rule from the channel: dying too much → Frost single target; kills too slow → Fire; want to AoE-grind → Frost AoE [[d:mage#1453915381151436801]]. "All 3 can work fine" [[d:mage#1484551865285869688]].
 
-**At 60:** if you will quest, dungeon and PvP, stay deep Frost. If you go straight into raiding, go full Arcane [[d:mage#1492227456306909355]].
+**At 60:** if you will quest, dungeon and PvP, stay deep Frost [[d:mage#1492227456306909355]]. If you go straight into raiding, go full Arcane.
 
 ## Talent order: Frost (10-60)
 
@@ -226,7 +226,7 @@ Use this with the [Fire talent order](#talent-order-fire-10-60-ends-in-the-fire-
 ## Respecs
 
 - Respecs cost at most **5 g** on Turtle, so experimenting is cheap [[d:mage#1489458239912411217]].
-- The **Goblin Brainwashing Device** (~350 g on the AH) stores up to 4 talent builds for instant swaps. Dedicated mages fill all 4: Arcane, Fire, Frost and a tank build [[d:mage#1493987631833284648]], [[d:mage#1480899652470440081]].
+- The **Goblin Brainwashing Device** (~350 g on the AH) stores up to 4 talent builds for instant swaps. Dedicated mages fill all 4: Arcane, Fire, Frost and a tank build [[d:mage#1480899652470440081]].
 - Typical path: Frost to 60 (or Frost/Fire to 24-35, then Arcane) [[d:mage#1429898668089151528]]. At 60, respec for raids.
 
 ## Abilities and ranks

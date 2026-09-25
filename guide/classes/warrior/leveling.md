@@ -159,7 +159,7 @@ What to press in each bracket, for the recommended **DW Fury** route and the **A
   4. Whirlwind on cooldown (Berserker Stance, 36+).
   5. Execute below 20%.
   6. Heroic Strike dump. Skip Slam before about 36, and cast it right after a two-hander swing [[d:warrior#1494518552319885393]].
-- **Multi-target:** from about 30, pull 2+ green mobs for better experience per hour [[d:warrior#1464993090824700059]]. Once you have Whirlwind and Cleave, pull 2–3; Sweeping Strikes makes it easier [[d:warrior#1465266565250285838]].
+- **Multi-target:** from about 30, pull 2+ green mobs for better experience per hour [[d:warrior#1034155462163181690]]. Once you have Whirlwind and Cleave, pull 2–3; Sweeping Strikes makes it easier [[d:warrior#1465266565250285838]].
   1. Demoralizing Shout.
   2. **Arms:** Sweeping Strikes in Battle Stance → swap to Berserker Stance → Whirlwind. Then Cleave as the dump.
   3. **Fury:** Whirlwind on cooldown, Cleave as the dump. Piercing Howl slows a runner.
@@ -209,7 +209,7 @@ What to press in each bracket, for the recommended **DW Fury** route and the **A
   - **Talents:** Fury takes the Arms dip (Improved Rend, Improved Heroic Strike, Deep Wounds, Improved Charge, Impale). Arms takes Improved Shouts (51–55), then Enrage (56–60).
 - **Single target / multi-target:** same loops as 40–49. From 50, add Recklessness on a dangerous elite or pull (30 min cooldown, shared with Shield Wall and Retaliation).
 - **Tanking (Black Morass, Stratholme, Scholomance, UBRS):**
-  - **When to switch:** go full Protection for dungeon-spam and pre-raid ("swap at 55 or so"), then finish leveling through dungeons and attunements [[d:warrior#1425797603110551687]].
+  - **When to switch:** go full Protection for dungeon-spam and pre-raid ("swap at 55 or so"), then finish leveling through dungeons and attunements [[d:warrior#1424747100738162709]].
   - **Loop:** same as 40–49, with Concussion Blow or Shield Slam as the opener.
   - **Utility:** Intervene (50) to peel for a healer [[d:warrior#1494704075055567070]].
   - **At 60:** pick a raid tank build and follow [Protection → How to play](protection.md#how-to-play).
@@ -245,7 +245,7 @@ What to press in each bracket, for the recommended **DW Fury** route and the **A
 6. **Heroic Strike or Cleave** only to dump rage [[d:warrior#1481442159596142762]].
 7. **Execute** below 20%.
 8. **Bloodrage** when you are above about 75% HP, so its self-damage crit procs Enrage [[d:warrior#1485271205001822288]].
-9. Pull **2+ green mobs** from about level 30 onward for better experience per hour [[d:warrior#1464993090824700059]], [[d:warrior#1470346908122742926]].
+9. Pull **2+ green mobs** from about level 30 onward for better experience per hour [[d:warrior#1034155462163181690]], [[d:warrior#1470346908122742926]].
 
 ## Downtime and resources
 

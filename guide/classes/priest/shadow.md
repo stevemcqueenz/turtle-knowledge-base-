@@ -16,7 +16,7 @@ The level-60 Shadow loop. For the details, see the linked sections.
 
 1. **Pre-pull:** `Shadowform`, Inner Fire, and `Power Word: Shield` if you expect pushback.
 2. **Opener:** `Shadow Word: Pain` → `Mind Blast` → `Mind Flay` ×2. Cast `Vampiric Embrace` first only if the fight needs mana or healing [[d:priest#1430465373366648873]]. Against a fresh tank, delay Mind Blast ([threat](#resources-threat-and-1181-mechanics)).
-3. **Single-target loop:** keep SW:P up without clipping it, on targets that live 3+ ticks → `Mind Blast` on cooldown → 2 × `Mind Flay` per Mind Blast cooldown, clipped by hand after the last tick you want. Never stop a Flay by moving [[d:priest#1489637342825152522]], [[d:priest#1451277154942718034]], [[d:priest#1494662933056327902]]. `Pain Spike` as the finisher ([Single-target rotation](#single-target-rotation)).
+3. **Single-target loop:** keep SW:P up without clipping it, on targets that live 3+ ticks → `Mind Blast` on cooldown → 2 × `Mind Flay` per Mind Blast cooldown, clipped by hand after the last tick you want. Never stop a Flay by moving [[d:priest#1494662933056327902]]. `Pain Spike` as the finisher ([Single-target rotation](#single-target-rotation)).
 4. **Cooldowns:** pop trinkets from the passive one first, and snapshot SW:P under them (Zandalarian Hero Charm) [[d:priest#1456726981210275870]]. With the T3.5 3-piece, `Fade` → SW:P refresh [[d:priest#1444088076384338121]].
 5. **AoE switch:** at 2–4 targets, single-target the kill target and SW:P extras only if they live 3+ ticks. At **5+**, spam `Holy Nova` until mana runs low (about 9–10 casts) ([AoE](#aoe)).
 6. **Resources:** use Major Mana Potion and tea on cooldown. Use `Vampiric Embrace` only when the group needs mana or healing, and never during Fade [[d:priest#1504891047463882844]], [[d:priest#1491659277474074716]].
@@ -57,7 +57,7 @@ Why:
 - **Spiritual Guidance** turns Spirit into spell power. There are not enough points for it and the threat talents together, so the standard build gives up threat reduction [[d:priest#1474088272291565693]].
 - **Shadow Focus 3/5** works only if gear brings you to the 16% hit cap. If you are short on hit, use the progression variant below.
 - **Spirit Tap** also triggers on Mind Blast crits since 1.18.1. In Kara40 BiS that is a ~90 spell power proc with about 50% uptime, mostly a mana gain [[d:priest#1475981714487771136]], [[d:priest#1465391740797194504]].
-- **Improved Mind Blast:** at 4/5 the Mind Blast cooldown is exactly 6 s, the length of 2 Mind Flays. At 5/5 you must clip or end the second Flay early to start Mind Blast [[d:priest#1435036085083181076]], [[d:priest#1435035419053129749]].
+- **Improved Mind Blast:** at 4/5 the Mind Blast cooldown is exactly 6 s, the length of 2 Mind Flays, so you normally don't need to clip [[d:priest#1435036085083181076]]. At 5/5 you must clip or end the second Flay early to start Mind Blast [[d:priest#1435035419053129749]].
 - **Holy Nova 1/1** is your only AoE (see AoE).
 
 ### Variants
@@ -91,7 +91,7 @@ Priority (bot-ready):
 2. **`Mind Blast`** on cooldown, but watch threat. A 3.5k Mind Blast crit with VE running generates about 7,200 threat [[d:priest#1459705039181320296]], [[d:priest#1475984733321167092]].
 3. **`Mind Flay`** as filler: 2 per Mind Blast cooldown [[d:priest#1451277154942718034]]. Clip the channel by hand right after the last tick you want. Watch the latency band on the cast bar to cancel safely into Mind Blast [[d:priest#1481909198819426459]]. Two 3-tick Flays are more mana-efficient than three 2-tick Flays [[d:priest#1463542235487408269]]. Never stop a Flay by moving; that delay is "REALLY bad" [[d:priest#1494662933056327902]].
 4. **`Vampiric Embrace`** only when the group needs mana or healing. Never cast it while Fade is active, and rarely while a trinket is running [[d:priest#1491659277474074716]], [[d:priest#1485766258803867659]]. VE's healing threat is not reduced by Shadow Affinity [[d:priest#1475981605284614224]].
-5. **`Fade` before a SW:P refresh** when you wear the T3.5 3-piece (Fade grants +15% Shadow damage for 10 s). With a snapshot-friendly trinket such as Eye of Dormant Corruption, this tested as a net DPS gain [[d:priest#1444088076384338121]], [[d:priest#1441870850482503710]]. On its own, the bonus mostly offsets the GCD Fade costs [[d:priest#1357206800369455124]].
+5. **`Fade` before a SW:P refresh** when you wear the T3.5 3-piece (Fade grants +15% Shadow damage for 10 s). With a snapshot-friendly trinket such as Eye of Dormant Corruption, this tested as a net DPS gain [[d:priest#1441870850482503710]]. On its own, the bonus mostly offsets the GCD Fade costs [[d:priest#1357206800369455124]].
 6. **`Pain Spike`** as a finisher. Even as filler it is "better than 0 dps": most bosses reduce healing, so little of its self-heal-back actually lands [[d:priest#1474782366689136730]].
 7. **`Devouring Plague`** (Undead): slightly less damage than SW:P for more mana, barely worth a GCD [[d:priest#1490748665776832815]].
 
@@ -101,7 +101,7 @@ Priority (bot-ready):
 
 ## AoE
 
-Shadow has no real AoE [[d:priest#1472910100401360992]].
+Shadow has no real AoE [[d:priest#1472909182041849967]].
 
 | Targets | Action |
 |---|---|
@@ -113,7 +113,7 @@ Shadow tier sets carry shadow-only spell power, which makes Holy Nova even weake
 ## Resources, threat and 1.18.1 mechanics
 
 - **Shadowform** gives a passive 15% in-combat mana regen [[d:priest#1436363609696370829]]. Mana is still tight. Sustain means VE plus a mana potion and tea on cooldown, "or you would run dry" [[d:priest#1504891047463882844]]. Teas are cheap (about 1g for 5 from a vendor) and work like Demonic Runes [[d:priest#1488267578773209241]].
-- **Shadow Weaving (1.18.1)** stacks on *you* as you cast. Each shadow spell then applies your full stack count to its target, so new targets get the debuff at once [[d:priest#1484726495568986112]]. The debuff lasts 9 s (down from 15 s), which players suspect may be an oversight (same source). How several shadow priests' stacks interact was never confirmed [[d:priest#1479949815843524668]].
+- **Shadow Weaving (1.18.1)** stacks on *you* as you cast. Each shadow spell then applies your full stack count to its target, so new targets get the debuff at once [[d:priest#1464388502857974038]]. The debuff lasts 9 s (down from 15 s), which players suspect may be too short by design [[d:priest#1484726495568986112]]. How several shadow priests' stacks interact was never confirmed [[d:priest#1479949815843524668]].
 - **Fade (1.18.1)** reduces threat by 15% while active and removes a flat amount, but you still gain threat normally, so it only delays a pull [[d:priest#1484604133200891944]].
 - **Threat:** Mind Blast's threat multiplier is 170% (down from 200%) [[d:priest#1451618600485130362]]. VE's healing and mana return add threat on top [[d:priest#1459705039181320296]]. Against a fresh tank, open with SW:P and Mind Flay and delay Mind Blast.
 
@@ -126,7 +126,7 @@ Shadow tier sets carry shadow-only spell power, which makes Holy Nova even weake
 
 ### Fresh 60 and pre-raid
 
-- The cheap BoE items at the bottom of Zitronenhaze's pinned BiS sheet let a fresh 60 out-damage BWL-geared players for a few hundred gold, at the cost of very low stamina [[d:priest#1466914872489939206]]. The Flarecore 2-piece gives 1% hit [[d:priest#1466919475549835357]]. Bloodvine is "trash for spriest" except the legs and chest if you are missing hit [[d:priest#1466917947384664186]].
+- The cheap BoE items at the bottom of Zitronenhaze's pinned BiS sheet let a fresh 60 out-damage BWL-geared players for a few hundred gold, at the cost of very low stamina [[d:priest#1466914872489939206]], [[d:priest#1466919475549835357]], [[d:priest#1466919538791551110]]. The Flarecore 2-piece gives 1% hit [[d:priest#1466918186854256792]]. Bloodvine is "trash for spriest" except the legs and chest if you are missing hit [[d:priest#1466917947384664186]].
 - AQ20 Leggings of the Black Blizzard and the [Kara10](../../instances/lower-karazhan-halls.md) shadeweave boots are near-BiS and a better use of time than T0.5 [[d:priest#1425148199504580668]]. Also from Kara10: Vest of Encroaching Darkness and Medivh's Foresight [[d:priest#1425163188172882081]].
 - ZG: the ZG wand beats the Naxx wands, Cloak of Consumption is "super big", and Hexxer's Cover (40 spell power head) lasts a long time [[d:priest#1456718038282801152]], [[d:priest#1456751545713561672]].
 
@@ -176,9 +176,9 @@ Oil: Blessed or Brilliant Wizard Oil [[d:priest#1404120758787117236]].
 ## Dungeon and raid notes
 
 - **[Kara40](../../instances/tower-of-karazhan.md):** Anomalus, Gnarlmoon and Kruul are where Shadow shines [[d:priest#1428028181935292546]]. On Mephistroth, penetration matters (see Stats); Eye of Moam can be used twice, on pull and for phase 2 [[d:priest#1436149292875382814]]. His crystals have no shadow resistance, so Holy Nova works on the imps [[d:priest#1436149274801864804]]. The T3.5 debuff is immune on 3 of 9 bosses [[d:priest#1486032102896959539]].
-- **Naxxramas:** Heigan is the fight where the 20-yd Mind Flay range hurts [[d:priest#1454802940958347295]]. For Anub'Rekhan trash, pull adds into the Anub room with a hunter pet [[d:priest#1494364719472054494]]. Pre-patch benchmarks from the top parser: Anub'Rekhan 2,030, Maexxna 1,918, Noth 1,905, Loatheb 1,704 and Patchwerk 1,692 DPS [[d:priest#1460389926838468770]].
+- **Naxxramas:** Heigan is the fight where the 20-yd Mind Flay range hurts [[d:priest#1454802940958347295]]. For Anub'Rekhan trash, the current strat starts the run inside the Anub room via invisibility potions, with a paladin waiting outside to gather the packs before the gate; pulling them in with a hunter pet is the older approach [[d:priest#1494364719472054494]]. Pre-patch benchmarks from the top parser: Anub'Rekhan 2,030, Maexxna 1,918, Noth 1,905, Loatheb 1,704 and Patchwerk 1,692 DPS [[d:priest#1460389926838468770]].
 - **Nefarian ([BWL](../../instances/blackwing-lair.md)):** the classic warning is that keeping VE up through the priest class call can kill your group [Jcarrill0, 2019-02-13](https://forum.turtlecraft.gg/viewtopic.php?p=2080#p2080). On Turtle, players report the class call only turns direct heals lethal, so VE, Renew and Power Word: Shield are fine to keep running [[d:priest#1452688804170174646]].
-- **Maraudon, Princess:** soloable in Shadow by circling. She drops Blade of Eternal Darkness at about 1% [[d:priest#1470881805279170786]], [[d:priest#1475667095776919632]].
+- **Maraudon, Princess:** soloable in Shadow by circling. She drops Blade of Eternal Darkness at about 1% [[d:priest#1271743341691666544]], [[d:priest#1475667095776919632]].
 - **Razorfen Kraul:** soloable at 60 as Shadow, using Mind Soothe to skip packs [[d:priest#1448220702929846283]].
 
 ## Common mistakes
@@ -195,4 +195,4 @@ Oil: Blessed or Brilliant Wizard Oil [[d:priest#1404120758787117236]].
 - **Mind Control drops Shadowform:** when a boss Mind Controls you, you can end up unable to recast Shadowform. Workarounds: be Undead (break the MC), get CC'd by someone, take a mage portal, or relog [[d:priest#1447894110194368622]], [[d:priest#1458239869145972816]].
 - Shadow Weaving can stop proccing after you log out while dead, until you relog [[d:priest#1494477462988394709]], [[d:priest#1493297099394257009]].
 - The Shadowform visual fades after mounting. Reapply Shadowform to restore it [[d:priest#1483470810847908002]], [[d:priest#1491256498456756274]].
-- After 1.18.1, VE stopped healing warlock pets [[d:priest#1491868819826938076]].
+- After 1.18.1, VE stopped healing warlock Greater demons specifically; imps and succubi still get healed [[d:priest#1491869702165631119]].

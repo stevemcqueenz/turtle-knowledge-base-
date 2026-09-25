@@ -28,7 +28,7 @@ Turtle's warrior differs a lot from vanilla, so vanilla guides don't transfer:
 | **[DW Fury](fury.md)** | **S** with good weapons: holds server records [[d:warrior#1494847565156454461]] | A: can off-tank in DPS gear [[d:warrior#1469840783568928788]] | **B**: Blood Drinker makes it the best solo PvP spec [[d:warrior#1490164939531489300]] | **S** with Blood Drinker from 35 [[d:warrior#1493981873561407599]] | A: Blood Drinker sustain |
 | **[MS Arms](arms.md)** | B (A for fresh 60): "Arms can do big executes now, still trailing 2h fury on most fights" [[d:warrior#1489363464605663365]] | A: Sweeping Strikes, Mortal Strike | B: organized teams only [[d:warrior#1492893464516362280]] | A: dungeon leveling with a slow 2H [[d:warrior#1485847747801256157]] | B |
 | **[Deathcute](arms.md)** | B: big but overkill Executes, plays slowly | B | C | - | - |
-| **[DefTac Prot](protection.md)** | **A** MT: "dtac is better in 99.9% of cases" [[d:warrior#1485222514119671829]] | A | Not a PvP spec [[d:warrior#1495077215207952434]] | B: from Shield Slam at 30 [[d:warrior#1493939490828324904]] | C |
+| **[DefTac Prot](protection.md)** | **A** MT: "dtac is better in 99.9% of cases" [[d:warrior#1485222514119671829]] | A | Not a PvP spec [[d:warrior#1495077215207952434]] | B: from Shield Slam at 30 [[d:warrior#1493939126385246208]] | C |
 | **[FuryProt](protection.md)** | A: best OT; MT only for extra threat [[d:warrior#1485222628016001024]] | A | Not a PvP spec | Not a leveling spec | C |
 
 Solo farming is warrior's weak spot. "The best warrior can do solo farming is like 20-30g per hour", against 100g+ for a hunter [[d:warrior#1480961813423194142]].

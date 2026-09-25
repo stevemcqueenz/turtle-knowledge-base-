@@ -194,7 +194,7 @@ Gear is front-loaded: get Darkmantle first ("Darkmantle darkmantle and darkmantl
 ### Trinkets
 
 - Before DFT: the haste Flask trinket beats Vial, Royal Seal and Whip when paired with the Darkmantle and Hand of Justice procs [[d:rogue#1487596668349321337]].
-- DFT is the passive "BiS forever"; add an active AP trinket or Badge for boss burst [[d:rogue#1490414003480957109]], [[d:rogue#1487230426148765727]].
+- DFT is the passive "BiS forever" [[d:rogue#1490393540956524746]]; add an active AP trinket or Badge for boss burst [[d:rogue#1487230426148765727]].
 - The new Onyxia trinket (a Windfury-like group proc) is a strong melee-group support pick with a Shaman in the group [[d:rogue#1488214504155250811]].
 - Fortune only appears on capes, necks and trinkets [[d:rogue#1474793529476645117]]. It multiplies an item's proc chance (10% → 12.5%) [[d:rogue#1484670147619848192]] and does not affect poisons, set bonuses or talents [[d:rogue#1488220449425985748]].
 

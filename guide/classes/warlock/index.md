@@ -43,11 +43,11 @@ Official notes: [Jamey (staff), 2026-01-23, revised 2026-01-26 and 2026-03-19](h
 
 | Change | What it means for you |
 |---|---|
-| **Unleashed Potential** procs on any direct damage (not only crits) and shows a buff [[d:warlock#1465390962552340582]] | 3 stacks in about 3 s [[d:warlock#1485512658433343609]]. Demonology went from niche to the top spec. |
-| **Searing Pain**: 2.0 s base cast (1.5 s with 5/5 Bane), 57% spell-power scaling, 1 s GCD, +20% base damage [[d:warlock#1465390962552340582]], [[d:warlock#1484367370637017348]] | Fire Destruction became playable; Searing Pain is also Demonology's stacking spell. |
+| **Unleashed Potential** procs on any direct damage (not only crits) and shows a buff [[d:warlock#1468626637829574799]] | 3 stacks in about 3 s [[d:warlock#1485512658433343609]]. Demonology went from niche to the top spec. |
+| **Searing Pain**: 2.0 s base cast (1.5 s with 5/5 Bane), 57% spell-power scaling, 1 s GCD, +20% base damage [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071), [[d:warlock#1484367370637017348]] | Fire Destruction became playable; Searing Pain is also Demonology's stacking spell. |
 | **Hellfire**: 6.66% spell power per tick; mana paid over the channel [[d:warlock#1486076970017099837]] | Cheaper and stronger AoE, but still "underwhelming" in practice [[d:warlock#1486074541284266250]]. |
 | **Curses of Shadows, Elements and Recklessness**: 1 s GCD [[d:warlock#1484690228718469253]] | Faster curse duty; Curse of Recklessness fear-juggling in PvP. |
-| **Ritual of Doom**: 3 s cast, 1 helper, never kills anyone. **Demon Gate**: Felguard appears in 4 s [[d:warlock#1465390962552340582]], [[d:warlock#1491589394480627833]] | Greater demons are much easier to summon. |
+| **Ritual of Doom**: 3 s cast, 1 helper, never kills anyone. **Demon Gate**: Felguard appears in 4 s [[d:warlock#1465693570496336057]], [[d:warlock#1491589394480627833]] | Greater demons are much easier to summon. |
 | **Soul Link** 25% → 20%; **enslaved and greater demons take 50% less healing** (moved off the warlock); **Felhunter/Infernal armor -30%**; **Avoidance** now also reduces cleave damage [[d:warlock#1485836700017098883]], [[d:warlock#1464380540135276677]], [[d:warlock#1485423028417331210]] | Health Funnel is your pet's healer. Pets survive boss cleaves better. |
 | **Sinister Pursuit** moved to Demonology (pet speed); **Master Conjuror** removed [[d:warlock#1464417092869554227]] | Sacrifice builds take 2/3 Demonic Aegis instead [[d:warlock#1484607150868136087]]. |
 | **Healthstone** single 1,200 HP stone; **Soulwell** costs 3 shards; one Soulstone no longer covers the raid [[d:warlock#1464359558309740597]], [[d:warlock#1464417092869554227]], [[d:warlock#1484476430493417472]] | Plan shards. |

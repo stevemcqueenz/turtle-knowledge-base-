@@ -21,7 +21,7 @@
 
 - **Troll packs before Jin'do** apply a curse that raises physical damage taken by roughly 400-500% and they stun; a solo tank should kite them through a hunter trap, a shaman totem or Piercing Howl, and LIP + Challenging Shout the big pack with slaves [[d:warrior#1399585291693461574]].
 - **Raptors** (for example the corner 3-raptor pack in the Hakkari Grounds) are immune to Freezing Trap: use Frost Trap + Scare Beast, or Sleep Dust [[d:hunter#1454336662804107307]], [[d:hunter#1454348119092498534]], [[d:hunter#1456227900276605019]].
-- **Shadow hunters** were changed to aggro from about double vanilla range even when only your pet has threat [[d:hunter#1483812534795374663]].
+- **Shadow hunters**: **Contested.** One player reported they now aggro from about double vanilla range even when only your pet has threat, unsure if it's a Turtle change or normal vanilla behavior; another player replied it's likely normal vanilla behavior [[d:hunter#1483812534795374663]], [[d:hunter#1483813379712876624]].
 - **Panther pyramid speed pull:** drop from the stairs onto the pack below the bridge and fight the boss while everything runs in, onto a full-mitigation paladin with a Free Action Potion and Force Reactive Disk and 1-2 T3-geared healers — fun but most groups avoid it [[d:paladin#1468029408316227778]], [[d:paladin#1468029495125606544]].
 
 ## Bosses

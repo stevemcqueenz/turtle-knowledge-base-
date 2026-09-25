@@ -17,7 +17,7 @@ Post-release evidence was preferred over pre-release, and pre-release over older
 
 | Person | Spec | Why they were trusted |
 |---|---|---|
-| **Micro Jackson** | All (resto main) | The channel's most prolific, most-agreed answerer: ~1,400 hours of resto [[d:druid#1475237840618258546]], stat and threat math [[d:druid#1472870879418646640]], the base tank and cat builds [[d:druid#1444972730033377300]], [[d:druid#1460992604417032421]]. Corrects his own and others' claims with tests. |
+| **Micro Jackson** | All (resto main) | The channel's most prolific, most-agreed answerer: ~1,400 hours of resto [[d:druid#1480971311797895361]], stat and threat math [[d:druid#1472870879418646640]], the base tank and cat builds [[d:druid#1444972730033377300]], [[d:druid#1460992604417032421]]. Corrects his own and others' claims with tests. |
 | **Hotverdomme-Nord** | Balance | Top boomkin in direct contact with the class designer; tracked the DPS gap with log data [[d:druid#1491219031611543693]], [[d:druid#1492151406159859824]] |
 | **Krokat** | Balance, Feral | Maintains the pinned Boomkin and feral sims; idol and haste tables [[d:druid#1461294464055115799]], [[d:druid#1488415746592604160]] |
 | **Tephus** | Feral, Bear | Careful threat and scaling analysis, unchallenged tank-role breakdown [[d:druid#1465654937018044467]], [[d:druid#1473623513289199667]] |

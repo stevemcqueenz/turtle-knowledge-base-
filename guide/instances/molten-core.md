@@ -23,9 +23,9 @@ Incindis → Lucifron → Magmadar → Garr → Shazzrah → Baron Geddon → Go
 
 | Type | Mobs | Source |
 |---|---|---|
-| **Fire-immune** | Ragnaros, Baron Geddon, and the fire-elemental trash (Firelord, Firewalker, Flameguard, Lava Spawn). **Garr and Golemagg are not** | [[d:hunter#1452953866319691816]], [[d:hunter#1452954051615395861]], [[d:warlock#1440494819095875726]], [[d:rogue#1458841167352303662]] |
+| **Fire-immune** | Ragnaros, Baron Geddon, and the fire-elemental trash (Firelord, Firewalker, Flameguard, Lava Spawn). **Garr and Golemagg are not** | [[d:hunter#1452953866319691816]], [[d:hunter#1452954051615395861]], [[d:warlock#1440494819095875726]], [[d:rogue#1458840967682461910]] |
 | Fire-resistant | About half the mobs; even the two lowest bosses carry notable fire resistance (Lucifron 93 fire / 186 shadow; Shazzrah 186 arcane / 93 fire per a player list) | [[d:rogue#1467612923051380920]], [[d:hunter#1407146805678051390]], [[d:shaman#1422911619553427477]] |
-| **Nature-immune** | The Flamewaker "elemental race" mobs; Wind Serpent pets and Serpent Sting do little; Serpent Sting fails on Garr and the golem pair | [[d:hunter#1466164849099800691]], [[d:hunter#1466150205702279343]], [[d:hunter#1485205637586751639]] |
+| **Nature-immune** | The Flamewaker "elemental race" mobs; Wind Serpent pets and Serpent Sting do little; Serpent Sting fails on Garr and the golem pair | [[d:hunter#1466164849099800691]], [[d:hunter#1485205637586751639]] |
 | **Bleed** | **Contested.** Rheinwg: only Geddon and Ragnaros are bleed-immune, Garr bleeds [[d:rogue#1428414659962077214]], [[d:rogue#1428415459153412157]]. Hunter logs: everything but Geddon, Thane and Ragnaros [[d:hunter#1440260571835666484]]. Others add Golemagg and the golems [[d:druid#1465287703032631391]]. Staff removed bleed immunity from Garr and Golemagg in 2025-06 ([Torta (staff), 2025-06-10](https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177)). Garr's small adds cannot bleed [[d:druid#1465289016697159817]] | |
 | **Poisons** (Rheinwg) | Garr, Geddon, the two golems and the undead dwarf (Thaurissan) take only Dissolvent/Corrosive; Magmadar, the salamander boss, Sulfuron, Shazzrah and Majordomo take only Instant/Deadly; Golemagg takes either. Trash is mostly elementals and giants: Dissolvent 2, except one section that wants Instant | [[d:rogue#1484754354433953915]] |
 
@@ -43,7 +43,7 @@ MC is the worst raid for poison swaps; some rogues skip poisons entirely [[d:rog
 
 - **Surgers** (small black golems) charge the farthest target; stack on them [[d:paladin#1439620188809990266]], [[d:paladin#1439620234209132697]].
 - Poison-immune trash: surgers, annihilators, fire lords, sons of flame, ghosts, giants, destroyers [[d:rogue#1468988795142803507]], [[d:rogue#1468988942597750835]].
-- The four-elemental packs are great Blade Flurry and cleave pulls [[d:rogue#1490340962864599111]]. Imp and dog rooms are easier with a paladin's Consecration [[d:warrior#1490391630102925584]].
+- The four-elemental packs are great Blade Flurry and cleave pulls [[d:rogue#1491477144294002869]]. Imp and dog rooms are easier with a paladin's Consecration [[d:warrior#1490391630102925584]].
 - Hunters: MM pulls packs for its range [[d:hunter#1437464685799800873]]. The tameable **Magmalash Scorpid** has several fixed spawn points (most often near the two new bosses, else near Sulfuron or the lava); one at a time, no fresh ID needed; clear MC, stable your pet and hunt it [[d:hunter#1494105695241506888]], [[d:hunter#1494113708224417842]], [[d:hunter#1494109799036489758]].
 
 ## Bosses
@@ -54,7 +54,7 @@ An incendosaur ("the lizard fight") who lays eggs. The eggs are meant to be kill
 
 ### Lucifron
 
-- Hits harder than expected because of his two adds [[d:shaman#1445539804170158286]]. Follow marks: first add, second add, boss [[d:paladin#1439619289194823963]].
+- Hits harder than expected because of his two adds [[d:shaman#1445540100518973550]]. Follow marks: first add, second add, boss [[d:paladin#1439619289194823963]].
 - Mind Control: dispelling an opposite-faction mind-controlled player strips their buffs before the MC; use Restorative Potions or dispel your own faction [[d:priest#1480338698091364373]].
 - Reported bug: his adds could not be interrupted for a couple of weeks in January 2026 [[d:rogue#1464188486511755367]] (unconfirmed).
 
@@ -67,7 +67,7 @@ An incendosaur ("the lizard fight") who lays eggs. The eggs are meant to be kill
 
 | Role | Job |
 |---|---|
-| Tank | Common setups: one tank holds Garr in the middle while two tanks split the 8 adds in a corner; full-banish strategies fail because banishing 4+ adds breaks it [[d:paladin#1451282102661283991]], [[d:paladin#1451282609983197396]], [[d:paladin#1451286370722119893]]. The adds hit **physical**, so add tanking is about avoidance and HP [[d:paladin#1452198600678441075]]; they apply Immolate on hit, so wear some FR and use Greater Stoneshield, **not** elemental resistance potions [[d:paladin#1460430597347475662]], [[d:paladin#1460430044118650952]]. Solo add tanking: a fire-immunity trinket, Stoneshields, and a ~5k HP buffer before an add dies (death explosion ~4k fire) [[d:paladin#1470837697546289247]], [[d:paladin#1470839001555664967]]. Too far from Garr enrages the adds, too close shields Garr [[d:paladin#1449029898151919708]]. |
+| Tank | Common setups: one tank holds Garr in the middle while two tanks split the 8 adds in a corner; full-banish strategies fail because banishing 4+ adds breaks it [[d:paladin#1451282102661283991]], [[d:paladin#1451282609983197396]], [[d:paladin#1451286370722119893]]. The adds hit **physical**, so add tanking is about avoidance and HP [[d:paladin#1452198600678441075]], [[d:paladin#1452199226019680256]]; they apply Immolate on hit, so wear some FR and use Greater Stoneshield, **not** elemental resistance potions [[d:paladin#1460430597347475662]], [[d:paladin#1460430044118650952]]. Solo add tanking: a fire-immunity trinket, Stoneshields, and a ~5k HP buffer before an add dies (death explosion ~4k fire) [[d:paladin#1470837697546289247]], [[d:paladin#1470839001555664967]]. Too far from Garr enrages the adds, too close shields Garr [[d:paladin#1449029898151919708]]. |
 | DPS | Do not stand near small adds when they die [[d:paladin#1439619289194823963]] |
 | Class jobs | Mages fish Icicle procs off the pack [[d:mage#1467928581001973840]]. Shadow priests AoE all adds evenly and swap to a fire-immunity trinket just before they die [[d:priest#1454601699468509286]], [[d:priest#1454603179659362417]] |
 
@@ -86,7 +86,7 @@ An incendosaur ("the lizard fight") who lays eggs. The eggs are meant to be kill
 ### Golemagg the Incinerator
 
 - The Core Hounds fixate randomly and reset aggro ([Alovander (player), 2025-08-25](https://forum.turtlecraft.gg/viewtopic.php?p=148274#p148274)); warriors taunt them for rage and dump it on Golemagg — damage to dogs does not hurt Golemagg [[d:warrior#1437503959152721971]], [[d:warrior#1437512696600727633]]. The hounds were slowed 25% and he enrages at 10% again ([Torta (staff), 2025-09-02](https://forum.turtlecraft.gg/viewtopic.php?p=149960#p149960)).
-- Healers stay on the boss; others handle the dogs [[d:paladin#1439619289194823963]]. DPS-spec off-tanks may want a shield here if healers struggle [[d:warrior#1433470964288589844]].
+- Healers stay on the boss; others handle the dogs [[d:paladin#1439619289194823963]]. DPS-spec off-tanks may want a shield here if healers struggle [[d:warrior#1433472642513502210]].
 
 ### Basalthar & Smoldaris (new twin golems)
 
@@ -111,14 +111,14 @@ Doite's strat for 20-25 players [[d:shaman#1474002920419627039]], [[d:shaman#147
 | Tank | 2 tanks (one in FR for Ragnaros), 3 for a full 40; MT holds Majordomo where he stands facing the raid and intercepts his teleport-run toward healers (healers stand in a line); 1-2 more tanks take the warrior adds on the flanks |
 | Healers | About 1 per group |
 | DPS | Kill order: un-sheeped healers, then broken sheep, then warrior adds |
-| Class jobs | **Mages can sheep at most 2 healers**; sheep the two closest to the boss (sheeping his adds still works on Turtle [[d:mage#1424365543967948910]]). One hunter Aimed-Shots a healer and kites it; a bold hunter can kite a third [[d:shaman#1474007176682148005]]. Pull timer 20 s: hunter starts Aimed Shot at 3 s, mages start Polymorph at 1.5 s. Warlocks can multi-curse every add with Cursive without touching sheep [[d:warlock#1440657518882979960]]. Survival hunters can facetank the elite adds [[d:hunter#1475608384299597965]] |
+| Class jobs | **Mages can sheep at most 2 healers**; sheep the two closest to the boss (sheeping his adds still works on Turtle [[d:mage#1424365543967948910]]). One hunter Aimed-Shots a healer and kites it; a bold hunter can kite a third [[d:shaman#1474007176682148005]]. Pull timer 20 s: hunter starts Aimed Shot at 3 s, mages start Polymorph at 1.5 s. Warlocks can multi-curse every add with Cursive without touching sheep [[d:warlock#1440657518882979960]]. Survival hunters can facetank the elite adds [[d:hunter#1475633842969641146]] |
 | Watch out | "Needs more than pure zug" — though Tranquility and Spirit Link let some raids zug it (**Contested**) [[d:warrior#1476388663804821606]], [[d:warrior#1476388956395536395]]. Teleport stun cut to 1 s ([Jamey (staff), 2025-08-19](https://forum.turtlecraft.gg/viewtopic.php?p=147116#p147116)) |
 
 ### Ragnaros
 
 | Role | Job |
 |---|---|
-| Tank | 250-315 FR mainly lowers the knockback chance (~25% at 315, ~50% at 250); he resets threat after knocking a tank back [[d:paladin#1451158265353211914]]. Some MTs wear FR only to cheese the knockback, and it can be done without [[d:shaman#1473009346924253402]]; "rag is probably one of the easiest bosses even without fire res" [[d:shaman#1473010197072052244]]. For Geddon one tank highly recommends 315 FR; ~210 FR gives most of the benefit for half the gearing [[d:shaman#1473009469972676769]], [[d:shaman#1473009892750131383]]. Mana-based tanks are more exposed to his fireball knockback [[d:shaman#1434444518480154656]]. One Consecration holds all his adds [[d:paladin#1474897368888639630]] |
+| Tank | 250-315 FR mainly lowers the knockback chance (~25% at 315, ~50% at 250); he resets threat after knocking a tank back [[d:paladin#1451158265353211914]]. Some MTs wear FR only to cheese the knockback, and it can be done without [[d:shaman#1473009346924253402]]; "rag is probably one of the easiest bosses even without fire res" [[d:shaman#1473010197072052244]]. For Geddon one tank highly recommends 315 FR; ~210 FR gives most of the benefit for half the gearing [[d:shaman#1473009469972676769]], [[d:shaman#1473009892750131383]]. Mana-based tanks are more exposed to his fireball knockback [[d:shaman#1434444833799405638]]. One Consecration holds all his adds [[d:paladin#1474897368888639630]] |
 | Healers | Spread and heal the MT from range; group up when adds spawn [[d:paladin#1439619289194823963]] |
 | DPS | Modern raids just DPS-race him without FR on DPS or healers [[d:shaman#1441135065286574202]]. On knockback, move away and back in |
 | Class jobs | He sends firebolts at **mana users** and knocks them back, separate from his main knockback; mana-using melee should spread out of the melee stack [[d:paladin#1428441785193205931]], [[d:paladin#1428441952923418817]]. Hunters swap to MM [[d:hunter#1447672710829310054]]. Frost mages: he is immune to Freeze ([Torta (staff), 2025-04-29](https://forum.turtlecraft.gg/viewtopic.php?p=129028#p129028)) |

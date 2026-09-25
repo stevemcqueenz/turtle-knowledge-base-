@@ -47,14 +47,14 @@ Raid utility every hunter brings:
 
 ## What changed in 1.18.1 (gameplay impact)
 
-Official notes: [Jamey (staff), 2026-01-23, revised 2026-03-19](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071); hotfixes [Torta (staff), 2026-03-24](https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139). Talents were reset on patch day [[d:hunter#1484491232167329855]].
+Official notes: [Jamey (staff), 2026-01-23, revised 2026-03-19](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071); hotfixes [Torta (staff), 2026-03-24](https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139). Players reported talents being reset on patch day [[d:hunter#1484491232167329855]].
 
 | Change | What it means for you |
 |---|---|
 | **Steady Shot baseline at 20**, **Trueshot Aura baseline at 40** (toned down), **Aspect of the Viper** at 56 (5% max mana / 5 s) | Every spec has Steady Shot; Survival can shoot during movement phases [[d:hunter#1466006006126477313]]. Viper comes "a bit too late" for leveling [[d:hunter#1484535169519063110]] |
 | MM: **Aimed Shot** keystone (2 s cast, 26 s cooldown), **Experimental Ammunition** (Aimed Shot cycles Fire → Arcane → Nature buffs for Multi/Arcane/Serpent), **Lock and Load** capstone (Steady/Aimed/Arcane crits reset Aimed Shot), Rapid Fire −40% Aimed/Steady cast, Ranged Weapon Specialization 2–10% | MM went from a Steady/Multi weave to "Aimed → auto → Steady → Arcane", hunting procs [[d:hunter#1488874340295643166]]. Crit is now worth ~50 AP [[d:hunter#1486705272167858227]] |
 | **Arcane Shot** gains ranged-weapon scaling; **Volley** becomes a 3 s cast (1 s with Barrage) with AP scaling; ~30% cheaper Aimed/Arcane/Serpent | Arcane Shot is a real button again; Volley opens trash packs [[d:hunter#1484723679286923335]] |
-| **Improved Hunter's Mark removed** | Nobody missed it [[d:hunter#1484366835540299878]] |
+| **Improved Hunter's Mark removed** | Nobody missed it [[d:hunter#1484366835540299878]], [[d:hunter#1484371791957856346]] |
 | BM: **Baited Shot removed**, **Bestial Wrath** returns (18 s, 1.5 min), **Scent of Blood** (chance to enrage the pet), **Kill Command** capstone (80% pet AP, usable after a crit, no GCD) | A two-button spec: Steady spam with Kill Command macroed in [[d:hunter#1485618365513994341]]. KC crits of 5–7k [[d:hunter#1493004500149993484]], [[d:hunter#1486419920332787763]] |
 | **Endurance Training and Thick Hide** raised | Pets survive open-world content again |
 | Survival: **Alone Against the World** (+6% with no pet), **Surefooted** +3% dual-wield hit, **Vicious Strikes** buffs Raptor Strike and Mongoose Bite again, **Lacerate** 40% AP and +15% from the side, **Coordinated Assault** 30% → 20% | Survival gained a little on its abilities, and its Coordinated Assault dropped to a third or quarter [[d:hunter#1484615674688176158]]. Still the top overall spec [[d:hunter#1489032257317507102]] |

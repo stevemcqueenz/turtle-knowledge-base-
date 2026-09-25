@@ -13,7 +13,7 @@ Turtle-custom 5-man for levels 32-38 above Mystral Lake in Ashenvale. Official d
 ## Group notes
 
 - **Every pack pulls together.** "All creature packs in Crescent Grove now pull together when one of them is attacked" ([Torta (staff), 2025-05-06](https://forum.turtlecraft.gg/viewtopic.php?p=129934#p129934)). Plan pulls as full packs.
-- **The entrance packs before the first boss hit harder than the boss** [[d:shaman#1434652110913405070]], [[d:shaman#1434627465166458993]].
+- **The entrance packs before the first boss hit harder than the boss** [[d:shaman#1434651821577601144]].
 
 ## Bosses (1.18.0 versions)
 

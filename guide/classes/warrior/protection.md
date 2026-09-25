@@ -206,7 +206,7 @@ Dodge and other avoidance also cost rage, because you gain rage from being hit [
 5. **Overpower** when it procs (dodge only; Overpower off parries was a bug and has been fixed) [[d:warrior#1478712046215364619]], [[d:warrior#1465472870539985081]].
 6. **Concussion Blow** on cooldown (Impale/Enrage builds). It generates rage [[d:warrior#1460410582208479334]].
 7. **Heroic Strike** as the rage dump on every swing you can afford.
-8. **Sunder Armor** as filler. Its rage cost is now 10 [[d:warrior#1478712046215364619]], [[d:warrior#1470495822188642435]].
+8. **Sunder Armor** as filler. Its rage cost is now 10, down from 15 [[d:warrior#1470495822188642435]].
 9. **Crit/crush safety:** sequence Shield Slam's buff and Shield Block. They overwrite each other, so press Shield Block after a hit has consumed the Shield Slam buff [[d:warrior#1476093703821983804]], [[d:warrior#1454146387263488083]].
 
 ### FuryProt
@@ -224,7 +224,7 @@ Pull with Death Wish and Bloodrage (Enrage), then Shield Slam, Heroic Strike and
 
 ## AoE threat
 
-Warrior has **no dedicated AoE threat tool**, and 1.18.1 did not add one [[d:warrior#1484622112340840649]]. "Warrior lacks tools for tanking anything but a boss" [[d:warrior#1484969394714185761]]. Plan your pulls around that.
+Warrior has **no dedicated AoE threat tool**, and 1.18.1 did not add one ("we're complaining why all tanks get aoe but warrior... so wtf is twow doing") [[d:warrior#1484622046624354507]], [[d:warrior#1484622112340840649]]. "Warrior lacks tools for tanking anything but a boss" [[d:warrior#1484969394714185761]]. Plan your pulls around that.
 
 1. **Mark** the kill order (skull, cross, square) and let DPS own their mistakes [[d:warrior#1469884937959243838]].
 2. **Demoralizing Shout** is "warriors best real aoe threat ability if you don't have thunderfury". It is uncapped and cheap, and you can spam it [[d:warrior#1485307725683495074]], [[d:warrior#1485308036565176433]].
@@ -256,14 +256,14 @@ Warrior has **no dedicated AoE threat tool**, and 1.18.1 did not add one [[d:war
 
 Keep **three sets**: full threat, beefy threat, full mitigation [[d:warrior#1430018559806935070]]. "There is no such thing as full BiS for FuryProt"; your gear changes by fight [[d:warrior#1441767138158448761]]. DPS gear is threat gear: gear "like a DPS warrior" minus leather and mail [[d:warrior#1456101071687651432]], [[d:warrior#1431018662185144463]].
 
-- **Pre-raid:** the Stormwind Vault drop set is a good pre-BiS deep prot set. Pair Corrosive Core with Breadth of the Earthmother; Hand of Justice is "not good" for this set [[d:warrior#1474795053149847654]], [[d:warrior#1474796394379477092]]. Other picks: Anasterian's Legacy, Darkflame Helm, T1 Might pieces [[d:warrior#1484904940940951562]]. T1 tank set: "a ton of % chance to block which is all useless" [[d:warrior#1439701707775938561]].
+- **Pre-raid:** the Stormwind Vault drop set is a good pre-BiS deep prot set [[d:warrior#1474795053149847654]]. Pair Corrosive Core with Breadth of the Earthmother for sure; Hand of Justice "isn't that good" for this set [[d:warrior#1474796365224870152]], [[d:warrior#1474796394379477092]]. Other picks: Anasterian's Legacy, Darkflame Helm, T1 Might pieces [[d:warrior#1484904940940951562]]. T1 tank set: "a ton of % chance to block which is all useless" [[d:warrior#1439701707775938561]].
 - **Shields:** Aegis for DefTac, **Scaleshield** for FuryProt. Lipibidy prefers Scaleshield all around: "12 str/agi/stam > block stats, and the fear break active is also useful" [[d:warrior#1491239744091193494]], [[d:warrior#1491241309024026826]].
-- **Weapons:** fast. "Slow weapon is not worth it due to massively reduced amount of heroics" [[d:warrior#1465472984121868298]]. Don't DefTac-tank with anything slower than Thunderfury [[d:warrior#1484648367270395994]]. Warblades are only about 8 DPS behind BWL-BiS weapons for FuryProt: "excellent choice if you don't have Thunderfury yet" [[d:warrior#1469573984961171539]]. Without Thunderfury, THC is BiS [[d:warrior#1465472914496159838]]. Broodwarden is "bis till thc" and "undervalued by a lot of people" [[d:warrior#1490916989856907348]], [[d:warrior#1494817005176492134]].
+- **Weapons:** fast. "Slow weapon is not worth it due to massively reduced amount of heroics" [[d:warrior#1465472984121868298]]. Don't DefTac-tank with anything slower than Thunderfury [[d:warrior#1484648367270395994]]. Warblades are only about 8 DPS behind BWL-BiS weapons for FuryProt: "excellent choice if you don't have Thunderfury yet" [[d:warrior#1469573984961171539]]. Without Thunderfury, THC is BiS [[d:warrior#1465472914496159838]]. **Contested:** one player called Broodwarden "bis till thc" then walked it back, and another didn't see it show up in the sim [[d:warrior#1490916989856907348]], [[d:warrior#1490919419159777451]]; the same player later called it "undervalued by a lot of people" with an "incredibly strong" sword proc [[d:warrior#1494817005176492134]].
 - **FuryProt BWL checklist** (a player's list the channel answered): Chromatic Boots; T2 DPS or Legguards of the Fallen Crusader legs; T2 DPS, Taut Dragonhide or Drake Talon shoulders; Tempest's Rage/Maladath or Thunderfury; Heart of Dreams + Drake Fang Talisman. Add the Kara10 Darkflame Helm [[d:warrior#1487748272444538993]], [[d:warrior#1487750362449575947]]. For rings, Circle of Applied Force (buffed to 15 Str / 12 Stam / 22 Agi), or Band of Accuria if you still need hit [[d:warrior#1487751869953605632]], [[d:warrior#1487752130650701855]].
 - **Tier:** T2 tank is "mitigation BIS forever" [[d:warrior#1483125112822562818]]. The T3 tank set is "the most mit you can get going into k40" [[d:warrior#1469090702112850144]], and its 2-piece is a genuine TPS gain [[d:warrior#1483553512662241311]]. The T3 4-piece (taunt hit) is only really needed for Four Horsemen [[d:warrior#1457085926382502033]]. T3.5 is "better enough that it will replace your t3 pieces" [[d:warrior#1469087866935316622]]. The new T3 PvP chest + gloves 2-set is argued to beat raid tank gear [[d:warrior#1481251862488420562]], [[d:warrior#1492209564056289300]].
 - **Mixing sets:** swap bracers first, then helm and legs toward threat. Keep a couple of thick-stamina pieces (T3 tank boots/helm); T3 tank pants carry enough block value for a threat set [[d:warrior#1463636360014463081]], [[d:warrior#1463636814287081604]]. "Err on the side of mitigation until you know your raid can farm a boss" [[d:warrior#1446837843392466996]].
 - **Trinkets:** Kiss of the Spider is favored for the opener (hastened autos give more rolls against dodge/parry streaks); never Heart of Dreams over two actives [[d:warrior#1428808306146676958]], [[d:warrior#1428883973924323399]]. For DefTac, Glyph of Deflection + Kiss beats any Mark of the Champion combo [[d:warrior#1473343368170836203]]. Diamond Flask: use it "like a second Death Wish" (**contested**) [[d:warrior#1494799313849815050]], [[d:warrior#1494799161965412565]].
-- **Fortune** is multiplicative (a 5% proc with 5% Fortune becomes 5.25%) and weak [[d:warrior#1484638990551355504]]. It mostly helps Thunderfury [[d:warrior#1473085795240775710]].
+- **Fortune** is multiplicative (a 5% proc with 5% Fortune becomes 5.25%) and weak [[d:warrior#1484638990551355504]].
 
 ## Enchants
 
@@ -289,7 +289,7 @@ Keep **three sets**: full threat, beefy threat, full mitigation [[d:warrior#1430
 - **Mouseover taunt:** `/cast [@mouseover]Taunt;Taunt` [[d:warrior#1436136743966605323]].
 - Don't stack "Revenge if available else Sunder" into one macro; use separate binds [[d:warrior#1466485691566260569]].
 - **Tankalyze** tracks taunts and removes Salvation clutter [[d:warrior#1482225857857847348]]. **ShaguPlates** has threat nameplates (needs SuperWoW) [[d:warrior#1459547336375144470]]. **AdvancedLogger** counts wasted Sunders per player [[d:warrior#1460773366779613376]].
-- **Weapon swaps** each cost a GCD and reset the swing timer [[d:warrior#1457310499887906909]], and they misbehave in combat on the Turtle client [[d:warrior#1481726614898213019]].
+- **Weapon swaps** each cost a GCD and reset the swing timer [[d:warrior#1457332538035933209]], and they misbehave in combat on the Turtle client [[d:warrior#1481726614898213019]].
 
 ## Raid notes
 
@@ -309,7 +309,7 @@ Keep **three sets**: full threat, beefy threat, full mitigation [[d:warrior#1430
   - Stack mitigation mainly for Sapphiron and Patchwerk (if not the MT) and Maexxna [[d:warrior#1478719837323661353]], [[d:warrior#1454921205864726621]].
   - Hateful Strike soaking wants a 1H hit cap plus maximum stamina [[d:warrior#1441252441004703905]]. One MT tanked Patchwerk as FuryProt with only 340 Defense [[d:warrior#1459502872315302094]].
   - Maexxna's Web Spray stuns you, so you cannot avoid attacks. Put the shield on before the spray, or rotate LGG, Last Stand and Shield Wall across sprays [[d:warrior#1439292534642966558]], [[d:warrior#1439293468408156221]], [[d:warrior#1439308936716091463]].
-  - Sapphiron: no FR gear on this server because his aura is bugged; use Frost Protection potions [[d:warrior#1449484906081161307]].
+  - Sapphiron: no FR gear on this server because his aura is bugged [[d:warrior#1449484192105631824]]; just use Greater Frost Protection potions instead [[d:warrior#1458837741109379246]].
   - Thaddius resets threat about 0.5 s after engaging [[d:warrior#1428901608225505422]].
   - Heigan can resist Taunt [[d:warrior#1487489449251049632]].
   - Don't taunt Blaumeux during her ~1 s Void Zone cast [[d:warrior#1434755616588562462]].

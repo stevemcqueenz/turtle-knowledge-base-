@@ -174,7 +174,7 @@ What to press, bracket by bracket, for the recommended **Affliction + Voidwalker
 
 - **New now:** L10 **Voidwalker** (class quest), Drain Soul R1, Demon Armor R2, Create Healthstone (Minor) · L12 Health Funnel R1, Shadow Bolt R3 (2.8 s) · L14 Corruption R2, Drain Life R1, Curse of Recklessness R1 · L16 Life Tap R2, Unending Breath · L18 Curse of Agony R2, Searing Pain R1, Create Soulstone (Minor).
 - **Talents:** Improved Corruption 1-5 (L10-14; Corruption is **instant from 14**), Suppression 1-3 (L15-17), Improved Life Tap 1 (L18), Improved Drains 1 (L19).
-- **Demon:** Voidwalker, with Torment on autocast. Upgrade its Torment rank as soon as you can [Eversongwoods, 2025-02-03](https://forum.turtlecraft.gg/viewtopic.php?p=118780#p118780). Keep Demon Armor up [[d:warlock#1472625100124852244]].
+- **Demon:** Voidwalker, with Torment on autocast. Upgrade its Torment rank as soon as you can [Eversongwoods, 2025-02-03](https://forum.turtlecraft.gg/viewtopic.php?p=118780#p118780). Keep Demon Armor up.
 
 **Single target**
 
@@ -325,7 +325,7 @@ Never apply Immolate early in the loop. Immolate is dropped once you have Siphon
 - **No Dark Pact on Turtle** — the biggest difference from vanilla leveling guides [[d:warlock#1490751044295065693]]. Mana comes from Life Tap; health comes back from Drain Life, Siphon Life and Felstone.
 - **Wand vs spells:** **Contested.** "0 reason to wand after like level 20" [[d:warlock#1462085166829797541]] vs "Voidwalker + dots and wand = infinite farm and no aggro" [[d:warlock#1472625100124852244]].
 - **Spirit:** **Contested.** "Spirit has 0 value" [[d:warlock#1457542304297648332]]; Sarimal says it helps between pulls outside Hardcore [[d:warlock#1457761351404617739]]; Life Tap keeps you inside the 5-second rule so Spirit rarely kicks in [[d:warlock#1457773817320706243]].
-- Keep **Demon Armor** up [[d:warlock#1472625100124852244]].
+- Keep **Demon Armor** up.
 
 ## Stats and gear by bracket
 

@@ -98,7 +98,7 @@ Why:
 
 Not worth chasing:
 
-- **Defense.** Unless you can reach 440 (crit immunity), "it's better to focus on armor and health" [[d:shaman#1466115983541538979]]; shaman tanks can't reach it in practice [[d:shaman#1490407432403419336]]. Crushing blows stay at 15% regardless of Defense [[d:shaman#1478722202269384705]]; pushing them off needs ~85-88% avoidance, which mail gear can't reach [[d:shaman#1474645833302413427]].
+- **Defense.** Unless you can reach 440 (crit immunity), "it's better to focus on armor and health" [[d:shaman#1466115983541538979]]; shaman tanks can't reach it in practice [[d:shaman#1490404647696072806]]. Crushing blows stay at 15% regardless of Defense [[d:shaman#1478722202269384705]]; pushing them off needs ~85-88% avoidance, which mail gear can't reach [[d:shaman#1474645833302413427]].
 - **Block** and Shield Specialization (above).
 - Rugged armor kits beat Defense kits unless they get you to 440 [[d:shaman#1466102519502602346]].
 
@@ -120,7 +120,7 @@ Rules:
 
 - Keep **rank 1 Earth Shock** bound only for interrupts when low on mana [[d:shaman#1424427249884463326]].
 - **Never hard-cast while being hit**: casting drops your dodge, parry and block to zero [[d:shaman#1445658999881207950]].
-- Earth Shield is a poor tank tool (small heals vs 1-2k hits); use Water Shield [[d:shaman#1444651606842015845]], [[d:shaman#1445538289376559134]].
+- Earth Shield is a poor tank tool (small heals vs 1-2k hits); use Water Shield [[d:shaman#1445538289376559134]].
 - Call out a **resisted taunt** at once so healers pre-cast [[d:shaman#1481752700486942720]].
 
 **Bot-ready loop:** `on pull: Chain Lightning (or Molten Blast) at range` · `Rockbiter Weapon on MH if missing` · `Earth Shock if ready` · `Stormstrike if ready` · `Lightning Strike if ready` · `auto-attack` · `if mana < 66% and Lightning Shield up → Water Shield` · `taunt (Earthshaker Slam) if target not on you and not resisted`.
@@ -134,7 +134,7 @@ AoE threat is a cost-vs-need hierarchy (Not Normal) [[d:shaman#14922439083048305
 | Normal pack | **Chain Lightning pull + Stoneclaw Totem + Totem of the Tides** (Water Shield up), tab Earth Shock / strikes |
 | Party AoEs hard | Add **Fire Nova Totem** (more up-front than Magma, the standard choice) [[d:shaman#1486561660150747156]] |
 | Party still pulls | **Magma Totem after Nova**, "last resort, it will destroy your mana" [[d:shaman#1492243972607705210]]; use it if mobs live a long time [[d:shaman#1485085137086709931]] |
-| Emergency snap | Fire Nova + Goblin Sapper Charge + Stoneclaw together [[d:shaman#1438960736440156210]] |
+| Emergency snap | Goblin Sapper Charge + Stoneclaw together, plus Fire Nova on a free GCD (it triggers its own GCD, so not truly simultaneous) [[d:shaman#1438960736440156210]] |
 
 - **Stoneclaw Totem** does not taunt; it pulses about 150 threat every 1.5 s to everything in range, 90% of it credited to you with Totemic Alignment [[d:shaman#1491156093550989312]], [[d:shaman#1491173915328774334]].
 - **Totem of the Tides** (relic from [Stormwrought Ruins](../../instances/stormwrought-ruins.md)): AoE frost damage whenever you're hit with Water Shield up; "undisputed best for aoe", especially with **Sigil of Ancient Accord** [[d:shaman#1486563629800226817]], [[d:shaman#1486563170083668059]]. Sigil procs from its damage [[d:shaman#1473298508504236146]] and made up ~7% of one tank's damage on almost every boss [[d:shaman#1473301013757956140]].

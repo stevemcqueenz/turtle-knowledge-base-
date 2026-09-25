@@ -15,7 +15,7 @@ If you have the crit for Flurry, [2H Fury or Lawnmower](fury.md) does more real 
 | Strengths | No crit gate; "Mortal hits like a truck on ST" [[d:warrior#1486337612930093129]]; relatively better on long fights (Kara40) than on short Naxx fights [[d:warrior#1471390505643544607]] |
 | Weaknesses | "Still feels like it's missing something outside of cleave. And lawnmower is still better at cleave" [[d:warrior#1486336808806649927]]. Deathcute's Execute damage is partly overkill [[d:warrior#1484683789547475084]] |
 
-**Contested: is Arms competitive?** Some players' logs say yes. One Ambershire DW Fury player saw "a large DPS increase" in MC after switching to 31/20 Arms [[d:warrior#1474286981042405529]], and VeganCourage's Arms raidmate "routinely out dps" his 2H Fury on Patchwerk, Thaddius and Loatheb [[d:warrior#1474416275252969701]]. Both reports predate 1.18.1. Since the patch, the consensus is that 2H Fury and Lawnmower are ahead ("Lawnmower and 2h fury are still better than arms") [[d:warrior#1484690162494603314]], [[d:warrior#1485299170024620223]]. At AQ40+ gear, MS Arms and 2H Fury give "very similar results depending on fight length" [[d:warrior#1492942371879391282]].
+**Contested: is Arms competitive?** Some players' logs say yes. One Ambershire DW Fury player saw "a large DPS increase" in MC after switching to 31/20 Arms [[d:warrior#1474286981042405529]], and VeganCourage's Arms raidmate "routinely out dps" his 2H Fury on Patchwerk, Thaddius and Loatheb [[d:warrior#1474416275252969701]]. Both reports predate 1.18.1. Since the patch, the consensus is that 2H Fury and Lawnmower are ahead ("Lawnmower and 2h fury are still better than arms") [[d:warrior#1484690162494603314]], [[d:warrior#1485299170024620223]]. Shardphoenix called the two "very similar results depending on fight length" right before adding that 2H Fury is "a clear winner in PvE at high gear lvl (AQ40+ basically)" [[d:warrior#1492942371879391282]], [[d:warrior#1492942718610178118]].
 
 ## How to play
 
@@ -164,7 +164,7 @@ Arms uses the same two-handers as 2H Fury (see [Fury → Two-handers](fury.md#tw
 
 - **BWL phase:** Untamed Blade over Ashkandi (certain) and probably over BRE; BRE can carry you to Naxx [[d:warrior#1481969895246659655]], [[d:warrior#1481972504670244894]].
 - **Mortal Strike scales with weapon damage.** Choose between a high-weapon-skill slow weapon and a higher-DPS new one by your raid's armor-debuff coverage [[d:warrior#1467556342804775226]], [[d:warrior#1467565147781599295]].
-- **Pre-BiS:** there is no Arms pre-BiS list. Players reuse the Fury list or build their own from the database [[d:warrior#1458552269883707474]].
+- **Pre-BiS:** there is no Arms pre-BiS list; use the database and build your own [[d:warrior#1458552269883707474]].
 - **Sets:** the T3 4-piece (+4% ability crit damage) and the T1 3-piece rage proc help Arms as they help Fury [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071).
 
 Enchants, stones, consumables, macros and addons are the same as for Fury: see [Fury → Enchants](fury.md#enchants) and [Fury → Consumables](fury.md#consumables-and-buffs). One Arms-specific difference: on gloves, many take **+9 Strength**, but Agility stays good for Arms above 34% crit [[d:warrior#1467622383731867730]].

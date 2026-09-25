@@ -131,8 +131,8 @@ Ecly lists the two common hybrid shapes as **30/0/21 (Nature's Swiftness)** or *
 - **Balance:** stack Stamina and armor; do not go full spell power [[d:druid#1433561904009183338]] ([Turboman, 2025-11-22](https://forum.turtlecraft.gg/viewtopic.php?p=160309#p160309)).
 - **Hit:** spell hit cap in PvP is 3% [[d:druid#1482736105634791637]]. The melee PvP hit cap was asked but never answered [[d:druid#1431333626154455193]].
 - **Resilience** is bugged: it reduces only the crit portion of a crit, about half as effective as expected (bug 17804) [[d:pvp-general#1428416707600449596]].
-- **PvP sets:** the 4-piece gives +15% movement speed in Bear, Cat and Travel Form outdoors; ferals rarely give it up [[d:druid#1477449069327810591]], [[d:druid#1487935338197291078]]. The blue and purple sets count as different sets, so 2 + 4 pieces stack both bonuses [[d:druid#1487238825141993564]]. Each tier costs about 30k honor (~9 weeks) and you must own the previous tier [[d:druid#1487252633189355702]]. **Contested:** the druid set has the least Stamina of any class's PvP set (98 vs 147-154) [[d:druid#1485773514278703134]], [[d:druid#1485778490925125751]].
-- **Weapons:** the upgraded "Veteran" PvP weapons sit slightly below Naxx level [[d:druid#1487408630406975539]]. The 4-piece bonus of the Balance and Resto PvP sets is called useless [[d:druid#1488249013403648121]].
+- **PvP sets:** the 4-piece gives +15% movement speed in Bear, Cat and Travel Form outdoors, multiplicatively with other speed bonuses; ferals rarely give it up [[d:druid#1354063077158682704]]. The blue and purple sets count as different sets, so 2 + 4 pieces stack both bonuses [[d:druid#1487238825141993564]]. Each tier costs about 30k honor (~9 weeks) and you must own the previous tier [[d:druid#1487252633189355702]]. **Contested:** the druid set has the least Stamina of any class's PvP set (98 vs 147-154) [[d:druid#1485773514278703134]], [[d:druid#1485778490925125751]].
+- **Weapons:** the upgraded "Veteran" PvP weapons sit slightly below Naxx level [[d:druid#1487408630406975539]]. The 4-piece bonus of the Balance and Resto PvP sets was called as useless as any class has [[d:druid#1487560812422762609]]; it has since been changed to 15% dispel protection [[d:druid#1488249013403648121]].
 - **Professions:** Blacksmithing has a fear-immunity trinket for feral PvP [[d:druid#1487503178571321416]]. Engineering is strong in PvP generally, but grenades and sappers need you out of Cat/Bear Form [[d:druid#1480873418554347611]].
 - **Consumables:** flasks and elixirs stay until you die, even in battlegrounds [[d:druid#1485377497330614374]]. Limited Invulnerability Potion (6 s physical immunity, ~2-minute cooldown) is everywhere against melee [[d:pvp-general#1432945315501183097]].
 - **Stealth detection** (seeing rogues first): Catseye Goggles +18, Catseye Elixir +10, the druid PvP gloves +10 ([Blackduck4, 2025-10-27](https://forum.turtlecraft.gg/viewtopic.php?p=157346#p157346)).
@@ -177,7 +177,7 @@ Keep Moonfire and Insect Swarm up while you out-heal the damage; a standard PvE 
 
 ## Battleground role
 
-- **WSG flag carrier** (feral): Bear or normal Travel Form with the PvP set speed bonus; you cannot carry the flag in Swift Travel Form [[d:druid#1328807349040975996]]. Horde's flag carrier is typically a druid [[d:pvp-general#1433832941389349046]].
+- **WSG flag carrier** (feral): Bear or normal Travel Form with the PvP set speed bonus; you cannot carry the flag in Swift Travel Form [[d:druid#1328807349040975996]].
 - **AB / AV:** defend and spin flags; "could turn the tides at any spot in AV" [[d:druid#1473021122361692334]].
 - **Balance** in team fights, with good positioning, from range [[d:druid#1484894770546348143]].
 

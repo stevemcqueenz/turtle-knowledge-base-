@@ -19,7 +19,7 @@
 
 The level-60 tank loop. The details are in [Single-target rotation](#single-target-rotation-priority-list), [AoE tanking](#aoe-tanking), [Cooldowns](#cooldowns) and [Mana](#mana).
 
-1. **Before the pull:** Righteous Fury (re-apply it after every death), Sanctity Aura (Retribution Aura if another paladin has Sanctity), your blessing, Seal of Righteousness. Mark the skull [[d:paladin#1487898897144877108]], [[d:paladin#1469723489400262698]].
+1. **Before the pull:** Righteous Fury (re-apply it after every death), Sanctity Aura (Retribution Aura if another paladin has Sanctity), your blessing, Seal of Righteousness. Mark the skull [[d:paladin#969264004306464768]] [[d:paladin#1487898897144877108]], [[d:paladin#1469723489400262698]].
 2. **Pull and first GCDs:** pre-cast Holy Shield → run in (pre-cast Consecration where 3+ mobs will meet you) → active spell-power trinket → **Judgement of Righteousness** → **Holy Strike** → re-seal Righteousness [[d:paladin#1479624488675971323]], [[d:paladin#1474054737547497583]], [[d:paladin#1484776924046692372]]. The first Holy Strike is the most important GCD of the fight [[d:paladin#1457409928510701750]].
 3. **Steady threat loop:**
     1. **Holy Strike** the moment it is ready.
@@ -194,7 +194,7 @@ Tanks keep several sets and swap per boss [[d:paladin#1451620232870498354]], [[d
 
 | Set | Pieces | Use |
 |---|---|---|
-| **Threat** | 3 T2.5 + 3 T3.5 | Most bosses and trash. T2.5 is "squishy" with little HP [[d:paladin#1484146949824450641]], [[d:paladin#1481047236501569690]] |
+| **Threat** | 3 T2.5 + 3 T3.5 | Most bosses and trash. T2.5 is "squishy" with little HP [[d:paladin#1480649997195284492]], [[d:paladin#1481047236501569690]] |
 | **Mitigation** | 5 T3.5 + 4 T3 | Hard hitters [[d:paladin#1484146949824450641]] |
 | **Hybrid** | 3 T2.5 + 3 T3.5 + 4 T3 | Grey reached 8,400 HP, 58.4% avoidance (crush-immune with Holy Shield) and 767 SP with Thunderfury, 895 with Desecration, before trinkets. "Basically the same threat as now but with an extra 1400hp and crush immunity" [[d:paladin#1484192158121594982]] |
 
@@ -301,7 +301,7 @@ Grey's main-tank list [[d:paladin#1484202614123008081]]:
 
 ### Necrodin, spellstrike and Shock-prot as they affect tanking
 
-- **Necrodin is not a tank build.** You do not get your pets' threat [[d:paladin#1485123737551507476]]. Some tanks swap to a Vengeprot/Necrodin spec for trash and back to prot for bosses [[d:paladin#1465229551486505157]]. Speed-run guilds avoid mid-raid respecs [[d:paladin#1465230141583261866]].
+- **Necrodin is not a tank build.** You do not get your pets' threat [[d:paladin#1485123737551507476]]. Some tanks swap to a Vengeprot/Necrodin spec for trash and back to prot for bosses [[d:paladin#1465229551486505157]]. Speed-run guilds avoid mid-raid respecs [[d:paladin#1465229792935673877]].
 - **Shock-prot** (Holy/Prot 30/21 or 21/30) works: Holy Shock costs less mana over time than Judgement of Righteousness (485 per 20 s vs 300 per 8 s). Threat per second is a bit lower, you get better burst and utility, and you lose Bulwark [[d:paladin#1489853410055557162]], [[d:paladin#1489854443481600001]], [[d:paladin#1489854065633661161]]. No calculator code was posted.
 
 ## Common mistakes

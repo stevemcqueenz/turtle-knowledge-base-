@@ -125,7 +125,7 @@ Drops Spiritual Guidance and the shield talents for Force of Will plus **Improve
 4. `Psychic Scream` when melee reaches you. Expect trinkets, WotF and Fear Ward. Against a Fury warrior, bait their Berserker Rage (fear/root break, ~30 s cooldown, Battle Stance only) with a Fear, then land an engineering Net right after; Arms warriors lack that break and can be Netted or Feared immediately, but the Fury talent Deathwish reportedly grants fear immunity in any stance [[d:pvp-general#1432168724714229770]], [[d:pvp-general#1432169106680840213]], [[d:pvp-general#1432169367419883642]].
 5. `Silence` aggressive casters such as a frost mage trying to Nova and Arcane Explosion a node [[d:pvp-general#1360941242695028736]].
 
-Blackout is PvP-only, and its 2 s stun is considered "almost useless" [[d:priest#1424674352330444830]]. Pairing a Shadow priest with a destruction warlock gives strong burst [[d:priest#1483903073318469703]]. Some `#pvp-general` posters disputed that Shadow was overpowered at all, since it is "literally locked to a single school of spells unless they drop form" and needs an Affliction-style passive, range-abusing playstyle to be effective [[d:pvp-general#1432881878385557626]], [[d:pvp-general#1432882353730093057]].
+Blackout is PvP-only, and its 2 s stun is considered "almost useless" [[d:priest#1424674352330444830]]. Some `#pvp-general` posters disputed that Shadow was overpowered at all, since it is "literally locked to a single school of spells unless they drop form" and needs an Affliction-style passive, range-abusing playstyle to be effective [[d:pvp-general#1432881878385557626]], [[d:pvp-general#1432882353730093057]].
 
 ## Matchups
 
@@ -176,9 +176,9 @@ From Shadurloc's matchup breakdown ("disc will work the same for most of the mat
 - Holy Fire after a Chastise disorient (the DoT breaks it) [Kobiq, 2024-12-04](https://forum.turtlecraft.gg/viewtopic.php?p=111295#p111295).
 - Wasting fear into a trinket, WotF or Fear Ward. The PvP trinket now removes everything [[d:priest#1440676406890594434]].
 - Stacking PvE tier sets over stamina [Springboards, 2024-07-07](https://forum.turtlecraft.gg/viewtopic.php?p=98805#p98805).
-- Expecting any feedback from Unbreakable Will; it gives no notification when it resists a stun [[d:priest#1470579530178494535]].
+- Expecting any feedback from Unbreakable Will; players have asked whether it gives any notification when it resists a stun and gotten no confirmed answer, so assume it is silent (vanilla baseline).
 
 !!! bug "Mind Vision sniping (fixed)"
-    Mind Vision used to proc the Scythe of Elune weapon effect at extreme range (200+ yd), letting priests kill enemies from far away without engaging. Reported fixed after complaints [[d:pvp-general#1429149774874939574]], [[d:pvp-general#1429166620114419793]].
+    Mind Vision used to proc the Scythe of Elune weapon effect at extreme range (200+ yd), letting priests kill enemies from far away without engaging [[d:pvp-general#1429149774874939574]]. Reported fixed after complaints [[d:pvp-general#1429166620114419793]].
 
 59 twinks: pre-shield and pre-Renew, and "you should only be able to die Vs rogues in a 1vs1" [[d:priest#1481813029527097504]].

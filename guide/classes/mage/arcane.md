@@ -20,7 +20,7 @@ The level-60 decision loop. The details, with sources, are in the sections below
    2. `Arcane Rupture` whenever the debuff is missing. Cancel Missiles for it right after a missile lands.
    3. `Arcane Surge` when it lights up (after a resist) and your total haste is under the [Surge cutoff](#haste-caps-measured).
    4. `Arcane Missiles`.
-3. **During Arcane Power (or any big haste window):** `Arcane Rupture` if the debuff is missing, otherwise `Arcane Missiles`. No Surge and no Presence of Mind in this window [[d:mage#1486059691699343402]].
+3. **During Arcane Power (or any big haste window):** `Arcane Rupture` if the debuff is missing, otherwise `Arcane Missiles`. No Surge and no Presence of Mind in this window [[d:mage#1486059691699343402]], [[d:mage#1445445751722213489]].
 4. **Cooldowns:** `Arcane Power` only at full mana, since it kills you if you run out [[d:mage#1439011377133129900]]. Pop `Mind Quickening Gem` first and Arcane Power near the end of MQG [[d:mage#1484204264791216199]]. Juju Flurry and Potion of Quickness go inside Arcane Power. Full table in [Cooldowns](#cooldowns).
 5. **AoE switch: 3+ targets,** spam max-rank `Arcane Explosion`. Pre-stack Sigil of Ancient Accord with rank-1 Explosion before the pull. Drop an Explosion rank if you pull threat off the tank ([AoE rotation](#aoe-rotation)).
 6. **Mana:** Mage Armor always. Gems, tea and runes between Arcane Power windows. `Evocation` just before a server tick, cancelled after the 4th tick ([Mana](#mana), [[d:mage#1452736983209083033]]).
@@ -28,7 +28,7 @@ The level-60 decision loop. The details, with sources, are in the sections below
 
 ## What 1.18.1 changed for Arcane
 
-- **No Arcane talent changed.** The community summary was "Nothing for mage is changing... Frost is getting better damage, that's all" [[d:mage#1484356989961240717]].
+- **No Arcane talent changed.** The community summary was "Nothing for mage is changing... Frost is getting better damage, that's all" [[d:mage#1484356989961240717]], [[d:mage#1484357049490997268]].
 - **Improved Fire Blast** now cuts Fire Blast's GCD. This is why the raid build puts 3 points there [[d:mage#1486320286940004443]].
 - **Scythe of Elune:** the internal cooldown on its Elune's Wrath proc (about 15 s) is now enforced. Before, Arcane could keep the debuff up almost permanently, so this was "a considerable power loss for arcane" [[d:mage#1487149928877789285]], [[d:mage#1488090233068322956]].
 - **T3.5 "Mirror Magic" 3-piece:** Arcane Explosion, Flamestrike, Cone of Cold, Frost Nova and Blast Wave hits can now "rewind". The bonus is +10% for Arcane spells and +20% for Frost/Fire; Arcane's share was cut from 20% to 10% [[d:mage#1481363007782129816]], [[d:mage#1481380073650262237]].
@@ -66,7 +66,7 @@ Split **43/8/0**, VALID. Codes: `talents.turtlecraft.gg/mage?points=ToFoDIAbZKAo
 
 Why:
 
-- **Arcane Focus 5/5** gives +10% spell hit, so Arcane needs only about 6% from gear to reach the 16% raid cap. Fire and Frost get 6% from talents and need about 10% from gear [[d:mage#1469210115834904714]], [[d:mage#1425934816251220068]].
+- **Arcane Focus 5/5** gives +10% spell hit, so Arcane needs only about 6% from gear to reach the 16% raid cap [[d:mage#1469210115834904714]]. Fire and Frost get 6% from talents and need about 10% from gear [[d:mage#1425934816251220068]].
 - **Arcane Potency** raises your crit bonus from 150% to 200%. Take it before you invest in crit talents, since crit is weak without it [[d:mage#1425888416821809223]].
 - **Accelerated Arcana** is a cast-time reduction, not haste. That is why the Missiles channel floors look odd (2.82 s and 2.35 s, see Caps) [[d:mage#1484613633404305640]]. It also shortens Rupture and Evocation cooldowns [[d:mage#1462477308878393611]].
 - **Resonance Cascade** is capped at 4 duplications. It rolls only once per Arcane Explosion cast, however many targets you hit, and duplicates do not trigger on-hit item effects (dev comment relayed by Pepopo) [[d:mage#1431347127828873318]].
@@ -140,7 +140,7 @@ The cast bar rounds. Nampower's debug log shows the true server channel time (e.
 
 - **3+ targets: spam `Arcane Explosion` (max rank).** "Uptime and trinket usage" are the two pillars of Arcane AoE [[d:mage#1459931392916848844]]. The same raid build does it [[d:mage#1429280359190761542]]. The sources give no clean 2-target threshold (gap); the community sims treat 3 mobs as AoE.
 - **Pre-stack Sigil of Ancient Accord** with rank-1 Arcane Explosion before the pull, then Explosion on the pack. Sigil procs at most once per 2 s internal cooldown, however many mobs you hit [[d:mage#1481285443809968250]], [[d:mage#1481332376515772436]].
-- **Threat:** Arcane Explosion threat can rip off weak tanks. Drop to a lower rank of Explosion, or use BoP, Limited Invulnerability Potion or Eye of Diminution [[d:mage#1488097566582378546]], [[d:mage#1488102164122439780]]. Fetish of the Sand Reaver does not share the active-trinket cooldown, so it pairs with Sigil for big pulls [[d:mage#1466064206678724791]], [[d:mage#1483829710646542336]]. One extra Explosion from threat headroom is worth 3-8k damage per pull [[d:mage#1459930333259501846]].
+- **Threat:** Arcane Explosion threat can rip off weak tanks. Drop to a lower rank of Explosion, or use BoP, Limited Invulnerability Potion or Eye of Diminution [[d:mage#1488097566582378546]], [[d:mage#1488102164122439780]]. Fetish of the Sand Reaver does not share the active-trinket cooldown, so it pairs with Sigil for big pulls [[d:mage#1466062733458800836]], [[d:mage#1483829710646542336]]. One extra Explosion from threat headroom is worth 3-8k damage per pull [[d:mage#1459930333259501846]].
 - **Burst packs:** Goblin Sapper Charge + the Arcane Jewel of Wild Magics + Arcane Explosion can do about 50k damage in one GCD [[d:mage#1438566091365552378]].
 - **Trash gear:** wear 3 Frost/Fire T3.5 plus 3 Arcane T3.5 for two 3-piece bonuses (Mirror Magic rewinds on Arcane Explosion hits) [[d:mage#1481363007782129816]]. Keep a separate AoE set; players run up to 8 saved outfits [[d:mage#1465838748833939622]].
 
@@ -148,7 +148,7 @@ The cast bar rounds. Nampower's debug log shows the true server channel time (e.
 
 | Cooldown | Use |
 |---|---|
-| **Arcane Power** (+30% cast speed, drains 1% max mana per second, 20 s, cannot be cancelled, kills you below 10% mana — [Torta (staff), 2025-03-30](https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504)) | Pop only at full mana ("Pop it at full mana only and you got no problems") [[d:mage#1439011377133129900]]. In weak gear "you will die everytime you press the button"; a +1 s Missiles belt helps [[d:mage#1424365209660686447]], [[d:mage#1424365348836212796]]. Players still die with seconds left when they recast aggressively [[d:mage#1479235845629153411]] |
+| **Arcane Power** (+30% cast speed, drains 1% max mana per second, 20 s, cannot be cancelled, kills you below 10% mana — [Torta (staff), 2025-03-30](https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504)) | Pop only at full mana ("Pop it at full mana only and you got no problems") [[d:mage#1439011377133129900]]. In weak gear "you will die everytime you press the button"; a +1 s Missiles belt helps [[d:mage#1424365209660686447]], [[d:mage#1424365348836212796]]. Players still die with seconds left when they recast aggressively [[d:mage#1479233016302669977]] |
 | **Mind Quickening Gem → Arcane Power** | Pop MQG first and Arcane Power near the end of MQG. AP snapshots MQG's haste, and haste shortens AP's cooldown, so you may get a second AP later [[d:mage#1484204264791216199]], [[d:mage#1484207112706986094]]. With low gear haste (~7%), popping both together is fine [[d:mage#1484233383541477518]]. Stack every cooldown together only on fights under ~30 s [[d:mage#1457546495405326430]] |
 | **Juju Flurry / Potion of Quickness** | Use them during Arcane Power: haste multiplies, so it is always more DPS unless you are already at a hard cap [[d:mage#1472006152014270646]], [[d:mage#1472016248442196123]]. Rough limits: Juju up to ~12% gear haste, Quickness up to ~10%, both together up to ~7% [[d:mage#1457504190761930835]] |
 | **Presence of Mind** | Instant Arcane Rupture [[d:mage#1460643726241042527]]. Cast it on its own; macroed together with another spell it often fails to grant the free cast [[d:mage#1479120357645619211]] |
@@ -172,7 +172,7 @@ The cast bar rounds. Nampower's debug log shows the true server channel time (e.
 Shared's fresh-60 path [[d:mage#1490969006855688223]]:
 
 - Crafted **Spellwoven Nobility Drape** (Tailoring). Its on-crit proc (~50% uptime, +1.25% crit and 11 SP while up) makes it Arcane's cloak until Naxx [[d:mage#1490791627307090022]]. Once you have the Sapphiron cloak it loses on bosses, but it stays AoE BiS forever [[d:mage#1466813574784483431]], [[d:mage#1470023660973592617]]. Wearing it during Arcane Power is a small death risk, because the Intellect proc raises your max mana [[d:mage#1430718345619046401]].
-- **Gloves of Spell Mastery** (Tailoring: 10 Mooncloth + 6 Golden Pearl) replace Gloves of Unwinding Mystery. The latter's 22 → 9 SP nerf eventually applied [[d:mage#1484608704958431252]], [[d:mage#1431234432450433135]].
+- **Gloves of Spell Mastery** (Tailoring: 10 Mooncloth + 6 Golden Pearl) replace Gloves of Unwinding Mystery. The latter's 22 → 9 SP nerf eventually applied [[d:mage#1484607250906747043]], [[d:mage#1431234432450433135]].
 - Stormwind Vault quest ring (1% hit + SP, Alliance) [[d:mage#1430916081140109383]]. The LBRS/UBRS attunement trinket (2% crit). The Karazhan Crypt key-quest trinket. The **Black Morass** reputation grind for early gear and a 20-slot bag [[d:mage#1490969006855688223]].
 - **Belt is the most important slot:** **Overcharged Belt** (Black Morass drop, BoE, +1 s Arcane Missiles) until the Tier 2/3 Arcane belt [[d:mage#1425439884348493937]], [[d:mage#1439017488699363379]].
 - Offhand from the Hyjal questline (also a teleport item) [[d:mage#1425428764132638780]]. **Ring of Blackrock** now has 1% haste instead of 9 MP5 [[d:mage#1472664725212102891]].
@@ -192,7 +192,7 @@ Shared's fresh-60 path [[d:mage#1490969006855688223]]:
 
 Set notes:
 
-- **T3 8-piece** ("direct damaging Arcane spells") affects only Rupture and Surge, not Missiles [[d:mage#1484609770936729720]].
+- **T3 8-piece** ("direct damaging Arcane spells") likely affects only Rupture and Surge, not Missiles [[d:mage#1484609770936729720]], [[d:mage#1484697825676754974]].
 - **T3.5 Arcane 3-piece** (Improved Presence of Mind) sims at about +3% DPS (~60 SP single target, ~180 SP multi-target) [[d:mage#1479126581791293564]]. The 5-piece is weak and buggy, with a ~500 ms delay [[d:mage#1478838265179148512]], [[d:mage#1474801846119043146]].
 - **T2.5 5-piece** (+10% damage after a full Evocation) is not worth breaking T2 5-piece [[d:mage#1451230302298046524]].
 - **Ring of Burning Talons** (new Onyxia ring) is in practice an Arcane single-target ring. It scales 0.22 × SP, and its AoE is tiny [[d:mage#1486492893605789746]], [[d:mage#1488765322541666364]].
@@ -208,7 +208,7 @@ Set notes:
 
 - **By fight length** (sim): at 2 min, MQG/Tear (1215 DPS); at 3 min+, Sigil/Gulch (1221 DPS). "For BWL, all fights except Raz and Nef would benefit from MQG/Tear" [[d:mage#1487093045777268797]].
 - **MQG** is BiS until Kara40 and still used there whenever it is up [[d:mage#1484475554769141811]]. Its value falls on long fights because of its ~5 min cooldown [[d:mage#1430768339420184646]].
-- **Gulch** needs about a minute to stack. Avoid it on Thaddius, where forced downtime wastes it [[d:mage#1487110868994097222]], [[d:mage#1483954011119026228]].
+- **Gulch** needs about a minute to stack. Avoid it on Thaddius, where forced downtime wastes it [[d:mage#1483950782603726898]], [[d:mage#1483954011119026228]].
 - **On-use trinkets share a cooldown pool.** Passive trinkets (Fetish of the Sand Reaver, Eye of Diminution) do not [[d:mage#1483841497789894828]], [[d:mage#1483829710646542336]].
 - **Remains of Overwhelming Power** gives +55, not the +45 its tooltip shows [[d:mage#1437448728985469029]]. **Mar'kali, the Midnight Star** (rep trinket) is weak: about a third of Sigil's damage [[d:mage#1488713827934539847]].
 
@@ -235,7 +235,7 @@ Skip spell-penetration head/leg enchants in PvE [[d:mage#1445153386206068898]].
 - **Stacking rule:** one flask + one food + one drink + all elixirs + one oil + one Zanza [[d:mage#1452290109851570352]]. A dummy test confirmed that Dreamshard Elixir, Elixir of Greater Arcane Power and Greater Arcane Elixir all stack [[d:mage#1438587467136761897]]. Elixir of the Sages does **not** stack with Arcane Intellect; the Blasted Lands Intellect buff does [[d:mage#1482399206202277909]].
 - **Food:** Tel'Abim Delight (SP) is cheaper and better at low SP. Medley (haste) wins at roughly 300-500+ buffed SP with hit capped, so use Delight on trash and Medley on bosses [[d:mage#1438496524815568987]]. **Contested:** Luden TA's math says 22 SP beats ~2% haste except at breakpoints [[d:mage#1464385661678391366]], [[d:mage#1464385892960567430]]. Haste food is 2%, not the 3% old databases show; Potion of Quickness is 5% [[d:mage#1457742414260469862]], [[d:mage#1457731688846331925]].
 - Brilliant Wizard Oil and Greater Arcane Elixir now drop from weekly reward boxes and are cheaper [[d:mage#1446180078286536804]], [[d:mage#1446180494420087026]]. Dreamtonic now persists through death [[d:mage#1435777760722288804]].
-- Classic-style world-buff stacking is largely absent from Turtle raids [[d:mage#1433636228544331796]].
+- Classic-style world-buff stacking is largely absent from Turtle raids [[d:mage#1433636228544331796]], [[d:mage#1433636447973408778]].
 - Engineering is optional, but Sappers add real AoE damage [[d:mage#1438550709686501427]].
 
 ## Macros and addons
@@ -250,12 +250,12 @@ Skip spell-penetration head/leg enchants in PvE [[d:mage#1445153386206068898]].
 - **HasteDisplay** (`github.com/Timanaku/HasteDisplay`) shows whether a haste consumable would overshoot the caps [[d:mage#1457729034229256347]]. A patched **Quartz** (`github.com/Timanaku/Quartz`) shows haste-correct cast times [[d:mage#1468740058482868436]].
 - **Decurse:** Decursive, or Rinse (`github.com/Otari98/Rinse`) [[d:mage#1492137212597370910]], [[d:mage#1492146425570525365]].
 - **Known issues:** addons that inspect players (e.g. HonorSpy) silently change your server-side target, which causes "target not in front / ability not ready" Missiles failures [[d:mage#1441884263044747445]], [[d:mage#1488286070360641546]]. pfUI 8.3.0 broke the Missiles castbar; roll back to an earlier fork [[d:mage#1487505813604929698]].
-- **Sims and planners:** pepopo978/wowsim and pbrigade.gitlab.io/gear-planner. The planner does not value on-use trinkets [[d:mage#1463962237361324136]], [[d:mage#1459908471028842668]].
+- **Sims and planners:** pepopo978/wowsim and pbrigade.gitlab.io/gear-planner [[d:mage#1463962237361324136]]. The planner does not value on-use trinkets [[d:mage#1459908471028842668]].
 
 ## Raid notes
 
 - **Kara40 ([Tower of Karazhan](../../instances/tower-of-karazhan.md)):** Anomalus and the trash between the 2nd and 3rd bosses are arcane-immune, so raids swap Arcane mages to Fire (or Frost) for that stretch and often stay Fire for Medivh [[d:mage#1454543299540025457]], [[d:mage#1433242094159527936]]. Many guilds want 200 unbuffed arcane resistance for Kara40 [[d:mage#1482669809807396974]]. On **Gnarlmoon**, mages take the blue side for the raven AoE (for example 2 boomkins red, 5-6 mages blue) [[d:mage#1428812263862698145]]. Sigil is best for padding there; one raider runs REoS + the Anomalus trinket on the blue side and Sigil + REoS on the raven side, and Eye of Diminution or Jewel of Wild Magics can replace Mark of the Champion [[d:mage#1445609429209972909]], [[d:mage#1445602953036693667]]. On **Chess**, pre-proc Sigil before the event [[d:mage#1484175858213326868]]. On **Kruul**, casters carry the damage past 25% [[d:mage#1459267767692820635]].
-- **Naxx:** Razuvious's shout is physical; a Limited Invulnerability Potion or BoP skips it [[d:mage#1438184920962043904]], [[d:mage#1438207808469209088]]. On **Faerlina**, pre-pop Greater Fire Protection Potion and Fire Ward. On **Maexxna** and **Gluth**, AoE the adds for parse [[d:mage#1438174915672150056]]. On **Four Horsemen** (long fight), REoS can be used twice [[d:mage#1457492358173167616]]. In speed clears, a mage combo of LIP + ZG gem + Arcane Explosion + Sapper can do about 100k in one global [[d:mage#1475630831304445984]]. Pre-Anomalus-style bomb debuffs: dispel Unstabilized Mana and Mana Buildup, but **not** Unstable Mana [[d:mage#1475612903473414368]], [[d:mage#1475624746149482586]].
+- **Naxx:** Razuvious's shout is physical; a Limited Invulnerability Potion or BoP skips it [[d:mage#1438184920962043904]], [[d:mage#1438207808469209088]]. On **Faerlina**, pre-pop Greater Fire Protection Potion and Fire Ward. On **Maexxna** and **Gluth**, AoE the adds for parse [[d:mage#1438174915672150056]]. On **Four Horsemen** (long fight), REoS can be used twice [[d:mage#1459939111707349266]]. In speed clears, a mage combo of LIP + ZG gem + Arcane Explosion + Sapper can do about 100k in one global [[d:mage#1475630831304445984]]. Pre-Anomalus-style bomb debuffs: dispel Unstabilized Mana and Mana Buildup, but **not** Unstable Mana [[d:mage#1475612903473414368]], [[d:mage#1475624746149482586]].
 - **AQ20:** bosses resist a lot (115-155 resistance), so Moam partially resists nearly everything [[d:mage#1450488624125837452]].
 - **[Molten Core](../../instances/molten-core.md):** Shazzrah's Counterspell hits you even when he faces away [[d:mage#1461719788773572820]].
 - **[Blackwing Lair](../../instances/blackwing-lair.md):** Firemaw wants some fire resistance mixed with spell damage [[d:mage#1461470297008898151]]. On Nefarian, Ice Block while he casts the class call, not after; Blink does not break the shackle [[d:mage#1494656562172526847]]. Detect Magic shows dragon vulnerabilities [[d:mage#1488164422840221836]]. Blink was reported broken in the new BWL boss room [[d:mage#1490038152881115247]].
@@ -268,7 +268,7 @@ Mage "tanking" is a Turtle niche, never a raid-boss role except for one case: **
 - **Spec:** you must be Arcane, because Improved Arcane Missiles removes pushback. Respec out of Arcane's threat reduction; with it you cannot out-threat the raid, even without Salvation [[d:mage#1442604213749416036]]. Tank spec = "basically arcane just without the threat reduce (and no AP)" [[d:mage#1480932674142077039]].
 - **Shadow resistance:** stack shadow resistance gear. A Priest's Shadow Protection and Mark of the Wild are needed to break the 335 breakpoint. Fully buffed you have almost 6k HP [[d:mage#1447836216199483434]], [[d:mage#1447836475604467813]]. Anima's gear set: Netherwind Crown, Eidolon Talisman, Arcanist Mantle, Cloak of Untold Secrets, Runed Stygian Belt/Leggings/Boots, 2× Ring of the Elder Warden, Grimoire of Grells + Neltharion's Tear, Brimstone Staff (6,180 unbuffed HP) [[d:mage#1456832657047687359]].
 - **Dampen Magic** on yourself is the one PvE use of Dampen [[d:mage#1379135561188638841]].
-- **Dungeon tanking** (novelty): aim for ~4,600 HP, know the pulls, and skip Vampirism gear if you have a healer [[d:mage#1469445816132305144]], [[d:mage#1434374123764580603]]. ZeroRanger's kit: stamina first, Ice Barrier + Burrower's Shell (~1,800 effective HP), Lesser Invisibility and Fire/Frost Protection potions [[d:mage#1443294606681833472]], [[d:mage#1436832251165020293]]. Boss pull: `Fireball` → `Fire Blast` → `Counterspell` → `Frost Nova` → Flash-Freeze `Icicles` [[d:mage#1436829216975884409]].
+- **Dungeon tanking** (novelty): aim for ~4,600 HP, know the pulls, and skip Vampirism gear if you have a healer [[d:mage#1469445816132305144]], [[d:mage#1434374123764580603]]. ZeroRanger's kit: stamina first, Ice Barrier + Burrower's Shell (~1,800 effective HP), Lesser Invisibility and Fire/Frost Protection potions [[d:mage#1443294606681833472]], [[d:mage#1443294717298217155]], [[d:mage#1436832251165020293]]. Boss pull: `Fireball` → `Fire Blast` → `Counterspell` → `Frost Nova` → Flash-Freeze `Icicles` [[d:mage#1436829216975884409]].
 - **Gap:** no full mage-tank guide was ever published (one was promised) [[d:mage#1481493568978944070]].
 
 ## Common mistakes

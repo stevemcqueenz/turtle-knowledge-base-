@@ -78,7 +78,7 @@ Split **0/17/34**, validated with `talent_tool.py` (VALID). Calculator codes:
 - **Demonic Aegis 3/3** raises Demon Armor, which also gives shadow resistance [[d:warlock#1413054952183693343]]. After you add points, click Demon Armor off and recast it, or you keep the old values [[d:warlock#1407105337042931794]].
 - **Intensity** for pushback protection on fire spells.
 
-**Variant — keep the Felhunter out:** if your resistance gear is short, run a Felhunter for its 60 shadow resistance and hide it somewhere safe [[d:warlock#1429150214811549817]]. Take **Soul Funnel 2/2** to heal it between teleports, because bolt splash can kill it and Fel Domination is only available every 5 minutes [[d:warlock#1475214088144552226]]. Sehnsucht noted that the Felhunter "only serves that one purpose" [[d:warlock#1429003738449969214]].
+**Variant — keep the Felhunter out:** if your resistance gear is short, run a Felhunter for its 60 shadow resistance and hide it somewhere safe [[d:warlock#1429150214811549817]]. Take **Soul Funnel 2/2** to heal it between teleports, because bolt splash can kill it and Fel Domination is only available every 5 minutes [[d:warlock#1475214088144552226]]. Sehnsucht noted that the Felhunter "only serves that one purpose" [[d:warlock#1429003528080326717]].
 
 **Variant — stay Affliction:** Tapka does not respec. About 10 s before a teleport, walk over and put DoTs on the boss, walk back, and Dark Harvest as soon as he teleports to you [[d:warlock#1483870059373002863]]. Save Dark Harvest for each teleport [[d:warlock#1483899063752724540]].
 

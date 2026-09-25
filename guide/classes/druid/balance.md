@@ -25,7 +25,7 @@ The level-60 loop; details and sources in the sections linked. For leveling, see
 
 | Change | Detail | Effect |
 |---|---|---|
-| **Balance of All Things** | 5 → 3 points. Wrath on a target with **your Insect Swarm** refunds 10/20/30% of its mana; Starfire gets **+3/6/9% crit** against a target with **your Moonfire** ([Jamey, 2026-01-23 / 01-26](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)) | The old Boon buffs, which cut Starfire's cast time and stayed on you after the DoTs fell off, are gone, so Starfire casts are longer [[d:druid#1469037279774380043]], [[d:druid#1484587743546708020]]. The DoT must be on the **exact target** you nuke; banking the buff off another mob no longer works [[d:druid#1485023364883022046]] |
+| **Balance of All Things** | 5 → 3 points. Wrath on a target with **your Insect Swarm** refunds 10/20/30% of its mana; Starfire gets **+3/6/9% crit** against a target with **your Moonfire** ([Jamey, 2026-01-23 / 01-26](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)) | The old Boon buffs, which cut Starfire's cast time and stayed on you after the DoTs fell off, are gone, so Starfire casts are longer [[d:druid#1483078458333728810]], [[d:druid#1484587743546708020]]. The DoT must be on the **exact target** you nuke; banking the buff off another mob no longer works [[d:druid#1485023364883022046]] |
 | **Eclipse** | Wrath's chance to proc 30% → **40%**, Starfire's 50% → **60%** ([Jamey, 2026-03-19](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)) | "Proc rates feel great" [[d:druid#1492151406159859824]] |
 | **Moonfury / Wrath** | Moonfury to 4/8/12%; Wrath and Moonfury buffed ~10% "because there is no nature curse" [[d:druid#1479729856664047636]] | A small damage gain |
 | **New idols** | Idol of Equilibrium (new Onyxia boss) and Idol of Acidity (new BWL boss) | Both lose to Ebb and Flow (see Idols) [[d:druid#1484624819277529098]] |
@@ -84,8 +84,8 @@ Why:
    - **Contested: how close to cap.** "12 total is reasonable, 16 total is ideal" [[d:druid#1488036287507337326]]; most Naxx-geared boomkins sit near 13% because that is "all the setup can get" [[d:druid#1491496511215767809]]. Sims sometimes show dropping ~3% hit for crit as a small gain, but Hotverdomme-Nord keeps hit for consistency [[d:druid#1482886520363815117]].
 2. **Spell power.** Arcane still out-damages Nature overall on bosses, so arcane-only spell power beats nature-only [[d:druid#1489681602354348253]].
 3. **Crit.** Eclipse's bonus scales with your crit chance ("10% plus 60% of your spell crit") [[d:druid#1403828822347878630]]. **Contested:** after the Eclipse rework crit no longer triggers Eclipse, so the sims value it lower; Micro Jackson argues it is still undervalued [[d:druid#1445538911156961391]], [[d:druid#1445537355501928548]].
-4. **Haste** only at breakpoints. You need 8% haste to bring Starfire from 2.6 s to the 2.5 s breakpoint; anything between is wasted [[d:druid#1486871668566790354]], [[d:druid#1486872217001394266]]. About 1% haste ≈ 11 spell power at those breakpoints [[d:druid#1487040847919710208]]. Krokat's best haste configuration gained only ~10 DPS [[d:druid#1487045127015891014]]. Hurricane does not scale with haste [[d:druid#1441149766040813670]].
-5. **Intellect and MP5** come last: take spell power and fix mana by downranking [[d:druid#1472451410561073319]].
+4. **Haste** only at breakpoints. You need 8% haste to bring Starfire from 2.6 s to the 2.5 s breakpoint; anything between is wasted [[d:druid#1486871668566790354]], [[d:druid#1486872217001394266]]. About 1% haste ≈ 11 spell power at those breakpoints [[d:druid#1487040847919710208]]. Krokat's best haste configuration gained only ~10 DPS [[d:druid#1487043324874457228]]. Hurricane does not scale with haste [[d:druid#1441149766040813670]].
+5. **Intellect and MP5** come last: take spell power and fix mana by downranking [[d:druid#1493694492933492818]].
 
 One sim's weights (spell power = 1): Arcane SP 0.53, Nature SP 0.47, Hit% 21.45, Crit% 17.52, Haste% 12.81, Spell penetration 1.56 [[d:druid#1448306290878316658]]. Haste has no fixed value; run Krokat's sim (`krokats.github.io/Boomkin-sim`) or Kangaraxxus's calculator with your own gear [[d:druid#1491307643262734368]], [[d:druid#1485201974671442141]].
 
@@ -118,7 +118,7 @@ Priority (bot-ready):
 | 3-4+ | **Hurricane** (Breaddy: 3+; Yoshi on trash: 4+). Pre-cast Starfire to fish a Nature Eclipse, then channel [[d:druid#1456765270025834648]], [[d:druid#1493633929742123009]], [[d:druid#1490106129429303368]] |
 
 - Do not DoT more than 2-3 mobs before pressing Hurricane [[d:druid#1490102607778287646]].
-- **T3.5 3-piece:** a second Hurricane cloud at +50% that keeps ticking after you stop channeling. It counts only Hurricane's base damage (~40% of what the tooltip suggests), ruled working as intended [[d:druid#1443219706885439538]], [[d:druid#1486337529870286989]]. With 2+ targets and spare mana, one Hurricane tick to start the free cloud can beat a Wrath [[d:druid#1490107846971363529]]. Without the set, boomkin AoE is "average at best" [[d:druid#1491444529490956330]].
+- **T3.5 3-piece:** a second Hurricane cloud at +50% that keeps ticking after you stop channeling. It counts only Hurricane's base damage without talents (~40% of what the tooltip suggests instead of 50%), ruled working as intended [[d:druid#1487511320126427146]], [[d:druid#1486337529870286989]]. With 2+ targets and spare mana, one Hurricane tick to start the free cloud can beat a Wrath [[d:druid#1490107846971363529]]. Without the set, boomkin AoE is "average at best" [[d:druid#1491444529490956330]].
 - An interrupted or cancelled Hurricane still goes on its 10 s cooldown, which hurts on Emerald Sanctum's sleep-and-dispel trash [[d:druid#1482975539810533446]], [[d:druid#1481829573137141878]].
 - Barkskin before Hurricane only adds survivability; it does not change the channel [[d:druid#1441150267222659123]].
 
@@ -138,19 +138,19 @@ Priority (bot-ready):
 
 - No official pre-raid list exists; build one in the gear planner with spell power > hit (to cap) > crit > Intellect [[d:druid#1446317623544381602]].
 - A pre-1.18.1 list (Verdict): Diana's Pearl Necklace, Dreamwind Spaulders (Hyjal quest), Runic Leather Armor and Pants, T1 belt/bracers, Gloves of Spell Mastery (Tailoring, good until AQ40), the Stormwind Vault quest ring (1% hit), the Scholomance last-boss ring, Orb of Kaladoon (Karazhan Crypt quest) [[d:druid#1317869755134251009]].
-- Keep the **T1 3-piece** until AQ-tier gear; the T2 set bonus is weak [[d:druid#1428584199098597426]], [[d:druid#1483554313375842325]]. ZG is not worth grinding for a boomkin [[d:druid#1456277791594119239]].
+- Keep the **T1 3-piece** until AQ-tier gear; the T2 set bonus is weak [[d:druid#1428584199098597426]], [[d:druid#1483554313375842325]]. ZG's boomkin-specific rewards (the exalted neck, the Balance enchant) are weak [[d:druid#1310564218906349649]], [[d:druid#1379983550950019178]].
 - Boomkins do poorly in T1-T2 gear and "come online" around AQ40 [[d:druid#1344008348697100379]], [[d:druid#1494741707944628325]].
 
 ### Naxx and Kara40
 
 - **Pre-Kara40 BiS:** 8/8 T3 plus one strong off-piece. Best off-pieces: Ysgholar, then Polarity Leggings; Sapphiron's cloak beats the Veil [[d:druid#1441203575563747481]]. Others: Dark Storm Gauntlets, Eye Stalk, Arcane Accuracy Bracers, Gothik bracers, Rime-covered boots [[d:druid#1441208708200661145]].
-- **Naxx:** Soulseeker, Gem of Trapped Innocents, the T3 ring and Seal of the Damned; Pendant of the Faceless on non-undead bosses [[d:druid#1463636697358143757]].
+- **Naxx:** Soulseeker, Gem of Trapped Innocents, the T3 ring and Seal of the Damned; Pendant of the Faceless on non-undead bosses [[d:druid#1463638068010553417]], [[d:druid#1463638654814519346]], [[d:druid#1463639678027698358]].
 - **Kara40:** you get T3.5 faster than a full 8/8 T3, so prioritise the T3.5 pieces and key off-pieces (Sapphiron trinket, Seal of the Damned) over forcing 8/8 T3 [[d:druid#1445100361856585922]]. Khadgar's Guidance is the BiS ring; the Warlord/Marshal PvP gloves are next-best for PvE [[d:druid#1487381311176970241]].
 
 ### Trinkets
 
-- **Scythe of Elune** (legendary): +40 spell power, 4% stats, a damage proc with a ~5-8% vulnerability debuff and a summon, "300%+ better than the second runner up" [[d:druid#1467953501370978476]]. It takes a Father Lycan world-boss kill with a 2% drop plus a rare recipe, and it can take a boomkin from 12th to 4th in a raid [[d:druid#1469095000045523024]], [[d:druid#1447641968682209373]].
-- Otherwise: **Talisman of Ephemeral Power** and **Zandalarian Hero Charm** [[d:druid#1487159142929010870]]; **Neltharion's Tear** for hit unless you have Scythe [[d:druid#1470086019675062347]]; Eye of Diminution when threat is tight; the Sapphiron trinket on long fights; undead/demon trinkets against those types [[d:druid#1470109163978887271]]. **Contested:** whether ToEP and ZHC share a cooldown [[d:druid#1493627753394606171]].
+- **Scythe of Elune** (legendary): +40 spell power, 4% stats, a damage proc with a ~5-8% vulnerability debuff and a summon, "300%+ better than the second runner up" [[d:druid#1467953501370978476]]. It takes a Father Lycan world-boss kill with a 2% drop plus a rare recipe, and it can take a boomkin from 12th to 4th in a raid [[d:druid#1467953612117381304]], [[d:druid#1447641968682209373]].
+- Otherwise: **Talisman of Ephemeral Power** and **Zandalarian Hero Charm** [[d:druid#1487158968160616540]]; **Neltharion's Tear** for hit unless you have Scythe [[d:druid#1470086019675062347]]; Eye of Diminution when threat is tight; the Sapphiron trinket on long fights; undead/demon trinkets against those types [[d:druid#1470109163978887271]]. **Contested:** whether ToEP and ZHC share a cooldown [[d:druid#1493627753394606171]].
 - Heart of Decay is weak single-target but procs twice per Hurricane on 6-7 mobs; static spell-power trinkets beat it [[d:druid#1493823950516654120]], [[d:druid#1493986656921976903]].
 
 ### Idols
@@ -183,7 +183,7 @@ Ebb and Flow stays BiS [[d:druid#1485545251094659112]], [[d:druid#14774922133604
 
 ## Consumables
 
-- **Elixirs that stack together:** Elixir of Greater Nature Power, Dreamshard Elixir, Greater Arcane Elixir, Elixir of Greater Arcane Power, Dreamtonic [[d:druid#1426348084497092618]]. Elixir of Greater Intellect does not stack with a mage's Intellect buff [[d:druid#1494287065821741076]].
+- **Elixirs that stack together:** Elixir of Greater Nature Power, Dreamshard Elixir, Greater Arcane Elixir, Elixir of Greater Arcane Power, Dreamtonic [[d:druid#1426348084497092618]], [[d:druid#1426348385257918494]]. Elixir of Greater Intellect does not stack with a mage's Intellect buff [[d:druid#1494287065821741076]].
 - **Mana:** Nordanaar Herbal Tea, Major Mana Potion, Mageblood Potion [[d:druid#1482409277535682570]]; Dark Rune [[d:druid#1317490212661760002]].
 - **Weapon:** Brilliant Wizard Oil.
 - **Haste:** Juju Flurry + Quickness Potion (≈5-8%) reach the 2.5 s Starfire breakpoint [[d:druid#1486872217001394266]].
@@ -192,9 +192,9 @@ Ebb and Flow stays BiS [[d:druid#1485545251094659112]], [[d:druid#14774922133604
 
 ## Macros and addons
 
-- **EclipseMonitor** or **MPOWA** track Eclipse from the target debuff, so they keep working past the buff cap [[d:druid#1489014643375603753]]. **DoiteAuras** has Eclipse setups [[d:druid#1473567912068645016]]. **Cursive** tracks your DoTs [[d:druid#1440573427277631562]].
+- **MPOWA** tracks Eclipse from the target debuff, so it keeps working past the buff cap [[d:druid#1489021367839100928]]; Micro Jackson says nothing, including **EclipseMonitor**, works above the buff cap [[d:druid#1489014643375603753]], [[d:druid#1489015005004435456]]. **DoiteAuras** has Eclipse setups too [[d:druid#1473567912068645016]]. **Cursive** tracks your DoTs [[d:druid#1440573427277631562]].
 - After a respec two Moonkin Forms can sit on your bars; the 180% armor version is wrong. Use a `[nomybuff]` Moonkin Form macro or `/pfcast Moonkin Form`, which picks the highest rank [[d:druid#1491742529723437187]], [[d:druid#1491763399338623049]].
-- No reliable one-click Eclipse-swap macro exists on this client [[d:druid#1473382288946499827]].
+- No reliable one-click Eclipse-swap macro exists on this client: modern conditional macros used on later clients don't work here, you need 1.12-style macros [[d:druid#1482223748907139353]].
 - Guides: Breaddy's pinned boomkin guide (`rentry.co/wrrsu8su`) [[d:druid#1453041794765033634]].
 
 ## Raid notes

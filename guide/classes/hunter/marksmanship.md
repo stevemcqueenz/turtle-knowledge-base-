@@ -8,7 +8,7 @@
 | Viability (1.18.1) | **A (raid).** Rotation is now proc-driven, and a good MM sims about equal to Survival on single target [[d:hunter#1491704423427342497]]. Overall raid consensus puts it slightly behind Survival and close to BM, mainly because Lock and Load and the ammunition procs are clunky [[d:hunter#1489032257317507102]]. Parses swing on Lock and Load luck: "MM is just a slot machine" [[d:hunter#1486124588764237894]], [[d:hunter#1491122275997585498]]. |
 | Difficulty | High. Two RNG systems (Lock and Load and the Experimental Ammunition cycle) plus auto-shot weaving [[d:hunter#1484603658191638698]], [[d:hunter#1485091689566568621]] |
 | Strengths | Ranged safety on mechanics-heavy fights; pierce-line Aimed Shot and Volley on packs [[d:hunter#1491704423427342497]], [[d:hunter#1486284331247996989]]; real burst in PvP [[d:hunter#1485349629468999740]] |
-| Weaknesses | Weak for a fresh 60 with low crit, because Lock and Load only triggers on crits [[d:hunter#1485396418599587942]]; tighter mana than before the patch [[d:hunter#1484987332020142081]]; the dead zone |
+| Weaknesses | Weak for a fresh 60 with low crit, because Lock and Load only triggers on crits [[d:hunter#1485396418599587942]]; tighter mana than before the patch [[d:hunter#1484987246099566732]], [[d:hunter#1484987332020142081]]; the dead zone |
 
 Before 1.18.1, MM was "auto → Steady → Multi → auto" with Aimed Shot unused. Guides that tell you to skip Aimed Shot, or that talent Steady Shot or Trueshot Aura, are out of date. Both are baseline now [[d:hunter#1488874340295643166]], [[d:hunter#1487446185630371870]].
 
@@ -103,7 +103,7 @@ Why these points:
 
 Sim-derived weights in Naxx gear (Sofie, using Vellasta's simulator; your gear changes them): Agility 3.35, Crit 47.88, Haste 15.88, Ranged AP 1.00, ranged weapon DPS 13.59, Spell Power 0.43, Armor Pen 0.59, Hit 0 (already capped) [[d:hunter#1494829518886801519]].
 
-Ranged weapon speed: about **3.3** is optimal. It leaves room to weave Arcane Shot without clipping under full haste [[d:hunter#1492170200219652260]]. Steady Shot is normalized to a 2.8 speed, so weapon speed changes timing rather than Steady damage [[d:hunter#1489558856739586161]].
+Ranged weapon speed: about **3.3** is optimal [[d:hunter#1492170200219652260]]. It leaves room to weave Arcane Shot without clipping under full haste [[d:hunter#1492170477567868991]]. Steady Shot is normalized to a 2.8 speed, so weapon speed changes timing rather than Steady damage [[d:hunter#1489558856739586161]].
 
 ## Single-target rotation
 
@@ -158,7 +158,7 @@ During Rapid Fire + Quick Shots, the window between autos shrinks to about 1 s [
 ## Resource and threat management
 
 - **Mana is tight until 6 pieces of T3.** Flask of Wisdom is your best friend until then [[d:hunter#1485585355523624971]]. Fully raid-buffed MM does not go OOM with a paladin seal, Mageblood and Mana Oil [[d:hunter#1485957589316669572]].
-- **Aspect of the Viper** (level 56, 5% max mana per 5 s) [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071). The standard is "start with Hawk until low mana and pop Viper until the end of the fight" [[d:hunter#1478128745838674021]]. Viper's mana ticks generate threat, like all mana gain [[d:hunter#1491714117369724928]], [[d:hunter#1491728542373773362]].
+- **Aspect of the Viper** (level 56, 5% max mana per 5 s) [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071). The standard is "start with Hawk until low mana and pop Viper until the end of the fight" [[d:hunter#1478128745838674021]]. Viper's mana ticks generate threat, like all mana gain [[d:hunter#1491713716662833253]], [[d:hunter#1491728542373773362]].
 - Double **Brilliant Mana Oil** on two one-handers, plus Mageblood and Blessing of Wisdom, lets you skip Viper and keep Hawk up [[d:hunter#1494657155985444864]], [[d:hunter#1494658499815149579]].
 - On a target dummy you go OOM in about 1 minute, versus 1.5–2 minutes before the patch [[d:hunter#1484987246099566732]].
 
@@ -251,7 +251,7 @@ A Raptor is the standard MM raid pet (Savage Rend, high family modifier) [[d:hun
 ## Macros and addons
 
 - **ProcDoc** (MM fork, shows Lock and Load and the current ammunition): `github.com/thezephyrsong/ProcDoc` [[d:hunter#1484799468959436950]], [[d:hunter#1486681226126430328]].
-- **MetaHunt**: tracks ammunition and Lock and Load; v1.5 can drive a one-button MM rotation with Nampower [[d:hunter#1487104316568375326]], [[d:hunter#1488624322686746945]].
+- **MetaHunt**: its MM Widget tracks ammunition and Lock and Load; v1.5 can drive a one-button MM rotation with Nampower [[d:hunter#1488624322686746945]].
 - **Quiver** is unreliable for the new Aimed Shot cast bar ("don't trust Quiver") [[d:hunter#1484601174505295974]]. Alternatives: Quartz [[d:hunter#1480545887297081497]], ShotTimer [[d:hunter#1483011551744233534]].
 - **Nampower** silently drops an Arcane Shot queued during Aimed Shot. Raise `NP_MinBufferTimeMs` from 55 to 200 [[d:hunter#1486295222232285184]], [[d:hunter#1486313046669262909]].
 - One-press priority macro (SuperCleveRoidMacros; Alysia) [[d:hunter#1486774833995055286]]:

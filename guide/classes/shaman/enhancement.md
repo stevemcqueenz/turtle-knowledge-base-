@@ -136,13 +136,13 @@ Never hold Stormstrike or Lightning Strike waiting for a Windfury window.
 | 3+ grouped | Add **Fire Nova Totem** (Flametongue raises fire totem damage by 30%) [[d:shaman#1375916876336599050]], [[d:shaman#1481283331722051715]]; Chain Lightning when Clearcasting is up |
 | Big trash packs | Once Chain Lightning is on cooldown, Fire Nova Totem does more damage than a Lightning Bolt [[d:shaman#1444776794799734784]]; Magma Totem is very mana-expensive [[d:shaman#1475558771370627207]] |
 
-Weaving Nova Totems is a deliberate mana-for-damage trade that leaves you close to oom [[d:shaman#1450878911125917848]]. In a melee group, Flametongue Totem beats your own Searing Totem in a full melee group [[d:shaman#1445737041504505988]].
+Weaving Nova Totems is a deliberate mana-for-damage trade that leaves you close to oom [[d:shaman#1450878678320939101]]. In a melee group, Flametongue Totem beats your own Searing Totem in a full melee group [[d:shaman#1445737041504505988]].
 
 ## Cooldowns
 
 | Cooldown | Use |
 |---|---|
-| Bloodlust (5 min) | At the start of the fight once Stormstrike and a shock are rolling; stack with haste consumables and Kiss of the Spider [[d:shaman#1486722649257148559]] |
+| Bloodlust (5 min) | Time it once your AP procs are up; stack with haste consumables [[d:shaman#1486720548741447791]] |
 | Blood Fury (Orc) | Gives 120 AP and 60 SP, so it "double dips" for shamans; lowers healing received while active [[d:shaman#1439185343772360704]], [[d:shaman#1493992793268424784]] |
 | Berserking (Troll) | Haste window; Orc Blood Fury is slightly better for DPS [[d:shaman#1471895235184295960]] |
 | Juju Flurry, Potion of Quickness | Haste windows with Bloodlust [[d:shaman#1447630112110411827]] |

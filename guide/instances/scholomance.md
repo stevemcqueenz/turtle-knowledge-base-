@@ -16,7 +16,7 @@ Vanilla level-60 necromancer academy in Western Plaguelands. Capped at 5 players
 ## Bosses
 
 - **Rattlegore (rogue solo):** clear the adds nearest him first. One add socially aggros with the boss, so kill it first, then Vanish to reset cooldowns. Pop a **Free Action Potion** 5-10 s into the fight so his stun misses. Cycle Flourish/Ghostly Strike → Evasion → Flourish/Ghostly Strike. It is hard; world buffs or a second rogue help [[d:rogue#1431914254612828233]], [[d:rogue#1430826915555709028]].
-- **Marduk (weapon-skill quest):** he is neutral. Attacking him works, but you will probably aggro the whole room. Pulling him alone from a corner used to work, but it is not confirmed now [[d:warrior#1440823562398208180]], [[d:warrior#1440823863385653328]], [[d:warrior#1440824070840258610]].
+- **Marduk (weapon-skill quest):** he is neutral. Attacking him works, but you will probably aggro the whole room. Pulling him alone from a corner used to work, but it is not confirmed now [[d:warrior#1440823863385653328]], [[d:warrior#1440824070840258610]].
 - **Darkmaster Gandling (solo):** "If anyone is dumb enough to consider soloing scholo, dont." The Gandling fight took over 40 minutes because of his repeated teleports. The 6 minibosses are easy for scourgestones [[d:paladin#1481547661088657489]].
 
 ## Loot

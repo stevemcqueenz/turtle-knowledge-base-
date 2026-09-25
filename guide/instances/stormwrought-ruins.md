@@ -12,8 +12,8 @@ Turtle-custom 5-man for levels 35-42, inside Stormwrought Castle on the island o
 
 ## Group notes
 
-- **Level:** a 34 with about 2k HP can do part of it. 36+ is recommended for a full clear [[d:shaman#1426847745032847391]], [[d:shaman#1426849731266478195]].
-- **Blind corners.** Many pulls hide casters and elementals that you cannot see until you pull [[d:shaman#1437949199978205367]], [[d:shaman#1437949491218088099]]. Enemies can hit you through walls or around corners, for example casters' Rain of Fire. It is unclear whether that is a LoS bug [[d:shaman#1437949075692589160]].
+- **Level:** a 34 with about 2k HP can do part of it. 36+ is recommended for a full clear [[d:shaman#1426847745032847391]], [[d:shaman#1426849731266478195]], [[d:shaman#1426849797008003083]], [[d:shaman#1426849823457546301]].
+- **Blind corners.** Many pulls hide casters and elementals that you cannot see until you pull [[d:shaman#1437949199978205367]], [[d:shaman#1437949491218088099]]. Enemies can hit you through walls or around corners, for example casters' Rain of Fire. It is unclear whether that is a LoS bug [[d:shaman#1437949706754986047]].
 - **Cleansing:** lots of disease and poison trash, so bring Poison or Disease Cleansing Totem or other cleanses [[d:shaman#1427428236362514512]].
 - **Quests:** do the mail-helm chain (about 4 quests killing orcs) early, so group members do not compete for the drop later [[d:shaman#1426859210402168923]].
 - **Big pulls:** at 60, mages use it for 40-60-mob duo AoE pulls with the ZG Flarecore set [[d:mage#1468412814086508635]].

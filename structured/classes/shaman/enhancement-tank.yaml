@@ -519,7 +519,7 @@ rotation_aoe:
   condition: last resort, mobs live long [[d:shaman#1492243972607705210]]
 - targets_min: 4
   priority: 4
-  action: Fire Nova + Goblin Sapper Charge + Stoneclaw
+  action: Goblin Sapper Charge + Stoneclaw, plus Fire Nova on a free GCD
   condition: emergency snap threat [[d:shaman#1438960736440156210]]
 aoe_threshold: 2
 cooldowns:

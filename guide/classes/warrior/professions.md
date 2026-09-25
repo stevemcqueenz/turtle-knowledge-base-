@@ -65,7 +65,7 @@
 
 ### Enchanting
 
-- A money profession to pick up after dropping Mining [[d:warrior#1451247090532356166]]. It earns a little early gold, but you have to sell enchants yourself [[d:warrior#1444331459207757864]]. Disenchanting "is like lottery" [[d:warrior#1488603830814769233]].
+- A profession to pick up after dropping Mining [[d:warrior#1451247090532356166]]. It earns a little early gold, but you have to sell enchants yourself [[d:warrior#1444331459207757864]]. Disenchanting "is like lottery" [[d:warrior#1488603830814769233]].
 
 ### Survival and Gardening (secondary professions)
 

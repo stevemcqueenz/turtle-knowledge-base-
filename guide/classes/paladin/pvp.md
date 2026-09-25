@@ -18,14 +18,14 @@ The level-60 PvP decision loop for each spec. The details are in [Burst and cont
 
 **Retribution (Seal of Command):**
 
-1. **Before the fight:** seal up and know where your Freedom button is [[d:pvp-general#1429284370241552527]]. Pick a target you can reach, because Ret has no gap closer [[d:paladin#1481664240270970996]].
+1. **Before the fight:** seal up and know where your Freedom button is [[d:pvp-general#1429284370241552527]]. Pick a target you can reach, because Ret has no gap closer [[d:paladin#1440693596868055192]].
 2. **Opener:** Repentance, then Hammer of Justice, then Crusader Strike [[d:pvp-general#1429284370241552527]].
 3. **Burst:** in the stun, Judgement of Command for double damage, with Seal of Command up for the autos [[d:paladin#1435043535899590837]], [[d:paladin#1465012850329391263]].
 4. **Against a healer or caster:** Seal of Justice is your only extra "interrupt" [[d:paladin#1426723808445989067]]. Swap to SoC, judge, and go back to SoJ while its stun lasts [[d:paladin#1426723987551031336]]. The SoJ stun reportedly "doesnt DR with itself iirc" [[d:paladin#1426726513239392336]].
 5. **Control chain:** Repentance breaks on damage, so do not hit a repented target [[d:paladin#1426800158305419428]]. Save Repentance for a cast or for a rogue opener or Vanish [[d:paladin#1465252136186155038]]. Berserker Rage breaks it, and it does nothing to a Free Action-potioned target [[d:pvp-general#1433888687392817154]], [[d:paladin#1430425762976235651]].
 6. **Defence and escape:** use Divine Shield to disengage or to eat a Kidney Shot and save your trinket [[d:paladin#1429823453028155465]]. It halves your healing while it is up [[d:paladin#1467173434726547698]], so use the 12 s to reset. BoP stops Blind [[d:paladin#1424408436044595280]]. Hand of Freedom is weaker on Turtle (a longer cooldown and shorter duration), and Hand of Sacrifice no longer breaks crowd control [[d:paladin#1441767886023692468]]. Freedom, seals and stuns are all purgeable [[d:paladin#1441760867635953716]].
-7. **Target priority:** you are support first: "heal cleanse freedom your friends use bop smart" [[d:paladin#1481664216443392121]]. A well-placed Hand beats your damage [[d:paladin#1441525849042977040]]. Keep up pressure: fish for a Seal of Justice stun on a priest or shaman, or judge Justice on a rogue or druid [[d:paladin#1467846413848412315]].
-8. **Reset:** break line of sight and heal, then re-engage [[d:paladin#1481664096163074098]]. Drink out of combat (vanilla baseline).
+7. **Target priority:** you are support first: "heal cleanse freedom your friends use bop smart" [[d:paladin#1481664216443392121]]. A well-placed Hand beats your damage [[d:paladin#1441525705086079238]]. Keep up pressure: fish for a Seal of Justice stun on a priest or shaman, or judge Justice on a rogue or druid [[d:paladin#1467846413848412315]].
+8. **Reset:** break line of sight and heal, then re-engage. Drink out of combat (vanilla baseline).
 
 **Holy (Blessed Strikes):**
 
@@ -181,8 +181,8 @@ Split **11/33/7**, validated (VALID). [Open in talent calculator](https://xian55
 - **Ret PvP stat line:** "SoC with stam sp and crit, where you capitalize on Judgement windows. Also big bonker weapon" [[d:paladin#1481664240270970996]]. For your seal choice, compare JoR and JoC with your own spell power and attack power: "Ret pvp is basically JoR or JoC" [[d:paladin#1486497293841469470]].
 - **Hit:** most of your abilities use melee hit, so spell hit matters little [[d:paladin#1462963216060514325]].
 - **Sets:** Tier 2.5 is the easiest strong set and is obtainable "in like 6 weeks", better value than Rank 12/13 gear [[d:paladin#1450306272938299412]]; T3, T2.5 or Karazhan gear beats dedicated brawler sets [[d:pvp-general#1428415668608307201]]. Soulforge (Tier 0.5) is "still very strong for ap ret at this phase" [[d:paladin#1451332608352063595]]. For maximum PvP damage, the T2.5 and T3.5 3-sets pair well with the Final Judgement execute libram [[d:paladin#1481665621958725803]].
-- Jesse Potter's PvP kit: Blood ring 2-set (head and shoulders) for hit and mitigation, Obsidian chest for the magic absorb, T3 bracers and belt for crit, disarm-immune Blacksmithing gloves, high-Stamina Brood rings [[d:paladin#1463426090684121220]]; swap in the T3 disarm gloves against Warriors [[d:paladin#1438858260546588769]].
-- **1.18.1 PvP gear:** the set bonus buffs Judgement of the Crusader, which players call weak [[d:paladin#1487233454788837477]]. Some upgraded honor pieces cost over 20k honor [[d:paladin#1482035344009592873]]; rated arena, world PvP events and weekly BG quests were not live in April 2026 [[d:paladin#1491332525665157190]].
+- Jesse Potter's PvP kit: Blood ring 2-set (head and shoulders) for hit and mitigation, Obsidian chest for the magic absorb, T3 bracers and belt for crit, disarm-immune Blacksmithing gloves, high-Stamina Brood rings [[d:paladin#1463426090684121220]]; swap in the T3 disarm gloves against Warriors [[d:paladin#1438848574770380861]].
+- **1.18.1 PvP gear:** the set bonus buffs Judgement of the Crusader, which players call weak [[d:paladin#1487233454788837477]]. Some upgraded honor pieces cost over 20k honor [[d:paladin#1482035344009592873]]; rated arena, world PvP events and weekly BG quests reportedly weren't live yet as of April 2026 [[d:paladin#1491332525665157190]].
 - **Weapons:** C'Thun's axe ("that disorient proc is godly") [[d:pvp-general#1430556698069696622]]; Demonsbane with Icy Chill for SoC [[d:paladin#1436073332356415548]].
 
 ## Enchants and consumables
@@ -219,7 +219,7 @@ Split **11/33/7**, validated (VALID). [Open in talent calculator](https://xian55
 
 | Opponent | Verdict | Notes |
 |---|---|---|
-| **Warrior** | Favourable | 2H Warrior out-damages 2H Ret [[d:paladin#1467839220105347072]]. Against dual-wield Fury with Bloodrinker lifesteal, Jesse Potter uses one-hander + shield, Judgement of Light and SoR to out-sustain [[d:paladin#1439841216589070369]], [[d:paladin#1477091325848322263]]. Berserker Rage breaks Repentance [[d:pvp-general#1433888687392817154]]; wear disarm-immune gloves [[d:paladin#1438858260546588769]] |
+| **Warrior** | Favourable | 2H Warrior out-damages 2H Ret [[d:paladin#1467839220105347072]]. Against dual-wield Fury with Bloodrinker lifesteal, Jesse Potter uses one-hander + shield, Judgement of Light and SoR to out-sustain [[d:paladin#1439841216589070369]], [[d:paladin#1477091325848322263]]. Berserker Rage breaks Repentance [[d:pvp-general#1433888687392817154]]; wear disarm-immune gloves [[d:paladin#1438848574770380861]] |
 | **Rogue** | Hard since Dissolvent | "Rogues also have like 50% base dodge" [[d:paladin#1423730871537504488]]; if they resist or trinket your HoJ and Repentance, "you have 15s of just fuckin roll over and die" [[d:paladin#1424397329435328674]]. Dissolvent ignores Block [[d:paladin#1435717695189422100]]. Counters: BoP for Blind [[d:paladin#1424408436044595280]], Lost-set wolves to stop stealth [[d:paladin#1440228045406605444]], Blessing of Sanctuary [[d:paladin#1490472253706604746]] |
 | **Mage** | **Contested** | "Ret against mage might be a good match ... if you happen to get into melee before they notice you" [[d:paladin#1441764012780945488]], [[d:paladin#1441764115252252827]]; "a mage kited 3 rets for 2 mins" [[d:paladin#1441764762571640945]]; "paladins are easy, sheep and ignore" [[d:pvp-general#1423692207071952996]] |
 | **Warlock** | Kill the pet | Paladin "is a Supreme killers of Warlock pets, and Warlocks are nothing without pets" [[d:paladin#1484645314639171688]], [[d:paladin#1484645865141436488]]. You cannot fear the demon, and a stunned or repented Voidwalker can still be sacrificed [[d:pvp-general#1430550221477122200]] |
@@ -229,7 +229,7 @@ Split **11/33/7**, validated (VALID). [Open in talent calculator](https://xian55
 
 ## Battleground roles
 
-- **Support first:** "a well-placed Hand will matter more than any damage you can do" [[d:paladin#1441525849042977040]]. Ret's value is the utility that Holy and Prot also bring, so it is the weakest paladin slot [[d:paladin#1476365378287308830]], [[d:paladin#1476365700757983425]]; Horde sees Rets in BGs "as a wasted teammate slot" [[d:paladin#1440693390907015248]].
+- **Support first:** "a well-placed Hand will matter more than any damage you can do" [[d:paladin#1441525705086079238]]. Ret's value is the utility that Holy and Prot also bring, so it is the weakest paladin slot [[d:paladin#1476365378287308830]], [[d:paladin#1476365700757983425]]; Horde sees Rets in BGs "as a wasted teammate slot" [[d:paladin#1440693390907015248]].
 - **Holy:** "6k+ hp and either harassment in melee with CS resets on Shock or from afar healing prio allies" [[d:paladin#1481664712130166965]]; you "can't heal all through the burst pvp currently has, so have to prio" [[d:paladin#1481664792728174644]].
 - **Defending objectives:** bubble-chaining paladins can hold flags and graveyards for a long time [[d:pvp-general#1425208065057099867]].
 - **Rank 14 / AV:** Holy [[d:paladin#1448556717636980866]].

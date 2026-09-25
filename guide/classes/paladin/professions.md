@@ -28,7 +28,7 @@
 - Turtle also has a free summonable repair bot that is not the crafted one [[d:paladin#1437432116139790340]].
 - **Cost:** about 100-150g from 1 to 300 [[d:paladin#1489769042435768442]], [[d:paladin#1437831886503280842]].
 
-**Gnomish or Goblin?** It matters less than reaching 300 [[d:paladin#1489751046359224510]]. The three usual paths [[d:paladin#1485004797475029003]]:
+**Gnomish or Goblin?** Turtle doesn't change the classic answer: the optimal min-max path is still Gnomish first, then Goblin [[d:paladin#1489751046359224510]]. The three usual paths [[d:paladin#1485004797475029003]]:
 
 1. **Gnomish first, then Goblin** (the "optimal" min-max path): craft the Gnomish BoP items such as the Battle Chicken, then unlearn and relevel Goblin to make your own Sappers [[d:paladin#1452284648682946680]], [[d:paladin#1494773475951251556]]. You cannot swap the specialization by itself; you relearn the whole profession from 1 [[d:paladin#1452284784913944719]].
 2. **Goblin only**, buying Gnomish items on the AH. A Prot player with no arena plans was told "there aint anything worth anything in gnomish" [[d:paladin#1454182680169283719]].

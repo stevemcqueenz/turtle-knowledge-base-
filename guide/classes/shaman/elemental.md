@@ -107,7 +107,7 @@ Current (bugged-Earthquake) priority, Not Normal: "that's currently the ideal ro
 
 **Bot-ready loop:** `if Flame Shock missing on target and target not fire-immune → Flame Shock` · `if Flame Shock remaining < cast time + 1 s → Molten Blast` · `if Clearcasting or mana > 60% → Chain Lightning if ready` · `if ≥2 targets in 10 yd → Earthquake if ready` · `else Lightning Bolt` · `if moving → Earth Shock`.
 
-**Mana:** tea or mana potion every boss pull is normal while gearing [[d:shaman#1469228322410991740]]. Avoid downranking; gear for Clearcasting and use consumables [[d:shaman#1485333169057042605]]; **Contested:** "downranking is way better than oom" [[d:shaman#1485335237851480104]]. A heuristic: downrank if your mana % is below the boss's HP % [[d:shaman#1471574271343067246]].
+**Mana:** tea or mana potion every boss pull is normal while gearing [[d:shaman#1469228322410991740]], [[d:shaman#1469233746967396362]]. Avoid downranking; gear for Clearcasting and use consumables [[d:shaman#1485333169057042605]]; **Contested:** "downranking is way better than oom" [[d:shaman#1485335237851480104]]. A heuristic: downrank if your mana % is below the boss's HP % [[d:shaman#1471574271343067246]].
 
 ## AoE rotation
 

@@ -8,7 +8,7 @@
 | Viability (1.18.1) | **Good, slot-capped.** "Good all end game", but no longer the best healer: priests took that spot in 1.18.1 [[d:druid#1487184318668345544]]. A Renew heals 850 per tick where Rejuvenation does about 456 [[d:druid#1486842523006800062]]. The Holy Paladin T3.5 set nerf (about −83%) removed the old ceiling [[d:druid#1465682266171768934]]. Micro Jackson rated resto 7/10 [[d:druid#1485199599760314529]]. |
 | Difficulty | High: "Good resto druids are very good, mediocre resto druids are bad" [[d:druid#1441028506317492254]] |
 | Strengths | Regrowth has the best healing-power scaling in the game [[d:druid#1469614655952388199]]; Tranquility; proactive HoTs; the Spirit aura; mana efficiency; can DPS or tank in other forms |
-| Weaknesses | HoTs from two restos overwrite each other; buff-cap problems in 40-man raids; can't heal other parties the way Prayer of Healing can [[d:druid#1492254315786666024]]; no strong direct heal in Tree Form |
+| Weaknesses | HoTs from two restos overwrite each other; buff-cap problems in 40-man raids; can't heal other parties the way Prayer of Healing can [[d:druid#1492254315786666024]], [[d:druid#1492253945786269876]]; no strong direct heal in Tree Form |
 
 ## How to play
 
@@ -28,7 +28,7 @@ The level-60 healing loop; details and sources in the sections linked. For dunge
 
 ### Raid Tree of Life 18/0/33 (recommended)
 
-The pinned "standard tree build" [[d:druid#1437430182087626863]], still called the standard PvE build after 1.18.1 [[d:druid#1487561396156760224]].
+The pinned "standard tree build" [[d:druid#1437430182087626863]], still called the standard build after 1.18.1 [[d:druid#1489348756955598949]].
 
 | Tree | Talent | Points |
 |---|---|---|
@@ -70,7 +70,7 @@ Why:
 | **Healing Touch / Nature's Grace 21/0/30** | Nature's Grace + Improved Healing Touch + Aessina's Bloom, no Tree. For raids with 3+ resto druids | `oACYYKBYAI--FAoABbFAQIF` ([Open in talent calculator](https://xian55.github.io/tortoise-db-viewer/?talents=druid&t=5000023031213001--50500133502105)) | [[d:druid#1421530945730646168]], [[d:druid#1475442752664633477]] |
 
 - Preservation 2/3 vs Genesis 3/3 + Swiftmend is the open 2-point choice in the Tree build [[d:druid#1480681912874963024]]. Some run 1 point less in Improved Tranquility and 1 more in Preservation [[d:druid#1486838539135221850]].
-- **Contested: the Healing Touch build.** Viable "up through full Naxx progression" in one guild [[d:druid#1491893038287687841]]; "mid even in best circumstances" for most [[d:druid#1490268733485093055]]. The NG/Regrowth crit build is "just a bad paladin flash spammer" per Micro Jackson [[d:druid#1473661022299623506]]. The Brainwashing Device has only room for tank, boomkin and tree, so a dedicated HT spec needs a full respec [[d:druid#1473663139055796350]].
+- **Contested: the Healing Touch build.** Viable "up through full Naxx progression" in one guild [[d:druid#1491893038287687841]]; "mid even in best circumstances" for most [[d:druid#1490683618735947917]]. The NG/Regrowth crit build is "just a bad paladin flash spammer" per Micro Jackson [[d:druid#1473661022299623506]]. The Brainwashing Device has only room for tank, boomkin and tree, so a dedicated HT spec needs a full respec [[d:druid#1473663139055796350]].
 
 ## Stat priority
 
@@ -173,7 +173,7 @@ akitoe's resto list [[d:druid#1408057005461082213]]:
 
 ## Addons
 
-- **Puppeteer** raid frames show HoT timers and aggro; after the patch it broke Swiftmend for some until they restarted the client and updated addons [[d:druid#1439057744069136515]], [[d:druid#1486088867739336724]]. **Luna** frames are the alternative [[d:druid#1476703964144730213]].
+- **Puppeteer** raid frames show HoT timers and aggro; after the patch it broke Swiftmend for some until they restarted the client and updated addons [[d:druid#1486074041965215924]], [[d:druid#1486088867739336724]]. **Luna** frames are the alternative [[d:druid#1476703964144730213]].
 - In pfUI, enable Unit Frames → Raid → Buff/Debuff Indicators → "Show Time Left"; showing timers on other players may need SuperWoW [[d:druid#1492834230927884419]].
 - On buffed tanks your HoTs may be active but invisible past the visible buff cap; track by cast, not by buff [[d:druid#1481258380642353162]].
 - HealBot disables its bars in Tree Form unless you patch `HealBot_GetShapeshiftForm()` [[d:druid#1402661674158129222]]. A Smartbuff fork works with Tree Form [[d:druid#1460652143802454178]].
@@ -189,7 +189,7 @@ akitoe's resto list [[d:druid#1408057005461082213]]:
 
 ## Dungeon healing
 
-Both builds heal every 5-man; the Healing Touch build stays viable there [[d:druid#1455277051883028721]]. Tree Form lacks a strong repeatable direct heal for an undergeared tank. While leveling you need no resto talents to heal dungeons (see [Leveling](leveling.md)).
+Both builds heal every 5-man; the Healing Touch build stays viable there [[d:druid#1455276890657915069]], [[d:druid#1455277339092193333]]. Tree Form lacks a strong repeatable direct heal for an undergeared tank. While leveling you need no resto talents to heal dungeons (see [Leveling](leveling.md)).
 
 ## Common mistakes
 

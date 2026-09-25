@@ -17,7 +17,7 @@ Turtle-custom level-60 5-man, and the hardest dungeon on the server. Players tre
 - **Fresh-60 tanks should not lead with this.** "Generally I wouldn't recommend tanking BM as a fresh 60... Dragons gonna fold you in half" [[d:paladin#1479128320514982019]], [[d:paladin#1479128357588304065]]. Black Morass and Stormwind Vault are the two dungeons where paladins actually need damage reduction like Blessing of Sanctuary [[d:paladin#1446437041347887265]]. "Last boss of BM hits harder than onyxia" [[d:paladin#1483909172868157582]].
 - **Bring CC.** A druid (Hibernate) and a priest (Fortitude) is the comp players recommend. Warlock Banish and Fear also work [[d:paladin#1448466675790909510]], [[d:warlock#1432811487621021778]], [[d:shaman#1413584738119323709]].
 - **Tanks: full tank talents**, not a leveling hybrid [[d:druid#1484730893624148078]]. Bring Greater Stoneshield Potions [[d:druid#1441393322869395496]], [[d:paladin#1472703383554228326]].
-- Get armor trinkets first (Hatereaver Cog from [Hateforge Quarry](hateforge-quarry.md), the Dire Maul Tribute trinket) if the last boss is killing you [[d:druid#1430547261997322330]], [[d:druid#1430553461606580435]] (single source).
+- Get armor trinkets first (Hatereaver Cog from [Hateforge Quarry](hateforge-quarry.md), the Dire Maul Tribute trinket) if the last boss is killing you [[d:druid#1430547813992890471]], [[d:druid#1430553461606580435]] (single source).
 
 ## Trash: the dragon packs before the bridge
 
@@ -25,7 +25,7 @@ These packs are the main wipe risk. They are the "3/4 Dragon pack pulls leading 
 
 | Role | Job |
 |---|---|
-| **Tank** | Wear mitigation gear before the bridge. Pull with Hibernate if you are a druid [[d:druid#1441395729242521681]], [[d:druid#1454127781913821380]]. Pop Barkskin (or your equivalent) before the bridge packs [[d:druid#1460287082483421340]]. |
+| **Tank** | Wear mitigation gear before the bridge. Pull with Hibernate if you are a druid [[d:druid#1441395729242521681]], [[d:druid#1454127781913821380]]. Pop Barkskin (or your equivalent) before the bridge packs [[d:druid#1460296074445983776]]. |
 | **CC** | CC one mob per pack. That is the standard advice for a fresh-60 group [[d:paladin#1472702745638211737]]. Even a T2.5 tank with an AQ40 shield still wanted a Sleep on one dragon in the 4-packs [[d:paladin#1472703161687998494]]. Options: druid Hibernate, warlock Banish plus Fear with Curse of Recklessness juggling [[d:warlock#1432811487621021778]]. |
 | **DPS** | **Kill the caster first.** There are 2 caster mobs before the bridge, 1 in each pack with it. About 30 s into the pull it lands a "sand-HoJ" stun on the tank, and the rest of the pack then deletes him [[d:paladin#1448464751389577439]]. |
 | **Melee** | At the large pack of tornado elementals, "1 of the melee dps always dies" in all-melee groups [[d:druid#1460298386128502868]] (single source). |
@@ -39,7 +39,7 @@ The rework has 7 bosses ([Torta (staff), 2023-01-21](https://forum.turtlecraft.g
 
 - "Chronar's first boss, just gotta get passed a few hard packs" [[d:paladin#1342601089265963121]]. The Black Morass polearm quest sends you to kill him. It rewards the Halberd of the Bronze Defender [[d:paladin#1342600863541100576]], [[d:hunter#1313650537874329662]].
 - **He is not immune to slows.** With slows up he is "mega easy". He has a 1-minute Piercing Howl, so carry a PvP trinket [[d:hunter#1313650537874329662]] (single source).
-- **Spell reflect.** The tell is a sparkle animation on the boss, not a yell. He also casts an AoE slowing shout that can leave a Felhunter out of range, so keep the pet close [[d:warlock#1443380018540449897]], [[d:warlock#1443748499341443125]]. Warlocks use the Felhunter here [[d:warlock#1352334585371037738]].
+- **Spell reflect.** The tell is a sparkle animation on the boss, not a yell. He also casts an AoE slowing shout that can leave a Felhunter out of range, so keep the pet close [[d:warlock#1443748499341443125]]. Warlocks use the Felhunter here [[d:warlock#1352334585371037738]].
 - Loot: Monolith Headguard (a tank helm) [[d:paladin#1327978668156518503]].
 
 ### The first big dragon boss, phase 2

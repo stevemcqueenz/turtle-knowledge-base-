@@ -1439,7 +1439,7 @@ play_loop:
     - Magma Totem only if mana allows
     - Single-target loop on the kill target in between
   cooldowns:
-  - Bloodlust at fight start once Stormstrike and a shock are rolling, with Blood Fury / Berserking, haste potions, on-use
+  - Bloodlust once your AP procs are up, with Blood Fury / Berserking, haste potions, on-use
     trinkets
   threat:
   - Calming Winds 3/3

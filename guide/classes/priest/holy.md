@@ -43,7 +43,7 @@ The level-60 loop for raids. For the reasons, see the linked sections. For dunge
 
 **Cooldowns:**
 
-- `Ascendance` just before a boss enrages or a burst phase. It also breaks CC on you [[d:priest#1492116211587088486]].
+- `Ascendance` just before a boss enrages or a burst phase. It also breaks CC on you [[d:priest#1464351944230436874]].
 - `Inner Focus` for a free max-rank Prayer of Healing or Greater Heal.
 - `Fade` if you pull aggro. `Desperate Prayer` (Human/Dwarf) for a self emergency.
 
@@ -84,7 +84,7 @@ Why these points:
 
 - **Spiritual Healing 5/5 is mandatory.** Healing spells lost 15% of base value (ranks above 30) and 15% of their scaling, and 5/5 Spiritual Healing brings you back to the old numbers [[d:priest#1425815068720758784]], [[d:priest#1425818939153322024]].
 - **Empowered Recovery: one point is enough.** Only the first point adds the extra Renew tick [[d:priest#1490554883042967562]]. Its 3% bonus does not affect Renew itself [[d:priest#1484570397427892455]]. Improved Renew 3/3 is taken only because Empowered Recovery requires it. On its own, Improved Renew raises Renew's base value only [[d:priest#1432849290006499498]].
-- **Book of Prayer 2/2** refunds mana when a heal is a different *spell* from your previous heal. A different rank of the same spell does not count [[d:priest#1484561705487958016]], [[d:priest#1484887536890417222]]. Power Word: Shield and Holy Nova do not count as healing spells for it [[d:priest#1484259678643945764]], [[d:priest#1485623406207434894]].
+- **Book of Prayer 2/2** refunds mana when a heal is a different *spell* from your previous heal. A different rank of the same spell does not count [[d:priest#1484561705487958016]], [[d:priest#1484887536890417222]]. Power Word: Shield and Holy Nova do not count as healing spells for it [[d:priest#1484688404242366646]], [[d:priest#1485623406207434894]].
 - **Reservoir of Light 3/3** makes Lightwell worth about 4,000 extra smart healing per boss fight, which Bluefear prefers over 3% crit [[d:priest#1489274146826227752]]. The consensus leans towards Reservoir of Light and Holy Reach over flat crit [[d:priest#1484570386963103745]], [[d:priest#1484302627947679805]].
 - **Holy Reach 2/2** widens Prayer of Healing's radius, which Snackz calls "pretty huge" compared with 2% crit [[d:priest#1484302627947679805]]. It also helps on fights with strict positioning such as Firemaw [[d:priest#1484207147133964420]].
 
@@ -134,7 +134,7 @@ Target priority: you, then the tank, then the other healers, then DPS [Langorn, 
 |---|---|
 | 3+ members of one party damaged | `Prayer of Healing` targeted on a member of that party. Since 1.18.1 you can target any group [[d:priest#1484217772614615302]], even players outside your raid [[d:priest#1484568899641933895]]. Rank 2 is the efficient default; use rank 4 to get everyone full fast [[d:priest#1492115676935229451]]. |
 | Party-wide burst, mana to spare | `Inner Focus` + max-rank Prayer of Healing (a free cast) [Langorn, 2025-09-19](https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325) |
-| Repeated raid damage | `Lightwell` placed where the raid stacks: 10 charges or 1 minute, 20% of each direct heal (40% with 3/3 Reservoir of Light) echoed to another wounded player, at most once per 5 s per target [[d:priest#1464386661973622835]], [[d:priest#1473373046105444475]]. Prayer of Healing does not trigger it [[d:priest#1464513512071233628]]. |
+| Repeated raid damage | `Lightwell` placed where the raid stacks: 10 charges or 1 minute, 20% of each direct heal (40% with 3/3 Reservoir of Light) echoed to another wounded player, at most once per 5 s per target [[d:priest#1464386661973622835]], [[d:priest#1473373046105444475]]. Prayer of Healing does not trigger it [[d:priest#1464512234863460493]]. |
 | 2 targets | Renew each, Flash Heal the lower one |
 
 In dungeons while leveling, Prayer of Healing is worth its mana only if 3 or more people fully benefit [[d:priest#1471253529334382634]]. As a heal, `Holy Nova` is outclassed by Prayer of Healing: rank-1 Prayer of Healing costs about half the mana for the same healing [Itsbacon, 2025-08-06](https://forum.turtlecraft.gg/viewtopic.php?p=143410#p143410).
@@ -150,7 +150,7 @@ In dungeons while leveling, Prayer of Healing is worth its mana only if 3 or mor
 | **Inner Focus** (3 min) | A free max-rank Prayer of Healing or Greater Heal |
 | **Lightwell** (5 min) | Before the pull or a burst phase. Place it at the cursor with `/cast Lightwell` + `/run CameraOrSelectOrMoveStart()` + `/run CameraOrSelectOrMoveStop()` [[d:priest#1487150323654197319]] |
 | **Fade** | When you pull aggro. 1.18.1 adds a 15% total threat reduction, but the threat comes back when Fade ends [[d:priest#1484604133200891944]] |
-| **Fear Ward** | Baseline for every race. Put it on the tank before fear mechanics [[d:priest#1447464110588428309]] |
+| **Fear Ward** | Baseline for every race. Put it on the tank before fear mechanics [[d:priest#848446155523227678]] |
 | **Desperate Prayer** (Human/Dwarf) | Self emergency. It needs a GCD and cannot be cast while silenced [[d:priest#1425357263790407743]] |
 
 ## Mana management
@@ -240,14 +240,14 @@ Oil: Brilliant Mana Oil [Langorn, 2025-09-19](https://forum.turtlecraft.gg/viewt
 - **Healing frames:** Puppeteer (click-casting, heal prediction; the usual beginner pick) [[d:priest#1430301336456396943]], pfUI raid frames, or Luna Unit Frames [[d:priest#1494954650951094394]]. For Prayer of Healing prediction across groups, use t0uchm3's HealComm fix or MarcelineVQ's updated Luna [[d:priest#1486349826315653224]].
 - **Mouseover:** SuperWoW + SuperCleveRoidMacros for `[@mouseover]` [[d:priest#1423944465361535087]]. Example: `/cast [@mouseover help] Flash Heal;[@target help] Flash Heal;[@player] Flash Heal` [[d:priest#1456997265557291049]].
 - **QuickHeal** (auto-target and rank): needs SuperWoW + UnitXP and does not work alongside Nampower's queue [[d:priest#1471653438252122295]]. Its fork adds Prayer of Healing group targeting (`/qh poh`) [[d:priest#1487196238209224814]].
-- **Rinse** for dispels [[d:priest#1494976451882258603]]; **LazyRes** for mass resurrection [[d:priest#1441854469217193985]]. Do not trust the TheoryCraft addon's priest coefficients on Turtle [[d:priest#1428434743111848048]].
+- **Rinse** for dispels [[d:priest#1494976772150788126]]; **LazyRes** for mass resurrection [[d:priest#1441854469217193985]]. Do not trust the TheoryCraft addon's priest coefficients on Turtle [[d:priest#1428434743111848048]].
 
 ## Dungeon and raid notes
 
 - **Nefarian ([BWL](../../instances/blackwing-lair.md)), priest class call:** only Renew and Power Word: Shield are safe [[d:priest#1484524057155211406]]. Holy Nova counts as direct healing and can kill people, including you [[d:priest#1493278987101671544]].
 - **Firemaw (BWL):** healers stand at max range. Holy Reach and positioning matter [[d:priest#1484207147133964420]].
 - **Anomalus ([Kara40](../../instances/tower-of-karazhan.md)):** 8/8 T2 Greater Heal works well, but T2 alone cannot reach the Arcane Resistance floor. One recipe reaches 183 AR with enchanted head, legs, rings, cloak and neck plus a druid buff [[d:priest#1459262973766795264]].
-- **Sapphiron (Naxxramas):** a constant-damage fight where 3-piece T2 shines [[d:priest#1485261459729547394]]. Renew does not trigger the fight's heal debuff [[d:priest#1485261459729547394]].
+- **Sapphiron (Naxxramas):** a constant-damage fight where 3-piece T2 shines [[d:priest#1485274206110220298]]. **Contested:** in progression-paced raids that push straight from Loatheb without waiting out the heal debuff, T2 becomes dead weight instead [[d:priest#1485261459729547394]]. Renew does not trigger the fight's heal debuff [[d:priest#1485261459729547394]].
 - **Loatheb (Naxxramas):** Scarab Brooch [[d:priest#1486790188570120244]].
 
 ## Common mistakes

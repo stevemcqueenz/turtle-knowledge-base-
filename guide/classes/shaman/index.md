@@ -42,7 +42,7 @@ Shamans on Turtle WoW 1.18.1 are Horde-only (Orc, Troll, Tauren) [[d:shaman#1357
 | Enhancement | Elemental Weapons' Windfury effect: extra attacks give +1% attack speed per stack (up to 6) | Stacked only once per proc for weeks (bug) [[d:shaman#1487883029270495503]] |
 | Enhancement | Flurry triggers from any crit (spell or melee) | Launch bugs (not from autos; overwritten by Rushing Winds) were fixed by 2026-03-28 [[d:shaman#1487213216886161629]] |
 | Enhancement / Elemental | Flametongue/Frostbrand spell-power coefficients scale with weapon speed | Missing for ~3 weeks, then FT = 0.16 + 0.03 × speed, FB = 0.25 + 0.04 × speed [[d:shaman#1491208166766284860]] |
-| Elemental | Flametongue's Elemental Weapons fire bonus now needs a melee hit | The ranged Molten Blast "fire ele" spec is gone; fire folded into Nature Elemental [[d:shaman#1470506986113077521]] |
+| Elemental | Flametongue's Elemental Weapons fire bonus now needs a melee hit | The ranged Molten Blast "fire ele" spec is gone; fire folded into Nature Elemental [[d:shaman#1485240088047652894]] |
 | Elemental | Earthquake +15% base, 18 s cooldown; "fixed multiple issues" | Measured as hitting twice with no Elemental Fury on the AoE; dropped from single target [[d:shaman#1484880940814565536]], [[d:shaman#1485686440070479892]] |
 | Elemental | **Call of Earth** replaces Eye of the Storm (Earth Shield charges, pushback avoidance, replenished by offensive Nature spells) | 80% total pushback resistance, no more GCDs spent on Earth Shield [[d:shaman#1484419750355533894]] |
 | Restoration | T1 8-piece reworked to a 250-point earth wall proc | Ends the T1 Healing-Wave build [[d:shaman#1464377036415172758]] |
@@ -116,7 +116,7 @@ The differences are small: Orc vs Troll is about 1-2% damage at most [[d:shaman#
 - **Level with two gatherers** (Herbalism + Mining or Skinning). At 60, end on **Engineering + Herbalism** [[d:shaman#1389424395415715890]]. Engineering is "the only one that increases dps" for any spec (Sappers, AoE threat, Force Reactive Disk) [[d:shaman#1473598065050128439]], [[d:shaman#1475212516761276660]]. Its teleporters plus Astral Recall give near-mage mobility [[d:shaman#1444613431872454716]].
 - **Herbalism** pays through the Dire Maul East lasher farm, ~100 g+/hour on a busy server [[d:shaman#1433512536392601681]], [[d:shaman#1425738262923972720]]. Farming red and black Dragonscales with Skinning is the alternative [[d:shaman#1426246866986602538]].
 - **Tanks:** Engineering + Jewelcrafting (BoP spell-damage items) [[d:shaman#1406797526492909569]]. Blacksmithing makes the Fiery Chain fire-resistance set [[d:shaman#1476041815240216626]], [[d:shaman#1474856625297690705]].
-- **Skip for their own sake:** Alchemy has no shaman-specific perks [[d:shaman#1471890802677514324]]. Leatherworking "is kinda ass" unless you refuse to trade [[d:shaman#1462159463711506595]].
+- **Skip for their own sake:** Alchemy has no shaman-specific perks [[d:shaman#1471890562008481905]]. Leatherworking "is kinda ass" unless you refuse to trade [[d:shaman#1462159463711506595]].
 
 Full guide: [Professions](professions.md)
 

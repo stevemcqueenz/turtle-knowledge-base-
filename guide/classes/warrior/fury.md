@@ -124,13 +124,13 @@ Split **17/34/0**, validated (VALID). [Open in talent calculator](https://xian55
 - **Skip Overpower-dancing:** the sim gain is minor, and "in real scenario you just grief yourself" [[d:warrior#1457446820790931672]], [[d:warrior#1457442998555250818]].
 
 !!! warning "Old builds"
-    Codes from before 1.18 (for example with Anger Management, Sword/Axe Specialization or 5-point Two-Handed Weapon Specialization) come from a different tree. `talents.turtle-wow.org` and `talents.turtlecraft.gg` links still encode points, but those calculators are offline. Paste the `points=` part into the calculator above to check a build [[d:warrior#1455041708021645486]], [[d:warrior#1487937492446613695]].
+    Codes from before 1.18 (for example with Anger Management, Sword/Axe Specialization or 5-point Two-Handed Weapon Specialization) come from a different tree. `talents.turtle-wow.org` and `talents.turtlecraft.gg` links still encode points, and swapping the domain in an old link preserves the build [[d:warrior#1455041708021645486]], but both calculators are now offline [[d:warrior#1487937492446613695]]. Paste the `points=` part into the calculator above to check a build.
 
 ## Stat priority and caps
 
 1. **Hit to the yellow cap.** Yellow attacks (abilities) need **8% hit against a boss at 300 weapon skill**. Turtle removed vanilla's extra +1% boss miss [[d:warrior#1451430729769680999]]. Each weapon-skill point above 300 lowers that by 0.2%: 7% at 305, 6% at 310, 5% at 315. This is the same for DW, 2H and sword-and-board [[d:warrior#1457400704606929118]], [[d:warrior#1457402842074714285]].
 2. **Weapon skill to 310-315** for your weapon type [[d:warrior#1458890331666911403]]. Each point above 300 gives "+0.2% hit chance, +2% dmg on glancing blows, +0.1% crit chance and -0.1% dodge chance" (30 quoting the formula) [[d:warrior#1468345044703645923]]. White hits against a boss glance 40% of the time no matter what; weapon skill only raises glancing damage from 65% at 300 to 95% at 315 [[d:warrior#1443319985345921047]]. **Do not go past 315.** A bug removes about 0.6% crit at 316 [[d:warrior#1479840926296838307]], [[d:warrior#1468346768025452728]]. Weapon skill does nothing to parry chance (tested over 100k autos) [[d:warrior#1486148825486852276]].
-3. **Strength / AP and crit.** Crit is worth roughly 30-40 AP. In practice "~92 ap + 2 crit is worth more than 33ap + ~3.7 crit most of the time" [[d:warrior#1467046048987090944]], [[d:warrior#1467046773691383980]]. 1 Strength = 2 AP (2.2 with Kings); 20 Agility = 1% crit [[d:warrior#1492015033591402516]]. Crit still matters for Flurry, Impale and Deep Wounds [[d:warrior#1488167716261990542]].
+3. **Strength / AP and crit.** Crit is worth roughly 30-40 AP. In practice "~92 ap + 2 crit is worth more than 33ap + ~3.7 crit most of the time" [[d:warrior#1467046048987090944]], [[d:warrior#1467046773691383980]]. 1 Strength = 2 AP (2.2 with Kings); 20 Agility = 1% crit [[d:warrior#1492014533726703677]]. Crit still matters for Flurry, Impale and Deep Wounds [[d:warrior#1488167716261990542]].
 4. **Haste.** It stacks multiplicatively and gets stronger the more crit and AP you already have [[d:warrior#1447411553728200797]], [[d:warrior#1447412406081945752]]. For 2H, Strength vs haste is **contested**: "Str is better, don't let hastechuds fool you" [[d:warrior#1482884212791971952]] versus "haste has a double benefit for 2h" [[d:warrior#1483102293048955073]].
 5. **Armor penetration** is weak. It is a flat stat, and raid bosses sit near 0 armor once Sunder, Faerie Fire and Curse of Recklessness are up. It matters mostly against trash or bosses with armor left [[d:warrior#1488197833382170635]], [[d:warrior#1484881788668088430]].
 
@@ -185,7 +185,7 @@ Without Bloodthirst: **Whirlwind > Slam**, with Heroic Strike or Cleave as the r
 | Targets | Build | Priority |
 |---|---|---|
 | 2+ | 2H Fury / Lawnmower | Sweeping Strikes (Lawnmower) → **Whirlwind > Cleave > Bloodthirst/Slam** [[d:warrior#1426297528571265036]], [[d:warrior#1490378739639517226]] |
-| 2+ | DW Fury | Bloodthirst/Whirlwind on cooldown, **Cleave** as the rage dump instead of Heroic Strike (Ravager makes Cleave cheaper) [[d:warrior#1417859058349637694]], [[d:warrior#1484033434824216647]] |
+| 2+ | DW Fury | Bloodthirst/Whirlwind on cooldown, **Cleave** as the rage dump instead of Heroic Strike (Ravager makes Cleave cheaper: "3 rage off cleave with improved whi...i mean ravager") [[d:warrior#1484033434824216647]], [[d:warrior#1484505459254624276]] |
 | 2+ | any | A slow main hand hits harder with Whirlwind; a fast one rage-starves you [[d:warrior#1494053998099955822]] |
 | slow trash pace | Lawnmower | Sweeping Strikes gains value the longer the gap between pulls [[d:warrior#1436702449925750824]], [[d:warrior#1447522520969511016]] |
 
@@ -198,7 +198,7 @@ Without Bloodthirst: **Whirlwind > Slam**, with Heroic Strike or Cleave as the r
 
 - **Death Wish** (30 s): the only real damage cooldown for every warrior spec ("5 warriors enter a bar... they all use deathwish") [[d:warrior#1484914497058504795]]. For consistency, pop it in the last ~30 s of the fight or in the Execute phase [[d:warrior#1482492282388091114]]. It can be used twice on long fights such as Chromaggus, Gothik, Four Horsemen, Loatheb and Kel'Thuzad [[d:warrior#1431726255010480278]], [[d:warrior#1424111495624528033]]. It is a toggle and can get cancelled by accident [[d:warrior#1433262001190211664]].
 - **Recklessness**: there is "almost no wrong time"; use it on pull in DPS races [[d:warrior#1431726048051069100]]. It shares a **30-minute** cooldown with Shield Wall and Retaliation [[d:warrior#1462506610068029502]].
-- **Bloodrage**: pull, and again into Execute on fights of 1:15 or longer. Enrage (+20% damage) stacks with Death Wish [[d:warrior#1433266387962560572]]. Bloodrage also self-dazes you and applies Gift of Arthas to you [[d:warrior#1487117113494732982]].
+- **Bloodrage**: pull, and again into Execute on fights of 1:15 or longer. Enrage (+20% damage) stacks with Death Wish [[d:warrior#1433266387962560572]]. Bloodrage also self-dazes you ("sometimes you even daze yourself!!") and applies Gift of Arthas to you [[d:warrior#1487112916929876028]], [[d:warrior#1487113788061782229]].
 - **Juju Flurry, Mighty Rage Potion and Bloodrage** are all off the GCD and fit in one macro; Death Wish is on the GCD [[d:warrior#1494010684982296686]]. Mighty Rage Potion and Potion of Quickness share the 2-minute potion cooldown; Juju Flurry does not [[d:warrior#1494014083542945833]].
 - **Perception** (Human racial) belongs before the pull, not in the Execute phase, because it costs a GCD for about 2% crit [[d:warrior#1493965706062987575]].
 - **Time-to-kill macro** (TTK addon + SuperCleveRoidMacros): `/cast [type:boss ttk:<32&>27]Death Wish` [[d:warrior#1471694309236408476]].
@@ -219,7 +219,7 @@ There is no endorsed static BiS list. The item pool is large and custom, so sim 
 ### Fresh 60 / pre-raid
 
 - **Priorities:** hit cap, then crit, Strength and AP [[d:warrior#1448776258497544313]]. The only pre-raid item "worth stressing over" is **Blackhand's Breadth**. Otherwise run Kara10, ZG and AQ20 (and MC) and take drops [[d:warrior#1473450370129989887]], [[d:warrior#1473451659421159456]].
-- **Example pre-raid list** (Sickle): Baron Rivendare's helm, Fordring's neck, the Black Morass 2%-hit shoulders, Savage Gladiator Chain, Battleborn wrists, Devilsaur gloves and legs, Heroism belt and boots, Painweaver Band, Blackstone Ring, Blackhand's Breadth, Hand of Justice. Weapons: the Black Morass mace and dagger, or Dal'Rend's [[d:warrior#1446906865094230048]], [[d:warrior#1446908542165582036]]. Devilsaur is still the standard hit and AP pick [[d:warrior#1447683193758290000]], [[d:warrior#1447686328836952196]].
+- **Example pre-raid list** (Sickle): Baron Rivendare's helm, Fordring's neck, the Black Morass 2%-hit shoulders, Savage Gladiator Chain, Battleborn wrists, Devilsaur gloves and legs, Heroism belt and boots, Painweaver Band, Blackstone Ring, Blackhand's Breadth, Hand of Justice. Weapons: the Black Morass mace and dagger, or Dal'Rend's [[d:warrior#1446906865094230048]], [[d:warrior#1446908542165582036]]. Devilsaur is still the standard hit and AP pick [[d:warrior#1447683897788993666]], [[d:warrior#1447687244755370014]].
 - **T0.5** is "much better on Turtle than in Classic". Farm the first 6 pieces and skip the final chest-upgrade step [[d:warrior#1493577797183082536]], [[d:warrior#1494031529998028912]].
 - **Helm:** Lionheart Helm lost its Strength. **Darkflame Helm** from Kara10 is "the new LHH" [[d:warrior#1481286310902632518]], [[d:warrior#1443005407374213251]].
 - **Pre-raid dungeons:** Stormwind Vault, Black Morass, Karazhan Crypt, SM/Scholomance/Dire Maul, BRD [[d:warrior#1453613945188253869]].
@@ -231,7 +231,7 @@ There is no endorsed static BiS list. The item pool is large and custom, so sim 
 | MC | **Bonereaver's Edge** (BRE) | BiS until Untamed Blade; very rare (one guild saw none in 21 MC clears) [[d:warrior#1486769090621083710]], [[d:warrior#1468736485930045572]]; its armor proc makes it strong on trash, and its Whirlwind proc works again [[d:warrior#1458817145235443712]] |
 | MC stopgap | Obsidian Edged Blade, Unstoppable Force | [[d:warrior#1463999738230738965]], [[d:warrior#1468764524831051866]] |
 | BWL | **Untamed Blade** | +300 Strength proc, ~53% observed uptime; pulls ahead of BRE once boss armor is already low [[d:warrior#1457168353427849288]], [[d:warrior#1491812754808635512]] |
-| BWL (crafted) | Elementium Reaper (axe) / Elementium Champion (sword) | Top-3 alongside UTB and BRE per one tester; others call them underwhelming. Their haste procs do not shorten Slam. Needs Axesmith/Swordsmith and the BoP Elementium Sharpening Stone [[d:warrior#1487942059120787627]], [[d:warrior#1489013086848291028]], [[d:warrior#1486574899953799360]] |
+| BWL (crafted) | Elementium Reaper (axe) / Elementium Champion (sword) | "Untamed Blade, BRE, Elementium Reaper are top 3 IMO" per one tester; others call them underwhelming. Their haste procs do not shorten Slam. Needs Axesmith (Reaper) or Swordsmith (Champion), and consumes a BoP, single-use Elementium Sharpening Stone [[d:warrior#1487899783925334148]], [[d:warrior#1489013086848291028]], [[d:warrior#1486574899953799360]], [[d:warrior#1490124384684478474]] |
 | Naxx | Might of Menethil; Severance on bosses, BRE on trash | [[d:warrior#1461803737277534489]], [[d:warrior#1459618355102220340]] |
 | Kara40 | Checkmate ("basically MoM") | [[d:warrior#1461813377008664859]] |
 
@@ -303,7 +303,7 @@ Turtle raids use **no world buffs** [[d:warrior#1419751583184457878]].
 ## Macros and addons
 
 - **Client mods:** SuperWoW (a client DLL, not an addon), Nampower and UnitXP [[d:warrior#1456366788072964210]], [[d:warrior#1378002463109681244]].
-- **Macro addon:** use **SuperCleveRoidMacros** ("delete roids and use supercleveroidmacros"). Every macro needs a `#showtooltip` line or its icon gets overwritten [[d:warrior#1481742948914958579]], [[d:warrior#1481769843844714658]].
+- **Macro addon:** use **SuperCleveRoidMacros** ("delete roids and use supercleveroidmacros") [[d:warrior#1481742948914958579]]. A `#showtooltip` line makes the addon overwrite your macro's chosen icon with the showtooltip target's icon; there is a setting to disable this in the addon's support options [[d:warrior#1481769843844714658]].
 - **Rage-dump Heroic Strike:** `/cast [mypower:>80]Heroic Strike` [[d:warrior#1481247907062611998]]. Keep Heroic Strike/Cleave on the mouse wheel rather than inside every ability macro [[d:warrior#1446259180825739456]].
 - **DW filler:** `/cast Master Strike` / `/cast [nozone:...] Pummel` / `/cast Hamstring` / `/cast Sunder Armor` [[d:warrior#1486117681081090100]]. Use `nozone` to stop Pummel on Medivh, where interrupts add enrage stacks [[d:warrior#1453090956743147632]].
 - **Charge/Intercept:** `/cast [nocombat] Charge` + `/cast [combat] Intercept` [[d:warrior#1481988133418434797]].
@@ -313,7 +313,7 @@ Turtle raids use **no world buffs** [[d:warrior#1419751583184457878]].
 
 - **MC:** cleave Sulfuron's pack [[d:warrior#1446257693374550119]]. Keep the two "double golems" apart [[d:warrior#1424775608055107654]].
 - **BWL:** Sunder on the first GCD even when a paladin tanks Vael; one reviewed log had only 4 stacks after 44 s [[d:warrior#1431722872363024435]]. Melee wear the Onyxia Scale Cloak on Firemaw and Nefarian [[d:warrior#1432580991200919656]], [[d:warrior#1432582059502604378]].
-- **AQ40:** Viscidus needs Frost Oil or Coldrage Daggers, and Sappers are "BiS" there [[d:warrior#1430634477323026604]]. Thunderfury is weak here because most trash resists Nature [[d:warrior#1469092264889290844]].
+- **AQ40:** Viscidus needs Frost Oil or Coldrage Daggers, and Sappers are "BiS" there [[d:warrior#1430634477323026604]]. Thunderfury's proc mostly loses value against the final bosses, which resist all damage types highly; AQ40 doesn't otherwise have widespread nature-resistant trash [[d:warrior#1469092547405021418]], [[d:warrior#1469092584612823254]].
 - **Naxx:** Death Wish twice on long fights [[d:warrior#1424111495624528033]]. On Anub'Rekhan, stand between the flanking guards so Sweeping Strikes + Whirlwind hits the boss three times [[d:warrior#1480309441235648705]]. On Kel'Thuzad phase 1, don't pop Death Wish and then die to the Abomination combo [[d:warrior#1424111737132810465]].
 - **Kara40:** see [Tower of Karazhan](../../instances/tower-of-karazhan.md). Kara40 needs 35+ raiders [[d:warrior#1486676103052525569]]. On Kruul, full-DPS Fury off-tanks were "disastrous", but "Rupturan, Sanv, and Mediv, you could easily do as Fury" [[d:warrior#1494362473690697748]], [[d:warrior#1494362782508908555]].
 

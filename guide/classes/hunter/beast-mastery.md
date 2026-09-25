@@ -124,7 +124,7 @@ Pet abilities: see [Pets](pets.md#which-abilities-to-autocast). In short: Raptor
 ## AoE rotation
 
 - **2+ targets:** Multi-Shot replaces Arcane in the loop [[d:hunter#1493031293343236346]]. **3+ targets:** open with **Volley** (baseline, 3 s cast) [[d:hunter#1486055681734869063]].
-- BM AoE is only "acceptable" [[d:hunter#1492997804157571284]]. For dungeon and trash AoE, use a **Gorilla**: Thunderstomp does AoE damage, reduces AP and adds high threat. Pre-pop it with Devilsaur Tooth, Bestial Wrath or Blood Fury for a guaranteed big crit [[d:hunter#1491405605594861578]], [[d:hunter#1491403469498744902]], [[d:hunter#1491457222100652166]]. A competitive Gorilla needs 5/5 Frenzy [[d:hunter#1494152079743389828]].
+- BM AoE is only "acceptable" [[d:hunter#1492997804157571284]]. For dungeon and trash AoE, use a **Gorilla**: Thunderstomp does AoE damage, reduces AP and adds high threat. Pre-pop Bestial Wrath or Blood Fury before it fires for a chance at a big crit [[d:hunter#1491403469498744902]]. A competitive Gorilla needs 5/5 Frenzy [[d:hunter#1494152079743389828]].
 
 ## Cooldowns
 

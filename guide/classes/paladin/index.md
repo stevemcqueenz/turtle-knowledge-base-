@@ -35,7 +35,7 @@ Ret's two builds are close: SoR still holds most top Kara40 spots, "Top 4/5 in K
 
 | Area | Change | What it means in play |
 |---|---|---|
-| All | **Holy Strike** now deals weapon damage + Holy damage (rank 8: 40% weapon damage + 129-146), spell power scaling 43% → 71% | Holy Strike scales with your weapon and Strength; it opens most fights [[d:paladin#1483567863577968650]] |
+| All | **Holy Strike** now deals weapon damage + Holy damage (rank 8: 40% weapon damage + 129-146), spell power scaling 43% → 71% | Holy Strike scales with your weapon and Strength; it opens most fights [[d:paladin#1483567863577968650]], [[d:paladin#1483567337985671262]] |
 | Ret | **Seal of Command 7 → 9 PPM**; Crusader Strike rank 5 90% → 100% weapon damage; Repentance ticks with 8% AP | SoC Ret is competitive again [[d:paladin#1485468559441137884]] |
 | Prot | Holy Shield threat 30% → 50%; **Righteous Strikes** now +25% Holy Strike damage and threat, with Crusader Strike granting Zealous Defence | About 10% more threat at high-end gear [[d:paladin#1485350693312397362]] |
 | All | **Consecration** +8% and front-loaded (first tick 156% of the old value, last 44%) | Better on fast-dying trash and for pull threat |

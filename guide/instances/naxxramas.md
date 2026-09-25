@@ -45,7 +45,7 @@
 | Role | Job |
 |---|---|
 | Tank | He "hits like a noodle", so a rage-starved Deep Prot warrior can lose threat to a couple of parried Shield Slams; some go Fury Prot [[d:warrior#1433041880400265321]], [[d:warrior#1433043053450629150]] |
-| DPS | Pop your main cooldown on the pull [[d:rogue#1423574326233399348]]. Fast raids kill him before Insect Swarm [[d:rogue#1423675298591019071]]. Best Demonology AoE fight (Felstorm) [[d:warlock#1436396975485354085]]. A warrior between the two Crypt Guards and the boss can Sweeping Strikes + Whirlwind him three times [[d:warrior#1480308803252523110]] |
+| DPS | Pop your main cooldown on the pull [[d:rogue#1423574326233399348]]. Fast raids kill him before Insect Swarm [[d:rogue#1423675298591019071]]. Best Demonology AoE fight (Felstorm) [[d:warlock#1436396975485354085]] |
 | Watch out | Improved Berserker Rage removes his roots [[d:warrior#1421142174874996736]] |
 
 **Grand Widow Faerlina**
@@ -59,11 +59,11 @@
 **Maexxna**
 | Role | Job |
 |---|---|
-| Tank | **Web Spray stuns the tank, so no dodge/parry/block** [[d:warrior#1426970726023434467]] (a paladin found dodges and misses still happen while wrapped — **Contested** [[d:paladin#1462105230819725444]]). Rotate cooldowns over the sprays: "LGG 1st, Last Stand 2nd, Shield Wall 3rd" [[d:warrior#1439308936716091463]]; some Fury-tank until the spray, then equip a shield [[d:warrior#1439289801898721360]]. Shamans are poor Maexxna tanks (no defensive cooldown) [[d:shaman#1426710530256535562]] |
+| Tank | **Web Spray stuns the tank, so no dodge/parry/block** [[d:warrior#1426970726023434467]] (a paladin found dodges and misses still happen while wrapped — **Contested** [[d:paladin#1462105230819725444]]). Rotate cooldowns over the sprays: "LGG 1st, Last Stand 2nd, Shield Wall 3rd" [[d:warrior#1439308936716091463]]; some Fury-tank until the spray, then equip a shield [[d:warrior#1439289801898721360]]. **Contested:** shamans lack a defensive cooldown for the web-stun windows, but one player said a shaman can tank Maexxna fine if the raid kills her before the web wrap comes out [[d:shaman#1426710530256535562]] |
 | Healers | **Divine Intervention trick:** a paladin DIs a healer before the pull and before each web wrap, so the healer pops out to heal the MT; with Improved Lay on Hands, LoH the tank just before the wrap for 30% armor [[d:paladin#1465797002422911018]], [[d:paladin#1466097683629342991]]. Druids near the visible buff cap can silently fail to apply HoTs or Abolish Poison [[d:druid#1316027928500244583]] |
 | DPS | Many raids kill her before the first Web Spray [[d:rogue#1423675359550902333]], [[d:shaman#1429947652145021069]]. Spiderlings pad the meter; time big AoE with their spawn [[d:mage#1438174915672150056]], [[d:warlock#1464512789534998570]] |
 | Watch out | She can Web Wrap **twice**; a tank who blew every cooldown on the first died [[d:paladin#1462102962041000029]] |
-| Class jobs | Hunter Feign Death timed ~0.5 s before the spray, or a rogue Vanish in the 1-second immunity window, dodges it [[d:hunter#1486900121730814142]], [[d:rogue#1479856314137186385]] |
+| Class jobs | Hunter Feign Death timed ~0.5 s before the spray, or a rogue Vanish in the 1-second immunity window, dodges it [[d:hunter#1486900121730814142]], [[d:rogue#1479856314137186385]], [[d:rogue#1479858864898834432]] |
 
 ### Plague Wing
 
@@ -72,7 +72,7 @@
 **Heigan the Unclean**
 | Role | Job |
 |---|---|
-| Tank | Taunt can be resisted [[d:warrior#1487489449251049632]]. The "Heigan cheese" positioning is consistent once the tank knows the spots [[d:warrior#1459667663474393171]], [[d:warrior#1459667922078400685]]. A paladin MT can be one-shot by the mana burn if not decursed [[d:paladin#1447924464451850240]]; shamans generally cannot tank him [[d:shaman#1426710448459218944]] |
+| Tank | Taunt can be resisted [[d:warrior#1487489449251049632]]. The "Heigan cheese" positioning is consistent once the tank knows the spots [[d:warrior#1459667663474393171]], [[d:warrior#1459667922078400685]]. A paladin MT can be one-shot by the mana burn if not decursed [[d:paladin#1447927073237635082]]; shamans generally cannot tank him [[d:shaman#1426710448459218944]] |
 | Healers | Mostly ranged healing [[d:paladin#1429351510759706676]], though some holy paladins melee-heal while dancing ("100% do it on heigan") [[d:paladin#1482319532700991570]] |
 | DPS | Hold off while he casts; aggro gets dicey mid-dance [[d:warrior#1462060310541369589]]. Hunters can Feign Death on the platform through the dance [[d:hunter#1488027298061091017]], [[d:hunter#1488028667798884353]] |
 | Class jobs | Shadow priests need range (Shadow Reach) here [[d:priest#1454802940958347295]]. Enhancement shamans: melee after a mana burn rather than shocking; Mageblood, Tea, Water Shield [[d:shaman#1451610016069976064]]. Warlock Imps walk into range and get mana-burned dry [[d:warlock#1465198561955418367]] |
@@ -83,7 +83,7 @@
 |---|---|
 | Tank | Full-mitigation tank + melee-healing paladins "trivialize the healer mechanic" [[d:paladin#1382265813800714351]] |
 | Healers | Designed to punish heal-bot addons [[d:paladin#1448374846785454130]]. Some guilds use no direct heals at all, only HoTs and shadow priest healing [[d:shaman#1428129323189272676]]. Holy Strike's heal is not blocked by the debuff, but it counts as a cast [[d:paladin#1462811299619672281]], [[d:paladin#1455221253823795282]] |
-| DPS | Fire mages and boomkins top the meters here [[d:mage#1444812675610710076]], [[d:druid#1474319874485653514]]; save a Sapper [[d:warrior#1428910349775540285]]; warlocks steal the first spore [[d:warlock#1496149965825904764]]. Shadow Protection pot [[d:warrior#1459717421219975312]] |
+| DPS | Fire mages and boomkins top the meters here [[d:mage#1444812675610710076]], [[d:druid#1474319874485653514]]; save a Sapper [[d:warrior#1428910349775540285]]; warlocks steal the first spore [[d:warlock#1496149965825904764]] |
 | Class jobs | Rogues: Deadly + Corrosive, or Dissolvent to exploit the spore crit buff [[d:rogue#1444686074046578700]], [[d:rogue#1480263419725873252]]. BM hunters fall behind because the pet does not get the spore buff [[d:hunter#1489049723296944198]]. Boomkins: major mana potion early, tea/rune, self-Innervate at 50-60% mana while running for a spore [[d:druid#1317490212661760002]] |
 | Watch out | A reported, unfixed Loatheb bug ([Manolothegreat (player), 2026-03-05](https://forum.turtlecraft.gg/viewtopic.php?p=170103#p170103)) — details not given |
 
@@ -105,7 +105,7 @@
 |---|---|
 | Tank | At least 4 dedicated tanks; many guilds field ~7 tank-capable players plus a rogue [[d:warrior#1440843099168313426]], [[d:warrior#1440843797452820652]], [[d:druid#1404825931893313568]]. Use **Taunt**, not Mocking Blow or Challenging Shout — Taunt copies the top threat value [[d:warrior#1379003122881658973]]. Taunt needs spell hit (16% base miss); Nat Pagle's Broken Reel and the T3 4-piece help [[d:druid#1464013456167669915]], [[d:warrior#1434750016345346089]]. **Do not taunt Blaumeux during her ~1 s Void Zone cast** — she bugs and will not switch targets [[d:warrior#1434755616588562462]]. Aim for ~6.5k HP buffed [[d:warrior#1440845928193069119]]; Thane and Mograine can hit much harder on some pulls [[d:warrior#1352218686349639730]] |
 | Healers | Shadow Protection potion [[d:warrior#1459717421219975312]] |
-| DPS | **Thane burn:** all DPS on Thane at the pull; pre-pot Shadow Protection so you can re-pot after mark 4; Curse of Recklessness and Faerie Fire immediately [[d:warrior#1459665085034135737]], [[d:warrior#1459666884432630056]]. Shield Wall triggers at 50% and 20% (20 s each; skipped if 20% comes within 30 s of the first); time burst to the Shield Wall ending [[d:warrior#1430031704332173382]], [[d:warrior#1430071296653262948]]. If Thane (or Mograine) reaches Shield Wall at the start, melee "have it in the bag"; two mark-4/5 stacks on one player is a wipe; ~80 s per horseman is enough; the fewer horsemen alive when things go wrong, the fewer tank/heal teams you need, and the last two (Blaumeux, Zeliek) can be finished by ~10 people [[d:warrior#1466473793206882621]], [[d:warrior#1466476382325575823]], [[d:warrior#1466477051140898927]], [[d:warrior#1467005062646861876]], [[d:warrior#1467005168137666704]] |
+| DPS | **Thane burn:** all DPS on Thane at the pull; pre-pot Shadow Protection so you can re-pot after mark 4; Curse of Recklessness and Faerie Fire immediately [[d:warrior#1459665085034135737]], [[d:warrior#1459666884432630056]]. Shield Wall triggers at 50% and 20% (20 s each; skipped if 20% comes within 30 s of the first); time burst to the Shield Wall ending [[d:warrior#1430032331799924818]], [[d:warrior#1430071296653262948]]. If Thane (or Mograine) reaches Shield Wall at the start, melee "have it in the bag"; two mark-4/5 stacks on one player is a wipe; ~80 s per horseman is enough; the fewer horsemen alive when things go wrong, the fewer tank/heal teams you need, and the last two (Blaumeux, Zeliek) can be finished by ~10 people [[d:warrior#1466473793206882621]], [[d:warrior#1466476382325575823]], [[d:warrior#1466477051140898927]], [[d:warrior#1467005062646861876]], [[d:warrior#1467005168137666704]] |
 | Class jobs | **Zeliek's chain:** split the raid into 3 camps by range so the chain hits only 2-3 people [[d:paladin#1478915474119983145]], [[d:paladin#1478915838743547907]]. The first mark does nothing [[d:paladin#1478912511712694313]]. Hunters: Feign Death just before a mark lands avoids it [[d:hunter#1488027298061091017]]; many do not send the pet on Zeliek [[d:hunter#1481942682832998443]], [[d:hunter#1484474872087183434]]. Warlocks: no Shadowburn on Zeliek, watch aggro [[d:warlock#1496149965825904764]]; demons tend to die to the marks [[d:warlock#1418726573242323167]]. Mages favor the shorter-cooldown REOS trinket on this long fight [[d:mage#1457492358173167616]] |
 | Watch out | Enrage timer ~20 minutes [[d:warrior#1493773901518344202]] |
 
@@ -114,8 +114,8 @@
 **Patchwerk**
 | Role | Job |
 |---|---|
-| Tank | **Hateful Strike** hits whichever of the 2nd-4th threat players has the most HP (~30k pre-armor) [[d:shaman#1484545083171930193]]. Soakers need 1H hit cap and maximum stamina; avoidance does nothing (hatefuls cannot crit and an avoided hateful gives no threat) [[d:warrior#1441252207855927477]], [[d:warrior#1459500871669911679]]. Example OT check: ~7.4k HP with Titans flask, Zanza, food and buffs, 12-14k armor [[d:warrior#1462838981979803864]]. Greater Stoneshield [[d:paladin#1462761249325711431]]. "Marbles" can reset his aggro if an OT dies [[d:warrior#1462839065593253969]] |
-| DPS | The ideal feral cat fight [[d:druid#1335975931491254344]]. Badge of the Swarmguard is worth it (high armor) [[d:shaman#1444826049912377384]] |
+| Tank | **Hateful Strike** hits whichever of the 2nd-4th threat players has the most HP (~30k pre-armor) [[d:shaman#1484545249891192913]], [[d:shaman#1484545285458890855]]. Soakers need 1H hit cap and maximum stamina; avoidance does nothing (hatefuls cannot crit and an avoided hateful gives no threat) [[d:warrior#1441252207855927477]], [[d:warrior#1459500871669911679]]. Example OT check: ~7.4k HP with Titans flask, Zanza, food and buffs, 12-14k armor [[d:warrior#1462838981979803864]]. Greater Stoneshield [[d:paladin#1462761249325711431]]. "Marbles" can reset his aggro if an OT dies [[d:warrior#1462839065593253969]] |
+| DPS | The ideal feral cat fight [[d:druid#1335975931491254344]] |
 
 **Grobbulus:** a disease-dispel bug makes the puddles spawn invisibly away from the dispelled player [[d:hunter#1484723913412968448]], [[d:hunter#1484724672431001613]]. Demons keep repositioning in front of him [[d:warlock#1465207408497262716]].
 

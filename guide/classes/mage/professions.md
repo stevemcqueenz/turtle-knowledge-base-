@@ -22,7 +22,7 @@
 - **1.18.1 goggles:** you craft the new Engineering goggles, then upgrade them with an item from the new BWL boss [[d:mage#1484999614477373665]]. Their proc gives **+200 SP and -10% haste**. That should be strong for AoE and weak for single target, because the haste loss "almost cancels out" the spell power (single source) [[d:mage#1494315992212574228]], [[d:mage#1494315772955066569]].
 - **Leveling:** the Green Lens "of Wrath" (+35 damage) needs Engineering and was suggested around level 40 [[d:mage#1437749265530224680]].
 - **Utility:** Engineering portals to Gadgetzan and Everlook add "even more portals" [[d:mage#1455634315621826561]], [[d:mage#1453808304160506000]].
-- **Gnomish or Goblin?** The mage channel has no answer to this [[d:mage#1488169137459953705]]. One player suggests a race-change trick: level as a Gnome, craft the Gnome-only BoP items, then switch to Goblin to craft your own rocket boots (single source) [[d:mage#1488174450477240420]].
+- **Gnomish or Goblin?** The mage channel has no answer to this [[d:mage#1488169137459953705]], [[d:mage#1488169284512382987]]. One player suggests a race-change trick: level as a Gnome, craft the Gnome-only BoP items, then switch to Goblin to craft your own rocket boots (single source) [[d:mage#1488174450477240420]].
 - The **Goblin Brainwashing Device** (4 saved talent builds, about 350g) comes from Gurubashi Arena or the donation shop, not from Engineering. Most mages who swap specs buy one [[d:mage#1484748330004250786]], [[d:mage#1493987631833284648]], [[d:mage#1480899652470440081]].
 
 ### Tailoring

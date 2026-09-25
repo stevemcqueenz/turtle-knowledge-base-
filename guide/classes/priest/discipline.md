@@ -77,7 +77,7 @@ Without the T3 6-piece, skip the shield talents. After the latest patch "I don't
 3. **Crit after 10% haste.** Haste past 10% has little value; after that, crit scales with the Purifying Flames rotation [[d:priest#1491436651363434676]], [[d:priest#1488229451882823920]]. Roughly 1% crit ≈ 12 spell power, but this moves with your gear [[d:priest#1474554280303132742]], [[d:priest#1460092939824009236]].
 4. **Holy spell power**, then Intellect and mana.
 
-At high ping (~250 ms) 10% haste may not be enough. Test in-game and watch for "spell not ready" errors [[d:priest#1470968763804287141]], [[d:priest#1470972310453485631]].
+At high ping (~250 ms) 10% haste may not be enough [[d:priest#1470968763804287141]]. Test in-game and watch for "spell not ready" errors [[d:priest#1470972647482331413]], [[d:priest#1470972310453485631]].
 
 ## Single-target rotation
 
@@ -106,7 +106,7 @@ Watch for resists. If the set's DoT is resisted, it also removes your Shadow Wor
 
 ### Full T3 (8-piece) opener
 
-`Chastise` → `Holy Fire` → `Power Word: Shield` → 2× `Smite` → `Holy Fire`. After that, build Chastise and shield stacks toward Blessed Wildfire. HolyScheiss calls it "more loose and fun" than a strict rotation, with 5-6k+ Holy Fire crits fully buffed [[d:priest#1504764793372803122]]. Early on, the T3 4-piece stacks capped at 4 in testing, and a bug report was filed [[d:priest#1484694932798312569]], [[d:priest#1486379322062274571]].
+`Chastise` → `Holy Fire` → `Power Word: Shield` → 2× `Smite` → `Holy Fire`. After that, build Chastise and shield stacks toward Blessed Wildfire. HolyScheiss calls it "more loose and fun" than a strict rotation, with 5-6k+ Holy Fire crits fully buffed [[d:priest#1504764793372803122]]. Early on, the T3 4-piece stacks capped at 4 in testing, and a bug report was filed [[d:priest#1484589517703741631]], [[d:priest#1486379322062274571]].
 
 ## AoE
 

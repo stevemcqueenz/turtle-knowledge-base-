@@ -104,7 +104,7 @@ What to press in each bracket on the recommended **Smite/Holy** path (talent ord
 **Single target (the wand phase):**
 
 1. `Inner Fire` and Fortitude up.
-2. `Power Word: Shield` on yourself if the mob hits hard or two are coming [[d:priest#1436055370169712821]].
+2. `Power Word: Shield` on yourself if the mob hits hard or two are coming (vanilla baseline).
 3. `Shadow Word: Pain`.
 4. `Shoot` until it dies. From 13, Greater Magic Wand + 2/2 Wand Specialization does more damage than your spells [[d:priest#1468158386821660827]]. Opening with Mind Blast is optional, and it costs mana you would rather keep.
 5. Let Spirit Tap refill your mana instead of sitting down. Drink only when a pull starts below about a third of your mana (vanilla baseline).
@@ -148,9 +148,9 @@ Do not pull 3+ on purpose yet: you have no AoE.
 
 1. Keep max-rank `Renew` on the tank. Put a Renew on warlocks who Life Tap, rather than ignoring them [[d:priest#1404752891054657586]].
 2. When the tank drops, pre-cast max-rank `Heal`, and cancel it at about two-thirds if the tank does not need it [[d:priest#1409428375700770889]].
-3. `Flash Heal` only when even Heal spam cannot keep the tank up. It costs more mana and heals less per second [[d:priest#1409428375700770889]], [[d:priest#1471253529334382634]].
+3. `Flash Heal` only when even Heal spam cannot keep the tank up. It costs more mana and heals less per second [[d:priest#1471253529334382634]].
 4. `Power Word: Shield` if the tank will not live until your next cast lands [[d:priest#1409428375700770889]].
-5. `Fear Ward` on the tank before fearing bosses [[d:priest#1447464110588428309]]. `Shackle Undead` on an extra undead mob in Scarlet Monastery Graveyard or Razorfen Downs (vanilla baseline).
+5. `Fear Ward` on the tank before fearing bosses [[d:priest#848446155523227678]]. `Shackle Undead` on an extra undead mob in Scarlet Monastery Graveyard or Razorfen Downs (vanilla baseline).
 6. **Mana:** a big heal, then 5+ seconds of wanding or nothing, with Renew ticking. Drink between pulls, not during them.
 
 ### Levels 30–39
@@ -205,7 +205,7 @@ Use `Renew` and `Heal`, and skip Lesser Heal. Keep `Power Word: Shield` → `Fla
 3. `Shadow Word: Pain`.
 4. `Mind Flay` ×2.
 5. Wand to finish if another cast is not worth it [[d:priest#1415763183548895383]], or wand while SW:P ticks [[d:priest#1415765173549006889]]. Troll: keep Shadowguard up [[d:priest#1415765173549006889]].
-6. **Multi-target:** SW:P on each mob, Mind Flay the kill target, and `Psychic Scream` when they reach you. Shadow has no real AoE [[d:priest#1472910100401360992]].
+6. **Multi-target:** SW:P on each mob, Mind Flay the kill target, and `Psychic Scream` when they reach you. Shadow has no real AoE [[d:priest#1472909182041849967]].
 
 **Healing (dungeons): Zul'Farrak, Maraudon, Sunken Temple**
 
@@ -229,7 +229,7 @@ Use `Renew` and `Heal`, and skip Lesser Heal. Keep `Power Word: Shield` → `Fla
 4. Mind Blast or Smite for the killing blow (Spirit Tap). SW:P only while moving [[d:priest#1489729086015279258]].
 5. Self-buff `Enlighten` at 58.
 
-**Multi-target (Smite):** Dire Maul East lasher packs from about 50: `Power Word: Shield` on yourself, then `Holy Nova` spam. A full pack takes about 9 rank-1 Novas (~6k mana) [[d:priest#1432727974754521100]], [[d:priest#1354596333456986244]]. See [Gold and farming](#gold-and-farming). In normal questing, stay single-target.
+**Multi-target (Smite):** Dire Maul East lasher packs from about 50: `Power Word: Shield` on yourself, then `Holy Nova` spam. A full pack takes about 9 rank-1 Novas (~6k mana) [[d:priest#1354596333456986244]]. See [Gold and farming](#gold-and-farming). In normal questing, stay single-target.
 
 **Shadow path:** same loop as 40–49 with the new ranks. Use `Vampiric Embrace` on longer fights and elites for self-healing (see [Shadow](shadow.md#single-target-rotation)).
 
@@ -303,7 +303,7 @@ Wanding beats casting early on. At 13, Greater Magic Wand + 2/2 Wand Specializat
 - Upgrade your wand aggressively before 30 [[d:priest#1484713006725071071]].
 - Weapon enchant: Intellect early, spell power from about 45 [[d:priest#1472214732256837682]].
 - Vanilla pre-raid lists are "almost completely wrong for Turtle", because Turtle added +hit to many leveling items [[d:priest#1324445705611378792]].
-- Night Elf bows (from 20, via Searing Shot) are flavour and PvP tools. They have no spell power and a deadzone, and wands win at endgame [[d:priest#1473400271664058389]], [[d:priest#1474452374935310460]].
+- Night Elf bows (from 20, via Searing Shot) are flavour and PvP tools. They have no spell power and a deadzone, and wands win at endgame [[d:priest#1366072242039164969]], [[d:priest#1474452374935310460]].
 
 ## Dungeons worth running
 
@@ -325,7 +325,7 @@ Wanding beats casting early on. At 13, Greater Magic Wand + 2/2 Wand Specializat
 ## Professions
 
 - **First character:** double gathering (Herbalism + Mining or Skinning). Crafting professions are gold sinks until 60 [[d:priest#1464014152988233738]]. Tailoring and Enchanting are "traps" while leveling unless you invest in them [[d:priest#1356231640216764578]].
-- **Dungeon-leveling priest:** Tailoring + Enchanting (cloth goes to your own gear, plus disenchant income). Herbalism + Alchemy suits hardcore [[d:priest#1477162914807939163]], [[d:priest#1476626222048870450]].
+- **Dungeon-leveling priest:** Tailoring + Enchanting (cloth goes to your own gear, plus disenchant income). Herbalism + Alchemy suits hardcore [[d:priest#1476626222048870450]].
 - **Endgame:** Engineering is the only profession with real gameplay value, including the 1.18.1 BWL spell power goggles [[d:priest#1420896033189396512]], [[d:priest#1486384331227398216]]. Engineering + Alchemy is the usual PvE pair [[d:priest#1484601941563539657]].
 
 ## Gold and farming

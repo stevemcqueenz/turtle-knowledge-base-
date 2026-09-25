@@ -69,7 +69,7 @@ There is no separate "pure spell" Ret any more: "all rets are some shade of hybr
 **How to choose:**
 
 1. **Fresh 60 or leveling:** SoC. SP cannot be stacked high enough early for SoR to pull ahead [[d:paladin#1448260053181136937]]; with an Untamed Blade and only ~139 spell power "you should be using seal of command" [[d:paladin#1468466625534755112]].
-2. **Tier 2.5 5-piece and a proc weapon:** SoR generally overtakes SoC once you have the T2.5 set [[d:paladin#1468466713258623140]].
+2. **Tier 2.5 5-piece and a proc weapon:** SoR generally overtakes SoC once you have the T2.5 set [[d:paladin#1468467181770510450]].
 3. **No Windfury Totem (Tel'Abim, or no Alliance-side shaman):** SoR. "SoR still kinda works on TA without WF, SoC doesn't" [[d:paladin#1431945536927436872]]; "On TA, spelladin wins because SoC really suffers from not having WF" [[d:paladin#1464116936093859983]].
 4. **You own both Tier 2 3-pieces (Ret and Prot) and the Lost set:** Necrodin for long bosses, a normal set for trash [[d:paladin#1472800680434598134]].
 
@@ -329,7 +329,7 @@ Necrodin wears **three Ret Tier 2 pieces + three Protection Tier 2 pieces**, **t
 | Tier 1 (Ret) 3-piece | +3% hit and Judgement damage [[d:paladin#1423456526793965779]] | SoC takes it for the hit [[d:paladin#1434496108138201108]] |
 | **Tier 2 (Ret) 3-piece** | Holy spellstrike on autos that counts as a spell cast; procs Sigil, Wrath of Cenarius, the Lost, the Sunken Temple chest, Insomnius [[d:paladin#1460924106487759004]], [[d:paladin#1456009237892169800]] | Required for SoR [[d:paladin#1434497262985154671]]; doubled (with the Protection 3-piece) for Necrodin. Kept in 1.18.1 by the designer's choice [[d:paladin#1486109344486653954]] |
 | Tier 2 5-piece / 8-piece | The 5-piece "was beaten down" [[d:paladin#1434740783063371837]] | Skip |
-| **Tier 2.5 (Ret/Prot) 3-piece** | +15% Judgement of Righteousness/Command damage (1.18.1) ([Jamey (staff)](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)) | Tier 2.5 is BiS for both builds through Naxx [[d:paladin#1464113164659589288]]; nobody goes past 4 pieces since the 6-piece was cut [[d:paladin#1491154254562459788]] |
+| **Tier 2.5 (Ret/Prot) 3-piece** | +15% Judgement of Righteousness/Command damage (1.18.1) ([Jamey (staff)](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)) | Tier 2.5 is BiS for both builds through Naxx [[d:paladin#1464113164659589288]]; nobody goes past 4 pieces since the 6-piece was cut [[d:paladin#1491154254562459788]], [[d:paladin#1491154330437288090]] |
 | Tier 3 (Ret) | AP instead of Strength, weak bonuses; 4 pieces is the practical maximum [[d:paladin#1456666424260038656]], [[d:paladin#1347336504543805462]] | SoC off-pieces |
 | **Tier 3.5 (Ret) 5-piece** | Crusade: 4% attack speed for 20 s, non-stacking (1.18.1) ([Jamey (staff)](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)) | Kara40 core |
 | The Lost (3-piece) | Summons ghosts from spell hits [[d:paladin#1473599314499731466]] | Necrodin only |
@@ -413,7 +413,7 @@ Ret is one of the most consumable-hungry specs, about 15 potions per raid [[d:pa
 - **[Tower of Karazhan](../../instances/tower-of-karazhan.md)**: Anomalus and Kruul punish mana-using melee [[d:paladin#1429176144347005101]], [[d:paladin#1445222573431328768]]. On Kruul a paladin's job can be to wear fire resistance and drag each new Infernal out of the melee stack with Exorcism and Judgement [[d:paladin#1457970802442899541]].
 - **[Lower Karazhan Halls](../../instances/lower-karazhan-halls.md), Moroes**: a Ret in plate with Righteous Fury can off-tank the repeated stuns and threat drops (not in a zero-Stamina set) [[d:paladin#1453195049016758433]].
 - **[Onyxia's Lair](../../instances/onyxias-lair.md)** new boss: its trash puts a fire debuff on melee that paladins and priests must dispel [[d:paladin#1484605320193114394]]. It drops the Libram of Ardour.
-- **Nightfall**: rets are common carriers. One Kara40 log showed 86k-140k extra raid damage per boss from its procs [[d:paladin#1434656825957154826]]. Rotate the job; it costs the carrier personal DPS and loot priority [[d:paladin#1481765165325353053]].
+- **Nightfall**: rets are common carriers. One Kara40 log showed 86k-140k extra raid damage per boss from its procs [[d:paladin#1434656825957154826]]. Rotate the job; it costs the carrier personal DPS and loot priority [[d:paladin#1441243566465613885]].
 - **Windfury is not everything**: Grey, a paladin without Windfury, out-damaged a rogue who demanded a Windfury group [[d:paladin#1486759814230052915]]. Consumables and uptime are the bigger levers: "you need to be fully consumed to do competitive damage in the raid" [[d:paladin#1486753231953465495]].
 - **Flametongue Totem bug (April 2026)**: Flametongue briefly scaled with spell power again and inflated SoR and Necrodin parses [[d:paladin#1490888484725067949]], [[d:paladin#1493259558431494244]]. Do not compare your logs against parses from that window.
 

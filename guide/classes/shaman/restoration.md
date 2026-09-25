@@ -80,7 +80,7 @@ Why:
 
 ## Stat priority
 
-1. **Healing power** and **haste**, roughly equal; Not Normal: "heal power > int > mp5 > (spirit doesn't even belong on this list, it does literally nothing for shamans)" [[d:shaman#1457836516368978143]]. For raw output haste is "by far our strongest point per stat", worth 12-20 healing power per 1% (more the more healing power you have) [[d:shaman#1491510178921582713]]. "Haste is like crack to restos" [[d:shaman#1455339348323991574]].
+1. **Healing power** and **haste**, roughly equal [[d:shaman#1457836629275316287]]; Not Normal: "heal power > int > mp5 > (spirit doesn't even belong on this list, it does literally nothing for shamans)" [[d:shaman#1457836516368978143]]. For raw output haste is "by far our strongest point per stat", worth 12-20 healing power per 1% (more the more healing power you have) [[d:shaman#1491510178921582713]]. "Haste is like crack to restos" [[d:shaman#1455339348323991574]].
 2. **Intellect.**
 3. **mp5**: never a primary consideration; only a tie-breaker when healing power is close [[d:shaman#1486787799154688234]].
 4. **Crit**: "does literally nothing useful for resto, unlike e.g. holy paladin" and adds overhealing [[d:shaman#1457838505907454105]].
@@ -95,7 +95,7 @@ Low spell ranks scale poorly with healing power (scaling depends on cast time), 
 
 1. **Drop totems**, then **Chain Heal rank 1** until the pack or phase is over; recall totems and move [[d:shaman#1446474284166811672]], [[d:shaman#1487131843328213013]].
 2. **Chain Heal rank 3** only when raid damage is heavy (it burns mana) [[d:shaman#1472590831775912169]], [[d:shaman#1464792806097682655]].
-3. **Healing Wave rank 3-4** for single-target top-ups: rank 3 is the most mana-efficient rank that isn't crippled by the GCD, rank 4 has almost full scaling [[d:shaman#1487131827796836525]]. Use rank 6+ as the main single-target heal once your healing power is good [[d:shaman#1464792806097682655]].
+3. **Healing Wave rank 3-4** for single-target top-ups: rank 3 is the most mana-efficient rank that isn't crippled by the GCD, rank 4 has almost full scaling [[d:shaman#1487131827796836525]]. Add rank 6+ as a secondary single-target heal once your healing power is good; rank 1 Chain Heal stays the raid-healing main [[d:shaman#1464792806097682655]].
 4. **Lesser Healing Wave (max rank)** for emergencies: highest single-target HPS but "an absolute mana demolisher"; don't downrank it [[d:shaman#1458535191810408539]], [[d:shaman#1487131827796836525]].
 5. **Ancestral Swiftness + max-rank Healing Wave** as the instant emergency heal [[d:shaman#1490128865564037250]].
 6. **Spirit Link** in burn or enrage phases when a tank is near death.

@@ -50,7 +50,7 @@ Tailoring is **contested**. It is great while leveling but weak at 60. Greendam 
 ### Alchemy and Herbalism
 
 - **Engineering + Alchemy** is the stated PvE endgame pair [[d:priest#1484601941563539657]]. Alchemy makes your own potions [[d:priest#1476626222048870450]] and covers part of the raid consumable stack on the [Discipline](discipline.md) and [Shadow](shadow.md) pages.
-- **Herbalism** is the usual partner for the lasher farm. It adds about 20% extra income there [[d:priest#1423308328791965809]], [[d:priest#1420896033189396512]].
+- **Herbalism** is the usual partner for the lasher farm. It adds about 20% extra income there [[d:priest#1420896033189396512]].
 
 ### Jewelcrafting (Turtle)
 

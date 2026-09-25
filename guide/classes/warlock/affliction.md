@@ -7,7 +7,7 @@
 | Role | Ranged DoT/channel DPS; raid curses (Shadow, Elements, Recklessness) |
 | Viability (1.18.1) | **A (raid); S (open world and PvP)** — the preferred solo-farming spec [[d:warlock#1479253067709943931]] and the top PvP spec [[d:warlock#1489224572174602251]], [[d:warlock#1491191968494256168]]. It was the default raid spec for most of 1.18.0 [[d:warlock#1459089158302863507]], [[d:warlock#1481757404067533113]]. After release, Demonology took the top boss parses [[d:warlock#1484828741267095563]]. Affliction stays "about as strong as Demo, #1 or close #2" on bosses per the class designer, since it is built for long fights [[d:warlock#1484625922316308482]], [[d:warlock#1484627935171444887]]. The easiest spec to gear and play well [[d:warlock#1433355089749348412]]. |
 | Difficulty | Low to medium. The rotation is simple, but good play takes DoT tracking addons and clean channel cancelling. |
-| Strengths | 10% free hit from Suppression [[d:warlock#1428561653750042717]]; no crit or pet RNG ("0 RNG so devs can tune it exactly") [[d:warlock#1464600465487560879]]; strong on long and multi-target boss fights (Gnarlmoon, Rupturan, Kruul, Thaddius) [[d:warlock#1435300266822996021]], [[d:warlock#1474517364098859120]] |
+| Strengths | 10% free hit from Suppression [[d:warlock#1428561653750042717]]; no crit or pet RNG ("0 RNG so devs can tune it exactly") [[d:warlock#1464854390467854418]]; strong on long and multi-target boss fights (Gnarlmoon, Rupturan, Kruul, Thaddius) [[d:warlock#1435300266822996021]], [[d:warlock#1474517364098859120]] |
 | Weaknesses | Weak on fast trash: DoTs barely tick before mobs die [[d:warlock#1334260677631541330]]; no real AoE [[d:warlock#1476324592841789571]]; high threat with no talent to reduce it [[d:warlock#1483588270486196435]]; channels get pushed back and lose ticks |
 
 Players will meet older advice: "Dark Harvest on cooldown" (2025) and "haste breakpoint tables". Both are superseded; see the sections below.
@@ -41,7 +41,7 @@ The decision loop for a level-60 raid boss with the 35/11/5 build. The reasons a
 
 ### Raid 35/11/5 (recommended)
 
-Afraido pinned this build on release day [[d:warlock#1484228321708478635]]. The same shape is the community wiki's "Affliction Drain" link. The only change is **2/3 Demonic Aegis** instead of 2/2 Sinister Pursuit. In 1.18.1 Sinister Pursuit took the old Improved Healthstone slot and speeds up the demon you are going to sacrifice anyway [[d:warlock#1484605293135663197]], [[d:warlock#1484606428130967623]], [[d:warlock#1484607150868136087]].
+Afraido pinned this build on release day [[d:warlock#1484228321708478635]]. The same shape is the community wiki's "Affliction Drain" link. The only change is **2/3 Demonic Aegis** instead of 2/2 Sinister Pursuit. In 1.18.1 Sinister Pursuit took the old Improved Healthstone slot and speeds up the demon you are going to sacrifice anyway [[d:warlock#1484606088291553392]], [[d:warlock#1484606428130967623]], [[d:warlock#1484607150868136087]].
 
 | Tree | Talent | Points |
 |---|---|---|
@@ -71,7 +71,7 @@ Split **35/11/5**, validated with `talent_tool.py` (VALID). Calculator codes:
 Why these points:
 
 - **Suppression 5/5** gives 10% hit to Affliction spells only, so you need just 6% from gear [[d:warlock#1432224779875778711]], [[d:warlock#1458088995580936354]].
-- **Rapid Deterioration 2/2** is a flat 6% haste on Affliction spells. At rank 2, all of your haste also speeds up DoT ticks; rank 1 applies only half of it [[d:warlock#1426373626063491158]], [[d:warlock#1442442344384299103]]. It does not affect Immolate, Hellfire or Rain of Fire [[d:warlock#1458924995320217798]].
+- **Rapid Deterioration 2/2** is a flat 6% haste on Affliction spells. At rank 2, all of your haste also speeds up DoT ticks; rank 1 applies only half of it [[d:warlock#1442442344384299103]]. It does not affect Immolate, Hellfire or Rain of Fire [[d:warlock#1458924995320217798]].
 - **Soul Siphon 3/3** makes Drain Soul hit harder for each Affliction effect on the target, which is why you keep four effects up [Dragunovi (staff), 2024-10-12](https://forum.turtlecraft.gg/viewtopic.php?p=102973#p102973). Curse of Shadows also counts as an effect [[d:warlock#1473750338766110893]].
 - **Malediction** makes Curse of Shadows, Elements or Recklessness also apply your highest-rank Curse of Agony [Torta (staff), 2025-03-30](https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504). It does not work with Curse of Tongues, Weakness or Doom [[d:warlock#1442719633319792802]].
 - **Shadow Vulnerability 5/5** (the old Improved Shadow Bolt) is a 20% shadow damage debuff. Drain Soul ticks can apply it since 1.18.0 [[d:warlock#1405907548908949636]].
@@ -249,7 +249,7 @@ Enchants that say "attack speed" count as haste and speed up your casts too [[d:
   /run if not CastingBarFrame.channeling then CastSpellByName("Drain Soul") end
   ```
 - A full Cursive priority chain (Siphon Life → Corruption → Curse of Agony) was shared by Frolegacy [[d:warlock#1481741196404723823]]. A simpler Curse of Agony → Corruption → Siphon Life → Drain Soul chain was shared by biloen [[d:warlock#1480624630120185978]].
-- Avoid one-button castsequence macros. They cannot see resists or another warlock's DoTs and will clip your own [[d:warlock#1426230149959127154]], [[d:warlock#1425522140253519913]].
+- Avoid one-button castsequence macros. They cannot see resists or another warlock's DoTs and will clip your own [[d:warlock#1432928172717899902]], [[d:warlock#1425522140253519913]].
 
 ## Dungeon and raid notes
 

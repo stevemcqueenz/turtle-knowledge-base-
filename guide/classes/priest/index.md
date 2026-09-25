@@ -35,18 +35,18 @@ Priests on Turtle WoW 1.18.1 have three distinct jobs:
 
 | Area | Change | What it means in play |
 |---|---|---|
-| Holy | New capstone **Ascendance** (5 min): 30 s of 33% cheaper, 20% faster heals, and +15% healing taken on targets; usable while CC'd, and it clears CC [[d:priest#1464351944230436874]] | A real burst-healing cooldown, and a second CC break in PvP [[d:priest#1486259006413738166]] |
+| Holy | New capstone **Ascendance** (5 min): 30 s of 33% cheaper, 20% faster heals, and +15% healing taken on targets; usable while CC'd, and it clears CC [[d:priest#1464351944230436874]] | A real burst-healing cooldown, and a second CC break in PvP [[d:priest#1464351944230436874]] |
 | Holy | **Prayer of Healing** can target any party, even outside your raid [[d:priest#1484217772614615302]], [[d:priest#1484568899641933895]] | Priests become strong AoE healers |
 | Holy | **Book of Prayer** refunds mana when the next heal is a different spell [[d:priest#1484561705487958016]] | Weave rank-1 Renew between heals |
 | Holy | **Lightwell** reworked: ground-targeted, 10 charges, echoes 20% of direct heals (40% with Reservoir of Light) [[d:priest#1464386661973622835]] | A passive bonus, with early targeting bugs [[d:priest#1489176818719391795]] |
-| Holy | **Proclaim Champion** and the Champion spells removed [[d:priest#1464351944230436874]] | The "champion cheese" (buff the tank, then respec to Shadow for mana) is gone [[d:priest#1464400122736803852]], [[d:priest#1448433905580380381]] |
+| Holy | **Proclaim Champion** and the Champion spells removed [[d:priest#1464351944230436874]] | The "champion cheese" (buff the tank, then respec to Shadow for mana) is gone [[d:priest#1464683794375377020]], [[d:priest#1448433905580380381]] |
 | Holy | **Empowered Recovery** (formerly Swift Recovery) adds one Renew tick from its first point [[d:priest#1490554883042967562]] | Take 1 point |
 | Discipline | **Smite tier sets for T1-T3.5**, converted from Holy/Shadow pieces [[d:priest#1486851994512523354]]; Disc gear is Holy-damage-only [[d:priest#1484564440207855657]] | Smite finally has an itemization path; off-healing gets weaker |
 | Discipline | Instant-Smite mana cost buffed 50% → 60% [[d:priest#1464658822667698273]] | Smoother Holy Fire → Smite loop |
 | Shadow | **Shadow Weaving** is a self-buff that applies its full stack to each target; the debuff lasts 9 s [[d:priest#1484726495568986112]] | Stacks carry between targets; SW:P applies six debuffs at once in PvP [[d:priest#1485255007283581048]] |
 | Shadow | **Spirit Tap** also triggers on Mind Blast crits [[d:priest#1465391740797194504]] | A raid mana source; crit is worth a little more |
 | Shadow | Improved Fade reworked; Shadow Reach capped at 2; Blackout and Improved Mind Blast rows swapped [[d:priest#1464412475947487262]], [[d:priest#1465391740797194504]] | The Shadow tree was reshuffled, but you still cannot fit threat reduction without giving up hit talents [[d:priest#1478207462900371536]] |
-| All | **Fade** also cuts threat by 15% while active, but threat comes back when it ends [[d:priest#1484604133200891944]] | It delays a pull; it does not prevent one |
+| All | **Fade** also cuts threat by 15% while active, but threat comes back when it ends [[d:priest#1484603875075031220]] | It delays a pull; it does not prevent one |
 | All | Holy Nova costs about 15% less mana [[d:priest#1465407440026599487]] | Slightly better lasher farming and AoE |
 | All | Tier and alternative sets are no longer unique-equipped [[d:priest#1465835566917746900]] | No more re-enchanting for spell penetration |
 | All | **Tauren priests** added, with a stealth-type racial [[d:priest#1485156331227840563]] | A new Horde PvP option |

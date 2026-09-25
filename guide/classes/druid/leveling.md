@@ -87,7 +87,7 @@ Hotverdomme-Nord's order ("imp wrath - sylvan - natural weapons - imp moonfire -
 
 Result at 60: **39/0/12**, VALID. Code: `talents.turtlecraft.gg/druid?points=oCaYYKFYJLDAB--FAAoAQ` · `talents.turtlecraft.gg/druid/U2KIJHJ7L1--U0UC`. [Open in talent calculator](https://xian55.github.io/tortoise-db-viewer/?talents=druid&t=50023230312531113301--5000502). At 60 respec to the [Balance](balance.md) raid build (drop Sylvan Blessing for Genesis 3 and Reflection).
 
-**Contested:** Improved Wrath first vs Sylvan Blessing and the Nature's Grasp line first; on Hardcore most prefer the survival picks [[d:druid#1484691241777103059]]. Conchim's order takes Sylvan Blessing and Guidance of the Dream early [[d:druid#1492651599514832936]].
+**Contested:** Improved Wrath first vs Sylvan Blessing and the Nature's Grasp line first; on Hardcore most prefer the survival picks [[d:druid#1484690974289690726]]. Conchim's order takes Sylvan Blessing and Guidance of the Dream early [[d:druid#1492651599514832936]].
 
 ## Gameplay by level
 
@@ -149,7 +149,7 @@ From 20, Cat is your main form [[d:druid#1448039669471248639]]. Energy ticks 20 
 
 **Single target (Cat):**
 
-1. Pull with **`Insect Swarm`** or Moonfire, or walk in with **`Prowl`**. Insect Swarm costs less and lowers the mob's chance to hit you [[d:druid#1427914229494710423]]. From 25, **`Faerie Fire (Feral)`** is a free pull [[d:druid#1476991316775931974]].
+1. Pull with **`Insect Swarm`** or Moonfire, or walk in with **`Prowl`**. Insect Swarm costs less and lowers the mob's chance to hit you [[d:druid#1427914229494710423]]. **`Faerie Fire (Feral)`** is the common ranged pull [[d:druid#1477369787599421491]].
 2. From 26 (Blood Frenzy): **`Tiger's Fury`** before the pull and whenever it drops. It is off the GCD [[d:druid#1463118416008183876]]. Before the talent, skip it: "Without talent this skill is like not existing" [[d:druid#1454154979450552415]].
 3. From 24: **`Rake`**.
 4. **`Claw`** to build combo points.
@@ -292,7 +292,7 @@ Before level 30 a Balance leveler still swaps to Cat or Bear when mana runs low 
 ## Stats and gear by bracket
 
 - **Feral:** weapon damage, speed and chance-on-hit do not matter in form; only the weapon's stats do [[d:druid#1424255168232423565]]. Agility and Strength are worth about the same while leveling [[d:druid#1447703890131947681]]. "Of the Monkey" usually beats "of the Tiger" unless the Tiger item is much higher level [[d:druid#1480184723455348736]]. Gear barely matters; one player used a level-40s stat stick at 59 [[d:druid#1491889189229170780]].
-- **Balance:** Intellect first while questing outdoors on Hardcore; Stamina is good; spell power appears on gear around level 30. Armor matters more once you have Moonkin Form [[d:druid#1486685983071010826]]. "Of the Eagle" items are great [[d:druid#1492652781780074607]].
+- **Balance:** Intellect first while questing outdoors on Hardcore; Stamina is good; spell power appears on gear around level 30, and is big RNG on drops before then. "Of the Eagle" items are great [[d:druid#1492652781780074607]].
 
 | Level | Feral weapon (stat stick) | Source |
 |---|---|---|
@@ -336,7 +336,7 @@ Questline (dev-posted, 2025-01) [[d:druid#1325097793362071574]], with difficulty
 2. **Shadowed Spectre:** investigate west of Darkhollow Pass, Hyjal. Easy.
 3. **The Son of Cenarius:** 20 Bright Dream Shards to Keeper Remulos, western Moonglade. Shards drop from satyrs near Nordanaar (shared loot) [[d:druid#1484218105428443340]].
 4. **Tethered Memories:** Bough of Cenarius (Dreamstalker, Bough Shadow, Ashenvale), Crystalline Ray of Moonlight (Venethas, cave north of Everlook), Jade Scale of the Dreamer (Solnius, [Emerald Sanctum](../../instances/emerald-sanctum.md) raid). The Emerald Sanctum must be open on your realm [[d:druid#1434329117653729431]].
-5. **The White Stag:** kill the Spectre (~150k HP, ~3,000 melee hits, a long-range Shadow Bolt Volley, a knockback near a cliff, an AoE fear). Bring ~8-12 players and a Tremor Totem, and drag it uphill away from the cliff [[d:druid#1308406716991541249]], [[d:druid#1479521428821905470]].
+5. **The White Stag:** kill the Spectre (~150k HP, ~3,000 melee hits, a long-range Shadow Bolt Volley, a knockback near a cliff, an AoE fear). Bring shamans for Tremor Totem (doable with under 10 people with them) and drag it uphill away from the cliff faces [[d:druid#1474033564722003968]], [[d:druid#1479521428821905470]].
 6. **Woven Dreams:** 10 Viridian Mushrooms (Jademir Lake, Feralas), 10 Dreamhide, 6 Dreamthread, 20 Greater Dreamless Sleep Potions. The expensive step: about 300-600g, cheaper with guild crafters [[d:druid#1328518855823462525]].
 7. **The Eternal Sleeper:** Seradane, Hinterlands. Hits very hard; kite with a friend [[d:druid#1336462886272368722]].
 8. **Under the Vibrant Moonlight:** Twilight Grove, Duskwood. Root and nuke from range with a group [[d:druid#1336462886272368722]].

@@ -10,7 +10,7 @@
 | Strengths | Highest boss damage; Felguard's Felstorm is "potentially the strongest AoE in the game" [[d:warlock#1474540725000470660]]; hit and crit feed both you and the demon; least gear-dependent spec for a fresh 60 [[d:warlock#1464610780526673920]] |
 | Weaknesses | "The cooldown spec" [[d:warlock#1464559519077241029]]: at best about 24 minutes of greater-demon uptime per hour [[d:warlock#1464562452476723223]]. No way to reduce pet threat [[d:warlock#1485689509197774958]]. Greater demons died on most Kara40 bosses before the cleave fix [[d:warlock#1464983131282083900]]. Greater-demon pathing stayed broken from January 2026 to the server's end [[d:warlock#1495335572145836152]]. |
 
-Before 1.18.1, Unleashed Potential only procced from crits, and Demonology was a niche short-fight spec [[d:warlock#1432717115730694276]]. The release made Unleashed Potential proc from any direct damage [[d:warlock#1465390962552340582]], and Demonology rose to the top.
+Before 1.18.1, Unleashed Potential only procced from crits, and Demonology was a niche short-fight spec [[d:warlock#1432717115730694276]]. The release made Unleashed Potential proc from any direct damage [[d:warlock#1468626637829574799]], and Demonology rose to the top.
 
 ## How to play
 
@@ -105,7 +105,7 @@ Afraido's values at ~1,000 SP: 1% hit ≈ 18 SP, 1% crit ≈ 13 SP for your own 
 
 **Before the pull:**
 
-1. Summon the greater demon for this boss (see [Greater demons](#greater-demons)). Give it time to come in: the Felguard appears 4 s after Demon Gate [[d:warlock#1465390962552340582]]; Ritual of Doom is now a 3 s cast with one helper clicking [[d:warlock#1491589394480627833]].
+1. Summon the greater demon for this boss (see [Greater demons](#greater-demons)). Give it time to come in: the Felguard appears 4 s after Demon Gate [[d:warlock#1465693570496336057]]; Ritual of Doom is now a 3 s cast with one helper clicking [[d:warlock#1491589394480627833]].
 2. Set the demon's autocasts: Felguard **Cleave on**, **Felstorm manual**; Doomguard **Infernal Blade on** [[d:warlock#1491048996846698547]], [[d:warlock#1442920863576883351]]. Greater demons forget their pet-bar layout every summon [[d:warlock#1423835529673445436]].
 3. On short fights, pre-stack Unleashed Potential on the last trash pack. Snapshot it with a trinket, then carry it into the boss [[d:warlock#1465499997721071891]], [[d:warlock#1465503280460333178]].
 
@@ -215,7 +215,7 @@ Demons get spell power equal to their own Intellect [[d:warlock#1484210226877173
 - **No tier set is built for Demonology.** "Get some hit, some crit" [[d:warlock#1483624063388618843]]. Demonology and Destruction default to the T1/T2 sets; T2.5 and T3 default to the Affliction versions and must be exchanged at the token vendor [[d:warlock#1484147919224307813]].
 - **T2 3-piece** is flat spell power [[d:warlock#1440503674555334688]]. **T3 8-piece** beats T2.5/T3.5 mixes for Demonology, except standout pieces such as the Leggings of Polarity [[d:warlock#1476858402679558224]]. T3 boots, chest and shoulders are pre-Kara40 BiS; add the head or belt for the 4-piece [[d:warlock#1460408263341379685]].
 - **The Black Book** (BWL) is "the best thing for demonology warlocks hands down" [[d:warlock#1446169503003185325]]; it is as mandatory as Mind Quickening Gem is for mages [[d:warlock#1464549191551553745]]. Hit gear plus The Black Book is the point where Demonology passes Affliction [[d:warlock#1489707890246680646]].
-- **Pet trinkets:** the Ancient Cornerstone Grimoire (Onyxia) gives +5% pet and enslaved-demon damage and health since 1.18.1 [[d:warlock#1479499241583018158]]. A rare in Moonwhisper Coast drops a trinket with +3% demon damage [[d:warlock#1485510693149999174]]. The AQ20 Unspoken Names ring set 2-piece gives +5% pet damage [[d:warlock#1489351729274159245]]; whether it works on greater demons is unconfirmed [[d:warlock#1487525502825660566]].
+- **Pet trinkets:** the Ancient Cornerstone Grimoire (Onyxia) gives +5% pet and enslaved-demon damage and health since 1.18.1 [[d:warlock#1479499241583018158]]. A rare in Moonwhisper Coast drops a trinket with +3% demon damage [[d:warlock#1485510693149999174]]. The AQ20 Unspoken Names ring set 2-piece gives +5% pet damage [[d:warlock#1113180132560076900]]; whether it works on greater demons is unconfirmed [[d:warlock#1487525502825660566]].
 - **Weapons:** Bag of Whammies is near-best until the Sapphiron eye or the AQ scepter [[d:warlock#1446182452870516899]]. Later: Black Morass sword or Lucid Nightmare plus an offhand, or Shadow Wing Focus Staff [[d:warlock#1487941642945167370]]. The Onyxia staff from Broodcommander Axelus (80 SP, 1% crit, summons whelplings) works for early BWL [[d:warlock#1488194472461336576]]. Between two pieces, take the one with more hit [[d:warlock#1492270349268815912]].
 - **MC phase targets:** stay above 500 SP and 25% crit while adding hit; BWL belt and bracers are the next hit pieces [[d:warlock#1432788355820552305]]. For hit, Angelista's Grasp (BWL belt) [[d:warlock#1485403461787979828]].
 - **Naxx-level example** (Summonjutsu's log): T2 helm with the ZG enchant, Dianna's Pearl Necklace, T3 shoulders, Cloak of Consumption, Bracers of Arcane Accuracy, T2 gloves/pants/boots, T3 belt, AQ20 set ring, Band of Concentration, The Black Book, Wraith Blade, Bag of Whammies, Wand of Fates [[d:warlock#1452170616206790758]].

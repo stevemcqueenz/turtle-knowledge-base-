@@ -39,4 +39,4 @@ What the sources do not settle:
 8. **PvP after 1.18.1.** `#pvp-general` ends in 2025-11, so the matchups are pre-release apart from a handful of post-release `#priest` posts. Per-spec dampening values are unknown.
 9. **Holy vs 21/30 hybrid throughput** in 1.18.1: no parse comparison was posted.
 10. **Leveling zone route.** No priest-specific route exists. The dungeon table is limited to instances named for priest loot.
-11. **Book of Prayer and T2 8-piece.** Whether the 8-piece's extra "Renew" counts as a separate spell for Book of Prayer [[d:priest#1464513110164508871]].
+11. **Book of Prayer and T2 8-piece.** Whether the 8-piece's extra "Renew" counts as a separate spell for Book of Prayer.

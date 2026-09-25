@@ -15,7 +15,7 @@ Vanilla level-60 dungeon in Eastern Plaguelands, with a Live (Scarlet) side and 
 
 ## Notable loot
 
-- **Idol of Brutality** (bear) from Strat UD, farmed off the Magistrate [[d:druid#1478015155416862790]].
+- **Idol of Brutality** (bear) from Strat UD, farmed off the Magistrate [[d:druid#1061406487739641946]], [[d:druid#1316144339851677799]].
 - **Healers:** a Strat UD chest and amulet with more HP but less regen than the Black Morass pieces [[d:druid#1435928189200236686]].
 - **Hunters:** a best-in-slot ammo box (about 20.5 DPS bullets, BoE) sits next to a boss on the Live side and is always there on a fresh instance [[d:hunter#1481489849302253692]].
 
@@ -37,7 +37,7 @@ The standard high-end paladin gold farm, ranked hardest of the three after Lashe
 | **Force Reactive Disk** | "Pretty much mandatory" for the vampirism build [[d:paladin#1432869464428515591]]. Engineering for FRD "makes every aoe pull easier" [[d:paladin#1456098669765066832]]. |
 | **Weapon** | Dream's Herald "is huge for strat" [[d:paladin#1426766098317180998]]. |
 | **Example set (13-16% vampirism)** | T3 8-piece, Gluth neck, a spell-power cloak, 2× vampirism ring, a vampirism trinket, the KT spell-power trinket, Dream's Herald, FRD [[d:paladin#1491942396915617916]]. Another player is comfortable at 15% in half T2, half T3 [[d:paladin#1491943067027243038]]. |
-| **Support** | Keep a repair bot nearby for shield durability [[d:paladin#1467888327582683342]], [[d:paladin#1468335125937913856]]. |
+| **Support** | Keep a repair bot nearby for shield durability [[d:paladin#1467888327582683342]], [[d:paladin#1467893051862028511]], [[d:paladin#1467893180329496871]]. |
 
 **Route and danger points (Grey/Gilfrey):**
 

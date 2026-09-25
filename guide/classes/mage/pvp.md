@@ -36,7 +36,7 @@ The level-60 PvP decision loop. Details are in [Burst and control sequences](#bu
 - **Rogue:** skill matchup; his Free Action Potion breaks your shatter combo [[d:pvp-general#1278955218364530803]].
 - **Paladin:** Polymorph through Freedom, burst after it ends [[d:mage#1435125334109454426]].
 - **Shaman:** hard ("shamans OS mages") [[d:mage#1461342743476437145]]; Counterspell locks out his damage and healing [[d:pvp-general#1081905593008259082]]; watch Grounding Totem.
-- **Hunter:** losing [[d:mage#1435373701355798719]]; play the deadzone and line of sight [[d:pvp-general#1120391121005195286]].
+- **Hunter:** losing [[d:mage#1435373701355798719]]; play the deadzone and line of sight [[d:pvp-general#1104031577987624981]], [[d:pvp-general#1104032021854035968]].
 - **Warlock:** even; Ice Block through his Spell Lock window [[d:pvp-general#1430030401585287208]].
 - **Feral druid:** Blink out of Pounce and save the trinket for his Bash [[d:pvp-general#1380875640907235431]].
 
@@ -94,7 +94,7 @@ Variant: Gees takes the Frost Warding talent instead of hard-cast Frostbolt tale
 
 ## Burst and control sequences
 
-**Arcane burst:** `Presence of Mind` + trinket → hard-cast `Arcane Rupture` → `Arcane Missiles` spam. "PoM+Trinket+Arcane Rupture one shots when it crits, doubles and instability keep you going." After PoM is down, "just arcane missile bot" [[d:mage#1491794197773156493]], [[d:mage#1491794484428537888]]. Missiles keep hitting after the target breaks line of sight: they are 30-yd channels that stay locked on, and about 1 s of exposure is enough for a full channel [[d:mage#1430671883379937393]], [[d:pvp-general#1423403435470098504]]. **Contested:** a full Rupture + Missiles kill needs about 8 s of uninterrupted free-casting [[d:pvp-general#1423496943488733355]].
+**Arcane burst:** `Presence of Mind` + trinket → hard-cast `Arcane Rupture` → `Arcane Missiles` spam. "PoM+Trinket+Arcane Rupture one shots when it crits, doubles and instability keep you going." After PoM is down, "just arcane missile bot" [[d:mage#1491794197773156493]], [[d:mage#1491794484428537888]]. Missiles keep hitting after the target breaks line of sight: they are 30-yd channels that stay locked on, and about 1 s of exposure is enough for a full channel [[d:mage#1430671883379937393]], [[d:mage#1430672015546908713]], [[d:pvp-general#1423403435470098504]]. **Contested:** a full Rupture + Missiles kill needs about 8 s of uninterrupted free-casting [[d:pvp-general#1423496943488733355]].
 
 **Hybrid opener:** `Amplify Magic` on the enemy (it puts them in combat, which blocks a warrior's Charge) → rank-1 `Frostbolt` (slow, under 1 s cast) → `Arcane Rupture` → `Arcane Missiles` [[d:mage#1446916002456797397]], [[d:mage#1446915962497531912]].
 
