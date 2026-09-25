@@ -1,34 +1,22 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
+import { Search } from 'lucide-react';
 import { glossary } from '../lib/site';
-import { CloseIcon, SearchIcon } from './Icons';
-import { useDialogFocus } from '../lib/dialog';
+import { href } from '../lib/router';
+import { Sheet, SheetContent, SheetDescription, SheetTitle } from './ui/sheet';
+import { ScrollArea } from './ui/scroll-area';
 
 interface GlossaryPanelProps {
   open: boolean;
-  onClose: () => void;
+  onOpenChange: (open: boolean) => void;
   initialQuery?: string;
 }
 
-export function GlossaryPanel({ open, onClose, initialQuery = '' }: GlossaryPanelProps) {
+/** The glossary as a side sheet (opened from search results). */
+export function GlossaryPanel({ open, onOpenChange, initialQuery = '' }: GlossaryPanelProps) {
   const [query, setQuery] = useState(initialQuery);
-  const panelRef = useDialogFocus(open);
-  const inputRef = useRef<HTMLInputElement>(null);
-
   useEffect(() => {
-    if (open) {
-      setQuery(initialQuery);
-      window.setTimeout(() => inputRef.current?.focus(), 0);
-    }
+    if (open) setQuery(initialQuery);
   }, [open, initialQuery]);
-
-  useEffect(() => {
-    if (!open) return;
-    const onKey = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') onClose();
-    };
-    window.addEventListener('keydown', onKey);
-    return () => window.removeEventListener('keydown', onKey);
-  }, [open, onClose]);
 
   const terms = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -36,76 +24,54 @@ export function GlossaryPanel({ open, onClose, initialQuery = '' }: GlossaryPane
     return glossary.filter((g) => `${g.term} ${g.meaning} ${g.category ?? ''}`.toLowerCase().includes(q));
   }, [query]);
 
-  if (!open) return null;
-
   return (
-    <div className="fixed inset-0 z-40" role="presentation">
-      <div className="absolute inset-0 bg-black/50" onClick={onClose} aria-hidden="true" />
-      <div
-        ref={panelRef}
-        role="dialog"
-        aria-modal="true"
-        aria-label="Glossary"
-        className="absolute right-0 top-0 flex h-full w-full max-w-md flex-col bg-surface hairline shadow-xl"
-      >
-        <div className="flex items-center gap-2 border-b px-4 py-3">
-          <h2 className="flex-1 text-sm font-semibold uppercase tracking-wider text-muted">
-            Glossary · {glossary.length} terms
-          </h2>
-          <button
-            type="button"
-            onClick={onClose}
-            aria-label="Close glossary"
-            className="inline-flex h-8 w-8 items-center justify-center rounded-xl hairline text-muted hover:text-ink"
-          >
-            <CloseIcon />
-          </button>
+    <Sheet open={open} onOpenChange={onOpenChange}>
+      <SheetContent side="right" className="p-0">
+        <div className="border-b px-4 pb-3 pt-4">
+          <SheetTitle className="text-base font-semibold">Glossary</SheetTitle>
+          <SheetDescription className="text-xs text-muted-foreground">
+            {glossary.length} terms from the archive.{' '}
+            <a className="link" href={href.glossary()} onClick={() => onOpenChange(false)}>
+              Open as a page
+            </a>
+          </SheetDescription>
+          <label className="mt-3 flex items-center gap-2 rounded-md border bg-muted/50 px-2.5">
+            <Search className="h-4 w-4 text-muted-foreground" aria-hidden="true" />
+            <input
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              type="search"
+              placeholder="Filter terms"
+              aria-label="Filter glossary terms"
+              className="h-9 w-full bg-transparent text-sm outline-none placeholder:text-muted-foreground"
+            />
+          </label>
         </div>
-        <div className="flex items-center gap-2 border-b px-4 py-2">
-          <span className="text-muted">
-            <SearchIcon />
-          </span>
-          <input
-            ref={inputRef}
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            type="search"
-            placeholder="Filter terms…"
-            aria-label="Filter glossary terms"
-            className="w-full bg-transparent py-1 text-sm outline-none placeholder:text-muted"
-          />
-        </div>
-        <div className="flex-1 overflow-y-auto scrollbar-thin px-4 py-3">
+        <ScrollArea className="min-h-0 flex-1">
           {terms.length === 0 ? (
-            <p className="py-6 text-center text-sm text-muted">No term matches “{query}”.</p>
+            <p className="py-10 text-center text-sm text-muted-foreground">No term matches “{query}”.</p>
           ) : (
-            <dl className="space-y-4">
+            <dl className="divide-y">
               {terms.map((g) => (
-                  <div key={g.term} id={`glossary-${g.term}`}>
-                    <dt className="flex flex-wrap items-baseline gap-2">
-                      <span className="font-semibold">{g.term}</span>
-                      {g.category ? <span className="chip hairline bg-surface2 text-[10px] text-muted">{g.category}</span> : null}
-                      {g.scope ? <span className="text-[10px] uppercase tracking-wider text-muted">{g.scope}</span> : null}
-                    </dt>
-                    <dd className="mt-0.5 text-sm text-muted">
-                      {g.meaning}{' '}
-                      {g.citation_url ? (
-                        <a
-                          href={g.citation_url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-[rgb(var(--c-accent))] hover:underline"
-                        >
-                          source
-                        </a>
-                      ) : null}
-                    </dd>
-                  </div>
+                <div key={g.term} className="px-4 py-3">
+                  <dt className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
+                    <span className="font-medium">{g.term}</span>
+                    {g.category ? <span className="text-xs text-muted-foreground">{g.category}</span> : null}
+                  </dt>
+                  <dd className="mt-0.5 text-sm text-muted-foreground">
+                    {g.meaning}{' '}
+                    {g.citation_url ? (
+                      <a href={g.citation_url} target="_blank" rel="noopener noreferrer" className="link">
+                        source
+                      </a>
+                    ) : null}
+                  </dd>
+                </div>
               ))}
             </dl>
           )}
-        </div>
-      </div>
-    </div>
+        </ScrollArea>
+      </SheetContent>
+    </Sheet>
   );
 }

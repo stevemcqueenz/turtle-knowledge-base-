@@ -1,5 +1,8 @@
-import { readableColor } from '../../lib/theme';
+import type { CSSProperties } from 'react';
+import { Crosshair, Hammer, PawPrint, Skull, Sun, Swords, VenetianMask, WandSparkles, Zap, type LucideIcon } from 'lucide-react';
+import { inkOn, readableColor } from '../../lib/theme';
 import { useThemeValue } from '../../lib/theme-context';
+import { cn } from '../../lib/utils';
 
 /** Hex -> "r g b" for CSS custom properties (`rgb(var(--cc) / 0.2)`). */
 export function rgbTriplet(hex: string): string {
@@ -16,28 +19,67 @@ export function useClassInk(color: string): { ink: string; rgb: string } {
 }
 
 /**
- * A class monogram: the initial in a book face on a tinted tile. The site
- * carries no game artwork, so the class color and its letter are the emblem.
+ * CSS variables that put a class in charge of a subtree: `--cc` (the class
+ * color, theme-tuned, as "r g b"), `--cc-raw` (the official color) and
+ * `--cc-ink` (text on a solid class-color fill).
  */
-export function ClassMark({ name, color, size = 'md' }: { name: string; color: string; size?: 'sm' | 'md' | 'lg' | 'xl' }) {
+export function useClassVars(color: string): CSSProperties {
   const { ink, rgb } = useClassInk(color);
-  const dims = {
-    sm: 'h-6 w-6 text-[0.8rem] rounded-md',
-    md: 'h-9 w-9 text-lg rounded-lg',
-    lg: 'h-12 w-12 text-2xl rounded-xl',
-    xl: 'h-16 w-16 text-[2.1rem] rounded-2xl',
-  }[size];
+  return {
+    ['--cc' as string]: rgb,
+    ['--cc-raw' as string]: rgbTriplet(color),
+    ['--cc-ink' as string]: rgbTriplet(inkOn(ink)),
+  };
+}
+
+const GLYPHS: Record<string, LucideIcon> = {
+  warrior: Swords,
+  paladin: Hammer,
+  hunter: Crosshair,
+  rogue: VenetianMask,
+  priest: Sun,
+  shaman: Zap,
+  mage: WandSparkles,
+  warlock: Skull,
+  druid: PawPrint,
+};
+
+const SIZES = {
+  xs: 'h-4 w-4 rounded-[3px] [&_svg]:h-2.5 [&_svg]:w-2.5',
+  sm: 'h-5 w-5 rounded-[4px] [&_svg]:h-3 [&_svg]:w-3',
+  md: 'h-8 w-8 rounded-[5px] [&_svg]:h-4 [&_svg]:w-4',
+  lg: 'h-10 w-10 rounded-md [&_svg]:h-5 [&_svg]:w-5',
+  xl: 'h-12 w-12 rounded-md [&_svg]:h-6 [&_svg]:w-6',
+} as const;
+
+/**
+ * A class emblem drawn like an action-bar button: a dark bevelled square, a
+ * rim in the official class color and a glyph for the class. No game artwork.
+ */
+export function ClassMark({
+  name,
+  color,
+  size = 'md',
+  className,
+}: {
+  name: string;
+  color: string;
+  size?: keyof typeof SIZES;
+  className?: string;
+}) {
+  const Glyph = GLYPHS[name.toLowerCase()] ?? Swords;
+  const raw = rgbTriplet(color);
   return (
     <span
       aria-hidden="true"
-      className={`inline-flex shrink-0 items-center justify-center font-serif font-bold leading-none ${dims}`}
+      className={cn('relative inline-flex shrink-0 items-center justify-center', SIZES[size], className)}
       style={{
-        color: ink,
-        background: `linear-gradient(145deg, rgb(${rgb} / 0.26), rgb(${rgb} / 0.08))`,
-        boxShadow: `inset 0 0 0 1px rgb(${rgb} / 0.45)`,
+        color: `rgb(${raw})`,
+        background: `radial-gradient(120% 120% at 30% 20%, rgb(${raw} / 0.28), rgb(${raw} / 0.06) 55%, #0c0e13 100%), #0c0e13`,
+        boxShadow: `inset 0 0 0 1px rgb(${raw} / 0.55), inset 0 1px 0 rgb(255 255 255 / 0.08), 0 1px 2px rgb(0 0 0 / 0.5)`,
       }}
     >
-      {name.charAt(0)}
+      <Glyph strokeWidth={2.2} />
     </span>
   );
 }

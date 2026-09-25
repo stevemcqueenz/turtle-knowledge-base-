@@ -149,3 +149,24 @@ export function matrixRowTarget(row: MatrixRow, fallbackClass?: string): { slug:
 export function specLabel(spec: string): string {
   return spec.replace(/\s*\([^)]*\)\s*$/, '').trim() || spec;
 }
+
+/**
+ * A spec page's name among its class's pages: the plain spec name, the build
+ * in brackets when two pages share name and role ("Destruction (Fire)",
+ * "Destruction (Shadow)"), and the role when `withRole` and two pages share
+ * only the name ("Combat Tank").
+ */
+export function distinctSpecLabel(
+  p: { spec: string; role: string; roleLabel: string },
+  all: { spec: string; role: string }[],
+  withRole = false,
+): string {
+  const label = specLabel(p.spec);
+  const same = all.filter((q) => specLabel(q.spec) === label);
+  if (same.length < 2) return label;
+  if (same.filter((q) => q.role === p.role).length > 1) {
+    const inner = /\(([^):,]+)/.exec(p.spec)?.[1]?.trim();
+    return inner ? `${label} (${inner})` : p.spec;
+  }
+  return withRole ? `${label} ${p.roleLabel}` : label;
+}

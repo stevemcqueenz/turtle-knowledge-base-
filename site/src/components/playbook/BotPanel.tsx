@@ -1,24 +1,40 @@
-import { useMemo, useState } from 'react';
+import { useMemo } from 'react';
+import { ArrowUpRight, Download } from 'lucide-react';
 import type { Playbook } from '../../types';
 import { REPO_URL } from '../Footer';
-import { CodeIcon, DownloadIcon, ExternalIcon } from '../Icons';
 import { CopyButton } from '../ui/CopyButton';
+import { Button } from '../ui/button';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '../ui/tabs';
 
 const FIELDS: [string, string][] = [
-  ['talents', 'points per talent (tree, talent, rank, spell id), the leveling order, variants and a working calculator link'],
+  ['play_loop', 'the level-60 loop from "How to play": opener, single-target and AoE steps, cooldowns'],
+  ['leveling_gameplay', 'per level bracket: new abilities, single-target and multi-target steps (tanking, healing where the guide has them)'],
+  ['talents', 'points per talent (tree, talent, rank, spell id), the leveling order, variants, a working calculator link'],
   ['stat_priority, caps', 'the gearing order and every hard number (hit, haste, defense caps) with its source'],
-  ['rotation_single, rotation_aoe', 'numbered priority lists: action + condition, the AoE target threshold'],
-  ['cooldowns, resource_rules', 'when to press each cooldown, how to manage mana, rage or energy'],
+  ['rotation_single, rotation_aoe', 'numbered priorities: action + condition, the AoE target threshold'],
+  ['cooldowns, resource_rules', 'when to press each cooldown; mana, rage or energy rules'],
   ['consumables, mistakes_to_avoid', 'flasks, elixirs, enchants; the errors the community warns about'],
 ];
 
+function Code({ value }: { value: unknown }) {
+  const text = useMemo(() => JSON.stringify(value, null, 2), [value]);
+  return (
+    <div className="relative">
+      <div className="absolute right-2 top-2">
+        <CopyButton text={text} label="Copy" className="bg-background" />
+      </div>
+      <pre className="max-h-[28rem] overflow-auto rounded-md border bg-muted/40 p-3 pr-20 font-mono text-[12px] leading-relaxed scrollbar-thin">{text}</pre>
+    </div>
+  );
+}
+
 /**
  * The machine-readable playbook for bot developers: the spec's YAML from
- * structured/classes/, shown and offered as JSON, with a short schema note.
+ * structured/classes/, key by key, and as one JSON download.
  */
 export function BotPanel({ playbook, classSlug }: { playbook: Playbook; classSlug: string }) {
-  const [show, setShow] = useState(false);
-  const json = useMemo(() => JSON.stringify(playbook.yaml ?? {}, null, 2), [playbook.yaml]);
+  const y = playbook.yaml;
+  const json = useMemo(() => JSON.stringify(y ?? {}, null, 2), [y]);
   const file = `${classSlug}-${playbook.id}.json`;
   const yamlUrl = playbook.yamlPath ? `${REPO_URL}/blob/main/${playbook.yamlPath}` : null;
 
@@ -34,62 +50,64 @@ export function BotPanel({ playbook, classSlug }: { playbook: Playbook; classSlu
     window.setTimeout(() => URL.revokeObjectURL(url), 1000);
   };
 
-  if (!playbook.yaml) {
-    return <p className="text-sm text-muted">No machine-readable playbook is published for this spec.</p>;
-  }
+  if (!y) return <p className="text-sm text-muted-foreground">No machine-readable playbook is published for this spec.</p>;
+
+  const has = (k: string) => k.split(', ').some((key) => y[key] !== undefined && y[key] !== null);
+  const tabs = (['play_loop', 'leveling_gameplay', 'talents'] as const).filter((k) => y[k] !== undefined && y[k] !== null);
 
   return (
-    <div className="card overflow-hidden">
-      <div className="grid gap-6 p-5 sm:p-6 lg:grid-cols-[1fr_1fr]">
-        <div>
-          <p className="flex items-center gap-2 font-serif text-lg font-semibold">
-            <CodeIcon className="h-5 w-5 text-accent" /> The playbook behind this page
-          </p>
-          <p className="mt-2 text-[0.95rem] leading-relaxed text-muted">
-            The talents, stat priority, caps and priority lists on this page are also published as one
-            structured file,{' '}
-            <code className="rounded bg-surface2 px-1 font-mono text-[0.82em]">{playbook.yamlPath}</code>. Bots and
-            rotation addons can use it directly. Citations inside it are written{' '}
-            <code className="rounded bg-surface2 px-1 font-mono text-[0.82em]">[[d:channel#id]]</code>. Each one
-            names a message in{' '}
-            <code className="rounded bg-surface2 px-1 font-mono text-[0.82em]">structured/discord/evidence-&lt;channel&gt;.jsonl</code>.
-          </p>
-          <div className="mt-4 flex flex-wrap gap-2">
-            <button type="button" onClick={download} className="btn btn-primary">
-              <DownloadIcon /> Download JSON
-            </button>
-            <CopyButton text={json} label="Copy JSON" className="!px-3 !py-2 !text-sm" />
-            {yamlUrl ? (
-              <a href={yamlUrl} target="_blank" rel="noopener noreferrer" className="btn btn-ghost">
-                YAML source <ExternalIcon className="h-3.5 w-3.5" />
+    <div className="rounded-lg border bg-card">
+      <div className="flex flex-wrap items-center gap-x-4 gap-y-2 border-b px-4 py-3">
+        <p className="min-w-0 flex-1 text-[13px] text-muted-foreground">
+          <code className="rounded bg-muted px-1 py-0.5 font-mono text-[12px] text-foreground">{playbook.yamlPath}</code>. Citations are{' '}
+          <code className="rounded bg-muted px-1 py-0.5 font-mono text-[12px] text-foreground">[[d:channel#id]]</code>, one message in{' '}
+          <code className="rounded bg-muted px-1 py-0.5 font-mono text-[12px] text-foreground">structured/discord/evidence-&lt;channel&gt;.jsonl</code>.
+        </p>
+        <div className="flex flex-wrap gap-2">
+          <Button size="sm" onClick={download}>
+            <Download /> Download JSON
+          </Button>
+          <CopyButton text={json} label="Copy JSON" className="h-8" />
+          {yamlUrl ? (
+            <Button asChild variant="outline" size="sm">
+              <a href={yamlUrl} target="_blank" rel="noopener noreferrer">
+                YAML source <ArrowUpRight />
               </a>
-            ) : null}
-          </div>
+            </Button>
+          ) : null}
         </div>
-        <dl className="space-y-2.5 text-sm">
-          {FIELDS.map(([k, v]) => (
-            <div key={k} className="grid grid-cols-[minmax(0,9.5rem)_1fr] gap-3">
-              <dt className="font-mono text-[12px] text-ink">{k}</dt>
-              <dd className="text-muted">{v}</dd>
-            </div>
+      </div>
+      <Tabs defaultValue="keys" className="px-4 pb-4 pt-2">
+        <TabsList className="mb-3">
+          <TabsTrigger value="keys">Keys</TabsTrigger>
+          {tabs.map((k) => (
+            <TabsTrigger key={k} value={k} className="font-mono text-[12.5px]">
+              {k}
+            </TabsTrigger>
           ))}
-        </dl>
-      </div>
-      <div className="border-t">
-        <button
-          type="button"
-          aria-expanded={show}
-          onClick={() => setShow((s) => !s)}
-          className="w-full px-5 py-3 text-left text-sm font-semibold text-accent hover:bg-surface2/60 sm:px-6"
-        >
-          {show ? 'Hide the JSON' : `Show the JSON (${Math.round(json.length / 1024)} kB)`}
-        </button>
-        {show ? (
-          <pre className="max-h-[32rem] overflow-auto border-t bg-surface2/60 p-4 font-mono text-[12px] leading-relaxed scrollbar-thin">
-            {json}
-          </pre>
-        ) : null}
-      </div>
+          <TabsTrigger value="all">Full JSON</TabsTrigger>
+        </TabsList>
+        <TabsContent value="keys">
+          <dl className="divide-y text-[13px]">
+            {FIELDS.map(([k, v]) => (
+              <div key={k} className="grid gap-x-4 gap-y-0.5 py-2 sm:grid-cols-[minmax(0,13rem)_1fr]">
+                <dt className="flex items-center gap-2 font-mono text-[12px]">
+                  <span className={has(k) ? 'text-foreground' : 'text-muted-foreground line-through'}>{k}</span>
+                </dt>
+                <dd className="text-muted-foreground">{has(k) ? v : 'not published for this spec'}</dd>
+              </div>
+            ))}
+          </dl>
+        </TabsContent>
+        {tabs.map((k) => (
+          <TabsContent key={k} value={k}>
+            <Code value={y[k]} />
+          </TabsContent>
+        ))}
+        <TabsContent value="all">
+          <Code value={y} />
+        </TabsContent>
+      </Tabs>
     </div>
   );
 }

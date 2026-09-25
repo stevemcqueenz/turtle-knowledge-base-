@@ -139,3 +139,7 @@ only thing that would regress this); and all four JSON files parse.
 `src/data/fixtures/` is a separate, hand-sized sample used by the frontend
 during development before real data exists — it is not written or read by
 `build-data.py`.
+
+## professions.json (optional)
+
+`guide/professions.md`, the professions overview for every class, as a GuideDoc (`{slug: "professions", title, intro, sections[], sourceFile}`) plus `recommendation` (its **Recommendation:** paragraph, label removed). Written only when the page exists. Links to the class pages are `#/class/<slug>/professions` routes; the class professions pages themselves stay in `classes.json` under `guidePages` (slug `professions`). Shape in `src/types.ts` `ProfessionsData`.

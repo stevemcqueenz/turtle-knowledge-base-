@@ -75,3 +75,8 @@ export function readableColor(hex: string, theme: Theme): string {
   }
   return toHex(rgb);
 }
+
+/** Text color for a solid fill of `hex`: near-black on the light class colors, white on the dark ones. */
+export function inkOn(hex: string): string {
+  return luminance(hexToRgb(hex)) > 0.28 ? '#0b0d12' : '#ffffff';
+}

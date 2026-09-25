@@ -1,27 +1,40 @@
+import animate from 'tailwindcss-animate';
+
 /** @type {import('tailwindcss').Config} */
 export default {
   darkMode: ['class', '[data-theme="dark"]'],
   content: ['./index.html', './src/**/*.{ts,tsx}'],
   theme: {
+    container: { center: true, padding: '1rem' },
     extend: {
       colors: {
-        // Resolved from CSS variables so the light/dark themes swap in one place.
-        bg: 'rgb(var(--c-bg) / <alpha-value>)',
-        surface: 'rgb(var(--c-surface) / <alpha-value>)',
-        surface2: 'rgb(var(--c-surface-2) / <alpha-value>)',
-        ink: 'rgb(var(--c-text) / <alpha-value>)',
-        muted: 'rgb(var(--c-muted) / <alpha-value>)',
-        line: 'rgb(var(--c-line) / <alpha-value>)',
-        accent: 'rgb(var(--c-accent) / <alpha-value>)',
-        jade: 'rgb(var(--c-jade) / <alpha-value>)',
-        // Fixed semantic colors (identical in both themes, per PLAN §4).
-        favored: '#3ddc84',
-        alternative: '#4ea1ff',
-        niche: '#f5b942',
-        'not-viable': '#8a8f98',
-        staff: '#8dc63f',
-        wiki: '#b07cf0',
-        // Class colors (PLAN §4).
+        // shadcn/ui tokens, resolved from CSS variables (src/index.css) so the
+        // dark (default) and light themes swap in one place.
+        border: 'hsl(var(--border))',
+        input: 'hsl(var(--input))',
+        ring: 'hsl(var(--ring))',
+        background: 'hsl(var(--background))',
+        foreground: 'hsl(var(--foreground))',
+        primary: { DEFAULT: 'hsl(var(--primary))', foreground: 'hsl(var(--primary-foreground))' },
+        secondary: { DEFAULT: 'hsl(var(--secondary))', foreground: 'hsl(var(--secondary-foreground))' },
+        muted: { DEFAULT: 'hsl(var(--muted))', foreground: 'hsl(var(--muted-foreground))' },
+        accent: { DEFAULT: 'hsl(var(--accent))', foreground: 'hsl(var(--accent-foreground))' },
+        destructive: { DEFAULT: 'hsl(var(--destructive))', foreground: 'hsl(var(--destructive-foreground))' },
+        popover: { DEFAULT: 'hsl(var(--popover))', foreground: 'hsl(var(--popover-foreground))' },
+        card: { DEFAULT: 'hsl(var(--card))', foreground: 'hsl(var(--card-foreground))' },
+        sidebar: { DEFAULT: 'hsl(var(--sidebar))', foreground: 'hsl(var(--sidebar-foreground))' },
+        link: 'hsl(var(--link))',
+        // WoW UI gold (tooltip titles, maxed talents); theme-tuned for text.
+        gold: 'hsl(var(--gold))',
+        // Item quality (ratings): theme-tuned text colors, see --q-* in index.css.
+        q: {
+          legendary: 'rgb(var(--q-S) / <alpha-value>)',
+          epic: 'rgb(var(--q-A) / <alpha-value>)',
+          rare: 'rgb(var(--q-B) / <alpha-value>)',
+          uncommon: 'rgb(var(--q-C) / <alpha-value>)',
+          poor: 'rgb(var(--q-N) / <alpha-value>)',
+        },
+        // Official class colors (as the game draws them, tuned per theme in lib/theme.ts for text).
         warrior: '#C69B6D',
         paladin: '#F48CBA',
         hunter: '#AAD372',
@@ -32,15 +45,30 @@ export default {
         warlock: '#8788EE',
         druid: '#FF7C0A',
       },
-      borderRadius: { xl: '12px', '2xl': '18px' },
+      borderRadius: {
+        lg: 'var(--radius)',
+        md: 'calc(var(--radius) - 2px)',
+        sm: 'calc(var(--radius) - 3px)',
+      },
       fontFamily: {
-        sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
-        // Book faces that ship with the major systems; no web fonts are loaded.
-        serif: ['"Iowan Old Style"', '"Palatino Linotype"', 'Palatino', '"Book Antiqua"', '"URW Palladio L"', 'P052', 'Charter', '"Bitstream Charter"', 'Georgia', '"Noto Serif"', '"DejaVu Serif"', 'serif'],
-        mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Consolas', 'monospace'],
+        sans: ['"Inter Variable"', 'Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'sans-serif'],
+        mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Consolas', '"Liberation Mono"', 'monospace'],
+      },
+      fontSize: {
+        '2xs': ['0.6875rem', { lineHeight: '1rem' }],
       },
       maxWidth: { prose: '72ch' },
+      keyframes: {
+        'accordion-down': { from: { height: '0' }, to: { height: 'var(--radix-accordion-content-height)' } },
+        'accordion-up': { from: { height: 'var(--radix-accordion-content-height)' }, to: { height: '0' } },
+        cast: { from: { transform: 'scaleX(0)' }, to: { transform: 'scaleX(1)' } },
+      },
+      animation: {
+        'accordion-down': 'accordion-down 0.18s ease-out',
+        'accordion-up': 'accordion-up 0.18s ease-out',
+        cast: 'cast 1.5s linear infinite',
+      },
     },
   },
-  plugins: [],
+  plugins: [animate],
 };

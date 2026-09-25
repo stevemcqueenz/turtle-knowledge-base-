@@ -1,6 +1,6 @@
 import { renderToString } from 'react-dom/server';
 import App from './App';
-import { cachedClass, cachedInstances, coreData, preloadAll } from './data';
+import { cachedClass, cachedInstances, cachedProfessions, coreData, preloadAll } from './data';
 import { bossAnchor } from './lib/instances';
 
 /** React's text escaping, to find a title in the rendered HTML. */
@@ -12,7 +12,9 @@ async function main() {
 await preloadAll();
 
 const classes = coreData.classes.map((c) => cachedClass(c.slug)!);
-const routes = ['#/', '#/matrix', '#/matrix?by=pvp', '#/archive', '#/about', '#/nope'];
+const routes = ['#/', '#/matrix', '#/matrix?by=pvp', '#/archive', '#/about', '#/glossary', '#/nope'];
+const professions = cachedProfessions();
+if (professions) routes.push('#/professions');
 for (const c of classes) {
   routes.push(`#/class/${c.slug}`);
   if (c.leveling) routes.push(`#/class/${c.slug}/leveling`);
@@ -20,6 +22,7 @@ for (const c of classes) {
   for (const p of c.playbooks) routes.push(`#/class/${c.slug}/${p.id}`);
   if (c.sources) routes.push(`#/class/${c.slug}/sources`);
   for (const d of c.guidePages ?? []) routes.push(`#/class/${c.slug}/guide/${d.slug}`);
+  if ((c.guidePages ?? []).some((d) => d.slug === 'professions')) routes.push(`#/class/${c.slug}/professions`);
 }
 routes.push('#/class/mage/guide/no-such-page', '#/class/mage/no-such-page', '#/class/nope');
 const instances = cachedInstances();
@@ -60,10 +63,30 @@ for (const route of routes) {
     expectNot('role="status"');
     const path = route.split('?')[0];
     if (route === '#/') {
-      expect('How the community played every class');
-      expect('Best picks by goal');
+      expect('Turtle WoW class guides');
+      expect('By goal');
+      expect('Every claim links to its source.');
       for (const c of classes) expect(`href="#/class/${c.slug}"`);
       if (!coreData.isFixture) expect('href="#/class/mage/leveling"'); // the leveling intent links the leveling guide
+      if (professions) expect('href="#/professions"');
+    }
+    if (route === '#/glossary') {
+      expect('>Glossary</h1>');
+      for (const g of coreData.glossary.slice(0, 20)) expect(escapeText(g.term));
+    }
+    if (route === '#/professions' && professions) {
+      expect('>Professions</h1>');
+      for (const s of professions.sections) expect(`id="${s.id}"`);
+      for (const c of classes) if ((c.guidePages ?? []).some((d) => d.slug === 'professions')) expect(`href="#/class/${c.slug}/professions"`);
+      expectNot('.md"');
+    }
+    const profCls = classes.find((c) => route === `#/class/${c.slug}/professions` || route === `#/class/${c.slug}/guide/professions`);
+    if (profCls) {
+      const doc = profCls.guidePages!.find((d) => d.slug === 'professions')!;
+      expect('professions</h1>');
+      expect('href="#/professions"'); // back to the overview
+      for (const s of doc.sections) expect(`id="${s.id}"`);
+      expect(`aria-label="${escapeText(profCls.name)} pages"`); // the class page strip
     }
     if (path === '#/matrix' && !coreData.isFixture) {
       expect('Viability board');
@@ -80,6 +103,8 @@ for (const route of routes) {
         for (const r of cls.viability.rows) expect(escapeText(r.spec));
       }
       for (const s of cls.readme) if (s.heading !== cls.viability?.heading && s.heading.toLowerCase() !== 'pages') expect(`id="${s.id}"`);
+      if ((cls.guidePages ?? []).some((d) => d.slug === 'professions')) expect(`href="#/class/${cls.slug}/professions"`);
+      if (cls.viability) expect('data-q="S"'); // ratings drawn as item-quality badges
     }
     if (route.endsWith('/leveling')) {
       const c = classes.find((x) => route === `#/class/${x.slug}/leveling`)!;
@@ -91,6 +116,17 @@ for (const route of routes) {
       // every leveling section is reachable
       for (const s of c.leveling?.sections ?? []) if (s.heading !== 'Introduction') expect(`id="${s.id}"`);
       expectNot('Source file:');
+      // Gameplay by level: one tab per "### Levels X–Y" bracket, every bracket's panel rendered
+      const gameplay = c.leveling?.sections.find((s) => /^gameplay by level/i.test(s.heading));
+      if (gameplay) {
+        expect('aria-label="Level bracket"');
+        for (const m of gameplay.markdown.matchAll(/^###\s+(Levels?\s+(\d+)\s*[–-]\s*(\d+).*)$/gm)) {
+          expect(`>${m[2]}–${m[3]}</button>`);
+          expect(`>${escapeText(m[1].trim())}</h3>`);
+        }
+        if (/\*\*New now:?\*\*/.test(gameplay.markdown)) expect('data-kind="new"');
+        if (/\*\*Single target/.test(gameplay.markdown)) expect('data-kind="single"');
+      }
     }
     if (route.endsWith('/no-such-page') || route === '#/class/nope' || route === '#/nope') expect('Nothing at this address');
     if (route === '#/instances') {
@@ -134,6 +170,13 @@ for (const route of routes) {
         expect('role="group"'); // the talent grid
       }
       if (pb.yaml) expect('id="for-bots"');
+      const how = pb.extraSections.find((x) => /^how to play/i.test(x.heading));
+      if (how) {
+        expect('How to play');
+        if (/^\d+\.\s/m.test(how.markdown)) expect('Back to step');
+      }
+      if (pb.yaml?.play_loop) expect('>play_loop</button>');
+      if (pb.yaml?.leveling_gameplay) expect('>leveling_gameplay</button>');
       if (Array.isArray(pb.yaml?.rotation_single) && pb.yaml!.rotation_single!.length) expect('Single-target priority');
     }
     if (route.endsWith('/sources')) {

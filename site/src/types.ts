@@ -466,6 +466,8 @@ export interface CoreData {
   glossary: GlossaryTerm[];
   meta: Meta;
   instances: (Omit<InstancesData, 'pages'> & { pages: InstanceSummary[] }) | null;
+  /** The professions overview's title and section headings (absent in older data). */
+  professions?: { title: string; headings: HeadingRef[] } | null;
   isFixture: boolean;
 }
 
@@ -514,6 +516,12 @@ export interface Meta {
 }
 
 export type InstanceKind = 'dungeon' | 'raid';
+
+/** `src/data/professions.json`: guide/professions.md, the overview for every class. */
+export interface ProfessionsData extends GuideDoc {
+  /** The page's **Recommendation:** paragraph (label removed). */
+  recommendation?: string | null;
+}
 
 /** One H2 group of `guide/instances/index.md` ("Dungeons", "Raids"). */
 export interface InstanceGroup {

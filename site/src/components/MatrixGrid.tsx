@@ -16,7 +16,7 @@ function SpecChip({ row, label: labelOverride }: { row: MatrixRow; label?: strin
   const color = readableColor(meta?.color ?? '#8a8f98', theme);
   const target = matrixRowTarget(row);
   // Short names keep the grid inside the 1,110 px container; the label is free
-  // to wrap inside the chip so no column is forced wider than its content.
+  // to wrap inside the inline-flex items-center gap-1 rounded-[4px] px-1.5 py-0.5 font-medium so no column is forced wider than its content.
   const label = row.spec ? (labelOverride ?? shortSpecName(row.spec)) : (meta?.label ?? '');
   const title = `${row.class ?? ''} ${row.spec ?? ''} ${roleLabel(row.role)} — ${meta?.label ?? row.standing}${
     row.agreement ? ` (${row.agreement})` : ''
@@ -32,7 +32,7 @@ function SpecChip({ row, label: labelOverride }: { row: MatrixRow; label?: strin
       {label ? <span className="min-w-0">{label}</span> : null}
     </>
   );
-  const className = 'chip hairline text-xs';
+  const className = 'chip border text-xs';
   const style = { backgroundColor: `${color}1f`, borderColor: `${color}59`, color: 'rgb(var(--c-text))' };
 
   if (!target) {
@@ -78,12 +78,12 @@ export function MatrixGrid({ rows, roles }: MatrixGridProps) {
 
   return (
     <>
-      <div className="hidden overflow-x-auto rounded-xl hairline sm:block">
+      <div className="hidden overflow-x-auto rounded-lg border sm:block">
         <table className="w-full border-collapse text-sm">
           <caption className="sr-only">Spec by role matrix: community standing per class, spec and role</caption>
           <thead>
-            <tr className="bg-surface2">
-              <th scope="col" className="sticky left-0 z-10 bg-surface2 px-3 py-2 text-left font-semibold">
+            <tr className="bg-muted">
+              <th scope="col" className="sticky left-0 z-10 bg-muted px-3 py-2 text-left font-semibold">
                 Class
               </th>
               {present.map((role) => (
@@ -98,7 +98,7 @@ export function MatrixGrid({ rows, roles }: MatrixGridProps) {
               const ink = readableColor(entry.color, theme);
               return (
                 <tr key={entry.slug} className="border-t align-top">
-                  <th scope="row" className="sticky left-0 z-10 whitespace-nowrap bg-surface px-3 py-2 text-left">
+                  <th scope="row" className="sticky left-0 z-10 whitespace-nowrap bg-card px-3 py-2 text-left">
                     <a href={href.class(entry.slug)} className="font-semibold hover:underline" style={{ color: ink }}>
                       {entry.name}
                     </a>
@@ -107,7 +107,7 @@ export function MatrixGrid({ rows, roles }: MatrixGridProps) {
                     const cells = cellRows(entry.slug, role);
                     return (
                       <td key={role} className="px-3 py-2">
-                        {cells.length === 0 ? <span className="text-xs text-muted">—</span> : <ChipRow rows={cells} />}
+                        {cells.length === 0 ? <span className="text-xs text-muted-foreground">—</span> : <ChipRow rows={cells} />}
                       </td>
                     );
                   })}
@@ -126,18 +126,18 @@ export function MatrixGrid({ rows, roles }: MatrixGridProps) {
             .map((role) => ({ role, cells: cellRows(entry.slug, role) }))
             .filter((g) => g.cells.length > 0);
           return (
-            <section key={entry.slug} className="card flex flex-col gap-2.5 p-4">
+            <section key={entry.slug} className="rounded-lg border bg-card flex flex-col gap-2.5 p-4">
               <h2>
                 <a href={href.class(entry.slug)} className="font-semibold hover:underline" style={{ color: ink }}>
                   {entry.name}
                 </a>
               </h2>
               {filled.length === 0 ? (
-                <p className="text-xs text-muted">No rated specs.</p>
+                <p className="text-xs text-muted-foreground">No rated specs.</p>
               ) : (
                 filled.map(({ role, cells }) => (
                   <div key={role} className="flex flex-col gap-1">
-                    <span className="text-[11px] font-semibold uppercase tracking-wider text-muted">
+                    <span className="text-[11px] font-medium text-muted-foreground">
                       {roleLabel(role)}
                     </span>
                     <ChipRow rows={cells} />
@@ -156,7 +156,7 @@ export function StandingLegend() {
   const theme = useThemeValue();
   const items = ['favored', 'alternative', 'niche', 'not-viable'];
   return (
-    <ul className="flex flex-wrap gap-2 text-xs text-muted">
+    <ul className="flex flex-wrap gap-2 text-xs text-muted-foreground">
       {items.map((s) => {
         const meta = standingMeta(s)!;
         return (

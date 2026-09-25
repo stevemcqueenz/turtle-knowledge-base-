@@ -1,286 +1,192 @@
+@import '@fontsource-variable/inter/wght.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 /*
- * Design system: "field manual of an archived server".
- * Warm ink-on-parchment in the light theme, lamplit leather in the dark one; a
- * brass accent for the archive itself, each class's own color on its pages.
- * Colors are RGB triplets so Tailwind can add alpha. Every text color clears
- * 4.5:1 on bg, surface and surface-2 in its theme.
+ * Design tokens. shadcn/ui-style HSL variables (tailwind.config.js reads them).
+ * Dark is the default: a deep neutral slate. The light theme is crisp and cool.
+ * Game colors that must read the same everywhere (the in-game tooltip, the
+ * talent frame, instance maps) have their own fixed tokens.
  */
 :root,
 :root[data-theme='dark'] {
-  --c-bg: 20 18 15; /* #14120f */
-  --c-surface: 29 26 22; /* #1d1a16 */
-  --c-surface-2: 39 35 29; /* #27231d */
-  --c-text: 238 231 218; /* #eee7da */
-  --c-muted: 170 160 143; /* #aaa08f */
-  --c-line: 255 240 214;
-  --c-line-alpha: 0.11;
-  --c-accent: 222 176 98; /* brass #deb062 */
-  --c-accent-ink: 24 18 8; /* text on a solid accent fill */
-  --c-jade: 120 200 160;
-  /* sequential grade scale (one hue, light -> strong), letters always shown */
-  --g-S: 222 176 98;
-  --g-S-a: 0.95;
-  --g-A-a: 0.42;
-  --g-B-a: 0.22;
-  --g-C-a: 0.1;
-  --shadow: 0 1px 0 rgb(255 240 214 / 0.04) inset, 0 12px 32px -18px rgb(0 0 0 / 0.7);
-  /* backdrop of the instance maps: the minimap art is dark, so it stays dark in both themes */
-  --c-map-bg: 13 12 10;
-  --c-map-edge: 43 38 31;
+  --background: 222 16% 7%;
+  --foreground: 220 16% 92%;
+  --card: 222 15% 9.5%;
+  --card-foreground: 220 16% 92%;
+  --popover: 222 16% 10%;
+  --popover-foreground: 220 16% 92%;
+  --primary: 220 16% 92%;
+  --primary-foreground: 222 18% 9%;
+  --secondary: 222 12% 14%;
+  --secondary-foreground: 220 16% 92%;
+  --muted: 222 12% 13%;
+  --muted-foreground: 218 9% 63%;
+  --accent: 222 12% 15.5%;
+  --accent-foreground: 220 16% 95%;
+  --destructive: 0 72% 58%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 222 11% 18%;
+  --input: 222 11% 21%;
+  --ring: 212 92% 64%;
+  --sidebar: 222 17% 8%;
+  --sidebar-foreground: 220 12% 80%;
+  --link: 208 100% 72%;
+  --spell: 196 100% 72%; /* chat spell-link blue, #71d5ff */
+  --gold: 49 100% 50%;
+  --radius: 0.4rem;
+  /* item quality, as text on dark */
+  --q-S: 255 128 0;
+  --q-A: 184 101 245;
+  --q-B: 58 155 255;
+  --q-C: 30 255 0;
+  --q-N: 157 157 157;
+  --q-fill: 0.13;
+  --shadow-pop: 0 12px 32px -12px rgb(0 0 0 / 0.65);
+  --c-map-bg: 10 11 14;
+  /* the page's class color (set per class page); neutral elsewhere */
+  --cc: 214 218 226;
+  --cc-raw: 214 218 226;
+  --cc-ink: 11 13 18;
+  --tc: 150 160 180;
   color-scheme: dark;
 }
 
 :root[data-theme='light'] {
-  --c-bg: 245 240 230; /* #f5f0e6 parchment */
-  --c-surface: 255 252 246;
-  --c-surface-2: 236 229 215;
-  --c-text: 33 28 22; /* #211c16 */
-  --c-muted: 92 83 70; /* #5c5346 */
-  --c-line: 70 48 16;
-  --c-line-alpha: 0.15;
-  --c-accent: 133 86 18; /* #855612 */
-  --c-accent-ink: 255 250 240;
-  --c-jade: 30 110 80;
-  --g-S: 150 98 22;
-  --g-S-a: 1;
-  --g-A-a: 0.34;
-  --g-B-a: 0.18;
-  --g-C-a: 0.08;
-  --shadow: 0 1px 0 rgb(255 255 255 / 0.6) inset, 0 12px 28px -20px rgb(70 48 16 / 0.35);
-  --c-map-bg: 38 33 26;
-  --c-map-edge: 74 64 50;
+  --background: 220 20% 98.5%;
+  --foreground: 222 26% 10%;
+  --card: 0 0% 100%;
+  --card-foreground: 222 26% 10%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 222 26% 10%;
+  --primary: 222 26% 12%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 220 16% 94%;
+  --secondary-foreground: 222 26% 12%;
+  --muted: 220 16% 95%;
+  --muted-foreground: 218 11% 39%;
+  --accent: 220 16% 93.5%;
+  --accent-foreground: 222 26% 10%;
+  --destructive: 0 72% 45%;
+  --border: 220 14% 88%;
+  --input: 220 14% 84%;
+  --ring: 214 90% 48%;
+  --sidebar: 220 20% 97%;
+  --sidebar-foreground: 222 16% 26%;
+  --link: 214 88% 40%;
+  --spell: 201 90% 31%;
+  --gold: 40 100% 30%;
+  --q-S: 168 81 0;
+  --q-A: 138 38 209;
+  --q-B: 0 96 191;
+  --q-C: 29 125 0;
+  --q-N: 107 107 107;
+  --q-fill: 0.09;
+  --shadow-pop: 0 12px 28px -14px rgb(15 20 35 / 0.28);
+  --c-map-bg: 16 18 23;
+  --cc: 30 34 44;
+  --cc-raw: 30 34 44;
+  --cc-ink: 255 255 255;
   color-scheme: light;
 }
 
 @layer base {
+  * {
+    @apply border-border;
+  }
   html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 5rem;
+    scroll-padding-top: 4.5rem;
     -webkit-text-size-adjust: 100%;
   }
-
   body {
-    @apply bg-bg text-ink font-sans antialiased;
-    font-size: 16px;
+    @apply bg-background font-sans text-foreground antialiased;
+    font-size: 15px;
     line-height: 1.55;
-    font-feature-settings: 'kern', 'liga', 'calt';
-    text-rendering: optimizeLegibility;
+    font-feature-settings: 'cv11', 'ss03', 'calt';
   }
-
-  * {
-    border-color: rgb(var(--c-line) / var(--c-line-alpha));
-  }
-
   h1,
   h2,
   h3 {
     text-wrap: balance;
+    letter-spacing: -0.012em;
   }
-
   :focus-visible {
-    outline: 2px solid rgb(var(--c-accent));
+    outline: 2px solid hsl(var(--ring));
     outline-offset: 2px;
-    border-radius: 4px;
+    border-radius: 3px;
   }
-
   ::selection {
-    background: rgb(var(--c-accent) / 0.3);
+    background: hsl(var(--ring) / 0.3);
   }
-
   button {
     -webkit-tap-highlight-color: transparent;
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
   *,
   *::before,
   *::after {
     animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
     transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
   }
 }
 
 @layer components {
-  .hairline {
-    border: 1px solid rgb(var(--c-line) / var(--c-line-alpha));
-  }
-
-  .card {
-    @apply rounded-2xl bg-surface hairline;
-    box-shadow: var(--shadow);
-  }
-
-  .panel {
-    @apply rounded-2xl bg-surface2/60 hairline;
-  }
-
-  /* Instance maps (components/InstanceMap.tsx) */
-  .map-frame {
-    background:
-      radial-gradient(120% 90% at 50% 40%, rgb(var(--c-map-edge) / 0.55), transparent 70%),
-      rgb(var(--c-map-bg));
-  }
-
-  .map-marker {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 1.55rem;
-    height: 1.55rem;
-    padding: 0 0.3rem;
-    transform: translate(-50%, -50%);
-    border-radius: 9999px;
-    background: rgb(222 176 98);
-    color: rgb(24 18 8);
-    font: 700 0.75rem/1 ui-sans-serif, system-ui, sans-serif;
-    box-shadow: 0 0 0 2px rgb(13 12 10 / 0.9), 0 3px 8px rgb(0 0 0 / 0.55);
-    text-decoration: none;
-  }
-
-  .map-tool {
-    @apply inline-flex h-8 w-8 items-center justify-center rounded-full hairline bg-surface text-muted;
-  }
-
-  .map-tool:hover:not(:disabled) {
-    @apply text-ink;
-  }
-
-  .map-tool:disabled {
-    @apply opacity-40;
-  }
-
-  .map-marker:hover,
-  .map-marker:focus-visible {
-    background: rgb(250 226 170);
-    z-index: 2;
-  }
-
-  .chip {
-    @apply inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-xs font-medium;
-  }
-
-  /* Small-caps label above a block ("AT A GLANCE", "RECOMMENDED BUILD"). */
-  .eyebrow {
-    @apply font-sans text-[11px] font-semibold uppercase text-muted;
-    letter-spacing: 0.14em;
-  }
-
-  .display {
-    @apply font-serif font-semibold tracking-tight text-ink;
-    font-feature-settings: 'kern', 'liga', 'onum';
-  }
-
   .link {
-    color: rgb(var(--c-accent));
+    @apply text-link underline-offset-[3px] hover:underline;
+  }
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* The in-game tooltip: navy panel, thin light border, gold title, white body. */
+  .wow-tt {
+    background: linear-gradient(180deg, rgb(12 16 38 / 0.98), rgb(6 9 24 / 0.98));
+    border: 1px solid rgb(196 202 222 / 0.62);
+    box-shadow:
+      0 0 0 1px rgb(0 0 0 / 0.75),
+      0 14px 34px -10px rgb(0 0 0 / 0.75);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 1.45;
+  }
+  .wow-tt-title {
+    color: #ffd100;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.3;
+  }
+  .wow-tt-meta {
+    color: #a7a7a7;
+    font-size: 12px;
+  }
+  .wow-tt-green {
+    color: #1eff00;
+  }
+  .wow-tt a {
+    color: #71d5ff;
+  }
+  .wow-tt a:hover {
     text-decoration: underline;
-    text-decoration-color: rgb(var(--c-accent) / 0.35);
-    text-underline-offset: 3px;
   }
-  .link:hover {
-    text-decoration-color: rgb(var(--c-accent));
-  }
-
-  .btn {
-    @apply inline-flex items-center justify-center gap-2 rounded-xl px-3.5 py-2 text-sm font-semibold transition-colors;
-  }
-  .btn-primary {
-    background: rgb(var(--c-accent));
-    color: rgb(var(--c-accent-ink));
-  }
-  .btn-primary:hover {
-    background: rgb(var(--c-accent) / 0.88);
-  }
-  .btn-ghost {
-    @apply hairline bg-surface text-ink;
-  }
-  .btn-ghost:hover {
-    background: rgb(var(--c-surface-2));
-  }
-
-  /* Rule with a centered ornament, used between the big blocks of a page. */
-  .rule {
-    @apply flex items-center gap-3 text-muted;
-  }
-  .rule::before,
-  .rule::after {
-    content: '';
-    flex: 1;
-    height: 1px;
-    background: rgb(var(--c-line) / var(--c-line-alpha));
-  }
-
-}
-
-/* Grade classes are built at runtime (`grade-${letter}`), so they live outside
-   @layer, where Tailwind would purge them. */
-/* ---- grades (the guide's S/A/B/C ratings) ------------------------------ */
-.grade {
-  @apply inline-flex shrink-0 items-center justify-center rounded-md font-serif font-bold leading-none;
-  min-width: 1.9rem;
-  height: 1.9rem;
-  padding: 0 0.3rem;
-  font-size: 0.98rem;
-  color: rgb(var(--c-text));
-  background: rgb(var(--c-surface-2));
-  border: 1px solid rgb(var(--c-line) / var(--c-line-alpha));
-  font-variant-numeric: lining-nums;
-}
-.grade-sm {
-  min-width: 1.45rem;
-  height: 1.45rem;
-  font-size: 0.8rem;
-  border-radius: 0.35rem;
-}
-.grade-lg {
-  min-width: 2.6rem;
-  height: 2.6rem;
-  font-size: 1.35rem;
-  border-radius: 0.6rem;
-}
-.grade-S {
-  background: rgb(var(--g-S) / var(--g-S-a));
-  color: rgb(var(--c-accent-ink));
-  border-color: transparent;
-}
-.grade-A {
-  background: rgb(var(--g-S) / var(--g-A-a));
-  border-color: rgb(var(--g-S) / 0.5);
-}
-.grade-B {
-  background: rgb(var(--g-S) / var(--g-B-a));
-  border-color: rgb(var(--g-S) / 0.3);
-}
-.grade-C,
-.grade-D,
-.grade-F {
-  background: rgb(var(--g-S) / var(--g-C-a));
-}
-.grade-none {
-  @apply font-sans font-medium text-muted;
-  background: transparent;
-  border-style: dashed;
-  font-size: 0.72rem;
 }
 
 /* ---- Rendered Markdown -------------------------------------------------- */
 .prose-md {
-  @apply text-ink;
   line-height: 1.68;
   overflow-wrap: break-word;
 }
 .prose-md > * {
-  max-width: 70ch;
+  max-width: 74ch;
 }
-.prose-md > .table-scroll {
+.prose-md > .table-scroll,
+.prose-md > pre {
   max-width: 100%;
 }
 .prose-md p,
@@ -288,7 +194,7 @@
 .prose-md ol,
 .prose-md blockquote,
 .prose-md pre {
-  margin-bottom: 0.95rem;
+  margin-bottom: 0.85rem;
 }
 .prose-md > :last-child {
   margin-bottom: 0;
@@ -296,106 +202,109 @@
 .prose-md h2,
 .prose-md h3,
 .prose-md h4 {
-  @apply font-serif font-semibold text-ink;
-  line-height: 1.25;
-  margin: 1.6rem 0 0.55rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 1.5rem 0 0.5rem;
+  color: hsl(var(--foreground));
 }
 .prose-md h2 {
-  font-size: 1.3rem;
+  font-size: 1.15rem;
 }
 .prose-md h3 {
-  font-size: 1.12rem;
+  font-size: 1.02rem;
 }
 .prose-md h4 {
-  font-size: 1rem;
+  font-size: 0.95rem;
 }
 .prose-md > h3:first-child,
 .prose-md > h2:first-child {
-  margin-top: 0.2rem;
+  margin-top: 0.1rem;
 }
 .prose-md ul {
-  list-style: none;
-  padding-left: 1.1rem;
+  list-style: disc;
+  padding-left: 1.25rem;
 }
-.prose-md ul > li {
-  position: relative;
-}
-.prose-md ul > li::before {
-  content: '';
-  position: absolute;
-  left: -0.95rem;
-  top: 0.72em;
-  width: 0.34rem;
-  height: 0.34rem;
-  border-radius: 1px;
-  transform: rotate(45deg);
-  background: rgb(var(--c-accent) / 0.75);
+.prose-md ul > li::marker {
+  color: hsl(var(--muted-foreground) / 0.7);
 }
 .prose-md ol {
   list-style: decimal;
   padding-left: 1.4rem;
 }
 .prose-md ol > li::marker {
-  @apply font-semibold;
-  color: rgb(var(--c-accent));
+  color: hsl(var(--muted-foreground));
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
 }
 .prose-md li {
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.3rem;
+  padding-left: 0.15rem;
 }
 .prose-md li > ul,
 .prose-md li > ol {
-  margin: 0.4rem 0 0.2rem;
+  margin: 0.3rem 0 0.2rem;
 }
-.prose-md a {
-  color: rgb(var(--c-accent));
+.prose-md a,
+.md-inline a {
+  color: hsl(var(--link));
   text-decoration: underline;
-  text-decoration-color: rgb(var(--c-accent) / 0.3);
+  text-decoration-color: hsl(var(--link) / 0.35);
   text-underline-offset: 3px;
 }
-.prose-md a:hover {
-  text-decoration-color: rgb(var(--c-accent));
+.prose-md a:hover,
+.md-inline a:hover {
+  text-decoration-color: hsl(var(--link));
 }
 .prose-md strong {
-  @apply font-semibold;
-  color: rgb(var(--c-text));
+  font-weight: 600;
+  color: hsl(var(--foreground));
 }
-.prose-md code {
-  @apply font-mono rounded bg-surface2 px-1 py-0.5;
-  font-size: 0.82em;
-  word-break: break-all;
+.prose-md code,
+.md-inline code {
+  font-family: theme('fontFamily.mono');
+  font-size: 0.84em;
+  border-radius: 3px;
+  background: hsl(var(--muted));
+  padding: 0.08em 0.3em;
+  word-break: break-word;
+}
+/* Ability names written as `code` read like spell links in the game's chat. */
+.prose-md code.spell,
+.md-inline code.spell {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  color: hsl(var(--spell));
+  background: none;
+  padding: 0;
+  white-space: nowrap;
 }
 .prose-md pre {
-  @apply rounded-xl bg-surface2 hairline p-3 overflow-x-auto;
-  max-width: 100%;
+  @apply overflow-x-auto rounded-md border bg-muted p-3;
 }
 .prose-md pre code {
-  @apply bg-transparent p-0;
-  word-break: normal;
+  background: transparent;
+  padding: 0;
 }
 .prose-md blockquote {
-  @apply rounded-r-xl bg-surface2/70 px-4 py-2 text-muted;
-  border-left: 3px solid rgb(var(--c-accent) / 0.6);
-}
-.prose-md blockquote p:last-child {
-  margin-bottom: 0;
+  @apply border-l-2 pl-4 text-muted-foreground;
 }
 .prose-md hr {
-  @apply my-6;
-  border-top: 1px solid rgb(var(--c-line) / var(--c-line-alpha));
+  @apply my-6 border-t;
 }
 .prose-md .table-scroll {
-  @apply overflow-x-auto rounded-xl hairline my-4 bg-surface;
+  @apply my-4 overflow-x-auto rounded-md border;
   max-width: 100%;
 }
 .prose-md table {
-  @apply w-full text-[0.9rem];
+  width: 100%;
   border-collapse: collapse;
+  font-size: 0.9em;
   line-height: 1.5;
 }
 .prose-md th,
 .prose-md td {
-  @apply px-3 py-2 text-left align-top;
-  border-bottom: 1px solid rgb(var(--c-line) / var(--c-line-alpha));
+  @apply border-b px-3 py-2 text-left align-top;
 }
 .prose-md td {
   min-width: 7rem;
@@ -404,61 +313,67 @@
   min-width: 6rem;
 }
 .prose-md th {
-  @apply bg-surface2 font-semibold whitespace-nowrap text-[11px] uppercase text-muted;
-  letter-spacing: 0.08em;
+  @apply whitespace-nowrap bg-muted/60 font-medium text-muted-foreground;
+  font-size: 0.93em;
 }
 .prose-md tr:last-child td {
   border-bottom: none;
 }
 .prose-md tbody tr:hover td {
-  background: rgb(var(--c-surface-2) / 0.45);
+  background: hsl(var(--muted) / 0.45);
 }
-/* key/value fact tables (`| | |` header) have nothing to show in their head */
 .prose-md thead:not(:has(th:not(:empty))) {
   display: none;
+}
+.prose-md table:has(th:nth-child(3)) {
+  min-width: 34rem;
 }
 .prose-md img {
   max-width: 100%;
 }
+.cap-first > :first-child::first-letter {
+  text-transform: uppercase;
+}
 
-/* ---- Citations: quiet superscript markers (see lib/markdown.ts) ----------- */
+/* ---- Citations: quiet inline markers (lib/markdown.ts, lib/cite-popover.ts) */
 .cite-group {
   display: inline;
   white-space: nowrap;
 }
 .cite-mark {
-  @apply font-sans;
   position: relative;
-  top: -0.42em;
+  top: -0.45em;
   display: inline-flex;
   align-items: center;
-  gap: 2px;
-  margin-left: 0.14em;
-  padding: 0 0.32em;
-  min-width: 0.95rem;
   justify-content: center;
-  height: 0.95rem;
-  border-radius: 999px;
-  font-size: 0.62rem;
-  font-weight: 700;
-  line-height: 1;
-  color: rgb(var(--c-accent));
-  background: rgb(var(--c-accent) / 0.11);
-  border: 1px solid rgb(var(--c-accent) / 0.22);
+  margin-left: 0.12em;
+  min-width: 0.9rem;
+  height: 0.9rem;
+  padding: 0 0.22em;
+  border-radius: 3px;
+  font: 600 0.6rem/1 theme('fontFamily.sans');
+  font-variant-numeric: tabular-nums;
+  color: hsl(var(--muted-foreground));
+  background: hsl(var(--muted));
+  border: 1px solid hsl(var(--border));
   cursor: pointer;
   vertical-align: baseline;
-  transition: background-color 0.15s;
+  transition:
+    color 0.12s,
+    border-color 0.12s;
 }
-.cite-mark::before {
+.cite-mark:empty::before {
   content: '';
-  width: 0.34rem;
-  height: 0.34rem;
-  border-radius: 999px;
+  width: 0.28rem;
+  height: 0.28rem;
+  border-radius: 1px;
+  transform: rotate(45deg);
   background: currentColor;
 }
 .cite-mark:hover,
 .cite-mark[aria-expanded='true'] {
-  background: rgb(var(--c-accent) / 0.24);
+  color: hsl(var(--foreground));
+  border-color: hsl(var(--muted-foreground) / 0.6);
 }
 .cite-list {
   display: none;
@@ -470,11 +385,10 @@
   display: inline;
 }
 .cite {
-  @apply chip hairline bg-surface2 align-baseline;
-  color: rgb(var(--c-muted));
+  @apply inline-flex items-center rounded-sm border bg-muted align-baseline font-medium text-muted-foreground;
   font-size: 0.7rem;
-  line-height: 1.1;
-  padding: 0.08rem 0.45rem;
+  line-height: 1.15;
+  padding: 0.05rem 0.4rem;
   margin: 0 0 0 0.25rem;
   white-space: normal;
   max-width: 100%;
@@ -482,68 +396,64 @@
   text-decoration: none !important;
 }
 a.cite:hover {
-  color: rgb(var(--c-text));
-  border-color: rgb(var(--c-accent) / 0.6);
+  color: hsl(var(--foreground));
 }
 .cite-unknown {
   border-style: dashed;
 }
 
+/* The evidence popover, drawn as an in-game tooltip in both themes. */
 .cite-pop {
-  @apply rounded-xl bg-surface hairline text-sm;
+  @apply wow-tt;
   position: fixed;
   z-index: 60;
   display: none;
   width: max-content;
-  max-width: min(24rem, calc(100vw - 16px));
+  max-width: min(23rem, calc(100vw - 16px));
   max-height: min(60vh, 26rem);
   overflow-y: auto;
-  padding: 0.35rem;
-  box-shadow: 0 18px 40px -12px rgb(0 0 0 / 0.55);
+  padding: 0.25rem 0;
 }
 .cite-pop.open {
   display: block;
 }
 .cite-pop-item {
-  padding: 0.55rem 0.65rem;
-  border-radius: 0.6rem;
+  padding: 0.5rem 0.75rem;
 }
 .cite-pop-item + .cite-pop-item {
-  border-top: 1px solid rgb(var(--c-line) / var(--c-line-alpha));
+  border-top: 1px solid rgb(196 202 222 / 0.18);
 }
 .cite-pop-head {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
-  gap: 0.2rem 0.5rem;
-  font-size: 0.78rem;
+  gap: 0.1rem 0.5rem;
 }
 .cite-pop-head strong {
-  color: rgb(var(--c-text));
+  color: #ffd100;
+  font-weight: 600;
+  font-size: 13.5px;
 }
 .cite-pop-head span {
-  color: rgb(var(--c-muted));
+  color: #a7a7a7;
+  font-size: 11.5px;
 }
 .cite-pop-item p {
-  margin: 0.3rem 0 0.35rem;
-  font-family: theme('fontFamily.serif');
-  font-size: 0.9rem;
+  margin: 0.25rem 0 0.3rem;
+  color: #fff;
+  font-size: 13px;
   line-height: 1.45;
-  color: rgb(var(--c-text));
-  border-left: 2px solid rgb(var(--c-accent) / 0.5);
-  padding-left: 0.6rem;
 }
 .cite-pop-item a {
-  font-size: 0.75rem;
-  font-weight: 600;
-  color: rgb(var(--c-accent));
+  font-size: 11.5px;
+  color: #71d5ff;
 }
 .cite-pop-missing {
-  font-size: 0.75rem;
-  color: rgb(var(--c-muted));
+  font-size: 11.5px;
+  color: #a7a7a7;
 }
 
-/* Inline glossary tooltips (see lib/glossary-inline.ts). */
+/* Inline glossary tooltips (lib/glossary-inline.ts). */
 .gloss {
   position: relative;
 }
@@ -553,86 +463,79 @@ a.cite:hover {
   background: none;
   padding: 0;
   text-align: left;
-  border-bottom: 1px dashed rgb(var(--c-accent) / 0.8);
-  cursor: pointer;
-}
-.gloss-term:hover {
-  color: rgb(var(--c-accent));
+  text-decoration: underline dotted hsl(var(--muted-foreground));
+  text-underline-offset: 3px;
+  cursor: help;
 }
 .gloss-pop {
-  @apply rounded-xl bg-surface hairline p-3 text-sm shadow-xl;
+  @apply wow-tt;
   display: none;
   position: absolute;
   top: calc(100% + 0.35rem);
   left: 0;
   z-index: 30;
   width: max-content;
-  max-width: min(22rem, 78vw);
+  max-width: min(21rem, 78vw);
+  padding: 0.55rem 0.75rem;
   white-space: normal;
   font-weight: 400;
   font-style: normal;
   max-height: 60vh;
   overflow-y: auto;
-  color: rgb(var(--c-muted));
-  line-height: 1.5;
 }
 .gloss.open > .gloss-pop {
   display: block;
 }
 .gloss-pop > strong {
-  @apply font-semibold text-ink;
   display: block;
+  color: #ffd100;
+  font-weight: 600;
   margin-bottom: 0.15rem;
 }
 .gloss-scope {
-  @apply text-[10px] uppercase tracking-wider text-muted;
   display: block;
   margin-top: 0.35rem;
+  color: #a7a7a7;
+  font-size: 11.5px;
 }
 
-.scrollbar-thin {
-  scrollbar-width: thin;
-}
-.no-scrollbar {
-  scrollbar-width: none;
-}
-.no-scrollbar::-webkit-scrollbar {
-  display: none;
-}
-
-/* A quiet paper texture for the hero bands: two soft radial washes, no images. */
-.hero-wash {
+/* ---- Instance maps (components/InstanceMap.tsx) ------------------------- */
+.map-frame {
   background:
-    radial-gradient(60rem 22rem at 12% -10%, rgb(var(--c-accent) / 0.13), transparent 70%),
-    radial-gradient(40rem 20rem at 95% 0%, rgb(var(--c-jade) / 0.08), transparent 70%);
+    radial-gradient(120% 90% at 50% 40%, rgb(34 38 48 / 0.6), transparent 70%),
+    rgb(var(--c-map-bg));
 }
-
-/* Talent grid cells */
-.talent-cell {
-  @apply relative flex min-h-[3.1rem] flex-col justify-between rounded-lg px-1.5 pb-1 pt-1 text-left;
-  border: 1px solid rgb(var(--c-line) / var(--c-line-alpha));
-  background: rgb(var(--c-surface-2) / 0.35);
+.map-marker {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.45rem;
+  height: 1.45rem;
+  padding: 0 0.28rem;
+  transform: translate(-50%, -50%);
+  border-radius: 9999px;
+  background: radial-gradient(circle at 35% 30%, #ffe680, #ffd100 55%, #c79a00);
+  color: #1a1400;
+  font: 700 0.72rem/1 theme('fontFamily.sans');
+  font-variant-numeric: tabular-nums;
+  box-shadow:
+    0 0 0 2px rgb(10 11 14 / 0.95),
+    0 3px 8px rgb(0 0 0 / 0.6);
+  text-decoration: none;
+  transition: transform 0.12s;
 }
-.talent-cell[data-taken='true'] {
-  background: rgb(var(--tc) / 0.16);
-  border-color: rgb(var(--tc) / 0.55);
-}
-.talent-cell[data-full='true'] {
-  background: rgb(var(--tc) / 0.26);
-  border-color: rgb(var(--tc) / 0.85);
-}
-.talent-cell[data-taken='false'] {
-  color: rgb(var(--c-muted));
-}
-.talent-cell[data-taken='false'] .talent-name {
-  opacity: 0.72;
+.map-marker:hover,
+.map-marker:focus-visible {
+  transform: translate(-50%, -50%) scale(1.15);
+  z-index: 2;
 }
 
 /* Instance pages: dim boss notes that do not mention the highlighted role. */
 [data-hl='tank'] .boss-card :is(li, p):not([data-rtank]),
 [data-hl='healer'] .boss-card :is(li, p):not([data-rhealer]),
 [data-hl='dps'] .boss-card :is(li, p):not([data-rdps]) {
-  opacity: 0.35;
+  opacity: 0.32;
 }
 [data-hl='tank'] .boss-card li[data-rtank],
 [data-hl='healer'] .boss-card li[data-rhealer],
@@ -643,11 +546,120 @@ a.cite:hover {
   transition: opacity 0.15s;
 }
 
-.cap-first > :first-child::first-letter {
-  text-transform: uppercase;
+/* ---- The talent frame (components/talents/TalentGrid.tsx) --------------- */
+.talent-frame {
+  background:
+    radial-gradient(120% 70% at 50% 0%, rgb(var(--tc) / 0.1), transparent 70%),
+    linear-gradient(180deg, #13161d, #0c0e13);
+  border: 1px solid #2a2f3a;
+  border-radius: 6px;
+  color: #e8e8e8;
+}
+.talent-slot {
+  position: relative;
+  display: flex;
+  aspect-ratio: 1;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background: linear-gradient(160deg, #262b35, #171a21);
+  border: 1px solid #3a404c;
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.05), 0 1px 2px rgb(0 0 0 / 0.6);
+  color: #7d8490;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  cursor: default;
+  transition:
+    border-color 0.12s,
+    transform 0.12s;
+}
+.talent-slot[data-state-rank='partial'] {
+  background: linear-gradient(160deg, rgb(var(--tc) / 0.34), rgb(var(--tc) / 0.12) 60%, #151820);
+  border-color: #1eff00;
+  box-shadow:
+    0 0 0 1px rgb(30 255 0 / 0.25),
+    0 0 10px rgb(30 255 0 / 0.18);
+  color: #fff;
+}
+.talent-slot[data-state-rank='max'] {
+  background: linear-gradient(160deg, rgb(var(--tc) / 0.45), rgb(var(--tc) / 0.16) 60%, #151820);
+  border-color: #ffd100;
+  box-shadow:
+    0 0 0 1px rgb(255 209 0 / 0.3),
+    0 0 10px rgb(255 209 0 / 0.2);
+  color: #fff;
+}
+.talent-slot[data-hl='true'] {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+.talent-slot:hover,
+.talent-slot:focus-visible {
+  transform: translateY(-1px);
+}
+.talent-rank {
+  position: absolute;
+  right: -3px;
+  bottom: -3px;
+  min-width: 1.35em;
+  padding: 0.12em 0.25em;
+  border-radius: 3px;
+  background: #07080b;
+  border: 1px solid #3a404c;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0;
+  color: #8a8f98;
+  text-align: center;
+}
+.talent-slot[data-state-rank='partial'] .talent-rank {
+  color: #1eff00;
+}
+.talent-slot[data-state-rank='max'] .talent-rank {
+  color: #ffd100;
+}
+.talent-arrow {
+  position: absolute;
+  pointer-events: none;
+  background: #4b515d;
+}
+.talent-arrow[data-on='true'] {
+  background: #ffd100;
+  box-shadow: 0 0 4px rgb(255 209 0 / 0.4);
+}
+.talent-arrow-head {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 6px solid #4b515d;
+}
+.talent-arrow[data-on='true'] .talent-arrow-head {
+  border-top-color: #ffd100;
 }
 
-/* Wide tables scroll sideways on phones instead of squeezing to one word a line. */
-.prose-md table:has(th:nth-child(3)) {
-  min-width: 34rem;
+/* ---- the XP bar (reading progress under the top bar) -------------------- */
+.xp-bar {
+  background-image: repeating-linear-gradient(
+    90deg,
+    transparent 0,
+    transparent calc(5% - 1px),
+    rgb(0 0 0 / 0.55) calc(5% - 1px),
+    rgb(0 0 0 / 0.55) 5%
+  ),
+  linear-gradient(180deg, #b35cff, #7b1fd6);
+}
+
+.scrollbar-thin {
+  scrollbar-width: thin;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
 }

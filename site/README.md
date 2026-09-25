@@ -1,8 +1,8 @@
-# Turtle WoW Field Manual (class guide site)
+# Turtle WoW class guides (site)
 
 A static site over this repository's class guides for Turtle WoW's final patch, 1.18.1: how the community played every class, distilled from a full read of the archived Discord (1.18.1 era) plus the forum and wiki, with every claim linked to the verbatim message it came from. Pick a class or a goal, get the short answer and the ratings first, then the full guide, the leveling path, the dungeon and raid pages, and a machine-readable playbook per spec for bot developers.
 
-Vite + React 18 + TypeScript + Tailwind CSS. No backend, no runtime network calls, no external fonts or CDN scripts, and no game artwork apart from the instance maps (rendered from the client's own minimap textures, see below). All prose comes from the generated JSON in `src/data/`; the only hand-written strings are UI labels.
+Vite + React 18 + TypeScript + Tailwind CSS, with shadcn/ui-style components (Radix primitives, `class-variance-authority`, `tailwind-merge`, `cmdk`, `lucide-react`) and the Inter variable font bundled from `@fontsource-variable/inter`. No backend, no runtime network calls, no external fonts or CDN scripts, and no game artwork apart from the instance maps (rendered from the client's own minimap textures, see below). All prose comes from the generated JSON in `src/data/`; the only hand-written strings are UI labels.
 
 ## Requirements
 
@@ -26,51 +26,63 @@ npm run build:single  # -> dist-single/index.html   one self-contained file
 
 `base` is `./`, so `dist/` works unchanged at a domain root, inside a sub-path (GitHub Pages project sites), in any sub-folder of a static server, and straight from disk. Routing is hash-based (`#/class/warrior/protection-tank`), so deep links survive a reload with no server rewrites.
 
-The single-file build inlines the JS, CSS and JSON into one HTML file (~10.7 MB) that opens from `file://` with zero network requests — useful for previews, archives and offline reading. It leaves out the instance maps (separate image files under `public/maps/`, ~7.6 MB): its instance pages show a one-line note instead (`VITE_SINGLE_FILE`, `publicDir: false` in `vite.config.single.ts`).
+The single-file build inlines the JS, CSS, font and JSON into one HTML file (~13 MB) that opens from `file://` with zero network requests — useful for previews, archives and offline reading. It leaves out the instance maps (separate image files under `public/maps/`, ~7.6 MB): its instance pages show a one-line note instead (`VITE_SINGLE_FILE`, `publicDir: false` in `vite.config.single.ts`).
 
-## Design
+## Design (v2, 2026-09)
 
-"Field manual of an archived server": warm ink on parchment (light) or lamplit leather (dark, the default), a brass accent for the archive, each class's own color on its pages, a book face (system serif stack: Iowan Old Style / Palatino / Charter / Georgia / Noto Serif, nothing downloaded) for headings and the system sans for reading. No game artwork: classes are monograms in their color, talents are typography. The one exception is the dungeon and raid maps, which are the client's minimap textures on a fixed dark backdrop (`--c-map-bg`) in both themes.
+A WoW-native docs/data app rather than a landing page: think Wowhead or Warcraft Logs. The v1 "field manual" (serif display type, parchment and brass, tracked-caps eyebrows, stat counters) is gone.
 
-- **Fast answers first.** Every class, spec and leveling page opens with "The short answer" (the guide's own **Recommendation:** paragraph) and its ratings; the full guide follows with a sticky table of contents (sidebar on desktop, a sticky chip bar on phones) that tracks the section being read.
-- **Ratings** are the guide's S/A/B/C letters on a one-hue brass scale (letter always visible, `*` = contested, dashed `—` = not a role).
-- **Citations are quiet.** A run of adjacent citation chips becomes one small superscript marker (a dot, plus a count when several). Hover or keyboard focus shows a popover with each message's author, channel, date and verbatim text and a link to its evidence line; click/tap unfolds the original chips inline. (`lib/markdown.ts` `groupCitations`, `lib/cite-popover.ts`, `components/CitedText.tsx`.)
-- Tokens live in `src/index.css` (`--c-*`, `--g-*` grade scale); every text color clears 4.5:1 in both themes.
+- **App shell.** A top bar (the turtle logo, the site name, the ⌘K / Ctrl K / `/` search palette, theme toggle, repository link), a collapsible left sidebar (site pages; every class with its specs, leveling, PvP, professions and sources, the current class opened; dungeons and raids grouped Raids / Dungeons), the content column, and an "On this page" list on the right from `xl` up (a sticky dropdown under the top bar below that). Phones get the sidebar as a Sheet. The sidebar state is kept in `localStorage` (`twow-sidebar`). The top bar's bottom edge is an experience bar: reading progress in the game's XP purple with its twenty segment ticks.
+- **Tokens.** shadcn-style HSL variables in `src/index.css`: dark by default (a deep neutral slate), a crisp cool light theme. Sentence-case headings in Inter, tabular numbers wherever numbers line up, 6 px radii, flat bordered panels, subtle motion only (all disabled under `prefers-reduced-motion`).
+- **Class colors** are the official palette (`tailwind.config.js`); on a class's pages they become `--cc` (tuned for text contrast per theme in `lib/theme.ts`), `--cc-raw` (the game color) and `--cc-ink` (text on a class-color fill). Class emblems are lucide glyphs in an action-button frame rimmed in the class color (`components/ui/ClassMark.tsx`); no game art.
+- **Ratings are item-quality badges** (`components/ui/Grade.tsx`): S legendary #ff8000, A epic #a335ee, B rare #0070dd, C uncommon #1eff00, D/none poor #9d9d9d, as text on a faint fill of the same color, with darker per-theme text values for AA contrast in light mode (`--q-*`). `*` marks a contested rating.
+- **In-game tooltips.** Citations, glossary terms, ratings (Radix HoverCard) and talents (Radix Tooltip) open a navy panel with a thin light border, gold title, white body and grey meta line (`.wow-tt`), identical in both themes.
+- **The talent frame** (`components/talents/TalentGrid.tsx`): square slots on the 4 × 7 grid lettered with the talent's initials, the rank in the bottom-right corner (green while partly spent, gold when maxed, grey at 0), gold arrows for met prerequisites, locked tiers dimmed, tree totals in the headers (tabs on phones), and the game's talent tooltip (rank, tier and prerequisite lines, red when unmet) on hover or focus.
+- **Ability names** written as `code` in the guides render like chat spell links (`#71d5ff`, `code.spell`, set in `lib/markdown.ts`); real links are underlined.
+- **Citations are quiet.** A run of adjacent citation chips becomes one small marker (a diamond, or a count). Hover or focus shows the in-game tooltip with each message's author, channel, date and verbatim text and a link to its evidence line; click/tap unfolds the chips inline (`lib/markdown.ts` `groupCitations`, `lib/cite-popover.ts`, `components/CitedText.tsx`).
+- **Loading** states are a cast bar; unknown routes print the game's red error line.
+
+### Components
+
+`src/components/ui/` holds the shadcn-style primitives, copied in and styled with the tokens: `button`, `badge`, `tabs` (underline and segmented variants), `accordion`, `hover-card`, `tooltip`, `scroll-area`, `toggle`, `toggle-group`, `table`, `separator`, `breadcrumb`, `select`, `dropdown-menu`, `dialog`, `sheet`, `command` (cmdk), `collapsible`, `kbd`, `panel`, plus the site's own `Grade` (quality badge), `ClassMark` and `CopyButton`. Domain components: `layout/` (Topbar with the XP bar, Sidebar, Page / PageHeader / Section, Toc and MobileToc), `class/` (ViabilityMatrix with rating tooltips, ClassNav, RoleIcon), `talents/TalentGrid`, `playbook/` (BuildCard with the build switcher, StatsCard, PriorityCard, ConsumablesCard, HowToPlay, BotPanel), `leveling/` (GameplayByLevel, LevelingTimeline), `InstanceMap`, `SearchDialog`, `GlossaryPanel`, `DocLayout`.
 
 ### Pages
 
 | Route | Page |
 |---|---|
-| `#/` | purpose and provenance, search, the nine classes (best raid and leveling spec each, from the guide), "Best picks by goal" (level, raid DPS, tank, heal, PvP, farm; dungeons & raids), how to read citations, the bot playbooks |
-| `#/class/<slug>` | short answer, "Go to" list, **viability matrix** (specs × raid/dungeon/PvP/leveling/open world; select a rating to read the guide's reasoning with its citations; cards on phones), spec guide cards, then every other section of `index.md` (1.18.1 changes, races, professions …) |
-| `#/class/<slug>/<spec>-<role>` | short answer + the spec's ratings; **At a glance**: fact table (role, difficulty, strengths, weaknesses), **recommended build as a native talent grid** with "Open in talent calculator" and a switcher over every build the guide links, stat priority + caps, the numbered single-target priority (copyable), consumables and enchants; then the full guide in its own section order; **For bots** (the YAML playbook as JSON: copy, download, link to the YAML) |
-| `#/class/<slug>/leveling` | short answer and leveling ratings, then the guide's sections with the talent-order tables replaced by the **talent path**: one tab per path, a 10→60 timeline in ten-level bands with rank bars and respec markers, and a talent grid with a level slider that replays the order (the guide's tables stay one click away) |
-| `#/class/<slug>/sources`, `#/class/<slug>/guide/<page>` | standalone guide pages with a table of contents |
+| `#/` | class picker (a tile per class: emblem, best raid and leveling spec as quality badges, its spec pages), "By goal" (Level, Raid DPS, Tank, Heal, PvP, Farm as a segmented control over a ranked list, plus Dungeons & raids, Professions, Viability board), leveling guides and raids on the side, one provenance line |
+| `#/class/<slug>` | header with the class's page strip (overview, specs, leveling, PvP, professions, sources), the recommendation, **ratings by activity** (specs × raid/dungeon/PvP/leveling/open world as quality badges; hover for the reason as an in-game tooltip, select for the full reasoning with citations; one row per spec on phones), specs and guides (with leveling and the class professions page), then every other section of `index.md` (1.18.1 changes, races, professions … with a link to the professions page) |
+| `#/class/<slug>/<spec>-<role>` | header (role, build split, the spec's ratings), the recommendation, **At a glance** (fact table and the **recommended build in the talent frame** with "Open in talent calculator" and a switcher over every build the guide links), **How to play** (the guide's `## How to play` loop as a numbered track: each step's bold lead-in as its title, "Back to step n" at the end), priorities and stats (single-target priority, stat priority and caps, consumables), then the rest of the guide in its own order, **For bots** (tabs: the playbook's keys, `play_loop`, `leveling_gameplay`, `talents`, the full JSON; download, copy, YAML source). PvP pages have the same layout. |
+| `#/class/<slug>/leveling` | **Gameplay by level** first: a segmented control over the `### Levels 1–9 … 50–60` brackets, each bracket as blocks (new abilities split into a level list, single target, multi-target, tanking, healing, pet …, from the bullets' bold lead-ins), extra H3s (AoE farming, other paths) after it; then the **talent path** (a tab per path, 10→60 timeline with rank bars and respec markers, the talent frame with a level slider that replays the order, the guide's table one click away), then every other section |
+| `#/class/<slug>/professions` | the class professions page (`guide/classes/<class>/professions.md`) with a link to the overview; the old `#/class/<slug>/guide/professions` still works |
+| `#/professions` | the professions overview (`guide/professions.md`): its recommendation, links to every class page, then its sections (who wants what, primary and secondary professions, races, gold, gaps) |
+| `#/class/<slug>/sources`, `#/class/<slug>/guide/<page>` | standalone guide pages |
 | `#/class/<slug>/gear` | forum-era gear lists (research archive) |
-| `#/instances` | dungeon and raid index as cards (map thumbnail, level, size, patch, zone, opening line), filter by kind |
-| `#/instances/<slug>` | instance page; the **map** first (floor tabs, numbered boss markers linking to the boss cards, click to enlarge with zoom and drag-to-pan, provenance line), then boss sections become one card per boss (anchors `boss-<name>`, listed under "Bosses" in the TOC) with a sticky "highlight lines for Tanks / Healers / DPS" filter that dims boss notes not mentioning the role |
-| `#/matrix` (`?by=raid|dungeon|pvp|leveling|farming`) | **viability board**: all classes' specs as a tier list per activity, plus the full ratings table |
+| `#/instances` | dungeon and raid index as tiles (map thumbnail, level, size, patch, zone, opening line), filter by kind |
+| `#/instances/<slug>` | the **map** first (floor tabs, numbered boss markers linking to the boss notes, click to enlarge with zoom and drag-to-pan, provenance line), then the sections; bosses are anchored blocks (`boss-<name>`) headed by their map number, with a sticky "Highlight: Everyone / Tanks / Healers / DPS" control that dims lines not mentioning the role |
+| `#/matrix` (`?by=raid|dungeon|pvp|leveling|farming`) | **viability board**: a tier list per activity (S/A/B/C rows, hover a spec for its reason), then every rating in one table |
+| `#/glossary` | every glossary term, filterable by text and category (the glossary sheet opens from search results) |
 | `#/archive` | the forum-era spec × role matrix and coverage notes (superseded, kept) |
-| `#/about` | provenance, method, how to read citations, bots, the 1.18.1 timeline |
+| `#/about` | what this is, how it was made, reading a citation, for bot developers, the 1.18.1 timeline, sources |
 
 Any route accepts `?s=<section id>`: the page scrolls to that section once loaded (search uses it for section and boss results).
 
-Search (`/`, Ctrl K / ⌘K) covers classes, spec guides and every section heading, leveling guides and their sections, class-page sections, instance pages and every boss, the glossary, and the site's pages, all from the core module.
+Search (⌘K / Ctrl K / `/`) is a cmdk palette over classes, spec guides and every section heading, leveling guides and their sections, class-page sections, professions, instance pages and every boss, the glossary and the site's pages, grouped by kind, all from the core module.
 
 ### Loading
 
-`scripts/data-plugin.mjs` (a Vite plugin) serves the generated JSON as virtual modules: a small **core** (per-class summaries: recommendation, viability table, spec list with section headings; the instance index with boss names; glossary; meta) bundled with the app, and one lazily loaded chunk per class, one for the instance pages and one for the archive matrix. First load is ~650 kB of JS (~180 kB gzipped) instead of the whole 10 MB of data; hovering a class link prefetches its chunk. `src/data/*.json` stays the single, tested contract; the plugin only projects and splits it. The single-file build inlines every chunk.
+`scripts/data-plugin.mjs` (a Vite plugin) serves the generated JSON as virtual modules: a small **core** (per-class summaries: recommendation, viability table, spec list with section headings; the instance index with boss names; the professions overview's headings; glossary; meta) bundled with the app, and one lazily loaded chunk per class, one for the instance pages, one for the professions overview and one for the archive matrix. First load is ~900 kB of JS (~260 kB gzipped, the UI primitives included) plus 58 kB of CSS and the Latin subset of Inter (48 kB) instead of the whole 13 MB of data; hovering a class link prefetches its chunk. `src/data/*.json` stays the single, tested contract; the plugin only projects and splits it. The single-file build inlines every chunk and the font.
 
 ## Checks
 
 ```sh
 npm run check            # tsc --noEmit + eslint + the data-contract validator
-npm run smoke            # server-renders every route and fails on any error
+npm run smoke            # server-renders every route (157) and fails on any error
 npm run smoke -- --fixtures
 node scripts/check-data.mjs --fixtures
 ```
 
-`npm run check` is offline and needs no browser: `scripts/check-data.mjs` validates `src/data/*.json` against the contract in `PLAN.md` §2 and §10 (shapes, enums, section keys, cross-references, viability cells, decoded builds against the talent trees, leveling paths, and `meta.counts` against the real counts) and exits non-zero on any violation. `npm run smoke` builds an SSR bundle, preloads every data chunk and renders home, the viability board, archive, about, every class, leveling, gear, playbook and guide page, the dungeon and raid index and every instance page, plus unknown routes, asserting that each produces content: class pages carry the viability matrix and every section, spec pages the at-a-glance block, the calculator link of their build, every guide section and the bot playbook; leveling pages the talent path and every section; instance pages every section and boss anchor; no page shows a raw `[[d:…]]` citation or a `.md` href. `scripts/test_data.py` and `check-data.mjs` also check `instances.json`: pages match `guide/instances/*.md`, every index link resolves, no raw citations or dangling relative `.md` links, and no class guide links to an instance page on GitHub.
+`npm run check` is offline and needs no browser: `scripts/check-data.mjs` validates `src/data/*.json` against the contract in `PLAN.md` §2 and §10 (shapes, enums, section keys, cross-references, viability cells, decoded builds against the talent trees, leveling paths, and `meta.counts` against the real counts) and exits non-zero on any violation. `npm run smoke` builds an SSR bundle, preloads every data chunk and renders home, the viability board, archive, about, every class, leveling, gear, playbook and guide page, the dungeon and raid index and every instance page, plus unknown routes, asserting that each produces content: class pages carry the viability matrix and every section, spec pages the at-a-glance block, the calculator link of their build, every guide section and the bot playbook; leveling pages the talent path and every section; instance pages every section and boss anchor; leveling pages a tab and a panel per "Levels X–Y" bracket of Gameplay by level with its New now and Single target blocks; spec pages "How to play" (with its loop) and the `play_loop` / `leveling_gameplay` bot tabs; `#/professions` and every `#/class/<slug>/professions` page their sections and cross-links; class pages the quality badges and the professions link; `#/glossary` its terms; no page shows a raw `[[d:…]]` citation or a `.md` href. `scripts/test_data.py` and `check-data.mjs` also check `instances.json`: pages match `guide/instances/*.md`, every index link resolves, no raw citations or dangling relative `.md` links, and no class guide links to an instance page on GitHub.
 
 ## Hosting
 
@@ -83,7 +95,7 @@ node scripts/check-data.mjs --fixtures
 `src/data/*.json` is generated from the repository and committed, so the site builds without Python:
 
 ```sh
-python3 site/scripts/build-data.py   # rewrites site/src/data/{classes,matrix,glossary,meta,instances}.json
+python3 site/scripts/build-data.py   # rewrites site/src/data/{classes,matrix,glossary,meta,instances,professions}.json
 python3 site/scripts/test_data.py    # the generator's own count/shape assertions
 cd site && npm run check             # re-validates the contract from the app side
 ```
@@ -103,6 +115,8 @@ A class that has `guide/classes/<class>/index.md` is built from its guide; every
 | leveling | `leveling.md` (talent-order tables parsed as before) | synthesis `leveling.md` |
 | Sources page `#/class/<slug>/sources` | `sources.md` | — |
 | extra pages `#/class/<slug>/guide/<page>` | any other page no YAML points at (e.g. `warlock-tank.md`) | — |
+| class professions `#/class/<slug>/professions` | `professions.md` (a guide page like the extra pages, with its own route) | — |
+| professions overview `#/professions` | `guide/professions.md` → `src/data/professions.json` (a GuideDoc plus `recommendation`; optional, like `instances.json`) | — |
 
 Guide headings are slotted with their own keyword list (`GUIDE_SECTION_KEYWORDS` in `build-data.py`: "Talent build"/"Builds" → talents, "Stat priority and caps" → stats, "Single-target rotation"/"Burst and control sequences" → single target, "AoE …" → AoE, "Enchants" and "Consumables" → their own `enchants` / `consumables` slots, "Raid notes"/"Matchups"/"Role duties" → role strategy, "Common mistakes" → mistakes); the opening before the first H2 becomes `overview`. Everything else lands in `extraSections` ("More from this guide"), so nothing is dropped. Relative links between guide pages become site routes; links to files that exist elsewhere in the repository go to GitHub; links to pages not in the repository yet keep only their text.
 
@@ -158,31 +172,33 @@ site/
   index.html                 app shell (theme bootstrap, inline SVG favicon)
   vite.config.ts             dist/ build (base './')
   vite.config.single.ts      dist-single/ build (vite-plugin-singlefile)
+  tailwind.config.js         shadcn tokens, class colors, item-quality colors
   scripts/build-data.py      data generator (repo -> src/data/*.json)
-  scripts/data-plugin.mjs    Vite plugin: core module + one lazy chunk per class
+  scripts/data-plugin.mjs    Vite plugin: core module + lazy chunks
   scripts/test_data.py       generator tests
   scripts/check-data.mjs     contract validator used by `npm run check`
   scripts/smoke.mjs          offline route crawl (SSR)
+  src/index.css              tokens, prose, citation / tooltip / talent-frame / map styles
   src/types.ts               TypeScript view of the data contract
   src/data/                  generated JSON + fixtures + loader
-  src/lib/                   router, theme, markdown, search, leveling,
-                             glossary tooltips, site helpers
-  src/lib/                   + grades (ratings, goals), cite-popover, search
-  src/components/layout/     PageHero, WithToc (sticky TOC + scrollspy), Section
-  src/components/talents/    TalentGrid (3 trees × 7 × 4, pips, totals, prerequisites)
-  src/components/playbook/   Glance (build card + switcher, stats, priority, consumables), BotPanel
-  src/components/leveling/   LevelingTimeline (10→60 timeline, level slider)
-  src/components/class/      ViabilityMatrix, RoleIcon
-  src/components/ui/         ClassMark, Grade, CopyButton
-  src/pages/                 Home, ClassPage, PlaybookPage, LevelingPage,
-                             GearPage, GuideDocPage, InstancesPage, InstancePage,
-                             MatrixPage (viability board), ArchivePage, AboutPage, NotFound
+  src/lib/                   router, theme, markdown, search, grades, leveling,
+                             instances, citations, cite-popover, glossary tooltips, utils (cn)
+  src/components/ui/         shadcn-style primitives + Grade, ClassMark, CopyButton, panel
+  src/components/layout/     Topbar (XP bar), Sidebar, Page/PageHeader/Section, Toc
+  src/components/class/      ViabilityMatrix, ClassNav, RoleIcon
+  src/components/talents/    TalentGrid (the talent frame)
+  src/components/playbook/   Glance (build card, stats, priority, consumables), HowToPlay, BotPanel
+  src/components/leveling/   GameplayByLevel, LevelingTimeline
+  src/pages/                 Home, ClassPage, PlaybookPage, LevelingPage, GuideDocPage,
+                             ProfessionsPage, GearPage, InstancesPage, InstancePage,
+                             MatrixPage (viability board), GlossaryPage, ArchivePage, AboutPage, NotFound
 ```
 
 ## Conventions
 
-- Dark theme by default, light toggle persisted in `localStorage`; class colors are darkened or lightened per theme so text keeps a 4.5:1 contrast ratio.
-- Responsive to 360 px — below `lg` the header keeps brand, search and a menu button; the menu holds the class grid, the other pages, the glossary and the theme. Keyboard accessible (skip link, focus-trapped dialogs, visible focus, citation popovers on focus, `aria-pressed`/`aria-selected` on every toggle), `prefers-reduced-motion` respected.
+- Dark theme by default, light toggle persisted in `localStorage`; class and quality colors are tuned per theme so text keeps a 4.5:1 contrast ratio. The in-game tooltip, the talent frame and the maps stay dark in both themes.
+- Responsive to 360 px: below `lg` the sidebar becomes a Sheet behind the menu button, below `xl` the "On this page" list becomes a sticky dropdown. Keyboard accessible (skip link, Radix focus management in every dialog, sheet, menu, tab list and toggle group, visible focus rings, tooltips on focus), `prefers-reduced-motion` respected.
 - Markdown is rendered with `marked` and sanitized with DOMPurify; inline `[author (tier), date](url)` links become citation chips that keep their link, and the Discord chips emitted by `build-data.py` (`<a class="cite cite-discord">`) pass the sanitizer unchanged. YAML text shown in widgets renders its `[[d:…]]` citations through `CitedText` using each class's `citations` map.
 - Archive jargon (the Class Changes passes, the era labels, standing / contested / player claim, opaque build links) gets a glossary tooltip on its first mention in a guide's block prose, opened by click, tap or keyboard focus. The rules live in `src/lib/glossary-inline.ts`; the wording comes from `structured/glossary.jsonl` like the rest of the prose.
 - YAML from `structured/classes/**` is passed through as-is; unknown shapes fall back to a compact key/value list rather than being dropped.
+- Screenshots of the v2 design (1440 and 390 px, dark and light) are in `staging/redesign-v2-screens/` of the workspace; `qa/screenshots/` holds the v1 ones.

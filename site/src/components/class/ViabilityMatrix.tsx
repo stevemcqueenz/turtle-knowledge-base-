@@ -1,15 +1,18 @@
 import { useState } from 'react';
-import type { ClassSummary, Viability, ViabilityRow } from '../../types';
-import { ACTIVITY_LABELS } from '../../lib/grades';
+import { ArrowRight } from 'lucide-react';
+import type { ClassSummary, Viability, ViabilityCell, ViabilityRow } from '../../types';
+import { ACTIVITY_LABELS, GRADE_WORDS } from '../../lib/grades';
 import { plainText } from '../../lib/markdown';
 import { href } from '../../lib/router';
+import { cn } from '../../lib/utils';
 import { Markdown } from '../Markdown';
-import { Grade } from '../ui/Grade';
-import { ArrowRightIcon } from '../Icons';
+import { GAME_QUALITY, Grade, QUALITY_NAME, qualityOf } from '../ui/Grade';
+import { HoverCard, HoverCardContent, HoverCardTrigger } from '../ui/hover-card';
+import { Button } from '../ui/button';
 
-export function GradeLegend() {
+export function GradeLegend({ className }: { className?: string }) {
   return (
-    <p className="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-muted">
+    <p className={cn('flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-muted-foreground', className)}>
       {[
         ['S', 'best choice'],
         ['A', 'strong'],
@@ -21,10 +24,29 @@ export function GradeLegend() {
         </span>
       ))}
       <span className="inline-flex items-center gap-1.5">
-        <Grade cell={{ grade: null, label: '—', contested: false }} column="Legend" size="sm" /> not a role
+        <Grade cell={{ grade: null, label: '—', contested: false }} column="Legend" size="sm" /> not rated
       </span>
-      <span>* contested</span>
+      <span>* players disagree</span>
     </p>
+  );
+}
+
+/** The in-game-style tooltip body for one rating. */
+export function RatingTooltip({ spec, column, cell }: { spec: string; column: string; cell: ViabilityCell }) {
+  const q = qualityOf(cell.grade);
+  const note = plainText(cell.note, 320).replace(/[\s,;:]+$/, '');
+  return (
+    <div className="space-y-1">
+      <p className="wow-tt-title">
+        {spec} · {column}
+      </p>
+      <p className="font-semibold" style={{ color: GAME_QUALITY[q] }}>
+        {cell.grade ? `${cell.label} · ${GRADE_WORDS[cell.grade[0]] ?? ''}` : cell.label === '—' ? 'Not a role for this spec' : cell.label || 'Not rated'}
+        <span className="wow-tt-meta font-normal"> ({QUALITY_NAME[q]})</span>
+      </p>
+      {cell.contested ? <p className="wow-tt-meta">Players disagree on this rating.</p> : null}
+      {note ? <p>{note.charAt(0).toUpperCase() + note.slice(1)}</p> : null}
+    </div>
   );
 }
 
@@ -36,140 +58,137 @@ function rowTarget(cls: ClassSummary, row: ViabilityRow): string | null {
 const label = (key: string, fallback: string) => ACTIVITY_LABELS[key] ?? fallback;
 
 /**
- * The guide's spec viability table as the centrepiece of a class page. Wide
- * screens: a ratings grid whose cells open the guide's reasoning (with its
- * citations) in a panel below. Phones: one card per spec with the ratings in a
- * strip and the reasoning folded.
+ * The guide's spec viability table: specs × activities as item-quality
+ * badges. Hovering a rating shows the reason as an in-game tooltip; selecting
+ * it opens the full reasoning with its citations below the table.
  */
 export function ViabilityMatrix({ cls, viability }: { cls: ClassSummary; viability: Viability }) {
   const [sel, setSel] = useState<{ r: number; c: number }>({ r: 0, c: 0 });
   const cols = viability.columns;
   const selRow = viability.rows[sel.r];
   const selCell = selRow?.cells[sel.c];
+  const selTarget = selRow ? rowTarget(cls, selRow) : null;
 
   return (
-    <div className="space-y-4">
-      {/* wide screens */}
-      <div className="hidden md:block">
-        <div className="card overflow-hidden">
-          <table className="w-full table-fixed border-collapse text-sm">
-            <caption className="sr-only">
-              {cls.name} spec viability in patch 1.18.1. Select a rating to read why.
-            </caption>
-            <colgroup>
-              <col className="w-[22%]" />
+    <div className="space-y-3">
+      <div className="hidden overflow-hidden rounded-lg border md:block">
+        <table className="w-full border-collapse text-sm">
+          <caption className="sr-only">{cls.name} spec ratings in patch 1.18.1. Select a rating to read why.</caption>
+          <thead>
+            <tr className="border-b bg-muted/40">
+              <th scope="col" className="h-9 px-4 text-left text-xs font-medium text-muted-foreground">
+                Spec
+              </th>
               {cols.map((c) => (
-                <col key={c.key} />
-              ))}
-            </colgroup>
-            <thead>
-              <tr className="border-b bg-surface2/60">
-                <th scope="col" className="px-4 py-2.5 text-left text-[11px] font-semibold uppercase tracking-wider text-muted">
-                  Spec
+                <th key={c.key} scope="col" className="h-9 px-2 text-center text-xs font-medium text-muted-foreground">
+                  {label(c.key, c.label)}
                 </th>
-                {cols.map((c) => (
-                  <th key={c.key} scope="col" className="px-2 py-2.5 text-left text-[11px] font-semibold uppercase tracking-wider text-muted">
-                    {label(c.key, c.label)}
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {viability.rows.map((row, ri) => {
+              const target = rowTarget(cls, row);
+              return (
+                <tr key={row.spec + ri} className="border-b last:border-b-0">
+                  <th scope="row" className="px-4 py-2 text-left font-normal">
+                    {target ? (
+                      <a href={target} className="font-medium hover:underline">
+                        {row.spec}
+                      </a>
+                    ) : (
+                      <span className="font-medium">{row.spec}</span>
+                    )}
+                    {row.detail ? <span className="ml-2 text-xs tabular text-muted-foreground">{row.detail.replace(/^\(|\)$/g, '')}</span> : null}
                   </th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
-              {viability.rows.map((row, ri) => {
-                const target = rowTarget(cls, row);
-                return (
-                  <tr key={row.spec + ri} className="border-b last:border-b-0">
-                    <th scope="row" className="px-4 py-3 text-left align-top font-normal">
-                      {target ? (
-                        <a href={target} className="group font-serif text-[1.05rem] font-semibold hover:text-accent">
-                          {row.spec}
-                          <ArrowRightIcon className="ml-1 inline h-3.5 w-3.5 opacity-0 transition-opacity group-hover:opacity-100" />
-                        </a>
-                      ) : (
-                        <span className="font-serif text-[1.05rem] font-semibold">{row.spec}</span>
-                      )}
-                      {row.detail ? <span className="block text-xs text-muted">{row.detail.replace(/^\(|\)$/g, '')}</span> : null}
-                    </th>
-                    {row.cells.map((cell, ci) => {
-                      const selected = sel.r === ri && sel.c === ci;
-                      const preview = plainText(cell.note, 90);
-                      return (
-                        <td key={ci} className="p-1 align-top">
-                          <button
-                            type="button"
-                            onClick={() => setSel({ r: ri, c: ci })}
-                            aria-pressed={selected}
-                            aria-controls="viability-detail"
-                            className={`flex h-full w-full items-start gap-2 rounded-xl p-2 text-left transition-colors ${
-                              selected ? 'bg-accent/10 ring-1 ring-accent/50' : 'hover:bg-surface2/70'
-                            }`}
-                          >
-                            <Grade cell={cell} column={label(cols[ci].key, cols[ci].label)} />
-                            <span className="line-clamp-3 min-w-0 pt-px text-[12.5px] leading-snug text-muted first-letter:uppercase">{preview}</span>
-                          </button>
-                        </td>
-                      );
-                    })}
-                  </tr>
-                );
-              })}
-            </tbody>
-          </table>
-        </div>
+                  {row.cells.map((cell, ci) => {
+                    const selected = sel.r === ri && sel.c === ci;
+                    const col = label(cols[ci].key, cols[ci].label);
+                    return (
+                      <td key={ci} className="p-1 text-center">
+                        <HoverCard openDelay={120} closeDelay={60}>
+                          <HoverCardTrigger asChild>
+                            <button
+                              type="button"
+                              onClick={() => setSel({ r: ri, c: ci })}
+                              aria-pressed={selected}
+                              aria-controls="viability-detail"
+                              className={cn(
+                                'inline-flex h-9 w-full max-w-[5.5rem] items-center justify-center rounded-md transition-colors',
+                                selected ? 'bg-accent ring-1 ring-foreground/25' : 'hover:bg-accent/60',
+                              )}
+                            >
+                              <Grade cell={cell} column={`${row.spec}, ${col}`} />
+                            </button>
+                          </HoverCardTrigger>
+                          <HoverCardContent side="top" className="w-80">
+                            <RatingTooltip spec={row.spec} column={col} cell={cell} />
+                          </HoverCardContent>
+                        </HoverCard>
+                      </td>
+                    );
+                  })}
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
         {selRow && selCell ? (
-          <div id="viability-detail" className="panel mt-3 p-4 sm:p-5" aria-live="polite">
+          <div id="viability-detail" className="border-t bg-muted/25 px-4 py-4" aria-live="polite">
             <div className="flex flex-wrap items-center gap-3">
               <Grade cell={selCell} column={label(cols[sel.c].key, cols[sel.c].label)} size="lg" />
               <div className="min-w-0">
-                <p className="eyebrow">{label(cols[sel.c].key, cols[sel.c].label)}</p>
-                <p className="font-serif text-lg font-semibold">
-                  {selRow.spec}
-                  {selCell.grade ? <span className="font-sans text-sm font-normal text-muted"> · rated {selCell.label}</span> : null}
+                <p className="text-sm font-semibold">
+                  {selRow.spec} · {label(cols[sel.c].key, cols[sel.c].label)}
+                </p>
+                <p className="text-xs text-muted-foreground">
+                  {selCell.grade ? `Rated ${selCell.label}, ${GRADE_WORDS[selCell.grade[0]] ?? ''}` : 'Not rated'}
+                  {selCell.contested ? ' · players disagree' : ''}
                 </p>
               </div>
-              {rowTarget(cls, selRow) ? (
-                <a href={rowTarget(cls, selRow)!} className="btn btn-ghost ml-auto">
-                  Open the {selRow.spec} guide <ArrowRightIcon />
-                </a>
+              {selTarget ? (
+                <Button asChild variant="outline" size="sm" className="ml-auto">
+                  <a href={selTarget}>
+                    {selRow.spec} guide <ArrowRight />
+                  </a>
+                </Button>
               ) : null}
             </div>
             {selCell.note ? (
-              <Markdown source={selCell.note} className="cap-first mt-3 text-[0.97rem]" />
+              <Markdown source={selCell.note} className="cap-first mt-3 text-sm" />
             ) : (
-              <p className="mt-3 text-sm text-muted">The guide gives no further detail for this rating.</p>
+              <p className="mt-3 text-sm text-muted-foreground">The guide gives no further detail for this rating.</p>
             )}
           </div>
         ) : null}
       </div>
 
-      {/* phones */}
-      <div className="space-y-3 md:hidden">
+      {/* phones: one row per spec, the reasons folded */}
+      <ul className="divide-y overflow-hidden rounded-lg border md:hidden">
         {viability.rows.map((row, ri) => {
           const target = rowTarget(cls, row);
           return (
-            <div key={row.spec + ri} className="card p-4">
+            <li key={row.spec + ri} className="p-3">
               <div className="flex items-baseline justify-between gap-3">
                 {target ? (
-                  <a href={target} className="font-serif text-lg font-semibold">
-                    {row.spec} <ArrowRightIcon className="inline h-3.5 w-3.5 text-muted" />
+                  <a href={target} className="font-medium">
+                    {row.spec}
                   </a>
                 ) : (
-                  <span className="font-serif text-lg font-semibold">{row.spec}</span>
+                  <span className="font-medium">{row.spec}</span>
                 )}
-                {row.detail ? <span className="text-xs text-muted">{row.detail.replace(/^\(|\)$/g, '')}</span> : null}
+                {row.detail ? <span className="text-xs tabular text-muted-foreground">{row.detail.replace(/^\(|\)$/g, '')}</span> : null}
               </div>
-              <div className="mt-3 grid grid-cols-5 gap-1.5">
+              <div className="mt-2 grid grid-cols-5 gap-1">
                 {row.cells.map((cell, ci) => (
                   <div key={ci} className="flex flex-col items-center gap-1">
                     <Grade cell={cell} column={label(cols[ci].key, cols[ci].label)} />
-                    <span className="text-center text-[10px] uppercase leading-tight tracking-wide text-muted">
-                      {label(cols[ci].key, cols[ci].label)}
-                    </span>
+                    <span className="text-center text-[11px] leading-tight text-muted-foreground">{label(cols[ci].key, cols[ci].label)}</span>
                   </div>
                 ))}
               </div>
-              <details className="group mt-3 border-t pt-2">
-                <summary className="cursor-pointer list-none py-1 text-sm font-semibold text-accent">
+              <details className="group mt-2">
+                <summary className="cursor-pointer list-none py-1 text-[13px] text-link">
                   <span className="group-open:hidden">Why these ratings</span>
                   <span className="hidden group-open:inline">Hide the reasons</span>
                 </summary>
@@ -177,24 +196,25 @@ export function ViabilityMatrix({ cls, viability }: { cls: ClassSummary; viabili
                   {row.cells.map((cell, ci) =>
                     cell.note ? (
                       <div key={ci}>
-                        <dt className="eyebrow">
-                          {label(cols[ci].key, cols[ci].label)} · {cell.label}
+                        <dt className="flex items-center gap-2 text-xs font-medium text-muted-foreground">
+                          <Grade cell={cell} column={label(cols[ci].key, cols[ci].label)} size="sm" />
+                          {label(cols[ci].key, cols[ci].label)}
                         </dt>
-                        <dd>
-                          <Markdown source={cell.note} className="cap-first text-[0.95rem]" />
+                        <dd className="mt-1">
+                          <Markdown source={cell.note} className="cap-first text-sm" />
                         </dd>
                       </div>
                     ) : null,
                   )}
                 </dl>
               </details>
-            </div>
+            </li>
           );
         })}
-      </div>
+      </ul>
 
       <GradeLegend />
-      {viability.notes ? <Markdown source={viability.notes} className="pt-2" /> : null}
+      {viability.notes ? <Markdown source={viability.notes} className="pt-1 text-sm text-muted-foreground" /> : null}
     </div>
   );
 }

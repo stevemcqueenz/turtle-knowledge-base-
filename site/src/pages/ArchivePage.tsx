@@ -1,9 +1,9 @@
 import { href, useScrollReset } from '../lib/router';
 import { useMatrixData } from '../data';
-import { Collapsible } from '../components/Collapsible';
 import { Markdown } from '../components/Markdown';
 import { MatrixGrid, StandingLegend } from '../components/MatrixGrid';
-import { Loading, PageHero } from '../components/layout/Page';
+import { Loading, Page, PageHeader } from '../components/layout/Page';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '../components/ui/accordion';
 
 function wordCount(source: string): string {
   return `${source.trim().split(/\s+/).length.toLocaleString('en-US')} words`;
@@ -18,40 +18,58 @@ export function ArchivePage() {
   useScrollReset('archive');
   const matrix = useMatrixData();
   return (
-    <div>
-      <PageHero crumbs={[{ label: 'About', href: href.about() }, { label: 'Research archive' }]}>
-        <p className="eyebrow">Superseded · kept for reference</p>
-        <h1 className="display mt-2 text-[2rem] leading-tight sm:text-[2.6rem]">Forum-era research archive</h1>
-        <p className="mt-4 max-w-3xl leading-relaxed text-muted">
-          Before the Discord read, the knowledge base was built from the archived forum alone. This is that
-          spec × role matrix, with its community &ldquo;standing&rdquo; for each spec and role and its coverage notes.
-          It is older and thinner than the class guides. Use the{' '}
-          <a className="link" href={href.matrix()}>
-            viability board
-          </a>{' '}
-          for current ratings.
-        </p>
-      </PageHero>
+    <Page
+      header={
+        <PageHeader
+          crumbs={[{ label: 'About', href: href.about() }, { label: 'Research archive' }]}
+          title="Forum-era research archive"
+          meta={<span>Superseded, kept for reference</span>}
+        >
+          <p className="max-w-[74ch] text-muted-foreground">
+            Before the Discord read, the knowledge base was built from the archived forum alone: a spec × role matrix with a community
+            &ldquo;standing&rdquo; for each cell, and its coverage notes. It is older and thinner than the class guides. The{' '}
+            <a className="link" href={href.matrix()}>
+              viability board
+            </a>{' '}
+            has the current ratings.
+          </p>
+        </PageHeader>
+      }
+    >
       {!matrix ? (
         <Loading />
       ) : (
-        <div className="mx-auto max-w-7xl space-y-6 px-4 py-10 sm:px-6">
+        <div className="space-y-5">
           <StandingLegend />
           <MatrixGrid rows={matrix.rows} roles={matrix.roles} />
-          <div className="flex flex-col gap-3">
+          <Accordion type="multiple" className="rounded-lg border px-4">
             {matrix.matrixMarkdown ? (
-              <Collapsible title="Matrix notes" badge={<span className="shrink-0 text-xs text-muted">{wordCount(matrix.matrixMarkdown)}</span>}>
-                <Markdown source={matrix.matrixMarkdown} />
-              </Collapsible>
+              <AccordionItem value="matrix" className="last:border-b-0">
+                <AccordionTrigger>
+                  <span className="flex flex-1 items-baseline justify-between gap-3 pr-2">
+                    Matrix notes <span className="text-xs font-normal text-muted-foreground">{wordCount(matrix.matrixMarkdown)}</span>
+                  </span>
+                </AccordionTrigger>
+                <AccordionContent>
+                  <Markdown source={matrix.matrixMarkdown} />
+                </AccordionContent>
+              </AccordionItem>
             ) : null}
             {matrix.coverageMarkdown ? (
-              <Collapsible title="Coverage" badge={<span className="shrink-0 text-xs text-muted">{wordCount(matrix.coverageMarkdown)}</span>}>
-                <Markdown source={matrix.coverageMarkdown} />
-              </Collapsible>
+              <AccordionItem value="coverage" className="last:border-b-0">
+                <AccordionTrigger>
+                  <span className="flex flex-1 items-baseline justify-between gap-3 pr-2">
+                    Coverage <span className="text-xs font-normal text-muted-foreground">{wordCount(matrix.coverageMarkdown)}</span>
+                  </span>
+                </AccordionTrigger>
+                <AccordionContent>
+                  <Markdown source={matrix.coverageMarkdown} />
+                </AccordionContent>
+              </AccordionItem>
             ) : null}
-          </div>
+          </Accordion>
         </div>
       )}
-    </div>
+    </Page>
   );
 }

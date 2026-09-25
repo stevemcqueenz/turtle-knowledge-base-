@@ -1,8 +1,10 @@
 import { useEffect, useRef, useState } from 'react';
+import * as DialogPrimitive from '@radix-ui/react-dialog';
+import { Map as MapIcon, Maximize2, Minus, Plus, X } from 'lucide-react';
 import type { InstanceMap as InstanceMapData, MapFloor } from '../types';
 import { href } from '../lib/router';
-import { useDialogFocus } from '../lib/dialog';
-import { CloseIcon, ExpandIcon, MapIcon, MinusIcon, PlusIcon } from './Icons';
+import { cn } from '../lib/utils';
+import { Button } from './ui/button';
 
 /**
  * The single-file build (vite.config.single.ts) leaves the map images out: they
@@ -12,16 +14,19 @@ export const MAPS_INCLUDED = import.meta.env.VITE_SINGLE_FILE !== '1';
 
 const SHADING_NOTE = 'Grey shading is walkable ground from the server navmesh where the client has no minimap art.';
 
+/** Floor switcher: a segmented control with the boss count per floor. Arrow keys move between floors. */
 function FloorTabs({
   floors,
   active,
   onSelect,
   idPrefix,
+  dark,
 }: {
   floors: MapFloor[];
   active: number;
   onSelect: (i: number) => void;
   idPrefix: string;
+  dark?: boolean;
 }) {
   if (floors.length < 2) return null;
   const onKeyDown = (e: React.KeyboardEvent) => {
@@ -32,7 +37,15 @@ function FloorTabs({
     document.getElementById(`${idPrefix}-tab-${next}`)?.focus();
   };
   return (
-    <div role="tablist" aria-label="Floors" className="flex flex-wrap gap-1.5" onKeyDown={onKeyDown}>
+    <div
+      role="tablist"
+      aria-label="Floors"
+      className={cn(
+        'no-scrollbar inline-flex max-w-full items-center gap-0.5 overflow-x-auto rounded-md border p-0.5',
+        dark ? 'border-white/15 bg-white/5' : 'bg-muted/60',
+      )}
+      onKeyDown={onKeyDown}
+    >
       {floors.map((f, i) => (
         <button
           key={f.floor}
@@ -43,12 +56,19 @@ function FloorTabs({
           aria-controls={`${idPrefix}-panel`}
           tabIndex={i === active ? 0 : -1}
           onClick={() => onSelect(i)}
-          className={`rounded-full px-3 py-1 text-xs font-semibold transition-colors ${
-            i === active ? 'bg-accent text-[rgb(var(--c-accent-ink))]' : 'hairline bg-surface text-muted hover:text-ink'
-          }`}
+          className={cn(
+            'inline-flex h-7 shrink-0 items-center gap-1.5 rounded-[5px] px-2.5 text-[13px] font-medium transition-colors',
+            dark
+              ? i === active
+                ? 'bg-white/15 text-white'
+                : 'text-white/70 hover:text-white'
+              : i === active
+                ? 'bg-background text-foreground shadow-sm'
+                : 'text-muted-foreground hover:text-foreground',
+          )}
         >
           {f.label}
-          {f.markers.length ? <span className="ml-1 opacity-70">· {f.markers.length}</span> : null}
+          {f.markers.length ? <span className="tabular opacity-60">{f.markers.length}</span> : null}
         </button>
       ))}
     </div>
@@ -80,120 +100,103 @@ const altText = (title: string, f: MapFloor) =>
     ? `Floor plan of ${title}, ${f.label}: walkable area from the server navmesh`
     : `Map of ${title}, ${f.label}, from the client minimap textures`;
 
+/** Full-screen map: floor tabs, zoom (buttons, + and -), drag to pan. */
 function Lightbox({
   slug,
   title,
   floors,
   active,
   onSelect,
-  onClose,
+  open,
+  onOpenChange,
 }: {
   slug: string;
   title: string;
   floors: MapFloor[];
   active: number;
   onSelect: (i: number) => void;
-  onClose: () => void;
+  open: boolean;
+  onOpenChange: (open: boolean) => void;
 }) {
-  const ref = useDialogFocus(true);
   const scroller = useRef<HTMLDivElement>(null);
   const [zoom, setZoom] = useState(1);
   const drag = useRef<{ x: number; y: number; l: number; t: number } | null>(null);
   const floor = floors[active];
 
-  useEffect(() => {
-    const onKey = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') onClose();
-      else if (e.key === '+' || e.key === '=') setZoom((z) => Math.min(4, z * 1.4));
-      else if (e.key === '-') setZoom((z) => Math.max(1, z / 1.4));
-    };
-    document.addEventListener('keydown', onKey);
-    const overflow = document.body.style.overflow;
-    document.body.style.overflow = 'hidden';
-    ref.current?.querySelector<HTMLElement>('[data-autofocus]')?.focus();
-    return () => {
-      document.removeEventListener('keydown', onKey);
-      document.body.style.overflow = overflow;
-    };
-  }, [onClose, ref]);
+  useEffect(() => setZoom(1), [active, open]);
 
-  useEffect(() => setZoom(1), [active]);
-
-  // fit the whole floor in the viewport at zoom 1
   const vw = typeof window === 'undefined' ? 1200 : window.innerWidth - 32;
-  const vh = typeof window === 'undefined' ? 800 : window.innerHeight - 150;
+  const vh = typeof window === 'undefined' ? 800 : window.innerHeight - 120;
   const fit = Math.min(1, vw / floor.width, vh / floor.height);
   const w = Math.round(floor.width * fit * zoom);
 
   return (
-    <div className="fixed inset-0 z-50 flex flex-col bg-black/85 backdrop-blur-sm" role="presentation" onClick={onClose}>
-      <div
-        ref={ref}
-        role="dialog"
-        aria-modal="true"
-        aria-label={`Map of ${title}`}
-        className="flex min-h-0 flex-1 flex-col"
-        onClick={(e) => e.stopPropagation()}
-      >
-        <div className="flex flex-wrap items-center gap-2 border-b border-white/10 bg-[rgb(var(--c-surface))] px-3 py-2">
-          <span className="mr-2 font-serif font-semibold">{title}</span>
-          <FloorTabs floors={floors} active={active} onSelect={onSelect} idPrefix={`lb-${slug}`} />
-          <span className="ml-auto flex items-center gap-1">
-            <button type="button" className="map-tool" aria-label="Zoom out" onClick={() => setZoom((z) => Math.max(1, z / 1.4))} disabled={zoom <= 1}>
-              <MinusIcon />
-            </button>
-            <span className="w-12 text-center text-xs tabular-nums text-muted" aria-live="polite">
-              {Math.round(zoom * 100)}%
-            </span>
-            <button type="button" className="map-tool" aria-label="Zoom in" onClick={() => setZoom((z) => Math.min(4, z * 1.4))} disabled={zoom >= 4}>
-              <PlusIcon />
-            </button>
-            <button type="button" className="map-tool ml-2" aria-label="Close map" onClick={onClose} data-autofocus>
-              <CloseIcon />
-            </button>
-          </span>
-        </div>
-        <div
-          ref={scroller}
-          id={`lb-${slug}-panel`}
-          role="tabpanel"
-          className="map-frame min-h-0 flex-1 cursor-grab overflow-auto active:cursor-grabbing"
-          onPointerDown={(e) => {
-            if ((e.target as HTMLElement).closest('a')) return;
-            const s = scroller.current;
-            if (!s) return;
-            drag.current = { x: e.clientX, y: e.clientY, l: s.scrollLeft, t: s.scrollTop };
-            s.setPointerCapture(e.pointerId);
+    <DialogPrimitive.Root open={open} onOpenChange={onOpenChange}>
+      <DialogPrimitive.Portal>
+        <DialogPrimitive.Overlay className="fixed inset-0 z-50 bg-black/90 data-[state=open]:animate-in data-[state=open]:fade-in-0" />
+        <DialogPrimitive.Content
+          className="fixed inset-0 z-50 flex flex-col text-white outline-none"
+          onKeyDown={(e) => {
+            if (e.key === '+' || e.key === '=') setZoom((z) => Math.min(4, z * 1.4));
+            else if (e.key === '-') setZoom((z) => Math.max(1, z / 1.4));
           }}
-          onPointerMove={(e) => {
-            const s = scroller.current;
-            if (!s || !drag.current) return;
-            s.scrollLeft = drag.current.l - (e.clientX - drag.current.x);
-            s.scrollTop = drag.current.t - (e.clientY - drag.current.y);
-          }}
-          onPointerUp={() => (drag.current = null)}
-          onPointerCancel={() => (drag.current = null)}
         >
-          <div className="flex min-h-full min-w-full items-center justify-center p-4">
-            <div className="relative shrink-0" style={{ width: w }}>
-              <img
-                src={floor.file}
-                width={floor.width}
-                height={floor.height}
-                alt={altText(title, floor)}
-                draggable={false}
-                className="block h-auto w-full select-none"
-              />
-              <Markers slug={slug} floor={floor} onPick={onClose} />
+          <div className="flex flex-wrap items-center gap-2 border-b border-white/10 bg-[#0b0c10] px-3 py-2">
+            <DialogPrimitive.Title className="mr-2 text-sm font-semibold">{title}</DialogPrimitive.Title>
+            <DialogPrimitive.Description className="sr-only">Zoom with the buttons or the + and - keys; drag to pan.</DialogPrimitive.Description>
+            <FloorTabs floors={floors} active={active} onSelect={onSelect} idPrefix={`lb-${slug}`} dark />
+            <span className="ml-auto flex items-center gap-1">
+              <Button variant="ghost" size="icon-sm" className="text-white hover:bg-white/10 hover:text-white" aria-label="Zoom out" onClick={() => setZoom((z) => Math.max(1, z / 1.4))} disabled={zoom <= 1}>
+                <Minus />
+              </Button>
+              <span className="w-12 text-center text-xs tabular text-white/70" aria-live="polite">
+                {Math.round(zoom * 100)}%
+              </span>
+              <Button variant="ghost" size="icon-sm" className="text-white hover:bg-white/10 hover:text-white" aria-label="Zoom in" onClick={() => setZoom((z) => Math.min(4, z * 1.4))} disabled={zoom >= 4}>
+                <Plus />
+              </Button>
+              <DialogPrimitive.Close asChild>
+                <Button variant="ghost" size="icon-sm" className="ml-1 text-white hover:bg-white/10 hover:text-white" aria-label="Close map">
+                  <X />
+                </Button>
+              </DialogPrimitive.Close>
+            </span>
+          </div>
+          <div
+            ref={scroller}
+            id={`lb-${slug}-panel`}
+            role="tabpanel"
+            className="map-frame min-h-0 flex-1 cursor-grab overflow-auto active:cursor-grabbing"
+            onPointerDown={(e) => {
+              if ((e.target as HTMLElement).closest('a')) return;
+              const s = scroller.current;
+              if (!s) return;
+              drag.current = { x: e.clientX, y: e.clientY, l: s.scrollLeft, t: s.scrollTop };
+              s.setPointerCapture(e.pointerId);
+            }}
+            onPointerMove={(e) => {
+              const s = scroller.current;
+              if (!s || !drag.current) return;
+              s.scrollLeft = drag.current.l - (e.clientX - drag.current.x);
+              s.scrollTop = drag.current.t - (e.clientY - drag.current.y);
+            }}
+            onPointerUp={() => (drag.current = null)}
+            onPointerCancel={() => (drag.current = null)}
+          >
+            <div className="flex min-h-full min-w-full items-center justify-center p-4">
+              <div className="relative shrink-0" style={{ width: w }}>
+                <img src={floor.file} width={floor.width} height={floor.height} alt={altText(title, floor)} draggable={false} className="block h-auto w-full select-none" />
+                <Markers slug={slug} floor={floor} onPick={() => onOpenChange(false)} />
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
+        </DialogPrimitive.Content>
+      </DialogPrimitive.Portal>
+    </DialogPrimitive.Root>
   );
 }
 
-/** The instance map near the top of an instance page: floor tabs, numbered boss
+/** The instance map at the top of an instance page: floor tabs, numbered boss
  * markers linked to the boss notes, click to enlarge (zoom and drag to pan). */
 export function InstanceMap({ slug, title, map }: { slug: string; title: string; map: InstanceMapData }) {
   const [active, setActive] = useState(0);
@@ -203,11 +206,10 @@ export function InstanceMap({ slug, title, map }: { slug: string; title: string;
 
   if (!MAPS_INCLUDED) {
     return (
-      <aside className="card flex items-start gap-3 p-4 text-sm text-muted" aria-label="Map">
+      <aside className="flex items-start gap-3 rounded-lg border px-4 py-3 text-[13px] text-muted-foreground" aria-label="Map">
         <MapIcon className="mt-0.5 h-4 w-4 shrink-0" />
         <span>
-          This single-file edition leaves out the instance maps ({map.floors.length}{' '}
-          {map.floors.length === 1 ? 'floor' : 'floors'}); they are in the multi-file build.
+          This single-file edition leaves out the instance maps ({map.floors.length} {map.floors.length === 1 ? 'floor' : 'floors'}); they are in the multi-file build.
         </span>
       </aside>
     );
@@ -215,28 +217,19 @@ export function InstanceMap({ slug, title, map }: { slug: string; title: string;
 
   const others = map.floors.filter((f) => f !== floor && f.markers.length);
   return (
-    <figure className="card overflow-hidden" aria-labelledby={`map-${slug}-cap`}>
-      <div className="flex flex-wrap items-center gap-x-3 gap-y-2 px-4 pb-3 pt-4 sm:px-5">
-        <p className="eyebrow flex items-center gap-1.5">
-          <MapIcon className="h-3.5 w-3.5" /> Map
+    <figure className="overflow-hidden rounded-lg border bg-card" aria-labelledby={`map-${slug}-cap`}>
+      <div className="flex flex-wrap items-center gap-x-3 gap-y-2 border-b px-3 py-2">
+        <p className="flex items-center gap-1.5 text-[13.5px] font-semibold">
+          <MapIcon className="h-4 w-4 text-muted-foreground" aria-hidden="true" /> Map
         </p>
         <FloorTabs floors={map.floors} active={active} onSelect={setActive} idPrefix={`map-${slug}`} />
-        <button
-          type="button"
-          onClick={() => setOpen(true)}
-          className="ml-auto inline-flex items-center gap-1.5 rounded-full hairline bg-surface px-3 py-1 text-xs font-semibold text-muted hover:text-ink"
-        >
-          <ExpandIcon className="h-3.5 w-3.5" /> Enlarge
-        </button>
+        <Button variant="outline" size="xs" className="ml-auto" onClick={() => setOpen(true)}>
+          <Maximize2 /> Enlarge
+        </Button>
       </div>
-      <div id={`map-${slug}-panel`} role={map.floors.length > 1 ? 'tabpanel' : undefined} className="map-frame border-y text-center">
+      <div id={`map-${slug}-panel`} role={map.floors.length > 1 ? 'tabpanel' : undefined} className="map-frame text-center">
         <div className="relative inline-block max-w-full align-top">
-          <button
-            type="button"
-            onClick={() => setOpen(true)}
-            className="block max-w-full cursor-zoom-in"
-            aria-label={`Enlarge the map: ${floor.label}`}
-          >
+          <button type="button" onClick={() => setOpen(true)} className="block max-w-full cursor-zoom-in" aria-label={`Enlarge the map: ${floor.label}`}>
             <img
               key={floor.file}
               src={floor.file}
@@ -245,19 +238,19 @@ export function InstanceMap({ slug, title, map }: { slug: string; title: string;
               loading="lazy"
               decoding="async"
               alt={altText(title, floor)}
-              className="mx-auto block h-auto max-h-[68vh] w-auto max-w-full"
+              className="mx-auto block h-auto max-h-[66vh] w-auto max-w-full"
             />
           </button>
           <Markers slug={slug} floor={floor} />
         </div>
       </div>
-      <figcaption id={`map-${slug}-cap`} className="space-y-2 px-4 py-3 text-xs text-muted sm:px-5">
+      <figcaption id={`map-${slug}-cap`} className="space-y-2 border-t px-3 py-2.5 text-xs text-muted-foreground">
         {floor.markers.length ? (
-          <ol className="flex flex-wrap gap-x-4 gap-y-1 text-[13px]">
+          <ol className="flex flex-wrap gap-x-4 gap-y-1.5 text-[13px]">
             {floor.markers.map((m) => (
               <li key={m.n}>
-                <a href={href.section(href.instance(slug), m.anchor)} className="inline-flex items-baseline gap-1.5 text-ink hover:text-accent">
-                  <span className="font-semibold tabular-nums text-accent">{m.n}</span>
+                <a href={href.section(href.instance(slug), m.anchor)} className="inline-flex items-center gap-1.5 text-foreground hover:underline">
+                  <span className="flex h-4 min-w-[1rem] items-center justify-center rounded-full bg-[#ffd100] px-1 text-[10px] font-bold tabular text-[#1a1400]">{m.n}</span>
                   {m.boss}
                 </a>
               </li>
@@ -270,7 +263,7 @@ export function InstanceMap({ slug, title, map }: { slug: string; title: string;
             {others.map((f, i) => (
               <span key={f.floor}>
                 {i ? ', ' : ''}
-                <button type="button" className="underline decoration-dotted underline-offset-2 hover:text-ink" onClick={() => setActive(map.floors.indexOf(f))}>
+                <button type="button" className="underline decoration-dotted underline-offset-2 hover:text-foreground" onClick={() => setActive(map.floors.indexOf(f))}>
                   {f.label}
                 </button>{' '}
                 ({f.markers.map((m) => m.n).join(', ')})
@@ -286,9 +279,7 @@ export function InstanceMap({ slug, title, map }: { slug: string; title: string;
           {map.floors.some((f) => f.markers.length) ? ' Markers are boss spawn points from the server database.' : ''}
         </p>
       </figcaption>
-      {open ? (
-        <Lightbox slug={slug} title={title} floors={map.floors} active={active} onSelect={setActive} onClose={() => setOpen(false)} />
-      ) : null}
+      <Lightbox slug={slug} title={title} floors={map.floors} active={active} onSelect={setActive} open={open} onOpenChange={setOpen} />
     </figure>
   );
 }

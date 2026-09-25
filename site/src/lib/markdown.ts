@@ -98,9 +98,18 @@ export function enhanceMarkdownDom(root: HTMLElement): void {
     a.textContent = label;
   });
 
+  // Ability names written as `code` read like spell links in the game's chat.
+  root.querySelectorAll('code').forEach((code) => {
+    if (code.closest('pre')) return;
+    if (SPELL_NAME.test(code.textContent ?? '')) code.classList.add('spell');
+  });
+
   groupCitations(root);
   if (!root.classList.contains('md-inline')) annotateGlossaryTerms(root);
 }
+
+/** "Arcane Missiles", "Power Word: Shield", "Rank-1 Arcane Explosion"; not paths, macros or URLs. */
+const SPELL_NAME = /^(?=.*[a-z])[A-Z0-9][A-Za-z0-9'’:\- ]{1,44}$/;
 
 const isCite = (n: Node | null): n is HTMLElement =>
   !!n && n.nodeType === 1 && (n as HTMLElement).classList.contains('cite');

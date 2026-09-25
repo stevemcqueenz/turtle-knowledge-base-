@@ -8,6 +8,9 @@ export type Route =
   | { name: 'gear'; slug: string; spec?: string; bracket?: string }
   | { name: 'sources'; slug: string }
   | { name: 'guide-page'; slug: string; page: string }
+  | { name: 'class-professions'; slug: string }
+  | { name: 'professions' }
+  | { name: 'glossary' }
   | { name: 'instances' }
   | { name: 'instance'; slug: string }
   | { name: 'matrix' }
@@ -23,12 +26,15 @@ export function parseHash(hash: string): Route {
   if (parts[0] === 'matrix' && parts.length === 1) return { name: 'matrix' };
   if (parts[0] === 'about' && parts.length === 1) return { name: 'about' };
   if (parts[0] === 'archive' && parts.length === 1) return { name: 'archive' };
+  if (parts[0] === 'professions' && parts.length === 1) return { name: 'professions' };
+  if (parts[0] === 'glossary' && parts.length === 1) return { name: 'glossary' };
   if (parts[0] === 'instances' && parts.length === 1) return { name: 'instances' };
   if (parts[0] === 'instances' && parts.length === 2) return { name: 'instance', slug: parts[1] };
   if (parts[0] === 'class' && parts.length === 2) return { name: 'class', slug: parts[1] };
   if (parts[0] === 'class' && parts.length === 3) {
     if (parts[2] === 'leveling') return { name: 'leveling', slug: parts[1] };
     if (parts[2] === 'sources') return { name: 'sources', slug: parts[1] };
+    if (parts[2] === 'professions') return { name: 'class-professions', slug: parts[1] };
     if (parts[2] === 'gear') {
       const params = new URLSearchParams(hash.split('?')[1] ?? '');
       return {
@@ -68,7 +74,11 @@ export const href = {
     return `#/class/${slug}/gear${qs ? `?${qs}` : ''}`;
   },
   sources: (slug: string) => `#/class/${slug}/sources`,
-  guidePage: (slug: string, page: string) => `#/class/${slug}/guide/${page}`,
+  guidePage: (slug: string, page: string) =>
+    page === 'professions' ? `#/class/${slug}/professions` : `#/class/${slug}/guide/${page}`,
+  classProfessions: (slug: string) => `#/class/${slug}/professions`,
+  professions: () => '#/professions',
+  glossary: () => '#/glossary',
   instances: () => '#/instances',
   instance: (slug: string) => `#/instances/${slug}`,
   matrix: (column?: string) => (column ? `#/matrix?by=${column}` : '#/matrix'),

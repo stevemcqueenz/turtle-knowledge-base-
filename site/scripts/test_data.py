@@ -129,6 +129,50 @@ def check_markdown_common(label: str, md: str) -> None:
     check(not bad, f"{label}: unrewritten relative links {bad[:3]}")
 
 
+PROFESSIONS_ROUTE = re.compile(r"\]\(#/class/([a-z]+)/professions\)")
+
+
+def check_professions(classes: list) -> None:
+    """guide/professions.md -> professions.json; class professions pages have
+    their own route and link back to the overview as #/professions."""
+    src = REPO_ROOT / "guide" / "professions.md"
+    path = DATA_DIR / "professions.json"
+    if not src.is_file():
+        check(not path.exists(), "professions.json exists but guide/professions.md does not")
+        return
+    check(path.exists(), "guide/professions.md exists but professions.json is missing")
+    if not path.exists():
+        return
+    doc = load_json("professions.json")
+    if doc is None:
+        return
+    check(doc.get("slug") == "professions", f"professions.json slug {doc.get('slug')!r}")
+    check(doc.get("sourceFile") == "guide/professions.md", f"professions.json sourceFile {doc.get('sourceFile')!r}")
+    check(isinstance(doc.get("title"), str) and doc["title"].strip() != "", "professions.json has no title")
+    sections = doc.get("sections") or []
+    check(len(sections) > 0, "professions.json has no sections")
+    ids = [s["id"] for s in sections]
+    check(len(set(ids)) == len(ids), "professions.json has duplicate section ids")
+    check(isinstance(doc.get("recommendation"), (str, type(None))), "professions.recommendation must be a string or null")
+    texts = [("professions/intro", doc.get("intro") or "")] + [(f"professions/{s['id']}", s["markdown"]) for s in sections]
+    slugs = {c["slug"] for c in classes}
+    with_page = {c["slug"] for c in classes if any(d["slug"] == "professions" for d in c.get("guidePages") or [])}
+    for label, md in texts:
+        check_markdown_common(label, md)
+        check("/guide/professions.md" not in md, f"{label}: professions overview linked as a repository URL")
+        for m in PROFESSIONS_ROUTE.finditer(md):
+            check(m.group(1) in with_page, f"{label}: #/class/{m.group(1)}/professions has no class professions page")
+    # every class professions page on disk is in the data and reachable from the overview
+    on_disk = {p.parent.name for p in (REPO_ROOT / "guide" / "classes").glob("*/professions.md")}
+    check(on_disk <= with_page, f"class professions pages missing from classes.json: {sorted(on_disk - with_page)}")
+    linked = {m.group(1) for _, md in texts for m in PROFESSIONS_ROUTE.finditer(md)}
+    check(with_page <= linked, f"professions overview does not link {sorted(with_page - linked)}")
+    check(slugs >= with_page, "professions pages for unknown classes")
+    text = json.dumps(classes, ensure_ascii=False)
+    check("/guide/professions.md" not in text, "classes.json links to guide/professions.md on GitHub")
+    check("/guide/professions)" not in text, "classes.json links to #/class/<slug>/guide/professions (use /professions)")
+
+
 def check_instances(classes: list, meta: dict) -> None:
     """guide/instances/** -> instances.json (dungeon and raid pages)."""
     idir = REPO_ROOT / "guide" / "instances"
@@ -431,6 +475,9 @@ def main() -> int:
 
     # ---- Guide pages (guide/classes/**) ---------------------------------
     check_guides(classes, meta)
+
+    # ---- Professions (guide/professions.md, guide/classes/*/professions.md)
+    check_professions(classes)
 
     # ---- Dungeon and raid pages (guide/instances/**) ---------------------
     check_instances(classes, meta)

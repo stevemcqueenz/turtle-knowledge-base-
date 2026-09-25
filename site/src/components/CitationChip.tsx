@@ -13,7 +13,7 @@ interface CitationChipProps {
   source: YamlSource;
 }
 
-/** `[author · tier · date]` chip that links to the archived forum post. */
+/** `[author · tier · date]` inline-flex items-center gap-1 rounded-[4px] px-1.5 py-0.5 font-medium that links to the archived forum post. */
 export function CitationChip({ source }: CitationChipProps) {
   const theme = useThemeValue();
   const tier = String(source.authority ?? '').toLowerCase();
@@ -35,7 +35,7 @@ export function CitationChip({ source }: CitationChipProps) {
 
   if (!url) {
     return (
-      <span className="chip hairline min-w-0 max-w-full bg-surface2 text-xs text-muted" title={title}>
+      <span className="inline-flex items-center gap-1 rounded-[4px] px-1.5 py-0.5 font-medium border min-w-0 max-w-full bg-muted text-xs text-muted-foreground" title={title}>
         {inner}
       </span>
     );
@@ -46,7 +46,7 @@ export function CitationChip({ source }: CitationChipProps) {
       target="_blank"
       rel="noopener noreferrer"
       title={title}
-      className="chip hairline min-w-0 max-w-full bg-surface2 text-xs text-muted transition-colors hover:text-ink"
+      className="inline-flex items-center gap-1 rounded-[4px] px-1.5 py-0.5 font-medium border min-w-0 max-w-full bg-muted text-xs text-muted-foreground transition-colors hover:text-foreground"
     >
       {inner}
     </a>

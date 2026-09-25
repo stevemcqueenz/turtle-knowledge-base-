@@ -6,15 +6,19 @@ import { cellFor, gradeScore } from '../lib/grades';
 import { pathName, sectionOfPath } from '../lib/leveling';
 import { useClassEntry } from '../data';
 import { Markdown } from '../components/Markdown';
-import { Loading, PageHero, Section, WithToc } from '../components/layout/Page';
+import { Loading, Page, PageHeader, Section, Sections } from '../components/layout/Page';
 import type { TocItem } from '../components/layout/Toc';
-import { useClassInk } from '../components/ui/ClassMark';
+import { ClassMark, useClassInk, useClassVars } from '../components/ui/ClassMark';
 import { Grade } from '../components/ui/Grade';
+import { Tabs, TabsList, TabsTrigger } from '../components/ui/tabs';
 import { LevelingTimeline } from '../components/leveling/LevelingTimeline';
+import { GameplayByLevel } from '../components/leveling/GameplayByLevel';
+import { ClassNav } from '../components/class/ClassNav';
 import { cleanHeading } from '../components/guide/util';
 import { NotFound } from './NotFound';
 
 const tocLabel = (h: string) => cleanHeading(h).replace(/\s*\([^)]*\)\s*$/, '');
+const isGameplay = (s: SectionData) => /^gameplay by level/i.test(s.heading.trim());
 
 export function LevelingPage({ slug }: { slug: string }) {
   const cls = getClassSummary(slug);
@@ -22,31 +26,31 @@ export function LevelingPage({ slug }: { slug: string }) {
   useScrollReset(`${slug}/leveling`);
   useSectionScroll(!!entry);
   const { ink, rgb } = useClassInk(cls?.color ?? '#cccccc');
+  const vars = useClassVars(cls?.color ?? '#cccccc');
   const [pathIndex, setPathIndex] = useState(0);
 
   if (!cls || entry === null || (entry && !entry.leveling)) return <NotFound path={`#/class/${slug}/leveling`} />;
-  if (!entry) return <Loading label={`Loading the ${cls.name} leveling guide`} />;
+  if (!entry) return <Loading label={`Loading ${cls.name} leveling`} />;
 
   const leveling = entry.leveling!;
   const paths = leveling.paths ?? [];
   const tree = entry.talentTree;
   const pathSections = new Set(paths.map((p) => sectionOfPath(leveling.sections, p)?.id).filter(Boolean) as string[]);
-  const firstPathSection = leveling.sections.findIndex((s) => pathSections.has(s.id));
   const intro = leveling.sections.find((s) => s.heading === 'Introduction');
-  const rest: SectionData[] = leveling.sections.filter((s) => s !== intro);
+  const gameplay = leveling.sections.find(isGameplay) ?? null;
+  const rest: SectionData[] = leveling.sections.filter((s) => s !== intro && s !== gameplay);
   const picks = (cls.viability?.rows ?? [])
     .map((row) => ({ row, cell: cellFor(row, 'leveling') }))
     .filter((p) => p.cell?.grade)
     .sort((a, b) => gradeScore(b.cell!.grade) - gradeScore(a.cell!.grade));
+  const showPath = !!tree && paths.length > 0;
 
-  // The talent-order sections collapse into one "Talent path" block where the first of them stood.
-  const blocks: ({ kind: 'path' } | { kind: 'section'; s: SectionData })[] = [];
+  // Gameplay by level leads; the talent-order sections fold into one "Talent path" block after it.
+  const blocks: ({ kind: 'gameplay'; s: SectionData } | { kind: 'path' } | { kind: 'section'; s: SectionData })[] = [];
+  if (gameplay) blocks.push({ kind: 'gameplay', s: gameplay });
+  if (showPath) blocks.push({ kind: 'path' });
   rest.forEach((s) => {
-    if (pathSections.has(s.id)) {
-      if (leveling.sections.indexOf(s) === firstPathSection && tree && paths.length) blocks.push({ kind: 'path' });
-      else if (!tree || !paths.length) blocks.push({ kind: 'section', s });
-      return;
-    }
+    if (pathSections.has(s.id) && showPath) return;
     blocks.push({ kind: 'section', s });
   });
 
@@ -57,124 +61,118 @@ export function LevelingPage({ slug }: { slug: string }) {
   const pathSection = path ? sectionOfPath(leveling.sections, path) : undefined;
 
   return (
-    <div>
-      <PageHero
-        rgb={rgb}
-        crumbs={[{ label: 'Classes', href: href.home() }, { label: cls.name, href: href.class(slug) }, { label: 'Leveling' }]}
-      >
-        <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_20rem] lg:gap-12">
-          <div className="min-w-0">
-            <p className="eyebrow">Leveling guide · 1 to 60 · patch 1.18.1</p>
-            <h1 className="display mt-2 text-[2.1rem] leading-[1.1] sm:text-5xl">
+    <Page
+      style={vars}
+      toc={toc}
+      header={
+        <PageHeader
+          crumbs={[{ label: 'Classes', href: href.home() }, { label: cls.name, href: href.class(slug) }, { label: 'Leveling' }]}
+          icon={<ClassMark name={cls.name} color={cls.color} size="xl" />}
+          title={
+            <>
               Leveling a <span style={{ color: ink }}>{cls.name}</span>
-            </h1>
-            {leveling.recommendation ? (
-              <div className="mt-5 max-w-3xl">
-                <p className="eyebrow mb-2 text-accent">The short answer</p>
-                <Markdown source={leveling.recommendation} className="text-[1.03rem] sm:text-[1.08rem]" />
-              </div>
-            ) : intro ? (
-              <Markdown source={intro.markdown} className="mt-5 max-w-3xl" />
-            ) : null}
-          </div>
-          {picks.length ? (
-            <aside className="card self-start p-4">
-              <p className="eyebrow mb-3">Leveling ratings</p>
-              <ul className="space-y-2">
-                {picks.map(({ row, cell }) => (
-                  <li key={row.spec} className="flex items-center gap-3 text-sm">
-                    <Grade cell={cell!} column="Leveling" size="sm" />
-                    <span className="font-medium">{row.spec}</span>
-                  </li>
-                ))}
-              </ul>
-            </aside>
+            </>
+          }
+          meta={
+            <>
+              <span>Levels 1–60</span>
+              {paths.length ? <span>{paths.length} talent {paths.length === 1 ? 'path' : 'paths'}</span> : null}
+              {picks.length ? (
+                <span className="flex flex-wrap items-center gap-x-3 gap-y-1">
+                  {picks.map(({ row, cell }) => (
+                    <span key={row.spec} className="inline-flex items-center gap-1.5">
+                      <Grade cell={cell!} column="Leveling" size="sm" />
+                      {row.spec}
+                    </span>
+                  ))}
+                </span>
+              ) : null}
+            </>
+          }
+          nav={<ClassNav cls={cls} current={href.leveling(slug)} />}
+        >
+          {leveling.recommendation ? (
+            <Markdown source={leveling.recommendation} className="max-w-[74ch] text-[15.5px] leading-relaxed" />
+          ) : intro ? (
+            <Markdown source={intro.markdown} className="max-w-[74ch]" />
           ) : null}
-        </div>
-      </PageHero>
-
-      <WithToc toc={toc}>
-        <div className="space-y-14">
-          {blocks.map((b) =>
-            b.kind === 'path' && path && tree ? (
-              <Section
-                key="talent-path"
-                id="talent-path"
-                eyebrow="Talent points, level by level"
-                title="Talent path 10–60"
-              >
-                {paths.length > 1 ? (
-                  <div role="tablist" aria-label="Leveling paths" className="no-scrollbar -mx-4 mb-5 flex gap-2 overflow-x-auto px-4 sm:mx-0 sm:flex-wrap sm:px-0">
+        </PageHeader>
+      }
+    >
+      <Sections>
+        {blocks.map((b) =>
+          b.kind === 'gameplay' ? (
+            <Section key={b.s.id} id={b.s.id} title="Gameplay by level">
+              <GameplayByLevel markdown={b.s.markdown} />
+            </Section>
+          ) : b.kind === 'path' && path && tree ? (
+            <Section key="talent-path" id="talent-path" title="Talent path 10–60">
+              {paths.length > 1 ? (
+                <Tabs value={String(pathIndex)} onValueChange={(v) => setPathIndex(Number(v))}>
+                  <TabsList aria-label="Leveling paths" className="mb-4">
                     {paths.map((p, i) => (
-                      <button
-                        key={p.id}
-                        role="tab"
-                        type="button"
-                        aria-selected={i === pathIndex}
-                        onClick={() => setPathIndex(i)}
-                        className={`shrink-0 rounded-full px-4 py-1.5 text-sm font-semibold transition-colors ${
-                          i === pathIndex ? 'bg-accent text-[rgb(var(--c-accent-ink))]' : 'hairline bg-surface text-muted hover:text-ink'
-                        }`}
-                      >
+                      <TabsTrigger key={p.id} value={String(i)}>
                         {pathName(p)}
-                        {p.respecAt ? <span className="ml-1.5 text-xs opacity-75">respec {p.respecAt}</span> : null}
-                        {p.end ? <span className="ml-1.5 text-xs tabular-nums opacity-75">{p.end.split}</span> : null}
-                      </button>
+                        {p.respecAt ? <span className="text-xs text-muted-foreground">respec {p.respecAt}</span> : null}
+                        {p.end ? <span className="text-xs tabular text-muted-foreground">{p.end.split}</span> : null}
+                      </TabsTrigger>
                     ))}
+                  </TabsList>
+                </Tabs>
+              ) : null}
+              <p className="mb-4 text-[13.5px] text-muted-foreground">
+                {path.title}
+                {path.subtitle ? ` · ${path.subtitle}` : ''}
+              </p>
+              <LevelingTimeline key={path.id} path={path} tree={tree} rgb={rgb} />
+              {pathSection ? (
+                <details className="group mt-5 rounded-lg border">
+                  <summary className="cursor-pointer list-none px-4 py-2.5 text-[13.5px] font-medium text-link">
+                    <span className="group-open:hidden">The guide&rsquo;s table and notes for this path</span>
+                    <span className="hidden group-open:inline">Hide the table and notes</span>
+                  </summary>
+                  <div className="border-t px-4 py-3">
+                    <Markdown source={pathSection.markdown} />
                   </div>
-                ) : null}
-                <h3 className="mb-4 font-serif text-lg font-semibold">
-                  {path.title}
-                  {path.subtitle ? <span className="text-muted"> · {path.subtitle}</span> : null}
-                </h3>
-                <LevelingTimeline key={path.id} path={path} tree={tree} rgb={rgb} />
-                {pathSection ? (
-                  <details className="group mt-6 rounded-2xl hairline">
-                    <summary className="cursor-pointer list-none px-4 py-3 text-sm font-semibold text-accent sm:px-5">
-                      <span className="group-open:hidden">The guide&rsquo;s table and notes for this path</span>
-                      <span className="hidden group-open:inline">Hide the table and notes</span>
-                    </summary>
-                    <div className="border-t px-4 py-4 sm:px-5">
-                      <Markdown source={pathSection.markdown} />
-                    </div>
-                  </details>
-                ) : null}
-                {/* every talent-order section stays reachable, including paths not selected */}
-                {[...pathSections]
-                  .filter((id) => id !== pathSection?.id)
-                  .map((id) => {
-                    const s = leveling.sections.find((x) => x.id === id)!;
-                    return (
-                      <details key={id} id={id} className="group mt-3 rounded-2xl hairline">
-                        <summary className="cursor-pointer list-none px-4 py-3 text-sm font-semibold text-muted hover:text-ink sm:px-5">
-                          {cleanHeading(s.heading)}
-                        </summary>
-                        <div className="border-t px-4 py-4 sm:px-5">
-                          <Markdown source={s.markdown} />
-                        </div>
-                      </details>
-                    );
-                  })}
-                {pathSection ? <span id={pathSection.id} className="block" aria-hidden="true" /> : null}
-              </Section>
-            ) : b.kind === 'section' ? (
-              <Section key={b.s.id} id={b.s.id} title={cleanHeading(b.s.heading)}>
-                <Markdown source={b.s.markdown} />
-              </Section>
-            ) : null,
-          )}
-          {intro && leveling.recommendation ? (
-            <details className="rounded-2xl hairline">
-              <summary className="cursor-pointer list-none px-4 py-3 text-sm font-semibold text-muted hover:text-ink sm:px-5">
+                </details>
+              ) : null}
+              {/* every talent-order section stays reachable, including paths not selected */}
+              {[...pathSections]
+                .filter((pid) => pid !== pathSection?.id)
+                .map((pid) => {
+                  const s = leveling.sections.find((x) => x.id === pid)!;
+                  return (
+                    <details key={pid} id={pid} className="group mt-2 rounded-lg border">
+                      <summary className="cursor-pointer list-none px-4 py-2.5 text-[13.5px] font-medium text-muted-foreground hover:text-foreground">
+                        {cleanHeading(s.heading)}
+                      </summary>
+                      <div className="border-t px-4 py-3">
+                        <Markdown source={s.markdown} />
+                      </div>
+                    </details>
+                  );
+                })}
+              {pathSection ? <span id={pathSection.id} className="block" aria-hidden="true" /> : null}
+            </Section>
+          ) : b.kind === 'section' ? (
+            <Section key={b.s.id} id={b.s.id} title={cleanHeading(b.s.heading)}>
+              <Markdown source={b.s.markdown} />
+            </Section>
+          ) : null,
+        )}
+        {intro && leveling.recommendation ? (
+          <section aria-label="Introduction">
+            <details className="rounded-lg border">
+              <summary className="cursor-pointer list-none px-4 py-2.5 text-[13.5px] font-medium text-muted-foreground hover:text-foreground">
                 The guide&rsquo;s full introduction
               </summary>
-              <div className="border-t px-4 py-4 sm:px-5">
+              <div className="border-t px-4 py-3">
                 <Markdown source={intro.markdown} />
               </div>
             </details>
-          ) : null}
-        </div>
-      </WithToc>
-    </div>
+          </section>
+        ) : null}
+      </Sections>
+    </Page>
   );
 }

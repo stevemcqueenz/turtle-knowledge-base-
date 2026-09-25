@@ -1,14 +1,17 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
+import { ChevronDown, ListTree } from 'lucide-react';
+import { cn } from '../../lib/utils';
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '../ui/dropdown-menu';
 
 export interface TocItem {
   id: string;
   label: string;
-  /** Nested entries (boss names under "Bosses"), shown indented on desktop. */
+  /** Nested entries (boss names under "Bosses"), shown indented. */
   children?: TocItem[];
 }
 
 /** The id of the section currently at the top of the viewport. */
-function useActiveSection(ids: string[]): string | null {
+export function useActiveSection(ids: string[]): string | null {
   const [active, setActive] = useState<string | null>(ids[0] ?? null);
   const key = ids.join('|');
   useEffect(() => {
@@ -22,7 +25,7 @@ function useActiveSection(ids: string[]): string | null {
         const first = ids.find((id) => visible.get(id));
         if (first) setActive(first);
       },
-      { rootMargin: '-80px 0px -65% 0px', threshold: 0 },
+      { rootMargin: '-72px 0px -62% 0px', threshold: 0 },
     );
     els.forEach((el) => io.observe(el));
     return () => io.disconnect();
@@ -31,78 +34,60 @@ function useActiveSection(ids: string[]): string | null {
   return active;
 }
 
-/**
- * Table of contents: a sticky sidebar on wide screens, a sticky scrolling chip
- * bar under the header on narrow ones. Highlights the section being read.
- */
-export function Toc({ items, title = 'On this page', label }: { items: TocItem[]; title?: string; label?: string }) {
+function go(id: string) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  if (el.tagName === 'DETAILS') (el as HTMLDetailsElement).open = true;
+  el.scrollIntoView({ block: 'start' });
+}
+
+function useTocState(items: TocItem[]) {
   const ids = items.flatMap((i) => [i.id, ...(i.children ?? []).map((c) => c.id)]);
-  const topIds = items.map((i) => i.id);
   const active = useActiveSection(ids);
-  const activeTop = items.find((i) => i.id === active || i.children?.some((c) => c.id === active))?.id ?? null;
-  const barRef = useRef<HTMLDivElement>(null);
+  const activeTop = items.find((i) => i.id === active || i.children?.some((c) => c.id === active)) ?? null;
+  return { active, activeTop };
+}
 
-  useEffect(() => {
-    const bar = barRef.current;
-    const chip = bar?.querySelector<HTMLElement>(`[data-toc="${activeTop}"]`);
-    if (bar && chip) bar.scrollTo({ left: chip.offsetLeft - 16, behavior: 'smooth' });
-  }, [activeTop]);
-
+/** Right-hand "On this page" list on wide screens; tracks the section being read. */
+export function Toc({ items, title = 'On this page' }: { items: TocItem[]; title?: string }) {
+  const { active, activeTop } = useTocState(items);
   if (items.length < 2) return null;
   return (
-    <>
-      <nav
-        aria-label={label ?? title}
-        className="sticky top-14 z-20 -mx-4 border-b bg-bg/95 backdrop-blur lg:hidden"
-      >
-        <div ref={barRef} className="no-scrollbar flex gap-1 overflow-x-auto px-4 py-2">
-          {items.map((item) => (
-            <a
-              key={item.id}
-              href={`#${item.id}`}
-              data-toc={item.id}
-              onClick={(e) => {
-                e.preventDefault();
-                document.getElementById(item.id)?.scrollIntoView({ block: 'start' });
-              }}
-              className={`shrink-0 rounded-full px-3 py-1 text-[13px] font-medium transition-colors ${
-                activeTop === item.id ? 'bg-accent/15 text-ink ring-1 ring-accent/40' : 'text-muted'
-              }`}
-            >
-              {item.label}
-            </a>
-          ))}
-        </div>
-      </nav>
-      <nav aria-label={label ?? title} className="sticky top-20 hidden max-h-[calc(100vh-6rem)] overflow-y-auto pb-6 scrollbar-thin lg:block">
-        <p className="eyebrow mb-3">{title}</p>
-        <ul className="space-y-0.5 border-l">
-          {items.map((item) => (
+    <nav aria-label={title} className="sticky top-[4.75rem] max-h-[calc(100vh-6rem)] overflow-y-auto pb-8 scrollbar-thin">
+      <p className="mb-2 text-xs font-medium text-foreground">{title}</p>
+      <ul className="space-y-px border-l text-[13px]">
+        {items.map((item) => {
+          const on = activeTop?.id === item.id;
+          return (
             <li key={item.id}>
               <a
                 href={`#${item.id}`}
                 onClick={(e) => {
                   e.preventDefault();
-                  document.getElementById(item.id)?.scrollIntoView({ block: 'start' });
+                  go(item.id);
                 }}
-                aria-current={activeTop === item.id ? 'location' : undefined}
-                className={`-ml-px block border-l-2 py-1 pl-3 pr-2 text-[13.5px] leading-snug transition-colors ${
-                  activeTop === item.id ? 'border-accent font-semibold text-ink' : 'border-transparent text-muted hover:text-ink'
-                }`}
+                aria-current={on ? 'location' : undefined}
+                className={cn(
+                  '-ml-px block border-l py-1 pl-3 pr-1 leading-snug transition-colors',
+                  on ? 'border-foreground font-medium text-foreground' : 'border-transparent text-muted-foreground hover:text-foreground',
+                )}
               >
                 {item.label}
               </a>
-              {item.children && item.children.length > 0 && activeTop === item.id ? (
-                <ul className="mb-1 ml-3 space-y-0.5">
+              {item.children?.length && on ? (
+                <ul className="mb-1 space-y-px">
                   {item.children.map((c) => (
                     <li key={c.id}>
                       <a
                         href={`#${c.id}`}
                         onClick={(e) => {
                           e.preventDefault();
-                          document.getElementById(c.id)?.scrollIntoView({ block: 'start' });
+                          go(c.id);
                         }}
-                        className={`block py-0.5 pl-3 text-[12.5px] ${active === c.id ? 'text-ink' : 'text-muted hover:text-ink'}`}
+                        className={cn(
+                          'block py-0.5 pl-6 text-[12.5px] leading-snug transition-colors',
+                          active === c.id ? 'text-foreground' : 'text-muted-foreground hover:text-foreground',
+                        )}
                       >
                         {c.label}
                       </a>
@@ -111,18 +96,34 @@ export function Toc({ items, title = 'On this page', label }: { items: TocItem[]
                 </ul>
               ) : null}
             </li>
+          );
+        })}
+      </ul>
+    </nav>
+  );
+}
+
+/** Below the top bar on narrow screens: the current section, and a menu of all of them. */
+export function MobileToc({ items }: { items: TocItem[] }) {
+  const { activeTop } = useTocState(items);
+  if (items.length < 2) return null;
+  return (
+    <div className="sticky top-14 z-20 -mx-4 mb-6 border-b bg-background/95 px-4 py-1.5 backdrop-blur supports-[backdrop-filter]:bg-background/80 sm:-mx-6 sm:px-6 xl:hidden">
+      <DropdownMenu>
+        <DropdownMenuTrigger className="flex w-full items-center gap-2 rounded-md py-1 text-left text-[13px] text-muted-foreground outline-none">
+          <ListTree className="h-4 w-4 shrink-0" aria-hidden="true" />
+          <span className="shrink-0">On this page</span>
+          <span className="min-w-0 truncate font-medium text-foreground">{activeTop?.label ?? items[0].label}</span>
+          <ChevronDown className="ml-auto h-4 w-4 shrink-0" aria-hidden="true" />
+        </DropdownMenuTrigger>
+        <DropdownMenuContent align="start" className="max-h-[60vh] w-[min(22rem,calc(100vw-2rem))] overflow-y-auto">
+          {items.map((item) => (
+            <DropdownMenuItem key={item.id} onSelect={() => window.setTimeout(() => go(item.id), 10)} className={cn(activeTop?.id === item.id && 'font-medium')}>
+              {item.label}
+            </DropdownMenuItem>
           ))}
-        </ul>
-        {topIds.length > 6 ? (
-          <button
-            type="button"
-            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-            className="mt-4 pl-3 text-xs font-medium text-muted hover:text-ink"
-          >
-            Back to top ↑
-          </button>
-        ) : null}
-      </nav>
-    </>
+        </DropdownMenuContent>
+      </DropdownMenu>
+    </div>
   );
 }

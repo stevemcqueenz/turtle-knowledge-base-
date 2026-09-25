@@ -1,17 +1,21 @@
+import { ArrowLeft, ArrowRight, Bot } from 'lucide-react';
 import type { Playbook, Section as SectionData } from '../types';
 import { getClassSummary, playbookNeighbours, specLabel } from '../lib/site';
 import { href, useScrollReset, useSectionScroll } from '../lib/router';
 import { ACTIVITY_LABELS } from '../lib/grades';
 import { useClassEntry } from '../data';
 import { Markdown } from '../components/Markdown';
-import { Loading, PageHero, Section, WithToc } from '../components/layout/Page';
+import { Loading, Page, PageHeader, Section, Sections } from '../components/layout/Page';
 import type { TocItem } from '../components/layout/Toc';
-import { useClassInk } from '../components/ui/ClassMark';
+import { ClassMark, useClassInk, useClassVars } from '../components/ui/ClassMark';
 import { Grade } from '../components/ui/Grade';
+import { HoverCard, HoverCardContent, HoverCardTrigger } from '../components/ui/hover-card';
 import { BuildCard, ConsumablesCard, PriorityCard, StatsCard } from '../components/playbook/Glance';
 import { BotPanel } from '../components/playbook/BotPanel';
+import { HowToPlay } from '../components/playbook/HowToPlay';
 import { RoleIcon } from '../components/class/RoleIcon';
-import { ArrowRightIcon, ChevronLeftIcon, ChevronRightIcon, CodeIcon, CompassIcon } from '../components/Icons';
+import { ClassNav } from '../components/class/ClassNav';
+import { RatingTooltip } from '../components/class/ViabilityMatrix';
 import { cleanHeading } from '../components/guide/util';
 import { NotFound } from './NotFound';
 
@@ -54,6 +58,8 @@ const tocLabel = (h: string) =>
     .replace(/\s*\([^)]*\)\s*$/, '')
     .replace(/^What (1\.18\.1 )?changed.*$/i, 'What 1.18.1 changed');
 
+const isHowToPlay = (s: SectionData) => /^how to play\b/i.test(s.heading.trim());
+
 export function PlaybookPage({ slug, id }: { slug: string; id: string }) {
   const cls = getClassSummary(slug);
   const entry = useClassEntry(slug);
@@ -61,10 +67,11 @@ export function PlaybookPage({ slug, id }: { slug: string; id: string }) {
   useScrollReset(`${slug}/${id}`);
   useSectionScroll(!!playbook);
   const { ink, rgb } = useClassInk(cls?.color ?? '#cccccc');
+  const vars = useClassVars(cls?.color ?? '#cccccc');
 
   if (!cls || entry === null || (entry && !playbook) || !cls.playbooks.some((p) => p.id === id))
     return <NotFound path={`#/class/${slug}/${id}`} />;
-  if (!entry || !playbook) return <Loading label={`Loading the ${cls.name} guide`} />;
+  if (!entry || !playbook) return <Loading label={`Loading ${cls.name} guide`} />;
 
   const y = playbook.yaml;
   const glance = playbook.glance;
@@ -74,174 +81,175 @@ export function PlaybookPage({ slug, id }: { slug: string; id: string }) {
     cls.viability?.rows.find((r) => r.playbookId === id) ??
     cls.viability?.rows.find((r) => r.spec.toLowerCase().startsWith(playbook.spec.toLowerCase().split(' ')[0])) ??
     null;
-  const sections = orderedSections(playbook).filter((s) => !(glance && s.id === 'overview' && s.heading === 'Overview'));
+  const all = orderedSections(playbook).filter((s) => !(glance && s.id === 'overview' && s.heading === 'Overview'));
+  const howTo = all.find(isHowToPlay) ?? null;
+  const sections = all.filter((s) => s !== howTo);
   const { prev, next } = playbookNeighbours(entry, id);
-  const cited = new Set(
-    [...orderedSections(playbook).map((s) => s.markdown), playbook.intro]
-      .join('\n')
-      .match(/evidence-[a-z0-9_-]+\.jsonl#L\d+/g) ?? [],
-  ).size;
-  const hasGlance = builds.length > 0 || !!y?.stat_priority || !!y?.rotation_single || !!y?.consumables;
+  const hasQuick = !!y && (!!y.stat_priority || !!y.caps || !!y.rotation_single || !!y.consumables);
+  const facts = (glance?.facts ?? []).filter((f) => !/^viability/i.test(f.label));
+  const pvp = playbook.role === 'pvp';
 
   const toc: TocItem[] = [
     { id: 'overview', label: 'At a glance' },
+    ...(howTo ? [{ id: howTo.id, label: 'How to play' }] : []),
+    ...(hasQuick ? [{ id: 'quick-reference', label: 'Priorities and stats' }] : []),
     ...sections.map((s) => ({ id: s.id, label: tocLabel(s.heading) })),
     ...(y ? [{ id: 'for-bots', label: 'For bots' }] : []),
   ];
 
   return (
-    <div>
-      <PageHero
-        rgb={rgb}
-        crumbs={[
-          { label: 'Classes', href: href.home() },
-          { label: cls.name, href: href.class(slug) },
-          { label: playbook.role === 'pvp' ? `PvP · ${specLabel(playbook.spec)}` : playbook.spec },
-        ]}
-      >
-        <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_20rem] lg:gap-12">
-          <div className="min-w-0">
-            <p className="eyebrow flex items-center gap-2">
-              <RoleIcon role={playbook.role} className="h-3.5 w-3.5" /> {playbook.roleLabel} guide · patch 1.18.1
-            </p>
-            <h1 className="display mt-2 text-[2.1rem] leading-[1.1] sm:text-5xl">
-              <span style={{ color: ink }}>{specLabel(playbook.spec)}</span> {playbook.role === 'pvp' ? `${cls.name} in PvP` : cls.name}
-            </h1>
-            {glance?.recommendation ? (
-              <div className="mt-5 max-w-3xl">
-                <p className="eyebrow mb-2 text-accent">The short answer</p>
-                <Markdown source={glance.recommendation} className="text-[1.03rem] sm:text-[1.08rem]" />
-              </div>
-            ) : playbook.intro ? (
-              <Markdown source={playbook.intro} className="mt-5 max-w-3xl" />
+    <Page
+      style={vars}
+      toc={toc}
+      header={
+        <PageHeader
+          crumbs={[
+            { label: 'Classes', href: href.home() },
+            { label: cls.name, href: href.class(slug) },
+            { label: pvp ? `PvP · ${specLabel(playbook.spec)}` : specLabel(playbook.spec) },
+          ]}
+          icon={<ClassMark name={cls.name} color={cls.color} size="xl" />}
+          title={
+            <>
+              <span style={{ color: ink }}>{specLabel(playbook.spec)}</span> {pvp ? `${cls.name} PvP` : cls.name}
+            </>
+          }
+          meta={
+            <>
+              <span className="inline-flex items-center gap-1.5">
+                <RoleIcon role={playbook.role} className="h-3.5 w-3.5" /> {playbook.roleLabel}
+              </span>
+              {builds[0] ? <span className="tabular">{builds[0].split}</span> : null}
+              <span>Patch 1.18.1</span>
+              {row ? (
+                <span className="flex flex-wrap items-center gap-x-2.5 gap-y-1">
+                  {row.cells.map((cell) => {
+                    const col = ACTIVITY_LABELS[cell.key] ?? cell.key;
+                    return (
+                      <HoverCard key={cell.key} openDelay={120} closeDelay={60}>
+                        <HoverCardTrigger asChild>
+                          <a href={href.section(href.class(slug), 'viability')} className="inline-flex items-center gap-1 hover:text-foreground">
+                            <Grade cell={cell} column={col} size="sm" />
+                            {col}
+                          </a>
+                        </HoverCardTrigger>
+                        <HoverCardContent side="bottom" className="w-80">
+                          <RatingTooltip spec={row.spec} column={col} cell={cell} />
+                        </HoverCardContent>
+                      </HoverCard>
+                    );
+                  })}
+                </span>
+              ) : null}
+            </>
+          }
+          nav={<ClassNav cls={cls} current={href.playbook(slug, id)} />}
+        >
+          {glance?.recommendation ? (
+            <Markdown source={glance.recommendation} className="max-w-[74ch] text-[15.5px] leading-relaxed" />
+          ) : playbook.intro ? (
+            <Markdown source={playbook.intro} className="max-w-[74ch]" />
+          ) : null}
+        </PageHeader>
+      }
+    >
+      <Sections>
+        <Section
+          id="overview"
+          title="At a glance"
+          actions={
+            y ? (
+              <a
+                href="#for-bots"
+                onClick={(e) => {
+                  e.preventDefault();
+                  document.getElementById('for-bots')?.scrollIntoView();
+                }}
+                className="inline-flex items-center gap-1.5 text-[13px] text-muted-foreground hover:text-foreground"
+              >
+                <Bot className="h-4 w-4" /> For bots
+              </a>
+            ) : null
+          }
+        >
+          <div className="space-y-4">
+            {facts.length ? (
+              <dl className="grid gap-x-8 gap-y-3 text-[13.5px] sm:grid-cols-2">
+                {facts.map((f) => (
+                  <div key={f.label} className="grid grid-cols-[6.5rem_minmax(0,1fr)] gap-3 border-b pb-3">
+                    <dt className="text-muted-foreground">{f.label}</dt>
+                    <dd>
+                      <Markdown inline source={f.markdown} className="leading-relaxed" />
+                    </dd>
+                  </div>
+                ))}
+              </dl>
             ) : null}
+            {builds.length && tree ? <BuildCard builds={builds} tree={tree} rgb={rgb} /> : null}
+            {!builds.length && !hasQuick ? (
+              <p className="text-sm text-muted-foreground">No structured build or priority list is published for this spec; the full guide follows.</p>
+            ) : null}
+            {glance?.rest ? <Markdown source={glance.rest} /> : null}
           </div>
-          <aside className="space-y-4">
-            {row ? (
-              <div className="card p-4">
-                <p className="eyebrow mb-3">Rated in 1.18.1</p>
-                <ul className="grid grid-cols-5 gap-1.5 lg:grid-cols-1 lg:gap-2">
-                  {row.cells.map((cell) => (
-                    <li key={cell.key} className="flex flex-col items-center gap-1 lg:flex-row lg:gap-3">
-                      <Grade cell={cell} column={ACTIVITY_LABELS[cell.key] ?? cell.key} size="sm" />
-                      <span className="text-center text-[10px] uppercase tracking-wide text-muted lg:text-left lg:text-sm lg:normal-case lg:tracking-normal lg:text-ink">
-                        {ACTIVITY_LABELS[cell.key] ?? cell.key}
-                      </span>
-                    </li>
-                  ))}
-                </ul>
-                <a href={href.section(href.class(slug), 'viability')} className="link mt-3 block text-xs font-medium">
-                  Compare {cls.name} specs
-                </a>
-              </div>
-            ) : null}
-            <p className="text-xs leading-relaxed text-muted">
-              {cited ? `Distilled from ${cited} cited Discord messages` : 'Distilled from the archived community'}
-              {' '}plus the forum and wiki. Hover a <span className="cite-mark pointer-events-none !top-0" aria-hidden="true" /> to read
-              the source.
-            </p>
-          </aside>
-        </div>
-      </PageHero>
+        </Section>
 
-      <WithToc toc={toc}>
-        <div className="space-y-14">
-          <Section
-            id="overview"
-            eyebrow="Fast answers"
-            title="At a glance"
-            actions={
-              y ? (
-                <a href="#for-bots" onClick={(e) => { e.preventDefault(); document.getElementById('for-bots')?.scrollIntoView(); }} className="inline-flex items-center gap-1.5 text-sm font-medium text-muted hover:text-ink">
-                  <CodeIcon className="h-4 w-4" /> Playbook for bots
-                </a>
-              ) : null
-            }
-          >
-            <div className="space-y-4">
-              {glance?.facts?.length ? (
-                <dl className="card grid divide-y overflow-hidden text-sm sm:grid-cols-2 sm:divide-y-0">
-                  {glance.facts
-                    .filter((f) => !/^viability/i.test(f.label))
-                    .map((f) => (
-                      <div key={f.label} className="border-b p-4 last:border-b-0 sm:[&:nth-last-child(-n+2)]:border-b-0 sm:odd:border-r">
-                        <dt className="eyebrow mb-1">{f.label}</dt>
-                        <dd>
-                          <Markdown inline source={f.markdown} className="leading-relaxed" />
-                        </dd>
-                      </div>
-                    ))}
-                </dl>
-              ) : null}
-              {builds.length && tree ? <BuildCard builds={builds} tree={tree} rgb={rgb} /> : null}
-              {y ? (
-                <div className="grid gap-4 xl:grid-cols-2">
-                  <StatsCard yaml={y} />
-                  <PriorityCard yaml={y} />
-                </div>
-              ) : null}
-              {y ? <ConsumablesCard yaml={y} /> : null}
-              {!hasGlance ? (
-                <p className="text-sm text-muted">No structured build or priority list is published for this spec; the full guide follows.</p>
-              ) : null}
-              {glance?.rest ? <Markdown source={glance.rest} /> : null}
-              <div className="flex flex-wrap gap-2 pt-1">
-                {entry.leveling ? (
-                  <a href={href.leveling(slug)} className="btn btn-ghost">
-                    <CompassIcon /> Leveling a {cls.name}
-                  </a>
-                ) : null}
-                <a href={href.class(slug)} className="btn btn-ghost">
-                  All {cls.name} specs <ArrowRightIcon />
-                </a>
-              </div>
+        {howTo ? (
+          <Section key={howTo.id} id={howTo.id} title="How to play">
+            <HowToPlay markdown={howTo.markdown} />
+          </Section>
+        ) : null}
+
+        {hasQuick && y ? (
+          <Section id="quick-reference" title="Priorities and stats">
+            <div className="grid gap-4 xl:grid-cols-2">
+              <PriorityCard yaml={y} />
+              <StatsCard yaml={y} />
+            </div>
+            <div className="mt-4">
+              <ConsumablesCard yaml={y} />
             </div>
           </Section>
+        ) : null}
 
-          <div className="rule text-xs uppercase tracking-[0.2em]" aria-hidden="true">
-            The full guide
-          </div>
+        {sections.map((s) => (
+          <Section key={s.id} id={s.id} title={cleanHeading(s.heading)}>
+            <Markdown source={s.markdown} />
+          </Section>
+        ))}
 
-          {sections.map((s) => (
-            <Section key={s.id} id={s.id} title={cleanHeading(s.heading)}>
-              <Markdown source={s.markdown} />
-            </Section>
-          ))}
+        {y ? (
+          <Section id="for-bots" title="For bots">
+            <BotPanel playbook={playbook} classSlug={slug} />
+          </Section>
+        ) : null}
+      </Sections>
 
-          {y ? (
-            <Section id="for-bots" eyebrow="Machine-readable" title="For bots">
-              <BotPanel playbook={playbook} classSlug={slug} />
-            </Section>
-          ) : null}
-
-          <nav aria-label="Other guides for this class" className="grid gap-3 border-t pt-8 sm:grid-cols-2">
-            {prev ? (
-              <a href={href.playbook(slug, prev.id)} className="card flex min-w-0 items-center gap-3 p-4 hover:border-accent/50">
-                <ChevronLeftIcon />
-                <span className="min-w-0">
-                  <span className="block text-xs text-muted">Previous</span>
-                  <span className="block truncate font-serif font-semibold">
-                    {specLabel(prev.spec)} · {prev.roleLabel}
-                  </span>
-                </span>
-              </a>
-            ) : (
-              <span />
-            )}
-            {next ? (
-              <a href={href.playbook(slug, next.id)} className="card flex min-w-0 items-center justify-end gap-3 p-4 text-right hover:border-accent/50">
-                <span className="min-w-0">
-                  <span className="block text-xs text-muted">Next</span>
-                  <span className="block truncate font-serif font-semibold">
-                    {specLabel(next.spec)} · {next.roleLabel}
-                  </span>
-                </span>
-                <ChevronRightIcon />
-              </a>
-            ) : null}
-          </nav>
-        </div>
-      </WithToc>
-    </div>
+      <nav aria-label="Other guides for this class" className="mt-12 grid gap-3 border-t pt-6 sm:grid-cols-2">
+        {prev ? (
+          <a href={href.playbook(slug, prev.id)} className="group flex min-w-0 items-center gap-3 rounded-lg border px-4 py-3 transition-colors hover:bg-accent/50">
+            <ArrowLeft className="h-4 w-4 text-muted-foreground" />
+            <span className="min-w-0">
+              <span className="block text-xs text-muted-foreground">Previous</span>
+              <span className="block truncate font-medium">
+                {specLabel(prev.spec)} · {prev.roleLabel}
+              </span>
+            </span>
+          </a>
+        ) : (
+          <span />
+        )}
+        {next ? (
+          <a href={href.playbook(slug, next.id)} className="group flex min-w-0 items-center justify-end gap-3 rounded-lg border px-4 py-3 text-right transition-colors hover:bg-accent/50">
+            <span className="min-w-0">
+              <span className="block text-xs text-muted-foreground">Next</span>
+              <span className="block truncate font-medium">
+                {specLabel(next.spec)} · {next.roleLabel}
+              </span>
+            </span>
+            <ArrowRight className="h-4 w-4 text-muted-foreground" />
+          </a>
+        ) : null}
+      </nav>
+    </Page>
   );
 }

@@ -21,10 +21,12 @@ Development overrides (for guide pages that live in another checkout):
                         (anything missing there falls back to the repo)
 
   guide/instances/*.md            dungeon and raid pages (index.md lists them)
+  guide/professions.md            the professions overview (every class)
 
 Writes (site/src/data/):
   classes.json, matrix.json, glossary.json, meta.json,
   instances.json (only when guide/instances/index.md exists)
+  professions.json (only when guide/professions.md exists)
 
 Only dependency: PyYAML. See site/PLAN.md §2 for the exact data contract and
 site/src/data/README.md for a description of the output files.
@@ -852,7 +854,21 @@ def register_guide_routes(guide: GuideContext) -> None:
         for page in sorted(cdir.glob("*.md")):
             rel = guide.repo_rel(page)
             if page.name not in RESERVED_GUIDE_PAGES and rel not in guide.routes:
-                guide.routes[rel] = f"#/class/{slug}/guide/{page.stem}"
+                # the class professions page has its own route (#/class/<slug>/professions)
+                guide.routes[rel] = (f"#/class/{slug}/professions" if page.stem == "professions"
+                                     else f"#/class/{slug}/guide/{page.stem}")
+    if (guide.dir / "professions.md").is_file():
+        guide.routes[guide.repo_rel(guide.dir / "professions.md")] = "#/professions"
+
+
+def build_professions(guide: GuideContext | None) -> dict | None:
+    """professions.json: guide/professions.md (the overview for every class) as a
+    GuideDoc plus its **Recommendation:** paragraph."""
+    if guide is None or not (guide.dir / "professions.md").is_file():
+        return None
+    doc = guide.doc(guide.dir / "professions.md", "professions")
+    doc["recommendation"], _ = recommendation_block(doc["intro"])
+    return doc
 
 
 # ---------------------------------------------------------------------------
@@ -1765,6 +1781,7 @@ def main(argv: list[str] | None = None) -> int:
 
     classes = [build_class_entry(slug, matrix_rows, guide) for slug in CLASS_ORDER]
     instances = build_instances(guide)
+    professions = build_professions(guide)
     map_pages = attach_maps(instances)
     guide_classes = [c["slug"] for c in classes if c["guidePath"]]
 
@@ -1800,6 +1817,12 @@ def main(argv: list[str] | None = None) -> int:
     # Relative links whose target is not in the repository (rendered as text).
     meta_json["unwrappedLinks"] = sorted(set(guide.unwrapped_links)) if guide else []
 
+    professions_path = DATA_DIR / "professions.json"
+    if professions is not None:
+        professions_path.write_text(
+            json.dumps(professions, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    elif professions_path.exists():
+        professions_path.unlink()
     instances_path = DATA_DIR / "instances.json"
     if instances is not None:
         instances_path.write_text(
@@ -1825,6 +1848,8 @@ def main(argv: list[str] | None = None) -> int:
         ic = meta_json["instanceCounts"]
         print(f"Instances: {ic['pages']} pages ({ic['dungeons']} dungeons, {ic['raids']} raids), "
               f"{map_pages} with maps")
+    if professions is not None:
+        print(f"Professions overview: {len(professions['sections'])} sections")
     if guide is None:
         print(f"No guide directory at {GUIDE_DIR / 'classes'}; every class built from synthesis/")
     else:

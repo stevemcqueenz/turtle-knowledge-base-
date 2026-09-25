@@ -1,7 +1,8 @@
 import { useMemo, useState } from 'react';
 import type { LevelingPath, LevelingPathStep, TalentTree } from '../../types';
+import { ArrowUpRight } from 'lucide-react';
 import { Markdown } from '../Markdown';
-import { ExternalIcon } from '../Icons';
+import { Button } from '../ui/button';
 import { SplitLine, TalentGrid } from '../talents/TalentGrid';
 
 /** Can the path be replayed level by level (every row a known talent with levels and ranks, no respec)? */
@@ -46,9 +47,9 @@ function RankBar({ s }: { s: LevelingPathStep }) {
         return (
           <span
             key={i}
-            className="h-2 w-3 rounded-[2px]"
+            className="h-1.5 w-2.5 rounded-[1px]"
             style={{
-              background: now ? 'rgb(var(--tc))' : before ? 'rgb(var(--tc) / 0.35)' : 'rgb(var(--c-line) / 0.16)',
+              background: now ? (s.rankTo === s.max ? '#ffd100' : '#1eff00') : before ? 'rgb(var(--tc) / 0.45)' : 'hsl(var(--muted-foreground) / 0.25)',
             }}
           />
         );
@@ -84,50 +85,50 @@ export function LevelingTimeline({ path, tree, rgb }: { path: LevelingPath; tree
   const totals = gridRanks ? gridRanks.map((r) => r.reduce((a, b) => a + b, 0)) : null;
 
   return (
-    <div className="grid gap-6 xl:grid-cols-[minmax(0,26rem)_minmax(0,1fr)]" style={{ ['--tc' as string]: rgb }}>
+    <div className="grid gap-6 md:grid-cols-[minmax(0,1fr)_17.5rem]" style={{ ['--tc' as string]: rgb }}>
       <ol className="space-y-5" aria-label={`Talent order: ${path.title}`}>
         {path.respecAt ? (
-          <li className="rounded-xl bg-accent/10 px-3 py-2 text-sm ring-1 ring-accent/30">
+          <li className="rounded-md border border-[rgb(var(--cc)/0.4)] bg-[rgb(var(--cc)/0.08)] px-3 py-2 text-[13px]">
             <strong className="font-semibold">Respec at {path.respecAt}.</strong>{' '}
-            <span className="text-muted">This path assumes a respec at level {path.respecAt}.</span>
+            <span className="text-muted-foreground">This path assumes a respec at level {path.respecAt}.</span>
           </li>
         ) : path.noRespec ? (
-          <li className="text-sm text-muted">Designed to need no respec from 10 to 60.</li>
+          <li className="text-[13px] text-muted-foreground">Designed to need no respec from 10 to 60.</li>
         ) : null}
         {bands.map((b) => (
           <li key={b.band}>
-            <p className="eyebrow mb-2">{b.band === 'Order' ? 'Order' : `Levels ${b.band.replace('s', '')}–${Number(b.band.replace('s', '')) + 9}`}</p>
-            <ol className="relative space-y-1.5 border-l-2 pl-4" style={{ borderColor: 'rgb(var(--tc) / 0.35)' }}>
+            <p className="mb-1.5 text-xs font-medium text-muted-foreground">{b.band === 'Order' ? 'Order' : `Levels ${b.band.replace('s', '')}–${Number(b.band.replace('s', '')) + 9}`}</p>
+            <ol className="relative space-y-px border-l pl-4" style={{ borderColor: 'rgb(var(--tc) / 0.35)' }}>
               {b.steps.map((s, i) => {
                 const active = canReplay && s.from !== null && level >= s.from && level <= (s.to ?? s.from);
                 return (
                   <li
                     key={i}
-                    className={`relative rounded-xl px-3 py-2 transition-colors ${
-                      s.respec ? 'bg-accent/10 ring-1 ring-accent/40' : active ? 'bg-surface2' : ''
+                    className={`relative rounded-md px-2.5 py-1.5 transition-colors ${
+                      s.respec ? 'bg-[rgb(var(--cc)/0.1)] ring-1 ring-[rgb(var(--cc)/0.4)]' : active ? 'bg-accent' : ''
                     }`}
                   >
                     <span
                       aria-hidden="true"
-                      className="absolute -left-[1.4rem] top-3.5 h-2.5 w-2.5 rounded-full ring-2 ring-[rgb(var(--c-bg))]"
-                      style={{ background: s.respec ? 'rgb(var(--c-accent))' : 'rgb(var(--tc))' }}
+                      className="absolute -left-[1.23rem] top-3 h-2 w-2 rounded-full ring-2 ring-background"
+                      style={{ background: s.respec ? '#ffd100' : 'rgb(var(--tc))' }}
                     />
-                    <div className="grid grid-cols-[3.4rem_1fr] items-baseline gap-2">
-                      <span className="font-serif text-sm font-bold tabular-nums">{levelLabel(s)}</span>
+                    <div className="grid grid-cols-[3rem_1fr] items-baseline gap-2 text-[13.5px]">
+                      <span className="text-[13px] font-semibold tabular">{levelLabel(s)}</span>
                       <span className="min-w-0">
                         {s.talent ? (
                           <span className="flex flex-wrap items-center gap-x-3 gap-y-1">
-                            <span className="font-semibold">{s.talent}</span>
+                            <span className="font-medium">{s.talent}</span>
                             <RankBar s={s} />
-                            <span className="text-xs text-muted">{s.tree}</span>
+                            <span className="text-xs text-muted-foreground">{s.tree}</span>
                           </span>
                         ) : (
                           <span className="flex flex-wrap items-center gap-2">
-                            {s.respec ? <span className="chip bg-accent text-[rgb(var(--c-accent-ink))]">Respec</span> : null}
+                            {s.respec ? <span className="rounded-[4px] bg-[#ffd100] px-1.5 text-[11px] font-semibold text-black">Respec</span> : null}
                             <Markdown inline source={s.markdown} className="text-sm" />
                           </span>
                         )}
-                        {s.note ? <Markdown inline source={s.note} className="mt-0.5 block text-[13px] text-muted" /> : null}
+                        {s.note ? <Markdown inline source={s.note} className="mt-0.5 block text-[12.5px] text-muted-foreground" /> : null}
                       </span>
                     </div>
                   </li>
@@ -139,11 +140,11 @@ export function LevelingTimeline({ path, tree, rgb }: { path: LevelingPath; tree
       </ol>
 
       {gridRanks ? (
-        <div className="xl:sticky xl:top-20 xl:self-start">
-          <div className="card p-4 sm:p-5">
+        <div className="md:sticky md:top-32 md:self-start">
+          <div className="rounded-lg border bg-card p-3 sm:p-4">
             <div className="flex flex-wrap items-start justify-between gap-3">
               <div>
-                <p className="eyebrow">{canReplay ? `Your talents at level ${level}` : 'Where this path ends'}</p>
+                <p className="text-[13px] font-medium">{canReplay ? `Your talents at level ${level}` : 'Where this path ends'}</p>
                 {totals ? (
                   <p className="mt-1">
                     <SplitLine tree={tree} totals={totals} />
@@ -151,16 +152,18 @@ export function LevelingTimeline({ path, tree, rgb }: { path: LevelingPath; tree
                 ) : null}
               </div>
               {path.end ? (
-                <a href={path.end.url} target="_blank" rel="noopener noreferrer" className="btn btn-primary !py-1.5">
-                  Final build in calculator <ExternalIcon className="h-3.5 w-3.5" />
-                </a>
+                <Button asChild variant="class" size="sm">
+                  <a href={path.end.url} target="_blank" rel="noopener noreferrer">
+                    Final build in calculator <ArrowUpRight />
+                  </a>
+                </Button>
               ) : null}
             </div>
             {canReplay ? (
               <div className="mt-4">
                 <label htmlFor={`lvl-${path.id}`} className="flex items-center justify-between text-sm">
-                  <span className="text-muted">Drag to replay the order</span>
-                  <span className="font-serif text-lg font-bold tabular-nums">{level}</span>
+                  <span className="text-muted-foreground">Drag to replay the order</span>
+                  <span className="text-base font-semibold tabular">Level {level}</span>
                 </label>
                 <input
                   id={`lvl-${path.id}`}
@@ -169,7 +172,7 @@ export function LevelingTimeline({ path, tree, rgb }: { path: LevelingPath; tree
                   max={maxLevel}
                   value={level}
                   onChange={(e) => setLevel(Number(e.target.value))}
-                  className="mt-1 w-full accent-[rgb(var(--c-accent))]"
+                  className="mt-1 w-full accent-[rgb(var(--cc))]"
                 />
               </div>
             ) : null}

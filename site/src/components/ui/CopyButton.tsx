@@ -1,5 +1,7 @@
 import { useState } from 'react';
-import { CheckIcon, CopyIcon } from '../Icons';
+import { Check, Copy } from 'lucide-react';
+import { Button } from './button';
+import { cn } from '../../lib/utils';
 
 /** Copies text to the clipboard; the label confirms for two seconds. */
 export function CopyButton({ text, label = 'Copy', className = '' }: { text: string; label?: string; className?: string }) {
@@ -19,13 +21,9 @@ export function CopyButton({ text, label = 'Copy', className = '' }: { text: str
     window.setTimeout(() => setDone(false), 2000);
   };
   return (
-    <button
-      type="button"
-      onClick={copy}
-      className={`inline-flex items-center gap-1.5 rounded-lg px-2 py-1 text-xs font-medium text-muted hairline bg-surface transition-colors hover:text-ink ${className}`}
-    >
-      {done ? <CheckIcon className="h-3.5 w-3.5" /> : <CopyIcon className="h-3.5 w-3.5" />}
+    <Button type="button" variant="outline" size="xs" onClick={copy} className={cn('text-muted-foreground hover:text-foreground', className)}>
+      {done ? <Check /> : <Copy />}
       <span aria-live="polite">{done ? 'Copied' : label}</span>
-    </button>
+    </Button>
   );
 }

@@ -6,8 +6,9 @@ declare module 'virtual:twow-core' {
 }
 
 declare module 'virtual:twow-loaders' {
-  import type { ClassEntry, InstancesData, MatrixData } from './types';
+  import type { ClassEntry, InstancesData, MatrixData, ProfessionsData } from './types';
   export const classLoaders: Record<string, () => Promise<{ default: ClassEntry }>>;
   export const loadInstances: (() => Promise<{ default: InstancesData }>) | null;
   export const loadMatrix: () => Promise<{ default: MatrixData }>;
+  export const loadProfessions: (() => Promise<{ default: ProfessionsData }>) | null;
 }

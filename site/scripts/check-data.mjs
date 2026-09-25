@@ -420,6 +420,37 @@ if (existsSync(instancesPath)) {
   fail('meta.instanceCounts.pages is set but instances.json is missing');
 }
 
+/* ---- professions.json (optional: the professions overview) --------------- */
+let professionSections = 0;
+const professionsPath = join(chosen.dir, 'professions.json');
+if (existsSync(professionsPath)) {
+  let doc = null;
+  try {
+    doc = JSON.parse(readFileSync(professionsPath, 'utf8'));
+  } catch (err) {
+    fail(`professions.json does not parse: ${err.message}`);
+  }
+  if (doc !== null) {
+    checkGuideDoc(doc, 'professions');
+    if (doc.recommendation !== undefined && !isNullableString(doc.recommendation))
+      fail('professions.recommendation must be a string or null');
+    professionSections = isArray(doc.sections) ? doc.sections.length : 0;
+    const withPage = new Set(
+      (isArray(data.classes) ? data.classes : [])
+        .filter((c) => (c.guidePages ?? []).some((d) => d.slug === 'professions'))
+        .map((c) => c.slug),
+    );
+    const texts = [['professions.intro', doc.intro], ...(doc.sections ?? []).map((s) => [`professions.${s.id}`, s.markdown])];
+    for (const [where, md] of texts) {
+      checkGuideMarkdown(md, where);
+      if (!isString(md)) continue;
+      if (/\]\((?!https?:|#\/|mailto:)[^)]*\.md(?:#[^)]*)?\)/.test(md)) fail(`${where}: unrewritten relative .md link`);
+      for (const m of md.matchAll(/\]\(#\/class\/([a-z]+)\/professions\)/g))
+        if (!withPage.has(m[1])) fail(`${where}: #/class/${m[1]}/professions has no class professions page`);
+    }
+  }
+}
+
 /* ---- cross-references ---------------------------------------------------- */
 if (isArray(data.classes) && isObject(data.matrix) && isArray(data.matrix.rows)) {
   const slugs = new Set(data.classes.map((c) => String(c.slug).toLowerCase()));
@@ -476,7 +507,7 @@ const label = chosen.kind === 'generated' ? 'src/data' : 'src/data/fixtures (dev
 console.log(`check-data: ${label}`);
 console.log(
   `  ${isArray(data.classes) ? data.classes.length : 0} classes, ${playbookCount} playbooks, ${levelingCount} leveling guides, ` +
-    `${isArray(data.matrix?.rows) ? data.matrix.rows.length : 0} matrix rows, ${isArray(data.glossary) ? data.glossary.length : 0} glossary terms, ${instanceCount} instance pages`,
+    `${isArray(data.matrix?.rows) ? data.matrix.rows.length : 0} matrix rows, ${isArray(data.glossary) ? data.glossary.length : 0} glossary terms, ${instanceCount} instance pages, ${professionSections} professions sections`,
 );
 warnings.slice(0, 20).forEach((w) => console.log(`  ! ${w}`));
 if (warnings.length > 20) console.log(`  ! …and ${warnings.length - 20} more warnings`);

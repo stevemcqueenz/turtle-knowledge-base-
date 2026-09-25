@@ -10,7 +10,8 @@
  *   virtual:twow-loaders    `loadClass(slug)`, `loadInstances()`, `loadMatrix()`:
  *                           dynamic imports of the heavy per-class / instance /
  *                           archive modules below, each its own chunk.
- *   virtual:twow-class/<slug>, virtual:twow-instances, virtual:twow-matrix
+ *   virtual:twow-class/<slug>, virtual:twow-instances, virtual:twow-matrix,
+ *   virtual:twow-professions (the professions overview, guide/professions.md)
  *
  * The JSON files stay the single, tested data contract (build-data.py,
  * test_data.py and check-data.mjs read them unchanged); this plugin only
@@ -126,6 +127,7 @@ export function twowData() {
       glossary: read('glossary'),
       meta: read('meta'),
       instances: read('instances'),
+      professions: read('professions'),
     };
     return cache;
   };
@@ -140,7 +142,7 @@ export function twowData() {
       if (!id.startsWith(`\0${PREFIX}`)) return null;
       const name = id.slice(PREFIX.length + 1);
       const d = data();
-      for (const n of [...REQUIRED, 'instances']) {
+      for (const n of [...REQUIRED, 'instances', 'professions']) {
         const path = join(d.dir, `${n}.json`);
         if (existsSync(path)) this.addWatchFile(path);
       }
@@ -151,6 +153,12 @@ export function twowData() {
           glossary: d.glossary,
           meta: d.meta,
           instances: summarizeInstances(d.instances),
+          professions: d.professions
+            ? {
+                title: d.professions.title,
+                headings: d.professions.sections.map((s) => ({ id: s.id, heading: stripTags(s.heading) })),
+              }
+            : null,
           isFixture: d.isFixture,
         });
       }
@@ -162,6 +170,7 @@ export function twowData() {
           '};',
           `export const loadInstances = ${d.instances ? `() => import('${PREFIX}instances')` : 'null'};`,
           `export const loadMatrix = () => import('${PREFIX}matrix');`,
+          `export const loadProfessions = ${d.professions ? `() => import('${PREFIX}professions')` : 'null'};`,
         ].join('\n');
       }
       if (name.startsWith('class/')) {
@@ -172,6 +181,7 @@ export function twowData() {
       }
       if (name === 'instances') return json(d.instances);
       if (name === 'matrix') return json(d.matrix);
+      if (name === 'professions') return json(d.professions);
       throw new Error(`twow-data: unknown module ${id}`);
     },
     handleHotUpdate(ctx) {

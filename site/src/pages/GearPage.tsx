@@ -2,17 +2,15 @@ import { useMemo, useState } from 'react';
 import type { GearSpec } from '../types';
 import { agreementMeta, humanizeKey, isEmptyValue, patchValidityMeta, roleLabel } from '../lib/site';
 import { useClassEntry } from '../data';
-import { Loading } from '../components/layout/Page';
+import { Loading, Page, PageHeader } from '../components/layout/Page';
 import { href, useScrollReset } from '../lib/router';
-import { readableColor } from '../lib/theme';
-import { useThemeValue } from '../lib/theme-context';
-import { Badge } from '../components/Badge';
-import { Card } from '../components/Card';
+import { Badge } from '../components/ui/badge';
 import { Callout } from '../components/Callout';
-import { Collapsible } from '../components/Collapsible';
 import { GearTable } from '../components/GearTable';
 import { Markdown } from '../components/Markdown';
-import { Tabs } from '../components/Tabs';
+import { ClassMark, useClassInk, useClassVars } from '../components/ui/ClassMark';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../components/ui/select';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '../components/ui/accordion';
 import { CitationChip } from '../components/CitationChip';
 import { YamlValue } from '../components/YamlValue';
 import { NotFound } from './NotFound';
@@ -33,7 +31,8 @@ export function GearPage({ slug, spec, bracket }: { slug: string; spec?: string;
   const loaded = useClassEntry(slug);
   const entry = loaded ?? undefined;
   useScrollReset(`${slug}/gear`);
-  const theme = useThemeValue();
+  const { ink } = useClassInk(loaded?.color ?? '#cccccc');
+  const vars = useClassVars(loaded?.color ?? '#cccccc');
   const specs = useMemo(() => (entry?.gear?.specs ?? []).filter(Boolean), [entry]);
   const [specSel, setSpecSel] = useState<string>(spec ?? '');
   const [bracketSel, setBracketSel] = useState<string>(bracket ?? '');
@@ -43,7 +42,6 @@ export function GearPage({ slug, spec, bracket }: { slug: string; spec?: string;
   const gearMarkdown = entry.gearMarkdown ?? [];
   if (specs.length === 0 && gearMarkdown.length === 0) return <NotFound path={`#/class/${slug}/gear`} />;
 
-  const ink = readableColor(entry.color, theme);
   const hasSlots = (b: { slots?: unknown[] | null } | null | undefined) => Boolean(b && Array.isArray(b.slots) && b.slots.length > 0);
   const activeSpec =
     specs.find((s) => specKey(s) === specSel) ??
@@ -57,71 +55,84 @@ export function GearPage({ slug, spec, bracket }: { slug: string; spec?: string;
   const agreement = agreementMeta(activeBracket?.agreement ?? null);
 
   return (
-    <div className="mx-auto max-w-6xl px-3 py-6 sm:px-5">
-      <nav aria-label="Breadcrumb" className="mb-3 text-sm text-muted">
-        <a href={href.home()} className="hover:underline">
-          Classes
-        </a>
-        <span className="mx-1.5" aria-hidden="true">/</span>
-        <a href={href.class(entry.slug)} className="hover:underline" style={{ color: ink }}>
-          {entry.name}
-        </a>
-        <span className="mx-1.5" aria-hidden="true">/</span>
-        <span className="text-ink">Gear</span>
-      </nav>
-
-      <header className="mb-5 overflow-hidden rounded-xl bg-surface hairline">
-        <div className="h-1.5 w-full" style={{ backgroundColor: entry.color }} aria-hidden="true" />
-        <div className="p-4 sm:p-5">
-          <p className="eyebrow">Research archive · forum-era gear lists</p>
-          <h1 className="display mt-1 text-2xl sm:text-3xl">{entry.name} gear by spec and bracket</h1>
-          <p className="mt-2 max-w-3xl text-sm text-muted">
-            Compiled from the forum&rsquo;s best-in-slot and gearing threads before the Discord read. Each spec
-            guide&rsquo;s Gear section has the current 1.18.1 advice.
+    <Page
+      style={vars}
+      header={
+        <PageHeader
+          crumbs={[
+            { label: 'Classes', href: href.home() },
+            { label: entry.name, href: href.class(entry.slug) },
+            { label: 'Gear' },
+          ]}
+          icon={<ClassMark name={entry.name} color={entry.color} size="xl" />}
+          title={
+            <>
+              <span style={{ color: ink }}>{entry.name}</span> gear by spec and bracket
+            </>
+          }
+          meta={<span>Research archive · forum-era gear lists</span>}
+        >
+          <p className="max-w-[74ch] text-muted-foreground">
+            Compiled from the forum&rsquo;s best-in-slot and gearing threads before the Discord read. Each spec guide&rsquo;s Gear section
+            has the current 1.18.1 advice.
           </p>
-        </div>
-      </header>
-
+        </PageHeader>
+      }
+    >
       {specs.length > 0 ? (
-        <div className="space-y-3">
-          <div>
-            <div className="mb-1.5 text-xs font-semibold uppercase tracking-wider text-muted">Spec and role</div>
-            <Tabs
-              items={specs.map((s) => ({ id: specKey(s), label: `${s.spec ?? ''} ${roleLabel(String(s.role ?? ''))}`.trim() }))}
-              active={activeSpec ? specKey(activeSpec) : ''}
-              onChange={(id) => {
-                setSpecSel(id);
-                setBracketSel('');
-              }}
-              ariaLabel="Spec and role"
-              accent={entry.color}
-            />
+        <div className="space-y-4">
+          <div className="grid gap-3 sm:grid-cols-2">
+            <label className="block text-xs text-muted-foreground">
+              Spec and role
+              <Select
+                value={activeSpec ? specKey(activeSpec) : ''}
+                onValueChange={(id) => {
+                  setSpecSel(id);
+                  setBracketSel('');
+                }}
+              >
+                <SelectTrigger className="mt-1 text-foreground" aria-label="Spec and role">
+                  <SelectValue />
+                </SelectTrigger>
+                <SelectContent>
+                  {specs.map((s) => (
+                    <SelectItem key={specKey(s)} value={specKey(s)}>
+                      {`${s.spec ?? ''} ${roleLabel(String(s.role ?? ''))}`.trim()}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+            </label>
+            {brackets.length > 0 ? (
+              <label className="block text-xs text-muted-foreground">
+                Bracket
+                <Select value={activeBracket ? String(activeBracket.bracket) : ''} onValueChange={setBracketSel}>
+                  <SelectTrigger className="mt-1 text-foreground" aria-label="Level bracket">
+                    <SelectValue />
+                  </SelectTrigger>
+                  <SelectContent>
+                    {brackets.map((b) => (
+                      <SelectItem key={String(b.bracket)} value={String(b.bracket)}>
+                        {bracketLabel(String(b.bracket ?? ''))}
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
+              </label>
+            ) : null}
           </div>
 
-          {brackets.length > 0 ? (
-            <div>
-              <div className="mb-1.5 text-xs font-semibold uppercase tracking-wider text-muted">Bracket</div>
-              <Tabs
-                items={brackets.map((b) => ({ id: String(b.bracket), label: bracketLabel(String(b.bracket ?? '')) }))}
-                active={activeBracket ? String(activeBracket.bracket) : ''}
-                onChange={setBracketSel}
-                ariaLabel="Level bracket"
-                accent={entry.color}
-              />
-            </div>
-          ) : null}
-
           {activeBracket ? (
-            <Card as="section" className="space-y-4">
+            <section className="space-y-4 rounded-lg border bg-card p-4">
               <div className="flex flex-wrap items-center gap-1.5">
-                <Badge label={humanizeKey(String(activeBracket.bracket ?? ''))} color={entry.color} />
-                {agreement ? <Badge label={agreement.label} color={agreement.color} title={agreement.title} /> : null}
-                {validity ? <Badge label={validity.label} color={validity.color} title={validity.title} /> : null}
+                <Badge>{humanizeKey(String(activeBracket.bracket ?? ''))}</Badge>
+                {agreement ? <Badge title={agreement.title}>{agreement.label}</Badge> : null}
+                {validity ? <Badge title={validity.title}>{validity.label}</Badge> : null}
               </div>
 
               {activeBracket.stat_notes ? (
-                <div className="rounded-xl bg-surface2 hairline p-3">
-                  <div className="mb-1 text-xs font-semibold uppercase tracking-wider text-muted">Stat notes</div>
+                <div className="rounded-md border bg-muted/40 p-3">
+                  <div className="mb-1 text-xs font-medium text-muted-foreground">Stat notes</div>
                   <Markdown source={String(activeBracket.stat_notes)} />
                 </div>
               ) : null}
@@ -130,12 +141,12 @@ export function GearPage({ slug, spec, bracket }: { slug: string; spec?: string;
 
               {!isEmptyValue(activeBracket.enchants) ? (
                 <div>
-                  <h2 className="mb-2 text-sm font-semibold uppercase tracking-wider text-muted">Enchants</h2>
+                  <h2 className="mb-2 text-sm font-semibold">Enchants</h2>
                   <ul className="space-y-1.5">
                     {(activeBracket.enchants ?? []).map((e, i) => (
                       <li key={i} className="flex flex-wrap items-baseline gap-2 text-sm">
                         <span className="font-medium">{humanizeKey(String(e.slot ?? '—'))}</span>
-                        <span className="text-muted">{String(e.enchant ?? '')}</span>
+                        <span className="text-muted-foreground">{String(e.enchant ?? '')}</span>
                         {(e.citations ?? []).map((c, ci) => (
                           <CitationChip key={ci} source={c} />
                         ))}
@@ -147,12 +158,12 @@ export function GearPage({ slug, spec, bracket }: { slug: string; spec?: string;
 
               {!isEmptyValue(activeBracket.consumables) ? (
                 <div>
-                  <h2 className="mb-2 text-sm font-semibold uppercase tracking-wider text-muted">Consumables</h2>
+                  <h2 className="mb-2 text-sm font-semibold">Consumables</h2>
                   <ul className="space-y-1.5">
                     {(activeBracket.consumables ?? []).map((c, i) => (
                       <li key={i} className="flex flex-wrap items-baseline gap-2 text-sm">
                         <span className="font-medium">{String(c.name ?? '')}</span>
-                        {c.use ? <span className="text-muted">{String(c.use)}</span> : null}
+                        {c.use ? <span className="text-muted-foreground">{String(c.use)}</span> : null}
                         {(c.citations ?? []).map((cit, ci) => (
                           <CitationChip key={ci} source={cit} />
                         ))}
@@ -161,9 +172,9 @@ export function GearPage({ slug, spec, bracket }: { slug: string; spec?: string;
                   </ul>
                 </div>
               ) : null}
-            </Card>
+            </section>
           ) : (
-            <p className="text-sm text-muted">No bracket data for this spec.</p>
+            <p className="text-sm text-muted-foreground">No bracket data for this spec.</p>
           )}
         </div>
       ) : null}
@@ -174,22 +185,33 @@ export function GearPage({ slug, spec, bracket }: { slug: string; spec?: string;
             <YamlValue value={entry.gear?.caveats} />
           </Callout>
         ) : null}
-        {!isEmptyValue(entry.gear?.gaps) ? (
-          <Collapsible title="Gaps — what the sources do not cover">
-            <YamlValue value={entry.gear?.gaps} />
-          </Collapsible>
-        ) : null}
-        {!isEmptyValue(entry.gear?.generated_from) ? (
-          <Collapsible title="Generated from">
-            <YamlValue value={entry.gear?.generated_from} />
-          </Collapsible>
-        ) : null}
-        {gearMarkdown.map((s) => (
-          <Collapsible key={s.id} title={s.heading}>
-            <Markdown source={s.markdown} />
-          </Collapsible>
-        ))}
+        <Accordion type="multiple" className="rounded-lg border px-4">
+          {!isEmptyValue(entry.gear?.gaps) ? (
+            <AccordionItem value="gaps" className="last:border-b-0">
+              <AccordionTrigger>What the sources do not cover</AccordionTrigger>
+              <AccordionContent>
+                <YamlValue value={entry.gear?.gaps} />
+              </AccordionContent>
+            </AccordionItem>
+          ) : null}
+          {!isEmptyValue(entry.gear?.generated_from) ? (
+            <AccordionItem value="from" className="last:border-b-0">
+              <AccordionTrigger>Generated from</AccordionTrigger>
+              <AccordionContent>
+                <YamlValue value={entry.gear?.generated_from} />
+              </AccordionContent>
+            </AccordionItem>
+          ) : null}
+          {gearMarkdown.map((s) => (
+            <AccordionItem key={s.id} value={s.id} className="last:border-b-0">
+              <AccordionTrigger>{s.heading}</AccordionTrigger>
+              <AccordionContent>
+                <Markdown source={s.markdown} />
+              </AccordionContent>
+            </AccordionItem>
+          ))}
+        </Accordion>
       </div>
-    </div>
+    </Page>
   );
 }

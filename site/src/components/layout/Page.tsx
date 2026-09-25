@@ -1,5 +1,15 @@
-import type { ReactNode } from 'react';
-import { Toc, type TocItem } from './Toc';
+import type { CSSProperties, ReactNode } from 'react';
+import { Link2 } from 'lucide-react';
+import { cn } from '../../lib/utils';
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from '../ui/breadcrumb';
+import { MobileToc, Toc, type TocItem } from './Toc';
 
 export interface Crumb {
   label: string;
@@ -8,94 +18,131 @@ export interface Crumb {
 
 export function Breadcrumbs({ items }: { items: Crumb[] }) {
   return (
-    <nav aria-label="Breadcrumb" className="text-[13px] text-muted">
-      <ol className="flex flex-wrap items-center gap-x-1.5 gap-y-1">
+    <Breadcrumb>
+      <BreadcrumbList>
         {items.map((c, i) => (
-          <li key={i} className="flex items-center gap-1.5">
-            {i > 0 ? <span aria-hidden="true" className="opacity-60">/</span> : null}
-            {c.href ? (
-              <a href={c.href} className="hover:text-ink">
-                {c.label}
-              </a>
-            ) : (
-              <span aria-current="page" className="text-ink">
-                {c.label}
-              </span>
-            )}
-          </li>
+          <span key={i} className="contents">
+            {i > 0 ? <BreadcrumbSeparator /> : null}
+            <BreadcrumbItem>{c.href ? <BreadcrumbLink href={c.href}>{c.label}</BreadcrumbLink> : <BreadcrumbPage>{c.label}</BreadcrumbPage>}</BreadcrumbItem>
+          </span>
         ))}
-      </ol>
-    </nav>
+      </BreadcrumbList>
+    </Breadcrumb>
   );
 }
 
-/** The top band of a page, washed with the class color (or the archive's brass). */
-export function PageHero({
-  rgb,
-  crumbs,
+/**
+ * The page column: header on top, then the content with the "On this page"
+ * list on the right (wide screens) or as a sticky menu under the top bar.
+ */
+export function Page({
+  header,
+  toc,
   children,
+  style,
+  className,
 }: {
-  rgb?: string;
-  crumbs?: Crumb[];
+  header?: ReactNode;
+  toc?: TocItem[];
   children: ReactNode;
+  style?: CSSProperties;
+  className?: string;
 }) {
-  const tint = rgb ?? 'var(--c-accent)';
+  const hasToc = !!toc && toc.length > 1;
   return (
-    <div
-      className="relative border-b"
-      style={{
-        background: `radial-gradient(70rem 26rem at 8% -30%, rgb(${tint} / 0.16), transparent 70%), linear-gradient(180deg, rgb(${tint} / 0.05), transparent)`,
-      }}
-    >
-      <span aria-hidden="true" className="absolute inset-x-0 top-0 h-[3px]" style={{ background: `rgb(${tint} / 0.8)` }} />
-      <div className="mx-auto max-w-7xl px-4 pb-8 pt-6 sm:px-6 sm:pb-10 sm:pt-8">
-        {crumbs ? <Breadcrumbs items={crumbs} /> : null}
-        <div className={crumbs ? 'mt-4' : ''}>{children}</div>
-      </div>
-    </div>
-  );
-}
-
-/** Content column with a table of contents: sidebar on desktop, chip bar on phones. */
-export function WithToc({ toc, children, title }: { toc: TocItem[]; children: ReactNode; title?: string }) {
-  return (
-    <div className="mx-auto max-w-7xl px-4 sm:px-6">
-      <div className="lg:grid lg:grid-cols-[minmax(0,1fr)_15rem] lg:gap-12">
-        {/* `contents` on phones: the chip bar then sticks for the whole page, not just its wrapper */}
-        <div className="contents lg:order-2 lg:block">
-          <Toc items={toc} title={title} />
+    <div className={cn('mx-auto w-full max-w-[76rem] px-4 pb-16 pt-5 sm:px-6 lg:px-8 lg:pt-7', className)} style={style}>
+      {header}
+      <div className={cn(hasToc && 'xl:grid xl:grid-cols-[minmax(0,1fr)_13rem] xl:gap-12')}>
+        <div className="min-w-0">
+          {hasToc ? <MobileToc items={toc!} /> : null}
+          {children}
         </div>
-        <div className="min-w-0 py-8 sm:py-10 lg:order-1">{children}</div>
+        {hasToc ? (
+          <aside className="hidden xl:block">
+            <Toc items={toc!} />
+          </aside>
+        ) : null}
       </div>
     </div>
   );
 }
 
-/** One titled block of a page; its id is the anchor the table of contents uses. */
-export function Section({
-  id,
+/** Breadcrumb, title row (emblem, title, meta line, actions) and an optional lead. */
+export function PageHeader({
+  crumbs,
+  icon,
   title,
-  eyebrow,
+  meta,
   actions,
   children,
-  className = '',
+  nav,
+  className,
+  titleStyle,
 }: {
-  id: string;
+  titleStyle?: CSSProperties;
+  crumbs?: Crumb[];
+  icon?: ReactNode;
   title: ReactNode;
-  eyebrow?: ReactNode;
+  meta?: ReactNode;
   actions?: ReactNode;
-  children: ReactNode;
+  children?: ReactNode;
+  /** A sub-navigation strip under the header (the class pages). */
+  nav?: ReactNode;
   className?: string;
 }) {
   return (
-    <section id={id} className={`scroll-mt-28 lg:scroll-mt-20 ${className}`} aria-labelledby={`${id}-title`}>
-      <div className="mb-4 flex flex-wrap items-end justify-between gap-x-4 gap-y-2">
-        <div className="min-w-0">
-          {eyebrow ? <p className="eyebrow mb-1">{eyebrow}</p> : null}
-          <h2 id={`${id}-title`} className="display text-[1.55rem] leading-tight sm:text-[1.75rem]">
+    <header className={cn('mb-8', className)}>
+      {crumbs ? <Breadcrumbs items={crumbs} /> : null}
+      <div className={cn('flex flex-wrap items-start gap-x-4 gap-y-3', crumbs && 'mt-3')}>
+        {icon ? <div className="pt-0.5">{icon}</div> : null}
+        <div className="min-w-0 flex-1">
+          <h1 className="text-[1.6rem] font-semibold leading-tight tracking-tight sm:text-[1.85rem]" style={titleStyle}>
             {title}
-          </h2>
+          </h1>
+          {meta ? <div className="mt-1.5 flex flex-wrap items-center gap-x-3 gap-y-1.5 text-[13px] text-muted-foreground">{meta}</div> : null}
         </div>
+        {actions ? <div className="flex flex-wrap items-center gap-2">{actions}</div> : null}
+      </div>
+      {children ? <div className="mt-4">{children}</div> : null}
+      {nav ? <div className="mt-5">{nav}</div> : null}
+    </header>
+  );
+}
+
+/** One titled block of a page; its id is the anchor the "On this page" list uses. */
+export function Section({
+  id,
+  title,
+  actions,
+  children,
+  className,
+  level = 2,
+}: {
+  id: string;
+  title: ReactNode;
+  actions?: ReactNode;
+  children: ReactNode;
+  className?: string;
+  level?: 2 | 3;
+}) {
+  const H = level === 2 ? 'h2' : 'h3';
+  return (
+    <section id={id} className={cn('scroll-mt-[4.5rem] xl:scroll-mt-20', className)} aria-labelledby={`${id}-title`}>
+      <div className="mb-3 flex flex-wrap items-center justify-between gap-x-4 gap-y-2">
+        <H id={`${id}-title`} className={cn('group flex items-center gap-2 font-semibold tracking-tight', level === 2 ? 'text-[1.15rem]' : 'text-base')}>
+          {title}
+          <a
+            href={`#${id}`}
+            onClick={(e) => {
+              e.preventDefault();
+              document.getElementById(id)?.scrollIntoView({ block: 'start' });
+            }}
+            className="text-muted-foreground opacity-0 transition-opacity focus:opacity-100 group-hover:opacity-100"
+            aria-label="Link to this section"
+          >
+            <Link2 className="h-3.5 w-3.5" />
+          </a>
+        </H>
         {actions}
       </div>
       {children}
@@ -103,13 +150,23 @@ export function Section({
   );
 }
 
+/** Stacks sections with a rule between them. */
+export function Sections({ children, className }: { children: ReactNode; className?: string }) {
+  return <div className={cn('space-y-10 [&>section+section]:border-t [&>section+section]:pt-8', className)}>{children}</div>;
+}
+
+/** Loading state: an in-game cast bar ("Loading Mage guide"). */
 export function Loading({ label = 'Loading…' }: { label?: string }) {
   return (
-    <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6" role="status" aria-live="polite">
-      <div className="h-8 w-64 animate-pulse rounded-lg bg-surface2" />
-      <div className="mt-4 h-4 w-full max-w-2xl animate-pulse rounded bg-surface2" />
-      <div className="mt-2 h-4 w-full max-w-xl animate-pulse rounded bg-surface2" />
-      <span className="sr-only">{label}</span>
+    <div className="mx-auto flex max-w-[76rem] justify-center px-4 py-24" role="status" aria-live="polite">
+      <div className="w-full max-w-xs">
+        <div className="relative h-5 overflow-hidden rounded-[3px] border border-black/80 bg-[#0c0d10] shadow-[0_0_0_1px_rgb(120_120_130/0.35)]">
+          <div className="absolute inset-y-0 left-0 w-full origin-left animate-cast bg-gradient-to-b from-[#ffd84a] to-[#c98f00]" />
+          <span className="absolute inset-0 flex items-center justify-center text-[11px] font-semibold text-white [text-shadow:0_1px_1px_#000]">
+            {label}
+          </span>
+        </div>
+      </div>
     </div>
   );
 }

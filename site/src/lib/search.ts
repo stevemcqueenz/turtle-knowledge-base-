@@ -29,7 +29,7 @@ export const searchItems: SearchItem[] = (() => {
     items.push({
       kind: 'class',
       label: c.name,
-      detail: 'Class overview · viability · races · professions',
+      detail: 'Class overview: ratings, specs, 1.18.1 changes, races',
       href: href.class(c.slug),
       haystack: `${c.name} ${c.slug} class`.toLowerCase(),
       color: c.color,
@@ -98,8 +98,8 @@ export const searchItems: SearchItem[] = (() => {
     for (const d of c.guidePages) {
       items.push({
         kind: 'page',
-        label: d.title,
-        detail: `${c.name} guide page`,
+        label: d.slug === 'professions' ? `${c.name} professions` : d.title,
+        detail: d.slug === 'professions' ? d.title : `${c.name} guide page`,
         href: href.guidePage(c.slug, d.slug),
         haystack: `${c.name} ${d.title} ${d.slug}`.toLowerCase(),
         color: c.color,
@@ -135,6 +135,31 @@ export const searchItems: SearchItem[] = (() => {
       }
     }
   }
+  if (core.professions) {
+    items.push({
+      kind: 'page',
+      label: 'Professions',
+      detail: core.professions.title,
+      href: href.professions(),
+      haystack: 'professions engineering alchemy herbalism mining skinning survival gardening jewelcrafting gold crafting',
+    });
+    for (const h of core.professions.headings) {
+      items.push({
+        kind: 'section',
+        label: clean(h.heading),
+        detail: 'Professions overview',
+        href: href.section(href.professions(), h.id),
+        haystack: `${h.heading} professions`.toLowerCase(),
+      });
+    }
+  }
+  items.push({
+    kind: 'page',
+    label: 'Glossary',
+    detail: `${glossary.length} terms from the archive`,
+    href: href.glossary(),
+    haystack: 'glossary terms jargon abbreviations',
+  });
   items.push({
     kind: 'page',
     label: 'Viability board',
